@@ -53,7 +53,7 @@ Associates a class of event objects with the event interface those objects imple
 
 <b>IEventClass</b> is the interface that is implemented by the CLSID_CEventClass objects, which are different than event class objects that are co-created by a publisher for the purpose of firing events.
 
-An event object implements the <a href="https://msdn.microsoft.com/e603f68a-881c-468d-a3d3-738f43400e01">IMultiInterfaceEventControl</a> event interface. While this object can be used to configure event classes in the event store, the preferred method is to use the COM+ Administration interfaces. However, not all of the properties exposed by the <b>IEventClass</b> interface are available through the COM+ Administration interfaces.
+An event object implements the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-imultiinterfaceeventcontrol">IMultiInterfaceEventControl</a> event interface. While this object can be used to configure event classes in the event store, the preferred method is to use the COM+ Administration interfaces. However, not all of the properties exposed by the <b>IEventClass</b> interface are available through the COM+ Administration interfaces.
 
 
 ## -see-also
@@ -61,7 +61,7 @@ An event object implements the <a href="https://msdn.microsoft.com/e603f68a-881c
 
 
 
-<a href="https://msdn.microsoft.com/0e04cd6f-1f8b-4bdf-92b0-5baddeb361b5">COM+ Administration Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--administration-interfaces">COM+ Administration Interfaces</a>
  
 
  

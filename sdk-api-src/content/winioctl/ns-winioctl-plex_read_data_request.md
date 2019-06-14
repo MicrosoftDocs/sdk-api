@@ -77,7 +77,7 @@ The plex from which to read. A value of zero indicates the primary copy, a value
 
 
 
-<a href="https://msdn.microsoft.com/f2cddd4d-cb58-484c-9a85-274b88ec4ece">FSCTL_READ_FROM_PLEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_from_plex">FSCTL_READ_FROM_PLEX</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Updates the provided child <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> based on the parameters specified by the provided <a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a>.
+Updates the provided child <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> based on the parameters specified by the provided <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>.
 
 
 ## -parameters
@@ -59,23 +59,23 @@ Updates the provided child <a href="https://msdn.microsoft.com/60daf071-4e93-4e1
 
 ### -param pbc [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>*</b>
 
-An <a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a> interface on a bind context object. Used to specify parameters for updating the child <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a>. This value can be <b>NULL</b>.
+An <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> interface on a bind context object. Used to specify parameters for updating the child <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a>. This value can be <b>NULL</b>.
 
 
 ### -param pidlIn [in]
 
 Type: <b>PCUITEMID_CHILD</b>
 
-The child <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a>.
+The child <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a>.
 
 
 ### -param ppidlOut [out]
 
 Type: <b>PITEMID_CHILD*</b>
 
-A pointer to the child <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> relative to the parent folder.
+A pointer to the child <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> relative to the parent folder.
 
 
 ## -returns
@@ -93,7 +93,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-If <i>pbc</i> is <b>NULL</b> or does not contain any parameters that apply to the current Shell folder, <i>ppidlOut</i> points to the same <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a>  as <i>pidlIn</i>.
+If <i>pbc</i> is <b>NULL</b> or does not contain any parameters that apply to the current Shell folder, <i>ppidlOut</i> points to the same <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a>  as <i>pidlIn</i>.
 
 
 
@@ -103,11 +103,11 @@ If <i>pbc</i> is <b>NULL</b> or does not contain any parameters that apply to th
 
 
 
-<a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/e6d94975-de33-497e-95a9-b89e8f8f0134">IUpdateIDList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iupdateidlist">IUpdateIDList</a>
  
 
  

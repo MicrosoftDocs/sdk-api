@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Invoked by Microsoft Media Foundation to check if it should invoke <a href="https://msdn.microsoft.com/01B799C2-63C6-4BDC-AAE2-CFC3C426A218">BeginReadPayload</a> to read data from the message body of the response. During the processing of a typical HTTP response, Media Foundation will invoke <b>BeginReadPayload</b> multiple times, but once <b>GetAtEndOfPayload</b> sets its output parameter to TRUE, Media Foundation will not invoke <b>BeginReadPayload</b> again.
+Invoked by Microsoft Media Foundation to check if it should invoke <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadrequest-beginreadpayload">BeginReadPayload</a> to read data from the message body of the response. During the processing of a typical HTTP response, Media Foundation will invoke <b>BeginReadPayload</b> multiple times, but once <b>GetAtEndOfPayload</b> sets its output parameter to TRUE, Media Foundation will not invoke <b>BeginReadPayload</b> again.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Invoked by Microsoft Media Foundation to check if it should invoke <a href="http
 
 ### -param pfAtEndOfPayload [out]
 
-Set to FALSE if a call to <a href="https://msdn.microsoft.com/01B799C2-63C6-4BDC-AAE2-CFC3C426A218">BeginReadPayload</a> can return one or more bytes of data to Media Foundation. Set to TRUE when there is no more data to return.
+Set to FALSE if a call to <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadrequest-beginreadpayload">BeginReadPayload</a> can return one or more bytes of data to Media Foundation. Set to TRUE when there is no more data to return.
 
 
 ## -returns
@@ -109,7 +109,7 @@ The <i>pfAtEndOfPayload</i> parameter is an invalid pointer.
 
 
 
-Microsoft Media Foundation invokes <b>GetAtEndOfPayload</b> only after having successfully invoked <a href="https://msdn.microsoft.com/FC342FB9-930F-4EA7-9057-51AF10D13ED9">EndReceiveResponse</a>.
+Microsoft Media Foundation invokes <b>GetAtEndOfPayload</b> only after having successfully invoked <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadrequest-endreceiveresponse">EndReceiveResponse</a>.
 
 
 
@@ -119,7 +119,7 @@ Microsoft Media Foundation invokes <b>GetAtEndOfPayload</b> only after having su
 
 
 
-<a href="https://msdn.microsoft.com/A8A37C2F-A662-4FDA-95F6-43D96A8471A8">IMFHttpDownloadRequest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>
  
 
  

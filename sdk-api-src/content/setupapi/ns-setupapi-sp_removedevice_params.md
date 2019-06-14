@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-An SP_REMOVEDEVICE_PARAMS structure corresponds to the <a href="https://msdn.microsoft.com/14429756-c059-46d7-bd1c-0ae57d1ec8b5">DIF_REMOVE</a> installation request.
+An SP_REMOVEDEVICE_PARAMS structure corresponds to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-remove">DIF_REMOVE</a> installation request.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ An SP_REMOVEDEVICE_PARAMS structure corresponds to the <a href="https://msdn.mic
 
 ### -field ClassInstallHeader
 
-An install request header that contains the header size and the DIF code for the request. See <a href="https://msdn.microsoft.com/9f76b741-d2a7-484d-94cb-b559b017399d">SP_CLASSINSTALL_HEADER</a>. 
+An install request header that contains the header size and the DIF code for the request. See <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_classinstall_header">SP_CLASSINSTALL_HEADER</a>. 
 
 
 ### -field Scope
@@ -91,19 +91,19 @@ The hardware profile ID for profile-specific changes. Zero specifies the current
 
 
 
-<a href="https://msdn.microsoft.com/14429756-c059-46d7-bd1c-0ae57d1ec8b5">DIF_REMOVE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-remove">DIF_REMOVE</a>
 
 
 
-<a href="https://msdn.microsoft.com/9f76b741-d2a7-484d-94cb-b559b017399d">SP_CLASSINSTALL_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_classinstall_header">SP_CLASSINSTALL_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/2aa631c3-8d00-4309-a37c-efaa7eda3efa">SetupDiCallClassInstaller</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a>
 
 
 
-<a href="https://msdn.microsoft.com/1070f6cc-e5de-4f4e-8325-b412751e9fb3">SetupDiRemoveDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiremovedevice">SetupDiRemoveDevice</a>
  
 
  

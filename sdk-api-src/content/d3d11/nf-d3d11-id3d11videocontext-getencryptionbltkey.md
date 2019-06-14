@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the cryptographic key to decrypt the data returned by the <a href="https://msdn.microsoft.com/2BBD0BC2-53D9-435E-835C-20A992118329">ID3D11VideoContext::EncryptionBlt</a> method.
+Gets the cryptographic key to decrypt the data returned by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-encryptionblt">ID3D11VideoContext::EncryptionBlt</a> method.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets the cryptographic key to decrypt the data returned by the <a href="https://
 
 ### -param pCryptoSession [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/E17F39CB-61E3-44EF-805D-AD386743744E">ID3D11CryptoSession</a> interface.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11cryptosession">ID3D11CryptoSession</a> interface.
 
 
 ### -param KeySize [in]
@@ -85,7 +85,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method applies only when the driver requires a separate content key for the <a href="https://msdn.microsoft.com/2BBD0BC2-53D9-435E-835C-20A992118329">EncryptionBlt</a> method. For more information, see the Remarks for <b>EncryptionBlt</b>.
+This method applies only when the driver requires a separate content key for the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-encryptionblt">EncryptionBlt</a> method. For more information, see the Remarks for <b>EncryptionBlt</b>.
 
 Each time this method is called, the driver generates a new key.
 
@@ -101,7 +101,7 @@ The read back key is encrypted by the driver/hardware using the session key.
 
 
 
-<a href="https://msdn.microsoft.com/6EF09C31-56C7-46B5-87AE-B1FE43EC66FC">ID3D11VideoContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a>
  
 
  

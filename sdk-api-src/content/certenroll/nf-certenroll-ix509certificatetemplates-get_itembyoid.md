@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ItemByOid</b> property retrieves an <a href="https://msdn.microsoft.com/56122d92-7e38-4eaa-b2f5-713adc81e68e">IX509CertificateTemplate</a> object from the collection by <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a>.
+The <b>ItemByOid</b> property retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplate">IX509CertificateTemplate</a> object from the collection by <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a>.
 
 This property is read-only.
 
@@ -63,11 +63,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/56122d92-7e38-4eaa-b2f5-713adc81e68e">IX509CertificateTemplate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplate">IX509CertificateTemplate</a>
 
 
 
-<a href="https://msdn.microsoft.com/82d14b93-e07b-4ff3-88b9-b1873972b4ad">IX509CertificateTemplates</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplates">IX509CertificateTemplates</a>
  
 
  

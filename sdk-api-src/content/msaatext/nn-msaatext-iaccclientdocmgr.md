@@ -58,7 +58,7 @@ Exposes methods for client applications to retrieve documents.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccClientDocMgr</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAccClientDocMgr</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccClientDocMgr</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAccClientDocMgr</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IAccClientDocMgr</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/490a202b-1fb4-4f2e-a8f2-f9134a8a9daf">GetDocuments</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msaatext/nf-msaatext-iaccclientdocmgr-getdocuments">GetDocuments</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of documents that have been registered with the Microsoft Active Accessibility run time. 
@@ -82,7 +82,7 @@ Retrieves a list of documents that have been registered with the Microsoft Activ
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/102a511b-43ad-48c1-8953-647482fa452b">GetFocused</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msaatext/nf-msaatext-iaccclientdocmgr-getfocused">GetFocused</a>
 </td>
 <td align="left" width="63%">
 Retrieves the document that has focus.
@@ -91,7 +91,7 @@ Retrieves the document that has focus.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fb67c208-b79b-4219-ba5b-2235ae4a1dcf">LookupByHWND</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msaatext/nf-msaatext-iaccclientdocmgr-lookupbyhwnd">LookupByHWND</a>
 </td>
 <td align="left" width="63%">
 Retrieves a document from an HWND.
@@ -100,7 +100,7 @@ Retrieves a document from an HWND.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6de40049-3c61-458c-b7e0-c4b416780581">LookupByPoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msaatext/nf-msaatext-iaccclientdocmgr-lookupbypoint">LookupByPoint</a>
 </td>
 <td align="left" width="63%">
 Retrieves a document from a point on the screen.

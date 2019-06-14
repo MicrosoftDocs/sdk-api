@@ -96,13 +96,13 @@ This method is called by an active object's immediate container to deactivate th
 
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-On return from <b>IOleInPlaceObject::InPlaceDeactivate</b>, the object discards its undo state. The object application should not shut down immediately after this call. Instead, it should wait for an explicit call to <a href="https://msdn.microsoft.com/61ecd153-ed6b-4a2c-a862-54742c5769ee">IOleObject::Close</a> or for the object's reference count to reach zero.
+On return from <b>IOleInPlaceObject::InPlaceDeactivate</b>, the object discards its undo state. The object application should not shut down immediately after this call. Instead, it should wait for an explicit call to <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-close">IOleObject::Close</a> or for the object's reference count to reach zero.
 
-Before deactivating, the object application should give the container a chance to put its user interface back on the frame window by calling <a href="https://msdn.microsoft.com/926c02b4-0bfa-4509-b5bc-4e5007e4db1a">IOleInPlaceSite::OnUIDeactivate</a>.
+Before deactivating, the object application should give the container a chance to put its user interface back on the frame window by calling <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-onuideactivate">IOleInPlaceSite::OnUIDeactivate</a>.
 
-If the in-place user interface is still visible during the call to <b>IOleInPlaceObject::InPlaceDeactivate</b>, the object application should call its own <b>IOleInPlaceObject::InPlaceDeactivate</b> method to hide the user interface. The in-place user interface can be optionally destroyed during calls to <b>IOleInPlaceObject::InPlaceDeactivate</b> and <b>IOleInPlaceObject::InPlaceDeactivate</b>. But if the user interface has not already been destroyed when the container calls <a href="https://msdn.microsoft.com/61ecd153-ed6b-4a2c-a862-54742c5769ee">IOleObject::Close</a>, then it must be destroyed during the call to <b>IOleObject::Close</b>.
+If the in-place user interface is still visible during the call to <b>IOleInPlaceObject::InPlaceDeactivate</b>, the object application should call its own <b>IOleInPlaceObject::InPlaceDeactivate</b> method to hide the user interface. The in-place user interface can be optionally destroyed during calls to <b>IOleInPlaceObject::InPlaceDeactivate</b> and <b>IOleInPlaceObject::InPlaceDeactivate</b>. But if the user interface has not already been destroyed when the container calls <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-close">IOleObject::Close</a>, then it must be destroyed during the call to <b>IOleObject::Close</b>.
 
-During the call to <a href="https://msdn.microsoft.com/61ecd153-ed6b-4a2c-a862-54742c5769ee">IOleObject::Close</a>, the object should check to see whether it is still active in place. If so, it should call <b>IOleInPlaceObject::InPlaceDeactivate</b>.
+During the call to <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-close">IOleObject::Close</a>, the object should check to see whether it is still active in place. If so, it should call <b>IOleInPlaceObject::InPlaceDeactivate</b>.
 
 
 
@@ -112,19 +112,19 @@ During the call to <a href="https://msdn.microsoft.com/61ecd153-ed6b-4a2c-a862-5
 
 
 
-<a href="https://msdn.microsoft.com/c14de79d-e844-49cf-ae70-6c3e417fab90">IOleInPlaceObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceobject">IOleInPlaceObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/070aac4e-94b6-4e23-b132-1dc833774c8b">IOleInPlaceSite::OnInPlaceDeactivate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-oninplacedeactivate">IOleInPlaceSite::OnInPlaceDeactivate</a>
 
 
 
-<a href="https://msdn.microsoft.com/926c02b4-0bfa-4509-b5bc-4e5007e4db1a">IOleInPlaceSite::OnUIDeactivate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-onuideactivate">IOleInPlaceSite::OnUIDeactivate</a>
 
 
 
-<a href="https://msdn.microsoft.com/61ecd153-ed6b-4a2c-a862-54742c5769ee">IOleObject::Close</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-close">IOleObject::Close</a>
  
 
  

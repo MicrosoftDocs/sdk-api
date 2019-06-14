@@ -68,7 +68,7 @@ The shading of the active cell.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -89,11 +89,11 @@ The shading is given in hundredths of a percent, so full shading is given by the
 
 
 
-<a href="https://msdn.microsoft.com/49f5ffc1-d615-4d07-9f41-1c5f0dd9045b">ITextRow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrow">ITextRow</a>
 
 
 
-<a href="https://msdn.microsoft.com/450f97ea-b5b4-44e4-92b8-155c1a9c9c1b">ITextRow::GetCellShading</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrow-getcellshading">ITextRow::GetCellShading</a>
  
 
  

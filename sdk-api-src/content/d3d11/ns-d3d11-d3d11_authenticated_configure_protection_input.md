@@ -59,14 +59,14 @@ Contains input data for a <b>D3D11_AUTHENTICATED_CONFIGURE_PROTECTION</b> comman
 
 ### -field Parameters
 
-A <a href="https://msdn.microsoft.com/11FC071E-9B73-4960-B675-A43DDF75AA0B">D3D11_AUTHENTICATED_CONFIGURE_INPUT</a> structure that contains the command GUID and other data.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_input">D3D11_AUTHENTICATED_CONFIGURE_INPUT</a> structure that contains the command GUID and other data.
 
 
 
 
 ### -field Protections
 
-A <a href="https://msdn.microsoft.com/en-us/library/Hh447607(v=VS.85).aspx">D3D11_AUTHENTICATED_PROTECTION_FLAGS</a> union that specifies the protection level.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_protection_flags">D3D11_AUTHENTICATED_PROTECTION_FLAGS</a> union that specifies the protection level.
 
 
 ## -see-also
@@ -74,7 +74,7 @@ A <a href="https://msdn.microsoft.com/en-us/library/Hh447607(v=VS.85).aspx">D3D1
 
 
 
-<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>
  
 
  

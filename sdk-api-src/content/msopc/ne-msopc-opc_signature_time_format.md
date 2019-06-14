@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Describes how to interpret the <i>signingTime</i> parameter, which is a record of when a signature was created,  of the <a href="https://msdn.microsoft.com/8054eba8-ca53-42e4-9105-ef7cf20637c1">IOpcDigitalSignature::GetSigningTime</a> method.
+Describes how to interpret the <i>signingTime</i> parameter, which is a record of when a signature was created,  of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcdigitalsignature-getsigningtime">IOpcDigitalSignature::GetSigningTime</a> method.
 
 
 ## -enum-fields
@@ -254,19 +254,19 @@ Time zone designator with a leading zero. Possible values:  Z, +<i>hh</i>:<i>mm<
 
 
 
-<a href="https://msdn.microsoft.com/ef392c88-49cd-4ffa-b1fb-1501c6448264">Getting Started with the Packaging API</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
 
 
 
-<a href="https://msdn.microsoft.com/df142c4d-27dc-4db3-9a37-78c5703c8119">IOpcDigitalSignature::GetTimeFormat</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcdigitalsignature-gettimeformat">IOpcDigitalSignature::GetTimeFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/69394df9-5382-49eb-9aa2-0785dee10ac4">IOpcSigningOptions::GetTimeFormat</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsigningoptions-gettimeformat">IOpcSigningOptions::GetTimeFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f8c1dbe-6347-4013-bda6-5e08c9d6921d">IOpcSigningOptions::SetTimeFormat</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsigningoptions-settimeformat">IOpcSigningOptions::SetTimeFormat</a>
 
 
 
@@ -274,19 +274,19 @@ Time zone designator with a leading zero. Possible values:  Z, +<i>hh</i>:<i>mm<
 
 
 
-<a href="https://msdn.microsoft.com/cb35d87e-bbec-42d3-9f9d-d1cf36f39419">Packaging API Programming Guide</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-guide">Packaging API Programming Guide</a>
 
 
 
-<a href="https://msdn.microsoft.com/885137be-35d5-4ec5-bbcc-16c95adf55ab">Packaging API Samples</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-samples">Packaging API Samples</a>
 
 
 
-<a href="https://msdn.microsoft.com/c84246dd-f34b-40ea-8530-f93483445533">Packaging Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-enumerations">Packaging Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0e9f38f-ab35-4fc2-855c-ea21bf164223">Packaging Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd371635(v=vs.85)">Packaging Interfaces</a>
 
 
 

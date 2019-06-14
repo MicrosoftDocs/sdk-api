@@ -72,7 +72,7 @@ The number of entries to return in each page.
 ### -param Cookie [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/1f279905-ab02-4a8b-9b77-e8ea2b56e882">berval</a> structure that the server uses to determine its location in the result set. This is an opaque structure that you should not access directly. Set to <b>NULL</b> for the first call to <b>ldap_create_page_control</b>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a> structure that the server uses to determine its location in the result set. This is an opaque structure that you should not access directly. Set to <b>NULL</b> for the first call to <b>ldap_create_page_control</b>.
 
 
 ### -param IsCritical [in]
@@ -105,12 +105,12 @@ To create the paged-results control, specify the number of entries to be returne
 This function creates the control - it does not verify that the server supports it, and consequently, does not return <b>LDAP_UNAVAILABLE_CRIT_EXTENSION</b> if the server does not support the control. However, it can return other standard LDAP return values, such as <b>LDAP_NO_MEMORY</b> or <b>LDAP_PARAM_ERROR</b>.
 
 When <b>ldap_create_page_control</b> returns successfully, include the newly created control to the list of server controls in a call to 
-<a href="https://msdn.microsoft.com/25ba88f3-44f6-42b8-9d33-6e57f2484738">ldap_search_ext</a> or to 
-<a href="https://msdn.microsoft.com/7ce74c35-7a30-4757-a4f7-d5cd4a389584">ldap_search_ext_s</a>. When the server returns the first page of results, call 
-<a href="https://msdn.microsoft.com/6cadfbe0-0b69-4c43-a2ca-d8b3a12bf0a9">ldap_parse_result</a> to retrieve the first page of results.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_ext">ldap_search_ext</a> or to 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_ext_s">ldap_search_ext_s</a>. When the server returns the first page of results, call 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_parse_result">ldap_parse_result</a> to retrieve the first page of results.
 
 Call 
-<a href="https://msdn.microsoft.com/10729355-8f80-477b-acc8-705db72cebdb">ldap_control_free</a> when the control is no longer required.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_control_free">ldap_control_free</a> when the control is no longer required.
 
 
 
@@ -120,31 +120,31 @@ Call
 
 
 
-<a href="https://msdn.microsoft.com/7a0040ea-f8f3-4378-8371-49768714d762">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/bd896700-70a9-4568-9f54-8ab56d0eacd8">LDAP_PAGED_RESULT_OID_STRING</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-paged-result-oid-string">LDAP_PAGED_RESULT_OID_STRING</a>
 
 
 
-<a href="https://msdn.microsoft.com/10729355-8f80-477b-acc8-705db72cebdb">ldap_control_free</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_control_free">ldap_control_free</a>
 
 
 
-<a href="https://msdn.microsoft.com/babf74d1-2f9c-40f8-ba82-e298e49ad937">ldap_parse_page_control</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_parse_page_control">ldap_parse_page_control</a>
 
 
 
-<a href="https://msdn.microsoft.com/6cadfbe0-0b69-4c43-a2ca-d8b3a12bf0a9">ldap_parse_result</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_parse_result">ldap_parse_result</a>
 
 
 
-<a href="https://msdn.microsoft.com/25ba88f3-44f6-42b8-9d33-6e57f2484738">ldap_search_ext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_ext">ldap_search_ext</a>
 
 
 
-<a href="https://msdn.microsoft.com/7ce74c35-7a30-4757-a4f7-d5cd4a389584">ldap_search_ext_s</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_ext_s">ldap_search_ext_s</a>
  
 
  

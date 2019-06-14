@@ -107,11 +107,11 @@ The <i>plCadenceOff</i> parameter is not a valid pointer.
 
 
 
-<a href="https://msdn.microsoft.com/f2c51048-93aa-4469-b00e-911e62b5702d">ITCustomTone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcustomtone">ITCustomTone</a>
 
 
 
-<a href="https://msdn.microsoft.com/056e1ca5-2bce-4a69-9b30-2ac142bcb52b">put_CadenceOff</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcustomtone-put_cadenceoff">put_CadenceOff</a>
  
 
  

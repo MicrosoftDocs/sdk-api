@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SECPKG_USER_FUNCTION_TABLE</b> structure contains pointers to the functions that a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a> implements to support executing in process with client/server applications. This structure is provided by the 
-<a href="https://msdn.microsoft.com/e260db29-995b-4f32-b389-4ef62b3b29bc">SpUserModeInitialize</a> function.
+The <b>SECPKG_USER_FUNCTION_TABLE</b> structure contains pointers to the functions that a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> implements to support executing in process with client/server applications. This structure is provided by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a> function.
 
 
 ## -struct-fields
@@ -72,13 +72,13 @@ Pointer to the <b>InitUserModeContext</b> function.
 
 ### -field MakeSignature
 
-Pointer to the <a href="https://msdn.microsoft.com/d17824b0-6121-48a3-b19b-d4fae3e1348e">MakeSignature</a> function.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-makesignature">MakeSignature</a> function.
 					
 
 
 ### -field VerifySignature
 
-Pointer to the <a href="https://msdn.microsoft.com/bebeef92-1d6e-4879-846f-12d706db0653">VerifySignature</a> function.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-verifysignature">VerifySignature</a> function.
 					
 
 
@@ -102,13 +102,13 @@ Pointer to the <b>GetContextToken</b> function.
 
 ### -field QueryContextAttributes
 
-Pointer to the <a href="https://msdn.microsoft.com/67bc087f-7519-4c8a-9b34-b3ecd306a334">QueryContextAttributes (General)</a> function.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function.
 					
 
 
 ### -field CompleteAuthToken
 
-Pointer to the <a href="https://msdn.microsoft.com/a404d0a3-d1ea-4708-87d7-2d216e9a5f5f">CompleteAuthToken</a> function.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-completeauthtoken">CompleteAuthToken</a> function.
 					
 
 

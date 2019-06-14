@@ -112,11 +112,11 @@ If the information description is longer than its buffer, the description is tru
 
 
 
-<a href="https://msdn.microsoft.com/c93ecc51-e2c5-4b69-8625-c8385d53fab2">Video Capture</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://msdn.microsoft.com/0fe87fa7-9f07-48f7-958b-da385d9ddaf0">Video Capture Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-functions">Video Capture Functions</a>
  
 
  

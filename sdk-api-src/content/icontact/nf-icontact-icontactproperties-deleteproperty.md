@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Deletes the value at a specified property. Property modification 
-		and version data can still be enumerated with <a href="https://msdn.microsoft.com/dec9430d-2174-42fe-85c1-16fa7e7adc0c">IContactPropertyCollection</a>.
+		and version data can still be enumerated with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactpropertycollection">IContactPropertyCollection</a>.
 
 
 ## -parameters

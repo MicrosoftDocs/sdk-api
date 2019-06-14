@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href="http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
 Specifies whether the current chunk is a text-type property or a value-type property.
 
@@ -80,15 +80,15 @@ Reserved.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691080(v=VS.85).aspx">IFilter::GetChunk</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/filter/nf-filter-ifilter-getchunk">IFilter::GetChunk</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690992(v=VS.85).aspx">IFilter::GetText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/filter/nf-filter-ifilter-gettext">IFilter::GetText</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691016(v=VS.85).aspx">STAT_CHUNK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/filter/ns-filter-tagstat_chunk">STAT_CHUNK</a>
  
 
  

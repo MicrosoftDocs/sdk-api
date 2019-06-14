@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Contains information about a reparse point. It is used by the 
-    <a href="https://msdn.microsoft.com/6f1b7ea2-aed6-4ab4-8e92-1b77ab5cfefb">FSCTL_GET_REPARSE_POINT</a> control code.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_reparse_point">FSCTL_GET_REPARSE_POINT</a> control code.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ Contains information about a reparse point. It is used by the
 ### -field ReparseTag
 
 The reparse point tag. This member identifies the structure of the user-defined reparse data. For more 
-      information, see <a href="https://msdn.microsoft.com/d02a2f50-d374-4149-bc04-49b7db052f62">Reparse Point Tags</a>.
+      information, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/reparse-point-tags">Reparse Point Tags</a>.
 
 
 ### -field ReparseDataLength
@@ -112,11 +112,11 @@ The <b>REPARSE_GUID_DATA_BUFFER</b> structure is
 
 
 
-<a href="https://msdn.microsoft.com/6f1b7ea2-aed6-4ab4-8e92-1b77ab5cfefb">FSCTL_GET_REPARSE_POINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_reparse_point">FSCTL_GET_REPARSE_POINT</a>
 
 
 
-<a href="https://msdn.microsoft.com/3abb3a08-9a00-43eb-9792-82eab1a25f06">Reparse Points</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/reparse-points">Reparse Points</a>
  
 
  

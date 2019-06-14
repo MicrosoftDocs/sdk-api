@@ -647,19 +647,19 @@ For Latin fonts, one of the following values.
 
 
 
-<a href="https://msdn.microsoft.com/19f6364e-3347-45b6-be02-e2cc69a7145a">EXTLOGFONT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagextlogfonta">EXTLOGFONT</a>
 
 
 
-<a href="https://msdn.microsoft.com/93726d5c-d4ed-4681-bf45-cb899f195b5d">Font and Text Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/9944baa9-8e50-40b9-9650-78b0b1d7643a">Fonts and Text Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/79d77df0-193a-49a8-b93d-4ef5807c3c9b">OUTLINETEXTMETRIC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_outlinetextmetrica">OUTLINETEXTMETRIC</a>
  
 
  

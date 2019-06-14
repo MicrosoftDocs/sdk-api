@@ -92,15 +92,15 @@ The control information data that is associated with a datagram is made up of on
 
 
 
-<a href="https://msdn.microsoft.com/061db3ca-80ed-419e-8cca-f49d1498b780">WSK_DATAGRAM_INDICATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_datagram_indication">WSK_DATAGRAM_INDICATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/769fea0d-e35a-4385-8027-f1518c25b637">WskReceiveFrom</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_receive_from">WskReceiveFrom</a>
 
 
 
-<a href="https://msdn.microsoft.com/34257ef2-947a-463a-b234-04fbaffa9344">WskSendTo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_send_to">WskSendTo</a>
  
 
  

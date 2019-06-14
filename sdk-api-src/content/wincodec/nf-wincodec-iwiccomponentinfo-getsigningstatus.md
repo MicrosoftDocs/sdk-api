@@ -62,7 +62,7 @@ Retrieves the signing status of the component.
 
 Type: <b>DWORD*</b>
 
-A pointer that receives the <a href="https://msdn.microsoft.com/64f3de6d-15da-4cc8-ad74-57759bcd4d07">WICComponentSigning</a> status of the component.
+A pointer that receives the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wiccomponentsigning">WICComponentSigning</a> status of the component.
 
 
 ## -returns

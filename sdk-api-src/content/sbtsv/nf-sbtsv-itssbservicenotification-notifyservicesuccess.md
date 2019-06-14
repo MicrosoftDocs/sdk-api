@@ -73,7 +73,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/19b90ada-5277-47cb-a8d5-18f5c89612c0">ITsSbServiceNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbservicenotification">ITsSbServiceNotification</a>
  
 
  

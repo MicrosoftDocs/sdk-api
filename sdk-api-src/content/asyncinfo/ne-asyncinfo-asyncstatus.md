@@ -90,7 +90,7 @@ The operation has not started.
 
 
 
-<a href="https://msdn.microsoft.com/3444e02e-8817-4c23-84d9-1a2d1bf43a52">IAsyncInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/asyncinfo/nn-asyncinfo-iasyncinfo">IAsyncInfo</a>
  
 
  

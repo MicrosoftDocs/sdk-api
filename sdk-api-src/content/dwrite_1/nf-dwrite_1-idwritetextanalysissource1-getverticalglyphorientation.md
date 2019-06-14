@@ -74,9 +74,9 @@ A pointer to the text length.
 
 ### -param glyphOrientation [out]
 
-Type: <b><a href="https://msdn.microsoft.com/F13CD254-0D6A-4549-A2C2-3D3126E7B2EB">DWRITE_VERTICAL_GLYPH_ORIENTATION</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ne-dwrite_1-dwrite_vertical_glyph_orientation">DWRITE_VERTICAL_GLYPH_ORIENTATION</a>*</b>
 
-A <a href="https://msdn.microsoft.com/F13CD254-0D6A-4549-A2C2-3D3126E7B2EB">DWRITE_VERTICAL_GLYPH_ORIENTATION</a>-typed value that specifies the desired kind of glyph orientation for the text.
+A <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ne-dwrite_1-dwrite_vertical_glyph_orientation">DWRITE_VERTICAL_GLYPH_ORIENTATION</a>-typed value that specifies the desired kind of glyph orientation for the text.
 
 
 ### -param bidiLevel [out]
@@ -116,7 +116,7 @@ The text analyzer calls back to this to get the desired glyph
 
 
 
-<a href="https://msdn.microsoft.com/CFB9DB16-1F0B-409F-97BC-BB4B693AB3D6">IDWriteTextAnalysisSource1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritetextanalysissource1">IDWriteTextAnalysisSource1</a>
  
 
  

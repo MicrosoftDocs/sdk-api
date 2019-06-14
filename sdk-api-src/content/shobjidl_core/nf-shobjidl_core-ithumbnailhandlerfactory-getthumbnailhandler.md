@@ -66,16 +66,16 @@ The item within the namespace for which the thumbnail handler is being retrieved
 
 ### -param pbc [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a> to be used during the moniker binding operation of this process.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> to be used during the moniker binding operation of this process.
 
 
 ### -param riid [in]
 
 Type: <b>REFIID</b>
 
-A reference to the IID of the interface requested. This is usually <a href="https://msdn.microsoft.com/55c4739a-4835-4f53-a435-804ddf06ffcf">IThumbnailProvider</a> or <a href="https://msdn.microsoft.com/28a13749-89e7-407e-89cb-95464859ce3e">IExtractImage</a>.
+A reference to the IID of the interface requested. This is usually <a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/nn-thumbcache-ithumbnailprovider">IThumbnailProvider</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage">IExtractImage</a>.
 
 
 ### -param ppv [out]
@@ -100,7 +100,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Windows Vista calls the <b>IThumbnailHandlerFactory::GetThumbnailHandler</b> method before falling back on <a href="https://msdn.microsoft.com/ec863dbf-8ec9-4952-8912-575125e6dd09">GetUIObjectOf</a>.
+Windows Vista calls the <b>IThumbnailHandlerFactory::GetThumbnailHandler</b> method before falling back on <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getuiobjectof">GetUIObjectOf</a>.
       
 
 

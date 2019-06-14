@@ -97,7 +97,7 @@ The method succeeded.
 
 Call this method when you are done using the Media Session, before the final call to <b>IUnknown::Release</b>. Otherwise, your application will leak memory.
 
-After this method is called, other <a href="https://msdn.microsoft.com/feebf891-73fa-4fe6-94ca-3594986fc92d">IMFMediaSession</a> methods return MF_E_SHUTDOWN.
+After this method is called, other <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a> methods return MF_E_SHUTDOWN.
 
 
 
@@ -107,7 +107,7 @@ After this method is called, other <a href="https://msdn.microsoft.com/feebf891-
 
 
 
-<a href="https://msdn.microsoft.com/feebf891-73fa-4fe6-94ca-3594986fc92d">IMFMediaSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a>
  
 
  

@@ -102,23 +102,23 @@ SENS calls this method to notify your application that AC power has been activat
 
 
 
-<a href="https://msdn.microsoft.com/f313588f-6257-4a0d-b95a-aabc0bc64b53">About System Event Notification Service</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sens/about-system-event-notification-service">About System Event Notification Service</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686510(v=VS.85).aspx">IEventSubscription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685465(v=VS.85).aspx">IEventSubscription::PutPublisherProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-putpublisherproperty">IEventSubscription::PutPublisherProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/39d483be-8dbd-41f9-9804-af9dc4535c05">ISensOnNow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nn-sensevts-isensonnow">ISensOnNow</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8b4ce25-0d1b-401a-b16e-8eef7f292edf">ISensOnNow::OnBatteryPower</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isensonnow-onbatterypower">ISensOnNow::OnBatteryPower</a>
  
 
  

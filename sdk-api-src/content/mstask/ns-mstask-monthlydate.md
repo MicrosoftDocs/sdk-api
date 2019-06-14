@@ -200,8 +200,8 @@ The task will run in December.
 
 
  The 
-<a href="https://msdn.microsoft.com/de50fe74-8091-4a9e-a5b9-9a8c2c684895">TRIGGER_TYPE_UNION</a> union uses an instance of this structure as part of the <b>Type</b> member of the 
-<a href="https://msdn.microsoft.com/b4716e32-7c7a-40ab-baa1-4c7ebafc3d71">TASK_TRIGGER</a> structure definition.
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-_trigger_type_union">TRIGGER_TYPE_UNION</a> union uses an instance of this structure as part of the <b>Type</b> member of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-_task_trigger">TASK_TRIGGER</a> structure definition.
 
 The following C++ example shows how to combine the flags.  The example runs a task quarterly.
 
@@ -221,11 +221,11 @@ example.rgfMonths = TASK_JANUARY | TASK_APRIL | TASK_JULY | TASK_OCTOBER;
 
 
 
-<a href="https://msdn.microsoft.com/b4716e32-7c7a-40ab-baa1-4c7ebafc3d71">TASK_TRIGGER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-_task_trigger">TASK_TRIGGER</a>
 
 
 
-<a href="https://msdn.microsoft.com/de50fe74-8091-4a9e-a5b9-9a8c2c684895">TRIGGER_TYPE_UNION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-_trigger_type_union">TRIGGER_TYPE_UNION</a>
  
 
  

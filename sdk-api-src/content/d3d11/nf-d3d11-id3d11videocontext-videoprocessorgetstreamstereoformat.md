@@ -59,12 +59,12 @@ Gets the stereo 3D format for an input stream on the video processor
 
 ### -param pVideoProcessor [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/AF6F6781-A7F9-4196-8E91-FDFDD1924E24">ID3D11VideoProcessor</a> interface. To get this pointer, call <a href="https://msdn.microsoft.com/5A5FB7F9-F299-4E67-AFAD-E7056CBAEE76">ID3D11VideoDevice::CreateVideoProcessor</a>.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videoprocessor">ID3D11VideoProcessor</a> interface. To get this pointer, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-createvideoprocessor">ID3D11VideoDevice::CreateVideoProcessor</a>.
 
 
 ### -param StreamIndex [in]
 
-The zero-based index of the input stream. To get the maximum number of streams, call <a href="https://msdn.microsoft.com/BE213FFE-FB1D-4BDC-A1AA-2EA487DF8D4A">ID3D11VideoProcessorEnumerator::GetVideoProcessorCaps</a> and check the <b>MaxStreamStates</b> structure member.
+The zero-based index of the input stream. To get the maximum number of streams, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessorenumerator-getvideoprocessorcaps">ID3D11VideoProcessorEnumerator::GetVideoProcessorCaps</a> and check the <b>MaxStreamStates</b> structure member.
 
 
 ### -param pEnable [out]
@@ -74,7 +74,7 @@ Receives the value <b>TRUE</b> if stereo 3D is enabled for this stream, or <b>FA
 
 ### -param pFormat [out]
 
-Receives a <a href="https://msdn.microsoft.com/77832DF2-821E-465C-80B6-46DDB2433791">D3D11_VIDEO_PROCESSOR_STEREO_FORMAT</a> value that specifies the layout of the two stereo views in memory.
+Receives a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_stereo_format">D3D11_VIDEO_PROCESSOR_STEREO_FORMAT</a> value that specifies the layout of the two stereo views in memory.
 
 
 ### -param pLeftViewFrame0 [out]
@@ -145,7 +145,7 @@ Frame 1 contains the base view.
 
 ### -param pFlipMode [out]
 
-Receives a <a href="https://msdn.microsoft.com/2BCC3190-BD27-465D-B9D6-346FAD5E01AF">D3D11_VIDEO_PROCESSOR_STEREO_FLIP_MODE</a> value. This value specifies whether one of the views is flipped.
+Receives a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_stereo_flip_mode">D3D11_VIDEO_PROCESSOR_STEREO_FLIP_MODE</a> value. This value specifies whether one of the views is flipped.
 
 
 
@@ -168,7 +168,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/6EF09C31-56C7-46B5-87AE-B1FE43EC66FC">ID3D11VideoContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a>
  
 
  

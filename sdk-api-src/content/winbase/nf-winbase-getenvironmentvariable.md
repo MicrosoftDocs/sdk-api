@@ -88,7 +88,7 @@ If the function succeeds, the return value is the number of characters stored in
 If <i>lpBuffer</i> is not large enough to hold the data, the return value is the buffer size, in characters, required to hold the string and its terminating null character and the contents of <i>lpBuffer</i> are undefined.
 
 If the function fails, the return value is zero. If the specified environment variable was not found in the environment block, 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns ERROR_ENVVAR_NOT_FOUND.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_ENVVAR_NOT_FOUND.
 
 
 
@@ -103,7 +103,7 @@ This function can retrieve either a system environment variable or a user enviro
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/b428688c-7b16-48c7-8d89-55d066496d1c">Changing Environment Variables</a>.
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/changing-environment-variables">Changing Environment Variables</a>.
 
 <div class="code"></div>
 
@@ -114,15 +114,15 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/6732b12f-ced1-4769-b947-79da8fd2237a">Environment Variables</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/environment-variables">Environment Variables</a>
 
 
 
-<a href="https://msdn.microsoft.com/fb431d83-f3e7-4f2a-bad9-81259681c1f4">GetEnvironmentStrings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nf-rrascfg-ieapproviderconfig-initialize">GetEnvironmentStrings</a>
 
 
 
-<a href="https://msdn.microsoft.com/95bd6fa5-886d-41dc-a5c3-ede86dbfa15d">SetEnvironmentVariable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setenvironmentvariable">SetEnvironmentVariable</a>
  
 
  

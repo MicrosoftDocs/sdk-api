@@ -49,13 +49,13 @@ ms.custom: 19H1
 ## -description
 
 
-Provides methods to parse an input string into an <a href="https://msdn.microsoft.com/en-us/library/Bb231346(v=VS.85).aspx">IQuerySolution</a> object.
+Provides methods to parse an input string into an <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iquerysolution">IQuerySolution</a> object.
         
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQueryParser</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IQueryParser</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQueryParser</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IQueryParser</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IQueryParser</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231351(v=VS.85).aspx">GetOption</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparser-getoption">GetOption</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified simple option value for this query parser.
@@ -79,7 +79,7 @@ Retrieves a specified simple option value for this query parser.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231352(v=VS.85).aspx">GetSchemaProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparser-getschemaprovider">GetSchemaProvider</a>
 </td>
 <td align="left" width="63%">
 Retrieves a schema provider for browsing the currently loaded schema.
@@ -89,16 +89,16 @@ Retrieves a schema provider for browsing the currently loaded schema.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231354(v=VS.85).aspx">Parse</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparser-parse">Parse</a>
 </td>
 <td align="left" width="63%">
-Parses an input string that contains Structured Query keywords and/or contents to produce an <a href="https://msdn.microsoft.com/en-us/library/Bb231346(v=VS.85).aspx">IQuerySolution</a> object.
+Parses an input string that contains Structured Query keywords and/or contents to produce an <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iquerysolution">IQuerySolution</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231355(v=VS.85).aspx">ParsePropertyValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparser-parsepropertyvalue">ParsePropertyValue</a>
 </td>
 <td align="left" width="63%">
 Parses a condition for a specified property. 
@@ -107,7 +107,7 @@ Parses a condition for a specified property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231356(v=VS.85).aspx">RestatePropertyValueToString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparser-restatepropertyvaluetostring">RestatePropertyValueToString</a>
 </td>
 <td align="left" width="63%">
 Restates a specified property for a condition as a query string. 
@@ -116,7 +116,7 @@ Restates a specified property for a condition as a query string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231357(v=VS.85).aspx">RestateToString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparser-restatetostring">RestateToString</a>
 </td>
 <td align="left" width="63%">
 Restates a condition as a structured query string. If the condition was the result of parsing an original query string, the keywords of that query string are used to a great extent. If not, default keywords are used.
@@ -125,7 +125,7 @@ Restates a condition as a structured query string. If the condition was the resu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231358(v=VS.85).aspx">SetMultiOption</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparser-setmultioption">SetMultiOption</a>
 </td>
 <td align="left" width="63%">
 Sets a complex option, such as a specified condition generator, to use when parsing an input string. 
@@ -134,7 +134,7 @@ Sets a complex option, such as a specified condition generator, to use when pars
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231359(v=VS.85).aspx">SetOption</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparser-setoption">SetOption</a>
 </td>
 <td align="left" width="63%">
 Sets a single option, such as a specified wordbreaker, for parsing an input string.
@@ -158,7 +158,7 @@ The StructuredQuerySample code sample, available on <a href="http://go.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa965711(v=VS.85).aspx">Advanced Query Syntax</a>
+<a href="https://docs.microsoft.com/windows/desktop/lwef/-search-2x-wds-aqsreference">Advanced Query Syntax</a>
  
 
  

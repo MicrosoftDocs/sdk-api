@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MMIOProc</b> function is a custom input/output (I/O) procedure installed by the <a href="https://msdn.microsoft.com/235b5014-ad6e-4b9e-a063-99022cbcdb5d">mmioInstallIOProc</a> function. <b>MMIOProc</b> is a placeholder for the application-defined function name. The address of this function can be specified in the callback-address parameter of <b>mmioInstallIOProc</b>.
+The <b>MMIOProc</b> function is a custom input/output (I/O) procedure installed by the <a href="https://docs.microsoft.com/previous-versions//dd757323(v=vs.85)">mmioInstallIOProc</a> function. <b>MMIOProc</b> is a placeholder for the application-defined function name. The address of this function can be specified in the callback-address parameter of <b>mmioInstallIOProc</b>.
 
 
 
@@ -62,14 +62,14 @@ The <b>MMIOProc</b> function is a custom input/output (I/O) procedure installed 
 
 ### -param lpmmioinfo
 
-Points to an <a href="https://msdn.microsoft.com/44a46d1c-9c9c-42ee-8a2b-ac5b1bc19560">MMIOINFO</a> structure containing information about the open file.
+Points to an <a href="https://docs.microsoft.com/previous-versions//dd757322(v=vs.85)">MMIOINFO</a> structure containing information about the open file.
 
-The I/O procedure must maintain the <b>lDiskOffset</b> member in this structure to indicate the file offset to the next read or write location. The I/O procedure can use the <b>adwInfo</b>[] member to store state information. The I/O procedure should not modify any other members of the <a href="https://msdn.microsoft.com/44a46d1c-9c9c-42ee-8a2b-ac5b1bc19560">MMIOINFO</a> structure.
+The I/O procedure must maintain the <b>lDiskOffset</b> member in this structure to indicate the file offset to the next read or write location. The I/O procedure can use the <b>adwInfo</b>[] member to store state information. The I/O procedure should not modify any other members of the <a href="https://docs.microsoft.com/previous-versions//dd757322(v=vs.85)">MMIOINFO</a> structure.
 
 
 ### -param uMsg
 
-Specifies a message indicating the requested I/O operation. Messages that can be received include <a href="https://msdn.microsoft.com/02b2cf22-21a3-4f49-b90e-7b44478c0168">MMIOM_OPEN</a>, <a href="https://msdn.microsoft.com/9d0dad5b-fd0a-4948-a4cf-9d138e353c76">MMIOM_CLOSE</a>, <a href="https://msdn.microsoft.com/db769a68-f0ac-4a79-931e-6174e438439d">MMIOM_READ</a>, <a href="https://msdn.microsoft.com/428b231a-6e00-4458-9ba2-e9b0b028843a">MMIOM_SEEK</a>, <a href="https://msdn.microsoft.com/46e2dd9a-c4a7-4c99-86e4-a67b424411d1">MMIOM_WRITE</a>, and <a href="https://msdn.microsoft.com/e04acaef-9584-410c-a020-af09fb888490">MMIOM_WRITEFLUSH</a>.
+Specifies a message indicating the requested I/O operation. Messages that can be received include <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mmiom-open">MMIOM_OPEN</a>, <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mmiom-close">MMIOM_CLOSE</a>, <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mmiom-read">MMIOM_READ</a>, <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mmiom-seek">MMIOM_SEEK</a>, <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mmiom-write">MMIOM_WRITE</a>, and <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mmiom-writeflush">MMIOM_WRITEFLUSH</a>.
 
 
 ### -param lParam1
@@ -95,14 +95,14 @@ The return value depends on the message specified by <i>uMsg</i>. If the I/O pro
 
 
 
-The four-character code specified by the <b>fccMMIOProc</b> member in the <a href="https://msdn.microsoft.com/44a46d1c-9c9c-42ee-8a2b-ac5b1bc19560">MMIOINFO</a> structure associated with a file identifies a file name extension for a custom storage system. When an application calls <a href="https://msdn.microsoft.com/7361f0f2-1c3c-49f1-aec1-2927e05ef0f0">mmioOpen</a> with a file name such as "one.xyz+two", the I/O procedure associated with the four-character code "XYZ" is called to open the "two" element of the file "one.xyz".
+The four-character code specified by the <b>fccMMIOProc</b> member in the <a href="https://docs.microsoft.com/previous-versions//dd757322(v=vs.85)">MMIOINFO</a> structure associated with a file identifies a file name extension for a custom storage system. When an application calls <a href="https://docs.microsoft.com/previous-versions//dd757331(v=vs.85)">mmioOpen</a> with a file name such as "one.xyz+two", the I/O procedure associated with the four-character code "XYZ" is called to open the "two" element of the file "one.xyz".
 
-The <a href="https://msdn.microsoft.com/235b5014-ad6e-4b9e-a063-99022cbcdb5d">mmioInstallIOProc</a> function maintains a separate list of installed I/O procedures for each Windows-based application. Therefore, different applications can use the same I/O procedure identifier for different I/O procedures without conflict. However, installing an I/O procedure globally enables any process to use the procedure.
+The <a href="https://docs.microsoft.com/previous-versions//dd757323(v=vs.85)">mmioInstallIOProc</a> function maintains a separate list of installed I/O procedures for each Windows-based application. Therefore, different applications can use the same I/O procedure identifier for different I/O procedures without conflict. However, installing an I/O procedure globally enables any process to use the procedure.
 
-If an application calls <a href="https://msdn.microsoft.com/235b5014-ad6e-4b9e-a063-99022cbcdb5d">mmioInstallIOProc</a> more than once to register the same I/O procedure, then it must call <b>mmioInstallIOProc</b> to remove the procedure once for each time it installed the procedure.
+If an application calls <a href="https://docs.microsoft.com/previous-versions//dd757323(v=vs.85)">mmioInstallIOProc</a> more than once to register the same I/O procedure, then it must call <b>mmioInstallIOProc</b> to remove the procedure once for each time it installed the procedure.
 
 
-<a href="https://msdn.microsoft.com/235b5014-ad6e-4b9e-a063-99022cbcdb5d">mmioInstallIOProc</a> will not prevent an application from installing two different I/O procedures with the same identifier, or installing an I/O procedure with one of the predefined identifiers ("DOS ", "MEM "). The most recently installed procedure takes precedence, and the most recently installed procedure is the first one to be removed.
+<a href="https://docs.microsoft.com/previous-versions//dd757323(v=vs.85)">mmioInstallIOProc</a> will not prevent an application from installing two different I/O procedures with the same identifier, or installing an I/O procedure with one of the predefined identifiers ("DOS ", "MEM "). The most recently installed procedure takes precedence, and the most recently installed procedure is the first one to be removed.
 
 When searching for a specified I/O procedure, local procedures are searched first, then global procedures.
 

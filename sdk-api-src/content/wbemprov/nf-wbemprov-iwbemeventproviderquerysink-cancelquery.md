@@ -63,7 +63,7 @@ Call the
 ### -param dwId [in]
 
 Identifier of the query which was canceled. This identifier was originally delivered to the provider by the 
-<a href="https://msdn.microsoft.com/82f76b19-2035-4567-b619-31ce8a35e422">NewQuery</a> method of this interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventproviderquerysink-newquery">NewQuery</a> method of this interface.
 
 
 ## -returns
@@ -80,7 +80,7 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 
 
 Whenever a consumer registers a new event query filter, Windows Management calls the 
-<a href="https://msdn.microsoft.com/82f76b19-2035-4567-b619-31ce8a35e422">IWbemEventProviderQuerySink::NewQuery</a> method with the query identifier. Later, when that query is unregistered, this method is called indicating which query is no longer outstanding.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventproviderquerysink-newquery">IWbemEventProviderQuerySink::NewQuery</a> method with the query identifier. Later, when that query is unregistered, this method is called indicating which query is no longer outstanding.
 
 Providers use this method to help optimize the generation of events internally.
 
@@ -92,11 +92,11 @@ Providers use this method to help optimize the generation of events internally.
 
 
 
-<a href="https://msdn.microsoft.com/76a29d81-33c2-489f-a71d-2e85ba2617bf">IWbemEventProviderQuerySink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbemeventproviderquerysink">IWbemEventProviderQuerySink</a>
 
 
 
-<a href="https://msdn.microsoft.com/82f76b19-2035-4567-b619-31ce8a35e422">IWbemEventProviderQuerySink::NewQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventproviderquerysink-newquery">IWbemEventProviderQuerySink::NewQuery</a>
  
 
  

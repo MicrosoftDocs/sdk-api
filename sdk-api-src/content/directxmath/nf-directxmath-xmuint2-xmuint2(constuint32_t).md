@@ -47,7 +47,7 @@ ms.custom: 19H1
 
 ## -description
 
-Initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ff728761(v=VS.85).aspx">XMUINT2</a> from a two element <code>uint32_t</code> array argument.
+Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/xmuint2">XMUINT2</a> from a two element <code>uint32_t</code> array argument.
 
 This constructor initializes a new instance of **XMUINT2** from a two element <code>uint32_t</code> array argument.
 
@@ -71,6 +71,6 @@ instance.w = pArray[3];
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff728761(v=VS.85).aspx">XMUINT2</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/xmuint2">XMUINT2</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449553(v=VS.85).aspx">XMUINT2 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmuint2-xmuint2(constuint32_t)">XMUINT2 Constructors</a>

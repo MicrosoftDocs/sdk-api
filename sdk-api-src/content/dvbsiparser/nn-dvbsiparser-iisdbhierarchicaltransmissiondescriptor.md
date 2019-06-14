@@ -54,7 +54,7 @@ Implements methods that get data from an Integrated Services Digital Broadcastin
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsdbHierarchicalTransmissionDescriptor</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IIsdbHierarchicalTransmissionDescriptor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsdbHierarchicalTransmissionDescriptor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIsdbHierarchicalTransmissionDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IIsdbHierarchicalTransmissionDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/853885cf-36cc-402a-96a8-bc44701fc0a4">GetFutureUse1</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbhierarchicaltransmissiondescriptor-getfutureuse1">GetFutureUse1</a>
 </td>
 <td align="left" width="63%">
 Gets the value of the 7-bit reserved_future_use field from an ISDB hierarchical transmission descriptor.
@@ -78,7 +78,7 @@ Gets the value of the 7-bit reserved_future_use field from an ISDB hierarchical 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/19404536-3104-4ac7-a979-73236007d553">GetFutureUse2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbhierarchicaltransmissiondescriptor-getfutureuse2">GetFutureUse2</a>
 </td>
 <td align="left" width="63%">
 Gets the value of the 3-bit reserved_future_use field from an ISDB hierarchical transmission descriptor.
@@ -87,7 +87,7 @@ Gets the value of the 3-bit reserved_future_use field from an ISDB hierarchical 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/de183193-09b7-4774-9640-f02ec597d9c6">GetLength</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbhierarchicaltransmissiondescriptor-getlength">GetLength</a>
 </td>
 <td align="left" width="63%">
 Gets the body length of an ISDB hierarchical transmission descriptor.
@@ -96,7 +96,7 @@ Gets the body length of an ISDB hierarchical transmission descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4890c3aa-487f-41c7-9202-636ded2ec46b">GetQualityLevel</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbhierarchicaltransmissiondescriptor-getqualitylevel">GetQualityLevel</a>
 </td>
 <td align="left" width="63%">
 Gets a flag that indicates the quality level of the hierarchical stream construction from an ISDB hierarchical transmission descriptor.
@@ -105,7 +105,7 @@ Gets a flag that indicates the quality level of the hierarchical stream construc
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4c1d96eb-e2d6-4f3a-8a3c-88c0d920ad44">GetReferencePid</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbhierarchicaltransmissiondescriptor-getreferencepid">GetReferencePid</a>
 </td>
 <td align="left" width="63%">
 Gets the program ID (PID) of the primary hierarchical stream from an ISDB hierarchical transmission descriptor.
@@ -114,7 +114,7 @@ Gets the program ID (PID) of the primary hierarchical stream from an ISDB hierar
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1aed2424-567b-4a6b-ae32-b3c74ce75026">GetTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbhierarchicaltransmissiondescriptor-gettag">GetTag</a>
 </td>
 <td align="left" width="63%">
 Gets the tag that identifies an ISDB hierarchical transmission descriptor.

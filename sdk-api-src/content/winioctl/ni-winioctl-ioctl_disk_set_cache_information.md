@@ -51,7 +51,7 @@ req.redist:
 Sets the disk configuration data.
 
 To perform this operation, call the 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -146,7 +146,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 To retrieve the cache information, use the 
-    <a href="https://msdn.microsoft.com/025a92e8-6169-4d7e-9029-f22acb2bdc9f">IOCTL_DISK_GET_CACHE_INFORMATION</a> control code.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_cache_information">IOCTL_DISK_GET_CACHE_INFORMATION</a> control code.
 
 
 
@@ -156,20 +156,20 @@ To retrieve the cache information, use the
 
 
 
-<a href="https://msdn.microsoft.com/ea175bea-5f2b-4f3e-9fe0-239b1d2e3d96">DISK_CACHE_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_disk_cache_information">DISK_CACHE_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/488a7d32-cbb5-4f32-9655-0aca8ac69640">Disk
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes">Disk
 		  Management Control Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/025a92e8-6169-4d7e-9029-f22acb2bdc9f">IOCTL_DISK_GET_CACHE_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_cache_information">IOCTL_DISK_GET_CACHE_INFORMATION</a>
  
 
  

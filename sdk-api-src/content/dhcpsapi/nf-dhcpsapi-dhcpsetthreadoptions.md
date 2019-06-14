@@ -76,13 +76,13 @@ Do not access the directory service while the DHCP thread is executing. After th
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/c8b4d241-19d4-4a97-9129-c2954d63b6ac">DhcpEnumServers</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpenumservers">DhcpEnumServers</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/bdf5d239-478a-47af-9240-19d1b6933f7e">DhcpAddServer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpaddserver">DhcpAddServer</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/88b6c29b-7b01-40c7-b4f5-4920845f1eb9">DhcpDeleteServer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpdeleteserver">DhcpDeleteServer</a>
 </li>
 </ul>
 </td>
@@ -100,7 +100,7 @@ Reserved. This parameter must be set to <b>NULL</b>.
 
 
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://msdn.microsoft.com/6370313f-d7db-4ff1-b0e0-7fa47474facb">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 
 
@@ -119,7 +119,7 @@ This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it
 
 
 
-<a href="https://msdn.microsoft.com/2ba4b971-467c-47a6-8c4d-8e41b7874c80">DhcpGetThreadOptions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpgetthreadoptions">DhcpGetThreadOptions</a>
  
 
  

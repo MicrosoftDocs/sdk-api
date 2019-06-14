@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>fIsAuthenticated</b> method verifies that a <a href="https://msdn.microsoft.com/ca4ab93c-0a3e-4fb5-be7f-a8f4eea3c9b7">Secure Authenticated Channel</a> has been successfully established.
+The <b>fIsAuthenticated</b> method verifies that a <a href="https://docs.microsoft.com/windows/desktop/WMDM/using-secure-authenticated-channels">Secure Authenticated Channel</a> has been successfully established.
 
 
 
@@ -74,7 +74,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 
 
@@ -90,7 +90,7 @@ Applications do not need to call the <b>fIsAuthenticated</b> method, but service
 
 #### Examples
 
-The following code shows a service provider's implementation of <a href="https://msdn.microsoft.com/88c935ad-dbf0-41bb-8676-ddafe9d1fe0e">IMDSPDevice::GetVersion</a>. This method verifies that a secure authenticated channel has been established before returning the version.
+The following code shows a service provider's implementation of <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice-getversion">IMDSPDevice::GetVersion</a>. This method verifies that a secure authenticated channel has been established before returning the version.
 
 
 ```cpp
@@ -122,11 +122,11 @@ HRESULT CMyDevice::GetVersion(DWORD * pdwVersion)
 
 
 
-<a href="https://msdn.microsoft.com/9b9a529a-c652-48e1-b70d-e95e2e34e2c5">CSecureChannelClient::fIsAuthenticated</a>
+<a href="/previous-versions/ms868497(v=msdn.10)">CSecureChannelClient::fIsAuthenticated</a>
 
 
 
-<a href="https://msdn.microsoft.com/e6e1463a-5a26-4b83-85e0-a639d384a199">CSecureChannelServer Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer Class</a>
  
 
  

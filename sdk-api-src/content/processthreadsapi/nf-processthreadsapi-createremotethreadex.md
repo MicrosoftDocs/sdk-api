@@ -67,25 +67,25 @@ Creates a thread that runs in the virtual address space of another process and o
 ### -param hProcess [in]
 
 A handle to the process in which the thread is to be created. The handle must have the PROCESS_CREATE_THREAD, PROCESS_QUERY_INFORMATION, PROCESS_VM_OPERATION, PROCESS_VM_WRITE, and PROCESS_VM_READ access rights. In Windows 10, version 1607, your code must obtain these access rights for the new handle. However, starting in Windows 10, version 1703, if the new handle is entitled to these access rights, the system obtains them for you. For more information, see 
-<a href="https://msdn.microsoft.com/508a17c4-88cd-431a-a102-00180a7f7ab5">Process Security and Access Rights</a>.
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
 
 ### -param lpThreadAttributes [in, optional]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> structure that specifies a security descriptor for the new thread and determines whether child processes can inherit the returned handle. If <i>lpThreadAttributes</i> is NULL, the thread gets a default security descriptor and the handle cannot be inherited. The access control lists (ACL) in the default security descriptor for a thread come from the primary token of the creator.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that specifies a security descriptor for the new thread and determines whether child processes can inherit the returned handle. If <i>lpThreadAttributes</i> is NULL, the thread gets a default security descriptor and the handle cannot be inherited. The access control lists (ACL) in the default security descriptor for a thread come from the primary token of the creator.
 
 
 ### -param dwStackSize [in]
 
 The initial size of the stack, in bytes. The system rounds this value to the nearest page. If this parameter is 0 (zero), the new thread uses the default size for the executable. For more information, see 
-<a href="https://msdn.microsoft.com/abb2d5c1-040b-4c36-aae5-3517b6a8c540">Thread Stack Size</a>.
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-stack-size">Thread Stack Size</a>.
 
 
 ### -param lpStartAddress [in]
 
 A pointer to the application-defined function of type <b>LPTHREAD_START_ROUTINE</b> to be executed by the thread and represents the starting address of the thread in the remote process. The function must exist in the remote process. For more information, see 
-<a href="https://msdn.microsoft.com/f0dc203f-200e-42f1-940c-24e3fe080175">ThreadProc</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms686736(v=vs.85)">ThreadProc</a>.
 
 
 ### -param lpParameter [in, optional]
@@ -121,7 +121,7 @@ The thread runs immediately after creation.
 </td>
 <td width="60%">
 The thread is created in a suspended state and does not run until the 
-<a href="https://msdn.microsoft.com/ffc4e474-635b-4bf7-a68f-073899fb3fde">ResumeThread</a> function is called.
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-resumethread">ResumeThread</a> function is called.
 
 </td>
 </tr>
@@ -142,7 +142,7 @@ The <i>dwStackSize</i> parameter specifies the initial reserve size of the stack
 
 ### -param lpAttributeList [in, optional]
 
-An attribute list that contains additional parameters for the new thread. This list is created by the <a href="https://msdn.microsoft.com/58ce70a1-5b73-429f-a062-bacd9b9c5bc8">InitializeProcThreadAttributeList</a> function.
+An attribute list that contains additional parameters for the new thread. This list is created by the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-initializeprocthreadattributelist">InitializeProcThreadAttributeList</a> function.
 
 
 ### -param lpThreadId [out, optional]
@@ -162,7 +162,7 @@ If this parameter is NULL, the thread identifier is not returned.
 If the function succeeds, the return value is a handle to the new thread.
 
 If the function fails, the return value is NULL. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -172,36 +172,36 @@ If the function fails, the return value is NULL. To get extended error informati
 
 
 The 
-<b>CreateRemoteThreadEx</b> function causes a new thread of execution to begin in the address space of the specified process. The thread has access to all objects that the process opens. The <i>lpAttribute</i> parameter can be used to specify extended attributes such as processor group affinity for the new thread. If <i>lpAttribute</i> is NULL, the function's behavior is the same as  <a href="https://msdn.microsoft.com/f5257f78-b20f-4db5-b63e-3bb4e41a4b19">CreateRemoteThread</a>.  
+<b>CreateRemoteThreadEx</b> function causes a new thread of execution to begin in the address space of the specified process. The thread has access to all objects that the process opens. The <i>lpAttribute</i> parameter can be used to specify extended attributes such as processor group affinity for the new thread. If <i>lpAttribute</i> is NULL, the function's behavior is the same as  <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createremotethread">CreateRemoteThread</a>.  
 
 Prior to Windows 8, Terminal Services isolates each terminal session by design. Therefore, 
-<a href="https://msdn.microsoft.com/f5257f78-b20f-4db5-b63e-3bb4e41a4b19">CreateRemoteThread</a> fails if the target process is in a different session than the calling process.
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createremotethread">CreateRemoteThread</a> fails if the target process is in a different session than the calling process.
 
 The new thread handle is created with full access to the new thread. If a security descriptor is not provided, the handle may be used in any function that requires a thread object handle. When a security descriptor is provided, an access check is performed on all subsequent uses of the handle before access is granted. If the access check denies access, the requesting process cannot use the handle to gain access to the thread.
 
- If the thread is created in a runnable state (that is, if the CREATE_SUSPENDED flag is not used), the thread can start running before <a href="https://msdn.microsoft.com/202a4b42-513a-45de-894a-72e56c706a58">CreateThread</a> returns and, in particular, before  the caller receives the handle and identifier of the created thread.
+ If the thread is created in a runnable state (that is, if the CREATE_SUSPENDED flag is not used), the thread can start running before <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createthread">CreateThread</a> returns and, in particular, before  the caller receives the handle and identifier of the created thread.
 
 The thread is created with a thread priority of THREAD_PRIORITY_NORMAL. To get and set the priority value of a thread, use the 
-<a href="https://msdn.microsoft.com/9e5ce4e8-bdd1-48c3-aa1d-b24b2b7bfb00">GetThreadPriority</a> and 
-<a href="https://msdn.microsoft.com/e3992e19-b546-4b0b-aa6a-dd9a7e330bf3">SetThreadPriority</a> functions.
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadpriority">GetThreadPriority</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadpriority">SetThreadPriority</a> functions.
 
 When a thread terminates, the thread object attains a signaled state, which satisfies the threads that are waiting for the object.
 
 The thread object remains in the system until the thread has terminated and all handles to it are closed through a call to 
-<a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>.
 
 The 
-<a href="https://msdn.microsoft.com/c26dbf15-62e8-4892-b7c5-2e6c085e4cd5">ExitProcess</a>, 
-<a href="https://msdn.microsoft.com/e7f6d054-c535-4521-a3b4-800a9174732f">ExitThread</a>, 
-<a href="https://msdn.microsoft.com/202a4b42-513a-45de-894a-72e56c706a58">CreateThread</a>, 
-<a href="https://msdn.microsoft.com/f5257f78-b20f-4db5-b63e-3bb4e41a4b19">CreateRemoteThread</a> functions, and a process that is starting (as the result of a 
-<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> call) are serialized between each other within a process. Only one of these events occurs in an address space at a time. This means the following restrictions hold:
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitprocess">ExitProcess</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitthread">ExitThread</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createthread">CreateThread</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createremotethread">CreateRemoteThread</a> functions, and a process that is starting (as the result of a 
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> call) are serialized between each other within a process. Only one of these events occurs in an address space at a time. This means the following restrictions hold:
 
 <ul>
 <li>During process startup and DLL initialization routines, new threads can be created, but they do not begin execution until DLL initialization is done for the process.</li>
 <li>Only one thread in a process can be in a DLL initialization or detach routine at a time.</li>
 <li>
-<a href="https://msdn.microsoft.com/c26dbf15-62e8-4892-b7c5-2e6c085e4cd5">ExitProcess</a> returns after all threads have completed their DLL initialization or detach routines. </li>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitprocess">ExitProcess</a> returns after all threads have completed their DLL initialization or detach routines. </li>
 </ul>
 A common use of this function is to inject a thread into a process that is being debugged to issue a break. However, this use is not recommended, because the extra thread is confusing to the person debugging the application and there are several side effects to using this technique:
 
@@ -220,7 +220,7 @@ Another common use of this function is to inject a thread into a process to quer
 
 
 
-<a href="https://msdn.microsoft.com/f5257f78-b20f-4db5-b63e-3bb4e41a4b19">CreateRemoteThread</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createremotethread">CreateRemoteThread</a>
  
 
  

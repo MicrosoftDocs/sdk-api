@@ -123,14 +123,14 @@ NULL was passed in for ppProperties.
 
 
 
-This method enables you to retrieve the values of multiple properties, such as the sensor make, model, and serial number, by making a single call. To retrieve a single property, call <a href="https://msdn.microsoft.com/205f372e-a8ca-4494-a431-84d985ec4f9f">ISensor::GetProperty</a>.
+This method enables you to retrieve the values of multiple properties, such as the sensor make, model, and serial number, by making a single call. To retrieve a single property, call <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getproperty">ISensor::GetProperty</a>.
 
 The <b>IPortableDeviceKeyCollection</b> and <b>IPortableDeviceValues</b> interfaces are defined by the Windows Portable Devices API. 
 
 
 #### Examples
 
-For an example of how to retrieve properties from a sensor,  see <a href="https://msdn.microsoft.com/7d10e5b4-bae7-4564-84eb-75c6a2eeef8f">Setting and Retrieving Sensor Properties</a>.
+For an example of how to retrieve properties from a sensor,  see <a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/setting-and-retrieving-sensor-properties">Setting and Retrieving Sensor Properties</a>.
 
 <div class="code"></div>
 
@@ -141,15 +141,15 @@ For an example of how to retrieve properties from a sensor,  see <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/3216afbb-d524-486d-99ad-0ee0cfb884e0">ISensor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
 
 
 
-<a href="https://msdn.microsoft.com/2fb739a0-9af5-4784-94b2-f8d10b9e21ca">Sensor Properties</a>
+<a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/sensor-properties">Sensor Properties</a>
 
 
 
-<a href="https://msdn.microsoft.com/f2bed074-fcee-4dbb-a4c1-d5922d65d3b9">SetProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-setproperties">SetProperties</a>
  
 
  

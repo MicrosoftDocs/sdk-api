@@ -59,13 +59,13 @@ Provides notification when a sensor device is connected.
 
 ### -param pSensor [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/3216afbb-d524-486d-99ad-0ee0cfb884e0">ISensor</a> interface of the sensor that was connected.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a> interface of the sensor that was connected.
 
 
 ### -param state [in]
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd318905(v=VS.85).aspx">SensorState</a> indicating the current state of the sensor.
+<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/ne-sensorsapi-__midl___midl_itf_sensorsapi_0000_0000_0001">SensorState</a> indicating the current state of the sensor.
 
 
 ## -returns
@@ -100,7 +100,7 @@ The method succeeded.
 
 
 
-To know when a sensor is disconnected, subscribe to the <a href="https://msdn.microsoft.com/541ef7a4-c238-4fc5-9b2d-1fadb1472b2d">ISensorEvents::OnLeave</a> event.
+To know when a sensor is disconnected, subscribe to the <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-isensorevents-onleave">ISensorEvents::OnLeave</a> event.
 
 
 
@@ -110,7 +110,7 @@ To know when a sensor is disconnected, subscribe to the <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/b111a717-00c0-47cb-be6a-3050d54cd2ec">ISensorManagerEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanagerevents">ISensorManagerEvents</a>
  
 
  

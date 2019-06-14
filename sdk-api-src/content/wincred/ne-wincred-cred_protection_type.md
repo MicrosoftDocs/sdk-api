@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CRED_PROTECTION_TYPE</b> enumeration specifies the security context in which credentials are encrypted when using the <a href="https://msdn.microsoft.com/1e299dfb-2ffe-463c-9e2c-b7774a2216e3">CredProtect</a> function.
+The <b>CRED_PROTECTION_TYPE</b> enumeration specifies the security context in which credentials are encrypted when using the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credprotecta">CredProtect</a> function.
 
 
 ## -enum-fields

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <a href="https://msdn.microsoft.com/bd71ddf6-9d02-463d-9d1c-50605441ad59">AVIStreamRelease</a> macro determines the size of the buffer needed to store one sample of information from a stream. The size corresponds to the sample at the position specified by <i>lPos</i>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avistreamrelease">AVIStreamRelease</a> macro determines the size of the buffer needed to store one sample of information from a stream. The size corresponds to the sample at the position specified by <i>lPos</i>.
 
 
 
@@ -98,11 +98,11 @@ The <b>AVIStreamSampleSize</b> macro is defined as follows:
 
 
 
-<a href="https://msdn.microsoft.com/573e24fa-876d-4ce9-be23-d5e448a53e20">AVIFile Functions and Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
 
 
 
-<a href="https://msdn.microsoft.com/5544e706-89e9-46e8-8703-ad978e675bbf">AVIFile Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-macros">AVIFile Macros</a>
  
 
  

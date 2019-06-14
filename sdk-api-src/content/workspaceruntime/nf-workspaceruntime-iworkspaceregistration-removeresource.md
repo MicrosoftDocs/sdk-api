@@ -61,7 +61,7 @@ Notifies the RemoteApp and Desktop Connection runtime that  the client is discon
 
 ### -param dwCookieConnection [in]
 
-A <b>DWORD</b> value that contains a connection cookie returned by the <a href="https://msdn.microsoft.com/cd4ed8a0-e5a8-4809-a9bd-d013a84b0bd4">AddResource</a> method.
+A <b>DWORD</b> value that contains a connection cookie returned by the <a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspaceregistration-addresource">AddResource</a> method.
 
 
 ## -returns
@@ -78,11 +78,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/29e7da7b-7da2-4000-8f3d-d12aa7e12fed">IWorkspaceRegistration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspaceregistration">IWorkspaceRegistration</a>
 
 
 
-<a href="https://msdn.microsoft.com/b677863a-c8cc-4ed8-aea4-16de1cba21c4">IWorkspaceRegistration2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspaceregistration2">IWorkspaceRegistration2</a>
  
 
  

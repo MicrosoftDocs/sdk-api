@@ -139,7 +139,7 @@ The audio stream has not been initialized.
 </dl>
 </td>
 <td width="60%">
-The caller tried to access an <a href="https://msdn.microsoft.com/c0fa6841-56bf-421e-9949-c6a037cf9fd4">IAudioCaptureClient</a> interface on a rendering endpoint, or an <a href="https://msdn.microsoft.com/e3e18e1e-1a09-4072-add6-36d2a6428a74">IAudioRenderClient</a> interface on a capture endpoint.
+The caller tried to access an <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudiocaptureclient">IAudioCaptureClient</a> interface on a rendering endpoint, or an <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudiorenderclient">IAudioRenderClient</a> interface on a capture endpoint.
 
 </td>
 </tr>
@@ -175,40 +175,40 @@ The Windows audio service is not running.
 
 
 
-This method requires prior initialization of the <a href="https://msdn.microsoft.com/5088a3f1-5001-4ed9-a495-9e91df613ab0">IAudioClient</a> interface. All calls to this method will fail with the error AUDCLNT_E_NOT_INITIALIZED until the client initializes the audio stream by successfully calling the <a href="https://msdn.microsoft.com/eb778503-06f8-4705-9f8d-9a4fd886ae27">IAudioClient::Initialize</a> method.
+This method requires prior initialization of the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient">IAudioClient</a> interface. All calls to this method will fail with the error AUDCLNT_E_NOT_INITIALIZED until the client initializes the audio stream by successfully calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a> method.
 
 The <b>GetService</b> method supports the following service interfaces:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/c0fa6841-56bf-421e-9949-c6a037cf9fd4">IAudioCaptureClient</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudiocaptureclient">IAudioCaptureClient</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/dbec9468-b555-42a0-a988-dec3a66c9f96">IAudioClock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclock">IAudioClock</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/e3e18e1e-1a09-4072-add6-36d2a6428a74">IAudioRenderClient</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudiorenderclient">IAudioRenderClient</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/4446140e-2e61-40ed-b0f9-4c1b90e7c2de">IAudioSessionControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol">IAudioSessionControl</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/92cc127b-77ac-4fc7-ac3c-319e5d6368d3">IAudioStreamVolume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudiostreamvolume">IAudioStreamVolume</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/0d0a20dc-5e5a-49a7-adc9-20aacb88368a">IChannelAudioVolume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-ichannelaudiovolume">IChannelAudioVolume</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14342d8b-3c76-4c13-8cbe-a60bb66084c8">IMFTrustedOutput</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftrustedoutput">IMFTrustedOutput</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/360211f2-de82-4ff5-896c-dee1d60cb7b7">ISimpleAudioVolume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-isimpleaudiovolume">ISimpleAudioVolume</a>
 </li>
 </ul>
-In Windows 7, a new service identifier, <b>IID_IMFTrustedOutput</b>, has been added that facilitates the use of output trust authority (OTA) objects. These objects can operate inside or outside the Media Foundation's protected media path (PMP) and send content outside the Media Foundation pipeline. If the caller is outside PMP, then the OTA may not operate in the PMP,  and the protection settings are less robust. OTAs must implement the <a href="https://msdn.microsoft.com/14342d8b-3c76-4c13-8cbe-a60bb66084c8">IMFTrustedOutput</a> interface.
+In Windows 7, a new service identifier, <b>IID_IMFTrustedOutput</b>, has been added that facilitates the use of output trust authority (OTA) objects. These objects can operate inside or outside the Media Foundation's protected media path (PMP) and send content outside the Media Foundation pipeline. If the caller is outside PMP, then the OTA may not operate in the PMP,  and the protection settings are less robust. OTAs must implement the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftrustedoutput">IMFTrustedOutput</a> interface.
 By passing <b>IID_IMFTrustedOutput</b> in <b>GetService</b>, an application can retrieve a pointer to the object's <b>IMFTrustedOutput</b> interface. For more information about protected objects and <b>IMFTrustedOutput</b>, see "Protected Media Path" in  the Media Foundation SDK documentation. 
 
-For information about using trusted audio drivers in OTAs, see <a href="https://msdn.microsoft.com/27a50026-9e48-48b1-9249-7528a97333c9">Protected User Mode Audio (PUMA)</a>.
+For information about using trusted audio drivers in OTAs, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/protected-user-mode-audio--puma-">Protected User Mode Audio (PUMA)</a>.
 
 Note that activating IMFTrustedOutput through this mechanism works regardless of whether the caller is running in PMP. However, if the caller is not running in a protected process (that is, the caller is not within Media Foundation's PMP) then the audio OTA might not operate in the PMP and the protection settings are less robust.
 
@@ -227,10 +227,10 @@ For code examples that call the <b>GetService</b> method, see the following topi
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/00bfcfd1-6592-43e3-90ad-730c92aa4cd3">Rendering a Stream</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/rendering-a-stream">Rendering a Stream</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/1d9072dc-4f9b-4111-a747-5eb33ad3ae5b">Capturing a Stream</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/capturing-a-stream">Capturing a Stream</a>
 </li>
 </ul>
 
@@ -241,39 +241,39 @@ For code examples that call the <b>GetService</b> method, see the following topi
 
 
 
-<a href="https://msdn.microsoft.com/c0fa6841-56bf-421e-9949-c6a037cf9fd4">IAudioCaptureClient Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudiocaptureclient">IAudioCaptureClient Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/5088a3f1-5001-4ed9-a495-9e91df613ab0">IAudioClient Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient">IAudioClient Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb778503-06f8-4705-9f8d-9a4fd886ae27">IAudioClient::Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/dbec9468-b555-42a0-a988-dec3a66c9f96">IAudioClock Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclock">IAudioClock Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3e18e1e-1a09-4072-add6-36d2a6428a74">IAudioRenderClient Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudiorenderclient">IAudioRenderClient Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/4446140e-2e61-40ed-b0f9-4c1b90e7c2de">IAudioSessionControl Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol">IAudioSessionControl Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/92cc127b-77ac-4fc7-ac3c-319e5d6368d3">IAudioStreamVolume Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudiostreamvolume">IAudioStreamVolume Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d0a20dc-5e5a-49a7-adc9-20aacb88368a">IChannelAudioVolume Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-ichannelaudiovolume">IChannelAudioVolume Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/360211f2-de82-4ff5-896c-dee1d60cb7b7">ISimpleAudioVolume Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-isimpleaudiovolume">ISimpleAudioVolume Interface</a>
  
 
  

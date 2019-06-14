@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>NPAddConnection3</b> function connects a local device to a network resource. It performs the same operation as 
-<a href="https://msdn.microsoft.com/37a3988c-18ee-400a-85c3-cc3cbdf015ea">NPAddConnection</a> but in addition lets you specify a handle to the window that should own any resulting dialog boxes and specify how the connection should be established.
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npaddconnection">NPAddConnection</a> but in addition lets you specify a handle to the window that should own any resulting dialog boxes and specify how the connection should be established.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ A handle to a window that should own any messages or dialog boxes. This handle i
 ### -param lpNetResource [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/c7e22694-2dfd-4a9e-bd40-277611476f97">NETRESOURCE</a> structure that specifies the network resource to connect to. The following fields must be set when making a connection. The others are ignored.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-_netresourcea">NETRESOURCE</a> structure that specifies the network resource to connect to. The following fields must be set when making a connection. The others are ignored.
 
 <table>
 <tr>
@@ -109,7 +109,7 @@ Specifies the type of resource to connect to. This can be RESOURCETYPE_DISK, RES
 
 ### -param lpPassword [in]
 
-Pointer to the password to be used in making the connection, normally the password associated with <i>lpUserName</i>. The <b>NULL</b> value may be passed in to cause the function to use the default password. An empty string may be used to indicate no password. When you have finished using the password, clear it from memory by calling the <a href="https://msdn.microsoft.com/2c4090a6-025b-4b7b-8f31-7e744ad51b39">SecureZeroMemory</a> function. For more information about protecting the password, see <a href="https://msdn.microsoft.com/1d810f71-9bf5-4c5c-a573-c35081f604cf">Handling Passwords</a>.
+Pointer to the password to be used in making the connection, normally the password associated with <i>lpUserName</i>. The <b>NULL</b> value may be passed in to cause the function to use the default password. An empty string may be used to indicate no password. When you have finished using the password, clear it from memory by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function. For more information about protecting the password, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
 
 
 ### -param lpUserName [in]
@@ -167,7 +167,7 @@ Do not perform any remote network operations to make the network connection; ins
 
 
 
-This feature is used to speed the restoring of network connections at logon. A provider that supports it should return the WNNC_CON_DEFERRED bit in <a href="https://msdn.microsoft.com/8d399bae-4084-4f06-b7f5-036a54d8d90e">NPGetCaps</a>.
+This feature is used to speed the restoring of network connections at logon. A provider that supports it should return the WNNC_CON_DEFERRED bit in <a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npgetcaps">NPGetCaps</a>.
 
 </td>
 </tr>
@@ -274,8 +274,8 @@ The attempt to make the connection was canceled by the user using a dialog box d
 
 
 If a provider displays a password dialog box because the specified credentials are insufficient and the CONNECT_INTERACTIVE flag is set, then the provider may not return an access-denied error code (one of ERROR_LOGON_FAILURE, WN_BAD_PASSWORD, WN_ACCESS_DENIED). The suggested behavior is for the provider to continue asking the user for valid credentials until the user either supplies them or presses a "cancel" button. If <b>NPAddConnection3</b> is called to make the connection requested during the 
-<a href="https://msdn.microsoft.com/2dc383bb-0a1a-4612-88f9-f92c8e2a398d">WNetConnectionDialog</a> or 
-<a href="https://msdn.microsoft.com/11390693-0ab3-4f8b-9209-bc0bceb98032">WNetConnectionDialog1</a> function and an access-denied code is returned, the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetconnectiondialog">WNetConnectionDialog</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetconnectiondialog1a">WNetConnectionDialog1</a> function and an access-denied code is returned, the 
 <b>WNetConnectionDialog</b> or 
 <b>WNetConnectionDialog1</b> function will, itself, display a password dialog box.
 
@@ -287,7 +287,7 @@ If a provider displays a password dialog box because the specified credentials a
 
 
 
-<a href="https://msdn.microsoft.com/37a3988c-18ee-400a-85c3-cc3cbdf015ea">NPAddConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npaddconnection">NPAddConnection</a>
  
 
  

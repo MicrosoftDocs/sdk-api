@@ -71,7 +71,7 @@ Type of reset. It can be one of the following possible values.
 <tr>
 <td width="40%"><a id=""></a><dl>
 <dt><b></b></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomDefault</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomDefault</a></dt>
 </dl>
 </td>
 <td width="60%">
@@ -82,11 +82,11 @@ Used for paragraph formatting that is defined by the RTF \pard, that is, the par
 <tr>
 <td width="40%"><a id=""></a><dl>
 <dt><b></b></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomUndefined</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomUndefined</a></dt>
 </dl>
 </td>
 <td width="60%">
-Used for all undefined values. The tomUndefined value is only valid for duplicate (clone) <a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a> objects.
+Used for all undefined values. The tomUndefined value is only valid for duplicate (clone) <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a> objects.
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ Used for all undefined values. The tomUndefined value is only valid for duplicat
 
 Type: <b>HRESULT</b>
 
-If <b>ITextPara::Reset</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling in COM</a>.
+If <b>ITextPara::Reset</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -166,7 +166,7 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
 
 
 
@@ -174,7 +174,7 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
  
 
  

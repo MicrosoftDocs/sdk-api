@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CryptInstallOIDFunctionAddress</b> function installs a set of callable <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) function addresses.
+The <b>CryptInstallOIDFunctionAddress</b> function installs a set of callable <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) function addresses.
 
 
 ## -parameters
@@ -60,9 +60,9 @@ The <b>CryptInstallOIDFunctionAddress</b> function installs a set of callable <a
 ### -param hModule [in]
 
 This parameter is updated with the <i>hModule</i> parameter passed to <b>DllMain</b> to prevent the DLL that contains the function addresses from being unloaded by 
-<a href="https://msdn.microsoft.com/2eef6109-a840-48c6-936c-ec0875039c39">CryptGetOIDFunctionAddress</a> or
-<a href="https://msdn.microsoft.com/cacacff3-25b7-4ed4-885b-b4b0b326628f">CryptFreeOIDFunctionAddress</a>. This would be the case when the DLL has also registered OID functions through 
-<a href="https://msdn.microsoft.com/b625597d-28fd-4a40-afbe-a09201d36512">CryptRegisterOIDFunction</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetoidfunctionaddress">CryptGetOIDFunctionAddress</a> or
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptfreeoidfunctionaddress">CryptFreeOIDFunctionAddress</a>. This would be the case when the DLL has also registered OID functions through 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptregisteroidfunction">CryptRegisterOIDFunction</a>.
 
 
 ### -param dwEncodingType [in]
@@ -84,10 +84,10 @@ Number of array elements in <i>rgFuncEntry</i>[].
 
 ### -param rgFuncEntry [in]
 
-Array of <a href="https://msdn.microsoft.com/84c4aca8-ee38-455f-8330-58f512a6d12c">CRYPT_OID_FUNC_ENTRY</a> structures, each containing an OID and the starting address of its correlated routine. 
+Array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_oid_func_entry">CRYPT_OID_FUNC_ENTRY</a> structures, each containing an OID and the starting address of its correlated routine. 
 					
 
-Default functions are installed by setting the <b>pszOID</b> member of the <a href="https://msdn.microsoft.com/84c4aca8-ee38-455f-8330-58f512a6d12c">CRYPT_OID_FUNC_ENTRY</a> structure for their array element to CRYPT_DEFAULT_OID.
+Default functions are installed by setting the <b>pszOID</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_oid_func_entry">CRYPT_OID_FUNC_ENTRY</a> structure for their array element to CRYPT_DEFAULT_OID.
 
 
 ### -param dwFlags [in]
@@ -111,11 +111,11 @@ If the function fails, it returns zero (<b>FALSE</b>).
 
 
 
-<a href="https://msdn.microsoft.com/84c4aca8-ee38-455f-8330-58f512a6d12c">CRYPT_OID_FUNC_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_oid_func_entry">CRYPT_OID_FUNC_ENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a>
  
 
  

@@ -72,7 +72,7 @@ Number of values in the <b>dvValues</b> array.
 
 ### -field dvValues
 
-An array specifying the values of the axes of a multiple master OpenType font. This array corresponds to the <b>axlAxisInfo</b> array in the <a href="https://msdn.microsoft.com/f95f012e-f02b-46c1-94ba-69f426ee7ad9">AXESLIST</a> structure.
+An array specifying the values of the axes of a multiple master OpenType font. This array corresponds to the <b>axlAxisInfo</b> array in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagaxeslista">AXESLIST</a> structure.
 
 
 ## -remarks
@@ -91,27 +91,27 @@ The PostScript Open Type Font does not support multiple master functionality.
 
 
 
-<a href="https://msdn.microsoft.com/f95f012e-f02b-46c1-94ba-69f426ee7ad9">AXESLIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagaxeslista">AXESLIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/ad5153ba-fa9d-4a07-9be3-a07b524c1539">AddFontMemResourceEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-addfontmemresourceex">AddFontMemResourceEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/eaf8ebf0-1b06-4a09-a842-83540245a117">AddFontResourceEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-addfontresourceexa">AddFontResourceEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/93726d5c-d4ed-4681-bf45-cb899f195b5d">Font and Text Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/9944baa9-8e50-40b9-9650-78b0b1d7643a">Fonts and Text Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/18056fe7-1efe-428e-a828-3217c53371eb">RemoveFontResourceEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-removefontresourceexa">RemoveFontResourceEx</a>
  
 
  

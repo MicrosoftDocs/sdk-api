@@ -69,7 +69,7 @@ Pointer to a null-terminated string that specifies the Gopher locator to be pars
 ### -param lpdwGopherType [out]
 
 Pointer to a variable that receives the type of the locator. The type is a bitmask that consists of a combination of the 
-<a href="https://msdn.microsoft.com/e77a0328-d811-4c01-831a-0ead888a4988">gopher type values</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WinInet/gopher-type-values">gopher type values</a>.
 
 
 ## -returns
@@ -77,7 +77,7 @@ Pointer to a variable that receives the type of the locator. The type is a bitma
 
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -90,7 +90,7 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get extended er
 
 Like all other aspects of the WinINet API, this function cannot be safely called from within DllMain or the constructors and destructors of global objects.
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
@@ -100,7 +100,7 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 
-<a href="https://msdn.microsoft.com/2e0da5c6-29e4-47b5-8ed2-8712c9ca2c97">WinINet Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
  
 
  

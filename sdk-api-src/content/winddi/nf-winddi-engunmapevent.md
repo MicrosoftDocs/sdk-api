@@ -59,7 +59,7 @@ The <b>EngUnmapEvent</b> function cleans up the kernel-mode resources allocated 
 
 ### -param pEvent [in]
 
-Pointer to an event object returned from a previous call to <a href="https://msdn.microsoft.com/a48f2367-49da-4d5c-87e5-b5c67e2311eb">EngMapEvent</a>.
+Pointer to an event object returned from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmapevent">EngMapEvent</a>.
 
 
 ## -returns
@@ -75,9 +75,9 @@ Pointer to an event object returned from a previous call to <a href="https://msd
 
 
 
-The display driver should call <b>EngUnmapEvent</b> when it is notified that the process (typically <a href="https://msdn.microsoft.com/2912a456-e5d7-4ae4-b8b0-d16c9e8eadf2">EngCreateDriverObj</a>) that created the user-mode event has terminated. The display driver can also call <b>EngUnmapEvent</b> to perform its own cleanup. The display and miniport drivers should not touch the event object after <b>EngUnmapEvent</b> has been called.
+The display driver should call <b>EngUnmapEvent</b> when it is notified that the process (typically <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatedriverobj">EngCreateDriverObj</a>) that created the user-mode event has terminated. The display driver can also call <b>EngUnmapEvent</b> to perform its own cleanup. The display and miniport drivers should not touch the event object after <b>EngUnmapEvent</b> has been called.
 
-The display driver can call <b>EngUnmapEvent</b> only for an event object returned by <a href="https://msdn.microsoft.com/a48f2367-49da-4d5c-87e5-b5c67e2311eb">EngMapEvent</a>. It must not call this function for an event object returned by <a href="https://msdn.microsoft.com/0fe4c840-ba85-492c-ac3d-b7c8639d1210">EngCreateEvent</a>.
+The display driver can call <b>EngUnmapEvent</b> only for an event object returned by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmapevent">EngMapEvent</a>. It must not call this function for an event object returned by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreateevent">EngCreateEvent</a>.
 
 
 
@@ -87,15 +87,15 @@ The display driver can call <b>EngUnmapEvent</b> only for an event object return
 
 
 
-<a href="https://msdn.microsoft.com/2912a456-e5d7-4ae4-b8b0-d16c9e8eadf2">EngCreateDriverObj</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatedriverobj">EngCreateDriverObj</a>
 
 
 
-<a href="https://msdn.microsoft.com/0fe4c840-ba85-492c-ac3d-b7c8639d1210">EngCreateEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreateevent">EngCreateEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/a48f2367-49da-4d5c-87e5-b5c67e2311eb">EngMapEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmapevent">EngMapEvent</a>
  
 
  

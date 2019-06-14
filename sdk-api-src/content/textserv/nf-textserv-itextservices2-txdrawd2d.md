@@ -59,14 +59,14 @@ Draws the text services object by using Direct2D rendering.
 
 ### -param pRenderTarget
 
-Type: <b><a href="https://msdn.microsoft.com/40629be9-5840-4bde-b369-56bbfd791775">ID2D1RenderTarget</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>*</b>
 
 The Direct2D rendering object that draws the text services object.
 
 
 ### -param lprcBounds
 
-Type: <b><a href="https://msdn.microsoft.com/47a89d2d-4733-47be-91c1-450845e78075">LPCRECTL</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162907(v=vs.85)">LPCRECTL</a></b>
 
 The bounding (client) rectangle.
 
@@ -81,7 +81,7 @@ The rectangle to update inside <i>lprcBounds</i> rectangle, in the logical coord
 
 ### -param lViewId
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 The view to draw.
 
@@ -118,7 +118,7 @@ Draw a view other than the in-place active view, for example, a print    preview
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -130,7 +130,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/B5DC90BA-F9A5-45DC-8C8A-784380C38769">ITextServices2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itextservices2">ITextServices2</a>
  
 
  

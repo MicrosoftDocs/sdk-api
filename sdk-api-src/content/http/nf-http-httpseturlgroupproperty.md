@@ -64,7 +64,7 @@ The ID of the URL Group for which the property is set.
 
 ### -param Property [in]
 
-A member of the  <a href="https://msdn.microsoft.com/14865796-135c-43c2-955a-fdeae05a8278">HTTP_SERVER_PROPERTY</a> enumeration that describes the property type that is modified or set. This can be one of the following:
+A member of the  <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_server_property">HTTP_SERVER_PROPERTY</a> enumeration that describes the property type that is modified or set. This can be one of the following:
 
 <table>
 <tr>
@@ -97,7 +97,7 @@ Enables server-side authentication for the URL Group using the Kerberos authenti
 </dl>
 </td>
 <td width="60%">
-This value maps to the generic <a href="https://msdn.microsoft.com/6c220063-02d0-44c0-b3a3-e7bfd5c57e1f">HTTP_QOS_SETTING_INFO</a> structure with <b>QosType</b> set to either <b>HttpQosSettingTypeBandwidth</b> or  <b>HttpQosSettingTypeConnectionLimit</b>. If <b>HttpQosSettingTypeBandwidth</b>, modifies or sets the bandwidth throttling for the URL Group. If <b>HttpQosSettingTypeConnectionLimit</b>, modifies or sets the maximum number of outstanding connections served for a URL Group at any time.
+This value maps to the generic <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_qos_setting_info">HTTP_QOS_SETTING_INFO</a> structure with <b>QosType</b> set to either <b>HttpQosSettingTypeBandwidth</b> or  <b>HttpQosSettingTypeConnectionLimit</b>. If <b>HttpQosSettingTypeBandwidth</b>, modifies or sets the bandwidth throttling for the URL Group. If <b>HttpQosSettingTypeConnectionLimit</b>, modifies or sets the maximum number of outstanding connections served for a URL Group at any time.
 
 </td>
 </tr>
@@ -167,49 +167,49 @@ A pointer to the buffer that contains the property information.
 <tr>
 <td>HttpServerAuthenticatonProperty</td>
 <td>
-<a href="https://msdn.microsoft.com/4f408115-c073-4e9f-b316-8ad3f03acf53">HTTP_SERVER_AUTHENTICATION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_server_authentication_info">HTTP_SERVER_AUTHENTICATION_INFO</a>
 </td>
 </tr>
 <tr>
 <td>HttpServerExtendedAuthenticationProperty</td>
 <td>
-<a href="https://msdn.microsoft.com/4f408115-c073-4e9f-b316-8ad3f03acf53">HTTP_SERVER_AUTHENTICATION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_server_authentication_info">HTTP_SERVER_AUTHENTICATION_INFO</a>
 </td>
 </tr>
 <tr>
 <td>HttpServerQosProperty</td>
 <td>
-<a href="https://msdn.microsoft.com/6c220063-02d0-44c0-b3a3-e7bfd5c57e1f">HTTP_QOS_SETTING_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_qos_setting_info">HTTP_QOS_SETTING_INFO</a>
 </td>
 </tr>
 <tr>
 <td>HttpServerBindingProperty</td>
 <td>
-<a href="https://msdn.microsoft.com/551a928a-84c6-479b-a500-de69dc8857cd">HTTP_BINDING_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_binding_info">HTTP_BINDING_INFO</a>
 </td>
 </tr>
 <tr>
 <td>HttpServerLoggingProperty</td>
 <td>
-<a href="https://msdn.microsoft.com/12e12f83-c36a-4b4e-8890-50566cf00c2b">HTTP_LOGGING_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_logging_info">HTTP_LOGGING_INFO</a>
 </td>
 </tr>
 <tr>
 <td>HttpServerStateProperty</td>
 <td>
-<a href="https://msdn.microsoft.com/736ae89b-a4fb-4962-ae68-9aaccd869c88">HTTP_STATE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_state_info">HTTP_STATE_INFO</a>
 </td>
 </tr>
 <tr>
 <td>HttpServerTimeoutsProperty</td>
 <td>
-<a href="https://msdn.microsoft.com/900f4b4d-c34d-4994-b8eb-b3f15e54f29a">HTTP_TIMEOUT_LIMIT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_timeout_limit_info">HTTP_TIMEOUT_LIMIT_INFO</a>
 </td>
 </tr>
 <tr>
 <td>HttpServerChannelBindProperty</td>
 <td>
-<a href="https://msdn.microsoft.com/60428e66-9c08-418b-99e1-6824c638f2be">HTTP_CHANNEL_BIND_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_channel_bind_info">HTTP_CHANNEL_BIND_INFO</a>
 </td>
 </tr>
 </table>
@@ -275,27 +275,27 @@ After the URL Group is created it must be associated with a request queue to rec
 
 
 
-<a href="https://msdn.microsoft.com/12daffca-b403-4f06-8037-206f90e33252">HTTP Server API Version 2.0 Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/e6bf68aa-d6a5-4079-b689-49cfc2303ba5">HttpAddUrlToUrlGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpaddurltourlgroup">HttpAddUrlToUrlGroup</a>
 
 
 
-<a href="https://msdn.microsoft.com/8b8e4ec9-3d85-4d64-98dc-86e5fd093e93">HttpCloseUrlGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcloseurlgroup">HttpCloseUrlGroup</a>
 
 
 
-<a href="https://msdn.microsoft.com/6f2b14bb-ecb9-4a63-9bef-e2ceaf09f97a">HttpCreateUrlGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreateurlgroup">HttpCreateUrlGroup</a>
 
 
 
-<a href="https://msdn.microsoft.com/f3e8fde0-5a78-46aa-8c6c-cea957d12356">HttpQueryUrlGroupProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryurlgroupproperty">HttpQueryUrlGroupProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/9c5c1fec-f3b4-414f-a841-e360f5f4e4db">HttpRemoveUrlFromUrlGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpremoveurlfromurlgroup">HttpRemoveUrlFromUrlGroup</a>
  
 
  

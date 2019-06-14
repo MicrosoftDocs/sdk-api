@@ -63,13 +63,13 @@ The
 
 Index of a particular mapping. The value of this parameter is an integer from 0 
       to <i>n</i>–1 inclusive, where <i>n</i> is the total number of alternate location mappings associated with a given writer. The value of <i>n</i> is returned by 
-<a href="https://msdn.microsoft.com/c93f841f-057c-4aee-b8f2-263395e84c7b">IVssExamineWriterMetadata::GetRestoreMethod</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getrestoremethod">IVssExamineWriterMetadata::GetRestoreMethod</a>.
 
 
 ### -param ppFiledesc [out]
 
 Doubly indirect pointer to an 
-<a href="https://msdn.microsoft.com/0b86882d-af1b-4a09-8c25-5b806c9ca909">IVssWMFiledesc</a> object containing the alternate location mapping information.
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> object containing the alternate location mapping information.
 
 
 ## -returns
@@ -91,7 +91,7 @@ The following are the valid return codes for this method.
 </td>
 <td width="60%">
 Successfully returned a pointer to an 
-<a href="https://msdn.microsoft.com/0b86882d-af1b-4a09-8c25-5b806c9ca909">IVssWMFiledesc</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> interface.
 
 </td>
 </tr>
@@ -125,7 +125,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more information, see 
-<a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+<a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ The specified alternate location mapping does not exist.
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -165,10 +165,10 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 The value returned by <b>IVssExamineWriterMetadata::GetAlternateLocationMapping</b> should not be confused with that returned by 
-<a href="https://msdn.microsoft.com/8c6537eb-67ba-4d6a-ac86-44da176ef5c5">IVssComponent::GetAlternateLocationMapping</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getalternatelocationmapping">IVssComponent::GetAlternateLocationMapping</a>.
 
 
-<a href="https://msdn.microsoft.com/8c6537eb-67ba-4d6a-ac86-44da176ef5c5">IVssComponent::GetAlternateLocationMapping</a> is the alternate location to which a file was restored.
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getalternatelocationmapping">IVssComponent::GetAlternateLocationMapping</a> is the alternate location to which a file was restored.
 
 <b>IVssExamineWriterMetadata::GetAlternateLocationMapping</b> is the alternate location mapping to which a file may be restored if necessary.
 
@@ -190,8 +190,8 @@ Again, if no valid alternate location mapping is defined, this constitutes a wri
 
 An alternate location mapping is used only during a restore operation and should not be confused with an alternate path, which is used only during a backup operation.
 
-The caller is responsible for calling <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> to release the resources of the returned 
-<a href="https://msdn.microsoft.com/0b86882d-af1b-4a09-8c25-5b806c9ca909">IVssWMFiledesc</a> object.
+The caller is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> to release the resources of the returned 
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> object.
 
 
 
@@ -201,23 +201,23 @@ The caller is responsible for calling <a href="https://msdn.microsoft.com/en-us/
 
 
 
-<a href="https://msdn.microsoft.com/349ec124-f3f5-4142-8600-8d9f508c9bb2">IVssBackupComponents::AddAlternativeLocationMapping</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addalternativelocationmapping">IVssBackupComponents::AddAlternativeLocationMapping</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c6537eb-67ba-4d6a-ac86-44da176ef5c5">IVssComponent::GetAlternateLocationMapping</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getalternatelocationmapping">IVssComponent::GetAlternateLocationMapping</a>
 
 
 
-<a href="https://msdn.microsoft.com/b3aa04d9-7299-4e3a-b092-d07f2de6eefe">IVssExamineWriterMetadata</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a>
 
 
 
-<a href="https://msdn.microsoft.com/c93f841f-057c-4aee-b8f2-263395e84c7b">IVssExamineWriterMetadata::GetRestoreMethod</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getrestoremethod">IVssExamineWriterMetadata::GetRestoreMethod</a>
 
 
 
-<a href="https://msdn.microsoft.com/0b86882d-af1b-4a09-8c25-5b806c9ca909">IVssWMFiledesc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a>
  
 
  

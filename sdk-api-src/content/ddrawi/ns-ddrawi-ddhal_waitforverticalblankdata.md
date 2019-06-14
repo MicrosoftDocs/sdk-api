@@ -59,7 +59,7 @@ The DD_WAITFORVERTICALBLANKDATA structure contains information necessary to obta
 
 ### -field lpDD
 
-Points to a <a href="https://msdn.microsoft.com/a59f064b-48cf-4491-82cd-84f59467af87">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
 
 
 ### -field dwFlags
@@ -122,12 +122,12 @@ Indicates the status of the vertical blank. A value of <b>TRUE</b> indicates tha
 
 ### -field hEvent
 
-Handle for the event that should be triggered when the vertical blank begins. The event is triggered on an interrupt, so if your hardware is able to generate an interrupt on the vertical blank, you should pass this event handle to your <a href="https://msdn.microsoft.com/523471e3-cf1e-48d2-b5f0-2f8d19ad71e0">HwVidInterrupt</a> function so that the event is triggered when the interrupt fires. This member is currently unsupported and should be ignored by the driver.
+Handle for the event that should be triggered when the vertical blank begins. The event is triggered on an interrupt, so if your hardware is able to generate an interrupt on the vertical blank, you should pass this event handle to your <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pvideo_hw_interrupt">HwVidInterrupt</a> function so that the event is triggered when the interrupt fires. This member is currently unsupported and should be ignored by the driver.
 
 
 ### -field ddRVal
 
-Specifies the location in which the driver writes the return value of the <a href="https://msdn.microsoft.com/0eeeed70-bfda-45c0-8709-29e97ab0c5a9">DdWaitForVerticalBlank</a> callback. A return code of DD_OK indicates success. For more information, see <a href="https://msdn.microsoft.com/da4cc7d7-6826-48aa-96c6-004e31fc3e3e">Return Values for DirectDraw</a>.
+Specifies the location in which the driver writes the return value of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_waitforverticalblank">DdWaitForVerticalBlank</a> callback. A return code of DD_OK indicates success. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/return-values-for-directdraw">Return Values for DirectDraw</a>.
 
 
 ### -field WaitForVerticalBlank
@@ -140,7 +140,7 @@ Used by the Microsoft DirectDraw API and should not be filled in by the driver.
 
 
 
-<a href="https://msdn.microsoft.com/0eeeed70-bfda-45c0-8709-29e97ab0c5a9">DdWaitForVerticalBlank</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_waitforverticalblank">DdWaitForVerticalBlank</a>
  
 
  

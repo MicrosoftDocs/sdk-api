@@ -60,7 +60,7 @@ ms.custom: 19H1
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
     available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
     information, and alternatives to TxF, please see 
-    <a href="https://msdn.microsoft.com/9ee26e7e-990e-4cd3-8180-f0fcaac2b752">Alternatives to using Transactional NTFS</a>.]
+    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
 Creates a new directory as a transacted operation, with the attributes of a specified template 
     directory. If the underlying file system supports security on files and directories, the function 
@@ -81,7 +81,7 @@ The path of the directory to use as a template when creating the new directory. 
 In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
        To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
        "\\?\" to the path. For more information, see 
-       <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">Naming a File</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
 
 The directory must reside on the local computer; otherwise, the function fails and the last error code is set 
        to <b>ERROR_TRANSACTIONS_UNSUPPORTED_REMOTE</b>.
@@ -94,12 +94,12 @@ The path of the directory to be created.
 In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
        To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
        "\\?\" to the path. For more information, see 
-       <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">Naming a File</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
 
 
 ### -param lpSecurityAttributes [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> 
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> 
        structure. The <b>lpSecurityDescriptor</b> member of the structure specifies a security 
        descriptor for the new directory.
 
@@ -108,14 +108,14 @@ If <i>lpSecurityAttributes</i> is <b>NULL</b>, the directory gets a
        are inherited from its parent directory.
 
 The target file system must support security on files and directories for this parameter to have an effect. 
-       This is indicated when <a href="https://msdn.microsoft.com/c80a38e1-319e-4f15-8c8a-9d29075e1709">GetVolumeInformation</a> 
+       This is indicated when <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumeinformationa">GetVolumeInformation</a> 
        returns <b>FS_PERSISTENT_ACLS</b>.
 
 
 ### -param hTransaction [in]
 
 A handle to the transaction. This handle is returned by the 
-      <a href="https://msdn.microsoft.com/578bda35-bd35-4f6d-8366-a4bfb4dbfe42">CreateTransaction</a> function.
+      <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a> function.
 
 
 ## -returns
@@ -125,7 +125,7 @@ A handle to the transaction. This handle is returned by the
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero (0). To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. Possible errors include the 
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible errors include the 
        following.
 
 <table>
@@ -190,7 +190,7 @@ This function fails with <b>ERROR_EFS_NOT_ALLOWED_IN_TRANSACTION</b> if you try 
     child directory with a parent directory that has encryption disabled.
 
 You can obtain a handle to a directory by calling the 
-    <a href="https://msdn.microsoft.com/0cbc081d-8787-409b-84bc-a6a28d8f83a0">CreateFileTransacted</a> function with the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfiletransacteda">CreateFileTransacted</a> function with the 
      <b>FILE_FLAG_BACKUP_SEMANTICS</b> flag set.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
@@ -263,27 +263,27 @@ SMB 3.0 does not support TxF.
 
 
 
-<a href="https://msdn.microsoft.com/0cbc081d-8787-409b-84bc-a6a28d8f83a0">CreateFileTransacted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfiletransacteda">CreateFileTransacted</a>
 
 
 
-<a href="https://msdn.microsoft.com/52d1d8a8-e5a7-44f5-9bf2-2a496ef79d32">Creating and Deleting Directories</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-and-deleting-directories">Creating and Deleting Directories</a>
 
 
 
-<a href="https://msdn.microsoft.com/5517b0e7-2264-4173-8e10-ff7626458bfa">Directory Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/directory-management-functions">Directory Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8600166-62dc-4398-9e16-43b07f7f0b89">RemoveDirectoryTransacted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-removedirectorytransacteda">RemoveDirectoryTransacted</a>
 
 
 
-<a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8c3ceed-d391-4934-b3f7-12c2123c8c23">Transactional NTFS</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS</a>
  
 
  

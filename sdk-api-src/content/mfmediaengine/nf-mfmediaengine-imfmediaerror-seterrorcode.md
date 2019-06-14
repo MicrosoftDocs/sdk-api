@@ -59,7 +59,7 @@ Sets the error code.
 
 ### -param error [in]
 
-The error code, specified as an <a href="https://msdn.microsoft.com/CFA5C2AF-C804-47B4-B76A-907F26CF3DFC">MF_MEDIA_ENGINE_ERR</a> value.
+The error code, specified as an <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_media_engine_err">MF_MEDIA_ENGINE_ERR</a> value.
 
 
 ## -returns
@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/08F161FE-C0E5-44EE-923E-646ADA534C42">IMFMediaError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaerror">IMFMediaError</a>
  
 
  

@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>LINECOUNTRYENTRY</b> structure provides the data for a single country/region entry. An array of one or more of these structures is part of the 
-<a href="https://msdn.microsoft.com/f6634d40-0c17-4eb1-a0ca-9590e9e649e2">LINECOUNTRYLIST</a> structure returned by the 
-<a href="https://msdn.microsoft.com/4de271b3-d93b-4fc9-b853-e26ef1ae75ae">lineGetCountry</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecountrylist_tag">LINECOUNTRYLIST</a> structure returned by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetcountry">lineGetCountry</a> function.
 
 
 ## -struct-fields
@@ -73,7 +73,7 @@ Country/region code of the country/region represented by the entry; that is, the
 ### -field dwNextCountryID
 
 Country/region identifier of the next entry in the country/region list. Because country/region codes and identifiers are not assigned in any regular numeric sequence, the country/region list is a single linked list, with each entry pointing to the next. The last country/region in the list has a <b>dwNextCountryID</b> value of zero. When the 
-<a href="https://msdn.microsoft.com/f6634d40-0c17-4eb1-a0ca-9590e9e649e2">LINECOUNTRYLIST</a> structure is used to obtain the entire list, the entries in the list are in sequence as linked by their <b>dwNextCountryID</b> members.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecountrylist_tag">LINECOUNTRYLIST</a> structure is used to obtain the entire list, the entries in the list are in sequence as linked by their <b>dwNextCountryID</b> members.
 
 
 ### -field dwCountryNameSize
@@ -114,7 +114,7 @@ Size, in bytes, of the international dialing rule including the <b>null</b> term
 ### -field dwInternationalRuleOffset
 
 Offset from the beginning of the 
-<a href="https://msdn.microsoft.com/f6634d40-0c17-4eb1-a0ca-9590e9e649e2">LINECOUNTRYLIST</a> structure to a <b>null</b>-terminated string that contains the dialing rule for direct-dialed calls to other countries/regions. The size of the field is specified by <b>dwInternationalRuleSize</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecountrylist_tag">LINECOUNTRYLIST</a> structure to a <b>null</b>-terminated string that contains the dialing rule for direct-dialed calls to other countries/regions. The size of the field is specified by <b>dwInternationalRuleSize</b>.
 
 
 ## -remarks
@@ -131,11 +131,11 @@ This structure cannot be extended.
 
 
 
-<a href="https://msdn.microsoft.com/f6634d40-0c17-4eb1-a0ca-9590e9e649e2">LINECOUNTRYLIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecountrylist_tag">LINECOUNTRYLIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/4de271b3-d93b-4fc9-b853-e26ef1ae75ae">lineGetCountry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetcountry">lineGetCountry</a>
  
 
  

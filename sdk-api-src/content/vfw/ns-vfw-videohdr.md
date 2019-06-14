@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>VIDEOHDR</b> structure is used by the <a href="https://msdn.microsoft.com/e21d7563-0ca8-4777-9fb0-de7c1c4ae618">capVideoStreamCallback</a> function.
+The <b>VIDEOHDR</b> structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nc-vfw-capvideocallback">capVideoStreamCallback</a> function.
 
 
 
@@ -130,15 +130,15 @@ Reserved for driver.
 
 
 
-<a href="https://msdn.microsoft.com/202c27be-01d5-4381-b71a-7a3f4e4c7adf">Multimedia Timer Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/multimedia-timer-structures">Multimedia Timer Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/25e0b313-64ff-4f30-ae0a-ac364ce3f0cf">Multimedia Timers</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/multimedia-timers">Multimedia Timers</a>
 
 
 
-<a href="https://msdn.microsoft.com/e21d7563-0ca8-4777-9fb0-de7c1c4ae618">capVideoStreamCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nc-vfw-capvideocallback">capVideoStreamCallback</a>
  
 
  

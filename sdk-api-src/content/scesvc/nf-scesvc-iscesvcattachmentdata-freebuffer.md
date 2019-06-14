@@ -76,7 +76,7 @@ The return value is an HRESULT. A value of S_OK indicates the method was success
 
 
 You should call this method to free the data buffer returned by 
-<a href="https://msdn.microsoft.com/f0b51592-58d9-45f2-a0a5-7cdbde0bc0a1">ISceSvcAttachmentData::GetData</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentdata-getdata">ISceSvcAttachmentData::GetData</a>.
 
 
 
@@ -86,11 +86,11 @@ You should call this method to free the data buffer returned by
 
 
 
-<a href="https://msdn.microsoft.com/385acdb9-5642-47c1-b2ac-be388edaac12">ISceSvcAttachmentData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nn-scesvc-iscesvcattachmentdata">ISceSvcAttachmentData</a>
 
 
 
-<a href="https://msdn.microsoft.com/f0b51592-58d9-45f2-a0a5-7cdbde0bc0a1">ISceSvcAttachmentData::GetData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentdata-getdata">ISceSvcAttachmentData::GetData</a>
  
 
  

@@ -84,7 +84,7 @@ Value that indicates whether the computer policies in the GPO are enabled. If <b
 
 
 
-<a href="https://msdn.microsoft.com/2857c8b7-019d-4ec2-9a00-574fc8541cae">IGPMGPO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a>
  
 
  

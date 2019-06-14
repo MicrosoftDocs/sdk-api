@@ -77,7 +77,7 @@ The change journal can grow to more than the sum of the values of <b>MaximumSize
 
 
 For more information, see 
-    <a href="https://msdn.microsoft.com/26cbacc2-d26b-434b-91b5-31aedc96da13">Creating, Modifying, and Deleting a Change Journal</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-modifying-and-deleting-a-change-journal">Creating, Modifying, and Deleting a Change Journal</a>.
 
 
 
@@ -87,7 +87,7 @@ For more information, see
 
 
 
-<a href="https://msdn.microsoft.com/92e737e6-dba6-47f1-a077-e303039e12eb">FSCTL_CREATE_USN_JOURNAL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_create_usn_journal">FSCTL_CREATE_USN_JOURNAL</a>
  
 
  

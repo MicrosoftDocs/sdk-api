@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <code>IAMVideoDecimationProperties</code> interface controls how the <a href="https://msdn.microsoft.com/e80938b7-31f0-467b-a3fa-c4511d14758d">Overlay Mixer</a> performs video decimation
+The <code>IAMVideoDecimationProperties</code> interface controls how the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> performs video decimation
 
 If a video window is smaller than the native size of the video being displayed, the video renderer must <i>decimate</i> the incoming video—that is, scale the video down to the smaller size. Decimation can be performed in one of the following places.
 
@@ -67,7 +67,7 @@ An application can call methods on this interface to select a particular decimat
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMVideoDecimationProperties</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAMVideoDecimationProperties</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMVideoDecimationProperties</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMVideoDecimationProperties</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -82,7 +82,7 @@ The <b>IAMVideoDecimationProperties</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3addb9be-61df-4310-9066-85f75c64aae4">QueryDecimationUsage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamvideodecimationproperties-querydecimationusage">QueryDecimationUsage</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current decimation strategy.
@@ -91,7 +91,7 @@ Retrieves the current decimation strategy.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c6456154-48f5-41d9-b6f5-863b30a53596">SetDecimationUsage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamvideodecimationproperties-setdecimationusage">SetDecimationUsage</a>
 </td>
 <td align="left" width="63%">
 Sets the decimation strategy.

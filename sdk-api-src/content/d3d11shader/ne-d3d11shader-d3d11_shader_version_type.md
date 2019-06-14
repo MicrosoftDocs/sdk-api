@@ -97,7 +97,7 @@ Indicates the end of the enumeration constants.
 
 
 
-<a href="https://msdn.microsoft.com/068ce652-8596-4492-992c-658d1fcf8a2c">Shader Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-shader-enums">Shader Enumerations</a>
  
 
  

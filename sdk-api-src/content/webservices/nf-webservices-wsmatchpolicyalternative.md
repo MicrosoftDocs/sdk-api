@@ -63,10 +63,10 @@ Verifies that a Policy Alternative is compatible
 
 ### -param policy [in]
 
-A pointer to a  <a href="https://msdn.microsoft.com/04623686-5065-4e97-8685-c72f848b92ab">WS_POLICY</a> object  containing the alternative.
+A pointer to a  <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-policy">WS_POLICY</a> object  containing the alternative.
                 
-                    <div class="alert"><b>Note</b>  Each <a href="https://msdn.microsoft.com/ce2a45a8-c2e6-4867-b8f1-dcc4f137ef94">WS_METADATA_ENDPOINT</a> that is returned from 
-                    <a href="https://msdn.microsoft.com/1cf9f2ba-c303-4668-a959-8fad69746438">WsGetMetadataEndpoints</a> contains a policy object.
+                    <div class="alert"><b>Note</b>  Each <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_metadata_endpoint">WS_METADATA_ENDPOINT</a> that is returned from 
+                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetmetadataendpoints">WsGetMetadataEndpoints</a> contains a policy object.
                 </div>
 <div> </div>
 
@@ -76,7 +76,7 @@ A pointer to a  <a href="https://msdn.microsoft.com/04623686-5065-4e97-8685-c72f
 
 Specifies the zero-based index that identifies the alternative to use within the policy
                     object.  The number of alternatives present in the policy object can be obtained
-                    using <a href="https://msdn.microsoft.com/2d3ac397-07a0-45c4-84b4-0f4806a324bc">WsGetPolicyAlternativeCount</a>.
+                    using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetpolicyalternativecount">WsGetPolicyAlternativeCount</a>.
                 
 
 
@@ -89,7 +89,7 @@ A pointer to
 
 <div class="alert"><b>Note</b>  If a property constraint is not specified the
                     default constraint value for that particular property is used.
-                See <a href="https://msdn.microsoft.com/2cf65426-336f-4148-ab3b-063a229db99f">WS_POLICY_CONSTRAINTS</a> for more information.</div>
+                See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_policy_constraints">WS_POLICY_CONSTRAINTS</a> for more information.</div>
 <div> </div>
 
 ### -param matchRequired [in]
@@ -106,7 +106,7 @@ Indicates whether a match is required or not.
 
 ### -param heap [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/3a25284a-8f15-42d4-a292-ece28a08fb69">Heap</a> object used to store any data requiring allocation
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/heap">Heap</a> object used to store any data requiring allocation
                    beyond the specified constraint. <div class="alert"><b>Note</b>  For example pointer types within the constraint "out" fields is allocated using this Heap.
                 </div>
 <div> </div>
@@ -115,7 +115,7 @@ A pointer to a <a href="https://msdn.microsoft.com/3a25284a-8f15-42d4-a292-ece28
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 
@@ -198,16 +198,16 @@ Each of these data types contain a struct field called "out".
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd401785(v=VS.85).aspx">WS_CHANNEL_PROPERTY_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_channel_property_constraint">WS_CHANNEL_PROPERTY_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323408(v=VS.85).aspx">WS_SECURITY_PROPERTY_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_property_constraint">WS_SECURITY_PROPERTY_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323385(v=VS.85).aspx">WS_SECURITY_BINDING_PROPERTY_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_binding_property_constraint">WS_SECURITY_BINDING_PROPERTY_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323442(v=VS.85).aspx">WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_ssl_transport_security_binding_constraint">WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 </ul>
 The content of the <b>out</b> field of these structures

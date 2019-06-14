@@ -55,7 +55,7 @@ This interface encapsulates methods for measuring GPU performance.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Counter</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173500(v=VS.85).aspx">ID3D10Asynchronous</a>. <b>ID3D10Counter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Counter</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10asynchronous">ID3D10Asynchronous</a>. <b>ID3D10Counter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID3D10Counter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173515(v=VS.85).aspx">GetDesc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10counter-getdesc">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Get a counter description.
@@ -84,15 +84,15 @@ Get a counter description.
 
 
 
-A counter can be created with <a href="https://msdn.microsoft.com/en-us/library/Bb173545(v=VS.85).aspx">ID3D10Device::CreateCounter</a>.
+A counter can be created with <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createcounter">ID3D10Device::CreateCounter</a>.
 
-This is a derived class of <a href="https://msdn.microsoft.com/en-us/library/Bb173500(v=VS.85).aspx">ID3D10Asynchronous Interface</a>.
+This is a derived class of <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10asynchronous">ID3D10Asynchronous Interface</a>.
 
-Counter data is gathered by issuing an <a href="https://msdn.microsoft.com/en-us/library/Bb173501(v=VS.85).aspx">ID3D10Asynchronous::Begin</a> command, issuing some graphics commands, issuing an <a href="https://msdn.microsoft.com/en-us/library/Bb173502(v=VS.85).aspx">ID3D10Asynchronous::End</a> command, and then calling <a href="https://msdn.microsoft.com/en-us/library/Bb173503(v=VS.85).aspx">ID3D10Asynchronous::GetData</a> to get data about what happened in between the Begin and End calls. The data returned by GetData will be different depending on the type of counter. The call to End causes the data returned by GetData to be accurate up until the last call to End.
+Counter data is gathered by issuing an <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-begin">ID3D10Asynchronous::Begin</a> command, issuing some graphics commands, issuing an <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-end">ID3D10Asynchronous::End</a> command, and then calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-getdata">ID3D10Asynchronous::GetData</a> to get data about what happened in between the Begin and End calls. The data returned by GetData will be different depending on the type of counter. The call to End causes the data returned by GetData to be accurate up until the last call to End.
 
 Counters are best suited for profiling.
 
-For a list of the types of performance counters, see <a href="https://msdn.microsoft.com/en-us/library/Bb204904(v=VS.85).aspx">D3D10_COUNTER</a>.
+For a list of the types of performance counters, see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_counter">D3D10_COUNTER</a>.
 
 
 
@@ -102,11 +102,11 @@ For a list of the types of performance counters, see <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205152(v=VS.85).aspx">Core Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-interfaces">Core Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173500(v=VS.85).aspx">ID3D10Asynchronous</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10asynchronous">ID3D10Asynchronous</a>
  
 
  

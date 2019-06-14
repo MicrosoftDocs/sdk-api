@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a resource domain whose objects and device contexts can be used together. This interface performs all the same functions as the existing <a href="https://msdn.microsoft.com/21f77c38-c115-4fdf-b294-570577a29201">ID2D1Device</a> interface. It also enables control of the device's rendering priority.
+Represents a resource domain whose objects and device contexts can be used together. This interface performs all the same functions as the existing <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1device">ID2D1Device</a> interface. It also enables control of the device's rendering priority.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Device1</b> interface inherits from <a href="https://msdn.microsoft.com/21f77c38-c115-4fdf-b294-570577a29201">ID2D1Device</a>. <b>ID2D1Device1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Device1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1device">ID2D1Device</a>. <b>ID2D1Device1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1Device1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/204D74F1-3110-45F8-B034-15E3011F9D1F">GetRenderingPriority</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_2/nf-d2d1_2-id2d1device1-getrenderingpriority">GetRenderingPriority</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current rendering priority of the device.
@@ -78,7 +78,7 @@ Retrieves the current rendering priority of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/520B4D0D-8D54-4599-9BA3-A03DBF35BCFF">SetRenderingPriority</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_2/nf-d2d1_2-id2d1device1-setrenderingpriority">SetRenderingPriority</a>
 </td>
 <td align="left" width="63%">
 Sets the priority of Direct2D rendering operations performed on any device context associated with the device.
@@ -93,11 +93,11 @@ Sets the priority of Direct2D rendering operations performed on any device conte
 
 
 
-<a href="https://msdn.microsoft.com/21f77c38-c115-4fdf-b294-570577a29201">ID2D1Device</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1device">ID2D1Device</a>
 
 
 
-<a href="https://msdn.microsoft.com/1C7B5FE0-23DB-417F-8614-53848D61A054">ID2D1Factory2::CreateDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_2/nf-d2d1_2-id2d1factory2-createdevice">ID2D1Factory2::CreateDevice</a>
  
 
  

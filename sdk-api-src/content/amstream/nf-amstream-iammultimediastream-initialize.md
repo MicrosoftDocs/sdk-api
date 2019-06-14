@@ -64,7 +64,7 @@ The <code>Initialize</code> method initializes the multimedia stream object.
 
 ### -param StreamType [in]
 
-Member of the <a href="https://msdn.microsoft.com/en-us/library/Dd407159(v=VS.85).aspx">STREAM_TYPE</a> enumeration, specifying whether the streams are read-only, write-only, or read/write.
+Member of the <a href="https://docs.microsoft.com/windows/desktop/api/mmstream/ne-mmstream-__midl___midl_itf_mmstream_0000_0000_0001">STREAM_TYPE</a> enumeration, specifying whether the streams are read-only, write-only, or read/write.
 
 
 ### -param dwFlags [in]
@@ -92,7 +92,7 @@ Must be one of the following values:
 
 ### -param pFilterGraph [in]
 
-[optional] Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd390085(v=VS.85).aspx">IGraphBuilder</a> interface, or <b>NULL</b>. If this parameter is non-<b>NULL</b>, it specifies a filter graph that the multimedia stream object will use. Otherwise, the multimedia stream object creates a new filter graph.
+[optional] Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a> interface, or <b>NULL</b>. If this parameter is non-<b>NULL</b>, it specifies a filter graph that the multimedia stream object will use. Otherwise, the multimedia stream object creates a new filter graph.
 
 
 ## -returns
@@ -148,7 +148,7 @@ If you specify AMMSF_NOGRAPHTHREAD in the <i>dwFlags</i> parameter, the calling 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319688(v=VS.85).aspx">IAMMultiMediaStream Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-iammultimediastream">IAMMultiMediaStream Interface</a>
  
 
  

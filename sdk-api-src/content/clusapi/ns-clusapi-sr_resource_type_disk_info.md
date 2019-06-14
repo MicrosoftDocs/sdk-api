@@ -80,11 +80,11 @@ The cluster resource identifier of the disk.
 
 
 
-<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt164371(v=VS.85).aspx">SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-_sr_resource_type_eligible_disks_result">SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT</a>
  
 
  

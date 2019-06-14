@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SetupDiGetClassRegistryProperty</b> function retrieves a property for a specified <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552344">device setup class</a> from the registry.
+The <b>SetupDiGetClassRegistryProperty</b> function retrieves a property for a specified <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">device setup class</a> from the registry.
 
 
 ## -parameters
@@ -73,13 +73,13 @@ A value that identifies the property to be retrieved. This must be one of the fo
 
 #### SPCRP_CHARACTERISTICS
 
-The function returns flags indicating device characteristics for the class. For a list of characteristics flags, see the <i>DeviceCharacteristics</i> parameter to <a href="https://msdn.microsoft.com/54ca9dc8-8095-4b62-9ebc-f297abb429ca">IoCreateDevice</a>.
+The function returns flags indicating device characteristics for the class. For a list of characteristics flags, see the <i>DeviceCharacteristics</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a>.
 
 
 
 #### SPCRP_DEVTYPE
 
-The function returns a DWORD value that represents the device type for the class. For more information, see <a href="https://msdn.microsoft.com/32e179f9-ab11-4360-b2fd-4276c6b6b3a0">Specifying Device Types</a>.
+The function returns a DWORD value that represents the device type for the class. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/specifying-device-types">Specifying Device Types</a>.
 
 
 
@@ -103,7 +103,7 @@ The function returns the device's security descriptor as a SECURITY_DESCRIPTOR s
 
 #### SPCRP_SECURITY_SDS
 
-The function returns the device's security descriptor as a text string. For information about security descriptor strings, see <a href="https://msdn.microsoft.com/2b15325e-34ed-497b-ae6d-3ec3ac168232">Security Descriptor Definition Language (Windows)</a>. For information about the format of security descriptor strings, see Security Descriptor Definition Language (Windows).
+The function returns the device's security descriptor as a text string. For information about security descriptor strings, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-definition-language">Security Descriptor Definition Language (Windows)</a>. For information about the format of security descriptor strings, see Security Descriptor Definition Language (Windows).
 
 
 
@@ -156,15 +156,15 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
 
 
 
-<a href="https://msdn.microsoft.com/d42269dc-57b5-4303-94d9-02f6ee16a96f">SetupDiGetDeviceRegistryProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceregistrypropertya">SetupDiGetDeviceRegistryProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/78457461-11ef-44ec-aa60-1adf4a48db8c">SetupDiSetClassRegistryProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetclassregistrypropertya">SetupDiSetClassRegistryProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/2686f416-3eb5-4e6b-87c8-ab10608ab406">SetupDiSetDeviceRegistryProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetdeviceregistrypropertya">SetupDiSetDeviceRegistryProperty</a>
  
 
  

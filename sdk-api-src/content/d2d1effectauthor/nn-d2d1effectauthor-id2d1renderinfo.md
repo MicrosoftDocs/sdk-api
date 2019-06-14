@@ -55,7 +55,7 @@ Describes the render information common to all of the various transform implemen
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1RenderInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID2D1RenderInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1RenderInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1RenderInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID2D1RenderInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2325A132-5B34-48B2-90F0-2A31892E0AD8">SetCached</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1renderinfo-setcached">SetCached</a>
 </td>
 <td align="left" width="63%">
 Specifies that the output of the transform in which the render information is encapsulated is or is not cached.
@@ -79,7 +79,7 @@ Specifies that the output of the transform in which the render information is en
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/31571676-7030-4FBB-BDED-3CE3BA7E7CE6">SetInputDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1renderinfo-setinputdescription">SetInputDescription</a>
 </td>
 <td align="left" width="63%">
 Sets how a specific input to the transform should be handled by the renderer in terms of sampling.
@@ -88,7 +88,7 @@ Sets how a specific input to the transform should be handled by the renderer in 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/44077C5C-E3AA-4AE6-B772-BF2669B205B3">SetInstructionCountHint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1renderinfo-setinstructioncounthint">SetInstructionCountHint</a>
 </td>
 <td align="left" width="63%">
 Provides an estimated hint of shader execution cost to D2D.
@@ -97,7 +97,7 @@ Provides an estimated hint of shader execution cost to D2D.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4267FCA0-10AF-4731-8B68-B3425FA00185">SetOutputBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1renderinfo-setoutputbuffer">SetOutputBuffer</a>
 </td>
 <td align="left" width="63%">
 Allows a caller to control the output precision and channel-depth of the transform in which the render information is encapsulated.
@@ -121,7 +121,7 @@ This interface is used by a transform implementation to first describe and then 
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

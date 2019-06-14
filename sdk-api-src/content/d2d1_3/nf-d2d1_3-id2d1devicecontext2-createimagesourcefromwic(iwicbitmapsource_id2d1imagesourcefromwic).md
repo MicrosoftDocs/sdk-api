@@ -60,14 +60,14 @@ Creates an image source object from a WIC bitmap source, while populating all pi
 
 ### -param wicBitmapSource [in]
 
-Type: <b><a href="https://msdn.microsoft.com/abcc84af-6067-4856-8618-fb66aff4255a">IWICBitmapSource</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>*</b>
 
 The WIC bitmap source to create the image source from.
 
 
 ### -param imageSource [out]
 
-Type: <b><a href="https://msdn.microsoft.com/EA1F1377-A314-4375-AB86-A36CFE5AF0C8">ID2D1ImageSourceFromWic</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1imagesourcefromwic">ID2D1ImageSourceFromWic</a>**</b>
 
 Receives the new image source instance.
 
@@ -76,7 +76,7 @@ Receives the new image source instance.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 S_OK if successful, otherwise a failure HRESULT.
 
@@ -91,7 +91,7 @@ This method creates an image source which can be used to draw the image.
 
 This method supports images that exceed the maximum texture size.  Large images are internally stored within a sparse tile cache.   
 
-This API supports the same set of pixel formats and alpha modes supported by <a href="https://msdn.microsoft.com/DE1AC711-8DD2-47F8-B1D5-CBCCC3F298B8">CreateBitmapFromWicBitmap</a>.  
+This API supports the same set of pixel formats and alpha modes supported by <a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1devicecontext-createbitmapfromwicbitmap-overload">CreateBitmapFromWicBitmap</a>.  
           If the GPU does not support a given pixel format,
           this method will return D2DERR_UNSUPPORTED_PIXEL_FORMAT.  This method does not apply adjustments such as gamma 
           or alpha premultiplication which affect the appearance of the image.
@@ -107,7 +107,7 @@ This method automatically selects an appropriate storage format to minimize GPU 
 
 
 
-<a href="https://msdn.microsoft.com/25c11cfc-75af-20a1-8f54-6b370942b841">ID2D1DeviceContext2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext2">ID2D1DeviceContext2</a>
  
 
  

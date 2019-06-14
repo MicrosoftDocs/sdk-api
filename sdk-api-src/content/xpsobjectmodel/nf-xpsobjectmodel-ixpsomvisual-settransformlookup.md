@@ -66,7 +66,7 @@ The lookup key name of the matrix transform in the dictionary.
 
 
 
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -127,32 +127,32 @@ No object could be found with a key name that matched the value passed in <i>key
 
 
 
-After you call <b>SetTransformLookup</b>, the local transform is released and <a href="https://msdn.microsoft.com/a7152ba0-2b65-4c66-b99b-7450a8cdb6fd">GetTransformLocal</a> returns a <b>NULL</b> pointer in the <i>matrixTransform</i> parameter. The table that follows explains the relationship between the local and lookup values of this property.
+After you call <b>SetTransformLookup</b>, the local transform is released and <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-gettransformlocal">GetTransformLocal</a> returns a <b>NULL</b> pointer in the <i>matrixTransform</i> parameter. The table that follows explains the relationship between the local and lookup values of this property.
 
 
 <table>
 <tr>
 <th>Most recent method called</th>
-<th>Object that is returned in <i>transform</i> by <a href="https://msdn.microsoft.com/966916c9-8b63-468b-80fb-0c4863ff893a">GetTransform</a>
+<th>Object that is returned in <i>transform</i> by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-gettransform">GetTransform</a>
 </th>
-<th>Object that is returned in <i>matrixTransform</i> by <a href="https://msdn.microsoft.com/a7152ba0-2b65-4c66-b99b-7450a8cdb6fd">GetTransformLocal</a>
+<th>Object that is returned in <i>matrixTransform</i> by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-gettransformlocal">GetTransformLocal</a>
 </th>
-<th>Object that is returned in <i>key</i> by <a href="https://msdn.microsoft.com/83d30b9c-4d3d-4fca-8dea-121074642b39">GetTransformLookup</a>
+<th>Object that is returned in <i>key</i> by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-gettransformlookup">GetTransformLookup</a>
 </th>
 </tr>
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/ac087cb0-dd3c-4f4b-a6e0-6f0f0a219d8a">SetTransformLocal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-settransformlocal">SetTransformLocal</a>
 
 
 </td>
 <td>
-The local transform that is set by <a href="https://msdn.microsoft.com/ac087cb0-dd3c-4f4b-a6e0-6f0f0a219d8a">SetTransformLocal</a>.
+The local transform that is set by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-settransformlocal">SetTransformLocal</a>.
 
 </td>
 <td>
-The local transform that is set by <a href="https://msdn.microsoft.com/ac087cb0-dd3c-4f4b-a6e0-6f0f0a219d8a">SetTransformLocal</a>.
+The local transform that is set by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-settransformlocal">SetTransformLocal</a>.
 
 </td>
 <td>
@@ -180,7 +180,7 @@ The lookup key that is set by <b>SetTransformLookup</b>.
 </tr>
 <tr>
 <td>
-Neither <a href="https://msdn.microsoft.com/ac087cb0-dd3c-4f4b-a6e0-6f0f0a219d8a">SetTransformLocal</a> nor <b>SetTransformLookup</b> has been called yet.
+Neither <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-settransformlocal">SetTransformLocal</a> nor <b>SetTransformLookup</b> has been called yet.
 
 </td>
 <td>
@@ -207,7 +207,7 @@ Neither <a href="https://msdn.microsoft.com/ac087cb0-dd3c-4f4b-a6e0-6f0f0a219d8a
 
 
 
-<a href="https://msdn.microsoft.com/f2ec412c-aece-4b20-a721-e6c17615e56b">IXpsOMVisual</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisual">IXpsOMVisual</a>
 
 
 
@@ -215,7 +215,7 @@ Neither <a href="https://msdn.microsoft.com/ac087cb0-dd3c-4f4b-a6e0-6f0f0a219d8a
 
 
 
-<a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
  
 
  

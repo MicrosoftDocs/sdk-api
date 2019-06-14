@@ -72,7 +72,7 @@ This method returns S_OK if the object can activate in-place without a window.
 
 
 
-If this method returns S_OK, the container can dispatch events to it using <a href="https://msdn.microsoft.com/86aabb46-6bc7-4953-b4eb-8692552ca380">IOleInPlaceObjectWindowless</a>.
+If this method returns S_OK, the container can dispatch events to it using <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplaceobjectwindowless">IOleInPlaceObjectWindowless</a>.
 
 If this method returns S_FALSE, the object should create a window and behave as a normal compound document object.
 
@@ -84,11 +84,11 @@ If this method returns S_FALSE, the object should create a window and behave as 
 
 
 
-<a href="https://msdn.microsoft.com/86aabb46-6bc7-4953-b4eb-8692552ca380">IOleInPlaceObjectWindowless</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplaceobjectwindowless">IOleInPlaceObjectWindowless</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ad83599-99d2-4b35-95de-cff845a8d5e4">IOleInPlaceSiteWindowless</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a>
  
 
  

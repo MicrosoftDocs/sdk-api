@@ -76,7 +76,7 @@ Type: <b>LPARAM</b>
 
 The 
 					<i>lParam</i> parameter of the posted DDE message that was received. The application must free the memory object specified by the 
-					<i>lParam</i> parameter by calling the <a href="https://msdn.microsoft.com/en-us/library/ms649004(v=VS.85).aspx">FreeDDElParam</a> function. 
+					<i>lParam</i> parameter by calling the <a href="https://docs.microsoft.com/windows/desktop/api/dde/nf-dde-freeddelparam">FreeDDElParam</a> function. 
 
 
 ### -param puiLo [out]
@@ -113,7 +113,7 @@ If the function fails, the return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649006(v=VS.85).aspx">PackDDElParam</a> eases the porting of 16-bit DDE applications to 32-bit DDE applications. 
+<a href="https://docs.microsoft.com/windows/desktop/api/dde/nf-dde-packddelparam">PackDDElParam</a> eases the porting of 16-bit DDE applications to 32-bit DDE applications. 
 
 
 
@@ -123,7 +123,7 @@ If the function fails, the return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648774(v=VS.85).aspx">About Dynamic Data Exchange</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/about-dynamic-data-exchange">About Dynamic Data Exchange</a>
 
 
 
@@ -131,11 +131,11 @@ If the function fails, the return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649004(v=VS.85).aspx">FreeDDElParam</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dde/nf-dde-freeddelparam">FreeDDElParam</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649006(v=VS.85).aspx">PackDDElParam</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dde/nf-dde-packddelparam">PackDDElParam</a>
 
 
 
@@ -143,7 +143,7 @@ If the function fails, the return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649007(v=VS.85).aspx">ReuseDDElParam</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dde/nf-dde-reuseddelparam">ReuseDDElParam</a>
  
 
  

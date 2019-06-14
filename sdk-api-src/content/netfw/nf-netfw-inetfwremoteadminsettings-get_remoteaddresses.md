@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="https://msdn.microsoft.com/8F33B96B-AA9A-46d5-8808-0F2D0723935B">Windows Firewall with Advanced Security</a> API is recommended.]
+<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
 
 Specifies a set of remote addresses from which remote administration is allowed.
 
@@ -82,7 +82,7 @@ Valid tokens:
 <li>Windows Vista: An IPv4 address range in the format "start address - end address."</li>
 <li>Windows Vista: An IPv6 address range in the format "start address - end address."</li>
 </ul>
-For a predefined address range, use the <a href="https://msdn.microsoft.com/0ba9e6d1-82a4-4a58-9da0-0e07e79b0030">Scope</a> property.
+For a predefined address range, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwremoteadminsettings-get_scope">Scope</a> property.
 
 
 
@@ -92,7 +92,7 @@ For a predefined address range, use the <a href="https://msdn.microsoft.com/0ba9
 
 
 
-<a href="https://msdn.microsoft.com/35f34a53-e73b-48be-ac79-9b7ab825c6ad">INetFwRemoteAdminSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nn-netfw-inetfwremoteadminsettings">INetFwRemoteAdminSettings</a>
  
 
  

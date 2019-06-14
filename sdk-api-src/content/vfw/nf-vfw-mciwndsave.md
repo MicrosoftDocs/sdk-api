@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndSave</b> macro saves the content currently used by an MCI device. This macro can save the content to a specified data file or display the Save dialog box to let the user select a filename to store the content. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/286e6f31-cb93-443b-8191-8c363b366eae">MCI_SAVE</a> command.
+The <b>MCIWndSave</b> macro saves the content currently used by an MCI device. This macro can save the content to a specified data file or display the Save dialog box to let the user select a filename to store the content. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-save">MCI_SAVE</a> command.
 
 
 

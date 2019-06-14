@@ -53,14 +53,14 @@ ms.custom: 19H1
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
         
 
-The <b>IMSVidStreamBufferSourceEvent2</b> interface is used to receive events from the <a href="https://msdn.microsoft.com/4043e199-d329-45f3-80a7-cd84fad88979">MSVidStreamBufferSource</a> object.
+The <b>IMSVidStreamBufferSourceEvent2</b> interface is used to receive events from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd695136(v=vs.85)">MSVidStreamBufferSource</a> object.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSourceEvent2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd694669(v=VS.85).aspx">IMSVidStreamBufferSourceEvent</a>. <b>IMSVidStreamBufferSourceEvent2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSourceEvent2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidstreambuffersourceevent">IMSVidStreamBufferSourceEvent</a>. <b>IMSVidStreamBufferSourceEvent2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IMSVidStreamBufferSourceEvent2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694671(v=VS.85).aspx">RateChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersourceevent2-ratechange">RateChange</a>
 </td>
 <td align="left" width="63%">
 Called when the playback rate changes.
@@ -99,11 +99,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694669(v=VS.85).aspx">IMSVidStreamBufferSourceEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidstreambuffersourceevent">IMSVidStreamBufferSourceEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf6c3ce9-1e56-4109-93f1-5b313e6ca19b">Video Control Event Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Event Interfaces</a>
  
 
  

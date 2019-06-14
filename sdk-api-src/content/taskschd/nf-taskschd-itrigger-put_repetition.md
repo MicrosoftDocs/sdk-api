@@ -63,12 +63,12 @@ This property is read/write.
 
 
 
-When reading or writing your own XML for a task, the repetition pattern for a trigger is specified in the  <a href="https://msdn.microsoft.com/d43c7f9a-3a7b-44a9-901b-9ad18c027b1b">Repetition</a> element of the Task Scheduler schema.
+When reading or writing your own XML for a task, the repetition pattern for a trigger is specified in the  <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-repetition-triggerbasetype-element">Repetition</a> element of the Task Scheduler schema.
 
 
 #### Examples
 
-For more information and example code for this property, see <a href="https://msdn.microsoft.com/f1038142-b83e-4159-9a7b-db2ae4ed3bd2">Daily Trigger Example (C++)</a>.
+For more information and example code for this property, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/daily-trigger-example--c---">Daily Trigger Example (C++)</a>.
 
 <div class="code"></div>
 
@@ -79,15 +79,15 @@ For more information and example code for this property, see <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/7eea143b-d2f8-44d2-a3ec-8328a0bc69ef">IRepetitionPattern</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-irepetitionpattern">IRepetitionPattern</a>
 
 
 
-<a href="https://msdn.microsoft.com/165297c1-704b-4ab3-a9e3-4aa3f10e07b1">ITrigger</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itrigger">ITrigger</a>
 
 
 
-<a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
  
 
  

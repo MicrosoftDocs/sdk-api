@@ -61,12 +61,12 @@ Gets the range of values for an image filter that the Microsoft DirectX Video Ac
 
 ### -param Filter [in]
 
-The type of image filter, specified as a member of the <a href="https://msdn.microsoft.com/e6abac04-c8cb-4130-b48e-fb5d25794d62">DXVAHD_FILTER</a> enumeration.
+The type of image filter, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-_dxvahd_filter">DXVAHD_FILTER</a> enumeration.
 
 
 ### -param pRange [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/cd349ac5-9825-4dc8-8735-5d846abb353b">DXVAHD_FILTER_RANGE_DATA</a> structure. The method fills the structure with the range of values for the specified filter.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_filter_range_data">DXVAHD_FILTER_RANGE_DATA</a> structure. The method fills the structure with the range of values for the specified filter.
 
 
 ## -returns
@@ -112,7 +112,7 @@ The <i>Filter</i> parameter is invalid or the device does not support the specif
 
 
 
-To find out which image filters the device supports, check the <b>FilterCaps</b> member of the <a href="https://msdn.microsoft.com/340669d4-2a84-4030-83c3-a61469fdfd61">DXVAHD_VPDEVCAPS</a> structure. Call the <a href="https://msdn.microsoft.com/93acad97-feee-46a5-95bf-51e560f91057">IDXVAHD_Device::GetVideoProcessorDeviceCaps</a> method to get this value.
+To find out which image filters the device supports, check the <b>FilterCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_vpdevcaps">DXVAHD_VPDEVCAPS</a> structure. Call the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessordevicecaps">IDXVAHD_Device::GetVideoProcessorDeviceCaps</a> method to get this value.
 
 
 
@@ -122,11 +122,11 @@ To find out which image filters the device supports, check the <b>FilterCaps</b>
 
 
 
-<a href="https://msdn.microsoft.com/38ebec28-c4fc-4e72-ac87-1e41707d1908">DXVA-HD</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f79ac9c-2aed-4e1c-bf6f-02f9c54d59cd">IDXVAHD_Device</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nn-dxvahd-idxvahd_device">IDXVAHD_Device</a>
  
 
  

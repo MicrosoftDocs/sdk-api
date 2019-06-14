@@ -67,7 +67,7 @@ The <b>IWbemServices::QueryObjectSink</b> method
   allows the caller to obtain a notification handler that is exported by Windows Management. This allows the caller 
   to write notifications and events directly to Windows Management. The caller should only write extrinsic events to 
   Windows Management. For more information, see 
-  <a href="https://msdn.microsoft.com/46cdfcfa-42c6-4169-bc4d-725867224889">Determining the Type of Event to Receive</a>.
+  <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/determining-the-type-of-event-to-receive">Determining the Type of Event to Receive</a>.
 
 
 ## -parameters
@@ -107,15 +107,15 @@ COM-specific error codes also may be returned if network problems cause you to l
 
 
 
-<a href="https://msdn.microsoft.com/987aea1d-912a-4691-987f-181c1ef1a8a9">IWbemObjectSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a>
 
 
 
-<a href="https://msdn.microsoft.com/0cceda42-fba0-4a08-90dd-43f022d0be41">Querying WMI</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/querying-wmi">Querying WMI</a>
  
 
  

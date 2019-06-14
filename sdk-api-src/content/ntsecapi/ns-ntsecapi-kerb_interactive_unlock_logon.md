@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>KERB_INTERACTIVE_UNLOCK_LOGON</b> structure contains information used to unlock a workstation that has been locked during an interactive <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">logon session</a>.
+The <b>KERB_INTERACTIVE_UNLOCK_LOGON</b> structure contains information used to unlock a workstation that has been locked during an interactive <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a>.
 
 
 ## -struct-fields
@@ -59,12 +59,12 @@ The <b>KERB_INTERACTIVE_UNLOCK_LOGON</b> structure contains information used to 
 
 ### -field Logon
 
-A <a href="https://msdn.microsoft.com/96aec0cc-b3e1-4b4b-aa0e-ecf05b9fabbe">KERB_INTERACTIVE_LOGON</a> structure that specifies the interactive logon session. The <b>MessageType</b> member of the <b>KERB_INTERACTIVE_LOGON</b> structure must be set to <b>KerbWorkstationUnlockLogon</b>.
+A <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_interactive_logon">KERB_INTERACTIVE_LOGON</a> structure that specifies the interactive logon session. The <b>MessageType</b> member of the <b>KERB_INTERACTIVE_LOGON</b> structure must be set to <b>KerbWorkstationUnlockLogon</b>.
 
 
 ### -field LogonId
 
-A <a href="https://msdn.microsoft.com/a812a46b-f23f-45b1-a6c6-48f931b78750">LUID</a> structure that contains the identity of the user attempting to unlock the workstation.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid">LUID</a> structure that contains the identity of the user attempting to unlock the workstation.
 
 
 ## -see-also
@@ -72,7 +72,7 @@ A <a href="https://msdn.microsoft.com/a812a46b-f23f-45b1-a6c6-48f931b78750">LUID
 
 
 
-<a href="https://msdn.microsoft.com/96aec0cc-b3e1-4b4b-aa0e-ecf05b9fabbe">KERB_INTERACTIVE_LOGON</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_interactive_logon">KERB_INTERACTIVE_LOGON</a>
  
 
  

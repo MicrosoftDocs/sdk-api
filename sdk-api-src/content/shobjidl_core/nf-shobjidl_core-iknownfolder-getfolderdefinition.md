@@ -59,9 +59,9 @@ Retrieves a structure that contains the defining elements of a known folder, whi
 
 ### -param pKFD [out]
 
-Type: <b><a href="https://msdn.microsoft.com/08bd8406-68fa-4e02-9a64-ed5e62f8639b">KNOWNFOLDER_DEFINITION</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-knownfolder_definition">KNOWNFOLDER_DEFINITION</a>*</b>
 
-When this method returns, contains a pointer to the <a href="https://msdn.microsoft.com/08bd8406-68fa-4e02-9a64-ed5e62f8639b">KNOWNFOLDER_DEFINITION</a> structure. When no longer needed, the calling application is responsible for calling <a href="https://msdn.microsoft.com/0ad17dd3-e612-403a-b8c3-e93d5f259c1f">FreeKnownFolderDefinitionFields</a> to free this resource.
+When this method returns, contains a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-knownfolder_definition">KNOWNFOLDER_DEFINITION</a> structure. When no longer needed, the calling application is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-freeknownfolderdefinitionfields">FreeKnownFolderDefinitionFields</a> to free this resource.
 
 
 ## -returns
@@ -79,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-When a third-party application creates their own known folder, they do so by defining it with a <a href="https://msdn.microsoft.com/08bd8406-68fa-4e02-9a64-ed5e62f8639b">KNOWNFOLDER_DEFINITION</a> structure, then registering it with the system. Any registered known folder definition information—system-provided or application-created—can be retrived through this method.
+When a third-party application creates their own known folder, they do so by defining it with a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-knownfolder_definition">KNOWNFOLDER_DEFINITION</a> structure, then registering it with the system. Any registered known folder definition information—system-provided or application-created—can be retrived through this method.
 
 To call this method, the caller must have at least User privileges.
 
@@ -91,11 +91,11 @@ To call this method, the caller must have at least User privileges.
 
 
 
-<a href="https://msdn.microsoft.com/dbade93d-73f6-401b-9986-4e6fd439c874">IKnownFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfolder">IKnownFolder</a>
 
 
 
-<a href="https://msdn.microsoft.com/49799A9E-BA86-4977-B5F3-590BE1E5FBF6">Known Folders Sample</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>
  
 
  

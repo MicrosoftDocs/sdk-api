@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Callback that receives events from an <a href="https://msdn.microsoft.com/60BFDCD7-D277-4B4A-94DA-7ADB1412252A">Interaction Context</a> object.
+Callback that receives events from an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ A pointer to an object that contains information about the client. The value typ
 
 ### -param *output [in]
 
-Output of the  <a href="https://msdn.microsoft.com/60BFDCD7-D277-4B4A-94DA-7ADB1412252A">Interaction Context</a> object.
+Output of the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
 
 
 ## -returns
@@ -81,15 +81,15 @@ This callback function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/90ba531c-9f97-451d-8781-450dbc248f47">INTERACTION_CONTEXT_OUTPUT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-interaction_context_output">INTERACTION_CONTEXT_OUTPUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/DDD141E3-7DEE-4259-87BE-E11A51CF6EEE">Interaction Context Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-reference">Interaction Context Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/87000250-f225-4864-96d2-1e189f5be1a3">RegisterOutputCallbackInteractionContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-registeroutputcallbackinteractioncontext">RegisterOutputCallbackInteractionContext</a>
  
 
  

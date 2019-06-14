@@ -52,7 +52,7 @@ ms.custom: 19H1
 Router Manager calls the 
 <b>StartComplete</b> function to inform the routing protocol that initialization is complete and all interfaces have been added. The routing protocol should wait for this call before starting any protocol-specific behavior.
 
-The <a href="https://msdn.microsoft.com/7046c4c2-b0bd-4459-b361-e46ce876823f">PSTART_COMPLETE</a> type defines a pointer to this callback function. <i>StartComplete</i> is a placeholder for the application-defined function name.
+The <a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-_mpr50_routing_characteristics">PSTART_COMPLETE</a> type defines a pointer to this callback function. <i>StartComplete</i> is a placeholder for the application-defined function name.
 
 
 ## -parameters
@@ -83,7 +83,7 @@ This function should return NO_ERROR.
 
 
 
-<a href="https://msdn.microsoft.com/8c1c0173-5abf-4e44-a633-16742fd2a4c0">StartProtocol</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pstart_protocol">StartProtocol</a>
  
 
  

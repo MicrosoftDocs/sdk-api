@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndGetVolume</b> macro retrieves the current volume setting of an MCI device. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/3f1de023-4da8-4899-accc-409701d6e921">MCIWNDM_GETVOLUME</a> message.
+The <b>MCIWndGetVolume</b> macro retrieves the current volume setting of an MCI device. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getvolume">MCIWNDM_GETVOLUME</a> message.
 
 
 
@@ -70,7 +70,7 @@ Handle of the MCIWnd window.
 
 
 
-<a href="https://msdn.microsoft.com/3f1de023-4da8-4899-accc-409701d6e921">MCIWNDM_GETVOLUME</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getvolume">MCIWNDM_GETVOLUME</a>
  
 
  

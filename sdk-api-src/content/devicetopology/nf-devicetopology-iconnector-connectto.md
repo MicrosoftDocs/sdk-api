@@ -62,7 +62,7 @@ The <b>ConnectTo</b> method connects this connector to a connector in another de
 
 ### -param pConnectTo [in]
 
-The other connector. This parameter points to the <a href="https://msdn.microsoft.com/6eb5b439-3ac7-4c0b-84e2-b246c1b946a5">IConnector</a> interface of the connector object that represents the connector in the other device topology. The caller is responsible for releasing its counted reference to the <b>IConnector</b> interface when it is no longer needed. The <b>ConnectTo</b> method obtains its own reference to this interface.
+The other connector. This parameter points to the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iconnector">IConnector</a> interface of the connector object that represents the connector in the other device topology. The caller is responsible for releasing its counted reference to the <b>IConnector</b> interface when it is no longer needed. The <b>ConnectTo</b> method obtains its own reference to this interface.
 
 
 ## -returns
@@ -94,7 +94,7 @@ Pointer <i>pConnectTo</i> is <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-The current connector and remote connector pointed to by <i>pConnectTo</i>, have the same direction of data flow. A connector with data-flow direction "In" must be connected to another connector with data-flow direction "Out" to create a valid connection in the topology. To determine the data flow of a connector, call <a href="https://msdn.microsoft.com/55078775-2921-45c2-af27-c8ad53688293">IConnector::GetDataFlow</a>. 
+The current connector and remote connector pointed to by <i>pConnectTo</i>, have the same direction of data flow. A connector with data-flow direction "In" must be connected to another connector with data-flow direction "Out" to create a valid connection in the topology. To determine the data flow of a connector, call <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iconnector-getdataflow">IConnector::GetDataFlow</a>. 
 
 </td>
 </tr>
@@ -131,7 +131,7 @@ One of the two connectors is already attached to another connector. For informat
 
 
 
-<a href="https://msdn.microsoft.com/6eb5b439-3ac7-4c0b-84e2-b246c1b946a5">IConnector Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iconnector">IConnector Interface</a>
  
 
  

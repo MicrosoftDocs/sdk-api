@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies overlay support to check for in a call to <a href="https://msdn.microsoft.com/D7B90FF5-5E8B-4F9E-A442-B44449438388">IDXGIOutput3::CheckOverlaySupport</a>.
+Specifies overlay support to check for in a call to <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgioutput3-checkoverlaysupport">IDXGIOutput3::CheckOverlaySupport</a>.
 
 
 ## -enum-fields
@@ -72,7 +72,7 @@ Scaling overlay support.
 
 
 
-<a href="https://msdn.microsoft.com/c4574c89-dee2-4841-9318-5383cf417111">DXGI Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-enums">DXGI Enumerations</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Initializes a created network and optionally commits the network's profile to the profile store. The network must be created using <a href="https://msdn.microsoft.com/1d9930b3-7bc4-4015-b096-a21fe01f54f5">CreateNetwork</a> before calling <b>CommitCreatedNetwork</b>.
+Initializes a created network and optionally commits the network's profile to the profile store. The network must be created using <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocmanager-createnetwork">CreateNetwork</a> before calling <b>CommitCreatedNetwork</b>.
 
 
 ## -parameters
@@ -59,21 +59,21 @@ Initializes a created network and optionally commits the network's profile to th
 
 ### -param pIAdHoc [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/2736bb81-b66f-4c09-8c76-ca16f3eab192">IDot11AdHocNetwork</a> interface that specifies the network to be initialized and committed.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a> interface that specifies the network to be initialized and committed.
 
 
 ### -param fSaveProfile [in]
 
-An optional parameter that specifies whether a wireless profile should  be saved. If <b>TRUE</b>, the profile is saved to the profile store. Once a profile has been saved, the user can modify the profile using the <b>Manage Wireless Network</b> user interface. Profiles can also be modified using the <a href="https://msdn.microsoft.com/c1816d68-48b2-4d3d-a8c8-4a243a4b3f3b">Native Wifi Functions</a>.
+An optional parameter that specifies whether a wireless profile should  be saved. If <b>TRUE</b>, the profile is saved to the profile store. Once a profile has been saved, the user can modify the profile using the <b>Manage Wireless Network</b> user interface. Profiles can also be modified using the <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/native-wifi-functions">Native Wifi Functions</a>.
 
-Saving a profile modifies the network signature returned by <a href="https://msdn.microsoft.com/0a59a8bd-d2eb-48c6-8480-dc4dea335d22">IDot11AdHocNetwork::GetSignature</a>.
+Saving a profile modifies the network signature returned by <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-getsignature">IDot11AdHocNetwork::GetSignature</a>.
 
 
 ### -param fMakeSavedProfileUserSpecific [in]
 
 An optional parameter that specifies whether the profile to be saved is an all-user profile.  If set to <b>TRUE</b>, the profile is specific to the current user. If set to <b>FALSE</b>, the profile is an all-user profile and can be used by any user logged into the machine. This parameter is ignored if <i>fSaveProfile</i> is <b>FALSE</b>. 
 
-By default, only members of the Administrators group can persist an all-user profile. These security settings can be altered using the <a href="https://msdn.microsoft.com/6038e4bc-7f07-4148-ac34-e290c8c40e99">WlanSetSecuritySettings</a> function. Your application must be launched by a user with sufficient privileges for an all-user profile to be persisted successfully.
+By default, only members of the Administrators group can persist an all-user profile. These security settings can be altered using the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetsecuritysettings">WlanSetSecuritySettings</a> function. Your application must be launched by a user with sufficient privileges for an all-user profile to be persisted successfully.
 
 If your application is running in a Remote Desktop window, you can only save an all-user profile. User-specific profiles cannot be saved from an application running remotely.
 
@@ -166,11 +166,11 @@ A pointer passed as a parameter is not valid.
 
 
 
-<a href="https://msdn.microsoft.com/dcb93b9c-3292-4cbf-9d44-5367bdbd4878">IDot11AdHocManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocmanager">IDot11AdHocManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d9930b3-7bc4-4015-b096-a21fe01f54f5">IDot11AdHocManager::CreateNetwork</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocmanager-createnetwork">IDot11AdHocManager::CreateNetwork</a>
  
 
  

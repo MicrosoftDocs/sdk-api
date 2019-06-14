@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Adds a reference to indicate to the platform that there are still pending asynchronous items. Blocks the <a href="https://msdn.microsoft.com/806c4142-b628-4ea0-b5e2-d2b4ead73c04">RtwqShutdown</a> function if there are active asynchronous items.
+Adds a reference to indicate to the platform that there are still pending asynchronous items. Blocks the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqshutdown">RtwqShutdown</a> function if there are active asynchronous items.
 
 
 ## -parameters

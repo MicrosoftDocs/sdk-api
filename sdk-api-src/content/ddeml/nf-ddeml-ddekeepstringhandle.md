@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Increments the usage count associated with the specified handle. This function enables an application to save a string handle passed to the application's Dynamic Data Exchange (DDE) callback function. Otherwise, a string handle passed to the callback function is deleted when the callback function returns. This function should also be used to keep a copy of a string handle referenced by the <a href="https://msdn.microsoft.com/en-us/library/ms648731(v=VS.85).aspx">CONVINFO</a> structure returned by the <a href="https://msdn.microsoft.com/en-us/library/ms648761(v=VS.85).aspx">DdeQueryConvInfo</a> function. 
+Increments the usage count associated with the specified handle. This function enables an application to save a string handle passed to the application's Dynamic Data Exchange (DDE) callback function. Otherwise, a string handle passed to the callback function is deleted when the callback function returns. This function should also be used to keep a copy of a string handle referenced by the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagconvinfo">CONVINFO</a> structure returned by the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddequeryconvinfo">DdeQueryConvInfo</a> function. 
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Increments the usage count associated with the specified handle. This function e
 
 Type: <b>DWORD</b>
 
-The application instance identifier obtained by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/ms648757(v=VS.85).aspx">DdeInitialize</a> function. 
+The application instance identifier obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a> function. 
 
 
 ### -param hsz [in]
@@ -89,7 +89,7 @@ If the function fails, the return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648731(v=VS.85).aspx">CONVINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagconvinfo">CONVINFO</a>
 
 
 
@@ -97,27 +97,27 @@ If the function fails, the return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648748(v=VS.85).aspx">DdeCreateStringHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddecreatestringhandlea">DdeCreateStringHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648753(v=VS.85).aspx">DdeFreeStringHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddefreestringhandle">DdeFreeStringHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648757(v=VS.85).aspx">DdeInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648761(v=VS.85).aspx">DdeQueryConvInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddequeryconvinfo">DdeQueryConvInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648763(v=VS.85).aspx">DdeQueryString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddequerystringa">DdeQueryString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a>
 
 
 

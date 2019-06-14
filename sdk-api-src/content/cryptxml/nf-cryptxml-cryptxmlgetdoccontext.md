@@ -64,7 +64,7 @@ The handle of the document context to retrieve.
 
 ### -param ppStruct [out]
 
-A pointer to a pointer to a  <a href="https://msdn.microsoft.com/b57cccb1-b26f-4710-b888-f864cc9ae3be">CRYPT_XML_DOC_CTXT</a> structure that contains the returned document context.
+A pointer to a pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_doc_ctxt">CRYPT_XML_DOC_CTXT</a> structure that contains the returned document context.
 
 
 ## -returns

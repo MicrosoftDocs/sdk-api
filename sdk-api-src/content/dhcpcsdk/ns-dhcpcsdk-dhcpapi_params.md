@@ -97,7 +97,7 @@ Size of the data pointed to by <b>Data</b>, in bytes.
 
 
 
-<a href="https://msdn.microsoft.com/84eafc6b-e9ee-4c73-b872-b2abc7e257df">DHCPAPI_PARAMS_ARRAY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpcsdk/ns-dhcpcsdk-_dhcpcapi_params_araray">DHCPAPI_PARAMS_ARRAY</a>
  
 
  

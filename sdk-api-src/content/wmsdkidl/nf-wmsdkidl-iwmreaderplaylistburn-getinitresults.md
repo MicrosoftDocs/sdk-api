@@ -65,7 +65,7 @@ The <b>GetInitResults</b> method retrieves the results of the playlist file chec
 
 ### -param cFiles [in]
 
-Number of files in the playlist. This is also the number of members in the array referenced by <i>phrStati</i>. This value must be the same as the number of files specified in the original call to <a href="https://msdn.microsoft.com/en-us/library/Dd743563(v=VS.85).aspx">InitPlaylistBurn</a>.
+Number of files in the playlist. This is also the number of members in the array referenced by <i>phrStati</i>. This value must be the same as the number of files specified in the original call to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderplaylistburn-initplaylistburn">InitPlaylistBurn</a>.
 
 
 ### -param phrStati [out]
@@ -105,7 +105,7 @@ The method succeeded.
 
 
 
-This method should be called in response to a WMT_INIT_PLAYLIST_BURN message received by your implementation of the <a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">IWMStatusCallback::OnStatus</a> method. If you call <b>GetInitResults</b> without first calling <b>InitPlaylistBurn</b> and receiving the WMT_INIT_PLAYLIST_BURN message, <b>GetInitResults</b> will return an error code.
+This method should be called in response to a WMT_INIT_PLAYLIST_BURN message received by your implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> method. If you call <b>GetInitResults</b> without first calling <b>InitPlaylistBurn</b> and receiving the WMT_INIT_PLAYLIST_BURN message, <b>GetInitResults</b> will return an error code.
 
 If, after calling this method, all members of the array referenced by <i>phrStati</i> are set to S_OK, you can begin copying the files in the playlist. However, you must use the same instance of the reader object for retrieving data that you used to get the <b>IWMReaderPlaylistBurn</b> interface.
 
@@ -117,7 +117,7 @@ If, after calling this method, all members of the array referenced by <i>phrStat
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743552(v=VS.85).aspx">IWMReaderPlaylistBurn Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderplaylistburn">IWMReaderPlaylistBurn Interface</a>
  
 
  

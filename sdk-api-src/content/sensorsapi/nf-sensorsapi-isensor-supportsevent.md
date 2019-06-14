@@ -111,7 +111,7 @@ NULL was passed in for pIsSupported.
 
 
 
-<a href="https://msdn.microsoft.com/3216afbb-d524-486d-99ad-0ee0cfb884e0">ISensor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
  
 
  

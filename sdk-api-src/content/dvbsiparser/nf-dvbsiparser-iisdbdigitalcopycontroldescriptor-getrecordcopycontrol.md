@@ -60,7 +60,7 @@ Gets copy control data from a specified component in an Integrated Services Digi
 ### -param bRecordIndex [in]
 
 Specifies the record number for the component,
-  indexed from zero. Call the <a href="https://msdn.microsoft.com/cc4e190e-8dd9-4e87-9f85-ed5ecea6eadc">IIsdbDigitalCompyControlDescriptor::GetCountOfRecords</a>method to get the number of records in the digital copy control descriptor.
+  indexed from zero. Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdigitalcopycontroldescriptor-getcountofrecords">IIsdbDigitalCompyControlDescriptor::GetCountOfRecords</a>method to get the number of records in the digital copy control descriptor.
 
 
 ### -param pbComponentTag [out]
@@ -259,11 +259,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/cc4e190e-8dd9-4e87-9f85-ed5ecea6eadc">IIsdbDigitalCompyControlDescriptor::GetCountOfRecords</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdigitalcopycontroldescriptor-getcountofrecords">IIsdbDigitalCompyControlDescriptor::GetCountOfRecords</a>
 
 
 
-<a href="https://msdn.microsoft.com/d509eb58-0c58-4173-8c9c-d52b81932b5c">IIsdbDigitalCopyControlDescriptor</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbdigitalcopycontroldescriptor">IIsdbDigitalCopyControlDescriptor</a>
  
 
  

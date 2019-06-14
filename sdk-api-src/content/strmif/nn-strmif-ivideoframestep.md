@@ -51,16 +51,16 @@ ms.custom: 19H1
 
 
 
-The <code>IVideoFrameStep</code> interface steps through a video stream. This interface enables Microsoft® DirectShow® applications, including DVD players, to step through a video stream as slowly as one frame at a time. Obtain the interface through the filter graph manager, which controls the frame stepping process in conjunction with the <a href="https://msdn.microsoft.com/e80938b7-31f0-467b-a3fa-c4511d14758d">Overlay Mixer Filter</a> or the Video Renderer Filter. Backward frame stepping is not supported.
+The <code>IVideoFrameStep</code> interface steps through a video stream. This interface enables Microsoft® DirectShow® applications, including DVD players, to step through a video stream as slowly as one frame at a time. Obtain the interface through the filter graph manager, which controls the frame stepping process in conjunction with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer Filter</a> or the Video Renderer Filter. Backward frame stepping is not supported.
 
-<div class="alert"><b>Note</b>  For frame stepping to work with a hardware decoder, the decoder must support the <a href="https://msdn.microsoft.com/01abe1fe-fc2f-44cb-9546-45a8d682a179">Frame Stepping Property Set</a>.</div>
+<div class="alert"><b>Note</b>  For frame stepping to work with a hardware decoder, the decoder must support the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/frame-stepping-property-set">Frame Stepping Property Set</a>.</div>
 <div> </div>
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVideoFrameStep</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IVideoFrameStep</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVideoFrameStep</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVideoFrameStep</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IVideoFrameStep</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1310d4d8-a1a3-493c-baee-f7c0ec5790e1">CancelStep</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivideoframestep-cancelstep">CancelStep</a>
 </td>
 <td align="left" width="63%">
 Cancels the previous step operation.
@@ -84,7 +84,7 @@ Cancels the previous step operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e2e3f665-28be-4a6d-b29a-4f0485d9a672">CanStep</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivideoframestep-canstep">CanStep</a>
 </td>
 <td align="left" width="63%">
 Determines the stepping capabilities of the specified filter.
@@ -93,7 +93,7 @@ Determines the stepping capabilities of the specified filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1366b8b4-ea7a-4528-8a5a-03a3de265d89">Step</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivideoframestep-step">Step</a>
 </td>
 <td align="left" width="63%">
 Causes the filter graph to step forward by the specified number of frames.

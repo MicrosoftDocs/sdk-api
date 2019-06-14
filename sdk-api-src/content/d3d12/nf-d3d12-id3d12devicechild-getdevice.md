@@ -63,7 +63,7 @@ Type: <b>REFIID</b>
 
 The globally unique identifier (<b>GUID</b>) for the device interface.
             The <b>REFIID</b>, or <b>GUID</b>, of the interface to the device can be obtained by using the __uuidof() macro.
-            For example, __uuidof(<a href="https://msdn.microsoft.com/D32B3397-A1E0-48AF-9251-2EDA96261A9F">ID3D12Device</a>) will get the <b>GUID</b> of the interface to a device.
+            For example, __uuidof(<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>) will get the <b>GUID</b> of the interface to a device.
           
 
 
@@ -71,7 +71,7 @@ The globally unique identifier (<b>GUID</b>) for the device interface.
 
 Type: <b>void**</b>
 
-A pointer to a memory block that receives a pointer to the <a href="https://msdn.microsoft.com/D32B3397-A1E0-48AF-9251-2EDA96261A9F">ID3D12Device</a> interface for the device.
+A pointer to a memory block that receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a> interface for the device.
           
 
 
@@ -79,9 +79,9 @@ A pointer to a memory block that receives a pointer to the <a href="https://msdn
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
+This method returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a>.
           
 
 
@@ -97,7 +97,7 @@ Any returned interfaces have their reference count incremented by one, so be sur
 
 #### Examples
 
-The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12Multithreading</a> sample uses <b>ID3D12DeviceChild::GetDevice</b> as follows:
+The <a href="https://docs.microsoft.com/windows/desktop/direct3d12/working-samples">D3D12Multithreading</a> sample uses <b>ID3D12DeviceChild::GetDevice</b> as follows:
         
 
 
@@ -122,7 +122,7 @@ inline UINT64 GetRequiredIntermediateSize(
 ```
 
 
-Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
+Refer to the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>
 
@@ -133,7 +133,7 @@ Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A
 
 
 
-<a href="https://msdn.microsoft.com/AED60281-A6E4-4AAD-A106-6CA6E9BAEB9A">ID3D12DeviceChild</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12devicechild">ID3D12DeviceChild</a>
  
 
  

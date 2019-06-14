@@ -88,7 +88,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 The default state for this control is enabled and visible.
 
-To add a label next to the edit box, place it in a visual group with <a href="https://msdn.microsoft.com/2626c820-3731-474d-9ddb-d2a8966c3d35">IFileDialogCustomize::StartVisualGroup</a>.
+To add a label next to the edit box, place it in a visual group with <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-startvisualgroup">IFileDialogCustomize::StartVisualGroup</a>.
 
 
 

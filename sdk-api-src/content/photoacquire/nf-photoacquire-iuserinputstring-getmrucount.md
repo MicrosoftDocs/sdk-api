@@ -119,7 +119,7 @@ If an error occurs, <i>pnMruCount</i> will be set to 0.
 
 
 
-<a href="https://msdn.microsoft.com/f942fefc-2db1-4067-8311-f9ebbaca9d31">IUserInputString Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iuserinputstring">IUserInputString Interface</a>
  
 
  

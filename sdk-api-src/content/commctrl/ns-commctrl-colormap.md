@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information used by the <a href="https://msdn.microsoft.com/en-us/library/Bb787467(v=VS.85).aspx">CreateMappedBitmap</a> function to map the colors of the bitmap. 
+Contains information used by the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-createmappedbitmap">CreateMappedBitmap</a> function to map the colors of the bitmap. 
 
 
 ## -struct-fields
@@ -59,14 +59,14 @@ Contains information used by the <a href="https://msdn.microsoft.com/en-us/libra
 
 ### -field from
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 Color to map from. 
 
 
 ### -field to
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 Color to map to. 
 

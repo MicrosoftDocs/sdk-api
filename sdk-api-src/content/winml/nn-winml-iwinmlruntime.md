@@ -58,7 +58,7 @@ Represents the runtime to load and evaluate a WinML model.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWinMLRuntime</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWinMLRuntime</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWinMLRuntime</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWinMLRuntime</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IWinMLRuntime</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/629D49AF-0AD9-4741-9A59-4B83F521723A">CreateEvaluationContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winml/nf-winml-iwinmlruntime-createevaluationcontext">CreateEvaluationContext</a>
 </td>
 <td align="left" width="63%">
 Creates a WinML evaluation context object.
@@ -82,7 +82,7 @@ Creates a WinML evaluation context object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F96A1CCD-02BD-4E93-830D-9975A03658E2">EvaluateModel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winml/nf-winml-iwinmlruntime-evaluatemodel">EvaluateModel</a>
 </td>
 <td align="left" width="63%">
 Evaluates a WinML model.
@@ -91,7 +91,7 @@ Evaluates a WinML model.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/75FC42E6-CFFA-4E85-A2D5-80322630E958">LoadModel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winml/nf-winml-iwinmlruntime-loadmodel">LoadModel</a>
 </td>
 <td align="left" width="63%">
 Loads a WinML model.

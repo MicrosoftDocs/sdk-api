@@ -59,7 +59,7 @@ Contains information about the creation flags, input channels, and sample rate o
 
 ### -field CreationFlags
 
-Flags used to create the voice; see the individual voice <a href="https://msdn.microsoft.com/96691e00-9ed0-b31c-fbe9-4daaba0daf98">interfaces</a> for more information.
+Flags used to create the voice; see the individual voice <a href="https://docs.microsoft.com/windows/desktop/xaudio2/interfaces">interfaces</a> for more information.
 
 
 ### -field ActiveFlags
@@ -94,7 +94,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/3656aaf9-7a3a-2a5b-50f5-d279ce8a9e6c">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/structures">Structures</a>
  
 
  

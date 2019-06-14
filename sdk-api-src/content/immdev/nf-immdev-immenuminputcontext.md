@@ -102,7 +102,7 @@ Identifier of the thread for which to enumerate the context. This thread identif
 
 ### -param lpfn [in]
 
-Pointer to the enumeration callback function. For more information, see <a href="https://msdn.microsoft.com/c66dcc0f-733a-44a2-942f-f518b752d014">EnumInputContext</a>.
+Pointer to the enumeration callback function. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/imm/nc-imm-imcenumproc">EnumInputContext</a>.
 
 
 ### -param lParam [in]
@@ -133,15 +133,15 @@ This function calls the application callback function for each enumerated input 
 
 
 
-<a href="https://msdn.microsoft.com/c66dcc0f-733a-44a2-942f-f518b752d014">EnumInputContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imm/nc-imm-imcenumproc">EnumInputContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e23e004-514a-4021-bd20-5ac55547258f">Input Method Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://msdn.microsoft.com/833c07eb-0ecf-41e2-9e01-8d83e51ffcef">Input Method Manager Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
  
 
  

@@ -107,7 +107,7 @@ The method call was not made at the required Medium Integrity Level (Medium IL).
 
 
 
-<a href="https://msdn.microsoft.com/5DB67142-4B8F-4B88-A77F-B69F48E75839">IContentPrefetcherTaskTrigger</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/icontentprefetchertasktrigger/nn-icontentprefetchertasktrigger-icontentprefetchertasktrigger">IContentPrefetcherTaskTrigger</a>
  
 
  

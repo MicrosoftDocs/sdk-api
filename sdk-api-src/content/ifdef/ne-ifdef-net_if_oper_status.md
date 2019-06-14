@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The NET_IF_OPER_STATUS enumeration type defines the current 
-  <a href="https://msdn.microsoft.com/library/Ff566527(v=VS.85).aspx">NDIS network interface</a> operational
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-network-interfaces2">NDIS network interface</a> operational
   status.
 
 

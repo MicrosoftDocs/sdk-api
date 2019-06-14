@@ -65,12 +65,12 @@ Applications should not call this method. This method is called by other filters
 
 ### -param pConnector [in]
 
-Pointer to the connecting pin's <a href="https://msdn.microsoft.com/ad0ead4e-9f8e-4935-b220-306d665e50f4">IPin</a> interface.
+Pointer to the connecting pin's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface.
 
 
 ### -param pmt [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02">AM_MEDIA_TYPE</a> structure that specifies the media type for the connection.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_ammediatype">AM_MEDIA_TYPE</a> structure that specifies the media type for the connection.
 
 
 ## -returns
@@ -152,12 +152,12 @@ The specified media type is not acceptable.
 When an output pin connects, it calls this method on the input pin. The input pin should verify that the specified media type is acceptable. It may also need to check for other connection requirements specific to the owning filter. If the connection is suitable, the input pin should return S_OK, and also do the following:
 
 <ul>
-<li>Store the media type, and return the same type in the <a href="https://msdn.microsoft.com/f372bfa7-b0ba-43f9-ba86-cbca5d1de515">IPin::ConnectionMediaType</a> method.</li>
-<li>Store the output pin's <b>IPin</b> interface (<i>pConnector</i>), and return this pointer in the <a href="https://msdn.microsoft.com/970c814f-2309-481e-9e8e-9bd32b83fdc7">IPin::ConnectedTo</a> method.</li>
+<li>Store the media type, and return the same type in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-connectionmediatype">IPin::ConnectionMediaType</a> method.</li>
+<li>Store the output pin's <b>IPin</b> interface (<i>pConnector</i>), and return this pointer in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-connectedto">IPin::ConnectedTo</a> method.</li>
 </ul>
 If the connection is unsuitable, the pin should return an error code.
 
-The <a href="https://msdn.microsoft.com/23b9a0e2-24fe-4ff9-b2bb-97630c237de9">CBasePin</a> class implements the basic framework for this method, including storing the media type and <b>IPin</b> pointers.
+The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/cbasepin">CBasePin</a> class implements the basic framework for this method, including storing the media type and <b>IPin</b> pointers.
 
 
 
@@ -167,15 +167,15 @@ The <a href="https://msdn.microsoft.com/23b9a0e2-24fe-4ff9-b2bb-97630c237de9">CB
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a126dd5-00fa-4ea6-b00a-09b7e1246874">How Filters Connect</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/how-filters-connect">How Filters Connect</a>
 
 
 
-<a href="https://msdn.microsoft.com/ad0ead4e-9f8e-4935-b220-306d665e50f4">IPin Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
  
 
  

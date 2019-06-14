@@ -152,19 +152,19 @@ The day of the week. Valid values are 0 through 6, where 0 is Sunday, 1 is Monda
 
 
 
-<a href="https://msdn.microsoft.com/5a935e09-f188-4ee1-b998-c67488475baa">NetRemoteTOD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmremutl/nf-lmremutl-netremotetod">NetRemoteTOD</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4b05054-bef2-4cab-89f6-725d92ee75b8">Network Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/e925d6d1-9347-4074-a12e-175b2115e71e">Remote Utility functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/remote-utility-functions">Remote Utility functions</a>
  
 
  

@@ -68,13 +68,13 @@ A pointer to a string that contains the application executable module filename, 
 ### -param dwMediaMode
 
 A media type for which the priority of the application is to be set. The value can be one or more of the 
-<a href="https://msdn.microsoft.com/cbb758be-3ecd-4ac4-b1b5-57136a1aad8e">LINEMEDIAMODE</a> constants. The value zero should be used to set the application priority for Assisted Telephony requests.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linemediamode--constants">LINEMEDIAMODE</a> constants. The value zero should be used to set the application priority for Assisted Telephony requests.
 
 
 ### -param lpExtensionID
 
 A pointer to a structure of type 
-<a href="https://msdn.microsoft.com/bf7d9ccc-3f80-4e54-bcc2-cc2fef1d24af">LINEEXTENSIONID</a>. This parameter is ignored.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineextensionid_tag">LINEEXTENSIONID</a>. This parameter is ignored.
 
 
 ### -param dwRequestMode
@@ -108,12 +108,12 @@ Returns zero if the request succeeds or a negative error number if an error occu
 
 
 If <b>LINEERR_INVALMEDIAMODE</b> is returned, the value specified in <i>dwMediaMode</i> is not zero and not one of the 
-<a href="https://msdn.microsoft.com/cbb758be-3ecd-4ac4-b1b5-57136a1aad8e">LINEMEDIAMODE_ Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linemediamode--constants">LINEMEDIAMODE_ Constants</a>.
 
 This function updates the stored priority list. If the telephony system is initialized, it also sets the current, active priorities for applications then running; the new priority is used on the next incoming call or 
-<a href="https://msdn.microsoft.com/931c2fa4-dad6-432d-8f07-bb04b646916b">lineHandoff</a> based on media type.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linehandoff">lineHandoff</a> based on media type.
 
-The Priorities set with <b>lineSetAppPriority</b> will persist across restarts of the system or restarts of tapisrv. The <a href="https://msdn.microsoft.com/7dd39866-0b3e-47be-8aa8-adfb66df6644">lineOpen</a> function opens the line with no specified call priorities. By default, the highest priority application will be the one that first called <b>lineOpen</b>.
+The Priorities set with <b>lineSetAppPriority</b> will persist across restarts of the system or restarts of tapisrv. The <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineopen">lineOpen</a> function opens the line with no specified call priorities. By default, the highest priority application will be the one that first called <b>lineOpen</b>.
 
 
 
@@ -123,19 +123,19 @@ The Priorities set with <b>lineSetAppPriority</b> will persist across restarts o
 
 
 
-<a href="https://msdn.microsoft.com/bf7d9ccc-3f80-4e54-bcc2-cc2fef1d24af">LINEEXTENSIONID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineextensionid_tag">LINEEXTENSIONID</a>
 
 
 
-<a href="https://msdn.microsoft.com/d4338b3c-cd84-4abb-b74e-9df895c8355b">Supplementary Line Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d703b414-1389-416c-8e94-c1931979f0c9">TAPI 2.2 Reference Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/931c2fa4-dad6-432d-8f07-bb04b646916b">lineHandoff</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linehandoff">lineHandoff</a>
  
 
  

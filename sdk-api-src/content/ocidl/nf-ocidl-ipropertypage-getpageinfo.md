@@ -59,7 +59,7 @@ Retrieves information about the property page.
 
 ### -param pPageInfo [out]
 
-A pointer to the caller-allocated <a href="https://msdn.microsoft.com/363fd45f-fb36-41f0-9d72-dc9c018859ec">PROPPAGEINFO</a> structure in which the property page stores its page information. All allocations stored in this structure become the responsibility of the caller.
+A pointer to the caller-allocated <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagproppageinfo">PROPPAGEINFO</a> structure in which the property page stores its page information. All allocations stored in this structure become the responsibility of the caller.
 
 
 ## -returns
@@ -116,7 +116,7 @@ E_NOTIMPL is not a valid return value.
 
 
 
-<a href="https://msdn.microsoft.com/ad2cb3ae-dd24-4774-95bd-f5a0773c68b1">IPropertyPage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>
  
 
  

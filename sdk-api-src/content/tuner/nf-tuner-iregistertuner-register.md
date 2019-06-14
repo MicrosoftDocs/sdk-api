@@ -87,7 +87,7 @@ When the method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b
 
 
 
-<a href="https://msdn.microsoft.com/99e88361-f5d3-43b7-b879-2e1c44859af4">IRegisterTuner Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iregistertuner">IRegisterTuner Interface</a>
  
 
  

@@ -57,7 +57,7 @@ Handles the stylus packet data from a digitizer in real time.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRealTimeStylus</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IRealTimeStylus</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRealTimeStylus</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRealTimeStylus</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -73,7 +73,7 @@ The <b>IRealTimeStylus</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9d216853-9103-4027-a724-f35d84553a9b">AddCustomStylusDataToQueue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-addcustomstylusdatatoqueue">AddCustomStylusDataToQueue</a>
 </td>
 <td align="left" width="63%">
 Adds custom data to the specified queue.
@@ -82,25 +82,25 @@ Adds custom data to the specified queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fc22fa79-469a-47f0-96ce-9a041fc8a617">AddStylusAsyncPlugin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-addstylusasyncplugin">AddStylusAsyncPlugin</a>
 </td>
 <td align="left" width="63%">
-Adds an <a href="https://msdn.microsoft.com/bf961d70-2576-493b-a34d-c7c72b6c0234">IStylusAsyncPlugin</a> to the asynchronous plug-in collection at the specified index.
+Adds an <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a> to the asynchronous plug-in collection at the specified index.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/db38e39a-27ba-42ca-8748-b5e9c4db18f7">AddStylusSyncPlugin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-addstylussyncplugin">AddStylusSyncPlugin</a>
 </td>
 <td align="left" width="63%">
-Adds an <a href="https://msdn.microsoft.com/e3e02d5a-a004-49de-b2d8-86ccfc120481">IStylusSyncPlugin</a> to the synchronous plug-in collection at the specified index.
+Adds an <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a> to the synchronous plug-in collection at the specified index.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/28270403-9d6d-4e57-9ec5-0d697f4df185">ClearStylusQueues</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-clearstylusqueues">ClearStylusQueues</a>
 </td>
 <td align="left" width="63%">
 Clears both the input and the output queues of data.
@@ -109,7 +109,7 @@ Clears both the input and the output queues of data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1fac0624-2e1c-44b2-8a11-82b746a18356">GetAllTabletContextIds</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-getalltabletcontextids">GetAllTabletContextIds</a>
 </td>
 <td align="left" width="63%">
 Retrieves an array of <b>TABLET_CONTEXT_ID</b>s.
@@ -118,7 +118,7 @@ Retrieves an array of <b>TABLET_CONTEXT_ID</b>s.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8799eb17-8ad0-49c1-a278-40b3bff9d281">GetDesiredPacketDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-getdesiredpacketdescription">GetDesiredPacketDescription</a>
 </td>
 <td align="left" width="63%">
 Retrieves the properties that are requested to be included in the packet stream.
@@ -127,16 +127,16 @@ Retrieves the properties that are requested to be included in the packet stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7eff81c6-8ed5-434b-8e78-fcdb952f37e8">GetPacketDescriptionData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-getpacketdescriptiondata">GetPacketDescriptionData</a>
 </td>
 <td align="left" width="63%">
-Retrieves the actual properties that will be received from the hardware based on the request made by the call to <a href="https://msdn.microsoft.com/1ea8359b-fc9f-4929-9499-c5017eb3d763">IRealTimeStylus::SetDesiredPacketDescription Method</a>.
+Retrieves the actual properties that will be received from the hardware based on the request made by the call to <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-setdesiredpacketdescription">IRealTimeStylus::SetDesiredPacketDescription Method</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/229e14f6-e0b1-40e0-a58e-daf1ba08cd1f">GetStylusAsyncPlugin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-getstylusasyncplugin">GetStylusAsyncPlugin</a>
 </td>
 <td align="left" width="63%">
 Retrieves the plug-in at the specified index.
@@ -145,7 +145,7 @@ Retrieves the plug-in at the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/45861b92-0a2c-42ec-96e5-c3afd45e0e85">GetStylusAsyncPluginCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-getstylusasyncplugincount">GetStylusAsyncPluginCount</a>
 </td>
 <td align="left" width="63%">
 Gets the count of plug-ins in the collection.
@@ -154,16 +154,16 @@ Gets the count of plug-ins in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1e838591-ce9e-4f3f-9b5e-b8414faac6ba">GetStyluses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-getstyluses">GetStyluses</a>
 </td>
 <td align="left" width="63%">
-Retrieves the collection of styluses this instance of the <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> object has encountered.
+Retrieves the collection of styluses this instance of the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object has encountered.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/16218bd3-9e92-407b-99b1-155d4387641e">GetStylusForId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-getstylusforid">GetStylusForId</a>
 </td>
 <td align="left" width="63%">
 Retrieves a stylus for the specific stylus identifier.
@@ -172,7 +172,7 @@ Retrieves a stylus for the specific stylus identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ec587954-cf7c-4f2d-a20d-b401011f7140">GetStylusSyncPlugin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-getstylussyncplugin">GetStylusSyncPlugin</a>
 </td>
 <td align="left" width="63%">
 Retrieves the plug-in at the specified index.
@@ -181,7 +181,7 @@ Retrieves the plug-in at the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1f8d9097-6f17-4c62-a624-98583ac26f98">GetStylusSyncPluginCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-getstylussyncplugincount">GetStylusSyncPluginCount</a>
 </td>
 <td align="left" width="63%">
 Gets the count of plug-ins in the collection.
@@ -190,16 +190,16 @@ Gets the count of plug-ins in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/38970fc0-ec4c-4068-a146-83edaa040c8c">GetTablet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-gettablet">GetTablet</a>
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://msdn.microsoft.com/9a945740-b191-41f5-8b3d-49b7e2d1e463">IInkTablet Interface</a> object to the caller.
+Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet Interface</a> object to the caller.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9f4cc882-c25f-4862-8b78-4db108d0b5d4">GetTabletContextIdFromTablet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-gettabletcontextidfromtablet">GetTabletContextIdFromTablet</a>
 </td>
 <td align="left" width="63%">
 Retrieves the <b>TABLET_CONTEXT_ID</b> for a specific tablet.
@@ -208,16 +208,16 @@ Retrieves the <b>TABLET_CONTEXT_ID</b> for a specific tablet.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/be736eaf-8632-4e71-b1d8-c851a9d417e5">GetTabletFromTabletContextId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-gettabletfromtabletcontextid">GetTabletFromTabletContextId</a>
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://msdn.microsoft.com/9a945740-b191-41f5-8b3d-49b7e2d1e463">IInkTablet Interface</a> for a specific tablet context.
+Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet Interface</a> for a specific tablet context.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/98b97156-f181-45f4-9cfb-13816f8042e6">RemoveAllStylusAsyncPlugins</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-removeallstylusasyncplugins">RemoveAllStylusAsyncPlugins</a>
 </td>
 <td align="left" width="63%">
 Removes all the plug-ins from the asynchronous plug-in collection.
@@ -226,7 +226,7 @@ Removes all the plug-ins from the asynchronous plug-in collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6d6aa14b-f1f5-460a-b37a-5187022ad301">RemoveAllStylusSyncPlugins</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-removeallstylussyncplugins">RemoveAllStylusSyncPlugins</a>
 </td>
 <td align="left" width="63%">
 Removes all the plug-ins from the synchronous plug-in collection.
@@ -235,34 +235,34 @@ Removes all the plug-ins from the synchronous plug-in collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9c993147-3711-45ad-8996-e1434fd4b657">RemoveStylusAsyncPlugin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-removestylusasyncplugin">RemoveStylusAsyncPlugin</a>
 </td>
 <td align="left" width="63%">
-Removes and retrieves an <a href="https://msdn.microsoft.com/bf961d70-2576-493b-a34d-c7c72b6c0234">IStylusAsyncPlugin</a> from the collection at the specified index.
+Removes and retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a> from the collection at the specified index.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5f04dc8a-c0f5-47fd-a814-490e1dfe2cf8">RemoveStylusSyncPlugin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-removestylussyncplugin">RemoveStylusSyncPlugin</a>
 </td>
 <td align="left" width="63%">
-Removes and optionally retrieves an <a href="https://msdn.microsoft.com/e3e02d5a-a004-49de-b2d8-86ccfc120481">IStylusSyncPlugin</a> from the collection at the specified index.
+Removes and optionally retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a> from the collection at the specified index.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cb8b2a17-68b9-482b-b212-ad129522ff2e">SetAllTabletsMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-setalltabletsmode">SetAllTabletsMode</a>
 </td>
 <td align="left" width="63%">
-Sets the mode for the <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus</a> to forward packets from all attached tablets.
+Sets the mode for the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus</a> to forward packets from all attached tablets.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1ea8359b-fc9f-4929-9499-c5017eb3d763">SetDesiredPacketDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-setdesiredpacketdescription">SetDesiredPacketDescription</a>
 </td>
 <td align="left" width="63%">
 Requests which properties should be included in the packet stream.
@@ -271,10 +271,10 @@ Requests which properties should be included in the packet stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7f3645fd-cb1e-4bd5-a995-d70197c61afc">SetSingleTabletMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-setsingletabletmode">SetSingleTabletMode</a>
 </td>
 <td align="left" width="63%">
-Sets the mode for the <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus</a> to forward packets from a single attached tablet.
+Sets the mode for the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus</a> to forward packets from a single attached tablet.
 
 </td>
 </tr>
@@ -289,7 +289,7 @@ Sets the mode for the <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/269c133c-6950-40e0-8de9-e38bfa06995e">ChildRealTimeStylusPlugin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-get_childrealtimestylusplugin">ChildRealTimeStylusPlugin</a>
 
 
 </td>
@@ -298,14 +298,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Enables the developer to add a <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> object as an asynchronous plug-in of the current <b>RealTimeStylus Class</b> object.
+Enables the developer to add a <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object as an asynchronous plug-in of the current <b>RealTimeStylus Class</b> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/e96e27d7-b453-49a7-b684-b3dd5f94c378">Enabled</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-get_enabled">Enabled</a>
 
 
 </td>
@@ -321,7 +321,7 @@ Enables or disables the collection of stylus data.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/b6bc8053-80fa-45f3-8096-272b471a5f6d">HWND</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-get_hwnd">HWND</a>
 
 
 </td>
@@ -330,14 +330,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets the window handle associated with this <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> object.
+Gets or sets the window handle associated with this <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/e202be43-48c7-4fa4-b049-efdda3ef2ada">WindowInputRectangle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-get_windowinputrectangle">WindowInputRectangle</a>
 
 
 </td>
@@ -346,7 +346,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets the window input rectangle for the <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> object.
+Gets or sets the window input rectangle for the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object.
 
 </td>
 </tr>
@@ -357,13 +357,13 @@ Gets or sets the window input rectangle for the <a href="https://msdn.microsoft.
 
 
 
-This interface is implemented by the <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a>.
+This interface is implemented by the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>.
 
-Extensibility is provided through synchronous and asynchronous plug-in models, using the <a href="https://msdn.microsoft.com/e3e02d5a-a004-49de-b2d8-86ccfc120481">IStylusSyncPlugin</a> and <a href="https://msdn.microsoft.com/bf961d70-2576-493b-a34d-c7c72b6c0234">IStylusAsyncPlugin</a> interfaces respectively to conduct custom processing. Use asynchronous plug-ins for computationally intense operations to avoid blocking the packet stream.
+Extensibility is provided through synchronous and asynchronous plug-in models, using the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a> and <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a> interfaces respectively to conduct custom processing. Use asynchronous plug-ins for computationally intense operations to avoid blocking the packet stream.
 
-We recommend that you do not use the <a href="https://msdn.microsoft.com/e3e02d5a-a004-49de-b2d8-86ccfc120481">IStylusSyncPlugin</a> interface implementations for CPU and time-intensive operations since this blocks the packet stream flow. These operations should be conducted in <a href="https://msdn.microsoft.com/bf961d70-2576-493b-a34d-c7c72b6c0234">IStylusAsyncPlugin</a> interface implementation classes which run on a different thread than the thread that maintains the packet stream flow.
+We recommend that you do not use the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a> interface implementations for CPU and time-intensive operations since this blocks the packet stream flow. These operations should be conducted in <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a> interface implementation classes which run on a different thread than the thread that maintains the packet stream flow.
 
-<div class="alert"><b>Note</b>  The synchronous and asynchronous plug-in collections on the <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> can be modified without disabling and then re-enabling the <b>RealTimeStylus Class</b> object.</div>
+<div class="alert"><b>Note</b>  The synchronous and asynchronous plug-in collections on the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> can be modified without disabling and then re-enabling the <b>RealTimeStylus Class</b> object.</div>
 <div> </div>
 
 
@@ -373,19 +373,19 @@ We recommend that you do not use the <a href="https://msdn.microsoft.com/e3e02d5
 
 
 
-<a href="https://msdn.microsoft.com/938e1eb2-3dd4-4e21-9c46-9ef840172b05">DynamicRenderer Class</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/fc0900b4-f08b-4a93-bbc0-d3db067d7917">RealTimeStylus Classes and Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/a239b53c-7fc9-4211-962a-6cfbe0be4e4c">RealTimeStylus Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-reference">RealTimeStylus Reference</a>
  
 
  

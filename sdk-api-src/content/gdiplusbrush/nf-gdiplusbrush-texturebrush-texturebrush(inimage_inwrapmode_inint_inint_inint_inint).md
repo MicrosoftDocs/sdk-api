@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534512(v=VS.85).aspx">TextureBrush</a> object based on an image, a wrap mode, and a defining set of coordinates.
+Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-texturebrush">TextureBrush</a> object based on an image, a wrap mode, and a defining set of coordinates.
 
 
 ## -parameters
@@ -60,16 +60,16 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534512(v=VS.85).as
 
 ### -param image [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object that contains the bitmap of the image to use. 
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object that contains the bitmap of the image to use. 
 
 
 ### -param wrapMode [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534407(v=VS.85).aspx">WrapMode</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-wrapmode">WrapMode</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534407(v=VS.85).aspx">WrapMode</a> enumeration that specifies how repeated copies of an image are used to tile an area when it is painted with this texture brush. 
+Element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-wrapmode">WrapMode</a> enumeration that specifies how repeated copies of an image are used to tile an area when it is painted with this texture brush. 
 
 
 ### -param dstX [in]
@@ -118,15 +118,15 @@ The
 				<i>dstWidth</i>, and 
 				<i>dstHeight</i> parameters define the portion of the image to be used by the brush.
 
-For example, suppose you have an image that is stored in an <a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object and is 256
+For example, suppose you have an image that is stored in an <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object and is 256
 				×512 (width
-				×height) pixels. Then you create a <a href="https://msdn.microsoft.com/en-us/library/ms534512(v=VS.85).aspx">TextureBrush</a> object based on this image as follows:
+				×height) pixels. Then you create a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-texturebrush">TextureBrush</a> object based on this image as follows:
 
 <code>TextureBrush(&amp;someImage, WrapModeTile, 12, 50, 100, 150)</code>
 
 The brush will have a width of 100 units and a height of 150 units. The brush will use a rectangular portion of the image. This portion begins at the pixel having coordinates (12, 50). The width and height of the portion are 100 and 150, respectively, measured from the starting pixel. 
 
-Now suppose you create another <a href="https://msdn.microsoft.com/en-us/library/ms534512(v=VS.85).aspx">TextureBrush</a> object based on the same image and specify a different rectangle:
+Now suppose you create another <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-texturebrush">TextureBrush</a> object based on the same image and specify a different rectangle:
 
 <code>TextureBrush(&amp;someImage, WrapModeTile, 0, 0, 256, 512)</code>
 
@@ -140,31 +140,31 @@ The brush will have width and height equal to 256 and 512, respectively. The bru
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536356(v=VS.85).aspx">Brushes and Filled Shapes</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-brushes-and-filled-shapes-about">Brushes and Filled Shapes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534512(v=VS.85).aspx">TextureBrush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-texturebrush">TextureBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534527(v=VS.85).aspx">TextureBrush::GetWrapMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nf-gdiplusbrush-texturebrush-getwrapmode">TextureBrush::GetWrapMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534540(v=VS.85).aspx">TextureBrush::SetWrapMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nf-gdiplusbrush-texturebrush-setwrapmode">TextureBrush::SetWrapMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533811(v=VS.85).aspx">Using a Brush to Fill Shapes</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-a-brush-to-fill-shapes-use">Using a Brush to Fill Shapes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534407(v=VS.85).aspx">WrapMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-wrapmode">WrapMode</a>
  
 
  

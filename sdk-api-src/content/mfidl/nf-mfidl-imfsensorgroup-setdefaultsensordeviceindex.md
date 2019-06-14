@@ -62,7 +62,7 @@ Configures one of the devices in the sensor group as the default device.
 
 ### -param dwIndex
 
-0-based index of the device to be set as defaut.  The index must be between 0 and the value returned by <a href="https://msdn.microsoft.com/687A4275-5963-486E-8D59-B1858D7E388D">GetSensorDeviceCount</a> - 1.
+0-based index of the device to be set as defaut.  The index must be between 0 and the value returned by <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensorgroup-getsensordevicecount">GetSensorDeviceCount</a> - 1.
 
 
 ## -returns
@@ -133,7 +133,7 @@ If this method is not called, the first device in the Sensor Group (i.e. the dev
 
 
 
-<a href="https://msdn.microsoft.com/7CED3EF6-E844-4B3A-8181-CA44FC4675EC">IMFSensorGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a>
  
 
  

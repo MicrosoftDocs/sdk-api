@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>LINEAGENTSESSIONLIST</b> structure describes a list of ACD agent sessions. This structure can contain an array of 
-<a href="https://msdn.microsoft.com/406b003a-11a2-445d-a466-a8549e201199">LINEAGENTSESSIONENTRY</a> structures. The 
-<a href="https://msdn.microsoft.com/6473d5dd-e08e-47f8-acad-b60943525b83">lineGetAgentSessionList</a> function returns the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentsession_tag">LINEAGENTSESSIONENTRY</a> structures. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetagentsessionlist">lineGetAgentSessionList</a> function returns the 
 <b>LINEAGENTSESSIONLIST</b> structure.
 
 
@@ -79,7 +79,7 @@ Size of the portion of this structure that contains useful information, in bytes
 ### -field dwNumEntries
 
 Number of 
-<a href="https://msdn.microsoft.com/406b003a-11a2-445d-a466-a8549e201199">LINEAGENTSESSIONENTRY</a> structures that appear in the list array. The value is zero if no agent sessions have been created.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentsession_tag">LINEAGENTSESSIONENTRY</a> structures that appear in the list array. The value is zero if no agent sessions have been created.
 
 
 ### -field dwListSize
@@ -90,7 +90,7 @@ Size of the agent session list array, in bytes.
 ### -field dwListOffset
 
 Offset from the beginning of this structure to an array of 
-<a href="https://msdn.microsoft.com/406b003a-11a2-445d-a466-a8549e201199">LINEAGENTSESSIONENTRY</a> structures that specify information about agents. The <b>dwListOffset</b> member is <b>dwNumEntries</b> times SIZEOF(LINEAGENTSESSIONENTRY). The size of the field is specified by <b>dwListSize</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentsession_tag">LINEAGENTSESSIONENTRY</a> structures that specify information about agents. The <b>dwListOffset</b> member is <b>dwNumEntries</b> times SIZEOF(LINEAGENTSESSIONENTRY). The size of the field is specified by <b>dwListSize</b>.
 
 
 ## -see-also
@@ -98,15 +98,15 @@ Offset from the beginning of this structure to an array of
 
 
 
-<a href="https://msdn.microsoft.com/6b24e8aa-fef4-44aa-8d2b-33b9be3d6ea7">About Call Center Controls</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a>
 
 
 
-<a href="https://msdn.microsoft.com/406b003a-11a2-445d-a466-a8549e201199">LINEAGENTSESSIONENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentsession_tag">LINEAGENTSESSIONENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/6473d5dd-e08e-47f8-acad-b60943525b83">lineGetAgentSessionList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetagentsessionlist">lineGetAgentSessionList</a>
  
 
  

@@ -141,15 +141,15 @@ This function returns <b>S_OK</b> on success or an error code on failure.
 
 
 
-<a href="https://msdn.microsoft.com/4e28f379-5793-4d76-898e-d87a0291c034">WER Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a71203f-3a08-461f-a230-e3fee00d9d99">WerSetFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-wersetflags">WerSetFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/5c076588-779c-4cd2-9fd9-1db3039e37a2">Windows Error Reporting</a>
+<a href="https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
  
 
  

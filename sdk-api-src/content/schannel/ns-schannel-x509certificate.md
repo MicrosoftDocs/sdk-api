@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>X509Certificate</b> structure represents an <a href="https://msdn.microsoft.com/28dba6ef-939f-4789-9789-ee6e0fef0177">X.509</a> certificate.
+The <b>X509Certificate</b> structure represents an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.509</a> certificate.
 
 
 ## -struct-fields
@@ -69,7 +69,7 @@ The serial number of the certificate.
 
 ### -field SignatureAlgorithm
 
-The ID of the algorithm used to create the <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">digital signature</a> for the certificate.
+The ID of the algorithm used to create the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">digital signature</a> for the certificate.
 
 
 ### -field ValidFrom
@@ -94,5 +94,5 @@ A pointer to a string that specifies the subject of the certificate.
 
 ### -field pPublicKey
 
-A pointer to the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> used to create the signature for the certificate.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> used to create the signature for the certificate.
 

@@ -62,7 +62,7 @@ The <b>WMCreateDeviceRegistration</b> function creates a device registration obj
 
 ### -param ppDevReg [out]
 
-Address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd743357(v=VS.85).aspx">IWMDeviceRegistration</a> interface of the newly created device registration object.
+Address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdeviceregistration">IWMDeviceRegistration</a> interface of the newly created device registration object.
 
 
 ## -returns
@@ -120,7 +120,7 @@ The function is unable to allocate memory for the new object.
 
 
 
-<a href="https://msdn.microsoft.com/10fa8f96-8030-4727-af5d-7c06229d05d8">Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/functions">Functions</a>
  
 
  

@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> for the substream with the specified index.
+Gets the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> for the substream with the specified index.
 
 
 ## -parameters
@@ -113,7 +113,7 @@ Invalid argument.
 </dl>
 </td>
 <td width="60%">
-The stream specified substream index is invalid. Call <a href="https://msdn.microsoft.com/631802B5-00F7-4219-9B21-5A1FB8628477">GetStreamCount</a> to get the number of substreams managed by the multiplexed media source.
+The stream specified substream index is invalid. Call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmuxstreamattributesmanager-getstreamcount">GetStreamCount</a> to get the number of substreams managed by the multiplexed media source.
 
 </td>
 </tr>
@@ -128,7 +128,7 @@ The stream specified substream index is invalid. Call <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/BBDAEF1C-DFEC-4647-8B74-E2ABB25F87CC">IMFMuxStreamMediaTypeManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmuxstreammediatypemanager">IMFMuxStreamMediaTypeManager</a>
  
 
  

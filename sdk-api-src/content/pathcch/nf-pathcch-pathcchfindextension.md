@@ -54,10 +54,10 @@ ms.custom: 19H1
 
 Searches a path to find its file name extension, such as ".exe" or ".ini". This function does not search for a specific extension; it searches for the presence of any extension.
 
-This function differs from <a href="https://msdn.microsoft.com/afebd4b7-2685-4b6e-8f8a-d43944dacef5">PathFindExtension</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
+This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathfindextensiona">PathFindExtension</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
 
-<div class="alert"><b>Note</b>  This function should be used in place of <a href="https://msdn.microsoft.com/afebd4b7-2685-4b6e-8f8a-d43944dacef5">PathFindExtension</a> to prevent the possibility of a buffer overrun.</div><div> </div>
+<div class="alert"><b>Note</b>  This function should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathfindextensiona">PathFindExtension</a> to prevent the possibility of a buffer overrun.</div><div> </div>
 
 ## -parameters
 

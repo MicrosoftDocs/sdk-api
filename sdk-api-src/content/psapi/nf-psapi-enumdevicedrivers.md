@@ -84,7 +84,7 @@ The number of bytes returned in the <i>lpImageBase</i> array.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -105,7 +105,7 @@ Programs that must run on earlier versions of Windows as well as Windows 7 and 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/047d8541-e17e-4738-8453-674db69365df">Enumerating all Device Drivers in the System</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/psapi/enumerating-all-device-drivers-in-the-system">Enumerating all Device Drivers in the System</a>.
 
 <div class="code"></div>
 
@@ -116,19 +116,19 @@ For an example, see <a href="https://msdn.microsoft.com/047d8541-e17e-4738-8453-
 
 
 
-<a href="https://msdn.microsoft.com/4f4ec15b-5592-4fe3-b754-fda25ab24159">Device Driver Information</a>
+<a href="https://docs.microsoft.com/windows/desktop/psapi/device-driver-information">Device Driver Information</a>
 
 
 
-<a href="https://msdn.microsoft.com/a19a927d-4669-4d4c-951e-43f294a8fb40">GetDeviceDriverBaseName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-getdevicedriverbasenamea">GetDeviceDriverBaseName</a>
 
 
 
-<a href="https://msdn.microsoft.com/6ddbcf7e-e41c-4ea7-b60a-01ed5c98c530">GetDeviceDriverFileName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-getdevicedriverfilenamea">GetDeviceDriverFileName</a>
 
 
 
-<a href="https://msdn.microsoft.com/e158792b-fec2-498d-aae3-d5679fa55783">PSAPI Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>
  
 
  

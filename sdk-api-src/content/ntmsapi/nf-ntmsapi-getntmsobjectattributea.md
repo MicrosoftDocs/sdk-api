@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<a href="https://msdn.microsoft.com/af7186f8-7921-48e3-a4fd-23259a6e9018">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>GetNtmsObjectAttribute</b> function retrieves the extended attribute (named private data) from the specified RSM object.
@@ -65,7 +65,7 @@ The
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://msdn.microsoft.com/5a323911-e99c-4f81-9580-0feac2f0a54e">OpenNtmsSession</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 
 ### -param lpObjectId [in]
@@ -76,7 +76,7 @@ Unique identifier of the object from which to retrieve the data.
 ### -param dwType [in]
 
 RSM object type. For a list of object types, see 
-<a href="https://msdn.microsoft.com/598e7cb1-f463-4252-9bdf-ccb98f36f4da">NtmsObjectsTypes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ne-ntmsapi-ntmsobjectstypes">NtmsObjectsTypes</a>.
 
 
 ### -param lpAttributeName [in]
@@ -293,15 +293,15 @@ The following is the list of objects that require special access rights.
 
 
 
-<a href="https://msdn.microsoft.com/bbbb2888-36f5-4667-90f0-088382ad32f5">EnumerateNtmsObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-enumeratentmsobject">EnumerateNtmsObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Object Management Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Object Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/ce572b2a-f4c3-4cf3-8bb3-074ba3d1ec30">SetNtmsObjectAttribute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsobjectattributea">SetNtmsObjectAttribute</a>
  
 
  

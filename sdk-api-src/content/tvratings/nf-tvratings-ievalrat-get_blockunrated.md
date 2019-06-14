@@ -115,11 +115,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/b37c7e7d-80fd-4a42-a698-c20ffb2a5052">IEvalRat Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/nn-tvratings-ievalrat">IEvalRat Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/22f6bc32-3f41-45d4-83e5-f501cbeb772e">IEvalRat::put_BlockUnRated</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/nf-tvratings-ievalrat-put_blockunrated">IEvalRat::put_BlockUnRated</a>
  
 
  

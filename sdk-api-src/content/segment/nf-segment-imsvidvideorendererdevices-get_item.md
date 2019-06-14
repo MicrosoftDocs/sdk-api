@@ -64,7 +64,7 @@ The <b>get_Item</b> method retrieves the specified item from the collection.
 
 ### -param pDB [out]
 
-Receives an <a href="https://msdn.microsoft.com/27eb53f8-ece8-43eb-8f94-b3d2d91548ad">IMSVidVideoRenderer</a> interface pointer. The caller must release the interface.
+Receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer</a> interface pointer. The caller must release the interface.
 
 
 ## -returns
@@ -143,7 +143,7 @@ Unexpected error.
 
 
 
-The <i>v</i> parameter must be a <b>VARIANT</b> that contains an integer type (VT_I4). The valid range is from 0 to <a href="https://msdn.microsoft.com/en-us/library/Dd694723(v=VS.85).aspx">IMSVidVideoRendererDevices::get_Count</a> - 1.
+The <i>v</i> parameter must be a <b>VARIANT</b> that contains an integer type (VT_I4). The valid range is from 0 to <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorendererdevices-get_count">IMSVidVideoRendererDevices::get_Count</a> - 1.
 
 
 
@@ -153,7 +153,7 @@ The <i>v</i> parameter must be a <b>VARIANT</b> that contains an integer type (V
 
 
 
-<a href="https://msdn.microsoft.com/cf8e1307-b4a5-464b-b9a6-32c195941309">IMSVidVideoRendererDevices Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideorendererdevices">IMSVidVideoRendererDevices Interface</a>
  
 
  

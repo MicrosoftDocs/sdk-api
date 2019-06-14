@@ -112,11 +112,11 @@ The data advisory connection between the running object and the cache is destroy
 
 
 
-<a href="https://msdn.microsoft.com/64cc7a29-0bbb-4535-a7b5-9b1d82ad7e8a">IOleCacheControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecachecontrol">IOleCacheControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/8d155c3f-115c-41fe-985f-ed60a565341f">IOleCacheControl::OnRun</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecachecontrol-onrun">IOleCacheControl::OnRun</a>
  
 
  

@@ -120,15 +120,15 @@ To enumerate the values for the returned key, call <b>RegEnumValue</b>.
 
 
 
-<a href="https://msdn.microsoft.com/3d19152f-17a3-4576-a2a2-5b827d9ca8d1">Encoder API</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/encoder-api">Encoder API</a>
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/97a9112f-7b7b-4a7e-8f40-bdb148d413c8">IGetCapabilitiesKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igetcapabilitieskey">IGetCapabilitiesKey</a>
  
 
  

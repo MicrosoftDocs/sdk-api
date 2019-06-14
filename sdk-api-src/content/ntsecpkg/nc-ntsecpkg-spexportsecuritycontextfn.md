@@ -52,8 +52,8 @@ ms.custom: 19H1
 Exports a security context to another process.
 
 The <b>SpExportSecurityContext</b> function is the dispatch function for the 
-<a href="https://msdn.microsoft.com/4ebc7f37-b948-4c78-973f-0a74e55c7ee2">ExportSecurityContext</a> function of the 
-<a href="https://msdn.microsoft.com/91d2389b-1238-49d3-9fef-f1017a8072df">Security Support Provider Interface</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-exportsecuritycontext">ExportSecurityContext</a> function of the 
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi">Security Support Provider Interface</a>.
 
 
 ## -parameters
@@ -107,9 +107,9 @@ Old context is deleted during export.
 ### -param pPackedContext [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/75f49d9c-7d3c-4f45-a94e-44cd05773a07">SecBuffer</a> structure containing the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">serialized</a> context. Resources should be allocated using the 
-<a href="https://msdn.microsoft.com/2a7dfc11-a8ab-4677-ad5c-b2f4b5998efe">AllocateClientBuffer</a> function, and freed by the caller using the 
-<a href="https://msdn.microsoft.com/3c3d27bb-4f9a-4979-b679-1e10fa1ff221">FreeContextBuffer</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbuffer">SecBuffer</a> structure containing the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">serialized</a> context. Resources should be allocated using the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_client_buffer">AllocateClientBuffer</a> function, and freed by the caller using the 
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a> function.
 
 
 ### -param pToken [out]
@@ -133,13 +133,13 @@ If the function fails, return an <b>NTSTATUS</b> code that indicates the reason 
 
 
 To import a previously exported security context use the 
-<a href="https://msdn.microsoft.com/f3a9427b-37f0-464a-9f67-3b4e09597a98">SpImportSecurityContext</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spimportsecuritycontextfn">SpImportSecurityContext</a> function.
 
 SSP/APs must implement the <b>SpExportSecurityContext</b> function; however, the actual name given to the implementation is up to the developer.
 
 A pointer to the <b>SpExportSecurityContext</b> function is available in the 
-<a href="https://msdn.microsoft.com/2b3fc6d1-2f55-4053-9271-f5cb5c318555">SECPKG_USER_FUNCTION_TABLE</a> structure received from the 
-<a href="https://msdn.microsoft.com/e260db29-995b-4f32-b389-4ef62b3b29bc">SpUserModeInitialize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a> structure received from the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a> function.
 
 
 
@@ -149,15 +149,15 @@ A pointer to the <b>SpExportSecurityContext</b> function is available in the
 
 
 
-<a href="https://msdn.microsoft.com/2b3fc6d1-2f55-4053-9271-f5cb5c318555">SECPKG_USER_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/f3a9427b-37f0-464a-9f67-3b4e09597a98">SpImportSecurityContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spimportsecuritycontextfn">SpImportSecurityContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/e260db29-995b-4f32-b389-4ef62b3b29bc">SpUserModeInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a>
  
 
  

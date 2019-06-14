@@ -73,7 +73,7 @@ The default connection timeout value is two seconds. A responsive UI Automation 
 
 
 
-<a href="https://msdn.microsoft.com/45B4D41E-9C5C-47C7-86EB-D7B9BA14211B">IUIAutomation2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation2">IUIAutomation2</a>
  
 
  

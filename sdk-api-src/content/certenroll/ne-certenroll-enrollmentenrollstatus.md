@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>EnrollmentEnrollStatus</b> enumeration type specifies the enrollment status of a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate request</a>. This enumeration is used by the <a href="https://msdn.microsoft.com/ca1105eb-a29a-458d-abbb-34c9b67d7c8a">Status</a> property on the <a href="https://msdn.microsoft.com/fa5e3a10-7f00-46b6-b740-b72d78745bf7">IX509EnrollmentStatus</a> interface.
+The <b>EnrollmentEnrollStatus</b> enumeration type specifies the enrollment status of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>. This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentstatus-get_status">Status</a> property on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentstatus">IX509EnrollmentStatus</a> interface.
 
 
 ## -enum-fields
@@ -84,7 +84,7 @@ The enrollment status is unknown.
 
 ### -field EnrollSkipped
 
-The status information has been skipped. This can occur if a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> is not valid or has not been selected for monitoring.
+The status information has been skipped. This can occur if a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> is not valid or has not been selected for monitoring.
 
 
 ### -field EnrollDenied
@@ -97,19 +97,19 @@ Enrollment has been denied.
 
 
 
-<a href="https://msdn.microsoft.com/8514fb89-1cf5-4e09-997c-17984efc4e03">CertEnroll Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/d49511ed-8651-457e-a102-0bea4edde24c">CertEnroll Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/a762d81b-0426-483c-a9c0-70f531f4b6ac">EnrollmentSelectionStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-enrollmentselectionstatus">EnrollmentSelectionStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/fa5e3a10-7f00-46b6-b740-b72d78745bf7">IX509EnrollmentStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentstatus">IX509EnrollmentStatus</a>
  
 
  

@@ -79,7 +79,7 @@ Length, in bytes, of the <i>InfoBuffer</i>.
 
 ### -param ReturnedLength [out, optional]
 
-Length, in bytes, of the returned sync root information. Refer to <a href="https://msdn.microsoft.com/FAD56873-8812-42DC-9975-9507F73BD9E3">CfRegisterSyncRoot</a> for details about the sync root information.
+Length, in bytes, of the returned sync root information. Refer to <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfregistersyncroot">CfRegisterSyncRoot</a> for details about the sync root information.
 
 
 ## -returns

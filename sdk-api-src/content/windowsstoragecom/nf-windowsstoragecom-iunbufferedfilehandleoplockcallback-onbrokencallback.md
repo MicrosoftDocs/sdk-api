@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Runs when the opportunistic lock for a handle that you get by calling the <a href="https://msdn.microsoft.com/D001CD90-A621-403C-B9BD-BE79471AF18F">IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle</a> method is broken.
+Runs when the opportunistic lock for a handle that you get by calling the <a href="https://docs.microsoft.com/windows/desktop/api/windowsstoragecom/nf-windowsstoragecom-iunbufferedfilehandleprovider-openunbufferedfilehandle">IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle</a> method is broken.
 
 
 ## -parameters
@@ -72,7 +72,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Implement this method to specify what your app should do when the opportunistic lock for a handle that you get by calling the <a href="https://msdn.microsoft.com/D001CD90-A621-403C-B9BD-BE79471AF18F">IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle</a> method is broken.
+Implement this method to specify what your app should do when the opportunistic lock for a handle that you get by calling the <a href="https://docs.microsoft.com/windows/desktop/api/windowsstoragecom/nf-windowsstoragecom-iunbufferedfilehandleprovider-openunbufferedfilehandle">IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle</a> method is broken.
 
 
 
@@ -82,11 +82,11 @@ Implement this method to specify what your app should do when the opportunistic 
 
 
 
-<a href="https://msdn.microsoft.com/7418EDE0-D9E1-4D8C-84B0-CAE9BDF053E3">IUnbufferedFileHandleOplockCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windowsstoragecom/nn-windowsstoragecom-iunbufferedfilehandleoplockcallback">IUnbufferedFileHandleOplockCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/D001CD90-A621-403C-B9BD-BE79471AF18F">IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windowsstoragecom/nf-windowsstoragecom-iunbufferedfilehandleprovider-openunbufferedfilehandle">IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle</a>
  
 
  

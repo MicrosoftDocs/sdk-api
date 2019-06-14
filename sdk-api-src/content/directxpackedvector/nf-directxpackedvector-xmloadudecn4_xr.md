@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Loads an extended range <a href="https://msdn.microsoft.com/en-us/library/Ee420527(v=VS.85).aspx">XMUDECN4</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>. This type loads a 10:10:10:2 normalized GPU format using the Extended Range (XR) with the color bias set to match DXGI_FORMAT_R10G10B10_XR_BIAS_A2_UNORM.
+Loads an extended range <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmudecn4">XMUDECN4</a> into an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>. This type loads a 10:10:10:2 normalized GPU format using the Extended Range (XR) with the color bias set to match DXGI_FORMAT_R10G10B10_XR_BIAS_A2_UNORM.
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Loads an extended range <a href="https://msdn.microsoft.com/en-us/library/Ee4205
 
 ### -param pSource [in]
 
-Address of the <a href="https://msdn.microsoft.com/en-us/library/Ee420527(v=VS.85).aspx">XMUDECN4</a> structure to load. 
+Address of the <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmudecn4">XMUDECN4</a> structure to load. 
 
 
 ## -returns
 
 
 
-Returns an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> loaded with the data from the <i>pSource</i> parameter.
+Returns an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> loaded with the data from the <i>pSource</i> parameter.
 
 
 
@@ -95,7 +95,7 @@ return vectorOut;
 ```
 
 
-For more details on the Extended Range (XR) with Bias conversion, see <a href="https://msdn.microsoft.com/B3014241-A86A-4B6E-BC9D-50057B924D98">XR_BIAS Color Channel Conversion Rules</a>.
+For more details on the Extended Range (XR) with Bias conversion, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/xr-bias-color-channel-conversion-rules">XR_BIAS Color Channel Conversion Rules</a>.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
@@ -108,11 +108,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/3434ea7d-edc3-a8eb-3481-9e76ba724800">DirectXMath Library Vector Load Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-load">DirectXMath Library Vector Load Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/4DCE74D6-48CF-43D8-BF69-368A95F823F1">XMStoreUDecN4_XR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstoreudecn4_xr">XMStoreUDecN4_XR</a>
  
 
  

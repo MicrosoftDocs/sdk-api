@@ -60,18 +60,18 @@ Applies a snapshot of the current virtual disk for VHD Set files.
 ### -param VirtualDiskHandle [in]
 
 A handle to an open virtual disk. For information on how to open a virtual disk, see the 
-      <a href="https://msdn.microsoft.com/en-us/library/Dd323680(v=VS.85).aspx">OpenVirtualDisk</a> function.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-openvirtualdisk">OpenVirtualDisk</a> function.
 
 
 ### -param Parameters [in]
 
-A pointer to a valid <a href="https://msdn.microsoft.com/en-us/library/Mt638036(v=VS.85).aspx">APPLY_SNAPSHOT_VHDSET_PARAMETERS</a> structure that contains snapshot data.
+A pointer to a valid <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_apply_snapshot_vhdset_parameters">APPLY_SNAPSHOT_VHDSET_PARAMETERS</a> structure that contains snapshot data.
 
 
 ### -param Flags [in]
 
 A valid combination of values of the 
-      <a href="https://msdn.microsoft.com/en-us/library/Mt638035(v=VS.85).aspx">APPLY_SNAPSHOT_VHDSET_FLAG</a> enumeration.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_apply_snapshot_vhdset_flag">APPLY_SNAPSHOT_VHDSET_FLAG</a> enumeration.
 
 
 ## -returns
@@ -83,7 +83,7 @@ Status of the request.
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 If the function fails, the return value is an error code. For more information, see 
-       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -93,7 +93,7 @@ If the function fails, the return value is an error code. For more information, 
 
 
 
-<a href="https://msdn.microsoft.com/79c3b3ad-4eaf-49ce-a8ee-b26faf6c2cba">VHD Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323699(v=vs.85)">VHD Functions</a>
  
 
  

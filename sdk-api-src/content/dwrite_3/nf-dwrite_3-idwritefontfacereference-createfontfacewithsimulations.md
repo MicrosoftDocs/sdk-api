@@ -59,14 +59,14 @@ Creates a font face with alternate font simulations, for example, to explicitly 
 
 ### -param fontFaceSimulationFlags
 
-Type: <b><a href="https://msdn.microsoft.com/0881afec-2fa5-4f17-96a2-68a5293e0bba">DWRITE_FONT_SIMULATIONS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_simulations">DWRITE_FONT_SIMULATIONS</a></b>
 
 Font face simulation flags for algorithmic emboldening and italicization.
 
 
 ### -param fontFace [out]
 
-Type: <b><a href="https://msdn.microsoft.com/1081A005-E4A8-4EE0-AFE0-10BD8D8471DF">IDWriteFontFace3</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontface3">IDWriteFontFace3</a>**</b>
 
 Newly created font face object, or nullptr in the case of failure.
 
@@ -96,7 +96,7 @@ This function can fail with DWRITE_E_REMOTEFONT if the font is not local.
 
 
 
-<a href="https://msdn.microsoft.com/04242508-7439-43B6-B3E7-07617B782038">IDWriteFontFaceReference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontfacereference">IDWriteFontFaceReference</a>
  
 
  

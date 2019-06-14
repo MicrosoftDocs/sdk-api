@@ -59,7 +59,7 @@ The <b>AddEntry</b> method adds an individual entry to the list and assigns an i
 
 ### -param pEntry [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/82a1a390-50b1-4699-9baa-60cea322ce7c">ITocEntry</a> interface that represents the entry to be added.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocentry">ITocEntry</a> interface that represents the entry to be added.
 
 
 ### -param pdwEntryIndex [out]
@@ -100,11 +100,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/cf2171c9-67ce-4acb-97cc-af17203e815b">GetEntryByIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentrylist-getentrybyindex">GetEntryByIndex</a>
 
 
 
-<a href="https://msdn.microsoft.com/98052f26-7956-4973-ab86-428e7a355937">ITocEntryList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocentrylist">ITocEntryList</a>
  
 
  

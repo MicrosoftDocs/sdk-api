@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Stores user name and password information that was retrieved by the <a href="https://msdn.microsoft.com/6ac191ac-e63f-431f-893b-92c69320db58">DavAuthCallback</a> callback function.
+Stores user name and password information that was retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback">DavAuthCallback</a> callback function.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ Stores user name and password information that was retrieved by the <a href="htt
 
 ### -field pszUserName
 
-A pointer to a string that contains the user name. This string is allocated by the <a href="https://msdn.microsoft.com/6ac191ac-e63f-431f-893b-92c69320db58">DavAuthCallback</a> callback function.
+A pointer to a string that contains the user name. This string is allocated by the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback">DavAuthCallback</a> callback function.
 
 
 ### -field ulUserNameLength
@@ -69,7 +69,7 @@ The length, in WCHAR, of the user name, not including the terminating <b>NULL</b
 
 ### -field pszPassword
 
-A pointer to a string that contains the password. This string is allocated by <a href="https://msdn.microsoft.com/6ac191ac-e63f-431f-893b-92c69320db58">DavAuthCallback</a>.
+A pointer to a string that contains the password. This string is allocated by <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback">DavAuthCallback</a>.
 
 
 ### -field ulPasswordLength
@@ -81,9 +81,9 @@ The length, in WCHAR, of the password, not including the terminating <b>NULL</b>
 
 
 
-This structure is included as a member in the <a href="https://msdn.microsoft.com/5414d7b5-b506-4d0a-a4b8-89ab7878d674">DAV_CALLBACK_CRED</a> structure.
+This structure is included as a member in the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-_dav_callback_cred">DAV_CALLBACK_CRED</a> structure.
 
-The <a href="https://msdn.microsoft.com/96bacda5-8f24-4119-b0ae-82ff8aff54b4">DavFreeCredCallback</a> callback function should free only the buffer that the <b>pBuffer</b> member points to, not the entire structure.
+The <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback_freecred">DavFreeCredCallback</a> callback function should free only the buffer that the <b>pBuffer</b> member points to, not the entire structure.
 
 
 
@@ -93,11 +93,11 @@ The <a href="https://msdn.microsoft.com/96bacda5-8f24-4119-b0ae-82ff8aff54b4">Da
 
 
 
-<a href="https://msdn.microsoft.com/59976cb0-ed68-4db0-b8f8-cfe5e778916b">DAV_CALLBACK_AUTH_BLOB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-_dav_callback_auth_blob">DAV_CALLBACK_AUTH_BLOB</a>
 
 
 
-<a href="https://msdn.microsoft.com/6ac191ac-e63f-431f-893b-92c69320db58">DavAuthCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback">DavAuthCallback</a>
  
 
  

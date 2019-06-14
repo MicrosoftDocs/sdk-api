@@ -101,11 +101,11 @@ This allows ink to be viewed in applications that are not ink-enabled and mainta
 
 
 
-<a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/31da19a7-207f-4f11-9b0f-7402e9727f59">Save Method [InkDisp Class]</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-save">Save Method [InkDisp Class]</a>
  
 
  

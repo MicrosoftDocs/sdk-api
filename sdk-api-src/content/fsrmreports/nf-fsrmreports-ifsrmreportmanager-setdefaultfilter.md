@@ -60,12 +60,12 @@ Sets the default report filter value to use with the specified report type.
 
 ### -param reportType [in]
 
-The report type. For possible values, see the <a href="https://msdn.microsoft.com/6fb5cb02-371b-4d07-9f13-d0409d5835d4">FsrmReportType</a> enumeration.
+The report type. For possible values, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmreporttype">FsrmReportType</a> enumeration.
 
 
 ### -param filter [in]
 
-The report filter. For possible values, see the <a href="https://msdn.microsoft.com/6f38ec9a-8876-44ce-9d44-f3982f1880ca">FsrmReportFilter</a> enumeration.
+The report filter. For possible values, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmreportfilter">FsrmReportFilter</a> enumeration.
 
 
 ### -param filterValue [in]
@@ -86,11 +86,11 @@ The method returns the following return values.
 
 
 
-This value is used if the <a href="https://msdn.microsoft.com/6d36e3e2-7826-4bae-943c-3ab73404534c">IFsrmReport::SetFilter</a> method was not called to specify a filter value for the report.
+This value is used if the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreport-setfilter">IFsrmReport::SetFilter</a> method was not called to specify a filter value for the report.
 
-Note that each report type supports a specific set of filters. To determine if the filter is valid, call the <a href="https://msdn.microsoft.com/e9f93b97-c8ac-441a-9f6b-87d45bd10cdf">IFsrmReportManager::IsFilterValidForReportType</a> method.
+Note that each report type supports a specific set of filters. To determine if the filter is valid, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-isfiltervalidforreporttype">IFsrmReportManager::IsFilterValidForReportType</a> method.
 
-The following list lists the variant types associated with the <a href="https://msdn.microsoft.com/6f38ec9a-8876-44ce-9d44-f3982f1880ca">FsrmReportFilter</a> enumeration values used for the <i>filterValue</i> parameter.
+The following list lists the variant types associated with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmreportfilter">FsrmReportFilter</a> enumeration values used for the <i>filterValue</i> parameter.
 
 <table>
 <tr>
@@ -166,11 +166,11 @@ The default filter values are used for report actions.
 
 
 
-<a href="https://msdn.microsoft.com/308c5001-b84d-49ab-ae2c-f16466f9abca">FsrmReportManager</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmreportmanager">FsrmReportManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/112ed457-1083-4550-abd6-933f4b128e9a">IFsrmReportManager</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportmanager">IFsrmReportManager</a>
  
 
  

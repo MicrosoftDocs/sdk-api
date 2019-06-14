@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>NCRYPT_PROTECT_STREAM_INFO</b> structure is used by the <a href="https://msdn.microsoft.com/7DE74BB1-1B84-4721-BE4A-4D2661E93E00">NCryptStreamOpenToProtect</a> and <a href="https://msdn.microsoft.com/9848082E-EDDA-4DA1-9896-42EAF2ADFAB4">NCryptStreamOpenToUnprotect</a> functions to pass blocks of processed data to your application.
+The <b>NCRYPT_PROTECT_STREAM_INFO</b> structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentoprotect">NCryptStreamOpenToProtect</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentounprotect">NCryptStreamOpenToUnprotect</a> functions to pass blocks of processed data to your application.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ The <b>NCRYPT_PROTECT_STREAM_INFO</b> structure is used by the <a href="https://
 
 ### -field pfnStreamOutput
 
-Address of a callback function that accepts data from the stream encryption or decryption process. for more information, see <a href="https://msdn.microsoft.com/D07B2B63-306B-4C41-AA14-320EFEFFB939">PFNCryptStreamOutputCallback</a>.
+Address of a callback function that accepts data from the stream encryption or decryption process. for more information, see <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nc-ncryptprotect-pfncryptstreamoutputcallback">PFNCryptStreamOutputCallback</a>.
 
 
 ### -field pvCallbackCtxt
@@ -72,15 +72,15 @@ Pointer to a buffer supplied the caller. The buffer is not modified by the data 
 
 
 
-<a href="https://msdn.microsoft.com/7DE74BB1-1B84-4721-BE4A-4D2661E93E00">NCryptStreamOpenToProtect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentoprotect">NCryptStreamOpenToProtect</a>
 
 
 
-<a href="https://msdn.microsoft.com/9848082E-EDDA-4DA1-9896-42EAF2ADFAB4">NCryptStreamOpenToUnprotect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentounprotect">NCryptStreamOpenToUnprotect</a>
 
 
 
-<a href="https://msdn.microsoft.com/D07B2B63-306B-4C41-AA14-320EFEFFB939">PFNCryptStreamOutputCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nc-ncryptprotect-pfncryptstreamoutputcallback">PFNCryptStreamOutputCallback</a>
  
 
  

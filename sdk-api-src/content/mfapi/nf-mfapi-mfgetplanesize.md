@@ -113,7 +113,7 @@ The function succeeded.
 
 
 
-This function is equivalent to the <a href="https://msdn.microsoft.com/039ee3cd-2221-4405-ba7f-233a93a0271b">MFCalculateImageSize</a> function.
+This function is equivalent to the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcalculateimagesize">MFCalculateImageSize</a> function.
       
 
 <div class="alert"><b>Note</b>  Prior to Windows 7, this function was exported from evr.dll. Starting in Windows 7, this function is exported from mfplat.dll, and evr.dll exports a stub function that calls into mfplat.dll.</div>
@@ -126,7 +126,7 @@ This function is equivalent to the <a href="https://msdn.microsoft.com/039ee3cd-
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

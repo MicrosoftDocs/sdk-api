@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Unregisters an event handler for the <a href="https://msdn.microsoft.com/10451878-E685-4042-9F92-BA3A408C4DA0">DeviceDeparture</a> event.
+Unregisters an event handler for the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/devicedeparture">DeviceDeparture</a> event.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Unregisters an event handler for the <a href="https://msdn.microsoft.com/1045187
 
 ### -param token [in]
 
-A reference to a token obtained from the <a href="https://msdn.microsoft.com/3DCE2BA9-1F94-45F2-97B7-64BD62B21578">add_DeviceDeparture</a> method when the event handler was registered.
+A reference to a token obtained from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828904(v=vs.85)">add_DeviceDeparture</a> method when the event handler was registered.
 
 
 ## -returns
@@ -95,7 +95,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/18989598-86C5-4BD7-B8F4-27496897DFBA">IDeviceController</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828901(v=vs.85)">IDeviceController</a>
  
 
  

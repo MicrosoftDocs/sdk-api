@@ -74,7 +74,7 @@ The IID of the object to retrieve. Must be <b>IID_IEnumClockVector</b>.
 
 ### -param ppUnk [out]
 
-Returns an object that implements <i>riid</i> and that can enumerate the list of <a href="https://msdn.microsoft.com/31aef38d-a6df-4645-a192-9145d3ec90ad">IClockVector</a> objects that is associated with  <i>pbChangeUnitId</i>.
+Returns an object that implements <i>riid</i> and that can enumerate the list of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-iclockvector">IClockVector</a> objects that is associated with  <i>pbChangeUnitId</i>.
 
 
 ## -returns
@@ -134,7 +134,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/cfb08476-7b5d-4953-b723-5160330e57be">ISyncKnowledge Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
  
 
  

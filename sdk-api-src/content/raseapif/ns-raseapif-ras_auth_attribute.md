@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>RAS_AUTH_ATTRIBUTE</b> structure is used to pass authentication attributes, of type 
-<a href="https://msdn.microsoft.com/0cb99318-2874-4945-ae32-cb5d90be9dee">RAS_AUTH_ATTRIBUTE_TYPE</a>, during an EAP session.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ne-raseapif-_ras_auth_attribute_type_">RAS_AUTH_ATTRIBUTE_TYPE</a>, during an EAP session.
 
 
 ## -struct-fields
@@ -62,7 +62,7 @@ The
 ### -field raaType
 
 Specifies the type of attribute, as defined in the 
-<a href="https://msdn.microsoft.com/0cb99318-2874-4945-ae32-cb5d90be9dee">RAS_AUTH_ATTRIBUTE_TYPE</a> enumerated type.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ne-raseapif-_ras_auth_attribute_type_">RAS_AUTH_ATTRIBUTE_TYPE</a> enumerated type.
 
 
 ### -field dwLength
@@ -73,7 +73,7 @@ Specifies the length in bytes of the value of this attribute. If the <b>Value</b
 ### -field Value
 
 Specifies the value of the attribute. Although this member is of the <b>PVOID</b> type, this member sometimes contains the value of the attribute rather than pointing to the value. The only way to know whether to interpret the <b>Value</b> member as a pointer to the value or the value itself, is to check the <b>raaType</b> member. See the reference page for 
-<a href="https://msdn.microsoft.com/0cb99318-2874-4945-ae32-cb5d90be9dee">RAS_AUTH_ATTRIBUTE_TYPE</a> for information about how the <b>Value</b> member should be interpreted for different types.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ne-raseapif-_ras_auth_attribute_type_">RAS_AUTH_ATTRIBUTE_TYPE</a> for information about how the <b>Value</b> member should be interpreted for different types.
 
 
 ## -remarks
@@ -90,15 +90,15 @@ Often an array of these structures is used to store or obtain a set of attribute
 
 
 
-<a href="https://msdn.microsoft.com/f2f1cf75-18d4-4764-a747-24662f166eb7">EAP Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/eap-structures">EAP Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/d3cb25ce-6fb9-4fca-8662-3efef14238a5">Extensible Authentication Protocol Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/extensible-authentication-protocol-reference">Extensible Authentication Protocol Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/0cb99318-2874-4945-ae32-cb5d90be9dee">RAS_AUTH_ATTRIBUTE_TYPE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ne-raseapif-_ras_auth_attribute_type_">RAS_AUTH_ATTRIBUTE_TYPE</a>
  
 
  

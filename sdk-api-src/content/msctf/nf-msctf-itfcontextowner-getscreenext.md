@@ -104,21 +104,21 @@ If the text is not currently displayed, for example if the document window is mi
 
 
 
-<a href="https://msdn.microsoft.com/bd542dd1-79a5-47ec-a563-cd37a8c36b1a">ITextStoreACP::GetScreenExt
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getscreenext">ITextStoreACP::GetScreenExt
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/630646df-dd47-4dbf-9787-f9d697ad8d7a">ITfContextOwner</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextowner">ITfContextOwner</a>
 
 
 
-<a href="https://msdn.microsoft.com/86dde611-4c46-418c-aa89-728081a28943">ITfContextView::GetScreenExt
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextview-getscreenext">ITfContextView::GetScreenExt
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/e649b799-d0d6-4f2d-b9f1-28070eea9b16">TsViewCookie
+<a href="https://docs.microsoft.com/windows/desktop/TSF/tsviewcookie">TsViewCookie
       </a>
  
 

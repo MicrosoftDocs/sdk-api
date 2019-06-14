@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets a flag that determines whether text retrieved from a multiline edit control includes soft line-break characters. A soft line break consists of two carriage returns and a line feed and is inserted at the end of a line that is broken because of wordwrapping. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761570(v=VS.85).aspx">EM_FMTLINES</a> message explicitly.
+Sets a flag that determines whether text retrieved from a multiline edit control includes soft line-break characters. A soft line break consists of two carriage returns and a line feed and is inserted at the end of a line that is broken because of wordwrapping. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-fmtlines">EM_FMTLINES</a> message explicitly.
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Sets a flag that determines whether text retrieved from a multiline edit control
 
 ### -param hwndCtl
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
 
 ### -param fAddEOL
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> to insert line breaks; otherwise <b>FALSE</b>. 
 
@@ -76,7 +76,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761570(v=VS.85).aspx">EM_FMTLINES</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/em-fmtlines">EM_FMTLINES</a>.
 
 
 

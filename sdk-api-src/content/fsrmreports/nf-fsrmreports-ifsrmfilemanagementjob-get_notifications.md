@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 
 <p class="CCE_Message">[This method is supported for compatibility but it's recommended to use the 
-    <a href="https://msdn.microsoft.com/1CE772FA-CE33-4900-A499-058175A7C37E">FSRM WMI Classes</a> to manage FSRM. Please see the 
-    <a href="https://msdn.microsoft.com/3a9fedf6-afe3-4be3-8d93-4766f7453bec">MSFT_FSRMFMJNotification</a> class.]
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfmjnotification">MSFT_FSRMFMJNotification</a> class.]
 
 The list of notification periods defined for the job.
 
@@ -67,15 +67,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/e9ae697d-4f7c-47d9-8d2a-c46c2e5f838f">IFsrmFileManagementJob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmfilemanagementjob">IFsrmFileManagementJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/95b41aa0-44c9-41a2-8132-6aecc4685243">IFsrmFileManagementJob::AddNotification</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-addnotification">IFsrmFileManagementJob::AddNotification</a>
 
 
 
-<a href="https://msdn.microsoft.com/3a9fedf6-afe3-4be3-8d93-4766f7453bec">MSFT_FSRMFMJNotification</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfmjnotification">MSFT_FSRMFMJNotification</a>
  
 
  

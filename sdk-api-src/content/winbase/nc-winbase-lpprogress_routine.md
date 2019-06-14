@@ -51,9 +51,9 @@ ms.custom: 19H1
 
 
 An application-defined callback function used with the 
-    <a href="https://msdn.microsoft.com/e19f0299-54fa-4e1e-855a-d2c71d29611b">CopyFileEx</a>, 
-    <a href="https://msdn.microsoft.com/466d733b-30d2-4297-a0e6-77038f1a21d5">MoveFileTransacted</a>, and 
-    <a href="https://msdn.microsoft.com/f490aadc-7934-498a-8131-5c1be9e6f1aa">MoveFileWithProgress</a> functions. It is 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfileexa">CopyFileEx</a>, 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefiletransacteda">MoveFileTransacted</a>, and 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefilewithprogressa">MoveFileWithProgress</a> functions. It is 
     called when a portion of a copy or move operation is completed. The 
     <b>LPPROGRESS_ROUTINE</b> type defines a pointer to this callback function. 
     <b>CopyProgressRoutine</b> is a placeholder for the 
@@ -144,9 +144,9 @@ A handle to the destination file
 ### -param lpData [in, optional]
 
 Argument passed to <b>CopyProgressRoutine</b> by 
-      <a href="https://msdn.microsoft.com/e19f0299-54fa-4e1e-855a-d2c71d29611b">CopyFileEx</a>, 
-      <a href="https://msdn.microsoft.com/466d733b-30d2-4297-a0e6-77038f1a21d5">MoveFileTransacted</a>, or 
-      <a href="https://msdn.microsoft.com/f490aadc-7934-498a-8131-5c1be9e6f1aa">MoveFileWithProgress</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfileexa">CopyFileEx</a>, 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefiletransacteda">MoveFileTransacted</a>, or 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefilewithprogressa">MoveFileWithProgress</a>.
 
 
 ## -returns
@@ -194,7 +194,7 @@ Continue the copy operation.
 </td>
 <td width="60%">
 Continue the copy operation, but stop invoking 
-        <a href="https://msdn.microsoft.com/2c02b212-d4ac-4b01-8955-2561d8c42b1b">CopyProgressRoutine</a> to report progress.
+        <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nc-winbase-lpprogress_routine">CopyProgressRoutine</a> to report progress.
 
 </td>
 </tr>
@@ -231,19 +231,19 @@ An application can use this information to display a progress bar that shows the
 
 
 
-<a href="https://msdn.microsoft.com/e19f0299-54fa-4e1e-855a-d2c71d29611b">CopyFileEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfileexa">CopyFileEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/466d733b-30d2-4297-a0e6-77038f1a21d5">MoveFileTransacted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefiletransacteda">MoveFileTransacted</a>
 
 
 
-<a href="https://msdn.microsoft.com/f490aadc-7934-498a-8131-5c1be9e6f1aa">MoveFileWithProgress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefilewithprogressa">MoveFileWithProgress</a>
  
 
  

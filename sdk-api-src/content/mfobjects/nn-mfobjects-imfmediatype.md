@@ -56,7 +56,7 @@ Represents a description of a media format.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaType</b> interface inherits from <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a>. <b>IMFMediaType</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaType</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>. <b>IMFMediaType</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,16 +71,16 @@ The <b>IMFMediaType</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d2007f16-543f-4f05-a44d-b4b4ae8019fb">FreeRepresentation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-freerepresentation">FreeRepresentation</a>
 </td>
 <td align="left" width="63%">
-Frees memory that was allocated by the <a href="https://msdn.microsoft.com/2135ff86-a3b6-4e1c-a9de-867f4828f008">GetRepresentation</a> method.
+Frees memory that was allocated by the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-getrepresentation">GetRepresentation</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/98f0a9ca-4766-4d2b-89b8-d6e30b75f47d">GetMajorType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-getmajortype">GetMajorType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the major type of the format.
@@ -89,7 +89,7 @@ Retrieves the major type of the format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2135ff86-a3b6-4e1c-a9de-867f4828f008">GetRepresentation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-getrepresentation">GetRepresentation</a>
 </td>
 <td align="left" width="63%">
 Retrieves an alternative representation of the media type.
@@ -98,7 +98,7 @@ Retrieves an alternative representation of the media type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d15d683b-f2ce-40ac-9724-a0785f5d335c">IsCompressedFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-iscompressedformat">IsCompressedFormat</a>
 </td>
 <td align="left" width="63%">
 Queries whether the media type is a compressed format.
@@ -107,7 +107,7 @@ Queries whether the media type is a compressed format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/42b5b0e8-3b13-4bda-a53c-0428a3c9b131">IsEqual</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-isequal">IsEqual</a>
 </td>
 <td align="left" width="63%">
 Compares two media types and determines whether they are identical.
@@ -121,10 +121,10 @@ Compares two media types and determines whether they are identical.
 
 
 
-To create a new media type, call <a href="https://msdn.microsoft.com/05b0941e-03ce-4ced-9022-22b65d1c4b4c">MFCreateMediaType</a>.
+To create a new media type, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreatemediatype">MFCreateMediaType</a>.
       
 
-All of the information in a media type is stored as attributes. To clone a media type, call <a href="https://msdn.microsoft.com/111b55bc-fb8e-45b5-a709-703acd23c4be">IMFAttributes::CopyAllItems</a>.
+All of the information in a media type is stored as attributes. To clone a media type, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-copyallitems">IMFAttributes::CopyAllItems</a>.
       
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
@@ -141,19 +141,19 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 
-<a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/e84ba3f6-4857-4340-baca-5847650ea7b8">Media Type Attributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-type-attributes">Media Type Attributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/690fda6e-dcbd-44dc-968d-cc949126da81">Media Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-types">Media Types</a>
  
 
  

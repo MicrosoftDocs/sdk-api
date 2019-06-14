@@ -61,14 +61,14 @@ Gets whether this row has right-to-left orientation.
 
 Type: <b>long*</b>
 
- A <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">tomBool</a> value that indicates whether this row has right-to-left orientation.
+ A <a href="https://docs.microsoft.com/windows/desktop/Controls/about-text-object-model">tomBool</a> value that indicates whether this row has right-to-left orientation.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -80,11 +80,11 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-<a href="https://msdn.microsoft.com/49f5ffc1-d615-4d07-9f41-1c5f0dd9045b">ITextRow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrow">ITextRow</a>
 
 
 
-<a href="https://msdn.microsoft.com/e260f989-6028-4cd2-a1e0-0eca2a5bd553">ITextRow::SetRTL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrow-setrtl">ITextRow::SetRTL</a>
  
 
  

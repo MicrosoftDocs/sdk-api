@@ -98,7 +98,7 @@ Reserved for future use.   This parameter should be <b>NULL</b>.
 If the function succeeds, the return value is NERR_Success.
 
 If the function fails, the return value can be one of the following error codes or one of the 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 <table>
 <tr>
@@ -217,31 +217,31 @@ The <b>NetSetPrimaryComputerName</b> function requires that the caller is a memb
 
 
 
-<a href="https://msdn.microsoft.com/710865c6-e327-439c-931d-de8674d69233">NetAddAlternateComputerName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netaddalternatecomputername">NetAddAlternateComputerName</a>
 
 
 
-<a href="https://msdn.microsoft.com/c657ae33-404e-4c36-a956-5fbcfa540be7">NetEnumerateComputerNames</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netenumeratecomputernames">NetEnumerateComputerNames</a>
 
 
 
-<a href="https://msdn.microsoft.com/4efcb399-03af-4312-9f1d-6bc38f356cac">NetJoinDomain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netjoindomain">NetJoinDomain</a>
 
 
 
-<a href="https://msdn.microsoft.com/3c7ab44e-d5fa-40da-83fe-a44bf85b2ba5">NetRemoveAlternateComputerName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netremovealternatecomputername">NetRemoveAlternateComputerName</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f7ddaa1-a349-49a6-856d-a2fde2f1dc3b">NetRenameMachineInDomain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netrenamemachineindomain">NetRenameMachineInDomain</a>
 
 
 
-<a href="https://msdn.microsoft.com/cc755c22-1fd6-4787-999e-a43258287a05">NetUnjoinDomain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netunjoindomain">NetUnjoinDomain</a>
 
 
 
-<a href="https://msdn.microsoft.com/12163456-770c-4f9e-9261-a6ea5f2cd93a">SetComputerNameEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernameexa">SetComputerNameEx</a>
  
 
  

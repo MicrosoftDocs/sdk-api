@@ -92,7 +92,7 @@ The GUID was successfully created.
 </table>
  
 
-Errors returned by <a href="https://msdn.microsoft.com/4008fb54-7770-4f1a-8e1c-4b20bef884f9">UuidCreate</a> are wrapped as an <b>HRESULT</b>.
+Errors returned by <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidcreate">UuidCreate</a> are wrapped as an <b>HRESULT</b>.
 
 
 
@@ -101,7 +101,7 @@ Errors returned by <a href="https://msdn.microsoft.com/4008fb54-7770-4f1a-8e1c-4
 
 
 
-The <b>CoCreateGuid</b> function calls the RPC function <a href="https://msdn.microsoft.com/4008fb54-7770-4f1a-8e1c-4b20bef884f9">UuidCreate</a>, which creates a GUID, a globally unique 128-bit integer. Use <b>CoCreateGuid</b> when you need an absolutely unique number that you will use as a persistent identifier in a distributed environment.To a very high degree of certainty, this function returns a unique value – no other invocation, on the same or any other system (networked or not), should return the same value.
+The <b>CoCreateGuid</b> function calls the RPC function <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidcreate">UuidCreate</a>, which creates a GUID, a globally unique 128-bit integer. Use <b>CoCreateGuid</b> when you need an absolutely unique number that you will use as a persistent identifier in a distributed environment.To a very high degree of certainty, this function returns a unique value – no other invocation, on the same or any other system (networked or not), should return the same value.
 
 
 
@@ -111,7 +111,7 @@ The <b>CoCreateGuid</b> function calls the RPC function <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/4008fb54-7770-4f1a-8e1c-4b20bef884f9">UuidCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidcreate">UuidCreate</a>
  
 
  

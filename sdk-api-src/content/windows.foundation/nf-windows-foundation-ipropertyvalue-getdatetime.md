@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the <a href="https://msdn.microsoft.com/b5533002-8a72-438d-a3d3-0902ffc21830">DateTime</a> value that is stored in the current <a href="https://msdn.microsoft.com/447625BA-F982-4155-9B05-E478E1229443">IPropertyValue</a> object.
+Gets the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/ns-windows-foundation-datetime">DateTime</a> value that is stored in the current <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets the <a href="https://msdn.microsoft.com/b5533002-8a72-438d-a3d3-0902ffc2183
 
 ### -param value [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/b5533002-8a72-438d-a3d3-0902ffc21830">DateTime</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/ns-windows-foundation-datetime">DateTime</a>*</b>
 
 The value.
 
@@ -80,11 +80,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/447625BA-F982-4155-9B05-E478E1229443">IPropertyValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/d7191a38-df9e-4e19-a128-35260bbbfba9">IPropertyValueStatics::CreateDateTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createdatetime">IPropertyValueStatics::CreateDateTime</a>
  
 
  

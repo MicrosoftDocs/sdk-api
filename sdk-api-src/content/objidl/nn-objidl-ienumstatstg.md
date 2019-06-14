@@ -51,14 +51,14 @@ ms.custom: 19H1
 
 The 
 <b>IEnumSTATSTG</b> interface enumerates an array of 
-<a href="https://msdn.microsoft.com/54e1df08-de8f-430a-bf76-e66594df4839">STATSTG</a> structures. These structures contain statistical data about  open storage, stream, or byte array objects. 
-<b>IEnumSTATSTG</b> has the same methods as all enumerator interfaces: <a href="https://msdn.microsoft.com/09363d3e-a606-4a50-8758-d7ef5b3c05ab">Next</a>, <a href="https://msdn.microsoft.com/97d785d9-961c-44af-a0a0-1d2f610e6c9a">Skip</a>, <a href="https://msdn.microsoft.com/696aaa93-1b56-4baf-a6be-753c7d6f5456">Reset</a>, and 
-<a href="https://msdn.microsoft.com/b6bc5dbd-7e09-4590-a7d4-d58fcd297f74">Clone</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structures. These structures contain statistical data about  open storage, stream, or byte array objects. 
+<b>IEnumSTATSTG</b> has the same methods as all enumerator interfaces: <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumstatstg-next">Next</a>, <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumstatstg-skip">Skip</a>, <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumstatstg-reset">Reset</a>, and 
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumstatstg-clone">Clone</a>. 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumSTATSTG</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnumSTATSTG</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumSTATSTG</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumSTATSTG</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,37 +73,37 @@ The <b>IEnumSTATSTG</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b6bc5dbd-7e09-4590-a7d4-d58fcd297f74">Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumstatstg-clone">Clone</a>
 </td>
 <td align="left" width="63%">
-Creates a new enumerator that contains the same enumeration state as the current <a href="https://msdn.microsoft.com/54e1df08-de8f-430a-bf76-e66594df4839">STATSTG</a> structure enumerator.
+Creates a new enumerator that contains the same enumeration state as the current <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structure enumerator.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/09363d3e-a606-4a50-8758-d7ef5b3c05ab">Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumstatstg-next">Next</a>
 </td>
 <td align="left" width="63%">
-Gets a specified number of <a href="https://msdn.microsoft.com/54e1df08-de8f-430a-bf76-e66594df4839">STATSTG</a> structures.
+Gets a specified number of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structures.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/696aaa93-1b56-4baf-a6be-753c7d6f5456">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumstatstg-reset">Reset</a>
 </td>
 <td align="left" width="63%">
-Resets the enumeration sequence to the beginning of the <a href="https://msdn.microsoft.com/54e1df08-de8f-430a-bf76-e66594df4839">STATSTG</a> structure array.
+Resets the enumeration sequence to the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structure array.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/97d785d9-961c-44af-a0a0-1d2f610e6c9a">Skip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumstatstg-skip">Skip</a>
 </td>
 <td align="left" width="63%">
-Skips a specified number of <a href="https://msdn.microsoft.com/54e1df08-de8f-430a-bf76-e66594df4839">STATSTG</a> structures in the enumeration sequence.
+Skips a specified number of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structures in the enumeration sequence.
 
 </td>
 </tr>
@@ -115,19 +115,19 @@ Skips a specified number of <a href="https://msdn.microsoft.com/54e1df08-de8f-43
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693395(v=VS.85).aspx">CoGetMalloc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetmalloc">CoGetMalloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/40dd62b8-f76a-4cd8-9a9f-6ac344389b6c">EnumAll Sample</a>
+<a href="https://docs.microsoft.com/windows/desktop/Stg/enumall-sample">EnumAll Sample</a>
 
 
 
-<a href="https://msdn.microsoft.com/29ca157e-40e2-4e9a-95fb-a31bb45570f2">IStorage::EnumElements</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-enumelements">IStorage::EnumElements</a>
 
 
 
-<a href="https://msdn.microsoft.com/54e1df08-de8f-430a-bf76-e66594df4839">STATSTG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a>
  
 
  

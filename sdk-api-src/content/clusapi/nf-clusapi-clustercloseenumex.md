@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Closes a handle to an enumeration that was opened by the <a href="https://msdn.microsoft.com/DA35A67E-6F20-47CC-A96A-591702A79EF5">ClusterOpenEnumEx</a> function.
+Closes a handle to an enumeration that was opened by the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusteropenenumex">ClusterOpenEnumEx</a> function.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Closes a handle to an enumeration that was opened by the <a href="https://msdn.m
 
 ### -param hClusterEnum [in]
 
-The handle to the cluster enumeration  to close. This is a handle that originally was returned by <a href="https://msdn.microsoft.com/DA35A67E-6F20-47CC-A96A-591702A79EF5">ClusterOpenEnumEx</a>.
+The handle to the cluster enumeration  to close. This is a handle that originally was returned by <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusteropenenumex">ClusterOpenEnumEx</a>.
 
 
 ## -returns
@@ -69,7 +69,7 @@ The handle to the cluster enumeration  to close. This is a handle that originall
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>.
+the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 
 
@@ -79,7 +79,7 @@ the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f
 
 
 
-<a href="https://msdn.microsoft.com/1b3a3b23-39db-47b7-b4a8-17fc1ee45df6">Failover Cluster Management Function</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-management-functions">Failover Cluster Management Function</a>
  
 
  

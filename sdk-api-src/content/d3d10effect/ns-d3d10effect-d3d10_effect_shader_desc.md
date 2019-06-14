@@ -59,49 +59,49 @@ Describes an effect shader.
 
 ### -field pInputSignature
 
-Type: <b>const <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a>*</b>
 
-Passed into CreateInputLayout. Only valid on a vertex shader or geometry shader. See <a href="https://msdn.microsoft.com/en-us/library/Bb173550(v=VS.85).aspx">ID3D10Device_CreateInputLayout</a>.
+Passed into CreateInputLayout. Only valid on a vertex shader or geometry shader. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createinputlayout">ID3D10Device_CreateInputLayout</a>.
 
 
 ### -field IsInline
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> is the shader is defined inline; otherwise <b>FALSE</b>.
 
 
 ### -field pBytecode
 
-Type: <b>const <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a>*</b>
 
 A pointer to the compiled shader.
 
 
 ### -field BytecodeLength
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The length of pBytecode.
 
 
 ### -field SODecl
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
-A string that constains a declaration of the <a href="https://msdn.microsoft.com/en-us/library/Bb205123(v=VS.85).aspx">stream output </a> from a geometry shader.
+A string that constains a declaration of the <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-pipeline-stages">stream output </a> from a geometry shader.
 
 
 ### -field NumInputSignatureEntries
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The number of entries in the input signature.
 
 
 ### -field NumOutputSignatureEntries
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The number of entries in the output signature.
 
@@ -110,7 +110,7 @@ The number of entries in the output signature.
 
 
 
-To get an effect-shader description, call <a href="https://msdn.microsoft.com/en-us/library/Bb173703(v=VS.85).aspx">ID3D10EffectShaderVariable::GetShaderDesc</a>.
+To get an effect-shader description, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectshadervariable-getshaderdesc">ID3D10EffectShaderVariable::GetShaderDesc</a>.
 
 
 
@@ -120,7 +120,7 @@ To get an effect-shader description, call <a href="https://msdn.microsoft.com/en
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205180(v=VS.85).aspx">Effect Structures (Direct3D 10)</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-effect-structures">Effect Structures (Direct3D 10)</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains image list statistics. Used by <a href="https://msdn.microsoft.com/en-us/library/Bb761417(v=VS.85).aspx">GetStatistics</a>.
+Contains image list statistics. Used by <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist2-getstatistics">GetStatistics</a>.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ Contains image list statistics. Used by <a href="https://msdn.microsoft.com/en-u
 
 ### -field cbSize
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 The image list size.
 

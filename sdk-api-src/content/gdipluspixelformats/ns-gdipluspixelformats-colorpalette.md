@@ -62,7 +62,7 @@ The <b>ColorPalette</b> structure defines an array of colors that make up a colo
 
 Type: <b>UINT</b>
 
-Combination of flags from the <a href="https://msdn.microsoft.com/en-us/library/ms534158(v=VS.85).aspx">PaletteFlags</a> enumeration. 
+Combination of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspixelformats/ne-gdipluspixelformats-paletteflags">PaletteFlags</a> enumeration. 
 
 
 ### -field Count
@@ -84,19 +84,19 @@ Array of ARGB colors.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535384(v=VS.85).aspx">Image::GetPalette</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getpalette">Image::GetPalette</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535404(v=VS.85).aspx">Image::SetPalette</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-setpalette">Image::SetPalette</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536393(v=VS.85).aspx">Types of Bitmaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-types-of-bitmaps-about">Types of Bitmaps</a>
  
 
  

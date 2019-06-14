@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 The 
 <b>GetBackupOptions</b> method returns the backup options specified to the writer that manages the currently selected component or component set by a requester using 
-<a href="https://msdn.microsoft.com/2b9a64b2-2bc9-441b-97f7-a72fd7579126">IVssBackupComponents::SetBackupOptions</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupoptions">IVssBackupComponents::SetBackupOptions</a>.
 
 Either a writer or a requester can call this method.
 
@@ -130,7 +130,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more information, see 
-<a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+<a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -146,7 +146,7 @@ The XML document is not valid. Check the event log for details. For more informa
 
 If no backup options have been set, S_FALSE is returned.
 
-If the call to <b>GetBackupOptions</b> is successful, the caller is responsible for freeing the string that  is returned in the <i>pbstrBackupOptions</i> parameter by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
+If the call to <b>GetBackupOptions</b> is successful, the caller is responsible for freeing the string that  is returned in the <i>pbstrBackupOptions</i> parameter by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
 
 
@@ -156,15 +156,15 @@ If the call to <b>GetBackupOptions</b> is successful, the caller is responsible 
 
 
 
-<a href="https://msdn.microsoft.com/2b9a64b2-2bc9-441b-97f7-a72fd7579126">IVssBackupComponents::SetBackupOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupoptions">IVssBackupComponents::SetBackupOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/c686a424-b0b9-4efc-8dc6-b92193de2a5d">IVssComponent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
 
 
-<a href="https://msdn.microsoft.com/818fd713-1b41-4abd-aca4-c74383fa3594">IVssComponent::GetRestoreOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getrestoreoptions">IVssComponent::GetRestoreOptions</a>
  
 
  

@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemDecoupledRegistrar</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWbemDecoupledRegistrar</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemDecoupledRegistrar</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemDecoupledRegistrar</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IWbemDecoupledRegistrar</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0592310c-dc1b-45df-bf60-613a58dd69ad">Register</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemdecoupledregistrar-register">Register</a>
 </td>
 <td align="left" width="63%">
 Registers an object interface with WMI.
@@ -79,7 +79,7 @@ Registers an object interface with WMI.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/24e9cc0c-20c4-464b-a215-4d0344bc4565">UnRegister</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemdecoupledregistrar-unregister">UnRegister</a>
 </td>
 <td align="left" width="63%">
 Removes an object interface from registration with WMI.
@@ -94,11 +94,11 @@ Removes an object interface from registration with WMI.
 
 
 
-<a href="https://msdn.microsoft.com/5fa8f1b5-fd19-4d45-9b53-bc7089eecdb1">COM API for WMI</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/com-api-for-wmi">COM API for WMI</a>
 
 
 
-<a href="https://msdn.microsoft.com/a502f0dd-9add-4ebd-bc25-743a55eb78ac">Incorporating a Provider in an Application</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/incorporating-a-provider-in-an-application">Incorporating a Provider in an Application</a>
  
 
  

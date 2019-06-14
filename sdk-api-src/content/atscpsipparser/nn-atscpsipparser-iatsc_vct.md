@@ -53,7 +53,7 @@ ms.custom: 19H1
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
 
-The <b>IATSC_VCT</b> interface enables the client to get data from a virtual channel table (VCT). The <a href="https://msdn.microsoft.com/d3df008e-020f-4ed3-9422-2d5f0f0b865f">IAtscPsipParser::GetVCT</a> method returns a pointer to this interface.
+The <b>IATSC_VCT</b> interface enables the client to get data from a virtual channel table (VCT). The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatscpsipparser-getvct">IAtscPsipParser::GetVCT</a> method returns a pointer to this interface.
 
 A <i>record</i> as defined by this interface corresponds to a virtual channel in the VCT. For example, the <b>GetCountOfRecords</b> method returns the number of virtual channels defined in the VCT.
 
@@ -64,7 +64,7 @@ The VCT may contain one or more table-wide descriptors. In addition, each record
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IATSC_VCT</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IATSC_VCT</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IATSC_VCT</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IATSC_VCT</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -79,7 +79,7 @@ The <b>IATSC_VCT</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a6a9f998-f8a8-4459-91f8-aa4a5206d190">GetCountOfRecords</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_vct-getcountofrecords">GetCountOfRecords</a>
 </td>
 <td align="left" width="63%">
 Returns the number of records in the VCT.
@@ -88,7 +88,7 @@ Returns the number of records in the VCT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6930490f-235f-40d5-846d-ae9a075c82cc">GetCountOfTableDescriptors</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_vct-getcountoftabledescriptors">GetCountOfTableDescriptors</a>
 </td>
 <td align="left" width="63%">
 Returns the number of table-wide descriptors in the VCT.
@@ -97,7 +97,7 @@ Returns the number of table-wide descriptors in the VCT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/51bfc546-9150-4063-b8a4-2dc1238070d0">GetProtocolVersion</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_vct-getprotocolversion">GetProtocolVersion</a>
 </td>
 <td align="left" width="63%">
 Returns the protocol version of the table.
@@ -106,7 +106,7 @@ Returns the protocol version of the table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ff875184-1d91-489d-9941-5d1cd3e9e872">GetRecordCarrierFrequency</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_vct-getrecordcarrierfrequency">GetRecordCarrierFrequency</a>
 </td>
 <td align="left" width="63%">
 Returns the carrier frequency for a channel in this VCT.
@@ -115,7 +115,7 @@ Returns the carrier frequency for a channel in this VCT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8d85f653-181f-467f-b278-8bc721f8ff22">GetRecordCountOfDescriptors</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_vct-getrecordcountofdescriptors">GetRecordCountOfDescriptors</a>
 </td>
 <td align="left" width="63%">
 Returns the number of descriptors for a record in the VCT.
@@ -124,7 +124,7 @@ Returns the number of descriptors for a record in the VCT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/de27ab5f-f3b4-4888-8df0-b8c2efd373d7">GetRecordDescriptorByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/dd389486(v%3dvs.85)">GetRecordDescriptorByIndex</a>
 </td>
 <td align="left" width="63%">
 Returns a descriptor for a specified record in the VCT.
@@ -133,7 +133,7 @@ Returns a descriptor for a specified record in the VCT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b8c975fe-6bf9-443d-b069-cb8e5e01affc">GetRecordDescriptorByTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_vct-getrecorddescriptorbytag">GetRecordDescriptorByTag</a>
 </td>
 <td align="left" width="63%">
 Searches a record in the VCT for a descriptor with a specified descriptor tag.
@@ -142,7 +142,7 @@ Searches a record in the VCT for a descriptor with a specified descriptor tag.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9884a9bd-bd5c-4d6a-a8b0-5ba1406c0210">GetRecordEtmLocation</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_vct-getrecordetmlocation">GetRecordEtmLocation</a>
 </td>
 <td align="left" width="63%">
 Returns the extended text message (ETM) location for a record in the EIT.
@@ -151,7 +151,7 @@ Returns the extended text message (ETM) location for a record in the EIT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c94dc694-dc3f-4639-997e-fb6d534c9e4c">GetRecordIsAccessControlledBitSet</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_vct-getrecordisaccesscontrolledbitset">GetRecordIsAccessControlledBitSet</a>
 </td>
 <td align="left" width="63%">
 Queries whether the access_controlled bit is set for a particular record in the VCT.
@@ -160,7 +160,7 @@ Queries whether the access_controlled bit is set for a particular record in the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ef02da20-7c81-4c0b-83fd-7e4c0a36ea1a">GetRecordIsHiddenBitSet</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_vct-getrecordishiddenbitset">GetRecordIsHiddenBitSet</a>
 </td>
 <td align="left" width="63%">
 Queries whether the hidden bit is set for a particular record in the VCT.
@@ -169,7 +169,7 @@ Queries whether the hidden bit is set for a particular record in the VCT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/74b2ec97-f225-4085-910e-9093995c46f8">GetRecordIsHideGuideBitSet</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_vct-getrecordishideguidebitset">GetRecordIsHideGuideBitSet</a>
 </td>
 <td align="left" width="63%">
 Queries whether the hide_guide bit is set for a particular record in the VCT.
@@ -178,7 +178,7 @@ Queries whether the hide_guide bit is set for a particular record in the VCT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cb4dc4f0-2bbb-44f6-b45e-347cce890b75">GetRecordIsOutOfBandBitSet</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_vct-getrecordisoutofbandbitset">GetRecordIsOutOfBandBitSet</a>
 </td>
 <td align="left" width="63%">
 Queries whether the out_of_band bit is set for a particular record in the VCT.
@@ -187,7 +187,7 @@ Queries whether the out_of_band bit is set for a particular record in the VCT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6f3e1e5c-0506-420d-981b-d30d77604e97">GetRecordIsPathSelectBitSet</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_vct-getrecordispathselectbitset">GetRecordIsPathSelectBitSet</a>
 </td>
 <td align="left" width="63%">
 Queries whether the path_select bit is set for a particular record in the VCT.
@@ -196,7 +196,7 @@ Queries whether the path_select bit is set for a particular record in the VCT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/103de5b5-e78c-49a2-81a7-e85eae2d79c1">GetRecordMajorChannelNumber</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_vct-getrecordmajorchannelnumber">GetRecordMajorChannelNumber</a>
 </td>
 <td align="left" width="63%">
 Returns the major channel number for a record in the VCT.
@@ -205,7 +205,7 @@ Returns the major channel number for a record in the VCT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e0c6eecb-7543-4476-882c-29b1ee103359">GetRecordMinorChannelNumber</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_vct-getrecordminorchannelnumber">GetRecordMinorChannelNumber</a>
 </td>
 <td align="left" width="63%">
 Returns the minor channel number for a record in the VCT.
@@ -214,7 +214,7 @@ Returns the minor channel number for a record in the VCT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3f335414-f37e-4c50-848e-9f3de51f829a">GetRecordModulationMode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_vct-getrecordmodulationmode">GetRecordModulationMode</a>
 </td>
 <td align="left" width="63%">
 Returns the modulation mode for a record in the VCT.
@@ -223,7 +223,7 @@ Returns the modulation mode for a record in the VCT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b97baa53-d927-4a3c-91a5-3d06d26e797f">GetRecordName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_vct-getrecordname">GetRecordName</a>
 </td>
 <td align="left" width="63%">
 Returns the name of a specified channel in the VCT.
@@ -232,7 +232,7 @@ Returns the name of a specified channel in the VCT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/11bf3b27-98da-4f4f-a6a9-6c69b20aedda">GetRecordProgramNumber</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_vct-getrecordprogramnumber">GetRecordProgramNumber</a>
 </td>
 <td align="left" width="63%">
 Returns the program number for a record in the VCT.
@@ -241,7 +241,7 @@ Returns the program number for a record in the VCT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8975a42e-69f8-43b8-8c02-2f03a4dde29f">GetRecordServiceType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_vct-getrecordservicetype">GetRecordServiceType</a>
 </td>
 <td align="left" width="63%">
 Returns the service type for a record in the VCT.
@@ -250,7 +250,7 @@ Returns the service type for a record in the VCT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c5edc529-ca54-4f18-8859-b7eb168bff0a">GetRecordSourceId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_vct-getrecordsourceid">GetRecordSourceId</a>
 </td>
 <td align="left" width="63%">
 Returns the source identifier for a record in the VCT.
@@ -259,7 +259,7 @@ Returns the source identifier for a record in the VCT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f0ecd931-d789-41cd-8056-675e6162a5f1">GetRecordTransportStreamId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_vct-getrecordtransportstreamid">GetRecordTransportStreamId</a>
 </td>
 <td align="left" width="63%">
 Returns the transport stream identifier (TSID) for a specified channel.
@@ -268,7 +268,7 @@ Returns the transport stream identifier (TSID) for a specified channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/964ae371-e7a5-4278-8408-b39ae4371135">GetTableDescriptorByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/dd389502(v%3dvs.85)">GetTableDescriptorByIndex</a>
 </td>
 <td align="left" width="63%">
 Returns a table-wide descriptor for the VCT.
@@ -277,7 +277,7 @@ Returns a table-wide descriptor for the VCT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2ae29f5c-430a-45a0-870e-41b209572775">GetTableDescriptorByTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_vct-gettabledescriptorbytag">GetTableDescriptorByTag</a>
 </td>
 <td align="left" width="63%">
 Searches the VCT for a table-wide descriptor with the specified descriptor tag.
@@ -286,7 +286,7 @@ Searches the VCT for a table-wide descriptor with the specified descriptor tag.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0c3261e8-c671-48c7-b07c-59ce74b13c76">GetTransportStreamId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_vct-gettransportstreamid">GetTransportStreamId</a>
 </td>
 <td align="left" width="63%">
 Returns the TSID for the entire VCT.
@@ -295,7 +295,7 @@ Returns the TSID for the entire VCT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c89e2fde-958f-4193-84d9-2d98e7560c6a">GetVersionNumber</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_vct-getversionnumber">GetVersionNumber</a>
 </td>
 <td align="left" width="63%">
 Returns the version number for the VCT.
@@ -304,7 +304,7 @@ Returns the version number for the VCT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9a127b94-7591-47b4-b631-50a347b540c6">Initialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_vct-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object.
@@ -319,7 +319,7 @@ Initializes the object.
 
 
 
-<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
  
 
  

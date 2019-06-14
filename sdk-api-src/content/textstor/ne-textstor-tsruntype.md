@@ -118,11 +118,11 @@ A text run is a collection of consecutive characters that is visible, hidden, or
 
 
 
-<a href="https://msdn.microsoft.com/c3788e8f-ddb8-4ad6-971c-e9c1f6a21f88">ITextStoreACP::GetText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-gettext">ITextStoreACP::GetText</a>
 
 
 
-<a href="https://msdn.microsoft.com/601cd6b0-0064-4cd3-99cd-850104a861a5">TS_RUNINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_runinfo">TS_RUNINFO</a>
  
 
  

@@ -73,7 +73,7 @@ The index of the quantization table to retrieve.
 
 ### -param pQuantizationTable [out]
 
-Type: <b><a href="https://msdn.microsoft.com/DE1AAB15-B0B8-4594-BBCE-5F8EE5CE0AF7">DXGI_JPEG_QUANTIZATION_TABLE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-jpeg-quantization-table">DXGI_JPEG_QUANTIZATION_TABLE</a>*</b>
 
 A pointer that receives the table data. This parameter must not be NULL.
 
@@ -82,7 +82,7 @@ A pointer that receives the table data. This parameter must not be NULL.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 This method can return one of these values.
 
@@ -135,7 +135,7 @@ Can occur if <i>pTable</i> is NULL or if <i>tableIndex</i> does not point to a v
 
 
 
-<a href="https://msdn.microsoft.com/631571A2-AA15-4A4B-B705-6CCC81392A6A">IWICJpegFrameEncode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicjpegframeencode">IWICJpegFrameEncode</a>
  
 
  

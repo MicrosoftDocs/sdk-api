@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SCardAddReaderToGroup</b> function adds a <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">reader</a> to a <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">reader group</a>.
+The <b>SCardAddReaderToGroup</b> function adds a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader</a> to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader group</a>.
 
 
 ## -parameters
@@ -61,8 +61,8 @@ The <b>SCardAddReaderToGroup</b> function adds a <a href="https://msdn.microsoft
 
 ### -param hContext [in]
 
-Handle that identifies the <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">resource manager context</a>. The resource manager context is set by a previous call to 
-<a href="https://msdn.microsoft.com/1cf9b005-b76c-4fc9-b4bd-a1ad8552535f">SCardEstablishContext</a>. This parameter cannot be <b>NULL</b>.
+Handle that identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager context</a>. The resource manager context is set by a previous call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>. This parameter cannot be <b>NULL</b>.
 
 
 ### -param szReaderName [in]
@@ -157,7 +157,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -174,12 +174,12 @@ An error code. For more information, see
 <b>SCardAddReaderToGroup</b> automatically creates the reader group specified if it does not already exist. 
 
 The <b>SCardAddReaderToGroup</b> function is a database management function. For more information on other database management functions, see 
-<a href="https://msdn.microsoft.com/a2f457e1-c042-42e7-9071-cf0edd68e27a">Smart Card Database Management Functions</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/smart-card-database-management-functions">Smart Card Database Management Functions</a>.
 
 
 #### Examples
 
-The following example demonstrates how to add a smart card reader to a    group.     The example assumes that lReturn is an existing variable of type <b>LONG</b>, that <i>hContext</i> is a valid handle received from a previous call to the <a href="https://msdn.microsoft.com/1cf9b005-b76c-4fc9-b4bd-a1ad8552535f">SCardEstablishContext</a> function, and that "MyReader" and "MyReaderGroup"  are known by the system through previous calls to the <a href="https://msdn.microsoft.com/1f8b9d75-5bba-40c3-99a0-6910855fcd4d">SCardIntroduceReader</a> and <a href="https://msdn.microsoft.com/aaf7d2f9-71d5-42bb-a96f-71124be40aa3">SCardIntroduceReaderGroup</a> functions, respectively.
+The following example demonstrates how to add a smart card reader to a    group.     The example assumes that lReturn is an existing variable of type <b>LONG</b>, that <i>hContext</i> is a valid handle received from a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a> function, and that "MyReader" and "MyReaderGroup"  are known by the system through previous calls to the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardintroducereadera">SCardIntroduceReader</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardintroducereadergroupa">SCardIntroduceReaderGroup</a> functions, respectively.
 
 
 ```cpp
@@ -201,19 +201,19 @@ if ( SCARD_S_SUCCESS != lReturn )
 
 
 
-<a href="https://msdn.microsoft.com/1cf9b005-b76c-4fc9-b4bd-a1ad8552535f">SCardEstablishContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f8b9d75-5bba-40c3-99a0-6910855fcd4d">SCardIntroduceReader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardintroducereadera">SCardIntroduceReader</a>
 
 
 
-<a href="https://msdn.microsoft.com/aaf7d2f9-71d5-42bb-a96f-71124be40aa3">SCardIntroduceReaderGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardintroducereadergroupa">SCardIntroduceReaderGroup</a>
 
 
 
-<a href="https://msdn.microsoft.com/a9bdaf16-1a6f-4a84-ab29-3d6df9003ff9">SCardRemoveReaderFromGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardremovereaderfromgroupa">SCardRemoveReaderFromGroup</a>
  
 
  

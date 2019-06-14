@@ -59,14 +59,14 @@ Retrieves a clipboard object for a range in an edit control.
 
 ### -param lpchrg
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb787885(v=VS.85).aspx">CHARRANGE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_charrange">CHARRANGE</a>*</b>
 
 The range for which to create the clipboard object. 
 
 
 ### -param reco
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Unused.
 
@@ -75,7 +75,7 @@ Unused.
 
 Type: <b>LPDATAOBJECT*</b>
 
-The <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> interface of the clipboard object representing the range specified in the 
+The <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface of the clipboard object representing the range specified in the 
 					<i>lpchrg</i> parameter.
 
 
@@ -83,7 +83,7 @@ The <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">ID
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns <b>S_OK</b> on success. If the method fails, it can return one of the following values.
 
@@ -125,11 +125,11 @@ There was not enough memory to do the operation.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787885(v=VS.85).aspx">CHARRANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_charrange">CHARRANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774306(v=VS.85).aspx">IRichEditOle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/nn-richole-iricheditole">IRichEditOle</a>
 
 
 

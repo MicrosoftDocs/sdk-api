@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>EMREXTCREATEFONTINDIRECTW</b> structure contains members for the <a href="https://msdn.microsoft.com/b7919fb6-8515-4f1b-af9c-dc7eac381b90">CreateFontIndirect</a> enhanced metafile record.
+The <b>EMREXTCREATEFONTINDIRECTW</b> structure contains members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta">CreateFontIndirect</a> enhanced metafile record.
 
 
 
@@ -80,15 +80,15 @@ Logical font.
 
 
 
-<a href="https://msdn.microsoft.com/b7919fb6-8515-4f1b-af9c-dc7eac381b90">CreateFontIndirect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta">CreateFontIndirect</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a509ed5-cea3-4318-ad17-9d20425a6e80">Metafile Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/309ee4cf-111b-4f09-a722-4823cb3d26b0">Metafiles Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
  
 
  

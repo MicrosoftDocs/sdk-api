@@ -73,7 +73,7 @@ This method can return one of these values.
 
 
 The 
-Clear method provides a way to reset the content of the message, but the snap-in is not required to call this method to release resources. MMC creates its own copies of the strings passed to it when the snap-in calls the <a href="https://msdn.microsoft.com/e041cf74-9fdd-489c-a251-e5b3e55e1bc5">IMessageView::SetTitleText</a> and <a href="https://msdn.microsoft.com/27b3ae83-be3c-4d40-88b8-9253f1c793f6">IMessageView::SetBodyText</a> methods. The snap-in can release the resources after calling 
+Clear method provides a way to reset the content of the message, but the snap-in is not required to call this method to release resources. MMC creates its own copies of the strings passed to it when the snap-in calls the <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-imessageview-settitletext">IMessageView::SetTitleText</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-imessageview-setbodytext">IMessageView::SetBodyText</a> methods. The snap-in can release the resources after calling 
 SetTitleText and 
 SetBodyText.
 
@@ -85,11 +85,11 @@ SetBodyText.
 
 
 
-<a href="https://msdn.microsoft.com/e1ea6bb2-f35e-4379-b4e4-70d4e5d77b93">IMessageView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-imessageview">IMessageView</a>
 
 
 
-<a href="https://msdn.microsoft.com/bc6db308-d8dd-4868-803d-45c64b951192">Using the MMC Message OCX Control</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-the-mmc-message-ocx-control">Using the MMC Message OCX Control</a>
  
 
  

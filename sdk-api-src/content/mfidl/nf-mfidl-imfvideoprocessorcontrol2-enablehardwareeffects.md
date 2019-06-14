@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Enables effects that were implemented with <a href="https://msdn.microsoft.com/D526BB31-A4B9-4BBD-BAE3-43FDFF58A32A">IDirectXVideoProcessor::VideoProcessorBlt</a>. 
+Enables effects that were implemented with <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorblt">IDirectXVideoProcessor::VideoProcessorBlt</a>. 
 
 
 ## -parameters
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/FE314254-AAE4-482E-A7AE-28B2591E0060">IMFVideoProcessorControl2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfvideoprocessorcontrol2">IMFVideoProcessorControl2</a>
  
 
  

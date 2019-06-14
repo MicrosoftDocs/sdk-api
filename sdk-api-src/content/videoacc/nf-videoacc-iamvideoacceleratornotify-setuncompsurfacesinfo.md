@@ -150,19 +150,19 @@ The video renderer calls this method after it allocates uncompressed surfaces fo
 
 
 
-<a href="https://msdn.microsoft.com/5fd72be3-4ff5-4c93-8055-abe247f3c856">DirectShow Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-reference">DirectShow Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/0bc6b65b-4502-4c6f-a0f2-82a2bd444d1d">How Decoders Use IAMVideoAccelerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/how-decoders-use-iamvideoaccelerator">How Decoders Use IAMVideoAccelerator</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375993(v=VS.85).aspx">IAMVideoAcceleratorNotify Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nn-videoacc-iamvideoacceleratornotify">IAMVideoAcceleratorNotify Interface</a>
  
 
  

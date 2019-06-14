@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 The <b>AddPolicyAdministratorName</b> method adds the specified account name to the list of principals that act as policy administrators.
 
-This method is an alternate version of the <a href="https://msdn.microsoft.com/8d73bc05-1366-4b47-9eaf-4a247ebf8d93">AddPolicyAdministrator</a> method.
+This method is an alternate version of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-addpolicyadministrator">AddPolicyAdministrator</a> method.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ This method is an alternate version of the <a href="https://msdn.microsoft.com/8
 
 ### -param bstrAdmin [in]
 
-Account name  to add to the list of policy administrators. The account name must be in user principal name (UPN) format (for example, "someone@example.com"). The <a href="https://msdn.microsoft.com/72855539-469a-4289-99cc-eae2ed89901f">LookupAccountName</a> function is called to retrieve the domain.
+Account name  to add to the list of policy administrators. The account name must be in user principal name (UPN) format (for example, "someone@example.com"). The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea">LookupAccountName</a> function is called to retrieve the domain.
 
 
 ### -param varReserved [in, optional]
@@ -96,9 +96,9 @@ Policy administrators for an object can perform the following tasks:
 <li>Delete child objects of the object</li>
 <li>Create child objects of the object</li>
 </ul>
-To view the list of policy administrators in account name format, use the <a href="https://msdn.microsoft.com/20f84f75-ad27-4329-90a8-46e7d817863f">PolicyAdministratorsName</a> property.
+To view the list of policy administrators in account name format, use the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_policyadministratorsname">PolicyAdministratorsName</a> property.
 
-You must call the <a href="https://msdn.microsoft.com/bf2962af-0e8f-4c4c-a63a-dfd623308e4d">Submit</a> method to persist any changes made by this method.
+You must call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-submit">Submit</a> method to persist any changes made by this method.
 
 
 

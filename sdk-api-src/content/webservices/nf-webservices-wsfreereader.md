@@ -60,7 +60,7 @@ Releases the memory resource associated with  an XML_Reader object.
 
 ### -param reader [in]
 
-A pointer to the <b>XML Reader</b> object to release.  The pointer must reference a valid <a href="https://msdn.microsoft.com/7acbe407-e91b-435a-82bc-acbbc13cfcfd">WS_XML_READER</a> object returned by <a href="https://msdn.microsoft.com/0d4449aa-ffcc-41d9-99b1-7352edaf3700">WsCreateReader</a>    and the referenced <b>XML Reader</b> value may not be <b>NULL</b>.
+A pointer to the <b>XML Reader</b> object to release.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> object returned by <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatereader">WsCreateReader</a>    and the referenced <b>XML Reader</b> value may not be <b>NULL</b>.
         
 
 

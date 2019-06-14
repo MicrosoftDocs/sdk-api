@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Applies a rotation to a <a href="https://msdn.microsoft.com/66ec7cab-bfc2-4934-93a4-0ab9cb8c96e7">InkRenderer</a>'s view transform.
+Applies a rotation to a <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrenderer-class">InkRenderer</a>'s view transform.
 
 
 
@@ -133,7 +133,7 @@ If no point is specified, the rotation is centered around the origin.
 
 
 
-<a href="https://msdn.microsoft.com/66ec7cab-bfc2-4934-93a4-0ab9cb8c96e7">InkRenderer Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrenderer-class">InkRenderer Class</a>
  
 
  

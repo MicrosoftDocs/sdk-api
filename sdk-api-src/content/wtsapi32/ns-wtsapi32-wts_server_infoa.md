@@ -69,7 +69,7 @@ Name of the server.
 
 
 
-<a href="https://msdn.microsoft.com/49aa3813-4e29-420e-9309-3ef9b11f1da7">WTSEnumerateServers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsenumerateserversa">WTSEnumerateServers</a>
  
 
  

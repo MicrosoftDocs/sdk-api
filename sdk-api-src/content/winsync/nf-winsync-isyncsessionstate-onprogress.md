@@ -120,7 +120,7 @@ The method succeeded.
 
 
 
-This method can be used to report custom progress to the application. When a provider calls this method, the <a href="https://msdn.microsoft.com/4a4dad07-b169-4767-a118-3b5c6c8b9764">ISyncCallback::OnProgress</a> event is raised.
+This method can be used to report custom progress to the application. When a provider calls this method, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isynccallback-onprogress">ISyncCallback::OnProgress</a> event is raised.
 
 
 
@@ -130,19 +130,19 @@ This method can be used to report custom progress to the application. When a pro
 
 
 
-<a href="https://msdn.microsoft.com/f6c96e02-e9db-402c-8197-580f688b068f">ISyncCallback Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isynccallback">ISyncCallback Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b03d5af-b5f5-49fa-a10e-9f9f3c1dab0e">ISyncSessionState Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncsessionstate">ISyncSessionState Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd317258(v=VS.85).aspx">SYNC_PROGRESS STAGE Enumeration</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ne-winsync-__midl___midl_itf_winsync_0000_0000_0003">SYNC_PROGRESS STAGE Enumeration</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd317260(v=VS.85).aspx">SYNC_PROVIDER ROLE Enumeration</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ne-winsync-__midl___midl_itf_winsync_0000_0000_0001">SYNC_PROVIDER ROLE Enumeration</a>
  
 
  

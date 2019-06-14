@@ -111,31 +111,31 @@ Use the <b>get_audioLanguageCount</b> method to retrieve the number of supported
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563183(v=VS.85).aspx">IWMPControls3 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcontrols3">IWMPControls3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563184(v=VS.85).aspx">IWMPControls3::getAudioLanguageDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-getaudiolanguagedescription">IWMPControls3::getAudioLanguageDescription</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563185(v=VS.85).aspx">IWMPControls3::getAudioLanguageID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-getaudiolanguageid">IWMPControls3::getAudioLanguageID</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563186(v=VS.85).aspx">IWMPControls3::getLanguageName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-getlanguagename">IWMPControls3::getLanguageName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563187(v=VS.85).aspx">IWMPControls3::get_audioLanguageCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-get_audiolanguagecount">IWMPControls3::get_audioLanguageCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563188(v=VS.85).aspx">IWMPControls3::get_currentAudioLanguage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-get_currentaudiolanguage">IWMPControls3::get_currentAudioLanguage</a>
 
 
 
-<a href="https://msdn.microsoft.com/f231ed72-e61d-4754-8ecb-e9a35f4abf2c">IWMPControls3::put_currentAudioLanguageIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/aa388723(v%3dvs.85)">IWMPControls3::put_currentAudioLanguageIndex</a>
  
 
  

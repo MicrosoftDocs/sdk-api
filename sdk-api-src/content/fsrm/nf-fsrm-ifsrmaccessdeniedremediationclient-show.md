@@ -50,15 +50,15 @@ ms.custom: 19H1
 
 
 <p class="CCE_Message">[This method is supported for compatibility but it's recommended to use the 
-    <a href="https://msdn.microsoft.com/1CE772FA-CE33-4900-A499-058175A7C37E">FSRM WMI Classes</a> to manage FSRM. Please see the 
-    <a href="https://msdn.microsoft.com/fec0343f-4ab6-4b8c-b365-e510286af2be">MSFT_FSRMAdr</a> and 
-    <a href="https://msdn.microsoft.com/0ddadb89-7059-43bb-9b8b-e31976ce715a">MSFT_FSRMADRSettings</a> classes.]
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmadr">MSFT_FSRMAdr</a> and 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmadrsettings">MSFT_FSRMADRSettings</a> classes.]
 
 Displays the Access Denied Remediation (ADR) client dialog.
 
 This method was introduced for applications that are already using the FSRM interfaces. Where possible it is 
-    recommended to use the <a href="https://msdn.microsoft.com/fec0343f-4ab6-4b8c-b365-e510286af2be">MSFT_FSRMAdr</a> and 
-    <a href="https://msdn.microsoft.com/0ddadb89-7059-43bb-9b8b-e31976ce715a">MSFT_FSRMADRSettings</a> WMI classes instead.
+    recommended to use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmadr">MSFT_FSRMAdr</a> and 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmadrsettings">MSFT_FSRMADRSettings</a> WMI classes instead.
 
 
 ## -parameters
@@ -79,7 +79,7 @@ Path of the file being accessed.
 ### -param errorType [in]
 
 The client error type as enumerated by the 
-      <a href="https://msdn.microsoft.com/83e2c39b-ab3b-46c9-bb11-3f03f8193a7c">AdrClientErrorType</a> enumeration.
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_adrclienterrortype">AdrClientErrorType</a> enumeration.
 
 
 ### -param flags [in]
@@ -117,15 +117,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/572d2985-a579-4bfa-a305-403b6be516ca">IFsrmAccessDeniedRemediationClient</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmaccessdeniedremediationclient">IFsrmAccessDeniedRemediationClient</a>
 
 
 
-<a href="https://msdn.microsoft.com/0ddadb89-7059-43bb-9b8b-e31976ce715a">MSFT_FSRMADRSettings</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmadrsettings">MSFT_FSRMADRSettings</a>
 
 
 
-<a href="https://msdn.microsoft.com/fec0343f-4ab6-4b8c-b365-e510286af2be">MSFT_FSRMAdr</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmadr">MSFT_FSRMAdr</a>
  
 
  

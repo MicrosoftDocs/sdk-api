@@ -63,7 +63,7 @@ Sets a bitmap image for the enhanced video renderer (EVR) to alpha-blend with th
 
 ### -param pBmpParms [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/609041f2-7ba4-4157-819b-4ac21612dca2">MFVideoAlphaBitmap</a> structure that contains information about the bitmap, the source and destination rectangles, the color key, and other information.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/evr9/ns-evr9-mfvideoalphabitmap">MFVideoAlphaBitmap</a> structure that contains information about the bitmap, the source and destination rectangles, the color key, and other information.
 
 
 ## -returns
@@ -193,11 +193,11 @@ HRESULT EVRPlayer::SetBitmapImage(BOOL bEnable, HBITMAP hBitmap)
 
 
 
-<a href="https://msdn.microsoft.com/1c985558-d25d-4f51-978a-58c05943dab9">Enhanced Video Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://msdn.microsoft.com/4da4bdb9-857b-40c9-b910-04a099a23ab5">IMFVideoMixerBitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evr9/nn-evr9-imfvideomixerbitmap">IMFVideoMixerBitmap</a>
  
 
  

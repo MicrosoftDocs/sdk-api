@@ -59,7 +59,7 @@ Registers a namespace from a stream. The stream passed as a parameter to this me
 
 ### -param SettingsID [in]
 
-An <a href="https://msdn.microsoft.com/aa9d5604-5b94-47d9-9e68-d708a656a5ea">ISettingsIdentity</a> value that identifies the namespace to be registered.
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsidentity">ISettingsIdentity</a> value that identifies the namespace to be registered.
 
 
 ### -param Stream [in]
@@ -74,7 +74,7 @@ When this flag is set to <b>TRUE</b>, settings are pushed to the registry or to 
 
 ### -param Results [out]
 
-Results is a variant of type <b>VT_VARIANT</b> or <b>VT_ARRAY</b>, each of which points to an <a href="https://msdn.microsoft.com/0bbfd39a-0292-4d8e-ae31-f45aebd326a7">ISettingsResult</a> object which describes an error or warning uncovered during manifest compilation.
+Results is a variant of type <b>VT_VARIANT</b> or <b>VT_ARRAY</b>, each of which points to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsresult">ISettingsResult</a> object which describes an error or warning uncovered during manifest compilation.
 
 
 ## -returns
@@ -91,7 +91,7 @@ This method returns an HRESULT value. <b>S_OK</b> indicates success.
 
 
 
-<a href="https://msdn.microsoft.com/ba816a00-e238-4dbd-a09a-ad4e191d9c4e">ISettingsEngine</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsengine">ISettingsEngine</a>
  
 
  

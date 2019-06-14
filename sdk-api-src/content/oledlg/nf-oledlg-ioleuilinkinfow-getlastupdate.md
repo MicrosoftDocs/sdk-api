@@ -66,7 +66,7 @@ Container-defined unique identifier for a single link. Containers can use the po
 
 ### -param lpLastUpdate [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that indicates the time that the object was last updated.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that indicates the time that the object was last updated.
 
 
 ## -returns
@@ -145,7 +145,7 @@ If the time that the object was last updated is known, copy it to <i>lpLastUpdat
 
 
 
-<a href="https://msdn.microsoft.com/aadac00b-47bb-42eb-8458-b23867f6b975">IOleUILinkInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkinfoa">IOleUILinkInfo</a>
  
 
  

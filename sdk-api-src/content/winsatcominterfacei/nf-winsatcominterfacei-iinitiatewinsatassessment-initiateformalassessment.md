@@ -61,7 +61,7 @@ Initiates a formal assessment.
 
 ### -param pCallbacks [in, optional]
 
-An <a href="https://msdn.microsoft.com/f6ab3284-a76f-4148-ae40-04aa782ea9a7">IWinSATInitiateEvents</a> interface that you implement to receive notification when the assessment finishes or makes progress. Can be <b>NULL</b> if you do not want to receive notifications.
+An <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iwinsatinitiateevents">IWinSATInitiateEvents</a> interface that you implement to receive notification when the assessment finishes or makes progress. Can be <b>NULL</b> if you do not want to receive notifications.
 
 
 ### -param callerHwnd [in, optional]
@@ -94,7 +94,7 @@ This following table lists some of the HRESULT values that this method returns.
 </dl>
 </td>
 <td width="60%">
-WinSAT successfully started. To determine if the assessment ran successfully, implement the <a href="https://msdn.microsoft.com/a7bcd7e6-b8d7-4ec3-84e8-8ccbcd0b4ada">IWinSATInitiateEvents::WinSATComplete</a> method and check the value of the <i>hresult</i> parameter.
+WinSAT successfully started. To determine if the assessment ran successfully, implement the <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iwinsatinitiateevents-winsatcomplete">IWinSATInitiateEvents::WinSATComplete</a> method and check the value of the <i>hresult</i> parameter.
 
 </td>
 </tr>
@@ -120,11 +120,11 @@ Could not find the WinSAT program where expected.
 
 
 
-You typically run a formal assessment to assess all subcomponents of the computer, whereas an ad hoc assessment assesses one subcomponent of the computer. To run an ad hoc assessment, call the <a href="https://msdn.microsoft.com/c57d88b6-81ac-4314-8593-59a950348be4">IInitiateWinSATAssessment::InitiateAssessment</a> method.
+You typically run a formal assessment to assess all subcomponents of the computer, whereas an ad hoc assessment assesses one subcomponent of the computer. To run an ad hoc assessment, call the <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iinitiatewinsatassessment-initiateassessment">IInitiateWinSATAssessment::InitiateAssessment</a> method.
 
-To get the results of a formal assessment, use the <a href="https://msdn.microsoft.com/6849d8b6-d192-4520-a737-39e22e14a70f">IQueryRecentWinSATAssessment</a> interface.  
+To get the results of a formal assessment, use the <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iqueryrecentwinsatassessment">IQueryRecentWinSATAssessment</a> interface.  
 
-If you call this function from a Windows application, implement the <a href="https://msdn.microsoft.com/f6ab3284-a76f-4148-ae40-04aa782ea9a7">IWinSATInitiateEvents</a> interface so that you can display progress information and receive notification when the assessment is complete. For a Windows console application, showing progress is not necessary because WinSAT writes progress information to the console window.
+If you call this function from a Windows application, implement the <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iwinsatinitiateevents">IWinSATInitiateEvents</a> interface so that you can display progress information and receive notification when the assessment is complete. For a Windows console application, showing progress is not necessary because WinSAT writes progress information to the console window.
 
 Note that WinSAT requires administrator privileges to run. If the user does not have administrator privileges, WinSAT will display a dialog box that asks for credentials.   
 
@@ -294,15 +294,15 @@ cleanup:
 
 
 
-<a href="https://msdn.microsoft.com/0b299477-50a4-4f61-a0e5-fdbae239503b">IInitiateWinSATAssessment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iinitiatewinsatassessment">IInitiateWinSATAssessment</a>
 
 
 
-<a href="https://msdn.microsoft.com/c57d88b6-81ac-4314-8593-59a950348be4">IInitiateWinSATAssessment::InitiateAssessment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iinitiatewinsatassessment-initiateassessment">IInitiateWinSATAssessment::InitiateAssessment</a>
 
 
 
-<a href="https://msdn.microsoft.com/6849d8b6-d192-4520-a737-39e22e14a70f">IQueryRecentWinSATAssessment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iqueryrecentwinsatassessment">IQueryRecentWinSATAssessment</a>
  
 
  

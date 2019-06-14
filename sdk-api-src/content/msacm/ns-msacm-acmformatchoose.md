@@ -62,12 +62,12 @@ The <b>ACMFORMATCHOOSE</b> structure contains information the ACM uses to initia
 
 ### -field cbStruct
 
-Size, in bytes, of the <b>ACMFORMATCHOOSE</b> structure. This member must be initialized before an application calls the <a href="https://msdn.microsoft.com/9be8311a-f6ad-4007-a254-841ee99ff3b6">acmFormatChoose</a> function. The size specified in this member must be large enough to contain the base <b>ACMFORMATCHOOSE</b> structure.
+Size, in bytes, of the <b>ACMFORMATCHOOSE</b> structure. This member must be initialized before an application calls the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatchoose">acmFormatChoose</a> function. The size specified in this member must be large enough to contain the base <b>ACMFORMATCHOOSE</b> structure.
 
 
 ### -field fdwStyle
 
-Optional style flags for the <a href="https://msdn.microsoft.com/9be8311a-f6ad-4007-a254-841ee99ff3b6">acmFormatChoose</a> function. This member must be initialized to a valid combination of the following flags before an application calls the <b>acmFormatChoose</b> function:
+Optional style flags for the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatchoose">acmFormatChoose</a> function. This member must be initialized to a valid combination of the following flags before an application calls the <b>acmFormatChoose</b> function:
 
 <table>
 <tr>
@@ -90,7 +90,7 @@ Context-sensitive help will be available in the dialog box. To use this feature,
 </dl>
 </td>
 <td width="60%">
-Enables the hook function pointed to by the <b>pfnHook</b> member. An application can use hook functions for a variety of customizations, including answering the <a href="https://msdn.microsoft.com/f77e41c6-14e9-45c0-971e-4d6325145f1c">MM_ACM_FORMATCHOOSE</a> message.
+Enables the hook function pointed to by the <b>pfnHook</b> member. An application can use hook functions for a variety of customizations, including answering the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-acm-formatchoose">MM_ACM_FORMATCHOOSE</a> message.
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ The <b>hInstance</b> member identifies a data block that contains a preloaded di
 </dl>
 </td>
 <td width="60%">
-The buffer pointed to by <b>pwfx</b> contains a valid <a href="https://msdn.microsoft.com/bd0f96ec-d26a-4e6f-8802-50e8ff207f54">WAVEFORMATEX</a> structure that the dialog box will use as the initial selection.
+The buffer pointed to by <b>pwfx</b> contains a valid <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure that the dialog box will use as the initial selection.
 
 </td>
 </tr>
@@ -140,17 +140,17 @@ A help button will appear in the dialog box. To use a custom Help file, an appli
 
 ### -field hwndOwner
 
-Handle to the window that owns the dialog box. This member can be any valid window handle, or <b>NULL</b> if the dialog box has no owner. This member must be initialized before calling the <a href="https://msdn.microsoft.com/9be8311a-f6ad-4007-a254-841ee99ff3b6">acmFormatChoose</a> function.
+Handle to the window that owns the dialog box. This member can be any valid window handle, or <b>NULL</b> if the dialog box has no owner. This member must be initialized before calling the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatchoose">acmFormatChoose</a> function.
 
 
 ### -field pwfx
 
-Pointer to a <a href="https://msdn.microsoft.com/bd0f96ec-d26a-4e6f-8802-50e8ff207f54">WAVEFORMATEX</a> structure. If the ACMFORMATCHOOSE_STYLEF_INITTOWFXSTRUCT flag is specified in the <b>fdwStyle</b> member, this structure must be initialized to a valid format. When the <a href="https://msdn.microsoft.com/9be8311a-f6ad-4007-a254-841ee99ff3b6">acmFormatChoose</a> function returns, this buffer contains the selected format. If the user cancels the dialog box, no changes will be made to this buffer.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure. If the ACMFORMATCHOOSE_STYLEF_INITTOWFXSTRUCT flag is specified in the <b>fdwStyle</b> member, this structure must be initialized to a valid format. When the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatchoose">acmFormatChoose</a> function returns, this buffer contains the selected format. If the user cancels the dialog box, no changes will be made to this buffer.
 
 
 ### -field cbwfx
 
-Size, in bytes, of the buffer pointed to by <b>pwfx</b>. If the buffer is too small to contain the format information, the <a href="https://msdn.microsoft.com/9be8311a-f6ad-4007-a254-841ee99ff3b6">acmFormatChoose</a> function returns ACMERR_NOTPOSSIBLE. Also, the ACM copies the required size into this member. An application can use the <a href="https://msdn.microsoft.com/30b6dc13-b523-4c42-aa35-c86b3ebe04c3">acmMetrics</a> and <a href="https://msdn.microsoft.com/294d9e8b-de47-4ebe-8989-558469ba1356">acmFormatTagDetails</a> functions to determine the largest size required for this buffer.
+Size, in bytes, of the buffer pointed to by <b>pwfx</b>. If the buffer is too small to contain the format information, the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatchoose">acmFormatChoose</a> function returns ACMERR_NOTPOSSIBLE. Also, the ACM copies the required size into this member. An application can use the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a> and <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformattagdetails">acmFormatTagDetails</a> functions to determine the largest size required for this buffer.
 
 
 ### -field pszTitle
@@ -160,17 +160,17 @@ Pointer to a string to be placed in the title bar of the dialog box. If this mem
 
 ### -field szFormatTag
 
-Buffer containing a null-terminated string describing the format tag of the format selection when the <a href="https://msdn.microsoft.com/9be8311a-f6ad-4007-a254-841ee99ff3b6">acmFormatChoose</a> function returns. This string is equivalent to the <b>szFormatTag</b> member of the <a href="https://msdn.microsoft.com/134cccb1-4065-407f-a02b-7bd340b4a8cf">ACMFORMATTAGDETAILS</a> structure returned by the <a href="https://msdn.microsoft.com/294d9e8b-de47-4ebe-8989-558469ba1356">acmFormatTagDetails</a> function. If the user cancels the dialog box, this member will contain a null-terminated string.
+Buffer containing a null-terminated string describing the format tag of the format selection when the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatchoose">acmFormatChoose</a> function returns. This string is equivalent to the <b>szFormatTag</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmformattagdetails">ACMFORMATTAGDETAILS</a> structure returned by the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformattagdetails">acmFormatTagDetails</a> function. If the user cancels the dialog box, this member will contain a null-terminated string.
 
 
 ### -field szFormat
 
-Buffer containing a null-terminated string describing the format attributes of the format selection when the <a href="https://msdn.microsoft.com/9be8311a-f6ad-4007-a254-841ee99ff3b6">acmFormatChoose</a> function returns. This string is equivalent to the <b>szFormat</b> member of the <a href="https://msdn.microsoft.com/a0760541-c083-447d-a812-dd7f05afb622">ACMFORMATDETAILS</a> structure returned by the <a href="https://msdn.microsoft.com/2a6a9b8f-758b-4443-b1c7-e277f22bac5b">acmFormatDetails</a> function. If the user cancels the dialog box, this member will contain a null-terminated string.
+Buffer containing a null-terminated string describing the format attributes of the format selection when the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatchoose">acmFormatChoose</a> function returns. This string is equivalent to the <b>szFormat</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmformatdetails">ACMFORMATDETAILS</a> structure returned by the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatdetails">acmFormatDetails</a> function. If the user cancels the dialog box, this member will contain a null-terminated string.
 
 
 ### -field pszName
 
-Pointer to a string for a user-defined format name. If this is a non-null-terminated string, the ACM will attempt to match the name with a previously saved user-defined format name. If a match is found, the dialog box is initialized to that format. If a match is not found or this member is a null-terminated string, this member is ignored on input. When the <a href="https://msdn.microsoft.com/9be8311a-f6ad-4007-a254-841ee99ff3b6">acmFormatChoose</a> function returns, this buffer contains a null-terminated string describing the user-defined format. If the format name is untitled (that is, the user has not given a name for the format), this member will be a null-terminated string on return. If the user cancels the dialog box, no changes will be made to this buffer.
+Pointer to a string for a user-defined format name. If this is a non-null-terminated string, the ACM will attempt to match the name with a previously saved user-defined format name. If a match is found, the dialog box is initialized to that format. If a match is not found or this member is a null-terminated string, this member is ignored on input. When the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatchoose">acmFormatChoose</a> function returns, this buffer contains a null-terminated string describing the user-defined format. If the format name is untitled (that is, the user has not given a name for the format), this member will be a null-terminated string on return. If the user cancels the dialog box, no changes will be made to this buffer.
 
 
 ### -field cchName
@@ -180,7 +180,7 @@ Size, in characters, of the buffer identified by the <b>pszName</b> member. This
 
 ### -field fdwEnum
 
-Optional flags for restricting the type of formats listed in the dialog box. These flags are identical to the <i>fdwEnum</i> flags for the <a href="https://msdn.microsoft.com/31da0e86-a298-4ef6-a515-4954aa120656">acmFormatEnum</a> function. If <b>pwfxEnum</b> is <b>NULL</b>, this member should be zero. The following values are defined:
+Optional flags for restricting the type of formats listed in the dialog box. These flags are identical to the <i>fdwEnum</i> flags for the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatenum">acmFormatEnum</a> function. If <b>pwfxEnum</b> is <b>NULL</b>, this member should be zero. The following values are defined:
 
 <table>
 <tr>
@@ -193,7 +193,7 @@ Optional flags for restricting the type of formats listed in the dialog box. The
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/bd0f96ec-d26a-4e6f-8802-50e8ff207f54">WAVEFORMATEX</a> structure pointed to by the <b>pwfxEnum</b> member is valid. The enumerator will enumerate only destination formats that can be converted from the given <b>pwfxEnum</b> format.
+The <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure pointed to by the <b>pwfxEnum</b> member is valid. The enumerator will enumerate only destination formats that can be converted from the given <b>pwfxEnum</b> format.
 
 </td>
 </tr>
@@ -223,7 +223,7 @@ The enumerator should enumerate only formats that are supported for input (recor
 </dl>
 </td>
 <td width="60%">
-The <b>nChannels</b> member of the <a href="https://msdn.microsoft.com/bd0f96ec-d26a-4e6f-8802-50e8ff207f54">WAVEFORMATEX</a> structure pointed to by the <b>pwfxEnum</b> member is valid. The enumerator will enumerate only a format that conforms to this attribute.
+The <b>nChannels</b> member of the <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure pointed to by the <b>pwfxEnum</b> member is valid. The enumerator will enumerate only a format that conforms to this attribute.
 
 </td>
 </tr>
@@ -233,7 +233,7 @@ The <b>nChannels</b> member of the <a href="https://msdn.microsoft.com/bd0f96ec-
 </dl>
 </td>
 <td width="60%">
-The <b>nSamplesPerSec</b> member of the <a href="https://msdn.microsoft.com/bd0f96ec-d26a-4e6f-8802-50e8ff207f54">WAVEFORMATEX</a> structure pointed to by the <b>pwfxEnum</b> member is valid. The enumerator will enumerate only a format that conforms to this attribute.
+The <b>nSamplesPerSec</b> member of the <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure pointed to by the <b>pwfxEnum</b> member is valid. The enumerator will enumerate only a format that conforms to this attribute.
 
 </td>
 </tr>
@@ -253,7 +253,7 @@ The enumerator should enumerate only formats that are supported for output (play
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/bd0f96ec-d26a-4e6f-8802-50e8ff207f54">WAVEFORMATEX</a> structure pointed to by the <b>pwfxEnum</b> member is valid. The enumerator will enumerate all suggested destination formats for the given <b>pwfxEnum</b> format.
+The <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure pointed to by the <b>pwfxEnum</b> member is valid. The enumerator will enumerate all suggested destination formats for the given <b>pwfxEnum</b> format.
 
 </td>
 </tr>
@@ -263,7 +263,7 @@ The <a href="https://msdn.microsoft.com/bd0f96ec-d26a-4e6f-8802-50e8ff207f54">WA
 </dl>
 </td>
 <td width="60%">
-The <b>wBitsPerSample</b> member of the <a href="https://msdn.microsoft.com/bd0f96ec-d26a-4e6f-8802-50e8ff207f54">WAVEFORMATEX</a> structure pointed to by the <b>pwfxEnum</b> member is valid. The enumerator will enumerate only a format that conforms to this attribute.
+The <b>wBitsPerSample</b> member of the <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure pointed to by the <b>pwfxEnum</b> member is valid. The enumerator will enumerate only a format that conforms to this attribute.
 
 </td>
 </tr>
@@ -273,7 +273,7 @@ The <b>wBitsPerSample</b> member of the <a href="https://msdn.microsoft.com/bd0f
 </dl>
 </td>
 <td width="60%">
-The <b>wFormatTag</b> member of the <a href="https://msdn.microsoft.com/bd0f96ec-d26a-4e6f-8802-50e8ff207f54">WAVEFORMATEX</a> structure pointed to by the <b>pwfxEnum</b> member is valid. The enumerator will enumerate only a format that conforms to this attribute.
+The <b>wFormatTag</b> member of the <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure pointed to by the <b>pwfxEnum</b> member is valid. The enumerator will enumerate only a format that conforms to this attribute.
 
 </td>
 </tr>
@@ -283,7 +283,7 @@ The <b>wFormatTag</b> member of the <a href="https://msdn.microsoft.com/bd0f96ec
 
 ### -field pwfxEnum
 
-Pointer to a <b>WAVEFORMATEX</b> structure that will be used to restrict the formats listed in the dialog box. The <b>fdwEnum</b> member defines the members of the structure pointed to by <b>pwfxEnum</b> that should be used for the enumeration restrictions. If no special restrictions are desired, this member can be <b>NULL</b>. For other requirements associated with the <b>pwfxEnum</b> member, see the description for the <a href="https://msdn.microsoft.com/31da0e86-a298-4ef6-a515-4954aa120656">acmFormatEnum</a> function.
+Pointer to a <b>WAVEFORMATEX</b> structure that will be used to restrict the formats listed in the dialog box. The <b>fdwEnum</b> member defines the members of the structure pointed to by <b>pwfxEnum</b> that should be used for the enumeration restrictions. If no special restrictions are desired, this member can be <b>NULL</b>. For other requirements associated with the <b>pwfxEnum</b> member, see the description for the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatenum">acmFormatEnum</a> function.
 
 
 ### -field hInstance
@@ -303,7 +303,7 @@ Application-defined data that the ACM passes to the hook function identified by 
 
 ### -field pfnHook
 
-Pointer to a callback function that processes messages intended for the dialog box. An application must specify the ACMFORMATCHOOSE_STYLEF_ENABLEHOOK flag in the <b>fdwStyle</b> member to enable the hook; otherwise, this member should be <b>NULL</b>. The hook function should return <b>FALSE</b> to pass a message to the standard dialog box procedure or <b>TRUE</b> to discard the message. The callback function type is <a href="https://msdn.microsoft.com/75b11c0f-ae85-424d-b936-492d67440659">acmFormatChooseHookProc</a>.
+Pointer to a callback function that processes messages intended for the dialog box. An application must specify the ACMFORMATCHOOSE_STYLEF_ENABLEHOOK flag in the <b>fdwStyle</b> member to enable the hook; otherwise, this member should be <b>NULL</b>. The hook function should return <b>FALSE</b> to pass a message to the standard dialog box procedure or <b>TRUE</b> to discard the message. The callback function type is <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nc-msacm-acmformatchoosehookproc">acmFormatChooseHookProc</a>.
 
 
 ## -see-also
@@ -311,19 +311,19 @@ Pointer to a callback function that processes messages intended for the dialog b
 
 
 
-<a href="https://msdn.microsoft.com/a0760541-c083-447d-a812-dd7f05afb622">ACMFORMATDETAILS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmformatdetails">ACMFORMATDETAILS</a>
 
 
 
-<a href="https://msdn.microsoft.com/134cccb1-4065-407f-a02b-7bd340b4a8cf">ACMFORMATTAGDETAILS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmformattagdetails">ACMFORMATTAGDETAILS</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f9a4540-86c0-40e6-b4da-24a9d31b56bf">Audio Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
 
 
 
-<a href="https://msdn.microsoft.com/19ef4569-e6fc-480a-8659-98df3d36d05f">Audio Compression Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-structures">Audio Compression Structures</a>
 
 
 
@@ -331,7 +331,7 @@ Pointer to a callback function that processes messages intended for the dialog b
 
 
 
-<a href="https://msdn.microsoft.com/f77e41c6-14e9-45c0-971e-4d6325145f1c">MM_ACM_FORMATCHOOSE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-acm-formatchoose">MM_ACM_FORMATCHOOSE</a>
 
 
 
@@ -339,7 +339,7 @@ Pointer to a callback function that processes messages intended for the dialog b
 
 
 
-<a href="https://msdn.microsoft.com/bd0f96ec-d26a-4e6f-8802-50e8ff207f54">WAVEFORMATEX</a>
+<a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a>
 
 
 
@@ -347,23 +347,23 @@ Pointer to a callback function that processes messages intended for the dialog b
 
 
 
-<a href="https://msdn.microsoft.com/9be8311a-f6ad-4007-a254-841ee99ff3b6">acmFormatChoose</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatchoose">acmFormatChoose</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a6a9b8f-758b-4443-b1c7-e277f22bac5b">acmFormatDetails</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatdetails">acmFormatDetails</a>
 
 
 
-<a href="https://msdn.microsoft.com/31da0e86-a298-4ef6-a515-4954aa120656">acmFormatEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatenum">acmFormatEnum</a>
 
 
 
-<a href="https://msdn.microsoft.com/294d9e8b-de47-4ebe-8989-558469ba1356">acmFormatTagDetails</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformattagdetails">acmFormatTagDetails</a>
 
 
 
-<a href="https://msdn.microsoft.com/30b6dc13-b523-4c42-aa35-c86b3ebe04c3">acmMetrics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a>
  
 
  

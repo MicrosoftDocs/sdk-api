@@ -169,7 +169,7 @@ An invalid argument was received.
 
 
 
-<a href="https://msdn.microsoft.com/628ca677-31eb-47d9-bcc6-d7777f8aaf7c">Recognizer Lattice Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/recognizer-lattice-structure">Recognizer Lattice Structure</a>
  
 
  

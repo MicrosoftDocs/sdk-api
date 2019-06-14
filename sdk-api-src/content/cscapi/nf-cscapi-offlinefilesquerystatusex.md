@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Determines whether the Offline Files feature is enabled and, if so, whether it is active and available. This function is identical to the <a href="https://msdn.microsoft.com/2b3a77cd-e874-42fb-8bfa-6d6b26866153">OfflineFilesQueryStatus</a> function, except that it has an additional output parameter.
+Determines whether the Offline Files feature is enabled and, if so, whether it is active and available. This function is identical to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscapi/nf-cscapi-offlinefilesquerystatus">OfflineFilesQueryStatus</a> function, except that it has an additional output parameter.
 
 
 ## -parameters
@@ -85,7 +85,7 @@ Returns <b>ERROR_SUCCESS</b> if successful or a Win32 error value otherwise.
 
 
 
-If the <i>pbAvailable</i> parameter is <b>TRUE</b> on return, the caller can use the <a href="https://msdn.microsoft.com/79060780-A2C1-45CE-BB9A-75DF433C3F3C">OfflineFilesStart</a> function to start the Offline Files feature.
+If the <i>pbAvailable</i> parameter is <b>TRUE</b> on return, the caller can use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscapi/nf-cscapi-offlinefilesstart">OfflineFilesStart</a> function to start the Offline Files feature.
 
 
 
@@ -95,7 +95,7 @@ If the <i>pbAvailable</i> parameter is <b>TRUE</b> on return, the caller can use
 
 
 
-<a href="https://msdn.microsoft.com/2b3a77cd-e874-42fb-8bfa-6d6b26866153">OfflineFilesQueryStatus</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscapi/nf-cscapi-offlinefilesquerystatus">OfflineFilesQueryStatus</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Installs performance counter strings, as defined in an input .ini file, into the system registry.
-<div class="alert"><b>Note</b>  Microsoft recommends that developers use <a href="https://msdn.microsoft.com/en-us/library/Aa372187(v=VS.85).aspx">LoadPerfCounterTextStrings</a> instead of <b>InstallPerfDll</b>. <b>LoadPerfCounterTextStrings</b> calls <b>InstallPerfDll</b> internally. </div><div> </div>
+<div class="alert"><b>Note</b>  Microsoft recommends that developers use <a href="https://docs.microsoft.com/windows/desktop/api/loadperf/nf-loadperf-loadperfcountertextstringsa">LoadPerfCounterTextStrings</a> instead of <b>InstallPerfDll</b>. <b>LoadPerfCounterTextStrings</b> calls <b>InstallPerfDll</b> internally. </div><div> </div>
 
 ## -parameters
 
@@ -85,7 +85,7 @@ If the function is successful, it returns <b>TRUE</b> and posts additional infor
 
 
 
-This function has no associated import library; you must call it using the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> functions.
+This function has no associated import library; you must call it using the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions.
 
 
 
@@ -95,7 +95,7 @@ This function has no associated import library; you must call it using the <a hr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa372187(v=VS.85).aspx">LoadPerfCounterTextStrings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/loadperf/nf-loadperf-loadperfcountertextstringsa">LoadPerfCounterTextStrings</a>
  
 
  

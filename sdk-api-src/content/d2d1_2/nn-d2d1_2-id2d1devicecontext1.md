@@ -57,7 +57,7 @@ Enables creation and drawing of geometry realization objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1DeviceContext1</b> interface inherits from <a href="https://msdn.microsoft.com/a54dd628-c2a2-4b04-9ced-7749a395f187">ID2D1DeviceContext</a>. <b>ID2D1DeviceContext1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1DeviceContext1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>. <b>ID2D1DeviceContext1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>ID2D1DeviceContext1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7628592C-4D42-42C1-948A-DAB4E7D6C2D4">CreateFilledGeometryRealization</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_2/nf-d2d1_2-id2d1devicecontext1-createfilledgeometryrealization">CreateFilledGeometryRealization</a>
 </td>
 <td align="left" width="63%">
 Creates a device-dependent representation of the fill of the geometry that can be subsequently rendered.
@@ -81,7 +81,7 @@ Creates a device-dependent representation of the fill of the geometry that can b
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/455EE223-4CEA-4FBA-8885-B0BA6B465C05">CreateStrokedGeometryRealization</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_2/nf-d2d1_2-id2d1devicecontext1-createstrokedgeometryrealization">CreateStrokedGeometryRealization</a>
 </td>
 <td align="left" width="63%">
 Creates a device-dependent representation of the stroke of a geometry that can be subsequently rendered.
@@ -90,7 +90,7 @@ Creates a device-dependent representation of the stroke of a geometry that can b
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/BA4FB8E7-E59A-42BD-86BB-8048267A26AA">DrawGeometryRealization</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_2/nf-d2d1_2-id2d1devicecontext1-drawgeometryrealization">DrawGeometryRealization</a>
 </td>
 <td align="left" width="63%">
 Renders a given geometry realization to the target with the specified brush.
@@ -105,7 +105,7 @@ Renders a given geometry realization to the target with the specified brush.
 
 
 
-<a href="https://msdn.microsoft.com/a54dd628-c2a2-4b04-9ced-7749a395f187">ID2D1DeviceContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>
  
 
  

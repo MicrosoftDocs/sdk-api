@@ -54,7 +54,7 @@ Defines a method to release allocated resources.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IClosable</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IClosable</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IClosable</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IClosable</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IClosable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B08161D3-01D9-4782-A3FA-EAD15DA8B7D9">Close</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-iclosable-close">Close</a>
 </td>
 <td align="left" width="63%">
 Performs application-defined tasks associated with freeing, releasing, or resetting allocated resources.
@@ -89,24 +89,24 @@ Some system resources are used exclusively by a single piece of code and must be
 
  Other system resources aren't exclusive-use. Many hardware devices, like sensors, geolocation, SMS, and portable devices can be opened multiple times within the same app or by multiple apps.
 
-The <b>IClosable</b> interface enables managing exclusive-use system resources.   When you call the <a href="https://msdn.microsoft.com/B08161D3-01D9-4782-A3FA-EAD15DA8B7D9">Close</a> method on a Windows Runtime object, the object releases its system resources so that they're available for other code to use. Objects that use only shared system resources, like memory and shareable devices, don't implement <b>IClosable</b>.
+The <b>IClosable</b> interface enables managing exclusive-use system resources.   When you call the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-iclosable-close">Close</a> method on a Windows Runtime object, the object releases its system resources so that they're available for other code to use. Objects that use only shared system resources, like memory and shareable devices, don't implement <b>IClosable</b>.
 
-When you implement the <a href="https://msdn.microsoft.com/B08161D3-01D9-4782-A3FA-EAD15DA8B7D9">Close</a> method in a Windows Runtime object, your  code must release all of the exclusive-use resources that it holds. If the object has references to other closeable Windows Runtime objects, it must call <b>Close</b> on the objects before they're released. Also, your code must release other resources, like references to other Windows Runtime and Component Object Model (COM) objects, and    non-exclusive system resources like memory buffers.
+When you implement the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-iclosable-close">Close</a> method in a Windows Runtime object, your  code must release all of the exclusive-use resources that it holds. If the object has references to other closeable Windows Runtime objects, it must call <b>Close</b> on the objects before they're released. Also, your code must release other resources, like references to other Windows Runtime and Component Object Model (COM) objects, and    non-exclusive system resources like memory buffers.
 
-Calling the <a href="https://msdn.microsoft.com/B08161D3-01D9-4782-A3FA-EAD15DA8B7D9">Close</a> method on an object leaves the object in memory, but the object no longer has the system resources that it needs to function properly. Members that depend on released system resources must return <b>RO_E_CLOSED</b> to indicate that the object is closed and that these members no longer work.
+Calling the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-iclosable-close">Close</a> method on an object leaves the object in memory, but the object no longer has the system resources that it needs to function properly. Members that depend on released system resources must return <b>RO_E_CLOSED</b> to indicate that the object is closed and that these members no longer work.
 
-Methods defined by the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> and <a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a> interfaces must continue to function normally after <a href="https://msdn.microsoft.com/B08161D3-01D9-4782-A3FA-EAD15DA8B7D9">Close</a> has been called.
+Methods defined by the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> and <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> interfaces must continue to function normally after <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-iclosable-close">Close</a> has been called.
 
-Calling <a href="https://msdn.microsoft.com/B08161D3-01D9-4782-A3FA-EAD15DA8B7D9">Close</a> on an object that is already closed has no effect and returns <b>S_OK</b>. 
+Calling <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-iclosable-close">Close</a> on an object that is already closed has no effect and returns <b>S_OK</b>. 
 
 Usually, your objects track their closed state by setting a boolean flag when Close is called, or by checking held resources for null or another sentinel value.
 
-Objects don't need to synchronize access to the <a href="https://msdn.microsoft.com/B08161D3-01D9-4782-A3FA-EAD15DA8B7D9">Close</a> method. This means that race conditions are possible in which one thread calls <b>Close</b> on an object while another thread is using the object. In this case, it's possible to get an error other than <b>RO_E_CLOSED</b>, but you must ensure that the object doesn't cause an access violation.
+Objects don't need to synchronize access to the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-iclosable-close">Close</a> method. This means that race conditions are possible in which one thread calls <b>Close</b> on an object while another thread is using the object. In this case, it's possible to get an error other than <b>RO_E_CLOSED</b>, but you must ensure that the object doesn't cause an access violation.
 
-The <a href="https://msdn.microsoft.com/B08161D3-01D9-4782-A3FA-EAD15DA8B7D9">Close</a> method doesn't block while waiting for asynchronous operations to complete. So the underlying system resources might not be completely released when the <b>Close</b> method returns. To ensure deterministic closing, the caller must wait for all asynchronous operations to complete or cancel. Objects must complete releasing their system resources as quickly as possible in the face of outstanding asynchronous operations, but must not block while waiting for these to complete.
+The <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-iclosable-close">Close</a> method doesn't block while waiting for asynchronous operations to complete. So the underlying system resources might not be completely released when the <b>Close</b> method returns. To ensure deterministic closing, the caller must wait for all asynchronous operations to complete or cancel. Objects must complete releasing their system resources as quickly as possible in the face of outstanding asynchronous operations, but must not block while waiting for these to complete.
 
 
-If your closeable Windows Runtime object exposes an exclusive-use resource to other objects, it must provide a way to affect the ownership semantics of any closeable objects that it holds.  For example, the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.storage.streams.idatareader">DataReader</a> class provides a <a href="https://docs.microsoft.com/en-us/uwp/api/windows.storage.streams.idatareader.detachstream">DetachStream</a> method that returns the <a href="https://msdn.microsoft.com/44519D2C-F6C1-4E20-8C84-3C538E1A4BEE">IInputStream</a> that it received when it was created. When <b>DetachStream</b> is called, the <b>DataReader</b> is no longer the owner of the  <b>IInputStream</b>, so the <b>DataReader</b> doesn't call <a href="https://msdn.microsoft.com/B08161D3-01D9-4782-A3FA-EAD15DA8B7D9">Close</a> on the <b>IInputStream</b>.
+If your closeable Windows Runtime object exposes an exclusive-use resource to other objects, it must provide a way to affect the ownership semantics of any closeable objects that it holds.  For example, the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.storage.streams.idatareader">DataReader</a> class provides a <a href="https://docs.microsoft.com/en-us/uwp/api/windows.storage.streams.idatareader.detachstream">DetachStream</a> method that returns the <a href="https://docs.microsoft.com/previous-versions//hh438387(v=vs.85)">IInputStream</a> that it received when it was created. When <b>DetachStream</b> is called, the <b>DataReader</b> is no longer the owner of the  <b>IInputStream</b>, so the <b>DataReader</b> doesn't call <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-iclosable-close">Close</a> on the <b>IInputStream</b>.
 
 
 

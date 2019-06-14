@@ -223,7 +223,7 @@ The call succeeded and the message identifier was returned.
 
 The <b>MAPIFindNext</b> function allows a client application to enumerate messages of a given type. This function can be called repeatedly to list all messages in the folder. Message identifiers returned from <b>MAPIFindNext</b> can be used in other Simple MAPI calls to retrieve message contents and delete messages. This function is for processing incoming messages, not for managing received messages. 
 
-<b>MAPIFindNext</b> looks for messages in the folder in which new messages of the specified type are delivered. <b>MAPIFindNext</b> calls can be made only in the context of a valid Simple MAPI session established with the <a href="https://msdn.microsoft.com/5a61f0f2-347e-40fb-b7f9-6b42690cbcd8">MAPILogon</a> function.
+<b>MAPIFindNext</b> looks for messages in the folder in which new messages of the specified type are delivered. <b>MAPIFindNext</b> calls can be made only in the context of a valid Simple MAPI session established with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapilogon">MAPILogon</a> function.
 
 When the <i>lpszSeedMessageID</i> parameter is <b>NULL</b> or points to an empty string, <b>MAPIFindNext</b> returns the message identifier for the first message of the type specified by the <i>lpszMessageType</i> parameter. When <i>lpszSeedMessageID</i> contains a valid identifier, the function returns the next matching message of the type specified by <i>lpszMessageType</i>. Repeated calls to <b>MAPIFindNext</b> ultimately result in a return of the MAPI_E_NO_MESSAGES value, which means the enumeration is complete. 
 
@@ -239,11 +239,11 @@ Because message identifiers are messaging system-specific and can be invalidated
 
 
 
-<a href="https://msdn.microsoft.com/5a61f0f2-347e-40fb-b7f9-6b42690cbcd8">MAPILogon</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapilogon">MAPILogon</a>
 
 
 
-<a href="https://msdn.microsoft.com/a8330f38-3ef0-4b36-a5e7-89837088cbef">Simple MAPI</a>
+<a href="https://docs.microsoft.com/previous-versions//dd296734(v=vs.85)">Simple MAPI</a>
  
 
  

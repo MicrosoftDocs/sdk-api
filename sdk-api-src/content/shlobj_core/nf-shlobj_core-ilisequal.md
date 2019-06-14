@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Tests whether two <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structures are equal in a binary comparison.
+Tests whether two <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structures are equal in a binary comparison.
 
 
 ## -parameters
@@ -65,14 +65,14 @@ Tests whether two <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-89
 
 Type: <b>PCIDLIST_ABSOLUTE</b>
 
-The first <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure.
+The first <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure.
 
 
 ### -param pidl2 [in]
 
 Type: <b>PCIDLIST_ABSOLUTE</b>
 
-The second <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure.
+The second <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure.
 
 
 ## -returns
@@ -90,7 +90,7 @@ Returns <b>TRUE</b> if the two structures are equal, <b>FALSE</b> otherwise.
 
 
 
-<b>ILIsEqual</b> performs a binary comparison of the item data. It is possible for two <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structures to differ at the binary level while referring to the same item. <a href="https://msdn.microsoft.com/54d805cc-5396-4892-9347-cafc2d90779f">IShellFolder::CompareIDs</a> should be used to perform a non-binary comparison.
+<b>ILIsEqual</b> performs a binary comparison of the item data. It is possible for two <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structures to differ at the binary level while referring to the same item. <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-compareids">IShellFolder::CompareIDs</a> should be used to perform a non-binary comparison.
 
 
 

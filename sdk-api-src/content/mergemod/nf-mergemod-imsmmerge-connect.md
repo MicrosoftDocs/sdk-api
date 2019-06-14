@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>Connect</b> method connects a module that has been, or will be, merged into the database to an additional feature. For more information, see the 
-<a href="https://msdn.microsoft.com/1c1ef664-792c-4cdc-b468-1ffe0b7810a5">Connect</a> method of the 
-<a href="https://msdn.microsoft.com/3f76ee8a-d195-4a69-99a3-31ef2c1c72d5">Merge</a> object. 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-connect">Connect</a> method of the 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-object">Merge</a> object. 
 
 <b>IMsmMerge2::Connect</b>    Mergemod.dll version 2.0 or later.<div> </div><b>IMsmMerge::Connect</b>      All Mergemod.dll versions.
 			
@@ -124,10 +124,10 @@ The function succeeded.
 
 
 The feature must exist before this function is called. Errors may be retrieved using 
-<a href="https://msdn.microsoft.com/81bf84f6-d469-47b1-9097-8a3ee9c8550d">get_Errors</a>. Errors and informational messages are posted to the current log file.
+<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-get_errors">get_Errors</a>. Errors and informational messages are posted to the current log file.
 
 Changes made to the database are not be saved to disk unless 
-<a href="https://msdn.microsoft.com/efbb6238-e9e3-4603-896a-75fcff2bb362">CloseDatabase</a> function is called with <i>bCommit</i> set to <b>TRUE</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-closedatabase">CloseDatabase</a> function is called with <i>bCommit</i> set to <b>TRUE</b>.
 
 
 
@@ -137,7 +137,7 @@ Changes made to the database are not be saved to disk unless
 
 
 
-<a href="https://msdn.microsoft.com/877d3691-948f-4aea-89d8-0ff008126ccc">Merge Module Automation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
  
 
  

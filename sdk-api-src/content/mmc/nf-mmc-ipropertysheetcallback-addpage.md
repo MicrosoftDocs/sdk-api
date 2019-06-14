@@ -60,8 +60,8 @@ The <b>IPropertySheetCallback::AddPage</b> method enables a snap-in to add a pag
 ### -param hPage [in]
 
 A value that specifies the handle to the page to be added. The hPage parameter is a handle to a 
-<a href="https://msdn.microsoft.com/28cbf3df-f345-4b4f-ac34-e32e63c9b6ec">PROPSHEETPAGE</a> structure created by the Windows API 
-<a href="https://msdn.microsoft.com/en-us/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v3">PROPSHEETPAGE</a> structure created by the Windows API 
+<a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-createpropertysheetpagea">CreatePropertySheetPage</a>.
 
 
 ## -returns
@@ -80,12 +80,12 @@ This method can return one of these values.
 The snap-in cannot call 
 AddPage from within a property page handler because the property page is created and runs on a secondary thread. A snap-in cannot call an MMC interface from a different thread than the one in which the snap-in was created. The correct place to call 
 AddPage is in the snap-in's implementation of the 
-<a href="https://msdn.microsoft.com/14c4f088-ad94-48a1-8c6d-a199b2938074">IExtendPropertySheet2::CreatePropertyPages</a> method.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814847(v=vs.85)">IExtendPropertySheet2::CreatePropertyPages</a> method.
 
 If a snap-in uses the 
 IPropertySheetProvider interface directly, it can use 
-AddPage to add the primary pages and then call <a href="https://msdn.microsoft.com/f555dfd0-8af3-422f-a339-ab79daa89b45">IPropertySheetProvider::AddPrimaryPages</a> (<b>NULL</b>, <b>FALSE</b>, <b>NULL</b>, [<b>TRUE</b> or <b>FALSE</b>]) so that the provider will add these pages to the property sheet. For more information about how to create your property pages in the snap-in's implementation of 
-<a href="https://msdn.microsoft.com/14c4f088-ad94-48a1-8c6d-a199b2938074">IExtendPropertySheet2::CreatePropertyPages</a>, see <b>IPropertySheetProvider::AddPrimaryPages</b>.
+AddPage to add the primary pages and then call <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ipropertysheetprovider-addprimarypages">IPropertySheetProvider::AddPrimaryPages</a> (<b>NULL</b>, <b>FALSE</b>, <b>NULL</b>, [<b>TRUE</b> or <b>FALSE</b>]) so that the provider will add these pages to the property sheet. For more information about how to create your property pages in the snap-in's implementation of 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814847(v=vs.85)">IExtendPropertySheet2::CreatePropertyPages</a>, see <b>IPropertySheetProvider::AddPrimaryPages</b>.
 
 Pages are added to the sheet in the order in which they are presented. The primary snap-in's pages are always added first.
 
@@ -97,7 +97,7 @@ Pages are added to the sheet in the order in which they are presented. The prima
 
 
 
-<a href="https://msdn.microsoft.com/e2115929-692e-4e59-bcdb-f37b02c53224">IPropertySheetCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-ipropertysheetcallback">IPropertySheetCallback</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Describes an operation as defined by WSDL in terms of one or two messages. This structure is populated by <a href="https://msdn.microsoft.com/76dffca8-bb84-4384-a9e8-120a4cf2acac">generated code</a>.
+Describes an operation as defined by WSDL in terms of one or two messages. This structure is populated by <a href="https://docs.microsoft.com/windows/desktop/WsdApi/web-services-for-devices-code-generator">generated code</a>.
 
 
 ## -struct-fields
@@ -59,16 +59,16 @@ Describes an operation as defined by WSDL in terms of one or two messages. This 
 
 ### -field RequestType
 
-Reference to a <a href="https://msdn.microsoft.com/dc214dfb-1717-4f84-af4d-6eb8cf17522c">WSDXML_TYPE</a> structure that specifies the request type of an incoming message.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_type">WSDXML_TYPE</a> structure that specifies the request type of an incoming message.
 
 
 ### -field ResponseType
 
-Reference to a <a href="https://msdn.microsoft.com/dc214dfb-1717-4f84-af4d-6eb8cf17522c">WSDXML_TYPE</a> structure that specifies the response type of an outgoing message.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_type">WSDXML_TYPE</a> structure that specifies the response type of an outgoing message.
 
 
 ### -field RequestStubFunction
 
-Reference to a <a href="https://msdn.microsoft.com/39d16b22-2af0-43e4-a0d2-ca5e1d3a9434">WSD_STUB_FUNCTION</a> function that specifies the address of a stub function which translates a generic SOAP message structure into a method call with a signature specific to the incoming message of the operation. 
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/nc-wsdtypes-wsd_stub_function">WSD_STUB_FUNCTION</a> function that specifies the address of a stub function which translates a generic SOAP message structure into a method call with a signature specific to the incoming message of the operation. 
 
 

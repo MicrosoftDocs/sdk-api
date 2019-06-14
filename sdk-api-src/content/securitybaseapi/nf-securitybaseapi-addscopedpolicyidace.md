@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>AddScopedPolicyIDAce</b> function adds a <a href="https://msdn.microsoft.com/6B678A48-E024-4C67-A60C-5224868C04A5">SYSTEM_SCOPED_POLICY_ID_ACE</a> <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entry</a> (ACE) to the end of a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">system access control list</a> (SACL). A <b>SYSTEM_SCOPED_POLICY_ID_ACE</b> structure specifies a central access policy (CAP) to be associated with the resource and can be  used during access checks. The set of standard access rights are defined in the <a href="https://msdn.microsoft.com/f43bccce-0f8c-4732-b678-5fd3218a9f84">Standard Access Rights</a> topic.
+The <b>AddScopedPolicyIDAce</b> function adds a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_scoped_policy_id_ace">SYSTEM_SCOPED_POLICY_ID_ACE</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) to the end of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL). A <b>SYSTEM_SCOPED_POLICY_ID_ACE</b> structure specifies a central access policy (CAP) to be associated with the resource and can be  used during access checks. The set of standard access rights are defined in the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights">Standard Access Rights</a> topic.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The <b>AddScopedPolicyIDAce</b> function adds a <a href="https://msdn.microsoft.
 
 ### -param pAcl [in, out]
 
-A pointer to an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control list</a> (ACL). This function adds an ACE to this ACL. The value of this parameter cannot be <b>NULL</b>.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL). This function adds an ACE to this ACL. The value of this parameter cannot be <b>NULL</b>.
 
 
 ### -param dwAceRevision [in]
@@ -73,7 +73,7 @@ Specifies the revision level of the ACL being modified. This value can be ACL_RE
 
 ### -param AceFlags [in]
 
-A set of bit flags that control ACE inheritance. The function sets these flags in the <b>AceFlags</b> member of the <a href="https://msdn.microsoft.com/d23f15d6-0453-4aaf-a2db-7528b551a992">ACE_HEADER</a> structure of the new ACE.
+A set of bit flags that control ACE inheritance. The function sets these flags in the <b>AceFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a> structure of the new ACE.
 
 For consistency with the Windows 8 Advanced File Permissions UI, applications should specify the CONTAINER_INHERIT_ACE and OBJECT_INHERIT_ACE flags in the <i>AceFlags</i> parameter.
 
@@ -163,7 +163,7 @@ A pointer to the SID (S-1-17-*) that identifies the Central Access Policy to be 
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -173,7 +173,7 @@ If the function fails, it returns <b>FALSE</b>. To get extended error informatio
 
 
 
-<a href="https://msdn.microsoft.com/f43bccce-0f8c-4732-b678-5fd3218a9f84">Standard Access Rights</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights">Standard Access Rights</a>
  
 
  

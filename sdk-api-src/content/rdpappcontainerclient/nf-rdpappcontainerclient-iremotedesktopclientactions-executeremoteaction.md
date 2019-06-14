@@ -77,7 +77,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/64b3683e-e577-48c1-a319-601e7944f68a">IRemoteDesktopClientActions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclientactions">IRemoteDesktopClientActions</a>
  
 
  

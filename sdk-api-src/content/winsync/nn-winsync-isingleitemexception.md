@@ -54,7 +54,7 @@ Represents an item to exclude from a knowledge object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISingleItemException</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISingleItemException</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISingleItemException</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISingleItemException</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISingleItemException</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e212e561-9baa-46d0-90c0-ec143b24e641">GetClockVector</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isingleitemexception-getclockvector">GetClockVector</a>
 </td>
 <td align="left" width="63%">
 Gets the clock vector that is associated with the item exception.
@@ -79,7 +79,7 @@ Gets the clock vector that is associated with the item exception.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1bcea395-d383-434f-b3a6-cffd4419fce3">GetItemId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isingleitemexception-getitemid">GetItemId</a>
 </td>
 <td align="left" width="63%">
 Gets the ID of the item that is specified in the exception.
@@ -95,7 +95,7 @@ Gets the ID of the item that is specified in the exception.
 
 
 
-<a href="https://msdn.microsoft.com/2c185fe2-1bbe-4409-aea0-6e138430b304">Windows Sync Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
  
 
  

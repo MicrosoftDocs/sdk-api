@@ -67,7 +67,7 @@ If the GUID is zero-initialized in the
 
 ### -field displayData
 
-Allows providers to be annotated in a human-readable form.  The <b>name</b> member of the <a href="https://msdn.microsoft.com/b86ca572-b4f4-4d40-adfd-fb0e9d32fcd5">FWPM_DISPLAY_DATA0</a> structure is required.
+Allows providers to be annotated in a human-readable form.  The <b>name</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0_">FWPM_DISPLAY_DATA0</a> structure is required.
 
 
 ### -field flags
@@ -107,7 +107,7 @@ Provider's filters were disabled when the BFE started because the provider has n
 
 ### -field providerData
 
-An <a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a> structure that contains optional provider-specific data that allows providers to store additional context info with the object.
+An <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a> structure that contains optional provider-specific data that allows providers to store additional context info with the object.
 
 
 ### -field serviceName
@@ -120,7 +120,7 @@ Optional name of the Windows service hosting the provider. This allows
 
 
 
-<b>FWPM_PROVIDER0</b> is a specific implementation of FWPM_PROVIDER. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FWPM_PROVIDER0</b> is a specific implementation of FWPM_PROVIDER. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -130,11 +130,11 @@ Optional name of the Windows service hosting the provider. This allows
 
 
 
-<a href="https://msdn.microsoft.com/b86ca572-b4f4-4d40-adfd-fb0e9d32fcd5">FWPM_DISPLAY_DATA0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0_">FWPM_DISPLAY_DATA0</a>
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

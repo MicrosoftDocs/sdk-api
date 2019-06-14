@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the use of a color. Used by <a href="https://msdn.microsoft.com/0f4921ad-18b4-447e-8e4b-0a40ce430137">IVisualProperties</a> methods.
+Specifies the use of a color. Used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-ivisualproperties">IVisualProperties</a> methods.
 
 
 ## -enum-fields

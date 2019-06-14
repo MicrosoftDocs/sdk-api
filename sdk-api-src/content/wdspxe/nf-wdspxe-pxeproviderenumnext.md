@@ -60,15 +60,15 @@ Enumerates registered providers.
 ### -param hEnum [in]
 
 <b>HANDLE</b> returned by the 
-      <a href="https://msdn.microsoft.com/b810455b-219b-49da-a4eb-c1a170711c68">PxeProviderEnumFirst</a> function.
+      <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxeproviderenumfirst">PxeProviderEnumFirst</a> function.
 
 
 ### -param ppProvider [out]
 
-Address of a <a href="https://msdn.microsoft.com/a07afefd-7a97-42bb-8d70-2bc7c51ddef3">PXE_PROVIDER</a> structure with the 
+Address of a <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/ns-wdspxe-tagpxe_provider">PXE_PROVIDER</a> structure with the 
       <b>uSizeOfStruct</b> member filled in with the size of the structure. On return this 
       structure is filled in with provider information. This structure can be freed with the 
-      <a href="https://msdn.microsoft.com/dd0f2b02-afc9-4ff6-b5b8-772ef15e4aa7">PxeProviderFreeInfo</a> function.
+      <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxeproviderfreeinfo">PxeProviderFreeInfo</a> function.
 
 
 ## -returns
@@ -85,23 +85,23 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 
 
-<a href="https://msdn.microsoft.com/a07afefd-7a97-42bb-8d70-2bc7c51ddef3">PXE_PROVIDER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/ns-wdspxe-tagpxe_provider">PXE_PROVIDER</a>
 
 
 
-<a href="https://msdn.microsoft.com/6b71c2cf-a156-4ccb-be7c-2955b4db26a2">PxeProviderEnumClose</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxeproviderenumclose">PxeProviderEnumClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/b810455b-219b-49da-a4eb-c1a170711c68">PxeProviderEnumFirst</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxeproviderenumfirst">PxeProviderEnumFirst</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd0f2b02-afc9-4ff6-b5b8-772ef15e4aa7">PxeProviderFreeInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxeproviderfreeinfo">PxeProviderFreeInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/b6089ff9-4d74-4f5d-957f-4a741c09f4b9">Windows Deployment Services Server Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>
  
 
  

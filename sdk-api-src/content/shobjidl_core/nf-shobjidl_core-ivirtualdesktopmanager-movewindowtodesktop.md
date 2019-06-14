@@ -64,7 +64,7 @@ The window to move.
 
 ### -param desktopId [in]
 
-The identifier of the virtual desktop to move the <i>topLeveLWindow</i> to. You can use <a href="https://msdn.microsoft.com/en-us/library/Mt186441(v=VS.85).aspx">GetWindowDesktopId</a> to get a window's identifier.
+The identifier of the virtual desktop to move the <i>topLeveLWindow</i> to. You can use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ivirtualdesktopmanager-getwindowdesktopid">GetWindowDesktopId</a> to get a window's identifier.
 
 
 ## -returns
@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt186440(v=VS.85).aspx">IVirtualDesktopManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-ivirtualdesktopmanager">IVirtualDesktopManager</a>
  
 
  

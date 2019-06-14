@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IWCNConnectNotify::ConnectSucceeded</b> callback method that indicates a successful <a href="https://msdn.microsoft.com/d7c940f2-0862-4b53-bbb9-4ea47fe6d6f6">IWCNDevice::Connect</a> operation.
+The <b>IWCNConnectNotify::ConnectSucceeded</b> callback method that indicates a successful <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a> operation.
 
 
 ## -parameters
@@ -72,9 +72,9 @@ The <b>IWCNConnectNotify::ConnectSucceeded</b> callback method that indicates a 
 
 
 
-Notification of  success does not implicitly indicate that the device is ready, as some devices reboot in order to apply settings provided during the <a href="https://msdn.microsoft.com/d7c940f2-0862-4b53-bbb9-4ea47fe6d6f6">IWCNDevice::Connect</a> operation.
+Notification of  success does not implicitly indicate that the device is ready, as some devices reboot in order to apply settings provided during the <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a> operation.
 
-If the <a href="https://msdn.microsoft.com/a092406d-7af4-436d-9755-5a9b87aa6ca9">IWCNDevice</a> interface was used to obtain network settings from a device, then the network profile is immediately ready for use.
+If the <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nn-wcndevice-iwcndevice">IWCNDevice</a> interface was used to obtain network settings from a device, then the network profile is immediately ready for use.
 
 
 
@@ -84,11 +84,11 @@ If the <a href="https://msdn.microsoft.com/a092406d-7af4-436d-9755-5a9b87aa6ca9"
 
 
 
-<a href="https://msdn.microsoft.com/63ea2b5a-4bec-4050-9a61-962a1faef0a0">IWCNConnectNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nn-wcndevice-iwcnconnectnotify">IWCNConnectNotify</a>
 
 
 
-<a href="https://msdn.microsoft.com/d7c940f2-0862-4b53-bbb9-4ea47fe6d6f6">IWCNDevice::Connect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a>
  
 
  

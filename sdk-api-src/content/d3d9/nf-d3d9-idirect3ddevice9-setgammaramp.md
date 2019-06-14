@@ -60,14 +60,14 @@ Sets the gamma correction ramp for the implicit swap chain. This method will aff
 
 ### -param iSwapChain [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Unsigned integer specifying the swap chain.
 
 
 ### -param Flags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Indicates whether correction should be applied. Gamma correction results in a more consistent display, but can incur processing overhead and should not be used frequently. Short-duration effects, such as flashing the whole screen red, should not be calibrated, but long-duration gamma changes should be calibrated. One of the following values can be set: 
 
@@ -104,9 +104,9 @@ No gamma correction is applied. The supplied gamma table is transferred directly
 
 ### -param pRamp [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb172561(v=VS.85).aspx">D3DGAMMARAMP</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dgammaramp">D3DGAMMARAMP</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb172561(v=VS.85).aspx">D3DGAMMARAMP</a> structure, representing the gamma correction ramp to be set for the implicit swap chain. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dgammaramp">D3DGAMMARAMP</a> structure, representing the gamma correction ramp to be set for the implicit swap chain. 
 
 
 ## -returns
@@ -126,7 +126,7 @@ There is always at least one swap chain (the implicit swap chain) for each devic
 
 If the device does not support gamma ramps in the swap chain's current presentation mode (full-screen or windowed), no error return is given. Applications can check the D3DCAPS2_FULLSCREENGAMMA and D3DCAPS2_CANCALIBRATEGAMMA capability bits in the Caps2 member of the D3DCAPS9 structure to determine the capabilities of the device and whether a calibrator is installed.
 
-For windowed gamma correction presentation, use <a href="https://msdn.microsoft.com/en-us/library/Bb205908(v=VS.85).aspx">IDirect3DSwapChain9::Present</a> if the hardware supports the feature. In DirectX 8, SetGammaRamp will set the gamma ramp only on a full-screen mode application. For more information about gamma correction, see <a href="https://msdn.microsoft.com/en-us/library/Bb173460(v=VS.85).aspx">Gamma (Direct3D 9)</a>.
+For windowed gamma correction presentation, use <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dswapchain9-present">IDirect3DSwapChain9::Present</a> if the hardware supports the feature. In DirectX 8, SetGammaRamp will set the gamma ramp only on a full-screen mode application. For more information about gamma correction, see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/gamma">Gamma (Direct3D 9)</a>.
 
 
 
@@ -136,15 +136,15 @@ For windowed gamma correction presentation, use <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174390(v=VS.85).aspx">IDirect3DDevice9::GetGammaRamp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getgammaramp">IDirect3DDevice9::GetGammaRamp</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205899(v=VS.85).aspx">IDirect3DSwapChain9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dswapchain9">IDirect3DSwapChain9</a>
  
 
  

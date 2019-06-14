@@ -107,7 +107,7 @@ The specified handle is not a Direct3D device handle.
 
 
 
-  Call this method to release a device handle that was retrieved by the <a href="https://msdn.microsoft.com/B025DF73-1F85-46F3-9AD4-2385BD515DDD">IMFDXGIDeviceManager::OpenDeviceHandle</a> method.
+  Call this method to release a device handle that was retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgidevicemanager-opendevicehandle">IMFDXGIDeviceManager::OpenDeviceHandle</a> method.
 
 
 
@@ -117,7 +117,7 @@ The specified handle is not a Direct3D device handle.
 
 
 
-<a href="https://msdn.microsoft.com/4A0DC266-FCF0-4ECD-AC78-CF429839486D">IMFDXGIDeviceManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a>
  
 
  

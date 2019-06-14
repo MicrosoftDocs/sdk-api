@@ -49,10 +49,10 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the properties 
-   of a <a href="https://msdn.microsoft.com/65e14273-8127-4667-b5c8-362ad54b4782">disk object</a>.
+   of a <a href="https://docs.microsoft.com/windows/desktop/VDS/disk-object">disk object</a>.
 
 
 ## -struct-fields
@@ -68,7 +68,7 @@ The GUID of the disk object.
 ### -field status
 
 The availability of a physical disk enumerated by 
-      <a href="https://msdn.microsoft.com/7691347d-49a6-4078-9c6c-af59a48af692">VDS_DISK_STATUS</a>. 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_disk_status">VDS_DISK_STATUS</a>. 
       If the VDS service cannot open a handle to the disk, it sets this member to <b>VDS_DS_UNKNOWN</b>.
 
 <div class="alert"><b>Note</b>  This member can be VDS_DS_ONLINE, even if the status of the containing pack is VDS_PS_OFFLINE.</div>
@@ -82,7 +82,7 @@ This member is reserved for future use.
 ### -field health
 
 A 
-      <a href="https://msdn.microsoft.com/c65d9266-d691-4711-8225-a442e90d8ba3">VDS_HEALTH</a> enumeration value that specifies the health state of the disk. The following are the valid values for this member.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_health">VDS_HEALTH</a> enumeration value that specifies the health state of the disk. The following are the valid values for this member.
 
 
 
@@ -109,15 +109,15 @@ The device type defined in Winioctl.h, which includes the following types among 
 
 ### -field dwMediaType
 
-A media type enumerated by <a href="https://msdn.microsoft.com/f584d766-0d4d-49b8-b58a-09556c494270">STORAGE_MEDIA_TYPE</a>. 
+A media type enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_media_type">STORAGE_MEDIA_TYPE</a>. 
       Basic and dynamic disks map to the <b>FixedMedia</b> enumerator. For more information, see 
-      <a href="https://msdn.microsoft.com/f584d766-0d4d-49b8-b58a-09556c494270">STORAGE_MEDIA_TYPE</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_media_type">STORAGE_MEDIA_TYPE</a>.
 
 
 ### -field ullSize
 
 The size of the disk in bytes. To determine the maximum volume size for a disk, call 
-      <a href="https://msdn.microsoft.com/0ca2ebb6-1394-48a2-972b-bdf43bf58ced">IVdsDisk3::QueryFreeExtents</a> and add the sizes of all 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk3-queryfreeextents">IVdsDisk3::QueryFreeExtents</a> and add the sizes of all 
       free extents.
 
 
@@ -139,19 +139,19 @@ The number of tracks in each cylinder.
 ### -field ulFlags
 
 A bitmask of 
-      <a href="https://msdn.microsoft.com/a421a1c1-a82c-4e07-846c-10aa2082ab86">VDS_DISK_FLAG</a> enumeration values that specify various disk attributes.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_disk_flag">VDS_DISK_FLAG</a> enumeration values that specify various disk attributes.
 
 
 ### -field BusType
 
 The input/output bus types enumerated by 
-      <a href="https://msdn.microsoft.com/4fa1bd7a-c675-4588-8753-2614be444c9c">VDS_STORAGE_BUS_TYPE</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-_vds_storage_bus_type">VDS_STORAGE_BUS_TYPE</a>.
 
 
 ### -field PartitionStyle
 
 A 
-      <a href="https://msdn.microsoft.com/31b7f0b3-cc3c-48e7-a4f0-628f0185f3cb">VDS_PARTITION_STYLE</a> enumeration value that specifies the partition type. This member is the 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_partition_style">VDS_PARTITION_STYLE</a> enumeration value that specifies the partition type. This member is the 
       discriminant for the union.
 
 
@@ -164,7 +164,7 @@ Used if <b>PartitionStyle</b> is <b>VDS_PST_MBR</b> (1). The signature
 ### -field DiskGuid
 
 Used if <b>PartitionStyle</b> is <b>VDS_PST_GPT</b> (2). The 
-       GUID for the disk. In addition, each GPT partition has its own GUID. (See <a href="https://msdn.microsoft.com/5c484155-df73-4007-a137-998c7f1c5a7c">VDS_PARTITION_INFO_GPT</a>.)
+       GUID for the disk. In addition, each GPT partition has its own GUID. (See <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_partition_info_gpt">VDS_PARTITION_INFO_GPT</a>.)
 
 
 ### -field pwszDiskAddress
@@ -177,12 +177,12 @@ The address of a SCSI-like disk in
 SCSI disks, IDE disks, and Fibre Channel disks can have such an address. USB and 1394 disks have different 
        address formats and are not stored.
 
-This member is optional and can be <b>NULL</b> if no value is available. If it is not <b>NULL</b>, its length must be greater than or equal to 22 WCHAR and less than or equal to 64 WCHAR, including the required <b>NULL</b> terminator. Applications that receive the <b>VDS_DISK_PROP</b> structure by calling <a href="https://msdn.microsoft.com/d2046a26-852d-46b2-b060-98b4a2a92387">IVdsDisk::GetProperties</a> must check whether this member is <b>NULL</b>.
+This member is optional and can be <b>NULL</b> if no value is available. If it is not <b>NULL</b>, its length must be greater than or equal to 22 WCHAR and less than or equal to 64 WCHAR, including the required <b>NULL</b> terminator. Applications that receive the <b>VDS_DISK_PROP</b> structure by calling <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk-getproperties">IVdsDisk::GetProperties</a> must check whether this member is <b>NULL</b>.
 
 
 ### -field pwszName
 
-The name used to open a handle to an object created using the <a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> 
+The name used to open a handle to an object created using the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> 
       function. For example:
       
 
@@ -210,8 +210,8 @@ The string returned by the Plug and Play Manager. The Plug and Play Manager uses
 
 
 
-The <a href="https://msdn.microsoft.com/d2046a26-852d-46b2-b060-98b4a2a92387">IVdsDisk::GetProperties</a> method returns 
-    the value of this structure to report the properties of a <a href="https://msdn.microsoft.com/65e14273-8127-4667-b5c8-362ad54b4782">disk object</a>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk-getproperties">IVdsDisk::GetProperties</a> method returns 
+    the value of this structure to report the properties of a <a href="https://docs.microsoft.com/windows/desktop/VDS/disk-object">disk object</a>.
 
 
 
@@ -221,43 +221,43 @@ The <a href="https://msdn.microsoft.com/d2046a26-852d-46b2-b060-98b4a2a92387">IV
 
 
 
-<a href="https://msdn.microsoft.com/d2046a26-852d-46b2-b060-98b4a2a92387">IVdsDisk::GetProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk-getproperties">IVdsDisk::GetProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a13f5eb-0fa1-48e2-a112-b2254ca28423">VDS Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-structures">VDS Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/a421a1c1-a82c-4e07-846c-10aa2082ab86">VDS_DISK_FLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_disk_flag">VDS_DISK_FLAG</a>
 
 
 
-<a href="https://msdn.microsoft.com/f51c2937-4b70-44fb-b626-1df072e2622a">VDS_DISK_PROP2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_disk_prop2">VDS_DISK_PROP2</a>
 
 
 
-<a href="https://msdn.microsoft.com/7691347d-49a6-4078-9c6c-af59a48af692">VDS_DISK_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_disk_status">VDS_DISK_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/c65d9266-d691-4711-8225-a442e90d8ba3">VDS_HEALTH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_health">VDS_HEALTH</a>
 
 
 
-<a href="https://msdn.microsoft.com/5c484155-df73-4007-a137-998c7f1c5a7c">VDS_PARTITION_INFO_GPT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_partition_info_gpt">VDS_PARTITION_INFO_GPT</a>
 
 
 
-<a href="https://msdn.microsoft.com/d14a852f-8a78-4631-a288-476701321ac2">VDS_PARTITION_INFO_MBR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_partition_info_mbr">VDS_PARTITION_INFO_MBR</a>
 
 
 
-<a href="https://msdn.microsoft.com/31b7f0b3-cc3c-48e7-a4f0-628f0185f3cb">VDS_PARTITION_STYLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_partition_style">VDS_PARTITION_STYLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/4fa1bd7a-c675-4588-8753-2614be444c9c">VDS_STORAGE_BUS_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-_vds_storage_bus_type">VDS_STORAGE_BUS_TYPE</a>
  
 
  

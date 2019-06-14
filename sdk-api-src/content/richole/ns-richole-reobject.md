@@ -59,14 +59,14 @@ Contains information about an OLE or image object  in a rich edit control.
 
 ### -field cbStruct
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Structure size, in bytes. 
 
 
 ### -field cp
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Character position of the object. 
 
@@ -82,40 +82,40 @@ Class identifier of the object.
 
 Type: <b>LPOLEOBJECT</b>
 
-An instance of the <a href="https://msdn.microsoft.com/58b32c87-39b6-4d64-9174-cf798ed302c2">IOleObject</a> interface for the object. 
+An instance of the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a> interface for the object. 
 
 
 ### -field pstg
 
 Type: <b>LPSTORAGE</b>
 
-An instance of the <a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> interface. This is the storage object associated with the object. 
+An instance of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface. This is the storage object associated with the object. 
 
 
 ### -field polesite
 
 Type: <b>LPOLECLIENTSITE</b>
 
-An instance of the <a href="https://msdn.microsoft.com/dafee149-926a-4d08-a43d-5847682db645">IOleClientSite</a> interface. This is the object's client site in the rich edit control. This address must have been obtained from the <a href="https://msdn.microsoft.com/en-us/library/Bb774338(v=VS.85).aspx">GetClientSite</a> method. 
+An instance of the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a> interface. This is the object's client site in the rich edit control. This address must have been obtained from the <a href="https://docs.microsoft.com/windows/desktop/api/richole/nf-richole-iricheditole-getclientsite">GetClientSite</a> method. 
 
 
 ### -field sizel
 
 Type: <b>SIZEL</b>
 
-The size of the object. The unit of measure is 0.01 millimeters, which is a HIMETRIC measurement. For more information, see function <a href="https://msdn.microsoft.com/bc446b86-3dde-4460-bc54-1eaa4ad19941">GetMapMode</a>. A 0, 0 on insertion indicates that an object is free to determine its size until the modify flag is turned off. 
+The size of the object. The unit of measure is 0.01 millimeters, which is a HIMETRIC measurement. For more information, see function <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getmapmode">GetMapMode</a>. A 0, 0 on insertion indicates that an object is free to determine its size until the modify flag is turned off. 
 
 
 ### -field dvaspect
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Display aspect used. See <a href="https://msdn.microsoft.com/a2b729c8-7091-4520-93cd-c44468ba0274">DVASPECT</a> for an explanation of possible values. 
+Display aspect used. See <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagdvaspect">DVASPECT</a> for an explanation of possible values. 
 
 
 ### -field dwFlags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Object status flag. It can be a combination of the following values. 
 
@@ -320,7 +320,7 @@ Wrap text around the object.
 
 ### -field dwUser
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Reserved for user-defined values. 
 
@@ -339,7 +339,7 @@ An OLE or image object  in a rich edit control occupies one character position i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774338(v=VS.85).aspx">GetClientSite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/nf-richole-iricheditole-getclientsite">GetClientSite</a>
 
 
 

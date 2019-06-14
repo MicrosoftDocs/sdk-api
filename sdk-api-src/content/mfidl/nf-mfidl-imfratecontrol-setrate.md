@@ -61,7 +61,7 @@ Sets the playback rate.
 
 ### -param fThin [in]
 
-If <b>TRUE</b>, the media streams are thinned. Otherwise, the stream is not thinned. For media sources and demultiplexers, the object must thin the streams when this parameter is <b>TRUE</b>. For downstream transforms, such as decoders and multiplexers, this parameter is informative; it notifies the object that the input streams are thinned. For information, see <a href="https://msdn.microsoft.com/509b2cc8-6017-41a9-ae80-9af21dce9367">About Rate Control</a>.
+If <b>TRUE</b>, the media streams are thinned. Otherwise, the stream is not thinned. For media sources and demultiplexers, the object must thin the streams when this parameter is <b>TRUE</b>. For downstream transforms, such as decoders and multiplexers, this parameter is informative; it notifies the object that the input streams are thinned. For information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/about-rate-control">About Rate Control</a>.
           
 
 
@@ -184,11 +184,11 @@ The Media Session prevents some transitions between rate boundaries, depending o
 
 If the transition is not supported, the method returns <b>MF_E_UNSUPPORTED_RATE_TRANSITION</b>.
 
-When a media source completes a call to <b>SetRate</b>, it sends the <a href="https://msdn.microsoft.com/68a7fe64-e28a-4c20-830c-9402e1fb57f8">MESourceRateChanged</a> event. Other pipeline components do not send this event.
+When a media source completes a call to <b>SetRate</b>, it sends the <a href="https://docs.microsoft.com/windows/desktop/medfound/mesourceratechanged">MESourceRateChanged</a> event. Other pipeline components do not send this event.
 
-If a media source switches between thinned and non-thinned playback, the streams send an <a href="https://msdn.microsoft.com/7de8cb64-122a-475f-990c-c19590a9d9d8">MEStreamThinMode</a> event to indicate the transition. Events from the media source are not synchronized with events from the media streams. After you receive the <a href="https://msdn.microsoft.com/68a7fe64-e28a-4c20-830c-9402e1fb57f8">MESourceRateChanged</a> event, you can still receive samples that were queued before the stream switched to thinned or non-thinned mode. The MEStreamThinMode event marks the exact point in the stream where the transition occurs.
+If a media source switches between thinned and non-thinned playback, the streams send an <a href="https://docs.microsoft.com/windows/desktop/medfound/mestreamthinmode">MEStreamThinMode</a> event to indicate the transition. Events from the media source are not synchronized with events from the media streams. After you receive the <a href="https://docs.microsoft.com/windows/desktop/medfound/mesourceratechanged">MESourceRateChanged</a> event, you can still receive samples that were queued before the stream switched to thinned or non-thinned mode. The MEStreamThinMode event marks the exact point in the stream where the transition occurs.
 
-When the Media Session completes a call to <b>SetRate</b>, it sends the <a href="https://msdn.microsoft.com/6bef923f-4083-46e1-9a2e-49a6825467ec">MESessionRateChanged</a> event.
+When the Media Session completes a call to <b>SetRate</b>, it sends the <a href="https://docs.microsoft.com/windows/desktop/medfound/mesessionratechanged">MESessionRateChanged</a> event.
 
 
 
@@ -198,11 +198,11 @@ When the Media Session completes a call to <b>SetRate</b>, it sends the <a href=
 
 
 
-<a href="https://msdn.microsoft.com/3663b63f-127c-49fc-923a-d05521fe3d35">How to Set the Playback Rate on the Media Session</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-set-the-playback-rate-on-the-media-session">How to Set the Playback Rate on the Media Session</a>
 
 
 
-<a href="https://msdn.microsoft.com/54303c32-b260-4364-9130-a592694f2816">IMFRateControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfratecontrol">IMFRateControl</a>
  
 
  

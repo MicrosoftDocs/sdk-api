@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>SCESVC_ANALYSIS_LINE</b> structure contains the key, value, and value length for a specific line specified by an 
-<a href="https://msdn.microsoft.com/4f0273df-435d-4324-b8ce-a774da935059">SCESVC_ANALYSIS_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/ns-scesvc-_scesvc_analysis_info_">SCESVC_ANALYSIS_INFO</a> structure.
 
 
 ## -struct-fields
@@ -78,7 +78,7 @@ Length of the data stored in <b>Value</b>, in bytes.
 
 
 
-<a href="https://msdn.microsoft.com/4f0273df-435d-4324-b8ce-a774da935059">SCESVC_ANALYSIS_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/ns-scesvc-_scesvc_analysis_info_">SCESVC_ANALYSIS_INFO</a>
  
 
  

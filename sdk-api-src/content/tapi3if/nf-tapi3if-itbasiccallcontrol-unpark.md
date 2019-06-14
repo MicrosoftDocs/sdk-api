@@ -137,7 +137,7 @@ Insufficient memory exists to perform the operation.
 
 
 To unpark a call, 
-<a href="https://msdn.microsoft.com/1b5a755c-fdaf-42ca-9747-9b34efbd0ac3">CreateCall</a> must be called using as the destination address the current parked location of the call. See the example below.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createcall">CreateCall</a> must be called using as the destination address the current parked location of the call. See the example below.
 
 
 #### Examples
@@ -161,31 +161,31 @@ pBasicCall -&gt;Unpark();</code></pre>
 
 
 
-<a href="https://msdn.microsoft.com/67c063ba-8b12-40d6-9011-923bdee8b214">Call Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/1b5a755c-fdaf-42ca-9747-9b34efbd0ac3">ITAddress::CreateCall</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createcall">ITAddress::CreateCall</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0b4c496-5ee8-4810-8170-8ea505c99f18">ITBasicCallControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a82f03e-d8fd-4d0b-8f5d-f7934ba86759">Park overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/park-ovr">Park overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/6461fd21-1726-4d24-8a17-d687b807b8e3">ParkDirect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-parkdirect">ParkDirect</a>
 
 
 
-<a href="https://msdn.microsoft.com/661ad11c-b653-4b70-9553-59d484527c29">ParkIndirect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-parkindirect">ParkIndirect</a>
 
 
 
-<a href="https://msdn.microsoft.com/9262ab44-eac7-43e2-a0ec-dceea0838b09">lineUnpark</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineunpark">lineUnpark</a>
  
 
  

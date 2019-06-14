@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Count</b> property gets the number of <a href="https://msdn.microsoft.com/d27c9ba5-ddee-4c9c-b812-e61b974b515a">ICertSrvSetupKeyInformation</a> objects in the collection.
+The <b>Count</b> property gets the number of <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a> objects in the collection.
 
 This property is read-only.
 
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/d029dd5f-9c19-46fd-aac3-275c624a157b">ICertSrvSetupKeyInformationCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformationcollection">ICertSrvSetupKeyInformationCollection</a>
  
 
  

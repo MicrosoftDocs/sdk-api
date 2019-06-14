@@ -63,7 +63,7 @@ Retrieves the node type.
 
 ### -param pType [out]
 
-Receives the node type, specified as a member of the <a href="https://msdn.microsoft.com/73ea1f48-0d86-4104-860c-83a4f9189920">MF_TOPOLOGY_TYPE</a> enumeration.
+Receives the node type, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mf_topology_type">MF_TOPOLOGY_TYPE</a> enumeration.
 
 
 ## -returns
@@ -99,11 +99,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/01d7eb7c-a3d3-4924-a8ec-a67e9dc17424">IMFTopologyNode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a>
 
 
 
-<a href="https://msdn.microsoft.com/6fc19244-0f42-4d23-899d-c79e97018855">Topologies</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/topologies">Topologies</a>
  
 
  

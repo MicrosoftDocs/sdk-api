@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a new instance of the <a href="https://msdn.microsoft.com/cb0e4f92-4aff-48c7-af62-5f7154539289">IWICPalette</a> class.
+Creates a new instance of the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicpalette">IWICPalette</a> class.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ Creates a new instance of the <a href="https://msdn.microsoft.com/cb0e4f92-4aff-
 
 ### -param ppIPalette [out]
 
-Type: <b><a href="https://msdn.microsoft.com/cb0e4f92-4aff-48c7-af62-5f7154539289">IWICPalette</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicpalette">IWICPalette</a>**</b>
 
-A pointer that receives a pointer to a new <a href="https://msdn.microsoft.com/cb0e4f92-4aff-48c7-af62-5f7154539289">IWICPalette</a>.
+A pointer that receives a pointer to a new <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicpalette">IWICPalette</a>.
 
 
 ## -returns

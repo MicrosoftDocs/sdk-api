@@ -69,7 +69,7 @@ The description is used in the report.
 #### Examples
 
 For an example, see 
-    <a href="https://msdn.microsoft.com/2dd5420b-33ab-4831-83b8-a9a4b2201a60">Adding a Report to a Job</a>.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/adding-a-report-to-a-job">Adding a Report to a Job</a>.
 
 <div class="code"></div>
 
@@ -80,7 +80,7 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/2172a543-b3b7-453e-887b-05c8ee74f197">IFsrmReport</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreport">IFsrmReport</a>
  
 
  

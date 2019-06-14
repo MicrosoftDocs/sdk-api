@@ -54,7 +54,7 @@ Represents an image source which shares resources with an original image source.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1TransformedImageSource</b> interface inherits from <a href="https://msdn.microsoft.com/9f7b4546-edbe-4000-a4ce-1a69563ebf9d">ID2D1Image</a>. <b>ID2D1TransformedImageSource</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1TransformedImageSource</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>. <b>ID2D1TransformedImageSource</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1TransformedImageSource</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D8291B02-9C32-412B-8F25-63A4A551B023">GetProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1transformedimagesource-getproperties">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Retrieves the properties specified when the transformed image source was created.
@@ -79,7 +79,7 @@ Retrieves the properties specified when the transformed image source was created
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C17D13E4-4BAD-436F-8A82-6568F1AFA751">GetSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1transformedimagesource-getsource">GetSource</a>
 </td>
 <td align="left" width="63%">
 Retrieves the source image used to create the transformed image source.
@@ -95,7 +95,7 @@ Retrieves the source image used to create the transformed image source.
 
 
 
-<a href="https://msdn.microsoft.com/9f7b4546-edbe-4000-a4ce-1a69563ebf9d">ID2D1Image</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>
  
 
  

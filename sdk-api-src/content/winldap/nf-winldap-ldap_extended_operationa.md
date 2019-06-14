@@ -96,7 +96,7 @@ The message ID for the request.
 If the function succeeds, <b>LDAP_SUCCESS</b> is returned.
 
 If the function fails, an error code is returned. For more information, see 
-<a href="https://msdn.microsoft.com/822411b7-fc49-4b93-8e54-353350ed5de9">Return Values</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>.
 
 
 
@@ -108,11 +108,11 @@ If the function fails, an error code is returned. For more information, see
 The <b>ldap_extended_operation</b> function enables a client to send an extended request (free for all) to an LDAP 3 (or later) server. The functionality is open and the client request can be for any operation.
 
 As an asynchronous function, <b>ldap_extended_operation</b> returns a message ID for the operation. Call 
-<a href="https://msdn.microsoft.com/e047fccc-a875-4360-be1b-3ac3dea15dd6">ldap_result</a> with the message ID to get the result of the operation. To cancel an asynchronous operation, call 
-<a href="https://msdn.microsoft.com/5c238d98-77f5-4702-bae1-80cdec70a30c">ldap_abandon</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a> with the message ID to get the result of the operation. To cancel an asynchronous operation, call 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_abandon">ldap_abandon</a>.
 
 Because of the open nature of the request, the client must call 
-<a href="https://msdn.microsoft.com/829ffb8f-150b-438a-bcbd-42f2e9c01479">ldap_close_extended_op</a> to terminate the request.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_close_extended_op">ldap_close_extended_op</a> to terminate the request.
 
 Multithreading: The <b>ldap_extended_operation</b> function is thread-safe.
 
@@ -124,23 +124,23 @@ Multithreading: The <b>ldap_extended_operation</b> function is thread-safe.
 
 
 
-<a href="https://msdn.microsoft.com/7a0040ea-f8f3-4378-8371-49768714d762">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/822411b7-fc49-4b93-8e54-353350ed5de9">Return Values</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>
 
 
 
-<a href="https://msdn.microsoft.com/5c238d98-77f5-4702-bae1-80cdec70a30c">ldap_abandon</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_abandon">ldap_abandon</a>
 
 
 
-<a href="https://msdn.microsoft.com/829ffb8f-150b-438a-bcbd-42f2e9c01479">ldap_close_extended_op</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_close_extended_op">ldap_close_extended_op</a>
 
 
 
-<a href="https://msdn.microsoft.com/e047fccc-a875-4360-be1b-3ac3dea15dd6">ldap_result</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a>
  
 
  

@@ -67,12 +67,12 @@ The globally unique identifier (GUID) for the quality of service (QoS) provider.
 
 ### -param QosName [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/a012c3ba-67fd-4fcf-84d1-85e9d495c29c">WSABUF</a> structure that contains the  QoS name of the template to install.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_wsabuf">WSABUF</a> structure that contains the  QoS name of the template to install.
 
 
 ### -param Qos [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/859faa13-bd66-46ee-8452-6ff5d53d66c9">QOS</a> structure that specifies the quality of service flow specifications and any provider-specific information for the QoS template.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_qualityofservice">QOS</a> structure that specifies the quality of service flow specifications and any provider-specific information for the QoS template.
 
 
 ## -returns
@@ -90,7 +90,7 @@ If
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -101,7 +101,7 @@ One or more of the arguments is not in a valid part of the user address space.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -112,7 +112,7 @@ One or more of the arguments are invalid. This error is returned if the QoS prov
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -123,7 +123,7 @@ One or more of the arguments are invalid. This error is returned if the QoS prov
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANO_RECOVERY</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -134,7 +134,7 @@ A nonrecoverable error occurred. This error is returned under several conditions
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSASYSCALLFAILURE</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASYSCALLFAILURE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -145,7 +145,7 @@ A nonrecoverable error occurred. This error is returned under several conditions
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -168,16 +168,16 @@ The <b>WSCInstallQOSTemplate</b> function is not supported on Windows Vista and
 The <b>WSCInstallQOSTemplate</b> function installs a QoS template, based on a QoS name. The caller of the <b>WSCInstallQOSTemplate</b> function must have appropriate administrative rights for the call to succeed.
  
 
-The <a href="https://msdn.microsoft.com/859faa13-bd66-46ee-8452-6ff5d53d66c9">QOS</a> structure that contains the QoS settings can later be retrieved by calling the <a href="https://msdn.microsoft.com/2e218a9b-6db5-4c5a-94e1-207886c401a5">WSPGetQOSByName</a> function and passing in the associated QoS name. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_qualityofservice">QOS</a> structure that contains the QoS settings can later be retrieved by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpwspgetqosbyname">WSPGetQOSByName</a> function and passing in the associated QoS name. 
 
 The 
 <b>WSCInstallQOSTemplate</b> function installs a named QoS template that contains the  
-<a href="https://msdn.microsoft.com/859faa13-bd66-46ee-8452-6ff5d53d66c9">QOS</a> structure specified in the <i>Qos</i> parameter. If a QoS template already exists with the QoS name specified in the <i>Qosname</i> parameter, the settings specified in the <i>Qos</i> parameter replace the settings of the existing template. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_qualityofservice">QOS</a> structure specified in the <i>Qos</i> parameter. If a QoS template already exists with the QoS name specified in the <i>Qosname</i> parameter, the settings specified in the <i>Qos</i> parameter replace the settings of the existing template. 
 
 If the <i>Guid</i> parameter is set to <b>NULL</b>, the installed QOS template applies to all service providers. If the <i>Guid</i> parameter is not <b>NULL</b>, then the installed QoS template applies only to the provider indicated by the <i>Guid</i> parameter.
 
 QoS template settings are stored in nonvolatile storage, so subsequent calls to 
-the <a href="https://msdn.microsoft.com/9b586856-5441-414b-8b91-298c952c351b">WSAGetQOSByName</a> function with the same QoS name specified in the <i>lpQOSName</i> parameter, return the 
+the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsagetqosbyname">WSAGetQOSByName</a> function with the same QoS name specified in the <i>lpQOSName</i> parameter, return the 
 same <b>QOS</b> structure passed to the <b>WSCInstallQOSTemplate</b> function . 
 
 Windows Sockets 2 includes a base set of QoS templates. You can override and replace any of these QoS templates or change an existing QoS template by simply installing a new template with the existing name. You do not need to delete an existing template before replacing or modifying it. You cannot delete the base set of QoS-named templates included in Windows Sockets 2. However, you can delete templates added subsequently, perhaps by other service providers.
@@ -199,15 +199,15 @@ The <b>ProviderSpecific</b> member of the <b>QOS</b> structure can be set even i
 
 
 
-<a href="https://msdn.microsoft.com/859faa13-bd66-46ee-8452-6ff5d53d66c9">QOS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_qualityofservice">QOS</a>
 
 
 
-<a href="https://msdn.microsoft.com/a012c3ba-67fd-4fcf-84d1-85e9d495c29c">WSABUF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_wsabuf">WSABUF</a>
 
 
 
-<a href="https://msdn.microsoft.com/2e218a9b-6db5-4c5a-94e1-207886c401a5">WSPGetQOSByName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpwspgetqosbyname">WSPGetQOSByName</a>
  
 
  

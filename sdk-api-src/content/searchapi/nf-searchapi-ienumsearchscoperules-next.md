@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the specified number of <a href="https://msdn.microsoft.com/en-us/library/Bb266457(v=VS.85).aspx">ISearchScopeRule</a> elements.
+Retrieves the specified number of <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchscoperule">ISearchScopeRule</a> elements.
 
 
 ## -parameters
@@ -66,9 +66,9 @@ The number of elements to retrieve.
 
 ### -param pprgelt [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb266457(v=VS.85).aspx">ISearchScopeRule</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchscoperule">ISearchScopeRule</a>**</b>
 
-On return, contains a pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Bb266457(v=VS.85).aspx">ISearchScopeRule</a> elements.
+On return, contains a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchscoperule">ISearchScopeRule</a> elements.
 
 
 ### -param pceltFetched [in, out]

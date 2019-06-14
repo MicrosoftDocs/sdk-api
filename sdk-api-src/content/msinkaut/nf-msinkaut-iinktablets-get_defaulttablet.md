@@ -67,7 +67,7 @@ This property is read-only.
 
 
 
-The platform determines the default <a href="https://msdn.microsoft.com/9a945740-b191-41f5-8b3d-49b7e2d1e463">IInkTablet</a> object in the following order:
+The platform determines the default <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet</a> object in the following order:
 
 <ul>
 <li>If the system has a digitizer integrated with the display device, this integrated digitizer is considered the default tablet, even if other digitizing tablets are installed.</li>
@@ -86,7 +86,7 @@ The platform determines the default <a href="https://msdn.microsoft.com/9a945740
 
 
 
-<a href="https://msdn.microsoft.com/9a945740-b191-41f5-8b3d-49b7e2d1e463">IInkTablet Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet Interface</a>
 
 
 
@@ -94,7 +94,7 @@ The platform determines the default <a href="https://msdn.microsoft.com/9a945740
 
 
 
-<a href="https://msdn.microsoft.com/ef1cb6dc-d656-4b30-9c7d-e482cef6b9ae">InkTablets Collection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms704832(v=vs.85)">InkTablets Collection</a>
  
 
  

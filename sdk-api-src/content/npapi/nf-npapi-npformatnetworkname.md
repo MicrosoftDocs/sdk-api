@@ -141,7 +141,7 @@ The network name is presented in the context of an enumeration where the name of
 ### -param dwAveCharPerLine [in]
 
 Specifies the average number of characters that will fit on a single line where the network name is being presented. Specifically, this value is defined as the width of the control divided by the <b>tmAveCharWidth</b> field of the 
-<a href="https://msdn.microsoft.com/0a46da58-5d0f-4db4-bba6-9e1b6c1f892c">TEXTMETRIC</a> structure from the font used for display in the control.
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagtextmetrica">TEXTMETRIC</a> structure from the font used for display in the control.
 
 
 ## -returns

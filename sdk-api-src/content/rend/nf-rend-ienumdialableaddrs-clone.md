@@ -64,7 +64,7 @@ The
 ### -param ppEnum [out]
 
 Pointer to the new 
-<a href="https://msdn.microsoft.com/0a64cb89-9e44-4af1-9b0f-2eec6e5267c7">IEnumDialableAddrs</a> object.
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-ienumdialableaddrs">IEnumDialableAddrs</a> object.
 
 
 ## -returns
@@ -133,7 +133,7 @@ Failed for unknown reasons.
 
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://msdn.microsoft.com/0a64cb89-9e44-4af1-9b0f-2eec6e5267c7">IEnumDialableAddrs</a> interface returned by <b>IEnumDialableAddrs::Clone</b>. The application must call <b>Release</b> on the 
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-ienumdialableaddrs">IEnumDialableAddrs</a> interface returned by <b>IEnumDialableAddrs::Clone</b>. The application must call <b>Release</b> on the 
 <b>IEnumDialableAddrs</b> interface to free resources associated with it.
 
 
@@ -144,7 +144,7 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 
-<a href="https://msdn.microsoft.com/0a64cb89-9e44-4af1-9b0f-2eec6e5267c7">IEnumDialableAddrs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-ienumdialableaddrs">IEnumDialableAddrs</a>
  
 
  

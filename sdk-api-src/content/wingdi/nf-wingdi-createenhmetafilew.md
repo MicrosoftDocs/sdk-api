@@ -69,7 +69,7 @@ A handle to a reference device for the enhanced metafile. This parameter can be 
 
 ### -param lpFilename [in]
 
-A pointer to the file name for the enhanced metafile to be created. If this parameter is <b>NULL</b>, the enhanced metafile is memory based and its contents are lost when it is deleted by using the <a href="https://msdn.microsoft.com/d3b93b3b-fa0b-4480-8348-19919c9e904d">DeleteEnhMetaFile</a> function.
+A pointer to the file name for the enhanced metafile to be created. If this parameter is <b>NULL</b>, the enhanced metafile is memory based and its contents are lost when it is deleted by using the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteenhmetafile">DeleteEnhMetaFile</a> function.
 
 
 ### -param lprc [in]
@@ -107,18 +107,18 @@ The string pointed to by the <i>lpDescription</i> parameter must contain a null 
 
 Applications use the device context created by this function to store a graphics picture in an enhanced metafile. The handle identifying this device context can be passed to any GDI function.
 
-After an application stores a picture in an enhanced metafile, it can display the picture on any output device by calling the <a href="https://msdn.microsoft.com/51e8937b-0c42-49fe-8930-7af303fce788">PlayEnhMetaFile</a> function. When displaying the picture, the system uses the rectangle pointed to by the <i>lpRect</i> parameter and the resolution data from the reference device to position and scale the picture.
+After an application stores a picture in an enhanced metafile, it can display the picture on any output device by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-playenhmetafile">PlayEnhMetaFile</a> function. When displaying the picture, the system uses the rectangle pointed to by the <i>lpRect</i> parameter and the resolution data from the reference device to position and scale the picture.
 
 The device context returned by this function contains the same default attributes associated with any new device context.
 
-Applications must use the <a href="https://msdn.microsoft.com/db61ea3a-44d0-4769-acb4-05a982d3f06f">GetWinMetaFileBits</a> function to convert an enhanced metafile to the older Windows metafile format.
+Applications must use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getwinmetafilebits">GetWinMetaFileBits</a> function to convert an enhanced metafile to the older Windows metafile format.
 
 The file name for the enhanced metafile should use the .emf extension.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/084b2737-eb55-4587-b8e8-3eb3fa3688c4">Creating an Enhanced Metafile</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/creating-an-enhanced-metafile">Creating an Enhanced Metafile</a>.
 
 <div class="code"></div>
 
@@ -129,35 +129,35 @@ For an example, see <a href="https://msdn.microsoft.com/084b2737-eb55-4587-b8e8-
 
 
 
-<a href="https://msdn.microsoft.com/3c4a0d8b-75a5-4729-8c64-476c36d01a90">CloseEnhMetaFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-closeenhmetafile">CloseEnhMetaFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/d3b93b3b-fa0b-4480-8348-19919c9e904d">DeleteEnhMetaFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteenhmetafile">DeleteEnhMetaFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/51f4f617-fe53-4463-b222-cb6860d15dd6">GetEnhMetaFileDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getenhmetafiledescriptiona">GetEnhMetaFileDescription</a>
 
 
 
-<a href="https://msdn.microsoft.com/c42bcbe2-2e8f-42bd-a8e3-2827c6563300">GetEnhMetaFileHeader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getenhmetafileheader">GetEnhMetaFileHeader</a>
 
 
 
-<a href="https://msdn.microsoft.com/db61ea3a-44d0-4769-acb4-05a982d3f06f">GetWinMetaFileBits</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getwinmetafilebits">GetWinMetaFileBits</a>
 
 
 
-<a href="https://msdn.microsoft.com/93a17a8c-308b-4442-933e-fedc8b9a84b0">Metafile Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-functions">Metafile Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/309ee4cf-111b-4f09-a722-4823cb3d26b0">Metafiles Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/51e8937b-0c42-49fe-8930-7af303fce788">PlayEnhMetaFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-playenhmetafile">PlayEnhMetaFile</a>
 
 
 

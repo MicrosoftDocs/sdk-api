@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Closes an AVI clip. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761897(v=VS.85).aspx">ACM_OPEN</a> message explicitly, passing in <b>NULL</b> parameters. 
+Closes an AVI clip. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/acm-open">ACM_OPEN</a> message explicitly, passing in <b>NULL</b> parameters. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Closes an AVI clip. You can use this macro or send the <a href="https://msdn.mic
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the animation control.
 
@@ -78,7 +78,7 @@ You can use <b>Animate_Close</b> to close an AVI file or AVI resource that was p
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761908(v=VS.85).aspx">Animate_Open</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-animate_open">Animate_Open</a>
  
 
  

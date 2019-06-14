@@ -107,7 +107,7 @@ This method fails if any of the expected certificates is missing, or if the thum
 
 
 
-<a href="https://msdn.microsoft.com/fcbac911-9e37-4994-bbb6-544b19a92749">IX509SCEPEnrollment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509scepenrollment">IX509SCEPEnrollment</a>
  
 
  

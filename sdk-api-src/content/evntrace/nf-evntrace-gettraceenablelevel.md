@@ -58,7 +58,7 @@ The
 			
 
 Providers can only call this function from their 
-<a href="https://msdn.microsoft.com/e9f70ae6-906f-4e55-bca7-4355f1ca6091">ControlCallback</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/ETW/controlcallback">ControlCallback</a> function.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ Providers can only call this function from their
 ### -param TraceHandle [in]
 
 Handle to an event tracing session, obtained by calling the 
-<a href="https://msdn.microsoft.com/050d3a01-0087-40f1-af35-b9ceeaf47813">GetTraceLoggerHandle</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceloggerhandle">GetTraceLoggerHandle</a> function.
 
 
 ## -returns
@@ -77,14 +77,14 @@ Handle to an event tracing session, obtained by calling the
 
 
 Returns the value the controller specified in the <i>EnableLevel</i> parameter when calling the 
-<a href="https://msdn.microsoft.com/d75f18e1-e5fa-4039-bb74-76dea334b0fd">EnableTrace</a> function. 
+<a href="https://docs.microsoft.com/windows/desktop/ETW/enabletrace">EnableTrace</a> function. 
 						
 
 To determine if the function failed or the controller set the enable flags to 0, follow these steps:<ul>
-<li>Call the <a href="https://msdn.microsoft.com/d9da833f-36ca-4046-8d2f-cd4449dd3c63">SetLastError</a> function to set the last error to <b>ERROR_SUCCESS</b>.</li>
+<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> function to set the last error to <b>ERROR_SUCCESS</b>.</li>
 <li>Call the <b>GetTraceEnableLevel</b> function to retrieve the enable level.</li>
 <li>If the enable level value is 0, call the 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function to retrieve the last known error.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to retrieve the last known error.</li>
 <li>If the last known error is <b>ERROR_SUCCESS</b>, the controller set the enable level to 0; otherwise, the <b>GetTraceEnableLevel</b> function failed with the last known error. </li>
 </ul>
 
@@ -103,7 +103,7 @@ Providers use this value to control the severity of events that it generates. Fo
 
 For an example that uses 
 <b>GetTraceEnableLevel</b>, see 
-<a href="https://msdn.microsoft.com/13512236-c416-43ba-bf36-b05c5c08d6c9">Retrieving Event Data Using MOF</a>.
+<a href="https://docs.microsoft.com/windows/desktop/ETW/retrieving-event-data-using-mof">Retrieving Event Data Using MOF</a>.
 
 <div class="code"></div>
 
@@ -114,11 +114,11 @@ For an example that uses
 
 
 
-<a href="https://msdn.microsoft.com/e5c0f2bf-34da-4555-9556-4c79ee9a73ab">GetTraceEnableFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceenableflags">GetTraceEnableFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/050d3a01-0087-40f1-af35-b9ceeaf47813">GetTraceLoggerHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceloggerhandle">GetTraceLoggerHandle</a>
  
 
  

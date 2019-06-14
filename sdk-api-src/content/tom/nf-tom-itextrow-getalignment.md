@@ -63,18 +63,18 @@ Type: <b>long*</b>
 
 The horizontal alignment. It can be one of the following values.
 
-<p class="indent"><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomAlignLeft</a>
+<p class="indent"><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomAlignLeft</a>
 
-<p class="indent"><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomAlignCenter</a>
+<p class="indent"><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomAlignCenter</a>
 
-<p class="indent"><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomAlignRight</a>
+<p class="indent"><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomAlignRight</a>
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -86,11 +86,11 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-<a href="https://msdn.microsoft.com/49f5ffc1-d615-4d07-9f41-1c5f0dd9045b">ITextRow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrow">ITextRow</a>
 
 
 
-<a href="https://msdn.microsoft.com/bfcc900d-2bec-4314-a2c5-09f55e27a626">ITextRow::SetAlignment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrow-setalignment">ITextRow::SetAlignment</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Called from the <a href="https://msdn.microsoft.com/6604112A-5BD5-4B2C-AECC-D09180B04D7F">IImePad</a> interface to enumerate the <a href="https://msdn.microsoft.com/F3BC7176-9659-47B6-AFCA-049807394961">IImePadApplet</a> interfaces that are implemented.
+Called from the <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> interface to enumerate the <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a> interfaces that are implemented.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Called from the <a href="https://msdn.microsoft.com/6604112A-5BD5-4B2C-AECC-D091
 
 ### -param refiid [in]
 
-IID of the <a href="https://msdn.microsoft.com/F3BC7176-9659-47B6-AFCA-049807394961">IImePadApplet</a> interface. This IID is defined in Imepad.h as <b>IID_IImePadApplet</b>. This is for <b>IImePadApplet</b>'s future enhancement
+IID of the <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a> interface. This IID is defined in Imepad.h as <b>IID_IImePadApplet</b>. This is for <b>IImePadApplet</b>'s future enhancement
 
 
 ### -param lpIIDList [in, out]
@@ -81,7 +81,7 @@ Pointer to a APPLETIIDLIST structure. Sets the applet's IID list and count.
 
 
 
-<a href="https://msdn.microsoft.com/788C7272-3BFF-4531-B66E-211585BF85E3">IImeSpecifyApplets</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimespecifyapplets">IImeSpecifyApplets</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The interpolation mode the <a href="https://msdn.microsoft.com/C98A4962-B9EB-4095-9AC4-F1C32C574892">Point-diffuse lighting effect</a> 
+The interpolation mode the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/point-diffuse-lighting">Point-diffuse lighting effect</a> 
         uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed
 
 

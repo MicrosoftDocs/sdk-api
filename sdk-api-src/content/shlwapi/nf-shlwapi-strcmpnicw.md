@@ -114,15 +114,15 @@ For those versions of Windows that do not include <b>StrCmpNIC</b> in Shlwapi.h,
 
 
 
-<a href="https://msdn.microsoft.com/4db84fa7-f3c2-48fb-ad7d-8673397c4b0e">CompareString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f6d1ca1-fbd2-4ce2-b6d4-c3dfb37f1f87">StrCmpIC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strcmpica">StrCmpIC</a>
 
 
 
-<a href="https://msdn.microsoft.com/c6657bd5-21b6-457c-9ed0-45e44b2571ba">StrCmpNI</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strcmpnia">StrCmpNI</a>
  
 
  

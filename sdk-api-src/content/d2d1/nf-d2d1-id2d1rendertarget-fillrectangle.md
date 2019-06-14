@@ -57,7 +57,7 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b5d7ca28-0751-4799-8480-f221fd5fe276">FillRectangle(D2D1_RECT_F&,ID2D1Brush*)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-fillrectangle(constd2d1_rect_f__id2d1brush)">FillRectangle(D2D1_RECT_F&,ID2D1Brush*)</a>
 </td>
 <td align="left" width="63%">
 Paints the interior of the specified rectangle.
@@ -66,7 +66,7 @@ Paints the interior of the specified rectangle.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/81237d6c-b6dd-4196-8150-9614b85131dc">FillRectangle(D2D1_RECT_F*,ID2D1Brush*)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-fillrectangle(constd2d1_rect_f__id2d1brush)">FillRectangle(D2D1_RECT_F*,ID2D1Brush*)</a>
 </td>
 <td align="left" width="63%">
 Paints the interior of the specified rectangle.
@@ -82,12 +82,12 @@ Paints the interior of the specified rectangle.
 
 
 
-This method doesn't return an error code if it fails. To determine whether a drawing operation (such as <b>FillRectangle</b>) failed, check the result returned by the <a href="https://msdn.microsoft.com/a8f24501-4e85-4981-bb38-2bd6333a7b49">ID2D1RenderTarget::EndDraw</a> or <a href="https://msdn.microsoft.com/3ad9c966-85f5-4ddb-a8c1-aefcba533509">ID2D1RenderTarget::Flush</a> methods. 
+This method doesn't return an error code if it fails. To determine whether a drawing operation (such as <b>FillRectangle</b>) failed, check the result returned by the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1RenderTarget::EndDraw</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-flush">ID2D1RenderTarget::Flush</a> methods. 
 
 
 #### Examples
 
-The following example uses an <a href="https://msdn.microsoft.com/860342cc-989c-4432-b879-07f3da07d50a">ID2D1HwndRenderTarget</a> to draw and fill several rectangles. This example produces the output shown in the following illustration.
+The following example uses an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a> to draw and fill several rectangles. This example produces the output shown in the following illustration.
 
 <img alt="Illustration of two rectangles on a grid background" src="images/drawrectangleexample_small.png"/>
 
@@ -173,7 +173,7 @@ HRESULT DemoApp::OnRender()
 ```
 
 
-For a related tutorial, see <a href="https://msdn.microsoft.com/a627523e-417a-40cd-82c0-4f0380a3a0b1">Creating a Simple Direct2D Application</a>. 
+For a related tutorial, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-quickstart">Creating a Simple Direct2D Application</a>. 
 
 <div class="code"></div>
 
@@ -184,11 +184,11 @@ For a related tutorial, see <a href="https://msdn.microsoft.com/a627523e-417a-40
 
 
 
-<a href="https://msdn.microsoft.com/a627523e-417a-40cd-82c0-4f0380a3a0b1">Creating a Simple Direct2D Application</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-quickstart">Creating a Simple Direct2D Application</a>
 
 
 
-<a href="https://msdn.microsoft.com/40629be9-5840-4bde-b369-56bbfd791775">ID2D1RenderTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
  
 
  

@@ -54,7 +54,7 @@ Provides access to a device's Forward Data Channel (FDC) Service. The FDC is an 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_FDC</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBDA_FDC</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_FDC</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_FDC</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IBDA_FDC</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693348(v=VS.85).aspx">AddPid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_fdc-addpid">AddPid</a>
 </td>
 <td align="left" width="63%">
 Adds one or more packet identifiers (PIDs) to the MPEG flow.
@@ -78,7 +78,7 @@ Adds one or more packet identifiers (PIDs) to the MPEG flow.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693349(v=VS.85).aspx">AddTid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_fdc-addtid">AddTid</a>
 </td>
 <td align="left" width="63%">
 Adds one or more table identifiers (TIDs) to the MPEG flow.
@@ -87,7 +87,7 @@ Adds one or more table identifiers (TIDs) to the MPEG flow.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693350(v=VS.85).aspx">GetStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_fdc-getstatus">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Gets the tuning status of the FDC stream.
@@ -96,7 +96,7 @@ Gets the tuning status of the FDC stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693351(v=VS.85).aspx">GetTableSection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_fdc-gettablesection">GetTableSection</a>
 </td>
 <td align="left" width="63%">
 Gets the latest table section.
@@ -105,7 +105,7 @@ Gets the latest table section.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693352(v=VS.85).aspx">RemovePid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_fdc-removepid">RemovePid</a>
 </td>
 <td align="left" width="63%">
 Removes one or more PIDs from the MPEG flow.
@@ -114,7 +114,7 @@ Removes one or more PIDs from the MPEG flow.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693353(v=VS.85).aspx">RemoveTid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_fdc-removetid">RemoveTid</a>
 </td>
 <td align="left" width="63%">
 Removes one or more TIDs from the MPEG flow.
@@ -123,7 +123,7 @@ Removes one or more TIDs from the MPEG flow.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693354(v=VS.85).aspx">RequestTables</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_fdc-requesttables">RequestTables</a>
 </td>
 <td align="left" width="63%">
 Requests MPEG-2 table sections, filtered by TID.

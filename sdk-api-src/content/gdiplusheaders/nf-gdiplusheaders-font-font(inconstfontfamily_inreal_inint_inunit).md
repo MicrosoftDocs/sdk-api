@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a <b>Font::Font</b> object based on a <a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a> object, a size, a font style, and a unit of measurement.
+Creates a <b>Font::Font</b> object based on a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily">FontFamily</a> object, a size, a font style, and a unit of measurement.
 
 
 ## -parameters
@@ -60,9 +60,9 @@ Creates a <b>Font::Font</b> object based on a <a href="https://msdn.microsoft.co
 
 ### -param family [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily">FontFamily</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a> object that specifies information such as the string that identifies the font family and the font family's text metrics measured in design units. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily">FontFamily</a> object that specifies information such as the string that identifies the font family and the font family's text metrics measured in design units. 
 
 
 ### -param emSize [in]
@@ -77,15 +77,15 @@ Real number that specifies the em size of the font measured in the units specifi
 
 Type: <b>INT</b>
 
-Optional. Integer that specifies the style of the typeface. This value must be an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534124(v=VS.85).aspx">FontStyle</a> enumeration or the result of a bitwise 
+Optional. Integer that specifies the style of the typeface. This value must be an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-fontstyle">FontStyle</a> enumeration or the result of a bitwise 
 					<b>OR</b> applied to two or more of these elements. For example, FontStyleBold | FontStyleUnderline | FontStyleStrikeout  sets the style as a combination of the three styles. The default value is FontStyleRegular. 
 
 
 ### -param unit [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534405(v=VS.85).aspx">Unit</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-unit">Unit</a></b>
 
-Optional. Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534405(v=VS.85).aspx">Unit</a> enumeration that specifies the unit of measurement for the font size. The default value is UnitPoint. 
+Optional. Element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-unit">Unit</a> enumeration that specifies the unit of measurement for the font size. The default value is UnitPoint. 
 
 
 ## -see-also
@@ -93,23 +93,23 @@ Optional. Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily">FontFamily</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534124(v=VS.85).aspx">FontStyle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-fontstyle">FontStyle</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534405(v=VS.85).aspx">Unit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-unit">Unit</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533817(v=VS.85).aspx">Using Text and Fonts</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>
  
 
  

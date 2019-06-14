@@ -61,7 +61,7 @@ Sets the current folders settings.
 
 Type: <b>DWORD</b>
 
-Flags that determine the folder settings. For a list of possible values, see <a href="https://msdn.microsoft.com/e471b81a-da4d-48c0-8c7f-996b507d27a1">FOLDERFLAGS</a>.
+Flags that determine the folder settings. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderflags">FOLDERFLAGS</a>.
 
 
 ## -returns

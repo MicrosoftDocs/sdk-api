@@ -70,7 +70,7 @@ Reserved. This parameter must be set to 0.
 ### -param PartialClassInfo [in]
 
 
-<a href="https://msdn.microsoft.com/62fb9f21-ad21-4525-90f4-48dc5a8b230b">DHCP_CLASS_INFO</a> structure that contains data provided by the caller for the following members, with all other fields initialized. 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_class_info">DHCP_CLASS_INFO</a> structure that contains data provided by the caller for the following members, with all other fields initialized. 
 
 <ul>
 <li><b>ClassName</b></li>
@@ -83,9 +83,9 @@ These fields must not be null.
 ### -param FilledClassInfo [out]
 
 
-<a href="https://msdn.microsoft.com/62fb9f21-ad21-4525-90f4-48dc5a8b230b">DHCP_CLASS_INFO</a> structure returned after lookup that contains the complete class information.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_class_info">DHCP_CLASS_INFO</a> structure returned after lookup that contains the complete class information.
 
-<div class="alert"><b>Note</b>  <p class="note">The memory for this parameter must be free using <a href="https://msdn.microsoft.com/bf22a0a6-2ecd-4460-89c4-3f870c6275dc">DhcpRpcFreeMemory</a>.
+<div class="alert"><b>Note</b>  <p class="note">The memory for this parameter must be free using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcprpcfreememory">DhcpRpcFreeMemory</a>.
 
 </div>
 <div> </div>
@@ -94,7 +94,7 @@ These fields must not be null.
 
 
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://msdn.microsoft.com/6370313f-d7db-4ff1-b0e0-7fa47474facb">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -119,7 +119,7 @@ This call was performed by a client who is not a member of the "DHCP Administrat
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/62fb9f21-ad21-4525-90f4-48dc5a8b230b">DHCP_CLASS_INFO</a> structure provided in <i>PartialClassInfo</i> has null or zero values for one or more of the required members.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_class_info">DHCP_CLASS_INFO</a> structure provided in <i>PartialClassInfo</i> has null or zero values for one or more of the required members.
 
 </td>
 </tr>
@@ -154,11 +154,11 @@ A DHCP class is a specific category of client, defined either by the vendor or b
 
 
 
-<a href="https://msdn.microsoft.com/62fb9f21-ad21-4525-90f4-48dc5a8b230b">DHCP_CLASS_INFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_class_info">DHCP_CLASS_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/ae30baba-a2cd-4662-a62a-58b59d119dc4">DhcpCreateClass</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpcreateclass">DhcpCreateClass</a>
  
 
  

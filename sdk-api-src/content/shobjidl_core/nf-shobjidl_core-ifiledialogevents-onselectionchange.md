@@ -59,7 +59,7 @@ Called when the user changes the selection in the dialog's view.
 
 ### -param pfd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/9341bb68-2410-4e03-8acd-fef29287b61c">IFileDialog</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog">IFileDialog</a>*</b>
 
 A pointer to the interface that represents the dialog.
 

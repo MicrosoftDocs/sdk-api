@@ -81,7 +81,7 @@ Pointer to a buffer that will contain the fully qualified path of the directory 
 
 
 
-<a href="https://msdn.microsoft.com/582570b0-981f-4852-974f-cb6575c68717">EngMapFontFileFD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmapfontfilefd">EngMapFontFileFD</a>
  
 
  

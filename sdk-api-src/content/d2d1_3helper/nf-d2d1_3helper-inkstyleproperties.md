@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/81B9E108-D0A6-4F7E-8BE9-76A570B1D050">D2D1_INK_STYLE_PROPERTIES</a> structure.
+Creates a <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/ns-d2d1_3-d2d1_ink_style_properties">D2D1_INK_STYLE_PROPERTIES</a> structure.
         
 
 
@@ -60,14 +60,14 @@ Creates a <a href="https://msdn.microsoft.com/81B9E108-D0A6-4F7E-8BE9-76A570B1D0
 
 ### -param nibShape
 
-Type: <b><a href="https://msdn.microsoft.com/E9EA4F3E-D539-4938-897F-467D0432174F">D2D1_INK_NIB_SHAPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_ink_nib_shape">D2D1_INK_NIB_SHAPE</a></b>
 
 The pre-transform shape of the nib (pen tip) used to draw a given ink object.
 
 
 ### -param nibTransform [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a></b>
 
 The transform applied to the nib. Note that the translation components of the transform matrix are ignored for the purposes of rendering.
 
@@ -76,9 +76,9 @@ The transform applied to the nib. Note that the translation components of the tr
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/81B9E108-D0A6-4F7E-8BE9-76A570B1D050">D2D1_INK_STYLE_PROPERTIES</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/ns-d2d1_3-d2d1_ink_style_properties">D2D1_INK_STYLE_PROPERTIES</a></b>
 
-Returns the created <a href="https://msdn.microsoft.com/81B9E108-D0A6-4F7E-8BE9-76A570B1D050">D2D1_INK_STYLE_PROPERTIES</a> structure.
+Returns the created <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/ns-d2d1_3-d2d1_ink_style_properties">D2D1_INK_STYLE_PROPERTIES</a> structure.
           
 
 
@@ -89,7 +89,7 @@ Returns the created <a href="https://msdn.microsoft.com/81B9E108-D0A6-4F7E-8BE9-
 
 
 
-<a href="https://msdn.microsoft.com/81B9E108-D0A6-4F7E-8BE9-76A570B1D050">D2D1_INK_STYLE_PROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/ns-d2d1_3-d2d1_ink_style_properties">D2D1_INK_STYLE_PROPERTIES</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains credential information for a user. This structure is used by the <a href="https://msdn.microsoft.com/48cd1a57-5f6d-4feb-889d-7441a76c0410">GetUserCredentials</a> method.
+Contains credential information for a user. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-getusercredentials">GetUserCredentials</a> method.
 
 
 ## -struct-fields

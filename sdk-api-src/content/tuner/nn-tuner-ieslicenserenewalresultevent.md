@@ -69,7 +69,7 @@ The <b>IESLicenseRenewalResultEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c1dfbd63-c165-4872-b992-3f536be9cad1">GetCallersId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieslicenserenewalresultevent-getcallersid">GetCallersId</a>
 </td>
 <td align="left" width="63%">
 Gets the unique identifier for a client that attempts a license renewal.
@@ -79,7 +79,7 @@ Gets the unique identifier for a client that attempts a license renewal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d3569a5e-6bde-4daf-bf52-094f56b0891c">GetCASFailureCode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieslicenserenewalresultevent-getcasfailurecode">GetCASFailureCode</a>
 </td>
 <td align="left" width="63%">
 Gets a code that indicates the reason that an attempt to access protected content failed.
@@ -89,7 +89,7 @@ Gets a code that indicates the reason that an attempt to access protected conten
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ed09aea2-e000-40ce-bd94-a174e75a5001">GetDescrambledStatus</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieslicenserenewalresultevent-getdescrambledstatus">GetDescrambledStatus</a>
 </td>
 <td align="left" width="63%">
 Gets a status code from one of the license renewal steps.
@@ -99,7 +99,7 @@ Gets a status code from one of the license renewal steps.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6178a884-df87-4fcb-a069-3791726d4335">GetEntitlementToken</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieslicenserenewalresultevent-getentitlementtoken">GetEntitlementToken</a>
 </td>
 <td align="left" width="63%">
 Gets the entitlement token from the license.
@@ -109,7 +109,7 @@ Gets the entitlement token from the license.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e1c8f12c-c2f1-48c1-90fc-051ac87863d5">GetEntitlementTokenLength</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieslicenserenewalresultevent-getentitlementtokenlength">GetEntitlementTokenLength</a>
 </td>
 <td align="left" width="63%">
 Gets the length of the entitlement token from the license.
@@ -119,7 +119,7 @@ Gets the length of the entitlement token from the license.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b237eeb3-d04f-432a-8c7a-538882b5ad02">GetExpiryDate</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieslicenserenewalresultevent-getexpirydate">GetExpiryDate</a>
 </td>
 <td align="left" width="63%">
 Gets the expiry date from the license.
@@ -129,7 +129,7 @@ Gets the expiry date from the license.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6ef49a38-c005-4731-a1cb-d5a63ea94e71">GetFileName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieslicenserenewalresultevent-getfilename">GetFileName</a>
 </td>
 <td align="left" width="63%">
 Gets the file name for  the license to renew.
@@ -139,7 +139,7 @@ Gets the file name for  the license to renew.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ed823c23-ae7d-4e2d-8546-92f04bd3b212">GetRenewalHResult</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieslicenserenewalresultevent-getrenewalhresult">GetRenewalHResult</a>
 </td>
 <td align="left" width="63%">
 Gets the last <b>HRESULT</b> value returned by a call to a COM interface method during the renewal process.
@@ -149,7 +149,7 @@ Gets the last <b>HRESULT</b> value returned by a call to a COM interface method 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/99b46541-8c94-4456-aae9-d266fc52a6a9">GetRenewalResultCode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieslicenserenewalresultevent-getrenewalresultcode">GetRenewalResultCode</a>
 </td>
 <td align="left" width="63%">
 Gets a constant that indicates which step in the renewal process caused the renewal to succeed or fail.
@@ -159,7 +159,7 @@ Gets a constant that indicates which step in the renewal process caused the rene
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e19375c6-5999-43e9-9d91-3237b900cb07">IsCheckEntitlementCallRequired</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieslicenserenewalresultevent-ischeckentitlementcallrequired">IsCheckEntitlementCallRequired</a>
 </td>
 <td align="left" width="63%">
 Gets a flag that indicates whether the client should check the entitlement token in the license.
@@ -169,7 +169,7 @@ Gets a flag that indicates whether the client should check the entitlement token
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0c57e4e4-ee93-4e86-b1f8-eed5dd5aa931">IsRenewalSuccessful</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieslicenserenewalresultevent-isrenewalsuccessful">IsRenewalSuccessful</a>
 </td>
 <td align="left" width="63%">
 Gets a flag that indicates whether the license renewal is successful.

@@ -75,7 +75,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -86,9 +86,9 @@ If the function fails, the return value is zero. To get extended error informati
 
 <b>HideCaret</b> hides the caret only if the specified window owns the caret. If the specified window does not own the caret, <b>HideCaret</b> does nothing and returns <b>FALSE</b>. 
 
-Hiding is cumulative. If your application calls <b>HideCaret</b> five times in a row, it must also call <a href="https://msdn.microsoft.com/en-us/library/ms648406(v=VS.85).aspx">ShowCaret</a> five times before the caret is displayed. 
+Hiding is cumulative. If your application calls <b>HideCaret</b> five times in a row, it must also call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showcaret">ShowCaret</a> five times before the caret is displayed. 
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648398(v=VS.85).aspx">Hiding a Caret</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-carets">Hiding a Caret</a>.
 
 
 
@@ -98,7 +98,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648398(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646968(v=VS.85).aspx">Carets</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/carets">Carets</a>
 
 
 
@@ -106,15 +106,15 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648398(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648399(v=VS.85).aspx">CreateCaret</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createcaret">CreateCaret</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648400(v=VS.85).aspx">DestroyCaret</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroycaret">DestroyCaret</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648402(v=VS.85).aspx">GetCaretPos</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcaretpos">GetCaretPos</a>
 
 
 
@@ -122,11 +122,11 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648398(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648405(v=VS.85).aspx">SetCaretPos</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setcaretpos">SetCaretPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648406(v=VS.85).aspx">ShowCaret</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showcaret">ShowCaret</a>
  
 
  

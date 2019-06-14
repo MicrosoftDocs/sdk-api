@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 Provides the text strings that come before and after the text contained in the recognizer context.
 
-You call this function before processing the ink for the first time. Therefore, call the <b>SetTextContext</b> function before calling the <a href="https://msdn.microsoft.com/564a2734-1a90-4566-a39d-7e16eff870ff">Process</a> function.
+You call this function before processing the ink for the first time. Therefore, call the <b>SetTextContext</b> function before calling the <a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-process">Process</a> function.
 
 
 

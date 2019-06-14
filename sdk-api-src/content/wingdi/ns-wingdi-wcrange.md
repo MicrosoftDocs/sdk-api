@@ -75,15 +75,15 @@ Number of supported Unicode code points in this range.
 
 
 
-<a href="https://msdn.microsoft.com/93726d5c-d4ed-4681-bf45-cb899f195b5d">Font and Text Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/9944baa9-8e50-40b9-9650-78b0b1d7643a">Fonts and Text Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/b8ac8d3f-b062-491c-966f-02f3d4c11419">GLYPHSET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagglyphset">GLYPHSET</a>
  
 
  

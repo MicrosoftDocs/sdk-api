@@ -50,8 +50,8 @@ ms.custom: 19H1
 
 
 Defines values that are used with the 
-    <a href="https://msdn.microsoft.com/e5d84000-17c1-4517-97a7-6bd240d73814">GetFileAttributesEx</a> and 
-    <a href="https://msdn.microsoft.com/dd1435da-93e5-440a-913a-9e40e39b4a01">GetFileAttributesTransacted</a> functions to 
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesexa">GetFileAttributesEx</a> and 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileattributestransacteda">GetFileAttributesTransacted</a> functions to 
     specify the information level of the returned data.
 
 
@@ -62,10 +62,10 @@ Defines values that are used with the
 
 ### -field GetFileExInfoStandard
 
-The <a href="https://msdn.microsoft.com/e5d84000-17c1-4517-97a7-6bd240d73814">GetFileAttributesEx</a> or 
-      <a href="https://msdn.microsoft.com/dd1435da-93e5-440a-913a-9e40e39b4a01">GetFileAttributesTransacted</a> function 
+The <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesexa">GetFileAttributesEx</a> or 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileattributestransacteda">GetFileAttributesTransacted</a> function 
       retrieves a standard set of attribute information. The data is returned in a 
-      <a href="https://msdn.microsoft.com/e1a7fb5c-2d69-40e3-b9d8-b583a03d828a">WIN32_FILE_ATTRIBUTE_DATA</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-_win32_file_attribute_data">WIN32_FILE_ATTRIBUTE_DATA</a> 
       structure.
 
 
@@ -79,19 +79,19 @@ One greater than the maximum value. Valid values for this enumeration will be le
 
 
 
-<a href="https://msdn.microsoft.com/14b1cfff-5e47-4309-8e62-fb5c8da9ce97">File Management Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-enumerations">File Management Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5d84000-17c1-4517-97a7-6bd240d73814">GetFileAttributesEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesexa">GetFileAttributesEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd1435da-93e5-440a-913a-9e40e39b4a01">GetFileAttributesTransacted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileattributestransacteda">GetFileAttributesTransacted</a>
 
 
 
-<a href="https://msdn.microsoft.com/e1a7fb5c-2d69-40e3-b9d8-b583a03d828a">WIN32_FILE_ATTRIBUTE_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-_win32_file_attribute_data">WIN32_FILE_ATTRIBUTE_DATA</a>
  
 
  

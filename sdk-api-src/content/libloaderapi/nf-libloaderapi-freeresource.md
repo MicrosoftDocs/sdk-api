@@ -114,7 +114,7 @@ For resources loaded with other functions, <b>FreeResource</b> has been replaced
 <tr>
 <td>Bitmap</td>
 <td>
-<a href="https://msdn.microsoft.com/cc679af0-6839-4c83-9c42-39d7ededda40">DeleteObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
 </td>
 </tr>
 <tr>
@@ -150,7 +150,7 @@ The system automatically deletes these resources when the process that created t
 
 
 
-<a href="https://msdn.microsoft.com/cc679af0-6839-4c83-9c42-39d7ededda40">DeleteObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
 
 
 

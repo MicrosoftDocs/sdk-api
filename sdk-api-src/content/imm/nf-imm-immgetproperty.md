@@ -180,7 +180,7 @@ Returns the property or capability value, depending on the value of the <i>dwInd
 </tr>
 <tr>
 <td>IME_PROP_ACCEPT_WIDE_VKEY</td>
-<td>If set, the IME processes the injected Unicode that came from the <a href="https://msdn.microsoft.com/en-us/library/ms646310(v=VS.85).aspx">SendInput</a> function by using VK_PACKET. If clear, the IME might not process the injected Unicode, and might send the injected Unicode to the application directly.</td>
+<td>If set, the IME processes the injected Unicode that came from the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a> function by using VK_PACKET. If clear, the IME might not process the injected Unicode, and might send the injected Unicode to the application directly.</td>
 </tr>
 </table>
  
@@ -194,7 +194,7 @@ If <i>dwIndex</i> is set to IGP_UI, the function returns one or more of the foll
 </tr>
 <tr>
 <td>UI_CAP_2700</td>
-<td>Support text escapement values of 0 or 2700. For more information, see the <b>lfEscapement</b> member of the <a href="https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec145beb4">LOGFONT</a> structure.</td>
+<td>Support text escapement values of 0 or 2700. For more information, see the <b>lfEscapement</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure.</td>
 </tr>
 <tr>
 <td>UI_CAP_ROT90</td>
@@ -216,15 +216,15 @@ If <i>dwIndex</i> is set to IGP_SETCOMPSTR, the function returns one or more of 
 </tr>
 <tr>
 <td>SCS_CAP_COMPSTR</td>
-<td>Create the composition string by calling the <a href="https://msdn.microsoft.com/0bac534d-d2a8-4dbc-8062-f1d2a8ca0c34">ImmSetCompositionString</a> function with the SCS_SETSTR value.</td>
+<td>Create the composition string by calling the <a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immsetcompositionstringa">ImmSetCompositionString</a> function with the SCS_SETSTR value.</td>
 </tr>
 <tr>
 <td>SCS_CAP_MAKEREAD</td>
-<td>Create the reading string from corresponding composition string when using the <a href="https://msdn.microsoft.com/0bac534d-d2a8-4dbc-8062-f1d2a8ca0c34">ImmSetCompositionString</a> function with SCS_SETSTR and without setting <i>lpRead</i>.</td>
+<td>Create the reading string from corresponding composition string when using the <a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immsetcompositionstringa">ImmSetCompositionString</a> function with SCS_SETSTR and without setting <i>lpRead</i>.</td>
 </tr>
 <tr>
 <td>SCS_CAP_SETRECONVERTSTRING:</td>
-<td>This IME can support reconversion. Use <a href="https://msdn.microsoft.com/0bac534d-d2a8-4dbc-8062-f1d2a8ca0c34">ImmSetCompositionString</a> to do reconversion.</td>
+<td>This IME can support reconversion. Use <a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immsetcompositionstringa">ImmSetCompositionString</a> to do reconversion.</td>
 </tr>
 </table>
  
@@ -273,15 +273,15 @@ If <i>dwIndex</i> is set to IGP_GETIMEVERSION, the function returns one or more 
 
 
 
-<a href="https://msdn.microsoft.com/0bac534d-d2a8-4dbc-8062-f1d2a8ca0c34">ImmSetCompositionString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immsetcompositionstringa">ImmSetCompositionString</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e23e004-514a-4021-bd20-5ac55547258f">Input Method Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://msdn.microsoft.com/833c07eb-0ecf-41e2-9e01-8d83e51ffcef">Input Method Manager Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
  
 
  

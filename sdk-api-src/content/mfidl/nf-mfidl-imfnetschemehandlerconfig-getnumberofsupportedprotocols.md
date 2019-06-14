@@ -99,7 +99,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/91bdcdbd-d621-42e3-8e0f-f8eeab489d35">IMFNetSchemeHandlerConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfnetschemehandlerconfig">IMFNetSchemeHandlerConfig</a>
  
 
  

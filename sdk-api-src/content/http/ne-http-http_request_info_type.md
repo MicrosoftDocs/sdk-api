@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>HTTP_REQUEST_INFO_TYPE</b> enumeration defines the type of information contained in the <a href="https://msdn.microsoft.com/83c2a922-4ddb-4dc0-9ed6-d75d47b97d6a">HTTP_REQUEST_INFO</a> structure. 
+The <b>HTTP_REQUEST_INFO_TYPE</b> enumeration defines the type of information contained in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_request_info">HTTP_REQUEST_INFO</a> structure. 
 
-This enumeration is used  in the <a href="https://msdn.microsoft.com/83c2a922-4ddb-4dc0-9ed6-d75d47b97d6a">HTTP_REQUEST_INFO</a> structure.
+This enumeration is used  in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_request_info">HTTP_REQUEST_INFO</a> structure.
 
 
 ## -enum-fields
@@ -63,7 +63,7 @@ This enumeration is used  in the <a href="https://msdn.microsoft.com/83c2a922-4d
 
 The request information type is authentication.
 
-The <b>pInfo</b> member of the <a href="https://msdn.microsoft.com/83c2a922-4ddb-4dc0-9ed6-d75d47b97d6a">HTTP_REQUEST_INFO</a> structure points to a <a href="https://msdn.microsoft.com/07008290-5277-4ef4-ae55-d335fdb2ba90">HTTP_REQUEST_AUTH_INFO</a> structure.
+The <b>pInfo</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_request_info">HTTP_REQUEST_INFO</a> structure points to a <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a> structure.
 
 
 ### -field HttpRequestInfoTypeChannelBind
@@ -85,11 +85,11 @@ The <b>pInfo</b> member of the <a href="https://msdn.microsoft.com/83c2a922-4ddb
 
 
 
-<a href="https://msdn.microsoft.com/849b88a1-e60b-4a1d-a660-cc3fe429d39f">HTTP Server API Version 2.0 Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-enumeration-types">HTTP Server API Version 2.0 Enumeration Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/83c2a922-4ddb-4dc0-9ed6-d75d47b97d6a">HTTP_REQUEST_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_request_info">HTTP_REQUEST_INFO</a>
  
 
  

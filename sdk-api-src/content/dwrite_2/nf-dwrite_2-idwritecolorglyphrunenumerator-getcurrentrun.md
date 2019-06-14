@@ -59,7 +59,7 @@ Returns the current glyph run of the enumerator.
 
 ### -param colorGlyphRun [out]
 
-Type: <b>const <a href="https://msdn.microsoft.com/E70CEE54-80BB-42D2-BBD7-97472AAA4B56">DWRITE_COLOR_GLYPH_RUN</a>**</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/ns-dwrite_2-dwrite_color_glyph_run">DWRITE_COLOR_GLYPH_RUN</a>**</b>
 
 A pointer to the current glyph run.
 
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/649AD648-32BB-4BF4-A82F-075E93505E33">IDWriteColorGlyphRunEnumerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritecolorglyphrunenumerator">IDWriteColorGlyphRunEnumerator</a>
  
 
  

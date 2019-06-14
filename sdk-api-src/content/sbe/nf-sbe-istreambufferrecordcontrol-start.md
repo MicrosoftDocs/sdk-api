@@ -130,11 +130,11 @@ The start time must be less than or equal to the stop time.
 
 
 
-<a href="https://msdn.microsoft.com/f196638e-ccbb-4768-96c1-8e1d00361831">IStreamBufferRecordControl Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferrecordcontrol">IStreamBufferRecordControl Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/1b6a3ac4-076a-4fca-909c-6063637248a8">IStreamBufferRecordControl::Stop</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferrecordcontrol-stop">IStreamBufferRecordControl::Stop</a>
  
 
  

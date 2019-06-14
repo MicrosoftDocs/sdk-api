@@ -59,7 +59,7 @@ Passes a keystroke to the property frame for processing.
 
 ### -param pMsg [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a> structure to be processed.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a> structure to be processed.
 
 
 ## -returns
@@ -117,7 +117,7 @@ The page site does not support keyboard processing.
 
 
 
-<a href="https://msdn.microsoft.com/a9035a10-2078-4626-8386-f9298526dfb7">IPropertyPageSite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypagesite">IPropertyPageSite</a>
  
 
  

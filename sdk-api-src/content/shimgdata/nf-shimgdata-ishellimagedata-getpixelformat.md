@@ -61,7 +61,7 @@ Gets the pixel format of the image.
 
 Type: <b>PixelFormat*</b>
 
-A pointer to a value of type <a href="https://msdn.microsoft.com/en-us/library/ms534412(v=VS.85).aspx">PixelFormat</a> indicating the pixel format.  This value is valid only when the method returns <b>S_OK</b>.
+A pointer to a value of type <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-constant-image-pixel-format-constants">PixelFormat</a> indicating the pixel format.  This value is valid only when the method returns <b>S_OK</b>.
 
 
 ## -returns

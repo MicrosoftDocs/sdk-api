@@ -54,7 +54,7 @@ Exposes methods that reports completion to and gets wait time from the Remote De
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbGenericNotifySink</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITsSbGenericNotifySink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbGenericNotifySink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbGenericNotifySink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITsSbGenericNotifySink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/685471bd-3228-4fdd-a91f-e8da2a6c3b91">GetWaitTimeout</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbgenericnotifysink-getwaittimeout">GetWaitTimeout</a>
 </td>
 <td align="left" width="63%">
 Retrieves the wait timeout.
@@ -78,7 +78,7 @@ Retrieves the wait timeout.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6d8dd044-988e-4e37-9936-2a3639dedca1">OnCompleted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbgenericnotifysink-oncompleted">OnCompleted</a>
 </td>
 <td align="left" width="63%">
 Reports completion to RD Connection Broker. 

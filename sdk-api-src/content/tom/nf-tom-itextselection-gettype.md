@@ -139,7 +139,7 @@ The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774060(v=VS.85).aspx">ITextSelection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextselection">ITextSelection</a>
 
 
 
@@ -147,7 +147,7 @@ The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
  
 
  

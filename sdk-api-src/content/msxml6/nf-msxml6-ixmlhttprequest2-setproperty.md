@@ -112,7 +112,7 @@ Suppresses adding default headers to the HTTP request.
 </dl>
 </td>
 <td width="60%">
-Causes the HTTP stack to call the <a href="https://msdn.microsoft.com/EB6580C5-B200-4281-BF1F-FA5C3220689E">OnHeadersAvailable</a> method with an interim redirecting status code.  The <b>OnHeadersAvailable</b> method will be called again for additional redirects and the final destination status code.
+Causes the HTTP stack to call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onheadersavailable">OnHeadersAvailable</a> method with an interim redirecting status code.  The <b>OnHeadersAvailable</b> method will be called again for additional redirects and the final destination status code.
 
 </td>
 </tr>
@@ -124,7 +124,7 @@ Causes the HTTP stack to call the <a href="https://msdn.microsoft.com/EB6580C5-B
 <td width="60%">
 Suppresses cache reads and writes for the HTTP request.
 
-This property is supported by the <a href="https://msdn.microsoft.com/66af3f84-585c-441e-b9be-4ec188d72a19">IXMLHTTPRequest3</a> interface.
+This property is supported by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest3">IXMLHTTPRequest3</a> interface.
 
 </td>
 </tr>
@@ -134,9 +134,9 @@ This property is supported by the <a href="https://msdn.microsoft.com/66af3f84-5
 </dl>
 </td>
 <td width="60%">
-Causes the HTTP stack to provide HRESULTS with the underlying Win32 error code to the <a href="https://msdn.microsoft.com/532C97A7-B952-47BE-A9C7-5B1E5AB4C3D3">OnError</a> method in case of failure.
+Causes the HTTP stack to provide HRESULTS with the underlying Win32 error code to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onerror">OnError</a> method in case of failure.
 
-This property is supported by the <a href="https://msdn.microsoft.com/66af3f84-585c-441e-b9be-4ec188d72a19">IXMLHTTPRequest3</a> interface.
+This property is supported by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest3">IXMLHTTPRequest3</a> interface.
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ This property is supported by the <a href="https://msdn.microsoft.com/66af3f84-5
 <td width="60%">
 Causes the query string to be encoded in UTF-8 instead of ACP for the HTTP request.
 
-This property is supported by the <a href="https://msdn.microsoft.com/66af3f84-585c-441e-b9be-4ec188d72a19">IXMLHTTPRequest3</a> interface.
+This property is supported by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest3">IXMLHTTPRequest3</a> interface.
 
 </td>
 </tr>
@@ -160,7 +160,7 @@ This property is supported by the <a href="https://msdn.microsoft.com/66af3f84-5
 <td width="60%">
 Suppresses certain certificate errors.
 
-This property is supported by the <a href="https://msdn.microsoft.com/66af3f84-585c-441e-b9be-4ec188d72a19">IXMLHTTPRequest3</a> interface.
+This property is supported by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest3">IXMLHTTPRequest3</a> interface.
 
 </td>
 </tr>
@@ -183,7 +183,7 @@ Specifies the number of milliseconds that the application waits before timing ou
 </dl>
 </td>
 <td width="60%">
-This parameter can be one of the values from the <a href="https://msdn.microsoft.com/01160bda-0d4c-46fc-92ba-82fe5808e665">XHR_CRED_PROMPT</a> enumeration type defined in the <i>Msxml6.h</i>  header file.
+This parameter can be one of the values from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/ne-msxml6-_xhr_cred_prompt">XHR_CRED_PROMPT</a> enumeration type defined in the <i>Msxml6.h</i>  header file.
 
 <ul>
 <li><b>XHR_CRED_PROMPT_ALL</b> if credential prompting should be enabled <b>(default)</b>.</li>
@@ -198,7 +198,7 @@ This parameter can be one of the values from the <a href="https://msdn.microsoft
 </dl>
 </td>
 <td width="60%">
-This parameter can be one of the values from the <a href="https://msdn.microsoft.com/01160bda-0d4c-46fc-92ba-82fe5808e665">XHR_AUTH</a> enumeration type defined in the <i>Msxml6.h</i>  header file.
+This parameter can be one of the values from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/ne-msxml6-_xhr_cred_prompt">XHR_AUTH</a> enumeration type defined in the <i>Msxml6.h</i>  header file.
 
 <ul>
 <li><b>XHR_AUTH_ALL</b> if authentication is enabled <b>(default)</b>.
@@ -320,7 +320,7 @@ Returns <b>S_OK</b> on success.
 
 
 
-The <b>SetProperty</b> method on the <a href="https://msdn.microsoft.com/BBC11C4A-AECF-4D6D-8275-3E852E309908">IXMLHTTPRequest2</a> interface is extended on the <a href="https://msdn.microsoft.com/66af3f84-585c-441e-b9be-4ec188d72a19">IXMLHTTPRequest3</a> interface with new properties to support new scenarios:
+The <b>SetProperty</b> method on the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2</a> interface is extended on the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest3">IXMLHTTPRequest3</a> interface with new properties to support new scenarios:
 
 
 <ul>
@@ -339,23 +339,23 @@ The <b>SetProperty</b> method on the <a href="https://msdn.microsoft.com/BBC11C4
 
 
 
-<a href="https://msdn.microsoft.com/BBC11C4A-AECF-4D6D-8275-3E852E309908">IXMLHTTPRequest2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2</a>
 
 
 
-<a href="https://msdn.microsoft.com/66af3f84-585c-441e-b9be-4ec188d72a19">IXMLHTTPRequest3</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest3">IXMLHTTPRequest3</a>
 
 
 
-<a href="https://msdn.microsoft.com/EB6580C5-B200-4281-BF1F-FA5C3220689E">OnHeadersAvailable</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onheadersavailable">OnHeadersAvailable</a>
 
 
 
-<a href="https://msdn.microsoft.com/8723F24B-0739-44D6-8443-1A378B585F42">Open</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-open">Open</a>
 
 
 
-<a href="https://msdn.microsoft.com/FE317413-F1A2-4FD7-9DB1-67410C912AF2">XHR_PROPERTY Enumeration</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/ne-msxml6-_xhr_property">XHR_PROPERTY Enumeration</a>
  
 
  

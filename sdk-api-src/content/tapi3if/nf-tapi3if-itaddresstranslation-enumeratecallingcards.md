@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>EnumerateCallingCards</b> method enumerates calling cards associated with the address. This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the 
-<a href="https://msdn.microsoft.com/3033c584-1a7b-4bba-a8a2-2a2d59247689">get_CallingCards</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslation-get_callingcards">get_CallingCards</a> method.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param ppEnumCallingCard [out]
 
 Pointer to 
-<a href="https://msdn.microsoft.com/d2eed88b-9a01-4205-a35d-92a24e07a1e2">IEnumCallingCard</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumcallingcard">IEnumCallingCard</a> interface.
 
 
 ## -returns
@@ -120,11 +120,11 @@ Insufficient memory exists to perform the operation.
 
 
 This method is a COM wrapper for the TAPI 2.1 
-<a href="https://msdn.microsoft.com/77437b06-fb02-44b5-8642-b3de700853ef">LineGetTranslateCaps</a> function, and takes calling card information from the 
-<a href="https://msdn.microsoft.com/9b4dcbe6-41e9-4b9c-9150-d0c7edef5a19">LINETRANSLATECAPS</a> structure returned by that function.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegettranslatecaps">LineGetTranslateCaps</a> function, and takes calling card information from the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetranslatecaps_tag">LINETRANSLATECAPS</a> structure returned by that function.
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://msdn.microsoft.com/d2eed88b-9a01-4205-a35d-92a24e07a1e2">IEnumCallingCard</a> interface returned by <b>ITAddressTranslation::EnumerateCallingCards</b>. The application must call <b>Release</b> on the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumcallingcard">IEnumCallingCard</a> interface returned by <b>ITAddressTranslation::EnumerateCallingCards</b>. The application must call <b>Release</b> on the 
 <b>IEnumCallingCard</b> interface to free resources associated with it.
 
 
@@ -135,15 +135,15 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 
-<a href="https://msdn.microsoft.com/ab6db262-f99e-4027-9525-7597fcf02e72">Address Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/d2eed88b-9a01-4205-a35d-92a24e07a1e2">IEnumCallingCard</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumcallingcard">IEnumCallingCard</a>
 
 
 
-<a href="https://msdn.microsoft.com/e1cd88f1-1ed7-4e7f-a745-9a9c4af69317">ITAddressTranslation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslation">ITAddressTranslation</a>
  
 
  

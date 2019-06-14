@@ -64,7 +64,7 @@ Pointer to the buffer to write to
 
 ### -param dwLength
 
-Specifies the length of the buffer. The buffer length is expressed in samples, not bytes. The size in bytes of the buffer can vary, depending on the buffer's format, which the synth sets in response to an <a href="https://msdn.microsoft.com/9efdb079-ed24-43b4-844b-344571399de7">IDirectMusicSynth::Activate</a> command.
+Specifies the length of the buffer. The buffer length is expressed in samples, not bytes. The size in bytes of the buffer can vary, depending on the buffer's format, which the synth sets in response to an <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-activate">IDirectMusicSynth::Activate</a> command.
 
 
 ### -param llPosition
@@ -137,9 +137,9 @@ Indicates that the method is not valid when synth is inactive.
 
 
 
-Typically, a synthesizer manages converting messages into rendered wave data in two processes. In the first, it time stamps the MIDI messages it receives from the application via calls to <a href="https://msdn.microsoft.com/96d0a2ef-1265-4e04-bb70-920f4c82058c">IDirectMusicSynth::PlayBuffer</a> and places them in its own internal queue. Then, in response to <code>Render</code>, the second process generates audio by pulling MIDI messages from the queue and synthesizing the appropriate tones within the time span of the requested render buffer.
+Typically, a synthesizer manages converting messages into rendered wave data in two processes. In the first, it time stamps the MIDI messages it receives from the application via calls to <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-playbuffer">IDirectMusicSynth::PlayBuffer</a> and places them in its own internal queue. Then, in response to <code>Render</code>, the second process generates audio by pulling MIDI messages from the queue and synthesizing the appropriate tones within the time span of the requested render buffer.
 
-As the synthesizer renders the MIDI messages into the buffer, it calls <a href="https://msdn.microsoft.com/11a6b670-93d6-4455-b279-a1fc5fca0d1d">IDirectMusicSynthSink::RefTimeToSample</a> to translate the MIDI time stamps into sample positions. This guarantees extremely accurate timing (as long as the <b>IDirectMusicSynthSink</b> implementation is well written).
+As the synthesizer renders the MIDI messages into the buffer, it calls <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynthsink-reftimetosample">IDirectMusicSynthSink::RefTimeToSample</a> to translate the MIDI time stamps into sample positions. This guarantees extremely accurate timing (as long as the <b>IDirectMusicSynthSink</b> implementation is well written).
 
 For more information, see the description of the <b>IDirectMusic</b> interface in the Microsoft Windows SDK documentation.
 
@@ -151,15 +151,15 @@ For more information, see the description of the <b>IDirectMusic</b> interface i
 
 
 
-<a href="https://msdn.microsoft.com/9efdb079-ed24-43b4-844b-344571399de7">IDirectMusicSynth::Activate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-activate">IDirectMusicSynth::Activate</a>
 
 
 
-<a href="https://msdn.microsoft.com/96d0a2ef-1265-4e04-bb70-920f4c82058c">IDirectMusicSynth::PlayBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-playbuffer">IDirectMusicSynth::PlayBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/11a6b670-93d6-4455-b279-a1fc5fca0d1d">IDirectMusicSynthSink::RefTimeToSample</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynthsink-reftimetosample">IDirectMusicSynthSink::RefTimeToSample</a>
  
 
  

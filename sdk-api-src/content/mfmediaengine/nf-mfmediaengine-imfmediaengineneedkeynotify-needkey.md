@@ -81,7 +81,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/bbedfbe8-9389-4b4f-8d52-111c787a6268">IMFMediaEngineNeedKeyNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineneedkeynotify">IMFMediaEngineNeedKeyNotify</a>
  
 
  

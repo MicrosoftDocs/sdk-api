@@ -54,7 +54,7 @@ MMC_SORT_DATA structure is introduced in MMC 1.2.
 
 The 
 MMC_SORT_DATA structure contains the column sort data of a single column in a column set. This data is persisted in memory by MMC. A pointer to an array of these structures is held in the pSortData member of the 
-<a href="https://msdn.microsoft.com/bb16061d-a6bb-4816-b52d-c63097638f58">MMC_SORT_SET_DATA</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_sort_set_data">MMC_SORT_SET_DATA</a> structure.
 
 
 ## -struct-fields
@@ -94,15 +94,15 @@ Reserved for future use.
 
 
 
-<a href="https://msdn.microsoft.com/e4fc2b5f-2736-4a5b-adaa-f1c87d55f0b8">CCF_COLUMN_SET_ID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/ccf-column-set-id">CCF_COLUMN_SET_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/bb16061d-a6bb-4816-b52d-c63097638f58">MMC_SORT_SET_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_sort_set_data">MMC_SORT_SET_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/409b8212-a2fc-4d64-a407-ade2fde9ac4d">Using Column Persistence</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-column-persistence">Using Column Persistence</a>
  
 
  

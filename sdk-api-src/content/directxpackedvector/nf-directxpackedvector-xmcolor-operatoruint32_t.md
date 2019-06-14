@@ -118,11 +118,11 @@ The fourth 8 bits (bits 24-31) of the return value are the <b>b</b> member (blue
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419292(v=VS.85).aspx">XMCOLOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415266(v=VS.85).aspx">XMCOLOR Operators</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmcolor-operators">XMCOLOR Operators</a>
  
 
  

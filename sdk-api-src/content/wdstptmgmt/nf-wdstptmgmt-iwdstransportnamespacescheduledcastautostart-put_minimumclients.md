@@ -64,7 +64,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/f11122a2-6ea9-4a73-ac93-0af7961f52b6">IWdsTransportNamespaceScheduledCastAutoStart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespacescheduledcastautostart">IWdsTransportNamespaceScheduledCastAutoStart</a>
  
 
  

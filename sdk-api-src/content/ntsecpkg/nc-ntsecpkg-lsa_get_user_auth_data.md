@@ -60,12 +60,12 @@ The <b>GetUserAuthData</b> function returns the authorization data for the user 
 ### -param UserHandle [in]
 
 A handle to the user account. This handle is returned by the 
-<a href="https://msdn.microsoft.com/1d9bfbe5-8dd2-4b0f-a19a-361eef8901a4">OpenSamUser</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_open_sam_user">OpenSamUser</a> function.
 
 
 ### -param *UserAuthData [out]
 
-Pointer that receives the consolidated authorization data. When you have finished using the authorization data, free the memory by calling the <a href="https://msdn.microsoft.com/bd461a23-2501-48c5-8f2f-c6c98383157f">FreeLsaHeap</a> function.
+Pointer that receives the consolidated authorization data. When you have finished using the authorization data, free the memory by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ntlsa/nc-ntlsa-lsa_free_lsa_heap">FreeLsaHeap</a> function.
 
 
 ### -param UserAuthDataSize [out]
@@ -89,11 +89,11 @@ If the function fails, the return value is an NTSTATUS code indicating the reaso
 
 
 The authorization data returned by the <b>GetUserAuthData</b> function can be passed to the 
-<a href="https://msdn.microsoft.com/99dfd3b3-40e0-44b2-8752-39b7b394ac0e">ConvertAuthDataToToken</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_convert_auth_data_to_token">ConvertAuthDataToToken</a> function.
 
 A pointer to the <b>GetUserAuthData</b> function is available in the 
-<a href="https://msdn.microsoft.com/85f04072-8634-454a-9038-737d86c5597d">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
-<a href="https://msdn.microsoft.com/d93bafc6-d946-4214-b3c0-5e5a8e359638">SpInitialize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 
 
@@ -103,19 +103,19 @@ A pointer to the <b>GetUserAuthData</b> function is available in the
 
 
 
-<a href="https://msdn.microsoft.com/99dfd3b3-40e0-44b2-8752-39b7b394ac0e">ConvertAuthDataToToken</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_convert_auth_data_to_token">ConvertAuthDataToToken</a>
 
 
 
-<a href="https://msdn.microsoft.com/85f04072-8634-454a-9038-737d86c5597d">LSA_SECPKG_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d9bfbe5-8dd2-4b0f-a19a-361eef8901a4">OpenSamUser</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_open_sam_user">OpenSamUser</a>
 
 
 
-<a href="https://msdn.microsoft.com/d93bafc6-d946-4214-b3c0-5e5a8e359638">SpInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
  
 
  

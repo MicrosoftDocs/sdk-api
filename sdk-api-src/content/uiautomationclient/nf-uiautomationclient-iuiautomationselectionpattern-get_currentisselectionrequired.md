@@ -72,7 +72,7 @@ This property can be dynamic. For example, the initial state of a control might 
 
 
 
-<a href="https://msdn.microsoft.com/10e0c9c3-ed42-4ffa-b0a8-25a1c760a583">IUIAutomationSelectionPattern</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationselectionpattern">IUIAutomationSelectionPattern</a>
  
 
  

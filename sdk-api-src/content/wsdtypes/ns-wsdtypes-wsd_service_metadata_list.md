@@ -65,7 +65,7 @@ Reference to the next node in the linked list of <b>WSD_SERVICE_METADATA_LIST</b
 
 ### -field Element
 
-Reference to a <a href="https://msdn.microsoft.com/1f80e36f-06ca-41fc-bbd7-b44823c75d4d">WSD_SERVICE_METADATA</a> structure that represents the service metadata referenced by this node.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_service_metadata">WSD_SERVICE_METADATA</a> structure that represents the service metadata referenced by this node.
 
 
 ## -see-also
@@ -73,7 +73,7 @@ Reference to a <a href="https://msdn.microsoft.com/1f80e36f-06ca-41fc-bbd7-b4482
 
 
 
-<a href="https://msdn.microsoft.com/1f80e36f-06ca-41fc-bbd7-b44823c75d4d">WSD_SERVICE_METADATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_service_metadata">WSD_SERVICE_METADATA</a>
  
 
  

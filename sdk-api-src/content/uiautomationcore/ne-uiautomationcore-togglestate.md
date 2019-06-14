@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Contains values that specify the toggle state of a Microsoft UI Automation element that implements the 
-		<a href="https://msdn.microsoft.com/9fd1232b-199a-41e6-81b0-667c7e463d09">Toggle</a> <i>control pattern</i>.
+		<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingtoggle">Toggle</a> <i>control pattern</i>.
 
 
 ## -enum-fields
@@ -88,7 +88,7 @@ Creating an indeterminate state is different from disabling the control.
 
 
 
-<a href="https://msdn.microsoft.com/afadbcaf-156f-496e-a0f3-900e7f8d44da">Toggle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itoggleprovider-toggle">Toggle</a>
  
 
  

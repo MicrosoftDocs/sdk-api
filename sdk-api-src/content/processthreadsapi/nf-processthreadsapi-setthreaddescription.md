@@ -84,7 +84,7 @@ If the function fails, the return value is an <b>HRESULT</b> that denotes the er
 
 
 
-The description of a thread can be set more than once; the most recently set value is used. You can retrieve the description of a thread by calling <a href="https://msdn.microsoft.com/9CFF0A2D-2196-4AE0-8F77-229A8AB7A3E8">GetThreadDescription</a>.
+The description of a thread can be set more than once; the most recently set value is used. You can retrieve the description of a thread by calling <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreaddescription">GetThreadDescription</a>.
 
 
 #### Examples
@@ -110,7 +110,7 @@ if (FAILED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/9CFF0A2D-2196-4AE0-8F77-229A8AB7A3E8">GetThreadDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreaddescription">GetThreadDescription</a>
  
 
  

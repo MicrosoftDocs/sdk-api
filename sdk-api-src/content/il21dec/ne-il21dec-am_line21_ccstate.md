@@ -75,15 +75,15 @@ Closed captioning on.
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389392(v=VS.85).aspx">IAMLine21Decoder::GetServiceState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getservicestate">IAMLine21Decoder::GetServiceState</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319637(v=VS.85).aspx">IAMLine21Decoder::SetServiceState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-setservicestate">IAMLine21Decoder::SetServiceState</a>
  
 
  

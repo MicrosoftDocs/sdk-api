@@ -62,7 +62,7 @@ Returns the EIT_user_defined_flags field value from a service descriptor
 ### -param dwRecordIndex [in]
 
 Specifies the record number,
-  indexed from zero. Call the <a href="https://msdn.microsoft.com/9815ba89-d5c2-4d13-8ed1-478953836bc7">IDVB_SDT::GetCountOfRecords</a>method to get the number of records in the SDT.
+  indexed from zero. Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-getcountofrecords">IDVB_SDT::GetCountOfRecords</a>method to get the number of records in the SDT.
 
 
 
@@ -85,11 +85,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/9815ba89-d5c2-4d13-8ed1-478953836bc7">IDVB_SDT::GetCountOfRecords</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-getcountofrecords">IDVB_SDT::GetCountOfRecords</a>
 
 
 
-<a href="https://msdn.microsoft.com/a9824eb9-ec12-4a09-ba42-243fe19c0670">IISDB_SDT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdb_sdt">IISDB_SDT</a>
  
 
  

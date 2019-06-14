@@ -60,21 +60,21 @@ Creates a bitmap for use in a toolbar.
 
 ### -param hInstance
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HINSTANCE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HINSTANCE</a></b>
 
 Handle to the module instance with the executable file that contains the bitmap resource. 
 
 
 ### -param idBitmap
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT_PTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT_PTR</a></b>
 
 Resource identifier of the bitmap resource. 
 
 
 ### -param wFlags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Bitmap flag. This parameter can be zero or the following value: 
 
@@ -101,7 +101,7 @@ Uses a bitmap as a mask.
 
 Type: <b>LPCOLORMAP</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb760448(v=VS.85).aspx">COLORMAP</a> structure that contains the color information needed to map the bitmaps. If this parameter is <b>NULL</b>, the function uses the default color map. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-_colormap">COLORMAP</a> structure that contains the color information needed to map the bitmaps. If this parameter is <b>NULL</b>, the function uses the default color map. 
 
 
 ### -param iNumMaps
@@ -116,9 +116,9 @@ Number of color maps pointed to by
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HBITMAP</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HBITMAP</a></b>
 
-Returns the handle to the bitmap if successful, or <b>NULL</b> otherwise. To retrieve extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+Returns the handle to the bitmap if successful, or <b>NULL</b> otherwise. To retrieve extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 

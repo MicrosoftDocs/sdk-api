@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>CMC_PEND_INFO</b> structure is a possible member of a 
-<a href="https://msdn.microsoft.com/008f6de4-bad2-4c63-ba64-8d42ae71d50a">CMC_STATUS_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmc_status_info">CMC_STATUS_INFO</a> structure.
 
 
 ## -struct-fields
@@ -60,7 +60,7 @@ The <b>CMC_PEND_INFO</b> structure is a possible member of a
 
 ### -field PendToken
 
-A <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a> that contains the pending request information.
+A <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> that contains the pending request information.
 
 
 ### -field PendTime

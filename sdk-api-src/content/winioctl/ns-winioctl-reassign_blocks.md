@@ -51,7 +51,7 @@ req.redist:
 Contains 
     disk block reassignment data. This is a variable length structure where the last member is an array of block 
     numbers to be reassigned. It is used by the 
-    <a href="https://msdn.microsoft.com/57343bc9-9dd4-47a3-8130-07ea330eb4d3">IOCTL_DISK_REASSIGN_BLOCKS</a> control code.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_reassign_blocks">IOCTL_DISK_REASSIGN_BLOCKS</a> control code.
 
 
 ## -struct-fields
@@ -85,12 +85,12 @@ The <b>REASSIGN_BLOCKS</b> structure only supports
     drives where the Logical Block Address (LBA) is a 4-byte value (typically up to 2 TB). 
 
 For larger drives the 
-    <a href="https://msdn.microsoft.com/48036bdc-3588-41a6-9dbb-4606bdfcb683">REASSIGN_BLOCKS_EX</a> structure that is  used with the 
-    <a href="https://msdn.microsoft.com/126ffefa-165b-4ca1-a905-1aebc8e790c7">IOCTL_DISK_REASSIGN_BLOCKS_EX</a> control code 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_reassign_blocks_ex">REASSIGN_BLOCKS_EX</a> structure that is  used with the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_reassign_blocks_ex">IOCTL_DISK_REASSIGN_BLOCKS_EX</a> control code 
     supports 8-byte LBAs.
 
 For device compatibility, the 
-    <a href="https://msdn.microsoft.com/57343bc9-9dd4-47a3-8130-07ea330eb4d3">IOCTL_DISK_REASSIGN_BLOCKS</a> control code and 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_reassign_blocks">IOCTL_DISK_REASSIGN_BLOCKS</a> control code and 
     <b>REASSIGN_BLOCKS</b> structure should be used where 
     possible.
 
@@ -102,15 +102,15 @@ For device compatibility, the
 
 
 
-<a href="https://msdn.microsoft.com/57343bc9-9dd4-47a3-8130-07ea330eb4d3">IOCTL_DISK_REASSIGN_BLOCKS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_reassign_blocks">IOCTL_DISK_REASSIGN_BLOCKS</a>
 
 
 
-<a href="https://msdn.microsoft.com/126ffefa-165b-4ca1-a905-1aebc8e790c7">IOCTL_DISK_REASSIGN_BLOCKS_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_reassign_blocks_ex">IOCTL_DISK_REASSIGN_BLOCKS_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/48036bdc-3588-41a6-9dbb-4606bdfcb683">REASSIGN_BLOCKS_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_reassign_blocks_ex">REASSIGN_BLOCKS_EX</a>
  
 
  

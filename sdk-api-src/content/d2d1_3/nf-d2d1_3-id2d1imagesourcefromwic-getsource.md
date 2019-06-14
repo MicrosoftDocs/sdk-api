@@ -59,7 +59,7 @@ Retrieves the underlying bitmap image source from the Windows Imaging Component 
 
 ### -param wicBitmapSource
 
-Type: <b><a href="https://msdn.microsoft.com/abcc84af-6067-4856-8618-fb66aff4255a">IWICBitmapSource</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>**</b>
 
 On return contains the bitmap image source.
 
@@ -78,7 +78,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/EA1F1377-A314-4375-AB86-A36CFE5AF0C8">ID2D1ImageSourceFromWic</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1imagesourcefromwic">ID2D1ImageSourceFromWic</a>
  
 
  

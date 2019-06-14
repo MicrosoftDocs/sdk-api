@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Inserts a new item into a header control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775351(v=VS.85).aspx">HDM_INSERTITEM</a> message explicitly. 
+Inserts a new item into a header control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-insertitem">HDM_INSERTITEM</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Inserts a new item into a header control. You can use this macro or send the <a 
 
 ### -param hwndHD
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the header control. 
 
@@ -77,7 +77,7 @@ The index of the item after which the new item is to be inserted. The new item i
 
 Type: <b>const LPHDITEM</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb775247(v=VS.85).aspx">HDITEM</a> structure that contains information about the new item. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-_hd_itema">HDITEM</a> structure that contains information about the new item. 
 
 
 ## -remarks

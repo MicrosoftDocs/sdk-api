@@ -59,7 +59,7 @@ The <b>WFDOpenLegacySession</b> function  retrieves and applies a stored profile
 
 ### -param hClientHandle
 
-A <b>HANDLE</b> to the Wi-Fi Direct service for this session. This parameter is retrieved using the <a href="https://msdn.microsoft.com/D89FAC10-BC33-44BE-ABC8-962241949281">WFDOpenHandle</a> function.
+A <b>HANDLE</b> to the Wi-Fi Direct service for this session. This parameter is retrieved using the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wfdopenhandle">WFDOpenHandle</a> function.
 
 
 ### -param pLegacyMacAddress
@@ -145,11 +145,11 @@ The <b>WFDOpenLegacySession</b> function is part of Wi-Fi Direct, a new feature 
 
 
 
-In order to use Wi-Fi Direct, an application must first obtain a handle to the Wi-Fi Direct service by calling the <b>WFDOpenLegacySession</b> or <a href="https://msdn.microsoft.com/D89FAC10-BC33-44BE-ABC8-962241949281">WFDOpenHandle</a> function. The Wi-Fi Direct (WFD) handle returned by the  <b>WFDOpenHandle</b> function is used for subsequent calls made to the Wi-Fi Direct service. The  <b>WFDOpenLegacySession</b> function is used to retrieve and apply a stored profile for a Wi-Fi Direct legacy device. 
+In order to use Wi-Fi Direct, an application must first obtain a handle to the Wi-Fi Direct service by calling the <b>WFDOpenLegacySession</b> or <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wfdopenhandle">WFDOpenHandle</a> function. The Wi-Fi Direct (WFD) handle returned by the  <b>WFDOpenHandle</b> function is used for subsequent calls made to the Wi-Fi Direct service. The  <b>WFDOpenLegacySession</b> function is used to retrieve and apply a stored profile for a Wi-Fi Direct legacy device. 
 
 The 	<b>WFDOpenLegacySession</b> function retrieves the stored legacy profile for device from the profile store for the specified legacy device address. This device address must be obtained from a Device Node created as a result of the Inbox pairing experience (Legacy WPS Pairing).
 
-Once an application is done using the Wi-Fi Direct service, the application should call the <a href="https://msdn.microsoft.com/DEAF32C9-64A6-419A-A466-DE2313AE534C">WFDCloseSession</a> function to close the session and call the <a href="https://msdn.microsoft.com/A27C0AE1-1C51-4CAC-8929-63870ADB15A7">WFDCloseHandle</a> function to signal to the Wi-Fi Direct service that the application is done using the service. This allows the  Wi-Fi Direct service  to release resources used by the application.
+Once an application is done using the Wi-Fi Direct service, the application should call the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wfdclosesession">WFDCloseSession</a> function to close the session and call the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wfdclosehandle">WFDCloseHandle</a> function to signal to the Wi-Fi Direct service that the application is done using the service. This allows the  Wi-Fi Direct service  to release resources used by the application.
 
 
 
@@ -159,31 +159,31 @@ Once an application is done using the Wi-Fi Direct service, the application shou
 
 
 
-<a href="https://msdn.microsoft.com/0BE3DAED-C9B1-492B-BDFC-CB32BE23E700">WFDCancelOpenSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wfdcancelopensession">WFDCancelOpenSession</a>
 
 
 
-<a href="https://msdn.microsoft.com/A27C0AE1-1C51-4CAC-8929-63870ADB15A7">WFDCloseHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wfdclosehandle">WFDCloseHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/DEAF32C9-64A6-419A-A466-DE2313AE534C">WFDCloseSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wfdclosesession">WFDCloseSession</a>
 
 
 
-<a href="https://msdn.microsoft.com/D89FAC10-BC33-44BE-ABC8-962241949281">WFDOpenHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wfdopenhandle">WFDOpenHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/CF1FF7C2-31CD-4FAB-9891-0A72BEA3E9F1">WFDStartOpenSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wfdstartopensession">WFDStartOpenSession</a>
 
 
 
-<a href="https://msdn.microsoft.com/696B7466-5ED0-4202-9AAF-CE2544C5A5B8">WFDUpdateDeviceVisibility</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wfdupdatedevicevisibility">WFDUpdateDeviceVisibility</a>
 
 
 
-<a href="https://msdn.microsoft.com/2CB91D70-920A-4D97-B96D-B264F59150AC">WFD_OPEN_SESSION_COMPLETE_CALLBACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nc-wlanapi-wfd_open_session_complete_callback">WFD_OPEN_SESSION_COMPLETE_CALLBACK</a>
  
 
  

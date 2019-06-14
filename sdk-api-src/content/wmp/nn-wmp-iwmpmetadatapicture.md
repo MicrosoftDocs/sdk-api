@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 
-The <b>IWMPMetadataPicture</b> interface provides methods for retrieving information about the <a href="https://msdn.microsoft.com/ec82dfdf-7755-4758-9771-096aac114f78">WM/Picture</a> metadata attribute.
+The <b>IWMPMetadataPicture</b> interface provides methods for retrieving information about the <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmpicture">WM/Picture</a> metadata attribute.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPMetadataPicture</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IWMPMetadataPicture</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPMetadataPicture</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPMetadataPicture</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IWMPMetadataPicture</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563452(v=VS.85).aspx">get_description</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmetadatapicture-get_description">get_description</a>
 </td>
 <td align="left" width="63%">
 Retrieves a description of the metadata image.
@@ -81,7 +81,7 @@ Retrieves a description of the metadata image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563453(v=VS.85).aspx">get_mimeType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmetadatapicture-get_mimetype">get_mimeType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the MIME type of the metadata image.
@@ -90,7 +90,7 @@ Retrieves the MIME type of the metadata image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563454(v=VS.85).aspx">get_pictureType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmetadatapicture-get_picturetype">get_pictureType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the picture type of the metadata image.
@@ -99,7 +99,7 @@ Retrieves the picture type of the metadata image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563455(v=VS.85).aspx">get_URL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmetadatapicture-get_url">get_URL</a>
 </td>
 <td align="left" width="63%">
 Internal use only.
@@ -114,7 +114,7 @@ Internal use only.
 
 
 
-<a href="https://msdn.microsoft.com/68a0bdaf-ae1b-4ba1-817b-a31c68b9fddd">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
  
 
  

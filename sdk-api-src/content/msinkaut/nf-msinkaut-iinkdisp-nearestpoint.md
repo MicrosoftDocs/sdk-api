@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Retrieves the <a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp</a> within the <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp</a> object that is nearest to a known point, optionally providing the index of the nearest point and the distance to the stroke from the specified point.
+Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> within the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object that is nearest to a known point, optionally providing the index of the nearest point and the distance to the stroke from the specified point.
 
 
 
@@ -73,17 +73,17 @@ Specifies the <code>y-</code>position in ink space of the point.
 
 ### -param PointOnStroke [in, out, optional]
 
-Optional. Retrieves the point on the line of the stroke that is closest to the specified point within the <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp</a> object. For example, a value of 1.5 indicates that the point falls halfway between the first and second packets of the stroke. This parameter can be <b>NULL</b>. The default value is 0.
+Optional. Retrieves the point on the line of the stroke that is closest to the specified point within the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object. For example, a value of 1.5 indicates that the point falls halfway between the first and second packets of the stroke. This parameter can be <b>NULL</b>. The default value is 0.
 
 
 ### -param DistanceFromPacket [in, out, optional]
 
-Optional. Retrieves the distance between the specified point in ink space and the nearest stroke in the <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp</a> object. This parameter can be <b>NULL</b>. the default value is 0.
+Optional. Retrieves the distance between the specified point in ink space and the nearest stroke in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object. This parameter can be <b>NULL</b>. the default value is 0.
 
 
 ### -param Stroke [out, retval]
 
-When this method returns, contains the <a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp</a> that contains a point that is closest to the specified point in the <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp</a> object. If more than one stroke contains a point that is the same distance from the specified point, the value of this result is arbitrary.
+When this method returns, contains the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> that contains a point that is closest to the specified point in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object. If more than one stroke contains a point that is the same distance from the specified point, the value of this result is arbitrary.
 
 
 ## -returns
@@ -162,7 +162,7 @@ Cannot allocate memory operation.
 
 
 
-The output <i>point</i> parameter is defined as a floating-point number because the point on the line of the stroke can fall between two physical coordinate points. Use this value to split the stroke with the <a href="https://msdn.microsoft.com/1ae627e9-c546-485a-880c-e59d2191884d">Split</a> method, or round the value up or down to index a packet in the stroke.
+The output <i>point</i> parameter is defined as a floating-point number because the point on the line of the stroke can fall between two physical coordinate points. Use this value to split the stroke with the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-split">Split</a> method, or round the value up or down to index a packet in the stroke.
 
 The <i>distanceFromPacket</i> parameter describes the distance from the point to the envelope of the stroke. This is the distance between the two points minus half the width of the stroke.
 
@@ -178,19 +178,19 @@ The <i>distanceFromPacket</i> parameter describes the distance from the point to
 
 
 
-<a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/87c01f9d-b48a-459c-99f8-9634e1693fa0">NearestPoint Method [IInkStrokeDisp Interface]</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-nearestpoint">NearestPoint Method [IInkStrokeDisp Interface]</a>
 
 
 
-<a href="https://msdn.microsoft.com/1ae627e9-c546-485a-880c-e59d2191884d">Split Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-split">Split Method</a>
  
 
  

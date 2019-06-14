@@ -75,7 +75,7 @@ Pointer to the text at the current position. If
 
 ### -param cchText [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Number of characters in the buffer in the direction specified by 
 					<i>code</i>. 
@@ -83,7 +83,7 @@ Number of characters in the buffer in the direction specified by
 
 ### -param bCharSet [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 Character set of the text. 
 
@@ -99,7 +99,7 @@ Character set of the text.
 
 #### - code [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 Word break action. Can be one of the values described for the 
 					<i>code</i> parameter in the <a href="https://msdn.microsoft.com/b5df1365-4672-4c82-8ae4-ebf8b60bf871">EM_FINDWORDBREAK</a> message. 
@@ -109,7 +109,7 @@ Word break action. Can be one of the values described for the
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 The function returns a value based on the 
 						<i>code</i> parameter.

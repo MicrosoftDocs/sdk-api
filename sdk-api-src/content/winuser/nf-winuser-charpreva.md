@@ -96,7 +96,7 @@ The return value is a pointer to the preceding character in the string, or to th
 
 
 
-When called as an ANSI function, <b>CharPrev</b> uses the system default code-page, whereas <a href="https://msdn.microsoft.com/en-us/library/ms647472(v=VS.85).aspx">CharPrevExA</a> specifies a code-page to use.
+When called as an ANSI function, <b>CharPrev</b> uses the system default code-page, whereas <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-charprevexa">CharPrevExA</a> specifies a code-page to use.
 
 This function works with default "user" expectations of characters when dealing with diacritics. For example:
 A string that contains U+0061 U+030a "LATIN SMALL LETTER A" + COMBINING RING ABOVE" — which looks like "å", will advance two code points, not one.
@@ -112,15 +112,15 @@ and so on.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647469(v=VS.85).aspx">CharNext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-charnexta">CharNext</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647470(v=VS.85).aspx">CharNextExA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-charnextexa">CharNextExA</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647472(v=VS.85).aspx">CharPrevExA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-charprevexa">CharPrevExA</a>
 
 
 
@@ -132,7 +132,7 @@ and so on.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/strings">Strings</a>
  
 
  

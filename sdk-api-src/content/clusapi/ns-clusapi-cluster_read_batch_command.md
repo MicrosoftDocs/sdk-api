@@ -103,7 +103,7 @@ The count, in bytes, of the <i>lpData</i> value data.
 
 
 
-The pointers in the <b>CLUSTER_READ_BATCH_COMMAND</b> structure are valid until the read batch result handle is closed by the <a href="https://msdn.microsoft.com/C8CC4292-A7CC-4613-B5A8-B504E804E00E">ClusterRegCloseReadBatchReply</a> function.
+The pointers in the <b>CLUSTER_READ_BATCH_COMMAND</b> structure are valid until the read batch result handle is closed by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregclosereadbatchreply">ClusterRegCloseReadBatchReply</a> function.
 
 Errors from read commands are independent from each other.
 
@@ -115,11 +115,11 @@ Errors from read commands are independent from each other.
 
 
 
-<a href="https://msdn.microsoft.com/C8CC4292-A7CC-4613-B5A8-B504E804E00E">ClusterRegCloseReadBatchReply</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregclosereadbatchreply">ClusterRegCloseReadBatchReply</a>
 
 
 
-<a href="https://msdn.microsoft.com/4E0DEB5C-36AA-480C-913C-235DE9AEA58D">ClusterRegReadBatchReplyNextCommand</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregreadbatchreplynextcommand">ClusterRegReadBatchReplyNextCommand</a>
  
 
  

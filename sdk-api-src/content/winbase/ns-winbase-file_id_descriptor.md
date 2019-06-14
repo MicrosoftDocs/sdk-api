@@ -128,7 +128,7 @@ The ID of the object to open.
 
 ### -field DUMMYUNIONNAME.ExtendedFileId
 
-A <a href="https://msdn.microsoft.com/254ea6a9-e1dd-4b97-91f7-2693065c4bb8">FILE_ID_128</a> structure containing the 128-bit file ID of the file. This is used on ReFS file systems.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_file_id_128">FILE_ID_128</a> structure containing the 128-bit file ID of the file. This is used on ReFS file systems.
        
 
 <b>Windows XP, Windows Server 2003, Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:  </b>This member is not supported before Windows 8 and Windows Server 2012.
@@ -139,19 +139,19 @@ A <a href="https://msdn.microsoft.com/254ea6a9-e1dd-4b97-91f7-2693065c4bb8">FILE
 
 
 
-<a href="https://msdn.microsoft.com/254ea6a9-e1dd-4b97-91f7-2693065c4bb8">FILE_ID_128</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_file_id_128">FILE_ID_128</a>
 
 
 
-<a href="https://msdn.microsoft.com/7e46ba94-e3cd-4d6c-962f-5d5bd55d45a1">FILE_ID_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ne-winbase-_file_id_type">FILE_ID_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/406d5c0f-b49a-4075-ac3e-c5b55a0c3fe9">File Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-structures">File Management Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/caa757a2-fc3f-4883-8d3e-b98d28f92517">OpenFileById</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openfilebyid">OpenFileById</a>
  
 
  

@@ -54,7 +54,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets or sets a value that specifies whether the font style of the currently selected text in the <a href="https://msdn.microsoft.com/a1dfa254-cade-44c5-8fdd-74bb40849063">InkEdit</a> control is italic (run time only).
+Gets or sets a value that specifies whether the font style of the currently selected text in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control">InkEdit</a> control is italic (run time only).
 
 This property is read/write.
 
@@ -68,7 +68,7 @@ This property is read/write.
 
 If a selection spans multiple italicized and un-italicized characters, the <b>SelItalic</b> property will be <b>NULL</b>.
 
-If there is no text selected in the <a href="https://msdn.microsoft.com/a1dfa254-cade-44c5-8fdd-74bb40849063">InkEdit</a> control, setting this property indicates all new text entered at the current insertion point will be italicized.
+If there is no text selected in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control">InkEdit</a> control, setting this property indicates all new text entered at the current insertion point will be italicized.
 
 
 
@@ -82,7 +82,7 @@ If there is no text selected in the <a href="https://msdn.microsoft.com/a1dfa254
 
 
 
-<a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
  
 
  

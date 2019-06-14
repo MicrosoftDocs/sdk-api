@@ -54,7 +54,7 @@ Suspends screen updates being sent to the client.
 
 
 
-Use the <a href="https://msdn.microsoft.com/be11f1c8-eb55-4ed3-80ca-eda9ee21c92c">ResumeScreenUpdates</a> method to resume screen updates.
+Use the <a href="https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientactions-resumescreenupdates">ResumeScreenUpdates</a> method to resume screen updates.
 
 
 ## -parameters
@@ -78,7 +78,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/64b3683e-e577-48c1-a319-601e7944f68a">IRemoteDesktopClientActions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclientactions">IRemoteDesktopClientActions</a>
  
 
  

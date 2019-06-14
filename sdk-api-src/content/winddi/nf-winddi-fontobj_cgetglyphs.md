@@ -59,7 +59,7 @@ The <b>FONTOBJ_cGetGlyphs</b> function is a service to the font consumer that tr
 
 ### -param pfo
 
-Pointer to a <a href="https://msdn.microsoft.com/09af2006-51f1-433e-9227-3c99b9860e75">FONTOBJ</a> structure containing the glyph handles to be translated.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontobj">FONTOBJ</a> structure containing the glyph handles to be translated.
 
 
 ### -param iMode [in]
@@ -77,7 +77,7 @@ FO_GLYPHBITS
 
 </td>
 <td>
-Data will consist of <a href="https://msdn.microsoft.com/d7e0b5dd-dd94-4fc2-8c90-0d656a84c46b">GLYPHBITS</a> structures that define the bitmaps of the glyphs.
+Data will consist of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_glyphbits">GLYPHBITS</a> structures that define the bitmaps of the glyphs.
 
 </td>
 </tr>
@@ -87,9 +87,9 @@ FO_PATHOBJ
 
 </td>
 <td>
-Data will consist of <a href="https://msdn.microsoft.com/ceccca92-3312-49b4-b0f6-a3d0cd4bbef5">PATHOBJ</a> structures that define the outlines of the glyphs.
+Data will consist of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_pathobj">PATHOBJ</a> structures that define the outlines of the glyphs.
 
-To determine whether the path should be filled or stroked, the font consumer should check the <b>flInfo</b> member of the <a href="https://msdn.microsoft.com/fd2606ed-ec61-430a-aaad-38a4c3a207b6">IFIMETRICS</a> structure. If the FM_INFO_RETURNS_STROKES flag is set, the path should be stroked; otherwise, the path should be filled.
+To determine whether the path should be filled or stroked, the font consumer should check the <b>flInfo</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a> structure. If the FM_INFO_RETURNS_STROKES flag is set, the path should be stroked; otherwise, the path should be filled.
 
 </td>
 </tr>
@@ -109,7 +109,7 @@ Pointer to an array of <i>cGlyph</i> HGLYPH structures supplied by the driver.
 
 ### -param ppvGlyph
 
-Pointer to a memory location that receives the address of a <a href="https://msdn.microsoft.com/9153b8c7-e6ad-4297-a0b6-ea495b9b312f">GLYPHDATA</a> structure. The first member of this structure is a <a href="https://msdn.microsoft.com/d1a7a02c-acaf-46b5-9ffe-fddbb01408a5">GLYPHDEF</a> union, which contains a pointer to either a GLYPHBITS structure or a PATHOBJ structure, depending on the value of the <i>iMode</i> parameter. If the value of <i>iMode</i> is FO_GLYPHBITS, (*<i>ppvGlyph)</i>-&gt;<i>gdf</i> contains the address of a GLYPHBITS structure. If the value of <i>iMode</i> is FO_PATHOBJ, (*<i>ppvGlyph</i>)-&gt;<i>gdf</i> contains the address of a PATHOBJ structure. 
+Pointer to a memory location that receives the address of a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_glyphdata">GLYPHDATA</a> structure. The first member of this structure is a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_glyphdef">GLYPHDEF</a> union, which contains a pointer to either a GLYPHBITS structure or a PATHOBJ structure, depending on the value of the <i>iMode</i> parameter. If the value of <i>iMode</i> is FO_GLYPHBITS, (*<i>ppvGlyph)</i>-&gt;<i>gdf</i> contains the address of a GLYPHBITS structure. If the value of <i>iMode</i> is FO_PATHOBJ, (*<i>ppvGlyph</i>)-&gt;<i>gdf</i> contains the address of a PATHOBJ structure. 
 
 
 ## -returns
@@ -135,27 +135,27 @@ This function should be used if the driver is caching fonts.
 
 
 
-<a href="https://msdn.microsoft.com/8e11c4e7-0203-4445-8f33-3b928161c62a">DrvGetGlyphMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvgetglyphmode">DrvGetGlyphMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/09af2006-51f1-433e-9227-3c99b9860e75">FONTOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontobj">FONTOBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/b3901f9e-14e6-42c2-851c-47c0f386f2d3">FONTOBJ_cGetAllGlyphHandles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-fontobj_cgetallglyphhandles">FONTOBJ_cGetAllGlyphHandles</a>
 
 
 
-<a href="https://msdn.microsoft.com/d7e0b5dd-dd94-4fc2-8c90-0d656a84c46b">GLYPHBITS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_glyphbits">GLYPHBITS</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd2606ed-ec61-430a-aaad-38a4c3a207b6">IFIMETRICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/ceccca92-3312-49b4-b0f6-a3d0cd4bbef5">PATHOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_pathobj">PATHOBJ</a>
  
 
  

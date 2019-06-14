@@ -53,8 +53,8 @@ ms.custom: 19H1
     section. Support for this method was removed in Windows Server 2003. This function is not exported 
     from ResUtils.dll and programs or DLLs that statically link to it will not load.]
 
-Returns a <a href="https://msdn.microsoft.com/en-us/library/Aa369570(v=VS.85).aspx">expandable string</a> value from the 
-    <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">cluster database</a>.
+Returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/e-gly">expandable string</a> value from the 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a>.
 
 
 ## -parameters
@@ -86,7 +86,7 @@ If the operations succeeds, the function returns a null-terminated Unicode strin
        specified value.
 
 If the operation fails, the function returns <b>NULL</b>. For more information, see 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -97,7 +97,7 @@ If the operation fails, the function returns <b>NULL</b>. For more information, 
 
 When you are finished with the memory allocated for the value returned by the 
      <b>ResUtilGetExpandSzValue</b> utility function, you 
-     must call the function <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a> to release it.
+     must call the function <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> to release it.
 
 
 
@@ -107,23 +107,23 @@ When you are finished with the memory allocated for the value returned by the
 
 
 
-<a href="https://msdn.microsoft.com/78ea27da-2b95-46df-b01e-4a3717276859">ClusterRegQueryValue</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregqueryvalue">ClusterRegQueryValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/d5068cc4-1fdc-430a-a48b-8e024bc20ca3">ResUtilGetBinaryValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetbinaryvalue">ResUtilGetBinaryValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/2db6126e-a3a7-415b-a436-c3d0748fbc65">ResUtilGetDwordValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetdwordvalue">ResUtilGetDwordValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/09547806-16f4-40ce-8713-591a7691a588">ResUtilGetMultiSzValue</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nf-resapi-resutilgetmultiszvalue">ResUtilGetMultiSzValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/c2ba04ea-0f98-4513-b8f8-658056a493e6">ResUtilGetSzValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetszvalue">ResUtilGetSzValue</a>
  
 
  

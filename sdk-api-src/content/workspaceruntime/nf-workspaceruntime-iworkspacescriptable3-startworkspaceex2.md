@@ -118,7 +118,7 @@ The password is encrypted.
 
 #### WKS_FLAG_CREDS_AUTHENTICATED (4 (0x4))
 
-The user credentials are verified. If this flag is not set, you must call the <a href="https://msdn.microsoft.com/7b879234-07a2-43e7-83e8-c503e418f71e">OnAuthenticated</a> method before using the credentials.
+The user credentials are verified. If this flag is not set, you must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ee351600(v=vs.85)">OnAuthenticated</a> method before using the credentials.
 
 
 ### -param bstrEventLogUploadAddress [in]
@@ -145,7 +145,7 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRES
 
 
 
-<a href="https://msdn.microsoft.com/6fe02f0a-8cce-47f0-807e-e627336adf2c">IWorkspaceScriptable3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspacescriptable3">IWorkspaceScriptable3</a>
  
 
  

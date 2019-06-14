@@ -70,7 +70,7 @@ The <b>GetClientProperties</b> method retrieves information, including the IP ad
 
 ### -param pClientProperties [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd757903(v=VS.85).aspx">WM_CLIENT_PROPERTIES</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmclientproperties">WM_CLIENT_PROPERTIES</a> structure.
 
 
 ## -returns
@@ -143,7 +143,7 @@ Failed to get client information for unspecified reason.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743303(v=VS.85).aspx">IWMClientConnections Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmclientconnections">IWMClientConnections Interface</a>
  
 
  

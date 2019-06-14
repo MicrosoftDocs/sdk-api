@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information passed to a <b>WH_CBT</b> hook procedure, <a href="https://msdn.microsoft.com/en-us/library/ms644977(v=VS.85).aspx">CBTProc</a>, before a window is activated. 
+Contains information passed to a <b>WH_CBT</b> hook procedure, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644977(v=vs.85)">CBTProc</a>, before a window is activated. 
 
 
 ## -struct-fields
@@ -76,7 +76,7 @@ A handle to the active window.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644977(v=VS.85).aspx">CBTProc</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644977(v=vs.85)">CBTProc</a>
 
 
 
@@ -84,7 +84,7 @@ A handle to the active window.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632589(v=VS.85).aspx">Hooks</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/hooks">Hooks</a>
 
 
 
@@ -92,7 +92,7 @@ A handle to the active window.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644990(v=VS.85).aspx">SetWindowsHookEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>
  
 
  

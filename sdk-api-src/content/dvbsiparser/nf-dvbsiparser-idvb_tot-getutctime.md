@@ -65,7 +65,7 @@ The <b>GetUTCTime</b> method returns the current UTC time and date.
 
 ### -param pmdtVal [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/586269c5-3415-4a5c-8c8f-b405a7bc3f56">MPEG_DATE_AND_TIME</a> structure allocated by the caller. The method fills the structure with the UTC time and date.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0026">MPEG_DATE_AND_TIME</a> structure allocated by the caller. The method fills the structure with the UTC time and date.
 
 
 ## -returns
@@ -112,7 +112,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/fe5b6b7c-fc6b-4889-b780-4b9f61f3e895">IDVB_TOT Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_tot">IDVB_TOT Interface</a>
  
 
  

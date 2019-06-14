@@ -76,11 +76,11 @@ This property was read-only prior to Windows Server 2012.
 
 
 
-<a href="https://msdn.microsoft.com/bcb26b43-ec6e-4cc8-9d40-15a7a3a62582">ITsSbTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbtarget">ITsSbTarget</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f0f26fb-e8bc-47eb-8038-e51792ad4376">ITsSbTargetEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/TermServ/itssbtargetex">ITsSbTargetEx</a>
  
 
  

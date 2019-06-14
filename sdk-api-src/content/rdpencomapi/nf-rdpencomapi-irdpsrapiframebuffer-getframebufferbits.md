@@ -96,7 +96,7 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the return v
 
 
 
-<a href="https://msdn.microsoft.com/ab40bdd2-448f-4867-aabd-d6b66add5247">IRDPSRAPIFrameBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiframebuffer">IRDPSRAPIFrameBuffer</a>
  
 
  

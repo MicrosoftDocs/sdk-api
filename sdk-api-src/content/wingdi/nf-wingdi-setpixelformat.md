@@ -72,7 +72,7 @@ Index that identifies the pixel format to set. The various pixel formats support
 
 ### -param ppfd
 
-Pointer to a <a href="https://msdn.microsoft.com/1480dea3-ae74-4e8b-b4de-fca8de5d8395">PIXELFORMATDESCRIPTOR</a> structure that contains the logical pixel format specification. The system's metafile component uses this structure to record the logical pixel format specification. The structure has no other effect upon the behavior of the <b>SetPixelFormat</b> function.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagpixelformatdescriptor">PIXELFORMATDESCRIPTOR</a> structure that contains the logical pixel format specification. The system's metafile component uses this structure to record the logical pixel format specification. The structure has no other effect upon the behavior of the <b>SetPixelFormat</b> function.
 
 
 ## -returns
@@ -81,7 +81,7 @@ Pointer to a <a href="https://msdn.microsoft.com/1480dea3-ae74-4e8b-b4de-fca8de5
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
-If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -92,7 +92,7 @@ If the function fails, the return value is <b>FALSE</b>. To get extended error i
 
 If <i>hdc</i> references a window, calling the <b>SetPixelFormat</b> function also changes the pixel format of the window. Setting the pixel format of a window more than once can lead to significant complications for the Window Manager and for multithread applications, so it is not allowed. An application can only set the pixel format of a window one time. Once a window's pixel format is set, it cannot be changed.
 
-You should select a pixel format in the device context before calling the <a href="https://msdn.microsoft.com/fa9ed944-f917-4fdf-a52a-10a7ade8f2ca">wglCreateContext</a> function. The <b>wglCreateContext</b> function creates a rendering context for drawing on the device in the selected pixel format of the device context.
+You should select a pixel format in the device context before calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wglcreatecontext">wglCreateContext</a> function. The <b>wglCreateContext</b> function creates a rendering context for drawing on the device in the selected pixel format of the device context.
 
 An OpenGL window has its own pixel format. Because of this, only device contexts retrieved for the client area of an OpenGL window are allowed to draw into the window. As a result, an OpenGL window should be created with the WS_CLIPCHILDREN and WS_CLIPSIBLINGS styles. Additionally, the window class attribute should not include the CS_PARENTDC style.
 
@@ -142,23 +142,23 @@ SetPixelFormat(hdc, iPixelFormat, &pfd);
 
 
 
-<a href="https://msdn.microsoft.com/17bd0a2c-5257-4ae3-80f4-a5ad536169fb">ChoosePixelFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-choosepixelformat">ChoosePixelFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/9692a30d-c7d4-40c7-a265-72c4ebabd5f2">DescribePixelFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-describepixelformat">DescribePixelFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9a65f3a-6932-462f-b342-a993d222fae8">GetPixelFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getpixelformat">GetPixelFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/589a86f1-598d-4175-97fc-27ca0b254935">OpenGL on Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows</a>
 
 
 
-<a href="https://msdn.microsoft.com/866841db-b137-4f65-856d-b9df5bde12fb">Windows Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/OpenGL/win32-functions">Windows Functions</a>
  
 
  

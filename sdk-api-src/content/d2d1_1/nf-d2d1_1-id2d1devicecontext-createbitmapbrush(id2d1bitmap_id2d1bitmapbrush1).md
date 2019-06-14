@@ -59,14 +59,14 @@ Creates a bitmap brush, the input image is a Direct2D bitmap object.
 
 ### -param bitmap [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e58216ea-e6b5-450f-a0ea-b879aa5dff38">ID2D1Bitmap</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>*</b>
 
 The bitmap to use as the brush.
 
 
 ### -param bitmapBrush [out]
 
-Type: <b><a href="https://msdn.microsoft.com/5EF60CF5-DB7E-4453-80A2-F248A82A37E3">ID2D1BitmapBrush1</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1bitmapbrush1">ID2D1BitmapBrush1</a>**</b>
 
 The address of the newly created bitmap brush object.
 
@@ -107,23 +107,23 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 
-<a href="https://msdn.microsoft.com/0FECAD03-C35C-4729-9BBE-40DE11B34068">D2D1_BITMAP_BRUSH_PROPERTIES1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_bitmap_brush_properties1">D2D1_BITMAP_BRUSH_PROPERTIES1</a>
 
 
 
-<a href="https://msdn.microsoft.com/9c3be6a0-ac67-4dc1-9c5a-0ee47343cb86">D2D1_BRUSH_PROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createbitmap(d2d1_size_u_constvoid_uint32_constd2d1_bitmap_properties_id2d1bitmap)">D2D1_BRUSH_PROPERTIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/e58216ea-e6b5-450f-a0ea-b879aa5dff38">ID2D1Bitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/5EF60CF5-DB7E-4453-80A2-F248A82A37E3">ID2D1BitmapBrush1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1bitmapbrush1">ID2D1BitmapBrush1</a>
 
 
 
-<a href="https://msdn.microsoft.com/a54dd628-c2a2-4b04-9ced-7749a395f187">ID2D1DeviceContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>
  
 
  

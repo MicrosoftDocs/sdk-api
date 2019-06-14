@@ -71,7 +71,7 @@ Unicode string that specifies the name of the superscope to delete.
 
 
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://msdn.microsoft.com/6370313f-d7db-4ff1-b0e0-7fa47474facb">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -121,7 +121,7 @@ The specified IPv4 subnet does not exist on the DHCP server.
 
 
 
-Deleting a superscope does not delete the subnets present in the superscope; it simply removes the table that groups the subnets into a superscope. Individual subnets should be deleted using <a href="https://msdn.microsoft.com/e000a81b-b61b-4ba9-adee-4940edc78050">DhcpDeleteSubnet</a>.
+Deleting a superscope does not delete the subnets present in the superscope; it simply removes the table that groups the subnets into a superscope. Individual subnets should be deleted using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpdeletesubnet">DhcpDeleteSubnet</a>.
 
 
 
@@ -131,11 +131,11 @@ Deleting a superscope does not delete the subnets present in the superscope; it 
 
 
 
-<a href="https://msdn.microsoft.com/f40c77b8-c8ad-432d-8a9e-6719630826ef">DhcpGetSuperScopeInfoV4</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpgetsuperscopeinfov4">DhcpGetSuperScopeInfoV4</a>
 
 
 
-<a href="https://msdn.microsoft.com/70da0113-0c4a-4c4e-80ae-1e55773f9904">DhcpSetSuperScopeV4</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpsetsuperscopev4">DhcpSetSuperScopeV4</a>
  
 
  

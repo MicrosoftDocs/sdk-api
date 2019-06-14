@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ### -param ppEnum [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/b222deb8-22dd-44c3-9ecc-0fb379682796">IEnumTfDisplayAttributeInfo</a> interface pointer that receives the enumerator object.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfdisplayattributeinfo">IEnumTfDisplayAttributeInfo</a> interface pointer that receives the enumerator object.
 
 
 ## -returns
@@ -127,12 +127,12 @@ The enumerator object cannot be initialized.
 
 
 
-<a href="https://msdn.microsoft.com/b222deb8-22dd-44c3-9ecc-0fb379682796">IEnumTfDisplayAttributeInfo
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfdisplayattributeinfo">IEnumTfDisplayAttributeInfo
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/4a1f9a13-54a1-4294-9635-80eef8bcd8d5">ITfDisplayAttributeMgr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdisplayattributemgr">ITfDisplayAttributeMgr</a>
  
 
  

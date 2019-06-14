@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves a <a href="https://msdn.microsoft.com/d8697474-bfe5-4704-b1ac-15cf96f2ca92">WSD_EVENT</a> structure that contains the result of the event.
+Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_event">WSD_EVENT</a> structure that contains the result of the event.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Retrieves a <a href="https://msdn.microsoft.com/d8697474-bfe5-4704-b1ac-15cf96f2
 
 ### -param pEvent [out]
 
-Reference to a <a href="https://msdn.microsoft.com/d8697474-bfe5-4704-b1ac-15cf96f2ca92">WSD_EVENT</a> structure that provides data about the event. 
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_event">WSD_EVENT</a> structure that provides data about the event. 
 
 
 
@@ -122,7 +122,7 @@ Event is not yet available or the asynchronous operation has not completed.
 
 
 
-This method should only be called by <a href="https://msdn.microsoft.com/76dffca8-bb84-4384-a9e8-120a4cf2acac">generated code</a> and only after the <a href="https://msdn.microsoft.com/49c5ad02-f24b-4ef9-b943-483728c0bbcd">IWSDAsyncResult</a> object has signaled that the operation has completed.
+This method should only be called by <a href="https://docs.microsoft.com/windows/desktop/WsdApi/web-services-for-devices-code-generator">generated code</a> and only after the <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a> object has signaled that the operation has completed.
 
 
 
@@ -132,7 +132,7 @@ This method should only be called by <a href="https://msdn.microsoft.com/76dffca
 
 
 
-<a href="https://msdn.microsoft.com/49c5ad02-f24b-4ef9-b943-483728c0bbcd">IWSDAsyncResult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a>
  
 
  

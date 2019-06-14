@@ -108,7 +108,7 @@ Out of memory.
 
 
 
-As an example of a friendly name, a subunit with an <a href="https://msdn.microsoft.com/524d83ff-4303-448c-a070-58d17dec03ba">IAudioPeakMeter</a> interface might have the friendly name "peak meter".
+As an example of a friendly name, a subunit with an <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiopeakmeter">IAudioPeakMeter</a> interface might have the friendly name "peak meter".
 
 
 
@@ -118,11 +118,11 @@ As an example of a friendly name, a subunit with an <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/524d83ff-4303-448c-a070-58d17dec03ba">IAudioPeakMeter Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiopeakmeter">IAudioPeakMeter Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/fdd91f65-e45c-4f14-a55c-a44be1661950">IControlInterface Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-icontrolinterface">IControlInterface Interface</a>
  
 
  

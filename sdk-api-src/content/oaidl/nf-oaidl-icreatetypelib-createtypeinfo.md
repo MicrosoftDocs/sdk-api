@@ -171,7 +171,7 @@ Type mismatch.
 
 
 
-Use <a href="https://msdn.microsoft.com/d245cd25-ce31-42da-a42d-dc412d5b98e7">ICreateTypeLib</a> to create a new type description instance within the library. An error is returned if the specified name already appears in the library. Valid <i>tkind</i> values are described in TYPEKIND. To get the type information of the type description that is being created, call <code>IUnknown::QueryInterface(IID_ITypeInfo, ...)</code> on the returned <b>ICreateTypeLib</b>. This type information can be used by other type descriptions that reference it by using <a href="https://msdn.microsoft.com/cb7f41f1-81a6-406f-916f-d1d1a8c093b5">ICreateTypeInfo::AddRefTypeInfo</a>.
+Use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a> to create a new type description instance within the library. An error is returned if the specified name already appears in the library. Valid <i>tkind</i> values are described in TYPEKIND. To get the type information of the type description that is being created, call <code>IUnknown::QueryInterface(IID_ITypeInfo, ...)</code> on the returned <b>ICreateTypeLib</b>. This type information can be used by other type descriptions that reference it by using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo-addreftypeinfo">ICreateTypeInfo::AddRefTypeInfo</a>.
 
 
 
@@ -182,7 +182,7 @@ Use <a href="https://msdn.microsoft.com/d245cd25-ce31-42da-a42d-dc412d5b98e7">IC
 
 
 
-<a href="https://msdn.microsoft.com/d245cd25-ce31-42da-a42d-dc412d5b98e7">ICreateTypeLib</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a>
  
 
  

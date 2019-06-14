@@ -55,7 +55,7 @@ The <b>IUIEventLogger</b> interface is implemented by the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIEventLogger</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUIEventLogger</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIEventLogger</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIEventLogger</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IUIEventLogger</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1BE6F914-C57D-4A8F-A286-C47BFD48B310">OnUIEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuieventlogger-onuievent">OnUIEvent</a>
 </td>
 <td align="left" width="63%">
 Receives notifications that a ribbon event has occurred.
@@ -85,15 +85,15 @@ Receives notifications that a ribbon event has occurred.
 
 
 
-<a href="https://msdn.microsoft.com/11E53D75-B8C0-40A3-8E4D-ACAA10BEAC84">IUIEventingManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuieventingmanager">IUIEventingManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371356(v=VS.85).aspx">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-interfaces">Interfaces</a>
  
 
  

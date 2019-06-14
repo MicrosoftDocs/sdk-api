@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CTL_USAGE_MATCH</b> structure provides parameters for finding <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate trust lists</a> (CTL) used to build a certificate chain.
+The <b>CTL_USAGE_MATCH</b> structure provides parameters for finding <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust lists</a> (CTL) used to build a certificate chain.
 
 
 ## -struct-fields
@@ -95,5 +95,5 @@ Default usage match logic is USAGE_MATCH_TYPE_AND.
 ### -field Usage
 
 
-<a href="https://msdn.microsoft.com/70ee138a-df94-4fc4-9de5-0d8b7704b890">CTL_USAGE</a> structure that includes an array of <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifiers</a> (OIDs) a CTL must match in order to be valid.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_usage">CTL_USAGE</a> structure that includes an array of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) a CTL must match in order to be valid.
 

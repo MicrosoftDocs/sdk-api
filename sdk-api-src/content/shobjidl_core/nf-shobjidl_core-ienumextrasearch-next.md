@@ -66,9 +66,9 @@ The number of search objects to be enumerated, starting from the current object.
 
 ### -param rgelt [out]
 
-Type: <b><a href="https://msdn.microsoft.com/d930a00b-3084-4da7-8915-0bebdb33df9b">EXTRASEARCH</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-extrasearch">EXTRASEARCH</a>*</b>
 
-A pointer to an array of <i>pceltFetched</i> <a href="https://msdn.microsoft.com/d930a00b-3084-4da7-8915-0bebdb33df9b">EXTRASEARCH</a> structures containing information on the enumerated objects.
+A pointer to an array of <i>pceltFetched</i> <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-extrasearch">EXTRASEARCH</a> structures containing information on the enumerated objects.
 
 
 ### -param pceltFetched [out]

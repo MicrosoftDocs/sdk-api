@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/02295183-b117-4ca9-89ad-223fdd3b0aa5">ID3D11SwitchToRef</a> interface and its methods are not supported in Direct3D 11.</div><div> </div>
+<div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11switchtoref">ID3D11SwitchToRef</a> interface and its methods are not supported in Direct3D 11.</div><div> </div>
 
 ## -parameters
 
@@ -62,7 +62,7 @@ ms.custom: 19H1
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Reserved.
 
@@ -74,7 +74,7 @@ Reserved.
 
 
 
-<a href="https://msdn.microsoft.com/02295183-b117-4ca9-89ad-223fdd3b0aa5">ID3D11SwitchToRef Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11switchtoref">ID3D11SwitchToRef Interface</a>
  
 
  

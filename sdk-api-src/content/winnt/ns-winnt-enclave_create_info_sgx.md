@@ -76,11 +76,11 @@ For more information about the <b>SECS</b> structure, see the Intel SGX Programm
 
 
 
-<a href="https://msdn.microsoft.com/2193AE42-D9CC-4A9C-8676-7DE432ED58C3">CreateEnclave</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-createenclave">CreateEnclave</a>
 
 
 
-<a href="https://msdn.microsoft.com/A314FF96-A212-4F47-B836-224DE2C3AC0F">ENCLAVE_INIT_INFO_SGX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_enclave_init_info_sgx">ENCLAVE_INIT_INFO_SGX</a>
  
 
  

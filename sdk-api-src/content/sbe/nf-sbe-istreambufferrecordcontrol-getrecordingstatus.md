@@ -154,7 +154,7 @@ This method reports the status of the <b>Start</b> and <b>Stop</b> methods, whic
 
 
 
-<a href="https://msdn.microsoft.com/f196638e-ccbb-4768-96c1-8e1d00361831">IStreamBufferRecordControl Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferrecordcontrol">IStreamBufferRecordControl Interface</a>
  
 
  

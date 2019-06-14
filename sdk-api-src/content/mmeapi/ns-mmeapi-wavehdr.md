@@ -139,7 +139,7 @@ Set by Windows to indicate that the buffer is queued for playback.
 </dl>
 </td>
 <td width="60%">
-Set by Windows to indicate that the buffer has been prepared with the <a href="https://msdn.microsoft.com/2b99eb91-2cc6-4394-af57-4b1276f08974">waveInPrepareHeader</a> or <a href="https://msdn.microsoft.com/f970c7ed-b9c5-45ce-a59b-dee02359ef82">waveOutPrepareHeader</a> function.
+Set by Windows to indicate that the buffer has been prepared with the <a href="https://docs.microsoft.com/previous-versions//dd743848(v=vs.85)">waveInPrepareHeader</a> or <a href="https://docs.microsoft.com/previous-versions//dd743868(v=vs.85)">waveOutPrepareHeader</a> function.
 
 </td>
 </tr>
@@ -168,7 +168,7 @@ Reserved.
 
 Use the WHDR_BEGINLOOP and WHDR_ENDLOOP flags in the <b>dwFlags</b> member to specify the beginning and ending data blocks for looping. To loop on a single block, specify both flags for the same block. Use the <b>dwLoops</b> member in the <b>WAVEHDR</b> structure for the first block in the loop to specify the number of times to play the loop.
 
-The <b>lpData</b>, <b>dwBufferLength</b>, and <b>dwFlags</b> members must be set before calling the <a href="https://msdn.microsoft.com/2b99eb91-2cc6-4394-af57-4b1276f08974">waveInPrepareHeader</a> or <a href="https://msdn.microsoft.com/f970c7ed-b9c5-45ce-a59b-dee02359ef82">waveOutPrepareHeader</a> function. (For either function, the <b>dwFlags</b> member must be set to zero.)
+The <b>lpData</b>, <b>dwBufferLength</b>, and <b>dwFlags</b> members must be set before calling the <a href="https://docs.microsoft.com/previous-versions//dd743848(v=vs.85)">waveInPrepareHeader</a> or <a href="https://docs.microsoft.com/previous-versions//dd743868(v=vs.85)">waveOutPrepareHeader</a> function. (For either function, the <b>dwFlags</b> member must be set to zero.)
 
 
 
@@ -178,19 +178,19 @@ The <b>lpData</b>, <b>dwBufferLength</b>, and <b>dwFlags</b> members must be set
 
 
 
-<a href="https://msdn.microsoft.com/3188355c-65be-4372-8e87-e7f755982592">Waveform Audio</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ae84ba8-f444-4d9e-adc8-343b4ee764cc">Waveform Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-structures">Waveform Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/2b99eb91-2cc6-4394-af57-4b1276f08974">waveInPrepareHeader</a>
+<a href="https://docs.microsoft.com/previous-versions//dd743848(v=vs.85)">waveInPrepareHeader</a>
 
 
 
-<a href="https://msdn.microsoft.com/f970c7ed-b9c5-45ce-a59b-dee02359ef82">waveOutPrepareHeader</a>
+<a href="https://docs.microsoft.com/previous-versions//dd743868(v=vs.85)">waveOutPrepareHeader</a>
  
 
  

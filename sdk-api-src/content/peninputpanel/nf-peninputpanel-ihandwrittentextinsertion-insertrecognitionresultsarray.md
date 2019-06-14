@@ -98,7 +98,7 @@ This element is declared in Peninputpanel.h.
 
 
 
-<a href="https://msdn.microsoft.com/67fcf19a-a864-40de-987f-406f18726a9f">IHandWrittenTextInsertion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-ihandwrittentextinsertion">IHandWrittenTextInsertion</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 Forward method forwards calls destined for the address according to the forwarding instructions contained in 
-<a href="https://msdn.microsoft.com/0e06cd0b-b95b-4853-b883-53146be084f0">ITForwardInformation</a>. If <i>pForwardInfo</i> is set to <b>NULL</b>, forwarding is canceled.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation">ITForwardInformation</a>. If <i>pForwardInfo</i> is set to <b>NULL</b>, forwarding is canceled.
 
 
 ## -parameters
@@ -62,13 +62,13 @@ Forward method forwards calls destined for the address according to the forwardi
 ### -param pForwardInfo [in]
 
 Pointer to 
-<a href="https://msdn.microsoft.com/0e06cd0b-b95b-4853-b883-53146be084f0">ITForwardInformation</a> interface, or set to <b>NULL</b> to cancel forwarding.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation">ITForwardInformation</a> interface, or set to <b>NULL</b> to cancel forwarding.
 
 
 ### -param pCall [in]
 
 Pointer to 
-<a href="https://msdn.microsoft.com/a0b4c496-5ee8-4810-8170-8ea505c99f18">ITBasicCallControl</a> interface for the consultation call, if required by the telephony environment. May be <b>NULL</b> if not required.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a> interface for the consultation call, if required by the telephony environment. May be <b>NULL</b> if not required.
 
 
 ## -returns
@@ -145,7 +145,7 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 </td>
 <td width="60%">
 See 
-<a href="https://msdn.microsoft.com/68dc99c5-1158-4e18-8e32-08216ff3567b">LineForward</a> for error codes returned from this TAPI 2.1 function.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineforward">LineForward</a> for error codes returned from this TAPI 2.1 function.
 
 </td>
 </tr>
@@ -162,16 +162,16 @@ See
 The information in <i>pForwardInfo</i> overrides any previous forwarding instructions.
 
 If 
-<a href="https://msdn.microsoft.com/4d3071d5-055a-469d-aa17-984b8210cbea">ITAddress::put_DoNotDisturb</a> is called with <i>fDoNotDisturb</i> set to VARIANT_FALSE, all forwarding is canceled.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-put_donotdisturb">ITAddress::put_DoNotDisturb</a> is called with <i>fDoNotDisturb</i> set to VARIANT_FALSE, all forwarding is canceled.
 
 An application can determine whether non-<b>NULL</b> consultation call is required by calling 
-<a href="https://msdn.microsoft.com/76e61d5e-48b6-4b9c-9076-bd20a794859c">ITAddressCapabilities::get_AddressCapability</a> (AC_ADDRESSCAPFLAGS, <i>plCapability</i>) and checking whether the flag LINEADDRCAPFLAGS_FWDCONSULT, a member of 
-<a href="https://msdn.microsoft.com/530af273-82ba-4310-8aac-266d657e1bfe">LINEADDRCAPFLAGS_ Constants</a>, has been set in <i>plCapability</i>. If it is set, a non-<b>NULL</b> value is required for the <i>pCall</i> parameter of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresscapabilities-get_addresscapability">ITAddressCapabilities::get_AddressCapability</a> (AC_ADDRESSCAPFLAGS, <i>plCapability</i>) and checking whether the flag LINEADDRCAPFLAGS_FWDCONSULT, a member of 
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddrcapflags--constants">LINEADDRCAPFLAGS_ Constants</a>, has been set in <i>plCapability</i>. If it is set, a non-<b>NULL</b> value is required for the <i>pCall</i> parameter of the 
 Forward method.
 
 The 
 Forward method is, in part, a COM wrapper for the TAPI 2.1 
-<a href="https://msdn.microsoft.com/68dc99c5-1158-4e18-8e32-08216ff3567b">LineForward</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineforward">LineForward</a> function.
 
 
 
@@ -181,31 +181,31 @@ Forward method is, in part, a COM wrapper for the TAPI 2.1
 
 
 
-<a href="https://msdn.microsoft.com/ab6db262-f99e-4027-9525-7597fcf02e72">Address Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/c70bf596-b2a4-46ec-9b1a-c9d948768b51">Forward overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/forward-ovr">Forward overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/93f2e4cf-013e-4064-88d5-69fddd458274">ITAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/87d37ba3-5398-47a7-808b-eb9b6681653d">ITAddress::CreateForwardInfoObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createforwardinfoobject">ITAddress::CreateForwardInfoObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/7817ac03-d9fc-4042-ae7d-350ee6cbef53">ITAddress::get_CurrentForwardInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_currentforwardinfo">ITAddress::get_CurrentForwardInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/0e06cd0b-b95b-4853-b883-53146be084f0">ITForwardInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation">ITForwardInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/68dc99c5-1158-4e18-8e32-08216ff3567b">LineForward</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineforward">LineForward</a>
  
 
  

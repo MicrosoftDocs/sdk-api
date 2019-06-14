@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Gets audio data from the buffer.   
-   This method locks an internal buffer and returns a pointer to a specific location in that buffer. It does not  allocate a copy of the buffer for the caller.  To release the buffer after the last call to this method,   call  the <a href="https://msdn.microsoft.com/03926ABF-D5D0-4D13-B081-0085EC698E9F">FreeBuffer</a> method.
+   This method locks an internal buffer and returns a pointer to a specific location in that buffer. It does not  allocate a copy of the buffer for the caller.  To release the buffer after the last call to this method,   call  the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiaudiostream-freebuffer">FreeBuffer</a> method.
 
 
 ## -parameters
@@ -87,11 +87,11 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the return v
 
 
 
-<a href="https://msdn.microsoft.com/03926ABF-D5D0-4D13-B081-0085EC698E9F">FreeBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiaudiostream-freebuffer">FreeBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/B2BC04A1-DE22-4543-9F10-33B0B99E0F92">IRDPSRAPIAudioStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiaudiostream">IRDPSRAPIAudioStream</a>
  
 
  

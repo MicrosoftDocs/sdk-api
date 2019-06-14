@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-Gets the restricted error information object set by a previous call to <a href="https://msdn.microsoft.com/3F4A62EF-ECD3-45FA-836D-77C510C43C5E">SetRestrictedErrorInfo</a> in the current logical thread.
+Gets the restricted error information object set by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-setrestrictederrorinfo">SetRestrictedErrorInfo</a> in the current logical thread.
 
 
 ## -parameters
@@ -108,15 +108,15 @@ There is no restricted error object associated with the current thread. Any othe
 
 
 
-Call the <b>GetRestrictedErrorInfo</b>  function to get the most recently set <a href="https://msdn.microsoft.com/1af8d4bf-1217-44ca-b0dd-9a6feda16100">IRestrictedErrorInfo</a> object on the current thread in a Windows Store app.
+Call the <b>GetRestrictedErrorInfo</b>  function to get the most recently set <a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a> object on the current thread in a Windows Store app.
 
-Call the <a href="https://msdn.microsoft.com/4102CAD6-B5EC-4633-91CC-D56F6C0E287E">RoCaptureErrorContext</a> function to save error information for the current thread. Call the <a href="https://msdn.microsoft.com/1BD47795-1B5E-42A4-B88F-7DE5160668E7">RoFailFastWithErrorContext</a> function to raise an exception, terminate the current process, and report the error to the Windows Error Reporting service (WER).
+Call the <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rocaptureerrorcontext">RoCaptureErrorContext</a> function to save error information for the current thread. Call the <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rofailfastwitherrorcontext">RoFailFastWithErrorContext</a> function to raise an exception, terminate the current process, and report the error to the Windows Error Reporting service (WER).
 
-<b>GetRestrictedErrorInfo</b> transfers ownership of the error object to the caller and clears the error state for the thread. If the most recently set error object doesn't support the <a href="https://msdn.microsoft.com/1af8d4bf-1217-44ca-b0dd-9a6feda16100">IRestrictedErrorInfo</a> interface, the error state for the thread is cleared, but no interface is returned to the caller.
+<b>GetRestrictedErrorInfo</b> transfers ownership of the error object to the caller and clears the error state for the thread. If the most recently set error object doesn't support the <a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a> interface, the error state for the thread is cleared, but no interface is returned to the caller.
 
-The <b>GetRestrictedErrorInfo</b> retrieves the error object from the current thread and calls <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> to find the <a href="https://msdn.microsoft.com/1af8d4bf-1217-44ca-b0dd-9a6feda16100">IRestrictedErrorInfo</a> interface.  If <b>IRestrictedErrorInfo</b> isn't found, <b>GetRestrictedErrorInfo</b> returns <b>S_FALSE</b>.  In this case, the error object is removed from the thread. For more info, see <a href="https://msdn.microsoft.com/03317526-8c4f-4173-bc10-110c8112676a">GetErrorInfo</a>.
+The <b>GetRestrictedErrorInfo</b> retrieves the error object from the current thread and calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> to find the <a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a> interface.  If <b>IRestrictedErrorInfo</b> isn't found, <b>GetRestrictedErrorInfo</b> returns <b>S_FALSE</b>.  In this case, the error object is removed from the thread. For more info, see <a href="https://docs.microsoft.com/windows/desktop/api/oleauto/nf-oleauto-geterrorinfo">GetErrorInfo</a>.
 
-Calling the <b>GetRestrictedErrorInfo</b>  function fails if <a href="https://msdn.microsoft.com/1af8d4bf-1217-44ca-b0dd-9a6feda16100">IRestrictedErrorInfo</a> isn't the system implementation. To create an <b>IRestrictedErrorInfo</b> object, call  the <a href="https://msdn.microsoft.com/ED647880-5A18-4F75-B7E5-3B9BF36229D3">OriginateError</a>, <a href="https://msdn.microsoft.com/B0921292-1EEA-4154-8AB4-B654A9B31DA6">TransformError</a>, or <a href="https://msdn.microsoft.com/4102CAD6-B5EC-4633-91CC-D56F6C0E287E">RoCaptureErrorContext</a> functions.
+Calling the <b>GetRestrictedErrorInfo</b>  function fails if <a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a> isn't the system implementation. To create an <b>IRestrictedErrorInfo</b> object, call  the <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginateerror">OriginateError</a>, <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rotransformerror">TransformError</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rocaptureerrorcontext">RoCaptureErrorContext</a> functions.
 
 
 
@@ -126,27 +126,27 @@ Calling the <b>GetRestrictedErrorInfo</b>  function fails if <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/03317526-8c4f-4173-bc10-110c8112676a">GetErrorInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleauto/nf-oleauto-geterrorinfo">GetErrorInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/1af8d4bf-1217-44ca-b0dd-9a6feda16100">IRestrictedErrorInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/345E1C4D-4A2F-4E18-9E70-4B8AE25FE8FD">RO_ERROR_REPORTING_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/ne-roerrorapi-ro_error_reporting_flags">RO_ERROR_REPORTING_FLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/4102CAD6-B5EC-4633-91CC-D56F6C0E287E">RoCaptureErrorContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rocaptureerrorcontext">RoCaptureErrorContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/1BD47795-1B5E-42A4-B88F-7DE5160668E7">RoFailFastWithErrorContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rofailfastwitherrorcontext">RoFailFastWithErrorContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/3F4A62EF-ECD3-45FA-836D-77C510C43C5E">SetRestrictedErrorInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-setrestrictederrorinfo">SetRestrictedErrorInfo</a>
  
 
  

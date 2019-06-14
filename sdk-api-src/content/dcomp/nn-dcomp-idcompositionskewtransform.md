@@ -54,7 +54,7 @@ Represents a 2D transformation that affects the skew of a visual along the x-axi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionSkewTransform</b> interface inherits from <a href="https://msdn.microsoft.com/22f0d199-5162-4869-909e-d0ed0059b773">IDCompositionTransform</a>. <b>IDCompositionSkewTransform</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionSkewTransform</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiontransform">IDCompositionTransform</a>. <b>IDCompositionSkewTransform</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDCompositionSkewTransform</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh449063(v=VS.85).aspx">SetAngleX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setanglex">SetAngleX</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the AngleX property of a 2D skew transform. The AngleX property specifies the rotation angle, in degrees. The default value is zero.
 
@@ -77,7 +77,7 @@ The <b>IDCompositionSkewTransform</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh449069(v=VS.85).aspx">SetAngleY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setangley">SetAngleY</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the AngleY property of a 2D skew transform. The AngleY property specifies the rotation angle, in degrees. The default value is zero.
 
@@ -85,7 +85,7 @@ The <b>IDCompositionSkewTransform</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/934E3D60-45F4-4645-8E77-22F7E4AEAD60">SetCenterX</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh449075(v=vs.85)">SetCenterX</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the CenterX property of a 2D skew transform.
 
@@ -93,7 +93,7 @@ The <b>IDCompositionSkewTransform</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D3F5E009-D6D2-431F-AC5C-C14C0AE1CD36">SetCenterY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh449081(v=vs.85)">SetCenterY</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the CenterY property of a  of a 2D skew transform.
 
@@ -120,11 +120,11 @@ The effect is to slant the coordinate system along the x-axis and y-axis such th
 
 
 
-<a href="https://msdn.microsoft.com/22f0d199-5162-4869-909e-d0ed0059b773">IDCompositionTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiontransform">IDCompositionTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/DA3CBBB6-DB0A-4FCE-9DAC-7A767783A18D">IDCompositionVisual::SetTransform</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh449178(v=vs.85)">IDCompositionVisual::SetTransform</a>
  
 
  

@@ -185,7 +185,7 @@ A currency value.
 </b>
 A date and time value. Dates are represented as double-precision numbers, where midnight, January 1, 1900 is 2.0, January 2, 1900 is 3.0, and so on.
 
-The date can be converted to and from an MS-DOS representation using <a href="https://msdn.microsoft.com/62307266-2434-4b06-9135-8854f4624c5c">VariantTimeToDosDateTime</a>.
+The date can be converted to and from an MS-DOS representation using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-varianttimetodosdatetime">VariantTimeToDosDateTime</a>.
 
 
 ### -field __VARIANT_NAME_1.__VARIANT_NAME_2.__VARIANT_NAME_3.bstrVal
@@ -199,7 +199,7 @@ A string value.
 
 <b>Type: <b>IUnknown*</b>
 </b>
-A pointer to an object that implements the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface.
+A pointer to an object that implements the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface.
 
 
 ### -field __VARIANT_NAME_1.__VARIANT_NAME_2.__VARIANT_NAME_3.pdispVal
@@ -297,7 +297,7 @@ A reference to a string value.
 
 <b>Type: <b>IUnknown**</b>
 </b>
-A reference to an <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface pointer.
+A reference to an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer.
 
 
 ### -field __VARIANT_NAME_1.__VARIANT_NAME_2.__VARIANT_NAME_3.ppdispVal
@@ -429,7 +429,7 @@ A reference to a database record.
 
 ### -field __VARIANT_NAME_1.__VARIANT_NAME_2.__VARIANT_NAME_3.__VARIANT_NAME_4.pRecInfo
 
-<b>Type: <b><a href="https://msdn.microsoft.com/065ebfa8-bfac-4c75-a3f9-9dc0409ea454">IRecordInfo</a>*</b>
+<b>Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>*</b>
 </b>
 A reference to a UDT.
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Initializes a new instance of the  <a href="https://msdn.microsoft.com/en-us/library/Dn904612(v=VS.85).aspx">TraceLoggingThreadActivity</a> class.
+Initializes a new instance of the  <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivity~r1">TraceLoggingThreadActivity</a> class.
 
 <b>TraceLoggingThreadActivity</b> is a class template.
 
@@ -108,11 +108,11 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn904598(v=VS.85).aspx">TraceLoggingActivity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity~r1">TraceLoggingActivity</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn904612(v=VS.85).aspx">TraceLoggingThreadActivity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivity~r1">TraceLoggingThreadActivity</a>
  
 
  

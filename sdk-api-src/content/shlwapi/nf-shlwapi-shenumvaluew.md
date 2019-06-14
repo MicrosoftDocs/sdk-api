@@ -120,7 +120,7 @@ The address of a <b>DWORD</b> that, on entry, contains the size of the buffer at
 
 Type: <b>LPDWORD</b>
 
-The address of a <b>DWORD</b> that receives the data type of the value. These are the same values as those described under the <i>lpType</i> parameter of <a href="https://msdn.microsoft.com/7014ff96-c655-486f-af32-180b87281b06">RegEnumValue</a>.
+The address of a <b>DWORD</b> that receives the data type of the value. These are the same values as those described under the <i>lpType</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regenumvaluea">RegEnumValue</a>.
 
 
 ### -param pvData
@@ -161,7 +161,7 @@ The address of a <b>DWORD</b> that, on entry, contains the size of the buffer at
 
 Type: <b>LSTATUS</b>
 
-Returns ERROR_SUCCESS if successful, or a nonzero error code defined in Winerror.h otherwise. You can use the <a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to retrieve a textual description of the error.
+Returns ERROR_SUCCESS if successful, or a nonzero error code defined in Winerror.h otherwise. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to retrieve a textual description of the error.
 
 
 

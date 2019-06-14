@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>GetPropertyHandle</b> method returns a unique handle that identifies a property. You can use this handle to identify properties when using 
-<a href="https://msdn.microsoft.com/1025ae50-870f-4d38-8e83-3c6b628315c6">IWbemObjectAccess</a> methods to read or write property values.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemobjectaccess">IWbemObjectAccess</a> methods to read or write property values.
 
 
 ## -parameters
@@ -99,7 +99,7 @@ Handles can be retrieved for all data types other than CIM_OBJECT and CIM_ARRAY.
 
 
 
-<a href="https://msdn.microsoft.com/1025ae50-870f-4d38-8e83-3c6b628315c6">IWbemObjectAccess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemobjectaccess">IWbemObjectAccess</a>
  
 
  

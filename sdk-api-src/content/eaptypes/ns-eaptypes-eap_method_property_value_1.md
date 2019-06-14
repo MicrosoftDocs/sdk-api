@@ -61,21 +61,21 @@ The <b>EAP_METHOD_PROPERTY_VALUE</b> union contains the value of an EAP method p
 
 case(<i>empvtBool</i>)
 
-If  <a href="https://msdn.microsoft.com/df8c9ba2-e1c5-4011-bdbe-1d04765d19cd">eapMethodPropertyValueType</a> specifies a Boolean type (<i>empvtBool</i>), the data pointed to by this parameter is defined by the <a href="https://msdn.microsoft.com/ff482df6-a9c9-41b3-bedf-880fee71b968">EAP_METHOD_PROPERTY_VALUE_BOOL</a> structure.
+If  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_property">eapMethodPropertyValueType</a> specifies a Boolean type (<i>empvtBool</i>), the data pointed to by this parameter is defined by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_property_value_bool">EAP_METHOD_PROPERTY_VALUE_BOOL</a> structure.
 
 
 ### -field empvDword
 
 case(<i>empvDword</i>)
 
-If <a href="https://msdn.microsoft.com/df8c9ba2-e1c5-4011-bdbe-1d04765d19cd">eapMethodPropertyValueType</a> specifies a DWORD type (empvtDword), the data pointed to by this parameter is defined by the  <a href="https://msdn.microsoft.com/79a1ff42-dfd9-4408-b96c-2fbc33c2ca93">EAP_METHOD_PROPERTY_VALUE_DWORD</a> structure.
+If <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_property">eapMethodPropertyValueType</a> specifies a DWORD type (empvtDword), the data pointed to by this parameter is defined by the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_property_value_dword">EAP_METHOD_PROPERTY_VALUE_DWORD</a> structure.
 
 
 ### -field empvString
 
 case(<i>empvString</i>)
 
-If <a href="https://msdn.microsoft.com/df8c9ba2-e1c5-4011-bdbe-1d04765d19cd">eapMethodPropertyValueType</a> specifies a BYTE *(empvtString), the data pointed to by this parameter is defined by the   <a href="https://msdn.microsoft.com/afb2d8f3-c2b1-45b8-9ff3-814c8e4b1595">EAP_METHOD_PROPERTY_VALUE_STRING</a> structure.
+If <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_property">eapMethodPropertyValueType</a> specifies a BYTE *(empvtString), the data pointed to by this parameter is defined by the   <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_property_value_string">EAP_METHOD_PROPERTY_VALUE_STRING</a> structure.
 
 
 ## -see-also
@@ -83,15 +83,15 @@ If <a href="https://msdn.microsoft.com/df8c9ba2-e1c5-4011-bdbe-1d04765d19cd">eap
 
 
 
-<a href="https://msdn.microsoft.com/77595f36-140d-4d8e-af8e-63e9de0031c4">EAPHost Supplicant Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-supplicant-structures">EAPHost Supplicant Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/df8c9ba2-e1c5-4011-bdbe-1d04765d19cd">EAP_METHOD_PROPERTY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_property">EAP_METHOD_PROPERTY</a>
 
 
 
-<a href="https://msdn.microsoft.com/b553c022-c9a2-4cf7-8c09-e629b49cd929">EapHostPeerGetMethodProperties</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeergetmethodproperties">EapHostPeerGetMethodProperties</a>
  
 
  

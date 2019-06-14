@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Frees memory that was allocated by the <a href="https://msdn.microsoft.com/2135ff86-a3b6-4e1c-a9de-867f4828f008">IMFMediaType::GetRepresentation</a> method.
+Frees memory that was allocated by the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-getrepresentation">IMFMediaType::GetRepresentation</a> method.
 
 
 
@@ -63,13 +63,13 @@ Frees memory that was allocated by the <a href="https://msdn.microsoft.com/2135f
 
 ### -param guidRepresentation [in]
 
-GUID that was passed to the <a href="https://msdn.microsoft.com/2135ff86-a3b6-4e1c-a9de-867f4828f008">GetRepresentation</a> method.
+GUID that was passed to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-getrepresentation">GetRepresentation</a> method.
           
 
 
 ### -param pvRepresentation [in]
 
-Pointer to the buffer that was returned by the <a href="https://msdn.microsoft.com/2135ff86-a3b6-4e1c-a9de-867f4828f008">GetRepresentation</a> method.
+Pointer to the buffer that was returned by the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-getrepresentation">GetRepresentation</a> method.
           
 
 
@@ -100,7 +100,7 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 
-<a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>
  
 
  

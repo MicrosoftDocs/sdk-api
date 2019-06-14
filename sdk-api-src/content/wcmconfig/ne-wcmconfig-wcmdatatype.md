@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Enumerates the data types returned from the <a href="https://msdn.microsoft.com/6ccb99aa-35d5-4f0b-a4f3-a42c4579bc4a">ISettingsItem::GetDataType</a> method. The values correspond appropriately to typical programming types. An exception is the flag value <b>dataTypeFlagArray</b>. This flag may appear combined with <b>dataTypeByte</b> or <b>dataTypeString</b> to indicate xsd:hexBinary or wcm:multiString settings (respectively).
+Enumerates the data types returned from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-getdatatype">ISettingsItem::GetDataType</a> method. The values correspond appropriately to typical programming types. An exception is the flag value <b>dataTypeFlagArray</b>. This flag may appear combined with <b>dataTypeByte</b> or <b>dataTypeString</b> to indicate xsd:hexBinary or wcm:multiString settings (respectively).
 
 Each of the following constants correspond to a data type.
 

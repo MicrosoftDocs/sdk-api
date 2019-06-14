@@ -59,12 +59,12 @@ The DD_GETAVAILDRIVERMEMORYDATA structure contains the information needed by the
 
 ### -field lpDD
 
-Points to the <a href="https://msdn.microsoft.com/a59f064b-48cf-4491-82cd-84f59467af87">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
+Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
 
 
 ### -field DDSCaps
 
-Points to a <a href="https://msdn.microsoft.com/e1ed1fa2-2f3c-4d04-a601-c11fb77eb5cc">DDSCAPS</a> structure that describes the type of surface for which memory availability is being queried.
+Points to a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550286(v=vs.85)">DDSCAPS</a> structure that describes the type of surface for which memory availability is being queried.
 
 
 ### -field dwTotal
@@ -79,7 +79,7 @@ Specifies the location in which the driver returns the amount of free memory in 
 
 ### -field ddRVal
 
-Specifies the location in which the driver writes the return value of the <a href="https://msdn.microsoft.com/21a1988a-1bfd-47b8-b4b6-1bc137b2ba64">DdGetAvailDriverMemory</a> callback. A return code of DD_OK indicates success. For more information, see <a href="https://msdn.microsoft.com/da4cc7d7-6826-48aa-96c6-004e31fc3e3e">Return Values for DirectDraw</a>.
+Specifies the location in which the driver writes the return value of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getavaildrivermemory">DdGetAvailDriverMemory</a> callback. A return code of DD_OK indicates success. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/return-values-for-directdraw">Return Values for DirectDraw</a>.
 
 
 ### -field GetAvailDriverMemory
@@ -92,7 +92,7 @@ Used by the Microsoft DirectDraw API and should not be filled in by the driver.
 
 
 
-<a href="https://msdn.microsoft.com/21a1988a-1bfd-47b8-b4b6-1bc137b2ba64">DdGetAvailDriverMemory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getavaildrivermemory">DdGetAvailDriverMemory</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Describes match criteria. Used by methods of the <a href="https://msdn.microsoft.com/ba7dbef7-2732-49e8-b573-a3b731bdc633">IKnownFolderManager</a> interface.
+Describes match criteria. Used by methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfoldermanager">IKnownFolderManager</a> interface.
 
 
 ## -enum-fields

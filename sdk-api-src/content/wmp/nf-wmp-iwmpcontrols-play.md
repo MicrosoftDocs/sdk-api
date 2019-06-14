@@ -104,11 +104,11 @@ If this method is called while fast-forwarding or rewinding, the rate of playbac
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563179(v=VS.85).aspx">IWMPControls Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcontrols">IWMPControls Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563206(v=VS.85).aspx">IWMPControls::playItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-playitem">IWMPControls::playItem</a>
  
 
  

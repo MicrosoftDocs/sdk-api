@@ -60,7 +60,7 @@ ms.custom: 19H1
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILatLongReport</b> interface inherits from <a href="https://msdn.microsoft.com/6dc78c26-36b3-4545-b5ba-7f04f6e67706">ILocationReport</a>. <b>ILatLongReport</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILatLongReport</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a>. <b>ILatLongReport</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>ILatLongReport</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7ab8e3fb-03da-4529-aaf0-3a178474e4a5">GetAltitude</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilatlongreport-getaltitude">GetAltitude</a>
 </td>
 <td align="left" width="63%">
 Retrieves the altitude, in meters.
@@ -84,7 +84,7 @@ Retrieves the altitude, in meters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/313aefda-785c-43ce-a71c-cacfd929e27e">GetAltitudeError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilatlongreport-getaltitudeerror">GetAltitudeError</a>
 </td>
 <td align="left" width="63%">
 Retrieves the altitude error, in meters.
@@ -93,7 +93,7 @@ Retrieves the altitude error, in meters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cb0941da-607d-4082-ac8c-91d2edafa8ab">GetErrorRadius</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilatlongreport-geterrorradius">GetErrorRadius</a>
 </td>
 <td align="left" width="63%">
 Retrieves a distance from the reported location, in meters. Combined with the location reported as the origin, this radius describes a circle in which the actual location is probably located.
@@ -102,7 +102,7 @@ Retrieves a distance from the reported location, in meters. Combined with the lo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/81392683-61bc-4b17-8f3c-172b66bd543b">GetLatitude</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilatlongreport-getlatitude">GetLatitude</a>
 </td>
 <td align="left" width="63%">
 Retrieves the latitude.
@@ -111,7 +111,7 @@ Retrieves the latitude.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/77fa407b-109c-45aa-bbdb-0b8a40d222e5">GetLongitude</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilatlongreport-getlongitude">GetLongitude</a>
 </td>
 <td align="left" width="63%">
 Retrieves the longitude.

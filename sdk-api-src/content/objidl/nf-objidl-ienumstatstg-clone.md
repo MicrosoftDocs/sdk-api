@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Clone</b> method creates a new enumerator that contains the same enumeration state as the current <a href="https://msdn.microsoft.com/54e1df08-de8f-430a-bf76-e66594df4839">STATSTG</a> structure enumerator. Using this method, a client can record a particular point in the enumeration sequence and then return to that point at a later time. The new enumerator supports the same <a href="https://msdn.microsoft.com/93b8b14e-94e4-460b-9846-413affad8e4f">IEnumSTATSTG</a> interface.
+The <b>Clone</b> method creates a new enumerator that contains the same enumeration state as the current <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structure enumerator. Using this method, a client can record a particular point in the enumeration sequence and then return to that point at a later time. The new enumerator supports the same <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstatstg">IEnumSTATSTG</a> interface.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>Clone</b> method creates a new enumerator that contains the same enumerat
 
 ### -param ppenum [out]
 
-    A pointer to the variable that receives the  <a href="https://msdn.microsoft.com/93b8b14e-94e4-460b-9846-413affad8e4f">IEnumSTATSTG</a> interface pointer. 
+    A pointer to the variable that receives the  <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstatstg">IEnumSTATSTG</a> interface pointer. 
 
 If the method is unsuccessful, the value of the <i>ppenum</i> parameter is undefined.
 

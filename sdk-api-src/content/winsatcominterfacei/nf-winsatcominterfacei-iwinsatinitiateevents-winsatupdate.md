@@ -98,7 +98,7 @@ You should keep your implementation short so you do not miss subsequent updates;
 
 #### Examples
 
-For an example implementation, see the <a href="https://msdn.microsoft.com/c57d88b6-81ac-4314-8593-59a950348be4">InitiateAssessment</a> or <a href="https://msdn.microsoft.com/9425e41c-fe03-4c94-a5eb-686775b5fce7">InitiateFormalAssessment</a> method of <a href="https://msdn.microsoft.com/0b299477-50a4-4f61-a0e5-fdbae239503b">IInitiateWinSATAssessment</a>.
+For an example implementation, see the <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iinitiatewinsatassessment-initiateassessment">InitiateAssessment</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iinitiatewinsatassessment-initiateformalassessment">InitiateFormalAssessment</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iinitiatewinsatassessment">IInitiateWinSATAssessment</a>.
 
 <div class="code"></div>
 
@@ -109,15 +109,15 @@ For an example implementation, see the <a href="https://msdn.microsoft.com/c57d8
 
 
 
-<a href="https://msdn.microsoft.com/0b299477-50a4-4f61-a0e5-fdbae239503b">IInitiateWinSATAssessment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iinitiatewinsatassessment">IInitiateWinSATAssessment</a>
 
 
 
-<a href="https://msdn.microsoft.com/f6ab3284-a76f-4148-ae40-04aa782ea9a7">IWinSATInitiateEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iwinsatinitiateevents">IWinSATInitiateEvents</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7bcd7e6-b8d7-4ec3-84e8-8ccbcd0b4ada">IWinSATInitiateEvents::WinSATComplete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iwinsatinitiateevents-winsatcomplete">IWinSATInitiateEvents::WinSATComplete</a>
  
 
  

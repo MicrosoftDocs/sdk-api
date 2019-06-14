@@ -56,7 +56,7 @@ To create an instance of this interface, call the <b>CoCreateInstance</b> functi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscMaster2</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IDiscMaster2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscMaster2</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IDiscMaster2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDiscMaster2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f148a1c0-cb76-40e9-9749-a074f04c93e8">get__NewEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get__newenum">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of the CD and DVD devices installed on the computer.    
@@ -80,7 +80,7 @@ Retrieves a list of the CD and DVD devices installed on the computer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b1e0ec8f-4c66-4648-ad76-2998200ea574">get_Count</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get_count">get_Count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of the CD and DVD disc devices installed on the computer.
@@ -89,7 +89,7 @@ Retrieves the number of the CD and DVD disc devices installed on the computer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/abaa4d89-07b2-4e7a-a0c9-8a31abfd9dd0">get_IsSupportedEnvironment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get_issupportedenvironment">get_IsSupportedEnvironment</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that determines if the environment contains one or more optical devices and the execution context has permission to access the devices.
@@ -98,7 +98,7 @@ Retrieves a value that determines if the environment contains one or more optica
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e909acb9-850b-404d-a2f7-efb37faf3506">get_Item</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get_item">get_Item</a>
 </td>
 <td align="left" width="63%">
 Retrieves the unique identifier of the specified disc device.
@@ -114,7 +114,7 @@ Retrieves the unique identifier of the specified disc device.
 
 To create the <b>MsftDiscMaster2</b> object in a script, use IMAPI2.MsftDiscMaster2 as the program identifier when calling <b>CreateObject</b>.
 
-To receive notification when a device is added or removed from the computer, implement the <a href="https://msdn.microsoft.com/f01fa2d8-989d-499f-b79d-495108640aa2">DDiscMaster2Events</a> interface.
+To receive notification when a device is added or removed from the computer, implement the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-ddiscmaster2events">DDiscMaster2Events</a> interface.
 
 
 

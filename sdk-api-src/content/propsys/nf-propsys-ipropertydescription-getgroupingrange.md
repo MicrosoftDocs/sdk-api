@@ -103,7 +103,7 @@ Displays percent groups.
 
 #### PDGR_ENUMERATED
 
-Displays percent groups returned by <a href="https://msdn.microsoft.com/library/Bb761539(v=VS.85).aspx">IPropertyDescription::GetEnumTypeList</a>.
+Displays percent groups returned by <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertydescription-getenumtypelist">IPropertyDescription::GetEnumTypeList</a>.
 
 
 ## -returns
@@ -121,7 +121,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The information retrieved by this method comes from the <i>groupingRange</i> attribute of the <a href="https://msdn.microsoft.com/en-us/library/Bb773889(v=VS.85).aspx">typeInfo</a> element in the property's .propdesc file.
+The information retrieved by this method comes from the <i>groupingRange</i> attribute of the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
 
 
 
@@ -131,11 +131,11 @@ The information retrieved by this method comes from the <i>groupingRange</i> att
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
 
 
 
-<a href="https://msdn.microsoft.com/cac93c31-d90d-4116-b846-0cf593d1d56e">Property Description Schema</a>
+<a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
  
 
  

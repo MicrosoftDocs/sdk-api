@@ -60,14 +60,14 @@ Defines the target for the HTTP header authentication security binding.
 
 ### -field WS_HTTP_HEADER_AUTH_TARGET_SERVICE
 
-Indicates that the <a href="https://msdn.microsoft.com/en-us/library/Dd401908(v=VS.85).aspx">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a> containing
+Indicates that the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_http_header_auth_security_binding">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a> containing
 this setting authenticates to the server.
                 
 
 
 ### -field WS_HTTP_HEADER_AUTH_TARGET_PROXY
 
-Indicates that the <a href="https://msdn.microsoft.com/en-us/library/Dd401908(v=VS.85).aspx">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a> containing
+Indicates that the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_http_header_auth_security_binding">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a> containing
 this setting authenticates to the proxy.
                 
 

@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPEffects</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMPEffects</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPEffects</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPEffects</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -68,7 +68,7 @@ The <b>IWMPEffects</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563261(v=VS.85).aspx">DisplayPropertyPage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/effects/nf-effects-iwmpeffects-displaypropertypage">DisplayPropertyPage</a>
 </td>
 <td align="left" width="63%">
 Displays the property page of a visualization, if it exists.
@@ -77,7 +77,7 @@ Displays the property page of a visualization, if it exists.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563262(v=VS.85).aspx">GetCapabilities</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/effects/nf-effects-iwmpeffects-getcapabilities">GetCapabilities</a>
 </td>
 <td align="left" width="63%">
 Gets the capabilities of the visualization.
@@ -86,7 +86,7 @@ Gets the capabilities of the visualization.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563263(v=VS.85).aspx">GetCurrentPreset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/effects/nf-effects-iwmpeffects-getcurrentpreset">GetCurrentPreset</a>
 </td>
 <td align="left" width="63%">
 Gets the current preset by number.
@@ -95,7 +95,7 @@ Gets the current preset by number.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563264(v=VS.85).aspx">GetPresetCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/effects/nf-effects-iwmpeffects-getpresetcount">GetPresetCount</a>
 </td>
 <td align="left" width="63%">
 Gets the preset count.
@@ -104,7 +104,7 @@ Gets the preset count.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563265(v=VS.85).aspx">GetPresetTitle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/effects/nf-effects-iwmpeffects-getpresettitle">GetPresetTitle</a>
 </td>
 <td align="left" width="63%">
 Gets the title of the current preset.
@@ -113,7 +113,7 @@ Gets the title of the current preset.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563266(v=VS.85).aspx">GetTitle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/effects/nf-effects-iwmpeffects-gettitle">GetTitle</a>
 </td>
 <td align="left" width="63%">
 Gets the display title of the visualization.
@@ -122,7 +122,7 @@ Gets the display title of the visualization.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563267(v=VS.85).aspx">GoFullscreen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/effects/nf-effects-iwmpeffects-gofullscreen">GoFullscreen</a>
 </td>
 <td align="left" width="63%">
 Instructs the visualization to switch to full-screen mode.
@@ -131,7 +131,7 @@ Instructs the visualization to switch to full-screen mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563268(v=VS.85).aspx">MediaInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/effects/nf-effects-iwmpeffects-mediainfo">MediaInfo</a>
 </td>
 <td align="left" width="63%">
 Sends channel and sample-rate data to the visualization.
@@ -140,7 +140,7 @@ Sends channel and sample-rate data to the visualization.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563269(v=VS.85).aspx">Render</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/effects/nf-effects-iwmpeffects-render">Render</a>
 </td>
 <td align="left" width="63%">
 Renders the visualization
@@ -149,7 +149,7 @@ Renders the visualization
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563270(v=VS.85).aspx">RenderFullScreen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/effects/nf-effects-iwmpeffects-renderfullscreen">RenderFullScreen</a>
 </td>
 <td align="left" width="63%">
 Renders the visualization in full-screen mode.
@@ -158,7 +158,7 @@ Renders the visualization in full-screen mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563271(v=VS.85).aspx">SetCurrentPreset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/effects/nf-effects-iwmpeffects-setcurrentpreset">SetCurrentPreset</a>
 </td>
 <td align="left" width="63%">
 Sets the current preset by number.
@@ -173,11 +173,11 @@ Sets the current preset by number.
 
 
 
-<a href="https://msdn.microsoft.com/b76cd0a2-7c15-468e-9673-7e607a208ddd">Custom Visualization Programming Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/custom-visualization-programming-reference">Custom Visualization Programming Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563254(v=VS.85).aspx">IWMPEffects2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/effects/nn-effects-iwmpeffects2">IWMPEffects2 Interface</a>
  
 
  

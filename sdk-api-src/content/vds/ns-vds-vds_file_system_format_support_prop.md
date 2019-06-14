@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides information about file systems that are supported for formatting volumes.
 
@@ -61,7 +61,7 @@ Provides information about file systems that are supported for formatting volume
 
 ### -field ulFlags
 
-Bitwise-OR of any of the values defined in the <a href="https://msdn.microsoft.com/78d60240-44dc-48b8-b2a6-5babbd79085f">VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG</a> enumeration.
+Bitwise-OR of any of the values defined in the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_file_system_format_support_flag">VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG</a> enumeration.
 
 
 ### -field usRevision
@@ -151,7 +151,7 @@ Universal Disk Format (UDF) file system
 
 
 
-If an OEM partition is formatted as FAT or FAT32, the partition type does not change. If it is formatted with NTFS, the partition type changes to PARTITION_IFS (0x07). For information about partition types, see <a href="https://msdn.microsoft.com/7c0311df-0995-4100-babb-481fa3f7dd71">CREATE_PARTITION_PARAMETERS</a>.
+If an OEM partition is formatted as FAT or FAT32, the partition type does not change. If it is formatted with NTFS, the partition type changes to PARTITION_IFS (0x07). For information about partition types, see <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_create_partition_parameters">CREATE_PARTITION_PARAMETERS</a>.
 
 
 
@@ -161,23 +161,23 @@ If an OEM partition is formatted as FAT or FAT32, the partition type does not ch
 
 
 
-<a href="https://msdn.microsoft.com/2a37d3c7-5c03-4b19-9d82-c3b16bf980e1">IVdsDiskPartitionMF2::FormatPartitionEx2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdiskpartitionmf2-formatpartitionex2">IVdsDiskPartitionMF2::FormatPartitionEx2</a>
 
 
 
-<a href="https://msdn.microsoft.com/7ee61c81-28d2-43d8-8444-a62dc025aed0">IVdsDiskPartitionMF::QueryPartitionFileSystemFormatSupport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdiskpartitionmf-querypartitionfilesystemformatsupport">IVdsDiskPartitionMF::QueryPartitionFileSystemFormatSupport</a>
 
 
 
-<a href="https://msdn.microsoft.com/c1d08018-4e9b-466a-b8dd-074b2ce0c8fe">IVdsVolumeMF2::FormatEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumemf2-formatex">IVdsVolumeMF2::FormatEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/770a92fb-9e70-4db0-a782-b9064daef4ef">IVdsVolumeMF2::QueryFileSystemFormatSupport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumemf2-queryfilesystemformatsupport">IVdsVolumeMF2::QueryFileSystemFormatSupport</a>
 
 
 
-<a href="https://msdn.microsoft.com/78d60240-44dc-48b8-b2a6-5babbd79085f">VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_file_system_format_support_flag">VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG</a>
  
 
  

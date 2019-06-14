@@ -66,7 +66,7 @@ The lookup key name of a shared brush to be used as the  stroke brush for the pa
 
 
 
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -127,31 +127,31 @@ No object could be found with a key name that matched the value passed in <i>loo
 
 
 
-After you call <b>SetStrokeBrushLookup</b>, the local stroke brush is released and <a href="https://msdn.microsoft.com/cf816750-8381-4c04-af20-e5ce3f8ad63c">GetStrokeBrushLocal</a> returns a <b>NULL</b> pointer in the <i>brush</i> parameter. The table that follows explains the relationship between the local and lookup values of this property.
+After you call <b>SetStrokeBrushLookup</b>, the local stroke brush is released and <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokebrushlocal">GetStrokeBrushLocal</a> returns a <b>NULL</b> pointer in the <i>brush</i> parameter. The table that follows explains the relationship between the local and lookup values of this property.
 
 <table>
 <tr>
 <th>Most recent method called</th>
-<th>Object that is returned in <i>brush</i> by <a href="https://msdn.microsoft.com/dbf786b0-5603-4735-8770-4c5e17a67253">GetStrokeBrush</a>
+<th>Object that is returned in <i>brush</i> by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokebrush">GetStrokeBrush</a>
 </th>
-<th>Object that is returned in <i>brush</i> by <a href="https://msdn.microsoft.com/cf816750-8381-4c04-af20-e5ce3f8ad63c">GetStrokeBrushLocal</a>
+<th>Object that is returned in <i>brush</i> by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokebrushlocal">GetStrokeBrushLocal</a>
 </th>
-<th>String that is returned in <i>lookup</i> by <a href="https://msdn.microsoft.com/af70b6a3-203a-4189-b44d-763539e0302a">GetStrokeBrushLookup</a>
+<th>String that is returned in <i>lookup</i> by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokebrushlookup">GetStrokeBrushLookup</a>
 </th>
 </tr>
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/551bc4e2-2bf3-455b-a7f1-35b3b66697c0">SetStrokeBrushLocal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setstrokebrushlocal">SetStrokeBrushLocal</a>
 
 
 </td>
 <td>
-The local brush that is set by <a href="https://msdn.microsoft.com/551bc4e2-2bf3-455b-a7f1-35b3b66697c0">SetStrokeBrushLocal</a>.
+The local brush that is set by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setstrokebrushlocal">SetStrokeBrushLocal</a>.
 
 </td>
 <td>
-The local brush that is set by <a href="https://msdn.microsoft.com/551bc4e2-2bf3-455b-a7f1-35b3b66697c0">SetStrokeBrushLocal</a>.
+The local brush that is set by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setstrokebrushlocal">SetStrokeBrushLocal</a>.
 
 </td>
 <td>
@@ -179,7 +179,7 @@ The lookup key that is set by <b>SetStrokeBrushLookup</b>.
 </tr>
 <tr>
 <td>
-Neither <a href="https://msdn.microsoft.com/551bc4e2-2bf3-455b-a7f1-35b3b66697c0">SetStrokeBrushLocal</a> nor <b>SetStrokeBrushLookup</b> has been called yet.
+Neither <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setstrokebrushlocal">SetStrokeBrushLocal</a> nor <b>SetStrokeBrushLookup</b> has been called yet.
 
 </td>
 <td>
@@ -206,7 +206,7 @@ Neither <a href="https://msdn.microsoft.com/551bc4e2-2bf3-455b-a7f1-35b3b66697c0
 
 
 
-<a href="https://msdn.microsoft.com/93257a77-3fef-400e-bfe1-06e760ba4b93">IXpsOMPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompath">IXpsOMPath</a>
 
 
 
@@ -214,7 +214,7 @@ Neither <a href="https://msdn.microsoft.com/551bc4e2-2bf3-455b-a7f1-35b3b66697c0
 
 
 
-<a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
  
 
  

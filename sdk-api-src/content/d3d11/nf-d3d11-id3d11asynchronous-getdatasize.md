@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Get the size of the data (in bytes) that is output when calling <a href="https://msdn.microsoft.com/338d02ad-2227-49e5-9b4f-fb86a3898f73">ID3D11DeviceContext::GetData</a>.
+Get the size of the data (in bytes) that is output when calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-getdata">ID3D11DeviceContext::GetData</a>.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ Get the size of the data (in bytes) that is output when calling <a href="https:/
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Size of the data (in bytes) that is output when calling GetData.
 
@@ -76,7 +76,7 @@ Size of the data (in bytes) that is output when calling GetData.
 
 
 
-<a href="https://msdn.microsoft.com/37ff9dc0-5ec2-4cd5-b252-44e2dac45355">ID3D11Asynchronous</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11asynchronous">ID3D11Asynchronous</a>
  
 
  

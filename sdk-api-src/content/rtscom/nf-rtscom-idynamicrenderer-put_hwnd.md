@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 
 
-Gets or sets the window handle, HWND, associated with the <a href="https://msdn.microsoft.com/938e1eb2-3dd4-4e21-9c46-9ef840172b05">DynamicRenderer Class</a> object. 
+Gets or sets the window handle, HWND, associated with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a> object. 
 
 
 
@@ -69,11 +69,11 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/6435b297-d6a7-418b-afc0-f8cc0b329842">IDynamicRenderer Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-idynamicrenderer">IDynamicRenderer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/b6bc8053-80fa-45f3-8096-272b471a5f6d">IRealTimeStylus::HWND Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-get_hwnd">IRealTimeStylus::HWND Property</a>
  
 
  

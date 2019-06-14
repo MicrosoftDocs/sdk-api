@@ -50,8 +50,8 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Pen::GetBrush</b> method gets the <a href="https://msdn.microsoft.com/en-us/library/ms534424(v=VS.85).aspx">Brush</a> object that is currently set for this 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object.
+The <b>Pen::GetBrush</b> method gets the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a> object that is currently set for this 
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object.
 
 
 ## -parameters
@@ -65,10 +65,10 @@ The <b>Pen::GetBrush</b> method gets the <a href="https://msdn.microsoft.com/en-
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534424(v=VS.85).aspx">Brush</a>*</b>
+Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a>*</b>
 </strong>
 
-This method returns a pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534424(v=VS.85).aspx">Brush</a> object that is currently used to fill a line.
+This method returns a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a> object that is currently used to fill a line.
 
 
 
@@ -78,23 +78,23 @@ This method returns a pointer to a <a href="https://msdn.microsoft.com/en-us/lib
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534424(v=VS.85).aspx">Brush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536356(v=VS.85).aspx">Brushes and Filled Shapes</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-brushes-and-filled-shapes-about">Brushes and Filled Shapes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535042(v=VS.85).aspx">Pen::SetBrush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-setbrush">Pen::SetBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533811(v=VS.85).aspx">Using a Brush to Fill Shapes</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-a-brush-to-fill-shapes-use">Using a Brush to Fill Shapes</a>
  
 
  

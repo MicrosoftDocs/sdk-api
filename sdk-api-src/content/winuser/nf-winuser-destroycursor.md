@@ -80,7 +80,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -93,15 +93,15 @@ The <b>DestroyCursor</b> function destroys a nonshared cursor. Do not use this f
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/ms648391(v=VS.85).aspx">LoadCursor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadcursora">LoadCursor</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/ms648392(v=VS.85).aspx">LoadCursorFromFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadcursorfromfilea">LoadCursorFromFile</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/ms648045(v=VS.85).aspx">LoadImage</a> (if you use the <b>LR_SHARED</b> flag) </li>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a> (if you use the <b>LR_SHARED</b> flag) </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/ms648031(v=VS.85).aspx">CopyImage</a> (if you use the <b>LR_COPYRETURNORG</b> flag and the <i>hImage</i> parameter is a shared cursor) </li>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-copyimage">CopyImage</a> (if you use the <b>LR_COPYRETURNORG</b> flag and the <i>hImage</i> parameter is a shared cursor) </li>
 </ul>
 
 
@@ -115,31 +115,31 @@ The <b>DestroyCursor</b> function destroys a nonshared cursor. Do not use this f
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648384(v=VS.85).aspx">CopyCursor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-copycursor">CopyCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648031(v=VS.85).aspx">CopyImage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-copyimage">CopyImage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648385(v=VS.85).aspx">CreateCursor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createcursor">CreateCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646970(v=VS.85).aspx">Cursors</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/cursors">Cursors</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648391(v=VS.85).aspx">LoadCursor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadcursora">LoadCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648392(v=VS.85).aspx">LoadCursorFromFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadcursorfromfilea">LoadCursorFromFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648045(v=VS.85).aspx">LoadImage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a>
 
 
 

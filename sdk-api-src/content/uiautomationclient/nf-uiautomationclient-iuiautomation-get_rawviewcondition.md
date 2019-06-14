@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves a predefined <a href="https://msdn.microsoft.com/66515d42-2b98-4923-b326-9fec557345b7">IUIAutomationCondition</a> interface that selects all UI elements in an unfiltered view.
+Retrieves a predefined <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition">IUIAutomationCondition</a> interface that selects all UI elements in an unfiltered view.
 
 This property is read-only.
 
@@ -62,7 +62,7 @@ This property is read-only.
 
 
 
-Used by itself, the condition is functionally identical to the one retrieved by <a href="https://msdn.microsoft.com/02f55293-5d2d-4578-9c31-3ed04dac428e">IUIAutomation::CreateTrueCondition</a>.
+Used by itself, the condition is functionally identical to the one retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createtruecondition">IUIAutomation::CreateTrueCondition</a>.
 
 
 
@@ -72,15 +72,15 @@ Used by itself, the condition is functionally identical to the one retrieved by 
 
 
 
-<a href="https://msdn.microsoft.com/d674a8c5-cb09-49a6-b457-5e7486b0e178">ContentViewCondition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-get_contentviewcondition">ContentViewCondition</a>
 
 
 
-<a href="https://msdn.microsoft.com/1dbe6ce9-6fa4-42c6-bece-e9ae20ef9837">ControlViewCondition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-get_controlviewcondition">ControlViewCondition</a>
 
 
 
-<a href="https://msdn.microsoft.com/46b31ab6-39aa-4df8-a421-6369c32a9605">IUIAutomation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation">IUIAutomation</a>
 
 
 

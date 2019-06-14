@@ -50,8 +50,8 @@ ms.custom: 19H1
 
 
 The <b>ber_init</b> function allocates a new 
-<a href="https://msdn.microsoft.com/491bdf54-0b45-4324-93fc-35fe15155a3d">BerElement</a> structure containing the data taken from the supplied 
-<a href="https://msdn.microsoft.com/1f279905-ab02-4a8b-9b77-e8ea2b56e882">berval</a> structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure containing the data taken from the supplied 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a> structure.
 
 
 ## -parameters
@@ -61,14 +61,14 @@ The <b>ber_init</b> function allocates a new
 
 ### -param pBerVal [in]
 
-Pointer to the source <a href="https://msdn.microsoft.com/1f279905-ab02-4a8b-9b77-e8ea2b56e882">berval</a> structure.
+Pointer to the source <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a> structure.
 
 
 ## -returns
 
 
 
-If the function succeeds, the return value is a pointer to the newly allocated <a href="https://msdn.microsoft.com/491bdf54-0b45-4324-93fc-35fe15155a3d">BerElement</a> structure.
+If the function succeeds, the return value is a pointer to the newly allocated <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure.
 
 If the function fails, it returns a <b>NULL</b> pointer.
 
@@ -80,7 +80,7 @@ If the function fails, it returns a <b>NULL</b> pointer.
 
 
 Call 
-<a href="https://msdn.microsoft.com/b0f5a81e-a1d1-41c3-802c-b17be2275964">ber_free</a> to free a <a href="https://msdn.microsoft.com/491bdf54-0b45-4324-93fc-35fe15155a3d">BerElement</a> structure allocated with this function.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_free">ber_free</a> to free a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure allocated with this function.
 
 
 
@@ -90,19 +90,19 @@ Call
 
 
 
-<a href="https://msdn.microsoft.com/491bdf54-0b45-4324-93fc-35fe15155a3d">BerElement</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a0040ea-f8f3-4378-8371-49768714d762">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/b0f5a81e-a1d1-41c3-802c-b17be2275964">ber_free</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_free">ber_free</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f279905-ab02-4a8b-9b77-e8ea2b56e882">berval</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a>
  
 
  

@@ -76,7 +76,7 @@ Returns an <b>HRESULT</b>.
 
 
 
-<a href="https://msdn.microsoft.com/6fa3da1b-863b-4ed7-b5ef-4ed1c05d2456">IETFilterConfig Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nn-encdec-ietfilterconfig">IETFilterConfig Interface</a>
  
 
  

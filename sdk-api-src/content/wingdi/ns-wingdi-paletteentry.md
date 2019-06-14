@@ -59,28 +59,28 @@ Specifies the color and usage of an entry in a logical palette.
 
 ### -field peRed
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 The red intensity value for the palette entry.
 
 
 ### -field peGreen
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 The green intensity value for the palette entry.
 
 
 ### -field peBlue
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 The blue intensity value for the palette entry.
 
 
 ### -field peFlags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 The alpha intensity value for the palette entry. Note that as of DirectX 8, this member is treated differently than documented for Windows. 
 
@@ -90,7 +90,7 @@ The alpha intensity value for the palette entry. Note that as of DirectX 8, this
 
 
 
-<a href="https://msdn.microsoft.com/0a13cb04-10cb-48a6-a709-ad4a56459f02">Direct3D Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d9/dx9-graphics-reference-d3d-structures">Direct3D Structures</a>
  
 
  

@@ -59,17 +59,17 @@ Specifies the format and other data to be cached inside an embedded object.
 
 ### -param pformatetc [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/4478eb9a-84a1-4f3a-8290-94b8dd20c081">FORMATETC</a> structure that specifies the format and other data to be cached. View caching is specified by passing a zero clipboard format in <i>pformatetc</i>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a> structure that specifies the format and other data to be cached. View caching is specified by passing a zero clipboard format in <i>pformatetc</i>.
 
 
 ### -param advf [in]
 
-A group of flags that control the caching. Possible values come from the <a href="https://msdn.microsoft.com/e1ad9c17-e492-4891-bf1d-cbac48ce537a">ADVF</a> enumeration. When used in this context, for a cache, these values have specific meanings, which are outlined in Remarks. Refer to the <b>ADVF</b> enumeration for a more detailed description.
+A group of flags that control the caching. Possible values come from the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tagadvf">ADVF</a> enumeration. When used in this context, for a cache, these values have specific meanings, which are outlined in Remarks. Refer to the <b>ADVF</b> enumeration for a more detailed description.
 
 
 ### -param pdwConnection [out]
 
-A pointer to a variable that receives the identifier of this connection, which can later be used to turn caching off (by passing it to <a href="https://msdn.microsoft.com/a6a57bdd-190f-485b-9b46-cbfc1a1d29a6">IOleCache::Uncache</a>). If this value is 0, the connection was not established. The OLE-provided implementation uses nonzero numbers for connection identifiers.
+A pointer to a variable that receives the identifier of this connection, which can later be used to turn caching off (by passing it to <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-uncache">IOleCache::Uncache</a>). If this value is 0, the connection was not established. The OLE-provided implementation uses nonzero numbers for connection identifiers.
 
 
 ## -returns
@@ -123,7 +123,7 @@ Insufficient memory available for the operation.
 </dl>
 </td>
 <td width="60%">
-The cache was created, but the object application does not support the specified format. Cache creation succeeds even if the format is not supported, allowing the caller to fill the cache. If, however, the caller does not need to keep the cache, call <a href="https://msdn.microsoft.com/a6a57bdd-190f-485b-9b46-cbfc1a1d29a6">IOleCache::Uncache</a>.
+The cache was created, but the object application does not support the specified format. Cache creation succeeds even if the format is not supported, allowing the caller to fill the cache. If, however, the caller does not need to keep the cache, call <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-uncache">IOleCache::Uncache</a>.
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ The cache was created, but the object application does not support the specified
 </dl>
 </td>
 <td width="60%">
-A cache already exists for the <a href="https://msdn.microsoft.com/4478eb9a-84a1-4f3a-8290-94b8dd20c081">FORMATETC</a> passed to <a href="https://msdn.microsoft.com/a6a57bdd-190f-485b-9b46-cbfc1a1d29a6">IOleCache::Uncache</a>. In this case, the new advise flags are assigned to the cache, and the previously assigned connection identifier is returned.
+A cache already exists for the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a> passed to <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-uncache">IOleCache::Uncache</a>. In this case, the new advise flags are assigned to the cache, and the previously assigned connection identifier is returned.
 
 </td>
 </tr>
@@ -230,7 +230,7 @@ The cache is for a static object and it already has a cache node.
 <pre class="syntax" xml:space="preserve"><code>pFormatetc-&gt;cfFormat == 0</code></pre>
 A custom object handler can choose not to store data in a given format. Instead, it can synthesize it on demand when requested.
 
-The <i>advf</i> value specifies a member of the <a href="https://msdn.microsoft.com/e1ad9c17-e492-4891-bf1d-cbac48ce537a">ADVF</a> enumeration. When one of these values (or an OR'd combination of more than one value) is used in this context, these values mean the following.
+The <i>advf</i> value specifies a member of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tagadvf">ADVF</a> enumeration. When one of these values (or an OR'd combination of more than one value) is used in this context, these values mean the following.
 
 <table>
 <tr>
@@ -243,7 +243,7 @@ ADVF_NODATA
 
 </td>
 <td>
-The cache is not to be updated by changes made to the running object. Instead, the container will update the cache by explicitly calling <a href="https://msdn.microsoft.com/b826411d-6e00-44ba-8603-85db40c4a55f">IOleCache::SetData</a>, <a href="https://msdn.microsoft.com/7430d12c-ab07-4a9c-a845-4743818afbc7">IDataObject::SetData</a>, or <a href="https://msdn.microsoft.com/67bb0bcf-981a-4b2f-8ab9-2afc0659b2db">IOleCache2::UpdateCache</a>. This flag is usually used when the iconic aspect of an object is being cached.
+The cache is not to be updated by changes made to the running object. Instead, the container will update the cache by explicitly calling <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-setdata">IOleCache::SetData</a>, <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-setdata">IDataObject::SetData</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache2-updatecache">IOleCache2::UpdateCache</a>. This flag is usually used when the iconic aspect of an object is being cached.
 
 
 </td>
@@ -254,7 +254,7 @@ ADVF_ONLYONCE
 
 </td>
 <td>
-Update the cache one time only. After the update is complete, the advisory connection between the object and the cache is disconnected. The source object for the advisory connection calls the <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a> method.
+Update the cache one time only. After the update is complete, the advisory connection between the object and the cache is disconnected. The source object for the advisory connection calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> method.
 
 </td>
 </tr>
@@ -264,7 +264,7 @@ ADVF_PRIMEFIRST
 
 </td>
 <td>
-The object is not to wait for the data or view to change before updating the cache. OR'd with ADVF_ONLYONCE, this parameter provides an asynchronous <a href="https://msdn.microsoft.com/05118461-0438-4715-b2c2-fc2471ce38f0">IDataObject::GetData</a> call.
+The object is not to wait for the data or view to change before updating the cache. OR'd with ADVF_ONLYONCE, this parameter provides an asynchronous <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a> call.
 
 
 </td>
@@ -313,11 +313,11 @@ Updates the cached representation only when the object containing the cache is s
 
 
 
-<a href="https://msdn.microsoft.com/b5ef85d0-b54e-4831-87f1-ac6763179181">IOleCache</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecache">IOleCache</a>
 
 
 
-<a href="https://msdn.microsoft.com/a6a57bdd-190f-485b-9b46-cbfc1a1d29a6">IOleCache::Uncache</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-uncache">IOleCache::Uncache</a>
  
 
  

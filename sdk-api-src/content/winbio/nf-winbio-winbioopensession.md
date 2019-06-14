@@ -62,7 +62,7 @@ Connects to a biometric service provider and one or more biometric units.
 
 ### -param Factor [in]
 
-A bitmask of <a href="https://msdn.microsoft.com/7a15969c-ea64-464e-bd16-1daf0f2ea26f">WINBIO_BIOMETRIC_TYPE</a> flags that specifies the biometric unit types to be enumerated. Only <b>WINBIO_TYPE_FINGERPRINT</b> is currently supported.
+A bitmask of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winbio_ioctl/ns-winbio_ioctl-_winbio_sensor_attributes">WINBIO_BIOMETRIC_TYPE</a> flags that specifies the biometric unit types to be enumerated. Only <b>WINBIO_TYPE_FINGERPRINT</b> is currently supported.
 
 
 ### -param PoolType [in]
@@ -151,7 +151,7 @@ The biometric units use internal processing and storage capabilities.
 <td width="60%">
 Group: access
 
-The client application captures raw biometric data using <a href="https://msdn.microsoft.com/365dcefb-3382-4b62-b47d-919e2d3f56f1">WinBioCaptureSample</a>.
+The client application captures raw biometric data using <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiocapturesample">WinBioCaptureSample</a>.
 
 </td>
 </tr>
@@ -163,7 +163,7 @@ The client application captures raw biometric data using <a href="https://msdn.m
 <td width="60%">
 Group: access
 
-The client performs vendor-defined control operations on a biometric unit by calling <a href="https://msdn.microsoft.com/102299e9-3276-4802-bd65-c3dd593f07b8">WinBioControlUnitPrivileged</a>.
+The client performs vendor-defined control operations on a biometric unit by calling <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiocontrolunitprivileged">WinBioControlUnitPrivileged</a>.
 
 </td>
 </tr>
@@ -173,7 +173,7 @@ The client performs vendor-defined control operations on a biometric unit by cal
 
 ### -param UnitArray [in]
 
-Pointer to an array of biometric unit identifiers to be included in the session. You can call <a href="https://msdn.microsoft.com/e1ca5712-978e-4e31-a941-eb462c670eac">WinBioEnumBiometricUnits</a> to enumerate the biometric units. Set this value to <b>NULL</b> if the <i>PoolType</i> parameter is <b>WINBIO_POOL_SYSTEM</b>.
+Pointer to an array of biometric unit identifiers to be included in the session. You can call <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenumbiometricunits">WinBioEnumBiometricUnits</a> to enumerate the biometric units. Set this value to <b>NULL</b> if the <i>PoolType</i> parameter is <b>WINBIO_POOL_SYSTEM</b>.
 
 
 ### -param UnitCount [in]
@@ -233,7 +233,7 @@ Pointer to the new session handle. If the function does not succeed, the handle 
 
 
 
-If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -328,7 +328,7 @@ Current administrative policy prohibits use of the Windows Biometric Framework A
 
 
 
-<a href="https://msdn.microsoft.com/b0adcf87-2f99-4154-a4fb-fb2f07181cd0">WinBioCloseSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioclosesession">WinBioCloseSession</a>
  
 
  

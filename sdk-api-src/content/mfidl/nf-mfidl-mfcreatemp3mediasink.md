@@ -59,12 +59,12 @@ Creates the MP3 media sink.
 
 ### -param pTargetByteStream [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/690035b7-2855-4714-938f-f8250ec70d24">IMFByteStream</a> interface of a byte stream.  The media sink writes the MP3 file to this byte stream. The byte stream must be writable.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a> interface of a byte stream.  The media sink writes the MP3 file to this byte stream. The byte stream must be writable.
 
 
 ### -param ppMediaSink [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/103e6fd8-a18f-480a-8261-099623014659">IMFMediaSink</a> interface of the MP3 media sink.. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasink">IMFMediaSink</a> interface of the MP3 media sink.. The caller must release the interface.
 
 
 ## -returns
@@ -125,7 +125,7 @@ HRESULT CreateMP3Sink(PCWSTR pszOutputFile, IMFMediaSink **ppSink)
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

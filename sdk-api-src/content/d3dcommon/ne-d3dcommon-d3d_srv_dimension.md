@@ -114,7 +114,7 @@ The resource is an array of cube textures.
 
 ### -field D3D_SRV_DIMENSION_BUFFEREX
 
-The resource is a raw buffer. For more info about raw viewing of buffers, see <a href="https://msdn.microsoft.com/en-us/library/Ff476900(v=VS.85).aspx">Raw Views of Buffers</a>.
+The resource is a raw buffer. For more info about raw viewing of buffers, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-resources-intro">Raw Views of Buffers</a>.
 
 
 ### -field D3D10_SRV_DIMENSION_UNKNOWN
@@ -279,14 +279,14 @@ The resource is an array of cube textures.
 
 ### -field D3D11_SRV_DIMENSION_BUFFEREX
 
-The resource is a raw buffer. For more info about raw viewing of buffers, see <a href="https://msdn.microsoft.com/en-us/library/Ff476900(v=VS.85).aspx">Raw Views of Buffers</a>.
+The resource is a raw buffer. For more info about raw viewing of buffers, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-resources-intro">Raw Views of Buffers</a>.
 
 
 ## -remarks
 
 
 
-A <b>D3D_SRV_DIMENSION</b>-typed value is specified in the <b>ViewDimension</b> member of the <a href="https://msdn.microsoft.com/7ce09172-8a01-4718-b0ef-0ae118a9be16">D3D11_SHADER_RESOURCE_VIEW_DESC</a> structure or the  <b>Dimension</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Ff476210(v=VS.85).aspx">D3D11_SHADER_INPUT_BIND_DESC</a> structure.
+A <b>D3D_SRV_DIMENSION</b>-typed value is specified in the <b>ViewDimension</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_shader_resource_view_desc">D3D11_SHADER_RESOURCE_VIEW_DESC</a> structure or the  <b>Dimension</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-_d3d11_shader_input_bind_desc">D3D11_SHADER_INPUT_BIND_DESC</a> structure.
 
 
 
@@ -296,7 +296,7 @@ A <b>D3D_SRV_DIMENSION</b>-typed value is specified in the <b>ViewDimension</b> 
 
 
 
-<a href="https://msdn.microsoft.com/002154d5-74a6-48fb-b55f-8687e4505fc7">Common Version Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-common-enumerations">Common Version Enumerations</a>
  
 
  

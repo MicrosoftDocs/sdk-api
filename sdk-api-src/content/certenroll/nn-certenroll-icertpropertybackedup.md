@@ -50,11 +50,11 @@ ms.custom: 19H1
 
 
 The <b>ICertPropertyBackedUp</b> interface represents an external certificate property that identifies whether a certificate has been backed up and, if so, the date and time that it was saved. This property is not currently used.
-<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/e7ad0ec5-a568-4506-ba54-908e00083c2b">CERTENROLL_PROPERTYID</a> value is XCN_CERT_BACKED_UP_PROP_ID.</div><div> </div>
+<div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-certenroll_propertyid">CERTENROLL_PROPERTYID</a> value is XCN_CERT_BACKED_UP_PROP_ID.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertPropertyBackedUp</b> interface inherits from <a href="https://msdn.microsoft.com/947c2f09-993d-4ced-8b76-66b79d96e3bc">ICertProperty</a>. <b>ICertPropertyBackedUp</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertPropertyBackedUp</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>. <b>ICertPropertyBackedUp</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>ICertPropertyBackedUp</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2ca941a6-898d-4955-b334-ffc15e10b330">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertybackedup-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object from a Boolean value and a date.
@@ -79,7 +79,7 @@ Initializes the object from a Boolean value and a date.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2033c947-661c-4a52-b24f-82fa71ba7868">InitializeFromCurrentTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertybackedup-initializefromcurrenttime">InitializeFromCurrentTime</a>
 </td>
 <td align="left" width="63%">
 Initializes the property from a Boolean value and the current system date and time.
@@ -96,7 +96,7 @@ Initializes the property from a Boolean value and the current system date and ti
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/5515fbd5-a711-421d-b80d-3e77c83f7549">BackedUpTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertybackedup-get_backeduptime">BackedUpTime</a>
 
 
 </td>
@@ -108,7 +108,7 @@ Retrieves the date and time at which the certificate was backed up.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/206ef65a-93c5-4c0d-b673-42a0b065225c">BackedUpValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertybackedup-get_backedupvalue">BackedUpValue</a>
 
 
 </td>
@@ -125,11 +125,11 @@ Retrieves a Boolean value that identifies whether the certificate was backed up.
 
 
 
-<a href="https://msdn.microsoft.com/d49511ed-8651-457e-a102-0bea4edde24c">CertEnroll Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/947c2f09-993d-4ced-8b76-66b79d96e3bc">ICertProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>
  
 
  

@@ -51,14 +51,14 @@ ms.custom: 19H1
 
 The 
 <b>IEnumACDGroup</b> interface provides COM-standard enumeration methods for the 
-<a href="https://msdn.microsoft.com/73e23023-5574-4c5a-bdff-cbc7da765a65">ITACDGroup</a> interface. The 
-<a href="https://msdn.microsoft.com/a9078166-ff6a-4520-8209-e785bd6e7100">ITAgentHandler::EnumerateACDGroups</a> method returns a pointer to 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itacdgroup">ITACDGroup</a> interface. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagenthandler-enumerateacdgroups">ITAgentHandler::EnumerateACDGroups</a> method returns a pointer to 
 <b>IEnumACDGroup</b>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumACDGroup</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnumACDGroup</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumACDGroup</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumACDGroup</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IEnumACDGroup</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/202f8534-9990-4e69-b3b8-8a8884b651f1">Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ienumacdgroup-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates another enumerator that contains the same enumeration state as the current one.
@@ -82,7 +82,7 @@ Creates another enumerator that contains the same enumeration state as the curre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/20cad3aa-2c8c-4ef8-bb3a-b7662b125475">Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ienumacdgroup-next">Next</a>
 </td>
 <td align="left" width="63%">
 Gets the next specified number of elements in the enumeration sequence.
@@ -91,7 +91,7 @@ Gets the next specified number of elements in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/66c51bdd-c820-4670-a80d-27cfa080f08f">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ienumacdgroup-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets to the beginning of the enumeration sequence.
@@ -100,7 +100,7 @@ Resets to the beginning of the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/58f794cc-da10-4772-9afe-078337b7734b">Skip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ienumacdgroup-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over the next specified number of elements in the enumeration sequence.
@@ -115,7 +115,7 @@ Skips over the next specified number of elements in the enumeration sequence.
 
 
 
-<a href="https://msdn.microsoft.com/73e23023-5574-4c5a-bdff-cbc7da765a65">ITACDGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itacdgroup">ITACDGroup</a>
  
 
  

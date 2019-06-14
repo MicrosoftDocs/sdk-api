@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>get_Call</b> method gets a pointer to the 
-<a href="https://msdn.microsoft.com/5209d4a1-e05b-453e-8896-2dc71f0b9af0">ITCallInfo</a> interface for the call on which the event occurred.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a> interface for the call on which the event occurred.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param ppCallInfo [out]
 
 Pointer to 
-<a href="https://msdn.microsoft.com/5209d4a1-e05b-453e-8896-2dc71f0b9af0">ITCallInfo</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a> interface.
 
 
 ## -returns
@@ -120,7 +120,7 @@ The <i>ppCallInfo</i> parameter is not a valid pointer.
 
 
 
-<a href="https://msdn.microsoft.com/f387f5f5-06e4-45f2-8d93-31ff0da6151a">ITDigitDetectionEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itdigitdetectionevent">ITDigitDetectionEvent</a>
  
 
  

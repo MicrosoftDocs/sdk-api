@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The DDBLTFX structure passes raster operations (ROPs), effects, and override information to the <a href="https://msdn.microsoft.com/e458c430-855c-419b-aa50-144d2b422e78">IDirectDrawSurface7::Blt</a> method. This structure is also part of the <a href="https://msdn.microsoft.com/d8c302aa-9c57-41f8-ad22-d8fdd1158c3c">DDBLTBATCH</a> structure that is used with the <a href="https://msdn.microsoft.com/50c071a6-2963-474e-994e-c789b1924d92">IDirectDrawSurface7::BltBatch</a> method.
+The DDBLTFX structure passes raster operations (ROPs), effects, and override information to the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-blt">IDirectDrawSurface7::Blt</a> method. This structure is also part of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-_ddbltbatch">DDBLTBATCH</a> structure that is used with the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-bltbatch">IDirectDrawSurface7::BltBatch</a> method.
 
 
 
@@ -125,7 +125,7 @@ Uses the <b>dwZBufferLow</b> and <b>dwZBufferHigh</b> members as range values to
 
 ### -field dwROP
 
-Win32 raster operations. You can retrieve a list of supported raster operations by calling the <a href="https://msdn.microsoft.com/4e93612c-9e28-4d51-a640-e8e9b5ed8e7a">IDirectDraw7::GetCaps</a> method.
+Win32 raster operations. You can retrieve a list of supported raster operations by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-getcaps">IDirectDraw7::GetCaps</a> method.
 
 
 ### -field dwDDROP

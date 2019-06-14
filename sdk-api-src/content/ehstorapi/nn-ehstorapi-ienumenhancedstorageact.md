@@ -54,7 +54,7 @@ Use this interface as the top level enumerator for all IEEE 1667 Addressable Con
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumEnhancedStorageACT</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnumEnhancedStorageACT</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumEnhancedStorageACT</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumEnhancedStorageACT</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,16 +69,16 @@ The <b>IEnumEnhancedStorageACT</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/139bb8ed-faca-4fe7-ab6f-63c71d25a711">GetACTs</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nf-ehstorapi-ienumenhancedstorageact-getacts">GetACTs</a>
 </td>
 <td align="left" width="63%">
-Returns an enumeration of all the ACTs currently connected to the system. If at least one IEEE 1667 ACT is present, the Enhanced Storage API allocates an array of 1 or more <a href="https://msdn.microsoft.com/33d5df30-f877-4852-ad2f-af1bb58d0044">IEnhancedStorageACT</a> pointers.
+Returns an enumeration of all the ACTs currently connected to the system. If at least one IEEE 1667 ACT is present, the Enhanced Storage API allocates an array of 1 or more <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a> pointers.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/13c0475e-a73a-4e26-b6ec-6b9cb19e23f3">GetMatchingACT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nf-ehstorapi-ienumenhancedstorageact-getmatchingact">GetMatchingACT</a>
 </td>
 <td align="left" width="63%">
 Returns the ACT associated with the volume specified via a string supplied by the client.
@@ -93,7 +93,7 @@ Returns the ACT associated with the volume specified via a string supplied by th
 
 
 
-<a href="https://msdn.microsoft.com/33d5df30-f877-4852-ad2f-af1bb58d0044">IEnhancedStorageACT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a>
  
 
  

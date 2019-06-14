@@ -246,15 +246,15 @@ Feature not implemented.
 
 
 
-If a document is created with the <a href="https://msdn.microsoft.com/en-us/library/Bb774091(v=VS.85).aspx">ITextDocument::New</a> method and the zero values are used, then the Text Object Model (TOM) engine has to choose which flags and code page to use. UTF-8 Rich Text Format (RTF) (defined below) is an attractive default.
+If a document is created with the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-new">ITextDocument::New</a> method and the zero values are used, then the Text Object Model (TOM) engine has to choose which flags and code page to use. UTF-8 Rich Text Format (RTF) (defined below) is an attractive default.
 
 Microsoft Rich Edit 3.0 defines a control word, \urtf8, which should be used instead of \rtf1. This means the file is encoded in UTF-8. On input, RTF files contain the relevant code-page information, but this can be changed for saving purposes, thereby allowing one version to be translated to another.
 
 If the tomPasteFile flag is not set in the <i>Flags</i> parameter, the method first closes the current document after saving any unsaved changes.
 
-A file is recognized as a Unicode text file if it starts with the Unicode BOM 0xfeff. The <b>ITextDocument::Open</b> method strips off this Unicode BOM on input and <a href="https://msdn.microsoft.com/en-us/library/Bb774103(v=VS.85).aspx">ITextDocument::Save</a> applies it on output. See the comments on the <b>ITextDocument::Save</b> method, which discuss putting the Unicode BOM at the beginning of Unicode plain-text files. The conversion values <b>tomRTF</b>, <b>tomHTML</b>, and <b>tomWordDocument</b> are used primarily for the <b>ITextDocument::Save</b> method, since these formats are easily recognized on input. 
+A file is recognized as a Unicode text file if it starts with the Unicode BOM 0xfeff. The <b>ITextDocument::Open</b> method strips off this Unicode BOM on input and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-save">ITextDocument::Save</a> applies it on output. See the comments on the <b>ITextDocument::Save</b> method, which discuss putting the Unicode BOM at the beginning of Unicode plain-text files. The conversion values <b>tomRTF</b>, <b>tomHTML</b>, and <b>tomWordDocument</b> are used primarily for the <b>ITextDocument::Save</b> method, since these formats are easily recognized on input. 
 
-Errors are reported by negative values, but because file operations have many kinds of errors, you may not need all of the error information provided. In particular, you may not care (or you may already know) which file facility is used, namely Windows (<code>pVar.vt = VT_BSTR</code>) or OLE storage for <a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a>. By masking off bit 18 of an <b>HRESULT</b> value, you can ignore the difference and compare to its <b>STG_E_xxx</b> value. For example:
+Errors are reported by negative values, but because file operations have many kinds of errors, you may not need all of the error information provided. In particular, you may not care (or you may already know) which file facility is used, namely Windows (<code>pVar.vt = VT_BSTR</code>) or OLE storage for <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>. By masking off bit 18 of an <b>HRESULT</b> value, you can ignore the difference and compare to its <b>STG_E_xxx</b> value. For example:
 
 
 
@@ -287,15 +287,15 @@ if(hr == STG_E_FILENOTFOUND)
 
 
 
-<a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>
 
 
 
-<a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774052(v=VS.85).aspx">ITextDocument</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>
 
 
 
@@ -307,11 +307,11 @@ if(hr == STG_E_FILENOTFOUND)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774103(v=VS.85).aspx">Save</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-save">Save</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
  
 
  

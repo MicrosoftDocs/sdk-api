@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains constants used to specify the type of analysis to perform by using the <a href="https://msdn.microsoft.com/06cd2593-58f5-46b9-9100-debad0280d90">GetAnalysis</a> method.
+Contains constants used to specify the type of analysis to perform by using the <a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-getanalysis">GetAnalysis</a> method.
 
 
 ## -enum-fields
@@ -59,12 +59,12 @@ Contains constants used to specify the type of analysis to perform by using the 
 
 ### -field WMIQ_ANALYSIS_RPN_SEQUENCE
 
-Used if the query has a SELECT clause. When this type of analysis is used,  <i>pAnalysis</i> points to an <a href="https://msdn.microsoft.com/0f7e77a8-4ee6-421b-be4a-b58055a58c39">SWbemRpnEncodedQuery</a> structure.
+Used if the query has a SELECT clause. When this type of analysis is used,  <i>pAnalysis</i> points to an <a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/ns-wmiutils-tag_swbemrpnencodedquery">SWbemRpnEncodedQuery</a> structure.
 
 
 ### -field WMIQ_ANALYSIS_ASSOC_QUERY
 
-Used to return information about association type queries. When this type of analysis is used,  <i>pAnalysis</i> points to an <a href="https://msdn.microsoft.com/8312b324-a698-4957-bd76-3129398e4886">SWbemAssocQueryInf</a> structure.
+Used to return information about association type queries. When this type of analysis is used,  <i>pAnalysis</i> points to an <a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/ns-wmiutils-tag_swbemassocqueryinf">SWbemAssocQueryInf</a> structure.
 
 
 ### -field WMIQ_ANALYSIS_PROP_ANALYSIS_MATRIX

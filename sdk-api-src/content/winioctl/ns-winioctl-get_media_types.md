@@ -447,7 +447,7 @@ The number of elements in the <b>MediaInfo</b> array.
 ### -field MediaInfo
 
 A pointer to the first 
-<a href="https://msdn.microsoft.com/90367411-3008-4e37-9884-e586fc5162d9">DEVICE_MEDIA_INFO</a> structure in the array. There is one structure for each media type supported by the device.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_media_info">DEVICE_MEDIA_INFO</a> structure in the array. There is one structure for each media type supported by the device.
 
 
 ## -see-also
@@ -455,11 +455,11 @@ A pointer to the first
 
 
 
-<a href="https://msdn.microsoft.com/90367411-3008-4e37-9884-e586fc5162d9">DEVICE_MEDIA_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_media_info">DEVICE_MEDIA_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb3676cb-9f50-4105-89b6-ee2174e197ec">IOCTL_STORAGE_GET_MEDIA_TYPES_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_get_media_types_ex">IOCTL_STORAGE_GET_MEDIA_TYPES_EX</a>
  
 
  

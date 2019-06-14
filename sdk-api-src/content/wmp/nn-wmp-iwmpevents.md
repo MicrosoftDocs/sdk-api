@@ -64,271 +64,271 @@ In addition to the methods inherited from <b>IUnknown</b>, the <b>IWMPEvents</b>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563311(v=VS.85).aspx">AudioLanguageChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-audiolanguagechange">AudioLanguageChange</a>
 </td>
 <td>Occurs when the current audio language changes.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563312(v=VS.85).aspx">Buffering</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-buffering">Buffering</a>
 </td>
 <td>Occurs when the Windows Media Player control begins or ends buffering.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563313(v=VS.85).aspx">CdromMediaChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-cdrommediachange">CdromMediaChange</a>
 </td>
 <td>Occurs when a CD or DVD is inserted into or ejected from a CD or DVD drive.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563314(v=VS.85).aspx">Click</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-click">Click</a>
 </td>
 <td>Occurs when the user clicks a mouse button.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563315(v=VS.85).aspx">CurrentItemChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-currentitemchange">CurrentItemChange</a>
 </td>
 <td>Occurs when the <b>currentItem</b> property of the <b>IWMPControls</b> interface changes value.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563316(v=VS.85).aspx">CurrentMediaItemAvailable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-currentmediaitemavailable">CurrentMediaItemAvailable</a>
 </td>
 <td>Occurs when the current media item becomes available.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563317(v=VS.85).aspx">CurrentPlaylistChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-currentplaylistchange">CurrentPlaylistChange</a>
 </td>
 <td>Occurs when something changes within the current playlist.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563318(v=VS.85).aspx">CurrentPlaylistItemAvailable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-currentplaylistitemavailable">CurrentPlaylistItemAvailable</a>
 </td>
 <td>Occurs when the current playlist item becomes available.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563319(v=VS.85).aspx">Disconnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-disconnect">Disconnect</a>
 </td>
 <td>Reserved for future use.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563320(v=VS.85).aspx">DomainChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-domainchange">DomainChange</a>
 </td>
 <td>Occurs when the DVD domain changes.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563321(v=VS.85).aspx">DoubleClick</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-doubleclick">DoubleClick</a>
 </td>
 <td>Occurs when the user double-clicks a mouse button.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563322(v=VS.85).aspx">DurationUnitChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-durationunitchange">DurationUnitChange</a>
 </td>
 <td>Reserved for future use.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563323(v=VS.85).aspx">EndOfStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-endofstream">EndOfStream</a>
 </td>
 <td>Reserved for future use.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563324(v=VS.85).aspx">Error</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-error">Error</a>
 </td>
 <td>Occurs when the Windows Media Player control has an error condition.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563325(v=VS.85).aspx">KeyDown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-keydown">KeyDown</a>
 </td>
 <td>Occurs when a key is pressed.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563326(v=VS.85).aspx">KeyPress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-keypress">KeyPress</a>
 </td>
 <td>Occurs when a key is pressed and then released.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563327(v=VS.85).aspx">KeyUp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-keyup">KeyUp</a>
 </td>
 <td>Occurs when a key is released.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563328(v=VS.85).aspx">MarkerHit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-markerhit">MarkerHit</a>
 </td>
 <td>Occurs when a marker is reached.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563329(v=VS.85).aspx">MediaChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-mediachange">MediaChange</a>
 </td>
 <td>Occurs when a media item changes.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563340(v=VS.85).aspx">MediaCollectionAttributeStringAdded</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-mediacollectionattributestringadded">MediaCollectionAttributeStringAdded</a>
 </td>
 <td>Occurs when an attribute is added to the library.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563341(v=VS.85).aspx">MediaCollectionAttributeStringChanged</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-mediacollectionattributestringchanged">MediaCollectionAttributeStringChanged</a>
 </td>
 <td>Occurs when an attribute in the library is changed.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563342(v=VS.85).aspx">MediaCollectionAttributeStringRemoved</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-mediacollectionattributestringremoved">MediaCollectionAttributeStringRemoved</a>
 </td>
 <td>Occurs when an attribute is removed from the library.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563343(v=VS.85).aspx">MediaCollectionChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-mediacollectionchange">MediaCollectionChange</a>
 </td>
 <td>Occurs when the media collection changes.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563344(v=VS.85).aspx">MediaError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-mediaerror">MediaError</a>
 </td>
 <td>Occurs when the <b>Media</b> object has an error condition.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563345(v=VS.85).aspx">ModeChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-modechange">ModeChange</a>
 </td>
 <td>Occurs when a mode of Windows Media Player is changed.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563346(v=VS.85).aspx">MouseDown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-mousedown">MouseDown</a>
 </td>
 <td>Occurs when a mouse button is pressed.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563347(v=VS.85).aspx">MouseMove</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-mousemove">MouseMove</a>
 </td>
 <td>Occurs when the mouse pointer is moved.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563348(v=VS.85).aspx">MouseUp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-mouseup">MouseUp</a>
 </td>
 <td>Occurs when a mouse button is released.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563349(v=VS.85).aspx">NewStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-newstream">NewStream</a>
 </td>
 <td>Reserved for future use.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563350(v=VS.85).aspx">OpenPlaylistSwitch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-openplaylistswitch">OpenPlaylistSwitch</a>
 </td>
 <td>Occurs when a title on a DVD begins playing.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563351(v=VS.85).aspx">OpenStateChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-openstatechange">OpenStateChange</a>
 </td>
 <td>Occurs when the Windows Media Player control changes state.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563352(v=VS.85).aspx">PlayerDockedStateChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-playerdockedstatechange">PlayerDockedStateChange</a>
 </td>
 <td>Occurs when a remoted Windows Media Player control docks or undocks.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563353(v=VS.85).aspx">PlayerReconnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-playerreconnect">PlayerReconnect</a>
 </td>
 <td>Occurs when a remoted Windows Media Player control reconnects to the Player.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563354(v=VS.85).aspx">PlaylistChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-playlistchange">PlaylistChange</a>
 </td>
 <td>Occurs when a playlist changes.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563355(v=VS.85).aspx">PlaylistCollectionChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-playlistcollectionchange">PlaylistCollectionChange</a>
 </td>
 <td>Occurs when something changes in the playlist collection.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563356(v=VS.85).aspx">PlaylistCollectionPlaylistAdded</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-playlistcollectionplaylistadded">PlaylistCollectionPlaylistAdded</a>
 </td>
 <td>Occurs when a playlist is added to the playlist collection.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563357(v=VS.85).aspx">PlaylistCollectionPlaylistRemoved</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-playlistcollectionplaylistremoved">PlaylistCollectionPlaylistRemoved</a>
 </td>
 <td>Occurs when a playlist is removed from the playlist collection.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563358(v=VS.85).aspx">PlaylistCollectionPlaylistSetAsDeleted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-playlistcollectionplaylistsetasdeleted">PlaylistCollectionPlaylistSetAsDeleted</a>
 </td>
 <td>Reserved for future use.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563359(v=VS.85).aspx">PlayStateChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-playstatechange">PlayStateChange</a>
 </td>
 <td>Occurs when the play state of the Windows Media Player control changes.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563360(v=VS.85).aspx">PositionChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-positionchange">PositionChange</a>
 </td>
 <td>Occurs when the current position of the media has been changed.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563361(v=VS.85).aspx">ScriptCommand</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-scriptcommand">ScriptCommand</a>
 </td>
 <td>Occurs when a synchronized command or URL is received.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563362(v=VS.85).aspx">StatusChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-statuschange">StatusChange</a>
 </td>
 <td>Occurs when the <b>status</b> property changes value.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563363(v=VS.85).aspx">SwitchedToControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-switchedtocontrol">SwitchedToControl</a>
 </td>
 <td>Occurs when a remoted Windows Media Player control switches to the docked state.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563364(v=VS.85).aspx">SwitchedToPlayerApplication</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-switchedtoplayerapplication">SwitchedToPlayerApplication</a>
 </td>
 <td>Occurs when a remoted Windows Media Player control switches to the full mode of the Player.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563365(v=VS.85).aspx">Warning</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-warning">Warning</a>
 </td>
 <td>Reserved for future use.</td>
 </tr>
@@ -340,11 +340,11 @@ In addition to the methods inherited from <b>IUnknown</b>, the <b>IWMPEvents</b>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563289(v=VS.85).aspx">IWMPEvents2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpevents2">IWMPEvents2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/68a0bdaf-ae1b-4ba1-817b-a31c68b9fddd">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
  
 
  

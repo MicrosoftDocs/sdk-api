@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Called when the transform chain in the <a href="https://msdn.microsoft.com/7d3cc314-6b9e-437c-afda-ee1965a12721">IMFSourceReader</a> is built or modified.
+Called when the transform chain in the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a> is built or modified.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ Returns an <b>HRESULT</b> value. Currently, the sink writer ignores the return v
 
 
 
-<a href="https://msdn.microsoft.com/92885A3C-137D-42DD-A65D-D2CE56A69A68">IMFSinkWriterCallback2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwritercallback2">IMFSinkWriterCallback2</a>
  
 
  

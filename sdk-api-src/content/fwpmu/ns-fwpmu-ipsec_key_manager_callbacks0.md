@@ -73,21 +73,21 @@ Reserved for system use.
 
 ### -field keyDictationCheck
 
-Type: <b><a href="https://msdn.microsoft.com/0B91B57C-6943-4702-8926-8ED2B7B3E48D">IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-ipsec_key_manager_key_dictation_check0">IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0</a></b>
 
 Specifies that the Trusted Intermediary Agent (TIA) will dictate the keys for the SA being negotiated. Only used if the <b>IPSEC_DICTATE_KEY</b> flag is set.
 
 
 ### -field keyDictation
 
-Type: <b><a href="https://msdn.microsoft.com/A69E44FF-A58D-426B-BD59-8EB4B5A63B66">IPSEC_KEY_MANAGER_DICTATE_KEY0</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-ipsec_key_manager_dictate_key0">IPSEC_KEY_MANAGER_DICTATE_KEY0</a></b>
 
 Allows the TIA to dictate the keys for the SA being negotiated. Only used if the <b>IPSEC_DICTATE_KEY</b> flag is set.
 
 
 ### -field keyNotify
 
-Type: <b><a href="https://msdn.microsoft.com/ECB904D1-C78F-493D-A6B8-73EA782EA935">IPSEC_KEY_MANAGER_NOTIFY_KEY0</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-ipsec_key_manager_notify_key0">IPSEC_KEY_MANAGER_NOTIFY_KEY0</a></b>
 
 Notifies the TIA of the keys for the SA being negotiated.
 
@@ -106,27 +106,27 @@ If the <b>IPSEC_KEY_MANAGER_FLAG_DICTATE_KEY</b> flag is set, all three callback
 
 
 
-<a href="https://msdn.microsoft.com/942F38AF-13F4-4A2E-A504-5085EC90E74C">IPSEC_KEY_MANAGER0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-_ipsec_key_manager0">IPSEC_KEY_MANAGER0</a>
 
 
 
-<a href="https://msdn.microsoft.com/A69E44FF-A58D-426B-BD59-8EB4B5A63B66">IPSEC_KEY_MANAGER_DICTATE_KEY0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-ipsec_key_manager_dictate_key0">IPSEC_KEY_MANAGER_DICTATE_KEY0</a>
 
 
 
-<a href="https://msdn.microsoft.com/0B91B57C-6943-4702-8926-8ED2B7B3E48D">IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-ipsec_key_manager_key_dictation_check0">IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0</a>
 
 
 
-<a href="https://msdn.microsoft.com/ECB904D1-C78F-493D-A6B8-73EA782EA935">IPSEC_KEY_MANAGER_NOTIFY_KEY0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-ipsec_key_manager_notify_key0">IPSEC_KEY_MANAGER_NOTIFY_KEY0</a>
 
 
 
-<a href="https://msdn.microsoft.com/9606A611-6C55-4548-B9C4-688580338F08">IPsecKeyManagerAddAndRegister0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ipseckeymanageraddandregister0">IPsecKeyManagerAddAndRegister0</a>
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

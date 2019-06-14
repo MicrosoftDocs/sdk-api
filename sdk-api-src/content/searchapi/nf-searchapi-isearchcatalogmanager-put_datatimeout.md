@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the time-out value for data transactions between the indexer and the search filter host. This information is stored in the <a href="https://msdn.microsoft.com/en-us/library/Aa965374(v=VS.85).aspx">TIMEOUT_INFO</a> structure and is measured in seconds.
+Sets the time-out value for data transactions between the indexer and the search filter host. This information is stored in the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-_timeout_info">TIMEOUT_INFO</a> structure and is measured in seconds.
 
 
 ## -parameters

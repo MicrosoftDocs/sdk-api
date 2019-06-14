@@ -92,17 +92,17 @@ The number of types of descriptor heaps.
 
 
 
-This enum is used by the <a href="https://msdn.microsoft.com/060ED49E-12B2-4DAE-A9DC-5BAB96B8E8ED">D3D12_DESCRIPTOR_HEAP_DESC</a> structure, and the following methods:
+This enum is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_descriptor_heap_desc">D3D12_DESCRIPTOR_HEAP_DESC</a> structure, and the following methods:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/F995EF34-74FF-4FCA-A018-E2F48DF92450">CopyDescriptors</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-copydescriptors">CopyDescriptors</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/6DA1FCDA-042C-4727-9814-B8F57E14CD51">CopyDescriptorsSimple</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-copydescriptorssimple">CopyDescriptorsSimple</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/4593C153-913A-49DF-ADDC-6FB1E19D3D17">GetDescriptorHandleIncrementSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getdescriptorhandleincrementsize">GetDescriptorHandleIncrementSize</a>
 </li>
 </ul>
 
@@ -113,15 +113,15 @@ This enum is used by the <a href="https://msdn.microsoft.com/060ED49E-12B2-4DAE-
 
 
 
-<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/58677023-692C-4BA4-90B7-D568F3DD3F73">Creating Descriptor Heaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/creating-descriptor-heaps">Creating Descriptor Heaps</a>
 
 
 
-<a href="https://msdn.microsoft.com/04D3FACF-21EC-45CA-AD9B-78FDCDDC7136">Descriptor Heaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/descriptor-heaps">Descriptor Heaps</a>
  
 
  

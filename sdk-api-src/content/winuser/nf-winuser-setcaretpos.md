@@ -82,7 +82,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -101,7 +101,7 @@ This API does not participate in DPI virtualization. The provided position is in
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648398(v=VS.85).aspx">Creating and Displaying a Caret</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-carets">Creating and Displaying a Caret</a>.
 
 <div class="code"></div>
 
@@ -112,7 +112,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648398(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646968(v=VS.85).aspx">Carets</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/carets">Carets</a>
 
 
 
@@ -120,11 +120,11 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648398(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648402(v=VS.85).aspx">GetCaretPos</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcaretpos">GetCaretPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648403(v=VS.85).aspx">HideCaret</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-hidecaret">HideCaret</a>
 
 
 
@@ -132,7 +132,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648398(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648406(v=VS.85).aspx">ShowCaret</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showcaret">ShowCaret</a>
  
 
  

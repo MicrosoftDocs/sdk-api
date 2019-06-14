@@ -59,7 +59,7 @@ Retrieves a pointer to the event dispatcher for the current process.
 
 ### -param pUnk [out]
 
-A pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface of the event dispatcher for the current process.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the event dispatcher for the current process.
 
 
 ## -returns
@@ -76,7 +76,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685936(v=VS.85).aspx">IMTSLocator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imtslocator">IMTSLocator</a>
  
 
  

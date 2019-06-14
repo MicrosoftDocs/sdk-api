@@ -112,7 +112,7 @@ The audio endpoint has been disconnected.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/706f9833-7f06-4bdc-96d5-6872f6effcb9">IAudioClient::Start</a> method has not been called for this stream.
+The <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-start">IAudioClient::Start</a> method has not been called for this stream.
 
 </td>
 </tr>
@@ -135,7 +135,7 @@ This method retrieves two correlated stream-position values:
 
 <ul>
 <li>Device position. The client retrieves the unprocessed device position in <i>DevicePosition</i>. This is the stream position of the sample that is currently playing through the speakers (for a rendering stream) or being recorded through the microphone (for a capture stream). The sampling rate of the device endpoint may be different from the sampling rate of the mix format used by the client.
-					To retrieve the device position from the client, call <a href="https://msdn.microsoft.com/2271bd73-8cb6-4048-a16c-f765d0fae6bd">IAudioClock::GetPosition</a>.
+					To retrieve the device position from the client, call <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclock-getposition">IAudioClock::GetPosition</a>.
 				</li>
 <li>Performance counter. The client retrieves the performance counter in <i>QPCPosition</i>. <b>GetDevicePosition</b> obtains the counter value by calling the <b>QueryPerformanceCounter</b> function at the time that the audio endpoint device stores the stream position in the <i>DevicePosition</i> parameter of the <b>GetDevicePosition</b> method. <b>GetDevicePosition</b> converts the counter value to 100-nanosecond time units. For more information about <b>QueryPerformanceCounter</b> and <b>QueryPerformanceFrequency</b>, see the Windows SDK documentation.</li>
 </ul>
@@ -153,7 +153,7 @@ Given the device position and the performance counter at the time of the <b>GetD
 
 
 
-<a href="https://msdn.microsoft.com/4820c93a-a5d8-4ab9-aefc-9377fc76e745">IAudioClock2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclock2">IAudioClock2</a>
  
 
  

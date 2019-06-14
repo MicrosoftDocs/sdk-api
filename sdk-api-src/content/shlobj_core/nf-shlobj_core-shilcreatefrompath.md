@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>SHILCreateFromPath</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Applications should use <a href="https://msdn.microsoft.com/7bdfeed5-dcd0-40f6-a9d0-08ce816ee055">SHParseDisplayName</a> instead]
+<p class="CCE_Message">[<b>SHILCreateFromPath</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Applications should use <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shparsedisplayname">SHParseDisplayName</a> instead]
 
 Creates a pointer to an item identifier list (PIDL) from a path.
 
@@ -79,7 +79,7 @@ The path in <i>pszPath</i> expressed as a PIDL.
 
 Type: <b>DWORD*</b>
 
-A pointer to a <b>DWORD</b> value that, on entry, indicates any attributes of the folder named in <i>pszPath</i> that the calling application would like to retrieve along with the PIDL. On exit, this value contains those requested attributes. For a list of possible attribute flags for this parameter, see <a href="https://msdn.microsoft.com/3864b386-7653-4661-880c-e96c08ff0dbb">IShellFolder::GetAttributesOf</a>.
+A pointer to a <b>DWORD</b> value that, on entry, indicates any attributes of the folder named in <i>pszPath</i> that the calling application would like to retrieve along with the PIDL. On exit, this value contains those requested attributes. For a list of possible attribute flags for this parameter, see <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">IShellFolder::GetAttributesOf</a>.
 
 
 ## -returns

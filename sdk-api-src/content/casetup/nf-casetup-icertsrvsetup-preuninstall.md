@@ -76,7 +76,7 @@ The <b>PreUnInstall</b> method should be called before performing a role-specifi
 
 
 
-<a href="https://msdn.microsoft.com/6792a0d6-d304-481d-a97b-5fb7033c7eae">ICertSrvSetup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>
  
 
  

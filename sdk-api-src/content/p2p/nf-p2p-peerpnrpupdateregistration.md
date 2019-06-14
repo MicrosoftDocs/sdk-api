@@ -59,12 +59,12 @@ The <b>PeerPnrpUpdateRegistration</b> function updates the PNRP registration inf
 
 ### -param hRegistration [in]
 
-Handle to a PNRP registration for the peer node obtained by a previous call to <a href="https://msdn.microsoft.com/18c26779-f50d-43bd-a772-763ceba25da8">PeerPnrpRegister</a>.
+Handle to a PNRP registration for the peer node obtained by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpregister">PeerPnrpRegister</a>.
 
 
 ### -param pRegistrationInfo [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/2825cb65-94b4-4bed-acff-7fa35a992284">PEER_PNRP_REGISTRATION_INFO</a> structure that contains the endpoint information for the registering peer node.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_pnrp_registration_info_tag">PEER_PNRP_REGISTRATION_INFO</a> structure that contains the endpoint information for the registering peer node.
 
 
 ## -returns
@@ -110,7 +110,7 @@ There is not enough memory to perform the specified operation.
 
 
 
-The <b>pwzCloudName</b>  and <b>cAddresses</b> members of the <a href="https://msdn.microsoft.com/2825cb65-94b4-4bed-acff-7fa35a992284">PEER_PNRP_REGISTRATION_INFO</a> provided in the <i>pRegistrationInfo</i> parameter cannot be changed with PeerPnrpUpdateRegistration. Attempting to do so will return an <b>E_INVALIDARG</b> error.
+The <b>pwzCloudName</b>  and <b>cAddresses</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_pnrp_registration_info_tag">PEER_PNRP_REGISTRATION_INFO</a> provided in the <i>pRegistrationInfo</i> parameter cannot be changed with PeerPnrpUpdateRegistration. Attempting to do so will return an <b>E_INVALIDARG</b> error.
 
 PeerPnrpUpdateRegistration has a maximum payload of 4k.
 
@@ -122,11 +122,11 @@ PeerPnrpUpdateRegistration has a maximum payload of 4k.
 
 
 
-<a href="https://msdn.microsoft.com/18c26779-f50d-43bd-a772-763ceba25da8">PeerPnrpRegister</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpregister">PeerPnrpRegister</a>
 
 
 
-<a href="https://msdn.microsoft.com/ac032cfb-b1d4-4fe0-8d27-7d378aaa6aff">PeerPnrpUnregister</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpunregister">PeerPnrpUnregister</a>
  
 
  

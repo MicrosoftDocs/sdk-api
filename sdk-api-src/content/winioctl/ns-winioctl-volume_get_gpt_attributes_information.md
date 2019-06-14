@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Contains volume attributes retrieved with the <a href="https://msdn.microsoft.com/3e58e0d6-215a-47f3-b1bf-e8d53c224b68">IOCTL_VOLUME_GET_GPT_ATTRIBUTES</a> control code.
+Contains volume attributes retrieved with the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_volume_get_gpt_attributes">IOCTL_VOLUME_GET_GPT_ATTRIBUTES</a> control code.
 
 
 ## -struct-fields
@@ -84,7 +84,7 @@ The volume is read-only.
 </dl>
 </td>
 <td width="60%">
-The volume is a shadow copy of another volume. For more information, see <a href="https://msdn.microsoft.com/263b0200-4869-4fb0-ad50-240166d2d32f">Volume Shadow Copy Service Overview</a>.
+The volume is a shadow copy of another volume. For more information, see <a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-service-overview">Volume Shadow Copy Service Overview</a>.
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ The volume is not assigned a default drive letter.
 
 
 
-<a href="https://msdn.microsoft.com/3e58e0d6-215a-47f3-b1bf-e8d53c224b68">IOCTL_VOLUME_GET_GPT_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_volume_get_gpt_attributes">IOCTL_VOLUME_GET_GPT_ATTRIBUTES</a>
  
 
  

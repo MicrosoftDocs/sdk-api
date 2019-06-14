@@ -61,12 +61,12 @@ The <b>StgOpenAsyncDocfileOnIFillLockBytes</b>opens an existing root asynchronou
 
 ### -param pflb [in]
 
-A <a href="https://msdn.microsoft.com/033b3db4-3ff0-4cb4-916f-2490e92f5e6a">IFillLockBytes</a> pointer to the byte-array wrapper object that contains the storage object to be opened.
+A <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ifilllockbytes">IFillLockBytes</a> pointer to the byte-array wrapper object that contains the storage object to be opened.
 
 
 ### -param grfMode [in]
 
-A value that specifies the access mode to use to open the storage object. The most common access mode, taken from <a href="https://msdn.microsoft.com/15a35da9-332a-46e1-9190-500c95e26f59">STGM Constants</a>, is STGM_READ.
+A value that specifies the access mode to use to open the storage object. The most common access mode, taken from <a href="https://docs.microsoft.com/windows/desktop/Stg/stgm-constants">STGM Constants</a>, is STGM_READ.
 
 
 ### -param asyncFlags [in]
@@ -77,7 +77,7 @@ A value that indicates whether a connection point on a storage is inherited by i
 ### -param ppstgOpen [out]
 
 A pointer to 
-<a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a>* pointer variable that receives the interface pointer to the root asynchronous storage object.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>* pointer variable that receives the interface pointer to the root asynchronous storage object.
 
 
 ## -returns
@@ -94,16 +94,16 @@ This function supports the standard return values E_OUTOFMEMORY, E_UNEXPECTED, E
 
 
 The root storage of the asynchronous storage object is opened according to the access mode in the <i>grfMode</i> parameter. A pointer to the 
-<a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> interface on the opened storage object is supplied through the <i>ppstgOpen</i> parameter.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface on the opened storage object is supplied through the <i>ppstgOpen</i> parameter.
 
 The byte array wrapper object must have been previously instantiated through a call to the 
-<a href="https://msdn.microsoft.com/948724ff-d1eb-43ca-b498-6296909cfb28">StgGetIFillLockBytesOnFile</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-stggetifilllockbytesonfile">StgGetIFillLockBytesOnFile</a> function.
 
 <b>StgOpenAsyncDocfileOnIFillLockBytes</b> does not support priority access mode or exclusions. Otherwise, it works in much the same way as the 
-<a href="https://msdn.microsoft.com/7920bd46-0a8f-42e0-9988-59d85edb64e2">StgOpenStorageOnILockBytes</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageonilockbytes">StgOpenStorageOnILockBytes</a> function.
 
 The returned storage object has a connection point for 
-<a href="https://msdn.microsoft.com/en-us/library/ms680740(v=VS.85).aspx">IProgressNotify</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iprogressnotify">IProgressNotify</a>.
 
 
 
@@ -113,19 +113,19 @@ The returned storage object has a connection point for
 
 
 
-<a href="https://msdn.microsoft.com/033b3db4-3ff0-4cb4-916f-2490e92f5e6a">IFillLockBytes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ifilllockbytes">IFillLockBytes</a>
 
 
 
-<a href="https://msdn.microsoft.com/bb2c5d0d-8dc8-4844-9a20-ef8e4def5731">ILockBytes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a>
 
 
 
-<a href="https://msdn.microsoft.com/948724ff-d1eb-43ca-b498-6296909cfb28">StgGetIFillLockBytesOnFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-stggetifilllockbytesonfile">StgGetIFillLockBytesOnFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/7920bd46-0a8f-42e0-9988-59d85edb64e2">StgOpenStorageOnILockBytes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageonilockbytes">StgOpenStorageOnILockBytes</a>
  
 
  

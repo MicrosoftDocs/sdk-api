@@ -68,7 +68,7 @@ The duplicate text paragraph format object
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -80,11 +80,11 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-<a href="https://msdn.microsoft.com/31a0849f-c651-4178-b1ff-a4333bcde5d9">ITextPara2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara2">ITextPara2</a>
 
 
 
-<a href="https://msdn.microsoft.com/403fd23b-5d66-4e30-b1aa-eec9e4676318">ITextPara2::SetDuplicate2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara2-setduplicate2">ITextPara2::SetDuplicate2</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndGetActiveTimer</b> macro retrieves the update period used when the MCIWnd window is the active window. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/f9e6f9ed-75fd-4e45-ad92-79a82d8d572c">MCIWNDM_GETACTIVETIMER</a> message.
+The <b>MCIWndGetActiveTimer</b> macro retrieves the update period used when the MCIWnd window is the active window. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getactivetimer">MCIWNDM_GETACTIVETIMER</a> message.
 
 
 
@@ -70,7 +70,7 @@ Handle of the MCIWnd window.
 
 
 
-<a href="https://msdn.microsoft.com/f9e6f9ed-75fd-4e45-ad92-79a82d8d572c">MCIWNDM_GETACTIVETIMER</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getactivetimer">MCIWNDM_GETACTIVETIMER</a>
  
 
  

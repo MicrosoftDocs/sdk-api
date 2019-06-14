@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Tells the <a href="https://msdn.microsoft.com/56ad011d-17c4-4410-b598-6ef47fb3638f">service control manager</a> to flush any cached RPC binding handles for the specified computer.
+Tells the <a href="https://docs.microsoft.com/windows/desktop/Services/service-control-manager">service control manager</a> to flush any cached RPC binding handles for the specified computer.
 
 Only administrators may call this function.
 

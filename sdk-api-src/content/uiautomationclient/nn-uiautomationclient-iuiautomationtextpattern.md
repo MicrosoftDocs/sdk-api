@@ -54,7 +54,7 @@ Provides access to a control that contains text.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationTextPattern</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUIAutomationTextPattern</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationTextPattern</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationTextPattern</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IUIAutomationTextPattern</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2aca7414-afb2-402d-80cf-d7ce3e719b20">GetSelection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextpattern-getselection">GetSelection</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of text ranges that represents the currently selected text in a text-based control.  
@@ -79,7 +79,7 @@ Retrieves a collection of text ranges that represents the currently selected tex
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7cf4e6d4-223c-4222-a181-c16a5a90ef65">GetVisibleRanges</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextpattern-getvisibleranges">GetVisibleRanges</a>
 </td>
 <td align="left" width="63%">
 Retrieves an array of disjoint text ranges from a text-based control where each text range represents a contiguous span of visible text.
@@ -88,7 +88,7 @@ Retrieves an array of disjoint text ranges from a text-based control where each 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e75d21da-129f-4209-b51b-777ca5880946">RangeFromChild</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextpattern-rangefromchild">RangeFromChild</a>
 </td>
 <td align="left" width="63%">
 Retrieves a text range enclosing a child element such as an image, hyperlink, Microsoft Excel spreadsheet, or other embedded object.
@@ -97,7 +97,7 @@ Retrieves a text range enclosing a child element such as an image, hyperlink, Mi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/aa80b1d8-c50e-45be-8769-8b937c8e714a">RangeFromPoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextpattern-rangefrompoint">RangeFromPoint</a>
 </td>
 <td align="left" width="63%">
 Retrieves the degenerate (empty) text range nearest to the specified screen coordinates.
@@ -115,7 +115,7 @@ Retrieves the degenerate (empty) text range nearest to the specified screen coor
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/4234260a-6b3d-4f63-9082-9e225c614410">DocumentRange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextpattern-get_documentrange">DocumentRange</a>
 
 
 </td>
@@ -131,7 +131,7 @@ Retrieves a text range that encloses the main text of a document.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/794c08d4-9305-4fdd-8ca0-188e1e9b6547">SupportedTextSelection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextpattern-get_supportedtextselection">SupportedTextSelection</a>
 
 
 </td>
@@ -153,7 +153,7 @@ Retrieves a value that specifies the type of text selection that is supported by
 
 
 
-<a href="https://msdn.microsoft.com/14358ef0-aa54-42c1-a3da-0f835f5f5ef6">Control Pattern Interfaces for Clients</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>
  
 
  

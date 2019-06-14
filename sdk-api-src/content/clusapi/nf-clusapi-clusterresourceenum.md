@@ -50,9 +50,9 @@ ms.custom: 19H1
 ## -description
 
 
-Enumerates a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource's</a> dependent resources, 
-    <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a>, or both. It returns the name of one 
-    <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a802-8f7bdbb11b90">cluster object</a> with each call. The <b>PCLUSAPI_CLUSTER_RESOURCE_ENUM</b> type defines a pointer to this function.
+Enumerates a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource's</a> dependent resources, 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">nodes</a>, or both. It returns the name of one 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">cluster object</a> with each call. The <b>PCLUSAPI_CLUSTER_RESOURCE_ENUM</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Enumerates a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9b
 ### -param hResEnum [in]
 
 A resource enumeration handle returned from 
-       the <a href="https://msdn.microsoft.com/f801401f-f49d-41de-b88b-b832330eeccf">ClusterResourceOpenEnum</a> function.
+       the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourceopenenum">ClusterResourceOpenEnum</a> function.
 
 
 ### -param dwIndex [in]
@@ -79,7 +79,7 @@ The type of object returned by
        <b>ClusterResourceEnum</b>.
 
 
-The possible values are one of the following <a href="https://msdn.microsoft.com/8b59ab43-7e03-4ddf-82cc-9945e9da6462">CLUSTER_RESOURCE_ENUM</a> enumeration values:
+The possible values are one of the following <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_enum">CLUSTER_RESOURCE_ENUM</a> enumeration values:
 
 
 
@@ -167,7 +167,7 @@ There are no more objects to be returned.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System error code</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System error code</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -187,18 +187,18 @@ Any other returned error code indicates that the operation failed.
 
 Note that <i>lpcchName</i> refers to a count of characters and not a count of bytes, and 
      that the returned size does not include the terminating null character in the count. For more information on 
-     sizing buffers, see <a href="https://msdn.microsoft.com/283dc560-d547-4b42-b45c-435045080639">Data Size Conventions</a>.
+     sizing buffers, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-size-conventions">Data Size Conventions</a>.
 
 Do not call <b>ClusterResourceEnum</b> from any 
      resource DLL entry point function. 
      <b>ClusterResourceEnum</b> can safely be called from a 
      worker thread. For more information, see 
-     <a href="https://msdn.microsoft.com/0eaa4aea-8d9a-4552-b43a-fafa23a3e736">Function Calls to Avoid in Resource DLLs</a>.
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
 
 #### Examples
 
-See <a href="https://msdn.microsoft.com/391b87d1-6765-45fd-bd27-37a1127e639a">Enumerating Objects</a>.
+See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/enumerating-objects">Enumerating Objects</a>.
 
 <div class="code"></div>
 
@@ -209,15 +209,15 @@ See <a href="https://msdn.microsoft.com/391b87d1-6765-45fd-bd27-37a1127e639a">En
 
 
 
-<a href="https://msdn.microsoft.com/d1f7360d-f592-49fb-b3b4-60d93afd7c6f">Cluster Resource Management Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-management-functions">Cluster Resource Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/49407b45-2b7f-43a2-90ff-98cc557edb31">ClusterResourceCloseEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecloseenum">ClusterResourceCloseEnum</a>
 
 
 
-<a href="https://msdn.microsoft.com/f801401f-f49d-41de-b88b-b832330eeccf">ClusterResourceOpenEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourceopenenum">ClusterResourceOpenEnum</a>
  
 
  

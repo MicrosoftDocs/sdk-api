@@ -130,7 +130,7 @@ There is insufficient memory available for this operation.
 
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-The <b>IOleUILinkContainer::OpenLinkSource</b> method is called when the <b>Open Source</b> button is selected from the <b>Links</b> dialog box. For OLE links, call <a href="https://msdn.microsoft.com/fabd6a0a-7b0c-4c99-af22-8b117addd5f7">IOleObject::DoVerb</a>, specifying OLEIVERB_SHOW for <i>iVerb</i>.
+The <b>IOleUILinkContainer::OpenLinkSource</b> method is called when the <b>Open Source</b> button is selected from the <b>Links</b> dialog box. For OLE links, call <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-doverb">IOleObject::DoVerb</a>, specifying OLEIVERB_SHOW for <i>iVerb</i>.
 
 
 
@@ -140,15 +140,15 @@ The <b>IOleUILinkContainer::OpenLinkSource</b> method is called when the <b>Open
 
 
 
-<a href="https://msdn.microsoft.com/fabd6a0a-7b0c-4c99-af22-8b117addd5f7">IOleObject::DoVerb</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-doverb">IOleObject::DoVerb</a>
 
 
 
-<a href="https://msdn.microsoft.com/7fc0aab3-7476-49ec-8a1d-3f4851f9f31c">IOleUILinkContainer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a>
 
 
 
-<a href="https://msdn.microsoft.com/657e3cc3-67fb-4458-8dad-f2a31df1b631">OLEVERB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ns-oleidl-tagoleverb">OLEVERB</a>
  
 
  

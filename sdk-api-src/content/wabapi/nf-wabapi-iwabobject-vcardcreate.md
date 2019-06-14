@@ -61,9 +61,9 @@ Translates the properties of a given MailUser object into a
 
 ### -param lpIAB
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms629649(v=VS.85).aspx">IAddrBook</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms629649(v=VS.85).aspx">IAddrBook</a>interface that 
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a>interface that 
 				specifies the address book.
 
 
@@ -85,9 +85,9 @@ Value of type <b>LPSTR</b> that specifies the
 
 ### -param lpMailUser
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms629507(v=VS.85).aspx">IMailUser</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/nn-wabdefs-imailuser">IMailUser</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms629507(v=VS.85).aspx">IMailUser</a> interface that 
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/nn-wabdefs-imailuser">IMailUser</a> interface that 
 				specifies the object whose properties are to be written into 
 				the file.
 
@@ -121,11 +121,11 @@ The complete file name must be specified. If the file already exists,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629467(v=VS.85).aspx">IWABObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wabapi/nn-wabapi-iwabobject">IWABObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629732(v=VS.85).aspx">Importing and Exporting Named Properties Through vCards</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-vcardprops">Importing and Exporting Named Properties Through vCards</a>
  
 
  

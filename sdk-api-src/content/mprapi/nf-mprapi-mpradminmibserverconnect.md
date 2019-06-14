@@ -82,15 +82,15 @@ If the function succeeds, the return value is NO_ERROR.
 
 
 
-<a href="https://msdn.microsoft.com/63ea910a-b9d7-43a3-97ae-2f9c26b52059">MprAdminMIBServerDisconnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminmibserverdisconnect">MprAdminMIBServerDisconnect</a>
 
 
 
-<a href="https://msdn.microsoft.com/c911daa4-4f3d-4944-9dc0-695a4efbcb1b">Router Management MIB Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/mib-functions">Router Management MIB Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7a28ac0-c6f9-450c-9925-67990a62ba08">Router Management MIB Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-mib-reference">Router Management MIB Reference</a>
  
 
  

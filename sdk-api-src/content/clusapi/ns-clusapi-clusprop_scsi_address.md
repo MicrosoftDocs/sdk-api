@@ -49,15 +49,15 @@ ms.custom: 19H1
 ## -description
 
 
-Describes an address for a <a href="https://msdn.microsoft.com/en-us/library/Aa372937(v=VS.85).aspx">SCSI</a> 
-    device. It is used as an entry in a <a href="https://msdn.microsoft.com/f2b20fe5-0d7e-4ccd-b288-aa8104a24fef">value list</a> and consists 
+Describes an address for a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/s-gly">SCSI</a> 
+    device. It is used as an entry in a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/value-lists">value list</a> and consists 
     of:
 <ul>
-<li>A <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure indicating the format 
+<li>A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure indicating the format 
      and type of the resource class information.</li>
-<li>A <a href="https://msdn.microsoft.com/05a640c7-16b4-4394-b22f-a78ab1dfab77">CLUS_SCSI_ADDRESS</a> structure.</li>
-</ul>For convenience, the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> and 
-    <a href="https://msdn.microsoft.com/05a640c7-16b4-4394-b22f-a78ab1dfab77">CLUS_SCSI_ADDRESS</a> members are listed explicitly.
+<li>A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_scsi_address">CLUS_SCSI_ADDRESS</a> structure.</li>
+</ul>For convenience, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> and 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_scsi_address">CLUS_SCSI_ADDRESS</a> members are listed explicitly.
 
 
 ## -struct-fields
@@ -68,14 +68,14 @@ Describes an address for a <a href="https://msdn.microsoft.com/en-us/library/Aa3
 ### -field CLUSPROP_VALUE
 
 
-<a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure with a <a href="https://msdn.microsoft.com/23353e11-63bb-4d3b-90fb-e2a5544e0d09">CLUSPROP_SYNTAX</a>  with a value 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure with a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>  with a value 
        of <b>CLUSPROP_SYNTAX_SCSI_ADDRESS</b> (0x00060002) and a <b>cbLength</b> field indicating 
        the count of bytes in the <b>CLUS_SCSI_ADDRESS</b> member. Padding bytes are not included in the count.
 
 
 ### -field CLUS_SCSI_ADDRESS
 
-A <a href="https://msdn.microsoft.com/05a640c7-16b4-4394-b22f-a78ab1dfab77">CLUS_SCSI_ADDRESS</a> structure.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_scsi_address">CLUS_SCSI_ADDRESS</a> structure.
 
 
 ## -see-also
@@ -83,23 +83,23 @@ A <a href="https://msdn.microsoft.com/05a640c7-16b4-4394-b22f-a78ab1dfab77">CLUS
 
 
 
-<a href="https://msdn.microsoft.com/23353e11-63bb-4d3b-90fb-e2a5544e0d09">CLUSPROP_SYNTAX</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>
 
 
 
-<a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a>
 
 
 
-<a href="https://msdn.microsoft.com/b8b6c479-2e35-4cc9-b864-d495c3bded25">CLUS_SCSI_ADDRESS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_resource_class_info">CLUS_SCSI_ADDRESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/7becbcf6-bad9-44e2-9731-d53de8299b99">ClusScsiAddress</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusscsiaddress-object">ClusScsiAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3ad7c34-0c8a-4f03-8e5c-b57802c493f0">Data structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
  
 
  

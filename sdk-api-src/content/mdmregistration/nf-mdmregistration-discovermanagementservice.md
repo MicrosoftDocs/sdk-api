@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Discovers the MDM service. The discovery process uses the 
-    <a href="https://msdn.microsoft.com/library/Dn409494(v=PROT.20).aspx">[MS-MDE]: Mobile Device Enrollment Protocol</a> 
+    <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-mde/5c841535-042e-489e-913c-9d783d741267">[MS-MDE]: Mobile Device Enrollment Protocol</a> 
     protocol.
 
 
@@ -67,7 +67,7 @@ Address of a <b>NULL</b>-terminated Unicode string containing the user principal
 
 ### -param ppMgmtInfo [out]
 
-Address of a <a href="https://msdn.microsoft.com/en-us/library/Dn574814(v=VS.85).aspx">MANAGEMENT_SERVICE_INFO</a> 
+Address of a <a href="https://docs.microsoft.com/windows/desktop/api/mdmregistration/ns-mdmregistration-_management_service_info">MANAGEMENT_SERVICE_INFO</a> 
       structure that contains pointers to the URIs of the management and authentication services.
 
 
@@ -78,7 +78,7 @@ Address of a <a href="https://msdn.microsoft.com/en-us/library/Dn574814(v=VS.85)
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>. If the function 
       fails, the returned value describes the error. Possible 
       values include those listed at 
-      <a href="https://msdn.microsoft.com/1f42ed5e-e221-47ec-a019-ed06c05d55d0">MDM Registration Error Values</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/MDMReg/mdm-registration-constants">MDM Registration Error Values</a>.
 
 
 
@@ -97,15 +97,15 @@ The caller of this function must be running as an elevated process.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn574814(v=VS.85).aspx">MANAGEMENT_SERVICE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mdmregistration/ns-mdmregistration-_management_service_info">MANAGEMENT_SERVICE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f42ed5e-e221-47ec-a019-ed06c05d55d0">MDM Registration Error Values</a>
+<a href="https://docs.microsoft.com/windows/desktop/MDMReg/mdm-registration-constants">MDM Registration Error Values</a>
 
 
 
-<a href="https://msdn.microsoft.com/1b063a56-f59f-4b02-949f-c8b6bbf45a13">MDM Registration Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/MDMReg/mdm-registration-functions">MDM Registration Functions</a>
  
 
  

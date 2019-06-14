@@ -68,7 +68,7 @@ Pointer to a null-terminated string that contains the ID of the object.
 
 ### -param ppKeys [out]
 
-Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/2460f5bc-6b1c-4e3b-bdb9-faaa6d6c87fd">IPortableDeviceKeyCollection</a> interface that holds a collection of <b>PROPERTYKEY</b> values specifying resource types supported by this object type. If the object cannot hold resources, this will be an empty collection. The caller must release this interface when it is done with it.
+Address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicekeycollection">IPortableDeviceKeyCollection</a> interface that holds a collection of <b>PROPERTYKEY</b> values specifying resource types supported by this object type. If the object cannot hold resources, this will be an empty collection. The caller must release this interface when it is done with it.
 
 
 ## -returns
@@ -124,7 +124,7 @@ The list of resources returned by this method includes all resources that the ob
 
 
 
-<a href="https://msdn.microsoft.com/fce2d6db-13f0-4c1d-ba55-16139c6acbb7">IPortableDeviceResources Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceresources">IPortableDeviceResources Interface</a>
  
 
  

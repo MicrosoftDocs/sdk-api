@@ -92,7 +92,7 @@ This enumeration is used in custom painting.
 
 
 
-<a href="https://msdn.microsoft.com/58508c22-a236-45b0-9589-49467275a0be">Math Input Control Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/math-input-control-reference">Math Input Control Reference</a>
  
 
  

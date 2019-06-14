@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IFaxOutgoingJobs::get_Count</b> property represents the number of objects in the <a href="https://msdn.microsoft.com/en-us/library/ms689505(v=VS.85).aspx">FaxOutgoingJobs</a> collection. This is the total number of outgoing jobs for the fax server.
+The <b>IFaxOutgoingJobs::get_Count</b> property represents the number of objects in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingjobs">FaxOutgoingJobs</a> collection. This is the total number of outgoing jobs for the fax server.
 
 This property is read-only.
 
@@ -63,15 +63,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689505(v=VS.85).aspx">FaxOutgoingJobs</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingjobs">FaxOutgoingJobs</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689507(v=VS.85).aspx">IFaxOutgoingJobs</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutgoingjobs">IFaxOutgoingJobs</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693393(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-managing-outgoing-jobs">Visual Basic Example</a>
  
 
  

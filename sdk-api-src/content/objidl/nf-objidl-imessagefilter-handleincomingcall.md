@@ -61,7 +61,7 @@ This method is called prior to each method invocation originating outside the cu
 
 ### -param dwCallType [in]
 
-The type of incoming call that has been received. Possible values are from the enumeration <a href="https://msdn.microsoft.com/341d429d-8f45-461f-bc77-36e191faecc2">CALLTYPE</a>.
+The type of incoming call that has been received. Possible values are from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tagcalltype">CALLTYPE</a>.
 
 
 ### -param htaskCaller [in]
@@ -76,7 +76,7 @@ The elapsed tick count since the outgoing call was made, if <i>dwCallType</i> is
 
 ### -param lpInterfaceInfo [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/5c2c07bf-1c15-4f21-baef-103837ea24d0">INTERFACEINFO</a> structure that identifies the object, interface, and method being called. In the case of DDE calls, <i>lpInterfaceInfo</i> can be <b>NULL</b> because the DDE layer does not return interface information.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-taginterfaceinfo">INTERFACEINFO</a> structure that identifies the object, interface, and method being called. In the case of DDE calls, <i>lpInterfaceInfo</i> can be <b>NULL</b> because the DDE layer does not return interface information.
 
 
 ## -returns
@@ -139,11 +139,11 @@ Depending on an application's current state, a call is either accepted and proce
 
 Input-synchronized and asynchronous calls are dispatched even if the application returns SERVERCALL_REJECTED or SERVERCALL_RETRYLATER.
 
-<b>HandleInComingCall</b> should not be used to hold off updates to objects during operations such as band printing. For that purpose, use <a href="https://msdn.microsoft.com/943faf31-7de4-45da-887b-7ded479ac732">IViewObject::Freeze</a>.
+<b>HandleInComingCall</b> should not be used to hold off updates to objects during operations such as band printing. For that purpose, use <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-freeze">IViewObject::Freeze</a>.
 
 You can also use <b>HandleInComingCall</b> to set up the application's state so that the call can be processed in the future.
 
-<div class="alert"><b>Note</b>  Although the <i>htaskCaller</i> parameter is typed as an HTASK, it  contains the thread id of the calling thread. When you implement the <a href="https://msdn.microsoft.com/e12d48c0-5033-47a8-bdcd-e94c49857248">IMessageFilter</a> interface, you can call the <a href="https://msdn.microsoft.com/d020ecc5-89d1-4a0d-a197-15a66e269e86">OpenThread</a> function to get the thread handle from the <i>htaskCaller</i> parameter,  and you can call the <a href="https://msdn.microsoft.com/1878088b-e0fd-4009-b608-f491805948b5">GetProcessIdOfThread</a> function to get the process id.</div>
+<div class="alert"><b>Note</b>  Although the <i>htaskCaller</i> parameter is typed as an HTASK, it  contains the thread id of the calling thread. When you implement the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imessagefilter">IMessageFilter</a> interface, you can call the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthread">OpenThread</a> function to get the thread handle from the <i>htaskCaller</i> parameter,  and you can call the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessidofthread">GetProcessIdOfThread</a> function to get the process id.</div>
 <div> </div>
 
 
@@ -153,7 +153,7 @@ You can also use <b>HandleInComingCall</b> to set up the application's state so 
 
 
 
-<a href="https://msdn.microsoft.com/e12d48c0-5033-47a8-bdcd-e94c49857248">IMessageFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imessagefilter">IMessageFilter</a>
  
 
  

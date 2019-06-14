@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Writes formatted data to the specified buffer. Any arguments are converted and copied to the output buffer according to the corresponding format specification in the format string. The function appends a terminating null character to the characters it writes, but the return value does not include the terminating null character in its character count. 
-<div class="alert"><b>Note</b>  Do not use. Consider using one of the following functions instead: <a href="https://msdn.microsoft.com/en-us/library/ms647510(v=VS.85).aspx">StringCbPrintf</a>, <a href="https://msdn.microsoft.com/en-us/library/ms647513(v=VS.85).aspx">StringCbPrintfEx</a>, <a href="https://msdn.microsoft.com/en-us/library/ms647541(v=VS.85).aspx">StringCchPrintf</a>, or <a href="https://msdn.microsoft.com/en-us/library/ms647543(v=VS.85).aspx">StringCchPrintfEx</a>. See Security Considerations.</div><div> </div>
+<div class="alert"><b>Note</b>  Do not use. Consider using one of the following functions instead: <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbprintfa">StringCbPrintf</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbprintfexa">StringCbPrintfEx</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchprintfa">StringCchPrintf</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchprintfexa">StringCchPrintfEx</a>. See Security Considerations.</div><div> </div>
 
 ## -parameters
 
@@ -86,7 +86,7 @@ Type: <b>int</b>
 
 If the function succeeds, the return value is the number of characters stored in the output buffer, not counting the terminating null character.
 
-If the function fails, the return value is less than the length of the expected output. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is less than the length of the expected output. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -283,43 +283,43 @@ To use buffers larger than 1024 bytes, use <b>_snwprintf</b>. For more informati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647510(v=VS.85).aspx">StringCbPrintf</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbprintfa">StringCbPrintf</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647513(v=VS.85).aspx">StringCbPrintfEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbprintfexa">StringCbPrintfEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647514(v=VS.85).aspx">StringCbVPrintf</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbvprintfa">StringCbVPrintf</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647516(v=VS.85).aspx">StringCbVPrintfEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbvprintfexa">StringCbVPrintfEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647541(v=VS.85).aspx">StringCchPrintf</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchprintfa">StringCchPrintf</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647543(v=VS.85).aspx">StringCchPrintfEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchprintfexa">StringCchPrintfEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647546(v=VS.85).aspx">StringCchVPrintf</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchvprintfa">StringCchVPrintf</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647548(v=VS.85).aspx">StringCchVPrintfEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchvprintfexa">StringCchVPrintfEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/strings">Strings</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647551(v=VS.85).aspx">wvsprintf</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-wvsprintfa">wvsprintf</a>
  
 
  

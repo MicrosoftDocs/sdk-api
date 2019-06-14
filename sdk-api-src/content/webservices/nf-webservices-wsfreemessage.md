@@ -60,8 +60,8 @@ Releases the memory resource associated with a Message object.
 
 ### -param message [in]
 
-A pointer to the <b>Message</b> object to release.  The pointer must reference a valid <a href="https://msdn.microsoft.com/22cc39a9-a3a7-4b4d-bdee-0ccac5dc03ee">WS_MESSAGE</a> object returned
-                    by <a href="https://msdn.microsoft.com/1c48647e-9e77-4b7a-add3-e035c7f9f27e">WsCreateMessage</a> or <a href="https://msdn.microsoft.com/0a4f076b-6725-45a9-8817-5dec3b647c4f">WsCreateMessageForChannel</a> and the referenced value may not be <b>NULL</b>.
+A pointer to the <b>Message</b> object to release.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-message">WS_MESSAGE</a> object returned
+                    by <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatemessage">WsCreateMessage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatemessageforchannel">WsCreateMessageForChannel</a> and the referenced value may not be <b>NULL</b>.
                 
                 
 

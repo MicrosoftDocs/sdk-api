@@ -54,7 +54,7 @@ Represents the display region  of a timed-text object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTimedTextRegion</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFTimedTextRegion</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTimedTextRegion</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTimedTextRegion</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFTimedTextRegion</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E92FFB7E-C364-43C8-82CF-C3B4116C4187">GetBackgroundColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextregion-getbackgroundcolor">GetBackgroundColor</a>
 </td>
 <td align="left" width="63%">
 Gets the background color of the region.
@@ -78,7 +78,7 @@ Gets the background color of the region.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F48D4F1C-E00C-40BE-B292-B92C5B214F56">GetClipOverflow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextregion-getclipoverflow">GetClipOverflow</a>
 </td>
 <td align="left" width="63%">
 Determines whether a clip of text overflowed the region.
@@ -87,7 +87,7 @@ Determines whether a clip of text overflowed the region.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/CE2A9014-5510-4648-85F8-4A64C04C9F0C">GetDisplayAlignment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextregion-getdisplayalignment">GetDisplayAlignment</a>
 </td>
 <td align="left" width="63%">
 Gets the display alignment of the region.
@@ -96,7 +96,7 @@ Gets the display alignment of the region.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/581D9A8D-FBED-4E67-9E81-77D9C29ADF82">GetExtent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextregion-getextent">GetExtent</a>
 </td>
 <td align="left" width="63%">
 Gets the extent of the region.
@@ -105,7 +105,7 @@ Gets the extent of the region.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/41514FCA-5C2A-48E5-A9F8-72B5B9160CD6">GetLineHeight</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextregion-getlineheight">GetLineHeight</a>
 </td>
 <td align="left" width="63%">
 Gets the height of each line of text in the region.
@@ -114,7 +114,7 @@ Gets the height of each line of text in the region.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1B3C07CF-0E9C-4C7D-8F41-7A0B168967A3">GetName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextregion-getname">GetName</a>
 </td>
 <td align="left" width="63%">
 Gets the name of the region.
@@ -123,7 +123,7 @@ Gets the name of the region.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B97ECFD8-2E96-425F-B29E-49E7D53BBFCB">GetPadding</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextregion-getpadding">GetPadding</a>
 </td>
 <td align="left" width="63%">
 Gets the padding that surrounds the region.
@@ -132,7 +132,7 @@ Gets the padding that surrounds the region.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1DEE0689-A428-4121-9ED5-5E4D1376461E">GetPosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextregion-getposition">GetPosition</a>
 </td>
 <td align="left" width="63%">
 Gets the position of the region.
@@ -141,7 +141,7 @@ Gets the position of the region.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/85CD2A7A-23ED-4D5C-AAEC-D5DF9F059897">GetScrollMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextregion-getscrollmode">GetScrollMode</a>
 </td>
 <td align="left" width="63%">
 Gets the scroll mode of the region.
@@ -150,7 +150,7 @@ Gets the scroll mode of the region.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/634B686C-A083-4F11-9330-4BD22D93A066">GetWrap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextregion-getwrap">GetWrap</a>
 </td>
 <td align="left" width="63%">
 Determines whether the word wrap feature is enabled in the region.
@@ -159,7 +159,7 @@ Determines whether the word wrap feature is enabled in the region.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/BCF99D3C-554A-4788-B54B-236F463B1EAE">GetWritingMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextregion-getwritingmode">GetWritingMode</a>
 </td>
 <td align="left" width="63%">
 Gets the writing mode of the region.
@@ -168,7 +168,7 @@ Gets the writing mode of the region.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/662A5D79-7FCE-45D3-BCB1-5DE08DC0F981">GetZIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextregion-getzindex">GetZIndex</a>
 </td>
 <td align="left" width="63%">
 Gets the Z-index (depth) of the region.
@@ -183,7 +183,7 @@ Gets the Z-index (depth) of the region.
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

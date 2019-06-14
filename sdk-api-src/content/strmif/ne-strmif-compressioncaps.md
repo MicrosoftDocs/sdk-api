@@ -62,27 +62,27 @@ Indicates video compression capabilities.
 
 ### -field CompressionCaps_CanQuality
 
-Video compressor supports the <a href="https://msdn.microsoft.com/7ecc00f9-73d4-4d26-b7b0-1b6419027d69">IAMVideoCompression::put_Quality</a> and <a href="https://msdn.microsoft.com/a34b6d15-3c84-476e-bd2f-ee10b59ded82">IAMVideoCompression::get_Quality</a> methods.
+Video compressor supports the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamvideocompression-put_quality">IAMVideoCompression::put_Quality</a> and <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamvideocompression-get_quality">IAMVideoCompression::get_Quality</a> methods.
 
 
 ### -field CompressionCaps_CanCrunch
 
-Video compressor can compress video to a specified data rate. If the compressor has this capability then the output pins media type will contain the data rate in the <a href="https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932">VIDEOINFOHEADER</a> structure's <b>dwBitRate</b> member. The only way to set the data rate is to set <b>dwBitRate</b>.
+Video compressor can compress video to a specified data rate. If the compressor has this capability then the output pins media type will contain the data rate in the <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader">VIDEOINFOHEADER</a> structure's <b>dwBitRate</b> member. The only way to set the data rate is to set <b>dwBitRate</b>.
 
 
 ### -field CompressionCaps_CanKeyFrame
 
-Video compressor supports the <a href="https://msdn.microsoft.com/dc229333-3524-4228-ab13-a6e9619643fd">IAMVideoCompression::put_KeyFrameRate</a> and <a href="https://msdn.microsoft.com/af73cfaa-3297-44a7-96a7-8805aad057e2">IAMVideoCompression::get_KeyFrameRate</a> methods.
+Video compressor supports the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamvideocompression-put_keyframerate">IAMVideoCompression::put_KeyFrameRate</a> and <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamvideocompression-get_keyframerate">IAMVideoCompression::get_KeyFrameRate</a> methods.
 
 
 ### -field CompressionCaps_CanBFrame
 
-Video compressor supports the <a href="https://msdn.microsoft.com/bf1dfc28-a6c7-4c0d-96ea-8cf417b13a10">IAMVideoCompression::put_PFramesPerKeyFrame</a> and <a href="https://msdn.microsoft.com/621292dd-42d9-4458-8971-929db39ed8b9">IAMVideoCompression::get_PFramesPerKeyFrame</a> methods.
+Video compressor supports the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamvideocompression-put_pframesperkeyframe">IAMVideoCompression::put_PFramesPerKeyFrame</a> and <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamvideocompression-get_pframesperkeyframe">IAMVideoCompression::get_PFramesPerKeyFrame</a> methods.
 
 
 ### -field CompressionCaps_CanWindow
 
-Video compressor supports the <a href="https://msdn.microsoft.com/744cd32d-5f61-4069-82c4-50bc1b800f24">IAMVideoCompression::put_WindowSize</a> and <a href="https://msdn.microsoft.com/1f12aa72-3468-4dca-a5f6-43f64f6d2f83">IAMVideoCompression::get_WindowSize</a> methods.
+Video compressor supports the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamvideocompression-put_windowsize">IAMVideoCompression::put_WindowSize</a> and <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamvideocompression-get_windowsize">IAMVideoCompression::get_WindowSize</a> methods.
 
 
 ## -see-also
@@ -90,11 +90,11 @@ Video compressor supports the <a href="https://msdn.microsoft.com/744cd32d-5f61-
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/6b7d8a98-35b8-442f-bf51-9e66fd03e2c9">IAMVideoCompression Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamvideocompression">IAMVideoCompression Interface</a>
  
 
  

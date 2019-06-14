@@ -55,7 +55,7 @@ The
 An application that will make only outgoing calls does not need to call this method.
 
 The 
-<a href="https://msdn.microsoft.com/06cfe56c-907f-49ed-8a7a-db31383a06f9">ITTAPIEventNotification</a> outgoing interface must be registered prior to calling this method.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapieventnotification">ITTAPIEventNotification</a> outgoing interface must be registered prior to calling this method.
 
 If both owner and monitor privileges are needed for an address, this method should be called only once, with both <i>fMonitor</i> and <i>fOwner</i> set to <b>TRUE</b>.
 
@@ -68,7 +68,7 @@ If both owner and monitor privileges are needed for an address, this method shou
 ### -param pAddress [in]
 
 Pointer to 
-<a href="https://msdn.microsoft.com/93f2e4cf-013e-4064-88d5-69fddd458274">ITAddress</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a> interface.
 
 
 ### -param fMonitor [in]
@@ -84,19 +84,19 @@ Boolean value indicating whether the application will own incoming calls. VARIAN
 ### -param lMediaTypes [in]
 
 
-<a href="https://msdn.microsoft.com/3e418c9a-a008-4b94-b5d2-7c2eccb3bf87">Media types</a> that can be handled by the application.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">Media types</a> that can be handled by the application.
 
 
 ### -param lCallbackInstance [in]
 
-Callback instance to be used by the TAPI 3 DLL. Can be the gulAdvise value returned by <a href="https://msdn.microsoft.com/en-us/library/ms678815(v=VS.85).aspx">IConnectionPoint::Advise</a> during registration of the 
-<a href="https://msdn.microsoft.com/06cfe56c-907f-49ed-8a7a-db31383a06f9">ITTAPIEventNotification</a> outgoing interface.
+Callback instance to be used by the TAPI 3 DLL. Can be the gulAdvise value returned by <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-advise">IConnectionPoint::Advise</a> during registration of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapieventnotification">ITTAPIEventNotification</a> outgoing interface.
 
 
 ### -param plRegister [out]
 
 On success, the returned value that is used by 
-<a href="https://msdn.microsoft.com/66717165-1c29-4d77-b6ac-8c3638fb11f4">ITTAPI::UnregisterNotifications</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-unregisternotifications">ITTAPI::UnregisterNotifications</a>.
 
 
 ## -returns
@@ -167,7 +167,7 @@ Insufficient memory exists to perform the operation.
 If multiple calls of this method are used on one address, the information about participant calls from a call hub may be confusing if a call that is already being monitored by the application is handed off to it.
 
 The <b>RegisterCallNotifications</b> method registers the application as having an interest in monitoring calls or receiving ownership of calls that are of the specified media types. These call privileges are set in the <i>fMonitor</i> and <i>fOwner</i> parameters. 
-An application can specify multiple flags to handle multiple media types. Conflicts can arise if multiple applications register for the same address and media type. These conflicts are resolved by a priority scheme in which the user assigns relative priorities to the applications. Users can set application priorities by calling the <a href="https://msdn.microsoft.com/ca049695-02d0-4b30-ad1f-60cdbf0a4dbd">ITTAPI::SetApplicationPriority</a> function. Only the highest priority application for a given media type will receive ownership (unsolicited) of a call of that media type. Ownership can be received when an incoming call first arrives or when a call is handed off. The <a href="https://msdn.microsoft.com/a96a3790-ee5d-4983-b69a-30c7af96afd9">ITBasicCallControl::HandoffDirect</a> and  <a href="https://msdn.microsoft.com/02579638-fafd-4c4a-91a3-460d7ebf6917">ITBasicCallControl::HandoffIndirect</a> functions are called  to hand off ownership of a call to another application. If the user does not assign priorities to the application, and multiple applications open the same line device, by default, the application that called <b>RegisterCallNotifications</b> first will have the highest priority. 
+An application can specify multiple flags to handle multiple media types. Conflicts can arise if multiple applications register for the same address and media type. These conflicts are resolved by a priority scheme in which the user assigns relative priorities to the applications. Users can set application priorities by calling the <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-setapplicationpriority">ITTAPI::SetApplicationPriority</a> function. Only the highest priority application for a given media type will receive ownership (unsolicited) of a call of that media type. Ownership can be received when an incoming call first arrives or when a call is handed off. The <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-handoffdirect">ITBasicCallControl::HandoffDirect</a> and  <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-handoffindirect">ITBasicCallControl::HandoffIndirect</a> functions are called  to hand off ownership of a call to another application. If the user does not assign priorities to the application, and multiple applications open the same line device, by default, the application that called <b>RegisterCallNotifications</b> first will have the highest priority. 
 
 
 
@@ -178,27 +178,27 @@ An application can specify multiple flags to handle multiple media types. Confli
 
 
 
-<a href="https://msdn.microsoft.com/db43f4e0-f2f5-49b1-a03d-3df3de0e5611">Events overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/events">Events overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/d0ea4f7a-7b50-4610-ae17-957c0c1891e1">ITCallNotificationEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallnotificationevent">ITCallNotificationEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/75d641c7-dbf8-4ae2-b16b-2757e890d32b">ITTAPI</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapi">ITTAPI</a>
 
 
 
-<a href="https://msdn.microsoft.com/06cfe56c-907f-49ed-8a7a-db31383a06f9">ITTAPIEventNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapieventnotification">ITTAPIEventNotification</a>
 
 
 
-<a href="https://msdn.microsoft.com/e7662a26-d7b2-4bff-aa72-e38b58bc15df">Register Events code snippet</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/register-events">Register Events code snippet</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4cf358f-2dc8-432a-92ed-68282ddc8a97">TAPI Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-object">TAPI Object</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Developers should use <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a> instead. Gets a formatted, Unicode string representation of a property value.
+Developers should use <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a> instead. Gets a formatted, Unicode string representation of a property value.
 
 
 ## -parameters
@@ -69,9 +69,9 @@ Type: <b>PROPID</b>
 
 ### -param ppropvar [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>*</b>
 
-A <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure that contains the type and value of the property.
+A <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure that contains the type and value of the property.
 
 
 ### -param puiff [in]

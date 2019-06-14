@@ -55,7 +55,7 @@ Represents information about the current synchronization session.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncSessionState</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISyncSessionState</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncSessionState</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncSessionState</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ISyncSessionState</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9ba23805-cb1a-4178-a230-8091e3938fb6">GetForgottenKnowledgeRecoveryRangeEnd</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncsessionstate-getforgottenknowledgerecoveryrangeend">GetForgottenKnowledgeRecoveryRangeEnd</a>
 </td>
 <td align="left" width="63%">
 Gets the upper bound of the recovery range when the session is performing forgotten knowledge recovery.
@@ -80,7 +80,7 @@ Gets the upper bound of the recovery range when the session is performing forgot
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a6d6434a-d4cf-4b92-958c-5ff8022a9531">GetForgottenKnowledgeRecoveryRangeStart</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncsessionstate-getforgottenknowledgerecoveryrangestart">GetForgottenKnowledgeRecoveryRangeStart</a>
 </td>
 <td align="left" width="63%">
 Gets the lower bound of the recovery range when the session is performing forgotten knowledge recovery.
@@ -90,7 +90,7 @@ Gets the lower bound of the recovery range when the session is performing forgot
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/88f7f8f7-468f-4d9d-9593-0d3f92cb458f">GetInfoForChangeApplication</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncsessionstate-getinfoforchangeapplication">GetInfoForChangeApplication</a>
 </td>
 <td align="left" width="63%">
 Retrieves stored data for a serialized change applier.
@@ -100,7 +100,7 @@ Retrieves stored data for a serialized change applier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/25ce0e21-99ce-4790-8f53-39466da9226f">IsCanceled</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncsessionstate-iscanceled">IsCanceled</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the synchronization session has been canceled.
@@ -110,7 +110,7 @@ Indicates whether the synchronization session has been canceled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/72c7947b-0eee-4b75-aff6-f208bebac3f2">LoadInfoFromChangeApplication</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncsessionstate-loadinfofromchangeapplication">LoadInfoFromChangeApplication</a>
 </td>
 <td align="left" width="63%">
 Stores data for a serialized change applier.
@@ -120,7 +120,7 @@ Stores data for a serialized change applier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a2983f9c-ed2d-47b4-bec7-b00dc4d75f3f">OnProgress</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncsessionstate-onprogress">OnProgress</a>
 </td>
 <td align="left" width="63%">
 Reports progress periodically during the synchronization session.
@@ -130,7 +130,7 @@ Reports progress periodically during the synchronization session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2de6bfb3-bde9-49ee-97eb-acc1671efd0d">SetForgottenKnowledgeRecoveryRange</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncsessionstate-setforgottenknowledgerecoveryrange">SetForgottenKnowledgeRecoveryRange</a>
 </td>
 <td align="left" width="63%">
 Sets the recovery range when the session is performing forgotten knowledge recovery.
@@ -146,7 +146,7 @@ Sets the recovery range when the session is performing forgotten knowledge recov
 
 
 
-<a href="https://msdn.microsoft.com/2c185fe2-1bbe-4409-aea0-6e138430b304">Windows Sync Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
  
 
  

@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-This interface is used by the RemoteFX graphics services API to create the graphics virtual channels necessary for remoting graphics data. The channel implementer provides a pointer to this interface in the <a href="https://msdn.microsoft.com/70de545f-f630-40cc-8456-ea0703caba17">IWRdsRemoteFXGraphicsConnection::GetVirtualChannelTransport</a> method.
+This interface is used by the RemoteFX graphics services API to create the graphics virtual channels necessary for remoting graphics data. The channel implementer provides a pointer to this interface in the <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsremotefxgraphicsconnection-getvirtualchanneltransport">IWRdsRemoteFXGraphicsConnection::GetVirtualChannelTransport</a> method.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWRdsGraphicsChannelManager</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWRdsGraphicsChannelManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWRdsGraphicsChannelManager</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWRdsGraphicsChannelManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWRdsGraphicsChannelManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2dcce4ac-aa1d-4bdf-9c95-8737f924d0e9">CreateChannel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/nf-wrdsgraphicschannels-iwrdsgraphicschannelmanager-createchannel">CreateChannel</a>
 </td>
 <td align="left" width="63%">
 Used to create a graphics virtual channel.
@@ -84,7 +84,7 @@ Used to create a graphics virtual channel.
 
 
 
-<a href="https://msdn.microsoft.com/70de545f-f630-40cc-8456-ea0703caba17">IWRdsRemoteFXGraphicsConnection::GetVirtualChannelTransport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsremotefxgraphicsconnection-getvirtualchanneltransport">IWRdsRemoteFXGraphicsConnection::GetVirtualChannelTransport</a>
  
 
  

@@ -79,7 +79,7 @@ Specifies that shadow copies must be maintained at the expense of I/O to the ori
 
 
 
-When a volume is in shadow copy protection mode, requesters must set shadow copy storage area (diff area) associations using the <a href="https://msdn.microsoft.com/7b58331c-b8a2-4333-a05d-563395d5f0c2">IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea</a> method.
+When a volume is in shadow copy protection mode, requesters must set shadow copy storage area (diff area) associations using the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-adddiffarea">IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea</a> method.
 
 
 
@@ -89,23 +89,23 @@ When a volume is in shadow copy protection mode, requesters must set shadow copy
 
 
 
-<a href="https://msdn.microsoft.com/e5abcf69-748a-4ed6-973d-8ba49ec22ef2">IVssDifferentialSoftwareSnapshotMgmt3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3">IVssDifferentialSoftwareSnapshotMgmt3</a>
 
 
 
-<a href="https://msdn.microsoft.com/a67bf9f1-135b-4881-acd1-6392f27d58e5">IVssDifferentialSoftwareSnapshotMgmt3::GetVolumeProtectLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3-getvolumeprotectlevel">IVssDifferentialSoftwareSnapshotMgmt3::GetVolumeProtectLevel</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f8f3a0c-5076-4ce3-aa8b-5c66ac5fa47a">IVssDifferentialSoftwareSnapshotMgmt3::SetVolumeProtectLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3-setvolumeprotectlevel">IVssDifferentialSoftwareSnapshotMgmt3::SetVolumeProtectLevel</a>
 
 
 
-<a href="https://msdn.microsoft.com/65310c38-9fad-49ed-acf4-dacfa3947130">VSS_PROTECTION_FAULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ne-vsmgmt-_vss_protection_fault">VSS_PROTECTION_FAULT</a>
 
 
 
-<a href="https://msdn.microsoft.com/46cdc46e-fc44-452a-8aae-e47c12deedb4">VSS_VOLUME_PROTECTION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-_vss_volume_protection_info">VSS_VOLUME_PROTECTION_INFO</a>
  
 
  

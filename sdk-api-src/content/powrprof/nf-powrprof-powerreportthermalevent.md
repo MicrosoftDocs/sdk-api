@@ -59,7 +59,7 @@ Notifies the operating system of thermal events.
 
 ### -param Event [in]
 
-The thermal event structure, <a href="https://msdn.microsoft.com/80B6A494-AED6-4EF0-8B69-4AA5DA6BCBB3">THERMAL_EVENT</a>.
+The thermal event structure, <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_thermal_event">THERMAL_EVENT</a>.
 
 
 ## -returns
@@ -78,7 +78,7 @@ Returns <b>ERROR_SUCCESS</b> (zero) if the call was successful, and a nonzero va
 
 Thermal managers call the <b>PowerReportThermalEvent</b> routine to notifiy the operating system of a thermal event so that the event can be recorded in the system event log.
 
-Before calling <b>PowerReportThermalEvent</b>, the thermal manager sets the members of the <a href="https://msdn.microsoft.com/80B6A494-AED6-4EF0-8B69-4AA5DA6BCBB3">THERMAL_EVENT</a> structure to describe the thermal event.
+Before calling <b>PowerReportThermalEvent</b>, the thermal manager sets the members of the <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_thermal_event">THERMAL_EVENT</a> structure to describe the thermal event.
 
 
 
@@ -88,7 +88,7 @@ Before calling <b>PowerReportThermalEvent</b>, the thermal manager sets the memb
 
 
 
-<a href="https://msdn.microsoft.com/39B0258F-FD2E-4507-847B-8469881C126C">Thermal management in Windows</a>
+<a href="https://docs.microsoft.com/previous-versions//dn915117(v=vs.85)">Thermal management in Windows</a>
  
 
  

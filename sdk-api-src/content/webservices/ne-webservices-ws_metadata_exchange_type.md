@@ -58,20 +58,20 @@ ms.custom: 19H1
 
 ### -field WS_METADATA_EXCHANGE_TYPE_NONE
 
-Disables WS-MetadataExchange/HTTP GET servicing on the <a href="https://msdn.microsoft.com/6b15fc3f-5e4b-4eb3-b337-0170b0ca746f">endpoint</a>.  
-                    This is the default value of  <a href="https://msdn.microsoft.com/f6b33fe5-a9e9-4733-8b6c-4b01009d3277">WS_SERVICE_ENDPOINT_PROPERTY_METADATA_EXCHANGE_TYPE</a> property.
+Disables WS-MetadataExchange/HTTP GET servicing on the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_service_endpoint">endpoint</a>.  
+                    This is the default value of  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_service_endpoint_property_id">WS_SERVICE_ENDPOINT_PROPERTY_METADATA_EXCHANGE_TYPE</a> property.
                 
 
 
 ### -field WS_METADATA_EXCHANGE_TYPE_MEX
 
-Enables servicing of WS-MetadataExchange 1.1 request servicing on the <a href="https://msdn.microsoft.com/6b15fc3f-5e4b-4eb3-b337-0170b0ca746f">endpoint</a>.
+Enables servicing of WS-MetadataExchange 1.1 request servicing on the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_service_endpoint">endpoint</a>.
                 
 
 
 ### -field WS_METADATA_EXCHANGE_TYPE_HTTP_GET
 
-Enables servicing of HTTP GET request servicing on the <a href="https://msdn.microsoft.com/6b15fc3f-5e4b-4eb3-b337-0170b0ca746f">endpoint</a> for metadata 
+Enables servicing of HTTP GET request servicing on the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_service_endpoint">endpoint</a> for metadata 
                     retrieval.
                 
 

@@ -59,12 +59,12 @@ Adds the file ID and similarity data information to the tables in the similarity
 
 ### -param similarityFileId [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/07fcb382-726c-4615-83e9-f69eec778311">SimilarityFileId</a> structure to be added to the similarity file ID table.
+A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0015">SimilarityFileId</a> structure to be added to the similarity file ID table.
 
 
 ### -param similarityData [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/33fdb48c-6f33-44e8-83b1-6029b1eace1d">SimilarityData</a> structure to be added to the similarity traits table.
+A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0012">SimilarityData</a> structure to be added to the similarity traits table.
 
 
 ## -returns
@@ -92,7 +92,7 @@ If this method fails, the similarity file ID table and the similarity traits tab
 
 
 
-<a href="https://msdn.microsoft.com/fe0cd874-a40c-4d82-99bf-b84008a4995c">ISimilarity</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilarity">ISimilarity</a>
  
 
  

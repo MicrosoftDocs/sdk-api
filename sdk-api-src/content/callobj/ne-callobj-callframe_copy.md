@@ -73,7 +73,7 @@ The copied call frame will have a lifetime independent from its parent.
 
 
 
-A consequence is that whichever of these <b>CALLFRAME_COPY</b> flags are passed to <a href="https://msdn.microsoft.com/bf2d2e55-d9d1-48d6-817c-382c739d1acd">ICallFrame::Copy</a>, the interface pointers can be modified without consequence of disturbing the interface pointers residing in the parent frame.
+A consequence is that whichever of these <b>CALLFRAME_COPY</b> flags are passed to <a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframe-copy">ICallFrame::Copy</a>, the interface pointers can be modified without consequence of disturbing the interface pointers residing in the parent frame.
 
 
 
@@ -84,7 +84,7 @@ A consequence is that whichever of these <b>CALLFRAME_COPY</b> flags are passed 
 
 
 
-<a href="https://msdn.microsoft.com/bf2d2e55-d9d1-48d6-817c-382c739d1acd">ICallFrame::Copy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframe-copy">ICallFrame::Copy</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Frees the string buffer allocated by
-    <a href="https://msdn.microsoft.com/en-us/library/ms648422(v=VS.85).aspx">RtlUnicodeStringToOemString</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-rtlunicodestringtooemstring">RtlUnicodeStringToOemString</a>.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Frees the string buffer allocated by
 ### -param OemString [in, out]
 
 Address of the OEM string whose buffer
-        was previously allocated by <a href="https://msdn.microsoft.com/en-us/library/ms648422(v=VS.85).aspx">RtlUnicodeStringToOemString</a>.
+        was previously allocated by <a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-rtlunicodestringtooemstring">RtlUnicodeStringToOemString</a>.
 
 
 ## -returns
@@ -77,7 +77,7 @@ This function does not return a value.
 
 
 
-This routine releases the <b>Buffer</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms648424(v=VS.85).aspx">OEM_STRING</a> structure. The <b>Length</b> and <b>MaximumLength</b> members are not affected by this routine.
+This routine releases the <b>Buffer</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-_string">OEM_STRING</a> structure. The <b>Length</b> and <b>MaximumLength</b> members are not affected by this routine.
 		
 
 

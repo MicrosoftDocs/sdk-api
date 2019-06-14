@@ -59,25 +59,25 @@ Get an output-parameter description for a shader.
 
 ### -param ParameterIndex [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A zero-based parameter index.
 
 
 ### -param pDesc [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172446(v=VS.85).aspx">D3D10_SIGNATURE_PARAMETER_DESC</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10shader/ns-d3d10shader-_d3d10_signature_parameter_desc">D3D10_SIGNATURE_PARAMETER_DESC</a>*</b>
 
-A pointer to a shader-output-parameter description. See <a href="https://msdn.microsoft.com/en-us/library/Bb172446(v=VS.85).aspx">D3D10_SIGNATURE_PARAMETER_DESC</a>.
+A pointer to a shader-output-parameter description. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d10shader/ns-d3d10shader-_d3d10_signature_parameter_desc">D3D10_SIGNATURE_PARAMETER_DESC</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-returnvalues">Direct3D 10 Return Codes</a>.
 
 
 
@@ -96,7 +96,7 @@ An output-parameter description is also called a shader signature. The shader si
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173835(v=VS.85).aspx">ID3D10ShaderReflection Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10shader/nn-d3d10shader-id3d10shaderreflection">ID3D10ShaderReflection Interface</a>
  
 
  

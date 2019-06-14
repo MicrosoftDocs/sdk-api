@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ### -param pclsid [out]
 
-Pointer to a <b>CLSID</b> that receives the class identifier of the registered text service that implements <a href="https://msdn.microsoft.com/f21619c5-5f59-4cc4-9f84-fa5f8a178d40">ITfCreatePropertyStore</a>. The method can return CLSID_NULL for this parameter if property store persistence is unsupported.
+Pointer to a <b>CLSID</b> that receives the class identifier of the registered text service that implements <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcreatepropertystore">ITfCreatePropertyStore</a>. The method can return CLSID_NULL for this parameter if property store persistence is unsupported.
 
 
 ## -returns
@@ -103,12 +103,12 @@ When the property store is unserialized, the TSF manager creates an object of th
 
 
 
-<a href="https://msdn.microsoft.com/f21619c5-5f59-4cc4-9f84-fa5f8a178d40">ITfCreatePropertyStore
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcreatepropertystore">ITfCreatePropertyStore
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/0678e622-3733-499b-b289-c8c181d4638c">ITfPropertyStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfpropertystore">ITfPropertyStore</a>
  
 
  

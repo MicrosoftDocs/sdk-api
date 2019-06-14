@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Sets the mode for the <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> object to collect data from all digitizers.
+Sets the mode for the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object to collect data from all digitizers.
 
 
 
@@ -69,7 +69,7 @@ Sets the mode for the <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37
 
 
 
-For a description of the return values, see <a href="https://msdn.microsoft.com/fc0900b4-f08b-4a93-bbc0-d3db067d7917">RealTimeStylus Classes and Interfaces</a>.
+For a description of the return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
 
 
 
@@ -78,11 +78,11 @@ For a description of the return values, see <a href="https://msdn.microsoft.com/
 
 
 
-This method enables the <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> object to collect stylus events from any tablet attached to the Tablet PC. The <i>fUseMouseForInput</i> parameter specifies whether the mouse device, as well as the stylus, can be used for input.
+This method enables the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object to collect stylus events from any tablet attached to the Tablet PC. The <i>fUseMouseForInput</i> parameter specifies whether the mouse device, as well as the stylus, can be used for input.
 
-If <a href="https://msdn.microsoft.com/7f3645fd-cb1e-4bd5-a995-d70197c61afc">IRealTimeStylus::SetSingleTabletMode Method</a> () was initially called and <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> object is enabled, this call is invalid and TPC_E_INVALID_MODE HRESULT is returned.
+If <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-setsingletabletmode">IRealTimeStylus::SetSingleTabletMode Method</a> () was initially called and <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object is enabled, this call is invalid and TPC_E_INVALID_MODE HRESULT is returned.
 
-<div class="alert"><b>Note</b>  The <b>IRealTimeStylus::SetAllTabletsMode Method</b> method will fail if the <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus</a> is enabled. On Microsoft Windows XP, this method will return <b>S_OK</b> but will have no effect. On Windows Vista, this method will return <b>E_INVALID_MODE</b>.</div>
+<div class="alert"><b>Note</b>  The <b>IRealTimeStylus::SetAllTabletsMode Method</b> method will fail if the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus</a> is enabled. On Microsoft Windows XP, this method will return <b>S_OK</b> but will have no effect. On Windows Vista, this method will return <b>E_INVALID_MODE</b>.</div>
 <div> </div>
 
 
@@ -92,15 +92,15 @@ If <a href="https://msdn.microsoft.com/7f3645fd-cb1e-4bd5-a995-d70197c61afc">IRe
 
 
 
-<a href="https://msdn.microsoft.com/bfd13012-decf-423a-bc1a-39fb9b0eb64e">IRealTimeStylus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
 
 
 
-<a href="https://msdn.microsoft.com/38970fc0-ec4c-4068-a146-83edaa040c8c">IRealTimeStylus::GetTablet Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-gettablet">IRealTimeStylus::GetTablet Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f3645fd-cb1e-4bd5-a995-d70197c61afc">IRealTimeStylus::SetSingleTabletMode Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-setsingletabletmode">IRealTimeStylus::SetSingleTabletMode Method</a>
 
 
 

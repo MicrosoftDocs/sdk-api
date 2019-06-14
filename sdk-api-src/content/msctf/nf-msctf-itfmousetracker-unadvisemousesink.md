@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ### -param dwCookie [in]
 
-Specifies the mouse advise sink identifier. This value is obtained by a call to <a href="https://msdn.microsoft.com/d73b2b9b-8904-4507-9b32-dcb8946fb887">ITfMouseTracker::AdviseMouseSink</a>.
+Specifies the mouse advise sink identifier. This value is obtained by a call to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfmousetracker-advisemousesink">ITfMouseTracker::AdviseMouseSink</a>.
 
 
 ## -returns
@@ -116,11 +116,11 @@ The context owner does not support mouse event sinks.
 
 
 
-<a href="https://msdn.microsoft.com/aad07b35-99e0-4c76-ba65-93c2c972303d">ITfMouseTracker</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfmousetracker">ITfMouseTracker</a>
 
 
 
-<a href="https://msdn.microsoft.com/d73b2b9b-8904-4507-9b32-dcb8946fb887">ITfMouseTracker::AdviseMouseSink
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfmousetracker-advisemousesink">ITfMouseTracker::AdviseMouseSink
       </a>
  
 

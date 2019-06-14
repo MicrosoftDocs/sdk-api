@@ -59,9 +59,9 @@ Gets properties that describe the handler.
 
 ### -param ppHandlerInfo [out]
 
-Type: <b><a href="https://msdn.microsoft.com/29cded59-d0f3-4678-9601-4931687b48e4">ISyncMgrHandlerInfo</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrhandlerinfo">ISyncMgrHandlerInfo</a>**</b>
 
-When this method returns, contains the address of a pointer to an instance of the <a href="https://msdn.microsoft.com/29cded59-d0f3-4678-9601-4931687b48e4">ISyncMgrHandlerInfo</a> interface that provides access to the handler properties.
+When this method returns, contains the address of a pointer to an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrhandlerinfo">ISyncMgrHandlerInfo</a> interface that provides access to the handler properties.
 
 
 ## -returns
@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 If this method fails, the handler is still shown in the Sync Center folder and Sync Center continues to invoke it, but default values are used for all properties.
 
-<b>ISyncMgrHandler::GetHandlerInfo</b>, together with <a href="https://msdn.microsoft.com/2d981cf9-6c0a-4bca-b088-06eb1c820fb3">ISyncMgrHandler::GetName</a>, replaces the older <a href="https://msdn.microsoft.com/bae3ead8-632c-45bf-a24e-bf07922039bd">GetHandlerInfo</a>.
+<b>ISyncMgrHandler::GetHandlerInfo</b>, together with <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getname">ISyncMgrHandler::GetName</a>, replaces the older <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-gethandlerinfo">GetHandlerInfo</a>.
 
 
 #### Examples

@@ -135,11 +135,11 @@ The <i>candidate</i> list can only be extended by one new entry at a time, at th
 
 
 
-<a href="https://msdn.microsoft.com/59005f51-7052-4aef-915d-4c939eecec99">GetCandidate Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-getcandidate">GetCandidate Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/58774f49-6af2-4b81-bbd5-709eb694af2d">IInkLineInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinklineinfo">IInkLineInfo</a>
  
 
  

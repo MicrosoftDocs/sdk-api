@@ -61,7 +61,7 @@ The <b>PlayEnhMetaFileRecord</b> function plays an enhanced-metafile record by e
 
 ### -param hdc [in]
 
-A handle to the device context passed to the <a href="https://msdn.microsoft.com/bef5f43e-219a-4f8a-986d-290e29e17c4e">EnumEnhMetaFile</a> function.
+A handle to the device context passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumenhmetafile">EnumEnhMetaFile</a> function.
 
 
 ### -param pht [in]
@@ -96,9 +96,9 @@ If the function fails, the return value is zero.
 
 This is an enhanced-metafile function.
 
-An application typically uses <b>PlayEnhMetaFileRecord</b> in conjunction with the <a href="https://msdn.microsoft.com/bef5f43e-219a-4f8a-986d-290e29e17c4e">EnumEnhMetaFile</a> function to process and play an enhanced-format metafile one record at a time.
+An application typically uses <b>PlayEnhMetaFileRecord</b> in conjunction with the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumenhmetafile">EnumEnhMetaFile</a> function to process and play an enhanced-format metafile one record at a time.
 
-The <i>hdc</i>, <i>lpHandletable</i>, and <i>nHandles</i> parameters must be exactly those passed to the <a href="https://msdn.microsoft.com/c9f04b38-18bc-4b52-8c56-d9475bc30202">EnhMetaFileProc</a> callback procedure by the <a href="https://msdn.microsoft.com/bef5f43e-219a-4f8a-986d-290e29e17c4e">EnumEnhMetaFile</a> function.
+The <i>hdc</i>, <i>lpHandletable</i>, and <i>nHandles</i> parameters must be exactly those passed to the <a href="https://docs.microsoft.com/previous-versions//dd162606(v=vs.85)">EnhMetaFileProc</a> callback procedure by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumenhmetafile">EnumEnhMetaFile</a> function.
 
 If <b>PlayEnhMetaFileRecord</b> does not recognize a record, it ignores the record and returns <b>TRUE</b>.
 
@@ -110,19 +110,19 @@ If <b>PlayEnhMetaFileRecord</b> does not recognize a record, it ignores the reco
 
 
 
-<a href="https://msdn.microsoft.com/bef5f43e-219a-4f8a-986d-290e29e17c4e">EnumEnhMetaFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumenhmetafile">EnumEnhMetaFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/93a17a8c-308b-4442-933e-fedc8b9a84b0">Metafile Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-functions">Metafile Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/309ee4cf-111b-4f09-a722-4823cb3d26b0">Metafiles Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/51e8937b-0c42-49fe-8930-7af303fce788">PlayEnhMetaFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-playenhmetafile">PlayEnhMetaFile</a>
  
 
  

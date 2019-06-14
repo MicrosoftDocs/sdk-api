@@ -53,7 +53,7 @@ ms.custom: 19H1
     section. Support for this method was removed in Windows Server 2008.]
 
 Returns the type of a 
-    <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a802-8f7bdbb11b90">cluster object</a>.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">cluster object</a>.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Returns the type of a
 
 A number representing the zero-based index of the target object. This parameter is restricted to the number 
        that can be retrieved by calling 
-       <a href="https://msdn.microsoft.com/20ef63e2-bcec-48bc-86e8-ab746fb72cc5">IGetClusterDataInfo::GetObjectCount</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusterdatainfo-getobjectcount">IGetClusterDataInfo::GetObjectCount</a>.
 
 
 ## -returns
@@ -73,7 +73,7 @@ A number representing the zero-based index of the target object. This parameter 
 
 
 
-If <a href="https://msdn.microsoft.com/f01a1ada-bb4d-4042-ac56-3658262d1110">GetObjectType</a> is 
+If <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusterobjectinfo-getobjecttype">GetObjectType</a> is 
         successful, it returns one of the following values enumerated by the 
         <b>CLUADMEX_OBJECT_TYPE</b> enumeration representing the object types:
 
@@ -81,7 +81,7 @@ If <a href="https://msdn.microsoft.com/f01a1ada-bb4d-4042-ac56-3658262d1110">Get
 
 If <b>GetObjectType</b> is not 
        successful, it returns –1. For more information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -91,7 +91,7 @@ If <b>GetObjectType</b> is not
 
 
 <b>CLUADMEX_OT_NONE</b> is returned when 
-     <a href="https://msdn.microsoft.com/5d89c4b8-0554-4672-9e06-2ce7c5d15d5f">Failover Cluster Administrator</a> does not recognize 
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator">Failover Cluster Administrator</a> does not recognize 
      the object type.
 
 
@@ -102,11 +102,11 @@ If <b>GetObjectType</b> is not
 
 
 
-<a href="https://msdn.microsoft.com/20ef63e2-bcec-48bc-86e8-ab746fb72cc5">IGetClusterDataInfo::GetObjectCount</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusterdatainfo-getobjectcount">IGetClusterDataInfo::GetObjectCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/a88ba05c-b64b-4d6d-b005-f2f867093355">IGetClusterObjectInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclusterobjectinfo">IGetClusterObjectInfo</a>
  
 
  

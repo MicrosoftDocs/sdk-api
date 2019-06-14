@@ -66,13 +66,13 @@ Compares two file times.
 
 ### -param lpFileTime1 [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that specifies the 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that specifies the 
      first file time.
 
 
 ### -param lpFileTime2 [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that specifies the 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that specifies the 
      second file time.
 
 
@@ -131,19 +131,19 @@ First file time is later than second file time.
 
 
 
-<a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
 
 
 
-<a href="https://msdn.microsoft.com/52d80b82-9ab0-4631-9e70-85df21da4946">File Times</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/file-times">File Times</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f88e1c8-4328-40c2-857d-745e4a1d350d">GetFileTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfiletime">GetFileTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/3733f611-c6a1-4d48-b21e-ada3490c5de1">Time Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/time-functions">Time Functions</a>
  
 
  

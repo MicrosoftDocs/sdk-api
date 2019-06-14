@@ -63,7 +63,7 @@ The <b>GetAlphaBitmapParameters</b> method retrieves a copy of the current image
 
 ### -param pBmpParms [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/03b3e619-4804-42de-88d5-5422089e875a">VMRALPHABITMAP</a> structure that receives the bitmap, information about the blending values, and the location to blend it.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_vmralphabitmap">VMRALPHABITMAP</a> structure that receives the bitmap, information about the blending values, and the location to blend it.
           
 
 
@@ -111,23 +111,23 @@ The mixer has not been loaded.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/ac7da3f9-2c17-4517-bb64-6b56257a65c3">IVMRMixerBitmap Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/92e57c3a-6761-4a54-83f5-0ea0ce80d60b">IVMRMixerBitmap::SetAlphaBitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrmixerbitmap-setalphabitmap">IVMRMixerBitmap::SetAlphaBitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d0fdfac-ec7e-4e02-886b-2039c607dac7">Using the Video Mixing Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
 
 
 
-<a href="https://msdn.microsoft.com/c83e6c50-76f2-4aeb-944b-5b244c6bf776">Video Mixing Renderer Filter 7</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a>
  
 
  

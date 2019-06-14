@@ -107,7 +107,7 @@ The password filter DLL is not initialized.
 
 
 
-<b>InitializeChangeNotify</b> is called by the <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">Local Security Authority</a> (LSA) to verify that the password notification DLL is loaded and initialized.
+<b>InitializeChangeNotify</b> is called by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) to verify that the password notification DLL is loaded and initialized.
 
 This function must use the __stdcall calling convention, and must be exported by the DLL.
 
@@ -123,19 +123,19 @@ Any process exception that is not handled within this function may cause securit
 <tr>
 <td>Programming issues when implementing a password filter DLL</td>
 <td>
-<a href="https://msdn.microsoft.com/ec7c1e7e-844a-43d4-b756-02bc1062d7b8">Password Filter Programming Considerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/password-filter-programming-considerations">Password Filter Programming Considerations</a>
 </td>
 </tr>
 <tr>
 <td>How to install and register your own password filter DLL</td>
 <td>
-<a href="https://msdn.microsoft.com/12a6fe6d-5b37-4fcf-bd04-0a22d84ba323">Installing and Registering a Password Filter DLL</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/installing-and-registering-a-password-filter-dll">Installing and Registering a Password Filter DLL</a>
 </td>
 </tr>
 <tr>
 <td>The password filter DLL provided by Microsoft</td>
 <td>
-<a href="https://msdn.microsoft.com/a84f83b2-181b-4f65-82bd-bc7f0689aad3">Strong Password Enforcement and Passfilt.dll</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/strong-password-enforcement-and-passfilt-dll">Strong Password Enforcement and Passfilt.dll</a>
 </td>
 </tr>
 </table>
@@ -149,11 +149,11 @@ Any process exception that is not handled within this function may cause securit
 
 
 
-<a href="https://msdn.microsoft.com/81d34dff-3842-407b-8fd8-3b0a5a5f38f1">PasswordChangeNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nc-ntsecapi-psam_password_notification_routine">PasswordChangeNotify</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb4fe40e-81ea-4040-b3ee-642a093e5fca">PasswordFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nc-ntsecapi-psam_password_filter_routine">PasswordFilter</a>
  
 
  

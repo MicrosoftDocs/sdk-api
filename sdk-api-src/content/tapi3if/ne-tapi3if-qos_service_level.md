@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>QOS_SERVICE_LEVEL</b> enum is used by the 
-<a href="https://msdn.microsoft.com/f1e6ef32-5706-4b1c-a1fa-a7be48fd6efd">ITBasicCallControl::SetQOS</a> method to indicate quality of service requirements for a call.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-setqos">ITBasicCallControl::SetQOS</a> method to indicate quality of service requirements for a call.
 
 
 ## -enum-fields
@@ -79,11 +79,11 @@ Quality of service level desired is "best effort."
 
 
 
-<a href="https://msdn.microsoft.com/f1e6ef32-5706-4b1c-a1fa-a7be48fd6efd">ITBasicCallControl::SetQOS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-setqos">ITBasicCallControl::SetQOS</a>
 
 
 
-<a href="https://msdn.microsoft.com/6e3a8aef-bd76-4047-9018-801a3cab2c62">ITQOSEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itqosevent">ITQOSEvent</a>
  
 
  

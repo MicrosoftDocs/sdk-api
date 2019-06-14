@@ -68,7 +68,7 @@ If <b>TRUE</b>, then reboot the computer after the shutdown is complete.
 
 This method supports the standard return values, as well as the following:
 
-For other return values, see  <a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>.
+For other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 
 
@@ -78,11 +78,11 @@ For other return values, see  <a href="https://msdn.microsoft.com/573889e4-37af-
 
 
 
-<a href="https://msdn.microsoft.com/e2b90a98-5777-42c2-95dd-4623e738c4da">IADsComputer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscomputer">IADsComputer</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b0155ce-f313-43fa-8605-650aa8f38587">IADsComputerOperations</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscomputeroperations">IADsComputerOperations</a>
  
 
  

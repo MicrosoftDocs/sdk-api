@@ -65,7 +65,7 @@ The implementation of <code>StartDelete</code> is provided by the application.
 
 ### -param pPhotoAcquireSource [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/6671d550-8c12-40e3-bf6f-33203e69cff0">IPhotoAcquireSource</a> that items are being deleted from.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresource">IPhotoAcquireSource</a> that items are being deleted from.
 
 
 ## -returns
@@ -112,7 +112,7 @@ The method is not yet implemented
 
 
 
-<a href="https://msdn.microsoft.com/c4fcc470-1b05-4d33-8581-80c6e7488e04">IPhotoAcquireProgressCB Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireprogresscb">IPhotoAcquireProgressCB Interface</a>
  
 
  

@@ -55,7 +55,7 @@ The
 <b>MsiSummaryInfoSetProperty</b> function sets a single summary information property.
 
 
-<div class="alert"><b>Note</b>  The meaning of the property value depends on whether the summary information stream is for an installation database (.msi file), transform (.mst file) or patch (.msp file). See <a href="https://msdn.microsoft.com/b44b24b7-7fc4-4c3c-9d10-7e2f3c43cf36">Summary Property Descriptions</a> and <a href="https://msdn.microsoft.com/a5dd014f-21af-41f9-be75-1b139946179d">Summary Information Stream Property Set</a> for more information about summary information properties.</div>
+<div class="alert"><b>Note</b>  The meaning of the property value depends on whether the summary information stream is for an installation database (.msi file), transform (.mst file) or patch (.msp file). See <a href="https://docs.microsoft.com/windows/desktop/Msi/summary-property-descriptions">Summary Property Descriptions</a> and <a href="https://docs.microsoft.com/windows/desktop/Msi/summary-information-stream-property-set">Summary Information Stream Property Set</a> for more information about summary information properties.</div>
 <div> </div>
 
 
@@ -72,13 +72,13 @@ Handle to summary information.
 
 ### -param uiProperty [in]
 
-Specifies the property ID of the summary property being set. This parameter can be a property ID  listed in the <a href="https://msdn.microsoft.com/a5dd014f-21af-41f9-be75-1b139946179d">Summary Information Stream Property Set</a>.  This function does not set values for PID_DICTIONARY OR PID_THUMBNAIL property.
+Specifies the property ID of the summary property being set. This parameter can be a property ID  listed in the <a href="https://docs.microsoft.com/windows/desktop/Msi/summary-information-stream-property-set">Summary Information Stream Property Set</a>.  This function does not set values for PID_DICTIONARY OR PID_THUMBNAIL property.
 
 
 ### -param uiDataType [in]
 
 Specifies the type of property to set. This parameter can be a type listed in the 
-<a href="https://msdn.microsoft.com/a5dd014f-21af-41f9-be75-1b139946179d">Summary Information Stream Property Set</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/summary-information-stream-property-set">Summary Information Stream Property Set</a>.
 
 
 ### -param iValue [in]
@@ -111,15 +111,15 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Summary Information Property Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Summary Information Property Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/a5dd014f-21af-41f9-be75-1b139946179d">Summary Information Stream Property Set</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/summary-information-stream-property-set">Summary Information Stream Property Set</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e8f0987-c92b-43f3-a61a-35099188c629">Summaryinfo.Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/summaryinfo-summaryinfo">Summaryinfo.Property</a>
  
 
  

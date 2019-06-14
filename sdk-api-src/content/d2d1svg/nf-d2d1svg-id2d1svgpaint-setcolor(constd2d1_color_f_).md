@@ -68,7 +68,7 @@ The new paint color.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 
@@ -80,7 +80,7 @@ This method returns an HRESULT success or error code.
 
 
 
-<a href="https://msdn.microsoft.com/80FE02F1-D83B-4AA1-94F1-B754106CB19D">ID2D1SvgPaint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgpaint">ID2D1SvgPaint</a>
  
 
  

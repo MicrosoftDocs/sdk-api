@@ -50,8 +50,8 @@ ms.custom: 19H1
 
 
 A set of property values associated with the error.  They are set
-                and retrieved using <a href="https://msdn.microsoft.com/35a1f4a8-aad6-43ad-81db-b1071a77d5f4">WsGetErrorProperty</a> and 
-                <a href="https://msdn.microsoft.com/5193eaf4-29f7-4e97-a3b0-97441b26399c">WsSetErrorProperty</a>.
+                and retrieved using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgeterrorproperty">WsGetErrorProperty</a> and 
+                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsseterrorproperty">WsSetErrorProperty</a>.
             
 
 
@@ -63,7 +63,7 @@ A set of property values associated with the error.  They are set
 ### -field WS_ERROR_PROPERTY_STRING_COUNT
 
 The number of error strings (ULONG) available in the error object. Error strings 
-                    might be added using <a href="https://msdn.microsoft.com/5fdad296-5024-4360-b1c5-f0192929c612">WsAddErrorString</a>. When <a href="https://msdn.microsoft.com/527e39be-c959-40db-8f0b-14dcd49a7ca7">WS_ERROR_PROPERTY_ORIGINAL_ERROR_CODE</a>is present in the error object, the corresponding error text will be counted as an
+                    might be added using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsadderrorstring">WsAddErrorString</a>. When <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_error_property_id">WS_ERROR_PROPERTY_ORIGINAL_ERROR_CODE</a>is present in the error object, the corresponding error text will be counted as an
                     additional string in the returned number of error strings. 
                 
 
@@ -110,6 +110,6 @@ This value may not be zero.
                 
 
 This value may only be set when the error object is first created, or
-                    after it has been reset using <a href="https://msdn.microsoft.com/a01a65f1-3eca-452c-a10d-dc9c6c3db124">WsResetError</a>.
+                    after it has been reset using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreseterror">WsResetError</a>.
                 
 

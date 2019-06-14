@@ -59,12 +59,12 @@ The <i>WS_CERTIFICATE_VALIDATION_CALLBACK</i> callback is invoked to validate a 
 
 ### -param certContext [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structure that is associated with the connection. Applications must free this structure using <a href="https://msdn.microsoft.com/7d2f3237-3f8b-4234-b6db-3057384cd89b">CertFreeCertificateContext</a>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure that is associated with the connection. Applications must free this structure using <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>.
 
 
 ### -param *state [in, optional]
 
-A pointer to application specific state information. This parameter corresponds to the <b>state</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Hh994470(v=VS.85).aspx">WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT</a> structure.
+A pointer to application specific state information. This parameter corresponds to the <b>state</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_certificate_validation_callback_context">WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT</a> structure.
 
 
 ## -returns
@@ -110,7 +110,7 @@ This function may return other errors not listed above.
 
 
 
-If <i>WS_CERTIFICATE_VALIDATION_CALLBACK</i> returns any value other than <b>S_OK</b>, the channel will be aborted. The service proxy will also be aborted if this property was passed to <a href="https://msdn.microsoft.com/9215684b-979e-48ad-b4ee-2ae1db1e3034">WsCreateServiceProxy</a>.
+If <i>WS_CERTIFICATE_VALIDATION_CALLBACK</i> returns any value other than <b>S_OK</b>, the channel will be aborted. The service proxy will also be aborted if this property was passed to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreateserviceproxy">WsCreateServiceProxy</a>.
 
 The callback implementation must avoid long computation times or long blocking calls so that it returns to the caller quickly.
 
@@ -122,7 +122,7 @@ The callback implementation must avoid long computation times or long blocking c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh994470(v=VS.85).aspx">WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_certificate_validation_callback_context">WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Scales the <a href="https://msdn.microsoft.com/8a4d768d-09b6-45e1-b412-e267d92cc3ef">view transform</a> in the X and Y dimension.
+Scales the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-getviewtransform">view transform</a> in the X and Y dimension.
 
 
 
@@ -124,7 +124,7 @@ An exception occurred inside the method.
 
 
 
-<a href="https://msdn.microsoft.com/66ec7cab-bfc2-4934-93a4-0ab9cb8c96e7">InkRenderer Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrenderer-class">InkRenderer Class</a>
  
 
  

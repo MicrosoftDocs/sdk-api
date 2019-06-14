@@ -59,9 +59,9 @@ Stores the coordinates of a rectangle in a property in a property bag.
 
 ### -param propBag [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa768196(v=VS.85).aspx">IPropertyBag</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/Aa768196(v=VS.85).aspx">IPropertyBag</a> object that represents the property bag in which the property is stored.
+A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a> object that represents the property bag in which the property is stored.
 
 
 ### -param propName [in]
@@ -73,9 +73,9 @@ A null-terminated property name string.
 
 ### -param value [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/47a89d2d-4733-47be-91c1-450845e78075">RECTL</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/previous-versions//dd162907(v=vs.85)">RECTL</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/47a89d2d-4733-47be-91c1-450845e78075">RECTL</a> structure that specifies the coordinates to store in the property.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions//dd162907(v=vs.85)">RECTL</a> structure that specifies the coordinates to store in the property.
 
 
 ## -returns
@@ -103,7 +103,7 @@ The property bag property function API converts between window types and the <b>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee845059(v=VS.85).aspx">PSPropertyBag_ReadRECTL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-pspropertybag_readrectl">PSPropertyBag_ReadRECTL</a>
  
 
  

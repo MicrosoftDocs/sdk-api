@@ -99,7 +99,7 @@ Reserved. This member forces the enumeration type to compile as a <b>DWORD</b> v
 
 
 
-This enumeration is used with the <a href="https://msdn.microsoft.com/697590e3-898e-4ac9-8390-7b0994b6e571">MF_MT_VIDEO_LIGHTING</a> attribute.
+This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-video-lighting-attribute">MF_MT_VIDEO_LIGHTING</a> attribute.
 
 
 
@@ -109,11 +109,11 @@ This enumeration is used with the <a href="https://msdn.microsoft.com/697590e3-8
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/b8cfe0d1-013d-4706-bb76-6d426836ab6a">Video Media Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/video-media-types">Video Media Types</a>
  
 
  

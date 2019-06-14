@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Calls the specified object's <a href="https://msdn.microsoft.com/f88ef2b1-63c3-4307-a5e1-b9104c8aef29">IObjectWithSite::GetSite</a> method.
+Calls the specified object's <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-getsite">IObjectWithSite::GetSite</a> method.
 
 
 ## -parameters
@@ -63,9 +63,9 @@ Calls the specified object's <a href="https://msdn.microsoft.com/f88ef2b1-63c3-4
 
 ### -param punk [in]
 
-Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-A pointer to the COM object whose <a href="https://msdn.microsoft.com/f88ef2b1-63c3-4307-a5e1-b9104c8aef29">IObjectWithSite::GetSite</a> method is to be called.
+A pointer to the COM object whose <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-getsite">IObjectWithSite::GetSite</a> method is to be called.
 
 
 ### -param riid [in]
@@ -97,7 +97,7 @@ Returns <b>S_OK</b> if the site was successfully retrieved or a COM error code o
 
 
 
-This function calls the specified object's <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> method to obtain the <a href="https://msdn.microsoft.com/e688136e-e06b-46ba-bec9-b8db2f9c468d">IObjectWithSite</a> interface.  If successful, the function calls the interface's <a href="https://msdn.microsoft.com/f88ef2b1-63c3-4307-a5e1-b9104c8aef29">IObjectWithSite::GetSite</a> method to obtain the site.
+This function calls the specified object's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method to obtain the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iobjectwithsite">IObjectWithSite</a> interface.  If successful, the function calls the interface's <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-getsite">IObjectWithSite::GetSite</a> method to obtain the site.
 
 
 

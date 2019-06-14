@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 Links the 
-<a href="https://msdn.microsoft.com/801428f1-9ce5-4348-acab-23cc9ea8cac3">GPMWMIFilter</a> object to the current Group Policy object (GPO). This method can also be used to unlink existing WMI filters from the GPO.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">GPMWMIFilter</a> object to the current Group Policy object (GPO). This method can also be used to unlink existing WMI filters from the GPO.
 
 
 ## -parameters
@@ -87,11 +87,11 @@ Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 
 
 
-<a href="https://msdn.microsoft.com/2857c8b7-019d-4ec2-9a00-574fc8541cae">IGPMGPO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a>
 
 
 
-<a href="https://msdn.microsoft.com/801428f1-9ce5-4348-acab-23cc9ea8cac3">IGPMWMIFilter</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">IGPMWMIFilter</a>
  
 
  

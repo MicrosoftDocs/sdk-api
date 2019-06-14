@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 Use the 
 <b>RasFreeEapUserIdentity</b> function to free the memory buffer returned by 
-<a href="https://msdn.microsoft.com/b1b44672-86f3-4d8b-b816-31167a84b05a">RasGetEapUserIdentity</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgeteapuseridentitya">RasGetEapUserIdentity</a>.
 
 
 ## -parameters
@@ -64,8 +64,8 @@ Use the
 ### -param pRasEapUserIdentity [in]
 
 Pointer to the 
-<a href="https://msdn.microsoft.com/6e27d6cf-65bd-459f-ab4a-2177a2a39ff3">RASEAPUSERIDENTITY</a> structure returned by the 
-<a href="https://msdn.microsoft.com/b1b44672-86f3-4d8b-b816-31167a84b05a">RasGetEapUserIdentity</a> function. 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377247(v=vs.85)">RASEAPUSERIDENTITY</a> structure returned by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgeteapuseridentitya">RasGetEapUserIdentity</a> function. 
 <b>RasFreeEapUserIdentity</b> frees the memory occupied by this structure.
 
 
@@ -92,11 +92,11 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/6e27d6cf-65bd-459f-ab4a-2177a2a39ff3">RASEAPUSERIDENTITY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377247(v=vs.85)">RASEAPUSERIDENTITY</a>
 
 
 
-<a href="https://msdn.microsoft.com/b1b44672-86f3-4d8b-b816-31167a84b05a">RasGetEapUserIdentity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgeteapuseridentitya">RasGetEapUserIdentity</a>
  
 
  

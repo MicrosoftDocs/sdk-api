@@ -66,9 +66,9 @@ The index of the conflict item to retrieve.
 
 ### -param pItemInfo [out]
 
-Type: <b><a href="https://msdn.microsoft.com/3be4a8ec-eeab-4453-a2cb-18cadf39464a">CONFIRM_CONFLICT_ITEM</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ns-syncmgr-confirm_conflict_item">CONFIRM_CONFLICT_ITEM</a>*</b>
 
-When this method returns successfully, contains a pointer to a <a href="https://msdn.microsoft.com/3be4a8ec-eeab-4453-a2cb-18cadf39464a">CONFIRM_CONFLICT_ITEM</a> structure that contains information about the conflict.
+When this method returns successfully, contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ns-syncmgr-confirm_conflict_item">CONFIRM_CONFLICT_ITEM</a> structure that contains information about the conflict.
 
 
 ## -returns

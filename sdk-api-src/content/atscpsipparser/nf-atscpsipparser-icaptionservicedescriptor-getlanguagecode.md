@@ -65,7 +65,7 @@ The <b>GetLanguageCode</b> method returns the language code for a specified capt
 
 ### -param bIndex [in]
 
-Zero-based index of the caption service. To get the number of caption services, call <a href="https://msdn.microsoft.com/50c2baff-a355-45a4-8a05-a193e695c448">ICaptionServiceDescriptor::GetNumberOfServices</a>.
+Zero-based index of the caption service. To get the number of caption services, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-icaptionservicedescriptor-getnumberofservices">ICaptionServiceDescriptor::GetNumberOfServices</a>.
 
 
 ### -param LangCode [out]
@@ -139,7 +139,7 @@ The <i>bIndex</i> parameter is out of range.
 
 
 
-<a href="https://msdn.microsoft.com/fc1f38af-2fe8-4c08-b6f8-312dd4771141">ICaptionServiceDescriptor Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-icaptionservicedescriptor">ICaptionServiceDescriptor Interface</a>
  
 
  

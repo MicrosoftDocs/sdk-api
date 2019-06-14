@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Specifies attributes for a user-mode scheduling (UMS) worker thread. 
 
-This structure is used with the <a href="https://msdn.microsoft.com/5fc3e04f-9b2a-440c-a9aa-d78d9b25b341">UpdateProcThreadAttribute</a> function.  
+This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-updateprocthreadattribute">UpdateProcThreadAttribute</a> function.  
 
 
 ## -struct-fields
@@ -66,10 +66,10 @@ The UMS version for which the application was built. This parameter must be <b>U
 
 ### -field UmsContext
 
-A pointer to a UMS thread context for the worker thread to be created. This pointer is provided by the <a href="https://msdn.microsoft.com/b27ce81a-8463-46af-8acf-2de091f625df">CreateUmsThreadContext</a> function.
+A pointer to a UMS thread context for the worker thread to be created. This pointer is provided by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createumsthreadcontext">CreateUmsThreadContext</a> function.
 
 
 ### -field UmsCompletionList
 
-A pointer to a UMS completion list. This pointer is provided by the <a href="https://msdn.microsoft.com/6e77b793-a82e-4e23-8c8b-7aff79d69346">CreateUmsCompletionList</a> function. The newly created worker thread is queued to the specified completion list.
+A pointer to a UMS completion list. This pointer is provided by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createumscompletionlist">CreateUmsCompletionList</a> function. The newly created worker thread is queued to the specified completion list.
 

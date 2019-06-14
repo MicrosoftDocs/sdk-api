@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DSQUERYPARAMS</b> structure contains query  data used by the directory service query when searching the directory service. This structure is provided by the <a href="https://msdn.microsoft.com/bb8aea98-8309-42bf-993d-fa408bb4deb2">CFSTR_DSQUERYPARAMS</a> clipboard format by the <a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> provided by the <a href="https://msdn.microsoft.com/604c4d7a-1f85-4e5b-9879-be502c5c7bff">ICommonQuery::OpenQueryWindow</a> method. The caller of <b>ICommonQuery::OpenQueryWindow</b> can use this to retrieve the filter, column data used by the result view when issuing a query against the server.
+The <b>DSQUERYPARAMS</b> structure contains query  data used by the directory service query when searching the directory service. This structure is provided by the <a href="https://docs.microsoft.com/windows/desktop/AD/cfstr-dsqueryparams">CFSTR_DSQUERYPARAMS</a> clipboard format by the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> provided by the <a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-icommonquery-openquerywindow">ICommonQuery::OpenQueryWindow</a> method. The caller of <b>ICommonQuery::OpenQueryWindow</b> can use this to retrieve the filter, column data used by the result view when issuing a query against the server.
 
 
 ## -struct-fields
@@ -89,7 +89,7 @@ Reserved.
 
 ### -field aColumns
 
-Contains an array of <a href="https://msdn.microsoft.com/b948b114-dd66-4e79-bdd0-559a13a7c644">DSCOLUMN</a> structures that contain the results of the query. The <b>iColumns</b> member specifies the number of elements in this array.
+Contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/dsquery/ns-dsquery-dscolumn">DSCOLUMN</a> structures that contain the results of the query. The <b>iColumns</b> member specifies the number of elements in this array.
 
 
 ## -see-also
@@ -97,19 +97,19 @@ Contains an array of <a href="https://msdn.microsoft.com/b948b114-dd66-4e79-bdd0
 
 
 
-<a href="https://msdn.microsoft.com/bb8aea98-8309-42bf-993d-fa408bb4deb2">CFSTR_DSQUERYPARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/cfstr-dsqueryparams">CFSTR_DSQUERYPARAMS</a>
 
 
 
-<a href="https://msdn.microsoft.com/b948b114-dd66-4e79-bdd0-559a13a7c644">DSCOLUMN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsquery/ns-dsquery-dscolumn">DSCOLUMN</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf6aa066-ee7e-4b13-9a4b-1e097632ec5a">Display Structures in Active Directory Domain Services</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/display-structures-in-active-directory-domain-services">Display Structures in Active Directory Domain Services</a>
 
 
 
-<a href="https://msdn.microsoft.com/604c4d7a-1f85-4e5b-9879-be502c5c7bff">ICommonQuery::OpenQueryWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-icommonquery-openquerywindow">ICommonQuery::OpenQueryWindow</a>
  
 
  

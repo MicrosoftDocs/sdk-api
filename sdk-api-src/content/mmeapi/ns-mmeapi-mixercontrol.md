@@ -286,7 +286,7 @@ Reserved; do not use.
 
 
 
-<a href="https://msdn.microsoft.com/82101519-6906-45fd-908f-137e51a56fb8">Audio Mixer Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-mixer-structures">Audio Mixer Structures</a>
 
 
 
@@ -294,11 +294,11 @@ Audio Mixers
 
 
 
-<a href="https://msdn.microsoft.com/a028785b-2d58-41da-825b-32e98fb44405">MIXERLINECONTROLS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-tagmixerlinecontrolsa">MIXERLINECONTROLS</a>
 
 
 
-<a href="https://msdn.microsoft.com/48fa3396-f3ec-411a-9ea7-d7e82d606f14">mixerGetLineControls</a>
+<a href="https://docs.microsoft.com/previous-versions//dd757302(v=vs.85)">mixerGetLineControls</a>
  
 
  

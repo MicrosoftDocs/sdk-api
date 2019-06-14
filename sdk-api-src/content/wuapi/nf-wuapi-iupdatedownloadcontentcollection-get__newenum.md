@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface that is  used to enumerate the collection.
+Gets an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface that is  used to enumerate the collection.
 
 This property is read-only.
 
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/cfb5b023-e31c-4a67-a5d8-47ea453a6e4a">IUpdateDownloadContentCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloadcontentcollection">IUpdateDownloadContentCollection</a>
  
 
  

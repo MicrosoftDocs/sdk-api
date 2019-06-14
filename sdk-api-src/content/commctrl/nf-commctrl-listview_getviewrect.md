@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the bounding rectangle of all items in the list-view control. The list view must be in icon or small icon view. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761093(v=VS.85).aspx">LVM_GETVIEWRECT</a> message explicitly. 
+Gets the bounding rectangle of all items in the list-view control. The list view must be in icon or small icon view. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getviewrect">LVM_GETVIEWRECT</a> message explicitly. 
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Gets the bounding rectangle of all items in the list-view control. The list view
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control. 
 
 
 ### -param prc
 
-Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)">RECT</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that receives the bounding rectangle. All coordinates are relative to the visible area of the list-view control. 
+A pointer to a <a href="https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)">RECT</a> structure that receives the bounding rectangle. All coordinates are relative to the visible area of the list-view control. 
 

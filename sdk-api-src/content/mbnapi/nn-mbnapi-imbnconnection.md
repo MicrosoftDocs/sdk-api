@@ -54,7 +54,7 @@ Represents the network connectivity of a device.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMbnConnection</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMbnConnection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMbnConnection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnConnection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IMbnConnection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/66acb84e-8e0f-4ff1-abc4-b32f782ce9f3">Connect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-connect">Connect</a>
 </td>
 <td align="left" width="63%">
 Establishes a data connection.   
@@ -79,7 +79,7 @@ Establishes a data connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bc7f28db-499d-41be-a2cc-b4940a5bccd6">Disconnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-disconnect">Disconnect</a>
 </td>
 <td align="left" width="63%">
 Disconnects a data connection.
@@ -88,7 +88,7 @@ Disconnects a data connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a8bda00b-5eff-46a4-b640-1794e8ea21cf">GetActivationNetworkError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-getactivationnetworkerror">GetActivationNetworkError</a>
 </td>
 <td align="left" width="63%">
 Gets the network error returned in a context activation failure.
@@ -97,7 +97,7 @@ Gets the network error returned in a context activation failure.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/85f3e0bb-c694-4870-b423-cb4ac7a0477d">GetConnectionState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-getconnectionstate">GetConnectionState</a>
 </td>
 <td align="left" width="63%">
 Gets the current connection state of the device.
@@ -106,7 +106,7 @@ Gets the current connection state of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a715f7c8-a001-41a2-9c1f-ca133568133b">GetVoiceCallState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-getvoicecallstate">GetVoiceCallState</a>
 </td>
 <td align="left" width="63%">
 Gets the voice call state of the device.
@@ -124,7 +124,7 @@ Gets the voice call state of the device.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c9e24426-a487-417a-947e-6315eb59f9b4">ConnectionID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-get_connectionid">ConnectionID</a>
 
 
 </td>
@@ -140,7 +140,7 @@ The connection ID.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c98f1f69-1df1-4d72-8df4-166284dcb880">InterfaceID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-get_interfaceid">InterfaceID</a>
 
 
 </td>
@@ -160,9 +160,9 @@ The interface ID.
 
 
 
-This interface is only available when a Mobile Broadband device is registered to a network or when the device is in <b>MBN_READY_STATE_DEVICE_LOCKED</b> state. When a device deregisters from the network this COM interface is removed and the Mobile Broadband service will call the <a href="https://msdn.microsoft.com/020ee1ad-cab5-4a27-b97b-160319d84ac8">OnConnectionRemoval</a> method of the <a href="https://msdn.microsoft.com/153ab8c5-2b39-44a7-8c12-9f1df0012270">IMbnConnectionManagerEvents</a> interface.
+This interface is only available when a Mobile Broadband device is registered to a network or when the device is in <b>MBN_READY_STATE_DEVICE_LOCKED</b> state. When a device deregisters from the network this COM interface is removed and the Mobile Broadband service will call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionmanagerevents-onconnectionremoval">OnConnectionRemoval</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionmanagerevents">IMbnConnectionManagerEvents</a> interface.
 
-<b>IMbnConnection</b> objects are provided by calls to the <a href="https://msdn.microsoft.com/fbeac057-77e3-438e-a7a9-b6f223a09dbe">GetConnection</a> and <a href="https://msdn.microsoft.com/5f4fd3b2-ed24-403a-ae5a-31821a2c7033">GetConnections</a> methods of the <a href="https://msdn.microsoft.com/20b9243d-1f20-4092-951a-fbacb2d55481">IMbnConnectionManager</a> interface.  
+<b>IMbnConnection</b> objects are provided by calls to the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionmanager-getconnection">GetConnection</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionmanager-getconnections">GetConnections</a> methods of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionmanager">IMbnConnectionManager</a> interface.  
 
 
 

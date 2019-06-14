@@ -88,27 +88,27 @@ The terminal direction is unknown or not initialized.
 
 
 
-<a href="https://msdn.microsoft.com/196abe2a-d88d-4b2d-8867-4e6cc15dee33">ITStream::get_Direction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstream-get_direction">ITStream::get_Direction</a>
 
 
 
-<a href="https://msdn.microsoft.com/402cde43-6b2a-4e4e-bf46-97fcafb7574a">ITStreamControl::CreateStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstreamcontrol-createstream">ITStreamControl::CreateStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/e0a69c3d-1780-4088-8249-961788dbf184">ITTerminal::get_Direction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_direction">ITTerminal::get_Direction</a>
 
 
 
-<a href="https://msdn.microsoft.com/a6590503-8c95-496d-a35a-1bbb34c728e1">ITTerminalManager::CreateDynamicTerminal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itterminalmanager-createdynamicterminal">ITTerminalManager::CreateDynamicTerminal</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a2a037a-753c-4dd4-b6ce-10b69f2e2421">ITTerminalSupport::CreateTerminal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-createterminal">ITTerminalSupport::CreateTerminal</a>
 
 
 
-<a href="https://msdn.microsoft.com/aad3a566-eb95-402c-b26f-da6bd89e52ea">ITTerminalSupport::GetDefaultStaticTerminal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-getdefaultstaticterminal">ITTerminalSupport::GetDefaultStaticTerminal</a>
  
 
  

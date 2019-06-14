@@ -61,7 +61,7 @@ The <b>WinUsb_ReadPipe</b> function reads data from the specified pipe.
 
 An opaque handle to the interface that contains the endpoint with which the pipe is associated. 
 
-To read data from the pipe associated with an endpoint in the first interface, use the handle returned by <a href="https://msdn.microsoft.com/258cf508-036a-4ade-95b2-4b36d1149ffd">WinUsb_Initialize</a>. For all other interfaces, use the handle to the target interface, retrieved by <a href="https://msdn.microsoft.com/1afc7b2f-4fb6-4ab4-8415-aaee9cd6ee0c">WinUsb_GetAssociatedInterface</a>.
+To read data from the pipe associated with an endpoint in the first interface, use the handle returned by <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>. For all other interfaces, use the handle to the target interface, retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_getassociatedinterface">WinUsb_GetAssociatedInterface</a>.
 
 
 ### -param PipeID [in]
@@ -123,7 +123,7 @@ The caller passed <b>NULL</b> in the  <i>InterfaceHandle</i> parameter.
 </dl>
 </td>
 <td width="60%">
-An overlapped I/O operation is in progress but has not completed.  If the overlapped operation cannot be completed immediately, the function returns <b>FALSE</b> and the <b>GetLastError</b> function returns ERROR_IO_PENDING, indicating that the operation is executing in the background. Call <a href="https://msdn.microsoft.com/e6078b1f-0921-4e1f-a444-f8a1481c8f8a">WinUsb_GetOverlappedResult</a> to check the success or failure of the operation.
+An overlapped I/O operation is in progress but has not completed.  If the overlapped operation cannot be completed immediately, the function returns <b>FALSE</b> and the <b>GetLastError</b> function returns ERROR_IO_PENDING, indicating that the operation is executing in the background. Call <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_getoverlappedresult">WinUsb_GetOverlappedResult</a> to check the success or failure of the operation.
 
 </td>
 </tr>
@@ -145,7 +145,7 @@ There is insufficient memory to perform the operation.
 </dl>
 </td>
 <td width="60%">
-The read operation initiated by <a href="https://msdn.microsoft.com/936e535b-9084-4e3d-908e-0e965f658827">WinUsb_ReadPipe</a>  in the USB stack timed out before the operation could be completed.
+The read operation initiated by <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_readpipe">WinUsb_ReadPipe</a>  in the USB stack timed out before the operation could be completed.
 
 </td>
 </tr>
@@ -159,13 +159,13 @@ The read operation initiated by <a href="https://msdn.microsoft.com/936e535b-908
 
 
 
-If the data returned by the device is greater than a maximum transfer length, WinUSB divides the request into smaller requests of maximum transfer length and submits them serially. If the transfer length is not a multiple of the endpoint's maximum packet size (retrievable through  the <a href="https://msdn.microsoft.com/59e1d5e3-8c42-4f2f-b9a4-c637206d5494">WINUSB_PIPE_INFORMATION</a> structure's <b>MaximumPacketSize</b> member), WinUSB increases the size of the transfer to the next multiple of <b>MaximumPacketSize</b>.
+If the data returned by the device is greater than a maximum transfer length, WinUSB divides the request into smaller requests of maximum transfer length and submits them serially. If the transfer length is not a multiple of the endpoint's maximum packet size (retrievable through  the <a href="https://docs.microsoft.com/windows/desktop/api/winusbio/ns-winusbio-_winusb_pipe_information">WINUSB_PIPE_INFORMATION</a> structure's <b>MaximumPacketSize</b> member), WinUSB increases the size of the transfer to the next multiple of <b>MaximumPacketSize</b>.
 
-USB packet size does not factor into the transfer for a read request. If the device responds with a packet that is too large for the client buffer, the behavior of the read request corresponds to the type of policy set on the pipe. If policy type for the pipe is ALLOW_PARTIAL_READS, WinUSB adds the remaining data to the beginning of the next transfer. If ALLOW_PARTIAL_READS is not set, the read request fails. For more information about policy types, see <a href="https://msdn.microsoft.com/fc7d8916-63ab-45a2-a786-8da8e9f3fe56">WinUSB Functions for Pipe Policy Modification</a>.
+USB packet size does not factor into the transfer for a read request. If the device responds with a packet that is too large for the client buffer, the behavior of the read request corresponds to the type of policy set on the pipe. If policy type for the pipe is ALLOW_PARTIAL_READS, WinUSB adds the remaining data to the beginning of the next transfer. If ALLOW_PARTIAL_READS is not set, the read request fails. For more information about policy types, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WinUSB Functions for Pipe Policy Modification</a>.
 
 If an application passes <b>NULL</b> in the <i>Overlapped</i> parameter (synchronous operation), the application must make sure that <i>LengthTransferred</i> is not <b>NULL</b>, even when the read  operation produces no output data.
 
-If <i>Overlapped</i> is not <b>NULL</b> (asynchronous operation),  <i>LengthTransferred</i> can be set to <b>NULL</b>. For an overlapped operation (and if <i>LengthTransferred</i> is a non-<b>NULL</b> value), the value received in <i>LengthTransferred</i> after <b>WinUsb_ReadPipe</b> returns is meaningless until the overlapped operation has completed. To retrieve the actual number of bytes read from the pipe, call <a href="https://msdn.microsoft.com/e6078b1f-0921-4e1f-a444-f8a1481c8f8a">WinUsb_GetOverlappedResult</a>.
+If <i>Overlapped</i> is not <b>NULL</b> (asynchronous operation),  <i>LengthTransferred</i> can be set to <b>NULL</b>. For an overlapped operation (and if <i>LengthTransferred</i> is a non-<b>NULL</b> value), the value received in <i>LengthTransferred</i> after <b>WinUsb_ReadPipe</b> returns is meaningless until the overlapped operation has completed. To retrieve the actual number of bytes read from the pipe, call <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_getoverlappedresult">WinUsb_GetOverlappedResult</a>.
 
 When no data is available in the endpoint (pipe is empty), <b>WinUsb_ReadPipe</b> does not return until there is data in the pipe. If an error condition occurs or the application-specified timeout expires,   <b>WinUsb_ReadPipe</b> always returns FALSE. To determine the actual reason for that return value, always call <b>GetLastError</b>. For example, in these cases the <b>GetLastError</b> error value indicates the actual reason: <ul>
 <li>If the application specified a timeout value in the pipe policy and that timeout expires, <b>WinUsb_ReadPipe</b> returns  FALSE and <b>GetLastError</b> returns ERROR_SEM_TIMEOUT.</li>
@@ -181,7 +181,7 @@ When no data is available in the endpoint (pipe is empty), <b>WinUsb_ReadPipe</b
 
 
 
-<a href="https://msdn.microsoft.com/8234d0b4-2c73-45fa-a8bf-566c64cc2858">WinUSB</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WinUSB</a>
 
 
 
@@ -189,7 +189,7 @@ When no data is available in the endpoint (pipe is empty), <b>WinUsb_ReadPipe</b
 
 
 
-<a href="https://msdn.microsoft.com/258cf508-036a-4ade-95b2-4b36d1149ffd">WinUsb_Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>
  
 
  

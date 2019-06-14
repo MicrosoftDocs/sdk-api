@@ -59,7 +59,7 @@ Sets the mode for the composite effect.
 
 ### -param mode [in]
 
-Type: <b><a href="https://msdn.microsoft.com/60B878E9-1BC6-40D4-ADE3-4BBD5C822C55">D2D1_COMPOSITE_MODE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/composite">D2D1_COMPOSITE_MODE</a></b>
 
 The mode for the composite effect.
 
@@ -68,7 +68,7 @@ The mode for the composite effect.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/72647FCE-F1B0-4A50-927B-23EE38EEEC8B">IDCompositionCompositeEffect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositioncompositeeffect">IDCompositionCompositeEffect</a>
  
 
  

@@ -60,12 +60,12 @@ The <b>CertVerifyValidityNesting</b> function verifies that a subject certificat
 ### -param pSubjectInfo [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/8d0a3053-52d4-437a-bf55-6724b5825cdc">CERT_INFO</a> structure of the subject certificate.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info">CERT_INFO</a> structure of the subject certificate.
 
 
 ### -param pIssuerInfo [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/8d0a3053-52d4-437a-bf55-6724b5825cdc">CERT_INFO</a> structure of the issuer certificate.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info">CERT_INFO</a> structure of the issuer certificate.
 
 
 ## -returns
@@ -82,19 +82,19 @@ Returns <b>TRUE</b> if the <b>NotBefore</b> time of the subject's certificate is
 
 
 
-<a href="https://msdn.microsoft.com/a46ac5b5-bc44-4857-a7fb-4f35d438e3f7">CertVerifyCRLRevocation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycrlrevocation">CertVerifyCRLRevocation</a>
 
 
 
-<a href="https://msdn.microsoft.com/ff321fe8-df45-4a1d-b626-055fb0696438">CertVerifyCRLTimeValidity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycrltimevalidity">CertVerifyCRLTimeValidity</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ccf9230-e998-4f82-9db0-6cbaa1c36850">CertVerifyTimeValidity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifytimevalidity">CertVerifyTimeValidity</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>
  
 
  

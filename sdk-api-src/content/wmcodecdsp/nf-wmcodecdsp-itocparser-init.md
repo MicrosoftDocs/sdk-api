@@ -106,7 +106,7 @@ The path that you pass in <i>pwszFileName</i> must be a long Universal Naming Co
 
 
 
-<a href="https://msdn.microsoft.com/d1f14a6e-d75c-4266-beff-0e9af911edfe">ITocParser</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocparser">ITocParser</a>
  
 
  

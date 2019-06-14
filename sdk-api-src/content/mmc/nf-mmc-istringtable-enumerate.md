@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IStringTable::Enumerate</b> method supplies a pointer to an <a href="https://msdn.microsoft.com/7f3e642a-17c7-4646-8c70-da6b0946a415">IEnumString</a> interface on an enumerator that can return the strings in a snap-in's string table. The <a href="https://msdn.microsoft.com/7f3e642a-17c7-4646-8c70-da6b0946a415">IEnumString</a> interface is a standard COM interface.
+The <b>IStringTable::Enumerate</b> method supplies a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a> interface on an enumerator that can return the strings in a snap-in's string table. The <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a> interface is a standard COM interface.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>IStringTable::Enumerate</b> method supplies a pointer to an <a href="http
 
 ### -param ppEnum [out]
 
-The address of <a href="https://msdn.microsoft.com/7f3e642a-17c7-4646-8c70-da6b0946a415">IEnumString</a>* pointer variable that receives the interface pointer to the enumerator. If an error occurs, *<i>ppEnum</i> is set to <b>NULL</b>. If *<i>ppEnum </i>is non-<b>NULL</b>, MMC's implementation of <b>IEnumString</b> calls <a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63">IUnknown::AddRef</a> on the *<i>ppEnum</i>. The snap-in must call <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a> when the interface is no longer required.
+The address of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a>* pointer variable that receives the interface pointer to the enumerator. If an error occurs, *<i>ppEnum</i> is set to <b>NULL</b>. If *<i>ppEnum </i>is non-<b>NULL</b>, MMC's implementation of <b>IEnumString</b> calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a> on the *<i>ppEnum</i>. The snap-in must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> when the interface is no longer required.
 
 
 ## -returns
@@ -75,9 +75,9 @@ This method can return one of these values.
 
 
 
-The returned <a href="https://msdn.microsoft.com/7f3e642a-17c7-4646-8c70-da6b0946a415">IEnumString</a> enumeration represents a snapshot of the collection of strings in the underlying string table the time that the enumeration was retrieved. Neither <a href="https://msdn.microsoft.com/6f134738-b5ed-4f45-bf91-eeb28c8965c6">IEnumString::Reset</a>, nor IEnumString::Clone takes a new snapshot of the collection.
+The returned <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a> enumeration represents a snapshot of the collection of strings in the underlying string table the time that the enumeration was retrieved. Neither <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumstring-reset">IEnumString::Reset</a>, nor IEnumString::Clone takes a new snapshot of the collection.
 
-The implementation of <a href="https://msdn.microsoft.com/7f3e642a-17c7-4646-8c70-da6b0946a415">IEnumString</a> uses the default OLE task memory allocator to allocate memory for the strings it returns.
+The implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a> uses the default OLE task memory allocator to allocate memory for the strings it returns.
 
 
 
@@ -87,11 +87,11 @@ The implementation of <a href="https://msdn.microsoft.com/7f3e642a-17c7-4646-8c7
 
 
 
-<a href="https://msdn.microsoft.com/3b4cfc92-4f50-4b62-bb2c-77c8e0e003da">IStringTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-istringtable">IStringTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/c239618d-ed27-4d73-9e88-7323960a0e68">IStringTable::FindString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-istringtable-findstring">IStringTable::FindString</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>HTTP_RESPONSE_INFO</b> structure extends the <a href="https://msdn.microsoft.com/F94646C0-7293-4543-842B-F08D8C7E2247">HTTP_RESPONSE</a> structure  with additional information for the response.
+The <b>HTTP_RESPONSE_INFO</b> structure extends the <a href="https://docs.microsoft.com/windows/desktop/Http/http-response">HTTP_RESPONSE</a> structure  with additional information for the response.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ The <b>HTTP_RESPONSE_INFO</b> structure extends the <a href="https://msdn.micros
 
 ### -field Type
 
-A member of the <a href="https://msdn.microsoft.com/2f85e8dd-1693-4a54-a38f-9b70b2a46361">HTTP_RESPONSE_INFO_TYPE</a> enumeration specifying the type of information contained in this structure.
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_response_info_type">HTTP_RESPONSE_INFO_TYPE</a> enumeration specifying the type of information contained in this structure.
 
 
 ### -field Length
@@ -69,7 +69,7 @@ The length, in bytes, of the <b>pInfo</b> member.
 
 ### -field pInfo
 
-A pointer to the <a href="https://msdn.microsoft.com/b5e68d55-43a4-422f-b7e3-163739628720">HTTP_MULTIPLE_KNOWN_HEADERS</a> structure when the <b>InfoType</b> member is <b>HttpResponseInfoTypeMultipleKnownHeaders</b>; otherwise <b>NULL</b>.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_multiple_known_headers">HTTP_MULTIPLE_KNOWN_HEADERS</a> structure when the <b>InfoType</b> member is <b>HttpResponseInfoTypeMultipleKnownHeaders</b>; otherwise <b>NULL</b>.
 
 
 ## -remarks
@@ -86,15 +86,15 @@ Starting with the HTTP Server API version 2.0, the HTTP_RESPONSE structure is ex
 
 
 
-<a href="https://msdn.microsoft.com/5a8e28e9-f85b-4550-929e-53f38eca6a8c">HTTP Server API Version 2.0 Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-structures">HTTP Server API Version 2.0 Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/F94646C0-7293-4543-842B-F08D8C7E2247">HTTP_RESPONSE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-response">HTTP_RESPONSE</a>
 
 
 
-<a href="https://msdn.microsoft.com/1900741e-f466-4826-b376-36170176c30a">HTTP_RESPONSE_V2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_response_v2">HTTP_RESPONSE_V2</a>
  
 
  

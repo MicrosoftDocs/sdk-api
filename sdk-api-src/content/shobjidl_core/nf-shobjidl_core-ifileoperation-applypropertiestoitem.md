@@ -59,7 +59,7 @@ Declares a single item whose property values are to be set.
 
 ### -param psiItem [in]
 
-Type: <b><a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
 Pointer to the item to receive the new property values.
 
@@ -84,9 +84,9 @@ This method does not apply the properties to the item, it merely declares the it
                 
 
 <ol>
-<li>Call <a href="https://msdn.microsoft.com/b54efc12-42e9-4a90-a4d9-0e75bcdba0d6">IFileOperation::SetProperties</a> to declare the specific properties to be set and their new values.</li>
+<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-setproperties">IFileOperation::SetProperties</a> to declare the specific properties to be set and their new values.</li>
 <li>Call <b>IFileOperation::ApplyPropertiesToItem</b> to declare the item whose properties are to be set.</li>
-<li>Call <a href="https://msdn.microsoft.com/eceb5f0a-ad9a-4b7a-9656-c10e0420a96a">IFileOperation::PerformOperations</a> to apply the properties to the item.</li>
+<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-performoperations">IFileOperation::PerformOperations</a> to apply the properties to the item.</li>
 </ol>
 
 
@@ -96,11 +96,11 @@ This method does not apply the properties to the item, it merely declares the it
 
 
 
-<a href="https://msdn.microsoft.com/6596607e-0699-4eb6-b0d6-7cc2e5eb49c7">IFileOperation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation">IFileOperation</a>
 
 
 
-<a href="https://msdn.microsoft.com/d24aa63e-99ef-470c-9723-e561ee0a56bc">IFileOperation::ApplyPropertiesToItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-applypropertiestoitems">IFileOperation::ApplyPropertiesToItems</a>
  
 
  

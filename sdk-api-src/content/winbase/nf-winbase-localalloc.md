@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 Allocates the specified number of bytes from the heap.
 <div class="alert"><b>Note</b>  The local functions have greater overhead and provide fewer features than other memory management functions. New applications should use the 
-<a href="https://msdn.microsoft.com/cfb683fa-4f46-48b5-9a28-f4625a9cb8cd">heap functions</a> unless documentation states that a local function should be used. For more information, see <a href="https://msdn.microsoft.com/97707ce7-4c65-4d0e-ba69-47fdaee73a9b">Global and Local Functions</a>.</div><div> </div>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">heap functions</a> unless documentation states that a local function should be used. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>.</div><div> </div>
 
 ## -parameters
 
@@ -111,7 +111,7 @@ Allocates movable memory. Memory blocks are never moved in physical memory, but 
 
 
 The return value is a handle to the memory object. To translate the handle to a pointer, use the 
-<a href="https://msdn.microsoft.com/a9432e28-9fbd-4a7e-8dce-fad3da04804a">LocalLock</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-locallock">LocalLock</a> function.
 
 This value cannot be combined with <b>LMEM_FIXED</b>.
 
@@ -182,7 +182,7 @@ The number of bytes to allocate. If this parameter is zero and the <i>uFlags</i>
 If the function succeeds, the return value is a handle to the newly allocated memory object.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -191,26 +191,26 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-Windows memory management does not provide a separate local heap and global heap. Therefore, the <b>LocalAlloc</b> and <a href="https://msdn.microsoft.com/06886545-bd5c-4d81-b1c3-dfa7e146e43a">GlobalAlloc</a> functions are essentially the same. 
+Windows memory management does not provide a separate local heap and global heap. Therefore, the <b>LocalAlloc</b> and <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> functions are essentially the same. 
 
 The movable-memory flags <b>LHND</b>, <b>LMEM_MOVABLE</b>, and <b>NONZEROLHND</b> add unnecessary overhead and require locking to be used safely. They should be avoided unless documentation specifically states that they should be used.
 
 New applications should use the 
-<a href="https://msdn.microsoft.com/cfb683fa-4f46-48b5-9a28-f4625a9cb8cd">heap functions</a> unless the documentation specifically states that a local function should be used. For example, some Windows functions allocate memory that must be freed with <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">heap functions</a> unless the documentation specifically states that a local function should be used. For example, some Windows functions allocate memory that must be freed with <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>.
 
 If the heap does not contain sufficient free space to satisfy the request, 
 <b>LocalAlloc</b> returns <b>NULL</b>. Because <b>NULL</b> is used to indicate an error, virtual address zero is never allocated. It is, therefore, easy to detect the use of a <b>NULL</b> pointer.
 
 If the <b>LocalAlloc</b> function succeeds, it allocates at least the amount requested. If the amount allocated is greater than the amount requested, the process can use the entire amount. To determine the actual number of bytes allocated, use the 
-<a href="https://msdn.microsoft.com/d1337845-d89c-4cd5-a584-36fe0c682c1a">LocalSize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localsize">LocalSize</a> function.
 
 To free the memory, use the 
-<a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a> function. It is not safe to free memory allocated with <b>LocalAlloc</b> using <a href="https://msdn.microsoft.com/5fe910ac-f857-45ca-9c0f-4f9ba3c5e61b">GlobalFree</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function. It is not safe to free memory allocated with <b>LocalAlloc</b> using <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalfree">GlobalFree</a>.
 
 
 #### Examples
 
-The following code shows a simple use of <b>LocalAlloc</b> and <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a>.
+The following code shows a simple use of <b>LocalAlloc</b> and <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>.
 
 
 ```cpp
@@ -253,31 +253,31 @@ void _cdecl _tmain()
 
 
 
-<a href="https://msdn.microsoft.com/97707ce7-4c65-4d0e-ba69-47fdaee73a9b">Global and Local Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/cfb683fa-4f46-48b5-9a28-f4625a9cb8cd">Heap Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">Heap Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>
 
 
 
-<a href="https://msdn.microsoft.com/a9432e28-9fbd-4a7e-8dce-fad3da04804a">LocalLock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-locallock">LocalLock</a>
 
 
 
-<a href="https://msdn.microsoft.com/88527ddd-e0c2-4a41-825e-d3a6df77fd2a">LocalReAlloc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localrealloc">LocalReAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/d1337845-d89c-4cd5-a584-36fe0c682c1a">LocalSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localsize">LocalSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a2a7a62-0bda-4a0d-93d2-25b4898871fd">Memory
+<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
     Management Functions</a>
  
 

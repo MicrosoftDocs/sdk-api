@@ -63,7 +63,7 @@ The <code>GetAllocator</code> method retrieves the memory allocator proposed by 
 
 ### -param ppAllocator [out]
 
-Receives a pointer to the allocator's <a href="https://msdn.microsoft.com/77a161c4-706c-4270-a343-9e16c03cd590">IMemAllocator</a> interface. The caller must release the interface.
+Receives a pointer to the allocator's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imemallocator">IMemAllocator</a> interface. The caller must release the interface.
 
 
 ## -returns
@@ -109,7 +109,7 @@ No allocator is available.
 
 
 
-When an output pin connects to an input pin, it negotiates with the input pin to decide on a memory allocator. The output pin calls this method to retrieve the input pin's proposed allocator. It calls the <a href="https://msdn.microsoft.com/dbc9c0ce-3e9c-4402-9d3e-1c7295e94ad9">IMemInputPin::NotifyAllocator</a> method to specify which allocator it selected.
+When an output pin connects to an input pin, it negotiates with the input pin to decide on a memory allocator. The output pin calls this method to retrieve the input pin's proposed allocator. It calls the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imeminputpin-notifyallocator">IMemInputPin::NotifyAllocator</a> method to specify which allocator it selected.
 
 If this method succeeds, the <b>IMemAllocator</b> interface has an outstanding reference count. Be sure to release it when you are done.
 
@@ -121,11 +121,11 @@ If this method succeeds, the <b>IMemAllocator</b> interface has an outstanding r
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4407c6f-6bb5-4274-920b-8bf7d76268bc">IMemInputPin Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imeminputpin">IMemInputPin Interface</a>
  
 
  

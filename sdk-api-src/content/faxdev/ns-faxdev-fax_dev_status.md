@@ -61,14 +61,14 @@ The <b>FAX_DEV_STATUS</b> structure contains status and identification informati
 
 Type: <b>DWORD</b>
 
-Specifies the size, in bytes, of the <b>FAX_DEV_STATUS</b> structure. Before responding to the <a href="https://msdn.microsoft.com/en-us/library/ms684542(v=VS.85).aspx">FaxDevReportStatus</a> function, the FSP must set this member to <b>sizeof</b>(<b>FAX_DEV_STATUS</b>).
+Specifies the size, in bytes, of the <b>FAX_DEV_STATUS</b> structure. Before responding to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevreportstatus">FaxDevReportStatus</a> function, the FSP must set this member to <b>sizeof</b>(<b>FAX_DEV_STATUS</b>).
 
 
 ### -field StatusId
 
 Type: <b>DWORD</b>
 
-Specifies a fax status code or value. This can be a predefined fax status code (shown following), one of the TAPI <a href="https://msdn.microsoft.com/bdaf60d1-6ff2-4bd6-b246-8556d6cae644">LINEERR_ Constants</a> error codes, or a value that the FSP defines. If the status identifier is provider-defined, the FSP must also supply a value for the <b>StringId</b> member. Following are the predefined fax status codes.
+Specifies a fax status code or value. This can be a predefined fax status code (shown following), one of the TAPI <a href="https://docs.microsoft.com/windows/desktop/Tapi/lineerr--constants">LINEERR_ Constants</a> error codes, or a value that the FSP defines. If the status identifier is provider-defined, the FSP must also supply a value for the <b>StringId</b> member. Following are the predefined fax status codes.
 
 
 
@@ -135,7 +135,7 @@ Specifies a fax status code or value. This can be a predefined fax status code (
 </tr>
 <tr>
 <td>FS_USER_ABORT</td>
-<td>The FSP has canceled the transmission. Cancellation can result from a call to the <a href="https://msdn.microsoft.com/en-us/library/ms684537(v=VS.85).aspx">FaxDevAbortOperation</a> function. FSPs can also provide a UI for cancellation of fax transmissions.</td>
+<td>The FSP has canceled the transmission. Cancellation can result from a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevabortoperation">FaxDevAbortOperation</a> function. FSPs can also provide a UI for cancellation of fax transmissions.</td>
 </tr>
 <tr>
 <td>FS_ANSWERED</td>
@@ -172,7 +172,7 @@ Specifies the number of the page in the fax transmission that the FSP is receivi
 
 Type: <b>LPWSTR</b>
 
-Pointer to a null-terminated Unicode character string that specifies an identifier of the remote fax device that is connected with the current call to either the <a href="https://msdn.microsoft.com/en-us/library/ms684535(v=VS.85).aspx">FaxDevReceive</a> or <a href="https://msdn.microsoft.com/en-us/library/ms684544(v=VS.85).aspx">FaxDevSend</a> function.
+Pointer to a null-terminated Unicode character string that specifies an identifier of the remote fax device that is connected with the current call to either the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevreceive">FaxDevReceive</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevsend">FaxDevSend</a> function.
 				
 
 If the operation is sending a fax, the identifier specifies the CSID of the remote device; if the operation is receiving a fax, the identifier specifies the TSID of the remote device.
@@ -198,7 +198,7 @@ Pointer to a null-terminated Unicode character string that specifies the routing
 
 
 
-where <code>Canonical-Phone-Number</code> is defined in the <a href="https://msdn.microsoft.com/en-us/library/ms726017(v=VS.85).aspx">Address</a> topic of the TAPI documentation (see the Canonical Address subheading); and <code>Additional-Routing-Info</code> is the <i>subaddress</i> of a Canonical Address, and uses the subaddress format.
+where <code>Canonical-Phone-Number</code> is defined in the <a href="https://docs.microsoft.com/windows/desktop/Tapi/address-ovr">Address</a> topic of the TAPI documentation (see the Canonical Address subheading); and <code>Additional-Routing-Info</code> is the <i>subaddress</i> of a Canonical Address, and uses the subaddress format.
 				
 
 
@@ -221,7 +221,7 @@ For more information, see the Dialable Address and Canonical Address subheadings
 
 Type: <b>DWORD</b>
 
-Specifies one of the Win32 <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes [Base]</a> that the FSP should use to report an error that occurs. The FSP should set this value to NO_ERROR when it is running and after a fax job completes normally.
+Specifies one of the Win32 <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes [Base]</a> that the FSP should use to report an error that occurs. The FSP should set this value to NO_ERROR when it is running and after a fax job completes normally.
 
 
 ### -field Reserved
@@ -254,23 +254,23 @@ The fax service allocates the memory for the strings pointed to by the <b>CSI</b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684540(v=VS.85).aspx">Fax Service Provider Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-provider-structures">Fax Service Provider Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684535(v=VS.85).aspx">FaxDevReceive</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevreceive">FaxDevReceive</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684542(v=VS.85).aspx">FaxDevReportStatus</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevreportstatus">FaxDevReportStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684544(v=VS.85).aspx">FaxDevSend</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevsend">FaxDevSend</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693428(v=VS.85).aspx">Using the Fax Service Provider API</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-using-the-fax-service-provider-api">Using the Fax Service Provider API</a>
  
 
  

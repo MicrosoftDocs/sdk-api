@@ -82,15 +82,15 @@ Indicates that the specified record is expired and removed from the peer graph o
 
 
 
-<a href="https://msdn.microsoft.com/01404fff-3488-43aa-bc59-3e08ff925ea5">PEER_EVENT_RECORD_CHANGE_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_record_change_data_tag">PEER_EVENT_RECORD_CHANGE_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/454b40f6-a7de-4b59-ae35-a809c4510133">PFNPEER_SECURE_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nc-p2p-pfnpeer_secure_record">PFNPEER_SECURE_RECORD</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d81f09b-e46b-43e6-b0a8-ed7c236f2968">PFNPEER_VALIDATE_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nc-p2p-pfnpeer_validate_record">PFNPEER_VALIDATE_RECORD</a>
  
 
  

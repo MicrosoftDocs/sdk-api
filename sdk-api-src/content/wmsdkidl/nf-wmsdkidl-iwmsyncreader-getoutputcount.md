@@ -132,15 +132,15 @@ To enumerate the outputs, call <b>GetOutputCount</b> to get the number of output
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798576(v=VS.85).aspx">IWMSyncReader Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798592(v=VS.85).aspx">IWMSyncReader::GetOutputProps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getoutputprops">IWMSyncReader::GetOutputProps</a>
 
 
 
-<a href="https://msdn.microsoft.com/f9f979c4-a15c-4f2a-b63c-7fe776394fdd">Inputs, Streams and Outputs</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/inputs-streams-and-outputs">Inputs, Streams and Outputs</a>
  
 
  

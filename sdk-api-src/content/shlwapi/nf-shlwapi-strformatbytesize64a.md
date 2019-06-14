@@ -94,7 +94,7 @@ Returns a pointer to the converted string, or <b>NULL</b> if the conversion fail
 
 
 
-<b>StrFormatByteSize64</b> can be used for either ANSI or Unicode characters. However, while <b>StrFormatByteSize64A</b> can be called directly, <b>StrFormatByteSize64W</b> is not defined. When <b>StrFormatByteSize64</b> is called with a Unicode value, <a href="https://msdn.microsoft.com/00192755-9135-4193-90bc-6e312b294007">StrFormatByteSizeW</a> is used.
+<b>StrFormatByteSize64</b> can be used for either ANSI or Unicode characters. However, while <b>StrFormatByteSize64A</b> can be called directly, <b>StrFormatByteSize64W</b> is not defined. When <b>StrFormatByteSize64</b> is called with a Unicode value, <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizew">StrFormatByteSizeW</a> is used.
 
 In Windows 10, size is reported in base 10 rather than  base 2. For example, 1 KB is 1000 bytes rather than 1024.
 
@@ -136,11 +136,11 @@ The following table illustrates how this function converts a numeric value into 
 
 
 
-<a href="https://msdn.microsoft.com/244f93cb-0976-4a31-958c-ae0ed81c1dcf">StrFormatByteSizeA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizea">StrFormatByteSizeA</a>
 
 
 
-<a href="https://msdn.microsoft.com/00192755-9135-4193-90bc-6e312b294007">StrFormatByteSizeW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizew">StrFormatByteSizeW</a>
  
 
  

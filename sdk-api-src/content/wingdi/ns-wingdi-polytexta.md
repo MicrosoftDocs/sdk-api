@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 
-The <b>POLYTEXT</b> structure describes how the <a href="https://msdn.microsoft.com/643b4f6a-843f-4795-adc8-a90223bdc246">PolyTextOut</a> function should draw a string of text.
+The <b>POLYTEXT</b> structure describes how the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polytextouta">PolyTextOut</a> function should draw a string of text.
 
 
 
@@ -74,12 +74,12 @@ The vertical reference point for the string. The string is aligned to this point
 
 ### -field n
 
-The <a href="https://msdn.microsoft.com/695fd0f9-abd4-4666-acad-2c409624ddc6">length of the string</a> pointed to by <b>lpstr</b>.
+The <a href="https://docs.microsoft.com/windows/desktop/gdi/specifying-length-of-text-output-string">length of the string</a> pointed to by <b>lpstr</b>.
 
 
 ### -field lpstr
 
-Pointer to a string of text to be drawn by the <a href="https://msdn.microsoft.com/643b4f6a-843f-4795-adc8-a90223bdc246">PolyTextOut</a> function. This string need not be null-terminated, since <b>n</b> specifies the length of the string.
+Pointer to a string of text to be drawn by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polytextouta">PolyTextOut</a> function. This string need not be null-terminated, since <b>n</b> specifies the length of the string.
 
 
 ### -field uiFlags
@@ -118,15 +118,15 @@ Pointer to an array containing the width value for each character in the string.
 
 
 
-<a href="https://msdn.microsoft.com/93726d5c-d4ed-4681-bf45-cb899f195b5d">Font and Text Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/9944baa9-8e50-40b9-9650-78b0b1d7643a">Fonts and Text Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/643b4f6a-843f-4795-adc8-a90223bdc246">PolyTextOut</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polytextouta">PolyTextOut</a>
  
 
  

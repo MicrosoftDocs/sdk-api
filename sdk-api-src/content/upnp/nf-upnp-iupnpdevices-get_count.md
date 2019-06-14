@@ -77,7 +77,7 @@ For C++: If this property's "get" method succeeds, the return value is S_OK. Oth
 
 
 
-<a href="https://msdn.microsoft.com/237715dc-2b5a-45b4-b006-d31c0b4e89e3">IUPnPDevices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevices">IUPnPDevices</a>
  
 
  

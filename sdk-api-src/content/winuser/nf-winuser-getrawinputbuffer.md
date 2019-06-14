@@ -61,21 +61,21 @@ Performs a buffered read of the raw input data.
 
 Type: <b>PRAWINPUT</b>
 
-A pointer to a buffer of <a href="https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx">RAWINPUT</a> structures that contain the raw input data. If <b>NULL</b>, the minimum required buffer, in bytes, is returned in *<i>pcbSize</i>. 
+A pointer to a buffer of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinput">RAWINPUT</a> structures that contain the raw input data. If <b>NULL</b>, the minimum required buffer, in bytes, is returned in *<i>pcbSize</i>. 
 
 
 ### -param pcbSize [in, out]
 
 Type: <b>PUINT</b>
 
-The size, in bytes, of a <a href="https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx">RAWINPUT</a> structure. 
+The size, in bytes, of a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinput">RAWINPUT</a> structure. 
 
 
 ### -param cbSizeHeader [in]
 
 Type: <b>UINT</b>
 
-The size, in bytes, of the <a href="https://msdn.microsoft.com/en-us/library/ms645571(v=VS.85).aspx">RAWINPUTHEADER</a> structure. 
+The size, in bytes, of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinputheader">RAWINPUTHEADER</a> structure. 
 
 
 ## -returns
@@ -86,10 +86,10 @@ Type: <b>UINT</b>
 
 If 
 						<i>pData</i> is NULL and the function is successful, the return value is zero. If 
-						<i>pData</i> is not NULL and the function is successful, the return value is the number of <a href="https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx">RAWINPUT</a> structures written to 
+						<i>pData</i> is not NULL and the function is successful, the return value is the number of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinput">RAWINPUT</a> structures written to 
 						<i>pData</i>.
 
-If an error occurs, the return value is (<b>UINT</b>)-1. Call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> for the error code.
+If an error occurs, the return value is (<b>UINT</b>)-1. Call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for the error code.
 
 
 
@@ -98,11 +98,11 @@ If an error occurs, the return value is (<b>UINT</b>)-1. Call <a href="https://m
 
 
 
-Using <b>GetRawInputBuffer</b>, the raw input data is buffered in the array of <a href="https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx">RAWINPUT</a> structures. For an unbuffered read, use the <a href="https://msdn.microsoft.com/en-us/library/ms644936(v=VS.85).aspx">GetMessage</a> function to read in the raw input data. 
+Using <b>GetRawInputBuffer</b>, the raw input data is buffered in the array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinput">RAWINPUT</a> structures. For an unbuffered read, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a> function to read in the raw input data. 
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms645593(v=VS.85).aspx">NEXTRAWINPUTBLOCK</a> macro allows an application to traverse an array of <a href="https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx">RAWINPUT</a> structures.
+The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-nextrawinputblock">NEXTRAWINPUTBLOCK</a> macro allows an application to traverse an array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinput">RAWINPUT</a> structures.
 
-<div class="alert"><b>Note</b>  To get the correct size of the raw input buffer, do not use *<i>pcbSize</i>, use *<i>pcbSize</i> * 8 instead.   To ensure <b>GetRawInputBuffer</b> behaves properly on WOW64, you must align the <a href="https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx">RAWINPUT</a> structure by 8 bytes. The following code shows how to align <b>RAWINPUT</b>  for WOW64.  
+<div class="alert"><b>Note</b>  To get the correct size of the raw input buffer, do not use *<i>pcbSize</i>, use *<i>pcbSize</i> * 8 instead.   To ensure <b>GetRawInputBuffer</b> behaves properly on WOW64, you must align the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinput">RAWINPUT</a> structure by 8 bytes. The following code shows how to align <b>RAWINPUT</b>  for WOW64.  
 
 
 ```
@@ -139,23 +139,23 @@ internal struct RAWINPUT
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644936(v=VS.85).aspx">GetMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645593(v=VS.85).aspx">NEXTRAWINPUTBLOCK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-nextrawinputblock">NEXTRAWINPUTBLOCK</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx">RAWINPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinput">RAWINPUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645571(v=VS.85).aspx">RAWINPUTHEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinputheader">RAWINPUTHEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645536(v=VS.85).aspx">Raw Input</a>
+<a href="https://docs.microsoft.com/windows/desktop/inputdev/raw-input">Raw Input</a>
 
 
 

@@ -50,12 +50,12 @@ ms.custom: 19H1
 
 
 Adds multiple quota user objects to a container that is then submitted for update in a single call. This reduces the number of calls to the underlying file system, improving update efficiency when a large number of user objects must be updated. This interface is instantiated by using the 
-<a href="https://msdn.microsoft.com/c1c5a71f-4a2f-4bf9-b28f-11b87a558771">IDiskQuotaControl::CreateUserBatch</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-createuserbatch">IDiskQuotaControl::CreateUserBatch</a> method.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiskQuotaUserBatch</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDiskQuotaUserBatch</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiskQuotaUserBatch</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDiskQuotaUserBatch</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,16 +70,16 @@ The <b>IDiskQuotaUserBatch</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8b0876d2-55ba-4eaa-b317-8ea1d2f5ff4f">Add</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauserbatch-add">Add</a>
 </td>
 <td align="left" width="63%">
-Adds an <a href="https://msdn.microsoft.com/27edbebc-35b4-4f6a-87cc-d8a99782f405">IDiskQuotaUser</a> pointer to the batch list.
+Adds an <a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> pointer to the batch list.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2d147224-64d8-4c15-b860-e6dd216cb170">FlushToDisk</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauserbatch-flushtodisk">FlushToDisk</a>
 </td>
 <td align="left" width="63%">
 Writes user object changes to disk in a single call to the underlying file system.
@@ -88,19 +88,19 @@ Writes user object changes to disk in a single call to the underlying file syste
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/102e9a07-9958-4d47-acd3-6b81e83a5ea7">Remove</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauserbatch-remove">Remove</a>
 </td>
 <td align="left" width="63%">
-Removes an <a href="https://msdn.microsoft.com/27edbebc-35b4-4f6a-87cc-d8a99782f405">IDiskQuotaUser</a> pointer from the batch list.
+Removes an <a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> pointer from the batch list.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f3c791a9-4976-4e04-903f-a1afffd01f7c">RemoveAll</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauserbatch-removeall">RemoveAll</a>
 </td>
 <td align="left" width="63%">
-Removes all <a href="https://msdn.microsoft.com/27edbebc-35b4-4f6a-87cc-d8a99782f405">IDiskQuotaUser</a> pointers from the batch list.
+Removes all <a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> pointers from the batch list.
 
 </td>
 </tr>
@@ -112,11 +112,11 @@ Removes all <a href="https://msdn.microsoft.com/27edbebc-35b4-4f6a-87cc-d8a99782
 
 
 
-<a href="https://msdn.microsoft.com/c1f79e2e-834b-41dc-a15f-6dd1034d021b">Disk Management Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/42efbd5b-6455-4319-a76e-cdb666fc36b8">Disk Quotas</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
  
 
  

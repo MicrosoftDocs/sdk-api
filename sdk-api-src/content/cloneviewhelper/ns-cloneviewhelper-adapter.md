@@ -69,7 +69,7 @@ The number of video present sources in the array that the <b>sources</b> member 
 
 ### -field sources
 
-An array of <a href="https://msdn.microsoft.com/5fbb12bc-d6e0-4cb7-b9d7-4e28ad85eca2">Sources</a> structures that specify a list of Video Present Network (VidPN) topologies. 
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-tagsources">Sources</a> structures that specify a list of Video Present Network (VidPN) topologies. 
 
 
 ## -see-also
@@ -77,11 +77,11 @@ An array of <a href="https://msdn.microsoft.com/5fbb12bc-d6e0-4cb7-b9d7-4e28ad85
 
 
 
-<a href="https://msdn.microsoft.com/8ec09950-afb6-43ff-8e05-4c801e49ba4b">IViewHelper::SetConfiguration</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff568176(v=vs.85)">IViewHelper::SetConfiguration</a>
 
 
 
-<a href="https://msdn.microsoft.com/5fbb12bc-d6e0-4cb7-b9d7-4e28ad85eca2">Sources</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-tagsources">Sources</a>
  
 
  

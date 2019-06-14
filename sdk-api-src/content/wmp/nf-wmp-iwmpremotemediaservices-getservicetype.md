@@ -132,7 +132,7 @@ You should avoid keeping a remoted instance of the Player running in the backgro
 
 For Windows Media Player 10, the values for <i>pbstrType</i> may be used in combination by concatenating multiple values separated by spaces. For example, to use a remoted instance of Windows Media Player 10 that displays no dialog boxes and searches for digital media content, use "Remote NoDialogs FindFolders" as the value for <i>pbstrType</i>.
 
-For Windows Media Player 11, an application that embeds the Player control remotely can specify an exclusive online store. In that case, the service selector is disabled and only the specified online store is available to the user. For more information, see Specifying an Exclusive Online Store in <a href="https://msdn.microsoft.com/d543b2a0-a2cb-47e2-b50e-4513fc061b46">Remoting the Windows Media Player Control</a>.
+For Windows Media Player 11, an application that embeds the Player control remotely can specify an exclusive online store. In that case, the service selector is disabled and only the specified online store is available to the user. For more information, see Specifying an Exclusive Online Store in <a href="https://docs.microsoft.com/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>.
 
 NoDialogs, FindFolders, and Exclusive:<i>keyname</i> are valid only when combined with Remote. These values are not supported when combined with Local.
 
@@ -148,11 +148,11 @@ The RemoteNoDialogs value is supported for backward compatibility with Windows M
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563634(v=VS.85).aspx">IWMPRemoteMediaServices Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpremotemediaservices">IWMPRemoteMediaServices Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/d543b2a0-a2cb-47e2-b50e-4513fc061b46">Remoting the Windows Media Player Control</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>
  
 
  

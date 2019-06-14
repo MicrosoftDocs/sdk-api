@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Provides a quick means by which applications can look up the standard Windows Image Acquisition (WIA) property name from the WIA property ID (or vice versa). If the <b>propid</b> does not exist in this array, it is likely not a standard WIA property. Other ways to get the property name from the property ID include using the <b>IEnumSTATPROPSTG</b> retrieved by calling <a href="https://msdn.microsoft.com/en-us/library/ms629938(v=VS.85).aspx">IWiaPropertyStorage::Enum</a> on a particular item.
+Provides a quick means by which applications can look up the standard Windows Image Acquisition (WIA) property name from the WIA property ID (or vice versa). If the <b>propid</b> does not exist in this array, it is likely not a standard WIA property. Other ways to get the property name from the property ID include using the <b>IEnumSTATPROPSTG</b> retrieved by calling <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiapropertystorage">IWiaPropertyStorage::Enum</a> on a particular item.
 
 
 ## -struct-fields

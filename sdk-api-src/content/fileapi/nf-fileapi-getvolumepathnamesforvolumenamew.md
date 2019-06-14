@@ -101,7 +101,7 @@ If the call is successful, this parameter is the number of <b>TCHARs</b> copied 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. If the buffer is not large enough to 
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If the buffer is not large enough to 
        hold the complete list, the error code is <b>ERROR_MORE_DATA</b> and the 
        <i>lpcchReturnLength</i> parameter receives the required buffer size.
 
@@ -178,7 +178,7 @@ SMB does not support volume management functions.
 #### Examples
 
 For an example, see 
-     <a href="https://msdn.microsoft.com/a9ee8cc8-fa62-4fc9-aa69-35ee98afe417">Displaying Volume Paths</a>.
+     <a href="https://docs.microsoft.com/windows/desktop/FileIO/displaying-volume-paths">Displaying Volume Paths</a>.
 
 <div class="code"></div>
 
@@ -189,11 +189,11 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/6de526cd-5537-4411-b43f-3c0bdac70d64">Mounted Folders</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-mount-points">Mounted Folders</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc985126-970c-49f2-877f-3759125e43b6">Volume Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
  
 
  

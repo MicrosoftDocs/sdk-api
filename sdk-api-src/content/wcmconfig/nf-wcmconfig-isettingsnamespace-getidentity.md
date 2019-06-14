@@ -59,7 +59,7 @@ Gets the identity of the namespace.
 
 ### -param SettingsID [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/aa9d5604-5b94-47d9-9e68-d708a656a5ea">ISettingsIdentity</a> object that represents the namespace identity.
+A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsidentity">ISettingsIdentity</a> object that represents the namespace identity.
 
 
 ## -returns
@@ -76,7 +76,7 @@ This method returns an HRESULT value. <b>S_OK</b> indicates success. It may retu
 
 
 
-<a href="https://msdn.microsoft.com/a5d7b9ff-eb6f-40be-b246-17189cad92be">ISettingsNamespace</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsnamespace">ISettingsNamespace</a>
  
 
  

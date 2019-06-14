@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the device printer's capabilities formatted in compliance with the XML <a href="https://msdn.microsoft.com/98d5f8ec-54bd-4e88-b632-ed427b599cb6">Print Schema</a>.
+Retrieves the device printer's capabilities formatted in compliance with the XML <a href="https://docs.microsoft.com/windows/desktop/printdocs/printschema">Print Schema</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Retrieves the device printer's capabilities formatted in compliance with the XML
 
 ### -param hProvider [in]
 
-A handle to an open device provider whose print capabilities are to be retrieved. This handle is returned by the <a href="https://msdn.microsoft.com/6821b1b0-74b0-4caf-b8e6-a9df4d7693d7">PTOpenProvider</a> or the <a href="https://msdn.microsoft.com/0e65170b-66f6-4238-bdde-0a0b7108a686">PTOpenProviderEx</a> function.
+A handle to an open device provider whose print capabilities are to be retrieved. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptopenprovider">PTOpenProvider</a> or the <a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptopenproviderex">PTOpenProviderEx</a> function.
 
 
 ### -param pPrintTicket [in, optional]
@@ -91,7 +91,7 @@ If the operation succeeds, the return value is S_OK. Otherwise, returns an error
 
 
 
-<a href="https://msdn.microsoft.com/925e314c-85ff-4c1b-b3c9-f36aa4b55e01">PTGetPrintCapabilities</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptgetprintcapabilities">PTGetPrintCapabilities</a>
  
 
  

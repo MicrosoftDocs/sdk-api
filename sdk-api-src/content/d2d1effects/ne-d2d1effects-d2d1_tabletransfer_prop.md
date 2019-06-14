@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/FB426909-3C91-4709-9E3A-E45C7AE345A3">Table transfer effect</a>.
+Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/table-transfer">Table transfer effect</a>.
         
 
 

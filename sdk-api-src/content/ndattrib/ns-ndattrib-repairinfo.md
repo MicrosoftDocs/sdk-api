@@ -219,7 +219,7 @@ Reserved for future use.
 
 ### -field UiInfo
 
-A <a href="https://msdn.microsoft.com/62d3c908-8fc4-4bd9-94ac-94dfcf8db395">UiInfo</a> structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-taguiinfo">UiInfo</a> structure.
 
 
 ### -field rootCauseIndex
@@ -234,15 +234,15 @@ A <a href="https://msdn.microsoft.com/62d3c908-8fc4-4bd9-94ac-94dfcf8db395">UiIn
 
 
 
-<a href="https://msdn.microsoft.com/a1147ce6-9a90-4a46-8fe4-da3353391a13">CopyRepairInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/NDF/copyrepairinfo">CopyRepairInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/c40f9d10-8d9e-4c79-ac0b-fa88608888f1">FreeRepairInfos</a>
+<a href="https://docs.microsoft.com/windows/desktop/NDF/freerepairinfos">FreeRepairInfos</a>
 
 
 
-<a href="https://msdn.microsoft.com/62d3c908-8fc4-4bd9-94ac-94dfcf8db395">UiInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-taguiinfo">UiInfo</a>
  
 
  

@@ -59,20 +59,20 @@ Cancels a running operation.
 
 ### -param operation [in, out]
 
-A pointer to an operation handle that was returned from a call to one of the <a href="https://msdn.microsoft.com/68a69321-0aa9-423e-a72f-aa2f4dee2d51">MI_Session</a> operation functions.  For asynchronous callbacks, this value can be the operation handle that is passed into the callback.
+A pointer to an operation handle that was returned from a call to one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_session">MI_Session</a> operation functions.  For asynchronous callbacks, this value can be the operation handle that is passed into the callback.
 
 
 ### -param reason
 
 
-<a href="https://msdn.microsoft.com/3c498055-03ef-4163-9de5-cf4e70051cea">MI_CancellationReason</a> enumeration value.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_cancellationreason">MI_CancellationReason</a> enumeration value.
 
 
 ## -returns
 
 
 
-A value of the <a href="https://msdn.microsoft.com/9AA2B479-E8A5-4F0C-A8A4-06DB7CB7CA2F">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 
 

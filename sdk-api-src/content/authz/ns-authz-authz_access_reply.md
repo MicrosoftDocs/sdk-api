@@ -65,12 +65,12 @@ The number of elements in the <b>GrantedAccessMask</b>, <b>SaclEvaluationResults
 
 ### -field GrantedAccessMask
 
-An array of granted access masks. Memory for this array is allocated by the application before calling <a href="https://msdn.microsoft.com/d9fd2e44-5782-40c9-a1cf-1788ca7afc50">AccessCheck</a>.
+An array of granted access masks. Memory for this array is allocated by the application before calling <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck">AccessCheck</a>.
 
 
 ### -field SaclEvaluationResults
 
-An array of <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">system access control list</a> (SACL) evaluation results. Memory for this array is allocated by the application before calling <a href="https://msdn.microsoft.com/d9fd2e44-5782-40c9-a1cf-1788ca7afc50">AccessCheck</a>. SACL evaluation will only be performed if auditing is requested. Each element of this member can be one of the following values.
+An array of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) evaluation results. Memory for this array is allocated by the application before calling <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck">AccessCheck</a>. SACL evaluation will only be performed if auditing is requested. Each element of this member can be one of the following values.
 
 <table>
 <tr>
@@ -105,7 +105,7 @@ An audit message that indicates failure was generated.
 
 ### -field Error
 
-An array of results for each element of the array. Memory for this array is allocated by the application before calling <a href="https://msdn.microsoft.com/d9fd2e44-5782-40c9-a1cf-1788ca7afc50">AccessCheck</a>. 
+An array of results for each element of the array. Memory for this array is allocated by the application before calling <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck">AccessCheck</a>. 
 
 
 
@@ -164,7 +164,7 @@ Includes each of the following:
 
 
 
-<a href="https://msdn.microsoft.com/d9fd2e44-5782-40c9-a1cf-1788ca7afc50">AccessCheck</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck">AccessCheck</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CertAddCTLLinkToStore</b> function adds a link in a store to a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate trust list</a> (CTL) <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a> in a different store. Instead of creating and adding a duplicate of a CTL context, this function adds a link to the original CTL context.
+The <b>CertAddCTLLinkToStore</b> function adds a link in a store to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> in a different store. Instead of creating and adding a duplicate of a CTL context, this function adds a link to the original CTL context.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Handle of the certificate store where the link is to be added.
 ### -param pCtlContext [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/780edddf-1b44-4292-9156-4dfd5100adb8">CTL_CONTEXT</a> structure to be linked.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">CTL_CONTEXT</a> structure to be linked.
 
 
 ### -param dwAddDisposition [in]
@@ -94,7 +94,7 @@ Makes no check for an existing matching CTL or link to a matching CTL. A new CTL
 </td>
 <td width="60%">
 If a matching CTL or a link to a matching CTL exists, the operation fails. 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns the CRYPT_E_EXISTS code.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns the CRYPT_E_EXISTS code.
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ If a matching CTL or a link to a matching CTL exists, the operation fails.
 </td>
 <td width="60%">
 If a matching CTL or a link to a matching CTL exists, the <b>ThisUpdate</b> times on the CTLs are compared. If the existing CTL has a <b>ThisUpdate</b> time less than the <b>ThisUpdate</b> time on the new CTL, the old CTL or link is replaced just as with CERT_STORE_ADD_REPLACE_EXISTING. If the existing CTL has a <b>ThisUpdate</b> time greater than or equal to the <b>ThisUpdate</b> time on the CTL to be added, the function fails with 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returning the CRYPT_E_EXISTS code. 
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returning the CRYPT_E_EXISTS code. 
 
 
 
@@ -163,7 +163,7 @@ If a matching CTL or a link to a matching CTL does not exist, a new CTL is added
 ### -param ppStoreContext [out, optional]
 
 A pointer to a pointer to a copy of the link created. <i>ppStoreContext</i> can be <b>NULL</b> to indicate that a copy of the link is not needed. If a copy of the link is created, that copy must be freed using 
-<a href="https://msdn.microsoft.com/84b1aa0c-44d9-4a2f-861c-fa7d8caac192">CertFreeCTLContext</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a>.
 
 
 ## -returns
@@ -173,7 +173,7 @@ A pointer to a pointer to a copy of the link created. <i>ppStoreContext</i> can 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. Some possible error codes follow.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Some possible error codes follow.
 
 <table>
 <tr>
@@ -212,17 +212,17 @@ The add disposition specified by the <i>dwAddDisposition</i> parameter is not va
 
 
 
-Because the link provides access to the original <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">CTL</a> context, setting an extended property in the linked CTL context changes that extended property in the original CTL's location and in any other links to that CTL.
+Because the link provides access to the original <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CTL</a> context, setting an extended property in the linked CTL context changes that extended property in the original CTL's location and in any other links to that CTL.
 
 Links cannot be added to a store that is opened as a collection. Stores opened as collections include all stores opened with 
-<a href="https://msdn.microsoft.com/23699439-1a6c-4907-93fa-651024856be7">CertOpenSystemStore</a> or 
-<a href="https://msdn.microsoft.com/4edccbfe-c0a8-442b-b6b7-51ef598e7c90">CertOpenStore</a> using CERT_STORE_PROV_SYSTEM or CERT_STORE_PROV_COLLECTION. Also see 
-<a href="https://msdn.microsoft.com/ea848d74-c3ec-4166-90ea-121b33f7f318">CertAddStoreToCollection</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopensystemstorea">CertOpenSystemStore</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a> using CERT_STORE_PROV_SYSTEM or CERT_STORE_PROV_COLLECTION. Also see 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddstoretocollection">CertAddStoreToCollection</a>.
 
 When links are used and 
-<a href="https://msdn.microsoft.com/a93fdd65-359e-4046-910d-347c3af01280">CertCloseStore</a> is called with CERT_CLOSE_STORE_FORCE_FLAG, the store using links must be closed before the store containing the original contexts is closed. If CERT_CLOSE_STORE_FORCE_FLAG is not used, the two stores can be closed in either order.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a> is called with CERT_CLOSE_STORE_FORCE_FLAG, the store using links must be closed before the store containing the original contexts is closed. If CERT_CLOSE_STORE_FORCE_FLAG is not used, the two stores can be closed in either order.
 
-To remove the CTL context link from the certificate store, use the  <a href="https://msdn.microsoft.com/e24d3445-8929-463a-b771-1f25f4e999b5">CertDeleteCTLFromStore</a> function.
+To remove the CTL context link from the certificate store, use the  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certdeletectlfromstore">CertDeleteCTLFromStore</a> function.
 
 
 
@@ -232,27 +232,27 @@ To remove the CTL context link from the certificate store, use the  <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/2fde63ed-7522-4400-a16b-059a001e7c26">CertAddCRLLinkToStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddcrllinktostore">CertAddCRLLinkToStore</a>
 
 
 
-<a href="https://msdn.microsoft.com/bcbf7755-d0ce-4dd5-8462-72760364fdc3">CertAddCertificateLinkToStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddcertificatelinktostore">CertAddCertificateLinkToStore</a>
 
 
 
-<a href="https://msdn.microsoft.com/ea848d74-c3ec-4166-90ea-121b33f7f318">CertAddStoreToCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddstoretocollection">CertAddStoreToCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/84b1aa0c-44d9-4a2f-861c-fa7d8caac192">CertFreeCTLContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/23699439-1a6c-4907-93fa-651024856be7">CertOpenSystemStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopensystemstorea">CertOpenSystemStore</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Trust List Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Trust List Functions</a>
  
 
  

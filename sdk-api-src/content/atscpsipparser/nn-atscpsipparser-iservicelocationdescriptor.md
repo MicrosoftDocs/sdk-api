@@ -54,7 +54,7 @@ Gets information from the Service Location Descriptor in an Advanced Television 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceLocationDescriptor</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IServiceLocationDescriptor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceLocationDescriptor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServiceLocationDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IServiceLocationDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8ffc0c58-1305-49bf-bdbd-efb18805516f">GetElementLanguageCode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iservicelocationdescriptor-getelementlanguagecode">GetElementLanguageCode</a>
 </td>
 <td align="left" width="63%">
 Gets a code that identifies the language used for an elementary stream in the transport stream.
@@ -78,7 +78,7 @@ Gets a code that identifies the language used for an elementary stream in the tr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/97b6091b-cacb-4e69-8ca4-c9f4b70f6304">GetElementPID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iservicelocationdescriptor-getelementpid">GetElementPID</a>
 </td>
 <td align="left" width="63%">
 Gets the PID that identifies an elementary stream in the transport stream.
@@ -87,7 +87,7 @@ Gets the PID that identifies an elementary stream in the transport stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d95a9af9-2e09-4a94-ac13-1b17698cfff3">GetElementStreamType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iservicelocationdescriptor-getelementstreamtype">GetElementStreamType</a>
 </td>
 <td align="left" width="63%">
 Gets a code that identifies the type of the elementary stream.
@@ -96,7 +96,7 @@ Gets a code that identifies the type of the elementary stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/134e4051-6a73-4420-b12d-3171738bd8ad">GetNumberOfElements</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iservicelocationdescriptor-getnumberofelements">GetNumberOfElements</a>
 </td>
 <td align="left" width="63%">
 Gets the number of PIDs used for a program.
@@ -105,7 +105,7 @@ Gets the number of PIDs used for a program.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a81a2218-3c44-4b17-a5cb-bb68d10da977">GetPCR_PID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iservicelocationdescriptor-getpcr_pid">GetPCR_PID</a>
 </td>
 <td align="left" width="63%">
 Gets the program ID (PID) for the packets that contain the Program Clock Reference (PCR) in the transport stream. 

@@ -63,7 +63,7 @@ ms.custom: 19H1
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/10b3a703-239b-4fb1-9a20-e466b123b060">DWRITE_FONT_STRETCH</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_stretch">DWRITE_FONT_STRETCH</a></b>
 
 A value which indicates the type of font stretch (such as  normal or condensed).
 
@@ -75,7 +75,7 @@ A value which indicates the type of font stretch (such as  normal or condensed).
 
 
 
-<a href="https://msdn.microsoft.com/64b2cac3-c4cb-4213-b808-7b279d296939">IDWriteTextFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a>
  
 
  

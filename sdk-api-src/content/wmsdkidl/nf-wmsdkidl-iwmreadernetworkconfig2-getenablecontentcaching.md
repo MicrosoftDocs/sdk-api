@@ -121,11 +121,11 @@ This method applies only to content being streamed from a server running Windows
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743505(v=VS.85).aspx">IWMReaderNetworkConfig2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig2">IWMReaderNetworkConfig2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743515(v=VS.85).aspx">IWMReaderNetworkConfig2::SetEnableContentCaching</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-setenablecontentcaching">IWMReaderNetworkConfig2::SetEnableContentCaching</a>
  
 
  

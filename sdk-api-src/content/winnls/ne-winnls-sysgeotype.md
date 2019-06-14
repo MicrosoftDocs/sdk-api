@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines the type of geographical location information requested in the <a href="https://msdn.microsoft.com/73827ed9-bdc5-4b34-b849-fb44b3c5bd6e">GetGeoInfo</a> or <a href="https://msdn.microsoft.com/05BF6434-A80F-4BF5-9A43-C4D65E72F43B">GetGeoInfoEx</a> function.
+Defines the type of geographical location information requested in the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getgeoinfoa">GetGeoInfo</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getgeoinfoex">GetGeoInfoEx</a> function.
 
 
 ## -enum-fields
@@ -61,7 +61,7 @@ Defines the type of geographical location information requested in the <a href="
 
 The geographical location identifier (GEOID) of a nation. This value is stored in a long integer.
 
-<b>Starting with Windows 10, version 1709:</b> This value is not supported for the <a href="https://msdn.microsoft.com/05BF6434-A80F-4BF5-9A43-C4D65E72F43B">GetGeoInfoEx</a> function, and should not be used.
+<b>Starting with Windows 10, version 1709:</b> This value is not supported for the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getgeoinfoex">GetGeoInfoEx</a> function, and should not be used.
 
 
 ### -field GEO_LATITUDE
@@ -86,16 +86,16 @@ The ISO 3-letter country/region code. This value is stored in a string.
 
 ### -field GEO_RFC1766
 
-The name for a string, compliant with RFC 4646 (starting with Windows Vista), that is derived from the <a href="https://msdn.microsoft.com/73827ed9-bdc5-4b34-b849-fb44b3c5bd6e">GetGeoInfo</a> parameters <i>language</i> and <i>GeoId</i>.
+The name for a string, compliant with RFC 4646 (starting with Windows Vista), that is derived from the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getgeoinfoa">GetGeoInfo</a> parameters <i>language</i> and <i>GeoId</i>.
 
-<b>Starting with Windows 10, version 1709:</b> This value is not supported for the <a href="https://msdn.microsoft.com/05BF6434-A80F-4BF5-9A43-C4D65E72F43B">GetGeoInfoEx</a> function, and should not be used.
+<b>Starting with Windows 10, version 1709:</b> This value is not supported for the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getgeoinfoex">GetGeoInfoEx</a> function, and should not be used.
 
 
 ### -field GEO_LCID
 
-A locale identifier derived using <a href="https://msdn.microsoft.com/73827ed9-bdc5-4b34-b849-fb44b3c5bd6e">GetGeoInfo</a>.
+A locale identifier derived using <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getgeoinfoa">GetGeoInfo</a>.
 
-<b>Starting with Windows 10, version 1709:</b> This value is not supported for the <a href="https://msdn.microsoft.com/05BF6434-A80F-4BF5-9A43-C4D65E72F43B">GetGeoInfoEx</a> function, and should not be used.
+<b>Starting with Windows 10, version 1709:</b> This value is not supported for the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getgeoinfoex">GetGeoInfoEx</a> function, and should not be used.
 
 
 ### -field GEO_FRIENDLYNAME
@@ -160,15 +160,15 @@ For information about two-letter ISO 3166-1 codes, see <a href="https://go.micro
 
 
 
-<a href="https://msdn.microsoft.com/73827ed9-bdc5-4b34-b849-fb44b3c5bd6e">GetGeoInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getgeoinfoa">GetGeoInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/05BF6434-A80F-4BF5-9A43-C4D65E72F43B">GetGeoInfoEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getgeoinfoex">GetGeoInfoEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/93911b65-e2ba-432d-9c65-53dd57687077">National Language Support Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-enumeration-types">National Language Support Enumeration Types</a>
  
 
  

@@ -55,7 +55,7 @@ This topic applies to Windows XP Service Pack 1 or later.
 
 
 
-The <b>CPEvents</b> enumeration defines copy protection events for the Decrypter/Detagger filter. This enumeration is used with the EVENTID_EncDecFilterEvent event. For more information, see <a href="https://msdn.microsoft.com/73a6a4fd-cca2-4143-91f9-37f4f6d952b8">TV Ratings Broadcast Events</a>.
+The <b>CPEvents</b> enumeration defines copy protection events for the Decrypter/Detagger filter. This enumeration is used with the EVENTID_EncDecFilterEvent event. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tv-ratings-broadcast-events">TV Ratings Broadcast Events</a>.
 
 
 ## -enum-fields
@@ -118,7 +118,7 @@ Content is blocked because the filter graph contains untrusted components.
 
 
 
-<a href="https://msdn.microsoft.com/5406cb4b-e843-463c-95e0-0da7e4152978">TV Ratings Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tv-ratings-enumerations">TV Ratings Enumerations</a>
  
 
  

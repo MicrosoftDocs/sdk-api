@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <i>EnumSurfacesCallback7</i> function is an application-defined callback function for the <a href="https://msdn.microsoft.com/7f8e9b53-3aff-491c-ab0c-2f414d1ddb27">IDirectDrawSurface7::EnumAttachedSurfaces</a> and <a href="https://msdn.microsoft.com/fab3212c-c1af-4119-85ff-108594cc64fa">IDirectDrawSurface7::EnumOverlayZOrders</a> methods.
+The <i>EnumSurfacesCallback7</i> function is an application-defined callback function for the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-enumattachedsurfaces">IDirectDrawSurface7::EnumAttachedSurfaces</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-enumoverlayzorders">IDirectDrawSurface7::EnumOverlayZOrders</a> methods.
 
 
 ## -parameters
@@ -79,12 +79,12 @@ A pointer to an application-defined structure to be passed to the callback funct
 
 #### - lpDDSurface [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f764ad29756">IDirectDrawSurface7</a> interface of the attached surface.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a> interface of the attached surface.
 
 
 #### - lpDDSurfaceDesc [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550340">DDSURFACEDESC2</a> structure that describes the attached surface.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550340(v=vs.85)">DDSURFACEDESC2</a> structure that describes the attached surface.
 
 
 ## -returns

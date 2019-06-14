@@ -74,15 +74,15 @@ The LiveSetting property is supported by provider elements that are part of a li
 
 
 
-<a href="https://msdn.microsoft.com/3510E0AD-FB79-4636-B6EF-AE0FB62AD55C">CurrentLiveSetting</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement2-get_currentlivesetting">CurrentLiveSetting</a>
 
 
 
-<a href="https://msdn.microsoft.com/4D9A4E94-BAE9-4E85-8F21-7CABFBE64C6D">IUIAutomationElement2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement2">IUIAutomationElement2</a>
 
 
 
-<a href="https://msdn.microsoft.com/40DD1F00-A9BC-4C84-B2A3-940E37EE9C19">LiveSetting</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-livesetting">LiveSetting</a>
  
 
  

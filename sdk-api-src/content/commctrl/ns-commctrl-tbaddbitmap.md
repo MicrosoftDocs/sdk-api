@@ -59,7 +59,7 @@ Adds a bitmap that contains button images to a toolbar.
 
 ### -field hInst
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HINSTANCE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HINSTANCE</a></b>
 
 Handle to the module instance with the executable file that contains a bitmap resource. To use bitmap handles instead of resource IDs, set this member to <b>NULL</b>. 
 
@@ -156,7 +156,7 @@ Windows Explorer travel buttons and favorites bitmaps in pressed state.
 
 ### -field nID
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT_PTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT_PTR</a></b>
 
 If 
 					<b>hInst</b> is <b>NULL</b>, set this member to the bitmap handle of the bitmap with the button images. Otherwise, set it to the resource identifier of the bitmap with the button images. 
@@ -167,11 +167,11 @@ If
 
 
 If 
-				<b>nID</b> holds a bitmap handle, rather than a resource ID, do not destroy the bitmap until it has been replaced with <a href="https://msdn.microsoft.com/en-us/library/Bb787391(v=VS.85).aspx">TB_REPLACEBITMAP</a>. Otherwise, the toolbar is destroyed.
+				<b>nID</b> holds a bitmap handle, rather than a resource ID, do not destroy the bitmap until it has been replaced with <a href="https://docs.microsoft.com/windows/desktop/Controls/tb-replacebitmap">TB_REPLACEBITMAP</a>. Otherwise, the toolbar is destroyed.
 
-Defined values can be used as indexes to the standard bitmaps. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb760433(v=VS.85).aspx">Toolbar Standard Button Image Index Values</a>.
+Defined values can be used as indexes to the standard bitmaps. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/toolbar-standard-button-image-index-values">Toolbar Standard Button Image Index Values</a>.
 
-The <b>TBADDBITMAP</b> structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb787289(v=VS.85).aspx">TB_ADDBITMAP</a> message.
+The <b>TBADDBITMAP</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/tb-addbitmap">TB_ADDBITMAP</a> message.
 
 
 

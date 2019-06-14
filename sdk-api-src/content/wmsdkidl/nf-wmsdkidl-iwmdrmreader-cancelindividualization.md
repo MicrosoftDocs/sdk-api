@@ -54,7 +54,7 @@ ms.custom: 19H1
 ]
 
 
-The <b>CancelIndividualization</b> method cancels a current call to the <a href="https://msdn.microsoft.com/en-us/library/Dd798352(v=VS.85).aspx">Individualize</a> method.
+The <b>CancelIndividualization</b> method cancels a current call to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-individualize">Individualize</a> method.
 
 
 
@@ -80,7 +80,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798339(v=VS.85).aspx">IWMDRMReader Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader">IWMDRMReader Interface</a>
  
 
  

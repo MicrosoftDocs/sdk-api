@@ -64,7 +64,7 @@ The <code>get_Channel</code> method retrieves the channel to which the tuner is 
 
 ### -param plChannel [out]
 
-Pointer to a variable that receives the channel. For frequencies, see <a href="https://msdn.microsoft.com/9a0e8c77-05f6-496a-bd7c-8c73953fe7c2">International Analog TV Tuning</a>
+Pointer to a variable that receives the channel. For frequencies, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/international-analog-tv-tuning">International Analog TV Tuning</a>
 
 
 
@@ -128,11 +128,11 @@ Returns an <b>HRESULT</b> value that depends on the implementation of the interf
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/997d39c5-a1a5-4d2d-8704-9846f149712c">IAMTuner Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner Interface</a>
  
 
  

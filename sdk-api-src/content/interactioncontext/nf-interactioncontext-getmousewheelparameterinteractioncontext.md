@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the mouse wheel state for the <a href="https://msdn.microsoft.com/60BFDCD7-D277-4B4A-94DA-7ADB1412252A">Interaction Context</a> object. 
+Gets the mouse wheel state for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets the mouse wheel state for the <a href="https://msdn.microsoft.com/60BFDCD7-
 
 ### -param interactionContext [in]
 
-Pointer to a handle for the <a href="https://msdn.microsoft.com/60BFDCD7-D277-4B4A-94DA-7ADB1412252A">Interaction Context</a>.
+Pointer to a handle for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a>.
 
 
 ### -param value [out]
@@ -69,7 +69,7 @@ The value of <i>parameter</i>.
 
 ### -param parameter [in]
 
-One of the constants from <a href="https://msdn.microsoft.com/eafc5d3a-f547-45a2-9634-caf309e583f3">MOUSE_WHEEL_PARAMETER</a>.
+One of the constants from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-mouse_wheel_parameter">MOUSE_WHEEL_PARAMETER</a>.
 
 
 ## -returns
@@ -88,15 +88,15 @@ Otherwise, it returns an HRESULT error code.
 
 
 
-<a href="https://msdn.microsoft.com/3E3DE99D-B457-4202-8CC2-A6F5C019EFF8">HINTERACTIONCONTEXT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/0F34F181-D92C-4B08-9F1D-62379D4A2B15">Interaction Context Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/fbc47bd4-f78a-4b03-8adc-9b2c4620ea55">SetMouseWheelParameterInteractionContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-setmousewheelparameterinteractioncontext">SetMouseWheelParameterInteractionContext</a>
  
 
  

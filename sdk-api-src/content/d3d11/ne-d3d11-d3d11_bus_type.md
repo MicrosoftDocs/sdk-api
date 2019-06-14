@@ -126,7 +126,7 @@ One of the <b>D3D11_BUS_IMPL_MODIFIER_Xxx</b> flags is set.
 
 
 
-<a href="https://msdn.microsoft.com/40061AD1-BCD9-4170-A442-34B4C792BB55">Direct3D 11 Video Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-enumerations">Direct3D 11 Video Enumerations</a>
  
 
  

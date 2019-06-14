@@ -112,7 +112,7 @@ If the index value is between zero and the total number of dropped files, and th
 
 
 
-<a href="https://msdn.microsoft.com/87794ab0-a075-4a1f-869f-5998bdc57a1d">DragQueryPoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-dragquerypoint">DragQueryPoint</a>
  
 
  

@@ -82,7 +82,7 @@ This method can return one of these values.
 
 
 <b>GetColumnText</b> allocates the string for the result and stores its pointer at the location specified by pText. The caller must free the memory using 
-<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 
 
@@ -92,7 +92,7 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt300857(v=VS.85).aspx">IHeaderCtrl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iheaderctrl">IHeaderCtrl</a>
  
 
  

@@ -68,7 +68,7 @@ Other applications
 
 ### -param duckNotification
 
-Pointer to the application's implementation of the <a href="https://msdn.microsoft.com/08e90a50-a6ac-4405-ba90-a862b78efaf8">IAudioVolumeDuckNotification</a> interface. The implementation is called when ducking events are raised by the audio system and  notifications are sent to the registered applications. 
+Pointer to the application's implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiovolumeducknotification">IAudioVolumeDuckNotification</a> interface. The implementation is called when ducking events are raised by the audio system and  notifications are sent to the registered applications. 
 
 
 ## -returns
@@ -115,11 +115,11 @@ Internal object could not be created due to insufficient memory.
 
 
 
-<i>Stream Attenuation</i> or <i>ducking</i> is a new feature in Windows 7. An application playing a media stream can make the stream behave differently when a new communication stream is opened on the default communication device. For example, the original media stream can be paused while the new communication stream is open. To provide this custom implementation for stream attenuation, the application can opt out of the default stream attenuation experience by calling <a href="https://msdn.microsoft.com/6689d7e4-9c45-483d-9f46-14d157726b02">IAudioSessionControl::SetDuckingPreference</a> and then register itself to receive notifications when session events occur. For stream attenuation, a session event is raised by the system when a communication stream is opened or closed on the default communication device. For more information about this feature, see <a href="https://msdn.microsoft.com/1b92574e-7cde-49c0-a68e-223492412361">Getting Ducking Events</a>.
+<i>Stream Attenuation</i> or <i>ducking</i> is a new feature in Windows 7. An application playing a media stream can make the stream behave differently when a new communication stream is opened on the default communication device. For example, the original media stream can be paused while the new communication stream is open. To provide this custom implementation for stream attenuation, the application can opt out of the default stream attenuation experience by calling <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol2-setduckingpreference">IAudioSessionControl::SetDuckingPreference</a> and then register itself to receive notifications when session events occur. For stream attenuation, a session event is raised by the system when a communication stream is opened or closed on the default communication device. For more information about this feature, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/handling-audio-ducking-events-from-communication-devices">Getting Ducking Events</a>.
 
-To begin receiving notifications, the application calls the <b>RegisterDuckNotification</b> method to register its <a href="https://msdn.microsoft.com/08e90a50-a6ac-4405-ba90-a862b78efaf8">IAudioVolumeDuckNotification</a> interface with the session manager. When the application no longer requires notifications, it calls the <a href="https://msdn.microsoft.com/0ab0f5d0-8831-41a2-bfee-3e88a3d92156">IAudioSessionManager2::UnregisterDuckNotification</a> method to delete the registration.
+To begin receiving notifications, the application calls the <b>RegisterDuckNotification</b> method to register its <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiovolumeducknotification">IAudioVolumeDuckNotification</a> interface with the session manager. When the application no longer requires notifications, it calls the <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager2-unregisterducknotification">IAudioSessionManager2::UnregisterDuckNotification</a> method to delete the registration.
 
-The application receives notifications about the ducking events through the methods of the <a href="https://msdn.microsoft.com/08e90a50-a6ac-4405-ba90-a862b78efaf8">IAudioVolumeDuckNotification</a> interface. The application implements <b>IAudioVolumeDuckNotification</b>. After the registration call has succeeded, the system calls the methods of this interface when session events occur.
+The application receives notifications about the ducking events through the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiovolumeducknotification">IAudioVolumeDuckNotification</a> interface. The application implements <b>IAudioVolumeDuckNotification</b>. After the registration call has succeeded, the system calls the methods of this interface when session events occur.
 
 
 
@@ -131,11 +131,11 @@ The application receives notifications about the ducking events through the meth
 
 
 
-<a href="https://msdn.microsoft.com/476dac90-d0c4-499c-973e-33ea55546659">IAudioSessionManager2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionmanager2">IAudioSessionManager2</a>
 
 
 
-<a href="https://msdn.microsoft.com/bec2127d-fb82-436d-beee-d43e8fef5c35">Using a Communication Device</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/using-the-communication-device">Using a Communication Device</a>
  
 
  

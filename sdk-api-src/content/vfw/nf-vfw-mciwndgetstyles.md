@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndGetStyles</b> macro retrieves the flags specifying the current MCIWnd window styles used by a window. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/cd34ba05-47cb-488e-a6c6-4ec1c0d25de8">MCIWNDM_GETSTYLES</a> message.
+The <b>MCIWndGetStyles</b> macro retrieves the flags specifying the current MCIWnd window styles used by a window. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getstyles">MCIWNDM_GETSTYLES</a> message.
 
 
 
@@ -70,7 +70,7 @@ Handle of the MCIWnd window.
 
 
 
-<a href="https://msdn.microsoft.com/cd34ba05-47cb-488e-a6c6-4ec1c0d25de8">MCIWNDM_GETSTYLES</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getstyles">MCIWNDM_GETSTYLES</a>
  
 
  

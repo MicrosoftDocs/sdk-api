@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 
 The <b>GetBitCount</b> method returns the number of bits in a bit string that belongs to the 
-<a href="https://msdn.microsoft.com/51178b67-46da-49f8-9bd7-a500e846e0a8">CertEncodeBitString</a> object and has been initialized by an earlier call to 
-<a href="https://msdn.microsoft.com/65856db4-97db-4c9b-ac12-1a9262c7b4e9">ICertEncodeBitString::Decode</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nn-certenc-icertencodebitstring">CertEncodeBitString</a> object and has been initialized by an earlier call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodebitstring-decode">ICertEncodeBitString::Decode</a>.
 
 
 ## -parameters
@@ -72,7 +72,7 @@ A pointer to a <b>Long</b> that will receive the number of bits in the bit strin
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the number of bits in the bit string.
@@ -85,7 +85,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-<a href="https://msdn.microsoft.com/51178b67-46da-49f8-9bd7-a500e846e0a8">ICertEncodeBitString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nn-certenc-icertencodebitstring">ICertEncodeBitString</a>
  
 
  

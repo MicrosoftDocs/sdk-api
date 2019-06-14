@@ -109,7 +109,7 @@ The following table shows the mapping of the bitwise mask used by this property.
 
 
 
-When reading or writing XML for a task, the days of the week of a monthly day-of-week calendar are specified by the <a href="https://msdn.microsoft.com/d84f0019-1369-465f-9054-0fb5a83cad6d">DaysOfWeek</a> element.
+When reading or writing XML for a task, the days of the week of a monthly day-of-week calendar are specified by the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-daysofweek-monthlydayofweekscheduletype-element">DaysOfWeek</a> element.
 
 
 
@@ -119,11 +119,11 @@ When reading or writing XML for a task, the days of the week of a monthly day-of
 
 
 
-<a href="https://msdn.microsoft.com/a950e4a0-1fcc-4213-bdb7-d1e1cf28fe91">IMonthlyDOWTrigger</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-imonthlydowtrigger">IMonthlyDOWTrigger</a>
 
 
 
-<a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
  
 
  

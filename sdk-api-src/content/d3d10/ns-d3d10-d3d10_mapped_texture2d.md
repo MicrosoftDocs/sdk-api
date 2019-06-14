@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Provides access to <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">subresource</a> data in a 2D texture.
+Provides access to <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">subresource</a> data in a 2D texture.
 
 
 ## -struct-fields
@@ -66,16 +66,16 @@ Pointer to the data.
 
 ### -field RowPitch
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-The pitch, or width, or physical size (in bytes), of one row of an uncompressed texture. A block-compressed texture is encoded in 4x4 blocks (see <a href="https://msdn.microsoft.com/en-us/library/Bb694531(v=VS.85).aspx">virtual size vs physical size</a>) ; therefore, <b>RowPitch</b> is the number of bytes in a block of 4x4 texels.
+The pitch, or width, or physical size (in bytes), of one row of an uncompressed texture. A block-compressed texture is encoded in 4x4 blocks (see <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression">virtual size vs physical size</a>) ; therefore, <b>RowPitch</b> is the number of bytes in a block of 4x4 texels.
 
 
 ## -remarks
 
 
 
-This structure is used in a call to <a href="https://msdn.microsoft.com/en-us/library/Bb173869(v=VS.85).aspx">Map</a>.
+This structure is used in a call to <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10texture2d-map">Map</a>.
 
 To illustrate the row pitch, assume an uncompressed 2D texture with mipmap levels, as shown in the following illustration.
 
@@ -136,7 +136,7 @@ if( SUCCEEDED( pTexture->Map( D3D10CalcSubresource(2, 0, 3), D3D10_MAP_WRITE_DIS
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205277(v=VS.85).aspx">Resource Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-resource-structures">Resource Structures</a>
  
 
  

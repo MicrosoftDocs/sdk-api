@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>get_Ringer</b> method returns a Boolean value indicating whether the phone is currently performing an incoming ring that was initiated by the 
-<a href="https://msdn.microsoft.com/bf94aab7-6b12-43f8-b49f-a7cf6617dd57">StartRinger</a> method on this interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-startringer">StartRinger</a> method on this interface.
 
 
 ## -parameters
@@ -78,11 +78,11 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an error value.
 
 
 
-<a href="https://msdn.microsoft.com/60d4f079-75ee-4aeb-9e7c-0b16d90da754">ITAutomatedPhoneControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itautomatedphonecontrol">ITAutomatedPhoneControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf94aab7-6b12-43f8-b49f-a7cf6617dd57">StartRinger</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-startringer">StartRinger</a>
  
 
  

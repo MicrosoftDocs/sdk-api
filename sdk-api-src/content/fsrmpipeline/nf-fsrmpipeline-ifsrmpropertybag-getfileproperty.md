@@ -64,7 +64,7 @@ The name of the property to retrieve.
 
 ### -param fileProperty [out]
 
-An <a href="https://msdn.microsoft.com/feffccd1-cf72-45c0-97b3-d6efd736223e">IFsrmProperty</a> interface to the retrieved property.
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmproperty">IFsrmProperty</a> interface to the retrieved property.
 
 
 ## -returns
@@ -80,7 +80,7 @@ The method returns the following return values.
 
 
 
-Use the property name specified in the rule's <a href="https://msdn.microsoft.com/0e41ac2b-c48a-4bb8-a363-8a64c856b8f9">PropertyAffected</a> property.
+Use the property name specified in the rule's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationrule-get_propertyaffected">PropertyAffected</a> property.
 
 
 
@@ -90,11 +90,11 @@ Use the property name specified in the rule's <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/237f024d-2b1d-45d5-a63d-c530426278e6">IFsrmPropertyBag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertybag">IFsrmPropertyBag</a>
 
 
 
-<a href="https://msdn.microsoft.com/d3322907-c832-49ef-bf21-2e4581251a88">IFsrmPropertyBag::SetFileProperty</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-setfileproperty">IFsrmPropertyBag::SetFileProperty</a>
  
 
  

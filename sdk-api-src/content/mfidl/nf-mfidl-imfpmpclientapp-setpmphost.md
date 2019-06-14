@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets a pointer to the <a href="https://msdn.microsoft.com/ca24930d-bd1e-4c12-8246-1e505a98944a">IMFPMPHostApp</a> interface allowing a media source to create objects in the PMP process.
+Sets a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpmphostapp">IMFPMPHostApp</a> interface allowing a media source to create objects in the PMP process.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Sets a pointer to the <a href="https://msdn.microsoft.com/ca24930d-bd1e-4c12-824
 
 ### -param pPMPHost [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/ca24930d-bd1e-4c12-8246-1e505a98944a">IMFPMPHostApp</a> interface.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpmphostapp">IMFPMPHostApp</a> interface.
           
 
 
@@ -78,19 +78,19 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/03cd9e3c-65ac-40ad-802d-e36127dbd61f">IMFPMPClientApp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpmpclientapp">IMFPMPClientApp</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/CF3A427D-31D2-45FF-BE87-F192B758204E">PMP Media Session</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/pmp-media-session">PMP Media Session</a>
 
 
 
-<a href="https://msdn.microsoft.com/e88806ae-0041-4b4a-a8df-69718a651e82">Protected Media Path</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/protected-media-path">Protected Media Path</a>
  
 
  

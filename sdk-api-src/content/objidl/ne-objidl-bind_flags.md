@@ -64,7 +64,7 @@ If this flag is specified, the moniker implementation can interact with the end 
 
 ### -field BIND_JUSTTESTEXISTENCE
 
-If this flag is specified, the caller is not interested in having the operation carried out, but only in learning whether the operation could have been carried out had this flag not been specified. For example, this flag lets the caller indicate only an interest in finding out whether an object actually exists by using this flag in a <a href="https://msdn.microsoft.com/b5ce39ff-3387-4f72-9aea-5a26eed3810c">IMoniker::BindToObject</a> call. Moniker implementations can, however, ignore this possible optimization and carry out the operation in full. Callers must be able to deal with both cases. 
+If this flag is specified, the caller is not interested in having the operation carried out, but only in learning whether the operation could have been carried out had this flag not been specified. For example, this flag lets the caller indicate only an interest in finding out whether an object actually exists by using this flag in a <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">IMoniker::BindToObject</a> call. Moniker implementations can, however, ignore this possible optimization and carry out the operation in full. Callers must be able to deal with both cases. 
 
 
 
@@ -73,15 +73,15 @@ If this flag is specified, the caller is not interested in having the operation 
 
 
 
-<a href="https://msdn.microsoft.com/764f09c9-ff20-4ae2-b94f-4b0a1e117e49">BIND_OPTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts">BIND_OPTS</a>
 
 
 
-<a href="https://msdn.microsoft.com/fb2aa8c1-dddc-480e-b544-61a1074125ef">BIND_OPTS2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts2">BIND_OPTS2</a>
 
 
 
-<a href="https://msdn.microsoft.com/7e668313-229a-4d04-b8a2-d5072c87a5b5">BIND_OPTS3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts3">BIND_OPTS3</a>
  
 
  

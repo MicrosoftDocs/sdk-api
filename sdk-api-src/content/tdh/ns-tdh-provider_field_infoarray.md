@@ -68,12 +68,12 @@ Number of elements in the <b>FieldInfoArray</b> array.
 
 ### -field FieldType
 
-Type of field information in  the <b>FieldInfoArray</b> array. For possible values, see the <a href="https://msdn.microsoft.com/da525556-e42b-41cb-b954-300f378477e5">EVENT_FIELD_TYPE</a> enumeration. 
+Type of field information in  the <b>FieldInfoArray</b> array. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-_event_field_type">EVENT_FIELD_TYPE</a> enumeration. 
 
 
 ### -field FieldInfoArray
 
-Array of <a href="https://msdn.microsoft.com/a7c88c25-3acc-42aa-bf2b-bc7651e84f8c">PROVIDER_FIELD_INFO</a> structures that define the field's name, description and value.
+Array of <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_provider_field_info">PROVIDER_FIELD_INFO</a> structures that define the field's name, description and value.
 
 
 ## -see-also
@@ -81,11 +81,11 @@ Array of <a href="https://msdn.microsoft.com/a7c88c25-3acc-42aa-bf2b-bc7651e84f8
 
 
 
-<a href="https://msdn.microsoft.com/ab34a433-b641-4408-81d5-c93609204d24">TdhEnumerateProviderFieldInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhenumerateproviderfieldinformation">TdhEnumerateProviderFieldInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/ca3c1519-0b86-4bdb-b027-9c662df5466e">TdhQueryProviderFieldInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhqueryproviderfieldinformation">TdhQueryProviderFieldInformation</a>
  
 
  

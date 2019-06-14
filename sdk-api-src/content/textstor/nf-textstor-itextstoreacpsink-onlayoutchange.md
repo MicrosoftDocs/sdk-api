@@ -58,12 +58,12 @@ ms.custom: 19H1
 
 ### -param lcode [in]
 
-Contains a <a href="https://msdn.microsoft.com/en-us/library/ms629200(v=VS.85).aspx">TsLayoutCode</a> value that defines the type of change.
+Contains a <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ne-textstor-__midl___midl_itf_textstor_0000_0000_0002">TsLayoutCode</a> value that defines the type of change.
 
 
 ### -param vcView [in]
 
-Contains an application-defined cookie that identifies the document. For more information, see <a href="https://msdn.microsoft.com/7739674e-9524-4530-900c-6e7facc3254f">ITextStoreACP::GetActiveView</a>.
+Contains an application-defined cookie that identifies the document. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getactiveview">ITextStoreACP::GetActiveView</a>.
 
 
 ## -returns
@@ -100,7 +100,7 @@ The method was successful.
 
 A layout change can be in response to a change to the text, font size, window movement, window resizing, or other change that affects the displayed text.
 
-If a call to <a href="https://msdn.microsoft.com/d621e96b-d357-4468-8a89-89445fb1ca9e">ITextStoreACP::GetTextExt</a> or <a href="https://msdn.microsoft.com/b6489391-a19e-405a-a129-f68054088860">ITextStoreACP::GetACPFromPoint</a> returns TS_E_NOLAYOUT because the application has not calculated the layout, the application must call <b>ITextStoreACPSink::OnLayoutChange</b> when the layout is available.
+If a call to <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-gettextext">ITextStoreACP::GetTextExt</a> or <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getacpfrompoint">ITextStoreACP::GetACPFromPoint</a> returns TS_E_NOLAYOUT because the application has not calculated the layout, the application must call <b>ITextStoreACPSink::OnLayoutChange</b> when the layout is available.
 
 
 
@@ -110,26 +110,26 @@ If a call to <a href="https://msdn.microsoft.com/d621e96b-d357-4468-8a89-89445fb
 
 
 
-<a href="https://msdn.microsoft.com/b6489391-a19e-405a-a129-f68054088860">ITextStoreACP::GetACPFromPoint
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getacpfrompoint">ITextStoreACP::GetACPFromPoint
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/7739674e-9524-4530-900c-6e7facc3254f">ITextStoreACP::GetActiveView
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getactiveview">ITextStoreACP::GetActiveView
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/d621e96b-d357-4468-8a89-89445fb1ca9e">ITextStoreACP::GetTextExt
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-gettextext">ITextStoreACP::GetTextExt
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/d7e5a04f-7159-436e-a522-4cb63063aeef">ITextStoreACPSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacpsink">ITextStoreACPSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/879f83ba-211b-49f6-93b2-6cde5f50fc24">TsLayoutCode
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ne-textstor-__midl___midl_itf_textstor_0000_0000_0002">TsLayoutCode
       </a>
  
 

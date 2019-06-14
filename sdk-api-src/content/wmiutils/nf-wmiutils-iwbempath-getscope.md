@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>IWbemPath::GetScope</b> method retrieves a scope based upon an index. This method retrieves the class name and a 
-<a href="https://msdn.microsoft.com/5b188426-9d7f-4e87-9eed-ce80e5d93c30">IWbemPathKeyList</a> pointer so that the details of the keys can be retrieved.
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nn-wmiutils-iwbempathkeylist">IWbemPathKeyList</a> pointer so that the details of the keys can be retrieved.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ Buffer where the scope is to be copied.
 ### -param pKeyList [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/5b188426-9d7f-4e87-9eed-ce80e5d93c30">IWbemPathKeyList</a> object.
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nn-wmiutils-iwbempathkeylist">IWbemPathKeyList</a> object.
 
 
 ## -returns
@@ -103,7 +103,7 @@ This method can be used to determine how big a buffer is needed for <i>pszClass<
 
 
 
-<a href="https://msdn.microsoft.com/71b2597b-d82a-439d-b0b7-af76aefea6a2">IWbemPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nn-wmiutils-iwbempath">IWbemPath</a>
  
 
  

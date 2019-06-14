@@ -59,12 +59,12 @@ The <code>get_NodeType</code> method returns the node type for a given node.
 
 ### -param dwNodeId [in]
 
-Index of the node. To find the number of nodes, call the <a href="https://msdn.microsoft.com/en-us/library/Dd390156(v=VS.85).aspx">IKsTopologyInfo::get_NumNodes</a> method.
+Index of the node. To find the number of nodes, call the <a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ikstopologyinfo-get_numnodes">IKsTopologyInfo::get_NumNodes</a> method.
 
 
 ### -param pNodeType [out]
 
-Receives a GUID that defines the node type. For a list of node types, see <a href="https://msdn.microsoft.com/0e133ce3-8815-47d1-a5c3-577a98963912">KS Node Types</a>.
+Receives a GUID that defines the node type. For a list of node types, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ks-node-types">KS Node Types</a>.
 
 
 ## -returns
@@ -100,11 +100,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390148(v=VS.85).aspx">IKsTopologyInfo Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nn-vidcap-ikstopologyinfo">IKsTopologyInfo Interface</a>
  
 
  

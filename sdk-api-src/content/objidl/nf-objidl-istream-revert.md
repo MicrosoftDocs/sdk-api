@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>Revert</b> method discards all changes that have been made to a transacted stream since the last 
-<a href="https://msdn.microsoft.com/335c3a53-ca6a-42f3-bbf9-684ed48591e6">IStream::Commit</a> call. On streams open in direct mode and streams using the COM compound file implementation of <b>IStream::Revert</b>, this method has no effect.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-commit">IStream::Commit</a> call. On streams open in direct mode and streams using the COM compound file implementation of <b>IStream::Revert</b>, this method has no effect.
 
 
 ## -parameters
@@ -83,11 +83,11 @@ The <b>Revert</b> method discards changes made to a transacted stream since the 
 
 
 
-<a href="https://msdn.microsoft.com/52474e37-0e14-4dcc-8e04-4442cfd26eb3">IStream - Compound File Implementation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Stg/istream-compound-file-implementation">IStream - Compound File Implementation</a>
 
 
 
-<a href="https://msdn.microsoft.com/335c3a53-ca6a-42f3-bbf9-684ed48591e6">IStream::Commit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-commit">IStream::Commit</a>
  
 
  

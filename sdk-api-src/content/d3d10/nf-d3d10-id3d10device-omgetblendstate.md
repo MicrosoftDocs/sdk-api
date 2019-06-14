@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Get the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">blend state</a> of the output-merger stage.
+Get the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage">blend state</a> of the output-merger stage.
 
 
 ## -parameters
@@ -60,23 +60,23 @@ Get the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx
 
 ### -param ppBlendState [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173505(v=VS.85).aspx">ID3D10BlendState</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10blendstate">ID3D10BlendState</a>**</b>
 
-Address of a pointer to a blend-state interface (see <a href="https://msdn.microsoft.com/en-us/library/Bb173505(v=VS.85).aspx">ID3D10BlendState</a>).
+Address of a pointer to a blend-state interface (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10blendstate">ID3D10BlendState</a>).
 
 
 ### -param BlendFactor [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 Array of blend factors, one for each RGBA component.
 
 
 ### -param pSampleMask [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb173595(v=VS.85).aspx">sample mask</a>.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-omsetblendstate">sample mask</a>.
 
 
 ## -returns
@@ -102,7 +102,7 @@ The reference count of the returned interface will be incremented by one when th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
  
 
  

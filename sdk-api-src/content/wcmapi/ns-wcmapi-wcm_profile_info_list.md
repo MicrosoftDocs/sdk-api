@@ -81,7 +81,7 @@ The number of profiles in the list.
 
 ### -field ProfileInfo
 
-Type: <b><a href="https://msdn.microsoft.com/bf917afa-c6c5-408a-bd34-b4a4c7b991b9">WCM_PROFILE_INFO</a>[1]</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-_wcm_profile_info">WCM_PROFILE_INFO</a>[1]</b>
 
 Information about each profile.
 
@@ -91,7 +91,7 @@ Information about each profile.
 
 
 
-<a href="https://msdn.microsoft.com/bf917afa-c6c5-408a-bd34-b4a4c7b991b9">WCM_PROFILE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-_wcm_profile_info">WCM_PROFILE_INFO</a>
  
 
  

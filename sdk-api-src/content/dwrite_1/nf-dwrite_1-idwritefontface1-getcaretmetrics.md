@@ -61,7 +61,7 @@ Gets caret metrics for the font in design units.
 
 Type: <b>DWRITE_CARET_METRICS*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/CC7591F8-0671-436F-B0A7-C5D4C183D253">DWRITE_CARET_METRICS</a> structure that is filled.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ns-dwrite_1-dwrite_caret_metrics">DWRITE_CARET_METRICS</a> structure that is filled.
 
 
 ## -returns
@@ -88,7 +88,7 @@ Caret metrics are used by
 
 
 
-<a href="https://msdn.microsoft.com/1DB7156F-0578-46A0-8C96-E1E34FF4E49E">IDWriteFontFace1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritefontface1">IDWriteFontFace1</a>
  
 
  

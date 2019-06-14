@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>ExtractCAB</b> method extracts the embedded .cab file from a module and saves it as the specified file. The installer creates this file if it does not already exist and overwrites the file if it does exist. For more information, see the 
-<a href="https://msdn.microsoft.com/a6fe8b69-8f4a-45f7-b7e6-7620a00500bb">ExtractCAB</a> method of the 
-<a href="https://msdn.microsoft.com/3f76ee8a-d195-4a69-99a3-31ef2c1c72d5">Merge</a> object.  
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-extractcab">ExtractCAB</a> method of the 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-object">Merge</a> object.  
 
 <b>IMsmMerge2::ExtractCAB</b>    Mergemod.dll version 2.0 or later.<div> </div><b>IMsmMerge::ExtractCAB</b>      All Mergemod.dll versions.
 			
@@ -157,7 +157,7 @@ The function succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/877d3691-948f-4aea-89d8-0ff008126ccc">Merge Module Automation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
  
 
  

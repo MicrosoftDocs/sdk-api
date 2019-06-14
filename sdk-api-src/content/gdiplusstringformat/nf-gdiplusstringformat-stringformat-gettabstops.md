@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>StringFormat::GetTabStops</b> method gets the offsets of the tab stops in this 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object.
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object.
 
 
 ## -parameters
@@ -87,12 +87,12 @@ Pointer to an array of type
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 </strong>
 
-If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+If the method succeeds, it returns Ok, which is an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+If the method fails, it returns one of the other elements of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 
 
@@ -111,7 +111,7 @@ Each tab-stop offset in the
 
 
 The following example creates a 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object, sets tab stops, and uses the 
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object, sets tab stops, and uses the 
 						<b>StringFormat</b> object to draw a string that contains tab characters (\t). The code also draws the string's layout rectangle. Then, the code gets the tab stops and proceeds to use or inspect the tab stops in some way.
 
 
@@ -164,15 +164,15 @@ VOID Example_GetTabStop(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533823(v=VS.85).aspx">Formatting Text</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-formatting-text-use">Formatting Text</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a>
  
 
  

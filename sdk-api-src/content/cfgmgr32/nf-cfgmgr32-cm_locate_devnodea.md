@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CM_Locate_DevNode</b> function obtains a device instance handle to the device node that is associated with a specified <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance ID</a> on the local machine.
+The <b>CM_Locate_DevNode</b> function obtains a device instance handle to the device node that is associated with a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids">device instance ID</a> on the local machine.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ A pointer to a device instance handle that <b>CM_Locate_DevNode</b> retrieves. T
 
 ### -param pDeviceID [in, optional]
 
-A pointer to a NULL-terminated string representing a <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance ID</a>. If this value is <b>NULL</b>, or if it points to a zero-length string, the function retrieves a device instance handle to the device at the root of the <a href="https://msdn.microsoft.com/3220389a-06cc-4a43-8164-b785d1a16365">device tree</a>.
+A pointer to a NULL-terminated string representing a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids">device instance ID</a>. If this value is <b>NULL</b>, or if it points to a zero-length string, the function retrieves a device instance handle to the device at the root of the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-tree">device tree</a>.
 
 
 ### -param ulFlags [in]
@@ -87,7 +87,7 @@ The function retrieves the device instance handle for the specified device only 
 
 #### CM_LOCATE_DEVNODE_PHANTOM
 
-The function retrieves a device instance handle for the specified device if the device is currently configured in the device tree or the device is a <a href="https://msdn.microsoft.com/50c44afb-5b6b-44cb-90dd-d7ae83b2d991">nonpresent device</a> that is not currently configured in the device tree. 
+The function retrieves a device instance handle for the specified device if the device is currently configured in the device tree or the device is a <a href="https://docs.microsoft.com/windows-hardware/drivers/">nonpresent device</a> that is not currently configured in the device tree. 
 
 
 
@@ -115,7 +115,7 @@ If the operation succeeds, <b>CM_Locate_DevNode</b> returns CR_SUCCESS. Otherwis
 
 
 
-For information about using device instance handles that are bound to the local machine, see <a href="https://msdn.microsoft.com/b339d794-cbf0-46aa-a106-b2837f797def">CM_Get_Child</a>.
+For information about using device instance handles that are bound to the local machine, see <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child">CM_Get_Child</a>.
 
 
 
@@ -125,11 +125,11 @@ For information about using device instance handles that are bound to the local 
 
 
 
-<a href="https://msdn.microsoft.com/b339d794-cbf0-46aa-a106-b2837f797def">CM_Get_Child</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child">CM_Get_Child</a>
 
 
 
-<a href="https://msdn.microsoft.com/255d828c-5a71-4d53-80ee-b0a0b3e97414">CM_Locate_DevNode_Ex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_locate_devnode_exw">CM_Locate_DevNode_Ex</a>
  
 
  

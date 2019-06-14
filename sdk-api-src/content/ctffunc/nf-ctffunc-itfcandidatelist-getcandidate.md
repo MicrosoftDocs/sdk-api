@@ -63,7 +63,7 @@ Specifies the zero-based index of the candidate string to obtain.
 
 ### -param ppCand [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/82c77b59-a50c-42ae-ba1d-25a1c196662d">ITfCandidateString</a> interface pointer that receives the candidate string object. The caller must release this interface when it is no longer required.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatestring">ITfCandidateString</a> interface pointer that receives the candidate string object. The caller must release this interface when it is no longer required.
 
 
 ## -returns
@@ -132,11 +132,11 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://msdn.microsoft.com/e41ba461-6337-4feb-ba16-3942920ebb9f">ITfCandidateList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatelist">ITfCandidateList</a>
 
 
 
-<a href="https://msdn.microsoft.com/82c77b59-a50c-42ae-ba1d-25a1c196662d">ITfCandidateString
+<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatestring">ITfCandidateString
       </a>
  
 

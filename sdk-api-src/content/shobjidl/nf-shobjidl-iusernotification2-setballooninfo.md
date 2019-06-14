@@ -122,8 +122,8 @@ One or more of the following values that indicate an icon to display in the noti
                         
 
 <ul>
-<li>This flag can be used with all <a href="https://msdn.microsoft.com/37da5555-3626-465e-b834-3a28b75495c4">stock icons</a>.</li>
-<li>Applications that use older customized icons (NIIF_USER with <b>hIcon</b>) must provide a new SM_CXICON x SM_CYICON version in the tray icon specified in the <b>hIcon</b> member of the <a href="https://msdn.microsoft.com/fdcc42c1-b3e5-4b04-8d79-7b6c29699d53">NOTIFYICONDATA</a> structure. These icons are scaled down when they are displayed in the notification area.</li>
+<li>This flag can be used with all <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ne-shellapi-shstockiconid">stock icons</a>.</li>
+<li>Applications that use older customized icons (NIIF_USER with <b>hIcon</b>) must provide a new SM_CXICON x SM_CYICON version in the tray icon specified in the <b>hIcon</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_notifyicondataa">NOTIFYICONDATA</a> structure. These icons are scaled down when they are displayed in the notification area.</li>
 <li>New customized icons (NIIF_USER with <b>hBalloonIcon</b>) must supply an SM_CXICON x SM_CYICON version in the supplied icon (<b>hBalloonIcon</b>).</li>
 </ul>
 
@@ -140,7 +140,7 @@ If the current user is not in quiet time, this flag has no effect.
 
 #### NIIF_ICON_MASK (0x0000000F)
 
-0x0000000F. <b>Windows XP</b> (<a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Shell32.dll version 6.0</a><b>) and later</b>. Reserved.
+0x0000000F. <b>Windows XP</b> (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Shell32.dll version 6.0</a><b>) and later</b>. Reserved.
 
 
 ## -returns
@@ -159,11 +159,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/6605a014-4f79-4856-8fd9-df926ea76052">IUserNotification2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iusernotification2">IUserNotification2</a>
 
 
 
-<a href="https://msdn.microsoft.com/bd782a4b-fe3c-419b-ad55-ea3faf12e628">SetBalloonInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iusernotification-setballooninfo">SetBalloonInfo</a>
  
 
  

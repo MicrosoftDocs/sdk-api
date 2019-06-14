@@ -118,9 +118,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 Progress bar information is not shown in high contrast color schemes to guarantee that no accessibility needs are compromised.
 
-Developers accustomed to the existing <a href="https://msdn.microsoft.com/en-us/library/Bb760818(v=VS.85).aspx">progress bar</a> control should find the taskbar button progress indicator to be a similar experience both in concept and visuals. Here, the taskbar button itself becomes a progress bar. A taskbar button's progress indicator should be a reflection of a more detailed progress bar in the associated window. This allows the user to see specifics, such as the percentage number and the amount of time remaining, that cannot be shown in a taskbar button. Also, because a taskbar button can show the progress of only a single window in a group, it allows the user to check the progress of individual windows. It also provides progress information to the user when the taskbar button cannot, such as in a high-contrast color scheme.
+Developers accustomed to the existing <a href="https://docs.microsoft.com/windows/desktop/Controls/progress-bar-control-reference">progress bar</a> control should find the taskbar button progress indicator to be a similar experience both in concept and visuals. Here, the taskbar button itself becomes a progress bar. A taskbar button's progress indicator should be a reflection of a more detailed progress bar in the associated window. This allows the user to see specifics, such as the percentage number and the amount of time remaining, that cannot be shown in a taskbar button. Also, because a taskbar button can show the progress of only a single window in a group, it allows the user to check the progress of individual windows. It also provides progress information to the user when the taskbar button cannot, such as in a high-contrast color scheme.
 
-Note that a taskbar button progress bar is not intended for use with normally peripheral actions such as the loading of a webpage or the printing of a document. That type of progress should continue to be shown in a window's <a href="https://msdn.microsoft.com/en-us/library/Bb760726(v=VS.85).aspx">status bar</a>.
+Note that a taskbar button progress bar is not intended for use with normally peripheral actions such as the loading of a webpage or the printing of a document. That type of progress should continue to be shown in a window's <a href="https://docs.microsoft.com/windows/desktop/Controls/status-bar-reference">status bar</a>.
 
 The progress indicator is displayed between the taskbar button's icon or text and the background. If progress is shown for both the active taskbar button and an inactive button, shading in the respective progress bars is such that the active button is still obvious to the user. Also, button functionality such as the display of thumbnails continues to work normally when the button is being used to display progress.
 
@@ -178,7 +178,7 @@ A determinate progress indicator can be displayed in these cases:
 </ul>
 
 
-Note that a call to <a href="https://msdn.microsoft.com/98646a68-d505-4d9b-b0f9-efda3da77005">SetProgressValue</a> will switch a progress indicator currently in an indeterminate mode (<b>TBPF_INDETERMINATE</b>) to a normal (determinate) display and clear the <b>TBPF_INDETERMINATE</b> flag.
+Note that a call to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-setprogressvalue">SetProgressValue</a> will switch a progress indicator currently in an indeterminate mode (<b>TBPF_INDETERMINATE</b>) to a normal (determinate) display and clear the <b>TBPF_INDETERMINATE</b> flag.
 
 
 
@@ -188,23 +188,23 @@ Note that a call to <a href="https://msdn.microsoft.com/98646a68-d505-4d9b-b0f9-
 
 
 
-<a href="https://msdn.microsoft.com/c63f5fe8-4a8f-4ca8-bd6a-7733110bbb38">ITaskbarList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist">ITaskbarList</a>
 
 
 
-<a href="https://msdn.microsoft.com/8af23586-349f-4d21-98cb-0aaa27a586ff">ITaskbarList2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist2">ITaskbarList2</a>
 
 
 
-<a href="https://msdn.microsoft.com/a5eb4e5a-df17-4aca-96fb-d8475e266b92">ITaskbarList3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist3">ITaskbarList3</a>
 
 
 
-<a href="https://msdn.microsoft.com/98646a68-d505-4d9b-b0f9-efda3da77005">ITaskbarList3::SetProgressValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-setprogressvalue">ITaskbarList3::SetProgressValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbf2b07d-d67c-4755-888c-d40692d13cae">Taskbar Extensions</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
  
 
  

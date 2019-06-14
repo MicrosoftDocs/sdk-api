@@ -62,7 +62,7 @@ The <b>TF_DISPLAYATTRIBUTE</b> structure contains display attribute data for ren
 
 ### -field crText
 
-Contains a <a href="https://msdn.microsoft.com/0ce8f941-c187-437f-8bad-f882e63b8421">TF_DA_COLOR</a> structure that defines the text foreground color.
+Contains a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_da_color">TF_DA_COLOR</a> structure that defines the text foreground color.
 
 
 ### -field crBk
@@ -72,7 +72,7 @@ Contains a <b>TF_DA_COLOR</b> structure that defines the text background color.
 
 ### -field lsStyle
 
-Contains a <a href="https://msdn.microsoft.com/36ea6359-e25a-4b23-8d9d-961d743268ab">TF_DA_LINESTYLE</a> enumeration value that defines the underline style.
+Contains a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ne-msctf-__midl___midl_itf_msctf_0000_0070_0001">TF_DA_LINESTYLE</a> enumeration value that defines the underline style.
 
 
 ### -field fBoldLine
@@ -87,7 +87,7 @@ Contains a <b>TF_DA_COLOR</b> structure that defines the color of the underline.
 
 ### -field bAttr
 
-Contains a <a href="https://msdn.microsoft.com/894e6c15-d911-4e0c-96b1-db6ec8e43eba">TF_DA_ATTR_INFO</a> value that defines text conversion display attribute data.
+Contains a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ne-msctf-__midl___midl_itf_msctf_0000_0070_0004">TF_DA_ATTR_INFO</a> value that defines text conversion display attribute data.
 
 
 ## -see-also
@@ -95,17 +95,17 @@ Contains a <a href="https://msdn.microsoft.com/894e6c15-d911-4e0c-96b1-db6ec8e43
 
 
 
-<a href="https://msdn.microsoft.com/894e6c15-d911-4e0c-96b1-db6ec8e43eba">TF_DA_ATTR_INFO
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ne-msctf-__midl___midl_itf_msctf_0000_0070_0004">TF_DA_ATTR_INFO
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/0ce8f941-c187-437f-8bad-f882e63b8421">TF_DA_COLOR
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_da_color">TF_DA_COLOR
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/36ea6359-e25a-4b23-8d9d-961d743268ab">TF_DA_LINESTYLE
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ne-msctf-__midl___midl_itf_msctf_0000_0070_0001">TF_DA_LINESTYLE
       </a>
  
 

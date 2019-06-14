@@ -52,11 +52,11 @@ req.redist:
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
     available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
     information, and alternatives to TxF, please see 
-    <a href="https://msdn.microsoft.com/9ee26e7e-990e-4cd3-8180-f0fcaac2b752">Alternatives to using Transactional NTFS</a>.]
+    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
 Sets the log mode and log parameter information for a secondary resource manager (RM).
 
-To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
+To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
     function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -172,15 +172,15 @@ This control code is for remote clients to use when setting log parameters, and 
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a610ba4-88d5-4274-b068-8cbde9a67a95">Secondary Resource Managers for TxF Volumes</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-reference">Secondary Resource Managers for TxF Volumes</a>
 
 
 
-<a href="https://msdn.microsoft.com/f50d64de-4452-47ac-b2fe-a049afbd526c">TXFS_MODIFY_RM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_modify_rm">TXFS_MODIFY_RM</a>
  
 
  

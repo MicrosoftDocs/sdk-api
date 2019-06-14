@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the  <a href="https://msdn.microsoft.com/en-us/library/Dd372956(v=VS.85).aspx">XPS_FILL_RULE</a> value that describes the fill rule to be used.
+Gets the  <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0010">XPS_FILL_RULE</a> value that describes the fill rule to be used.
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Gets the  <a href="https://msdn.microsoft.com/en-us/library/Dd372956(v=VS.85).as
 
 ### -param fillRule [out, retval]
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd372956(v=VS.85).aspx">XPS_FILL_RULE</a> value that describes the fill rule to be used.
+The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0010">XPS_FILL_RULE</a> value that describes the fill rule to be used.
 
 
 ## -returns
 
 
 
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -105,7 +105,7 @@ The method succeeded.
 
 
 
-For more information about how the file rule determines whether a point is inside the fill region, see <a href="https://msdn.microsoft.com/en-us/library/Dd372956(v=VS.85).aspx">XPS_FILL_RULE</a>. 
+For more information about how the file rule determines whether a point is inside the fill region, see <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0010">XPS_FILL_RULE</a>. 
 
 The value that is returned in <i>fillRule</i>  corresponds to the <b>FillRule</b> attribute of the <b>PathGeometry</b> element in the document markup.
 
@@ -117,7 +117,7 @@ The value that is returned in <i>fillRule</i>  corresponds to the <b>FillRule</b
 
 
 
-<a href="https://msdn.microsoft.com/d3f74c1e-49ef-40ee-a2f4-b6d198b57624">IXpsOMGeometry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometry">IXpsOMGeometry</a>
 
 
 
@@ -125,11 +125,11 @@ The value that is returned in <i>fillRule</i>  corresponds to the <b>FillRule</b
 
 
 
-<a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd372956(v=VS.85).aspx">XPS_FILL_RULE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0010">XPS_FILL_RULE</a>
  
 
  

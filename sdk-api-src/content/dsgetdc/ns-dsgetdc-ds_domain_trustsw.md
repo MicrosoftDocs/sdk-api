@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DS_DOMAIN_TRUSTS</b> structure is used with the <a href="https://msdn.microsoft.com/6c3b788f-ee53-4637-acdb-04316e8464fe">DsEnumerateDomainTrusts</a> function to contain  trust data for a domain.
+The <b>DS_DOMAIN_TRUSTS</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsenumeratedomaintrustsa">DsEnumerateDomainTrusts</a> function to contain  trust data for a domain.
 
 
 ## -struct-fields
@@ -87,25 +87,25 @@ Contains a set of flags that specify more data about the domain trust. This can 
 
 #### DS_DOMAIN_IN_FOREST (1 (0x1))
 
-The domain represented by this structure is a member of the same forest as the server specified in the <i>ServerName</i> parameter of the <a href="https://msdn.microsoft.com/6c3b788f-ee53-4637-acdb-04316e8464fe">DsEnumerateDomainTrusts</a> function.
+The domain represented by this structure is a member of the same forest as the server specified in the <i>ServerName</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsenumeratedomaintrustsa">DsEnumerateDomainTrusts</a> function.
 
 
 
 #### DS_DOMAIN_DIRECT_OUTBOUND (2 (0x2))
 
-The domain represented by this structure is directly trusted by the domain that the server specified in the <i>ServerName</i> parameter of the <a href="https://msdn.microsoft.com/6c3b788f-ee53-4637-acdb-04316e8464fe">DsEnumerateDomainTrusts</a> function is a member of.
+The domain represented by this structure is directly trusted by the domain that the server specified in the <i>ServerName</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsenumeratedomaintrustsa">DsEnumerateDomainTrusts</a> function is a member of.
 
 
 
 #### DS_DOMAIN_TREE_ROOT (4 (0x4))
 
-The domain represented by this structure is the root of a tree and a member of the same forest as the server specified in the <i>ServerName</i> parameter of the <a href="https://msdn.microsoft.com/6c3b788f-ee53-4637-acdb-04316e8464fe">DsEnumerateDomainTrusts</a> function.
+The domain represented by this structure is the root of a tree and a member of the same forest as the server specified in the <i>ServerName</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsenumeratedomaintrustsa">DsEnumerateDomainTrusts</a> function.
 
 
 
 #### DS_DOMAIN_PRIMARY (8 (0x8))
 
-The domain represented by this structure is the primary domain of the server specified in the <i>ServerName</i> parameter of the <a href="https://msdn.microsoft.com/6c3b788f-ee53-4637-acdb-04316e8464fe">DsEnumerateDomainTrusts</a> function.
+The domain represented by this structure is the primary domain of the server specified in the <i>ServerName</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsenumeratedomaintrustsa">DsEnumerateDomainTrusts</a> function.
 
 
 
@@ -117,26 +117,26 @@ The domain represented by this structure is running in the Windows 2000 native m
 
 #### DS_DOMAIN_DIRECT_INBOUND (32 (0x20))
 
-The domain represented by this structure directly trusts the domain that the server specified in the <i>ServerName</i> parameter of the <a href="https://msdn.microsoft.com/6c3b788f-ee53-4637-acdb-04316e8464fe">DsEnumerateDomainTrusts</a> function is a member of.
+The domain represented by this structure directly trusts the domain that the server specified in the <i>ServerName</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsenumeratedomaintrustsa">DsEnumerateDomainTrusts</a> function is a member of.
 
 
 ### -field ParentIndex
 
-Contains the index in the <i>Domains</i> array returned by the <a href="https://msdn.microsoft.com/6c3b788f-ee53-4637-acdb-04316e8464fe">DsEnumerateDomainTrusts</a> function that corresponds to the parent domain of the domain represented by this structure. This member is only valid if the all of the following conditions are met:
+Contains the index in the <i>Domains</i> array returned by the <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsenumeratedomaintrustsa">DsEnumerateDomainTrusts</a> function that corresponds to the parent domain of the domain represented by this structure. This member is only valid if the all of the following conditions are met:
 
 <ul>
-<li>The <b>DS_DOMAIN_IN_FOREST</b> flag was specified in the <i>Flags</i> parameter of the <a href="https://msdn.microsoft.com/6c3b788f-ee53-4637-acdb-04316e8464fe">DsEnumerateDomainTrusts</a> function.</li>
+<li>The <b>DS_DOMAIN_IN_FOREST</b> flag was specified in the <i>Flags</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsenumeratedomaintrustsa">DsEnumerateDomainTrusts</a> function.</li>
 <li>The <b>Flags</b> member of this structure does not contain the <b>DS_DOMAIN_TREE_ROOT</b> flag.</li>
 </ul>
 
 ### -field TrustType
 
-Contains a value that indicates the type of trust represented by this structure. Possible values for this member are documented in the <b>TrustType</b> member of the <a href="https://msdn.microsoft.com/acf9a2b5-f301-4e6a-a515-df338658ad56">TRUSTED_DOMAIN_INFORMATION_EX</a> structure.
+Contains a value that indicates the type of trust represented by this structure. Possible values for this member are documented in the <b>TrustType</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_trusted_domain_information_ex">TRUSTED_DOMAIN_INFORMATION_EX</a> structure.
 
 
 ### -field TrustAttributes
 
-Contains a value that indicates the attributes of the trust represented by this structure. Possible values for this member are documented in the <b>TrustAttribute</b> member of the <a href="https://msdn.microsoft.com/acf9a2b5-f301-4e6a-a515-df338658ad56">TRUSTED_DOMAIN_INFORMATION_EX</a> structure.
+Contains a value that indicates the attributes of the trust represented by this structure. Possible values for this member are documented in the <b>TrustAttribute</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_trusted_domain_information_ex">TRUSTED_DOMAIN_INFORMATION_EX</a> structure.
 
 
 ### -field DomainSid
@@ -151,17 +151,17 @@ Contains the GUID of the domain represented by this structure.
 
 ##### - Flags.DS_DOMAIN_DIRECT_INBOUND (32 (0x20))
 
-The domain represented by this structure directly trusts the domain that the server specified in the <i>ServerName</i> parameter of the <a href="https://msdn.microsoft.com/6c3b788f-ee53-4637-acdb-04316e8464fe">DsEnumerateDomainTrusts</a> function is a member of.
+The domain represented by this structure directly trusts the domain that the server specified in the <i>ServerName</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsenumeratedomaintrustsa">DsEnumerateDomainTrusts</a> function is a member of.
 
 
 ##### - Flags.DS_DOMAIN_DIRECT_OUTBOUND (2 (0x2))
 
-The domain represented by this structure is directly trusted by the domain that the server specified in the <i>ServerName</i> parameter of the <a href="https://msdn.microsoft.com/6c3b788f-ee53-4637-acdb-04316e8464fe">DsEnumerateDomainTrusts</a> function is a member of.
+The domain represented by this structure is directly trusted by the domain that the server specified in the <i>ServerName</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsenumeratedomaintrustsa">DsEnumerateDomainTrusts</a> function is a member of.
 
 
 ##### - Flags.DS_DOMAIN_IN_FOREST (1 (0x1))
 
-The domain represented by this structure is a member of the same forest as the server specified in the <i>ServerName</i> parameter of the <a href="https://msdn.microsoft.com/6c3b788f-ee53-4637-acdb-04316e8464fe">DsEnumerateDomainTrusts</a> function.
+The domain represented by this structure is a member of the same forest as the server specified in the <i>ServerName</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsenumeratedomaintrustsa">DsEnumerateDomainTrusts</a> function.
 
 
 ##### - Flags.DS_DOMAIN_NATIVE_MODE (16 (0x10))
@@ -171,12 +171,12 @@ The domain represented by this structure is running in the Windows 2000 native m
 
 ##### - Flags.DS_DOMAIN_PRIMARY (8 (0x8))
 
-The domain represented by this structure is the primary domain of the server specified in the <i>ServerName</i> parameter of the <a href="https://msdn.microsoft.com/6c3b788f-ee53-4637-acdb-04316e8464fe">DsEnumerateDomainTrusts</a> function.
+The domain represented by this structure is the primary domain of the server specified in the <i>ServerName</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsenumeratedomaintrustsa">DsEnumerateDomainTrusts</a> function.
 
 
 ##### - Flags.DS_DOMAIN_TREE_ROOT (4 (0x4))
 
-The domain represented by this structure is the root of a tree and a member of the same forest as the server specified in the <i>ServerName</i> parameter of the <a href="https://msdn.microsoft.com/6c3b788f-ee53-4637-acdb-04316e8464fe">DsEnumerateDomainTrusts</a> function.
+The domain represented by this structure is the root of a tree and a member of the same forest as the server specified in the <i>ServerName</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsenumeratedomaintrustsa">DsEnumerateDomainTrusts</a> function.
 
 
 ## -see-also
@@ -184,15 +184,15 @@ The domain represented by this structure is the root of a tree and a member of t
 
 
 
-<a href="https://msdn.microsoft.com/4df5f356-a39b-40a4-9e62-994ad27df3a9">Directory Service Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/directory-service-structures">Directory Service Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c3b788f-ee53-4637-acdb-04316e8464fe">DsEnumerateDomainTrusts</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsenumeratedomaintrustsa">DsEnumerateDomainTrusts</a>
 
 
 
-<a href="https://msdn.microsoft.com/acf9a2b5-f301-4e6a-a515-df338658ad56">TRUSTED_DOMAIN_INFORMATION_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_trusted_domain_information_ex">TRUSTED_DOMAIN_INFORMATION_EX</a>
  
 
  

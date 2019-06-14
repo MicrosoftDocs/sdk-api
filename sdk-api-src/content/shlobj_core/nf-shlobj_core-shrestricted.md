@@ -63,9 +63,9 @@ Determines whether a specified administrator policy is in effect. In many cases,
 
 ### -param rest
 
-Type: <b><a href="https://msdn.microsoft.com/14eac1b9-8ef6-4473-81c1-72ba270a9da7">RESTRICTIONS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ne-shlobj_core-restrictions">RESTRICTIONS</a></b>
 
-Specifies one of the flags described in the <a href="https://msdn.microsoft.com/14eac1b9-8ef6-4473-81c1-72ba270a9da7">RESTRICTIONS</a> enumerated type.
+Specifies one of the flags described in the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ne-shlobj_core-restrictions">RESTRICTIONS</a> enumerated type.
 
 
 ## -returns

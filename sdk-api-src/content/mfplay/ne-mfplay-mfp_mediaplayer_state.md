@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://msdn.microsoft.com/dac99908-be90-415d-8837-2f97d573feb5">Media Session</a> for playback.</div>
+<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
 <div> </div>
 
 
@@ -84,7 +84,7 @@ Playback is paused.
 
 ### -field MFP_MEDIAPLAYER_STATE_SHUTDOWN
 
-The player object was shut down. This state is returned after the application calls <a href="https://msdn.microsoft.com/c56b07b5-f595-4933-9af6-868fc8938849">IMFPMediaPlayer::Shutdown</a>.
+The player object was shut down. This state is returned after the application calls <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-shutdown">IMFPMediaPlayer::Shutdown</a>.
 
 
 ## -see-also
@@ -92,11 +92,11 @@ The player object was shut down. This state is returned after the application ca
 
 
 
-<a href="https://msdn.microsoft.com/072c5e93-b3ce-469c-8235-3e9c63bd77e3">IMFPMediaPlayer::GetState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-getstate">IMFPMediaPlayer::GetState</a>
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

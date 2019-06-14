@@ -66,35 +66,35 @@ Security parameter index (SPI) of the IPsec SA. <b>IPSEC_SA_SPI</b> is defined i
 
 Transform type of the SA specifying the IPsec security protocol.
 
-See <a href="https://msdn.microsoft.com/068f17f2-8696-4419-9daa-d8f6486e39a3">IPSEC_TRANSFORM_TYPE</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_transform_type_">IPSEC_TRANSFORM_TYPE</a> for more information.
 
 
 ### -field ahInformation
 
 Security algorithms of the SA transform. Available when <b>saTransformType</b> is <b>IPSEC_TRANSFORM_AH</b>.
 
-See <a href="https://msdn.microsoft.com/54a03edd-94cb-478a-a647-473872408701">IPSEC_SA_AUTH_INFORMATION0</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_auth_information0_">IPSEC_SA_AUTH_INFORMATION0</a> for more information.
 
 
 ### -field espAuthInformation
 
 Security algorithms of the SA transform. Available when <b>saTransformType</b> is <b>IPSEC_TRANSFORM_ESP_AUTH</b>.
 
-See <a href="https://msdn.microsoft.com/54a03edd-94cb-478a-a647-473872408701">IPSEC_SA_AUTH_INFORMATION0</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_auth_information0_">IPSEC_SA_AUTH_INFORMATION0</a> for more information.
 
 
 ### -field espCipherInformation
 
 Security algorithms of the SA transform. Available when <b>saTransformType</b> is <b>IPSEC_TRANSFORM_ESP_CIPHER</b>.
 
-See <a href="https://msdn.microsoft.com/2a5105ad-b77f-46b7-9a79-50514b88e7ce">IPSEC_SA_CIPHER_INFORMATION0</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_cipher_information0_">IPSEC_SA_CIPHER_INFORMATION0</a> for more information.
 
 
 ### -field espAuthAndCipherInformation
 
 Security algorithms of the SA transform. Available when <b>saTransformType</b> is <b>IPSEC_TRANSFORM_ESP_AUTH_AND_CIPHER</b>.
 
-See <a href="https://msdn.microsoft.com/en-us/library/Aa366467(v=VS.85).aspx">IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_auth_and_cipher_information0_">IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0</a> for more information.
 
 
 ### -field espAuthFwInformation
@@ -111,7 +111,7 @@ Security algorithms of the SA transform. Available when <b>saTransformType</b> i
 
 
 
-<b>IPSEC_SA0</b> is a specific implementation of IPSEC_SA. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>IPSEC_SA0</b> is a specific implementation of IPSEC_SA. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -121,23 +121,23 @@ Security algorithms of the SA transform. Available when <b>saTransformType</b> i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa366467(v=VS.85).aspx">IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_auth_and_cipher_information0_">IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0</a>
 
 
 
-<a href="https://msdn.microsoft.com/54a03edd-94cb-478a-a647-473872408701">IPSEC_SA_AUTH_INFORMATION0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_auth_information0_">IPSEC_SA_AUTH_INFORMATION0</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a5105ad-b77f-46b7-9a79-50514b88e7ce">IPSEC_SA_CIPHER_INFORMATION0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_cipher_information0_">IPSEC_SA_CIPHER_INFORMATION0</a>
 
 
 
-<a href="https://msdn.microsoft.com/068f17f2-8696-4419-9daa-d8f6486e39a3">IPSEC_TRANSFORM_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_transform_type_">IPSEC_TRANSFORM_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

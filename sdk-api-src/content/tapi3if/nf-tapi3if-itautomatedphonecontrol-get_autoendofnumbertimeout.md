@@ -79,7 +79,7 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an error value.
 A value of 0 turns off this timeout and bases the end-of-number detection solely on the user pressing the # or SEND button.
 
 End-of-number-detection ceases (without a detection event) when an invocation of 
-<a href="https://msdn.microsoft.com/b9e721cb-8f62-420d-bfc1-f8e634f0f2d4">ITAutomatedPhoneControl::SelectCall</a> succeeds, and detection remains suspended until the call is unselected.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-selectcall">ITAutomatedPhoneControl::SelectCall</a> succeeds, and detection remains suspended until the call is unselected.
 
 The <b>AutoEndOfNumberTimeout</b> property controls only what happens after at least one keypad button has been pressed.
 
@@ -91,15 +91,15 @@ The <b>AutoEndOfNumberTimeout</b> property controls only what happens after at l
 
 
 
-<a href="https://msdn.microsoft.com/60d4f079-75ee-4aeb-9e7c-0b16d90da754">ITAutomatedPhoneControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itautomatedphonecontrol">ITAutomatedPhoneControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/b9e721cb-8f62-420d-bfc1-f8e634f0f2d4">ITAutomatedPhoneControl::SelectCall</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-selectcall">ITAutomatedPhoneControl::SelectCall</a>
 
 
 
-<a href="https://msdn.microsoft.com/985466a4-212b-48fd-b901-5fd3cc37eb0e">put_AutoEndOfNumberTimeout</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-put_autoendofnumbertimeout">put_AutoEndOfNumberTimeout</a>
  
 
  

@@ -91,13 +91,13 @@ A pointer to the site name of the target computer. This parameter can be <b>NULL
 ### -param pComputerTarget [in]
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/65b0eb27-fc4a-44d6-843e-965a90dc51e8">RSOP_TARGET</a> structure that contains information about a computer. This parameter can be <b>NULL</b>, but if it is <b>NULL</b>, the <i>pUserTarget</i> parameter is required.
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-_rsop_target">RSOP_TARGET</a> structure that contains information about a computer. This parameter can be <b>NULL</b>, but if it is <b>NULL</b>, the <i>pUserTarget</i> parameter is required.
 
 
 ### -param pUserTarget [in]
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/65b0eb27-fc4a-44d6-843e-965a90dc51e8">RSOP_TARGET</a> structure that contains information about a user. This parameter can be <b>NULL</b>, but if it is <b>NULL</b>, the <i>pComputerTarget</i> parameter is required.
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-_rsop_target">RSOP_TARGET</a> structure that contains information about a user. This parameter can be <b>NULL</b>, but if it is <b>NULL</b>, the <i>pComputerTarget</i> parameter is required.
 
 
 ## -returns
@@ -105,7 +105,7 @@ A pointer to an
 
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>. Otherwise, the function returns one of the system error codes. For a complete list of error codes, see 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a> or the header file WinError.h.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a> or the header file WinError.h.
 
 
 
@@ -128,17 +128,17 @@ The policy extension must register this callback function at the registry key:<b
 
 
 
-<a href="https://msdn.microsoft.com/7c45666e-d7c7-4989-ad19-b1b230757a88">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
     Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/1285ab5a-ea68-4c16-bc34-8ab2f3cfad35">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/65b0eb27-fc4a-44d6-843e-965a90dc51e8">RSOP_TARGET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-_rsop_target">RSOP_TARGET</a>
  
 
  

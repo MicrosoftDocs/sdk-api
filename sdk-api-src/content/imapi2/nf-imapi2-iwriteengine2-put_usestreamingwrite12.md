@@ -110,15 +110,15 @@ Value: 0x80004005
 
 
 
-<a href="https://msdn.microsoft.com/89e7526f-2b9b-4f37-b537-5046a0ac283d">IWriteEngine2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2">IWriteEngine2</a>
 
 
 
-<a href="https://msdn.microsoft.com/a6158984-04d3-4919-8a67-fc860b4b3a47">IWriteEngine2::WriteSection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-writesection">IWriteEngine2::WriteSection</a>
 
 
 
-<a href="https://msdn.microsoft.com/28f5673e-73f4-4bec-bdee-49cbd030a0d6">IWriteEngine2::get_UseStreamingWrite12</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_usestreamingwrite12">IWriteEngine2::get_UseStreamingWrite12</a>
  
 
  

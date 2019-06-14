@@ -85,7 +85,7 @@ Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 
 
 
-<a href="https://msdn.microsoft.com/2857c8b7-019d-4ec2-9a00-574fc8541cae">IGPMGPO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a>
  
 
  

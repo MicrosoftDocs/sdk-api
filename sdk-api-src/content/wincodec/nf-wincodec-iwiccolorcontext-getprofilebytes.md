@@ -93,7 +93,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Only use this method if the context type is <a href="https://msdn.microsoft.com/en-us/library/Ee719815(v=VS.85).aspx">WICColorContextProfile</a>.
+Only use this method if the context type is <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wiccolorcontexttype">WICColorContextProfile</a>.
 
 
 Calling this method with <i>pbBuffer</i> set to <b>NULL</b> will cause it to return the required buffer size in <i>pcbActual</i>.

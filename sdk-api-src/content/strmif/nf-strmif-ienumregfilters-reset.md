@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 <div class="alert"><b>Note</b>  The <b>IEnumRegFilters</b> interface is deprecated.</div>
 <div> </div>
-Resets the enumerator so that the next call to the <a href="https://msdn.microsoft.com/ec255b9b-33cf-42a3-9f02-f1f34eee2da1">IEnumRegFilters::Next</a> method begins again at the first filter, if any.
+Resets the enumerator so that the next call to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ienumregfilters-next">IEnumRegFilters::Next</a> method begins again at the first filter, if any.
 
 
 
@@ -78,11 +78,11 @@ Returns S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/59cb809d-84f5-42c4-a385-0f586af4d048">IEnumRegFilters Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ienumregfilters">IEnumRegFilters Interface</a>
  
 
  

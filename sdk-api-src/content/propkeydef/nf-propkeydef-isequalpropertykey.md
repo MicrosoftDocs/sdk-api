@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Compares the members of two <a href="https://msdn.microsoft.com/3f5f31af-f040-443b-9045-9761055381ea">PROPERTYKEY</a> structures and returns whether they are equal.
+Compares the members of two <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structures and returns whether they are equal.
 
 
 ## -parameters
@@ -59,12 +59,12 @@ Compares the members of two <a href="https://msdn.microsoft.com/3f5f31af-f040-44
 
 ### -param a
 
-The first <a href="https://msdn.microsoft.com/3f5f31af-f040-443b-9045-9761055381ea">PROPERTYKEY</a>.
+The first <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a>.
 
 
 ### -param b
 
-The second <a href="https://msdn.microsoft.com/3f5f31af-f040-443b-9045-9761055381ea">PROPERTYKEY</a>.
+The second <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a>.
 
 
 ## -remarks

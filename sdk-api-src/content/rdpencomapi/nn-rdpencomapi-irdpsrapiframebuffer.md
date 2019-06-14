@@ -51,12 +51,12 @@ ms.custom: 19H1
 
 Provides data about the frame buffer size and format and allows the contents to be retrieved.
 
-Applications can get a pointer to this interface from the <b>FrameBuffer</b> property of the <a href="https://msdn.microsoft.com/3ac68be7-e6fd-42c7-b2f3-b90bb5097b07">IRDPSRAPISharingSession2</a> interface. 
+Applications can get a pointer to this interface from the <b>FrameBuffer</b> property of the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapisharingsession2">IRDPSRAPISharingSession2</a> interface. 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPIFrameBuffer</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IRDPSRAPIFrameBuffer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPIFrameBuffer</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IRDPSRAPIFrameBuffer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,7 +72,7 @@ The <b>IRDPSRAPIFrameBuffer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6497d9d1-c987-40ea-b384-0fff1e852122">GetFrameBufferBits</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiframebuffer-getframebufferbits">GetFrameBufferBits</a>
 </td>
 <td align="left" width="63%">
 Gets a specified area of the frame buffer.
@@ -90,7 +90,7 @@ Gets a specified area of the frame buffer.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/864e7669-fc33-4473-9106-d436d6900bf2">Bpp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiframebuffer-get_bpp">Bpp</a>
 
 
 </td>
@@ -106,7 +106,7 @@ Bits per pixel.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/56042b85-6f2c-44ec-82ac-81ee9425c863">Height</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiframebuffer-get_height">Height</a>
 
 
 </td>
@@ -122,7 +122,7 @@ The height of the frame in pixels.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/7f54d18a-29cf-402a-a672-2d0dae1f8ce4">Width</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiframebuffer-get_width">Width</a>
 
 
 </td>

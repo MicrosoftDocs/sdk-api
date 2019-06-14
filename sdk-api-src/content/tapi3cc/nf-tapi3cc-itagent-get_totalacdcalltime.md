@@ -53,7 +53,7 @@ The
 <b>get_TotalACDCallTime</b> gets the number of seconds spent on ACD calls by this agent (across all sessions). This value includes the time spent on the phone plus wrap-up time.
 
 The measurement period over which this information is calculated is switch- and/or implementation-specific. (See 
-<a href="https://msdn.microsoft.com/ccc91dfb-83e5-496a-921d-784fcaea5af5">get_MeasurementPeriod</a>.)
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_measurementperiod">get_MeasurementPeriod</a>.)
 
 
 ## -parameters
@@ -132,7 +132,7 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 
 
 
-<a href="https://msdn.microsoft.com/6c1409c9-da73-4d21-bf56-07e9ab7b33a0">ITAgent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
  
 
  

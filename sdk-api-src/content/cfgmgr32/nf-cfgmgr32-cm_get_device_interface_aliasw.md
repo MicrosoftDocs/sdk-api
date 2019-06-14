@@ -61,7 +61,7 @@ The <b>CM_Get_Device_Interface_Alias</b> function returns the alias of the speci
 
 ### -param pszDeviceInterface [in]
 
-Pointer to the name of the device interface instance for which to retrieve an alias. The caller typically received this string from a call to <a href="https://msdn.microsoft.com/3f2dfc0f-1bde-40a8-b48c-25b75759e0d8">CM_Get_Device_Interface_List</a>, or in a PnP notification structure.
+Pointer to the name of the device interface instance for which to retrieve an alias. The caller typically received this string from a call to <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_interface_lista">CM_Get_Device_Interface_List</a>, or in a PnP notification structure.
 
 
 ### -param AliasInterfaceGuid [in]

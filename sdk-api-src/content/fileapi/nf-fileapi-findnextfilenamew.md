@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Continues enumerating the hard links to a file using the handle returned by a successful call to the 
-    <a href="https://msdn.microsoft.com/9f64aa3e-4c73-47a8-8304-6134f1b4d153">FindFirstFileNameW</a> function.
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilenamew">FindFirstFileNameW</a> function.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Continues enumerating the hard links to a file using the handle returned by a su
 ### -param hFindStream [in]
 
 A handle to the enumeration that is returned by a successful call to 
-      <a href="https://msdn.microsoft.com/9f64aa3e-4c73-47a8-8304-6134f1b4d153">FindFirstFileNameW</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilenamew">FindFirstFileNameW</a>.
 
 
 ### -param StringLength [in, out]
@@ -85,9 +85,9 @@ A pointer to a buffer to store the first link name found for <i>lpFileName</i>.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero (0). To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-If no matching files can be found, the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> 
+If no matching files can be found, the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> 
        function returns <b>ERROR_HANDLE_EOF</b>.
 
 
@@ -167,15 +167,15 @@ Yes
 
 
 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/64b3bc49-1e0e-4572-9d9f-936c45f5b01c">FindClose</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findclose">FindClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/9f64aa3e-4c73-47a8-8304-6134f1b4d153">FindFirstFileNameW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilenamew">FindFirstFileNameW</a>
  
 
  

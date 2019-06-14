@@ -78,10 +78,10 @@ Pointer to a <b>null</b>-terminated string that contains the replacement platfor
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 If 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns ERROR_NOT_ENOUGH_MEMORY, 
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_NOT_ENOUGH_MEMORY, 
 <b>SetupSetPlatformPathOverride</b> was unable to store the <i>Override</i> string.
 
 
@@ -105,15 +105,15 @@ The paths of file copy operations queued before the path override is set are not
 
 
 
-<a href="https://msdn.microsoft.com/0a9518b7-f231-48f2-ba50-5b802f8ccaed">Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/58201596-cb8c-480a-abef-896c1f9ef098">Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/bacb7b90-a391-4f05-bedb-0c0f52fd15f9">SetupSetDirectoryId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupsetdirectoryida">SetupSetDirectoryId</a>
  
 
  

@@ -61,7 +61,7 @@ Establishes the session key for a cryptographic session.
 
 ### -param pCryptoSession [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/E17F39CB-61E3-44EF-805D-AD386743744E">ID3D11CryptoSession</a> interface of the cryptographic session.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11cryptosession">ID3D11CryptoSession</a> interface of the cryptographic session.
 
 
 ### -param DataSize [in]
@@ -103,7 +103,7 @@ For RSA Encryption Scheme - Optimal Asymmetric Encryption Padding (RSAES-OAEP), 
 
 
 
-<a href="https://msdn.microsoft.com/6EF09C31-56C7-46B5-87AE-B1FE43EC66FC">ID3D11VideoContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a>
  
 
  

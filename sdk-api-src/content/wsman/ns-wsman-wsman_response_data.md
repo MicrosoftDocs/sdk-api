@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents the output data received from a <a href="https://msdn.microsoft.com/45895a4e-b7de-4469-ae78-6d1d3f9d6145">WSMan</a> operation.
+Represents the output data received from a <a href="https://docs.microsoft.com/windows/desktop/WinRM/wsman">WSMan</a> operation.
 
 
 ## -struct-fields
@@ -59,12 +59,12 @@ Represents the output data received from a <a href="https://msdn.microsoft.com/4
 
 ### -field receiveData
 
-Represents the output data received from a <a href="https://msdn.microsoft.com/cc64f212-9897-4a58-b3f1-bc2093f593ba">WSManReceiveShellOutput</a> method.
+Represents the output data received from a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanreceiveshelloutput">WSManReceiveShellOutput</a> method.
 
 
 ### -field connectData
 
-Represents the output data received from a <a href="https://msdn.microsoft.com/B765AB84-5EDA-46D6-9150-A8BBD101EF10">WSManConnectShell</a> or <a href="https://msdn.microsoft.com/860EC6F8-35A9-4C12-9247-4E14E6B1D66A">WSManConnectShellCommand</a> method.
+Represents the output data received from a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanconnectshell">WSManConnectShell</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanconnectshellcommand">WSManConnectShellCommand</a> method.
 
 
 ### -field createData

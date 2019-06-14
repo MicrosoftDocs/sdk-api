@@ -115,7 +115,7 @@ No property with <i>propertyName</i> was found, or the property cannot be applie
 
 
 
-This index can be passed to the <a href="https://msdn.microsoft.com/6FC5A7CF-A5EF-48B1-8DCD-4885BAFA0055">GetProperty</a> method in order to retrieve a specific property on an object.
+This index can be passed to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/xaml_diagnostics/ivisualtreeservice2-getproperty">GetProperty</a> method in order to retrieve a specific property on an object.
 
 
 
@@ -125,7 +125,7 @@ This index can be passed to the <a href="https://msdn.microsoft.com/6FC5A7CF-A5E
 
 
 
-<a href="https://msdn.microsoft.com/022E495B-2609-4CA0-A69D-BFC4A04A6F9B">IVisualTreeService2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice2">IVisualTreeService2</a>
  
 
  

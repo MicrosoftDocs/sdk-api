@@ -98,7 +98,7 @@ Pointer <i>ppwstrName</i> is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/3bcfab9f-fad8-4605-8780-0b7c2068fcdf">IPart Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart Interface</a>
  
 
  

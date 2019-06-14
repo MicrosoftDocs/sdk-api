@@ -62,17 +62,17 @@ Begins an asynchronous request to create a byte stream from a file.
 
 ### -param AccessMode [in]
 
-The requested access mode, specified as a member of the <a href="https://msdn.microsoft.com/en-us/library/ms696239(v=VS.85).aspx">MF_FILE_ACCESSMODE</a> enumeration.
+The requested access mode, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-__midl___midl_itf_mfobjects_0000_0017_0001">MF_FILE_ACCESSMODE</a> enumeration.
 
 
 ### -param OpenMode [in]
 
-The behavior of the function if the file already exists or does not exist, specified as a member of the <a href="https://msdn.microsoft.com/en-us/library/ms694164(v=VS.85).aspx">MF_FILE_OPENMODE</a> enumeration.
+The behavior of the function if the file already exists or does not exist, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-__midl___midl_itf_mfobjects_0000_0017_0002">MF_FILE_OPENMODE</a> enumeration.
 
 
 ### -param fFlags [in]
 
-Bitwise <b>OR</b> of values from the <a href="https://msdn.microsoft.com/en-us/library/ms694926(v=VS.85).aspx">MF_FILE_FLAGS</a> enumeration.
+Bitwise <b>OR</b> of values from the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-__midl___midl_itf_mfobjects_0000_0017_0003">MF_FILE_FLAGS</a> enumeration.
 
 
 ### -param pwszFilePath [in]
@@ -82,7 +82,7 @@ Pointer to a null-terminated string containing the file name.
 
 ### -param pCallback [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/7edff985-da59-4cc0-96de-1a92e03a7d41">IMFAsyncCallback</a> interface of a callback object. The caller must implement this interface
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface of a callback object. The caller must implement this interface
 
 
 ### -param pState [in]
@@ -92,7 +92,7 @@ Pointer to the <b>IUnknown</b> interface of a state object, defined by the calle
 
 ### -param ppCancelCookie [out]
 
-Receives an <b>IUnknown</b> pointer or the value <b>NULL</b>. If the value is not <b>NULL</b>, you can cancel the asynchronous operation by passing this pointer to the <a href="https://msdn.microsoft.com/b3c0cad8-d578-4752-a2ea-0aa5c35a181a">MFCancelCreateFile</a> function. The caller must release the interface. This parameter is optional and can be <b>NULL</b>.
+Receives an <b>IUnknown</b> pointer or the value <b>NULL</b>. If the value is not <b>NULL</b>, you can cancel the asynchronous operation by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcancelcreatefile">MFCancelCreateFile</a> function. The caller must release the interface. This parameter is optional and can be <b>NULL</b>.
 
 
 ## -returns
@@ -127,7 +127,7 @@ The function succeeded.
 
 
 
-When the request is completed, the callback object's <a href="https://msdn.microsoft.com/22473605-637e-4783-a8cb-98248b0a0327">IMFAsyncCallback::Invoke</a> method is called. The callback object should then call the <a href="https://msdn.microsoft.com/daa92660-5d0d-4c7c-985a-ad621eca4bfc">MFEndCreateFile</a> function to get a pointer to the byte stream.
+When the request is completed, the callback object's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method is called. The callback object should then call the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfendcreatefile">MFEndCreateFile</a> function to get a pointer to the byte stream.
 
 
 
@@ -137,7 +137,7 @@ When the request is completed, the callback object's <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

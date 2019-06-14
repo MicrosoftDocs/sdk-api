@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/a0e4a205-46d4-47c9-97cf-66f6bec34a1b">PFSCE_QUERY_INFO</a> callback function frees the memory for buffers allocated by the Security Configuration tool set when it calls 
-<a href="https://msdn.microsoft.com/a0e4a205-46d4-47c9-97cf-66f6bec34a1b">PFSCE_QUERY_INFO</a>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nc-scesvc-pfsce_query_info">PFSCE_QUERY_INFO</a> callback function frees the memory for buffers allocated by the Security Configuration tool set when it calls 
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nc-scesvc-pfsce_query_info">PFSCE_QUERY_INFO</a>.
 
 
 ## -parameters
@@ -96,7 +96,7 @@ One of the parameters passed into the function was not valid.
 
 
 
-<a href="https://msdn.microsoft.com/a0e4a205-46d4-47c9-97cf-66f6bec34a1b">PFSCE_QUERY_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nc-scesvc-pfsce_query_info">PFSCE_QUERY_INFO</a>
  
 
  

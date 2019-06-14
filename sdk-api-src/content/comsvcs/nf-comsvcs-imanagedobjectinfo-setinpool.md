@@ -64,7 +64,7 @@ Indicates whether the managed object belongs to the COM+ object pool.
 
 ### -param pPooledObj [in]
 
-A reference to <a href="https://msdn.microsoft.com/04853859-5d85-4b88-9e1b-422e3454fd3f">IManagedPooledObj</a> that describes how this managed object is used in the COM+ object pool.
+A reference to <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imanagedpooledobj">IManagedPooledObj</a> that describes how this managed object is used in the COM+ object pool.
 
 
 ## -returns
@@ -81,7 +81,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/7fa5f76e-df07-41b3-8fb0-62b84a034aa5">IManagedObjectInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imanagedobjectinfo">IManagedObjectInfo</a>
  
 
  

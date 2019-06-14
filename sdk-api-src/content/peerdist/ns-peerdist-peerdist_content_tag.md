@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PEERDIST_CONTENT_TAG</b> structure contains a client supplied content tag as an input to the <a href="https://msdn.microsoft.com/bf9d4eb2-e939-42c6-8d71-669a949ca77a">PeerDistClientOpenContent</a> API.
+The <b>PEERDIST_CONTENT_TAG</b> structure contains a client supplied content tag as an input to the <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a> API.
 
 
 ## -struct-fields
@@ -67,11 +67,11 @@ A 16 byte tag associated with the open content.
 
 
 
-<a href="https://msdn.microsoft.com/bb77499b-520b-4def-97d8-504983953d4b">PeerDistClientFlushContent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientflushcontent">PeerDistClientFlushContent</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf9d4eb2-e939-42c6-8d71-669a949ca77a">PeerDistClientOpenContent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a>
  
 
  

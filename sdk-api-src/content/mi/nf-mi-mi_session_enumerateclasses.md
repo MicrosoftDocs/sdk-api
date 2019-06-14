@@ -59,17 +59,17 @@ Enumerates the classes of a specified session.
 
 ### -param session [in]
 
-Session handle returned from <a href="https://msdn.microsoft.com/76010766-aa20-4632-940d-48d9769803da">MI_Application_NewSession</a>.
+Session handle returned from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newsession">MI_Application_NewSession</a>.
 
 
 ### -param flags
 
-Runtime type information (RTTI) and polymorphism <a href="https://msdn.microsoft.com/24E82AC6-A2E3-4EC6-931F-26AC54D5CAA7">flags</a>.
+Runtime type information (RTTI) and polymorphism <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-flags">flags</a>.
 
 
 ### -param options [in, optional]
 
-Optional <a href="https://msdn.microsoft.com/60445a53-c40c-4d0a-9650-21d0c7f3bbf6">MI_OperationOptions</a> value that specifies options such as timeouts and how to control the CIM semantics. Specify <b>Null</b> if no operation options are to be sent.
+Optional <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operationoptions">MI_OperationOptions</a> value that specifies options such as timeouts and how to control the CIM semantics. Specify <b>Null</b> if no operation options are to be sent.
 
 
 ### -param namespaceName
@@ -89,12 +89,12 @@ Boolean value where <b>MI_TRUE</b> means to retrieve only the class names and no
 
 ### -param callbacks [in, optional]
 
-Optional <a href="https://msdn.microsoft.com/f56954bf-c1aa-408b-bc45-0faf2a99b381">MI_OperationCallbacks</a> structure that defines the operational callbacks to receive the instance result and CIM semantics. Can be <b>NULL</b>. For asynchronous operation, the structure's <b>classResult</b> callback must be specified. If that value is not specified, then the client mus5t call the <a href="https://msdn.microsoft.com/f29f5a03-2b0b-4d36-97cb-f3b38f6037b3">MI_Operation_GetClass</a> function to retrieve the results.
+Optional <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operationcallbacks">MI_OperationCallbacks</a> structure that defines the operational callbacks to receive the instance result and CIM semantics. Can be <b>NULL</b>. For asynchronous operation, the structure's <b>classResult</b> callback must be specified. If that value is not specified, then the client mus5t call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_getclass">MI_Operation_GetClass</a> function to retrieve the results.
 
 
 ### -param operation [out]
 
-Returned operation handle that must be closed via <a href="https://msdn.microsoft.com/3e698e34-d537-4ea4-9345-cc4f493ff823">MI_Operation_Close</a> once complete.  Calling <a href="https://msdn.microsoft.com/11a9f9f6-9dfa-4f7c-9562-f4793c007f04">MI_Operation_Cancel</a> before it is complete will cause the operation to shutdown.  <b>MI_Operation_Close</b> and <b>MI_Operation_Cancel</b> can be called from any operation.
+Returned operation handle that must be closed via <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_close">MI_Operation_Close</a> once complete.  Calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_cancel">MI_Operation_Cancel</a> before it is complete will cause the operation to shutdown.  <b>MI_Operation_Close</b> and <b>MI_Operation_Cancel</b> can be called from any operation.
 
 
 ## -see-also
@@ -102,23 +102,23 @@ Returned operation handle that must be closed via <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/76010766-aa20-4632-940d-48d9769803da">MI_Application_NewSession</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newsession">MI_Application_NewSession</a>
 
 
 
-<a href="https://msdn.microsoft.com/f56954bf-c1aa-408b-bc45-0faf2a99b381">MI_OperationCallbacks</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operationcallbacks">MI_OperationCallbacks</a>
 
 
 
-<a href="https://msdn.microsoft.com/11a9f9f6-9dfa-4f7c-9562-f4793c007f04">MI_Operation_Cancel</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_cancel">MI_Operation_Cancel</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e698e34-d537-4ea4-9345-cc4f493ff823">MI_Operation_Close</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_close">MI_Operation_Close</a>
 
 
 
-<a href="https://msdn.microsoft.com/f29f5a03-2b0b-4d36-97cb-f3b38f6037b3">MI_Operation_GetClass</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_getclass">MI_Operation_GetClass</a>
  
 
  

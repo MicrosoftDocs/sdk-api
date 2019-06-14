@@ -71,7 +71,7 @@ Number of patches in the array. Must be greater than zero.
 
 ### -param pPatchInfo [in]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/75f76d85-39f6-4a2c-8b5f-1238639a2014">MSIPATCHSEQUENCEINFO</a> structures. 
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-tagmsipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structures. 
 
 
 ## -returns
@@ -181,7 +181,7 @@ An installation package referenced by path cannot be opened.
 </dl>
 </td>
 <td width="60%">
-This error can be returned if the function was called from a <a href="https://msdn.microsoft.com/4a1f3ccc-4904-47d0-bfc6-013e404de47e">custom action</a>  or if MSXML 3.0 is not installed. 
+This error can be returned if the function was called from a <a href="https://docs.microsoft.com/windows/desktop/Msi/custom-actions">custom action</a>  or if MSXML 3.0 is not installed. 
 
 </td>
 </tr>
@@ -198,13 +198,13 @@ This error can be returned if the function was called from a <a href="https://ms
 If this function is called from a custom action it fails and returns ERROR_CALL_NOT_IMPLEMENTED.  The function requires MSXML version 3.0 to process XML and returns ERROR_CALL_NOT_IMPLEMENTED if MSXML 3.0 is not installed.
 
 
-The <b>MsiDetermineApplicablePatches</b> function sets the <b>uStatus</b> and <b>dwOrder</b> members of each <a href="https://msdn.microsoft.com/75f76d85-39f6-4a2c-8b5f-1238639a2014">MSIPATCHSEQUENCEINFO</a> structure pointed to by <i>pPatchInfo</i>. Each structure contains information about a particular patch.
+The <b>MsiDetermineApplicablePatches</b> function sets the <b>uStatus</b> and <b>dwOrder</b> members of each <a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-tagmsipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structure pointed to by <i>pPatchInfo</i>. Each structure contains information about a particular patch.
 
-If the function succeeds, the <a href="https://msdn.microsoft.com/75f76d85-39f6-4a2c-8b5f-1238639a2014">MSIPATCHSEQUENCEINFO</a> structure of every patch that can be applied  to the product returns with a  <b>uStatus</b> of ERROR_SUCCESS and a <b>dwOrder</b> greater than or equal to zero. The values of <b>dwOrder</b>  greater than or equal to zero indicate the best application sequence for the patches starting with zero.
+If the function succeeds, the <a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-tagmsipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structure of every patch that can be applied  to the product returns with a  <b>uStatus</b> of ERROR_SUCCESS and a <b>dwOrder</b> greater than or equal to zero. The values of <b>dwOrder</b>  greater than or equal to zero indicate the best application sequence for the patches starting with zero.
 
-If the function succeeds, patches excluded from the best patching sequence return a <a href="https://msdn.microsoft.com/75f76d85-39f6-4a2c-8b5f-1238639a2014">MSIPATCHSEQUENCEINFO</a> structure with a <b>dwOrder</b> equal to -1.  In these cases, a <b>uStatus</b> field of  ERROR_SUCCESS indicates a patch that is  obsolete or superseded for the product.   A <b>uStatus</b> field of ERROR_PATCH_TARGET_NOT_FOUND indicates a patch that is inapplicable to the product.
+If the function succeeds, patches excluded from the best patching sequence return a <a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-tagmsipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structure with a <b>dwOrder</b> equal to -1.  In these cases, a <b>uStatus</b> field of  ERROR_SUCCESS indicates a patch that is  obsolete or superseded for the product.   A <b>uStatus</b> field of ERROR_PATCH_TARGET_NOT_FOUND indicates a patch that is inapplicable to the product.
 
-If the function fails, the <a href="https://msdn.microsoft.com/75f76d85-39f6-4a2c-8b5f-1238639a2014">MSIPATCHSEQUENCEINFO</a> structure for every patch  returns a  <b>dwOrder</b> equal to -1.  In this case, the <b>uStatus</b> fields  can contain errors with more information about individual patches. For example, ERROR_PATCH_NO_SEQUENCE is returned for patches that have circular sequencing information.
+If the function fails, the <a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-tagmsipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structure for every patch  returns a  <b>dwOrder</b> equal to -1.  In this case, the <b>uStatus</b> fields  can contain errors with more information about individual patches. For example, ERROR_PATCH_NO_SEQUENCE is returned for patches that have circular sequencing information.
 
 
 
@@ -214,15 +214,15 @@ If the function fails, the <a href="https://msdn.microsoft.com/75f76d85-39f6-4a2
 
 
 
-<a href="https://msdn.microsoft.com/f82e7d42-f0cd-4d25-b56f-7e423cb64cfd">MsiDeterminePatchSequence</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msideterminepatchsequencea">MsiDeterminePatchSequence</a>
 
 
 
-<a href="https://msdn.microsoft.com/850b598a-338e-4f84-8336-01e962256a08">Not Supported in Windows Installer 2.0 and earlier</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
 
 
 
-<a href="https://msdn.microsoft.com/33cedd37-0343-471c-ad4b-0db5f98d5894">ProductCode</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a>
  
 
  

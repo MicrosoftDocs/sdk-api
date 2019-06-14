@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Effect::UseAuxData</b> method sets or clears a flag that specifies whether the <a href="https://msdn.microsoft.com/en-us/library/ms536284(v=VS.85).aspx">Bitmap::ApplyEffect</a> method should return a pointer to the auxiliary data that it creates. 
+The <b>Effect::UseAuxData</b> method sets or clears a flag that specifies whether the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-applyeffect(inbitmap_inint_ineffect_inrect_outrect_outbitmap)">Bitmap::ApplyEffect</a> method should return a pointer to the auxiliary data that it creates. 
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The <b>Effect::UseAuxData</b> method sets or clears a flag that specifies whethe
 
 Type: <b>const BOOL</b>
 
-Set to <b>TRUE</b> to specify that <a href="https://msdn.microsoft.com/en-us/library/ms536284(v=VS.85).aspx">ApplyEffect</a> should return a pointer to its auxiliary data; <b>FALSE</b> otherwise.
+Set to <b>TRUE</b> to specify that <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-applyeffect(inbitmap_inint_ineffect_inrect_outrect_outbitmap)">ApplyEffect</a> should return a pointer to its auxiliary data; <b>FALSE</b> otherwise.
 
 
 ## -returns
@@ -79,15 +79,15 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534433(v=VS.85).aspx">Effect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-effect">Effect</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536210(v=VS.85).aspx">Effect::GetAuxData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gdipluseffects-effect-getauxdata">Effect::GetAuxData</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536211(v=VS.85).aspx">Effect::GetAuxDataSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gdipluseffects-effect-getauxdatasize">Effect::GetAuxDataSize</a>
  
 
  

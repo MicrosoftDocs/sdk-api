@@ -60,19 +60,19 @@ The <b>LUID</b> structure is an opaque structure that specifies an identifier th
 
 
 
-<a href="https://msdn.microsoft.com/bc03feaf-ee98-4b47-a659-809b5b8b9364">RtlConvertLongToLuid</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlconvertlongtoluid">RtlConvertLongToLuid</a>
 
 
 
-<a href="https://msdn.microsoft.com/f3c1e2d5-8bb8-486c-a78a-3ddde6ab64bd">RtlConvertUlongToLuid</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlconvertulongtoluid">RtlConvertUlongToLuid</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Ff561842(v=VS.85).aspx">RtlEqualLuid</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">RtlEqualLuid</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Ff561958(v=VS.85).aspx">RtlIsZeroLuid</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">RtlIsZeroLuid</a>
  
 
  

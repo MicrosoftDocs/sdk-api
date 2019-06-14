@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates the type of credential used in a client context. The <b>SECPKG_CRED_CLASS</b> enumeration is used in the <a href="https://msdn.microsoft.com/5c2c6d01-5de3-4dd1-9fa2-cce9eadd6902">SecPkgContext_CredInfo</a> structure.
+Indicates the type of credential used in a client context. The <b>SECPKG_CRED_CLASS</b> enumeration is used in the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkgcontext_credinfo">SecPkgContext_CredInfo</a> structure.
 
 
 ## -enum-fields

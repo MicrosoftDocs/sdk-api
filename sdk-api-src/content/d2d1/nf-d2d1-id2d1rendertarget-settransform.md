@@ -59,7 +59,7 @@ Applies the specified transform to the render target, replacing the existing tra
 
 ### -param transform [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>*</b>
 
 The transform to apply to the render target.
 
@@ -78,31 +78,31 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/a3875072-bb73-4698-944e-102ab5539d80">How to Apply Multiple Transforms to an Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-apply-multiple-transforms">How to Apply Multiple Transforms to an Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/468e29b6-941b-4cf8-8649-9e513326ccb2">How to Rotate an Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-rotate">How to Rotate an Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/3da749e2-50d5-4f4e-9ccd-8c230efe3436">How to Scale an Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-scale">How to Scale an Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/bdc12ca3-eb0d-49ab-8ef7-f42f24fef7ff">How to Skew an Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-skew">How to Skew an Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/0fc48801-de14-4398-816d-6e7ddf4ffdd7">How to Translate an Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-translate">How to Translate an Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/40629be9-5840-4bde-b369-56bbfd791775">ID2D1RenderTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
 
 
 
-<a href="https://msdn.microsoft.com/eea8177d-c19e-4972-a9a6-ad5d541b090f">Transforms Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-transforms-overview">Transforms Overview</a>
  
 
  

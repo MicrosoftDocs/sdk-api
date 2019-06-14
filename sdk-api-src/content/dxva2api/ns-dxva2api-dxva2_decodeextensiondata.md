@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Contains private data for the <a href="https://msdn.microsoft.com/3c957b2f-4bba-4c39-84de-719c08e1bf78">IDirectXVideoDecoder::Execute</a> method.
+Contains private data for the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-execute">IDirectXVideoDecoder::Execute</a> method.
 
 
 
@@ -99,11 +99,11 @@ This structure corresponds to parameters of the <b>IAMVideoAccelerator::Execute<
 
 
 
-<a href="https://msdn.microsoft.com/e0e95e9b-6d53-4b90-a933-243023dc31ef">DXVA2_DecodeExecuteParams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_decodeexecuteparams">DXVA2_DecodeExecuteParams</a>
 
 
 
-<a href="https://msdn.microsoft.com/39fdd724-13ca-48ab-8a55-93529d1da3b4">Media Foundation Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
  
 
  

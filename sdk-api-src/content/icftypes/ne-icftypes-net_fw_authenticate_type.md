@@ -87,7 +87,7 @@ The traffic is allowed if it is IPsec-protected with authentication, integrity a
 
 
 
-<a href="https://msdn.microsoft.com/3efb3491-f030-4a0a-bfbd-ab18fd424a38">INetFwRule3::SecureFlags </a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule3-get_secureflags">INetFwRule3::SecureFlags </a>
  
 
  

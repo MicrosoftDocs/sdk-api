@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>POLICY_AUDIT_SID_ARRAY</b> structure specifies an array of <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structures that represent Windows users or groups.
+The <b>POLICY_AUDIT_SID_ARRAY</b> structure specifies an array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structures that represent Windows users or groups.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ The <b>POLICY_AUDIT_SID_ARRAY</b> structure specifies an array of <a href="https
 
 ### -field UsersCount
 
-The number of <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structures in the <b>UserSidArray</b> array.
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structures in the <b>UserSidArray</b> array.
 
 
 ### -field UserSidArray.size_is
@@ -74,7 +74,7 @@ The number of <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad5
 
 ### -field UserSidArray
 
-A pointer to an array of pointers to <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structures that specify Windows users or groups.
+A pointer to an array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structures that specify Windows users or groups.
 
 
 ## -see-also
@@ -82,11 +82,11 @@ A pointer to an array of pointers to <a href="https://msdn.microsoft.com/328fba4
 
 
 
-<a href="https://msdn.microsoft.com/4b13f021-ba08-4eb8-9c7a-0512992ef272">AuditEnumeratePerUserPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditenumerateperuserpolicy">AuditEnumeratePerUserPolicy</a>
 
 
 
-<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
  
 
  

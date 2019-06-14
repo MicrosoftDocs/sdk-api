@@ -88,11 +88,11 @@ During a Windows Touch gesture, manipulation gets started as soon as first touch
 
 
 
-<a href="https://msdn.microsoft.com/963f87c1-e128-4bd5-9f28-d49418f768fb">IManipulationProcessor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a>
 
 
 
-<a href="https://msdn.microsoft.com/33736f79-cb61-449c-80b9-1358db2621e9">Methods</a>
+<a href="https://docs.microsoft.com/windows/desktop/wintouch/mtmethods">Methods</a>
  
 
  

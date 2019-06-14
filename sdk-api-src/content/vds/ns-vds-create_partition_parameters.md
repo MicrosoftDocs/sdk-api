@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the partition parameters of a partition style.
 
@@ -346,8 +346,8 @@ The data partition type that is created and recognized by Windows.
 
 Only partitions of this type can be assigned drive letters, 
            receive volume GUID paths,  host mounted folders (also called volume mount points) and be enumerated by calls to 
-           <a href="https://msdn.microsoft.com/en-us/library/Aa364425(v=VS.85).aspx">FindFirstVolume</a> and 
-           <a href="https://msdn.microsoft.com/en-us/library/Aa364431(v=VS.85).aspx">FindNextVolume</a>.
+           <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstvolumew">FindFirstVolume</a> and 
+           <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextvolumew">FindNextVolume</a>.
 
 This value can be set only for basic disks, with one exception. If both PARTITION_BASIC_DATA_GUID and GPT_ATTRIBUTE_PLATFORM_REQUIRED are set for a partition on a basic disk that is subsequently converted to a dynamic disk, the partition remains a basic partition, even though the rest of the disk is a dynamic disk. This is because the partition is considered to be an OEM partition on a GPT disk.
 
@@ -456,8 +456,8 @@ If this attribute is set, the partition is not detected by the Mount Manager.
 
 As a 
           result, the partition does not receive a drive letter, does not receive a volume GUID path, does not host mounted folders (also called volume mount points), and is not enumerated by 
-          calls to  <a href="https://msdn.microsoft.com/en-us/library/Aa364425(v=VS.85).aspx">FindFirstVolume</a> and 
-          <a href="https://msdn.microsoft.com/en-us/library/Aa364431(v=VS.85).aspx">FindNextVolume</a>. This ensures that applications 
+          calls to  <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstvolumew">FindFirstVolume</a> and 
+          <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextvolumew">FindNextVolume</a>. This ensures that applications 
           such as Disk Defragmenter do not access the partition. The Volume Shadow Copy Service (VSS) uses this attribute.
          
 
@@ -496,7 +496,7 @@ Despite its name, this attribute can be set for basic and dynamic disks.
 If this attribute is set, the partition is read-only. 
 
 All requests to write to the partition will fail.  
-          <a href="https://msdn.microsoft.com/en-us/library/Aa365182(v=VS.85).aspx">IOCTL_DISK_IS_WRITABLE</a> will fail with the ERROR_WRITE_PROTECT Win32 error code, which causes the file system to mount as read-only, if a file system is present. 
+          <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_is_writable">IOCTL_DISK_IS_WRITABLE</a> will fail with the ERROR_WRITE_PROTECT Win32 error code, which causes the file system to mount as read-only, if a file system is present. 
 
 VSS uses this attribute.
 
@@ -518,7 +518,7 @@ Null-terminated Unicode string that specifies the name of the partition.
 
 
 The 
-    <a href="https://msdn.microsoft.com/94f80a9f-459f-4f3d-8d85-e5ec7d5734c4">IVdsAdvancedDisk::CreatePartition</a> 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-createpartition">IVdsAdvancedDisk::CreatePartition</a> 
     method passes this structure as an argument to specify a set of parameters.
 
 
@@ -529,15 +529,15 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/94f80a9f-459f-4f3d-8d85-e5ec7d5734c4">IVdsAdvancedDisk::CreatePartition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-createpartition">IVdsAdvancedDisk::CreatePartition</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a13f5eb-0fa1-48e2-a112-b2254ca28423">VDS Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-structures">VDS Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/31b7f0b3-cc3c-48e7-a4f0-628f0185f3cb">VDS_PARTITION_STYLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_partition_style">VDS_PARTITION_STYLE</a>
  
 
  

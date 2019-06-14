@@ -192,19 +192,19 @@ SetThreadExecutionState(ES_CONTINUOUS);
 
 
 
-<a href="https://msdn.microsoft.com/eae96a9e-ced2-4e13-b250-33c5acbbae48">Power Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/63cb6574-8c0d-4bcb-832c-7088447a5c04">SetSuspendState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-setsuspendstate">SetSuspendState</a>
 
 
 
-<a href="https://msdn.microsoft.com/58cf4e29-2a2e-499a-85ce-0034f4323cfe">SetSystemPowerState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setsystempowerstate">SetSystemPowerState</a>
 
 
 
-<a href="https://msdn.microsoft.com/46452909-ac0e-4c06-8542-0b94d00e6556">WM_POWERBROADCAST</a>
+<a href="https://docs.microsoft.com/windows/desktop/Power/wm-powerbroadcast">WM_POWERBROADCAST</a>
  
 
  

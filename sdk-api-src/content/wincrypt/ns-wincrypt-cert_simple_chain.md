@@ -64,22 +64,22 @@ The size, in bytes, of this structure.
 
 ### -field TrustStatus
 
-A structure that indicates the trust status of the whole chain. The structure includes an error status code and an information status code. For information about status code values, see <a href="https://msdn.microsoft.com/af1e1db2-7b53-4491-8317-4abf3568fb03">CERT_TRUST_STATUS</a>.
+A structure that indicates the trust status of the whole chain. The structure includes an error status code and an information status code. For information about status code values, see <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_trust_status">CERT_TRUST_STATUS</a>.
 
 
 ### -field cElement
 
-The number of <a href="https://msdn.microsoft.com/a1f6ba18-63ef-43ac-a17f-900fa13398aa">CERT_CHAIN_ELEMENT</a> structures in the array.
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_element">CERT_CHAIN_ELEMENT</a> structures in the array.
 
 
 ### -field rgpElement
 
-An array of pointers to <a href="https://msdn.microsoft.com/a1f6ba18-63ef-43ac-a17f-900fa13398aa">CERT_CHAIN_ELEMENT</a> structures. <b>rgpElement</b>[0] is the end certificate chain element. <b>rgpElement</b>[<b>cElement</b>–1] is the self-signed "root" certificate element.
+An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_element">CERT_CHAIN_ELEMENT</a> structures. <b>rgpElement</b>[0] is the end certificate chain element. <b>rgpElement</b>[<b>cElement</b>–1] is the self-signed "root" certificate element.
 
 
 ### -field pTrustListInfo
 
-A pointer to a <a href="https://msdn.microsoft.com/774f5626-9b48-4585-b713-adbf191861cc">CERT_TRUST_LIST_INFO</a> structure that contains a pointer to a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate trust list</a> (CTL) connecting this chain to a next certificate chain. If the current chain is the final chain, <b>pTrustListInfo</b> is <b>NULL</b>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_trust_list_info">CERT_TRUST_LIST_INFO</a> structure that contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) connecting this chain to a next certificate chain. If the current chain is the final chain, <b>pTrustListInfo</b> is <b>NULL</b>.
 
 
 ### -field fHasRevocationFreshnessTime
@@ -89,7 +89,7 @@ BOOL. If <b>TRUE</b>, <b>dwRevocationFreshnessTime</b> has been calculated.
 
 ### -field dwRevocationFreshnessTime
 
-The age of a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> 
+The age of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> 
 (CRL) in seconds, calculated as the CurrentTime minus the CRL's ThisUpdate time. This values is the largest time across all elements checked.
 
 
@@ -98,19 +98,19 @@ The age of a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94
 
 
 
-<a href="https://msdn.microsoft.com/609311f4-9cd6-4945-9f93-7266b3fc4a74">CERT_CHAIN_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_context">CERT_CHAIN_CONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/a1f6ba18-63ef-43ac-a17f-900fa13398aa">CERT_CHAIN_ELEMENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_element">CERT_CHAIN_ELEMENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/774f5626-9b48-4585-b713-adbf191861cc">CERT_TRUST_LIST_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_trust_list_info">CERT_TRUST_LIST_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/af1e1db2-7b53-4491-8317-4abf3568fb03">CERT_TRUST_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_trust_status">CERT_TRUST_STATUS</a>
  
 
  

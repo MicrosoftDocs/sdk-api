@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Initialization parameters for use with the <a href="https://msdn.microsoft.com/762062de-4e19-5e42-8059-e2f8741bd362">FXECHO XAPOFX</a>.
+Initialization parameters for use with the <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xapofx-overview">FXECHO XAPOFX</a>.
 
 
 ## -struct-fields
@@ -81,7 +81,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/3656aaf9-7a3a-2a5b-50f5-d279ce8a9e6c">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/structures">Structures</a>
  
 
  

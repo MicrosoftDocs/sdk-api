@@ -143,7 +143,7 @@ This method is not yet implemented.
 
 
 Changes made will not take effect on the server until the 
-<a href="https://msdn.microsoft.com/be53c186-c23c-4ff6-8060-f06555ab4548">ITDirectory::ModifyDirectoryObject</a> method is called.
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectory-modifydirectoryobject">ITDirectory::ModifyDirectoryObject</a> method is called.
 
 
 
@@ -153,11 +153,11 @@ Changes made will not take effect on the server until the
 
 
 
-<a href="https://msdn.microsoft.com/a48644a4-43e2-4c52-84be-0cb5c49e6436">ITDirectoryObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/746367e1-4319-4903-843f-7a25d60f4223">ITDirectoryObject::get_SecurityDescriptor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobject-get_securitydescriptor">ITDirectoryObject::get_SecurityDescriptor</a>
  
 
  

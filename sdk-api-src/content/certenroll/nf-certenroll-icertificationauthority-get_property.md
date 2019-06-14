@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/4588891e-7be4-482a-bbad-c23759b06b1b">Property</a> method  retrieves a certification authority property value.
+The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificatetemplate-get_property">Property</a> method  retrieves a certification authority property value.
 
 This property is read-only.
 
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/ffd64396-a258-4cf5-aca1-a61102ecf313">ICertificationAuthority</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertificationauthority">ICertificationAuthority</a>
  
 
  

@@ -61,7 +61,7 @@ The
 ### -param ppEnum [out]
 
 Pointer to new 
-<a href="https://msdn.microsoft.com/0bbe3533-d5ce-447b-82e1-3bd61c5a7ca2">IEnumQueue</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumqueue">IEnumQueue</a> interface.
 
 
 ## -returns
@@ -130,7 +130,7 @@ Failed for unknown reasons.
 
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://msdn.microsoft.com/0bbe3533-d5ce-447b-82e1-3bd61c5a7ca2">IEnumQueue</a> interface returned by <b>IEnumQueue::Clone</b>. The application must call <b>Release</b> on the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumqueue">IEnumQueue</a> interface returned by <b>IEnumQueue::Clone</b>. The application must call <b>Release</b> on the 
 <b>IEnumQueue</b> interface to free resources associated with it.
 
 
@@ -141,7 +141,7 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 
-<a href="https://msdn.microsoft.com/0bbe3533-d5ce-447b-82e1-3bd61c5a7ca2">IEnumQueue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumqueue">IEnumQueue</a>
  
 
  

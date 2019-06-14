@@ -50,12 +50,12 @@ ms.custom: 19H1
 ## -description
 
 
-A debug interface controls debug settings, validates pipeline state and can only be used if the <a href="https://msdn.microsoft.com/en-us/library/Bb205068(v=VS.85).aspx">debug layer</a> is turned on.
+A debug interface controls debug settings, validates pipeline state and can only be used if the <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-api-features-layers">debug layer</a> is turned on.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Debug</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID3D10Debug</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Debug</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D10Debug</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID3D10Debug</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173517(v=VS.85).aspx">GetFeatureMask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/nf-d3d10sdklayers-id3d10debug-getfeaturemask">GetFeatureMask</a>
 </td>
 <td align="left" width="63%">
 Get a bitfield of flags that indicates which debug features are on or off.
@@ -79,25 +79,25 @@ Get a bitfield of flags that indicates which debug features are on or off.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173518(v=VS.85).aspx">GetPresentPerRenderOpDelay</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/nf-d3d10sdklayers-id3d10debug-getpresentperrenderopdelay">GetPresentPerRenderOpDelay</a>
 </td>
 <td align="left" width="63%">
-Get the number of milliseconds to sleep after <a href="https://msdn.microsoft.com/en-us/library/Bb174576(v=VS.85).aspx">Present</a> is called.
+Get the number of milliseconds to sleep after <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present">Present</a> is called.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173519(v=VS.85).aspx">GetSwapChain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/nf-d3d10sdklayers-id3d10debug-getswapchain">GetSwapChain</a>
 </td>
 <td align="left" width="63%">
-Get the swap chain that the runtime will use for automatically calling <a href="https://msdn.microsoft.com/en-us/library/Bb174576(v=VS.85).aspx">Present</a>.
+Get the swap chain that the runtime will use for automatically calling <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present">Present</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173520(v=VS.85).aspx">SetFeatureMask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/nf-d3d10sdklayers-id3d10debug-setfeaturemask">SetFeatureMask</a>
 </td>
 <td align="left" width="63%">
 Set a bitfield of flags that will turn debug features on and off.
@@ -106,25 +106,25 @@ Set a bitfield of flags that will turn debug features on and off.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173521(v=VS.85).aspx">SetPresentPerRenderOpDelay</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/nf-d3d10sdklayers-id3d10debug-setpresentperrenderopdelay">SetPresentPerRenderOpDelay</a>
 </td>
 <td align="left" width="63%">
-Set the number of milliseconds to sleep after <a href="https://msdn.microsoft.com/en-us/library/Bb174576(v=VS.85).aspx">Present</a> is called.
+Set the number of milliseconds to sleep after <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present">Present</a> is called.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173522(v=VS.85).aspx">SetSwapChain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/nf-d3d10sdklayers-id3d10debug-setswapchain">SetSwapChain</a>
 </td>
 <td align="left" width="63%">
-Set a swap chain that the runtime will use for automatically calling <a href="https://msdn.microsoft.com/en-us/library/Bb174576(v=VS.85).aspx">Present</a>.
+Set a swap chain that the runtime will use for automatically calling <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present">Present</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173523(v=VS.85).aspx">Validate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/nf-d3d10sdklayers-id3d10debug-validate">Validate</a>
 </td>
 <td align="left" width="63%">
 Check the validity of pipeline state.
@@ -138,7 +138,7 @@ Check the validity of pipeline state.
 
 
 
-This interface is obtained by querying it from the <a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a> using <a href="http://msdn.microsoft.com/en-us/library/ms682521(VS.85).aspx">IUnknown::QueryInterface</a>.
+This interface is obtained by querying it from the <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a> using <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a>.
 
 
 
@@ -148,7 +148,7 @@ This interface is obtained by querying it from the <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205152(v=VS.85).aspx">Core Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-interfaces">Core Interfaces</a>
  
 
  

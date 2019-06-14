@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>WELL_KNOWN_SID_TYPE</b> enumeration is a list of commonly used <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifiers</a> (SIDs). Programs can pass these values to the <a href="https://msdn.microsoft.com/00e75bae-fbce-41a3-a0bc-c345c36f2c84">CreateWellKnownSid</a> function to create a SID from this list.
+The <b>WELL_KNOWN_SID_TYPE</b> enumeration is a list of commonly used <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifiers</a> (SIDs). Programs can pass these values to the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createwellknownsid">CreateWellKnownSid</a> function to create a SID from this list.
 
 
 ## -enum-fields
@@ -646,19 +646,19 @@ Indicates a SID for removable storage capability for app containers.
 
 
 
-<a href="https://msdn.microsoft.com/3d813e46-f06e-4147-874c-30b5fc6f50d9">Allowing Anonymous Access</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/allowing-anonymous-access">Allowing Anonymous Access</a>
 
 
 
-<a href="https://msdn.microsoft.com/00e75bae-fbce-41a3-a0bc-c345c36f2c84">CreateWellKnownSid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createwellknownsid">CreateWellKnownSid</a>
 
 
 
-<a href="https://msdn.microsoft.com/1a08c70c-00fa-4c62-883d-4f17f9d7c04b">IsWellKnownSid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-iswellknownsid">IsWellKnownSid</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb2f95c4-9465-409b-b76c-9ccae1d05eda">Well-known SIDs</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/well-known-sids">Well-known SIDs</a>
  
 
  

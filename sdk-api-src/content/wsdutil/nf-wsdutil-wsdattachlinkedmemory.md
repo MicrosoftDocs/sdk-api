@@ -82,7 +82,7 @@ This function does not return a value.
 
 
 The child memory block is automatically freed when the parent memory
-block is freed. Both the parent and child memory blocks must have been previously allocated by calls to <a href="https://msdn.microsoft.com/2608985f-56aa-4223-b76d-85ebe3b080fb">WSDAllocateLinkedMemory</a>.
+block is freed. Both the parent and child memory blocks must have been previously allocated by calls to <a href="https://docs.microsoft.com/windows/desktop/api/wsdutil/nf-wsdutil-wsdallocatelinkedmemory">WSDAllocateLinkedMemory</a>.
 
 
 

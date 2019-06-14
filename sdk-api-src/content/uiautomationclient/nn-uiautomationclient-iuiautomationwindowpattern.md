@@ -54,7 +54,7 @@ Provides access to the fundamental functionality of a window.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationWindowPattern</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUIAutomationWindowPattern</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationWindowPattern</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationWindowPattern</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IUIAutomationWindowPattern</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/925484e2-6ad1-49ca-b2d4-a6436e7a3ddd">Close</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationwindowpattern-close">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the window.
@@ -79,7 +79,7 @@ Closes the window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/106322f8-cf43-48ca-8bc4-f51a75731127">SetWindowVisualState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationwindowpattern-setwindowvisualstate">SetWindowVisualState</a>
 </td>
 <td align="left" width="63%">
 Minimizes, maximizes, or restores the window.
@@ -88,7 +88,7 @@ Minimizes, maximizes, or restores the window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2e08c3b1-6437-40ce-9dd3-2beb3e1f37fb">WaitForInputIdle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationwindowpattern-waitforinputidle">WaitForInputIdle</a>
 </td>
 <td align="left" width="63%">
 Causes the calling code to block for the specified time or until the associated process enters an idle state, whichever completes first. 
@@ -106,7 +106,7 @@ Causes the calling code to block for the specified time or until the associated 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/614b6030-79c2-4c09-a28d-801d5b3832d9">CachedCanMaximize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationwindowpattern-get_cachedcanmaximize">CachedCanMaximize</a>
 
 
 </td>
@@ -122,7 +122,7 @@ Retrieves a cached value that indicates whether the window can be maximized.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/35965009-db9b-4009-b324-b47783bd318d">CachedCanMinimize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationwindowpattern-get_cachedcanminimize">CachedCanMinimize</a>
 
 
 </td>
@@ -138,7 +138,7 @@ Retrieves a cached value that indicates whether the window can be minimized.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/0eeba231-2992-4dae-beb6-47408ebb333d">CachedIsModal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationwindowpattern-get_cachedismodal">CachedIsModal</a>
 
 
 </td>
@@ -154,7 +154,7 @@ Retrieves a cached value that indicates whether the window is modal.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/0174de28-d910-4f1c-b9ac-a273563adf23">CachedIsTopmost</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationwindowpattern-get_cachedistopmost">CachedIsTopmost</a>
 
 
 </td>
@@ -170,7 +170,7 @@ Retrieves a cached value that indicates whether the window is the topmost elemen
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/f01c4b96-8cd5-466d-9514-73aedfdb60d4">CachedWindowInteractionState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationwindowpattern-get_cachedwindowinteractionstate">CachedWindowInteractionState</a>
 
 
 </td>
@@ -186,7 +186,7 @@ Retrieves a cached value that indicates the current state of the window for the 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/49e1a441-0ba8-4b76-afe8-6b81a489ff92">CachedWindowVisualState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationwindowpattern-get_cachedwindowvisualstate">CachedWindowVisualState</a>
 
 
 </td>
@@ -202,7 +202,7 @@ Retrieves a cached value that indicates the visual state of the window; that is,
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/fa367c47-57be-4e4e-909a-02cca682d1c0">CurrentCanMaximize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationwindowpattern-get_currentcanmaximize">CurrentCanMaximize</a>
 
 
 </td>
@@ -218,7 +218,7 @@ Indicates whether the window can be maximized.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/dda357cc-aa4b-4cc0-b4ad-36edc8e4a6ec">CurrentCanMinimize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationwindowpattern-get_currentcanminimize">CurrentCanMinimize</a>
 
 
 </td>
@@ -234,7 +234,7 @@ Indicates whether the window can be minimized.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/cea34f72-6d89-4992-b119-a298c836a7eb">CurrentIsModal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationwindowpattern-get_currentismodal">CurrentIsModal</a>
 
 
 </td>
@@ -250,7 +250,7 @@ Indicates whether the window is modal.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/478b5c42-5cae-4661-a9fd-fcc48b537b84">CurrentIsTopmost</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationwindowpattern-get_currentistopmost">CurrentIsTopmost</a>
 
 
 </td>
@@ -266,7 +266,7 @@ Indicates whether the window is the topmost element in the z-order.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/f4646bbf-db37-4cc4-89d6-44eb08e0031a">CurrentWindowInteractionState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationwindowpattern-get_currentwindowinteractionstate">CurrentWindowInteractionState</a>
 
 
 </td>
@@ -282,7 +282,7 @@ Retrieves the current state of the window for the purposes of user interaction.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/307b995c-c656-4c91-8de2-94186ab9f5b3">CurrentWindowVisualState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationwindowpattern-get_currentwindowvisualstate">CurrentWindowVisualState</a>
 
 
 </td>
@@ -312,7 +312,7 @@ Examples of controls that support this control pattern include top-level applica
 
 
 
-<a href="https://msdn.microsoft.com/14358ef0-aa54-42c1-a3da-0f835f5f5ef6">Control Pattern Interfaces for Clients</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>
  
 
  

@@ -80,15 +80,15 @@ If the function fails, the return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/68390601-1542-41dc-bea0-78f6c3318806">Path Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/path-functions">Path Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/fbbd3ea0-9b35-4aaf-8498-187957e29cf0">Paths Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/paths">Paths Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/c994bd1b-c5e8-46e6-a6a6-59e2d9106d75">WidenPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-widenpath">WidenPath</a>
  
 
  

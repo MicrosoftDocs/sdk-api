@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>USB_PASS_THRU_PARAMETERS</b> structure is used with the <a href="https://msdn.microsoft.com/6aba5cf4-a9fa-4d10-a212-acc79e00fa9b">IOCTL_USB_USER_REQUEST</a> I/O control request to pass a vendor-specific command to the host controller miniport driver.
+The <b>USB_PASS_THRU_PARAMETERS</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a> I/O control request to pass a vendor-specific command to the host controller miniport driver.
 
 
 ## -struct-fields
@@ -76,7 +76,7 @@ A variable length array with the parameter data for the command.
 
 
 
-The <b>USB_PASS_THRU_PARAMETERS</b> structure is used with the <a href="https://msdn.microsoft.com/4b04ded7-6641-4390-a5e5-e26603efc757">USBUSER_PASS_THRU</a> user-mode request. For more information about this request, see <a href="https://msdn.microsoft.com/6aba5cf4-a9fa-4d10-a212-acc79e00fa9b">IOCTL_USB_USER_REQUEST</a>.
+The <b>USB_PASS_THRU_PARAMETERS</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usbuser_pass_thru_request">USBUSER_PASS_THRU</a> user-mode request. For more information about this request, see <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a>.
 
 
 
@@ -86,11 +86,11 @@ The <b>USB_PASS_THRU_PARAMETERS</b> structure is used with the <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/6aba5cf4-a9fa-4d10-a212-acc79e00fa9b">IOCTL_USB_USER_REQUEST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ca7033d-6586-4c34-b940-67ddfbe21af9">USB Structures</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">USB Structures</a>
  
 
  

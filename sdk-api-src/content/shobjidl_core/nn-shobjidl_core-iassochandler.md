@@ -54,7 +54,7 @@ Exposes methods for operations with a file association dialog box or menu.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAssocHandler</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAssocHandler</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAssocHandler</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAssocHandler</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAssocHandler</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/12ffd2f1-e041-41f1-9b57-282a166ccbf7">CreateInvoker</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iassochandler-createinvoker">CreateInvoker</a>
 </td>
 <td align="left" width="63%">
 Retrieves an object that enables the invocation of the associated handler on the current selection.  The invoker includes the ability to verify whether the current selection is supported.
@@ -78,7 +78,7 @@ Retrieves an object that enables the invocation of the associated handler on the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4b883c2c-6845-4e53-b41b-83c09091ee53">GetIconLocation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iassochandler-geticonlocation">GetIconLocation</a>
 </td>
 <td align="left" width="63%">
 Retrieves the location of the icon associated with the application.
@@ -87,7 +87,7 @@ Retrieves the location of the icon associated with the application.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d20aee32-fa5a-40a9-b0e2-8479a90fcf35">GetName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iassochandler-getname">GetName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the full path and file name of the executable file associated with the file type.
@@ -96,7 +96,7 @@ Retrieves the full path and file name of the executable file associated with the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bf714cf9-a16a-40a4-8dd8-c53c289967f5">GetUIName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iassochandler-getuiname">GetUIName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the display name of an application.
@@ -105,7 +105,7 @@ Retrieves the display name of an application.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2d22c987-3a25-4a36-8411-eaed921d066e">Invoke</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iassochandler-invoke">Invoke</a>
 </td>
 <td align="left" width="63%">
 Directly invokes the associated handler.
@@ -114,7 +114,7 @@ Directly invokes the associated handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3c312db3-a656-436c-a012-669553355fa5">IsRecommended</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iassochandler-isrecommended">IsRecommended</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the application is registered as a recommended handler for the queried file type.
@@ -123,7 +123,7 @@ Indicates whether the application is registered as a recommended handler for the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/106ac493-bde6-4327-b3be-3132bfd47415">MakeDefault</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iassochandler-makedefault">MakeDefault</a>
 </td>
 <td align="left" width="63%">
 Sets an application as the default application for this file type.
@@ -138,15 +138,15 @@ Sets an application as the default application for this file type.
 
 
 
-<a href="https://msdn.microsoft.com/b602280e-4237-4539-9a10-cec21c65e90d">IAssocHandlerInvoker</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iassochandlerinvoker">IAssocHandlerInvoker</a>
 
 
 
-<a href="https://msdn.microsoft.com/c8b11157-4d00-4ab1-aea5-ce8ae35c43ce">IEnumAssocHandlers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumassochandlers">IEnumAssocHandlers</a>
 
 
 
-<a href="https://msdn.microsoft.com/83db466b-e00c-4015-879f-c5c222f45b8c">SHAssocEnumHandlers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shassocenumhandlers">SHAssocEnumHandlers</a>
  
 
  

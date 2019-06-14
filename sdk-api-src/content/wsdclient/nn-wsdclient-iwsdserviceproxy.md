@@ -54,7 +54,7 @@ Represents a remote WSD service for client applications and middleware.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDServiceProxy</b> interface inherits from <a href="https://msdn.microsoft.com/f4e2c2f7-3e76-4a17-88f8-9d59c18343a9">IWSDMetadataExchange</a>. <b>IWSDServiceProxy</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDServiceProxy</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdmetadataexchange">IWSDMetadataExchange</a>. <b>IWSDServiceProxy</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWSDServiceProxy</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bcc0bcaf-76fb-4dca-b946-2826809a53a1">BeginGetMetadata</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxy-begingetmetadata">BeginGetMetadata</a>
 </td>
 <td align="left" width="63%">
 Initiates an asynchronous metadata exchange request with the remote service.
@@ -78,7 +78,7 @@ Initiates an asynchronous metadata exchange request with the remote service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6024770a-e4cb-4db1-9767-51b559fd8244">EndGetMetadata</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxy-endgetmetadata">EndGetMetadata</a>
 </td>
 <td align="left" width="63%">
 Completes the asynchronous metadata exchange request and retrieves the service metadata from the response.
@@ -87,7 +87,7 @@ Completes the asynchronous metadata exchange request and retrieves the service m
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9c236f31-e3ba-4678-a4fe-1e078c9f9af3">GetEndpointProxy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxy-getendpointproxy">GetEndpointProxy</a>
 </td>
 <td align="left" width="63%">
 Gets the endpoint proxy for the device.
@@ -96,7 +96,7 @@ Gets the endpoint proxy for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/552da68f-6e6a-44b2-8c95-e29bc67de3c2">GetServiceMetadata</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxy-getservicemetadata">GetServiceMetadata</a>
 </td>
 <td align="left" width="63%">
 Retrieves the metadata for the <b>IWSDServiceProxy</b> object.
@@ -105,7 +105,7 @@ Retrieves the metadata for the <b>IWSDServiceProxy</b> object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0a924df4-93a7-4443-a384-0a89d5d90509">SetEventingStatusCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxy-seteventingstatuscallback">SetEventingStatusCallback</a>
 </td>
 <td align="left" width="63%">
 Sets or clears the eventing status callback.
@@ -114,7 +114,7 @@ Sets or clears the eventing status callback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d3294bd7-f3df-4571-92f6-eb6bc57240fb">SubscribeToOperation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxy-subscribetooperation">SubscribeToOperation</a>
 </td>
 <td align="left" width="63%">
 Subscribes to a notification or solicit/response event.
@@ -123,7 +123,7 @@ Subscribes to a notification or solicit/response event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b306239c-95a4-4a1d-990c-193237bad275">UnsubscribeToOperation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxy-unsubscribetooperation">UnsubscribeToOperation</a>
 </td>
 <td align="left" width="63%">
 Cancels a subscription to a notification or solicit/response event.
@@ -149,7 +149,7 @@ Service proxy objects may reside on multiple endpoints. An endpoint more complet
 
 
 
-<a href="https://msdn.microsoft.com/f4e2c2f7-3e76-4a17-88f8-9d59c18343a9">IWSDMetadataExchange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdmetadataexchange">IWSDMetadataExchange</a>
  
 
  

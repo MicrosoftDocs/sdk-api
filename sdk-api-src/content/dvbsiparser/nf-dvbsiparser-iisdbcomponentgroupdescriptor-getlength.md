@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/a499d259-460c-428b-ba96-63f71eb556fa">IIsdbComponentGroupDescriptor</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcomponentgroupdescriptor-getlength">IIsdbComponentGroupDescriptor</a>
  
 
  

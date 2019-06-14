@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DHCPCAPI_PARAMS_ARRAY</b> structure stores an array of <a href="https://msdn.microsoft.com/be8329a3-c3ad-4f5b-92ae-cf18fa847d53">DHCPAPI_PARAMS</a> structures used to query DHCP parameters.
+The <b>DHCPCAPI_PARAMS_ARRAY</b> structure stores an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpcsdk/ns-dhcpcsdk-_dhcpapi_params">DHCPAPI_PARAMS</a> structures used to query DHCP parameters.
 
 
 ## -struct-fields
@@ -74,7 +74,7 @@ Number of elements in the <b>Params</b> array.
 
 ### -field Params
 
-Array of <a href="https://msdn.microsoft.com/be8329a3-c3ad-4f5b-92ae-cf18fa847d53">DHCPAPI_PARAMS</a> structures.
+Array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpcsdk/ns-dhcpcsdk-_dhcpapi_params">DHCPAPI_PARAMS</a> structures.
 
 
 ## -see-also
@@ -82,7 +82,7 @@ Array of <a href="https://msdn.microsoft.com/be8329a3-c3ad-4f5b-92ae-cf18fa847d5
 
 
 
-<a href="https://msdn.microsoft.com/be8329a3-c3ad-4f5b-92ae-cf18fa847d53">DHCPAPI_PARAMS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpcsdk/ns-dhcpcsdk-_dhcpapi_params">DHCPAPI_PARAMS</a>
  
 
  

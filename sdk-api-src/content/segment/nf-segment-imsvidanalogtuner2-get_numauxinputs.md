@@ -125,7 +125,7 @@ The first S-video input is channel 0 and the first composite input is channel 1.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694421(v=VS.85).aspx">IMSVidAnalogTuner2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidanalogtuner2">IMSVidAnalogTuner2 Interface</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Default constructor for <code>XMBYTE4</code>.
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419276(v=VS.85).aspx">XMBYTE4</a>.
+Default constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte4">XMBYTE4</a>.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
 ## -parameters
@@ -81,11 +81,11 @@ Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee4192
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419276(v=VS.85).aspx">XMBYTE4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte4">XMBYTE4</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415258(v=VS.85).aspx">XMBYTE4 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmbyte4-ctor">XMBYTE4 Constructors</a>
  
 
  

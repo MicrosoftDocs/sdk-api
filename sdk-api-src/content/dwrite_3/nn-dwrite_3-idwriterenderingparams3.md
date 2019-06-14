@@ -54,7 +54,7 @@ Represents text rendering settings for glyph rasterization and filtering.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteRenderingParams3</b> interface inherits from <a href="https://msdn.microsoft.com/0ABE2EBD-E568-4485-9B38-BA0E1E8FDA6F">IDWriteRenderingParams2</a>. <b>IDWriteRenderingParams3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteRenderingParams3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nn-dwrite_2-idwriterenderingparams2">IDWriteRenderingParams2</a>. <b>IDWriteRenderingParams3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDWriteRenderingParams3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3C8CBE42-D7F5-4646-A1C4-1C9C8C4EBAD1">GetRenderingMode1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwriterenderingparams3-getrenderingmode1">GetRenderingMode1</a>
 </td>
 <td align="left" width="63%">
 Gets the rendering mode.
@@ -84,7 +84,7 @@ Gets the rendering mode.
 
 
 
-<a href="https://msdn.microsoft.com/0ABE2EBD-E568-4485-9B38-BA0E1E8FDA6F">IDWriteRenderingParams2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nn-dwrite_2-idwriterenderingparams2">IDWriteRenderingParams2</a>
  
 
  

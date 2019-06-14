@@ -61,14 +61,14 @@ Requests column data for a specified file.
 
 Type: <b>LPCSHCOLUMNID</b>
 
-An <a href="https://msdn.microsoft.com/bf7b0e3b-527a-4ef5-894a-a7e1b7750e72">SHCOLUMNID</a> structure that identifies the column.
+An <a href="https://docs.microsoft.com/windows/desktop/shell/objects">SHCOLUMNID</a> structure that identifies the column.
 
 
 ### -param pscd [in]
 
 Type: <b>LPCSHCOLUMNDATA</b>
 
-An <a href="https://msdn.microsoft.com/3a0c9231-2871-4314-9db3-7e5609e08359">SHCOLUMNDATA</a> structure that specifies the file.
+An <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/ns-shlobj-shcolumndata">SHCOLUMNDATA</a> structure that specifies the file.
 
 
 ### -param pvarData [out]

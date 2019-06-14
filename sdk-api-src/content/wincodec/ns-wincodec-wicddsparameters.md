@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the DDS image dimension, <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> and alpha mode of contained data.
+Specifies the DDS image dimension, <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> and alpha mode of contained data.
 
 
 ## -struct-fields
@@ -94,21 +94,21 @@ The number of textures in the array in the DDS image.
 
 ### -field DxgiFormat
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a></b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> of the DDS pixel data.
+The <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> of the DDS pixel data.
 
 
 ### -field Dimension
 
-Type: <b><a href="https://msdn.microsoft.com/76CEBFD7-EE7D-48C4-9F88-9AD82C9FED55">WICDdsDimension</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicddsdimension">WICDdsDimension</a></b>
 
 Specifies the dimension type of the data contained in DDS image (1D, 2D, 3D or cube texture).
 
 
 ### -field AlphaMode
 
-Type: <b><a href="https://msdn.microsoft.com/67C9B07F-5259-4032-9EBF-CBC3B8637343">WICDdsAlphaMode</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicddsalphamode">WICDdsAlphaMode</a></b>
 
 Specifies the alpha behavior of the DDS image.
 
@@ -118,15 +118,15 @@ Specifies the alpha behavior of the DDS image.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/67C9B07F-5259-4032-9EBF-CBC3B8637343">WICDdsAlphaMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicddsalphamode">WICDdsAlphaMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/76CEBFD7-EE7D-48C4-9F88-9AD82C9FED55">WICDdsDimension</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicddsdimension">WICDdsDimension</a>
  
 
  

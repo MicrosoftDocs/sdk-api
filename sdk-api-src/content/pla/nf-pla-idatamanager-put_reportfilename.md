@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves or sets the name of the HTML file that results from converting the file in the <a href="https://msdn.microsoft.com/fc1484ea-c1d5-4267-bdf5-366c080bfc61">IDataManager::RuleTargetFileName</a> property from XML to HTML.
+Retrieves or sets the name of the HTML file that results from converting the file in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_ruletargetfilename">IDataManager::RuleTargetFileName</a> property from XML to HTML.
 
 This property is read/write.
 
@@ -63,7 +63,7 @@ This property is read/write.
 
 
 
-For details, see the <b>plaCreateHtml</b> value of the <a href="https://msdn.microsoft.com/e647987d-e524-475e-a355-539cb3f04635">DataManagerSteps</a> enumeration.
+For details, see the <b>plaCreateHtml</b> value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/ne-pla-__midl___midl_itf_pla_0001_0043_0011">DataManagerSteps</a> enumeration.
 
 
 
@@ -73,7 +73,7 @@ For details, see the <b>plaCreateHtml</b> value of the <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/a153d88f-4c7e-45fd-9cd8-497160711de4">IDataManager</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatamanager">IDataManager</a>
  
 
  

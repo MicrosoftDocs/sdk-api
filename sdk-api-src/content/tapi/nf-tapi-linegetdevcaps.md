@@ -73,26 +73,26 @@ Identifier of the line device to be queried.
 ### -param dwAPIVersion
 
 Version number of the Telephony API to be used. The high-order word contains the major version number; the low-order word contains the minor version number. This number is obtained by 
-<a href="https://msdn.microsoft.com/71eb55de-281b-42a9-8d9b-7ded62cb006a">lineNegotiateAPIVersion</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linenegotiateapiversion">lineNegotiateAPIVersion</a>.
 
 
 ### -param dwExtVersion
 
 Version number of the service provider-specific extensions to be used. This number is obtained by 
-<a href="https://msdn.microsoft.com/89a49709-a15b-4358-984a-fd836d8e237b">lineNegotiateExtVersion</a>. It can be left zero if no device-specific extensions are to be used. Otherwise, the high-order word contains the major version number; the low-order word contains the minor version number.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linenegotiateextversion">lineNegotiateExtVersion</a>. It can be left zero if no device-specific extensions are to be used. Otherwise, the high-order word contains the major version number; the low-order word contains the minor version number.
 
 
 ### -param lpLineDevCaps
 
 Pointer to a variably sized structure of type 
-<a href="https://msdn.microsoft.com/83e38453-bb93-4cc5-923f-d0cd2898350a">LINEDEVCAPS</a>. Upon successful completion of the request, this structure is filled with line device capabilities information. Prior to calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>. Upon successful completion of the request, this structure is filled with line device capabilities information. Prior to calling 
 <b>lineGetDevCaps</b>, the application must set the <b>dwTotalSize</b> member of this structure to indicate the amount of memory available to TAPI for returning information. 
 
 
 
 
 <div class="alert"><b>Note</b>  If the size parameters in the structure are not correct, there is a possibility that data could get overwritten. For more information on setting structure sizes, see the 
-<a href="https://msdn.microsoft.com/61313fe3-74a1-4195-b5af-37463dad02c1">memory allocation</a> topic. </div>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/memory-allocation">memory allocation</a> topic. </div>
 <div> </div>
 
 ## -returns
@@ -116,8 +116,8 @@ Before using
 The API and extension version numbers are those under which TAPI and the service provider must operate. If version ranges do not overlap, the application, API, or service-provider versions are incompatible and an error is returned.
 
 One of the members in the 
-<a href="https://msdn.microsoft.com/83e38453-bb93-4cc5-923f-d0cd2898350a">LINEDEVCAPS</a> structure returned by this function contains the number of addresses assigned to the specified line device. The actual address identifiers used to reference individual addresses vary from zero to one less than the returned number. The capabilities of each address can be different. Use 
-<a href="https://msdn.microsoft.com/08cdea8a-5b36-428c-b90f-8741ae5f3205">lineGetAddressCaps</a> for each available &lt;<i>dwDeviceID</i>, <i>dwAddressID</i>&gt; combination to determine the exact capabilities of each address. Note that an address identifier is permanently associated with an address; the identifier remains constant across operating system upgrades.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a> structure returned by this function contains the number of addresses assigned to the specified line device. The actual address identifiers used to reference individual addresses vary from zero to one less than the returned number. The capabilities of each address can be different. Use 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetaddresscaps">lineGetAddressCaps</a> for each available &lt;<i>dwDeviceID</i>, <i>dwAddressID</i>&gt; combination to determine the exact capabilities of each address. Note that an address identifier is permanently associated with an address; the identifier remains constant across operating system upgrades.
 
 
 
@@ -127,27 +127,27 @@ One of the members in the
 
 
 
-<a href="https://msdn.microsoft.com/09d10789-bc36-47c7-b77d-8698ae75541a">Basic Telephony Services Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/83e38453-bb93-4cc5-923f-d0cd2898350a">LINEDEVCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/d703b414-1389-416c-8e94-c1931979f0c9">TAPI 2.2 Reference Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/08cdea8a-5b36-428c-b90f-8741ae5f3205">lineGetAddressCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetaddresscaps">lineGetAddressCaps</a>
 
 
 
-<a href="https://msdn.microsoft.com/71eb55de-281b-42a9-8d9b-7ded62cb006a">lineNegotiateAPIVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linenegotiateapiversion">lineNegotiateAPIVersion</a>
 
 
 
-<a href="https://msdn.microsoft.com/89a49709-a15b-4358-984a-fd836d8e237b">lineNegotiateExtVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linenegotiateextversion">lineNegotiateExtVersion</a>
  
 
  

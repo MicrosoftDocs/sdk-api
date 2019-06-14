@@ -69,7 +69,7 @@ The <b>IPrintManagerInterop</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8cbf37b6-6756-4399-aa6b-01eb63c8c6db">GetForWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/printmanagerinterop/nf-printmanagerinterop-iprintmanagerinterop-getforwindow">GetForWindow</a>
 </td>
 <td align="left" width="63%">
 Gets the <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Graphics.Printing.PrintManager">PrintManager</a> instance for the specified window.
@@ -78,7 +78,7 @@ Gets the <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Graphics.Prin
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2414279e-e1ef-48c7-87a1-a09ad367aec4">ShowPrintUIForWindowAsync</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/printmanagerinterop/nf-printmanagerinterop-iprintmanagerinterop-showprintuiforwindowasync">ShowPrintUIForWindowAsync</a>
 </td>
 <td align="left" width="63%">
 Displays the UI for printing content for the specified window.

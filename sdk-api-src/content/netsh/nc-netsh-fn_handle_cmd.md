@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>FN_HANDLE_CMD</b> command is the command function for helpers. Helpers expose commands through the <i>pTopCmds</i> and <i>pCmdGroups</i> parameters in the 
-<a href="https://msdn.microsoft.com/52cebe62-d4b6-4229-8418-c0ae9849822b">RegisterContext</a> function. The following is an example of a command function. Be aware  that <b>SampleCommand</b> is a placeholder for the application-defined function name.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-registercontext">RegisterContext</a> function. The following is an example of a command function. Be aware  that <b>SampleCommand</b> is a placeholder for the application-defined function name.
 
 
 ## -parameters
@@ -122,11 +122,11 @@ The computer name specified in <i>pwszMachine</i> is passed to each function, so
 
 
 
-<a href="https://msdn.microsoft.com/b2a3ae40-4aaa-41b2-965c-1467a07ab2de">NS_HELPER_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/ns-netsh-_ns_helper_attributes">NS_HELPER_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/52cebe62-d4b6-4229-8418-c0ae9849822b">RegisterContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-registercontext">RegisterContext</a>
  
 
  

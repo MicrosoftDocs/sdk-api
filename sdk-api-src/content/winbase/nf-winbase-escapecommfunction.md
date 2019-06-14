@@ -64,7 +64,7 @@ Directs the specified communications device to perform an extended function.
 ### -param hFile [in]
 
 A handle to the communications device. The 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function returns this handle.
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function returns this handle.
 
 
 ### -param dwFunc [in]
@@ -84,7 +84,7 @@ The extended function to be performed. This parameter can be one of the followin
 </td>
 <td width="60%">
 Restores character transmission and places the transmission line in a nonbreak state. The CLRBREAK extended function code is identical to the 
-<a href="https://msdn.microsoft.com/9692242c-e209-4492-ab0b-333f09595597">ClearCommBreak</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-clearcommbreak">ClearCommBreak</a> function.
 
 </td>
 </tr>
@@ -118,9 +118,9 @@ Clears the RTS (request-to-send) signal.
 </td>
 <td width="60%">
 Suspends character transmission and places the transmission line in a break state until the 
-<a href="https://msdn.microsoft.com/9692242c-e209-4492-ab0b-333f09595597">ClearCommBreak</a> function is called (or 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-clearcommbreak">ClearCommBreak</a> function is called (or 
 <b>EscapeCommFunction</b> is called with the CLRBREAK extended function code). The SETBREAK extended function code is identical to the 
-<a href="https://msdn.microsoft.com/997fa1e0-c585-4517-abe7-77b9b08440ee">SetCommBreak</a> function. Note that this extended function does not flush data that has not been transmitted.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcommbreak">SetCommBreak</a> function. Note that this extended function does not flush data that has not been transmitted.
 
 </td>
 </tr>
@@ -179,7 +179,7 @@ Causes transmission to act as if an XON character has been received.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -189,23 +189,23 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/9692242c-e209-4492-ab0b-333f09595597">ClearCommBreak</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-clearcommbreak">ClearCommBreak</a>
 
 
 
-<a href="https://msdn.microsoft.com/ba7d1a9e-6906-4923-a8eb-db58050ba699">Communications Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-functions">Communications Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/7faf7d55-e30f-4be2-917b-e057265b81b2">Communications Resources</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-resources">Communications Resources</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/997fa1e0-c585-4517-abe7-77b9b08440ee">SetCommBreak</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcommbreak">SetCommBreak</a>
  
 
  

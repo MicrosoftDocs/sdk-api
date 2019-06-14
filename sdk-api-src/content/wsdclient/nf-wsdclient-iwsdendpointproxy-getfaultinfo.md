@@ -59,7 +59,7 @@ Retrieves information on the last received fault.
 
 ### -param ppFault [out]
 
-Pointer to a pointer to a <a href="https://msdn.microsoft.com/ed5e2575-203a-41a2-b656-50cb82aae088">WSD_SOAP_FAULT</a> structure containing the SOAP fault information.
+Pointer to a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_soap_fault">WSD_SOAP_FAULT</a> structure containing the SOAP fault information.
 
 
 ## -returns
@@ -115,7 +115,7 @@ Method completed successfully.
 
 
 
-<a href="https://msdn.microsoft.com/58ca085f-8939-413c-8fd3-4d867b1cf490">IWSDEndpointProxy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdendpointproxy">IWSDEndpointProxy</a>
  
 
  

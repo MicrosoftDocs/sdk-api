@@ -119,19 +119,19 @@ The caller is out of memory or other system resources.
 
 
 
-<a href="https://msdn.microsoft.com/170f9ea0-4846-49d4-ab06-eb1ce580e827">IVssBackupComponents::SetRangesFilePath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setrangesfilepath">IVssBackupComponents::SetRangesFilePath</a>
 
 
 
-<a href="https://msdn.microsoft.com/c686a424-b0b9-4efc-8dc6-b92193de2a5d">IVssComponent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
 
 
-<a href="https://msdn.microsoft.com/318dc1ee-e63f-4e79-96b9-8a8bd83facd3">IVssComponent::AddPartialFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-addpartialfile">IVssComponent::AddPartialFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/ed589ae8-2abb-4c3b-9695-12649fc89818">IVssComponent::GetPartialFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpartialfile">IVssComponent::GetPartialFile</a>
  
 
  

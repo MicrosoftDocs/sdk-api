@@ -73,21 +73,21 @@ The vertical position of the baseline origin, in DIPs, relative to the upper-lef
 
 ### -param measuringMode
 
-Type: <b><a href="https://msdn.microsoft.com/99e89754-8bc2-457d-bfdb-a3c9ccfe00c1">DWRITE_MEASURING_MODE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-dwrite_measuring_mode">DWRITE_MEASURING_MODE</a></b>
 
 The measuring method for glyphs in the run, used with the other properties to determine the rendering mode.
 
 
 ### -param glyphRun [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/2997d63f-8d33-44c3-9617-cfffe5f61f7d">DWRITE_GLYPH_RUN</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_glyph_run">DWRITE_GLYPH_RUN</a>*</b>
 
 The structure containing the properties of the glyph run.
 
 
 ### -param renderingParams
 
-Type: <b><a href="https://msdn.microsoft.com/28b118e4-9a63-46cf-8ab7-e1039126405b">IDWriteRenderingParams</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwriterenderingparams">IDWriteRenderingParams</a>*</b>
 
 The object that controls rendering behavior.
 
@@ -122,7 +122,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-You can use the <b>IDWriteBitmapRenderTarget::DrawGlyphRun</b> to render to a bitmap from a custom text renderer that you implement.  The custom text renderer should call this method from within the <a href="https://msdn.microsoft.com/95a0044c-dffd-4c6a-a6eb-2f87b02ef89a">IDWriteTextRenderer::DrawGlyphRun</a> callback method as shown in the following code.
+You can use the <b>IDWriteBitmapRenderTarget::DrawGlyphRun</b> to render to a bitmap from a custom text renderer that you implement.  The custom text renderer should call this method from within the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextrenderer-drawglyphrun">IDWriteTextRenderer::DrawGlyphRun</a> callback method as shown in the following code.
 
 
 ```cpp
@@ -160,7 +160,7 @@ STDMETHODIMP GdiTextRenderer::DrawGlyphRun(
 
 The <i>baselineOriginX</i>, <i>baslineOriginY</i>, <i>measuringMethod</i>, and <i>glyphRun</i> parameters are provided (as arguments) when the callback method is invoked.  The <i>renderingParams</i>, <i>textColor</i> and <i>blackBoxRect</i> are not.
 
-Default rendering params can be retrieved by using the <a href="https://msdn.microsoft.com/ddb6839a-9033-423a-a3f0-9352ec03e440">IDWriteFactory::CreateMonitorRenderingParams</a> method.
+Default rendering params can be retrieved by using the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-createmonitorrenderingparams">IDWriteFactory::CreateMonitorRenderingParams</a> method.
 
 
 
@@ -172,7 +172,7 @@ Default rendering params can be retrieved by using the <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/9953a9e9-7772-41a3-9cd9-2340a9dd4b6f">IDWriteBitmapRenderTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritebitmaprendertarget">IDWriteBitmapRenderTarget</a>
  
 
  

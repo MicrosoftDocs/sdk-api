@@ -64,14 +64,14 @@ Retrieves the lock status of the specified service control manager database.
 ### -param hSCManager [in]
 
 A handle to the service control manager database. The 
-<a href="https://msdn.microsoft.com/a0237989-e5a7-4a3a-ab23-e2474a995341">OpenSCManager</a> function returns this handle, which must have the SC_MANAGER_QUERY_LOCK_STATUS access right. For more information, see 
-<a href="https://msdn.microsoft.com/23d1c382-6ba4-49e2-8039-c2a91471076c">Service Security and Access Rights</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openscmanagera">OpenSCManager</a> function returns this handle, which must have the SC_MANAGER_QUERY_LOCK_STATUS access right. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>.
 
 
 ### -param lpLockStatus [out, optional]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/de9797b7-02b0-43cb-bed3-50b7e8676f36">QUERY_SERVICE_LOCK_STATUS</a> structure that receives the lock status of the specified database is returned, plus the strings to which its members point.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_query_service_lock_statusa">QUERY_SERVICE_LOCK_STATUS</a> structure that receives the lock status of the specified database is returned, plus the strings to which its members point.
 
 
 ### -param cbBufSize [in]
@@ -91,7 +91,7 @@ A pointer to a variable that receives the number of bytes needed to return all t
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following error codes can be set by the service control manager. Other error codes can be set by the registry functions that are called by the service control manager.
 
@@ -145,11 +145,11 @@ The specified handle is invalid.
 
 The 
 <b>QueryServiceLockStatus</b> function returns a 
-<a href="https://msdn.microsoft.com/de9797b7-02b0-43cb-bed3-50b7e8676f36">QUERY_SERVICE_LOCK_STATUS</a> structure that indicates whether the specified database is locked. If the database is locked, the structure provides the account name of the user that owns the lock and the length of time that the lock has been held.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_query_service_lock_statusa">QUERY_SERVICE_LOCK_STATUS</a> structure that indicates whether the specified database is locked. If the database is locked, the structure provides the account name of the user that owns the lock and the length of time that the lock has been held.
 
 A process calls the 
-<a href="https://msdn.microsoft.com/87861465-c966-479a-b906-27ae36cc83c8">LockServiceDatabase</a> function to acquire ownership of a service control manager database lock and the 
-<a href="https://msdn.microsoft.com/3277d175-ab0b-43ce-965f-f8087d0124e4">UnlockServiceDatabase</a> function to release the lock.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-lockservicedatabase">LockServiceDatabase</a> function to acquire ownership of a service control manager database lock and the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-unlockservicedatabase">UnlockServiceDatabase</a> function to release the lock.
 
 
 
@@ -159,27 +159,27 @@ A process calls the
 
 
 
-<a href="https://msdn.microsoft.com/87861465-c966-479a-b906-27ae36cc83c8">LockServiceDatabase</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-lockservicedatabase">LockServiceDatabase</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0237989-e5a7-4a3a-ab23-e2474a995341">OpenSCManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openscmanagera">OpenSCManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/de9797b7-02b0-43cb-bed3-50b7e8676f36">QUERY_SERVICE_LOCK_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_query_service_lock_statusa">QUERY_SERVICE_LOCK_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/fc8c631e-076c-4745-8db0-90f46a202e6a">Service Configuration</a>
+<a href="https://docs.microsoft.com/windows/desktop/Services/service-configuration">Service Configuration</a>
 
 
 
-<a href="https://msdn.microsoft.com/63666848-cbac-4853-8b91-89303f9854c0">Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Services/service-functions">Service Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/3277d175-ab0b-43ce-965f-f8087d0124e4">UnlockServiceDatabase</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-unlockservicedatabase">UnlockServiceDatabase</a>
  
 
  

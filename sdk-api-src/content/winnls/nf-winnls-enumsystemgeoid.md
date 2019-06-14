@@ -55,7 +55,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>EnumSystemGeoID</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/0CB7AE4E-F48A-49A6-A5E8-F151D38CE11E">EnumSystemGeoNames</a>.
+<p class="CCE_Message">[<b>EnumSystemGeoID</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemgeonames">EnumSystemGeoNames</a>.
 
 ]
 
@@ -79,14 +79,14 @@ Reserved. This parameter must be 0.
 
 ### -param lpGeoEnumProc [in]
 
-Pointer to the application-defined callback function <a href="https://msdn.microsoft.com/a906ecd3-9d9f-4d70-9571-095a224f3b5f">EnumGeoInfoProc</a>. The <b>EnumSystemGeoID</b> function makes repeated calls to this callback function until it returns <b>FALSE</b>.
+Pointer to the application-defined callback function <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd317817(v=vs.85)">EnumGeoInfoProc</a>. The <b>EnumSystemGeoID</b> function makes repeated calls to this callback function until it returns <b>FALSE</b>.
 
 
 ## -returns
 
 
 
-Returns a nonzero value if successful, or 0 otherwise. To get extended error information, the application can call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>, which can return one of the following error codes:
+Returns a nonzero value if successful, or 0 otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <ul>
 <li>ERROR_INVALID_FLAGS. The values supplied for flags were not valid.</li>
@@ -100,19 +100,19 @@ Returns a nonzero value if successful, or 0 otherwise. To get extended error inf
 
 
 
-<a href="https://msdn.microsoft.com/a906ecd3-9d9f-4d70-9571-095a224f3b5f">EnumGeoInfoProc</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd317817(v=vs.85)">EnumGeoInfoProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/0CB7AE4E-F48A-49A6-A5E8-F151D38CE11E">EnumSystemGeoNames</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemgeonames">EnumSystemGeoNames</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a548074-0782-45e1-8051-80c3b9d81885">National Language Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c72c4de-83be-4b7e-9ed8-b0236c1df8a4">National Language Support Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
  
 
  

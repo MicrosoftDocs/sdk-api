@@ -62,7 +62,7 @@ The <b>get_OuterFEC</b> method gets the type of outer FEC that is used.
 
 ### -param FEC [out]
 
-Pointer to a variable of type <a href="https://msdn.microsoft.com/6910c51d-4176-49a3-be6b-6b072ad03fc1">FECMethod</a> that receives the type of outer FEC.
+Pointer to a variable of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/fecmethod">FECMethod</a> that receives the type of outer FEC.
 
 
 ## -returns
@@ -79,19 +79,19 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="https://msdn.microsoft.com/1d6c18f0-e7f1-4a1c-9edb-e4b66297becf">ILocator</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator">ILocator</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd693580(v=VS.85).aspx">get_InnerFEC</a>
+<a href="https://docs.microsoft.com/previous-versions//dd693580(v=vs.85)">get_InnerFEC</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd693583(v=VS.85).aspx">get_OuterFECRate</a>
+<a href="https://docs.microsoft.com/previous-versions//dd693583(v=vs.85)">get_OuterFECRate</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd693587(v=VS.85).aspx">put_OuterFEC</a>
+<a href="https://docs.microsoft.com/previous-versions//dd693587(v=vs.85)">put_OuterFEC</a>
  
 
  

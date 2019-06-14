@@ -68,7 +68,7 @@ A handle on a menu.
 
 Type: <b>LPMENUINFO</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms647575(v=VS.85).aspx">MENUINFO</a> structure containing information for the menu. Note that you must set the <b>cbSize</b> member to <code>sizeof(MENUINFO)</code> before calling this function. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmenuinfo">MENUINFO</a> structure containing information for the menu. Note that you must set the <b>cbSize</b> member to <code>sizeof(MENUINFO)</code> before calling this function. 
 				
 
 
@@ -80,7 +80,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero. 
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -90,7 +90,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
  
 
  

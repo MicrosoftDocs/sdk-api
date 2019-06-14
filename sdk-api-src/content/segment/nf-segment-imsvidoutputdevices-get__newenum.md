@@ -118,7 +118,7 @@ NULL pointer argument.
 
 This method is provided so that Automation clients can iterate through the collection using a <code>For...Each</code> loop.
 
-The returned <b>IEnumVARIANT</b> interface is not thread safe, because it is intended primarily for use by Automation clients. Clients should not call methods on the interface from more than one thread. (C++ applications should generally use the <a href="https://msdn.microsoft.com/en-us/library/Dd694583(v=VS.85).aspx">IMSVidOutputDevices::get_Item</a> method instead.)
+The returned <b>IEnumVARIANT</b> interface is not thread safe, because it is intended primarily for use by Automation clients. Clients should not call methods on the interface from more than one thread. (C++ applications should generally use the <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidoutputdevices-get_item">IMSVidOutputDevices::get_Item</a> method instead.)
 
 If the method succeeds, the <b>IEnumVARIANT</b> interface has an outstanding reference count. The caller must release the interface.
 
@@ -130,7 +130,7 @@ If the method succeeds, the <b>IEnumVARIANT</b> interface has an outstanding ref
 
 
 
-<a href="https://msdn.microsoft.com/54776225-ad60-450b-99b4-851cae60ffa7">IMSVidOutputDevices Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidoutputdevices">IMSVidOutputDevices Interface</a>
  
 
  

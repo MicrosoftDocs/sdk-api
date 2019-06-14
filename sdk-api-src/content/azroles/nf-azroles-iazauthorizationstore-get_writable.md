@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Writable</b> property retrieves a value that indicates whether the object can be modified by the  user context that called the <a href="https://msdn.microsoft.com/c461d50a-c785-4b32-b331-fe3a1693f4de">Initialize</a> method.
+The <b>Writable</b> property retrieves a value that indicates whether the object can be modified by the  user context that called the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-initialize">Initialize</a> method.
 
 This property is read-only.
 

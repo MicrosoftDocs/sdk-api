@@ -59,14 +59,14 @@ Creates an instance of the AC-3 media sink.
 
 ### -param pTargetByteStream [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/690035b7-2855-4714-938f-f8250ec70d24">IMFByteStream</a> interface of a byte stream. The media sink writes the AC-3 file to this byte stream. The byte stream must be writable.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a> interface of a byte stream. The media sink writes the AC-3 file to this byte stream. The byte stream must be writable.
 
 
 
 
 ### -param pAudioMediaType [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface. This parameter specifies the media type for the AC-3 audio stream. The media type must contain the following attributes.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface. This parameter specifies the media type for the AC-3 audio stream. The media type must contain the following attributes.
 
 <table>
 <tr>
@@ -75,13 +75,13 @@ A pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-927
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/b88b5fcf-8025-4638-930d-9fc5cf0ec8a3">MF_MT_MAJOR_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-major-type-attribute">MF_MT_MAJOR_TYPE</a>
 </td>
 <td><b>MFMediaType_Audio</b></td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/8e600943-92f1-4936-8c00-842fc7f4cb57">MF_MT_SUBTYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-subtype-attribute">MF_MT_SUBTYPE</a>
 </td>
 <td><b>MFAudioFormat_Dolby_AC3</b> or <b>MFAudioFormat_Dolby_DDPlus</b></td>
 </tr>
@@ -91,7 +91,7 @@ A pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-927
 
 ### -param ppMediaSink [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/103e6fd8-a18f-480a-8261-099623014659">IMFMediaSink</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasink">IMFMediaSink</a> interface. The caller must release the interface.
 
 
 ## -returns
@@ -117,7 +117,7 @@ The AC-3 media sink takes compressed AC-3 audio as input and writes the audio to
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

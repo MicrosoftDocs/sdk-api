@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>capSetVideoFormat</b> macro sets the format of captured video data. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/4f9cf90d-7ccb-4fc7-aad5-3d7e082526be">WM_CAP_SET_VIDEOFORMAT</a> message.
+The <b>capSetVideoFormat</b> macro sets the format of captured video data. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-videoformat">WM_CAP_SET_VIDEOFORMAT</a> message.
 
 
 
@@ -67,7 +67,7 @@ Handle to a capture window.
 
 ### -param s
 
-Pointer to a <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO</a> structure. 
 
 
 ### -param wSize
@@ -89,11 +89,11 @@ Because video formats are device-specific, applications should check the return 
 
 
 
-<a href="https://msdn.microsoft.com/c93ecc51-e2c5-4b69-8625-c8385d53fab2">Video Capture</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://msdn.microsoft.com/21061f06-d58b-4800-a9f5-9821494fabd6">Video Capture Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
  
 
  

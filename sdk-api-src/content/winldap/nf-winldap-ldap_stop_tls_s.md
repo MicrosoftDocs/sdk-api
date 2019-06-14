@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ldap_stop_tls_s</b> function stops the encryption operation started by a call to <a href="https://msdn.microsoft.com/faca9324-5a85-47b0-9d6a-c62ec3c1ee80">ldap_start_tls_s</a>.
+The <b>ldap_stop_tls_s</b> function stops the encryption operation started by a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_start_tls_sa">ldap_start_tls_s</a>.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ Returns <b>TRUE</b> if the function call succeeds. Returns <b>FALSE</b> if a bin
 
 
 
-The <b>ldap_stop_tls_s</b> function should only be called on a connection for which TLS (SSL) was established by using <a href="https://msdn.microsoft.com/faca9324-5a85-47b0-9d6a-c62ec3c1ee80">ldap_start_tls_s</a>. It should not be called on a TLS (SSL) connection established by some other function, such as <a href="https://msdn.microsoft.com/04c13577-9d9f-4305-8aa2-fad81c03290a">ldap_sslinit</a>. Any outstanding requests on the connection will be abandoned before TLS encryption is terminated. If this function fails, that is, returns <b>FALSE</b>, close the connection by using <a href="https://msdn.microsoft.com/5d8b3198-3935-4305-b0f1-eaf1a9355cf3">ldap_unbind</a> or <a href="https://msdn.microsoft.com/b4dcf3cc-d4cb-40ca-a57e-150d4008108c">ldap_unbind_s</a> because the connection can be left in an indeterminate state.
+The <b>ldap_stop_tls_s</b> function should only be called on a connection for which TLS (SSL) was established by using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_start_tls_sa">ldap_start_tls_s</a>. It should not be called on a TLS (SSL) connection established by some other function, such as <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_sslinit">ldap_sslinit</a>. Any outstanding requests on the connection will be abandoned before TLS encryption is terminated. If this function fails, that is, returns <b>FALSE</b>, close the connection by using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind_s">ldap_unbind_s</a> because the connection can be left in an indeterminate state.
 
 
 
@@ -85,11 +85,11 @@ The <b>ldap_stop_tls_s</b> function should only be called on a connection for wh
 
 
 
-<a href="https://msdn.microsoft.com/10e97876-21ae-49d3-9cf7-890e95b0e93d">Using Start-stop TLS Encryption</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/using-start-stop-tls-encryption">Using Start-stop TLS Encryption</a>
 
 
 
-<a href="https://msdn.microsoft.com/faca9324-5a85-47b0-9d6a-c62ec3c1ee80">ldap_start_tls_s</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_start_tls_sa">ldap_start_tls_s</a>
  
 
  

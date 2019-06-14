@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-An <b>IInkCommitRequestHandler</b> object enables the app (instead of an <a href="https://msdn.microsoft.com/6d175981-6379-4a61-84b0-8b08274bc3a3">IInkPresenterDesktop</a> object) to  commit all pending    Microsoft DirectComposition commands to the app's  <a href="https://msdn.microsoft.com/40e2d02b-77e8-425f-ac5e-3dcddef08173">DirectComposition</a> visual tree.
+An <b>IInkCommitRequestHandler</b> object enables the app (instead of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/inkpresenterdesktop/nn-inkpresenterdesktop-iinkpresenterdesktop">IInkPresenterDesktop</a> object) to  commit all pending    Microsoft DirectComposition commands to the app's  <a href="https://docs.microsoft.com/windows/desktop/directcomp/directcomposition-portal">DirectComposition</a> visual tree.
 
 
 ## -see-also
@@ -61,7 +61,7 @@ An <b>IInkCommitRequestHandler</b> object enables the app (instead of an <a href
 
 
 
-<a href="https://msdn.microsoft.com/68172566-586C-41AC-82B8-5DBE8B50EC8F">Ink presenter interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_ink/ink-presenter-interfaces">Ink presenter interfaces</a>
 
 
 
@@ -69,7 +69,7 @@ An <b>IInkCommitRequestHandler</b> object enables the app (instead of an <a href
 
 
 
-<a href="https://msdn.microsoft.com/3DA4F2D2-5405-42A1-9ED9-3A87BCD84C43">Pen and stylus interactions</a>
+<a href="https://docs.microsoft.com/windows/uwp/input-and-devices/pen-and-stylus-interactions">Pen and stylus interactions</a>
 
 
 

@@ -50,8 +50,8 @@ ms.custom: 19H1
 
 
 The 
-<b>Advise</b> method is invoked by the device host to begin receiving events from the hosted service. The device host passes a pointer to its <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. The hosted service must query this <b>IUnknown</b> interface for the 
-<a href="https://msdn.microsoft.com/431423c9-2873-422d-a28c-c4ef23109114">IUPnPEventSink</a> interface the service must use to send event notifications.
+<b>Advise</b> method is invoked by the device host to begin receiving events from the hosted service. The device host passes a pointer to its <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. The hosted service must query this <b>IUnknown</b> interface for the 
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nn-upnphost-iupnpeventsink">IUPnPEventSink</a> interface the service must use to send event notifications.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param pesSubscriber [in]
 
 Pointer to the device host's 
-<a href="https://msdn.microsoft.com/431423c9-2873-422d-a28c-c4ef23109114">IUPnPEventSink</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nn-upnphost-iupnpeventsink">IUPnPEventSink</a> interface.
 
 
 ## -returns
@@ -79,11 +79,11 @@ When implementing this method, return S_OK if the method succeeds. Otherwise, re
 
 
 
-<a href="https://msdn.microsoft.com/f20dfcaa-b8fe-43c8-b353-067dad4cf2b4">IUPnPEventSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nn-upnphost-iupnpeventsource">IUPnPEventSource</a>
 
 
 
-<a href="https://msdn.microsoft.com/6ae9c53f-eb82-4396-ba85-c95e252911c8">IUPnPEventSource::Unadvise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpeventsource-unadvise">IUPnPEventSource::Unadvise</a>
  
 
  

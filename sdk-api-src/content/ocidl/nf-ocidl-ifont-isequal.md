@@ -59,7 +59,7 @@ Compares this font object to another for equivalence.
 
 ### -param pFontOther [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/3a04d2b7-b2eb-4c6c-8863-1e88321fa382">IFont</a> interface on the font object to be compared to this font. The reference count of the object referred to by this pointer is not affected by the comparison operation.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a> interface on the font object to be compared to this font. The reference count of the object referred to by this pointer is not affected by the comparison operation.
      
 
 
@@ -120,7 +120,7 @@ The address in the <i>pFontOther</i> parameter is not valid. For example, it may
 
 
 
-<a href="https://msdn.microsoft.com/3a04d2b7-b2eb-4c6c-8863-1e88321fa382">IFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
  
 
  

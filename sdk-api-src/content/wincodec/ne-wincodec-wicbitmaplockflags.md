@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies access to an <a href="https://msdn.microsoft.com/15dcc80d-ef58-453d-a57a-348ffc7ddc6b">IWICBitmap</a>.
+Specifies access to an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a>.
 
 
 ## -enum-fields

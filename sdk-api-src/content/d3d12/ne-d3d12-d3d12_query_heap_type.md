@@ -69,12 +69,12 @@ Indicates that the heap is for high-performance timing data.
 
 ### -field D3D12_QUERY_HEAP_TYPE_PIPELINE_STATISTICS
 
-Indicates the heap is to contain pipeline data. Refer to <a href="https://msdn.microsoft.com/0A84A3C8-0F6F-420E-88C9-26EC03F03179">D3D12_QUERY_DATA_PIPELINE_STATISTICS</a>.
+Indicates the heap is to contain pipeline data. Refer to <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_query_data_pipeline_statistics">D3D12_QUERY_DATA_PIPELINE_STATISTICS</a>.
 
 
 ### -field D3D12_QUERY_HEAP_TYPE_SO_STATISTICS
 
-Indicates the heap is to contain stream output data. Refer to <a href="https://msdn.microsoft.com/7A71F6DA-AAC2-4070-90E9-F91F090AD1A1">D3D12_QUERY_DATA_SO_STATISTICS</a>.
+Indicates the heap is to contain stream output data. Refer to <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_query_data_so_statistics">D3D12_QUERY_DATA_SO_STATISTICS</a>.
 
 
 ### -field D3D12_QUERY_HEAP_TYPE_VIDEO_DECODE_STATISTICS
@@ -82,21 +82,21 @@ Indicates the heap is to contain stream output data. Refer to <a href="https://m
 Indicates the heap is to contain video decode statistics data. Refer to <a href="direct3d12.d3d12_query_data_video_decode_statistics">D3D12_QUERY_DATA_VIDEO_DECODE_STATISTICS</a>
 
 
-Video decode statistics can only be queried from video decode command lists (<a href="https://msdn.microsoft.com/28BC70FF-6818-4B8D-9DE4-8316AB2FB288">D3D12_COMMAND_LIST_TYPE_VIDEO_DECODE</a>). See <a href="https://msdn.microsoft.com/F6FA9ACE-0089-4C7B-99D7-FD286CF4B18D">D3D12_QUERY_TYPE_DECODE_STATISTICS</a> for more details.
+Video decode statistics can only be queried from video decode command lists (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_command_list_type">D3D12_COMMAND_LIST_TYPE_VIDEO_DECODE</a>). See <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_query_type">D3D12_QUERY_TYPE_DECODE_STATISTICS</a> for more details.
 
 
 ### -field D3D12_QUERY_HEAP_TYPE_COPY_QUEUE_TIMESTAMP
 
 Indicates the heap is to contain timestamp queries emitted exclusively by copy command lists. Copy queue timestamps can only be queried from a copy command list, and a copy command list can not emit to a regular timestamp query Heap.
 
-Support for this query heap type is not universal. You must use <a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">CheckFeatureSupport</a> with <a href="direct3d12.d3d12_feature_d3d12_options3">D3D12_FEATURE_D3D12_OPTIONS3</a> to determine whether the adapter supports copy queue timestamp queries.
+Support for this query heap type is not universal. You must use <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport">CheckFeatureSupport</a> with <a href="direct3d12.d3d12_feature_d3d12_options3">D3D12_FEATURE_D3D12_OPTIONS3</a> to determine whether the adapter supports copy queue timestamp queries.
 
 
 ## -remarks
 
 
 
-This enum is used by the <a href="https://msdn.microsoft.com/1B1CB0D8-B370-4D38-BDA9-21C58D6A8F15">D3D12_QUERY_HEAP_DESC</a> structure.
+This enum is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_query_heap_desc">D3D12_QUERY_HEAP_DESC</a> structure.
 
 
 
@@ -106,7 +106,7 @@ This enum is used by the <a href="https://msdn.microsoft.com/1B1CB0D8-B370-4D38-
 
 
 
-<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
  
 
  

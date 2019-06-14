@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CRYPT_TIMESTAMP_REQUEST</b> structure defines a time stamp request structure that corresponds to the <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1) definition of a <b>TimeStampReq</b> type. The <b>CRYPT_TIMESTAMP_REQUEST</b> structure is used internally.
+The <b>CRYPT_TIMESTAMP_REQUEST</b> structure defines a time stamp request structure that corresponds to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) definition of a <b>TimeStampReq</b> type. The <b>CRYPT_TIMESTAMP_REQUEST</b> structure is used internally.
 
 
 ## -struct-fields
@@ -88,12 +88,12 @@ A version 1 time stamp request.
 
 ### -field HashAlgorithm
 
-A <a href="https://msdn.microsoft.com/ef0d3aa6-6b36-426f-a14c-2fdf7543deb9">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains information about the algorithm used to calculate the hash.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains information about the algorithm used to calculate the hash.
 
 
 ### -field HashedMessage
 
-A <a href="https://msdn.microsoft.com/1c2a07b8-f702-47f3-8d4c-6ac0cbc63f0f">CRYPT_DER_BLOB</a> structure that specifies the hash values to be time stamped.
+A <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/ns-dpapi-_cryptoapi_blob">CRYPT_DER_BLOB</a> structure that specifies the hash values to be time stamped.
 
 
 ### -field pszTSAPolicyId
@@ -103,7 +103,7 @@ Optional. A pointer to a null-terminated string that specifies the Time Stamping
 
 ### -field Nonce
 
-Optional. A <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_INTEGER_BLOB</a> structure that contains the nonce value used by the client to verify the
+Optional. A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure that contains the nonce value used by the client to verify the
 timeliness of the response when no local clock is available.
 
 
@@ -119,5 +119,5 @@ The number of elements in the array pointed to by the <b>rgExtension</b> member.
 
 ### -field rgExtension
 
-A pointer to an array of <a href="https://msdn.microsoft.com/787a4df0-c0e3-46b9-a7e6-eb3bee3ed717">CERT_EXTENSION</a> structures that contain extension information that is passed in the request.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_extension">CERT_EXTENSION</a> structures that contain extension information that is passed in the request.
 

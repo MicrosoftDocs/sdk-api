@@ -155,7 +155,7 @@ class CAccessibilityApplicationWindow : public IAccessibilityDockingServiceCallb
 
 
 
-<a href="https://msdn.microsoft.com/DBAFE260-0AC6-4801-8590-DE058667C9A6">IAccessibilityDockingService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iaccessibilitydockingservice">IAccessibilityDockingService</a>
  
 
  

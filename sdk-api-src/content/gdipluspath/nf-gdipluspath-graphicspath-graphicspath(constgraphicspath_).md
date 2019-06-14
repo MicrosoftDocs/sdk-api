@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 <span>This topic lists the constructors of the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> class. For a complete class listing, see <b>GraphicsPath Class</b>. 
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> class. For a complete class listing, see <b>GraphicsPath Class</b>. 
 </span><h3>Overload list</h3><table>
 <tr>
 <th align="left" width="37%">Constructor</th>
@@ -58,28 +58,28 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535630(v=VS.85).aspx">GraphicsPath(FillMode)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-graphicspath(infillmode)">GraphicsPath(FillMode)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms535630(v=VS.85).aspx">GraphicsPath::GraphicsPath</a> object and initializes the fill mode. This is the default constructor.
+Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-graphicspath(infillmode)">GraphicsPath::GraphicsPath</a> object and initializes the fill mode. This is the default constructor.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535629(v=VS.85).aspx">GraphicsPath(Point*,BYTE*,INT,FillMode)</a>
+<a href="https://docs.microsoft.com/previous-versions//ms535629(v=vs.85)">GraphicsPath(Point*,BYTE*,INT,FillMode)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms535629(v=VS.85).aspx">GraphicsPath::GraphicsPath</a> object based on an array of points, an array of types, and a fill mode.
+Creates a <a href="https://docs.microsoft.com/previous-versions//ms535629(v=vs.85)">GraphicsPath::GraphicsPath</a> object based on an array of points, an array of types, and a fill mode.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535631(v=VS.85).aspx">GraphicsPath(PointF*,BYTE*,INT,FillMode)</a>
+<a href="https://docs.microsoft.com/previous-versions//ms535631(v=vs.85)">GraphicsPath(PointF*,BYTE*,INT,FillMode)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms535631(v=VS.85).aspx">GraphicsPath::GraphicsPath</a> object based on an array of points, an array of types, and a fill mode.
+Creates a <a href="https://docs.microsoft.com/previous-versions//ms535631(v=vs.85)">GraphicsPath::GraphicsPath</a> object based on an array of points, an array of types, and a fill mode.
 
 </td>
 </tr>

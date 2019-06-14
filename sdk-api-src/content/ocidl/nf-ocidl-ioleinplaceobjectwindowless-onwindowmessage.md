@@ -136,7 +136,7 @@ The container should dispatch the message to the windowless object with the keyb
 </ul>
 For all other messages, the container should process the message on its own.
 
-The windowless object can return S_FALSE to this method to indicate that it did not process the message. Then, the container either performs the default behavior for the message by calling the <a href="https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx">DefWindowProc</a> function, or processes the message itself.
+The windowless object can return S_FALSE to this method to indicate that it did not process the message. Then, the container either performs the default behavior for the message by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca">DefWindowProc</a> function, or processes the message itself.
 
 The container must pass the following window messages to the default window procedure:
 
@@ -163,7 +163,7 @@ The container must process the following window messages as its own:
 </ul>
 <div class="alert"><b>Note</b>  For WM_SETCURSOR, the container can either set the cursor itself or do nothing.</div>
 <div> </div>
-Objects can also use <a href="https://msdn.microsoft.com/14017061-57e3-49a9-93cc-6373522ab1dc">IOleInPlaceSiteWindowless::OnDefWindowMessage</a> to explicitly invoke the default message processing from the container. In the case of the WM_SETCURSOR message, this allows an object to take action if the container does not set the cursor.
+Objects can also use <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleinplacesitewindowless-ondefwindowmessage">IOleInPlaceSiteWindowless::OnDefWindowMessage</a> to explicitly invoke the default message processing from the container. In the case of the WM_SETCURSOR message, this allows an object to take action if the container does not set the cursor.
 
 All coordinates passed to the object in <i>wParam</i> and <i>lParam</i> are specified as client coordinates of the containing window.
 
@@ -175,15 +175,15 @@ All coordinates passed to the object in <i>wParam</i> and <i>lParam</i> are spec
 
 
 
-<a href="https://msdn.microsoft.com/86aabb46-6bc7-4953-b4eb-8692552ca380">IOleInPlaceObjectWindowless</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplaceobjectwindowless">IOleInPlaceObjectWindowless</a>
 
 
 
-<a href="https://msdn.microsoft.com/14017061-57e3-49a9-93cc-6373522ab1dc">IOleInPlaceSiteWindowless::OnDefWindowMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleinplacesitewindowless-ondefwindowmessage">IOleInPlaceSiteWindowless::OnDefWindowMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/48de7ab3-eb1e-49e1-8d31-ca1ef1f9055d">IOleInPlaceSiteWindowless:SetCapture</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleinplacesitewindowless-setcapture">IOleInPlaceSiteWindowless:SetCapture</a>
  
 
  

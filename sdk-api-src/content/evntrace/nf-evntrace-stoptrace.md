@@ -62,7 +62,7 @@ The
    
 
 The 
-<a href="https://msdn.microsoft.com/c39f669c-ff40-40ed-ba47-798474ec2de4">ControlTrace</a> function supersedes this function.
+<a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a> function supersedes this function.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ Handle to the event tracing session that you want to stop, or <b>NULL</b>. You m
       specify <i>SessionHandle</i> if <i>SessionName</i> is 
       <b>NULL</b>. However, ETW ignores the handle if <i>SessionName</i> is not 
       <b>NULL</b>. The handle is returned by the 
-      <a href="https://msdn.microsoft.com/c040514a-733d-44b9-8300-a8341d2630b3">StartTrace</a> function.
+      <a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a> function.
 
 
 ### -param b [in]
@@ -91,7 +91,7 @@ To specify the NT Kernel Logger session, set <i>SessionName</i> to
 
 ### -param c [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/0c967971-8df1-4679-a8a9-a783f5b35860">EVENT_TRACE_PROPERTIES</a> 
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> 
       structure that receives the final properties and statistics for the session.
 
 If you are using a newly 
@@ -101,7 +101,7 @@ If you are using a newly
       (1024 characters) and maximum log file name (1024 characters) lengths to calculate the buffer size and offsets 
       if not known. 
 
-<b>Starting with Windows 10, version 1703:  </b>For better performance in cross process scenarios, you can now pass filtering in to <b>StopTrace</b> for  system wide private loggers. You will need to pass in the new <a href="https://msdn.microsoft.com/2EEDB53B-75BC-48AC-A70D-9AEAED526C40">EVENT_TRACE_PROPERTIES_V2</a> structure to include filtering information. See <a href="https://msdn.microsoft.com/fb6a3899-194e-4cb7-b9e5-a7ff85fb7891">Configuring and Starting a Private Logger Session</a> for more details.
+<b>Starting with Windows 10, version 1703:  </b>For better performance in cross process scenarios, you can now pass filtering in to <b>StopTrace</b> for  system wide private loggers. You will need to pass in the new <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties-v2">EVENT_TRACE_PROPERTIES_V2</a> structure to include filtering information. See <a href="https://docs.microsoft.com/windows/desktop/ETW/configuring-and-starting-a-private-logger-session">Configuring and Starting a Private Logger Session</a> for more details.
 
 
 ## -remarks
@@ -111,7 +111,7 @@ If you are using a newly
 Controllers call this function.
 
 If <b>LogFileMode</b> contains <b>EVENT_TRACE_FILE_MODE_PREALLOCATE</b>, 
-    <a href="https://msdn.microsoft.com/c040514a-733d-44b9-8300-a8341d2630b3">StartTrace</a> extends the log file to 
+    <a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a> extends the log file to 
     <b>MaximumFileSize</b> bytes. The file occupies the entire space during logging, for both 
     circular and sequential logs. When you stop the logger, the log file is reduced to the size needed.
 
@@ -125,11 +125,11 @@ Note that it is not safe to stop a trace session from DllMain.
 
 
 
-<a href="https://msdn.microsoft.com/c39f669c-ff40-40ed-ba47-798474ec2de4">ControlTrace</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a>
 
 
 
-<a href="https://msdn.microsoft.com/c040514a-733d-44b9-8300-a8341d2630b3">StartTrace</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a>
  
 
  

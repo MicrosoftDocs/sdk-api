@@ -173,7 +173,7 @@ The error string provided if any certificates in the chain have weak cryptograph
 
 
 
-<a href="https://msdn.microsoft.com/19c37f77-1072-4740-b244-764b816a2a1f">CertVerifyCertificateChainPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy">CertVerifyCertificateChainPolicy</a>
  
 
  

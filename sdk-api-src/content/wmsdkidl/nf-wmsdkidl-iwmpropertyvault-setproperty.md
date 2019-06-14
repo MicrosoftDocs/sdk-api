@@ -90,7 +90,7 @@ The following table lists the property names supported by the <b>IWMPropertyVaul
 <td>g_wszOriginalWaveFormat</td>
 <td><b>WMT_TYPE_BINARY
                 </b></td>
-<td>When transcoding with smart recompression, set to the <a href="https://msdn.microsoft.com/a25fef3b-8d0c-42de-8008-245f9560da44">WAVEFORMATEX</a> structure used in the original encoding.</td>
+<td>When transcoding with smart recompression, set to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd757720(v=vs.85)">WAVEFORMATEX</a> structure used in the original encoding.</td>
 </tr>
 <tr>
 <td>g_wszEDL</td>
@@ -102,13 +102,13 @@ The following table lists the property names supported by the <b>IWMPropertyVaul
 <td>g_wszComplexity</td>
 <td><b>WMT_TYPE_WORD
                 </b></td>
-<td>Set to the complexity setting desired. You can find the complexity levels supported by a codec by calling <a href="https://msdn.microsoft.com/en-us/library/Dd743320(v=VS.85).aspx">IWMCodecInfo3::GetCodecProp</a>.</td>
+<td>Set to the complexity setting desired. You can find the complexity levels supported by a codec by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo3-getcodecprop">IWMCodecInfo3::GetCodecProp</a>.</td>
 </tr>
 <tr>
 <td>g_wszDecoderComplexityRequested</td>
 <td><b>WMT_TYPE_STRING
                 </b></td>
-<td>Set to the string value of the device conformance template that you would like the stream to be encoded to. For audio there is only one string value, for video, us the two-letter designation before the ampersand. For more information, see <a href="https://msdn.microsoft.com/570a897c-c2a2-44bf-b315-2acc892d4bfa">Device Conformance Template Parameters</a>.</td>
+<td>Set to the string value of the device conformance template that you would like the stream to be encoded to. For audio there is only one string value, for video, us the two-letter designation before the ampersand. For more information, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/device-conformance-template-parameters">Device Conformance Template Parameters</a>.</td>
 </tr>
 <tr>
 <td>g_wszPeakValue</td>
@@ -149,12 +149,12 @@ g_wszMixedClassMode
 </table>
  
 
-In addition to the values in the table, the settings for variable bit rate encoding are set using this method. For more information, see <a href="https://msdn.microsoft.com/83caabb7-b7fa-4b0a-a608-d5a86e4101b8">Configuring VBR Streams</a>.
+In addition to the values in the table, the settings for variable bit rate encoding are set using this method. For more information, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/configuring-vbr-streams">Configuring VBR Streams</a>.
 
 
 ### -param pType [in]
 
-Pointer to a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757834(v=VS.85).aspx">WMT_ATTR_DATATYPE</a> enumeration type. This parameter specifies the type of data pointed to by <i>pValue</i>.
+Pointer to a member of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a> enumeration type. This parameter specifies the type of data pointed to by <i>pValue</i>.
 
 
 ### -param pValue [in]
@@ -247,7 +247,7 @@ You can remove a property using <b>SetProperty</b> by passing either <b>NULL</b>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757416(v=VS.85).aspx">IWMPropertyVault Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpropertyvault">IWMPropertyVault Interface</a>
  
 
  

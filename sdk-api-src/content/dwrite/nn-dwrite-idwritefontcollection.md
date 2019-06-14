@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDWriteFontCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontCollection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDWriteFontCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5537988f-aba0-4477-be01-72a5f8e66395">FindFamilyName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontcollection-findfamilyname">FindFamilyName</a>
 </td>
 <td align="left" width="63%">
  Finds the font family with the specified family name.
@@ -78,7 +78,7 @@ The <b>IDWriteFontCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/470c63cc-b50f-4b62-98c0-f7ce183bfcfd">GetFontFamily</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontcollection-getfontfamily">GetFontFamily</a>
 </td>
 <td align="left" width="63%">
  Creates a font family object given a zero-based font family index.
@@ -87,7 +87,7 @@ The <b>IDWriteFontCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/82b6409a-6f6c-4b8d-9c48-916f1f7f3750">GetFontFamilyCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontcollection-getfontfamilycount">GetFontFamilyCount</a>
 </td>
 <td align="left" width="63%">
  Gets the number of font families in the collection.
@@ -96,7 +96,7 @@ The <b>IDWriteFontCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cc3c6cb9-9e98-4d45-bf73-ee625fb17e8c">GetFontFromFontFace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontcollection-getfontfromfontface">GetFontFromFontFace</a>
 </td>
 <td align="left" width="63%">
  Gets the font object that corresponds to the same physical font as the specified font face object. The specified physical font must belong 
@@ -111,7 +111,7 @@ The <b>IDWriteFontCollection</b> interface has these methods.
 
 
 
-The <a href="https://msdn.microsoft.com/4f5cbea1-9775-4266-aa3c-7c15892d61b1">IDWriteFactory::GetSystemFontCollection</a> method will give you an <b>IDWriteFontCollection</b> object, which encapsulates the set of fonts installed on the system, as shown in the following code example.
+The <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-getsystemfontcollection">IDWriteFactory::GetSystemFontCollection</a> method will give you an <b>IDWriteFontCollection</b> object, which encapsulates the set of fonts installed on the system, as shown in the following code example.
 
 
 ```cpp
@@ -127,9 +127,9 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/64b2cac3-c4cb-4213-b808-7b279d296939">IDWriteTextFormat</a> and <a href="https://msdn.microsoft.com/0d687337-8623-4014-967c-f533072e31cc">IDWriteTextLayout</a> both have a <a href="https://msdn.microsoft.com/a94cfca5-3a03-4912-9a33-df705a2265cf">GetFontCollection</a> method that returns the font collection being used by the object.  These interfaces use the system font collection by default, but can use a custom font collection instead.
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a> and <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a> both have a <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextformat-getfontcollection">GetFontCollection</a> method that returns the font collection being used by the object.  These interfaces use the system font collection by default, but can use a custom font collection instead.
 
-To determine what fonts are available on the system,  get a reference to the system font collection.  You can then use the <a href="https://msdn.microsoft.com/82b6409a-6f6c-4b8d-9c48-916f1f7f3750">IDWriteFontCollection::GetFontFamilyCount</a> method to determine the number of fonts and loop through the list. The following example enumerates the fonts in the system font collection, and prints the font family names to the console.
+To determine what fonts are available on the system,  get a reference to the system font collection.  You can then use the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontcollection-getfontfamilycount">IDWriteFontCollection::GetFontFamilyCount</a> method to determine the number of fonts and loop through the list. The following example enumerates the fonts in the system font collection, and prints the font family names to the console.
 
 
 ```cpp

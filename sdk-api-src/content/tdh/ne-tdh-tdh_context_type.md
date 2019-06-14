@@ -84,7 +84,7 @@ A 1-byte Boolean flag that indicates if the WPP event time stamp should be conve
 
 Size, in bytes, of the pointer data types or size_t data types used in the event. Indicates if the event used 4-byte or 8-byte values. By default, the pointer size is the pointer size of the decoding computer.
 
-To determine the size of the pointer or size_t value, use the <b>PointerSize</b> member of  <a href="https://msdn.microsoft.com/13fdabe6-c904-4546-b876-c145f6a6c345">TRACE_LOGFILE_HEADER</a> (the first event you receive in your <a href="https://msdn.microsoft.com/80a30faf-af1f-4440-8a17-9df44bdb2291">EventRecordCallback</a> callback contains this header in the data section). However, this value may not be accurate. For example, on a 64-bit computer, a 32-bit application will log 4-byte pointers; however, the session will set <b>PointerSize</b> to 8.
+To determine the size of the pointer or size_t value, use the <b>PointerSize</b> member of  <a href="https://docs.microsoft.com/windows/desktop/ETW/trace-logfile-header">TRACE_LOGFILE_HEADER</a> (the first event you receive in your <a href="https://docs.microsoft.com/windows/desktop/ETW/eventrecordcallback">EventRecordCallback</a> callback contains this header in the data section). However, this value may not be accurate. For example, on a 64-bit computer, a 32-bit application will log 4-byte pointers; however, the session will set <b>PointerSize</b> to 8.
 
 
 ### -field TDH_CONTEXT_PDB_PATH
@@ -113,7 +113,7 @@ If you are specifying context information for a legacy ETW event, you only need 
 
 
 
-<a href="https://msdn.microsoft.com/184df0af-3ac5-406f-a298-4f23826ad85e">TDH_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_tdh_context">TDH_CONTEXT</a>
  
 
  

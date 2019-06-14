@@ -73,11 +73,11 @@ If an attendee disconnects, the attendee object will be destroyed. If the attend
 
 
 
-<a href="https://msdn.microsoft.com/e9edd9f2-ccbf-45b2-b71c-e30368435a60">IRDPSRAPIAttendee</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendee">IRDPSRAPIAttendee</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373857(v=VS.85).aspx">RDPENCOMAPI_CONSTANTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/ne-rdpencomapi-__midl___midl_itf_rdpencomapi_0000_0028_0001">RDPENCOMAPI_CONSTANTS</a>
  
 
  

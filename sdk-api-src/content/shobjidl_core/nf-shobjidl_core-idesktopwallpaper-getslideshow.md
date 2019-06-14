@@ -59,7 +59,7 @@ Gets the images that are being displayed in the desktop wallpaper slideshow.
 
 ### -param items [out]
 
-The address of a pointer to an <a href="https://msdn.microsoft.com/348213d1-c03f-4c38-9d13-3b1009d94e07">IShellItemArray</a> object that, when this method returns successfully, receives the items that make up the slideshow. This array can contain individual items stored in the same container, or it can contain a single item which is the container itself.
+The address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a> object that, when this method returns successfully, receives the items that make up the slideshow. This array can contain individual items stored in the same container, or it can contain a single item which is the container itself.
 
 
 ## -returns
@@ -95,11 +95,11 @@ A <b>NULL</b> pointer was provided in <i>position</i>.
 
 
 
-<a href="https://msdn.microsoft.com/A83903B5-314B-4a8b-8D37-F8A8995DE0CB">IDesktopWallpaper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idesktopwallpaper">IDesktopWallpaper</a>
 
 
 
-<a href="https://msdn.microsoft.com/0E4743A0-75AB-456a-BAAE-8EC4C0D14E6C">IDesktopWallpaper::SetSlideshow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-setslideshow">IDesktopWallpaper::SetSlideshow</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the <a href="https://msdn.microsoft.com/en-us/library/Hh780509(v=VS.85).aspx">IMbnDeviceService</a> object that can be used for communicating with a device service on the Mobile Broadband device.
+Gets the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a> object that can be used for communicating with a device service on the Mobile Broadband device.
 
 
 ## -parameters
@@ -59,12 +59,12 @@ Gets the <a href="https://msdn.microsoft.com/en-us/library/Hh780509(v=VS.85).asp
 
 ### -param deviceServiceID [in]
 
-The <a href="https://msdn.microsoft.com/3AE6D7A6-3974-4517-AEB6-992CAC543247">deviceServiceID</a> of the Mobile Broadband device.
+The <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-get_deviceserviceid">deviceServiceID</a> of the Mobile Broadband device.
 
 
 ### -param mbnDeviceService [out, retval]
 
-The <a href="https://msdn.microsoft.com/en-us/library/Hh780509(v=VS.85).aspx">IMbnDeviceService</a> object.
+The <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a> object.
 
 
 ## -returns
@@ -110,7 +110,7 @@ An error was encountered when executing this method.
 
 
 
-<b>GetDeviceService</b> may return an <a href="https://msdn.microsoft.com/en-us/library/Hh780509(v=VS.85).aspx">IMbnDeviceService</a> object that already has a command or data session open. The calling process can check if the device service is already open.
+<b>GetDeviceService</b> may return an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a> object that already has a command or data session open. The calling process can check if the device service is already open.
 
 
 
@@ -120,7 +120,7 @@ An error was encountered when executing this method.
 
 
 
-<a href="https://msdn.microsoft.com/0B97FCCD-0A90-4FA2-9122-B00BD3F1A033">IMbnDeviceServicesContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicescontext">IMbnDeviceServicesContext</a>
  
 
  

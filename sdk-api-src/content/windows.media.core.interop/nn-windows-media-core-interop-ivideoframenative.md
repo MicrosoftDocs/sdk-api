@@ -54,7 +54,7 @@ Represents a frame of video data.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVideoFrameNative</b> interface inherits from <a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a>. <b>IVideoFrameNative</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVideoFrameNative</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IVideoFrameNative</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IVideoFrameNative</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/084F020F-A6F5-4982-BA4B-A8F8D6182868">GetData</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinRT/ivideoframenative-getdata">GetData</a>
 </td>
 <td align="left" width="63%">
 This method returns an interface that provides access to the video data. 
@@ -78,7 +78,7 @@ This method returns an interface that provides access to the video data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9A61159B-C383-4770-AD8F-9F69F720E3E2">GetDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinRT/ivideoframenative-getdevice">GetDevice</a>
 </td>
 <td align="left" width="63%">
 This method returns a device associated with the video data. 
@@ -93,7 +93,7 @@ This method returns a device associated with the video data.
 
 
 
-<a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
  
 
  

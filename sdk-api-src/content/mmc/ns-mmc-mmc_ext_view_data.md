@@ -92,7 +92,7 @@ If <b>TRUE</b>, the <b>Standard</b> tab does not appear in the tab selector; oth
 
 For an example of the 
 <b>MMC_EXT_VIEW_DATA</b> structure used in C++ code, see 
-<a href="https://msdn.microsoft.com/3e794787-d328-4cbf-822e-8846fed81a57">IViewExtensionCallback::AddView</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iviewextensioncallback-addview">IViewExtensionCallback::AddView</a>.
 
 
 
@@ -102,19 +102,19 @@ For an example of the
 
 
 
-<a href="https://msdn.microsoft.com/3c626853-a9f1-4961-97d0-a12d0bf8b9ed">Extending Views</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/extending-views">Extending Views</a>
 
 
 
-<a href="https://msdn.microsoft.com/1854ab01-e518-4ff4-a1d5-d1e03b348992">IViewExtensionCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iviewextensioncallback">IViewExtensionCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e794787-d328-4cbf-822e-8846fed81a57">IViewExtensionCallback::AddView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iviewextensioncallback-addview">IViewExtensionCallback::AddView</a>
 
 
 
-<a href="https://msdn.microsoft.com/410f8a6a-7df2-4610-97e9-108e185d52a6">View Extension Mechanism</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/view-extension-mechanism">View Extension Mechanism</a>
  
 
  

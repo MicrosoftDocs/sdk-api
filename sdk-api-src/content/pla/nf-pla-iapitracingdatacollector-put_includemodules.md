@@ -81,11 +81,11 @@ This property  limits the  trace to a subset of those DLLs. For example, you can
 
 
 
-<a href="https://msdn.microsoft.com/8d600d35-bd2b-44fc-9da4-3c6e50e90b65">IApiTracingDataCollector</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-iapitracingdatacollector">IApiTracingDataCollector</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa2239f0-b70e-491f-8a88-b41d429e8bb2">IApiTracingDataCollector::ExePath</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-iapitracingdatacollector-get_exepath">IApiTracingDataCollector::ExePath</a>
  
 
  

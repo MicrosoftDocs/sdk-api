@@ -90,11 +90,11 @@ Once a color context has been initialized, it can't be re-initialized.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd316928(v=VS.85).aspx">GetColorDirectory</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/getcolordirectory">GetColorDirectory</a>
 
 
 
-<a href="https://msdn.microsoft.com/b6817676-affb-4bb3-adba-e24e0b75ad10">IWICColorContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwiccolorcontext">IWICColorContext</a>
  
 
  

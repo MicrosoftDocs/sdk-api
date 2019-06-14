@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms538181(v=VS.85).aspx">InputScope</a> enumeration contains values that specify which input scopes are applied to a given field.
+The <a href="https://docs.microsoft.com/windows/desktop/api/inputscope/ne-inputscope-__midl___midl_itf_inputscope_0000_0000_0001">InputScope</a> enumeration contains values that specify which input scopes are applied to a given field.
 
 
 ## -enum-fields
@@ -612,7 +612,7 @@ Indicates a custom xml string.
 
 ### -field IS_ENUMSTRING
 
-The scope contains the IEnumString interface pointer. The Text Input Processor (TIP) can call <a href="https://msdn.microsoft.com/89379dab-6f96-4a86-8433-b6b0a8e45516">ITfInputScope2::EnumWordList</a> to retrieve it.
+The scope contains the IEnumString interface pointer. The Text Input Processor (TIP) can call <a href="https://docs.microsoft.com/windows/desktop/api/inputscope/nf-inputscope-itfinputscope2-enumwordlist">ITfInputScope2::EnumWordList</a> to retrieve it.
 
 
 #### - IS_HANJA_FULLWIDTH
@@ -639,20 +639,20 @@ Whether a given input scope value is supported can vary across technologies.
 
 
 
-<a href="https://msdn.microsoft.com/b2a045dd-dc2c-489d-bcb9-80710faef9c2">ITfInputScope
+<a href="https://docs.microsoft.com/windows/desktop/api/inputscope/nn-inputscope-itfinputscope">ITfInputScope
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/4098525c-8d29-419a-9484-9e70420416bc">SetInputScope</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inputscope/nf-inputscope-setinputscope">SetInputScope</a>
 
 
 
-<a href="https://msdn.microsoft.com/bd770852-412a-4097-b22f-02f240516770">SetInputScopeXML</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inputscope/nf-inputscope-setinputscopexml">SetInputScopeXML</a>
 
 
 
-<a href="https://msdn.microsoft.com/28c0be9b-f42c-4ab1-a3af-9c591a5192dd">SetInputScopes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inputscope/nf-inputscope-setinputscopes">SetInputScopes</a>
  
 
  

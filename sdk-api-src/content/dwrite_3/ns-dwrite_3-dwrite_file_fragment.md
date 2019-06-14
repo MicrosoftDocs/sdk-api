@@ -71,7 +71,7 @@ Size of the file fragment, in bytes.
 
 
 
-DWRITE_FILE_FRAGMENT is passed as input to <a href="https://msdn.microsoft.com/A0EE8383-81A8-4974-B213-142704EFA210">IDWriteRemoteFontFileStream::BeginDownload</a>.
+DWRITE_FILE_FRAGMENT is passed as input to <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwriteremotefontfilestream-begindownload">IDWriteRemoteFontFileStream::BeginDownload</a>.
 
 
 

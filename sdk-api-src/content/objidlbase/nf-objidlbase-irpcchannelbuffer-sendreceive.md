@@ -59,7 +59,7 @@ Sends a method invocation across an RPC channel to the server stub.
 
 ### -param pMessage [in, out]
 
-A pointer to an <a href="https://msdn.microsoft.com/b4761462-1910-431c-b5cd-c14fdda0b6b6">RPCOLEMESSAGE</a> structure that has been populated with marshaled data.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagrpcolemessage">RPCOLEMESSAGE</a> structure that has been populated with marshaled data.
 
 
 ### -param pStatus [out]
@@ -80,7 +80,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-Before invoking this method, the <a href="https://msdn.microsoft.com/775a15df-8bcf-4c1b-a8b9-5c7c03106c09">GetBuffer</a> method must have been invoked to allocate a channel buffer. Upon return, the <b>dataRepresentation</b> buffer of the <a href="https://msdn.microsoft.com/b4761462-1910-431c-b5cd-c14fdda0b6b6">RPCOLEMESSAGE</a> structure will have been modified to include the data returned by the method invoked on the server. If the invocation was successful, the RPC channel buffer has been freed; otherwise the caller must free it explicitly by calling <a href="https://msdn.microsoft.com/bcdd4783-4a75-42d0-86a9-ab2605abbbe1">FreeBuffer</a>.
+Before invoking this method, the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-getbuffer">GetBuffer</a> method must have been invoked to allocate a channel buffer. Upon return, the <b>dataRepresentation</b> buffer of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagrpcolemessage">RPCOLEMESSAGE</a> structure will have been modified to include the data returned by the method invoked on the server. If the invocation was successful, the RPC channel buffer has been freed; otherwise the caller must free it explicitly by calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-freebuffer">FreeBuffer</a>.
 
 
 
@@ -90,7 +90,7 @@ Before invoking this method, the <a href="https://msdn.microsoft.com/775a15df-8b
 
 
 
-<a href="https://msdn.microsoft.com/1d7d7e1c-a491-4625-97ae-0d4dc5d2fc20">IRpcChannelBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcchannelbuffer">IRpcChannelBuffer</a>
  
 
  

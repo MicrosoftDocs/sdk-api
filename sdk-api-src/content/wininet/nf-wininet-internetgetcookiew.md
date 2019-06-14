@@ -90,7 +90,7 @@ If the function succeeds, the function returns <b>TRUE</b>.
 
 
 If the function fails, it returns <b>FALSE</b>. To get extended error data, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following error values apply to 
 <b>InternetGetCookie</b>.
@@ -148,16 +148,16 @@ The <i>lpszUrl</i> parameter is <b>NULL</b>.
 
 
 <b>InternetGetCookie</b> does not require a call to 
-<a href="https://msdn.microsoft.com/9ec087c9-d484-4763-a527-2ea5c1a0cf28">InternetOpen</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetopena">InternetOpen</a>. 
 <b>InternetGetCookie</b> checks in the windows\cookies directory for persistent cookies that have an expiration date set sometime in the future. 
 <b>InternetGetCookie</b> also searches memory for any session cookies, that is, cookies that do not have an expiration date that were created in the same process by 
-<a href="https://msdn.microsoft.com/1b1ca72e-9c74-4e94-86a9-6fee12c83933">InternetSetCookie</a>, because these cookies are not written to any files. Rules for creating cookie files are internal to the system and can change in the future.
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetsetcookiea">InternetSetCookie</a>, because these cookies are not written to any files. Rules for creating cookie files are internal to the system and can change in the future.
 
-				As noted in <a href="https://msdn.microsoft.com/c3574592-572f-4fde-adfa-aed3e862f13f">HTTP Cookies</a>, <b>InternetGetCookie</b> does not return cookies that the server marked as non-scriptable with the "HttpOnly" attribute in the Set-Cookie header.
+				As noted in <a href="https://docs.microsoft.com/windows/desktop/WinInet/http-cookies">HTTP Cookies</a>, <b>InternetGetCookie</b> does not return cookies that the server marked as non-scriptable with the "HttpOnly" attribute in the Set-Cookie header.
 
 Like all other aspects of the WinINet API, this function cannot be safely called from within DllMain or the constructors and destructors of global objects.
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
@@ -167,27 +167,27 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 
-<a href="https://msdn.microsoft.com/c3574592-572f-4fde-adfa-aed3e862f13f">HTTP Cookies</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinInet/http-cookies">HTTP Cookies</a>
 
 
 
-<a href="https://msdn.microsoft.com/5006f009-e217-4fdc-9e4e-800ff5fcbf03">InternetGetCookieEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetgetcookieexa">InternetGetCookieEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/1b1ca72e-9c74-4e94-86a9-6fee12c83933">InternetSetCookie</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetsetcookiea">InternetSetCookie</a>
 
 
 
-<a href="https://msdn.microsoft.com/5044761f-152d-4606-87d2-c56a11db18c4">InternetSetCookieEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetsetcookieexa">InternetSetCookieEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/c00279cf-9cdc-4caf-8549-af1851edfa25">Managing Cookies</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinInet/managing-cookies">Managing Cookies</a>
 
 
 
-<a href="https://msdn.microsoft.com/2e0da5c6-29e4-47b5-8ed2-8712c9ca2c97">WinINet Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
  
 
  

@@ -59,7 +59,7 @@ Creates and initializes a Shell item object from a relative parsing name.
 
 ### -param psiParent [in]
 
-Type: <b><a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
 A pointer to the parent Shell item.
 
@@ -73,7 +73,7 @@ A pointer to a null-terminated, Unicode string that specifies a display name tha
 
 ### -param pbc [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>*</b>
 
 A pointer to a bind context that controls the parsing operation. This parameter can be <b>NULL</b>.
 
@@ -89,8 +89,8 @@ A reference to an interface ID.
 
 Type: <b>void**</b>
 
-When this function returns, contains the interface pointer requested in riid.  This will usually be <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a> or 
-        <a href="https://msdn.microsoft.com/e54d8385-ec67-4825-ad7c-431807a4fcb4">IShellItem2</a>.
+When this function returns, contains the interface pointer requested in riid.  This will usually be <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> or 
+        <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem2">IShellItem2</a>.
 
 
 ## -returns

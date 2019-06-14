@@ -59,7 +59,7 @@ Enables or disables the sending of machine identification information in the ope
 
 ### -param options [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/60445a53-c40c-4d0a-9650-21d0c7f3bbf6">MI_OperationOptions</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operationoptions">MI_OperationOptions</a> structure.
 
 
 ### -param machineID [in]
@@ -71,7 +71,7 @@ Boolean value where <b>MI_TRUE</b> means to add the source machine name to the o
 
 
 
-A value of the <a href="https://msdn.microsoft.com/9AA2B479-E8A5-4F0C-A8A4-06DB7CB7CA2F">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 
 
@@ -81,7 +81,7 @@ A value of the <a href="https://msdn.microsoft.com/9AA2B479-E8A5-4F0C-A8A4-06DB7
 
 
 
-<a href="https://msdn.microsoft.com/a3064be4-b975-47cb-b0f9-445a09791ebd">MI_OperationOptions_GetUseMachineID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operationoptions_getusemachineid">MI_OperationOptions_GetUseMachineID</a>
  
 
  

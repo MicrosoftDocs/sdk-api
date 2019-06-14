@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>IControlChangeNotify</b> interface provides notifications when the status of a part (connector or subunit) changes. Unlike the other interfaces in this section, which are implemented by the DeviceTopology API, the <b>IControlChangeNotify</b> interface must be implemented by a client. To receive notifications, the client passes a pointer to its <b>IControlChangeNotify</b> interface instance as a parameter to the <a href="https://msdn.microsoft.com/58cf52c9-20ee-46c4-926e-c374a4f42240">IPart::RegisterControlChangeCallback</a> method.
+The <b>IControlChangeNotify</b> interface provides notifications when the status of a part (connector or subunit) changes. Unlike the other interfaces in this section, which are implemented by the DeviceTopology API, the <b>IControlChangeNotify</b> interface must be implemented by a client. To receive notifications, the client passes a pointer to its <b>IControlChangeNotify</b> interface instance as a parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-registercontrolchangecallback">IPart::RegisterControlChangeCallback</a> method.
 
 After registering its <b>IControlChangeNotify</b> interface, the client receives event notifications in the form of callbacks through the <b>OnNotify</b> method in the interface.
 
@@ -58,7 +58,7 @@ In implementing the <b>IControlChangeNotify</b> interface, the client should obs
 
 <ul>
 <li>The methods in the interface must be nonblocking. The client should never wait on a synchronization object during an event callback.</li>
-<li>The client should never call the <a href="https://msdn.microsoft.com/d3341421-6dab-43f3-87a8-83ee8a986a04">IPart::UnregisterControlChangeCallback</a> method during an event callback.</li>
+<li>The client should never call the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-unregistercontrolchangecallback">IPart::UnregisterControlChangeCallback</a> method during an event callback.</li>
 <li>The client should never release the final reference on an MMDevice API object during an event callback.</li>
 </ul>
 
@@ -66,7 +66,7 @@ In implementing the <b>IControlChangeNotify</b> interface, the client should obs
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IControlChangeNotify</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IControlChangeNotify</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IControlChangeNotify</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IControlChangeNotify</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -81,7 +81,7 @@ The <b>IControlChangeNotify</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a2f32cb9-3c8b-4b44-96a2-dd70afcca71a">OnNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-icontrolchangenotify-onnotify">OnNotify</a>
 </td>
 <td align="left" width="63%">
 Notifies the client when the status of a part (connector or subunit) changes.
@@ -96,19 +96,19 @@ Notifies the client when the status of a part (connector or subunit) changes.
 
 
 
-<a href="https://msdn.microsoft.com/b18e2094-e974-4c23-b70b-ace5a168132d">Core Audio Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/051311ef-dd29-4014-bb9c-4cdccf7ce7de">DeviceTopology API</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/devicetopology-api">DeviceTopology API</a>
 
 
 
-<a href="https://msdn.microsoft.com/58cf52c9-20ee-46c4-926e-c374a4f42240">IPart::RegisterControlChangeCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-registercontrolchangecallback">IPart::RegisterControlChangeCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/d3341421-6dab-43f3-87a8-83ee8a986a04">IPart::UnregisterControlChangeCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-unregistercontrolchangecallback">IPart::UnregisterControlChangeCallback</a>
  
 
  

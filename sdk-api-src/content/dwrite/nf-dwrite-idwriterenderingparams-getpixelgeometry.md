@@ -63,7 +63,7 @@ Gets the pixel geometry of the rendering parameters object.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/de84b37b-bcb1-432c-8876-d84eaa0e30e0">DWRITE_PIXEL_GEOMETRY</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_pixel_geometry">DWRITE_PIXEL_GEOMETRY</a></b>
 
  A value that indicates the type of  pixel geometry used in the rendering parameters object.
 
@@ -75,7 +75,7 @@ Type: <b><a href="https://msdn.microsoft.com/de84b37b-bcb1-432c-8876-d84eaa0e30e
 
 
 
-<a href="https://msdn.microsoft.com/28b118e4-9a63-46cf-8ab7-e1039126405b">IDWriteRenderingParams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwriterenderingparams">IDWriteRenderingParams</a>
  
 
  

@@ -61,7 +61,7 @@ The
 ### -param pVariant [out]
 
 Pointer to <b>VARIANT</b> containing 
-<a href="https://msdn.microsoft.com/859979a8-0d16-4b7b-b183-d6e30f3e034d">device classes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-device-classes">device classes</a>.
 
 
 ## -returns
@@ -119,11 +119,11 @@ Insufficient memory exists to perform the operation.
 
 
 
-<a href="https://msdn.microsoft.com/ab6db262-f99e-4027-9525-7597fcf02e72">Address Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/36f452ce-9171-41da-b003-4c7df17790da">ITAddressCapabilities</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddresscapabilities">ITAddressCapabilities</a>
  
 
  

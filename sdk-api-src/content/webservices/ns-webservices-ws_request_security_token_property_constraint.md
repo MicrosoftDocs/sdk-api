@@ -69,15 +69,15 @@ The id of the request security token property.  The following security
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/7a2063eb-ab60-43d5-bd8c-41ef132abf50">WS_REQUEST_SECURITY_TOKEN_PROPERTY_TRUST_VERSION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_request_security_token_property_id">WS_REQUEST_SECURITY_TOKEN_PROPERTY_TRUST_VERSION</a>
 This property indicates which WS-Trust versions are acceptable.
                     
 
 If this property is not specified, then the default constraint value
-                        of <a href="https://msdn.microsoft.com/02a080f5-3d0d-4483-8215-bcb5b9f27b9c">WS_TRUST_VERSION_FEBRUARY_2005</a> will be used.
+                        of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_trust_version">WS_TRUST_VERSION_FEBRUARY_2005</a> will be used.
                     
 
-Currently only <a href="https://msdn.microsoft.com/02a080f5-3d0d-4483-8215-bcb5b9f27b9c">WS_TRUST_VERSION_FEBRUARY_2005</a>is supported in policy, so a property constraint containing the
+Currently only <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_trust_version">WS_TRUST_VERSION_FEBRUARY_2005</a>is supported in policy, so a property constraint containing the
                         value <b>WS_TRUST_VERSION_FEBRUARY_2005</b> must be specified in
                         order for the policy to match.
                     
@@ -105,7 +105,7 @@ The total size of the allowedValues array, in bytes.  This
 
 ### -field out
 
-When <a href="https://msdn.microsoft.com/6e5f352b-5422-4bba-9525-7850bdddf0a5">WsMatchPolicyAlternative</a> returns NOERROR, the
+When <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsmatchpolicyalternative">WsMatchPolicyAlternative</a> returns NOERROR, the
                     entire contents of this structure will be filled out.
                 
 

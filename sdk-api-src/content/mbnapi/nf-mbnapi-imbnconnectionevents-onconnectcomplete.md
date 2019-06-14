@@ -59,7 +59,7 @@ Notification method that signals the completion of a connection operation.
 
 ### -param newConnection [in]
 
-An <a href="https://msdn.microsoft.com/dae6ce6f-2534-4799-8ed3-53cd1f2eca13">IMbnConnection</a> interface that represents the device on which the connection operation has completed.
+An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a> interface that represents the device on which the connection operation has completed.
 
 
 ### -param requestID [in]
@@ -215,9 +215,9 @@ This method must return <b>S_OK</b>.
 
 
 
-Once an activation context is established, an application can use <a href="https://msdn.microsoft.com/dae6ce6f-2534-4799-8ed3-53cd1f2eca13">IMbnConnection</a> to get the current connection state.  
+Once an activation context is established, an application can use <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a> to get the current connection state.  
 
-When the connection operation results in an error, an application can call the <a href="https://msdn.microsoft.com/a8bda00b-5eff-46a4-b640-1794e8ea21cf">GetActivationNetworkError</a> method of the <a href="https://msdn.microsoft.com/dae6ce6f-2534-4799-8ed3-53cd1f2eca13">IMbnConnection</a> interface to obtain network error information.
+When the connection operation results in an error, an application can call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-getactivationnetworkerror">GetActivationNetworkError</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a> interface to obtain network error information.
 
 
 
@@ -227,7 +227,7 @@ When the connection operation results in an error, an application can call the <
 
 
 
-<a href="https://msdn.microsoft.com/9135ba2e-62f6-495e-b136-9efc5f260581">IMbnConnectionEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionevents">IMbnConnectionEvents</a>
  
 
  

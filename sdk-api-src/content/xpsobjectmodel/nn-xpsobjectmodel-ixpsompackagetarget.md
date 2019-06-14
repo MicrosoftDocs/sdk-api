@@ -50,12 +50,12 @@ ms.custom: 19H1
 ## -description
 
 
-Provides the method to create an <a href="https://msdn.microsoft.com/cbbcc8bf-6172-41c8-9d74-27e5635ec167">IXpsOMPackageWriter</a> that can be used by a print job that was created by the  <a href="https://msdn.microsoft.com/91D0BA4D-60A6-43F8-8BD3-9183DC6CD50D">StartXpsPrintJob1</a> function.
+Provides the method to create an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a> that can be used by a print job that was created by the  <a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nf-xpsprint-startxpsprintjob1">StartXpsPrintJob1</a> function.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMPackageTarget</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IXpsOMPackageTarget</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMPackageTarget</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsOMPackageTarget</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,10 +70,10 @@ The <b>IXpsOMPackageTarget</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6AD4BEB8-86B7-4085-9B84-D723982933FE">CreateXpsOMPackageWriter</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ff970305(v=vs.85)">CreateXpsOMPackageWriter</a>
 </td>
 <td align="left" width="63%">
-Create an <a href="https://msdn.microsoft.com/cbbcc8bf-6172-41c8-9d74-27e5635ec167">IXpsOMPackageWriter</a> interface for use with a print job that the  <a href="https://msdn.microsoft.com/91D0BA4D-60A6-43F8-8BD3-9183DC6CD50D">StartXpsPrintJob1</a> function created.
+Create an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a> interface for use with a print job that the  <a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nf-xpsprint-startxpsprintjob1">StartXpsPrintJob1</a> function created.
 
 </td>
 </tr>
@@ -84,11 +84,11 @@ Create an <a href="https://msdn.microsoft.com/cbbcc8bf-6172-41c8-9d74-27e5635ec1
 
 
 
-The <a href="https://msdn.microsoft.com/cbbcc8bf-6172-41c8-9d74-27e5635ec167">IXpsOMPackageWriter</a> interface writes the application data in the order in which they will appear to the user.
+The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a> interface writes the application data in the order in which they will appear to the user.
 
-To create an instance of an <b>IXpsOMPackageTarget</b> interface, call the <a href="https://msdn.microsoft.com/91D0BA4D-60A6-43F8-8BD3-9183DC6CD50D">StartXpsPrintJob1</a> function.
+To create an instance of an <b>IXpsOMPackageTarget</b> interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nf-xpsprint-startxpsprintjob1">StartXpsPrintJob1</a> function.
 
-To create the <a href="https://msdn.microsoft.com/cbbcc8bf-6172-41c8-9d74-27e5635ec167">IXpsOMPackageWriter</a> interface to use to write the document to a printer, call the <a href="https://msdn.microsoft.com/6AD4BEB8-86B7-4085-9B84-D723982933FE">CreateXpsOMPackageWriter</a> method of this interface.
+To create the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a> interface to use to write the document to a printer, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ff970305(v=vs.85)">CreateXpsOMPackageWriter</a> method of this interface.
 
 
 
@@ -98,11 +98,11 @@ To create the <a href="https://msdn.microsoft.com/cbbcc8bf-6172-41c8-9d74-27e563
 
 
 
-<a href="https://msdn.microsoft.com/cbbcc8bf-6172-41c8-9d74-27e5635ec167">IXpsOMPackageWriter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a>
 
 
 
-<a href="https://msdn.microsoft.com/91D0BA4D-60A6-43F8-8BD3-9183DC6CD50D">StartXpsPrintJob1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nf-xpsprint-startxpsprintjob1">StartXpsPrintJob1</a>
 
 
 

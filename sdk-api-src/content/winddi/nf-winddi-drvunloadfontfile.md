@@ -59,7 +59,7 @@ The <b>DrvUnloadFontFile</b> function informs a font driver that the specified f
 
 ### -param iFile
 
-Pointer to a driver-defined value that identifies the font file to be removed. The <i>iFile</i> parameter is the value returned by <a href="https://msdn.microsoft.com/d9bcf8f8-40bc-48dc-85b7-67773c8a4ded">DrvLoadFontFile</a>.
+Pointer to a driver-defined value that identifies the font file to be removed. The <i>iFile</i> parameter is the value returned by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>.
 
 
 ## -returns
@@ -87,7 +87,7 @@ This function is required for font drivers.
 
 
 
-<a href="https://msdn.microsoft.com/d9bcf8f8-40bc-48dc-85b7-67773c8a4ded">DrvLoadFontFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>
  
 
  

@@ -77,7 +77,7 @@ The vertical offset, in logical units.
 
 ### -param lppt [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure. The logical coordinates of the previous window origin are placed in this structure. If <i>lpPoint</i> is <b>NULL</b>, the previous origin is not returned.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure. The logical coordinates of the previous window origin are placed in this structure. If <i>lpPoint</i> is <b>NULL</b>, the previous origin is not returned.
 
 
 ## -returns
@@ -96,23 +96,23 @@ If the function fails, the return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/3ebcabf2-9718-47b2-aba0-7cc28fa42e5a">Coordinate Space and Transformation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/coordinate-space-and-transformation-functions">Coordinate Space and Transformation Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/cfb02788-9b73-4451-9e68-2ad310e0e527">Coordinate Spaces and Transformations Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/coordinate-spaces-and-transformations">Coordinate Spaces and Transformations Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/6e6c7090-edf4-46a3-8bcd-10a00c0cf847">GetViewportOrgEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getviewportorgex">GetViewportOrgEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/54311cbe-1c54-4193-8991-891dbd0856bf">OffsetViewportOrgEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-offsetviewportorgex">OffsetViewportOrgEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>
+<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>
  
 
  

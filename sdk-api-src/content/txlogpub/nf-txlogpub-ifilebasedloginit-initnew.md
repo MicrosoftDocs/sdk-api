@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/c499f32b-3897-4c61-b9c1-d660648aab76">IFileBasedLogInit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nn-txlogpub-ifilebasedloginit">IFileBasedLogInit</a>
  
 
  

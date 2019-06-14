@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Informs the container that the control's <a href="https://msdn.microsoft.com/3f22dc1d-554a-4dd1-a79a-121117f65caf">CONTROLINFO</a> structure has changed and that the container should call the control's <a href="https://msdn.microsoft.com/defb7509-e586-45a0-9e56-de9eba17f18e">IOleControl::GetControlInfo</a> for an update.
+Informs the container that the control's <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagcontrolinfo">CONTROLINFO</a> structure has changed and that the container should call the control's <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iolecontrol-getcontrolinfo">IOleControl::GetControlInfo</a> for an update.
 
 
 ## -parameters
@@ -73,11 +73,11 @@ This method returns S_OK in all cases.
 
 
 
-<a href="https://msdn.microsoft.com/defb7509-e586-45a0-9e56-de9eba17f18e">IOleControl::GetControlInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iolecontrol-getcontrolinfo">IOleControl::GetControlInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/8b022f2c-d4b4-44ca-8e69-46e9aa20b3f9">IOleControlSite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iolecontrolsite">IOleControlSite</a>
  
 
  

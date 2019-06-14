@@ -54,7 +54,7 @@ The <b>IIdentityProvider</b> interface represents an identity provider.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIdentityProvider</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IIdentityProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIdentityProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIdentityProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IIdentityProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fcac9d30-64ed-4746-aacc-ee659c2b2642">Advise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nf-identityprovider-iidentityprovider-advise">Advise</a>
 </td>
 <td align="left" width="63%">
 Allows a calling application to specify the list of identity events for which the application is to be  notified.
@@ -78,7 +78,7 @@ Allows a calling application to specify the list of identity events for which th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6ea1a87d-c8c1-43e4-b746-c1bfe98f370b">Create</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nf-identityprovider-iidentityprovider-create">Create</a>
 </td>
 <td align="left" width="63%">
 Creates a new identity associated with the specified user name.
@@ -87,7 +87,7 @@ Creates a new identity associated with the specified user name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a21aa2eb-2551-4920-a312-34fa327572ca">Delete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nf-identityprovider-iidentityprovider-delete">Delete</a>
 </td>
 <td align="left" width="63%">
 Removes the specified identity from the identity store or the specified properties from the identity.
@@ -96,7 +96,7 @@ Removes the specified identity from the identity store or the specified properti
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/26a0e247-0387-4455-9510-bd0e6adc0213">FindByUniqueID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nf-identityprovider-iidentityprovider-findbyuniqueid">FindByUniqueID</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the <b>IPropertyStore</b> interface instance associated with the specified identity.
@@ -105,16 +105,16 @@ Retrieves a pointer to the <b>IPropertyStore</b> interface instance associated w
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9e216959-7038-43cf-a57d-bee85d521f58">GetIdentityEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nf-identityprovider-iidentityprovider-getidentityenum">GetIdentityEnum</a>
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms683764">IEnumUnknown</a> interface pointer that can be used to enumerate identities.
+Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a> interface pointer that can be used to enumerate identities.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e0a8f732-5675-49f7-8c2f-6e5f8f1be957">GetProviderPropertyStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nf-identityprovider-iidentityprovider-getproviderpropertystore">GetProviderPropertyStore</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the <b>IPropertyStore</b> interface associated with the identity provider.
@@ -123,7 +123,7 @@ Retrieves a pointer to the <b>IPropertyStore</b> interface associated with the i
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/16cf4e84-1a68-4794-a456-1a9f5ce4896d">Import</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nf-identityprovider-iidentityprovider-import">Import</a>
 </td>
 <td align="left" width="63%">
 Imports an identity to the system.
@@ -132,10 +132,10 @@ Imports an identity to the system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ba8a12fc-ea4c-45b5-8339-9cbc88c160db">UnAdvise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nf-identityprovider-iidentityprovider-unadvise">UnAdvise</a>
 </td>
 <td align="left" width="63%">
-Deletes a connection created by calling the <a href="https://msdn.microsoft.com/fcac9d30-64ed-4746-aacc-ee659c2b2642">Advise</a> method.
+Deletes a connection created by calling the <a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nf-identityprovider-iidentityprovider-advise">Advise</a> method.
 
 </td>
 </tr>

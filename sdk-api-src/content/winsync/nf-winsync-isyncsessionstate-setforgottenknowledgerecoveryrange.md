@@ -125,7 +125,7 @@ An item ID in <i>pRange</i> is not in the format that is specified by the ID for
 
 
 
-<a href="https://msdn.microsoft.com/9b03d5af-b5f5-49fa-a10e-9f9f3c1dab0e">ISyncSessionState Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncsessionstate">ISyncSessionState Interface</a>
  
 
  

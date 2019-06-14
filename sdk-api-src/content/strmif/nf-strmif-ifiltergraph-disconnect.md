@@ -147,7 +147,7 @@ The filter is not stopped, but does not support reconnection while in a running 
 
 This method does not completely break the connection. To completely break the connection, both ends must be disconnected.
 
-To remove a filter from the filter graph entirely, call the <a href="https://msdn.microsoft.com/ec681340-0fb9-4eba-8211-d5fa07fb076b">IFilterGraph::RemoveFilter</a> method.
+To remove a filter from the filter graph entirely, call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltergraph-removefilter">IFilterGraph::RemoveFilter</a> method.
 
 
 
@@ -157,11 +157,11 @@ To remove a filter from the filter graph entirely, call the <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/73a92f44-03c6-47e3-98d1-a20100ed8fa1">IFilterGraph Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltergraph">IFilterGraph Interface</a>
  
 
  

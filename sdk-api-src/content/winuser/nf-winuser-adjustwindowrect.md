@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-Calculates the required size of the window rectangle, based on the desired client-rectangle size. The window rectangle can then be passed to the <a href="https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx">CreateWindow</a> function to create a window whose client area is the desired size.
+Calculates the required size of the window rectangle, based on the desired client-rectangle size. The window rectangle can then be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> function to create a window whose client area is the desired size.
 
-To specify an extended window style, use the <a href="https://msdn.microsoft.com/en-us/library/ms632667(v=VS.85).aspx">AdjustWindowRectEx</a> function.
+To specify an extended window style, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-adjustwindowrectex">AdjustWindowRectEx</a> function.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> str
 
 Type: <b>DWORD</b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">window style</a> of the window whose required size is to be calculated. Note that you cannot specify the <b>WS_OVERLAPPED</b> style. 
+The <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-styles">window style</a> of the window whose required size is to be calculated. Note that you cannot specify the <b>WS_OVERLAPPED</b> style. 
 
 
 ### -param bMenu [in]
@@ -89,7 +89,7 @@ Type: <strong>Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -102,7 +102,7 @@ A client rectangle is the smallest rectangle that completely encloses a client a
 
 The <b>AdjustWindowRect</b> function does not add extra space when a menu bar wraps to two or more rows. 
 
-The <b>AdjustWindowRect</b> function does not take the <b>WS_VSCROLL</b> or <b>WS_HSCROLL</b> styles into account. To account for the scroll bars, call the  <a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a> function with <b>SM_CXVSCROLL</b> or <b>SM_CYHSCROLL</b>. 
+The <b>AdjustWindowRect</b> function does not take the <b>WS_VSCROLL</b> or <b>WS_HSCROLL</b> styles into account. To account for the scroll bars, call the  <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> function with <b>SM_CXVSCROLL</b> or <b>SM_CYHSCROLL</b>. 
 
 
 
@@ -112,7 +112,7 @@ The <b>AdjustWindowRect</b> function does not take the <b>WS_VSCROLL</b> or <b>W
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632667(v=VS.85).aspx">AdjustWindowRectEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-adjustwindowrectex">AdjustWindowRectEx</a>
 
 
 
@@ -120,11 +120,11 @@ The <b>AdjustWindowRect</b> function does not take the <b>WS_VSCROLL</b> or <b>W
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx">CreateWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>
 
 
 
@@ -140,7 +140,7 @@ The <b>AdjustWindowRect</b> function does not take the <b>WS_VSCROLL</b> or <b>W
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
  
 
  

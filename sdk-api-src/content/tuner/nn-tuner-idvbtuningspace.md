@@ -52,14 +52,14 @@ ms.custom: 19H1
 
 The <b>IDVBTuningSpace</b> interface is implemented on the DVBTuningSpace object.
 
-<div class="alert"><b>Note</b>  New applications should use the <a href="https://msdn.microsoft.com/01325520-0cb3-46c2-b5a1-f07c5f8d7c7b">IDVBTuningSpace2</a> interface, which inherits <b>IDVBTuningSpace</b> and adds additional methods.</div>
+<div class="alert"><b>Note</b>  New applications should use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-idvbtuningspace2">IDVBTuningSpace2</a> interface, which inherits <b>IDVBTuningSpace</b> and adds additional methods.</div>
 <div> </div>
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVBTuningSpace</b> interface inherits from <a href="https://msdn.microsoft.com/51850105-b3b1-4758-acde-05ca2f3439f2">ITuningSpace</a>. <b>IDVBTuningSpace</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVBTuningSpace</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a>. <b>IDVBTuningSpace</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IDVBTuningSpace</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4e08d142-6ae3-4da7-ba3c-59fdf07a2f10">get_SystemType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbtuningspace-get_systemtype">get_SystemType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the DVB system type.
@@ -83,7 +83,7 @@ Retrieves the DVB system type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/559f882a-4d1c-4fe1-af21-b3ad7ccd3ff2">put_SystemType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbtuningspace-put_systemtype">put_SystemType</a>
 </td>
 <td align="left" width="63%">
 Sets the DVB system type.
@@ -107,11 +107,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/51850105-b3b1-4758-acde-05ca2f3439f2">ITuningSpace</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d956e1d-88b3-4236-9987-f37f674645de">Tuning Model Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
  
 
  

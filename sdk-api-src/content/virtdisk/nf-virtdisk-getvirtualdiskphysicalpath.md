@@ -62,7 +62,7 @@ Retrieves the path to the physical device object that contains a virtual hard di
 
 A handle to the open virtual disk, which must have been opened using the 
      <b>VIRTUAL_DISK_ACCESS_GET_INFO</b> flag. For information on how to open a virtual disk, see 
-     the <a href="https://msdn.microsoft.com/en-us/library/Dd323680(v=VS.85).aspx">OpenVirtualDisk</a> function.
+     the <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-openvirtualdisk">OpenVirtualDisk</a> function.
 
 
 ### -param DiskPathSizeInBytes [in, out]
@@ -86,7 +86,7 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b> and the
 
 If the function fails, the return value is an error code and the value of the contents of the buffer referred 
       to by the  <i>DiskPath</i> parameter is undefined. For more information, see 
-      <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -113,11 +113,11 @@ CD and DVD image files (ISO) are not supported before Windows 8 and
 
 
 
-<a href="https://msdn.microsoft.com/c9531c07-ad55-42b6-8685-7f55a47e8485">About VHD</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b5d0da0-2b23-4b7c-b007-ed3fe030926c">VHD Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
  
 
  

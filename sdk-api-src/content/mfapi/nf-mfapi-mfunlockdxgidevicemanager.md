@@ -72,7 +72,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-Call this function after a successful call to the <a href="https://msdn.microsoft.com/01A789BA-C1DE-4EF8-81C4-261F59D5843B">MFLockDXGIDeviceManager</a> function.
+Call this function after a successful call to the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mflockdxgidevicemanager">MFLockDXGIDeviceManager</a> function.
 
 
 
@@ -82,7 +82,7 @@ Call this function after a successful call to the <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

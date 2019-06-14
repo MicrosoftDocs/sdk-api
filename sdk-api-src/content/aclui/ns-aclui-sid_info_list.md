@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>SID_INFO_LIST</b> structure contains a list of 
-<a href="https://msdn.microsoft.com/6a69e5b9-ab6a-4bbb-9f1a-5882d4c8038c">SID_INFO</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-_sid_info">SID_INFO</a> structures.
 
 
 ## -struct-fields
@@ -61,13 +61,13 @@ The <b>SID_INFO_LIST</b> structure contains a list of
 ### -field cItems
 
 The number of 
-<a href="https://msdn.microsoft.com/6a69e5b9-ab6a-4bbb-9f1a-5882d4c8038c">SID_INFO</a> structures contained in the <b>aSidInfo</b> member.
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-_sid_info">SID_INFO</a> structures contained in the <b>aSidInfo</b> member.
 
 
 ### -field aSidInfo
 
-A pointer to a list of <a href="https://msdn.microsoft.com/6a69e5b9-ab6a-4bbb-9f1a-5882d4c8038c">SID_INFO</a> structures that is returned by the 
-<a href="https://msdn.microsoft.com/9a4056c6-6a21-4051-b4a6-c77351fce983">ISecurityInformation2::LookupSids</a> method.
+A pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-_sid_info">SID_INFO</a> structures that is returned by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation2-lookupsids">ISecurityInformation2::LookupSids</a> method.
 
 
 ## -see-also
@@ -75,11 +75,11 @@ A pointer to a list of <a href="https://msdn.microsoft.com/6a69e5b9-ab6a-4bbb-9f
 
 
 
-<a href="https://msdn.microsoft.com/9a4056c6-6a21-4051-b4a6-c77351fce983">ISecurityInformation2::LookupSids</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation2-lookupsids">ISecurityInformation2::LookupSids</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a69e5b9-ab6a-4bbb-9f1a-5882d4c8038c">SID_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-_sid_info">SID_INFO</a>
  
 
  

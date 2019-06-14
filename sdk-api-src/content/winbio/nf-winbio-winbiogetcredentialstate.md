@@ -61,12 +61,12 @@ Retrieves a value that specifies whether credentials have been set for the speci
 
 ### -param Identity [in]
 
-A  <a href="https://msdn.microsoft.com/58a5f4ba-2f58-466c-90fd-9480c3c095db">WINBIO_IDENTITY</a> structure that contains the SID of the user account for which the credential is being queried.
+A  <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-identity">WINBIO_IDENTITY</a> structure that contains the SID of the user account for which the credential is being queried.
 
 
 ### -param Type [in]
 
-A <a href="https://msdn.microsoft.com/7ef2d4b3-e1f9-46a0-8fc2-0e8660805ac3">WINBIO_CREDENTIAL_TYPE</a> value that specifies the credential type. This can be one of the following values:
+A <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-credential-type">WINBIO_CREDENTIAL_TYPE</a> value that specifies the credential type. This can be one of the following values:
 
 <table>
 <tr>
@@ -89,7 +89,7 @@ The password-based credential is checked.
 
 ### -param CredentialState [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/c24f1771-7a1f-403e-8100-dfb3f4cd77a1">WINBIO_CREDENTIAL_STATE</a> enumeration value that specifies whether user credentials have been set. This can be one of the following values:
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-credential-state">WINBIO_CREDENTIAL_STATE</a> enumeration value that specifies whether user credentials have been set. This can be one of the following values:
 
 <table>
 <tr>
@@ -124,7 +124,7 @@ A credential has been specified.
 
 
 
-If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -176,7 +176,7 @@ Current administrative policy prohibits use of the credential provider.
 
 The <b>WinBioGetCredentialState</b> is typically used to provide feedback about credential state in a user interface. For example, an enrollment application might query credential state before prompting a user for credentials.
 
-Call the <a href="https://msdn.microsoft.com/c35dd874-c545-418a-b08c-82f9e13e93fb">WinBioSetCredential</a> function to associate credentials with a user.
+Call the <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiosetcredential">WinBioSetCredential</a> function to associate credentials with a user.
 
 Users who do not have elevated privileges can retrieve information about only their own credentials. Elevated users can retrieve information for any credential.
 
@@ -332,7 +332,7 @@ e_Exit:
 
 
 
-<a href="https://msdn.microsoft.com/c35dd874-c545-418a-b08c-82f9e13e93fb">WinBioSetCredential</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiosetcredential">WinBioSetCredential</a>
  
 
  

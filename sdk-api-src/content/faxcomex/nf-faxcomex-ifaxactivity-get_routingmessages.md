@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-To read this property, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
+To read this property, a user must have the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_access_rights_enum">farQUERY_CONFIG</a> access right.
 
 
 
@@ -73,15 +73,15 @@ To read this property, a user must have the <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686148(v=VS.85).aspx">FaxActivity</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxactivity">FaxActivity</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686149(v=VS.85).aspx">IFaxActivity</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxactivity">IFaxActivity</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693455(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-monitoring-fax-activity">Visual Basic Example</a>
  
 
  

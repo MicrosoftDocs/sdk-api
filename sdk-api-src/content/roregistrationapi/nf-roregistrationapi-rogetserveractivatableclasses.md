@@ -62,16 +62,16 @@ Retrieves the activatable classes that are  registered for a given executable (E
 
 ### -param serverName [in]
 
-Type: <b><a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a></b>
 
 The name of the server to retrieve class registrations for. This server name is passed on the command line when the server is activated.
 
 
 ### -param activatableClassIds [out]
 
-Type: <b><a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>**</b>
 
-A callee-allocated array of activatable class ID strings which the server is registered to serve. The strings must be released by the caller using the <a href="https://msdn.microsoft.com/79B9E5CF-396C-45FB-931B-7B50281A0446">WindowsDeleteString</a> function. The buffer must then be released using <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>. The server (caller) is responsible for registering the activation factories for these classes.
+A callee-allocated array of activatable class ID strings which the server is registered to serve. The strings must be released by the caller using the <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a> function. The buffer must then be released using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>. The server (caller) is responsible for registering the activation factories for these classes.
 
 
 ### -param count [out]
@@ -126,7 +126,7 @@ The process does not have sufficient permissions to read this server’s registr
 
 
 
-Use the <b>RoGetServerActivatableClasses</b> function to retrieve the class names that the server is expected to serve. Get the details on the individual classes by calling the <a href="https://msdn.microsoft.com/9D9B74C9-9D9A-4E10-A222-C8F3658F2C48">RoGetActivatableClassRegistration</a> function on each class name individually.
+Use the <b>RoGetServerActivatableClasses</b> function to retrieve the class names that the server is expected to serve. Get the details on the individual classes by calling the <a href="https://docs.microsoft.com/windows/desktop/api/roregistrationapi/nf-roregistrationapi-rogetactivatableclassregistration">RoGetActivatableClassRegistration</a> function on each class name individually.
 
 
 

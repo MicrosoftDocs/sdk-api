@@ -61,21 +61,21 @@ Initializes a shared stream with the specified periodicity.
 
 Type: <b>DWORD</b>
 
-Flags to control creation of the stream. The client should set this parameter to 0 or to the bitwise OR of one or more of the supported  <a href="https://msdn.microsoft.com/7b2267c3-79f5-4ada-a7ce-78dd514f8487">AUDCLNT_STREAMFLAGS_XXX Constants</a> or   <a href="https://msdn.microsoft.com/5745d5bc-71e8-4b33-8227-c1c84226b6ee">AUDCLNT_SESSIONFLAGS_XXX Constants</a>. The supported constants for this parameter are: 
+Flags to control creation of the stream. The client should set this parameter to 0 or to the bitwise OR of one or more of the supported  <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audclnt-streamflags-xxx-constants">AUDCLNT_STREAMFLAGS_XXX Constants</a> or   <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audclnt-sessionflags-xxx-constants">AUDCLNT_SESSIONFLAGS_XXX Constants</a>. The supported constants for this parameter are: 
 
 
 ### -param PeriodInFrames [in]
 
 Type: <b>UINT32</b>
 
-Periodicity requested by the client. This value must  be an integral multiple of the value returned in the <i>pFundamentalPeriodInFrames</i> parameter to <a href="https://msdn.microsoft.com/41ED045F-0C47-40BE-9ECD-6A925E166E6D">IAudioClient3::GetSharedModeEnginePeriod</a>.  <i>PeriodInFrames</i> must also be greater than or equal to the value returned in <i>pMinPeriodInFrames</i> and less than or equal to the value returned in <i>pMaxPeriodInFrames</i>.
+Periodicity requested by the client. This value must  be an integral multiple of the value returned in the <i>pFundamentalPeriodInFrames</i> parameter to <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient3-getsharedmodeengineperiod">IAudioClient3::GetSharedModeEnginePeriod</a>.  <i>PeriodInFrames</i> must also be greater than or equal to the value returned in <i>pMinPeriodInFrames</i> and less than or equal to the value returned in <i>pMaxPeriodInFrames</i>.
 
 
 ### -param pFormat [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/bd0f96ec-d26a-4e6f-8802-50e8ff207f54">WAVEFORMATEX</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a>*</b>
 
-Pointer to a format descriptor. This parameter must point to a valid format descriptor of type <a href="https://msdn.microsoft.com/bd0f96ec-d26a-4e6f-8802-50e8ff207f54">WAVEFORMATEX</a> or <b></b><a href="https://msdn.microsoft.com/54bcb18e-df4b-471c-b121-4db75ce5c49b">WAVEFORMATEXTENSIBLE</a>. For more information, see the Remarks section for <a href="https://msdn.microsoft.com/eb778503-06f8-4705-9f8d-9a4fd886ae27">IAudioClient::Initialize</a>.
+Pointer to a format descriptor. This parameter must point to a valid format descriptor of type <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> or <b></b><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-waveformatextensible">WAVEFORMATEXTENSIBLE</a>. For more information, see the Remarks section for <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>.
 
 
 ### -param AudioSessionGuid [in, optional]
@@ -163,7 +163,7 @@ The endpoint device is already in use. Either the device is being used in exclus
 </dl>
 </td>
 <td width="60%">
-The client specified <a href="https://msdn.microsoft.com/C9A51FB2-46F5-4F20-B9F2-63EC53CAB3D7">AUDCLNT_STREAMOPTIONS_MATCH_FORMAT</a> when calling <a href="https://msdn.microsoft.com/B9B98EF9-C0E1-430A-9C79-1B414F4D67B5">IAudioClient2::SetClientProperties</a>, but the format of the audio engine has been locked by another client. In this case, you can call <b>IAudioClient2::SetClientProperties</b> without specifying the match format option and then use audio engine's current format.
+The client specified <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/ne-audioclient-audclnt_streamoptions">AUDCLNT_STREAMOPTIONS_MATCH_FORMAT</a> when calling <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient2-setclientproperties">IAudioClient2::SetClientProperties</a>, but the format of the audio engine has been locked by another client. In this case, you can call <b>IAudioClient2::SetClientProperties</b> without specifying the match format option and then use audio engine's current format.
 
 </td>
 </tr>
@@ -174,7 +174,7 @@ The client specified <a href="https://msdn.microsoft.com/C9A51FB2-46F5-4F20-B9F2
 </dl>
 </td>
 <td width="60%">
-The client specified <a href="https://msdn.microsoft.com/C9A51FB2-46F5-4F20-B9F2-63EC53CAB3D7">AUDCLNT_STREAMOPTIONS_MATCH_FORMAT</a> when calling <a href="https://msdn.microsoft.com/B9B98EF9-C0E1-430A-9C79-1B414F4D67B5">IAudioClient2::SetClientProperties</a>, but the periodicity of the audio engine has been locked by another client. In this case, you can call <b>IAudioClient2::SetClientProperties</b> without specifying the match format option and then use audio engine's current periodicity.
+The client specified <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/ne-audioclient-audclnt_streamoptions">AUDCLNT_STREAMOPTIONS_MATCH_FORMAT</a> when calling <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient2-setclientproperties">IAudioClient2::SetClientProperties</a>, but the periodicity of the audio engine has been locked by another client. In this case, you can call <b>IAudioClient2::SetClientProperties</b> without specifying the match format option and then use audio engine's current periodicity.
 
 </td>
 </tr>
@@ -196,7 +196,7 @@ The method failed to create the audio endpoint for the render or the capture dev
 </dl>
 </td>
 <td width="60%">
-Indicates that the requested device period specified with the <i>PeriodInFrames</i> is not an integral multiple of the fundamental periodicity of the audio engine, is shorter than the engine's minimum period, or is longer than the engine's maximum period. Get the supported periodicity values of the engine by calling <a href="https://msdn.microsoft.com/41ED045F-0C47-40BE-9ECD-6A925E166E6D">IAudioClient3::GetSharedModeEnginePeriod</a>.
+Indicates that the requested device period specified with the <i>PeriodInFrames</i> is not an integral multiple of the fundamental periodicity of the audio engine, is shorter than the engine's minimum period, or is longer than the engine's maximum period. Get the supported periodicity values of the engine by calling <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient3-getsharedmodeengineperiod">IAudioClient3::GetSharedModeEnginePeriod</a>.
 
 </td>
 </tr>
@@ -242,7 +242,7 @@ Parameter <i>pFormat</i> is <b>NULL</b>.
 <td width="60%">
 Parameter <i>pFormat</i> points to an invalid format description; or the AUDCLNT_STREAMFLAGS_LOOPBACK flag is set but <i>ShareMode</i> is not equal to AUDCLNT_SHAREMODE_SHARED; or the AUDCLNT_STREAMFLAGS_CROSSPROCESS flag is set but <i>ShareMode</i> is equal to AUDCLNT_SHAREMODE_EXCLUSIVE.
 
-A prior call to <a href="https://msdn.microsoft.com/B9B98EF9-C0E1-430A-9C79-1B414F4D67B5">SetClientProperties</a> was made with an invalid category for audio/render streams.
+A prior call to <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient2-setclientproperties">SetClientProperties</a> was made with an invalid category for audio/render streams.
 
 </td>
 </tr>
@@ -267,10 +267,10 @@ Out of memory.
 
 
 
-Unlike <a href="https://msdn.microsoft.com/eb778503-06f8-4705-9f8d-9a4fd886ae27">IAudioClient::Initialize</a>, this method does not allow you to specify a  buffer size. The buffer size is computed based on the periodicity requested with the <i>PeriodInFrames</i> parameter. It is the client app's responsibility
+Unlike <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>, this method does not allow you to specify a  buffer size. The buffer size is computed based on the periodicity requested with the <i>PeriodInFrames</i> parameter. It is the client app's responsibility
     to ensure that audio samples are transferred in and out of the buffer in a timely manner. 
 
-Audio clients should check for allowed values for the <i>PeriodInFrames</i> parameter by calling <a href="https://msdn.microsoft.com/41ED045F-0C47-40BE-9ECD-6A925E166E6D">IAudioClient3::GetSharedModeEnginePeriod</a>. The value of <i>PeriodInFrames</i> must be an integral multiple of the value returned in the <i>pFundamentalPeriodInFrames</i> parameter.  <i>PeriodInFrames</i> must also be greater than or equal to the value returned in <i>pMinPeriodInFrames</i> and less than or equal to the value of <i>pMaxPeriodInFrames</i>.
+Audio clients should check for allowed values for the <i>PeriodInFrames</i> parameter by calling <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient3-getsharedmodeengineperiod">IAudioClient3::GetSharedModeEnginePeriod</a>. The value of <i>PeriodInFrames</i> must be an integral multiple of the value returned in the <i>pFundamentalPeriodInFrames</i> parameter.  <i>PeriodInFrames</i> must also be greater than or equal to the value returned in <i>pMinPeriodInFrames</i> and less than or equal to the value of <i>pMaxPeriodInFrames</i>.
 
 For example, for a 44100 kHz format, <b>GetSharedModeEnginePeriod</b> might return:
 
@@ -294,15 +294,15 @@ They would NOT include 4 (which is smaller than the minimum allowed value) or 98
 
 
 
-<a href="https://msdn.microsoft.com/5088a3f1-5001-4ed9-a495-9e91df613ab0">IAudioClient</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient">IAudioClient</a>
 
 
 
-<a href="https://msdn.microsoft.com/9CE79CEB-115E-4802-A687-B2CB23E6A0E0">IAudioClient2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient2">IAudioClient2</a>
 
 
 
-<a href="https://msdn.microsoft.com/E8EFE682-E1BC-4D0D-A60E-DD257D6E5894">IAudioClient3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient3">IAudioClient3</a>
  
 
  

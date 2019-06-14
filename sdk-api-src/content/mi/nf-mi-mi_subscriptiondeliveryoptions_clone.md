@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a copy of a <a href="https://msdn.microsoft.com/aaed635c-ee53-4307-a5b4-e9d3bd2e7c21">MI_SubscriptionDeliveryOptions</a> structure.
+Creates a copy of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_subscriptiondeliveryoptions">MI_SubscriptionDeliveryOptions</a> structure.
 
 
 ## -parameters
@@ -60,12 +60,12 @@ Creates a copy of a <a href="https://msdn.microsoft.com/aaed635c-ee53-4307-a5b4-
 ### -param self [in]
 
 
-<a href="https://msdn.microsoft.com/aaed635c-ee53-4307-a5b4-e9d3bd2e7c21">MI_SubscriptionDeliveryOptions</a> structure to be cloned.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_subscriptiondeliveryoptions">MI_SubscriptionDeliveryOptions</a> structure to be cloned.
 
 
 ### -param newSubscriptionDeliveryOptions [out]
 
-Returned <a href="https://msdn.microsoft.com/aaed635c-ee53-4307-a5b4-e9d3bd2e7c21">MI_SubscriptionDeliveryOptions</a> clone. This clone will eventually need to be deleted by calling the <a href="https://msdn.microsoft.com/658dcb26-4ba1-42ef-a404-b431d0c92864">MI_SubscriptionDeliveryOptions_Delete</a> function.
+Returned <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_subscriptiondeliveryoptions">MI_SubscriptionDeliveryOptions</a> clone. This clone will eventually need to be deleted by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_delete">MI_SubscriptionDeliveryOptions_Delete</a> function.
 
 
 ## -returns
@@ -82,11 +82,11 @@ This function returns MI_INLINE MI_Result MI_INLINE_CALL.
 
 
 
-<a href="https://msdn.microsoft.com/aaed635c-ee53-4307-a5b4-e9d3bd2e7c21">MI_SubscriptionDeliveryOptions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_subscriptiondeliveryoptions">MI_SubscriptionDeliveryOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/658dcb26-4ba1-42ef-a404-b431d0c92864">MI_SubscriptionDeliveryOptions_Delete</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_delete">MI_SubscriptionDeliveryOptions_Delete</a>
  
 
  

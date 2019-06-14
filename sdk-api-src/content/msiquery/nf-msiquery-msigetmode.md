@@ -60,7 +60,7 @@ The
 
 ### -param hInstall [in]
 
-Handle to the installation provided to a DLL custom action or obtained through <a href="https://msdn.microsoft.com/1227493a-58dc-4e41-b6d7-9ecce0b3df40">MsiOpenPackage</a>, <a href="https://msdn.microsoft.com/9e9550e9-9c10-4ef1-a172-dfacaaa37fd0">MsiOpenPackageEx</a>, or <a href="https://msdn.microsoft.com/fdc5a2f5-c44a-4cb3-b206-a598bd60024b">MsiOpenProduct</a>.
+Handle to the installation provided to a DLL custom action or obtained through <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
 
 
 ### -param eRunMode [in]
@@ -161,7 +161,7 @@ A reboot is necessary to continue the installation (settable).
 </td>
 <td width="60%">
 Files from cabinets and 
-<a href="https://msdn.microsoft.com/f9789f1d-35bf-40d6-9724-d5a160a0d06d">Media table</a> files are installing.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/media-table">Media table</a> files are installing.
 
 </td>
 </tr>
@@ -181,7 +181,7 @@ The source LongFileNames is suppressed through the PID_MSISOURCE summary propert
 </dl>
 </td>
 <td width="60%">
-The target LongFileNames is suppressed through the <a href="https://msdn.microsoft.com/b330f9c3-3297-45cf-915c-5fbb291b8afb">SHORTFILENAMES</a> property.
+The target LongFileNames is suppressed through the <a href="https://docs.microsoft.com/windows/desktop/Msi/shortfilenames">SHORTFILENAMES</a> property.
 
 </td>
 </tr>
@@ -286,7 +286,7 @@ A custom action called from commit execution script.
 
 Note that not all the run mode values of <i>iRunMode </i>are available when calling 
 <b>MsiGetMode</b> from a deferred custom action. For details, see 
-<a href="https://msdn.microsoft.com/13174c5d-c810-4b5d-9d1e-60ed30b8c44d">Obtaining Context Information for Deferred Execution Custom Actions</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/obtaining-context-information-for-deferred-execution-custom-actions">Obtaining Context Information for Deferred Execution Custom Actions</a>.
 
 
 
@@ -296,7 +296,7 @@ Note that not all the run mode values of <i>iRunMode </i>are available when call
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer State Access Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Installer State Access Functions</a>
  
 
  

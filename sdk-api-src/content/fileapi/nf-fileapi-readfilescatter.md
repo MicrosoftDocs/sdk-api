@@ -59,7 +59,7 @@ ms.custom: 19H1
 Reads data from a file and stores it in an array of buffers.
 
 The function starts reading data from the file at a position that is specified by an 
-    <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure. The 
+    <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure. The 
     <b>ReadFileScatter</b> function operates asynchronously.
 
 
@@ -75,18 +75,18 @@ A handle to the file to be read.
 The file handle must be created with the <b>GENERIC_READ</b> right, and the 
        <b>FILE_FLAG_OVERLAPPED</b> and <b>FILE_FLAG_NO_BUFFERING</b> flags. For 
        more information, see 
-       <a href="https://msdn.microsoft.com/991d7d94-fae7-406f-b2e3-dee811279366">File Security and Access Rights</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
 
 ### -param aSegmentArray [in]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Gg258119(v=VS.85).aspx">FILE_SEGMENT_ELEMENT</a> 
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_file_segment_element">FILE_SEGMENT_ELEMENT</a> 
        buffers that receives the data. For a description of this union, see Remarks.
 
 Each element can receive one page of data.
 
 <div class="alert"><b>Note</b>  To determine the size of a system page, use 
-       <a href="https://msdn.microsoft.com/f6d745af-729a-494e-90b4-19fe7d97c7af">GetSystemInfo</a>.</div>
+       <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a>.</div>
 <div> </div>
 The array must contain enough elements to store <i>nNumberOfBytesToRead</i> bytes of data, 
        plus one element for the terminating <b>NULL</b>. For example, if there are 40 KB to be 
@@ -116,31 +116,31 @@ This parameter is reserved for future use and must be <b>NULL</b>.
 
 ### -param lpOverlapped [in, out]
 
-A pointer to an <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> data 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> data 
        structure.
 
 The <b>ReadFileScatter</b> function requires a valid 
-       <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure. The 
+       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure. The 
        <i>lpOverlapped</i> parameter 
        cannot be <b>NULL</b>.
 
 The <b>ReadFileScatter</b> function starts reading data 
        from the file at a position that is specified by the <b>Offset</b> and 
        <b>OffsetHigh</b> members of the 
-       <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure.
+       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure.
 
 The <b>ReadFileScatter</b> function may return before the 
        read operation is complete. In that scenario, the 
        <b>ReadFileScatter</b> function returns the value 0 
-       (zero), and the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function returns the 
+       (zero), and the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns the 
        value <b>ERROR_IO_PENDING</b>. This asynchronous operation of 
        <b>ReadFileScatter</b> lets the calling process continue 
        while the read operation completes. You can call the 
-       <a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a>, 
-       <a href="https://msdn.microsoft.com/1e2a3bf0-a73e-4406-99ac-32652f7f5b25">HasOverlappedIoCompleted</a>, or 
-       <a href="https://msdn.microsoft.com/8121a38b-0fe1-43b8-aed6-4b85af1feba9">GetQueuedCompletionStatus</a> functions to 
+       <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a>, 
+       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-hasoverlappediocompleted">HasOverlappedIoCompleted</a>, or 
+       <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> functions to 
        obtain information about the completion of the read operation. For more information, see 
-       <a href="https://msdn.microsoft.com/ade51d98-cc9d-4b33-9c52-559a9cb14707">Synchronous and Asynchronous I/O</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/FileIO/synchronous-and-asynchronous-i-o">Synchronous and Asynchronous I/O</a>.
 
 
 ## -returns
@@ -150,16 +150,16 @@ The <b>ReadFileScatter</b> function may return before the
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero (0). To get extended error information, call the 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 If <b>ReadFileScatter</b> attempts to read past the 
        end-of-file (EOF), the call to 
-       <a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a> for that operation returns 
-       <b>FALSE</b> and <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> 
+       <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> for that operation returns 
+       <b>FALSE</b> and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> 
        returns <b>ERROR_HANDLE_EOF</b>.
 
 If the function returns before the read operation is complete, the function returns zero (0), and 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns 
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
        <b>ERROR_IO_PENDING</b>.
 
 
@@ -171,7 +171,7 @@ If the function returns before the read operation is complete, the function retu
 
 This function is not supported for 32-bit applications by WOW64 on Itanium-based systems.
 
-The <a href="https://msdn.microsoft.com/en-us/library/Gg258119(v=VS.85).aspx">FILE_SEGMENT_ELEMENT</a> union is defined as follows:
+The <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_file_segment_element">FILE_SEGMENT_ELEMENT</a> union is defined as follows:
 
 
 ```cpp
@@ -184,7 +184,7 @@ typedef union _FILE_SEGMENT_ELEMENT {
 
 Assigning a pointer to the <b>Buffer</b> member will sign-extend the value if the code is 
      compiled as 32-bits; this can break large-address aware applications running on systems configured with 
-     <a href="https://msdn.microsoft.com/991eb86f-9e6f-4084-8b6f-f979e42104b5">4-Gigabyte Tuning</a> or running on under WOW64 on 64-bit 
+     <a href="https://docs.microsoft.com/windows/desktop/Memory/4-gigabyte-tuning">4-Gigabyte Tuning</a> or running on under WOW64 on 64-bit 
      Windows. Therefore, use the <b>PtrToPtr64</b> macro when assigning pointers to 
      <b>Buffer</b>.
 
@@ -261,43 +261,43 @@ If there is a transaction bound to the file handle, then the function returns da
 
 
 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Gg258119(v=VS.85).aspx">FILE_SEGMENT_ELEMENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_file_segment_element">FILE_SEGMENT_ELEMENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a>
 
 
 
-<a href="https://msdn.microsoft.com/8121a38b-0fe1-43b8-aed6-4b85af1feba9">GetQueuedCompletionStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/1e2a3bf0-a73e-4406-99ac-32652f7f5b25">HasOverlappedIoCompleted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-hasoverlappediocompleted">HasOverlappedIoCompleted</a>
 
 
 
-<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ad4580d-c002-44a4-a5f6-757e83ed8732">ReadFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c1a4de1-6cae-4c35-bfba-0bc252fadbd9">ReadFileEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfileex">ReadFileEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/9590eabb-6e85-406e-8101-e67f87e6850b">WriteFileGather</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefilegather">WriteFileGather</a>
  
 
  

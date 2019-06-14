@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 
 
-Gets or sets the element in the first row, first column of the affine transform matrix that is represented by an <a href="https://msdn.microsoft.com/79abff2e-d1d3-4a32-9ac2-f46c1b21f742">InkTransform</a> object.
+Gets or sets the element in the first row, first column of the affine transform matrix that is represented by an <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> object.
 
 
 
@@ -74,7 +74,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/79abff2e-d1d3-4a32-9ac2-f46c1b21f742">InkTransform Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform Class</a>
  
 
  

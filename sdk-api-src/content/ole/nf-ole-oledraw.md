@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Enables drawing objects more easily. You can use it instead of calling <a href="https://msdn.microsoft.com/913593ff-07fe-44bd-88dc-8e58da82089b">IViewObject::Draw</a> directly.
+Enables drawing objects more easily. You can use it instead of calling <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject::Draw</a> directly.
 
 
 ## -parameters
@@ -88,7 +88,7 @@ TBD
 
 #### - dwAspect [in]
 
-How the object is to be represented. Representations include content, an icon, a thumbnail, or a printed document. Possible values are taken from the <a href="https://msdn.microsoft.com/a2b729c8-7091-4520-93cd-c44468ba0274">DVASPECT</a> enumeration.
+How the object is to be represented. Representations include content, an icon, a thumbnail, or a printed document. Possible values are taken from the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagdvaspect">DVASPECT</a> enumeration.
 
 
 #### - hdcDraw [in]
@@ -98,12 +98,12 @@ Device context on which to draw. Cannot be a metafile device context.
 
 #### - lprcBounds [in]
 
-Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure specifying the rectangle in which the object should be drawn. This parameter is converted to a <a href="https://msdn.microsoft.com/47a89d2d-4733-47be-91c1-450845e78075">RECTL</a> structure and passed to <a href="https://msdn.microsoft.com/913593ff-07fe-44bd-88dc-8e58da82089b">IViewObject::Draw</a>.
+Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure specifying the rectangle in which the object should be drawn. This parameter is converted to a <a href="https://docs.microsoft.com/previous-versions//dd162907(v=vs.85)">RECTL</a> structure and passed to <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject::Draw</a>.
 
 
 #### - pUnknown [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface on the view object that is to be drawn.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface on the view object that is to be drawn.
 
 
 ## -returns
@@ -190,7 +190,7 @@ Insufficient memory for the operation.
 </dl>
 </td>
 <td width="60%">
-The object doesn't support the <a href="https://msdn.microsoft.com/4310c987-3542-4a59-a6fb-951143001741">IViewObject</a> interface.
+The object doesn't support the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iviewobject">IViewObject</a> interface.
 
 </td>
 </tr>
@@ -204,7 +204,7 @@ The object doesn't support the <a href="https://msdn.microsoft.com/4310c987-3542
 
 
 
-The OleDraw helper function calls the <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> method for the object specified (pUnk), asking for an <a href="https://msdn.microsoft.com/4310c987-3542-4a59-a6fb-951143001741">IViewObject</a> interface on that object. Then, <b>OleDraw</b> converts the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure to a <a href="https://msdn.microsoft.com/47a89d2d-4733-47be-91c1-450845e78075">RECTL</a> structure, and calls <a href="https://msdn.microsoft.com/913593ff-07fe-44bd-88dc-8e58da82089b">IViewObject::Draw</a> as follows:
+The OleDraw helper function calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method for the object specified (pUnk), asking for an <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iviewobject">IViewObject</a> interface on that object. Then, <b>OleDraw</b> converts the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure to a <a href="https://docs.microsoft.com/previous-versions//dd162907(v=vs.85)">RECTL</a> structure, and calls <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject::Draw</a> as follows:
 
 <pre class="syntax" xml:space="preserve"><code>lpViewObj-&gt;Draw(dwAspect,-1,0,0,0,hdcDraw,&amp;rectl,0,0,0);</code></pre>
 Do not use this function to draw into a metafile because it does not specify the parameter required for drawing into metafiles.
@@ -217,7 +217,7 @@ Do not use this function to draw into a metafile because it does not specify the
 
 
 
-<a href="https://msdn.microsoft.com/913593ff-07fe-44bd-88dc-8e58da82089b">IViewObject::Draw</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject::Draw</a>
  
 
  

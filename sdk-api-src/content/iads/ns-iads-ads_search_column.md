@@ -64,12 +64,12 @@ A  null-terminated Unicode string that contains the name of the attribute whose 
 
 ### -field dwADsType
 
-Value from the  <a href="https://msdn.microsoft.com/e601bae5-80bf-43f5-846f-11327889419a">ADSTYPEENUM</a> enumeration that indicates how the attribute values are interpreted.
+Value from the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0001">ADSTYPEENUM</a> enumeration that indicates how the attribute values are interpreted.
 
 
 ### -field pADsValues
 
-Array of  <a href="https://msdn.microsoft.com/b53c4a14-9965-4025-95bc-37f460ea2bc9">ADSVALUE</a> structures that contain values of the attribute in the current search column for the current row.
+Array of  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_adsvalue">ADSVALUE</a> structures that contain values of the attribute in the current search column for the current row.
 
 
 ### -field dwNumValues
@@ -86,9 +86,9 @@ Reserved for internal use by providers.
 
 
 
-The <b>ADS_SEARCH_COLUMN</b> structure only contains a pointer to the array of  <a href="https://msdn.microsoft.com/b53c4a14-9965-4025-95bc-37f460ea2bc9">ADSVALUE</a> structures. Memory for the structure must be allocated separately.
+The <b>ADS_SEARCH_COLUMN</b> structure only contains a pointer to the array of  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_adsvalue">ADSVALUE</a> structures. Memory for the structure must be allocated separately.
 
-For more information about  <b>ADS_SEARCH_COLUMN</b>, see  <a href="https://msdn.microsoft.com/3bcacb24-a4b4-4fad-ab7c-79ef7a67064d">IDirectorySearch::GetColumn</a>.
+For more information about  <b>ADS_SEARCH_COLUMN</b>, see  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-getcolumn">IDirectorySearch::GetColumn</a>.
 
 
 
@@ -98,19 +98,19 @@ For more information about  <b>ADS_SEARCH_COLUMN</b>, see  <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/3ee0e469-9932-4135-8798-27d318011786">ADSI Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/e601bae5-80bf-43f5-846f-11327889419a">ADSTYPEENUM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0001">ADSTYPEENUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/b53c4a14-9965-4025-95bc-37f460ea2bc9">ADSVALUE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_adsvalue">ADSVALUE</a>
 
 
 
-<a href="https://msdn.microsoft.com/3bcacb24-a4b4-4fad-ab7c-79ef7a67064d">IDirectorySearch::GetColumn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-getcolumn">IDirectorySearch::GetColumn</a>
  
 
  

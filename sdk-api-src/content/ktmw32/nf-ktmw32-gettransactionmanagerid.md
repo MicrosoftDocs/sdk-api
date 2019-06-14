@@ -73,7 +73,7 @@ A pointer to a variable that receives the identifier for the transaction manager
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is 0 (zero). To get extended error information, call the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+If the function fails, the return value is 0 (zero). To get extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 
 The following list identifies the possible error codes:
@@ -88,11 +88,11 @@ The following list identifies the possible error codes:
 
 
 
-<a href="https://msdn.microsoft.com/e9704ea8-e67d-4278-b77e-1d4787224d52">Kernel Transaction Manager Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/6b53609a-b956-441c-b5b5-9a8e6aa489c9">OpenTransactionManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-opentransactionmanager">OpenTransactionManager</a>
  
 
  

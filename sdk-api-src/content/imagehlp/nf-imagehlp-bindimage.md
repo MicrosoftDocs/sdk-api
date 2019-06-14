@@ -52,7 +52,7 @@ ms.custom: 19H1
 Computes the virtual address of each imported function.
 
 This function has been superseded by the 
-<a href="https://msdn.microsoft.com/97edbe29-94e5-4d3c-b640-c92b7f01a159">BindImageEx</a> function. Use 
+<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-bindimageex">BindImageEx</a> function. Use 
 <b>BindImageEx</b> to provide a status routine or flags to control the image binding.
 
 
@@ -83,7 +83,7 @@ The root of the path to search for the file's corresponding symbol file.
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -105,11 +105,11 @@ All ImageHlp functions, such as this one, are single threaded. Therefore, calls 
 
 
 
-<a href="https://msdn.microsoft.com/97edbe29-94e5-4d3c-b640-c92b7f01a159">BindImageEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-bindimageex">BindImageEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/926f412e-25ba-4f9c-a118-b5a1bc723379">ImageHlp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
  
 
  

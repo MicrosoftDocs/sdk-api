@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an instance of the <a href="https://msdn.microsoft.com/935e651c-4dcd-4317-847e-34adf656035c">IShellImageData</a> interface based on a given file stream.
+Creates an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a> interface based on a given file stream.
 
 
 ## -parameters
@@ -59,16 +59,16 @@ Creates an instance of the <a href="https://msdn.microsoft.com/935e651c-4dcd-431
 
 ### -param pStream [in]
 
-Type: <b><a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
 A pointer to the image stream.
 
 
 ### -param ppshimg [out]
 
-Type: <b><a href="https://msdn.microsoft.com/935e651c-4dcd-4317-847e-34adf656035c">IShellImageData</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a>**</b>
 
-The address of a pointer to an instance of <a href="https://msdn.microsoft.com/935e651c-4dcd-4317-847e-34adf656035c">IShellImageData</a>.
+The address of a pointer to an instance of <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a>.
 
 
 ## -returns
@@ -102,7 +102,7 @@ The internal object cannot be instantiated.
 </dl>
 </td>
 <td width="60%">
-The internal object does not support the <a href="https://msdn.microsoft.com/935e651c-4dcd-4317-847e-34adf656035c">IShellImageData</a> or <a href="https://msdn.microsoft.com/7d34507f-8a16-43b4-8225-010798abc546">IPersistFile</a> interfaces.
+The internal object does not support the <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a> or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersistfile">IPersistFile</a> interfaces.
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ The <i>ppshimg</i> parameter is <b>NULL</b>.
 
 
 
-If <i>pStream</i> is <b>NULL</b> or an invalid pointer, later calls to <a href="https://msdn.microsoft.com/954424d6-cb90-46c1-a850-4e1113dfe2e4">Decode</a> will cause an access violation.
+If <i>pStream</i> is <b>NULL</b> or an invalid pointer, later calls to <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-decode">Decode</a> will cause an access violation.
 
 
 

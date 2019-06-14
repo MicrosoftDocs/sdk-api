@@ -150,7 +150,7 @@ The <b>FILE_CACHE_MIN_HARD_DISABLE</b> and <b>FILE_CACHE_MIN_HARD_ENABLE</b> fla
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is 0 (zero). To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -164,7 +164,7 @@ The calling process must enable the <b>SE_INCREASE_QUOTA_NAME</b> privilege.
 Setting the <i>MaximumFileCacheSize</i> parameter to a very low value can adversely affect system performance.
 
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0502 or later. For more information, see 
-<a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 The <b>FILE_CACHE_*</b> constants will be defined in the Windows header files starting with the Windows SDK for Windows Server 2008. If you are using header files from an earlier version of the SDK, add the following definitions to your code.
 
@@ -190,11 +190,11 @@ The <b>FILE_CACHE_*</b> constants will be defined in the Windows header files st
 
 
 
-<a href="https://msdn.microsoft.com/9a82e572-eab8-4096-a3b3-706ca6eb7a52">GetSystemFileCacheSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-getsystemfilecachesize">GetSystemFileCacheSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a2a7a62-0bda-4a0d-93d2-25b4898871fd">Memory Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
  
 
  

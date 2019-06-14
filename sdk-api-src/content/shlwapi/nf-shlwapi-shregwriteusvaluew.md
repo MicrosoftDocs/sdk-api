@@ -65,11 +65,11 @@ Writes a value to a registry subkey in a user-specific subtree (HKEY_CURRENT_USE
 
 Type: <b>HUSKEY</b>
 
-A handle to a currently open registry subkey. The subkey must have been opened with the KEY_SET_VALUE access right. For more information, see <a href="https://msdn.microsoft.com/266d5c8e-1bcd-48e5-bc06-2fbc956d8658">Registry Key Security and Access Rights</a>.
+A handle to a currently open registry subkey. The subkey must have been opened with the KEY_SET_VALUE access right. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
 
                         
 
-This handle can be obtained through the <a href="https://msdn.microsoft.com/756430a9-a495-412e-95c3-a93222bc467a">SHRegOpenUSKey</a> function.
+This handle can be obtained through the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shregopenuskeya">SHRegOpenUSKey</a> function.
 
 
 ### -param pwzValue
@@ -275,7 +275,7 @@ If this parameter is <b>NULL</b> or an empty string, the function sets the type 
 
 Type: <b>LSTATUS</b>
 
-Returns ERROR_SUCCESS if successful; otherwise, a nonzero error code defined in Winerror.h. You can use the <a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to retrieve a generic description of the error.
+Returns ERROR_SUCCESS if successful; otherwise, a nonzero error code defined in Winerror.h. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to retrieve a generic description of the error.
 
 
 
@@ -284,11 +284,11 @@ Returns ERROR_SUCCESS if successful; otherwise, a nonzero error code defined in 
 
 
 
-To use <b>SHRegWriteUSValue</b>, you must first open the key with <a href="https://msdn.microsoft.com/756430a9-a495-412e-95c3-a93222bc467a">SHRegOpenUSKey</a>. Once the key is opened, you can use <b>SHRegWriteUSValue</b> as many times as necessary.
+To use <b>SHRegWriteUSValue</b>, you must first open the key with <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shregopenuskeya">SHRegOpenUSKey</a>. Once the key is opened, you can use <b>SHRegWriteUSValue</b> as many times as necessary.
 
-If you only need to write a single value, you should use <a href="https://msdn.microsoft.com/96559f8c-8527-4924-928e-f27049069407">SHRegSetUSValue</a>, which both opens the key and writes the value.
+If you only need to write a single value, you should use <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shregsetusvaluea">SHRegSetUSValue</a>, which both opens the key and writes the value.
 
-If you need to write more than one value on the same key, multiple calls to <b>SHRegWriteUSValue</b> are usually more efficient than <a href="https://msdn.microsoft.com/96559f8c-8527-4924-928e-f27049069407">SHRegSetUSValue</a>, because the key is only opened once.
+If you need to write more than one value on the same key, multiple calls to <b>SHRegWriteUSValue</b> are usually more efficient than <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shregsetusvaluea">SHRegSetUSValue</a>, because the key is only opened once.
 
 
 
@@ -298,7 +298,7 @@ If you need to write more than one value on the same key, multiple calls to <b>S
 
 
 
-<a href="https://msdn.microsoft.com/5fd828d6-4d62-4823-a2f1-15782b5cd28c">Registry Value Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-value-types">Registry Value Types</a>
  
 
  

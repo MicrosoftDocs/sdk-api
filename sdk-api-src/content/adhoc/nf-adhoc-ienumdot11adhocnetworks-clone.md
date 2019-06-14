@@ -59,7 +59,7 @@ Creates a new enumeration interface.
 
 ### -param ppEnum [out]
 
-A pointer to a variable that, on successful return, points to an <a href="https://msdn.microsoft.com/5818e921-86bc-4f96-9ecd-3cb9c9a1a488">IEnumDot11AdHocNetworks</a>interface.   
+A pointer to a variable that, on successful return, points to an <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-ienumdot11adhocnetworks">IEnumDot11AdHocNetworks</a>interface.   
 
 
 ## -returns
@@ -150,7 +150,7 @@ A pointer passed as a parameter is not valid.
 
 
 
-<a href="https://msdn.microsoft.com/5818e921-86bc-4f96-9ecd-3cb9c9a1a488">IEnumDot11AdHocNetworks</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-ienumdot11adhocnetworks">IEnumDot11AdHocNetworks</a>
  
 
  

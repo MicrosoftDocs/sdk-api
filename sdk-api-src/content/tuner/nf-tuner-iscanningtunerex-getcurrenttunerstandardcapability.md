@@ -65,7 +65,7 @@ The <b>GetCurrentTunerStandardCapability</b> method retrieves the tuner's capabi
 
 ### -param CurrentBroadcastStandard [in]
 
-GUID that specifies the broadcast standard to query. To find the broadcast standards supported by the tuner, call <a href="https://msdn.microsoft.com/7dc7aeec-2a9d-4dfb-9f67-36d8131cc130">GetTunerScanningCapability</a>.
+GUID that specifies the broadcast standard to query. To find the broadcast standards supported by the tuner, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iscanningtunerex-gettunerscanningcapability">GetTunerScanningCapability</a>.
 
 
 ### -param SettlingTime [out]
@@ -75,7 +75,7 @@ Receives the approximate amount of time the tuner requires to tune to a frequenc
 
 ### -param TvStandardsSupported [out]
 
-If <i>CurrentBroadcastStandard</i> is ANALOG_TV_NETWORK_TYPE, this parameter receives a bitwise OR of flags from the <a href="https://msdn.microsoft.com/en-us/library/Dd373515(v=VS.85).aspx">AnalogVideoStandard</a> enumeration, indicating which analog television formats are supported by the tuner. Otherwise, this parameter is ignored.
+If <i>CurrentBroadcastStandard</i> is ANALOG_TV_NETWORK_TYPE, this parameter receives a bitwise OR of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-taganalogvideostandard">AnalogVideoStandard</a> enumeration, indicating which analog television formats are supported by the tuner. Otherwise, this parameter is ignored.
 
 
 ## -returns
@@ -92,7 +92,7 @@ When the method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b
 
 
 
-<a href="https://msdn.microsoft.com/3f89173a-d24b-400c-a229-28efb7a703be">IScanningTunerEx Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iscanningtunerex">IScanningTunerEx Interface</a>
  
 
  

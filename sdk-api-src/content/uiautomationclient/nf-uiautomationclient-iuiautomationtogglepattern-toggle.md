@@ -63,7 +63,7 @@ Cycles through the toggle states of the control.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -74,7 +74,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-A control cycles through its states in this order: <a href="https://msdn.microsoft.com/en-us/library/Ee671694(v=VS.85).aspx">ToggleState_On</a>, <a href="https://msdn.microsoft.com/en-us/library/Ee671694(v=VS.85).aspx">ToggleState_Off</a> and, if supported, <a href="https://msdn.microsoft.com/en-us/library/Ee671694(v=VS.85).aspx">ToggleState_Indeterminate</a>.
+A control cycles through its states in this order: <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-togglestate">ToggleState_On</a>, <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-togglestate">ToggleState_Off</a> and, if supported, <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-togglestate">ToggleState_Indeterminate</a>.
 
 
 

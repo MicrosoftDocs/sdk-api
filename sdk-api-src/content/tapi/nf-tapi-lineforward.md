@@ -83,7 +83,7 @@ An address identifier is permanently associated with an address; the identifier 
 ### -param lpForwardList
 
 Pointer to a variably sized data structure that describes the specific forwarding instructions, of type 
-<a href="https://msdn.microsoft.com/3dec9ab6-43d8-4dda-b0b1-a25407e4d77a">LINEFORWARDLIST</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforwardlist_tag">LINEFORWARDLIST</a>.
 
 
 ### -param dwNumRingsNoAnswer
@@ -99,7 +99,7 @@ Pointer to an HCALL location. In some telephony environments, this location is l
 ### -param lpCallParams
 
 Pointer to a structure of type 
-<a href="https://msdn.microsoft.com/e7bc5604-20eb-48d8-a857-df8962c6b2ae">LINECALLPARAMS</a>. This pointer is ignored unless 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams_tag">LINECALLPARAMS</a>. This pointer is ignored unless 
 <b>lineForward</b> requires the establishment of a call to the forwarding destination (and <i>lphConsultCall</i> is returned, in which case <i>lpCallParams</i> is optional). If <b>NULL</b>, default call parameters are used. Otherwise, the specified call parameters are used for establishing <i>hConsultCall</i>.
 
 
@@ -108,7 +108,7 @@ Pointer to a structure of type
 
 
 Returns a positive request identifier if the function is completed asynchronously, or a negative error number if an error occurs. The <i>dwParam2</i> parameter of the corresponding 
-<a href="https://msdn.microsoft.com/5d98ed8b-b75e-49f8-aba3-c6eee89e91c1">LINE_REPLY</a> message is zero if the function succeeds or it is a negative error number if an error occurs. Possible return values are:
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-reply">LINE_REPLY</a> message is zero if the function succeeds or it is a negative error number if an error occurs. Possible return values are:
 
 LINEERR_INVALLINEHANDLE, LINEERR_NOMEM, LINEERR_INVALADDRESSID, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALADDRESS, LINEERR_OPERATIONFAILED, LINEERR_INVALCOUNTRYCODE, LINEERR_RESOURCEUNAVAIL, LINEERR_INVALPOINTER, LINEERR_STRUCTURETOOSMALL, LINEERR_INVALPARAM, LINEERR_UNINITIALIZED.
 
@@ -120,7 +120,7 @@ LINEERR_INVALLINEHANDLE, LINEERR_NOMEM, LINEERR_INVALADDRESSID, LINEERR_OPERATIO
 
 
 A successful forwarding indicates only that the request has been accepted by the service provider, not that forwarding is set up at the switch. A 
-<a href="https://msdn.microsoft.com/af211fa1-79f8-49ac-a1d8-b62981f50519">LINE_ADDRESSSTATE</a> (forwarding) message provides confirmation for forwarding having been set up at the switch.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-addressstate">LINE_ADDRESSSTATE</a> (forwarding) message provides confirmation for forwarding having been set up at the switch.
 
 Forwarding of the address(es) remains in effect until this function is called again. The most recent forwarding list replaces the old one. Forwarding can be canceled by specifying a <b>NULL</b> pointer as <i>lpForwardList</i>. If a <b>NULL</b> destination address is specified for an entry in the forwarding list, the operation acts as a do-not-disturb.
 
@@ -133,7 +133,7 @@ The success or failure of this operation does not depend on the previous set of 
 
 Invoking 
 <b>lineForward</b> when 
-<a href="https://msdn.microsoft.com/3dec9ab6-43d8-4dda-b0b1-a25407e4d77a">LINEFORWARDLIST</a> has <i>dwNumEntries</i> set to zero has the same effect as providing a <b>NULL</b><i>lpForwardList</i> parameter. It cancels all forwarding currently in effect.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforwardlist_tag">LINEFORWARDLIST</a> has <i>dwNumEntries</i> set to zero has the same effect as providing a <b>NULL</b><i>lpForwardList</i> parameter. It cancels all forwarding currently in effect.
 
 
 
@@ -143,31 +143,31 @@ Invoking
 
 
 
-<a href="https://msdn.microsoft.com/c70bf596-b2a4-46ec-9b1a-c9d948768b51">Forward Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/forward-ovr">Forward Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/e7bc5604-20eb-48d8-a857-df8962c6b2ae">LINECALLPARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams_tag">LINECALLPARAMS</a>
 
 
 
-<a href="https://msdn.microsoft.com/3dec9ab6-43d8-4dda-b0b1-a25407e4d77a">LINEFORWARDLIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforwardlist_tag">LINEFORWARDLIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/af211fa1-79f8-49ac-a1d8-b62981f50519">LINE_ADDRESSSTATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-addressstate">LINE_ADDRESSSTATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d98ed8b-b75e-49f8-aba3-c6eee89e91c1">LINE_REPLY</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-reply">LINE_REPLY</a>
 
 
 
-<a href="https://msdn.microsoft.com/d4338b3c-cd84-4abb-b74e-9df895c8355b">Supplementary Line Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d703b414-1389-416c-8e94-c1931979f0c9">TAPI 2.2 Reference Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
  
 
  

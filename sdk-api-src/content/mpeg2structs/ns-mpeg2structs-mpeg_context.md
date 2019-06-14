@@ -62,7 +62,7 @@ The <b>MPEG_CONTEXT</b> structure identifies the source of an MPEG-2 data stream
 
 ### -field Type
 
-Specifies the source type, as an <a href="https://msdn.microsoft.com/cb76873e-78d0-4fd2-9caa-bff4ae250073">MPEG_CONTEXT_TYPE</a> value. Currently, the value must be MPEG_CONTEXT_BCS_DEMUX.
+Specifies the source type, as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ne-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0027">MPEG_CONTEXT_TYPE</a> value. Currently, the value must be MPEG_CONTEXT_BCS_DEMUX.
 
 
 ### -field U
@@ -72,7 +72,7 @@ A union that contains the following members.
 
 ### -field U.Demux
 
-Specifies an <a href="https://msdn.microsoft.com/ecc4f3bb-16f5-4398-bcd5-3316da8529ec">MPEG_BCS_DEMUX</a> structure that identifies the filter graph instance.
+Specifies an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0028">MPEG_BCS_DEMUX</a> structure that identifies the filter graph instance.
 
 
 ### -field U.Winsock
@@ -85,7 +85,7 @@ Currently not supported.
 
 
 
-<a href="https://msdn.microsoft.com/5ae43ac6-519d-486b-aaa5-c766f3194ef2">BDA Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-structures">BDA Structures</a>
  
 
  

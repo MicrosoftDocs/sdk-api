@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ITfUIElementMgr::GetUIElement</b> method gets the <a href="https://msdn.microsoft.com/651c3ca1-5e5b-4978-80d2-2183bd158610">ITfUIElement</a> interface of the element id.
+The <b>ITfUIElementMgr::GetUIElement</b> method gets the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfuielement">ITfUIElement</a> interface of the element id.
 
 
 ## -parameters
@@ -59,12 +59,12 @@ The <b>ITfUIElementMgr::GetUIElement</b> method gets the <a href="https://msdn.m
 
 ### -param dwUIELementId [in]
 
-[in] The element id to get the <a href="https://msdn.microsoft.com/651c3ca1-5e5b-4978-80d2-2183bd158610">ITfUIElement</a> interface.
+[in] The element id to get the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfuielement">ITfUIElement</a> interface.
 
 
 ### -param ppElement [out]
 
-[out] A pointer to receive <a href="https://msdn.microsoft.com/651c3ca1-5e5b-4978-80d2-2183bd158610">ITfUIElement</a> interface.
+[out] A pointer to receive <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfuielement">ITfUIElement</a> interface.
 
 
 ## -returns

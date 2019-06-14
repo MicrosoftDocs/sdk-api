@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deprecated. Calls the <a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a> function with a message received by the view, using the <b>_hwndView</b> member of the <a href="https://msdn.microsoft.com/d56e42e8-a556-4470-82d9-466edd84214f">BASEBROWSERDATA</a> structure as the <b>SendMessage</b> <i>hWnd</i> parameter.
+Deprecated. Calls the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> function with a message received by the view, using the <b>_hwndView</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/ns-shdeprecated-basebrowserdatalh">BASEBROWSERDATA</a> structure as the <b>SendMessage</b> <i>hWnd</i> parameter.
 
 
 ## -parameters

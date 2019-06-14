@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an instance of the <a href="https://msdn.microsoft.com/en-us/library/Ee415893(v=VS.85).aspx">IXAPO</a> interface for head-related transfer function (HRTF) processing.
+Creates an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a> interface for head-related transfer function (HRTF) processing.
 
 
 ## -parameters
@@ -59,12 +59,12 @@ Creates an instance of the <a href="https://msdn.microsoft.com/en-us/library/Ee4
 
 ### -param init [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/686A2203-A991-427F-9D41-F3C679070127">HrtfApoInit</a> struct. Specifies parameters for XAPO interface initialization.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/hrtfapoapi/ns-hrtfapoapi-hrtfapoinit">HrtfApoInit</a> struct. Specifies parameters for XAPO interface initialization.
 
 
 ### -param xApo [out]
 
-The new instance of the <a href="https://msdn.microsoft.com/en-us/library/Ee415893(v=VS.85).aspx">IXAPO</a> interface.
+The new instance of the <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a> interface.
 
 
 ## -returns
@@ -118,7 +118,7 @@ Format requirements:
 <li>Input: mono, 48 kHz, 32-bit float PCM.</li>
 <li>Output: stereo, 48 kHz, 32-bit float PCM.</li>
 </ul>
-The source and environment parameters of the HRTF XAPO are controlled through the <a href="https://msdn.microsoft.com/EDA29173-84B5-4D2F-90B0-546EEEC49539">IXAPOHrtfParameters</a> interface.
+The source and environment parameters of the HRTF XAPO are controlled through the <a href="https://docs.microsoft.com/windows/desktop/api/hrtfapoapi/nn-hrtfapoapi-ixapohrtfparameters">IXAPOHrtfParameters</a> interface.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); 
@@ -131,11 +131,11 @@ Windows 10 (XAudio2.9);
 
 
 
-<a href="https://msdn.microsoft.com/870a0425-3226-7848-bcc0-0ba7145135cb">Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415893(v=VS.85).aspx">IXAPO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a>
  
 
  

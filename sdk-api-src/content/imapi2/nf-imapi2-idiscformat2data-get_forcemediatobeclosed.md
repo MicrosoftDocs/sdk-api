@@ -97,11 +97,11 @@ Value: 0x80004003
 
 
 
-<a href="https://msdn.microsoft.com/6bb871c2-1a6e-4cf6-94e1-7a566ce7a88e">IDiscFormat2Data</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
 
 
 
-<a href="https://msdn.microsoft.com/9a087a73-1b61-481d-8deb-a251511906a9">IDiscFormat2Data::put_ForceMediaToBeClosed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-put_forcemediatobeclosed">IDiscFormat2Data::put_ForceMediaToBeClosed</a>
  
 
  

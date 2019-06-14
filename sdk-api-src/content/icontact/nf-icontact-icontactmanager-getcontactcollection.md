@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns an <a href="https://msdn.microsoft.com/4d7f26b0-a2c0-4c7b-8f1d-f918cb1e0897">IContactCollection</a> object that contains all known contacts. 
+Returns an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactcollection">IContactCollection</a> object that contains all known contacts. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Returns an <a href="https://msdn.microsoft.com/4d7f26b0-a2c0-4c7b-8f1d-f918cb1e0
 
 ### -param ppContactCollection [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4d7f26b0-a2c0-4c7b-8f1d-f918cb1e0897">IContactCollection</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactcollection">IContactCollection</a>**</b>
 
 On success, contains an enumeration of the contact collection. 
 
@@ -98,7 +98,7 @@ Success. <i>ppContactCollection</i> contains the collection.
 
 
 
-The enumerator of the new collection is set before the first contact. You must first call <a href="https://msdn.microsoft.com/f7d47643-4ef2-41fb-9f75-2fe79fec2385">Next</a> before querying the collection with <a href="https://msdn.microsoft.com/e5a5d27d-121a-4755-892e-53d148facd74">GetCurrent</a>.
+The enumerator of the new collection is set before the first contact. You must first call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactcollection-next">Next</a> before querying the collection with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactcollection-getcurrent">GetCurrent</a>.
 
 
 

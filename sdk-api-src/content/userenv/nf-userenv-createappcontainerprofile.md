@@ -84,7 +84,7 @@ The number of SIDs in <i>pCapabilities</i>.
 
 ### -param ppSidAppContainerSid [out]
 
-The SID for the profile. This buffer must be freed using the <a href="https://msdn.microsoft.com/1e2098d8-4d1f-4353-97c1-549021a5b3fd">FreeSid</a> function.
+The SID for the profile. This buffer must be freed using the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-freesid">FreeSid</a> function.
 
 
 ## -returns
@@ -152,7 +152,7 @@ The container name   is <b>NULL</b>,  or the container name,   the display name,
 
 
 
-A profile contains folders and registry storage that are per-user and per-app. The folders have ACLs that prevent them from being accessed by other users and apps. These folders can be accessed by calling <a href="https://msdn.microsoft.com/5434c744-484b-4c34-9a76-dddbcb81eb29">SHGetKnownFolderPath</a>.
+A profile contains folders and registry storage that are per-user and per-app. The folders have ACLs that prevent them from being accessed by other users and apps. These folders can be accessed by calling <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath">SHGetKnownFolderPath</a>.
 
 The function creates a profile for the current user. To create a profile on behalf of another user, you must impersonate that user. To create profiles for multiple users of the same app, you must call <b>CreateAppContainerProfile</b> for each user.
 
@@ -164,7 +164,7 @@ The function creates a profile for the current user. To create a profile on beha
 
 
 
-<a href="https://msdn.microsoft.com/ED79D661-D087-4E44-8C32-14705ACA9D40">DeleteAppContainerProfile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-deleteappcontainerprofile">DeleteAppContainerProfile</a>
  
 
  

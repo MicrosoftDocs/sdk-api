@@ -141,7 +141,7 @@ Elliptic curve cryptography
 </dl>
 </td>
 <td width="60%">
-RSA/SHA-1 (<a href="http://go.microsoft.com/fwlink/p/?linkid=90406">RFC 3110</a>). <a href="https://msdn.microsoft.com/5c15980f-6dc7-4b6d-8be1-e22fdea8fe67">DNS_DNSKEY_DATA</a> only.
+RSA/SHA-1 (<a href="http://go.microsoft.com/fwlink/p/?linkid=90406">RFC 3110</a>). <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd392295(v=vs.85)">DNS_DNSKEY_DATA</a> only.
 
 </td>
 </tr>
@@ -180,15 +180,15 @@ A <b>BYTE</b> array that contains the public key for the algorithm in <b>chAlgor
 
 The 
 <b>DNS_KEY_DATA</b> structure is used in conjunction with the 
-<a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a> structure to programmatically manage DNS entries.
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
-The <a href="https://msdn.microsoft.com/5c15980f-6dc7-4b6d-8be1-e22fdea8fe67">DNS_DNSKEY_DATA</a> structure represents a DNSKEY  resource record as specified in section 2 of  <a href="http://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd392295(v=vs.85)">DNS_DNSKEY_DATA</a> structure represents a DNSKEY  resource record as specified in section 2 of  <a href="http://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>.
 
 The 
-<a href="https://msdn.microsoft.com/5c15980f-6dc7-4b6d-8be1-e22fdea8fe67">DNS_DNSKEY_DATA</a> structure is used in conjunction with the 
-<a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a> structure to programmatically manage DNS entries.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd392295(v=vs.85)">DNS_DNSKEY_DATA</a> structure is used in conjunction with the 
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
-The value of the <b>wFlags</b> member for <a href="https://msdn.microsoft.com/5c15980f-6dc7-4b6d-8be1-e22fdea8fe67">DNS_DNSKEY_DATA</a> is a set of flags that specify key properties as  described in section 2.1.1 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>.
+The value of the <b>wFlags</b> member for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd392295(v=vs.85)">DNS_DNSKEY_DATA</a> is a set of flags that specify key properties as  described in section 2.1.1 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>.
 
 
 
@@ -198,7 +198,7 @@ The value of the <b>wFlags</b> member for <a href="https://msdn.microsoft.com/5c
 
 
 
-<a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a>
  
 
  

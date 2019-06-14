@@ -76,11 +76,11 @@ This method returns S_OK on success.
 
 
 
-<a href="https://msdn.microsoft.com/b077c256-1109-494c-95c2-2d33bccbe47b">IOleInPlaceActiveObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceactiveobject">IOleInPlaceActiveObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/2fc45490-b3fe-48fd-a41c-2b7f35b09edc">IOleInPlaceActiveObject::EnableModeless</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-enablemodeless">IOleInPlaceActiveObject::EnableModeless</a>
  
 
  

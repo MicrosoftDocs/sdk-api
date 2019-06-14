@@ -54,7 +54,7 @@ Provides a collection of properties associated with a file or folder.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStorageProviderPropertyHandler</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IStorageProviderPropertyHandler</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStorageProviderPropertyHandler</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStorageProviderPropertyHandler</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IStorageProviderPropertyHandler</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C1E21E6E-A651-4AB3-A4C1-ADDF874DCCC7">RetrieveProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/storageprovider/nf-storageprovider-istorageproviderpropertyhandler-retrieveproperties">RetrieveProperties</a>
 </td>
 <td align="left" width="63%">
 Gets the properties managed by the sync engine.
@@ -78,7 +78,7 @@ Gets the properties managed by the sync engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt149092(v=VS.85).aspx">SaveProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/istorageproviderpropertyhandler-saveproperties">SaveProperties</a>
 </td>
 <td align="left" width="63%">
 Saves properties associated with a file or folder.
@@ -96,7 +96,7 @@ Saves properties associated with a file or folder.
 
 </div>
 <div> </div>
-This interface can be implemented by a cloud storage provider sync engine to share properties about a file or file folder. An instance of <b>IStorageProviderPropertyHandler</b> exists for the lifetime of a storage file created under a sync root. Use <a href="https://msdn.microsoft.com/96DEA181-8506-4FCC-85E0-A2EF79BA6C6D">IStorageProviderHandler</a> to retrieve the set of properties associated with an individual file or folder.
+This interface can be implemented by a cloud storage provider sync engine to share properties about a file or file folder. An instance of <b>IStorageProviderPropertyHandler</b> exists for the lifetime of a storage file created under a sync root. Use <a href="https://docs.microsoft.com/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderhandler">IStorageProviderHandler</a> to retrieve the set of properties associated with an individual file or folder.
 
 This interface is responsible for keeping track of the following properties:
 

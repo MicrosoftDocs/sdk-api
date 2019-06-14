@@ -139,7 +139,7 @@ The Windows Sockets provider for NetBIOS is not supported on 64-bit versions of 
 
 The Windows Sockets provider for NetBIOS  only supports sockets where the <i>type</i> parameter is set to <b>SOCK_DGRAM</b>.
 
-The Windows Sockets provider for NetBIOS  is not directly related to the <a href="https://msdn.microsoft.com/9144e283-0e5f-43d7-8cd2-e746f94c6f14">NetBIOS</a> programming interface. The NetBIOS programming interface is not supported on Windows Vista, Windows Server 2008, and later.
+The Windows Sockets provider for NetBIOS  is not directly related to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/portal">NetBIOS</a> programming interface. The NetBIOS programming interface is not supported on Windows Vista, Windows Server 2008, and later.
 
 </td>
 </tr>
@@ -227,7 +227,7 @@ A socket type that supports datagrams, which are connectionless, unreliable buff
 </dl>
 </td>
 <td width="60%">
-A socket type that provides a raw socket that allows an application to manipulate the next upper-layer protocol header. To manipulate the IPv4 header, the <a href="https://msdn.microsoft.com/6b06a29e-59cd-4446-bd2f-131dc25bf571">IP_HDRINCL</a> socket option must be set on the socket.  To manipulate the IPv6 header, the <a href="https://msdn.microsoft.com/65f8f7a4-757b-43a3-9d47-b115754c89d6">IPV6_HDRINCL</a> socket option must be set on the socket.  
+A socket type that provides a raw socket that allows an application to manipulate the next upper-layer protocol header. To manipulate the IPv4 header, the <a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-ip-socket-options">IP_HDRINCL</a> socket option must be set on the socket.  To manipulate the IPv6 header, the <a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-ipv6-socket-options">IPV6_HDRINCL</a> socket option must be set on the socket.  
 
 </td>
 </tr>
@@ -238,7 +238,7 @@ A socket type that provides a raw socket that allows an application to manipulat
 </dl>
 </td>
 <td width="60%">
-A socket type that provides a reliable message datagram. An example of this type is the Pragmatic General Multicast (PGM) multicast protocol implementation in Windows, often referred to as <a href="https://msdn.microsoft.com/81c203ed-739f-4a06-99a1-9a99c6164edc">reliable multicast programming</a>. 
+A socket type that provides a reliable message datagram. An example of this type is the Pragmatic General Multicast (PGM) multicast protocol implementation in Windows, often referred to as <a href="https://docs.microsoft.com/windows/desktop/WinSock/reliable-multicast-programming--pgm-">reliable multicast programming</a>. 
 
 This <i>type</i> value is only supported if the Reliable Multicast Protocol is installed.
 
@@ -259,7 +259,7 @@ A socket type that provides a pseudo-stream packet based on datagrams.
  
 
 In Windows Sockets 2, new socket types were introduced. An application can dynamically discover the attributes of each available transport protocol through the 
-<a href="https://msdn.microsoft.com/928b6937-41a3-4268-a3bc-14c9e04870e4">WSAEnumProtocols</a> function. So an application can determine the possible socket type and protocol options for an address family  and use this information when specifying this parameter. Socket type definitions in the <i>Winsock2.h</i> and <i>Ws2def.h</i> header files will be periodically updated as new socket types, address families, and protocols are defined.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a> function. So an application can determine the possible socket type and protocol options for an address family  and use this information when specifying this parameter. Socket type definitions in the <i>Winsock2.h</i> and <i>Ws2def.h</i> header files will be periodically updated as new socket types, address families, and protocols are defined.
 
 In Windows Sockets 1.1, the only possible socket types are <b>SOCK_DGRAM</b> and <b>SOCK_STREAM</b>. 
 
@@ -377,7 +377,7 @@ This <i>protocol</i> value is only supported if the Reliable Multicast Protocol 
 ### -param lpProtocolInfo [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/758c5553-056f-4ea5-a851-30ef641ffb14">WSAPROTOCOL_INFO</a> structure that defines the characteristics of the socket to be created. If this parameter is not <b>NULL</b>, the socket will be bound to the provider associated with the indicated 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure that defines the characteristics of the socket to be created. If this parameter is not <b>NULL</b>, the socket will be bound to the provider associated with the indicated 
 <b>WSAPROTOCOL_INFO</b> structure. 
 
 
@@ -455,17 +455,17 @@ A combination of these flags may be set, although some combinations are not allo
 Create a socket that supports overlapped I/O operations.
 
 Most sockets should be created with this flag set. Overlapped sockets can utilize 
-<a href="https://msdn.microsoft.com/764339e6-a1ac-455d-8ebd-ad0fa50dc3b0">WSASend</a>, 
-<a href="https://msdn.microsoft.com/e3a11522-871c-4d6b-a2e6-ca91ffc2b698">WSASendTo</a>, 
-<a href="https://msdn.microsoft.com/bfe66e11-e9a7-4321-ad55-3141113e9a03">WSARecv</a>, 
-<a href="https://msdn.microsoft.com/8617dbb8-0e4e-4cd3-9597-5d20de6778f6">WSARecvFrom</a>, and 
-<a href="https://msdn.microsoft.com/038aeca6-d7b7-4f74-ac69-4536c2e5118b">WSAIoctl</a> for overlapped I/O operations, which allow multiple operations to be initiated and in progress simultaneously. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasend">WSASend</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasendto">WSASendTo</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsarecv">WSARecv</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsarecvfrom">WSARecvFrom</a>, and 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a> for overlapped I/O operations, which allow multiple operations to be initiated and in progress simultaneously. 
 
-All functions that allow overlapped operation (<a href="https://msdn.microsoft.com/764339e6-a1ac-455d-8ebd-ad0fa50dc3b0">WSASend</a>, 
-<a href="https://msdn.microsoft.com/bfe66e11-e9a7-4321-ad55-3141113e9a03">WSARecv</a>, 
-<a href="https://msdn.microsoft.com/e3a11522-871c-4d6b-a2e6-ca91ffc2b698">WSASendTo</a>, 
-<a href="https://msdn.microsoft.com/8617dbb8-0e4e-4cd3-9597-5d20de6778f6">WSARecvFrom</a>, 
-<a href="https://msdn.microsoft.com/038aeca6-d7b7-4f74-ac69-4536c2e5118b">WSAIoctl</a>) also support nonoverlapped usage on an overlapped socket if the values for parameters related to overlapped operations are <b>NULL</b>.
+All functions that allow overlapped operation (<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasend">WSASend</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsarecv">WSARecv</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasendto">WSASendTo</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsarecvfrom">WSARecvFrom</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a>) also support nonoverlapped usage on an overlapped socket if the values for parameters related to overlapped operations are <b>NULL</b>.
 
 </td>
 </tr>
@@ -478,13 +478,13 @@ All functions that allow overlapped operation (<a href="https://msdn.microsoft.c
 <td width="60%">
 Create a socket that will be a c_root in a multipoint session.
 
-This attribute is only allowed if the <a href="https://msdn.microsoft.com/758c5553-056f-4ea5-a851-30ef641ffb14">WSAPROTOCOL_INFO</a> structure for the transport provider that creates the socket supports a multipoint or multicast mechanism and the control plane for a multipoint session is rooted. This would be indicated by the <b>dwServiceFlags1</b> 
+This attribute is only allowed if the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure for the transport provider that creates the socket supports a multipoint or multicast mechanism and the control plane for a multipoint session is rooted. This would be indicated by the <b>dwServiceFlags1</b> 
  member of the <b>WSAPROTOCOL_INFO</b> structure  with the <b>XP1_SUPPORT_MULTIPOINT</b> and <b>XP1_MULTIPOINT_CONTROL_PLANE</b>  flags set. 
 
-When the <i>lpProtocolInfo</i> parameter is not NULL, the  <a href="https://msdn.microsoft.com/758c5553-056f-4ea5-a851-30ef641ffb14">WSAPROTOCOL_INFO</a> structure for the transport provider is pointed to by the <i>lpProtocolInfo</i> parameter.  When the <i>lpProtocolInfo</i> parameter is NULL, the  <b>WSAPROTOCOL_INFO</b> structure is based on the transport provider selected by the values specified for the  <i>af</i>, <i>type</i>, and <i>protocol</i> parameters. 
+When the <i>lpProtocolInfo</i> parameter is not NULL, the  <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure for the transport provider is pointed to by the <i>lpProtocolInfo</i> parameter.  When the <i>lpProtocolInfo</i> parameter is NULL, the  <b>WSAPROTOCOL_INFO</b> structure is based on the transport provider selected by the values specified for the  <i>af</i>, <i>type</i>, and <i>protocol</i> parameters. 
 
 Refer to 
-<a href="https://msdn.microsoft.com/7e9c55dc-8b19-4730-ad76-ed83db0b7b64">Multipoint and Multicast Semantics</a> for additional information on a multipoint session.
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/multipoint-and-multicast-semantics-2">Multipoint and Multicast Semantics</a> for additional information on a multipoint session.
 
 </td>
 </tr>
@@ -497,13 +497,13 @@ Refer to
 <td width="60%">
 Create a socket that will be a c_leaf in a multipoint session.
 
-This attribute is only allowed if the <a href="https://msdn.microsoft.com/758c5553-056f-4ea5-a851-30ef641ffb14">WSAPROTOCOL_INFO</a> structure for the transport provider that creates the socket supports a multipoint or multicast mechanism and the control plane for a multipoint session is non-rooted. This would be indicated by the <b>dwServiceFlags1</b> 
+This attribute is only allowed if the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure for the transport provider that creates the socket supports a multipoint or multicast mechanism and the control plane for a multipoint session is non-rooted. This would be indicated by the <b>dwServiceFlags1</b> 
  member of the <b>WSAPROTOCOL_INFO</b> structure  with the <b>XP1_SUPPORT_MULTIPOINT</b> flag set and the <b>XP1_MULTIPOINT_CONTROL_PLANE</b>  flag not set. 
 
-When the <i>lpProtocolInfo</i> parameter is not NULL, the  <a href="https://msdn.microsoft.com/758c5553-056f-4ea5-a851-30ef641ffb14">WSAPROTOCOL_INFO</a> structure for the transport provider is pointed to by the <i>lpProtocolInfo</i> parameter.  When the <i>lpProtocolInfo</i> parameter is NULL, the  <b>WSAPROTOCOL_INFO</b> structure is based on the transport provider selected by the values specified for the  <i>af</i>, <i>type</i>, and <i>protocol</i> parameters. 
+When the <i>lpProtocolInfo</i> parameter is not NULL, the  <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure for the transport provider is pointed to by the <i>lpProtocolInfo</i> parameter.  When the <i>lpProtocolInfo</i> parameter is NULL, the  <b>WSAPROTOCOL_INFO</b> structure is based on the transport provider selected by the values specified for the  <i>af</i>, <i>type</i>, and <i>protocol</i> parameters. 
 
 Refer to 
-<a href="https://msdn.microsoft.com/7e9c55dc-8b19-4730-ad76-ed83db0b7b64">Multipoint and Multicast Semantics</a> for additional information on a multipoint session.
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/multipoint-and-multicast-semantics-2">Multipoint and Multicast Semantics</a> for additional information on a multipoint session.
 
 </td>
 </tr>
@@ -516,13 +516,13 @@ Refer to
 <td width="60%">
 Create a socket that will be a d_root in a multipoint session.
 
-This attribute is only allowed if the <a href="https://msdn.microsoft.com/758c5553-056f-4ea5-a851-30ef641ffb14">WSAPROTOCOL_INFO</a> structure for the transport provider that creates the socket supports a multipoint or multicast mechanism and the data plane for a multipoint session is rooted. This would be indicated by the <b>dwServiceFlags1</b> 
+This attribute is only allowed if the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure for the transport provider that creates the socket supports a multipoint or multicast mechanism and the data plane for a multipoint session is rooted. This would be indicated by the <b>dwServiceFlags1</b> 
  member of the <b>WSAPROTOCOL_INFO</b> structure  with the <b>XP1_SUPPORT_MULTIPOINT</b> and <b>XP1_MULTIPOINT_DATA_PLANE</b>  flags set. 
 
-When the <i>lpProtocolInfo</i> parameter is not NULL, the  <a href="https://msdn.microsoft.com/758c5553-056f-4ea5-a851-30ef641ffb14">WSAPROTOCOL_INFO</a> structure for the transport provider is pointed to by the <i>lpProtocolInfo</i> parameter.  When the <i>lpProtocolInfo</i> parameter is NULL, the  <b>WSAPROTOCOL_INFO</b> structure is based on the transport provider selected by the values specified for the  <i>af</i>, <i>type</i>, and <i>protocol</i> parameters. 
+When the <i>lpProtocolInfo</i> parameter is not NULL, the  <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure for the transport provider is pointed to by the <i>lpProtocolInfo</i> parameter.  When the <i>lpProtocolInfo</i> parameter is NULL, the  <b>WSAPROTOCOL_INFO</b> structure is based on the transport provider selected by the values specified for the  <i>af</i>, <i>type</i>, and <i>protocol</i> parameters. 
 
 Refer to 
-<a href="https://msdn.microsoft.com/7e9c55dc-8b19-4730-ad76-ed83db0b7b64">Multipoint and Multicast Semantics</a> for additional information on a multipoint session.
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/multipoint-and-multicast-semantics-2">Multipoint and Multicast Semantics</a> for additional information on a multipoint session.
 
 </td>
 </tr>
@@ -535,13 +535,13 @@ Refer to
 <td width="60%">
 Create a socket that will be a d_leaf in a multipoint session.
 
-This attribute is only allowed if the <a href="https://msdn.microsoft.com/758c5553-056f-4ea5-a851-30ef641ffb14">WSAPROTOCOL_INFO</a> structure for the transport provider that creates the socket supports a multipoint or multicast mechanism and the data plane for a multipoint session is non-rooted. This would be indicated by the <b>dwServiceFlags1</b> 
+This attribute is only allowed if the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure for the transport provider that creates the socket supports a multipoint or multicast mechanism and the data plane for a multipoint session is non-rooted. This would be indicated by the <b>dwServiceFlags1</b> 
  member of the <b>WSAPROTOCOL_INFO</b> structure  with the <b>XP1_SUPPORT_MULTIPOINT</b> flag set and the <b>XP1_MULTIPOINT_DATA_PLANE</b>  flag not set. 
 
-When the <i>lpProtocolInfo</i> parameter is not NULL, the  <a href="https://msdn.microsoft.com/758c5553-056f-4ea5-a851-30ef641ffb14">WSAPROTOCOL_INFO</a> structure for the transport provider is pointed to by the <i>lpProtocolInfo</i> parameter.  When the <i>lpProtocolInfo</i> parameter is NULL, the  <b>WSAPROTOCOL_INFO</b> structure is based on the transport provider selected by the values specified for the  <i>af</i>, <i>type</i>, and <i>protocol</i> parameters. 
+When the <i>lpProtocolInfo</i> parameter is not NULL, the  <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure for the transport provider is pointed to by the <i>lpProtocolInfo</i> parameter.  When the <i>lpProtocolInfo</i> parameter is NULL, the  <b>WSAPROTOCOL_INFO</b> structure is based on the transport provider selected by the values specified for the  <i>af</i>, <i>type</i>, and <i>protocol</i> parameters. 
 
 Refer to 
-<a href="https://msdn.microsoft.com/7e9c55dc-8b19-4730-ad76-ed83db0b7b64">Multipoint and Multicast Semantics</a> for additional information on a multipoint session.
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/multipoint-and-multicast-semantics-2">Multipoint and Multicast Semantics</a> for additional information on a multipoint session.
 
 </td>
 </tr>
@@ -554,7 +554,7 @@ Refer to
 <td width="60%">
 Create a socket that allows the the ability to set a security descriptor on the socket that contains a security access control list (SACL) as opposed to just a discretionary access control list (DACL).
 
-SACLs are used for generating audits and alarms when an access check occurs on the object. For a socket, an access check occurs to determine whether the socket should be allowed to bind to a specific address specified to the <a href="https://msdn.microsoft.com/3a651daa-7404-4ef7-8cff-0d3dff41a8e8">bind</a> function.
+SACLs are used for generating audits and alarms when an access check occurs on the object. For a socket, an access check occurs to determine whether the socket should be allowed to bind to a specific address specified to the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind">bind</a> function.
 
 The <b>ACCESS_SYSTEM_SECURITY</b> access right controls the ability to get or set the SACL in an object's security descriptor. The system grants this access right only if the <b>SE_SECURITY_NAME</b> privilege is enabled in the access token of the requesting thread.
 
@@ -571,9 +571,9 @@ The <b>ACCESS_SYSTEM_SECURITY</b> access right controls the ability to get or se
 <td width="60%">
 Create a socket that is non-inheritable. 
 
-A socket handle created by the <b>WSASocket</b> or the <a href="https://msdn.microsoft.com/6bf6e6c4-6268-479c-86a6-52e90cf317db">socket</a> function is inheritable by default. When this flag is set, the socket handle is non-inheritable. 
+A socket handle created by the <b>WSASocket</b> or the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> function is inheritable by default. When this flag is set, the socket handle is non-inheritable. 
 
-The <a href="https://msdn.microsoft.com/a0f50a0d-739d-411b-8144-77b775476d26">GetHandleInformation</a> function can be used to determine if a socket handle was created with the <b>WSA_FLAG_NO_HANDLE_INHERIT</b> flag set. The <b>GetHandleInformation</b> function will return that the <b>HANDLE_FLAG_INHERIT</b> value is set.
+The <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-gethandleinformation">GetHandleInformation</a> function can be used to determine if a socket handle was created with the <b>WSA_FLAG_NO_HANDLE_INHERIT</b> flag set. The <b>GetHandleInformation</b> function will return that the <b>HANDLE_FLAG_INHERIT</b> value is set.
 
 This flag is supported on Windows 7 with SP1,  Windows Server 2008 R2 with SP1, and later 
 
@@ -583,7 +583,7 @@ This flag is supported on Windows 7 with SP1,  Windows Server 2008 R2 with SP
  
 
 <div class="alert"><b>Important</b>  For multipoint sockets, only one of <b>WSA_FLAG_MULTIPOINT_C_ROOT</b> or <b>WSA_FLAG_MULTIPOINT_C_LEAF</b> flags can be specified, and only  one of <b>WSA_FLAG_MULTIPOINT_D_ROOT</b> or <b>WSA_FLAG_MULTIPOINT_D_LEAF</b> flags can be specified. Refer to 
-<a href="https://msdn.microsoft.com/7e9c55dc-8b19-4730-ad76-ed83db0b7b64">Multipoint and Multicast Semantics</a> for additional information.</div>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/multipoint-and-multicast-semantics-2">Multipoint and Multicast Semantics</a> for additional information.</div>
 <div> </div>
 
 ## -returns
@@ -592,7 +592,7 @@ This flag is supported on Windows 7 with SP1,  Windows Server 2008 R2 with SP
 
 If no error occurs, 
 <b>WSASocket</b> returns a descriptor referencing the new socket. Otherwise, a value of INVALID_SOCKET is returned, and a specific error code can be retrieved by calling 
-<a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
 
 <div class="alert"><b>Note</b>  This error code description is Microsoft-specific.</div>
 <div> </div>
@@ -604,19 +604,19 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 A successful 
-<a href="https://msdn.microsoft.com/08299592-867c-491d-9769-d16602133659">WSAStartup</a> call must occur before using this function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> call must occur before using this function.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -627,7 +627,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEAFNOSUPPORT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEAFNOSUPPORT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -638,7 +638,7 @@ The specified address family is not supported.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -649,7 +649,7 @@ The <i>lpProtocolInfo</i> parameter is not in a valid part of the process addres
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -660,7 +660,7 @@ A blocking Windows Sockets 1.1 call is in progress, or the service provider is s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -672,7 +672,7 @@ This value is true for any of the following conditions.
 <ul>
 <li>The parameter <i>g</i> specified is not valid.</li>
 <li>The 
-<a href="https://msdn.microsoft.com/758c5553-056f-4ea5-a851-30ef641ffb14">WSAPROTOCOL_INFO</a> structure that <i>lpProtocolInfo</i> points to is incomplete, the contents are invalid or the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure that <i>lpProtocolInfo</i> points to is incomplete, the contents are invalid or the 
 <b>WSAPROTOCOL_INFO</b> structure has already been used in an earlier duplicate socket operation.</li>
 <li>The values specified for members of the socket triple &lt;<i>af</i>, <i>type</i>, and <i>protocol</i>&gt; are individually supported, but the given combination is not.</li>
 </ul>
@@ -681,7 +681,7 @@ This value is true for any of the following conditions.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVALIDPROVIDER</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVALIDPROVIDER</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -692,19 +692,19 @@ The service provider returned a version other than 2.2.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVALIDPROCTABLE</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVALIDPROCTABLE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 The service provider returned an invalid or incomplete procedure table to the 
-<a href="https://msdn.microsoft.com/9ebfe81c-bed6-4bde-b1dd-5eaefbaac9cf">WSPStartup</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wspstartup">WSPStartup</a>.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEMFILE</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEMFILE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -715,7 +715,7 @@ No more socket descriptors are available.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -726,7 +726,7 @@ No buffer space is available. The socket cannot be created.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEPROTONOSUPPORT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEPROTONOSUPPORT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -737,7 +737,7 @@ The specified protocol is not supported.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEPROTOTYPE</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEPROTOTYPE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -748,7 +748,7 @@ The specified protocol is the wrong type for this socket.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEPROVIDERFAILEDINIT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEPROVIDERFAILEDINIT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -759,7 +759,7 @@ The service provider failed to initialize. This error is returned if a layered s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAESOCKTNOSUPPORT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAESOCKTNOSUPPORT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -778,17 +778,17 @@ The specified socket type is not supported in this address family.
 
 
 The 
-<b>WSASocket</b> function causes a socket descriptor and any related resources to be allocated and associated with a transport-service provider. Most sockets should be created with the <b>WSA_FLAG_OVERLAPPED</b> attribute set in the <i>dwFlags</i> parameter. A socket created with this attribute supports the use of overlapped I/O operations which provide higher performance. By default, a socket created with the <b>WSASocket</b> function will not have this overlapped attribute set. In contrast, the <a href="https://msdn.microsoft.com/6bf6e6c4-6268-479c-86a6-52e90cf317db">socket</a> function creates a socket that supports overlapped I/O operations as the default behavior.
+<b>WSASocket</b> function causes a socket descriptor and any related resources to be allocated and associated with a transport-service provider. Most sockets should be created with the <b>WSA_FLAG_OVERLAPPED</b> attribute set in the <i>dwFlags</i> parameter. A socket created with this attribute supports the use of overlapped I/O operations which provide higher performance. By default, a socket created with the <b>WSASocket</b> function will not have this overlapped attribute set. In contrast, the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> function creates a socket that supports overlapped I/O operations as the default behavior.
 
 If the <i>lpProtocolInfo</i> parameter is <b>NULL</b>, Winsock will utilize the first available transport-service provider that supports the requested combination of address family, socket type and protocol specified in the <i>af</i>, <i>type</i>, and <i>protocol</i> parameters.
 
 If the <i>lpProtocolInfo</i> parameter is not <b>NULL</b>, the socket will be bound to the provider associated with the indicated 
-<a href="https://msdn.microsoft.com/758c5553-056f-4ea5-a851-30ef641ffb14">WSAPROTOCOL_INFO</a> structure. In this instance, the application can supply the manifest constant <b>FROM_PROTOCOL_INFO</b> as the value for any of <i>af</i>, <i>type</i>, or <i>protocol</i> parameters. This indicates that the corresponding values from the indicated 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure. In this instance, the application can supply the manifest constant <b>FROM_PROTOCOL_INFO</b> as the value for any of <i>af</i>, <i>type</i>, or <i>protocol</i> parameters. This indicates that the corresponding values from the indicated 
 <b>WSAPROTOCOL_INFO</b> structure (<b>iAddressFamily</b>, <b>iSocketType</b>, <b>iProtocol</b>) are to be assumed. In any case, the values specified for <i>af</i>, <i>type</i>, and <i>protocol</i> are passed unmodified to the transport-service provider.
 
 When selecting a protocol and its supporting service provider based on <i>af</i>, <i>type</i>, and <i>protocol</i>, this procedure will only choose a base protocol or a protocol chain, not a protocol layer by itself. Unchained protocol layers are not considered to have partial matches on <i>type</i> or <i>af</i>, either. That is, they do not lead to an error code of 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEAFNOSUPPORT</a> or 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEPROTONOSUPPORT</a>, if no suitable protocol is found.
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEAFNOSUPPORT</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEPROTONOSUPPORT</a>, if no suitable protocol is found.
 
 <div class="alert"><b>Note</b>  The manifest constant <b>AF_UNSPEC</b> continues to be defined in the header file but its use is strongly discouraged, as this can cause ambiguity in interpreting the value of the <i>protocol</i> parameter.</div>
 <div> </div>
@@ -797,18 +797,18 @@ Applications are encouraged to use <b>AF_INET6</b> for the <i>af</i> parameter a
 If a socket is created using the <b>WSASocket</b> function, then the <i>dwFlags</i> parameter must have the <b>WSA_FLAG_OVERLAPPED</b> attribute set for the <b>SO_RCVTIMEO</b> or <b>SO_SNDTIMEO</b> socket options to function properly. Otherwise the timeout never takes effect on the socket.
 
 Connection-oriented sockets such as <b>SOCK_STREAM</b> provide full-duplex connections, and must be in a connected state before any data can be sent or received on them. A connection to  a specified socket is established with a 
-<a href="https://msdn.microsoft.com/13468139-dc03-45bd-850c-7ac2dbcb6e60">connect</a> or <a href="https://msdn.microsoft.com/3b32cc6e-3df7-4104-a0d4-317fd445c7b2">WSAConnect</a> function call. Once connected, data can be transferred using 
-<a href="https://msdn.microsoft.com/902bb9cf-d847-43fc-8282-394d619b8f1b">send</a>/<a href="https://msdn.microsoft.com/764339e6-a1ac-455d-8ebd-ad0fa50dc3b0">WSASend</a> and 
-<a href="https://msdn.microsoft.com/8c247cd3-479f-45d0-a038-a24e80cc7c73">recv</a>/<a href="https://msdn.microsoft.com/bfe66e11-e9a7-4321-ad55-3141113e9a03">WSARecv</a> calls. When a session has been completed, the <a href="https://msdn.microsoft.com/2f357aa8-389b-4c92-8a9f-289e048cc41c">closesocket</a> function should be called to release the resources associated with the socket. For connection-oriented sockets, the <a href="https://msdn.microsoft.com/6998f0c6-adc9-481f-b9fb-75f9c9f5caaf">shutdown</a> function should be called to stop data transfer on the socket before calling the <b>closesocket</b> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect">connect</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaconnect">WSAConnect</a> function call. Once connected, data can be transferred using 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-send">send</a>/<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasend">WSASend</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recv">recv</a>/<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsarecv">WSARecv</a> calls. When a session has been completed, the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-closesocket">closesocket</a> function should be called to release the resources associated with the socket. For connection-oriented sockets, the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-shutdown">shutdown</a> function should be called to stop data transfer on the socket before calling the <b>closesocket</b> function.
 
 The communications protocols used to implement a reliable, connection-oriented socket ensure that data is not lost or duplicated. If data for which the peer protocol has buffer space cannot be successfully transmitted within a reasonable length of time, the connection is considered broken and subsequent calls will fail with the error code set to 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAETIMEDOUT</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAETIMEDOUT</a>.
 
 Connectionless, message-oriented sockets allow sending and receiving of datagrams to and from arbitrary peers using 
-<a href="https://msdn.microsoft.com/a1c89c6b-d11d-4d3e-a664-af2beed0cd09">sendto</a>/<a href="https://msdn.microsoft.com/e3a11522-871c-4d6b-a2e6-ca91ffc2b698">WSASendTo</a> and 
-<a href="https://msdn.microsoft.com/3e4282e0-3ed0-43e7-9b27-72ec36b9cfa1">recvfrom</a>/<a href="https://msdn.microsoft.com/8617dbb8-0e4e-4cd3-9597-5d20de6778f6">WSARecvFrom</a>. If such a socket is connected to a specific peer, datagrams can be sent to that peer using 
-<a href="https://msdn.microsoft.com/902bb9cf-d847-43fc-8282-394d619b8f1b">send</a>/<a href="https://msdn.microsoft.com/764339e6-a1ac-455d-8ebd-ad0fa50dc3b0">WSASend</a> and can be received from (only) this peer using 
-<a href="https://msdn.microsoft.com/8c247cd3-479f-45d0-a038-a24e80cc7c73">recv</a>/<a href="https://msdn.microsoft.com/bfe66e11-e9a7-4321-ad55-3141113e9a03">WSARecv</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-sendto">sendto</a>/<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasendto">WSASendTo</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recvfrom">recvfrom</a>/<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsarecvfrom">WSARecvFrom</a>. If such a socket is connected to a specific peer, datagrams can be sent to that peer using 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-send">send</a>/<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasend">WSASend</a> and can be received from (only) this peer using 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recv">recv</a>/<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsarecv">WSARecv</a>.
 
 Support for sockets with type <b>SOCK_RAW</b> is not required, but service providers are encouraged to support raw sockets whenever possible.
 
@@ -816,15 +816,15 @@ The <b>WSASocket</b> function can be used to create a socket to be used by a ser
 
 
 <ul>
-<li>Call the <a href="https://msdn.microsoft.com/8e3f70cd-814e-4aab-8f48-0ca482beef2e">AdjustTokenPrivileges</a> function to enable the <b>SE_SECURITY_NAME</b> privilege in the access token for the process. This privilege is required to set the  <b>ACCESS_SYSTEM_SECURITY</b> access rights on the security descriptor for an object. </li>
-<li>Call the <b>WSASocket</b> function to create a socket with <i>dwFlag</i> with the <b>WSA_FLAG_ACCESS_SYSTEM_SECURITY</b> option set. The <b>WSASocket</b> function will fail if the <a href="https://msdn.microsoft.com/8e3f70cd-814e-4aab-8f48-0ca482beef2e">AdjustTokenPrivileges</a> function is not called first to enable the <b>SE_SECURITY_NAME</b> privilege needed for this operation.</li>
-<li>Call the <a href="https://msdn.microsoft.com/f1781ba9-81eb-46f9-b530-c390b67d65de">SetSecurityInfo</a> function to set a security descriptor with a System Access Control List (SACL) on the socket. The socket handle returned by the <b>WSASocket</b> function is passed in the <i>handle</i> parameter. If the function succeeds, this will set the the  <b>ACCESS_SYSTEM_SECURITY</b> access right on the security descriptor for the socket.</li>
-<li>Call the <a href="https://msdn.microsoft.com/3a651daa-7404-4ef7-8cff-0d3dff41a8e8">bind</a>function to bind the socket to a specific port. If the <b>bind</b>function succeeds, then an audit entry is generated if another socket tries to bind to the same port. </li>
-<li>Call the <a href="https://msdn.microsoft.com/8e3f70cd-814e-4aab-8f48-0ca482beef2e">AdjustTokenPrivileges</a> function to remove the <b>SE_SECURITY_NAME</b> privilege in the access token for the process, since this is no longer needed. </li>
+<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges">AdjustTokenPrivileges</a> function to enable the <b>SE_SECURITY_NAME</b> privilege in the access token for the process. This privilege is required to set the  <b>ACCESS_SYSTEM_SECURITY</b> access rights on the security descriptor for an object. </li>
+<li>Call the <b>WSASocket</b> function to create a socket with <i>dwFlag</i> with the <b>WSA_FLAG_ACCESS_SYSTEM_SECURITY</b> option set. The <b>WSASocket</b> function will fail if the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges">AdjustTokenPrivileges</a> function is not called first to enable the <b>SE_SECURITY_NAME</b> privilege needed for this operation.</li>
+<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setsecurityinfo">SetSecurityInfo</a> function to set a security descriptor with a System Access Control List (SACL) on the socket. The socket handle returned by the <b>WSASocket</b> function is passed in the <i>handle</i> parameter. If the function succeeds, this will set the the  <b>ACCESS_SYSTEM_SECURITY</b> access right on the security descriptor for the socket.</li>
+<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind">bind</a>function to bind the socket to a specific port. If the <b>bind</b>function succeeds, then an audit entry is generated if another socket tries to bind to the same port. </li>
+<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges">AdjustTokenPrivileges</a> function to remove the <b>SE_SECURITY_NAME</b> privilege in the access token for the process, since this is no longer needed. </li>
 </ul>
 
 
-For more information on <b>ACCESS_SYSTEM_SECURITY</b>, see <a href="https://msdn.microsoft.com/88198243-dae5-49ac-9d54-bfae7a3a0b1a">SACL Access Right</a> and <a href="https://msdn.microsoft.com/411001b1-94cd-465f-8558-c8aa119e4303">Audit Generation</a> in the Authorization documentation.
+For more information on <b>ACCESS_SYSTEM_SECURITY</b>, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/sacl-access-right">SACL Access Right</a> and <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/audit-generation">Audit Generation</a> in the Authorization documentation.
 
 
 <h3><a id="Socket_Groups"></a><a id="socket_groups"></a><a id="SOCKET_GROUPS"></a>Socket Groups</h3>
@@ -832,12 +832,12 @@ WinSock 2 introduced the notion of a socket group as a means for an application,
 
 Applications that need to exchange multimedia streams over the network are an example where being able to establish a specific relationship among a set of sockets could be beneficial.  It is up to the transport on how to treat socket groups. 
 
-The <b>WSASocket</b> and <a href="https://msdn.microsoft.com/f385f63f-49b2-4eb7-8717-ad4cca1a2252">WSAAccept</a> functions can be used to explicitly create and join a socket group when creating a new socket.  The socket group ID for a socket can be retrieved by using the <a href="https://msdn.microsoft.com/25bc511d-7a9f-41c1-8983-1af1e3f8bf2d">getsockopt</a> function with <i>level</i> parameter set to <a href="https://msdn.microsoft.com/0cd0056e-0c33-4f6e-9f70-5417f8f8da4b">SOL_SOCKET</a> and the <i>optname</i> parameter set to <b>SO_GROUP_ID</b>.  A socket group
+The <b>WSASocket</b> and <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaaccept">WSAAccept</a> functions can be used to explicitly create and join a socket group when creating a new socket.  The socket group ID for a socket can be retrieved by using the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a> function with <i>level</i> parameter set to <a href="https://docs.microsoft.com/windows/desktop/WinSock/sol-socket-socket-options">SOL_SOCKET</a> and the <i>optname</i> parameter set to <b>SO_GROUP_ID</b>.  A socket group
     and its associated socket group ID remain valid until the last socket belonging to this
     socket group is closed. Socket group IDs are unique across all processes
     for a given service provider. A socket group of zero indicates that the socket is not member of a socket group.
 
-The relative group priority of  a socket group can be accessed by using the <a href="https://msdn.microsoft.com/25bc511d-7a9f-41c1-8983-1af1e3f8bf2d">getsockopt</a> function with the <i>level</i> parameter set to <a href="https://msdn.microsoft.com/0cd0056e-0c33-4f6e-9f70-5417f8f8da4b">SOL_SOCKET</a> and the <i>optname</i> parameter set to <b>SO_GROUP_PRIORITY</b>. The relative group priority of  a socket group can be set by using <a href="https://msdn.microsoft.com/3a6960c9-0c04-4403-aee1-ce250459dc30">setsockopt</a> with the <i>level</i> parameter set to SOL_SOCKET and the <i>optname</i> parameter set to <b>SO_GROUP_PRIORITY</b>. 
+The relative group priority of  a socket group can be accessed by using the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a> function with the <i>level</i> parameter set to <a href="https://docs.microsoft.com/windows/desktop/WinSock/sol-socket-socket-options">SOL_SOCKET</a> and the <i>optname</i> parameter set to <b>SO_GROUP_PRIORITY</b>. The relative group priority of  a socket group can be set by using <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a> with the <i>level</i> parameter set to SOL_SOCKET and the <i>optname</i> parameter set to <b>SO_GROUP_PRIORITY</b>. 
 
 The Winsock provider included with Windows allows the creation of socket groups and it enforces the SG_CONSTRAINED_GROUP. All sockets in a constrained socket group must be created with the same value for the <i>type</i> and <i>protocol</i> parameters. A constrained socket group may consist only of connection-oriented sockets, and requires that connections on all grouped sockets be to the same address on the same host.  This is the only restriction applied to a socket group by the Winsock provider included with Windows. The socket group priority is not currently used by the Winsock provider or the TCP/IP stack included with Windows. 
 
@@ -1033,79 +1033,79 @@ int __cdecl wmain(int argc, wchar_t **argv)
 
 
 
-<a href="https://msdn.microsoft.com/758c5553-056f-4ea5-a851-30ef641ffb14">WSAPROTOCOL_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/edafb5f9-09fe-4f8e-9651-4002b6f622f4">Winsock Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/baae2bf9-f505-4365-b60e-e3247a0218c8">Winsock Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/72246263-4806-4ab2-9b26-89a1782a954b">accept</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-accept">accept</a>
 
 
 
-<a href="https://msdn.microsoft.com/3a651daa-7404-4ef7-8cff-0d3dff41a8e8">bind</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind">bind</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f357aa8-389b-4c92-8a9f-289e048cc41c">closesocket</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-closesocket">closesocket</a>
 
 
 
-<a href="https://msdn.microsoft.com/13468139-dc03-45bd-850c-7ac2dbcb6e60">connect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect">connect</a>
 
 
 
-<a href="https://msdn.microsoft.com/be20a731-cdfc-48ae-90b2-43f2cf9ecf6d">getsockname</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockname">getsockname</a>
 
 
 
-<a href="https://msdn.microsoft.com/25bc511d-7a9f-41c1-8983-1af1e3f8bf2d">getsockopt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a>
 
 
 
-<a href="https://msdn.microsoft.com/048fcb8d-acd3-4917-a997-dd133db399f8">ioctlsocket</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-ioctlsocket">ioctlsocket</a>
 
 
 
-<a href="https://msdn.microsoft.com/1233feeb-a8c1-49ac-ab34-82af224ecf00">listen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-listen">listen</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c247cd3-479f-45d0-a038-a24e80cc7c73">recv</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recv">recv</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e4282e0-3ed0-43e7-9b27-72ec36b9cfa1">recvfrom</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recvfrom">recvfrom</a>
 
 
 
-<a href="https://msdn.microsoft.com/f9f1092d-7e15-41cd-a42f-abe8a4f33e15">select</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-select">select</a>
 
 
 
-<a href="https://msdn.microsoft.com/902bb9cf-d847-43fc-8282-394d619b8f1b">send</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-send">send</a>
 
 
 
-<a href="https://msdn.microsoft.com/a1c89c6b-d11d-4d3e-a664-af2beed0cd09">sendto</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-sendto">sendto</a>
 
 
 
-<a href="https://msdn.microsoft.com/3a6960c9-0c04-4403-aee1-ce250459dc30">setsockopt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a>
 
 
 
-<a href="https://msdn.microsoft.com/6998f0c6-adc9-481f-b9fb-75f9c9f5caaf">shutdown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-shutdown">shutdown</a>
 
 
 
-<a href="https://msdn.microsoft.com/6bf6e6c4-6268-479c-86a6-52e90cf317db">socket</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
  
 
  

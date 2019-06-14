@@ -59,16 +59,16 @@ Retrieves the text host's color for a specified display element.
 
 ### -param nIndex [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
-The display element whose color is to be retrieved. For a list of possible values for this parameter, see the <a href="https://msdn.microsoft.com/165c1781-161e-4ab2-98c9-eec4e9098d09">GetSysColor</a> function. 
+The display element whose color is to be retrieved. For a list of possible values for this parameter, see the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a> function. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 The  value that identifies the red, green, and blue (RGB) color value of the specified element.
 
@@ -80,7 +80,7 @@ The  value that identifies the red, green, and blue (RGB) color value of the spe
 
 
 Note that the color returned may be 
-				<i>different</i> than the color that would be returned from a call to <a href="https://msdn.microsoft.com/165c1781-161e-4ab2-98c9-eec4e9098d09">GetSysColor</a>. This is the case if the host overrides the default system behavior.
+				<i>different</i> than the color that would be returned from a call to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a>. This is the case if the host overrides the default system behavior.
 
 <div class="alert"><b>Note</b>  Hosts should be careful about overriding normal system behavior because it can result in inconsistent UI (particularly with respect to Accessibility options).</div>
 <div> </div>
@@ -92,11 +92,11 @@ Note that the color returned may be
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls Overview</a>
  
 
  

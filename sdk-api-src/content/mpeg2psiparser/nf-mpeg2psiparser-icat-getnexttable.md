@@ -137,7 +137,7 @@ This method applies only to current tables. Otherwise, the method returns E_ACCE
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693491(v=VS.85).aspx">ICAT Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-icat">ICAT Interface</a>
  
 
  

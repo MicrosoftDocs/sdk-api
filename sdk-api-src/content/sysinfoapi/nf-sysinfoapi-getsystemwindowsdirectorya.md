@@ -62,7 +62,7 @@ ms.custom: 19H1
 Retrieves the path of the shared Windows directory on a multi-user system.
 
 This function is provided primarily for compatibility. Applications should store code in the Program Files folder and persistent data in the Application Data folder in the user's profile. For more information, see 
-<a href="https://msdn.microsoft.com/a240abc0-e0a6-4f95-8e74-7dc410970212">ShGetFolderPath</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha">ShGetFolderPath</a>.
 
 
 ## -parameters
@@ -89,7 +89,7 @@ If the function succeeds, the return value is the length of the string copied to
 If the length is greater than the size of the buffer, the return value is the size of the buffer required to hold the path.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -102,7 +102,7 @@ On a system that is running Terminal Services, each user has a unique Windows di
 
 With Terminal Services, the 
 <b>GetSystemWindowsDirectory</b> function retrieves the path of the system Windows directory, while the 
-<a href="https://msdn.microsoft.com/8c9b55e1-121a-4405-9f83-043752dd48ed">GetWindowsDirectory</a> function retrieves the path of a Windows directory that is private for each user. On a single-user system, 
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya">GetWindowsDirectory</a> function retrieves the path of a Windows directory that is private for each user. On a single-user system, 
 <b>GetSystemWindowsDirectory</b> is the same as 
 <b>GetWindowsDirectory</b>.
 
@@ -114,15 +114,15 @@ With Terminal Services, the
 
 
 
-<a href="https://msdn.microsoft.com/8c9b55e1-121a-4405-9f83-043752dd48ed">GetWindowsDirectory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya">GetWindowsDirectory</a>
 
 
 
-<a href="https://msdn.microsoft.com/6fcac066-1ab0-443a-9994-b68ead3bbc20">SHGetFolderLocation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderlocation">SHGetFolderLocation</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa7deebf-7dce-4147-8a15-1d7411aea0fa">System
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System
 		  Information Functions</a>
  
 

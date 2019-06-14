@@ -97,7 +97,7 @@ By default, the view should return S_FALSE so that Windows Explorer can either d
 
 
 
-<a href="https://msdn.microsoft.com/91438583-e4f1-456f-a130-2a45846fd725">IShellView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>
  
 
  

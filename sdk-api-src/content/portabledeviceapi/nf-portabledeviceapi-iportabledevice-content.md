@@ -61,7 +61,7 @@ The <b>Content</b> method retrieves an interface that you can use to access obje
 
 ### -param ppContent [out]
 
-Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd388529(v=VS.85).aspx">IPortableDeviceContent</a> interface that is used to access the content on a device. The caller must release this interface when it is done with it.
+Address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent">IPortableDeviceContent</a> interface that is used to access the content on a device. The caller must release this interface when it is done with it.
           
 
 
@@ -110,39 +110,39 @@ The <i>ppContent</i> argument was a NULL pointer.
 
 
 
-<a href="https://msdn.microsoft.com/81476f50-5ea0-4e02-9e38-2b1dfcc32c4f">Adding a Resource to an Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/adding-a-resource-to-an-object">Adding a Resource to an Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/86782a09-4fca-4ae0-beaf-296069e061dc">Enumerating Content</a>
+<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/enumerating-content">Enumerating Content</a>
 
 
 
-<a href="https://msdn.microsoft.com/98c48e56-56b8-4800-b52b-ac08f2abf27e">IPortableDevice Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevice">IPortableDevice Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/5072d308-d376-4141-96df-dbef23fb9f9b">Moving Content on the Device</a>
+<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/moving-content-on-the-device">Moving Content on the Device</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d0c6b3d-23bc-4628-a684-14bb9e18967f">Retrieving Properties for Multiple Objects</a>
+<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/retrieving-properties-for-multiple-objects">Retrieving Properties for Multiple Objects</a>
 
 
 
-<a href="https://msdn.microsoft.com/146f8943-d4e1-4b87-a812-e534082a4f14">Retrieving an Object Identifier from a Persistent Unique Identifier</a>
+<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/retrieving-an-object-identifier-from-a-persistent-unique-identifier">Retrieving an Object Identifier from a Persistent Unique Identifier</a>
 
 
 
-<a href="https://msdn.microsoft.com/2332e3cc-087c-49cf-bde9-7f86f65158e7">Retrieving the Rendering Capabilities Supported by a Device</a>
+<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/retrieving-the-rendering-capabilities-supported-by-a-device">Retrieving the Rendering Capabilities Supported by a Device</a>
 
 
 
-<a href="https://msdn.microsoft.com/0686ba54-4782-42a4-8fdb-2325fc8d8bc2">Setting Properties for Multiple Objects</a>
+<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/setting-properties-for-multiple-objects">Setting Properties for Multiple Objects</a>
 
 
 
-<a href="https://msdn.microsoft.com/1c003534-96b4-419b-94d1-73b5ffa2eba1">Setting Properties for a Single Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/setting-properties-for-a-single-object">Setting Properties for a Single Object</a>
  
 
  

@@ -64,7 +64,7 @@ Specifies the number of option elements in <b>Options</b>.
 
 ### -field Options
 
-Pointer to a list of <a href="https://msdn.microsoft.com/1be34eb4-a226-4f07-b763-173a4f8a0671">DHCP_OPTION</a> structures containing DHCP server options and the associated data.
+Pointer to a list of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_option">DHCP_OPTION</a> structures containing DHCP server options and the associated data.
 
 
 ### -field Options.size_is
@@ -84,11 +84,11 @@ Pointer to a list of <a href="https://msdn.microsoft.com/1be34eb4-a226-4f07-b763
 
 
 
-<a href="https://msdn.microsoft.com/1be34eb4-a226-4f07-b763-173a4f8a0671">DHCP_OPTION</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_option">DHCP_OPTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/91d4d678-f0c5-4081-9302-0d08c8994692">DHCP_OPTION_SCOPE_INFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_option_scope_info">DHCP_OPTION_SCOPE_INFO</a>
  
 
  

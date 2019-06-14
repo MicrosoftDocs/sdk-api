@@ -92,7 +92,7 @@ The signature algorithm for the token binding. The following values are possible
 
 
 
-<a href="https://msdn.microsoft.com/6C34E174-CCC4-451D-82C3-C410C8C92C8C">TOKENBINDING_RESULT_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tokenbinding/ns-tokenbinding-tokenbinding_result_data">TOKENBINDING_RESULT_DATA</a>
  
 
  

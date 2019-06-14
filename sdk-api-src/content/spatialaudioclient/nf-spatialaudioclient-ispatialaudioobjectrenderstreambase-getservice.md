@@ -70,7 +70,7 @@ IID_IAudioStreamVolume
 
 ### -param service [out]
 
-Pointer to a pointer variable into which the method writes the address of an instance of the requested interface. Through this method, the caller obtains a counted reference to the interface. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a> method. If the <b>GetService</b> call fails, <i>*ppv </i>is NULL.
+Pointer to a pointer variable into which the method writes the address of an instance of the requested interface. Through this method, the caller obtains a counted reference to the interface. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> method. If the <b>GetService</b> call fails, <i>*ppv </i>is NULL.
 
 
 ## -returns
@@ -120,13 +120,13 @@ The <b>GetService</b> method supports the following service interfaces:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/dbec9468-b555-42a0-a988-dec3a66c9f96">IAudioClock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclock">IAudioClock</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/4820c93a-a5d8-4ab9-aefc-9377fc76e745">IAudioClock2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclock2">IAudioClock2</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/92cc127b-77ac-4fc7-ac3c-319e5d6368d3">IAudioStreamVolume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudiostreamvolume">IAudioStreamVolume</a>
 </li>
 </ul>
 
@@ -137,7 +137,7 @@ The <b>GetService</b> method supports the following service interfaces:
 
 
 
-<a href="https://msdn.microsoft.com/B4D10CC6-62BF-4D20-910F-E39DF812010D">ISpatialAudioObjectRenderStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstream">ISpatialAudioObjectRenderStream</a>
 
 
 

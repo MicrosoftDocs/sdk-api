@@ -63,7 +63,7 @@ The <code>SetSyncSourceEx</code> method establishes two reference clocks for the
 
 ### -param pClockForMostOfFilterGraph [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/9818c67d-dfbe-4498-a744-d2efaa4bfb58">IReferenceClock</a> interface of the main reference clock. Every filter in the graph uses this clock, except for the filter specified by the <i>pFilter</i> parameter.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ireferenceclock">IReferenceClock</a> interface of the main reference clock. Every filter in the graph uses this clock, except for the filter specified by the <i>pFilter</i> parameter.
 
 
 ### -param pClockForFilter [in]
@@ -73,7 +73,7 @@ Pointer to the <b>IReferenceClock</b> interface of the secondary clock. The filt
 
 ### -param pFilter [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/d8c09dc7-dae8-4b51-8da8-69e64928a091">IBaseFilter</a> interface of a filter in the graph. This filter uses the secondary reference clock.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a> interface of a filter in the graph. This filter uses the secondary reference clock.
 
 
 ## -returns
@@ -121,7 +121,7 @@ The filter graph is not stopped.
 
 If the filter graph is running or paused, this method return VFW_E_NOT_STOPPED.
 
-To clear both reference clocks, set all three parameters to <b>NULL</b>. To set a single clock for the entire graph, with no secondary clock, call the <a href="https://msdn.microsoft.com/a374c963-cc28-41f6-814d-7ffc6efc67a6">IMediaFilter::SetSyncSource</a> method on the Filter Graph Manager.
+To clear both reference clocks, set all three parameters to <b>NULL</b>. To set a single clock for the entire graph, with no secondary clock, call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediafilter-setsyncsource">IMediaFilter::SetSyncSource</a> method on the Filter Graph Manager.
 
 
 
@@ -131,11 +131,11 @@ To clear both reference clocks, set all three parameters to <b>NULL</b>. To set 
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d5f8eda-2b09-4627-8ae9-f43f38c3c26a">IFilterGraph3 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltergraph3">IFilterGraph3 Interface</a>
  
 
  

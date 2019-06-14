@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a new <a href="https://msdn.microsoft.com/en-us/library/ms534428(v=VS.85).aspx">ColorBalance</a> object. 
+Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorbalance">ColorBalance</a> object. 
 
 
 ## -parameters
@@ -65,15 +65,15 @@ Creates a new <a href="https://msdn.microsoft.com/en-us/library/ms534428(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534428(v=VS.85).aspx">ColorBalance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorbalance">ColorBalance</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536264(v=VS.85).aspx">ColorBalance::SetParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gdipluseffects-colorbalance-setparameters">ColorBalance::SetParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534059(v=VS.85).aspx">ColorBalanceParams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ns-gdipluseffects-colorbalanceparams">ColorBalanceParams</a>
  
 
  

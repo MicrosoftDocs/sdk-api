@@ -62,17 +62,17 @@ Gets the stream attribute store with the specified index.
 
 ### -param eType [in]
 
-A member of the <a href="https://msdn.microsoft.com/598AE9EC-3B8D-419A-A6A9-02DCDD459162">MFSensorStreamType</a> enumeration specifying whether the attribute store is being requested for an input or output stream.  
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-__midl___midl_itf_mfidl_0000_0109_0002">MFSensorStreamType</a> enumeration specifying whether the attribute store is being requested for an input or output stream.  
 
 
 ### -param dwIndex [in]
 
-The 0-based index of the stream to be retrieved.  The index must be between 0 and the value returned by <a href="https://msdn.microsoft.com/C6A0C4E6-7939-42C1-A499-7C92D83CB418">GetStreamAttributesCount</a> - 1.
+The 0-based index of the stream to be retrieved.  The index must be between 0 and the value returned by <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensordevice-getstreamattributescount">GetStreamAttributesCount</a> - 1.
 
 
 ### -param ppAttributes [out]
 
-The <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> interface representing a copy internal attribute store of the stream.
+The <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface representing a copy internal attribute store of the stream.
 
 
 ## -returns
@@ -131,7 +131,7 @@ The sensor group has not been initialized.
 
 
 
-The object returned is a copy of the internal attribute store and so changes made to the returned attributes have no effect on the <a href="https://msdn.microsoft.com/061EF002-178E-42CA-9D32-7E1282297BA4">IMFSensorDevice</a>.
+The object returned is a copy of the internal attribute store and so changes made to the returned attributes have no effect on the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensordevice">IMFSensorDevice</a>.
 
 
 
@@ -141,7 +141,7 @@ The object returned is a copy of the internal attribute store and so changes mad
 
 
 
-<a href="https://msdn.microsoft.com/061EF002-178E-42CA-9D32-7E1282297BA4">IMFSensorDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensordevice">IMFSensorDevice</a>
  
 
  

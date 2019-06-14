@@ -52,12 +52,12 @@ req.redist:
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
     available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
     information, and alternatives to TxF, please see 
-    <a href="https://msdn.microsoft.com/9ee26e7e-990e-4cd3-8180-f0fcaac2b752">Alternatives to using Transactional NTFS</a>.]
+    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
 Retrieves Transacted NTFS (TxF) metadata for a file and the <b>GUID</b> of the transaction that has locked the specified file (if the file is locked). 
 
 To perform this operation, call the 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -164,11 +164,11 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/138fbd75-9d2e-4969-84a7-3cebde683d93">TXFS_GET_METADATA_INFO_OUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_get_metadata_info_out">TXFS_GET_METADATA_INFO_OUT</a>
  
 
  

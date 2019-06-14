@@ -82,13 +82,13 @@ Increase memory usage in an attempt to increase performance.
 
 
 
-When a thread is initialized through a call to <a href="https://msdn.microsoft.com/ffb79c0f-aeda-4ea1-aea8-afb79109837f">CoInitializeEx</a>, you choose whether to initialize it as apartment-threaded or multithreaded by designating one of the members of <b>COINIT</b> as its second parameter. This designates how incoming calls to any object created by that thread are handled, that is, the object's concurrency.
+When a thread is initialized through a call to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a>, you choose whether to initialize it as apartment-threaded or multithreaded by designating one of the members of <b>COINIT</b> as its second parameter. This designates how incoming calls to any object created by that thread are handled, that is, the object's concurrency.
 
-Apartment-threading, while allowing for multiple threads of execution, serializes all incoming calls by requiring that calls to methods of objects created by this thread always run on the same thread â€“ the apartment/thread that created them. In addition, calls can arrive only at message-queue boundaries. Because of this serialization, it is not typically necessary to write concurrency control into the code for the object, other than to avoid calls to <a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a> and <a href="https://msdn.microsoft.com/en-us/library/ms714170(v=VS.85).aspx">SendMessage</a> during processing that must not be interrupted by other method invocations or calls to other objects in the same apartment/thread.
+Apartment-threading, while allowing for multiple threads of execution, serializes all incoming calls by requiring that calls to methods of objects created by this thread always run on the same thread â€“ the apartment/thread that created them. In addition, calls can arrive only at message-queue boundaries. Because of this serialization, it is not typically necessary to write concurrency control into the code for the object, other than to avoid calls to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/oe/oe-ihttpmailtransport-sendmessage">SendMessage</a> during processing that must not be interrupted by other method invocations or calls to other objects in the same apartment/thread.
 
 
 
-Multi-threading (also called free-threading) allows calls to methods of objects created by this thread to be run on any thread. There is no serialization of calls â€“ many calls may occur to the same method or to the same object or simultaneously. Multi-threaded object concurrency offers the highest performance and takes the best advantage of multiprocessor hardware for cross-thread, cross-process, and cross-machine calling, since calls to objects are not serialized in any way. This means, however, that the code for objects must enforce its own concurrency model, typically through the use of synchronization primitives, such as critical sections, semaphores, or mutexes. In addition, because the object doesn't control the lifetime of the threads that are accessing it, no thread-specific state may be stored in the object (in <a href="https://msdn.microsoft.com/40df7410-64d6-4edd-8009-d9c3d2aca920">Thread Local Storage</a>).
+Multi-threading (also called free-threading) allows calls to methods of objects created by this thread to be run on any thread. There is no serialization of calls â€“ many calls may occur to the same method or to the same object or simultaneously. Multi-threaded object concurrency offers the highest performance and takes the best advantage of multiprocessor hardware for cross-thread, cross-process, and cross-machine calling, since calls to objects are not serialized in any way. This means, however, that the code for objects must enforce its own concurrency model, typically through the use of synchronization primitives, such as critical sections, semaphores, or mutexes. In addition, because the object doesn't control the lifetime of the threads that are accessing it, no thread-specific state may be stored in the object (in <a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-local-storage">Thread Local Storage</a>).
 
 
 <div class="alert"><b>Note</b>  The multi-threaded apartment is intended for use by non-GUI threads. Threads in multi-threaded apartments should not perform UI actions. This is because UI threads require a message pump, and COM does not pump messages for threads in a multi-threaded apartment.</div>
@@ -103,19 +103,19 @@ Multi-threading (also called free-threading) allows calls to methods of objects 
 
 
 
-<a href="https://msdn.microsoft.com/ffb79c0f-aeda-4ea1-aea8-afb79109837f">CoInitializeEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/bdef4089-93e6-4845-8dcc-1150d7a0d033">IInitializeSpy::PostInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iinitializespy-postinitialize">IInitializeSpy::PostInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/f5b345d1-ab37-401a-9cb4-b01ef7254fc8">IInitializeSpy::PreInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iinitializespy-preinitialize">IInitializeSpy::PreInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb62412a-d079-40f9-89dc-cce0bf3889af">Processes, Threads, and Apartments</a>
+<a href="https://docs.microsoft.com/windows/desktop/com/processes--threads--and-apartments">Processes, Threads, and Apartments</a>
  
 
  

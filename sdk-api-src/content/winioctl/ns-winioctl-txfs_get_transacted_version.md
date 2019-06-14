@@ -52,7 +52,7 @@ req.redist:
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
     available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
     information, and alternatives to TxF, please see 
-    <a href="https://msdn.microsoft.com/9ee26e7e-990e-4cd3-8180-f0fcaac2b752">Alternatives to using Transactional NTFS</a>.]
+    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
 Contains the information about the base and latest versions of the specified file.
 
@@ -140,7 +140,7 @@ The base version number remains the same for the lifetime of a handle. The lates
 
 
 
-<a href="https://msdn.microsoft.com/71864348-1266-4ac5-a4b5-b9aaff52b0c5">FSCTL_TXFS_GET_TRANSACTED_VERSION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_get_transacted_version">FSCTL_TXFS_GET_TRANSACTED_VERSION</a>
  
 
  

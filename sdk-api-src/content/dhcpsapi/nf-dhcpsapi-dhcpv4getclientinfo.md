@@ -64,12 +64,12 @@ Pointer to a null-terminated Unicode string that represents the IP address or ho
 
 ### -param SearchInfo [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/3c6f85d7-c156-4379-bad9-0705698f12e5">DHCP_SEARCH_INFO</a> structure that defines the key used to search for the client lease record on the DHCP server.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_search_info">DHCP_SEARCH_INFO</a> structure that defines the key used to search for the client lease record on the DHCP server.
 
 
 ### -param ClientInfo [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/3ee224fb-650f-4468-848b-960424202ac3">DHCP_CLIENT_INFO_PB</a> structure that returns the DHCP client lease record information.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info_pb">DHCP_CLIENT_INFO_PB</a> structure that returns the DHCP client lease record information.
 
 
 ## -returns
@@ -78,7 +78,7 @@ Pointer to a <a href="https://msdn.microsoft.com/3ee224fb-650f-4468-848b-9604242
 
 If the function succeeds, it returns <b>ERROR_SUCCESS</b>.
 
-If the function fails, it returns one of the following or an error code from <a href="https://msdn.microsoft.com/6370313f-d7db-4ff1-b0e0-7fa47474facb">DHCP Server Management API Error Codes</a>.
+If the function fails, it returns one of the following or an error code from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -130,7 +130,7 @@ The DHCP client is not valid. In this case, the search information passed had no
 
 If the <b>SearchType</b> member of the structure passed to <i>SearchInfo</i> is <b>DhcpClientName</b> and there are multiple lease records with the same client hostnames, the lease record returned is indeterminate.
 
-<i>ClientInfo</i> should be free using <a href="https://msdn.microsoft.com/bf22a0a6-2ecd-4460-89c4-3f870c6275dc">DhcpRpcFreeMemory</a>.
+<i>ClientInfo</i> should be free using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcprpcfreememory">DhcpRpcFreeMemory</a>.
 
 
 
@@ -140,15 +140,15 @@ If the <b>SearchType</b> member of the structure passed to <i>SearchInfo</i> is 
 
 
 
-<a href="https://msdn.microsoft.com/467aa6c3-9ccb-4984-8ad7-409d593ac856">DhcpV4CreateClientInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4createclientinfo">DhcpV4CreateClientInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf6df3ba-bbea-4140-960c-fb34cfe160eb">DhcpV4GetClientInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4getclientinfo">DhcpV4GetClientInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d49ab90-3c40-4577-8e7e-36d1370d8de9">DhcpV6CreateClientInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv6createclientinfo">DhcpV6CreateClientInfo</a>
  
 
  

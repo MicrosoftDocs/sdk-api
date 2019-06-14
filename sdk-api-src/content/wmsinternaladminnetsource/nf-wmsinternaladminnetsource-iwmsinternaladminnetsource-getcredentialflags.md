@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-The <b>GetCredentialFlags</b> method can be used in conjunction with <a href="https://msdn.microsoft.com/en-us/library/Dd798541(v=VS.85).aspx">IWMSInternalAdminNetSource::SetCredentialFlags</a> to determine whether the user wants passwords saved as a default behavior. This method retrieves any flags previously set.
+The <b>GetCredentialFlags</b> method can be used in conjunction with <a href="https://docs.microsoft.com/windows/desktop/api/wmsinternaladminnetsource/nf-wmsinternaladminnetsource-iwmsinternaladminnetsource-setcredentialflags">IWMSInternalAdminNetSource::SetCredentialFlags</a> to determine whether the user wants passwords saved as a default behavior. This method retrieves any flags previously set.
 
 
 
@@ -82,15 +82,15 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743717(v=VS.85).aspx">IWMSInternalAdminNetSource Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsinternaladminnetsource/nn-wmsinternaladminnetsource-iwmsinternaladminnetsource">IWMSInternalAdminNetSource Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798539(v=VS.85).aspx">IWMSInternalAdminNetSource::GetCredentials</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsinternaladminnetsource/nf-wmsinternaladminnetsource-iwmsinternaladminnetsource-getcredentials">IWMSInternalAdminNetSource::GetCredentials</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798541(v=VS.85).aspx">IWMSInternalAdminNetSource::SetCredentialFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsinternaladminnetsource/nf-wmsinternaladminnetsource-iwmsinternaladminnetsource-setcredentialflags">IWMSInternalAdminNetSource::SetCredentialFlags</a>
  
 
  

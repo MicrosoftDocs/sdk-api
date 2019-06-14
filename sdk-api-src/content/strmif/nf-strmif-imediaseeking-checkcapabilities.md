@@ -60,7 +60,7 @@ The <b>CheckCapabilities</b> method queries whether a stream has specified seeki
 
 ### -param pCapabilities [in, out]
 
-On input, a pointer to a  variable that contains a bitwise <b>OR</b> of one or more <a href="https://msdn.microsoft.com/1c7ad11b-2d10-409e-a292-b777566c637d">AM_SEEKING_SEEKING_CAPABILITIES</a> attributes. When the method returns, the value indicates which of those attributes are available.
+On input, a pointer to a  variable that contains a bitwise <b>OR</b> of one or more <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-am_seeking_seekingcapabilities">AM_SEEKING_SEEKING_CAPABILITIES</a> attributes. When the method returns, the value indicates which of those attributes are available.
           
 
 
@@ -130,9 +130,9 @@ No capabilities in <i>pCapabilities</i> are present.
 
 
 
-If you are only interested in a few specific capabilities, calling this method is more efficient than calling <a href="https://msdn.microsoft.com/84dd3c21-9c72-4433-bd03-29520dc138ca">IMediaSeeking::GetCapabilities</a>, which checks all the stream's seeking capabilities.
+If you are only interested in a few specific capabilities, calling this method is more efficient than calling <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediaseeking-getcapabilities">IMediaSeeking::GetCapabilities</a>, which checks all the stream's seeking capabilities.
 
-To call this method, declare a <b>DWORD</b> variable and set the value to the bitwise-<b>OR</b> combination of the <a href="https://msdn.microsoft.com/1c7ad11b-2d10-409e-a292-b777566c637d">AM_SEEKING_SEEKING_CAPABILITIES</a> flags that you want to test. Pass the address of this value in the <i>pCapabilities</i> parameter. When the method returns, <i>pCapabilities</i> contains a subset of the original bits, indicating which capabilities are present. The return value indicates whether some, none, or all of the requested capabilities are present.
+To call this method, declare a <b>DWORD</b> variable and set the value to the bitwise-<b>OR</b> combination of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-am_seeking_seekingcapabilities">AM_SEEKING_SEEKING_CAPABILITIES</a> flags that you want to test. Pass the address of this value in the <i>pCapabilities</i> parameter. When the method returns, <i>pCapabilities</i> contains a subset of the original bits, indicating which capabilities are present. The return value indicates whether some, none, or all of the requested capabilities are present.
 
 The following code example shows how to find out whether the stream supports forward seeking, backward seeking, and absolute seeking.
 
@@ -185,11 +185,11 @@ else if (hr == S_FALSE) // The stream has some of the capabilities.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/32adad53-d1ac-495f-9347-7bdd4ae4b78d">IMediaSeeking Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking Interface</a>
  
 
  

@@ -59,14 +59,14 @@ Represents a rational number.
 
 ### -field Numerator
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 An unsigned integer value representing the top of the rational number.
 
 
 ### -field Denominator
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 An unsigned integer value representing the bottom of the rational number.
 
@@ -75,7 +75,7 @@ An unsigned integer value representing the bottom of the rational number.
 
 
 
-This structure is a member of the <a href="https://msdn.microsoft.com/en-us/library/Bb173064(v=VS.85).aspx">DXGI_MODE_DESC</a> structure.
+This structure is a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173064(v=vs.85)">DXGI_MODE_DESC</a> structure.
 
 The <b>DXGI_RATIONAL</b> structure operates under the following rules:
 
@@ -92,7 +92,7 @@ The <b>DXGI_RATIONAL</b> structure operates under the following rules:
 
 
 
-<a href="https://msdn.microsoft.com/22e98880-bcd1-448a-9223-604fff9173fe">DXGI Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-structures">DXGI Structures</a>
  
 
  

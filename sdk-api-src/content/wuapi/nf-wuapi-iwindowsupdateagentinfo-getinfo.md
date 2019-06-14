@@ -103,7 +103,7 @@ error code.
 
 
 
-The <a href="https://msdn.microsoft.com/46692b86-0fd9-4e48-9fb2-0ea3521b6bca">IWindowsUpdateAgentInfo</a> interface  may require you to update WUA. For more information, see <a href="https://msdn.microsoft.com/829112ab-b240-4cc4-8053-18b484934886">Updating Windows Update Agent</a>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iwindowsupdateagentinfo">IWindowsUpdateAgentInfo</a> interface  may require you to update WUA. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Wua_Sdk/updating-the-windows-update-agent">Updating Windows Update Agent</a>.
 
 The major version is incremented one time for each release if a change occurs in the interfaces of the WUA API. The minor version is incremented one time for each release if a change occurs in the existing interfaces of the WUA API.
 
@@ -115,7 +115,7 @@ The major version is incremented one time for each release if a change occurs in
 
 
 
-<a href="https://msdn.microsoft.com/46692b86-0fd9-4e48-9fb2-0ea3521b6bca">IWindowsUpdateAgentInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iwindowsupdateagentinfo">IWindowsUpdateAgentInfo</a>
  
 
  

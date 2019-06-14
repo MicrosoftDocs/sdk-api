@@ -51,9 +51,9 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SCardGetProviderId</b> function returns the identifier (GUID) of the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">primary service provider</a> for a given card.
+The <b>SCardGetProviderId</b> function returns the identifier (GUID) of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">primary service provider</a> for a given card.
 
-The caller supplies the name of a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">smart card</a> (previously introduced to the system) and receives the registered identifier of the primary service provider GUID, if one exists.
+The caller supplies the name of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> (previously introduced to the system) and receives the registered identifier of the primary service provider GUID, if one exists.
 
 
 ## -parameters
@@ -63,8 +63,8 @@ The caller supplies the name of a <a href="https://msdn.microsoft.com/3e9d7672-2
 
 ### -param hContext [in]
 
-Handle that identifies the <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">resource manager context</a> for the query. The resource manager context can be set by a previous call to 
-<a href="https://msdn.microsoft.com/1cf9b005-b76c-4fc9-b4bd-a1ad8552535f">SCardEstablishContext</a>. This parameter cannot be <b>NULL</b>.
+Handle that identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager context</a> for the query. The resource manager context can be set by a previous call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>. This parameter cannot be <b>NULL</b>.
 
 
 ### -param szCard [in]
@@ -107,7 +107,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -124,12 +124,12 @@ An error code. For more information, see
 This function is not redirected, but calling the function when inside a Remote Desktop session  will not result in an error. It only means that the result will be from the remote computer instead of the local computer. 
 
 The <b>SCardGetProviderId</b> function is a database query function. For more information on other database query functions, see 
-<a href="https://msdn.microsoft.com/a30cbb99-522c-4752-bfcd-75be608785f1">Smart Card Database Query Functions</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/smart-card-database-query-functions">Smart Card Database Query Functions</a>.
 
 
 #### Examples
 
-The following example shows how to get the provider ID for the specified card. The example assumes that hContext is a valid handle obtained from a previous call to the <a href="https://msdn.microsoft.com/1cf9b005-b76c-4fc9-b4bd-a1ad8552535f">SCardEstablishContext</a> function and that "MyCardName" was introduced by a previous call to the <a href="https://msdn.microsoft.com/1ac88466-1277-44d7-a471-b31d6bfce99e">SCardIntroduceCardType</a> function.
+The following example shows how to get the provider ID for the specified card. The example assumes that hContext is a valid handle obtained from a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a> function and that "MyCardName" was introduced by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardintroducecardtypea">SCardIntroduceCardType</a> function.
 
 
 ```cpp
@@ -158,23 +158,23 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/1cf9b005-b76c-4fc9-b4bd-a1ad8552535f">SCardEstablishContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/b8ecbb8c-e1fb-485b-9a2c-20e6edf25cf1">SCardListCards</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardlistcardsa">SCardListCards</a>
 
 
 
-<a href="https://msdn.microsoft.com/2460c133-3ad4-4f73-9f55-56fc3bab9cdb">SCardListInterfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardlistinterfacesa">SCardListInterfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/df01fa4b-8053-4d3a-ae2e-66eeb6583225">SCardListReaderGroups</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardlistreadergroupsa">SCardListReaderGroups</a>
 
 
 
-<a href="https://msdn.microsoft.com/b50218f1-e960-4838-b44b-6c71fa94a0ad">SCardListReaders</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardlistreadersa">SCardListReaders</a>
  
 
  

@@ -56,7 +56,7 @@ ms.custom: 19H1
 
 
 Removes the trailing backslash from a given path.
-<div class="alert"><b>Note</b>  This function is deprecated. We recommend the use of the <a href="https://msdn.microsoft.com/61afc20e-ee6c-46ad-a058-64c57de41ba4">PathCchRemoveBackslash</a> or <a href="https://msdn.microsoft.com/250c2faa-94bb-42c1-97d4-37f8f59dbde6">PathCchRemoveBackslashEx</a> function in its place.</div><div> </div>
+<div class="alert"><b>Note</b>  This function is deprecated. We recommend the use of the <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchremovebackslash">PathCchRemoveBackslash</a> or <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchremovebackslashex">PathCchRemoveBackslashEx</a> function in its place.</div><div> </div>
 
 ## -parameters
 

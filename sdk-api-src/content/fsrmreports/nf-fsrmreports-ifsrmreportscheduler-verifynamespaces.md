@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 <p class="CCE_Message">[Starting with Windows Server 2012 this method is not supported; use the 
-    <a href="https://msdn.microsoft.com/8ed0ec1c-3af2-4c49-92cf-0911473fb33a">MSFT_FSRMScheduledTask</a> WMI class to manage 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmscheduledtask">MSFT_FSRMScheduledTask</a> WMI class to manage 
     scheduled tasks.]
 
 Verifies that the specified local directory paths that are used as the source for the reports are 
@@ -84,7 +84,7 @@ The method returns the following return values.
 
 
 If the paths are valid, you can use them when calling the 
-    <a href="https://msdn.microsoft.com/983a6d05-417f-4aea-9652-955fd96e78f0">IFsrmReportScheduler::CreateScheduleTask</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportscheduler-createscheduletask">IFsrmReportScheduler::CreateScheduleTask</a> 
     method.
 
 The paths are valid if:
@@ -106,11 +106,11 @@ If one of the paths fails to validate, there is no indication of which path fail
 
 
 
-<a href="https://msdn.microsoft.com/306f1d7f-6ad4-457a-97be-193aefeccfeb">FsrmReportScheduler</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmreportscheduler">FsrmReportScheduler</a>
 
 
 
-<a href="https://msdn.microsoft.com/f3e71a39-d880-4035-a719-42ace5eeb9e0">IFsrmReportScheduler</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportscheduler">IFsrmReportScheduler</a>
  
 
  

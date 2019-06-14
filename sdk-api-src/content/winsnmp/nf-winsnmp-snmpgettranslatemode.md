@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/6429e748-e0bf-431a-8989-db5b211665d5">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The WinSNMP 
 <b>SnmpGetTranslateMode</b> function returns the current setting of the entity and context translation mode to a WinSNMP application. The entity and context translation mode affects the interpretation and return of WinSNMP input and output string parameters.
@@ -113,7 +113,7 @@ If the function succeeds, the return value is SNMPAPI_SUCCESS.
 
 If the function fails, the return value is SNMPAPI_FAILURE. If 
 <b>SnmpGetTranslateMode</b> fails, the value of the <i>nTranslateMode</i> parameter has no meaning for the application. To get extended error information, call 
-<a href="https://msdn.microsoft.com/0cfb2bc3-cfa5-4806-9dcf-119541463e7b">SnmpGetLastError</a> specifying a <b>NULL</b> value in its <i>session</i> parameter. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpgetlasterror">SnmpGetLastError</a> specifying a <b>NULL</b> value in its <i>session</i> parameter. The 
 <b>SnmpGetLastError</b> function can return one of the following errors.
 
 <table>
@@ -129,7 +129,7 @@ If the function fails, the return value is SNMPAPI_FAILURE. If
 </td>
 <td width="60%">
 The 
-<a href="https://msdn.microsoft.com/7b8a4a1e-871f-424b-8bcb-c0b3bfaae9ce">SnmpStartup</a> function did not complete successfully.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstartup">SnmpStartup</a> function did not complete successfully.
 
 </td>
 </tr>
@@ -166,11 +166,11 @@ An unknown or undefined error occurred.
 
 
 The entity and context translation mode affects calls to the 
-<a href="https://msdn.microsoft.com/d0a8e389-ba5b-45f4-9682-1fbe456daaed">SnmpStrToEntity</a>, 
-<a href="https://msdn.microsoft.com/d552f453-cc19-4166-aca3-bbaa3669b1c8">SnmpStrToContext</a>, 
-<a href="https://msdn.microsoft.com/d82c352d-8685-4276-b58c-ce89557f074a">SnmpContextToStr</a> and 
-<a href="https://msdn.microsoft.com/3a5bca7e-a0a2-4bf5-86cc-f8d9f3ac8660">SnmpEntityToStr</a> functions. For additional information, see 
-<a href="https://msdn.microsoft.com/2550f235-1351-440a-8b4e-f0d30b058229">Setting the Entity and Context Translation Mode</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstrtoentity">SnmpStrToEntity</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstrtocontext">SnmpStrToContext</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcontexttostr">SnmpContextToStr</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpentitytostr">SnmpEntityToStr</a> functions. For additional information, see 
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/setting-the-entity-and-context-translation-mode">Setting the Entity and Context Translation Mode</a>.
 
 
 
@@ -180,36 +180,36 @@ The entity and context translation mode affects calls to the
 
 
 
-<a href="https://msdn.microsoft.com/d82c352d-8685-4276-b58c-ce89557f074a">SnmpContextToStr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcontexttostr">SnmpContextToStr</a>
 
 
 
-<a href="https://msdn.microsoft.com/3a5bca7e-a0a2-4bf5-86cc-f8d9f3ac8660">SnmpEntityToStr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpentitytostr">SnmpEntityToStr</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ee7e660-e718-40e6-adcd-1554eb7391d9">SnmpSetTranslateMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpsettranslatemode">SnmpSetTranslateMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/7b8a4a1e-871f-424b-8bcb-c0b3bfaae9ce">SnmpStartup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstartup">SnmpStartup</a>
 
 
 
-<a href="https://msdn.microsoft.com/d552f453-cc19-4166-aca3-bbaa3669b1c8">SnmpStrToContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstrtocontext">SnmpStrToContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/d0a8e389-ba5b-45f4-9682-1fbe456daaed">SnmpStrToEntity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstrtoentity">SnmpStrToEntity</a>
 
 
 
-<a href="https://msdn.microsoft.com/ae95ac47-81ff-4715-b3e9-e19c07223712">WinSNMP
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-functions">WinSNMP
 		  Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/54d9b61a-815a-41c3-9365-ec4478acc3f2">WinSNMP API Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>
  
 
  

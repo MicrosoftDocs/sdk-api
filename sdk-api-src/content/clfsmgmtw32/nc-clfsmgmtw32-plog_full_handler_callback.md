@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The 
-<b>LOG_FULL_HANDLER_CALLBACK</b> function is an application-defined callback function that receives notification that the call to <a href="https://msdn.microsoft.com/ed4b067f-9386-4bec-a6dc-b22d6fd52390">HandleLogFull</a> is complete. The callback is invoked in the context of an asynchronous procedure call (APC) on the thread that registered for log management.
+<b>LOG_FULL_HANDLER_CALLBACK</b> function is an application-defined callback function that receives notification that the call to <a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmtw32/nf-clfsmgmtw32-handlelogfull">HandleLogFull</a> is complete. The callback is invoked in the context of an asynchronous procedure call (APC) on the thread that registered for log management.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ The status of the operation.
 
 ### -param fLogIsPinned [in]
 
-Specifies if the log is considered "pinned". If <i>fLogIsPinned</i> is <b>TRUE</b> and the log is then unpinned, the <a href="https://msdn.microsoft.com/ab3b5ffb-01a5-4678-bcfa-7e71b1f4c0f3">LOG_UNPINNED_CALLBACK</a> is invoked.
+Specifies if the log is considered "pinned". If <i>fLogIsPinned</i> is <b>TRUE</b> and the log is then unpinned, the <a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmtw32/nc-clfsmgmtw32-plog_unpinned_callback">LOG_UNPINNED_CALLBACK</a> is invoked.
 
 
 ### -param pvClientContext [in]
@@ -101,7 +101,7 @@ The client application determines which actions this callback function performs.
 
 
 
-<a href="https://msdn.microsoft.com/ab3b5ffb-01a5-4678-bcfa-7e71b1f4c0f3">LOG_UNPINNED_CALLBACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmtw32/nc-clfsmgmtw32-plog_unpinned_callback">LOG_UNPINNED_CALLBACK</a>
  
 
  

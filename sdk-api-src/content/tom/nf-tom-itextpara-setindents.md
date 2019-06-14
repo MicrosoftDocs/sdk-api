@@ -84,7 +84,7 @@ Right indent of all lines in paragraph, relative to the right margin. The value 
 
 Type: <b>HRESULT</b>
 
-If <b>ITextPara::SetIndents</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling in COM</a>.
+If <b>ITextPara::SetIndents</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -156,7 +156,7 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-Line indents are not allowed to position text in the margins. If the first-line indent is set to a negative value (for an outdented paragraph) while the left indent is zero, the first-line indent is reset to zero. To avoid this problem while retaining property sets, set the first-line indent value equal to zero either explicitly or by calling the <a href="https://msdn.microsoft.com/en-us/library/Bb787849(v=VS.85).aspx">ITextPara::Reset</a> method. Then, call <b>ITextPara::SetIndents</b> to set a nonnegative, left-indent value and set the desired first-line indent.
+Line indents are not allowed to position text in the margins. If the first-line indent is set to a negative value (for an outdented paragraph) while the left indent is zero, the first-line indent is reset to zero. To avoid this problem while retaining property sets, set the first-line indent value equal to zero either explicitly or by calling the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-reset">ITextPara::Reset</a> method. Then, call <b>ITextPara::SetIndents</b> to set a nonnegative, left-indent value and set the desired first-line indent.
 
 
 
@@ -170,7 +170,7 @@ Line indents are not allowed to position text in the margins. If the first-line 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
 
 
 
@@ -178,11 +178,11 @@ Line indents are not allowed to position text in the margins. If the first-line 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787849(v=VS.85).aspx">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-reset">Reset</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
  
 
  

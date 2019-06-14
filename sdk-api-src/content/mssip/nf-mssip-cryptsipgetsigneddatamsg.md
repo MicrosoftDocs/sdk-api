@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CryptSIPGetSignedDataMsg</b> function retrieves an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Authenticode</a> signature from the file.
+The <b>CryptSIPGetSignedDataMsg</b> function retrieves an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Authenticode</a> signature from the file.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>CryptSIPGetSignedDataMsg</b> function retrieves an <a href="https://msdn.
 
 ### -param pSubjectInfo [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/6274cd08-d67f-410d-9303-3a42b7f1edc6">SIP_SUBJECTINFO</a> structure that contains information about the message subject.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo_">SIP_SUBJECTINFO</a> structure that contains information about the message subject.
 
 
 ### -param pdwEncodingType [out]
@@ -83,7 +83,7 @@ This parameter can be a combination of one or more of the following values.
 </dl>
 </td>
 <td width="60%">
-Specifies <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">PKCS #7</a> message encoding.
+Specifies <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">PKCS #7</a> message encoding.
 
 </td>
 </tr>
@@ -94,7 +94,7 @@ Specifies <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa9
 </dl>
 </td>
 <td width="60%">
-Specifies <a href="https://msdn.microsoft.com/28dba6ef-939f-4789-9789-ee6e0fef0177">X.509</a> certificate encoding.
+Specifies <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.509</a> certificate encoding.
 
 </td>
 </tr>
@@ -117,7 +117,7 @@ The length, in bytes, of the buffer pointed to by the <i>pbSignedDataMsg</i> par
 A pointer to a buffer to receive the returned Authenticode signature. 
 
 To determine the size of the buffer needed, set the <i>pbSignedDataMsg</i> parameter to <b>NULL</b> and call the <b>CryptSIPGetSignedDataMsg</b> function. This function will place the required size of the buffer, in bytes, in the value pointed to by <i>pcbSignedDataMsg</i>. For more information, see 
-<a href="https://msdn.microsoft.com/ef99edef-39b2-4d78-9c01-13720215d47f">Retrieving Data of Unknown Length</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 
 ## -returns
@@ -127,7 +127,7 @@ To determine the size of the buffer needed, set the <i>pbSignedDataMsg</i> param
 
 If the function succeeds, the function returns <b>TRUE</b>.
 
-If the function fails, it returns <b>FALSE</b>. For extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. Some possible error codes follow.
+If the function fails, it returns <b>FALSE</b>. For extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Some possible error codes follow.
 
 
 
@@ -154,7 +154,7 @@ The signature specified by the index could not be found.
 </dl>
 </td>
 <td width="60%">
-The specified data or file format of the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">subject interface package</a> (SIP) is not valid.
+The specified data or file format of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">subject interface package</a> (SIP) is not valid.
 
 </td>
 </tr>
@@ -165,7 +165,7 @@ The specified data or file format of the <a href="https://msdn.microsoft.com/3e9
 </dl>
 </td>
 <td width="60%">
-The <i>pSubjectInfo</i> parameter or the <b>pgSubjectType</b> member of the <a href="https://msdn.microsoft.com/6274cd08-d67f-410d-9303-3a42b7f1edc6">SIP_SUBJECTINFO</a> structure is a null pointer.
+The <i>pSubjectInfo</i> parameter or the <b>pgSubjectType</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo_">SIP_SUBJECTINFO</a> structure is a null pointer.
 
 </td>
 </tr>
@@ -211,11 +211,11 @@ Subjects include, but are not limited to, portable executable images (.exe), cab
 
 
 
-<a href="https://msdn.microsoft.com/731f64bf-49f0-4799-b84a-9ca04292aa91">CryptSIPPutSignedDataMsg</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipputsigneddatamsg">CryptSIPPutSignedDataMsg</a>
 
 
 
-<a href="https://msdn.microsoft.com/c3ea46bb-931a-4ca6-93f5-db7e07b4cb7a">CryptSIPRemoveSignedDataMsg</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipremovesigneddatamsg">CryptSIPRemoveSignedDataMsg</a>
  
 
  

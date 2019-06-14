@@ -99,7 +99,7 @@ Searches for any surface that does not match the surface description.
 
 ### -param arg2 [in]
 
-Address of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550340">DDSURFACEDESC2</a> structure that defines the surface of interest. This parameter can be NULL if <i>dwFlags</i> includes the DDENUMSURFACES_ALL flag.
+Address of a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550340(v=vs.85)">DDSURFACEDESC2</a> structure that defines the surface of interest. This parameter can be NULL if <i>dwFlags</i> includes the DDENUMSURFACES_ALL flag.
 
 
 ### -param arg3 [in]
@@ -109,7 +109,7 @@ Address of an application-defined structure to be passed to each enumeration mem
 
 ### -param arg4 [in]
 
-Address of the <a href="https://msdn.microsoft.com/DA0FBED3-B61F-4CC3-9B6D-132A9F8ECFE0">EnumSurfacesCallback7</a> function that the enumeration procedure calls every time a match is found.
+Address of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nc-ddraw-lpddenumsurfacescallback7">EnumSurfacesCallback7</a> function that the enumeration procedure calls every time a match is found.
 
 
 ## -returns
@@ -135,15 +135,15 @@ If it fails, the method can return one of the following error values:
 
 If the DDENUMSURFACES_CANBECREATED flag is set, this method attempts to temporarily create a surface that meets the search criterion.
 
-When you use the DDENUMSURFACES_DOESEXIST flag, an enumerated surface's reference count is incremented—if you are not going to use the surface, be sure to use <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IDirectDrawSurface7::Release</a> to release it after each enumeration. If you will be using the surface, release it when it is no longer needed.
+When you use the DDENUMSURFACES_DOESEXIST flag, an enumerated surface's reference count is incremented—if you are not going to use the surface, be sure to use <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IDirectDrawSurface7::Release</a> to release it after each enumeration. If you will be using the surface, release it when it is no longer needed.
 
 
 
-This method differs from its counterparts in previous interface versions in that it accepts a pointer to an <a href="https://msdn.microsoft.com/DA0FBED3-B61F-4CC3-9B6D-132A9F8ECFE0">EnumSurfacesCallback7</a> function, rather than an <a href="https://msdn.microsoft.com/4195C266-4F1D-4DD6-935E-78D07ACAA765">EnumSurfacesCallback</a> or <a href="https://msdn.microsoft.com/BC10A26B-50A3-48C5-94D7-B9C9E8FFE768">EnumSurfacesCallback2</a> function.
+This method differs from its counterparts in previous interface versions in that it accepts a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nc-ddraw-lpddenumsurfacescallback7">EnumSurfacesCallback7</a> function, rather than an <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nc-ddraw-lpddenumsurfacescallback">EnumSurfacesCallback</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nc-ddraw-lpddenumsurfacescallback2">EnumSurfacesCallback2</a> function.
 
 
 
-You must use <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> to access the  <b>IDirectDraw7::EnumSurfaces</b> method.
+You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>IDirectDraw7::EnumSurfaces</b> method.
 
 
 
@@ -153,7 +153,7 @@ You must use <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d
 
 
 
-<a href="https://msdn.microsoft.com/1a1164fe-00c2-4469-8346-f86f7f48781e">IDirectDraw7</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a>
  
 
  

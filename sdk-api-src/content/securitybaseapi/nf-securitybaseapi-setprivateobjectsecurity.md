@@ -55,10 +55,10 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SetPrivateObjectSecurity</b> function modifies a private object's <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security descriptor</a>.
+The <b>SetPrivateObjectSecurity</b> function modifies a private object's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a>.
 
-To specify whether the protected server supports automatic inheritance of <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entries</a> (ACEs), use the 
-<a href="https://msdn.microsoft.com/eb3a751f-741e-448f-b812-5f16a4040b5e">SetPrivateObjectSecurityEx</a> function.
+To specify whether the protected server supports automatic inheritance of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs), use the 
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setprivateobjectsecurityex">SetPrivateObjectSecurityEx</a> function.
 
 
 ## -parameters
@@ -69,18 +69,18 @@ To specify whether the protected server supports automatic inheritance of <a hre
 ### -param SecurityInformation [in]
 
 Indicates the parts of the security descriptor to set. This value can be a combination of the 
-<a href="https://msdn.microsoft.com/e3e8b35d-9d18-4611-a898-72ca13e40d33">SECURITY_INFORMATION</a> bit flags.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> bit flags.
 
 
 ### -param ModificationDescriptor [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> structure. The parts of this security descriptor indicated by the <i>SecurityInformation</i> parameter are applied to the <i>ObjectsSecurityDescriptor</i> security descriptor.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> structure. The parts of this security descriptor indicated by the <i>SecurityInformation</i> parameter are applied to the <i>ObjectsSecurityDescriptor</i> security descriptor.
 
 
 ### -param ObjectsSecurityDescriptor [in, out]
 
-A pointer to a pointer to a <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> structure. This security descriptor must be in <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">self-relative</a> form. **The memory for the security descriptor must be allocated from the process heap (GetProcessHeap) with the HeapAlloc function.**
+A pointer to a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> structure. This security descriptor must be in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">self-relative</a> form. **The memory for the security descriptor must be allocated from the process heap (GetProcessHeap) with the HeapAlloc function.**
 
 
 
@@ -91,12 +91,12 @@ On input, this is the current security descriptor of the private object. The fun
 ### -param GenericMapping [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/e3c49b47-9bc7-4000-a131-449345ebb9cd">GENERIC_MAPPING</a> structure that specifies the specific and standard access rights that correspond to each of the generic access rights.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_generic_mapping">GENERIC_MAPPING</a> structure that specifies the specific and standard access rights that correspond to each of the generic access rights.
 
 
 ### -param Token [in, optional]
 
-A handle to the <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access token</a> for the client on whose behalf the private object's security is being modified. This parameter is required to ensure that the client has provided a legitimate value for a new owner <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID). The token must be open for TOKEN_QUERY access.
+A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access token</a> for the client on whose behalf the private object's security is being modified. This parameter is required to ensure that the client has provided a legitimate value for a new owner <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID). The token must be open for TOKEN_QUERY access.
 
 
 ## -returns
@@ -106,7 +106,7 @@ A handle to the <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbb
 If the function succeeds, the function returns nonzero.
 
 If the function fails, it returns zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -118,9 +118,9 @@ If the function fails, it returns zero. To get extended error information, call
 This function is intended for use by resource managers only. To implement the standard access control semantics for updating security descriptors, a resource manager should verify that the following conditions are met before calling <b>SetPrivateObjectSecurity</b>:
 
 <ul>
-<li>If the object's owner is being set, the calling <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">process</a> must have either WRITE_OWNER permission or be the object's owner.</li>
-<li>If the object's <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">discretionary access control list</a> (DACL) is being set, the calling process must have either WRITE_DAC permission or be the object's owner.</li>
-<li>If the object's <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">system access control list</a> (SACL) is being set, the SE_SECURITY_NAME privilege must be enabled for the calling process.</li>
+<li>If the object's owner is being set, the calling <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">process</a> must have either WRITE_OWNER permission or be the object's owner.</li>
+<li>If the object's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL) is being set, the calling process must have either WRITE_DAC permission or be the object's owner.</li>
+<li>If the object's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) is being set, the SE_SECURITY_NAME privilege must be enabled for the calling process.</li>
 </ul>
 If the preceding conditions are not met, a call to this function does not fail; however, standard access policy is not enforced.
 
@@ -134,51 +134,51 @@ The process calling this function should not be impersonating a client because c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Client/Server Access Control Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Client/Server Access Control Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/8301ed4f-9458-410b-af19-4f055656005a">Client/Server Access Control Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/client-server-access-control">Client/Server Access Control Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f4832b6-5cf5-4050-9e20-56674f2e2cb1">CreatePrivateObjectSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecurity">CreatePrivateObjectSecurity</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ef10852-8229-41de-a4d7-d2845e4c92ce">DestroyPrivateObjectSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-destroyprivateobjectsecurity">DestroyPrivateObjectSecurity</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3c49b47-9bc7-4000-a131-449345ebb9cd">GENERIC_MAPPING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_generic_mapping">GENERIC_MAPPING</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e93c0a0-e449-4df1-812b-c3fb0dfe9c19">GetPrivateObjectSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getprivateobjectsecurity">GetPrivateObjectSecurity</a>
 
 
 
-<a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3e8b35d-9d18-4611-a898-72ca13e40d33">SECURITY_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/27766c97-7ac5-40fc-b798-7cd07e496c0d">SetFileSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setfilesecuritya">SetFileSecurity</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a70483e-245d-4bc7-b90a-58d143364ce1">SetKernelObjectSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setkernelobjectsecurity">SetKernelObjectSecurity</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb3a751f-741e-448f-b812-5f16a4040b5e">SetPrivateObjectSecurityEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setprivateobjectsecurityex">SetPrivateObjectSecurityEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/219e41b8-9ac7-4747-a585-b6b9df6a1c9c">SetUserObjectSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setuserobjectsecurity">SetUserObjectSecurity</a>
  
 
  

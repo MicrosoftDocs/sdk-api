@@ -53,9 +53,9 @@ ms.custom: 19H1
 
 Creates an event, sets a <b>PROPVARIANT</b> as the event data, and puts the event in the queue.
 
-Call this method inside your implementation of <a href="https://msdn.microsoft.com/3bc33665-1385-41e1-9ad0-991fc93e91c0">IMFMediaEventGenerator::QueueEvent</a>. Pass the parameters from that method directly to this method.
+Call this method inside your implementation of <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventgenerator-queueevent">IMFMediaEventGenerator::QueueEvent</a>. Pass the parameters from that method directly to this method.
 
-You can also call this method when your component needs to raise an event that does not contain attributes. If the event data is an <b>IUnknown</b> pointer, you can use <a href="https://msdn.microsoft.com/e51653a4-8f71-44f3-90e8-2052db521307">IMFMediaEventQueue::QueueEventParamUnk</a>. If the event contains attributes, use <a href="https://msdn.microsoft.com/eb04ce9f-fb64-438f-ad4d-ba1fb849d59c">IMFMediaEventQueue::QueueEvent</a> instead.
+You can also call this method when your component needs to raise an event that does not contain attributes. If the event data is an <b>IUnknown</b> pointer, you can use <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventqueue-queueeventparamunk">IMFMediaEventQueue::QueueEventParamUnk</a>. If the event contains attributes, use <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventqueue-queueevent">IMFMediaEventQueue::QueueEvent</a> instead.
 
 
 
@@ -67,22 +67,22 @@ You can also call this method when your component needs to raise an event that d
 
 ### -param met [in]
 
-Specifies the type of the event to be added to the queue. The event type is returned by the event's <a href="https://msdn.microsoft.com/b62e0d9f-dada-4b75-a8d3-568ee2955888">IMFMediaEvent::GetType</a> method. For a list of event types, see <a href="https://msdn.microsoft.com/d925f63d-3359-4ba1-802f-0c2b11a3f973">Media Foundation Events</a>.
+Specifies the type of the event to be added to the queue. The event type is returned by the event's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-gettype">IMFMediaEvent::GetType</a> method. For a list of event types, see <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-events">Media Foundation Events</a>.
 
 
 ### -param guidExtendedType [in]
 
-The extended type of the event. If the event does not have an extended type, use the value GUID_NULL. The extended type is returned by the event's <a href="https://msdn.microsoft.com/56284491-6f84-467e-9fac-46b04db4024a">IMFMediaEvent::GetExtendedType</a> method.
+The extended type of the event. If the event does not have an extended type, use the value GUID_NULL. The extended type is returned by the event's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-getextendedtype">IMFMediaEvent::GetExtendedType</a> method.
 
 
 ### -param hrStatus [in]
 
-A success or failure code indicating the status of the event. This value is returned by the event's <a href="https://msdn.microsoft.com/e2fc6c81-11c0-4947-b647-3e74a73ee5a2">IMFMediaEvent::GetStatus</a> method.
+A success or failure code indicating the status of the event. This value is returned by the event's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-getstatus">IMFMediaEvent::GetStatus</a> method.
 
 
 ### -param pvValue [in]
 
-Pointer to a <b>PROPVARIANT</b> that contains the event value. This parameter can be <b>NULL</b>. This value is returned by the event's <a href="https://msdn.microsoft.com/05e57b40-2565-4312-866e-50f0c7d62c4a">IMFMediaEvent::GetValue</a> method.
+Pointer to a <b>PROPVARIANT</b> that contains the event value. This parameter can be <b>NULL</b>. This value is returned by the event's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-getvalue">IMFMediaEvent::GetValue</a> method.
 
 
 ## -returns
@@ -114,7 +114,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/6ec52973-0d90-463b-b2be-08d5d6fdcc05">Shutdown</a> method was called.
+The <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventqueue-shutdown">Shutdown</a> method was called.
 
 </td>
 </tr>
@@ -142,7 +142,7 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 
-<a href="https://msdn.microsoft.com/e1698caa-db70-436d-af6a-64c6e7247590">IMFMediaEventQueue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventqueue">IMFMediaEventQueue</a>
  
 
  

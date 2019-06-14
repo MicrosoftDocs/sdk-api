@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CreateAssemblyNameObject</b> function obtains an instance of the <a href="https://msdn.microsoft.com/304b8fb3-5d17-4af0-b070-450a40dc5cc9">IAssemblyName</a> interface.
+The <b>CreateAssemblyNameObject</b> function obtains an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a> interface.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>CreateAssemblyNameObject</b> function obtains an instance of the <a href=
 
 ### -param ppAssemblyNameObj
 
-Pointer to a location that receives the <a href="https://msdn.microsoft.com/304b8fb3-5d17-4af0-b070-450a40dc5cc9">IAssemblyName</a> pointer.
+Pointer to a location that receives the <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a> pointer.
 
 
 ### -param szAssemblyName
@@ -69,7 +69,7 @@ A pointer to a string value containing  the name of a side-by-side assembly. Dep
 
 ### -param dwFlags
 
-The value of this parameter can be a combination of <a href="https://msdn.microsoft.com/en-us/library/Aa375133(v=VS.85).aspx">CREATE_ASM_NAME_OBJ_FLAGS</a> enumeration options or 0. If the value is <b>CANOF_PARSE_DISPLAY_NAME</b>, the <i>szAssemblyName</i> parameter contains a string representation of the fully-specified side-by-side assembly name and is parsed to the individual properties. If 0, <i>szAssemblyName</i> is the Name portion of the side-by-side assembly name.
+The value of this parameter can be a combination of <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/ne-winsxs-__midl___midl_itf_winsxs_0000_0003_0001">CREATE_ASM_NAME_OBJ_FLAGS</a> enumeration options or 0. If the value is <b>CANOF_PARSE_DISPLAY_NAME</b>, the <i>szAssemblyName</i> parameter contains a string representation of the fully-specified side-by-side assembly name and is parsed to the individual properties. If 0, <i>szAssemblyName</i> is the Name portion of the side-by-side assembly name.
 
 
 ### -param pvReserved

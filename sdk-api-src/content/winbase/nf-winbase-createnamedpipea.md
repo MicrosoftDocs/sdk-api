@@ -105,7 +105,7 @@ This parameter must specify one of the following pipe access modes. The same mod
 </td>
 <td width="60%">
 The pipe is bi-directional; both server and client processes can read from and write to the pipe. This mode gives the server the equivalent of <b>GENERIC_READ</b> and <b>GENERIC_WRITE</b> access to the pipe. The client can specify <b>GENERIC_READ</b> or <b>GENERIC_WRITE</b>, or both, when it connects to the pipe using the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ The pipe is bi-directional; both server and client processes can read from and w
 </dl>
 </td>
 <td width="60%">
-The flow of data in the pipe goes from client to server only. This mode gives the server the equivalent of <b>GENERIC_READ</b> access to the pipe. The client must specify <b>GENERIC_WRITE</b> access when connecting to the pipe. If the client must read pipe settings by calling the <a href="https://msdn.microsoft.com/91081373-60cd-4a90-a304-1e67fff9a483">GetNamedPipeInfo</a> or <a href="https://msdn.microsoft.com/a28003f0-f488-4ac3-91bf-dd7c5e87ea66">GetNamedPipeHandleState</a> functions, the client must specify <b>GENERIC_WRITE</b> and <b>FILE_READ_ATTRIBUTES</b> access when connecting to the pipe.
+The flow of data in the pipe goes from client to server only. This mode gives the server the equivalent of <b>GENERIC_READ</b> access to the pipe. The client must specify <b>GENERIC_WRITE</b> access when connecting to the pipe. If the client must read pipe settings by calling the <a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-getnamedpipeinfo">GetNamedPipeInfo</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getnamedpipehandlestatea">GetNamedPipeHandleState</a> functions, the client must specify <b>GENERIC_WRITE</b> and <b>FILE_READ_ATTRIBUTES</b> access when connecting to the pipe.
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ The flow of data in the pipe goes from client to server only. This mode gives th
 </dl>
 </td>
 <td width="60%">
-The flow of data in the pipe goes from server to client only. This mode gives the server the equivalent of <b>GENERIC_WRITE</b> access to the pipe. The client must specify <b>GENERIC_READ</b> access when connecting to the pipe. If the client must change pipe settings by calling the <a href="https://msdn.microsoft.com/1e62c98e-cecb-4f42-9269-e58ca69e5d39">SetNamedPipeHandleState</a> function, the client must specify <b>GENERIC_READ</b> and <b>FILE_WRITE_ATTRIBUTES</b> access when connecting to the pipe.
+The flow of data in the pipe goes from server to client only. This mode gives the server the equivalent of <b>GENERIC_WRITE</b> access to the pipe. The client must specify <b>GENERIC_READ</b> access when connecting to the pipe. If the client must change pipe settings by calling the <a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-setnamedpipehandlestate">SetNamedPipeHandleState</a> function, the client must specify <b>GENERIC_READ</b> and <b>FILE_WRITE_ATTRIBUTES</b> access when connecting to the pipe.
 
 </td>
 </tr>
@@ -171,12 +171,12 @@ Write-through mode is enabled. This mode affects only write operations on byte-t
 </td>
 <td width="60%">
 Overlapped mode is enabled. If this mode is enabled, functions performing read, write, and connect operations that may take a significant time to be completed can return immediately. This mode enables the thread that started the operation to perform other operations while the time-consuming operation executes in the background. For example, in overlapped mode, a thread can handle simultaneous input and output (I/O) operations on multiple instances of a pipe or perform simultaneous read and write operations on the same pipe handle. If overlapped mode is not enabled, functions performing read, write, and connect operations on the pipe handle do not return until the operation is finished. The 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365468(v=VS.85).aspx">ReadFileEx</a> and 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365748(v=VS.85).aspx">WriteFileEx</a> functions can only be used with a pipe handle in overlapped mode. The 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a>, 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a>, 
-<a href="https://msdn.microsoft.com/50f6680f-900e-4411-a849-ec9a911c9e32">ConnectNamedPipe</a>, and 
-<a href="https://msdn.microsoft.com/79afcb18-babb-453e-8618-81b43ecb24c4">TransactNamedPipe</a> functions can execute either synchronously or as overlapped operations.
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfileex">ReadFileEx</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a> functions can only be used with a pipe handle in overlapped mode. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a>, and 
+<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe">TransactNamedPipe</a> functions can execute either synchronously or as overlapped operations.
 
 </td>
 </tr>
@@ -220,8 +220,8 @@ The caller will have write access to the named pipe's owner.
 </td>
 <td width="60%">
 The caller will have write access to the named pipe's SACL. For more information, see 
-<a href="https://msdn.microsoft.com/library/Aa374872(v=VS.85).aspx">Access-Control Lists (ACLs)</a> and 
-<a href="https://msdn.microsoft.com/88198243-dae5-49ac-9d54-bfae7a3a0b1a">SACL Access Right</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-lists">Access-Control Lists (ACLs)</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/sacl-access-right">SACL Access Right</a>.
 
 </td>
 </tr>
@@ -261,7 +261,7 @@ Data is written to the pipe as a stream of bytes. This mode cannot be used with 
 </dl>
 </td>
 <td width="60%">
-Data is written to the pipe as a stream of messages. The pipe treats the bytes written during each write operation as a message unit. The <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function returns <b>ERROR_MORE_DATA</b> when a message is not read completely. This mode can be used with either <b>PIPE_READMODE_MESSAGE</b> or <b>PIPE_READMODE_BYTE</b>.
+Data is written to the pipe as a stream of messages. The pipe treats the bytes written during each write operation as a message unit. The <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns <b>ERROR_MORE_DATA</b> when a message is not read completely. This mode can be used with either <b>PIPE_READMODE_MESSAGE</b> or <b>PIPE_READMODE_BYTE</b>.
 
 </td>
 </tr>
@@ -315,9 +315,9 @@ One of the following wait modes can be specified. Different instances of the sam
 </td>
 <td width="60%">
 Blocking mode is enabled. When the pipe handle is specified in the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a>, 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a>, or 
-<a href="https://msdn.microsoft.com/50f6680f-900e-4411-a849-ec9a911c9e32">ConnectNamedPipe</a> function, the operations are not completed until there is data to read, all data is written, or a client is connected. Use of this mode can mean waiting indefinitely in some situations for a client process to perform an action.
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>, or 
+<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a> function, the operations are not completed until there is data to read, all data is written, or a client is connected. Use of this mode can mean waiting indefinitely in some situations for a client process to perform an action.
 
 </td>
 </tr>
@@ -328,11 +328,11 @@ Blocking mode is enabled. When the pipe handle is specified in the
 </dl>
 </td>
 <td width="60%">
-Nonblocking mode is enabled. In this mode, <a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a>, <a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a>, and 
-<a href="https://msdn.microsoft.com/50f6680f-900e-4411-a849-ec9a911c9e32">ConnectNamedPipe</a> always return immediately.
+Nonblocking mode is enabled. In this mode, <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a>, <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>, and 
+<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a> always return immediately.
 
 Note that nonblocking mode is supported for compatibility with Microsoft LAN Manager version 2.0 and should not be used to achieve asynchronous I/O with named pipes. For more information on asynchronous pipe I/O, see 
-<a href="https://msdn.microsoft.com/5ab9bb7f-1f99-4041-bba8-2863f34dbcaf">Synchronous and Overlapped Input and Output</a>.
+<a href="https://docs.microsoft.com/windows/desktop/ipc/synchronous-and-overlapped-input-and-output">Synchronous and Overlapped Input and Output</a>.
 
 </td>
 </tr>
@@ -376,7 +376,7 @@ Connections from remote clients are automatically rejected.
 
 The maximum number of instances that can be created for this pipe. The first instance of the pipe can specify this value; the same number must be specified for other instances of the pipe. Acceptable values are in the range 1 through <b>PIPE_UNLIMITED_INSTANCES</b> (255).
 
-If this parameter is <b>PIPE_UNLIMITED_INSTANCES</b>, the number of pipe instances that can be created is limited only by the availability of system resources. If <i>nMaxInstances</i> is greater than <b>PIPE_UNLIMITED_INSTANCES</b>, the return value is <b>INVALID_HANDLE_VALUE</b> and <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns <b>ERROR_INVALID_PARAMETER</b>.
+If this parameter is <b>PIPE_UNLIMITED_INSTANCES</b>, the number of pipe instances that can be created is limited only by the availability of system resources. If <i>nMaxInstances</i> is greater than <b>PIPE_UNLIMITED_INSTANCES</b>, the return value is <b>INVALID_HANDLE_VALUE</b> and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_INVALID_PARAMETER</b>.
 
 
 ### -param nOutBufferSize [in]
@@ -392,7 +392,7 @@ The number of bytes to reserve for the input buffer. For a discussion on sizing 
 ### -param nDefaultTimeOut [in]
 
 The default time-out value, in milliseconds, if the 
-<a href="https://msdn.microsoft.com/cbb2300b-5d5f-4a7b-994b-63b747e9ccfc">WaitNamedPipe</a> function specifies <b>NMPWAIT_USE_DEFAULT_WAIT</b>. Each instance of a named pipe must specify the same value.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-waitnamedpipea">WaitNamedPipe</a> function specifies <b>NMPWAIT_USE_DEFAULT_WAIT</b>. Each instance of a named pipe must specify the same value.
 
 A value of zero will result in a default time-out of 50 milliseconds.
 
@@ -400,7 +400,7 @@ A value of zero will result in a default time-out of 50 milliseconds.
 ### -param lpSecurityAttributes [in, optional]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> structure that specifies a security descriptor for the new named pipe and determines whether child processes can inherit the returned handle. If <i>lpSecurityAttributes</i> is <b>NULL</b>, the named pipe gets a default security descriptor and the handle cannot be inherited. The ACLs in the default security descriptor for a named pipe grant full control to the LocalSystem account, administrators, and the creator owner. They also grant read access to members of the Everyone group and the anonymous account.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that specifies a security descriptor for the new named pipe and determines whether child processes can inherit the returned handle. If <i>lpSecurityAttributes</i> is <b>NULL</b>, the named pipe gets a default security descriptor and the handle cannot be inherited. The ACLs in the default security descriptor for a named pipe grant full control to the LocalSystem account, administrators, and the creator owner. They also grant read access to members of the Everyone group and the anonymous account.
 
 
 ## -returns
@@ -410,7 +410,7 @@ A pointer to a
 If the function succeeds, the return value is a handle to the server end of a named pipe instance.
 
 If the function fails, the return value is <b>INVALID_HANDLE_VALUE</b>. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -422,9 +422,9 @@ If the function fails, the return value is <b>INVALID_HANDLE_VALUE</b>. To get e
 To create an instance of a named pipe by using 
 <b>CreateNamedPipe</b>, the user must have <b>FILE_CREATE_PIPE_INSTANCE</b> access to the named pipe object. If a new named pipe is being created, the access control list (ACL) from the security attributes parameter defines the discretionary access control for the named pipe.
 
-All instances of a named pipe must specify the same pipe type (byte-type or message-type), pipe access (duplex, inbound, or outbound), instance count, and time-out value. If different values are used, this function fails and <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns <b>ERROR_ACCESS_DENIED</b>.
+All instances of a named pipe must specify the same pipe type (byte-type or message-type), pipe access (duplex, inbound, or outbound), instance count, and time-out value. If different values are used, this function fails and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_ACCESS_DENIED</b>.
 
- A client process connects to a named pipe by using the <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> or <a href="https://msdn.microsoft.com/9cfcb608-a539-4eb6-866c-81dafdabbcdb">CallNamedPipe</a> function. The client side of a named pipe starts out in byte mode, even if the server side is in message mode. To avoid problems receiving data, set the client side to message mode as well. To change the mode of the pipe, the pipe client must open a read-only pipe with <b>GENERIC_READ</b> and  <b>FILE_WRITE_ATTRIBUTES</b> access.
+ A client process connects to a named pipe by using the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-callnamedpipea">CallNamedPipe</a> function. The client side of a named pipe starts out in byte mode, even if the server side is in message mode. To avoid problems receiving data, set the client side to message mode as well. To change the mode of the pipe, the pipe client must open a read-only pipe with <b>GENERIC_READ</b> and  <b>FILE_WRITE_ATTRIBUTES</b> access.
 
 The pipe server should not perform a blocking read operation until the pipe client has started. Otherwise, a race condition can occur. This typically occurs when initialization code, such as the C run-time, needs to lock and examine inherited handles.
 
@@ -434,7 +434,7 @@ The input and output buffer sizes are advisory. The actual buffer size reserved 
 
 Whenever a pipe write operation occurs, the system first tries to charge the memory against the pipe write quota. If the remaining pipe write quota is enough to fulfill the request, the write operation completes immediately. If the remaining pipe write quota is too small to fulfill the request, the system will try to expand the buffers to accommodate the data using nonpaged pool reserved for the process. The write operation will block until the data is read from the pipe so that the additional buffer quota can be released. Therefore, if your specified buffer size is too small, the system will grow the buffer as needed, but the downside is that the operation will block. If the operation is overlapped, a system thread is blocked; otherwise, the application thread is blocked.
 
-To free resources used by a named pipe, the application should always close handles when they are no longer needed, which is accomplished either by calling the <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function or when the process associated with the instance handles ends. Note that an instance of a named pipe may have more than one handle associated with it. An instance of a named pipe is always deleted when the last handle to the instance of the named pipe is closed.
+To free resources used by a named pipe, the application should always close handles when they are no longer needed, which is accomplished either by calling the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function or when the process associated with the instance handles ends. Note that an instance of a named pipe may have more than one handle associated with it. An instance of a named pipe is always deleted when the last handle to the instance of the named pipe is closed.
 
 <b>Windows 10, version 1709:  </b>Pipes are only supported within an app-container; ie, from one UWP process to another UWP process that's part of the same app. Also, named pipes must use the syntax "\\.\pipe\LOCAL\" for the pipe name.
 
@@ -442,7 +442,7 @@ To free resources used by a named pipe, the application should always close hand
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/4657e814-0e7f-45b5-8ddb-17ec0c3612ba">Multithreaded Pipe Server</a>.
+<a href="https://docs.microsoft.com/windows/desktop/ipc/multithreaded-pipe-server">Multithreaded Pipe Server</a>.
 
 <div class="code"></div>
 
@@ -453,47 +453,47 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/50f6680f-900e-4411-a849-ec9a911c9e32">ConnectNamedPipe</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e80783e-9641-4cbd-9c28-a8efe6b9efaa">Pipe Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/ipc/pipe-functions">Pipe Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/7cb8cbe4-eec8-4dda-9cb7-8d37abcee6f4">Pipes Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/ipc/pipes">Pipes Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365468(v=VS.85).aspx">ReadFileEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfileex">ReadFileEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/79afcb18-babb-453e-8618-81b43ecb24c4">TransactNamedPipe</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe">TransactNamedPipe</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbb2300b-5d5f-4a7b-994b-63b747e9ccfc">WaitNamedPipe</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-waitnamedpipea">WaitNamedPipe</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365748(v=VS.85).aspx">WriteFileEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a>
  
 
  

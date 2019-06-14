@@ -49,10 +49,10 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>KERB_SMART_CARD_LOGON</b> structure contains information about a smart card <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">logon session</a>.
+The <b>KERB_SMART_CARD_LOGON</b> structure contains information about a smart card <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a>.
 
 It is used by 
-<a href="https://msdn.microsoft.com/75968d53-5af2-4d77-9486-26403b73c954">LsaLogonUser</a> with the Kerberos security package using LOGON32_PROVIDER_WINNT50 or LOGON32_PROVIDER_DEFAULT.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> with the Kerberos security package using LOGON32_PROVIDER_WINNT50 or LOGON32_PROVIDER_DEFAULT.
 
 
 ## -struct-fields
@@ -63,13 +63,13 @@ It is used by
 ### -field MessageType
 
 
-<a href="https://msdn.microsoft.com/500bee53-638b-4782-b42d-1df158396fb6">KERB_LOGON_SUBMIT_TYPE</a> value identifying the type of logon request being made. This member must be set to <b>KerbInteractiveLogon</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_kerb_logon_submit_type">KERB_LOGON_SUBMIT_TYPE</a> value identifying the type of logon request being made. This member must be set to <b>KerbInteractiveLogon</b>.
 
 
 ### -field Pin
 
 
-<a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> that specifies the PIN associated with the smart card.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> that specifies the PIN associated with the smart card.
 
 
 ### -field CspDataLength

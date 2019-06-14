@@ -59,7 +59,7 @@ Gets a previously added credential password based on a specified index.
 
 ### -param self [in]
 
-A <a href="https://msdn.microsoft.com/aaed635c-ee53-4307-a5b4-e9d3bd2e7c21">MI_SubscriptionDeliveryOptions</a> structure.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_subscriptiondeliveryoptions">MI_SubscriptionDeliveryOptions</a> structure.
 
 
 ### -param index
@@ -69,12 +69,12 @@ Zero-based index of the credential password.
 
 ### -param optionName
 
-A pointer to a null-terminated string containing the returned name of the option. This name is owned by the <a href="https://msdn.microsoft.com/aaed635c-ee53-4307-a5b4-e9d3bd2e7c21">MI_SubscriptionDeliveryOptions</a> structure.
+A pointer to a null-terminated string containing the returned name of the option. This name is owned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_subscriptiondeliveryoptions">MI_SubscriptionDeliveryOptions</a> structure.
 
 
 ### -param password
 
-Returned password. This parameter is an in/out buffer that is passed in to be filled. This buffer should be cleared (using the <a href="https://msdn.microsoft.com/2c4090a6-025b-4b7b-8f31-7e744ad51b39">SecureZeroMemory</a> function) as soon as the password is no longer needed for security reasons. If the input value is <b>NULL</b>, the <i>bufferLength</i> parameter should be zero, and the length needed will be passed back in the <i>passwordLength</i> parameter.
+Returned password. This parameter is an in/out buffer that is passed in to be filled. This buffer should be cleared (using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function) as soon as the password is no longer needed for security reasons. If the input value is <b>NULL</b>, the <i>bufferLength</i> parameter should be zero, and the length needed will be passed back in the <i>passwordLength</i> parameter.
 
 
 ### -param bufferLength [in]
@@ -96,7 +96,7 @@ Returned credential flags.
 
 
 
-A value of the <a href="https://msdn.microsoft.com/9AA2B479-E8A5-4F0C-A8A4-06DB7CB7CA2F">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 
 
@@ -106,7 +106,7 @@ A value of the <a href="https://msdn.microsoft.com/9AA2B479-E8A5-4F0C-A8A4-06DB7
 
 
 
-<a href="https://msdn.microsoft.com/aaed635c-ee53-4307-a5b4-e9d3bd2e7c21">MI_SubscriptionDeliveryOptions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_subscriptiondeliveryoptions">MI_SubscriptionDeliveryOptions</a>
  
 
  

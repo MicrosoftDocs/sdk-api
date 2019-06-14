@@ -60,7 +60,7 @@ The <b>PEER_APPLICATION_REGISTRATION_INFO</b> structure contains peer applicatio
 ### -field application
 
 
-<a href="https://msdn.microsoft.com/a219231b-75d0-47d3-8294-f1cc25b43d27">PEER_APPLICATION</a> structure that contains the specific peer application data.
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_application_tag">PEER_APPLICATION</a> structure that contains the specific peer application data.
 
 
 ### -field pwzApplicationToLaunch
@@ -76,7 +76,7 @@ Zero-terminated Unicode string that contains command-line arguments that must be
 ### -field dwPublicationScope
 
 
-<a href="https://msdn.microsoft.com/fecb9403-f790-4955-a879-fb3e6fbfe8ca">PEER_PUBLICATION_SCOPE</a> enumeration value that specifies the publication scope for this application registration information. The only valid value for this member is PEER_PUBLICATION_SCOPE_INTERNET.
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_publication_scope_tag">PEER_PUBLICATION_SCOPE</a> enumeration value that specifies the publication scope for this application registration information. The only valid value for this member is PEER_PUBLICATION_SCOPE_INTERNET.
 
 
 ## -remarks
@@ -85,7 +85,7 @@ Zero-terminated Unicode string that contains command-line arguments that must be
 
 An "application" is a set of software or software  components available on the peer's endpoint. Commonly, this refers to software packages that support peer networking activities, like games or other collaborative applications.
 
-A peer application has a GUID representing a single specific application. When an application is registered for a peer, this GUID and the corresponding application can be made available to all trusted contacts of the peer, indicating the activities the peer can participate in. To deregister a peer's application, call <a href="https://msdn.microsoft.com/2479b726-20f1-4370-9fcf-f29cec44c3ec">PeerCollabUnregisterApplication</a> with this GUID.
+A peer application has a GUID representing a single specific application. When an application is registered for a peer, this GUID and the corresponding application can be made available to all trusted contacts of the peer, indicating the activities the peer can participate in. To deregister a peer's application, call <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabunregisterapplication">PeerCollabUnregisterApplication</a> with this GUID.
 
 
 
@@ -95,11 +95,11 @@ A peer application has a GUID representing a single specific application. When a
 
 
 
-<a href="https://msdn.microsoft.com/a219231b-75d0-47d3-8294-f1cc25b43d27">PEER_APPLICATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_application_tag">PEER_APPLICATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/2634899c-3263-45ce-9fac-407e11e42cd4">Peer Collaboration API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-structures">Peer Collaboration API Structures</a>
  
 
  

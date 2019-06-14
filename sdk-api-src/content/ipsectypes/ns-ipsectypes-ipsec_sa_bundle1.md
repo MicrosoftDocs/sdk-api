@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>IPSEC_SA_BUNDLE1</b> structure is used to store information about an IPsec security association (SA) bundle.
-<div class="alert"><b>Note</b>  <b>IPSEC_SA_BUNDLE1</b> is the specific implementation of IPSEC_SA_BUNDLE used in Windows 7 and later. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <a href="https://msdn.microsoft.com/65376dd9-e06c-41ff-8689-74be12c47239">IPSEC_SA_BUNDLE0</a> is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>IPSEC_SA_BUNDLE1</b> is the specific implementation of IPSEC_SA_BUNDLE used in Windows 7 and later. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle0_">IPSEC_SA_BUNDLE0</a> is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -212,7 +212,7 @@ Indicates that the peer computer supports negotiating a separate SA for connecti
 
 ### -field lifetime
 
-Lifetime of all the SAs in the bundle as specified by <a href="https://msdn.microsoft.com/9ade5a9a-5c48-4a94-bb35-77f9866e8e6f">IPSEC_SA_LIFETIME0</a>.
+Lifetime of all the SAs in the bundle as specified by <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_lifetime0_">IPSEC_SA_LIFETIME0</a>.
 
 
 ### -field idleTimeoutSeconds
@@ -230,7 +230,7 @@ Used for negotiation discovery.
 
 ### -field ipsecId
 
-Pointer to an <a href="https://msdn.microsoft.com/e8881c50-9586-447e-a514-cc28895e5e90">IPSEC_ID0</a> structure that contains optional IPsec identity info.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_id0_">IPSEC_ID0</a> structure that contains optional IPsec identity info.
 
 
 ### -field napContext
@@ -254,17 +254,17 @@ Array of IPsec SAs in the bundle. For AH and ESP SAs, use index 0 for ESP SA and
 
 
 
-See <a href="https://msdn.microsoft.com/9d60f5d7-57af-4c33-90ed-b69a9671a9ce">IPSEC_SA0</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa0_">IPSEC_SA0</a> for more information.
 
 
 ### -field keyModuleState
 
-Optional keying module specific information as specified by <a href="https://msdn.microsoft.com/5df02d3b-c61a-4c4b-a9ef-182c97a35f41">IPSEC_KEYMODULE_STATE0</a>.
+Optional keying module specific information as specified by <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_keymodule_state0_">IPSEC_KEYMODULE_STATE0</a>.
 
 
 ### -field ipVersion
 
-IP version as specified by <a href="https://msdn.microsoft.com/1712b83c-f32d-4981-9950-ab870a376182">FWP_IP_VERSION</a>.
+IP version as specified by <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version_">FWP_IP_VERSION</a>.
 
 
 ### -field peerV4PrivateAddress
@@ -284,12 +284,12 @@ Use this ID to correlate this IPsec SA with the IKE SA that generated it.
    this SA, and if so, contains the Diffie-Hellman group that was used for
    PFS.
 
-See <a href="https://msdn.microsoft.com/0f0ea028-859b-42ca-a4e3-fe23f0836883">IPSEC_PFS_GROUP</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_pfs_group_">IPSEC_PFS_GROUP</a> for more information.
 
 
 ### -field saLookupContext
 
-SA lookup context which is propagated from the SA to data connections flowing over that SA. It is made available to any application that queries socket security properties using the Winsock API <a href="https://msdn.microsoft.com/fda7738f-b7fc-49c3-aa40-9beea31d1009">WSAQuerySocketSecurity</a> function, allowing the application to obtain detailed IPsec authentication information for its connection.
+SA lookup context which is propagated from the SA to data connections flowing over that SA. It is made available to any application that queries socket security properties using the Winsock API <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-wsaquerysocketsecurity">WSAQuerySocketSecurity</a> function, allowing the application to obtain detailed IPsec authentication information for its connection.
 
 
 ### -field qmFilterId
@@ -300,27 +300,27 @@ SA lookup context which is propagated from the SA to data connections flowing ov
 
 
 
-<a href="https://msdn.microsoft.com/1712b83c-f32d-4981-9950-ab870a376182">FWP_IP_VERSION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version_">FWP_IP_VERSION</a>
 
 
 
-<a href="https://msdn.microsoft.com/5df02d3b-c61a-4c4b-a9ef-182c97a35f41">IPSEC_KEYMODULE_STATE0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_keymodule_state0_">IPSEC_KEYMODULE_STATE0</a>
 
 
 
-<a href="https://msdn.microsoft.com/0f0ea028-859b-42ca-a4e3-fe23f0836883">IPSEC_PFS_GROUP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_pfs_group_">IPSEC_PFS_GROUP</a>
 
 
 
-<a href="https://msdn.microsoft.com/9d60f5d7-57af-4c33-90ed-b69a9671a9ce">IPSEC_SA0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa0_">IPSEC_SA0</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ade5a9a-5c48-4a94-bb35-77f9866e8e6f">IPSEC_SA_LIFETIME0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_lifetime0_">IPSEC_SA_LIFETIME0</a>
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

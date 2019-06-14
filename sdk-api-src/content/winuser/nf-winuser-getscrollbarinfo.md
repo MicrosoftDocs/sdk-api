@@ -65,17 +65,17 @@ The <b>GetScrollBarInfo</b> function retrieves information about the specified s
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a window associated with the scroll bar whose information is to be retrieved. If the 
 					<i>idObject</i> parameter is OBJID_CLIENT, 
 					<i>hwnd</i> is a handle to a scroll bar control. Otherwise, 
-					<i>hwnd</i> is a handle to a window created with <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">WS_VSCROLL</a> and/or <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">WS_HSCROLL</a> style. 
+					<i>hwnd</i> is a handle to a window created with <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-styles">WS_VSCROLL</a> and/or <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-styles">WS_HSCROLL</a> style. 
 
 
 ### -param idObject [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Specifies the scroll bar object. This parameter can be one of the following values. 
 
@@ -125,7 +125,7 @@ The vertical scroll bar of the
 
 Type: <b>PSCROLLBARINFO</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb787535(v=VS.85).aspx">SCROLLBARINFO</a> structure to receive the information. Before calling <b>GetScrollBarInfo</b>, set the 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagscrollbarinfo">SCROLLBARINFO</a> structure to receive the information. Before calling <b>GetScrollBarInfo</b>, set the 
 					<b>cbSize</b> member to 
 					<b>sizeof</b>(<b>SCROLLBARINFO</b>). 
 
@@ -134,11 +134,11 @@ Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb787535(v=VS.85)
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -147,7 +147,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-If <i>idObject</i> is OBJID_CLIENT and the window specified by <i>hwnd</i> is not a system scroll bar control, the system sends the <a href="https://msdn.microsoft.com/en-us/library/Bb787545(v=VS.85).aspx">SBM_GETSCROLLBARINFO</a> message to the window to obtain scroll bar information.  This allows <b>GetScrollBarInfo</b> to operate on a custom control that mimics a scroll bar.  If the window does not handle the <b>SBM_GETSCROLLBARINFO</b> message, the <b>GetScrollBarInfo</b> function fails.
+If <i>idObject</i> is OBJID_CLIENT and the window specified by <i>hwnd</i> is not a system scroll bar control, the system sends the <a href="https://docs.microsoft.com/windows/desktop/Controls/sbm-getscrollbarinfo">SBM_GETSCROLLBARINFO</a> message to the window to obtain scroll bar information.  This allows <b>GetScrollBarInfo</b> to operate on a custom control that mimics a scroll bar.  If the window does not handle the <b>SBM_GETSCROLLBARINFO</b> message, the <b>GetScrollBarInfo</b> function fails.
 
 
 
@@ -158,7 +158,7 @@ If <i>idObject</i> is OBJID_CLIENT and the window specified by <i>hwnd</i> is no
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787535(v=VS.85).aspx">SCROLLBARINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagscrollbarinfo">SCROLLBARINFO</a>
  
 
  

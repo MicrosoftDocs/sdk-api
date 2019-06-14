@@ -53,12 +53,12 @@ The
 <b>ITAddressDeviceSpecificEvent</b> exposes methods that allow an application to retrieve information about a device-specific event.
 
 For a code example that illustrates how to create this interface, see the 
-<a href="https://msdn.microsoft.com/236d4e7f-865f-4b26-8da6-c86476588c47">Phone and Address Device-specific Events</a> topic.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/phone-and-address-device-specific-events">Phone and Address Device-specific Events</a> topic.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAddressDeviceSpecificEvent</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITAddressDeviceSpecificEvent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAddressDeviceSpecificEvent</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITAddressDeviceSpecificEvent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,27 +73,27 @@ The <b>ITAddressDeviceSpecificEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/95b745c9-c18a-47c9-8ceb-b2c225ebbf73">get_Address</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddressdevicespecificevent-get_address">get_Address</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the 
-<a href="https://msdn.microsoft.com/93f2e4cf-013e-4064-88d5-69fddd458274">ITAddress</a> interface of the Address object involved in the event.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a> interface of the Address object involved in the event.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dcf3b82d-5c1f-41f7-bb6a-6470a96f4049">get_Call</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddressdevicespecificevent-get_call">get_Call</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the 
-<a href="https://msdn.microsoft.com/5209d4a1-e05b-453e-8896-2dc71f0b9af0">ITCallInfo</a> interface of the Call object involved in the event.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a> interface of the Call object involved in the event.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e0cae67a-0c39-407a-b563-bef14c36f014">get_lParam1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddressdevicespecificevent-get_lparam1">get_lParam1</a>
 </td>
 <td align="left" width="63%">
 Gets the first device-specific buffer.
@@ -102,7 +102,7 @@ Gets the first device-specific buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b155cf6b-babd-4c47-8571-96f970878d81">get_lParam2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddressdevicespecificevent-get_lparam2">get_lParam2</a>
 </td>
 <td align="left" width="63%">
 Gets the second device-specific buffer.
@@ -111,7 +111,7 @@ Gets the second device-specific buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8e0a513d-2bf4-4bdf-926f-2e88a8465073">get_lParam3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddressdevicespecificevent-get_lparam3">get_lParam3</a>
 </td>
 <td align="left" width="63%">
 Gets the third device-specific buffer.

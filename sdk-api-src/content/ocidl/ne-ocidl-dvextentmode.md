@@ -72,11 +72,11 @@ Indicates that the container will provide a proposed size to the object for its 
 
 
 
-<a href="https://msdn.microsoft.com/bd603de2-39db-43a1-a391-01dcfedc073f">DVEXTENTINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagextentinfo">DVEXTENTINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/5759c482-2dea-4b94-956d-9560f72acbd5">IViewObjectEx::GetNaturalExtent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getnaturalextent">IViewObjectEx::GetNaturalExtent</a>
  
 
  

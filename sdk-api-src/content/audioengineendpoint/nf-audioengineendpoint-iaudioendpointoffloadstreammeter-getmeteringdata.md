@@ -82,7 +82,7 @@ The <b>GetMeteringData</b> method returns <b>S_OK</b> to indicate that it has co
 
 
 
-<a href="https://msdn.microsoft.com/B19413F9-1DE9-4940-B0A1-11E5278F084B">IAudioEndpointOffloadStreamMeter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioendpointoffloadstreammeter">IAudioEndpointOffloadStreamMeter</a>
  
 
  

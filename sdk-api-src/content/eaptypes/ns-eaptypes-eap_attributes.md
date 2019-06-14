@@ -59,7 +59,7 @@ The <b>EAP_ATTRIBUTES</b> structure contains an array of EAP attributes.
 
 ### -field dwNumberOfAttributes
 
-The number of <a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> structures in <b>pAttribs</b>.
+The number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> structures in <b>pAttribs</b>.
 
 
 ### -field pAttribs.size_is
@@ -74,7 +74,7 @@ The number of <a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2
 
 ### -field pAttribs
 
-Pointer to the address of the first element in an array of <a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> structures. The total number of elements is specified in <b>dwNumberOfAttributes</b>.
+Pointer to the address of the first element in an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> structures. The total number of elements is specified in <b>dwNumberOfAttributes</b>.
 
 
 ## -see-also
@@ -82,11 +82,11 @@ Pointer to the address of the first element in an array of <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/f6f3b909-1e89-47f8-853c-c0f3f2414817">Common EAPHost API Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/common-eap-host-api-structures">Common EAPHost API Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a>
  
 
  

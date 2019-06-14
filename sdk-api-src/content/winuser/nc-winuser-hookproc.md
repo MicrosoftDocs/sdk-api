@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-An application-defined or library-defined callback function used with the <a href="https://msdn.microsoft.com/en-us/library/ms644990(v=VS.85).aspx">SetWindowsHookEx</a> function. The system calls this function after the <a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a> function is called. The hook procedure can examine the message; it cannot modify it.
+An application-defined or library-defined callback function used with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a> function. The system calls this function after the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> function is called. The hook procedure can examine the message; it cannot modify it.
 
 The <b>HOOKPROC</b> type defines a pointer to this callback function. <i>CallWndRetProc</i> is a placeholder for the application-defined or library-defined function name.
 
@@ -73,14 +73,14 @@ Specifies whether the message is sent by the current process. If the message is 
 
 Type: <b>LPARAM</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms644963(v=VS.85).aspx">CWPRETSTRUCT</a> structure that contains details about the message. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagcwpretstruct">CWPRETSTRUCT</a> structure that contains details about the message. 
 
 
 #### - nCode [in]
 
 Type: <b>int</b>
 
-Specifies whether the hook procedure must process the message. If <i>nCode</i> is <b>HC_ACTION</b>, the hook procedure must process the message. If 	<i>nCode</i> is less than zero, the hook procedure must pass the message to the <a href="https://msdn.microsoft.com/en-us/library/ms644974(v=VS.85).aspx">CallNextHookEx</a> function without further processing and should return the value returned by <b>CallNextHookEx</b>. 
+Specifies whether the hook procedure must process the message. If <i>nCode</i> is <b>HC_ACTION</b>, the hook procedure must process the message. If 	<i>nCode</i> is less than zero, the hook procedure must pass the message to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-callnexthookex">CallNextHookEx</a> function without further processing and should return the value returned by <b>CallNextHookEx</b>. 
 
 
 ## -returns
@@ -90,9 +90,9 @@ Specifies whether the hook procedure must process the message. If <i>nCode</i> i
 Type: <strong>Type: <b>LRESULT</b>
 </strong>
 
-If <i>nCode</i> is less than zero, the hook procedure must return the value returned by <a href="https://msdn.microsoft.com/en-us/library/ms644974(v=VS.85).aspx">CallNextHookEx</a>. 
+If <i>nCode</i> is less than zero, the hook procedure must return the value returned by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-callnexthookex">CallNextHookEx</a>. 
 
-If <i>nCode</i> is greater than or equal to zero, it is highly recommended that you call <a href="https://msdn.microsoft.com/en-us/library/ms644974(v=VS.85).aspx">CallNextHookEx</a> and return the value it returns; otherwise, other applications that have installed <a href="https://msdn.microsoft.com/en-us/library/ms644959(v=VS.85).aspx">WH_CALLWNDPROCRET</a> hooks will not receive hook notifications and may behave incorrectly as a result. If the hook procedure does not call <b>CallNextHookEx</b>, the return value should be zero. 
+If <i>nCode</i> is greater than or equal to zero, it is highly recommended that you call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-callnexthookex">CallNextHookEx</a> and return the value it returns; otherwise, other applications that have installed <a href="https://docs.microsoft.com/windows/desktop/winmsg/about-hooks">WH_CALLWNDPROCRET</a> hooks will not receive hook notifications and may behave incorrectly as a result. If the hook procedure does not call <b>CallNextHookEx</b>, the return value should be zero. 
 
 
 
@@ -101,7 +101,7 @@ If <i>nCode</i> is greater than or equal to zero, it is highly recommended that 
 
 
 
-An application installs the hook procedure by specifying the <a href="https://msdn.microsoft.com/en-us/library/ms644959(v=VS.85).aspx">WH_CALLWNDPROCRET</a> hook type and a pointer to the hook procedure in a call to the <a href="https://msdn.microsoft.com/en-us/library/ms644990(v=VS.85).aspx">SetWindowsHookEx</a> function. 
+An application installs the hook procedure by specifying the <a href="https://docs.microsoft.com/windows/desktop/winmsg/about-hooks">WH_CALLWNDPROCRET</a> hook type and a pointer to the hook procedure in a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a> function. 
 
 
 
@@ -111,15 +111,15 @@ An application installs the hook procedure by specifying the <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644963(v=VS.85).aspx">CWPRETSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagcwpretstruct">CWPRETSTRUCT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644974(v=VS.85).aspx">CallNextHookEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-callnexthookex">CallNextHookEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644975(v=VS.85).aspx">CallWndProc</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644975(v=vs.85)">CallWndProc</a>
 
 
 
@@ -127,7 +127,7 @@ An application installs the hook procedure by specifying the <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632589(v=VS.85).aspx">Hooks</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/hooks">Hooks</a>
 
 
 
@@ -135,11 +135,11 @@ An application installs the hook procedure by specifying the <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644990(v=VS.85).aspx">SetWindowsHookEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>
  
 
  

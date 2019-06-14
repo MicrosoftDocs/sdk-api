@@ -90,7 +90,7 @@ When <a href="https://docs.microsoft.com/en-us/uwp/api/windows.foundation.memory
 
 
 
-<a href="https://msdn.microsoft.com/F995FAC6-D873-41CC-9F92-A5A87BFE38FD">IMemoryBufferByteAccess</a>
+<a href="https://docs.microsoft.com/previous-versions//mt297505(v=vs.85)">IMemoryBufferByteAccess</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/613c972d-ab52-495a-a8fd-2827e39e9a4e">ITsSbEnvironmentPropertySet</a> environment property set object.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbenvironmentpropertyset">ITsSbEnvironmentPropertySet</a> environment property set object.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Creates an <a href="https://msdn.microsoft.com/613c972d-ab52-495a-a8fd-2827e39e9
 
 ### -param ppPropertySet [out]
 
-A pointer to the created <a href="https://msdn.microsoft.com/613c972d-ab52-495a-a8fd-2827e39e9a4e">ITsSbEnvironmentPropertySet</a> environment property set object.
+A pointer to the created <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbenvironmentpropertyset">ITsSbEnvironmentPropertySet</a> environment property set object.
 
 
 ## -returns
@@ -85,11 +85,11 @@ Plug-ins can use this method to create an environment property set object.
 
 
 
-<a href="https://msdn.microsoft.com/613c972d-ab52-495a-a8fd-2827e39e9a4e">ITsSbEnvironmentPropertySet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbenvironmentpropertyset">ITsSbEnvironmentPropertySet</a>
 
 
 
-<a href="https://msdn.microsoft.com/a8574750-d86e-4b0d-a534-d005596e2a33">ITsSbProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbprovider">ITsSbProvider</a>
  
 
  

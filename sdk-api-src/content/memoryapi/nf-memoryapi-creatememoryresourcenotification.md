@@ -107,7 +107,7 @@ Available physical memory is high.
 If the function succeeds, the return value is a handle to a memory resource notification object.
 
 If the function fails, the return value is <b>NULL</b>. To get extended  information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -121,21 +121,21 @@ Applications can use memory resource notification events to scale the memory usa
     can allocate more memory.
 
 Any thread of the calling process can specify the memory resource notification handle in a call to the 
-    <a href="https://msdn.microsoft.com/95a38b97-7fae-4ec6-aa9e-cc800d40594b">QueryMemoryResourceNotification</a> 
-    function or one of the <a href="https://msdn.microsoft.com/9c66c71d-fdfd-42ae-895c-2fc842b5bc7a">wait functions</a>. The state of the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-querymemoryresourcenotification">QueryMemoryResourceNotification</a> 
+    function or one of the <a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">wait functions</a>. The state of the 
     object is signaled when the specified memory condition exists. This is a system-wide event, so all applications 
     receive notification when the object is signaled. Note that there is a range of memory availability where neither 
     the <b>LowMemoryResourceNotification</b> or 
     <b>HighMemoryResourceNotification</b> object is signaled. In this case, applications should 
     attempt to keep the memory use constant.
 
-Use the <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function to close the handle. The 
+Use the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close the handle. The 
     system closes the handle automatically when the process terminates. The memory resource notification object is 
     destroyed when its last handle has been closed.
 
 To compile an application that uses this function, define the <b>_WIN32_WINNT</b> macro 
     as 0x0501 or later. For more information, see 
-    <a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 
@@ -145,15 +145,15 @@ To compile an application that uses this function, define the <b>_WIN32_WINNT</b
 
 
 
-<a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a2a7a62-0bda-4a0d-93d2-25b4898871fd">Memory Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/95a38b97-7fae-4ec6-aa9e-cc800d40594b">QueryMemoryResourceNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-querymemoryresourcenotification">QueryMemoryResourceNotification</a>
  
 
  

@@ -59,9 +59,9 @@ Gets a value that states whether the known folder can have its path set to a new
 
 ### -param pCapabilities [out]
 
-Type: <b><a href="https://msdn.microsoft.com/3c9830fc-75cd-4b11-bfb4-55b66063614b">KF_REDIRECTION_CAPABILITIES</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_kf_redirection_capabilities">KF_REDIRECTION_CAPABILITIES</a>*</b>
 
-When this method returns, contains a pointer to a <a href="https://msdn.microsoft.com/3c9830fc-75cd-4b11-bfb4-55b66063614b">KF_REDIRECTION_CAPABILITIES</a> value that indicates the redirection capabilities for this folder.
+When this method returns, contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_kf_redirection_capabilities">KF_REDIRECTION_CAPABILITIES</a> value that indicates the redirection capabilities for this folder.
 
 
 ## -returns
@@ -80,11 +80,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/dbade93d-73f6-401b-9986-4e6fd439c874">IKnownFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfolder">IKnownFolder</a>
 
 
 
-<a href="https://msdn.microsoft.com/49799A9E-BA86-4977-B5F3-590BE1E5FBF6">Known Folders Sample</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>
  
 
  

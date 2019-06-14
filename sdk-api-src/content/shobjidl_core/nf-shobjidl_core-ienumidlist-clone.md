@@ -59,9 +59,9 @@ Creates a new item enumeration object with the same contents and state as the cu
 
 ### -param ppenum
 
-Type: <b><a href="https://msdn.microsoft.com/b6f139d3-c54c-4350-9d8b-cd534909a488">IEnumIDList</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumidlist">IEnumIDList</a>**</b>
 
-The address of a pointer to the new enumeration object. The calling application must eventually free the new object by calling its <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a> member function.
+The address of a pointer to the new enumeration object. The calling application must eventually free the new object by calling its <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> member function.
 
 
 ## -returns
@@ -89,7 +89,7 @@ This method makes it possible to record a particular point in the enumeration se
 
 
 
-<a href="https://msdn.microsoft.com/b6f139d3-c54c-4350-9d8b-cd534909a488">IEnumIDList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumidlist">IEnumIDList</a>
  
 
  

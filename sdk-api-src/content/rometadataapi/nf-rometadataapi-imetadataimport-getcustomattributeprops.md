@@ -64,7 +64,7 @@ A metadata token that represents the custom attribute to be retrieved.
 
 ### -param ptkObj [out]
 
-A metadata token representing the object that the custom attribute modifies. This value can be any type of metadata token except <b>mdCustomAttribute</b>. See <a href="http://msdn.microsoft.com/en-us/library/ms404456.aspx">Metadata Tokens</a> for more information about the token types.
+A metadata token representing the object that the custom attribute modifies. This value can be any type of metadata token except <b>mdCustomAttribute</b>. See <a href="https://docs.microsoft.com/previous-versions/dotnet/netframework-4.0/ms404456(v=vs.100)">Metadata Tokens</a> for more information about the token types.
 
 
 ### -param ptkType [out]
@@ -105,7 +105,7 @@ A custom attribute is stored as an array of data, the format of which is underst
 
 
 
-<a href="https://msdn.microsoft.com/5457d9d3-9a43-4e89-a52f-1254662ed92a">IMetaDataImport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
  
 
  

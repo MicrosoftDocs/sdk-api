@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Obtains the <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access token</a> for a client <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a> and uses it directly.
+Obtains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access token</a> for a client <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a> and uses it directly.
 
 
 ## -parameters
@@ -82,7 +82,7 @@ If the function fails, it returns a nonzero error code. One possible error code 
 
 
 
-This function is called by a server application to control impersonation outside the SSPI layer, such as when launching a child process. The handle returned must be closed with <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> when the handle is no longer needed.
+This function is called by a server application to control impersonation outside the SSPI layer, such as when launching a child process. The handle returned must be closed with <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> when the handle is no longer needed.
 
 
 
@@ -92,11 +92,11 @@ This function is called by a server application to control impersonation outside
 
 
 
-<a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
  
 
  

@@ -103,7 +103,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/38f07582-908b-430e-a886-c0fc24b807ef">IAsynchronousDataRetriever Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-iasynchronousdataretriever">IAsynchronousDataRetriever Interface</a>
  
 
  

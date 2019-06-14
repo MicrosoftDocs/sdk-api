@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Retrieves a task <a href="https://msdn.microsoft.com/en-us/library/Aa382533(v=VS.85).aspx">trigger</a>.
+Retrieves a task <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/t">trigger</a>.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ The index of the trigger to retrieve.
 ### -param ppTrigger [out]
 
 A pointer to a pointer to an 
-<a href="https://msdn.microsoft.com/990702f4-fb6f-47a7-b538-f6632f831a4e">ITaskTrigger</a> interface for the retrieved trigger.
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itasktrigger">ITaskTrigger</a> interface for the retrieved trigger.
 
 
 ## -returns
@@ -126,11 +126,11 @@ Not enough memory is available.
 
 
 
-<a href="https://msdn.microsoft.com/e668833a-094d-4504-90a0-87912a6a53c2">IScheduledWorkItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/990702f4-fb6f-47a7-b538-f6632f831a4e">ITaskTrigger</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itasktrigger">ITaskTrigger</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The <b>CryptCATAdminAddCatalog</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CryptCATAdminAddCatalog</b> function adds a catalog to the catalog database. The catalog database is an index that associates file hashes with the catalogs that contain them.  It is used to speed the identification of the catalogs when verifying the file signature.  This function is the only supported way to programmatically add catalogs to the Windows catalog database. The function has no associated import library. You must use the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> functions to dynamically link to Wintrust.dll.
+The <b>CryptCATAdminAddCatalog</b> function adds a catalog to the catalog database. The catalog database is an index that associates file hashes with the catalogs that contain them.  It is used to speed the identification of the catalogs when verifying the file signature.  This function is the only supported way to programmatically add catalogs to the Windows catalog database. The function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>CryptCATAdminAddCatalog</b> function adds a catalog to the catalog databa
 
 ### -param hCatAdmin [in]
 
-Handle previously assigned by the  <a href="https://msdn.microsoft.com/693af055-fa93-4526-aa9c-3a659f8ff78f">CryptCATAdminAcquireContext</a> function.
+Handle previously assigned by the  <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatadminacquirecontext">CryptCATAdminAcquireContext</a> function.
 
 
 ### -param pwszCatalogFile [in]
@@ -83,9 +83,9 @@ If the CRYPTCAT_ADDCATALOG_HARDLINK (0x00000001) flag is specified, the catalog 
 
 
 
-If the function succeeds, the return value is a handle to the catalog information context. If the function fails, the return value is <b>NULL</b>. After you have finished using the returned handle, free it by calling the  <a href="https://msdn.microsoft.com/6cc13013-2c0a-4934-a866-30b69cbcf934">CryptCATAdminReleaseCatalogContext</a> function.
+If the function succeeds, the return value is a handle to the catalog information context. If the function fails, the return value is <b>NULL</b>. After you have finished using the returned handle, free it by calling the  <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatadminreleasecatalogcontext">CryptCATAdminReleaseCatalogContext</a> function.
 
-For extended error information, call the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function. For a complete list of error codes provided by the operating system, see <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+For extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. For a complete list of error codes provided by the operating system, see <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -95,11 +95,11 @@ For extended error information, call the <a href="https://msdn.microsoft.com/d85
 
 
 
-<a href="https://msdn.microsoft.com/693af055-fa93-4526-aa9c-3a659f8ff78f">CryptCATAdminAcquireContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatadminacquirecontext">CryptCATAdminAcquireContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/6cc13013-2c0a-4934-a866-30b69cbcf934">CryptCATAdminReleaseCatalogContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatadminreleasecatalogcontext">CryptCATAdminReleaseCatalogContext</a>
  
 
  

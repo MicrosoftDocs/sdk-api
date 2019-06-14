@@ -59,12 +59,12 @@ ms.custom: 19H1
 
 ### -field count
 
-The number of result codes as a number between 0 and <a href="https://msdn.microsoft.com/2727487c-8c6a-4cd9-b6d8-253191a7d7f6">maxDwordCountPerSoHAttribute</a>.
+The number of result codes as a number between 0 and <a href="https://docs.microsoft.com/windows/desktop/NAP/nap-type-constants">maxDwordCountPerSoHAttribute</a>.
 
 
 ### -field results
 
-A pointer to either a list of application defined 4-octet HRESULTs that specify whether the client machine is compliant, or a list of <a href="https://msdn.microsoft.com/b2fba990-75d9-4153-8058-c01e97700d00">NAP error constants</a> that specify the cause of <a href="https://msdn.microsoft.com/6db0303d-ab33-4fb9-90a2-b909b2781ba5">SoH</a> construction or processing errors. The values must be in the byte ordering of the host system.
+A pointer to either a list of application defined 4-octet HRESULTs that specify whether the client machine is compliant, or a list of <a href="https://docs.microsoft.com/windows/desktop/NAP/nap-error-constants">NAP error constants</a> that specify the cause of <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-tagsoh">SoH</a> construction or processing errors. The values must be in the byte ordering of the host system.
 
 
 ## -see-also
@@ -72,11 +72,11 @@ A pointer to either a list of application defined 4-octet HRESULTs that specify 
 
 
 
-<a href="https://msdn.microsoft.com/e391be3c-95ab-4c80-a5d8-8a8fef28e56b">NAP Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/NAP/nap-reference">NAP Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/68048587-0f7e-48d4-9326-768a977ea3ee">NAP Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/NAP/nap-structures">NAP Structures</a>
  
 
  

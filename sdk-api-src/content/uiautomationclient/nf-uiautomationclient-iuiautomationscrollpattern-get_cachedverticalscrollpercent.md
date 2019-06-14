@@ -63,11 +63,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/cb62389c-5a7a-412d-a024-0ce9bc6403a2">IUIAutomationScrollPattern</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationscrollpattern">IUIAutomationScrollPattern</a>
 
 
 
-<a href="https://msdn.microsoft.com/8cdc76fc-dfac-462e-977f-e216fce43607">IUIAutomationScrollPattern::CachedHorizontalScrollPercent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-get_cachedhorizontalscrollpercent">IUIAutomationScrollPattern::CachedHorizontalScrollPercent</a>
  
 
  

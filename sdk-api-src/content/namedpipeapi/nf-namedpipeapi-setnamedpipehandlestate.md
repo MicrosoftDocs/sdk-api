@@ -67,14 +67,14 @@ Sets the read mode and the blocking mode of the specified named pipe. If the spe
 ### -param hNamedPipe [in]
 
  A handle to the named pipe instance. This parameter can be a handle to the server end of the pipe, as returned by the 
-<a href="https://msdn.microsoft.com/00d79639-3f14-4964-90f3-9462a23e68df">CreateNamedPipe</a> function, or to the client end of the pipe, as returned by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> function, or to the client end of the pipe, as returned by the 
 <a href="base.createfile">CreateFile</a> function. The handle must have GENERIC_WRITE access to the named pipe for a write-only or read/write pipe, or it must have GENERIC_READ and FILE_WRITE_ATTRIBUTES access for a read-only pipe. 
 
 
 
 
 This parameter can also be a handle to an anonymous pipe, as returned by the 
-<a href="https://msdn.microsoft.com/a2d2fee8-c174-49d3-9e5a-2ce3bb763932">CreatePipe</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-createpipe">CreatePipe</a> function.
 
 
 ### -param lpMode [in, optional]
@@ -130,7 +130,7 @@ One of the following wait modes can be specified.
 Blocking mode is enabled. This mode is the default if no wait-mode flag is specified. When a blocking mode pipe handle is specified in the 
 <a href="base.readfile">ReadFile</a>, 
 <a href="base.writefile">WriteFile</a>, or 
-<a href="https://msdn.microsoft.com/50f6680f-900e-4411-a849-ec9a911c9e32">ConnectNamedPipe</a> function, operations are not finished until there is data to read, all data is written, or a client is connected. Use of this mode can mean waiting indefinitely in some situations for a client process to perform an action.
+<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a> function, operations are not finished until there is data to read, all data is written, or a client is connected. Use of this mode can mean waiting indefinitely in some situations for a client process to perform an action.
 
 </td>
 </tr>
@@ -142,7 +142,7 @@ Blocking mode is enabled. This mode is the default if no wait-mode flag is speci
 </td>
 <td width="60%">
 Nonblocking mode is enabled. In this mode, <a href="base.readfile">ReadFile</a>, <a href="base.writefile">WriteFile</a>, and 
-<a href="https://msdn.microsoft.com/50f6680f-900e-4411-a849-ec9a911c9e32">ConnectNamedPipe</a> always return immediately. Note that nonblocking mode is supported for compatibility with Microsoft LAN Manager version 2.0 and should not be used to achieve asynchronous input and output (I/O) with named pipes.
+<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a> always return immediately. Note that nonblocking mode is supported for compatibility with Microsoft LAN Manager version 2.0 and should not be used to achieve asynchronous input and output (I/O) with named pipes.
 
 </td>
 </tr>
@@ -168,7 +168,7 @@ The maximum time, in milliseconds, that can pass before a remote named pipe tran
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -183,7 +183,7 @@ If the function fails, the return value is zero. To get extended error informati
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/0779242c-45f4-4cd9-9c9f-36cff54c8dee">Named Pipe Client</a>.
+<a href="https://docs.microsoft.com/windows/desktop/ipc/named-pipe-client">Named Pipe Client</a>.
 
 <div class="code"></div>
 
@@ -194,7 +194,7 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/50f6680f-900e-4411-a849-ec9a911c9e32">ConnectNamedPipe</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a>
 
 
 
@@ -202,19 +202,19 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/00d79639-3f14-4964-90f3-9462a23e68df">CreateNamedPipe</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a>
 
 
 
-<a href="https://msdn.microsoft.com/a28003f0-f488-4ac3-91bf-dd7c5e87ea66">GetNamedPipeHandleState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getnamedpipehandlestatea">GetNamedPipeHandleState</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e80783e-9641-4cbd-9c28-a8efe6b9efaa">Pipe Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/ipc/pipe-functions">Pipe Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/7cb8cbe4-eec8-4dda-9cb7-8d37abcee6f4">Pipes Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/ipc/pipes">Pipes Overview</a>
 
 
 

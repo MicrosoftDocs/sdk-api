@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Cancels a deadline that was previously set with <a href="https://msdn.microsoft.com/1A5D6352-283C-43FC-B011-48DFA69BC75A">RtwqSetDeadline</a>.
+Cancels a deadline that was previously set with <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqsetdeadline">RtwqSetDeadline</a>.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/1A5D6352-283C-43FC-B011-48DFA69BC75A">RtwqSetDeadline</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqsetdeadline">RtwqSetDeadline</a>
  
 
  

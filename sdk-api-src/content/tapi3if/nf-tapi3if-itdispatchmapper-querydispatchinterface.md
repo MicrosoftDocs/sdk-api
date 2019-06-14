@@ -139,8 +139,8 @@ The interface requested is not exposed or the object does not implement the <b>I
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221458(v=VS.85).aspx">SysAllocString</a> to allocate memory for the <i>pIID</i> parameter and use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory when the variable is no longer needed.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> to allocate memory for the <i>pIID</i> parameter and use 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory when the variable is no longer needed.
 
 The Dispatch Mapper will use the object's <b>IObjectSafety</b> interface to make sure the object is safe for scripting on the requested interface. If the object does not implement <b>IObjectSafety</b>, or if the object is not safe on this particular interface, the call will fail.
 
@@ -152,7 +152,7 @@ The Dispatch Mapper will use the object's <b>IObjectSafety</b> interface to make
 
 
 
-<a href="https://msdn.microsoft.com/65286ea6-b9a6-423b-9833-2d41ef2fd8de">ITDispatchMapper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itdispatchmapper">ITDispatchMapper</a>
  
 
  

@@ -50,11 +50,11 @@ ms.custom: 19H1
 
 
 This structure is used to pass information for an alternate platform to 
-<a href="https://msdn.microsoft.com/bc7c08ff-3d6b-4d45-b634-1358302f6fc6">SetupQueryInfOriginalFileInformation</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupqueryinforiginalfileinformationa">SetupQueryInfOriginalFileInformation</a>.
 
 Setup implicitly uses the <b>SP_ALTPLATFORM_INFO_V1</b> structure if USE_SP_ALTPLATFORM_INFO_V1 is set to 1 or if _WIN32_WINNT is less than or equal to 0x500. This version is for use with Windows 2000.
 
-Setup implicitly uses the <a href="https://msdn.microsoft.com/eb66ef5a-212d-4224-87b5-d64e8e188139">SP_ALTPLATFORM_INFO_V2</a> structure if USE_SP_ALTPLATFORM_INFO_V1 is 0 or undefined and _WIN32_WINNT is set to 0x501. 
+Setup implicitly uses the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_altplatform_info_v2">SP_ALTPLATFORM_INFO_V2</a> structure if USE_SP_ALTPLATFORM_INFO_V1 is 0 or undefined and _WIN32_WINNT is set to 0x501. 
 
 
 ## -struct-fields
@@ -127,15 +127,15 @@ Must be set to zero.
 
 
 
-<a href="https://msdn.microsoft.com/58201596-cb8c-480a-abef-896c1f9ef098">Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb66ef5a-212d-4224-87b5-d64e8e188139">SP_ALTPLATFORM_INFO_V2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_altplatform_info_v2">SP_ALTPLATFORM_INFO_V2</a>
 
 
 
-<a href="https://msdn.microsoft.com/837F1864-CE2F-4A9A-A7D9-18EB8622541E">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/structures--setup-api-">Structures</a>
  
 
  

@@ -98,7 +98,7 @@ The method completed successfully.
 </dl>
 </td>
 <td width="60%">
-An unexpected error occurred. This can happen if one object passes its <a href="https://msdn.microsoft.com/09a17e57-7224-43bc-93c7-16ab95ca2517">ObjectContext</a> pointer to another object and the other object calls <a href="https://msdn.microsoft.com/9719f672-d706-44e3-b976-28d0d0feacd1">CreateInstance</a> using this pointer. An <b>ObjectContext</b> pointer is not valid outside the context of the object that originally obtained it.
+An unexpected error occurred. This can happen if one object passes its <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-objectcontext">ObjectContext</a> pointer to another object and the other object calls <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-objectcontext-createinstance">CreateInstance</a> using this pointer. An <b>ObjectContext</b> pointer is not valid outside the context of the object that originally obtained it.
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ An unexpected error occurred. This can happen if one object passes its <a href="
 
 
 
-When you create an object by using <b>CreateInstance</b>, the new object's context is derived from the current object's <a href="https://msdn.microsoft.com/09a17e57-7224-43bc-93c7-16ab95ca2517">ObjectContext</a> and the declarative properties of the new object's component. The new object always executes within the same activity as the object that created it. If the current object has a transaction, the transaction attribute of the new object's component determines whether the new object executes within the scope of that transaction.
+When you create an object by using <b>CreateInstance</b>, the new object's context is derived from the current object's <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-objectcontext">ObjectContext</a> and the declarative properties of the new object's component. The new object always executes within the same activity as the object that created it. If the current object has a transaction, the transaction attribute of the new object's component determines whether the new object executes within the scope of that transaction.
 
 If the component's transaction attribute setting either requires a transaction or supports transactions, the new object inherits its creator's transaction. If the component's transaction attribute requires a new transaction, COM+ initiates a new transaction for the new object. If the component's transaction attribute does not support transactions, the new object does not execute under any transaction.
 
@@ -124,7 +124,7 @@ If the component's transaction attribute setting either requires a transaction o
 
 
 
-<a href="https://msdn.microsoft.com/09a17e57-7224-43bc-93c7-16ab95ca2517">ObjectContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-objectcontext">ObjectContext</a>
  
 
  

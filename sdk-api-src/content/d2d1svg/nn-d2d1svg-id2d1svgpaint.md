@@ -54,7 +54,7 @@ Interface describing an SVG fill or stroke value.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1SvgPaint</b> interface inherits from <a href="https://msdn.microsoft.com/7B11D05C-6CD5-4609-B76A-719B92437314">ID2D1SvgAttribute</a>. <b>ID2D1SvgPaint</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1SvgPaint</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgattribute">ID2D1SvgAttribute</a>. <b>ID2D1SvgPaint</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1SvgPaint</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/17B4A208-9658-4BD3-AFC3-33D25CD58B6F">GetColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgpaint-getcolor">GetColor</a>
 </td>
 <td align="left" width="63%">
 Gets the paint color that is used if the paint type is D2D1_SVG_PAINT_TYPE_COLOR.
@@ -78,7 +78,7 @@ Gets the paint color that is used if the paint type is D2D1_SVG_PAINT_TYPE_COLOR
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/50701C5C-03F8-4DCD-A29A-2DF57846ED78">GetId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgpaint-getid">GetId</a>
 </td>
 <td align="left" width="63%">
 Gets the element id which acts as the paint server. This id is used if the paint type is D2D1_SVG_PAINT_TYPE_URI.
@@ -87,7 +87,7 @@ Gets the element id which acts as the paint server. This id is used if the paint
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/063B4258-1D96-4807-B3E4-652D5C1D2298">GetIdLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgpaint-getidlength">GetIdLength</a>
 </td>
 <td align="left" width="63%">
 Gets the string length of the element id which acts as the paint server. This id is used if the paint type is D2D1_SVG_PAINT_TYPE_URI.
@@ -97,7 +97,7 @@ Gets the string length of the element id which acts as the paint server. This id
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1EAF1119-BCBC-40B2-B1D6-60B72AEC79DF">GetPaintType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgpaint-getpainttype">GetPaintType</a>
 </td>
 <td align="left" width="63%">
 Gets the paint type.
@@ -106,7 +106,7 @@ Gets the paint type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/74e1b0ac-27d3-8ca0-1b81-d29474c0f148">SetColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1svgpaint-setcolor-overload">SetColor</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the paint color that is used if the paint type is D2D1_SVG_PAINT_TYPE_COLOR.
 
@@ -114,7 +114,7 @@ Gets the paint type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E9888C0D-6C71-4C41-ACD5-41BA8D6C04EE">SetId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgpaint-setid">SetId</a>
 </td>
 <td align="left" width="63%">
 Sets the element id which acts as the paint server. This id is used if the paint type is D2D1_SVG_PAINT_TYPE_URI.
@@ -123,7 +123,7 @@ Sets the element id which acts as the paint server. This id is used if the paint
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C6F1D646-2ADD-4F1A-940E-8D20DFBBBAC1">SetPaintType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgpaint-setpainttype">SetPaintType</a>
 </td>
 <td align="left" width="63%">
 Sets the paint type.

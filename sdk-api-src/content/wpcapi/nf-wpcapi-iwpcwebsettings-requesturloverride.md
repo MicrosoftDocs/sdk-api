@@ -96,7 +96,7 @@ If the method succeeds, the return value is S_OK. Otherwise, it is E_FAIL.
 
 
 
-<a href="https://msdn.microsoft.com/80629db8-0040-4545-a313-5cf7aa3d7f8b">IWPCWebSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nn-wpcapi-iwpcwebsettings">IWPCWebSettings</a>
  
 
  

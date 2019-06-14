@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>FLOATOBJ_AddFloat</b> function adds the value of type FLOATL to the <a href="https://msdn.microsoft.com/5f8c401b-7487-4d75-a0a8-534fa7992a3d">FLOATOBJ</a>, and returns with the result in the first parameter.
+The <b>FLOATOBJ_AddFloat</b> function adds the value of type FLOATL to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_floatobj">FLOATOBJ</a>, and returns with the result in the first parameter.
 
 
 ## -parameters
@@ -90,7 +90,7 @@ The <b>FLOATOBJ_</b><i>Xxx</i> services allow graphics drivers to emulate floati
 
 
 
-<a href="https://msdn.microsoft.com/5f8c401b-7487-4d75-a0a8-534fa7992a3d">FLOATOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_floatobj">FLOATOBJ</a>
  
 
  

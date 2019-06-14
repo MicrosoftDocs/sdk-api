@@ -79,7 +79,7 @@ A timeout that specifies how long, in seconds, to wait for results to be returne
 
 ### -param res [out]
 
-Contains the result(s) of the operation. Any results returned should be freed with a call to <a href="https://msdn.microsoft.com/a4292638-0686-4c2d-8c51-1d5d079d5782">ldap_msgfree</a>once they are no longer required by the application.
+Contains the result(s) of the operation. Any results returned should be freed with a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_msgfree">ldap_msgfree</a>once they are no longer required by the application.
 
 
 ## -returns
@@ -111,11 +111,11 @@ Multithreading: Calls to <b>ldap_result</b> are thread safe.
 
 
 
-<a href="https://msdn.microsoft.com/7a0040ea-f8f3-4378-8371-49768714d762">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4292638-0686-4c2d-8c51-1d5d079d5782">ldap_msgfree</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_msgfree">ldap_msgfree</a>
  
 
  

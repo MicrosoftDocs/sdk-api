@@ -60,7 +60,7 @@ Gets the description for blending state that you used to create the blend-state 
 
 ### -param pDesc [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/BBBECB86-B33D-4AA3-8D0A-45AEC3BBC4AB">D3D11_BLEND_DESC1</a> structure that receives a description of the blend state. This blend state can specify logical operations as well as blending operations.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/ns-d3d11_1-cd3d11_blend_desc1">D3D11_BLEND_DESC1</a> structure that receives a description of the blend state. This blend state can specify logical operations as well as blending operations.
 
 
 ## -returns
@@ -76,7 +76,7 @@ Returns nothing.
 
 
 
-You use the description for blending state in a call to the <a href="https://msdn.microsoft.com/2E891104-3706-46A5-88FB-C621C95B4EFB">ID3D11Device1::CreateBlendState1</a> method to create the blend-state object.
+You use the description for blending state in a call to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11device1-createblendstate1">ID3D11Device1::CreateBlendState1</a> method to create the blend-state object.
 
 
 
@@ -86,7 +86,7 @@ You use the description for blending state in a call to the <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/5562F0B2-77FC-4614-BFA9-077323D4A2FA">ID3D11BlendState1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11blendstate1">ID3D11BlendState1</a>
  
 
  

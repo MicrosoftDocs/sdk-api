@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ICertSrvSetupKeyInformation</b> interface defines a set of <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> properties that are used for setup of <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) or Microsoft <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">Simple Certificate Enrollment Protocol</a> (SCEP) roles. The information describes either an existing private key or one that setup generates.
+The <b>ICertSrvSetupKeyInformation</b> interface defines a set of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> properties that are used for setup of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) or Microsoft <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Simple Certificate Enrollment Protocol</a> (SCEP) roles. The information describes either an existing private key or one that setup generates.
 
 Microsoft provides an implementation of this interface in the <b>CCertSrvSetupKeyInformation</b> class.
 

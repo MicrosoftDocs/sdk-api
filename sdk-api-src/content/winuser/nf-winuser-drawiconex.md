@@ -209,7 +209,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -235,19 +235,19 @@ To duplicate <code>DrawIcon (hDC, X, Y, hIcon)</code>, call <b>DrawIconEx</b> as
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648031(v=VS.85).aspx">CopyImage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-copyimage">CopyImage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648064(v=VS.85).aspx">DrawIcon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawicon">DrawIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646973(v=VS.85).aspx">Icons</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/icons">Icons</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648045(v=VS.85).aspx">LoadImage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a>
 
 
 

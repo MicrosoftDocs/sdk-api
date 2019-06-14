@@ -54,7 +54,7 @@ This shader-reflection interface provides access to a constant buffer.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11ShaderReflectionConstantBuffer</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID3D11ShaderReflectionConstantBuffer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11ShaderReflectionConstantBuffer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D11ShaderReflectionConstantBuffer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID3D11ShaderReflectionConstantBuffer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/34d84751-ccce-4c18-8027-2b5477e35abc">GetDesc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectionconstantbuffer-getdesc">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Get a constant-buffer description.
@@ -78,7 +78,7 @@ Get a constant-buffer description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fafdf040-223c-4e69-95b6-05c62ea8ff52">GetVariableByIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectionconstantbuffer-getvariablebyindex">GetVariableByIndex</a>
 </td>
 <td align="left" width="63%">
 Get a shader-reflection variable by index.
@@ -87,7 +87,7 @@ Get a shader-reflection variable by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/daa14557-0987-4498-a2f5-428497805eca">GetVariableByName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectionconstantbuffer-getvariablebyname">GetVariableByName</a>
 </td>
 <td align="left" width="63%">
 Get a shader-reflection variable by name.
@@ -101,7 +101,7 @@ Get a shader-reflection variable by name.
 
 
 
-To create a constant-buffer interface, call <a href="https://msdn.microsoft.com/6a1be6a0-0337-408d-9e31-8dd388faaf5d">ID3D11ShaderReflection::GetConstantBufferByIndex</a> or <a href="https://msdn.microsoft.com/6b0e16c9-f45a-42d0-bd96-32dfa859b35d">ID3D11ShaderReflection::GetConstantBufferByName</a>. This isn't a COM interface, so you don't need to worry about reference counts or releasing the interface when you're done with it.
+To create a constant-buffer interface, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflection-getconstantbufferbyindex">ID3D11ShaderReflection::GetConstantBufferByIndex</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflection-getconstantbufferbyname">ID3D11ShaderReflection::GetConstantBufferByName</a>. This isn't a COM interface, so you don't need to worry about reference counts or releasing the interface when you're done with it.
           
 
 
@@ -112,7 +112,7 @@ To create a constant-buffer interface, call <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/1791d2c9-3791-47fe-b887-a8117ecc798b">Shader Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-shader-interfaces">Shader Interfaces</a>
  
 
  

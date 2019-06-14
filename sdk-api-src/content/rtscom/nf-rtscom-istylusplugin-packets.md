@@ -62,12 +62,12 @@ Notifies the object implementing the plug-in that the tablet pen is moving on th
 
 ### -param piRtsSrc [in]
 
-The <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> object that sent the notification.
+The <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object that sent the notification.
 
 
 ### -param pStylusInfo [in]
 
-A <a href="https://msdn.microsoft.com/d2642082-e18c-4f91-b08c-e25aa388a2a3">StylusInfo Structure</a> structure which contains information about the RTS that is associated with the pen.
+A <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/ns-rtscom-stylusinfo">StylusInfo Structure</a> structure which contains information about the RTS that is associated with the pen.
 
 
 ### -param cPktCount [in]
@@ -99,7 +99,7 @@ A pointer to an array of modified stylus data packets. The plug-in can use this 
 
 
 
-For a description of return values, see <a href="https://msdn.microsoft.com/fc0900b4-f08b-4a93-bbc0-d3db067d7917">RealTimeStylus Classes and Interfaces</a>.
+For a description of return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
 
 
 
@@ -108,16 +108,16 @@ For a description of return values, see <a href="https://msdn.microsoft.com/fc09
 
 
 
-Occurs when the pen is moving and is touching the digitizer surface. Use this notification to constrain the packet data within a specified rectangle. Packets used by the <b>IStylusPlugin::Packets Method</b> and <a href="https://msdn.microsoft.com/9ff5f784-33f0-45b8-bccd-3e90a9afd67f">IStylusPlugin::InAirPackets Method</a> methods can be deleted.
+Occurs when the pen is moving and is touching the digitizer surface. Use this notification to constrain the packet data within a specified rectangle. Packets used by the <b>IStylusPlugin::Packets Method</b> and <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-inairpackets">IStylusPlugin::InAirPackets Method</a> methods can be deleted.
 
 You can return an array of modified packets by using the <i>ppInOutPkt</i> parameter.
 
-Packets can be bundled in order to make the data transfer more efficient, such that a plug-in is not required to be called once per packet. <a href="https://msdn.microsoft.com/9ff5f784-33f0-45b8-bccd-3e90a9afd67f">IStylusPlugin::InAirPackets Method</a> and <b>IStylusPlugin::Packets Method</b> can send one or more packets.
+Packets can be bundled in order to make the data transfer more efficient, such that a plug-in is not required to be called once per packet. <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-inairpackets">IStylusPlugin::InAirPackets Method</a> and <b>IStylusPlugin::Packets Method</b> can send one or more packets.
 
 
 #### Examples
 
-The following C++ code example implements a <b>IStylusPlugin::Packets Method</b> method that modifies the X,Y data to restrain the packets to a rectangle. This is the same functionality that is implemented in C# in the <a href="https://msdn.microsoft.com/0ba753d1-d81a-4f7a-942c-2967c46febec">RealTimeStylus Plug-in Sample</a>.
+The following C++ code example implements a <b>IStylusPlugin::Packets Method</b> method that modifies the X,Y data to restrain the packets to a rectangle. This is the same functionality that is implemented in C# in the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-plug-in-sample">RealTimeStylus Plug-in Sample</a>.
 
 
 ```cpp
@@ -198,7 +198,7 @@ STDMETHODIMP CPacketModifier::Packets(
 
 
 
-<a href="https://msdn.microsoft.com/bf961d70-2576-493b-a34d-c7c72b6c0234">IStylusAsyncPlugin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a>
 
 
 
@@ -206,19 +206,19 @@ STDMETHODIMP CPacketModifier::Packets(
 
 
 
-<a href="https://msdn.microsoft.com/13fb831c-e3e8-4e04-81ce-d4658be105a0">IStylusPlugin::StylusDown Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusdown">IStylusPlugin::StylusDown Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/b0f9e49c-6a16-43c5-a653-d6142e58019a">IStylusPlugin::StylusUp Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusup">IStylusPlugin::StylusUp Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3e02d5a-a004-49de-b2d8-86ccfc120481">IStylusSyncPlugin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
  
 
  

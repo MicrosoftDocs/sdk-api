@@ -113,7 +113,7 @@ NULL or invalid argument passed in.
 
 This setting applies only to a protocol rollover or MMS://URL. Even if this setting is disabled, the application can still specify an explicit MMSU://URL and stream MMS via TCP successfully.
 
-For more information, see the Remarks section of <a href="https://msdn.microsoft.com/en-us/library/Dd743538(v=VS.85).aspx">IWMReaderNetworkConfig::ResetProtocolRollover</a>.
+For more information, see the Remarks section of <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-resetprotocolrollover">IWMReaderNetworkConfig::ResetProtocolRollover</a>.
 
 
 
@@ -123,19 +123,19 @@ For more information, see the Remarks section of <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743524(v=VS.85).aspx">IWMReaderNetworkConfig::GetEnableTCP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getenabletcp">IWMReaderNetworkConfig::GetEnableTCP</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743525(v=VS.85).aspx">IWMReaderNetworkConfig::GetEnableUDP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getenableudp">IWMReaderNetworkConfig::GetEnableUDP</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743543(v=VS.85).aspx">IWMReaderNetworkConfig::SetEnableTCP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setenabletcp">IWMReaderNetworkConfig::SetEnableTCP</a>
  
 
  

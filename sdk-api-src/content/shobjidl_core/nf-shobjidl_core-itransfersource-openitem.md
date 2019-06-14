@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Opens the item for copying. Returns an object that can be enumerated for resources (<a href="https://msdn.microsoft.com/4ca4a01e-e3c2-46aa-a700-b4b2a1e0112e">IShellItemResources</a>).
+Opens the item for copying. Returns an object that can be enumerated for resources (<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemresources">IShellItemResources</a>).
 
 
 ## -parameters
@@ -59,23 +59,23 @@ Opens the item for copying. Returns an object that can be enumerated for resourc
 
 ### -param psi [in]
 
-Type: <b><a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a> to be opened.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> to be opened.
 
 
 ### -param flags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/8a3da00a-1d96-444d-acbe-9327620b8d24">TRANSFER_SOURCE_FLAGS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a></b>
 
-The flags that control the file operation. One or more of the <a href="https://msdn.microsoft.com/8a3da00a-1d96-444d-acbe-9327620b8d24">TRANSFER_SOURCE_FLAGS</a> constants.
+The flags that control the file operation. One or more of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> constants.
 
 
 ### -param riid [out]
 
 Type: <b>REFIID</b>
 
-A reference to the IID (the interface ID or GUID) of the interface to return in <i>ppv</i>.  This should be an <a href="https://msdn.microsoft.com/4ca4a01e-e3c2-46aa-a700-b4b2a1e0112e">IShellItemResources</a> or an interface derived from <b>IShellItemResources</b>.
+A reference to the IID (the interface ID or GUID) of the interface to return in <i>ppv</i>.  This should be an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemresources">IShellItemResources</a> or an interface derived from <b>IShellItemResources</b>.
 
 
 ### -param ppv [out]

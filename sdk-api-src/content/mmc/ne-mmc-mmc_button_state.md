@@ -51,10 +51,10 @@ ms.custom: 19H1
 
 The 
 <b>MMC_BUTTON_STATE</b> enumeration defines the possible states of buttons available in MMC. These values are used in the <i>nState</i> parameter of 
-<a href="https://msdn.microsoft.com/86388a22-5156-45e9-a601-33b7c5ca15f3">IConsoleVerb::GetVerbState</a>, 
-<a href="https://msdn.microsoft.com/55cf5f73-a113-430e-be16-d7a88abe15b6">IConsoleVerb::SetVerbState</a>, 
-<a href="https://msdn.microsoft.com/94c41b13-f1ab-4368-8cfa-960caeea796e">IToolbar::GetButtonState</a>, and 
-<a href="https://msdn.microsoft.com/aa43fc1b-cc6d-474d-9b92-556924fb98de">IToolbar::SetButtonState</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsoleverb-getverbstate">IConsoleVerb::GetVerbState</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsoleverb-setverbstate">IConsoleVerb::SetVerbState</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-itoolbar-getbuttonstate">IToolbar::GetButtonState</a>, and 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-itoolbar-setbuttonstate">IToolbar::SetButtonState</a>.
 
 
 ## -enum-fields

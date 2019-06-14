@@ -73,11 +73,11 @@ In Windows 2000 and later, the <b>EngGetProcessHandle</b> function always return
 
 
 
-<a href="https://msdn.microsoft.com/63ed7f38-6874-4d33-80e4-fdd00175e039">EngGetCurrentProcessId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-enggetcurrentprocessid">EngGetCurrentProcessId</a>
 
 
 
-<a href="https://msdn.microsoft.com/f1fdb223-b649-4467-a4c4-56cce4f4d975">EngGetCurrentThreadId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-enggetcurrentthreadid">EngGetCurrentThreadId</a>
  
 
  

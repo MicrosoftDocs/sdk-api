@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deletes <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">credentials</a> from a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package's</a> list of <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">primary</a> or <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">supplemental</a> credentials.
+Deletes <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">credentials</a> from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package's</a> list of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">primary</a> or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">supplemental</a> credentials.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ A handle to the credentials to delete.
 ### -param Key [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/75f49d9c-7d3c-4f45-a94e-44cd05773a07">SecBuffer</a> structure whose contents indicate which credentials to delete. The information stored in the <i>Key</i> parameter is package specific.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbuffer">SecBuffer</a> structure whose contents indicate which credentials to delete. The information stored in the <i>Key</i> parameter is package specific.
 
 
 ## -returns
@@ -86,8 +86,8 @@ If the function fails, return an <b>NTSTATUS</b> code that indicates the reason 
 SSP/APs must implement the <b>SpDeleteCredentials</b> function; however, the actual name given to the implementation is up to the developer.
 
 A pointer to the <b>SpDeleteCredentials</b> function is available in the 
-<a href="https://msdn.microsoft.com/43ca0f9b-1393-48aa-9d9c-4dd19963a66d">SECPKG_FUNCTION_TABLE</a> structure received from the 
-<a href="https://msdn.microsoft.com/1ef3770b-197f-4d5b-9933-b7f6f63e5627">SpLsaModeInitialize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
 
 
 
@@ -97,15 +97,15 @@ A pointer to the <b>SpDeleteCredentials</b> function is available in the
 
 
 
-<a href="https://msdn.microsoft.com/43ca0f9b-1393-48aa-9d9c-4dd19963a66d">SECPKG_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/75f49d9c-7d3c-4f45-a94e-44cd05773a07">SecBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbuffer">SecBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/1ef3770b-197f-4d5b-9933-b7f6f63e5627">SpLsaModeInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a>
  
 
  

@@ -62,7 +62,7 @@ An <b>IWMDRMWriter3</b> interface exists for every writer object when linking to
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDRMWriter3</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd798372(v=VS.85).aspx">IWMDRMWriter</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd798373(v=VS.85).aspx">IWMDRMWriter2</a>. <b>IWMDRMWriter3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDRMWriter3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmwriter">IWMDRMWriter</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmwriter2">IWMDRMWriter2</a>. <b>IWMDRMWriter3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IWMDRMWriter3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798376(v=VS.85).aspx">SetProtectStreamSamples</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmwriter3-setprotectstreamsamples">SetProtectStreamSamples</a>
 </td>
 <td align="left" width="63%">
 Configures the writer to accept encrypted stream samples.
@@ -92,15 +92,15 @@ Configures the writer to accept encrypted stream samples.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798372(v=VS.85).aspx">IWMDRMWriter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmwriter">IWMDRMWriter</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798373(v=VS.85).aspx">IWMDRMWriter2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmwriter2">IWMDRMWriter2</a>
 
 
 
-<a href="https://msdn.microsoft.com/c61a0739-09f2-497f-a2cd-d3f2472738e3">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
  
 
  

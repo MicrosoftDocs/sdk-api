@@ -66,7 +66,7 @@ A handle to a device context that contains a closed path.
 
 ### -param apt [out]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structures that receives the line endpoints and curve control points, in logical coordinates.
+A pointer to an array of <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structures that receives the line endpoints and curve control points, in logical coordinates.
 
 
 ### -param aj [out]
@@ -136,7 +136,7 @@ Specifies that the figure is automatically closed after the corresponding line o
 
 ### -param cpt [in]
 
-The total number of <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structures that can be stored in the array pointed to by <i>lpPoints</i>. This value must be the same as the number of bytes that can be placed in the array pointed to by <i>lpTypes</i>.
+The total number of <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structures that can be stored in the array pointed to by <i>lpPoints</i>. This value must be the same as the number of bytes that can be placed in the array pointed to by <i>lpTypes</i>.
 
 
 ## -returns
@@ -156,7 +156,7 @@ The device context identified by the <i>hdc</i> parameter must contain a closed 
 
 The points of the path are returned in logical coordinates. Points are stored in the path in device coordinates, so <b>GetPath</b> changes the points from device coordinates to logical coordinates by using the inverse of the current transformation.
 
-The <a href="https://msdn.microsoft.com/267b0c9a-25d4-4b04-95d3-6b0856bed022">FlattenPath</a> function may be called before <b>GetPath</b> to convert all curves in the path into line segments.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-flattenpath">FlattenPath</a> function may be called before <b>GetPath</b> to convert all curves in the path into line segments.
 
 
 
@@ -166,27 +166,27 @@ The <a href="https://msdn.microsoft.com/267b0c9a-25d4-4b04-95d3-6b0856bed022">Fl
 
 
 
-<a href="https://msdn.microsoft.com/267b0c9a-25d4-4b04-95d3-6b0856bed022">FlattenPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-flattenpath">FlattenPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>
+<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>
 
 
 
-<a href="https://msdn.microsoft.com/68390601-1542-41dc-bea0-78f6c3318806">Path Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/path-functions">Path Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/fbbd3ea0-9b35-4aaf-8498-187957e29cf0">Paths Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/paths">Paths Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/5fd3f285-dcf3-4cd0-915a-236ba7902353">PolyDraw</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polydraw">PolyDraw</a>
 
 
 
-<a href="https://msdn.microsoft.com/c994bd1b-c5e8-46e6-a6a6-59e2d9106d75">WidenPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-widenpath">WidenPath</a>
  
 
  

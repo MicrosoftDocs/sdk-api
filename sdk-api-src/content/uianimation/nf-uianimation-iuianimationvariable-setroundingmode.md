@@ -66,7 +66,7 @@ The rounding mode for the animation variable.
 
 
 
-If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/38f15d61-d415-4c7d-b454-5144fc7c9b1e">Windows Animation Error Codes</a> for a list of error codes.
+If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
 
 
 
@@ -81,7 +81,7 @@ An animation variable's rounding mode determines how a floating-point value is c
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/360aa157-cb50-400a-b373-45885410469d">Create Animation Variables</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/create-animation-variables">Create Animation Variables</a>.
 
 <div class="code"></div>
 
@@ -92,23 +92,23 @@ For an example, see <a href="https://msdn.microsoft.com/360aa157-cb50-400a-b373-
 
 
 
-<a href="https://msdn.microsoft.com/1632e62d-6e82-4841-8823-f6b60efc4298">IUIAnimationVariable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationvariable">IUIAnimationVariable</a>
 
 
 
-<a href="https://msdn.microsoft.com/19d71abc-e3f8-48d4-9ceb-5920dcc9c007">IUIAnimationVariable::GetFinalIntegerValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-getfinalintegervalue">IUIAnimationVariable::GetFinalIntegerValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/044fd6a3-6e40-4f4f-8777-1a1a66c91989">IUIAnimationVariable::GetIntegerValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-getintegervalue">IUIAnimationVariable::GetIntegerValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/ccf4c575-aa98-40cd-b2de-cf8db95ec57d">IUIAnimationVariable::GetPreviousIntegerValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-getpreviousintegervalue">IUIAnimationVariable::GetPreviousIntegerValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371966(v=VS.85).aspx">UI_ANIMATION_ROUNDING_MODE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/ne-uianimation-__midl___midl_itf_uianimation_0000_0001_0001">UI_ANIMATION_ROUNDING_MODE</a>
  
 
  

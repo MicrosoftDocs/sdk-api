@@ -57,7 +57,7 @@ The <b>IWMPControls2</b> interface provides a method that supplements the <b>IWM
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPControls2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd563179(v=VS.85).aspx">IWMPControls</a>. <b>IWMPControls2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPControls2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcontrols">IWMPControls</a>. <b>IWMPControls2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IWMPControls2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563181(v=VS.85).aspx">step</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols2-step">step</a>
 </td>
 <td align="left" width="63%">
 Stops playback of the current DVD media item on the next or previous frame.
@@ -81,7 +81,7 @@ Stops playback of the current DVD media item on the next or previous frame.
 </tr>
 </table> 
 
-Retrieve a pointer to an <b>IWMPControls2</b> interface by calling the <b>QueryInterface</b> method of an <a href="https://msdn.microsoft.com/en-us/library/Dd563179(v=VS.85).aspx">IWMPControls</a> interface.
+Retrieve a pointer to an <b>IWMPControls2</b> interface by calling the <b>QueryInterface</b> method of an <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcontrols">IWMPControls</a> interface.
 	
 
 
@@ -90,15 +90,15 @@ Retrieve a pointer to an <b>IWMPControls2</b> interface by calling the <b>QueryI
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563179(v=VS.85).aspx">IWMPControls Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcontrols">IWMPControls Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563183(v=VS.85).aspx">IWMPControls3 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcontrols3">IWMPControls3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/68a0bdaf-ae1b-4ba1-817b-a31c68b9fddd">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
  
 
  

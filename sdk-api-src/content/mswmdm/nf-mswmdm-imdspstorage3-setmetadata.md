@@ -119,23 +119,23 @@ A service provider calls <b>IWMDMMetaData::QueryByName</b> or <b>IWMDMMetaData::
 
 
 
-<a href="https://msdn.microsoft.com/5ff674a1-a0b9-43b6-b8b7-9a5c67b3f919">IMDSPStorage3 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage3">IMDSPStorage3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a341289b-79e6-4ac7-b0d3-72ad5953c1df">IMDSPStorage3::GetMetadata</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage3-getmetadata">IMDSPStorage3::GetMetadata</a>
 
 
 
-<a href="https://msdn.microsoft.com/ea57a851-0b9f-444c-9819-a278f2ece2b0">IWMDMMetaData Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d27e1e9-ab91-433d-8216-ace195386d44">IWMDMMetaData::QueryByIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmmetadata-querybyindex">IWMDMMetaData::QueryByIndex</a>
 
 
 
-<a href="https://msdn.microsoft.com/e793954b-6aef-4088-97cb-eb1f050cc64b">IWMDMMetaData::QueryByName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmmetadata-querybyname">IWMDMMetaData::QueryByName</a>
  
 
  

@@ -67,7 +67,7 @@ Matches SAs whose local address is on the specified subnet. Must be of one of th
 <li>FWP_V4_ADDR_MASK</li>
 <li>FWP_V6_ADDR_MASK</li>
 </ul>
-See <a href="https://msdn.microsoft.com/edc34005-dbc1-45a4-b6c7-fbb8b13fa388">FWP_CONDITION_VALUE0</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0_">FWP_CONDITION_VALUE0</a> for more information.
 
 
 ### -field remoteSubNet
@@ -80,21 +80,21 @@ Matches SAs whose remote address is on the specified subnet. Must be of one of t
 <li>FWP_V4_ADDR_MASK</li>
 <li>FWP_V6_ADDR_MASK</li>
 </ul>
-See <a href="https://msdn.microsoft.com/edc34005-dbc1-45a4-b6c7-fbb8b13fa388">FWP_CONDITION_VALUE0</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0_">FWP_CONDITION_VALUE0</a> for more information.
 
 
 ### -field localMainModeCertHash
 
 Matches SAs with a matching local main mode SHA thumbprint.  If none exist, this member will have a length of zero.
 
-See <a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a> for more information.
 
 
 ## -remarks
 
 
 
-<b>IKEEXT_SA_ENUM_TEMPLATE0</b> is a specific implementation of IKEEXT_SA_ENUM_TEMPLATE. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>IKEEXT_SA_ENUM_TEMPLATE0</b> is a specific implementation of IKEEXT_SA_ENUM_TEMPLATE. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -104,7 +104,7 @@ See <a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FW
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

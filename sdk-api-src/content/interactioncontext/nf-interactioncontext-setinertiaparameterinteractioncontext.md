@@ -66,7 +66,7 @@ The handle of the interaction context.
 
 ### -param inertiaParameter [in]
 
-One of the constants from <a href="https://msdn.microsoft.com/06a7bab7-3821-42f3-bf2c-2d0724cb1119">INERTIA_PARAMETER</a>.
+One of the constants from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-inertia_parameter">INERTIA_PARAMETER</a>.
 
 
 ### -param value [in]
@@ -96,7 +96,7 @@ Otherwise, it returns an HRESULT error code.
 
 
 
-<a href="https://msdn.microsoft.com/60BFDCD7-D277-4B4A-94DA-7ADB1412252A">Interaction Context</a> uses the inertia system setting for all manipulations (translation, rotation, scaling). This function overrides the system setting.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> uses the inertia system setting for all manipulations (translation, rotation, scaling). This function overrides the system setting.
 
 To restore the system setting, set <i>value</i> to INERTIA_PARAMETER_INVALID_VALUE    FLT_MAX.
 
@@ -108,15 +108,15 @@ To restore the system setting, set <i>value</i> to INERTIA_PARAMETER_INVALID_VAL
 
 
 
-<a href="https://msdn.microsoft.com/e3ae71e2-be61-49c1-82a1-2fa82fe9a7ba">GetInertiaParameterInteractionContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-getinertiaparameterinteractioncontext">GetInertiaParameterInteractionContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/3E3DE99D-B457-4202-8CC2-A6F5C019EFF8">HINTERACTIONCONTEXT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/0F34F181-D92C-4B08-9F1D-62379D4A2B15">Interaction Context Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>
  
 
  

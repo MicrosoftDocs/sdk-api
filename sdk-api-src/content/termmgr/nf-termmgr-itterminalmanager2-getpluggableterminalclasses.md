@@ -66,7 +66,7 @@ A <b>BSTR</b> that represents the CLSID for the parent superclass.
 ### -param dwMediaTypes [in]
 
 Bitwise ORed list of 
-<a href="https://msdn.microsoft.com/3e418c9a-a008-4b94-b5d2-7c2eccb3bf87">media types</a>. The method returns only terminals that support these media types.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">media types</a>. The method returns only terminals that support these media types.
 
 
 ### -param pdwNumClasses [in, out]
@@ -150,7 +150,7 @@ The <i>pTerminalClasses</i> parameter is not a valid pointer.
 
 
 
-<a href="https://msdn.microsoft.com/f91c8684-27f8-4db8-99ff-d5a6cb87a0c2">ITTerminalManager2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nn-termmgr-itterminalmanager2">ITTerminalManager2</a>
  
 
  

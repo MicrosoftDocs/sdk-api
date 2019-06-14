@@ -60,13 +60,13 @@ The
 
 ### -param hMprServer [in]
 
-A handle to the router to query. Obtain this handle by calling <a href="https://msdn.microsoft.com/f93b37bc-d3d1-40f0-aef6-839bb43c88e2">MprAdminServerConnect</a>. 
+A handle to the router to query. Obtain this handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>. 
 
 
 ### -param pServerInfo [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/6c993c9c-4522-4758-926a-fa7ef2a89418">MPR_SERVER_SET_CONFIG_EX</a> structure that contains the port information being set on the server in <i>hMprServer</i>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_server_set_config_ex0">MPR_SERVER_SET_CONFIG_EX</a> structure that contains the port information being set on the server in <i>hMprServer</i>.
 
 
 ## -returns
@@ -126,23 +126,23 @@ The specified procedure could not be found.
 
 
 
-<a href="https://msdn.microsoft.com/60cae055-841a-4435-bf0e-4198b1ccdd4e">MprAdminBufferFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminbufferfree">MprAdminBufferFree</a>
 
 
 
-<a href="https://msdn.microsoft.com/f93b37bc-d3d1-40f0-aef6-839bb43c88e2">MprAdminServerConnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>
 
 
 
-<a href="https://msdn.microsoft.com/19fff58d-6e13-478f-a960-de5d0702661c">MprAdminServerGetInfoEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminservergetinfoex">MprAdminServerGetInfoEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/a61734a7-b171-4e38-8dec-46be9a9c08ee">Router Administration Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/352505a9-616a-4d47-9857-f88d345333fd">Router Management Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
  
 
  

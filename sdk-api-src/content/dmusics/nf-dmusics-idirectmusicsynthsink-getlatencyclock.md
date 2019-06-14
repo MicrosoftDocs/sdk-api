@@ -94,11 +94,11 @@ Indicates that the method is unable to access latency clock.
 
 
 
-The latency <b>IReferenceClock</b> returns the current render time whenever its <b>IReferenceClock::GetTime</b> method is called. This time is always relative to the time established by the master clock, installed in the synth sink by using <a href="https://msdn.microsoft.com/91c996cc-04e1-47fb-a82d-1cb17fe191e2">IDirectMusicSynthSink::SetMasterClock</a>. The latency time is used by the performance layer of DirectMusic to identify the next available time to start playing a note.
+The latency <b>IReferenceClock</b> returns the current render time whenever its <b>IReferenceClock::GetTime</b> method is called. This time is always relative to the time established by the master clock, installed in the synth sink by using <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynthsink-setmasterclock">IDirectMusicSynthSink::SetMasterClock</a>. The latency time is used by the performance layer of DirectMusic to identify the next available time to start playing a note.
 
-The <i>ppClock</i> parameter follows the <a href="https://msdn.microsoft.com/e6b19110-37e2-4d23-a528-6393c12ab650">reference-counting conventions for COM objects</a>.
+The <i>ppClock</i> parameter follows the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/reference-counting-conventions-for-com-objects">reference-counting conventions for COM objects</a>.
 
-For more information about latency clocks, see <a href="https://msdn.microsoft.com/a3134024-77b9-463b-959b-3c910f83014d">Synthesizer Latency</a>. Also see the descriptions of the <b>IReferenceClock</b> and <b>IDirectMusic</b> interfaces in the Microsoft Windows SDK documentation.
+For more information about latency clocks, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/synthesizer-latency">Synthesizer Latency</a>. Also see the descriptions of the <b>IReferenceClock</b> and <b>IDirectMusic</b> interfaces in the Microsoft Windows SDK documentation.
 
 
 
@@ -108,11 +108,11 @@ For more information about latency clocks, see <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/08f1056a-fead-475b-a13a-ee11b9709241">IDirectMusicSynth</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nn-dmusics-idirectmusicsynth">IDirectMusicSynth</a>
 
 
 
-<a href="https://msdn.microsoft.com/1585cfcc-2c83-4705-b465-52a621ccc163">IDirectMusicSynth::SetMasterClock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-setmasterclock">IDirectMusicSynth::SetMasterClock</a>
  
 
  

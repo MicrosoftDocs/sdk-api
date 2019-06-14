@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IHandlerActivationHost</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IHandlerActivationHost</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IHandlerActivationHost</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IHandlerActivationHost</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,13 +69,13 @@ The <b>IHandlerActivationHost</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6ec3f90a-4b65-4cbc-a777-a338c97f1acf">BeforeCoCreateInstance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ihandleractivationhost-beforecocreateinstance">BeforeCoCreateInstance</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/aa0ea3cb-7fe3-498c-a105-b78492166f65">BeforeCreateProcess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ihandleractivationhost-beforecreateprocess">BeforeCreateProcess</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>

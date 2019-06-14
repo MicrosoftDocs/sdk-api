@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicate flags used by <a href="https://msdn.microsoft.com/6c051cdc-b7f9-48dc-ba32-38f0f1ee5fda">IExplorerPaneVisibility::GetPaneState</a> to get the current state of the given Windows Explorer pane.
+Indicate flags used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerpanevisibility-getpanestate">IExplorerPaneVisibility::GetPaneState</a> to get the current state of the given Windows Explorer pane.
 
 
 ## -enum-fields

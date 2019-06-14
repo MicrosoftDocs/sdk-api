@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/D69C8040-AAC4-4149-ACDA-948FDBACAB48">IAccessibilityDockingServiceCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iaccessibilitydockingservicecallback">IAccessibilityDockingServiceCallback</a>
  
 
  

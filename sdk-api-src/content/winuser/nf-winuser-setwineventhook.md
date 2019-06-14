@@ -61,21 +61,21 @@ Sets an event hook function for a range of events.
 
 ### -param eventMin [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Specifies the <a href="https://msdn.microsoft.com/e27b135d-4faf-401e-a6c1-64ed0e1b5de5">event constant</a> for the lowest event value in the range of events that are handled by the hook function. This parameter can be set to <b>EVENT_MIN</b> to indicate the lowest possible event value.
+Specifies the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/event-constants">event constant</a> for the lowest event value in the range of events that are handled by the hook function. This parameter can be set to <b>EVENT_MIN</b> to indicate the lowest possible event value.
 
 
 ### -param eventMax [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Specifies the event constant for the highest event value in the range of events that are handled by the hook function. This parameter can be  set to <a href="https://msdn.microsoft.com/e27b135d-4faf-401e-a6c1-64ed0e1b5de5">EVENT_MAX</a> to indicate the highest possible event value.
+Specifies the event constant for the highest event value in the range of events that are handled by the hook function. This parameter can be  set to <a href="https://docs.microsoft.com/windows/desktop/WinAuto/event-constants">EVENT_MAX</a> to indicate the highest possible event value.
 
 
 ### -param hmodWinEventProc [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HMODULE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HMODULE</a></b>
 
 Handle to the DLL that contains the hook function at <i>lpfnWinEventProc</i>, if the WINEVENT_INCONTEXT flag is specified in the <i>dwFlags</i> parameter. If the hook function is not located in a DLL, or if the WINEVENT_OUTOFCONTEXT flag is specified, this parameter is <b>NULL</b>.
 
@@ -84,26 +84,26 @@ Handle to the DLL that contains the hook function at <i>lpfnWinEventProc</i>, if
 
 Type: <b>WINEVENTPROC</b>
 
-Pointer to the event hook function. For more information about this function, see <a href="https://msdn.microsoft.com/5fe3cacc-4563-43da-960d-729d3fe4ff70">WinEventProc</a>.
+Pointer to the event hook function. For more information about this function, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-wineventproc">WinEventProc</a>.
 
 
 ### -param idProcess [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the ID of the process from which the hook function receives events. Specify zero (0) to receive events from all processes on the current desktop.
 
 
 ### -param idThread [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the ID of the thread from which the hook function receives events. If this parameter is zero, the hook function is associated with all existing threads on the current desktop.
 
 
 ### -param dwFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 
 Flag values that specify the location of the hook function and of the events to be skipped. The following flags are valid:
@@ -122,7 +122,7 @@ Flag values that specify the location of the hook function and of the events to 
 </dl>
 </td>
 <td width="60%">
-The DLL that contains the callback function is mapped into the address space of the process that generates the event. With this flag, the system sends event notifications to the callback function as they occur. The hook function must be in a DLL when this flag is specified. This flag has no effect when both the calling process and the generating process are not 32-bit or 64-bit processes, or when the generating process is a console application. For more information, see <a href="https://msdn.microsoft.com/bf12bda6-b00e-4fbe-a576-b989aa428b54">In-Context Hook Functions</a>.
+The DLL that contains the callback function is mapped into the address space of the process that generates the event. With this flag, the system sends event notifications to the callback function as they occur. The hook function must be in a DLL when this flag is specified. This flag has no effect when both the calling process and the generating process are not 32-bit or 64-bit processes, or when the generating process is a console application. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/in-context-hook-functions">In-Context Hook Functions</a>.
 
 </td>
 </tr>
@@ -132,7 +132,7 @@ The DLL that contains the callback function is mapped into the address space of 
 </dl>
 </td>
 <td width="60%">
-The callback function is not mapped into the address space of the process that generates the event. Because the hook function is called across process boundaries, the system must queue events. Although this method is asynchronous, events are guaranteed to be in sequential order. For more information, see <a href="https://msdn.microsoft.com/c0156485-db1e-42d3-bbbd-c51835a597ed">Out-of-Context Hook Functions</a>.
+The callback function is not mapped into the address space of the process that generates the event. Because the hook function is called across process boundaries, the system must queue events. Although this method is asynchronous, events are guaranteed to be in sequential order. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/out-of-context-hook-functions">Out-of-Context Hook Functions</a>.
 
 </td>
 </tr>
@@ -178,7 +178,7 @@ See Remarks section for information on Windows Store app development.
 
 Type: <b>HWINEVENTHOOK</b>
 
-If successful, returns an <a href="https://msdn.microsoft.com/fa193e8e-46a8-46d4-83e1-e6274276b218">HWINEVENTHOOK</a> value that identifies this event hook instance. Applications save this return value to use it with the <a href="https://msdn.microsoft.com/5cffb279-85e1-4f7a-8bbb-d0d618f6afcd">UnhookWinEvent</a> function.
+If successful, returns an <a href="https://docs.microsoft.com/windows/desktop/WinAuto/hwineventhook">HWINEVENTHOOK</a> value that identifies this event hook instance. Applications save this return value to use it with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unhookwinevent">UnhookWinEvent</a> function.
 
 If unsuccessful, returns zero.
 
@@ -203,7 +203,7 @@ For out-of-context events, the event is delivered on the same thread that called
 
 
 
-While a hook function processes an event, additional events may be triggered, which may cause the hook function to reenter before the processing for the original event is finished. The problem with reentrancy in hook functions is that events are completed out of sequence unless the hook function handles this situation. For more information, see <a href="https://msdn.microsoft.com/2382e7a4-82df-423a-8479-66e28baf8105">Guarding Against Reentrancy</a>.
+While a hook function processes an event, additional events may be triggered, which may cause the hook function to reenter before the processing for the original event is finished. The problem with reentrancy in hook functions is that events are completed out of sequence unless the hook function handles this situation. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/guarding-against-reentrancy-in-hook-functions">Guarding Against Reentrancy</a>.
 
 <b>Windows Store app development</b> If dwFlags is WINEVENT_INCONTEXT AND (idProcess = 0 | idThread = 0), then window hook DLLs are not loaded in-process for the Windows Store app processes and the Windows Runtime broker process unless they are installed by UIAccess processes (accessibility tools). The notification is delivered on the installer's thread.
 
@@ -281,15 +281,15 @@ void CALLBACK HandleWinEvent(HWINEVENTHOOK hook, DWORD event, HWND hwnd,
 
 
 
-<a href="https://msdn.microsoft.com/7e999335-6a41-4d22-82ef-1a8dd6cb656e">Registering a Hook Function</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/registering-a-hook-function">Registering a Hook Function</a>
 
 
 
-<a href="https://msdn.microsoft.com/5cffb279-85e1-4f7a-8bbb-d0d618f6afcd">UnhookWinEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unhookwinevent">UnhookWinEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/5fe3cacc-4563-43da-960d-729d3fe4ff70">WinEventProc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-wineventproc">WinEventProc</a>
  
 
  

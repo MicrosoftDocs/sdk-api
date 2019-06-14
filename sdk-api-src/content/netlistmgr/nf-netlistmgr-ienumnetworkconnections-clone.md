@@ -59,7 +59,7 @@ The <b>Clone</b> method creates an enumerator that contains the same enumeration
 
 ### -param ppEnumNetwork [out]
 
-Pointer to new <a href="https://msdn.microsoft.com/f7e69ede-c567-4285-a017-096c94fb3fe4">IEnumNetworkConnections</a> interface instance.
+Pointer to new <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-ienumnetworkconnections">IEnumNetworkConnections</a> interface instance.
 
 
 ## -returns
@@ -117,7 +117,7 @@ Failed for unknown reasons.
 
 
 
-<a href="https://msdn.microsoft.com/f7e69ede-c567-4285-a017-096c94fb3fe4">IEnumNetworkConnections</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-ienumnetworkconnections">IEnumNetworkConnections</a>
  
 
  

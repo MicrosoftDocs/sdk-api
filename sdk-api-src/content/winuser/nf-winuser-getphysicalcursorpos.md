@@ -77,7 +77,7 @@ Type: <b>BOOL</b>
 <b>TRUE</b> if successful; otherwise <b>FALSE</b>.
 
 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> can be called to get more information about any error that is generated.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> can be called to get more information about any error that is generated.
 
 
 
@@ -86,7 +86,7 @@ Type: <b>BOOL</b>
 
 
 
-For a description of the difference between logicial coordinates and physical coordinates, see <a href="https://msdn.microsoft.com/en-us/library/ms633536(v=VS.85).aspx">PhysicalToLogicalPoint</a>.
+For a description of the difference between logicial coordinates and physical coordinates, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-physicaltologicalpoint">PhysicalToLogicalPoint</a>.
 
 
 
@@ -96,7 +96,7 @@ For a description of the difference between logicial coordinates and physical co
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648383(v=VS.85).aspx">ClipCursor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-clipcursor">ClipCursor</a>
 
 
 
@@ -104,11 +104,11 @@ For a description of the difference between logicial coordinates and physical co
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646970(v=VS.85).aspx">Cursors</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/cursors">Cursors</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648390(v=VS.85).aspx">GetCursorPos</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcursorpos">GetCursorPos</a>
 
 
 
@@ -116,23 +116,23 @@ For a description of the difference between logicial coordinates and physical co
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648405(v=VS.85).aspx">SetCaretPos</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setcaretpos">SetCaretPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648393(v=VS.85).aspx">SetCursor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setcursor">SetCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648394(v=VS.85).aspx">SetCursorPos</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setcursorpos">SetCursorPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa969465(v=VS.85).aspx">SetPhysicalCursorPos</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setphysicalcursorpos">SetPhysicalCursorPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648396(v=VS.85).aspx">ShowCursor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showcursor">ShowCursor</a>
  
 
  

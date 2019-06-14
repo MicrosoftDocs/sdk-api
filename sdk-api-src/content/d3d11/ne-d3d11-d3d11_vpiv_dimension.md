@@ -71,7 +71,7 @@ The resource will be accessed as a 2D texture.
 
 
 
-This enumeration is used with the <a href="https://msdn.microsoft.com/69EDF918-355A-4277-9F7E-C08CF65E5418">D3D11_VIDEO_PROCESSOR_INPUT_VIEW_DESC</a> structure.
+This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_processor_input_view_desc">D3D11_VIDEO_PROCESSOR_INPUT_VIEW_DESC</a> structure.
 
 
 
@@ -81,11 +81,11 @@ This enumeration is used with the <a href="https://msdn.microsoft.com/69EDF918-3
 
 
 
-<a href="https://msdn.microsoft.com/40061AD1-BCD9-4170-A442-34B4C792BB55">Direct3D 11 Video Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-enumerations">Direct3D 11 Video Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/3245D2AF-74A1-4068-A0BC-577FD42B353E">ID3D11VideoDevice::CreateVideoProcessorInputView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-createvideoprocessorinputview">ID3D11VideoDevice::CreateVideoProcessorInputView</a>
  
 
  

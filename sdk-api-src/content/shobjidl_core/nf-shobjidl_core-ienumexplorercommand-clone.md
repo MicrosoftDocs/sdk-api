@@ -59,7 +59,7 @@ Not currently implemented.
 
 ### -param ppenum [out]
 
-Type: <b><a href="https://msdn.microsoft.com/c9a21e84-dd95-413a-b9db-e02008185bef">IEnumExplorerCommand</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumexplorercommand">IEnumExplorerCommand</a>**</b>
 
 Currently unused.
 

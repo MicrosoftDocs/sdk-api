@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information about a change that has taken place in a date and time picker (DTP) control. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb761737(v=VS.85).aspx">DTN_DATETIMECHANGE</a> notification code. 
+Contains information about a change that has taken place in a date and time picker (DTP) control. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/dtn-datetimechange">DTN_DATETIMECHANGE</a> notification code. 
 
 
 ## -struct-fields
@@ -59,16 +59,16 @@ Contains information about a change that has taken place in a date and time pick
 
 ### -field nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about the notification code. 
+An <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that contains information about the notification code. 
 
 
 ### -field dwFlags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-A value that indicates if the control was set to "no date" status (for <a href="https://msdn.microsoft.com/en-us/library/Bb761728(v=VS.85).aspx">DTS_SHOWNONE</a> only). This flag also specifies whether the contents of the <b>st</b> member are valid and contain current time information. This value can be one of the following: 
+A value that indicates if the control was set to "no date" status (for <a href="https://docs.microsoft.com/windows/desktop/Controls/date-and-time-picker-control-styles">DTS_SHOWNONE</a> only). This flag also specifies whether the contents of the <b>st</b> member are valid and contain current time information. This value can be one of the following: 
 
 <table>
 <tr>
@@ -81,7 +81,7 @@ A value that indicates if the control was set to "no date" status (for <a href="
 </dl>
 </td>
 <td width="60%">
-The control is set to "no date" status. The "no date" status applies only to controls that are set to the <a href="https://msdn.microsoft.com/en-us/library/Bb761728(v=VS.85).aspx">DTS_SHOWNONE</a> style.
+The control is set to "no date" status. The "no date" status applies only to controls that are set to the <a href="https://docs.microsoft.com/windows/desktop/Controls/date-and-time-picker-control-styles">DTS_SHOWNONE</a> style.
 
 </td>
 </tr>
@@ -102,7 +102,7 @@ The control is not set to the "no date" status. The
 
 ### -field st
 
-Type: <b><a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a></b>
 
-A <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure that contains information about the current system date and time. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that contains information about the current system date and time. 
 

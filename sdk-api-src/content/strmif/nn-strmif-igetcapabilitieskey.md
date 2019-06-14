@@ -51,14 +51,14 @@ ms.custom: 19H1
 
 
 
-The <b>IGetCapabilitiesKey</b> interface enables an application to retrieve the capabilities of a software or hardware codec from the registry, without creating an instance of the encoder filter. The moniker for the codec filter exposes this interface. For more information, see <a href="https://msdn.microsoft.com/3d19152f-17a3-4576-a2a2-5b827d9ca8d1">Encoder API</a>.
+The <b>IGetCapabilitiesKey</b> interface enables an application to retrieve the capabilities of a software or hardware codec from the registry, without creating an instance of the encoder filter. The moniker for the codec filter exposes this interface. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/encoder-api">Encoder API</a>.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGetCapabilitiesKey</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IGetCapabilitiesKey</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGetCapabilitiesKey</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGetCapabilitiesKey</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IGetCapabilitiesKey</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/02c3edfe-9ce1-4d9f-bdd1-79e818b43800">GetCapabilitiesKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igetcapabilitieskey-getcapabilitieskey">GetCapabilitiesKey</a>
 </td>
 <td align="left" width="63%">
 Gets a registry key that contains the capabilities information for the codec.
@@ -88,7 +88,7 @@ Gets a registry key that contains the capabilities information for the codec.
 
 
 
-<a href="https://msdn.microsoft.com/5efd174f-2eb1-44e6-97e3-b73c7c52fef1">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
  
 
  

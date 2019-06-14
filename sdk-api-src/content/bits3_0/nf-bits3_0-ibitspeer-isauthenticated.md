@@ -105,7 +105,7 @@ BITS cannot download content from an unauthenticated peer. When peers are detect
 
 
 
-<a href="https://msdn.microsoft.com/617b88d4-6c3e-4c33-9bfa-6d9f6f629866">IBitsPeer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ibitspeer">IBitsPeer</a>
  
 
  

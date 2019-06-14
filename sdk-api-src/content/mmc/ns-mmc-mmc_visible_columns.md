@@ -54,7 +54,7 @@ MMC_VISIBLE_COLUMNS structure is introduced in MMC 1.2.
 
 The 
 MMC_VISIBLE_COLUMNS structure is used by MMC with the 
-<a href="https://msdn.microsoft.com/634f14ba-0b6a-41b6-af97-e957d1337623">MMCN_COLUMNS_CHANGED</a> notification to inform the snap-in which columns in a column set are visible.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-columns-changed">MMCN_COLUMNS_CHANGED</a> notification to inform the snap-in which columns in a column set are visible.
 
 
 ## -struct-fields
@@ -88,11 +88,11 @@ The order of visible columns may be different than the order of insertion by the
 
 
 
-<a href="https://msdn.microsoft.com/634f14ba-0b6a-41b6-af97-e957d1337623">MMCN_COLUMNS_CHANGED</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-columns-changed">MMCN_COLUMNS_CHANGED</a>
 
 
 
-<a href="https://msdn.microsoft.com/409b8212-a2fc-4d64-a407-ade2fde9ac4d">Using Column Persistence</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-column-persistence">Using Column Persistence</a>
  
 
  

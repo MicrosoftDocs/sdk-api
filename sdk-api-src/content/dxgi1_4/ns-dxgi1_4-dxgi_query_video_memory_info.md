@@ -69,7 +69,7 @@ Specifies the OS-provided video memory budget, in bytes, that the application sh
 
 ### -field AvailableForReservation
 
-              The amount of video memory, in bytes, that the application has available for reservation. To reserve this video memory, the application should call <a href="https://msdn.microsoft.com/5D17F57F-9FFA-4B5C-98B6-33E5B3982A63">IDXGIAdapter3::SetVideoMemoryReservation</a>.
+              The amount of video memory, in bytes, that the application has available for reservation. To reserve this video memory, the application should call <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiadapter3-setvideomemoryreservation">IDXGIAdapter3::SetVideoMemoryReservation</a>.
 
 
 ### -field CurrentReservation
@@ -83,9 +83,9 @@ Specifies the OS-provided video memory budget, in bytes, that the application sh
 
 
 
-Use this structure with <a href="https://msdn.microsoft.com/A2F95FE5-CF8D-4F17-8CC8-62AAA40B71FC">QueryVideoMemoryInfo</a>.
+Use this structure with <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiadapter3-queryvideomemoryinfo">QueryVideoMemoryInfo</a>.
 
-Refer to the remarks for <a href="https://msdn.microsoft.com/EFA3FF00-F121-4ED8-AF83-1952C73AE06D">D3D12_MEMORY_POOL</a>.
+Refer to the remarks for <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_memory_pool">D3D12_MEMORY_POOL</a>.
 
 
 
@@ -95,7 +95,7 @@ Refer to the remarks for <a href="https://msdn.microsoft.com/EFA3FF00-F121-4ED8-
 
 
 
-<a href="https://msdn.microsoft.com/22e98880-bcd1-448a-9223-604fff9173fe">DXGI Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-structures">DXGI Structures</a>
  
 
  

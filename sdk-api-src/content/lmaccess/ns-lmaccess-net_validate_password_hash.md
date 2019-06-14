@@ -71,7 +71,7 @@ Password hash.
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Aa370689(v=VS.85).aspx">NET_VALIDATE_PASSWORD_RESET_INPUT_ARG</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa370687(v=VS.85).aspx">NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG</a> structures contain a <b>NET_VALIDATE_PASSWORD_HASH</b> structure. The <a href="https://msdn.microsoft.com/1e6ea28a-a007-4cd1-b5d6-686bcf019fa1">NET_VALIDATE_PERSISTED_FIELDS</a> structure contains a pointer to this structure. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_net_validate_password_reset_input_arg">NET_VALIDATE_PASSWORD_RESET_INPUT_ARG</a> and <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_net_validate_password_change_input_arg">NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG</a> structures contain a <b>NET_VALIDATE_PASSWORD_HASH</b> structure. The <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_net_validate_persisted_fields">NET_VALIDATE_PERSISTED_FIELDS</a> structure contains a pointer to this structure. 
 
 
 
@@ -81,15 +81,15 @@ The <a href="https://msdn.microsoft.com/en-us/library/Aa370689(v=VS.85).aspx">NE
 
 
 
-<a href="https://msdn.microsoft.com/be5ce51b-6568-49c8-954d-7b0d4bcb8611">NetValidatePasswordPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netvalidatepasswordpolicy">NetValidatePasswordPolicy</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4b05054-bef2-4cab-89f6-725d92ee75b8">Network Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
  
 
  

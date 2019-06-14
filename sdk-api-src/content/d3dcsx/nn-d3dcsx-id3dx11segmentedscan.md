@@ -55,7 +55,7 @@ Segmented scan context.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3DX11SegmentedScan</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID3DX11SegmentedScan</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3DX11SegmentedScan</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3DX11SegmentedScan</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID3DX11SegmentedScan</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/096e1cc1-0bab-4e23-8c4c-47a2a0ff49fb">SegScan</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3dcsx/nf-d3dcsx-id3dx11segmentedscan-segscan">SegScan</a>
 </td>
 <td align="left" width="63%">
 Performs a segmented scan of a sequence.
@@ -79,7 +79,7 @@ Performs a segmented scan of a sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/84eca342-33a3-4595-adb2-0a39e6060e49">SetScanDirection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3dcsx/nf-d3dcsx-id3dx11segmentedscan-setscandirection">SetScanDirection</a>
 </td>
 <td align="left" width="63%">
 Sets which direction to perform scans in.
@@ -94,7 +94,7 @@ Sets which direction to perform scans in.
 
 
 
-<a href="https://msdn.microsoft.com/A4F5E487-AA6C-4C64-90CF-88587F2E8B8B">D3DCSX 11 Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3dcsx11-interfaces">D3DCSX 11 Interfaces</a>
  
 
  

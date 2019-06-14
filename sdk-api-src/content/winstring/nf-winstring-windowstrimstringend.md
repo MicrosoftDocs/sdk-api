@@ -62,21 +62,21 @@ Removes all trailing occurrences of a specified set of characters from the sourc
 
 ### -param string [in]
 
-Type: <b><a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a></b>
 
 The string to be trimmed.
 
 
 ### -param trimString [in]
 
-Type: <b><a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a></b>
 
 The characters to remove from <i>string</i>.
 
 
 ### -param newString [out]
 
-Type: <b><a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>*</b>
 
 The string that remains after all occurrences of characters in the <i>trimString</i> parameter are removed from the end of <i>string</i>, or <b>NULL</b> if <i>trimString</i> contains all of the characters in <i>string</i>.
 
@@ -137,7 +137,7 @@ Failed to allocate the trimmed string.
 
 
 
-Each call to the <b>WindowsTrimStringEnd</b> function must be matched with a corresponding call to <a href="https://msdn.microsoft.com/79B9E5CF-396C-45FB-931B-7B50281A0446">WindowsDeleteString</a>.
+Each call to the <b>WindowsTrimStringEnd</b> function must be matched with a corresponding call to <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a>.
 
 
 
@@ -147,7 +147,7 @@ Each call to the <b>WindowsTrimStringEnd</b> function must be matched with a cor
 
 
 
-<a href="https://msdn.microsoft.com/79B9E5CF-396C-45FB-931B-7B50281A0446">WindowsDeleteString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a>
  
 
  

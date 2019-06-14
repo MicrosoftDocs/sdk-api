@@ -59,12 +59,12 @@ Gets a specific type of PIN.
 
 ### -param pinType [in]
 
-An <a href="https://msdn.microsoft.com/79791522-cf6b-4dae-a9c2-68e9e2fc394f">MBN_PIN_TYPE</a> value that represents the requested PIN type.
+An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_pin_type">MBN_PIN_TYPE</a> value that represents the requested PIN type.
 
 
 ### -param pin [out, retval]
 
-Pointer to the address of the <a href="https://msdn.microsoft.com/76764dbb-7de0-4b95-a210-60b8e6a4b24b">IMbnPin</a> for the requested PIN type.  If this method returns any value other than <b>S_OK</b>, this parameter is <b>NULL</b>.  Otherwise, the calling application must release this interface when it is done using it.
+Pointer to the address of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnpin">IMbnPin</a> for the requested PIN type.  If this method returns any value other than <b>S_OK</b>, this parameter is <b>NULL</b>.  Otherwise, the calling application must release this interface when it is done using it.
 
 
 ## -returns
@@ -96,7 +96,7 @@ The method completed successfully.
 </dl>
 </td>
 <td width="60%">
-The PIN type is not available.  The Mobile Broadband service is currently probing the device to retrieve this information.  When the PIN type is available, the Mobile Broadband service will call the <a href="https://msdn.microsoft.com/37347dd8-07c2-4521-a5f0-a51053634704">OnPinListAvailable</a> method of <a href="https://msdn.microsoft.com/2942bd4d-5bdb-45eb-a008-352bf44eec80">IMbnPinManagerEvents</a>.
+The PIN type is not available.  The Mobile Broadband service is currently probing the device to retrieve this information.  When the PIN type is available, the Mobile Broadband service will call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnpinmanagerevents-onpinlistavailable">OnPinListAvailable</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnpinmanagerevents">IMbnPinManagerEvents</a>.
 
 </td>
 </tr>
@@ -155,7 +155,7 @@ The requested PIN type is not supported by the device.
 
 
 
-<a href="https://msdn.microsoft.com/b5cfabc7-81f8-4ea0-b6f4-5de011320f0b">IMbnPinManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnpinmanager">IMbnPinManager</a>
  
 
  

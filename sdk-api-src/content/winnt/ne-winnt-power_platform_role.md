@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Indicates the OEM's preferred power management profile. These values are read from the 
     Preferred_PM_Profile field of the Fixed ACPI Description Table (FADT). These values are returned by the 
-    <a href="https://msdn.microsoft.com/a0311454-3908-49a6-95c0-c118dca259ac">PowerDeterminePlatformRole</a> or <a href="https://msdn.microsoft.com/64b597d3-ca7a-4ff7-8527-72c3625147cd">PowerDeterminePlatformRoleEx </a>       function.
+    <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powerdetermineplatformrole">PowerDeterminePlatformRole</a> or <a href="https://docs.microsoft.com/windows/desktop/api/powerbase/nf-powerbase-powerdetermineplatformroleex">PowerDeterminePlatformRoleEx </a>       function.
 
 
 ## -enum-fields
@@ -116,11 +116,11 @@ Values equal to or greater than this value indicate an out of range value.
 
 
 
-<a href="https://msdn.microsoft.com/f78cd97f-586f-4091-ab4a-5f109a0f679a">Power Management Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-enumeration-types">Power Management Enumeration Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0311454-3908-49a6-95c0-c118dca259ac">PowerDeterminePlatformRole</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powerdetermineplatformrole">PowerDeterminePlatformRole</a>
  
 
  

@@ -61,7 +61,7 @@ The
 ### -param ppEnum [out]
 
 Pointer to new 
-<a href="https://msdn.microsoft.com/fc8c235c-92ec-448f-bbea-c93192d36beb">IEnumLocation</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumlocation">IEnumLocation</a> interface.
 
 
 ## -returns
@@ -129,8 +129,8 @@ Failed for unknown reasons.
 
 
 
-TAPI calls the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/fc8c235c-92ec-448f-bbea-c93192d36beb">IEnumLocation</a> interface returned by <b>IEnumLocation::Clone</b>. The application must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the 
+TAPI calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method on the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumlocation">IEnumLocation</a> interface returned by <b>IEnumLocation::Clone</b>. The application must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the 
 <b>IEnumLocation</b> interface to free resources associated with it.
 
 

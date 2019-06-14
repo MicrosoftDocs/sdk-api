@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 Represents a resource domain whose objects and device contexts can be used together.
-          This interface performs all the same functions as the <a href="https://msdn.microsoft.com/60CB6308-85BE-424B-9950-1C8617D08A09">ID2D1Device3</a> interface.
-          It also enables the creation of <a href="https://msdn.microsoft.com/59E1F73B-BAD9-4826-BF5B-435E760CC546">ID2D1DeviceContext4</a> objects.
+          This interface performs all the same functions as the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1device3">ID2D1Device3</a> interface.
+          It also enables the creation of <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext4">ID2D1DeviceContext4</a> objects.
         
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Device4</b> interface inherits from <a href="https://msdn.microsoft.com/60CB6308-85BE-424B-9950-1C8617D08A09">ID2D1Device3</a>. <b>ID2D1Device4</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Device4</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1device3">ID2D1Device3</a>. <b>ID2D1Device4</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,16 +72,16 @@ The <b>ID2D1Device4</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/06F097C4-E417-48EA-A480-62E96C4A1CE6">CreateDeviceContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1device4-createdevicecontext">CreateDeviceContext</a>
 </td>
 <td align="left" width="63%">
-Creates a new <a href="https://msdn.microsoft.com/59E1F73B-BAD9-4826-BF5B-435E760CC546">ID2D1DeviceContext4</a> from this Direct2D device.
+Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext4">ID2D1DeviceContext4</a> from this Direct2D device.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D2863860-D2CE-4658-AD06-F29B827947EE">GetMaximumColorGlyphCacheMemory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1device4-getmaximumcolorglyphcachememory">GetMaximumColorGlyphCacheMemory</a>
 </td>
 <td align="left" width="63%">
 Gets the maximum capacity of the color glyph cache.
@@ -90,7 +90,7 @@ Gets the maximum capacity of the color glyph cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/477386A0-0EED-489A-BBFD-8371153D5BA1">SetMaximumColorGlyphCacheMemory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1device4-setmaximumcolorglyphcachememory">SetMaximumColorGlyphCacheMemory</a>
 </td>
 <td align="left" width="63%">
 Sets the maximum capacity of the color glyph cache. 

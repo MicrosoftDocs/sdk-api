@@ -64,7 +64,7 @@ The name of the payload file. The file name path must be relative to the root of
 
 ### -param inputStream [in]
 
-An <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> that provides the contents of <i>fileName</i>. 
+An <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> that provides the contents of <i>fileName</i>. 
 
 
 ## -returns
@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/357D7166-C115-4F32-AE8B-AA31018F700C">IAppxEncryptedBundleWriter2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxencryptedbundlewriter2">IAppxEncryptedBundleWriter2</a>
  
 
  

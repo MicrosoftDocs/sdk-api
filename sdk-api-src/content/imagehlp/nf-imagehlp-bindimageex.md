@@ -138,7 +138,7 @@ The root of the path to search for the file's corresponding symbol file.
 ### -param StatusRoutine [in]
 
 A pointer to a status routine. The status routine is called during the progress of the image binding. For more information, see 
-<a href="https://msdn.microsoft.com/38a6ddee-5ef1-416f-99ca-11a50643fc97">StatusRoutine</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nc-imagehlp-pimagehlp_status_routine">StatusRoutine</a>.
 
 
 ## -returns
@@ -148,7 +148,7 @@ A pointer to a status routine. The status routine is called during the progress 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -171,11 +171,11 @@ All ImageHlp functions, such as this one, are single threaded. Therefore, calls 
 
 
 
-<a href="https://msdn.microsoft.com/926f412e-25ba-4f9c-a118-b5a1bc723379">ImageHlp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/38a6ddee-5ef1-416f-99ca-11a50643fc97">StatusRoutine</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nc-imagehlp-pimagehlp_status_routine">StatusRoutine</a>
  
 
  

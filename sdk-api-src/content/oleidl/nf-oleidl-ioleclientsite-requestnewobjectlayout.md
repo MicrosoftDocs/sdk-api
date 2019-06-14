@@ -101,7 +101,7 @@ This method can either increase or decrease the space. Currently, there is no st
 
 
 
-<a href="https://msdn.microsoft.com/dafee149-926a-4d08-a43d-5847682db645">IOleClientSite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a>
  
 
  

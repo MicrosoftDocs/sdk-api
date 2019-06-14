@@ -73,7 +73,7 @@ A handle to the window whose property list is to be enumerated.
 
 Type: <b>PROPENUMPROCEX</b>
 
-A pointer to the callback function. For more information about the callback function, see the <a href="https://msdn.microsoft.com/en-us/library/ms633566(v=VS.85).aspx">PropEnumProcEx</a> function. 
+A pointer to the callback function. For more information about the callback function, see the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-propenumprocexa">PropEnumProcEx</a> function. 
 
 
 ### -param lParam [in]
@@ -104,7 +104,7 @@ An application can remove only those properties it has added. It must not remove
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms633561(v=VS.85).aspx">Listing Window Properties for a Given Window</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/using-window-properties">Listing Window Properties for a Given Window</a>.
 
 <div class="code"></div>
 
@@ -119,7 +119,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms633561(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633566(v=VS.85).aspx">PropEnumProcEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-propenumprocexa">PropEnumProcEx</a>
 
 
 
@@ -127,7 +127,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms633561(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632594(v=VS.85).aspx">Window Properties</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/window-properties">Window Properties</a>
  
 
  

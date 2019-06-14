@@ -61,7 +61,7 @@ Overrides the rotation operation that is performed in the video processor.
 
 Type: <b>UINT</b>
 
-Rotation value in degrees.  Typically, you can only use values from the <a href="https://msdn.microsoft.com/E2760742-3914-4B5C-87FB-38F2EF3025C3">MFVideoRotationFormat</a> enumeration.
+Rotation value in degrees.  Typically, you can only use values from the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ne-mfapi-_mfvideorotationformat">MFVideoRotationFormat</a> enumeration.
 
 
 ## -returns
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/FE314254-AAE4-482E-A7AE-28B2591E0060">IMFVideoProcessorControl2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfvideoprocessorcontrol2">IMFVideoProcessorControl2</a>
  
 
  

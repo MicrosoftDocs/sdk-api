@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>capCaptureSetSetup</b> macro sets the configuration parameters used with streaming capture. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/ba9adb26-6627-469b-a836-f4f277ddb7c4">WM_CAP_SET_SEQUENCE_SETUP</a> message.
+The <b>capCaptureSetSetup</b> macro sets the configuration parameters used with streaming capture. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-sequence-setup">WM_CAP_SET_SEQUENCE_SETUP</a> message.
 
 
 
@@ -79,7 +79,7 @@ Size, in bytes, of the structure referenced by s.
 
 
 
-For information about the parameters used to control streaming capture, see the <a href="https://msdn.microsoft.com/6bf7e374-5991-4a7b-984a-628d3e77b2d7">CAPTUREPARMS</a> structure.
+For information about the parameters used to control streaming capture, see the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-tagcaptureparms">CAPTUREPARMS</a> structure.
 
 
 
@@ -89,11 +89,11 @@ For information about the parameters used to control streaming capture, see the 
 
 
 
-<a href="https://msdn.microsoft.com/c93ecc51-e2c5-4b69-8625-c8385d53fab2">Video Capture</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://msdn.microsoft.com/21061f06-d58b-4800-a9f5-9821494fabd6">Video Capture Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
  
 
  

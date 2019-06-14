@@ -63,7 +63,7 @@ Indicates the behavior of the gradient outside the normalized gradient range.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/6b6e1fe1-d43a-46cf-904d-5266b9bd6bf4">D2D1_EXTEND_MODE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_extend_mode">D2D1_EXTEND_MODE</a></b>
 
 The behavior of the gradient outside the [0,1] normalized gradient range.
 
@@ -75,7 +75,7 @@ The behavior of the gradient outside the [0,1] normalized gradient range.
 
 
 
-<a href="https://msdn.microsoft.com/982abf9c-4778-4871-a494-5843f0c0addc">ID2D1GradientStopCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1gradientstopcollection">ID2D1GradientStopCollection</a>
  
 
  

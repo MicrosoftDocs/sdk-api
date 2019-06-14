@@ -78,7 +78,7 @@ The y-coordinate, in logical units, of the point to be set.
 
 ### -param color [in]
 
-The color to be used to paint the point. To create a <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> color value, use the <a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">RGB</a> macro.
+The color to be used to paint the point. To create a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> color value, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
 
 
 ## -returns
@@ -119,7 +119,7 @@ One or more of the input parameters is invalid.
 
 The function fails if the pixel coordinates lie outside of the current clipping region.
 
-Not all devices support the <b>SetPixel</b> function. For more information, see <a href="https://msdn.microsoft.com/d524c4c7-22af-495d-aecc-b9921e53ca7b">GetDeviceCaps</a>.
+Not all devices support the <b>SetPixel</b> function. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>.
 
 
 
@@ -129,31 +129,31 @@ Not all devices support the <b>SetPixel</b> function. For more information, see 
 
 
 
-<a href="https://msdn.microsoft.com/ef3abc8a-5d95-41d0-8eb6-47719d472414">Bitmap Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/ff0a5ae3-ae2e-4417-b5e5-0f9871c03964">Bitmaps Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
 
 
 
-<a href="https://msdn.microsoft.com/d524c4c7-22af-495d-aecc-b9921e53ca7b">GetDeviceCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
 
 
 
-<a href="https://msdn.microsoft.com/46d17e95-93ce-4a43-b86c-489d6e3afe12">GetPixel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getpixel">GetPixel</a>
 
 
 
-<a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">RGB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
 
 
 
-<a href="https://msdn.microsoft.com/638f0ffd-3771-4390-b335-0517be5312fd">SetPixelV</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setpixelv">SetPixelV</a>
  
 
  

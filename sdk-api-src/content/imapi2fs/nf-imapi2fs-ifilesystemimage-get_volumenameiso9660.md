@@ -97,19 +97,19 @@ Value: 0x80004003
 
 
 
-<a href="https://msdn.microsoft.com/0256f1d2-a3fb-45b2-bd84-e2b71148e4ec">IFileSystemImage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
 
 
 
-<a href="https://msdn.microsoft.com/95d5738b-a720-4f47-b3a0-97f7474b051a">IFileSystemImage::get_VolumeName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_volumename">IFileSystemImage::get_VolumeName</a>
 
 
 
-<a href="https://msdn.microsoft.com/5300763d-9f2f-4562-bb5e-61fcf485b086">IFileSystemImage::get_VolumeNameJoliet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_volumenamejoliet">IFileSystemImage::get_VolumeNameJoliet</a>
 
 
 
-<a href="https://msdn.microsoft.com/d034f8cb-38f5-42ab-8952-e4a76dc1f27d">IFileSystemImage::get_VolumeNameUDF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_volumenameudf">IFileSystemImage::get_VolumeNameUDF</a>
  
 
  

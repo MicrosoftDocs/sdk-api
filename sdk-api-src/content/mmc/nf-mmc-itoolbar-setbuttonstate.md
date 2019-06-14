@@ -60,9 +60,9 @@ The <b>IToolbar::SetButtonState</b> method enables a snap-in to set an attribute
 ### -param idCommand [in]
 
 A unique value that the snap-in has associated with a button using the 
-<a href="https://msdn.microsoft.com/768df6d0-c2e5-4099-b4a6-a71e4f7e06d7">InsertButton</a> or 
-<a href="https://msdn.microsoft.com/9d37d0bc-d7c3-4d23-8dd4-c5a6c4af15ee">AddButtons</a> method using the 
-<a href="https://msdn.microsoft.com/340fed49-3003-4dd6-80c9-6cefc8c5b750">MMCBUTTON</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-itoolbar-insertbutton">InsertButton</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-itoolbar-addbuttons">AddButtons</a> method using the 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmcbutton">MMCBUTTON</a> structure.
 
 
 ### -param nState [in]
@@ -119,7 +119,7 @@ This method can return one of these values.
 
 
 Snap-ins should not set button states until the toolbar has been attached using 
-<a href="https://msdn.microsoft.com/60ed8f9a-d5ad-4a68-8019-6887104c9b2a">IControlbar::Attach</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontrolbar-attach">IControlbar::Attach</a>.
 
 
 
@@ -129,7 +129,7 @@ Snap-ins should not set button states until the toolbar has been attached using
 
 
 
-<a href="https://msdn.microsoft.com/cf9c9fe9-f58f-47f0-9051-86a514df0c6d">IToolbar</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-itoolbar">IToolbar</a>
  
 
  

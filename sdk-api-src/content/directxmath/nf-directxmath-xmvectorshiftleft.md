@@ -77,7 +77,7 @@ Number of 32-bit elements by which to shift <i>V</i> left. This parameter must b
 
 
 
-Returns the shifted and filled in <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
+Returns the shifted and filled in <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>.
 
 
 
@@ -98,7 +98,7 @@ XMVECTOR result = XMVectorShiftLeft( v1, v2, 1 );
 
 The shifted vector (<i>result</i>) will be &lt;20.0f, 30.0f, 40.0f, 50.0f&gt;.
 
-In the case of a constant shift value, it is more efficent to use the template form of <a href="https://msdn.microsoft.com/en-us/library/Hh855947(v=VS.85).aspx">XMVectorShiftLeft</a>:
+In the case of a constant shift value, it is more efficent to use the template form of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvectorshiftleft-template">XMVectorShiftLeft</a>:
 
 
 ```
@@ -122,19 +122,19 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/f5464614-f6bb-427d-5488-3ba0fd4c6e8d">Component-Wise Vector Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-component-wise">Component-Wise Vector Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh855956(v=VS.85).aspx">XMVectorPermute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorpermute">XMVectorPermute</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404806(v=VS.85).aspx">XMVectorRotateLeft</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorrotateleft">XMVectorRotateLeft</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404807(v=VS.85).aspx">XMVectorRotateRight</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorrotateright">XMVectorRotateRight</a>
  
 
  

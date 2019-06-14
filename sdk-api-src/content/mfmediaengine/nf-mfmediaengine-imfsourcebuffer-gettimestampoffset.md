@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the timestamp offset for media segments appended to the <a href="https://msdn.microsoft.com/f241e232-9013-46d0-be97-2d6b5246cff3">IMFSourceBuffer</a>.
+Gets the timestamp offset for media segments appended to the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a>.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ The timestamp offset.
 
 
 
-<a href="https://msdn.microsoft.com/f241e232-9013-46d0-be97-2d6b5246cff3">IMFSourceBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a>
  
 
  

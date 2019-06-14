@@ -54,7 +54,7 @@ Enumerate strings. <b>LPWSTR</b> is the type that indicates a pointer to a zero-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumString</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IEnumString</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumString</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumString</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IEnumString</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d61ecfb3-9f3b-45ee-9872-9a92240f1234">Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumstring-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a new enumerator that contains the same enumeration state as the current one.
@@ -78,7 +78,7 @@ Creates a new enumerator that contains the same enumeration state as the current
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e08edeac-92c3-4947-9f55-224aab237453">Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumstring-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified number of items in the enumeration sequence.
@@ -87,7 +87,7 @@ Retrieves the specified number of items in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6f134738-b5ed-4f45-bf91-eeb28c8965c6">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumstring-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning.
@@ -96,7 +96,7 @@ Resets the enumeration sequence to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8c1cd7b4-ec68-4b60-9f1e-ed01674f7f8c">Skip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumstring-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over the specified number of items in the enumeration sequence.

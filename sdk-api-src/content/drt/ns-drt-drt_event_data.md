@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DRT_EVENT_DATA</b> structure contains the event data returned by calling <a href="https://msdn.microsoft.com/94ed3028-0bd1-449b-9902-7dbae4a70ec1">DrtGetEventData</a> after an application receives an event signal on the <i>hEvent</i> passed into <a href="https://msdn.microsoft.com/67320767-f622-478a-a886-bbea1650ac1a">DrtOpen</a>.
+The <b>DRT_EVENT_DATA</b> structure contains the event data returned by calling <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtgeteventdata">DrtGetEventData</a> after an application receives an event signal on the <i>hEvent</i> passed into <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a>.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ The <b>DRT_EVENT_DATA</b> structure contains the event data returned by calling 
 
 ### -field type
 
-A <a href="https://msdn.microsoft.com/8125e663-10dd-4c3d-b9d6-ac6164b9f0a4">DRT_EVENT_TYPE</a> enumeration that specifies the event type.
+A <a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_event_type_tag">DRT_EVENT_TYPE</a> enumeration that specifies the event type.
 
 
 ### -field hr
@@ -69,7 +69,7 @@ The HRESULT of the operation for which the event was signaled that indicates if 
 
 ### -field pvContext
 
-Pointer to the context data passed to the API that generated the event.  For example, if data is passed into the <i>pvContext</i> parameter of <a href="https://msdn.microsoft.com/67320767-f622-478a-a886-bbea1650ac1a">DrtOpen</a>, that data is returned through this field.
+Pointer to the context data passed to the API that generated the event.  For example, if data is passed into the <i>pvContext</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a>, that data is returned through this field.
 
 
 ### -field leafsetKeyChange
@@ -190,7 +190,7 @@ This structure appears when the event has been raised to signal a state change i
 
 ##### status
 
-Contains the current <a href="https://msdn.microsoft.com/4bd81191-862c-4537-9c90-4b9fec270a16">DRT_STATUS</a> of the  local DRT instance.
+Contains the current <a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_status_tag">DRT_STATUS</a> of the  local DRT instance.
 
 
 
@@ -216,19 +216,19 @@ Contains an array of addresses returned by the bootstrap provider.
 
 
 
-<a href="https://msdn.microsoft.com/8125e663-10dd-4c3d-b9d6-ac6164b9f0a4">DRT_EVENT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_event_type_tag">DRT_EVENT_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/4bd81191-862c-4537-9c90-4b9fec270a16">DRT_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_status_tag">DRT_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/94ed3028-0bd1-449b-9902-7dbae4a70ec1">DrtGetEventData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtgeteventdata">DrtGetEventData</a>
 
 
 
-<a href="https://msdn.microsoft.com/67320767-f622-478a-a886-bbea1650ac1a">DrtOpen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a>
  
 
  

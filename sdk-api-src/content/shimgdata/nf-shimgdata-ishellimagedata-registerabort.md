@@ -59,14 +59,14 @@ Sets a callback abort object, optionally returning a pointer to the previous obj
 
 ### -param pAbort [in]
 
-Type: <b><a href="https://msdn.microsoft.com/98a79c41-a384-4486-af51-a33cd5f0750e">IShellImageDataAbort</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedataabort">IShellImageDataAbort</a>*</b>
 
 A pointer to an abort object. If this parameter is <b>NULL</b>, an unhandled exception results.
 
 
 ### -param ppAbortPrev [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/98a79c41-a384-4486-af51-a33cd5f0750e">IShellImageDataAbort</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedataabort">IShellImageDataAbort</a>**</b>
 
 The address of a pointer to the previous abort object. This parameter can be <b>NULL</b> if the previous object is not of interest.
 

@@ -60,11 +60,11 @@ The <b>DHCP_IP_RANGE</b> structure defines a range of IP addresses.
 ### -field StartAddress
 
 
-<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_ADDRESS</a> value that contains the first IP address in the range.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that contains the first IP address in the range.
 
 
 ### -field EndAddress
 
 
-<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_ADDRESS</a> value that contains the last IP address in the range.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that contains the last IP address in the range.
 

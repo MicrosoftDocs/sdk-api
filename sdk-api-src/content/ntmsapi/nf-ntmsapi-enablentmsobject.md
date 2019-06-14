@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<a href="https://msdn.microsoft.com/af7186f8-7921-48e3-a4fd-23259a6e9018">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>EnableNtmsObject</b> function enables the specified object.
@@ -63,13 +63,13 @@ The
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://msdn.microsoft.com/5a323911-e99c-4f81-9580-0feac2f0a54e">OpenNtmsSession</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 
 ### -param dwType [in]
 
 RSM object type. This parameter can be one of the following values from the 
-<a href="https://msdn.microsoft.com/598e7cb1-f463-4252-9bdf-ccb98f36f4da">NtmsObjectsTypes</a> enumeration type. 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ne-ntmsapi-ntmsobjectstypes">NtmsObjectsTypes</a> enumeration type. 
 
 
 
@@ -239,11 +239,11 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/409d1ab6-c611-4118-aa10-095d585c099a">DisableNtmsObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-disablentmsobject">DisableNtmsObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Object Management Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Object Management Functions</a>
  
 
  

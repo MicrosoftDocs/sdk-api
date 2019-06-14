@@ -64,7 +64,7 @@ The number of entries in the <b>WorkingSetInfo</b> array.
 
 ### -field WorkingSetInfo
 
-An array of <a href="https://msdn.microsoft.com/feb64235-1003-4595-a6a9-aca1f94f94b8">PSAPI_WORKING_SET_BLOCK</a> elements, one for each page in the process working set.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_psapi_working_set_block">PSAPI_WORKING_SET_BLOCK</a> elements, one for each page in the process working set.
 
 
 ## -see-also
@@ -72,11 +72,11 @@ An array of <a href="https://msdn.microsoft.com/feb64235-1003-4595-a6a9-aca1f94f
 
 
 
-<a href="https://msdn.microsoft.com/feb64235-1003-4595-a6a9-aca1f94f94b8">PSAPI_WORKING_SET_BLOCK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_psapi_working_set_block">PSAPI_WORKING_SET_BLOCK</a>
 
 
 
-<a href="https://msdn.microsoft.com/b932153f-2bbd-460e-8ff7-b3e493c397bb">QueryWorkingSet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-queryworkingset">QueryWorkingSet</a>
  
 
  

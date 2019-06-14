@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/EA0DF7E6-C4EF-4A58-A13F-EB3789239084">IAppxSourceContentGroupMapReader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxsourcecontentgroupmapreader">IAppxSourceContentGroupMapReader</a>
  
 
  

@@ -113,11 +113,11 @@ Used by the System Health Validator Template settings of NPS user interface.
 
 
 
-<a href="https://msdn.microsoft.com/12cf768e-71b2-4b95-9b5a-2b9e3ce80f37">RADIUSPROXYPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_radiusproxyproperties">RADIUSPROXYPROPERTIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/b78aacfb-2e79-4c25-bc0c-acecb1a12993">RADIUSSERVERGROUPPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_radiusservergroupproperties">RADIUSSERVERGROUPPROPERTIES</a>
  
 
  

@@ -59,7 +59,7 @@ The DDLOCKININFO structure contains the surface information.
 
 ### -field lpSurfaceData
 
-Points to a <a href="https://msdn.microsoft.com/4057cfcf-675e-439f-8b51-23adede1d35a">DDSURFACEDATA</a> structure that contains the surface information. 
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddsurfacedata">DDSURFACEDATA</a> structure that contains the surface information. 
 
 
 ## -see-also
@@ -67,11 +67,11 @@ Points to a <a href="https://msdn.microsoft.com/4057cfcf-675e-439f-8b51-23adede1
 
 
 
-<a href="https://msdn.microsoft.com/4057cfcf-675e-439f-8b51-23adede1d35a">DDSURFACEDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddsurfacedata">DDSURFACEDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/1eeeb68b-9098-4030-924a-634e79c3e682">DxLock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_lock">DxLock</a>
  
 
  

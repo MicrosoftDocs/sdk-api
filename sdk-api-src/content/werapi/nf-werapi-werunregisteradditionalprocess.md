@@ -61,7 +61,7 @@ Removes a process from the list of additional processes to be included in the er
 
 ### -param processId
 
-The Id of the process to remove. It must have been previously registered with <a href="https://msdn.microsoft.com/F4E44C22-6BE1-4512-80F6-1B6741E3ADBB">WerRegisterAdditionalProcess</a>.
+The Id of the process to remove. It must have been previously registered with <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werregisteradditionalprocess">WerRegisterAdditionalProcess</a>.
 
 
 ## -returns
@@ -82,7 +82,7 @@ This function returns <b>S_OK</b> on success or an error code on failure, includ
 </dl>
 </td>
 <td width="60%">
-The process state is not valid. For example, the process is in <a href="https://msdn.microsoft.com/9357786c-1992-4e28-ac75-c2dfda1df7f1">application recovery mode</a>.
+The process state is not valid. For example, the process is in <a href="https://docs.microsoft.com/windows/desktop/wsw/portal">application recovery mode</a>.
 
 </td>
 </tr>
@@ -108,15 +108,15 @@ The list of registered processes does not contain the specified process.
 
 
 
-<a href="https://msdn.microsoft.com/4e28f379-5793-4d76-898e-d87a0291c034">WER Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/F4E44C22-6BE1-4512-80F6-1B6741E3ADBB">WerRegisterAdditionalProcess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werregisteradditionalprocess">WerRegisterAdditionalProcess</a>
 
 
 
-<a href="https://msdn.microsoft.com/5c076588-779c-4cd2-9fd9-1db3039e37a2">Windows Error Reporting</a>
+<a href="https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
  
 
  

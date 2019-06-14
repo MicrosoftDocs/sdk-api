@@ -149,11 +149,11 @@ The following actions are always taken:
 
 
 
-<a href="https://msdn.microsoft.com/a92783c2-ffb8-473e-8484-1c05ca5453ff">Domain Controller and Replication Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/a1e8a4c0-965a-4061-aab3-3e719ec6374d">DsQuoteRdnValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsparse/nf-dsparse-dsquoterdnvaluea">DsQuoteRdnValue</a>
  
 
  

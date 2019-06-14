@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-Calls a callback function, sends a message to a window, or unblocks a thread. The action depends on the value of the notification flag. This function is intended to be used only within the <a href="https://msdn.microsoft.com/d9a5535f-6b80-40cc-a20b-b7a342414d7f">DriverProc</a> function of an installable driver.
+Calls a callback function, sends a message to a window, or unblocks a thread. The action depends on the value of the notification flag. This function is intended to be used only within the <a href="https://docs.microsoft.com/previous-versions//dd797918(v=vs.85)">DriverProc</a> function of an installable driver.
 
 
 
@@ -159,7 +159,7 @@ Returns <b>TRUE</b> if successful or <b>FALSE</b> if a parameter is invalid or t
 
 
 
-The client specifies how to notify it when the device is opened. The DCB_FUNCTION and DCB_WINDOW flags are equivalent to the high-order word of the corresponding flags CALLBACK_FUNCTION and CALLBACK_WINDOW specified in the <i>lParam2</i> parameter of the <a href="https://msdn.microsoft.com/6b5e21e3-dc29-4f0f-84cb-bd2d2e3c54e9">DRV_OPEN</a> message when the device was opened.
+The client specifies how to notify it when the device is opened. The DCB_FUNCTION and DCB_WINDOW flags are equivalent to the high-order word of the corresponding flags CALLBACK_FUNCTION and CALLBACK_WINDOW specified in the <i>lParam2</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/drv-open">DRV_OPEN</a> message when the device was opened.
 
 If notification is accomplished with a callback function, <i>hdrvr</i>, <i>msg</i>, <i>dwUser</i>, <i>dwParam1</i>, and <i>dwParam2</i> are passed to the callback function. If notification is accomplished by means of a window, only <i>msg</i>, <i>hdrvr</i>, and <i>dwParam1</i> are passed to the window.
 
@@ -171,11 +171,11 @@ If notification is accomplished with a callback function, <i>hdrvr</i>, <i>msg</
 
 
 
-<a href="https://msdn.microsoft.com/39b00125-b705-4cad-9334-3860a93a4f05">Driver Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/driver-functions">Driver Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/8b628a4d-48fa-4388-9d7c-0c901c45b7f3">Installable Drivers</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/installable-drivers">Installable Drivers</a>
  
 
  

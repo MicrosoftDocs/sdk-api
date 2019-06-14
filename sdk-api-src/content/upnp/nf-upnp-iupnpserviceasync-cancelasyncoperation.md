@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CancelAsyncOperation</b> method cancels a pending asynchronous operation initiated by the <a href="https://msdn.microsoft.com/40900CE1-03EE-451A-84DE-5C496EB2D7E5">BeginInvokeAction</a>, <a href="https://msdn.microsoft.com/1E97589C-A06B-4012-A2A2-C88BBE9B2530">BeginQueryStateVariable</a>,  <a href="https://msdn.microsoft.com/605629CB-9DBA-4130-B55D-957187551435">BeginSubscribeToEvents</a>, or <a href="https://msdn.microsoft.com/CA573855-6D86-4C6C-B557-F8E8776BDBD3">BeginSCPDDownload</a> methods.
+The <b>CancelAsyncOperation</b> method cancels a pending asynchronous operation initiated by the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-begininvokeaction">BeginInvokeAction</a>, <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginquerystatevariable">BeginQueryStateVariable</a>,  <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginsubscribetoevents">BeginSubscribeToEvents</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginscpddownload">BeginSCPDDownload</a> methods.
 
 
 ## -parameters
@@ -105,7 +105,7 @@ Failed to cancel the asynchronous operation.
 
 
 
-Calling this method for a pending <a href="https://msdn.microsoft.com/CA573855-6D86-4C6C-B557-F8E8776BDBD3">BeginSCPDDownload</a> operation the SCPD download will still take place in the background, but will not notify callbacks of events associated with the operation.
+Calling this method for a pending <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginscpddownload">BeginSCPDDownload</a> operation the SCPD download will still take place in the background, but will not notify callbacks of events associated with the operation.
 
 
 
@@ -115,23 +115,23 @@ Calling this method for a pending <a href="https://msdn.microsoft.com/CA573855-6
 
 
 
-<a href="https://msdn.microsoft.com/B77025D6-26C7-46C9-84FE-69685C61735D">IUPnPServiceAsync</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpserviceasync">IUPnPServiceAsync</a>
 
 
 
-<a href="https://msdn.microsoft.com/40900CE1-03EE-451A-84DE-5C496EB2D7E5">IUPnPServiceAsync::BeginInvokeAction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-begininvokeaction">IUPnPServiceAsync::BeginInvokeAction</a>
 
 
 
-<a href="https://msdn.microsoft.com/1E97589C-A06B-4012-A2A2-C88BBE9B2530">IUPnPServiceAsync::BeginQueryStateVariable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginquerystatevariable">IUPnPServiceAsync::BeginQueryStateVariable</a>
 
 
 
-<a href="https://msdn.microsoft.com/CA573855-6D86-4C6C-B557-F8E8776BDBD3">IUPnPServiceAsync::BeginSCPDDownload</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginscpddownload">IUPnPServiceAsync::BeginSCPDDownload</a>
 
 
 
-<a href="https://msdn.microsoft.com/605629CB-9DBA-4130-B55D-957187551435">IUPnPServiceAsync::BeginSubscribeToEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginsubscribetoevents">IUPnPServiceAsync::BeginSubscribeToEvents</a>
  
 
  

@@ -126,7 +126,7 @@ The knowledge returned in <i>ppLearnedForgottenKnowledge</i> is the source forgo
 
 
 
-<a href="https://msdn.microsoft.com/1e666737-c5dc-4394-9f41-6e77832dd9f6">ISyncFullEnumerationChange Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncfullenumerationchange">ISyncFullEnumerationChange Interface</a>
  
 
  

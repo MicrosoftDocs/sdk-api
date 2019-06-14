@@ -110,19 +110,19 @@ The default language is U.S. English (0x409).
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757389(v=VS.85).aspx">IWMProfileManagerLanguage Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanagerlanguage">IWMProfileManagerLanguage Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757391(v=VS.85).aspx">IWMProfileManagerLanguage::SetUserLanguageID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofilemanagerlanguage-setuserlanguageid">IWMProfileManagerLanguage::SetUserLanguageID</a>
 
 
 
-<a href="https://msdn.microsoft.com/2c218ab4-ecdb-414c-aa42-b71a42e340e5">Localized System Profiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/localized-system-profiles">Localized System Profiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/d911baf6-0731-4f02-9001-d04464a03f56">Working with Localized System Profiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/working-with-localized-system-profiles">Working with Localized System Profiles</a>
  
 
  

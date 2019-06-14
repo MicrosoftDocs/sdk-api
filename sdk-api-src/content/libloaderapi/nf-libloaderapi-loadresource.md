@@ -87,7 +87,7 @@ Type: <b>HGLOBAL</b>
 
 If the function succeeds, the return value is a handle to the data associated with the resource.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -96,7 +96,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-The return type of <b>LoadResource</b> is <b>HGLOBAL</b> for backward compatibility, not because the function returns a handle to a global memory block. Do not pass this handle to the <a href="https://msdn.microsoft.com/0d7deac2-c9c4-4adc-8a0a-edfc512a4d6c">GlobalLock</a> or <a href="https://msdn.microsoft.com/5fe910ac-f857-45ca-9c0f-4f9ba3c5e61b">GlobalFree</a> function. To obtain a pointer to the first byte of the resource data, call the <a href="https://msdn.microsoft.com/a2385605-ad73-4250-ad78-36255144b816">LockResource</a> function; to obtain the size of the resource, call <a href="https://msdn.microsoft.com/e3eb82a3-15b6-4874-81d3-955d38d42383">SizeofResource</a>. 
+The return type of <b>LoadResource</b> is <b>HGLOBAL</b> for backward compatibility, not because the function returns a handle to a global memory block. Do not pass this handle to the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globallock">GlobalLock</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalfree">GlobalFree</a> function. To obtain a pointer to the first byte of the resource data, call the <a href="https://msdn.microsoft.com/a2385605-ad73-4250-ad78-36255144b816">LockResource</a> function; to obtain the size of the resource, call <a href="https://msdn.microsoft.com/e3eb82a3-15b6-4874-81d3-955d38d42383">SizeofResource</a>. 
 
 To use a resource immediately, an application should use the following resource-specific functions to find and load the resource in one call.
 
@@ -108,7 +108,7 @@ To use a resource immediately, an application should use the following resource-
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 </td>
 <td>Loads and formats a message-table entry</td>
 <td>No action needed</td>
@@ -124,11 +124,11 @@ To use a resource immediately, an application should use the following resource-
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/5eed5f78-deaf-4b23-986e-4802dc05936c">LoadBitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadbitmapa">LoadBitmap</a>
 </td>
 <td>Loads a bitmap resource</td>
 <td>
-<a href="https://msdn.microsoft.com/cc679af0-6839-4c83-9c42-39d7ededda40">DeleteObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
 </td>
 </tr>
 <tr>
@@ -196,11 +196,11 @@ For an example see <a href="using_resources.htm">Updating Resources</a>.
 
 
 
-<a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>
 
 
 
-<a href="https://msdn.microsoft.com/80571b80-851a-4272-bfa6-d26e217e714a">LoadModule</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-loadmodule">LoadModule</a>
 
 
 

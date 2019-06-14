@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>LINEQUEUELIST</b> structure describes a list of queues. This structure can contain an array of 
-<a href="https://msdn.microsoft.com/b05eb100-2a43-421f-826b-c37d05e4ef14">LINEQUEUEENTRY</a> structures. The 
-<a href="https://msdn.microsoft.com/3921ab24-c9c8-4068-a885-e55759f04076">lineGetQueueList</a> function returns the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linequeueentry_tag">LINEQUEUEENTRY</a> structures. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetqueuelista">lineGetQueueList</a> function returns the 
 <b>LINEQUEUELIST</b> structure. 
 <b>LINEQUEUELIST</b> requires TAPI 3.0 version negotiation.
 
@@ -80,7 +80,7 @@ Size of the portion of this structure that contains useful information, in bytes
 ### -field dwNumEntries
 
 Number of 
-<a href="https://msdn.microsoft.com/b05eb100-2a43-421f-826b-c37d05e4ef14">LINEQUEUEENTRY</a> structures that appear in the list array. The value is zero if no queue is available.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linequeueentry_tag">LINEQUEUEENTRY</a> structures that appear in the list array. The value is zero if no queue is available.
 
 
 ### -field dwListSize
@@ -91,7 +91,7 @@ Size of the agent information array, in bytes.
 ### -field dwListOffset
 
 Offset from the beginning of the structure to an array of 
-<a href="https://msdn.microsoft.com/b05eb100-2a43-421f-826b-c37d05e4ef14">LINEQUEUEENTRY</a> structure that specify information about agents. The <b>dwListOffset</b> member is <b>dwNumEntries</b> times SIZEOF(LINEQUEUEENTRY). The size of the field is specified by <b>dwListSize</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linequeueentry_tag">LINEQUEUEENTRY</a> structure that specify information about agents. The <b>dwListOffset</b> member is <b>dwNumEntries</b> times SIZEOF(LINEQUEUEENTRY). The size of the field is specified by <b>dwListSize</b>.
 
 
 ## -see-also
@@ -99,15 +99,15 @@ Offset from the beginning of the structure to an array of
 
 
 
-<a href="https://msdn.microsoft.com/6b24e8aa-fef4-44aa-8d2b-33b9be3d6ea7">About Call Center Controls</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a>
 
 
 
-<a href="https://msdn.microsoft.com/b05eb100-2a43-421f-826b-c37d05e4ef14">LINEQUEUEENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linequeueentry_tag">LINEQUEUEENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/3921ab24-c9c8-4068-a885-e55759f04076">lineGetQueueList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetqueuelista">lineGetQueueList</a>
  
 
  

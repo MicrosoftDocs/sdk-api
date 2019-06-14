@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines information about a counter set that a provider uses.  The <a href="https://msdn.microsoft.com/3939f6a1-0a94-429d-a71e-b37f045fea13">CTRPP</a> tool automatically generates this structure based on the  schema you specify.
+Defines information about a counter set that a provider uses.  The <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/ctrpp">CTRPP</a> tool automatically generates this structure based on the  schema you specify.
 
 
 ## -struct-fields
@@ -59,12 +59,12 @@ Defines information about a counter set that a provider uses.  The <a href="http
 
 ### -field CounterSetGuid
 
-GUID that uniquely identifies the counter set. The <b>guid</b> attribute of the <a href="https://msdn.microsoft.com/library/Ee781342(v=VS.85).aspx">counterSet</a> element contains the GUID.
+GUID that uniquely identifies the counter set. The <b>guid</b> attribute of the <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-counters-counterset--provider--element">counterSet</a> element contains the GUID.
 
 
 ### -field ProviderGuid
 
-GUID that uniquely identifies the provider that supports the counter set. The <b>providerGuid</b> attribute of the <a href="https://msdn.microsoft.com/10112f43-f483-4ecb-aa7d-60efaad149c6">provider</a> element contains the GUID.
+GUID that uniquely identifies the provider that supports the counter set. The <b>providerGuid</b> attribute of the <a href="https://docs.microsoft.com/previous-versions//aa373164(v=vs.85)">provider</a> element contains the GUID.
 
 
 ### -field NumCounters
@@ -163,7 +163,7 @@ For example, if multiple provider processes contained instances named IExplore, 
 
 
 
-The memory block for this structure also contains one or more <a href="https://msdn.microsoft.com/f1fb6ad5-ad38-46d0-b76d-803887ba3d97">PERF_COUNTER_INFO</a> structures. The <b>NumCounter</b> member determines the number of <b>PERF_COUNTER_INFO</b> structures that follow this structure in memory.
+The memory block for this structure also contains one or more <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_info">PERF_COUNTER_INFO</a> structures. The <b>NumCounter</b> member determines the number of <b>PERF_COUNTER_INFO</b> structures that follow this structure in memory.
 
 
 
@@ -173,11 +173,11 @@ The memory block for this structure also contains one or more <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/f1fb6ad5-ad38-46d0-b76d-803887ba3d97">PERF_COUNTER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_info">PERF_COUNTER_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/b4295503-5588-4898-816c-939a5920fc77">PerfSetCounterSetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfsetcountersetinfo">PerfSetCounterSetInfo</a>
  
 
  

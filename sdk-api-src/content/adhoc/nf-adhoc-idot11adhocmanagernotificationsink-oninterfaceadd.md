@@ -59,7 +59,7 @@ Notifies the client that a new network interface card (NIC) is active.
 
 ### -param pIAdHocInterface [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/a4a73ff8-e24a-4f44-9205-c60699d1c27d">IDot11AdHocInterface</a> interface that represents the activated NIC.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocinterface">IDot11AdHocInterface</a> interface that represents the activated NIC.
 
 
 ## -returns
@@ -106,7 +106,7 @@ The method failed.
 
 
 
-<a href="https://msdn.microsoft.com/a79931ad-deeb-4e46-a051-80a57fe5935c">IDot11AdHocManagerNotificationSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocmanagernotificationsink">IDot11AdHocManagerNotificationSink</a>
  
 
  

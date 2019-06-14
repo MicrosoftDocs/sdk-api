@@ -82,11 +82,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/604b0128-1461-40f2-98fe-801dbb71e005">ITMediaRecord</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itmediarecord">ITMediaRecord</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd97665c-ff9e-4621-baf9-7c0b603400c5">get_FileName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itmediarecord-get_filename">get_FileName</a>
  
 
  

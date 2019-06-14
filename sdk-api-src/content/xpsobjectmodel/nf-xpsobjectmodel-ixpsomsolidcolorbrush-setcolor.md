@@ -61,21 +61,21 @@ Sets the color value and color profile of the brush.
 
 The color value of the brush. 
 
-If the value of the <b>colorType</b> field in the <a href="https://msdn.microsoft.com/710f3ef1-bbc3-416d-9faf-aa4a716007c2">XPS_COLOR</a> structure that is passed in this parameter is <a href="https://msdn.microsoft.com/en-us/library/Dd372941(v=VS.85).aspx">XPS_COLOR_TYPE_CONTEXT</a>, a valid color profile must be provided in the <i>colorProfile</i> parameter.
+If the value of the <b>colorType</b> field in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372939(v=vs.85)">XPS_COLOR</a> structure that is passed in this parameter is <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0009">XPS_COLOR_TYPE_CONTEXT</a>, a valid color profile must be provided in the <i>colorProfile</i> parameter.
 
 
 ### -param colorProfile [in]
 
 The color profile to be used with <i>color</i>.
 
-A color profile is required when the value of the <b>colorType</b> field in the <a href="https://msdn.microsoft.com/710f3ef1-bbc3-416d-9faf-aa4a716007c2">XPS_COLOR</a> structure that is passed  in the <i>color</i> parameter is <a href="https://msdn.microsoft.com/en-us/library/Dd372941(v=VS.85).aspx">XPS_COLOR_TYPE_CONTEXT</a>. If the value of the <b>colorType</b> field is not <b>XPS_COLOR_TYPE_CONTEXT</b>, this parameter must be set to <b>NULL</b>.
+A color profile is required when the value of the <b>colorType</b> field in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372939(v=vs.85)">XPS_COLOR</a> structure that is passed  in the <i>color</i> parameter is <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0009">XPS_COLOR_TYPE_CONTEXT</a>. If the value of the <b>colorType</b> field is not <b>XPS_COLOR_TYPE_CONTEXT</b>, this parameter must be set to <b>NULL</b>.
 
 
 ## -returns
 
 
 
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -111,7 +111,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-<i>colorProfile</i> is <b>NULL</b> when a color profile is expected. A color profile is required when the color type is <a href="https://msdn.microsoft.com/en-us/library/Dd372941(v=VS.85).aspx">XPS_COLOR_TYPE_CONTEXT</a>.
+<i>colorProfile</i> is <b>NULL</b> when a color profile is expected. A color profile is required when the color type is <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0009">XPS_COLOR_TYPE_CONTEXT</a>.
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-<i>colorProfile</i> has a color profile when none is expected. A color profile is only allowed when the color type is <a href="https://msdn.microsoft.com/en-us/library/Dd372941(v=VS.85).aspx">XPS_COLOR_TYPE_CONTEXT</a>.
+<i>colorProfile</i> has a color profile when none is expected. A color profile is only allowed when the color type is <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0009">XPS_COLOR_TYPE_CONTEXT</a>.
 
 </td>
 </tr>
@@ -148,11 +148,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/8a344300-c3fc-4225-bfa5-d5d33798a094">IXpsOMColorProfileResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcolorprofileresource">IXpsOMColorProfileResource</a>
 
 
 
-<a href="https://msdn.microsoft.com/26580a25-09d1-4a9b-85c3-aa8ddcc97867">IXpsOMSolidColorBrush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomsolidcolorbrush">IXpsOMSolidColorBrush</a>
 
 
 
@@ -160,11 +160,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
 
 
 
-<a href="https://msdn.microsoft.com/710f3ef1-bbc3-416d-9faf-aa4a716007c2">XPS_COLOR</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372939(v=vs.85)">XPS_COLOR</a>
  
 
  

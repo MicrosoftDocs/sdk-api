@@ -95,7 +95,7 @@ The decorated or undecorated symbol name. If the buffer is not large enough for 
 
 
 This structure supersedes the <b>IMAGEHLP_SYMBOL</b> structure. For more information, see 
-<a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>IMAGEHLP_SYMBOL</b> is defined as follows in DbgHelp.h. 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <b>IMAGEHLP_SYMBOL</b> is defined as follows in DbgHelp.h. 
 
 
 ```cpp
@@ -123,11 +123,11 @@ This structure supersedes the <b>IMAGEHLP_SYMBOL</b> structure. For more informa
 
 
 
-<a href="https://msdn.microsoft.com/c4882a3b-7773-4ab0-ad83-bdde512b5fb4">SymGetSymFromAddr64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetsymfromaddr">SymGetSymFromAddr64</a>
 
 
 
-<a href="https://msdn.microsoft.com/9c9a1a57-06c2-422a-b078-5b7725d54bd4">SymGetSymFromName64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetsymfromname">SymGetSymFromName64</a>
  
 
  

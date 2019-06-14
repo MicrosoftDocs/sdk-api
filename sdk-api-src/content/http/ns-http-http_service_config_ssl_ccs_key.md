@@ -59,14 +59,14 @@ Serves as the key by which identifies the   SSL certificate record that specifie
 
 ### -field LocalAddress
 
-A <a href="https://msdn.microsoft.com/27e56c1a-ce11-4cdb-9be8-25ed2f94fb37">SOCKADDR_STORAGE</a> structure that contains the Internet Protocol version 4 (IPv4) address with which this SSL certificate record is associated. It must be set to the IPv4 wildcard address of type <a href="https://msdn.microsoft.com/96379562-403f-451c-ac7a-f0eec34bfe5e">SOCKADDR_IN</a> with the <b>sin_family</b> member set to AF_INET and the <b>sin_addr</b> member filled with zeros (0.0.0.0). The <b>sin_port</b> member can be any valid port.
+A <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr_storage">SOCKADDR_STORAGE</a> structure that contains the Internet Protocol version 4 (IPv4) address with which this SSL certificate record is associated. It must be set to the IPv4 wildcard address of type <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr_in">SOCKADDR_IN</a> with the <b>sin_family</b> member set to AF_INET and the <b>sin_addr</b> member filled with zeros (0.0.0.0). The <b>sin_port</b> member can be any valid port.
 
 
 ## -remarks
 
 
 
- The <b>HTTP_SERVICE_CONFIG_SSL_CCS_KEY</b> structure appears in the <a href="https://msdn.microsoft.com/BA815FB7-4A9F-4917-89E7-3CD108E1CEE3">HTTP_SERVICE_CONFIG_SSL_CCS_SET</a> and the <a href="https://msdn.microsoft.com/E7578D74-E8BE-472D-A01B-51BBA511F561">HTTP_SERVICE_CONFIG_SSL_CCS_QUERY</a> structures. <b>HTTP_SERVICE_CONFIG_SSL_CCS_KEY</b> is passed as part of these structures in the <i>pConfigInformation</i>, <i>ConfigInfo</i>, <i>pInputConfigInfo</i>, and <i>pOutputConfigInfo</i> parameters to the <a href="https://msdn.microsoft.com/0ae94936-4c6a-4c9f-adb8-5e3af75cf486">HttpDeleteServiceConfiguration</a>, <a href="https://msdn.microsoft.com/bbd2c3c4-d2d0-4590-9b5c-6916b91600cd">HttpQueryServiceConfiguration</a>, <a href="https://msdn.microsoft.com/b0a6d442-2ff4-4e00-8301-696fb0864d8c">HttpSetServiceConfiguration</a>, and <a href="https://msdn.microsoft.com/B2102444-1183-4133-A83F-A58587FB6B89">HttpUpdateServiceConfiguration</a> functions when the <i>ConfigId</i> parameter is set to <b>HttpServiceConfigSslCcsCertInfo</b>.
+ The <b>HTTP_SERVICE_CONFIG_SSL_CCS_KEY</b> structure appears in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_ccs_set">HTTP_SERVICE_CONFIG_SSL_CCS_SET</a> and the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_ccs_query">HTTP_SERVICE_CONFIG_SSL_CCS_QUERY</a> structures. <b>HTTP_SERVICE_CONFIG_SSL_CCS_KEY</b> is passed as part of these structures in the <i>pConfigInformation</i>, <i>ConfigInfo</i>, <i>pInputConfigInfo</i>, and <i>pOutputConfigInfo</i> parameters to the <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpdeleteserviceconfiguration">HttpDeleteServiceConfiguration</a>, <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a>, <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HttpSetServiceConfiguration</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpupdateserviceconfiguration">HttpUpdateServiceConfiguration</a> functions when the <i>ConfigId</i> parameter is set to <b>HttpServiceConfigSslCcsCertInfo</b>.
 
 
 
@@ -77,27 +77,27 @@ A <a href="https://msdn.microsoft.com/27e56c1a-ce11-4cdb-9be8-25ed2f94fb37">SOCK
 
 
 
-<a href="https://msdn.microsoft.com/E7578D74-E8BE-472D-A01B-51BBA511F561">HTTP_SERVICE_CONFIG_SSL_CCS_QUERY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_ccs_query">HTTP_SERVICE_CONFIG_SSL_CCS_QUERY</a>
 
 
 
-<a href="https://msdn.microsoft.com/BA815FB7-4A9F-4917-89E7-3CD108E1CEE3">HTTP_SERVICE_CONFIG_SSL_CCS_SET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_ccs_set">HTTP_SERVICE_CONFIG_SSL_CCS_SET</a>
 
 
 
-<a href="https://msdn.microsoft.com/0ae94936-4c6a-4c9f-adb8-5e3af75cf486">HttpDeleteServiceConfiguration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpdeleteserviceconfiguration">HttpDeleteServiceConfiguration</a>
 
 
 
-<a href="https://msdn.microsoft.com/bbd2c3c4-d2d0-4590-9b5c-6916b91600cd">HttpQueryServiceConfiguration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a>
 
 
 
-<a href="https://msdn.microsoft.com/b0a6d442-2ff4-4e00-8301-696fb0864d8c">HttpSetServiceConfiguration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HttpSetServiceConfiguration</a>
 
 
 
-<a href="https://msdn.microsoft.com/B2102444-1183-4133-A83F-A58587FB6B89">HttpUpdateServiceConfiguration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpupdateserviceconfiguration">HttpUpdateServiceConfiguration</a>
  
 
  

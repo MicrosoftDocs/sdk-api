@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Sets the value that tells the server how to respond to a provider's call to 
-     the <a href="https://msdn.microsoft.com/ef50a509-20a8-482c-b7b9-0dc1f0ab4ee0">MI_Context_PromptUser</a> function.
+     the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_promptuser">MI_Context_PromptUser</a> function.
 
 
 ## -parameters
@@ -60,12 +60,12 @@ Sets the value that tells the server how to respond to a provider's call to
 
 ### -param options [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/60445a53-c40c-4d0a-9650-21d0c7f3bbf6">MI_OperationOptions</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operationoptions">MI_OperationOptions</a> structure.
 
 
 ### -param mode [in]
 
-One of the following <a href="https://msdn.microsoft.com/742610a4-3276-4bab-877d-8e74c6dc80cd">MI_CallbackMode</a> values.
+One of the following <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_callbackmode">MI_CallbackMode</a> values.
 
 
 
@@ -84,7 +84,7 @@ Provider will block while the client is called back to ask if the operation shou
 
 
 
-A value of the <a href="https://msdn.microsoft.com/9AA2B479-E8A5-4F0C-A8A4-06DB7CB7CA2F">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 
 
@@ -94,19 +94,19 @@ A value of the <a href="https://msdn.microsoft.com/9AA2B479-E8A5-4F0C-A8A4-06DB7
 
 
 
-<a href="https://msdn.microsoft.com/ef50a509-20a8-482c-b7b9-0dc1f0ab4ee0">MI_Context_PromptUser</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_promptuser">MI_Context_PromptUser</a>
 
 
 
-<a href="https://msdn.microsoft.com/662c602a-b16b-41ec-8c37-c0e5860b502b">MI_OperationOptions_GetForceFlagPromptUserMode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh449233(v=vs.85)">MI_OperationOptions_GetForceFlagPromptUserMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/611e2798-4ab5-405b-9586-5054fe14cd96">MI_OperationOptions_GetPromptUserMode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operationoptions_getpromptusermode">MI_OperationOptions_GetPromptUserMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/a2e96052-6373-4000-86ca-6f078d299647">MI_OperationOptions_SetForceFlagPromptUserMode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh449249(v=vs.85)">MI_OperationOptions_SetForceFlagPromptUserMode</a>
  
 
  

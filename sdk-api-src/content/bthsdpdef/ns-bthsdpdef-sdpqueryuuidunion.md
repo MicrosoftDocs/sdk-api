@@ -119,11 +119,11 @@ UUID in 16-bit format.
 
 
 
-<a href="https://msdn.microsoft.com/b208b7d6-305c-4acc-9c89-75721ff5dcb2">BTH_QUERY_SERVICE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2bth/ns-ws2bth-_bth_query_service">BTH_QUERY_SERVICE</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c67b1b1-d289-4273-a512-589b19cd1f85">SdpQueryUuid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bthsdpdef/ns-bthsdpdef-_sdpqueryuuid">SdpQueryUuid</a>
  
 
  

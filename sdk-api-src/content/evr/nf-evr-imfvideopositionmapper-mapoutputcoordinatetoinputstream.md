@@ -141,7 +141,7 @@ The video renderer has been shut down.
 
 
 
-In the following diagram, R(dest) is the destination rectangle for the video. You can obtain this rectangle by calling <a href="https://msdn.microsoft.com/59c2e914-cc15-4534-976c-a760ff97f6ae">IMFVideoDisplayControl::GetVideoPosition</a>. The rectangle R1 is a substream within the video. The point P has pixel coordinates (x,y) relative to R(dest).
+In the following diagram, R(dest) is the destination rectangle for the video. You can obtain this rectangle by calling <a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-getvideoposition">IMFVideoDisplayControl::GetVideoPosition</a>. The rectangle R1 is a substream within the video. The point P has pixel coordinates (x,y) relative to R(dest).
 
 <img alt="Illustration showing a rectangle labeled R dest surrounding one labeled R1, which contains a point P located at (x,y)" border="" src="./images/imfvideopositionmapper.gif"/>
 
@@ -170,7 +170,7 @@ Note that <i>x1</i> and <i>y1</i> might fall outside the range [0...1] if P lies
 
 
 
-<a href="https://msdn.microsoft.com/282fa124-909f-49dc-9a86-3d962193e903">IMFVideoPositionMapper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideopositionmapper">IMFVideoPositionMapper</a>
  
 
  

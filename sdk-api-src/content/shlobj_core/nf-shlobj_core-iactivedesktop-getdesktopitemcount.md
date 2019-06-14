@@ -96,7 +96,7 @@ The value pointed to by <i>pcItems</i> can be used to enumerate all desktop item
 
 
 
-<a href="https://msdn.microsoft.com/4d572b86-36e8-417b-857c-eb477c04c691">IActiveDesktop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>
  
 
  

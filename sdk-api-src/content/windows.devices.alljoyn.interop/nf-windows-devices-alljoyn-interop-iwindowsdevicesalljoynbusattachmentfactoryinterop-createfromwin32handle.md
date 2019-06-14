@@ -92,11 +92,11 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error
 
 
 
-<a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable </a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable </a>
 
 
 
-<a href="https://msdn.microsoft.com/2E9FE6B4-E8F0-4627-A712-F7A4CE5404BE">IWindowsDevicesAllJoynBusAttachmentFactoryInterop</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/windows.devices.alljoyn.interop/nn-windows-devices-alljoyn-interop-iwindowsdevicesalljoynbusattachmentfactoryinterop">IWindowsDevicesAllJoynBusAttachmentFactoryInterop</a>
  
 
  

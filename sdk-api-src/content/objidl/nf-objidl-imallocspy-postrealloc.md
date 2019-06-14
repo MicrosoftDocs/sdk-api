@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Performs operations required after calling <a href="https://msdn.microsoft.com/37de166a-04a5-4a10-83b3-dd19d0bb48a4">IMalloc::Realloc</a>.
+Performs operations required after calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-realloc">IMalloc::Realloc</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Performs operations required after calling <a href="https://msdn.microsoft.com/3
 
 ### -param pActual [in]
 
-The pointer specified in the call to <a href="https://msdn.microsoft.com/37de166a-04a5-4a10-83b3-dd19d0bb48a4">Realloc</a>.
+The pointer specified in the call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-realloc">Realloc</a>.
 
 
 ### -param fSpyed [in]
@@ -71,7 +71,7 @@ Indicates whether the block of memory was allocated while the current spy was ac
 
 
 
-The method returns a pointer to the beginning of the block actually allocated. This pointer is also returned to the caller of <a href="https://msdn.microsoft.com/37de166a-04a5-4a10-83b3-dd19d0bb48a4">IMalloc::Realloc</a>. If debug information is written at the front of the caller's allocation, it should be a forward offset from <i>pActual</i>. The value should be the same as <i>pActual</i> if debug information is appended or if no debug information is attached.
+The method returns a pointer to the beginning of the block actually allocated. This pointer is also returned to the caller of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-realloc">IMalloc::Realloc</a>. If debug information is written at the front of the caller's allocation, it should be a forward offset from <i>pActual</i>. The value should be the same as <i>pActual</i> if debug information is appended or if no debug information is attached.
 
 
 
@@ -80,7 +80,7 @@ The method returns a pointer to the beginning of the block actually allocated. T
 
 
 
-If memory is successfully reallocated while the spy is active, <i>fSpyed</i> will be <b>TRUE</b> in subsequent calls to <a href="https://msdn.microsoft.com/8ba500f7-c070-4788-b7fe-58b6a4e6a94c">IMallocSpy</a> methods that track the reallocated memory, even if <i>fSpyed</i> was previously <b>FALSE</b>.
+If memory is successfully reallocated while the spy is active, <i>fSpyed</i> will be <b>TRUE</b> in subsequent calls to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a> methods that track the reallocated memory, even if <i>fSpyed</i> was previously <b>FALSE</b>.
 
 
 
@@ -90,15 +90,15 @@ If memory is successfully reallocated while the spy is active, <i>fSpyed</i> wil
 
 
 
-<a href="https://msdn.microsoft.com/37de166a-04a5-4a10-83b3-dd19d0bb48a4">IMalloc::Realloc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-realloc">IMalloc::Realloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ba500f7-c070-4788-b7fe-58b6a4e6a94c">IMallocSpy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd4db69c-3369-4aca-bc05-4c3c6850cc09">IMallocSpy::PreRealloc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imallocspy-prerealloc">IMallocSpy::PreRealloc</a>
  
 
  

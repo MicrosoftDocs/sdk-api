@@ -63,7 +63,7 @@ The <b>SetObjectAttributes2</b> method sets attributes of files or storages. Thi
 
 ### -param dwAttributes [in]
 
-Pointer to a <b>DWORD</b> specifying the attributes as defined by the <a href="https://msdn.microsoft.com/7484e29a-5faf-4a11-9fc1-75aa5c9d72ef">IWMDMStorage::SetAttributes</a> method.
+Pointer to a <b>DWORD</b> specifying the attributes as defined by the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-setattributes">IWMDMStorage::SetAttributes</a> method.
 
 
 ### -param dwAttributesEx [in]
@@ -73,12 +73,12 @@ Pointer to a <b>DWORD</b> specifying the attributes as defined by the <a href="h
 
 ### -param pFormat [in]
 
-Optional pointer to a <a href="https://msdn.microsoft.com/2128f07a-4858-49b7-b031-16d4a84c9d32">_WAVEFORMATEX</a> structure that specifies audio information about the object.
+Optional pointer to a <a href="https://docs.microsoft.com/windows/desktop/WMDM/-waveformatex">_WAVEFORMATEX</a> structure that specifies audio information about the object.
 
 
 ### -param pVideoFormat [in]
 
-Optional pointer to a <a href="https://msdn.microsoft.com/5a39d66e-8dbc-4572-8370-14f722b6c906">_VIDEOINFOHEADER</a> structure that specifies video information about the object.
+Optional pointer to a <a href="https://docs.microsoft.com/windows/desktop/WMDM/-videoinfoheader">_VIDEOINFOHEADER</a> structure that specifies video information about the object.
 
 
 ## -returns
@@ -136,11 +136,11 @@ An unspecified error occurred, and the read operation should be cancelled withou
 
 
 
-<a href="https://msdn.microsoft.com/7bf76094-5660-47ac-b1a2-a67b6f95964b">GetObjectAttributes2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation2-getobjectattributes2">GetObjectAttributes2</a>
 
 
 
-<a href="https://msdn.microsoft.com/b3f7e92a-8feb-47cd-ae50-bc5bf9a37958">IWMDMOperation2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation2">IWMDMOperation2 Interface</a>
  
 
  

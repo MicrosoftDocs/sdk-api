@@ -70,7 +70,7 @@ After the <code>IPropertyStore::GetValue</code> method returns successfully, thi
 
 #### - Key
 
-A reference to the PROPERTYKEY structure that is retrieved through <a href="https://msdn.microsoft.com/4f93949a-d5d5-4fbf-8538-6171861e5884">IPropertyStore::GetAt</a>. The PROPERTYKEY structure also contains a globally unique identifier (GUID) for the property.
+A reference to the PROPERTYKEY structure that is retrieved through <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertystore-getat">IPropertyStore::GetAt</a>. The PROPERTYKEY structure also contains a globally unique identifier (GUID) for the property.
 
 
 ## -returns
@@ -98,11 +98,11 @@ If the PROPERTYKEY referenced in key is not present in the property store, this 
 
 
 
-<a href="https://msdn.microsoft.com/63afd5b1-87cc-4e0a-8964-2138c5fbff46">IPropertyStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>
 
 
 
-<a href="https://msdn.microsoft.com/4f93949a-d5d5-4fbf-8538-6171861e5884">IPropertyStore::GetAt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertystore-getat">IPropertyStore::GetAt</a>
  
 
  

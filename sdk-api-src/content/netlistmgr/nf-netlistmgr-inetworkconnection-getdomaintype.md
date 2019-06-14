@@ -59,7 +59,7 @@ The <b>GetDomainType</b> method returns the domain type of the network connectio
 
 ### -param pDomainType [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/fd1bc50a-c8d3-4594-870e-3bbb5c6ea1da">NLM_DOMAIN_TYPE</a> enumeration value that specifies the domain type of the network.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ne-netlistmgr-nlm_domain_type">NLM_DOMAIN_TYPE</a> enumeration value that specifies the domain type of the network.
 
 
 ## -returns
@@ -76,7 +76,7 @@ Returns S_OK if the method succeeds.
 
 
 
-<a href="https://msdn.microsoft.com/666761b5-0146-438d-9986-ecce3b45b5ff">INetworkConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkconnection">INetworkConnection</a>
  
 
  

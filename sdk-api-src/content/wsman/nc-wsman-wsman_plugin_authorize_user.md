@@ -63,12 +63,12 @@ The DLL entry point name for this method must be <b>WSManPluginAuthzUser</b>.
 
 ### -param pluginContext [in]
 
-Specifies the context that was returned by a call to <a href="https://msdn.microsoft.com/b3123f52-880b-4d14-a5a2-77c5924de99d">WSManPluginStartup</a>. This parameter represents a specific application initialization of a WinRM plug-in.
+Specifies the context that was returned by a call to <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_startup">WSManPluginStartup</a>. This parameter represents a specific application initialization of a WinRM plug-in.
 
 
 ### -param *senderDetails [in]
 
-A pointer  to the <a href="https://msdn.microsoft.com/f68a9f75-6808-4dfa-b40f-061da88ead3c">WSMAN_SENDER_DETAILS</a> structure that specifies the identification information of the user to be authorized.
+A pointer  to the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_sender_details">WSMAN_SENDER_DETAILS</a> structure that specifies the identification information of the user to be authorized.
 
 
 ### -param flags [in]
@@ -89,7 +89,7 @@ This callback function does not return a value.
 
 
 
-The plug-in must call <a href="https://msdn.microsoft.com/f8897936-91fa-4b91-a13a-0ef0a52d780c">WSManPluginAuthzUserComplete</a> to report either that the user was successfully authorized with <b>NO_ERROR</b> or that the user was not authorized with <b>ERROR_ACCESS_DENIED</b>. An <b>ERROR_WSMAN_REDIRECT_REQUIRED</b> error should be reported if an HTTP redirect is required for this user, and the new HTTP URI should be recorded in <i>extendedErrorInformation</i> of the <b>WSManPluginAuthzUserComplete</b> method. All other errors report a failure to the client, but no specific information is reported.
+The plug-in must call <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanpluginauthzusercomplete">WSManPluginAuthzUserComplete</a> to report either that the user was successfully authorized with <b>NO_ERROR</b> or that the user was not authorized with <b>ERROR_ACCESS_DENIED</b>. An <b>ERROR_WSMAN_REDIRECT_REQUIRED</b> error should be reported if an HTTP redirect is required for this user, and the new HTTP URI should be recorded in <i>extendedErrorInformation</i> of the <b>WSManPluginAuthzUserComplete</b> method. All other errors report a failure to the client, but no specific information is reported.
 
 
 

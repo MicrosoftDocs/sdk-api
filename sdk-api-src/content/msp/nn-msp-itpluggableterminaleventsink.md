@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITPluggableTerminalEventSink</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITPluggableTerminalEventSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITPluggableTerminalEventSink</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITPluggableTerminalEventSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ITPluggableTerminalEventSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/67386c32-5714-4b01-b860-25192349aa6c">FireEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itpluggableterminaleventsink-fireevent">FireEvent</a>
 </td>
 <td align="left" width="63%">
 Notifies the client application of a change in the pluggable terminal.
@@ -85,11 +85,11 @@ Notifies the client application of a change in the pluggable terminal.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/4c8924bd-468e-458c-b16a-ac378fb4b69a">ITPluggableTerminalEventSinkRegistration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msp/nn-msp-itpluggableterminaleventsinkregistration">ITPluggableTerminalEventSinkRegistration</a>
  
 
  

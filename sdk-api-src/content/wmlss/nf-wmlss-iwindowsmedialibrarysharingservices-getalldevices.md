@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>getAllDevices</b> method retrieves an <a href="https://msdn.microsoft.com/62e1f4d6-5b33-45d7-85d5-bc2c333c63e4">IWindowsMediaLibrarySharingDevices</a> interface that represents all of the media-sharing client devices on the home network.
+The <b>getAllDevices</b> method retrieves an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nn-wmlss-iwindowsmedialibrarysharingdevices">IWindowsMediaLibrarySharingDevices</a> interface that represents all of the media-sharing client devices on the home network.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>getAllDevices</b> method retrieves an <a href="https://msdn.microsoft.com
 
 ### -param devices [out]
 
-A pointer to a variable that receives a pointer to the <a href="https://msdn.microsoft.com/62e1f4d6-5b33-45d7-85d5-bc2c333c63e4">IWindowsMediaLibrarySharingDevices</a> interface.
+A pointer to a variable that receives a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nn-wmlss-iwindowsmedialibrarysharingdevices">IWindowsMediaLibrarySharingDevices</a> interface.
 
 
 ## -returns

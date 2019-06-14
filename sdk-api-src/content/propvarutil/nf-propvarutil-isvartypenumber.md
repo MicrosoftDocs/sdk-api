@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies whether <a href="https://msdn.microsoft.com/en-us/library/ms221127(v=VS.85).aspx">VARTYPE</a> is a number.
+Specifies whether <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARTYPE</a> is a number.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ Specifies whether <a href="https://msdn.microsoft.com/en-us/library/ms221127(v=V
 
 ### -param vt [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221127(v=VS.85).aspx">VARTYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARTYPE</a></b>
 
-Specifies the <a href="https://msdn.microsoft.com/en-us/library/ms221127(v=VS.85).aspx">VARTYPE</a> being queried.
+Specifies the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARTYPE</a> being queried.
 
 
 ## -returns
@@ -70,7 +70,7 @@ Specifies the <a href="https://msdn.microsoft.com/en-us/library/ms221127(v=VS.85
 
 Type: <b>BOOL</b>
 
-Returns <b>TRUE</b> if <a href="https://msdn.microsoft.com/en-us/library/ms221127(v=VS.85).aspx">VARTYPE</a> is a number.
+Returns <b>TRUE</b> if <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARTYPE</a> is a number.
 
 
 

@@ -59,7 +59,7 @@ Gets the driver's certificate chain.
 
 ### -param CertifacteSize
 
-The size of the <i>ppCertificate</i> array, in bytes. To get the size of the certificate chain, call <a href="https://msdn.microsoft.com/a320a7be-6a0f-4de1-afc2-11eb2d7c24d6">IDirect3DAuthenticatedChannel9::GetCertificateSize</a>.
+The size of the <i>ppCertificate</i> array, in bytes. To get the size of the certificate chain, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-getcertificatesize">IDirect3DAuthenticatedChannel9::GetCertificateSize</a>.
 
 
 ### -param ppCertificate
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-You can use the certificate chain to verify that the driver's certificate was signed by Microsoft and has not been revoked. The driver's certificate also contains the driver's public key. Use the public key to establish a session key, by calling the <a href="https://msdn.microsoft.com/35605d35-76c9-43d7-a022-6db6af179c41">IDirect3DAuthenticatedChannel9::NegotiateKeyExchange</a> method.
+You can use the certificate chain to verify that the driver's certificate was signed by Microsoft and has not been revoked. The driver's certificate also contains the driver's public key. Use the public key to establish a session key, by calling the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-negotiatekeyexchange">IDirect3DAuthenticatedChannel9::NegotiateKeyExchange</a> method.
 
 This method fails if the channel type is <b>D3DAUTHENTICATEDCHANNEL_D3D9</b>, because the Direct3D 9 channel does not support authentication.
 
@@ -92,11 +92,11 @@ This method fails if the channel type is <b>D3DAUTHENTICATEDCHANNEL_D3D9</b>, be
 
 
 
-<a href="https://msdn.microsoft.com/FD0625BB-484A-43E6-8931-DB635D4F017F">GPU-Based Content Protection</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/gpu-based-content-protection">GPU-Based Content Protection</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd969956-a140-44ed-9917-5a0a09a432fa">IDirect3DAuthenticatedChannel9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nn-d3d9-idirect3dauthenticatedchannel9">IDirect3DAuthenticatedChannel9</a>
  
 
  

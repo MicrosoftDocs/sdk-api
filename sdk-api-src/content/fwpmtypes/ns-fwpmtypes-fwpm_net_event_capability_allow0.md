@@ -59,7 +59,7 @@ The <b>FWPM_NET_EVENT_CAPABILITY_ALLOW0</b> structure contains information about
 
 ### -field networkCapabilityId
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh447348(v=VS.85).aspx">FWPM_APPC_NETWORK_CAPABILITY_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_appc_network_capability_type_">FWPM_APPC_NETWORK_CAPABILITY_TYPE</a></b>
 
 The specific app container network capability allowing this traffic.
 
@@ -83,11 +83,11 @@ True if the packet originated from (or was heading to) the loopback adapter; oth
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447348(v=VS.85).aspx">FWPM_APPC_NETWORK_CAPABILITY_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_appc_network_capability_type_">FWPM_APPC_NETWORK_CAPABILITY_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447364(v=VS.85).aspx">FWPM_NET_EVENT_CAPABILITY_DROP0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_capability_drop0_">FWPM_NET_EVENT_CAPABILITY_DROP0</a>
  
 
  

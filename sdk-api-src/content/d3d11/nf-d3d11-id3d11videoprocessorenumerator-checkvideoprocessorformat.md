@@ -59,12 +59,12 @@ Queries whether the video processor supports a specified video format.
 
 ### -param Format [in]
 
-The video format to query, specified as a <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> value.
+The video format to query, specified as a <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> value.
 
 
 ### -param pFlags [out]
 
-Receives a bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/A23C33B8-20D0-4F78-B21F-36FCD1506DC6">D3D11_VIDEO_PROCESSOR_FORMAT_SUPPORT</a> enumeration.
+Receives a bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_format_support">D3D11_VIDEO_PROCESSOR_FORMAT_SUPPORT</a> enumeration.
 
 
 ## -returns
@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/8713B4C6-B08E-4616-92A7-05280CCE7AB3">ID3D11VideoProcessorEnumerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videoprocessorenumerator">ID3D11VideoProcessorEnumerator</a>
  
 
  

@@ -92,73 +92,73 @@ Indicates the date and time when the password must change.
 ### -field UserName
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> containing the name of the user account.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the name of the user account.
 
 
 ### -field FullName
 
-Pointer to a <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> containing the full name of the user or account.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the full name of the user or account.
 
 
 ### -field HomeDirectory
 
-Pointer to a <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> containing the home directory of the user.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the home directory of the user.
 
 
 ### -field HomeDirectoryDrive
 
-Pointer to a <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> containing the home drive name.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the home drive name.
 
 
 ### -field ScriptPath
 
-Pointer to a <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> containing the path to any logon script.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the path to any logon script.
 
 
 ### -field ProfilePath
 
-Pointer to a <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> containing the path to the user's profile.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the path to the user's profile.
 
 
 ### -field AdminComment
 
-Pointer to a <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> containing a comment associated with the user account. This string can be a null string, or it can have any number of characters before the terminating null character.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing a comment associated with the user account. This string can be a null string, or it can have any number of characters before the terminating null character.
 
 
 ### -field WorkStations
 
-Pointer to a <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> containing the name of the workstation in use by the account.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the name of the workstation in use by the account.
 
 
 ### -field UserComment
 
-Pointer to a <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> containing a user comment. This string can be a null string, or it can have any number of characters before the terminating null character.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing a user comment. This string can be a null string, or it can have any number of characters before the terminating null character.
 
 
 ### -field Parameters
 
-Pointer to a <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> reserved for use by applications. This string can be a null string, or it can have any number of characters before the terminating null character. Microsoft products use this member to store user configuration information. Do not modify this information.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> reserved for use by applications. This string can be a null string, or it can have any number of characters before the terminating null character. Microsoft products use this member to store user configuration information. Do not modify this information.
 
 
 ### -field LmPassword
 
-Pointer to a <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> containing a <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> of the user's local machine password.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> of the user's local machine password.
 
 
 ### -field NtPassword
 
-Pointer to a <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> containing a hash of the user's Windows domain password.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing a hash of the user's Windows domain password.
 
 
 ### -field PrivateData
 
-Pointer to a <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> containing supplemental private data associated with the user account. If <b>PrivateDataSensitive</b> is <b>TRUE</b>, this data is encrypted.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing supplemental private data associated with the user account. If <b>PrivateDataSensitive</b> is <b>TRUE</b>, this data is encrypted.
 
 
 ### -field SecurityDescriptor
 
 
-<a href="https://msdn.microsoft.com/000ffbbe-5750-449b-8237-27c8d3c45454">SR_SECURITY_DESCRIPTOR</a> indicating the security <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">privileges</a> of the account.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_sr_security_descriptor">SR_SECURITY_DESCRIPTOR</a> indicating the security <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">privileges</a> of the account.
 
 
 ### -field UserId
@@ -223,5 +223,5 @@ Indicates whether the password has expired.
 
 ### -field PrivateDataSensitive
 
-When set to <b>TRUE</b>, indicates that the <b>PrivateData</b> member is encrypted. A value of <b>FALSE</b> indicates that the <b>PrivateData</b> is in <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">plaintext</a>.
+When set to <b>TRUE</b>, indicates that the <b>PrivateData</b> member is encrypted. A value of <b>FALSE</b> indicates that the <b>PrivateData</b> is in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">plaintext</a>.
 

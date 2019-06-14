@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-This method retrieves the name of the application that the <a href="https://msdn.microsoft.com/en-us/library/Aa382533(v=VS.85).aspx">task</a> is associated with.
+This method retrieves the name of the application that the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/t">task</a> is associated with.
 
 
 ## -parameters
@@ -120,15 +120,15 @@ Not enough memory is available.
 
 
 
-<a href="https://msdn.microsoft.com/84a70dd0-43cb-42be-8360-35263bf1afb8">ITask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
 
 
 
-<a href="https://msdn.microsoft.com/0bec25a9-e653-48b5-be41-8f513169fc8c">ITask::SetApplicationName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itask-setapplicationname">ITask::SetApplicationName</a>
 
 
 
-<a href="https://msdn.microsoft.com/094dcd8f-35aa-4300-b58d-c846bca1c88c">SetParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itask-setparameters">SetParameters</a>
  
 
  

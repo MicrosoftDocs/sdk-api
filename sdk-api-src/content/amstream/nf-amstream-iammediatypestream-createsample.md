@@ -84,7 +84,7 @@ Reserved.
 
 ### -param ppAMMediaTypeSample [in]
 
-Address of an <a href="https://msdn.microsoft.com/en-us/library/Dd319663(v=VS.85).aspx">IAMMediaTypeSample</a> interface pointer that receives a pointer to the created sample.
+Address of an <a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-iammediatypesample">IAMMediaTypeSample</a> interface pointer that receives a pointer to the created sample.
 
 
 ## -returns
@@ -151,7 +151,7 @@ If <i>pUnkOuter</i> is non-<b>NULL</b>, the new stream sample is aggregated into
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319682(v=VS.85).aspx">IAMMediaTypeStream Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-iammediatypestream">IAMMediaTypeStream Interface</a>
  
 
  

@@ -59,7 +59,7 @@ ms.custom: 19H1
 
 ### -param fontFeature [in]
 
-Type: <b><a href="https://msdn.microsoft.com/f8c2b1b0-ecab-4556-b3e6-5eda75e206ed">DWRITE_FONT_FEATURE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_font_feature">DWRITE_FONT_FEATURE</a></b>
 
 A structure that contains the OpenType name identifier and the execution parameter for the font feature being added.
 
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/061f42db-e9df-4d8c-981f-68d440dfc4c2">IDWriteTypography</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetypography">IDWriteTypography</a>
  
 
  

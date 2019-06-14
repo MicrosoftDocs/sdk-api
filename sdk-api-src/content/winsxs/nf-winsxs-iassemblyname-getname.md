@@ -110,7 +110,7 @@ The method did not succeed.
 
 
 
-This method is equivalent to using the <a href="https://msdn.microsoft.com/0526fac9-1a3f-403b-b886-a7f833913e18">GetProperty</a> method with the <i>PropertyId</i> set to the <b>ASM_NAME_NAME</b> option of <a href="https://msdn.microsoft.com/5e13e90e-68b0-4842-97de-4f179d4c9ad7">ASM_NAME</a>. In case ASM_NAME_NAME is not set, the size of the buffer returned by <i>lpcwBuffer</i> is  0, and the content of <i>pwzName</i> is undefined.
+This method is equivalent to using the <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-iassemblyname-getproperty">GetProperty</a> method with the <i>PropertyId</i> set to the <b>ASM_NAME_NAME</b> option of <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/ne-winsxs-__midl_iassemblyname_0001">ASM_NAME</a>. In case ASM_NAME_NAME is not set, the size of the buffer returned by <i>lpcwBuffer</i> is  0, and the content of <i>pwzName</i> is undefined.
 
 
 
@@ -120,7 +120,7 @@ This method is equivalent to using the <a href="https://msdn.microsoft.com/0526f
 
 
 
-<a href="https://msdn.microsoft.com/304b8fb3-5d17-4af0-b070-450a40dc5cc9">IAssemblyName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a>
  
 
  

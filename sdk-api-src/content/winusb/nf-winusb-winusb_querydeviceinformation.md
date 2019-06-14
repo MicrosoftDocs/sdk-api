@@ -59,7 +59,7 @@ The <b>WinUsb_QueryDeviceInformation</b> function gets information about the phy
 
 ### -param InterfaceHandle [in]
 
-An opaque handle to the first interface on the device, which is returned by <a href="https://msdn.microsoft.com/258cf508-036a-4ade-95b2-4b36d1149ffd">WinUsb_Initialize</a>. 
+An opaque handle to the first interface on the device, which is returned by <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>. 
 
 
 ### -param InformationType [in]
@@ -119,7 +119,7 @@ The caller passed <b>NULL</b> in the  <i>InterfaceHandle</i> parameter.
 
 
 
-<a href="https://msdn.microsoft.com/8234d0b4-2c73-45fa-a8bf-566c64cc2858">WinUSB</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WinUSB</a>
 
 
 
@@ -127,7 +127,7 @@ The caller passed <b>NULL</b> in the  <i>InterfaceHandle</i> parameter.
 
 
 
-<a href="https://msdn.microsoft.com/258cf508-036a-4ade-95b2-4b36d1149ffd">WinUsb_Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>
  
 
  

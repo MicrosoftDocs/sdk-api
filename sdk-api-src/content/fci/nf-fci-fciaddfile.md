@@ -59,7 +59,7 @@ The <b>FCIAddFile</b> adds a file to the cabinet under construction.
 
 ### -param hfci [in]
 
-A valid FCI context handle returned by the <a href="https://msdn.microsoft.com/bfcea06d-2f09-405c-955c-0f56149148f2">FCICreate</a> function.
+A valid FCI context handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a> function.
 
 
 ### -param pszSourceFile [in]
@@ -79,24 +79,24 @@ If set <b>TRUE</b>, the file will be executed when extracted.
 
 ### -param pfnfcignc [in]
 
-Pointer to an application-defined callback function to obtain specifications on the next cabinet to create. The function should be declared using the <a href="https://msdn.microsoft.com/d56fb63e-91bf-4991-a954-176211697a2e">FNFCIGETNEXTCABINET</a> macro.
+Pointer to an application-defined callback function to obtain specifications on the next cabinet to create. The function should be declared using the <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fnfcigetnextcabinet">FNFCIGETNEXTCABINET</a> macro.
 
 
 ### -param pfnfcis [in]
 
-Pointer to an application-defined callback function to update the progress information available to the user. The function should be declared using the <a href="https://msdn.microsoft.com/529fd3c8-9783-4dbe-9268-a9137935cf9b">FNFCISTATUS</a> macro.
+Pointer to an application-defined callback function to update the progress information available to the user. The function should be declared using the <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fnfcistatus">FNFCISTATUS</a> macro.
 
 
 ### -param pfnfcigoi [in]
 
-Pointer to an application-defined callback function to open a file and retrieve the file date, time, and attributes. The function should be declared using the <a href="https://msdn.microsoft.com/5baccb69-7872-4d67-ad74-70cdd7459f8d">FNFCIGETOPENINFO</a> macro.
+Pointer to an application-defined callback function to open a file and retrieve the file date, time, and attributes. The function should be declared using the <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fnfcigetopeninfo">FNFCIGETOPENINFO</a> macro.
 
 
 ### -param typeCompress [in]
 
 The compression type to use.
 
-<div class="alert"><b>Note</b>  To indicate LZX compression, use the <a href="https://msdn.microsoft.com/39b5a1e0-a711-444b-8326-4aba9a98f203">TCOMPfromLZXWindow</a> macro.</div>
+<div class="alert"><b>Note</b>  To indicate LZX compression, use the <a href="https://docs.microsoft.com/windows/desktop/api/fdi_fci_types/nf-fdi_fci_types-tcompfromlzxwindow">TCOMPfromLZXWindow</a> macro.</div>
 <div> </div>
 <table>
 <tr>
@@ -135,7 +135,7 @@ Microsoft ZIP compression.
 
 If the function succeeds, it returns <b>TRUE</b>; otherwise, <b>FALSE</b>.
 
-Extended error information is provided in the <a href="https://msdn.microsoft.com/ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b">ERF</a> structure used to create the FCI context.
+Extended error information is provided in the <a href="https://docs.microsoft.com/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf">ERF</a> structure used to create the FCI context.
 
 
 
@@ -154,7 +154,7 @@ When set, the _A_EXEC attribute is added to the file entry in the CAB. This mech
 
 
 
-<a href="https://msdn.microsoft.com/bfcea06d-2f09-405c-955c-0f56149148f2">FCICreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a>
  
 
  

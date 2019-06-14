@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 
-The <b>IPortableDeviceProperties</b> interface retrieves, adds, or deletes properties from an object on a device, or the device itself. To get this interface, call <a href="https://msdn.microsoft.com/bc3ba717-1be3-4f29-ac27-6bdcbc5ed94f">IPortableDeviceContent::Properties</a> on an object. To get this interface for the object, specify <b>WPD_DEVICE_OBJECT_ID</b> in <b>GetValues</b>.
+The <b>IPortableDeviceProperties</b> interface retrieves, adds, or deletes properties from an object on a device, or the device itself. To get this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-properties">IPortableDeviceContent::Properties</a> on an object. To get this interface for the object, specify <b>WPD_DEVICE_OBJECT_ID</b> in <b>GetValues</b>.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceProperties</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPortableDeviceProperties</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceProperties</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDeviceProperties</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IPortableDeviceProperties</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6443e742-1296-4be4-b426-1f277406c01c">Cancel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceproperties-cancel">Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels a pending call on this interface.
@@ -81,7 +81,7 @@ Cancels a pending call on this interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2547c9aa-edc7-4331-b5f2-bfb4a96f7175">Delete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceproperties-delete">Delete</a>
 </td>
 <td align="left" width="63%">
 Deletes specified properties from a specified object on a device.
@@ -90,7 +90,7 @@ Deletes specified properties from a specified object on a device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bb2206ff-e1d4-4bc5-819b-b008a293c43d">GetPropertyAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceproperties-getpropertyattributes">GetPropertyAttributes</a>
 </td>
 <td align="left" width="63%">
 Retrieves attributes of a specified object property on a device.
@@ -99,7 +99,7 @@ Retrieves attributes of a specified object property on a device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0098bfe9-965b-4c70-b28a-d497ac79f44a">GetSupportedProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceproperties-getsupportedproperties">GetSupportedProperties</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of properties that a specified object supports.
@@ -108,7 +108,7 @@ Retrieves a list of properties that a specified object supports.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5f4ec65c-dd26-40d5-a9f8-a2175c3aa54c">GetValues</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceproperties-getvalues">GetValues</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of specified properties from a specified object on a device.
@@ -117,7 +117,7 @@ Retrieves a list of specified properties from a specified object on a device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3c631d31-5553-4ad0-8384-821c11c78254">SetValues</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceproperties-setvalues">SetValues</a>
 </td>
 <td align="left" width="63%">
 Adds or modifies one or more properties on a specified object on a device.
@@ -132,7 +132,7 @@ Adds or modifies one or more properties on a specified object on a device.
 
 
 
-<a href="https://msdn.microsoft.com/fbe53f17-940a-485e-82b2-c11ae39b3300">Client Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/client-interfaces">Client Interfaces</a>
  
 
  

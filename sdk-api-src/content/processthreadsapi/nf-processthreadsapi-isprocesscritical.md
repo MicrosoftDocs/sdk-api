@@ -76,7 +76,7 @@ A pointer to the <b>BOOL</b> value this function will use to indicate whether th
 
 
 
-This routine returns FALSE on failure. Any other value indicates success.      Call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> to query for the specific error reason on failure.
+This routine returns FALSE on failure. Any other value indicates success.      Call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to query for the specific error reason on failure.
 
 
 
@@ -86,7 +86,7 @@ This routine returns FALSE on failure. Any other value indicates success.      C
 
 
 
-<a href="https://msdn.microsoft.com/40e6f80d-a778-4d5f-bb1b-db294815f8b5">HRESULT_FROM_WIN32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a>
  
 
  

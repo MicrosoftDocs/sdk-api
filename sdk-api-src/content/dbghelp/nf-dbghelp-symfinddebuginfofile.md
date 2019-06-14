@@ -62,7 +62,7 @@ Locates a .dbg file in the process search path.
 ### -param hProcess [in]
 
 A handle to the process that was originally passed to the 
-<a href="https://msdn.microsoft.com/fb1c98cb-6cd0-4218-aea4-384c24c66395">SymInitialize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 
 ### -param FileName [in]
@@ -78,7 +78,7 @@ The fully qualified path of the .dbg file. This buffer must be at least MAX_PATH
 ### -param Callback [in, optional]
 
 An application-defined callback function that verifies whether the correct file was found or the function should continue its search. For more information, see 
-<a href="https://msdn.microsoft.com/c7ccc66a-7897-4430-8874-a4ba66a5cce7">FindDebugInfoFileProc</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-pfind_debug_file_callback">FindDebugInfoFileProc</a>. 
 
 
 
@@ -98,7 +98,7 @@ A user-defined value or <b>NULL</b>. This value is simply passed to the callback
 If the function succeeds, the return value is an open handle to the .dbg file.
 
 If the function fails, the return value is <b>NULL</b>. To retrieve extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -108,7 +108,7 @@ If the function fails, the return value is <b>NULL</b>. To retrieve extended err
 
 
 This function uses the search path set using the 
-<a href="https://msdn.microsoft.com/fb1c98cb-6cd0-4218-aea4-384c24c66395">SymInitialize</a> or <a href="https://msdn.microsoft.com/564ba1f6-65c6-4c45-bdbf-41ef0dd8a39d">SymSetSearchPath</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> or <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetsearchpath">SymSetSearchPath</a> function.
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
@@ -122,11 +122,11 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 
-<a href="https://msdn.microsoft.com/7b28f70b-2d97-4cc2-8064-dfb806f9cffa">DbgHelp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/c7ccc66a-7897-4430-8874-a4ba66a5cce7">FindDebugInfoFileProc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-pfind_debug_file_callback">FindDebugInfoFileProc</a>
  
 
  

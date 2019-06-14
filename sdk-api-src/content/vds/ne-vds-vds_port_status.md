@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set of object status values for a port.
 
@@ -67,22 +67,22 @@ The status of the port cannot be determined.
 
 ### -field VDS_PRS_ONLINE
 
-The port is physically present and in use. The <a href="https://msdn.microsoft.com/c65d9266-d691-4711-8225-a442e90d8ba3">VDS_HEALTH</a> value associated with this port status can be any value except <b>VDS_H_FAILED</b>.
+The port is physically present and in use. The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_health">VDS_HEALTH</a> value associated with this port status can be any value except <b>VDS_H_FAILED</b>.
 
 
 ### -field VDS_PRS_NOT_READY
 
-The port is busy. The <a href="https://msdn.microsoft.com/c65d9266-d691-4711-8225-a442e90d8ba3">VDS_HEALTH</a> value can be any value except <b>VDS_H_FAILED</b>.
+The port is busy. The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_health">VDS_HEALTH</a> value can be any value except <b>VDS_H_FAILED</b>.
 
 
 ### -field VDS_PRS_OFFLINE
 
-Either the port or its controller is physically present but not available for use. For example, the port or its controller has been set to the inactive state. When this status is set,  a <b>VDS_NF_PORT_REMOVED</b> notification is sent. The <a href="https://msdn.microsoft.com/c65d9266-d691-4711-8225-a442e90d8ba3">VDS_HEALTH</a> value can be any value.
+Either the port or its controller is physically present but not available for use. For example, the port or its controller has been set to the inactive state. When this status is set,  a <b>VDS_NF_PORT_REMOVED</b> notification is sent. The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_health">VDS_HEALTH</a> value can be any value.
 
 
 ### -field VDS_PRS_FAILED
 
-The port has failed. The <a href="https://msdn.microsoft.com/c65d9266-d691-4711-8225-a442e90d8ba3">VDS_HEALTH</a> value should be <b>VDS_H_FAILED</b> or <b>VDS_H_FAILING</b>.
+The port has failed. The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_health">VDS_HEALTH</a> value should be <b>VDS_H_FAILED</b> or <b>VDS_H_FAILING</b>.
 
 
 ### -field VDS_PRS_REMOVED
@@ -96,7 +96,7 @@ The port's controller has been physically removed from the subsystem.  When this
 
 
 
-The  <a href="https://msdn.microsoft.com/40f81f31-3776-4685-8b79-c047c669b2bb">VDS_PORT_PROP</a> structure includes a <b>VDS_PORT_STATUS</b> value as a member to indicate the current status of a port.
+The  <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_port_prop">VDS_PORT_PROP</a> structure includes a <b>VDS_PORT_STATUS</b> value as a member to indicate the current status of a port.
 
 If your application encounters a <b>VDS_PORT_STATUS</b> value that it does not recognize, it should display the port status as unknown. It should not attempt to map the unrecognized port status to another port status.
 
@@ -110,11 +110,11 @@ If your application encounters a <b>VDS_PORT_STATUS</b> value that it does not r
 
 
 
-<a href="https://msdn.microsoft.com/30ee6e39-c1e5-4173-a3dd-5644632140d1">VDS Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-enumerations">VDS Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/40f81f31-3776-4685-8b79-c047c669b2bb">VDS_PORT_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_port_prop">VDS_PORT_PROP</a>
  
 
  

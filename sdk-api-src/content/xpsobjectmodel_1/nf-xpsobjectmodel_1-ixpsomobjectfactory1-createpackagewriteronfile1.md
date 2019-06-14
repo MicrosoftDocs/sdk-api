@@ -65,7 +65,7 @@ Opens a file for writing the contents of an XPS OM to an XPS package of a specif
 
 ### -param securityAttributes
 
-[in, unique]    The <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> structure, which contains two separate but related  members:
+[in, unique]    The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure, which contains two separate but related  members:
 
 <ul>
 <li><b>lpSecurityDescriptor</b>: an optional security descriptor</li>
@@ -73,14 +73,14 @@ Opens a file for writing the contents of an XPS OM to an XPS package of a specif
 </ul>
 If  <b>lpSecurityDescriptor</b> is <b>NULL</b>, the file or device associated with the returned handle is assigned a default security descriptor.
 
- For more information about <i>securityAttributes</i>, see <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>.
+ For more information about <i>securityAttributes</i>, see <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>.
 
 
 ### -param flagsAndAttributes
 
 [in]            Specifies the settings and attributes of the file to be created. For most files, the <b>FILE_ATTRIBUTE_NORMAL</b> value can be used.
 
-See <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> for more information about this parameter.
+See <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> for more information about this parameter.
 
 
 ### -param optimizeMarkupSize
@@ -123,27 +123,27 @@ The package writer will not try to perform any optimization.
 
 ### -param documentSequencePartName
 
-[in] The <a href="https://msdn.microsoft.com/81123212-7a32-4833-b81f-8454a544327d">IOpcPartUri</a> interface that contains the part name of the document sequence in the new file.
+[in] The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a> interface that contains the part name of the document sequence in the new file.
 
 
 ### -param coreProperties
 
-[in] The <a href="https://msdn.microsoft.com/705ec9c7-5aa9-4fc5-ad2c-441cb545d056">IXpsOMCoreProperties</a> interface that contains the core document properties to be given to the new file. This parameter can be set to <b>NULL</b>.
+[in] The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcoreproperties">IXpsOMCoreProperties</a> interface that contains the core document properties to be given to the new file. This parameter can be set to <b>NULL</b>.
 
 
 ### -param packageThumbnail
 
-[in] The <a href="https://msdn.microsoft.com/89a1530e-fa87-45bf-a1da-c8656ec09ba3">IXpsOMImageResource</a> interface that contains the thumbnail image to be assigned to the new file. This parameter can be set to <b>NULL</b>.
+[in] The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomimageresource">IXpsOMImageResource</a> interface that contains the thumbnail image to be assigned to the new file. This parameter can be set to <b>NULL</b>.
 
 
 ### -param documentSequencePrintTicket
 
-[in] The <a href="https://msdn.microsoft.com/2f37dbd2-3078-4aa8-97e7-556a0ff2dd74">IXpsOMPrintTicketResource</a> interface that contains the package-level print ticket to be assigned to the new file. This parameter can be set to <b>NULL</b>.
+[in] The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomprintticketresource">IXpsOMPrintTicketResource</a> interface that contains the package-level print ticket to be assigned to the new file. This parameter can be set to <b>NULL</b>.
 
 
 ### -param discardControlPartName
 
-[in] The <a href="https://msdn.microsoft.com/81123212-7a32-4833-b81f-8454a544327d">IOpcPartUri</a> interface that contains the name of the discard control part. This parameter can be set to <b>NULL</b>.
+[in] The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a> interface that contains the name of the discard control part. This parameter can be set to <b>NULL</b>.
 
 
 ### -param documentType
@@ -153,7 +153,7 @@ The package writer will not try to perform any optimization.
 
 ### -param packageWriter
 
-[out, retval]    A pointer to the new  <a href="https://msdn.microsoft.com/cbbcc8bf-6172-41c8-9d74-27e5635ec167">IXpsOMPackageWriter</a> interface created by this method.
+[out, retval]    A pointer to the new  <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a> interface created by this method.
 
 
 ## -returns
@@ -175,7 +175,7 @@ E_INVALIDARG: The document type was not a valid XPS document format.
 
 
 
-Use this method to produce a package writer for either an MSXPS document or an OpenXPS document. <a href="https://msdn.microsoft.com/67d081a6-ec10-4cd3-8f77-b7653aef27a1">CreatePackageWriterOnFile</a>,  released in Windows 7, only creates XPS document files in the MSXPS format.
+Use this method to produce a package writer for either an MSXPS document or an OpenXPS document. <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-createpackagewriteronfile">CreatePackageWriterOnFile</a>,  released in Windows 7, only creates XPS document files in the MSXPS format.
 
 <h3><a id="Additional_References"></a><a id="additional_references"></a><a id="ADDITIONAL_REFERENCES"></a>Additional References</h3>
 Additional References: Legacy method description
@@ -188,7 +188,7 @@ Additional References: Legacy method description
 
 
 
-<a href="https://msdn.microsoft.com/f013e59d-83ae-453f-9cc5-9a8230729128">IXpsOMObjectFactory1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_1/nn-xpsobjectmodel_1-ixpsomobjectfactory1">IXpsOMObjectFactory1</a>
  
 
  

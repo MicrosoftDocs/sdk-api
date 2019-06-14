@@ -59,30 +59,30 @@ Vertex shader caps.
 
 ### -field Caps
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Instruction predication is supported if this value is nonzero. See <a href="https://msdn.microsoft.com/en-us/library/Bb147357(v=VS.85).aspx">setp_comp - vs</a>.
+Instruction predication is supported if this value is nonzero. See <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/setp-comp---vs">setp_comp - vs</a>.
 
 
 ### -field DynamicFlowControlDepth
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
- Either 0 or 24, which represents the depth of the dynamic flow control instruction nesting. See <a href="https://msdn.microsoft.com/en-us/library/Bb172634(v=VS.85).aspx">D3DVS20CAPS</a>.
+ Either 0 or 24, which represents the depth of the dynamic flow control instruction nesting. See <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dvs20caps">D3DVS20CAPS</a>.
 
 
 ### -field NumTemps
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
-The number of temporary registers supported. See <a href="https://msdn.microsoft.com/en-us/library/Bb172634(v=VS.85).aspx">D3DVS20CAPS</a>.
+The number of temporary registers supported. See <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dvs20caps">D3DVS20CAPS</a>.
 
 
 ### -field StaticFlowControlDepth
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
-The depth of nesting of the <a href="https://msdn.microsoft.com/en-us/library/Bb174716(v=VS.85).aspx">loop - vs</a>/<a href="https://msdn.microsoft.com/en-us/library/Bb147331(v=VS.85).aspx">rep - vs</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb172389(v=VS.85).aspx">call - vs</a>/<a href="https://msdn.microsoft.com/en-us/library/Bb172385(v=VS.85).aspx">callnz bool - vs</a> instructions. See <a href="https://msdn.microsoft.com/en-us/library/Bb172634(v=VS.85).aspx">D3DVS20CAPS</a>.
+The depth of nesting of the <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/loop---vs">loop - vs</a>/<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/rep---vs">rep - vs</a> and <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/call---vs">call - vs</a>/<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/callnz-bool---vs">callnz bool - vs</a> instructions. See <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dvs20caps">D3DVS20CAPS</a>.
 
 
 ## -see-also
@@ -90,15 +90,15 @@ The depth of nesting of the <a href="https://msdn.microsoft.com/en-us/library/Bb
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb172513(v=VS.85).aspx">D3DCAPS9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3dcaps9">D3DCAPS9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb172591(v=VS.85).aspx">D3DPSHADERCAPS2_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3dpshadercaps2_0">D3DPSHADERCAPS2_0</a>
 
 
 
-<a href="https://msdn.microsoft.com/0a13cb04-10cb-48a6-a709-ad4a56459f02">Direct3D Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d9/dx9-graphics-reference-d3d-structures">Direct3D Structures</a>
  
 
  

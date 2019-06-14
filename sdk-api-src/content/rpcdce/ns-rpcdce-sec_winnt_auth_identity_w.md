@@ -119,7 +119,7 @@ Flags used to specify ANSI or UNICODE. Must be one of the following:
 
 
 
-This structure must remain valid for the lifetime of the binding handle unless pointed to from the <a href="https://msdn.microsoft.com/fdb7f42a-e545-4965-a44a-70d4631f1723">RPC_HTTP_TRANSPORT_CREDENTIALS</a> or <a href="https://msdn.microsoft.com/6f7c9ffe-2b21-48c0-98d5-16feacd50a20">RPC_HTTP_TRANSPORT_CREDENTIALS_V2</a> structure.
+This structure must remain valid for the lifetime of the binding handle unless pointed to from the <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_http_transport_credentials_a">RPC_HTTP_TRANSPORT_CREDENTIALS</a> or <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_http_transport_credentials_v2_a">RPC_HTTP_TRANSPORT_CREDENTIALS_V2</a> structure.
 
 The strings may be ANSI or UNICODE depending on the value assigned to <b>Flags</b>.
 

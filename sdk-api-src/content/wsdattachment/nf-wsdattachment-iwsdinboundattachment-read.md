@@ -147,7 +147,7 @@ The <b>Read</b> method allows an application to receive arbitrary data from a re
 
 
 
-<a href="https://msdn.microsoft.com/1bacbf20-2eb2-4aa1-ba37-e14dc0d955b0">IWSDInboundAttachment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nn-wsdattachment-iwsdinboundattachment">IWSDInboundAttachment</a>
  
 
  

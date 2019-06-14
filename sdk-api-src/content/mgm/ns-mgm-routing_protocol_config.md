@@ -113,7 +113,7 @@ Callback into IGMP to notify IGMP that a protocol has finished taking or releasi
 
 
 
-<a href="https://msdn.microsoft.com/a9b5f5f3-6e54-4a97-b3e7-e9e026947116">MgmRegisterMProtocol</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmregistermprotocol">MgmRegisterMProtocol</a>
  
 
  

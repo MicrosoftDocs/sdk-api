@@ -66,7 +66,7 @@ Pointer to the block of memory being deallocated.
 
 
 
-This routine releases memory allocated by <a href="https://msdn.microsoft.com/61bef5a1-bf68-4d37-ae5d-13ff045a2344">EngAllocMem</a>. The memory block must not be accessed after it is freed.
+This routine releases memory allocated by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engallocmem">EngAllocMem</a>. The memory block must not be accessed after it is freed.
 
 
 
@@ -76,7 +76,7 @@ This routine releases memory allocated by <a href="https://msdn.microsoft.com/61
 
 
 
-<a href="https://msdn.microsoft.com/61bef5a1-bf68-4d37-ae5d-13ff045a2344">EngAllocMem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engallocmem">EngAllocMem</a>
  
 
  

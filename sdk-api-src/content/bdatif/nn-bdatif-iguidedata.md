@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 
-The <b>IGuideData</b> interface is exposed by the <a href="https://msdn.microsoft.com/22044a4c-480f-4c98-a78e-52c66a5eac99">BDA MPEG-2 Transport Information Filter</a> (TIF). It enables the client to get service information from the MPEG-2 transport stream. Use this interface if you are writing a guide store loader.
+The <b>IGuideData</b> interface is exposed by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-mpeg-2-transport-information-filter">BDA MPEG-2 Transport Information Filter</a> (TIF). It enables the client to get service information from the MPEG-2 transport stream. Use this interface if you are writing a guide store loader.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGuideData</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IGuideData</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGuideData</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGuideData</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IGuideData</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d182057a-096b-4286-8174-a3ce25c1c86f">GetGuideProgramIDs</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-iguidedata-getguideprogramids">GetGuideProgramIDs</a>
 </td>
 <td align="left" width="63%">
 Returns a list of unique identifiers for all of the programs contained in all transport streams.
@@ -81,7 +81,7 @@ Returns a list of unique identifiers for all of the programs contained in all tr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/57eb55bf-49d9-471e-b59c-0d87aa3c3e3c">GetProgramProperties</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-iguidedata-getprogramproperties">GetProgramProperties</a>
 </td>
 <td align="left" width="63%">
 Retrieves the properties for a specified program.
@@ -90,7 +90,7 @@ Retrieves the properties for a specified program.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d44abd0d-bcfc-418f-b541-c085032fb933">GetScheduleEntryIDs</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-iguidedata-getscheduleentryids">GetScheduleEntryIDs</a>
 </td>
 <td align="left" width="63%">
 Returns a list of unique identifiers for all of the schedule entries contained in all transport streams.
@@ -99,7 +99,7 @@ Returns a list of unique identifiers for all of the schedule entries contained i
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7fe01a0b-8101-40a2-97ee-e0f5c9d8d1a0">GetScheduleEntryProperties</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-iguidedata-getscheduleentryproperties">GetScheduleEntryProperties</a>
 </td>
 <td align="left" width="63%">
 Retrieves the properties for a specified schedule entry.
@@ -108,7 +108,7 @@ Retrieves the properties for a specified schedule entry.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/28be3bb7-b76a-44a3-892c-2aade5dbe255">GetServiceProperties</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-iguidedata-getserviceproperties">GetServiceProperties</a>
 </td>
 <td align="left" width="63%">
 Retrieves the properties for a specified service.
@@ -117,7 +117,7 @@ Retrieves the properties for a specified service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a3c08812-ed56-440e-a88d-80e20a681695">GetServices</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-iguidedata-getservices">GetServices</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of tune requests representing all of the services available in the tuning space.
@@ -133,7 +133,7 @@ Retrieves a collection of tune requests representing all of the services availab
 
 The TIF collects service informaton for services, programs, and schedule entries. A service is analogous to a channel; a program is a television show (also known as an "event"); and a schedule entry is an event that occurs at a specific time on a specific service.
 
-For each program and schedule entry, the TIF creates a string that uniquely identifies that element within the multiplex. The <a href="https://msdn.microsoft.com/d182057a-096b-4286-8174-a3ce25c1c86f">GetGuideProgramIDs</a> and <a href="https://msdn.microsoft.com/d44abd0d-bcfc-418f-b541-c085032fb933">GetScheduleEntryIDs</a> methods return a list of these identifiers. You can then pass the identifier to the <a href="https://msdn.microsoft.com/57eb55bf-49d9-471e-b59c-0d87aa3c3e3c">GetProgramProperties</a> and <a href="https://msdn.microsoft.com/7fe01a0b-8101-40a2-97ee-e0f5c9d8d1a0">GetScheduleEntryProperties</a> methods to get additional properties for a particular element.
+For each program and schedule entry, the TIF creates a string that uniquely identifies that element within the multiplex. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-iguidedata-getguideprogramids">GetGuideProgramIDs</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-iguidedata-getscheduleentryids">GetScheduleEntryIDs</a> methods return a list of these identifiers. You can then pass the identifier to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-iguidedata-getprogramproperties">GetProgramProperties</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-iguidedata-getscheduleentryproperties">GetScheduleEntryProperties</a> methods to get additional properties for a particular element.
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IGuideData)</code>.
 
@@ -145,7 +145,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
  
 
  

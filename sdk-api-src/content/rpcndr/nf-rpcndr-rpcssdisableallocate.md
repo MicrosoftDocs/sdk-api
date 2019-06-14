@@ -65,7 +65,7 @@ The
 
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -75,12 +75,12 @@ The
 
 
 <b>RpcSsDisableAllocate</b> frees all the resources used by a call to 
-<a href="https://msdn.microsoft.com/18060ed2-2250-47c7-8579-238edea44c66">RpcSsEnableAllocate</a>. It also releases memory that was allocated by a call to 
-<a href="https://msdn.microsoft.com/d1c1af46-63c5-4e50-abfb-c4f251972427">RpcSsAllocate</a> after the call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssenableallocate">RpcSsEnableAllocate</a>. It also releases memory that was allocated by a call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssallocate">RpcSsAllocate</a> after the call to 
 <b>RpcSsEnableAllocate</b>.
 
 
-<a href="https://msdn.microsoft.com/18060ed2-2250-47c7-8579-238edea44c66">RpcSsEnableAllocate</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssenableallocate">RpcSsEnableAllocate</a> and 
 <b>RpcSsDisableAllocate</b> must be used together as matching pairs.
 
 
@@ -91,15 +91,15 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/229cab16-eabf-49d3-a61e-3c06e001d0ac">RpcSmDisableAllocate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmdisableallocate">RpcSmDisableAllocate</a>
 
 
 
-<a href="https://msdn.microsoft.com/d1c1af46-63c5-4e50-abfb-c4f251972427">RpcSsAllocate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssallocate">RpcSsAllocate</a>
 
 
 
-<a href="https://msdn.microsoft.com/18060ed2-2250-47c7-8579-238edea44c66">RpcSsEnableAllocate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssenableallocate">RpcSsEnableAllocate</a>
  
 
  

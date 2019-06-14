@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>ClusterGetVolumeNameForVolumeMountPoint</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/3f749042-bdc9-4087-bb8a-d833713472eb">GetVolumeNameForVolumeMountPoint</a>.]
+<p class="CCE_Message">[<b>ClusterGetVolumeNameForVolumeMountPoint</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumenameforvolumemountpointw">GetVolumeNameForVolumeMountPoint</a>.]
 
 Retrieves a cluster volume <b>GUID</b> path for the volume that is associated with the 
     specified cluster shared volume (CSV) mount point (drive letter, volume <b>GUID</b> path, or 
@@ -74,9 +74,9 @@ A pointer to a string that receives the volume <b>GUID</b> path. This path is of
       <b>GUID</b> that identifies the volume. If there is more than one volume 
       <b>GUID</b> path for the volume, only the first one in the mount manager's cache is 
       returned. The string returned is in the format required for 
-      <a href="https://msdn.microsoft.com/6c20e386-7cd8-45d9-92d6-96d0a458db50">IVssBackupComponents::AddToSnapshotSet</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addtosnapshotset">IVssBackupComponents::AddToSnapshotSet</a> 
       and 
-      <a href="https://msdn.microsoft.com/42e069cb-3d9a-4592-bbb8-0113f14ed28c">IVssBackupComponents::IsVolumeSupported</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-isvolumesupported">IVssBackupComponents::IsVolumeSupported</a>.
 
 
 ### -param cchBufferLength [in]
@@ -92,7 +92,7 @@ The length of the output buffer, in <b>WCHARs</b>. A reasonable size for the buf
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. If the input CSV is not locally mounted 
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If the input CSV is not locally mounted 
        the call will fail with an <b>ERROR_CSV_VOLUME_NOT_LOCAL</b> (5951) error.
 
 
@@ -196,23 +196,23 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/ea8b76b2-3931-4489-a648-e1077fd93b21">Backing Up and Restoring the Failover Cluster Configuration Using VSS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/backing-up-and-restoring-the-failover-cluster-configuration-using-vss">Backing Up and Restoring the Failover Cluster Configuration Using VSS</a>
 
 
 
-<a href="https://msdn.microsoft.com/0f492e51-f364-40f1-b2c8-478f707f079d">Backup and Restore Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/backup-and-restore-functions">Backup and Restore Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f749042-bdc9-4087-bb8a-d833713472eb">GetVolumeNameForVolumeMountPoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumenameforvolumemountpointw">GetVolumeNameForVolumeMountPoint</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c20e386-7cd8-45d9-92d6-96d0a458db50">IVssBackupComponents::AddToSnapshotSet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addtosnapshotset">IVssBackupComponents::AddToSnapshotSet</a>
 
 
 
-<a href="https://msdn.microsoft.com/42e069cb-3d9a-4592-bbb8-0113f14ed28c">IVssBackupComponents::IsVolumeSupported</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-isvolumesupported">IVssBackupComponents::IsVolumeSupported</a>
  
 
  

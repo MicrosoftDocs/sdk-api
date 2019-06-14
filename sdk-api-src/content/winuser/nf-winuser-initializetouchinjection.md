@@ -54,7 +54,7 @@ ms.custom: 19H1
 ## -description
 
 
-Configures the touch injection context for the calling application and initializes the maximum number of simultaneous contacts that the app can inject.<div class="alert"><b>Note</b>  <b>InitializeTouchInjection</b> must precede any call to  <a href="https://msdn.microsoft.com/c3c1425e-2af6-4ecb-a0b2-a456654f7a53">InjectTouchInput</a>.</div>
+Configures the touch injection context for the calling application and initializes the maximum number of simultaneous contacts that the app can inject.<div class="alert"><b>Note</b>  <b>InitializeTouchInjection</b> must precede any call to  <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-injecttouchinput">InjectTouchInput</a>.</div>
 <div> </div>
 
 
@@ -75,7 +75,7 @@ The <i>maxCount</i> parameter must be greater than 0 and less than or equal to M
 
 The contact visualization mode. 
 
-The <i>dwMode</i> parameter must be   <a href="https://msdn.microsoft.com/52941DF1-88AF-452B-BF3E-838ADBDBC9B2">TOUCH_FEEDBACK_DEFAULT</a>, <b>TOUCH_FEEDBACK_INDIRECT</b>, or <b>TOUCH_FEEDBACK_NONE</b>.
+The <i>dwMode</i> parameter must be   <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_touchinjection/constants">TOUCH_FEEDBACK_DEFAULT</a>, <b>TOUCH_FEEDBACK_INDIRECT</b>, or <b>TOUCH_FEEDBACK_NONE</b>.
 
 
 ## -returns
@@ -84,7 +84,7 @@ The <i>dwMode</i> parameter must be   <a href="https://msdn.microsoft.com/52941D
 
 If the function succeeds, the return value is TRUE.
 
-If the function fails, the return value is FALSE. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is FALSE. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -93,11 +93,11 @@ If the function fails, the return value is FALSE. To get extended error informat
 
 
 
-If <a href="https://msdn.microsoft.com/52941DF1-88AF-452B-BF3E-838ADBDBC9B2">TOUCH_FEEDBACK_DEFAULT</a> is set, the injected touch feedback may get suppressed by the end-user settings in the <b>Pen and Touch</b> control panel. 
+If <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_touchinjection/constants">TOUCH_FEEDBACK_DEFAULT</a> is set, the injected touch feedback may get suppressed by the end-user settings in the <b>Pen and Touch</b> control panel. 
 
-If <a href="https://msdn.microsoft.com/52941DF1-88AF-452B-BF3E-838ADBDBC9B2">TOUCH_FEEDBACK_INDIRECT</a> is set, the injected touch feedback overrides the end-user settings in the <b>Pen and Touch</b> control panel. 
+If <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_touchinjection/constants">TOUCH_FEEDBACK_INDIRECT</a> is set, the injected touch feedback overrides the end-user settings in the <b>Pen and Touch</b> control panel. 
 
-If <a href="https://msdn.microsoft.com/52941DF1-88AF-452B-BF3E-838ADBDBC9B2">TOUCH_FEEDBACK_INDIRECT</a> or <b>TOUCH_FEEDBACK_NONE</b> are set,  touch feedback provided by applications and controls may not be affected.
+If <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_touchinjection/constants">TOUCH_FEEDBACK_INDIRECT</a> or <b>TOUCH_FEEDBACK_NONE</b> are set,  touch feedback provided by applications and controls may not be affected.
 
 
 
@@ -107,7 +107,7 @@ If <a href="https://msdn.microsoft.com/52941DF1-88AF-452B-BF3E-838ADBDBC9B2">TOU
 
 
 
-<a href="https://msdn.microsoft.com/8C2DF633-EACB-4B99-91D9-BCB7BE518A2E">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_touchinjection/functions">Functions</a>
  
 
  

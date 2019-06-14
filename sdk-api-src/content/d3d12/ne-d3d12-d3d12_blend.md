@@ -116,12 +116,12 @@ The blend factor is (f, f, f, 1); where f = min(Aₛ, 1
 
 ### -field D3D12_BLEND_BLEND_FACTOR
 
-The blend factor is the blend factor set with <a href="https://msdn.microsoft.com/344FD8B5-7225-4BEC-9D1F-C9CEDFE8C60F">ID3D12GraphicsCommandList::OMSetBlendFactor</a>. No pre-blend operation.
+The blend factor is the blend factor set with <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-omsetblendfactor">ID3D12GraphicsCommandList::OMSetBlendFactor</a>. No pre-blend operation.
 
 
 ### -field D3D12_BLEND_INV_BLEND_FACTOR
 
-The blend factor is the blend factor set with <a href="https://msdn.microsoft.com/344FD8B5-7225-4BEC-9D1F-C9CEDFE8C60F">ID3D12GraphicsCommandList::OMSetBlendFactor</a>. The pre-blend operation inverts the blend factor, generating 1 - blend_factor.
+The blend factor is the blend factor set with <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-omsetblendfactor">ID3D12GraphicsCommandList::OMSetBlendFactor</a>. The pre-blend operation inverts the blend factor, generating 1 - blend_factor.
 
 
 ### -field D3D12_BLEND_SRC1_COLOR
@@ -148,7 +148,7 @@ The blend factor is data sources as alpha data output by a pixel shader. The pre
 
 
 
-Source and destination blend operations are specified in a <a href="https://msdn.microsoft.com/911158CF-5F4F-4211-8CC6-F73BDB697BC5">D3D12_RENDER_TARGET_BLEND_DESC</a> structure.
+Source and destination blend operations are specified in a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_render_target_blend_desc">D3D12_RENDER_TARGET_BLEND_DESC</a> structure.
 
 
 
@@ -158,7 +158,7 @@ Source and destination blend operations are specified in a <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
  
 
  

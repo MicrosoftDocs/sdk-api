@@ -60,16 +60,16 @@ The <b>PathGradientBrush::SetSurroundColors</b> method sets the surround colors 
 
 ### -param colors [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>*</b>
 
-Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a> objects that specify the surround colors. 
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> objects that specify the surround colors. 
 
 
 ### -param count [in, out]
 
 Type: <b>INT*</b>
 
-Pointer to an integer that, on input, specifies the number of <a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a> objects in the 
+Pointer to an integer that, on input, specifies the number of <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> objects in the 
 					<i>colors</i> array. If the method succeeds, this parameter, on output, receives the number of surround colors set. If the method fails, this parameter does not receive a value. 
 
 
@@ -77,14 +77,14 @@ Pointer to an integer that, on input, specifies the number of <a href="https://m
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 </strong>
 
 If the method succeeds, it returns <b>Ok</b>, which is an element of the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 
 
@@ -101,8 +101,8 @@ A path gradient brush has a boundary path and a center point. The center point i
 
 
 The following example creates a 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>object based on an array of three points that defines a triangular path. The code also initializes an array of three <a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a> objects. The call to the <b>PathGradientBrush::SetSurroundColors</b> method associates each color in the color array with the corresponding (same index) point in the point array. After the surround colors of the path gradient brush have been set, the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms535773(v=VS.85).aspx">Graphics::FillRectangle</a> method uses the path gradient brush to paint a rectangle that includes the triangular path.
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>object based on an array of three points that defines a triangular path. The code also initializes an array of three <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> objects. The call to the <b>PathGradientBrush::SetSurroundColors</b> method associates each color in the color array with the corresponding (same index) point in the point array. After the surround colors of the path gradient brush have been set, the 
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillrectangle(inconstbrush_inconstrect_)">Graphics::FillRectangle</a> method uses the path gradient brush to paint a rectangle that includes the triangular path.
 
 One edge of the rendered triangle changes gradually from red to green. The next edge changes gradually from green to black, and the third edge changes gradually from black to red. The code does not set the center color, so the center color has the default value of black. As you move along a straight line from any point on the boundary path (triangle) to the center point, the color changes gradually from that boundary point's color to black.
 
@@ -139,31 +139,31 @@ VOID Example_SetSurColor(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536356(v=VS.85).aspx">Brushes and Filled Shapes</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-brushes-and-filled-shapes-about">Brushes and Filled Shapes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533917(v=VS.85).aspx">Creating a Path Gradient</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-creating-a-path-gradient-use">Creating a Path Gradient</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533856(v=VS.85).aspx">Filling a Shape with a Color Gradient</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-filling-a-shape-with-a-color-gradient-use">Filling a Shape with a Color Gradient</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535071(v=VS.85).aspx">PathGradientBrush::GetSurroundColorCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getsurroundcolorcount">PathGradientBrush::GetSurroundColorCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535072(v=VS.85).aspx">PathGradientBrush::GetSurroundColors</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getsurroundcolors">PathGradientBrush::GetSurroundColors</a>
  
 
  

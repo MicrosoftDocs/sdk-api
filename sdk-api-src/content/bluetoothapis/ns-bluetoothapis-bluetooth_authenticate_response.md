@@ -59,16 +59,16 @@ The <b>BLUETOOTH_AUTHENTICATE_RESPONSE</b> structure contains information passed
 
 ### -field bthAddressRemote
 
-A <a href="https://msdn.microsoft.com/2262a91b-c8b0-415a-9c23-7504998cc2a4">BLUETOOTH_ADDRESS</a> structure that contains the address of the device requesting the authentication response.  
+A <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluetoothapis-_bluetooth_address">BLUETOOTH_ADDRESS</a> structure that contains the address of the device requesting the authentication response.  
 
-<div class="alert"><b>Note</b>  This information can be found in the <a href="https://msdn.microsoft.com/en-us/library/Dd469469(v=VS.85).aspx">PBLUETOOTH_AUTHENTICATION_CALLBACK PARAMS</a> structure retrieved from the callback.</div>
+<div class="alert"><b>Note</b>  This information can be found in the <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluetoothapis-_bluetooth_authentication_callback_params">PBLUETOOTH_AUTHENTICATION_CALLBACK PARAMS</a> structure retrieved from the callback.</div>
 <div> </div>
 
 ### -field authMethod
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd469470(v=VS.85).aspx">BLUETOOTH_AUTHENTICATION_METHOD</a> enumeration that defines the supported authentication method. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ne-bluetoothapis-_bluetooth_authentication_method">BLUETOOTH_AUTHENTICATION_METHOD</a> enumeration that defines the supported authentication method. 
 
-<div class="alert"><b>Note</b>  This information can be found in the <a href="https://msdn.microsoft.com/en-us/library/Dd469469(v=VS.85).aspx">PBLUETOOTH_AUTHENTICATION_CALLBACK PARAMS</a> structure retrieved from the callback.</div>
+<div class="alert"><b>Note</b>  This information can be found in the <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluetoothapis-_bluetooth_authentication_callback_params">PBLUETOOTH_AUTHENTICATION_CALLBACK PARAMS</a> structure retrieved from the callback.</div>
 <div> </div>
 
 ### -field pinInfo
@@ -130,7 +130,7 @@ Contains information for passkey authentication.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd469470(v=VS.85).aspx">BLUETOOTH_AUTHENTICATION_METHOD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ne-bluetoothapis-_bluetooth_authentication_method">BLUETOOTH_AUTHENTICATION_METHOD</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Unregisters a service object that was registered using <a href="https://msdn.microsoft.com/0ef7760d-39eb-48fe-a7e9-043c2b9ba5a4">AddDynamicService</a>. An unregistered service object does not receive incoming requests.
+Unregisters a service object that was registered using <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-adddynamicservice">AddDynamicService</a>. An unregistered service object does not receive incoming requests.
 
 
 ## -parameters
@@ -102,7 +102,7 @@ Method completed successfully.
 </dl>
 </td>
 <td width="60%">
-The method failed. It may have failed because the host has not been initialized. Call <a href="https://msdn.microsoft.com/a66f0600-0bac-4bef-af43-6db60b60605e">Init</a> to initialize a device host.
+The method failed. It may have failed because the host has not been initialized. Call <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-init">Init</a> to initialize a device host.
 
 </td>
 </tr>
@@ -126,7 +126,7 @@ The device host releases its reference to the service object after the service i
 
 
 
-<a href="https://msdn.microsoft.com/497d0331-c88d-4381-8990-94227a9b9659">IWSDDeviceHost</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 				<b>NetApiBufferReallocate</b> function changes the size of a buffer allocated by a previous call to the 
-<a href="https://msdn.microsoft.com/9ff1e3eb-9417-469f-a8c0-cdcda3cd9583">NetApiBufferAllocate</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferallocate">NetApiBufferAllocate</a> function.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param OldBuffer [in]
 
 Pointer to the buffer returned by a call to the 
-<a href="https://msdn.microsoft.com/9ff1e3eb-9417-469f-a8c0-cdcda3cd9583">NetApiBufferAllocate</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferallocate">NetApiBufferAllocate</a> function.
 
 
 ### -param NewByteCount [in]
@@ -82,7 +82,7 @@ Receives the pointer to the reallocated buffer.
 If the function succeeds, the return value is NERR_Success.
 
 If the function fails, the return value is a system error code. For a list of error codes, see 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -94,8 +94,8 @@ If the function fails, the return value is a system error code. For a list of er
 No special group membership is required to successfully execute the ApiBuffer functions.
 
 For a code sample that demonstrates how to use the network management 
-<a href="https://msdn.microsoft.com/bf2fe8aa-dda6-4f6b-9c52-d7a96b96da18">ApiBuffer functions</a>, see 
-<a href="https://msdn.microsoft.com/9ff1e3eb-9417-469f-a8c0-cdcda3cd9583">NetApiBufferAllocate</a>.
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/apibuffer-functions">ApiBuffer functions</a>, see 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferallocate">NetApiBufferAllocate</a>.
 
 
 
@@ -105,25 +105,25 @@ For a code sample that demonstrates how to use the network management
 
 
 
-<a href="https://msdn.microsoft.com/bf2fe8aa-dda6-4f6b-9c52-d7a96b96da18">Api Buffer
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/apibuffer-functions">Api Buffer
 		  Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ff1e3eb-9417-469f-a8c0-cdcda3cd9583">NetApiBufferAllocate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferallocate">NetApiBufferAllocate</a>
 
 
 
-<a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd159e2e-f37e-46b2-b980-008b73d40b39">Network
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
  
 

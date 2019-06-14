@@ -123,15 +123,15 @@ Value: 0x80004005
 
 
 
-<a href="https://msdn.microsoft.com/cdca44d4-6ab5-4c2f-91ba-bef79b1d457e">IDiscMaster2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscmaster2">IDiscMaster2</a>
 
 
 
-<a href="https://msdn.microsoft.com/e909acb9-850b-404d-a2f7-efb37faf3506">IDiscMaster2::get_Item</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get_item">IDiscMaster2::get_Item</a>
 
 
 
-<a href="https://msdn.microsoft.com/f148a1c0-cb76-40e9-9749-a074f04c93e8">IDiscMaster::__NewEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get__newenum">IDiscMaster::__NewEnum</a>
  
 
  

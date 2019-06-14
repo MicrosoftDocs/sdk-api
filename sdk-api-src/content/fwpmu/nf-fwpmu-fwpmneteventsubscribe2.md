@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>FwpmNetEventSubscribe2</b> function  is used to request the delivery of notifications regarding a particular net event.
-<div class="alert"><b>Note</b>  <b>FwpmNetEventSubscribe2</b> is the specific implementation of <b>FwpmNetEventSubscribe</b> used in Windows 10, version 1607 and later. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 8,  <a href="https://msdn.microsoft.com/1e079574-3ab0-48d4-84ab-b2b3f34f757b">FwpmNetEventSubscribe1</a> is available. For Windows 7, <a href="https://msdn.microsoft.com/a2671600-c231-46c8-966d-f444fbdfa944">FwpmNetEventSubscribe0</a> is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FwpmNetEventSubscribe2</b> is the specific implementation of <b>FwpmNetEventSubscribe</b> used in Windows 10, version 1607 and later. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 8,  <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmneteventsubscribe1">FwpmNetEventSubscribe1</a> is available. For Windows 7, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmneteventsubscribe0">FwpmNetEventSubscribe0</a> is available.</div><div> </div>
 
 ## -parameters
 
@@ -59,7 +59,7 @@ The <b>FwpmNetEventSubscribe2</b> function  is used to request the delivery of n
 
 ### -param engineHandle [in]
 
-Handle for an open session to the filter engine. Call <a href="https://msdn.microsoft.com/5165f219-f3e0-4e84-915b-75912aab02b7">FwpmEngineOpen0</a> to open a session to the filter engine.
+Handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
 
 ### -param subscription [in]
@@ -111,7 +111,7 @@ The subscription was created successfully.
 </dl>
 </td>
 <td width="60%">
-A Windows Filtering Platform (WFP) specific error. See <a href="https://msdn.microsoft.com/11f3085a-f044-4a78-b47a-59b9086562bf">WFP Error Codes</a> for details.
+A Windows Filtering Platform (WFP) specific error. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
 
 </td>
 </tr>
@@ -138,9 +138,9 @@ Failure to communicate with the remote or local firewall engine.
 
 
 This function cannot be called from within a transaction. It will fail
-with <b>FWP_E_TXN_IN_PROGRESS</b>. See <a href="https://msdn.microsoft.com/2625ef9a-0e62-4e21-ba93-047965d0d782">Object Management</a> for more information about transactions.
+with <b>FWP_E_TXN_IN_PROGRESS</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/object-management">Object Management</a> for more information about transactions.
 
-The caller needs <a href="https://msdn.microsoft.com/77f0a1ac-3e99-4cba-a7c6-b8747f35cd0c">FWPM_ACTRL_SUBSCRIBE</a> access to the net event's container.
+The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-right-identifiers">FWPM_ACTRL_SUBSCRIBE</a> access to the net event's container.
 
 
 
@@ -150,15 +150,15 @@ The caller needs <a href="https://msdn.microsoft.com/77f0a1ac-3e99-4cba-a7c6-b87
 
 
 
-<a href="https://msdn.microsoft.com/0A5E0ADB-0879-4646-9F69-D8AB9BD067AD">FWPM_NET_EVENT_CALLBACK2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_net_event_callback2">FWPM_NET_EVENT_CALLBACK2</a>
 
 
 
-<a href="https://msdn.microsoft.com/a1aa8369-fd70-46f6-983d-0afdf8b8ff77">FWPM_NET_EVENT_SUBSCRIPTION0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_subscription0_">FWPM_NET_EVENT_SUBSCRIPTION0</a>
 
 
 
-<a href="https://msdn.microsoft.com/e7d6faba-c280-4867-a9d9-d1bf28e831ef">FwpmNetEventUnsubscribe0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmneteventunsubscribe0">FwpmNetEventUnsubscribe0</a>
  
 
  

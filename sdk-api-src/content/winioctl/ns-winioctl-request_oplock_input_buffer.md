@@ -49,7 +49,7 @@ req.redist:
 
 
 Contains the information to request an opportunistic lock (oplock) or to acknowledge an oplock break 
-    with the <a href="https://msdn.microsoft.com/9df94089-137a-4540-9f46-119408b362ba">FSCTL_REQUEST_OPLOCK</a> control 
+    with the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock">FSCTL_REQUEST_OPLOCK</a> control 
     code.
 
 
@@ -122,7 +122,7 @@ Valid combinations of these values are as follows:
 <li><code>OPLOCK_LEVEL_CACHE_READ | OPLOCK_LEVEL_CACHE_WRITE | OPLOCK_LEVEL_CACHE_HANDLE</code></li>
 </ul>
 For more information about these value combinations, see 
-       <a href="https://msdn.microsoft.com/9df94089-137a-4540-9f46-119408b362ba">FSCTL_REQUEST_OPLOCK</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock">FSCTL_REQUEST_OPLOCK</a>.
 
 
 ### -field Flags
@@ -167,11 +167,11 @@ Acknowledgment of an oplock break.  Setting this flag together with
 
 
 
-<a href="https://msdn.microsoft.com/9df94089-137a-4540-9f46-119408b362ba">FSCTL_REQUEST_OPLOCK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock">FSCTL_REQUEST_OPLOCK</a>
 
 
 
-<a href="https://msdn.microsoft.com/5912e0db-a102-4e1c-a1c0-c6a900fe0bbe">REQUEST_OPLOCK_OUTPUT_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_request_oplock_output_buffer">REQUEST_OPLOCK_OUTPUT_BUFFER</a>
  
 
  

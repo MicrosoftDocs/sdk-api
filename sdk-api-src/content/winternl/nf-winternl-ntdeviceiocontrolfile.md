@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Deprecated. Builds descriptors for the supplied buffer(s) and
     passes the untyped data to the device driver associated with the file
-    handle.  <b>NtDeviceIoControlFile</b> is superseded by <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>.
+    handle.  <b>NtDeviceIoControlFile</b> is superseded by <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ A handle to an event to be set to the <code>signaled</code> state when the opera
 
 ### -param ApcRoutine [in]
 
-Procedure to be invoked once the operation completes. This parameter can be <b>NULL</b>. For more information on Asynchronous Procedure Calls (APCs), see <a href="https://msdn.microsoft.com/en-us/library/ms681951(v=VS.85).aspx">Asynchronous Procedure Calls</a>. 
+Procedure to be invoked once the operation completes. This parameter can be <b>NULL</b>. For more information on Asynchronous Procedure Calls (APCs), see <a href="https://docs.microsoft.com/windows/desktop/Sync/asynchronous-procedure-calls">Asynchronous Procedure Calls</a>. 
 
 
 ### -param ApcContext [in]
@@ -148,7 +148,7 @@ The type of access to the file that the caller needs is dependent on the actual 
 
 Once the service is complete the <i>Event</i>, if specified, is set to the <code>signaled</code> state. If no <i>Event</i> parameter is specified, then the file object specified by the <i>FileHandle</i> is set to the <code>signaled</code> state. If an <i>ApcRoutine</i> is specified, it is invoked with the <i>ApcContext</i> and the <i>IoStatusBlock</i> as its arguments.
 
-Because there is no import library for this function, you must use <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a>.
+Because there is no import library for this function, you must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.
 
 
 
@@ -159,7 +159,7 @@ Because there is no import library for this function, you must use <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms681951(v=VS.85).aspx">Asynchronous Procedure Calls</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/asynchronous-procedure-calls">Asynchronous Procedure Calls</a>
  
 
  

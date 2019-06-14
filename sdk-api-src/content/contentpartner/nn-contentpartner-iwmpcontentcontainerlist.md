@@ -52,14 +52,14 @@ ms.custom: 19H1
 
 <div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
 <div> </div>
-The <b>IWMPContentContainerList</b> interface represents a list of one or more content containers. Content containers are represented by the <a href="https://msdn.microsoft.com/en-us/library/Dd563130(v=VS.85).aspx">IWMPContentContainer</a> interface.
+The <b>IWMPContentContainerList</b> interface represents a list of one or more content containers. Content containers are represented by the <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentcontainer">IWMPContentContainer</a> interface.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPContentContainerList</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMPContentContainerList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPContentContainerList</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPContentContainerList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IWMPContentContainerList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563132(v=VS.85).aspx">GetContainer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentcontainerlist-getcontainer">GetContainer</a>
 </td>
 <td align="left" width="63%">
 Retrieves the content container at the specified index.
@@ -83,7 +83,7 @@ Retrieves the content container at the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563133(v=VS.85).aspx">GetContainerCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentcontainerlist-getcontainercount">GetContainerCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the count of content containers in the container list.
@@ -92,7 +92,7 @@ Retrieves the count of content containers in the container list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563134(v=VS.85).aspx">GetTransactionType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentcontainerlist-gettransactiontype">GetTransactionType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of the current transaction.
@@ -107,7 +107,7 @@ Retrieves the type of the current transaction.
 
 
 
-<a href="https://msdn.microsoft.com/e6f45a50-029e-4347-9b25-10e9e32a56eb">Reference for Type 1 Online Stores</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/reference-for-type-1-online-stores">Reference for Type 1 Online Stores</a>
  
 
  

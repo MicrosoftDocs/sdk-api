@@ -63,7 +63,7 @@ Cancels the current request to create a media source.
 
 ### -param pIUnknownCancelCookie [in]
 
-Pointer to the <b>IUnknown</b> interface that was returned in the <i>ppIUnknownCancelCookie</i> parameter of the <a href="https://msdn.microsoft.com/31dffadd-4a5a-4306-80e9-9002782f092c">IMFByteStreamHandler::BeginCreateObject</a> method.
+Pointer to the <b>IUnknown</b> interface that was returned in the <i>ppIUnknownCancelCookie</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamhandler-begincreateobject">IMFByteStreamHandler::BeginCreateObject</a> method.
 
 
 ## -returns
@@ -98,7 +98,7 @@ The method succeeded.
 
 
 
-You can use this method to cancel a previous call to <a href="https://msdn.microsoft.com/31dffadd-4a5a-4306-80e9-9002782f092c">BeginCreateObject</a>. Because that method is asynchronous, however, it might be completed before the operation can be canceled. Therefore, your callback might still be invoked after you call this method.
+You can use this method to cancel a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamhandler-begincreateobject">BeginCreateObject</a>. Because that method is asynchronous, however, it might be completed before the operation can be canceled. Therefore, your callback might still be invoked after you call this method.
 
 
 
@@ -108,11 +108,11 @@ You can use this method to cancel a previous call to <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/80c402d4-8246-42ee-a981-69c8d605cb0f">IMFByteStreamHandler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfbytestreamhandler">IMFByteStreamHandler</a>
 
 
 
-<a href="https://msdn.microsoft.com/b0113527-f22c-4519-b1cf-fea54bff4090">Scheme Handlers and Byte-Stream Handlers</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/scheme-handlers-and-byte-stream-handlers">Scheme Handlers and Byte-Stream Handlers</a>
  
 
  

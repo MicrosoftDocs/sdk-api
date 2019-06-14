@@ -88,9 +88,9 @@ A proximity domain identifier is an index to a NUMA node on a NUMA system. Proxi
 
 The relative distance between nodes on a system is stored in the ACPI System Locality Distance Information Table (SLIT), which is not exposed by any Windows functions. For more information about ACPI tables, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=84013">ACPI specifications</a>.
 
-The only difference between the <b>GetNumaProximityNodeEx</b> function and the <a href="https://msdn.microsoft.com/9a2dbfe3-13e7-442d-a5f6-b2632878f618">GetNumaProximityNode</a> function is the data type of the <i>NodeNumber</i> parameter.
+The only difference between the <b>GetNumaProximityNodeEx</b> function and the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getnumaproximitynode">GetNumaProximityNode</a> function is the data type of the <i>NodeNumber</i> parameter.
 
-To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0601. For more information, see <a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0601. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 
@@ -100,11 +100,11 @@ To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0601
 
 
 
-<a href="https://msdn.microsoft.com/9a2dbfe3-13e7-442d-a5f6-b2632878f618">GetNumaProximityNode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getnumaproximitynode">GetNumaProximityNode</a>
 
 
 
-<a href="https://msdn.microsoft.com/a1263968-2b26-45cc-bdd7-6aa354821a5a">NUMA Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/numa-support">NUMA Support</a>
  
 
  

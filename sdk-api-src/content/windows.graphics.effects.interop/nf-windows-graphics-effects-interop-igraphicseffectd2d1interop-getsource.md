@@ -87,7 +87,7 @@ This method returns an HRESULT success or error code.
 
 
 
-<a href="https://msdn.microsoft.com/0D576593-088B-403A-82AD-B7A89777766A">IGraphicsEffectD2D1Interop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.graphics.effects.interop/nn-windows-graphics-effects-interop-igraphicseffectd2d1interop">IGraphicsEffectD2D1Interop</a>
  
 
  

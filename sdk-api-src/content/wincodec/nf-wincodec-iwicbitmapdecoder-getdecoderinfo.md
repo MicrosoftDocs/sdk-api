@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves an <a href="https://msdn.microsoft.com/7edc6d1a-7eda-45ef-bf1d-c5835b37a90f">IWICBitmapDecoderInfo</a> for the image.
+Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapdecoderinfo">IWICBitmapDecoderInfo</a> for the image.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ Retrieves an <a href="https://msdn.microsoft.com/7edc6d1a-7eda-45ef-bf1d-c5835b3
 
 ### -param ppIDecoderInfo [out]
 
-Type: <b><a href="https://msdn.microsoft.com/7edc6d1a-7eda-45ef-bf1d-c5835b37a90f">IWICBitmapDecoderInfo</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapdecoderinfo">IWICBitmapDecoderInfo</a>**</b>
 
-A pointer that receives a pointer to an <a href="https://msdn.microsoft.com/7edc6d1a-7eda-45ef-bf1d-c5835b37a90f">IWICBitmapDecoderInfo</a>.
+A pointer that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapdecoderinfo">IWICBitmapDecoderInfo</a>.
 
 
 ## -returns

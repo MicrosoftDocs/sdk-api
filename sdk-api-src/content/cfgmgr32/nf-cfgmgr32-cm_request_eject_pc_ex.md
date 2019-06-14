@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://msdn.microsoft.com/45d8151a-67d0-4cb1-8593-4cfb271a3411">CM_Request_Eject_PC</a> instead.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_request_eject_pc">CM_Request_Eject_PC</a> instead.]
 
-The <b>CM_Request_Eject_PC_Ex</b> function requests that a portable PC, which is inserted in a local or a remote <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">docking station</a>, be ejected.
+The <b>CM_Request_Eject_PC_Ex</b> function requests that a portable PC, which is inserted in a local or a remote <a href="https://docs.microsoft.com/windows-hardware/drivers/">docking station</a>, be ejected.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>CM_Request_Eject_PC_Ex</b> function requests that a portable PC, which is
 
 ### -param hMachine [in, optional]
 
-Supplies a machine handle that is returned by <a href="https://msdn.microsoft.com/4108a35f-0861-4142-a798-731287515910">CM_Connect_Machine</a>.
+Supplies a machine handle that is returned by <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_connect_machinew">CM_Connect_Machine</a>.
 
 <div class="alert"><b>Note</b>  Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.</div>
 <div> </div>
@@ -84,17 +84,17 @@ Use this function to request that a portable PC, which is inserted in a local or
 <ul>
 <li>
 
-<a href="https://msdn.microsoft.com/1c07dca9-5209-46d5-a0a3-87a615e3d40a">CM_Is_Dock_Station_Present</a> identifies whether a docking station is present in a local machine.
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_dock_station_present">CM_Is_Dock_Station_Present</a> identifies whether a docking station is present in a local machine.
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/d94411e6-a98d-4feb-adfb-6d94e3d33d46">CM_Is_Dock_Station_Present_Ex</a> identifies whether a docking station is present in a local or a remote machine.
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_dock_station_present_ex">CM_Is_Dock_Station_Present_Ex</a> identifies whether a docking station is present in a local or a remote machine.
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/45d8151a-67d0-4cb1-8593-4cfb271a3411">CM_Request_Eject_PC</a> requests that a portable PC, which is inserted in a local docking station, be ejected.
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_request_eject_pc">CM_Request_Eject_PC</a> requests that a portable PC, which is inserted in a local docking station, be ejected.
 
 </li>
 </ul>
@@ -108,15 +108,15 @@ Use this function to request that a portable PC, which is inserted in a local or
 
 
 
-<a href="https://msdn.microsoft.com/1c07dca9-5209-46d5-a0a3-87a615e3d40a">CM_Is_Dock_Station_Present</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_dock_station_present">CM_Is_Dock_Station_Present</a>
 
 
 
-<a href="https://msdn.microsoft.com/d94411e6-a98d-4feb-adfb-6d94e3d33d46">CM_Is_Dock_Station_Present_Ex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_dock_station_present_ex">CM_Is_Dock_Station_Present_Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/45d8151a-67d0-4cb1-8593-4cfb271a3411">CM_Request_Eject_PC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_request_eject_pc">CM_Request_Eject_PC</a>
  
 
  

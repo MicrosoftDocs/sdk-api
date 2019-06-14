@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>GetTrusteeType</b> function retrieves the trustee type from the specified <a href="https://msdn.microsoft.com/120e93eb-680f-4f86-879d-bc2de10d4641">TRUSTEE</a> structure. This value indicates whether the trustee is a user, a group, or the trustee type is unknown.
+The <b>GetTrusteeType</b> function retrieves the trustee type from the specified <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a> structure. This value indicates whether the trustee is a user, a group, or the trustee type is unknown.
 
 
 ## -parameters
@@ -62,14 +62,14 @@ The <b>GetTrusteeType</b> function retrieves the trustee type from the specified
 ### -param pTrustee [in, optional]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/120e93eb-680f-4f86-879d-bc2de10d4641">TRUSTEE</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a> structure.
 
 
 ## -returns
 
 
 
-The return value is one of the constants from the <a href="https://msdn.microsoft.com/6519c79d-9cee-4565-a71e-0b81a27c1185">TRUSTEE_TYPE</a> enumeration.
+The return value is one of the constants from the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_trustee_type">TRUSTEE_TYPE</a> enumeration.
 					
 
 
@@ -80,19 +80,19 @@ The return value is one of the constants from the <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/d9ce4ec5-5c09-4b33-93a1-39638a925986">Access Control Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/120e93eb-680f-4f86-879d-bc2de10d4641">TRUSTEE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a>
 
 
 
-<a href="https://msdn.microsoft.com/6519c79d-9cee-4565-a71e-0b81a27c1185">TRUSTEE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_trustee_type">TRUSTEE_TYPE</a>
  
 
  

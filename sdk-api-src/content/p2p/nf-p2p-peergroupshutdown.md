@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PeerGroupShutdown</b> function closes a peer group created with <a href="https://msdn.microsoft.com/c07e200d-9578-4367-a0f8-699ae300fc1f">PeerGroupStartup</a> and disposes of any allocated resources.
+The <b>PeerGroupShutdown</b> function closes a peer group created with <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupstartup">PeerGroupStartup</a> and disposes of any allocated resources.
 
 
 ## -parameters
@@ -84,7 +84,7 @@ The function terminated unexpectedly.
 </table>
  
 
-Cryptography-specific errors can be returned from the <a href="https://msdn.microsoft.com/c36025c5-a407-4a05-8780-23f8107730df">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
+Cryptography-specific errors can be returned from the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
 
 
 
@@ -94,12 +94,12 @@ Cryptography-specific errors can be returned from the <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/56ea2880-b468-4816-b6c9-5780c807b3f1">Grouping API
+<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/grouping-api-functions">Grouping API
 		  Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/c07e200d-9578-4367-a0f8-699ae300fc1f">PeerGroupStartup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupstartup">PeerGroupStartup</a>
  
 
  

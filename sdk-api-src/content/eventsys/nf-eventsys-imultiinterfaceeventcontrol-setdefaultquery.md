@@ -153,7 +153,7 @@ An unexpected internal error was detected.
 
 
 
-This method is a more specialized form of the <a href="https://msdn.microsoft.com/47025361-4420-4c5d-aed7-d40ea0ba3e3b">IEventSystem::Query</a> method. In addition to obtaining only subscription objects, a collection obtained by calling <a href="https://msdn.microsoft.com/38b1d0fe-c32e-41d5-a0c1-2b4e72908fce">GetSubscriptions</a> is automatically updated whenever the subscription collection changes.
+This method is a more specialized form of the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsystem-query">IEventSystem::Query</a> method. In addition to obtaining only subscription objects, a collection obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-imultiinterfaceeventcontrol-getsubscriptions">GetSubscriptions</a> is automatically updated whenever the subscription collection changes.
 
 The query criteria specified by the <i>bstrCriteria</i> parameter can be "ALL", to specify a request for all subscription objects, or a Boolean expression denoting one or more conditions a subscription object must meet to be included in the query result. Valid expressions are of the following form:
 
@@ -177,7 +177,7 @@ Following are some examples of valid query criteria:
 
 
 
-<a href="https://msdn.microsoft.com/e603f68a-881c-468d-a3d3-738f43400e01">IMultiInterfaceEventControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-imultiinterfaceeventcontrol">IMultiInterfaceEventControl</a>
  
 
  

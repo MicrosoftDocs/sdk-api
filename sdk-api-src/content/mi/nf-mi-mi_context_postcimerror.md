@@ -94,15 +94,15 @@ The <a href="https://docs.microsoft.com/en-us/windows/desktop/hyperv_v2/cim-erro
 
 
 
-<a href="https://msdn.microsoft.com/51d6c510-f9fd-4ab7-a669-b2a5776b496d">MI_Context</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_context">MI_Context</a>
 
 
 
-<a href="https://msdn.microsoft.com/6df0841b-3e13-4f9a-9e54-5c3c0c0d79fe">MI_Context_WriteCimError</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_writecimerror">MI_Context_WriteCimError</a>
 
 
 
-<a href="https://msdn.microsoft.com/3dce1817-7995-49e5-8cc0-ee9496665e5c">MI_Instance</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a>
  
 
  

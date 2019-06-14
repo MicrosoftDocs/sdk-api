@@ -76,7 +76,7 @@ A <b>null</b>-terminated string that contains the session key to the new session
 
 
 
-This is the most recent error received. The function can return one of the <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a> that are defined in Winerror.h. 
+This is the most recent error received. The function can return one of the <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a> that are defined in Winerror.h. 
 
 <table>
 <tr>
@@ -169,7 +169,7 @@ The <b>RmStartSession</b> function returns an error if a session with the same s
 
 The <b>RmStartSession</b> function should be called by the primary installer that controls the user interface or that controls the installation sequence of multiple patches in an update.
 
-A secondary installer can join an existing Restart Manager session by calling the <a href="https://msdn.microsoft.com/f9cb2d81-a2bc-4bb7-920a-1630354ea942">RmJoinSession</a> function with the session handle and session key returned from the <b>RmStartSession</b> function call of the primary installer.
+A secondary installer can join an existing Restart Manager session by calling the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmjoinsession">RmJoinSession</a> function with the session handle and session key returned from the <b>RmStartSession</b> function call of the primary installer.
 
 
 
@@ -179,11 +179,11 @@ A secondary installer can join an existing Restart Manager session by calling th
 
 
 
-<a href="https://msdn.microsoft.com/2681cb69-a66f-4aec-a164-98d2d28f9908">RmEndSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmendsession">RmEndSession</a>
 
 
 
-<a href="https://msdn.microsoft.com/f9cb2d81-a2bc-4bb7-920a-1630354ea942">RmJoinSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmjoinsession">RmJoinSession</a>
  
 
  

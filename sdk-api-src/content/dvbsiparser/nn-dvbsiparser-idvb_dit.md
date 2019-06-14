@@ -53,14 +53,14 @@ ms.custom: 19H1
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
 
-The <b>IDVB_DIT</b> interface enables the client to get information from a discontinuity information table (DIT). The <a href="https://msdn.microsoft.com/ff6d5a04-173d-4577-a6e8-2ae5b2f99358">IDvbSiParser::GetDIT</a> method returns a pointer to this interface. The presence of a DIT in the stream indicates a transition point where the Service Information (SI) may be discontinuous.
+The <b>IDVB_DIT</b> interface enables the client to get information from a discontinuity information table (DIT). The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-getdit">IDvbSiParser::GetDIT</a> method returns a pointer to this interface. The presence of a DIT in the stream indicates a transition point where the Service Information (SI) may be discontinuous.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVB_DIT</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDVB_DIT</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVB_DIT</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDVB_DIT</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IDVB_DIT</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3db3ee1e-7fff-442d-9e78-7862b19c339a">GetTransitionFlag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_dit-gettransitionflag">GetTransitionFlag</a>
 </td>
 <td align="left" width="63%">
 Queries whether the transition_flag bit is set.
@@ -84,7 +84,7 @@ Queries whether the transition_flag bit is set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d5b149b3-42a5-450d-a339-a3c3138ebb22">Initialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_dit-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object.
@@ -99,7 +99,7 @@ Initializes the object.
 
 
 
-<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
  
 
  

@@ -59,7 +59,7 @@ Stores the data element at the specified location in the array.
 
 ### -param psa [in]
 
-An array descriptor created by <a href="https://msdn.microsoft.com/5b94f1a2-a558-473f-85dd-9545c0464cc7">SafeArrayCreate</a>.
+An array descriptor created by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraycreate">SafeArrayCreate</a>.
 
 
 
@@ -139,7 +139,7 @@ Memory could not be allocated for the element.
 
 
 
-This function automatically calls <a href="https://msdn.microsoft.com/cb29d862-c7c5-4852-b017-c29e88d5f1c4">SafeArrayLock</a> and <a href="https://msdn.microsoft.com/654995ab-1959-44dc-9e26-11c34e489c14">SafeArrayUnlock</a> before and after assigning the element. If the data element is a string, object, or variant, the function copies it correctly when the safe array is destroyed. If the existing element is a string, object, or variant, it is cleared correctly.  If the data element is a VT_DISPATCH or VT_UNKNOWN, <b>AddRef</b> is called to increment the object's reference count. 
+This function automatically calls <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraylock">SafeArrayLock</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayunlock">SafeArrayUnlock</a> before and after assigning the element. If the data element is a string, object, or variant, the function copies it correctly when the safe array is destroyed. If the existing element is a string, object, or variant, it is cleared correctly.  If the data element is a VT_DISPATCH or VT_UNKNOWN, <b>AddRef</b> is called to increment the object's reference count. 
 
 <div class="alert"><b>Note</b>  Multiple locks can be on an array. Elements can be put into an array while the array is locked by other operations.</div>
 <div> </div>

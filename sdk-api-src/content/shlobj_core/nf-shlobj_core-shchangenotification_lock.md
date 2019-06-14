@@ -93,7 +93,7 @@ A pointer to a LONG value that, when this function returns successfully, receive
 
 Type: <b>HANDLE</b>
 
-Returns a handle (HLOCK) to the locked memory. Pass this value to <a href="https://msdn.microsoft.com/967ede1f-ee9c-46ee-a371-dcfc3a57d824">SHChangeNotification_Unlock</a> when finished.
+Returns a handle (HLOCK) to the locked memory. Pass this value to <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotification_unlock">SHChangeNotification_Unlock</a> when finished.
 
 
 

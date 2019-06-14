@@ -76,7 +76,7 @@ Returns E_NOTIMPL.
 
 
 
-<a href="https://msdn.microsoft.com/25cf9f31-88a9-479e-b51c-ad823cd04d2d">IAnalogRadioTuningSpace Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ianalogradiotuningspace">IAnalogRadioTuningSpace Interface</a>
  
 
  

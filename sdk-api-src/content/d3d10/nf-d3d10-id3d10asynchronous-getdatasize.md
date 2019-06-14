@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Get the size of the data (in bytes) that is output when calling <a href="https://msdn.microsoft.com/en-us/library/Bb173503(v=VS.85).aspx">ID3D10Asynchronous::GetData</a>.
+Get the size of the data (in bytes) that is output when calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-getdata">ID3D10Asynchronous::GetData</a>.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ Get the size of the data (in bytes) that is output when calling <a href="https:/
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Size of the data (in bytes) that is output when calling GetData.
 
@@ -76,7 +76,7 @@ Size of the data (in bytes) that is output when calling GetData.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173500(v=VS.85).aspx">ID3D10Asynchronous Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10asynchronous">ID3D10Asynchronous Interface</a>
  
 
  

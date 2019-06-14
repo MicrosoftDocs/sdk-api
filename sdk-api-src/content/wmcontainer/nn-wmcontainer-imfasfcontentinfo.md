@@ -52,13 +52,13 @@ ms.custom: 19H1
 
 Provides methods to work with the header section of files conforming to the Advanced Systems Format (ASF) specification. 
 
-The <a href="https://msdn.microsoft.com/6b7f8b68-fe98-4aeb-9842-a80ac6235999">ASF ContentInfo Object</a> exposes this interface. To create the get a pointer to the <b>IMFASFContentInfo</b> interface, call <a href="https://msdn.microsoft.com/00460f79-7033-4893-88c0-b1c939441f70">MFCreateASFContentInfo</a>.
+The <a href="https://docs.microsoft.com/windows/desktop/medfound/asf-contentinfo-object">ASF ContentInfo Object</a> exposes this interface. To create the get a pointer to the <b>IMFASFContentInfo</b> interface, call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfcontentinfo">MFCreateASFContentInfo</a>.
         
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFASFContentInfo</b> interface inherits from <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a>. <b>IMFASFContentInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFASFContentInfo</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>. <b>IMFASFContentInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IMFASFContentInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/972f5ae7-ad00-4c3b-8ec4-2cef4ce03c4e">GenerateHeader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generateheader">GenerateHeader</a>
 </td>
 <td align="left" width="63%">
 Encodes the data in the ASF ContentInfo object into a binary ASF header.
@@ -82,7 +82,7 @@ Encodes the data in the ASF ContentInfo object into a binary ASF header.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f22cb48d-1346-4182-8ca2-f57a7fdc76e4">GeneratePresentationDescriptor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generatepresentationdescriptor">GeneratePresentationDescriptor</a>
 </td>
 <td align="left" width="63%">
 Creates a presentation descriptor for the ASF content.
@@ -91,7 +91,7 @@ Creates a presentation descriptor for the ASF content.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e77a5564-82bc-4c1d-9fb8-84ab484c4ca8">GetEncodingConfigurationPropertyStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-getencodingconfigurationpropertystore">GetEncodingConfigurationPropertyStore</a>
 </td>
 <td align="left" width="63%">
 Retrieves a property store that can be used to set encoding properties.
@@ -100,7 +100,7 @@ Retrieves a property store that can be used to set encoding properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c13ee7e6-df59-448f-80c4-04ac7c8c98ed">GetHeaderSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-getheadersize">GetHeaderSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the size of the header section of an ASF file.
@@ -109,7 +109,7 @@ Retrieves the size of the header section of an ASF file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6f74c896-a0c0-407b-b893-de15863bc2eb">GetProfile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-getprofile">GetProfile</a>
 </td>
 <td align="left" width="63%">
 Retrieves an ASF profile that describes the ASF content.
@@ -118,7 +118,7 @@ Retrieves an ASF profile that describes the ASF content.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/149e2514-74e5-403b-925f-53a17dbbcb64">ParseHeader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-parseheader">ParseHeader</a>
 </td>
 <td align="left" width="63%">
 Parses the information in an ASF header and uses that information to set values in the ContentInfo object.
@@ -127,7 +127,7 @@ Parses the information in an ASF header and uses that information to set values 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7e7e062d-9507-400a-8cc2-5355c12017f5">SetProfile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-setprofile">SetProfile</a>
 </td>
 <td align="left" width="63%">
 Uses profile data from a profile object to configure settings in the ContentInfo object
@@ -142,15 +142,15 @@ Uses profile data from a profile object to configure settings in the ContentInfo
 
 
 
-<a href="https://msdn.microsoft.com/6b7f8b68-fe98-4aeb-9842-a80ac6235999">ASF ContentInfo Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-contentinfo-object">ASF ContentInfo Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

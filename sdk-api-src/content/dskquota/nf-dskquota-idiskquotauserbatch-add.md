@@ -50,13 +50,13 @@ ms.custom: 19H1
 
 
 Adds an 
-<a href="https://msdn.microsoft.com/27edbebc-35b4-4f6a-87cc-d8a99782f405">IDiskQuotaUser</a> pointer to the batch list. This method calls <b>AddRef</b> on the <i>pUser</i> interface pointer. <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> is automatically called on each contained 
-<a href="https://msdn.microsoft.com/27edbebc-35b4-4f6a-87cc-d8a99782f405">IDiskQuotaUser</a> interface pointer when the batch object is destroyed.
+<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> pointer to the batch list. This method calls <b>AddRef</b> on the <i>pUser</i> interface pointer. <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> is automatically called on each contained 
+<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> interface pointer when the batch object is destroyed.
 
 When setting values on a quota user object in preparation for batch processing, specify <b>FALSE</b> for the <i>fWriteThrough</i> parameter in the 
-<a href="https://msdn.microsoft.com/f7c99415-685b-4a21-ac7b-68f4816aafb0">IDiskQuotaUser::SetQuotaLimit</a> and 
-<a href="https://msdn.microsoft.com/7c641a1c-fb04-4039-92bd-d3a1c7045355">IDiskQuotaUser::SetQuotaThreshold</a> methods. This stores the values in memory without writing to disk. To write the changes to disk, call the 
-<a href="https://msdn.microsoft.com/2d147224-64d8-4c15-b860-e6dd216cb170">IDiskQuotaUserBatch::FlushToDisk</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-setquotalimit">IDiskQuotaUser::SetQuotaLimit</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-setquotathreshold">IDiskQuotaUser::SetQuotaThreshold</a> methods. This stores the values in memory without writing to disk. To write the changes to disk, call the 
+<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauserbatch-flushtodisk">IDiskQuotaUserBatch::FlushToDisk</a> method.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ When setting values on a quota user object in preparation for batch processing, 
 ### -param pUser [in]
 
 A pointer to the quota user object's 
-<a href="https://msdn.microsoft.com/27edbebc-35b4-4f6a-87cc-d8a99782f405">IDiskQuotaUser</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> interface.
 
 
 ## -returns
@@ -136,15 +136,15 @@ An unexpected exception occurred.
 
 
 
-<a href="https://msdn.microsoft.com/c1f79e2e-834b-41dc-a15f-6dd1034d021b">Disk Management Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/42efbd5b-6455-4319-a76e-cdb666fc36b8">Disk Quotas</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
 
 
 
-<a href="https://msdn.microsoft.com/6cb3da5d-8e4c-45de-b9cf-0f6abf3f1932">IDiskQuotaUserBatch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauserbatch">IDiskQuotaUserBatch</a>
  
 
  

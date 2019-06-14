@@ -54,7 +54,7 @@ Gets information about the source content group map.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxSourceContentGroupMapReader</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAppxSourceContentGroupMapReader</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxSourceContentGroupMapReader</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxSourceContentGroupMapReader</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAppxSourceContentGroupMapReader</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/DA6D0BEB-75ED-49B8-82A8-0B7C53E5C3C9">GetAutomaticGroups</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxsourcecontentgroupmapreader-getautomaticgroups">GetAutomaticGroups</a>
 </td>
 <td align="left" width="63%">
 Gets the automatic content group(s) from the source content group map.
@@ -78,7 +78,7 @@ Gets the automatic content group(s) from the source content group map.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4C85F79F-CD91-4038-AF23-413E04CBA5AA">GetRequiredGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxsourcecontentgroupmapreader-getrequiredgroup">GetRequiredGroup</a>
 </td>
 <td align="left" width="63%">
 Gets the required content group from the source content group map.

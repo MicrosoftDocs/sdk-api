@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Contains information about a file, related to its use with MUI. Most of this data is stored in the resource configuration data for the particular file. When this structure is retrieved by <a href="https://msdn.microsoft.com/df1eee13-012a-47e6-a6de-8ddb8ecc6036">GetFileMUIInfo</a>, not all fields are necessarily filled in. The fields used depend on the flags that the application has passed to that function.
+Contains information about a file, related to its use with MUI. Most of this data is stored in the resource configuration data for the particular file. When this structure is retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getfilemuiinfo">GetFileMUIInfo</a>, not all fields are necessarily filled in. The fields used depend on the flags that the application has passed to that function.
 
 
 <div class="alert"><b>Note</b>  Your MUI applications can use the MUI macros to access this structure.</div>
@@ -201,19 +201,19 @@ unsafe public struct FILEMUIINFO
 
 
 
-<a href="https://msdn.microsoft.com/df1eee13-012a-47e6-a6de-8ddb8ecc6036">GetFileMUIInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getfilemuiinfo">GetFileMUIInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/2980365c-5a83-4c0f-aa37-e212ec9f0408">Multilingual User Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface">Multilingual User Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/d910d922-33f5-48ff-be0a-1ac11a13383a">Multilingual User Interface Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface-macros">Multilingual User Interface Macros</a>
 
 
 
-<a href="https://msdn.microsoft.com/6b2f88f9-e6e8-4997-ba71-be6d8be9a1a1">Multilingual User Interface Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface-structures">Multilingual User Interface Structures</a>
  
 
  

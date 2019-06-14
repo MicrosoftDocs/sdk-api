@@ -49,10 +49,10 @@ ms.custom: 19H1
 ## -description
 
 
-Extends the <a href="https://msdn.microsoft.com/094C6C7D-F973-45AC-9B83-43DB9D46AF23">IDirectManipulationManager2</a> interface that provides access to all the <a href="https://msdn.microsoft.com/26358bc5-71e9-40f0-9243-9bddd961a0e5">Direct Manipulation</a> features and APIs available to the client application. 
+Extends the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationmanager2">IDirectManipulationManager2</a> interface that provides access to all the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-portal">Direct Manipulation</a> features and APIs available to the client application. 
 
-The <b>IDirectManipulationManager3</b> interface adds support for retrieving an <a href="https://msdn.microsoft.com/6063352F-39FF-4E8F-B836-3DA0A02BE523">IDirectManipulationDeferContactService</a> object.
-<div class="alert"><b>Note</b>  To obtain an <b>IDirectManipulationManager3</b> interface pointer, <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> on an existing <a href="https://msdn.microsoft.com/d730a446-984e-4be0-aa7f-6d3dc93b2e34">IDirectManipulationManager</a> interface pointer.  </div><div> </div>
+The <b>IDirectManipulationManager3</b> interface adds support for retrieving an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationdefercontactservice">IDirectManipulationDeferContactService</a> object.
+<div class="alert"><b>Note</b>  To obtain an <b>IDirectManipulationManager3</b> interface pointer, <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on an existing <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationmanager">IDirectManipulationManager</a> interface pointer.  </div><div> </div>
 
 ## -inheritance
 
@@ -71,10 +71,10 @@ The <b>IDirectManipulationManager3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/36f46402-ed71-41d8-8df5-02ef59819bb3">GetService</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationmanager3-getservice">GetService</a>
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://msdn.microsoft.com/6063352F-39FF-4E8F-B836-3DA0A02BE523">IDirectManipulationDeferContactService</a> object.
+Retrieves an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationdefercontactservice">IDirectManipulationDeferContactService</a> object.
 
 </td>
 </tr>
@@ -86,7 +86,7 @@ Retrieves an <a href="https://msdn.microsoft.com/6063352F-39FF-4E8F-B836-3DA0A02
 
 
 
-<a href="https://msdn.microsoft.com/03680CE5-A858-4876-B41C-6F2E08C02C22">Direct Manipulation Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-interfaces">Direct Manipulation Interfaces</a>
  
 
  

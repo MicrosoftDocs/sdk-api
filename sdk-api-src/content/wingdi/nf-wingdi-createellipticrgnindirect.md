@@ -79,7 +79,7 @@ If the function fails, the return value is <b>NULL</b>.
 
 
 
-When you no longer need the <b>HRGN</b> object, call the <a href="https://msdn.microsoft.com/cc679af0-6839-4c83-9c42-39d7ededda40">DeleteObject</a> function to delete it.
+When you no longer need the <b>HRGN</b> object, call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete it.
 
 A bounding rectangle defines the size, shape, and orientation of the region: The long sides of the rectangle define the length of the ellipse's major axis; the short sides define the length of the ellipse's minor axis; and the center of the rectangle defines the intersection of the major and minor axes.
 
@@ -91,11 +91,11 @@ A bounding rectangle defines the size, shape, and orientation of the region: The
 
 
 
-<a href="https://msdn.microsoft.com/b4e9b210-8e22-42db-bb6e-65f1fb870eff">CreateEllipticRegn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createellipticrgn">CreateEllipticRegn</a>
 
 
 
-<a href="https://msdn.microsoft.com/cc679af0-6839-4c83-9c42-39d7ededda40">DeleteObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
 
 
 
@@ -103,15 +103,15 @@ A bounding rectangle defines the size, shape, and orientation of the region: The
 
 
 
-<a href="https://msdn.microsoft.com/3a42fc7a-4c07-4540-99a7-520f99532f33">Region Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/region-functions">Region Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d2e8624-4d1a-44f7-821e-a54f6f538214">Regions Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/regions">Regions Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/a89b875e-923d-4048-bc61-8dea132cc56d">SelectObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
  
 
  

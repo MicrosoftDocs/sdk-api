@@ -384,9 +384,9 @@ Value: 0xC0AA0301
 
 
 
-You can use a speed from the list to set the write speed when calling the <a href="https://msdn.microsoft.com/a3e03af5-bda2-49a3-80d9-52acfe390708">IDiscFormat2Data::SetWriteSpeed</a> method.
+You can use a speed from the list to set the write speed when calling the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-setwritespeed">IDiscFormat2Data::SetWriteSpeed</a> method.
 
-To retrieve a list of the write configurations that the recorder and current media supports, call the <a href="https://msdn.microsoft.com/9eb84ec6-900a-45ba-9111-9c9c6b3f5bb2">IDiscFormat2Data::get_SupportedWriteSpeedDescriptors</a> method.
+To retrieve a list of the write configurations that the recorder and current media supports, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_supportedwritespeeddescriptors">IDiscFormat2Data::get_SupportedWriteSpeedDescriptors</a> method.
 
 
 
@@ -396,23 +396,23 @@ To retrieve a list of the write configurations that the recorder and current med
 
 
 
-<a href="https://msdn.microsoft.com/6bb871c2-1a6e-4cf6-94e1-7a566ce7a88e">IDiscFormat2Data</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3e03af5-bda2-49a3-80d9-52acfe390708">IDiscFormat2Data::SetWriteSpeed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-setwritespeed">IDiscFormat2Data::SetWriteSpeed</a>
 
 
 
-<a href="https://msdn.microsoft.com/ec087250-3c95-4d08-a5c5-21ff0d7f64a1">IDiscFormat2Data::get_CurrentWriteSpeed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_currentwritespeed">IDiscFormat2Data::get_CurrentWriteSpeed</a>
 
 
 
-<a href="https://msdn.microsoft.com/7db85ce1-ff93-4bda-8245-3ffe85e835d3">IDiscFormat2Data::get_RequestedWriteSpeed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_requestedwritespeed">IDiscFormat2Data::get_RequestedWriteSpeed</a>
 
 
 
-<a href="https://msdn.microsoft.com/9eb84ec6-900a-45ba-9111-9c9c6b3f5bb2">IDiscFormat2Data::get_SupportedWriteSpeedDescriptors</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_supportedwritespeeddescriptors">IDiscFormat2Data::get_SupportedWriteSpeedDescriptors</a>
  
 
  

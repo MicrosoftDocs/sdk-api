@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 A support structure used in the 
-   <a href="https://msdn.microsoft.com/9c8c812d-d91d-4754-9be5-c05360364b1b">MI_ClientFT_V1</a> structure. Use the functions with the 
+   <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_clientft_v1">MI_ClientFT_V1</a> structure. Use the functions with the 
    name prefix "MI_Utilities_" to manipulate these structures.
 
 
@@ -74,17 +74,17 @@ TBD
 #### - CimErrorFromErrorCode
 
 Maps an operating-system specific error code to a CIM error instance. See 
-   <a href="https://msdn.microsoft.com/dab6226b-5769-4e2f-abd2-b89cc2d9911e">MI_Utilities_CimErrorFromErrorCode</a>.
+   <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_utilities_cimerrorfromerrorcode">MI_Utilities_CimErrorFromErrorCode</a>.
 
 
 #### - MapErrorToExtendedError
 
 This function has been deprecated. See 
-   <a href="https://msdn.microsoft.com/cbd5bd18-897d-49ce-82b7-98f97c3c02d7">MI_Utilities_MapErrorToExtendedError</a>.
+   <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh449450(v=vs.85)">MI_Utilities_MapErrorToExtendedError</a>.
 
 
 #### - MapErrorToMiErrorCategory
 
 This function has been deprecated. See 
-   <a href="https://msdn.microsoft.com/58ac8e3e-ae87-40b1-bf27-1b32168a033e">MI_Utilities_MapErrorToMiErrorCategory</a>.
+   <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_utilities_maperrortomierrorcategory">MI_Utilities_MapErrorToMiErrorCategory</a>.
 

@@ -51,7 +51,7 @@ req.redist:
 Queries for file system recognition information on a volume.
 
 To perform this operation, call the 
-   <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
+   <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
    function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -204,19 +204,19 @@ No
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/27d9fd2b-d4c6-4237-8c15-0fa97b63b991">FILE_SYSTEM_RECOGNITION_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_file_system_recognition_information">FILE_SYSTEM_RECOGNITION_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/d9c19e01-ff82-4bbc-9eb6-aac9dc5c34ac">FILE_SYSTEM_RECOGNITION_STRUCTURE</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-system-recognition-structure">FILE_SYSTEM_RECOGNITION_STRUCTURE</a>
 
 
 
-<a href="https://msdn.microsoft.com/a5b1e97c-f22a-4d90-a3f4-1589ad9d1cc3">File System Recognition</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-system-recognition">File System Recognition</a>
  
 
  

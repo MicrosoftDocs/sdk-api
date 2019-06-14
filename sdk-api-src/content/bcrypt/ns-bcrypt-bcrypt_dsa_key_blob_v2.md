@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>BCRYPT_DSA_KEY_BLOB_V2</b> structure is used as a header for a <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Digital Signature Algorithm</a> (DSA) <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> or <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a> in memory.
+The <b>BCRYPT_DSA_KEY_BLOB_V2</b> structure is used as a header for a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Digital Signature Algorithm</a> (DSA) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> in memory.
 
 
 ## -struct-fields
@@ -99,12 +99,12 @@ The length, in bytes, of the key.
 
 ### -field hashAlgorithm
 
-A <a href="https://msdn.microsoft.com/482DA4B6-EC1C-4E88-95C0-62ED1356DC3B">HASHALGORITHM_ENUM</a> enumeration value that specifies the hashing algorithm to use.
+A <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ne-bcrypt-hashalgorithm_enum">HASHALGORITHM_ENUM</a> enumeration value that specifies the hashing algorithm to use.
 
 
 ### -field standardVersion
 
-A <a href="https://msdn.microsoft.com/6797D7C0-3451-464E-9261-61217ADAB9C1">DSAFIPSVERSION_ENUM</a> enumeration value that specifies the Federal Information Processing Standard(FIPS) to apply.
+A <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ne-bcrypt-dsafipsversion_enum">DSAFIPSVERSION_ENUM</a> enumeration value that specifies the Federal Information Processing Standard(FIPS) to apply.
 
 
 ### -field cbSeedLength
@@ -128,7 +128,7 @@ The number of iterations performed to generate the prime number q from the seed.
 
 The structure applies to DSA keys that exceed 1024 bits in length but are less  than or equal to 3072 bits.
 
-This structure is used as a header for a larger buffer. A DSA <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key BLOB</a> (BCRYPT_DSA_PUBLIC_BLOB) has the following format in contiguous memory. The Modulus, Generator, and Public numbers are in big-endian format.
+This structure is used as a header for a larger buffer. A DSA <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key BLOB</a> (BCRYPT_DSA_PUBLIC_BLOB) has the following format in contiguous memory. The Modulus, Generator, and Public numbers are in big-endian format.
 
 <pre class="syntax" xml:space="preserve"><code>
 BCRYPT_DSA_KEY_BLOB_V2
@@ -136,7 +136,7 @@ Modulus[cbKey]     // Big-endian.
 Generator[cbKey]   // Big-endian.
 Public[cbKey]      // Big-endian.
 </code></pre>
-A DSA <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key BLOB</a> (BCRYPT_DSA_PRIVATE_BLOB) has the following format in contiguous memory. The Modulus, Generator, Public, and PrivateExponent numbers are in big-endian format.
+A DSA <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key BLOB</a> (BCRYPT_DSA_PRIVATE_BLOB) has the following format in contiguous memory. The Modulus, Generator, Public, and PrivateExponent numbers are in big-endian format.
 
 <pre class="syntax" xml:space="preserve"><code>
 BCRYPT_DSA_KEY_BLOB_V2
@@ -153,11 +153,11 @@ PrivateExponent[20]    // Big-endian.
 
 
 
-<a href="https://msdn.microsoft.com/a5d73143-c1d6-43b3-a724-7e27c68a5ade">BCryptExportKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptexportkey">BCryptExportKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/6b9683f4-10f2-40e4-9757-a1f01991bef7">BCryptImportKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptimportkey">BCryptImportKey</a>
  
 
  

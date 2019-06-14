@@ -55,7 +55,7 @@ The <b>ICreateDeviceAccessAsync</b> interface is returned from a call to CreateD
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICreateDeviceAccessAsync</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ICreateDeviceAccessAsync</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICreateDeviceAccessAsync</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICreateDeviceAccessAsync</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ICreateDeviceAccessAsync</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/06e5af2d-8bd8-44b1-9ead-caa362284530">Cancel</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-icreatedeviceaccessasync-cancel">Cancel</a>
 </td>
 <td align="left" width="63%">
 Attempts to cancel an asynchronous operation that  is in progress.
@@ -79,7 +79,7 @@ Attempts to cancel an asynchronous operation that  is in progress.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/58887745-6a36-4600-9a1b-f9709a0e37e8">Close</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-icreatedeviceaccessasync-close">Close</a>
 </td>
 <td align="left" width="63%">
 Performs cleanup after completion of the asynchronous operation.
@@ -88,7 +88,7 @@ Performs cleanup after completion of the asynchronous operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/002e6638-a38a-4fda-b71c-a7a6983dda62">GetResult</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-icreatedeviceaccessasync-getresult">GetResult</a>
 </td>
 <td align="left" width="63%">
 Retrieves the result of an asynchronous bind operation for a CreateDeviceAccessInstance call.
@@ -97,7 +97,7 @@ Retrieves the result of an asynchronous bind operation for a CreateDeviceAccessI
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6fdab230-f8f7-47fa-838f-97316a4e78b9">Wait</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-icreatedeviceaccessasync-wait">Wait</a>
 </td>
 <td align="left" width="63%">
 Waits a specified length of time for an asynchronous bind operation that is in progress to finish.

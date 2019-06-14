@@ -63,11 +63,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/ae6be8be-78ea-4843-924f-2dc5d5286da2">ITableProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itableprovider">ITableProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/8928c889-0e0a-439f-87e8-a9d121fcf73f">UI Automation Providers Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
  
 
  

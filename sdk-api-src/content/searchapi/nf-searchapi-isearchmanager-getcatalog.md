@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves a catalog by name and creates a new <a href="https://msdn.microsoft.com/en-us/library/Bb266414(v=VS.85).aspx">ISearchCatalogManager</a> object for that catalog.
+Retrieves a catalog by name and creates a new <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchcatalogmanager">ISearchCatalogManager</a> object for that catalog.
 
 
 ## -parameters
@@ -67,9 +67,9 @@ The name of the catalog to be retrieved.
 
 ### -param ppCatalogManager [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb266414(v=VS.85).aspx">ISearchCatalogManager</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchcatalogmanager">ISearchCatalogManager</a>**</b>
 
-Receives the address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb266414(v=VS.85).aspx">ISearchCatalogManager</a> object that is named in <i>pszCatalog</i>.
+Receives the address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchcatalogmanager">ISearchCatalogManager</a> object that is named in <i>pszCatalog</i>.
                 
 
 

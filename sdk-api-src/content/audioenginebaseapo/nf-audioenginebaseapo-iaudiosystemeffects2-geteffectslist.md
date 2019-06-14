@@ -87,7 +87,7 @@ The <b>GetEffectsList</b> method returns S_OK, If the method call is successful.
 
 The APO signals the specified  event when the list of audio processing effects changes from the list that was returned by <b>GetEffectsList</b>. The APO uses this event until either <b>GetEffectsList</b> is called again, or the APO is destroyed. The passed handle can be NULL, in which case the APO stops using any previous handle and does not signal an event.
 
-An APO implements this method to allow Windows to discover the current effects applied by the APO. The list of effects may depend on the processing mode that the APO initialized, and on any end user configuration. The processing mode is indicated by the <i>AudioProcessingMode</i> member of <a href="https://msdn.microsoft.com/87E59FCE-1965-4B23-B1F5-F54FEDD5A83E">APOInitSystemEffects2</a>.
+An APO implements this method to allow Windows to discover the current effects applied by the APO. The list of effects may depend on the processing mode that the APO initialized, and on any end user configuration. The processing mode is indicated by the <i>AudioProcessingMode</i> member of <a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/ns-audioenginebaseapo-apoinitsystemeffects2">APOInitSystemEffects2</a>.
 
 APOs should identify effects using GUIDs defined by Windows, such as AUDIO_EFFECT_TYPE_ACOUSTIC_ECHO_CANCELLATION. An APO should only define and return a custom GUID in rare cases where the type of effect is clearly different from the ones defined by Windows.
 
@@ -99,11 +99,11 @@ APOs should identify effects using GUIDs defined by Windows, such as AUDIO_EFFEC
 
 
 
-<a href="https://msdn.microsoft.com/87E59FCE-1965-4B23-B1F5-F54FEDD5A83E">APOInitSystemEffects2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/ns-audioenginebaseapo-apoinitsystemeffects2">APOInitSystemEffects2</a>
 
 
 
-<a href="https://msdn.microsoft.com/5989BAFB-6B2D-4186-9A8D-96C8974E0D18">IAudioSystemEffects2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nn-audioenginebaseapo-iaudiosystemeffects2">IAudioSystemEffects2</a>
  
 
  

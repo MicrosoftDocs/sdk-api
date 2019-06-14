@@ -54,7 +54,7 @@ Exposes methods that modify the current folder view.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellFolderViewDual3</b> interface inherits from <a href="https://msdn.microsoft.com/f53b779e-a015-4b17-b04d-e0739cba8168">IShellFolderViewDual2</a>. <b>IShellFolderViewDual3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellFolderViewDual3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual2">IShellFolderViewDual2</a>. <b>IShellFolderViewDual3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IShellFolderViewDual3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/60808015-317e-469f-aa28-a2c2bfdb16a8">FilterView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual3-filterview">FilterView</a>
 </td>
 <td align="left" width="63%">
 Sets the filter on the contents of the current view.
@@ -78,7 +78,7 @@ Sets the filter on the contents of the current view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c0fc82d4-d27e-4410-88a8-83839de8409b">get_FolderFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual3-get_folderflags">get_FolderFlags</a>
 </td>
 <td align="left" width="63%">
 Gets the settings for the current folder.
@@ -87,7 +87,7 @@ Gets the settings for the current folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/144fa908-01d3-43f4-95e6-2aad62c23912">get_GroupBy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual3-get_groupby">get_GroupBy</a>
 </td>
 <td align="left" width="63%">
 Gets the column used for grouping the folder view.
@@ -96,7 +96,7 @@ Gets the column used for grouping the folder view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/005c440f-2340-4965-b717-5aa0f4e5142f">get_IconSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual3-get_iconsize">get_IconSize</a>
 </td>
 <td align="left" width="63%">
 Gets the icon size setting for the current folder.
@@ -105,7 +105,7 @@ Gets the icon size setting for the current folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9edad3e2-317f-4ff5-82fb-a816de5d2aa8">get_SortColumns</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual3-get_sortcolumns">get_SortColumns</a>
 </td>
 <td align="left" width="63%">
 Gets the names of the columns used to sort the current folder.
@@ -114,7 +114,7 @@ Gets the names of the columns used to sort the current folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/698678a6-3624-420a-997a-9fd1e61d67e6">put_FolderFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual3-put_folderflags">put_FolderFlags</a>
 </td>
 <td align="left" width="63%">
 Sets the current folders settings.
@@ -123,7 +123,7 @@ Sets the current folders settings.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/32c23b6f-7c6f-432c-9f0e-11de8608e546">put_GroupBy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual3-put_groupby">put_GroupBy</a>
 </td>
 <td align="left" width="63%">
 Sets the column used in grouping the folder view.
@@ -132,7 +132,7 @@ Sets the column used in grouping the folder view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6211ba0a-f65e-4940-a774-5800c41c24c5">put_IconSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual3-put_iconsize">put_IconSize</a>
 </td>
 <td align="left" width="63%">
 Sets the icon size setting for the current folder.
@@ -141,7 +141,7 @@ Sets the icon size setting for the current folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cd61c44e-1612-48e3-9230-1a3a4667ece6">put_SortColumns</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual3-put_sortcolumns">put_SortColumns</a>
 </td>
 <td align="left" width="63%">
 Sets the names of the columns to be sorted.
@@ -155,7 +155,7 @@ Sets the names of the columns to be sorted.
 
 
 
-This interface also provides the methods of the <a href="https://msdn.microsoft.com/48135f9d-ee80-4dec-87dc-83f407c25777">IShellFolderViewDual</a> and <a href="https://msdn.microsoft.com/f53b779e-a015-4b17-b04d-e0739cba8168">IShellFolderViewDual2</a> interfaces, from which it inherits.
+This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual">IShellFolderViewDual</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual2">IShellFolderViewDual2</a> interfaces, from which it inherits.
 
 
 
@@ -165,11 +165,11 @@ This interface also provides the methods of the <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/48135f9d-ee80-4dec-87dc-83f407c25777">IShellFolderViewDual</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual">IShellFolderViewDual</a>
 
 
 
-<a href="https://msdn.microsoft.com/f53b779e-a015-4b17-b04d-e0739cba8168">IShellFolderViewDual2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual2">IShellFolderViewDual2</a>
  
 
  

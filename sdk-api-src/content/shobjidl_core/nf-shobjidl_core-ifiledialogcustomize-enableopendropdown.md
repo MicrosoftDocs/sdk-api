@@ -79,9 +79,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The Open or Save button label takes on the text of the first item in the drop-down. This overrides any label set by <a href="https://msdn.microsoft.com/4320de0f-bfa6-4e17-a09d-d004559fae70">IFileDialog::SetOkButtonLabel</a>.
+The Open or Save button label takes on the text of the first item in the drop-down. This overrides any label set by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setokbuttonlabel">IFileDialog::SetOkButtonLabel</a>.
 
- Use <a href="https://msdn.microsoft.com/56d7d0df-0c3e-4bc3-b91e-3b191f5dad76">IFileDialogCustomize::AddControlItem</a> to add items to the drop-down.
+ Use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-addcontrolitem">IFileDialogCustomize::AddControlItem</a> to add items to the drop-down.
 
 
 

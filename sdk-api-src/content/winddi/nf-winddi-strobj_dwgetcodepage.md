@@ -59,7 +59,7 @@ The <b>STROBJ_dwGetCodePage</b> function returns the code page associated with t
 
 ### -param pstro
 
-Pointer to a <a href="https://msdn.microsoft.com/efe53cb8-39b9-4931-bac2-9c61efd9d457">STROBJ</a> structure with which the code page is associated.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_strobj">STROBJ</a> structure with which the code page is associated.
 
 
 ## -returns
@@ -76,7 +76,7 @@ Pointer to a <a href="https://msdn.microsoft.com/efe53cb8-39b9-4931-bac2-9c61efd
 
 
 
-<a href="https://msdn.microsoft.com/efe53cb8-39b9-4931-bac2-9c61efd9d457">STROBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_strobj">STROBJ</a>
  
 
  

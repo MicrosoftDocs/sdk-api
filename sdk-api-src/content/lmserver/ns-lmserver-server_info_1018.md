@@ -66,8 +66,8 @@ Specifies the delta value for the announce rate, in milliseconds. This value spe
 
 
 The delta value allows randomly varied announce rates. For example, if the sv<i>X</i>_announce member has the value 10 and the sv<i>X</i>_anndelta member has the value 1, the announce rate can vary from 9.999 seconds to 10.001 seconds. For more information, see 
-<a href="https://msdn.microsoft.com/4c63fee7-1103-414d-b650-da87f8184e91">SERVER_INFO_102</a> and 
-<a href="https://msdn.microsoft.com/ad169dd2-6469-499d-b6be-53d99a92148f">SERVER_INFO_1017</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_102">SERVER_INFO_102</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_1017">SERVER_INFO_1017</a>.
 
 
 ## -see-also
@@ -75,27 +75,27 @@ The delta value allows randomly varied announce rates. For example, if the sv<i>
 
 
 
-<a href="https://msdn.microsoft.com/ed15e1b5-3fdc-4841-85d1-89269684df0e">NetServerGetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservergetinfo">NetServerGetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4b05054-bef2-4cab-89f6-725d92ee75b8">Network Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/ad169dd2-6469-499d-b6be-53d99a92148f">SERVER_INFO_1017</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_1017">SERVER_INFO_1017</a>
 
 
 
-<a href="https://msdn.microsoft.com/4c63fee7-1103-414d-b650-da87f8184e91">SERVER_INFO_102</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_102">SERVER_INFO_102</a>
 
 
 
-<a href="https://msdn.microsoft.com/43e1285b-8c86-4af4-9834-fcd5ee8aceb8">Server Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/server-functions">Server Functions</a>
  
 
  

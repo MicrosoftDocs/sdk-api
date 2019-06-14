@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/b666002f-2cd6-4e96-b055-34d801c1982e">IWSDUdpAddress</a> object.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpaddress">IWSDUdpAddress</a> object.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Creates an <a href="https://msdn.microsoft.com/b666002f-2cd6-4e96-b055-34d801c19
 
 ### -param ppAddress [in]
 
-An <a href="https://msdn.microsoft.com/b666002f-2cd6-4e96-b055-34d801c1982e">IWSDUdpAddress</a> interface pointer. This parameter cannot be <b>NULL</b>.
+An <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpaddress">IWSDUdpAddress</a> interface pointer. This parameter cannot be <b>NULL</b>.
 
 
 ## -returns

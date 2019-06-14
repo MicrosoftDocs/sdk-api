@@ -72,7 +72,7 @@ Specifies that a connection is a direct connection to another node.
 
 
 
-<a href="https://msdn.microsoft.com/039fa00e-c193-46fd-b7e6-41eb7baeab3e">PEER_CONNECTION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_connection_info_tag">PEER_CONNECTION_INFO</a>
  
 
  

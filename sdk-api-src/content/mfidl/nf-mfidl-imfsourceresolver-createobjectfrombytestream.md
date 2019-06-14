@@ -61,7 +61,7 @@ Creates a media source from a byte stream. This method is synchronous.
 
 ### -param pByteStream [in]
 
-Pointer to the byte stream's <a href="https://msdn.microsoft.com/690035b7-2855-4714-938f-f8250ec70d24">IMFByteStream</a> interface.
+Pointer to the byte stream's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a> interface.
           
 
 
@@ -73,19 +73,19 @@ Null-terminated string that contains the URL of the byte stream. The URL is opti
 
 ### -param dwFlags [in]
 
-Bitwise <b>OR</b> of flags. See <a href="https://msdn.microsoft.com/fe0b9090-5d2a-41a4-a806-57c874d3b3a2">Source Resolver Flags</a>.
+Bitwise <b>OR</b> of flags. See <a href="https://docs.microsoft.com/windows/desktop/medfound/source-resolver-flags">Source Resolver Flags</a>.
           
 
 
 ### -param pProps [in]
 
-Pointer to the <b>IPropertyStore</b> interface of a property store. The method passes the property store to the byte-stream handler. The byte-stream handler can use the property store to configure the media source. This parameter can be <b>NULL</b>. For more information, see <a href="https://msdn.microsoft.com/1378bbe6-be94-4be1-b428-5ec58dabd1fa">Configuring a Media Source</a>.
+Pointer to the <b>IPropertyStore</b> interface of a property store. The method passes the property store to the byte-stream handler. The byte-stream handler can use the property store to configure the media source. This parameter can be <b>NULL</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/configuring-a-media-source">Configuring a Media Source</a>.
           
 
 
 ### -param pObjectType [out]
 
-Receives a member of the <a href="https://msdn.microsoft.com/e919ae78-e3a5-42c5-b4e0-186e7e4fe54a">MF_OBJECT_TYPE</a> enumeration, specifying the type of object that was created.
+Receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mf_object_type">MF_OBJECT_TYPE</a> enumeration, specifying the type of object that was created.
           
 
 
@@ -155,12 +155,12 @@ This byte stream is not supported.
 
 The <i>dwFlags</i> parameter must contain the <b>MF_RESOLUTION_MEDIASOURCE</b> flag and should not contain the <b>MF_RESOLUTION_BYTESTREAM</b> flag.
 
-The source resolver attempts to find one or more byte-stream handlers for the byte stream, based on the file name extension of the URL, or the MIME type of the byte stream (or both). The URL is specified in the optional <i>pwszURL</i> parameter, and the MIME type may be specified in the <a href="https://msdn.microsoft.com/bcf86ece-2673-4ed8-98fd-cd0e2154b4a8">MF_BYTESTREAM_CONTENT_TYPE</a> attribute on the byte stream. Byte-stream handlers are registered by file name extension or MIME type, or both, as described in <a href="https://msdn.microsoft.com/b0113527-f22c-4519-b1cf-fea54bff4090">Scheme Handlers and Byte-Stream Handlers</a>. The caller should specify at least one of these values (both if possible):
+The source resolver attempts to find one or more byte-stream handlers for the byte stream, based on the file name extension of the URL, or the MIME type of the byte stream (or both). The URL is specified in the optional <i>pwszURL</i> parameter, and the MIME type may be specified in the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-bytestream-content-type-attribute">MF_BYTESTREAM_CONTENT_TYPE</a> attribute on the byte stream. Byte-stream handlers are registered by file name extension or MIME type, or both, as described in <a href="https://docs.microsoft.com/windows/desktop/medfound/scheme-handlers-and-byte-stream-handlers">Scheme Handlers and Byte-Stream Handlers</a>. The caller should specify at least one of these values (both if possible):
 
 <ul>
 <li>Specify the URL in the <i>pwszURL</i> parameter.
           </li>
-<li>Specify the MIME type by setting the <a href="https://msdn.microsoft.com/bcf86ece-2673-4ed8-98fd-cd0e2154b4a8">MF_BYTESTREAM_CONTENT_TYPE</a> attribute on the byte stream. (This attribute might be set already when you create the byte stream, depending on how the byte stream was created.)
+<li>Specify the MIME type by setting the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-bytestream-content-type-attribute">MF_BYTESTREAM_CONTENT_TYPE</a> attribute on the byte stream. (This attribute might be set already when you create the byte stream, depending on how the byte stream was created.)
           </li>
 </ul>
 <div class="alert"><b>Note</b>  This method cannot be called remotely.</div>
@@ -173,11 +173,11 @@ The source resolver attempts to find one or more byte-stream handlers for the by
 
 
 
-<a href="https://msdn.microsoft.com/079c61c5-7a29-4411-840e-9349190726ac">IMFSourceResolver</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsourceresolver">IMFSourceResolver</a>
 
 
 
-<a href="https://msdn.microsoft.com/93eecf10-308b-4bb4-92f9-fd32d6ecdb04">Source Resolver</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/source-resolver">Source Resolver</a>
  
 
  

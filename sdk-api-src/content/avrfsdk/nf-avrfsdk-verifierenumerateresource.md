@@ -150,7 +150,7 @@ An application-specific pointer that is passed back to the callback function.
 
 
 
-This function returns one of the <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>.
+This function returns one of the <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 
 
@@ -159,12 +159,12 @@ This function returns one of the <a href="https://msdn.microsoft.com/4a3a8feb-a0
 
 
 
-This function has no associated import library. You must use the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> functions to dynamically link to Verifier.dll.
+This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Verifier.dll.
 
 
 #### Examples
 
-See <a href="https://msdn.microsoft.com/e0c2c795-2960-44f9-8b63-2329f5b42e15">Using Resource Enumeration</a>.
+See <a href="https://docs.microsoft.com/windows/desktop/DevNotes/using-resource-enumeration">Using Resource Enumeration</a>.
 
 <div class="code"></div>
 
@@ -175,19 +175,19 @@ See <a href="https://msdn.microsoft.com/e0c2c795-2960-44f9-8b63-2329f5b42e15">Us
 
 
 
-<a href="https://msdn.microsoft.com/55949e7b-f47e-4b19-9c1d-e398db3e5ea7">AVRF_HANDLEOPERATION_ENUMERATE_CALLBACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/nc-avrfsdk-avrf_handleoperation_enumerate_callback">AVRF_HANDLEOPERATION_ENUMERATE_CALLBACK</a>
 
 
 
-<a href="https://msdn.microsoft.com/614d49f5-d119-4afe-b821-30ee9cb29582">AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/nc-avrfsdk-avrf_heapallocation_enumerate_callback">AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f18937c-1d8f-46dd-8542-32107d358fc3">AVRF_RESOURCE_ENUMERATE_CALLBACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/nc-avrfsdk-avrf_resource_enumerate_callback">AVRF_RESOURCE_ENUMERATE_CALLBACK</a>
 
 
 
-<a href="https://msdn.microsoft.com/99cb9005-9cfc-44fb-b09f-fed0541cda37">Resource Enumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevNotes/resource-enumeration">Resource Enumeration</a>
  
 
  

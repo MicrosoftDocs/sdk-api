@@ -75,7 +75,7 @@ A file set tagged with this value must be involved in all types of backup operat
 
 A writer tags a file set with this value to indicate to the requester that it expects a copy of the current 
       version of the file set to be available following the restore of any backup operation with a 
-      <a href="https://msdn.microsoft.com/82934737-0d80-4b5d-a1fa-1ba38e446504">VSS_BACKUP_TYPE</a> of 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_backup_type">VSS_BACKUP_TYPE</a> of 
       <b>VSS_BT_FULL</b>.
 
 
@@ -83,7 +83,7 @@ A writer tags a file set with this value to indicate to the requester that it ex
 
 A writer tags a file set with this value to indicate to the requester that it expects a copy of the current 
       version of the file set to be available following the restore of any backup operation with a 
-      <a href="https://msdn.microsoft.com/82934737-0d80-4b5d-a1fa-1ba38e446504">VSS_BACKUP_TYPE</a> of 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_backup_type">VSS_BACKUP_TYPE</a> of 
       <b>VSS_BT_DIFFERENTIAL</b>.
 
 This value is not supported for express writers.
@@ -93,7 +93,7 @@ This value is not supported for express writers.
 
 A writer tags a file set with this value to indicate to the requester that it expects a copy of the current 
       version of the file set to be available following the restore of any backup operation with a 
-      <a href="https://msdn.microsoft.com/82934737-0d80-4b5d-a1fa-1ba38e446504">VSS_BACKUP_TYPE</a> of 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_backup_type">VSS_BACKUP_TYPE</a> of 
       <b>VSS_BT_INCREMENTAL</b>.
 
 This value is not supported for express writers.
@@ -103,7 +103,7 @@ This value is not supported for express writers.
 
 A writer tags a file set with this value to indicate to the requester that it expects a copy of the current 
       version of the file set to be available following the restore of any backup operation with a 
-      <a href="https://msdn.microsoft.com/82934737-0d80-4b5d-a1fa-1ba38e446504">VSS_BACKUP_TYPE</a> of 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_backup_type">VSS_BACKUP_TYPE</a> of 
       <b>VSS_BT_LOG</b>.
 
 This value is not supported for express writers.
@@ -113,7 +113,7 @@ This value is not supported for express writers.
 
 A file set tagged with this value must be backed up from a shadow copy of a volume (and never from the 
       original volume) when participating in a backup operation with a 
-      <a href="https://msdn.microsoft.com/82934737-0d80-4b5d-a1fa-1ba38e446504">VSS_BACKUP_TYPE</a> of 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_backup_type">VSS_BACKUP_TYPE</a> of 
       <b>VSS_BT_FULL</b>.
 
 
@@ -121,7 +121,7 @@ A file set tagged with this value must be backed up from a shadow copy of a volu
 
 A file set tagged with this value must be backed up from a shadow copy of a volume (and never from the 
       original volume) when participating in a backup operation with a 
-      <a href="https://msdn.microsoft.com/82934737-0d80-4b5d-a1fa-1ba38e446504">VSS_BACKUP_TYPE</a> of 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_backup_type">VSS_BACKUP_TYPE</a> of 
       <b>VSS_BT_DIFFERENTIAL</b>.
 
 
@@ -129,7 +129,7 @@ A file set tagged with this value must be backed up from a shadow copy of a volu
 
 A file set tagged with this value must be backed up from a shadow copy of a volume (and never from the 
       original volume) when participating in a backup operation with a 
-      <a href="https://msdn.microsoft.com/82934737-0d80-4b5d-a1fa-1ba38e446504">VSS_BACKUP_TYPE</a> of 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_backup_type">VSS_BACKUP_TYPE</a> of 
       <b>VSS_BT_INCREMENTAL</b>.
 
 
@@ -137,7 +137,7 @@ A file set tagged with this value must be backed up from a shadow copy of a volu
 
 A file set tagged with this value must be backed up from a shadow copy of a volume (and never from the 
       original volume) when participating in a backup operation with a 
-      <a href="https://msdn.microsoft.com/82934737-0d80-4b5d-a1fa-1ba38e446504">VSS_BACKUP_TYPE</a> of 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_backup_type">VSS_BACKUP_TYPE</a> of 
       <b>VSS_BT_LOG</b>).
 
 
@@ -169,16 +169,16 @@ When a writer sets a backup-required value of the
 
 This setting can be overridden if a file is added to the Backup Components Document as a differenced file 
     (using 
-    <a href="https://msdn.microsoft.com/33372d10-c947-45de-9ea2-03ba6378179d">IVssComponent::AddDifferencedFilesByLastModifyTime</a>) 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-adddifferencedfilesbylastmodifytime">IVssComponent::AddDifferencedFilesByLastModifyTime</a>) 
     or as a partial file (using 
-    <a href="https://msdn.microsoft.com/318dc1ee-e63f-4e79-96b9-8a8bd83facd3">IVssComponent::AddPartialFile</a>).
+    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-addpartialfile">IVssComponent::AddPartialFile</a>).
 
 If a file is added as a differenced file, the writer establishes criteria by which the requester should decide 
     whether or not to actually copy a file to a backup medium. A writer typically adds differenced files to the Backup 
     Components Document for inclusion in a backup 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PostSnapshot</a> event (see 
-    <a href="https://msdn.microsoft.com/d97d4246-882e-49c3-a214-d8d3887c1508">CVssWriter::OnPostSnapshot</a>). See 
-    <a href="https://msdn.microsoft.com/e9529aad-cf93-4b4c-811c-0ff0b708de6c">Incremental and Differential Backups</a> 
+    <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PostSnapshot</a> event (see 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostsnapshot">CVssWriter::OnPostSnapshot</a>). See 
+    <a href="https://docs.microsoft.com/windows/desktop/VSS/incremental-and-differential-backups">Incremental and Differential Backups</a> 
     for details.
 
 When a writer sets a shadow copy-required value of the 
@@ -187,15 +187,15 @@ When a writer sets a shadow copy-required value of the
     shadow copy-required value can be backed up from the original volume.
 
 Writers set <b>VSS_FILE_SPEC_BACKUP_TYPE</b> values 
-    while handling an <a href="https://msdn.microsoft.com/en-us/library/Aa384659(v=VS.85).aspx">Identify</a> event (see 
-    <a href="https://msdn.microsoft.com/542d479a-695a-4b1f-94e7-f2ffa08440b7">CVssWriter::OnIdentify</a>).
+    while handling an <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-i">Identify</a> event (see 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onidentify">CVssWriter::OnIdentify</a>).
 
 A bit mask (or bitwise OR) of 
     <b>VSS_FILE_SPEC_BACKUP_TYPE</b> values can be applied 
     to a file set when adding it to a component using the 
-    <a href="https://msdn.microsoft.com/5d5a0155-467c-4c42-876e-a1b245cf6f8e">IVssCreateWriterMetadata::AddFilesToFileGroup</a>, 
-    <a href="https://msdn.microsoft.com/37ef5e50-127d-4bd0-9d26-04dc7781b3ff">IVssCreateWriterMetadata::AddDatabaseFiles</a>, or 
-    <a href="https://msdn.microsoft.com/09bdbdf3-d757-4d3c-8b8b-f792b6cd4ef1">IVssCreateWriterMetadata::AddDatabaseLogFiles</a> 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addfilestofilegroup">IVssCreateWriterMetadata::AddFilesToFileGroup</a>, 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-adddatabasefiles">IVssCreateWriterMetadata::AddDatabaseFiles</a>, or 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-adddatabaselogfiles">IVssCreateWriterMetadata::AddDatabaseLogFiles</a> 
     method.
 
 If no explicit file specification backup type is supplied during the addition of a file specification to a 
@@ -204,7 +204,7 @@ If no explicit file specification backup type is supplied during the addition of
     (VSS_FSBT_ALL_BACKUP_REQUIRED | VSS_FSBT_ALL_SNAPSHOT_REQUIRED).
 
 Requesters or writers can recover a file set's file specification backup type by using the 
-    <a href="https://msdn.microsoft.com/9d5f3a16-2053-42dd-867d-740c4a34bdb6">IVssWMFiledesc::GetBackupTypeMask</a> 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsswmfiledesc-getbackuptypemask">IVssWMFiledesc::GetBackupTypeMask</a> 
     method.
 
 
@@ -215,31 +215,31 @@ Requesters or writers can recover a file set's file specification backup type by
 
 
 
-<a href="https://msdn.microsoft.com/33372d10-c947-45de-9ea2-03ba6378179d">IVssComponent::AddDifferencedFilesByLastModifyTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-adddifferencedfilesbylastmodifytime">IVssComponent::AddDifferencedFilesByLastModifyTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/318dc1ee-e63f-4e79-96b9-8a8bd83facd3">IVssComponent::AddPartialFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-addpartialfile">IVssComponent::AddPartialFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/37ef5e50-127d-4bd0-9d26-04dc7781b3ff">IVssCreateWriterMetadata::AddDatabaseFiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-adddatabasefiles">IVssCreateWriterMetadata::AddDatabaseFiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/09bdbdf3-d757-4d3c-8b8b-f792b6cd4ef1">IVssCreateWriterMetadata::AddDatabaseLogFiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-adddatabaselogfiles">IVssCreateWriterMetadata::AddDatabaseLogFiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d5a0155-467c-4c42-876e-a1b245cf6f8e">IVssCreateWriterMetadata::AddFilesToFileGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addfilestofilegroup">IVssCreateWriterMetadata::AddFilesToFileGroup</a>
 
 
 
-<a href="https://msdn.microsoft.com/9d5f3a16-2053-42dd-867d-740c4a34bdb6">IVssWMFiledesc::GetBackupTypeMask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsswmfiledesc-getbackuptypemask">IVssWMFiledesc::GetBackupTypeMask</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9529aad-cf93-4b4c-811c-0ff0b708de6c">Incremental and Differential Backups</a>
+<a href="https://docs.microsoft.com/windows/desktop/VSS/incremental-and-differential-backups">Incremental and Differential Backups</a>
  
 
  

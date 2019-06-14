@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Retrieves the source image used to create the transformed image source.
-        This value corresponds to the value passed to <a href="https://msdn.microsoft.com/1ABA6A8E-B691-47FF-AE32-1FC5D29C48B2">CreateTransformedImageSource</a>.
+        This value corresponds to the value passed to <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-createtransformedimagesource">CreateTransformedImageSource</a>.
       
 
 
@@ -80,7 +80,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/5645429B-110E-4AEC-9A2E-87D0942FA993">ID2D1TransformedImageSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1transformedimagesource">ID2D1TransformedImageSource</a>
  
 
  

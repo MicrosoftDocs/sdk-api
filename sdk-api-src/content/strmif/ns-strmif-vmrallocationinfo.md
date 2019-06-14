@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <code>VMRALLOCATIONINFO</code> structure is used in the VMR-7 filter's <a href="https://msdn.microsoft.com/6783df91-c92f-45d0-b299-16cdbc4bb630">IVMRSurfaceAllocator::AllocateSurface</a> method.
+The <code>VMRALLOCATIONINFO</code> structure is used in the VMR-7 filter's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrsurfaceallocator-allocatesurface">IVMRSurfaceAllocator::AllocateSurface</a> method.
 
 
 
@@ -63,7 +63,7 @@ The <code>VMRALLOCATIONINFO</code> structure is used in the VMR-7 filter's <a hr
 
 ### -field dwFlags
 
-A bitwise <b>OR</b> of flags from the <a href="https://msdn.microsoft.com/1f75b357-0ce0-4efe-b1a8-39200e6b3d1a">VMRSurfaceAllocationFlags</a> enumeration.
+A bitwise <b>OR</b> of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-vmrsurfaceallocationflags">VMRSurfaceAllocationFlags</a> enumeration.
           
 
 
@@ -79,7 +79,7 @@ Pointer to the <b>DDPIXELFORMAT</b> structure associated with the surface.
 
 ### -field szAspectRatio
 
-A <a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a> structure that specifies the aspect ratio of the new surface.
+A <a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a> structure that specifies the aspect ratio of the new surface.
 
 
 ### -field dwMinBuffers
@@ -95,7 +95,7 @@ The maximum number of buffers to create for this surface.
 
 ### -field dwInterlaceFlags
 
-A bitwise <b>OR</b> of  flags that indicate the interlacing. For a list of flags, see the <b>dwInterlaceFlags</b> member of the <a href="https://msdn.microsoft.com/5e3d5bf0-435f-45da-8409-a1463b56a7ae">VIDEOINFOHEADER2</a> structure.
+A bitwise <b>OR</b> of  flags that indicate the interlacing. For a list of flags, see the <b>dwInterlaceFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dvdmedia/ns-dvdmedia-tagvideoinfoheader2">VIDEOINFOHEADER2</a> structure.
           
 
 
@@ -110,7 +110,7 @@ The size of the native video rectangle.
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
  
 
  

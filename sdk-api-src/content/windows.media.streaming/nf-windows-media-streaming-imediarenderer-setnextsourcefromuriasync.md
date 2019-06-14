@@ -64,7 +64,7 @@ An HSTRING containing the file path or resource location of media content.
 
 ### -param value [out]
 
-Receives a reference to a <a href="https://msdn.microsoft.com/4899254A-C393-4D03-970F-CF272F4761B6">PlaybackOperation</a> object that is used to get results from the asynchronous operation.
+Receives a reference to a <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/playbackoperation">PlaybackOperation</a> object that is used to get results from the asynchronous operation.
 
 
 ## -returns
@@ -109,7 +109,7 @@ Once the DMR finishes playing the current content, it will automatically switch 
 
 
 
-<a href="https://msdn.microsoft.com/FBA5BF5A-FA5A-4E25-8F2B-9D1C0A9BCACB">IMediaRenderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a>
  
 
  

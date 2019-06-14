@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Clones the first <a href="https://msdn.microsoft.com/794c8425-2319-4339-881c-c5083ab05638">SHITEMID</a> structure in an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure.
+Clones the first <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a> structure in an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Clones the first <a href="https://msdn.microsoft.com/794c8425-2319-4339-881c-c50
 
 Type: <b>PCUIDLIST_RELATIVE</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure that you want to clone.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure that you want to clone.
 
 
 ## -returns
@@ -74,7 +74,7 @@ A pointer to the <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894
 
 Type: <b>PITEMID_CHILD</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure that contains the first <a href="https://msdn.microsoft.com/794c8425-2319-4339-881c-c5083ab05638">SHITEMID</a> structure from the <b>ITEMIDLIST</b> structure specified by <i>pidl</i>. Returns <b>NULL</b> on failure.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure that contains the first <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a> structure from the <b>ITEMIDLIST</b> structure specified by <i>pidl</i>. Returns <b>NULL</b> on failure.
 
 
 
@@ -84,7 +84,7 @@ A pointer to an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f
 
 
 
-<a href="https://msdn.microsoft.com/90689575-3308-4817-ae8c-380fa5f55c88">ILClone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ilclone">ILClone</a>
  
 
  

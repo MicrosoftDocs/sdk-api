@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The IO_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes I/O port usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">Hardware Resources</a>.
+The IO_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes I/O port usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ The IO_RESOURCE structure is used for specifying either a resource list or a res
 
 ### -field IO_Header
 
-An <a href="https://msdn.microsoft.com/4b2ae544-0254-4221-80df-e2df4a23d15f">IO_DES</a> structure.
+An <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_des_s">IO_DES</a> structure.
 
 
 ### -field IO_Data
@@ -76,7 +76,7 @@ Zero.
 
 #### For a resource requirements list:
 
-An <a href="https://msdn.microsoft.com/1793684b-b4c4-4467-9ac9-8c6b1eea65e3">IO_RANGE</a> array.
+An <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_range_s">IO_RANGE</a> array.
 
 
 ## -see-also
@@ -84,11 +84,11 @@ An <a href="https://msdn.microsoft.com/1793684b-b4c4-4467-9ac9-8c6b1eea65e3">IO_
 
 
 
-<a href="https://msdn.microsoft.com/4b2ae544-0254-4221-80df-e2df4a23d15f">IO_DES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_des_s">IO_DES</a>
 
 
 
-<a href="https://msdn.microsoft.com/1793684b-b4c4-4467-9ac9-8c6b1eea65e3">IO_RANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_range_s">IO_RANGE</a>
  
 
  

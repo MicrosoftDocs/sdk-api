@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Describes the backup mode for cluster shared volume (CSV). Used by the 
-    <a href="https://msdn.microsoft.com/2ee69873-e562-4bac-bfed-119d56082095">CLUSCTL_RESOURCE_SET_SHARED_VOLUME_BACKUP_MODE</a> <a href="https://msdn.microsoft.com/b8ab57bd-f83e-46c2-9c9c-02107c3881bf">control code</a>.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-set-shared-volume-backup-mode">CLUSCTL_RESOURCE_SET_SHARED_VOLUME_BACKUP_MODE</a> <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/about-control-codes">control code</a>.
 
 
 ## -struct-fields
@@ -62,7 +62,7 @@ Describes the backup mode for cluster shared volume (CSV). Used by the
 
 
 Value from 
-       <a href="https://msdn.microsoft.com/f83a7dfe-ad48-41e2-983e-75dfd921c137">CLUSTER_SHARED_VOLUME_BACKUP_STATE</a> 
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-_cluster_shared_volume_backup_state">CLUSTER_SHARED_VOLUME_BACKUP_STATE</a> 
        enumeration.
 
 
@@ -98,15 +98,15 @@ Null-terminated Unicode string containing the name of the shared volume. The nam
 
 
 
-<a href="https://msdn.microsoft.com/2ee69873-e562-4bac-bfed-119d56082095">CLUSCTL_RESOURCE_SET_SHARED_VOLUME_BACKUP_MODE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-set-shared-volume-backup-mode">CLUSCTL_RESOURCE_SET_SHARED_VOLUME_BACKUP_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/f83a7dfe-ad48-41e2-983e-75dfd921c137">CLUSTER_SHARED_VOLUME_BACKUP_STATE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-_cluster_shared_volume_backup_state">CLUSTER_SHARED_VOLUME_BACKUP_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3ad7c34-0c8a-4f03-8e5c-b57802c493f0">Data Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>
  
 
  

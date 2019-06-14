@@ -54,7 +54,7 @@ Represents text rendering settings for glyph rasterization and filtering.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteRenderingParams1</b> interface inherits from <a href="https://msdn.microsoft.com/28b118e4-9a63-46cf-8ab7-e1039126405b">IDWriteRenderingParams</a>. <b>IDWriteRenderingParams1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteRenderingParams1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwriterenderingparams">IDWriteRenderingParams</a>. <b>IDWriteRenderingParams1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDWriteRenderingParams1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/986917A6-AAC1-4676-A7A0-7A8FC4796E72">GetGrayscaleEnhancedContrast</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwriterenderingparams1-getgrayscaleenhancedcontrast">GetGrayscaleEnhancedContrast</a>
 </td>
 <td align="left" width="63%">
 Gets the amount of contrast enhancement to use for grayscale antialiasing.
@@ -84,7 +84,7 @@ Gets the amount of contrast enhancement to use for grayscale antialiasing.
 
 
 
-<a href="https://msdn.microsoft.com/28b118e4-9a63-46cf-8ab7-e1039126405b">IDWriteRenderingParams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwriterenderingparams">IDWriteRenderingParams</a>
  
 
  

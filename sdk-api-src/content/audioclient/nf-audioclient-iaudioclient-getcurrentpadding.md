@@ -130,27 +130,27 @@ Parameter <i>pNumPaddingFrames</i> is <b>NULL</b>.
 
 
 
-This method requires prior initialization of the <a href="https://msdn.microsoft.com/5088a3f1-5001-4ed9-a495-9e91df613ab0">IAudioClient</a> interface. All calls to this method will fail with the error AUDCLNT_E_NOT_INITIALIZED until the client initializes the audio stream by successfully calling the <a href="https://msdn.microsoft.com/eb778503-06f8-4705-9f8d-9a4fd886ae27">IAudioClient::Initialize</a> method.
+This method requires prior initialization of the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient">IAudioClient</a> interface. All calls to this method will fail with the error AUDCLNT_E_NOT_INITIALIZED until the client initializes the audio stream by successfully calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a> method.
 
 This method retrieves a padding value that indicates the amount of valid, unread data that the endpoint buffer currently contains. A rendering application can use the padding value to determine how much new data it can safely write to the endpoint buffer without overwriting previously written data that the audio engine has not yet read from the buffer. A capture application can use the padding value to determine how much new data it can safely read from the endpoint buffer without reading invalid data from a region of the buffer to which the audio engine has not yet written valid data.
 
-The padding value is expressed as a number of audio frames. The size of an audio frame is specified by the <b>nBlockAlign</b> member of the <a href="https://msdn.microsoft.com/f2f050d6-afe2-4647-932b-1287f4538702">WAVEFORMATEX</a> (or <a href="https://msdn.microsoft.com/54bcb18e-df4b-471c-b121-4db75ce5c49b">WAVEFORMATEXTENSIBLE</a>) structure that the client passed to the <a href="https://msdn.microsoft.com/eb778503-06f8-4705-9f8d-9a4fd886ae27">IAudioClient::Initialize</a>  method. The size in bytes of an audio frame equals the number of channels in the stream multiplied by the sample size per channel. For example, the frame size is four bytes for a stereo (2-channel) stream with 16-bit samples.
+The padding value is expressed as a number of audio frames. The size of an audio frame is specified by the <b>nBlockAlign</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-twaveformatex">WAVEFORMATEX</a> (or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-waveformatextensible">WAVEFORMATEXTENSIBLE</a>) structure that the client passed to the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>  method. The size in bytes of an audio frame equals the number of channels in the stream multiplied by the sample size per channel. For example, the frame size is four bytes for a stereo (2-channel) stream with 16-bit samples.
 
-For a shared-mode rendering stream, the padding value reported by <b>GetCurrentPadding</b> specifies the number of audio frames that are queued up to play in the endpoint buffer. Before writing to the endpoint buffer, the client can calculate the amount of available space in the buffer by subtracting the padding value from the buffer length. To ensure that a subsequent call to the <a href="https://msdn.microsoft.com/c2a0d46b-e8d4-4c51-9810-5580504c9731">IAudioRenderClient::GetBuffer</a> method succeeds, the client should request a packet length that does not exceed the available space in the buffer. To obtain the buffer length, call the <a href="https://msdn.microsoft.com/562d2db6-ae14-47c9-8b8f-d4d90072b3dd">IAudioClient::GetBufferSize</a> method.
+For a shared-mode rendering stream, the padding value reported by <b>GetCurrentPadding</b> specifies the number of audio frames that are queued up to play in the endpoint buffer. Before writing to the endpoint buffer, the client can calculate the amount of available space in the buffer by subtracting the padding value from the buffer length. To ensure that a subsequent call to the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiorenderclient-getbuffer">IAudioRenderClient::GetBuffer</a> method succeeds, the client should request a packet length that does not exceed the available space in the buffer. To obtain the buffer length, call the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getbuffersize">IAudioClient::GetBufferSize</a> method.
 
-For a shared-mode capture stream, the padding value reported by <b>GetCurrentPadding</b> specifies the number of frames of capture data that are available in the next packet in the endpoint buffer. At a particular moment, zero, one, or more packets of capture data might be ready for the client to read from the buffer. If no packets are currently available, the method reports a padding value of 0. Following the <b>GetCurrentPadding</b> call, an <a href="https://msdn.microsoft.com/4298f584-39ce-4138-994a-0e551370429f">IAudioCaptureClient::GetBuffer</a> method call will retrieve a packet whose length exactly equals the padding value reported by <b>GetCurrentPadding</b>. Each call to <a href="https://msdn.microsoft.com/c2a0d46b-e8d4-4c51-9810-5580504c9731">GetBuffer</a> retrieves a whole packet. A packet always contains an integral number of audio frames.
+For a shared-mode capture stream, the padding value reported by <b>GetCurrentPadding</b> specifies the number of frames of capture data that are available in the next packet in the endpoint buffer. At a particular moment, zero, one, or more packets of capture data might be ready for the client to read from the buffer. If no packets are currently available, the method reports a padding value of 0. Following the <b>GetCurrentPadding</b> call, an <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiocaptureclient-getbuffer">IAudioCaptureClient::GetBuffer</a> method call will retrieve a packet whose length exactly equals the padding value reported by <b>GetCurrentPadding</b>. Each call to <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiorenderclient-getbuffer">GetBuffer</a> retrieves a whole packet. A packet always contains an integral number of audio frames.
 
-For a shared-mode capture stream, calling <b>GetCurrentPadding</b> is equivalent to calling the <a href="https://msdn.microsoft.com/352dcd7d-a7e1-493f-b9ce-c125f9d45fa8">IAudioCaptureClient::GetNextPacketSize</a> method. That is, the padding value reported by <b>GetCurrentPadding</b> is equal to the packet length reported by <b>GetNextPacketSize</b>.
+For a shared-mode capture stream, calling <b>GetCurrentPadding</b> is equivalent to calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiocaptureclient-getnextpacketsize">IAudioCaptureClient::GetNextPacketSize</a> method. That is, the padding value reported by <b>GetCurrentPadding</b> is equal to the packet length reported by <b>GetNextPacketSize</b>.
 
-For an exclusive-mode rendering or capture stream that was initialized with the AUDCLNT_STREAMFLAGS_EVENTCALLBACK flag, the client typically has no use for the padding value reported by <b>GetCurrentPadding</b>. Instead, the client accesses an entire buffer during each processing pass. Each time a buffer becomes available for processing, the audio engine notifies the client by signaling the client's event handle. For more information about this flag, see <a href="https://msdn.microsoft.com/eb778503-06f8-4705-9f8d-9a4fd886ae27">IAudioClient::Initialize</a>.
+For an exclusive-mode rendering or capture stream that was initialized with the AUDCLNT_STREAMFLAGS_EVENTCALLBACK flag, the client typically has no use for the padding value reported by <b>GetCurrentPadding</b>. Instead, the client accesses an entire buffer during each processing pass. Each time a buffer becomes available for processing, the audio engine notifies the client by signaling the client's event handle. For more information about this flag, see <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>.
 
 For an exclusive-mode rendering or capture stream that was not initialized with the AUDCLNT_STREAMFLAGS_EVENTCALLBACK flag, the client can use the padding value obtained from <b>GetCurrentPadding</b> in a way that is similar to that described previously for a shared-mode stream. The details are as follows.
 
 First, for an exclusive-mode rendering stream, the padding value specifies the number of audio frames that are queued up to play in the endpoint buffer. As before, the client can calculate the amount of available space in the buffer by subtracting the padding value from the buffer length.
 
-Second, for an exclusive-mode capture stream, the padding value reported by <b>GetCurrentPadding</b> specifies the current length of the next packet. However, this padding value is a snapshot of the packet length, which might increase before the client calls the <a href="https://msdn.microsoft.com/4298f584-39ce-4138-994a-0e551370429f">IAudioCaptureClient::GetBuffer</a> method. Thus, the length of the packet retrieved by <b>GetBuffer</b> is at least as large as, but might be larger than, the padding value reported by the <b>GetCurrentPadding</b> call that preceded the <b>GetBuffer</b> call. In contrast, for a shared-mode capture stream, the length of the packet obtained from <b>GetBuffer</b> always equals the padding value reported by the preceding <b>GetCurrentPadding</b> call.
+Second, for an exclusive-mode capture stream, the padding value reported by <b>GetCurrentPadding</b> specifies the current length of the next packet. However, this padding value is a snapshot of the packet length, which might increase before the client calls the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiocaptureclient-getbuffer">IAudioCaptureClient::GetBuffer</a> method. Thus, the length of the packet retrieved by <b>GetBuffer</b> is at least as large as, but might be larger than, the padding value reported by the <b>GetCurrentPadding</b> call that preceded the <b>GetBuffer</b> call. In contrast, for a shared-mode capture stream, the length of the packet obtained from <b>GetBuffer</b> always equals the padding value reported by the preceding <b>GetCurrentPadding</b> call.
 
-For a code example that calls the <b>GetCurrentPadding</b> method, see <a href="https://msdn.microsoft.com/00bfcfd1-6592-43e3-90ad-730c92aa4cd3">Rendering a Stream</a>.
+For a code example that calls the <b>GetCurrentPadding</b> method, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/rendering-a-stream">Rendering a Stream</a>.
 
 
 
@@ -160,23 +160,23 @@ For a code example that calls the <b>GetCurrentPadding</b> method, see <a href="
 
 
 
-<a href="https://msdn.microsoft.com/4298f584-39ce-4138-994a-0e551370429f">IAudioCaptureClient::GetBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiocaptureclient-getbuffer">IAudioCaptureClient::GetBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/352dcd7d-a7e1-493f-b9ce-c125f9d45fa8">IAudioCaptureClient::GetNextPacketSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiocaptureclient-getnextpacketsize">IAudioCaptureClient::GetNextPacketSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/5088a3f1-5001-4ed9-a495-9e91df613ab0">IAudioClient Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient">IAudioClient Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb778503-06f8-4705-9f8d-9a4fd886ae27">IAudioClient::Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/c2a0d46b-e8d4-4c51-9810-5580504c9731">IAudioRenderClient::GetBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiorenderclient-getbuffer">IAudioRenderClient::GetBuffer</a>
  
 
  

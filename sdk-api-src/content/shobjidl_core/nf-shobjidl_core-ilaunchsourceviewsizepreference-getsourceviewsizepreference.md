@@ -59,9 +59,9 @@ Retrieves the view size preference of the application after the application has 
 
 ### -param sourceSizeAfterLaunch [out]
 
-Type: <b><a href="https://msdn.microsoft.com/20B27858-D5BC-4800-AE3F-C01A017ABBF7">APPLICATION_VIEW_SIZE_PREFERENCE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-application_view_size_preference">APPLICATION_VIEW_SIZE_PREFERENCE</a>*</b>
 
-Contains the address of a pointer to an <a href="https://msdn.microsoft.com/20B27858-D5BC-4800-AE3F-C01A017ABBF7">APPLICATION_VIEW_SIZE_PREFERENCE</a>.
+Contains the address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-application_view_size_preference">APPLICATION_VIEW_SIZE_PREFERENCE</a>.
 
 
 ## -returns
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/94436BC1-658E-4D33-866D-9C05282291A8">ILaunchSourceViewSizePreference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ilaunchsourceviewsizepreference">ILaunchSourceViewSizePreference</a>
  
 
  

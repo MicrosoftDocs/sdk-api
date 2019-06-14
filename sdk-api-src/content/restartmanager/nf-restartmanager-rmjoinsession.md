@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Joins a secondary installer to an existing Restart Manager session. This function must be called with a session key that can only be obtained from the primary installer that started the session. A valid session key is required to use any of the Restart Manager functions. After a secondary installer joins a session, it can call the  <a href="https://msdn.microsoft.com/9ac94461-bf75-4517-b47e-23d82474efe8">RmRegisterResources</a> function to register resources. 
+Joins a secondary installer to an existing Restart Manager session. This function must be called with a session key that can only be obtained from the primary installer that started the session. A valid session key is required to use any of the Restart Manager functions. After a secondary installer joins a session, it can call the  <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmregisterresources">RmRegisterResources</a> function to register resources. 
 
 
 ## -parameters
@@ -71,7 +71,7 @@ A <b>null</b>-terminated string that contains the session key of an existing ses
 
 
 
-This is the most recent error received. The function can return one of the <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a> that are defined in Winerror.h. 
+This is the most recent error received. The function can return one of the <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a> that are defined in Winerror.h. 
 
 <table>
 <tr>
@@ -172,7 +172,7 @@ A Restart Manager operation could not complete because not enough memory was ava
 
 
 
-The <b>RmJoinSession</b> function joins a secondary installer to an existing Restart Manager session. This is typically an installer that does not control the user interface and can run either in-process or out-of-process of the primary installer. Only the primary installer can call the <a href="https://msdn.microsoft.com/bc79c6e5-49e6-44d3-90f6-b0109fb9611b">RmStartSession</a> function and this is typically the application that controls the user interface or that controls the installation sequence of multiple patches in an update.
+The <b>RmJoinSession</b> function joins a secondary installer to an existing Restart Manager session. This is typically an installer that does not control the user interface and can run either in-process or out-of-process of the primary installer. Only the primary installer can call the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmstartsession">RmStartSession</a> function and this is typically the application that controls the user interface or that controls the installation sequence of multiple patches in an update.
 
 
 
@@ -182,11 +182,11 @@ The <b>RmJoinSession</b> function joins a secondary installer to an existing Res
 
 
 
-<a href="https://msdn.microsoft.com/2681cb69-a66f-4aec-a164-98d2d28f9908">RmEndSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmendsession">RmEndSession</a>
 
 
 
-<a href="https://msdn.microsoft.com/bc79c6e5-49e6-44d3-90f6-b0109fb9611b">RmStartSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmstartsession">RmStartSession</a>
  
 
  

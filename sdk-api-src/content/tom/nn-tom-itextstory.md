@@ -49,17 +49,17 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ITextStory</b> interface methods are used to access shared data from multiple stories, which is stored in the parent <a href="https://msdn.microsoft.com/en-us/library/Bb787617(v=VS.85).aspx">ITextServices</a> instance. 
+The <b>ITextStory</b> interface methods are used to access shared data from multiple stories, which is stored in the parent <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itextservices">ITextServices</a> instance. 
 
-The stories can be "edited" simultaneously by using individual <a href="https://msdn.microsoft.com/905f0967-8b99-45ed-a1cc-19d49e919a65">ITextRange2</a> methods, and displayed independently of one another. In addition, one story at a time can be UI active; that is, it receives keyboard and mouse input. 
+The stories can be "edited" simultaneously by using individual <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a> methods, and displayed independently of one another. In addition, one story at a time can be UI active; that is, it receives keyboard and mouse input. 
 
 
-The <b>ITextStory</b> is a lightweight interface that does not require an <a href="https://msdn.microsoft.com/905f0967-8b99-45ed-a1cc-19d49e919a65">ITextRange2</a> object. This allows the client to manipulate a story, which is a faster, smaller object than a complete editing instance.  
+The <b>ITextStory</b> is a lightweight interface that does not require an <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a> object. This allows the client to manipulate a story, which is a faster, smaller object than a complete editing instance.  
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextStory</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITextStory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextStory</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITextStory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>ITextStory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7bae9458-ee68-486a-a37f-2cc899400882">GetActive</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextstory-getactive">GetActive</a>
 </td>
 <td align="left" width="63%">
 Sets the active state of a story.
@@ -83,7 +83,7 @@ Sets the active state of a story.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e9ea7fbc-b814-4dbd-ae8a-9e260b56abab">GetDisplay</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextstory-getdisplay">GetDisplay</a>
 </td>
 <td align="left" width="63%">
 Gets a new display for a story.
@@ -92,7 +92,7 @@ Gets a new display for a story.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ef7f4714-6887-429c-8f65-77c14d55a5c4">GetIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh768726(v=vs.85)">GetIndex</a>
 </td>
 <td align="left" width="63%">
 Gets the index of a story.
@@ -101,7 +101,7 @@ Gets the index of a story.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1c24e9d8-c737-42f8-87d9-585b0054b6df">GetProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextstory-getproperty">GetProperty</a>
 </td>
 <td align="left" width="63%">
 Gets the value of the specified property.
@@ -110,7 +110,7 @@ Gets the value of the specified property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7cc02056-c431-470a-83ef-99e47123da1e">GetRange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextstory-getrange">GetRange</a>
 </td>
 <td align="left" width="63%">
 Gets a text range object for the story.
@@ -119,7 +119,7 @@ Gets a text range object for the story.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8107910f-eb77-4313-97f5-1bd8126d6dec">GetText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextstory-gettext">GetText</a>
 </td>
 <td align="left" width="63%">
 Gets the text in a story according to the specified conversion flags. 
@@ -128,7 +128,7 @@ Gets the text in a story according to the specified conversion flags.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/43a75284-c461-4118-834c-9ce5ded55094">GetType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextstory-gettype">GetType</a>
 </td>
 <td align="left" width="63%">
 Gets this story's type.
@@ -137,7 +137,7 @@ Gets this story's type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fa0177be-2016-4205-b121-921dbdbf5b71">SetActive</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextstory-setactive">SetActive</a>
 </td>
 <td align="left" width="63%">
 Sets the active state of a story.
@@ -146,7 +146,7 @@ Sets the active state of a story.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ddc77bfe-06de-43e6-9d74-f1b3531c9416">SetFormattedText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextstory-setformattedtext">SetFormattedText</a>
 </td>
 <td align="left" width="63%">
 Replaces a story’s text with specified formatted text.
@@ -155,7 +155,7 @@ Replaces a story’s text with specified formatted text.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/432afe58-a1ed-45aa-b018-bf608bbb7e2a">SetProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextstory-setproperty">SetProperty</a>
 </td>
 <td align="left" width="63%">
 Sets the value of the specified property.
@@ -164,7 +164,7 @@ Sets the value of the specified property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9efd45ed-00f7-47e1-90e7-82a420e79bdf">SetText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextstory-settext">SetText</a>
 </td>
 <td align="left" width="63%">
 Replaces the text in a story with the specified text.
@@ -173,7 +173,7 @@ Replaces the text in a story with the specified text.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b1fda663-cbfa-4972-bc40-004b82631f92">SetType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextstory-settype">SetType</a>
 </td>
 <td align="left" width="63%">
 Sets the story type.

@@ -63,7 +63,7 @@ The <b>ScrollDC</b> function scrolls a rectangle of bits horizontally and vertic
 
 ### -param hDC [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HDC</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
 Handle to the device context that contains the bits to be scrolled. 
 
@@ -102,7 +102,7 @@ Pointer to a
 
 ### -param hrgnUpdate [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRGN</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRGN</a></b>
 
 Handle to the region uncovered by the scrolling process. <b>ScrollDC</b> defines this region; it is not necessarily a rectangle. 
 
@@ -111,18 +111,18 @@ Handle to the region uncovered by the scrolling process. <b>ScrollDC</b> defines
 
 Type: <b>LPRECT</b>
 
-Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that receives the coordinates of the rectangle bounding the scrolling update region. This is the largest rectangular area that requires repainting. When the function returns, the values in the structure are in client coordinates, regardless of the mapping mode for the specified device context. This allows applications to use the update region in a call to the <a href="https://msdn.microsoft.com/b5b44efe-8045-4e54-89f9-1766689a053d">InvalidateRgn</a> function, if required. 
+Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that receives the coordinates of the rectangle bounding the scrolling update region. This is the largest rectangular area that requires repainting. When the function returns, the values in the structure are in client coordinates, regardless of the mapping mode for the specified device context. This allows applications to use the update region in a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-invalidatergn">InvalidateRgn</a> function, if required. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -137,7 +137,7 @@ If the
 				<i>lprcUpdate</i> parameters are <b>NULL</b>, the system does not compute the update region. If 
 				<i>hrgnUpdate</i> is not <b>NULL</b>, the system proceeds as though it contains a valid handle to the region uncovered by the scrolling process (defined by <b>ScrollDC</b>). 
 
-When you must scroll the entire client area of a window, use the <a href="https://msdn.microsoft.com/en-us/library/Bb787593(v=VS.85).aspx">ScrollWindowEx</a> function. 
+When you must scroll the entire client area of a window, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-scrollwindowex">ScrollWindowEx</a> function. 
 
 
 
@@ -147,7 +147,7 @@ When you must scroll the entire client area of a window, use the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/b5b44efe-8045-4e54-89f9-1766689a053d">InvalidateRgn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-invalidatergn">InvalidateRgn</a>
 
 
 
@@ -163,7 +163,7 @@ When you must scroll the entire client area of a window, use the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787593(v=VS.85).aspx">ScrollWindowEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-scrollwindowex">ScrollWindowEx</a>
  
 
  

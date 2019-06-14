@@ -50,7 +50,7 @@ req.redist:
 
 Retrieves the integrity status of a file or directory on a ReFS volume.
 
-To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
+To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
     function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -149,19 +149,19 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/ab87f987-b734-4ad0-af16-1ba967db48d7">FSCTL_GET_INTEGRITY_INFORMATION_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_fsctl_get_integrity_information_buffer">FSCTL_GET_INTEGRITY_INFORMATION_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/bd5be96d-6fdc-4fad-9d01-81b913a5b653">FSCTL_SET_INTEGRITY_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_integrity_information">FSCTL_SET_INTEGRITY_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/87f39e1c-3ebf-4c6f-a842-699ec3c45e76">Volume Management Control Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes">Volume Management Control Codes</a>
  
 
  

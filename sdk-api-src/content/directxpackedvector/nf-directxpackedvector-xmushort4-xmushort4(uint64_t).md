@@ -49,7 +49,7 @@ ms.custom: 19H1
 
 A constructor for <code>XMUSHORT4</code>.
 
-A constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee420702(v=VS.85).aspx">XMUSHORT4</a>.
+A constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmushort4">XMUSHORT4</a>.
 
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
@@ -63,6 +63,6 @@ A value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420702(v=VS.85).aspx">XMUSHORT4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmushort4">XMUSHORT4</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415500(v=VS.85).aspx">XMUSHORT4 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmushort4-ctor">XMUSHORT4 Constructors</a>

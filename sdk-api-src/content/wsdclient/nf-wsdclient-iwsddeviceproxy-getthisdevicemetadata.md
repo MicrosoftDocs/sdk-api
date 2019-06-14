@@ -59,7 +59,7 @@ Retrieves device-specific metadata for this device.
 
 ### -param ppThisDeviceMetadata [out]
 
-Reference to a <a href="https://msdn.microsoft.com/7b9d063f-f0d5-4333-a5d8-e9a6d2d9af88">WSD_THIS_DEVICE_METADATA</a> structure that specifies the device-specific metadata of this device. 
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_this_device_metadata">WSD_THIS_DEVICE_METADATA</a> structure that specifies the device-specific metadata of this device. 
 Do not release this object.
 
 
@@ -111,9 +111,9 @@ Method completed successfully.
 
 
 
-<b>GetThisDeviceMetadata</b> will not cause the device proxy to retrieve metadata from the device.  Instead, <b>GetThisDeviceMetadata</b> will return the metadata retrieved with the last call to <a href="https://msdn.microsoft.com/8aa71ef1-61b9-411b-9e8c-75470c638469">BeginGetMetadata</a> and <a href="https://msdn.microsoft.com/c59ee37f-9189-4c32-8404-23cc94d76ad9">EndGetMetadata</a>.  If neither of these methods has been called, <b>GetThisDeviceMetadata</b> will return the metadata retrieved when the <a href="https://msdn.microsoft.com/a1a54ba0-241a-4c3d-8113-89c0f8171c40">IWSDDeviceProxy</a> object was initialized.
+<b>GetThisDeviceMetadata</b> will not cause the device proxy to retrieve metadata from the device.  Instead, <b>GetThisDeviceMetadata</b> will return the metadata retrieved with the last call to <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-begingetmetadata">BeginGetMetadata</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-endgetmetadata">EndGetMetadata</a>.  If neither of these methods has been called, <b>GetThisDeviceMetadata</b> will return the metadata retrieved when the <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a> object was initialized.
 
-Upon success, the memory at <i>ppMetadata</i> will be valid until <a href="https://msdn.microsoft.com/8aa71ef1-61b9-411b-9e8c-75470c638469">BeginGetMetadata</a> or <a href="https://msdn.microsoft.com/c59ee37f-9189-4c32-8404-23cc94d76ad9">EndGetMetadata</a> is called or until the <a href="https://msdn.microsoft.com/a1a54ba0-241a-4c3d-8113-89c0f8171c40">IWSDDeviceProxy</a> object is released.
+Upon success, the memory at <i>ppMetadata</i> will be valid until <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-begingetmetadata">BeginGetMetadata</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-endgetmetadata">EndGetMetadata</a> is called or until the <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a> object is released.
 
 
 
@@ -123,7 +123,7 @@ Upon success, the memory at <i>ppMetadata</i> will be valid until <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/a1a54ba0-241a-4c3d-8113-89c0f8171c40">IWSDDeviceProxy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a>
  
 
  

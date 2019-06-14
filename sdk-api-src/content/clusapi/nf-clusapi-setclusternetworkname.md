@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the name for a  <a href="https://msdn.microsoft.com/57d16e1f-e774-4ffb-b26b-7e72d6d589aa">network</a>. The <b>PCLUSAPI_SET_CLUSTER_NETWORK_NAME</b> type defines a pointer to this function.
+Sets the name for a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/networks">network</a>. The <b>PCLUSAPI_SET_CLUSTER_NETWORK_NAME</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -74,7 +74,7 @@ Pointer to a null-terminated Unicode string containing the new network name.
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>.
+the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 
 
@@ -83,7 +83,7 @@ the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f
 
 
 
-<b>SetClusterNetworkName</b> changes the  <a href="https://msdn.microsoft.com/f494788e-4581-4a1a-8b10-24b8715f5fce">Name</a> common property of the network identified by <i>hNetwork</i>. This is the only way that  <b>Name</b>, a read-only property, can be changed.
+<b>SetClusterNetworkName</b> changes the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/networks-name">Name</a> common property of the network identified by <i>hNetwork</i>. This is the only way that  <b>Name</b>, a read-only property, can be changed.
 
 
 
@@ -93,11 +93,11 @@ the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f
 
 
 
-<a href="https://msdn.microsoft.com/f494788e-4581-4a1a-8b10-24b8715f5fce">Name</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/networks-name">Name</a>
 
 
 
-<a href="https://msdn.microsoft.com/a888ca91-e56f-42bc-81c5-9235c6fd5172">OpenClusterNetwork</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusternetwork">OpenClusterNetwork</a>
  
 
  

@@ -65,13 +65,13 @@ This property is read/write.
 
 
 This property must be set in order for FSRM to send email. To verify settings, call the 
-    <a href="https://msdn.microsoft.com/dda57309-8e77-4934-bb3e-d208d4607ea5">IFsrmSetting::EmailTest</a> method.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-emailtest">IFsrmSetting::EmailTest</a> method.
 
 
 #### Examples
 
 For an example, see 
-     <a href="https://msdn.microsoft.com/dda57309-8e77-4934-bb3e-d208d4607ea5">IFsrmSetting::EmailTest</a>.
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-emailtest">IFsrmSetting::EmailTest</a>.
 
 <div class="code"></div>
 
@@ -82,11 +82,11 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/0c27393a-9a84-4147-a7e0-582c0bf2d918">FsrmSetting</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmsetting">FsrmSetting</a>
 
 
 
-<a href="https://msdn.microsoft.com/432fbaaa-7ddb-4d8c-bfbe-40cd26b08f9b">IFsrmSetting</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmsetting">IFsrmSetting</a>
  
 
  

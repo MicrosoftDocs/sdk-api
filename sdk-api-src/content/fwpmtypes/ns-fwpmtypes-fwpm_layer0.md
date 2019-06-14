@@ -64,7 +64,7 @@ Uniquely identifies the layer.
 
 ### -field displayData
 
-Allows layers to be annotated in a human-readable form. The <b>name</b> member of the <a href="https://msdn.microsoft.com/b86ca572-b4f4-4d40-adfd-fb0e9d32fcd5">FWPM_DISPLAY_DATA0</a> structure is not <b>NULL</b>.
+Allows layers to be annotated in a human-readable form. The <b>name</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0_">FWPM_DISPLAY_DATA0</a> structure is not <b>NULL</b>.
 
 
 ### -field flags
@@ -129,7 +129,7 @@ Number of fields in the layer.
 
 Schema information for the layer's fields.
 
-See <a href="https://msdn.microsoft.com/30d68d48-156e-440b-8607-8b64cfa25049">FWPM_FIELD0</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_field0_">FWPM_FIELD0</a> for more information.
 
 
 ### -field defaultSubLayerKey
@@ -146,7 +146,7 @@ LUID that identifies this layer.
 
 
 
-<b>FWPM_LAYER0</b> is a specific implementation of FWPM_LAYER. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FWPM_LAYER0</b> is a specific implementation of FWPM_LAYER. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -156,15 +156,15 @@ LUID that identifies this layer.
 
 
 
-<a href="https://msdn.microsoft.com/b86ca572-b4f4-4d40-adfd-fb0e9d32fcd5">FWPM_DISPLAY_DATA0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0_">FWPM_DISPLAY_DATA0</a>
 
 
 
-<a href="https://msdn.microsoft.com/30d68d48-156e-440b-8607-8b64cfa25049">FWPM_FIELD0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_field0_">FWPM_FIELD0</a>
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

@@ -59,7 +59,7 @@ The <b>ITfUIElementMgr::BeginUIElement</b> method is called by a text service be
 
 ### -param pElement [in]
 
-[in] A pointer to the <a href="https://msdn.microsoft.com/651c3ca1-5e5b-4978-80d2-2183bd158610">ITfUIElement</a> interface of the UIElement object.
+[in] A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfuielement">ITfUIElement</a> interface of the UIElement object.
 
 
 ### -param pbShow
@@ -123,7 +123,7 @@ One or more parameters are invalid.
 </dl>
 </td>
 <td width="60%">
-Recursion call of <a href="https://msdn.microsoft.com/7b4d3f4e-bf30-45c6-8709-88b71b25d333">ITfUIElementMgr</a> interface happened.
+Recursion call of <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfuielementmgr">ITfUIElementMgr</a> interface happened.
 
 </td>
 </tr>

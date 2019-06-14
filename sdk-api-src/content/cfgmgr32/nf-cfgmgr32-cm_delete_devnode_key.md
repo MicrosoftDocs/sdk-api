@@ -114,11 +114,11 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-<a href="https://msdn.microsoft.com/bd69ec16-e8a3-4372-babf-65f8abb7a012">CM_Open_DevNode_Key</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_open_devnode_key">CM_Open_DevNode_Key</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b332291-0593-4750-9965-f6bf90ec8838">SetupDiDeleteDevRegKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdideletedevregkey">SetupDiDeleteDevRegKey</a>
  
 
  

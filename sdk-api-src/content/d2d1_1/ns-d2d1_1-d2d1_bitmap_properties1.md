@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-This structure allows a <a href="https://msdn.microsoft.com/669a9377-248c-4a86-b447-ed117fff43a6">ID2D1Bitmap1</a> to be created with bitmap options and color context information available.
+This structure allows a <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1bitmap1">ID2D1Bitmap1</a> to be created with bitmap options and color context information available.
 
 
 
@@ -60,7 +60,7 @@ This structure allows a <a href="https://msdn.microsoft.com/669a9377-248c-4a86-b
 
 ### -field pixelFormat
 
-Type: <b><a href="https://msdn.microsoft.com/e95afd9c-5793-4cb7-bcb8-aae4d28b6532">D2D1_PIXEL_FORMAT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d1_pixel_format">D2D1_PIXEL_FORMAT</a></b>
 
 The DXGI format and alpha mode to create the bitmap with.
 
@@ -81,14 +81,14 @@ The bitmap dpi in the y direction.
 
 ### -field bitmapOptions
 
-Type: <b><a href="https://msdn.microsoft.com/c080e23e-99c4-46ed-8b21-be26dec288af">D2D1_BITMAP_OPTIONS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_bitmap_options">D2D1_BITMAP_OPTIONS</a></b>
 
 The special creation options of the bitmap.
 
 
 ### -field colorContext
 
-Type: <b><a href="https://msdn.microsoft.com/acdda11e-eb3f-4258-b24e-daa3b7a23fd6">ID2D1ColorContext</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1colorcontext">ID2D1ColorContext</a>*</b>
 
 The optionally specified color context information.
 
@@ -107,7 +107,7 @@ If both <b>dpiX</b> and <b>dpiY</b> are 0, the dpi of the bitmap will be set to 
 
 
 
-<a href="https://msdn.microsoft.com/8292da6b-8232-4ef0-967d-a53d586aa9a9">ID2D1DeviceContext::CreateBitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createbitmap(d2d1_size_u_constvoid_uint32_constd2d1_bitmap_properties1_id2d1bitmap1)">ID2D1DeviceContext::CreateBitmap</a>
  
 
  

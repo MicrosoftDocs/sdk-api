@@ -61,12 +61,12 @@ The <b>SetupDiBuildDriverInfoList</b> function builds a list of drivers that is 
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> to contain the driver list, either globally for all device information elements or specifically for a single device information element. The device information set must not contain remote device information elements.
+A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> to contain the driver list, either globally for all device information elements or specifically for a single device information element. The device information set must not contain remote device information elements.
 
 
 ### -param DeviceInfoData [in, out]
 
-A pointer to an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure for the device information element in <i>DeviceInfoSet</i> that represents the device for which to build a driver list. This parameter is optional and can be <b>NULL</b>. If this parameter is specified, the list is associated with the specified device. If this parameter is <b>NULL</b>, the list is associated with the global class driver list for <i>DeviceInfoSet</i>. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">SP_DEVINFO_DATA</a> structure for the device information element in <i>DeviceInfoSet</i> that represents the device for which to build a driver list. This parameter is optional and can be <b>NULL</b>. If this parameter is specified, the list is associated with the specified device. If this parameter is <b>NULL</b>, the list is associated with the global class driver list for <i>DeviceInfoSet</i>. 
 
 If the class of this device is updated because of building a compatible driver list, <i>DeviceInfoData.</i><b>ClassGuid</b> is updated upon return.
 
@@ -108,7 +108,7 @@ Build a list of compatible drivers. <i>DeviceInfoData</i> must not be <b>NULL</b
 
 
 
-The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by making a call to <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by making a call to <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -119,17 +119,17 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
 
 The device information set should be for a local computer because <b>SetupDiBuildDriverInfoList</b> searches for drivers only on a local computer. If the device information set is for a remote computer, the function returns <b>TRUE</b> but does not actually update the existing driver list for the device information set or, if supplied, the driver list for the device information element.
 
-The caller can set <b>Flags</b> in the <a href="https://msdn.microsoft.com/1bd21150-f8f4-480d-a4b2-99fa4b4233b9">SP_DEVINSTALL_PARAMS</a> that are associated with the device information set or with a specific device (<i>DeviceInfoData</i>) to control how the list is built. For example, the caller can set the <b>DI_FLAGSEX_ALLOWEXCLUDEDDRVS</b> flag to include drivers that are marked Exclude From Select.
+The caller can set <b>Flags</b> in the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinstall_params_a">SP_DEVINSTALL_PARAMS</a> that are associated with the device information set or with a specific device (<i>DeviceInfoData</i>) to control how the list is built. For example, the caller can set the <b>DI_FLAGSEX_ALLOWEXCLUDEDDRVS</b> flag to include drivers that are marked Exclude From Select.
 
 A driver is "Exclude From Select" if either it is marked <b>ExcludeFromSelect</b> in the INF file or it is a driver for a device whose whole setup class is marked <b>NoInstallClass</b> or <b>NoUseClass</b> in the class installer INF file. Drivers for PnP devices are typically "Exclude From Select"; PnP devices should not be manually installed. To build a list of driver files for a PnP device a caller of <b>SetupDiBuildDriverInfoList</b> must set this flag. 
 
-The <b>DriverPath</b> in the <a href="https://msdn.microsoft.com/1bd21150-f8f4-480d-a4b2-99fa4b4233b9">SP_DEVINSTALL_PARAMS</a> contains either a path of a directory that contain INF files or a path of a specific INF file. If <b>DI_ENUMSINGLEINF</b> is set, <b>DriverPath</b> contains a path of a single INF file. If <b>DriverPath</b> is <b>NULL</b>, this function builds the driver list from the default INF file location, %SystemRoot%\inf. 
+The <b>DriverPath</b> in the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinstall_params_a">SP_DEVINSTALL_PARAMS</a> contains either a path of a directory that contain INF files or a path of a specific INF file. If <b>DI_ENUMSINGLEINF</b> is set, <b>DriverPath</b> contains a path of a single INF file. If <b>DriverPath</b> is <b>NULL</b>, this function builds the driver list from the default INF file location, %SystemRoot%\inf. 
 
-After this function has built the specified driver list, the caller can enumerate the elements of the list by calling <a href="https://msdn.microsoft.com/c4a66d0c-e9a9-41f8-87df-576795667b5c">SetupDiEnumDriverInfo</a>.
+After this function has built the specified driver list, the caller can enumerate the elements of the list by calling <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdienumdriverinfoa">SetupDiEnumDriverInfo</a>.
 
 If the driver list is associated with a device instance (that is, <i>DeviceInfoData</i> is specified), the resulting list is composed of drivers that have the same class as the device instance with which they are associated. If this is a global class driver list (that is, <i>DriverType</i> is <b>SPDIT_CLASSDRIVER</b> and <i>DeviceInfoData</i> is not specified), the class that is used when building the list is the class associated with the device information set. If the device information set has no associated class, drivers of all classes are used when building the list.
 
-Another thread can terminate the building of a driver list by a call to <a href="https://msdn.microsoft.com/847f1f5e-5634-44ea-b530-6136629f0471">SetupDiCancelDriverInfoSearch</a>.
+Another thread can terminate the building of a driver list by a call to <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicanceldriverinfosearch">SetupDiCancelDriverInfoSearch</a>.
 
 The <i>DeviceInfoSet</i> must only contain elements on the local computer. This function only searches for local drivers.
 
@@ -141,15 +141,15 @@ The <i>DeviceInfoSet</i> must only contain elements on the local computer. This 
 
 
 
-<a href="https://msdn.microsoft.com/847f1f5e-5634-44ea-b530-6136629f0471">SetupDiCancelDriverInfoSearch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicanceldriverinfosearch">SetupDiCancelDriverInfoSearch</a>
 
 
 
-<a href="https://msdn.microsoft.com/d8067609-1046-4641-9f57-b0ee2be5a3b2">SetupDiDestroyDriverInfoList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdidestroydriverinfolist">SetupDiDestroyDriverInfoList</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4a66d0c-e9a9-41f8-87df-576795667b5c">SetupDiEnumDriverInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdienumdriverinfoa">SetupDiEnumDriverInfo</a>
  
 
  

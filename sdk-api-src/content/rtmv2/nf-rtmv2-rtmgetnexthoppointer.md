@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>RtmGetNextHopPointer</b> function obtains a direct pointer to the specified next hop. The pointer allows the next-hop owner direct read access to the routing table manager's 
-<a href="https://msdn.microsoft.com/17705e5b-0905-45a5-b76e-e381e863a1ea">RTM_NEXTHOP_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_nexthop_info">RTM_NEXTHOP_INFO</a> structure.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param RtmRegHandle [in]
 
 Handle to the client obtained from a previous call to 
-<a href="https://msdn.microsoft.com/2b952ea2-cf33-49e3-ae31-a14b0907a1b5">RtmRegisterEntity</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
 
 
 ### -param NextHopHandle [in]
@@ -127,7 +127,7 @@ The handle is invalid.
 Clients should only use this pointer for read-only access.
 
 When the next hop handle is no longer required, release it by calling 
-<a href="https://msdn.microsoft.com/1c5a9b72-8605-4c54-bc44-b7a1a4e1b367">RtmReleaseNextHopInfo</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleasenexthopinfo">RtmReleaseNextHopInfo</a>.
 
 
 
@@ -137,23 +137,23 @@ When the next hop handle is no longer required, release it by calling
 
 
 
-<a href="https://msdn.microsoft.com/17705e5b-0905-45a5-b76e-e381e863a1ea">RTM_NEXTHOP_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_nexthop_info">RTM_NEXTHOP_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c11397b-f5c9-4a3e-88d8-2f1736f5da13">RtmAddNextHop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmaddnexthop">RtmAddNextHop</a>
 
 
 
-<a href="https://msdn.microsoft.com/708a890e-4dc6-49c7-b857-cdb8504e7f7f">RtmDeleteNextHop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmdeletenexthop">RtmDeleteNextHop</a>
 
 
 
-<a href="https://msdn.microsoft.com/82bf88ad-eb6d-4ea5-98a0-72280e341f83">RtmFindNextHop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmfindnexthop">RtmFindNextHop</a>
 
 
 
-<a href="https://msdn.microsoft.com/f5b6d430-a50e-49fc-8274-81bac1300477">RtmLockNextHop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmlocknexthop">RtmLockNextHop</a>
  
 
  

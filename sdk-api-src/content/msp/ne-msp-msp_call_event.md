@@ -50,9 +50,9 @@ ms.custom: 19H1
 
 
 The <b>MSP_CALL_EVENT</b> constant is returned within the 
-<a href="https://msdn.microsoft.com/5286fbe6-3553-42f1-82e6-5bb6f75f3305">MSP_EVENT_INFO</a> struct by the 
-<a href="https://msdn.microsoft.com/df5263f2-9d76-472d-b7fc-724d36f0b58f">GetEvent</a> method when 
-<a href="https://msdn.microsoft.com/53e19eff-b5f0-43fd-b59b-e85e75220282">MSP_EVENT</a> is ME_CALL_EVENT.
+<a href="https://docs.microsoft.com/windows/desktop/api/msp/ns-msp-__midl___midl_itf_msp_0000_0000_0005">MSP_EVENT_INFO</a> struct by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-getevent">GetEvent</a> method when 
+<a href="https://docs.microsoft.com/windows/desktop/api/msp/ne-msp-__midl___midl_itf_msp_0000_0000_0004">MSP_EVENT</a> is ME_CALL_EVENT.
 
 
 ## -enum-fields
@@ -95,19 +95,19 @@ No more data can be sent to or received from this stream. This happens when a se
 
 
 
-<a href="https://msdn.microsoft.com/df5263f2-9d76-472d-b7fc-724d36f0b58f">ITMSPAddress::GetEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-getevent">ITMSPAddress::GetEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/53e19eff-b5f0-43fd-b59b-e85e75220282">MSP_EVENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msp/ne-msp-__midl___midl_itf_msp_0000_0000_0004">MSP_EVENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/5286fbe6-3553-42f1-82e6-5bb6f75f3305">MSP_EVENT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msp/ns-msp-__midl___midl_itf_msp_0000_0000_0005">MSP_EVENT_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/53b7bcbd-571a-44da-a6db-10d4c3e5d30a">Media Service Provider Interface (MSPI)</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
  
 
  

@@ -68,7 +68,7 @@ The number of elements in <b>fgd</b>.
 
 ### -field fgd
 
-Type: <b><a href="https://msdn.microsoft.com/b81a7e52-5bd8-4fa4-bd76-9a58afaceec0">FILEDESCRIPTOR</a>[1]</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_filedescriptora">FILEDESCRIPTOR</a>[1]</b>
 
-An array of <a href="https://msdn.microsoft.com/b81a7e52-5bd8-4fa4-bd76-9a58afaceec0">FILEDESCRIPTOR</a> structures that contain the file information.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_filedescriptora">FILEDESCRIPTOR</a> structures that contain the file information.
 

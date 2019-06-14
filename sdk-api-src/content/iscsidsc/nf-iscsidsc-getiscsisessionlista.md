@@ -69,12 +69,12 @@ If the operation fails because the output buffer size was insufficient, the loca
 
 ### -param SessionCount [out]
 
-A pointer to a location that, on input, contains the number of <a href="https://msdn.microsoft.com/5da4aa28-a630-41f2-abb2-5538c11242e6">ISCSI_SESSION_INFO</a> structures that the buffer that <i>SessionInfo</i> points to can contain. If the operation succeeds, the location receives the number of <b>ISCSI_SESSION_INFO</b> structures that were retrieved.
+A pointer to a location that, on input, contains the number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_session_infoa">ISCSI_SESSION_INFO</a> structures that the buffer that <i>SessionInfo</i> points to can contain. If the operation succeeds, the location receives the number of <b>ISCSI_SESSION_INFO</b> structures that were retrieved.
 
 
 ### -param SessionInfo [out]
 
-A pointer to a buffer that contains a series of contiguous structures of type <a href="https://msdn.microsoft.com/5da4aa28-a630-41f2-abb2-5538c11242e6">ISCSI_SESSION_INFO</a> that describe the active login sessions. 
+A pointer to a buffer that contains a series of contiguous structures of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_session_infoa">ISCSI_SESSION_INFO</a> that describe the active login sessions. 
 
 
 
@@ -94,7 +94,7 @@ Otherwise, <b>GetIscsiSessionList</b> returns the appropriate Win32 or iSCSI err
 
 
 
-<a href="https://msdn.microsoft.com/5da4aa28-a630-41f2-abb2-5538c11242e6">ISCSI_SESSION_INFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_session_infoa">ISCSI_SESSION_INFO</a>
  
 
  

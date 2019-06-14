@@ -61,7 +61,7 @@ Represents the required privileges for a service.
 
 ### -field pmszRequiredPrivileges
 
-A multi-string that specifies the privileges. For a list of possible values, see <a href="https://msdn.microsoft.com/973796a6-bc2e-4e64-92db-5e17b9c25460">Privilege Constants</a>.
+A multi-string that specifies the privileges. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/privilege-constants">Privilege Constants</a>.
 
 A multi-string is a sequence of null-terminated strings, terminated by an empty string (\0). The following is an example: <code>String1\0String2\0String3\0LastString\0\0</code>.
 
@@ -86,11 +86,11 @@ For compatibility, the SeChangeNotifyPrivilege privilege is never removed from a
 
 
 
-<a href="https://msdn.microsoft.com/6e5b79ed-52e1-460e-b076-01afbd08775c">ChangeServiceConfig2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb090e59-aeff-4420-bb7c-912a4911006f">QueryServiceConfig2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfig2a">QueryServiceConfig2</a>
  
 
  

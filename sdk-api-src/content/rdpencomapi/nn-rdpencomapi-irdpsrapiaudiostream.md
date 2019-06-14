@@ -56,7 +56,7 @@ Enables sending an audio stream from the collaboration sharer Microsoft ActiveX 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPIAudioStream</b> class inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IRDPSRAPIAudioStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPIAudioStream</b> class inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRDPSRAPIAudioStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,17 +71,17 @@ The <b>IRDPSRAPIAudioStream</b> class has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/03926ABF-D5D0-4D13-B081-0085EC698E9F">FreeBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiaudiostream-freebuffer">FreeBuffer</a>
 </td>
 <td align="left" width="63%">
 Releases the hold on the buffer after the 
-     <a href="https://msdn.microsoft.com/9A155107-1C43-49C2-BA92-4CBF37AEF4DB">GetBuffer</a> method is  called.
+     <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiaudiostream-getbuffer">GetBuffer</a> method is  called.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9A155107-1C43-49C2-BA92-4CBF37AEF4DB">GetBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiaudiostream-getbuffer">GetBuffer</a>
 </td>
 <td align="left" width="63%">
 Gets audio data from the buffer.
@@ -90,7 +90,7 @@ Gets audio data from the buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/EF94E441-1331-4317-A104-05BDA6738C5A">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiaudiostream-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the audio stream.
@@ -99,7 +99,7 @@ Initializes the audio stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/23ADA8F5-9F44-45E6-88DC-852D8F62F03F">Start</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiaudiostream-start">Start</a>
 </td>
 <td align="left" width="63%">
 Starts the audio stream.
@@ -108,7 +108,7 @@ Starts the audio stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D2F6264D-3855-4AF8-B295-59D51B90FD94">Stop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiaudiostream-stop">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops the audio stream.
@@ -123,7 +123,7 @@ Stops the audio stream.
 
 
 
-<a href="https://msdn.microsoft.com/bb1df622-bfcd-4d84-b5f6-780b693cc760">Windows Desktop Sharing Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdp/windows-desktop-sharing-interfaces">Windows Desktop Sharing Interfaces</a>
  
 
  

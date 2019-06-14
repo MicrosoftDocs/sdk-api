@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Called when the <a href="https://msdn.microsoft.com/34992c64-9956-4b23-a979-df7f678405b5">IMFSourceReader::Flush</a> method completes.
+Called when the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-flush">IMFSourceReader::Flush</a> method completes.
 
 
 ## -parameters
@@ -85,11 +85,11 @@ This interface is available on Windows Vista if Platform Update Supplement for 
 
 
 
-<a href="https://msdn.microsoft.com/fff8b6e6-5d56-4301-b3ce-f3ff49398593">IMFSourceReaderCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereadercallback">IMFSourceReaderCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a17a754-53ef-4c05-9189-7978d864b17a">Source Reader</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/source-reader">Source Reader</a>
  
 
  

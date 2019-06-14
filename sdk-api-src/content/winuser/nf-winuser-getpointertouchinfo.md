@@ -56,7 +56,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the touch-based information for the specified pointer (of type <a href="https://msdn.microsoft.com/3334DCD0-DAE1-4AC2-AB36-23D114803100">PT_TOUCH</a>) associated with the current message. 
+Gets the touch-based information for the specified pointer (of type <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-tagpointer_input_type">PT_TOUCH</a>) associated with the current message. 
 
 
 ## -parameters
@@ -71,7 +71,7 @@ An identifier of the pointer for which to retrieve information.
 
 ### -param touchInfo [out]
 
-Address of a <a href="https://msdn.microsoft.com/fee176ba-ad07-3141-ab4d-1b8c335fd102">POINTER_TOUCH_INFO</a> structure to receive the touch-specific pointer information.
+Address of a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_touch_info">POINTER_TOUCH_INFO</a> structure to receive the touch-specific pointer information.
 
 
 ## -returns
@@ -80,7 +80,7 @@ Address of a <a href="https://msdn.microsoft.com/fee176ba-ad07-3141-ab4d-1b8c335
 
 If the function succeeds, the return value is non-zero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -89,19 +89,19 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<b>GetPointerTouchInfo</b> retrieves information for a single pointer (of type <a href="https://msdn.microsoft.com/3334DCD0-DAE1-4AC2-AB36-23D114803100">PT_TOUCH</a>) associated with a pointer message. 
+<b>GetPointerTouchInfo</b> retrieves information for a single pointer (of type <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-tagpointer_input_type">PT_TOUCH</a>) associated with a pointer message. 
 
-Use <a href="https://msdn.microsoft.com/a100cc7a-62fc-4ace-8d35-e77aff98d944">GetPointerFrameTouchInfo</a> to retrieve frame information associated with a message  for a set of pointers.
+Use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerframetouchinfo">GetPointerFrameTouchInfo</a> to retrieve frame information associated with a message  for a set of pointers.
 
 The information returned by <b>GetPointerTouchInfo</b> is associated with the most recent pointer message retrieved by the calling thread. When the next message is retrieved by the calling thread, the information associated with the previous message may no longer be available.
 
-If the application does not process pointer input messages as fast as they are generated, some messages may be coalesced into a <a href="https://msdn.microsoft.com/3bdc37da-227c-4be1-bf0b-99704b8ac222">WM_POINTERUPDATE</a> message. Use <a href="https://msdn.microsoft.com/9fdfbde7-4126-4c1b-b870-479f846e1aa9">GetPointerTouchInfoHistory</a> to retrieve the message history from the most recent <b>WM_POINTERUPDATE</b> message. 
+If the application does not process pointer input messages as fast as they are generated, some messages may be coalesced into a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-pointerupdate">WM_POINTERUPDATE</a> message. Use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointertouchinfohistory">GetPointerTouchInfoHistory</a> to retrieve the message history from the most recent <b>WM_POINTERUPDATE</b> message. 
 
 If the information associated with the message is no longer available, this function fails with the last error set to <b>ERROR_NO_DATA</b>.
 
 If the calling thread does not own the window to which the pointer message has been delivered, this function fails with the last error set to <b>ERROR_ACCESS_DENIED</b>. Note that this may be the window to which the input was originally delivered or it may be a window to which the message was forwarded.
 
-If the specified pointer is not of type <a href="https://msdn.microsoft.com/3334DCD0-DAE1-4AC2-AB36-23D114803100">PT_TOUCH</a>, this function fails with the last error set to <b>ERROR_DATATYPE_MISMATCH</b>.
+If the specified pointer is not of type <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-tagpointer_input_type">PT_TOUCH</a>, this function fails with the last error set to <b>ERROR_DATATYPE_MISMATCH</b>.
 
 
 
@@ -111,19 +111,19 @@ If the specified pointer is not of type <a href="https://msdn.microsoft.com/3334
 
 
 
-<a href="https://msdn.microsoft.com/0123DCD0-DAE1-4AC2-AB36-23D114803138">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/a100cc7a-62fc-4ace-8d35-e77aff98d944">GetPointerFrameTouchInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerframetouchinfo">GetPointerFrameTouchInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/f2521a67-9850-46e9-bc8b-75bf5b6cc263">GetPointerFrameTouchInfoHistory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerframetouchinfohistory">GetPointerFrameTouchInfoHistory</a>
 
 
 
-<a href="https://msdn.microsoft.com/9fdfbde7-4126-4c1b-b870-479f846e1aa9">GetPointerTouchInfoHistory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointertouchinfohistory">GetPointerTouchInfoHistory</a>
  
 
  

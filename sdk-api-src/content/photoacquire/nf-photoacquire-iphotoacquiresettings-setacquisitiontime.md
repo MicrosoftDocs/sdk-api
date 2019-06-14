@@ -108,11 +108,11 @@ This method is typically used to force two sessions to show the same acquisition
 
 
 
-<a href="https://msdn.microsoft.com/0acafc4d-e4f5-4dce-a192-18d27024ad83">GetAcquisitionTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-getacquisitiontime">GetAcquisitionTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/c86d0c97-f9ef-4a73-865b-8aea7972193b">IPhotoAcquireSettings Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresettings">IPhotoAcquireSettings Interface</a>
  
 
  

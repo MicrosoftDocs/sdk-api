@@ -99,7 +99,7 @@ Specifies that the selected device is a removable drive in the file system.
 
 
 
-This enumeration type is pointed to by the <i>pnDeviceType</i> parameter of <a href="https://msdn.microsoft.com/eb79c07b-3b80-4f2b-b1f1-2394e1c7a30b">IPhotoAcquireDeviceSelectionDialog::DoModal</a>.
+This enumeration type is pointed to by the <i>pnDeviceType</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiredeviceselectiondialog-domodal">IPhotoAcquireDeviceSelectionDialog::DoModal</a>.
 
 
 
@@ -109,11 +109,11 @@ This enumeration type is pointed to by the <i>pnDeviceType</i> parameter of <a h
 
 
 
-<a href="https://msdn.microsoft.com/767d20df-aeb4-4f86-a705-bfbb7dc254ff">Enumeration Types</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/acquisition/enumeration-types">Enumeration Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb79c07b-3b80-4f2b-b1f1-2394e1c7a30b">IPhotoAcquireDeviceSelectionDialog::DoModal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiredeviceselectiondialog-domodal">IPhotoAcquireDeviceSelectionDialog::DoModal</a>
  
 
  

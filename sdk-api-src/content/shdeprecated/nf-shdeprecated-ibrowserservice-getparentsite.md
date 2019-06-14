@@ -60,9 +60,9 @@ Deprecated. Retrieves the browser parent's in-place client site.
 
 ### -param ppipsite [out]
 
-Type: <b><a href="https://msdn.microsoft.com/6d37e022-8c19-48b3-affb-e0eca19b5e05">IOleInPlaceSite</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a>**</b>
 
-The address of a pointer to an <a href="https://msdn.microsoft.com/6d37e022-8c19-48b3-affb-e0eca19b5e05">IOleInPlaceSite</a> that indicates the browser parent's in-place client site.
+The address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a> that indicates the browser parent's in-place client site.
 
 
 ## -returns

@@ -75,7 +75,7 @@ A pointer to the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> s
 
 Type: <b>LRESULT*</b>
 
-When this method returns, contains a pointer to an <b>LRESULT</b>, which contains one or more of the values from the <a href="https://msdn.microsoft.com/en-us/library/Bb775489(v=VS.85).aspx">CDRF Constants</a> enumeration.
+When this method returns, contains a pointer to an <b>LRESULT</b>, which contains one or more of the values from the <a href="https://docs.microsoft.com/windows/desktop/Controls/cdrf-constants">CDRF Constants</a> enumeration.
 
 
 ## -returns
@@ -94,7 +94,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/eac7c7c2-87f0-4af1-bf2f-f4fef5ddd92e">INameSpaceTreeControlCustomDraw</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-inamespacetreecontrolcustomdraw">INameSpaceTreeControlCustomDraw</a>
  
 
  

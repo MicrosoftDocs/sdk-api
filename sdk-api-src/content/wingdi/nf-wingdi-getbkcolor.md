@@ -70,7 +70,7 @@ Handle to the device context whose background color is to be returned.
 
 
 
-If the function succeeds, the return value is a <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> value for the current background color.
+If the function succeeds, the return value is a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> value for the current background color.
 
 If the function fails, the return value is CLR_INVALID.
 
@@ -82,23 +82,23 @@ If the function fails, the return value is CLR_INVALID.
 
 
 
-<a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
 
 
 
-<a href="https://msdn.microsoft.com/3faedb48-3163-48fd-b26e-712de9c4bfaf">GetBkMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getbkmode">GetBkMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/ec18323e-c13b-4328-83bf-9e4ed4a712b8">Painting and Drawing Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e6034af-4dea-4579-b476-52f6dd3d5bc7">Painting and Drawing Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/9163370b-19c5-4c23-9197-793e4b8d50c4">SetBkColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbkcolor">SetBkColor</a>
  
 
  

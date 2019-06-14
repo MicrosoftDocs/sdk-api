@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-The <b>GetCodecFormat</b> method retrieves one format supported by a specified codec. This method retrieves a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig</a> interface of a stream configuration object containing the stream settings for the supported format.
+The <b>GetCodecFormat</b> method retrieves one format supported by a specified codec. This method retrieves a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig">IWMStreamConfig</a> interface of a stream configuration object containing the stream settings for the supported format.
 
 
 
@@ -88,17 +88,17 @@ The <b>GetCodecFormat</b> method retrieves one format supported by a specified c
 
 ### -param dwCodecIndex [in]
 
-<b>DWORD</b> containing the codec index ranging from zero to one less than the number of supported codecs of the type specified by <i>guidType</i>. To retrieve the number of individual codecs supporting a major type, use the <a href="https://msdn.microsoft.com/en-us/library/Dd743324(v=VS.85).aspx">IWMCodecInfo::GetCodecInfoCount</a> method.
+<b>DWORD</b> containing the codec index ranging from zero to one less than the number of supported codecs of the type specified by <i>guidType</i>. To retrieve the number of individual codecs supporting a major type, use the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo-getcodecinfocount">IWMCodecInfo::GetCodecInfoCount</a> method.
 
 
 ### -param dwFormatIndex [in]
 
-<b>DWORD</b> containing the format index ranging from zero to one less than the number of supported formats. To retrieve the number of individual formats supported by a codec, use the <a href="https://msdn.microsoft.com/en-us/library/Dd743323(v=VS.85).aspx">IWMCodecInfo::GetCodecFormatCount</a> method.
+<b>DWORD</b> containing the format index ranging from zero to one less than the number of supported formats. To retrieve the number of individual formats supported by a codec, use the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo-getcodecformatcount">IWMCodecInfo::GetCodecFormatCount</a> method.
 
 
 ### -param ppIStreamConfig [out]
 
-Pointer to a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig</a> interface of a stream configuration object containing the settings of the specified format.
+Pointer to a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig">IWMStreamConfig</a> interface of a stream configuration object containing the settings of the specified format.
 
 
 ## -returns
@@ -146,11 +146,11 @@ An invalid or null value has been passed in.
 
 Use this method along with <b>GetCodecFormatCount</b> to enumerate the formats supported by the codec.
 
-The codec format describes the characteristics of the compressed data stream in the file, and has no direct correlation to the uncompressed format of the input media or the output media. The format of input media data is determined at the time of encoding, using the <a href="https://msdn.microsoft.com/en-us/library/Dd757484(v=VS.85).aspx">IWMWriter::SetInputProps</a> method. The format of output media data is determined at the time of decoding, using the <b>SetOutputProps</b> method of either the <a href="https://msdn.microsoft.com/en-us/library/Dd757425(v=VS.85).aspx">IWMReader</a> interface or the <a href="https://msdn.microsoft.com/en-us/library/Dd798576(v=VS.85).aspx">IWMSyncReader</a> interface.
+The codec format describes the characteristics of the compressed data stream in the file, and has no direct correlation to the uncompressed format of the input media or the output media. The format of input media data is determined at the time of encoding, using the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-setinputprops">IWMWriter::SetInputProps</a> method. The format of output media data is determined at the time of decoding, using the <b>SetOutputProps</b> method of either the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreader">IWMReader</a> interface or the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader</a> interface.
 
 The Windows Media Format SDK provides codecs only for audio and video. If you specify another major type, this method will return an error.
 
-The Windows Media Video codecs all support a single format that you must complete with your desired settings. When obtaining a video format, you can always use format index 1. For more information see <a href="https://msdn.microsoft.com/caffdfc1-3c35-4b7b-8643-5a9095cc11f6">Configuring Video Streams</a>.
+The Windows Media Video codecs all support a single format that you must complete with your desired settings. When obtaining a video format, you can always use format index 1. For more information see <a href="https://docs.microsoft.com/windows/desktop/wmformat/configuring-video-streams">Configuring Video Streams</a>.
 
 
 
@@ -160,15 +160,15 @@ The Windows Media Video codecs all support a single format that you must complet
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743313(v=VS.85).aspx">IWMCodecInfo Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo">IWMCodecInfo Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743323(v=VS.85).aspx">IWMCodecInfo::GetCodecFormatCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo-getcodecformatcount">IWMCodecInfo::GetCodecFormatCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig">IWMStreamConfig Interface</a>
  
 
  

@@ -151,11 +151,11 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/986C122D-4CC9-487F-8B9F-6B3F9B727E4A">ENCLAVE_SEALING_IDENTITY_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntenclv/ne-ntenclv-enclave_sealing_identity_policy">ENCLAVE_SEALING_IDENTITY_POLICY</a>
 
 
 
-<a href="https://msdn.microsoft.com/DDBDBEDE-E7EA-43B0-B2C7-B85D75EF3EB0">EnclaveUnsealData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclaveunsealdata">EnclaveUnsealData</a>
  
 
  

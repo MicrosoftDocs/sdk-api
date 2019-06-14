@@ -64,7 +64,7 @@ The zero-based index of the stream.
 
 ### -param pvContext [in]
 
-Pointer to an application-defined value. The value of this parameter is returned to the caller in the <i>pvContext</i>  parameter of the caller's <a href="https://msdn.microsoft.com/5b1ca6a7-c2bc-4b30-aa86-05bd4ccc052c">IMFSinkWriterCallback::OnMarker</a> callback method. The application is responsible for any memory allocation associated with this data. This parameter can be <b>NULL</b>. 
+Pointer to an application-defined value. The value of this parameter is returned to the caller in the <i>pvContext</i>  parameter of the caller's <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwritercallback-onmarker">IMFSinkWriterCallback::OnMarker</a> callback method. The application is responsible for any memory allocation associated with this data. This parameter can be <b>NULL</b>. 
 
 
 ## -returns
@@ -110,16 +110,16 @@ The request is invalid.
 
 
 
-To use this method, you must provide an asynchronous callback when you create the sink writer. Otherwise, the method returns <b>MF_E_INVALIDREQUEST</b>. For more information, see <a href="https://msdn.microsoft.com/22df1fa0-469d-4501-aaf0-a0379b7ed096">MF_SINK_WRITER_ASYNC_CALLBACK</a>.
+To use this method, you must provide an asynchronous callback when you create the sink writer. Otherwise, the method returns <b>MF_E_INVALIDREQUEST</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-sink-writer-async-callback">MF_SINK_WRITER_ASYNC_CALLBACK</a>.
 
-Markers provide a way to be notified when the media sink consumes all of the samples in a stream up to a certain point. The media sink does not process the marker until it has processed all of the samples that came before the marker. When the media sink processes the marker, the sink writer calls the application's <a href="https://msdn.microsoft.com/5b1ca6a7-c2bc-4b30-aa86-05bd4ccc052c">OnMarker</a> method. When the callback is invoked, you know that the sink has consumed all of the previous samples for that stream.
+Markers provide a way to be notified when the media sink consumes all of the samples in a stream up to a certain point. The media sink does not process the marker until it has processed all of the samples that came before the marker. When the media sink processes the marker, the sink writer calls the application's <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwritercallback-onmarker">OnMarker</a> method. When the callback is invoked, you know that the sink has consumed all of the previous samples for that stream.
 
-For example, to change the format midstream, call <b>PlaceMarker</b> at the point where the format changes. When <a href="https://msdn.microsoft.com/5b1ca6a7-c2bc-4b30-aa86-05bd4ccc052c">OnMarker</a> is called, it is safe to call <a href="https://msdn.microsoft.com/02a73f73-3b25-4578-9a7e-c9f8a4c8cd99">IMFSinkWriter::SetInputMediaType</a> to change the input type (assuming that the media sink supports dynamic format changes).
+For example, to change the format midstream, call <b>PlaceMarker</b> at the point where the format changes. When <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwritercallback-onmarker">OnMarker</a> is called, it is safe to call <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-setinputmediatype">IMFSinkWriter::SetInputMediaType</a> to change the input type (assuming that the media sink supports dynamic format changes).
 
-Internally, this method calls <a href="https://msdn.microsoft.com/bfa4fb12-59b2-4599-b8ff-dc38750a5a79">IMFStreamSink::PlaceMarker</a> on the media sink.
+Internally, this method calls <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfstreamsink-placemarker">IMFStreamSink::PlaceMarker</a> on the media sink.
 
 
-<div class="alert"><b>Note</b>  The <i>pvContext</i> parameter of the <b>IMFSinkWriter::PlaceMarker</b> method is not passed to the <i>pvarContextValue</i> parameter of the <a href="https://msdn.microsoft.com/bfa4fb12-59b2-4599-b8ff-dc38750a5a79">IMFStreamSink::PlaceMarker</a> method. These two parameters are not directly related.</div>
+<div class="alert"><b>Note</b>  The <i>pvContext</i> parameter of the <b>IMFSinkWriter::PlaceMarker</b> method is not passed to the <i>pvarContextValue</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfstreamsink-placemarker">IMFStreamSink::PlaceMarker</a> method. These two parameters are not directly related.</div>
 <div> </div>
 
 
@@ -133,11 +133,11 @@ This interface is available on Windows Vista if Platform Update Supplement for 
 
 
 
-<a href="https://msdn.microsoft.com/76fb915e-1586-429a-88a5-bd1290799352">IMFSinkWriter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwriter">IMFSinkWriter</a>
 
 
 
-<a href="https://msdn.microsoft.com/23AF25B8-B94C-48BC-83D8-5863ACFFD4CA">Sink Writer</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/sink-writer">Sink Writer</a>
  
 
  

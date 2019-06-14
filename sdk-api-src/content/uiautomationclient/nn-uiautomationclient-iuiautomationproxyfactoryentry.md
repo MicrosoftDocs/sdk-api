@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a proxy factory in the table maintained by Microsoft UI Automation, and exposes properties and methods that can be used by client applications to interact with <a href="https://msdn.microsoft.com/cdb2c94e-a5a7-41c3-b847-b23ea077abd3">IUIAutomationProxyFactory</a> objects.
+Represents a proxy factory in the table maintained by Microsoft UI Automation, and exposes properties and methods that can be used by client applications to interact with <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationproxyfactory">IUIAutomationProxyFactory</a> objects.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationProxyFactoryEntry</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUIAutomationProxyFactoryEntry</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationProxyFactoryEntry</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationProxyFactoryEntry</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IUIAutomationProxyFactoryEntry</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f8daa90f-9fad-48c7-8f22-e8c673fca330">GetWinEventsForAutomationEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationproxyfactoryentry-getwineventsforautomationevent">GetWinEventsForAutomationEvent</a>
 </td>
 <td align="left" width="63%">
 Retrieves the list of WinEvents that are mapped to a specific UI Automation event. If an element represented by this proxy raises one the listed WinEvents, the proxy handles it.
@@ -79,7 +79,7 @@ Retrieves the list of WinEvents that are mapped to a specific UI Automation even
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/694cc14b-837c-4e09-b1e7-91bdc237657f">SetWinEventsForAutomationEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationproxyfactoryentry-setwineventsforautomationevent">SetWinEventsForAutomationEvent</a>
 </td>
 <td align="left" width="63%">
 Maps UI Automation events to WinEvents.
@@ -97,7 +97,7 @@ Maps UI Automation events to WinEvents.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8aa64070-7dd6-4a51-8458-6341daa856c7">AllowSubstringMatch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationproxyfactoryentry-get_allowsubstringmatch">AllowSubstringMatch</a>
 
 
 </td>
@@ -113,7 +113,7 @@ Sets or retrieves a value that specifies whether the proxy allows substring matc
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c5a09754-4974-4742-ace8-55a2f290af83">CanCheckBaseClass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationproxyfactoryentry-get_cancheckbaseclass">CanCheckBaseClass</a>
 
 
 </td>
@@ -129,7 +129,7 @@ Sets or retrieves a value that specifies whether the base class can be checked w
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d27bfdbb-dcdb-49d5-9871-9ac13b3b67f8">ClassName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationproxyfactoryentry-get_classname">ClassName</a>
 
 
 </td>
@@ -145,7 +145,7 @@ Sets or retrieves the name of the window class served by the proxy factory.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/7a3fde44-5b22-4686-9d48-4bc8b651cb37">ImageName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationproxyfactoryentry-get_imagename">ImageName</a>
 
 
 </td>
@@ -161,7 +161,7 @@ Sets or retrieves the name of the image of the proxy factory.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/6a23b850-a2a0-4701-9725-e36213fcead7">NeedsAdviseEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationproxyfactoryentry-get_needsadviseevents">NeedsAdviseEvents</a>
 
 
 </td>
@@ -177,7 +177,7 @@ Sets or retrieves a value that specifies whether the proxy must be notified when
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/da6f0c23-b16d-4fd5-8d91-cc5a830a03c6">ProxyFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationproxyfactoryentry-get_proxyfactory">ProxyFactory</a>
 
 
 </td>
@@ -198,7 +198,7 @@ Retrieves the proxy factory associated with this entry.
 
 
 
-<a href="https://msdn.microsoft.com/46c6720a-19c2-4ddd-893c-1a46af0642fb">Proxy Factory Interfaces for Clients</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-proxyfactoryinterfaces">Proxy Factory Interfaces for Clients</a>
  
 
  

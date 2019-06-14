@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Adds an ink stroke to the <a href="https://msdn.microsoft.com/2b39fd32-831d-4606-8600-b52aaa7ed882">RecognizerContext</a>.
+Adds an ink stroke to the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">RecognizerContext</a>.
 
 
 
@@ -67,7 +67,7 @@ The handle to the recognizer context.
 
 ### -param pPacketDesc
 
-Describes the contents of the packets. The description must match the contents of the packets in <i>pPacket</i>. If <b>NULL</b>, this function uses the <a href="https://msdn.microsoft.com/6600b345-db7a-49ca-a54a-7d212952cb8f">GetPreferredPacketDescription</a> function.
+Describes the contents of the packets. The description must match the contents of the packets in <i>pPacket</i>. If <b>NULL</b>, this function uses the <a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-getpreferredpacketdescription">GetPreferredPacketDescription</a> function.
 
 
 ### -param cbPacket
@@ -183,7 +183,7 @@ An invalid argument was received.
 
 
 
-The recognizer must return properties such as <a href="https://msdn.microsoft.com/5fb53534-b15f-44e8-8bb3-31d6ba3a9bb4">Baseline</a> in ink space coordinates rather than tablet coordinates.
+The recognizer must return properties such as <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_baseline">Baseline</a> in ink space coordinates rather than tablet coordinates.
 
 It is recommended that your recognizer place a limit on the number of strokes per context and/or the points allowed in a given stroke. Limit input to 1024 strokes per context and 32767 points per stroke.
 
@@ -197,11 +197,11 @@ Strokes with zero points are not allowed. You should return E_FAIL in such a cas
 
 
 
-<a href="https://msdn.microsoft.com/6600b345-db7a-49ca-a54a-7d212952cb8f">GetPreferredPacketDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-getpreferredpacketdescription">GetPreferredPacketDescription</a>
 
 
 
-<a href="https://msdn.microsoft.com/6823f2c6-2c99-4b9a-8208-041fc1f7bf82">PACKET_DESCRIPTION Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tpcshrd/ns-tpcshrd-_packet_description">PACKET_DESCRIPTION Structure</a>
  
 
  

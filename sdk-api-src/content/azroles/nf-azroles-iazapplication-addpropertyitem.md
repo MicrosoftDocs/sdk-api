@@ -73,7 +73,7 @@ Property ID of the  list of principals to which to add the principal specified b
 </dl>
 </td>
 <td width="60%">
-Can also be added using the <a href="https://msdn.microsoft.com/944f93c1-5155-4c87-a241-9fdef84b68fc">AddPolicyAdministrator</a> method
+Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-addpolicyadministrator">AddPolicyAdministrator</a> method
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ Can also be added using the <a href="https://msdn.microsoft.com/944f93c1-5155-4c
 </dl>
 </td>
 <td width="60%">
-Can also be added using the <a href="https://msdn.microsoft.com/cc5f74c6-e1b6-4924-b5c1-2d3600ce37ef">AddPolicyAdministratorName</a> method
+Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-addpolicyadministratorname">AddPolicyAdministratorName</a> method
 
 </td>
 </tr>
@@ -93,7 +93,7 @@ Can also be added using the <a href="https://msdn.microsoft.com/cc5f74c6-e1b6-49
 </dl>
 </td>
 <td width="60%">
-Can also be added using the <a href="https://msdn.microsoft.com/fb44461c-e494-4393-bdcd-0e759f6fbae1">AddPolicyReader</a> method
+Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-addpolicyreader">AddPolicyReader</a> method
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ Can also be added using the <a href="https://msdn.microsoft.com/fb44461c-e494-43
 </dl>
 </td>
 <td width="60%">
-Can also be added using the <a href="https://msdn.microsoft.com/cc81527a-7a38-4c5c-857e-bedcda5a5ac3">AddPolicyReaderName</a> method
+Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-addpolicyreadername">AddPolicyReaderName</a> method
 
 </td>
 </tr>
@@ -113,7 +113,7 @@ Can also be added using the <a href="https://msdn.microsoft.com/cc81527a-7a38-4c
 </dl>
 </td>
 <td width="60%">
-Can also be added using the <a href="https://msdn.microsoft.com/89c0e1b9-cf51-4f4f-b530-7982645a9d14">AddDelegatedPolicyUser</a> method
+Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-adddelegatedpolicyuser">AddDelegatedPolicyUser</a> method
 
 </td>
 </tr>
@@ -123,7 +123,7 @@ Can also be added using the <a href="https://msdn.microsoft.com/89c0e1b9-cf51-4f
 </dl>
 </td>
 <td width="60%">
-Can also be added using the <a href="https://msdn.microsoft.com/f30392f6-7100-43dd-ab20-419cd02d9ea5">AddDelegatedPolicyUserName</a> method
+Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-adddelegatedpolicyusername">AddDelegatedPolicyUserName</a> method
 
 </td>
 </tr>
@@ -160,7 +160,7 @@ Any other <b>HRESULT</b> value indicates that the operation failed.
 
 
 
-You must call the <a href="https://msdn.microsoft.com/d00d55a1-884f-46c2-b80b-f90ce8f5c648">Submit</a> method to persist any changes made by this method.
+You must call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-submit">Submit</a> method to persist any changes made by this method.
 
 
 

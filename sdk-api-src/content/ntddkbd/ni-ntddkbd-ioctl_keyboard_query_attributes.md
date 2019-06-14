@@ -59,22 +59,22 @@ The IOCTL_KEYBOARD_QUERY_ATTRIBUTES request returns information about the keyboa
 
 ### -input-buffer
 
-<b>Parameters.DeviceIoControl.OutputBufferLength</b> is set to a value greater than or equal to the size, in bytes, of a <a href="https://msdn.microsoft.com/060e93de-b84e-4755-a5f8-cbc52d900310">KEYBOARD_ATTRIBUTES</a> structure.
+<b>Parameters.DeviceIoControl.OutputBufferLength</b> is set to a value greater than or equal to the size, in bytes, of a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_attributes">KEYBOARD_ATTRIBUTES</a> structure.
 
 
 ### -input-buffer-length
 
-The size of a <a href="https://msdn.microsoft.com/060e93de-b84e-4755-a5f8-cbc52d900310">KEYBOARD_ATTRIBUTES</a> structure.
+The size of a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_attributes">KEYBOARD_ATTRIBUTES</a> structure.
 
 
 ### -output-buffer
 
-<b>AssociatedIrp.SystemBuffer</b> points to a client-allocated buffer that I8042prt uses to output a <a href="https://msdn.microsoft.com/060e93de-b84e-4755-a5f8-cbc52d900310">KEYBOARD_ATTRIBUTES</a> structure.
+<b>AssociatedIrp.SystemBuffer</b> points to a client-allocated buffer that I8042prt uses to output a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_attributes">KEYBOARD_ATTRIBUTES</a> structure.
 
 
 ### -output-buffer-length
 
-The size of a <a href="https://msdn.microsoft.com/060e93de-b84e-4755-a5f8-cbc52d900310">KEYBOARD_ATTRIBUTES</a> structure.
+The size of a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_attributes">KEYBOARD_ATTRIBUTES</a> structure.
 
 
 ### -in-out-buffer
@@ -119,19 +119,19 @@ The request completed successfully.
 
 
 
-<a href="https://msdn.microsoft.com/3d70b34c-e201-40fc-99dd-cd05bdeec5f8">IOCTL_KEYBOARD_QUERY_INDICATORS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_query_indicators">IOCTL_KEYBOARD_QUERY_INDICATORS</a>
 
 
 
-<a href="https://msdn.microsoft.com/84006453-cf73-44f2-ac8b-ea03382e113d">IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_query_indicator_translation">IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/0c19670b-0440-4a7a-ad87-a97d3da28e74">IOCTL_KEYBOARD_QUERY_TYPEMATIC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_query_typematic">IOCTL_KEYBOARD_QUERY_TYPEMATIC</a>
 
 
 
-<a href="https://msdn.microsoft.com/060e93de-b84e-4755-a5f8-cbc52d900310">KEYBOARD_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_attributes">KEYBOARD_ATTRIBUTES</a>
  
 
  

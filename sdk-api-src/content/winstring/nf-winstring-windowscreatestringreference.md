@@ -64,7 +64,7 @@ Creates a new string reference based on the specified string.
 
 Type: <b>PCWSTR</b>
 
-A null-terminated string to use as the source for the new <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a>.
+A null-terminated string to use as the source for the new <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>.
 
 A value of <b>NULL</b> represents the empty string, if the value of <i>length</i> is 0. Should be allocated on the stack frame. 
 
@@ -78,16 +78,16 @@ The length of <i>sourceString</i>, in Unicode characters. Must be 0 if <i>source
 
 ### -param hstringHeader [out]
 
-Type: <b><a href="https://msdn.microsoft.com/E63E73A7-1908-4CEC-ADCB-1A3D23BE8A3B">HSTRING_HEADER</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/hstring/ns-hstring-hstring_header">HSTRING_HEADER</a>*</b>
 
 A pointer to a structure that the Windows Runtime uses to identify <i>string</i> as a string reference, or fast-pass string.
 
 
 ### -param string [out]
 
-Type: <b><a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>*</b>
 
-A pointer to the newly created string, or <b>NULL</b> if an error occurs. Any existing  content in <i>string</i> is overwritten. The <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a> is a standard handle type.
+A pointer to the newly created string, or <b>NULL</b> if an error occurs. Any existing  content in <i>string</i> is overwritten. The <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> is a standard handle type.
 
 
 ## -returns
@@ -110,7 +110,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-The  <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a> was created successfully.
+The  <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> was created successfully.
 
 </td>
 </tr>
@@ -132,7 +132,7 @@ Either <i>string</i> or <i>hstringHeader</i>  is <b>NULL</b>, or <i>string</i> i
 </dl>
 </td>
 <td width="60%">
-Failed to allocate the new <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a>.
+Failed to allocate the new <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>.
 
 </td>
 </tr>
@@ -157,13 +157,13 @@ Failed to allocate the new <a href="https://msdn.microsoft.com/763ACE57-EFDD-482
 
 
 
-Use the <b>WindowsCreateStringReference</b> function to create an <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a> from an existing string. This kind of <b>HSTRING</b> is named a <i>fast-pass string</i>. Unlike an <b>HSTRING</b> created by the <a href="https://msdn.microsoft.com/CACEFB80-A47E-45A7-9E13-29C1326B9453">WindowsCreateString</a> function, the lifetime of the backing buffer in the new <b>HSTRING</b> is  not managed by the Windows Runtime.  The caller allocates <i>sourceString</i> on the  stack frame, together with an uninitialized <a href="https://msdn.microsoft.com/E63E73A7-1908-4CEC-ADCB-1A3D23BE8A3B">HSTRING_HEADER</a>, to avoid a heap allocation and eliminate the risk of a memory leak. The caller must ensure that <i>sourceString</i> and the contents of <i>hstringHeader</i> remain unchanged during the lifetime of the attached <b>HSTRING</b>.
+Use the <b>WindowsCreateStringReference</b> function to create an <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> from an existing string. This kind of <b>HSTRING</b> is named a <i>fast-pass string</i>. Unlike an <b>HSTRING</b> created by the <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowscreatestring">WindowsCreateString</a> function, the lifetime of the backing buffer in the new <b>HSTRING</b> is  not managed by the Windows Runtime.  The caller allocates <i>sourceString</i> on the  stack frame, together with an uninitialized <a href="https://docs.microsoft.com/windows/desktop/api/hstring/ns-hstring-hstring_header">HSTRING_HEADER</a>, to avoid a heap allocation and eliminate the risk of a memory leak. The caller must ensure that <i>sourceString</i> and the contents of <i>hstringHeader</i> remain unchanged during the lifetime of the attached <b>HSTRING</b>.
 
-You don't need to call the <a href="https://msdn.microsoft.com/79B9E5CF-396C-45FB-931B-7B50281A0446">WindowsDeleteString</a> function to de-allocate a fast-pass <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a>created by the <b>WindowsCreateStringReference</b> function.
+You don't need to call the <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a> function to de-allocate a fast-pass <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>created by the <b>WindowsCreateStringReference</b> function.
 
-To create an empty <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a>, pass <b>NULL</b> for <i>sourceString</i> and 0 for <i>length</i>. 
+To create an empty <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>, pass <b>NULL</b> for <i>sourceString</i> and 0 for <i>length</i>. 
 
-The Windows Runtime tracks a fast-pass string by using an <a href="https://msdn.microsoft.com/E63E73A7-1908-4CEC-ADCB-1A3D23BE8A3B">HSTRING_HEADER</a> structure, which is returned in the   <i>hstringHeader</i> out parameter. Do not change the contents of the <b>HSTRING_HEADER</b>.
+The Windows Runtime tracks a fast-pass string by using an <a href="https://docs.microsoft.com/windows/desktop/api/hstring/ns-hstring-hstring_header">HSTRING_HEADER</a> structure, which is returned in the   <i>hstringHeader</i> out parameter. Do not change the contents of the <b>HSTRING_HEADER</b>.
 
 
 
@@ -173,11 +173,11 @@ The Windows Runtime tracks a fast-pass string by using an <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/CACEFB80-A47E-45A7-9E13-29C1326B9453">WindowsCreateString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowscreatestring">WindowsCreateString</a>
 
 
 
-<a href="https://msdn.microsoft.com/79B9E5CF-396C-45FB-931B-7B50281A0446">WindowsDeleteString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Notifies the system that the application is about to end an operation
 
-Every call to <a href="https://msdn.microsoft.com/3E67057E-D09F-48BA-A95A-5D00F4783D9C">OperationStart</a> must be followed by a call to <b>OperationEnd</b>, otherwise the operation's record of file access patterns is discarded after 10 seconds.
+Every call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-operationstart">OperationStart</a> must be followed by a call to <b>OperationEnd</b>, otherwise the operation's record of file access patterns is discarded after 10 seconds.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Every call to <a href="https://msdn.microsoft.com/3E67057E-D09F-48BA-A95A-5D00F4
 
 ### -param OperationEndParams [in]
 
-An <a href="https://msdn.microsoft.com/45ABFE6A-7B70-418F-8C3C-6388079D1306">_OPERATION_END_PARAMETERS</a> structure that specifies <b>VERSION</b>, <b>OPERATION_ID</b> and <b>FLAGS</b>.
+An <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_operation_end_parameters">_OPERATION_END_PARAMETERS</a> structure that specifies <b>VERSION</b>, <b>OPERATION_ID</b> and <b>FLAGS</b>.
 
 
 ## -returns
@@ -77,7 +77,7 @@ An <a href="https://msdn.microsoft.com/45ABFE6A-7B70-418F-8C3C-6388079D1306">_OP
 
 
 
-The version of the <a href="https://msdn.microsoft.com/45ABFE6A-7B70-418F-8C3C-6388079D1306">_OPERATION_END_PARAMETERS</a> structure is defined as <b>OPERATION_API_VERSION</b> in the Windows SDK. 
+The version of the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_operation_end_parameters">_OPERATION_END_PARAMETERS</a> structure is defined as <b>OPERATION_API_VERSION</b> in the Windows SDK. 
 
 The  <b>OperationEnd</b> function is safe to call on any thread.
 
@@ -93,23 +93,23 @@ The  <b>OperationEnd</b> function is safe to call on any thread.
 
 
 
-<a href="https://msdn.microsoft.com/D5446D23-DBB5-4EB8-97E4-590537A33193">OPERATION_ID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/oprec/operation-id">OPERATION_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/c1051b62-0e67-4480-81c6-cb138d3296d6">Operation Recorder</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/oprec/-operation-portal">Operation Recorder</a>
 
 
 
-<a href="https://msdn.microsoft.com/3E67057E-D09F-48BA-A95A-5D00F4783D9C">OperationStart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-operationstart">OperationStart</a>
 
 
 
-<a href="https://msdn.microsoft.com/45ABFE6A-7B70-418F-8C3C-6388079D1306">_OPERATION_END_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_operation_end_parameters">_OPERATION_END_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/51AE0017-2CDE-4BCD-AE03-B366343DE558">_OPERATION_START_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_operation_start_parameters">_OPERATION_START_PARAMETERS</a>
  
 
  

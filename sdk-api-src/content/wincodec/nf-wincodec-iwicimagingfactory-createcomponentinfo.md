@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a new instance of the <a href="https://msdn.microsoft.com/a31267ed-60cd-4de9-9fed-26bb390b29e6">IWICComponentInfo</a> class for the given component class identifier (CLSID).
+Creates a new instance of the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwiccomponentinfo">IWICComponentInfo</a> class for the given component class identifier (CLSID).
 
 
 ## -parameters
@@ -66,9 +66,9 @@ The CLSID for the desired component.
 
 ### -param ppIInfo [out]
 
-Type: <b><a href="https://msdn.microsoft.com/a31267ed-60cd-4de9-9fed-26bb390b29e6">IWICComponentInfo</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwiccomponentinfo">IWICComponentInfo</a>**</b>
 
-A pointer that receives a pointer to a new <a href="https://msdn.microsoft.com/a31267ed-60cd-4de9-9fed-26bb390b29e6">IWICComponentInfo</a>.
+A pointer that receives a pointer to a new <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwiccomponentinfo">IWICComponentInfo</a>.
 
 
 ## -returns

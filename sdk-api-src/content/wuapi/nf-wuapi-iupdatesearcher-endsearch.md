@@ -59,12 +59,12 @@ Completes an asynchronous search for updates.
 
 ### -param searchJob [in]
 
-The <a href="https://msdn.microsoft.com/aec4a812-cf5d-4986-a776-29c366bb1771">ISearchJob</a> interface that the <a href="https://msdn.microsoft.com/8af818b1-7dd8-4f48-b447-5b6dfbfce420">BeginSearch</a> method returns.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-isearchjob">ISearchJob</a> interface that the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-beginsearch">BeginSearch</a> method returns.
 
 
 ### -param retval [out]
 
-An <a href="https://msdn.microsoft.com/f38c5b0f-8010-4db1-802c-5005c332188b">ISearchResult</a> interface that contains the following:
+An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-isearchresult">ISearchResult</a> interface that contains the following:
 
 <ul>
 <li>The result of an operation</li>
@@ -102,7 +102,7 @@ An  asynchronous search for updates is  successful.
 </dl>
 </td>
 <td width="60%">
-You cannot search for updates if the <a href="https://msdn.microsoft.com/b514545a-d983-491b-9a28-540bd5c4c128">ServerSelection</a> property of <a href="https://msdn.microsoft.com/f41b1689-d9fe-4697-91e9-a176d3b592c7">IUpdateSearcher</a> is set to <a href="https://msdn.microsoft.com/51caac5e-98a6-49e4-a175-6319349a6d68">ssManagedServer</a> or to <a href="https://msdn.microsoft.com/51caac5e-98a6-49e4-a175-6319349a6d68">ssDefault</a>, and the managed server on a computer is a Microsoft Software Update Services (SUS) 1.0 server.
+You cannot search for updates if the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_serverselection">ServerSelection</a> property of <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a> is set to <a href="https://docs.microsoft.com/windows/desktop/api/wuapicommon/ne-wuapicommon-tagserverselection">ssManagedServer</a> or to <a href="https://docs.microsoft.com/windows/desktop/api/wuapicommon/ne-wuapicommon-tagserverselection">ssDefault</a>, and the managed server on a computer is a Microsoft Software Update Services (SUS) 1.0 server.
 
 </td>
 </tr>
@@ -135,7 +135,7 @@ This  method cannot be called from a remote computer.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/4a0532ec-3613-4aa1-96d7-7291b9ca7a94">EndSearch</a> method returns <b>WU_E_INVALID_OPERATION</b> if <b>EndSearch</b> has already been called for the search  job.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-endsearch">EndSearch</a> method returns <b>WU_E_INVALID_OPERATION</b> if <b>EndSearch</b> has already been called for the search  job.
 
 </td>
 </tr>
@@ -160,7 +160,7 @@ An invalid criteria was encountered during a search.
 
 
 
-When you use any asynchronous WUA API in your app, you might need to implement a time-out mechanism. For more info about how to perform asynchronous WUA operations, see <a href="https://msdn.microsoft.com/1fb16904-732d-4341-8267-ab8896fc0f7c">Guidelines for Asynchronous WUA Operations</a>.
+When you use any asynchronous WUA API in your app, you might need to implement a time-out mechanism. For more info about how to perform asynchronous WUA operations, see <a href="https://docs.microsoft.com/windows/desktop/Wua_Sdk/guidelines-for-asynchronous-wua-operations">Guidelines for Asynchronous WUA Operations</a>.
 
 
 
@@ -171,7 +171,7 @@ When you use any asynchronous WUA API in your app, you might need to implement a
 
 
 
-<a href="https://msdn.microsoft.com/f41b1689-d9fe-4697-91e9-a176d3b592c7">IUpdateSearcher</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a>
  
 
  

@@ -76,7 +76,7 @@ This method returns the number of bytes of region data.
 
 
 
-The <b>Region::GetDataSize</b> method can be used before the <a href="https://msdn.microsoft.com/en-us/library/ms534765(v=VS.85).aspx">Region::GetData</a> method to determine the number of bytes needed to store the region data. Then, you can allocate a buffer that is the correct size to store the region data that is obtained by the <b>Region::GetData</b>.
+The <b>Region::GetDataSize</b> method can be used before the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-region-getdata">Region::GetData</a> method to determine the number of bytes needed to store the region data. Then, you can allocate a buffer that is the correct size to store the region data that is obtained by the <b>Region::GetData</b>.
 
 
 #### Examples
@@ -123,11 +123,11 @@ VOID Example_GetData(HDC)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534765(v=VS.85).aspx">Region::GetData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-region-getdata">Region::GetData</a>
  
 
  

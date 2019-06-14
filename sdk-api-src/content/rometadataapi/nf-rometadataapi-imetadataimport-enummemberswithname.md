@@ -117,7 +117,7 @@ The actual number of MemberDef tokens returned in <i>rgMembers</i>.
 
 
 
-This method enumerates fields and methods, but not properties or events. Unlike <a href="https://msdn.microsoft.com/cb1e90fe-e5c8-4f6d-b38a-ae7f46cb34e9">EnumMembers</a>, <b>EnumMembersWithName</b> discards all field and member tokens that do not have the specified name.
+This method enumerates fields and methods, but not properties or events. Unlike <a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-enummembers">EnumMembers</a>, <b>EnumMembersWithName</b> discards all field and member tokens that do not have the specified name.
 
 
 
@@ -127,7 +127,7 @@ This method enumerates fields and methods, but not properties or events. Unlike 
 
 
 
-<a href="https://msdn.microsoft.com/5457d9d3-9a43-4e89-a52f-1254662ed92a">IMetaDataImport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
  
 
  

@@ -56,7 +56,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>GetSecurityDescriptorRMControl</b> function retrieves the <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">resource manager</a> control bits.
+The <b>GetSecurityDescriptorRMControl</b> function retrieves the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager</a> control bits.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ The <b>GetSecurityDescriptorRMControl</b> function retrieves the <a href="https:
 ### -param SecurityDescriptor [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> structure that contains the <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">resource manager</a> control bits. The value of the <b>Control</b> member is set to SE_RM_CONTROL_VALID.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager</a> control bits. The value of the <b>Control</b> member is set to SE_RM_CONTROL_VALID.
 
 
 ### -param RMControl [out]
@@ -96,7 +96,7 @@ If the function fails, the following value is returned.
 </td>
 <td width="60%">
 The SE_RM_CONTROL_VALID bit flag is not set in the specified 
-<a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> structure.
 
 </td>
 </tr>
@@ -110,8 +110,8 @@ The SE_RM_CONTROL_VALID bit flag is not set in the specified
 
 
 
-The <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">resource manager</a> control bits are eight bits in the <b>Sbz1</b> member of the <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> structure that contains information specific to the resource manager accessing the structure. These bits should be accessed only through the <b>GetSecurityDescriptorRMControl</b> and 
-<a href="https://msdn.microsoft.com/fe9c736b-e047-4aa3-a3de-d5f2f2cdab4f">SetSecurityDescriptorRMControl</a> functions.
+The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager</a> control bits are eight bits in the <b>Sbz1</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> structure that contains information specific to the resource manager accessing the structure. These bits should be accessed only through the <b>GetSecurityDescriptorRMControl</b> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorrmcontrol">SetSecurityDescriptorRMControl</a> functions.
 
 
 
@@ -121,19 +121,19 @@ The <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">re
 
 
 
-<a href="https://msdn.microsoft.com/d9ce4ec5-5c09-4b33-93a1-39638a925986">Access Control Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/fe9c736b-e047-4aa3-a3de-d5f2f2cdab4f">SetSecurityDescriptorRMControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorrmcontrol">SetSecurityDescriptorRMControl</a>
  
 
  

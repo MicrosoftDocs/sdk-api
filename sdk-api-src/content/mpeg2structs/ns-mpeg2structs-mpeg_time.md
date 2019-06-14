@@ -90,7 +90,7 @@ The <b>MPEG_DURATION</b> structure is a <code>typedef</code> for the <b>MPEG_TIM
 
 
 
-<a href="https://msdn.microsoft.com/5ae43ac6-519d-486b-aaa5-c766f3194ef2">BDA Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-structures">BDA Structures</a>
  
 
  

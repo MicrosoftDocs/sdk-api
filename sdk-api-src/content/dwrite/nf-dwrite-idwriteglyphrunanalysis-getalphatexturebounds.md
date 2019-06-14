@@ -59,7 +59,7 @@ ms.custom: 19H1
 
 ### -param textureType
 
-Type: <b><a href="https://msdn.microsoft.com/c97ee0fd-2743-4f72-aa69-bf5e3780aa33">DWRITE_TEXTURE_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_texture_type">DWRITE_TEXTURE_TYPE</a></b>
 
 Specifies the type of texture requested. If a bi-level texture is requested, the
      bounding rectangle includes only bi-level glyphs. Otherwise, the bounding rectangle includes only antialiased
@@ -90,7 +90,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/d4739b55-1a9b-4346-9b47-d8adb98df163">IDWriteGlyphRunAnalysis</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwriteglyphrunanalysis">IDWriteGlyphRunAnalysis</a>
  
 
  

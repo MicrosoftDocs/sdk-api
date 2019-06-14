@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Represents additional capabilities of an <a href="https://msdn.microsoft.com/5C0896E4-E37E-49DF-B303-1814BCA6F5B3">IVisualTreeService2</a> object.
+Represents additional capabilities of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice">IVisualTreeService2</a> object.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVisualTreeService3</b> interface inherits from <a href="https://msdn.microsoft.com/5C0896E4-E37E-49DF-B303-1814BCA6F5B3">IVisualTreeService2</a>. <b>IVisualTreeService3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVisualTreeService3</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice">IVisualTreeService2</a>. <b>IVisualTreeService3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IVisualTreeService3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/86590A71-8BFC-4214-9F7C-1DF5B8391552">AddDictionaryItem</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice3-adddictionaryitem">AddDictionaryItem</a>
 </td>
 <td align="left" width="63%">
 	Adds an item to a <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.resourcedictionary">ResourceDictionary</a>, and re-resolves all elements in the tree that reference a resource with the specified key.
@@ -78,7 +78,7 @@ The <b>IVisualTreeService3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E836FE12-A49A-427C-8013-F1AFBD2C08A2">GetDictionaryItem</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice3-getdictionaryitem">GetDictionaryItem</a>
 </td>
 <td align="left" width="63%">
 Gets an item from a <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.resourcedictionary">ResourceDictionary</a>.
@@ -87,7 +87,7 @@ Gets an item from a <a href="https://docs.microsoft.com/en-us/dotnet/api/system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6239D855-7408-47ED-9090-E7726E7E403E">RemoveDictionaryItem</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice3-removedictionaryitem">RemoveDictionaryItem</a>
 </td>
 <td align="left" width="63%">
 	Removes an item from a <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.resourcedictionary">ResourceDictionary</a>, and re-resolves all elements in the tree that reference a resource with the specified key.
@@ -96,7 +96,7 @@ Gets an item from a <a href="https://docs.microsoft.com/en-us/dotnet/api/system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7DDF1FD0-AD9B-4679-831D-CEDF6524181B">ResolveResource</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice3-resolveresource">ResolveResource</a>
 </td>
 <td align="left" width="63%">
 Resolves a resource for an element in the tree and applies the resource to the property provided by the specified property index.
@@ -111,7 +111,7 @@ Resolves a resource for an element in the tree and applies the resource to the p
 
 
 
-<a href="https://msdn.microsoft.com/5C0896E4-E37E-49DF-B303-1814BCA6F5B3">IVisualTreeService2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice">IVisualTreeService2</a>
  
 
  

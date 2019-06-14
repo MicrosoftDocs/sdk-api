@@ -59,7 +59,7 @@ Gets the line spacing adjustment set for a multiline text paragraph.
 
 ### -param lineSpacingOptions [out]
 
-Type: <b><a href="https://msdn.microsoft.com/bb589a7a-374f-52fc-2fa4-4cc72c6ce6dc">DWRITE_LINE_SPACING</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/ns-dwrite_3-dwrite_line_spacing">DWRITE_LINE_SPACING</a>*</b>
 
 A structure describing how the space between lines is managed for the paragraph.
 
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/4396d2b0-240f-ee8b-1d21-c4294fb29b51">IDWriteTextFormat2</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritetextformat2">IDWriteTextFormat2</a>
  
 
  

@@ -50,16 +50,16 @@ ms.custom: 19H1
 
 
 
-The <b>IStreamBufferRecordControl</b> interface is used to control stream buffer <a href="https://msdn.microsoft.com/717a3b99-d998-4e64-aab6-6b06e18991da">Recording</a> objects.
+The <b>IStreamBufferRecordControl</b> interface is used to control stream buffer <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/recording-object">Recording</a> objects.
 
-Use the <a href="https://msdn.microsoft.com/a9f3b7e1-4f54-4802-af24-4b791ee646fc">IStreamBufferSink::CreateRecorder</a> method on the Stream Buffer Sink filter to create new Recording objects. After making a recording, stop the <b>Recording</b> object and release it before releasing the Stream Buffer Sink filter.
+Use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambuffersink-createrecorder">IStreamBufferSink::CreateRecorder</a> method on the Stream Buffer Sink filter to create new Recording objects. After making a recording, stop the <b>Recording</b> object and release it before releasing the Stream Buffer Sink filter.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamBufferRecordControl</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IStreamBufferRecordControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamBufferRecordControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStreamBufferRecordControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IStreamBufferRecordControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/313f2ad0-7401-4a36-a229-abfc67737324">GetRecordingStatus</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferrecordcontrol-getrecordingstatus">GetRecordingStatus</a>
 </td>
 <td align="left" width="63%">
 Retrieves the status of the <b>Recording</b> object.
@@ -83,7 +83,7 @@ Retrieves the status of the <b>Recording</b> object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e72ec34e-d3e3-4f5f-9336-d55135dc1e47">Start</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferrecordcontrol-start">Start</a>
 </td>
 <td align="left" width="63%">
 Starts a recording at a specified time.
@@ -92,7 +92,7 @@ Starts a recording at a specified time.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1b6a3ac4-076a-4fca-909c-6063637248a8">Stop</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferrecordcontrol-stop">Stop</a>
 </td>
 <td align="left" width="63%">
 Ends a recording at a specified time.
@@ -116,11 +116,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/1aee15a3-5bc8-401b-9b37-b9351fd7c91f">Creating Stream Buffer Recordings</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/creating-stream-buffer-recordings">Creating Stream Buffer Recordings</a>
 
 
 
-<a href="https://msdn.microsoft.com/b3e8703a-2b69-4262-9aaa-ff9ac8ca2f28">Stream Buffer Engine Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-engine-interfaces">Stream Buffer Engine Interfaces</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>NCryptCreatePersistedKey</b> function creates a new key and stores it in the specified key storage provider. After you create a key by using this function, you can use the <a href="https://msdn.microsoft.com/ad1148aa-5f64-4867-9e17-6b41cc0c20b7">NCryptSetProperty</a> function to set its properties; however, the key cannot be used until the <a href="https://msdn.microsoft.com/4386030d-4ce6-4b2e-adc5-a15ddc869349">NCryptFinalizeKey</a> function is called.
+The <b>NCryptCreatePersistedKey</b> function creates a new key and stores it in the specified key storage provider. After you create a key by using this function, you can use the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptsetproperty">NCryptSetProperty</a> function to set its properties; however, the key cannot be used until the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfinalizekey">NCryptFinalizeKey</a> function is called.
 
 
 ## -parameters
@@ -59,17 +59,17 @@ The <b>NCryptCreatePersistedKey</b> function creates a new key and stores it in 
 
 ### -param hProvider [in]
 
-The handle of the key storage provider to create the key in. This handle is obtained by using the <a href="https://msdn.microsoft.com/febcf440-78b3-420b-b13d-030e8071cd50">NCryptOpenStorageProvider</a> function.
+The handle of the key storage provider to create the key in. This handle is obtained by using the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenstorageprovider">NCryptOpenStorageProvider</a> function.
 
 
 ### -param phKey [out]
 
-The address of an <b>NCRYPT_KEY_HANDLE</b> variable that receives the handle of the key. When you have finished using this handle, release it by passing it to the <a href="https://msdn.microsoft.com/a5535cf9-ba8c-4212-badd-f1dc88903624">NCryptFreeObject</a> function.
+The address of an <b>NCRYPT_KEY_HANDLE</b> variable that receives the handle of the key. When you have finished using this handle, release it by passing it to the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreeobject">NCryptFreeObject</a> function.
 
 
 ### -param pszAlgId [in]
 
-A pointer to a null-terminated Unicode string that contains the identifier of the cryptographic algorithm to create the key. This can be one of the standard <a href="https://msdn.microsoft.com/a05ae7e6-d882-4287-9990-23e4cd340b05">CNG Algorithm Identifiers</a> or the identifier for another registered algorithm.
+A pointer to a null-terminated Unicode string that contains the identifier of the cryptographic algorithm to create the key. This can be one of the standard <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a> or the identifier for another registered algorithm.
 
 
 ### -param pszKeyName [in, optional]
@@ -246,7 +246,7 @@ A memory allocation failure occurred.
 
 
 
-If you are creating an RSA key pair, you can also have the key stored in legacy storage so that it can be used with the CryptoAPI by passing the <b>NCRYPT_WRITE_KEY_TO_LEGACY_STORE_FLAG</b> flag to the <a href="https://msdn.microsoft.com/4386030d-4ce6-4b2e-adc5-a15ddc869349">NCryptFinalizeKey</a> function when the key is finalized.
+If you are creating an RSA key pair, you can also have the key stored in legacy storage so that it can be used with the CryptoAPI by passing the <b>NCRYPT_WRITE_KEY_TO_LEGACY_STORE_FLAG</b> flag to the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfinalizekey">NCryptFinalizeKey</a> function when the key is finalized.
 
 A service must not call this function from its <a href="http://go.microsoft.com/fwlink/p/?linkid=137250">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
 
@@ -258,11 +258,11 @@ A service must not call this function from its <a href="http://go.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/2e1958a7-51e0-4731-b4cf-a90d6c1f9ae0">NCryptDeleteKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptdeletekey">NCryptDeleteKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/4386030d-4ce6-4b2e-adc5-a15ddc869349">NCryptFinalizeKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfinalizekey">NCryptFinalizeKey</a>
  
 
  

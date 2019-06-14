@@ -48,7 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-Instantiates a new instance of a <a href="https://msdn.microsoft.com/511AF313-C692-423B-AD5A-A0A36018572B">CD3D11_DEPTH_STENCIL_DESC</a> structure that is initialized with <a href="https://msdn.microsoft.com/5e136ca8-8655-4c75-9bc0-bcf3a7af930a">D3D11_DEPTH_STENCIL_DESC</a> values.
+Instantiates a new instance of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151632(v=vs.85)">CD3D11_DEPTH_STENCIL_DESC</a> structure that is initialized with <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_depth_stencil_desc">D3D11_DEPTH_STENCIL_DESC</a> values.
 
 ## -parameters
 
@@ -132,4 +132,4 @@ Here is how **CD3D11_DEPTH_STENCIL_DESC** assigns the provided values to the mem
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/511AF313-C692-423B-AD5A-A0A36018572B">CD3D11_DEPTH_STENCIL_DESC</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151632(v=vs.85)">CD3D11_DEPTH_STENCIL_DESC</a>

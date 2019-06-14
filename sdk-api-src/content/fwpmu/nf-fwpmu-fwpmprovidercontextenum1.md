@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>FwpmProviderContextEnum1</b> function returns the next page of results from the provider context enumerator.
-<div class="alert"><b>Note</b>  <b>FwpmProviderContextEnum1</b> is the specific implementation of FwpmProviderContextEnum used in Windows 7. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 8, <a href="https://msdn.microsoft.com/6c86d858-69f4-41bc-8e08-53c88d124879">FwpmProviderContextEnum2</a> is available. For Windows Vista, <a href="https://msdn.microsoft.com/a086c9b3-5cec-4cea-9224-ba423302eba8">FwpmProviderContextEnum0</a> is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FwpmProviderContextEnum1</b> is the specific implementation of FwpmProviderContextEnum used in Windows 7. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 8, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercontextenum2">FwpmProviderContextEnum2</a> is available. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercontextenum0">FwpmProviderContextEnum0</a> is available.</div><div> </div>
 
 ## -parameters
 
@@ -61,14 +61,14 @@ The <b>FwpmProviderContextEnum1</b> function returns the next page of results fr
 
 Type: <b>HANDLE</b>
 
-Handle for an open session to the filter engine. Call <a href="https://msdn.microsoft.com/5165f219-f3e0-4e84-915b-75912aab02b7">FwpmEngineOpen0</a> to open a session to the filter engine.
+Handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
 
 ### -param enumHandle [in]
 
 Type: <b>HANDLE</b>
 
-Handle for a provider context enumeration created by a call to <a href="https://msdn.microsoft.com/3b660e3a-fba6-4466-aa82-eb90c27ae004">FwpmProviderContextCreateEnumHandle0</a>.
+Handle for a provider context enumeration created by a call to <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercontextcreateenumhandle0">FwpmProviderContextCreateEnumHandle0</a>.
 
 
 ### -param numEntriesRequested [in]
@@ -80,7 +80,7 @@ The number of provider context objects requested.
 
 ### -param entries [out]
 
-Type: <b><a href="https://msdn.microsoft.com/34727579-9baf-4d50-b973-e864ddf651b0">FWPM_PROVIDER_CONTEXT1</a>***</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context1_">FWPM_PROVIDER_CONTEXT1</a>***</b>
 
 The returned provider context objects.
 
@@ -123,7 +123,7 @@ The provider contexts were enumerated successfully.
 </dl>
 </td>
 <td width="60%">
-A Windows Filtering Platform (WFP) specific error. See <a href="https://msdn.microsoft.com/11f3085a-f044-4a78-b47a-59b9086562bf">WFP Error Codes</a> for details.
+A Windows Filtering Platform (WFP) specific error. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
 
 </td>
 </tr>
@@ -151,7 +151,7 @@ Failure to communicate with the remote or local firewall engine.
 
 If the <i>numEntriesReturned</i> is less than the <i>numEntriesRequested</i>, the enumeration is exhausted. 
 
-The returned array of entries (but not the individual entries themselves) must be freed by a call to <a href="https://msdn.microsoft.com/ba9f8c1e-f75c-4bf0-b68b-e21a358575fc">FwpmFreeMemory0</a>.
+The returned array of entries (but not the individual entries themselves) must be freed by a call to <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmfreememory0">FwpmFreeMemory0</a>.
 
 A subsequent call using the same enumeration handle will return the next set of items following those in the last output buffer.
 
@@ -165,11 +165,11 @@ A subsequent call using the same enumeration handle will return the next set of 
 
 
 
-<a href="https://msdn.microsoft.com/34727579-9baf-4d50-b973-e864ddf651b0">FWPM_PROVIDER_CONTEXT1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context1_">FWPM_PROVIDER_CONTEXT1</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b660e3a-fba6-4466-aa82-eb90c27ae004">FwpmProviderContextCreateEnumHandle0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercontextcreateenumhandle0">FwpmProviderContextCreateEnumHandle0</a>
  
 
  

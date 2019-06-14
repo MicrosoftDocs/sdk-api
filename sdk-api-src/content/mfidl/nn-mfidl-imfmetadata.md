@@ -52,12 +52,12 @@ ms.custom: 19H1
 
 Manages metadata for an object. Metadata is information that describes a media file, stream, or other content. Metadata consists of individual properties, where each property contains a descriptive name and a value. A property may be associated with a particular language.
 
-To get this interface from a media source, use the <a href="https://msdn.microsoft.com/f32e78c9-a567-448d-947d-d7ea996bba5e">IMFMetadataProvider</a> interface.
+To get this interface from a media source, use the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmetadataprovider">IMFMetadataProvider</a> interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMetadata</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFMetadata</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMetadata</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMetadata</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMFMetadata</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7c9a406d-6144-4e9c-b62c-1d9c691391f0">DeleteProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmetadata-deleteproperty">DeleteProperty</a>
 </td>
 <td align="left" width="63%">
 Deletes a metadata property.
@@ -82,7 +82,7 @@ Deletes a metadata property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/69296ec5-5811-4f0f-ae9c-cabca3e66158">GetAllLanguages</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmetadata-getalllanguages">GetAllLanguages</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of all the languages in which metadata is available.
@@ -92,7 +92,7 @@ Retrieves a list of all the languages in which metadata is available.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e0944d42-d6e6-420d-9980-ca6c62736b3d">GetAllPropertyNames</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmetadata-getallpropertynames">GetAllPropertyNames</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of all the metadata property names on this object.
@@ -102,7 +102,7 @@ Retrieves a list of all the metadata property names on this object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/75295c93-a389-42c4-aa56-debc36a5f532">GetLanguage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmetadata-getlanguage">GetLanguage</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current language setting.
@@ -112,7 +112,7 @@ Retrieves the current language setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/177c8612-5c9f-4a71-9ee1-a4c67737af2d">GetProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmetadata-getproperty">GetProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of a metadata property.
@@ -122,7 +122,7 @@ Retrieves the value of a metadata property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/da615053-ddd5-448e-905c-b060cdaefa95">SetLanguage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmetadata-setlanguage">SetLanguage</a>
 </td>
 <td align="left" width="63%">
 Sets the language for setting and retrieving metadata.
@@ -132,7 +132,7 @@ Sets the language for setting and retrieving metadata.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/416a7fba-506c-405d-a230-7e8a1c801209">SetProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmetadata-setproperty">SetProperty</a>
 </td>
 <td align="left" width="63%">
 Sets the value of a metadata property.
@@ -148,15 +148,15 @@ Sets the value of a metadata property.
 
 
 
-<a href="https://msdn.microsoft.com/f32e78c9-a567-448d-947d-d7ea996bba5e">IMFMetadataProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmetadataprovider">IMFMetadataProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd7c4bc9-e2a6-49cd-8f29-865a44d5b5c9">Media Metadata</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-metadata">Media Metadata</a>
  
 
  

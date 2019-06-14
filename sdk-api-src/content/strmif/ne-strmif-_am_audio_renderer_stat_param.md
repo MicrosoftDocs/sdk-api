@@ -54,7 +54,7 @@ The <b>_AM_AUDIO_RENDERER_STAT_PARAM</b> enumeration specifies which performance
 
 
 
-This enumeration type is used in the <a href="https://msdn.microsoft.com/bc01cac7-316f-4d18-ae68-c3db4dbf03fa">IAMAudioRendererStats::GetStatParam</a> method. Each enumeration member defines the meaning of the values that are returned in the <i>pdwParam1</i> and <i>pdwParam2</i> parameters of <b>GetStatParam</b>.
+This enumeration type is used in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudiorendererstats-getstatparam">IAMAudioRendererStats::GetStatParam</a> method. Each enumeration member defines the meaning of the values that are returned in the <i>pdwParam1</i> and <i>pdwParam2</i> parameters of <b>GetStatParam</b>.
 
 
 ## -enum-fields
@@ -110,7 +110,7 @@ This enumeration type is used in the <a href="https://msdn.microsoft.com/bc01cac
 
 <i>Param2</i>: Not used.
 
-Valid only when the <a href="https://msdn.microsoft.com/ec6cc790-8c1f-4de4-a7ca-a7073894380e">DirectSound Renderer</a> is matching rates to another clock or a live source.
+Valid only when the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/directsound-renderer-filter">DirectSound Renderer</a> is matching rates to another clock or a live source.
 
 
 ### -field AM_AUDREND_STAT_PARAM_SLAVE_DROPWRITE_DUR
@@ -119,7 +119,7 @@ Valid only when the <a href="https://msdn.microsoft.com/ec6cc790-8c1f-4de4-a7ca-
 
 <i>Param2</i>: Not used.
 
-Applies only when the <a href="https://msdn.microsoft.com/a3f2776b-974b-4886-82a3-38e00b607a07">Audio Renderer (WaveOut)</a> filter is matching rates to a master clock.
+Applies only when the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/audio-renderer--waveout--filter">Audio Renderer (WaveOut)</a> filter is matching rates to a master clock.
 
 
 ### -field AM_AUDREND_STAT_PARAM_SLAVE_HIGHLOWERROR
@@ -166,11 +166,11 @@ Not implemented.
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/f5cca658-73ce-4f4d-8992-afb7824f4117">IAMAudioRendererStats Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamaudiorendererstats">IAMAudioRendererStats Interface</a>
  
 
  

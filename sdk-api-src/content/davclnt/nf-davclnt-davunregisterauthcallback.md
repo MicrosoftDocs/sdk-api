@@ -59,7 +59,7 @@ Unregisters a registered callback function that the WebDAV client uses to prompt
 
 ### -param hCallback [in]
 
-The opaque handle that was returned by the <a href="https://msdn.microsoft.com/7b381929-174f-4b7b-aa22-dc7a2c3e3b4d">DavRegisterAuthCallback</a> function.
+The opaque handle that was returned by the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nf-davclnt-davregisterauthcallback">DavRegisterAuthCallback</a> function.
 
 
 ## -returns
@@ -75,7 +75,7 @@ This function does not return a value.
 
 
 
-To register the callback function, use the <a href="https://msdn.microsoft.com/7b381929-174f-4b7b-aa22-dc7a2c3e3b4d">DavRegisterAuthCallback</a> function.
+To register the callback function, use the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nf-davclnt-davregisterauthcallback">DavRegisterAuthCallback</a> function.
 
 
 
@@ -85,7 +85,7 @@ To register the callback function, use the <a href="https://msdn.microsoft.com/7
 
 
 
-<a href="https://msdn.microsoft.com/7b381929-174f-4b7b-aa22-dc7a2c3e3b4d">DavRegisterAuthCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nf-davclnt-davregisterauthcallback">DavRegisterAuthCallback</a>
  
 
  

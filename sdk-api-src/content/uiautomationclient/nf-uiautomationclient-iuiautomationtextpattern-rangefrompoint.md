@@ -59,14 +59,14 @@ Retrieves the degenerate (empty) text range nearest to the specified screen coor
 
 ### -param pt [in]
 
-Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
 
 A structure that contains the location, in screen coordinates.
 
 
 ### -param range [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/1037919d-c8df-4d46-b3ce-62ee23c92145">IUIAutomationTextRange</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextrange">IUIAutomationTextRange</a>**</b>
 
 Receives a pointer to the degenerate text range nearest the specified location.
 
@@ -75,7 +75,7 @@ Receives a pointer to the degenerate text range nearest the specified location.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -93,8 +93,8 @@ Because hidden text is not ignored, this method retrieves a degenerate range fro
 The implementation of <b>RangeFromPoint</b> in Windows Internet Explorer 9 does not return the expected result. Instead, clients should:
 
 <ol>
-<li>Call the <a href="https://msdn.microsoft.com/7cf4e6d4-223c-4222-a181-c16a5a90ef65">GetVisibleRanges</a> method to retrieve an array of visible text ranges.</li>
-<li>For each text range in the array, call <a href="https://msdn.microsoft.com/a155d143-c5ec-4669-9635-fb8f8012a684">IUIAutomationTextRange::GetBoundingRectangles</a> to retrieve the bounding rectangles.</li>
+<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextpattern-getvisibleranges">GetVisibleRanges</a> method to retrieve an array of visible text ranges.</li>
+<li>For each text range in the array, call <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextrange-getboundingrectangles">IUIAutomationTextRange::GetBoundingRectangles</a> to retrieve the bounding rectangles.</li>
 <li>Check the bounding rectangles to find the text range that occupies the particular screen coordinates. </li>
 </ol>
 
@@ -105,11 +105,11 @@ The implementation of <b>RangeFromPoint</b> in Windows Internet Explorer 9 does
 
 
 
-<a href="https://msdn.microsoft.com/ddcf7ecd-7ed2-4b57-82a7-c7e1608dbfa1">IUIAutomationTextPattern</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextpattern">IUIAutomationTextPattern</a>
 
 
 
-<a href="https://msdn.microsoft.com/98a82ff8-f4b9-4f62-ae69-31a2c18de70e">UI Automation Support for Textual Content</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>
  
 
  

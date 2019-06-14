@@ -73,7 +73,7 @@ The capture stream. The value can be any of the following.
 </dl>
 </td>
 <td width="60%">
-The zero-based index of a stream.  To get the number of streams, call <a href="https://msdn.microsoft.com/0CD466EF-4753-42F6-A9B9-71CBB0668342">IMFCaptureSource::GetDeviceStreamCount</a>.
+The zero-based index of a stream.  To get the number of streams, call <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesource-getdevicestreamcount">IMFCaptureSource::GetDeviceStreamCount</a>.
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ The first audio stream.
 
 ### -param pUnknown [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface of the effect object. 
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the effect object. 
 
 
 ## -returns
@@ -173,7 +173,7 @@ The <i>dwSourceStreamIndex</i> parameter is invalid.
 
 
 
-This method removes an effect that was previously added using the <a href="https://msdn.microsoft.com/C108360D-0B8C-4539-9D78-A5559100086E">IMFCaptureSource::AddEffect</a> method.
+This method removes an effect that was previously added using the <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesource-addeffect">IMFCaptureSource::AddEffect</a> method.
 
 
 
@@ -183,7 +183,7 @@ This method removes an effect that was previously added using the <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/864B6B5D-EB7E-4C49-A326-9B6704A27635">IMFCaptureSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesource">IMFCaptureSource</a>
  
 
  

@@ -66,7 +66,7 @@ The miter limit value that is set for the stroke.
 
 
 
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -107,7 +107,7 @@ The method succeeded.
 
  The miter limit value is the ratio of the maximum miter length  to one-half of the stroke thickness.
 
-The miter limit value describes how to render a mitered line join; this value applies only if the line join style value is <a href="https://msdn.microsoft.com/en-us/library/Dd372963(v=VS.85).aspx">XPS_LINE_JOIN_MITER</a>.
+The miter limit value describes how to render a mitered line join; this value applies only if the line join style value is <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0007">XPS_LINE_JOIN_MITER</a>.
 
 
 
@@ -117,7 +117,7 @@ The miter limit value describes how to render a mitered line join; this value ap
 
 
 
-<a href="https://msdn.microsoft.com/93257a77-3fef-400e-bfe1-06e760ba4b93">IXpsOMPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompath">IXpsOMPath</a>
 
 
 
@@ -125,11 +125,11 @@ The miter limit value describes how to render a mitered line join; this value ap
 
 
 
-<a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd372963(v=VS.85).aspx">XPS_LINE_JOIN_MITER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0007">XPS_LINE_JOIN_MITER</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Do not use. Contains an array of <a href="https://msdn.microsoft.com/en-us/library/ms629452(v=VS.85).aspx">SRow</a> structures. Each <b>SRow</b> structure describes a row from a table.
+Do not use. Contains an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabdefs/ns-wabdefs-_srow">SRow</a> structures. Each <b>SRow</b> structure describes a row from a table.
 
 
 ## -struct-fields
@@ -62,12 +62,12 @@ Do not use. Contains an array of <a href="https://msdn.microsoft.com/en-us/libra
 
 Type: <b>ULONG</b>
 
-Variable of type <b>ULONG</b> that specifies the number of <a href="https://msdn.microsoft.com/en-us/library/ms629452(v=VS.85).aspx">SRow</a> structures in the <b>aRow</b> member.
+Variable of type <b>ULONG</b> that specifies the number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabdefs/ns-wabdefs-_srow">SRow</a> structures in the <b>aRow</b> member.
 
 
 ### -field aRow
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms629452(v=VS.85).aspx">SRow</a>[MAPI_DIM]</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabdefs/ns-wabdefs-_srow">SRow</a>[MAPI_DIM]</b>
 
-Array of variables of type <a href="https://msdn.microsoft.com/en-us/library/ms629452(v=VS.85).aspx">SRow</a> that specifies the structures that represent the rows in the table. 
+Array of variables of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabdefs/ns-wabdefs-_srow">SRow</a> that specifies the structures that represent the rows in the table. 
 

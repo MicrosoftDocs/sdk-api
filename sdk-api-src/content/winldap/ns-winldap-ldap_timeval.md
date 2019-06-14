@@ -81,11 +81,11 @@ The  <b>LDAP_TIMEVAL</b> structure specify both local timeouts and timeouts sent
 
 
 
-<a href="https://msdn.microsoft.com/1af7ea80-a65b-42bf-a1b2-ca54c173c9fb">Data Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/data-structures">Data Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/38482501-faa1-4055-9758-e1e0a4199688">Searching a Directory</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/searching-a-directory">Searching a Directory</a>
  
 
  

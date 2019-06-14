@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>get_Address</b> method gets the 
-<a href="https://msdn.microsoft.com/93f2e4cf-013e-4064-88d5-69fddd458274">ITAddress</a> interface pointer to the private object involved in the event.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a> interface pointer to the private object involved in the event.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param ppAddress [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/93f2e4cf-013e-4064-88d5-69fddd458274">ITAddress</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a> interface.
 
 
 ## -returns
@@ -120,15 +120,15 @@ The <i>ppAddress</i> parameter is not a valid pointer.
 
 
 
-<a href="https://msdn.microsoft.com/ab6db262-f99e-4027-9525-7597fcf02e72">Address Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/93f2e4cf-013e-4064-88d5-69fddd458274">ITAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/75a711e4-21b2-40a4-81f0-a210829178b9">ITPrivateEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itprivateevent">ITPrivateEvent</a>
  
 
  

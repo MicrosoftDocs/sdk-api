@@ -96,7 +96,7 @@ Value: 0x80004003
 
 
 
-For a list of supported compatibility levels, call the <a href="https://msdn.microsoft.com/fd19c3ce-ef84-4f15-9032-679115b8b21f">IFileSystemImage::get_ISO9660InterchangeLevelsSupported</a> method.
+For a list of supported compatibility levels, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_iso9660interchangelevelssupported">IFileSystemImage::get_ISO9660InterchangeLevelsSupported</a> method.
 
 
 
@@ -106,15 +106,15 @@ For a list of supported compatibility levels, call the <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/0256f1d2-a3fb-45b2-bd84-e2b71148e4ec">IFileSystemImage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd19c3ce-ef84-4f15-9032-679115b8b21f">IFileSystemImage::get_ISO9660InterchangeLevelsSupported</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_iso9660interchangelevelssupported">IFileSystemImage::get_ISO9660InterchangeLevelsSupported</a>
 
 
 
-<a href="https://msdn.microsoft.com/8bfb770a-5a69-4980-94e2-4a3f65caa645">IFileSystemImage::put_ISO9660InterchangeLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_iso9660interchangelevel">IFileSystemImage::put_ISO9660InterchangeLevel</a>
  
 
  

@@ -59,7 +59,7 @@ Gets the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure
 
 ### -param psi [in]
 
-Type: <b><a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
 A pointer to the item for which the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure is being retrieved.
 

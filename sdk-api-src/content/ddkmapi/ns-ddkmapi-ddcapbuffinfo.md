@@ -74,7 +74,7 @@ Used by Microsoft DirectDraw and should be ignored by the driver.
 
 ### -field ddRVal
 
-Specifies the location in which DirectDraw writes the return value of the <a href="https://msdn.microsoft.com/c4b38376-b54f-4fbb-b305-5951a1ea76a1">DxApi</a> function for the <a href="https://msdn.microsoft.com/d7e6fd1c-8865-4f55-868c-856b2f875053">DD_DXAPI_ADDVPCAPTUREBUFFER</a> operation. Contains DD_OK if the capture buffer contains valid data.
+Specifies the location in which DirectDraw writes the return value of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a> function for the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550599(v=vs.85)">DD_DXAPI_ADDVPCAPTUREBUFFER</a> operation. Contains DD_OK if the capture buffer contains valid data.
 
 
 ## -see-also
@@ -82,15 +82,15 @@ Specifies the location in which DirectDraw writes the return value of the <a hre
 
 
 
-<a href="https://msdn.microsoft.com/7ee3f5ce-987a-42c9-8681-5bcb9028178a">DDADDVPCAPTUREBUFF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-_ddaddvpcapturebuff">DDADDVPCAPTUREBUFF</a>
 
 
 
-<a href="https://msdn.microsoft.com/d7e6fd1c-8865-4f55-868c-856b2f875053">DD_DXAPI_ADDVPCAPTUREBUFFER</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550599(v=vs.85)">DD_DXAPI_ADDVPCAPTUREBUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4b38376-b54f-4fbb-b305-5951a1ea76a1">DxApi</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
  
 
  

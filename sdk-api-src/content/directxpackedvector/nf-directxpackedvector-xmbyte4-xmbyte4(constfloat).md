@@ -47,7 +47,7 @@ ms.custom: 19H1
 
 ## -description
 
-Initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee419276(v=VS.85).aspx">XMBYTE4</a> from a four element <code>float</code> array argument.
+Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte4">XMBYTE4</a> from a four element <code>float</code> array argument.
 
 This constructor initializes a new instance of <code>XMBYTE4</code> from a four element <code>float</code> array argument.
 
@@ -76,6 +76,6 @@ instance.w = (int8_t)min( max( pArray[3] -127.0 ), 127.0 );
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419276(v=VS.85).aspx">XMBYTE4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte4">XMBYTE4</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415258(v=VS.85).aspx">XMBYTE4 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmbyte4-ctor">XMBYTE4 Constructors</a>

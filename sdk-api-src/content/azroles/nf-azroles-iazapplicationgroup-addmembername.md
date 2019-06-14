@@ -60,7 +60,7 @@ The <b>AddMemberName</b> method adds the specified account name to the list of  
 
 ### -param bstrProp [in]
 
-String that contains the account name to add to the list of accounts that belong to the application group. The account name must be in user principal name (UPN) format. The <a href="https://msdn.microsoft.com/72855539-469a-4289-99cc-eae2ed89901f">LookupAccountName</a> function is called to retrieve the domain.
+String that contains the account name to add to the list of accounts that belong to the application group. The account name must be in user principal name (UPN) format. The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea">LookupAccountName</a> function is called to retrieve the domain.
 
 
 ### -param varReserved [in, optional]
@@ -72,9 +72,9 @@ Reserved for future use.
 
 
 
-To view the list of account names of  accounts that belong to this application group, use the <a href="https://msdn.microsoft.com/bdd6f88f-ea06-4075-b563-d0c7707107f8">MembersName</a> property.
+To view the list of account names of  accounts that belong to this application group, use the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_membersname">MembersName</a> property.
 
-You must call the <a href="https://msdn.microsoft.com/51a855dd-4a90-4f7a-b32f-f91e3941655b">Submit</a> method to persist any changes made by this method.
+You must call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-submit">Submit</a> method to persist any changes made by this method.
 
 
 

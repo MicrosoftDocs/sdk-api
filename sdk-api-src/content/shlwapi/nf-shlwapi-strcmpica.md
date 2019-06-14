@@ -93,7 +93,7 @@ Returns zero if the strings are identical. Returns a positive value if the strin
 
 
 
-It is strongly recommended that you use <a href="https://msdn.microsoft.com/4db84fa7-f3c2-48fb-ad7d-8673397c4b0e">CompareString</a> in place of this function. <b>StrCmpIC</b> was designed for comparing canonical strings. These strings are not localized and consist only of characters below ASCII value 128. Therefore, it will not function correctly with double-byte character set (DBCS) data.
+It is strongly recommended that you use <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a> in place of this function. <b>StrCmpIC</b> was designed for comparing canonical strings. These strings are not localized and consist only of characters below ASCII value 128. Therefore, it will not function correctly with double-byte character set (DBCS) data.
 
 Uppercase characters are converted to lowercase characters before comparing, and the return value is based on comparing the converted values.  This function returns the difference in value of the first unequal characters it encounters, or zero if they are all equal. For example, if <i>lpStr1</i>="abczb" and <i>lpStr2</i>="abcdefg", <b>StrCmpIC</b> determines that "abczb" is greater than "abcdefg" and returns z - d.
 
@@ -107,7 +107,7 @@ For those versions of Windows that do not include <b>StrCmpIC</b> in Shlwapi.h, 
 
 
 
-<a href="https://msdn.microsoft.com/4db84fa7-f3c2-48fb-ad7d-8673397c4b0e">CompareString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a>
  
 
  

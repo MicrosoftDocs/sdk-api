@@ -64,14 +64,14 @@ Pointer to a Unicode string that specifies the IP address or hostname of the DHC
 
 ### -param DeleteFilterInfo [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/8c645b03-9859-48e9-8974-2dbdc9cfcac6">DHCP_ADDR_PATTERN</a> structure that contains the link-layer address or address pattern filter to remove from the DHCP server database.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_addr_pattern">DHCP_ADDR_PATTERN</a> structure that contains the link-layer address or address pattern filter to remove from the DHCP server database.
 
 
 ## -returns
 
 
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://msdn.microsoft.com/6370313f-d7db-4ff1-b0e0-7fa47474facb">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -133,11 +133,11 @@ The address or address pattern supplied in <i>DeleteFilterInfo</i> is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/8c645b03-9859-48e9-8974-2dbdc9cfcac6">DHCP_ADDR_PATTERN</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_addr_pattern">DHCP_ADDR_PATTERN</a>
 
 
 
-<a href="https://msdn.microsoft.com/5543ef67-d095-44b8-b511-e6754aeb9881">DhcpAddFilterV4</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpaddfilterv4">DhcpAddFilterV4</a>
  
 
  

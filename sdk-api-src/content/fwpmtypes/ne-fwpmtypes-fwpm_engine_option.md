@@ -79,7 +79,7 @@ Reserved for internal use.
 Enables the connection monitoring feature and starts logging creation and deletion events (and notifying any subscribers).
 
 
-If the ETW operational log is already enabled, <a href="https://msdn.microsoft.com/e243f0d6-fb15-4c26-b41d-e33e96daf294">FwpmEngineGetOption0</a> will return showing the option as enabled. <a href="https://msdn.microsoft.com/6044a334-a1dc-4447-8581-cd0ffc5883db">FwpmEngineSetOption0</a> can be used set the value (but fails with FWP_E_STILL_ON ERROR when attempting to disable it).
+If the ETW operational log is already enabled, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmenginegetoption0">FwpmEngineGetOption0</a> will return showing the option as enabled. <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmenginesetoption0">FwpmEngineSetOption0</a> can be used set the value (but fails with FWP_E_STILL_ON ERROR when attempting to disable it).
 
 
 <div class="alert"><b>Note</b>  Available only in Windows 8 and Windows Server 2012.</div>
@@ -111,11 +111,11 @@ Maximum value for testing purposes.
 
 
 
-<a href="https://msdn.microsoft.com/607b7664-6be4-4ae6-991b-58ac9175405a">Logging</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/logging">Logging</a>
 
 
 
-<a href="https://msdn.microsoft.com/39029412-18ce-426a-a79d-cf25ff0dfe0d">Windows Filtering Platform API Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-enums">Windows Filtering Platform API Enumerated Types</a>
  
 
  

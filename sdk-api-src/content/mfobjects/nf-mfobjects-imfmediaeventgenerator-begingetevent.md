@@ -63,7 +63,7 @@ Begins an asynchronous request for the next event in the queue.
 
 ### -param pCallback [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/7edff985-da59-4cc0-96de-1a92e03a7d41">IMFAsyncCallback</a> interface of a callback object. The client must implement this interface.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface of a callback object. The client must implement this interface.
 
 
 ### -param punkState [in]
@@ -158,14 +158,14 @@ There is a pending request with the same callback pointer and state object.
 
 
 
-When a new event is available, the event generator calls the <a href="https://msdn.microsoft.com/22473605-637e-4783-a8cb-98248b0a0327">IMFAsyncCallback::Invoke</a> method. The <b>Invoke</b> method should call <a href="https://msdn.microsoft.com/6b38e984-d818-4f69-af28-8b54153faebb">IMFMediaEventGenerator::EndGetEvent</a> to get a pointer to the <a href="https://msdn.microsoft.com/b4f686be-9472-433c-b983-6c48dfd3ac76">IMFMediaEvent</a> interface, and use that interface to examine the event.
+When a new event is available, the event generator calls the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method. The <b>Invoke</b> method should call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventgenerator-endgetevent">IMFMediaEventGenerator::EndGetEvent</a> to get a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaevent">IMFMediaEvent</a> interface, and use that interface to examine the event.
 
-Do not call <b>BeginGetEvent</b> a second time before calling <a href="https://msdn.microsoft.com/6b38e984-d818-4f69-af28-8b54153faebb">EndGetEvent</a>. While the first call is still pending, additional calls to the same object will fail. Also, the <a href="https://msdn.microsoft.com/e78464b5-ec6b-4739-a135-352fa297916a">IMFMediaEventGenerator::GetEvent</a> method fails if an asynchronous request is still pending.
+Do not call <b>BeginGetEvent</b> a second time before calling <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventgenerator-endgetevent">EndGetEvent</a>. While the first call is still pending, additional calls to the same object will fail. Also, the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventgenerator-getevent">IMFMediaEventGenerator::GetEvent</a> method fails if an asynchronous request is still pending.
 
 
 #### Examples
 
-The following code shows a typical implementation of <a href="https://msdn.microsoft.com/22473605-637e-4783-a8cb-98248b0a0327">IMFAsyncCallback::Invoke</a> for the <b>BeginGetEvent</b> method. The <b>Invoke</b> method calls <a href="https://msdn.microsoft.com/6b38e984-d818-4f69-af28-8b54153faebb">EndGetEvent</a> to get the event data. Then it calls <b>BeginGetEvent</b> again to request another event.
+The following code shows a typical implementation of <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> for the <b>BeginGetEvent</b> method. The <b>Invoke</b> method calls <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventgenerator-endgetevent">EndGetEvent</a> to get the event data. Then it calls <b>BeginGetEvent</b> again to request another event.
 
 
 ```
@@ -231,11 +231,11 @@ HRESULT CEventHandler::Invoke(IMFAsyncResult *pAsyncResult)
 
 
 
-<a href="https://msdn.microsoft.com/a37d0840-c896-43a0-b3d1-c2a6aaff1b25">IMFMediaEventGenerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator">IMFMediaEventGenerator</a>
 
 
 
-<a href="https://msdn.microsoft.com/2e003ad4-9fcb-4834-a335-e4969ffd3a00">Media Event Generators</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-event-generators">Media Event Generators</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 <span>This topic lists the constructors of the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> class. For a complete class listing, see <b>StringFormat Class</b>. 
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> class. For a complete class listing, see <b>StringFormat Class</b>. 
 </span><h3>Overload list</h3><table>
 <tr>
 <th align="left" width="37%">Constructor</th>
@@ -58,19 +58,19 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534732(v=VS.85).aspx">StringFormat(INT,LANGID)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-stringformat(inint_inlangid)">StringFormat(INT,LANGID)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object based on string format flags and a language.
+Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object based on string format flags and a language.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534733(v=VS.85).aspx">StringFormat(StringFormat*)</a>
+<a href="https://docs.microsoft.com/previous-versions//ms534733(v=vs.85)">StringFormat(StringFormat*)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object from another <b>StringFormat</b> object.
+Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object from another <b>StringFormat</b> object.
 
 </td>
 </tr>

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Completes the operation started by <a href="https://msdn.microsoft.com/ff137b76-2a05-4e58-8d4f-d12cdd89656b">IMFSaveJob::BeginSave</a>.
+Completes the operation started by <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsavejob-beginsave">IMFSaveJob::BeginSave</a>.
 
 
 
@@ -63,7 +63,7 @@ Completes the operation started by <a href="https://msdn.microsoft.com/ff137b76-
 
 ### -param pResult [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/8c95b1de-8974-445c-8070-41552ea83e53">IMFAsyncResult</a> interface. Pass in the same pointer that your callback object received in the <a href="https://msdn.microsoft.com/22473605-637e-4783-a8cb-98248b0a0327">IMFAsyncCallback::Invoke</a> method.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncresult">IMFAsyncResult</a> interface. Pass in the same pointer that your callback object received in the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method.
 
 
 ## -returns
@@ -99,7 +99,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/0f38fa60-ed04-40c4-9bb0-b6e196cd9586">IMFSaveJob</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsavejob">IMFSaveJob</a>
  
 
  

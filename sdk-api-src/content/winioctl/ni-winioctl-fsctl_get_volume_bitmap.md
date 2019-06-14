@@ -51,7 +51,7 @@ req.redist:
 Retrieves a bitmap of occupied and available clusters on a volume.
 
 To perform this operation, call the 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -155,14 +155,14 @@ The
 <li>The value 0 indicates that the cluster is not allocated (free).</li>
 </ul>
 Note that the bitmap represents a point in time, and can be incorrect as soon as it has been read if the volume has write activity. Thus, it is possible to attempt to move a cluster onto an allocated cluster in spite of a recent bitmap indicating that the cluster is unallocated. Programs using the 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the 
-<a href="https://msdn.microsoft.com/ab7f81ac-a962-4e86-b426-b0082d251645">FSCTL_MOVE_FILE</a> control code must be prepared for this possibility.
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_move_file">FSCTL_MOVE_FILE</a> control code must be prepared for this possibility.
 
 The handle used here must be a Volume handle and have been opened with any access. Note that only Administrators can open Volume handles.
 
 The starting LCN in the input buffer may be rounded down before the bitmap is calculated. The rounding limit is file system dependent.
 
-For the implications of overlapped I/O on this operation, see the Remarks section of the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> topic.
+For the implications of overlapped I/O on this operation, see the Remarks section of the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> topic.
 
 This operation aligns the bitmap it returns on a page boundary.
 
@@ -226,47 +226,47 @@ Yes
 
 
 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/27ccaab7-ec89-489b-80dc-df9beb7969bc">Defragmentation</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/defragmenting-files">Defragmentation</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/488a7d32-cbb5-4f32-9655-0aca8ac69640">Disk Management Control Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes">Disk Management Control Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/ab7f81ac-a962-4e86-b426-b0082d251645">FSCTL_MOVE_FILE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_move_file">FSCTL_MOVE_FILE</a>
 
 
 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a>
 
 
 
-<a href="https://msdn.microsoft.com/8121a38b-0fe1-43b8-aed6-4b85af1feba9">GetQueuedCompletionStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
 
 
 
-<a href="https://msdn.microsoft.com/94bdb166-fe75-4851-9dbb-a1a1f5836675">STARTING_LCN_INPUT_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-starting_lcn_input_buffer">STARTING_LCN_INPUT_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/7273f469-bc5e-46b7-b908-59ddb7389c27">VOLUME_BITMAP_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-volume_bitmap_buffer">VOLUME_BITMAP_BUFFER</a>
  
 
  

@@ -61,7 +61,7 @@ Programmatically starts an update for specified items.
 
 Type: <b>DWORD</b>
 
-Specifies how an item should be invoked using the <a href="https://msdn.microsoft.com/6526e048-b7a8-4822-afd7-30f04a3039eb">SYNCMGRINVOKEFLAGS</a> enumeration values.
+Specifies how an item should be invoked using the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-_tagsyncmgrinvokeflags">SYNCMGRINVOKEFLAGS</a> enumeration values.
 
 
 ### -param clsid [in]
@@ -82,7 +82,7 @@ The size of <i>pCookie</i> data, in bytes.
 
 Type: <b>const BYTE*</b>
 
-A pointer to a private token that identifies an application. The token is passed in the <a href="https://msdn.microsoft.com/4357d66e-b1f5-4a3c-b1a9-3a40aa6d8e10">Initialize</a> method.
+A pointer to a private token that identifies an application. The token is passed in the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-initialize">Initialize</a> method.
 
 
 ## -returns
@@ -131,15 +131,15 @@ The errors occur during a synchronization update.
 
 
 
-<a href="https://msdn.microsoft.com/993fd482-39e0-4966-ba71-eed7e4b54f72">ISyncMgrSynchronizeInvoke</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizeinvoke">ISyncMgrSynchronizeInvoke</a>
 
 
 
-<a href="https://msdn.microsoft.com/4357d66e-b1f5-4a3c-b1a9-3a40aa6d8e10">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-initialize">Initialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/6526e048-b7a8-4822-afd7-30f04a3039eb">SYNCMGRINVOKEFLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-_tagsyncmgrinvokeflags">SYNCMGRINVOKEFLAGS</a>
  
 
  

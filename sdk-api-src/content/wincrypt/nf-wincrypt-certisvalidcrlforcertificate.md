@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CertIsValidCRLForCertificate</b> function checks a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">CRL</a> to find out if it is a CRL that would include a specific certificate if that certificate were revoked. If the CRL has an issuing distribution point (IDP) extension, the function checks whether that IDP is valid for the certificate being checked.
+The <b>CertIsValidCRLForCertificate</b> function checks a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CRL</a> to find out if it is a CRL that would include a specific certificate if that certificate were revoked. If the CRL has an issuing distribution point (IDP) extension, the function checks whether that IDP is valid for the certificate being checked.
 
 
 ## -parameters
@@ -59,12 +59,12 @@ The <b>CertIsValidCRLForCertificate</b> function checks a <a href="https://msdn.
 
 ### -param pCert [in]
 
-A pointer to a certificate <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a>.
+A pointer to a certificate <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a>.
 
 
 ### -param pCrl [in]
 
-A pointer to a CRL. The function checks this CRL to determine whether it could contain the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate context</a> pointed to by <i>pCert</i>. The function does not look for the certificate in the CRL.
+A pointer to a CRL. The function checks this CRL to determine whether it could contain the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a> pointed to by <i>pCert</i>. The function does not look for the certificate in the CRL.
 
 
 ### -param dwFlags [in]
@@ -90,7 +90,7 @@ The function returns <b>TRUE</b> if the CRL is a valid CRL to be searched for th
 
 
 
-For the CRL to be valid for the certificate, the <b>CertIsValidCRLForCertificate</b> function does not require the CRL to be issued by the same <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) as the issuer of the certificate.
+For the CRL to be valid for the certificate, the <b>CertIsValidCRLForCertificate</b> function does not require the CRL to be issued by the same <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) as the issuer of the certificate.
 
 
 

@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 The
 				<b>NetApiBufferFree</b> function frees the memory that the 
-<a href="https://msdn.microsoft.com/9ff1e3eb-9417-469f-a8c0-cdcda3cd9583">NetApiBufferAllocate</a> function allocates. Applications should also call <b>NetApiBufferFree</b> to free the memory that other network management functions use internally to return information.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferallocate">NetApiBufferAllocate</a> function allocates. Applications should also call <b>NetApiBufferFree</b> to free the memory that other network management functions use internally to return information.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 
 ### -param Buffer [in]
 
-A pointer to a buffer returned previously by another network management function or memory allocated by calling the <a href="https://msdn.microsoft.com/9ff1e3eb-9417-469f-a8c0-cdcda3cd9583">NetApiBufferAllocate</a> function.
+A pointer to a buffer returned previously by another network management function or memory allocated by calling the <a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferallocate">NetApiBufferAllocate</a> function.
 
 
 ## -returns
@@ -72,7 +72,7 @@ A pointer to a buffer returned previously by another network management function
 If the function succeeds, the return value is NERR_Success.
 
 If the function fails, the return value is a system error code. For a list of error codes, see 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -86,20 +86,20 @@ The
 
 
 <ul>
-<li> To free memory explicitly allocated by calls in an application to the <a href="https://msdn.microsoft.com/9ff1e3eb-9417-469f-a8c0-cdcda3cd9583">NetApiBufferAllocate</a> function when the memory is no longer needed.</li>
+<li> To free memory explicitly allocated by calls in an application to the <a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferallocate">NetApiBufferAllocate</a> function when the memory is no longer needed.</li>
 <li>To free memory allocated internally by calls in an application to remotable network management functions that return information to the caller. The RPC run-time library internally allocates the buffer containing the return information. </li>
 </ul>
 
 
-Many network management functions retrieve information and return this information as a buffer that may contain a complex structure, an array of structures, or an array of nested structures. These functions use the RPC run-time library to internally allocate the buffer containing the return information, whether the call is to a local computer or a remote server. For example, the <a href="https://msdn.microsoft.com/10012a87-805e-4817-9f09-9e5632b1fa09">NetServerEnum</a> function retrieves a lists of servers and returns this information as an array of  structures pointed to by the <i>bufptr</i> parameter. When the function is successful, memory is allocated internally by the  <b>NetServerEnum</b> function to store the array of structures returned in the <i>bufptr</i> parameter to the application. When this array of structures is no longer needed,  the <b>NetApiBufferFree</b> function should be called by the application with the <i>Buffer</i> parameter set to the <i>bufptr</i> parameter returned by  <b>NetServerEnum</b> to free this internal memory used. In these cases, the <b>NetApiBufferFree</b> function frees all of the internal memory allocated for the buffer including memory for nested structures, pointers to strings, and other data.
+Many network management functions retrieve information and return this information as a buffer that may contain a complex structure, an array of structures, or an array of nested structures. These functions use the RPC run-time library to internally allocate the buffer containing the return information, whether the call is to a local computer or a remote server. For example, the <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netserverenum">NetServerEnum</a> function retrieves a lists of servers and returns this information as an array of  structures pointed to by the <i>bufptr</i> parameter. When the function is successful, memory is allocated internally by the  <b>NetServerEnum</b> function to store the array of structures returned in the <i>bufptr</i> parameter to the application. When this array of structures is no longer needed,  the <b>NetApiBufferFree</b> function should be called by the application with the <i>Buffer</i> parameter set to the <i>bufptr</i> parameter returned by  <b>NetServerEnum</b> to free this internal memory used. In these cases, the <b>NetApiBufferFree</b> function frees all of the internal memory allocated for the buffer including memory for nested structures, pointers to strings, and other data.
 
-No special group membership is required to successfully execute the <b>NetApiBufferFree</b> function or any of the other <a href="https://msdn.microsoft.com/bf2fe8aa-dda6-4f6b-9c52-d7a96b96da18">ApiBuffer functions</a>.
+No special group membership is required to successfully execute the <b>NetApiBufferFree</b> function or any of the other <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/apibuffer-functions">ApiBuffer functions</a>.
 
 For a code sample that demonstrates how to use of the <b>NetApiBufferFree</b> function to free memory explicitly allocated by an application, see 
-the <a href="https://msdn.microsoft.com/9ff1e3eb-9417-469f-a8c0-cdcda3cd9583">NetApiBufferAllocate</a> function.
+the <a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferallocate">NetApiBufferAllocate</a> function.
 
 For a code sample that demonstrates how to use of the <b>NetApiBufferFree</b> function to free memory internally allocated by a network management function to return information, see 
-the <a href="https://msdn.microsoft.com/10012a87-805e-4817-9f09-9e5632b1fa09">NetServerEnum</a> function.
+the <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netserverenum">NetServerEnum</a> function.
 
 
 
@@ -109,38 +109,38 @@ the <a href="https://msdn.microsoft.com/10012a87-805e-4817-9f09-9e5632b1fa09">Ne
 
 
 
-<a href="https://msdn.microsoft.com/bf2fe8aa-dda6-4f6b-9c52-d7a96b96da18">Api Buffer
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/apibuffer-functions">Api Buffer
 		  Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ff1e3eb-9417-469f-a8c0-cdcda3cd9583">NetApiBufferAllocate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferallocate">NetApiBufferAllocate</a>
 
 
 
-<a href="https://msdn.microsoft.com/61153de0-33d3-4c83-a8aa-a7179252328c">NetApiBufferReallocate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferreallocate">NetApiBufferReallocate</a>
 
 
 
-<a href="https://msdn.microsoft.com/0c28feeb-00a3-4ad5-b85f-96326515fae2">NetApiBufferSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibuffersize">NetApiBufferSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd159e2e-f37e-46b2-b980-008b73d40b39">Network
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/08599966-68a1-420b-bbc7-6daac833d08f">Network Management Function Buffer Lengths</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>
 
 
 
-<a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a>
  
 
  

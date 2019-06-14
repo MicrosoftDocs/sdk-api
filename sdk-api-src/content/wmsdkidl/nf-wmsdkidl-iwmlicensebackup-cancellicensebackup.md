@@ -91,7 +91,7 @@ A backup operation is asynchronous, and a call to this method cancels a backup t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757218(v=VS.85).aspx">IWMLicenseBackup Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicensebackup">IWMLicenseBackup Interface</a>
  
 
  

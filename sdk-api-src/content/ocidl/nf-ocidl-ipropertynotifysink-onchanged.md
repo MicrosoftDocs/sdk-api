@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Notifies a sink that a <a href="https://msdn.microsoft.com/ba09096d-a2f7-4958-827c-0fba19ded26f">bindable</a> property has changed.
+Notifies a sink that a <a href="https://docs.microsoft.com/windows/desktop/Midl/bindable">bindable</a> property has changed.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ This method returns S_OK in all cases.
 
 
 
-S_OK is returned in all cases even when the sink does not need [<a href="https://msdn.microsoft.com/ba09096d-a2f7-4958-827c-0fba19ded26f">bindable</a>] properties or when some other failure has occurred. In short, the calling object simply sends the notification and cannot attempt to use an error code (such as E_NOTIMPL) to determine whether to not send the notification in the future. Such semantics are not part of this interface.
+S_OK is returned in all cases even when the sink does not need [<a href="https://docs.microsoft.com/windows/desktop/Midl/bindable">bindable</a>] properties or when some other failure has occurred. In short, the calling object simply sends the notification and cannot attempt to use an error code (such as E_NOTIMPL) to determine whether to not send the notification in the future. Such semantics are not part of this interface.
 
 
 
@@ -85,7 +85,7 @@ S_OK is returned in all cases even when the sink does not need [<a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/bfdf315c-6375-4c77-abd8-03f07342820f">IPropertyNotifySink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertynotifysink">IPropertyNotifySink</a>
  
 
  

@@ -61,7 +61,7 @@ The
 ### -param RtmRegHandle [in]
 
 Handle to the client obtained from a previous call to 
-<a href="https://msdn.microsoft.com/2b952ea2-cf33-49e3-ae31-a14b0907a1b5">RtmRegisterEntity</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
 
 
 ### -param RouteListHandle [in]
@@ -117,11 +117,11 @@ This function also releases the handle to the route list.
 
 
 
-<a href="https://msdn.microsoft.com/6fa732a8-6c2f-4034-ab13-d64845fab14c">RtmCreateRouteList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmcreateroutelist">RtmCreateRouteList</a>
 
 
 
-<a href="https://msdn.microsoft.com/e0145bdc-5000-429d-8603-1ebc6003a2bc">RtmInsertInRouteList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtminsertinroutelist">RtmInsertInRouteList</a>
  
 
  

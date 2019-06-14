@@ -81,13 +81,13 @@ Pointer to a string specifying the writer instance name.
 ### -param pUsage [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/31997417-d993-4f28-b108-ce1dd8239650">VSS_USAGE_TYPE</a> enumeration value indicating how the data managed by the writer is used on the host system.
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_usage_type">VSS_USAGE_TYPE</a> enumeration value indicating how the data managed by the writer is used on the host system.
 
 
 ### -param pSource [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/cb89c3cc-5a8e-419e-839c-f72a1886eadf">VSS_SOURCE_TYPE</a> enumeration value indicating the type of data managed by the writer.
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_source_type">VSS_SOURCE_TYPE</a> enumeration value indicating the type of data managed by the writer.
 
 
 ## -returns
@@ -142,7 +142,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 The XML document is  not valid. Check the event log for details. For more information, see 
-<a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+<a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -154,7 +154,7 @@ The XML document is  not valid. Check the event log for details. For more inform
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -170,17 +170,17 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 
-This method is identical to the <a href="https://msdn.microsoft.com/55240ef2-f480-4917-98f9-e88a2e23edea">IVssExamineWriterMetadata::GetIdentity</a> method except for the <i>pbstrInstanceName</i> parameter.
+This method is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getidentity">IVssExamineWriterMetadata::GetIdentity</a> method except for the <i>pbstrInstanceName</i> parameter.
 
-The <i>pbstrInstanceName</i> parameter is the writer instance name that was specified during writer initialization by <a href="https://msdn.microsoft.com/a427ebbd-b7c4-46ba-ba16-dd601b1f956e">CVssWriter::Initialize</a>.
+The <i>pbstrInstanceName</i> parameter is the writer instance name that was specified during writer initialization by <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-initialize">CVssWriter::Initialize</a>.
 
 The writer instance name is useful for writers that support running multiple writer instances with the same writer class ID on a single computer. The writer instance name can be used to identify the specific instance. Therefore, the writer must make the instance name unique within the writer class. Also, the writer instance name is expected to persist between backup and restore, and it is used by VSS to correctly restore multiple-instance writers.
 
-The caller must free the memory held by the <i>pbstrWriterName</i> and <i>pbstrInstanceName</i> parameters by calling <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+The caller must free the memory held by the <i>pbstrWriterName</i> and <i>pbstrInstanceName</i> parameters by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
 
 An 
-<a href="https://msdn.microsoft.com/363c987c-7d6c-4efe-988a-1b288f9b4d3c">IVssExamineWriterMetadataEx</a> interface might be from stored writer state information (created by a call to 
-<a href="https://msdn.microsoft.com/cb322541-d8c0-4a2e-9ce5-453d19ac3fd1">CreateVssExamineWriterMetadata</a>). If this is the case, then the following are true:
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadataex">IVssExamineWriterMetadataEx</a> interface might be from stored writer state information (created by a call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-createvssexaminewritermetadata">CreateVssExamineWriterMetadata</a>). If this is the case, then the following are true:
 
 <ul>
 <li><i>pidInstance</i> may not mean anything in terms of live writers.</li>
@@ -194,11 +194,11 @@ An
 
 
 
-<a href="https://msdn.microsoft.com/a427ebbd-b7c4-46ba-ba16-dd601b1f956e">CVssWriter::Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-initialize">CVssWriter::Initialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/363c987c-7d6c-4efe-988a-1b288f9b4d3c">IVssExamineWriterMetadataEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadataex">IVssExamineWriterMetadataEx</a>
  
 
  

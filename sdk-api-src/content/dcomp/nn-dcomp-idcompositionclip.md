@@ -57,11 +57,11 @@ Represents a clip object that is used to restrict the rendering of a visual subt
 
 
 
-<a href="https://msdn.microsoft.com/486bcdb9-e353-4ca2-b24c-af863dda7470">IDCompositionRectangleClip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionrectangleclip">IDCompositionRectangleClip</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449155(v=VS.85).aspx">IDCompositionVisual::SetClip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setclip">IDCompositionVisual::SetClip</a>
  
 
  

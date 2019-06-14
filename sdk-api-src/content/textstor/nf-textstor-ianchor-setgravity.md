@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ### -param gravity [in]
 
-Contains a value from the <a href="https://msdn.microsoft.com/12ec85b9-e65f-485d-8e42-164d2a988356">TsGravity</a> enumeration that specifies a new forward or backward gravity for the anchor.
+Contains a value from the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ne-textstor-__midl_ianchor_0001">TsGravity</a> enumeration that specifies a new forward or backward gravity for the anchor.
 
 
 ## -returns
@@ -94,19 +94,19 @@ The method was successful.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629023(v=VS.85).aspx">Anchor Gravity</a>
+<a href="https://docs.microsoft.com/windows/desktop/TSF/ranges">Anchor Gravity</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7d52959-8386-464f-958d-c870f286b265">IAnchor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a>
 
 
 
-<a href="https://msdn.microsoft.com/c56a4c25-ac43-4fd3-8d6b-943eb0233ed4">IAnchor::GetGravity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-getgravity">IAnchor::GetGravity</a>
 
 
 
-<a href="https://msdn.microsoft.com/12ec85b9-e65f-485d-8e42-164d2a988356">TsGravity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ne-textstor-__midl_ianchor_0001">TsGravity</a>
  
 
  

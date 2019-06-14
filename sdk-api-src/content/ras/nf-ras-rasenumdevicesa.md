@@ -63,7 +63,7 @@ The
 ### -param arg1 [in]
 
 Pointer to a buffer that receives an array of 
-<a href="https://msdn.microsoft.com/9e569177-ca71-440c-820c-c352616348e9">RASDEVINFO</a> structures, one for each RAS-capable device. Before calling the function, set the <b>dwSize</b> member of the first 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377001(v=vs.85)">RASDEVINFO</a> structures, one for each RAS-capable device. Before calling the function, set the <b>dwSize</b> member of the first 
 <b>RASDEVINFO</b> structure in the buffer to sizeof(<b>RASDEVINFO</b>) to identify the version of the structure.
 
 
@@ -85,7 +85,7 @@ On output, the function sets this variable to the number of bytes required to en
 ### -param arg3 [out]
 
 Pointer to a variable that receives the number of 
-<a href="https://msdn.microsoft.com/9e569177-ca71-440c-820c-c352616348e9">RASDEVINFO</a> structures written to the <i>lpRasDevInfo</i> buffer.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377001(v=vs.85)">RASDEVINFO</a> structures written to the <i>lpRasDevInfo</i> buffer.
 
 
 ## -returns
@@ -94,7 +94,7 @@ Pointer to a variable that receives the number of
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is one of the following error codes or a value from <a href="https://msdn.microsoft.com/1fa41438-7c93-4e9c-851c-652fba23da4f">Routing and Remote Access Error Codes</a> or Winerror.h.
+If the function fails, the return value is one of the following error codes or a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 <table>
 <tr>
@@ -142,7 +142,7 @@ Indicates an invalid parameter value. The <i>lpcb</i>parameter is <b>NULL</b> or
 </td>
 <td width="60%">
 The address or buffer specified by <i>lpRasDevInfo</i> is invalid. The <b>dwSize</b>member of the 
-								<i>lpRasDevInfo</i>  parameter does not equal sizeof(<a href="https://msdn.microsoft.com/9e569177-ca71-440c-820c-c352616348e9">RASDEVINFO</a>).
+								<i>lpRasDevInfo</i>  parameter does not equal sizeof(<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377001(v=vs.85)">RASDEVINFO</a>).
 
 </td>
 </tr>
@@ -158,7 +158,7 @@ The address or buffer specified by <i>lpRasDevInfo</i> is invalid. The <b>dwSize
 
 The following sample code enumerates the devices on the current machine. The code initially calls 
 <b>RasEnumDevices</b> with a <i>lpRasDevInfo</i> parameter of <b>NULL</b>, to obtain the size of the buffer that should be passed in. The code also sets the <b>dwSize</b> member of the first 
-<a href="https://msdn.microsoft.com/9e569177-ca71-440c-820c-c352616348e9">RASDEVINFO</a> structure to sizeof(<b>RASDEVINFO</b>) to specify the version of the structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377001(v=vs.85)">RASDEVINFO</a> structure to sizeof(<b>RASDEVINFO</b>) to specify the version of the structure.
 
 
 ```cpp
@@ -226,15 +226,15 @@ DWORD __cdecl wmain(){
 
 
 
-<a href="https://msdn.microsoft.com/9e569177-ca71-440c-820c-c352616348e9">RASDEVINFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377001(v=vs.85)">RASDEVINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/5016fa0b-72eb-484e-b8d7-af9de2e25689">Remote Access Service (RAS) Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/5883a77a-6af8-47a8-bb28-6ef60a5aa2f1">Remote Access Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
  
 
  

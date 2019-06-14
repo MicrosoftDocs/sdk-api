@@ -51,11 +51,11 @@ ms.custom: 19H1
 
 The 
 <b>SNodeID2</b> structure is introduced in MMC 1.2, and replaces the 
-<a href="https://msdn.microsoft.com/aeaee0d8-7abf-4549-b184-326ab130fcb7">SNodeID</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_snodeid">SNodeID</a> structure.
 
 The 
 <b>SNodeID2</b> structure is used by the 
-<a href="https://msdn.microsoft.com/898f1691-6024-4873-a217-c8fb1b528400">CCF_NODEID2</a> clipboard format.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/ccf-nodeid2">CCF_NODEID2</a> clipboard format.
 
 The 
 <b>SNodeID2</b> structure contains an array of bytes that represent the node ID.
@@ -87,7 +87,7 @@ The bytes that contains the node ID of the scope item.
 
 For details on using the 
 <b>SNodeID2</b> structure with the CCF_NODEID2 clipboard format, see 
-<a href="https://msdn.microsoft.com/898f1691-6024-4873-a217-c8fb1b528400">CCF_NODEID2</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/ccf-nodeid2">CCF_NODEID2</a>.
 
 
 
@@ -97,7 +97,7 @@ For details on using the
 
 
 
-<a href="https://msdn.microsoft.com/898f1691-6024-4873-a217-c8fb1b528400">CCF_NODEID2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/ccf-nodeid2">CCF_NODEID2</a>
  
 
  

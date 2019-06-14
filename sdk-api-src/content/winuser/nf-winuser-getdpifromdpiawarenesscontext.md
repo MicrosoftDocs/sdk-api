@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the DPI from a given <a href="https://msdn.microsoft.com/BFD54A9F-642B-4A3A-BBB9-F3A80779251D">DPI_AWARENESS_CONTEXT</a> handle. This enables you to determine the DPI of a thread without needed to examine a window created within that thread.
+Retrieves the DPI from a given <a href="https://docs.microsoft.com/windows/desktop/hidpi/dpi-awareness-context">DPI_AWARENESS_CONTEXT</a> handle. This enables you to determine the DPI of a thread without needed to examine a window created within that thread.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ The DPI value associated with the <b>DPI_AWARENESS_CONTEXT</b> handle.
 
 
 
-<a href="https://msdn.microsoft.com/BFD54A9F-642B-4A3A-BBB9-F3A80779251D">DPI_AWARENESS_CONTEXT</a> handles associated with values of <b>DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE</b> and <b>DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2</b> will return a value of 0 for their DPI. This is because the DPI of a per-monitor-aware window can change, and the actual DPI cannot be returned without the window's HWND.
+<a href="https://docs.microsoft.com/windows/desktop/hidpi/dpi-awareness-context">DPI_AWARENESS_CONTEXT</a> handles associated with values of <b>DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE</b> and <b>DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2</b> will return a value of 0 for their DPI. This is because the DPI of a per-monitor-aware window can change, and the actual DPI cannot be returned without the window's HWND.
 
 
 
@@ -86,7 +86,7 @@ The DPI value associated with the <b>DPI_AWARENESS_CONTEXT</b> handle.
 
 
 
-<a href="https://msdn.microsoft.com/BFD54A9F-642B-4A3A-BBB9-F3A80779251D">DPI_AWARENESS_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/hidpi/dpi-awareness-context">DPI_AWARENESS_CONTEXT</a>
  
 
  

@@ -84,7 +84,7 @@ The target was deleted  from the store in RD Connection Broker.
 
 ### -field TARGET_STATE_CHANGED
 
-The target's state changed. To determine the current state of the target, check the <a href="https://msdn.microsoft.com/0913e997-d3f0-44a3-977f-eb760489c43b">TargetState</a> property of <a href="https://msdn.microsoft.com/bcb26b43-ec6e-4cc8-9d40-15a7a3a62582">ITsSbTarget</a>.
+The target's state changed. To determine the current state of the target, check the <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbtarget-get_targetstate">TargetState</a> property of <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbtarget">ITsSbTarget</a>.
 
 
 ### -field TARGET_IDLE
@@ -111,11 +111,11 @@ The target is not hosting any sessions currently.
 
 
 
-<a href="https://msdn.microsoft.com/d075c7ae-fe86-4547-a980-2b82ea3498c6">NotifyTargetChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcenotification-notifytargetchange">NotifyTargetChange</a>
 
 
 
-<a href="https://msdn.microsoft.com/4f4e8883-9f89-47c2-919f-44f4c6e44591">Remote Desktop Virtualization API reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/TermServ/terminal-services-virtualization-api-reference">Remote Desktop Virtualization API reference</a>
  
 
  

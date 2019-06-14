@@ -65,7 +65,7 @@ ms.custom: 19H1
 
 The <b>IWbemServices::PutInstanceAsync</b> 
    method asynchronously creates or updates an instance of an existing class. Update confirmation or error reporting 
-   is provided through the <a href="https://msdn.microsoft.com/987aea1d-912a-4691-987f-181c1ef1a8a9">IWbemObjectSink</a> interface 
+   is provided through the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a> interface 
    implemented by the caller.
 
 
@@ -116,7 +116,7 @@ This flag is for instance creation only. The call fails if the class already exi
 
 This flag registers with Windows Management a request to receive intermediate status reports through the 
         clients implementation of 
-        <a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">IWbemObjectSink::SetStatus</a>. Provider 
+        <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">IWbemObjectSink::SetStatus</a>. Provider 
         implementation must support intermediate status reporting for this flag to change behavior.
 
 
@@ -131,18 +131,18 @@ If this flag is set, WMI does not store any qualifiers with the
 ### -param pCtx [in]
 
 Pointer describing if the client is requesting a partial-instance update or full-instance update. A partial-instance update modifies a subset of the properties of the instance. In contrast, a full-instance update modifies all of the properties. If <b>NULL</b>, this parameter indicates that the caller application is requesting a full-instance update. Otherwise, this is a pointer to an 
-<a href="https://msdn.microsoft.com/458bd455-6984-414b-a0b7-62887d9dad7c">IWbemContext</a> object required by the dynamic class provider that is producing the class instances. For more information about this parameter, see 
-<a href="https://msdn.microsoft.com/5bfd9d9b-ffe5-4def-a97d-85c4c01223f0">Making Calls to WMI</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> object required by the dynamic class provider that is producing the class instances. For more information about this parameter, see 
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/making-calls-to-wmi">Making Calls to WMI</a>.
 
 
 ### -param pResponseHandler [in]
 
 Pointer to the caller's implementation of 
-<a href="https://msdn.microsoft.com/987aea1d-912a-4691-987f-181c1ef1a8a9">IWbemObjectSink</a>. This handler receives the status of this call when it becomes available using the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">IWbemObjectSink::SetStatus</a> method. If any error code is returned, then the supplied 
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a>. This handler receives the status of this call when it becomes available using the 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">IWbemObjectSink::SetStatus</a> method. If any error code is returned, then the supplied 
 <b>IWbemObjectSink</b> pointer is not used. If <b>WBEM_S_NO_ERROR</b> is returned, then the user's 
 <b>IWbemObjectSink</b> implementation is called to indicate the result of the operation. Windows Management only calls <b>AddRef</b> on the pointer in cases where <b>WBEM_S_NO_ERROR</b> returns. In cases where an error code returns, the reference count is the same as on entry. For more information about how to make asynchronous calls, see 
-<a href="https://msdn.microsoft.com/7a1eda93-014e-4067-b6d0-361a3d2fd1df">Calling a Method</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
 
 
 ## -returns
@@ -166,28 +166,28 @@ COM-specific error codes also may be returned if network problems cause you to l
 
 Clients that call 
 <b>PutInstanceAsync</b> must always expect the results of the call to be reported using their 
-<a href="https://msdn.microsoft.com/en-us/library/Aa391788(v=VS.85).aspx">IWbemObjectSink::Indicate</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">IWbemObjectSink::Indicate</a> method.
 
 When the instance pointed to by <i>pInst</i> belongs to a class that is derived from other classes, the success of 
 <b>PutInstanceAsync</b> depends on the success of the providers responsible for the parent classes. For example, if <i>pInst</i> belongs to <b>ClassB</b> and <b>ClassB</b> derives from <b>ClassA</b>, a call to the 
 <b>PutInstanceAsync</b> method implemented by the provider for <b>ClassA</b> must succeed for the update operation on <b>ClassB</b> to succeed. For more information, see Remarks in 
-<a href="https://msdn.microsoft.com/1e07b328-40f7-4e14-bf53-9a5cebfc23f6">IWbemServices::PutInstance</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putinstance">IWbemServices::PutInstance</a>.
 
 When implementing an instance provider, if the instance has a key property set to <b>NULL</b>, 
 <b>PutInstanceAsync</b> should choose a value guaranteed to be unique within the class. When WMI services a request to update an instance with a <b>NULL</b> key property, it internally generates a <b>GUID</b> and assigns it to the key property. Further, when the instance being updated belongs to a child class, the success of the operation is dependent on the success of a 
 <b>PutInstanceAsync</b> call to each of the providers responsible for the classes higher in the hierarchy. Do not return <b>WBEM_S_NO_ERROR</b> until you are sure that all of the other providers have succeeded. For more information, see 
-<a href="https://msdn.microsoft.com/1e07b328-40f7-4e14-bf53-9a5cebfc23f6">IWbemServices::PutInstance</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putinstance">IWbemServices::PutInstance</a>.
 
 Instance providers supporting a partial update must check for the existence of the <b>__PUT_EXTENSIONS</b> context value. A system context value is a value defined by WMI to have specific meanings, is set by the client application, and is supported by an instance provider. The 
-<a href="https://msdn.microsoft.com/458bd455-6984-414b-a0b7-62887d9dad7c">IWbemContext</a> interface provides access to the system context values and other provider-specific context values. The following list lists the context values that support partial-instance update operations.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> interface provides access to the system context values and other provider-specific context values. The following list lists the context values that support partial-instance update operations.
 
 The 
-<a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">IWbemObjectSink::SetStatus</a> method is called to indicate the end of the result set. It may also be called with no intervening calls to 
-<a href="https://msdn.microsoft.com/en-us/library/Aa391788(v=VS.85).aspx">IWbemObjectSink::Indicate</a> if error conditions occur.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">IWbemObjectSink::SetStatus</a> method is called to indicate the end of the result set. It may also be called with no intervening calls to 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">IWbemObjectSink::Indicate</a> if error conditions occur.
 
-Because the call-back might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication. If you require asynchronous communication, see <a href="https://msdn.microsoft.com/7a1eda93-014e-4067-b6d0-361a3d2fd1df">Calling a Method</a>.
+Because the call-back might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication. If you require asynchronous communication, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
 
-For more information about using methods semisynchronously, see <a href="https://msdn.microsoft.com/1e07b328-40f7-4e14-bf53-9a5cebfc23f6">IWbemServices::PutInstance</a> and <a href="https://msdn.microsoft.com/7a1eda93-014e-4067-b6d0-361a3d2fd1df">Calling a Method</a>.
+For more information about using methods semisynchronously, see <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putinstance">IWbemServices::PutInstance</a> and <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
 
 <table>
 <tr>
@@ -253,7 +253,7 @@ When implementing an instance provider, you should respond to a <b>NULL</b> prop
 </ul>
 If <i>pCtx</i> is not <b>NULL</b> and points to valid context information, the caller application is requesting a partial-instance update. As before, an instance providers that does not support partial-instance updating should fail the operation by returning <b>WBEM_E_PROVIDER_NOT_CAPABLE</b>.
 
-When implementing an async operation, the async operation not complete until you release any <a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63">AddRef</a>'s you have performed on <i>pResponseHandler</i>.  This is the case even if you call <a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">SetStatus</a> on <i>pResponseHander</i>. If <i>pResponseHandler</i> is leaked, any sync or semi-sync clients will also not complete and possibly stop responding, depending on your implementation.
+When implementing an async operation, the async operation not complete until you release any <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a>'s you have performed on <i>pResponseHandler</i>.  This is the case even if you call <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">SetStatus</a> on <i>pResponseHander</i>. If <i>pResponseHandler</i> is leaked, any sync or semi-sync clients will also not complete and possibly stop responding, depending on your implementation.
 
 Even in catastrophic cases, you must release the references for decoupled providers. This is because in sync and semi-sync cases, the WMI service owns the implementation of <i>pResponseHandler</i>: even if your decoupled provider's process exits, the clients will still not be responding.
 
@@ -293,19 +293,19 @@ HRESULT CStdProvider::PutInstanceAsync(
 
 
 
-<a href="https://msdn.microsoft.com/7a1eda93-014e-4067-b6d0-361a3d2fd1df">Calling a Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/62df8f0f-d2aa-4f8a-998a-388894a52ce9">Creating an Instance</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/creating-an-instance">Creating an Instance</a>
 
 
 
-<a href="https://msdn.microsoft.com/458bd455-6984-414b-a0b7-62887d9dad7c">IWbemContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a>
  
 
  

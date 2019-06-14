@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 the client in Msdrm.dll is available for use in Windows Server 2008, Windows Vista, Windows Server 2008 R2, Windows 7, Windows Server 2012, and Windows 8. It may be altered or 
 
-unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/a7900f40-4c53-4760-8e5a-9c88149f86d0">Active Directory Rights Management Services SDK 2.1</a>, 
+unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
 
 which leverages functionality exposed by the client in Msipc.dll.]
 
@@ -68,7 +68,7 @@ The <b>DRMGetUnboundLicenseAttributeCount</b> function retrieves the number of o
 
 ### -param hQueryRoot [in]
 
-A handle to a license or an object in the license, created using <a href="https://msdn.microsoft.com/d3e03d62-5202-4969-a4c7-5fbf89070436">DRMGetUnboundLicenseObject</a> or <a href="https://msdn.microsoft.com/2ae65ed2-7702-4e9b-b986-68b83ebe8bf5">DRMParseUnboundLicense</a>.
+A handle to a license or an object in the license, created using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetunboundlicenseobject">DRMGetUnboundLicenseObject</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmparseunboundlicense">DRMParseUnboundLicense</a>.
 
 
 ### -param wszAttributeType [in]
@@ -87,7 +87,7 @@ Count of attribute occurrences one level down within the specified branch.
 
 If the function succeeds, the function returns S_OK.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -106,19 +106,19 @@ Certain attributes, such as maximum count, may appear more than once in a branch
 
 
 
-<a href="https://msdn.microsoft.com/4ddf2920-95ea-47be-a5dd-b68eee2de29e">DRMGetUnboundLicenseAttribute</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetunboundlicenseattribute">DRMGetUnboundLicenseAttribute</a>
 
 
 
-<a href="https://msdn.microsoft.com/d3e03d62-5202-4969-a4c7-5fbf89070436">DRMGetUnboundLicenseObject</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetunboundlicenseobject">DRMGetUnboundLicenseObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/a1c2ae7e-a0be-482d-a366-70988cbc4616">DRMGetUnboundLicenseObjectCount</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetunboundlicenseobjectcount">DRMGetUnboundLicenseObjectCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/7496380a-2848-4353-a672-27fc5a9eed92">Querying Licenses</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/querying-licenses">Querying Licenses</a>
  
 
  

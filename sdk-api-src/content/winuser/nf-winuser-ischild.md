@@ -104,7 +104,7 @@ If the window is not a child or descendant window of the specified parent window
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633528(v=VS.85).aspx">IsWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-iswindow">IsWindow</a>
 
 
 
@@ -112,11 +112,11 @@ If the window is not a child or descendant window of the specified parent window
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633541(v=VS.85).aspx">SetParent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setparent">SetParent</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
  
 
  

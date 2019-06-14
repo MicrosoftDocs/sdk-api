@@ -59,14 +59,14 @@ Retrieves the specified type of footprint file from the bundle.
 
 ### -param fileType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/1BC2B15B-9DF3-48D8-B7BE-BEC1E5D7E6E3">APPX_BUNDLE_FOOTPRINT_FILE_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_bundle_footprint_file_type">APPX_BUNDLE_FOOTPRINT_FILE_TYPE</a></b>
 
 The type of footprint file to be retrieved.
 
 
 ### -param footprintFile [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/DB09452D-725C-46EA-B74C-92C5E596BEF8">IAppxFile</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxfile">IAppxFile</a>**</b>
 
 The file object that corresponds to the footprint file of <i>fileType</i>.
 
@@ -91,7 +91,7 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an error c
 </dl>
 </td>
 <td width="60%">
-The <i>fileType</i> parameter is not a valid value in the <a href="https://msdn.microsoft.com/1BC2B15B-9DF3-48D8-B7BE-BEC1E5D7E6E3">APPX_BUNDLE_FOOTPRINT_FILE_TYPE</a> enumeration.
+The <i>fileType</i> parameter is not a valid value in the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_bundle_footprint_file_type">APPX_BUNDLE_FOOTPRINT_FILE_TYPE</a> enumeration.
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ The <i>fileType</i> parameter is not a valid value in the <a href="https://msdn.
 The bundle doesn't contain a footprint file of the specified type.
 
 
-<a href="https://msdn.microsoft.com/BD60CD3E-2C08-4B97-B311-00C0EEBEF752">GetFootprintFile</a> can return this error for the <a href="https://msdn.microsoft.com/en-us/library/Dn280275(v=VS.85).aspx">APPX_BUNDLE_FOOTPRINT_FILE_TYPE_SIGNATURE</a> type.
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlereader-getfootprintfile">GetFootprintFile</a> can return this error for the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_bundle_footprint_file_type">APPX_BUNDLE_FOOTPRINT_FILE_TYPE_SIGNATURE</a> type.
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ The bundle doesn't contain a footprint file of the specified type.
 
 
 
-<a href="https://msdn.microsoft.com/3847AF32-D8E4-4BB2-9FBC-7CFAEF2CA664">IAppxBundleReader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlereader">IAppxBundleReader</a>
  
 
  

@@ -50,15 +50,15 @@ ms.custom: 19H1
 
 
 <p class="CCE_Message">[This interface is supported for compatibility but it's recommended to use the 
-    <a href="https://msdn.microsoft.com/1CE772FA-CE33-4900-A499-058175A7C37E">FSRM WMI Classes</a> to manage FSRM. Please see the 
-    <a href="https://msdn.microsoft.com/9308f1de-ba8e-45f5-81ec-d8203839ee79">MSFT_FSRMQuota</a> class.]
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a> class.]
 
 Base interface for all quota interfaces.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmQuotaBase</b> interface inherits from <a href="https://msdn.microsoft.com/bb08ea40-6f0e-4ad5-ad57-78f17bbbd4b7">IFsrmObject</a>. <b>IFsrmQuotaBase</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmQuotaBase</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmobject">IFsrmObject</a>. <b>IFsrmQuotaBase</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -74,7 +74,7 @@ The <b>IFsrmQuotaBase</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9571e169-01a3-4b72-bc84-2f9b2609a6e2">AddThreshold</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotabase-addthreshold">AddThreshold</a>
 </td>
 <td align="left" width="63%">
 Adds a threshold to the quota object.
@@ -83,7 +83,7 @@ Adds a threshold to the quota object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/27813041-ee42-4412-982e-fce594c5e648">CreateThresholdAction</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotabase-createthresholdaction">CreateThresholdAction</a>
 </td>
 <td align="left" width="63%">
 Creates an action and associates it with the specified threshold.
@@ -92,7 +92,7 @@ Creates an action and associates it with the specified threshold.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6f6ace15-05aa-4276-88eb-3a4315b3b51c">DeleteThreshold</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotabase-deletethreshold">DeleteThreshold</a>
 </td>
 <td align="left" width="63%">
 Deletes a threshold from the quota object.
@@ -101,7 +101,7 @@ Deletes a threshold from the quota object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ce4f85a9-f2e0-42df-adb4-7c21256d5305">EnumThresholdActions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotabase-enumthresholdactions">EnumThresholdActions</a>
 </td>
 <td align="left" width="63%">
 Enumerates all the actions for the specified threshold.
@@ -110,7 +110,7 @@ Enumerates all the actions for the specified threshold.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/46cda78a-7c1d-42e0-abff-3be9c13925f5">ModifyThreshold</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotabase-modifythreshold">ModifyThreshold</a>
 </td>
 <td align="left" width="63%">
 Changes  the threshold value.
@@ -128,7 +128,7 @@ Changes  the threshold value.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/af856281-8161-4165-bf24-0c160f7394d2">QuotaFlags</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotabase-get_quotaflags">QuotaFlags</a>
 
 
 </td>
@@ -144,7 +144,7 @@ Retrieves or sets the quota flags for the object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/2f2b5d8f-70b7-497e-9c51-171dca657c69">QuotaLimit</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotabase-get_quotalimit">QuotaLimit</a>
 
 
 </td>
@@ -160,7 +160,7 @@ Retrieves or sets the quota limit for the object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/e9a68b62-5d53-419f-a0c4-2e284fa51313">Thresholds</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotabase-get_thresholds">Thresholds</a>
 
 
 </td>
@@ -181,15 +181,15 @@ Retrieves the thresholds for the quota object.
 
 
 
-<a href="https://msdn.microsoft.com/bbd888d9-1005-4173-8e82-ced13e68c09e">FSRM Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/bb08ea40-6f0e-4ad5-ad57-78f17bbbd4b7">IFsrmObject</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmobject">IFsrmObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/9308f1de-ba8e-45f5-81ec-d8203839ee79">MSFT_FSRMQuota</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
  
 
  

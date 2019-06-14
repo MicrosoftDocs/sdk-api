@@ -60,7 +60,7 @@ A description of a single element to the vertex layout.
 
 ### -field semanticName
 
-The <a href="https://msdn.microsoft.com/en-us/library/Bb509647(v=VS.85).aspx">HLSL semantic</a> associated with this element in a <a href="https://msdn.microsoft.com/en-us/library/Bb509650(v=VS.85).aspx">shader input-signature</a>.
+The <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-semantics">HLSL semantic</a> associated with this element in a <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-signatures">shader input-signature</a>.
 
 
 ### -field semanticIndex
@@ -87,9 +87,9 @@ The offset in bytes between each element.
 
 
 
-This structure is a subset of <a href="https://msdn.microsoft.com/45545d24-1513-4efd-9344-20673c5b98d5">D3D11_INPUT_ELEMENT_DESC</a> that omits fields required to define a vertex layout.
+This structure is a subset of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_input_element_desc">D3D11_INPUT_ELEMENT_DESC</a> that omits fields required to define a vertex layout.
 
-If the <a href="https://msdn.microsoft.com/en-us/library/Dd370975(v=VS.85).aspx">D2D1_APPEND_ALIGNED_ELEMENT</a> constant is used for  <b>alignedByteOffset</b>, the elements will be packed contiguously for convenience.
+If the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-constants">D2D1_APPEND_ALIGNED_ELEMENT</a> constant is used for  <b>alignedByteOffset</b>, the elements will be packed contiguously for convenience.
 
 
 
@@ -100,27 +100,27 @@ If the <a href="https://msdn.microsoft.com/en-us/library/Dd370975(v=VS.85).aspx"
 
 
 
-<a href="https://msdn.microsoft.com/ff122e0d-5f0e-4a61-bead-53bea6f1648f">D2D1_VERTEX_USAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/ne-d2d1effectauthor-d2d1_vertex_usage">D2D1_VERTEX_USAGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205117(v=VS.85).aspx">Getting Started with the Input-Assembler Stage</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-input-assembler-stage-getting-started">Getting Started with the Input-Assembler Stage</a>
 
 
 
-<a href="https://msdn.microsoft.com/8E59527F-B6CE-4E25-B7F7-2D03BC1ACAFD">ID2D1EffectContext::CreateVertexBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-createvertexbuffer">ID2D1EffectContext::CreateVertexBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/60D3DB1B-D347-44FC-98F9-545D4213F1F0">ID2D1EffectContext::LoadVertexShader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-loadvertexshader">ID2D1EffectContext::LoadVertexShader</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb509647(v=VS.85).aspx">Semantics</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-semantics">Semantics</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb509650(v=VS.85).aspx">Signatures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-signatures">Signatures</a>
  
 
  

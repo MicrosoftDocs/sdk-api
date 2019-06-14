@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<a href="https://msdn.microsoft.com/af7186f8-7921-48e3-a4fd-23259a6e9018">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>NTMS_OPREQUESTINFORMATION</b> structure defines the properties specific to operator-request system control for RSM.
@@ -373,7 +373,7 @@ Computer that submitted the operator request.
 
 The 
 <b>NTMS_OPREQUESTINFORMATION</b> structure is included in the 
-<a href="https://msdn.microsoft.com/56e3380b-47c7-4861-bb2b-31d67ac10fe1">NTMS_OBJECTINFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
 
 
 
@@ -383,7 +383,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/56e3380b-47c7-4861-bb2b-31d67ac10fe1">NTMS_OBJECTINFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
  
 
  

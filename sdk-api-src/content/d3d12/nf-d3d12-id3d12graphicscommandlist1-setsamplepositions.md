@@ -61,7 +61,7 @@ This method configures the sample positions used by subsequent draw, copy, resol
 
 Type: <b>UINT</b>
 
-<a href="https://msdn.microsoft.com/en-us/library/hh916382.aspx">SAL</a>: <code>_In_</code>
+<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_</code>
 
 Specifies the number of samples to take, per pixel. This value can be 1, 2, 4, 8, or 16, otherwise the SetSamplePosition call is dropped. The number of samples must match the sample count configured in the PSO at draw time, otherwise the behavior is undefined.
 
@@ -70,7 +70,7 @@ Specifies the number of samples to take, per pixel. This value can be 1, 2, 4, 8
 
 Type: <b>UINT</b>
 
-<a href="https://msdn.microsoft.com/en-us/library/hh916382.aspx">SAL</a>: <code>_In_</code>
+<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_</code>
 
 Specifies the number of pixels that sample patterns are being specified for. This value can be either 1 or 4, otherwise the SetSamplePosition call is dropped. A value of 1 configures a single sample pattern to be used for each pixel; a value of 4 configures separate sample patterns for each pixel in a 2x2 pixel grid which is repeated over the render-target or viewport space, aligned to even coordintes.
 
@@ -79,9 +79,9 @@ Note that the maximum number of combined samples can't exceed 16, otherwise the 
 
 ### -param pSamplePositions [in]
 
-Type: <b><a href="https://msdn.microsoft.com/09D76360-A5FC-43C5-A7DC-9FA59B7FA94D">D3D12_SAMPLE_POSITION</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_sample_position">D3D12_SAMPLE_POSITION</a>*</b>
 
-<a href="https://msdn.microsoft.com/en-us/library/hh916382.aspx">SAL</a>: <code>_In_reads_(NumSamplesPerPixel*NumPixels)</code>
+<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_reads_(NumSamplesPerPixel*NumPixels)</code>
 
 Specifies an array of D3D12_SAMPLE_POSITION elements. The size of the array is NumPixels * NumSamplesPerPixel. If NumPixels is set to 4, then the first group of sample positions corresponds to the upper-left pixel in the 2x2 grid of pixels; the next group of sample positions corresponds to the upper-right pixel, the next group to the lower-left pixel, and the final group to the lower-right pixel.
 
@@ -157,7 +157,7 @@ If an application wants to minimize the decompressed area when only a portion ne
 
 
 
-<a href="https://msdn.microsoft.com/E156C26B-0E51-4F43-9AB2-373E4C67A496">ID3D12GraphicsCommandList1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist1">ID3D12GraphicsCommandList1</a>
  
 
  

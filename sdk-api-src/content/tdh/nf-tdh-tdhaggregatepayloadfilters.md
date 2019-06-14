@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>TdhAggregatePayloadFilters</b> function aggregates multiple payload filters for a single provider into a single data structure for use with the <a href="https://msdn.microsoft.com/3aceffb6-614f-4cad-bbec-f181f0cbdbff">EnableTraceEx2</a> function.  
+The <b>TdhAggregatePayloadFilters</b> function aggregates multiple payload filters for a single provider into a single data structure for use with the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function.  
 
 
 ## -parameters
@@ -66,7 +66,7 @@ The count of payload filters.
 ### -param PayloadFilterPtrs
 
 An array of event payload single filters,
-        each created by a call to the <a href="https://msdn.microsoft.com/B5132FF2-9DE3-40F3-82F0-90FE0640F646">TdhCreatePayloadFilter</a>  function.
+        each created by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhcreatepayloadfilter">TdhCreatePayloadFilter</a>  function.
 
 
 
@@ -91,12 +91,12 @@ When a Boolean value is <b>FALSE</b>, an event will be written to a session only
 
 ### -param EventFilterDescriptor [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/9318868a-29d8-4a5e-9579-c06a7c0fd78f">EVENT_FILTER_DESCRIPTOR</a> structure to be used with the <a href="https://msdn.microsoft.com/3aceffb6-614f-4cad-bbec-f181f0cbdbff">EnableTraceEx2</a> function.  The <b>EVENT_FILTER_DESCRIPTOR</b> structure will
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structure to be used with the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function.  The <b>EVENT_FILTER_DESCRIPTOR</b> structure will
         contain a pointer to the aggregated payload filters, which have been
         allocated by this function.  
 
 When the caller is finished using this
-        <a href="https://msdn.microsoft.com/9318868a-29d8-4a5e-9579-c06a7c0fd78f">EVENT_FILTER_DESCRIPTOR</a> structure with the <a href="https://msdn.microsoft.com/3aceffb6-614f-4cad-bbec-f181f0cbdbff">EnableTraceEx2</a> function,  the  <a href="https://msdn.microsoft.com/AA08AFD5-EC1A-44BF-9BCB-EEA69A959853">TdhCleanupPayloadEventFilterDescriptor</a>  function should be called to free the allocated memory.
+        <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structure with the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function,  the  <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhcleanuppayloadeventfilterdescriptor">TdhCleanupPayloadEventFilterDescriptor</a>  function should be called to free the allocated memory.
 
 
 
@@ -143,16 +143,16 @@ Unable to allocate memory to create the aggregated payload filter.
 
 
 
-On Windows 8.1,Windows Server 2012 R2, and later, event payload filters can be used by the <a href="https://msdn.microsoft.com/3aceffb6-614f-4cad-bbec-f181f0cbdbff">EnableTraceEx2</a> function to filter on the specific content of the event in a logger session. 
+On Windows 8.1,Windows Server 2012 R2, and later, event payload filters can be used by the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function to filter on the specific content of the event in a logger session. 
 
-The <b>TdhAggregatePayloadFilters</b> function aggregates payload filters for a single provider into a single data structure for use with the <a href="https://msdn.microsoft.com/3aceffb6-614f-4cad-bbec-f181f0cbdbff">EnableTraceEx2</a> function. The <b>TdhAggregatePayloadFilters</b> allocates and fills in an opaque data structure for an aggregated payload filter. When the aggregated payload filter is no longer needed, the <a href="https://msdn.microsoft.com/AA08AFD5-EC1A-44BF-9BCB-EEA69A959853">TdhCleanupPayloadEventFilterDescriptor</a> function is used to free memory allocated for the aggregated  payload filter in the  <a href="https://msdn.microsoft.com/9318868a-29d8-4a5e-9579-c06a7c0fd78f">EVENT_FILTER_DESCRIPTOR</a> structure returned.
+The <b>TdhAggregatePayloadFilters</b> function aggregates payload filters for a single provider into a single data structure for use with the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function. The <b>TdhAggregatePayloadFilters</b> allocates and fills in an opaque data structure for an aggregated payload filter. When the aggregated payload filter is no longer needed, the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhcleanuppayloadeventfilterdescriptor">TdhCleanupPayloadEventFilterDescriptor</a> function is used to free memory allocated for the aggregated  payload filter in the  <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structure returned.
 
 
 #### Examples
 
 For an example that uses 
 the <b>TdhAggregatePayloadFilters</b> function to aggregate payload filters to use in filtering on specific conditions in a logger session, see 
-the example for the <a href="https://msdn.microsoft.com/3aceffb6-614f-4cad-bbec-f181f0cbdbff">EnableTraceEx2</a> function.
+the example for the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function.
 
 <div class="code"></div>
 
@@ -163,27 +163,27 @@ the example for the <a href="https://msdn.microsoft.com/3aceffb6-614f-4cad-bbec-
 
 
 
-<a href="https://msdn.microsoft.com/bc7cf886-f763-428a-9e75-031e8df26554">ENABLE_TRACE_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/9318868a-29d8-4a5e-9579-c06a7c0fd78f">EVENT_FILTER_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/3aceffb6-614f-4cad-bbec-f181f0cbdbff">EnableTraceEx2</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a>
 
 
 
-<a href="https://msdn.microsoft.com/AA08AFD5-EC1A-44BF-9BCB-EEA69A959853">TdhCleanupPayloadEventFilterDescriptor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhcleanuppayloadeventfilterdescriptor">TdhCleanupPayloadEventFilterDescriptor</a>
 
 
 
-<a href="https://msdn.microsoft.com/B5132FF2-9DE3-40F3-82F0-90FE0640F646">TdhCreatePayloadFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhcreatepayloadfilter">TdhCreatePayloadFilter</a>
 
 
 
-<a href="https://msdn.microsoft.com/50EB6A11-54AE-4D90-ABA4-13D8EADA1955">TdhDeletePayloadFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhdeletepayloadfilter">TdhDeletePayloadFilter</a>
  
 
  

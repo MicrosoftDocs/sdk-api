@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[This structure may be altered or unavailable in future versions of Windows.]
 
-Contains the input for the <a href="https://msdn.microsoft.com/b992b585-e1c8-4262-a6e0-ad8b5047620f">IOCTL_TCP_QUERY_INFORMATION_EX</a> control code.
+Contains the input for the <a href="https://docs.microsoft.com/windows/desktop/api/tcpioctl/ni-tcpioctl-ioctl_tcp_query_information_ex">IOCTL_TCP_QUERY_INFORMATION_EX</a> control code.
 
 
 ## -struct-fields
@@ -61,12 +61,12 @@ Contains the input for the <a href="https://msdn.microsoft.com/b992b585-e1c8-426
 
 ### -field ID
 
-The <a href="https://msdn.microsoft.com/79d34f1c-2ea7-4867-9fb2-80401b0859bf">TDIObjectID</a> structure that defines the type of information being requested from the TCP driver by <a href="https://msdn.microsoft.com/b992b585-e1c8-4262-a6e0-ad8b5047620f">IOCTL_TCP_QUERY_INFORMATION_EX</a>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/tdiinfo/ns-tdiinfo-tdiobjectid">TDIObjectID</a> structure that defines the type of information being requested from the TCP driver by <a href="https://docs.microsoft.com/windows/desktop/api/tcpioctl/ni-tcpioctl-ioctl_tcp_query_information_ex">IOCTL_TCP_QUERY_INFORMATION_EX</a>.
 
 
 ### -field Context
 
-The IPv4 or IPv6 address to be used when <a href="https://msdn.microsoft.com/dc9de369-f739-475c-96f5-e2e058705fe8">IPInterfaceInfo</a> data is requested for a particular IP address.
+The IPv4 or IPv6 address to be used when <a href="https://docs.microsoft.com/windows/desktop/api/tcpioctl/ns-tcpioctl-ipinterfaceinfo">IPInterfaceInfo</a> data is requested for a particular IP address.
 
 
 ## -see-also
@@ -74,15 +74,15 @@ The IPv4 or IPv6 address to be used when <a href="https://msdn.microsoft.com/dc9
 
 
 
-<a href="https://msdn.microsoft.com/b992b585-e1c8-4262-a6e0-ad8b5047620f">IOCTL_TCP_QUERY_INFORMATION_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpioctl/ni-tcpioctl-ioctl_tcp_query_information_ex">IOCTL_TCP_QUERY_INFORMATION_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc9de369-f739-475c-96f5-e2e058705fe8">IPInterfaceInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpioctl/ns-tcpioctl-ipinterfaceinfo">IPInterfaceInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/79d34f1c-2ea7-4867-9fb2-80401b0859bf">TDIObjectID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdiinfo/ns-tdiinfo-tdiobjectid">TDIObjectID</a>
  
 
  

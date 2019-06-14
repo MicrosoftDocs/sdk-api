@@ -51,16 +51,16 @@ ms.custom: 19H1
 
 
 
-The <code>IAMTVTuner</code> interface controls a TV tuner. The <a href="https://msdn.microsoft.com/a8e101dc-78ab-495f-9086-7b1d1e87c357">TV Tuner</a> filter implements this interface. Applications can use this interface to set TV channels and to get or set information about their frequencies, and to determine what analog video standards your TV tuner card supports.
+The <code>IAMTVTuner</code> interface controls a TV tuner. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/tv-tuner-filter">TV Tuner</a> filter implements this interface. Applications can use this interface to set TV channels and to get or set information about their frequencies, and to determine what analog video standards your TV tuner card supports.
 
-The interface supports tuners for analog broadcast television and AM/FM radio. It supports tuners with multiple input pins, to enable multiple devices and multiple transmission types. The TV Tuner filter supports worldwide tuning coverage. It maps TV channels to specific frequencies through the <a href="https://msdn.microsoft.com/47ad4288-d855-41cd-b8a2-7b3733a87b41">IAMTuner::put_Channel</a> and <a href="https://msdn.microsoft.com/ae8338e4-b75d-42d5-bcb7-84352921458c">IAMTVTuner::AutoTune</a> methods. These methods handle the details of the conversion, so that the hardware driver receives an exact frequency.
+The interface supports tuners for analog broadcast television and AM/FM radio. It supports tuners with multiple input pins, to enable multiple devices and multiple transmission types. The TV Tuner filter supports worldwide tuning coverage. It maps TV channels to specific frequencies through the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtuner-put_channel">IAMTuner::put_Channel</a> and <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtvtuner-autotune">IAMTVTuner::AutoTune</a> methods. These methods handle the details of the conversion, so that the hardware driver receives an exact frequency.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMTVTuner</b> interface inherits from <a href="https://msdn.microsoft.com/997d39c5-a1a5-4d2d-8704-9846f149712c">IAMTuner</a>. <b>IAMTVTuner</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMTVTuner</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner</a>. <b>IAMTVTuner</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IAMTVTuner</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ae8338e4-b75d-42d5-bcb7-84352921458c">AutoTune</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtvtuner-autotune">AutoTune</a>
 </td>
 <td align="left" width="63%">
 Scans for a precise signal on the channel's frequency.
@@ -84,7 +84,7 @@ Scans for a precise signal on the channel's frequency.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7d0d288a-7ad0-40ad-b86e-9df9447ed484">get_AudioFrequency</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtvtuner-get_audiofrequency">get_AudioFrequency</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current audio frequency.
@@ -93,7 +93,7 @@ Retrieves the current audio frequency.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7b1a31d4-be05-4ab3-8ca3-b1a3f4bda03f">get_AvailableTVFormats</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtvtuner-get_availabletvformats">get_AvailableTVFormats</a>
 </td>
 <td align="left" width="63%">
 Retrieves all the analog video TV standards that the tuner supports.
@@ -102,7 +102,7 @@ Retrieves all the analog video TV standards that the tuner supports.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9dbcdc9f-7efe-4784-a60c-a6c161befb9b">get_ConnectInput</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtvtuner-get_connectinput">get_ConnectInput</a>
 </td>
 <td align="left" width="63%">
 Retrieves the hardware tuner input connection.
@@ -111,7 +111,7 @@ Retrieves the hardware tuner input connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/49763cc3-be8b-4620-b99f-af787844c97c">get_InputType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtvtuner-get_inputtype">get_InputType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the input type.
@@ -120,7 +120,7 @@ Retrieves the input type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/06841331-3b85-4532-8c0c-96022885f92c">get_NumInputConnections</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtvtuner-get_numinputconnections">get_NumInputConnections</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of TV sources plugged into the tuner filter.
@@ -129,7 +129,7 @@ Retrieves the number of TV sources plugged into the tuner filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/26e20511-04f6-4713-967f-5828e6f2a46d">get_TVFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtvtuner-get_tvformat">get_TVFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current analog video TV standard in use.
@@ -138,7 +138,7 @@ Retrieves the current analog video TV standard in use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d19552ce-1314-4217-9bd3-72369b4334cf">get_VideoFrequency</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtvtuner-get_videofrequency">get_VideoFrequency</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current video frequency.
@@ -147,7 +147,7 @@ Retrieves the current video frequency.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d0ea5d82-acb6-401a-942a-99d34058c648">put_ConnectInput</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtvtuner-put_connectinput">put_ConnectInput</a>
 </td>
 <td align="left" width="63%">
 Sets the hardware tuner input connection.
@@ -156,7 +156,7 @@ Sets the hardware tuner input connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d23df6b1-eddc-4c8c-a3c9-400f915e35c4">put_InputType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtvtuner-put_inputtype">put_InputType</a>
 </td>
 <td align="left" width="63%">
 Sets the tuner input type (cable or antenna).
@@ -165,7 +165,7 @@ Sets the tuner input type (cable or antenna).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6e39d757-d8bd-4011-9a67-6bf57b5d820b">StoreAutoTune</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtvtuner-storeautotune">StoreAutoTune</a>
 </td>
 <td align="left" width="63%">
 Saves the fine-tuning information for all channels.
@@ -180,11 +180,11 @@ Saves the fine-tuning information for all channels.
 
 
 
-<a href="https://msdn.microsoft.com/9f2c18ec-3684-42a8-a3df-5f8827b27642">Analog Television</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/analog-television">Analog Television</a>
 
 
 
-<a href="https://msdn.microsoft.com/997d39c5-a1a5-4d2d-8704-9846f149712c">IAMTuner</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner</a>
  
 
  

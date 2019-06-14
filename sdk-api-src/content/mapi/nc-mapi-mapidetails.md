@@ -71,7 +71,7 @@ Parent window handle or zero, indicating that if a dialog box is displayed, it i
 
 ### -param lpRecip [in]
 
-Pointer to the recipient for which details are to be displayed.  <b>MAPIDetails</b> ignores all members of this <a href="https://msdn.microsoft.com/1457617f-de55-4875-91f5-afddee84b782">MapiRecipDesc</a> structure except the <b>ulEIDSize</b> and <b>lpEntryID</b> members. If the value of <b>ulEIDSize</b> is nonzero, <b>MAPIDetails</b> resolves the recipient entry. If the value of <b>ulEIDSize</b> is zero, <b>MAPIDetails</b> returns the MAPI_E_AMBIGUOUS_RECIP value. 
+Pointer to the recipient for which details are to be displayed.  <b>MAPIDetails</b> ignores all members of this <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdesc">MapiRecipDesc</a> structure except the <b>ulEIDSize</b> and <b>lpEntryID</b> members. If the value of <b>ulEIDSize</b> is nonzero, <b>MAPIDetails</b> resolves the recipient entry. If the value of <b>ulEIDSize</b> is zero, <b>MAPIDetails</b> returns the MAPI_E_AMBIGUOUS_RECIP value. 
 
 
 ### -param flFlags [in]
@@ -233,7 +233,7 @@ The call succeeded and the details dialog box was displayed.
 
 The <b>MAPIDetails</b> function presents a dialog box that shows the details of a particular address list entry. The display name and address are the minimum attributes that are displayed in the dialog box; more information can be shown, depending on the address book provider. The details dialog box cannot be suppressed, but the caller can request that it be read-only or modifiable. 
 
-Details can only be shown for resolved address list entries. An entry is resolved if the value of the <b>ulEIDSize</b> member of the <a href="https://msdn.microsoft.com/1457617f-de55-4875-91f5-afddee84b782">MapiRecipDesc</a> structure is nonzero. Entries are resolved when they are returned by the <a href="https://msdn.microsoft.com/4f01763d-22a2-4ee4-a559-f875cb06ea6b">MAPIAddress</a> or <a href="https://msdn.microsoft.com/c834ea40-62c6-44a8-b0e1-f569a92b4c83">MAPIResolveName</a> functions and as the result being recipients of read mail.
+Details can only be shown for resolved address list entries. An entry is resolved if the value of the <b>ulEIDSize</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdesc">MapiRecipDesc</a> structure is nonzero. Entries are resolved when they are returned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapiaddress">MAPIAddress</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapiresolvename">MAPIResolveName</a> functions and as the result being recipients of read mail.
 
 
 
@@ -243,23 +243,23 @@ Details can only be shown for resolved address list entries. An entry is resolve
 
 
 
-<a href="https://msdn.microsoft.com/4f01763d-22a2-4ee4-a559-f875cb06ea6b">MAPIAddress</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapiaddress">MAPIAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a61f0f2-347e-40fb-b7f9-6b42690cbcd8">MAPILogon</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapilogon">MAPILogon</a>
 
 
 
-<a href="https://msdn.microsoft.com/c834ea40-62c6-44a8-b0e1-f569a92b4c83">MAPIResolveName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapiresolvename">MAPIResolveName</a>
 
 
 
-<a href="https://msdn.microsoft.com/1457617f-de55-4875-91f5-afddee84b782">MapiRecipDesc</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdesc">MapiRecipDesc</a>
 
 
 
-<a href="https://msdn.microsoft.com/a8330f38-3ef0-4b36-a5e7-89837088cbef">Simple MAPI</a>
+<a href="https://docs.microsoft.com/previous-versions//dd296734(v=vs.85)">Simple MAPI</a>
  
 
  

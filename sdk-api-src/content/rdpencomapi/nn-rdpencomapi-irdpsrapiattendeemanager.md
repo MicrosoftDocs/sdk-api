@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Manages attendee objects.
 
-Applications obtain access to this object using <a href="https://msdn.microsoft.com/bcbc8f16-855d-4835-966c-73773f3ac6d4">IRDPSRAPISharingSession::get_Attendees</a>.
+Applications obtain access to this object using <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-get_attendees">IRDPSRAPISharingSession::get_Attendees</a>.
 
 
 ## -remarks
@@ -68,11 +68,11 @@ The lifetime of the objects in this collection is controlled by the network laye
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9edd9f2-ccbf-45b2-b71c-e30368435a60">IRDPSRAPIAttendee</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendee">IRDPSRAPIAttendee</a>
  
 
  

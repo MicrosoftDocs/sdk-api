@@ -60,9 +60,9 @@ Fills the library descriptor structure for the library reflection.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/99CB0B61-8494-4591-A3CB-B6DAD19C79ED">D3D12_LIBRARY_DESC</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/ns-d3d12shader-_d3d12_library_desc">D3D12_LIBRARY_DESC</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/99CB0B61-8494-4591-A3CB-B6DAD19C79ED">D3D12_LIBRARY_DESC</a> structure that receives a description of the library reflection.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/ns-d3d12shader-_d3d12_library_desc">D3D12_LIBRARY_DESC</a> structure that receives a description of the library reflection.
           
 
 
@@ -70,9 +70,9 @@ A pointer to a <a href="https://msdn.microsoft.com/99CB0B61-8494-4591-A3CB-B6DAD
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-Returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
+Returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a>.
           
 
 
@@ -83,7 +83,7 @@ Returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9
 
 
 
-<a href="https://msdn.microsoft.com/CE6AEA77-A6A0-46A5-BDBC-AE4907AAC820">ID3D12LibraryReflection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12libraryreflection">ID3D12LibraryReflection</a>
  
 
  

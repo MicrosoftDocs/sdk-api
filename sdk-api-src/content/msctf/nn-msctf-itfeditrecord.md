@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ITfEditRecord</b> interface is implemented by the TSF manager and is used by a text edit sink to determine what was changed during an edit session. An instance of this interface is passed to the text edit sink when the <a href="https://msdn.microsoft.com/7763a879-a558-463d-837b-e38e6f84b9f7">ITfTextEditSink::OnEndEdit</a> method is called.
+The <b>ITfEditRecord</b> interface is implemented by the TSF manager and is used by a text edit sink to determine what was changed during an edit session. An instance of this interface is passed to the text edit sink when the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftexteditsink-onendedit">ITfTextEditSink::OnEndEdit</a> method is called.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfEditRecord</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfEditRecord</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfEditRecord</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfEditRecord</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfEditRecord</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ad7dbd71-6241-45a0-9815-1f0eedc5213a">GetSelectionStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditrecord-getselectionstatus">GetSelectionStatus</a>
 </td>
 <td align="left" width="63%">
 Determines if the selection has changed during the edit session.
@@ -78,7 +78,7 @@ Determines if the selection has changed during the edit session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bfc9cba0-298c-4823-b70a-366bdc5bfb29">GetTextAndPropertyUpdates</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditrecord-gettextandpropertyupdates">GetTextAndPropertyUpdates</a>
 </td>
 <td align="left" width="63%">
 Obtains an enumerator that contains a collection of range objects that cover the specified properties and/or text that changed during the edit session.
@@ -93,12 +93,12 @@ Obtains an enumerator that contains a collection of range objects that cover the
 
 
 
-<a href="https://msdn.microsoft.com/7763a879-a558-463d-837b-e38e6f84b9f7">ITfTextEditSink::OnEndEdit
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftexteditsink-onendedit">ITfTextEditSink::OnEndEdit
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

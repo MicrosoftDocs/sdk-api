@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets a <a href="https://msdn.microsoft.com/e649b799-d0d6-4f2d-b9f1-28070eea9b16">TsViewCookie</a> that represents the current active view.
+Gets a <a href="https://docs.microsoft.com/windows/desktop/TSF/tsviewcookie">TsViewCookie</a> that represents the current active view.
 
 
 ## -parameters
@@ -76,11 +76,11 @@ This method has no return values.
 
 
 
-<a href="https://msdn.microsoft.com/c256f1c2-6b67-4417-8707-3490a2c5cb55">ITextStoreACP2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp2">ITextStoreACP2</a>
 
 
 
-<a href="https://msdn.microsoft.com/e649b799-d0d6-4f2d-b9f1-28070eea9b16">TsViewCookie
+<a href="https://docs.microsoft.com/windows/desktop/TSF/tsviewcookie">TsViewCookie
       </a>
  
 

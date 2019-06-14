@@ -89,9 +89,9 @@ The number of bits-per-pixel. This value must be 1, 4, 8, or 24.
 
 
 
-The <a href="https://msdn.microsoft.com/cb6cb9da-8f7f-47e9-980a-aa77fe04c80c">BITMAPCOREINFO</a> structure combines the <b>BITMAPCOREHEADER</b> structure and a color table to provide a complete definition of the dimensions and colors of a DIB. For more information about specifying a DIB, see <b>BITMAPCOREINFO</b>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapcoreinfo">BITMAPCOREINFO</a> structure combines the <b>BITMAPCOREHEADER</b> structure and a color table to provide a complete definition of the dimensions and colors of a DIB. For more information about specifying a DIB, see <b>BITMAPCOREINFO</b>.
 
-An application should use the information stored in the <b>bcSize</b> member to locate the color table in a <a href="https://msdn.microsoft.com/cb6cb9da-8f7f-47e9-980a-aa77fe04c80c">BITMAPCOREINFO</a> structure, using a method such as the following:
+An application should use the information stored in the <b>bcSize</b> member to locate the color table in a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapcoreinfo">BITMAPCOREINFO</a> structure, using a method such as the following:
 
 
 ```cpp
@@ -110,15 +110,15 @@ pColor = ((LPBYTE) pBitmapCoreInfo +
 
 
 
-<a href="https://msdn.microsoft.com/cb6cb9da-8f7f-47e9-980a-aa77fe04c80c">BITMAPCOREINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapcoreinfo">BITMAPCOREINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/29f8237f-9c7e-41a7-90b1-5f048fcc74a6">Bitmap Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-structures">Bitmap Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/ff0a5ae3-ae2e-4417-b5e5-0f9871c03964">Bitmaps Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
  
 
  

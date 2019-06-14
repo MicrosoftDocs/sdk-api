@@ -60,7 +60,7 @@ Decodes the end of a message.
 
 ### -param *encoderContext [in]
 
-The decoder instance returned by the <a href="https://msdn.microsoft.com/85311349-5c82-4545-8a2b-d8b9e629f04d">WS_CREATE_DECODER_CALLBACK</a>.
+The decoder instance returned by the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_create_decoder_callback">WS_CREATE_DECODER_CALLBACK</a>.
                 
 
 
@@ -128,11 +128,11 @@ This function may return other errors not listed above.
 
 
 
-The decoder can use the callback passed to <a href="https://msdn.microsoft.com/85311349-5c82-4545-8a2b-d8b9e629f04d">WS_CREATE_DECODER_CALLBACK</a> to
+The decoder can use the callback passed to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_create_decoder_callback">WS_CREATE_DECODER_CALLBACK</a> to
             read the encoded data of the message.
           
 
-This callback is not invoked until <a href="https://msdn.microsoft.com/04ba9b13-8145-4956-85b2-2330c792665a">WS_DECODER_DECODE_CALLBACK</a> returns 0 bytes.
+This callback is not invoked until <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_decoder_decode_callback">WS_DECODER_DECODE_CALLBACK</a> returns 0 bytes.
           
 
 

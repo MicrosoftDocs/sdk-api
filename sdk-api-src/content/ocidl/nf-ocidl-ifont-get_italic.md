@@ -108,11 +108,11 @@ The address in pitalic is not valid. For example, it may be <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/3a04d2b7-b2eb-4c6c-8863-1e88321fa382">IFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
 
 
 
-<a href="https://msdn.microsoft.com/a59169e1-d3c4-4dc0-b228-afad0e4d4307">IFont::put_Italic</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-put_italic">IFont::put_Italic</a>
  
 
  

@@ -93,7 +93,7 @@ Refreshes the information in the supplied record without changing the position i
 </td>
 <td width="60%">
 Refreshes the information in the record. Must first call 
-<a href="https://msdn.microsoft.com/1a973a22-ca3a-4980-9b20-d3c5b43fdd19">MsiViewFetch</a> with the same record. Fails for a deleted row. Works with read-write and read-only records.
+<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiviewfetch">MsiViewFetch</a> with the same record. Fails for a deleted row. Works with read-write and read-only records.
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ Inserts a record. Fails if a row with the same primary keys exists. Fails with a
 </td>
 <td width="60%">
 Updates an existing record. Nonprimary keys only. Must first call 
-<a href="https://msdn.microsoft.com/1a973a22-ca3a-4980-9b20-d3c5b43fdd19">MsiViewFetch</a>. Fails with a deleted record. Works only with read-write records.
+<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiviewfetch">MsiViewFetch</a>. Fails with a deleted record. Works only with read-write records.
 
 </td>
 </tr>
@@ -139,7 +139,7 @@ Writes current data in the cursor to a table row. Updates record if the primary 
 </td>
 <td width="60%">
 Updates or deletes and inserts a record into a table. Must first call 
-<a href="https://msdn.microsoft.com/1a973a22-ca3a-4980-9b20-d3c5b43fdd19">MsiViewFetch</a> with the same record. Updates record if the primary keys are unchanged. Deletes old row and inserts new if primary keys have changed. Fails with a read-only database. This mode cannot be used with a view containing joins.
+<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiviewfetch">MsiViewFetch</a> with the same record. Updates record if the primary keys are unchanged. Deletes old row and inserts new if primary keys have changed. Fails with a read-only database. This mode cannot be used with a view containing joins.
 
 </td>
 </tr>
@@ -162,7 +162,7 @@ Inserts or validates a record in a table. Inserts if primary keys do not match a
 </td>
 <td width="60%">
 Remove a row from the table. You must first call the 
-<a href="https://msdn.microsoft.com/1a973a22-ca3a-4980-9b20-d3c5b43fdd19">MsiViewFetch</a> function with the same record. Fails if the row has been deleted. Works only with read-write records. This mode cannot be used with a view containing joins.
+<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiviewfetch">MsiViewFetch</a> function with the same record. Fails if the row has been deleted. Works only with read-write records. This mode cannot be used with a view containing joins.
 
 </td>
 </tr>
@@ -185,8 +185,8 @@ Inserts a temporary record. The information is not persistent. Fails if a row wi
 </td>
 <td width="60%">
 Validates a record. Does not validate across joins. You must first call the 
-<a href="https://msdn.microsoft.com/1a973a22-ca3a-4980-9b20-d3c5b43fdd19">MsiViewFetch</a> function with the same record. Obtain validation errors with 
-<a href="https://msdn.microsoft.com/a59ab850-204b-40b7-bf24-d6a2d7ae82f4">MsiViewGetError</a>. Works with read-write and read-only records. This mode cannot be used with a view containing joins.
+<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiviewfetch">MsiViewFetch</a> function with the same record. Obtain validation errors with 
+<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiviewgeterrora">MsiViewGetError</a>. Works with read-write and read-only records. This mode cannot be used with a view containing joins.
 
 </td>
 </tr>
@@ -198,7 +198,7 @@ Validates a record. Does not validate across joins. You must first call the
 </td>
 <td width="60%">
 Validate a new record. Does not validate across joins. Checks for duplicate keys. Obtain validation errors by calling 
-<a href="https://msdn.microsoft.com/a59ab850-204b-40b7-bf24-d6a2d7ae82f4">MsiViewGetError</a>. Works with read-write and read-only records. This mode cannot be used with a view containing joins.
+<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiviewgeterrora">MsiViewGetError</a>. Works with read-write and read-only records. This mode cannot be used with a view containing joins.
 
 </td>
 </tr>
@@ -210,7 +210,7 @@ Validate a new record. Does not validate across joins. Checks for duplicate keys
 </td>
 <td width="60%">
 Validates fields of a fetched or new record. Can validate one or more fields of an incomplete record. Obtain validation errors by calling 
-<a href="https://msdn.microsoft.com/a59ab850-204b-40b7-bf24-d6a2d7ae82f4">MsiViewGetError</a>. Works with read-write and read-only records. This mode cannot be used with a view containing joins.
+<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiviewgeterrora">MsiViewGetError</a>. Works with read-write and read-only records. This mode cannot be used with a view containing joins.
 
 </td>
 </tr>
@@ -222,8 +222,8 @@ Validates fields of a fetched or new record. Can validate one or more fields of 
 </td>
 <td width="60%">
 Validates a record that will be deleted later. You must first call 
-<a href="https://msdn.microsoft.com/1a973a22-ca3a-4980-9b20-d3c5b43fdd19">MsiViewFetch</a>. Fails if another row refers to the primary keys of this row. Validation does not check for the existence of the primary keys of this row in properties or strings. Does not check if a column is a foreign key to multiple tables. Obtain validation errors by calling 
-<a href="https://msdn.microsoft.com/a59ab850-204b-40b7-bf24-d6a2d7ae82f4">MsiViewGetError</a>. Works with read-write and read-only records. This mode cannot be used with a view that contains joins.
+<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiviewfetch">MsiViewFetch</a>. Fails if another row refers to the primary keys of this row. Validation does not check for the existence of the primary keys of this row in properties or strings. Does not check if a column is a foreign key to multiple tables. Obtain validation errors by calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiviewgeterrora">MsiViewGetError</a>. Works with read-write and read-only records. This mode cannot be used with a view that contains joins.
 
 </td>
 </tr>
@@ -254,7 +254,7 @@ Note that in low memory situations, this function can raise a STATUS_NO_MEMORY e
 
 The MSIMODIFY_VALIDATE, MSIMODIFY_VALIDATE_NEW, MSIMODIFY_VALIDATE_FIELD, and MSIMODIFY_VALIDATE_DELETE values of the 
 <b>MsiViewModify</b> function do not perform actual updates; they ensure that the data in the record is valid. Use of these validation enumerations requires that the database contains the 
-<a href="https://msdn.microsoft.com/52b1c537-efb6-4bb8-9e7f-b4848be52a71">_Validation table</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/-validation-table">_Validation table</a>.
 
 You can call MSIMODIFY_UPDATE or MSIMODIFY_DELETE with a record immediately after using MSIMODIFY_INSERT, MSIMODIFY_INSERT_TEMPORARY, or MSIMODIFY_SEEK provided you have NOT modified the 0th field of the inserted or sought record.
 
@@ -262,12 +262,12 @@ To execute any SQL statement, a view must be created. However, a view that does 
 <b>MsiViewModify</b> to update tables though the view.
 
 You cannot fetch a record that contains binary data from one database and then use that record to insert the data into another database. To move binary data from one database to another, you should export the data to a file and then import it into the new database using a query and the 
-<a href="https://msdn.microsoft.com/ca62f6a6-2f39-4b4c-876f-4c74ecd28ee2">MsiRecordSetStream</a>. This ensures that each database has its own copy of the binary data.
+<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msirecordsetstreama">MsiRecordSetStream</a>. This ensures that each database has its own copy of the binary data.
 
 Note that custom actions can only add, modify, or remove temporary rows, columns, or tables from a database. Custom actions cannot modify persistent data in a database, such as data that is a part of the database stored on disk. For more information, see 
-<a href="https://msdn.microsoft.com/cf70b0b3-ac81-47ab-a4c8-4db53ed9dc84">Accessing the Current Installer Session from Inside a Custom Action</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/accessing-the-current-installer-session-from-inside-a-custom-action">Accessing the Current Installer Session from Inside a Custom Action</a>.
 
-If the function fails, you can obtain extended error information by using <a href="https://msdn.microsoft.com/0d6f4506-367b-43d7-ba1c-2a93c1d0cc51">MsiGetLastErrorRecord</a>.
+If the function fails, you can obtain extended error information by using <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
 
 
 
@@ -277,7 +277,7 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">General Database Access Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">General Database Access Functions</a>
  
 
  

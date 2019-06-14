@@ -215,7 +215,7 @@ The type library or DLL could not be loaded.
 
 
 
-The function <b>LoadRegTypeLib</b> defers to <a href="https://msdn.microsoft.com/155b48e5-5438-409e-9342-630a6a500f60">LoadTypeLib</a> to load the file.
+The function <b>LoadRegTypeLib</b> defers to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-loadtypelib">LoadTypeLib</a> to load the file.
 
 
 

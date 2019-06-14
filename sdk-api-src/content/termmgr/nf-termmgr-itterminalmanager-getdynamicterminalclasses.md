@@ -61,7 +61,7 @@ The
 ### -param dwMediaTypes [in]
 
 Pointer to 
-<a href="https://msdn.microsoft.com/3e418c9a-a008-4b94-b5d2-7c2eccb3bf87">media types</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">media types</a>.
 
 
 ### -param pdwNumClasses [in, out]
@@ -72,7 +72,7 @@ Number of terminal classes returned.
 ### -param pTerminalClasses [out]
 
 Pointer to list of 
-<a href="https://msdn.microsoft.com/2a16d33c-2d87-4172-a5ff-33ff62e96615">terminal classes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-class">terminal classes</a>.
 
 
 ## -returns
@@ -141,7 +141,7 @@ Dynamic terminals not supported on this address.
 
 
 
-<a href="https://msdn.microsoft.com/7e5bd83d-42c5-463c-8ce0-c6f466f60588">ITTerminalManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nn-termmgr-itterminalmanager">ITTerminalManager</a>
  
 
  

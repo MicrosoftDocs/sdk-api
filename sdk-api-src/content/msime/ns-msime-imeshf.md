@@ -87,19 +87,19 @@ Dictionary copyright information.
 
 
 
-<a href="https://msdn.microsoft.com/218DEE1C-945A-4CD8-BAD5-12F904FAB2DD">IFEDictionary::Create</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-create">IFEDictionary::Create</a>
 
 
 
-<a href="https://msdn.microsoft.com/DA710A33-BCBC-47B8-857F-5E6DF142C433">IFEDictionary::GetHeader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-getheader">IFEDictionary::GetHeader</a>
 
 
 
-<a href="https://msdn.microsoft.com/7170EED5-0D96-4314-8B9F-A019052B0F32">IFEDictionary::Open</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-open">IFEDictionary::Open</a>
 
 
 
-<a href="https://msdn.microsoft.com/8666DDE7-D90E-4423-984B-EF526FC34320">IFEDictionary::SetHeader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-setheader">IFEDictionary::SetHeader</a>
  
 
  

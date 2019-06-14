@@ -59,7 +59,7 @@ The <b>WMCreateDRMTranscryptionManager</b> function creates a manager for DRM tr
 
 ### -param ppTranscryptionManager
 
-Address of a pointer to the <a href="https://msdn.microsoft.com/7b112834-11f6-4d23-9719-221c22405943">IWMDRMTranscryptionManager</a> interface of the newly created DRM transcryptor object manager.
+Address of a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd798365(v=vs.85)">IWMDRMTranscryptionManager</a> interface of the newly created DRM transcryptor object manager.
 
 
 ## -returns

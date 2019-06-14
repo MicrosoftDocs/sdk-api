@@ -94,7 +94,7 @@ The method succeeded.
 
 
 
-The Internet media sharing security group applies only to Windows Home Server. Applications running on other versions of Windows can call <b>put_internetMediaSharingSecurityGroup</b> and <a href="https://msdn.microsoft.com/a0085105-7dd5-453d-b372-115d319eb7ac">get_internetMediaSharingSecurityGroup</a>, but the calls will have no effect.
+The Internet media sharing security group applies only to Windows Home Server. Applications running on other versions of Windows can call <b>put_internetMediaSharingSecurityGroup</b> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nf-wmlss-iwindowsmedialibrarysharingservices-get_internetmediasharingsecuritygroup">get_internetMediaSharingSecurityGroup</a>, but the calls will have no effect.
 
 
 

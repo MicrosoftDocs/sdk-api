@@ -61,12 +61,12 @@ The <b>FWPM_FILTER_CHANGE_CALLBACK0</b> function is used to added custom behavio
 
 Type: <b>void*</b>
 
-Optional context pointer. It contains the value of the <i>context</i> parameter passed to the <a href="https://msdn.microsoft.com/6dafce5d-239f-44b6-a24b-2b5646bfe4ec">FwpmFilterSubscribeChanges0</a> function.
+Optional context pointer. It contains the value of the <i>context</i> parameter passed to the <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmfiltersubscribechanges0">FwpmFilterSubscribeChanges0</a> function.
 
 
 ### -param *change [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/01c58002-5506-4e2a-ae85-30b16aad2dd6">FWPM_FILTER_CHANGE0</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_change0_">FWPM_FILTER_CHANGE0</a>*</b>
 
 The change notification information.
 
@@ -84,9 +84,9 @@ This callback function does not return a value.
 
 
 
-Call <a href="https://msdn.microsoft.com/6dafce5d-239f-44b6-a24b-2b5646bfe4ec">FwpmFilterSubscribeChanges0</a> to register this callback function.
+Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmfiltersubscribechanges0">FwpmFilterSubscribeChanges0</a> to register this callback function.
 
-<b>FWPM_FILTER_CHANGE_CALLBACK0</b> is a specific implementation of FWPM_FILTER_CHANGE_CALLBACK. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FWPM_FILTER_CHANGE_CALLBACK0</b> is a specific implementation of FWPM_FILTER_CHANGE_CALLBACK. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -96,11 +96,11 @@ Call <a href="https://msdn.microsoft.com/6dafce5d-239f-44b6-a24b-2b5646bfe4ec">F
 
 
 
-<a href="https://msdn.microsoft.com/01c58002-5506-4e2a-ae85-30b16aad2dd6">FWPM_FILTER_CHANGE0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_change0_">FWPM_FILTER_CHANGE0</a>
 
 
 
-<a href="https://msdn.microsoft.com/6dafce5d-239f-44b6-a24b-2b5646bfe4ec">FwpmFilterSubscribeChanges0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmfiltersubscribechanges0">FwpmFilterSubscribeChanges0</a>
  
 
  

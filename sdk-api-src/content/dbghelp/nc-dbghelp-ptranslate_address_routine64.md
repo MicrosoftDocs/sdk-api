@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 An application-defined callback function used with the 
-<a href="https://msdn.microsoft.com/e2bdaa4c-5474-41a0-bcea-927570c8402c">StackWalk64</a> function. It provides address translation for 16-bit addresses.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-stackwalk">StackWalk64</a> function. It provides address translation for 16-bit addresses.
 
 The <b>PTRANSLATE_ADDRESS_ROUTINE64</b> type defines a pointer to this callback function. 
 <b>TranslateAddressProc64</b> is a placeholder for the application-defined function name.
@@ -115,11 +115,11 @@ DWORD
 
 
 
-<a href="https://msdn.microsoft.com/7b28f70b-2d97-4cc2-8064-dfb806f9cffa">DbgHelp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2bdaa4c-5474-41a0-bcea-927570c8402c">StackWalk64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-stackwalk">StackWalk64</a>
  
 
  

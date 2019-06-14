@@ -50,10 +50,10 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/aed29340-eb64-437d-b7e8-4f0e49c8288a">CInstance</a> class 
+<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/instance/nl-instance-cinstance">CInstance</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>SetCharSplat(LPCWSTR, LPCSTR)</b> method sets a string property.
@@ -88,11 +88,11 @@ Returns <b>TRUE</b> if the operation was successful and <b>FALSE</b> if an attem
 
 
 
-<a href="https://msdn.microsoft.com/aed29340-eb64-437d-b7e8-4f0e49c8288a">CInstance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/instance/nl-instance-cinstance">CInstance</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f59a2ea-3513-4a14-ac1a-62ed833d7192">CInstance::SetCharSplat</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/cinstance-setcharsplat">CInstance::SetCharSplat</a>
  
 
  

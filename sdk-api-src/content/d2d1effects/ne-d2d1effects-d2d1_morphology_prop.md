@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/4B3CFC51-D556-4729-B433-7307C80291F4">Morphology effect</a>.
+Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/morphology">Morphology effect</a>.
         
 
 

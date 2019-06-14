@@ -59,16 +59,16 @@ Initializes a handler with a stream.
 
 ### -param pstream [in]
 
-Type: <b><a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> interface that represents the stream source.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface that represents the stream source.
 
 
 ### -param grfMode [in]
 
 Type: <b>DWORD</b>
 
-One of the following <a href="https://msdn.microsoft.com/15a35da9-332a-46e1-9190-500c95e26f59">STGM</a> values that indicates the access mode for <i>pstream</i>.
+One of the following <a href="https://docs.microsoft.com/windows/desktop/Stg/stgm-constants">STGM</a> values that indicates the access mode for <i>pstream</i>.
 
 
 
@@ -98,9 +98,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method is preferred to <a href="https://msdn.microsoft.com/7b7bb534-dff7-455b-baee-f573fb645cc3">Initialize</a> due to its ability to use streams that are not accessible through a Win32 path, such as the contents of a compressed file with a .zip file name extension.
+This method is preferred to <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-iinitializewithfile-initialize">Initialize</a> due to its ability to use streams that are not accessible through a Win32 path, such as the contents of a compressed file with a .zip file name extension.
 
-The stream pointed to by <i>pstream</i> must remain open for the lifetime of the handler or until <a href="https://msdn.microsoft.com/25b6913e-e630-4cae-b155-d9d475593c9e">IPropertyStore::Commit</a> is called.
+The stream pointed to by <i>pstream</i> must remain open for the lifetime of the handler or until <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb761470(v=vs.85)">IPropertyStore::Commit</a> is called.
 
 When first opened, the source stream reference points to the beginning of the stream. The handler can seek and read from the stream at any time. A handler can be implemented to read all properties from the stream during <b>Initialize</b> or it can wait until the calling process attempts to enumerate or read properties before fetching them from the stream.
 

@@ -105,7 +105,7 @@ Invalid pointer.
 
 
 
-The following table describes the flags that specify information about an <a href="https://msdn.microsoft.com/89a6d1c4-691d-4356-9ef5-1364b5a7507d">ISyncFilterInfo</a> object.
+The following table describes the flags that specify information about an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncfilterinfo">ISyncFilterInfo</a> object.
 
 <table>
 <tr>
@@ -121,7 +121,7 @@ The following table describes the flags that specify information about an <a hre
 </tr>
 <tr>
 <td><b>SYNC_FILTER_INFO_FLAG_CHANGE_UNIT_LIST</b></td>
-<td>An <a href="https://msdn.microsoft.com/fd379fc6-22e5-4165-b4e6-480bc65cccb3">IChangeUnitListFilterInfo</a> object specifies that changes apply only to a subset of the change units that are defined for the scope.
+<td>An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ichangeunitlistfilterinfo">IChangeUnitListFilterInfo</a> object specifies that changes apply only to a subset of the change units that are defined for the scope.
 </td>
 </tr>
 </table>
@@ -135,15 +135,15 @@ The following table describes the flags that specify information about an <a hre
 
 
 
-<a href="https://msdn.microsoft.com/fd379fc6-22e5-4165-b4e6-480bc65cccb3">IChangeUnitListFilterInfo Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ichangeunitlistfilterinfo">IChangeUnitListFilterInfo Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/89a6d1c4-691d-4356-9ef5-1364b5a7507d">ISyncFilterInfo Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncfilterinfo">ISyncFilterInfo Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/b1ffc6a7-ca82-4ce6-b7ac-c4c39c59891d">ISyncFilterInfo2 Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncfilterinfo2">ISyncFilterInfo2 Interface</a>
  
 
  

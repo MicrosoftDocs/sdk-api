@@ -54,7 +54,7 @@ Provides custom methods for the creation of COM object proxies and stubs. This i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPSFactoryBuffer</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IPSFactoryBuffer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPSFactoryBuffer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPSFactoryBuffer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IPSFactoryBuffer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7d0638d9-50bc-47f3-8ebd-47bb5cbcab9c">CreateProxy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipsfactorybuffer-createproxy">CreateProxy</a>
 </td>
 <td align="left" width="63%">
 Creates a proxy for the specified remote interface.
@@ -78,7 +78,7 @@ Creates a proxy for the specified remote interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/45e2a4c3-6a78-4018-9f32-ce5523682c0f">CreateStub</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipsfactorybuffer-createstub">CreateStub</a>
 </td>
 <td align="left" width="63%">
 Creates a stub for the remote use of the specified interface.
@@ -93,15 +93,15 @@ Creates a stub for the remote use of the specified interface.
 
 
 
-<a href="https://msdn.microsoft.com/e6f08949-f27d-4aba-adff-eaf9c356a928">IMarshal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c82f655-ac46-4ed9-992b-0387b324a8f9">Proxy</a>
+<a href="https://docs.microsoft.com/windows/desktop/com/proxy">Proxy</a>
 
 
 
-<a href="https://msdn.microsoft.com/ed7d5546-2d19-4055-b078-62b39d0317b7">Stub</a>
+<a href="https://docs.microsoft.com/windows/desktop/com/stub">Stub</a>
  
 
  

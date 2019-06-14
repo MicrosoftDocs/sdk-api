@@ -110,11 +110,11 @@ Value: 0x8007000E
 
 
 
-<a href="https://msdn.microsoft.com/3789c876-f42c-4f69-b683-96c157d6418d">IDiscFormat2Erase</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2erase">IDiscFormat2Erase</a>
 
 
 
-<a href="https://msdn.microsoft.com/641395b1-724b-42d1-b230-a4d6f3844077">IDiscFormat2Erase::put_ClientName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-put_clientname">IDiscFormat2Erase::put_ClientName</a>
  
 
  

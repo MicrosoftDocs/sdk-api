@@ -66,10 +66,10 @@ Which channel binding is required.  The
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_HTTP_CHANNEL_BINDING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_TCP_CHANNEL_BINDING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a>
 </li>
 </ul>
 
@@ -83,7 +83,7 @@ An array of channel property constraints which override the default
 
 If a channel property constraint is not specified for a given property,
                     then a default constraint value will be used.
-                    See <a href="https://msdn.microsoft.com/en-us/library/Dd401785(v=VS.85).aspx">WS_CHANNEL_PROPERTY_CONSTRAINT</a> for the
+                    See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_channel_property_constraint">WS_CHANNEL_PROPERTY_CONSTRAINT</a> for the
                     supported set of properties and their default values.
                 
 

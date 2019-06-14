@@ -141,7 +141,7 @@ Function is not supported.
 
 If a device identifier is used, then the result of the <b>waveOutSetVolume</b> call applies to all instances of the device. If a device handle is used, then the result applies only to the instance of the device referenced by the device handle.
 
-Not all devices support volume changes. To determine whether the device supports volume control, use the WAVECAPS_VOLUME flag to test the <b>dwSupport</b> member of the <a href="https://msdn.microsoft.com/756f47fa-c0d1-4729-a0f6-096a1212d0a2">WAVEOUTCAPS</a> structure (filled by the <a href="https://msdn.microsoft.com/294daf81-d52a-44b4-b22a-d75ad6e05fee">waveOutGetDevCaps</a> function). To determine whether the device supports volume control on both the left and right channels, use the WAVECAPS_LRVOLUME flag.
+Not all devices support volume changes. To determine whether the device supports volume control, use the WAVECAPS_VOLUME flag to test the <b>dwSupport</b> member of the <a href="https://docs.microsoft.com/previous-versions//dd743855(v=vs.85)">WAVEOUTCAPS</a> structure (filled by the <a href="https://docs.microsoft.com/previous-versions//dd743857(v=vs.85)">waveOutGetDevCaps</a> function). To determine whether the device supports volume control on both the left and right channels, use the WAVECAPS_LRVOLUME flag.
 
 Most devices do not support the full 16 bits of volume-level control and will not use the least-significant bits of the requested volume setting. For example, if a device supports 4 bits of volume control, the values 0x4000, 0x4FFF, and 0x43BE will all be truncated to 0x4000. The <b>waveOutGetVolume</b> function returns the full 16-bit setting set with <b>waveOutSetVolume</b>.
 
@@ -155,11 +155,11 @@ Volume settings are interpreted logarithmically. This means the perceived increa
 
 
 
-<a href="https://msdn.microsoft.com/3188355c-65be-4372-8e87-e7f755982592">Waveform Audio</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c8aaa54-0477-484f-91e1-d2152aa9c185">Waveform Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>
  
 
  

@@ -60,7 +60,7 @@ Retrieves information about the specified combo box.
 
 ### -param hwndCombo [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the combo box. 
 
@@ -69,18 +69,18 @@ A handle to the combo box.
 
 Type: <b>PCOMBOBOXINFO</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb775798(v=VS.85).aspx">COMBOBOXINFO</a> structure that receives the information. You must set <b>COMBOBOXINFO.cbSize</b> before calling this function. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagcomboboxinfo">COMBOBOXINFO</a> structure that receives the information. You must set <b>COMBOBOXINFO.cbSize</b> before calling this function. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -89,7 +89,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Bb775839(v=VS.85).aspx">CB_GETCOMBOBOXINFO</a> message is equivalent to this function.
+The <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-getcomboboxinfo">CB_GETCOMBOBOXINFO</a> message is equivalent to this function.
 
 
 #### Examples
@@ -112,15 +112,15 @@ GetComboBoxInfo(hwnd, &info);
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775839(v=VS.85).aspx">CB_GETCOMBOBOXINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/cb-getcomboboxinfo">CB_GETCOMBOBOXINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775798(v=VS.85).aspx">COMBOBOXINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagcomboboxinfo">COMBOBOXINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761370(v=VS.85).aspx">GetListBoxInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getlistboxinfo">GetListBoxInfo</a>
 
 
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DrvDescribePixelFormat</b> function describes the pixel format for a device-specified <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDEV</a> by writing a pixel format description to a PIXELFORMATDESCRIPTOR structure.
+The <b>DrvDescribePixelFormat</b> function describes the pixel format for a device-specified <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a> by writing a pixel format description to a PIXELFORMATDESCRIPTOR structure.
 
 
 ## -parameters

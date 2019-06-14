@@ -96,7 +96,7 @@ If the method succeeds, it returns S_OK. If it fails, possible return codes incl
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/54A6B7DE-A41E-4214-AF02-CC19250B9037">ISpatialAudioMetadataItems</a> has not been opened for reading with a call to <a href="https://msdn.microsoft.com/50007A27-D885-47F6-9D3A-1F5B6D47BCDD">Open</a> or the object has been closed for writing with a call to <a href="https://msdn.microsoft.com/A9E878E8-A319-4DB3-86A7-4499EDA567F7">Close</a>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">ISpatialAudioMetadataItems</a> has not been opened for reading with a call to <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadatareader-open">Open</a> or the object has been closed for writing with a call to <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadatareader-close">Close</a>.
 
 </td>
 </tr>
@@ -121,11 +121,11 @@ One of the provided pointers is not valid.
 
 
 
-Before calling <b>ReadNextItem</b>, you must open the <a href="https://msdn.microsoft.com/BD1AD4CE-6E88-4292-AA79-E71FE00C2078">ISpatialAudioMetadataReader</a> for reading by calling <a href="https://msdn.microsoft.com/49B3401D-7B26-4057-81C0-6C5683B83665">Open</a> after the object is created and after <a href="https://msdn.microsoft.com/2417E624-6535-49E2-9CF4-F927F731BE41">Close</a> has been called. You must also call <a href="https://msdn.microsoft.com/E9958586-0B1E-4864-AE0F-A9805114A797">ReadItemCountInFrames</a> and then call <a href="https://msdn.microsoft.com/AC1D5FD6-EFF1-410F-95C7-B13EACBED5D1">ReadNextItem</a> before calling <b>ReadNextItem</b>.
+Before calling <b>ReadNextItem</b>, you must open the <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadatareader">ISpatialAudioMetadataReader</a> for reading by calling <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadatawriter-open">Open</a> after the object is created and after <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/ispatialaudiometadatawriter-close">Close</a> has been called. You must also call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt798194(v=vs.85)">ReadItemCountInFrames</a> and then call <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadatareader-readnextitem">ReadNextItem</a> before calling <b>ReadNextItem</b>.
 
-The <a href="https://msdn.microsoft.com/BD1AD4CE-6E88-4292-AA79-E71FE00C2078">ISpatialAudioMetadataReader</a> keeps an internal pointer to the current position within the total range of frames contained by the <a href="https://msdn.microsoft.com/54A6B7DE-A41E-4214-AF02-CC19250B9037">ISpatialAudioMetadataItems</a> with which the reader is associated. Each call to this method causes the pointer to be advanced by the number of frames specified in the <i>readFrameCount</i> parameter.
+The <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadatareader">ISpatialAudioMetadataReader</a> keeps an internal pointer to the current position within the total range of frames contained by the <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">ISpatialAudioMetadataItems</a> with which the reader is associated. Each call to this method causes the pointer to be advanced by the number of frames specified in the <i>readFrameCount</i> parameter.
 
-The process for reading commands and the associated values is recursive. After each call to <b>ReadItemCountInFrames</b>, call <a href="https://msdn.microsoft.com/AC1D5FD6-EFF1-410F-95C7-B13EACBED5D1">ReadNextItem</a> to get the number of commands in the next item. After every call to <b>ReadNextItem</b>, call <b>ReadNextItemCommand</b> to read each command for the  item. Repeat this process until the entire frame range of the <b>ISpatialAudioMetadataItems</b> has been read.
+The process for reading commands and the associated values is recursive. After each call to <b>ReadItemCountInFrames</b>, call <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadatareader-readnextitem">ReadNextItem</a> to get the number of commands in the next item. After every call to <b>ReadNextItem</b>, call <b>ReadNextItemCommand</b> to read each command for the  item. Repeat this process until the entire frame range of the <b>ISpatialAudioMetadataItems</b> has been read.
 
 
 
@@ -135,7 +135,7 @@ The process for reading commands and the associated values is recursive. After e
 
 
 
-<a href="https://msdn.microsoft.com/BD1AD4CE-6E88-4292-AA79-E71FE00C2078">ISpatialAudioMetadataReader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadatareader">ISpatialAudioMetadataReader</a>
  
 
  

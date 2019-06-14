@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Contains options used by the <a href="https://msdn.microsoft.com/6d02e085-405e-4388-bf2f-409c92a7b190">MappingGetServices</a> function to enumerate ELS services.
+Contains options used by the <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappinggetservices">MappingGetServices</a> function to enumerate ELS services.
 
 
 
@@ -131,11 +131,11 @@ The <b>Size</b> member is the only required member of this structure. All the ot
 
 
 
-<a href="https://msdn.microsoft.com/58cdccf8-f052-4bb3-9391-2cc537d820dd">Extended Linguistic Services Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/extended-linguistic-services-structures">Extended Linguistic Services Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/6d02e085-405e-4388-bf2f-409c92a7b190">MappingGetServices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappinggetservices">MappingGetServices</a>
  
 
  

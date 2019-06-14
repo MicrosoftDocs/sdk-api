@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CRL_DIST_POINTS_INFO</b> structure contains a list of <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL) distribution points a certificate user can reference to determine whether the certificate has been revoked.
+The <b>CRL_DIST_POINTS_INFO</b> structure contains a list of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) distribution points a certificate user can reference to determine whether the certificate has been revoked.
 
 
 ## -struct-fields
@@ -65,7 +65,7 @@ Number of elements in the <b>rgDistPoint</b> member array.
 ### -field rgDistPoint
 
 Array of 
-<a href="https://msdn.microsoft.com/ec7ccc54-0aaa-4c32-8aa1-dcbaf59f9991">CRL_DIST_POINT</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_dist_point">CRL_DIST_POINT</a> structures.
 
 
 ## -see-also
@@ -73,7 +73,7 @@ Array of
 
 
 
-<a href="https://msdn.microsoft.com/ec7ccc54-0aaa-4c32-8aa1-dcbaf59f9991">CRL_DIST_POINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_dist_point">CRL_DIST_POINT</a>
  
 
  

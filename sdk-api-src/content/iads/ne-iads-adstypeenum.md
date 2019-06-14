@@ -194,21 +194,21 @@ The data is of an undefined type.
 
 ### -field ADSTYPE_DN_WITH_BINARY
 
-The data is of <a href="https://msdn.microsoft.com/541dd19d-79a1-4a74-b4a1-31cdf69fbf0c">ADS_DN_WITH_BINARY</a> used for mapping a distinguished name to a nonvarying GUID. For more information, see Remarks.
+The data is of <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0015">ADS_DN_WITH_BINARY</a> used for mapping a distinguished name to a nonvarying GUID. For more information, see Remarks.
 
 
 ### -field ADSTYPE_DN_WITH_STRING
 
-The data is of <a href="https://msdn.microsoft.com/715354fe-1e62-4fbd-a5ba-0d7a56b83390">ADS_DN_WITH_STRING</a> used for mapping a distinguished name to a nonvarying string value. For more information, see Remarks.
+The data is of <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0016">ADS_DN_WITH_STRING</a> used for mapping a distinguished name to a nonvarying string value. For more information, see Remarks.
 
 
 ## -remarks
 
 
 
-When extending the active directory schema to add <a href="https://msdn.microsoft.com/541dd19d-79a1-4a74-b4a1-31cdf69fbf0c">ADS_DN_WITH_BINARY</a>, you must also specify the "otherWellKnownGuid" attribute definition. Add the following to the ldf file attribute definition: "omObjectClass:: KoZIhvcUAQEBCw=="
+When extending the active directory schema to add <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0015">ADS_DN_WITH_BINARY</a>, you must also specify the "otherWellKnownGuid" attribute definition. Add the following to the ldf file attribute definition: "omObjectClass:: KoZIhvcUAQEBCw=="
 
-When extending the active directory schema to add <a href="https://msdn.microsoft.com/715354fe-1e62-4fbd-a5ba-0d7a56b83390">ADS_DN_WITH_STRING</a>, you must also specify the "otherWellKnownGuid" attribute definition. Add the following to the ldf file attribute definition: "omObjectClass:: KoZIhvcUAQEBDA=="
+When extending the active directory schema to add <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0016">ADS_DN_WITH_STRING</a>, you must also specify the "otherWellKnownGuid" attribute definition. Add the following to the ldf file attribute definition: "omObjectClass:: KoZIhvcUAQEBDA=="
 
 Because VBScript cannot read data from a type library, VBScript applications do not recognize symbolic constants, as defined above. Use the numerical constants instead to set the appropriate flags in your VBScript application. To use the symbolic constants as a good programming practice, write explicit declarations of such constants, as done here, in your VBScript application.
 
@@ -220,7 +220,7 @@ Because VBScript cannot read data from a type library, VBScript applications do 
 
 
 
-<a href="https://msdn.microsoft.com/f0ad5ce5-742d-40dc-ac5a-31d779e40bfd">ADSI Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
  
 
  

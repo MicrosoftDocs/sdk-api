@@ -61,7 +61,7 @@ The <b>GetCertificateProperty</b> method returns a named property from a certifi
 ### -param strPropertyName [in]
 
 Specifies the named property to retrieve. There is a stock set of certificate properties, referred to as the <i>name properties</i>, that are always valid and can be retrieved by calling this method. For information about these properties, see 
-<a href="https://msdn.microsoft.com/c32756f7-4431-410e-ab3a-c7b748a43829">Name Properties</a>. Other properties that can be retrieved include the certificate properties.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/name-properties">Name Properties</a>. Other properties that can be retrieved include the certificate properties.
 						
 
 The following properties are unique to certificates and can be read by <b>GetCertificateProperty</b>.
@@ -100,7 +100,7 @@ Certificate expiration date
 </dl>
 </td>
 <td width="60%">
-Subject key algorithm <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID)
+Subject key algorithm <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID)
 
 </td>
 </tr>
@@ -164,7 +164,7 @@ Certificate serial number
 
 The certificate's DistinguishedName, RawName, and SerialNumber properties are accessible by <b>GetCertificateProperty</b> only after the policy module has finished processing the request and the certificate is issued.
 
-The following properties apply to the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a>. The context must be  zero to read any of these properties. The context is set to zero when the <a href="https://msdn.microsoft.com/1554c09c-a7c1-44ad-9821-93c0913212fc">ICertServerExit</a> object is initially created.  It can also be set to zero by invoking the <a href="https://msdn.microsoft.com/8d317114-17bd-4b22-8e37-99db72740538">SetContext</a> method.
+The following properties apply to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a>. The context must be  zero to read any of these properties. The context is set to zero when the <a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverexit">ICertServerExit</a> object is initially created.  It can also be set to zero by invoking the <a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-setcontext">SetContext</a> method.
 
 <table>
 <tr>
@@ -178,7 +178,7 @@ The following properties apply to the <a href="https://msdn.microsoft.com/db46de
 </dl>
 </td>
 <td width="60%">
-Type of <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a>. This can be one of the following values (defined in Certsrv.h): 
+Type of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a>. This can be one of the following values (defined in Certsrv.h): 
 
 
 
@@ -201,7 +201,7 @@ ENUM_STANDALONE_SUBCA
 </td>
 <td width="60%">
 Number of CA certificates. This value will be one plus the number of times that the CA has been renewed. For information about renewal, see 
-<a href="https://msdn.microsoft.com/b6c76642-9a23-471e-af08-58e91d778f09">Certification Authority Renewal</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/certification-authority-renewal">Certification Authority Renewal</a>.
 
 </td>
 </tr>
@@ -212,7 +212,7 @@ Number of CA certificates. This value will be one plus the number of times that 
 </dl>
 </td>
 <td width="60%">
-CA certificate <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">state</a>. This can be one of the following values:
+CA certificate <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">state</a>. This can be one of the following values:
 
 <dl>
 <dd>CA_DISP_ERROR: The CA certificate was never issued.</dd>
@@ -221,7 +221,7 @@ CA certificate <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0af
 <dd>CA_DISP_INVALID: The CA certificate has expired.</dd>
 </dl>
 This property name may be appended with '.#', where # represents a CA certificate index (or, in the case of the CRLSuffix property, a CRL index). For information about certificate and CRL indices, see 
-<a href="https://msdn.microsoft.com/b6c76642-9a23-471e-af08-58e91d778f09">Certification Authority Renewal</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/certification-authority-renewal">Certification Authority Renewal</a>.
 
 </td>
 </tr>
@@ -232,10 +232,10 @@ This property name may be appended with '.#', where # represents a CA certificat
 </dl>
 </td>
 <td width="60%">
-Suffix for the CA certificate. The suffix is an empty string for CA certificates with an index of zero; otherwise, the suffix (in the form of "(<i>nn</i>)", where <i>nn</i> is the certificate index) is applied to all URLs that point to CA certificates stored in files or directory service objects. For non-<a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">LDAP</a> URLs, the suffix typically appears before the ".crt" text. For LDAP URLs, the suffix is typically appended to the first 'CN=' in the full distinguished name.
+Suffix for the CA certificate. The suffix is an empty string for CA certificates with an index of zero; otherwise, the suffix (in the form of "(<i>nn</i>)", where <i>nn</i> is the certificate index) is applied to all URLs that point to CA certificates stored in files or directory service objects. For non-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">LDAP</a> URLs, the suffix typically appears before the ".crt" text. For LDAP URLs, the suffix is typically appended to the first 'CN=' in the full distinguished name.
 
 This property name may be appended with '.#', where # represents a CA certificate index (or, in the case of the CRLSuffix property, a CRL index). For information about certificate and CRL indices, see 
-<a href="https://msdn.microsoft.com/b6c76642-9a23-471e-af08-58e91d778f09">Certification Authority Renewal</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/certification-authority-renewal">Certification Authority Renewal</a>.
 
 </td>
 </tr>
@@ -246,11 +246,11 @@ This property name may be appended with '.#', where # represents a CA certificat
 </dl>
 </td>
 <td width="60%">
-<a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">Certificate revocation list</a> (CRL) index. Appending a certificate index to this property name allows you to retrieve the CRL index. The CRL index does not necessarily match the certificate index. For more information, see 
-<a href="https://msdn.microsoft.com/b6c76642-9a23-471e-af08-58e91d778f09">Certification</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certificate revocation list</a> (CRL) index. Appending a certificate index to this property name allows you to retrieve the CRL index. The CRL index does not necessarily match the certificate index. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/certification-authority-renewal">Certification</a>.
 
 This property name may be appended with '.#', where # represents a CA certificate index (or, in the case of the CRLSuffix property, a CRL index). For information about certificate and CRL indices, see 
-<a href="https://msdn.microsoft.com/b6c76642-9a23-471e-af08-58e91d778f09">Certification Authority Renewal</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/certification-authority-renewal">Certification Authority Renewal</a>.
 
 </td>
 </tr>
@@ -261,7 +261,7 @@ This property name may be appended with '.#', where # represents a CA certificat
 </dl>
 </td>
 <td width="60%">
-CRL <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">state</a>. This can be one of the following values:
+CRL <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">state</a>. This can be one of the following values:
 
 <dl>
 <dd>CA_DISP_ERROR: The CRL is managed by another CA certificate.</dd>
@@ -270,7 +270,7 @@ CRL <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">st
 <dd>CA_DISP_INVALID: All CA certificates that use this CA certificate's CRL are expired.</dd>
 </dl>
 This property name may be appended with '.#', where # represents a CA certificate index (or, in the case of the CRLSuffix property, a CRL index). For information about certificate and CRL indices, see 
-<a href="https://msdn.microsoft.com/b6c76642-9a23-471e-af08-58e91d778f09">Certification Authority Renewal</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/certification-authority-renewal">Certification Authority Renewal</a>.
 
 </td>
 </tr>
@@ -284,7 +284,7 @@ This property name may be appended with '.#', where # represents a CA certificat
 Suffix for the CA CRL. The suffix is an empty string for CRLs with an index of zero; otherwise, the suffix (in the form of "(<i>nn</i>)", where <i>nn</i> is the CRL index) is applied to all URLs pointing to CRLs stored in files or directory service objects. For non-LDAP URLs, the suffix typically appears before the ".crl" text. For LDAP URLs, the suffix typically is appended to the first 'CN=' in the full distinguished name.
 
 This property name may be appended with '.#', where # represents a CA certificate index (or, in the case of the CRLSuffix property, a CRL index). For information about certificate and CRL indices, see 
-<a href="https://msdn.microsoft.com/b6c76642-9a23-471e-af08-58e91d778f09">Certification Authority Renewal</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/certification-authority-renewal">Certification Authority Renewal</a>.
 
 </td>
 </tr>
@@ -335,7 +335,7 @@ Registry location available for use by the module.
 CA certificate.
 
 This property name may be appended with '.#', where # represents a CA certificate index (or, in the case of the CRLSuffix property, a CRL index). For information about certificate and CRL indices, see 
-<a href="https://msdn.microsoft.com/b6c76642-9a23-471e-af08-58e91d778f09">Certification Authority Renewal</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/certification-authority-renewal">Certification Authority Renewal</a>.
 
 </td>
 </tr>
@@ -346,10 +346,10 @@ This property name may be appended with '.#', where # represents a CA certificat
 </dl>
 </td>
 <td width="60%">
-CA's <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL).
+CA's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL).
 
 This property name may be appended with '.#', where # represents a CA certificate index (or, in the case of the CRLSuffix property, a CRL index). For information about certificate and CRL indices, see 
-<a href="https://msdn.microsoft.com/b6c76642-9a23-471e-af08-58e91d778f09">Certification Authority Renewal</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/certification-authority-renewal">Certification Authority Renewal</a>.
 
 </td>
 </tr>
@@ -366,7 +366,7 @@ Indicates whether the requester is authorized to request the certificate. This c
 <li>0=no</li>
 <li>1=yes</li>
 </ul>
-(The Certification Authority MMC snap-in can be used to control <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate request</a> permissions.)
+(The Certification Authority MMC snap-in can be used to control <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a> permissions.)
 
 </td>
 </tr>
@@ -377,8 +377,8 @@ Indicates whether the requester is authorized to request the certificate. This c
 </dl>
 </td>
 <td width="60%">
-<a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">Sanitized name</a> for the CA. For information about sanitized CA names, see 
-<a href="https://msdn.microsoft.com/3a35b2a0-f8e4-496d-b76a-a7310842cc4c">ICertConfig::GetConfig</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Sanitized name</a> for the CA. For information about sanitized CA names, see 
+<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertconfig-getconfig">ICertConfig::GetConfig</a>.
 
 </td>
 </tr>
@@ -389,7 +389,7 @@ Indicates whether the requester is authorized to request the certificate. This c
 </dl>
 </td>
 <td width="60%">
-<a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">Sanitized name</a> for the CA, shortened and containing a <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> value to ensure uniqueness.
+<a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Sanitized name</a> for the CA, shortened and containing a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> value to ensure uniqueness.
 
 </td>
 </tr>
@@ -442,7 +442,7 @@ Binary data
 </dl>
 </td>
 <td width="60%">
-<a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">Unicode</a> string data
+<a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> string data
 
 </td>
 </tr>
@@ -452,7 +452,7 @@ Binary data
 
 ### -param pvarPropertyValue [out]
 
-A pointer to a <b>VARIANT</b> that will contain the property value. The returned value is encoded as a <b>BSTR</b>. Use the <a href="https://msdn.microsoft.com/en-us/library/ms221097(v=VS.85).aspx">SysStringByteLen</a> function to retrieve the length of the <b>BSTR</b>.  The binary <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a> is stored as a <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Distinguished Encoding Rules</a>  encoded X.509 certificate.
+A pointer to a <b>VARIANT</b> that will contain the property value. The returned value is encoded as a <b>BSTR</b>. Use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysstringbytelen">SysStringByteLen</a> function to retrieve the length of the <b>BSTR</b>.  The binary <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> is stored as a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a>  encoded X.509 certificate.
 
 
 ## -returns
@@ -462,7 +462,7 @@ A pointer to a <b>VARIANT</b> that will contain the property value. The returned
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the requested property value.
@@ -475,7 +475,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 You must call 
-<a href="https://msdn.microsoft.com/8d317114-17bd-4b22-8e37-99db72740538">ICertServerExit::SetContext</a> prior to using this method.
+<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-setcontext">ICertServerExit::SetContext</a> prior to using this method.
 
 
 #### Examples
@@ -521,15 +521,15 @@ VariantClear(&varProp);
 
 
 
-<a href="https://msdn.microsoft.com/1554c09c-a7c1-44ad-9821-93c0913212fc">ICertServerExit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverexit">ICertServerExit</a>
 
 
 
-<a href="https://msdn.microsoft.com/8d317114-17bd-4b22-8e37-99db72740538">ICertServerExit::SetContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-setcontext">ICertServerExit::SetContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/c32756f7-4431-410e-ab3a-c7b748a43829">Name Properties</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/name-properties">Name Properties</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the next <a href="https://msdn.microsoft.com/794c8425-2319-4339-881c-c5083ab05638">SHITEMID</a> structure in an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure.
+Retrieves the next <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a> structure in an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Retrieves the next <a href="https://msdn.microsoft.com/794c8425-2319-4339-881c-c
 
 Type: <b>PCUIDLIST_RELATIVE</b>
 
-A constant, unaligned, relative PIDL for which the next <a href="https://msdn.microsoft.com/794c8425-2319-4339-881c-c5083ab05638">SHITEMID</a> structure is being retrieved.
+A constant, unaligned, relative PIDL for which the next <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a> structure is being retrieved.
 
 
 ## -returns
@@ -70,7 +70,7 @@ A constant, unaligned, relative PIDL for which the next <a href="https://msdn.mi
 
 Type: <b>PCUIDLIST_RELATIVE</b>
 
-When this function returns, contains one of three results: If <i>pidl</i> is valid and not the last <a href="https://msdn.microsoft.com/794c8425-2319-4339-881c-c5083ab05638">SHITEMID</a> in the <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a>, then it contains a pointer to the next <b>ITEMIDLIST</b> structure. If the last <b>ITEMIDLIST</b> structure is passed, it contains <b>NULL</b>, which signals the end of the PIDL. For other values of <i>pidl</i>, the return value is meaningless.
+When this function returns, contains one of three results: If <i>pidl</i> is valid and not the last <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a> in the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a>, then it contains a pointer to the next <b>ITEMIDLIST</b> structure. If the last <b>ITEMIDLIST</b> structure is passed, it contains <b>NULL</b>, which signals the end of the PIDL. For other values of <i>pidl</i>, the return value is meaningless.
 
 
 
@@ -81,7 +81,7 @@ When this function returns, contains one of three results: If <i>pidl</i> is val
 
 For use where STRICT_TYPED_ITEMIDS is defined.
 
-To verify if the return value is <b>NULL</b>, use <a href="https://msdn.microsoft.com/bb727aad-9c4e-44dc-9c0c-4cbcbf3f9a78">ILIsEmpty</a>.
+To verify if the return value is <b>NULL</b>, use <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ilisempty">ILIsEmpty</a>.
 
 
 

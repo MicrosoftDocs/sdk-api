@@ -57,7 +57,7 @@ ms.custom: 19H1
 Attempts to dequeue an I/O completion packet from the specified I/O completion port. If there is no completion packet queued, the function waits for a pending I/O operation associated 
 with the completion port to complete.
 
-To dequeue multiple I/O completion packets at once, use the <a href="https://msdn.microsoft.com/3996c02c-562c-4697-a091-e241ad54b239">GetQueuedCompletionStatusEx</a> function.
+To dequeue multiple I/O completion packets at once, use the <a href="https://docs.microsoft.com/windows/desktop/FileIO/getqueuedcompletionstatusex-func">GetQueuedCompletionStatusEx</a> function.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ To dequeue multiple I/O completion packets at once, use the <a href="https://msd
 ### -param CompletionPort [in]
 
 A handle to the completion port. To create a completion port, use the 
-<a href="https://msdn.microsoft.com/40cb47fc-7b15-47f6-bee2-2611d4686053">CreateIoCompletionPort</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/createiocompletionport">CreateIoCompletionPort</a> function.
 
 
 ### -param lpNumberOfBytesTransferred
@@ -79,20 +79,20 @@ TBD
 ### -param lpCompletionKey [out]
 
 A pointer to a variable that receives the completion key value associated with the file handle whose I/O operation has completed. A completion key is a per-file key that is specified in a call to 
-<a href="https://msdn.microsoft.com/40cb47fc-7b15-47f6-bee2-2611d4686053">CreateIoCompletionPort</a>.
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/createiocompletionport">CreateIoCompletionPort</a>.
 
 
 ### -param lpOverlapped [out]
 
 A pointer to a variable that receives the address of the 
-<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure that was specified when the completed I/O operation was started. 
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure that was specified when the completed I/O operation was started. 
 
 
 
 						
 
 Even if you have passed the function a file handle associated with a completion port and a valid 
-<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure, an application can prevent completion port notification. This is done by specifying a valid event handle for the <b>hEvent</b> member of the <b>OVERLAPPED</b> structure, and setting its low-order bit. A valid event handle whose low-order bit is set keeps I/O completion from being queued to the completion port.
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure, an application can prevent completion port notification. This is done by specifying a valid event handle for the <b>hEvent</b> member of the <b>OVERLAPPED</b> structure, and setting its low-order bit. A valid event handle whose low-order bit is set keeps I/O completion from being queued to the completion port.
 
 
 ### -param dwMilliseconds [in]
@@ -114,7 +114,7 @@ A pointer to a variable that receives the number of bytes transferred during an 
 Returns nonzero (<b>TRUE</b>) if successful or zero (<b>FALSE</b>) otherwise.
 
  To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 For more information, see the Remarks section.
 
@@ -127,7 +127,7 @@ For more information, see the Remarks section.
 
 This function associates a thread with the specified completion port. A thread can be associated with at most one completion port.  
 
-If a call to <b>GetQueuedCompletionStatus</b> fails because the completion port handle associated with it is closed while the call is outstanding, the function returns <b>FALSE</b>, <i>*lpOverlapped</i> will be <b>NULL</b>,  and <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> will return <b>ERROR_ABANDONED_WAIT_0</b>.
+If a call to <b>GetQueuedCompletionStatus</b> fails because the completion port handle associated with it is closed while the call is outstanding, the function returns <b>FALSE</b>, <i>*lpOverlapped</i> will be <b>NULL</b>,  and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return <b>ERROR_ABANDONED_WAIT_0</b>.
 
 <b>Windows Server 2003 and Windows XP:  </b>Closing the completion port handle while a call is outstanding will not result in the previously stated behavior.  The function will continue to wait until an entry is removed from the port or until a time-out occurs, if specified as a value other than <b>INFINITE</b>.
 
@@ -138,9 +138,9 @@ following parameters: <i>lpNumberOfBytes</i>, <i>lpCompletionKey</i>, and <i>lpO
 <li>If *<i>lpOverlapped</i> is <b>NULL</b>, the function did not dequeue a completion packet from the completion port. In this case, the function does not store information in
  the variables pointed to by the <i>lpNumberOfBytes</i> and <i>lpCompletionKey</i> parameters, and their values are indeterminate.</li>
 <li>If *<i>lpOverlapped</i> is not <b>NULL</b> and the function dequeues a completion packet for a failed I/O operation from the completion port, the function stores
- information about the failed operation in the variables pointed to by <i>lpNumberOfBytes</i>, <i>lpCompletionKey</i>, and <i>lpOverlapped</i>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.</li>
+ information about the failed operation in the variables pointed to by <i>lpNumberOfBytes</i>, <i>lpCompletionKey</i>, and <i>lpOverlapped</i>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.</li>
 </ul>
-For more information on I/O completion port theory, usage, and associated functions, see <a href="https://msdn.microsoft.com/213c48e8-bb21-43ed-9c00-2a5cf8ac25f0">I/O Completion Ports</a>.
+For more information on I/O completion port theory, usage, and associated functions, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/i-o-completion-ports">I/O Completion Ports</a>.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -210,19 +210,19 @@ Yes
 
 
 
-<a href="https://msdn.microsoft.com/50f6680f-900e-4411-a849-ec9a911c9e32">ConnectNamedPipe</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a>
 
 
 
-<a href="https://msdn.microsoft.com/40cb47fc-7b15-47f6-bee2-2611d4686053">CreateIoCompletionPort</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/createiocompletionport">CreateIoCompletionPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
@@ -230,15 +230,15 @@ Yes
 
 
 
-<a href="https://msdn.microsoft.com/3996c02c-562c-4697-a091-e241ad54b239">GetQueuedCompletionStatusEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/getqueuedcompletionstatusex-func">GetQueuedCompletionStatusEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/213c48e8-bb21-43ed-9c00-2a5cf8ac25f0">I/O Completion Ports</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/i-o-completion-ports">I/O Completion Ports</a>
 
 
 
-<a href="https://msdn.microsoft.com/30931ed0-495c-4b50-964a-c507d4ebc2be">LockFileEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-lockfileex">LockFileEx</a>
 
 
 
@@ -246,27 +246,27 @@ Yes
 
 
 
-<a href="https://msdn.microsoft.com/69a9b1e5-2d40-42de-a14a-f7b6f29bf571">PostQueuedCompletionStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/postqueuedcompletionstatus">PostQueuedCompletionStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ad4580d-c002-44a4-a5f6-757e83ed8732">ReadFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/79afcb18-babb-453e-8618-81b43ecb24c4">TransactNamedPipe</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe">TransactNamedPipe</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>
 
 
 
-<a href="https://msdn.microsoft.com/79e955c0-8756-4d6f-bce6-49e8e44d0d3f">WaitCommEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-waitcommevent">WaitCommEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/9d6fa723-fe3e-4052-b0b3-2686eee076a7">WriteFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
  
 
  

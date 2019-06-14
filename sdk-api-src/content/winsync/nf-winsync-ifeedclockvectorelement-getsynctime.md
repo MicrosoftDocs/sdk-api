@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets a <a href="https://msdn.microsoft.com/f5e0df02-d016-4eae-9b9b-bfd754ade126">SYNC_TIME</a> value that corresponds to the <b>when</b> value for the item.
+Gets a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ns-winsync-_sync_time">SYNC_TIME</a> value that corresponds to the <b>when</b> value for the item.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets a <a href="https://msdn.microsoft.com/f5e0df02-d016-4eae-9b9b-bfd754ade126"
 
 ### -param pSyncTime [out]
 
-Returns a <a href="https://msdn.microsoft.com/f5e0df02-d016-4eae-9b9b-bfd754ade126">SYNC_TIME</a> value that corresponds to the <b>when</b> value for the item.
+Returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ns-winsync-_sync_time">SYNC_TIME</a> value that corresponds to the <b>when</b> value for the item.
 
 
 ## -returns
@@ -102,7 +102,7 @@ The method succeeded.
 
 
 
-The <a href="https://msdn.microsoft.com/f5e0df02-d016-4eae-9b9b-bfd754ade126">SYNC_TIME</a> structure is a packed date-and-time value that can store years between 1601 and 67136 and times that are accurate to the millisecond.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ns-winsync-_sync_time">SYNC_TIME</a> structure is a packed date-and-time value that can store years between 1601 and 67136 and times that are accurate to the millisecond.
 
 
 
@@ -112,11 +112,11 @@ The <a href="https://msdn.microsoft.com/f5e0df02-d016-4eae-9b9b-bfd754ade126">SY
 
 
 
-<a href="https://msdn.microsoft.com/7ffc228f-c4f2-4451-9b23-ec78bf6c8318">IFeedClockVectorElement Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ifeedclockvectorelement">IFeedClockVectorElement Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/f5e0df02-d016-4eae-9b9b-bfd754ade126">SYNC_TIME Structure</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ns-winsync-_sync_time">SYNC_TIME Structure</a>
  
 
  

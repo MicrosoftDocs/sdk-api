@@ -80,11 +80,11 @@ If the voice is started, the buffer that is currently playing is not removed fro
 
 
 
-For every buffer removed, an <a href="https://msdn.microsoft.com/en-us/library/Ee418474(v=VS.85).aspx">OnBufferEnd</a> callback will be made, but none of the other per-buffer callbacks (<a href="https://msdn.microsoft.com/en-us/library/Ee418475(v=VS.85).aspx">OnBufferStart</a>, <a href="https://msdn.microsoft.com/en-us/library/Ee418477(v=VS.85).aspx">OnStreamEnd</a> or <a href="https://msdn.microsoft.com/en-us/library/Ee418476(v=VS.85).aspx">OnLoopEnd</a>) will be made.
+For every buffer removed, an <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onbufferend">OnBufferEnd</a> callback will be made, but none of the other per-buffer callbacks (<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onbufferstart">OnBufferStart</a>, <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onstreamend">OnStreamEnd</a> or <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onloopend">OnLoopEnd</a>) will be made.
 
 
 
-<b>FlushSourceBuffers</b> does not change a the voice's running state, so if the voice was playing a buffer prior to the call, it will continue to do so, and will deliver all the callbacks for the buffer normally. This means that the <a href="https://msdn.microsoft.com/en-us/library/Ee418474(v=VS.85).aspx">OnBufferEnd</a> callback for this buffer will take place after the <b>OnBufferEnd</b> callbacks for the buffers that were removed. Thus, an XAudio2 client that calls <b>FlushSourceBuffers</b> cannot expect to receive <b>OnBufferEnd</b> callbacks in the order in which the buffers were submitted.
+<b>FlushSourceBuffers</b> does not change a the voice's running state, so if the voice was playing a buffer prior to the call, it will continue to do so, and will deliver all the callbacks for the buffer normally. This means that the <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onbufferend">OnBufferEnd</a> callback for this buffer will take place after the <b>OnBufferEnd</b> callbacks for the buffers that were removed. Thus, an XAudio2 client that calls <b>FlushSourceBuffers</b> cannot expect to receive <b>OnBufferEnd</b> callbacks in the order in which the buffers were submitted.
 
 
 
@@ -96,7 +96,7 @@ Calling <b>FlushSourceBuffers</b> after a voice is stopped and then submitting n
 
 
 
-A voice's state is not considered reset after calling <b>FlushSourceBuffers</b> until the <a href="https://msdn.microsoft.com/en-us/library/Ee418474(v=VS.85).aspx">OnBufferEnd</a> callback occurs (if a buffer was previously submitted) or <a href="https://msdn.microsoft.com/en-us/library/Hh405047(v=VS.85).aspx">IXAudio2SourceVoice::GetState</a> returns with <a href="https://msdn.microsoft.com/en-us/library/Ee419247(v=VS.85).aspx">XAUDIO2_VOICE_STATE</a>. <b>BuffersQueued</b> == 0. For example, if you stop a voice and call <b>FlushSourceBuffers</b>, it's still not legal to immediately call <a href="https://msdn.microsoft.com/en-us/library/Ee418470(v=VS.85).aspx">IXAudio2SourceVoice::SetSourceSampleRate</a> (which requires the voice to not have any buffers currently queued), until either of the previously mentioned conditions are met. 
+A voice's state is not considered reset after calling <b>FlushSourceBuffers</b> until the <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onbufferend">OnBufferEnd</a> callback occurs (if a buffer was previously submitted) or <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-getstate">IXAudio2SourceVoice::GetState</a> returns with <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_voice_state">XAUDIO2_VOICE_STATE</a>. <b>BuffersQueued</b> == 0. For example, if you stop a voice and call <b>FlushSourceBuffers</b>, it's still not legal to immediately call <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-setsourcesamplerate">IXAudio2SourceVoice::SetSourceSampleRate</a> (which requires the voice to not have any buffers currently queued), until either of the previously mentioned conditions are met. 
 
 
 
@@ -111,7 +111,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415914(v=VS.85).aspx">IXAudio2SourceVoice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2sourcevoice">IXAudio2SourceVoice</a>
  
 
  

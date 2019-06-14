@@ -93,27 +93,27 @@ Create a new context in the current apartment.
 
 
 
-<a href="https://msdn.microsoft.com/c04c736c-8efe-438b-9d21-8b6ad53d36e7">CoGetMarshalSizeMax</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetmarshalsizemax">CoGetMarshalSizeMax</a>
 
 
 
-<a href="https://msdn.microsoft.com/0cb74adc-e192-4ae5-9267-02c79e301681">CoGetStandardMarshal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetstandardmarshal">CoGetStandardMarshal</a>
 
 
 
-<a href="https://msdn.microsoft.com/04ca1217-eac1-43e2-b736-8d7522ce8592">CoMarshalInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-comarshalinterface">CoMarshalInterface</a>
 
 
 
-<a href="https://msdn.microsoft.com/e6f08949-f27d-4aba-adff-eaf9c356a928">IMarshal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d7d7e1c-a491-4625-97ae-0d4dc5d2fc20">IRpcChannelBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcchannelbuffer">IRpcChannelBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/f034436f-e24e-4b99-9fb9-b0400d3ebb72">IStdMarshalInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istdmarshalinfo">IStdMarshalInfo</a>
  
 
  

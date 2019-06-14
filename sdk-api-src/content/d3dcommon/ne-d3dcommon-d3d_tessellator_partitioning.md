@@ -102,9 +102,9 @@ Partition with an even, fractional number.
 
 
 
-During tessellation, the partition option helps to determine how the algorithm chooses the next partition value; this enumeration is used by <a href="https://msdn.microsoft.com/25c8f773-e319-4ba1-b332-d45b8323e8c8">D3D11_SHADER_DESC</a>.
+During tessellation, the partition option helps to determine how the algorithm chooses the next partition value; this enumeration is used by <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-_d3d11_shader_desc">D3D11_SHADER_DESC</a>.
 
-The      <b>D3D11_TESSELLATOR_PARTITIONING</b> enumeration is type defined in the  D3D11Shader.h header file as a <a href="https://msdn.microsoft.com/2a33c1c2-cdd6-48d0-8bd1-a3108c4b9449">D3D_TESSELLATOR_PARTITIONING</a> enumeration, which is fully defined in the  D3DCommon.h header file.
+The      <b>D3D11_TESSELLATOR_PARTITIONING</b> enumeration is type defined in the  D3D11Shader.h header file as a <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_tessellator_partitioning">D3D_TESSELLATOR_PARTITIONING</a> enumeration, which is fully defined in the  D3DCommon.h header file.
 
 
 ```
@@ -121,7 +121,7 @@ typedef D3D_TESSELLATOR_PARTITIONING D3D11_TESSELLATOR_PARTITIONING;
 
 
 
-<a href="https://msdn.microsoft.com/068ce652-8596-4492-992c-658d1fcf8a2c">Shader Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-shader-enums">Shader Enumerations</a>
  
 
  

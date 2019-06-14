@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The  <b>CryptCATStoreFromHandle</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CryptCATStoreFromHandle</b> function retrieves a <a href="https://msdn.microsoft.com/65a15797-453c-4f47-8ea1-c92e616b50aa">CRYPTCATSTORE</a> structure from a catalog handle.
+The <b>CryptCATStoreFromHandle</b> function retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatstore_">CRYPTCATSTORE</a> structure from a catalog handle.
 
 
 ## -parameters
@@ -61,14 +61,14 @@ The <b>CryptCATStoreFromHandle</b> function retrieves a <a href="https://msdn.mi
 
 ### -param hCatalog [in]
 
-A handle to the catalog obtained from the <a href="https://msdn.microsoft.com/e81f3a3d-d5b7-4266-838d-b83e331c8594">CryptCATOpen</a> or <a href="https://msdn.microsoft.com/e9aedc2d-9492-4ed7-9f2d-891997f85f6f">CryptCATHandleFromStore</a> function.
+A handle to the catalog obtained from the <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatopen">CryptCATOpen</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcathandlefromstore">CryptCATHandleFromStore</a> function.
 
 
 ## -returns
 
 
 
-A pointer to a <a href="https://msdn.microsoft.com/65a15797-453c-4f47-8ea1-c92e616b50aa">CRYPTCATSTORE</a> structure that contains the catalog store. The caller must not free this pointer or any of its members.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatstore_">CRYPTCATSTORE</a> structure that contains the catalog store. The caller must not free this pointer or any of its members.
 
 
 

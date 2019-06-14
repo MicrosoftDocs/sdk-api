@@ -141,11 +141,11 @@ For DVD+R and DVD+DL media, this property will also affect the media closing ope
 
 
 
-<a href="https://msdn.microsoft.com/6bb871c2-1a6e-4cf6-94e1-7a566ce7a88e">IDiscFormat2Data</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc88f657-0ec1-488d-8110-055de06c2d58">IDiscFormat2Data::get_DisableConsumerDvdCompatibilityMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_disableconsumerdvdcompatibilitymode">IDiscFormat2Data::get_DisableConsumerDvdCompatibilityMode</a>
  
 
  

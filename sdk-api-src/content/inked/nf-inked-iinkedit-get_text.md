@@ -54,7 +54,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets or sets the current text in the <a href="https://msdn.microsoft.com/a1dfa254-cade-44c5-8fdd-74bb40849063">InkEdit</a> control.
+Gets or sets the current text in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control">InkEdit</a> control.
 
 This property is read/write.
 
@@ -80,7 +80,7 @@ Setting the Text property replaces the entire contents of a control with the new
 
 
 
-<a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
  
 
  

@@ -60,7 +60,7 @@ The <b>GraphicsPath::AddPath</b> method adds a path to this path.
 
 ### -param addingPath [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>*</b>
 
 Pointer to the path to be added. 
 
@@ -88,12 +88,12 @@ Specifies that the first figure in the added path is separate from the last figu
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 </strong>
 
-If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+If the method succeeds, it returns Ok, which is an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+If the method fails, it returns one of the other elements of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 
 
@@ -109,7 +109,7 @@ Even if the value of the <i>connect</i> parameter is <b>TRUE</b>, this method mi
 
 
 
-The following example creates two <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> objects: <i>path1</i> and <i>path2</i>. The code adds an open figure consisting of an arc and a Bézier spline to each path. The code calls the <b>GraphicsPath::AddPath</b> method of <i>path1</i> to add <i>path2</i> to <i>path1</i>. The second argument is <b>TRUE</b>, which specifies that all four items (two arcs and two Bézier splines) belong to the same figure.
+The following example creates two <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> objects: <i>path1</i> and <i>path2</i>. The code adds an open figure consisting of an arc and a Bézier spline to each path. The code calls the <b>GraphicsPath::AddPath</b> method of <i>path1</i> to add <i>path2</i> to <i>path1</i>. The second argument is <b>TRUE</b>, which specifies that all four items (two arcs and two Bézier splines) belong to the same figure.
 
 
 ```cpp
@@ -141,31 +141,31 @@ VOID AddPathExample(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535542(v=VS.85).aspx">AddEllipse Methods</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-addellipse(inconstrect_)">AddEllipse Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535547(v=VS.85).aspx">AddRectangle Methods</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-addrectangle(inconstrect_)">AddRectangle Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533825(v=VS.85).aspx">Clipping with a Region</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-clipping-with-a-region-use">Clipping with a Region</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533805(v=VS.85).aspx">Constructing and Drawing Paths</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-constructing-and-drawing-paths-use">Constructing and Drawing Paths</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533917(v=VS.85).aspx">Creating a Path Gradient</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-creating-a-path-gradient-use">Creating a Path Gradient</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536370(v=VS.85).aspx">Paths</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>
  
 
  

@@ -83,7 +83,7 @@ Provider-defined context data to pass to the callback when the provider is enabl
 ### -param RegHandle [out]
 
 Registration handle. The handle is used by most provider function calls. Before your provider exits, you 
-      must pass this handle to <a href="https://msdn.microsoft.com/fdcccf6f-2f31-4356-a4ee-3b6229c01b75">EventUnregister</a> to 
+      must pass this handle to <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventunregister">EventUnregister</a> to 
       free the handle.
 
 
@@ -101,11 +101,11 @@ Returns ERROR_SUCCESS if successful.
 
 
 Use this function to register your provider if you call 
-    <a href="https://msdn.microsoft.com/93070eb7-c167-4419-abff-e861877dad07">EventWrite</a> to write your events.
+    <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwrite">EventWrite</a> to write your events.
 
 A process can register up to 1,024 provider GUIDs; however, you should limit the number of providers that 
      your process registers to one or two. This limit includes those registered using this function and the 
-     <a href="https://msdn.microsoft.com/c9158292-281b-4a02-b280-956e340d225c">RegisterTraceGuids</a> function.
+     <a href="https://docs.microsoft.com/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a> function.
 
 <b>Prior to Windows Vista:  </b>There is no limit to the number of providers that a process can register. 
 
@@ -117,11 +117,11 @@ A process can register up to 1,024 provider GUIDs; however, you should limit the
 
 
 
-<a href="https://msdn.microsoft.com/f339323e-9da9-495f-aac5-f44969a018eb">EnableCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nc-evntprov-penablecallback">EnableCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/fdcccf6f-2f31-4356-a4ee-3b6229c01b75">EventUnregister</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventunregister">EventUnregister</a>
  
 
  

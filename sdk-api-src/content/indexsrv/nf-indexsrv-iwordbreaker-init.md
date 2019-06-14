@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Initializes the <a href="https://msdn.microsoft.com/en-us/library/Bb266433(v=VS.85).aspx">IWordBreaker</a> implementation and indicates the mode in which the component operates.
+Initializes the <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-iwordbreaker">IWordBreaker</a> implementation and indicates the mode in which the component operates.
 
 
 ## -parameters
@@ -68,14 +68,14 @@ Flag that indicates the mode in which a word breaker operates. <b>TRUE</b> indic
 
 Type: <b>ULONG</b>
 
-Maximum number of characters in words that are added to the <a href="https://msdn.microsoft.com/220FCAE5-D22D-45ED-9689-E78C0D8E0BB3">IWordSink</a>. Words that exceed this limit are truncated.
+Maximum number of characters in words that are added to the <a href="https://docs.microsoft.com/windows/desktop/search/iwordsink">IWordSink</a>. Words that exceed this limit are truncated.
 
 
 ### -param pfLicense [out]
 
 Type: <b>BOOL*</b>
 
-Pointer to a variable that receives a flag indicating whether there are license restrictions for this <a href="https://msdn.microsoft.com/en-us/library/Bb266433(v=VS.85).aspx">IWordBreaker</a> implementation. <b>TRUE</b> indicates that the stemmer is restricted to authorized use only. <b>FALSE</b> indicates that this <b>IWordBreaker</b> implementation can be used freely.
+Pointer to a variable that receives a flag indicating whether there are license restrictions for this <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-iwordbreaker">IWordBreaker</a> implementation. <b>TRUE</b> indicates that the stemmer is restricted to authorized use only. <b>FALSE</b> indicates that this <b>IWordBreaker</b> implementation can be used freely.
 
 
 ## -returns
@@ -145,7 +145,7 @@ Other errors.
 
 
 
-The functionality of the word breaker is similar in both index creation and querying. Differences are language dependent. If <i>pfLicense</i> is <b>TRUE</b>, and if you want more information about possible license restrictions, call the <a href="https://msdn.microsoft.com/en-us/library/Bb266435(v=VS.85).aspx">IWordBreaker::GetLicenseToUse</a> method.
+The functionality of the word breaker is similar in both index creation and querying. Differences are language dependent. If <i>pfLicense</i> is <b>TRUE</b>, and if you want more information about possible license restrictions, call the <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nf-indexsrv-istemmer-getlicensetouse">IWordBreaker::GetLicenseToUse</a> method.
             
 
 
@@ -156,7 +156,7 @@ The functionality of the word breaker is similar in both index creation and quer
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb266433(v=VS.85).aspx">IWordBreaker</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-iwordbreaker">IWordBreaker</a>
  
 
  

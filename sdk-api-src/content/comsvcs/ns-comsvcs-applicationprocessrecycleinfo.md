@@ -79,7 +79,7 @@ The time at which a recycled process will be forcibly terminated if it does not 
 
 ### -field RecycleReasonCode
 
-A code that indicates the reason a process was recycled. This is usually one of the recycle reason code constants defined in Comsvcs.h (for example, CRR_RECYCLED_FROM_UI), but may be any code supplied by an administrative application in a call to <a href="https://msdn.microsoft.com/0d2d6255-54c7-4110-9ee0-7019e9c7cb83">ICOMAdminCatalog2::RecycleApplicationInstances</a>. This member is meaningful only if <b>IsRecycled</b> is <b>TRUE</b>. 
+A code that indicates the reason a process was recycled. This is usually one of the recycle reason code constants defined in Comsvcs.h (for example, CRR_RECYCLED_FROM_UI), but may be any code supplied by an administrative application in a call to <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog2-recycleapplicationinstances">ICOMAdminCatalog2::RecycleApplicationInstances</a>. This member is meaningful only if <b>IsRecycled</b> is <b>TRUE</b>. 
 
 
 ### -field IsPendingRecycle
@@ -132,7 +132,7 @@ The total number of calls serviced by a COM+ server application instance, or 0 i
 
 
 
-<a href="https://msdn.microsoft.com/f2f9c03b-4f57-4087-8fef-5cdccece91d9">IGetAppTrackerData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-igetapptrackerdata">IGetAppTrackerData</a>
  
 
  

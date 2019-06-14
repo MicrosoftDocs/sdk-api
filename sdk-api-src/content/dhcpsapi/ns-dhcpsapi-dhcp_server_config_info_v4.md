@@ -216,11 +216,11 @@ Specifies whether or not to enable audit logging on the DHCP server. A value of 
 
 
 
-<a href="https://msdn.microsoft.com/edbed013-6e17-42f4-b109-9676da80de20">DhcpServerGetConfigV4</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpservergetconfigv4">DhcpServerGetConfigV4</a>
 
 
 
-<a href="https://msdn.microsoft.com/b2d74c43-5c17-4988-be70-fa152e7f848a">DhcpServerSetConfigV4</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpserversetconfigv4">DhcpServerSetConfigV4</a>
  
 
  

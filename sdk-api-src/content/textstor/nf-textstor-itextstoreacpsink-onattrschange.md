@@ -73,7 +73,7 @@ Specifies the number of attributes in the <i>paAttrs</i> array.
 
 ### -param paAttrs [in]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/5e375609-3d3c-4c12-ae05-dcaa70779162">TS_ATTRID</a> values that identify the attributes changed.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/TSF/ts-attrid">TS_ATTRID</a> values that identify the attributes changed.
 
 
 ## -returns

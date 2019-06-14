@@ -62,7 +62,7 @@ The <b>GetDefaultAudioEndpoint</b> method retrieves the default audio endpoint f
 
 ### -param dataFlow [in]
 
-The data-flow direction for the endpoint device. The caller should set this parameter to one of the following two <a href="https://msdn.microsoft.com/en-us/library/Dd370828(v=VS.85).aspx">EDataFlow</a> enumeration values:
+The data-flow direction for the endpoint device. The caller should set this parameter to one of the following two <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/ne-mmdeviceapi-__midl___midl_itf_mmdeviceapi_0000_0000_0001">EDataFlow</a> enumeration values:
 
 eRender
 
@@ -73,7 +73,7 @@ The data-flow direction for a rendering device is eRender. The data-flow directi
 
 ### -param role [in]
 
-The role of the endpoint device. The caller should set this parameter to one of the following <a href="https://msdn.microsoft.com/en-us/library/Dd370842(v=VS.85).aspx">ERole</a> enumeration values:
+The role of the endpoint device. The caller should set this parameter to one of the following <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/ne-mmdeviceapi-__midl___midl_itf_mmdeviceapi_0000_0000_0002">ERole</a> enumeration values:
 
 eConsole
 
@@ -86,7 +86,7 @@ For more information, see Remarks.
 
 ### -param ppEndpoint [out]
 
-Pointer to a pointer variable into which the method writes the address of the <a href="https://msdn.microsoft.com/12b05e7e-81b2-49fd-bb9f-d5ad3315c580">IMMDevice</a> interface of the endpoint object for the default audio endpoint device. Through this method, the caller obtains a counted reference to the interface. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <b>Release</b> method. If the <b>GetDefaultAudioEndpoint</b> call fails,  <i>*ppDevice</i> is <b>NULL</b>.
+Pointer to a pointer variable into which the method writes the address of the <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice</a> interface of the endpoint object for the default audio endpoint device. Through this method, the caller obtains a counted reference to the interface. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <b>Release</b> method. If the <b>GetDefaultAudioEndpoint</b> call fails,  <i>*ppDevice</i> is <b>NULL</b>.
 
 
 ## -returns
@@ -156,7 +156,7 @@ Out of memory.
 
 <b>Note</b>
 
-In Windows Vista, the MMDevice API supports <a href="https://msdn.microsoft.com/aa787004-0d3e-448b-80dd-92055f841aee">device roles</a> but the system-supplied user interface programs do not. The user interface in Windows Vista enables the user to select a default audio device for rendering and a default audio device for capture. When the user changes the default rendering or capture device, the system assigns all three device roles (eConsole, eMultimedia, and eCommunications) to that device. Thus, <b>GetDefaultAudioEndpoint</b> always selects the default rendering or capture device, regardless of which role is indicated by the <i>role</i> parameter. In a future version of Windows, the user interface might enable the user to assign individual roles to different devices. In that case, the selection of a rendering or capture device by <b>GetDefaultAudioEndpoint</b> might depend on the <i>role</i> parameter. Thus, the behavior of an audio application developed to run in Windows Vista might change when run in a future version of Windows. For more information, see <a href="https://msdn.microsoft.com/3b2cb1fe-0f11-4509-a6f3-513d2755cd29">Device Roles in Windows Vista</a>.
+In Windows Vista, the MMDevice API supports <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-roles">device roles</a> but the system-supplied user interface programs do not. The user interface in Windows Vista enables the user to select a default audio device for rendering and a default audio device for capture. When the user changes the default rendering or capture device, the system assigns all three device roles (eConsole, eMultimedia, and eCommunications) to that device. Thus, <b>GetDefaultAudioEndpoint</b> always selects the default rendering or capture device, regardless of which role is indicated by the <i>role</i> parameter. In a future version of Windows, the user interface might enable the user to assign individual roles to different devices. In that case, the selection of a rendering or capture device by <b>GetDefaultAudioEndpoint</b> might depend on the <i>role</i> parameter. Thus, the behavior of an audio application developed to run in Windows Vista might change when run in a future version of Windows. For more information, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-roles-in-windows-vista">Device Roles in Windows Vista</a>.
 
 This method retrieves the default endpoint device for the specified data-flow direction (rendering or capture) and role. For example, a client can get the default console playback device by making the following call:
 
@@ -179,10 +179,10 @@ For code examples that call the <b>GetDefaultAudioEndpoint</b> method, see the f
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/00bfcfd1-6592-43e3-90ad-730c92aa4cd3">Rendering a Stream</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/rendering-a-stream">Rendering a Stream</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/91a93b79-2563-4b25-af5d-ca5f7d35d77b">Audio Events for Legacy Audio Applications</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audio-events-for-legacy-audio-applications">Audio Events for Legacy Audio Applications</a>
 </li>
 </ul>
 
@@ -193,11 +193,11 @@ For code examples that call the <b>GetDefaultAudioEndpoint</b> method, see the f
 
 
 
-<a href="https://msdn.microsoft.com/12b05e7e-81b2-49fd-bb9f-d5ad3315c580">IMMDevice Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/1abdeac1-c156-40b8-8b8c-5ddb51e410aa">IMMDeviceEnumerator Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator">IMMDeviceEnumerator Interface</a>
  
 
  

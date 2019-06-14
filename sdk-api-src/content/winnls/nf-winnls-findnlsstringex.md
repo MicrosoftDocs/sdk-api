@@ -57,7 +57,7 @@ ms.custom: 19H1
 
 
 Locates a Unicode string (wide characters) or its equivalent in another Unicode string for a locale specified by name.
-<div class="alert"><b>Caution</b>  Because strings with very different binary representations can compare as identical, this function can raise certain security concerns. For more information, see the discussion of comparison functions in <a href="https://msdn.microsoft.com/4034f479-ad29-4c6f-82c6-977f420c4d4d">Security Considerations: International Features</a>.</div><div> </div>
+<div class="alert"><b>Caution</b>  Because strings with very different binary representations can compare as identical, this function can raise certain security concerns. For more information, see the discussion of comparison functions in <a href="https://docs.microsoft.com/windows/desktop/Intl/security-considerations--international-features">Security Considerations: International Features</a>.</div><div> </div>
 
 ## -parameters
 
@@ -66,23 +66,23 @@ Locates a Unicode string (wide characters) or its equivalent in another Unicode 
 
 ### -param lpLocaleName [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/221aae7b-3a7c-4995-ae78-50d97de436d8">locale name</a>, or one of the following predefined values. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-names">locale name</a>, or one of the following predefined values. 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/63e2e368-af2f-4af0-bbea-2b27d1939394">LOCALE_NAME_INVARIANT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_INVARIANT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/63e2e368-af2f-4af0-bbea-2b27d1939394">LOCALE_NAME_SYSTEM_DEFAULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_SYSTEM_DEFAULT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/63e2e368-af2f-4af0-bbea-2b27d1939394">LOCALE_NAME_USER_DEFAULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_USER_DEFAULT</a>
 </li>
 </ul>
 
 ### -param dwFindNLSStringFlags [in]
 
-Flags specifying details of the find operation. These flags are mutually exclusive, with FIND_FROMSTART being the default. The application can specify just one of the find flags with any of the filtering flags defined in the next table. If the application does not specify a flag, the function uses the default comparison for the specified locale. As discussed in <a href="https://msdn.microsoft.com/c8fc32bd-02bd-4a40-a836-d9ad9f69c209">Handling Sorting in Your Applications</a>, there is no binary comparison mode.
+Flags specifying details of the find operation. These flags are mutually exclusive, with FIND_FROMSTART being the default. The application can specify just one of the find flags with any of the filtering flags defined in the next table. If the application does not specify a flag, the function uses the default comparison for the specified locale. As discussed in <a href="https://docs.microsoft.com/windows/desktop/Intl/handling-sorting-in-your-applications">Handling Sorting in Your Applications</a>, there is no binary comparison mode.
 
 <table>
 <tr>
@@ -279,7 +279,7 @@ Reserved; must be 0.
 
 Returns a 0-based index into the source string indicated by <i>lpStringSource</i> if successful. In combination with the value in <i>pcchFound</i>, this index provides the exact location of the entire found string in the source string. A return value of 0 is an error-free index into the source string, and the matching string is in the source string at offset 0.
 
-The function returns -1 if it does not succeed. To get extended error information, the application can call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>, which can return one of the following error codes:
+The function returns -1 if it does not succeed. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <ul>
 <li>ERROR_INVALID_FLAGS. The values supplied for flags were not valid.</li>
@@ -306,9 +306,9 @@ For many scripts (notably Latin scripts), NORM_IGNORENONSPACE coincides with LIN
 </ul>
 In contrast to other NLS API functions, which return 0 for failure, this function returns -1 if it fails. On success, it returns a 0-based index. Use of this index helps the function avoid off-by-one errors and one-character buffer overruns.
 
-This function is one of the few NLS functions that calls <a href="https://msdn.microsoft.com/d9da833f-36ca-4046-8d2f-cd4449dd3c63">SetLastError</a> even when it succeeds. It makes this call to clear the last error in a thread when it fails to match the search string. This clears the value returned by <b>GetLastError</b>.
+This function is one of the few NLS functions that calls <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> even when it succeeds. It makes this call to clear the last error in a thread when it fails to match the search string. This clears the value returned by <b>GetLastError</b>.
 
-<b>Beginning in Windows 8:</b> If your app passes language tags to this function from the <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Globalization">Windows.Globalization</a> namespace, it must first convert the tags by calling <a href="https://msdn.microsoft.com/99264b22-3fb5-47e2-b0b9-42a6768e67c1">ResolveLocaleName</a>.
+<b>Beginning in Windows 8:</b> If your app passes language tags to this function from the <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Globalization">Windows.Globalization</a> namespace, it must first convert the tags by calling <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-resolvelocalename">ResolveLocaleName</a>.
 
 
 
@@ -318,31 +318,31 @@ This function is one of the few NLS functions that calls <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/264c67b6-848d-48ef-9bfa-4990bfa2fbf5">CompareStringEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringex">CompareStringEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/d65a67d1-a7e1-4d2a-ae8b-6b4ac7f2a987">FindNLSString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-findnlsstring">FindNLSString</a>
 
 
 
-<a href="https://msdn.microsoft.com/c8fc32bd-02bd-4a40-a836-d9ad9f69c209">Handling Sorting in Your Applications</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/handling-sorting-in-your-applications">Handling Sorting in Your Applications</a>
 
 
 
-<a href="https://msdn.microsoft.com/725e4e75-c328-40bc-a594-20a295a487c6">LCMapStringEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-lcmapstringex">LCMapStringEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a548074-0782-45e1-8051-80c3b9d81885">National Language Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c72c4de-83be-4b7e-9ed8-b0236c1df8a4">National Language Support Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/4034f479-ad29-4c6f-82c6-977f420c4d4d">Security Considerations: International Features</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/security-considerations--international-features">Security Considerations: International Features</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The WlxLogoff function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>WlxLogoff</b> function must be implemented by a replacement <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> DLL. <a href="https://msdn.microsoft.com/031c898b-3b4d-4b29-811a-112da37b5e3d">Winlogon</a> calls this function to notify the GINA of a logoff operation on this workstation, allowing the GINA to perform any logoff operations that may be required.
+The <b>WlxLogoff</b> function must be implemented by a replacement <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> DLL. <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> calls this function to notify the GINA of a logoff operation on this workstation, allowing the GINA to perform any logoff operations that may be required.
 <div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>
 
 ## -parameters
@@ -62,7 +62,7 @@ The <b>WlxLogoff</b> function must be implemented by a replacement <a href="http
 ### -param pWlxContext [in]
 
 A pointer to the GINA context associated with this window station. The GINA returns this context value when Winlogon calls 
-<a href="https://msdn.microsoft.com/db03f2b3-0719-40be-8a42-04ab7110f711">WlxInitialize</a> for this station.
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> for this station.
 
 
 ## -returns
@@ -88,7 +88,7 @@ Before calling <b>WlxLogoff</b>, Winlogon sets the desktop state so that the cur
 
 
 
-<a href="https://msdn.microsoft.com/db03f2b3-0719-40be-8a42-04ab7110f711">WlxInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
  
 
  

@@ -66,7 +66,7 @@ Number of elements requested.
 ### -param rgelt [out]
 
 Array of 
-<a href="https://msdn.microsoft.com/61db33de-a38c-4c52-9f1b-66d46f25c297">IBitsPeerCacheRecord</a> objects. You must release each object in <i>rgelt</i> when done.
+<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ibitspeercacherecord">IBitsPeerCacheRecord</a> objects. You must release each object in <i>rgelt</i> when done.
 
 
 ### -param pceltFetched [out]
@@ -118,7 +118,7 @@ Returned less than the number of requested elements.
 
 
 
-<a href="https://msdn.microsoft.com/680c1468-d780-44a3-9048-c7c3928234f9">IEnumBitsPeerCacheRecords</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ienumbitspeercacherecords">IEnumBitsPeerCacheRecords</a>
  
 
  

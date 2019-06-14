@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Frees a file name mapping object that was retrieved by the <a href="https://msdn.microsoft.com/7807015f-52c5-46f5-9e90-4e3e60ddf705">SHFileOperation</a> function.
+Frees a file name mapping object that was retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> function.
 
 
 ## -parameters

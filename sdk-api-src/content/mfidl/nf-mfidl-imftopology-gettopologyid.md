@@ -60,7 +60,7 @@ Gets the identifier of the topology.
 
 ### -param pID [out]
 
-Receives the identifier, as a <a href="https://msdn.microsoft.com/a6d9246a-0cc6-4dbd-affa-e7d0bbddb008">TOPOID</a> value.
+Receives the identifier, as a <a href="https://docs.microsoft.com/windows/desktop/medfound/topoid">TOPOID</a> value.
           
 
 
@@ -78,15 +78,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/f293e9ee-9bd2-4b3e-a4ff-53457ee910f6">IMFTopology</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a>
 
 
 
-<a href="https://msdn.microsoft.com/a6d9246a-0cc6-4dbd-affa-e7d0bbddb008">TOPOID</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/topoid">TOPOID</a>
 
 
 
-<a href="https://msdn.microsoft.com/6fc19244-0f42-4d23-899d-c79e97018855">Topologies</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/topologies">Topologies</a>
  
 
  

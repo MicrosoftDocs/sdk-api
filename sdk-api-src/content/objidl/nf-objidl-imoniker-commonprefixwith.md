@@ -59,12 +59,12 @@ Creates a new moniker based on the prefix that this moniker has in common with t
 
 ### -param pmkOther [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/17f4c1df-7a9c-42ef-a888-70cd8d85f070">IMoniker</a> interface on another moniker to be compared with this one to determine whether there is a common prefix.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface on another moniker to be compared with this one to determine whether there is a common prefix.
 
 
 ### -param ppmkPrefix [out]
 
-The address of an <a href="https://msdn.microsoft.com/17f4c1df-7a9c-42ef-a888-70cd8d85f070">IMoniker</a>* pointer variable that receives the interface pointer to the moniker that is the common prefix of this moniker and pmkOther. When successful, the implementation must call <a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63">AddRef</a> on the resulting moniker; it is the caller's responsibility to call <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a>. If an error occurs or if there is no common prefix, the implementation should set *<i>ppmkPrefix</i> to <b>NULL</b>.
+The address of an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>* pointer variable that receives the interface pointer to the moniker that is the common prefix of this moniker and pmkOther. When successful, the implementation must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on the resulting moniker; it is the caller's responsibility to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>. If an error occurs or if there is no common prefix, the implementation should set *<i>ppmkPrefix</i> to <b>NULL</b>.
 
 
 ## -returns
@@ -157,7 +157,7 @@ This method was called on a relative moniker. It is not meaningful to take the c
 <b>CommonPrefixWith</b> creates a new moniker that consists of the common prefixes of the moniker on this moniker object and another moniker. For example, if one moniker represents the path "c:\projects\secret\art\pict1.bmp" and another moniker represents the path "c:\projects\secret\docs\chap1.txt", the common prefix of these two monikers would be a moniker representing the path "c:\projects\secret".
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-The <b>CommonPrefixWith</b> method is primarily called in the implementation of the <a href="https://msdn.microsoft.com/92e2e7d7-043e-4e95-8540-5a895b5a54f9">IMoniker::RelativePathTo</a> method. Clients using a moniker to locate an object rarely need to call this method.
+The <b>CommonPrefixWith</b> method is primarily called in the implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-relativepathto">IMoniker::RelativePathTo</a> method. Clients using a moniker to locate an object rarely need to call this method.
 
 
 
@@ -166,7 +166,7 @@ Call this method only if <i>pmkOther</i> and this moniker are both absolute moni
 
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-Your implementation should first determine whether <i>pmkOther</i> is a moniker of a class that you recognize and for which you can provide special handling (for example, if it is of the same class as this moniker). If so, your implementation should determine the common prefix of the two monikers. Otherwise, it should pass both monikers in a call to the <a href="https://msdn.microsoft.com/6caa8c2e-c3d6-45d5-8efe-74d6a2c4a926">MonikerCommonPrefixWith</a> function, which correctly handles the generic case. 
+Your implementation should first determine whether <i>pmkOther</i> is a moniker of a class that you recognize and for which you can provide special handling (for example, if it is of the same class as this moniker). If so, your implementation should determine the common prefix of the two monikers. Otherwise, it should pass both monikers in a call to the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-monikercommonprefixwith">MonikerCommonPrefixWith</a> function, which correctly handles the generic case. 
 
 
 <h3><a id="Implementation-specific_Notes"></a><a id="implementation-specific_notes"></a><a id="IMPLEMENTATION-SPECIFIC_NOTES"></a>Implementation-specific Notes</h3>
@@ -178,14 +178,14 @@ Your implementation should first determine whether <i>pmkOther</i> is a moniker 
 <tr>
 <td>Anti-moniker</td>
 <td>
-If the other moniker is also an anti-moniker, the method returns MK_S_US and sets ppmkPrefix to this moniker. Otherwise, the method calls the <a href="https://msdn.microsoft.com/6caa8c2e-c3d6-45d5-8efe-74d6a2c4a926">MonikerCommonPrefixWith</a> function. This function correctly handles the case where the other moniker is a generic composite.
+If the other moniker is also an anti-moniker, the method returns MK_S_US and sets ppmkPrefix to this moniker. Otherwise, the method calls the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-monikercommonprefixwith">MonikerCommonPrefixWith</a> function. This function correctly handles the case where the other moniker is a generic composite.
 
 </td>
 </tr>
 <tr>
 <td>Class moniker</td>
 <td>
-If <i>pmkOther</i> is equal to this moniker, retrieves a pointer to this moniker and returns MK_S_US. If <i>pmkOther</i> is a class moniker but is not equal to this moniker, returns MK_E_NOPREFIX. Otherwise, returns the result of calling <a href="https://msdn.microsoft.com/6caa8c2e-c3d6-45d5-8efe-74d6a2c4a926">MonikerCommonPrefixWith</a> with itself as <i>pmkThis</i>, <i>pmkOther</i>, and <i>ppmkPrefix</i>, which handles the case where <i>pmkOther</i> is a generic composite moniker.
+If <i>pmkOther</i> is equal to this moniker, retrieves a pointer to this moniker and returns MK_S_US. If <i>pmkOther</i> is a class moniker but is not equal to this moniker, returns MK_E_NOPREFIX. Otherwise, returns the result of calling <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-monikercommonprefixwith">MonikerCommonPrefixWith</a> with itself as <i>pmkThis</i>, <i>pmkOther</i>, and <i>ppmkPrefix</i>, which handles the case where <i>pmkOther</i> is a generic composite moniker.
 
 </td>
 </tr>
@@ -199,7 +199,7 @@ If both monikers are file monikers, this method returns a file moniker that is b
 <li>A drive designation (for example, "C:").</li>
 <li>A directory or file name.</li>
 </ul>
-If the other moniker is not a file moniker, this method passes both monikers in a call to the <a href="https://msdn.microsoft.com/6caa8c2e-c3d6-45d5-8efe-74d6a2c4a926">MonikerCommonPrefixWith</a> function. This function correctly handles the case where the other moniker is a generic composite.
+If the other moniker is not a file moniker, this method passes both monikers in a call to the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-monikercommonprefixwith">MonikerCommonPrefixWith</a> function. This function correctly handles the case where the other moniker is a generic composite.
 
 This method returns MK_E_NOPREFIX if there is no common prefix.
 
@@ -219,14 +219,14 @@ If there is no common prefix, this method returns MK_E_NOPREFIX and sets <i>ppmk
 <tr>
 <td>Item moniker</td>
 <td>
-If the other moniker is an item moniker that is equal to this moniker, this method sets *<i>ppmkPrefix</i> to this moniker and returns MK_S_US; otherwise, the method calls the <a href="https://msdn.microsoft.com/6caa8c2e-c3d6-45d5-8efe-74d6a2c4a926">MonikerCommonPrefixWith</a> function. This function correctly handles the case where the other moniker is a generic composite.
+If the other moniker is an item moniker that is equal to this moniker, this method sets *<i>ppmkPrefix</i> to this moniker and returns MK_S_US; otherwise, the method calls the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-monikercommonprefixwith">MonikerCommonPrefixWith</a> function. This function correctly handles the case where the other moniker is a generic composite.
 
 </td>
 </tr>
 <tr>
 <td>OBJREF moniker</td>
 <td>
-If the two monikers are equal, this method returns MK_S_US and sets *<i>ppmkPrefix</i> to <b>NULL</b>. If the other moniker is not an OBJREF moniker, this method passes both monikers to the <a href="https://msdn.microsoft.com/6caa8c2e-c3d6-45d5-8efe-74d6a2c4a926">MonikerCommonPrefixWith</a> function. This function correctly handles the case where the other moniker is a generic composite.
+If the two monikers are equal, this method returns MK_S_US and sets *<i>ppmkPrefix</i> to <b>NULL</b>. If the other moniker is not an OBJREF moniker, this method passes both monikers to the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-monikercommonprefixwith">MonikerCommonPrefixWith</a> function. This function correctly handles the case where the other moniker is a generic composite.
 
 If there is no common prefix, this method returns MK_E_NOPREFIX.
 
@@ -257,11 +257,11 @@ This method returns E_NOTIMPL.
 
 
 
-<a href="https://msdn.microsoft.com/17f4c1df-7a9c-42ef-a888-70cd8d85f070">IMoniker</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
 
 
 
-<a href="https://msdn.microsoft.com/6caa8c2e-c3d6-45d5-8efe-74d6a2c4a926">MonikerCommonPrefixWith</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-monikercommonprefixwith">MonikerCommonPrefixWith</a>
  
 
  

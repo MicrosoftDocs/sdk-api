@@ -108,7 +108,7 @@ If you call the
 <b>GetDSPath</b> method and specify a computer GPO, the method succeeds, but on return, the <i>pszPath</i> parameter contains an empty string. This is because computer GPOs do not have Active Directory storage; they have only file system storage.
 
 To retrieve the file system path for the specified section of a GPO, you can call the 
-<a href="https://msdn.microsoft.com/6fcdc7f8-61bf-4d3e-b0aa-ff730d6730cb">GetFileSysPath</a> method.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igpeinformation-getfilesyspath">GetFileSysPath</a> method.
 
 
 
@@ -118,21 +118,21 @@ To retrieve the file system path for the specified section of a GPO, you can cal
 
 
 
-<a href="https://msdn.microsoft.com/6fcdc7f8-61bf-4d3e-b0aa-ff730d6730cb">GetFileSysPath</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igpeinformation-getfilesyspath">GetFileSysPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc15a69d-a44d-4731-a9e5-6165abd581c4">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-interfaces">Group Policy
     Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/1285ab5a-ea68-4c16-bc34-8ab2f3cfad35">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b3e7793-fc69-43a3-a2b1-0aa36748a19b">IGPEInformation</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igpeinformation">IGPEInformation</a>
  
 
  

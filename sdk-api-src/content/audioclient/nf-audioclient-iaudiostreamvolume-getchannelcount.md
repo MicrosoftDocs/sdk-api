@@ -119,7 +119,7 @@ The Windows audio service is not running.
 
 
 
-Call this method to get the number of channels in the audio stream before calling any of the other methods in the <a href="https://msdn.microsoft.com/92cc127b-77ac-4fc7-ac3c-319e5d6368d3">IAudioStreamVolume</a> interface.
+Call this method to get the number of channels in the audio stream before calling any of the other methods in the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudiostreamvolume">IAudioStreamVolume</a> interface.
 
 
 
@@ -129,7 +129,7 @@ Call this method to get the number of channels in the audio stream before callin
 
 
 
-<a href="https://msdn.microsoft.com/92cc127b-77ac-4fc7-ac3c-319e5d6368d3">IAudioStreamVolume Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudiostreamvolume">IAudioStreamVolume Interface</a>
  
 
  

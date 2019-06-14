@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves or sets the command-line arguments that are substituted for the {usertext} substitution variable in the <a href="https://msdn.microsoft.com/7bd045df-379b-40fb-b309-cec531493018">IDataCollectorSet::TaskArguments</a> property.
+Retrieves or sets the command-line arguments that are substituted for the {usertext} substitution variable in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_taskarguments">IDataCollectorSet::TaskArguments</a> property.
 
 This property is read/write.
 
@@ -63,7 +63,7 @@ This property is read/write.
 
 
 
-These arguments are included in the command-line arguments passed to the Task Scheduler job only if the <a href="https://msdn.microsoft.com/7bd045df-379b-40fb-b309-cec531493018">TaskArguments</a> property includes the  {usertext} substitution variable. 
+These arguments are included in the command-line arguments passed to the Task Scheduler job only if the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_taskarguments">TaskArguments</a> property includes the  {usertext} substitution variable. 
 
 PLA provides the following substitution variables that you can include in your arguments string. PLA provides the values for the substitution variables when the task is triggered. You do not escape the braces.
 
@@ -74,7 +74,7 @@ PLA provides the following substitution variables that you can include in your a
 </tr>
 <tr>
 <td>{key}</td>
-<td>Space-delimited list of key values that were specified using the <a href="https://msdn.microsoft.com/d2143de9-f189-47e0-8b28-0422d9984459">IDataCollectorSet::SetValue</a> method.</td>
+<td>Space-delimited list of key values that were specified using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-setvalue">IDataCollectorSet::SetValue</a> method.</td>
 </tr>
 <tr>
 <td>{logs}</td>
@@ -95,11 +95,11 @@ PLA provides the following substitution variables that you can include in your a
 
 
 
-<a href="https://msdn.microsoft.com/a4ae0874-4ee6-46a1-9811-8cd4be26859c">IDataCollectorSet</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
 
 
 
-<a href="https://msdn.microsoft.com/7bd045df-379b-40fb-b309-cec531493018">IDataCollectorSet::TaskArguments</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_taskarguments">IDataCollectorSet::TaskArguments</a>
  
 
  

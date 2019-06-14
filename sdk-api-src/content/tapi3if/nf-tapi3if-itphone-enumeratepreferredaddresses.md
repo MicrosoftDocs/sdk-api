@@ -51,10 +51,10 @@ ms.custom: 19H1
 
 The 
 <b>EnumeratePreferredAddresses</b> method enumerates the preferred addresses for the phone object. The application does not have to call 
-<a href="https://msdn.microsoft.com/d9efe2f7-3628-4e1f-b554-a6889d82a973">ITPhone::Open</a> before executing this method.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-open">ITPhone::Open</a> before executing this method.
 
 This method is intended for C/C++ applications. Visual Basic and scripting applications must use the 
-<a href="https://msdn.microsoft.com/823db8d1-e4e3-4cfb-a864-5ad57a44ebc6">get_Addresses</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_addresses">get_Addresses</a> method.
 
 
 ## -parameters
@@ -124,16 +124,16 @@ There is not enough memory to allocate the enumeration object.
 If there are no usable addresses present on the system, this method produces an empty enumeration and returns S_OK.
 
 A phone device declares itself as being preferred to an address or set of addresses by returning address/line IDs using the TAPI 2.x 
-<a href="https://msdn.microsoft.com/6a9c90ca-7a9e-43de-8075-240185658538">phoneGetID</a> function with device class tapi/line.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonegetid">phoneGetID</a> function with device class tapi/line.
 
 Although the 
-<a href="https://msdn.microsoft.com/6a9c90ca-7a9e-43de-8075-240185658538">phoneGetID</a> function requires the handle to an open phone device, the application does not have to call the 
-<a href="https://msdn.microsoft.com/d9efe2f7-3628-4e1f-b554-a6889d82a973">ITPhone::Open</a> method before calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonegetid">phoneGetID</a> function requires the handle to an open phone device, the application does not have to call the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-open">ITPhone::Open</a> method before calling 
 <b>EnumeratePreferredAddresses</b>. This is because the implementation of the phone object can open the phone and call 
 <b>phoneGetID</b> during TAPI initialization or when a new phone object appears.
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://msdn.microsoft.com/bfe9f12e-ceb7-4120-8193-70feb2bc7c85">IEnumAddress</a> interface returned by <b>ITPhone::EnumeratePreferredAddresses</b>. The application must call <b>Release</b> on the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumaddress">IEnumAddress</a> interface returned by <b>ITPhone::EnumeratePreferredAddresses</b>. The application must call <b>Release</b> on the 
 <b>IEnumAddress</b> interface to free resources associated with it.
 
 
@@ -144,19 +144,19 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 
-<a href="https://msdn.microsoft.com/d72f6877-eb89-400e-a1bc-393116a9666f">EnumerateAddresses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-enumerateaddresses">EnumerateAddresses</a>
 
 
 
-<a href="https://msdn.microsoft.com/bfe9f12e-ceb7-4120-8193-70feb2bc7c85">IEnumAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumaddress">IEnumAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/94dff33c-67a1-4df8-9ef5-2b6524438f6f">ITPhone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a9c90ca-7a9e-43de-8075-240185658538">phoneGetID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonegetid">phoneGetID</a>
  
 
  

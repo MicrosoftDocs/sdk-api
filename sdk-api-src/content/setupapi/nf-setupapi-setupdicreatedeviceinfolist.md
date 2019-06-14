@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SetupDiCreateDeviceInfoList</b> function creates an empty <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> and optionally associates the set with a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552344">device setup class</a> and a top-level window.
+The <b>SetupDiCreateDeviceInfoList</b> function creates an empty <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> and optionally associates the set with a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">device setup class</a> and a top-level window.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ A handle to the top-level window to use for any user interface that is related t
 
 
 
-The function returns a handle to an empty device information set if it is successful. Otherwise, it returns <b>INVALID_HANDLE_VALUE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+The function returns a handle to an empty device information set if it is successful. Otherwise, it returns <b>INVALID_HANDLE_VALUE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -84,7 +84,7 @@ The function returns a handle to an empty device information set if it is succes
 
 The caller of this function must delete the returned device information set when it is no longer needed by calling <b>SetupDiDestroyDeviceInfoList</b>. 
 
-To create a device information list for a remote computer use <a href="https://msdn.microsoft.com/4dae7b07-2e24-4fd8-82f2-f947296ce3c4">SetupDiCreateDeviceInfoListEx</a>.
+To create a device information list for a remote computer use <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinfolistexa">SetupDiCreateDeviceInfoListEx</a>.
 
 
 
@@ -94,19 +94,19 @@ To create a device information list for a remote computer use <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/4dae7b07-2e24-4fd8-82f2-f947296ce3c4">SetupDiCreateDeviceInfoListEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinfolistexa">SetupDiCreateDeviceInfoListEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/a341db0c-9ece-4677-9854-8e0dc29966c6">SetupDiDestroyDeviceInfoList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdidestroydeviceinfolist">SetupDiDestroyDeviceInfoList</a>
 
 
 
-<a href="https://msdn.microsoft.com/31bb0fc8-0fb8-4122-b9e8-5ff8fbbd903b">SetupDiGetClassDevs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdevsw">SetupDiGetClassDevs</a>
 
 
 
-<a href="https://msdn.microsoft.com/332945dc-9edc-4fbf-a4fa-533a00352553">SetupDiGetDeviceInfoListClass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinfolistclass">SetupDiGetDeviceInfoListClass</a>
  
 
  

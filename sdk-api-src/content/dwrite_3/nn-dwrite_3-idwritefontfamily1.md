@@ -54,7 +54,7 @@ Represents a family of related fonts.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontFamily1</b> interface inherits from <a href="https://msdn.microsoft.com/1fce3d62-af4e-4d2b-a3fd-e534b5fcdb13">IDWriteFontFamily</a>. <b>IDWriteFontFamily1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontFamily1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontfamily">IDWriteFontFamily</a>. <b>IDWriteFontFamily1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDWriteFontFamily1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B5C03AC5-E642-4AC8-94D1-D935BA159113">GetFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontfamily1-getfont">GetFont</a>
 </td>
 <td align="left" width="63%">
 Gets a font given its zero-based index.
@@ -78,7 +78,7 @@ Gets a font given its zero-based index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2F162135-5004-44EA-B80A-16FE0D790909">GetFontFaceReference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontfamily1-getfontfacereference">GetFontFaceReference</a>
 </td>
 <td align="left" width="63%">
 Gets a font face reference given its zero-based index.
@@ -87,7 +87,7 @@ Gets a font face reference given its zero-based index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9D262E5C-4407-4110-A315-F529B809EDE2">GetFontLocality</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontfamily1-getfontlocality">GetFontLocality</a>
 </td>
 <td align="left" width="63%">
 Gets the current location of a font given its zero-based index.
@@ -102,7 +102,7 @@ Gets the current location of a font given its zero-based index.
 
 
 
-<a href="https://msdn.microsoft.com/1fce3d62-af4e-4d2b-a3fd-e534b5fcdb13">IDWriteFontFamily</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontfamily">IDWriteFontFamily</a>
  
 
  

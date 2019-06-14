@@ -81,7 +81,7 @@ A reference to the IID of an interface to be retrieved in <i>ppv</i>, typically 
 
 Type: <b>void**</b>
 
-When this method returns, contains the interface pointer requested in <i>riid</i>. This is typically an <a href="https://msdn.microsoft.com/ab0bb213-dc9c-4853-98d7-668e7ca76583">IObjectArray</a>, which represents a collection of <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a> and <a href="https://msdn.microsoft.com/67982d28-27ce-4482-b588-10fec8143750">IShellLink</a> objects that represent the removed items.
+When this method returns, contains the interface pointer requested in <i>riid</i>. This is typically an <a href="https://docs.microsoft.com/windows/desktop/api/objectarray/nn-objectarray-iobjectarray">IObjectArray</a>, which represents a collection of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a> objects that represent the removed items.
 
 
 ## -returns
@@ -99,11 +99,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-If an application has an explicit Application User Model ID (AppUserModelID), you must call <a href="https://msdn.microsoft.com/7b3a5d32-bf44-4c4f-9b31-6c0a82aac6fd">ICustomDestinationList::SetAppID</a> before you call this method.
+If an application has an explicit Application User Model ID (AppUserModelID), you must call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icustomdestinationlist-setappid">ICustomDestinationList::SetAppID</a> before you call this method.
 
-The <a href="https://msdn.microsoft.com/ab0bb213-dc9c-4853-98d7-668e7ca76583">IObjectArray</a> interface retrieved in the <i>ppv</i> parameter represents the same list of removed destinations that is retrieved through <a href="https://msdn.microsoft.com/705763cf-a97f-430f-bfc3-916e943668ef">GetRemovedDestinations</a>. When a new Jump List is being generated, applications must first process any removed destinations. Tracking data for any item in the removed list must be cleared. If an application attempts to include an item through <a href="https://msdn.microsoft.com/091a2b28-b4cf-46a9-845a-46b5aa86522d">AppendCategory</a> that is present in this removed destinations list, the <b>AppendCategory</b> call fails. This ensures that applications respect the user's choice of removed items. After a call to <a href="https://msdn.microsoft.com/5f9aa598-9a94-4210-84cd-f4b39e47b260">CommitList</a> is made with no failed call to <b>AppendCategory</b> due to an attempt to re-add a removed item having been made since <b>BeginList</b>, the removed destinations list is cleared. After that time, a previously removed item can return to the destinations list if the user continues to use the item.
+The <a href="https://docs.microsoft.com/windows/desktop/api/objectarray/nn-objectarray-iobjectarray">IObjectArray</a> interface retrieved in the <i>ppv</i> parameter represents the same list of removed destinations that is retrieved through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icustomdestinationlist-getremoveddestinations">GetRemovedDestinations</a>. When a new Jump List is being generated, applications must first process any removed destinations. Tracking data for any item in the removed list must be cleared. If an application attempts to include an item through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icustomdestinationlist-appendcategory">AppendCategory</a> that is present in this removed destinations list, the <b>AppendCategory</b> call fails. This ensures that applications respect the user's choice of removed items. After a call to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icustomdestinationlist-commitlist">CommitList</a> is made with no failed call to <b>AppendCategory</b> due to an attempt to re-add a removed item having been made since <b>BeginList</b>, the removed destinations list is cleared. After that time, a previously removed item can return to the destinations list if the user continues to use the item.
 
-<b>BeginList</b> must be called to initiate the list before any calls are made to populate it through <a href="https://msdn.microsoft.com/091a2b28-b4cf-46a9-845a-46b5aa86522d">AppendCategory</a>, <a href="https://msdn.microsoft.com/ce73fff3-8d1a-4912-98ce-7149460ffa49">AppendKnownCategory</a>, or <a href="https://msdn.microsoft.com/7b254276-dc6f-4d20-8f44-fce8e01b237f">AddUserTasks</a>.
+<b>BeginList</b> must be called to initiate the list before any calls are made to populate it through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icustomdestinationlist-appendcategory">AppendCategory</a>, <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icustomdestinationlist-appendknowncategory">AppendKnownCategory</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icustomdestinationlist-addusertasks">AddUserTasks</a>.
 
 
 
@@ -113,11 +113,11 @@ The <a href="https://msdn.microsoft.com/ab0bb213-dc9c-4853-98d7-668e7ca76583">IO
 
 
 
-<a href="https://msdn.microsoft.com/65a3dab8-3136-416d-bd8a-ca813bfe0533">ICustomDestinationList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icustomdestinationlist">ICustomDestinationList</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbf2b07d-d67c-4755-888c-d40692d13cae">Taskbar Extensions</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
  
 
  

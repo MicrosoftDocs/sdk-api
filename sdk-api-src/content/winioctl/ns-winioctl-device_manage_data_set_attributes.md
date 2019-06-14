@@ -49,7 +49,7 @@ req.redist:
 
 
 Input structure for the 
-    <a href="https://msdn.microsoft.com/48e797ec-dad2-4a9e-9ccd-aaa65ece8da4">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
     control code.
 
 
@@ -67,7 +67,7 @@ Size of this data structure. Must be set to
 ### -field Action
 
 A valid value of type 
-      <a href="https://msdn.microsoft.com/ff688c9a-8669-4699-aab9-1e2e3a5c7fca">DEVICE_DATA_MANAGEMENT_SET_ACTION</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/DevIO/device-data-management-set-action">DEVICE_DATA_MANAGEMENT_SET_ACTION</a>.
 
 <table>
 <tr>
@@ -93,7 +93,7 @@ A trim action is performed. This value is not supported for user-mode applicatio
 </td>
 <td width="60%">
 A notification action is performed. The additional parameters are in a 
-        <a href="https://msdn.microsoft.com/42f76bab-0260-4b43-a8cf-02faedb7e672">DEVICE_DSM_NOTIFICATION_PARAMETERS</a> 
+        <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_dsm_notification_parameters">DEVICE_DSM_NOTIFICATION_PARAMETERS</a> 
         structure. The <b>DeviceDsmActionFlag_NonDestructive</b> (0x80000000) is a bit flag to 
         indicate to the driver stack that this operation is non-destructive.
 
@@ -107,7 +107,7 @@ A notification action is performed. The additional parameters are in a
 </td>
 <td width="60%">
 An offload read action is performed. The additional parameters are in a 
-         <a href="https://msdn.microsoft.com/20dd3e5b-90f4-45fc-8cc8-bf9e6d08a026">DEVICE_DSM_OFFLOAD_READ_PARAMETERS</a> 
+         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_dsm_offload_read_parameters">DEVICE_DSM_OFFLOAD_READ_PARAMETERS</a> 
          structure. The <b>DeviceDsmActionFlag_NonDestructive</b> 
          (0x80000000) is a bit flag to indicate to the driver stack that this operation is non-destructive.
 
@@ -123,7 +123,7 @@ An offload read action is performed. The additional parameters are in a
 </td>
 <td width="60%">
 An offload write action is performed. The additional parameters are in a 
-         <a href="https://msdn.microsoft.com/d0107cae-50c9-46d2-97cd-324030692903">DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS</a> 
+         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_dsm_offload_write_parameters">DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS</a> 
          structure.
 
 <b>Windows 7 and Windows Server 2008 R2:  </b>This value is not supported before Windows 8 and Windows Server 2012.
@@ -153,7 +153,7 @@ An allocation bitmap is retrieved for the first data set range specified. The
 </td>
 <td width="60%">
 A repair action is performed. The additional parameters are in a 
-         <a href="https://msdn.microsoft.com/95bc892c-9bb7-464c-8084-7cc6e643fa28">DEVICE_DATA_SET_REPAIR_PARAMETERS</a> 
+         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_data_set_repair_parameters">DEVICE_DATA_SET_REPAIR_PARAMETERS</a> 
          structure. The <b>DeviceDsmActionFlag_NonDestructive</b> 
          (0x80000000) is a bit flag to indicate to the driver stack that this operation is non-destructive.
 
@@ -258,7 +258,7 @@ Length of the parameter block, in bytes. A value of zero indicates there is no p
 ### -field DataSetRangesOffset
 
 Byte offset to the start of the data set ranges block made up of an array of 
-      <a href="https://msdn.microsoft.com/5eea412e-ea16-4f47-ac69-46b543069eae">DEVICE_DATA_SET_RANGE</a> structures stored in the 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_data_set_range">DEVICE_DATA_SET_RANGE</a> structures stored in the 
       buffer contiguous to this structure. Must be aligned to the 
       <b>DEVICE_DATA_SET_RANGE</b> structure alignment. A 
       value of zero indicates there is no data set ranges block and the 
@@ -286,15 +286,15 @@ The total length of the buffer that contains this structure must be at least
 
 
 
-<a href="https://msdn.microsoft.com/5eea412e-ea16-4f47-ac69-46b543069eae">DEVICE_DATA_SET_RANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_data_set_range">DEVICE_DATA_SET_RANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/85ebbdca-94a0-4467-8d15-ee3a850e1cd9">Device Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/device-management-structures">Device Management Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/48e797ec-dad2-4a9e-9ccd-aaa65ece8da4">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
  
 
  

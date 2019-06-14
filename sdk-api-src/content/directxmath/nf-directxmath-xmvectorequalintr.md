@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Performs a per-component test for equality of two vectors, treating each component as an unsigned integer. In addition, this function sets a comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/en-us/library/Hh437887(v=VS.85).aspx">XMComparisonAllTrue</a>.
+Performs a per-component test for equality of two vectors, treating each component as an unsigned integer. In addition, this function sets a comparison value that can be examined using functions such as <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmcomparisonalltrue">XMComparisonAllTrue</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Performs a per-component test for equality of two vectors, treating each compone
 
 ### -param pCR [out]
 
-Pointer to a <b>uint32_t</b> comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/en-us/library/Hh437887(v=VS.85).aspx">XMComparisonAllTrue</a>. The <code>XMComparisonXXXX</code> functions may be used to further test the number of components that passed the comparison.
+Pointer to a <b>uint32_t</b> comparison value that can be examined using functions such as <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmcomparisonalltrue">XMComparisonAllTrue</a>. The <code>XMComparisonXXXX</code> functions may be used to further test the number of components that passed the comparison.
 
 
 ### -param V
@@ -101,15 +101,15 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/8caad40f-ab8e-db2f-da11-18f3d3ccf6ef">Vector Comparison Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-comparison">Vector Comparison Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee421013(v=VS.85).aspx">XMVectorEqual</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorequal">XMVectorEqual</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee421014(v=VS.85).aspx">XMVectorEqualInt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorequalint">XMVectorEqualInt</a>
  
 
  

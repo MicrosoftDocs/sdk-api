@@ -59,9 +59,9 @@ Declares a set of properties and values to be set on an item or items.
 
 ### -param pproparray [in]
 
-Type: <b><a href="https://msdn.microsoft.com/c7de40d0-9fe6-4c4b-ba17-c4648501ce0a">IPropertyChangeArray</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertychangearray">IPropertyChangeArray</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/c7de40d0-9fe6-4c4b-ba17-c4648501ce0a">IPropertyChangeArray</a>, which accesses a collection of <a href="https://msdn.microsoft.com/7bdc31d8-ba03-4010-8aa1-89701ebbf8cd">IPropertyChange</a> objects that specify the properties to be set and their new values.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertychangearray">IPropertyChangeArray</a>, which accesses a collection of <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertychange">IPropertyChange</a> objects that specify the properties to be set and their new values.
 
 
 ## -returns
@@ -85,8 +85,8 @@ This method does not set the new property values, it merely declares them. To se
 
 <ol>
 <li>Call <b>IFileOperation::SetProperties</b> to declare the specific properties to be set and their new values.</li>
-<li>Call <a href="https://msdn.microsoft.com/35330c7c-29fc-4337-a538-863925398b0d">IFileOperation::ApplyPropertiesToItem</a> or <a href="https://msdn.microsoft.com/d24aa63e-99ef-470c-9723-e561ee0a56bc">IFileOperation::ApplyPropertiesToItems</a> to declare the item or items whose properties are to be set.</li>
-<li>Call <a href="https://msdn.microsoft.com/eceb5f0a-ad9a-4b7a-9656-c10e0420a96a">IFileOperation::PerformOperations</a> to apply the properties to the item or items.</li>
+<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-applypropertiestoitem">IFileOperation::ApplyPropertiesToItem</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-applypropertiestoitems">IFileOperation::ApplyPropertiesToItems</a> to declare the item or items whose properties are to be set.</li>
+<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-performoperations">IFileOperation::PerformOperations</a> to apply the properties to the item or items.</li>
 </ol>
 
 

@@ -108,7 +108,7 @@ If you pass PROGRESS_INDETERMINATE to <code>SetPercentComplete</code>, the progr
 
 
 
-<a href="https://msdn.microsoft.com/a3928874-5a15-43d9-9d9c-8b66478b0597">IPhotoProgressDialog Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoprogressdialog">IPhotoProgressDialog Interface</a>
  
 
  

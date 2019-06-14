@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies values that identify the underline state of a <a href="https://msdn.microsoft.com/en-us/library/Dd371673(v=VS.85).aspx">FontControl</a>.
+Specifies values that identify the underline state of a <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-fontcontrol">FontControl</a>.
 
 
 ## -enum-fields
@@ -76,14 +76,14 @@ Underlining is on.
 
 
 
-<b>UI_FONTUNDERLINE</b> is associated with the <b>Underline</b> toggle button of the <a href="https://msdn.microsoft.com/en-us/library/Dd371673(v=VS.85).aspx">FontControl</a> as shown in the following screen shot.
+<b>UI_FONTUNDERLINE</b> is associated with the <b>Underline</b> toggle button of the <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-fontcontrol">FontControl</a> as shown in the following screen shot.
 
 <img alt="Screen shot of the FontControl element with the RichFont attribute set to true." src="./images/FontControl_Underline.png"/>
-The <b>Underline</b> toggle button is displayed by default in a <a href="https://msdn.microsoft.com/en-us/library/Dd371673(v=VS.85).aspx">FontControl</a> but can be hidden, depending on the value of the <i>FontType</i> attribute.
+The <b>Underline</b> toggle button is displayed by default in a <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-fontcontrol">FontControl</a> but can be hidden, depending on the value of the <i>FontType</i> attribute.
 
-The <b>Underline</b> button is toggled based on the <b>UI_FONTUNDERLINE</b> value in <a href="https://msdn.microsoft.com/en-us/library/Dd371236(v=VS.85).aspx">UI_PKEY_FontProperties_Underline</a>.
+The <b>Underline</b> button is toggled based on the <b>UI_FONTUNDERLINE</b> value in <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-properties-uipkey-fontproperties-underline">UI_PKEY_FontProperties_Underline</a>.
 
-A solid single line is the only underline style supported by the <a href="https://msdn.microsoft.com/en-us/library/Dd371673(v=VS.85).aspx">FontControl</a>.
+A solid single line is the only underline style supported by the <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-fontcontrol">FontControl</a>.
 
 
 
@@ -93,11 +93,11 @@ A solid single line is the only underline style supported by the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371540(v=VS.85).aspx">Constants and Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-enumerations">Constants and Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371236(v=VS.85).aspx">UI_PKEY_FontProperties_Underline</a>
+<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-properties-uipkey-fontproperties-underline">UI_PKEY_FontProperties_Underline</a>
  
 
  

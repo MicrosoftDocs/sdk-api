@@ -105,7 +105,7 @@ There is no active sink object.
 
 
 
-Every call to the <a href="https://msdn.microsoft.com/a2196d1c-b03e-44b4-b695-970feddb8ce5">ITextStoreAnchor::AdviseSink</a> method, which registers a new sink object, should be matched by a call to this method. Calls to the <b>ITextStoreAnchor::AdviseSink</b> method that only update the <i>dwMask</i> parameter of a sink which was previously registered, do not require a call to the <a href="https://msdn.microsoft.com/01ddc659-0ed9-41e9-bde9-92aad9d74716">ITextStoreAnchor::UnadviseSink</a> method.
+Every call to the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-advisesink">ITextStoreAnchor::AdviseSink</a> method, which registers a new sink object, should be matched by a call to this method. Calls to the <b>ITextStoreAnchor::AdviseSink</b> method that only update the <i>dwMask</i> parameter of a sink which was previously registered, do not require a call to the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-unadvisesink">ITextStoreAnchor::UnadviseSink</a> method.
 
 For example, to register a sink object, an application calls the <b>ITextStoreAnchor::AdviseSink</b> method the first time. After registering the sink object, the application can call the <b>ITextStoreAnchor::AdviseSink</b> method again with the same sink object to change the <i>dwMask</i> parameter. To unregister the sink object, an application calls the <b>ITextStoreAnchor::UnadviseSink</b> method.
 
@@ -119,11 +119,11 @@ The <i>punk</i> parameter must have the same COM identity as the pointer origina
 
 
 
-<a href="https://msdn.microsoft.com/21e011f7-6791-4eb9-85c9-18bd10107119">ITextStoreACP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a>
 
 
 
-<a href="https://msdn.microsoft.com/aadf54e4-25ba-4280-a184-e1d2a2594c3c">ITextStoreACP::AdviseSink
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-advisesink">ITextStoreACP::AdviseSink
       </a>
  
 

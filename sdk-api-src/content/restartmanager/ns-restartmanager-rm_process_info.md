@@ -59,7 +59,7 @@ Describes an application that is to be registered with the Restart Manager.
 
 ### -field Process
 
-Contains an <a href="https://msdn.microsoft.com/5e3698c7-1ea8-4f9d-8fae-e69055a000fc">RM_UNIQUE_PROCESS</a> structure that  uniquely identifies the application by its PID and the time the process began.
+Contains an <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-_rm_unique_process">RM_UNIQUE_PROCESS</a> structure that  uniquely identifies the application by its PID and the time the process began.
 
 
 ### -field strAppName
@@ -75,12 +75,12 @@ If the process is a service,  this is the short name for the service. This membe
 
 ### -field ApplicationType
 
-Contains an <a href="https://msdn.microsoft.com/f980b11c-8de1-45dc-b514-8f4cf571afa6">RM_APP_TYPE</a> enumeration value that specifies the type of application as <b>RmUnknownApp</b>,  <b>RmMainWindow</b>, <b>RmOtherWindow</b>, <b>RmService</b>, <b>RmExplorer</b> or <b>RmCritical</b>.
+Contains an <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ne-restartmanager-_rm_app_type">RM_APP_TYPE</a> enumeration value that specifies the type of application as <b>RmUnknownApp</b>,  <b>RmMainWindow</b>, <b>RmOtherWindow</b>, <b>RmService</b>, <b>RmExplorer</b> or <b>RmCritical</b>.
 
 
 ### -field AppStatus
 
-Contains a bit mask that describes the current status of the application. See the <a href="https://msdn.microsoft.com/cb3fe44b-1049-4189-a19a-b5a8fec6daf8">RM_APP_STATUS</a> enumeration.
+Contains a bit mask that describes the current status of the application. See the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ne-restartmanager-_rm_app_status">RM_APP_STATUS</a> enumeration.
 
 
 ### -field TSSessionId
@@ -101,27 +101,27 @@ This member is always <b>TRUE</b> if the process is a service. This member is al
 
 
 
-<a href="https://msdn.microsoft.com/f980b11c-8de1-45dc-b514-8f4cf571afa6">RM_APP_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ne-restartmanager-_rm_app_type">RM_APP_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/b0fd12e4-20e3-48d1-a2db-c1e0334ed427">RM_FILTER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-_rm_filter_info">RM_FILTER_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/5e3698c7-1ea8-4f9d-8fae-e69055a000fc">RM_UNIQUE_PROCESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-_rm_unique_process">RM_UNIQUE_PROCESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/de4feea4-2b45-4430-a4b3-8ca26c455e42">RmGetList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmgetlist">RmGetList</a>
 
 
 
-<a href="https://msdn.microsoft.com/e0939b31-0233-40d2-96cf-bbabe9488a12">RmRestart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmrestart">RmRestart</a>
 
 
 
-<a href="https://msdn.microsoft.com/cdbc3bb7-0b3c-4fbc-8023-45a309c65bae">RmShutdown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmshutdown">RmShutdown</a>
  
 
  

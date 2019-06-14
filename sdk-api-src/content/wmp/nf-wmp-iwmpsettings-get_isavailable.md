@@ -161,55 +161,55 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563648(v=VS.85).aspx">IWMPSettings Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsettings">IWMPSettings Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563654(v=VS.85).aspx">IWMPSettings::getMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-getmode">IWMPSettings::getMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563670(v=VS.85).aspx">IWMPSettings::put_autoStart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_autostart">IWMPSettings::put_autoStart</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563672(v=VS.85).aspx">IWMPSettings::put_balance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_balance">IWMPSettings::put_balance</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563673(v=VS.85).aspx">IWMPSettings::put_baseURL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_baseurl">IWMPSettings::put_baseURL</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563674(v=VS.85).aspx">IWMPSettings::put_defaultFrame</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_defaultframe">IWMPSettings::put_defaultFrame</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563675(v=VS.85).aspx">IWMPSettings::put_enableErrorDialogs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_enableerrordialogs">IWMPSettings::put_enableErrorDialogs</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563676(v=VS.85).aspx">IWMPSettings::put_invokeURLs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_invokeurls">IWMPSettings::put_invokeURLs</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563677(v=VS.85).aspx">IWMPSettings::put_mute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_mute">IWMPSettings::put_mute</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563679(v=VS.85).aspx">IWMPSettings::put_playCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_playcount">IWMPSettings::put_playCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563680(v=VS.85).aspx">IWMPSettings::put_rate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_rate">IWMPSettings::put_rate</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563681(v=VS.85).aspx">IWMPSettings::put_volume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_volume">IWMPSettings::put_volume</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563682(v=VS.85).aspx">IWMPSettings::setMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-setmode">IWMPSettings::setMode</a>
  
 
  

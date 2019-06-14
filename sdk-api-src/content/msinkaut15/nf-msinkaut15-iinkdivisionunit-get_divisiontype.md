@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-Gets the type of structural unit the <a href="https://msdn.microsoft.com/5c5479e0-7568-40c8-bb75-e2ded3ac86b7">IInkDivisionUnit</a> object represents within the analysis results.
+Gets the type of structural unit the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunit">IInkDivisionUnit</a> object represents within the analysis results.
 
 
 
@@ -68,11 +68,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/5c5479e0-7568-40c8-bb75-e2ded3ac86b7">IInkDivisionUnit Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunit">IInkDivisionUnit Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/00e1188e-58c0-4681-ad04-e53079d478fd">InkDivisionType Enumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/ne-msinkaut15-inkdivisiontype">InkDivisionType Enumeration</a>
  
 
  

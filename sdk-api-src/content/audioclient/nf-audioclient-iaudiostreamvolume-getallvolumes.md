@@ -62,7 +62,7 @@ The <b>GetAllVolumes</b> method retrieves the volume levels for all the channels
 
 ### -param dwCount [in]
 
-The number of elements in the <i>pfVolumes</i> array. The <i>dwCount</i> parameter must equal the number of channels in the stream format. To get the number of channels, call the <a href="https://msdn.microsoft.com/caaa8233-c995-4ba9-b973-f1b8737e7218">IAudioStreamVolume::GetChannelCount</a> method.
+The number of elements in the <i>pfVolumes</i> array. The <i>dwCount</i> parameter must equal the number of channels in the stream format. To get the number of channels, call the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiostreamvolume-getchannelcount">IAudioStreamVolume::GetChannelCount</a> method.
 
 
 ### -param pfVolumes [out]
@@ -135,7 +135,7 @@ The Windows audio service is not running.
 
 
 
-Clients can call the <a href="https://msdn.microsoft.com/2eabbc37-a0f6-4e56-b68d-18e634d65394">IAudioStreamVolume::SetAllVolumes</a> or <a href="https://msdn.microsoft.com/49452b32-5ad0-446b-b237-2f17d60ff3f0">IAudioStreamVolume::SetChannelVolume</a> method to set the per-channel volume levels in an audio stream.
+Clients can call the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiostreamvolume-setallvolumes">IAudioStreamVolume::SetAllVolumes</a> or <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiostreamvolume-setchannelvolume">IAudioStreamVolume::SetChannelVolume</a> method to set the per-channel volume levels in an audio stream.
 
 
 
@@ -145,19 +145,19 @@ Clients can call the <a href="https://msdn.microsoft.com/2eabbc37-a0f6-4e56-b68d
 
 
 
-<a href="https://msdn.microsoft.com/92cc127b-77ac-4fc7-ac3c-319e5d6368d3">IAudioStreamVolume Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudiostreamvolume">IAudioStreamVolume Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/caaa8233-c995-4ba9-b973-f1b8737e7218">IAudioStreamVolume::GetChannelCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiostreamvolume-getchannelcount">IAudioStreamVolume::GetChannelCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/2eabbc37-a0f6-4e56-b68d-18e634d65394">IAudioStreamVolume::SetAllVolumes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiostreamvolume-setallvolumes">IAudioStreamVolume::SetAllVolumes</a>
 
 
 
-<a href="https://msdn.microsoft.com/49452b32-5ad0-446b-b237-2f17d60ff3f0">IAudioStreamVolume::SetChannelVolume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiostreamvolume-setchannelvolume">IAudioStreamVolume::SetChannelVolume</a>
  
 
  

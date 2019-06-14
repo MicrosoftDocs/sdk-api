@@ -62,7 +62,7 @@ The <b>put_SignalPolarisation</b> method sets the signal polarisation.
 
 ### -param PolarisationVal [in]
 
-Variable of type <a href="https://msdn.microsoft.com/19303d43-913f-4719-b1f8-e0e785ac0483">Polarisation</a> that specifies the signal polarisation value.
+Variable of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/polarisation">Polarisation</a> that specifies the signal polarisation value.
 
 
 ## -returns
@@ -88,7 +88,7 @@ This method and the associated enumeration type use the British spelling for "po
 
 
 
-<a href="https://msdn.microsoft.com/a9f02e78-3800-4b14-81df-acab01ea072b">IDVBSLocator Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-idvbslocator">IDVBSLocator Interface</a>
  
 
  

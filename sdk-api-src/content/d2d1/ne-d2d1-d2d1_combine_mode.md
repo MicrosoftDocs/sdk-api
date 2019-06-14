@@ -93,7 +93,7 @@ The following illustration shows the different geometry combine modes.
 
 #### Examples
 
-The following code uses each of the different combine modes to combine two <a href="https://msdn.microsoft.com/4ab6452c-6df8-46c0-9e0d-0cebc19d84ba">ID2D1EllipseGeometry</a> objects. 
+The following code uses each of the different combine modes to combine two <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1ellipsegeometry">ID2D1EllipseGeometry</a> objects. 
 
 
 ```cpp

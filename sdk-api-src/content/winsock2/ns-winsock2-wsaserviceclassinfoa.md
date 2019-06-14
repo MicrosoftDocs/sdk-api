@@ -78,7 +78,7 @@ Number of entries in <b>lpClassInfos</b>.
 
 ### -field lpClassInfos
 
-Array of <a href="https://msdn.microsoft.com/b4f811ad-7967-45bd-b563-a28bb1633596">WSANSCLASSINFO</a> structures that contains information about the service class.
+Array of <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsansclassinfow">WSANSCLASSINFO</a> structures that contains information about the service class.
 
 
 ## -see-also
@@ -86,11 +86,11 @@ Array of <a href="https://msdn.microsoft.com/b4f811ad-7967-45bd-b563-a28bb163359
 
 
 
-<a href="https://msdn.microsoft.com/babe1c96-9077-4d91-a52a-839c89d7a83b">NSPGetServiceClassInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnspgetserviceclassinfo">NSPGetServiceClassInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0b71821-4434-470f-b729-370d7e1722ec">NSPLookupServiceBegin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicebegin">NSPLookupServiceBegin</a>
  
 
  

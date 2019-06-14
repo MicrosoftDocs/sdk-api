@@ -54,7 +54,7 @@ Represents a binding between a Microsoft DirectComposition visual tree and a des
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionTarget</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDCompositionTarget</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionTarget</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDCompositionTarget</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDCompositionTarget</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/febbef70-fc21-4295-93c5-2f9f52434aae">SetRoot</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiontarget-setroot">SetRoot</a>
 </td>
 <td align="left" width="63%">
 Sets a visual object as the new root object of a visual tree.
@@ -84,11 +84,11 @@ Sets a visual object as the new root object of a visual tree.
 
 
 
-<a href="https://msdn.microsoft.com/eba2388a-9c94-43f0-bf7f-e814895a2792">IDCompositionDevice::CreateTargetForHwnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice-createtargetforhwnd">IDCompositionDevice::CreateTargetForHwnd</a>
 
 
 
-<a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual">IDCompositionVisual</a>
  
 
  

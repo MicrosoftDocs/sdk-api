@@ -104,11 +104,11 @@ Insufficient memory exists to perform the operation.
 
 
 
-<a href="https://msdn.microsoft.com/ea23ae25-2fbb-4060-8273-cd7921d49e52">CallHub Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/callhub-object">CallHub Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/bdc91cac-c0ec-4484-a415-8cd1aa1e18e8">ITCallHub</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallhub">ITCallHub</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the search folder as a <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>.
+Gets the search folder as a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ A reference to the desired IID.
 
 Type: <b>void**</b>
 
-The <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a> interface pointer specified in <i>riid</i>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> interface pointer specified in <i>riid</i>.
 
 
 ## -returns
@@ -86,7 +86,7 @@ Returns a success value if successful, or an error value otherwise.
 
 
 
-When the retrieved <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a> is enumerated, it returns the search results.
+When the retrieved <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> is enumerated, it returns the search results.
 
 
 
@@ -96,11 +96,11 @@ When the retrieved <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a
 
 
 
-<a href="https://msdn.microsoft.com/a684b373-6de4-4b4a-bbae-85e1c5a7e04a">ISearchFolderItemFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-isearchfolderitemfactory">ISearchFolderItemFactory</a>
 
 
 
-<a href="https://msdn.microsoft.com/a6dcddd9-cdbc-4cf9-97e3-d1b562283344">SHCreateItemFromIDList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateitemfromidlist">SHCreateItemFromIDList</a>
  
 
  

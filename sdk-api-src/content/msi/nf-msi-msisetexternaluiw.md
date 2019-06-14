@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>MsiSetExternalUI</b> function enables an external user-interface handler. This external UI handler is called before the normal internal user-interface handler. The external UI handler has the option to suppress the internal UI by returning a non-zero value to indicate that it has handled the messages. For more information, see 
-<a href="https://msdn.microsoft.com/58ef0043-fb30-4f64-9291-e703d7a28bb5">About the User Interface</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/about-the-user-interface">About the User Interface</a>.
 
 
 ## -parameters
@@ -64,13 +64,13 @@ The
 ### -param puiHandler [in]
 
 Specifies a callback function that conforms to the 
-<a href="https://msdn.microsoft.com/76d771d4-12d0-4975-88cc-1921a32a2a09">INSTALLUI_HANDLER</a> specification.
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nc-msi-installui_handlera">INSTALLUI_HANDLER</a> specification.
 
 
 ### -param dwMessageFilter [in]
 
 Specifies which messages to handle using the external message handler. If the external handler returns a non-zero result, then that message will not be sent to the UI, instead the message will be logged if logging has been enabled. For more information, see 
-the <a href="https://msdn.microsoft.com/117ccd0b-e434-453f-9602-ff50bc85db6e">MsiEnableLog</a> function. 
+the <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msienableloga">MsiEnableLog</a> function. 
 
 
 
@@ -85,7 +85,7 @@ the <a href="https://msdn.microsoft.com/117ccd0b-e434-453f-9602-ff50bc85db6e">Ms
 </dl>
 </td>
 <td width="60%">
-Files in use information.  When this message is received, a <a href="https://msdn.microsoft.com/4246b099-3b70-4983-a68e-eddac801a8c3">FilesInUse Dialog</a> should be displayed. 
+Files in use information.  When this message is received, a <a href="https://docs.microsoft.com/windows/desktop/Msi/filesinuse-dialog">FilesInUse Dialog</a> should be displayed. 
 
 </td>
 </tr>
@@ -155,7 +155,7 @@ Request to determine a valid source location.
 </dl>
 </td>
 <td width="60%">
-Files in use information.  When this message is received, a <a href="https://msdn.microsoft.com/e8d93310-388e-4a08-9bce-04c31c33a665">MsiRMFilesInUse Dialog</a> should be displayed. 
+Files in use information.  When this message is received, a <a href="https://docs.microsoft.com/windows/desktop/Msi/msirmfilesinuse-dialog">MsiRMFilesInUse Dialog</a> should be displayed. 
 
 </td>
 </tr>
@@ -205,8 +205,8 @@ The parameters for user-interface initialization are logged.
 </dl>
 </td>
 <td width="60%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa370946(v=VS.85).aspx">Progress bar</a> information. This message includes information on units so far and total number of units. For an explanation of the message format, see 
-the <a href="https://msdn.microsoft.com/136662bd-b970-4ff3-8ae5-c5e3097ee00d">MsiProcessMessage</a> function. This message is only sent to an external user interface and is not logged.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/p-gly">Progress bar</a> information. This message includes information on units so far and total number of units. For an explanation of the message format, see 
+the <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiprocessmessage">MsiProcessMessage</a> function. This message is only sent to an external user interface and is not logged.
 
 </td>
 </tr>
@@ -216,7 +216,7 @@ the <a href="https://msdn.microsoft.com/136662bd-b970-4ff3-8ae5-c5e3097ee00d">Ms
 </dl>
 </td>
 <td width="60%">
-If this is not a quiet installation, then the <a href="https://msdn.microsoft.com/en-us/library/Aa367839(v=VS.85).aspx">basic UI</a> has been initialized. If this is a <a href="https://msdn.microsoft.com/en-us/library/Aa368613(v=VS.85).aspx">full UI</a> installation, the <i>full UI</i> is not yet initialized. This message is only sent to an external user interface and is not logged.
+If this is not a quiet installation, then the <a href="https://docs.microsoft.com/windows/desktop/Msi/b-gly">basic UI</a> has been initialized. If this is a <a href="https://docs.microsoft.com/windows/desktop/Msi/f-gly">full UI</a> installation, the <i>full UI</i> is not yet initialized. This message is only sent to an external user interface and is not logged.
 
 </td>
 </tr>
@@ -226,7 +226,7 @@ If this is not a quiet installation, then the <a href="https://msdn.microsoft.co
 </dl>
 </td>
 <td width="60%">
-If a <a href="https://msdn.microsoft.com/en-us/library/Aa368613(v=VS.85).aspx">full UI</a> is being used, the <i>full UI</i> has ended. If this is not a quiet installation, the <a href="https://msdn.microsoft.com/en-us/library/Aa367839(v=VS.85).aspx">basic UI</a> has not yet ended. This message is only sent to an external user interface and is not logged.
+If a <a href="https://docs.microsoft.com/windows/desktop/Msi/f-gly">full UI</a> is being used, the <i>full UI</i> has ended. If this is not a quiet installation, the <a href="https://docs.microsoft.com/windows/desktop/Msi/b-gly">basic UI</a> has not yet ended. This message is only sent to an external user interface and is not logged.
 
 </td>
 </tr>
@@ -236,7 +236,7 @@ If a <a href="https://msdn.microsoft.com/en-us/library/Aa368613(v=VS.85).aspx">f
 </dl>
 </td>
 <td width="60%">
-Sent prior to display of the <a href="https://msdn.microsoft.com/en-us/library/Aa368613(v=VS.85).aspx">full UI</a> dialog. This message is only sent to an external user interface and is not logged.
+Sent prior to display of the <a href="https://docs.microsoft.com/windows/desktop/Msi/f-gly">full UI</a> dialog. This message is only sent to an external user interface and is not logged.
 
 </td>
 </tr>
@@ -288,15 +288,15 @@ The return value is the previously set external handler, or zero (0) if there wa
 
 To restore the previous UI handler, second call is made to 
 <b>MsiSetExternalUI</b> using the 
-<a href="https://msdn.microsoft.com/76d771d4-12d0-4975-88cc-1921a32a2a09">INSTALLUI_HANDLER</a> returned by the first call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nc-msi-installui_handlera">INSTALLUI_HANDLER</a> returned by the first call to 
 <b>MsiSetExternalUI</b> and specifying zero (0) for dwMessageFilter.
 
 The external user interface handler pointed to by the <i>puiHandler</i> parameter does not have full control over the external user interface unless 
-<a href="https://msdn.microsoft.com/303c2ea9-4c8f-46d3-b587-7c50e2810c28">MsiSetInternalUI</a> is called with the <i>dwUILevel</i> parameter set to INSTALLUILEVEL_NONE. If 
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisetinternalui">MsiSetInternalUI</a> is called with the <i>dwUILevel</i> parameter set to INSTALLUILEVEL_NONE. If 
 <b>MsiSetInternalUI</b> is not called, the internal user interface level defaults to INSTALLUILEVEL_BASIC. As a result, any message not handled by the external user interface handler is handled by Windows Installer. The initial "Preparing to install. . ." dialog always appears even if the external user interface handler handles all messages.
 
 <b>MsiSetExternalUI</b> should only be called from a 
-<a href="https://msdn.microsoft.com/a5174284-2a8c-4510-accf-641fda5be98d">Bootstrapping</a> application. You cannot call 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/bootstrapping">Bootstrapping</a> application. You cannot call 
 <b>MsiSetExternalUI</b> from a custom action.
 
 
@@ -307,7 +307,7 @@ The external user interface handler pointed to by the <i>puiHandler</i> paramete
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369426(v=VS.85).aspx">Interface and Logging Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Interface and Logging Functions</a>
  
 
  

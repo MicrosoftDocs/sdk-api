@@ -96,7 +96,7 @@ This function is equivalent to the following:
 
 
 
-<a href="https://msdn.microsoft.com/2e83c953-b4c5-4411-90ca-49ffb94ee374">UrlIs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-urlisa">UrlIs</a>
  
 
  

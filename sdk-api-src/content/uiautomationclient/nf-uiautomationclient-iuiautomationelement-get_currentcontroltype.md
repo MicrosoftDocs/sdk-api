@@ -63,7 +63,7 @@ This property is read-only.
 
 
 Control types describe a known interaction model for UI Automation elements without relying on a localized control type or combination of complex logic rules.
-This property cannot change at run time unless the control supports the <a href="https://msdn.microsoft.com/4a1613b9-1e64-4d4e-876e-e2bf886097d4">IUIAutomationMultipleViewPattern</a> interface. An example is the Win32 ListView control, which can change from a data grid to a list, depending on the current view.
+This property cannot change at run time unless the control supports the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationmultipleviewpattern">IUIAutomationMultipleViewPattern</a> interface. An example is the Win32 ListView control, which can change from a data grid to a list, depending on the current view.
 
 
 
@@ -73,15 +73,15 @@ This property cannot change at run time unless the control supports the <a href=
 
 
 
-<a href="https://msdn.microsoft.com/f7613ad1-0b75-46fb-b9ac-b1ae9eea4193">Automation Element Property IDs</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-automation-element-propids">Automation Element Property IDs</a>
 
 
 
-<a href="https://msdn.microsoft.com/48b232a8-8826-4c70-b541-3e6a792105c1">CachedControlType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedcontroltype">CachedControlType</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e1f87b1-a204-4ca9-acf2-a40277012207">IUIAutomationElement</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement">IUIAutomationElement</a>
 
 
 

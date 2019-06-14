@@ -54,7 +54,7 @@ Exposes a method that determines the sector size as an aid to byte alignment.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamUnbufferedInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IStreamUnbufferedInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamUnbufferedInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStreamUnbufferedInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IStreamUnbufferedInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2194de8b-25bd-4eeb-8a67-d5bd22947497">GetSectorSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-istreamunbufferedinfo-getsectorsize">GetSectorSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of bytes per sector on the disk currently being used.  When using unbuffered I/O, it is important to know the size of the sectors on the disk being read in order to ensure proper byte alignment.

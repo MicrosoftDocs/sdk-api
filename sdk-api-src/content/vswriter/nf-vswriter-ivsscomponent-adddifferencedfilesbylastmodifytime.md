@@ -93,13 +93,13 @@ A Boolean value specifying whether the path specified by the <i>wszPath</i> para
       
 
 For information on traversing mounted folders, see 
-       <a href="https://msdn.microsoft.com/d0e08598-a8a2-489b-9cb2-e989bed1ce53">Working with Mounted Folders and Reparse Points</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/VSS/working-with-reparse-and-mount-points">Working with Mounted Folders and Reparse Points</a>.
 
 
 ### -param ftLastModifyTime [in]
 
 The writer specification of the time of last modification for the difference files, expressed as a 
-      <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure.
+      <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
       
 
 The last-modify time is always given in Greenwich Mean Time.
@@ -158,8 +158,8 @@ The caller is out of memory or other system resources.
 <td width="60%">
 This method was not called by a writer or, if called by a writer, it either was not called during a 
         backup operation or was called while handling a 
-        <a href="https://msdn.microsoft.com/en-us/library/Aa384652(v=VS.85).aspx">BackupComplete</a> or 
-        <a href="https://msdn.microsoft.com/en-us/library/Aa384652(v=VS.85).aspx">BackupShutdown</a> event.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-b">BackupComplete</a> or 
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-b">BackupShutdown</a> event.
 
 </td>
 </tr>
@@ -172,7 +172,7 @@ This method was not called by a writer or, if called by a writer, it either was 
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more 
         information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -184,7 +184,7 @@ The XML document is not valid. Check the event log for details. For more
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -200,7 +200,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 
-A writer calls this method to specify that certain files in a component should be backed up only if they have been modified since a certain time. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa385002(v=VS.85).aspx">Backup By Last Modify Time</a>.
+A writer calls this method to specify that certain files in a component should be backed up only if they have been modified since a certain time. For more information, see <a href="https://docs.microsoft.com/windows/desktop/VSS/writer-role-in-backing-up-complex-stores">Backup By Last Modify Time</a>.
 
 This method can be called only by writers supporting the last modified schema 
     (<b>VSS_BS_LAST_MODIFY</b>), and only during backup operations. Writers using this method do 
@@ -209,9 +209,9 @@ This method can be called only by writers supporting the last modified schema
 Files added by 
     <b>AddDifferencedFilesByLastModifyTime</b> 
     should not also be added by 
-    <a href="https://msdn.microsoft.com/318dc1ee-e63f-4e79-96b9-8a8bd83facd3">IVssComponent::AddPartialFile</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-addpartialfile">IVssComponent::AddPartialFile</a>.
 
-If the backup type (<a href="https://msdn.microsoft.com/82934737-0d80-4b5d-a1fa-1ba38e446504">VSS_BACKUP_TYPE</a>) is incremental 
+If the backup type (<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_backup_type">VSS_BACKUP_TYPE</a>) is incremental 
     (<b>VSS_BT_INCREMENTAL</b>), writers using 
     <b>AddDifferencedFilesByLastModifyTime</b> 
     must support the incremental schema (<b>VSS_BS_INCREMENTAL</b>). If the backup type is 
@@ -220,8 +220,8 @@ If the backup type (<a href="https://msdn.microsoft.com/82934737-0d80-4b5d-a1fa-
 The 
     <b>AddDifferencedFilesByLastModifyTime</b> 
     method should be called prior to the actual start of a backup operation, typically while handling the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PostSnapshot</a> event (see 
-    <a href="https://msdn.microsoft.com/d97d4246-882e-49c3-a214-d8d3887c1508">CVssWriter::OnPostSnapshot</a>).
+    <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PostSnapshot</a> event (see 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostsnapshot">CVssWriter::OnPostSnapshot</a>).
 
 If the time-stamp value set by 
     <b>AddDifferencedFilesByLastModifyTime</b> 
@@ -234,7 +234,7 @@ If the time stamp set by
     records to determine whether the differenced files should be included in a differential or incremental backup.
 
 Requesters retrieve the number of differenced files managed by a component by calling 
-    <a href="https://msdn.microsoft.com/285b2ac7-d09e-4ac5-bf5c-62c510544353">IVssComponent::GetDifferencedFile</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdifferencedfile">IVssComponent::GetDifferencedFile</a>.
 
 Differenced file sets can be either of the following:
 
@@ -250,16 +250,16 @@ When referring to files that are already part of the component, the combination 
     <i>bRecursive</i>, respectively) provided to 
     <b>AddDifferencedFilesByLastModifyTime</b> 
     to be mapped must match that of one of the file sets added to a component by 
-    <a href="https://msdn.microsoft.com/5d5a0155-467c-4c42-876e-a1b245cf6f8e">IVssCreateWriterMetadata::AddFilesToFileGroup</a>, 
-    <a href="https://msdn.microsoft.com/37ef5e50-127d-4bd0-9d26-04dc7781b3ff">IVssCreateWriterMetadata::AddDatabaseFiles</a>, or 
-    <a href="https://msdn.microsoft.com/09bdbdf3-d757-4d3c-8b8b-f792b6cd4ef1">IVssCreateWriterMetadata::AddDatabaseLogFiles</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addfilestofilegroup">IVssCreateWriterMetadata::AddFilesToFileGroup</a>, 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-adddatabasefiles">IVssCreateWriterMetadata::AddDatabaseFiles</a>, or 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-adddatabaselogfiles">IVssCreateWriterMetadata::AddDatabaseLogFiles</a>.
 
 When adding new files to the component, 
     <b>AddDifferencedFilesByLastModifyTime</b>, 
     the writer should not add files managed by another component or writer.
 
 There is no method in the 
-    <a href="https://msdn.microsoft.com/c686a424-b0b9-4efc-8dc6-b92193de2a5d">IVssComponent</a> interface that allows for changing or adding 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a> interface that allows for changing or adding 
     an alternate location mappings for new files added by 
     <b>AddDifferencedFilesByLastModifyTime</b>. 
     If an alternate location mapping corresponds to the new file, then that alternate location will be used.
@@ -272,35 +272,35 @@ There is no method in the
 
 
 
-<a href="https://msdn.microsoft.com/d97d4246-882e-49c3-a214-d8d3887c1508">CVssWriter::OnPostSnapshot</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostsnapshot">CVssWriter::OnPostSnapshot</a>
 
 
 
-<a href="https://msdn.microsoft.com/c686a424-b0b9-4efc-8dc6-b92193de2a5d">IVssComponent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
 
 
-<a href="https://msdn.microsoft.com/285b2ac7-d09e-4ac5-bf5c-62c510544353">IVssComponent::GetDifferencedFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdifferencedfile">IVssComponent::GetDifferencedFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/46faeb2b-7d83-4618-ba36-bdacc5ca055d">IVssComponent::GetDifferencedFilesCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdifferencedfilescount">IVssComponent::GetDifferencedFilesCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9529aad-cf93-4b4c-811c-0ff0b708de6c">Incremental and Differential Backups</a>
+<a href="https://docs.microsoft.com/windows/desktop/VSS/incremental-and-differential-backups">Incremental and Differential Backups</a>
 
 
 
-<a href="https://msdn.microsoft.com/3541c8bd-2712-458b-9153-1fffe6bf5688">VSS_BACKUP_SCHEMA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_backup_schema">VSS_BACKUP_SCHEMA</a>
 
 
 
-<a href="https://msdn.microsoft.com/82934737-0d80-4b5d-a1fa-1ba38e446504">VSS_BACKUP_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_backup_type">VSS_BACKUP_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/41ba60f7-d621-478a-a24a-202d326ebf2c">VSS_FILE_SPEC_BACKUP_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_file_spec_backup_type">VSS_FILE_SPEC_BACKUP_TYPE</a>
  
 
  

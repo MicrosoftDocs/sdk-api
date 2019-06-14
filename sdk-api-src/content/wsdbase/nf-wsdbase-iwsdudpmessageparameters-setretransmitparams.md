@@ -59,7 +59,7 @@ Sets the values that WSD uses to determine how often to repeat the message trans
 
 ### -param pParams [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/41bf73d8-0b20-4c38-b8b4-85c39eff0d91">WSDUdpRetransmitParams</a> structure. The structure contains values that determine how often WSD repeats the message transmission. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-_wsdudpretransmitparams">WSDUdpRetransmitParams</a> structure. The structure contains values that determine how often WSD repeats the message transmission. 
 
 
 ## -returns
@@ -104,7 +104,7 @@ If you do not specify these values, WSD sends the message only once.
 
 
 
-<a href="https://msdn.microsoft.com/3af6e0ff-c0b9-47af-b018-37567f614adc">IWSDUdpMessageParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpmessageparameters">IWSDUdpMessageParameters</a>
  
 
  

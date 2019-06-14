@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The  <b>CRYPT_PROVUI_FUNCS</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CRYPT_PROVUI_FUNCS</b> structure provides information about the user interface (UI) functions of a provider. This structure is used by the  <a href="https://msdn.microsoft.com/2c00f8ec-e262-4df8-8984-a2702a4162bf">CRYPT_PROVIDER_FUNCTIONS</a> structure.
+The <b>CRYPT_PROVUI_FUNCS</b> structure provides information about the user interface (UI) functions of a provider. This structure is used by the  <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_provider_functions">CRYPT_PROVIDER_FUNCTIONS</a> structure.
 
 
 ## -struct-fields
@@ -66,7 +66,7 @@ The size, in bytes, of this structure.
 
 ### -field psUIData
 
-A pointer to a <a href="https://msdn.microsoft.com/86f819f0-c243-45ba-8b7b-97ed906e6e8a">CRYPT_PROVUI_DATA</a> structure.  
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_provui_data">CRYPT_PROVUI_DATA</a> structure.  
 
 
 ### -field pfnOnMoreInfoClick
@@ -116,11 +116,11 @@ typedef BOOL (*PFN_PROVUI_CALL)(
 
 
 
-<a href="https://msdn.microsoft.com/93ea2ad5-65da-4daa-bfd4-e3d1307829b2">CRYPT_PROVIDER_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_provider_data">CRYPT_PROVIDER_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/2c00f8ec-e262-4df8-8984-a2702a4162bf">CRYPT_PROVIDER_FUNCTIONS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_provider_functions">CRYPT_PROVIDER_FUNCTIONS</a>
  
 
  

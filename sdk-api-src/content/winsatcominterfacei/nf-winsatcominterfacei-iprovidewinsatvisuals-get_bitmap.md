@@ -61,22 +61,22 @@ Retrieves a bitmap for the WinSAT base score.
 
 ### -param bitmapSize [in]
 
-Determines the size of the bitmap that this method returns. For possible values, see the <a href="https://msdn.microsoft.com/en-us/library/Aa969207(v=VS.85).aspx">WINSAT_BITMAP_SIZE</a> enumeration.
+Determines the size of the bitmap that this method returns. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/ne-winsatcominterfacei-__midl___midl_itf_winsatcominterfacei_0000_0000_0004">WINSAT_BITMAP_SIZE</a> enumeration.
 
 
 ### -param state [in]
 
-The state of the assessment. To get this value, call the <a href="https://msdn.microsoft.com/57a373f9-47b0-48cc-8517-cba87367c64e">IProvideWinSATResultsInfo::get_AssessmentState</a> method.
+The state of the assessment. To get this value, call the <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-get_assessmentstate">IProvideWinSATResultsInfo::get_AssessmentState</a> method.
 
 
 ### -param rating [in]
 
-The base score for the computer. To get this value, call the <a href="https://msdn.microsoft.com/4fe20830-bf86-4551-ba73-534740cabab5">IProvideWinSATResultsInfo::get_SystemRating</a> method.
+The base score for the computer. To get this value, call the <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-get_systemrating">IProvideWinSATResultsInfo::get_SystemRating</a> method.
 
 
 ### -param pBitmap [out]
 
-The handle to the bitmap. To free the handle when finished, call the <a href="https://msdn.microsoft.com/cc679af0-6839-4c83-9c42-39d7ededda40">DeleteObject</a> function.
+The handle to the bitmap. To free the handle when finished, call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function.
 
 
 ## -returns
@@ -135,7 +135,7 @@ The bitmap is returned only for the WINSAT_ASSESSMENT_STATE_VALID and WINSAT_ASS
 
 #### Examples
 
-The following example shows how to retrieve a bitmap that represents the base score of the assessment. The example uses the <a href="https://msdn.microsoft.com/adf4de42-9dfd-46a7-ae75-3bbcfd15dd68">Win32_WinSAT</a> WMI MOF class to get the state and base score that you pass to this method.
+The following example shows how to retrieve a bitmap that represents the base score of the assessment. The example uses the <a href="https://docs.microsoft.com/windows/desktop/WinSAT/win32-winsat">Win32_WinSAT</a> WMI MOF class to get the state and base score that you pass to this method.
 
 
 ```cpp
@@ -444,7 +444,7 @@ cleanup:
 
 
 
-<a href="https://msdn.microsoft.com/9e8d2490-9d48-4512-b5f0-5c2f9cdeb287">IProvideWinSATVisuals</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iprovidewinsatvisuals">IProvideWinSATVisuals</a>
  
 
  

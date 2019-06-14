@@ -88,7 +88,7 @@ This method is not real-time compliant and must not be called from a real-time p
 
 
 
-<a href="https://msdn.microsoft.com/71be0151-20dd-40e3-a478-d67e4d8d9c36">IAudioProcessingObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nn-audioenginebaseapo-iaudioprocessingobject">IAudioProcessingObject</a>
  
 
  

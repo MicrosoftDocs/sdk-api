@@ -62,7 +62,7 @@ The <b>GetPartType</b> method gets the part type of this part.
 
 ### -param pPartType [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd316559(v=VS.85).aspx">PartType</a> variable into which the method writes the part type. The part type is one of the following <b>PartType</b> enumeration values, which indicate whether the part is a connector or subunit:
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/ne-devicetopology-__midl___midl_itf_devicetopology_0000_0000_0012">PartType</a> variable into which the method writes the part type. The part type is one of the following <b>PartType</b> enumeration values, which indicate whether the part is a connector or subunit:
 
 Connector
 
@@ -101,7 +101,7 @@ Pointer <i>pPartType</i> is <b>NULL</b>.
 
 
 
-For a code example that uses this method, see the implementation of the SelectCaptureDevice function in <a href="https://msdn.microsoft.com/5ac421e5-74a4-40e8-af6f-a99a05ebc3e0">Device Topologies</a>.
+For a code example that uses this method, see the implementation of the SelectCaptureDevice function in <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-topologies">Device Topologies</a>.
 
 
 
@@ -111,7 +111,7 @@ For a code example that uses this method, see the implementation of the SelectCa
 
 
 
-<a href="https://msdn.microsoft.com/3bcfab9f-fad8-4605-8780-0b7c2068fcdf">IPart Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart Interface</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>LsaRegisterPolicyChangeNotification</b> function registers an event handle with the <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">local security authority</a> (LSA). This event handle is signaled whenever the indicated LSA policy is modified.
+The <b>LsaRegisterPolicyChangeNotification</b> function registers an event handle with the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">local security authority</a> (LSA). This event handle is signaled whenever the indicated LSA policy is modified.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>LsaRegisterPolicyChangeNotification</b> function registers an event handl
 ### -param InformationClass [in]
 
 A 
-<a href="https://msdn.microsoft.com/en-us/library/ms721909(v=VS.85).aspx">POLICY_NOTIFICATION_INFORMATION_CLASS</a> value that specifies the type of policy changes about which your application will be notified. Specify one of the following values. 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_policy_notification_information_class">POLICY_NOTIFICATION_INFORMATION_CLASS</a> value that specifies the type of policy changes about which your application will be notified. Specify one of the following values. 
 
 
 
@@ -139,7 +139,7 @@ Domain Name System (DNS) information, name, or SID of the system's primary domai
 ### -param NotificationEventHandle [in]
 
 A handle to an event obtained by calling the 
-<a href="https://msdn.microsoft.com/1f6d946e-c74c-4599-ac3d-b709216a0900">CreateEvent</a> function. The event can be either named or unnamed.
+<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> function. The event can be either named or unnamed.
 
 
 ## -returns
@@ -149,10 +149,10 @@ A handle to an event obtained by calling the
 If the function succeeds, the return value is STATUS_SUCCESS.
 
 If the function fails, the return value is an NTSTATUS code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms721859(v=VS.85).aspx">LSA Policy Function Return Values</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
 
 You can use the 
-<a href="https://msdn.microsoft.com/fa91794c-c502-4b36-84cc-a8d77c8e9d9f">LsaNtStatusToWinError</a> function to convert the NTSTATUS code to a Windows error code.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function to convert the NTSTATUS code to a Windows error code.
 
 
 
@@ -161,10 +161,10 @@ You can use the
 
 
 
-When you have finished using a notification event that has been registered by the <b>LsaRegisterPolicyChangeNotification</b> function, unregister it by calling the <a href="https://msdn.microsoft.com/c1000904-20a6-40db-9b59-2cbb79e00a67">LsaUnregisterPolicyChangeNotification</a> function.
+When you have finished using a notification event that has been registered by the <b>LsaRegisterPolicyChangeNotification</b> function, unregister it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaunregisterpolicychangenotification">LsaUnregisterPolicyChangeNotification</a> function.
 
 For an example that demonstrates calling this function, see 
-<a href="https://msdn.microsoft.com/29c693f5-db2b-4fda-847c-4e5220eadfd3">Receiving Policy Change Events</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/receiving-policy-change-events">Receiving Policy Change Events</a>.
 
 
 
@@ -174,7 +174,7 @@ For an example that demonstrates calling this function, see
 
 
 
-<a href="https://msdn.microsoft.com/c1000904-20a6-40db-9b59-2cbb79e00a67">LsaUnregisterPolicyChangeNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaunregisterpolicychangenotification">LsaUnregisterPolicyChangeNotification</a>
  
 
  

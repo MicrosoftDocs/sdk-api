@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>capDlgVideoCompression</b> macro displays a dialog box in which the user can select a compressor to use during the capture process. The list of available compressors can vary with the video format selected in the capture driver's Video Format dialog box. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/526e4b5d-49a4-4bb5-92d6-cdd567636354">WM_CAP_DLG_VIDEOCOMPRESSION</a> message.
+The <b>capDlgVideoCompression</b> macro displays a dialog box in which the user can select a compressor to use during the capture process. The list of available compressors can vary with the video format selected in the capture driver's Video Format dialog box. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-dlg-videocompression">WM_CAP_DLG_VIDEOCOMPRESSION</a> message.
 
 
 
@@ -81,11 +81,11 @@ Compression does not affect the frames copied to the clipboard.
 
 
 
-<a href="https://msdn.microsoft.com/c93ecc51-e2c5-4b69-8625-c8385d53fab2">Video Capture</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://msdn.microsoft.com/21061f06-d58b-4800-a9f5-9821494fabd6">Video Capture Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
  
 
  

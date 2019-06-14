@@ -73,7 +73,7 @@ If the <i>BootAcceptable</i> parameter is FALSE, the function does not return.
 If the last-known good configuration was successfully saved, the return value is nonzero.
 
 If an error occurs, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following error codes may be set by the service control manager. Other error codes may be set by the registry functions that are called by the service control manager to set parameters in the configuration registry.
 
@@ -106,7 +106,7 @@ The user does not have permission to perform this operation. Only the system and
 Saving the configuration of a running system with this function is an acceptable method for saving the last-known good configuration. If the boot configuration is unacceptable, use this function to reboot the system using the existing last-known good configuration.
 
 This function call requires the caller's token to have permission to acquire the SC_MANAGER_MODIFY_BOOT_CONFIG access right. For more information, see 
-<a href="https://msdn.microsoft.com/23d1c382-6ba4-49e2-8039-c2a91471076c">Service Security and Access Rights</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>.
 
 
 
@@ -116,11 +116,11 @@ This function call requires the caller's token to have permission to acquire the
 
 
 
-<a href="https://msdn.microsoft.com/8aa60e96-a35e-4670-832c-c045d0903618">Automatically Starting Services</a>
+<a href="https://docs.microsoft.com/windows/desktop/Services/automatically-starting-services">Automatically Starting Services</a>
 
 
 
-<a href="https://msdn.microsoft.com/63666848-cbac-4853-8b91-89303f9854c0">Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Services/service-functions">Service Functions</a>
  
 
  

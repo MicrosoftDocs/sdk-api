@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextRenderer1</b> interface inherits from <a href="https://msdn.microsoft.com/a2ac70c8-e33b-46f1-b53b-1ab07555f109">IDWriteTextRenderer</a>. <b>IDWriteTextRenderer1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextRenderer1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextrenderer">IDWriteTextRenderer</a>. <b>IDWriteTextRenderer1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,40 +69,40 @@ The <b>IDWriteTextRenderer1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b5f24a23-fb81-90f3-85de-55d8599a18d3">DrawGlyphRun</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritetextrenderer1-drawglyphrun">DrawGlyphRun</a>
 </td>
 <td align="left" width="63%">
- IDWriteTextLayout::<a href="https://msdn.microsoft.com/cbaa3341-e43a-4d3f-89c7-dda758a63e7d">Draw</a> calls this function to instruct the client to
+ IDWriteTextLayout::<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwriteinlineobject-draw">Draw</a> calls this function to instruct the client to
      render a run of glyphs.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1115e215-d04e-28db-c196-7d693ca91044">DrawInlineObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritetextrenderer1-drawinlineobject">DrawInlineObject</a>
 </td>
 <td align="left" width="63%">
- IDWriteTextLayout::<a href="https://msdn.microsoft.com/cbaa3341-e43a-4d3f-89c7-dda758a63e7d">Draw</a> calls this application callback when it needs to
+ IDWriteTextLayout::<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwriteinlineobject-draw">Draw</a> calls this application callback when it needs to
      draw an inline object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8800a536-9477-89c5-c48d-3f4bdf1ca1a5">DrawStrikethrough</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritetextrenderer1-drawstrikethrough">DrawStrikethrough</a>
 </td>
 <td align="left" width="63%">
- IDWriteTextLayout::<a href="https://msdn.microsoft.com/cbaa3341-e43a-4d3f-89c7-dda758a63e7d">Draw</a> calls this function to instruct the client to draw
+ IDWriteTextLayout::<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwriteinlineobject-draw">Draw</a> calls this function to instruct the client to draw
      a strikethrough.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c2c5ea68-c1d0-b467-a9a7-cb3a457ff68d">DrawUnderline</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritetextrenderer1-drawunderline">DrawUnderline</a>
 </td>
 <td align="left" width="63%">
- IDWriteTextLayout::<a href="https://msdn.microsoft.com/cbaa3341-e43a-4d3f-89c7-dda758a63e7d">Draw</a> calls this function to instruct the client to draw
+ IDWriteTextLayout::<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwriteinlineobject-draw">Draw</a> calls this function to instruct the client to draw
      an underline.
 
 </td>
@@ -115,7 +115,7 @@ The <b>IDWriteTextRenderer1</b> interface has these methods.
 
 
 
-<a href="https://msdn.microsoft.com/a2ac70c8-e33b-46f1-b53b-1ab07555f109">IDWriteTextRenderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextrenderer">IDWriteTextRenderer</a>
  
 
  

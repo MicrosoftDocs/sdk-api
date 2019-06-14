@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>GetSupportedKeySpec</b> method retrieves information regarding the current <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) support for signature and/or exchange operations. This method was first defined in the <a href="https://msdn.microsoft.com/60a28944-35de-4ea2-8523-5634685ac224">IEnroll2</a> interface.
+The <b>GetSupportedKeySpec</b> method retrieves information regarding the current <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) support for signature and/or exchange operations. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll2">IEnroll2</a> interface.
 
 The values retrieved by this method are dependent upon the current CSP.
 
@@ -63,7 +63,7 @@ The values retrieved by this method are dependent upon the current CSP.
 
 ### -param pdwKeySpec [out]
 
-A pointer to a <b>LONG</b> that receives a bit flag indicating whether the current CSP supports <a href="https://msdn.microsoft.com/f1caccd2-3453-448e-b194-bf899eff8091">exchange</a> and/or <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">signature keys</a>.
+A pointer to a <b>LONG</b> that receives a bit flag indicating whether the current CSP supports <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">exchange</a> and/or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">signature keys</a>.
 
 
 ## -returns
@@ -96,7 +96,7 @@ Call this method to determine whether the current CSP supports exchange keys, si
 
 
 
-<a href="https://msdn.microsoft.com/133529fb-e02a-41a2-83df-646cbc01dbe9">IEnroll2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll2</a>
  
 
  

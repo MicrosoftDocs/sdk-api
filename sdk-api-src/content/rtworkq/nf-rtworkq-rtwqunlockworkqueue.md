@@ -59,7 +59,7 @@ Unlocks a work queue.
 
 ### -param workQueueId [in]
 
-Identifier for the work queue to be unlocked. This identifier is returned by the  <a href="https://msdn.microsoft.com/e2021bf3-40d8-4697-b82f-eebee2140a6e">RtwqAllocateSerialWorkQueue</a>, <a href="https://msdn.microsoft.com/B8FF907A-1448-43A4-B249-9D3D859D8F95">RtwqAllocateWorkQueue</a>, or <a href="https://msdn.microsoft.com/ccebdbd8-fd3e-4e99-b1dd-1ec8e57cbff6">RtwqLockSharedWorkQueue</a> functions.
+Identifier for the work queue to be unlocked. This identifier is returned by the  <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqallocateserialworkqueue">RtwqAllocateSerialWorkQueue</a>, <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqallocateworkqueue">RtwqAllocateWorkQueue</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqlocksharedworkqueue">RtwqLockSharedWorkQueue</a> functions.
 
 
 ## -returns

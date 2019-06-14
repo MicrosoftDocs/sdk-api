@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
 The 
 <b>Enum</b> method retrieves a pointer to an OLE enumerator object that enumerates the tasks in the current task folder.
@@ -63,7 +63,7 @@ The
 ### -param ppEnumWorkItems [out]
 
 A pointer to a pointer to an 
-<a href="https://msdn.microsoft.com/1af162e5-8ba1-4d2e-9451-39c80ac0eecf">IEnumWorkItems</a> interface. This interface contains the enumeration context of the current task(s).
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ienumworkitems">IEnumWorkItems</a> interface. This interface contains the enumeration context of the current task(s).
 
 
 ## -returns
@@ -122,8 +122,8 @@ Not enough memory is available.
 
 
 By default, the current folder resides on the local computer. For remote computers, call 
-<a href="https://msdn.microsoft.com/c421a739-3290-4698-88e6-5c746baf903d">ITaskScheduler::GetTargetComputer</a> and use the name returned by this call. To change the target computer call 
-<a href="https://msdn.microsoft.com/e56d2384-026e-44e0-b6b7-20a41a421e09">ITaskScheduler::SetTargetComputer</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itaskscheduler-gettargetcomputer">ITaskScheduler::GetTargetComputer</a> and use the name returned by this call. To change the target computer call 
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itaskscheduler-settargetcomputer">ITaskScheduler::SetTargetComputer</a>.
 
 
 <table>
@@ -135,7 +135,7 @@ By default, the current folder resides on the local computer. For remote compute
 <td>Using 
 <b>Enum</b> to retrieve the task names on the local computer</td>
 <td>
-<a href="https://msdn.microsoft.com/65a8a8af-f4d8-4948-8dd4-b592f1381bfe">Enumerating Tasks Example</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/enumerating-tasks-example">Enumerating Tasks Example</a>
 </td>
 </tr>
 </table>
@@ -151,19 +151,19 @@ By default, the current folder resides on the local computer. For remote compute
 
 
 
-<a href="https://msdn.microsoft.com/1af162e5-8ba1-4d2e-9451-39c80ac0eecf">IEnumWorkItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ienumworkitems">IEnumWorkItems</a>
 
 
 
-<a href="https://msdn.microsoft.com/70c276e1-a45a-4a7d-aacc-3eb647675098">ITaskScheduler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itaskscheduler">ITaskScheduler</a>
 
 
 
-<a href="https://msdn.microsoft.com/c421a739-3290-4698-88e6-5c746baf903d">ITaskScheduler::GetTargetComputer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itaskscheduler-gettargetcomputer">ITaskScheduler::GetTargetComputer</a>
 
 
 
-<a href="https://msdn.microsoft.com/e56d2384-026e-44e0-b6b7-20a41a421e09">ITaskScheduler::SetTargetComputer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itaskscheduler-settargetcomputer">ITaskScheduler::SetTargetComputer</a>
  
 
  

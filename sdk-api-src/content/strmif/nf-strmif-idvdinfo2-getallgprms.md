@@ -63,7 +63,7 @@ The <b>GetAllGPRMs</b> method retrieves the current contents of all general para
 
 ### -param pRegisterArray [out]
 
-Pointer to an array of type <a href="https://msdn.microsoft.com/f0ab0a9d-00fa-4c61-9f5a-727cf69ffa1c">GPRMARRAY</a> that receives all 16 current GPRM values.
+Pointer to an array of type <a href="https://docs.microsoft.com/windows/desktop/DirectShow/gprmarray">GPRMARRAY</a> that receives all 16 current GPRM values.
           
 
 
@@ -112,7 +112,7 @@ Invalid argument.
 
 GPRMs are 16-bit registers that each disc can use in unique ways for temporary data storage. 
 
-<div class="alert"><b>Note</b>  A player application using the <a href="https://msdn.microsoft.com/3b2c01a2-d52c-4497-8fc9-d1113e8507e8">DVD Navigator</a> filter does not need to access these registers for any Annex J playback or navigation control. This method is provided for player applications implementing advanced functionality. Do not attempt to modify the GPRMs directly unless you have a thorough knowledge of the DVD specification, and the ways in which the GPRMs are used on the particular discs to be played.</div>
+<div class="alert"><b>Note</b>  A player application using the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> filter does not need to access these registers for any Annex J playback or navigation control. This method is provided for player applications implementing advanced functionality. Do not attempt to modify the GPRMs directly unless you have a thorough knowledge of the DVD specification, and the ways in which the GPRMs are used on the particular discs to be played.</div>
 <div> </div>
 
 
@@ -122,15 +122,15 @@ GPRMs are 16-bit registers that each disc can use in unique ways for temporary d
 
 
 
-<a href="https://msdn.microsoft.com/6f41e0f1-e550-4ca6-9a80-ce4d498289e2">DVD Applications</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/da30d3dc-feec-4f54-b2db-a771ce404286">IDvdInfo2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
  
 
  

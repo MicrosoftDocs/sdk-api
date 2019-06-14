@@ -81,7 +81,7 @@ The reason the application must block system shutdown. This string will be trunc
 If the call succeeds, the return value is nonzero.
 
 If the call fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -92,7 +92,7 @@ If the call fails, the return value is zero. To get extended error information, 
 
 This function can only be called from the thread that created the window specified by the <i>hWnd</i> parameter. Otherwise, the function fails and the last error code is ERROR_ACCESS_DENIED.
 
-Applications should call this function as they begin an operation that cannot be interrupted, such as burning a CD or DVD. When the operation has completed, call the <a href="https://msdn.microsoft.com/b7bf376a-79b5-4f63-b3ca-0d515c23d67c">ShutdownBlockReasonDestroy</a> function to indicate that the system can be shut down.
+Applications should call this function as they begin an operation that cannot be interrupted, such as burning a CD or DVD. When the operation has completed, call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-shutdownblockreasondestroy">ShutdownBlockReasonDestroy</a> function to indicate that the system can be shut down.
 
 Because users are typically in a hurry when shutting down the system, they may spend only  a few seconds looking at the shutdown reasons that are displayed by the system. Therefore, it is important that your reason strings are short and clear. For example "A CD burn is in progress." is better than "This application is blocking system shutdown because a CD burn is in progress. Do not shut down."
 
@@ -104,11 +104,11 @@ Because users are typically in a hurry when shutting down the system, they may s
 
 
 
-<a href="https://msdn.microsoft.com/b7bf376a-79b5-4f63-b3ca-0d515c23d67c">ShutdownBlockReasonDestroy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-shutdownblockreasondestroy">ShutdownBlockReasonDestroy</a>
 
 
 
-<a href="https://msdn.microsoft.com/acadf58f-3f68-4fa1-bdcf-8f85c8479263">Shutting Down</a>
+<a href="https://docs.microsoft.com/windows/desktop/Shutdown/shutting-down">Shutting Down</a>
  
 
  

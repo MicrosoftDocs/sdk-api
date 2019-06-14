@@ -72,19 +72,19 @@ The transaction identifier, sometimes called the unit of work.
 
 
 
-<a href="https://msdn.microsoft.com/d606f960-e843-4478-8ba7-5201f85c44ce">GetNotificationResourceManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-getnotificationresourcemanager">GetNotificationResourceManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/c83e104b-6cd7-4399-8232-7c2e7b408f1a">GetNotificationResourceManagerAsync</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-getnotificationresourcemanagerasync">GetNotificationResourceManagerAsync</a>
 
 
 
-<a href="https://msdn.microsoft.com/74976925-1813-4dbd-9438-26fabd704d84">Kernel Transaction Manager Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Ktm/kernel-transaction-manager-structures">Kernel Transaction Manager Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/4f87de9d-a068-4ab9-8f38-b75f20552b1d">TRANSACTION_NOTIFICATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ktmtypes/ns-ktmtypes-_transaction_notification">TRANSACTION_NOTIFICATION</a>
  
 
  

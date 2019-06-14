@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 
 Executes a search for 
-<a href="https://msdn.microsoft.com/e3252dba-403d-486d-b666-9bb04ec0aa90">GPMSOM</a> objects (domains and organizational units) in the domain and then returns a 
-<a href="https://msdn.microsoft.com/079f2fd9-7b1e-4bb1-b342-8ed8fb2c773d">GPMSOMCollection</a> object.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsom">GPMSOM</a> objects (domains and organizational units) in the domain and then returns a 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsomcollection">GPMSOMCollection</a> object.
 
 
 ## -parameters
@@ -69,19 +69,19 @@ Criteria to apply to the search. The valid criteria for the search include the f
 #### somLinks
 
 Pointer to an <b>IDispatch</b> or <b>IUnknown</b> interface to query the 
-<a href="https://msdn.microsoft.com/2857c8b7-019d-4ec2-9a00-574fc8541cae">IGPMGPO</a> interface. For script programmers, this is a reference to a <b>GPMGPO</b> object.   The valid criteria include the <b>opContains</b> search operator.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a> interface. For script programmers, this is a reference to a <b>GPMGPO</b> object.   The valid criteria include the <b>opContains</b> search operator.
 
 
 ### -param ppIGPMSOMCollection [out]
 
 Address of a pointer to the 
-<a href="https://msdn.microsoft.com/079f2fd9-7b1e-4bb1-b342-8ed8fb2c773d">IGPMSOMCollection</a> interface that represents the scopes of management (SOMs) found by the search.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsomcollection">IGPMSOMCollection</a> interface that represents the scopes of management (SOMs) found by the search.
 
 
 #### - objGPMSearchCriteria
 
 
-<a href="https://msdn.microsoft.com/6d24ffd1-987c-468f-a8cc-08992b7deb9d">GPMSearchCriteria</a> object to apply to the search.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsearchcriteria">GPMSearchCriteria</a> object to apply to the search.
 
 
 ## -returns
@@ -105,7 +105,7 @@ Returns a reference to a <b>GPMSOMCollection</b> object.
 
 
 This method does not allow you to search for site SOMs. Call the 
-<a href="https://msdn.microsoft.com/bcbe1d94-ae82-4b33-8831-039896816a2d">IGPMSitesContainer::SearchSites</a> method to perform this type of search.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmsitescontainer-searchsites">IGPMSitesContainer::SearchSites</a> method to perform this type of search.
 
 
 
@@ -115,27 +115,27 @@ This method does not allow you to search for site SOMs. Call the
 
 
 
-<a href="https://msdn.microsoft.com/2780760e-7114-46b0-a264-00ed58a556cb">IGPM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
 
 
 
-<a href="https://msdn.microsoft.com/c3639f07-7c8c-4440-ade4-b58abd2586d6">IGPMDomain</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain">IGPMDomain</a>
 
 
 
-<a href="https://msdn.microsoft.com/2857c8b7-019d-4ec2-9a00-574fc8541cae">IGPMGPO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3252dba-403d-486d-b666-9bb04ec0aa90">IGPMSOM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsom">IGPMSOM</a>
 
 
 
-<a href="https://msdn.microsoft.com/079f2fd9-7b1e-4bb1-b342-8ed8fb2c773d">IGPMSOMCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsomcollection">IGPMSOMCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/6d24ffd1-987c-468f-a8cc-08992b7deb9d">IGPMSearchCriteria</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsearchcriteria">IGPMSearchCriteria</a>
  
 
  

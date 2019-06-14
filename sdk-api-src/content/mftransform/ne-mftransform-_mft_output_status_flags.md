@@ -62,7 +62,7 @@ Indicates whether a Media Foundation transform (MFT) can produce output data.
 
 ### -field MFT_OUTPUT_STATUS_SAMPLE_READY
 
-There is a sample available for at least one output stream. To retrieve the available output samples, call <a href="https://msdn.microsoft.com/dc58cc75-7e01-4f47-a572-8e3ca1bc43b4">IMFTransform::ProcessOutput</a>.
+There is a sample available for at least one output stream. To retrieve the available output samples, call <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">IMFTransform::ProcessOutput</a>.
 
 
 ## -see-also
@@ -70,15 +70,15 @@ There is a sample available for at least one output stream. To retrieve the avai
 
 
 
-<a href="https://msdn.microsoft.com/3eb82f76-088b-4abc-9f3a-dfa5ecd1068d">IMFTransform::GetOutputStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputstatus">IMFTransform::GetOutputStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb23fe0a-c42c-4912-a0bf-1f0b18a6f4e0">Media Foundation Transforms</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
  
 
  

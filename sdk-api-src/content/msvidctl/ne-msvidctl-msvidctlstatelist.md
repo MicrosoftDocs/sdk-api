@@ -88,15 +88,15 @@ Indicates that the Video Control is playing.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694523(v=VS.85).aspx">IMSVidDeviceEvent::StateChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsviddeviceevent-statechange">IMSVidDeviceEvent::StateChange</a>
 
 
 
-<a href="https://msdn.microsoft.com/3c21f2c6-8eff-4fe5-a383-057f3394d9ee">Video Control Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-enumerations">Video Control Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/16dca4ab-be3d-493a-892b-8d90a0baf109">_IMSVidCtlEvents::StateChange</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd695367(v=vs.85)">_IMSVidCtlEvents::StateChange</a>
  
 
  

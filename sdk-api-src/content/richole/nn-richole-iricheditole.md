@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IRichEditOle</b> interface exposes the Component Object Model (COM) functionality of a rich edit control. The interface can be obtained by sending the <a href="https://msdn.microsoft.com/en-us/library/Bb788041(v=VS.85).aspx">EM_GETOLEINTERFACE</a> message.
+The <b>IRichEditOle</b> interface exposes the Component Object Model (COM) functionality of a rich edit control. The interface can be obtained by sending the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-getoleinterface">EM_GETOLEINTERFACE</a> message.
 
 
 This interface has the following methods.
@@ -57,7 +57,7 @@ This interface has the following methods.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRichEditOle</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IRichEditOle</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRichEditOle</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRichEditOle</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,25 +72,25 @@ The <b>IRichEditOle</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774331(v=VS.85).aspx">ActivateAs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/nf-richole-iricheditole-activateas">ActivateAs</a>
 </td>
 <td align="left" width="63%">
-Handles <a href="https://msdn.microsoft.com/en-us/library/Bb774331(v=VS.85).aspx">Activate As</a> behavior by unloading all objects of the old class, telling OLE to treat those objects as objects of the new class, and reloading the objects. If objects cannot be reloaded, they are deleted.
+Handles <a href="https://docs.microsoft.com/windows/desktop/api/richole/nf-richole-iricheditole-activateas">Activate As</a> behavior by unloading all objects of the old class, telling OLE to treat those objects as objects of the new class, and reloading the objects. If objects cannot be reloaded, they are deleted.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774334(v=VS.85).aspx">ContextSensitiveHelp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/nf-richole-iricheditole-contextsensitivehelp">ContextSensitiveHelp</a>
 </td>
 <td align="left" width="63%">
-Indicates if a rich edit control should transition into or out of context-sensitive help mode. A rich edit control calls the <a href="https://msdn.microsoft.com/en-us/library/Bb774334(v=VS.85).aspx">IRichEditOle::ContextSensitiveHelp</a> method of any in-place object which is currently active if a state change is occurring.
+Indicates if a rich edit control should transition into or out of context-sensitive help mode. A rich edit control calls the <a href="https://docs.microsoft.com/windows/desktop/api/richole/nf-richole-iricheditole-contextsensitivehelp">IRichEditOle::ContextSensitiveHelp</a> method of any in-place object which is currently active if a state change is occurring.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774336(v=VS.85).aspx">ConvertObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/nf-richole-iricheditole-convertobject">ConvertObject</a>
 </td>
 <td align="left" width="63%">
 Converts an object to a new type. This call reloads the object but does not force an update; the caller must do this.
@@ -99,16 +99,16 @@ Converts an object to a new type. This call reloads the object but does not forc
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774338(v=VS.85).aspx">GetClientSite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/nf-richole-iricheditole-getclientsite">GetClientSite</a>
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://msdn.microsoft.com/dafee149-926a-4d08-a43d-5847682db645">IOleClientSite</a> interface to be used when creating a new object. All objects inserted into a rich edit control must use client site interfaces returned by this function. A client site may be used with exactly one object.
+Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a> interface to be used when creating a new object. All objects inserted into a rich edit control must use client site interfaces returned by this function. A client site may be used with exactly one object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774341(v=VS.85).aspx">GetClipboardData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/nf-richole-iricheditole-getclipboarddata">GetClipboardData</a>
 </td>
 <td align="left" width="63%">
 Retrieves a clipboard object for a range in an edit control.
@@ -117,7 +117,7 @@ Retrieves a clipboard object for a range in an edit control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774343(v=VS.85).aspx">GetLinkCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/nf-richole-iricheditole-getlinkcount">GetLinkCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of objects in a rich edit control that are links.
@@ -126,16 +126,16 @@ Returns the number of objects in a rich edit control that are links.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774345(v=VS.85).aspx">GetObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/nf-richole-iricheditole-getobject">GetObject</a>
 </td>
 <td align="left" width="63%">
-Retrieves information, stored in a <a href="https://msdn.microsoft.com/en-us/library/Bb787946(v=VS.85).aspx">REOBJECT</a> structure, about an object in a rich edit control.
+Retrieves information, stored in a <a href="https://docs.microsoft.com/windows/desktop/api/richole/ns-richole-_reobject">REOBJECT</a> structure, about an object in a rich edit control.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774347(v=VS.85).aspx">GetObjectCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/nf-richole-iricheditole-getobjectcount">GetObjectCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of objects currently contained in a rich edit control. 
@@ -144,16 +144,16 @@ Returns the number of objects currently contained in a rich edit control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774349(v=VS.85).aspx">HandsOffStorage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/nf-richole-iricheditole-handsoffstorage">HandsOffStorage</a>
 </td>
 <td align="left" width="63%">
-Indicates when a rich edit control is to release its reference to the storage interface associated with the specified object. This call does not call the object's <a href="https://msdn.microsoft.com/en-us/library/Bb774349(v=VS.85).aspx">IRichEditOle::HandsOffStorage</a> method; the caller must do that.
+Indicates when a rich edit control is to release its reference to the storage interface associated with the specified object. This call does not call the object's <a href="https://docs.microsoft.com/windows/desktop/api/richole/nf-richole-iricheditole-handsoffstorage">IRichEditOle::HandsOffStorage</a> method; the caller must do that.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774351(v=VS.85).aspx">ImportDataObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/nf-richole-iricheditole-importdataobject">ImportDataObject</a>
 </td>
 <td align="left" width="63%">
 Imports a clipboard object into a rich edit control, replacing the current selection.
@@ -162,7 +162,7 @@ Imports a clipboard object into a rich edit control, replacing the current selec
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774353(v=VS.85).aspx">InPlaceDeactivate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/nf-richole-iricheditole-inplacedeactivate">InPlaceDeactivate</a>
 </td>
 <td align="left" width="63%">
 Indicates when a rich edit control is to deactivate the currently active in-place object, if any.
@@ -171,7 +171,7 @@ Indicates when a rich edit control is to deactivate the currently active in-plac
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774355(v=VS.85).aspx">InsertObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/nf-richole-iricheditole-insertobject">InsertObject</a>
 </td>
 <td align="left" width="63%">
 Inserts an object into a rich edit control.
@@ -180,7 +180,7 @@ Inserts an object into a rich edit control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774357(v=VS.85).aspx">SaveCompleted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/nf-richole-iricheditole-savecompleted">SaveCompleted</a>
 </td>
 <td align="left" width="63%">
 Indicates when the most recent save operation has been completed and that the rich edit control should hold onto a different storage for the object.
@@ -189,7 +189,7 @@ Indicates when the most recent save operation has been completed and that the ri
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774359(v=VS.85).aspx">SetDvaspect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/nf-richole-iricheditole-setdvaspect">SetDvaspect</a>
 </td>
 <td align="left" width="63%">
 Sets the aspect that a rich edit control uses to draw an object. This call does not change the drawing information cached in the object; this must be done by the caller. The call does cause the object to be redrawn.
@@ -198,7 +198,7 @@ Sets the aspect that a rich edit control uses to draw an object. This call does 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774361(v=VS.85).aspx">SetHostNames</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/nf-richole-iricheditole-sethostnames">SetHostNames</a>
 </td>
 <td align="left" width="63%">
 Sets the host names to be given to objects as they are inserted to a rich edit control. The host names are used in the user interface of servers to describe the container context of opened objects.
@@ -207,7 +207,7 @@ Sets the host names to be given to objects as they are inserted to a rich edit c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774362(v=VS.85).aspx">SetLinkAvailable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/nf-richole-iricheditole-setlinkavailable">SetLinkAvailable</a>
 </td>
 <td align="left" width="63%">
 Sets the value of the link-available bit in the object's flags. The link-available bit defaults to <b>TRUE</b>. It should be set to <b>FALSE</b> if any errors occur on the link which would indicate problems connecting to the linked object or application. When those problems are repaired, the bit should be set to <b>TRUE</b> again.

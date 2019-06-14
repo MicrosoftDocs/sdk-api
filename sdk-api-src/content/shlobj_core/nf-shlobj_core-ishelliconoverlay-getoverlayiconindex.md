@@ -61,14 +61,14 @@ Gets the index of the icon overlay in the system image list.
 
 Type: <b>PCUITEMID_CHILD</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure that identifies the object whose icon is being displayed.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure that identifies the object whose icon is being displayed.
 
 
 ### -param pIconIndex [in, out]
 
 Type: <b>int*</b>
 
-Pointer to the index of the icon overlay's image in the system image list. This index is equivalent to the <i>iImage</i> value that is specified when you add an overlay image to a private image list with the <a href="https://msdn.microsoft.com/en-us/library/Bb775227(v=VS.85).aspx">ImageList::SetOverlayImage</a> function.
+Pointer to the index of the icon overlay's image in the system image list. This index is equivalent to the <i>iImage</i> value that is specified when you add an overlay image to a private image list with the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_setoverlayimage">ImageList::SetOverlayImage</a> function.
 
 
 ## -returns
@@ -127,7 +127,7 @@ The PIDL is invalid.
 
 
 
-To retrieve the overlay's image index in the system image list, you must first call <a href="https://msdn.microsoft.com/20001ae0-05d0-46a7-8bb8-9bb722f5d795">SHGetIconOverlayIndex</a> to retrieve the overlay index. Then use the <a href="https://msdn.microsoft.com/en-us/library/Bb761408(v=VS.85).aspx">INDEXTOOVERLAYMASK</a> macro to convert the overlay index into the equivalent image index.
+To retrieve the overlay's image index in the system image list, you must first call <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgeticonoverlayindexa">SHGetIconOverlayIndex</a> to retrieve the overlay index. Then use the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-indextooverlaymask">INDEXTOOVERLAYMASK</a> macro to convert the overlay index into the equivalent image index.
 
 
 
@@ -137,7 +137,7 @@ To retrieve the overlay's image index in the system image list, you must first c
 
 
 
-<a href="https://msdn.microsoft.com/1a1d03ca-0922-41df-8cec-e74a16ed3bd6">IShellIconOverlay</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelliconoverlay">IShellIconOverlay</a>
  
 
  

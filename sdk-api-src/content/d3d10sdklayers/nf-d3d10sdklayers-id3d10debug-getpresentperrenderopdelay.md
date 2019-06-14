@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Get the number of milliseconds to sleep after <a href="https://msdn.microsoft.com/en-us/library/Bb174576(v=VS.85).aspx">Present</a> is called.
+Get the number of milliseconds to sleep after <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present">Present</a> is called.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Get the number of milliseconds to sleep after <a href="https://msdn.microsoft.co
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of milliseconds to sleep after Present is called.
 
@@ -74,7 +74,7 @@ Number of milliseconds to sleep after Present is called.
 
 
 
-Value is set with <a href="https://msdn.microsoft.com/en-us/library/Bb173521(v=VS.85).aspx">ID3D10Debug::SetPresentPerRenderOpDelay</a>.
+Value is set with <a href="https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/nf-d3d10sdklayers-id3d10debug-setpresentperrenderopdelay">ID3D10Debug::SetPresentPerRenderOpDelay</a>.
 
 
 
@@ -84,7 +84,7 @@ Value is set with <a href="https://msdn.microsoft.com/en-us/library/Bb173521(v=V
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173516(v=VS.85).aspx">ID3D10Debug Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/nn-d3d10sdklayers-id3d10debug">ID3D10Debug Interface</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a full counter path using the members specified in the <a href="https://msdn.microsoft.com/ffa2a076-7267-406b-8eed-4a49504a7ad6">PDH_COUNTER_PATH_ELEMENTS</a> structure.
+Creates a full counter path using the members specified in the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_counter_path_elements_a">PDH_COUNTER_PATH_ELEMENTS</a> structure.
 		
 
 
@@ -63,7 +63,7 @@ Creates a full counter path using the members specified in the <a href="https://
 ### -param pCounterPathElements [in]
 
 A 
-<a href="https://msdn.microsoft.com/ffa2a076-7267-406b-8eed-4a49504a7ad6">PDH_COUNTER_PATH_ELEMENTS</a> structure that contains the members used to make up the path. Only the <b>szObjectName</b> and <b>szCounterName</b> members are required, the others are optional. 
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_counter_path_elements_a">PDH_COUNTER_PATH_ELEMENTS</a> structure that contains the members used to make up the path. Only the <b>szObjectName</b> and <b>szCounterName</b> members are required, the others are optional. 
 
 
 
@@ -133,8 +133,8 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> or a 
-<a href="https://msdn.microsoft.com/ea67d798-81db-44ad-b0fb-24e0c3be7388">PDH error code</a>. The following are possible values.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
 
 <table>
 <tr>
@@ -183,11 +183,11 @@ You should call this function twice, the first time to get the required buffer s
 
 
 
-<a href="https://msdn.microsoft.com/ffa2a076-7267-406b-8eed-4a49504a7ad6">PDH_COUNTER_PATH_ELEMENTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_counter_path_elements_a">PDH_COUNTER_PATH_ELEMENTS</a>
 
 
 
-<a href="https://msdn.microsoft.com/760b94e9-88df-4f7d-92e9-333d682779f6">PdhParseCounterPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhparsecounterpatha">PdhParseCounterPath</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndPlayReverse</b> macro plays the current content in the reverse direction, beginning at the current position and ending at the beginning of the content or until another command stops playback. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/93a22454-eca6-453f-abbe-6cf20198dbad">MCIWNDM_PLAYREVERSE</a> message.
+The <b>MCIWndPlayReverse</b> macro plays the current content in the reverse direction, beginning at the current position and ending at the beginning of the content or until another command stops playback. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-playreverse">MCIWNDM_PLAYREVERSE</a> message.
 
 
 

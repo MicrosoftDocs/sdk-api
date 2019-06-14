@@ -65,7 +65,7 @@ Removes all items from the results folder.
 
 Type: <b>HRESULT</b>
 
-Returns S_OK if successful, or  E_UNEXPECTED if this method is called before a call to <a href="https://msdn.microsoft.com/f978d5d1-a597-4e49-9a2a-de23e99bf65e">IExplorerBrowser::FillFromObject</a>.
+Returns S_OK if successful, or  E_UNEXPECTED if this method is called before a call to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowser-fillfromobject">IExplorerBrowser::FillFromObject</a>.
 
 
 
@@ -74,7 +74,7 @@ Returns S_OK if successful, or  E_UNEXPECTED if this method is called before a c
 
 
 
-This method removes all results from the  <a href="https://msdn.microsoft.com/db44052b-bd26-412f-9f2a-66a0c53b65ac">IResultsFolder</a> created in method <a href="https://msdn.microsoft.com/f978d5d1-a597-4e49-9a2a-de23e99bf65e">IExplorerBrowser::FillFromObject</a>.
+This method removes all results from the  <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iresultsfolder">IResultsFolder</a> created in method <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowser-fillfromobject">IExplorerBrowser::FillFromObject</a>.
 
 
 

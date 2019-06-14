@@ -65,7 +65,7 @@ The session handle.
 ### -param entry [in]
 
 The entry returned by a previous call to 
-<a href="https://msdn.microsoft.com/1692d091-7963-492d-9998-5680a2a81088">ldap_first_entry</a> or <b>ldap_next_entry</b>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_first_entry">ldap_first_entry</a> or <b>ldap_next_entry</b>.
 
 
 ## -returns
@@ -82,7 +82,7 @@ If the search returned valid results, this function returns a pointer to the nex
 
 
 Use <b>ldap_next_entry</b> in conjunction with 
-<a href="https://msdn.microsoft.com/1692d091-7963-492d-9998-5680a2a81088">ldap_first_entry</a> to step through and retrieve the list of entries from a search result chain.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_first_entry">ldap_first_entry</a> to step through and retrieve the list of entries from a search result chain.
 
 You are not required to explicitly free the returned entry because it is freed when the message itself is freed.
 
@@ -94,11 +94,11 @@ You are not required to explicitly free the returned entry because it is freed w
 
 
 
-<a href="https://msdn.microsoft.com/7a0040ea-f8f3-4378-8371-49768714d762">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/1692d091-7963-492d-9998-5680a2a81088">ldap_first_entry</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_first_entry">ldap_first_entry</a>
  
 
  

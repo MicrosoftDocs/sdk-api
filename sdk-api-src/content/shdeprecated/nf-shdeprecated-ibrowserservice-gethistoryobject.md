@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deprecated. Retrieves an <a href="https://msdn.microsoft.com/58b32c87-39b6-4d64-9174-cf798ed302c2">IOleObject</a> that represents the browser's history object.
+Deprecated. Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a> that represents the browser's history object.
 
 
 ## -parameters
@@ -60,23 +60,23 @@ Deprecated. Retrieves an <a href="https://msdn.microsoft.com/58b32c87-39b6-4d64-
 
 ### -param ppole [out]
 
-Type: <b><a href="https://msdn.microsoft.com/58b32c87-39b6-4d64-9174-cf798ed302c2">IOleObject</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>**</b>
 
-The address of a pointer to an <a href="https://msdn.microsoft.com/58b32c87-39b6-4d64-9174-cf798ed302c2">IOleObject</a> that represents the browser's history object.
+The address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a> that represents the browser's history object.
 
 
 ### -param pstm [out]
 
-Type: <b><a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>**</b>
 
-The address of a pointer to the history object's <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>. This parameter may be <b>NULL</b>.
+The address of a pointer to the history object's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>. This parameter may be <b>NULL</b>.
 
 
 ### -param ppbc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>**</b>
 
-The address of a pointer to the history object stream's <a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a>. This parameter may be <b>NULL</b>.
+The address of a pointer to the history object stream's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>. This parameter may be <b>NULL</b>.
 
 
 ## -returns
@@ -94,10 +94,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-If <i>pstm</i> is not <b>NULL</b>, you can call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> on <a href="https://msdn.microsoft.com/58b32c87-39b6-4d64-9174-cf798ed302c2">IOleObject</a> to get a pointer to <a href="https://msdn.microsoft.com/library/Aa768215(v=VS.85).aspx">IPersistHistory</a>.
+If <i>pstm</i> is not <b>NULL</b>, you can call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a> to get a pointer to <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768215(v=vs.85)">IPersistHistory</a>.
 
 
-<a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> and <a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a> can be passed to <a href="https://msdn.microsoft.com/library/Aa768216(v=VS.85).aspx">IPersistHistory::LoadHistory</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> can be passed to <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768216(v=vs.85)">IPersistHistory::LoadHistory</a>.
 
 The calling application must release all three pointers if non-<b>NULL</b>.
 

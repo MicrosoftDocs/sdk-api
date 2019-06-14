@@ -110,12 +110,12 @@ The zero-based index of the MFT to retreive.
 
 ### -param pGuidCategory [out]
 
-Receives a GUID that specifies the category of the MFT. For a list of possible values, see <a href="https://msdn.microsoft.com/eca3ae3b-e40a-407d-986c-d0a85b891f52">MFT_CATEGORY</a>.
+Receives a GUID that specifies the category of the MFT. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/medfound/mft-category">MFT_CATEGORY</a>.
 
 
 ### -param ppTransform [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/3cc502d8-d364-43b9-b0b6-d9474c002b20">IMFTransform</a> interface of the MFT. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> interface of the MFT. The caller must release the interface.
 
 
 ## -returns
@@ -172,37 +172,37 @@ The <i>dwStreamIndex</i> parameter is invalid.
 
 
 
-You can use this method to configure an MFT after it is inserted into the processing chain. Do not use the pointer returned in <i>ppTransform</i> to set media types on the MFT or to process data. In particular, calling any of the following <a href="https://msdn.microsoft.com/3cc502d8-d364-43b9-b0b6-d9474c002b20">IMFTransform</a> methods could have unexpected results.
+You can use this method to configure an MFT after it is inserted into the processing chain. Do not use the pointer returned in <i>ppTransform</i> to set media types on the MFT or to process data. In particular, calling any of the following <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> methods could have unexpected results.
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/311ab66e-5dbd-452a-bad4-99a6293cbc60">AddInputStreams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-addinputstreams">AddInputStreams</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/cba37f7f-6ab2-469c-95c2-61d9e4d31d0b">DeleteInputStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-deleteinputstream">DeleteInputStream</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/28366df3-c414-45ff-bb15-c5483f11de85">ProcessEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processevent">ProcessEvent</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/c94d406b-7cd9-42d4-ae9e-3d21dbb47209">ProcessInput</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processinput">ProcessInput</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/a6dc67e5-8473-444a-8463-24f411e59565">ProcessMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processmessage">ProcessMessage</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/dc58cc75-7e01-4f47-a572-8e3ca1bc43b4">ProcessOutput</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">ProcessOutput</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/822a83d1-177a-4a8d-842e-eb76f8253283">SetInputType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-setinputtype">SetInputType</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/a9a1d03f-2e56-490c-885b-78c69dea8e92">SetOutputType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-setoutputtype">SetOutputType</a>
 </li>
 </ul>
 If a decoder is present, it appears at index position zero.
 
-To avoid losing any data, you should drain the source reader before calling this method. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd389281(v=VS.85).aspx">Draining the Data Pipeline</a>.
+To avoid losing any data, you should drain the source reader before calling this method. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/processing-media-data-with-the-source-reader">Draining the Data Pipeline</a>.
 
 
 
@@ -212,7 +212,7 @@ To avoid losing any data, you should drain the source reader before calling this
 
 
 
-<a href="https://msdn.microsoft.com/59888F9B-C464-4045-AA77-03EE16E2B598">IMFSourceReaderEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereaderex">IMFSourceReaderEx</a>
  
 
  

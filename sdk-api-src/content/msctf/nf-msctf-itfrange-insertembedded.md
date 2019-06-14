@@ -59,12 +59,12 @@ The <b>ITfRange::InsertEmbedded</b> method inserts an object at the location of 
 
 ### -param ec [in]
 
-Edit cookie obtained from <a href="https://msdn.microsoft.com/1415f338-731c-44c5-b798-edf823174272">ITfDocumentMgr::CreateContext</a> or <a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession</a>.
+Edit cookie obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
 
 ### -param dwFlags [in]
 
-Bit fields that specify how insertion should occur. If <a href="https://msdn.microsoft.com/fa53c1f1-50eb-45eb-b2ea-f236a376d41a">TF_IE_CORRECTION</a> is set, the operation is a correction, so that other text services can preserve data associated with the original text.
+Bit fields that specify how insertion should occur. If <a href="https://docs.microsoft.com/windows/desktop/TSF/miscellaneous-framework-constants">TF_IE_CORRECTION</a> is set, the operation is a correction, so that other text services can preserve data associated with the original text.
 
 
 ### -param pDataObject [in]
@@ -170,13 +170,13 @@ The document or the location of the range cannot be modified.
 
 
 
-Use this method to insert objects into the text stream, because the <a href="https://msdn.microsoft.com/fa53c1f1-50eb-45eb-b2ea-f236a376d41a">TF_CHAR_EMBEDDED</a> object placeholder character cannot be passed into <a href="https://msdn.microsoft.com/797d96a1-0250-4e8d-a4bd-31152fd6eca7">ITfRange::SetText</a>. This method is modeled after the OLE clipboard API, with applications using <i>pDataObject</i> as they would an <a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> returned from OleGetClipboard.
+Use this method to insert objects into the text stream, because the <a href="https://docs.microsoft.com/windows/desktop/TSF/miscellaneous-framework-constants">TF_CHAR_EMBEDDED</a> object placeholder character cannot be passed into <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-settext">ITfRange::SetText</a>. This method is modeled after the OLE clipboard API, with applications using <i>pDataObject</i> as they would an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> returned from OleGetClipboard.
 
 When a range covers multiple regions, the method should be called on each region separately. Otherwise, the method might fail.
 
 By default, text services start and end a temporary composition that covers the range, to ensure that context owners consistently recognize compositions over edited text. If the composition owner rejects a default composition, then the method returns TF_E_COMPOSITION_REJECTED. Default compositions are only created if the caller has not already started one. If the caller has an active composition, the call fails.
 
-To determine in advance whether a context owner supports insertion of a particular object, use <a href="https://msdn.microsoft.com/52f9465f-725e-493b-89ee-1b3db3cef696">ITfQueryEmbedded::QueryInsertEmbedded</a>.
+To determine in advance whether a context owner supports insertion of a particular object, use <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfqueryembedded-queryinsertembedded">ITfQueryEmbedded::QueryInsertEmbedded</a>.
 
 
 
@@ -186,34 +186,34 @@ To determine in advance whether a context owner supports insertion of a particul
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/1415f338-731c-44c5-b798-edf823174272">ITfDocumentMgr::CreateContext
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>
 
 
 
-<a href="https://msdn.microsoft.com/ff8c4f60-76d5-422d-9d23-584e8eb5f1a1">ITfRange::GetEmbedded
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-getembedded">ITfRange::GetEmbedded
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/fa53c1f1-50eb-45eb-b2ea-f236a376d41a">Miscellaneous Framework Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/TSF/miscellaneous-framework-constants">Miscellaneous Framework Constants</a>
 
 
 
-<a href="https://msdn.microsoft.com/c827999a-0b74-4e5d-901e-4c2fa1d74929">Text Stores</a>
+<a href="https://docs.microsoft.com/windows/desktop/TSF/text-stores">Text Stores</a>
  
 
  

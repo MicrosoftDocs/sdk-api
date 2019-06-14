@@ -96,11 +96,11 @@ Use this function when the format string, identified by the <i>dwMsgId</i> param
 
 
 
-<a href="https://msdn.microsoft.com/de48b797-9cb5-4bc0-89d4-86dd7f56a610">PrintError</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-printerror">PrintError</a>
 
 
 
-<a href="https://msdn.microsoft.com/6646a4f7-24b7-460c-8027-80485ac50785">PrintMessage</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-printmessage">PrintMessage</a>
  
 
  

@@ -58,7 +58,7 @@ The
 			
 
 Providers can only call this function from their 
-<a href="https://msdn.microsoft.com/e9f70ae6-906f-4e55-bca7-4355f1ca6091">ControlCallback</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/ETW/controlcallback">ControlCallback</a> function.
 
 
 ## -parameters
@@ -69,10 +69,10 @@ Providers can only call this function from their
 ### -param Buffer [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/862a8f46-a326-48c6-92b7-8bb667837bb7">WNODE_HEADER</a> structure. ETW passes this structure to the provider's 
-<a href="https://msdn.microsoft.com/e9f70ae6-906f-4e55-bca7-4355f1ca6091">ControlCallback</a> function in the <i>Buffer</i> parameter.
+<a href="https://docs.microsoft.com/windows/desktop/ETW/wnode-header">WNODE_HEADER</a> structure. ETW passes this structure to the provider's 
+<a href="https://docs.microsoft.com/windows/desktop/ETW/controlcallback">ControlCallback</a> function in the <i>Buffer</i> parameter.
 
-The <b>HistoricalContext</b> member of <a href="https://msdn.microsoft.com/862a8f46-a326-48c6-92b7-8bb667837bb7">WNODE_HEADER</a> contains the session's handle.
+The <b>HistoricalContext</b> member of <a href="https://docs.microsoft.com/windows/desktop/ETW/wnode-header">WNODE_HEADER</a> contains the session's handle.
 
 
 ## -returns
@@ -83,7 +83,7 @@ If the function succeeds, it returns the event tracing session handle.
 						
 
 If the function fails, it returns <b>INVALID_HANDLE_VALUE</b>. To get extended error information, call the 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 
 
@@ -93,15 +93,15 @@ If the function fails, it returns <b>INVALID_HANDLE_VALUE</b>. To get extended e
 
 
 You use the handle when calling the 
-<a href="https://msdn.microsoft.com/e5c0f2bf-34da-4555-9556-4c79ee9a73ab">GetTraceEnableFlags</a> and 
-<a href="https://msdn.microsoft.com/22326fd9-c428-4430-8a92-978d005f6705">GetTraceEnableLevel</a> functions to retrieve the enable flags and level values passed to the <a href="https://msdn.microsoft.com/d75f18e1-e5fa-4039-bb74-76dea334b0fd">EnableTrace</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceenableflags">GetTraceEnableFlags</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceenablelevel">GetTraceEnableLevel</a> functions to retrieve the enable flags and level values passed to the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletrace">EnableTrace</a> function.
 
 
 #### Examples
 
 For an example that uses 
 <b>GetTraceLoggerHandle</b>, see 
-<a href="https://msdn.microsoft.com/13512236-c416-43ba-bf36-b05c5c08d6c9">Retrieving Event Data Using MOF</a>.
+<a href="https://docs.microsoft.com/windows/desktop/ETW/retrieving-event-data-using-mof">Retrieving Event Data Using MOF</a>.
 
 <div class="code"></div>
 
@@ -112,11 +112,11 @@ For an example that uses
 
 
 
-<a href="https://msdn.microsoft.com/e5c0f2bf-34da-4555-9556-4c79ee9a73ab">GetTraceEnableFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceenableflags">GetTraceEnableFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/22326fd9-c428-4430-8a92-978d005f6705">GetTraceEnableLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceenablelevel">GetTraceEnableLevel</a>
  
 
  

@@ -63,7 +63,7 @@ The <code>ControlStream</code> method sets the start and stop times for one or m
 
 ### -param pCategory [in]
 
-A pointer to a GUID that specifies one of the pin categories listed in <a href="https://msdn.microsoft.com/0c01bd51-353d-4f48-b33c-796f740915e2">Pin Property Set</a>. The value of this parameter cannot be <b>NULL</b>.
+A pointer to a GUID that specifies one of the pin categories listed in <a href="https://docs.microsoft.com/windows/desktop/DirectShow/pin-property-set">Pin Property Set</a>. The value of this parameter cannot be <b>NULL</b>.
           
 
 
@@ -74,7 +74,7 @@ Pointer to a major type GUID that specifies the media type, or <b>NULL</b>. If t
 
 ### -param pFilter [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/d8c09dc7-dae8-4b51-8da8-69e64928a091">IBaseFilter</a> interface that specifies which filter to control. To control all the capture filters in the graph, set this parameter to <b>NULL</b>.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a> interface that specifies which filter to control. To control all the capture filters in the graph, set this parameter to <b>NULL</b>.
 
 
 ### -param pstart [in]
@@ -89,12 +89,12 @@ Pointer to a variable that contains the stop time. If the value is <b>MAXLONGLON
 
 ### -param wStartCookie [in]
 
-Value that is sent as the second parameter of the <a href="https://msdn.microsoft.com/e2f8d9a2-c96c-457c-8a88-7c86d4405928">EC_STREAM_CONTROL_STARTED</a> event notification. See Remarks for more information.
+Value that is sent as the second parameter of the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-stream-control-started">EC_STREAM_CONTROL_STARTED</a> event notification. See Remarks for more information.
 
 
 ### -param wStopCookie [in]
 
-Value that is sent as the second parameter of the <a href="https://msdn.microsoft.com/a2f7a959-fafd-47ff-9b3d-1a898fdb1f81">EC_STREAM_CONTROL_STOPPED</a> event notification. See Remarks for more information.
+Value that is sent as the second parameter of the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-stream-control-stopped">EC_STREAM_CONTROL_STOPPED</a> event notification. See Remarks for more information.
 
 
 ## -returns
@@ -162,25 +162,25 @@ Could not find a matching pin, or the pin did not support stream control.
 
 
 
-This method locates output pins on capture filters, using search criteria that you supply in the method call. Then it calls the <a href="https://msdn.microsoft.com/126c7ed7-acc0-4248-a3ab-c91c9f1c5cee">IAMStreamControl</a> methods on those pins. This method enables an application to control streams without the application needing to enumerate the filters and pins in the graph.
+This method locates output pins on capture filters, using search criteria that you supply in the method call. Then it calls the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamstreamcontrol">IAMStreamControl</a> methods on those pins. This method enables an application to control streams without the application needing to enumerate the filters and pins in the graph.
 
 Use this method for frame-accurate capture, or for individual control of capture and preview. For example, you can stop capturing to disk but leave video preview running.
 
 The first three parameters specify which pins to control. A capture graph can have more than one capture filter. For example, it might have filters for video, audio, and closed captioning data. Also, a capture filter can have more than one output pin. Some capture filters have separate pins for preview and capture, or separate pins for video-only data and audio-video interleaved data. To control video preview, for example, specify PIN_CATEGORY_PREVIEW for <i>pCategory</i> and MEDIATYPE_Video for <i>pType</i>.
 
-<div class="alert"><b>Note</b>  <p class="note">If the pin category is PIN_CATEGORY_PREVIEW, you cannot set specific start and stop times, because the samples delivered by a preview pin have no time stamps (see <a href="https://msdn.microsoft.com/445fe6b9-9d5b-45fd-9c9e-8c632c5228ae">Time Stamps</a>). Instead, use the values <b>NULL</b> and <b>MAXLONGLONG</b> to start and stop the pin at the desired times.
+<div class="alert"><b>Note</b>  <p class="note">If the pin category is PIN_CATEGORY_PREVIEW, you cannot set specific start and stop times, because the samples delivered by a preview pin have no time stamps (see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/time-stamps">Time Stamps</a>). Instead, use the values <b>NULL</b> and <b>MAXLONGLONG</b> to start and stop the pin at the desired times.
 
 <p class="note">Also, this method is not supported for preview if the device uses a video port pin, because in that case the device is delivering the preview samples directly over hardware.
 
 </div>
 <div> </div>
-To control a pin, this method calls the <a href="https://msdn.microsoft.com/ce155b83-ee4a-47d4-9258-a1d18cf25f8b">IAMStreamControl::StartAt</a> and <a href="https://msdn.microsoft.com/b3dd5332-e93e-4e55-9c7f-47c302ef11a3">IAMStreamControl::StopAt</a> methods. Each pin sends an <a href="https://msdn.microsoft.com/e2f8d9a2-c96c-457c-8a88-7c86d4405928">EC_STREAM_CONTROL_STARTED</a> event notification when it starts. The second parameter of the event notification is the value given in <i>wStartCookie</i>. When the pin stops, it sends an <a href="https://msdn.microsoft.com/a2f7a959-fafd-47ff-9b3d-1a898fdb1f81">EC_STREAM_CONTROL_STOPPED</a> event notification. The second parameter of that event notification is the value given in <i>wStopCookie</i>.
+To control a pin, this method calls the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamcontrol-startat">IAMStreamControl::StartAt</a> and <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamcontrol-stopat">IAMStreamControl::StopAt</a> methods. Each pin sends an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-stream-control-started">EC_STREAM_CONTROL_STARTED</a> event notification when it starts. The second parameter of the event notification is the value given in <i>wStartCookie</i>. When the pin stops, it sends an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-stream-control-stopped">EC_STREAM_CONTROL_STOPPED</a> event notification. The second parameter of that event notification is the value given in <i>wStopCookie</i>.
 
-When this method locates a matching pin, it searches downstream for another filter that supports <a href="https://msdn.microsoft.com/126c7ed7-acc0-4248-a3ab-c91c9f1c5cee">IAMStreamControl</a> (typically a multiplexer). If it finds one, it also sets the start and stop times on that filter. This generates two pairs of stop notifications: one for the capture filter, and one for the downstream filter. Only the stop notification from the downstream filter uses the <i>wStopCookie</i> parameter. Waiting for this event guarantees that the downstream filter receives the last sample.
+When this method locates a matching pin, it searches downstream for another filter that supports <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamstreamcontrol">IAMStreamControl</a> (typically a multiplexer). If it finds one, it also sets the start and stop times on that filter. This generates two pairs of stop notifications: one for the capture filter, and one for the downstream filter. Only the stop notification from the downstream filter uses the <i>wStopCookie</i> parameter. Waiting for this event guarantees that the downstream filter receives the last sample.
 
 If no downstream filter supports <b>IAMStreamControl</b>, the method returns S_FALSE. In that case, you might receive the stop notification before the last sample is rendered.
 
-<b>MAXLONGLONG</b> is the largest possible <a href="https://msdn.microsoft.com/862c95bc-2e0a-42c0-b907-45f64f27bd41">REFERENCE_TIME</a> value. In the DirectShow base class library, it is also defined as the constant <b>MAX_TIME</b>.
+<b>MAXLONGLONG</b> is the largest possible <a href="https://docs.microsoft.com/windows/desktop/DirectShow/reference-time">REFERENCE_TIME</a> value. In the DirectShow base class library, it is also defined as the constant <b>MAX_TIME</b>.
 
 
 
@@ -190,11 +190,11 @@ If no downstream filter supports <b>IAMStreamControl</b>, the method returns S_F
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/abdf6fb2-e98f-4df8-98ec-06d33798abb5">ICaptureGraphBuilder2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icapturegraphbuilder2">ICaptureGraphBuilder2 Interface</a>
  
 
  

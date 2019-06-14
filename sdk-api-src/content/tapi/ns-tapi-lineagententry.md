@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>LINEAGENTENTRY</b> structure describes an individual ACD agent. The 
-<a href="https://msdn.microsoft.com/176beb90-a9aa-4d40-9f84-e6ea9f84b5a2">LINEAGENTLIST</a> structure can contain an array of 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentlist_tag">LINEAGENTLIST</a> structure can contain an array of 
 <b>LINEAGENTENTRY</b> structures.
 
 
@@ -100,11 +100,11 @@ Offset from the beginning of the structure to a <b>null</b>-terminated string th
 
 
 
-<a href="https://msdn.microsoft.com/6b24e8aa-fef4-44aa-8d2b-33b9be3d6ea7">About Call Center Controls</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a>
 
 
 
-<a href="https://msdn.microsoft.com/176beb90-a9aa-4d40-9f84-e6ea9f84b5a2">LINEAGENTLIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentlist_tag">LINEAGENTLIST</a>
  
 
  

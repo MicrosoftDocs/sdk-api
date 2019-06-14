@@ -61,12 +61,12 @@ The <b>FWP_CLASSIFY_OPTION_TYPE</b> enumerated type is used by callouts and shim
 
 ### -field FWP_CLASSIFY_OPTION_MULTICAST_STATE
 
-Specifies the multicast conditions on outbound traffic. See <a href="https://msdn.microsoft.com/11f2f873-d27e-411c-ba5b-a93134e1f027">FWPM_CLASSIFY_OPTION0</a> for possible values.
+Specifies the multicast conditions on outbound traffic. See <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_classify_option0_">FWPM_CLASSIFY_OPTION0</a> for possible values.
 
 
 ### -field FWP_CLASSIFY_OPTION_LOOSE_SOURCE_MAPPING
 
-Specifies the source mapping conditions for callout filters. See <a href="https://msdn.microsoft.com/11f2f873-d27e-411c-ba5b-a93134e1f027">FWPM_CLASSIFY_OPTION0</a> for possible values.
+Specifies the source mapping conditions for callout filters. See <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_classify_option0_">FWPM_CLASSIFY_OPTION0</a> for possible values.
 
  Loose source mapping allows unicast responses from a remote peer to match only the port number, instead of the entire source address.
 
@@ -133,7 +133,7 @@ Maximum value for testing purposes.
 
 
 
-<a href="https://msdn.microsoft.com/11f2f873-d27e-411c-ba5b-a93134e1f027">FWPM_CLASSIFY_OPTION0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_classify_option0_">FWPM_CLASSIFY_OPTION0</a>
  
 
  

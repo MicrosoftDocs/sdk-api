@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CryptMsgCountersignEncoded</b> function countersigns an existing PKCS #7 message signature. The <i>pbCountersignature</i> <b>BYTE</b> buffer it creates is a PKCS #7 encoded SignerInfo that can be used as an unauthenticated <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">Countersignature</a> attribute of a PKCS #9 signed-data or signed-and-enveloped-data message.
+The <b>CryptMsgCountersignEncoded</b> function countersigns an existing PKCS #7 message signature. The <i>pbCountersignature</i> <b>BYTE</b> buffer it creates is a PKCS #7 encoded SignerInfo that can be used as an unauthenticated <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Countersignature</a> attribute of a PKCS #9 signed-data or signed-and-enveloped-data message.
 
 
 ## -parameters
@@ -83,15 +83,15 @@ Number of countersigners in the <i>rgCountersigners</i> array.
 ### -param rgCountersigners [in]
 
 Array of countersigners' 
-<a href="https://msdn.microsoft.com/f599226d-ddd7-455f-b650-74b91674d8f9">CMSG_SIGNER_ENCODE_INFO</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_signer_encode_info">CMSG_SIGNER_ENCODE_INFO</a> structures.
 
 
 ### -param pbCountersignature [out]
 
-A pointer to a buffer to receive an encoded PKCS #9 <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">countersignature</a> attribute.
+A pointer to a buffer to receive an encoded PKCS #9 <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">countersignature</a> attribute.
 
 On input, this parameter can be <b>NULL</b> to set the size of this information for memory allocation purposes. For more information, see 
-<a href="https://msdn.microsoft.com/ef99edef-39b2-4d78-9c01-13720215d47f">Retrieving Data of Unknown Length</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 
 ### -param pcbCountersignature [in, out]
@@ -106,9 +106,9 @@ A pointer to a variable that specifies the size, in bytes, of the buffer pointed
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
 If the function fails, the return value is zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-The following table lists the error codes most commonly returned by the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+The following table lists the error codes most commonly returned by the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 <table>
 <tr>
@@ -155,29 +155,29 @@ Propagated errors might be returned from one of the following functions:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/05e3db57-8d83-48e2-8590-68039ea27253">CryptCreateHash</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/ec1482a2-c2cb-4c5f-af9c-d493134413d6">CryptHashData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashdata">CryptHashData</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/ed008c07-1a40-4075-bdaa-eb7f7e12d9c3">CryptGetHashParam</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgethashparam">CryptGetHashParam</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/9cf0de04-fdad-457d-8137-16d98f915cd5">CryptSignHash</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignhasha">CryptSignHash</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/b0d2610b-05ba-4fb6-8f38-10f970a52091">CryptMsgOpenToEncode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/d27d75f0-1646-4926-b375-59e52b00326c">CryptMsgUpdate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgupdate">CryptMsgUpdate</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/a990d44d-2993-429f-b817-2a834105ecef">CryptMsgControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a>
 </li>
 </ul>
-If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> may return an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
-<a href="https://msdn.microsoft.com/cb1f34dd-dab4-4ffb-a73b-79a214290509">ASN.1 Encoding/Decoding Return Values</a>.
+If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
 
 
@@ -187,19 +187,19 @@ If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5
 
 
 
-<a href="https://msdn.microsoft.com/ebf76664-bca6-462d-b519-2b60f435d8ef">CryptMsgCountersign</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcountersign">CryptMsgCountersign</a>
 
 
 
-<a href="https://msdn.microsoft.com/b0332360-a737-4b48-b592-0c55d493a02d">CryptMsgVerifyCountersignatureEncoded</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgverifycountersignatureencoded">CryptMsgVerifyCountersignatureEncoded</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Low-level Message Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Low-level Message Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-This operator returns the address of a <a href="https://msdn.microsoft.com/f073a798-edd5-4e6a-a8a7-1592721ce35d">D3D11_DEPTH_STENCIL_VIEW_DESC</a> structure that contains  the data from the <a href="https://msdn.microsoft.com/4DD04DF8-75C3-430C-9AFA-E3344B053D6E">CD3D11_DEPTH_STENCIL_VIEW_DESC</a> instance.
+This operator returns the address of a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_depth_stencil_view_desc">D3D11_DEPTH_STENCIL_VIEW_DESC</a> structure that contains  the data from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151639(v=vs.85)">CD3D11_DEPTH_STENCIL_VIEW_DESC</a> instance.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ This operator returns the address of a <a href="https://msdn.microsoft.com/f073a
 
 
 
-<a href="https://msdn.microsoft.com/4DD04DF8-75C3-430C-9AFA-E3344B053D6E">CD3D11_DEPTH_STENCIL_VIEW_DESC</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151639(v=vs.85)">CD3D11_DEPTH_STENCIL_VIEW_DESC</a>
  
 
  

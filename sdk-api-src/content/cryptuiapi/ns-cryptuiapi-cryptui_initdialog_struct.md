@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CRYPTUI_INITDIALOG_STRUCT</b> structure supports the <a href="https://msdn.microsoft.com/en-us/library/Aa380645(v=VS.85).aspx">CRYPTUI_VIEWCERTIFICATE_STRUCT</a> structure. It  is passed as the <i>lParam</i> in the <a href="https://msdn.microsoft.com/en-us/library/ms645428(v=VS.85).aspx">WM_INITDIALOG</a> call to each
-property sheet that is in the <b>rgPropSheetPages</b> array of the <a href="https://msdn.microsoft.com/en-us/library/Aa380645(v=VS.85).aspx">CRYPTUI_VIEWCERTIFICATE_STRUCT</a> structure. The <b>CRYPTUI_VIEWCERTIFICATE_STRUCT</b> structure is used in the <a href="https://msdn.microsoft.com/5107ff22-78c4-4005-80af-ff45781da6c7">CryptUIDlgViewCertificate</a> function.
+The <b>CRYPTUI_INITDIALOG_STRUCT</b> structure supports the <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/ns-cryptuiapi-tagcryptui_viewcertificate_structa">CRYPTUI_VIEWCERTIFICATE_STRUCT</a> structure. It  is passed as the <i>lParam</i> in the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> call to each
+property sheet that is in the <b>rgPropSheetPages</b> array of the <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/ns-cryptuiapi-tagcryptui_viewcertificate_structa">CRYPTUI_VIEWCERTIFICATE_STRUCT</a> structure. The <b>CRYPTUI_VIEWCERTIFICATE_STRUCT</b> structure is used in the <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuidlgviewcertificatea">CryptUIDlgViewCertificate</a> function.
 
 
 ## -struct-fields
@@ -60,12 +60,12 @@ property sheet that is in the <b>rgPropSheetPages</b> array of the <a href="http
 
 ### -field lParam
 
-The <b>lParam</b> in the <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> structure.
+The <b>lParam</b> in the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetpagea_v2">PROPSHEETPAGE</a> structure.
 
 
 ### -field pCertContext
 
-A pointer to the <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structure for the certificate that <a href="https://msdn.microsoft.com/5107ff22-78c4-4005-80af-ff45781da6c7">CryptUIDlgViewCertificate</a> is displaying.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure for the certificate that <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuidlgviewcertificatea">CryptUIDlgViewCertificate</a> is displaying.
 
 
 ## -see-also
@@ -73,11 +73,11 @@ A pointer to the <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380645(v=VS.85).aspx">CRYPTUI_VIEWCERTIFICATE_STRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/ns-cryptuiapi-tagcryptui_viewcertificate_structa">CRYPTUI_VIEWCERTIFICATE_STRUCT</a>
 
 
 
-<a href="https://msdn.microsoft.com/5107ff22-78c4-4005-80af-ff45781da6c7">CryptUIDlgViewCertificate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuidlgviewcertificatea">CryptUIDlgViewCertificate</a>
  
 
  

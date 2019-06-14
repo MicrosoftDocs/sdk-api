@@ -56,7 +56,7 @@ ms.custom: 19H1
 ## -description
 
 
-For a locale specified by name, maps an input character string to another using a specified transformation, or generates a sort key for the input string.<div class="alert"><b>Note</b>  The application should call this function in preference to <a href="https://msdn.microsoft.com/84dda2cd-cbf9-45e9-b18c-7dea0b5bc991">LCMapString</a> if designed to run only on Windows Vista and later.</div>
+For a locale specified by name, maps an input character string to another using a specified transformation, or generates a sort key for the input string.<div class="alert"><b>Note</b>  The application should call this function in preference to <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-lcmapstringa">LCMapString</a> if designed to run only on Windows Vista and later.</div>
 <div> </div>
 
 
@@ -68,17 +68,17 @@ For a locale specified by name, maps an input character string to another using 
 
 ### -param lpLocaleName [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/221aae7b-3a7c-4995-ae78-50d97de436d8">locale name</a>, or one of the following predefined values. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-names">locale name</a>, or one of the following predefined values. 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/63e2e368-af2f-4af0-bbea-2b27d1939394">LOCALE_NAME_INVARIANT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_INVARIANT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/63e2e368-af2f-4af0-bbea-2b27d1939394">LOCALE_NAME_SYSTEM_DEFAULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_SYSTEM_DEFAULT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/63e2e368-af2f-4af0-bbea-2b27d1939394">LOCALE_NAME_USER_DEFAULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_USER_DEFAULT</a>
 </li>
 </ul>
 
@@ -375,7 +375,7 @@ The application can set <i>cchDest</i> to 0. In this case, the function does not
 
 ### -param lpVersionInformation [in, optional]
 
-Pointer to an <a href="https://msdn.microsoft.com/97f637df-3e0e-4349-a617-96b7c640b19d">NLSVERSIONINFOEX</a> structure that contains the version information about the relevant NLS capability; usually retrieved from <a href="https://msdn.microsoft.com/255e6774-eb70-41db-a372-8796166ee8d6">GetNLSVersionEx</a>.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_nlsversioninfoex">NLSVERSIONINFOEX</a> structure that contains the version information about the relevant NLS capability; usually retrieved from <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getnlsversionex">GetNLSVersionEx</a>.
 
 <b>Windows Vista, Windows 7:</b> Reserved; must set to <b>NULL</b>.
 
@@ -396,7 +396,7 @@ Reserved; must be 0.
 
 Returns the number of characters or bytes in the translated string or sort key, including a terminating null character, if successful. If the function succeeds and the value of <i>cchDest</i> is 0, the return value is the size of the buffer required to hold the translated string or sort key, including a terminating null character if the input was null terminated.
 
-This function returns 0 if it does not succeed. To get extended error information, the application can call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>, which can return one of the following error codes:
+This function returns 0 if it does not succeed. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <ul>
 <li>ERROR_INSUFFICIENT_BUFFER. A supplied buffer size was not large enough, or it was incorrectly set to <b>NULL</b>.</li>
@@ -410,13 +410,13 @@ This function returns 0 if it does not succeed. To get extended error informatio
 
 
 
-The application can use <a href="https://msdn.microsoft.com/84dda2cd-cbf9-45e9-b18c-7dea0b5bc991">LCMapString</a> or <b>LCMapStringEx</b> to generate a sort key. To do this, the application specifies  LCMAP_SORTKEY for the <i>dwMapFlags</i> parameter. For more information, see <a href="https://msdn.microsoft.com/c8fc32bd-02bd-4a40-a836-d9ad9f69c209">Handling Sorting in Your Applications</a>.
+The application can use <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-lcmapstringa">LCMapString</a> or <b>LCMapStringEx</b> to generate a sort key. To do this, the application specifies  LCMAP_SORTKEY for the <i>dwMapFlags</i> parameter. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/handling-sorting-in-your-applications">Handling Sorting in Your Applications</a>.
 
-Another way for your application to use <a href="https://msdn.microsoft.com/84dda2cd-cbf9-45e9-b18c-7dea0b5bc991">LCMapString</a> or <b>LCMapStringEx</b> is in mapping strings. In this case, the application does not specify LCMAP_SORTKEY for the <i>dwMapFlags</i> parameter, but supplies some other combination of flags. For more information, see <a href="https://msdn.microsoft.com/c8fc32bd-02bd-4a40-a836-d9ad9f69c209">Handling Sorting in Your Applications</a>.
+Another way for your application to use <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-lcmapstringa">LCMapString</a> or <b>LCMapStringEx</b> is in mapping strings. In this case, the application does not specify LCMAP_SORTKEY for the <i>dwMapFlags</i> parameter, but supplies some other combination of flags. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/handling-sorting-in-your-applications">Handling Sorting in Your Applications</a>.
 
-<b>Beginning in Windows Vista:</b> This function can handle data from <a href="https://msdn.microsoft.com/110efeab-c02f-4244-8950-a975cfc91e8a">custom locales</a>. Data is not guaranteed to be the same from computer to computer or between runs of an application. If your application must persist or transmit data, see <a href="https://msdn.microsoft.com/f62402d6-31de-4ff7-9538-7925a007a089">Using Persistent Locale Data</a>.
+<b>Beginning in Windows Vista:</b> This function can handle data from <a href="https://docs.microsoft.com/windows/desktop/Intl/custom-locales">custom locales</a>. Data is not guaranteed to be the same from computer to computer or between runs of an application. If your application must persist or transmit data, see <a href="https://docs.microsoft.com/windows/desktop/Intl/using-persistent-locale-data">Using Persistent Locale Data</a>.
 
-<b>Beginning in Windows 8:</b> If your app passes language tags to this function from the <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Globalization">Windows.Globalization</a> namespace, it must first convert the tags by calling <a href="https://msdn.microsoft.com/99264b22-3fb5-47e2-b0b9-42a6768e67c1">ResolveLocaleName</a>.
+<b>Beginning in Windows 8:</b> If your app passes language tags to this function from the <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Globalization">Windows.Globalization</a> namespace, it must first convert the tags by calling <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-resolvelocalename">ResolveLocaleName</a>.
 
 
 
@@ -426,31 +426,31 @@ Another way for your application to use <a href="https://msdn.microsoft.com/84dd
 
 
 
-<a href="https://msdn.microsoft.com/4db84fa7-f3c2-48fb-ad7d-8673397c4b0e">CompareString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a>
 
 
 
-<a href="https://msdn.microsoft.com/38339881-30d2-4f55-9fee-81916ab15135">FindNLSStringEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-findnlsstringex">FindNLSStringEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/255e6774-eb70-41db-a372-8796166ee8d6">GetNLSVersionEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getnlsversionex">GetNLSVersionEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/c8fc32bd-02bd-4a40-a836-d9ad9f69c209">Handling Sorting in Your Applications</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/handling-sorting-in-your-applications">Handling Sorting in Your Applications</a>
 
 
 
-<a href="https://msdn.microsoft.com/84dda2cd-cbf9-45e9-b18c-7dea0b5bc991">LCMapString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-lcmapstringa">LCMapString</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a548074-0782-45e1-8051-80c3b9d81885">National Language Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c72c4de-83be-4b7e-9ed8-b0236c1df8a4">National Language Support Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
  
 
  

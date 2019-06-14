@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an enumeration object for all streams that are discovered in a WTV file. The filter crossbar, which exposes the <a href="https://msdn.microsoft.com/299816e7-2dad-44a5-a44d-9c3efe405d9b">ISBE2Crossbar</a> interface, manages the mappings between the streams in the WTV file and the filter output pins.
+Gets an enumeration object for all streams that are discovered in a WTV file. The filter crossbar, which exposes the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2crossbar">ISBE2Crossbar</a> interface, manages the mappings between the streams in the WTV file and the filter output pins.
 
-The WTV file format supports dynamic creation and deletion of streams within the file. An <a href="https://msdn.microsoft.com/ab7ccd5b-1ac8-4d33-aea6-49383025270b">SBE2_STREAM_DESC</a> global spanning event in the file signals when a stream is created or deleted.
+The WTV file format supports dynamic creation and deletion of streams within the file. An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/ns-sbe-__midl___midl_itf_sbe_0000_0015_0001">SBE2_STREAM_DESC</a> global spanning event in the file signals when a stream is created or deleted.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The WTV file format supports dynamic creation and deletion of streams within the
 
 ### -param ppStreams [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/77a918f8-d305-4d4d-9a5c-523ddb796b26">ISBE2EnumStream</a> interface that the crossbar implements.
+Receives a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2enumstream">ISBE2EnumStream</a> interface that the crossbar implements.
           You can use the methods that are defined by the <b>ISBE2EnumStream</b>  interface to enumerate the streams that can be mapped to output pins in the current profile. The caller is responsible for releasing the interface.
 
 
@@ -120,15 +120,15 @@ No streams found.
 
 
 
-<a href="https://msdn.microsoft.com/299816e7-2dad-44a5-a44d-9c3efe405d9b">ISBE2Crossbar</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2crossbar">ISBE2Crossbar</a>
 
 
 
-<a href="https://msdn.microsoft.com/77a918f8-d305-4d4d-9a5c-523ddb796b26">ISBE2EnumStream</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2enumstream">ISBE2EnumStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/435081e9-8a3f-42ab-9091-30c7c3dd59c6">Stream Buffer Source Filter</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source Filter</a>
  
 
  

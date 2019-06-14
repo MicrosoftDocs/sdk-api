@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>AuthzReportSecurityEvent</b> function generates a security audit for a registered security event source.
 
-Auditing for the  object access event category must be enabled for the <b>AuthzReportSecurityEvent</b> function to generate a security audit. The available audit types are defined in the <a href="https://msdn.microsoft.com/1ECC866A-2DD3-4EE4-B2CC-7F5ADF7FFC99">AUDIT_PARAM_TYPE</a> enumeration.
+Auditing for the  object access event category must be enabled for the <b>AuthzReportSecurityEvent</b> function to generate a security audit. The available audit types are defined in the <a href="https://docs.microsoft.com/windows/desktop/api/adtgen/ne-adtgen-_audit_param_type">AUDIT_PARAM_TYPE</a> enumeration.
 
 
 ## -parameters
@@ -106,7 +106,7 @@ The identifier of the audit.
 
 ### -param pUserSid [in, optional]
 
-A pointer to the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) that will be listed as the source of the audit in the event log.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) that will be listed as the source of the audit in the event log.
 
 
 ### -param dwCount [in]
@@ -125,7 +125,7 @@ A list of AuditParamFlag type/value pairs that provide additional information ab
 
 If the function succeeds, the function returns <b>TRUE</b>.
 
-If the function fails, it returns <b>FALSE</b>. For extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, it returns <b>FALSE</b>. For extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -135,11 +135,11 @@ If the function fails, it returns <b>FALSE</b>. For extended error information, 
 
 
 
-<a href="https://msdn.microsoft.com/726e480d-1a34-4fd6-ac2d-876fa08f4eae">AuthzRegisterSecurityEventSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzregistersecurityeventsource">AuthzRegisterSecurityEventSource</a>
 
 
 
-<a href="https://msdn.microsoft.com/ee5b598a-0a89-4b32-a9bc-e9c811573b08">AuthzReportSecurityEventFromParams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzreportsecurityeventfromparams">AuthzReportSecurityEventFromParams</a>
  
 
  

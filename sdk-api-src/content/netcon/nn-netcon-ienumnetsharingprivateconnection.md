@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/4043a85f-ebdc-424c-acf5-9097d1472773">Windows Firewall API</a>.]
+<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 The 
 <b>IEnumNetSharingPrivateConnection</b> interface provides methods for enumerating the currently configured privately-shared connections.
@@ -57,7 +57,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumNetSharingPrivateConnection</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnumNetSharingPrivateConnection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumNetSharingPrivateConnection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumNetSharingPrivateConnection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IEnumNetSharingPrivateConnection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a82dbc70-783a-4061-9526-dd19f94d843b">Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netcon/nf-netcon-ienumnetsharingprivateconnection-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a new enumeration interface from this enumeration.
@@ -81,7 +81,7 @@ Creates a new enumeration interface from this enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3f9cc481-8967-4b1e-95b2-c6ddec20a1ea">Next</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-ienumnetsharingprivateconnection-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified number of private connections from this enumeration.
@@ -90,7 +90,7 @@ Retrieves a specified number of private connections from this enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9d68eccf-eb96-47f9-8ca3-97b7918a52fe">Reset</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-ienumnetsharingprivateconnection-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Causes subsequent calls to operate from the beginning of the enumeration.
@@ -99,7 +99,7 @@ Causes subsequent calls to operate from the beginning of the enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa364773(v=VS.85).aspx">Skip</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-ienumnetsharingprivateconnection-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips the specified number of private connections in this enumeration.
@@ -114,15 +114,15 @@ Skips the specified number of private connections in this enumeration.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa366128(v=VS.85).aspx">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-interfaces">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/7ab18626-adc9-450c-a2b8-723d2c839a7b">Internet Connection Sharing and Internet Connection Firewall Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>
  
 
  

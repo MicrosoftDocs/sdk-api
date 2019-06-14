@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-A callback interface exposing methods used with <a href="https://msdn.microsoft.com/164732ae-1c72-465c-a16b-a8eeaa9cc185">INamespaceWalk</a>. After performing a walk with <b>INamespaceWalk</b>, an <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a> object representing the walked nodes is passed to the <b>INamespaceWalkCB</b> methods. What those methods do with the information depends on the object that is implementing them.
+A callback interface exposing methods used with <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalk">INamespaceWalk</a>. After performing a walk with <b>INamespaceWalk</b>, an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> object representing the walked nodes is passed to the <b>INamespaceWalkCB</b> methods. What those methods do with the information depends on the object that is implementing them.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INamespaceWalkCB</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>INamespaceWalkCB</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INamespaceWalkCB</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INamespaceWalkCB</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>INamespaceWalkCB</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fd5c25f4-6e48-494b-9d5b-ba1d846ce4d2">EnterFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacewalkcb-enterfolder">EnterFolder</a>
 </td>
 <td align="left" width="63%">
 Called when a folder is about to be entered during a namespace walk. Use this method for any initialization of the retrieved item.
@@ -78,7 +78,7 @@ Called when a folder is about to be entered during a namespace walk. Use this me
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d9f86764-6365-432e-9216-57fede3aec83">FoundItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacewalkcb-founditem">FoundItem</a>
 </td>
 <td align="left" width="63%">
 Called when an object is found in the namespace during a namespace walk. Use this method as the main action function for the class implementing it. Perform your actions as needed inside this method.
@@ -87,7 +87,7 @@ Called when an object is found in the namespace during a namespace walk. Use thi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/db105026-5639-4e4e-8146-a14cdb84c48e">InitializeProgressDialog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacewalkcb-initializeprogressdialog">InitializeProgressDialog</a>
 </td>
 <td align="left" width="63%">
 Initializes the window title and cancel button text of the progress dialog box displayed during the namespace walk.
@@ -96,10 +96,10 @@ Initializes the window title and cancel button text of the progress dialog box d
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/307b0686-c4ec-40c6-8bd3-18a7aa790875">LeaveFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacewalkcb-leavefolder">LeaveFolder</a>
 </td>
 <td align="left" width="63%">
-Called after a namespace walk through a folder. Use this method to perform any necessary cleanup following the actions performed by <a href="https://msdn.microsoft.com/fd5c25f4-6e48-494b-9d5b-ba1d846ce4d2">INamespaceWalkCB::EnterFolder</a> or <a href="https://msdn.microsoft.com/d9f86764-6365-432e-9216-57fede3aec83">INamespaceWalkCB::FoundItem</a>.
+Called after a namespace walk through a folder. Use this method to perform any necessary cleanup following the actions performed by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacewalkcb-enterfolder">INamespaceWalkCB::EnterFolder</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacewalkcb-founditem">INamespaceWalkCB::FoundItem</a>.
 
 </td>
 </tr>

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains and receives information for change notifications. This structure is used with the <a href="https://msdn.microsoft.com/73143865-ca2f-4578-a7a2-2ba4833eddd8">SHChangeNotifyRegister</a> function and the <a href="https://msdn.microsoft.com/5d777115-bae3-47c4-9edc-c99c40a4f926">SFVM_QUERYFSNOTIFY</a> notification.
+Contains and receives information for change notifications. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotifyregister">SHChangeNotifyRegister</a> function and the <a href="https://docs.microsoft.com/windows/desktop/shell/sfvm-queryfsnotify">SFVM_QUERYFSNOTIFY</a> notification.
 
 
 ## -struct-fields

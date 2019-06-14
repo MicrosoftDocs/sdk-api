@@ -76,7 +76,7 @@ A string representing the device name of the HBA initiator; for example '<b>\dev
 
 ### -field SessionId
 
-A <a href="https://msdn.microsoft.com/d13975f9-58d0-425c-a2de-a0d1d70850d3">ISCSI_UNIQUE_SESSION_ID</a> structure containing information that uniquely identifies the session..
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-_iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a> structure containing information that uniquely identifies the session..
 
 
 ### -field OSBusNumber
@@ -116,7 +116,7 @@ A list of SCSI_LUN_LIST structures that contain information about the LUNs assoc
 
 
 
-<a href="https://msdn.microsoft.com/d13975f9-58d0-425c-a2de-a0d1d70850d3">ISCSI_UNIQUE_SESSION_ID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-_iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a>
  
 
  

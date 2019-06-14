@@ -72,7 +72,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Call this method to cancel the <a href="https://msdn.microsoft.com/2FD65E4A-C70A-4CB4-9038-3A8B791E251C">IMFMediaEngineEx::SetTimelineMarkerTimer</a> method.
+Call this method to cancel the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-settimelinemarkertimer">IMFMediaEngineEx::SetTimelineMarkerTimer</a> method.
 
 
 
@@ -82,7 +82,7 @@ Call this method to cancel the <a href="https://msdn.microsoft.com/2FD65E4A-C70A
 
 
 
-<a href="https://msdn.microsoft.com/EE3591FD-4FE8-4F20-A4E2-52C896229571">IMFMediaEngineEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineex">IMFMediaEngineEx</a>
  
 
  

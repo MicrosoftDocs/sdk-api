@@ -59,7 +59,7 @@ To use this interface, you must create a remoted instance of the Windows Media P
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPLibrarySharingServices</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMPLibrarySharingServices</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPLibrarySharingServices</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPLibrarySharingServices</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IWMPLibrarySharingServices</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563389(v=VS.85).aspx">isLibraryShared</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmplibrarysharingservices-islibraryshared">isLibraryShared</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether the user's library is shared.
@@ -83,7 +83,7 @@ Retrieves a value indicating whether the user's library is shared.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563390(v=VS.85).aspx">isLibrarySharingEnabled</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmplibrarysharingservices-islibrarysharingenabled">isLibrarySharingEnabled</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether the user has enabled library sharing in Windows Media Player.
@@ -92,7 +92,7 @@ Retrieves a value indicating whether the user has enabled library sharing in Win
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563391(v=VS.85).aspx">showLibrarySharing</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmplibrarysharingservices-showlibrarysharing">showLibrarySharing</a>
 </td>
 <td align="left" width="63%">
 Displays the Windows Media Player <b>Library Sharing</b> dialog box.
@@ -101,7 +101,7 @@ Displays the Windows Media Player <b>Library Sharing</b> dialog box.
 </tr>
 </table> 
 
-Retrieve a pointer to an <b>IWMPLibrarySharingServices</b> interface by calling the <b>QueryInterface</b> method of the <a href="https://msdn.microsoft.com/en-us/library/Dd563514(v=VS.85).aspx">IWMPPlayer</a> interface.
+Retrieve a pointer to an <b>IWMPLibrarySharingServices</b> interface by calling the <b>QueryInterface</b> method of the <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplayer">IWMPPlayer</a> interface.
 	
 
 
@@ -110,7 +110,7 @@ Retrieve a pointer to an <b>IWMPLibrarySharingServices</b> interface by calling 
 
 
 
-<a href="https://msdn.microsoft.com/68a0bdaf-ae1b-4ba1-817b-a31c68b9fddd">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
  
 
  

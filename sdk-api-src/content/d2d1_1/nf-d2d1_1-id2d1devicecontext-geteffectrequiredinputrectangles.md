@@ -60,21 +60,21 @@ Returns the input rectangles that are required to be supplied by the caller to p
 
 ### -param renderEffect [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e90d1830-c356-48f1-ac7b-1d94c8c26569">ID2D1Effect</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect">ID2D1Effect</a>*</b>
 
 The image whose output is being rendered.
 
 
 ### -param renderImageRectangle [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a>*</b>
 
 The portion of the output image whose inputs are being inspected.
 
 
 ### -param inputDescriptions [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/2ce9405a-e36d-4b9e-b9d2-2a58b78696ac">D2D1_EFFECT_INPUT_DESCRIPTION</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_effect_input_description">D2D1_EFFECT_INPUT_DESCRIPTION</a>*</b>
 
 A list of the inputs whos rectangles are being queried.
           
@@ -82,7 +82,7 @@ A list of the inputs whos rectangles are being queried.
 
 ### -param requiredInputRects [out]
 
-Type: <b><a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a>*</b>
 
 The input rectangles returned to the caller.
 
@@ -122,7 +122,7 @@ The caller should be very careful not to place a reliance on the required input 
 
 
 
-<a href="https://msdn.microsoft.com/a54dd628-c2a2-4b04-9ced-7749a395f187">ID2D1DeviceContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains possible values for the <a href="https://msdn.microsoft.com/F46358F0-991B-45E1-AEEF-F6EB43B50202">IUIAutomationTransformPattern2::ZoomByUnit</a> method, which zooms the viewport of a control by the specified unit.
+Contains possible values for the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern2-zoombyunit">IUIAutomationTransformPattern2::ZoomByUnit</a> method, which zooms the viewport of a control by the specified unit.
 
 
 ## -enum-fields
@@ -87,7 +87,7 @@ Increase zoom by a small increment.
 
 
 
-<a href="https://msdn.microsoft.com/F46358F0-991B-45E1-AEEF-F6EB43B50202">IUIAutomationTransformPattern2::ZoomByUnit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern2-zoombyunit">IUIAutomationTransformPattern2::ZoomByUnit</a>
  
 
  

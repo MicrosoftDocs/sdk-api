@@ -61,7 +61,7 @@ Installs an application published by an application publisher, while preventing 
 
 Type: <b>LPSYSTEMTIME</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure.
 
 
 ### -param hwndParent [in]

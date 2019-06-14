@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-A structure that is used to specify a set of <a href="https://msdn.microsoft.com/2979d038-f0a8-407d-bf8e-dca4027f6410">WS_XML_WRITER_PROPERTY</a>s.
+A structure that is used to specify a set of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_writer_property">WS_XML_WRITER_PROPERTY</a>s.
             
 
 

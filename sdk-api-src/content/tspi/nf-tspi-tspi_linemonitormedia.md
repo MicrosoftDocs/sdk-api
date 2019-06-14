@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>TSPI_lineMonitorMedia</b> function enables and disables the detection of media types on the specified call. When a media type is detected, a 
-<a href="https://msdn.microsoft.com/0b285b3c-18a8-44a3-bba9-b53e247d16a1">LINE_MONITORMEDIA</a> message is sent to TAPI.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725233(v=vs.85)">LINE_MONITORMEDIA</a> message is sent to TAPI.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ The handle to the call for which media monitoring is to be set. The call state o
 ### -param dwMediaModes
 
 The media types to be monitored. The <i>dwMediaModes</i> parameter can have one of the 
-<a href="https://msdn.microsoft.com/cbb758be-3ecd-4ac4-b1b5-57136a1aad8e">LINEMEDIAMODE_ constants</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linemediamode--constants">LINEMEDIAMODE_ constants</a>. 
 
 
 
@@ -96,11 +96,11 @@ This function returns zero (success) when media type monitoring has been correct
 <b>TSPI_lineMonitorMedia</b> with a <i>dwMediaModes</i> parameter with the media type set to zero, or until the call transitions to <i>idle</i>.
 
 <b>TSPI_lineMonitorMedia</b> is primarily an event reporting mechanism. The media type of a call, as indicated in 
-<a href="https://msdn.microsoft.com/b077546b-cc95-44ce-99ee-f0007fd916b2">LINECALLINFO</a>, is not affected by the service provider's detection of the media type. Only TAPI or a client application can change a call's indicated media type using 
-<a href="https://msdn.microsoft.com/3a0a5daf-eb4a-4e60-b343-8a47d342a86a">TSPI_lineSetMediaMode</a>. The actual use of a particular media type occurs through separate media stream APIs (such as Comm or WAVE).
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a>, is not affected by the service provider's detection of the media type. Only TAPI or a client application can change a call's indicated media type using 
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetmediamode">TSPI_lineSetMediaMode</a>. The actual use of a particular media type occurs through separate media stream APIs (such as Comm or WAVE).
 
 Default media monitoring performed by the service provider for a new call appearance corresponds to the union of all media types specified by 
-<a href="https://msdn.microsoft.com/407fa545-6890-4a8c-b5a8-bddeacc46e18">TSPI_lineSetDefaultMediaDetection</a>. Shortly after a new call is established, TAPI typically calls 
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetdefaultmediadetection">TSPI_lineSetDefaultMediaDetection</a>. Shortly after a new call is established, TAPI typically calls 
 <b>TSPI_lineMonitorMedia</b> to reduce the set of media types detected and reported for this call to the union of all media types desired by the call's client applications.
 
 The service provider must cancel media monitoring when a call goes idle. TAPI must compute the union of media types desired by all clients, and pass the result to this function. The service provider uses the set passed to this function by TAPI.
@@ -121,39 +121,39 @@ Regarding the passed media type, TAPI guarantees that there are no reserved bits
 
 
 
-<a href="https://msdn.microsoft.com/b077546b-cc95-44ce-99ee-f0007fd916b2">LINECALLINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/83e38453-bb93-4cc5-923f-d0cd2898350a">LINEDEVCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbb758be-3ecd-4ac4-b1b5-57136a1aad8e">LINEMEDIAMODE_ Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linemediamode--constants">LINEMEDIAMODE_ Constants</a>
 
 
 
-<a href="https://msdn.microsoft.com/0b285b3c-18a8-44a3-bba9-b53e247d16a1">LINE_MONITORMEDIA</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725233(v=vs.85)">LINE_MONITORMEDIA</a>
 
 
 
-<a href="https://msdn.microsoft.com/8fa3f9ab-1749-43c8-b2a5-c481b1f94177">TSPI_lineConditionalMediaDetection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineconditionalmediadetection">TSPI_lineConditionalMediaDetection</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c5a668e-9a9a-4a7a-98e9-bd8ec4b819b2">TSPI_lineGetDevCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetdevcaps">TSPI_lineGetDevCaps</a>
 
 
 
-<a href="https://msdn.microsoft.com/407fa545-6890-4a8c-b5a8-bddeacc46e18">TSPI_lineSetDefaultMediaDetection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetdefaultmediadetection">TSPI_lineSetDefaultMediaDetection</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9273bd6-8dc3-4b45-bf0e-a1a10d78a604">TSPI_lineSetMediaControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetmediacontrol">TSPI_lineSetMediaControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/3a0a5daf-eb4a-4e60-b343-8a47d342a86a">TSPI_lineSetMediaMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetmediamode">TSPI_lineSetMediaMode</a>
  
 
  

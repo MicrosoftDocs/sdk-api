@@ -62,7 +62,7 @@ This property is read-only.
 
 
 
-The name of the annotation type can correspond to one of the annotation type identifiers (for example, “Comment” for  <a href="https://msdn.microsoft.com/en-us/library/Hh448743(v=VS.85).aspx">AnnotationType_Comment</a>), but it is not required to.
+The name of the annotation type can correspond to one of the annotation type identifiers (for example, “Comment” for  <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-annotation-type-identifiers">AnnotationType_Comment</a>), but it is not required to.
 
 
 
@@ -72,7 +72,7 @@ The name of the annotation type can correspond to one of the annotation type ide
 
 
 
-<a href="https://msdn.microsoft.com/596FC65A-32C8-47F6-A23F-7B02939E26E3">IUIAutomationAnnotationPattern</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationannotationpattern">IUIAutomationAnnotationPattern</a>
  
 
  

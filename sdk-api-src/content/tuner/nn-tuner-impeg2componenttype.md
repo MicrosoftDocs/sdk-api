@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 
-The <b>IMPEG2ComponentType</b> interface is implemented on <a href="https://msdn.microsoft.com/16059b17-9145-4aad-97ce-c31fdfe1db69">MPEG2ComponentType</a> objects. It enables applications to set and retrieve information about MPEG2 stream types.
+The <b>IMPEG2ComponentType</b> interface is implemented on <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/mpeg2componenttype-object">MPEG2ComponentType</a> objects. It enables applications to set and retrieve information about MPEG2 stream types.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMPEG2ComponentType</b> interface inherits from <a href="https://msdn.microsoft.com/775b5e8d-d9ed-4371-a651-bfeed6fa0ad5">ILanguageComponentType</a>. <b>IMPEG2ComponentType</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMPEG2ComponentType</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ilanguagecomponenttype">ILanguageComponentType</a>. <b>IMPEG2ComponentType</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMPEG2ComponentType</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c3aa2a63-aa02-41c3-bbdf-f155346eea0a">get_StreamType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-impeg2componenttype-get_streamtype">get_StreamType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the stream type.
@@ -81,7 +81,7 @@ Retrieves the stream type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5dbfacf3-87e2-48d4-add9-6da68c56af82">put_StreamType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-impeg2componenttype-put_streamtype">put_StreamType</a>
 </td>
 <td align="left" width="63%">
 Sets the stream type.
@@ -105,11 +105,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/775b5e8d-d9ed-4371-a651-bfeed6fa0ad5">ILanguageComponentType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ilanguagecomponenttype">ILanguageComponentType</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d956e1d-88b3-4236-9987-f37f674645de">Tuning Model Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
  
 
  

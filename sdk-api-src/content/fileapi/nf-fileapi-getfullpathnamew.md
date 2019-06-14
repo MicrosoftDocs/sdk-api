@@ -61,10 +61,10 @@ ms.custom: 19H1
 Retrieves the full path and file name of the specified file.
 
 To perform this operation as a transacted operation, use the 
-    <a href="https://msdn.microsoft.com/63cbcec6-e9f0-4db3-bf2f-03a987000af1">GetFullPathNameTransacted</a> function.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfullpathnametransacteda">GetFullPathNameTransacted</a> function.
 
 For more information about file and path names, see 
-    <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">File Names, Paths, and Namespaces</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">File Names, Paths, and Namespaces</a>.
 <div class="alert"><b>Note</b>  The <b>GetFullPathName</b> function is not recommended for 
     multithreaded applications or shared library code. For more information, see the Remarks section.</div><div> </div>
 
@@ -83,9 +83,9 @@ This parameter can be a short (the 8.3 form) or long file name. This string can 
 In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
        To extend this limit to 32,767 wide characters, call the Unicode version of the function (<b>GetFullPathNameW</b>), and prepend 
        "\\?\" to the path. For more information, see 
-       <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">Naming a File</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
 
-<div class="alert"><b>Tip</b>  Starting in Windows 10, version 1607, for the unicode version of this function (<b>GetFullPathNameW</b>), you can opt-in to remove the <b>MAX_PATH</b> character limitation without prepending "\\?\". See the "Maximum Path Limitation" section of  <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">Naming Files, Paths, and Namespaces</a> for details. </div>
+<div class="alert"><b>Tip</b>  Starting in Windows 10, version 1607, for the unicode version of this function (<b>GetFullPathNameW</b>), you can opt-in to remove the <b>MAX_PATH</b> character limitation without prepending "\\?\". See the "Maximum Path Limitation" section of  <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details. </div>
 <div> </div>
 
 ### -param nBufferLength [in]
@@ -123,7 +123,7 @@ If the <i>lpBuffer</i> buffer is too small to contain the path, the return value
        terminating null character.
 
 If the function fails for any other reason, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -157,8 +157,8 @@ Share and volume names are
 </ul>
 <b>GetFullPathName</b> does not convert the specified file 
     name, <i>lpFileName</i>. If the specified file name exists, you can use 
-    <a href="https://msdn.microsoft.com/8ce69033-b69b-438b-a27f-938dd327c8ec">GetLongPathName</a> or 
-    <a href="https://msdn.microsoft.com/15c794d6-6d6b-4ee0-b5b7-a2cf6f5ec5e7">GetShortPathName</a> to convert to long or short path 
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getlongpathnamea">GetLongPathName</a> or 
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getshortpathnamew">GetShortPathName</a> to convert to long or short path 
     names, respectively.
 
 If the return value is greater than or equal to the value specified in 
@@ -172,11 +172,11 @@ If the return value is greater than or equal to the value specified in
 Multithreaded applications and shared library code should not use the 
     <b>GetFullPathName</b> function and should avoid using relative 
     path names. The current directory state written by the 
-    <a href="https://msdn.microsoft.com/02dd0a2b-8072-4ce5-99b4-ffa6dcbd46cd">SetCurrentDirectory</a> function is stored as a global 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcurrentdirectory">SetCurrentDirectory</a> function is stored as a global 
     variable in each process, therefore multithreaded applications cannot reliably use this value without possible 
     data corruption from other threads that may also be reading or setting this value. This limitation also applies 
     to the <b>SetCurrentDirectory</b> and 
-    <a href="https://msdn.microsoft.com/1fbe6289-2ca8-4ca8-b004-ecf513f9b0bd">GetCurrentDirectory</a> functions. The exception being 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcurrentdirectory">GetCurrentDirectory</a> functions. The exception being 
     when the application is guaranteed to be running in a single thread, for example parsing file names from the 
     command line argument string in the main thread prior to creating any additional threads. Using relative path 
     names in multithreaded applications or shared library code can yield unpredictable results and is not 
@@ -247,9 +247,9 @@ Yes
 
 The following C++ example shows a basic use of 
      <b>GetFullPathName</b>, 
-     <a href="https://msdn.microsoft.com/8ce69033-b69b-438b-a27f-938dd327c8ec">GetLongPathName</a>, and 
-     <a href="https://msdn.microsoft.com/15c794d6-6d6b-4ee0-b5b7-a2cf6f5ec5e7">GetShortPathName</a>. For another example using dynamic 
-     allocation, see <a href="https://msdn.microsoft.com/15c794d6-6d6b-4ee0-b5b7-a2cf6f5ec5e7">GetShortPathName</a>.
+     <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getlongpathnamea">GetLongPathName</a>, and 
+     <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getshortpathnamew">GetShortPathName</a>. For another example using dynamic 
+     allocation, see <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getshortpathnamew">GetShortPathName</a>.
 
 
 ```cpp
@@ -363,27 +363,27 @@ void _tmain(int argc, TCHAR *argv[])
 
 
 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/63cbcec6-e9f0-4db3-bf2f-03a987000af1">GetFullPathNameTransacted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfullpathnametransacteda">GetFullPathNameTransacted</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ce69033-b69b-438b-a27f-938dd327c8ec">GetLongPathName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getlongpathnamea">GetLongPathName</a>
 
 
 
-<a href="https://msdn.microsoft.com/15c794d6-6d6b-4ee0-b5b7-a2cf6f5ec5e7">GetShortPathName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getshortpathnamew">GetShortPathName</a>
 
 
 
-<a href="https://msdn.microsoft.com/fb366f0d-df6b-44c2-92c9-b7a8e2583054">GetTempPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-gettemppatha">GetTempPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/8039365a-1b39-431e-af87-9a9933ca102d">SearchPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-searchpathw">SearchPath</a>
  
 
  

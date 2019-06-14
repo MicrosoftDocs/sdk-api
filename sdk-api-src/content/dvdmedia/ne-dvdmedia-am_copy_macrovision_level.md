@@ -84,7 +84,7 @@ Level 3.
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd373457(v=VS.85).aspx">AM_COPY_MACROVISION</a> structure uses this data type.
+The <a href="https://docs.microsoft.com/windows/desktop/api/dvdmedia/ns-dvdmedia-_am_copy_macrovision">AM_COPY_MACROVISION</a> structure uses this data type.
 
 
 
@@ -94,7 +94,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/Dd373457(v=VS.85).aspx">AM
 
 
 
-<a href="https://msdn.microsoft.com/da3abefd-8f25-449d-8787-84d2cef928da">DVD Copy Protection Property Set</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-copy-protection-property-set">DVD Copy Protection Property Set</a>
  
 
  

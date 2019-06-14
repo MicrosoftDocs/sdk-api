@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Initializes the <a href="https://msdn.microsoft.com/e96a2721-0d00-4b83-8f78-46f6356f77e2">Publishing Wizard</a> object with the files to transfer, the settings to use, and the type of wizard to create.
+Initializes the <a href="https://docs.microsoft.com/windows/desktop/shell/scriptable-shell-objects-roadmap">Publishing Wizard</a> object with the files to transfer, the settings to use, and the type of wizard to create.
 			
             
 <div class="alert"><b>Note</b>  Windows Vista no longer supports the Online Print Wizard. However, this method can still be used to generate the Add Network Place Wizard.</div><div> </div>
@@ -61,9 +61,9 @@ Initializes the <a href="https://msdn.microsoft.com/e96a2721-0d00-4b83-8f78-46f6
 
 ### -param pdo [in]
 
-Type: <b><a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>*</b>
 
-A pointer to an instance of <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> that represents the files or folder to be transferred, if <i>pszServiceProvider</i> is <code>InternetPhotoPrinting</code>. If <i>pszServiceProvider</i> is <code>AddNetPlace</code>, this parameter is <b>NULL</b>.
+A pointer to an instance of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> that represents the files or folder to be transferred, if <i>pszServiceProvider</i> is <code>InternetPhotoPrinting</code>. If <i>pszServiceProvider</i> is <code>AddNetPlace</code>, this parameter is <b>NULL</b>.
 
 
 ### -param dwOptions [in]
@@ -178,9 +178,9 @@ The <i>pszServiceProvider</i> parameter is not one of the supported values or th
 
 
 
-<b>IPublishingWizard::Initialize</b>, implemented by a <a href="https://msdn.microsoft.com/e96a2721-0d00-4b83-8f78-46f6356f77e2">Publishing Wizard</a> object, is called to initialize the wizard object.
+<b>IPublishingWizard::Initialize</b>, implemented by a <a href="https://docs.microsoft.com/windows/desktop/shell/scriptable-shell-objects-roadmap">Publishing Wizard</a> object, is called to initialize the wizard object.
 
-The following sample does not work on Windows Vista because the Online Print Wizard cannot be instantiated through <a href="https://msdn.microsoft.com/634dcc04-e2ed-4cde-bb4d-d2e8bcf5ab94">IPublishingWizard</a> in Windows Vista.
+The following sample does not work on Windows Vista because the Online Print Wizard cannot be instantiated through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-ipublishingwizard">IPublishingWizard</a> in Windows Vista.
 
 				
 
@@ -194,7 +194,7 @@ hr = pPublish->Initialize(pDataObject,  // A data object that represents files o
 ```
 
 
-<b>IPublishingWizard::Initialize</b> does not actually display the initialized wizard. See the <a href="https://msdn.microsoft.com/634dcc04-e2ed-4cde-bb4d-d2e8bcf5ab94">IPublishingWizard</a> topic for information on how to display the wizard.
+<b>IPublishingWizard::Initialize</b> does not actually display the initialized wizard. See the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-ipublishingwizard">IPublishingWizard</a> topic for information on how to display the wizard.
 
 
 

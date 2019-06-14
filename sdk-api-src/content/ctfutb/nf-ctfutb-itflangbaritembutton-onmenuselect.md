@@ -59,7 +59,7 @@ This method is not used if the button item does not have the TF_LBI_STYLE_BTN_ME
 
 ### -param wID [in]
 
-Specifies the identifier of the menu item selected. This is the value passed for the <i>uId</i> parameter in <a href="https://msdn.microsoft.com/c00048d1-d7c1-4ea3-a132-5f5aa570148f">ITfMenu::AddMenuItem</a>.
+Specifies the identifier of the menu item selected. This is the value passed for the <i>uId</i> parameter in <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itfmenu-addmenuitem">ITfMenu::AddMenuItem</a>.
 
 
 ## -returns
@@ -106,11 +106,11 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/098a8cdc-ff34-4729-9b34-279c499d40a8">ITfLangBarItemButton</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritembutton">ITfLangBarItemButton</a>
 
 
 
-<a href="https://msdn.microsoft.com/c00048d1-d7c1-4ea3-a132-5f5aa570148f">ITfMenu::AddMenuItem
+<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itfmenu-addmenuitem">ITfMenu::AddMenuItem
       </a>
  
 

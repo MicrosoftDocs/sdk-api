@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IDot11AdHocNetworkNotificationSink</b> interface defines the notifications supported by the <a href="https://msdn.microsoft.com/2736bb81-b66f-4c09-8c76-ca16f3eab192">IDot11AdHocNetwork</a> interface. To register for notifications, call the  <a href="https://msdn.microsoft.com/en-us/library/ms678815(v=VS.85).aspx">Advise</a> method on an instantiated <a href="https://msdn.microsoft.com/dcb93b9c-3292-4cbf-9d44-5367bdbd4878">IDot11AdHocManager</a> object with the <b>IDot11AdHocNetworkNotificationSink</b> interface passed  as the <i>pUnk</i>  parameter.  To terminate notifications, call the <a href="https://msdn.microsoft.com/en-us/library/ms686608(v=VS.85).aspx">Unadvise</a> method.
-<div class="alert"><b>Note</b>  Ad hoc mode might not be available in future versions of Windows. Starting with Windows 8.1 and Windows Server 2012 R2, use <a href="https://msdn.microsoft.com/A649EBBA-1076-4426-9C4D-85AB8C415C66">Wi-Fi Direct</a> instead.</div><div> </div>
+The <b>IDot11AdHocNetworkNotificationSink</b> interface defines the notifications supported by the <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a> interface. To register for notifications, call the  <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-advise">Advise</a> method on an instantiated <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocmanager">IDot11AdHocManager</a> object with the <b>IDot11AdHocNetworkNotificationSink</b> interface passed  as the <i>pUnk</i>  parameter.  To terminate notifications, call the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-unadvise">Unadvise</a> method.
+<div class="alert"><b>Note</b>  Ad hoc mode might not be available in future versions of Windows. Starting with Windows 8.1 and Windows Server 2012 R2, use <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/about-the-wi-fi-direct-api">Wi-Fi Direct</a> instead.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDot11AdHocNetworkNotificationSink</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDot11AdHocNetworkNotificationSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDot11AdHocNetworkNotificationSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDot11AdHocNetworkNotificationSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDot11AdHocNetworkNotificationSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b38143c8-4e90-4f5d-b9f5-15bd1fd7e1c5">IDot11AdHocNetworkNotificationSink::OnConnectFail</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetworknotificationsink-onconnectfail">IDot11AdHocNetworkNotificationSink::OnConnectFail</a>
 </td>
 <td align="left" width="63%">
 Notifies the client that a connection attempt failed.
@@ -78,7 +78,7 @@ Notifies the client that a connection attempt failed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/795057bf-d97e-40b8-b242-5e3859ad3038">IDot11AdHocNetworkNotificationSink::OnStatusChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetworknotificationsink-onstatuschange">IDot11AdHocNetworkNotificationSink::OnStatusChange</a>
 </td>
 <td align="left" width="63%">
 Notifies the client that the connection status of the network has changed.
@@ -93,7 +93,7 @@ Notifies the client that the connection status of the network has changed.
 
 
 
-<a href="https://msdn.microsoft.com/2736bb81-b66f-4c09-8c76-ca16f3eab192">IDot11AdHocNetwork</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>
  
 
  

@@ -131,7 +131,7 @@ An unspecified error occurred.
 
 
 
-<i>pdwCookie</i> receives an identifier that should be passed to <a href="https://msdn.microsoft.com/29dc5276-04fa-4219-a64d-10d775d73fdd">ITfLangBarMgr::UnadviseEventSink</a> when the event sink is no longer required.
+<i>pdwCookie</i> receives an identifier that should be passed to <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbarmgr-unadviseeventsink">ITfLangBarMgr::UnadviseEventSink</a> when the event sink is no longer required.
 
 
 
@@ -141,16 +141,16 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/60bd765f-0846-47f5-af1b-bc8e72720841">ITfLangBarMgr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbarmgr">ITfLangBarMgr</a>
 
 
 
-<a href="https://msdn.microsoft.com/29dc5276-04fa-4219-a64d-10d775d73fdd">ITfLangBarMgr::UnadviseEventSink
+<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbarmgr-unadviseeventsink">ITfLangBarMgr::UnadviseEventSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/fd43b4c3-80bb-4118-a880-bdea07022c95">Thread Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/TSF/thread-manager">Thread Manager</a>
  
 
  

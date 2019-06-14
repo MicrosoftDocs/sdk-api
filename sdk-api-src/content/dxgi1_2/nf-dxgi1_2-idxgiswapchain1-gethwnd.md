@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the underlying <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a> for this swap-chain object.
+Retrieves the underlying <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a> for this swap-chain object.
 
 
 ## -parameters
@@ -60,16 +60,16 @@ Retrieves the underlying <a href="https://msdn.microsoft.com/4553cafc-450e-4493-
 
 ### -param pHwnd [out]
 
-A pointer to a variable that receives the <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a> for the swap-chain object.
+A pointer to a variable that receives the <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a> for the swap-chain object.
 
 
 ## -returns
 
 
 
-Returns S_OK if successful; an error code otherwise.  For a list of error codes, see <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
+Returns S_OK if successful; an error code otherwise.  For a list of error codes, see <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a>.
 
-If <i>pHwnd</i> receives <b>NULL</b> (that is, the swap chain is not <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a>-based), <b>GetHwnd</b> returns <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_INVALID_CALL</a>.
+If <i>pHwnd</i> receives <b>NULL</b> (that is, the swap chain is not <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a>-based), <b>GetHwnd</b> returns <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR_INVALID_CALL</a>.
 
 
 
@@ -78,7 +78,7 @@ If <i>pHwnd</i> receives <b>NULL</b> (that is, the swap chain is not <a href="ht
 
 
 
-Applications call the  <a href="https://msdn.microsoft.com/B78E9F87-C6B0-4078-8C59-AFB85B9C3CBD">IDXGIFactory2::CreateSwapChainForHwnd</a> method to create a swap chain that is associated with an <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a>.
+Applications call the  <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforhwnd">IDXGIFactory2::CreateSwapChainForHwnd</a> method to create a swap chain that is associated with an <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a>.
 
 
 
@@ -88,7 +88,7 @@ Applications call the  <a href="https://msdn.microsoft.com/B78E9F87-C6B0-4078-8C
 
 
 
-<a href="https://msdn.microsoft.com/A674E006-4323-4967-9B9B-0E3965040DBF">IDXGISwapChain1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgiswapchain1">IDXGISwapChain1</a>
  
 
  

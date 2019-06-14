@@ -72,15 +72,15 @@ A pointer to the buffer that contains the encoded certificate.
 
 
 
-<a href="https://msdn.microsoft.com/66af3f84-585c-441e-b9be-4ec188d72a19">IXMLHTTPRequest3</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest3">IXMLHTTPRequest3</a>
 
 
 
-<a href="https://msdn.microsoft.com/5b00ab76-880b-4450-a6b2-fda399cc9e8b">OnServerCertificateReceived</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest3callback-onservercertificatereceived">OnServerCertificateReceived</a>
 
 
 
-<a href="https://msdn.microsoft.com/fc3e2645-666c-42af-babd-1f476b6356b8">SetClientCertificate</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ixhr2/ixmlhttprequest3-setclientcertificate">SetClientCertificate</a>
  
 
  

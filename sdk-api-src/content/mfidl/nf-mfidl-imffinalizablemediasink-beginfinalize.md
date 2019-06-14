@@ -63,7 +63,7 @@ Notifies the media sink to asynchronously take any steps it needs to finish its 
 
 ### -param pCallback [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/7edff985-da59-4cc0-96de-1a92e03a7d41">IMFAsyncCallback</a> interface of an asynchronous object. The caller must implement this interface.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface of an asynchronous object. The caller must implement this interface.
 
 
 ### -param punkState [in]
@@ -105,7 +105,7 @@ The method succeeded.
 
 Many archive media sinks have steps they need to do at the end of archiving to complete their file operations, such as updating the header (for some formats) or flushing all pending writes to disk. In some cases, this may include expensive operations such as indexing the content. <b>BeginFinalize</b> is an asynchronous way to initiate final tasks.
 
-When the finalize operation is complete, the callback object's <a href="https://msdn.microsoft.com/22473605-637e-4783-a8cb-98248b0a0327">IMFAsyncCallback::Invoke</a> method is called. At that point, the application should call <a href="https://msdn.microsoft.com/1b2a9b24-69da-41c7-8379-3f3d066d2582">IMFFinalizableMediaSink::EndFinalize</a> to complete the asynchronous request.
+When the finalize operation is complete, the callback object's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method is called. At that point, the application should call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imffinalizablemediasink-endfinalize">IMFFinalizableMediaSink::EndFinalize</a> to complete the asynchronous request.
 
 
 
@@ -115,7 +115,7 @@ When the finalize operation is complete, the callback object's <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/e60c2773-f2fc-469e-a698-036390cbed16">IMFFinalizableMediaSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imffinalizablemediasink">IMFFinalizableMediaSink</a>
  
 
  

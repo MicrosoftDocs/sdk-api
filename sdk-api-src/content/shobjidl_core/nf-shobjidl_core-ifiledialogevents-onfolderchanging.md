@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Called before <a href="https://msdn.microsoft.com/3e5ec923-0597-4cf4-8973-17c83481c7f4">IFileDialogEvents::OnFolderChange</a>. This allows the implementer to stop navigation to a particular location.
+Called before <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogevents-onfolderchange">IFileDialogEvents::OnFolderChange</a>. This allows the implementer to stop navigation to a particular location.
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Called before <a href="https://msdn.microsoft.com/3e5ec923-0597-4cf4-8973-17c834
 
 ### -param pfd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/9341bb68-2410-4e03-8acd-fef29287b61c">IFileDialog</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog">IFileDialog</a>*</b>
 
 A pointer to the interface that represents the dialog.
 
 
 ### -param psiFolder [in]
 
-Type: <b><a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
 A pointer to an interface that represents the folder to which the dialog is about to navigate.
 
@@ -86,9 +86,9 @@ Returns S_OK if successful, or an error value otherwise. A return value of S_OK 
 
 
 
-The calling application can call <a href="https://msdn.microsoft.com/3f300c70-cae8-43bb-95d4-25ac4be9b4c4">IFileDialog::SetFolder</a> during this callback to redirect navigation to an alternate folder. The actual navigation does not occur until <b>IFileDialogEvents::OnFolderChanging</b> has returned.
+The calling application can call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setfolder">IFileDialog::SetFolder</a> during this callback to redirect navigation to an alternate folder. The actual navigation does not occur until <b>IFileDialogEvents::OnFolderChanging</b> has returned.
 
-If the calling application simply prevents navigation to a particular folder, UI should be displayed with an explanation of the restriction. To obtain a parent <b>HWND</b> for the UI, obtain the <a href="https://msdn.microsoft.com/2d0efbae-4a1c-43b1-9021-8d89377f7282">IOleWindow</a> interface through <a href="https://msdn.microsoft.com/9341bb68-2410-4e03-8acd-fef29287b61c">IFileDialog</a> and call <a href="https://msdn.microsoft.com/833adc81-be58-44a1-88f1-9aa28808e67b">IOleWindow::GetWindow</a>.
+If the calling application simply prevents navigation to a particular folder, UI should be displayed with an explanation of the restriction. To obtain a parent <b>HWND</b> for the UI, obtain the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a> interface through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog">IFileDialog</a> and call <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolewindow-getwindow">IOleWindow::GetWindow</a>.
             
 
 

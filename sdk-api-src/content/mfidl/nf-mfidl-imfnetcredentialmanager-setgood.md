@@ -63,7 +63,7 @@ Specifies whether the user's credentials succeeded in the authentication challen
 
 ### -param pCred [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/d202e7bc-9ce0-4861-8552-5a4d599b1661">IMFNetCredential</a> interface.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfnetcredential">IMFNetCredential</a> interface.
 
 
 ### -param fGood [in]
@@ -104,7 +104,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/002d8608-4ef9-40fd-8dcc-fe6ade34478e">IMFNetCredentialManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfnetcredentialmanager">IMFNetCredentialManager</a>
  
 
  

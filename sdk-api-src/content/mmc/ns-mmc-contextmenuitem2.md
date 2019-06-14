@@ -53,13 +53,13 @@ The <b>CONTEXTMENUITEM2</b> structure is introduced in MMC
     2.0.
 
 The <b>CONTEXTMENUITEM2</b> structure is passed to the 
-    <a href="https://msdn.microsoft.com/11a43bf5-dce0-4bcb-b003-95c31d9fd171">IContextMenuCallback2::AddItem</a> method or 
-    the <a href="https://msdn.microsoft.com/122734bd-0263-4e03-8e39-45d46c099273">IContextMenuProvider::AddItem</a> method 
-    (inherited from <a href="https://msdn.microsoft.com/141a650f-a829-47b1-abf9-427302d98444">IContextMenuCallback</a>) to define a new 
+    <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontextmenucallback2-additem">IContextMenuCallback2::AddItem</a> method or 
+    the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814824(v=vs.85)">IContextMenuProvider::AddItem</a> method 
+    (inherited from <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenucallback">IContextMenuCallback</a>) to define a new 
     menu item, submenu, or insertion point. The context menu is built from the root down, with each new item going to 
     the end of the submenu or insertion point where the new item is inserted. The 
     <b>CONTEXTMENUITEM2</b> structure supersedes the 
-    <a href="https://msdn.microsoft.com/58a0b4cf-0379-48a1-80c6-5245022cf891">CONTEXTMENUITEM</a> structure (other than 
+    <a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_contextmenuitem">CONTEXTMENUITEM</a> structure (other than 
     the <b>strLanguageIndependentName</b> member, all of the members of 
     <b>CONTEXTMENUITEM2</b> are in 
     <b>CONTEXTMENUITEM</b>).
@@ -85,13 +85,13 @@ A pointer to a null-terminated string that contains the text that is displayed o
 ### -field lCommandID
 
 A value that specifies the command identifier for menu items. If the menu item is added by 
-       <a href="https://msdn.microsoft.com/d4fc7bfd-b017-466e-81f2-74f13aec4b52">IExtendContextMenu::AddMenuItems</a> and 
+       <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendcontextmenu-addmenuitems">IExtendContextMenu::AddMenuItems</a> and 
        then selected, <i>lCommandID</i> is the command ID parameter that is passed back to 
-       <a href="https://msdn.microsoft.com/ee91a737-c6b4-48a1-88a2-57bef3730f5e">IExtendContextMenu::Command</a>. If this menu 
-       item is added by the <a href="https://msdn.microsoft.com/3f9a5945-9b34-41fe-9c91-c782eb7eb739">IContextMenuProvider</a> 
+       <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendcontextmenu-command">IExtendContextMenu::Command</a>. If this menu 
+       item is added by the <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenuprovider">IContextMenuProvider</a> 
        interface and then selected, this is the command ID that is passed back to 
        <i>pISelected</i> by 
-       <a href="https://msdn.microsoft.com/8fe9f474-c47b-4b53-8cbc-d658c82d7591">IContextMenuProvider::ShowContextMenu</a>. 
+       <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontextmenuprovider-showcontextmenu">IContextMenuProvider::ShowContextMenu</a>. 
        If this is an insertion point (<b>CCM_SPECIAL_INSERTION_POINT</b> is set in 
        <i>fSpecialFlags</i>) or a submenu (<i>MF_POPUP</i> is set in 
        <i>fFlags</i>), use <i>lCommandID</i> in subsequent calls as 
@@ -126,7 +126,7 @@ These insertion points and submenus are shared between the creator of the contex
          to the creator of the context menu, the primary extension, and the third-party extension.
 
 If this bit is not set, the 
-         <a href="https://msdn.microsoft.com/3f9a5945-9b34-41fe-9c91-c782eb7eb739">IContextMenuProvider</a> interface and each 
+         <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenuprovider">IContextMenuProvider</a> interface and each 
          extension can use the same ID. Each ID refers to a different insertion point or submenu.
 
 Only the context menu creator and the primary snap-in can create shared insertion points or submenus.
@@ -171,7 +171,7 @@ A value that specifies where in the context menu the new item should be added. S
 
 An <i>lInsertionPointID</i> of 0 refers to the root menu for this context menu. The 
         value 0 can be used interchangeably with <b>CCM_INSERTIONPOINTID_ROOT_MENU</b>. Be aware 
-        that only <a href="https://msdn.microsoft.com/3f9a5945-9b34-41fe-9c91-c782eb7eb739">IContextMenuProvider</a> is permitted to 
+        that only <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenuprovider">IContextMenuProvider</a> is permitted to 
         add items directly to the root menu. Extensions can only add items to insertion points and submenus added to 
         the root menu by <b>IContextMenuProvider</b> or by MMC.
 
@@ -225,7 +225,7 @@ Extension snap-ins can use this insertion point to add items to the bottom of th
 #### CCM_INSERTIONPOINTID_ROOT_MENU (0x80000000)
 
 
-<a href="https://msdn.microsoft.com/3f9a5945-9b34-41fe-9c91-c782eb7eb739">IContextMenuProvider</a> can use this insertion 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenuprovider">IContextMenuProvider</a> can use this insertion 
          point to add items to the root menu.
 
 Neither primary extensions nor third-party extensions can add items to the root menu except through 
@@ -250,7 +250,7 @@ The created item is a submenu within the context menu. Menu items, insertion poi
 #### MF_BITMAP
 
 This flags is not supported; 
-        <a href="https://msdn.microsoft.com/11a43bf5-dce0-4bcb-b003-95c31d9fd171">IContextMenuCallback2::AddItem</a> will 
+        <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontextmenucallback2-additem">IContextMenuCallback2::AddItem</a> will 
         return <b>E_INVALIDARG</b>.
 
 
@@ -258,7 +258,7 @@ This flags is not supported;
 #### MF_OWNERDRAW
 
 This flags is not supported; 
-        <a href="https://msdn.microsoft.com/11a43bf5-dce0-4bcb-b003-95c31d9fd171">IContextMenuCallback2::AddItem</a> will 
+        <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontextmenucallback2-additem">IContextMenuCallback2::AddItem</a> will 
         return <b>E_INVALIDARG</b>.
 
 
@@ -267,7 +267,7 @@ This flags is not supported;
 
 Draws a horizontal separator line.
 
-Only <a href="https://msdn.microsoft.com/3f9a5945-9b34-41fe-9c91-c782eb7eb739">IContextMenuProvider</a> can add menu items 
+Only <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenuprovider">IContextMenuProvider</a> can add menu items 
          with <b>MF_SEPARATOR</b> set.
 
 The following flags function in the same way as they do in the Windows API.
@@ -338,7 +338,7 @@ Ignore all other parameters except <i>lInsertionPointID</i>. Add a separator to 
          will not be displayed. Separators with no menu items between them will be collapsed into a single 
          separator.
 
-Only <a href="https://msdn.microsoft.com/3f9a5945-9b34-41fe-9c91-c782eb7eb739">IContextMenuProvider</a> can add separators, 
+Only <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenuprovider">IContextMenuProvider</a> can add separators, 
          special or otherwise.
 
 
@@ -377,12 +377,12 @@ Validate the item parameters, but do not add the menu item. Returns a result cod
 ### -field strLanguageIndependentName
 
 The language-independent name of the menu item. Retrieve this value in 
-      <a href="https://msdn.microsoft.com/eb7c92e7-d834-4736-bff4-74940c9bb194">MMC 2.0 Automation Object Model</a> 
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmc-2-0-automation-object-model">MMC 2.0 Automation Object Model</a> 
       applications by getting the 
-      <a href="https://msdn.microsoft.com/27cdb135-08e5-478e-bd24-a76fe18f3cea">MenuItem.LanguageIndependentName</a> 
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/menuitem-languageindependentname">MenuItem.LanguageIndependentName</a> 
       property. The <b>strLanguageIndependentName</b> member cannot be 
       <b>NULL</b> or an empty string unless a separator or insertion point is added; otherwise, 
-      the <a href="https://msdn.microsoft.com/7186f201-13aa-4357-9b89-b435d244229c">IContextMenuCallback::AddItem</a> method 
+      the <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontextmenucallback-additem">IContextMenuCallback::AddItem</a> method 
       will fail with <b>E_INVALIDARG</b> as the return value.
 
 
@@ -391,19 +391,19 @@ The language-independent name of the menu item. Retrieve this value in
 
 
 
-<a href="https://msdn.microsoft.com/97f0f574-6575-4be6-9c30-ed68e3438d30">IContextMenuCallback2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenucallback2">IContextMenuCallback2</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f9a5945-9b34-41fe-9c91-c782eb7eb739">IContextMenuProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenuprovider">IContextMenuProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/8fa4434e-ccdc-43fb-877e-a6f6a5fc95b2">IExtendContextMenu</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iextendcontextmenu">IExtendContextMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/b76b40da-1ab7-4b43-9c7e-03b901a6db3f">Working with Context Menus</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/working-with-context-menus">Working with Context Menus</a>
  
 
  

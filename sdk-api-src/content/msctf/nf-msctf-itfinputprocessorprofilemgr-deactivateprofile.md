@@ -205,11 +205,11 @@ One or more parameters are invalid.
 
 
 
-<a href="https://msdn.microsoft.com/d60bb748-3c61-466d-9c17-df7bc4904994">ITfInputProcessorProfileMgr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofilemgr">ITfInputProcessorProfileMgr</a>
 
 
 
-<a href="https://msdn.microsoft.com/5e5b3f26-332a-456e-875f-12e440ae67ba">ITfInputProcessorProfileMgr::ActivateProfile
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofilemgr-activateprofile">ITfInputProcessorProfileMgr::ActivateProfile
       </a>
  
 

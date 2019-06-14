@@ -60,7 +60,7 @@ Returns the requested stroke parameters. Any parameters that are non-null will r
 
 ### -param brush [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/5b8f6ff8-ba52-4d30-9bea-3de89793c868">ID2D1Brush</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>**</b>
 
 Describes how the stroke is painted.
 
@@ -108,7 +108,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/FE01771A-D82A-4610-8014-E0C0C0C5402E">ID2D1SvgGlyphStyle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1svgglyphstyle">ID2D1SvgGlyphStyle</a>
  
 
  

@@ -63,9 +63,9 @@ Gets the stretch (also known as width) of this font.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/10b3a703-239b-4fb1-9a20-e466b123b060">DWRITE_FONT_STRETCH</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_stretch">DWRITE_FONT_STRETCH</a></b>
 
-Returns a <a href="https://msdn.microsoft.com/10b3a703-239b-4fb1-9a20-e466b123b060">DWRITE_FONT_STRETCH</a>-typed value that specifies the degree to which a font has been stretched compared to a font's normal aspect ratio.
+Returns a <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_stretch">DWRITE_FONT_STRETCH</a>-typed value that specifies the degree to which a font has been stretched compared to a font's normal aspect ratio.
 
 
 
@@ -77,7 +77,7 @@ Returns a <a href="https://msdn.microsoft.com/10b3a703-239b-4fb1-9a20-e466b123b0
 
 
 
-<a href="https://msdn.microsoft.com/1081A005-E4A8-4EE0-AFE0-10BD8D8471DF">IDWriteFontFace3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontface3">IDWriteFontFace3</a>
  
 
  

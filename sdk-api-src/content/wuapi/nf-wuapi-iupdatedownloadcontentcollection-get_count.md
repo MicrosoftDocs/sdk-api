@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/cfb5b023-e31c-4a67-a5d8-47ea453a6e4a">IUpdateDownloadContentCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloadcontentcollection">IUpdateDownloadContentCollection</a>
  
 
  

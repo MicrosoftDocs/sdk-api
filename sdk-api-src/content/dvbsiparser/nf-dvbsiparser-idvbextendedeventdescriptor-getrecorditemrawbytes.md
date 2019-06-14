@@ -61,7 +61,7 @@ current item in a Digital Video Broadcast (DVB) extended event descriptor.
 ### -param bRecordIndex [in]
 
 Specifies the item record number,
-  indexed from zero. Call the <a href="https://msdn.microsoft.com/db065f1a-8354-4207-b7f7-d67adf094c70">IDvbExtendedEventDescriptor::GetCountOfRecords</a>method to get the number of records in the extended event descriptor.
+  indexed from zero. Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbextendedeventdescriptor-getcountofrecords">IDvbExtendedEventDescriptor::GetCountOfRecords</a>method to get the number of records in the extended event descriptor.
 
 
 ### -param ppbRawItem [out]
@@ -88,11 +88,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/db100f17-f7b8-4252-8090-44567ab9dcbe">IDvbExtendedEventDescriptor</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbextendedeventdescriptor">IDvbExtendedEventDescriptor</a>
 
 
 
-<a href="https://msdn.microsoft.com/db065f1a-8354-4207-b7f7-d67adf094c70">IDvbExtendedEventDescriptor::GetCountOfRecords</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbextendedeventdescriptor-getcountofrecords">IDvbExtendedEventDescriptor::GetCountOfRecords</a>
  
 
  

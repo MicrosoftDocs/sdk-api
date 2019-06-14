@@ -86,7 +86,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method has exactly the same function as <a href="https://msdn.microsoft.com/50df7b32-e345-4379-809f-6870b53417b8">IProgressDialog::SetProgress</a> but allows you to use values larger than one <b>DWORD</b> (4 GB).
+This method has exactly the same function as <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iprogressdialog-setprogress">IProgressDialog::SetProgress</a> but allows you to use values larger than one <b>DWORD</b> (4 GB).
 
 
 
@@ -96,7 +96,7 @@ This method has exactly the same function as <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/ba0fb1f9-f67f-4cc7-96d8-4c4ccdd213eb">IProgressDialog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iprogressdialog">IProgressDialog</a>
  
 
  

@@ -61,7 +61,7 @@ Gets a count of the sync items in the container.
 
 Type: <b>ULONG*</b>
 
-When this method returns, contains a pointer to the number of items in the container. This is the number of items enumerated by <a href="https://msdn.microsoft.com/0d1695e2-6936-4f53-9594-e0e2bc69afd4">IEnumSyncMgrSyncItems</a>.
+When this method returns, contains a pointer to the number of items in the container. This is the number of items enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-ienumsyncmgrsyncitems">IEnumSyncMgrSyncItems</a>.
 
 
 ## -returns

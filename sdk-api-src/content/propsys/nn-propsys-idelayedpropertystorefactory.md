@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Exposes a method to create a specified <a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a> object in circumstances where property access is potentially slow.
+Exposes a method to create a specified <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> object in circumstances where property access is potentially slow.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDelayedPropertyStoreFactory</b> interface inherits from <a href="https://msdn.microsoft.com/78ea822d-da8e-4883-b0eb-4277e7eb87a2">IPropertyStoreFactory</a>. <b>IDelayedPropertyStoreFactory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDelayedPropertyStoreFactory</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystorefactory">IPropertyStoreFactory</a>. <b>IDelayedPropertyStoreFactory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,10 +69,10 @@ The <b>IDelayedPropertyStoreFactory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/26df5fec-2a21-454e-9539-877c00a4f8fb">GetDelayedPropertyStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-idelayedpropertystorefactory-getdelayedpropertystore">GetDelayedPropertyStore</a>
 </td>
 <td align="left" width="63%">
-Gets an <a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a> interface object, as specified.
+Gets an <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> interface object, as specified.
 
 </td>
 </tr>

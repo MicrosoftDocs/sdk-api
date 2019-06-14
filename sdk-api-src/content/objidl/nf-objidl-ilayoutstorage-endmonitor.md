@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>EndMonitor</b> method ends monitoring of a compound file. Must be preceded by a call to 
-<a href="https://msdn.microsoft.com/16371d6c-adb9-43c2-80a4-377e94854bbb">ILayoutStorage::BeginMonitor</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-beginmonitor">ILayoutStorage::BeginMonitor</a>.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ The <b>EndMonitor</b> method ends monitoring of a compound file. Must be precede
 
 
 
-This function supports the standard return values E_OUTOFMEMORY, E_UNEXPECTED, E_INVALIDARG, and E_FAIL, as well as all return values for <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a>.
+This function supports the standard return values E_OUTOFMEMORY, E_UNEXPECTED, E_INVALIDARG, and E_FAIL, as well as all return values for <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>.
 
 
 
@@ -75,7 +75,7 @@ This function supports the standard return values E_OUTOFMEMORY, E_UNEXPECTED, E
 
 A call to 
 <b>EndMonitor</b> is generally followed by a call to 
-<a href="https://msdn.microsoft.com/5db3a26c-595a-4c9b-bb6d-b170eb9864df">ILayoutStorage::RelayoutDocfile</a>, which uses the access pattern detected by the monitoring to restructure the compound file.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-relayoutdocfile">ILayoutStorage::RelayoutDocfile</a>, which uses the access pattern detected by the monitoring to restructure the compound file.
 
 
 
@@ -85,11 +85,11 @@ A call to
 
 
 
-<a href="https://msdn.microsoft.com/16371d6c-adb9-43c2-80a4-377e94854bbb">ILayoutStorage::BeginMonitor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-beginmonitor">ILayoutStorage::BeginMonitor</a>
 
 
 
-<a href="https://msdn.microsoft.com/5db3a26c-595a-4c9b-bb6d-b170eb9864df">ILayoutStorage::ReLayoutDocfile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-relayoutdocfile">ILayoutStorage::ReLayoutDocfile</a>
  
 
  

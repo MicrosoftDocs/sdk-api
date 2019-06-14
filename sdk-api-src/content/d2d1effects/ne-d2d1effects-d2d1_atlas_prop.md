@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/D35E32CB-4DF7-408F-A717-1E421DDC8763">Atlas effect</a>.
+Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/atlas">Atlas effect</a>.
         
 
 

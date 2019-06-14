@@ -59,7 +59,7 @@ Sets the destination color context.
 
 ### -param pColorContext [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/b6817676-affb-4bb3-adba-e24e0b75ad10">IWICColorContext</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwiccolorcontext">IWICColorContext</a>*</b>
 
 The destination color context.
 

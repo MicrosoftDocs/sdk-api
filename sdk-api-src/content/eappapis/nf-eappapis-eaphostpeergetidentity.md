@@ -64,12 +64,12 @@ The version number of the API. Must be set to zero.
 
 ### -param dwFlags [in]
 
-A combination of <a href="https://msdn.microsoft.com/b6305349-3418-475e-8a37-2c06b399556e">EAP flags</a> that describe the  EAP authentication session behavior.
+A combination of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-method-flags">EAP flags</a> that describe the  EAP authentication session behavior.
 
 
 ### -param eapMethodType [in]
 
-An <a href="https://msdn.microsoft.com/47702dd9-d9c2-4dd5-a12d-23a55b031d27">EAP_METHOD_TYPE</a> structure that specifies the type of EAP authentication to use for this session.
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_type">EAP_METHOD_TYPE</a> structure that specifies the type of EAP authentication to use for this session.
 
 
 ### -param dwSizeofConnectionData [in]
@@ -109,17 +109,17 @@ Size of the buffer indicated by the <i>ppUserDataOut</i> parameter, in bytes.
 
 ### -param ppUserDataOut [out]
 
-User data information returned by the method. After use, this memory must be freed by calling <a href="https://msdn.microsoft.com/d27233a0-b41f-43f6-a934-1ab8df8b0581">EapHostPeerFreeRuntimeMemory</a>.
+User data information returned by the method. After use, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerfreeruntimememory">EapHostPeerFreeRuntimeMemory</a>.
 
 
 ### -param ppwszIdentity [out]
 
-A pointer to a NULL-terminated user identity string. After use, this memory must be freed by calling <a href="https://msdn.microsoft.com/d27233a0-b41f-43f6-a934-1ab8df8b0581">EapHostPeerFreeRuntimeMemory</a>.
+A pointer to a NULL-terminated user identity string. After use, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerfreeruntimememory">EapHostPeerFreeRuntimeMemory</a>.
 
 
 ### -param ppEapError [out]
 
-A pointer to a pointer to an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains any errors raised during the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://msdn.microsoft.com/c80ac625-8202-49a7-813a-62a9e0d15058">EapHostPeerFreeErrorMemory</a>.
+A pointer to a pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structure that contains any errors raised during the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerfreeerrormemory">EapHostPeerFreeErrorMemory</a>.
 
 
 ### -param ppvReserved [in, out]
@@ -132,11 +132,11 @@ Reserved for future use
 
 
 
-<a href="https://msdn.microsoft.com/b1c473ba-9a12-4929-b4d0-27262117e9c0">EAPHost Supplicant Run-Time Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-supplicant-run-time-functions">EAPHost Supplicant Run-Time Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/47ade6f1-067b-48ab-b4ac-a3d3cf63d809">EapHostPeerGetUIContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetuicontext">EapHostPeerGetUIContext</a>
  
 
  

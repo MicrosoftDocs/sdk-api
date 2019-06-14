@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The <b>CryptCATEnumerateCatAttr</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CryptCATEnumerateCatAttr</b> function enumerates the attributes associated with  a catalog. This function has no associated import library. You must use the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> functions to dynamically link to Wintrust.dll.
+The <b>CryptCATEnumerateCatAttr</b> function enumerates the attributes associated with  a catalog. This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.
 
 
 ## -parameters
@@ -66,14 +66,14 @@ Handle for the catalog whose attributes are being enumerated. This value cannot 
 
 ### -param pPrevAttr [in]
 
-A pointer to the previously returned pointer to  the <a href="https://msdn.microsoft.com/41b91303-f3eb-4288-9ad2-98f170680988">CRYPTCATATTRIBUTE</a> structure from this function or pointer to <b>NULL</b> to start the enumeration.
+A pointer to the previously returned pointer to  the <a href="https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute_">CRYPTCATATTRIBUTE</a> structure from this function or pointer to <b>NULL</b> to start the enumeration.
 
 
 ## -returns
 
 
 
-The return value is a pointer to the  <a href="https://msdn.microsoft.com/41b91303-f3eb-4288-9ad2-98f170680988">CRYPTCATATTRIBUTE</a> structure that contains the attribute information or <b>NULL</b>, if no more attributes are in the enumeration or if an error is encountered. The returned pointer is passed in as the <i>pPrevAttr</i> parameter for subsequent calls to this function.
+The return value is a pointer to the  <a href="https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute_">CRYPTCATATTRIBUTE</a> structure that contains the attribute information or <b>NULL</b>, if no more attributes are in the enumeration or if an error is encountered. The returned pointer is passed in as the <i>pPrevAttr</i> parameter for subsequent calls to this function.
 
 
 
@@ -92,7 +92,7 @@ Do not free the returned pointer nor any of the members pointed to by the return
 
 
 
-<a href="https://msdn.microsoft.com/064e87db-4330-4b8b-9865-ba8b9714f6e4">CryptCATEnumerateAttr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatenumerateattr">CryptCATEnumerateAttr</a>
  
 
  

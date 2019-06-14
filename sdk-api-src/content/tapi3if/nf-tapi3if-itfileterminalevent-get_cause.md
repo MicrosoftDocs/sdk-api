@@ -61,7 +61,7 @@ The
 ### -param pCause [out]
 
 
-<a href="https://msdn.microsoft.com/dd81fe2d-07ab-404b-8510-52029d67ef9b">FT_STATE_EVENT_CAUSE</a> descriptor of the cause of this event.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-ft_state_event_cause">FT_STATE_EVENT_CAUSE</a> descriptor of the cause of this event.
 
 
 ## -returns
@@ -78,7 +78,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/cb6f2869-ec31-49ac-873b-35a0dcd2c8d7">ITFileTerminalEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itfileterminalevent">ITFileTerminalEvent</a>
  
 
  

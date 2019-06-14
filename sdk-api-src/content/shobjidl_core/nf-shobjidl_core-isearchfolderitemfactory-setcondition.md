@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the  <a href="https://msdn.microsoft.com/en-us/library/Bb231395(v=VS.85).aspx">ICondition</a> of the search.  When this method is not called, the resulting search will have no filters applied.
+Sets the  <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a> of the search.  When this method is not called, the resulting search will have no filters applied.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ Sets the  <a href="https://msdn.microsoft.com/en-us/library/Bb231395(v=VS.85).as
 
 ### -param pCondition [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231395(v=VS.85).aspx">ICondition</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb231395(v=VS.85).aspx">ICondition</a> interface.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a> interface.
 
 
 ## -returns
@@ -80,11 +80,11 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb231388(v=VS.85).aspx">ICondition::Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nf-structuredquerycondition-icondition-clone">ICondition::Clone</a>
 
 
 
-<a href="https://msdn.microsoft.com/a684b373-6de4-4b4a-bbae-85e1c5a7e04a">ISearchFolderItemFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-isearchfolderitemfactory">ISearchFolderItemFactory</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Called to open a channel. When the channel is completely open and ready for use, you must call the <a href="https://msdn.microsoft.com/dafff806-8b63-40cd-8b04-efb0497cb043">IWRdsGraphicsChannelEvents::OnChannelOpened</a> method.
+Called to open a channel. When the channel is completely open and ready for use, you must call the <a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/nf-wrdsgraphicschannels-iwrdsgraphicschannelevents-onchannelopened">IWRdsGraphicsChannelEvents::OnChannelOpened</a> method.
 
 
 ## -parameters
@@ -59,16 +59,16 @@ Called to open a channel. When the channel is completely open and ready for use,
 
 ### -param pChannelEvents [in]
 
-Type: <b><a href="https://msdn.microsoft.com/59802a2d-bdb0-4792-b667-5095d4a02b06">IWRdsGraphicsChannelEvents</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/nn-wrdsgraphicschannels-iwrdsgraphicschannelevents">IWRdsGraphicsChannelEvents</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/59802a2d-bdb0-4792-b667-5095d4a02b06">IWRdsGraphicsChannelEvents</a> interface that will receive notifications relating to the channel created.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/nn-wrdsgraphicschannels-iwrdsgraphicschannelevents">IWRdsGraphicsChannelEvents</a> interface that will receive notifications relating to the channel created.
 
 
 ### -param pOpenContext [in]
 
 Type: <b>IUnknown*</b>
 
-A user-defined interface pointer that is passed as the <i>pOpenContext</i> parameter in the <a href="https://msdn.microsoft.com/dafff806-8b63-40cd-8b04-efb0497cb043">IWRdsGraphicsChannelEvents::OnChannelOpened</a> method.
+A user-defined interface pointer that is passed as the <i>pOpenContext</i> parameter in the <a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/nf-wrdsgraphicschannels-iwrdsgraphicschannelevents-onchannelopened">IWRdsGraphicsChannelEvents::OnChannelOpened</a> method.
 
 
 ## -returns
@@ -87,11 +87,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/5d1e88b4-3dff-4f88-a6de-abc02da57ece">IWRdsGraphicsChannel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/nn-wrdsgraphicschannels-iwrdsgraphicschannel">IWRdsGraphicsChannel</a>
 
 
 
-<a href="https://msdn.microsoft.com/dafff806-8b63-40cd-8b04-efb0497cb043">IWRdsGraphicsChannelEvents::OnChannelOpened</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/nf-wrdsgraphicschannels-iwrdsgraphicschannelevents-onchannelopened">IWRdsGraphicsChannelEvents::OnChannelOpened</a>
  
 
  

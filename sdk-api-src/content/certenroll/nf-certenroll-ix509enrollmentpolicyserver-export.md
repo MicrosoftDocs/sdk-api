@@ -59,7 +59,7 @@ The <b>Export</b> method exports templates and object identifiers associated wit
 
 ### -param exportFlags [in]
 
-An <a href="https://msdn.microsoft.com/219f58af-66e8-4a89-8908-89308fc182d8">X509EnrollmentPolicyExportFlags</a> enumeration value that specifies what to export. This can be a bitwise OR of the following values.
+An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-x509enrollmentpolicyexportflags">X509EnrollmentPolicyExportFlags</a> enumeration value that specifies what to export. This can be a bitwise OR of the following values.
 
 <table>
 <tr>
@@ -101,7 +101,7 @@ Pointer to a <b>VARIANT</b> of type <b>VT_ARRAY|VT_UI1</b> that receives the tem
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -137,7 +137,7 @@ The <i>exportFlags</i> parameter must contain <b>ExportTemplates</b> or <b>Expor
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a> has not been initialized.
+The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a> has not been initialized.
 
 </td>
 </tr>
@@ -153,7 +153,7 @@ The <a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX
 
 To prevent memory leaks, you must free the <b>VARIANT</b> returned by this function.
 
-You must call <a href="https://msdn.microsoft.com/5b617c6e-91bc-4a22-acd6-41083102850a">LoadPolicy</a> before calling this function and after calling <a href="https://msdn.microsoft.com/b0d848a2-1bac-4a30-ae02-26d5af719688">Initialize</a> for the exported data to be meaningful.
+You must call <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-loadpolicy">LoadPolicy</a> before calling this function and after calling <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-initialize">Initialize</a> for the exported data to be meaningful.
 
 
 
@@ -163,7 +163,7 @@ You must call <a href="https://msdn.microsoft.com/5b617c6e-91bc-4a22-acd6-410831
 
 
 
-<a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a>
  
 
  

@@ -59,42 +59,42 @@ Represents information about a shader source variable.
 
 ### -field TokenId
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Index into token list for declaring identifier.
 
 
 ### -field Type
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172443(v=VS.85).aspx">D3D10_SHADER_VARIABLE_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_shader_variable_type">D3D10_SHADER_VARIABLE_TYPE</a></b>
 
 The variable type. <b>Type</b> is only required for arrays.
 
 
 ### -field Register
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Register the variable is stored in.
 
 
 ### -field Component
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The original variable that declared this variable.
 
 
 ### -field ScopeVar
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Offset into the scope variable array defined in <a href="https://msdn.microsoft.com/en-us/library/Bb172420(v=VS.85).aspx">D3D10_SHADER_DEBUG_INFO</a>.
+Offset into the scope variable array defined in <a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1shader/ns-d3d10_1shader-_d3d10_shader_debug_info">D3D10_SHADER_DEBUG_INFO</a>.
 
 
 ### -field ScopeVarOffset
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 This variable's offset in its <b>ScopeVar</b>.
 
@@ -104,7 +104,7 @@ This variable's offset in its <b>ScopeVar</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205159(v=VS.85).aspx">Shader Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-shader-structures">Shader Structures</a>
  
 
  

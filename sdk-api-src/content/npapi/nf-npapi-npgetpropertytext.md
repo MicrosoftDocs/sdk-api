@@ -134,7 +134,7 @@ Specifies the item type, which must be WNTYPE_FILE.
 
 
 
-If the function succeeds, it should return WN_SUCCESS and <i>lpButtonName</i> can be used. If it points to the empty string, no button corresponds to an index as high as <i>iButton</i>. If the return value is other than WN_SUCCESS, the provider should also call <a href="https://msdn.microsoft.com/d9da833f-36ca-4046-8d2f-cd4449dd3c63">SetLastError</a> to set extended error information. Extended error codes include the following.
+If the function succeeds, it should return WN_SUCCESS and <i>lpButtonName</i> can be used. If it points to the empty string, no button corresponds to an index as high as <i>iButton</i>. If the return value is other than WN_SUCCESS, the provider should also call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> to set extended error information. Extended error codes include the following.
 
 <table>
 <tr>
@@ -196,7 +196,7 @@ Property dialog boxes are not supported for the given object type, <i>nType</i>.
 
 
 File Manager calls this function each time the property dialog box is brought up, and it does this before displaying the dialog box. If the user clicks a button added through this function by the network provider, 
-the <a href="https://msdn.microsoft.com/856057f3-2746-4c1e-89a6-6d4e06d0e353">NPPropertyDialog</a> function is called with the appropriate parameters.
+the <a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-nppropertydialog">NPPropertyDialog</a> function is called with the appropriate parameters.
 
 Only File Manager calls <b>NPGetPropertyText</b>, and it uses this function for files and directories.
 

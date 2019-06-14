@@ -63,14 +63,14 @@ Contains the values of scale and bias terms supplied to a DirectML operator. Sca
 
 ### -field Scale
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 The scale term in g(x) = x * <i>Scale</i> + <i>Bias</i>.
 
 
 ### -field Bias
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 The bias term in g(x) = x * <i>Scale</i> + <i>Bias</i>.
 

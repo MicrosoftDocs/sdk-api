@@ -54,7 +54,7 @@ Describes a geometric path that does not contain quadratic bezier curves or arcs
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1SimplifiedGeometrySink</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID2D1SimplifiedGeometrySink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1SimplifiedGeometrySink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1SimplifiedGeometrySink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1SimplifiedGeometrySink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9f079b38-b8ba-40b2-a5ed-4c9732cfd0c6">AddBeziers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-addbeziers">AddBeziers</a>
 </td>
 <td align="left" width="63%">
 Creates a sequence of cubic Bezier curves and adds them to the geometry sink.
@@ -78,7 +78,7 @@ Creates a sequence of cubic Bezier curves and adds them to the geometry sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3f9c5106-6a4e-4623-8ce5-6f21f0380976">AddLines</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-addlines">AddLines</a>
 </td>
 <td align="left" width="63%">
 Creates a sequence of lines using the specified points and adds them to the geometry sink.
@@ -87,7 +87,7 @@ Creates a sequence of lines using the specified points and adds them to the geom
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/87a932d4-1f90-4bdb-b131-0664566b0318">BeginFigure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-beginfigure">BeginFigure</a>
 </td>
 <td align="left" width="63%">
 Starts a new figure at the specified point.
@@ -96,7 +96,7 @@ Starts a new figure at the specified point.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9dbbe5c6-d21c-4408-9208-53c7c051b22a">Close</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-close">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the geometry sink, indicates whether it is in an error state, and resets the sink's error state.
@@ -105,7 +105,7 @@ Closes the geometry sink, indicates whether it is in an error state, and resets 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/31f6aeba-2e81-4b8d-b734-0c501eae331f">EndFigure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-endfigure">EndFigure</a>
 </td>
 <td align="left" width="63%">
 Ends the current figure; optionally, closes it.
@@ -114,7 +114,7 @@ Ends the current figure; optionally, closes it.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f60f48bb-989e-46a5-b77f-65da0b91a599">SetFillMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-setfillmode">SetFillMode</a>
 </td>
 <td align="left" width="63%">
 Specifies the method used to determine which points are inside the geometry described by this geometry sink  and which points are outside. 
@@ -123,7 +123,7 @@ Specifies the method used to determine which points are inside the geometry desc
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e1162564-a39b-4c16-887e-ec06dd37301c">SetSegmentFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-setsegmentflags">SetSegmentFlags</a>
 </td>
 <td align="left" width="63%">
 Specifies stroke and join options to be applied to new segments added to the geometry sink.
@@ -137,9 +137,9 @@ Specifies stroke and join options to be applied to new segments added to the geo
 
 
 
-A geometry sink consists of one or more figures. Each figure is made up of one or more line or Bezier curve segments. To create a figure, call the <a href="https://msdn.microsoft.com/87a932d4-1f90-4bdb-b131-0664566b0318">BeginFigure</a> method and specify the figure's start point, then use <a href="https://msdn.microsoft.com/3f9c5106-6a4e-4623-8ce5-6f21f0380976">AddLines</a> and <a href="https://msdn.microsoft.com/9f079b38-b8ba-40b2-a5ed-4c9732cfd0c6">AddBeziers</a> to add line and Bezier segments. When you are finished adding segments, call the <a href="https://msdn.microsoft.com/31f6aeba-2e81-4b8d-b734-0c501eae331f">EndFigure</a> method. You can repeat this sequence to create additional figures. When you are finished creating figures, call the <a href="https://msdn.microsoft.com/9dbbe5c6-d21c-4408-9208-53c7c051b22a">Close</a> method.
+A geometry sink consists of one or more figures. Each figure is made up of one or more line or Bezier curve segments. To create a figure, call the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-beginfigure">BeginFigure</a> method and specify the figure's start point, then use <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-addlines">AddLines</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-addbeziers">AddBeziers</a> to add line and Bezier segments. When you are finished adding segments, call the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-endfigure">EndFigure</a> method. You can repeat this sequence to create additional figures. When you are finished creating figures, call the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-close">Close</a> method.
 
-To create geometry paths that can contain arcs and quadratic Bezier curves, use an <a href="https://msdn.microsoft.com/6d2c1959-1309-45d8-8204-19ffea03375b">ID2D1GeometrySink</a>.
+To create geometry paths that can contain arcs and quadratic Bezier curves, use an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometrysink">ID2D1GeometrySink</a>.
 
 
 
@@ -149,11 +149,11 @@ To create geometry paths that can contain arcs and quadratic Bezier curves, use 
 
 
 
-<a href="https://msdn.microsoft.com/6d2c1959-1309-45d8-8204-19ffea03375b">ID2D1GeometrySink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometrysink">ID2D1GeometrySink</a>
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

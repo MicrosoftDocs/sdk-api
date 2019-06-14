@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
- The application implemented rendering callback (<a href="https://msdn.microsoft.com/ea1c4cd0-d9b5-46af-b53e-a2d8fc442acf">IDWriteTextRenderer::DrawInlineObject</a>)
+ The application implemented rendering callback (<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextrenderer-drawinlineobject">IDWriteTextRenderer::DrawInlineObject</a>)
      can use this to draw the inline object without needing to cast or query the object
      type. The text layout does not call this method directly.
 
@@ -63,14 +63,14 @@ ms.custom: 19H1
 
 Type: <b>void*</b>
 
-The drawing context passed to <a href="https://msdn.microsoft.com/8d92a7c3-4804-47f6-bfca-5322be119cbb">IDWriteTextLayout::Draw</a>.  This parameter may be <b>NULL</b>.
+The drawing context passed to <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextlayout-draw">IDWriteTextLayout::Draw</a>.  This parameter may be <b>NULL</b>.
 
 
 ### -param renderer
 
-Type: <b><a href="https://msdn.microsoft.com/a2ac70c8-e33b-46f1-b53b-1ab07555f109">IDWriteTextRenderer</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextrenderer">IDWriteTextRenderer</a>*</b>
 
-The same renderer passed to <a href="https://msdn.microsoft.com/8d92a7c3-4804-47f6-bfca-5322be119cbb">IDWriteTextLayout::Draw</a> as the object's containing parent.  This is useful if the inline object is recursive such as a nested layout.
+The same renderer passed to <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextlayout-draw">IDWriteTextLayout::Draw</a> as the object's containing parent.  This is useful if the inline object is recursive such as a nested layout.
 
 
 ### -param originX
@@ -105,7 +105,7 @@ A Boolean flag that indicates whether the object is in a right-to-left context a
 
 Type: <b>IUnknown*</b>
 
-The drawing effect set in <a href="https://msdn.microsoft.com/d3269f8e-c1bc-4e84-92cb-a8899a0268ff">IDWriteTextLayout::SetDrawingEffect</a>.  Usually this effect is a foreground brush that  is used in glyph drawing.
+The drawing effect set in <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextlayout-setdrawingeffect">IDWriteTextLayout::SetDrawingEffect</a>.  Usually this effect is a foreground brush that  is used in glyph drawing.
 
 
 ## -returns
@@ -124,7 +124,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/cf915458-acbc-4a37-be5c-b1337153f386">IDWriteInlineObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwriteinlineobject">IDWriteInlineObject</a>
  
 
  

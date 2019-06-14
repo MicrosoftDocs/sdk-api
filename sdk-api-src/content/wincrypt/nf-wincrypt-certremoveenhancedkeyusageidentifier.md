@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CertRemoveEnhancedKeyUsageIdentifier</b> function removes a usage identifier <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) from the <a href="https://msdn.microsoft.com/f1caccd2-3453-448e-b194-bf899eff8091">enhanced key usage</a> (EKU) extended property of the certificate.
+The <b>CertRemoveEnhancedKeyUsageIdentifier</b> function removes a usage identifier <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) from the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">enhanced key usage</a> (EKU) extended property of the certificate.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>CertRemoveEnhancedKeyUsageIdentifier</b> function removes a usage identif
 ### -param pCertContext [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> of the certificate for which the usage identifier OID is to be removed.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> of the certificate for which the usage identifier OID is to be removed.
 
 
 ### -param pszUsageIdentifier [in]
@@ -75,7 +75,7 @@ A pointer to the usage identifier OID to remove.
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -85,7 +85,7 @@ If the function fails, it returns zero (<b>FALSE</b>). For extended error inform
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Enhanced Key Usage Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Enhanced Key Usage Functions</a>
  
 
  

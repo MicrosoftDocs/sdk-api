@@ -51,10 +51,10 @@ req.redist:
 Partitions a disk as specified by drive layout and partition information data.
 
 To perform this operation, call the 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the parameters specified below.
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the parameters specified below.
 
 <b>IOCTL_DISK_SET_DRIVE_LAYOUT</b> has been superseded by 
-<a href="https://msdn.microsoft.com/a600e841-c692-4aa4-bea2-a33931d9b007">IOCTL_DISK_SET_DRIVE_LAYOUT_EX</a>, which retrieves layout information for AT and EFI (Extensible Firmware Interface) partitions.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_drive_layout_ex">IOCTL_DISK_SET_DRIVE_LAYOUT_EX</a>, which retrieves layout information for AT and EFI (Extensible Firmware Interface) partitions.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -158,24 +158,24 @@ If the partition is on a disk formatted as type master boot record (MBR), partit
 
 
 
-<a href="https://msdn.microsoft.com/e67ccaa7-a735-4695-8385-28f57b41821c">DRIVE_LAYOUT_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_drive_layout_information">DRIVE_LAYOUT_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/488a7d32-cbb5-4f32-9655-0aca8ac69640">Disk
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes">Disk
 		  Management Control Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/21507182-5a33-4e58-b5ed-3724feefa4ed">IOCTL_DISK_GET_DRIVE_LAYOUT_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_drive_layout_ex">IOCTL_DISK_GET_DRIVE_LAYOUT_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/a600e841-c692-4aa4-bea2-a33931d9b007">IOCTL_DISK_SET_DRIVE_LAYOUT_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_drive_layout_ex">IOCTL_DISK_SET_DRIVE_LAYOUT_EX</a>
  
 
  

@@ -62,7 +62,7 @@ Clears the specified event log, and optionally saves the current copy of the log
 
 ### -param hEventLog [in]
 
-A handle to the event log to be cleared. The <a href="https://msdn.microsoft.com/6cd8797a-aeaf-4603-b43c-b1ff45b6200a">OpenEventLog</a> function returns this handle.
+A handle to the event log to be cleared. The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openeventloga">OpenEventLog</a> function returns this handle.
 
 
 ### -param lpBackupFileName [in]
@@ -82,7 +82,7 @@ If the <i>lpBackupFileName</i> parameter is <b>NULL</b>, the event log is not ba
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The 
 <b>ClearEventLog</b> function can fail if the event log is empty or the backup file already exists.
 
 
@@ -102,11 +102,11 @@ After this function returns, any handles that reference the cleared event log ca
 
 
 
-<a href="https://msdn.microsoft.com/fd5c12ec-3a3d-4b75-a573-0b27ae7a890b">Event Logging Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/EventLog/event-logging-functions">Event Logging Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/6cd8797a-aeaf-4603-b43c-b1ff45b6200a">OpenEventLog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openeventloga">OpenEventLog</a>
  
 
  

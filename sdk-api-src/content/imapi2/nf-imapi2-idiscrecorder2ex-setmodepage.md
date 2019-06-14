@@ -59,7 +59,7 @@ Sets the mode page data for the device.
 
 ### -param requestType [in]
 
-Type of mode page data to send. For possible values, see the <a href="https://msdn.microsoft.com/f27cd003-34a0-4aee-81d5-74fb02d9427c">IMAPI_MODE_PAGE_REQUEST_TYPE</a> enumeration type.
+Type of mode page data to send. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_mode_page_request_type">IMAPI_MODE_PAGE_REQUEST_TYPE</a> enumeration type.
 
 
 ### -param data [in]
@@ -395,19 +395,19 @@ Value: 0xC0AA0210
 
 
 
-<a href="https://msdn.microsoft.com/37e65b57-ec53-405c-a7bd-34c2df15d5d7">IDiscRecorder2Ex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/69e163a6-943d-4626-8120-778c9ca1777f">IDiscRecorder2Ex::GetModePage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getmodepage">IDiscRecorder2Ex::GetModePage</a>
 
 
 
-<a href="https://msdn.microsoft.com/343d976e-97f3-4231-a417-4ebe7967f99c">IDiscRecorder2Ex::GetSupportedModePages</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedmodepages">IDiscRecorder2Ex::GetSupportedModePages</a>
 
 
 
-<a href="https://msdn.microsoft.com/f27cd003-34a0-4aee-81d5-74fb02d9427c">IMAPI_MODE_PAGE_REQUEST_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_mode_page_request_type">IMAPI_MODE_PAGE_REQUEST_TYPE</a>
 
 
 

@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 Locates a symbol for the specified name.
 <div class="alert"><b>Note</b>  This function is provided only for compatibility. Applications should use 
-<a href="https://msdn.microsoft.com/26b9eba7-2038-4640-aeb2-3052889b14ea">SymFromName</a>.</div><div> </div>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symfromname">SymFromName</a>.</div><div> </div>
 
 ## -parameters
 
@@ -62,7 +62,7 @@ Locates a symbol for the specified name.
 ### -param hProcess [in]
 
 A handle to the process that was originally passed to the 
-<a href="https://msdn.microsoft.com/fb1c98cb-6cd0-4218-aea4-384c24c66395">SymInitialize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 
 ### -param Name [in]
@@ -73,7 +73,7 @@ The symbol name for which a symbol is to be located.
 ### -param Symbol [in, out]
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/7b39281a-c34b-47ae-a3ff-5f0a7a66a588">IMAGEHLP_SYMBOL64</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_symbol">IMAGEHLP_SYMBOL64</a> structure.
 
 
 ## -returns
@@ -83,7 +83,7 @@ A pointer to an
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -98,13 +98,13 @@ The
 The module prefix is in the form of "<i>module</i>!". The "!" character is the delimiter between the module name and the symbol name. If there is no module prefix, then the search is performed on each module's symbol table in a linear manner, beginning with the first module that is loaded.
 
 Using the module prefix is preferable for two reasons. First, the symbol search occurs much faster. Second, when deferred symbol loading is turned on, the search causes symbols to be loaded for each module that is searched. When the symbol is found, the symbol information is copied into the <i>Symbol</i> buffer provided by the caller. The caller must allocate the <i>Symbol</i> buffer properly and fill in the required parameters in the 
-<a href="https://msdn.microsoft.com/7b39281a-c34b-47ae-a3ff-5f0a7a66a588">IMAGEHLP_SYMBOL64</a> structure before calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_symbol">IMAGEHLP_SYMBOL64</a> structure before calling 
 <b>SymGetSymFromName64</b>.
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
 This function supersedes the <b>SymGetSymFromName</b> function. For more information, see 
-<a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>SymGetSymFromName</b> is defined as follows in Dbghelp.h. 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <b>SymGetSymFromName</b> is defined as follows in Dbghelp.h. 
 
 
 ```cpp
@@ -130,19 +130,19 @@ SymGetSymFromName(
 
 
 
-<a href="https://msdn.microsoft.com/7b28f70b-2d97-4cc2-8064-dfb806f9cffa">DbgHelp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/7b39281a-c34b-47ae-a3ff-5f0a7a66a588">IMAGEHLP_SYMBOL64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_symbol">IMAGEHLP_SYMBOL64</a>
 
 
 
-<a href="https://msdn.microsoft.com/26b9eba7-2038-4640-aeb2-3052889b14ea">SymFromName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symfromname">SymFromName</a>
 
 
 
-<a href="https://msdn.microsoft.com/fb1c98cb-6cd0-4218-aea4-384c24c66395">SymInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a>
  
 
  

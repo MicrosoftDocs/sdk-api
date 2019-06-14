@@ -60,7 +60,7 @@ Modifies the version information of the library used by the application.
 ### -param AppVersion [in]
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/f983f639-6a94-4b83-a443-0d98b85d3950">API_VERSION</a> structure that contains valid version information for your application.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-api_version">API_VERSION</a> structure that contains valid version information for your application.
 
 
 ## -returns
@@ -68,7 +68,7 @@ A pointer to an
 
 
 The return value is a pointer to an 
-<a href="https://msdn.microsoft.com/f983f639-6a94-4b83-a443-0d98b85d3950">API_VERSION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-api_version">API_VERSION</a> structure.
 					
 
 
@@ -81,7 +81,7 @@ The return value is a pointer to an
 Use the 
 <b>ImagehlpApiVersionEx</b> function to indicate the version of the library with which the application was built. The library uses this information to ensure compatibility. For example, consider walking through kernel-mode callback stack frames (User and GDI exist in kernel mode). If you call 
 <b>ImagehlpApiVersionEx</b> to set the <b>Revision</b> member to version 4 or later, the 
-<a href="https://msdn.microsoft.com/e2bdaa4c-5474-41a0-bcea-927570c8402c">StackWalk64</a> function will continue through a callback stack frame. Otherwise, if you set <b>Revision</b> to a version earlier than 4, 
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-stackwalk">StackWalk64</a> function will continue through a callback stack frame. Otherwise, if you set <b>Revision</b> to a version earlier than 4, 
 <b>StackWalk64</b> will stop at the kernel transition.
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
@@ -94,15 +94,15 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 
 
-<a href="https://msdn.microsoft.com/f983f639-6a94-4b83-a443-0d98b85d3950">API_VERSION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-api_version">API_VERSION</a>
 
 
 
-<a href="https://msdn.microsoft.com/7b28f70b-2d97-4cc2-8064-dfb806f9cffa">DbgHelp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/0ad9a047-f2ae-4fbe-8a85-9817a616ef73">ImagehlpApiVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-imagehlpapiversion">ImagehlpApiVersion</a>
  
 
  

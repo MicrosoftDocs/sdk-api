@@ -53,16 +53,16 @@ ms.custom: 19H1
 
 The <code>IAMOpenProgress</code> interface reports the progress of a file-open operation and enables the application to cancel the operation.
 
-Filters that open files over a network can expose this interface. An application can use it to query the progress of the download, or to cancel the download. If the network is not responsive, a method such as <a href="https://msdn.microsoft.com/449aec08-c03e-41d6-8c04-0e871e532d11">IGraphBuilder::RenderFile</a> might block for an indefinite period. To prevent your application from blocking, create a worker thread that uses <code>IAMOpenProgress</code> to monitor the progress. The worker thread can cancel the operation if a predefined timeout occurs, or in response to a command from the user.
+Filters that open files over a network can expose this interface. An application can use it to query the progress of the download, or to cancel the download. If the network is not responsive, a method such as <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphbuilder-renderfile">IGraphBuilder::RenderFile</a> might block for an indefinite period. To prevent your application from blocking, create a worker thread that uses <code>IAMOpenProgress</code> to monitor the progress. The worker thread can cancel the operation if a predefined timeout occurs, or in response to a command from the user.
 
-The <a href="https://msdn.microsoft.com/405fd6ea-aa17-4d11-8f07-067468cb090b">File Source (URL)</a> filter supports this interface.
+The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/file-source--url--filter">File Source (URL)</a> filter supports this interface.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMOpenProgress</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAMOpenProgress</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMOpenProgress</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMOpenProgress</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IAMOpenProgress</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5c20b57c-c491-4465-9626-13335191b5bb">AbortOperation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamopenprogress-abortoperation">AbortOperation</a>
 </td>
 <td align="left" width="63%">
 Cancels the file-open operation.
@@ -86,7 +86,7 @@ Cancels the file-open operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8471271d-36cc-4660-8a4e-4c234ba6b406">QueryProgress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamopenprogress-queryprogress">QueryProgress</a>
 </td>
 <td align="left" width="63%">
 Retrieves the progress of the file-open operation.

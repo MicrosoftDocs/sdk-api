@@ -54,7 +54,7 @@ Provides the implementation of a shared Microsoft DirectX surface which is displ
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISurfaceImageSourceNativeWithD2D</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISurfaceImageSourceNativeWithD2D</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISurfaceImageSourceNativeWithD2D</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISurfaceImageSourceNativeWithD2D</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISurfaceImageSourceNativeWithD2D</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/077458AB-7644-4973-8955-95E097DAF859">BeginDraw</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenativewithd2d-begindraw">BeginDraw</a>
 </td>
 <td align="left" width="63%">
 Initiates an update to the associated <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> or <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.virtualsurfaceimagesource">VirtualSurfaceImageSource</a>.
@@ -78,7 +78,7 @@ Initiates an update to the associated <a href="https://docs.microsoft.com/en-us/
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1E152D80-2673-43C6-B242-F89C890EE688">EndDraw</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenativewithd2d-enddraw">EndDraw</a>
 </td>
 <td align="left" width="63%">
 Closes the surface draw operation.
@@ -87,7 +87,7 @@ Closes the surface draw operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0A1FD29B-6340-49F5-BBF3-2E621FB16925">ResumeDraw</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenativewithd2d-resumedraw">ResumeDraw</a>
 </td>
 <td align="left" width="63%">
 Resume the drawing operation.
@@ -96,7 +96,7 @@ Resume the drawing operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/FBBF0A5E-68FF-4143-A874-0C1100100428">SetDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenativewithd2d-setdevice">SetDevice</a>
 </td>
 <td align="left" width="63%">
 Sets the DXGI or Direct2D device, created with <b>D3D11_CREATE_DEVICE_BGRA_SUPPORT</b>, that will draw the surface.
@@ -105,7 +105,7 @@ Sets the DXGI or Direct2D device, created with <b>D3D11_CREATE_DEVICE_BGRA_SUPPO
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/022B6A31-35B4-4E31-9B6E-12F75A156378">SuspendDraw</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenativewithd2d-suspenddraw">SuspendDraw</a>
 </td>
 <td align="left" width="63%">
 Suspends the drawing operation.
@@ -119,7 +119,7 @@ Suspends the drawing operation.
 
 
 
-The <b>ISurfaceImageSourceNativeWithD2D</b> interface provides the native implementation of the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> class. To get a pointer to the  <b>ISurfaceImageSourceNativeWithD2D</b> interface, you must cast a <b>SurfaceImageSource</b> instance to <a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a> or <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>, and call the <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> method.
+The <b>ISurfaceImageSourceNativeWithD2D</b> interface provides the native implementation of the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> class. To get a pointer to the  <b>ISurfaceImageSourceNativeWithD2D</b> interface, you must cast a <b>SurfaceImageSource</b> instance to <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> or <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>, and call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method.
 
 
 ```cpp
@@ -138,21 +138,21 @@ The <b>ISurfaceImageSourceNativeWithD2D</b> interface provides high-performance 
 
 The <b>ISurfaceImageSourceNativeWithD2D</b> interface enables drawing to a <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> or <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.virtualsurfaceimagesource">VirtualSurfaceImageSource</a> from one or more background threads, which allows high-performance DirectX rendering off the UI thread.
 
-Only call the <a href="https://msdn.microsoft.com/FBBF0A5E-68FF-4143-A874-0C1100100428">SetDevice</a>, <a href="https://msdn.microsoft.com/077458AB-7644-4973-8955-95E097DAF859">BeginDraw</a>, and <a href="https://msdn.microsoft.com/1E152D80-2673-43C6-B242-F89C890EE688">EndDraw</a> methods on <b>ISurfaceImageSourceNativeWithD2D</b> interface, not on the <a href="https://msdn.microsoft.com/55122048-FA3B-494F-8BD3-97D2C36E4579">ISurfaceImageSourceNative</a> or <a href="https://msdn.microsoft.com/1CABA8F5-2380-45B9-804C-B1DC9FF34B62">IVirtualSurfaceImageSourceNative</a> interfaces.  
+Only call the <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenativewithd2d-setdevice">SetDevice</a>, <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenativewithd2d-begindraw">BeginDraw</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenativewithd2d-enddraw">EndDraw</a> methods on <b>ISurfaceImageSourceNativeWithD2D</b> interface, not on the <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenative">ISurfaceImageSourceNative</a> or <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-ivirtualsurfaceimagesourcenative">IVirtualSurfaceImageSourceNative</a> interfaces.  
 
 
 
-In order to support batching updates to multiple surfaces to improve performance, you can pass an <a href="https://msdn.microsoft.com/21f77c38-c115-4fdf-b294-570577a29201">ID2D1Device</a> to the <a href="https://msdn.microsoft.com/FBBF0A5E-68FF-4143-A874-0C1100100428">SetDevice</a> method, instead of an <a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>.  The <a href="https://msdn.microsoft.com/077458AB-7644-4973-8955-95E097DAF859">BeginDraw</a> method can then optionally return a shared <a href="https://msdn.microsoft.com/a54dd628-c2a2-4b04-9ced-7749a395f187">ID2D1DeviceContext</a>, which the app uses to draw all content for that update.
+In order to support batching updates to multiple surfaces to improve performance, you can pass an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1device">ID2D1Device</a> to the <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenativewithd2d-setdevice">SetDevice</a> method, instead of an <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>.  The <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenativewithd2d-begindraw">BeginDraw</a> method can then optionally return a shared <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>, which the app uses to draw all content for that update.
 
 To draw to the surface from a background thread, you must set any DirectX resources, including the Microsoft Direct3D device, Direct3D device context, Direct2D device, and Direct2D device context, to enable multithreading support.  
 
 
 
-You can call the <a href="https://msdn.microsoft.com/077458AB-7644-4973-8955-95E097DAF859">BeginDraw</a>, <a href="https://msdn.microsoft.com/022B6A31-35B4-4E31-9B6E-12F75A156378">SuspendDraw</a>, and <a href="https://msdn.microsoft.com/0A1FD29B-6340-49F5-BBF3-2E621FB16925">ResumeDraw</a> methods from any background thread to enable high-performance multithreaded drawing.
+You can call the <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenativewithd2d-begindraw">BeginDraw</a>, <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenativewithd2d-suspenddraw">SuspendDraw</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenativewithd2d-resumedraw">ResumeDraw</a> methods from any background thread to enable high-performance multithreaded drawing.
 
-Always call the <a href="https://msdn.microsoft.com/1E152D80-2673-43C6-B242-F89C890EE688">EndDraw</a> method on the UI thread in order to synchronize updating the DirectX content with the current XAML UI thread frame.  You can call <a href="https://msdn.microsoft.com/077458AB-7644-4973-8955-95E097DAF859">BeginDraw</a> on a background thread, call <a href="https://msdn.microsoft.com/022B6A31-35B4-4E31-9B6E-12F75A156378">SuspendDraw</a> when you're done drawing on the background thread, and call <b>EndDraw</b> on the UI thread.
+Always call the <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenativewithd2d-enddraw">EndDraw</a> method on the UI thread in order to synchronize updating the DirectX content with the current XAML UI thread frame.  You can call <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenativewithd2d-begindraw">BeginDraw</a> on a background thread, call <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenativewithd2d-suspenddraw">SuspendDraw</a> when you're done drawing on the background thread, and call <b>EndDraw</b> on the UI thread.
 
-Use <a href="https://msdn.microsoft.com/022B6A31-35B4-4E31-9B6E-12F75A156378">SuspendDraw</a> and <a href="https://msdn.microsoft.com/0A1FD29B-6340-49F5-BBF3-2E621FB16925">ResumeDraw</a> to suspend and resume drawing on any background or UI thread.
+Use <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenativewithd2d-suspenddraw">SuspendDraw</a> and <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenativewithd2d-resumedraw">ResumeDraw</a> to suspend and resume drawing on any background or UI thread.
 
 
 
@@ -166,11 +166,11 @@ Handle the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.med
 
 
 
-<a href="https://msdn.microsoft.com/17987EEA-6771-423C-9B68-6B9AEADC7B7F">DirectX and XAML interop</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/apps/hh825871(v=win.10)">DirectX and XAML interop</a>
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 

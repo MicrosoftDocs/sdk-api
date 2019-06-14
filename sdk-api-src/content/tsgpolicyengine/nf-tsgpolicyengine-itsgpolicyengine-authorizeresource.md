@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Determines which resources the specified connection is authorized to connect to.
 
-Remote Desktop Gateway (RD Gateway) calls this method after a user has been successfully authenticated. The authorization plug-in should then use the <a href="https://msdn.microsoft.com/4aa6ec0d-6525-46e1-ba0b-29d80c5ee0f1">ITSGAuthorizeConnectionSink</a>  interface to notify RD Gateway about the result of authorization.
+Remote Desktop Gateway (RD Gateway) calls this method after a user has been successfully authenticated. The authorization plug-in should then use the <a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/nn-tsgpolicyengine-itsgauthorizeconnectionsink">ITSGAuthorizeConnectionSink</a>  interface to notify RD Gateway about the result of authorization.
 
 
 ## -parameters
@@ -116,7 +116,7 @@ The number of bytes referenced by the <i>cookie</i> parameter.
 
 ### -param pSink [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/4656064a-41d9-428c-8260-24eea0ee83cc">ITSGAuthorizeResourceSink</a> interface that the authorization plug-in must use to notify RD Gateway about the result of authorization.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/nn-tsgpolicyengine-itsgauthorizeresourcesink">ITSGAuthorizeResourceSink</a> interface that the authorization plug-in must use to notify RD Gateway about the result of authorization.
 
 
 ## -returns
@@ -134,7 +134,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 If this method returns <b>S_OK</b>, RD Gateway waits for the authorization 
     plug-in to call a method of the 
-    <a href="https://msdn.microsoft.com/4656064a-41d9-428c-8260-24eea0ee83cc">ITSGAuthorizeResourceSink</a> interface. If any 
+    <a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/nn-tsgpolicyengine-itsgauthorizeresourcesink">ITSGAuthorizeResourceSink</a> interface. If any 
     other value is returned, RD Gateway immediately denies the  authorization request.
 
 If authorization requires more than 1 second, we recommend starting a separate thread to perform 
@@ -156,7 +156,7 @@ For an example that uses the
 
 
 
-<a href="https://msdn.microsoft.com/1972032f-48ac-4a15-98ce-9349fa158a07">ITSGPolicyEngine</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/nn-tsgpolicyengine-itsgpolicyengine">ITSGPolicyEngine</a>
  
 
  

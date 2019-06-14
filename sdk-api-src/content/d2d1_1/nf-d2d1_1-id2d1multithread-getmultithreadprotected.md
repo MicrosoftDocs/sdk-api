@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns whether the Direct2D factory was created with the <a href="https://msdn.microsoft.com/428053d3-7ea0-4b01-9924-4a31d8e018fb">D2D1_FACTORY_TYPE_MULTI_THREADED</a> flag.
+Returns whether the Direct2D factory was created with the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_factory_type">D2D1_FACTORY_TYPE_MULTI_THREADED</a> flag.
         
 
 
@@ -74,7 +74,7 @@ Returns true if the Direct2D factory was created as multi-threaded, or false if 
 
 
 
-<a href="https://msdn.microsoft.com/885E7580-6BF0-4A44-9493-6D4FFCB5577B">ID2D1Multithread</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1multithread">ID2D1Multithread</a>
  
 
  

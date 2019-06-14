@@ -59,14 +59,14 @@ Enumerates log containers. Call this function repeatedly to iterate over all log
 
 ### -param pcxScan [in, out]
 
-A pointer to a client-allocated <a href="https://msdn.microsoft.com/716fa005-c801-4a5d-99f1-0babe64dc4a8">CLFS_SCAN_CONTEXT</a> structure  that  the <a href="https://msdn.microsoft.com/863e600c-3a7b-47b4-9cc3-dcee1bfcc66b">CreateLogContainerScanContext</a> function initializes. 
+A pointer to a client-allocated <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_scan_context">CLFS_SCAN_CONTEXT</a> structure  that  the <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogcontainerscancontext">CreateLogContainerScanContext</a> function initializes. 
 
 
 ### -param eScanMode [in]
 
 The mode  for  containers  to  be scanned.  
 
-Containers can be scanned in any  of the following <a href="https://msdn.microsoft.com/64bb2113-aded-4a80-8f1a-1668ad05ae1e">CLFS_SCAN_MODE</a> modes.
+Containers can be scanned in any  of the following <a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/clfs-scan-mode-constants">CLFS_SCAN_MODE</a> modes.
 
 <table>
 <tr>
@@ -136,7 +136,7 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
  The following  list identifies the possible error codes:
 
@@ -154,7 +154,7 @@ The ID of a log container is  returned in: <b>pcxScan-&gt;pinfoContainer-&gt;Log
 
 #### Examples
 
-For an example that uses this function, see <a href="https://msdn.microsoft.com/dc7e204c-201d-4a84-9a87-576c73627f67">Enumerating Log Containers</a>.
+For an example that uses this function, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/enumerating-log-containers">Enumerating Log Containers</a>.
 
 <div class="code"></div>
 
@@ -165,27 +165,27 @@ For an example that uses this function, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/716fa005-c801-4a5d-99f1-0babe64dc4a8">CLFS_SCAN_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_scan_context">CLFS_SCAN_CONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/64bb2113-aded-4a80-8f1a-1668ad05ae1e">CLFS_SCAN_MODE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/clfs-scan-mode-constants">CLFS_SCAN_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3059828-d291-493d-a4fe-13d06e49ed12">Common Log File System Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/863e600c-3a7b-47b4-9cc3-dcee1bfcc66b">CreateLogContainerScanContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogcontainerscancontext">CreateLogContainerScanContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ff12544-797d-48b9-9c42-4bec059e6551">GetLogContainerName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-getlogcontainername">GetLogContainerName</a>
 
 
 
-<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
  
 
  

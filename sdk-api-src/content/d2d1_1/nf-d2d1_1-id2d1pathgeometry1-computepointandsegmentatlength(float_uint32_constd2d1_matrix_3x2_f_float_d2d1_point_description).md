@@ -76,7 +76,7 @@ The index of the segment at which to begin walking. Note: This index is global t
 
 ### -param worldTransform [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>*</b>
 
 The transform to apply to the path prior to walking.
 
@@ -92,7 +92,7 @@ The flattening tolerance to use when walking along an arc or Bezier segment. The
 
 ### -param pointDescription [out]
 
-Type: <b><a href="https://msdn.microsoft.com/d6e7a4c1-135f-4ffe-91d7-486de8a9338d">D2D1_POINT_DESCRIPTION</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_point_description">D2D1_POINT_DESCRIPTION</a>*</b>
 
 When this method returns, contains a description of the point that can be found at the given location.
 
@@ -148,11 +148,11 @@ You call ComputePointAndSegmentAtLength(Length = L2, startSegment =0). The API r
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/d6e7a4c1-135f-4ffe-91d7-486de8a9338d">D2D1_POINT_DESCRIPTION::point</a>  = p2.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_point_description">D2D1_POINT_DESCRIPTION::point</a>  = p2.</li>
 <li>
-<a href="https://msdn.microsoft.com/d6e7a4c1-135f-4ffe-91d7-486de8a9338d">D2D1_POINT_DESCRIPTION::endSegment </a>= 3 (segment DE). This is the value you want.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_point_description">D2D1_POINT_DESCRIPTION::endSegment </a>= 3 (segment DE). This is the value you want.</li>
 <li>
-<a href="https://msdn.microsoft.com/d6e7a4c1-135f-4ffe-91d7-486de8a9338d">D2D1_POINT_DESCRIPTION::lengthToEndSegment</a> = length (AD).
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_point_description">D2D1_POINT_DESCRIPTION::lengthToEndSegment</a> = length (AD).
 </li>
 </ul>
 <h3><a id="You_wants_to_improve_the_performance_of_calculating_a_point_at_a_given_length_for_animating_along_a_path"></a><a id="you_wants_to_improve_the_performance_of_calculating_a_point_at_a_given_length_for_animating_along_a_path"></a><a id="YOU_WANTS_TO_IMPROVE_THE_PERFORMANCE_OF_CALCULATING_A_POINT_AT_A_GIVEN_LENGTH_FOR_ANIMATING_ALONG_A_PATH"></a>You wants to improve the performance of calculating a point at a given length for animating along a path</h3>
@@ -163,11 +163,11 @@ You call ComputePointAndSegmentAtLength(Length = L1, startSegment = 0). The API 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/d6e7a4c1-135f-4ffe-91d7-486de8a9338d">D2D1_POINT_DESCRIPTION::point</a>  = P1.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_point_description">D2D1_POINT_DESCRIPTION::point</a>  = P1.</li>
 <li>
-<a href="https://msdn.microsoft.com/d6e7a4c1-135f-4ffe-91d7-486de8a9338d">D2D1_POINT_DESCRIPTION::endSegment</a> = 1 (segment BC). </li>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_point_description">D2D1_POINT_DESCRIPTION::endSegment</a> = 1 (segment BC). </li>
 <li>
-<a href="https://msdn.microsoft.com/d6e7a4c1-135f-4ffe-91d7-486de8a9338d">D2D1_POINT_DESCRIPTION::lengthToEndSegment</a> = length (AB).
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_point_description">D2D1_POINT_DESCRIPTION::lengthToEndSegment</a> = length (AB).
 </li>
 </ul>
 You call ComputePointAndSegmentAtLength(Length = L2 - Length(AB), startSegment = 1). The API returns the following:
@@ -175,11 +175,11 @@ You call ComputePointAndSegmentAtLength(Length = L2 - Length(AB), startSegment =
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/d6e7a4c1-135f-4ffe-91d7-486de8a9338d">D2D1_POINT_DESCRIPTION::point</a>  = P2.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_point_description">D2D1_POINT_DESCRIPTION::point</a>  = P2.</li>
 <li>
-<a href="https://msdn.microsoft.com/d6e7a4c1-135f-4ffe-91d7-486de8a9338d">D2D1_POINT_DESCRIPTION::endSegment </a>= 3 (segment DE). </li>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_point_description">D2D1_POINT_DESCRIPTION::endSegment </a>= 3 (segment DE). </li>
 <li>
-<a href="https://msdn.microsoft.com/d6e7a4c1-135f-4ffe-91d7-486de8a9338d">D2D1_POINT_DESCRIPTION::lengthToEndSegment</a> = length (AD).
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_point_description">D2D1_POINT_DESCRIPTION::lengthToEndSegment</a> = length (AD).
 </li>
 </ul>
 You call ComputePointAndSegmentAtLength(= L3-length(AB)-length(BD), startSegment = 3). The API returns the following:
@@ -187,11 +187,11 @@ You call ComputePointAndSegmentAtLength(= L3-length(AB)-length(BD), startSegment
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/d6e7a4c1-135f-4ffe-91d7-486de8a9338d">D2D1_POINT_DESCRIPTION::point</a>  = P3.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_point_description">D2D1_POINT_DESCRIPTION::point</a>  = P3.</li>
 <li>
-<a href="https://msdn.microsoft.com/d6e7a4c1-135f-4ffe-91d7-486de8a9338d">D2D1_POINT_DESCRIPTION::endSegment </a>= 3 (segment DE). </li>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_point_description">D2D1_POINT_DESCRIPTION::endSegment </a>= 3 (segment DE). </li>
 <li>
-<a href="https://msdn.microsoft.com/d6e7a4c1-135f-4ffe-91d7-486de8a9338d">D2D1_POINT_DESCRIPTION::lengthToEndSegment</a> =0.
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_point_description">D2D1_POINT_DESCRIPTION::lengthToEndSegment</a> =0.
 </li>
 </ul>
 
@@ -202,23 +202,23 @@ You call ComputePointAndSegmentAtLength(= L3-length(AB)-length(BD), startSegment
 
 
 
-<a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>
 
 
 
-<a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a>
 
 
 
-<a href="https://msdn.microsoft.com/d6e7a4c1-135f-4ffe-91d7-486de8a9338d">D2D1_POINT_DESCRIPTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_point_description">D2D1_POINT_DESCRIPTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/d200563c-d78e-4fa0-a8f2-242b24480e99">ID2D1PathGeometry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1pathgeometry">ID2D1PathGeometry</a>
 
 
 
-<a href="https://msdn.microsoft.com/21f0a4a3-3c6c-434d-8cfc-767c7654849e">ID2D1PathGeometry1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1pathgeometry1">ID2D1PathGeometry1</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>AuthzGetInformationFromContext</b> function returns information about an Authz context. 
 
-Starting with Windows Server 2012 and Windows 8, device groups are returned as a <a href="https://msdn.microsoft.com/387dd7f8-4177-40fa-b5fd-bb4b371a0e64">TOKEN_GROUPS</a> structure. User and device claims are returned as an <a href="https://msdn.microsoft.com/1db95ab0-951f-488c-b522-b3f38fc74c7c">AUTHZ_SECURITY_ATTRIBUTES_INFORMATION</a> structure.
+Starting with Windows Server 2012 and Windows 8, device groups are returned as a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_groups">TOKEN_GROUPS</a> structure. User and device claims are returned as an <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_security_attributes_information">AUTHZ_SECURITY_ATTRIBUTES_INFORMATION</a> structure.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ A handle to the context.
 
 ### -param InfoClass [in]
 
-A value of the <a href="https://msdn.microsoft.com/5eb752dc-17f7-4510-8aef-d18280322e76">AUTHZ_CONTEXT_INFORMATION_CLASS</a> enumeration that indicates the type of information to be returned.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/authz/ne-authz-_authz_context_information_class">AUTHZ_CONTEXT_INFORMATION_CLASS</a> enumeration that indicates the type of information to be returned.
 
 
 ### -param BufferSize [in]
@@ -91,7 +91,7 @@ A pointer to memory that can receive the information. The structure returned dep
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -101,19 +101,19 @@ If the function fails, it returns <b>FALSE</b>. To get extended error informatio
 
 
 
-<a href="https://msdn.microsoft.com/5eb752dc-17f7-4510-8aef-d18280322e76">AUTHZ_CONTEXT_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/ne-authz-_authz_context_information_class">AUTHZ_CONTEXT_INFORMATION_CLASS</a>
 
 
 
-<a href="https://msdn.microsoft.com/1db95ab0-951f-488c-b522-b3f38fc74c7c">AUTHZ_SECURITY_ATTRIBUTES_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_security_attributes_information">AUTHZ_SECURITY_ATTRIBUTES_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/387dd7f8-4177-40fa-b5fd-bb4b371a0e64">TOKEN_GROUPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_groups">TOKEN_GROUPS</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/c7bcae4d-cdef-4bfc-aa5a-68b85497a7f6">D2D1_IMAGE_BRUSH_PROPERTIES</a> structure.
+Creates a <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_image_brush_properties">D2D1_IMAGE_BRUSH_PROPERTIES</a> structure.
 
 
 ## -parameters
@@ -59,28 +59,28 @@ Creates a <a href="https://msdn.microsoft.com/c7bcae4d-cdef-4bfc-aa5a-68b85497a7
 
 ### -param sourceRectangle
 
-Type: <b><a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a></b>
 
 The source rectangle in the image space from which the image will be tiled or interpolated.
 
 
 ### -param extendModeX
 
-Type: <b><a href="https://msdn.microsoft.com/6b6e1fe1-d43a-46cf-904d-5266b9bd6bf4">D2D1_EXTEND_MODE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_extend_mode">D2D1_EXTEND_MODE</a></b>
 
 The extend mode in the image x-axis.
 
 
 ### -param extendModeY
 
-Type: <b><a href="https://msdn.microsoft.com/6b6e1fe1-d43a-46cf-904d-5266b9bd6bf4">D2D1_EXTEND_MODE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_extend_mode">D2D1_EXTEND_MODE</a></b>
 
 The extend mode in the image y-axis.
 
 
 ### -param interpolationMode
 
-Type: <b><a href="https://msdn.microsoft.com/7a32f551-afad-4eb2-953f-a9acc71d7776">D2D1_INTERPOLATION_MODE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_interpolation_mode">D2D1_INTERPOLATION_MODE</a></b>
 
 The interpolation mode to use when scaling the image brush.
 
@@ -89,7 +89,7 @@ The interpolation mode to use when scaling the image brush.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/c7bcae4d-cdef-4bfc-aa5a-68b85497a7f6">D2D1_IMAGE_BRUSH_PROPERTIES</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_image_brush_properties">D2D1_IMAGE_BRUSH_PROPERTIES</a></b>
 
 The struct that describes the image brush.
 

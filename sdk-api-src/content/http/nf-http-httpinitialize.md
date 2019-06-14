@@ -61,7 +61,7 @@ The
 ### -param Version [in]
 
 HTTP version. This parameter is an 
-<a href="https://msdn.microsoft.com/af89ecee-2636-4c61-b863-21fe56666ea8">HTTPAPI_VERSION</a> structure. For the current version, declare an instance of the structure and set it to the pre-defined value HTTPAPI_VERSION_1 before passing it to 
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_httpapi_version">HTTPAPI_VERSION</a> structure. For the current version, declare an instance of the structure and set it to the pre-defined value HTTPAPI_VERSION_1 before passing it to 
 <b>HttpInitialize</b>.
 
 
@@ -81,9 +81,9 @@ Initialization options, which can include one or both of the following values.
 </td>
 <td width="60%">
 Perform initialization for applications that use the HTTP configuration functions, 
-<a href="https://msdn.microsoft.com/b0a6d442-2ff4-4e00-8301-696fb0864d8c">HttpSetServiceConfiguration</a>, 
-<a href="https://msdn.microsoft.com/bbd2c3c4-d2d0-4590-9b5c-6916b91600cd">HttpQueryServiceConfiguration</a> and 
-<a href="https://msdn.microsoft.com/0ae94936-4c6a-4c9f-adb8-5e3af75cf486">HttpDeleteServiceConfiguration</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HttpSetServiceConfiguration</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpdeleteserviceconfiguration">HttpDeleteServiceConfiguration</a>.
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ The <i>Flags</i> parameter contains an unsupported value.
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> defined in WinError.h.
+A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> defined in WinError.h.
 
 </td>
 </tr>
@@ -152,7 +152,7 @@ A <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">syst
 
 
 Call 
-<a href="https://msdn.microsoft.com/d1922375-3d59-45a7-9d1d-08dbce1111ff">HttpTerminate</a> when the application completes. All the same flags that were passed to 
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpterminate">HttpTerminate</a> when the application completes. All the same flags that were passed to 
 <b>HttpInitialize</b> in the <i>Flags</i> parameter must also be passed to 
 <b>HttpTerminate</b>. An application can call 
 <b>HttpInitialize</b> repeatedly, provided that each call to 
@@ -167,11 +167,11 @@ Call
 
 
 
-<a href="https://msdn.microsoft.com/1da9907d-a09d-41e1-aca1-9a8e2b91296f">HTTP Server API Version 1.0 Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-functions">HTTP Server API Version 1.0 Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d1922375-3d59-45a7-9d1d-08dbce1111ff">HttpTerminate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpterminate">HttpTerminate</a>
  
 
  

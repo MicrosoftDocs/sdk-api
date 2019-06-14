@@ -63,7 +63,7 @@ The <code>GetFiltergraph</code> method retrieves the filter graph that the captu
 
 ### -param ppfg [out]
 
-Receives an <a href="https://msdn.microsoft.com/54ed8ac8-4821-4c0c-9fb9-789c70dbca37">IGraphBuilder</a> interface pointer.
+Receives an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a> interface pointer.
 
 
 ## -returns
@@ -124,13 +124,13 @@ Initially, the capture graph builder does not hold a pointer to a filter graph. 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/2fb5f13c-2bf5-463b-a209-77129a159bd6">ICaptureGraphBuilder2::RenderStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icapturegraphbuilder2-renderstream">ICaptureGraphBuilder2::RenderStream</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/6193ece8-cdf1-44f5-9619-16380352193f">ICaptureGraphBuilder2::SetFiltergraph</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icapturegraphbuilder2-setfiltergraph">ICaptureGraphBuilder2::SetFiltergraph</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/b81a79c1-a6f2-4c80-ae86-095fb9f78673">ICaptureGraphBuilder2::SetOutputFileName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icapturegraphbuilder2-setoutputfilename">ICaptureGraphBuilder2::SetOutputFileName</a>
 </li>
 </ul>
 This method increments the reference count on the <b>IGraphBuilder</b> interface. Be sure to release the interface when you are done with it.
@@ -143,11 +143,11 @@ This method increments the reference count on the <b>IGraphBuilder</b> interface
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/abdf6fb2-e98f-4df8-98ec-06d33798abb5">ICaptureGraphBuilder2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icapturegraphbuilder2">ICaptureGraphBuilder2 Interface</a>
  
 
  

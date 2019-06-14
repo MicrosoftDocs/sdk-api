@@ -101,11 +101,11 @@ Storage adapter driver is an SD-port miniport driver.
 
 
 
-<a href="https://msdn.microsoft.com/ed8fe5c1-dbdf-43bc-a0a7-17e541eba950">Disk Management Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-enumeration-types">Disk Management Enumeration Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/b962666d-60ae-4e0b-813e-7b22e1670644">STORAGE_MINIPORT_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_miniport_descriptor">STORAGE_MINIPORT_DESCRIPTOR</a>
  
 
  

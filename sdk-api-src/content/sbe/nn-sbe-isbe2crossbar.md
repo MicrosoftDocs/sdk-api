@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-Defines crossbar functionality for a Stream Buffer Engine (SBE) version 2 (SBE2) <a href="https://msdn.microsoft.com/435081e9-8a3f-42ab-9091-30c7c3dd59c6">Stream Buffer Source</a> filter.
+Defines crossbar functionality for a Stream Buffer Engine (SBE) version 2 (SBE2) <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter.
 
- A <i>crossbar</i> offers the following new features for the <a href="https://msdn.microsoft.com/435081e9-8a3f-42ab-9091-30c7c3dd59c6">Stream Buffer Source</a> filter in Windows 7:
+ A <i>crossbar</i> offers the following new features for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter in Windows 7:
 
 
 <ul>
@@ -61,14 +61,14 @@ Defines crossbar functionality for a Stream Buffer Engine (SBE) version 2 (SBE2)
 </ul>
 
 
-The <b>ISBE2Crossbar</b> interface is implemented by the <a href="https://msdn.microsoft.com/435081e9-8a3f-42ab-9091-30c7c3dd59c6">Stream Buffer Source</a> filter.
+The <b>ISBE2Crossbar</b> interface is implemented by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISBE2Crossbar</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISBE2Crossbar</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISBE2Crossbar</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISBE2Crossbar</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -83,7 +83,7 @@ The <b>ISBE2Crossbar</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5038050b-319d-488a-9cea-a2fc59b90cc8">EnableDefaultMode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-enabledefaultmode">EnableDefaultMode</a>
 </td>
 <td align="left" width="63%">
 Enables or disables profile default mode and stream default mode for the crossbar.
@@ -93,7 +93,7 @@ Enables or disables profile default mode and stream default mode for the crossba
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/891dc676-8930-41bc-a0ae-4a080c6d4cd6">EnumStreams</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-enumstreams">EnumStreams</a>
 </td>
 <td align="left" width="63%">
 Gets an enumeration object for all streams that are discovered within the currently loaded WTV file.
@@ -103,16 +103,16 @@ Gets an enumeration object for all streams that are discovered within the curren
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6a4bec40-2c6d-49fb-8977-3c3db2b2b4df">GetInitialProfile</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-getinitialprofile">GetInitialProfile</a>
 </td>
 <td align="left" width="63%">
-Gets the initial profile, which lists media types for the default set of <a href="https://msdn.microsoft.com/435081e9-8a3f-42ab-9091-30c7c3dd59c6">Stream Buffer Source</a> filter output pins that are specific to the loaded WTV file.
+Gets the initial profile, which lists media types for the default set of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter output pins that are specific to the loaded WTV file.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/34067ca5-ead0-44ac-b274-dc9e3f2fb2fd">SetOutputProfile</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-setoutputprofile">SetOutputProfile</a>
 </td>
 <td align="left" width="63%">
 Replaces the default profile with a custom profile.

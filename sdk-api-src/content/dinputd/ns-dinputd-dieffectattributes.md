@@ -59,7 +59,7 @@ The <b>DIEFFECTATTRIBUTES</b> structure describes the information contained in t
 
 ### -field dwEffectId
 
-Specifies an arbitrary 32-bit value that is passed to the driver to identify the effect. The driver receives this value as the <i>dwEffectID</i> parameter to the <a href="https://msdn.microsoft.com/c10ee6f6-ed9e-45f9-b98d-db62d250a420">IDirectInputEffectDriver::DownloadEffect</a> method. 
+Specifies an arbitrary 32-bit value that is passed to the driver to identify the effect. The driver receives this value as the <i>dwEffectID</i> parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/dinputd/nf-dinputd-idirectinputeffectdriver-downloadeffect">IDirectInputEffectDriver::DownloadEffect</a> method. 
 
 
 ### -field dwEffType

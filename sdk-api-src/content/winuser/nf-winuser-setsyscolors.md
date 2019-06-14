@@ -73,7 +73,7 @@ The number of display elements in the <i>lpaElements</i> array.
 Type: <b>const INT*</b>
 
 An array of integers that specify the display elements to be changed. For a list of display elements, see 
-<a href="https://msdn.microsoft.com/165c1781-161e-4ab2-98c9-eec4e9098d09">GetSysColor</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a>.
 
 
 ### -param lpaRgbValues [in]
@@ -81,11 +81,11 @@ An array of integers that specify the display elements to be changed. For a list
 Type: <b>const COLORREF*</b>
 
 An array of 
-<a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> values that contain the new red, green, blue (RGB) color values for the display elements in the array pointed to by the <i>lpaElements</i> parameter.
+<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> values that contain the new red, green, blue (RGB) color values for the display elements in the array pointed to by the <i>lpaElements</i> parameter.
 
 To generate a 
-<a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a>, use the 
-<a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">RGB</a> macro.
+<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>, use the 
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
 
 
 ## -returns
@@ -98,7 +98,7 @@ Type: <strong>Type: <b>BOOL</b>
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -109,7 +109,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 The 
 <b>SetSysColors</b> function sends a 
-<a href="https://msdn.microsoft.com/ffe61768-86d6-4ea8-ae2d-1095a9afa925">WM_SYSCOLORCHANGE</a> message to all windows to inform them of the change in color. It also directs the system to repaint the affected portions of all currently visible windows.
+<a href="https://docs.microsoft.com/windows/desktop/gdi/wm-syscolorchange">WM_SYSCOLORCHANGE</a> message to all windows to inform them of the change in color. It also directs the system to repaint the affected portions of all currently visible windows.
 
 It is best to respect the color settings specified by the user. If you are writing an application to enable the user to change the colors, then it is appropriate to use this function. However, this 
 function affects only the current session. The new colors are not saved when the system terminates.
@@ -117,7 +117,7 @@ function affects only the current session. The new colors are not saved when the
 
 #### Examples
 
-The following example demonstrates the use of  the <a href="https://msdn.microsoft.com/165c1781-161e-4ab2-98c9-eec4e9098d09">GetSysColor</a> and <b>SetSysColors</b> functions.  First, the example uses <b>GetSysColor</b> to retrieve the colors of the window background and active caption and displays the red, green, blue (RGB) values in hexadecimal notation. Next, example uses <b>SetSysColors</b> to change the color of the window background to light gray and the active title bars to dark purple. After a 10-second delay, the example restores the previous colors for these elements using <a href="https://msdn.microsoft.com/41a7a96c-f9d1-44e3-a7e1-fd7d155c4ed0">SetSysColors</a>.
+The following example demonstrates the use of  the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a> and <b>SetSysColors</b> functions.  First, the example uses <b>GetSysColor</b> to retrieve the colors of the window background and active caption and displays the red, green, blue (RGB) values in hexadecimal notation. Next, example uses <b>SetSysColors</b> to change the color of the window background to light gray and the active title bars to dark purple. After a 10-second delay, the example restores the previous colors for these elements using <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setsyscolors">SetSysColors</a>.
 
 
 ```
@@ -189,15 +189,15 @@ void main()
 
 
 
-<a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
 
 
 
-<a href="https://msdn.microsoft.com/165c1781-161e-4ab2-98c9-eec4e9098d09">GetSysColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a>
 
 
 
-<a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">RGB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
  
 
  

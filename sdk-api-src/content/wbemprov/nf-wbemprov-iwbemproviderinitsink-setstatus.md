@@ -106,11 +106,11 @@ If <i>lStatus</i> is set to <b>WBEM_S_INITIALIZED</b>, Windows Management expect
 
 
 
-<a href="https://msdn.microsoft.com/abcee170-6a28-44d2-97d6-cb62c393b534">IWbemProviderInitSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbemproviderinitsink">IWbemProviderInitSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/3dc145b8-1ce4-4caa-b2ac-31a3681e76f1">Initializing a Provider</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/initializing-a-provider">Initializing a Provider</a>
  
 
  

@@ -64,7 +64,7 @@ Specifies the peer graph associated with the specified record.
 
 ### -param pvContext [in]
 
-Pointer to the security context. This parameter should point to the <b>pvContext</b> member of the <a href="https://msdn.microsoft.com/b4331cfc-dc1a-490b-b21d-0550f1d3fe33">PEER_SECURITY_INTERFACE</a> structure.
+Pointer to the security context. This parameter should point to the <b>pvContext</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_security_interface_tag">PEER_SECURITY_INTERFACE</a> structure.
 
 
 ### -param pRecord [in]
@@ -74,7 +74,7 @@ Specifies the record to validate.
 
 ### -param changeType [in]
 
-Specifies the reason the validation must occur.  Must be one of the  <a href="https://msdn.microsoft.com/d2451b45-eb42-4401-ab1d-505a41e25822">PEER_RECORD_CHANGE_TYPE</a> values.
+Specifies the reason the validation must occur.  Must be one of the  <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_record_change_type_tag">PEER_RECORD_CHANGE_TYPE</a> values.
 
 
 ## -returns
@@ -106,7 +106,7 @@ One of the parameters is not valid.
 </dl>
 </td>
 <td width="60%">
-The specified record cannot be validated at this time because there is insufficient information to complete the operation. Validation is deferred. Call <a href="https://msdn.microsoft.com/a9a48d8a-f31e-4526-bd09-826f04a564b1">PeerGraphValidateDeferredRecords</a> when sufficient information is obtained.
+The specified record cannot be validated at this time because there is insufficient information to complete the operation. Validation is deferred. Call <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphvalidatedeferredrecords">PeerGraphValidateDeferredRecords</a> when sufficient information is obtained.
 
 </td>
 </tr>
@@ -131,9 +131,9 @@ The specified record is invalid.
 
 
 
-When this callback is called by the Peer Graphing Infrastructure, a <a href="https://msdn.microsoft.com/d2451b45-eb42-4401-ab1d-505a41e25822">PEER_RECORD_CHANGE_TYPE</a> value is passed.  This specifies  the operation just performed on the record.  The application must verify the record based on the change type.  If the application  requires more information to verify the record, it can return PEER_E_DEFERRED_VALIDATION  and the Peer Graphing  Infrastructure places the record  in a deferred-record list.  Once the security mechanism has enough information to validate the record, it  calls <a href="https://msdn.microsoft.com/a9a48d8a-f31e-4526-bd09-826f04a564b1">PeerGraphValidateDeferredRecords</a>, and any record in the deferred-record list is re-submitted for validation.
+When this callback is called by the Peer Graphing Infrastructure, a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_record_change_type_tag">PEER_RECORD_CHANGE_TYPE</a> value is passed.  This specifies  the operation just performed on the record.  The application must verify the record based on the change type.  If the application  requires more information to verify the record, it can return PEER_E_DEFERRED_VALIDATION  and the Peer Graphing  Infrastructure places the record  in a deferred-record list.  Once the security mechanism has enough information to validate the record, it  calls <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphvalidatedeferredrecords">PeerGraphValidateDeferredRecords</a>, and any record in the deferred-record list is re-submitted for validation.
 
-This callback can be invoked from any of the Peer Graphing API functions involving records, such as <a href="https://msdn.microsoft.com/9007095f-4f2a-4e92-895b-9a4033f0f7b9">PeerGraphUpdateRecord</a>. 
+This callback can be invoked from any of the Peer Graphing API functions involving records, such as <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphupdaterecord">PeerGraphUpdateRecord</a>. 
 
 
 
@@ -143,19 +143,19 @@ This callback can be invoked from any of the Peer Graphing API functions involvi
 
 
 
-<a href="https://msdn.microsoft.com/4e0a1c44-e5a4-42d6-bb56-9bdcf7f9e6f1">PEER_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record_tag">PEER_RECORD</a>
 
 
 
-<a href="https://msdn.microsoft.com/d2451b45-eb42-4401-ab1d-505a41e25822">PEER_RECORD_CHANGE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_record_change_type_tag">PEER_RECORD_CHANGE_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/b4331cfc-dc1a-490b-b21d-0550f1d3fe33">PEER_SECURITY_INTERFACE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_security_interface_tag">PEER_SECURITY_INTERFACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/a9a48d8a-f31e-4526-bd09-826f04a564b1">PeerGraphValidateDeferredRecords</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphvalidatedeferredrecords">PeerGraphValidateDeferredRecords</a>
  
 
  

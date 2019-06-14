@@ -86,7 +86,7 @@ Returns an <b>HRESULT</b> value.
 
 This method initializates the interface. It is not designed to load multiple files, and any calls to this method after the first call will fail.
 
-For the <a href="https://msdn.microsoft.com/0cf6e7ab-b1fe-42f9-b682-c5484ef48c71">File Source (Async)</a> filter, <i>pszFileName</i> specifies the absolute path name of a local file. For the <a href="https://msdn.microsoft.com/405fd6ea-aa17-4d11-8f07-067468cb090b">File Source (URL)</a> filter, <i>pszFileName</i> specifies the URL of a file to download. For other filter implementations, <i>pszFileName</i> might require a file name or a URL, depending on the filter.
+For the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/file-source--async--filter">File Source (Async)</a> filter, <i>pszFileName</i> specifies the absolute path name of a local file. For the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/file-source--url--filter">File Source (URL)</a> filter, <i>pszFileName</i> specifies the URL of a file to download. For other filter implementations, <i>pszFileName</i> might require a file name or a URL, depending on the filter.
 
 
 
@@ -96,11 +96,11 @@ For the <a href="https://msdn.microsoft.com/0cf6e7ab-b1fe-42f9-b682-c5484ef48c71
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/ad70fddb-4fc9-4010-a469-9a8ca4b47379">IFileSourceFilter Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifilesourcefilter">IFileSourceFilter Interface</a>
  
 
  

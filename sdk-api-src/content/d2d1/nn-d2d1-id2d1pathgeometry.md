@@ -54,7 +54,7 @@ Represents a complex shape that may be composed of arcs, curves, and lines.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1PathGeometry</b> interface inherits from <a href="https://msdn.microsoft.com/be4ab801-64f6-48f9-8f62-d0492cc438b1">ID2D1Geometry</a>. <b>ID2D1PathGeometry</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1PathGeometry</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>. <b>ID2D1PathGeometry</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1PathGeometry</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f46d28f6-5f46-45eb-85c9-6d3b21fa2cff">GetFigureCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1pathgeometry-getfigurecount">GetFigureCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of figures in the path geometry.
@@ -78,7 +78,7 @@ Retrieves the number of figures in the path geometry.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/53a80fec-5851-4b62-aa9b-fb7f8b15b0e7">GetSegmentCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1pathgeometry-getsegmentcount">GetSegmentCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of segments in the path geometry.
@@ -87,7 +87,7 @@ Retrieves the number of segments in the path geometry.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/08ff9ffb-1f1e-440c-a22c-dc58865b678a">Open</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1pathgeometry-open">Open</a>
 </td>
 <td align="left" width="63%">
 Retrieves the geometry sink that is used to populate the path geometry with figures and segments. 
@@ -96,10 +96,10 @@ Retrieves the geometry sink that is used to populate the path geometry with figu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e128b4e7-8fde-44f1-a7a3-928aace0fe7f">Stream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1pathgeometry-stream">Stream</a>
 </td>
 <td align="left" width="63%">
-Copies the contents of the path geometry to the specified <a href="https://msdn.microsoft.com/6d2c1959-1309-45d8-8204-19ffea03375b">ID2D1GeometrySink</a>.
+Copies the contents of the path geometry to the specified <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometrysink">ID2D1GeometrySink</a>.
 
 </td>
 </tr>
@@ -110,17 +110,17 @@ Copies the contents of the path geometry to the specified <a href="https://msdn.
 
 
 
-An <b>ID2D1PathGeometry</b> object enables you to describe a geometric path. To describe an <b>ID2D1PathGeometry</b>  object's path, use the object's  <a href="https://msdn.microsoft.com/08ff9ffb-1f1e-440c-a22c-dc58865b678a">Open</a> method to retrieve an <a href="https://msdn.microsoft.com/6d2c1959-1309-45d8-8204-19ffea03375b">ID2D1GeometrySink</a>. Use the sink to populate the path geometry with figures and segments. 
+An <b>ID2D1PathGeometry</b> object enables you to describe a geometric path. To describe an <b>ID2D1PathGeometry</b>  object's path, use the object's  <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1pathgeometry-open">Open</a> method to retrieve an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometrysink">ID2D1GeometrySink</a>. Use the sink to populate the path geometry with figures and segments. 
 
 <h3><a id="Creating_ID2D1PathGeometry_Objects"></a><a id="creating_id2d1pathgeometry_objects"></a><a id="CREATING_ID2D1PATHGEOMETRY_OBJECTS"></a>Creating ID2D1PathGeometry Objects</h3>
-To create a path geometry, use the <a href="https://msdn.microsoft.com/35c46055-3df2-44d5-b11d-520ab2fa4a0e">ID2D1Factory::CreatePathGeometry</a>  method.   
+To create a path geometry, use the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-createpathgeometry">ID2D1Factory::CreatePathGeometry</a>  method.   
 
-<b>ID2D1PathGeometry</b> objects are device-independent resources created by <a href="https://msdn.microsoft.com/cef6115c-98e8-49e6-b419-271b43ce2938">ID2D1Factory</a>.  In general, you should create geometries once and retain them for the life of the application, or until they need to be modified. For more information about device-independent and device-dependent resources, see  the <a href="https://msdn.microsoft.com/afd308a7-9524-4436-9a0e-8575383d96fa">Resources Overview</a>. 
+<b>ID2D1PathGeometry</b> objects are device-independent resources created by <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>.  In general, you should create geometries once and retain them for the life of the application, or until they need to be modified. For more information about device-independent and device-dependent resources, see  the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/resources-and-resource-domains">Resources Overview</a>. 
 
 
 #### Examples
 
-The following example creates an <b>ID2D1PathGeometry</b>, retrieves a sink, and uses it to define an hourglass shape. For the complete example, see <a href="https://msdn.microsoft.com/d7aad487-04e0-448d-bedf-b8dfadc7bbe9">How to Draw and Fill a Complex Shape</a>.
+The following example creates an <b>ID2D1PathGeometry</b>, retrieves a sink, and uses it to define an hourglass shape. For the complete example, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-draw-and-fill-a-complex-shape">How to Draw and Fill a Complex Shape</a>.
 
 
 ```cpp
@@ -185,23 +185,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/371a6662-f68f-418a-a81d-239de56877f1">Geometries How-to Topics</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/geometries-how-to-topics">Geometries How-to Topics</a>
 
 
 
-<a href="https://msdn.microsoft.com/f5870d4b-dd30-4034-884e-1c398a6865c6">Geometries Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-geometries-overview">Geometries Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/35c46055-3df2-44d5-b11d-520ab2fa4a0e">ID2D1Factory::CreatePathGeometry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-createpathgeometry">ID2D1Factory::CreatePathGeometry</a>
 
 
 
-<a href="https://msdn.microsoft.com/be4ab801-64f6-48f9-8f62-d0492cc438b1">ID2D1Geometry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>
 
 
 
-<a href="https://msdn.microsoft.com/38a290be-b915-4317-b9b1-0e49e40dc8ec">Path Geometries Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/path-geometries-overview">Path Geometries Overview</a>
  
 
  

@@ -90,7 +90,7 @@ Must be zero.
 If the function succeeds, the return value is <b>NERR_Success</b>.
 
 If the function fails, the return value is a system error code. For a list of error codes, see 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -104,7 +104,7 @@ The caller must have permission to update the DFS container in the directory ser
 The <b>NetDfsRemoveFtRootForced</b> function forcibly removes a domain-based DFS root target from a DFS namespace.  It is used to delete a domain-based DFS namespace when the root target servers of the namespace are no longer available (for example, because they have been decommissioned).
 
 Because  the DFS root target is removed by contacting the primary domain controller (PDC) and not by removing the DFS root target server, <b>NetDfsRemoveFtRootForced</b> does not update the registry of the root target server. Under normal circumstances, you can remove the root target from a DFS domain root by calling the 
-<a href="https://msdn.microsoft.com/aa5c9991-ca8e-48ba-922d-feadaff45cc2">NetDfsRemoveFtRoot</a> function.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsremoveftroot">NetDfsRemoveFtRoot</a> function.
 
 
 
@@ -114,24 +114,24 @@ Because  the DFS root target is removed by contacting the primary domain control
 
 
 
-<a href="https://msdn.microsoft.com/a29cde3e-483a-4658-94d4-27398f66abfb">Distributed File System (DFS) Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dfs/distributed-file-system-dfs-functions">Distributed File System (DFS) Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/df3192f8-f8fc-40ad-a5ff-fb991befff09">NetDfsAddFtRoot</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsaddftroot">NetDfsAddFtRoot</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa5c9991-ca8e-48ba-922d-feadaff45cc2">NetDfsRemoveFtRoot</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsremoveftroot">NetDfsRemoveFtRoot</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd159e2e-f37e-46b2-b980-008b73d40b39">Network
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
     Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
     Overview</a>
  
 

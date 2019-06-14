@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 Indicates the state of the cluster. The 
-     <a href="https://msdn.microsoft.com/67534bc8-f19e-4330-850a-788a7f031f5b">GetNodeClusterState</a> function uses this 
+     <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getnodeclusterstate">GetNodeClusterState</a> function uses this 
      enumeration.
 
 
@@ -132,11 +132,11 @@ The following constants are defined in ClusAPI.h.
 
 
 
-<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/67534bc8-f19e-4330-850a-788a7f031f5b">GetNodeClusterState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getnodeclusterstate">GetNodeClusterState</a>
  
 
  

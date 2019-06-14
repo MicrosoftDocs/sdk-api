@@ -171,7 +171,7 @@ The caller must free the memory allocated for each string returned in the <i>Nam
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd376585(v=VS.85).aspx">IEnumDMO Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-ienumdmo">IEnumDMO Interface</a>
  
 
  

@@ -200,7 +200,7 @@ Reloads HTTP resources if the resource has been modified since the last time it 
 ### -param dwContext [in]
 
 Pointer to a variable that contains the application-defined value that associates this search with any application data. This parameter is used only if the application has already called 
-<a href="https://msdn.microsoft.com/fe15627b-c77b-45c0-8ff6-02faa8512b57">InternetSetStatusCallback</a> to set up a status callback.
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetsetstatuscallback">InternetSetStatusCallback</a> to set up a status callback.
 
 
 ## -returns
@@ -208,7 +208,7 @@ Pointer to a variable that contains the application-defined value that associate
 
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get a specific error message, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -218,8 +218,8 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get a specific 
 
 
 <b>FtpPutFile</b> is a high-level routine that handles all the bookkeeping and overhead associated with reading a file locally and storing it on an FTP server. An application that needs to send file data only, or that requires close control over the file transfer, should use the 
-<a href="https://msdn.microsoft.com/fb44d7bd-7868-4c53-aa4b-608d79c5bc7c">FtpOpenFile</a> and 
-<a href="https://msdn.microsoft.com/3bf8d4d8-9193-4aed-acf9-8d7207b332a5">InternetWriteFile</a> functions.
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-ftpopenfilea">FtpOpenFile</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetwritefile">InternetWriteFile</a> functions.
 
 If the 
 <i>dwFlags</i> parameter specifies <b>FILE_TRANSFER_TYPE_ASCII</b>, translation of the file data converts control and formatting characters to local equivalents.
@@ -230,7 +230,7 @@ Both
 
 Like all other aspects of the WinINet API, this function cannot be safely called from within DllMain or the constructors and destructors of global objects.
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
@@ -240,11 +240,11 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 
-<a href="https://msdn.microsoft.com/23763672-765f-4bbc-95c9-c28775e91f3d">FTP Sessions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinInet/ftp-sessions">FTP Sessions</a>
 
 
 
-<a href="https://msdn.microsoft.com/2e0da5c6-29e4-47b5-8ed2-8712c9ca2c97">WinINet Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
  
 
  

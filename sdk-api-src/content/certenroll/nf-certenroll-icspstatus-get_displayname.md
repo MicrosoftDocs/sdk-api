@@ -62,7 +62,7 @@ This property is read-only.
 
 
 
-The format of the string returned by this property depends on whether the provider is a CryptoAPI <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) or a Cryptography API: Next Generation (CNG) provider.<ul>
+The format of the string returned by this property depends on whether the provider is a CryptoAPI <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) or a Cryptography API: Next Generation (CNG) provider.<ul>
 <li>The format of the string for a CSP is <i>ProviderName(KeyType)</i> where <i>KeyType</i> is either "Signature" or "Encryption".</li>
 <li>The format of the string for a CNG provider is <i>AlgorithmName,ProviderName</i> where <i>AlgorithmName</i> can be "Unknown Algorithm".</li>
 </ul>
@@ -76,11 +76,11 @@ The format of the string returned by this property depends on whether the provid
 
 
 
-<a href="https://msdn.microsoft.com/30cc43c8-6ef3-49ad-8cff-9a5b7389ff68">ICspStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatus">ICspStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/73d0f3a7-7afd-42c9-88db-911531c50137">ICspStatuses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a>
  
 
  

@@ -88,11 +88,11 @@ The stream is stopped, paused, or playing.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563642(v=VS.85).aspx">IWMPServices Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nn-wmpservices-iwmpservices">IWMPServices Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd564885(v=VS.85).aspx">WMPServices_StreamState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/ne-wmpservices-wmpservices_streamstate">WMPServices_StreamState</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Draws an image to the device context using the specified blend mode. 
-        Results are equivalent to using Direct2D's built-in <a href="https://msdn.microsoft.com/39D8BAA3-8FF3-4F10-99A0-B26FCA3018AE">Blend effect</a>.
+        Results are equivalent to using Direct2D's built-in <a href="https://docs.microsoft.com/windows/desktop/Direct2D/blend">Blend effect</a>.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ The image to be drawn to the device context.
 
 Type: <b>D2D1_BLEND_MODE</b>
 
-The blend mode to be used. See <a href="https://msdn.microsoft.com/en-us/library/Hh706313(v=VS.85).aspx">Blend modes</a> for more info.
+The blend mode to be used. See <a href="https://docs.microsoft.com/windows/desktop/Direct2D/blend">Blend modes</a> for more info.
 
 
 ### -param targetOffset [in, optional]
@@ -111,7 +111,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/474788F4-8AD7-4D5C-BF0B-9542E69620A9">ID2D1DeviceContext6</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext6">ID2D1DeviceContext6</a>
  
 
  

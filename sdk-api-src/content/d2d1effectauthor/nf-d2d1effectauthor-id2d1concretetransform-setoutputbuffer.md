@@ -60,14 +60,14 @@ Sets the properties of the output buffer of the specified transform node.
 
 ### -param bufferPrecision
 
-Type: <b><a href="https://msdn.microsoft.com/a2a4b4fd-685d-4068-b1f5-609e6ab024e2">D2D1_BUFFER_PRECISION</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_buffer_precision">D2D1_BUFFER_PRECISION</a></b>
 
 The number of bits and the type of the output buffer.
 
 
 ### -param channelDepth
 
-Type: <b><a href="https://msdn.microsoft.com/78129b15-a770-49c0-b58b-8cb850f80006">D2D1_CHANNEL_DEPTH</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/ne-d2d1effectauthor-d2d1_channel_depth">D2D1_CHANNEL_DEPTH</a></b>
 
 The number of channels in the output buffer (1 or 4).
 
@@ -103,7 +103,7 @@ The method returns an HRESULT. Possible values include, but are not limited to, 
 
 
 
-You can use the <a href="https://msdn.microsoft.com/731A7CF3-03E7-4D38-A8DD-8D207AE90B16">ID2D1EffectContext::IsBufferPrecisionSupported</a> method to see if buffer precision is supported.
+You can use the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-isbufferprecisionsupported">ID2D1EffectContext::IsBufferPrecisionSupported</a> method to see if buffer precision is supported.
 
 The available channel depth and precision depend on the capabilities of the underlying Microsoft Direct3D device.
 
@@ -115,15 +115,15 @@ The available channel depth and precision depend on the capabilities of the unde
 
 
 
-<a href="https://msdn.microsoft.com/a2a4b4fd-685d-4068-b1f5-609e6ab024e2">D2D1_BUFFER_PRECISION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_buffer_precision">D2D1_BUFFER_PRECISION</a>
 
 
 
-<a href="https://msdn.microsoft.com/78129b15-a770-49c0-b58b-8cb850f80006">D2D1_CHANNEL_DEPTH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/ne-d2d1effectauthor-d2d1_channel_depth">D2D1_CHANNEL_DEPTH</a>
 
 
 
-<a href="https://msdn.microsoft.com/5349EF29-767F-4C78-A6F9-B0C6F143E762">ID2D1ConcreteTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1concretetransform">ID2D1ConcreteTransform</a>
  
 
  

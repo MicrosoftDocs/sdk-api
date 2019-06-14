@@ -66,9 +66,9 @@ The number of elements to retrieve.
 
 ### -param rgelt [out]
 
-Type: <b><a href="https://msdn.microsoft.com/5d5a107c-2c0e-4242-8f40-97421937167c">IAssocHandler</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iassochandler">IAssocHandler</a>**</b>
 
-When this method returns, contains the address of an array of <a href="https://msdn.microsoft.com/5d5a107c-2c0e-4242-8f40-97421937167c">IAssocHandler</a> pointers. Each <b>IAssocHandler</b> represents a single handler.
+When this method returns, contains the address of an array of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iassochandler">IAssocHandler</a> pointers. Each <b>IAssocHandler</b> represents a single handler.
 
 
 ### -param pceltFetched [out]

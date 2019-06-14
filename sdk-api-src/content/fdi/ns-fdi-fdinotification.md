@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>FDINOTIFICATION</b> structure to provide information to <a href="https://msdn.microsoft.com/7655ddb2-7cd4-4012-913c-9909fcea639a">FNFDINOTIFY</a>.
+The <b>FDINOTIFICATION</b> structure to provide information to <a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fnfdinotify">FNFDINOTIFY</a>.
 
 
 ## -struct-fields
@@ -307,7 +307,7 @@ FDI aborted.
 
 
 
-<a href="https://msdn.microsoft.com/7655ddb2-7cd4-4012-913c-9909fcea639a">FNFDINOTIFY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fnfdinotify">FNFDINOTIFY</a>
  
 
  

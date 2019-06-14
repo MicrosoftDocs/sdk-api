@@ -59,7 +59,7 @@ Determines whether the effect allows in-place modifications.
 
 ### -param pOutputConnector [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735267(v=VS.85).aspx">IMILBitmapEffectOutputConnector</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffectoutputconnector">IMILBitmapEffectOutputConnector</a>*</b>
 
 The output connect to check if in-place modifications are allowed.
 

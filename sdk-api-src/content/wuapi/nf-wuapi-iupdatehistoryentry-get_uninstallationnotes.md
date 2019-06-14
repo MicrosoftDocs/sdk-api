@@ -76,11 +76,11 @@ The information that   this property returns is for the default user interface (
 
 
 
-<a href="https://msdn.microsoft.com/7f67ba11-41b5-4185-a78d-75c76dbe1fbe">IUpdateHistoryEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatehistoryentry">IUpdateHistoryEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c2a209f-10e8-4158-8201-a062f86b5fdd">IUpdateHistoryEntry.ClientApplicationID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatehistoryentry-get_clientapplicationid">IUpdateHistoryEntry.ClientApplicationID</a>
  
 
  

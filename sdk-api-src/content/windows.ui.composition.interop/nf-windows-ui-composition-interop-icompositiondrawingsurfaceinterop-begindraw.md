@@ -101,7 +101,7 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error
 
 
 
-<a href="https://msdn.microsoft.com/C8A94128-009A-4327-8E77-A4E155D0910E">ICompositionDrawingSurfaceInterop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.composition.interop/nn-windows-ui-composition-interop-icompositiondrawingsurfaceinterop">ICompositionDrawingSurfaceInterop</a>
  
 
  

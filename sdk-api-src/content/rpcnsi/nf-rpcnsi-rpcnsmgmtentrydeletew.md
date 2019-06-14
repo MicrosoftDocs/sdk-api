@@ -165,7 +165,7 @@ Not an RPC entry.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -188,7 +188,7 @@ Because name-service databases are designed to be relatively stable, frequent us
 
 
 
-<a href="https://msdn.microsoft.com/32de2395-174a-4e14-82db-9043db817708">RpcNsMgmtEntryCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmtentrycreatea">RpcNsMgmtEntryCreate</a>
  
 
  

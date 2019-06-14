@@ -95,11 +95,11 @@ The audio session is disconnected on the default audio device.
 
 
 
-    By default, the system adjusts the volume for all currently playing sounds when the system starts a communication session and receives a new communication stream on the default communication device. For more information about this feature, see <a href="https://msdn.microsoft.com/bec2127d-fb82-436d-beee-d43e8fef5c35">Using a Communication Device</a>.
+    By default, the system adjusts the volume for all currently playing sounds when the system starts a communication session and receives a new communication stream on the default communication device. For more information about this feature, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/using-the-communication-device">Using a Communication Device</a>.
 
-If the application passes <b>TRUE</b> in <i>optOut</i>, the system disables the <a href="https://msdn.microsoft.com/2ad9482f-1888-4f19-bc41-9d47a8e0ed15">Default Ducking Experience</a>. For more information, see <a href="https://msdn.microsoft.com/5604b927-99f8-450f-a48c-b38d782584de">Disabling the Default Ducking Experience</a>.
+If the application passes <b>TRUE</b> in <i>optOut</i>, the system disables the <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/stream-attenuation">Default Ducking Experience</a>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/disabling-the-ducking-experience">Disabling the Default Ducking Experience</a>.
 
-To provide a custom implementation, the application needs to get notifications from the system when it opens or closes the communication stream. To receive the notifications, the application must call this method before registering itself by calling <b>IAudioSessionManager2::RegisterForDuckNotification</b>. For more information and example code, see <a href="https://msdn.microsoft.com/709ad912-6b03-4ad3-bc47-ad8b6bd6de45">Getting Ducking Events</a>.
+To provide a custom implementation, the application needs to get notifications from the system when it opens or closes the communication stream. To receive the notifications, the application must call this method before registering itself by calling <b>IAudioSessionManager2::RegisterForDuckNotification</b>. For more information and example code, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/getting-ducking-events-from-a-communication-device">Getting Ducking Events</a>.
 
 If the application passes <b>FALSE</b> in <i>optOut</i>, the application provides the default stream attenuation experience provided by the system.
 
@@ -114,7 +114,7 @@ We recommend that the application call <b>SetDuckingPreference</b> during stream
 
 
 
-<a href="https://msdn.microsoft.com/3bb65edf-103c-4eeb-82b4-7c571cddfcf3">IAudioSessionControl2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol2">IAudioSessionControl2</a>
  
 
  

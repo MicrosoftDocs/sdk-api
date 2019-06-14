@@ -71,7 +71,7 @@ Minor version number. Can be either 1 or 0.
 
 
 
-<div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Run-Time Requirements</a> section of the WinHttp start page.</div>
+<div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Run-Time Requirements</a> section of the WinHttp start page.</div>
 <div> </div>
 
 
@@ -81,7 +81,7 @@ Minor version number. Can be either 1 or 0.
 
 
 
-<a href="https://msdn.microsoft.com/b69e5087-7849-4cbc-a97b-204a26fdd044">WinHTTP
+<a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP
 		  Versions</a>
  
 

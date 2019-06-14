@@ -68,7 +68,7 @@ Sets the time-out value used by the specified mailslot for a read operation.
 ### -param hMailslot [in]
 
 A handle to a mailslot. The 
-<a href="https://msdn.microsoft.com/a2e8199f-4d00-4315-9562-ff30f4fafcb7">CreateMailslot</a> function must create this handle.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createmailslota">CreateMailslot</a> function must create this handle.
 
 
 ### -param lReadTimeout [in]
@@ -115,7 +115,7 @@ This time-out value applies to all subsequent read operations and to all inherit
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -125,7 +125,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 The initial time-out value used by a mailslot for a read operation is typically set by 
-<a href="https://msdn.microsoft.com/a2e8199f-4d00-4315-9562-ff30f4fafcb7">CreateMailslot</a> when the mailslot is created.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createmailslota">CreateMailslot</a> when the mailslot is created.
 
 
 
@@ -135,19 +135,19 @@ The initial time-out value used by a mailslot for a read operation is typically 
 
 
 
-<a href="https://msdn.microsoft.com/a2e8199f-4d00-4315-9562-ff30f4fafcb7">CreateMailslot</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createmailslota">CreateMailslot</a>
 
 
 
-<a href="https://msdn.microsoft.com/873b4dbe-f808-4731-9314-a595ef7ef3c5">GetMailslotInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getmailslotinfo">GetMailslotInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/85f89fcc-2ab1-411b-ab3e-f1e9d425433f">Mailslot Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/ipc/mailslot-functions">Mailslot Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/e23894ca-edc7-49e6-bcc4-c82f357ecedf">Mailslots Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/ipc/mailslots">Mailslots Overview</a>
  
 
  

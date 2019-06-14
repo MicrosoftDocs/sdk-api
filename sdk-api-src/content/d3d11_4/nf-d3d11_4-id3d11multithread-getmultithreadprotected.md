@@ -75,11 +75,11 @@ Returns true if multithread protection is turned on, false otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/1A07694E-7D61-4A59-82E3-048F04C8D57A">ID3D11Multithread</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_4/nn-d3d11_4-id3d11multithread">ID3D11Multithread</a>
 
 
 
-<a href="https://msdn.microsoft.com/E8BF9A25-CCEA-44F3-AE7C-376E5B672079">SetMultithreadProtected</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11multithread-setmultithreadprotected">SetMultithreadProtected</a>
  
 
  

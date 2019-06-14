@@ -64,5 +64,5 @@ Specifies the number of environment variables contained within the <b>vars</b> a
 
 ### -field vars
 
-Defines an array of environment variables. Each element of the array is of type <a href="https://msdn.microsoft.com/0bf58de5-0c0b-4dc2-ba8b-c75e8201adc8">WSMAN_ENVIRONMENT_VARIABLE</a>.
+Defines an array of environment variables. Each element of the array is of type <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_environment_variable">WSMAN_ENVIRONMENT_VARIABLE</a>.
 

@@ -54,7 +54,7 @@ Called by AutoPlay to implement the handling of registered media types.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IHWEventHandler</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IHWEventHandler</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IHWEventHandler</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IHWEventHandler</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IHWEventHandler</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/575ca84c-8cf9-4ed6-a997-844cf0533986">HandleEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ihweventhandler-handleevent">HandleEvent</a>
 </td>
 <td align="left" width="63%">
 Handles AutoPlay device events for which there is no content of the type the application is registered to handle.
@@ -78,7 +78,7 @@ Handles AutoPlay device events for which there is no content of the type the app
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d5787ebd-2784-4e86-b749-93258a1a26bd">HandleEventWithContent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ihweventhandler-handleeventwithcontent">HandleEventWithContent</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -87,7 +87,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/96eb582a-4f32-4e13-ad01-8b5ffabab582">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ihweventhandler-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes an object that contains an implementation of the <b>IHWEventHandler</b> interface.
@@ -103,7 +103,7 @@ Initializes an object that contains an implementation of the <b>IHWEventHandler<
 
 Developers supporting this interface must expose it in a Component Object Model (COM) server.
 
-All applications registered as AutoPlay media handlers must implement this interface. Handlers that implement this interface should return quickly from calls to <a href="https://msdn.microsoft.com/575ca84c-8cf9-4ed6-a997-844cf0533986">IHWEventHandler::HandleEvent</a> and  <a href="https://msdn.microsoft.com/65720250-ace5-488d-9be7-33b07d7cc667">IHWEventHandler2::HandleEventWithHWND</a> so they won't block the AutoPlay dialog from closing. Additionally, if a local server must be launched for the creation of this handler, it should not block the CreateInstance call; it should return as soon as possible.
+All applications registered as AutoPlay media handlers must implement this interface. Handlers that implement this interface should return quickly from calls to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ihweventhandler-handleevent">IHWEventHandler::HandleEvent</a> and  <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ihweventhandler2-handleeventwithhwnd">IHWEventHandler2::HandleEventWithHWND</a> so they won't block the AutoPlay dialog from closing. Additionally, if a local server must be launched for the creation of this handler, it should not block the CreateInstance call; it should return as soon as possible.
       
 
 

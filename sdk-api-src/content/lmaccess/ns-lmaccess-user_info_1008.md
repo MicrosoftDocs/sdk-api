@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The
 				<b>USER_INFO_1008</b> structure contains a set of bit flags defining several user network account parameters. This information level is valid only when you call the 
-<a href="https://msdn.microsoft.com/ffe49d4b-e7e8-4982-8087-59bb7534b257">NetUserSetInfo</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function.
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ The
 The features to associate with the user account specified in the <i>username</i> parameter to the 
 <b>NetUserSetInfo</b> function. This member can be one or more of the following values. 
 
-Note that setting  user account control flags may require certain <a href="https://msdn.microsoft.com/fe6aae0f-93eb-4aba-a6ac-45e71c251c51">privileges</a> and <a href="https://msdn.microsoft.com/27ad74bd-ad87-422e-a4a2-02c0d51c4dd4">control access rights</a>. For more information, see the Remarks section of the <a href="https://msdn.microsoft.com/ffe49d4b-e7e8-4982-8087-59bb7534b257">NetUserSetInfo</a> function.
+Note that setting  user account control flags may require certain <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/privileges">privileges</a> and <a href="https://docs.microsoft.com/windows/desktop/AD/control-access-rights">control access rights</a>. For more information, see the Remarks section of the <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function.
 
 <table>
 <tr>
@@ -128,7 +128,7 @@ The user cannot change the password.
 </td>
 <td width="60%">
 The account is currently locked out. You can call the 
-<a href="https://msdn.microsoft.com/ffe49d4b-e7e8-4982-8087-59bb7534b257">NetUserSetInfo</a> function to clear this value and unlock a previously locked account. You cannot use this value to lock a previously unlocked account.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function to clear this value and unlock a previously locked account. You cannot use this value to lock a previously unlocked account.
 
 </td>
 </tr>
@@ -230,7 +230,7 @@ The account is currently locked out. You can call the
  
 
 The following values describe the account type. Only one value can be set. You cannot change the account type using the 
-<a href="https://msdn.microsoft.com/ffe49d4b-e7e8-4982-8087-59bb7534b257">NetUserSetInfo</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function.
 
 <table>
 <tr>
@@ -296,19 +296,19 @@ This is a permit to trust account for a domain that trusts other domains.
 
 
 
-<a href="https://msdn.microsoft.com/ffe49d4b-e7e8-4982-8087-59bb7534b257">NetUserSetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4b05054-bef2-4cab-89f6-725d92ee75b8">Network Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/cf0e5102-3924-46c0-8124-0aa04e95f48d">User Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/user-functions">User Functions</a>
  
 
  

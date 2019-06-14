@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION</b> structure is used by the 
-<a href="https://msdn.microsoft.com/7d45f63f-0baf-4236-b245-d36f9eb32e8c">QueryActCtxW</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-queryactctxw">QueryActCtxW</a> function.
 
 
 ## -struct-fields
@@ -109,15 +109,15 @@ Metadata satellite roster index.
 ### -field ulManifestVersionMajor
 
 Major version of the assembly queried by 
-<a href="https://msdn.microsoft.com/7d45f63f-0baf-4236-b245-d36f9eb32e8c">QueryActCtxW</a>. For more information, see 
-<a href="https://msdn.microsoft.com/0b78ecf6-fbff-4172-9b0d-09f993666db1">Assembly Versions</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-queryactctxw">QueryActCtxW</a>. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/SbsCs/assembly-versions">Assembly Versions</a>.
 
 
 ### -field ulManifestVersionMinor
 
 Minor version of the assembly queried by 
-<a href="https://msdn.microsoft.com/7d45f63f-0baf-4236-b245-d36f9eb32e8c">QueryActCtxW</a>. For more information, see 
-<a href="https://msdn.microsoft.com/0b78ecf6-fbff-4172-9b0d-09f993666db1">Assembly Versions</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-queryactctxw">QueryActCtxW</a>. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/SbsCs/assembly-versions">Assembly Versions</a>.
 
 
 ### -field ulPolicyVersionMajor
@@ -167,7 +167,7 @@ Pointer to a null-terminated string that indicates the folder from which this as
 
 
 If 
-<a href="https://msdn.microsoft.com/7d45f63f-0baf-4236-b245-d36f9eb32e8c">QueryActCtxW</a> is called with the AssemblyDetailedInformationInActivationContext option, and the function succeeds, the information in the returned buffer is in the form of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-queryactctxw">QueryActCtxW</a> is called with the AssemblyDetailedInformationInActivationContext option, and the function succeeds, the information in the returned buffer is in the form of the 
 <b>ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION</b> structure.
 
 

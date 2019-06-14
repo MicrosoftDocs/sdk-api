@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves a specified <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>-based interface on the object identified by the <i>dwObjInstance</i> parameter.
+Retrieves a specified <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>-based interface on the object identified by the <i>dwObjInstance</i> parameter.
 
 
 
@@ -146,7 +146,7 @@ The memory required for internal structures could not be allocated.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms670034(v=VS.85).aspx">IITDatabase</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nn-infotech-iitdatabase">IITDatabase</a>
  
 
  

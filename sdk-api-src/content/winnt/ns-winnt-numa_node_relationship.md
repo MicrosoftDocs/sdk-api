@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents information about a NUMA node in a processor group. This structure is used with the <a href="https://msdn.microsoft.com/dfc4f444-4651-4a02-b8f6-f30d9278eae2">GetLogicalProcessorInformationEx</a> function.
+Represents information about a NUMA node in a processor group. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformationex">GetLogicalProcessorInformationEx</a> function.
 
 
 ## -struct-fields
@@ -69,7 +69,7 @@ This member is reserved.
 
 ### -field GroupMask
 
-A <a href="https://msdn.microsoft.com/76009431-9139-4c03-9c7b-0c4bb5f0cb83">GROUP_AFFINITY</a> structure that specifies a  group number and processor affinity within the group. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_group_affinity">GROUP_AFFINITY</a> structure that specifies a  group number and processor affinity within the group. 
 
 
 ## -see-also
@@ -77,15 +77,15 @@ A <a href="https://msdn.microsoft.com/76009431-9139-4c03-9c7b-0c4bb5f0cb83">GROU
 
 
 
-<a href="https://msdn.microsoft.com/76009431-9139-4c03-9c7b-0c4bb5f0cb83">GROUP_AFFINITY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_group_affinity">GROUP_AFFINITY</a>
 
 
 
-<a href="https://msdn.microsoft.com/dfc4f444-4651-4a02-b8f6-f30d9278eae2">GetLogicalProcessorInformationEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformationex">GetLogicalProcessorInformationEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd405522(v=VS.85).aspx">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_logical_processor_information_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
  
 
  

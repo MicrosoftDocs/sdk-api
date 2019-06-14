@@ -64,7 +64,7 @@ Not used.
 
 ### -param riid
 
-The globally unique identifier (GUID) of the requested interface type, which can be the identifier for the <a href="https://msdn.microsoft.com/7DCA4750-A397-4B5A-908F-A046427D30FB">IDXGIDebug</a>, <a href="https://msdn.microsoft.com/16D52CA2-1495-407C-9B88-CF4D4C90BAFA">IDXGIDebug1</a>, or <a href="https://msdn.microsoft.com/F1BC6752-F334-4E8C-BE42-B731635A799D">IDXGIInfoQueue</a> interfaces.
+The globally unique identifier (GUID) of the requested interface type, which can be the identifier for the <a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgidebug">IDXGIDebug</a>, <a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgidebug1">IDXGIDebug1</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgiinfoqueue">IDXGIInfoQueue</a> interfaces.
 
 
 ### -param pDebug [out]
@@ -95,11 +95,11 @@ The <b>DXGIGetDebugInterface1</b> function returns  <b>E_NOINTERFACE</b> on syst
 
 
 
-<a href="https://msdn.microsoft.com/209d2e65-b118-47a7-aece-fb140fdede3f">DXGI Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-functions">DXGI Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/16D52CA2-1495-407C-9B88-CF4D4C90BAFA">IDXGIDebug1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgidebug1">IDXGIDebug1</a>
  
 
  

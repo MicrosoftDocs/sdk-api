@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Stores an arbitrary <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> pointer in the media buffer object.
+Stores an arbitrary <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer in the media buffer object.
 
 
 ## -parameters
@@ -59,12 +59,12 @@ Stores an arbitrary <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-
 
 ### -param guid [in]
 
-The identifier for the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> pointer. This identifier is used as a key to retrieve the value. It can be any <b>GUID</b> value.
+The identifier for the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer. This identifier is used as a key to retrieve the value. It can be any <b>GUID</b> value.
 
 
 ### -param pUnkData [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. Set this parameter to <b>NULL</b> to clear a pointer that was previously set.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. Set this parameter to <b>NULL</b> to clear a pointer that was previously set.
 
 
 ## -returns
@@ -110,7 +110,7 @@ An item already exists with this key.
 
 
 
-To retrieve the pointer from the object, call <a href="https://msdn.microsoft.com/6B4A5E79-3A0A-439E-ABE1-F92C3D07FB57">IMFDXGIBuffer::GetUnknown</a>.
+To retrieve the pointer from the object, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgibuffer-getunknown">IMFDXGIBuffer::GetUnknown</a>.
 
 
 
@@ -120,11 +120,11 @@ To retrieve the pointer from the object, call <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/796D7755-275D-4A0B-A34F-5D34DCEC8AC7">IMFDXGIBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgibuffer">IMFDXGIBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/6B4A5E79-3A0A-439E-ABE1-F92C3D07FB57">IMFDXGIBuffer::GetUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgibuffer-getunknown">IMFDXGIBuffer::GetUnknown</a>
  
 
  

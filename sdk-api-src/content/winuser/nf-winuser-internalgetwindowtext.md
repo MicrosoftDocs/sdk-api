@@ -55,11 +55,11 @@ ms.custom: 19H1
 
 Copies the text of the specified window's title bar (if it has one) into a buffer.
 
-This function is similar to the <a href="https://msdn.microsoft.com/en-us/library/ms633520(v=VS.85).aspx">GetWindowText</a> function.
+This function is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowtexta">GetWindowText</a> function.
 		However, it obtains the window text directly from the window structure
 		associated with the specified window's handle and then always provides the text as a
 		Unicode string. This is unlike <b>GetWindowText</b> which obtains the
-		text by sending the window a <a href="https://msdn.microsoft.com/en-us/library/ms632627(v=VS.85).aspx">WM_GETTEXT</a> message.  If the
+		text by sending the window a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-gettext">WM_GETTEXT</a> message.  If the
 		specified window is a control, the text of the control is obtained. 
 
 
@@ -106,7 +106,7 @@ If the function succeeds, the return value is the length, in characters,
 				of the copied string, not including the terminating null character.
 				If the window has no title bar or text, if the title bar is empty, or if the window
 				or control handle is invalid, the return value is zero. To get extended error
-				information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+				information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -115,7 +115,7 @@ If the function succeeds, the return value is the length, in characters,
 
 
 
-This function was not included in the SDK headers and libraries until Windows XP with Service Pack 1 (SP1) and Windows Server 2003. If you do not have a header file and import library for this function, you can call the function using <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a>.
+This function was not included in the SDK headers and libraries until Windows XP with Service Pack 1 (SP1) and Windows Server 2003. If you do not have a header file and import library for this function, you can call the function using <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.
 
 
 
@@ -129,11 +129,11 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633520(v=VS.85).aspx">GetWindowText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowtexta">GetWindowText</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633521(v=VS.85).aspx">GetWindowTextLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowtextlengtha">GetWindowTextLength</a>
 
 
 
@@ -141,19 +141,19 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633546(v=VS.85).aspx">SetWindowText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowtexta">SetWindowText</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644928(v=VS.85).aspx">Using Messages and Message Queues</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/using-messages-and-message-queues">Using Messages and Message Queues</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632627(v=VS.85).aspx">WM_GETTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-gettext">WM_GETTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
  
 
  

@@ -92,7 +92,7 @@ If this flag is set, the .inf file is removed whether  the function finds a devi
 
 <div class="alert"><b>Note</b>  This flag only applies to x86, amd64, and ia64 architectures.  It is ignored on all other architectures.</div>
 <div> </div>
-<div class="alert"><b>Note</b>  If the driver package has any files that are copied to a <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/install/inf-destinationdirs-section">DestinationDir</a> that uses a <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/install/using-dirids">dirid</a> of 13, then this force flag is ignored.</div>
+<div class="alert"><b>Note</b>  If the driver package has any files that are copied to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-destinationdirs-section">DestinationDir</a> that uses a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/using-dirids">dirid</a> of 13, then this force flag is ignored.</div>
 <div> </div>
 </td>
 </tr>
@@ -119,15 +119,15 @@ This function returns WINSETUPAPI BOOL.
 
 
 
-<a href="https://msdn.microsoft.com/0a9518b7-f231-48f2-ba50-5b802f8ccaed">Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/58201596-cb8c-480a-abef-896c1f9ef098">Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/f082145d-b3e7-4efd-8820-3376a36f3710">SetupCopyOEMInf</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupcopyoeminfa">SetupCopyOEMInf</a>
  
 
  

@@ -53,7 +53,7 @@ The
 <b>get_ButtonFunction</b> method retrieves the button function associated with a particular button.
 
 The application must call the 
-<a href="https://msdn.microsoft.com/d9efe2f7-3628-4e1f-b554-a6889d82a973">ITPhone::Open</a> method before invoking this method; otherwise, the method fails.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-open">ITPhone::Open</a> method before invoking this method; otherwise, the method fails.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ Button identifier.
 ### -param pButtonFunction [out]
 
 The 
-<a href="https://msdn.microsoft.com/2200b9aa-37fb-483f-9bfa-928348a4bc51">PHONE_BUTTON_FUNCTION</a> descriptor for the button's function.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-phone_button_function">PHONE_BUTTON_FUNCTION</a> descriptor for the button's function.
 
 
 ## -returns
@@ -86,7 +86,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 See the description of the 
-<a href="https://msdn.microsoft.com/2200b9aa-37fb-483f-9bfa-928348a4bc51">PHONE_BUTTON_FUNCTION</a> enum for a list of possible button functions.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-phone_button_function">PHONE_BUTTON_FUNCTION</a> enum for a list of possible button functions.
 
 
 
@@ -96,11 +96,11 @@ See the description of the
 
 
 
-<a href="https://msdn.microsoft.com/94dff33c-67a1-4df8-9ef5-2b6524438f6f">ITPhone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a>
 
 
 
-<a href="https://msdn.microsoft.com/8002ab8a-a15d-4a1f-b0c3-7a15c61cb6c4">put_ButtonFunction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-put_buttonfunction">put_ButtonFunction</a>
  
 
  

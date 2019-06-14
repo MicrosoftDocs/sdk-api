@@ -52,14 +52,14 @@ ms.custom: 19H1
 
 
 The <b>VssFreeSnapshotProperties</b> function is 
-    used to free the contents of a <a href="https://msdn.microsoft.com/070ec204-e751-4ebf-8f99-3c415f203cb2">VSS_SNAPSHOT_PROP</a> 
+    used to free the contents of a <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> 
     structure as part of managing its life cycle. The 
     <b>VSS_SNAPSHOT_PROP</b> structure is typically obtained by 
     using the 
-    <a href="https://msdn.microsoft.com/a4e2f9f3-7dee-4324-a48a-6de2a32eabf7">IVssBackupComponents::GetSnapshotProperties</a> method or the <a href="https://msdn.microsoft.com/59886344-d594-4eb8-9718-ab11a6627e8e">IVssSoftwareSnapshotProvider::GetSnapshotProperties</a> method.
+    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getsnapshotproperties">IVssBackupComponents::GetSnapshotProperties</a> method or the <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsssoftwaresnapshotprovider-getsnapshotproperties">IVssSoftwareSnapshotProvider::GetSnapshotProperties</a> method.
 
 This function can also be used to initialize a 
-    <a href="https://msdn.microsoft.com/070ec204-e751-4ebf-8f99-3c415f203cb2">VSS_SNAPSHOT_PROP</a> structure before use or before 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structure before use or before 
     freeing the structure.
 <div class="alert"><b>Note</b>  This function is exported as <b>VssFreeSnapshotPropertiesInternal</b>, but you should call <b>VssFreeSnapshotProperties</b>, not <b>VssFreeSnapshotPropertiesInternal</b>.</div><div> </div>
 
@@ -70,7 +70,7 @@ This function can also be used to initialize a
 
 ### -param pProp [in]
 
-Pointer to a valid <a href="https://msdn.microsoft.com/070ec204-e751-4ebf-8f99-3c415f203cb2">VSS_SNAPSHOT_PROP</a> 
+Pointer to a valid <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> 
       object.
 
 
@@ -88,15 +88,15 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/a4e2f9f3-7dee-4324-a48a-6de2a32eabf7">IVssBackupComponents::GetSnapshotProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getsnapshotproperties">IVssBackupComponents::GetSnapshotProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/59886344-d594-4eb8-9718-ab11a6627e8e">IVssSoftwareSnapshotProvider::GetSnapshotProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsssoftwaresnapshotprovider-getsnapshotproperties">IVssSoftwareSnapshotProvider::GetSnapshotProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/070ec204-e751-4ebf-8f99-3c415f203cb2">VSS_SNAPSHOT_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a>
  
 
  

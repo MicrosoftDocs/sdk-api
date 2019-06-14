@@ -59,19 +59,19 @@ Adds a new required security identifier (SID) to the specified boundary descript
 
 ### -param BoundaryDescriptor [in, out]
 
-A handle to the boundary descriptor. The <a href="https://msdn.microsoft.com/c7789e90-8dfb-47ee-a0b2-906520982d84">CreateBoundaryDescriptor</a> function returns this handle.
+A handle to the boundary descriptor. The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createboundarydescriptora">CreateBoundaryDescriptor</a> function returns this handle.
 
 
 ### -param IntegrityLabel [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure that represents the mandatory integrity level for the namespace. Use one of the following RID values to create the SID:
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure that represents the mandatory integrity level for the namespace. Use one of the following RID values to create the SID:
 
 <b>SECURITY_MANDATORY_UNTRUSTED_RID</b>
 <b>SECURITY_MANDATORY_LOW_RID</b>
 <b>SECURITY_MANDATORY_MEDIUM_RID</b>
 <b>SECURITY_MANDATORY_SYSTEM_RID</b>
 <b>SECURITY_MANDATORY_PROTECTED_PROCESS_RID</b>
-For more information, see <a href="https://msdn.microsoft.com/eb2f95c4-9465-409b-b76c-9ccae1d05eda">Well-Known SIDs</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/well-known-sids">Well-Known SIDs</a>.
 
 
 ## -returns
@@ -81,7 +81,7 @@ For more information, see <a href="https://msdn.microsoft.com/eb2f95c4-9465-409b
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -106,7 +106,7 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 
 
-<a href="https://msdn.microsoft.com/c7789e90-8dfb-47ee-a0b2-906520982d84">CreateBoundaryDescriptor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createboundarydescriptora">CreateBoundaryDescriptor</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Reads a pointer to an item identifier list (PIDL) from an <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> object into a PIDLIST_RELATIVE object.
+Reads a pointer to an item identifier list (PIDL) from an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> object into a PIDLIST_RELATIVE object.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Reads a pointer to an item identifier list (PIDL) from an <a href="https://msdn.
 
 Type: <b>IStream*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> from which the PIDL is read.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> from which the PIDL is read.
 
 
 ### -param ppidlOut [out]

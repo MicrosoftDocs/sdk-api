@@ -78,7 +78,7 @@ This method returns S_OK in all cases.
 The control is not required to stop sending events when <i>bFreeze</i> is <b>TRUE</b>. However, the container is not going to process them in this case. If a control depends on the container's processing -- as with request events that return information from the container -- the control must either discard the event or queue the event to send later when <i>bFreeze</i> is <b>FALSE</b>.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-As with <a href="https://msdn.microsoft.com/9ca43723-a14e-4f03-8eec-e10ab34ecb4d">IOleControl::OnAmbientPropertyChange</a>, S_OK is returned in all cases in order to prevent a container from making assumptions about a control's behavior based on return values.
+As with <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iolecontrol-onambientpropertychange">IOleControl::OnAmbientPropertyChange</a>, S_OK is returned in all cases in order to prevent a container from making assumptions about a control's behavior based on return values.
 
 
 
@@ -88,7 +88,7 @@ As with <a href="https://msdn.microsoft.com/9ca43723-a14e-4f03-8eec-e10ab34ecb4d
 
 
 
-<a href="https://msdn.microsoft.com/ef85dce6-b680-4a72-9277-4cfdab27cbbc">IOleControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iolecontrol">IOleControl</a>
  
 
  

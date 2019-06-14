@@ -49,5 +49,5 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IX509CertificateTemplate</b> interface represents a certificate request template. It can be used to initialize an <a href="https://msdn.microsoft.com/87660b16-06a8-4a71-8669-24521f1399e4">IX509CertificateTemplateWritable</a> interface.
+The <b>IX509CertificateTemplate</b> interface represents a certificate request template. It can be used to initialize an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplatewritable">IX509CertificateTemplateWritable</a> interface.
 

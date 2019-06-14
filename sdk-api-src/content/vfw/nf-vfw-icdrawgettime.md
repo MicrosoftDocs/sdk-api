@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>ICDrawGetTime</b> macro requests a rendering driver that controls the timing of drawing frames to return the current value of its internal clock. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/77f0a322-c0bc-4cfe-a3d0-7633cf8d682a">ICM_DRAW_GETTIME</a> message.
+The <b>ICDrawGetTime</b> macro requests a rendering driver that controls the timing of drawing frames to return the current value of its internal clock. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-gettime">ICM_DRAW_GETTIME</a> message.
 
 
 
@@ -84,11 +84,11 @@ This message is generally supported by hardware that performs its own asynchrono
 
 
 
-<a href="https://msdn.microsoft.com/e8ee41fa-180a-432a-933b-b4a525b9df8c">Video Compression Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://msdn.microsoft.com/df876309-68d3-43a3-9d83-6fdb8f345fdc">Video Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
  
 
  

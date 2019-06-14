@@ -74,7 +74,7 @@ The size of the buffer that the <i>geoName</i> parameter specifies. If this valu
 The number of characters
   the function  would copy to the output buffer, if the value of the <i>geoNameCount</i> parameter is zero. Otherwise, the  number of characters that the function copied to the buffer that the <i>geoName</i> parameter specifies.
 
-Zero indicates that the function failed. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>, which can return one of the following error codes:
+Zero indicates that the function failed. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <table>
 <tr>
@@ -134,19 +134,19 @@ For information about two-letter ISO 3166-1 codes, see <a href="https://go.micro
 
 
 
-<a href="https://msdn.microsoft.com/9d4d196d-4000-4866-a4c7-e7b9cb669c6f">GetUserGeoID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getusergeoid">GetUserGeoID</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a548074-0782-45e1-8051-80c3b9d81885">National Language Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c72c4de-83be-4b7e-9ed8-b0236c1df8a4">National Language Support Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/0E5934DE-F526-45B4-9DAF-C8941F00C162">SetUserGeoName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-setusergeoname">SetUserGeoName</a>
  
 
  

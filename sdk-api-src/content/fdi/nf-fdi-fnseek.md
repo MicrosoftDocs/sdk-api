@@ -99,7 +99,7 @@ FNSEEK(fnFileSeek)
 
 
 
-<a href="https://msdn.microsoft.com/90634725-b7a8-4369-8a91-684debee9548">FDICreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fdicreate">FDICreate</a>
  
 
  

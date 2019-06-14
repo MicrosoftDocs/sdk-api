@@ -64,7 +64,7 @@ Integer that specifies the number of DHCP server scope statistics in <b>Clients<
 
 ### -field Clients
 
-Pointer to an array of <a href="https://msdn.microsoft.com/46e4fb62-5b8e-44f8-b3a0-92535ca690f0">DHCPV4_FAILOVER_CLIENT_INFO</a>  structures.
+Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcpv4_failover_client_info">DHCPV4_FAILOVER_CLIENT_INFO</a>  structures.
 
 
 ### -field Clients.size_is

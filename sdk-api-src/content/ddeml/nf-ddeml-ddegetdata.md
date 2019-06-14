@@ -100,7 +100,7 @@ If the
 If the 
 						<i>pDst</i> parameter is <b>NULL</b>, the return value is the size, in bytes, of the memory object associated with the data handle. 
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms648755(v=VS.85).aspx">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values: 
+The <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddegetlasterror">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values: 
 
 
 
@@ -114,19 +114,19 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms648755(v=VS.85).aspx">Dd
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648740(v=VS.85).aspx">DdeAccessData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeaccessdata">DdeAccessData</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648747(v=VS.85).aspx">DdeCreateDataHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddecreatedatahandle">DdeCreateDataHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648752(v=VS.85).aspx">DdeFreeDataHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddefreedatahandle">DdeFreeDataHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a>
 
 
 

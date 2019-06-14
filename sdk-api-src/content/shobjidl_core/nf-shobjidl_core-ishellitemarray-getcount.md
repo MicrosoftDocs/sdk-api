@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the number of items in the given <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a> array.
+Gets the number of items in the given <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> array.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Gets the number of items in the given <a href="https://msdn.microsoft.com/599b9c
 
 Type: <b>DWORD*</b>
 
-When this method returns, contains the number of items in the <a href="https://msdn.microsoft.com/348213d1-c03f-4c38-9d13-3b1009d94e07">IShellItemArray</a>.
+When this method returns, contains the number of items in the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a>.
 
 
 ## -returns
@@ -80,15 +80,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/348213d1-c03f-4c38-9d13-3b1009d94e07">IShellItemArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/58307102-1ae3-4249-81e0-25c1166500d0">IShellItemArray::GetItemAt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitemarray-getitemat">IShellItemArray::GetItemAt</a>
  
 
  

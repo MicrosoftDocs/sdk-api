@@ -76,7 +76,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/5e960c75-b074-4d4b-b5d6-252c26c70176">IGetContextProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-igetcontextproperties">IGetContextProperties</a>
  
 
  

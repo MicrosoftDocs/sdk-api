@@ -63,7 +63,7 @@ The <code>SetAspectRatioMode</code> method sets the aspect ratio correction mode
 
 ### -param amAspectRatioMode [in]
 
-Value specifying one of the <a href="https://msdn.microsoft.com/4f7c6220-6231-4bb1-aea6-7f1581b04d3a">AM_ASPECT_RATIO_MODE</a> enumerated type members.
+Value specifying one of the <a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/ne-mpconfig-_am_aspect_ratio_mode">AM_ASPECT_RATIO_MODE</a> enumerated type members.
 
 
 ## -returns
@@ -120,7 +120,7 @@ Success.
 
 
 
-Currently this function is implemented only on the primary pin of the <a href="https://msdn.microsoft.com/e80938b7-31f0-467b-a3fa-c4511d14758d">Overlay Mixer</a> filter. Calling it on a secondary pin will result in an error.
+Currently this function is implemented only on the primary pin of the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> filter. Calling it on a secondary pin will result in an error.
 
 
 
@@ -130,15 +130,15 @@ Currently this function is implemented only on the primary pin of the <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a4f3462-4596-4f02-a41f-47161f8aa4db">IMixerPinConfig Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nn-mpconfig-imixerpinconfig">IMixerPinConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/091ebea0-8688-4965-8727-0738cc19d47e">IMixerPinConfig::GetAspectRatioMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-getaspectratiomode">IMixerPinConfig::GetAspectRatioMode</a>
  
 
  

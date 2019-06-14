@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IWCNConnectNotify::ConnectFailed</b> callback method  indicates a <a href="https://msdn.microsoft.com/d7c940f2-0862-4b53-bbb9-4ea47fe6d6f6">IWCNDevice::Connect</a> failure.
+The <b>IWCNConnectNotify::ConnectFailed</b> callback method  indicates a <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a> failure.
 
 
 ## -parameters
@@ -76,11 +76,11 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/63ea2b5a-4bec-4050-9a61-962a1faef0a0">IWCNConnectNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nn-wcndevice-iwcnconnectnotify">IWCNConnectNotify</a>
 
 
 
-<a href="https://msdn.microsoft.com/d7c940f2-0862-4b53-bbb9-4ea47fe6d6f6">IWCNDevice::Connect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a>
  
 
  

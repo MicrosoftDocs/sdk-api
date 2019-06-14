@@ -51,10 +51,10 @@ ms.custom: 19H1
 
 The 
 <b>TSPI_providerFreeDialogInstance</b> function informs the service provider that the dialog box associated with <i>hdDlgInst</i> has exited. After this function is called, the service provider should no longer send data to the dialog box using 
-<a href="https://msdn.microsoft.com/d3c176ba-8b4b-4b7c-a603-130dfa761898">LINE_SENDDIALOGINSTANCEDATA</a> messages.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-senddialoginstancedata">LINE_SENDDIALOGINSTANCEDATA</a> messages.
 
 Implementation of this function is optional; it is needed only if the service provider generates spontaneous dialog boxes in application contexts using 
-<a href="https://msdn.microsoft.com/5a7e34bc-1dc3-40c4-b07e-de5b88cbcd75">LINE_CREATEDIALOGINSTANCE</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-createdialoginstance">LINE_CREATEDIALOGINSTANCE</a>.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Implementation of this function is optional; it is needed only if the service pr
 ### -param hdDlgInst
 
 The opaque identifier of the association between the service provider and the dialog box in the application's context, which was passed as the <b>hdDlgInstance</b> member in the 
-<a href="https://msdn.microsoft.com/4de0ee9b-0643-4eab-b100-ee7aaa0b6992">TUISPICREATEDIALOGINSTANCEPARAMS</a> structure with the LINE_CREATEDIALOGINSTANCE message that created the dialog box.
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/ns-tspi-tuispicreatedialoginstanceparams_tag">TUISPICREATEDIALOGINSTANCEPARAMS</a> structure with the LINE_CREATEDIALOGINSTANCE message that created the dialog box.
 
 
 ## -returns
@@ -84,15 +84,15 @@ LINEERR_INVALPARAM, LINEERR_NOMEM, LINEERR_OPERATIONFAILED.
 
 
 
-<a href="https://msdn.microsoft.com/5a7e34bc-1dc3-40c4-b07e-de5b88cbcd75">LINE_CREATEDIALOGINSTANCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-createdialoginstance">LINE_CREATEDIALOGINSTANCE</a>
 
 
 
-<a href="https://msdn.microsoft.com/d3c176ba-8b4b-4b7c-a603-130dfa761898">LINE_SENDDIALOGINSTANCEDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-senddialoginstancedata">LINE_SENDDIALOGINSTANCEDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/4de0ee9b-0643-4eab-b100-ee7aaa0b6992">TUISPICREATEDIALOGINSTANCEPARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/ns-tspi-tuispicreatedialoginstanceparams_tag">TUISPICREATEDIALOGINSTANCEPARAMS</a>
  
 
  

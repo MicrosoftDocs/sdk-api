@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <code>RESET_HEADER</code> macro fills a <a href="https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85).aspx">VIDEOINFOHEADER</a> with zeroes. You can also use this macro to clear just the <b>VIDEOINFOHEADER</b> portion of a <a href="https://msdn.microsoft.com/en-us/library/Dd407323(v=VS.85).aspx">VIDEOINFO</a> structure.
+The <code>RESET_HEADER</code> macro fills a <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader">VIDEOINFOHEADER</a> with zeroes. You can also use this macro to clear just the <b>VIDEOINFOHEADER</b> portion of a <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfo">VIDEOINFO</a> structure.
 
 
 
@@ -64,7 +64,7 @@ This macro is equivalent to calling <b>ZeroMemory</b> with <code>sizeof(VIDEOINF
 
 ### -param pbmi
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85).aspx">VIDEOINFOHEADER</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader">VIDEOINFOHEADER</a> structure.
 
 
 ## -see-also
@@ -72,7 +72,7 @@ Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85)
 
 
 
-<a href="https://msdn.microsoft.com/02401edc-362b-4f6c-b10b-c46b30b3ebe7">Video and Image Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-and-image-functions">Video and Image Functions</a>
  
 
  

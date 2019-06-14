@@ -77,7 +77,7 @@ A pointer to a variable that receives the write handle for the pipe.
 ### -param lpPipeAttributes [in, optional]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> structure that determines whether the returned handle can be inherited by child processes. If <i>lpPipeAttributes</i> is <b>NULL</b>, the handle cannot be inherited. 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that determines whether the returned handle can be inherited by child processes. If <i>lpPipeAttributes</i> is <b>NULL</b>, the handle cannot be inherited. 
 
 
 
@@ -97,7 +97,7 @@ The size of the buffer for the pipe, in bytes. The size is only a suggestion; th
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -117,13 +117,13 @@ Anonymous pipes are implemented using a named pipe with a unique name. Therefore
 
 If <b>CreatePipe</b> fails, the contents of the output parameters are indeterminate. No assumptions should be made about their contents in this event.
 
-To free resources used by a pipe, the application should always close handles when they are no longer needed, which is accomplished either by calling the <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function or when the process associated with the instance handles ends. Note that an instance of a pipe may have more than one handle associated with it. An instance of a pipe is always deleted when the last handle to the instance of the named pipe is closed.
+To free resources used by a pipe, the application should always close handles when they are no longer needed, which is accomplished either by calling the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function or when the process associated with the instance handles ends. Note that an instance of a pipe may have more than one handle associated with it. An instance of a pipe is always deleted when the last handle to the instance of the named pipe is closed.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/a4e37069-2b3a-4b6d-9cfd-eb1700ab3bc6">Creating a Child Process with Redirected Input and Output</a>.
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/creating-a-child-process-with-redirected-input-and-output">Creating a Child Process with Redirected Input and Output</a>.
 
 <div class="code"></div>
 
@@ -134,11 +134,11 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/9e80783e-9641-4cbd-9c28-a8efe6b9efaa">Pipe Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/ipc/pipe-functions">Pipe Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/7cb8cbe4-eec8-4dda-9cb7-8d37abcee6f4">Pipes Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/ipc/pipes">Pipes Overview</a>
 
 
 
@@ -146,7 +146,7 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
 
 
 

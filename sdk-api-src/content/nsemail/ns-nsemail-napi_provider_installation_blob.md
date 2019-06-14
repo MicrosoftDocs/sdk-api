@@ -69,7 +69,7 @@ The version number of the NS_EMAIL namespace provider. This member is specific t
 
 Type: <b>DWORD</b>
 
-The type of namespace provider for the NS_EMAIL namespace. This member can be one of the values from the <a href="https://msdn.microsoft.com/0d845cc5-a84a-43fe-b9e7-d1a9153bae73">NAPI_PROVIDER_TYPE</a> enumeration type defined in the <i>Nsemail.h</i> header file. 
+The type of namespace provider for the NS_EMAIL namespace. This member can be one of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ne-nsemail-napi_provider_type_tag">NAPI_PROVIDER_TYPE</a> enumeration type defined in the <i>Nsemail.h</i> header file. 
 
 
 ### -field fSupportsWildCard
@@ -85,14 +85,14 @@ There may be multiple providers that claim to be able to resolve any address (th
 
 Type: <b>DWORD</b>
 
-The number of <a href="https://msdn.microsoft.com/543aa20c-eec2-4177-87ed-ba9c91251010">NAPI_DOMAIN_DESCRIPTION_BLOB</a> structures the starting at the <b>OffsetFirstDomain</b> member used to describe domains that are supported by this NS_EMAIL namespace provider.
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ns-nsemail-napi_domain_description_blob_tag">NAPI_DOMAIN_DESCRIPTION_BLOB</a> structures the starting at the <b>OffsetFirstDomain</b> member used to describe domains that are supported by this NS_EMAIL namespace provider.
 
 
 ### -field OffsetFirstDomain
 
 Type: <b>DWORD</b>
 
-The offset,  in bytes, to the first of multiple <a href="https://msdn.microsoft.com/543aa20c-eec2-4177-87ed-ba9c91251010">NAPI_DOMAIN_DESCRIPTION_BLOB</a> structures used to describe domains that are supported by this NS_EMAIL namespace provider. This offset must be aligned on a minimum of a four-byte boundary.
+The offset,  in bytes, to the first of multiple <a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ns-nsemail-napi_domain_description_blob_tag">NAPI_DOMAIN_DESCRIPTION_BLOB</a> structures used to describe domains that are supported by this NS_EMAIL namespace provider. This offset must be aligned on a minimum of a four-byte boundary.
 
 
 ## -remarks
@@ -104,7 +104,7 @@ This structure is supported on Windows Vistaand later.
 The 
 <b>NAPI_PROVIDER_INSTALLATION_BLOB</b> structure contains the information required to install a namespace provider for the NS_EMAIL namespace. There may be multiple namespace providers for the NS_EMAIL namespace install on a local system.
 
-Each namespace provider registered in the NS_EMAIL namespace can support multiple domains. As a result, there may be multiple <a href="https://msdn.microsoft.com/543aa20c-eec2-4177-87ed-ba9c91251010">NAPI_DOMAIN_DESCRIPTION_BLOB</a> structures in the <b>NAPI_PROVIDER_INSTALLATION_BLOB</b> structure for an NS_EMAIL namespace provider. The list of supported domains is specified in the provider registration blob as a list of <b>NAPI_DOMAIN_DESCRIPTION_BLOB</b> structures. Each supported domain specification contains a <a href="https://msdn.microsoft.com/70b5fcde-657b-4f27-b55b-5f5ac3373344">NAPI_PROVIDER_LEVEL</a> value in the <b>AuthLevel</b> member of the <b>NAPI_DOMAIN_DESCRIPTION_BLOB</b> that describes the level of authority provided by the provider for that domain. 
+Each namespace provider registered in the NS_EMAIL namespace can support multiple domains. As a result, there may be multiple <a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ns-nsemail-napi_domain_description_blob_tag">NAPI_DOMAIN_DESCRIPTION_BLOB</a> structures in the <b>NAPI_PROVIDER_INSTALLATION_BLOB</b> structure for an NS_EMAIL namespace provider. The list of supported domains is specified in the provider registration blob as a list of <b>NAPI_DOMAIN_DESCRIPTION_BLOB</b> structures. Each supported domain specification contains a <a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ne-nsemail-napi_provider_level_tag">NAPI_PROVIDER_LEVEL</a> value in the <b>AuthLevel</b> member of the <b>NAPI_DOMAIN_DESCRIPTION_BLOB</b> that describes the level of authority provided by the provider for that domain. 
 
 Namespace providers are called in the following order to resolve or register an address in a domain. If a namespace provider registered as the primary provider for the domain, then this primary provider is called first. There are two cases depending on whether authoritative results are requested in the namespace query. The default for a query is to request authoritative results.
 
@@ -112,9 +112,9 @@ Namespace providers are called in the following order to resolve or register an 
 
  When non-authoritative results are requested in the query, then namespace providers are called as follows. The primary provider, all secondary providers, and all wildcard providers are called and results from all of the queries are returned.  The primary provider is called first. Secondary providers are called next, based on the order in the Winsock catalog. Wildcard providers are called next, based on the order in the Winsock catalog. The results that are returned are based on the order of the queries.
 
-The <a href="https://msdn.microsoft.com/13dde602-c958-4312-a16f-a393dd6fb829">WSCInstallNameSpaceEx</a> and <a href="https://msdn.microsoft.com/222ebfcc-8854-4224-b464-28098c84b750">WSCInstallNameSpaceEx32</a> functions are used to install a namespace provider for the NS_EMAIL namespace using a <b>NAPI_PROVIDER_INSTALLATION_BLOB</b> structure.  
+The <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallnamespaceex">WSCInstallNameSpaceEx</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallnamespaceex32">WSCInstallNameSpaceEx32</a> functions are used to install a namespace provider for the NS_EMAIL namespace using a <b>NAPI_PROVIDER_INSTALLATION_BLOB</b> structure.  
 
-The <a href="https://msdn.microsoft.com/34bc96aa-63f7-4ab8-9376-6f4b979225ca">WSAEnumNameSpaceProvidersEx</a> and <a href="https://msdn.microsoft.com/544120b2-7575-4deb-8429-2bd4582eceef">WSCEnumNameSpaceProvidersEx32</a> functions are used to enumerate all namespace providers (including NS_EMAIL namespace providers) and to retrieve the <b>NAPI_PROVIDER_INSTALLATION_BLOB</b> structure for  a provider if the provider registered a blob upon installation.
+The <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersexa">WSAEnumNameSpaceProvidersEx</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumnamespaceprovidersex32">WSCEnumNameSpaceProvidersEx32</a> functions are used to enumerate all namespace providers (including NS_EMAIL namespace providers) and to retrieve the <b>NAPI_PROVIDER_INSTALLATION_BLOB</b> structure for  a provider if the provider registered a blob upon installation.
 
 
 
@@ -124,35 +124,35 @@ The <a href="https://msdn.microsoft.com/34bc96aa-63f7-4ab8-9376-6f4b979225ca">WS
 
 
 
-<a href="https://msdn.microsoft.com/543aa20c-eec2-4177-87ed-ba9c91251010">NAPI_DOMAIN_DESCRIPTION_BLOB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ns-nsemail-napi_domain_description_blob_tag">NAPI_DOMAIN_DESCRIPTION_BLOB</a>
 
 
 
-<a href="https://msdn.microsoft.com/70b5fcde-657b-4f27-b55b-5f5ac3373344">NAPI_PROVIDER_LEVEL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ne-nsemail-napi_provider_level_tag">NAPI_PROVIDER_LEVEL</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d845cc5-a84a-43fe-b9e7-d1a9153bae73">NAPI_PROVIDER_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ne-nsemail-napi_provider_type_tag">NAPI_PROVIDER_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/574ebfa4-d7f2-43c2-b1ec-35ce3db9151f">WSAAdvertiseProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wsaadvertiseprovider">WSAAdvertiseProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/34bc96aa-63f7-4ab8-9376-6f4b979225ca">WSAEnumNameSpaceProvidersEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersexa">WSAEnumNameSpaceProvidersEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/544120b2-7575-4deb-8429-2bd4582eceef">WSCEnumNameSpaceProvidersEx32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumnamespaceprovidersex32">WSCEnumNameSpaceProvidersEx32</a>
 
 
 
-<a href="https://msdn.microsoft.com/13dde602-c958-4312-a16f-a393dd6fb829">WSCInstallNameSpaceEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallnamespaceex">WSCInstallNameSpaceEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/222ebfcc-8854-4224-b464-28098c84b750">WSCInstallNameSpaceEx32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallnamespaceex32">WSCInstallNameSpaceEx32</a>
  
 
  

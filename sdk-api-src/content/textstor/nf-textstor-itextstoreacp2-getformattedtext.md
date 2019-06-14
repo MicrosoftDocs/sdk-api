@@ -69,7 +69,7 @@ Specifies the ending character position of the text to get in the document. This
 
 ### -param ppDataObject [out]
 
-Receives the pointer to the <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> object that contains the formatted text.
+Receives the pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object that contains the formatted text.
 
 
 ## -returns
@@ -116,7 +116,7 @@ The caller does not have a read/write lock on the document.
 
 
 
-<a href="https://msdn.microsoft.com/c256f1c2-6b67-4417-8707-3490a2c5cb55">ITextStoreACP2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp2">ITextStoreACP2</a>
  
 
  

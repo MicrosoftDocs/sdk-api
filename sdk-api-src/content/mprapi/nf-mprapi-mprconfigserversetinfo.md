@@ -61,7 +61,7 @@ RRAS service is not running so that it is picked up next time the system restart
 
 ### -param hMprServer [in]
 
-Handle to the router configuration. Obtain this handle by calling <a href="https://msdn.microsoft.com/40029088-191d-49b1-88d3-79ffb2da0eef">MprConfigServerConnect</a>. 
+Handle to the router configuration. Obtain this handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>. 
 
 
 ### -param dwLevel [in]
@@ -75,12 +75,12 @@ A DWORD value that describes the format in which the information is structured i
 </tr>
 <tr>
 <td>1</td>
-<td>Windows Server 2003 or later: <a href="https://msdn.microsoft.com/ea27a928-055b-4705-8f7c-dd9a221b2573">MPR_SERVER_1</a>
+<td>Windows Server 2003 or later: <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_server_1">MPR_SERVER_1</a>
 </td>
 </tr>
 <tr>
 <td>2</td>
-<td>Windows Server 2008 or later: <a href="https://msdn.microsoft.com/9e38651a-541f-4470-a841-4eb94dbe4835">MPR_SERVER_2</a>
+<td>Windows Server 2008 or later: <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_server_2">MPR_SERVER_2</a>
 </td>
 </tr>
 </table>
@@ -90,8 +90,8 @@ A DWORD value that describes the format in which the information is structured i
 ### -param lpbBuffer [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/ea27a928-055b-4705-8f7c-dd9a221b2573">MPR_SERVER_1</a>  
-or   <a href="https://msdn.microsoft.com/9e38651a-541f-4470-a841-4eb94dbe4835">MPR_SERVER_2</a> structure. The <i>dwLevel</i> parameter indicates the type of structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_server_1">MPR_SERVER_1</a>  
+or   <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_server_2">MPR_SERVER_2</a> structure. The <i>dwLevel</i> parameter indicates the type of structure.
 
 
 ## -returns
@@ -125,7 +125,7 @@ The calling application does not have sufficient privileges.
 </dl>
 </td>
 <td width="60%">
-A system reboot is required for such a change to take affect. Change the port count using the <a href="https://msdn.microsoft.com/95fe0dfb-cfa6-4e84-a060-4b0fffc71a3d">MprConfigServerSetInfo</a> call and reboot.
+A system reboot is required for such a change to take affect. Change the port count using the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserversetinfo">MprConfigServerSetInfo</a> call and reboot.
 
 </td>
 </tr>
@@ -136,7 +136,7 @@ A system reboot is required for such a change to take affect. Change the port co
 </dl>
 </td>
 <td width="60%">
-If you try to set the number of ports to more than the system supported limits as defined on the <a href="https://msdn.microsoft.com/ea27a928-055b-4705-8f7c-dd9a221b2573">MPR_SERVER_1</a> and <a href="https://msdn.microsoft.com/9e38651a-541f-4470-a841-4eb94dbe4835">MPR_SERVER_2</a> topics.
+If you try to set the number of ports to more than the system supported limits as defined on the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_server_1">MPR_SERVER_1</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_server_2">MPR_SERVER_2</a> topics.
 
 Returns this error if you try to set the number of PPTP ports to 0.
 
@@ -175,7 +175,7 @@ The value of dwLevel is not valid.
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -194,7 +194,7 @@ These changes to a server configuration are persistent, but have no affect on a 
 
 #### Examples
 
-The topic <a href="https://msdn.microsoft.com/9e4aa8d4-e09e-4c84-acf0-c505a58841a4">Setting L2TP and PPTP ports of a local RRAS service</a> shows this function in use.
+The topic <a href="https://docs.microsoft.com/windows/desktop/RRAS/setting-l2tp-and-pptp-ports">Setting L2TP and PPTP ports of a local RRAS service</a> shows this function in use.
 
 <div class="code"></div>
 
@@ -205,39 +205,39 @@ The topic <a href="https://msdn.microsoft.com/9e4aa8d4-e09e-4c84-acf0-c505a58841
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/cffda25b-28f8-4d76-987c-eadcea9c032b">MPR_SERVER_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_server_0">MPR_SERVER_0</a>
 
 
 
-<a href="https://msdn.microsoft.com/ea27a928-055b-4705-8f7c-dd9a221b2573">MPR_SERVER_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_server_1">MPR_SERVER_1</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e38651a-541f-4470-a841-4eb94dbe4835">MPR_SERVER_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_server_2">MPR_SERVER_2</a>
 
 
 
-<a href="https://msdn.microsoft.com/d7df56ee-72e4-4b0c-87a3-a1f66d791b62">MprConfigBufferFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigbufferfree">MprConfigBufferFree</a>
 
 
 
-<a href="https://msdn.microsoft.com/40029088-191d-49b1-88d3-79ffb2da0eef">MprConfigServerConnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>
 
 
 
-<a href="https://msdn.microsoft.com/6d3cd97a-96ef-4ecd-b2fd-2743ba79aa5b">MprConfigServerGetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigservergetinfo">MprConfigServerGetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/fb65885c-7c3b-4c90-9516-388f09703c90">Router Configuration Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-configuration-functions">Router Configuration Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/352505a9-616a-4d47-9857-f88d345333fd">Router Management Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
  
 
  

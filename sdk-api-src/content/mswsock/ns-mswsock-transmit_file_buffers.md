@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>TRANSMIT_FILE_BUFFERS</b> structure specifies data to be transmitted before and after file data during a 
-<a href="https://msdn.microsoft.com/45db763e-735d-48ac-a0e4-6e63b5dda7a5">TransmitFile</a> function file transfer operation.
+<a href="https://docs.microsoft.com/windows/desktop/api/mswsock/nf-mswsock-transmitfile">TransmitFile</a> function file transfer operation.
 
 
 ## -struct-fields
@@ -84,7 +84,7 @@ Size of the buffer pointed to <b>Tail</b>, in bytes, to be transmitted.
 
 
 
-<a href="https://msdn.microsoft.com/45db763e-735d-48ac-a0e4-6e63b5dda7a5">TransmitFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswsock/nf-mswsock-transmitfile">TransmitFile</a>
  
 
  

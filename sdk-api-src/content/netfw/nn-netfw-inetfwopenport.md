@@ -50,14 +50,14 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="https://msdn.microsoft.com/8F33B96B-AA9A-46d5-8808-0F2D0723935B">Windows Firewall with Advanced Security</a> API is recommended.]
+<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
 
 The <b>INetFwOpenPort</b> interface provides access to the properties of a port that has been opened in the firewall.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwOpenPort</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>INetFwOpenPort</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwOpenPort</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetFwOpenPort</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -73,7 +73,7 @@ The <b>INetFwOpenPort</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7260b9f2-2cbe-4b71-8c99-1d1c30870ae1">get_BuiltIn</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwopenport-get_builtin">get_BuiltIn</a>
 </td>
 <td align="left" width="63%">
 Retrieves the contents of the BuiltIn property.
@@ -82,7 +82,7 @@ Retrieves the contents of the BuiltIn property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f4fc7a4f-abc5-486a-89c8-dfea17770f3c">get_Enabled</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwopenport-get_enabled">get_Enabled</a>
 </td>
 <td align="left" width="63%">
 Retrieves the contents of the Enabled property.
@@ -91,7 +91,7 @@ Retrieves the contents of the Enabled property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fb5dfb78-fc0d-4dca-850a-683046b4e2a3">get_IpVersion</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwopenport-get_ipversion">get_IpVersion</a>
 </td>
 <td align="left" width="63%">
 Retrieves the contents of the IpVersion property.
@@ -100,7 +100,7 @@ Retrieves the contents of the IpVersion property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f81abb86-095c-4459-af71-a0c10f7b1acd">get_Name</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwopenport-get_name">get_Name</a>
 </td>
 <td align="left" width="63%">
 Retrieves the contents of the Name property.
@@ -109,7 +109,7 @@ Retrieves the contents of the Name property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6e179f11-76c3-4403-9b42-2faad56629ed">get_Port</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwopenport-get_port">get_Port</a>
 </td>
 <td align="left" width="63%">
 Retrieves the contents of the Port property.
@@ -118,7 +118,7 @@ Retrieves the contents of the Port property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/775c3d29-89c7-4768-9476-2e56555fd82b">get_Protocol</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/port-protocol">get_Protocol</a>
 </td>
 <td align="left" width="63%">
 Retrieves the contents of the Protocol property.
@@ -127,7 +127,7 @@ Retrieves the contents of the Protocol property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5c38a9fc-b7d9-436d-92e6-8b0aec5e8628">get_RemoteAddresses</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwopenport-get_remoteaddresses">get_RemoteAddresses</a>
 </td>
 <td align="left" width="63%">
 Retrieves the contents of the  RemoteAddresses property.
@@ -136,7 +136,7 @@ Retrieves the contents of the  RemoteAddresses property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a5bd787f-e00c-4a57-adc7-a9618809198a">get_Scope</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwopenport-get_scope">get_Scope</a>
 </td>
 <td align="left" width="63%">
 Retrieves the contents of the Scope property.
@@ -145,7 +145,7 @@ Retrieves the contents of the Scope property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f4fc7a4f-abc5-486a-89c8-dfea17770f3c">put_Enabled</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwopenport-get_enabled">put_Enabled</a>
 </td>
 <td align="left" width="63%">
 Sets the contents of the Enabled property.
@@ -154,7 +154,7 @@ Sets the contents of the Enabled property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fb5dfb78-fc0d-4dca-850a-683046b4e2a3">put_IpVersion</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwopenport-get_ipversion">put_IpVersion</a>
 </td>
 <td align="left" width="63%">
 Sets the contents of the IpVersion property.
@@ -163,7 +163,7 @@ Sets the contents of the IpVersion property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f81abb86-095c-4459-af71-a0c10f7b1acd">put_Name</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwopenport-get_name">put_Name</a>
 </td>
 <td align="left" width="63%">
 Sets the contents of the Name property.
@@ -172,7 +172,7 @@ Sets the contents of the Name property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6e179f11-76c3-4403-9b42-2faad56629ed">put_Port</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwopenport-get_port">put_Port</a>
 </td>
 <td align="left" width="63%">
 Sets the contents of the Port property.
@@ -181,7 +181,7 @@ Sets the contents of the Port property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/775c3d29-89c7-4768-9476-2e56555fd82b">put_Protocol</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/port-protocol">put_Protocol</a>
 </td>
 <td align="left" width="63%">
 Sets the contents of the Protocol property.
@@ -190,7 +190,7 @@ Sets the contents of the Protocol property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5c38a9fc-b7d9-436d-92e6-8b0aec5e8628">put_RemoteAddresses</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwopenport-get_remoteaddresses">put_RemoteAddresses</a>
 </td>
 <td align="left" width="63%">
 Modifies the contents of the  RemoteAddresses property.
@@ -199,7 +199,7 @@ Modifies the contents of the  RemoteAddresses property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a5bd787f-e00c-4a57-adc7-a9618809198a">put_Scope</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwopenport-get_scope">put_Scope</a>
 </td>
 <td align="left" width="63%">
 Modifies the contents of the Scope property.
@@ -216,7 +216,7 @@ Modifies the contents of the Scope property.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/7260b9f2-2cbe-4b71-8c99-1d1c30870ae1">BuiltIn</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwopenport-get_builtin">BuiltIn</a>
 
 
 </td>
@@ -228,7 +228,7 @@ Accesses the contents of the BuiltIn property.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/f4fc7a4f-abc5-486a-89c8-dfea17770f3c">Enabled</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwopenport-get_enabled">Enabled</a>
 
 
 </td>
@@ -240,7 +240,7 @@ Accesses the Enabled property.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/fb5dfb78-fc0d-4dca-850a-683046b4e2a3">IpVersion</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwopenport-get_ipversion">IpVersion</a>
 
 
 </td>
@@ -252,7 +252,7 @@ Accesses the IpVersion property.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/f81abb86-095c-4459-af71-a0c10f7b1acd">Name</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwopenport-get_name">Name</a>
 
 
 </td>
@@ -264,7 +264,7 @@ Accesses the Name property.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/6e179f11-76c3-4403-9b42-2faad56629ed">Port</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwopenport-get_port">Port</a>
 
 
 </td>
@@ -276,7 +276,7 @@ Accesses the Port property.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/775c3d29-89c7-4768-9476-2e56555fd82b">Protocol</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/port-protocol">Protocol</a>
 
 
 </td>
@@ -288,7 +288,7 @@ Accesses the Protocol property.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/5c38a9fc-b7d9-436d-92e6-8b0aec5e8628">RemoteAddresses</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwopenport-get_remoteaddresses">RemoteAddresses</a>
 
 
 </td>
@@ -300,7 +300,7 @@ Accesses the RemoteAddresses property.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/a5bd787f-e00c-4a57-adc7-a9618809198a">Scope</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwopenport-get_scope">Scope</a>
 
 
 </td>
@@ -322,7 +322,7 @@ When creating new ports, this interface is supported by the
 <b>HNetCfg.FWOpenPort</b> COM object. 
 
 For reading or modifying existing ports,
-instances of this interface are retrieved through the <a href="https://msdn.microsoft.com/a3a6e5c1-5818-419c-8df4-966b2fbcd8c0">INetFwOpenPorts</a>collection. 
+instances of this interface are retrieved through the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwopenports">INetFwOpenPorts</a>collection. 
 
 All configuration changes take effect immediately.
 
@@ -334,15 +334,15 @@ All configuration changes take effect immediately.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3a6e5c1-5818-419c-8df4-966b2fbcd8c0">INetFwOpenPorts</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwopenports">INetFwOpenPorts</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

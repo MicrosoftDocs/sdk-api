@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Gets the next word entry from a dictionary.
 
-This method is used only after <a href="https://msdn.microsoft.com/9FEA7E1C-166B-4CA4-B25E-0406AD60AC0B">GetWords</a> to get additional words.
+This method is used only after <a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-getwords">GetWords</a> to get additional words.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ The size of <i>pchBuffer</i>.
 
 ### -param pcWrd [out]
 
-The number of <a href="https://msdn.microsoft.com/BC0D039A-7EB4-4A8D-B063-479CF4294FF0">IMEWRD</a> structures returned in <i>pchBuffer</i>. If more entries are found than <i>pchBuffer</i> can store, <b>IFED_S_MORE_ENTRIES</b> will be returned.
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_imewrd">IMEWRD</a> structures returned in <i>pchBuffer</i>. If more entries are found than <i>pchBuffer</i> can store, <b>IFED_S_MORE_ENTRIES</b> will be returned.
 
 
 ## -returns
@@ -100,7 +100,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-The client must call <a href="https://msdn.microsoft.com/551925ED-B05C-433F-91A9-D2BAC795E783">NextWords</a> to get additional <a href="https://msdn.microsoft.com/BC0D039A-7EB4-4A8D-B063-479CF4294FF0">IMEWRD</a> structures.
+The client must call <a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-nextwords">NextWords</a> to get additional <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_imewrd">IMEWRD</a> structures.
 
 </td>
 </tr>
@@ -123,15 +123,15 @@ The client must call <a href="https://msdn.microsoft.com/551925ED-B05C-433F-91A9
 
 
 
-<a href="https://msdn.microsoft.com/9FEA7E1C-166B-4CA4-B25E-0406AD60AC0B">GetWords</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-getwords">GetWords</a>
 
 
 
-<a href="https://msdn.microsoft.com/4C63FF43-0170-4038-AB01-72441E1BB189">IFEDictionary</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>
 
 
 
-<a href="https://msdn.microsoft.com/BC0D039A-7EB4-4A8D-B063-479CF4294FF0">IMEWRD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_imewrd">IMEWRD</a>
  
 
  

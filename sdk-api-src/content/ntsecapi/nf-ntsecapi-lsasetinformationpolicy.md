@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>LsaSetInformationPolicy</b> function modifies information in a <a href="https://msdn.microsoft.com/4253c7fb-85f5-441d-90bf-492e802ad0f8">Policy</a> object.
+The <b>LsaSetInformationPolicy</b> function modifies information in a <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object.
 
 
 ## -parameters
@@ -62,14 +62,14 @@ The <b>LsaSetInformationPolicy</b> function modifies information in a <a href="h
 
 ### -param PolicyHandle [in]
 
-A handle to a <a href="https://msdn.microsoft.com/4253c7fb-85f5-441d-90bf-492e802ad0f8">Policy</a> object. The required access rights for this handle depend on the value of the <i>InformationClass</i> parameter. For more information, see 
-<a href="https://msdn.microsoft.com/66fdc878-d9c4-421c-b79f-9df08984611c">Opening a Policy Object Handle</a>.
+A handle to a <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object. The required access rights for this handle depend on the value of the <i>InformationClass</i> parameter. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/opening-a-policy-object-handle">Opening a Policy Object Handle</a>.
 
 
 ### -param InformationClass [in]
 
 Specifies one of the following values from the 
-<a href="https://msdn.microsoft.com/b734b5e8-1ee9-436b-b2a9-210ae79fbaf5">POLICY_INFORMATION_CLASS</a> enumeration type. The value indicates the type of information to set. 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_policy_information_class">POLICY_INFORMATION_CLASS</a> enumeration type. The value indicates the type of information to set. 
 
 
 
@@ -88,7 +88,7 @@ Specifies one of the following values from the
 </td>
 <td width="60%">
 Sets the system's auditing rules. The handle passed in the <i>PolicyHandle</i> parameter must have the POLICY_SET_AUDIT_REQUIREMENTS access right. The <i>Buffer</i> parameter must be a pointer to a 
-<a href="https://msdn.microsoft.com/3442e5e5-78cf-4bda-ba11-0f51ee40df16">POLICY_AUDIT_EVENTS_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_policy_audit_events_info">POLICY_AUDIT_EVENTS_INFO</a> structure.
 
 </td>
 </tr>
@@ -99,7 +99,7 @@ Sets the system's auditing rules. The handle passed in the <i>PolicyHandle</i> p
 </td>
 <td width="60%">
 Sets the name and SID of the system's primary domain. The handle passed in the <i>PolicyHandle</i> parameter must have the POLICY_TRUST_ADMIN access right. The <i>Buffer</i> parameter must be a pointer to a 
-<a href="https://msdn.microsoft.com/20102da1-bc05-4ea5-9a2d-a50ecba5fd88">POLICY_PRIMARY_DOMAIN_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_policy_primary_domain_info">POLICY_PRIMARY_DOMAIN_INFO</a> structure.
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ Sets the name and SID of the system's primary domain. The handle passed in the <
 </td>
 <td width="60%">
 Sets the name and SID of the system's account domain. The handle passed in the <i>PolicyHandle</i> parameter must have the POLICY_TRUST_ADMIN access right. The <i>Buffer</i> parameter must be a pointer to a 
-<a href="https://msdn.microsoft.com/0e38ac5f-40db-405d-9394-b6bcb7c652b5">POLICY_ACCOUNT_DOMAIN_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_policy_account_domain_info">POLICY_ACCOUNT_DOMAIN_INFO</a> structure.
 
 </td>
 </tr>
@@ -120,8 +120,8 @@ Sets the name and SID of the system's account domain. The handle passed in the <
 </dl>
 </td>
 <td width="60%">
-Sets Domain Name System (DNS) information about the primary domain associated with the <a href="https://msdn.microsoft.com/4253c7fb-85f5-441d-90bf-492e802ad0f8">Policy</a> object. The handle passed in the <i>PolicyHandle</i> parameter must have the POLICY_TRUST_ADMIN access right. The <i>Buffer</i> parameter must be a pointer to a 
-<a href="https://msdn.microsoft.com/5b2879cf-e0dc-4844-bfe8-bf45460285f1">POLICY_DNS_DOMAIN_INFO</a> structure.
+Sets Domain Name System (DNS) information about the primary domain associated with the <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object. The handle passed in the <i>PolicyHandle</i> parameter must have the POLICY_TRUST_ADMIN access right. The <i>Buffer</i> parameter must be a pointer to a 
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_policy_dns_domain_info">POLICY_DNS_DOMAIN_INFO</a> structure.
 
 </td>
 </tr>
@@ -132,7 +132,7 @@ Sets Domain Name System (DNS) information about the primary domain associated wi
 </td>
 <td width="60%">
 Sets the role of an LSA server. The handle passed in the <i>PolicyHandle</i> parameter must have the POLICY_SERVER_ADMIN access right. The <i>Buffer</i> parameter must be a pointer to a 
-<a href="https://msdn.microsoft.com/f66abe33-d8c8-45b8-9b94-d6890d786aaa">POLICY_LSA_SERVER_ROLE_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_policy_lsa_server_role_info">POLICY_LSA_SERVER_ROLE_INFO</a> structure.
 
 Changing a server's role from primary to backup has no effect (although the function returns STATUS_SUCCESS). Changing a server's role from backup to primary requires extensive network operations and may be slow. 
 
@@ -154,10 +154,10 @@ Pointer to a structure containing the information to set. The type of structure 
 If the function succeeds, the return value is STATUS_SUCCESS.
 
 If the function fails, the return value is an NTSTATUS code. For more information, see 
-<a href="https://msdn.microsoft.com/ee55364e-8ffe-4a78-a49a-250756561770">LSA Policy Function Return Values</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
 
 You can use the 
-<a href="https://msdn.microsoft.com/fa91794c-c502-4b36-84cc-a8d77c8e9d9f">LsaNtStatusToWinError</a> function to convert the NTSTATUS code to a Windows error code.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function to convert the NTSTATUS code to a Windows error code.
 
 
 
@@ -167,23 +167,23 @@ You can use the
 
 
 
-<a href="https://msdn.microsoft.com/0e38ac5f-40db-405d-9394-b6bcb7c652b5">POLICY_ACCOUNT_DOMAIN_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_policy_account_domain_info">POLICY_ACCOUNT_DOMAIN_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/3442e5e5-78cf-4bda-ba11-0f51ee40df16">POLICY_AUDIT_EVENTS_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_policy_audit_events_info">POLICY_AUDIT_EVENTS_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/5b2879cf-e0dc-4844-bfe8-bf45460285f1">POLICY_DNS_DOMAIN_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_policy_dns_domain_info">POLICY_DNS_DOMAIN_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/f66abe33-d8c8-45b8-9b94-d6890d786aaa">POLICY_LSA_SERVER_ROLE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_policy_lsa_server_role_info">POLICY_LSA_SERVER_ROLE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/20102da1-bc05-4ea5-9a2d-a50ecba5fd88">POLICY_PRIMARY_DOMAIN_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_policy_primary_domain_info">POLICY_PRIMARY_DOMAIN_INFO</a>
  
 
  

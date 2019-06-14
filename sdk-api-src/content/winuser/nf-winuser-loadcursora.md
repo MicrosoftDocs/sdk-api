@@ -60,7 +60,7 @@ ms.custom: 19H1
 
 
 Loads the specified cursor resource from the executable (.EXE) file associated with an application instance.
-<div class="alert"><b>Note</b>  This function has been superseded by the <a href="https://msdn.microsoft.com/en-us/library/ms648045(v=VS.85).aspx">LoadImage</a> function.</div><div> </div>
+<div class="alert"><b>Note</b>  This function has been superseded by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a> function.</div><div> </div>
 
 ## -parameters
 
@@ -78,7 +78,7 @@ A handle to an instance of the module whose executable file contains the cursor 
 
 Type: <b>LPCTSTR</b>
 
-The name of the cursor resource to be loaded. Alternatively, this parameter can consist of the resource identifier in the low-order word and zero in the high-order word. The <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro can also be used to create this value. To use one of the predefined cursors, the application must set the <i>hInstance</i> parameter to <b>NULL</b> and the <i>lpCursorName</i> parameter to one the following values.
+The name of the cursor resource to be loaded. Alternatively, this parameter can consist of the resource identifier in the low-order word and zero in the high-order word. The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro can also be used to create this value. To use one of the predefined cursors, the application must set the <i>hInstance</i> parameter to <b>NULL</b> and the <i>lpCursorName</i> parameter to one the following values.
 
 <table>
 <tr>
@@ -273,7 +273,7 @@ Type: <b>HCURSOR</b>
 
 If the function succeeds, the return value is the handle to the newly loaded cursor.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -292,7 +292,7 @@ This API does not participate in DPI virtualization. The output returned is not 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648380(v=VS.85).aspx">Creating a Cursor</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-cursors">Creating a Cursor</a>.
 
 <div class="code"></div>
 
@@ -307,15 +307,15 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648380(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646970(v=VS.85).aspx">Cursors</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/cursors">Cursors</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648045(v=VS.85).aspx">LoadImage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>
 
 
 
@@ -323,15 +323,15 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648380(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648393(v=VS.85).aspx">SetCursor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setcursor">SetCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648394(v=VS.85).aspx">SetCursorPos</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setcursorpos">SetCursorPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648396(v=VS.85).aspx">ShowCursor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showcursor">ShowCursor</a>
  
 
  

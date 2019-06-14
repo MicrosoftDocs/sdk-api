@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Updates component registration information from the registry.
 
-You generally should not use <b>RefreshComponents</b>. The recommended way to update components in COM+ applications is to remove and reinstall the components using <a href="https://msdn.microsoft.com/63af9aa4-a1f0-4277-bd36-8b4c64227b3f">ICOMAdminCatalog::InstallComponent</a> so that complete registration information is updated in the registry database.
+You generally should not use <b>RefreshComponents</b>. The recommended way to update components in COM+ applications is to remove and reinstall the components using <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-installcomponent">ICOMAdminCatalog::InstallComponent</a> so that complete registration information is updated in the registry database.
 
 
 ## -parameters
@@ -88,7 +88,7 @@ Only CLSID information is updated to RegDB. No interface or method information i
 
 
 
-<a href="https://msdn.microsoft.com/2c3c49df-9ca5-40ea-b45c-f4eca1004602">ICOMAdminCatalog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>
  
 
  

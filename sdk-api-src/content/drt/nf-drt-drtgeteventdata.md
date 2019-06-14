@@ -69,7 +69,7 @@ The size, in bytes, of the <i>pEventData</i> buffer.
 
 ### -param pEventData [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/b52bf815-d962-4f72-8876-a80769bc3d3d">DRT_EVENT_DATA</a> structure that contains the event data.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_event_data_tag">DRT_EVENT_DATA</a> structure that contains the event data.
 
 
 ## -returns
@@ -138,7 +138,7 @@ No more event data available.
 
 
 
-<a href="https://msdn.microsoft.com/b52bf815-d962-4f72-8876-a80769bc3d3d">DRT_EVENT_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_event_data_tag">DRT_EVENT_DATA</a>
  
 
  

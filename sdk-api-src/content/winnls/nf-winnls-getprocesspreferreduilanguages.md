@@ -56,7 +56,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the process preferred UI languages. For more information, see <a href="https://msdn.microsoft.com/ae8ab98f-dc3b-414d-85c9-6bf204c2f776">User Interface Language Management</a>.
+Retrieves the process preferred UI languages. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/user-interface-language-management">User Interface Language Management</a>.
 
 
 ## -parameters
@@ -79,7 +79,7 @@ Flags identifying the language format to use for the process preferred UI langua
 </dl>
 </td>
 <td width="60%">
-Retrieve the language strings in <a href="https://msdn.microsoft.com/076e2a43-256a-4646-a5c8-1d48ab08ce1a">language identifier</a> format.
+Retrieve the language strings in <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">language identifier</a> format.
 
 </td>
 </tr>
@@ -89,7 +89,7 @@ Retrieve the language strings in <a href="https://msdn.microsoft.com/076e2a43-25
 </dl>
 </td>
 <td width="60%">
-Retrieve the language strings in <a href="https://msdn.microsoft.com/e8c54168-22b3-435e-b19a-9b34adcdb018">language name</a> format.
+Retrieve the language strings in <a href="https://docs.microsoft.com/windows/desktop/Intl/language-names">language name</a> format.
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ Alternatively if this parameter is set to 0 and <i>pwszLanguagesBuffer</i> is se
 
 
 
-Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended error information, the application can call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>, which can return one of the following error codes:
+Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <ul>
 <li>ERROR_INSUFFICIENT_BUFFER. A supplied buffer size was not large enough, or it was incorrectly set to <b>NULL</b>.</li>
@@ -168,15 +168,15 @@ as "0409" and en as "0009".
 
 
 
-<a href="https://msdn.microsoft.com/2980365c-5a83-4c0f-aa37-e212ec9f0408">Multilingual User Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface">Multilingual User Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/918d1f04-78fe-4b60-bee7-08d2f131437e">Multilingual User Interface Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface-functions">Multilingual User Interface Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/81f65561-886d-4c29-aca6-ea69bc865ea0">SetProcessPreferredUILanguages</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-setprocesspreferreduilanguages">SetProcessPreferredUILanguages</a>
  
 
  

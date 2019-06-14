@@ -64,7 +64,7 @@ Handle to the peer graph.
 
 ### -param pwzCriteria [in]
 
-Pointer to an XML string that specifies the records to search for. For information on formulating an XML query string to search the peer graphing records, see <a href="https://msdn.microsoft.com/2c5ab425-6959-418a-8d9a-c8155257fc7e">Record Search Query Format</a>.
+Pointer to an XML string that specifies the records to search for. For information on formulating an XML query string to search the peer graphing records, see <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/record-search-query-format">Record Search Query Format</a>.
 
 
 ### -param phPeerEnum [out]
@@ -123,7 +123,7 @@ The handle to the peer graph is invalid.
 </dl>
 </td>
 <td width="60%">
-The specified query does not adhere to the search schema.  See <a href="https://msdn.microsoft.com/2c5ab425-6959-418a-8d9a-c8155257fc7e">Record Search Query Format</a> for further information.
+The specified query does not adhere to the search schema.  See <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/record-search-query-format">Record Search Query Format</a> for further information.
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ The specified query does not adhere to the search schema.  See <a href="https://
 </dl>
 </td>
 <td width="60%">
-The peer graph must be  initialized with a call to <a href="https://msdn.microsoft.com/00ffdec7-f084-4170-a4a1-e6112bab4d61">PeerGraphStartup</a> before using this function.
+The peer graph must be  initialized with a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a> before using this function.
 
 </td>
 </tr>
@@ -148,9 +148,9 @@ The peer graph must be  initialized with a call to <a href="https://msdn.microso
 
 
 
-The <a href="https://msdn.microsoft.com/528c7172-56ed-4e14-991a-69e9fde7b227">PeerGraphEnumRecords</a> function is more efficient than the  <b>PeerGraphSearchRecords</b> function.
+The <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphenumrecords">PeerGraphEnumRecords</a> function is more efficient than the  <b>PeerGraphSearchRecords</b> function.
 
-When <a href="https://msdn.microsoft.com/f595e66d-570f-4642-bef8-ff5cf070649c">PeerGraphGetNextItem</a> is called with the handle returned by  <b>PeerGraphSearchRecords</b>, <b>PeerGraphGetNextItem</b>  returns the data in the  <a href="https://msdn.microsoft.com/4e0a1c44-e5a4-42d6-bb56-9bdcf7f9e6f1">PEER_RECORD</a> structure.
+When <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphgetnextitem">PeerGraphGetNextItem</a> is called with the handle returned by  <b>PeerGraphSearchRecords</b>, <b>PeerGraphGetNextItem</b>  returns the data in the  <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record_tag">PEER_RECORD</a> structure.
 
 
 
@@ -160,23 +160,23 @@ When <a href="https://msdn.microsoft.com/f595e66d-570f-4642-bef8-ff5cf070649c">P
 
 
 
-<a href="https://msdn.microsoft.com/4e0a1c44-e5a4-42d6-bb56-9bdcf7f9e6f1">PEER_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record_tag">PEER_RECORD</a>
 
 
 
-<a href="https://msdn.microsoft.com/31a18705-b8bf-461c-98e0-c03c6d269b51">PeerGraphEndEnumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphendenumeration">PeerGraphEndEnumeration</a>
 
 
 
-<a href="https://msdn.microsoft.com/528c7172-56ed-4e14-991a-69e9fde7b227">PeerGraphEnumRecords</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphenumrecords">PeerGraphEnumRecords</a>
 
 
 
-<a href="https://msdn.microsoft.com/db97b7e0-6f85-4b61-843f-efb4bc93149b">PeerGraphGetItemCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphgetitemcount">PeerGraphGetItemCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/f595e66d-570f-4642-bef8-ff5cf070649c">PeerGraphGetNextItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphgetnextitem">PeerGraphGetNextItem</a>
  
 
  

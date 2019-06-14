@@ -59,12 +59,12 @@ The <b>AuthzInitializeRemoteResourceManager</b> function allocates and initializ
 
 ### -param pRpcInitInfo [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/6859A0CB-F88E-42BF-A350-293D28E908DD">AUTHZ_RPC_INIT_INFO_CLIENT</a> structure containing the initial information needed to configure the connection.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_rpc_init_info_client">AUTHZ_RPC_INIT_INFO_CLIENT</a> structure containing the initial information needed to configure the connection.
 
 
 ### -param phAuthzResourceManager [out]
 
-A handle to the resource manager. When you have finished using the handle, free it by calling the <a href="https://msdn.microsoft.com/8b716368-8d81-4c62-9086-0976b39bbcf8">AuthzFreeResourceManager</a> function.
+A handle to the resource manager. When you have finished using the handle, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzfreeresourcemanager">AuthzFreeResourceManager</a> function.
 
 
 ## -returns
@@ -73,7 +73,7 @@ A handle to the resource manager. When you have finished using the handle, free 
 
 If the function succeeds, the function returns <b>TRUE</b>. 
 
-If the function fails, it returns <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, it returns <b>FALSE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 

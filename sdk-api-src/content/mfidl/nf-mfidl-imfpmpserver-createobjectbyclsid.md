@@ -109,7 +109,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/ba6dc70a-d77d-41de-afe1-65f2efcc4a95">IMFPMPServer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpmpserver">IMFPMPServer</a>
  
 
  

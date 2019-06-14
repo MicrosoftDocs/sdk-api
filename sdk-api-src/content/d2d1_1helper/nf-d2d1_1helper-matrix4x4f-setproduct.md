@@ -59,14 +59,14 @@ Multiplies the two matrices and stores the result in this matrix.
 
 ### -param a [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/113861DF-2E6D-4930-82DC-AA592882E21C">Matrix4x4F</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nl-d2d1_1helper-matrix4x4f">Matrix4x4F</a></b>
 
 The first matrix to multiply.
 
 
 ### -param b [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/113861DF-2E6D-4930-82DC-AA592882E21C">Matrix4x4F</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nl-d2d1_1helper-matrix4x4f">Matrix4x4F</a></b>
 
 The second matrix to multiply.
 
@@ -85,7 +85,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/113861DF-2E6D-4930-82DC-AA592882E21C">Matrix4x4F</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nl-d2d1_1helper-matrix4x4f">Matrix4x4F</a>
  
 
  

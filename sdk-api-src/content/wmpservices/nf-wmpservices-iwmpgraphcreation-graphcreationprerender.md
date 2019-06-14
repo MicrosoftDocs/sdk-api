@@ -95,7 +95,7 @@ There is no guarantee that this method will be invoked for all files.  Only file
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563379(v=VS.85).aspx">IWMPGraphCreation Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nn-wmpservices-iwmpgraphcreation">IWMPGraphCreation Interface</a>
  
 
  

@@ -50,10 +50,10 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/bcec87c1-32ba-451b-92bb-80c8a5007adb">WBEMTimeSpan</a> class 
+<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/wbemtime/nl-wbemtime-wbemtimespan">WBEMTimeSpan</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 <span>The <b>WBEMTimeSpan</b> class constructor creates a 
     time span object. The constructor is overloaded.
@@ -64,7 +64,7 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/75964571-b82a-441a-8cc9-4f10d41363d6">WBEMTimeSpan()</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-wbemtimespan(constbstr)">WBEMTimeSpan()</a>
 </td>
 <td align="left" width="63%">
 Creates an uninitialized time span object.
@@ -73,7 +73,7 @@ Creates an uninitialized time span object.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/51be003d-e85d-4cd0-99ed-a4575e35a773">WBEMTimeSpan(BSTR)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-wbemtimespan(constbstr)">WBEMTimeSpan(BSTR)</a>
 </td>
 <td align="left" width="63%">
 Initializes the new time span object to value in the parameter.
@@ -82,7 +82,7 @@ Initializes the new time span object to value in the parameter.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b1bd1421-81f6-478a-8ec3-dfacdac3c85f">WBEMTimeSpan(int,int,int,int,int,int,int)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-wbemtimespan(int_int_int_int_int_int_int)">WBEMTimeSpan(int,int,int,int,int,int,int)</a>
 </td>
 <td align="left" width="63%">
 Initializes the new time span object to values in the parameters.

@@ -59,7 +59,7 @@ The <b>CRYPT_ATTRIBUTE</b> structure specifies an attribute that has one or more
 
 ### -field pszObjId
 
-An <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) that specifies the type of data contained in the <b>rgValue</b> array.
+An <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) that specifies the type of data contained in the <b>rgValue</b> array.
 
 
 ### -field cValue
@@ -69,7 +69,7 @@ A <b>DWORD</b>  value that indicates the number of elements in the <b>rgValue</b
 
 ### -field rgValue
 
-Pointer to an array of <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_INTEGER_BLOB</a> structures. The <b>cbData</b> member of the <b>CRYPT_INTEGER_BLOB</b> structure indicates the length of the <b>pbData</b> member. The <b>pbData</b> member contains the attribute information.
+Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structures. The <b>cbData</b> member of the <b>CRYPT_INTEGER_BLOB</b> structure indicates the length of the <b>pbData</b> member. The <b>pbData</b> member contains the attribute information.
 
 
 ## -see-also
@@ -77,31 +77,31 @@ Pointer to an array of <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98
 
 
 
-<a href="https://msdn.microsoft.com/6edeed33-16e1-4295-90e9-769929ab916a">CERT_REQUEST_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_request_info">CERT_REQUEST_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/f599226d-ddd7-455f-b650-74b91674d8f9">CMSG_SIGNER_ENCODE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_signer_encode_info">CMSG_SIGNER_ENCODE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/782f3022-d852-4ad7-8e0f-afbccc25928a">CRYPT_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_attributes">CRYPT_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_INTEGER_BLOB</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
 
 
 
-<a href="https://msdn.microsoft.com/1601d860-6054-4650-a033-ea088655b7e4">CRYPT_SIGN_MESSAGE_PARA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_sign_message_para">CRYPT_SIGN_MESSAGE_PARA</a>
 
 
 
-<a href="https://msdn.microsoft.com/876527dd-1ec5-4783-a7ad-20a0e2d2367a">CRYPT_TIME_STAMP_REQUEST_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_time_stamp_request_info">CRYPT_TIME_STAMP_REQUEST_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/99d690fb-ea85-4cb1-9fb0-bdb02e4ac50a">CertFindAttribute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindattribute">CertFindAttribute</a>
  
 
  

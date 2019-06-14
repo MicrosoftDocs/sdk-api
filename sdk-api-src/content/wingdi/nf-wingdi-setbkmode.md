@@ -114,12 +114,12 @@ If the function fails, the return value is zero.
 
 
 
-The <b>SetBkMode</b> function affects the line styles for lines drawn using a pen created by the <a href="https://msdn.microsoft.com/882facd2-7e06-48f6-82e4-f20e4d5adc92">CreatePen</a> function. <b>SetBkMode</b> does not affect lines drawn using a pen created by the <a href="https://msdn.microsoft.com/a1e81314-4fe6-481f-af96-24ebf56332cf">ExtCreatePen</a> function.
+The <b>SetBkMode</b> function affects the line styles for lines drawn using a pen created by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpen">CreatePen</a> function. <b>SetBkMode</b> does not affect lines drawn using a pen created by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extcreatepen">ExtCreatePen</a> function.
 
 
 #### Examples
 
-To see how to make the background of a  hatch brush transparent or opaque, refer to the example shown in the <a href="https://msdn.microsoft.com/0b5849d6-1e22-4ac5-980c-2f2a73b16adb">CreateHatchBrush</a>   topic.
+To see how to make the background of a  hatch brush transparent or opaque, refer to the example shown in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createhatchbrush">CreateHatchBrush</a>   topic.
 
 The next example draws a string 36 times, rotating it 10 degrees 
 counterclockwise each time. It also sets the background mode to transparent to make the text visible.
@@ -224,23 +224,23 @@ LocalFree((LOCALHANDLE) plf);
 
 
 
-<a href="https://msdn.microsoft.com/882facd2-7e06-48f6-82e4-f20e4d5adc92">CreatePen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpen">CreatePen</a>
 
 
 
-<a href="https://msdn.microsoft.com/a1e81314-4fe6-481f-af96-24ebf56332cf">ExtCreatePen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extcreatepen">ExtCreatePen</a>
 
 
 
-<a href="https://msdn.microsoft.com/3faedb48-3163-48fd-b26e-712de9c4bfaf">GetBkMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getbkmode">GetBkMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/ec18323e-c13b-4328-83bf-9e4ed4a712b8">Painting and Drawing Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e6034af-4dea-4579-b476-52f6dd3d5bc7">Painting and Drawing Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
  
 
  

@@ -52,9 +52,9 @@ ms.custom: 19H1
 Describes the methods that are defined for the <b>IGamutMapModelPlugIn</b> Component Object Model (COM) interface.
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/86fb0f6b-d293-44de-ad1d-724436403535">IGamutMapModelPlugIn::Initialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcsplugin/nf-wcsplugin-igamutmapmodelplugin-initialize">IGamutMapModelPlugIn::Initialize</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/b98f05db-f003-4a3f-9bc3-0675719e339d">IGamutMapModelPlugIn::SourceToDestinationAppearanceColors</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcsplugin/nf-wcsplugin-igamutmapmodelplugin-sourcetodestinationappearancecolors">IGamutMapModelPlugIn::SourceToDestinationAppearanceColors</a>
 </li>
 </ul>

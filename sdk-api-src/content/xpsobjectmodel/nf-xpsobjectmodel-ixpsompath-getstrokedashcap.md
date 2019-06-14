@@ -59,14 +59,14 @@ Gets the style of the end cap to be used on the stroke dash.
 
 ### -param strokeDashCap [out, retval]
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd372946(v=VS.85).aspx">XPS_DASH_CAP</a> value that describes the  style of the end cap to be used on the stroke dash.
+The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0006">XPS_DASH_CAP</a> value that describes the  style of the end cap to be used on the stroke dash.
 
 
 ## -returns
 
 
 
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -105,7 +105,7 @@ The method succeeded.
 
 
 
-For more information about dash cap styles, see <a href="https://msdn.microsoft.com/en-us/library/Dd372946(v=VS.85).aspx">XPS_DASH_CAP</a>.
+For more information about dash cap styles, see <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0006">XPS_DASH_CAP</a>.
 
 
 
@@ -115,7 +115,7 @@ For more information about dash cap styles, see <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/93257a77-3fef-400e-bfe1-06e760ba4b93">IXpsOMPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompath">IXpsOMPath</a>
 
 
 
@@ -123,11 +123,11 @@ For more information about dash cap styles, see <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd372946(v=VS.85).aspx">XPS_DASH_CAP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0006">XPS_DASH_CAP</a>
  
 
  

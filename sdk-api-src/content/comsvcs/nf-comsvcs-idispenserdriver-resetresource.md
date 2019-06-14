@@ -126,7 +126,7 @@ The resource may still be enlisted at this time, so <b>ResetResource</b> cannot 
 
 
 
-<a href="https://msdn.microsoft.com/dba9c616-031d-48a7-b3e3-eb28b95a573a">IDispenserDriver</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a>
  
 
  

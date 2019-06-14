@@ -59,7 +59,7 @@ Gets the dictionary of the child items that correspond to this item.
 
 ### -param Children [out]
 
-An <a href="https://msdn.microsoft.com/f43245f1-81d9-4b06-8f0c-d490618a99fa">IItemEnumerator</a> interface pointer used to access the children.
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-iitemenumerator">IItemEnumerator</a> interface pointer used to access the children.
 
 
 ## -returns
@@ -117,7 +117,7 @@ Indicates that the item does not support having children.
 
 
 
-<a href="https://msdn.microsoft.com/a743d942-69f9-426b-be88-adf88b9bb1e0">ISettingsItem</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>
  
 
  

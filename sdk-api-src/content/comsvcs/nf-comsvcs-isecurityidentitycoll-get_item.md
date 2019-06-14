@@ -140,11 +140,11 @@ This collection represents a security identity, which provides information about
 
 
 
-<a href="https://msdn.microsoft.com/561593c0-d897-4c3a-a4f5-f25351d2c05c">COM+ Security</a>
+<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--security">COM+ Security</a>
 
 
 
-<a href="https://msdn.microsoft.com/6844bfb2-028f-4155-85a6-b7023432f6cd">ISecurityIdentityColl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isecurityidentitycoll">ISecurityIdentityColl</a>
  
 
  

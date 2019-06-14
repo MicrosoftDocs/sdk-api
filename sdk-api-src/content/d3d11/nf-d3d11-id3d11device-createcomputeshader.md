@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Create a <a href="https://msdn.microsoft.com/02c1f98e-fdd6-49b0-b8b2-efbd472ab599">compute shader</a>.
+Create a <a href="https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-advanced-stages-compute-shader">compute shader</a>.
 
 
 ## -parameters
@@ -67,23 +67,23 @@ A pointer to a compiled shader.
 
 ### -param BytecodeLength [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SIZE_T</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SIZE_T</a></b>
 
 Size of the compiled shader in <i>pShaderBytecode</i>.
 
 
 ### -param pClassLinkage [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/eac03911-d881-4304-9598-912321ac0b0c">ID3D11ClassLinkage</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11classlinkage">ID3D11ClassLinkage</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/eac03911-d881-4304-9598-912321ac0b0c">ID3D11ClassLinkage</a>, which represents  class linkage interface; the value can be <b>NULL</b>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11classlinkage">ID3D11ClassLinkage</a>, which represents  class linkage interface; the value can be <b>NULL</b>.
 
 
 ### -param ppComputeShader [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/33a43253-ada2-4085-9401-e84562b37d59">ID3D11ComputeShader</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11computeshader">ID3D11ComputeShader</a>**</b>
 
-Address of a pointer to an <a href="https://msdn.microsoft.com/33a43253-ada2-4085-9401-e84562b37d59">ID3D11ComputeShader</a> interface. If this is <b>NULL</b>, 
+Address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11computeshader">ID3D11ComputeShader</a> interface. If this is <b>NULL</b>, 
         all other parameters will be validated; if validation passes, CreateComputeShader returns S_FALSE instead of S_OK.
 
 
@@ -91,10 +91,10 @@ Address of a pointer to an <a href="https://msdn.microsoft.com/33a43253-ada2-408
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 This method returns E_OUTOFMEMORY if there is insufficient memory to create the compute shader.  
-        See <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a> for other possible return values.
+        See <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a> for other possible return values.
 
 
 
@@ -103,7 +103,7 @@ This method returns E_OUTOFMEMORY if there is insufficient memory to create the 
 
 
 
-For an example, see <a href="https://msdn.microsoft.com/6114dd90-626b-4c9e-9da5-7d2d33153e79">How To: Create a Compute Shader</a> and <a href="https://msdn.microsoft.com/library/Ee416569(v=VS.85).aspx">HDRToneMappingCS11 Sample</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-advanced-stages-compute-create">How To: Create a Compute Shader</a> and <a href="https://msdn.microsoft.com/library/Ee416569(v=VS.85).aspx">HDRToneMappingCS11 Sample</a>.
 
 
 
@@ -113,7 +113,7 @@ For an example, see <a href="https://msdn.microsoft.com/6114dd90-626b-4c9e-9da5-
 
 
 
-<a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>
  
 
  

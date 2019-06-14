@@ -66,7 +66,7 @@ The service provider's handle to the line to be queried.
 ### -param lpLineDevStatus
 
 A pointer to a variably sized data structure of type 
-<a href="https://msdn.microsoft.com/3d565e99-eb90-47ca-9fb9-295236f566fb">LINEDEVSTATUS</a>. This structure is filled with the line's device status.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevstatus_tag">LINEDEVSTATUS</a>. This structure is filled with the line's device status.
 
 
 ## -returns
@@ -85,7 +85,7 @@ LINEERR_INVALLINEHANDLE, LINEERR_OPERATIONFAILED, LINEERR_NOMEM, LINEERR_RESOURC
 
 
 The following table indicates which members of the 
-<a href="https://msdn.microsoft.com/3d565e99-eb90-47ca-9fb9-295236f566fb">LINEDEVSTATUS</a> data structure are filled in by TAPI and which are filled in by the service provider. The service provider must preserve (it must not overwrite) the values filled in by TAPI.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevstatus_tag">LINEDEVSTATUS</a> data structure are filled in by TAPI and which are filled in by the service provider. The service provider must preserve (it must not overwrite) the values filled in by TAPI.
 
 <table>
 <tr>
@@ -199,11 +199,11 @@ The following table indicates which members of the
 
 
 
-<a href="https://msdn.microsoft.com/3d565e99-eb90-47ca-9fb9-295236f566fb">LINEDEVSTATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevstatus_tag">LINEDEVSTATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3afd959-a0cb-4f0a-a700-d50cf7a4c386">TSPI_lineGetAddressStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetaddressstatus">TSPI_lineGetAddressStatus</a>
  
 
  

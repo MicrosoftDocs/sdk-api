@@ -124,11 +124,11 @@ Macro HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER) returned when <i>pszContactI
 
 
 
-<a href="https://msdn.microsoft.com/9dc97b84-ede9-4ec1-939a-2b13e0d68486">IContact</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontact">IContact</a>
 
 
 
-<a href="https://msdn.microsoft.com/d9addc49-72fd-4b87-bf48-a2a09b1161e9">Load</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactmanager-load">Load</a>
  
 
  

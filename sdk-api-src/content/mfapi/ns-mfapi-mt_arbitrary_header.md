@@ -87,18 +87,18 @@ If <b>bFixedSizeSamples</b> is <b>TRUE</b>, this member specifies the sample siz
 ### -field formattype
 
 Format type GUID. This GUID identifies the structure of the additional format data, which is stored in the 
-          <a href="https://msdn.microsoft.com/fc5b9890-1508-498e-b2ce-ed4fa2052f9c">MF_MT_ARBITRARY_FORMAT</a> attribute of the media type. If no additional format data is present, <b>formattype</b> equals GUID_NULL.
+          <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-arbitrary-format">MF_MT_ARBITRARY_FORMAT</a> attribute of the media type. If no additional format data is present, <b>formattype</b> equals GUID_NULL.
 
 
 ## -remarks
 
 
 
-This structure is used with the <a href="https://msdn.microsoft.com/45608dde-894b-4204-80dc-505f068fb158">MF_MT_ARBITRARY_HEADER</a> media type attribute.
+This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-arbitrary-header">MF_MT_ARBITRARY_HEADER</a> media type attribute.
 
 This structure corresponds to the first 60 bytes of the Type-Specific Data field of the Stream Properties Object, in files where the stream type is ASF_Binary_Media. For more information, see the ASF specification.
 
-The Format Data field of the Type-Specific Data field is contained in the <a href="https://msdn.microsoft.com/fc5b9890-1508-498e-b2ce-ed4fa2052f9c">MF_MT_ARBITRARY_FORMAT</a> attribute of the media type.
+The Format Data field of the Type-Specific Data field is contained in the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-arbitrary-format">MF_MT_ARBITRARY_FORMAT</a> attribute of the media type.
 
 
 
@@ -108,7 +108,7 @@ The Format Data field of the Type-Specific Data field is contained in the <a hre
 
 
 
-<a href="https://msdn.microsoft.com/39fdd724-13ca-48ab-8a55-93529d1da3b4">Media Foundation Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
  
 
  

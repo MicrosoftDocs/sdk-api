@@ -135,7 +135,7 @@ An error occurred. (The previous clipping region is unaffected.)
 
 The current clipping region of a device context is defined by the intersection of its clipping region and its metaregion.
 
-The <b>SetMetaRgn</b> function should only be called after an application's original device context was saved by calling the <a href="https://msdn.microsoft.com/f438cd7f-436f-436c-b32e-67f5558740cb">SaveDC</a> function.
+The <b>SetMetaRgn</b> function should only be called after an application's original device context was saved by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-savedc">SaveDC</a> function.
 
 
 
@@ -145,19 +145,19 @@ The <b>SetMetaRgn</b> function should only be called after an application's orig
 
 
 
-<a href="https://msdn.microsoft.com/de9e5786-63d8-47be-8522-e96d7c0f8634">Clipping Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/clipping-functions">Clipping Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e966369-9988-4bfa-af37-b1bbb3488880">Clipping Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/clipping">Clipping Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/9c2741cf-30e4-4100-bae9-ad99a7ae37f1">GetMetaRgn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getmetargn">GetMetaRgn</a>
 
 
 
-<a href="https://msdn.microsoft.com/f438cd7f-436f-436c-b32e-67f5558740cb">SaveDC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-savedc">SaveDC</a>
  
 
  

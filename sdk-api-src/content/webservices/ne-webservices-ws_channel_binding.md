@@ -78,7 +78,7 @@ SOAP over UDP.
 
 ### -field WS_CUSTOM_CHANNEL_BINDING
 
-A custom channel or listen implementation. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd401801(v=VS.85).aspx">WS_CUSTOM_CHANNEL_CALLBACKS</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd401803(v=VS.85).aspx">WS_CUSTOM_LISTENER_CALLBACKS</a>.
+A custom channel or listen implementation. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_custom_channel_callbacks">WS_CUSTOM_CHANNEL_CALLBACKS</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_custom_listener_callbacks">WS_CUSTOM_LISTENER_CALLBACKS</a>.
 
 
 ### -field WS_NAMEDPIPE_CHANNEL_BINDING

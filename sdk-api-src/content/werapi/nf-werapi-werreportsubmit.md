@@ -62,7 +62,7 @@ Submits the specified report.
 
 ### -param hReportHandle [in]
 
-A handle to the report. This handle is returned by the <a href="https://msdn.microsoft.com/41f68dde-5e43-45a6-8e0b-3ae0c6180e8b">WerReportCreate</a> function.
+A handle to the report. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a> function.
 
 
 ### -param consent [in]
@@ -149,7 +149,7 @@ This parameter can be one or more of the following values.
 </dl>
 </td>
 <td width="60%">
-Add the data registered by <a href="https://msdn.microsoft.com/2a71203f-3a08-461f-a230-e3fee00d9d99">WerSetFlags</a>, <a href="https://msdn.microsoft.com/4b4bb1bb-6782-447a-901f-75702256d907">WerRegisterFile</a>, and <a href="https://msdn.microsoft.com/10fa2bf3-ec12-4c7c-b986-9b22cdaa7319">WerRegisterMemoryBlock</a> to the report.
+Add the data registered by <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-wersetflags">WerSetFlags</a>, <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werregisterfile">WerRegisterFile</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werregistermemoryblock">WerRegisterMemoryBlock</a> to the report.
 
 </td>
 </tr>
@@ -160,7 +160,7 @@ Add the data registered by <a href="https://msdn.microsoft.com/2a71203f-3a08-461
 </dl>
 </td>
 <td width="60%">
-Honor any recovery registration for the application. For more information, see <a href="https://msdn.microsoft.com/4ff73c2c-a941-4626-ae40-cafbe6e50644">RegisterApplicationRecoveryCallback</a>.
+Honor any recovery registration for the application. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerapplicationrecoverycallback">RegisterApplicationRecoveryCallback</a>.
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ Honor any recovery registration for the application. For more information, see <
 </dl>
 </td>
 <td width="60%">
-Honor any restart registration for the application. For more information, see <a href="https://msdn.microsoft.com/f4cd25b3-2aee-460f-9f9f-b45ecded094f">RegisterApplicationRestart</a>.
+Honor any restart registration for the application. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart">RegisterApplicationRestart</a>.
 
 </td>
 </tr>
@@ -286,7 +286,7 @@ Bypass data throttling for the report.
 </dl>
 </td>
 <td width="60%">
-Archive only the parameters; the cab is discarded. This flag overrides the <a href="https://msdn.microsoft.com/031c5591-31b0-42f1-9a98-ecf10a5d5571">ConfigureArchive</a> WER setting.
+Archive only the parameters; the cab is discarded. This flag overrides the <a href="https://docs.microsoft.com/windows/desktop/wer/wer-settings">ConfigureArchive</a> WER setting.
 
 <b>Windows 7 or earlier:  </b>This parameter is not available.
 
@@ -436,7 +436,7 @@ This function returns <b>S_OK</b> on success or an error code on failure.
 
 After the application calls this function, WER collects the specified data. If the <i>consent</i> parameter is WerConsentApproved, it submits the report to Microsoft. If <i>consent</i> is WerConsentNotAsked, WER displays the consent dialog box. To determine the submission status, check the <i>pSubmitResult</i> parameter.
 
-In the event of a critical application event, applications that have <a href="https://msdn.microsoft.com/f4cd25b3-2aee-460f-9f9f-b45ecded094f">registered for restart</a> will be restarted.
+In the event of a critical application event, applications that have <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart">registered for restart</a> will be restarted.
 
 The computer identifier is sent with the report when
 
@@ -454,19 +454,19 @@ To view the reports submitted by your application, go to Windows Quality Online 
 
 
 
-<a href="https://msdn.microsoft.com/9357786c-1992-4e28-ac75-c2dfda1df7f1">Application Recovery and Restart</a>
+<a href="https://docs.microsoft.com/windows/desktop/wsw/portal">Application Recovery and Restart</a>
 
 
 
-<a href="https://msdn.microsoft.com/4e28f379-5793-4d76-898e-d87a0291c034">WER Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/41f68dde-5e43-45a6-8e0b-3ae0c6180e8b">WerReportCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/5c076588-779c-4cd2-9fd9-1db3039e37a2">Windows Error Reporting</a>
+<a href="https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
  
 
  

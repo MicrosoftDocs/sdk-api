@@ -49,105 +49,105 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>IWTSProtocolConnection</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://msdn.microsoft.com/2b8a5b2f-5a54-4d60-8b5a-8a914728087c">IWRdsProtocolConnection</a>.]
+<p class="CCE_Message">[<b>IWTSProtocolConnection</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnection">IWRdsProtocolConnection</a>.]
 
-  Exposes methods called by the Remote Desktop Services service to configure a client connection. Your protocol must implement this interface to handle connection requests from clients. When the protocol listener receives a connection request from a client, it must create an <b>IWTSProtocolConnection</b> object and pass it to the Remote Desktop Services service by calling  the <a href="https://msdn.microsoft.com/0874c394-6260-4ac1-b5a8-27879f562e19">OnConnected</a> method. In response, the service adds a reference to the <a href="https://msdn.microsoft.com/ac8a2a66-fa1f-48bd-9502-def833e26f31">IWTSProtocolConnectionCallback</a> object and returns a pointer to it. When the connection is no longer needed, the protocol must release the pointer.
+  Exposes methods called by the Remote Desktop Services service to configure a client connection. Your protocol must implement this interface to handle connection requests from clients. When the protocol listener receives a connection request from a client, it must create an <b>IWTSProtocolConnection</b> object and pass it to the Remote Desktop Services service by calling  the <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocollistenercallback-onconnected">OnConnected</a> method. In response, the service adds a reference to the <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnectioncallback">IWTSProtocolConnectionCallback</a> object and returns a pointer to it. When the connection is no longer needed, the protocol must release the pointer.
 
 During a connection sequence, the following methods are called by the Remote Desktop Services service in the order listed.
 <ol>
 <li>
-<a href="https://msdn.microsoft.com/59bd7d50-2903-42b7-b556-4da7b50d8e7a">GetLogonErrorRedirector</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-getlogonerrorredirector">GetLogonErrorRedirector</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/b3fcc213-8257-433f-b304-ce19bc209591">SendPolicyData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-sendpolicydata">SendPolicyData</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/5be00911-f68a-410d-8d56-81458b5ff44e">AcceptConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-acceptconnection">AcceptConnection</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/1330fbb4-4c10-493b-ad95-3c2ad975459a">GetClientData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-getclientdata">GetClientData</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/48cd1a57-5f6d-4feb-889d-7441a76c0410">GetUserCredentials</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-getusercredentials">GetUserCredentials</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/714e2479-54b2-4899-9fbd-68fa35051f58">GetLicenseConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-getlicenseconnection">GetLicenseConnection</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/541bf463-9a4a-4237-8a61-1288ab1540cc">AuthenticateClientToSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-authenticateclienttosession">AuthenticateClientToSession</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/5a545f66-7143-419d-9e0c-a96070472ce5">NotifySessionId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-notifysessionid">NotifySessionId</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/d453ac71-4733-4a68-892c-ffca2d2954c6">GetProtocolHandles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-getprotocolhandles">GetProtocolHandles</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/9109d867-d9dc-4b95-a674-9f59ed7aa6a4">ConnectNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-connectnotify">ConnectNotify</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/297ecc6c-6598-4c1a-94df-9d9924917cdf">IsUserAllowedToLogon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-isuserallowedtologon">IsUserAllowedToLogon</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/413d6df5-419f-4a68-bb91-dfec9f455b42">SessionArbitrationEnumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-sessionarbitrationenumeration">SessionArbitrationEnumeration</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/6065e827-23a5-4150-bda5-999b7acede65">LogonNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-logonnotify">LogonNotify</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/fa77c537-c78d-4fe3-b597-787efd740cf6">GetUserData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-getuserdata">GetUserData</a>
 </li>
-</ol>If the Remote Desktop Services service needs to reconnect after calling <a href="https://msdn.microsoft.com/413d6df5-419f-4a68-bb91-dfec9f455b42">SessionArbitrationEnumeration</a>, it reconnects by calling the following methods in the order listed:
+</ol>If the Remote Desktop Services service needs to reconnect after calling <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-sessionarbitrationenumeration">SessionArbitrationEnumeration</a>, it reconnects by calling the following methods in the order listed:
 <ol>
 <li>
-<a href="https://msdn.microsoft.com/d2712d53-2e52-49d9-874e-e6425235d3f0">DisconnectNotify</a> (Called on the new session that was created.)</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-disconnectnotify">DisconnectNotify</a> (Called on the new session that was created.)</li>
 <li>
-<a href="https://msdn.microsoft.com/5a545f66-7143-419d-9e0c-a96070472ce5">NotifySessionId</a> (Called on the existing session.)</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-notifysessionid">NotifySessionId</a> (Called on the existing session.)</li>
 <li>
-<a href="https://msdn.microsoft.com/d453ac71-4733-4a68-892c-ffca2d2954c6">GetProtocolHandles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-getprotocolhandles">GetProtocolHandles</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/9109d867-d9dc-4b95-a674-9f59ed7aa6a4">ConnectNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-connectnotify">ConnectNotify</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/6065e827-23a5-4150-bda5-999b7acede65">LogonNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-logonnotify">LogonNotify</a>
 </li>
 </ol>To disconnect, the Remote Desktop Services service calls the following methods in the order listed:
 <ol>
 <li>
-<a href="https://msdn.microsoft.com/d2712d53-2e52-49d9-874e-e6425235d3f0">DisconnectNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-disconnectnotify">DisconnectNotify</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/746f5f06-7068-461b-8adf-b35d0c318942">Close</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-close">Close</a>
 </li>
 </ol>The Remote Desktop Services service can call the following methods at any time after a connection has been established:
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/d224877a-649a-4ac2-a5e7-831592e6a0d9">GetProtocolStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-getprotocolstatus">GetProtocolStatus</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/8daecbde-8866-4ae9-a07c-32d28d321392">GetLastInputTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-getlastinputtime">GetLastInputTime</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/0ec35560-5aad-403a-9477-50e48ee7136a">SetErrorInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-seterrorinfo">SetErrorInfo</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/4665917d-4bc3-4017-9b69-3eb95e70337f">SendBeep</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-sendbeep">SendBeep</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/28cdabde-980f-48b7-920e-1eeeb70b6952">CreateVirtualChannel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-createvirtualchannel">CreateVirtualChannel</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/129b8314-fa84-414d-93c4-f9320650e2de">QueryProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-queryproperty">QueryProperty</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/6496deba-6166-48d2-9294-286a448de231">GetShadowConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-getshadowconnection">GetShadowConnection</a>
 </li>
 </ul>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWTSProtocolConnection</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWTSProtocolConnection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWTSProtocolConnection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSProtocolConnection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -162,7 +162,7 @@ The <b>IWTSProtocolConnection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5be00911-f68a-410d-8d56-81458b5ff44e">AcceptConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-acceptconnection">AcceptConnection</a>
 </td>
 <td align="left" width="63%">
 Directs the protocol to continue with the connection request.
@@ -171,7 +171,7 @@ Directs the protocol to continue with the connection request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/541bf463-9a4a-4237-8a61-1288ab1540cc">AuthenticateClientToSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-authenticateclienttosession">AuthenticateClientToSession</a>
 </td>
 <td align="left" width="63%">
 Specifies a session that the connection should be reconnected to. 
@@ -180,7 +180,7 @@ Specifies a session that the connection should be reconnected to.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/746f5f06-7068-461b-8adf-b35d0c318942">Close</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-close">Close</a>
 </td>
 <td align="left" width="63%">
 Closes a connection after the session is disconnected.
@@ -189,7 +189,7 @@ Closes a connection after the session is disconnected.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9109d867-d9dc-4b95-a674-9f59ed7aa6a4">ConnectNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-connectnotify">ConnectNotify</a>
 </td>
 <td align="left" width="63%">
 Signals that the session has been initialized.
@@ -198,7 +198,7 @@ Signals that the session has been initialized.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/28cdabde-980f-48b7-920e-1eeeb70b6952">CreateVirtualChannel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-createvirtualchannel">CreateVirtualChannel</a>
 </td>
 <td align="left" width="63%">
 Creates a static or dynamic virtual channel.
@@ -207,7 +207,7 @@ Creates a static or dynamic virtual channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d2712d53-2e52-49d9-874e-e6425235d3f0">DisconnectNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-disconnectnotify">DisconnectNotify</a>
 </td>
 <td align="left" width="63%">
 Notifies the protocol that the session has been disconnected.
@@ -216,7 +216,7 @@ Notifies the protocol that the session has been disconnected.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1330fbb4-4c10-493b-ad95-3c2ad975459a">GetClientData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-getclientdata">GetClientData</a>
 </td>
 <td align="left" width="63%">
 Requests client settings from the protocol.
@@ -225,7 +225,7 @@ Requests client settings from the protocol.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8daecbde-8866-4ae9-a07c-32d28d321392">GetLastInputTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-getlastinputtime">GetLastInputTime</a>
 </td>
 <td align="left" width="63%">
 Returns the last time the protocol received input data.
@@ -234,25 +234,25 @@ Returns the last time the protocol received input data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/714e2479-54b2-4899-9fbd-68fa35051f58">GetLicenseConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-getlicenseconnection">GetLicenseConnection</a>
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://msdn.microsoft.com/3f6925b6-c712-40c6-8b48-7df8ef4a9872">IWTSProtocolLicenseConnection</a> object that is used to begin the client licensing process.
+Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocollicenseconnection">IWTSProtocolLicenseConnection</a> object that is used to begin the client licensing process.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/59bd7d50-2903-42b7-b556-4da7b50d8e7a">GetLogonErrorRedirector</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-getlogonerrorredirector">GetLogonErrorRedirector</a>
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://msdn.microsoft.com/1ff30217-9091-47df-a38f-30784538f0b9">IWTSProtocolLogonErrorRedirector</a> interface that specifies how the protocol should handle client logon errors.
+Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocollogonerrorredirector">IWTSProtocolLogonErrorRedirector</a> interface that specifies how the protocol should handle client logon errors.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d453ac71-4733-4a68-892c-ffca2d2954c6">GetProtocolHandles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-getprotocolhandles">GetProtocolHandles</a>
 </td>
 <td align="left" width="63%">
 Retrieves keyboard, mouse, sound, and beep handles supported by the protocol.
@@ -261,7 +261,7 @@ Retrieves keyboard, mouse, sound, and beep handles supported by the protocol.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d224877a-649a-4ac2-a5e7-831592e6a0d9">GetProtocolStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-getprotocolstatus">GetProtocolStatus</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about the protocol status.
@@ -270,16 +270,16 @@ Retrieves information about the protocol status.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6496deba-6166-48d2-9294-286a448de231">GetShadowConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-getshadowconnection">GetShadowConnection</a>
 </td>
 <td align="left" width="63%">
-Retrieves a  <a href="https://msdn.microsoft.com/83285a6a-903f-4c23-8f62-b04bbeaa52f9">IWTSProtocolShadowConnection</a> object from the protocol.
+Retrieves a  <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolshadowconnection">IWTSProtocolShadowConnection</a> object from the protocol.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/48cd1a57-5f6d-4feb-889d-7441a76c0410">GetUserCredentials</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-getusercredentials">GetUserCredentials</a>
 </td>
 <td align="left" width="63%">
 Returns user credentials.
@@ -288,7 +288,7 @@ Returns user credentials.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fa77c537-c78d-4fe3-b597-787efd740cf6">GetUserData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-getuserdata">GetUserData</a>
 </td>
 <td align="left" width="63%">
 Sends merged policy settings to the protocol and requests user policy settings from the protocol.
@@ -297,7 +297,7 @@ Sends merged policy settings to the protocol and requests user policy settings f
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/297ecc6c-6598-4c1a-94df-9d9924917cdf">IsUserAllowedToLogon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-isuserallowedtologon">IsUserAllowedToLogon</a>
 </td>
 <td align="left" width="63%">
 Determines whether a user is allowed to log on to a session.
@@ -306,7 +306,7 @@ Determines whether a user is allowed to log on to a session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6065e827-23a5-4150-bda5-999b7acede65">LogonNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-logonnotify">LogonNotify</a>
 </td>
 <td align="left" width="63%">
 Specifies that the user has logged on to the session.
@@ -315,7 +315,7 @@ Specifies that the user has logged on to the session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5a545f66-7143-419d-9e0c-a96070472ce5">NotifySessionId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-notifysessionid">NotifySessionId</a>
 </td>
 <td align="left" width="63%">
 Sends the ID of  the new session to the protocol.
@@ -324,7 +324,7 @@ Sends the ID of  the new session to the protocol.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/129b8314-fa84-414d-93c4-f9320650e2de">QueryProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-queryproperty">QueryProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified property from the protocol.
@@ -333,7 +333,7 @@ Retrieves the specified property from the protocol.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4665917d-4bc3-4017-9b69-3eb95e70337f">SendBeep</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-sendbeep">SendBeep</a>
 </td>
 <td align="left" width="63%">
 Sends a sound pulse to the console speaker on the client.
@@ -342,7 +342,7 @@ Sends a sound pulse to the console speaker on the client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b3fcc213-8257-433f-b304-ce19bc209591">SendPolicyData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-sendpolicydata">SendPolicyData</a>
 </td>
 <td align="left" width="63%">
 Sends computer policy settings to the protocol.
@@ -351,7 +351,7 @@ Sends computer policy settings to the protocol.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/413d6df5-419f-4a68-bb91-dfec9f455b42">SessionArbitrationEnumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-sessionarbitrationenumeration">SessionArbitrationEnumeration</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of session IDs for reconnection.
@@ -360,7 +360,7 @@ Retrieves a collection of session IDs for reconnection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0ec35560-5aad-403a-9477-50e48ee7136a">SetErrorInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-seterrorinfo">SetErrorInfo</a>
 </td>
 <td align="left" width="63%">
 Sends an error code to the client.

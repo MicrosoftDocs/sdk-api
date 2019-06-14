@@ -59,14 +59,14 @@ Implement this method to receive progress notification of the current write oper
 
 ### -param object [in]
 
-The <a href="https://msdn.microsoft.com/6bb871c2-1a6e-4cf6-94e1-7a566ce7a88e">IDiscFormat2Data</a> interface that initiated the write operation. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a> interface that initiated the write operation. 
 
 This parameter is a <b>MsftDiscFormat2Data</b> object in script.
 
 
 ### -param progress [in]
 
-An <a href="https://msdn.microsoft.com/6bf149d3-62ea-4ef5-8d45-44df9ad4982c">IDiscFormat2DataEventArgs</a> interface that you use to determine the progress of the write operation. 
+An <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2dataeventargs">IDiscFormat2DataEventArgs</a> interface that you use to determine the progress of the write operation. 
 
 This parameter is a <b>MsftDiscFormat2Data</b> object in script.
 
@@ -84,7 +84,7 @@ Return values are ignored.
 
 
 
-Notifications are sent in response to calling the <a href="https://msdn.microsoft.com/9daf31f3-84c2-48b2-ab21-a3809b6ed9af">IDiscFormat2Data::Write</a> method.
+Notifications are sent in response to calling the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-write">IDiscFormat2Data::Write</a> method.
 
 Notification is sent when the current action changes:
 
@@ -95,7 +95,7 @@ Notification is sent when the current action changes:
 <li>Every 0.5 seconds during the write operation</li>
 <li>Once after the operation completes</li>
 </ul>
-To stop the write process, call the <a href="https://msdn.microsoft.com/0fe5705e-7f48-4a4e-a535-a3dd105a6139">IDiscFormat2Data::CancelWrite</a> method.
+To stop the write process, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-cancelwrite">IDiscFormat2Data::CancelWrite</a> method.
 
 
 
@@ -105,11 +105,11 @@ To stop the write process, call the <a href="https://msdn.microsoft.com/0fe5705e
 
 
 
-<a href="https://msdn.microsoft.com/f9f1d976-9ec9-40a5-92b6-d00a7e15d0aa">DDiscFormat2DataEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-ddiscformat2dataevents">DDiscFormat2DataEvents</a>
 
 
 
-<a href="https://msdn.microsoft.com/6bb871c2-1a6e-4cf6-94e1-7a566ce7a88e">IDiscFormat2Data</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
  
 
  

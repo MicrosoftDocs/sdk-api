@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Initializes the taskbar list object. This method must be called before any other <a href="https://msdn.microsoft.com/c63f5fe8-4a8f-4ca8-bd6a-7733110bbb38">ITaskbarList</a> methods can be called.
+Initializes the taskbar list object. This method must be called before any other <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist">ITaskbarList</a> methods can be called.
 
 
 ## -parameters

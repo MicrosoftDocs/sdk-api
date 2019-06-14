@@ -68,7 +68,7 @@ Pointer to a null-terminated string that contains the object ID of the object.
 
 ### -param Key [in]
 
-A <b>REFPROPERTYKEY</b> that specifies which resource to read. You can retrieve the keys of all the object's resources by calling <a href="https://msdn.microsoft.com/415c3256-1385-48d7-999a-91dc3ad795f8">GetSupportedResources</a>.
+A <b>REFPROPERTYKEY</b> that specifies which resource to read. You can retrieve the keys of all the object's resources by calling <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceresources-getsupportedresources">GetSupportedResources</a>.
 
 
 ### -param dwMode [in]
@@ -148,7 +148,7 @@ Applications should use the buffer size returned by <i>pdwOptimalBufferSize</i> 
 
 
 
-<a href="https://msdn.microsoft.com/fce2d6db-13f0-4c1d-ba55-16139c6acbb7">IPortableDeviceResources Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceresources">IPortableDeviceResources Interface</a>
  
 
  

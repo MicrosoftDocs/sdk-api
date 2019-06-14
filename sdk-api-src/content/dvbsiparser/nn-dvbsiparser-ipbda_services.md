@@ -54,7 +54,7 @@ Implements methods that initialize or retrieve Protected Broadcast Driver Archit
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPBDA_Services</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPBDA_Services</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPBDA_Services</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPBDA_Services</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IPBDA_Services</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a39a0ec2-aabc-4609-91cc-667c14773515">GetCountOfRecords</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbda_services-getcountofrecords">GetCountOfRecords</a>
 </td>
 <td align="left" width="63%">
 Gets the number of service records.
@@ -78,7 +78,7 @@ Gets the number of service records.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1f9a71a4-3cfd-4a08-929f-e17d506a021b">GetRecordByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd694812(v=vs.85)">GetRecordByIndex</a>
 </td>
 <td align="left" width="63%">
 Gets a service record from a specific position in the list.
@@ -87,7 +87,7 @@ Gets a service record from a specific position in the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2504627a-a5e3-4ed1-9aa2-93d9621bf2e6">Initialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbda_services-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes a PBDA service record.

@@ -63,7 +63,7 @@ This property is read/write.
 
 
 
-When reading or writing your own XML for a task, the event delay is specified using the <a href="https://msdn.microsoft.com/b38bebc7-9818-41f0-a277-cb0e63c28d86">Delay</a> element of the Task Scheduler schema.
+When reading or writing your own XML for a task, the event delay is specified using the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-delay-eventtriggertype-element">Delay</a> element of the Task Scheduler schema.
 
 
 
@@ -73,11 +73,11 @@ When reading or writing your own XML for a task, the event delay is specified us
 
 
 
-<a href="https://msdn.microsoft.com/23b7ecb9-d2bb-441a-8c93-126c833f99b9">IEventTrigger</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-ieventtrigger">IEventTrigger</a>
 
 
 
-<a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
  
 
  

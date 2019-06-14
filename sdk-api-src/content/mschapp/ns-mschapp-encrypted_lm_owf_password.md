@@ -59,7 +59,7 @@ The <b>ENCRYPTED_LM_OWF_PASSWORD</b> stores a user's encrypted Lan Manager (LM) 
 
 ### -field data
 
-An array of <a href="https://msdn.microsoft.com/eb0e38ed-8d12-4df2-be58-7ac18447121f">CYPHER_BLOCK</a> structures that contain an encrypted LM OWF password hash. The contents of the array are calculated using the <b>OldLmPasswordHashEncryptedWithNewNtPasswordHash()</b> function as defined in <a href="http://go.microsoft.com/fwlink/p/?linkid=84041">RFC 2433</a>, section A.16.
+An array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mschapp/ns-mschapp-_cypher_block">CYPHER_BLOCK</a> structures that contain an encrypted LM OWF password hash. The contents of the array are calculated using the <b>OldLmPasswordHashEncryptedWithNewNtPasswordHash()</b> function as defined in <a href="http://go.microsoft.com/fwlink/p/?linkid=84041">RFC 2433</a>, section A.16.
 
 
 ## -remarks
@@ -67,7 +67,7 @@ An array of <a href="https://msdn.microsoft.com/eb0e38ed-8d12-4df2-be58-7ac18447
 
 
 
-<a href="https://msdn.microsoft.com/fab739b6-c7f4-4c57-9754-e0c32853b7e1">ENCRYPTED_NT_OWF_PASSWORD</a> is an alias for this structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc325729(v=vs.85)">ENCRYPTED_NT_OWF_PASSWORD</a> is an alias for this structure.
 
 
 
@@ -77,11 +77,11 @@ An array of <a href="https://msdn.microsoft.com/eb0e38ed-8d12-4df2-be58-7ac18447
 
 
 
-<a href="https://msdn.microsoft.com/adee58bd-d2aa-4570-8c43-50240be02ed3">MS-CHAP Password Management Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mschap/ms-chap-password-management-structures">MS-CHAP Password Management Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/91ea4b98-79e4-4764-a580-a622d1491943">MSChapSrvChangePassword2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mschapp/nf-mschapp-mschapsrvchangepassword2">MSChapSrvChangePassword2</a>
  
 
  

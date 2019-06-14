@@ -56,10 +56,10 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>AddAccessDeniedAce</b> function adds an access-denied <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entry</a> (ACE) to an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control list</a> (ACL). The access is denied to a specified <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID).
+The <b>AddAccessDeniedAce</b> function adds an access-denied <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) to an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL). The access is denied to a specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).
 
 To control whether the new ACE can be inherited by child objects, use the 
-<a href="https://msdn.microsoft.com/e353c88c-f82e-40c0-b676-38f0060acc81">AddAccessDeniedAceEx</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessdeniedaceex">AddAccessDeniedAceEx</a> function.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ To control whether the new ACE can be inherited by child objects, use the
 
 A pointer to an 
 ACL . This function adds an access-denied ACE to the end of this ACL. The ACE is in the form of an 
-<a href="https://msdn.microsoft.com/d76a92d0-ccd0-4e73-98b6-43bcd661134d">ACCESS_DENIED_ACE</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_access_denied_ace">ACCESS_DENIED_ACE</a> structure.
 
 
 ### -param dwAceRevision [in]
@@ -99,7 +99,7 @@ A pointer to the SID structure representing the user, group, or logon account be
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. The following are possible error values.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following are possible error values.
 
 <table>
 <tr>
@@ -172,10 +172,10 @@ The ACE was successfully added.
 
 
 The 
-<a href="https://msdn.microsoft.com/1004353a-f907-4452-9c0f-85eba0ece813">AddAccessAllowedAce</a> and <b>AddAccessDeniedAce</b> functions add a new ACE to the end of the list of ACEs for the ACL. These functions do not automatically place the new ACE in the proper canonical order. It is the caller's responsibility to ensure that the ACL is in canonical order by adding ACEs in the proper sequence.
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessallowedace">AddAccessAllowedAce</a> and <b>AddAccessDeniedAce</b> functions add a new ACE to the end of the list of ACEs for the ACL. These functions do not automatically place the new ACE in the proper canonical order. It is the caller's responsibility to ensure that the ACL is in canonical order by adding ACEs in the proper sequence.
 
 The 
-<a href="https://msdn.microsoft.com/d23f15d6-0453-4aaf-a2db-7528b551a992">ACE_HEADER</a> structure placed in the ACE by the <b>AddAccessDeniedAce</b> function specifies a type and size, but provides no ACE flags.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a> structure placed in the ACE by the <b>AddAccessDeniedAce</b> function specifies a type and size, but provides no ACE flags.
 
 The ACE added by <b>AddAccessDeniedAce</b> is not inheritable.
 
@@ -187,47 +187,47 @@ The ACE added by <b>AddAccessDeniedAce</b> is not inheritable.
 
 
 
-<a href="https://msdn.microsoft.com/d76a92d0-ccd0-4e73-98b6-43bcd661134d">ACCESS_DENIED_ACE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_access_denied_ace">ACCESS_DENIED_ACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/d23f15d6-0453-4aaf-a2db-7528b551a992">ACE_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/0073659f-c4d5-4aaf-aaa6-ea596d3bd8b9">ACL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a>
 
 
 
-<a href="https://msdn.microsoft.com/1004353a-f907-4452-9c0f-85eba0ece813">AddAccessAllowedAce</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessallowedace">AddAccessAllowedAce</a>
 
 
 
-<a href="https://msdn.microsoft.com/e353c88c-f82e-40c0-b676-38f0060acc81">AddAccessDeniedAceEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessdeniedaceex">AddAccessDeniedAceEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/f472d864-a273-49b5-b5e2-98772989971e">AddAce</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addace">AddAce</a>
 
 
 
-<a href="https://msdn.microsoft.com/34f22aea-9cde-411e-b2d5-bfcd3bfe325d">AddAuditAccessAce</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addauditaccessace">AddAuditAccessAce</a>
 
 
 
-<a href="https://msdn.microsoft.com/02ce45ad-3d51-4548-848e-a62bf4bf72a8">DeleteAce</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-deleteace">DeleteAce</a>
 
 
 
-<a href="https://msdn.microsoft.com/5b5d8751-20d7-40a2-bd70-cfbe956aaa03">GetAce</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getace">GetAce</a>
 
 
 
-<a href="https://msdn.microsoft.com/16337b77-23c5-4b7a-a344-66a02ee0e8a8">Low-level Access Control</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/low-level-access-control">Low-level Access Control</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Low-level Access Control Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Low-level Access Control Functions</a>
  
 
  

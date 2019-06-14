@@ -59,7 +59,7 @@ The <b>WlanSetProfileCustomUserData</b> function sets the custom user data assoc
 
 ### -param hClientHandle [in]
 
-The client's session handle, obtained by a previous call to the <a href="https://msdn.microsoft.com/27bfa0c1-4443-47a4-a374-326f553fa3bb">WlanOpenHandle</a> function.
+The client's session handle, obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
 
 
 ### -param pInterfaceGuid [in]
@@ -161,9 +161,9 @@ Various error codes.
 
 
 
-For every wireless WLAN profile used by the Native Wifi AutoConfig service, Windows maintains the concept of custom user data.  This custom user data is initially non-existent, but can be set by calling the <b>WlanSetProfileCustomUserData</b> function. The custom user data gets reset to empty any time the profile is modified by calling the <a href="https://msdn.microsoft.com/3f8dca2e-6fe5-4c7d-a135-a33c61ba3dd5">WlanSetProfile</a> function.
+For every wireless WLAN profile used by the Native Wifi AutoConfig service, Windows maintains the concept of custom user data.  This custom user data is initially non-existent, but can be set by calling the <b>WlanSetProfileCustomUserData</b> function. The custom user data gets reset to empty any time the profile is modified by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofile">WlanSetProfile</a> function.
 
-Once custom user data has been set, this data can be accessed using the <a href="https://msdn.microsoft.com/5973be2f-8267-496b-827b-778f705accdc">WlanGetProfileCustomUserData</a> function. 
+Once custom user data has been set, this data can be accessed using the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofilecustomuserdata">WlanGetProfileCustomUserData</a> function. 
 
 All wireless LAN functions require an interface GUID for the wireless interface when performing profile operations. When a wireless interface is removed, its state is cleared from Wireless LAN Service (WLANSVC)  and no profile operations are possible.
 
@@ -177,31 +177,31 @@ The <b>WlanSetProfileCustomUserData</b> function can fail with <b>ERROR_INVALID_
 
 
 
-<a href="https://msdn.microsoft.com/8312d213-1d01-4bd0-a8d9-65ca23560888">WLAN_profile Schema</a>
+<a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/wlan-profileschema-schema">WLAN_profile Schema</a>
 
 
 
-<a href="https://msdn.microsoft.com/6486e961-402f-45c8-a806-ab91a4f0f156">WlanGetProfile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofile">WlanGetProfile</a>
 
 
 
-<a href="https://msdn.microsoft.com/5973be2f-8267-496b-827b-778f705accdc">WlanGetProfileCustomUserData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofilecustomuserdata">WlanGetProfileCustomUserData</a>
 
 
 
-<a href="https://msdn.microsoft.com/f4336113-538f-4161-a71f-64a432e31f1c">WlanGetProfileList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofilelist">WlanGetProfileList</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f8dca2e-6fe5-4c7d-a135-a33c61ba3dd5">WlanSetProfile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofile">WlanSetProfile</a>
 
 
 
-<a href="https://msdn.microsoft.com/2bef0f2f-165d-446a-afa8-735658048152">WlanSetProfileEapUserData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofileeapuserdata">WlanSetProfileEapUserData</a>
 
 
 
-<a href="https://msdn.microsoft.com/c34c39c0-8200-438a-8353-238225aea5cb">WlanSetProfileEapXmlUserData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofileeapxmluserdata">WlanSetProfileEapXmlUserData</a>
  
 
  

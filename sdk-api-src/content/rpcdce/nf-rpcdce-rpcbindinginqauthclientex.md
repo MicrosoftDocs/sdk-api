@@ -72,23 +72,23 @@ Returns a pointer to a handle to the privileged information for the client appli
 The server application must cast the <i>Privs</i> parameter to the data type specified by the <i>AuthnSvc</i> parameter. The data referenced by this argument is read-only and should not be modified by the server application. If the server wants to preserve any of the returned data, the server must copy the data into server-allocated memory.
 
 For more information on SSPs, see 
-<a href="https://msdn.microsoft.com/f82eba3d-412e-4cb6-9353-2e66bd0f377a">Security Support Providers (SSPs)</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/security-support-providers-ssps-">Security Support Providers (SSPs)</a>.
 
 
 ### -param ServerPrincName
 
-Returns a pointer to a pointer to the server principal name specified by the server application that called the <a href="https://msdn.microsoft.com/b7a7b57e-540b-460b-9eec-6246cc1fd9d3">RpcServerRegisterAuthInfo</a> function. The content of the returned name and its syntax are defined by the authentication service in use. For the SCHANNEL SSP, the principal name is in msstd format. For further information on msstd format, see 
-<a href="https://msdn.microsoft.com/4d9977f8-0efb-4559-977e-3eba4e277bc0">Principal Names</a>.
+Returns a pointer to a pointer to the server principal name specified by the server application that called the <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterauthinfo">RpcServerRegisterAuthInfo</a> function. The content of the returned name and its syntax are defined by the authentication service in use. For the SCHANNEL SSP, the principal name is in msstd format. For further information on msstd format, see 
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/principal-names">Principal Names</a>.
 
 Specify a null value to prevent 
 <b>RpcBindingInqAuthClientEx</b> from returning the <i>ServerPrincName</i> parameter. In this case, the application does not call the 
-<a href="https://msdn.microsoft.com/07226282-1091-4479-adc8-b2f604c645e7">RpcStringFree</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a> function.
 
 
 ### -param AuthnLevel
 
 Returns a pointer set to the level of authentication requested by the client application that made the remote procedure call on the <i>ClientBinding</i> binding handle. For a list of the RPC-supported authentication levels, see 
-<a href="https://msdn.microsoft.com/b8bb2517-e1a0-4607-a672-259f8686fc3e">Authentication-Level Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/authentication-level-constants">Authentication-Level Constants</a>.
 
 Specify a null value to prevent 
 <b>RpcBindingInqAuthClientEx</b> from returning the <i>AuthnLevel</i> parameter.
@@ -97,18 +97,18 @@ Specify a null value to prevent
 ### -param AuthnSvc
 
 Returns a pointer set to the authentication service requested by the client application that made the remote procedure call on the <i>ClientBinding</i> binding handle. For a list of the RPC-supported authentication services, see 
-<a href="https://msdn.microsoft.com/ac95276f-230d-4993-92fe-1739d022c8b3">Authentication-Service Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/authentication-service-constants">Authentication-Service Constants</a>.
 
 Specify a null value to prevent 
 <b>RpcBindingInqAuthClientEx</b> from returning the <i>AuthnSvc</i> parameter.
 
-<div class="alert"><b>Note</b>  <i>AuthnSvc</i> corresponds to the <b>SECURITY_STATUS</b> returned by <a href="https://msdn.microsoft.com/67bc087f-7519-4c8a-9b34-b3ecd306a334">QueryContextAttributes</a> on each certificate-based SSP for  <b>SECPKG_ATTR_DCE_INFO</b> or<b> SECPKG_ATTR_REMOTE_CERT_CONTEXT</b>.</div>
+<div class="alert"><b>Note</b>  <i>AuthnSvc</i> corresponds to the <b>SECURITY_STATUS</b> returned by <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes</a> on each certificate-based SSP for  <b>SECPKG_ATTR_DCE_INFO</b> or<b> SECPKG_ATTR_REMOTE_CERT_CONTEXT</b>.</div>
 <div> </div>
 
 ### -param AuthzSvc
 
 Returns a pointer set to the authorization service requested by the client application that made the remote procedure call on the <i>Binding</i> binding handle. For a list of the RPC-supported authorization services, see 
-<a href="https://msdn.microsoft.com/b773bb51-7af0-4eb3-9438-fe3ef9a350db">Authorization-Service Constants </a>.
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/authorization-service-constants">Authorization-Service Constants </a>.
 
 Specify a null value to prevent 
 <b>RpcBindingInqAuthClientEx</b> from returning the <i>AuthzSvc</i> parameter. This parameter is not used by the RPC_C_AUTHN_WINNT authentication service. The returned value will always be RPC_S_AUTHZ_NONE.
@@ -130,7 +130,7 @@ Controls the format of the principal name. This parameter can be set to the foll
 </td>
 <td width="60%">
 Passes back the principal name in 
-<a href="https://msdn.microsoft.com/4d9977f8-0efb-4559-977e-3eba4e277bc0">fullsic</a> format.
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/principal-names">fullsic</a> format.
 
 </td>
 </tr>
@@ -195,7 +195,7 @@ Binding has no authentication information.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -209,7 +209,7 @@ A server application calls the
 <b>RpcBindingInqAuthClientEx</b> returns the authentication service, authentication level, and server principal name specified by the client. The server can use the returned data for authorization purposes.
 
 The RPC run-time library allocates memory for the returned <i>ServerPrincName</i> parameter. The application is responsible for calling the 
-<a href="https://msdn.microsoft.com/07226282-1091-4479-adc8-b2f604c645e7">RpcStringFree</a> function for the returned argument string.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a> function for the returned argument string.
 
 For synchronous RPC calls, the server application can use zero as the value for the <i>ClientBinding</i> parameter. Using zero retrieves the authentication and authorization information from the currently executing remote procedure call.
 
@@ -221,15 +221,15 @@ For synchronous RPC calls, the server application can use zero as the value for 
 
 
 
-<a href="https://msdn.microsoft.com/2834a6a8-8bd6-4829-84ea-e3f35c917ab7">RpcBindingInqAuthClient</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindinginqauthclient">RpcBindingInqAuthClient</a>
 
 
 
-<a href="https://msdn.microsoft.com/2db946b6-6a0d-402c-89ef-68c7489aa7ee">RpcBindingSetAuthInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfo">RpcBindingSetAuthInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/07226282-1091-4479-adc8-b2f604c645e7">RpcStringFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a>
  
 
  

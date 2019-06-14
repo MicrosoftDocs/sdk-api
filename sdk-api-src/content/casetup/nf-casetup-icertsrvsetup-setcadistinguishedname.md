@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SetCADistinguishedName</b> method sets a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) common name and an optional distinguished name suffix.
+The <b>SetCADistinguishedName</b> method sets a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) common name and an optional distinguished name suffix.
 
 
 ## -parameters
@@ -115,7 +115,7 @@ A value that indicates whether to allow Unicode encoding of the name information
 
 ### -param bOverwriteExistingKey [in]
 
-A value that indicates whether to allow the name in <i>bstrCADN</i>, even though a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> with the same name exists on the computer. A value of <b>VARIANT_TRUE</b> enables the method to overwrite the existing key.
+A value that indicates whether to allow the name in <i>bstrCADN</i>, even though a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> with the same name exists on the computer. A value of <b>VARIANT_TRUE</b> enables the method to overwrite the existing key.
 
 
 ### -param bOverwriteExistingCAInDS [in]
@@ -127,11 +127,11 @@ A value that indicates whether to allow the name in <i>bstrCADN</i>, even though
 
 
 
-Upon success, the <b>SetCADistinguishedName</b> method changes the <b>ENUM_SETUPPROP_CANAME</b> and <b>ENUM_SETUPPROP_CADSSUFFIX</b> property values to reflect the <i>bstrCADN</i> name. For more information about setup properties, see <a href="https://msdn.microsoft.com/en-us/library/Bb648668(v=VS.85).aspx">CASetupProperty</a>.
+Upon success, the <b>SetCADistinguishedName</b> method changes the <b>ENUM_SETUPPROP_CANAME</b> and <b>ENUM_SETUPPROP_CADSSUFFIX</b> property values to reflect the <i>bstrCADN</i> name. For more information about setup properties, see <a href="https://docs.microsoft.com/windows/desktop/api/casetup/ne-casetup-__midl___midl_itf_casetup_0000_0002_0001">CASetupProperty</a>.
 
-Upon failure, the <b>SetCADistinguishedName</b> method might set additional error information in the <a href="https://msdn.microsoft.com/462fb4a6-2aad-46d4-98e0-32c095eff5c7">CAErrorId</a> and <a href="https://msdn.microsoft.com/154397f8-aa0e-4d74-b18e-b68b46fdfcdb">CAErrorString</a> properties.
+Upon failure, the <b>SetCADistinguishedName</b> method might set additional error information in the <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-get_caerrorid">CAErrorId</a> and <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-get_caerrorstring">CAErrorString</a> properties.
 
-If an existing key and its associated certificate are being used to configure the CA, this method must not be called. If an existing key is being used  to configure the CA, without using the associated certificate, the common name in <i>bstrCADN</i> must match the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">sanitized</a> <b>ContainerName</b> of the key. 
+If an existing key and its associated certificate are being used to configure the CA, this method must not be called. If an existing key is being used  to configure the CA, without using the associated certificate, the common name in <i>bstrCADN</i> must match the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">sanitized</a> <b>ContainerName</b> of the key. 
 
 If <i>bstrCADN</i> includes UTF8 encoding, set the appropriate flag in CAPolicy.inf and place it in the  %windir%.
 
@@ -143,7 +143,7 @@ If <i>bstrCADN</i> includes UTF8 encoding, set the appropriate flag in CAPolicy.
 
 
 
-<a href="https://msdn.microsoft.com/6792a0d6-d304-481d-a97b-5fb7033c7eae">ICertSrvSetup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>
  
 
  

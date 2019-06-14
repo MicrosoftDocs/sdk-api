@@ -60,13 +60,13 @@ The <b>IColumnData::GetColumnConfigData</b> method enables a snap-in to retrieve
 ### -param pColID [in]
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/eb08f699-74bc-445d-96b7-678abbd366b3">SColumnSetID</a> structure that holds the ID of the column set whose data is to be retrieved.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_scolumnsetid">SColumnSetID</a> structure that holds the ID of the column set whose data is to be retrieved.
 
 
 ### -param ppColSetData [out]
 
 A pointer to a pointer to an 
-<a href="https://msdn.microsoft.com/15088a2f-3dfc-4af4-bcae-e7e9e456df8b">MMC_COLUMN_SET_DATA</a> structure that will hold the retrieved column data.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_column_set_data">MMC_COLUMN_SET_DATA</a> structure that will hold the retrieved column data.
 
 
 ## -returns
@@ -102,11 +102,11 @@ All data set and retrieved by the methods of the
 
 
 
-<a href="https://msdn.microsoft.com/fb2b8863-c476-4997-915d-329cf66fd945">IColumnData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icolumndata">IColumnData</a>
 
 
 
-<a href="https://msdn.microsoft.com/4da79fd1-f887-447c-89fd-d5044bd5751c">Using IColumnData</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-icolumndata">Using IColumnData</a>
  
 
  

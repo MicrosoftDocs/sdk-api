@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Create an <a href="https://msdn.microsoft.com/cbbcc8bf-6172-41c8-9d74-27e5635ec167">IXpsOMPackageWriter</a> interface for use with a print job that the  <a href="https://msdn.microsoft.com/91D0BA4D-60A6-43F8-8BD3-9183DC6CD50D">StartXpsPrintJob1</a> function created.
+Create an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a> interface for use with a print job that the  <a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nf-xpsprint-startxpsprintjob1">StartXpsPrintJob1</a> function created.
 
 
 ## -parameters
@@ -60,29 +60,29 @@ Create an <a href="https://msdn.microsoft.com/cbbcc8bf-6172-41c8-9d74-27e5635ec1
 
 ### -param documentSequencePartName [in]
 
-The <a href="https://msdn.microsoft.com/81123212-7a32-4833-b81f-8454a544327d">IOpcPartUri</a> interface that contains the part name of the document sequence in the new file.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a> interface that contains the part name of the document sequence in the new file.
 
 
 ### -param documentSequencePrintTicket [in, optional]
 
-The <a href="https://msdn.microsoft.com/2f37dbd2-3078-4aa8-97e7-556a0ff2dd74">IXpsOMPrintTicketResource</a> interface that contains the package-level print ticket to be assigned to the new file. Set this parameter to <b>NULL</b> if you do not have a package-level print ticket.
+The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomprintticketresource">IXpsOMPrintTicketResource</a> interface that contains the package-level print ticket to be assigned to the new file. Set this parameter to <b>NULL</b> if you do not have a package-level print ticket.
 
 
 ### -param discardControlPartName [in, optional]
 
-The <a href="https://msdn.microsoft.com/81123212-7a32-4833-b81f-8454a544327d">IOpcPartUri</a> interface that contains the name of the discard control part. Set this parameter to <b>NULL</b> if you do not have a discard control part.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a> interface that contains the name of the discard control part. Set this parameter to <b>NULL</b> if you do not have a discard control part.
 
 
 ### -param packageWriter [out, retval]
 
-A pointer to the new  <a href="https://msdn.microsoft.com/cbbcc8bf-6172-41c8-9d74-27e5635ec167">IXpsOMPackageWriter</a> interface that this method created.
+A pointer to the new  <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a> interface that this method created.
 
 
 ## -returns
 
 
 
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -125,7 +125,7 @@ The method succeeded.
 </table>
  
 
-This method calls the <a href="https://msdn.microsoft.com/77df9cb2-757e-4b07-9c1c-73af0df4702f">Packaging</a> API. For information about the Packaging API return values, see <a href="https://msdn.microsoft.com/b4cd8f69-3559-46a0-95ec-6fcaab21959c">Packaging Errors</a>.
+This method calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging">Packaging</a> API. For information about the Packaging API return values, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-errors">Packaging Errors</a>.
 
 
 
@@ -135,11 +135,11 @@ This method calls the <a href="https://msdn.microsoft.com/77df9cb2-757e-4b07-9c1
 
 
 
-<a href="https://msdn.microsoft.com/980D2A37-933F-41B1-A975-6BC797E8E770">IXpsOMPackageTarget</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ff970304(v=vs.85)">IXpsOMPackageTarget</a>
 
 
 
-<a href="https://msdn.microsoft.com/91D0BA4D-60A6-43F8-8BD3-9183DC6CD50D">StartXpsPrintJob1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nf-xpsprint-startxpsprintjob1">StartXpsPrintJob1</a>
 
 
 

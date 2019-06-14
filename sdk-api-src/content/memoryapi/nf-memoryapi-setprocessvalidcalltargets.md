@@ -94,7 +94,7 @@ A list of offsets and flags relative to the virtual memory ranges.
 
 
 
-<b>TRUE</b> if the operation was successful; otherwise, <b>FALSE</b>. To retrieve error values for this function,  call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<b>TRUE</b> if the operation was successful; otherwise, <b>FALSE</b>. To retrieve error values for this function,  call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 

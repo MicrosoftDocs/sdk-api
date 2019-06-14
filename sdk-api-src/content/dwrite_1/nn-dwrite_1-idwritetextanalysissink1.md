@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextAnalysisSink1</b> interface inherits from <a href="https://msdn.microsoft.com/1fd2ca46-006c-4b01-8258-6c24f4be1641">IDWriteTextAnalysisSink</a>. <b>IDWriteTextAnalysisSink1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextAnalysisSink1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextanalysissink">IDWriteTextAnalysisSink</a>. <b>IDWriteTextAnalysisSink1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDWriteTextAnalysisSink1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/81BD4C36-273B-4C28-A89E-88BABCAD511A">SetGlyphOrientation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalysissink1-setglyphorientation">SetGlyphOrientation</a>
 </td>
 <td align="left" width="63%">
 The text analyzer calls back to this to report the actual orientation
@@ -85,7 +85,7 @@ The text analyzer calls back to this to report the actual orientation
 
 
 
-<a href="https://msdn.microsoft.com/1fd2ca46-006c-4b01-8258-6c24f4be1641">IDWriteTextAnalysisSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextanalysissink">IDWriteTextAnalysisSink</a>
  
 
  

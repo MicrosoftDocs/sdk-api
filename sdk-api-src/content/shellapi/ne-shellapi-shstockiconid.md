@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used by <a href="https://msdn.microsoft.com/c08b1a53-e67c-4ed0-a9c6-d000c448e182">SHGetStockIconInfo</a> to identify which stock system icon to retrieve.
+Used by <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shgetstockiconinfo">SHGetStockIconInfo</a> to identify which stock system icon to retrieve.
 
 
 ## -enum-fields
@@ -156,7 +156,7 @@ Used by <a href="https://msdn.microsoft.com/c08b1a53-e67c-4ed0-a9c6-d000c448e182
 ### -field SIID_MYNETWORK
 
 <img alt="" src="./images/SIID_MYNETWORK.jpg"/>
- The <b>Network</b> virtual folder (<a href="https://msdn.microsoft.com/f2c08ade-3083-44e4-82b0-dde45f0e3094">FOLDERID_NetworkFolder</a>/<a href="https://msdn.microsoft.com/33d92271-2865-4ebd-b96c-bf293deb4310">CSIDL_NETWORK</a>).
+ The <b>Network</b> virtual folder (<a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">FOLDERID_NetworkFolder</a>/<a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL_NETWORK</a>).
 
 
 ### -field SIID_FIND

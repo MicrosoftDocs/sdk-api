@@ -60,7 +60,7 @@ Retrieves the background color of the swap chain.
 
 ### -param pColor [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/5F9DDDC1-644E-4DA2-8E3D-F157789809E7">DXGI_RGBA</a> structure that receives the background color of the swap chain.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-rgba">DXGI_RGBA</a> structure that receives the background color of the swap chain.
 
 
 ## -returns
@@ -71,8 +71,8 @@ A pointer to a <a href="https://msdn.microsoft.com/5F9DDDC1-644E-4DA2-8E3D-F1577
         <ul>
 <li>S_OK if it successfully retrieves the background color.</li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_INVALID_CALL</a> if the <i>pColor</i> parameter is invalid, for example, <i>pColor</i> is NULL.</li>
-<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.</li>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR_INVALID_CALL</a> if the <i>pColor</i> parameter is invalid, for example, <i>pColor</i> is NULL.</li>
+<li>Possibly other error codes that are described in the <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a> topic.</li>
 </ul>
 
 
@@ -83,7 +83,7 @@ A pointer to a <a href="https://msdn.microsoft.com/5F9DDDC1-644E-4DA2-8E3D-F1577
 
 
 
-<div class="alert"><b>Note</b>  The background color that <b>GetBackgroundColor</b> retrieves does not indicate what the screen currently displays. The background color indicates what the screen will display with your next call to the <a href="https://msdn.microsoft.com/F795A719-71BA-4A25-B41A-9D93F96B6CA4">IDXGISwapChain1::Present1</a> method. The default value of the background color is black with full opacity: 0,0,0,1.</div>
+<div class="alert"><b>Note</b>  The background color that <b>GetBackgroundColor</b> retrieves does not indicate what the screen currently displays. The background color indicates what the screen will display with your next call to the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-present1">IDXGISwapChain1::Present1</a> method. The default value of the background color is black with full opacity: 0,0,0,1.</div>
 <div> </div>
 
 
@@ -93,11 +93,11 @@ A pointer to a <a href="https://msdn.microsoft.com/5F9DDDC1-644E-4DA2-8E3D-F1577
 
 
 
-<a href="https://msdn.microsoft.com/A674E006-4323-4967-9B9B-0E3965040DBF">IDXGISwapChain1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgiswapchain1">IDXGISwapChain1</a>
 
 
 
-<a href="https://msdn.microsoft.com/E46CA219-303F-40D4-8C62-6241C9199BA0">IDXGISwapChain1::SetBackgroundColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-setbackgroundcolor">IDXGISwapChain1::SetBackgroundColor</a>
  
 
  

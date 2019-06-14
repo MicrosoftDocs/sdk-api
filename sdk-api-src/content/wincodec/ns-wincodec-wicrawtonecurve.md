@@ -66,7 +66,7 @@ The number of tone curve points.
 
 ### -field aPoints
 
-Type: <b><a href="https://msdn.microsoft.com/c5fbcd25-2884-4313-93d5-c1f290de4a77">WICRawToneCurvePoint</a>[1]</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-wincodec-wicrawtonecurvepoint">WICRawToneCurvePoint</a>[1]</b>
 
 The array of tone curve points.
 

@@ -54,7 +54,7 @@ Interface for all SVG elements.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1SvgElement</b> interface inherits from <a href="https://msdn.microsoft.com/8f19e74a-f010-4082-a4da-d1dc3cfe3192">ID2D1Resource</a>. <b>ID2D1SvgElement</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1SvgElement</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1SvgElement</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1SvgElement</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/BE9F0820-D66E-4B20-8790-3D5B3652754B">AppendChild</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgelement-appendchild">AppendChild</a>
 </td>
 <td align="left" width="63%">
 Appends an element to the list of children. 
@@ -79,7 +79,7 @@ Appends an element to the list of children.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E8BD0808-D3A3-41BB-A7A3-2183C0E56396">CreateChild</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgelement-createchild">CreateChild</a>
 </td>
 <td align="left" width="63%">
 Creates an element from a tag name. The element is appended to the list of children. 
@@ -88,7 +88,7 @@ Creates an element from a tag name. The element is appended to the list of child
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2f6ca40a-6c78-9c60-c06a-a31f6edf7663">GetAttributeValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1svgelement-getattributevalue-overload">GetAttributeValue</a>
 </td>
 <td align="left" width="63%">Overloaded. Gets an attribute of this element.
 
@@ -96,7 +96,7 @@ Creates an element from a tag name. The element is appended to the list of child
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2B466C04-7768-4F15-AC68-55A3074499C1">GetAttributeValueLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgelement-getattributevaluelength">GetAttributeValueLength</a>
 </td>
 <td align="left" width="63%">
 Gets the string length of an attribute of this element. 
@@ -105,7 +105,7 @@ Gets the string length of an attribute of this element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/87ACD0CD-AF31-4734-80F7-67090154D5D1">GetDocument</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgelement-getdocument">GetDocument</a>
 </td>
 <td align="left" width="63%">
 Gets the document that contains this element.
@@ -114,7 +114,7 @@ Gets the document that contains this element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6EA233AE-CC2C-442D-A8CE-FF3DC645785A">GetFirstChild</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgelement-getfirstchild">GetFirstChild</a>
 </td>
 <td align="left" width="63%">
 Gets the first child of this element.
@@ -123,7 +123,7 @@ Gets the first child of this element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/DA100037-7177-4547-B161-D52E059A5F35">GetLastChild</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgelement-getlastchild">GetLastChild</a>
 </td>
 <td align="left" width="63%">
 Gets the last child of this element.
@@ -132,7 +132,7 @@ Gets the last child of this element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/41D48F64-3C90-4CB1-91F5-32FC04042471">GetNextChild</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgelement-getnextchild">GetNextChild</a>
 </td>
 <td align="left" width="63%">
 Gets the next sibling of the referenceChild element.
@@ -141,7 +141,7 @@ Gets the next sibling of the referenceChild element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1396BEE3-23F1-4C07-8A74-BF07F14AB093">GetParent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgelement-getparent">GetParent</a>
 </td>
 <td align="left" width="63%">
 Gets the parent element.
@@ -150,7 +150,7 @@ Gets the parent element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/CE4334D8-7A96-464A-BE57-A7B226221FC3">GetPreviousChild</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgelement-getpreviouschild">GetPreviousChild</a>
 </td>
 <td align="left" width="63%">
 Gets the previous sibling of the referenceChild element.
@@ -159,7 +159,7 @@ Gets the previous sibling of the referenceChild element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/DB683CA6-57B5-4B13-9EB3-269DDCA94667">GetSpecifiedAttributeCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgelement-getspecifiedattributecount">GetSpecifiedAttributeCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of specified attributes on this element. 
@@ -168,7 +168,7 @@ Returns the number of specified attributes on this element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/08419C4C-4EED-406F-884C-84532C6AF1CC">GetSpecifiedAttributeName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgelement-getspecifiedattributename">GetSpecifiedAttributeName</a>
 </td>
 <td align="left" width="63%">
 Gets the name of the attribute at the given index.
@@ -177,7 +177,7 @@ Gets the name of the attribute at the given index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/AD94B020-D9AA-4B1F-B7C3-DEF97DADFEEA">GetSpecifiedAttributeNameLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgelement-getspecifiedattributenamelength">GetSpecifiedAttributeNameLength</a>
 </td>
 <td align="left" width="63%">
 Gets the string length of the name of the specified attribute at the given index. 
@@ -186,7 +186,7 @@ Gets the string length of the name of the specified attribute at the given index
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/00E1D15D-6976-40F2-880C-0F0D90B767D6">GetTagName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgelement-gettagname">GetTagName</a>
 </td>
 <td align="left" width="63%">
 Gets the tag name.
@@ -195,7 +195,7 @@ Gets the tag name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/FD73B8E6-4490-4BF2-9A65-6661DB3594E1">GetTagNameLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgelement-gettagnamelength">GetTagNameLength</a>
 </td>
 <td align="left" width="63%">
 Gets the string length of the tag name. 
@@ -204,7 +204,7 @@ Gets the string length of the tag name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/97B396BE-467A-4B5D-A87B-8B2B8BC6E71D">GetTextValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgelement-gettextvalue">GetTextValue</a>
 </td>
 <td align="left" width="63%">
 Gets the value of a text content element.
@@ -213,7 +213,7 @@ Gets the value of a text content element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/DC644B2A-3DBF-46D7-B5A3-88FD0BC51D38">GetTextValueLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgelement-gettextvaluelength">GetTextValueLength</a>
 </td>
 <td align="left" width="63%">
 Gets the length of the text content value.
@@ -222,7 +222,7 @@ Gets the length of the text content value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8E7942E1-AD67-44B5-9C8D-89DD7551BA18">HasChildren</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgelement-haschildren">HasChildren</a>
 </td>
 <td align="left" width="63%">
 Returns a boolean indicating whether this element has children.
@@ -231,7 +231,7 @@ Returns a boolean indicating whether this element has children.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/09BBABC1-0644-473E-A751-C84437941A2B">InsertChildBefore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgelement-insertchildbefore">InsertChildBefore</a>
 </td>
 <td align="left" width="63%">
 Inserts newChild as a child of this element, before the referenceChild element.
@@ -241,7 +241,7 @@ Inserts newChild as a child of this element, before the referenceChild element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/94B91C4E-B2E5-4E23-B381-5920EA0F8F31">IsAttributeSpecified</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgelement-isattributespecified">IsAttributeSpecified</a>
 </td>
 <td align="left" width="63%">
 Returns a boolean indicating if the attribute is explicitly set on the element.
@@ -250,7 +250,7 @@ Returns a boolean indicating if the attribute is explicitly set on the element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/AB2078AC-033F-4111-B67D-014EF439E2B5">IsTextContent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgelement-istextcontent">IsTextContent</a>
 </td>
 <td align="left" width="63%">
 Returns a boolean indicating wether this element represents text content.
@@ -259,7 +259,7 @@ Returns a boolean indicating wether this element represents text content.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/608BB970-CC78-4CF3-BD8C-02DCBBFA287E">RemoveAttribute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgelement-removeattribute">RemoveAttribute</a>
 </td>
 <td align="left" width="63%">
 Removes the attribute from this element. 
@@ -268,7 +268,7 @@ Removes the attribute from this element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/986EE898-D377-4DFF-B19E-834D5CD1A4E6">RemoveChild</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgelement-removechild">RemoveChild</a>
 </td>
 <td align="left" width="63%">
 Removes the oldChild from the tree. Children of oldChild remain children of oldChild.
@@ -277,7 +277,7 @@ Removes the oldChild from the tree. Children of oldChild remain children of oldC
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/BEF74F58-D218-46CA-AE02-F15DDAC48FB4">ReplaceChild</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgelement-replacechild">ReplaceChild</a>
 </td>
 <td align="left" width="63%">
 Replaces the oldChild element with the newChild.
@@ -286,7 +286,7 @@ Replaces the oldChild element with the newChild.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt492670(v=VS.85).aspx">SetAttributeValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-setattributevalue">SetAttributeValue</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets an attribute of this element.
 
@@ -294,7 +294,7 @@ Replaces the oldChild element with the newChild.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/569257CB-1B85-458D-92F4-EBE6C3FF0639">SetTextValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgelement-settextvalue">SetTextValue</a>
 </td>
 <td align="left" width="63%">
 Sets the value of a text content element.

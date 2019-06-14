@@ -64,14 +64,14 @@ Property set to be cloned.
 
 ### -param newPropertySet
 
-The returned property set clone. This clone will eventually need to be deleted by using the <a href="https://msdn.microsoft.com/8ab75a67-0b0e-443b-87b1-ca33f44dde9b">MI_PropertySet_Delete</a> function.
+The returned property set clone. This clone will eventually need to be deleted by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_propertyset_delete">MI_PropertySet_Delete</a> function.
 
 
 ## -returns
 
 
 
-A value of the <a href="https://msdn.microsoft.com/9AA2B479-E8A5-4F0C-A8A4-06DB7CB7CA2F">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 
 
@@ -80,7 +80,7 @@ A value of the <a href="https://msdn.microsoft.com/9AA2B479-E8A5-4F0C-A8A4-06DB7
 
 
 
-The <i>newPropertySet</i> clone should be passed eventually to the <a href="https://msdn.microsoft.com/8ab75a67-0b0e-443b-87b1-ca33f44dde9b">MI_PropertySet_Delete</a> function.
+The <i>newPropertySet</i> clone should be passed eventually to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_propertyset_delete">MI_PropertySet_Delete</a> function.
 
 
 
@@ -90,7 +90,7 @@ The <i>newPropertySet</i> clone should be passed eventually to the <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/8ab75a67-0b0e-443b-87b1-ca33f44dde9b">MI_PropertySet_Delete</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_propertyset_delete">MI_PropertySet_Delete</a>
  
 
  

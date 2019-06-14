@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used by methods of the <a href="https://msdn.microsoft.com/5f9514db-35fe-44c7-9324-d69022628913">INameSpaceTreeControl2</a> to specify extended display styles in a Shell namespace treeview.
+Used by methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-inamespacetreecontrol2">INameSpaceTreeControl2</a> to specify extended display styles in a Shell namespace treeview.
 
 
 ## -enum-fields
@@ -79,7 +79,7 @@ Inserts spacing (padding) between top-level nodes.
 
 ### -field NSTCS2_DISPLAYPINNEDONLY
 
-Filters items based on the <a href="https://msdn.microsoft.com/00937acb-1ce2-44f6-96a1-69e5dbb665f6">System.IsPinnedToNameSpaceTree</a> value when <a href="https://msdn.microsoft.com/2a5580f6-42cb-46c7-9507-a59d36b2cd91">INameSpaceTreeControlFolderCapabilities</a> is implemented.
+Filters items based on the <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-ispinnedtonamespacetree">System.IsPinnedToNameSpaceTree</a> value when <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrolfoldercapabilities">INameSpaceTreeControlFolderCapabilities</a> is implemented.
 
 
 ### -field NTSCS2_NOSINGLETONAUTOEXPAND

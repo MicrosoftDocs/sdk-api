@@ -51,12 +51,12 @@ ms.custom: 19H1
 
 Use this interface to retrieve information about the current write operation. 
 
-This interface is passed to the <a href="https://msdn.microsoft.com/d63ff41d-993c-4f42-a4a3-f7c67f292a03">DDiscFormat2TrackAtOnceEvents::Update</a> method that you implement.
+This interface is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-ddiscformat2trackatonceevents-update">DDiscFormat2TrackAtOnceEvents::Update</a> method that you implement.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscFormat2TrackAtOnceEventArgs</b> interface inherits from <a href="https://msdn.microsoft.com/1922410a-5871-477f-b778-36b12ad95168">IWriteEngine2EventArgs</a>. <b>IDiscFormat2TrackAtOnceEventArgs</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscFormat2TrackAtOnceEventArgs</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2eventargs">IWriteEngine2EventArgs</a>. <b>IDiscFormat2TrackAtOnceEventArgs</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDiscFormat2TrackAtOnceEventArgs</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c4a0a07a-c80e-4dca-b3bb-8b2f26f969d8">get_CurrentAction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonceeventargs-get_currentaction">get_CurrentAction</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current write action being performed.
@@ -80,7 +80,7 @@ Retrieves the current write action being performed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e30afc06-b56b-49bc-8ad0-7446e16bdc95">get_CurrentTrackNumber</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonceeventargs-get_currenttracknumber">get_CurrentTrackNumber</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current track number being written to the media.
@@ -89,7 +89,7 @@ Retrieves the current track number being written to the media.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cb7d2336-1ccd-4c0b-bd8b-5405a1de2c12">get_ElapsedTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonceeventargs-get_elapsedtime">get_ElapsedTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total elapsed time of the write operation.
@@ -98,7 +98,7 @@ Retrieves the total elapsed time of the write operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cc427810-fcac-45a1-bd47-e392e1c0110e">get_RemainingTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonceeventargs-get_remainingtime">get_RemainingTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the estimated remaining time of the write operation.
@@ -113,11 +113,11 @@ Retrieves the estimated remaining time of the write operation.
 
 
 
-<a href="https://msdn.microsoft.com/15d88768-f6e9-4d0a-a132-08f89fb3c34f">DDiscFormat2TrackAtOnceEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-ddiscformat2trackatonceevents">DDiscFormat2TrackAtOnceEvents</a>
 
 
 
-<a href="https://msdn.microsoft.com/1922410a-5871-477f-b778-36b12ad95168">IWriteEngine2EventArgs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2eventargs">IWriteEngine2EventArgs</a>
  
 
  

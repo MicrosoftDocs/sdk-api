@@ -80,7 +80,7 @@ Reserved. Must be set to <b>NULL</b>.
 
 ### -param Params [in]
 
-Parameters for which the client is interested in registering for notification, in the form of a <a href="https://msdn.microsoft.com/84eafc6b-e9ee-4c73-b872-b2abc7e257df">DHCPCAPI_PARAMS_ARRAY</a> structure.
+Parameters for which the client is interested in registering for notification, in the form of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpcsdk/ns-dhcpcsdk-_dhcpcapi_params_araray">DHCPCAPI_PARAMS_ARRAY</a> structure.
 
 
 ### -param Handle [in, out]
@@ -132,19 +132,19 @@ Version 2 of the DHCP Client API provides only event-based notification. With ev
 
 
 
-<a href="https://msdn.microsoft.com/ca859a72-51d3-4bd5-96b9-7a9a2df95595">DHCP Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-functions">DHCP Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/84eafc6b-e9ee-4c73-b872-b2abc7e257df">DHCPCAPI_PARAMS_ARRAY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpcsdk/ns-dhcpcsdk-_dhcpcapi_params_araray">DHCPCAPI_PARAMS_ARRAY</a>
 
 
 
-<a href="https://msdn.microsoft.com/b4bc8b02-63b4-4751-a963-25336e8ae426">DhcpCApiInitialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpcsdk/nf-dhcpcsdk-dhcpcapiinitialize">DhcpCApiInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3fa7c45-cad3-43be-a6c1-fffe6d025d95">DhcpDeRegisterParamChange</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpcsdk/nf-dhcpcsdk-dhcpderegisterparamchange">DhcpDeRegisterParamChange</a>
  
 
  

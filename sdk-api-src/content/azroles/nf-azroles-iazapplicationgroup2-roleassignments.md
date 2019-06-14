@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b> RoleAssignments</b> method gets a collection of <a href="https://msdn.microsoft.com/3f0b926f-77f4-4477-b155-5f866822baba">IAzRoleAssignment</a> objects associated with this application group.
+The <b> RoleAssignments</b> method gets a collection of <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazroleassignment">IAzRoleAssignment</a> objects associated with this application group.
 
 This property is read-only.
 

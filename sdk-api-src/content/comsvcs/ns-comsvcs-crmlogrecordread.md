@@ -59,7 +59,7 @@ Contains unstructured log records for the Compensating Resource Manager (CRM).
 
 ### -field dwCrmFlags
 
-Information about when this record was written. For a list of values, see <a href="https://msdn.microsoft.com/en-us/library/ms687765(v=VS.85).aspx">CRMFLAGS</a>.
+Information about when this record was written. For a list of values, see <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcrmflags">CRMFLAGS</a>.
 
 
 ### -field dwSequenceNumber
@@ -77,11 +77,11 @@ The user data.
 
 
 
-<a href="https://msdn.microsoft.com/9e5a8f2c-4115-42bd-a541-d0ce75c45b72">ICrmCompensator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmcompensator">ICrmCompensator</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa801bd0-5253-4f9f-8859-b808d4dc081b">ICrmFormatLogRecords</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmformatlogrecords">ICrmFormatLogRecords</a>
  
 
  

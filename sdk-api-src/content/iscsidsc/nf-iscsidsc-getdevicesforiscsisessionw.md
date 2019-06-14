@@ -62,17 +62,17 @@ The <b>GetDevicesForIscsiSession</b> function retrieves information about the de
 
 ### -param UniqueSessionId [in]
 
-A pointer to a structure of type <a href="https://msdn.microsoft.com/d13975f9-58d0-425c-a2de-a0d1d70850d3">ISCSI_UNIQUE_SESSION_ID</a> that contains the session identifier for the session. 
+A pointer to a structure of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-_iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a> that contains the session identifier for the session. 
 
 
 ### -param DeviceCount [in, out]
 
-A pointer to a location that, on input, contains the number of elements of type <a href="https://msdn.microsoft.com/ea5d01ee-64c7-43bb-8945-af38d06de36c">ISCSI_DEVICE_ON_SESSION</a> that can fit in the buffer that <i>Devices</i> points to. If the operation succeeds, the location receives the number of elements retrieved. If <b>GetDevicesForIscsiSession</b> returns ERROR_INSUFFICIENT_BUFFER, the location still receives the number of elements the buffer is capable of containing. 
+A pointer to a location that, on input, contains the number of elements of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_device_on_sessiona">ISCSI_DEVICE_ON_SESSION</a> that can fit in the buffer that <i>Devices</i> points to. If the operation succeeds, the location receives the number of elements retrieved. If <b>GetDevicesForIscsiSession</b> returns ERROR_INSUFFICIENT_BUFFER, the location still receives the number of elements the buffer is capable of containing. 
 
 
 ### -param Devices [out]
 
-An array of <a href="https://msdn.microsoft.com/ea5d01ee-64c7-43bb-8945-af38d06de36c">ISCSI_DEVICE_ON_SESSION</a>-type structures that, on output, receives information about each device associated with the session. 
+An array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_device_on_sessiona">ISCSI_DEVICE_ON_SESSION</a>-type structures that, on output, receives information about each device associated with the session. 
 
 
 ## -returns
@@ -91,11 +91,11 @@ Otherwise, <b>GetDevicesForIscsiSession</b> returns the appropriate Win32 or iSC
 
 
 
-<a href="https://msdn.microsoft.com/ea5d01ee-64c7-43bb-8945-af38d06de36c">ISCSI_DEVICE_ON_SESSION</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_device_on_sessiona">ISCSI_DEVICE_ON_SESSION</a>
 
 
 
-<a href="https://msdn.microsoft.com/d13975f9-58d0-425c-a2de-a0d1d70850d3">ISCSI_UNIQUE_SESSION_ID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-_iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a>
  
 
  

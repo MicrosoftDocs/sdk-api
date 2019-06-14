@@ -61,10 +61,10 @@ ms.custom: 19H1
 Converts the specified path to its long form.
 
 To perform this operation as a transacted operation, use the 
-    <a href="https://msdn.microsoft.com/8523cde9-f0dd-4832-8d9d-9e68bac89344">GetLongPathNameTransacted</a> function.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getlongpathnametransacteda">GetLongPathNameTransacted</a> function.
 
 For more information about file and path names, see 
-    <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">Naming Files, Paths, and Namespaces</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>.
 
 
 ## -parameters
@@ -81,9 +81,9 @@ In the ANSI version of this function,
        <b>MAX_PATH</b> (260) characters. To extend this limit to 32,767 wide characters, call the 
        Unicode version of the function, <b>GetLongPathNameW</b>, 
        and prepend "\\?\" to the path. For more information, see 
-       <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">Naming Files, Paths, and Namespaces</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>.
 
-<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>GetLongPathNameW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">Naming Files, Paths, and Namespaces</a> for details.</div>
+<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>GetLongPathNameW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
 <div> </div>
 
 ### -param lpszLongPath [out]
@@ -112,7 +112,7 @@ If the <i>lpBuffer</i> buffer is too small to contain the path, the return value
 
 If the function fails for any other reason, such as if the file does not 
        exist, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -133,7 +133,7 @@ If the file or directory exists but a long path is not found,
 
 If the return value is greater than the value specified in <i>cchBuffer</i>, you can call 
     the function again with a buffer that is large enough to hold the path. For an example of this case, see the 
-    Example Code section for <a href="https://msdn.microsoft.com/4cf59ee3-4065-4096-a2b5-fbed20aa5caa">GetFullPathName</a>.
+    Example Code section for <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfullpathnamea">GetFullPathName</a>.
 
 <div class="alert"><b>Note</b>  Although the return value in this case is a length that includes the terminating null character, the return 
      value on success does not include the terminating null character in the count.</div>
@@ -143,8 +143,8 @@ It is possible to have access to a file or directory but not have access to some
     fail when it is unable to query the parent directory of a path component to determine the long name for that 
     component. This check can be skipped for directory components that have file extensions longer than 3 characters, 
     or total lengths longer than 12 characters. For more information, see the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa365247(v=VS.85).aspx">Short vs. Long Names</a> section of 
-    <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">Naming Files, Paths, and Namespaces</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Short vs. Long Names</a> section of 
+    <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -210,7 +210,7 @@ Yes
 #### Examples
 
 For an example that uses <b>GetLongPathName</b>, see the 
-     Example Code section for <a href="https://msdn.microsoft.com/4cf59ee3-4065-4096-a2b5-fbed20aa5caa">GetFullPathName</a>.
+     Example Code section for <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfullpathnamea">GetFullPathName</a>.
 
 <div class="code"></div>
 
@@ -221,23 +221,23 @@ For an example that uses <b>GetLongPathName</b>, see the
 
 
 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/4cf59ee3-4065-4096-a2b5-fbed20aa5caa">GetFullPathName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfullpathnamea">GetFullPathName</a>
 
 
 
-<a href="https://msdn.microsoft.com/8523cde9-f0dd-4832-8d9d-9e68bac89344">GetLongPathNameTransacted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getlongpathnametransacteda">GetLongPathNameTransacted</a>
 
 
 
-<a href="https://msdn.microsoft.com/15c794d6-6d6b-4ee0-b5b7-a2cf6f5ec5e7">GetShortPathName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getshortpathnamew">GetShortPathName</a>
 
 
 
-<a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">Naming Files, Paths, and Namespaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>
  
 
  

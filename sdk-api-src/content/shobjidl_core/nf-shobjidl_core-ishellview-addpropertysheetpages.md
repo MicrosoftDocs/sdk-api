@@ -104,7 +104,7 @@ Windows Explorer calls this method when it is opening the <b>Options</b> propert
 
 
 
-<a href="https://msdn.microsoft.com/91438583-e4f1-456f-a130-2a45846fd725">IShellView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>
  
 
  

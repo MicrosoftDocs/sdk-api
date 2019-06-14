@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Elements of the <b>TF_DA_ATTR_INFO</b> enumeration are used to specify text conversion data in the <a href="https://msdn.microsoft.com/29faaa22-ea03-4a2e-a035-7979e2a89fc9">TF_DISPLAYATTRIBUTE</a> structure.
+Elements of the <b>TF_DA_ATTR_INFO</b> enumeration are used to specify text conversion data in the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_displayattribute">TF_DISPLAYATTRIBUTE</a> structure.
 
 
 ## -enum-fields
@@ -97,7 +97,7 @@ Reserved for the system.
 
 
 
-<a href="https://msdn.microsoft.com/29faaa22-ea03-4a2e-a035-7979e2a89fc9">TF_DISPLAYATTRIBUTE
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_displayattribute">TF_DISPLAYATTRIBUTE
       </a>
  
 

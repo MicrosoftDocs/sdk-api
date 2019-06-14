@@ -49,16 +49,16 @@ ms.custom: 19H1
 ## -description
 
 
-This interface represents a physical device. You use this interface to retrieve information about a CD and DVD device installed on the computer and to perform operations such as closing the tray or ejecting the media. This interface retrieves information not available through <a href="https://msdn.microsoft.com/34f858b8-74eb-4725-8815-7954cb98cff0">IDiscRecorder2</a> interface, and provides easier access to some of the same property values in <b>IDiscRecorder2</b>.
+This interface represents a physical device. You use this interface to retrieve information about a CD and DVD device installed on the computer and to perform operations such as closing the tray or ejecting the media. This interface retrieves information not available through <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a> interface, and provides easier access to some of the same property values in <b>IDiscRecorder2</b>.
 
-To get an instance of this interface, create an instance of the <a href="https://msdn.microsoft.com/34f858b8-74eb-4725-8815-7954cb98cff0">IDiscRecorder2</a> interface and then call the <b>IDiscRecorder2::QueryInterface</b> method to retrieve the <b>IDiscRecorder2Ex</b> interface.
+To get an instance of this interface, create an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a> interface and then call the <b>IDiscRecorder2::QueryInterface</b> method to retrieve the <b>IDiscRecorder2Ex</b> interface.
 
 Note that you cannot access this functionality from script.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscRecorder2Ex</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IDiscRecorder2Ex</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscRecorder2Ex</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IDiscRecorder2Ex</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IDiscRecorder2Ex</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3922243c-97cf-43e3-a437-a5157ed73559">GetAdapterDescriptor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getadapterdescriptor">GetAdapterDescriptor</a>
 </td>
 <td align="left" width="63%">
 Retrieves the adapter descriptor for the device.
@@ -82,7 +82,7 @@ Retrieves the adapter descriptor for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6a92efb1-4da8-4cf4-8011-b06a0f82a3eb">GetByteAlignmentMask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getbytealignmentmask">GetByteAlignmentMask</a>
 </td>
 <td align="left" width="63%">
 Retrieves the byte alignment mask for the device.
@@ -91,7 +91,7 @@ Retrieves the byte alignment mask for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c0c22ce6-daf4-4218-afce-c773d607638b">GetDeviceDescriptor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getdevicedescriptor">GetDeviceDescriptor</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device descriptor for the device.
@@ -100,7 +100,7 @@ Retrieves the device descriptor for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4f2888cb-3f9e-4dc3-ba9a-c13a0a46f731">GetDiscInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getdiscinformation">GetDiscInformation</a>
 </td>
 <td align="left" width="63%">
 Retrieves the disc information from the media.  
@@ -109,7 +109,7 @@ Retrieves the disc information from the media.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a3cf0d33-25ea-4764-8fdb-5ef47c7b1e50">GetFeaturePage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getfeaturepage">GetFeaturePage</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified feature page from the device.
@@ -118,7 +118,7 @@ Retrieves the specified feature page from the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dae56eb7-8fd5-40ea-b3de-2f98206a5cb2">GetMaximumNonPageAlignedTransferSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getmaximumnonpagealignedtransfersize">GetMaximumNonPageAlignedTransferSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum non-page-aligned transfer size for the device.
@@ -127,7 +127,7 @@ Retrieves the maximum non-page-aligned transfer size for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6bf25c61-e87c-4ccf-a989-1c2715709d4a">GetMaximumPageAlignedTransferSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getmaximumpagealignedtransfersize">GetMaximumPageAlignedTransferSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum page-aligned transfer size for the device.
@@ -136,7 +136,7 @@ Retrieves the maximum page-aligned transfer size for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/69e163a6-943d-4626-8120-778c9ca1777f">GetModePage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getmodepage">GetModePage</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified mode page from the device.
@@ -145,7 +145,7 @@ Retrieves the specified mode page from the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/64fa8ef5-1298-4fd1-b89d-371f13e50d8c">GetSupportedFeaturePages</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedfeaturepages">GetSupportedFeaturePages</a>
 </td>
 <td align="left" width="63%">
 Retrieves the list of supported feature pages or the current feature pages of the device. 
@@ -154,7 +154,7 @@ Retrieves the list of supported feature pages or the current feature pages of th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/343d976e-97f3-4231-a417-4ebe7967f99c">GetSupportedModePages</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedmodepages">GetSupportedModePages</a>
 </td>
 <td align="left" width="63%">
 Retrieves the supported mode pages for the device.
@@ -163,7 +163,7 @@ Retrieves the supported mode pages for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1295d536-8531-4470-a8b4-1e589736e0b1">GetSupportedProfiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedprofiles">GetSupportedProfiles</a>
 </td>
 <td align="left" width="63%">
 Retrieves the supported profiles or the current profiles of the device. 
@@ -172,7 +172,7 @@ Retrieves the supported profiles or the current profiles of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bfb8c7b0-8fe4-4e41-8e71-31ea0af57619">GetTrackInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-gettrackinformation">GetTrackInformation</a>
 </td>
 <td align="left" width="63%">
 Retrieves the track  information from the media.  
@@ -181,7 +181,7 @@ Retrieves the track  information from the media.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6842573a-68e5-47ea-8441-953ab85b9482">ReadDvdStructure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-readdvdstructure">ReadDvdStructure</a>
 </td>
 <td align="left" width="63%">
 Reads a DVD structure from the media.
@@ -190,7 +190,7 @@ Reads a DVD structure from the media.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d3142b79-4e46-4cb8-ab4a-3bf5823cd26e">SendCommandGetDataFromDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-sendcommandgetdatafromdevice">SendCommandGetDataFromDevice</a>
 </td>
 <td align="left" width="63%">
 Sends a MMC command to the recording device requesting data from the device.
@@ -199,7 +199,7 @@ Sends a MMC command to the recording device requesting data from the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7dc645d5-795d-4f31-a4cf-30875e930e10">SendCommandNoData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-sendcommandnodata">SendCommandNoData</a>
 </td>
 <td align="left" width="63%">
 Sends a MMC command to the recording device. Use this function when no data buffer is sent to nor received from the device.
@@ -208,7 +208,7 @@ Sends a MMC command to the recording device. Use this function when no data buff
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e893c3d8-1bf8-461e-9792-3b7d6d3beebb">SendCommandSendDataToDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-sendcommandsenddatatodevice">SendCommandSendDataToDevice</a>
 </td>
 <td align="left" width="63%">
 Sends a MMC command and its associated data buffer to the recording device.
@@ -217,7 +217,7 @@ Sends a MMC command and its associated data buffer to the recording device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4e9b83ee-69f6-42b8-bd6b-546c4ffe2002">SendDvdStructure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-senddvdstructure">SendDvdStructure</a>
 </td>
 <td align="left" width="63%">
 Sends a DVD structure to the media.
@@ -226,7 +226,7 @@ Sends a DVD structure to the media.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7ca1e8c0-d75d-40a7-8b2e-5c240c410031">SetModePage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-setmodepage">SetModePage</a>
 </td>
 <td align="left" width="63%">
 Sets the mode page data for the device.
@@ -240,7 +240,7 @@ Sets the mode page data for the device.
 
 
 
-To write data to media, you need to attach this recorder to the <a href="https://msdn.microsoft.com/89e7526f-2b9b-4f37-b537-5046a0ac283d">IWriteEngine2</a> data writer, using the <a href="https://msdn.microsoft.com/3ab46d99-7940-4ad0-9772-634de8c0d0ef">IWriteEngine2::put_Recorder</a> method.
+To write data to media, you need to attach this recorder to the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2">IWriteEngine2</a> data writer, using the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-put_recorder">IWriteEngine2::put_Recorder</a> method.
 
 
 
@@ -250,7 +250,7 @@ To write data to media, you need to attach this recorder to the <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/34f858b8-74eb-4725-8815-7954cb98cff0">IDiscRecorder2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
  
 
  

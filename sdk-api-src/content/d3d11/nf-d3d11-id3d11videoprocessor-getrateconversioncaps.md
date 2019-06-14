@@ -59,7 +59,7 @@ Gets the rate conversion capabilities of the video processor.
 
 ### -param pCaps [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/C8C50AE4-5F4F-42AB-8FBB-37D24C4D6081">D3D11_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS</a> structure that receives the rate conversion capabilities.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_processor_rate_conversion_caps">D3D11_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS</a> structure that receives the rate conversion capabilities.
 
 
 ## -returns
@@ -76,7 +76,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/AF6F6781-A7F9-4196-8E91-FDFDD1924E24">ID3D11VideoProcessor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videoprocessor">ID3D11VideoProcessor</a>
  
 
  

@@ -59,7 +59,7 @@ This method is not implemented.
 
 ### -param pDataObject [in]
 
-Type: <b><a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>*</b>
 
 
 ## -returns

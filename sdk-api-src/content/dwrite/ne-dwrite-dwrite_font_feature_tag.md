@@ -412,133 +412,133 @@ Turns lowercase characters into petite capitals. Forms related to petite capital
 
 ### -field DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_2
 
-See the description for <a href="https://msdn.microsoft.com/31f0d1b5-36f2-4bde-b39c-b1392f9d925f">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
+See the description for <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_feature_tag">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
 
 <b>Equivalent OpenType tag:</b> 'ss02'
 
 
 ### -field DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_3
 
-See the description for <a href="https://msdn.microsoft.com/31f0d1b5-36f2-4bde-b39c-b1392f9d925f">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
+See the description for <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_feature_tag">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
 
 <b>Equivalent OpenType tag:</b> 'ss03'
 
 
 ### -field DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_4
 
-See the description for <a href="https://msdn.microsoft.com/31f0d1b5-36f2-4bde-b39c-b1392f9d925f">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
+See the description for <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_feature_tag">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
 
 <b>Equivalent OpenType tag:</b> 'ss04'
 
 
 ### -field DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_5
 
-See the description for <a href="https://msdn.microsoft.com/31f0d1b5-36f2-4bde-b39c-b1392f9d925f">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
+See the description for <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_feature_tag">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
 
 <b>Equivalent OpenType tag:</b> 'ss05'
 
 
 ### -field DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_6
 
-See the description for <a href="https://msdn.microsoft.com/31f0d1b5-36f2-4bde-b39c-b1392f9d925f">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
+See the description for <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_feature_tag">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
 
 <b>Equivalent OpenType tag:</b> 'ss06'
 
 
 ### -field DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_7
 
-See the description for <a href="https://msdn.microsoft.com/31f0d1b5-36f2-4bde-b39c-b1392f9d925f">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
+See the description for <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_feature_tag">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
 
 <b>Equivalent OpenType tag:</b> 'ss07'
 
 
 ### -field DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_8
 
-See the description for <a href="https://msdn.microsoft.com/31f0d1b5-36f2-4bde-b39c-b1392f9d925f">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
+See the description for <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_feature_tag">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
 
 <b>Equivalent OpenType tag:</b> 'ss08'
 
 
 ### -field DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_9
 
-See the description for <a href="https://msdn.microsoft.com/31f0d1b5-36f2-4bde-b39c-b1392f9d925f">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
+See the description for <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_feature_tag">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
 
 <b>Equivalent OpenType tag:</b> 'ss09'
 
 
 ### -field DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_10
 
-See the description for <a href="https://msdn.microsoft.com/31f0d1b5-36f2-4bde-b39c-b1392f9d925f">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
+See the description for <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_feature_tag">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
 
 <b>Equivalent OpenType tag:</b> 'ss10'
 
 
 ### -field DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_11
 
-See the description for <a href="https://msdn.microsoft.com/31f0d1b5-36f2-4bde-b39c-b1392f9d925f">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
+See the description for <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_feature_tag">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
 
 <b>Equivalent OpenType tag:</b> 'ss11'
 
 
 ### -field DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_12
 
-See the description for <a href="https://msdn.microsoft.com/31f0d1b5-36f2-4bde-b39c-b1392f9d925f">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
+See the description for <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_feature_tag">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
 
 <b>Equivalent OpenType tag:</b> 'ss12'
 
 
 ### -field DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_13
 
-See the description for <a href="https://msdn.microsoft.com/31f0d1b5-36f2-4bde-b39c-b1392f9d925f">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
+See the description for <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_feature_tag">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
 
 <b>Equivalent OpenType tag:</b> 'ss13'
 
 
 ### -field DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_14
 
-See the description for <a href="https://msdn.microsoft.com/31f0d1b5-36f2-4bde-b39c-b1392f9d925f">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
+See the description for <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_feature_tag">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
 
 <b>Equivalent OpenType tag:</b> 'ss14'
 
 
 ### -field DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_15
 
-See the description for <a href="https://msdn.microsoft.com/31f0d1b5-36f2-4bde-b39c-b1392f9d925f">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
+See the description for <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_feature_tag">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
 
 <b>Equivalent OpenType tag:</b> 'ss15'
 
 
 ### -field DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_16
 
-See the description for <a href="https://msdn.microsoft.com/31f0d1b5-36f2-4bde-b39c-b1392f9d925f">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
+See the description for <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_feature_tag">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
 
 <b>Equivalent OpenType tag:</b> 'ss16'
 
 
 ### -field DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_17
 
-See the description for <a href="https://msdn.microsoft.com/31f0d1b5-36f2-4bde-b39c-b1392f9d925f">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
+See the description for <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_feature_tag">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
 
 <b>Equivalent OpenType tag:</b> 'ss17'
 
 
 ### -field DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_18
 
-See the description for <a href="https://msdn.microsoft.com/31f0d1b5-36f2-4bde-b39c-b1392f9d925f">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
+See the description for <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_feature_tag">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
 
 <b>Equivalent OpenType tag:</b> 'ss18'
 
 
 ### -field DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_19
 
-See the description for <a href="https://msdn.microsoft.com/31f0d1b5-36f2-4bde-b39c-b1392f9d925f">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
+See the description for <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_feature_tag">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
 
 <b>Equivalent OpenType tag:</b> 'ss19'
 
 
 ### -field DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_20
 
-See the description for <a href="https://msdn.microsoft.com/31f0d1b5-36f2-4bde-b39c-b1392f9d925f">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
+See the description for <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_feature_tag">DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_1</a>.
 
 <b>Equivalent OpenType tag:</b> 'ss20'
 

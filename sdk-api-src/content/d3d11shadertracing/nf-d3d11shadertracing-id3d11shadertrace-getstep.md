@@ -61,12 +61,12 @@ Retrieves information about the specified step in the trace.
 
 ### -param stepIndex [in]
 
-The index of the step within the trace. The range of the index is [0...NumTraceSteps-1], where <b>NumTraceSteps</b> is a member of the  <a href="https://msdn.microsoft.com/E4E44F7F-3760-490D-9BA3-677F63B93AA6">D3D11_TRACE_STATS</a> structure. You can retrieve information about a step in any step order.
+The index of the step within the trace. The range of the index is [0...NumTraceSteps-1], where <b>NumTraceSteps</b> is a member of the  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shadertracing/ns-d3d11shadertracing-d3d11_trace_stats">D3D11_TRACE_STATS</a> structure. You can retrieve information about a step in any step order.
 
 
 ### -param pTraceStep [out]
 
-A pointer to a  <a href="https://msdn.microsoft.com/E4C4757F-4948-41C9-97FB-446B26BE8E93">D3D11_TRACE_STEP</a> structure. <b>GetStep</b> fills the members of this structure with information about the trace step that is specified by the <i>stepIndex</i>  parameter.
+A pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shadertracing/ns-d3d11shadertracing-d3d11_trace_step">D3D11_TRACE_STEP</a> structure. <b>GetStep</b> fills the members of this structure with information about the trace step that is specified by the <i>stepIndex</i>  parameter.
 
 
 ## -returns
@@ -78,7 +78,7 @@ A pointer to a  <a href="https://msdn.microsoft.com/E4C4757F-4948-41C9-97FB-446B
 <li><b>S_OK</b> if the method retrieves the step information.</li>
 <li><b>E_FAIL</b> if a trace is not available.</li>
 <li><b>E_INVALIDARG</b> if <i>stepIndex</i> is out of range or if <i>pTraceStep</i> is NULL.</li>
-<li>Possibly other error codes that are described in <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.</li>
+<li>Possibly other error codes that are described in <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a>.</li>
 </ul>
 
 
@@ -99,7 +99,7 @@ This API requires the Windows Software Development Kit (SDK) for Windows 8.
 
 
 
-<a href="https://msdn.microsoft.com/27FF1E53-262A-4642-A4A8-7E21163C6DF9">ID3D11ShaderTrace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shadertracing/nn-d3d11shadertracing-id3d11shadertrace">ID3D11ShaderTrace</a>
  
 
  

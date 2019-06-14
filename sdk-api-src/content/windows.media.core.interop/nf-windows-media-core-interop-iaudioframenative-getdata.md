@@ -75,7 +75,7 @@ When this method returns successfully, contains the interface pointer requested 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 Returns S_OK on successful completion. Returns E_NOINTERFACE if the requested interface can't be found.
 
@@ -87,7 +87,7 @@ Returns S_OK on successful completion. Returns E_NOINTERFACE if the requested in
 
 
 
-<a href="https://msdn.microsoft.com/9C9DDDFD-8399-403F-8EB4-485D8531C94B">IAudioFrameNative</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.media.core.interop/nn-windows-media-core-interop-iaudioframenative">IAudioFrameNative</a>
  
 
  

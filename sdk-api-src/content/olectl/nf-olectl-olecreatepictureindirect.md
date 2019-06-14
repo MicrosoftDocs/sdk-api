@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a new picture object initialized according to a <a href="https://msdn.microsoft.com/eb1f1de7-dcfe-4c1c-8737-f5ab4d7977d6">PICTDESC</a> structure.
+Creates a new picture object initialized according to a <a href="https://docs.microsoft.com/windows/desktop/api/olectl/ns-olectl-tagpictdesc">PICTDESC</a> structure.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Creates a new picture object initialized according to a <a href="https://msdn.mi
 
 ### -param lpPictDesc [in]
 
-Pointer to a caller-allocated structure containing the initial state of the picture. The specified structure can be <b>NULL</b> to create an uninitialized object, in the event the picture needs to initialize via <a href="https://msdn.microsoft.com/351e1187-9959-4542-8778-925457c3b8e3">IPersistStream::Load</a>.
+Pointer to a caller-allocated structure containing the initial state of the picture. The specified structure can be <b>NULL</b> to create an uninitialized object, in the event the picture needs to initialize via <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststream-load">IPersistStream::Load</a>.
 
 
 ### -param riid [in]
@@ -74,7 +74,7 @@ If <b>TRUE</b>, the picture object is to destroy its picture when the object is 
 
 ### -param lplpvObj [out]
 
-Address of pointer variable that receives the interface pointer requested in riid. Upon successful return, this parameter contains the requested interface pointer on the newly created object. If the call is successful, the caller is responsible for calling <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a> through this interface pointer when the new object is no longer needed. If the call fails, the value is set to <b>NULL</b>.
+Address of pointer variable that receives the interface pointer requested in riid. Upon successful return, this parameter contains the requested interface pointer on the newly created object. If the call is successful, the caller is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> through this interface pointer when the new object is no longer needed. If the call fails, the value is set to <b>NULL</b>.
 
 
 ## -returns
@@ -121,7 +121,7 @@ The address in <i>pPictDesc</i> or <i>lplpvObj</i> is not valid. For example, it
 
 
 
- The <i>fOwn</i> parameter indicates whether the picture is to own the GDI picture handle for the picture it contains, so that the picture object will destroy its picture when the object itself is destroyed. The function returns an interface pointer to the new picture object specified by the caller in the <i>riid</i> parameter. A <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> is built into this call. The caller is responsible for calling <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a> through the interface pointer returned.
+ The <i>fOwn</i> parameter indicates whether the picture is to own the GDI picture handle for the picture it contains, so that the picture object will destroy its picture when the object itself is destroyed. The function returns an interface pointer to the new picture object specified by the caller in the <i>riid</i> parameter. A <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> is built into this call. The caller is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> through the interface pointer returned.
 
 
 
@@ -131,11 +131,11 @@ The address in <i>pPictDesc</i> or <i>lplpvObj</i> is not valid. For example, it
 
 
 
-<a href="https://msdn.microsoft.com/de1847cd-ecc0-4941-9dbc-a60b8ef0b1c1">OleLoadPicture</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-oleloadpicture">OleLoadPicture</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb1f1de7-dcfe-4c1c-8737-f5ab4d7977d6">PICTDESC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/olectl/ns-olectl-tagpictdesc">PICTDESC</a>
  
 
  

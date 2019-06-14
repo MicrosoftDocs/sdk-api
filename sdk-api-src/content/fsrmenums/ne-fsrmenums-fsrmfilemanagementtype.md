@@ -84,11 +84,11 @@ The file management jobs runs an RMS action on files meeting the specified crite
 
 
 
-<a href="https://msdn.microsoft.com/93fdf667-8959-40a9-a374-c54ed73bbe89">FSRM Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-enumerations">FSRM Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/98816ea0-7651-42ef-8893-13c568ed859a">IFsrmFileManagementJob.OperationType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_operationtype">IFsrmFileManagementJob.OperationType</a>
  
 
  

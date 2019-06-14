@@ -59,7 +59,7 @@ Describes a sensor profile ID.
 
 ### -field Type
 
-A <a href="https://msdn.microsoft.com/en-us/library/Mt846644(v=VS.85).aspx">Sensor Profile GUID</a> that describes the type of sensor profile. 
+A <a href="https://docs.microsoft.com/windows/desktop/medfound/sensor-profile-guids">Sensor Profile GUID</a> that describes the type of sensor profile. 
 
 
 ### -field Index

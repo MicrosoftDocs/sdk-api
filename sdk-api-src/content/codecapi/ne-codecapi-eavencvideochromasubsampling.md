@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Specifies chroma siting. Chroma siting defines the positions of the chroma samples relative to the luma samples. This enumeration is used with the <a href="https://msdn.microsoft.com/e9f8fef5-73da-424d-a239-09779b81a02b">AVEncVideoInputChromaSubsampling</a> and <a href="https://msdn.microsoft.com/05acb05f-37e1-4953-bd24-ae790d355bf9">AVEncVideoOutputChromaSubsampling</a> properties.
+Specifies chroma siting. Chroma siting defines the positions of the chroma samples relative to the luma samples. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencvideoinputchromasubsampling-property">AVEncVideoInputChromaSubsampling</a> and <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencvideooutputchromasubsampling-property">AVEncVideoOutputChromaSubsampling</a> properties.
 
 
 
@@ -90,11 +90,11 @@ The chroma planes have the same phase alignment. It is not valid to omit this fl
 
 
 
-<a href="https://msdn.microsoft.com/5d6e48cb-d181-448e-a96e-e5ab500427d7">Codec API Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
  
 
  

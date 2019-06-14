@@ -60,8 +60,8 @@ ms.custom: 19H1
 Releases, decommits, or releases and decommits a region of pages within the virtual address space of the calling process.
 
 To free memory allocated in another process by the 
-<a href="https://msdn.microsoft.com/ff0b6b79-40f5-499c-b797-b66797654164">VirtualAllocEx</a> function, use the 
-<a href="https://msdn.microsoft.com/2e5c862c-1251-49da-9c3a-90b09e488d89">VirtualFreeEx</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualallocex">VirtualAllocEx</a> function, use the 
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfreeex">VirtualFreeEx</a> function.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ A pointer to the base address of the region of pages to be freed.
 
 
 If the <i>dwFreeType</i> parameter is <b>MEM_RELEASE</b>, this parameter must be the base address returned by the 
-<a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a> function when the region of pages is reserved.
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> function when the region of pages is reserved.
 
 
 ### -param dwSize [in]
@@ -88,10 +88,10 @@ The size of the region of memory to be freed, in bytes.
 
 
 If the <i>dwFreeType</i> parameter is <b>MEM_RELEASE</b>, this parameter must be 0 (zero). The function frees the entire region that is reserved in the initial allocation call to 
-<a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>.
 
 If the <i>dwFreeType</i> parameter is <b>MEM_DECOMMIT</b>, the function decommits all memory pages that contain one or more bytes in the range from the <i>lpAddress</i> parameter to <code>(lpAddress+dwSize)</code>. This means, for example, that a 2-byte region of memory that straddles a page boundary causes both pages to be decommitted. If <i>lpAddress</i> is the base address returned by 
-<a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a> and <i>dwSize</i> is 0 (zero), the function decommits the entire region that is allocated by 
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> and <i>dwSize</i> is 0 (zero), the function decommits the entire region that is allocated by 
 <b>VirtualAlloc</b>. After that, the entire region is in the reserved state.
 
 
@@ -161,7 +161,7 @@ Releases the specified region of pages, or placeholder (for a placeholder, the a
 
 
 If you specify this value, <i>dwSize</i> must be 0 (zero), and <i>lpAddress</i> must point to the base address returned by the 
-<a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a> function when the region is reserved. The function fails if either of these conditions is not met.
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> function when the region is reserved. The function fails if either of these conditions is not met.
 
 If any pages in the region are committed currently, the function first decommits, and then releases them.
 
@@ -182,7 +182,7 @@ Do not use this value with <b>MEM_DECOMMIT</b>.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is 0 (zero). To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -192,21 +192,21 @@ If the function fails, the return value is 0 (zero). To get extended error infor
 
 
 Each page of memory in a process virtual address space has a 
-<a href="https://msdn.microsoft.com/a6faa901-2966-4556-90ef-c113b1ba6c6d">Page State</a>. The 
+<a href="https://docs.microsoft.com/windows/desktop/Memory/page-state">Page State</a>. The 
 <b>VirtualFree</b> function can decommit a range of pages that are in different states, some committed and some uncommitted. This means that you can decommit a range of pages without first determining the current commitment state of each page. Decommitting a page releases its physical storage, either in memory or in the paging file on disk.
 
 If a page is decommitted but not released, its state changes to reserved. Subsequently, you can call 
-<a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a> to commit it, or <b>VirtualFree</b> to release it. Attempts to read from or write to a reserved page results in an access violation exception.
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> to commit it, or <b>VirtualFree</b> to release it. Attempts to read from or write to a reserved page results in an access violation exception.
 
 The 
 <b>VirtualFree</b> function can release a range of pages that are in different states, some reserved and some committed. This means that you can release a range of pages without first determining the current commitment state of each page. The entire range of pages originally reserved by the 
-<a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a> function must be released at the same time.
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> function must be released at the same time.
 
 If a page is released, its state changes to free, and it is available for subsequent allocation operations. After memory is released or decommited, you can never refer to the memory again. Any information that may have been in that memory is gone forever. Attempting to read from or write to a free page results in an access violation exception. If you need to keep information, do not decommit or free memory that contains the information.
 
 The 
 <b>VirtualFree</b> function can be used on an AWE region of memory, and it invalidates any physical page mappings in the region when freeing the address space. However, the physical page is not deleted, and the application can use them. The application must explicitly call 
-<a href="https://msdn.microsoft.com/c01da9f1-1d24-4b7e-8c6b-50aa6f558384">FreeUserPhysicalPages</a> to free the physical pages. When the process is terminated, all resources are cleaned up automatically.
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-freeuserphysicalpages">FreeUserPhysicalPages</a> to free the physical pages. When the process is terminated, all resources are cleaned up automatically.
 
 To delete an enclave when you finish using it, specify the following values:
 
@@ -219,7 +219,7 @@ To delete an enclave when you finish using it, specify the following values:
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/f46bd57d-7684-4a08-8ac7-de204aecb207">Reserving and Committing Memory</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Memory/reserving-and-committing-memory">Reserving and Committing Memory</a>.
 
 <div class="code"></div>
 
@@ -230,16 +230,16 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/5a2a7a62-0bda-4a0d-93d2-25b4898871fd">Memory
+<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
     Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9488a854-1ef0-488f-b3d1-57c1acb82a88">Virtual Memory Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/virtual-memory-functions">Virtual Memory Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/2e5c862c-1251-49da-9c3a-90b09e488d89">VirtualFreeEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfreeex">VirtualFreeEx</a>
  
 
  

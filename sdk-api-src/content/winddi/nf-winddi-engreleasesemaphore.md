@@ -80,7 +80,7 @@ None
 
 <b>EngReleaseSemaphore</b> releases the semaphore's exclusive lock on a driver's resource and reenables the delivery of special kernel asynchronous procedure calls.
 
-The lock and asynchronous procedure call suspension were acquired in a call to <a href="https://msdn.microsoft.com/da13ff30-7817-4ed4-9791-2d205a260259">EngAcquireSemaphore</a>.
+The lock and asynchronous procedure call suspension were acquired in a call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engacquiresemaphore">EngAcquireSemaphore</a>.
 
 
 
@@ -90,19 +90,19 @@ The lock and asynchronous procedure call suspension were acquired in a call to <
 
 
 
-<a href="https://msdn.microsoft.com/da13ff30-7817-4ed4-9791-2d205a260259">EngAcquireSemaphore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engacquiresemaphore">EngAcquireSemaphore</a>
 
 
 
-<a href="https://msdn.microsoft.com/6855017c-8919-496b-b82c-d65dea7ad5f0">EngDeleteSemaphore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engdeletesemaphore">EngDeleteSemaphore</a>
 
 
 
-<a href="https://msdn.microsoft.com/a04f6f46-f075-40d1-8b56-d37a80fb3571">EngIsSemaphoreOwned</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engissemaphoreowned">EngIsSemaphoreOwned</a>
 
 
 
-<a href="https://msdn.microsoft.com/ce5d8ceb-0137-4ca9-b718-2e3de650249d">EngIsSemaphoreOwnedByCurrentThread</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engissemaphoreownedbycurrentthread">EngIsSemaphoreOwnedByCurrentThread</a>
  
 
  

@@ -51,9 +51,9 @@ ms.custom: 19H1
 
 The 
 QueryDispatch method returns the snap-in IDispatch interface for a specified item. MMC will expose this interface through the 
-<a href="https://msdn.microsoft.com/eb7c92e7-d834-4736-bff4-74940c9bb194">MMC 2.0 Automation object model</a>. Script, or other applications, can access the IDispatch interface for the item represented by the specified cookie through the 
-<a href="https://msdn.microsoft.com/340ab6d0-e674-438a-9c84-87dcb274ae6a">View.SnapinScopeObject</a> and 
-<a href="https://msdn.microsoft.com/f29347ab-9339-4e77-95a7-c9fb7992e676">View.SnapinSelectionObject</a> methods.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmc-2-0-automation-object-model">MMC 2.0 Automation object model</a>. Script, or other applications, can access the IDispatch interface for the item represented by the specified cookie through the 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/view-snapinscopeobject">View.SnapinScopeObject</a> and 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/view-snapinselectionobject">View.SnapinSelectionObject</a> methods.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ A value that specifies the context item (or items) for which the IDispatch inter
 ### -param type [in]
 
 A value that specifies the data object as one of the following constant values, which, are members of the 
-<a href="https://msdn.microsoft.com/6f1cb622-b066-4208-9e25-cdd7e9c4dcd2">DATA_OBJECT_TYPES</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-_data_object_types">DATA_OBJECT_TYPES</a> enumeration.
 
 
 
@@ -103,11 +103,11 @@ If successful, the return value is <b>S_OK</b>. Other return values indicate an 
 
 
 
-<a href="https://msdn.microsoft.com/340ab6d0-e674-438a-9c84-87dcb274ae6a">View.SnapinScopeObject</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/view-snapinscopeobject">View.SnapinScopeObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/f29347ab-9339-4e77-95a7-c9fb7992e676">View.SnapinSelectionObject</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/view-snapinselectionobject">View.SnapinSelectionObject</a>
  
 
  

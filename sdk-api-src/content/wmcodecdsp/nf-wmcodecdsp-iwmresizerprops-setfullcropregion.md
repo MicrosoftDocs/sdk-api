@@ -136,28 +136,28 @@ This method is equivalent to setting the following properties:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/e7432b80-f3fa-4c2f-89db-87cd130d7447">MFPKEY_RESIZE_SRC_LEFT</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-resize-src-left">MFPKEY_RESIZE_SRC_LEFT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/12791b9f-4b00-4697-ae3c-8fc069568c82">MFPKEY_RESIZE_SRC_TOP</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-resize-src-top">MFPKEY_RESIZE_SRC_TOP</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/1c527040-6673-4753-905b-8c74c1ae0d59">MFPKEY_RESIZE_SRC_WIDTH</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-resize-src-width">MFPKEY_RESIZE_SRC_WIDTH</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/418bcd69-9dde-4bc3-9897-f465d12536a1">MFPKEY_RESIZE_SRC_HEIGHT</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-resize-src-height">MFPKEY_RESIZE_SRC_HEIGHT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/faefe634-c517-43a0-9741-cb79824f840d">MFPKEY_RESIZE_DST_LEFT</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-resize-dst-left">MFPKEY_RESIZE_DST_LEFT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/66147460-b8c2-4d80-9a87-a2eeeea66cfa">MFPKEY_RESIZE_DST_TOP</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-resize-dst-top">MFPKEY_RESIZE_DST_TOP</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/8f0066ca-c464-480d-b38f-3c1134fc51b7">MFPKEY_RESIZE_DST_WIDTH</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-resize-dst-width">MFPKEY_RESIZE_DST_WIDTH</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/c6d47caa-59e1-440c-ab67-955cb8547950">MFPKEY_RESIZE_DST_HEIGHT</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-resize-dst-height">MFPKEY_RESIZE_DST_HEIGHT</a>
 </li>
 </ul>
 
@@ -168,7 +168,7 @@ This method is equivalent to setting the following properties:
 
 
 
-<a href="https://msdn.microsoft.com/12c26507-c729-4143-a0bd-e043d42744f6">IWMResizerProps Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmresizerprops">IWMResizerProps Interface</a>
  
 
  

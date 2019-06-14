@@ -85,7 +85,7 @@ The number of CPU clock cycles used by each idle thread. If this parameter is NU
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, use <a href="https://msdn.microsoft.com/5e9899e9-e51e-4785-812a-f86eac6e2006">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, use <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsgetlasterror">GetLastError</a>.
 
 
 
@@ -94,7 +94,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0601. For more information, see <a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0601. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 
@@ -104,11 +104,11 @@ To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0601
 
 
 
-<a href="https://msdn.microsoft.com/c627ac0f-96e8-48b5-9103-4316f487e173">Processor Groups</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/processor-groups">Processor Groups</a>
 
 
 
-<a href="https://msdn.microsoft.com/75a5c4cf-ccc7-47ab-a2a9-88051e0a7d06">QueryIdleProcessorCycleTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryidleprocessorcycletime">QueryIdleProcessorCycleTime</a>
  
 
  

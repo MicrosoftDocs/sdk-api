@@ -176,7 +176,7 @@ The number of packets matching this MFE that were dropped due to a queue overflo
 Type: <b>MIB_IPMCAST_OIF_STATS[ANY_SIZE]</b>
 
 A pointer to a table of outgoing interface statistics that are implemented as an array of 
-<a href="https://msdn.microsoft.com/0d1a2396-883b-4ca5-b8a0-11a3d3575a61">MIB_IPMCAST_OIF_STATS</a> structures. The number of entries in the table is specified by the value of the <b>ulNumOutIf</b> member.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_oif_stats_lh">MIB_IPMCAST_OIF_STATS</a> structures. The number of entries in the table is specified by the value of the <b>ulNumOutIf</b> member.
 
 
 ## -remarks
@@ -198,7 +198,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://msdn.microsoft.com/0d1a2396-883b-4ca5-b8a0-11a3d3575a61">MIB_IPMCAST_OIF_STATS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_oif_stats_lh">MIB_IPMCAST_OIF_STATS</a>
  
 
  

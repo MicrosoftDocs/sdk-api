@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Adds an 
    access path.
@@ -71,7 +71,7 @@ A string indicating the access path, which is a user-mode path that can be used 
 
 
 
-This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="https://msdn.microsoft.com/en-us/library/ms680746(v=VS.85).aspx">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is being used. Possible return values include the following.
+This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
 <table>
 <tr>
@@ -98,7 +98,7 @@ The path was added successfully.
 <td width="60%">
 The access path was added successfully, however, an error occurred. VDS possibly failed to update the 
         GPT_BASIC_DATA_ATTRIBUTE_NO_DRIVE_LETTER attribute of a partition or failed to add a default network share (such as F$) 
-        while adding the drive letter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa365449(v=VS.85).aspx">PARTITION_INFORMATION_GPT</a>.
+        while adding the drive letter. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_partition_information_gpt">PARTITION_INFORMATION_GPT</a>.
 
 </td>
 </tr>
@@ -136,7 +136,7 @@ The pack containing the volume is not accessible.
 
 
 
-VDS adds the access path by creating a mounted folder (also called a volume mount point). Note that mounted folders are supported only on NTFS volumes. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa365733(v=VS.85).aspx">Mounted Folders</a>.
+VDS adds the access path by creating a mounted folder (also called a volume mount point). Note that mounted folders are supported only on NTFS volumes. For more information, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-mount-points">Mounted Folders</a>.
 
 This method returns ERROR_DIR_NOT_EMPTY if the <i>pwszPath</i> parameter contains a path to a mounted folder that is already in use (even if the directory is empty) or if <i>pwszPath</i> contains a path to a nonempty directory. 
 
@@ -148,11 +148,11 @@ This method returns ERROR_DIR_NOT_EMPTY if the <i>pwszPath</i> parameter contain
 
 
 
-<a href="https://msdn.microsoft.com/4c8a63bd-ae2f-4157-92f9-aefc592c7d4f">IVdsVolumeMF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdsvolumemf">IVdsVolumeMF</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365561(v=VS.85).aspx">SetVolumeMountPoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setvolumemountpointa">SetVolumeMountPoint</a>
  
 
  

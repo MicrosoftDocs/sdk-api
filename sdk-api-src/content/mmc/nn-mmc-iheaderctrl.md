@@ -55,13 +55,13 @@ These methods provide support for users to filter list views based on filters se
 
 The 
 <b>IHeaderCtrl</b> interface can be queried from the 
-<a href="https://msdn.microsoft.com/en-us/library/Mt300830(v=VS.85).aspx">IConsole</a> interface passed into 
-<a href="https://msdn.microsoft.com/2a8b8f79-05c0-49e8-8210-7c1002ee5978">IComponent::Initialize</a> during the component's creation.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole">IConsole</a> interface passed into 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-initialize">IComponent::Initialize</a> during the component's creation.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IHeaderCtrl</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IHeaderCtrl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IHeaderCtrl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IHeaderCtrl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -103,7 +103,7 @@ Retrieves the width of a specified column.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F5499550-9460-4BF9-AF99-F4BDC7F32EBC">InsertColumn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iheaderctrl-insertcolumn">InsertColumn</a>
 </td>
 <td align="left" width="63%">
 Adds a column to a default result view.
@@ -136,7 +136,7 @@ Sets the width of a specified column.
 
 
 
-<a href="https://msdn.microsoft.com/c95742a4-ae9b-40f3-8d88-c4955e5a3032">MMC 2.0 Interfaces and Methods</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmc-interfaces-and-methods">MMC 2.0 Interfaces and Methods</a>
  
 
  

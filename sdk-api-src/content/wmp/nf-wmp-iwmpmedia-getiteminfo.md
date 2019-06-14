@@ -112,22 +112,22 @@ To retrieve attributes with multiple values and attributes with complex values, 
 
 The set of attributes available from sources other than the local library (remote libraries, portable devices, or CDs) is defined by the other sources.
 
-Before calling this method, you must have Read access to the library. For more information, see <a href="https://msdn.microsoft.com/9f722531-a551-4ca9-be5f-01a291a180b0">Library Access</a>.
+Before calling this method, you must have Read access to the library. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMP/library-access">Library Access</a>.
 
 To share the Windows media libraries over UPnP, Windows Media Player creates a content directory service (CDS) that 
 
 is exposed over UPnP. Other devices can then navigate and browse the libraries. 
 
 
-In Windows 7, an application can use the Windows Media Player <a href="https://msdn.microsoft.com/77afa1a5-d532-4b54-9308-a274c5c7bdde">TrackingID</a> and <a href="https://msdn.microsoft.com/0d8a6937-32d8-4a4a-87e5-0002f077fefe">MediaType</a> attributes to construct the object ID of each item in the CDS. Note that this construction might change in future versions of Windows. The application passes each of these attribute strings in the <i>bstrItemName</i> parameter in a call to <b>getItemInfo</b>. <b>getItemInfo</b> returns the value for each attribute in a variable to which the   <i>pbstrVal</i> parameter points.  The application then uses the following syntax to construct each object ID:
+In Windows 7, an application can use the Windows Media Player <a href="https://docs.microsoft.com/windows/desktop/WMP/trackingid-attribute">TrackingID</a> and <a href="https://docs.microsoft.com/windows/desktop/WMP/mediatype-attribute">MediaType</a> attributes to construct the object ID of each item in the CDS. Note that this construction might change in future versions of Windows. The application passes each of these attribute strings in the <i>bstrItemName</i> parameter in a call to <b>getItemInfo</b>. <b>getItemInfo</b> returns the value for each attribute in a variable to which the   <i>pbstrVal</i> parameter points.  The application then uses the following syntax to construct each object ID:
 
 <i>TrackingID</i>.0.<i>MediaTypeID</i>
 
 This syntax has the  following meaning:
 
 <ul>
-<li><i>TrackingID</i> is the string that is stored in the Windows Media Player <a href="https://msdn.microsoft.com/77afa1a5-d532-4b54-9308-a274c5c7bdde">TrackingID</a> attribute of the media item.</li>
-<li><i>MediaTypeID</i> depends on the value of the <a href="https://msdn.microsoft.com/0d8a6937-32d8-4a4a-87e5-0002f077fefe">MediaType</a> 
+<li><i>TrackingID</i> is the string that is stored in the Windows Media Player <a href="https://docs.microsoft.com/windows/desktop/WMP/trackingid-attribute">TrackingID</a> attribute of the media item.</li>
+<li><i>MediaTypeID</i> depends on the value of the <a href="https://docs.microsoft.com/windows/desktop/WMP/mediatype-attribute">MediaType</a> 
 
 attribute, as shown in the following table:<table>
 <tr>
@@ -136,19 +136,19 @@ attribute, as shown in the following table:<table>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/fbaff235-47bb-4fa2-8961-53dac26142dd">Audio Items</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/audio-item-attributes">Audio Items</a>
 </td>
 <td>4</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/3d3ed3a8-09ac-4e3d-b52d-3614b3a3fc05">Photo Items</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/photo-item-attributes">Photo Items</a>
 </td>
 <td>B</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/000bc03d-aa2e-4922-b611-7d6e8ebb22e9">Video Items</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/video-item-attributes">Video Items</a>
 </td>
 <td>8</td>
 </tr>
@@ -167,27 +167,27 @@ attribute, as shown in the following table:<table>
 
 
 
-<a href="https://msdn.microsoft.com/a333ee0d-8f74-4517-b4c7-b1d8f95df2fc">Attribute Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/attribute-reference">Attribute Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563397(v=VS.85).aspx">IWMPMedia Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpmedia">IWMPMedia Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563403(v=VS.85).aspx">IWMPMedia3::getItemInfoByType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmedia3-getiteminfobytype">IWMPMedia3::getItemInfoByType</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563430(v=VS.85).aspx">IWMPMedia::getAttributeName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmedia-getattributename">IWMPMedia::getAttributeName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563435(v=VS.85).aspx">IWMPMedia::get_attributeCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmedia-get_attributecount">IWMPMedia::get_attributeCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563449(v=VS.85).aspx">IWMPMedia::setItemInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmedia-setiteminfo">IWMPMedia::setItemInfo</a>
  
 
  

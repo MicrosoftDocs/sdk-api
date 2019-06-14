@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Gathers licensing information for the provided file handle. This licensing information  
-	can later be applied or deposited using the <a href="https://msdn.microsoft.com/0fe3e466-c4df-4c11-9689-1002045df791">SLDepositMigrationBlob</a> function.
+	can later be applied or deposited using the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-sldepositmigrationblob">SLDepositMigrationBlob</a> function.
 
 
 ## -parameters

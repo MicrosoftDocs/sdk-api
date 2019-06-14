@@ -51,10 +51,10 @@ ms.custom: 19H1
 
 The 
 <b>RemSNB</b> structure is used for marshaling the 
-<a href="https://msdn.microsoft.com/8428a820-3d8a-41e0-9955-d355440e2ebc">SNB</a> data type.
+<a href="https://docs.microsoft.com/windows/desktop/Stg/snb">SNB</a> data type.
 
 Defined in the 
-<a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> interface (Storag.idl).
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface (Storag.idl).
 
 
 ## -struct-fields
@@ -82,7 +82,7 @@ Pointer to an array of bytes containing the stream name strings from the <b>SNB<
 
 
 
-<a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>
  
 
  

@@ -87,7 +87,7 @@ No encryption scheme.
 
 
 
-The encryption scheme for a sample is specified using the <a href="https://msdn.microsoft.com/04E9F908-C61C-43DC-8CF5-9A629FCDD82C">MFSampleExtension_Encryption_ProtectionScheme</a> attribute.
+The encryption scheme for a sample is specified using the <a href="https://docs.microsoft.com/windows/desktop/medfound/mfsampleextension-encryption-protectionscheme">MFSampleExtension_Encryption_ProtectionScheme</a> attribute.
 
 
 

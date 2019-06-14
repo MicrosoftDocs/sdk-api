@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/fae10e9e-0c2b-4817-bd28-a4a85ca180cc">IWSDHttpMessageParameters</a> object.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpmessageparameters">IWSDHttpMessageParameters</a> object.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Creates an <a href="https://msdn.microsoft.com/fae10e9e-0c2b-4817-bd28-a4a85ca18
 
 ### -param ppTxParams
 
-Returns a reference to the initialized <a href="https://msdn.microsoft.com/fae10e9e-0c2b-4817-bd28-a4a85ca180cc">IWSDHttpMessageParameters</a> object. Cannot be <b>NULL</b>.
+Returns a reference to the initialized <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpmessageparameters">IWSDHttpMessageParameters</a> object. Cannot be <b>NULL</b>.
 
 
 ## -returns

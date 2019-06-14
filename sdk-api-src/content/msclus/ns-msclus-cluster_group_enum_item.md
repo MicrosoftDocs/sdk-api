@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 Contains the properties of a cluster group. This structure  is used to enumerate cluster groups in the 
-    <a href="https://msdn.microsoft.com/139FE5AB-9465-46F8-B360-F27F19D82A88">ClusterGroupEnumEx</a> function.
+    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clustergroupenumex">ClusterGroupEnumEx</a> function.
 
 
 ## -struct-fields

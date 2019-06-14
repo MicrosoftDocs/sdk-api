@@ -95,7 +95,7 @@ Consumer has successfully acquired the resource.
 </dl>
 </td>
 <td width="60%">
-Consumer has not acquired the resource but will use <a href="https://msdn.microsoft.com/a5c52f5b-1c21-4f4c-b698-15b6ec7f7fed">IResourceManager::NotifyAcquire</a> when it does.
+Consumer has not acquired the resource but will use <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iresourcemanager-notifyacquire">IResourceManager::NotifyAcquire</a> when it does.
 
 </td>
 </tr>
@@ -123,11 +123,11 @@ The method may return some other error code, if the consumer fails to acquire th
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/dda2b207-dcd8-42df-95a3-d4bfbb4a7fd8">IResourceConsumer Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iresourceconsumer">IResourceConsumer Interface</a>
  
 
  

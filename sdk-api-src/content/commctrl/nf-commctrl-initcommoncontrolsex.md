@@ -63,14 +63,14 @@ Ensures that the common control DLL (Comctl32.dll) is loaded, and registers spec
 
 Type: <b>const LPINITCOMMONCONTROLSEX</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb775507(v=VS.85).aspx">INITCOMMONCONTROLSEX</a> structure that contains information specifying which control classes will be registered. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taginitcommoncontrolsex">INITCOMMONCONTROLSEX</a> structure that contains information specifying which control classes will be registered. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. 
 
@@ -81,7 +81,7 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 
-The effect of each call to <b>InitCommonControlsEx</b> is cumulative. For example, if <b>InitCommonControlsEx</b> is called with the <a href="https://msdn.microsoft.com/en-us/library/Bb775507(v=VS.85).aspx">ICC_UPDOWN_CLASS</a> flag, then is later called with the <a href="https://msdn.microsoft.com/en-us/library/Bb775507(v=VS.85).aspx">ICC_HOTKEY_CLASS</a> flag, the result is that both the up-down and hot key common control classes are registered and available to the application.
+The effect of each call to <b>InitCommonControlsEx</b> is cumulative. For example, if <b>InitCommonControlsEx</b> is called with the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taginitcommoncontrolsex">ICC_UPDOWN_CLASS</a> flag, then is later called with the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taginitcommoncontrolsex">ICC_HOTKEY_CLASS</a> flag, the result is that both the up-down and hot key common control classes are registered and available to the application.
 			
 
 

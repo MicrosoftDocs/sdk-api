@@ -67,7 +67,7 @@ Size of the buffer, in bytes.
 
 ### -param ppBuffer
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/3ccc7089-d0d0-4eb1-b763-0d4e348af685">IMFMediaBuffer</a> interface of the media buffer. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a> interface of the media buffer. The caller must release the interface.
 
 
 ## -returns
@@ -113,7 +113,7 @@ Insufficient memory.
 
 
 
-The function allocates a buffer with a 1-byte memory alignment. To allocate a buffer that is aligned to a larger memory boundary, call <a href="https://msdn.microsoft.com/cccc0dea-3f1e-41e4-97f4-de7760ceccb0">MFCreateAlignedMemoryBuffer</a>.
+The function allocates a buffer with a 1-byte memory alignment. To allocate a buffer that is aligned to a larger memory boundary, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreatealignedmemorybuffer">MFCreateAlignedMemoryBuffer</a>.
 
 When the media buffer object is destroyed, it releases the allocated memory.
 
@@ -131,11 +131,11 @@ This function is available on the following platforms if the Windows Media Forma
 
 
 
-<a href="https://msdn.microsoft.com/3ee073ea-7bac-4971-9167-93a4e541ab77">Media Buffers</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-buffers">Media Buffers</a>
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

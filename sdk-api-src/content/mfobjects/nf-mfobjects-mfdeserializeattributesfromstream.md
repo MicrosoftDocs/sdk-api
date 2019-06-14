@@ -62,12 +62,12 @@ Loads attributes from a stream into an attribute store.
 
 ### -param pAttr
 
-Pointer to the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> interface of the attribute store.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of the attribute store.
 
 
 ### -param dwOptions
 
-Bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/e4b218d1-185c-483f-b697-19ce8b3a4058">MF_ATTRIBUTE_SERIALIZE_OPTIONS</a> enumeration.
+Bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-mf_attribute_serialize_options">MF_ATTRIBUTE_SERIALIZE_OPTIONS</a> enumeration.
 
 
 ### -param pStm
@@ -107,13 +107,13 @@ The method succeeded.
 
 
 
-Use this function to deserialize an attribute store that was serialized with the <a href="https://msdn.microsoft.com/b8bc88e5-19ae-46b3-aa78-a00afee1f481">MFSerializeAttributesToStream</a> function.
+Use this function to deserialize an attribute store that was serialized with the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-mfserializeattributestostream">MFSerializeAttributesToStream</a> function.
 
 If <i>dwOptions</i> contains the MF_ATTRIBUTE_SERIALIZE_UNKNOWN_BYREF flag, the function deserializes <b>IUnknown</b> pointers from the stream, as follows:
 
 <ul>
 <li>
-If the <b>IStream</b> pointer exposes the <a href="https://msdn.microsoft.com/9d29befd-b0ae-4610-a0b7-17face03c45e">IMFObjectReferenceStream</a> interface (through <b>QueryInterface</b>), the function calls <a href="https://msdn.microsoft.com/fabf7de2-8433-43ba-9ded-001569614054">IMFObjectReferenceStream::LoadReference</a> to deserialize each pointer.
+If the <b>IStream</b> pointer exposes the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfobjectreferencestream">IMFObjectReferenceStream</a> interface (through <b>QueryInterface</b>), the function calls <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfobjectreferencestream-loadreference">IMFObjectReferenceStream::LoadReference</a> to deserialize each pointer.
 
 </li>
 <li>
@@ -131,19 +131,19 @@ This function deletes any attributes that were previously stored in <i>pAttr</i>
 
 
 
-<a href="https://msdn.microsoft.com/44af5e03-5f0a-4564-b9d6-b8c935df35b2">Attributes and Properties</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
 
 
 
-<a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/e4b218d1-185c-483f-b697-19ce8b3a4058">MF_ATTRIBUTE_SERIALIZE_OPTIONS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-mf_attribute_serialize_options">MF_ATTRIBUTE_SERIALIZE_OPTIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

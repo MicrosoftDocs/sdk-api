@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the type of data provided for the sectors in this track. For more detail on the possible sector types, see <a href="https://msdn.microsoft.com/3af4a8c9-66b7-490e-aafa-fdfe614f5f3e">IMAPI_CD_SECTOR_TYPE</a>.
+Retrieves the type of data provided for the sectors in this track. For more detail on the possible sector types, see <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_cd_sector_type">IMAPI_CD_SECTOR_TYPE</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Retrieves the type of data provided for the sectors in this track. For more deta
 
 ### -param value [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/3af4a8c9-66b7-490e-aafa-fdfe614f5f3e">IMAPI_CD_SECTOR_TYPE</a> enumeration that specifies the type of data provided for the sectors on the track. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_cd_sector_type">IMAPI_CD_SECTOR_TYPE</a> enumeration that specifies the type of data provided for the sectors on the track. 
 
 
 ## -returns
@@ -85,11 +85,11 @@ This method is supported in Windows Server 2003 with Service Pack 1 (SP1), Win
 
 
 
-<a href="https://msdn.microsoft.com/3af4a8c9-66b7-490e-aafa-fdfe614f5f3e">IMAPI_CD_SECTOR_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_cd_sector_type">IMAPI_CD_SECTOR_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d074279-35fb-48d0-b298-c1a83f57d805">IRawCDImageTrackInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-irawcdimagetrackinfo">IRawCDImageTrackInfo</a>
  
 
  

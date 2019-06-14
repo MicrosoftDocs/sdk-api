@@ -54,7 +54,7 @@ Part of a contract between D3D11On12 diagnostic layers and graphics diagnostics 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12SharingContract</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID3D12SharingContract</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12SharingContract</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D12SharingContract</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID3D12SharingContract</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/878442E3-417A-46CE-B91A-698CA3CA60BE">Present</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12sharingcontract-present">Present</a>
 </td>
 <td align="left" width="63%">
 Shares a resource (or subresource) between the D3D layers and diagnostics tools.
@@ -78,7 +78,7 @@ Shares a resource (or subresource) between the D3D layers and diagnostics tools.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E90576A7-B665-4911-A17E-FD328CD71458">SharedFenceSignal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12sharingcontract-sharedfencesignal">SharedFenceSignal</a>
 </td>
 <td align="left" width="63%">
 Signals a shared fence between the D3D layers and diagnostics tools.
@@ -93,11 +93,11 @@ Signals a shared fence between the D3D layers and diagnostics tools.
 
 
 
-<a href="https://msdn.microsoft.com/A9BD5910-8FF2-4540-BB8E-E8EA5C10528C">Core Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

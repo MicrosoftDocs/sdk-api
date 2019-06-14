@@ -108,7 +108,7 @@ If you call the
 <b>GetDSPath</b> method and specify a computer GPO, the method succeeds, but on return, the <i>pszPath</i> parameter contains an empty string. This is because computer GPOs do not have Active Directory storage; they have only file system storage.
 
 To retrieve the file system path to the root of a GPO section, you can call the 
-<a href="https://msdn.microsoft.com/9f0837ff-31bb-4eaa-82e4-ef127f8e605a">GetFileSysPath</a> method.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-getfilesyspath">GetFileSysPath</a> method.
 
 
 
@@ -118,25 +118,25 @@ To retrieve the file system path to the root of a GPO section, you can call the
 
 
 
-<a href="https://msdn.microsoft.com/9f0837ff-31bb-4eaa-82e4-ef127f8e605a">GetFileSysPath</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-getfilesyspath">GetFileSysPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/ecfecaa4-eb6e-4de6-a5fe-ecd0e9df886c">GetPath</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-getpath">GetPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc15a69d-a44d-4731-a9e5-6165abd581c4">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-interfaces">Group Policy
     Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/1285ab5a-ea68-4c16-bc34-8ab2f3cfad35">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/b3cd31a1-c238-4eb2-8164-9c4891e6227b">IGroupPolicyObject</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igrouppolicyobject">IGroupPolicyObject</a>
  
 
  

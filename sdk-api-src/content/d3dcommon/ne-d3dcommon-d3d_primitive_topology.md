@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Values that indicate how the pipeline interprets vertex data that is bound to the <a href="https://msdn.microsoft.com/en-us/library/Bb205116(v=VS.85).aspx">input-assembler stage</a>. These <a href="https://msdn.microsoft.com/en-us/library/Bb205124(v=VS.85).aspx">primitive topology values</a> determine how the vertex data is rendered on screen.
+Values that indicate how the pipeline interprets vertex data that is bound to the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-input-assembler-stage">input-assembler stage</a>. These <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-primitive-topologies">primitive topology values</a> determine how the vertex data is rendered on screen.
 
 
 ## -enum-fields
@@ -531,7 +531,7 @@ Interpret the vertex data as a patch list.
 
 
 
-Use the  <a href="https://msdn.microsoft.com/a9896b34-b273-4be2-bea4-0fcecdf5bcad">ID3D11DeviceContext::IASetPrimitiveTopology</a> method and a value from <b>D3D_PRIMITIVE_TOPOLOGY</b> to bind a primitive topology to the input-assembler stage. Use the  <a href="https://msdn.microsoft.com/99f82993-72c2-47b5-a2fe-16bb1e7bd2e3">ID3D11DeviceContext::IAGetPrimitiveTopology</a> method to retrieve the primitive topology for the input-assembler stage.
+Use the  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-iasetprimitivetopology">ID3D11DeviceContext::IASetPrimitiveTopology</a> method and a value from <b>D3D_PRIMITIVE_TOPOLOGY</b> to bind a primitive topology to the input-assembler stage. Use the  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-iagetprimitivetopology">ID3D11DeviceContext::IAGetPrimitiveTopology</a> method to retrieve the primitive topology for the input-assembler stage.
 
 The following diagram shows the various primitive types for a geometry shader object.
 
@@ -544,7 +544,7 @@ The following diagram shows the various primitive types for a geometry shader ob
 
 
 
-<a href="https://msdn.microsoft.com/002154d5-74a6-48fb-b55f-8687e4505fc7">Common Version Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-common-enumerations">Common Version Enumerations</a>
  
 
  

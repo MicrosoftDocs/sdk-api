@@ -97,15 +97,15 @@ The job's sender information can be retrieved.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684593(v=VS.85).aspx">AvailableOperations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingjob-availableoperations">AvailableOperations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684920(v=VS.85).aspx">IFaxJobStatus::get_AvailableOperations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxjobstatus-availableoperations-vb">IFaxJobStatus::get_AvailableOperations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690257(v=VS.85).aspx">IFaxOutgoingJob::get_AvailableOperations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingjob-availableoperations-vb">IFaxOutgoingJob::get_AvailableOperations</a>
  
 
  

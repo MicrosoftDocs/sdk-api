@@ -61,7 +61,7 @@ The <b>CryptCATPutCatAttrInfo</b> function allocates memory for a catalog file a
 
 ### -param hCatalog [in]
 
-A handle to the catalog obtained from the <a href="https://msdn.microsoft.com/e81f3a3d-d5b7-4266-838d-b83e331c8594">CryptCATOpen</a> or <a href="https://msdn.microsoft.com/e9aedc2d-9492-4ed7-9f2d-891997f85f6f">CryptCATHandleFromStore</a> functions.
+A handle to the catalog obtained from the <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatopen">CryptCATOpen</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcathandlefromstore">CryptCATHandleFromStore</a> functions.
 
 
 ### -param pwszReferenceTag [in]
@@ -118,7 +118,7 @@ The attribute is an ASCII string.
 </dl>
 </td>
 <td width="60%">
-The attribute is a cryptographic <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID).
+The attribute is a cryptographic <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID).
 
 </td>
 </tr>
@@ -173,10 +173,10 @@ A pointer to a memory buffer that contains the attribute value.
 
 
 
-A pointer to a <a href="https://msdn.microsoft.com/41b91303-f3eb-4288-9ad2-98f170680988">CRYPTCATATTRIBUTE</a> structure that contains the catalog attribute. The caller must not free this pointer or any of its members.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute_">CRYPTCATATTRIBUTE</a> structure that contains the catalog attribute. The caller must not free this pointer or any of its members.
 
 
-If this function returns <b>NULL</b>, additional error information can be obtained by calling the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function. <b>GetLastError</b> will return one of the following error codes.
+If this function returns <b>NULL</b>, additional error information can be obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. <b>GetLastError</b> will return one of the following error codes.
 
 
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>NCRYPT_SUPPORTED_LENGTHS</b> structure is used with the <a href="https://msdn.microsoft.com/407f0e42-07c8-4ec6-81c6-f8bde005adb0">NCRYPT_LENGTHS_PROPERTY</a> property to contain length information for a key.
+The <b>NCRYPT_SUPPORTED_LENGTHS</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/SecCNG/key-storage-property-identifiers">NCRYPT_LENGTHS_PROPERTY</a> property to contain length information for a key.
 
 
 ## -struct-fields

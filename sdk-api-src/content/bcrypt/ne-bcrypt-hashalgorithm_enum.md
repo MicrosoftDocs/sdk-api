@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>HASHALGORITHM_ENUM</b> enumeration type specifies signing and hashing algorithms. It is used by the <a href="https://msdn.microsoft.com/E8240DE1-B65F-4DAC-92C9-45725435A0F7">BCRYPT_DSA_KEY_BLOB_V2</a> and <a href="https://msdn.microsoft.com/25FF89D8-1E3E-433B-AC5C-1CADC09A49D0">BCRYPT_DSA_PARAMETER_HEADER_V2</a> structures.
+The <b>HASHALGORITHM_ENUM</b> enumeration type specifies signing and hashing algorithms. It is used by the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_dsa_key_blob_v2">BCRYPT_DSA_KEY_BLOB_V2</a> and <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_dsa_parameter_header_v2">BCRYPT_DSA_PARAMETER_HEADER_V2</a> structures.
 
 
 ## -enum-fields
@@ -77,11 +77,11 @@ Represents a Digital Signature Algorithm (DSA) that uses the Secure Hashing Algo
 
 
 
-<a href="https://msdn.microsoft.com/E8240DE1-B65F-4DAC-92C9-45725435A0F7">BCRYPT_DSA_KEY_BLOB_V2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_dsa_key_blob_v2">BCRYPT_DSA_KEY_BLOB_V2</a>
 
 
 
-<a href="https://msdn.microsoft.com/25FF89D8-1E3E-433B-AC5C-1CADC09A49D0">BCRYPT_DSA_PARAMETER_HEADER_V2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_dsa_parameter_header_v2">BCRYPT_DSA_PARAMETER_HEADER_V2</a>
  
 
  

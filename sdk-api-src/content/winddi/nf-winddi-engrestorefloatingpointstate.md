@@ -59,7 +59,7 @@ The <b>EngRestoreFloatingPointState</b> function restores the Windows 2000 (and 
 
 ### -param pBuffer [in]
 
-Pointer to the buffer whose contents were filled by <a href="https://msdn.microsoft.com/25e9ae3b-a3a5-438c-84e0-53f2be7ba29c">EngSaveFloatingPointState</a>.
+Pointer to the buffer whose contents were filled by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engsavefloatingpointstate">EngSaveFloatingPointState</a>.
 
 
 ## -returns
@@ -79,7 +79,7 @@ The driver must save the current kernel floating-point state before using floati
 
 On every call to the driver, the driver must call <b>EngSaveFloatingPointState</b> once to preserve kernel state before using floating-point or MMX operations. It must also call <b>EngRestoreFloatingPointState</b> once after all floating-point or MMX operations are complete to reset the kernel state.
 
-GDI automatically saves the floating-point state for any calls to a driver's <a href="https://msdn.microsoft.com/7b59dc85-27f4-4529-847e-6027dae8a45a">DrvEscape</a> routine when the escape is OPENGL_CMD, OPENGL_GETINFO, or MCDFUNCS.
+GDI automatically saves the floating-point state for any calls to a driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvescape">DrvEscape</a> routine when the escape is OPENGL_CMD, OPENGL_GETINFO, or MCDFUNCS.
 
 
 
@@ -89,11 +89,11 @@ GDI automatically saves the floating-point state for any calls to a driver's <a 
 
 
 
-<a href="https://msdn.microsoft.com/7b59dc85-27f4-4529-847e-6027dae8a45a">DrvEscape</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvescape">DrvEscape</a>
 
 
 
-<a href="https://msdn.microsoft.com/25e9ae3b-a3a5-438c-84e0-53f2be7ba29c">EngSaveFloatingPointState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engsavefloatingpointstate">EngSaveFloatingPointState</a>
  
 
  

@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 
 Sends a string to the debugger for display.
-<div class="alert"><b>Important</b>  In the past, the operating system did not output Unicode strings via <b>OutputDebugStringW</b> and instead only output ASCII strings. To force <b>OutputDebugStringW</b> to correctly output Unicode strings, debuggers are required to call <a href="https://msdn.microsoft.com/2C79C4BE-9787-415E-AB82-1E33AB92D32F">WaitForDebugEventEx</a> to opt into the new behavior. On calling <b>WaitForDebugEventEx</b>, the operating system will know that the debugger supports Unicode and is specifically opting into receiving Unicode strings. </div><div> </div>
+<div class="alert"><b>Important</b>  In the past, the operating system did not output Unicode strings via <b>OutputDebugStringW</b> and instead only output ASCII strings. To force <b>OutputDebugStringW</b> to correctly output Unicode strings, debuggers are required to call <a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-waitfordebugeventex">WaitForDebugEventEx</a> to opt into the new behavior. On calling <b>WaitForDebugEventEx</b>, the operating system will know that the debugger supports Unicode and is specifically opting into receiving Unicode strings. </div><div> </div>
 
 ## -parameters
 
@@ -90,7 +90,7 @@ If the application has no debugger, the system debugger displays the string if t
 
 <b>OutputDebugStringW</b> converts the specified string based on the current system locale information and passes it to <b>OutputDebugStringA</b> to be displayed.  As a result, some Unicode characters may not be displayed correctly.
 
-Applications should send very minimal debug output and provide a way for the user to enable or disable its use. To provide more detailed tracing, see <a href="https://msdn.microsoft.com/3de69436-671b-46a2-8d92-4eb3af2a4233">Event Tracing</a>.
+Applications should send very minimal debug output and provide a way for the user to enable or disable its use. To provide more detailed tracing, see <a href="https://docs.microsoft.com/windows/desktop/ETW/event-tracing-portal">Event Tracing</a>.
 
 Visual Studio has changed how it handles the display of these strings throughout its revision history.  Refer to the Visual Studio documentation for details of how your version deals with this.
 
@@ -102,11 +102,11 @@ Visual Studio has changed how it handles the display of these strings throughout
 
 
 
-<a href="https://msdn.microsoft.com/d9e1d565-fb76-4d91-8aa7-4ff0ff31f71f">Communicating with the Debugger</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/communicating-with-the-debugger">Communicating with the Debugger</a>
 
 
 
-<a href="https://msdn.microsoft.com/95a838a2-f138-4682-b733-3f363b6c4a4b">Debugging Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/debugging-functions">Debugging Functions</a>
  
 
  

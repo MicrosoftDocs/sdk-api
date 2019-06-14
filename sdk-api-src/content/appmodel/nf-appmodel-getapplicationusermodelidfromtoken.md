@@ -54,7 +54,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the <a href="https://msdn.microsoft.com/15E35DCF-C6C1-446A-B09B-6428F9C8A677">application user model ID</a> for the specified token.
+Gets the <a href="https://docs.microsoft.com/windows/desktop/appxpkg/appx-packaging-glossary">application user model ID</a> for the specified token.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ Gets the <a href="https://msdn.microsoft.com/15E35DCF-C6C1-446A-B09B-6428F9C8A67
 
 ### -param token [in]
 
-A token that contains the application identity. This handle must have the <b>PROCESS_QUERY_LIMITED_INFORMATION</b> access right. For more info, see <a href="https://msdn.microsoft.com/508a17c4-88cd-431a-a102-00180a7f7ab5">Process Security and Access Rights</a>.
+A token that contains the application identity. This handle must have the <b>PROCESS_QUERY_LIMITED_INFORMATION</b> access right. For more info, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
 
 ### -param applicationUserModelIdLength [in, out]
@@ -120,7 +120,7 @@ The buffer is not large enough to hold the data. The required size is specified 
 
 
 
-For info about string size limits, see <a href="https://msdn.microsoft.com/C4F81822-B502-4360-AEA4-829F1AB926BF">Identity constants</a>.
+For info about string size limits, see <a href="https://docs.microsoft.com/windows/desktop/appxpkg/identity-constants">Identity constants</a>.
 
 
 #### Examples

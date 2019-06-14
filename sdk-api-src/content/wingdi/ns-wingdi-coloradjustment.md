@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>COLORADJUSTMENT</b> structure defines the color adjustment values used by the <a href="https://msdn.microsoft.com/5130c88e-08e8-4faa-a1cb-a8106c86cea0">StretchBlt</a> and <a href="https://msdn.microsoft.com/3d57a79a-338d-48ab-8161-3ce17739bf20">StretchDIBits</a> functions when the stretch mode is HALFTONE. You can set the color adjustment values by calling the <a href="https://msdn.microsoft.com/292d6cdc-cafa-438a-9392-a9c22e7d44a5">SetColorAdjustment</a> function.
+The <b>COLORADJUSTMENT</b> structure defines the color adjustment values used by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchblt">StretchBlt</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a> functions when the stretch mode is HALFTONE. You can set the color adjustment values by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setcoloradjustment">SetColorAdjustment</a> function.
 
 
 
@@ -201,35 +201,35 @@ The amount of red or green tint adjustment to be applied to the source object. T
 
 
 
-<a href="https://msdn.microsoft.com/29f8237f-9c7e-41a7-90b1-5f048fcc74a6">Bitmap Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-structures">Bitmap Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/ff0a5ae3-ae2e-4417-b5e5-0f9871c03964">Bitmaps Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/405c0d0d-9433-4f4a-9957-5c42a0fb3a07">GetColorAdjustment
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcoloradjustment">GetColorAdjustment
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/292d6cdc-cafa-438a-9392-a9c22e7d44a5">SetColorAdjustment
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setcoloradjustment">SetColorAdjustment
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/3e5a48dc-ccd5-41ea-a24b-5c40213abf38">SetStretchBltMode
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setstretchbltmode">SetStretchBltMode
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/5130c88e-08e8-4faa-a1cb-a8106c86cea0">StretchBlt
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchblt">StretchBlt
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/3d57a79a-338d-48ab-8161-3ce17739bf20">StretchDIBits
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits
       </a>
  
 

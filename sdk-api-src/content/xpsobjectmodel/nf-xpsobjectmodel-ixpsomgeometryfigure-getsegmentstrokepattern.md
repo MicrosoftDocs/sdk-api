@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the <a href="https://msdn.microsoft.com/en-us/library/Dd372983(v=VS.85).aspx">XPS_SEGMENT_STROKE_PATTERN</a> value that indicates whether the segments in the figure are stroked.
+Gets the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0012">XPS_SEGMENT_STROKE_PATTERN</a> value that indicates whether the segments in the figure are stroked.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets the <a href="https://msdn.microsoft.com/en-us/library/Dd372983(v=VS.85).asp
 
 ### -param segmentStrokePattern [out, retval]
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd372983(v=VS.85).aspx">XPS_SEGMENT_STROKE_PATTERN</a> value that indicates whether the segments in the figure are stroked.
+The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0012">XPS_SEGMENT_STROKE_PATTERN</a> value that indicates whether the segments in the figure are stroked.
 
 
 ## -returns
@@ -106,7 +106,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/e76a14ce-cfc3-4a50-855e-f5779b9fc261">IXpsOMGeometryFigure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometryfigure">IXpsOMGeometryFigure</a>
 
 
 
@@ -114,7 +114,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd372983(v=VS.85).aspx">XPS_SEGMENT_STROKE_PATTERN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0012">XPS_SEGMENT_STROKE_PATTERN</a>
  
 
  

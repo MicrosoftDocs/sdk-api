@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the properties of an iSCSI initiator portal.
 
@@ -80,15 +80,15 @@ The port index assigned to the portal by the iSCSI initiator service.
 
 
 
-<a href="https://msdn.microsoft.com/7bf00853-ca26-40b4-a09a-dcb5e7e08f49">IVdsIscsiInitiatorPortal::GetProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsiscsiinitiatorportal-getproperties">IVdsIscsiInitiatorPortal::GetProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a13f5eb-0fa1-48e2-a112-b2254ca28423">VDS Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-structures">VDS Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/42e8b161-5e47-4aae-aa23-94b5cacb5698">VDS_IPADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_ipaddress">VDS_IPADDRESS</a>
  
 
  

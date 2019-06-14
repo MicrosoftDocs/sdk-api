@@ -103,7 +103,7 @@ The <i>localeName</i> pointer must remain valid until the next call or until the
 
 
 
-<a href="https://msdn.microsoft.com/7e2a523d-9191-4f99-9e73-a7955c432126">IDWriteTextAnalysisSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextanalysissource">IDWriteTextAnalysisSource</a>
  
 
  

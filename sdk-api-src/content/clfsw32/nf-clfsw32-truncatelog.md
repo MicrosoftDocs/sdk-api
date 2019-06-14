@@ -59,12 +59,12 @@ Truncates the log. The function sets the end of the log to the specified value.
 
 ### -param pvMarshal [in]
 
-A pointer to the opaque marshaling context that is allocated by calling the <a href="https://msdn.microsoft.com/750c0615-bfac-402b-a590-6c9d800cf2d8">CreateLogMarshallingArea</a> function.
+A pointer to the opaque marshaling context that is allocated by calling the <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogmarshallingarea">CreateLogMarshallingArea</a> function.
 
 
 ### -param plsnEnd [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a> structure that specifies the new end of a log.  
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_lsn">CLFS_LSN</a> structure that specifies the new end of a log.  
 
 The LSN must be between the base log sequence number (LSN) of the log and the last LSN of the log. 
 
@@ -84,7 +84,7 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. The following  list identifies the  possible error codes:
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following  list identifies the  possible error codes:
 
 
 
@@ -103,15 +103,15 @@ If the volume sector size is greater than 512 bytes, <b>TruncateLog</b> returns 
 
 
 
-<a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_lsn">CLFS_LSN</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3059828-d291-493d-a4fe-13d06e49ed12">Common Log File System Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
  
 
  

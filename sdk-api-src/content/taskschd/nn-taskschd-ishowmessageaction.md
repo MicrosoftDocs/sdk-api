@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[This interface is no longer supported.  You can use IExecAction with the Windows scripting <a href="https://msdn.microsoft.com/library/sfw6660x(v=VS.85).aspx">MsgBox function</a> to show a message in the user session.]
+<p class="CCE_Message">[This interface is no longer supported.  You can use IExecAction with the Windows scripting <a href="https://docs.microsoft.com/previous-versions//sfw6660x(v=vs.85)">MsgBox function</a> to show a message in the user session.]
 
 Represents an action that shows a message  box when a task is activated.
 
@@ -58,14 +58,14 @@ Represents an action that shows a message  box when a task is activated.
 
 
 
-For a task, that contains a message box action, the message box will be displayed if the task is activated and the task has an interactive logon type.  To set the task logon type to be interactive, specify <b>TASK_LOGON_INTERACTIVE_TOKEN</b> or  <b>TASK_LOGON_GROUP</b> in the <a href="https://msdn.microsoft.com/cf0a8ad4-f1bb-46a2-ae92-d00e08b8d459">LogonType</a> property of the task principal, or in the <i>logonType</i> parameter of <a href="https://msdn.microsoft.com/743e5bd9-3fb6-4e09-96ed-ca2d74fa0bab">ITaskFolder::RegisterTask</a> or <a href="https://msdn.microsoft.com/a94db861-b24e-476a-810d-2cf3bbfc67d1">ITaskFolder::RegisterTaskDefinition</a>. 
+For a task, that contains a message box action, the message box will be displayed if the task is activated and the task has an interactive logon type.  To set the task logon type to be interactive, specify <b>TASK_LOGON_INTERACTIVE_TOKEN</b> or  <b>TASK_LOGON_GROUP</b> in the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_logontype">LogonType</a> property of the task principal, or in the <i>logonType</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertask">ITaskFolder::RegisterTask</a> or <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertaskdefinition">ITaskFolder::RegisterTaskDefinition</a>. 
 
-When reading or writing your own XML for a task, a message box action is specified using the <a href="https://msdn.microsoft.com/33c6e437-b993-4b5e-b75a-fb3fda9b24df">ShowMessage</a> element of the Task Scheduler schema.
+When reading or writing your own XML for a task, a message box action is specified using the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-showmessage-actiongroup-element">ShowMessage</a> element of the Task Scheduler schema.
 
 
 #### Examples
 
-For more information and example code for this interface, see <a href="https://msdn.microsoft.com/8c757459-5d23-4359-8c4f-772ef3bde3fc">Message Box Example (C++)</a>.
+For more information and example code for this interface, see <a href="https://docs.microsoft.com/previous-versions//aa381915(v=vs.85)">Message Box Example (C++)</a>.
 
 
 
@@ -78,7 +78,7 @@ For more information and example code for this interface, see <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/50d60cf0-642a-43fe-9163-51740e75fa8d">IAction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iaction">IAction</a>
  
 
  

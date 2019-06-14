@@ -60,7 +60,7 @@ Returns the next user-mode scheduling (UMS) thread context in a list of thread c
 
 ### -param UmsContext [in, out]
 
-A pointer to a UMS context in a list of thread contexts. This list is retrieved by the <a href="https://msdn.microsoft.com/91499eb9-9fc5-4135-95f6-1bced78f1e07">DequeueUmsCompletionListItems</a> function. 
+A pointer to a UMS context in a list of thread contexts. This list is retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-dequeueumscompletionlistitems">DequeueUmsCompletionListItems</a> function. 
 
 
 ## -returns
@@ -69,7 +69,7 @@ A pointer to a UMS context in a list of thread contexts. This list is retrieved 
 
 If the function succeeds, it returns a pointer to the next thread context in the list.
 
-If there is no thread context after the context specified by the <i>UmsContext</i> parameter,  the function returns NULL. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If there is no thread context after the context specified by the <i>UmsContext</i> parameter,  the function returns NULL. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -79,7 +79,7 @@ If there is no thread context after the context specified by the <i>UmsContext</
 
 
 
-<a href="https://msdn.microsoft.com/91499eb9-9fc5-4135-95f6-1bced78f1e07">DequeueUmsCompletionListItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-dequeueumscompletionlistitems">DequeueUmsCompletionListItems</a>
  
 
  

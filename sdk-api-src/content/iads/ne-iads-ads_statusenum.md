@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ADS_STATUSENUM</b> enumeration specifies the status of a search preference set with the <a href="https://msdn.microsoft.com/1c5b3f72-6165-41ad-99d4-d68bc12ac10b">IDirectorySearch::SetSearchPreference</a> method.
+The <b>ADS_STATUSENUM</b> enumeration specifies the status of a search preference set with the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference">IDirectorySearch::SetSearchPreference</a> method.
 
 
 ## -enum-fields
@@ -64,28 +64,28 @@ The search preference was set successfully.
 
 ### -field ADS_STATUS_INVALID_SEARCHPREF
 
-The search preference specified in the <b>dwSearchPref</b> member of the  <a href="https://msdn.microsoft.com/5fc46271-a1be-4a9d-a340-ed801211736a">ADS_SEARCHPREF_INFO</a> structure is invalid. Search preferences must be taken from the  <a href="https://msdn.microsoft.com/f3ab3d53-e53c-459e-929f-f2a3fc95c3ff">ADS_SEARCHPREF_ENUM</a> enumeration.
+The search preference specified in the <b>dwSearchPref</b> member of the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_searchpref_info">ADS_SEARCHPREF_INFO</a> structure is invalid. Search preferences must be taken from the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0025">ADS_SEARCHPREF_ENUM</a> enumeration.
 
 
 ### -field ADS_STATUS_INVALID_SEARCHPREFVALUE
 
-The value specified in the <b>vValue</b> member of the <a href="https://msdn.microsoft.com/5fc46271-a1be-4a9d-a340-ed801211736a">ADS_SEARCHPREF_INFO</a> structure is invalid for the corresponding search preference.
+The value specified in the <b>vValue</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_searchpref_info">ADS_SEARCHPREF_INFO</a> structure is invalid for the corresponding search preference.
 
 
 ## -remarks
 
 
 
-The  <a href="https://msdn.microsoft.com/1c5b3f72-6165-41ad-99d4-d68bc12ac10b">IDirectorySearch::SetSearchPreference</a> method sets the <b>dwStatus</b> member <a href="https://msdn.microsoft.com/5fc46271-a1be-4a9d-a340-ed801211736a">ADS_SEARCHPREF_INFO</a> structure to one of the <b>ADS_STATUSENUM</b> values to indicate the status of the corresponding search preference. Callers can use this status value to decide whether to execute a search.
+The  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference">IDirectorySearch::SetSearchPreference</a> method sets the <b>dwStatus</b> member <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_searchpref_info">ADS_SEARCHPREF_INFO</a> structure to one of the <b>ADS_STATUSENUM</b> values to indicate the status of the corresponding search preference. Callers can use this status value to decide whether to execute a search.
 
-The <b>ADS_STATUS_INVALID_SEARCHPREF</b> status value may be set if you set a valid search preference, but that preference is not supported. For example, if you set <b>ADS_SEARCHPREF_SORT_ON</b>, but the server you communicate with does not support the LDAP server-side sort control, the <b>dwStatus</b> member of the  <a href="https://msdn.microsoft.com/5fc46271-a1be-4a9d-a340-ed801211736a">ADS_SEARCHPREF_INFO</a> structure is set to <b>ADS_STATUS_INVALID_SEARCHPREF</b> by the <a href="https://msdn.microsoft.com/1c5b3f72-6165-41ad-99d4-d68bc12ac10b">IDirectorySearch::SetSearchPreference</a> call.
+The <b>ADS_STATUS_INVALID_SEARCHPREF</b> status value may be set if you set a valid search preference, but that preference is not supported. For example, if you set <b>ADS_SEARCHPREF_SORT_ON</b>, but the server you communicate with does not support the LDAP server-side sort control, the <b>dwStatus</b> member of the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_searchpref_info">ADS_SEARCHPREF_INFO</a> structure is set to <b>ADS_STATUS_INVALID_SEARCHPREF</b> by the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference">IDirectorySearch::SetSearchPreference</a> call.
 
 <div class="alert"><b>Note</b>  Because VBScript cannot read data from a type library, VBScript applications do not recognize the symbolic constants as defined above. You should use the numeric constants instead to set the appropriate flags in your VBScript applications. To use the symbolic constants as a good programming practice, write explicit declarations of such constants, as done in the following code example.</div>
 <div> </div>
 
 #### Examples
 
-The following code example shows how to use the <b>ADS_STATUSENUM</b> enumeration with the <a href="https://msdn.microsoft.com/1c5b3f72-6165-41ad-99d4-d68bc12ac10b">IDirectorySearch::SetSearchPreference</a> method to determine the status of a search preference.
+The following code example shows how to use the <b>ADS_STATUSENUM</b> enumeration with the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference">IDirectorySearch::SetSearchPreference</a> method to determine the status of a search preference.
 
 
 ```cpp
@@ -133,20 +133,20 @@ HRESULT SetAndCheckSearchTimeout(IDirectorySearch *pSearch,
 
 
 
-<a href="https://msdn.microsoft.com/f0ad5ce5-742d-40dc-ac5a-31d779e40bfd">ADSI
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-enumerations">ADSI
     Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/f3ab3d53-e53c-459e-929f-f2a3fc95c3ff">ADS_SEARCHPREF_ENUM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0025">ADS_SEARCHPREF_ENUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/5fc46271-a1be-4a9d-a340-ed801211736a">ADS_SEARCHPREF_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_searchpref_info">ADS_SEARCHPREF_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/1c5b3f72-6165-41ad-99d4-d68bc12ac10b">IDirectorySearch::SetSearchPreference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference">IDirectorySearch::SetSearchPreference</a>
  
 
  

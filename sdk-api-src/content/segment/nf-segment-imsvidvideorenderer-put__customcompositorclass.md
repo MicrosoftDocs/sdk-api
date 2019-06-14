@@ -75,7 +75,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-Applications can provide their own compositors to perform custom image compositing. For more information, see <a href="https://msdn.microsoft.com/3d0fdfac-ec7e-4e02-886b-2039c607dac7">Using the Video Mixing Renderer</a>.
+Applications can provide their own compositors to perform custom image compositing. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>.
 
 
 
@@ -85,15 +85,15 @@ Applications can provide their own compositors to perform custom image compositi
 
 
 
-<a href="https://msdn.microsoft.com/27eb53f8-ece8-43eb-8f94-b3d2d91548ad">IMSVidVideoRenderer Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694746(v=VS.85).aspx">IMSVidVideoRenderer::get__CustomCompositorClass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get__customcompositorclass">IMSVidVideoRenderer::get__CustomCompositorClass</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694757(v=VS.85).aspx">IMSVidVideoRenderer::put__CustomCompositor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put__customcompositor">IMSVidVideoRenderer::put__CustomCompositor</a>
  
 
  

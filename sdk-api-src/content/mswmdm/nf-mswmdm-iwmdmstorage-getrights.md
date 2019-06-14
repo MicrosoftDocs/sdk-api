@@ -63,7 +63,7 @@ The <b>GetRights</b> method retrieves rights information for a licensed storage.
 
 ### -param ppRights [out]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/1be9167b-0d20-4a17-a42b-9696ada2b539">WMDMRIGHTS</a> structures that contain the storage rights. This parameter is included in the message authentication code. Windows Media Device Manager allocates this memory, and the application must release it with <b>CoTaskMemFree</b>.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/WMDM/wmdmrights">WMDMRIGHTS</a> structures that contain the storage rights. This parameter is included in the message authentication code. Windows Media Device Manager allocates this memory, and the application must release it with <b>CoTaskMemFree</b>.
 
 
 ### -param pnRightsCount [out]
@@ -87,7 +87,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 
 
@@ -100,7 +100,7 @@ Object rights describe the usage permissions for digital media content. For exam
 
 The <i>ppRights</i> array is allocated by this method, and must be freed by the application using <b>CoTaskMemFree</b>, a standard Win32 function.
 
-To receive progress events for this call, use <a href="https://msdn.microsoft.com/63df4448-75f0-4152-a308-15f6f10e8564">IWMDMStorage4::GetRightsWithProgress</a>.
+To receive progress events for this call, use <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage4-getrightswithprogress">IWMDMStorage4::GetRightsWithProgress</a>.
 
 After calling this method, an application can calculate the message authentication code (MAC) values of parameters and compare them with output MAC values to ensure that the parameters have not been tampered with. The following example code shows one way to do this.
 
@@ -147,15 +147,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/1ede7c68-0169-4375-9b45-b0995ad14e44">IWMDMStorage Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/ca4ab93c-0a3e-4fb5-be7f-a8f4eea3c9b7">Using Secure Authenticated Channels</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>
 
 
 
-<a href="https://msdn.microsoft.com/1be9167b-0d20-4a17-a42b-9696ada2b539">WMDMRIGHTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/wmdmrights">WMDMRIGHTS</a>
  
 
  

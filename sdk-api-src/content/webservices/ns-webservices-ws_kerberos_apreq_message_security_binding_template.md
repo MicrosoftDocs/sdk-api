@@ -54,7 +54,7 @@ The security binding template for specifying the use of the Kerberos
         security token with WS-Security.
       
 
-See also <a href="https://msdn.microsoft.com/en-us/library/Dd401944(v=VS.85).aspx">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a>
+See also <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a>
 
 
 

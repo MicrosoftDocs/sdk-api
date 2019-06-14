@@ -66,7 +66,7 @@ A handle to the device context.
 
 ### -param lpxf [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/49f0d7ee-77fa-415e-af00-b8930253a3a9">XFORM</a> structure used to modify the world transformation for the given device context.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagxform">XFORM</a> structure used to modify the world transformation for the given device context.
 
 
 ### -param mode [in]
@@ -84,7 +84,7 @@ Specifies how the transformation data modifies the current world transformation.
 </dl>
 </td>
 <td width="60%">
-Resets the current world transformation by using the identity matrix. If this mode is specified, the <a href="https://msdn.microsoft.com/49f0d7ee-77fa-415e-af00-b8930253a3a9">XFORM</a> structure pointed to by <i>lpXform</i> is ignored.
+Resets the current world transformation by using the identity matrix. If this mode is specified, the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagxform">XFORM</a> structure pointed to by <i>lpXform</i> is ignored.
 
 </td>
 </tr>
@@ -94,7 +94,7 @@ Resets the current world transformation by using the identity matrix. If this mo
 </dl>
 </td>
 <td width="60%">
-Multiplies the current transformation by the data in the <a href="https://msdn.microsoft.com/49f0d7ee-77fa-415e-af00-b8930253a3a9">XFORM</a> structure. (The data in the <b>XFORM</b> structure becomes the left multiplicand, and the data for the current transformation becomes the right multiplicand.)
+Multiplies the current transformation by the data in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagxform">XFORM</a> structure. (The data in the <b>XFORM</b> structure becomes the left multiplicand, and the data for the current transformation becomes the right multiplicand.)
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ Multiplies the current transformation by the data in the <a href="https://msdn.m
 </dl>
 </td>
 <td width="60%">
-Multiplies the current transformation by the data in the <a href="https://msdn.microsoft.com/49f0d7ee-77fa-415e-af00-b8930253a3a9">XFORM</a> structure. (The data in the <b>XFORM</b> structure becomes the right multiplicand, and the data for the current transformation becomes the left multiplicand.)
+Multiplies the current transformation by the data in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagxform">XFORM</a> structure. (The data in the <b>XFORM</b> structure becomes the right multiplicand, and the data for the current transformation becomes the left multiplicand.)
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ If the function fails, the return value is zero.
 
 
 
-The <b>ModifyWorldTransform</b> function will fail unless graphics mode for the specified device context has been set to GM_ADVANCED by previously calling the <a href="https://msdn.microsoft.com/73824a14-2951-45a2-98cd-156418c59a2d">SetGraphicsMode</a> function. Likewise, it will not be possible to reset the graphics mode for the device context to the default GM_COMPATIBLE mode, unless world transform has first been reset to the default identity transform by calling <a href="https://msdn.microsoft.com/d103a4dd-949e-4f18-ac90-bb0e51011233">SetWorldTransform</a> or <b>ModifyWorldTransform</b>.
+The <b>ModifyWorldTransform</b> function will fail unless graphics mode for the specified device context has been set to GM_ADVANCED by previously calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setgraphicsmode">SetGraphicsMode</a> function. Likewise, it will not be possible to reset the graphics mode for the device context to the default GM_COMPATIBLE mode, unless world transform has first been reset to the default identity transform by calling <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setworldtransform">SetWorldTransform</a> or <b>ModifyWorldTransform</b>.
 
 
 
@@ -137,27 +137,27 @@ The <b>ModifyWorldTransform</b> function will fail unless graphics mode for the 
 
 
 
-<a href="https://msdn.microsoft.com/3ebcabf2-9718-47b2-aba0-7cc28fa42e5a">Coordinate Space and Transformation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/coordinate-space-and-transformation-functions">Coordinate Space and Transformation Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/cfb02788-9b73-4451-9e68-2ad310e0e527">Coordinate Spaces and Transformations Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/coordinate-spaces-and-transformations">Coordinate Spaces and Transformations Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/72945b1e-144e-4724-bf08-6f971f8adb43">GetWorldTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getworldtransform">GetWorldTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/73824a14-2951-45a2-98cd-156418c59a2d">SetGraphicsMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setgraphicsmode">SetGraphicsMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/d103a4dd-949e-4f18-ac90-bb0e51011233">SetWorldTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setworldtransform">SetWorldTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/49f0d7ee-77fa-415e-af00-b8930253a3a9">XFORM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagxform">XFORM</a>
  
 
  

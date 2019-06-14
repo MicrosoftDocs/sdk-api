@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the height of items in a list box. If the list box has the <a href="https://msdn.microsoft.com/en-us/library/Bb775149(v=VS.85).aspx">LBS_OWNERDRAWVARIABLE</a> style, this macro gets the height of the specified item; otherwise, it gets the height of all items. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775204(v=VS.85).aspx">LB_GETITEMHEIGHT</a> message explicitly.
+Retrieves the height of items in a list box. If the list box has the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-box-styles">LBS_OWNERDRAWVARIABLE</a> style, this macro gets the height of the specified item; otherwise, it gets the height of all items. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-getitemheight">LB_GETITEMHEIGHT</a> message explicitly.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Retrieves the height of items in a list box. If the list box has the <a href="ht
 
 ### -param hwndCtl
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -68,14 +68,14 @@ A handle to the control.
 
 Type: <b>int</b>
 
-The zero-based index of the item. If the list box does not have the <a href="https://msdn.microsoft.com/en-us/library/Bb775149(v=VS.85).aspx">LBS_OWNERDRAWVARIABLE</a> style, set this parameter to zero. 
+The zero-based index of the item. If the list box does not have the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-box-styles">LBS_OWNERDRAWVARIABLE</a> style, set this parameter to zero. 
 
 
 ## -remarks
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775204(v=VS.85).aspx">LB_GETITEMHEIGHT</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-getitemheight">LB_GETITEMHEIGHT</a>.
 	
 
 

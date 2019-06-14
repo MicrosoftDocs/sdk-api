@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the minimum and maximum allowable dates for a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761012(v=VS.85).aspx">MCM_SETRANGE</a> message explicitly. 
+Sets the minimum and maximum allowable dates for a month calendar control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcm-setrange">MCM_SETRANGE</a> message explicitly. 
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Sets the minimum and maximum allowable dates for a month calendar control. You c
 
 ### -param hmc
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a month calendar control. 
 
 
 ### -param gd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Flag values that specify which date limits are being set. This value must be one or both of the following: 
 
@@ -81,7 +81,7 @@ Flag values that specify which date limits are being set. This value must be one
 </dl>
 </td>
 <td width="60%">
-The maximum allowable date is being set. The <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure at <i>lprgSysTimeArray</i>[1] must contain date information. 
+The maximum allowable date is being set. The <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure at <i>lprgSysTimeArray</i>[1] must contain date information. 
 
 </td>
 </tr>
@@ -91,7 +91,7 @@ The maximum allowable date is being set. The <a href="https://msdn.microsoft.com
 </dl>
 </td>
 <td width="60%">
-The minimum allowable date is being set. The <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure at <i>lprgSysTimeArray</i>[0] must contain date information. 
+The minimum allowable date is being set. The <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure at <i>lprgSysTimeArray</i>[0] must contain date information. 
 
 </td>
 </tr>
@@ -103,5 +103,5 @@ The minimum allowable date is being set. The <a href="https://msdn.microsoft.com
 
 Type: <b>LPSYSTEMTIME</b>
 
-Pointer to a two-element array of <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structures that contain the date limits. The maximum limit must be in <i>lprgSysTimeArray</i>[1] if GDTR_MAX is specified, and <i>lprgSysTimeArray</i>[0] must contain the minimum limit if GDTR_MIN is specified. 
+Pointer to a two-element array of <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structures that contain the date limits. The maximum limit must be in <i>lprgSysTimeArray</i>[1] if GDTR_MAX is specified, and <i>lprgSysTimeArray</i>[0] must contain the minimum limit if GDTR_MIN is specified. 
 

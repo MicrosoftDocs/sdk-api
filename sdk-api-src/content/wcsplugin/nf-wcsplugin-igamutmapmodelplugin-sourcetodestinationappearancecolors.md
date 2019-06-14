@@ -88,11 +88,11 @@ If this function fails, the return value is E_FAIL.
 
 
 
-<a href="https://msdn.microsoft.com/a0623917-0b63-4546-a71a-1e9efa9fe8e5">Basic Color Management Concepts</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
 
 
 
-<a href="https://msdn.microsoft.com/794eb94c-fdb3-42b3-8320-b13bf51324d1">IGamutMapModelPlugIn</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcsplugin/nn-wcsplugin-igamutmapmodelplugin">IGamutMapModelPlugIn</a>
  
 
  

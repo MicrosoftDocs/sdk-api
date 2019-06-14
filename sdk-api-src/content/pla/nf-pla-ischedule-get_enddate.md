@@ -75,11 +75,11 @@ The set cannot be started after the end date, but if the set is running when the
 
 
 
-<a href="https://msdn.microsoft.com/b02043c6-5010-45a1-a4a4-ce30cbf0dba0">ISchedule</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ischedule">ISchedule</a>
 
 
 
-<a href="https://msdn.microsoft.com/1bb90c84-0249-4714-9371-d2aed2922d9b">ISchedule::StartDate</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ischedule-get_startdate">ISchedule::StartDate</a>
  
 
  

@@ -51,14 +51,14 @@ ms.custom: 19H1
 
 
 
-The <code>IVMRImageCompositor9</code> interface is implemented by the default compositor for the <a href="https://msdn.microsoft.com/3885cca2-74b1-4066-8ecb-84c9841f9e66">Video Mixing Renderer Filter 9</a> (VMR-9). It must also be implemented by any plug-in compositor that an application provides for the VMR-9. The VMR-9 calls the methods on this interface to inform the compositor that it should composite the incoming video frames into a single output frame. Applications do not use this interface.
+The <code>IVMRImageCompositor9</code> interface is implemented by the default compositor for the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-9">Video Mixing Renderer Filter 9</a> (VMR-9). It must also be implemented by any plug-in compositor that an application provides for the VMR-9. The VMR-9 calls the methods on this interface to inform the compositor that it should composite the incoming video frames into a single output frame. Applications do not use this interface.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRImageCompositor9</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IVMRImageCompositor9</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRImageCompositor9</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRImageCompositor9</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IVMRImageCompositor9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377382(v=VS.85).aspx">CompositeImage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrimagecompositor9-compositeimage">CompositeImage</a>
 </td>
 <td align="left" width="63%">
 Composites the current frames available in each input stream.
@@ -82,7 +82,7 @@ Composites the current frames available in each input stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377383(v=VS.85).aspx">InitCompositionDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrimagecompositor9-initcompositiondevice">InitCompositionDevice</a>
 </td>
 <td align="left" width="63%">
 Informs the compositor that a new composition target has been created.
@@ -91,7 +91,7 @@ Informs the compositor that a new composition target has been created.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377384(v=VS.85).aspx">SetStreamMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrimagecompositor9-setstreammediatype">SetStreamMediaType</a>
 </td>
 <td align="left" width="63%">
 Sets the media type for the input stream.
@@ -100,7 +100,7 @@ Sets the media type for the input stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377385(v=VS.85).aspx">TermCompositionDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrimagecompositor9-termcompositiondevice">TermCompositionDevice</a>
 </td>
 <td align="left" width="63%">
 Informs the compositor that the current composition target is being replaced.
@@ -124,7 +124,7 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/3d0fdfac-ec7e-4e02-886b-2039c607dac7">Using the Video Mixing Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
  
 
  

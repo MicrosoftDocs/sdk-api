@@ -61,7 +61,7 @@ The <b>ADsGetObject</b> function binds to an object given its path and a specifi
 
 Type: <b>LPCWSTR</b>
 
-The null-terminated Unicode string that specifies the path  used to bind to the object in the underlying directory service. For more information and code examples for binding strings for this parameter, see  <a href="https://msdn.microsoft.com/adacf6af-8683-4c3c-91bf-9489f2d5d817">LDAP ADsPath</a> and  <a href="https://msdn.microsoft.com/0fad4b34-5287-43a0-a172-a08955b8b132">WinNT ADsPath</a>.
+The null-terminated Unicode string that specifies the path  used to bind to the object in the underlying directory service. For more information and code examples for binding strings for this parameter, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/ldap-adspath">LDAP ADsPath</a> and  <a href="https://docs.microsoft.com/windows/desktop/ADSI/winnt-adspath">WinNT ADsPath</a>.
 
 
 ### -param riid [in]
@@ -86,7 +86,7 @@ Type: <b>HRESULT</b>
 
 This method supports the standard <b>HRESULT</b> return values, as well as the following.
 
-For more information about other return values, see  <a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>.
+For more information about other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 
 
@@ -95,11 +95,11 @@ For more information about other return values, see  <a href="https://msdn.micro
 
 
 
-A C/C++ client calls the <b>ADsGetObject</b> helper function to bind to an ADSI object. It is equivalent to a Visual Basic client calling the <a href="https://msdn.microsoft.com/15d8116a-8ec1-48b5-bf62-411fdff7c8b8">GetObject</a> function. They both take an ADsPath as input and returns a pointer to the requested interface. By default the binding uses ADS_SECURE_AUTHENTICATION option with the security context of the calling thread. However, if the authentication fails, the secure bind is downgraded to an anonymous bind, for example, a simple bind without user credentials. To securely bind to an ADSI object, use the <a href="https://msdn.microsoft.com/c4b85d8e-b33b-47a4-b7d7-5f901f80dce9">ADsOpenObject</a> function instead of the  <b>ADsGetObject</b> function.
+A C/C++ client calls the <b>ADsGetObject</b> helper function to bind to an ADSI object. It is equivalent to a Visual Basic client calling the <a href="https://docs.microsoft.com/windows/desktop/ADSI/binding-with-getobject-and-adsgetobject">GetObject</a> function. They both take an ADsPath as input and returns a pointer to the requested interface. By default the binding uses ADS_SECURE_AUTHENTICATION option with the security context of the calling thread. However, if the authentication fails, the secure bind is downgraded to an anonymous bind, for example, a simple bind without user credentials. To securely bind to an ADSI object, use the <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a> function instead of the  <b>ADsGetObject</b> function.
 
-For a code example that shows how to use <a href="https://msdn.microsoft.com/c4b85d8e-b33b-47a4-b7d7-5f901f80dce9">ADsOpenObject</a>, see <a href="https://msdn.microsoft.com/15d8116a-8ec1-48b5-bf62-411fdff7c8b8">Binding With GetObject and ADsGetObject</a>.
+For a code example that shows how to use <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a>, see <a href="https://docs.microsoft.com/windows/desktop/ADSI/binding-with-getobject-and-adsgetobject">Binding With GetObject and ADsGetObject</a>.
 
-It is possible to bind to an ADSI object with a user credential different from that of the currently logged-on user. To perform this operation, use the   <a href="https://msdn.microsoft.com/c4b85d8e-b33b-47a4-b7d7-5f901f80dce9">ADsOpenObject</a> function.
+It is possible to bind to an ADSI object with a user credential different from that of the currently logged-on user. To perform this operation, use the   <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a> function.
 
 
 
@@ -109,19 +109,19 @@ It is possible to bind to an ADSI object with a user credential different from t
 
 
 
-<a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/4f0e90e2-afcc-4cf7-a731-9b38a83ca229">ADSI Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-functions">ADSI Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4b85d8e-b33b-47a4-b7d7-5f901f80dce9">ADsOpenObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/15d8116a-8ec1-48b5-bf62-411fdff7c8b8">Binding With GetObject and ADsGetObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/binding-with-getobject-and-adsgetobject">Binding With GetObject and ADsGetObject</a>
  
 
  

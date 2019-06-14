@@ -50,8 +50,8 @@ ms.custom: 19H1
 
 
 The <b>CertFindExtension</b> function finds the first extension in the 
-<a href="https://msdn.microsoft.com/787a4df0-c0e3-46b9-a7e6-eb3bee3ed717">CERT_EXTENSION</a> array, as identified by its <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID). This function can be used in the processing of a decoded certificate. A 
-<a href="https://msdn.microsoft.com/8d0a3053-52d4-437a-bf55-6724b5825cdc">CERT_INFO</a> structure is derived from a decoded certificate. The <b>CERT_INFO</b> structure's <b>rgExtension</b> member is  passed to <b>CertFindExtension</b> in the <i>rgExtensions</i> parameter. This function determines whether a particular extension is in the array, and if so, returns a pointer to it
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_extension">CERT_EXTENSION</a> array, as identified by its <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID). This function can be used in the processing of a decoded certificate. A 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info">CERT_INFO</a> structure is derived from a decoded certificate. The <b>CERT_INFO</b> structure's <b>rgExtension</b> member is  passed to <b>CertFindExtension</b> in the <i>rgExtensions</i> parameter. This function determines whether a particular extension is in the array, and if so, returns a pointer to it
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>CertFindExtension</b> function finds the first extension in the
 
 ### -param pszObjId [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) to use in the search.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) to use in the search.
 
 
 ### -param cExtensions [in]
@@ -72,7 +72,7 @@ Number of extensions in the <i>rgExtensions</i> array.
 ### -param rgExtensions [in]
 
 Array of 
-<a href="https://msdn.microsoft.com/787a4df0-c0e3-46b9-a7e6-eb3bee3ed717">CERT_EXTENSION</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_extension">CERT_EXTENSION</a> structures.
 
 
 ## -returns
@@ -89,15 +89,15 @@ Returns a pointer to the extension, if one is found. Otherwise, <b>NULL</b> is r
 
 
 
-<a href="https://msdn.microsoft.com/99d690fb-ea85-4cb1-9fb0-bdb02e4ac50a">CertFindAttribute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindattribute">CertFindAttribute</a>
 
 
 
-<a href="https://msdn.microsoft.com/31f82a02-e90a-48de-857a-9fbb03048b5c">CertFindRDNAttr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindrdnattr">CertFindRDNAttr</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>
  
 
  

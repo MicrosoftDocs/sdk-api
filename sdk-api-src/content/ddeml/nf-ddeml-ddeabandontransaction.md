@@ -61,7 +61,7 @@ Abandons the specified asynchronous transaction and releases all resources assoc
 
 Type: <b>DWORD</b>
 
-The application instance identifier obtained by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/ms648757(v=VS.85).aspx">DdeInitialize</a> function. 
+The application instance identifier obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a> function. 
 
 
 ### -param hConv [in]
@@ -89,7 +89,7 @@ If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. 
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms648755(v=VS.85).aspx">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values: 
+The <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddegetlasterror">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values: 
 
 
 
@@ -112,19 +112,19 @@ Only a Dynamic Data Exchange (DDE) client application should call <b>DdeAbandonT
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648743(v=VS.85).aspx">DdeClientTransaction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeclienttransaction">DdeClientTransaction</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648757(v=VS.85).aspx">DdeInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648761(v=VS.85).aspx">DdeQueryConvInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddequeryconvinfo">DdeQueryConvInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a>
 
 
 

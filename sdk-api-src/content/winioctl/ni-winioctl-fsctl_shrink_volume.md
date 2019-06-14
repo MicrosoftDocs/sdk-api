@@ -51,7 +51,7 @@ req.redist:
 Signals that the volume is to be prepared to perform the shrink operation, the shrink operation is to be committed, or the shrink operation is to be terminated.
 
 To perform this operation, call the 
-   <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
+   <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
    function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -155,11 +155,11 @@ To complete a shrink operation, you must:
 
 
 <ol>
-<li>Call <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> to open a handle to the volume.</li>
-<li>Call <b>FSCTL_SHRINK_VOLUME</b>. Set the <b>ShrinkRequestType</b> member of the <a href="https://msdn.microsoft.com/91e2c4a1-7b95-49d9-9f28-c3ce4355f1ea">SHRINK_VOLUME_INFORMATION</a> structure to <b>ShrinkPrepare</b>. Set the <b>NewNumberOfSectors</b> member of the same structure to zero.  If this call succeeds, the filesystem will not allocate clusters beyond the end of the new volume length.</li>
-<li>Call <a href="https://msdn.microsoft.com/ab7f81ac-a962-4e86-b426-b0082d251645">FSCTL_MOVE_FILE</a> on all files beyond the new number of sectors and move them within the valid range. You are responsible for moving any files that are affected by the shrink operation.  </li>
-<li>Call <b>FSCTL_SHRINK_VOLUME</b>.  Set the <b>ShrinkRequestType</b> member of the <a href="https://msdn.microsoft.com/91e2c4a1-7b95-49d9-9f28-c3ce4355f1ea">SHRINK_VOLUME_INFORMATION</a> structure to <b>ShrinkCommit</b>. Set the <b>NewNumberOfSectors</b> member of the same structure to zero. If all files beyond the end of the new volume size have not been moved, the call fails with <b>STATUS_ALREADY_COMMITTED</b> (<b>ERROR_ACCESS_DENIED</b>).  Otherwise, the filesystem has now been shrunk.</li>
-<li>Call  <a href="https://msdn.microsoft.com/bbcb0bee-a507-4abb-83df-328f3aa6caaa">IOCTL_DISK_GROW_PARTITION</a>. Set the <b>BytesToGrow</b> member of the <a href="https://msdn.microsoft.com/17ff8bbb-45a6-4ddd-a871-8519500c03a9">DISK_GROW_PARTITION</a> structure to the negative number that represents the number of bytes to remove.</li>
+<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> to open a handle to the volume.</li>
+<li>Call <b>FSCTL_SHRINK_VOLUME</b>. Set the <b>ShrinkRequestType</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_shrink_volume_information">SHRINK_VOLUME_INFORMATION</a> structure to <b>ShrinkPrepare</b>. Set the <b>NewNumberOfSectors</b> member of the same structure to zero.  If this call succeeds, the filesystem will not allocate clusters beyond the end of the new volume length.</li>
+<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_move_file">FSCTL_MOVE_FILE</a> on all files beyond the new number of sectors and move them within the valid range. You are responsible for moving any files that are affected by the shrink operation.  </li>
+<li>Call <b>FSCTL_SHRINK_VOLUME</b>.  Set the <b>ShrinkRequestType</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_shrink_volume_information">SHRINK_VOLUME_INFORMATION</a> structure to <b>ShrinkCommit</b>. Set the <b>NewNumberOfSectors</b> member of the same structure to zero. If all files beyond the end of the new volume size have not been moved, the call fails with <b>STATUS_ALREADY_COMMITTED</b> (<b>ERROR_ACCESS_DENIED</b>).  Otherwise, the filesystem has now been shrunk.</li>
+<li>Call  <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_grow_partition">IOCTL_DISK_GROW_PARTITION</a>. Set the <b>BytesToGrow</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_disk_grow_partition">DISK_GROW_PARTITION</a> structure to the negative number that represents the number of bytes to remove.</li>
 </ol>
 
 
@@ -223,27 +223,27 @@ Is supported only on the node that has NTFS mounted.
 
 
 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/b941c5c8-39b4-4a5d-93e9-acbde7177d44">FSCTL_EXTEND_VOLUME</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_extend_volume">FSCTL_EXTEND_VOLUME</a>
 
 
 
-<a href="https://msdn.microsoft.com/bbcb0bee-a507-4abb-83df-328f3aa6caaa">IOCTL_DISK_GROW_PARTITION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_grow_partition">IOCTL_DISK_GROW_PARTITION</a>
 
 
 
-<a href="https://msdn.microsoft.com/91e2c4a1-7b95-49d9-9f28-c3ce4355f1ea">SHRINK_VOLUME_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_shrink_volume_information">SHRINK_VOLUME_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/87f39e1c-3ebf-4c6f-a842-699ec3c45e76">Volume Management Control Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes">Volume Management Control Codes</a>
  
 
  

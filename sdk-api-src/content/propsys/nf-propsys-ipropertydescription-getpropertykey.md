@@ -59,9 +59,9 @@ Gets a structure that acts as a property's unique identifier.
 
 ### -param pkey [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a>*</b>
 
-When this method returns, contains a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structure.
+When this method returns, contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structure.
 
 
 ## -returns
@@ -79,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The information retrieved by this method comes from the <a href="https://msdn.microsoft.com/en-us/library/Bb773880(v=VS.85).aspx">propertyDescription</a> element in the property's .propdesc file.
+The information retrieved by this method comes from the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-propertydescription">propertyDescription</a> element in the property's .propdesc file.
 
 
 
@@ -89,11 +89,11 @@ The information retrieved by this method comes from the <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
 
 
 
-<a href="https://msdn.microsoft.com/cac93c31-d90d-4116-b846-0cf593d1d56e">Property Description Schema</a>
+<a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
  
 
  

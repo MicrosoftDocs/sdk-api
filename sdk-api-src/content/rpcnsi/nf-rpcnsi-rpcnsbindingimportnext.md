@@ -61,7 +61,7 @@ The
 ### -param ImportContext
 
 Name-service handle returned from the 
-<a href="https://msdn.microsoft.com/8dca0490-72aa-41e0-b747-863d53a705ea">RpcNsBindingImportBegin</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina">RpcNsBindingImportBegin</a> function.
 
 
 ### -param Binding
@@ -115,7 +115,7 @@ The name service is unavailable.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -126,7 +126,7 @@ The name service is unavailable.
 
 The 
 <b>RpcNsBindingImportNext</b> function returns one client-compatible server binding handle for a server that offers the interface and object UUID specified by the <i>IfSpec</i> and <i>ObjUuid</i> parameters in the 
-<a href="https://msdn.microsoft.com/8dca0490-72aa-41e0-b747-863d53a705ea">RpcNsBindingImportBegin</a> function. The function communicates only with the name-service database, not directly with servers.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina">RpcNsBindingImportBegin</a> function. The function communicates only with the name-service database, not directly with servers.
 
 Effective with Windows 2000, the RPC environment uses the Active Directory as its name-service database and the order in which the run-time environment performs the search is as follows:
 
@@ -141,7 +141,7 @@ Note that if the entry exists in the Active Directory, but there is no informati
 </li>
 </ul>
 The compatible binding handle that is returned always contains an object UUID, the value of which depends on the <i>ObjUuid</i> parameter in the 
-<a href="https://msdn.microsoft.com/8dca0490-72aa-41e0-b747-863d53a705ea">RpcNsBindingImportBegin</a> function. If a non-<b>null</b> object UUID was specified, the returned binding handle contains that object UUID. If, however, a <b>null</b> object UUID or <b>null</b> value was specified, the object UUID that is returned is a result of the following possibilities:
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina">RpcNsBindingImportBegin</a> function. If a non-<b>null</b> object UUID was specified, the returned binding handle contains that object UUID. If, however, a <b>null</b> object UUID or <b>null</b> value was specified, the object UUID that is returned is a result of the following possibilities:
 
 <ul>
 <li>If the server did not export any object UUIDs, the returned binding handle contains a nil object UUID.</li>
@@ -154,19 +154,19 @@ The
 
 Each time the client calls 
 <b>RpcNsBindingImportNext</b>, the function returns another server binding handle. The returned binding handles are unordered. A client application calls the 
-<a href="https://msdn.microsoft.com/fff87506-4c3f-47cb-8130-78e46e906bf0">RpcNsBindingInqEntryName</a> function to obtain the name-service database in the entry name from which the binding handle came.When the search reaches the end of the name-service database, 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcnsbindinginqentryname">RpcNsBindingInqEntryName</a> function to obtain the name-service database in the entry name from which the binding handle came.When the search reaches the end of the name-service database, 
 <b>RpcNsBindingInqEntryName</b> returns a status of RPC_S_NO_MORE_BINDINGS and returns a binding parameter value of <b>NULL</b>.
 
 The 
 <b>RpcNsBindingImportNext</b> function allocates storage for the data referenced by the returned <i>Binding</i> parameter. When a client application finishes with the binding handle, it must call 
-<a href="https://msdn.microsoft.com/0f85e64f-b4a6-4982-8df5-88caa0a312f6">RpcBindingFree</a> to deallocate the storage. Each call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfree">RpcBindingFree</a> to deallocate the storage. Each call to 
 <b>RpcNsBindingImportNext</b> requires a corresponding call to 
 <b>RpcBindingFree</b>.
 
 The client is responsible for calling the 
-<a href="https://msdn.microsoft.com/093c988a-5d88-45b5-b69a-f26962118fdb">RpcNsBindingImportDone</a> function, which deletes the import context. The client also calls 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportdone">RpcNsBindingImportDone</a> function, which deletes the import context. The client also calls 
 <b>RpcNsBindingImportDone</b> before calling 
-<a href="https://msdn.microsoft.com/8dca0490-72aa-41e0-b747-863d53a705ea">RpcNsBindingImportBegin</a> to start a new search for compatible servers. Because the order of binding handles returned is different for each new search, the order in which binding handles are returned to an application can be different each time the application is run.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina">RpcNsBindingImportBegin</a> to start a new search for compatible servers. Because the order of binding handles returned is different for each new search, the order in which binding handles are returned to an application can be different each time the application is run.
 
 
 
@@ -176,35 +176,35 @@ The client is responsible for calling the
 
 
 
-<a href="https://msdn.microsoft.com/0f85e64f-b4a6-4982-8df5-88caa0a312f6">RpcBindingFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfree">RpcBindingFree</a>
 
 
 
-<a href="https://msdn.microsoft.com/8dca0490-72aa-41e0-b747-863d53a705ea">RpcNsBindingImportBegin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina">RpcNsBindingImportBegin</a>
 
 
 
-<a href="https://msdn.microsoft.com/093c988a-5d88-45b5-b69a-f26962118fdb">RpcNsBindingImportDone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportdone">RpcNsBindingImportDone</a>
 
 
 
-<a href="https://msdn.microsoft.com/fff87506-4c3f-47cb-8130-78e46e906bf0">RpcNsBindingInqEntryName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcnsbindinginqentryname">RpcNsBindingInqEntryName</a>
 
 
 
-<a href="https://msdn.microsoft.com/75b7e901-706a-4e3d-b958-d04a0709b993">RpcNsBindingLookupBegin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupbegina">RpcNsBindingLookupBegin</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf272b29-8594-428a-947c-cc91ddfb4538">RpcNsBindingLookupDone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupdone">RpcNsBindingLookupDone</a>
 
 
 
-<a href="https://msdn.microsoft.com/068913fb-f9ca-4e03-93d7-3484ba43472e">RpcNsBindingLookupNext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupnext">RpcNsBindingLookupNext</a>
 
 
 
-<a href="https://msdn.microsoft.com/1acdd266-9ca2-43d4-b677-7c30b4dca4ee">RpcNsBindingSelect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingselect">RpcNsBindingSelect</a>
  
 
  

@@ -51,11 +51,11 @@ ms.custom: 19H1
 
 
 
-Modifies the <a href="https://msdn.microsoft.com/79abff2e-d1d3-4a32-9ac2-f46c1b21f742">InkTransform</a> member data.
+Modifies the <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> member data.
 
 
 
-An <a href="https://msdn.microsoft.com/79abff2e-d1d3-4a32-9ac2-f46c1b21f742">InkTransform</a> object represents a 3×3 matrix that, in turn, represents an affine transformation. The object stores only six of the nine numbers in a 3×3 matrix because all 3×3 matrices that represent affine transformations have the same third column (0, 0, 1).
+An <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> object represents a 3×3 matrix that, in turn, represents an affine transformation. The object stores only six of the nine numbers in a 3×3 matrix because all 3×3 matrices that represent affine transformations have the same third column (0, 0, 1).
 
 
 ## -parameters
@@ -137,7 +137,7 @@ An exception occurred inside the method.
 
 
 
-<a href="https://msdn.microsoft.com/d6aec579-7fa4-4cfb-8f63-2810b0c40103">GetTransform Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-gettransform">GetTransform Method</a>
 
 
 
@@ -145,7 +145,7 @@ An exception occurred inside the method.
 
 
 
-<a href="https://msdn.microsoft.com/79abff2e-d1d3-4a32-9ac2-f46c1b21f742">InkTransform Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform Class</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Extracts a GUID value from a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure.
+Extracts a GUID value from a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Extracts a GUID value from a <a href="https://msdn.microsoft.com/e86cc279-826d-4
 
 Type: <b>REFPROPVARIANT</b>
 
-Reference to a source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure.
+Reference to a source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure.
 
 
 ### -param pguid [out]
@@ -86,7 +86,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-This helper function works for<a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>structures of the following types: 
+This helper function works for<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>structures of the following types: 
           
 
 <ul>
@@ -96,7 +96,7 @@ This helper function works for<a href="https://msdn.microsoft.com/e86cc279-826d-
 <li>VT_ARRAY | VT_UI1</li>
 </ul>
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776545(v=VS.85).aspx">PropVariantToGUID</a> is used in places where the calling application expects a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> to hold a single <b>GUID</b> or <b>GUID</b> value. For instance, an application obtaining values from a property store can use this to safely extract the <b>GUID</b> value for <b>GUID</b> properties.
+<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttoguid">PropVariantToGUID</a> is used in places where the calling application expects a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> to hold a single <b>GUID</b> or <b>GUID</b> value. For instance, an application obtaining values from a property store can use this to safely extract the <b>GUID</b> value for <b>GUID</b> properties.
 
 
 #### Examples
@@ -153,15 +153,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762290(v=VS.85).aspx">InitPropVariantFromCLSID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromclsid">InitPropVariantFromCLSID</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776537(v=VS.85).aspx">PropVariantToCLSID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttoclsid">PropVariantToCLSID</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776603(v=VS.85).aspx">VariantToGUID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttoguid">VariantToGUID</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a new instance of an <a href="https://msdn.microsoft.com/19096DFB-A8CF-4DEF-863B-3DBB9E893A8D">IAppxEncryptedPackageWriter</a>.
+Creates a new instance of an <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxencryptedpackagewriter">IAppxEncryptedPackageWriter</a>.
 
 
 ## -parameters
@@ -106,7 +106,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/ABF2F4BE-FC6A-4AF5-BD15-243ABFA055D9">IAppxEncryptionFactory3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxencryptionfactory3">IAppxEncryptionFactory3</a>
  
 
  

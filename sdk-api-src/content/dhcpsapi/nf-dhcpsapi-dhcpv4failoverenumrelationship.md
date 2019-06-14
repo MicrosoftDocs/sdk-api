@@ -64,7 +64,7 @@ Pointer to a null-terminated Unicode string that represents the IP address or ho
 
 ### -param ResumeHandle [in, out]
 
-Pointer to a  <a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_RESUME_HANDLE</a> structure that identifies this enumeration for use in subsequent calls to this function.
+Pointer to a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_RESUME_HANDLE</a> structure that identifies this enumeration for use in subsequent calls to this function.
 
 Initially, this value should be zero on input. If successful, the returned value should be used for subsequent enumeration requests. For example, if <i>PreferredMaximum</i> is set to 100, and 200 reservation elements are configured on the server, the resume handle can be used after the first 100 policies are retrieved to obtain the next 100 on a subsequent call.
 
@@ -76,7 +76,7 @@ The maximum number of failover relationship elements to return in <i>pRelationsh
 
 ### -param pRelationship [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/A4C951F9-D5C6-4210-B77D-DBBD6FF2766C">DHCP_FAILOVER_RELATIONSHIP_ARRAY</a> structure that contains an array of the failover relationships available on the DHCP server. If no relationships are configured,<i></i> this value is <b>NULL</b>.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_failover_relationship_array">DHCP_FAILOVER_RELATIONSHIP_ARRAY</a> structure that contains an array of the failover relationships available on the DHCP server. If no relationships are configured,<i></i> this value is <b>NULL</b>.
 
 
 ### -param RelationshipRead [out]
@@ -95,7 +95,7 @@ Pointer to a <b>DWORD</b>  that specifies the number of failover relationships c
 
 If the function succeeds, it returns <b>ERROR_SUCCESS</b>.
 
-If the function fails, it returns one of the following. or an error code from <a href="https://msdn.microsoft.com/6370313f-d7db-4ff1-b0e0-7fa47474facb">DHCP Server Management API Error Codes</a>
+If the function fails, it returns one of the following. or an error code from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>
 
 
 <table>
@@ -147,19 +147,19 @@ There are no more elements left to enumerate.
 
 
 
-<a href="https://msdn.microsoft.com/6e360dd4-b4a0-4652-8754-17c3c284271c">DhcpV4FailoverCreateRelationship</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4failovercreaterelationship">DhcpV4FailoverCreateRelationship</a>
 
 
 
-<a href="https://msdn.microsoft.com/c7b894a4-4def-41fe-98b6-f56d6ff0c715">DhcpV4FailoverDeleteRelationship</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4failoverdeleterelationship">DhcpV4FailoverDeleteRelationship</a>
 
 
 
-<a href="https://msdn.microsoft.com/b637d1e8-8c61-4382-a5ec-3d5395433f86">DhcpV4FailoverGetRelationship</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4failovergetrelationship">DhcpV4FailoverGetRelationship</a>
 
 
 
-<a href="https://msdn.microsoft.com/04012953-dca3-426f-99de-798870d1eb97">DhcpV4FailoverSetRelationship</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4failoversetrelationship">DhcpV4FailoverSetRelationship</a>
  
 
  

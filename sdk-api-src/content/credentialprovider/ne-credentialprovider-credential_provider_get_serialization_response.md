@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Describes the response when a credential provider attempts to serialize credentials. Used by <a href="https://msdn.microsoft.com/c5f7ba25-c38a-431a-b4ad-0e2409f763a3">ICredentialProviderCredential::GetSerialization</a>.
+Describes the response when a credential provider attempts to serialize credentials. Used by <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-getserialization">ICredentialProviderCredential::GetSerialization</a>.
 
 
 ## -enum-fields
@@ -74,7 +74,7 @@ A credential was serialized. This response implies that a serialization structur
 
 ### -field CPGSR_RETURN_NO_CREDENTIAL_FINISHED
 
-The credential provider has not serialized a credential, but has completed its work. The difference between this value and <b>CPGSR_NO_CREDENTIAL_FINISHED</b> is that this flag will force the logon UI to return, which will call <a href="https://msdn.microsoft.com/d971c7be-f440-41ce-945d-4dbe51554e59">UnAdvise</a> for all the credential providers.
+The credential provider has not serialized a credential, but has completed its work. The difference between this value and <b>CPGSR_NO_CREDENTIAL_FINISHED</b> is that this flag will force the logon UI to return, which will call <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovider-unadvise">UnAdvise</a> for all the credential providers.
 
 
 ## -see-also
@@ -82,7 +82,7 @@ The credential provider has not serialized a credential, but has completed its w
 
 
 
-<a href="https://msdn.microsoft.com/BCF69196-D4E4-41D0-B372-5000FD50164B">Credential Providers in Windows 10</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/credential-providers-in-windows">Credential Providers in Windows 10</a>
  
 
  

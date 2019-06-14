@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents the action to be taken by an application in response to <a href="https://msdn.microsoft.com/f6c96e02-e9db-402c-8197-580f688b068f">ISyncCallback::OnFullEnumerationNeeded</a>.
+Represents the action to be taken by an application in response to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isynccallback">ISyncCallback::OnFullEnumerationNeeded</a>.
 
 
 ## -enum-fields
@@ -59,7 +59,7 @@ Represents the action to be taken by an application in response to <a href="http
 
 ### -field SFEA_FULL_ENUMERATION
 
-Perform a full enumeration. This is the default option when the application does not register an <a href="https://msdn.microsoft.com/f6c96e02-e9db-402c-8197-580f688b068f">ISyncCallback</a> interface.
+Perform a full enumeration. This is the default option when the application does not register an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isynccallback">ISyncCallback</a> interface.
 
 
 ### -field SFEA_PARTIAL_SYNC
@@ -77,11 +77,11 @@ Cancel the synchronization session. All methods will return errors as if they we
 
 
 
-<a href="https://msdn.microsoft.com/f52ddaf2-9ce2-4ebb-bace-024c059b2594">ISyncCallback::OnFullEnumerationNeeded</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isynccallback-onfullenumerationneeded">ISyncCallback::OnFullEnumerationNeeded</a>
 
 
 
-<a href="https://msdn.microsoft.com/139266e9-cd22-4548-a2b6-927328e7ce82">Windows Sync Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-enumerations">Windows Sync Enumerations</a>
  
 
  

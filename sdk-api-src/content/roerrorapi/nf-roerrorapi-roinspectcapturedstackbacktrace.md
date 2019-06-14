@@ -61,7 +61,7 @@ Provides a way to for debuggers to inspect a call stack from a target process.
 
 ### -param targetErrorInfoAddress [in]
 
-The address of the error info object in the target process. Get the <i>targetErrorInfoAddress</i> by calling the <a href="https://msdn.microsoft.com/DE7A930A-89CD-45C0-A232-800E5A5648F8">RoInspectThreadErrorInfo</a> function.
+The address of the error info object in the target process. Get the <i>targetErrorInfoAddress</i> by calling the <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-roinspectthreaderrorinfo">RoInspectThreadErrorInfo</a> function.
 
 
 ### -param machine
@@ -104,7 +104,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 The <b>RoInspectCapturedStackBackTrace</b> function takes a pointer to a system error object  and fills <i>frameCount</i> with the number of stack frames stored in the error object,  and it fills <i>targetBackTraceAddress</i> with the stack back trace address in the target process. The <b>RoInspectCapturedStackBackTrace</b> function tries to confirm that <i>targetErrorInfoAddress</i> points is to a system error object and fails if it can't match the version signature.
 
-Get the <i>targetErrorInfoAddress</i> by calling the <a href="https://msdn.microsoft.com/DE7A930A-89CD-45C0-A232-800E5A5648F8">RoInspectThreadErrorInfo</a> function.
+Get the <i>targetErrorInfoAddress</i> by calling the <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-roinspectthreaderrorinfo">RoInspectThreadErrorInfo</a> function.
 
 
 
@@ -114,11 +114,11 @@ Get the <i>targetErrorInfoAddress</i> by calling the <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/A5BF207D-BB8D-47C1-8D32-0B6494809E2B">PINSPECT_MEMORY_CALLBACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nc-roerrorapi-pinspect_memory_callback">PINSPECT_MEMORY_CALLBACK</a>
 
 
 
-<a href="https://msdn.microsoft.com/DE7A930A-89CD-45C0-A232-800E5A5648F8">RoInspectThreadErrorInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-roinspectthreaderrorinfo">RoInspectThreadErrorInfo</a>
  
 
  

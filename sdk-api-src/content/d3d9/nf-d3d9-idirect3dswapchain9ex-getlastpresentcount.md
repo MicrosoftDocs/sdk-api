@@ -60,16 +60,16 @@ Returns the number of times the swapchain has been processed.
 
 ### -param pLastPresentCount [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
-Pointer to a UINT to be filled with the number of times the <a href="https://msdn.microsoft.com/en-us/library/Bb174343(v=VS.85).aspx">IDirect3DDevice9Ex::PresentEx</a> method has been called. The count will also be incremented by calling some other APIs such as <a href="https://msdn.microsoft.com/en-us/library/Bb174432(v=VS.85).aspx">IDirect3DDevice9::SetDialogBoxMode</a>.
+Pointer to a UINT to be filled with the number of times the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-presentex">IDirect3DDevice9Ex::PresentEx</a> method has been called. The count will also be incremented by calling some other APIs such as <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setdialogboxmode">IDirect3DDevice9::SetDialogBoxMode</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 S_OK the method was successful.
 
@@ -81,7 +81,7 @@ S_OK the method was successful.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb172503(v=VS.85).aspx">IDirect3DSwapChain9Ex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nn-d3d9-idirect3dswapchain9ex">IDirect3DSwapChain9Ex</a>
  
 
  

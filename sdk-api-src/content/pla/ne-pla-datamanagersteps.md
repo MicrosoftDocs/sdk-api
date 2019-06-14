@@ -59,31 +59,31 @@ Defines the actions that the data manager takes when it runs.
 
 ### -field plaCreateReport
 
-Runs TraceRpt.exe using as input all the binary performance files (.blg) or event trace files (.etl) in the collection. You can use the <a href="https://msdn.microsoft.com/32620e9d-9541-4c39-9312-937b0b4825ad">IDataManager::ReportSchema</a> property to customize the report.
+Runs TraceRpt.exe using as input all the binary performance files (.blg) or event trace files (.etl) in the collection. You can use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_reportschema">IDataManager::ReportSchema</a> property to customize the report.
 
-The <a href="https://msdn.microsoft.com/fc1484ea-c1d5-4267-bdf5-366c080bfc61">IDataManager::RuleTargetFileName</a> property contains the name of the file that TraceRpt creates.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_ruletargetfilename">IDataManager::RuleTargetFileName</a> property contains the name of the file that TraceRpt creates.
 
 
 ### -field plaRunRules
 
-If a report exists, apply the rules specified in the <a href="https://msdn.microsoft.com/17403e57-2eea-4a2b-a75c-66f486622078">IDataManager::Rules</a> property to the report.
+If a report exists, apply the rules specified in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_rules">IDataManager::Rules</a> property to the report.
 
-The <a href="https://msdn.microsoft.com/fc1484ea-c1d5-4267-bdf5-366c080bfc61">RuleTargetFileName</a> property contains the name of the file to which the rules are applied.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_ruletargetfilename">RuleTargetFileName</a> property contains the name of the file to which the rules are applied.
 
 
 ### -field plaCreateHtml
 
-Converts the XML file specified in <a href="https://msdn.microsoft.com/fc1484ea-c1d5-4267-bdf5-366c080bfc61">RuleTargetFileName</a> to HTML format. The HTML format is written to the file specified in the <a href="https://msdn.microsoft.com/5b4c1d99-2f41-423a-b019-845dcd61d516">IDataManager::ReportFileName</a> property.
+Converts the XML file specified in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_ruletargetfilename">RuleTargetFileName</a> to HTML format. The HTML format is written to the file specified in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_reportfilename">IDataManager::ReportFileName</a> property.
 
 
 ### -field plaFolderActions
 
-Apply the folder actions specified in the <a href="https://msdn.microsoft.com/59fad3d2-9971-4608-8576-977d4dd8ace4">IDataManager::FolderActions</a> property to all folders defined in the collection.
+Apply the folder actions specified in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_folderactions">IDataManager::FolderActions</a> property to all folders defined in the collection.
 
 
 ### -field plaResourceFreeing
 
-If the <a href="https://msdn.microsoft.com/71368635-e8c3-44fd-9d8a-f225b10225ba">IDataManager::MaxFolderCount</a>, <a href="https://msdn.microsoft.com/a9508617-acb5-4e11-8f4a-72c8e5cb4cba">IDataManager::MaxSize</a>, or <a href="https://msdn.microsoft.com/e5f4f752-ae96-4a1b-99a4-ff3b73fe3743">IDataManager::MinFreeDisk</a> property exceeds its limit, apply the resource policy specified in the <a href="https://msdn.microsoft.com/541cd28c-2e01-4b8a-9cd3-044896c8fb80">IDataManager::ResourcePolicy</a> property.
+If the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_maxfoldercount">IDataManager::MaxFolderCount</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_maxsize">IDataManager::MaxSize</a>, or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_minfreedisk">IDataManager::MinFreeDisk</a> property exceeds its limit, apply the resource policy specified in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_resourcepolicy">IDataManager::ResourcePolicy</a> property.
 
 
 ## -remarks
@@ -100,7 +100,7 @@ Specify one or more actions. The data manager applies the actions in the order i
 
 
 
-<a href="https://msdn.microsoft.com/a1016784-8841-485f-885e-3719bdb0ae05">IDataManager::Run</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-run">IDataManager::Run</a>
  
 
  

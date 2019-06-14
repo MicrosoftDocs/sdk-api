@@ -93,11 +93,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/175c2073-40ac-06b5-2f0e-495bd74b1502">DirectXMath Library 2D Vector Transformation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector2-transformation">DirectXMath Library 2D Vector Transformation Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404774(v=VS.85).aspx">XMVector2TransformNormalStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvector2transformnormalstream">XMVector2TransformNormalStream</a>
  
 
  

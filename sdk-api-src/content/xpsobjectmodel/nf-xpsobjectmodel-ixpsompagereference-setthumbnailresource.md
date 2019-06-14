@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the pointer to the <a href="https://msdn.microsoft.com/89a1530e-fa87-45bf-a1da-c8656ec09ba3">IXpsOMImageResource</a> interface of the thumbnail image resource to be assigned to the page.
+Sets the pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomimageresource">IXpsOMImageResource</a> interface of the thumbnail image resource to be assigned to the page.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Sets the pointer to the <a href="https://msdn.microsoft.com/89a1530e-fa87-45bf-a
 
 ### -param imageResource [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/89a1530e-fa87-45bf-a1da-c8656ec09ba3">IXpsOMImageResource</a> interface  of the thumbnail image resource to be assigned to the page. If an <b>IXpsOMImageResource</b> interface has been set, a <b>NULL</b> pointer will release it.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomimageresource">IXpsOMImageResource</a> interface  of the thumbnail image resource to be assigned to the page. If an <b>IXpsOMImageResource</b> interface has been set, a <b>NULL</b> pointer will release it.
 
 
 ## -returns
@@ -118,7 +118,7 @@ The image in  <i>imageResource</i> is not a supported image type.
 
 The thumbnail image is a small, visual representation of the document's   contents.
 
-The image type of the image resource must be either  <a href="https://msdn.microsoft.com/en-us/library/Dd372960(v=VS.85).aspx">XPS_IMAGE_TYPE_JPEG</a> or <b>XPS_IMAGE_TYPE_PNG</b>.
+The image type of the image resource must be either  <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0008">XPS_IMAGE_TYPE_JPEG</a> or <b>XPS_IMAGE_TYPE_PNG</b>.
 
 
 
@@ -128,15 +128,15 @@ The image type of the image resource must be either  <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/89a1530e-fa87-45bf-a1da-c8656ec09ba3">IXpsOMImageResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomimageresource">IXpsOMImageResource</a>
 
 
 
-<a href="https://msdn.microsoft.com/cdebab24-f918-4235-b4d5-5ee1007ade87">IXpsOMPageReference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompagereference">IXpsOMPageReference</a>
 
 
 
-<a href="https://msdn.microsoft.com/cac794c0-bea2-417e-880f-15838f718ba7">IXpsOMThumbnailGenerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomthumbnailgenerator">IXpsOMThumbnailGenerator</a>
 
 
 
@@ -144,7 +144,7 @@ The image type of the image resource must be either  <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd372960(v=VS.85).aspx">XPS_IMAGE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0008">XPS_IMAGE_TYPE</a>
  
 
  

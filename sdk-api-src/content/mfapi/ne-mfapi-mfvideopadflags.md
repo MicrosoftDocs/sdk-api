@@ -79,7 +79,7 @@ Pad the image so that it can be displayed in a 16×9 area.
 
 
 
-Use these flags with the <a href="https://msdn.microsoft.com/d7fec5fb-a1fe-4cc9-aa27-a3af0456ea8d">MF_MT_PAD_CONTROL_FLAGS</a> attribute.
+Use these flags with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-pad-control-flags-attribute">MF_MT_PAD_CONTROL_FLAGS</a> attribute.
 
 
 
@@ -89,7 +89,7 @@ Use these flags with the <a href="https://msdn.microsoft.com/d7fec5fb-a1fe-4cc9-
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

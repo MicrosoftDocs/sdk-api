@@ -65,7 +65,7 @@ The <b>ShowScrollBar</b> function shows or hides the specified scroll bar.
 
 ### -param hWnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a scroll bar control or a window with a standard scroll bar, depending on the value of the 
 					<i>wBar</i> parameter. 
@@ -129,7 +129,7 @@ Shows or hides a window's standard vertical scroll bar.
 
 ### -param bShow [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Specifies whether the scroll bar is shown or hidden. If this parameter is <b>TRUE</b>, the scroll bar is shown; otherwise, it is hidden. 
 
@@ -138,11 +138,11 @@ Specifies whether the scroll bar is shown or hidden. If this parameter is <b>TRU
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -161,7 +161,7 @@ You should not call this function to hide a scroll bar while processing a scroll
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787579(v=VS.85).aspx">EnableScrollBar</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enablescrollbar">EnableScrollBar</a>
  
 
  

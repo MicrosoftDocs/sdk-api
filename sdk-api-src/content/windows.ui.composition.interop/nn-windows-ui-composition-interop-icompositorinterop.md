@@ -54,7 +54,7 @@ Native interoperation interface that allows creating swapchain surfaces and grap
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICompositorInterop</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ICompositorInterop</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICompositorInterop</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICompositorInterop</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ICompositorInterop</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/68147308-65e9-4c19-e25a-f560ba96fc9c">CreateCompositionSurfaceForHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.composition.interop/nf-windows-ui-composition-interop-icompositorinterop-createcompositionsurfaceforhandle">CreateCompositionSurfaceForHandle</a>
 </td>
 <td align="left" width="63%">
 Creates an instance of CompositionSurface for use with the handle of a swapchain. In order to host media swapchain on a CompositionSurface, use the IMFMediaEngineEx::GetVideoSwapchainHandle method.
@@ -78,7 +78,7 @@ Creates an instance of CompositionSurface for use with the handle of a swapchain
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/FDF81740-C6BA-4F3D-8145-749C738718E5">CreateCompositionSurfaceForSwapChain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.composition.interop/nf-windows-ui-composition-interop-icompositorinterop-createcompositionsurfaceforswapchain">CreateCompositionSurfaceForSwapChain</a>
 </td>
 <td align="left" width="63%">
 Creates an instance of CompositionSurface for use with a swap chain.
@@ -87,7 +87,7 @@ Creates an instance of CompositionSurface for use with a swap chain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1B4B3CF2-D2E7-4E11-B203-CB16057450B9">CreateGraphicsDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.composition.interop/nf-windows-ui-composition-interop-icompositorinterop-creategraphicsdevice">CreateGraphicsDevice</a>
 </td>
 <td align="left" width="63%">
 Creates a CompositionGraphicsDevice backed by the specified rendering device.
@@ -101,7 +101,7 @@ Creates a CompositionGraphicsDevice backed by the specified rendering device.
 
 
 
-See <a href="https://msdn.microsoft.com/C8A94128-009A-4327-8E77-A4E155D0910E">ICompositionDrawingSurfaceInterop</a> for usage examples.
+See <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.composition.interop/nn-windows-ui-composition-interop-icompositiondrawingsurfaceinterop">ICompositionDrawingSurfaceInterop</a> for usage examples.
 
 
 
@@ -115,7 +115,7 @@ See <a href="https://msdn.microsoft.com/C8A94128-009A-4327-8E77-A4E155D0910E">IC
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

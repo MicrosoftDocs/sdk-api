@@ -88,7 +88,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/c890d306-66df-4c29-88db-d54362ac018a">IExecuteCommandApplicationHostEnvironment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommandapplicationhostenvironment">IExecuteCommandApplicationHostEnvironment</a>
  
 
  

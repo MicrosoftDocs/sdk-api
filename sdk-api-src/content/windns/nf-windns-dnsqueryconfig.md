@@ -60,14 +60,14 @@ The
 
 ### -param Config [in]
 
-A <a href="https://msdn.microsoft.com/e0f0cc05-dcfe-48df-8dbd-e756cfa69154">DNS_CONFIG_TYPE</a> value that specifies the configuration type of the information to be queried.
+A <a href="https://docs.microsoft.com/windows/desktop/api/windns/ne-windns-__unnamed_enum_0">DNS_CONFIG_TYPE</a> value that specifies the configuration type of the information to be queried.
 
 
 ### -param Flag [in]
 
 A value that specifies whether to allocate memory for the configuration information. Set <i>Flag</i> to <b>DNS_CONFIG_FLAG_ALLOC </b> to allocate memory; otherwise, set it to 0.  
 
-<div class="alert"><b>Note</b>  Free the allocated memory with <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a>.</div>
+<div class="alert"><b>Note</b>  Free the allocated memory with <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>.</div>
 <div> </div>
 
 ### -param pwsAdapterName [in, optional]
@@ -184,15 +184,15 @@ Returns success confirmation upon successful completion. Otherwise, returns the 
 
 
 
-<a href="https://msdn.microsoft.com/e0f0cc05-dcfe-48df-8dbd-e756cfa69154">DNS_CONFIG_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ne-windns-__unnamed_enum_0">DNS_CONFIG_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d810b76-cea1-4904-9b5a-c2566b332c2c">DnsQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>CREDUI_INFO</b> structure is used to pass information to the 
-<a href="https://msdn.microsoft.com/97a8e750-3e63-4e6f-a875-1e5c49c30dd4">CredUIPromptForCredentials</a> function that creates a dialog box used to obtain credentials information.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduipromptforcredentialsa">CredUIPromptForCredentials</a> function that creates a dialog box used to obtain credentials information.
 
 
 ## -struct-fields

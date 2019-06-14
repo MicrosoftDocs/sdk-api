@@ -67,7 +67,7 @@ Size, in bytes, of the memory block to be allocated.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419206(v=VS.85).aspx">XAPOFree</a> and <b>XAPOAlloc</b> are memory allocation macros that allow one module to allocate memory and another to free it, by guaranteeing that the same heap manager is used regardless of differences between the build environments of the two modules.
+<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-xapofree">XAPOFree</a> and <b>XAPOAlloc</b> are memory allocation macros that allow one module to allocate memory and another to free it, by guaranteeing that the same heap manager is used regardless of differences between the build environments of the two modules.
 
 <table>
 <tr>
@@ -75,7 +75,7 @@ Size, in bytes, of the memory block to be allocated.
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Ee419206(v=VS.85).aspx">XAPOFree</a> and <b>XAPOAlloc</b> resolve to <b>XMemAlloc</b> and <b>XMemFree</b> on Xbox 360.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-xapofree">XAPOFree</a> and <b>XAPOAlloc</b> resolve to <b>XMemAlloc</b> and <b>XMemFree</b> on Xbox 360.</td>
 </tr>
 </table>
  
@@ -86,7 +86,7 @@ Size, in bytes, of the memory block to be allocated.
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Ee419206(v=VS.85).aspx">XAPOFree</a> and <b>XAPOAlloc</b> resolve to <b>CoTaskMemAlloc</b> and <b>CoTaskMemFree</b>.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-xapofree">XAPOFree</a> and <b>XAPOAlloc</b> resolve to <b>CoTaskMemAlloc</b> and <b>CoTaskMemFree</b>.</td>
 </tr>
 </table>
  
@@ -102,7 +102,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/C39FBD61-16A1-4043-A5C2-0872F734F5FD">Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/macros">Macros</a>
  
 
  

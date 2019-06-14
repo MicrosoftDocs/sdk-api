@@ -62,7 +62,7 @@ The <b>ldap_count_values</b> function counts the number of values in a list.
 ### -param vals [in]
 
 An array of null-terminated strings (values) returned by 
-<a href="https://msdn.microsoft.com/a633afa1-4a37-4894-ae94-5225d99077fd">ldap_get_values</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_values">ldap_get_values</a>.
 
 
 ## -returns
@@ -81,8 +81,8 @@ If a <b>NULL</b> pointer is passed as the argument, 0 is returned. If an invalid
 
 
 The <b>ldap_count_values</b> function returns the number of values in an array of strings. To count binary values in an array of 
-<a href="https://msdn.microsoft.com/1f279905-ab02-4a8b-9b77-e8ea2b56e882">berval</a> structures, call 
-<a href="https://msdn.microsoft.com/fab632c7-3ec6-4968-a48d-5865e7f43d0b">ldap_count_values_len</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a> structures, call 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_count_values_len">ldap_count_values_len</a>.
 
 
 
@@ -92,27 +92,27 @@ The <b>ldap_count_values</b> function returns the number of values in an array o
 
 
 
-<a href="https://msdn.microsoft.com/7a0040ea-f8f3-4378-8371-49768714d762">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/844093e1-daba-494d-91b3-67455ff2e456">LDAP</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldap">LDAP</a>
 
 
 
-<a href="https://msdn.microsoft.com/38482501-faa1-4055-9758-e1e0a4199688">Searching a Directory</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/searching-a-directory">Searching a Directory</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f279905-ab02-4a8b-9b77-e8ea2b56e882">berval</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a>
 
 
 
-<a href="https://msdn.microsoft.com/fab632c7-3ec6-4968-a48d-5865e7f43d0b">ldap_count_values_len</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_count_values_len">ldap_count_values_len</a>
 
 
 
-<a href="https://msdn.microsoft.com/a633afa1-4a37-4894-ae94-5225d99077fd">ldap_get_values</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_values">ldap_get_values</a>
  
 
  

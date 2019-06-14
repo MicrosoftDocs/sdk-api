@@ -54,7 +54,7 @@ Represents a geometry that has been transformed.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1TransformedGeometry</b> interface inherits from <a href="https://msdn.microsoft.com/be4ab801-64f6-48f9-8f62-d0492cc438b1">ID2D1Geometry</a>. <b>ID2D1TransformedGeometry</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1TransformedGeometry</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>. <b>ID2D1TransformedGeometry</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1TransformedGeometry</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2e07c2e4-5f34-4949-bca1-92183652d2fb">GetSourceGeometry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1transformedgeometry-getsourcegeometry">GetSourceGeometry</a>
 </td>
 <td align="left" width="63%">
 Retrieves the source geometry of this transformed geometry object.
@@ -78,7 +78,7 @@ Retrieves the source geometry of this transformed geometry object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9d448af2-49ad-4209-b3a6-b07b40bb3e9d">GetTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1transformedgeometry-gettransform">GetTransform</a>
 </td>
 <td align="left" width="63%">
 Retrieves the matrix used to transform the <b>ID2D1TransformedGeometry</b> object's source geometry.
@@ -95,14 +95,14 @@ Retrieves the matrix used to transform the <b>ID2D1TransformedGeometry</b> objec
 Using an <b>ID2D1TransformedGeometry</b> rather than transforming a geometry by using a render target's transform enables you to transform a geometry without transforming its stroke.
 
 <h3><a id="Creating_ID2D1TransformedGeometry_Objects"></a><a id="creating_id2d1transformedgeometry_objects"></a><a id="CREATING_ID2D1TRANSFORMEDGEOMETRY_OBJECTS"></a>Creating ID2D1TransformedGeometry Objects</h3>
-To create an <b>ID2D1TransformedGeometry</b>, call the <a href="https://msdn.microsoft.com/en-us/library/Dd742730(v=VS.85).aspx">ID2D1Factory::CreateTransformedGeometry</a> method.
+To create an <b>ID2D1TransformedGeometry</b>, call the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createtransformedgeometry">ID2D1Factory::CreateTransformedGeometry</a> method.
 
-Direct2D geometries are immutable and device-independent resources created by <a href="https://msdn.microsoft.com/cef6115c-98e8-49e6-b419-271b43ce2938">ID2D1Factory</a>.  In general, you should create geometries once and retain them for the life of the application, or until they need to be modified. For more information about device-independent and device-dependent resources, see  the <a href="https://msdn.microsoft.com/afd308a7-9524-4436-9a0e-8575383d96fa">Resources Overview</a>.
+Direct2D geometries are immutable and device-independent resources created by <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>.  In general, you should create geometries once and retain them for the life of the application, or until they need to be modified. For more information about device-independent and device-dependent resources, see  the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/resources-and-resource-domains">Resources Overview</a>.
 
 
 #### Examples
 
-The following example creates an <a href="https://msdn.microsoft.com/bb5f65ba-34d4-418b-863c-2431046bce8e">ID2D1RectangleGeometry</a>, then draws it without transforming it. It produces the output shown in the following illustration.
+The following example creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rectanglegeometry">ID2D1RectangleGeometry</a>, then draws it without transforming it. It produces the output shown in the following illustration.
 
 <img alt="Illustration of a rectangle" src="./images/transformedgeometry2_step1.png"/>
 
@@ -132,7 +132,7 @@ m_pRenderTarget->DrawGeometry(m_pRectangleGeometry, m_pBlackBrush, 1);
 ```
 
 
-The next example uses the <a href="https://msdn.microsoft.com/en-us/library/Dd742730(v=VS.85).aspx">CreateTransformedGeometry</a> method to scale the geometry by a factor of 3, then draws it. It produces the output shown in the following illustration. Notice that, although the rectangle is larger, its stroke hasn't increased.
+The next example uses the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createtransformedgeometry">CreateTransformedGeometry</a> method to scale the geometry by a factor of 3, then draws it. It produces the output shown in the following illustration. Notice that, although the rectangle is larger, its stroke hasn't increased.
 
 <img alt="Illustration of a smaller rectangle inside a larger rectangle with the same stroke" src="./images/transformedgeometry2_step3.png"/>
 
@@ -170,7 +170,7 @@ m_pRenderTarget->DrawGeometry(m_pTransformedGeometry, m_pBlackBrush, 1);
 
 
 
-<a href="https://msdn.microsoft.com/be4ab801-64f6-48f9-8f62-d0492cc438b1">ID2D1Geometry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>
  
 
  

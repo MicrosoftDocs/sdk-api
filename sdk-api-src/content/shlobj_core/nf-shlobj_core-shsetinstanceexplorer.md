@@ -61,9 +61,9 @@ Provides an interface that allows hosted Shell extensions and other components t
 
 ### -param punk [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-A pointer to a free-threaded <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>. Components can use this interface (through <a href="https://msdn.microsoft.com/ac6d8f7d-2eae-4b22-b493-b4ef740e3c95">SHGetInstanceExplorer</a>) to prevent the host process from terminating. This value can be <b>NULL</b>, in which case the process reference is no longer made available to components.
+A pointer to a free-threaded <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>. Components can use this interface (through <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetinstanceexplorer">SHGetInstanceExplorer</a>) to prevent the host process from terminating. This value can be <b>NULL</b>, in which case the process reference is no longer made available to components.
 
 
 ## -returns
@@ -81,13 +81,13 @@ This function does not return a value.
 
 Windows Explorer and Internet Explorer can use <b>SHSetInstanceExplorer</b> to allow components such as Shell extensions to extend the lifetime of the process. Other applications can also use <b>SHSetInstanceExplorer</b> to allow for the same capability. For instance, the browser message loop and the proxy desktop use <b>SHSetInstanceExplorer</b> to let other threads extend their lifetime.
 
-Applications other than Windows Explorer and Internet Explorer that call this function might encounter compatibility problems because some components use <a href="https://msdn.microsoft.com/ac6d8f7d-2eae-4b22-b493-b4ef740e3c95">SHGetInstanceExplorer</a> to detect whether they are being hosted from within Windows Explorer or Internet Explorer.
+Applications other than Windows Explorer and Internet Explorer that call this function might encounter compatibility problems because some components use <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetinstanceexplorer">SHGetInstanceExplorer</a> to detect whether they are being hosted from within Windows Explorer or Internet Explorer.
 
 The interface pointer passed to <b>SHSetInstanceExplorer</b> must reference a free-threaded object.
 
-Each time a component calls <a href="https://msdn.microsoft.com/ac6d8f7d-2eae-4b22-b493-b4ef740e3c95">SHGetInstanceExplorer</a>, the system calls the <a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63">AddRef</a> method before returning the interface pointer to the calling component. The component then calls the <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a> method when processing is complete. The process that calls <b>SHSetInstanceExplorer</b> must not terminate while the reference count of the provided interface pointer is nonzero.
+Each time a component calls <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetinstanceexplorer">SHGetInstanceExplorer</a>, the system calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method before returning the interface pointer to the calling component. The component then calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method when processing is complete. The process that calls <b>SHSetInstanceExplorer</b> must not terminate while the reference count of the provided interface pointer is nonzero.
 
-For further information on how components use the process references, see <a href="https://msdn.microsoft.com/ac6d8f7d-2eae-4b22-b493-b4ef740e3c95">SHGetInstanceExplorer</a>.
+For further information on how components use the process references, see <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetinstanceexplorer">SHGetInstanceExplorer</a>.
 
 
 
@@ -97,7 +97,7 @@ For further information on how components use the process references, see <a hre
 
 
 
-<a href="https://msdn.microsoft.com/ac6d8f7d-2eae-4b22-b493-b4ef740e3c95">SHGetInstanceExplorer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetinstanceexplorer">SHGetInstanceExplorer</a>
  
 
  

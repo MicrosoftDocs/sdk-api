@@ -52,7 +52,7 @@ ms.custom: 19H1
 Returns the range of periodicities supported by the engine for the specified stream format. The periodicity of the engine is the rate at which the engine wakes an event-driven audio client
     to transfer audio data to or from the engine.
     The values returned depend on the characteristics of the audio client as specified through a previous call to 
-    <a href="https://msdn.microsoft.com/B9B98EF9-C0E1-430A-9C79-1B414F4D67B5">IAudioClient2::SetClientProperties</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient2-setclientproperties">IAudioClient2::SetClientProperties</a>.
 
 
 
@@ -63,7 +63,7 @@ Returns the range of periodicities supported by the engine for the specified str
 
 ### -param pFormat [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/bd0f96ec-d26a-4e6f-8802-50e8ff207f54">WAVEFORMATEX</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a>*</b>
 
 The stream format for which the supported periodicities are queried. 
 
@@ -107,7 +107,7 @@ The longest period, in audio frames,  with which the audio engine will wake the 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 This method returns <b>S_OK</b> to indicate that it has completed successfully. Otherwise it returns an appropriate error code. 
 
@@ -118,7 +118,7 @@ This method returns <b>S_OK</b> to indicate that it has completed successfully. 
 
 
 
-Audio clients request a specific periodicity from the audio engine with the <i>PeriodInFrames</i> parameter to <a href="https://msdn.microsoft.com/2DB9ECEC-8199-4157-8854-26A21B88E58A">IAudioClient3::InitializeSharedAudioStream</a>. The value of <i>PeriodInFrames</i> must be an integral multiple of the value returned in the <i>pFundamentalPeriodInFrames</i> parameter.  <i>PeriodInFrames</i> must also be greater than or equal to the value returned in <i>pMinPeriodInFrames</i> and less than or equal to the value of <i>pMaxPeriodInFrames</i>.
+Audio clients request a specific periodicity from the audio engine with the <i>PeriodInFrames</i> parameter to <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient3-initializesharedaudiostream">IAudioClient3::InitializeSharedAudioStream</a>. The value of <i>PeriodInFrames</i> must be an integral multiple of the value returned in the <i>pFundamentalPeriodInFrames</i> parameter.  <i>PeriodInFrames</i> must also be greater than or equal to the value returned in <i>pMinPeriodInFrames</i> and less than or equal to the value of <i>pMaxPeriodInFrames</i>.
 
 For example, for a 44100 kHz format, <b>GetSharedModeEnginePeriod</b> might return:
 
@@ -148,7 +148,7 @@ They would NOT include 4 (which is smaller than the minimum allowed value) or 98
 
 
 
-<a href="https://msdn.microsoft.com/E8EFE682-E1BC-4D0D-A60E-DD257D6E5894">IAudioClient3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient3">IAudioClient3</a>
  
 
  

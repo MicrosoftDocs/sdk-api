@@ -102,7 +102,7 @@ Pointer to null-terminated string value containing the fully-specified strong na
 
 ### -param pAsmInfo [in, out]
 
-Pointer to the <a href="https://msdn.microsoft.com/4281b375-0edd-453b-9505-e7dc5bd586fc">ASSEMBLY_INFO</a> structure that receives the information.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/ns-winsxs-_assembly_info">ASSEMBLY_INFO</a> structure that receives the information.
 
 
 ## -returns
@@ -149,7 +149,7 @@ The method did not succeed.
 
 
 
-<a href="https://msdn.microsoft.com/6c411ae7-5a8f-47ca-a9c1-e23000f64620">IAssemblyCache</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nn-winsxs-iassemblycache">IAssemblyCache</a>
  
 
  

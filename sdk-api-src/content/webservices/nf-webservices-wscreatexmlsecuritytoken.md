@@ -60,7 +60,7 @@ Creates a security token from its specified XML form.
 
 ### -param tokenXml [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a> structure containing  the security token in its XML form.    The referenced buffer must have exactly
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> structure containing  the security token in its XML form.    The referenced buffer must have exactly
 one top level XML element.
 
 
@@ -94,7 +94,7 @@ message as carrying the claims present in the certificate.
 
 ### -param properties
 
-An array of  <a href="https://msdn.microsoft.com/en-us/library/Dd323557(v=VS.85).aspx">WS_XML_SECURITY_TOKEN_PROPERTY</a> structures containing optional properties for the XML security token.
+An array of  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_security_token_property">WS_XML_SECURITY_TOKEN_PROPERTY</a> structures containing optional properties for the XML security token.
 
 The value of this parameter may be <b>NULL</b>, in which case, the <i>propertyCount</i> parameter must be 0 (zero).
                 
@@ -108,19 +108,19 @@ The number of properties in the <i>properties</i> array.
 
 ### -param token
 
-On   success, a pointer that receives the address of the  <a href="https://msdn.microsoft.com/050a2ce5-279e-48fb-85da-1d0b11cd8229">WS_SECURITY_TOKEN</a> structure representing the created XML security token.
+On   success, a pointer that receives the address of the  <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-security-token">WS_SECURITY_TOKEN</a> structure representing the created XML security token.
                 
-                When you no longer need this structure, you must free it by calling <a href="https://msdn.microsoft.com/7f9500a8-b54f-4967-8f8d-9f8770d3dd60">WsFreeSecurityToken</a>.
+                When you no longer need this structure, you must free it by calling <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreesecuritytoken">WsFreeSecurityToken</a>.
                 
 
-The returned security token may be used with <a href="https://msdn.microsoft.com/en-us/library/Dd323568(v=VS.85).aspx">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a> if it is to be
+The returned security token may be used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_token_message_security_binding">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a> if it is to be
 
 presented to a service.
 
 
 ### -param error [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> structure  that receives additional error information if the function fails.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
                 
                 
 

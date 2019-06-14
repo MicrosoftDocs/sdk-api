@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ### -param ppEnum [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/b222deb8-22dd-44c3-9ecc-0fb379682796">IEnumTfDisplayAttributeInfo</a> interface pointer that receives the enumerator object. The caller must release this interface when it is no longer required.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfdisplayattributeinfo">IEnumTfDisplayAttributeInfo</a> interface pointer that receives the enumerator object. The caller must release this interface when it is no longer required.
 
 
 ## -returns
@@ -127,12 +127,12 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://msdn.microsoft.com/b222deb8-22dd-44c3-9ecc-0fb379682796">IEnumTfDisplayAttributeInfo
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfdisplayattributeinfo">IEnumTfDisplayAttributeInfo
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/c0346d5e-d4a2-4c72-90be-de5ff1681acd">ITfDisplayAttributeProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdisplayattributeprovider">ITfDisplayAttributeProvider</a>
  
 
  

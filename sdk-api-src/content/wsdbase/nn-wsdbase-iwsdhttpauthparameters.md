@@ -54,7 +54,7 @@ Use this interface to retrieve the access token or authorization scheme used dur
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDHttpAuthParameters</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWSDHttpAuthParameters</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDHttpAuthParameters</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSDHttpAuthParameters</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWSDHttpAuthParameters</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F5D218DD-474B-4562-8877-D159394AF365">GetAuthType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdhttpauthparameters-getauthtype">GetAuthType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the HTTP authentication scheme that was used for the authentication of the client.
@@ -78,7 +78,7 @@ Retrieves the HTTP authentication scheme that was used for the authentication of
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8E214497-151C-486B-8FE9-7B481AD403F9">GetClientAccessToken</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdhttpauthparameters-getclientaccesstoken">GetClientAccessToken</a>
 </td>
 <td align="left" width="63%">
 Retrieves the client access token that can be used to either authenticate or impersonate the client.
@@ -93,7 +93,7 @@ Retrieves the client access token that can be used to either authenticate or imp
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

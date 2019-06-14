@@ -67,7 +67,7 @@ Size of the structure, in bytes. The value must be <code>sizeof(VMR9ProcAmpContr
 
 ### -field dwProperty
 
-Specifies the image adjustment property to query, as a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd407373(v=VS.85).aspx">VMR9ProcAmpControlFlags</a> enumeration. The caller should set this field.
+Specifies the image adjustment property to query, as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ne-vmr9-__midl___midl_itf_vmr9_0000_0005_0002">VMR9ProcAmpControlFlags</a> enumeration. The caller should set this field.
 
 
 ### -field MinValue
@@ -95,11 +95,11 @@ Specifies the valid increments from <b>MinValue</b> to <b>MaxValue</b>. The driv
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390463(v=VS.85).aspx">IVMRMixerControl9::GetProcAmpControlRange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmixercontrol9-getprocampcontrolrange">IVMRMixerControl9::GetProcAmpControlRange</a>
  
 
  

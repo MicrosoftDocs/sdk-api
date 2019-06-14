@@ -63,7 +63,7 @@ The <b>EndSession</b> method ends a device session.
 
 ### -param type [in]
 
-A <a href="https://msdn.microsoft.com/e4ed41c0-521f-4da0-8361-287b64d74d77">WMDM_SESSION_TYPE</a> describing the type of session to end. This must be the same bitwise <b>OR</b> of the values specified in <a href="https://msdn.microsoft.com/7077e594-58ed-497d-893d-81eeb317b274">BeginSession</a>.
+A <a href="https://docs.microsoft.com/windows/desktop/WMDM/wmdm-session-type">WMDM_SESSION_TYPE</a> describing the type of session to end. This must be the same bitwise <b>OR</b> of the values specified in <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicesession-beginsession">BeginSession</a>.
 
 
 ### -param pCtx [in]
@@ -87,7 +87,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 
 
@@ -165,15 +165,15 @@ CHECK_HR(hr,"Closed the session.","Couldn't close the session.");
 
 
 
-<a href="https://msdn.microsoft.com/37a57fbe-d0f8-44ee-b6c5-2c6a34e12f2b">IWMDMDeviceSession Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevicesession">IWMDMDeviceSession Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/7077e594-58ed-497d-893d-81eeb317b274">IWMDMDeviceSession::BeginSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicesession-beginsession">IWMDMDeviceSession::BeginSession</a>
 
 
 
-<a href="https://msdn.microsoft.com/e4ed41c0-521f-4da0-8361-287b64d74d77">WMDM_SESSION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/wmdm-session-type">WMDM_SESSION_TYPE</a>
  
 
  

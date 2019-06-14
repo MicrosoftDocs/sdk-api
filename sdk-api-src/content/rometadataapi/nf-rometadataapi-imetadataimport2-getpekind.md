@@ -59,7 +59,7 @@ Gets a value identifying the nature of the code in the portable executable (PE) 
 
 ### -param pdwPEKind [out]
 
- A pointer to a value of the <a href="http://msdn.microsoft.com/en-us/library/ms230275.aspx">CorPEKind</a> enumeration that describes the PE file.
+ A pointer to a value of the <a href="https://docs.microsoft.com/dotnet/framework/unmanaged-api/metadata/corpekind-enumeration">CorPEKind</a> enumeration that describes the PE file.
 
 
 ### -param pdwMAchine [out]
@@ -139,7 +139,7 @@ IMAGE_FILE_MACHINE_AMD64
 
 
 
-<a href="https://msdn.microsoft.com/32c462e0-d4b8-44db-b24b-c86b46be85bf">IMetaDataImport2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport2">IMetaDataImport2</a>
  
 
  

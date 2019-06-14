@@ -164,7 +164,7 @@ The recognizer does not support this function.
 </dl>
 </td>
 <td width="60%">
-Either you have not called the <a href="https://msdn.microsoft.com/3ca3c743-83f9-46b0-851a-cba6e4ed980a">SetGuide</a> function before calling this function, or the guide has more than one box.
+Either you have not called the <a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-setguide">SetGuide</a> function before calling this function, or the guide has more than one box.
 
 </td>
 </tr>
@@ -186,7 +186,7 @@ The context is invalid or one of the parameters is an invalid pointer.
 </dl>
 </td>
 <td width="60%">
-Attempted to set guide when there was already some ink in the reco context, or, in the case of recognizers of East Asian characters, <a href="https://msdn.microsoft.com/3ca3c743-83f9-46b0-851a-cba6e4ed980a">SetGuide</a> was called previously.
+Attempted to set guide when there was already some ink in the reco context, or, in the case of recognizers of East Asian characters, <a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-setguide">SetGuide</a> was called previously.
 
 </td>
 </tr>

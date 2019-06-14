@@ -59,7 +59,7 @@ The <b>put_CCSubstreamService</b> method specifies which line 21 data channels t
 
 ### -param SubstreamMask [in]
 
-Bitwise combination of zero or more <a href="https://msdn.microsoft.com/1a55a9b1-6784-4a29-93aa-95aadaf6fb7e">KS_CC_SUBSTREAM</a> flags, specifying the line 21 services.
+Bitwise combination of zero or more <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/ks-cc-substream">KS_CC_SUBSTREAM</a> flags, specifying the line 21 services.
 
 
 ## -returns
@@ -106,7 +106,7 @@ Success
 
 
 
-<a href="https://msdn.microsoft.com/c34a3418-2ae5-45a6-9e3b-2bd7cf33d44b">IXDSCodec Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nn-encdec-ixdscodec">IXDSCodec Interface</a>
  
 
  

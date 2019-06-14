@@ -79,7 +79,7 @@ Returns S_OK or an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694646(v=VS.85).aspx">IMSVidStreamBufferSinkEvent Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidstreambuffersinkevent">IMSVidStreamBufferSinkEvent Interface</a>
  
 
  

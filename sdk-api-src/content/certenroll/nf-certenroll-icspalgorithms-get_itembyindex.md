@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ItemByIndex</b> property retrieves an <a href="https://msdn.microsoft.com/e3b87c45-44c2-4fc6-ac75-0bf125f3c4b3">ICspAlgorithm</a> object from the collection by index number. This property is web enabled.
+The <b>ItemByIndex</b> property retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509namevaluepair">ICspAlgorithm</a> object from the collection by index number. This property is web enabled.
 
 This property is read-only.
 
@@ -63,11 +63,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/e3b87c45-44c2-4fc6-ac75-0bf125f3c4b3">ICspAlgorithm</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509namevaluepair">ICspAlgorithm</a>
 
 
 
-<a href="https://msdn.microsoft.com/bbf8cff4-b1b2-480e-8c30-eb34166db143">ICspAlgorithms</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspalgorithms">ICspAlgorithms</a>
  
 
  

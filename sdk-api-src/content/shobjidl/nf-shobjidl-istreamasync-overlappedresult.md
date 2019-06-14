@@ -61,7 +61,7 @@ Retrieves the results of an overlapped operation.
 
 Type: <b>LPOVERLAPPED*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/2b5964e5-dfc8-44f9-86a7-5ea5acc68c1b">OVERLAPPED</a> structure that was specified when the overlapped operation was started.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/ns-shobjidl-_overlapped">OVERLAPPED</a> structure that was specified when the overlapped operation was started.
 
 
 ### -param lpNumberOfBytesTransferred [out]

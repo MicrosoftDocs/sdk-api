@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>FWPM_NET_EVENT_HEADER2</b> structure contains information common to all events.
-<div class="alert"><b>Note</b>  <b>FWPM_NET_EVENT_HEADER2</b> is the specific implementation of FWPM_NET_EVENT_HEADER available for Windows 8. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista and Windows 7, <a href="https://msdn.microsoft.com/2fbb805d-d38b-4918-a291-fe1000ac2ea2">FWPM_NET_EVENT_HEADER0</a> is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FWPM_NET_EVENT_HEADER2</b> is the specific implementation of FWPM_NET_EVENT_HEADER available for Windows 8. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista and Windows 7, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header0_">FWPM_NET_EVENT_HEADER0</a> is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -195,7 +195,7 @@ The <b>packageSid</b> member is set.
 
 ### -field ipVersion
 
-Type: <b><a href="https://msdn.microsoft.com/1712b83c-f32d-4981-9950-ab870a376182">FWP_IP_VERSION</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version_">FWP_IP_VERSION</a></b>
 
 The IP version being used. 
 
@@ -204,7 +204,7 @@ The IP version being used.
 
 Type: <b>UINT8</b>
 
-The IP protocol specified as an IPPROTO value. See the <a href="https://msdn.microsoft.com/6bf6e6c4-6268-479c-86a6-52e90cf317db">socket</a> reference topic for more information on possible protocol values.
+The IP protocol specified as an IPPROTO value. See the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> reference topic for more information on possible protocol values.
 
 
 ### -field localAddrV4
@@ -218,7 +218,7 @@ Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
 
 ### -field localAddrV6
 
-Type: <b><a href="https://msdn.microsoft.com/254ee02f-747d-46e4-9851-141db57e1aa7">FWP_BYTE_ARRAY16</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16_">FWP_BYTE_ARRAY16</a></b>
 
 The IPv6 local address.
 
@@ -236,7 +236,7 @@ Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
 
 ### -field remoteAddrV6
 
-Type: <b><a href="https://msdn.microsoft.com/254ee02f-747d-46e4-9851-141db57e1aa7">FWP_BYTE_ARRAY16</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16_">FWP_BYTE_ARRAY16</a></b>
 
 The IPv6 remote address.
 
@@ -266,7 +266,7 @@ The IPv6 scope ID.
 
 ### -field appId
 
-Type: <b><a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a></b>
 
 The application ID of the local application associated with the event.
 
@@ -280,7 +280,7 @@ The user ID corresponding to the traffic.
 
 ### -field addressFamily
 
-Type: <b><a href="https://msdn.microsoft.com/358305a6-e0a6-4d01-92be-fd88b3bd32a0">FWP_AF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ne_family_">FWP_AF</a></b>
 
 A superset of non-Internet protocols.
 
@@ -299,19 +299,19 @@ The security identifier (SID) representing the package identifier (also referred
 
 
 
-<a href="https://msdn.microsoft.com/358305a6-e0a6-4d01-92be-fd88b3bd32a0">FWP_AF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ne_family_">FWP_AF</a>
 
 
 
-<a href="https://msdn.microsoft.com/254ee02f-747d-46e4-9851-141db57e1aa7">FWP_BYTE_ARRAY16</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16_">FWP_BYTE_ARRAY16</a>
 
 
 
-<a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a>
 
 
 
-<a href="https://msdn.microsoft.com/1712b83c-f32d-4981-9950-ab870a376182">FWP_IP_VERSION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version_">FWP_IP_VERSION</a>
  
 
  

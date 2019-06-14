@@ -60,7 +60,7 @@ Gets the value of the service_id field from a Digital Video Broadcast (DVB) serv
 ### -param bRecordIndex [in]
 
 Specifies the service record number,
-  indexed from zero. Call the <a href="https://msdn.microsoft.com/8a3dd6b9-a7a1-49fd-806d-05c726bbe99e">IDvbServiceListDescriptor::GetCountOfRecords</a>method to get the number of records in the logical channel descriptor.
+  indexed from zero. Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbservicelistdescriptor-getcountofrecords">IDvbServiceListDescriptor::GetCountOfRecords</a>method to get the number of records in the logical channel descriptor.
 
 
 ### -param pwVal [out]
@@ -82,11 +82,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/0d39595b-0297-473d-9b0f-e038a938a196">IDvbServiceListDescriptor</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbservicelistdescriptor">IDvbServiceListDescriptor</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a3dd6b9-a7a1-49fd-806d-05c726bbe99e">IDvbServiceListDescriptor::GetCountOfRecords</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbservicelistdescriptor-getcountofrecords">IDvbServiceListDescriptor::GetCountOfRecords</a>
  
 
  

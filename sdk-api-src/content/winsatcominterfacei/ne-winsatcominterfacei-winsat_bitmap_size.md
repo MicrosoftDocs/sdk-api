@@ -74,7 +74,7 @@ Use an 80 x 80 bitmap (size is in pixels).
 
 
 
-<a href="https://msdn.microsoft.com/90188fb1-3125-459e-a475-5042c2ee0a5c">IProvideWinSATVisuals::get_Bitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatvisuals-get_bitmap">IProvideWinSATVisuals::get_Bitmap</a>
  
 
  

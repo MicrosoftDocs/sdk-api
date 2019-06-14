@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Closes a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a>. The 
+Closes a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a>. The 
     <b>PCLOSE_ROUTINE</b> type defines a pointer to this function.
 
 
@@ -76,7 +76,7 @@ Resource identifier of the resource to close.
 
 
 
-None. Call <a href="https://msdn.microsoft.com/d9da833f-36ca-4046-8d2f-cd4449dd3c63">SetLastError</a> to specify that an error has 
+None. Call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> to specify that an error has 
        occurred.
 
 
@@ -88,12 +88,12 @@ None. Call <a href="https://msdn.microsoft.com/d9da833f-36ca-4046-8d2f-cd4449dd3
 
 For effective implementation strategies of the <b>Close</b> 
      entry-point function, see 
-     <a href="https://msdn.microsoft.com/b3f99392-1402-4c8d-b16b-e20bda4173da">Implementing Close</a>.
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/implementing-close">Implementing Close</a>.
 
 
 #### Examples
 
-See <a href="https://msdn.microsoft.com/library/Aa372246(v=VS.85).aspx">Resource DLL Examples</a>.
+See <a href="https://docs.microsoft.com/previous-versions//aa372246(v=vs.85)">Resource DLL Examples</a>.
 
 <div class="code"></div>
 
@@ -104,7 +104,7 @@ See <a href="https://msdn.microsoft.com/library/Aa372246(v=VS.85).aspx">Resource
 
 
 
-<a href="https://msdn.microsoft.com/933d7b97-b5be-4c84-a983-41d1fd935c19">Resource DLL Entry-Point Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>
  
 
  

@@ -61,7 +61,7 @@ Removes a memory block that was  previously marked as excluded (it will again be
 
 ### -param address
 
-The starting address of the memory block. This memory block must have been registered using the <a href="https://msdn.microsoft.com/6CDA8EDD-C8A5-471D-9716-3AB29E571133">WerRegisterExcludedMemoryBlock</a> function.
+The starting address of the memory block. This memory block must have been registered using the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werregisterexcludedmemoryblock">WerRegisterExcludedMemoryBlock</a> function.
 
 
 ## -returns
@@ -82,7 +82,7 @@ This function returns <b>S_OK</b> on success or an error code on failure, includ
 </dl>
 </td>
 <td width="60%">
-The process state is not valid. For example, the process is in <a href="https://msdn.microsoft.com/9357786c-1992-4e28-ac75-c2dfda1df7f1">application recovery mode</a>.
+The process state is not valid. For example, the process is in <a href="https://docs.microsoft.com/windows/desktop/wsw/portal">application recovery mode</a>.
 
 </td>
 </tr>
@@ -97,15 +97,15 @@ The process state is not valid. For example, the process is in <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/4e28f379-5793-4d76-898e-d87a0291c034">WER Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/6CDA8EDD-C8A5-471D-9716-3AB29E571133">WerRegisterExcludedMemoryBlock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werregisterexcludedmemoryblock">WerRegisterExcludedMemoryBlock</a>
 
 
 
-<a href="https://msdn.microsoft.com/5c076588-779c-4cd2-9fd9-1db3039e37a2">Windows Error Reporting</a>
+<a href="https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
  
 
  

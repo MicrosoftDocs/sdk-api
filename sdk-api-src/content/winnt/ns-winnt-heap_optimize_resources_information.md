@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies  flags for a HeapOptimizeResources operation initiated with <a href="https://msdn.microsoft.com/33c262ca-5093-4f44-a8c6-09045bc90f60">HeapSetInformation</a>.
+Specifies  flags for a HeapOptimizeResources operation initiated with <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapsetinformation">HeapSetInformation</a>.
 
 
 ## -struct-fields
@@ -79,11 +79,11 @@ The <b>HEAP_OPTIMIZE_RESOURCES_CURRENT_VERSION</b> constant is available to fill
 
 
 
-<a href="https://msdn.microsoft.com/02a2a874-9ced-4b7d-8aad-4a7768639a32">Memory Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-structures">Memory Management Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7aeeb66-afd0-4871-81a3-e4619ac84293">PrefetchVirtualMemory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-prefetchvirtualmemory">PrefetchVirtualMemory</a>
  
 
  

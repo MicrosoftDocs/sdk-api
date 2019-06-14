@@ -75,13 +75,13 @@ If the method succeeds, it returns <b>S_OK</b>.
 
 
 
-Call the <b>GetEventDrivenCapable</b> method before     calling the <a href="https://msdn.microsoft.com/345a172b-11af-4c98-9f9c-54bfa38c5077">IAudioDeviceEndpoint::SetBuffer</a>method, which initializes the device endpoint and creates a buffer. This allows the device endpoint to set up the structures needed for driving events.
+Call the <b>GetEventDrivenCapable</b> method before     calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiodeviceendpoint-setbuffer">IAudioDeviceEndpoint::SetBuffer</a>method, which initializes the device endpoint and creates a buffer. This allows the device endpoint to set up the structures needed for driving events.
 
 If the audio engine requires an event driven device endpoint, it will:
 
 <ul>
-<li>Create an event and set the event handle on the device endpoint by calling the <a href="https://msdn.microsoft.com/9f0f216a-d785-42e9-b07d-f1f2568b5833">IAudioEndpoint::SetEventHandle</a> method.</li>
-<li>Specify event driven mode by setting the <b>AUDCLNT_STREAMFLAGS_EVENTCALLBACK</b> flag on the device endpoint by calling the <a href="https://msdn.microsoft.com/f6713912-ba7e-4e3e-95d9-8318c40a7042">IAudioEndpoint::SetStreamFlags</a> method.</li>
+<li>Create an event and set the event handle on the device endpoint by calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpoint-seteventhandle">IAudioEndpoint::SetEventHandle</a> method.</li>
+<li>Specify event driven mode by setting the <b>AUDCLNT_STREAMFLAGS_EVENTCALLBACK</b> flag on the device endpoint by calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpoint-setstreamflags">IAudioEndpoint::SetStreamFlags</a> method.</li>
 </ul>
 The Remote Desktop Services AudioEndpoint API is for use in Remote Desktop scenarios; it is not for client applications.
 
@@ -93,7 +93,7 @@ The Remote Desktop Services AudioEndpoint API is for use in Remote Desktop scena
 
 
 
-<a href="https://msdn.microsoft.com/3112bc7e-e138-4b42-8f82-61fdf19f7e94">IAudioDeviceEndpoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudiodeviceendpoint">IAudioDeviceEndpoint</a>
  
 
  

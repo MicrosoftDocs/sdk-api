@@ -59,7 +59,7 @@ Adds a class identifier (CLSID) to the blocked list, or removes a CLSID from the
 
 ### -param pluginType [in]
 
-Member of the <a href="https://msdn.microsoft.com/f967cf3f-582c-457a-ba75-980feb2d9bf3">MF_Plugin_Type</a> enumeration, specifying the type of object.
+Member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-_mf_plugin_type">MF_Plugin_Type</a> enumeration, specifying the type of object.
 
 
 ### -param clsid [in]
@@ -126,7 +126,7 @@ The blocked list is global to the caller's process. Calling this method does not
 
 
 
-<a href="https://msdn.microsoft.com/cdc6fd4f-c544-43bb-ba99-5468ef49949d">IMFPluginControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfplugincontrol">IMFPluginControl</a>
  
 
  

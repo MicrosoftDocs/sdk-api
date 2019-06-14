@@ -64,7 +64,7 @@ Specifies the size of the structure in bytes. This member must be initialized be
 
 ### -field pwszDeviceInterface
 
-Points to a null-terminated Unicode string that identifies the device interface for the device. The driver can pass the device interface to the <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> function to obtain access to the device.
+Points to a null-terminated Unicode string that identifies the device interface for the device. The driver can pass the device interface to the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function to obtain access to the device.
 
 
 ### -field GuidInstance

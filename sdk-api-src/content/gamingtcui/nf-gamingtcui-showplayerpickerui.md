@@ -131,7 +131,7 @@ Do not use. This API is only supported for Xbox developers.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 Do not use. This API is only supported for Xbox developers.
 

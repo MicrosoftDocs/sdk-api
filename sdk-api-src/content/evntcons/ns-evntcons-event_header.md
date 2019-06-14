@@ -82,7 +82,7 @@ Flags that provide information about the event such as the type of session it wa
 </dl>
 </td>
 <td width="60%">
-The <b>ExtendedData</b> member of <a href="https://msdn.microsoft.com/e352c1a7-39a2-43e3-a723-5fc6a3921ee8">EVENT_RECORD</a> contains data.
+The <b>ExtendedData</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_record">EVENT_RECORD</a> contains data.
 
 </td>
 </tr>
@@ -102,7 +102,7 @@ The event was logged to a private session. Use <b>ProcessorTime</b> for  elapsed
 </dl>
 </td>
 <td width="60%">
-The event data is a null-terminated Unicode string. You do not need a manifest to parse the <b>UserData</b> member of <a href="https://msdn.microsoft.com/e352c1a7-39a2-43e3-a723-5fc6a3921ee8">EVENT_RECORD</a>.
+The event data is a null-terminated Unicode string. You do not need a manifest to parse the <b>UserData</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_record">EVENT_RECORD</a>.
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ The event data is a null-terminated Unicode string. You do not need a manifest t
 </dl>
 </td>
 <td width="60%">
-The provider used <a href="https://msdn.microsoft.com/5d81c851-d47e-43f8-97b0-87156f36119a">TraceMessage</a> or <a href="https://msdn.microsoft.com/2cfb7226-fd29-432e-abfd-bd10c6344a67">TraceMessageVa</a> to log the event. Most providers do not use these functions to write events, so this flag typically indicates that the event was written by <a href="https://msdn.microsoft.com/3a6f441a-ae36-4cce-aa83-78a4e53c9b1a">Windows Software Trace Preprocessor</a> (WPP).
+The provider used <a href="https://docs.microsoft.com/windows/desktop/ETW/tracemessage">TraceMessage</a> or <a href="https://docs.microsoft.com/windows/desktop/ETW/tracemessageva">TraceMessageVa</a> to log the event. Most providers do not use these functions to write events, so this flag typically indicates that the event was written by <a href="https://docs.microsoft.com/windows/desktop/ETW/windows-software-trace-preprocessor">Windows Software Trace Preprocessor</a> (WPP).
 
 </td>
 </tr>
@@ -152,7 +152,7 @@ Indicates that the provider was running on a 64-bit computer.
 </dl>
 </td>
 <td width="60%">
-Indicates that provider used <a href="https://msdn.microsoft.com/9b21f6f0-dd9b-4f9c-a879-846901a3bab7">TraceEvent</a> to log the event.
+Indicates that provider used <a href="https://docs.microsoft.com/windows/desktop/ETW/traceevent">TraceEvent</a> to log the event.
 
 </td>
 </tr>
@@ -215,7 +215,7 @@ Identifies the process that generated the event.
 
 ### -field TimeStamp
 
-Contains the time that the event occurred. The resolution is system time unless the <b>ProcessTraceMode</b> member of <a href="https://msdn.microsoft.com/179451e9-7e3c-4d3a-bcc6-3ad9d382229a">EVENT_TRACE_LOGFILE</a> contains the PROCESS_TRACE_MODE_RAW_TIMESTAMP flag, in which case the resolution depends on the value of the <b>Wnode.ClientContext</b> member of <a href="https://msdn.microsoft.com/0c967971-8df1-4679-a8a9-a783f5b35860">EVENT_TRACE_PROPERTIES</a> at the time the controller created the session.
+Contains the time that the event occurred. The resolution is system time unless the <b>ProcessTraceMode</b> member of <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a> contains the PROCESS_TRACE_MODE_RAW_TIMESTAMP flag, in which case the resolution depends on the value of the <b>Wnode.ClientContext</b> member of <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> at the time the controller created the session.
 
 
 ### -field ProviderId
@@ -225,7 +225,7 @@ GUID that uniquely identifies the provider that logged the event.
 
 ### -field EventDescriptor
 
-Defines the information about the event such as the event identifier and severity level. For details, see <a href="https://msdn.microsoft.com/907e6c38-5eaa-49da-9dc0-d055dcc69d1a">EVENT_DESCRIPTOR</a>.
+Defines the information about the event such as the event identifier and severity level. For details, see <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_descriptor">EVENT_DESCRIPTOR</a>.
 
 
 ### -field DUMMYUNIONNAME
@@ -255,7 +255,7 @@ For private sessions, the elapsed execution time for user-mode instructions, in 
 
 ### -field ActivityId
 
-Identifier that relates two events. For details, see <a href="https://msdn.microsoft.com/798cf3ba-e1cc-4eaf-a1d2-2313a64aab1a">EventWriteTransfer</a>.
+Identifier that relates two events. For details, see <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwritetransfer">EventWriteTransfer</a>.
 
 
 ## -remarks
@@ -264,7 +264,7 @@ Identifier that relates two events. For details, see <a href="https://msdn.micro
 
 You can use the <b>KernelTime</b> and <b>UserTime</b> members to determine the CPU cost in units for a set of instructions (the values indicate the CPU usage charged to that thread at the time of logging). For example, if Event A and Event B are consecutively logged by the same thread and they have CPU usage numbers 150 and 175, then the activity that was performed by that thread between events A and B cost 25 CPU time units (175 – 150).
 
-The <b>TimerResolution</b> of the <a href="https://msdn.microsoft.com/13fdabe6-c904-4546-b876-c145f6a6c345">TRACE_LOGFILE_HEADER</a> structure contains the resolution of the CPU usage timer in 100-nanosecond units. You can use the timer resolution with the kernel time and user time values to determine the amount of CPU time that the set of instructions used. For example, if the timer resolution is 156,250, then 25 CPU time units is 0.39 seconds (156,250 * 25 * 100 / 1,000,000,000). This is the amount of CPU time (not elapsed wall clock time) used by the set of instructions between events A and B. 
+The <b>TimerResolution</b> of the <a href="https://docs.microsoft.com/windows/desktop/ETW/trace-logfile-header">TRACE_LOGFILE_HEADER</a> structure contains the resolution of the CPU usage timer in 100-nanosecond units. You can use the timer resolution with the kernel time and user time values to determine the amount of CPU time that the set of instructions used. For example, if the timer resolution is 156,250, then 25 CPU time units is 0.39 seconds (156,250 * 25 * 100 / 1,000,000,000). This is the amount of CPU time (not elapsed wall clock time) used by the set of instructions between events A and B. 
 
 
 
@@ -274,7 +274,7 @@ The <b>TimerResolution</b> of the <a href="https://msdn.microsoft.com/13fdabe6-c
 
 
 
-<a href="https://msdn.microsoft.com/e352c1a7-39a2-43e3-a723-5fc6a3921ee8">EVENT_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_record">EVENT_RECORD</a>
  
 
  

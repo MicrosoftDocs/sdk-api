@@ -97,11 +97,11 @@ Total number of bytes used by each surface.
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd376004(v=VS.85).aspx">IAMVideoAccelerator::GetCompBufferInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-getcompbufferinfo">IAMVideoAccelerator::GetCompBufferInfo</a>
  
 
  

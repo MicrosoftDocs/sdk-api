@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Queries the status of an earlier call to the <a href="https://msdn.microsoft.com/9e7824d2-0f76-4c4c-98c5-ba51cd297de7">IMFShutdown::Shutdown</a> method.
+Queries the status of an earlier call to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-shutdown">IMFShutdown::Shutdown</a> method.
         
 
 
@@ -61,7 +61,7 @@ Queries the status of an earlier call to the <a href="https://msdn.microsoft.com
 
 ### -param pStatus [out]
 
-Receives a member of the <a href="https://msdn.microsoft.com/a2257260-3f2c-4c6b-88cc-b8927b899782">MFSHUTDOWN_STATUS</a> enumeration.
+Receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-_mfshutdown_status">MFSHUTDOWN_STATUS</a> enumeration.
           
 
 
@@ -107,7 +107,7 @@ Invalid argument.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/9e7824d2-0f76-4c4c-98c5-ba51cd297de7">Shutdown</a> method has not been called on this object.
+The <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-shutdown">Shutdown</a> method has not been called on this object.
               
 
 </td>
@@ -122,9 +122,9 @@ The <a href="https://msdn.microsoft.com/9e7824d2-0f76-4c4c-98c5-ba51cd297de7">Sh
 
 
 
-Until <a href="https://msdn.microsoft.com/9e7824d2-0f76-4c4c-98c5-ba51cd297de7">Shutdown</a> is called, the <b>GetShutdownStatus</b> method returns <b>MF_E_INVALIDREQUEST</b>.
+Until <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-shutdown">Shutdown</a> is called, the <b>GetShutdownStatus</b> method returns <b>MF_E_INVALIDREQUEST</b>.
 
-If an object's <a href="https://msdn.microsoft.com/9e7824d2-0f76-4c4c-98c5-ba51cd297de7">Shutdown</a> method is asynchronous, <i>pStatus</i> might receive the value <b>MFSHUTDOWN_INITIATED</b>. When the object is completely shut down, <i>pStatus</i> receives the value <b>MFSHUTDOWN_COMPLETED</b>.
+If an object's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-shutdown">Shutdown</a> method is asynchronous, <i>pStatus</i> might receive the value <b>MFSHUTDOWN_INITIATED</b>. When the object is completely shut down, <i>pStatus</i> receives the value <b>MFSHUTDOWN_COMPLETED</b>.
 
 
 
@@ -134,7 +134,7 @@ If an object's <a href="https://msdn.microsoft.com/9e7824d2-0f76-4c4c-98c5-ba51c
 
 
 
-<a href="https://msdn.microsoft.com/c3052658-51bb-401b-8db9-3428868899d6">IMFShutdown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfshutdown">IMFShutdown</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/2cd93bc9-4a42-4e16-80aa-4ecf5900f5e4">IMFProtectedEnvironmentAccess</a> object that allows content protection systems to perform a handshake with the protected environment.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfprotectedenvironmentaccess">IMFProtectedEnvironmentAccess</a> object that allows content protection systems to perform a handshake with the protected environment.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Creates an <a href="https://msdn.microsoft.com/2cd93bc9-4a42-4e16-80aa-4ecf5900f
 
 ### -param ppAccess [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/2cd93bc9-4a42-4e16-80aa-4ecf5900f5e4">IMFProtectedEnvironmentAccess</a> interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfprotectedenvironmentaccess">IMFProtectedEnvironmentAccess</a> interface.
 
 
 ## -see-also
@@ -67,15 +67,15 @@ Receives a pointer to the <a href="https://msdn.microsoft.com/2cd93bc9-4a42-4e16
 
 
 
-<a href="https://msdn.microsoft.com/805473c4-a2c9-483a-9a2c-29a9c63dd58c">Call</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfprotectedenvironmentaccess-call">Call</a>
 
 
 
-<a href="https://msdn.microsoft.com/2cd93bc9-4a42-4e16-80aa-4ecf5900f5e4">IMFProtectedEnvironmentAccess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfprotectedenvironmentaccess">IMFProtectedEnvironmentAccess</a>
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

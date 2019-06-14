@@ -61,7 +61,7 @@ Gets the current view mode of the current folder.
 
 Type: <b>uint*</b>
 
-When this method returns, contains a pointer to an unsigned integer that represents the current view mode. For a list of possible values see <a href="https://msdn.microsoft.com/16b92115-6e7d-41d3-960d-6783d779224c">FOLDERVIEWMODE</a>.
+When this method returns, contains a pointer to an unsigned integer that represents the current view mode. For a list of possible values see <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderviewmode">FOLDERVIEWMODE</a>.
 
 
 ## -returns
@@ -80,11 +80,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/f53b779e-a015-4b17-b04d-e0739cba8168">IShellFolderViewDual2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual2">IShellFolderViewDual2</a>
 
 
 
-<a href="https://msdn.microsoft.com/80f0e24e-8104-472e-b1d9-58d42f3925fe">IShellFolderViewDual2::put_CurrentViewMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual2-put_currentviewmode">IShellFolderViewDual2::put_CurrentViewMode</a>
  
 
  

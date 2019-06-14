@@ -87,7 +87,7 @@ If no part of the specified rectangle lies within the boundaries of the region, 
 
 
 
-<a href="https://msdn.microsoft.com/6fab6126-4672-49d6-825b-66a7927a7e99">PtInRegion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-ptinregion">PtInRegion</a>
 
 
 
@@ -95,11 +95,11 @@ If no part of the specified rectangle lies within the boundaries of the region, 
 
 
 
-<a href="https://msdn.microsoft.com/3a42fc7a-4c07-4540-99a7-520f99532f33">Region Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/region-functions">Region Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d2e8624-4d1a-44f7-821e-a54f6f538214">Regions Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/regions">Regions Overview</a>
  
 
  

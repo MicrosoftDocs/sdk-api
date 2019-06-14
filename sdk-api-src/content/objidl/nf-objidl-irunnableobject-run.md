@@ -59,7 +59,7 @@ Forces an object to run.
 
 ### -param pbc [in]
 
-A pointer to the binding context of the run operation. See <a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a>. This parameter can be <b>NULL</b>.
+A pointer to the binding context of the run operation. See <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>. This parameter can be <b>NULL</b>.
 
 
 ## -returns
@@ -78,15 +78,15 @@ This method can return the standard return values E_INVALIDARG, E_UNEXPECTED, an
 Containers call <b>IRunnableObject::Run</b> to force their objects to enter the running state. If the object is not already running, calling <b>Run</b> can be an expensive operation, on the order of many seconds. If the object is already running, then this method has no effect on the object.
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-When called on a linked object that has been converted to a new class since the link was last activated, <b>IRunnableObject::Run</b> may return OLE_E_CLASSDIFF. In this case, the client should call <a href="https://msdn.microsoft.com/1fadd27d-cb2c-47fc-891a-16f82bdac0f6">IOleLink::BindToSource</a>.
+When called on a linked object that has been converted to a new class since the link was last activated, <b>IRunnableObject::Run</b> may return OLE_E_CLASSDIFF. In this case, the client should call <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-bindtosource">IOleLink::BindToSource</a>.
 
 
-<a href="https://msdn.microsoft.com/9035f996-b163-4855-aa9d-184b77072ead">OleRun</a> is a helper function that conveniently repackages the functionality offered by <b>IRunnableObject::Run</b>. With the release of OLE 2.01, the implementation of <b>OleRun</b> was changed so that it calls <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a>, asks for <a href="https://msdn.microsoft.com/c682447b-5b12-41d5-a81d-fe94a117f740">IRunnableObject</a>, and then calls <b>IRunnableObject::Run</b>. In other words, you can use the interface and the helper function interchangeably.
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olerun">OleRun</a> is a helper function that conveniently repackages the functionality offered by <b>IRunnableObject::Run</b>. With the release of OLE 2.01, the implementation of <b>OleRun</b> was changed so that it calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a>, asks for <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irunnableobject">IRunnableObject</a>, and then calls <b>IRunnableObject::Run</b>. In other words, you can use the interface and the helper function interchangeably.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 The object should register in the running object table if it has a moniker assigned. The object should not hold any strong locks on itself; instead, it should remain in the unstable, unlocked state. The object should be locked when the first external connection is made to the object.
 
-An embedded object must hold a lock on its embedding container while it is in the running state. The default handler provided by OLE 2 takes care of locking the embedding container on behalf of objects implemented by an EXE object application. Objects implemented by a DLL object application must explicitly put a lock on their embedding containers, which they do by first calling <a href="https://msdn.microsoft.com/8f0caf07-f059-4e0c-9c28-c7ad0cc149e3">IOleClientSite::GetContainer</a> to get a pointer to the container, then calling <a href="https://msdn.microsoft.com/31b9961a-29a2-48bf-9d39-d86718983682">IOleContainer::LockContainer</a> to actually place the lock. This lock must be released when <a href="https://msdn.microsoft.com/61ecd153-ed6b-4a2c-a862-54742c5769ee">IOleObject::Close</a> is called.
+An embedded object must hold a lock on its embedding container while it is in the running state. The default handler provided by OLE 2 takes care of locking the embedding container on behalf of objects implemented by an EXE object application. Objects implemented by a DLL object application must explicitly put a lock on their embedding containers, which they do by first calling <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleclientsite-getcontainer">IOleClientSite::GetContainer</a> to get a pointer to the container, then calling <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecontainer-lockcontainer">IOleContainer::LockContainer</a> to actually place the lock. This lock must be released when <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-close">IOleObject::Close</a> is called.
 
 
 
@@ -96,11 +96,11 @@ An embedded object must hold a lock on its embedding container while it is in th
 
 
 
-<a href="https://msdn.microsoft.com/c682447b-5b12-41d5-a81d-fe94a117f740">IRunnableObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irunnableobject">IRunnableObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/9035f996-b163-4855-aa9d-184b77072ead">OleRun</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olerun">OleRun</a>
  
 
  

@@ -111,15 +111,15 @@ The target is stopped.
 
 
 
-<a href="https://msdn.microsoft.com/4f4e8883-9f89-47c2-919f-44f4c6e44591">Remote Desktop Virtualization API reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/TermServ/terminal-services-virtualization-api-reference">Remote Desktop Virtualization API reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/5ba5c4c6-b644-45f7-8942-ee8ea543138d">SetTargetState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcepluginstore-settargetstate">SetTargetState</a>
 
 
 
-<a href="https://msdn.microsoft.com/0913e997-d3f0-44a3-977f-eb760489c43b">TargetState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbtarget-get_targetstate">TargetState</a>
  
 
  

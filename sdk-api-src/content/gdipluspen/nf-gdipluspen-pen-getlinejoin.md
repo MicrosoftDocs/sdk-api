@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>Pen::GetLineJoin</b> method gets the line join style currently set for this 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object.
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object.
 
 
 ## -parameters
@@ -65,11 +65,11 @@ The <b>Pen::GetLineJoin</b> method gets the line join style currently set for th
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534148(v=VS.85).aspx">LineJoin</a></b>
+Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linejoin">LineJoin</a></b>
 </strong>
 
 This method returns an element of the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534148(v=VS.85).aspx">LineJoin</a> enumeration that indicates the style used at the point where line segments join.
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linejoin">LineJoin</a> enumeration that indicates the style used at the point where line segments join.
 
 
 
@@ -79,19 +79,19 @@ This method returns an element of the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533853(v=VS.85).aspx">Joining Lines</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-joining-lines-use">Joining Lines</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535053(v=VS.85).aspx">Pen::SetLineJoin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-setlinejoin">Pen::SetLineJoin</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
  
 
  

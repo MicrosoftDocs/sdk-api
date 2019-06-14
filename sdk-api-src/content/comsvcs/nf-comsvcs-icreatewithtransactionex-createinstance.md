@@ -91,7 +91,7 @@ This method can return the following values:
 
 
 
-<a href="https://msdn.microsoft.com/39b455d3-d3d2-46ae-a45e-b036c18e45bc">ICreateWithTransactionEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icreatewithtransactionex">ICreateWithTransactionEx</a>
  
 
  

@@ -59,7 +59,7 @@ Updates the bookmark with information that identifies the specified event.
 
 ### -param Bookmark [in]
 
-The handle to the bookmark to be updated. The <a href="https://msdn.microsoft.com/1020d923-090b-48fc-96c2-394db5cd241e">EvtCreateBookmark</a> function returns this handle.
+The handle to the bookmark to be updated. The <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtcreatebookmark">EvtCreateBookmark</a> function returns this handle.
 
 
 ### -param Event [in]
@@ -96,7 +96,7 @@ The function succeeded.
 </dl>
 </td>
 <td width="60%">
-The function failed. Call the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function to get the error code.
+The function failed. Call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to get the error code.
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ The function failed. Call the <a href="https://msdn.microsoft.com/d852e148-985c-
 
 
 
-<a href="https://msdn.microsoft.com/1020d923-090b-48fc-96c2-394db5cd241e">EvtCreateBookmark</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtcreatebookmark">EvtCreateBookmark</a>
  
 
  

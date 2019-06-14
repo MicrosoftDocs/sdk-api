@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SID_AND_ATTRIBUTES</b> structure represents a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) and its attributes. SIDs are used to uniquely identify users or groups.
+The <b>SID_AND_ATTRIBUTES</b> structure represents a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) and its attributes. SIDs are used to uniquely identify users or groups.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ The <b>SID_AND_ATTRIBUTES</b> structure represents a <a href="https://msdn.micro
 
 ### -field Sid
 
-A pointer to a <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure.
 
 
 ### -field Attributes
@@ -71,7 +71,7 @@ Specifies attributes of the SID. This value contains up to 32 one-bit flags. Its
 
 
 
-A group is represented by a SID. SIDs have attributes that indicate whether they are currently enabled, disabled, or mandatory. SIDs also indicate how these attributes are used. A <b>SID_AND_ATTRIBUTES</b> structure can represent a SID whose attributes change frequently. For example, <b>SID_AND_ATTRIBUTES</b> is used to represent groups in the <a href="https://msdn.microsoft.com/387dd7f8-4177-40fa-b5fd-bb4b371a0e64">TOKEN_GROUPS</a> structure.
+A group is represented by a SID. SIDs have attributes that indicate whether they are currently enabled, disabled, or mandatory. SIDs also indicate how these attributes are used. A <b>SID_AND_ATTRIBUTES</b> structure can represent a SID whose attributes change frequently. For example, <b>SID_AND_ATTRIBUTES</b> is used to represent groups in the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_groups">TOKEN_GROUPS</a> structure.
 
 
 
@@ -81,15 +81,15 @@ A group is represented by a SID. SIDs have attributes that indicate whether they
 
 
 
-<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
 
 
 
-<a href="https://msdn.microsoft.com/387dd7f8-4177-40fa-b5fd-bb4b371a0e64">TOKEN_GROUPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_groups">TOKEN_GROUPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/5dd8172d-7b1a-4cc0-b667-5fe91d278393">TOKEN_USER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_user">TOKEN_USER</a>
  
 
  

@@ -59,7 +59,7 @@ Gets the list of capabilities requested by the package.
 
 ### -param capabilities [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/4912BCB0-424B-40F9-BBD1-3AD0A60B3320">APPX_CAPABILITIES</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_capabilities">APPX_CAPABILITIES</a>*</b>
 
 The list of capabilities requested by the package. This is a bitwise combination of  the values of the enumeration.
 
@@ -79,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Capabilities are specified using the <a href="https://msdn.microsoft.com/ee6bf220-f139-4ad9-a7a7-e621c189b907">Capability</a> element in the package manifest.
+Capabilities are specified using the <a href="https://docs.microsoft.com/uwp/schemas/appxpackage/appxmanifestschema/element-capability">Capability</a> element in the package manifest.
 
 If no package capabilities are defined in the manifest, this method returns <b>S_OK</b> with a zero value.
 
@@ -91,7 +91,7 @@ If no package capabilities are defined in the manifest, this method returns <b>S
 
 
 
-<a href="https://msdn.microsoft.com/3DA45F2F-7088-4A9B-968C-91E402CAA412">IAppxManifestReader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestreader">IAppxManifestReader</a>
  
 
  

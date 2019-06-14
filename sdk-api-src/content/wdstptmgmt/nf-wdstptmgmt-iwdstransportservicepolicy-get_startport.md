@@ -73,7 +73,7 @@ When setting the UDP start port, this property validates that it is a valid valu
 
 
 
-<a href="https://msdn.microsoft.com/0a522633-87da-426c-9778-30949257e931">IWdsTransportServicePolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportservicepolicy">IWdsTransportServicePolicy</a>
  
 
  

@@ -64,12 +64,12 @@ The body of the message.
 
 ### -param pOperation [in]
 
-Reference to a <a href="https://msdn.microsoft.com/fcd4895d-5357-4b73-90b9-e506e3d7f16e">WSD_OPERATION</a> structure that specifies the operation to perform.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_operation">WSD_OPERATION</a> structure that specifies the operation to perform.
 
 
 ### -param pResponseContext [in, optional]
 
- Reference to a <a href="https://msdn.microsoft.com/591cf076-f55f-4e78-aa5e-94ea8db3d102">WSD_SYNCHRONOUS_RESPONSE_CONTEXT</a> structure or other context structure that specifies the context for handling the response to the request. 
+ Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_synchronous_response_context">WSD_SYNCHRONOUS_RESPONSE_CONTEXT</a> structure or other context structure that specifies the context for handling the response to the request. 
 
 
 
@@ -121,7 +121,7 @@ This method is normally only called by generated proxy code.
 
 
 
-<a href="https://msdn.microsoft.com/591cf076-f55f-4e78-aa5e-94ea8db3d102">WSD_SYNCHRONOUS_RESPONSE_CONTEXT</a> is used for the <i>responseContext</i> value when a synchronous call pattern is used. 
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_synchronous_response_context">WSD_SYNCHRONOUS_RESPONSE_CONTEXT</a> is used for the <i>responseContext</i> value when a synchronous call pattern is used. 
 
 
 
@@ -131,7 +131,7 @@ This method is normally only called by generated proxy code.
 
 
 
-<a href="https://msdn.microsoft.com/58ca085f-8939-413c-8fd3-4d867b1cf490">IWSDEndpointProxy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdendpointproxy">IWSDEndpointProxy</a>
  
 
  

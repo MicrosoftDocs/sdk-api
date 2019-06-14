@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>RpcBindingUnbind</b> function unbinds a binding handle previously bound by <a href="https://msdn.microsoft.com/dbc73a66-b1ca-4a53-b662-430b611f8c20">RpcBindingBind</a>.
+The <b>RpcBindingUnbind</b> function unbinds a binding handle previously bound by <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcbindingbind">RpcBindingBind</a>.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>RpcBindingUnbind</b> function unbinds a binding handle previously bound b
 ### -param Binding [in]
 
 
-<a href="https://msdn.microsoft.com/3e07d9e9-04d8-4f94-8104-cd0ee89a9407">RPC_BINDING_HANDLE</a> structure that contains the binding handle to unbind from the RPC server.
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-binding-handle">RPC_BINDING_HANDLE</a> structure that contains the binding handle to unbind from the RPC server.
 
 
 ## -returns
@@ -70,7 +70,7 @@ The <b>RpcBindingUnbind</b> function unbinds a binding handle previously bound b
 This function returns RPC_S_OK on success; otherwise, an RPC_S_* error code is returned.
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -79,11 +79,11 @@ This function returns RPC_S_OK on success; otherwise, an RPC_S_* error code is r
 
 
 
-<b>RpcBindingUnbind</b> unbinds a previously bound binding handle from an RPC server. An unbound handle can be modified with calls like <a href="https://msdn.microsoft.com/bc721fb0-2271-4658-995b-a41e8eefc5d5">RpcBindingSetOption</a> and <a href="https://msdn.microsoft.com/2438816c-995e-4398-999d-48a3538eec18">RpcBindingSetAuthInfoEx</a>. A binding handle in the unbound state can be bound again and re-used to make calls.
+<b>RpcBindingUnbind</b> unbinds a previously bound binding handle from an RPC server. An unbound handle can be modified with calls like <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetoption">RpcBindingSetOption</a> and <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa">RpcBindingSetAuthInfoEx</a>. A binding handle in the unbound state can be bound again and re-used to make calls.
 
 The results of an unbind operation are undefined if it is called on a binding handle that currently has RPC calls in progress at the time of unbinding. It is the responsibility of the caller to ensure that no calls are in progress at the time an unbind operation is attempted.
 
-Note that calling <b>RpcBindingUnbind</b> does not necessarily disconnect the client from the server. It will invalidate any cached information used by the binding handle, but actually disconnection is not ensured. To ensure disconnection, free the binding handle with <a href="https://msdn.microsoft.com/0f85e64f-b4a6-4982-8df5-88caa0a312f6">RpcBindingFree</a>.
+Note that calling <b>RpcBindingUnbind</b> does not necessarily disconnect the client from the server. It will invalidate any cached information used by the binding handle, but actually disconnection is not ensured. To ensure disconnection, free the binding handle with <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfree">RpcBindingFree</a>.
 
 <b>Windows Vista:  </b>Currently, this function supports only the <b>ncalrpc</b> protocol sequence.
 
@@ -95,11 +95,11 @@ Note that calling <b>RpcBindingUnbind</b> does not necessarily disconnect the cl
 
 
 
-<a href="https://msdn.microsoft.com/dbc73a66-b1ca-4a53-b662-430b611f8c20">RpcBindingBind</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcbindingbind">RpcBindingBind</a>
 
 
 
-<a href="https://msdn.microsoft.com/0f85e64f-b4a6-4982-8df5-88caa0a312f6">RpcBindingFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfree">RpcBindingFree</a>
  
 
  

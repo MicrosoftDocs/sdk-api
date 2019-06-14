@@ -103,7 +103,7 @@ The stop-on-silence threshold has been reached.
 
 
 
-<a href="https://msdn.microsoft.com/90594778-712e-4d26-9fe5-cb5cfd240359">ITFileTerminalEvent::get_Cause</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itfileterminalevent-get_cause">ITFileTerminalEvent::get_Cause</a>
  
 
  

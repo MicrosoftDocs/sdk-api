@@ -61,7 +61,7 @@ Retrieves an option value from the Vendor Specific Information field (43) of a D
 ### -param pPacket [in]
 
 Pointer to a reply packet allocated with the 
-      <a href="https://msdn.microsoft.com/f3a664a8-565c-4894-bea7-6664df0ecd9b">PxePacketAllocate</a> function.
+      <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxepacketallocate">PxePacketAllocate</a> function.
 
 
 ### -param uPacketLen [in]
@@ -136,7 +136,7 @@ The option was not located.
 </td>
 <td width="60%">
 The packet is not a valid DHCP packet. This test is not as thorough as the tests used by the 
-        <a href="https://msdn.microsoft.com/b5f43afb-ab71-4edf-a48a-7315d19af913">PxeDhcpIsValid</a> function; only the packet length and 
+        <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxedhcpisvalid">PxeDhcpIsValid</a> function; only the packet length and 
         magic cookie are verified.
 
 </td>
@@ -152,15 +152,15 @@ The packet is not a valid DHCP packet. This test is not as thorough as the tests
 
 
 
-<a href="https://msdn.microsoft.com/831a830c-337c-4151-932b-db4783fc924e">PxeDhcpGetOptionValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxedhcpgetoptionvalue">PxeDhcpGetOptionValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/f3a664a8-565c-4894-bea7-6664df0ecd9b">PxePacketAllocate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxepacketallocate">PxePacketAllocate</a>
 
 
 
-<a href="https://msdn.microsoft.com/b6089ff9-4d74-4f5d-957f-4a741c09f4b9">Windows Deployment Services Server Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>
  
 
  

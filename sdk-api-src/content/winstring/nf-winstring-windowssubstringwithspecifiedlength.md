@@ -62,7 +62,7 @@ Retrieves a substring from the specified string. The substring starts at a speci
 
 ### -param string [in]
 
-Type: <b><a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a></b>
 
 The original string.
 
@@ -83,7 +83,7 @@ The number of characters in the substring.
 
 ### -param newString [out]
 
-Type: <b><a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>*</b>
 
 A string that is equivalent to the substring that begins at <i>startIndex</i> in <i>string</i>, or <b>NULL</b> if <i>startIndex</i> is equal to the length of <i>string</i>.
 
@@ -155,7 +155,7 @@ Failed to allocate the new substring.
 
 
 
-Each call to the <b>WindowsSubstringWithSpecifiedLength</b> function must be matched with a corresponding call to <a href="https://msdn.microsoft.com/79B9E5CF-396C-45FB-931B-7B50281A0446">WindowsDeleteString</a>.
+Each call to the <b>WindowsSubstringWithSpecifiedLength</b> function must be matched with a corresponding call to <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a>.
 
 
 
@@ -165,7 +165,7 @@ Each call to the <b>WindowsSubstringWithSpecifiedLength</b> function must be mat
 
 
 
-<a href="https://msdn.microsoft.com/79B9E5CF-396C-45FB-931B-7B50281A0446">WindowsDeleteString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a>
  
 
  

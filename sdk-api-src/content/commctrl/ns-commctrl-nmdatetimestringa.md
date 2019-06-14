@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information specific to an edit operation that has taken place in a date and time picker (DTP) control. This message is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb761745(v=VS.85).aspx">DTN_USERSTRING</a> notification code. 
+Contains information specific to an edit operation that has taken place in a date and time picker (DTP) control. This message is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/dtn-userstring">DTN_USERSTRING</a> notification code. 
 
 
 ## -struct-fields
@@ -61,29 +61,29 @@ Contains information specific to an edit operation that has taken place in a dat
 
 ### -field nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about this notification code. 
+An <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that contains information about this notification code. 
 
 
 ### -field pszUserString
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCTSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
 
 The address of the zero-terminated string that the user entered. 
 
 
 ### -field st
 
-Type: <b><a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a></b>
 
-A <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure that must be filled in by the owner when handling the <a href="https://msdn.microsoft.com/en-us/library/Bb761745(v=VS.85).aspx">DTN_USERSTRING</a> notification code. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that must be filled in by the owner when handling the <a href="https://docs.microsoft.com/windows/desktop/Controls/dtn-userstring">DTN_USERSTRING</a> notification code. 
 
 
 ### -field dwFlags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 The return field. Set this member to GDT_VALID to indicate that the 
-					<b>st</b> member is valid or to GDT_NONE to set the control to "no date" status (<a href="https://msdn.microsoft.com/en-us/library/Bb761728(v=VS.85).aspx">DTS_SHOWNONE</a> style only). 
+					<b>st</b> member is valid or to GDT_NONE to set the control to "no date" status (<a href="https://docs.microsoft.com/windows/desktop/Controls/date-and-time-picker-control-styles">DTS_SHOWNONE</a> style only). 
 

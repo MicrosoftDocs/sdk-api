@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Used with the <a href="https://msdn.microsoft.com/6755dcd4-e4a0-423f-9dcc-b9719c8e5c88">IOCTL_STORAGE_QUERY_PROPERTY</a> control code to retrieve information about a device's write cache property.
+Used with the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> control code to retrieve information about a device's write cache property.
 
 
 ## -struct-fields
@@ -70,7 +70,7 @@ Specifies the total size of the data returned, in bytes. This may include data t
 
 ### -field WriteCacheType
 
-A value from the <a href="https://msdn.microsoft.com/fb861a65-5207-4af3-b994-0883febcbb0a">WRITE_CACHE_TYPE</a> enumeration 
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_write_cache_type">WRITE_CACHE_TYPE</a> enumeration 
       that indicates the current write cache type.
 
 <table>
@@ -128,7 +128,7 @@ The device has a write-through cache.
 
 ### -field WriteCacheEnabled
 
-A value from the <a href="https://msdn.microsoft.com/3ed8bc79-d8f9-4a57-a37c-46202d639a63">WRITE_CACHE_ENABLE</a> enumeration 
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_write_cache_enable">WRITE_CACHE_ENABLE</a> enumeration 
       that indicates whether the write cache is enabled.
 
 <table>
@@ -175,7 +175,7 @@ The device's write cache is enabled.
 
 ### -field WriteCacheChangeable
 
-A value from the <a href="https://msdn.microsoft.com/a6974092-fa4f-4524-96ec-b4fad0b8c5ea">WRITE_CACHE_CHANGE</a> enumeration that 
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_write_cache_change">WRITE_CACHE_CHANGE</a> enumeration that 
       indicates whether if the host can change the write cache characteristics.
 
 <table>
@@ -222,7 +222,7 @@ Host software can change the characteristics of the device's write cache
 
 ### -field WriteThroughSupported
 
-A value from the <a href="https://msdn.microsoft.com/8bb26be1-ad02-4cf0-8505-021f922f34bf">WRITE_THROUGH</a> enumeration that indicates whether the device supports write-through caching.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_write_through">WRITE_THROUGH</a> enumeration that indicates whether the device supports write-through caching.
 
 <table>
 <tr>
@@ -293,11 +293,11 @@ A <b>BOOLEAN</b> value that indicates whether the device has a battery backup fo
 
 
 
-<a href="https://msdn.microsoft.com/dd55c570-68b5-4dc5-9fd0-a6e3277c318b">Disk Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-structures">Disk Management Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/6755dcd4-e4a0-423f-9dcc-b9719c8e5c88">IOCTL_STORAGE_QUERY_PROPERTY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
  
 
  

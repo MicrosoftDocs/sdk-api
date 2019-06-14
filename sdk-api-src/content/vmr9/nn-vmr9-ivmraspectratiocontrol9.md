@@ -51,14 +51,14 @@ ms.custom: 19H1
 
 
 
-The <code>IVMRAspectRatioControl9</code> interface controls whether the <a href="https://msdn.microsoft.com/3885cca2-74b1-4066-8ecb-84c9841f9e66">Video Mixing Renderer Filter 9</a> (VMR-9) preserves the aspect ratio of the source video. This interface is available when the VMR is operating in either windowed or windowless modes. In windowless mode, the same functionality is provided by the <a href="https://msdn.microsoft.com/en-us/library/Dd390536(v=VS.85).aspx">IVMRWindowlessControl</a> interface.
+The <code>IVMRAspectRatioControl9</code> interface controls whether the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-9">Video Mixing Renderer Filter 9</a> (VMR-9) preserves the aspect ratio of the source video. This interface is available when the VMR is operating in either windowed or windowless modes. In windowless mode, the same functionality is provided by the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrwindowlesscontrol">IVMRWindowlessControl</a> interface.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRAspectRatioControl9</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IVMRAspectRatioControl9</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRAspectRatioControl9</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRAspectRatioControl9</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IVMRAspectRatioControl9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377344(v=VS.85).aspx">GetAspectRatioMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmraspectratiocontrol9-getaspectratiomode">GetAspectRatioMode</a>
 </td>
 <td align="left" width="63%">
 Queries whether the VMR will preserve the aspect ratio of the source video.
@@ -82,7 +82,7 @@ Queries whether the VMR will preserve the aspect ratio of the source video.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377345(v=VS.85).aspx">SetAspectRatioMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmraspectratiocontrol9-setaspectratiomode">SetAspectRatioMode</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the VMR will preserve the aspect ratio of the source video.
@@ -97,7 +97,7 @@ Specifies whether the VMR will preserve the aspect ratio of the source video.
 
 
 
-<a href="https://msdn.microsoft.com/3d0fdfac-ec7e-4e02-886b-2039c607dac7">Using the Video Mixing Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
  
 
  

@@ -60,14 +60,14 @@ Draw non-indexed, non-instanced primitives.
 
 ### -param VertexCount [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of vertices to draw.
 
 
 ### -param StartVertexLocation [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Index of the first vertex, which is usually an offset in a vertex buffer.
 
@@ -89,7 +89,7 @@ Returns nothing.
 
 The vertex data for a draw call normally comes from a vertex buffer that is bound to the pipeline.
 
-Even without any vertex buffer bound to the pipeline, you can generate your own vertex data in your vertex shader by using the <a href="https://msdn.microsoft.com/en-us/library/Bb509647(v=VS.85).aspx">SV_VertexID</a> system-value semantic to determine the current vertex that the runtime is processing.
+Even without any vertex buffer bound to the pipeline, you can generate your own vertex data in your vertex shader by using the <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-semantics">SV_VertexID</a> system-value semantic to determine the current vertex that the runtime is processing.
 
 
 
@@ -99,7 +99,7 @@ Even without any vertex buffer bound to the pipeline, you can generate your own 
 
 
 
-<a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
  
 
  

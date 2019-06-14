@@ -113,11 +113,11 @@ If a catalog reset occurs, the search service resets the entire catalog and upda
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb231458(v=VS.85).aspx">ISearchNotifyInlineSite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchnotifyinlinesite">ISearchNotifyInlineSite</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb266528(v=VS.85).aspx">Notifying the Index of Changes</a>
+<a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-notifyingofchanges">Notifying the Index of Changes</a>
  
 
  

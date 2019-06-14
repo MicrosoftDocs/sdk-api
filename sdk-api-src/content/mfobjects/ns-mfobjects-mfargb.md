@@ -85,11 +85,11 @@ Alpha value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms698970(v=VS.85).aspx">MFPaletteEntry Union</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfpaletteentry">MFPaletteEntry Union</a>
 
 
 
-<a href="https://msdn.microsoft.com/39fdd724-13ca-48ab-8a55-93529d1da3b4">Media Foundation Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
  
 
  

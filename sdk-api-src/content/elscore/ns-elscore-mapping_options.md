@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Contains options for text recognition. The values stored in this structure affect the behavior and results of <a href="https://msdn.microsoft.com/49f30bdd-4612-423b-9913-9c35ad8a88d5">MappingRecognizeText</a>.
+Contains options for text recognition. The values stored in this structure affect the behavior and results of <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingrecognizetext">MappingRecognizeText</a>.
 
 
 
@@ -105,7 +105,7 @@ Reserved.
 
 ### -field pfnRecognizeCallback
 
-Optional. Pointer to an application callback function to receive callbacks with the results from the <a href="https://msdn.microsoft.com/49f30bdd-4612-423b-9913-9c35ad8a88d5">MappingRecognizeText</a> function. If a callback function is specified, text recognition is executed in asynchronous mode and the application obtains results through the callback function. The application must set this member to <b>NULL</b> if text recognition is to be synchronous. 
+Optional. Pointer to an application callback function to receive callbacks with the results from the <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingrecognizetext">MappingRecognizeText</a> function. If a callback function is specified, text recognition is executed in asynchronous mode and the application obtains results through the callback function. The application must set this member to <b>NULL</b> if text recognition is to be synchronous. 
 			  
 
 
@@ -152,13 +152,13 @@ Reserved.
 
 The application does not have to fill in all members of this structure, as services treat <b>NULL</b> members as default values. All unused members must be set to 0.
 
-<div class="alert"><b>Warning</b>  The data passed in this structure to <a href="https://msdn.microsoft.com/49f30bdd-4612-423b-9913-9c35ad8a88d5">MappingRecognizeText</a>, as well as data referred to by the <i>pszText</i> argument in that call, 
+<div class="alert"><b>Warning</b>  The data passed in this structure to <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingrecognizetext">MappingRecognizeText</a>, as well as data referred to by the <i>pszText</i> argument in that call, 
 
 must remain valid until the property bag structure passed by <i>pBag</i> is freed via 
 
-<a href="https://msdn.microsoft.com/7e06e85d-109a-4c5f-be18-3750e25c4986">MappingFreePropertyBag</a>. This is because both synchronous and asynchronous calls to 
+<a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingfreepropertybag">MappingFreePropertyBag</a>. This is because both synchronous and asynchronous calls to 
 
-<b>MappingRecognizeText</b> and <a href="https://msdn.microsoft.com/c3903d10-3429-4707-82b5-33efa6b2dc4c">MappingDoAction</a> will attempt to use the data passed to the initial 
+<b>MappingRecognizeText</b> and <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingdoaction">MappingDoAction</a> will attempt to use the data passed to the initial 
 
 call to <b>MappingRecognizeText</b>.</div>
 <div> </div>
@@ -170,15 +170,15 @@ call to <b>MappingRecognizeText</b>.</div>
 
 
 
-<a href="https://msdn.microsoft.com/58cdccf8-f052-4bb3-9391-2cc537d820dd">Extended Linguistic Services Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/extended-linguistic-services-structures">Extended Linguistic Services Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/adff7901-1903-45dd-888f-1b8c5bb05de1">MAPPING_DATA_RANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-_mapping_data_range">MAPPING_DATA_RANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/49f30bdd-4612-423b-9913-9c35ad8a88d5">MappingRecognizeText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingrecognizetext">MappingRecognizeText</a>
  
 
  

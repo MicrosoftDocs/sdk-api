@@ -59,7 +59,7 @@ The <code>GetFormat</code> method retrieves information about the wave format.
 
 ### -param pWaveFormatEx
 
-Pointer to a caller-allocated <a href="https://msdn.microsoft.com/f2f050d6-afe2-4647-932b-1287f4538702">WAVEFORMATEX</a> structure into which the method writes information about the format. This value can be <b>NULL</b>. For more information, see the following Remarks section.
+Pointer to a caller-allocated <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-twaveformatex">WAVEFORMATEX</a> structure into which the method writes information about the format. This value can be <b>NULL</b>. For more information, see the following Remarks section.
 
 
 ### -param pdwWaveFormatExSize
@@ -124,7 +124,7 @@ For more information, see the description of the <b>IDirectMusicPort</b> interfa
 
 
 
-<a href="https://msdn.microsoft.com/f2f050d6-afe2-4647-932b-1287f4538702">WAVEFORMATEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-twaveformatex">WAVEFORMATEX</a>
  
 
  

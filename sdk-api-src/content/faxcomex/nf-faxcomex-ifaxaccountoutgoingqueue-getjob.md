@@ -67,9 +67,9 @@ Specifies the job ID.
 
 ### -param pFaxOutgoingJob [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa358991(v=VS.85).aspx">IFaxOutgoingJob2</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutgoingjob2">IFaxOutgoingJob2</a>**</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/ms689115(v=VS.85).aspx">FaxOutgoingJob</a> object.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingjob">FaxOutgoingJob</a> object.
 
 
 ## -returns
@@ -88,11 +88,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358945(v=VS.85).aspx">FaxAccountOutgoingQueue</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountoutgoingqueue">FaxAccountOutgoingQueue</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa359022(v=VS.85).aspx">IFaxAccountOutgoingQueue</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccountoutgoingqueue">IFaxAccountOutgoingQueue</a>
  
 
  

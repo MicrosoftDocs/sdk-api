@@ -71,7 +71,7 @@ Specifies the <i>y</i>-coordinate of the point.
 
 
 
-The POINTL structure is identical to the <a href="https://msdn.microsoft.com/6fb3bd3f-f810-4043-812b-94495f38a6aa">POINT</a> structure.
+The POINTL structure is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagpoint">POINT</a> structure.
 
 
 
@@ -81,11 +81,11 @@ The POINTL structure is identical to the <a href="https://msdn.microsoft.com/6fb
 
 
 
-<a href="https://msdn.microsoft.com/6fb3bd3f-f810-4043-812b-94495f38a6aa">POINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagpoint">POINT</a>
 
 
 
-<a href="https://msdn.microsoft.com/56d642a0-5281-44aa-af1e-61e1e83186af">POINTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagpoints">POINTS</a>
  
 
  

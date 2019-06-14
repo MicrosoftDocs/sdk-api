@@ -86,7 +86,7 @@ Unicode normalization form KD, compatibility decomposition. Transforms each prec
 
 
 
-For more information about the normalization forms, see <a href="https://msdn.microsoft.com/027c9ef5-4012-4d1c-b78c-a4d3f1ccbf35">Using Unicode Normalization to Represent Strings</a>.
+For more information about the normalization forms, see <a href="https://docs.microsoft.com/windows/desktop/Intl/using-unicode-normalization-to-represent-strings">Using Unicode Normalization to Represent Strings</a>.
 
 
 
@@ -96,19 +96,19 @@ For more information about the normalization forms, see <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/5a1d3977-9fe9-457f-b0a2-46b32bcc27db">IsNormalizedString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-isnormalizedstring">IsNormalizedString</a>
 
 
 
-<a href="https://msdn.microsoft.com/93911b65-e2ba-432d-9c65-53dd57687077">National Language Support Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-enumeration-types">National Language Support Enumeration Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/ef76d0e5-2999-4a21-8522-c698013e3816">NormalizeString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-normalizestring">NormalizeString</a>
 
 
 
-<a href="https://msdn.microsoft.com/027c9ef5-4012-4d1c-b78c-a4d3f1ccbf35">Using Unicode Normalization to Represent Strings</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/using-unicode-normalization-to-represent-strings">Using Unicode Normalization to Represent Strings</a>
  
 
  

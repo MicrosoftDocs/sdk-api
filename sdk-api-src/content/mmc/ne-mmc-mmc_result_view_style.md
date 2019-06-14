@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>MMC_RESULT_VIEW_STYLE</b> enumeration defines the Win32 list view style (LVS_*) flags that can be used to set the view style in the MMC result view pane. They can be used in the <i>add</i> and <i>remove</i> parameters of the 
-<a href="https://msdn.microsoft.com/f33a427c-6952-4877-bbfb-09ac976ea188">IResultData::ModifyViewStyle</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-modifyviewstyle">IResultData::ModifyViewStyle</a> method.
 
 
 ## -enum-fields

@@ -63,7 +63,7 @@ The <code>Request</code> method queues an asynchronous request for data.
 
 ### -param pSample
 
-Pointer to the <a href="https://msdn.microsoft.com/883e5e3b-db91-4806-96cc-c6f8cddfcca6">IMediaSample</a> interface of a media sample provided by the caller.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample</a> interface of a media sample provided by the caller.
 
 
 ### -param dwUser [in]
@@ -164,7 +164,7 @@ The start and stop positions should match the alignment that was decided when th
 
 Although it is technically a violation of COM rules, the caller must leave an outstanding reference count on the sample. The <code>Request</code> method does not call <b>AddRef</b> or <b>Release</b>, so the reference count is needed to keep the sample active.
 
-The method returns before the request completes. Call the <a href="https://msdn.microsoft.com/fc54f917-3b86-4c0b-b356-217bc9793504">IAsyncReader::WaitForNext</a> method to wait for the request. Do not reuse the original media sample while the request is pending. The <b>WaitForNext</b> method returns a pointer to the original sample. If the request succeeded, the sample contains the requested data. The <b>WaitForNext</b> method also returns whatever value is specified in the <i>dwUser</i> parameter. The caller can use this value to identify the sample.
+The method returns before the request completes. Call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iasyncreader-waitfornext">IAsyncReader::WaitForNext</a> method to wait for the request. Do not reuse the original media sample while the request is pending. The <b>WaitForNext</b> method returns a pointer to the original sample. If the request succeeded, the sample contains the requested data. The <b>WaitForNext</b> method also returns whatever value is specified in the <i>dwUser</i> parameter. The caller can use this value to identify the sample.
 
 
 #### Examples
@@ -212,11 +212,11 @@ CMyPin::QueueSample(long cbFirst, long cbLast, DWORD_PTR dwuser)
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/54a18567-e9d4-4b12-b486-cdd70d719184">IAsyncReader Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iasyncreader">IAsyncReader Interface</a>
  
 
  

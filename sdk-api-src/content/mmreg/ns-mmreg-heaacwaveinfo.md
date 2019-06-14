@@ -149,7 +149,7 @@ Defines the data that follows this structure. Currently the following value is d
 <td width="60%">
 The data that follows the <b>HEAACWAVEINFO</b> structure contains the value of AudioSpecificConfig(), as defined by ISO/IEC 14496-3. 
 
-The size of the data is <code>wfx.cbSize - sizeof(HEAACWAVEINFO) + sizeof(WAVEFORMATEX)</code>. If the size is greater than zero, you can access the data by casting the <b>HEAACWAVEINFO</b> structure to a <a href="https://msdn.microsoft.com/0809eaa7-3c4c-467d-afa0-d9555ab6d71f">HEAACWAVEFORMAT</a> structure.
+The size of the data is <code>wfx.cbSize - sizeof(HEAACWAVEINFO) + sizeof(WAVEFORMATEX)</code>. If the size is greater than zero, you can access the data by casting the <b>HEAACWAVEINFO</b> structure to a <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-heaacwaveformat_tag">HEAACWAVEFORMAT</a> structure.
 
 </td>
 </tr>

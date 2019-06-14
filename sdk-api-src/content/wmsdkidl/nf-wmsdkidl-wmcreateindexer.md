@@ -62,7 +62,7 @@ The <b>WMCreateIndexer</b> function creates an indexer object.
 
 ### -param ppIndexer [out]
 
-Pointer to a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd798531(v=VS.85).aspx">IWMIndexer</a> interface of the newly created indexer object.
+Pointer to a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmindexer">IWMIndexer</a> interface of the newly created indexer object.
 
 
 ## -returns
@@ -109,15 +109,15 @@ The function is unable to allocate memory for the new object.
 
 
 
-<a href="https://msdn.microsoft.com/10fa8f96-8030-4727-af5d-7c06229d05d8">Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798531(v=VS.85).aspx">IWMIndexer Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmindexer">IWMIndexer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/652e04a5-ed6e-4e92-acf4-55ed82f77ef1">Indexer Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/indexer-object">Indexer Object</a>
  
 
  

@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>IFillLockBytes</b> interface enables downloading code to write data asynchronously to a structured storage byte array. When the downloading code has new data available, it calls 
-<a href="https://msdn.microsoft.com/3f25c48f-85a4-4778-b262-ad0c52cb1ac9">IFillLockBytes::FillAppend</a> or <a href="https://msdn.microsoft.com/d378d87b-e081-4950-b87b-9b1ad6dfb29d">IFillLockBytes::FillAt</a> to write the data to the byte array. An application attempting to access this data, through calls to the 
-<a href="https://msdn.microsoft.com/bb2c5d0d-8dc8-4844-9a20-ef8e4def5731">ILockBytes</a> interface, can do so even as the downloader continues to make calls to 
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ifilllockbytes-fillappend">IFillLockBytes::FillAppend</a> or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ifilllockbytes-fillat">IFillLockBytes::FillAt</a> to write the data to the byte array. An application attempting to access this data, through calls to the 
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a> interface, can do so even as the downloader continues to make calls to 
 <b>IFillLockBytes</b>. If the application attempts to access data that has not already been downloaded through a call to 
 <b>IFillLockBytes</b>, then 
 <b>ILockBytes</b> returns a new error, E_PENDING.
@@ -60,7 +60,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFillLockBytes</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IFillLockBytes</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFillLockBytes</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFillLockBytes</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IFillLockBytes</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3f25c48f-85a4-4778-b262-ad0c52cb1ac9">FillAppend</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ifilllockbytes-fillappend">FillAppend</a>
 </td>
 <td align="left" width="63%">
 Writes a new block of bytes to end of byte array.
@@ -84,7 +84,7 @@ Writes a new block of bytes to end of byte array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d378d87b-e081-4950-b87b-9b1ad6dfb29d">FillAt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ifilllockbytes-fillat">FillAt</a>
 </td>
 <td align="left" width="63%">
 Writes a new block of bytes to specified location in byte array.
@@ -93,7 +93,7 @@ Writes a new block of bytes to specified location in byte array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1336079e-02d2-4799-a58f-d097ec80c03b">SetFillSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ifilllockbytes-setfillsize">SetFillSize</a>
 </td>
 <td align="left" width="63%">
 Sets expected size of byte array.
@@ -102,7 +102,7 @@ Sets expected size of byte array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/21ea78c7-51f1-4418-915c-79db47c25715">Terminate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ifilllockbytes-terminate">Terminate</a>
 </td>
 <td align="left" width="63%">
 Notifies byte array wrapper of successful or unsuccessful termination of download.
@@ -117,31 +117,31 @@ Notifies byte array wrapper of successful or unsuccessful termination of downloa
 
 
 
-<a href="https://msdn.microsoft.com/library/ms774966(v=VS.85).aspx">BINDINFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms774966(v=vs.85)">BINDINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms694318(v=VS.85).aspx">IConnectionPoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iconnectionpoint">IConnectionPoint</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683857(v=VS.85).aspx">IConnectionPointContainer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iconnectionpointcontainer">IConnectionPointContainer</a>
 
 
 
-<a href="https://msdn.microsoft.com/bb2c5d0d-8dc8-4844-9a20-ef8e4def5731">ILockBytes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680740(v=VS.85).aspx">IProgressNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iprogressnotify">IProgressNotify</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>
 
 
 
-<a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>
  
 
  

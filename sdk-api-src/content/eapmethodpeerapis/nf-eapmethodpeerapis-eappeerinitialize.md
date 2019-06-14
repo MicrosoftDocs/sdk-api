@@ -59,7 +59,7 @@ Initializes an EAP peer  method for EAPHost.
 
 ### -param ppEapError [out]
 
-A pointer to a pointer to an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to <a href="https://msdn.microsoft.com/85b4197c-5caf-4e2b-94fd-e651712dd39d">EapPeerFreeErrorMemory</a>.
+A pointer to a pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
 
 
 ## -remarks
@@ -70,7 +70,7 @@ A pointer to a pointer to an <a href="https://msdn.microsoft.com/6af8cb67-da77-4
 
 The EAP method libraries together with EAPHOST.dll make up the "EAPHost". The host DLL manages the libraries and allows supplicants (EAP clients) to authenticate against them.
 
-Each API is handled as a function pointer by EAPHost, who calls them if they conform to the specific signatures and calling conventions specified in this documentation. These function pointers are obtained when EAPHost calls <a href="https://msdn.microsoft.com/99b7e136-b502-435b-9c62-a0e106ec8ec5">EapPeerGetInfo</a>.
+Each API is handled as a function pointer by EAPHost, who calls them if they conform to the specific signatures and calling conventions specified in this documentation. These function pointers are obtained when EAPHost calls <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetinfo">EapPeerGetInfo</a>.
 
 This call is performed by a peer-based EAPHost using a function pointer to this API. This API must be implemented on the EAP method loaded by EAPHost, and must strictly conform to the syntax and parameter types specified in the documentation.
 
@@ -82,7 +82,7 @@ This call is performed by a peer-based EAPHost using a function pointer to this 
 
 
 
-<a href="https://msdn.microsoft.com/fdfa595d-acf7-4489-88a8-113093567fe5">EAPHost Peer Method Run-Time Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eaphost-peer-method-run-time-functions">EAPHost Peer Method Run-Time Functions</a>
  
 
  

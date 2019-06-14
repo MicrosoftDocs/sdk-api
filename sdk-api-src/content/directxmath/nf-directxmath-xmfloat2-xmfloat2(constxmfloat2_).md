@@ -49,7 +49,7 @@ ms.custom: 19H1
 
 A constructor for <code>XMFLOAT2</code>.
 
-A constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419468(v=VS.85).aspx">XMFLOAT2</a>.
+A constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat2">XMFLOAT2</a>.
 
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
@@ -63,6 +63,6 @@ A value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419468(v=VS.85).aspx">XMFLOAT2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat2">XMFLOAT2</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415279(v=VS.85).aspx">XMFLOAT2 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmfloat2-xmfloat2(constfloat)">XMFLOAT2 Constructors</a>

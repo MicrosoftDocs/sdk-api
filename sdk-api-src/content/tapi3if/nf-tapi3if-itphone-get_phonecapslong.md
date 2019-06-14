@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>get_PhoneCapsLong</b> method gets a <b>DWORD</b> capability of the phone, based on the 
-<a href="https://msdn.microsoft.com/7a73d5ff-d08a-46e6-b4ad-4f3b973967a7">PHONECAPS_LONG</a> enum passed in. The application does not have to call 
-<a href="https://msdn.microsoft.com/d9efe2f7-3628-4e1f-b554-a6889d82a973">ITPhone::Open</a> before executing this method.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-phonecaps_long">PHONECAPS_LONG</a> enum passed in. The application does not have to call 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-open">ITPhone::Open</a> before executing this method.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The
 ### -param pclCap [in]
 
 The 
-<a href="https://msdn.microsoft.com/7a73d5ff-d08a-46e6-b4ad-4f3b973967a7">PHONECAPS_LONG</a> descriptor for the phone capability.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-phonecaps_long">PHONECAPS_LONG</a> descriptor for the phone capability.
 
 
 ### -param plCapability [out]
@@ -85,11 +85,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/94dff33c-67a1-4df8-9ef5-2b6524438f6f">ITPhone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a>
 
 
 
-<a href="https://msdn.microsoft.com/9549e30c-9425-4fb1-8ce5-f180a32f8e1f">PHONECAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonecaps_tag">PHONECAPS</a>
  
 
  

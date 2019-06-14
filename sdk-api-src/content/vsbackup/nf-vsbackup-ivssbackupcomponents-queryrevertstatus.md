@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>QueryRevertStatus</b> method 
-   returns an <a href="https://msdn.microsoft.com/d2cff547-b4ff-454d-8e0e-cd29b91cbb07">IVssAsync</a> interface pointer that can be used 
+   returns an <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface pointer that can be used 
    to determine the status of the revert operation.
 
 
@@ -73,8 +73,8 @@ Null-terminated wide character string containing the name of the volume. The nam
 
 ### -param ppAsync [out]
 
-Pointer to a location that will receive an <a href="https://msdn.microsoft.com/d2cff547-b4ff-454d-8e0e-cd29b91cbb07">IVssAsync</a> 
-      interface pointer that can be used to retrieve the status of the revert process. When the operation is complete, the caller must release the interface pointer by calling the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
+Pointer to a location that will receive an <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> 
+      interface pointer that can be used to retrieve the status of the revert process. When the operation is complete, the caller must release the interface pointer by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method.
 
 
 ## -returns
@@ -199,8 +199,8 @@ Revert is not supported on this volume.
 
 The revert operation will continue even if the computer is rebooted, and cannot be canceled or undone, except 
     by restoring a backup created using another method. The 
-    <a href="https://msdn.microsoft.com/85fb3ae8-dc09-4f6f-a96b-e4dc046ff48a">QueryStatus</a> method on the returned  
-    <a href="https://msdn.microsoft.com/d2cff547-b4ff-454d-8e0e-cd29b91cbb07">IVssAsync</a> interface cannot return 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">QueryStatus</a> method on the returned  
+    <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface cannot return 
     <b>VSS_S_ASYNC_CANCELLED</b> as the revert operation cannot be canceled after it has 
     started.
 
@@ -212,15 +212,15 @@ The revert operation will continue even if the computer is rebooted, and cannot 
 
 
 
-<a href="https://msdn.microsoft.com/d2cff547-b4ff-454d-8e0e-cd29b91cbb07">IVssAsync</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a>
 
 
 
-<a href="https://msdn.microsoft.com/fe1220c7-11e5-4872-b7a9-61558f7c75c0">IVssBackupComponents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
 
 
-<a href="https://msdn.microsoft.com/9976195e-3448-4b0e-82b2-1ae061c75b17">IVssBackupComponents::RevertToSnapshot</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-reverttosnapshot">IVssBackupComponents::RevertToSnapshot</a>
  
 
  

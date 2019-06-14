@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The <b>I_RpcBindingInqLocalClientPID</b> function is available for use in the operating systems specified in the Requirements section. Instead, call <a href="https://msdn.microsoft.com/563b70ed-bc9a-40be-a77b-17b993cc64f3">RpcServerInqCallAttributes</a>.]
+<p class="CCE_Message">[The <b>I_RpcBindingInqLocalClientPID</b> function is available for use in the operating systems specified in the Requirements section. Instead, call <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a>.]
 
 The <b>I_RpcBindingInqLocalClientPID</b> function obtains a client process ID.
 
@@ -115,7 +115,7 @@ The RPC binding handle is invalid.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 

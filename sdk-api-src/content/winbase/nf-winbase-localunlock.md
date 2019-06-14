@@ -57,7 +57,7 @@ ms.custom: 19H1
 
 
 Decrements the lock count associated with a memory object that was allocated with <b>LMEM_MOVEABLE</b>. This function has no effect on memory objects allocated with <b>LMEM_FIXED</b>.
-<div class="alert"><b>Note</b>  The local functions have greater overhead and provide fewer features than other memory management functions. New applications should use the <a href="https://msdn.microsoft.com/cfb683fa-4f46-48b5-9a28-f4625a9cb8cd">heap functions</a> unless documentation states that a local function should be used. For more information, see <a href="https://msdn.microsoft.com/97707ce7-4c65-4d0e-ba69-47fdaee73a9b">Global and Local Functions</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  The local functions have greater overhead and provide fewer features than other memory management functions. New applications should use the <a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">heap functions</a> unless documentation states that a local function should be used. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>.</div><div> </div>
 
 ## -parameters
 
@@ -67,18 +67,18 @@ Decrements the lock count associated with a memory object that was allocated wit
 ### -param hMem [in]
 
 A handle to the local memory object. This handle is returned by either the 
-<a href="https://msdn.microsoft.com/da8cd2be-ff4c-4da5-813c-8759a58228c9">LocalAlloc</a> or 
-<a href="https://msdn.microsoft.com/88527ddd-e0c2-4a41-825e-d3a6df77fd2a">LocalReAlloc</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localrealloc">LocalReAlloc</a> function.
 
 
 ## -returns
 
 
 
-If the memory object is still locked after decrementing the lock count, the return value is nonzero. If the memory object is unlocked after decrementing the lock count, the function returns zero and <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns <b>NO_ERROR</b>.
+If the memory object is still locked after decrementing the lock count, the return value is nonzero. If the memory object is unlocked after decrementing the lock count, the function returns zero and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>NO_ERROR</b>.
 
 If the function fails, the return value is zero and 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns a value other than <b>NO_ERROR</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns a value other than <b>NO_ERROR</b>.
 
 
 
@@ -88,14 +88,14 @@ If the function fails, the return value is zero and
 
 
 The internal data structures for each memory object include a lock count that is initially zero. For movable memory objects, the 
-<a href="https://msdn.microsoft.com/a9432e28-9fbd-4a7e-8dce-fad3da04804a">LocalLock</a> function increments the count by one, and 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-locallock">LocalLock</a> function increments the count by one, and 
 <b>LocalUnlock</b> decrements the count by one. For each call that a process makes to 
 <b>LocalLock</b> for an object, it must eventually call 
 <b>LocalUnlock</b>. Locked memory will not be moved or discarded unless the memory object is reallocated by using the 
-<a href="https://msdn.microsoft.com/88527ddd-e0c2-4a41-825e-d3a6df77fd2a">LocalReAlloc</a> function. The memory block of a locked memory object remains locked until its lock count is decremented to zero, at which time it can be moved or discarded.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localrealloc">LocalReAlloc</a> function. The memory block of a locked memory object remains locked until its lock count is decremented to zero, at which time it can be moved or discarded.
 
 If the memory object is already unlocked, 
-<b>LocalUnlock</b> returns <b>FALSE</b> and <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> reports <b>ERROR_NOT_LOCKED</b>. Memory objects allocated with <b>LMEM_FIXED</b> always have a lock count of zero and cause the <b>ERROR_NOT_LOCKED</b> error.
+<b>LocalUnlock</b> returns <b>FALSE</b> and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> reports <b>ERROR_NOT_LOCKED</b>. Memory objects allocated with <b>LMEM_FIXED</b> always have a lock count of zero and cause the <b>ERROR_NOT_LOCKED</b> error.
 
 A process should not rely on the return value to determine the number of times it must subsequently call 
 <b>LocalUnlock</b> for the memory block.
@@ -108,27 +108,27 @@ A process should not rely on the return value to determine the number of times i
 
 
 
-<a href="https://msdn.microsoft.com/97707ce7-4c65-4d0e-ba69-47fdaee73a9b">Global and Local Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/da8cd2be-ff4c-4da5-813c-8759a58228c9">LocalAlloc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/4804c8c3-6c0b-4f62-87ab-f64b23fff8b9">LocalFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localflags">LocalFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/a9432e28-9fbd-4a7e-8dce-fad3da04804a">LocalLock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-locallock">LocalLock</a>
 
 
 
-<a href="https://msdn.microsoft.com/88527ddd-e0c2-4a41-825e-d3a6df77fd2a">LocalReAlloc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localrealloc">LocalReAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a2a7a62-0bda-4a0d-93d2-25b4898871fd">Memory
+<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
     Management Functions</a>
  
 

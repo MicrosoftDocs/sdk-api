@@ -107,11 +107,11 @@ The font does not support an underline state. This value is not an error conditi
 
 
 
-<a href="https://msdn.microsoft.com/3a04d2b7-b2eb-4c6c-8863-1e88321fa382">IFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
 
 
 
-<a href="https://msdn.microsoft.com/714a2678-6e3d-4b8d-8632-20eb41618fff">IFont::get_Underline</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_underline">IFont::get_Underline</a>
  
 
  

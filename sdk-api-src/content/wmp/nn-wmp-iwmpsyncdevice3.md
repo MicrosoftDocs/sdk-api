@@ -56,7 +56,7 @@ To use this interface, you must create a remoted instance of the Windows Media P
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPSyncDevice3</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd563710(v=VS.85).aspx">IWMPSyncDevice2</a>. <b>IWMPSyncDevice3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPSyncDevice3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice2">IWMPSyncDevice2</a>. <b>IWMPSyncDevice3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,16 +71,16 @@ The <b>IWMPSyncDevice3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563714(v=VS.85).aspx">cancelEstimation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice3-cancelestimation">cancelEstimation</a>
 </td>
 <td align="left" width="63%">
-Cancels an estimation that was previously initiated by <a href="https://msdn.microsoft.com/en-us/library/Dd563715(v=VS.85).aspx">estimateSyncSize</a>.
+Cancels an estimation that was previously initiated by <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice3-estimatesyncsize">estimateSyncSize</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563715(v=VS.85).aspx">estimateSyncSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice3-estimatesyncsize">estimateSyncSize</a>
 </td>
 <td align="left" width="63%">
 Initiates the estimation of the size required on the device to synchronize a specified playlist.
@@ -95,15 +95,15 @@ Initiates the estimation of the size required on the device to synchronize a spe
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563710(v=VS.85).aspx">IWMPSyncDevice2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice2">IWMPSyncDevice2</a>
 
 
 
-<a href="https://msdn.microsoft.com/68a0bdaf-ae1b-4ba1-817b-a31c68b9fddd">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/d543b2a0-a2cb-47e2-b50e-4513fc061b46">Remoting the Windows Media Player Control</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>
  
 
  

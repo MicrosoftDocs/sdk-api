@@ -54,7 +54,7 @@ provides similar functionality.]
 
 The 
 <b>get_Scopes</b> method creates a collection of IMcast scopes available. This method is similar to 
-<a href="https://msdn.microsoft.com/1845f5f9-be0e-4609-89d8-1a0ed194dd68">EnumerateScopes</a>, but is used by scripting languages such as Visual Basic.
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastaddressallocation-enumeratescopes">EnumerateScopes</a>, but is used by scripting languages such as Visual Basic.
 
 
 ## -parameters
@@ -65,8 +65,8 @@ The
 ### -param pVariant [out]
 
 Pointer to a <b>VARIANT</b> receiving an 
-<a href="https://msdn.microsoft.com/2286678a-68b9-4f4a-b36b-7fdf8cdad6a6">ITCollection</a> of 
-<a href="https://msdn.microsoft.com/b0252ac4-856e-4aa7-aa3b-37b92472e864">IMcastScope</a> interface pointers.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a> of 
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-imcastscope">IMcastScope</a> interface pointers.
 
 
 ## -returns
@@ -135,7 +135,7 @@ Not enough memory exists to create the required objects.
 
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://msdn.microsoft.com/b0252ac4-856e-4aa7-aa3b-37b92472e864">IMcastScope</a> interface returned by <b>IMcastAddressAllocation::get_Scopes</b>. The application must call <b>Release</b> on the 
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-imcastscope">IMcastScope</a> interface returned by <b>IMcastAddressAllocation::get_Scopes</b>. The application must call <b>Release</b> on the 
 <b>IMcastScope</b> interface to free resources associated with it.
 
 
@@ -146,15 +146,15 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 
-<a href="https://msdn.microsoft.com/359e67bb-9a5b-4caa-8d3b-eb0739b0828f">IMcastAddressAllocation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-imcastaddressallocation">IMcastAddressAllocation</a>
 
 
 
-<a href="https://msdn.microsoft.com/b0252ac4-856e-4aa7-aa3b-37b92472e864">IMcastScope</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-imcastscope">IMcastScope</a>
 
 
 
-<a href="https://msdn.microsoft.com/2286678a-68b9-4f4a-b36b-7fdf8cdad6a6">ITCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a>
  
 
  

@@ -59,16 +59,16 @@ Retrieves the given baseline from the font.
 
 ### -param fontFace
 
-Type: <b><a href="https://msdn.microsoft.com/1DB7156F-0578-46A0-8C96-E1E34FF4E49E">IDWriteFontFace</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritefontface1">IDWriteFontFace</a>*</b>
 
 The font face to read.
 
 
 ### -param baseline
 
-Type: <b><a href="https://msdn.microsoft.com/A5708481-255B-4777-B689-B61208E3910E">DWRITE_BASELINE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ne-dwrite_1-dwrite_baseline">DWRITE_BASELINE</a></b>
 
-A <a href="https://msdn.microsoft.com/A5708481-255B-4777-B689-B61208E3910E">DWRITE_BASELINE</a>-typed value that specifies the baseline of interest.
+A <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ne-dwrite_1-dwrite_baseline">DWRITE_BASELINE</a>-typed value that specifies the baseline of interest.
 
 
 ### -param isVertical
@@ -87,7 +87,7 @@ Simulate the baseline if it is missing in the font.
 
 ### -param scriptAnalysis
 
-Type: <b><a href="https://msdn.microsoft.com/dafda5f6-39aa-4577-9213-898bdeddc7c2">DWRITE_SCRIPT_ANALYSIS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_script_analysis">DWRITE_SCRIPT_ANALYSIS</a></b>
 
 Script analysis result from AnalyzeScript.
 
@@ -144,7 +144,7 @@ If the baseline does not exist in the font, it is not considered an
 
 
 
-<a href="https://msdn.microsoft.com/7F79BA25-5D79-4491-82E3-F9B96DD0C37D">IDWriteTextAnalyzer1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritetextanalyzer1">IDWriteTextAnalyzer1</a>
  
 
  

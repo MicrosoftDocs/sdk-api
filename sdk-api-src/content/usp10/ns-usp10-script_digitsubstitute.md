@@ -72,7 +72,7 @@ Language for traditional substitution.
 
 ### -field DigitSubstitute
 
-Substitution type. This member is normally set by <a href="https://msdn.microsoft.com/2c8c33d5-5cd6-4734-bf44-af7d4b578672">ScriptRecordDigitSubstitution</a>. However, it can also have any of the values defined in the following table.
+Substitution type. This member is normally set by <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptrecorddigitsubstitution">ScriptRecordDigitSubstitution</a>. However, it can also have any of the values defined in the following table.
 
 <table>
 <tr>
@@ -85,7 +85,7 @@ Substitution type. This member is normally set by <a href="https://msdn.microsof
 </dl>
 </td>
 <td width="60%">
-Substitute digits U+0030 to U+0039 using the language of the prior letters. If there are no prior letters, substitute digits using the <b>TraditionalDigitLanguage</b> member. This member is normally set to the primary language of the locale passed to <a href="https://msdn.microsoft.com/2c8c33d5-5cd6-4734-bf44-af7d4b578672">ScriptRecordDigitSubstitution</a>.
+Substitute digits U+0030 to U+0039 using the language of the prior letters. If there are no prior letters, substitute digits using the <b>TraditionalDigitLanguage</b> member. This member is normally set to the primary language of the locale passed to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptrecorddigitsubstitution">ScriptRecordDigitSubstitution</a>.
 
 </td>
 </tr>
@@ -95,7 +95,7 @@ Substitute digits U+0030 to U+0039 using the language of the prior letters. If t
 </dl>
 </td>
 <td width="60%">
-Substitute digits U+0030 to U+0039 using the <b>NationalDigitLanguage</b> member. This member is normally set to the national digits retrieved for the constant <a href="https://msdn.microsoft.com/560978d7-a33c-4e62-9abd-cbd3ec38f3b5">LOCALE_SNATIVEDIGITS</a> by <a href="https://msdn.microsoft.com/2c8c33d5-5cd6-4734-bf44-af7d4b578672">ScriptRecordDigitSubstitution</a>.
+Substitute digits U+0030 to U+0039 using the <b>NationalDigitLanguage</b> member. This member is normally set to the national digits retrieved for the constant <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-snative-constants">LOCALE_SNATIVEDIGITS</a> by <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptrecorddigitsubstitution">ScriptRecordDigitSubstitution</a>.
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ Do not substitute digits. Display Unicode values U+0030 to U+0039 with European 
 </dl>
 </td>
 <td width="60%">
-Substitute digits U+0030 to U+0039 using the <b>TraditionalDigitLanguage</b> member. This member is normally set to the primary language of the locale passed to <a href="https://msdn.microsoft.com/2c8c33d5-5cd6-4734-bf44-af7d4b578672">ScriptRecordDigitSubstitution</a>.
+Substitute digits U+0030 to U+0039 using the <b>TraditionalDigitLanguage</b> member. This member is normally set to the primary language of the locale passed to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptrecorddigitsubstitution">ScriptRecordDigitSubstitution</a>.
 
 </td>
 </tr>
@@ -133,19 +133,19 @@ Reserved; initialize to 0.
 
 
 
-<a href="https://msdn.microsoft.com/6b5267d8-b102-410c-bdc9-831555ca2f84">Digit Shapes</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/digit-shapes">Digit Shapes</a>
 
 
 
-<a href="https://msdn.microsoft.com/2c8c33d5-5cd6-4734-bf44-af7d4b578672">ScriptRecordDigitSubstitution</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptrecorddigitsubstitution">ScriptRecordDigitSubstitution</a>
 
 
 
-<a href="https://msdn.microsoft.com/de7a882f-ed74-4be2-b66d-59c2e50dc07a">Uniscribe</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://msdn.microsoft.com/243438fd-5bb2-4b2a-8b33-803029085adb">Uniscribe Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>
  
 
  

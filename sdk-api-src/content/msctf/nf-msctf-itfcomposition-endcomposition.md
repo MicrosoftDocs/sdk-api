@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ### -param ecWrite [in]
 
-Contains an edit cookie that identifies the edit context obtained from <a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession</a>.
+Contains an edit cookie that identifies the edit context obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
 
 ## -returns
@@ -120,9 +120,9 @@ The edit context identified by <i>ecWrite</i> does not have a read/write lock.
 
 
 
-This method does not release the composition object, but the <a href="https://msdn.microsoft.com/b1eb5782-13e3-4cbb-8c37-ce7219d1e838">ITfComposition</a> methods will fail with E_UNEXPECTED after this method is called.
+This method does not release the composition object, but the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcomposition">ITfComposition</a> methods will fail with E_UNEXPECTED after this method is called.
 
-Context owners should use the <a href="https://msdn.microsoft.com/950ba2b3-cb12-4697-a4b2-1c87373b9a23">ITFContextOwnerCompositionServices::TerminateComposition</a> method to terminate a composition.
+Context owners should use the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextownercompositionservices-terminatecomposition">ITFContextOwnerCompositionServices::TerminateComposition</a> method to terminate a composition.
 
 This method causes the GUID_PROP_COMPOSING property to be removed from the text covered by the composition.
 
@@ -134,17 +134,17 @@ This method causes the GUID_PROP_COMPOSING property to be removed from the text 
 
 
 
-<a href="https://msdn.microsoft.com/950ba2b3-cb12-4697-a4b2-1c87373b9a23">ITFContextOwnerCompositionServices::TerminateComposition
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextownercompositionservices-terminatecomposition">ITFContextOwnerCompositionServices::TerminateComposition
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/b1eb5782-13e3-4cbb-8c37-ce7219d1e838">ITfComposition
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcomposition">ITfComposition
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
       </a>
  
 

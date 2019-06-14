@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Do not use. Provides access to the address book through a number of object interfaces. The root interface is <a href="https://msdn.microsoft.com/en-us/library/ms629649(v=VS.85).aspx">IAddrBook</a>, which is a subset of the MAPI implementation of <a href="https://msdn.microsoft.com/en-us/library/ms629649(v=VS.85).aspx">IAddrBook</a>.
+Do not use. Provides access to the address book through a number of object interfaces. The root interface is <a href="https://docs.microsoft.com/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a>, which is a subset of the MAPI implementation of <a href="https://docs.microsoft.com/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a>.
 
 
 ## -parameters
@@ -62,14 +62,14 @@ Do not use. Provides access to the address book through a number of object inter
 
 Type: <b>LPADRBOOK*</b>
 
-Address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms629649(v=VS.85).aspx">IAddrBook</a> interface returned by the function.
+Address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a> interface returned by the function.
 
 
 ### -param lppWABObject
 
 Type: <b>LPWABOBJECT*</b>
 
-Address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms629467(v=VS.85).aspx">IWABObject</a> interface returned by the function.
+Address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wabapi/nn-wabapi-iwabobject">IWABObject</a> interface returned by the function.
 
 
 ### -param lpWP
@@ -86,7 +86,7 @@ Reserved. Must be set to 0.
 
 Type: <b>LPWAB_PARAM</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms629458(v=VS.85).aspx">WAB_PARAM</a> structure. Supported by Internet Explorer 4.0 or later.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabapi/ns-wabapi-_tagwab_param">WAB_PARAM</a> structure. Supported by Internet Explorer 4.0 or later.
 
 
 ## -returns
@@ -105,7 +105,7 @@ If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629718(v=VS.85).aspx">WABOpenEx</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabapi/nc-wabapi-wabopenex">WABOpenEx</a>
  
 
  

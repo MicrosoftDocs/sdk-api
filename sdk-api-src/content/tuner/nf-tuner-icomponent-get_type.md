@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>get_Type</b> method retrieves an <a href="https://msdn.microsoft.com/e83bbbbe-64a9-4ed3-9c32-925ca80c2c38">IComponentType</a> interface describing the general characteristics of the component.
+The <b>get_Type</b> method retrieves an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttype">IComponentType</a> interface describing the general characteristics of the component.
 
 
 
@@ -62,7 +62,7 @@ The <b>get_Type</b> method retrieves an <a href="https://msdn.microsoft.com/e83b
 
 ### -param CT [out]
 
-Address of an <a href="https://msdn.microsoft.com/e83bbbbe-64a9-4ed3-9c32-925ca80c2c38">IComponentType</a> interface pointer that will be set to the retrieved component.
+Address of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttype">IComponentType</a> interface pointer that will be set to the retrieved component.
 
 
 ## -returns
@@ -79,7 +79,7 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="https://msdn.microsoft.com/516b30ba-4f55-49b7-8085-d436bf4a94e1">IComponent Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponent">IComponent Interface</a>
  
 
  

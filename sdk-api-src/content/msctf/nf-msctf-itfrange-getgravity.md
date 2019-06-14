@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ### -param pgStart [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/844925e7-4c3e-41e7-b560-586c85530cb4">TfGravity</a> value that receives the gravity of the start anchor.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ne-msctf-__midl_itfrange_0001">TfGravity</a> value that receives the gravity of the start anchor.
 
 
 ### -param pgEnd [out]
@@ -110,27 +110,27 @@ One or more parameters are invalid.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629023(v=VS.85).aspx">Anchor Gravity</a>
+<a href="https://docs.microsoft.com/windows/desktop/TSF/ranges">Anchor Gravity</a>
 
 
 
-<a href="https://msdn.microsoft.com/1415f338-731c-44c5-b798-edf823174272">ITfDocumentMgr::CreateContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>
 
 
 
-<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>
 
 
 
-<a href="https://msdn.microsoft.com/f8be0458-cd14-471d-a138-0730f87374e0">ITfRange::SetGravity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-setgravity">ITfRange::SetGravity</a>
 
 
 
-<a href="https://msdn.microsoft.com/844925e7-4c3e-41e7-b560-586c85530cb4">TfGravity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ne-msctf-__midl_itfrange_0001">TfGravity</a>
  
 
  

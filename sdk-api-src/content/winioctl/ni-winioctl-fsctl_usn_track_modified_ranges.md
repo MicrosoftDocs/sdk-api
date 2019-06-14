@@ -145,13 +145,13 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-For the implications of overlapped I/O on this operation, see the Remarks section of the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> topic.
+For the implications of overlapped I/O on this operation, see the Remarks section of the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> topic.
 
 You can use <b>FSCTL_USN_TRACK_MODIFIED_RANGES</b> to enable range tracking for the first time for a volume. After the enabling range tracking, the state and parameters will be persisted for that volume and on next reboot the range tracking will be initialized read from the persisted parameters.
 
-You can also use <b>FSCTL_USN_TRACK_MODIFIED_RANGES</b> to modify an existing change journal stream range track parameter. If range tracking is already exists, <b>FSCTL_USN_TRACK_MODIFIED_RANGES</b> sets it to the parameters provided in the <a href="https://msdn.microsoft.com/00254BBD-8F38-46AB-8B0A-3094020A48C5">USN_TRACK_MODIFIED_RANGES</a> structure. The chunk size or file size threshold can only be lowered from previous values. Once enabled, range tracking feature cannot be disabled unless the journal is deleted. 
+You can also use <b>FSCTL_USN_TRACK_MODIFIED_RANGES</b> to modify an existing change journal stream range track parameter. If range tracking is already exists, <b>FSCTL_USN_TRACK_MODIFIED_RANGES</b> sets it to the parameters provided in the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_track_modified_ranges">USN_TRACK_MODIFIED_RANGES</a> structure. The chunk size or file size threshold can only be lowered from previous values. Once enabled, range tracking feature cannot be disabled unless the journal is deleted. 
 
-To retrieve a handle to a volume, call <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> with the <i>lpFileName</i> parameter set to a string in the following form:
+To retrieve a handle to a volume, call <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> with the <i>lpFileName</i> parameter set to a string in the following form:
 
 \\.\X:
 
@@ -169,7 +169,7 @@ where <i>X</i> is the drive letter of the volume.
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
  
 
  

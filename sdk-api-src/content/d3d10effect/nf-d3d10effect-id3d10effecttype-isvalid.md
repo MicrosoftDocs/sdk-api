@@ -63,7 +63,7 @@ Tests that the effect type is valid.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> if it is valid; otherwise <b>FALSE</b>.
 
@@ -75,7 +75,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173716(v=VS.85).aspx">ID3D10EffectType Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effecttype">ID3D10EffectType Interface</a>
  
 
  

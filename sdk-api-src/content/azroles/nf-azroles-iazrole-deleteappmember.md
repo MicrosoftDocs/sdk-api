@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DeleteAppMember</b> method removes the specified <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b7e4-82d4e54012b1">IAzApplicationGroup</a> object from the list of application groups that belong to the role.
+The <b>DeleteAppMember</b> method removes the specified <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object from the list of application groups that belong to the role.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>DeleteAppMember</b> method removes the specified <a href="https://msdn.mi
 
 ### -param bstrProp [in]
 
-String that contains the <a href="https://msdn.microsoft.com/a42fb625-d04e-4884-b644-2007f6dc52ba">Name</a> property of the <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b7e4-82d4e54012b1">IAzApplicationGroup</a> object to remove from the list of  application groups that belong to the role.
+String that contains the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_name">Name</a> property of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object to remove from the list of  application groups that belong to the role.
 
 
 ### -param varReserved [in, optional]
@@ -72,7 +72,7 @@ Reserved for future use.
 
 
 
-To view the list of application groups that belong to the role, use the <a href="https://msdn.microsoft.com/c41933d4-d3fe-485c-9249-e82d51c0bfc9">AppMembers</a> property.
+To view the list of application groups that belong to the role, use the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-get_appmembers">AppMembers</a> property.
 
 
 

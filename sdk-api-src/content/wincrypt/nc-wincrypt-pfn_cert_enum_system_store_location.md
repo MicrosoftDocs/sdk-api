@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>CertEnumSystemStoreLocationCallback</b> 
 	callback function formats and presents information on each system store location found by a call to 
-	<a href="https://msdn.microsoft.com/86408e6f-0732-4cb4-85cd-840b9d98b973">CertEnumSystemStoreLocation</a>.
+	<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certenumsystemstorelocation">CertEnumSystemStoreLocation</a>.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ Reserved for future use.
 ### -param *pvArg [in]
 
 A pointer to information passed to the callback function in the <i>pvArg</i> 
-	 passed to <a href="https://msdn.microsoft.com/86408e6f-0732-4cb4-85cd-840b9d98b973">CertEnumSystemStoreLocation</a>.
+	 passed to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certenumsystemstorelocation">CertEnumSystemStoreLocation</a>.
 
 
 ## -returns

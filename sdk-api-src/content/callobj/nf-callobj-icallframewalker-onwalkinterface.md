@@ -121,7 +121,7 @@ An unexpected error has occurred.
 
 
 
-<a href="https://msdn.microsoft.com/1eeb00a3-d3c5-46f0-95a8-f694f802894b">ICallFrameWalker</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallframewalker">ICallFrameWalker</a>
  
 
  

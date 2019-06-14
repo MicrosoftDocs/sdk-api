@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Defines status conditions for the <a href="https://msdn.microsoft.com/85133059-6710-4fb2-b42b-f54747816f9c">IMFASFSplitter::GetNextSample</a> method.
+Defines status conditions for the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-getnextsample">IMFASFSplitter::GetNextSample</a> method.
 
 
 
@@ -76,7 +76,7 @@ The operation is incomplete.
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

@@ -83,11 +83,11 @@ If it fails, the method can return one of the following error values:
 
 You can call  <b>FlipToGDISurface</b> at the end of a page-flipping application to ensure that the display memory that the GDI writes to is visible.
 
-You can also use  <b>FlipToGDISurface</b> to make the GDI surface the primary surface so that normal windows, such as dialog boxes, can be displayed in full-screen mode. The hardware must have the <a href="https://msdn.microsoft.com/en-us/library/Gg426101(v=VS.85).aspx">DDCAPS2_CANRENDERWINDOWED</a> capability.
+You can also use  <b>FlipToGDISurface</b> to make the GDI surface the primary surface so that normal windows, such as dialog boxes, can be displayed in full-screen mode. The hardware must have the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-_ddcaps_dx3">DDCAPS2_CANRENDERWINDOWED</a> capability.
 
 <b>FlipToGDISurface</b> disables stereo autoflipping.
 
-You must use <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> to access the  <b>FlipToGDISurface</b> method.
+You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>FlipToGDISurface</b> method.
 
 
 
@@ -97,7 +97,7 @@ You must use <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d
 
 
 
-<a href="https://msdn.microsoft.com/1a1164fe-00c2-4469-8346-f86f7f48781e">IDirectDraw7</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a>
  
 
  

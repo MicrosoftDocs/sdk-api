@@ -59,9 +59,9 @@ Used to request a duplicate of the enumerator object to preserve its current sta
 
 ### -param ppenum
 
-Type: <b><a href="https://msdn.microsoft.com/63b71cd2-483b-482f-b3f4-6d5c937e7708">IEnumExtraSearch</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumextrasearch">IEnumExtraSearch</a>**</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/63b71cd2-483b-482f-b3f4-6d5c937e7708">IEnumExtraSearch</a> interface of a new enumerator object.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumextrasearch">IEnumExtraSearch</a> interface of a new enumerator object.
 
 
 ## -returns
@@ -79,7 +79,7 @@ Returns S_OK if successful, or a COM-defined error code otherwise.
 
 
 
-The new enumerator should be created with the same state as the current one. Use the <a href="https://msdn.microsoft.com/f77983e2-bae4-4350-8950-b4e76fc46365">IEnumExtraSearch::Skip</a> method to advance the enumeration index to the appropriate value before returning.
+The new enumerator should be created with the same state as the current one. Use the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumextrasearch-skip">IEnumExtraSearch::Skip</a> method to advance the enumeration index to the appropriate value before returning.
 
 
 

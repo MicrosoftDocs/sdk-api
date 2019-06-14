@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns the children and supplied properties and patterns for elements in a text range in a single cross-process call.  This is equivalent to calling <a href="https://msdn.microsoft.com/714e9d91-c6b9-4fa2-8a14-9bdd721b3135">GetChildren</a>, but adds the standard build cache pattern.
+Returns the children and supplied properties and patterns for elements in a text range in a single cross-process call.  This is equivalent to calling <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextrange-getchildren">GetChildren</a>, but adds the standard build cache pattern.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Returns the children and supplied properties and patterns for elements in a text
 
 ### -param cacheRequest [in]
 
-An <a href="https://msdn.microsoft.com/8e5d7f6e-c4c7-4bb9-ba33-959e098ecd41">IUIAutomationCacheRequest</a> specifying the properties and control patterns to be cached.
+An <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcacherequest">IUIAutomationCacheRequest</a> specifying the properties and control patterns to be cached.
 
 
 ### -param children [out, retval]
@@ -80,13 +80,13 @@ Returns <b>S_OK</b> if successful, otherwise an <b>HRESULT</b> error code.
 
 
 
-	Following the design of <a href="https://msdn.microsoft.com/714e9d91-c6b9-4fa2-8a14-9bdd721b3135">GetChildren</a>:
+	Following the design of <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextrange-getchildren">GetChildren</a>:
 
 <ul>
 <li>Children that overlap with the text range, but are not entirely enclosed by it will also be included.</li>
 <li>When no children exist, an empty collection is returned.</li>
 </ul>
-As a result of a successful call, UI Automation clients are able call "Cached" APIs of <a href="https://msdn.microsoft.com/9e1f87b1-a204-4ca9-acf2-a40277012207">IUIAutomationElement</a> that are provided in the <i>cacheRequest</i>, for example, <a href="https://msdn.microsoft.com/3cd093fe-04ee-4b09-b5e7-28dad984951e">IUIAutomationElement::GetCachedPropertyValue</a>.
+As a result of a successful call, UI Automation clients are able call "Cached" APIs of <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement">IUIAutomationElement</a> that are provided in the <i>cacheRequest</i>, for example, <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcachedpropertyvalue">IUIAutomationElement::GetCachedPropertyValue</a>.
 
 
 
@@ -96,11 +96,11 @@ As a result of a successful call, UI Automation clients are able call "Cached" A
 
 
 
-<a href="https://msdn.microsoft.com/3491996E-89EF-496D-94B6-FF8D121D3828">IUIAutomationTextRange3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextrange3">IUIAutomationTextRange3</a>
 
 
 
-<a href="https://msdn.microsoft.com/98a82ff8-f4b9-4f62-ae69-31a2c18de70e">UI Automation Support for Textual Content</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>
  
 
  

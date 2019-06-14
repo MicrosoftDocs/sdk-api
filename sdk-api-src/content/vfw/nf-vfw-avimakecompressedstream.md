@@ -72,7 +72,7 @@ Pointer to the stream to be compressed.
 
 ### -param lpOptions
 
-Pointer to a structure that identifies the type of compression to use and the options to apply. You can specify video compression by identifying an appropriate handler in the <a href="https://msdn.microsoft.com/8084adc3-792f-4a6c-b407-51e0e435e629">AVICOMPRESSOPTIONS</a> structure. For audio compression, specify the compressed data format.
+Pointer to a structure that identifies the type of compression to use and the options to apply. You can specify video compression by identifying an appropriate handler in the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-avicompressoptions">AVICOMPRESSOPTIONS</a> structure. For audio compression, specify the compressed data format.
 
 
 ### -param pclsidHandler
@@ -136,7 +136,7 @@ Compression is not supported for this type of data. This error might be returned
 
 Applications can read from or write to the compressed stream.
 
-A <b>PAVISTREAM</b> is a pointer to an <a href="https://msdn.microsoft.com/25f67f04-e005-48ee-89e7-a6ef89f6d6c6">IAVIStream</a> interface.
+A <b>PAVISTREAM</b> is a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nn-vfw-iavistream">IAVIStream</a> interface.
 
 
 
@@ -146,11 +146,11 @@ A <b>PAVISTREAM</b> is a pointer to an <a href="https://msdn.microsoft.com/25f67
 
 
 
-<a href="https://msdn.microsoft.com/89abf60a-1714-4836-93ae-a8a6bf2c24b6">AVIFile Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions">AVIFile Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/573e24fa-876d-4ce9-be23-d5e448a53e20">AVIFile Functions and Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
  
 
  

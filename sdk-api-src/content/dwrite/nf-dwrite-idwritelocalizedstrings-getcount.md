@@ -75,7 +75,7 @@ The number of language/string pairs.
 
 
 
-<a href="https://msdn.microsoft.com/37bfc613-4128-45aa-b6b2-6163d44378e4">IDWriteLocalizedStrings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritelocalizedstrings">IDWriteLocalizedStrings</a>
  
 
  

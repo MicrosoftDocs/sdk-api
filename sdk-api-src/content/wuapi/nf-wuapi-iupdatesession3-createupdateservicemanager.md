@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns a pointer to an <a href="https://msdn.microsoft.com/26b75edc-eb43-4ee0-8040-da8b3252cf21">IUpdateServiceManager2</a> interface for the session.
+Returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservicemanager2">IUpdateServiceManager2</a> interface for the session.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Returns a pointer to an <a href="https://msdn.microsoft.com/26b75edc-eb43-4ee0-8
 
 ### -param retval [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/26b75edc-eb43-4ee0-8040-da8b3252cf21">IUpdateServiceManager2</a> interface for the session.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservicemanager2">IUpdateServiceManager2</a> interface for the session.
 
 
 ## -returns
@@ -76,7 +76,7 @@ Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error cod
 
 
 
-<a href="https://msdn.microsoft.com/7caa07ee-ec78-45eb-99a2-0e6682790c88">IUpdateSession3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesession3">IUpdateSession3</a>
  
 
  

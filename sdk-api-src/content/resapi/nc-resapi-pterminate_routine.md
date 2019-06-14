@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Immediately marks a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> as unavailable for use 
+Immediately marks a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> as unavailable for use 
     without waiting for cleanup processing to be completed. The 
     <b>PTERMINATE_ROUTINE</b> type defines a pointer to this function.
 
@@ -79,18 +79,18 @@ This callback function does not return a value.
 
 The <i>Terminate</i> entry-point function instantly marks a 
      resource as unavailable for use. If there is a thread processing an 
-     <a href="https://msdn.microsoft.com/b406ef44-0622-4625-a6cf-462b6ea6018d">Online</a> or 
-     <a href="https://msdn.microsoft.com/1d67a4f5-66f8-4818-8b63-d0f50452f889">Offline</a> request for the resource, these requests are canceled 
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_routine">Online</a> or 
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Offline</a> request for the resource, these requests are canceled 
      and the resource is taken offline immediately.
 
 For effective implementation strategies of the <i>Terminate</i> 
      entry-point function, see 
-     <a href="https://msdn.microsoft.com/df6edc61-d325-46a5-b486-079a52dfaf77">Implementing Terminate</a>.
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/implementing-terminate">Implementing Terminate</a>.
 
 
 #### Examples
 
-See <a href="https://msdn.microsoft.com/library/Aa372246(v=VS.85).aspx">Resource DLL Examples</a>.
+See <a href="https://docs.microsoft.com/previous-versions//aa372246(v=vs.85)">Resource DLL Examples</a>.
 
 <div class="code"></div>
 
@@ -101,7 +101,7 @@ See <a href="https://msdn.microsoft.com/library/Aa372246(v=VS.85).aspx">Resource
 
 
 
-<a href="https://msdn.microsoft.com/933d7b97-b5be-4c84-a983-41d1fd935c19">Resource DLL Entry-Point Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>
  
 
  

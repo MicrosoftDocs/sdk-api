@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IADsNameTranslate::Get</b> method retrieves the name of a directory object in the specified format. The distinguished name must have been set in the appropriate format by the  <a href="https://msdn.microsoft.com/1c126333-3d5c-4ba3-8c66-de778e26488f">IADsNameTranslate::Set</a> method.
+The <b>IADsNameTranslate::Get</b> method retrieves the name of a directory object in the specified format. The distinguished name must have been set in the appropriate format by the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-set">IADsNameTranslate::Set</a> method.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>IADsNameTranslate::Get</b> method retrieves the name of a directory objec
 
 ### -param lnFormatType
 
-The format type of the output name. For more information, see  <a href="https://msdn.microsoft.com/8c5e8f2a-e805-463e-9583-96732d70b209">ADS_NAME_TYPE_ENUM</a>. This method does not support the <b>ADS_NAME_TYPE_SID_OR_SID_HISTORY_NAME</b> element in <b>ADS_NAME_TYPE_ENUM</b>.
+The format type of the output name. For more information, see  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0050_0001">ADS_NAME_TYPE_ENUM</a>. This method does not support the <b>ADS_NAME_TYPE_SID_OR_SID_HISTORY_NAME</b> element in <b>ADS_NAME_TYPE_ENUM</b>.
 
 
 ### -param pbstrADsPath
@@ -80,7 +80,7 @@ This method supports the standard <b>HRESULT</b> return values, including:
 
 
 
-This method lets you retrieve the name of a single directory object. To retrieve names of multiple objects use  <a href="https://msdn.microsoft.com/01c4fc79-ed5b-4a24-9b97-25b4095a9c8f">IADsNameTranslate::GetEx</a>.
+This method lets you retrieve the name of a single directory object. To retrieve names of multiple objects use  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-getex">IADsNameTranslate::GetEx</a>.
 
 When referral chasing is on, this method will attempt to chase and resolve the path of a specified object that is not residing on the connected server.
 
@@ -171,19 +171,19 @@ The following VBScript/ASP code example shows how to translate a distinguished n
 
 
 
-<a href="https://msdn.microsoft.com/8c5e8f2a-e805-463e-9583-96732d70b209">ADS_NAME_TYPE_ENUM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0050_0001">ADS_NAME_TYPE_ENUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d8baeb1-0edc-4648-8691-6ea4dcfd8f62">IADsNameTranslate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a>
 
 
 
-<a href="https://msdn.microsoft.com/01c4fc79-ed5b-4a24-9b97-25b4095a9c8f">IADsNameTranslate::GetEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-getex">IADsNameTranslate::GetEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/1c126333-3d5c-4ba3-8c66-de778e26488f">IADsNameTranslate::Set</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-set">IADsNameTranslate::Set</a>
  
 
  

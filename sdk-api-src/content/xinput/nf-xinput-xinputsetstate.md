@@ -62,12 +62,12 @@ Sends data to a connected controller. This function is used to activate the vibr
 
 ### -param dwUserIndex [in]
 
-Index of the user's controller. Can be a value from 0 to 3. For information about how this value is determined and how the value maps to indicators on the controller, see <a href="https://msdn.microsoft.com/en-us/library/Ee417001(v=VS.85).aspx">Multiple Controllers</a>.
+Index of the user's controller. Can be a value from 0 to 3. For information about how this value is determined and how the value maps to indicators on the controller, see <a href="https://docs.microsoft.com/windows/desktop/xinput/getting-started-with-xinput">Multiple Controllers</a>.
 
 
 ### -param pVibration [in, out]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee419273(v=VS.85).aspx">XINPUT_VIBRATION</a> structure containing the vibration information to send to the controller.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-_xinput_vibration">XINPUT_VIBRATION</a> structure containing the vibration information to send to the controller.
 
 
 ## -returns
@@ -88,15 +88,15 @@ If the function fails, the return value is an error code defined in WinError.h. 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419273(v=VS.85).aspx">XINPUT_VIBRATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-_xinput_vibration">XINPUT_VIBRATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/c1533555-9094-0030-f025-6f47e9002e1a">XInput Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/xinput/functions">XInput Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419267(v=VS.85).aspx">XInputGetState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xinput/nf-xinput-xinputgetstate">XInputGetState</a>
  
 
  

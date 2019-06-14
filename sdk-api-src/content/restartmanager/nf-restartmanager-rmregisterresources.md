@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Registers resources to a Restart Manager session. The Restart Manager uses the list of resources registered with the session to determine which applications and services must be shut down and restarted. Resources can be identified by filenames, service short names, or <a href="https://msdn.microsoft.com/5e3698c7-1ea8-4f9d-8fae-e69055a000fc">RM_UNIQUE_PROCESS</a> structures that describe running applications. The <b>RmRegisterResources</b> function can be used by a primary or secondary installer.
+Registers resources to a Restart Manager session. The Restart Manager uses the list of resources registered with the session to determine which applications and services must be shut down and restarted. Resources can be identified by filenames, service short names, or <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-_rm_unique_process">RM_UNIQUE_PROCESS</a> structures that describe running applications. The <b>RmRegisterResources</b> function can be used by a primary or secondary installer.
 
 
 ## -parameters
@@ -79,7 +79,7 @@ The number of processes being registered.
 
 ### -param rgApplications [in, optional]
 
-An array of <a href="https://msdn.microsoft.com/5e3698c7-1ea8-4f9d-8fae-e69055a000fc">RM_UNIQUE_PROCESS</a> structures. This parameter can be <b>NULL</b> if <i>nApplications</i> is 0.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-_rm_unique_process">RM_UNIQUE_PROCESS</a> structures. This parameter can be <b>NULL</b> if <i>nApplications</i> is 0.
 
 
 ### -param nServices [in]
@@ -96,7 +96,7 @@ An array of <b>null</b>-terminated strings of service short names. This paramete
 
 
 
-This is the most recent error received. The function can return one of the <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a> that are defined in Winerror.h. 
+This is the most recent error received. The function can return one of the <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a> that are defined in Winerror.h. 
 
 <table>
 <tr>

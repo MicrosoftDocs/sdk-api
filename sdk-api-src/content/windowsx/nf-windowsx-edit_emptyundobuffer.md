@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Resets the undo flag of an edit or rich edit control. The undo flag is set whenever an operation within the edit control can be undone. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761568(v=VS.85).aspx">EM_EMPTYUNDOBUFFER</a> message explicitly.
+Resets the undo flag of an edit or rich edit control. The undo flag is set whenever an operation within the edit control can be undone. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-emptyundobuffer">EM_EMPTYUNDOBUFFER</a> message explicitly.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Resets the undo flag of an edit or rich edit control. The undo flag is set whene
 
 ### -param hwndCtl
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -68,7 +68,7 @@ A handle to the control.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761568(v=VS.85).aspx">EM_EMPTYUNDOBUFFER</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/em-emptyundobuffer">EM_EMPTYUNDOBUFFER</a>.
 
 
 

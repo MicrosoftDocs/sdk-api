@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>AGENT_STATE</b> enum is used by the 
-<a href="https://msdn.microsoft.com/0f75146c-d8ce-4e9d-91bf-15dbb31b5c88">ITAgent::put_State</a> and 
-<a href="https://msdn.microsoft.com/6690a62b-65a1-4892-aeee-4a6652939d5f">ITAgent::get_State</a> methods to describe the agent state.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-put_state">ITAgent::put_State</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_state">ITAgent::get_State</a> methods to describe the agent state.
 
 
 ## -enum-fields
@@ -95,11 +95,11 @@ Agent state unknown.
 
 
 
-<a href="https://msdn.microsoft.com/6690a62b-65a1-4892-aeee-4a6652939d5f">ITAgent::get_State</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_state">ITAgent::get_State</a>
 
 
 
-<a href="https://msdn.microsoft.com/0f75146c-d8ce-4e9d-91bf-15dbb31b5c88">ITAgent::put_State</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-put_state">ITAgent::put_State</a>
  
 
  

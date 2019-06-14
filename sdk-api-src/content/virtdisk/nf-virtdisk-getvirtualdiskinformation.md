@@ -62,7 +62,7 @@ Retrieves information about a virtual hard disk (VHD).
 A handle to the open VHD, which must have been opened using the 
       <b>VIRTUAL_DISK_ACCESS_GET_INFO</b> flag set in the 
       <i>VirtualDiskAccessMask</i> parameter to the 
-      <a href="https://msdn.microsoft.com/en-us/library/Dd323680(v=VS.85).aspx">OpenVirtualDisk</a> function. For information on how to 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-openvirtualdisk">OpenVirtualDisk</a> function. For information on how to 
       open a VHD, see the <b>OpenVirtualDisk</b> function.
 
 
@@ -74,7 +74,7 @@ A pointer to a <b>ULONG</b> that contains the size of the
 
 ### -param VirtualDiskInfo [in, out]
 
-A pointer to a valid <a href="https://msdn.microsoft.com/en-us/library/Dd323674(v=VS.85).aspx">GET_VIRTUAL_DISK_INFO</a> 
+A pointer to a valid <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_get_virtual_disk_info">GET_VIRTUAL_DISK_INFO</a> 
       structure. The format of the data returned is dependent on the value passed in the 
       <b>Version</b> member by the caller.
 
@@ -95,7 +95,7 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b> and the
 
 If the function fails, the return value is an error code and the <i>VirtualDiskInfo</i> 
        parameter is undefined. For more information, see 
-       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -116,15 +116,15 @@ The <b>GetVirtualDiskInformation</b> function
 
 
 
-<a href="https://msdn.microsoft.com/c9531c07-ad55-42b6-8685-7f55a47e8485">About VHD</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd323674(v=VS.85).aspx">GET_VIRTUAL_DISK_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_get_virtual_disk_info">GET_VIRTUAL_DISK_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b5d0da0-2b23-4b7c-b007-ed3fe030926c">VHD Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
  
 
  

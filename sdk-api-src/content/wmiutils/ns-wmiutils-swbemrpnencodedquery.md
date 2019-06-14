@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SWbemRpnEncodedQuery</b> structure contains information from the <a href="https://msdn.microsoft.com/06cd2593-58f5-46b9-9100-debad0280d90">IWbemQuery::GetAnalysis</a> method when you use the <b>WMIQ_ANALYSIS_RPN_SEQUENCE</b> analysis type. Not all  the fields in the structure are used actively, because some are reserved for future use.
+The <b>SWbemRpnEncodedQuery</b> structure contains information from the <a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-getanalysis">IWbemQuery::GetAnalysis</a> method when you use the <b>WMIQ_ANALYSIS_RPN_SEQUENCE</b> analysis type. Not all  the fields in the structure are used actively, because some are reserved for future use.
 
 
 ## -struct-fields
@@ -89,7 +89,7 @@ Number of elements listed in a SELECT clause. For example, in the statement <cod
 
 ### -field m_ppSelectList
 
-Structure used to store property names. This field is used  with the  <b>m_uSelectListSize</b> field. For example, in the statement <code>SELECT a,b,c FROM d</code>, <b>m_uSelectListSize</b> is 3, and the <b>m_ppszNameList</b> field of the <b>m_ppSelectList</b> structure contains the strings "a", "b" and "c". For more information, see <a href="https://msdn.microsoft.com/ce8031a1-b30f-4ff6-90d8-42e46e1b6d89">SWbemQueryQualifiedName</a>.
+Structure used to store property names. This field is used  with the  <b>m_uSelectListSize</b> field. For example, in the statement <code>SELECT a,b,c FROM d</code>, <b>m_uSelectListSize</b> is 3, and the <b>m_ppszNameList</b> field of the <b>m_ppSelectList</b> structure contains the strings "a", "b" and "c". For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/ns-wmiutils-tag_swbemqueryqualifiedname">SWbemQueryQualifiedName</a>.
 
 
 ### -field m_uFromTargetType
@@ -137,7 +137,7 @@ Number of tokens in the WHERE clause. For example, in the statement <code>SELECT
 
 ### -field m_ppRpnWhereClause
 
-<a href="https://msdn.microsoft.com/04ef89e5-ce42-4d2d-8188-c2bbfe821bcc">SWbemRpnQueryToken</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/ns-wmiutils-tag_swbemrpnquerytoken">SWbemRpnQueryToken</a>
 <code>SELECT * FROM a, b WHERE c &lt; 1000 AND d ISA e</code>
 <code>c &lt; 1000</code>
 <code>d ISA e</code>
@@ -175,15 +175,15 @@ Used if there is  a GROUP WITHIN clause to indicate the interval over which to g
 
 
 
-<a href="https://msdn.microsoft.com/4a0c0c1d-3d84-491f-8379-d164821fa71b">IWbemQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nn-wmiutils-iwbemquery">IWbemQuery</a>
 
 
 
-<a href="https://msdn.microsoft.com/ce8031a1-b30f-4ff6-90d8-42e46e1b6d89">SWbemQueryQualifiedName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/ns-wmiutils-tag_swbemqueryqualifiedname">SWbemQueryQualifiedName</a>
 
 
 
-<a href="https://msdn.microsoft.com/04ef89e5-ce42-4d2d-8188-c2bbfe821bcc">SWbemRpnQueryToken</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/ns-wmiutils-tag_swbemrpnquerytoken">SWbemRpnQueryToken</a>
  
 
  

@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Generates the x offset from the left end or leading edge of a run to either the leading or trailing edge of a logical character <a href="https://msdn.microsoft.com/en-us/library/Dd374094(v=VS.85).aspx">cluster</a>.
+Generates the x offset from the left end or leading edge of a run to either the leading or trailing edge of a logical character <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-glossary">cluster</a>.
 
 
 ## -parameters
@@ -87,7 +87,7 @@ Pointer to the logical clusters.
 
 ### -param psva [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/83b77f60-2520-49ee-bc7f-27cb3db02ac8">SCRIPT_VISATTR</a> array of visual attributes.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_visattr">SCRIPT_VISATTR</a> array of visual attributes.
 
 
 ### -param piAdvance [in]
@@ -97,7 +97,7 @@ Pointer to an advance widths value.
 
 ### -param psa [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/c673d5cc-c4ca-4238-8090-55abe3db324b">SCRIPT_ANALYSIS</a> structure. The <b>fLogicalOrder</b> member specifies the end of the run from which to measure the offset. If the flag is set, the leading edge of the run is used. If the flag is not set, the left end of the run is used.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_analysis">SCRIPT_ANALYSIS</a> structure. The <b>fLogicalOrder</b> member specifies the end of the run from which to measure the offset. If the flag is set, the leading edge of the run is used. If the flag is not set, the left end of the run is used.
 
 
 ### -param piX [out]
@@ -134,23 +134,23 @@ For scripts in which the caret is conventionally snapped to the boundaries of cl
 
 
 
-<a href="https://msdn.microsoft.com/c673d5cc-c4ca-4238-8090-55abe3db324b">SCRIPT_ANALYSIS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_analysis">SCRIPT_ANALYSIS</a>
 
 
 
-<a href="https://msdn.microsoft.com/83b77f60-2520-49ee-bc7f-27cb3db02ac8">SCRIPT_VISATTR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_visattr">SCRIPT_VISATTR</a>
 
 
 
-<a href="https://msdn.microsoft.com/98548d60-4cbd-4808-8027-1d8058c41d6d">ScriptXtoCP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptxtocp">ScriptXtoCP</a>
 
 
 
-<a href="https://msdn.microsoft.com/de7a882f-ed74-4be2-b66d-59c2e50dc07a">Uniscribe</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://msdn.microsoft.com/876e36f5-a91c-490b-87bd-b7cb4993f8c4">Uniscribe Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
  
 
  

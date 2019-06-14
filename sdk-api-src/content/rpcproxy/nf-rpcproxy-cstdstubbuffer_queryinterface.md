@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[CStdStubBuffer_QueryInterface is not supported and may be altered or unavailable in the future.]
 
-The <b>CStdStubBuffer_QueryInterface</b> function implements the <a href="https://msdn.microsoft.com/en-us/library/ms678504(v=VS.85).aspx">IRpcStubBuffer::QueryInterface</a> method.
+The <b>CStdStubBuffer_QueryInterface</b> function implements the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer::QueryInterface</a> method.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>CStdStubBuffer_QueryInterface</b> function implements the <a href="https:
 
 ### -param This [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a> object.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a> object.
 
 
 ### -param riid [in]

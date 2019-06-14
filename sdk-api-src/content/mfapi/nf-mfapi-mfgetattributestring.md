@@ -59,7 +59,7 @@ Gets a string value from an attribute store.
 
 ### -param pAttributes [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> interface.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface.
 
 
 ### -param guidKey [in]
@@ -70,7 +70,7 @@ A GUID that identifies which value to retrieve. The attribute type must be <b>MF
 
 ### -param ppsz [out]
 
-If the key is found and the value is a string type, this parameter receives a copy of the string. The caller must free the memory for the string by calling <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>. 
+If the key is found and the value is a string type, this parameter receives a copy of the string. The caller must free the memory for the string by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>. 
 
 
 
@@ -87,7 +87,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-This function is a wrapper for the <a href="https://msdn.microsoft.com/550a3035-ea16-4784-8f69-9522259bb338">IMFAttributes::GetAllocatedString</a> method.
+This function is a wrapper for the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getallocatedstring">IMFAttributes::GetAllocatedString</a> method.
 
 
 
@@ -97,7 +97,7 @@ This function is a wrapper for the <a href="https://msdn.microsoft.com/550a3035-
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

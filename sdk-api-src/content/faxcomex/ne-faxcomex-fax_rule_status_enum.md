@@ -92,7 +92,7 @@ The routing rule cannot be applied because the rule uses a single device for its
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689593(v=VS.85).aspx">IFaxOutboundRoutingRule::get_Status</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule-status-vb">IFaxOutboundRoutingRule::get_Status</a>
  
 
  

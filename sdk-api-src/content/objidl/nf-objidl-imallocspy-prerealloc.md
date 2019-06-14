@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Performs operations required before calling <a href="https://msdn.microsoft.com/37de166a-04a5-4a10-83b3-dd19d0bb48a4">IMalloc::Realloc</a>.
+Performs operations required before calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-realloc">IMalloc::Realloc</a>.
 
 
 ## -parameters
@@ -59,12 +59,12 @@ Performs operations required before calling <a href="https://msdn.microsoft.com/
 
 ### -param pRequest [in]
 
-The pointer to the block of memory specified in the call to <a href="https://msdn.microsoft.com/37de166a-04a5-4a10-83b3-dd19d0bb48a4">IMalloc::Realloc</a>.
+The pointer to the block of memory specified in the call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-realloc">IMalloc::Realloc</a>.
 
 
 ### -param cbRequest [in]
 
-The byte count of the block of memory as specified in the original call to <a href="https://msdn.microsoft.com/37de166a-04a5-4a10-83b3-dd19d0bb48a4">IMalloc::Realloc</a>.
+The byte count of the block of memory as specified in the original call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-realloc">IMalloc::Realloc</a>.
 
 
 ### -param ppNewRequest [out]
@@ -81,7 +81,7 @@ Indicates whether the block of memory was allocated while this spy was active.
 
 
 
-The byte count to be passed to <a href="https://msdn.microsoft.com/37de166a-04a5-4a10-83b3-dd19d0bb48a4">IMalloc::Realloc</a>.
+The byte count to be passed to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-realloc">IMalloc::Realloc</a>.
 
 
 
@@ -90,9 +90,9 @@ The byte count to be passed to <a href="https://msdn.microsoft.com/37de166a-04a5
 
 
 
-The <b>PreRealloc</b> implementation may extend and/or modify the allocation to store debug-specific information with the allocation. Thus, the <i>ppNewRequest</i> parameter may differ from <i>pRequest</i>, a pointer to the request specified in the original call to <a href="https://msdn.microsoft.com/37de166a-04a5-4a10-83b3-dd19d0bb48a4">Realloc</a>.
+The <b>PreRealloc</b> implementation may extend and/or modify the allocation to store debug-specific information with the allocation. Thus, the <i>ppNewRequest</i> parameter may differ from <i>pRequest</i>, a pointer to the request specified in the original call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-realloc">Realloc</a>.
 
-<b>PreRealloc</b> can force memory allocation failure by returning 0, allowing testing to ensure that the application handles allocation failure gracefully in all cases. In this case, <a href="https://msdn.microsoft.com/77f86494-f7b3-4c12-bb42-ad74161a1dff">PostRealloc</a> is not called and <a href="https://msdn.microsoft.com/37de166a-04a5-4a10-83b3-dd19d0bb48a4">Realloc</a> returns <b>NULL</b>. However, if <b>Realloc</b> encounters a real memory failure and returns <b>NULL</b>, <b>PostRealloc</b> is called. Forcing allocation failure is effective only if <i>cbRequest</i> is not equal to 0.
+<b>PreRealloc</b> can force memory allocation failure by returning 0, allowing testing to ensure that the application handles allocation failure gracefully in all cases. In this case, <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imallocspy-postrealloc">PostRealloc</a> is not called and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-realloc">Realloc</a> returns <b>NULL</b>. However, if <b>Realloc</b> encounters a real memory failure and returns <b>NULL</b>, <b>PostRealloc</b> is called. Forcing allocation failure is effective only if <i>cbRequest</i> is not equal to 0.
 
 
 
@@ -102,15 +102,15 @@ The <b>PreRealloc</b> implementation may extend and/or modify the allocation to 
 
 
 
-<a href="https://msdn.microsoft.com/37de166a-04a5-4a10-83b3-dd19d0bb48a4">IMalloc::Realloc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-realloc">IMalloc::Realloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ba500f7-c070-4788-b7fe-58b6a4e6a94c">IMallocSpy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a>
 
 
 
-<a href="https://msdn.microsoft.com/77f86494-f7b3-4c12-bb42-ad74161a1dff">IMallocSpy::PostRealloc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imallocspy-postrealloc">IMallocSpy::PostRealloc</a>
  
 
  

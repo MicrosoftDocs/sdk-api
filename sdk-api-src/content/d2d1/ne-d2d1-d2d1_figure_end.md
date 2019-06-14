@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates whether a specific  <a href="https://msdn.microsoft.com/cf877a25-7b9f-4db0-ac53-b4a350795a86">ID2D1SimplifiedGeometrySink</a> figure is open or closed. 
+Indicates whether a specific  <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a> figure is open or closed. 
 
 
 ## -enum-fields
@@ -77,11 +77,11 @@ The figure is closed.
 
 
 
-<a href="https://msdn.microsoft.com/cf877a25-7b9f-4db0-ac53-b4a350795a86">ID2D1SimplifiedGeometrySink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a>
 
 
 
-<a href="https://msdn.microsoft.com/31f6aeba-2e81-4b8d-b734-0c501eae331f">ID2D1SimplifiedGeometrySink::EndFigure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-endfigure">ID2D1SimplifiedGeometrySink::EndFigure</a>
  
 
  

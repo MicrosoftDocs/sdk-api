@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/9EB9C74E-A056-4A40-AFAD-0056E139BA28">ISoftwareBitmapNative</a>  from the provided <a href="https://msdn.microsoft.com/BFA73B1A-F8A7-4100-9DBD-234CCA06F9F5">IMF2DBuffer2</a>.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/windows.graphics.imaging.interop/nn-windows-graphics-imaging-interop-isoftwarebitmapnative">ISoftwareBitmapNative</a>  from the provided <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer2">IMF2DBuffer2</a>.
 
 
 ## -parameters
@@ -105,7 +105,7 @@ The rectangular area within the surface that contains valid image data. Use NULL
 
 Type: <b>REFIID</b>
 
-The IID of the <a href="https://msdn.microsoft.com/9EB9C74E-A056-4A40-AFAD-0056E139BA28">ISoftwareBitmapNative</a> interface.
+The IID of the <a href="https://docs.microsoft.com/windows/desktop/api/windows.graphics.imaging.interop/nn-windows-graphics-imaging-interop-isoftwarebitmapnative">ISoftwareBitmapNative</a> interface.
 
 
 ### -param ppv [out]
@@ -119,7 +119,7 @@ When this method returns successfully, contains the requested interface.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 Returns S_OK on successful completion.
 
@@ -131,7 +131,7 @@ Returns S_OK on successful completion.
 
 
 
-<a href="https://msdn.microsoft.com/613BFE81-AC55-4786-B6BD-0FFB7506D7F1">ISoftwareBitmapNativeFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.graphics.imaging.interop/nn-windows-graphics-imaging-interop-isoftwarebitmapnativefactory">ISoftwareBitmapNativeFactory</a>
  
 
  

@@ -80,7 +80,7 @@ A "friendly" display name (for example, Jeff Smith). The display name is not nec
 ### -field NameUniqueId
 
 A GUID string that the 
-<a href="https://msdn.microsoft.com/en-us/library/ms687262(v=VS.85).aspx">IIDFromString</a> function returns (for example, {4fa050f0-f561-11cf-bdd9-00aa003a77b6}).
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-iidfromstring">IIDFromString</a> function returns (for example, {4fa050f0-f561-11cf-bdd9-00aa003a77b6}).
 
 
 ### -field NameCanonical
@@ -121,15 +121,15 @@ The DNS domain name followed by a backward-slash and the SAM user name.
 
 
 
-<a href="https://msdn.microsoft.com/aead19ae-a27c-486e-aa2e-220d337044fc">GetComputerObjectName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/secext/nf-secext-getcomputerobjectnamea">GetComputerObjectName</a>
 
 
 
-<a href="https://msdn.microsoft.com/7e7d618b-2e64-4b0b-aed3-f3221b0443ca">GetUserNameEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/secext/nf-secext-getusernameexa">GetUserNameEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/4df25519-e7d6-46ea-b0e8-ba1f82e5f94f">TranslateName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/secext/nf-secext-translatenamea">TranslateName</a>
  
 
  

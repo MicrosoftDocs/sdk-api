@@ -63,7 +63,7 @@ Retrieves the version of sample protection that the component implements on outp
 
 ### -param pdwVersion [out]
 
-Receives a member of the <a href="https://msdn.microsoft.com/5244ac44-5738-4d77-9dc5-371efe52ced9">SAMPLE_PROTECTION_VERSION</a> enumeration.
+Receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-sample_protection_version">SAMPLE_PROTECTION_VERSION</a> enumeration.
 
 
 ## -returns
@@ -99,7 +99,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/bebe24cd-657b-4c6c-9fe9-5d6dd58827a3">IMFSampleProtection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsampleprotection">IMFSampleProtection</a>
  
 
  

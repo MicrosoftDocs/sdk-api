@@ -73,9 +73,9 @@ Applications other than Windows Explorer and Internet Explorer that call this fu
 
 The interface pointer passed to <b>SetProcessReference</b> must reference a free-threaded object.
 
-Each time a component calls <a href="https://msdn.microsoft.com/C46468A6-684D-494c-8261-87F16485B97B">GetProcessReference</a>, the system calls the <a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63">AddRef</a> method before returning the interface pointer to the calling component. The component then calls the <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a> method when processing is complete. The process that calls <b>SetProcessReference</b> must not terminate while the reference count of the provided interface pointer is nonzero.
+Each time a component calls <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-getprocessreference">GetProcessReference</a>, the system calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method before returning the interface pointer to the calling component. The component then calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method when processing is complete. The process that calls <b>SetProcessReference</b> must not terminate while the reference count of the provided interface pointer is nonzero.
 
-For further information on how components use the process references, see <a href="https://msdn.microsoft.com/C46468A6-684D-494c-8261-87F16485B97B">GetProcessReference</a>.
+For further information on how components use the process references, see <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-getprocessreference">GetProcessReference</a>.
 
 
 
@@ -85,15 +85,15 @@ For further information on how components use the process references, see <a hre
 
 
 
-<a href="https://msdn.microsoft.com/C46468A6-684D-494c-8261-87F16485B97B">GetProcessReference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-getprocessreference">GetProcessReference</a>
 
 
 
-<a href="https://msdn.microsoft.com/86f29587-8347-4e88-87bc-83ef2b8a7728">SHSetInstanceExplorer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shsetinstanceexplorer">SHSetInstanceExplorer</a>
 
 
 
-<a href="https://msdn.microsoft.com/0767BEA4-14C5-481A-8784-D3070C2E61DE">Windows API Sets</a>
+<a href="https://docs.microsoft.com/windows/desktop/apiindex/windows-apisets">Windows API Sets</a>
  
 
  

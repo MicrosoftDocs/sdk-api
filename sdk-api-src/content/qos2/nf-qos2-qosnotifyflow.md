@@ -59,7 +59,7 @@ The <b>QOSNotifyFlow</b> function registers the calling application to receive a
 
 ### -param QOSHandle [in]
 
-Handle to the QOS subsystem returned by <a href="https://msdn.microsoft.com/dcee0bed-dc6f-435d-b292-07e331f6cf5b">QOSCreateHandle</a>.
+Handle to the QOS subsystem returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>.
 
 
 ### -param FlowId [in]
@@ -69,7 +69,7 @@ Specifies the flow identifier from which the application wishes to receive notif
 
 ### -param Operation [in]
 
-A <a href="https://msdn.microsoft.com/96072c6e-8282-4373-bb0b-14fbeb5573c3">QOS_NOTIFY_FLOW</a> value that indicates what the type of  notification being requested.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/ne-qos2-_qos_notify_flow">QOS_NOTIFY_FLOW</a> value that indicates what the type of  notification being requested.
 
 
 ### -param Size [in, out, optional]
@@ -215,7 +215,7 @@ The request could not be performed because of an I/O device error.
 </dl>
 </td>
 <td width="60%">
-The indicated device requires reinitialization due to hardware errors. The application should clean up and call <a href="https://msdn.microsoft.com/dcee0bed-dc6f-435d-b292-07e331f6cf5b">QOSCreateHandle</a> again.
+The indicated device requires reinitialization due to hardware errors. The application should clean up and call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a> again.
 
 </td>
 </tr>
@@ -294,7 +294,7 @@ This function may be called asynchronously.
 
 
 
-<a href="https://msdn.microsoft.com/022fde13-415e-49aa-8df4-472c4eadd6a0">Quality Windows Audio/Video Experience (qWAVE)</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used by the <a href="https://msdn.microsoft.com/39e25db6-e51f-45cb-9739-260e7c246fcc">WsPullBytes</a> function to request 
+Used by the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wspullbytes">WsPullBytes</a> function to request 
         the data that should be written.
       
 
@@ -61,7 +61,7 @@ Used by the <a href="https://msdn.microsoft.com/39e25db6-e51f-45cb-9739-260e7c24
 
 ### -param *callbackState [in]
 
-The user-defined state that was passed to <a href="https://msdn.microsoft.com/39e25db6-e51f-45cb-9739-260e7c246fcc">WsPullBytes</a>.
+The user-defined state that was passed to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wspullbytes">WsPullBytes</a>.
         
 
 

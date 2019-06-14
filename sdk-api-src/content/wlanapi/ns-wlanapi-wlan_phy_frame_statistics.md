@@ -152,7 +152,7 @@ Contains the number of times an FCS error has been detected in a received MPDU.
 
 
 
-<a href="https://msdn.microsoft.com/d66d89f1-bb12-4c2e-8c7a-a4eba008955d">WLAN_STATISTICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_statistics">WLAN_STATISTICS</a>
  
 
  

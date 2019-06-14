@@ -54,7 +54,7 @@ Exposes methods that provide information about an encoder.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICBitmapEncoderInfo</b> interface inherits from <a href="https://msdn.microsoft.com/502a94bf-3ec4-44d2-b0de-9994f2f9861f">IWICBitmapCodecInfo</a>. <b>IWICBitmapEncoderInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICBitmapEncoderInfo</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapcodecinfo">IWICBitmapCodecInfo</a>. <b>IWICBitmapEncoderInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,10 +69,10 @@ The <b>IWICBitmapEncoderInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/333663d2-9b71-44ee-bf58-f6f283666b78">CreateInstance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoderinfo-createinstance">CreateInstance</a>
 </td>
 <td align="left" width="63%">
-Creates a new <a href="https://msdn.microsoft.com/fe87c9ae-dedf-4ec2-ac11-0ea5fc6aa3ad">IWICBitmapEncoder</a> instance.
+Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder">IWICBitmapEncoder</a> instance.
 
 </td>
 </tr>

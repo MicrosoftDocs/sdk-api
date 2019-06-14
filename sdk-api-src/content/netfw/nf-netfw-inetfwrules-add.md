@@ -59,7 +59,7 @@ The <b>Add</b> method adds a new rule to the collection.
 
 ### -param rule [in]
 
-Rule to be added to the collection via an <a href="https://msdn.microsoft.com/59e2a140-bf55-4f0e-bf4b-1a39d3dc0457">INetFwRule</a> object.
+Rule to be added to the collection via an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a> object.
 
 
 ## -returns
@@ -167,7 +167,7 @@ The  method failed because the  object is already in the collection.
 
 If a rule with the same rule identifier as the one being submitted already exists, the existing rule is overwritten.
 
-Adding a firewall rule with a <a href="https://msdn.microsoft.com/8c1bccc6-3c8d-401c-8e9f-e88a4a60e3f4">LocalAppPackageId</a> specified can lead to unexpected behavior and is not supported.
+Adding a firewall rule with a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule3-get_localapppackageid">LocalAppPackageId</a> specified can lead to unexpected behavior and is not supported.
 
 
 
@@ -177,11 +177,11 @@ Adding a firewall rule with a <a href="https://msdn.microsoft.com/8c1bccc6-3c8d-
 
 
 
-<a href="https://msdn.microsoft.com/59e2a140-bf55-4f0e-bf4b-1a39d3dc0457">INetFwRule</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a>
 
 
 
-<a href="https://msdn.microsoft.com/4908a5f2-4093-4f2d-8e68-fe4b2e552b13">INetFwRules</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrules">INetFwRules</a>
  
 
  

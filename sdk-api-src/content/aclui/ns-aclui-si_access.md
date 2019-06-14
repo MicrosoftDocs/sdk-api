@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SI_ACCESS</b> structure contains information about an access right or default <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access mask</a> for a securable object. The 
-<a href="https://msdn.microsoft.com/a40b3ded-9a75-476b-bc7e-38794a98261c">ISecurityInformation::GetAccessRights</a> method uses this structure to specify information that the access control editor uses to initialize its property pages.
+The <b>SI_ACCESS</b> structure contains information about an access right or default <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access mask</a> for a securable object. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getaccessrights">ISecurityInformation::GetAccessRights</a> method uses this structure to specify information that the access control editor uses to initialize its property pages.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ The <b>SI_ACCESS</b> structure contains information about an access right or def
 ### -field pguid
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a> structure that identifies the type of object to which the access right or default access mask applies. The GUID can identify a property set or property on the object, or a type of child object that can be contained by the object. 
+<a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structure that identifies the type of object to which the access right or default access mask applies. The GUID can identify a property set or property on the object, or a type of child object that can be contained by the object. 
 
 
 
@@ -76,14 +76,14 @@ A bitmask that specifies the access right described by this structure. The mask 
 
 ### -field pszName
 
-A pointer to a null-terminated <a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">Unicode</a> string containing a display string that describes the access right. 
+A pointer to a null-terminated <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> string containing a display string that describes the access right. 
 
 
 
 
 Alternatively, <b>pszName</b> can be a string resource identifier returned by the 
-<a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro. Use the 
-<a href="https://msdn.microsoft.com/2bc63aa0-dada-4962-a381-6b0f8332e564">ISecurityInformation::GetObjectInformation</a> method to identify the module that contains the string resource.
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro. Use the 
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getobjectinformation">ISecurityInformation::GetObjectInformation</a> method to identify the module that contains the string resource.
 
 
 ### -field dwFlags
@@ -131,7 +131,7 @@ The access right is displayed on the basic security page.
 </td>
 <td width="60%">
 Indicates an access right that applies only to containers. If this flag is set, the access right is displayed on the basic security page only if the 
-<a href="https://msdn.microsoft.com/2bc63aa0-dada-4962-a381-6b0f8332e564">ISecurityInformation::GetObjectInformation</a> method specifies the SI_CONTAINER flag.
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getobjectinformation">ISecurityInformation::GetObjectInformation</a> method specifies the SI_CONTAINER flag.
 
 </td>
 </tr>
@@ -197,15 +197,15 @@ Noncontainer objects contained by the primary object inherit the entry.
 
 
 
-<a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a>
+<a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a>
 
 
 
-<a href="https://msdn.microsoft.com/a40b3ded-9a75-476b-bc7e-38794a98261c">ISecurityInformation::GetAccessRights</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getaccessrights">ISecurityInformation::GetAccessRights</a>
 
 
 
-<a href="https://msdn.microsoft.com/2bc63aa0-dada-4962-a381-6b0f8332e564">ISecurityInformation::GetObjectInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getobjectinformation">ISecurityInformation::GetObjectInformation</a>
  
 
  

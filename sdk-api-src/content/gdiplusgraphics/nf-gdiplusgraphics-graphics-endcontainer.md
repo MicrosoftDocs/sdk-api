@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Graphics::EndContainer</b> method closes a graphics container that was previously opened by the <a href="https://msdn.microsoft.com/en-us/library/ms536156(v=VS.85).aspx">Graphics::BeginContainer</a> method.
+The <b>Graphics::EndContainer</b> method closes a graphics container that was previously opened by the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrect__inconstrect__inunit)">Graphics::BeginContainer</a> method.
 
 
 ## -parameters
@@ -62,21 +62,21 @@ The <b>Graphics::EndContainer</b> method closes a graphics container that was pr
 
 Type: <b>GraphicsContainer</b>
 
-Value (previously returned by <a href="https://msdn.microsoft.com/en-us/library/ms536156(v=VS.85).aspx">Graphics::BeginContainer</a>) that identifies the container to be closed. 
+Value (previously returned by <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrect__inconstrect__inunit)">Graphics::BeginContainer</a>) that identifies the container to be closed. 
 
 
 ## -returns
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 </strong>
 
 If the method succeeds, it returns <b>Ok</b>, which is an element of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 
 
@@ -85,17 +85,17 @@ If the method fails, it returns one of the other elements of the
 
 
 
-When you call the <a href="https://msdn.microsoft.com/en-us/library/ms536156(v=VS.85).aspx">Graphics::BeginContainer</a> method of a 
-				<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>object, an information block that holds the state of the 
+When you call the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrect__inconstrect__inunit)">Graphics::BeginContainer</a> method of a 
+				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>object, an information block that holds the state of the 
 				<b>Graphics</b>object is put on a stack. The <b>Graphics::BeginContainer</b> method returns a value that identifies that information block. When you pass the identifying value to the <b>Graphics::EndContainer</b> method, the information block is removed from the stack and is used to restore the 
 				<b>Graphics</b>object to the state it was in at the time of the <b>Graphics::BeginContainer</b> call.
 
-Containers can be nested; that is, you can call the <a href="https://msdn.microsoft.com/en-us/library/ms536156(v=VS.85).aspx">Graphics::BeginContainer</a> method several times before you call the <b>Graphics::EndContainer</b> method. Each time you call the <b>Graphics::BeginContainer</b> method, an information block is put on the stack, and you receive an identifier for the information block. When you pass one of those identifiers to the <b>Graphics::EndContainer</b> method, the 
-				<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>object is returned to the state it was in at the time of the <b>Graphics::BeginContainer</b> call that returned that particular identifier. The information block placed on the stack by that <b>Graphics::BeginContainer</b> call is removed from the stack, and all information blocks placed on that stack after that <b>Graphics::BeginContainer</b> call are also removed.
+Containers can be nested; that is, you can call the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrect__inconstrect__inunit)">Graphics::BeginContainer</a> method several times before you call the <b>Graphics::EndContainer</b> method. Each time you call the <b>Graphics::BeginContainer</b> method, an information block is put on the stack, and you receive an identifier for the information block. When you pass one of those identifiers to the <b>Graphics::EndContainer</b> method, the 
+				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>object is returned to the state it was in at the time of the <b>Graphics::BeginContainer</b> call that returned that particular identifier. The information block placed on the stack by that <b>Graphics::BeginContainer</b> call is removed from the stack, and all information blocks placed on that stack after that <b>Graphics::BeginContainer</b> call are also removed.
 
-Calls to the <a href="https://msdn.microsoft.com/en-us/library/ms535806(v=VS.85).aspx">Graphics::Save</a> method place information blocks on the same stack as calls to the <a href="https://msdn.microsoft.com/en-us/library/ms536156(v=VS.85).aspx">Graphics::BeginContainer</a> method. Just as an <b>Graphics::EndContainer</b> call is paired with a <b>Graphics::BeginContainer</b> call, a <a href="https://msdn.microsoft.com/en-us/library/ms535804(v=VS.85).aspx">Graphics::Restore</a> call is paired with a <b>Graphics::Save</b> call.
+Calls to the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-save">Graphics::Save</a> method place information blocks on the same stack as calls to the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrect__inconstrect__inunit)">Graphics::BeginContainer</a> method. Just as an <b>Graphics::EndContainer</b> call is paired with a <b>Graphics::BeginContainer</b> call, a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-restore">Graphics::Restore</a> call is paired with a <b>Graphics::Save</b> call.
 
-<div class="alert"><b>Caution</b>  When you call <b>Graphics::EndContainer</b>, all information blocks placed on the stack (by <a href="https://msdn.microsoft.com/en-us/library/ms535806(v=VS.85).aspx">Graphics::Save</a> or by <a href="https://msdn.microsoft.com/en-us/library/ms536156(v=VS.85).aspx">Graphics::BeginContainer</a>) after the corresponding call to <b>Graphics::BeginContainer</b> are removed from the stack. Likewise, when you call <a href="https://msdn.microsoft.com/en-us/library/ms535804(v=VS.85).aspx">Graphics::Restore</a>, all information blocks placed on the stack (by <b>Graphics::Save</b> or by <b>Graphics::BeginContainer</b>) after the corresponding call to <b>Graphics::Save</b> are removed from the stack.</div>
+<div class="alert"><b>Caution</b>  When you call <b>Graphics::EndContainer</b>, all information blocks placed on the stack (by <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-save">Graphics::Save</a> or by <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrect__inconstrect__inunit)">Graphics::BeginContainer</a>) after the corresponding call to <b>Graphics::BeginContainer</b> are removed from the stack. Likewise, when you call <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-restore">Graphics::Restore</a>, all information blocks placed on the stack (by <b>Graphics::Save</b> or by <b>Graphics::BeginContainer</b>) after the corresponding call to <b>Graphics::Save</b> are removed from the stack.</div>
 <div> </div>
 
 #### Examples
@@ -103,7 +103,7 @@ Calls to the <a href="https://msdn.microsoft.com/en-us/library/ms535806(v=VS.85)
 
 
 The following example creates a 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>object and sets its clipping region. The code begins a container and sets an additional clipping region for the container. The code fills a rectangle twice: once inside the container, and once outside the container (after the call to <b>Graphics::EndContainer</b>).
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>object and sets its clipping region. The code begins a container and sets an additional clipping region for the container. The code fills a rectangle twice: once inside the container, and once outside the container (after the call to <b>Graphics::EndContainer</b>).
 
 
 ```cpp
@@ -147,27 +147,27 @@ VOID Example_EndContainer(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536334(v=VS.85).aspx">Graphics Containers</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-graphics-containers-about">Graphics Containers</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536156(v=VS.85).aspx">Graphics::BeginContainer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrect__inconstrect__inunit)">Graphics::BeginContainer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535804(v=VS.85).aspx">Graphics::Restore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-restore">Graphics::Restore</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535806(v=VS.85).aspx">Graphics::Save</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-save">Graphics::Save</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533813(v=VS.85).aspx">Using Graphics Containers</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-graphics-containers-use">Using Graphics Containers</a>
  
 
  

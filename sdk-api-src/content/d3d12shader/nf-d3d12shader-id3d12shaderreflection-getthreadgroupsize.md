@@ -60,7 +60,7 @@ Retrieves the sizes, in units of threads, of the X, Y, and Z dimensions of the s
 
 ### -param pSizeX [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
 A pointer to the size, in threads, of the x-dimension of the thread-group grid. The maximum size is 1024.
           
@@ -68,7 +68,7 @@ A pointer to the size, in threads, of the x-dimension of the thread-group grid. 
 
 ### -param pSizeY [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
 A pointer to the size, in threads, of the y-dimension of the thread-group grid. The maximum size is 1024.
           
@@ -76,7 +76,7 @@ A pointer to the size, in threads, of the y-dimension of the thread-group grid. 
 
 ### -param pSizeZ [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
 A pointer to the size, in threads, of the z-dimension of the thread-group grid. The maximum size is 64.
           
@@ -86,7 +86,7 @@ A pointer to the size, in threads, of the z-dimension of the thread-group grid. 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Returns the total size, in threads, of the thread-group grid by calculating the product of the size of each dimension.
             
@@ -102,7 +102,7 @@ Returns the total size, in threads, of the thread-group grid by calculating the 
 This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
         
 
-When a compute shader is written it defines the actions of a single thread group only. If multiple thread groups are required, it is the role of the <a href="https://msdn.microsoft.com/948EE430-6B34-473D-9B5F-1C78CECFBF6F">ID3D12GraphicsCommandList::Dispatch</a> call to issue multiple thread groups. 
+When a compute shader is written it defines the actions of a single thread group only. If multiple thread groups are required, it is the role of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-dispatch">ID3D12GraphicsCommandList::Dispatch</a> call to issue multiple thread groups. 
 
 
 
@@ -112,7 +112,7 @@ When a compute shader is written it defines the actions of a single thread group
 
 
 
-<a href="https://msdn.microsoft.com/145F2CCB-C076-42BE-8AF4-74349CDF6B02">ID3D12ShaderReflection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12shaderreflection">ID3D12ShaderReflection</a>
  
 
  

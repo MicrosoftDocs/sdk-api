@@ -59,7 +59,7 @@ Gets the restrictions defined for this item.
 
 ### -param RestrictionFacets [out]
 
-A bitmask of  the <a href="https://msdn.microsoft.com/en-us/library/Aa378606(v=VS.85).aspx">WcmRestrictionFacets</a> values that are defined for this item.
+A bitmask of  the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/ne-wcmconfig-__midl___midl_itf_wcmconfig_0000_0000_0005">WcmRestrictionFacets</a> values that are defined for this item.
 
 
 ## -returns
@@ -117,7 +117,7 @@ Indicates that there is no value for the item.
 
 
 
-<a href="https://msdn.microsoft.com/a743d942-69f9-426b-be88-adf88b9bb1e0">ISettingsItem</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>
  
 
  

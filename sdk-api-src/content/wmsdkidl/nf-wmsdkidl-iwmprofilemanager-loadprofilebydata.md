@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-The <b>LoadProfileByData</b> method creates a profile object and populates it with data from a stored string. You must use this method to manipulate custom profiles. System profiles should be accessed using either <a href="https://msdn.microsoft.com/en-us/library/Dd757395(v=VS.85).aspx">LoadProfileByID</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd757396(v=VS.85).aspx">LoadSystemProfile</a>.
+The <b>LoadProfileByData</b> method creates a profile object and populates it with data from a stored string. You must use this method to manipulate custom profiles. System profiles should be accessed using either <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofilemanager-loadprofilebyid">LoadProfileByID</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofilemanager-loadsystemprofile">LoadSystemProfile</a>.
 
 
 
@@ -70,7 +70,7 @@ Pointer to a wide-character <b>null</b>-terminated string containing the profile
 
 ### -param ppProfile [out]
 
-Pointer to a pointer to an <a href="https://msdn.microsoft.com/00f28d6b-d27d-4268-960e-c8ea25e5359e">IWMProfile</a> interface.
+Pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmprofile">IWMProfile</a> interface.
 
 
 ## -returns
@@ -127,7 +127,7 @@ Either the <i>ppProfile</i> or <i>pwszProfile</i> parameter is <b>NULL</b>.
 
 
 
-This string must match an XML-formatted string created by <a href="https://msdn.microsoft.com/en-us/library/Dd757397(v=VS.85).aspx">IWMProfileManager::SaveProfile</a>. By convention, when such strings are saved to disk they are given the ".prx" extension.
+This string must match an XML-formatted string created by <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofilemanager-saveprofile">IWMProfileManager::SaveProfile</a>. By convention, when such strings are saved to disk they are given the ".prx" extension.
 
 
 
@@ -137,7 +137,7 @@ This string must match an XML-formatted string created by <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757385(v=VS.85).aspx">IWMProfileManager Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager">IWMProfileManager Interface</a>
  
 
  

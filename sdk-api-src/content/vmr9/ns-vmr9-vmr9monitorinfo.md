@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <code>VMR9MonitorInfo</code> structure is used with the VMR-9 in the <a href="https://msdn.microsoft.com/en-us/library/Dd390483(v=VS.85).aspx">IVMRMonitorConfig9::GetAvailableMonitors</a> method to set and retrieve information about monitors on the system.
+The <code>VMR9MonitorInfo</code> structure is used with the VMR-9 in the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmonitorconfig9-getavailablemonitors">IVMRMonitorConfig9::GetAvailableMonitors</a> method to set and retrieve information about monitors on the system.
 
 
 
@@ -77,7 +77,7 @@ Handle to the monitor.
 
 ### -field dwFlags
 
-Flags as defined for the <a href="https://msdn.microsoft.com/f296ce29-3fc8-41c9-a201-56e222aa2219">MONITORINFOEX</a> structure. Currently the only valid flag is <b>MONITORINFOF_PRIMARY</b>, which indicates the primary display monitor.
+Flags as defined for the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmonitorinfoexa">MONITORINFOEX</a> structure. Currently the only valid flag is <b>MONITORINFOF_PRIMARY</b>, which indicates the primary display monitor.
           
 
 
@@ -130,7 +130,7 @@ This structure is used to configure monitors on multi-monitor systems.
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
  
 
  

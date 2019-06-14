@@ -60,7 +60,7 @@ The <b>EAP_METHOD_TYPE</b> structure contains  type, identification, and author 
 ### -field eapType
 
 
-<a href="https://msdn.microsoft.com/383f1e11-2e40-45e6-8c55-a23d1b8eb71f">EAP_TYPE</a> structure that contains the ID for the EAP method as well as specific vendor information.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_type">EAP_TYPE</a> structure that contains the ID for the EAP method as well as specific vendor information.
 
 
 ### -field dwAuthorId
@@ -73,11 +73,11 @@ The numeric ID for the author of the EAP method.
 
 
 
-<a href="https://msdn.microsoft.com/f6f3b909-1e89-47f8-853c-c0f3f2414817">Common EAPHost API Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/common-eap-host-api-structures">Common EAPHost API Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/383f1e11-2e40-45e6-8c55-a23d1b8eb71f">EAP_TYPE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_type">EAP_TYPE</a>
  
 
  

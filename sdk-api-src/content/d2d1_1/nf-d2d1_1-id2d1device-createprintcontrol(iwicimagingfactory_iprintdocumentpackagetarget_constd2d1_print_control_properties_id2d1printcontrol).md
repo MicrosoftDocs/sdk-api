@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/0E8D8218-0671-44A2-AD6E-13BB0B4EB66C">ID2D1PrintControl</a> object that converts <a href="https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b">Direct2D</a> primitives stored in <a href="https://msdn.microsoft.com/30b89f53-d20b-4070-abcd-ef95813130d1">ID2D1CommandList</a> into a fixed page representation.  The print sub-system then consumes the primitives.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1printcontrol">ID2D1PrintControl</a> object that converts <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-portal">Direct2D</a> primitives stored in <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandlist">ID2D1CommandList</a> into a fixed page representation.  The print sub-system then consumes the primitives.
 
 
 ## -parameters
@@ -59,30 +59,30 @@ Creates an <a href="https://msdn.microsoft.com/0E8D8218-0671-44A2-AD6E-13BB0B4EB
 
 ### -param wicFactory [in]
 
-Type: <b><a href="https://msdn.microsoft.com/30d155b1-a46c-46c4-9f8f-fb56dc6bf0a9">IWICImagingFactory</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicimagingfactory">IWICImagingFactory</a>*</b>
 
 A WIC imaging factory.
 
 
 ### -param documentTarget [in]
 
-Type: <b><a href="https://msdn.microsoft.com/0F63C626-DB58-4952-BBB3-7E3901429C35">IPrintDocumentPackageTarget</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/documenttarget/nn-documenttarget-iprintdocumentpackagetarget">IPrintDocumentPackageTarget</a>*</b>
 
 The target print job for this control.
 
 
 ### -param printControlProperties [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/5A4D4DDC-4161-44A2-9EB6-E4C14696B810">D2D1_PRINT_CONTROL_PROPERTIES</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_print_control_properties">D2D1_PRINT_CONTROL_PROPERTIES</a>*</b>
 
 The options to be applied to the print control.
 
 
 ### -param printControl [out]
 
-Type: <b><a href="https://msdn.microsoft.com/0E8D8218-0671-44A2-AD6E-13BB0B4EB66C">ID2D1PrintControl</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1printcontrol">ID2D1PrintControl</a>**</b>
 
-When this method returns, contains the address of a pointer to an <a href="https://msdn.microsoft.com/0E8D8218-0671-44A2-AD6E-13BB0B4EB66C">ID2D1PrintControl</a> object.
+When this method returns, contains the address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1printcontrol">ID2D1PrintControl</a> object.
 
 
 ## -returns
@@ -135,7 +135,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 
-<a href="https://msdn.microsoft.com/21f77c38-c115-4fdf-b294-570577a29201">ID2D1Device</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1device">ID2D1Device</a>
  
 
  

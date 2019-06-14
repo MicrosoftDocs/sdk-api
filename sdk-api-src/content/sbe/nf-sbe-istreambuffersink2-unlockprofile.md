@@ -102,7 +102,7 @@ The method succeeded.
 
 
 
-The filter graph must be stopped when you call this method. If the recording session has not been started, this method invalidates the recording. To re-create the recording, call <a href="https://msdn.microsoft.com/9e694cc2-090e-43b1-88c7-77175a930bf1">IStreamBufferSink::LockProfile</a> again. If the profile is not already locked, the <b>UnlockProfile</b> method has no effect and returns S_FALSE.
+The filter graph must be stopped when you call this method. If the recording session has not been started, this method invalidates the recording. To re-create the recording, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambuffersink-lockprofile">IStreamBufferSink::LockProfile</a> again. If the profile is not already locked, the <b>UnlockProfile</b> method has no effect and returns S_FALSE.
 
 If the graph is running, stopping the graph automatically unlocks the profile without the need to call <b>UnlockProfile</b>.
 
@@ -114,7 +114,7 @@ If the graph is running, stopping the graph automatically unlocks the profile wi
 
 
 
-<a href="https://msdn.microsoft.com/ae97e1e2-011d-4bb1-ae11-eda401e1d337">IStreamBufferSink2 Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambuffersink2">IStreamBufferSink2 Interface</a>
  
 
  

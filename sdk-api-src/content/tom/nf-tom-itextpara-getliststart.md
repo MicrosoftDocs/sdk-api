@@ -61,7 +61,7 @@ Retrieves the starting value or code of a list numbering sequence.
 
 Type: <b>long*</b>
 
-The starting value or code of a list numbering sequence. For the possible values, see the <a href="https://msdn.microsoft.com/en-us/library/Bb773991(v=VS.85).aspx">ITextPara::GetListType</a> method. 
+The starting value or code of a list numbering sequence. For the possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-getlisttype">ITextPara::GetListType</a> method. 
 
 
 ## -returns
@@ -70,7 +70,7 @@ The starting value or code of a list numbering sequence. For the possible values
 
 Type: <b>HRESULT</b>
 
-If <b>ITextPara::GetListStart</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling in COM</a>.
+If <b>ITextPara::GetListStart</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -120,7 +120,7 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-For a discussion on which sequence to use, see the <a href="https://msdn.microsoft.com/en-us/library/Bb773991(v=VS.85).aspx">ITextPara::GetListType</a> method.
+For a discussion on which sequence to use, see the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-getlisttype">ITextPara::GetListType</a> method.
 
 
 
@@ -134,11 +134,11 @@ For a discussion on which sequence to use, see the <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773991(v=VS.85).aspx">GetListType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-getlisttype">GetListType</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
 
 
 
@@ -146,15 +146,15 @@ For a discussion on which sequence to use, see the <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774175(v=VS.85).aspx">SetListStart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-setliststart">SetListStart</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787786(v=VS.85).aspx">SetListType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-setlisttype">SetListType</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
  
 
  

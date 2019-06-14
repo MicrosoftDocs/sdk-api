@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Unregisters the application-defined function that was registered with the <a href="https://msdn.microsoft.com/31414CBA-12A3-45F8-967B-7ECD9D90D0F6">RegisterAuthoringClientFunctionType</a> function. This function is called when the app host  terminates.
+Unregisters the application-defined function that was registered with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/webapplication/nc-webapplication-registerauthoringclientfunctiontype">RegisterAuthoringClientFunctionType</a> function. This function is called when the app host  terminates.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Unregisters the application-defined function that was registered with the <a hre
 
 ### -param *host [in]
 
-Type: <b><a href="https://msdn.microsoft.com/ac0ace8e-3f83-44be-baee-560c5472aa08">IWebApplicationHost</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/webapplication/nn-webapplication-iwebapplicationhost">IWebApplicationHost</a>*</b>
 
 An object that provides a path to the authoring binary.
 
@@ -80,7 +80,7 @@ The WWAHost.
 
 
 
-<a href="https://msdn.microsoft.com/31414CBA-12A3-45F8-967B-7ECD9D90D0F6">RegisterAuthoringClientFunctionType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/webapplication/nc-webapplication-registerauthoringclientfunctiontype">RegisterAuthoringClientFunctionType</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Makes a service unavailable that had previously been available to other objects through <a href="https://msdn.microsoft.com/ebd6003d-ac8f-4e5e-9d90-c7e5688bedaa">IProfferService::ProfferService</a>.
+Makes a service unavailable that had previously been available to other objects through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iprofferservice-profferservice">IProfferService::ProfferService</a>.
 		
 
 
@@ -62,7 +62,7 @@ Makes a service unavailable that had previously been available to other objects 
 
 Type: <b>DWORD</b>
 
-A value of type <b>DWORD</b> that specifies an implementation-defined value used for identification purposes. The calling application receives this value from <a href="https://msdn.microsoft.com/ebd6003d-ac8f-4e5e-9d90-c7e5688bedaa">IProfferService::ProfferService</a>.
+A value of type <b>DWORD</b> that specifies an implementation-defined value used for identification purposes. The calling application receives this value from <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iprofferservice-profferservice">IProfferService::ProfferService</a>.
 
 
 ## -returns
@@ -81,11 +81,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/91aa5f9a-c276-4822-93e1-9cd2c48ddd9f">IProfferService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iprofferservice">IProfferService</a>
 
 
 
-<a href="https://msdn.microsoft.com/ebd6003d-ac8f-4e5e-9d90-c7e5688bedaa">IProfferService::ProfferService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iprofferservice-profferservice">IProfferService::ProfferService</a>
  
 
  

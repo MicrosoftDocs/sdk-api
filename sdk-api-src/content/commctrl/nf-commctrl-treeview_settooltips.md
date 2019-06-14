@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets a tree-view control's child tooltip control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773772(v=VS.85).aspx">TVM_SETTOOLTIPS</a> message explicitly. 
+Sets a tree-view control's child tooltip control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-settooltips">TVM_SETTOOLTIPS</a> message explicitly. 
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Sets a tree-view control's child tooltip control. You can use this macro or send
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a tree-view control. 
 
 
 ### -param hwndTT
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a tooltip control. 
 
@@ -75,7 +75,7 @@ Handle to a tooltip control.
 
 
 
-When created, tree-view controls automatically create a child tooltip control. To prevent a tree-view control from using tooltips, create the control with the <a href="https://msdn.microsoft.com/en-us/library/Bb760013(v=VS.85).aspx">TVS_NOTOOLTIPS</a> style. 
+When created, tree-view controls automatically create a child tooltip control. To prevent a tree-view control from using tooltips, create the control with the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-window-styles">TVS_NOTOOLTIPS</a> style. 
 
 
 
@@ -85,7 +85,7 @@ When created, tree-view controls automatically create a child tooltip control. T
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773894(v=VS.85).aspx">TreeView_GetToolTips</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_gettooltips">TreeView_GetToolTips</a>
  
 
  

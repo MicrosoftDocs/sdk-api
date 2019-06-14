@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Saves an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure to a stream.
+Saves an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure to a stream.
 
 
 ## -parameters
@@ -64,14 +64,14 @@ Saves an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04
 
 Type: <b>IStream *</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> interface where the <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> is saved.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface where the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> is saved.
 
 
 ### -param pidl [in]
 
 Type: <b>PCUIDLIST_RELATIVE</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure to be saved.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure to be saved.
 
 
 ## -returns
@@ -99,7 +99,7 @@ The stream must be opened for writing, or <b>ILSaveToStream</b> returns an error
 
 
 
-<a href="https://msdn.microsoft.com/060cc008-eb6a-4359-b84b-05c26d69f793">ILLoadFromStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-illoadfromstream">ILLoadFromStream</a>
  
 
  

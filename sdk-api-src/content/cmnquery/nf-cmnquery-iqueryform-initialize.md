@@ -76,7 +76,7 @@ This method returns <b>S_OK</b> to enable the form object within the query dialo
 
 
 
-<a href="https://msdn.microsoft.com/fd4f41f0-8aeb-4c83-a079-a5a77685c143">IQueryForm</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nn-cmnquery-iqueryform">IQueryForm</a>
  
 
  

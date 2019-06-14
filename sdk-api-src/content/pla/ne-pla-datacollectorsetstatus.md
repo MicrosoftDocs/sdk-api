@@ -87,7 +87,7 @@ Cannot determine the status but no error has occurred. Typically, this status is
 
 
 
-<a href="https://msdn.microsoft.com/d957d34d-5455-486a-bd54-28afd7e6f979">IDataCollectorSet::Status</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_status">IDataCollectorSet::Status</a>
  
 
  

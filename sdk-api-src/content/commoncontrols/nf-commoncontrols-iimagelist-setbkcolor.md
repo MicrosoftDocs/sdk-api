@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the background color for an image list. This method only functions if you add an icon to the image list or use the <a href="https://msdn.microsoft.com/en-us/library/Bb761438(v=VS.85).aspx">IImageList::AddMasked</a> method to add a black and white bitmap. Without a mask, the entire image draws, and the background color is not visible. 
+Sets the background color for an image list. This method only functions if you add an icon to the image list or use the <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist-addmasked">IImageList::AddMasked</a> method to add a black and white bitmap. Without a mask, the entire image draws, and the background color is not visible. 
 		
 
 
@@ -60,14 +60,14 @@ Sets the background color for an image list. This method only functions if you a
 
 ### -param clrBk [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
-The background color to set. If this parameter is set to CLR_NONE, then images draw transparently using the <a href="https://msdn.microsoft.com/en-us/library/Bb761438(v=VS.85).aspx">mask</a>.
+The background color to set. If this parameter is set to CLR_NONE, then images draw transparently using the <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist-addmasked">mask</a>.
 
 
 ### -param pclr [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a>*</b>
 
 A pointer to a <b>COLORREF</b> that contains the previous background color on return if successful, or CLR_NONE otherwise.
 
@@ -76,7 +76,7 @@ A pointer to a <b>COLORREF</b> that contains the previous background color on re
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -87,7 +87,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To use <b>IImageList::SetBkColor</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>IImageList::SetBkColor</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>. 
 
 
 

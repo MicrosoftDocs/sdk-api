@@ -83,7 +83,7 @@ The version of the EAPHost Peer APIs.
 
 ### -param dwFlags [in]
 
-A combination of <a href="https://msdn.microsoft.com/b6305349-3418-475e-8a37-2c06b399556e">EAP flags</a> that describe the  EAP authentication session behavior.
+A combination of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-method-flags">EAP flags</a> that describe the  EAP authentication session behavior.
 
 
 ### -param dwSizeofUIContextData [in]
@@ -93,12 +93,12 @@ The size of the context data in <i>pUIContextData</i>, in bytes.
 
 ### -param pUIContextData [in]
 
-Pointer to a BLOB that contains UI context data, represented as inner pointers to field data. These inner pointers must be freed by passing them to <a href="https://msdn.microsoft.com/162c796c-b9dc-465a-a1bc-f11d740f3fa0">EapHostPeerFreeMemory</a>, starting with the innermost pointer.
+Pointer to a BLOB that contains UI context data, represented as inner pointers to field data. These inner pointers must be freed by passing them to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerfreememory">EapHostPeerFreeMemory</a>, starting with the innermost pointer.
 
 
 ### -param pEapInteractiveUIData [in]
 
-Pointer that receives an <a href="https://msdn.microsoft.com/68141611-4a1c-409e-8ed2-3d21a76640c3">EAP_INTERACTIVE_UI_DATA</a> structure that contains configuration information for interactive UI components raised on an EAP supplicant.
+Pointer that receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_interactive_ui_data">EAP_INTERACTIVE_UI_DATA</a> structure that contains configuration information for interactive UI components raised on an EAP supplicant.
 
 
 ### -param pdwSizeOfDataFromInteractiveUI [in, out]
@@ -110,12 +110,12 @@ A pointer to a DWORD that specifies the size, in bytes, of the buffer pointed to
 
   Pointer that receives a credentials BLOB that can be used in authentication.
                 The caller should free the inner pointers
-                using the function <a href="https://msdn.microsoft.com/162c796c-b9dc-465a-a1bc-f11d740f3fa0">EapHostPeerFreeMemory</a>, starting at the innermost pointer. If a non-null value is supplied for this parameter (meaning that an existing data BLOB is passed to it), the supplied data BLOB will be updated and returned in this parameter. If a non-NULL BLOB value is supplied, the <a href="https://msdn.microsoft.com/da8cd2be-ff4c-4da5-813c-8759a58228c9">LocalAlloc</a> function should be used. 
+                using the function <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerfreememory">EapHostPeerFreeMemory</a>, starting at the innermost pointer. If a non-null value is supplied for this parameter (meaning that an existing data BLOB is passed to it), the supplied data BLOB will be updated and returned in this parameter. If a non-NULL BLOB value is supplied, the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> function should be used. 
 
 
 ### -param ppEapError [out]
 
-A pointer to a pointer to an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains any errors raised by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://msdn.microsoft.com/c80ac625-8202-49a7-813a-62a9e0d15058">EapHostPeerFreeErrorMemory</a>.
+A pointer to a pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structure that contains any errors raised by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerfreeerrormemory">EapHostPeerFreeErrorMemory</a>.
 
 
 ### -param ppvReserved [in, out]
@@ -127,7 +127,7 @@ Reserved for future use. This parameter must be set to 0.
 
 
 
-<b>EapHostPeerQueryUIBlobFromInteractiveUIInputFields</b> can be employed to support Single-Sign-On (SSO). In an SSO scenario, <b>EapHostPeerQueryUIBlobFromInteractiveUIInputFields</b> is the last API to be called before resuming a regular call sequence. For more information, see <a href="https://msdn.microsoft.com/83276783-aee5-43ac-982d-1144df982a7d">Supplicant API Call Sequence</a>.
+<b>EapHostPeerQueryUIBlobFromInteractiveUIInputFields</b> can be employed to support Single-Sign-On (SSO). In an SSO scenario, <b>EapHostPeerQueryUIBlobFromInteractiveUIInputFields</b> is the last API to be called before resuming a regular call sequence. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/supplicant-api-call-sequence">Supplicant API Call Sequence</a>.
 
 
 
@@ -137,11 +137,11 @@ Reserved for future use. This parameter must be set to 0.
 
 
 
-<a href="https://msdn.microsoft.com/92a1df11-10f9-4e55-a7ec-db026aaf5c24">EAPHost Supplicant Configuration Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-supplicant-configuration-functions">EAPHost Supplicant Configuration Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/126ef6cc-aa65-4770-b81a-82d25213618c"> SSO and PLAP</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/understanding-sso-and-plap"> SSO and PLAP</a>
  
 
  

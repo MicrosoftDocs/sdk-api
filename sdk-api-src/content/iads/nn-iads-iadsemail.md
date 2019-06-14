@@ -60,11 +60,11 @@ You can call the property methods of this interface to obtain and modify the att
 
 
 
-<a href="https://msdn.microsoft.com/605ba62f-b15a-4411-839b-c4ad8acedd8a">IADsEmail Property Methods</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsemail-property-methods">IADsEmail Property Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

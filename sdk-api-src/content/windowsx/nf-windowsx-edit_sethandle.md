@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the handle of the memory that will be used by a multiline edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761641(v=VS.85).aspx">EM_SETHANDLE</a> message explicitly.
+Sets the handle of the memory that will be used by a multiline edit control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-sethandle">EM_SETHANDLE</a> message explicitly.
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Sets the handle of the memory that will be used by a multiline edit control. You
 
 ### -param hwndCtl
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
 
 ### -param h
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HLOCAL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HLOCAL</a></b>
 
 A handle to the memory buffer the edit control uses to store the currently displayed text instead of allocating its own memory. If necessary, the control reallocates this memory. 
 
@@ -76,7 +76,7 @@ A handle to the memory buffer the edit control uses to store the currently displ
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761641(v=VS.85).aspx">EM_SETHANDLE</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/em-sethandle">EM_SETHANDLE</a>.
 
 
 

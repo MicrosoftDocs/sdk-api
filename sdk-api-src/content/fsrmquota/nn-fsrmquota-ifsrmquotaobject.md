@@ -50,15 +50,15 @@ ms.custom: 19H1
 
 
 <p class="CCE_Message">[This interface is supported for compatibility but it's recommended to use the 
-    <a href="https://msdn.microsoft.com/1CE772FA-CE33-4900-A499-058175A7C37E">FSRM WMI Classes</a> to manage FSRM. Please see the 
-    <a href="https://msdn.microsoft.com/9308f1de-ba8e-45f5-81ec-d8203839ee79">MSFT_FSRMQuota</a> class.]
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a> class.]
 
 Base class for the quota and automatic quota interfaces.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmQuotaObject</b> interface inherits from <a href="https://msdn.microsoft.com/7f4d5a73-a836-4ea1-bc53-d51433eeb02e">IFsrmQuotaBase</a>. <b>IFsrmQuotaObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmQuotaObject</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nn-fsrmquota-ifsrmquotabase">IFsrmQuotaBase</a>. <b>IFsrmQuotaObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -74,7 +74,7 @@ The <b>IFsrmQuotaObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f4e65d53-7841-4f84-9c14-bad43089a87f">ApplyTemplate</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotaobject-applytemplate">ApplyTemplate</a>
 </td>
 <td align="left" width="63%">
 Applies the property values of the specified quota template to this quota object.
@@ -92,7 +92,7 @@ Applies the property values of the specified quota template to this quota object
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/18999e5b-fae8-4bf3-9a10-5545f093afd4">MatchesSourceTemplate</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotaobject-get_matchessourcetemplate">MatchesSourceTemplate</a>
 
 
 </td>
@@ -109,7 +109,7 @@ Retrieves a value that determines whether the property values of this quota obje
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/de587430-5179-4c9e-9ad0-86bb57757d1c">Path</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotaobject-get_path">Path</a>
 
 
 </td>
@@ -125,7 +125,7 @@ Retrieves the path to which the quota applies.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/976b804e-f292-47ff-95df-18e63b8b23d0">SourceTemplateName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotaobject-get_sourcetemplatename">SourceTemplateName</a>
 
 
 </td>
@@ -141,7 +141,7 @@ Retrieves the name of the template from which this quota was derived.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02545dfb-6c71-4412-9376-81c9304efaa8">UserAccount</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotaobject-get_useraccount">UserAccount</a>
 
 
 </td>
@@ -157,7 +157,7 @@ Retrieves the string form of the user account that is associated with the object
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/f6eed71b-4d14-471a-a686-f7a2be7bf63b">UserSid</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotaobject-get_usersid">UserSid</a>
 
 
 </td>
@@ -178,15 +178,15 @@ Retrieves the string form of the user's security identifier (SID) that is associ
 
 
 
-<a href="https://msdn.microsoft.com/bbd888d9-1005-4173-8e82-ced13e68c09e">FSRM Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f4d5a73-a836-4ea1-bc53-d51433eeb02e">IFsrmQuotaBase</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nn-fsrmquota-ifsrmquotabase">IFsrmQuotaBase</a>
 
 
 
-<a href="https://msdn.microsoft.com/9308f1de-ba8e-45f5-81ec-d8203839ee79">MSFT_FSRMQuota</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
  
 
  

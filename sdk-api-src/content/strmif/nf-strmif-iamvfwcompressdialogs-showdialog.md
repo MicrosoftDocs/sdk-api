@@ -63,7 +63,7 @@ The <code>ShowDialog</code> method displays the specified dialog box.
 
 ### -param iDialog [in]
 
-Dialog box to display. This is a member of the <a href="https://msdn.microsoft.com/b1e92603-631a-45e0-aee0-3974e3114e03">VfwCompressDialogs</a> enumeration.
+Dialog box to display. This is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-vfwcompressdialogs">VfwCompressDialogs</a> enumeration.
 
 
 ### -param hwnd [in]
@@ -86,10 +86,10 @@ Returns an <b>HRESULT</b> value that depends on the implementation of the interf
 
 This method returns an error when asked to display a dialog box while the driver is streaming or displaying another dialog box. While the driver displays the dialog box you can't stream (pause or run) the filter.
 
-<code>IAMVfwCompressDialogs::ShowDialog</code> calls the Video for Windows video compression manager (VCM) functions <a href="https://msdn.microsoft.com/58dbe8ff-4236-456c-8361-e7716e764f89">ICConfigure</a>, <a href="https://msdn.microsoft.com/18ec2659-8589-4a13-95ea-825a3aecbf98">ICAbout</a>, <a href="https://msdn.microsoft.com/a0e65123-5224-43a4-9a1e-28a10ecbed5c">ICQueryConfigure</a>, and <a href="https://msdn.microsoft.com/073f217f-961b-4de2-9430-5ee81379e807">ICQueryAbout</a> to display the appropriate dialog box or determine if one exists.
+<code>IAMVfwCompressDialogs::ShowDialog</code> calls the Video for Windows video compression manager (VCM) functions <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icconfigure">ICConfigure</a>, <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icabout">ICAbout</a>, <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icqueryconfigure">ICQueryConfigure</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icqueryabout">ICQueryAbout</a> to display the appropriate dialog box or determine if one exists.
       
 
-The VfwCompressDialog_QueryConfig and VfwCompressDialog_QueryAbout members of the <a href="https://msdn.microsoft.com/b1e92603-631a-45e0-aee0-3974e3114e03">VfwCompressDialogs</a> enumeration tell you whether or not the configure dialog or about dialog is available. If passed one of these flags, the filter will return S_OK if the dialog exists, and S_FALSE if it does not. If a dialog is available, you call <code>ShowDialog</code> with the value VfwCompressDialog_Config or VfwCompressDialog_About to bring up the dialog.
+The VfwCompressDialog_QueryConfig and VfwCompressDialog_QueryAbout members of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-vfwcompressdialogs">VfwCompressDialogs</a> enumeration tell you whether or not the configure dialog or about dialog is available. If passed one of these flags, the filter will return S_OK if the dialog exists, and S_FALSE if it does not. If a dialog is available, you call <code>ShowDialog</code> with the value VfwCompressDialog_Config or VfwCompressDialog_About to bring up the dialog.
       
 
 
@@ -100,11 +100,11 @@ The VfwCompressDialog_QueryConfig and VfwCompressDialog_QueryAbout members of th
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/5cc23d68-e0e6-401a-8d16-63c8c68af241">IAMVfwCompressDialogs Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamvfwcompressdialogs">IAMVfwCompressDialogs Interface</a>
  
 
  

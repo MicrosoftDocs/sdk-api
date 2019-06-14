@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534499(v=VS.85).aspx">RedEyeCorrection</a> object. 
+Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-redeyecorrection">RedEyeCorrection</a> object. 
 
 
 ## -parameters
@@ -65,15 +65,15 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534499(v=VS.85).as
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534499(v=VS.85).aspx">RedEyeCorrection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-redeyecorrection">RedEyeCorrection</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534928(v=VS.85).aspx">RedEyeCorrection::SetParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gdipluseffects-redeyecorrection-setparameters">RedEyeCorrection::SetParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534072(v=VS.85).aspx">RedEyeCorrectionParams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ns-gdipluseffects-redeyecorrectionparams">RedEyeCorrectionParams</a>
  
 
  

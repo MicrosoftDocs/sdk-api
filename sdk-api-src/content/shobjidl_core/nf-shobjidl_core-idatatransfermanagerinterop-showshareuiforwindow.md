@@ -93,7 +93,7 @@ This method is equivalent to the <a href="https://docs.microsoft.com/en-us/uwp/a
 
 
 
-<a href="https://msdn.microsoft.com/C4F49401-C863-4D3B-80EE-D36F714E7D90">IDataTransferManagerInterop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idatatransfermanagerinterop">IDataTransferManagerInterop</a>
  
 
  

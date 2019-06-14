@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ### -param dwCookie [in]
 
-A DWORD that identifies the advise sink to uninstall. This value is provided by a previous call to <a href="https://msdn.microsoft.com/90928e6e-e11e-42ad-9b3e-d974642aca36">ITfSource::AdviseSink</a>.
+A DWORD that identifies the advise sink to uninstall. This value is provided by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a>.
 
 
 ## -returns
@@ -116,11 +116,11 @@ The advise sink cannot be found.
 
 
 
-<a href="https://msdn.microsoft.com/2ff77f09-1b4c-4115-9bb4-4040097d1f90">ITfSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfsource">ITfSource</a>
 
 
 
-<a href="https://msdn.microsoft.com/90928e6e-e11e-42ad-9b3e-d974642aca36">ITfSource::AdviseSink
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink
       </a>
  
 

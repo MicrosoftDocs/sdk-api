@@ -68,7 +68,7 @@ A <b>BSTR</b> variable that contains the name.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -97,50 +97,50 @@ The object is already initialized.
 
 
 
-The <b>InitializeFromName</b> method opens the named provider and queries it to set the following property values on the <a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a> object:<ul>
+The <b>InitializeFromName</b> method opens the named provider and queries it to set the following property values on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a> object:<ul>
 <li>
-<a href="https://msdn.microsoft.com/e74f1aa3-883b-40e4-8052-6651eaa4b63f">CspAlgorithms</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_cspalgorithms">CspAlgorithms</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/49d79310-90d2-4874-beaf-284abefd950f">HasHardwareRandomNumberGenerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_hashardwarerandomnumbergenerator">HasHardwareRandomNumberGenerator</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/d69ade8c-3b74-4391-9048-6511f3d7e9fa">IsHardwareDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_ishardwaredevice">IsHardwareDevice</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/ee67670b-80a9-4637-a5ed-84d3430853ea">IsRemovable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_isremovable">IsRemovable</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/cfb88e17-39bb-4b4f-9eb3-3691376f8285">IsSmartCard</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_issmartcard">IsSmartCard</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/50f78dcc-4d32-40c9-8153-f0b6ac72c03b">IsSoftwareDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_issoftwaredevice">IsSoftwareDevice</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/f66f2f5c-7f50-4be6-973e-844d6cb76f61">KeySpec</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_keyspec">KeySpec</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/f798401c-bc78-438d-8847-82a57589ce38">LegacyCsp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_legacycsp">LegacyCsp</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/2508786f-0892-4ece-bbef-bd8ed9c81eee">MaxKeyContainerNameLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_maxkeycontainernamelength">MaxKeyContainerNameLength</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/86f6993d-c96e-4753-9670-fdcc30e8c019">Name</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_name">Name</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/a52caea6-fbd5-4c06-8a25-e65f7b4a72f7">Type</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_type">Type</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/507896b0-598c-4a2d-854e-d4d266fdfaf7">Valid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_valid">Valid</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/9b5010e3-d4c2-4194-ad8a-f8f4e0a41446">Version</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_version">Version</a>
 </li>
 </ul>
 
 
-The method adds the available algorithms to the <a href="https://msdn.microsoft.com/bbf8cff4-b1b2-480e-8c30-eb34166db143">ICspAlgorithms</a> collection returned by the <a href="https://msdn.microsoft.com/e74f1aa3-883b-40e4-8052-6651eaa4b63f">CspAlgorithms</a> property. Call the <a href="https://msdn.microsoft.com/24466981-2ea2-41f5-b2db-85b5629fba7d">InitializeFromType</a> method to initialize the object from a provider type.
+The method adds the available algorithms to the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspalgorithms">ICspAlgorithms</a> collection returned by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_cspalgorithms">CspAlgorithms</a> property. Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-initializefromtype">InitializeFromType</a> method to initialize the object from a provider type.
 
 
 
@@ -150,7 +150,7 @@ The method adds the available algorithms to the <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>
  
 
  

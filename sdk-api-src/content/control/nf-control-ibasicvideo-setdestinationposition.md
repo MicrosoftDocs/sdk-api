@@ -135,7 +135,7 @@ The video renderer is not connected.
 
 
 
-This method has the same effect as individually calling the <a href="https://msdn.microsoft.com/en-us/library/Dd389591(v=VS.85).aspx">IBasicVideo::put_DestinationLeft</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd389592(v=VS.85).aspx">IBasicVideo::put_DestinationTop</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd389593(v=VS.85).aspx">IBasicVideo::put_DestinationWidth</a>, and <a href="https://msdn.microsoft.com/en-us/library/Dd389590(v=VS.85).aspx">IBasicVideo::put_DestinationHeight</a> methods.
+This method has the same effect as individually calling the <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ibasicvideo-put_destinationleft">IBasicVideo::put_DestinationLeft</a>, <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ibasicvideo-put_destinationtop">IBasicVideo::put_DestinationTop</a>, <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ibasicvideo-put_destinationwidth">IBasicVideo::put_DestinationWidth</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ibasicvideo-put_destinationheight">IBasicVideo::put_DestinationHeight</a> methods.
 
 
 
@@ -145,11 +145,11 @@ This method has the same effect as individually calling the <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389540(v=VS.85).aspx">IBasicVideo Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo Interface</a>
  
 
  

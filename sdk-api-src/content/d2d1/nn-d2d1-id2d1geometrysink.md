@@ -54,7 +54,7 @@ Describes a geometric path that can contain lines, arcs, cubic Bezier curves, an
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1GeometrySink</b> interface inherits from <a href="https://msdn.microsoft.com/cf877a25-7b9f-4db0-ac53-b4a350795a86">ID2D1SimplifiedGeometrySink</a>. <b>ID2D1GeometrySink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1GeometrySink</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a>. <b>ID2D1GeometrySink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1GeometrySink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd742733(v=VS.85).aspx">AddArc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-addarc">AddArc</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates a single arc and adds it to the path geometry.
 
@@ -77,7 +77,7 @@ The <b>ID2D1GeometrySink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd742735(v=VS.85).aspx">AddBezier</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-addbezier">AddBezier</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates  a cubic Bezier curve between the current point and the specified end point and adds it to the geometry sink.
 
@@ -85,7 +85,7 @@ The <b>ID2D1GeometrySink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9ab11c38-784b-4834-bced-cd560a5273f6">AddLine</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometrysink-addline">AddLine</a>
 </td>
 <td align="left" width="63%">
 Creates a line segment between the current point and the specified end point and adds it to the geometry sink. 
@@ -94,7 +94,7 @@ Creates a line segment between the current point and the specified end point and
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd742737(v=VS.85).aspx">AddQuadraticBezier</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-addquadraticbezier">AddQuadraticBezier</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates  a quadratic Bezier curve between the current point and the specified end point and adds it to the geometry sink.
 
@@ -102,7 +102,7 @@ Creates a line segment between the current point and the specified end point and
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3eb0921e-1d9c-48a0-a709-3ac7feed22c5">AddQuadraticBeziers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometrysink-addquadraticbeziers">AddQuadraticBeziers</a>
 </td>
 <td align="left" width="63%">
 Adds a sequence of quadratic Bezier segments as an array in a single call.
@@ -116,14 +116,14 @@ Adds a sequence of quadratic Bezier segments as an array in a single call.
 
 
 
-The <b>ID2D1GeometrySink</b> interface extends the <a href="https://msdn.microsoft.com/cf877a25-7b9f-4db0-ac53-b4a350795a86">ID2D1SimplifiedGeometrySink</a> interface to add support for arcs and quadratic beziers, as well as functions for adding single lines and cubic beziers.
+The <b>ID2D1GeometrySink</b> interface extends the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a> interface to add support for arcs and quadratic beziers, as well as functions for adding single lines and cubic beziers.
 
-A geometry sink consists of one or more figures. Each figure is made up of one or more line, curve, or arc segments. To create a figure, call the <a href="https://msdn.microsoft.com/87a932d4-1f90-4bdb-b131-0664566b0318">BeginFigure</a> method, specify the figure's start point, and then use its Add methods (such as AddLine and AddBezier) to add segments. When you are finished adding segments, call the <a href="https://msdn.microsoft.com/31f6aeba-2e81-4b8d-b734-0c501eae331f">EndFigure</a> method. You can repeat this sequence to create additional figures. When you are finished creating figures, call the <a href="https://msdn.microsoft.com/9dbbe5c6-d21c-4408-9208-53c7c051b22a">Close</a> method.
+A geometry sink consists of one or more figures. Each figure is made up of one or more line, curve, or arc segments. To create a figure, call the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-beginfigure">BeginFigure</a> method, specify the figure's start point, and then use its Add methods (such as AddLine and AddBezier) to add segments. When you are finished adding segments, call the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-endfigure">EndFigure</a> method. You can repeat this sequence to create additional figures. When you are finished creating figures, call the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-close">Close</a> method.
 
 
 #### Examples
 
-The following example creates an <a href="https://msdn.microsoft.com/d200563c-d78e-4fa0-a8f2-242b24480e99">ID2D1PathGeometry</a>, retrieves a sink, and uses it to define an hourglass shape. For the complete example, see <a href="https://msdn.microsoft.com/d7aad487-04e0-448d-bedf-b8dfadc7bbe9">How to Draw and Fill a Complex Shape</a>. 
+The following example creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1pathgeometry">ID2D1PathGeometry</a>, retrieves a sink, and uses it to define an hourglass shape. For the complete example, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-draw-and-fill-a-complex-shape">How to Draw and Fill a Complex Shape</a>. 
 
 
 ```cpp
@@ -188,15 +188,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/f5870d4b-dd30-4034-884e-1c398a6865c6">Geometries Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-geometries-overview">Geometries Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/d7aad487-04e0-448d-bedf-b8dfadc7bbe9">How to Draw and Fill a Complex Shape</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-draw-and-fill-a-complex-shape">How to Draw and Fill a Complex Shape</a>
 
 
 
-<a href="https://msdn.microsoft.com/cf877a25-7b9f-4db0-ac53-b4a350795a86">ID2D1SimplifiedGeometrySink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a>
  
 
  

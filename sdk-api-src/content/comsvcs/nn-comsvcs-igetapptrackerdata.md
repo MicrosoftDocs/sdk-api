@@ -54,7 +54,7 @@ Enables administrative applications to retrieve statistical information about ru
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGetAppTrackerData</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IGetAppTrackerData</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGetAppTrackerData</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGetAppTrackerData</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IGetAppTrackerData</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd198157(v=VS.85).aspx">GetApplicationProcessDetails</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-igetapptrackerdata-getapplicationprocessdetails">GetApplicationProcessDetails</a>
 </td>
 <td align="left" width="63%">
 Retrieves detailed information about a single process hosting COM+ applications.
@@ -78,7 +78,7 @@ Retrieves detailed information about a single process hosting COM+ applications.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ec15db5c-fce6-42c0-a291-635344a7c4fc">GetApplicationProcesses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-igetapptrackerdata-getapplicationprocesses">GetApplicationProcesses</a>
 </td>
 <td align="left" width="63%">
 Retrieves summary information for all processes that are hosting COM+ applications, or for a specified subset of these processes.
@@ -87,7 +87,7 @@ Retrieves summary information for all processes that are hosting COM+ applicatio
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c193a00f-9899-4c26-9357-22603bb195d1">GetApplicationsInProcess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-igetapptrackerdata-getapplicationsinprocess">GetApplicationsInProcess</a>
 </td>
 <td align="left" width="63%">
 Retrieves summary information for all COM+ applications hosted in a single process, or for a specified subset of these applications.
@@ -96,7 +96,7 @@ Retrieves summary information for all COM+ applications hosted in a single proce
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/89924a6d-e5cf-4262-9707-d2e4a91dd6ce">GetComponentDetails</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-igetapptrackerdata-getcomponentdetails">GetComponentDetails</a>
 </td>
 <td align="left" width="63%">
 Retrieves detailed information about a single COM+ component hosted in a process.
@@ -105,7 +105,7 @@ Retrieves detailed information about a single COM+ component hosted in a process
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3a7c2aad-c688-4cd3-a58c-b9c32f9bc035">GetComponentsInProcess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-igetapptrackerdata-getcomponentsinprocess">GetComponentsInProcess</a>
 </td>
 <td align="left" width="63%">
 Retrieves summary information for all COM+ components hosted in a single process, or for a specified subset of these components.
@@ -114,7 +114,7 @@ Retrieves summary information for all COM+ components hosted in a single process
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fcc65fd3-debf-4b5c-aaf2-3e7234510d35">GetSuggestedPollingInterval</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-igetapptrackerdata-getsuggestedpollinginterval">GetSuggestedPollingInterval</a>
 </td>
 <td align="left" width="63%">
 Retrieves the minimum interval for polling suggested by the Tracker Server.
@@ -123,7 +123,7 @@ Retrieves the minimum interval for polling suggested by the Tracker Server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/215523ad-5f18-4529-8b23-afbd1b738fb5">GetTrackerDataAsCollectionObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-igetapptrackerdata-gettrackerdataascollectionobject">GetTrackerDataAsCollectionObject</a>
 </td>
 <td align="left" width="63%">
 Retrieves tracking data for all COM+ applications in the form of a collection object.

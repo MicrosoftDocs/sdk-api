@@ -101,7 +101,7 @@ The connection is approaching the data limit specified by the carrier.
 
 
 
-The value returned by the <a href="https://msdn.microsoft.com/66D5FC1A-054C-406E-BEC3-CA62EA09CDF1">INetworkConnectionCost::GetCost</a> method can have multiple bits set with the values specified by this enumeration.
+The value returned by the <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkconnectioncost-getcost">INetworkConnectionCost::GetCost</a> method can have multiple bits set with the values specified by this enumeration.
 
 
 
@@ -111,7 +111,7 @@ The value returned by the <a href="https://msdn.microsoft.com/66D5FC1A-054C-406E
 
 
 
-<a href="https://msdn.microsoft.com/66D5FC1A-054C-406E-BEC3-CA62EA09CDF1">INetworkConnectionCost::GetCost</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkconnectioncost-getcost">INetworkConnectionCost::GetCost</a>
  
 
  

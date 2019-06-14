@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 Frees memory allocated with 
-		<a href="https://msdn.microsoft.com/en-us/library/ms629459(v=VS.85).aspx">IWABObject::AllocateBuffer</a> or any of the other 
+		<a href="https://docs.microsoft.com/windows/desktop/api/wabapi/nf-wabapi-iwabobject-allocatebuffer">IWABObject::AllocateBuffer</a> or any of the other 
 		Windows Address Book (WAB) methods.
 
 

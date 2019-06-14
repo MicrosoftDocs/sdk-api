@@ -59,7 +59,7 @@ The <b>GetDiagnosticsInfo</b> method enables the Helper Class Extension instance
 
 ### -param ppInfo [out]
 
-A pointer to a pointer to a <a href="https://msdn.microsoft.com/c84cc4ef-ff47-447e-b216-b704cb02719a">DiagnosticsInfo</a> structure.
+A pointer to a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/ns-ndhelper-tagdiagnosticsinfo">DiagnosticsInfo</a> structure.
 
 
 ## -returns
@@ -148,7 +148,7 @@ The GetDiagnosticsInfo method is required when building a Helper Class Extension
 
 
 
-<a href="https://msdn.microsoft.com/7f1b8a5b-389b-4276-a49d-94a39be3c35c">INetDiagHelper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>
  
 
  

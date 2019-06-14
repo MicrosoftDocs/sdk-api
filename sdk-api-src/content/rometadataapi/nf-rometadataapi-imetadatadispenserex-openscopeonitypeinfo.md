@@ -59,7 +59,7 @@ Opens the specified scope type.
 
 ### -param pITI [in]
 
-Pointer to an <a href="http://msdn.microsoft.com/en-us/library/f3356463-3373-4279-bae1-953378aa2680(VS.85)">ITypeInfo</a> interface that provides the type information on which to open the scope.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a> interface that provides the type information on which to open the scope.
 
 
 ### -param dwOpenFlags [in]
@@ -91,7 +91,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/b61c8d05-6d73-4f84-95b2-2a892f3de77c">IMetaDataDispenserEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadatadispenserex">IMetaDataDispenserEx</a>
  
 
  

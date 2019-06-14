@@ -133,7 +133,7 @@ Automatic Updates is paused.
 You cannot search for updates if the following conditions are true:
 
 <ul>
-<li>The <a href="https://msdn.microsoft.com/b514545a-d983-491b-9a28-540bd5c4c128">ServerSelection</a> property of the <a href="https://msdn.microsoft.com/f41b1689-d9fe-4697-91e9-a176d3b592c7">IUpdateSearcher</a> interface is set to <a href="https://msdn.microsoft.com/51caac5e-98a6-49e4-a175-6319349a6d68">ssManagedServer</a> or <a href="https://msdn.microsoft.com/51caac5e-98a6-49e4-a175-6319349a6d68">ssDefault</a>.</li>
+<li>The <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_serverselection">ServerSelection</a> property of the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a> interface is set to <a href="https://docs.microsoft.com/windows/desktop/api/wuapicommon/ne-wuapicommon-tagserverselection">ssManagedServer</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wuapicommon/ne-wuapicommon-tagserverselection">ssDefault</a>.</li>
 <li>The managed server on a computer is a Microsoft Software Update Services (SUS) 1.0 server.</li>
 </ul>
 </td>
@@ -151,7 +151,7 @@ You cannot search for updates if the following conditions are true:
 This method requires administrator permissions.
 
 Automatic Updates can be paused for only eight hours.  This limit  varies in different binary versions. 
-    Callers should call the <a href="https://msdn.microsoft.com/8aabfb89-89e2-450e-bfe6-62a48f93746f">Resume</a> method after 
+    Callers should call the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-resume">Resume</a> method after 
     calling <b>Pause</b> as soon as they no longer need to 
     pause automatic updating.
 
@@ -169,11 +169,11 @@ This method returns <b>WU_E_AU_NOSERVICE</b> if Automatic Updates is disabled,
 
 
 
-<a href="https://msdn.microsoft.com/b5f05e2a-ad60-4d4c-8bdd-1c03df3d508d">IAutomaticUpdates</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdates">IAutomaticUpdates</a>
 
 
 
-<a href="https://msdn.microsoft.com/8aabfb89-89e2-450e-bfe6-62a48f93746f">IAutomaticUpdates.Resume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-resume">IAutomaticUpdates.Resume</a>
  
 
  

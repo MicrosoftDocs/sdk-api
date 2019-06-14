@@ -63,7 +63,7 @@ The <b>SendOpaqueCommand</b> method sends a command through Windows Media Device
 
 ### -param pCommand [in, out]
 
-Pointer to an <a href="https://msdn.microsoft.com/5b39cf07-2816-4615-a754-e3f0c57bf4ce">OPAQUECOMMAND</a> structure containing the information required to execute the command.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/WMDM/opaquecommand">OPAQUECOMMAND</a> structure containing the information required to execute the command.
 
 
 ## -returns
@@ -77,7 +77,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 
 
@@ -86,9 +86,9 @@ For an extensive list of possible error codes, see <a href="https://msdn.microso
 
 
 
-This method is used with device commands that do not affect Windows Media Device Manager, and are passed through unchanged. A more efficient way to call commands on a device is to call <a href="https://msdn.microsoft.com/1f41c3f9-8eb6-4d51-87f9-c8b035a73cce">IMDSPDevice3::DeviceIoControl</a>.
+This method is used with device commands that do not affect Windows Media Device Manager, and are passed through unchanged. A more efficient way to call commands on a device is to call <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice3-deviceiocontrol">IMDSPDevice3::DeviceIoControl</a>.
 
-This method is optional. For more information, see <a href="https://msdn.microsoft.com/582c9dd5-f8ab-48df-afb3-fba931ee0dea">Mandatory and Optional Interfaces</a>.
+This method is optional. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/mandatory-and-optional-interfaces">Mandatory and Optional Interfaces</a>.
 
 
 
@@ -98,7 +98,7 @@ This method is optional. For more information, see <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/98f16547-4d8a-4422-ba08-c3c678142492">IMDSPDevice Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice">IMDSPDevice Interface</a>
  
 
  

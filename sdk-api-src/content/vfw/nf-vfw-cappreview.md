@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>capPreview</b> macro enables or disables preview mode. In preview mode, frames are transferred from the capture hardware to system memory and then displayed in the capture window using GDI functions. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/ef6218d6-4fff-469f-b2e0-d7990998a3e5">WM_CAP_SET_PREVIEW</a> message.
+The <b>capPreview</b> macro enables or disables preview mode. In preview mode, frames are transferred from the capture hardware to system memory and then displayed in the capture window using GDI functions. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-preview">WM_CAP_SET_PREVIEW</a> message.
 
 
 
@@ -74,7 +74,7 @@ Preview flag. Specify <b>TRUE</b> for this parameter to enable preview mode or <
 
 
 
-The preview mode uses substantial CPU resources. Applications can disable preview or lower the preview rate when another application has the focus. The <b>fLiveWindow</b> member of the <a href="https://msdn.microsoft.com/65ad6e33-c601-4026-a5a4-2c68576d7ab7">CAPSTATUS</a> structure indicates if preview mode is currently enabled.
+The preview mode uses substantial CPU resources. Applications can disable preview or lower the preview rate when another application has the focus. The <b>fLiveWindow</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-tagcapstatus">CAPSTATUS</a> structure indicates if preview mode is currently enabled.
 
 Enabling preview mode automatically disables overlay mode.
 
@@ -86,11 +86,11 @@ Enabling preview mode automatically disables overlay mode.
 
 
 
-<a href="https://msdn.microsoft.com/c93ecc51-e2c5-4b69-8625-c8385d53fab2">Video Capture</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://msdn.microsoft.com/21061f06-d58b-4800-a9f5-9821494fabd6">Video Capture Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
  
 
  

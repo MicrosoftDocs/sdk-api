@@ -105,7 +105,7 @@ The MFT specified by the <i>clsidMFT</i> parameter was not registered in this pr
 
 
 
-Use this function to unregister a local MFT that was previously registered through the <a href="https://msdn.microsoft.com/80c45ac3-4487-41bf-a5f5-f459db3cd700">MFTRegisterLocalByCLSID</a> function.
+Use this function to unregister a local MFT that was previously registered through the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftregisterlocalbyclsid">MFTRegisterLocalByCLSID</a> function.
 
 
 
@@ -115,7 +115,7 @@ Use this function to unregister a local MFT that was previously registered throu
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

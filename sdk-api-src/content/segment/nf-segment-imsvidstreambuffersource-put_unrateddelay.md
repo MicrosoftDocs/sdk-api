@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>put_UnratedDelay</b> method specifies how long the Video Control will play unrated content before blocking it. The value is ignored until the <a href="https://msdn.microsoft.com/en-us/library/Dd694692(v=VS.85).aspx">put_BlockUnrated</a> method is called with the value VARIANT_TRUE.
+The <b>put_UnratedDelay</b> method specifies how long the Video Control will play unrated content before blocking it. The value is ignored until the <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-put_blockunrated">put_BlockUnrated</a> method is called with the value VARIANT_TRUE.
 
 
 ## -parameters
@@ -95,11 +95,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/12160959-820b-4534-9392-a13ad229317d">IMSVidStreamBufferSource Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidstreambuffersource">IMSVidStreamBufferSource Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694692(v=VS.85).aspx">IMSVidStreamBufferSource::put_BlockUnrated</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-put_blockunrated">IMSVidStreamBufferSource::put_BlockUnrated</a>
  
 
  

@@ -57,7 +57,7 @@ Represents a variable amount of configuration state, including shaders, that an 
 
 
 
-<a href="https://msdn.microsoft.com/89DC88B4-9DFD-413D-8EB9-91087CC90D18">ID3D12Pageable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a>
  
 
  

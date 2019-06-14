@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Allows for the Remote Desktop Connection (RDC) client plug-in to be loaded by the Remote Desktop Connection (RDC) client. The interface is implemented by the plug-in, and is obtained by and managed by the RDC client.
 
-The RDC client obtains an instance of this interface by either instantiating the COM object, or by calling the <a href="https://msdn.microsoft.com/B81BD61E-1F43-42C9-8839-30F4F4C3973C">VirtualChannelGetInstance</a> function implemented by the plug-in. For more information about how the instances are obtained, see <a href="https://msdn.microsoft.com/cda4f8c9-867a-41ac-894a-4296d5912b2b">DVC plug-in registration</a>. In all cases, this instance is kept for the lifetime of the Remote Desktop Connection (RDC) client.
+The RDC client obtains an instance of this interface by either instantiating the COM object, or by calling the <a href="https://docs.microsoft.com/windows/desktop/TermServ/virtualchannelgetinstance">VirtualChannelGetInstance</a> function implemented by the plug-in. For more information about how the instances are obtained, see <a href="https://docs.microsoft.com/windows/desktop/TermServ/dvc-plug-in-registration">DVC plug-in registration</a>. In all cases, this instance is kept for the lifetime of the Remote Desktop Connection (RDC) client.
 
 As a COM object, the plug-in must be implemented in a free-threading model. Because the <b>IWTSPlugin</b> methods are implemented by the plug-in, the plug-in must be aware that the call may arrive on different threads. The calls will always arrive serially, so it is impossible to have any two calls that are executed in parallel.
 
@@ -60,7 +60,7 @@ Implementation should not block these calls because this may block other incomin
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWTSPlugin</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWTSPlugin</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWTSPlugin</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSPlugin</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IWTSPlugin</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/089db67e-6c3d-4950-a1dd-de0a3bbe8d5c">Connected</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsplugin-connected">Connected</a>
 </td>
 <td align="left" width="63%">
 Notifies the plug-in that the Remote Desktop Connection (RDC) client has successfully connected to the RD Session Host server.
@@ -84,7 +84,7 @@ Notifies the plug-in that the Remote Desktop Connection (RDC) client has success
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cbc753b4-531f-476e-8743-b8fbf2481c91">Disconnected</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsplugin-disconnected">Disconnected</a>
 </td>
 <td align="left" width="63%">
 Notifies the plug-in that the Remote Desktop Connection (RDC) client has disconnected from the RD Session Host server.
@@ -93,7 +93,7 @@ Notifies the plug-in that the Remote Desktop Connection (RDC) client has disconn
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9216a069-4fd0-4e88-9cfa-050460b49906">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsplugin-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Used for the first call that is made from the client to the plug-in.
@@ -102,7 +102,7 @@ Used for the first call that is made from the client to the plug-in.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/face8f79-f02d-465f-b716-1fa170fd6a33">Terminated</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsplugin-terminated">Terminated</a>
 </td>
 <td align="left" width="63%">
 Notifies the plug-in that the Remote Desktop Connection (RDC) client has terminated.

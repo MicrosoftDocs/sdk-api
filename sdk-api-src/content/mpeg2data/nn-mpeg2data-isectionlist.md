@@ -57,7 +57,7 @@ The <b>ISectionList</b> interface represents a list of MPEG-2 table sections.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISectionList</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISectionList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISectionList</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISectionList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>ISectionList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/58e0898d-a84e-49cf-bc18-1fda8351dfc0">CancelPendingRequest</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-isectionlist-cancelpendingrequest">CancelPendingRequest</a>
 </td>
 <td align="left" width="63%">
 Cancels any pending asynchronous request.
@@ -81,7 +81,7 @@ Cancels any pending asynchronous request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4b9e3383-7b84-4c4e-87cf-8e3a37d3b81b">GetNumberOfSections</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-isectionlist-getnumberofsections">GetNumberOfSections</a>
 </td>
 <td align="left" width="63%">
 Returns the number of MPEG-2 sections that were received.
@@ -90,7 +90,7 @@ Returns the number of MPEG-2 sections that were received.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/25a4bd3c-ef02-4685-8c83-06025ce4410c">GetProgramIdentifier</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-isectionlist-getprogramidentifier">GetProgramIdentifier</a>
 </td>
 <td align="left" width="63%">
 Retrieves the program identifier (PID) of the packets that this object is receiving.
@@ -99,7 +99,7 @@ Retrieves the program identifier (PID) of the packets that this object is receiv
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b03d1727-9ebd-4e78-b7d0-c6d0959aab8a">GetSectionData</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-isectionlist-getsectiondata">GetSectionData</a>
 </td>
 <td align="left" width="63%">
 Retrieves a section.
@@ -108,7 +108,7 @@ Retrieves a section.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e0fd82ec-283e-4d6f-aa74-c65f15df651f">GetTableIdentifier</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-isectionlist-gettableidentifier">GetTableIdentifier</a>
 </td>
 <td align="left" width="63%">
 Returns the table identifier (TID) of the packets that this object is receiving.
@@ -117,7 +117,7 @@ Returns the table identifier (TID) of the packets that this object is receiving.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/196abb62-97f6-4961-b843-895ae35fedc4">Initialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-isectionlist-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object.
@@ -126,7 +126,7 @@ Initializes the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/61f1e99b-c375-4aa3-a11b-7e24c35f71ca">InitializeWithRawSections</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-isectionlist-initializewithrawsections">InitializeWithRawSections</a>
 </td>
 <td align="left" width="63%">
 Initializes the object with raw section data.
@@ -150,7 +150,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
  
 
  

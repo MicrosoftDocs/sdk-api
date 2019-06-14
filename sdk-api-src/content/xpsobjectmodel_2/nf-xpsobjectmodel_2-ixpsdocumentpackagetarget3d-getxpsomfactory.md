@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the <a href="https://msdn.microsoft.com/2444703e-4b89-4ef0-9ed7-aa937bc62e8c">IXpsOMObjectFactory</a> object for the document package.
+Gets the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomobjectfactory">IXpsOMObjectFactory</a> object for the document package.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets the <a href="https://msdn.microsoft.com/2444703e-4b89-4ef0-9ed7-aa937bc62e8
 
 ### -param xpsFactory [out, retval]
 
-The <a href="https://msdn.microsoft.com/2444703e-4b89-4ef0-9ed7-aa937bc62e8c">IXpsOMObjectFactory</a> object.
+The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomobjectfactory">IXpsOMObjectFactory</a> object.
 
 
 ## -returns
@@ -76,7 +76,7 @@ Returns the appropriate HRESULT error code.
 
 
 
-<a href="https://msdn.microsoft.com/7273235D-EB74-4FB2-B471-FCFF71741BF6">IXpsDocumentPackageTarget3D</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_2/nn-xpsobjectmodel_2-ixpsdocumentpackagetarget3d">IXpsDocumentPackageTarget3D</a>
  
 
  

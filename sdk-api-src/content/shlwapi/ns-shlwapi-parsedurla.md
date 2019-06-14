@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used by the <a href="https://msdn.microsoft.com/3d42dad0-b9eb-4e40-afc8-68cb85b27504">ParseURL</a> function to return the parsed URL.
+Used by the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-parseurla">ParseURL</a> function to return the parsed URL.
 
 
 ## -struct-fields
@@ -63,7 +63,7 @@ Used by the <a href="https://msdn.microsoft.com/3d42dad0-b9eb-4e40-afc8-68cb85b2
 
 Type: <b>DWORD</b>
 
-[in] The size of the structure, in bytes. The calling application must set this member before calling the <a href="https://msdn.microsoft.com/3d42dad0-b9eb-4e40-afc8-68cb85b27504">ParseURL</a> function.
+[in] The size of the structure, in bytes. The calling application must set this member before calling the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-parseurla">ParseURL</a> function.
 
 
 ### -field pszProtocol
@@ -98,5 +98,5 @@ Type: <b>UINT</b>
 
 Type: <b>UINT</b>
 
-[out] A value from the <a href="https://msdn.microsoft.com/45686920-356d-4dd7-8482-2427854a92ed">URL_SCHEME</a> enumeration that specifies the URL's scheme.
+[out] A value from the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-url_scheme">URL_SCHEME</a> enumeration that specifies the URL's scheme.
 

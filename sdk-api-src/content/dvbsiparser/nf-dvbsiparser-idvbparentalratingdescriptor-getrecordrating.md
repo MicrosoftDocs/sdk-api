@@ -59,7 +59,7 @@ ms.custom: 19H1
 
 ### -param bRecordIndex [in]
 
-Zero-based index of the descriptor to return. To get the number of descriptors, call <a href="https://msdn.microsoft.com/72dcfb91-4137-4149-b30d-2551cb209688">IDvbParentalRatingDescriptor::GetCountOfRecords</a>.
+Zero-based index of the descriptor to return. To get the number of descriptors, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbparentalratingdescriptor-getcountofrecords">IDvbParentalRatingDescriptor::GetCountOfRecords</a>.
 
 
 ### -param pszCountryCode
@@ -127,7 +127,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/667ef815-ef22-4dd1-9457-49af674b24ab">IDvbParentalRatingDescriptor</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbparentalratingdescriptor">IDvbParentalRatingDescriptor</a>
  
 
  

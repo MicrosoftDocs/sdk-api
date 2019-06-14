@@ -60,7 +60,7 @@ The <b>DHCP_FILTER_RECORD</b> structure contains information for a specific link
 ### -field AddrPatt
 
 
-<a href="https://msdn.microsoft.com/8c645b03-9859-48e9-8974-2dbdc9cfcac6">DHCP_ADDR_PATTERN</a> structure that contains the address/pattern related information of the link-layer filter.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_addr_pattern">DHCP_ADDR_PATTERN</a> structure that contains the address/pattern related information of the link-layer filter.
 
 
 ### -field Comment
@@ -73,7 +73,7 @@ Pointer to a null-terminated Unicode string which contains the comment associate
 
 
 
-<a href="https://msdn.microsoft.com/8c645b03-9859-48e9-8974-2dbdc9cfcac6">DHCP_ADDR_PATTERN</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_addr_pattern">DHCP_ADDR_PATTERN</a>
  
 
  

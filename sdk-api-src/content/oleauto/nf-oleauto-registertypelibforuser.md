@@ -169,7 +169,7 @@ The type library could not be opened.
 
 
 
-<b>RegisterTypeLibForUser</b> has functionality identical to <a href="https://msdn.microsoft.com/d0559a57-b1a4-4036-97ed-024d775cb595">RegisterTypeLib</a> except that type library is registered for use only by the calling user identity. 
+<b>RegisterTypeLibForUser</b> has functionality identical to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-registertypelib">RegisterTypeLib</a> except that type library is registered for use only by the calling user identity. 
 
 
 

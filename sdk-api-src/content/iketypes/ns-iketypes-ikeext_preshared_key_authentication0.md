@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_PRESHARED_KEY_AUTHENTICATION0</b> structure stores information needed for pre-shared key authentication.
-<div class="alert"><b>Note</b>  <b>IKEEXT_PRESHARED_KEY_AUTHENTICATION0</b> is the specific implementation of IKEEXT_PRESHARED_KEY_AUTHENTICATION used in Windows Vista. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7 and later, <a href="https://msdn.microsoft.com/en-us/library/Dd744976(v=VS.85).aspx">IKEEXT_PRESHARED_KEY_AUTHENTICATION1</a> is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>IKEEXT_PRESHARED_KEY_AUTHENTICATION0</b> is the specific implementation of IKEEXT_PRESHARED_KEY_AUTHENTICATION used in Windows Vista. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7 and later, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_preshared_key_authentication1__">IKEEXT_PRESHARED_KEY_AUTHENTICATION1</a> is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -59,7 +59,7 @@ The <b>IKEEXT_PRESHARED_KEY_AUTHENTICATION0</b> structure stores information nee
 
 ### -field presharedKey
 
-The pre-shared key specified by <a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a>.
+The pre-shared key specified by <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a>.
 
 
 ## -see-also
@@ -67,11 +67,11 @@ The pre-shared key specified by <a href="https://msdn.microsoft.com/85f360bf-5ee
 
 
 
-<a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a>
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

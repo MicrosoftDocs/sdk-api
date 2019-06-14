@@ -49,13 +49,13 @@ ms.custom: 19H1
 ## -description
 
 
-This interface performs all the same functions as the existing <a href="https://msdn.microsoft.com/DC4C947E-2EC9-44CC-872A-74DAB6E9C2C8">ID2D1CommandSink3</a> interface. 
-        It also enables access to the new primitive blend mode, MAX, through the <a href="https://msdn.microsoft.com/20934CEA-2B89-45F5-8E61-CD47C4A9B78F">SetPrimitiveBlend2</a> method.
+This interface performs all the same functions as the existing <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1commandsink3">ID2D1CommandSink3</a> interface. 
+        It also enables access to the new primitive blend mode, MAX, through the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1commandsink4-setprimitiveblend2">SetPrimitiveBlend2</a> method.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1CommandSink4</b> interface inherits from <a href="https://msdn.microsoft.com/DC4C947E-2EC9-44CC-872A-74DAB6E9C2C8">ID2D1CommandSink3</a>. <b>ID2D1CommandSink4</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1CommandSink4</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1commandsink3">ID2D1CommandSink3</a>. <b>ID2D1CommandSink4</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID2D1CommandSink4</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/20934CEA-2B89-45F5-8E61-CD47C4A9B78F">SetPrimitiveBlend2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1commandsink4-setprimitiveblend2">SetPrimitiveBlend2</a>
 </td>
 <td align="left" width="63%">
 Sets a new primitive blend mode. Allows access to the MAX primitive blend mode.

@@ -63,7 +63,7 @@ Retrieves the WinML model description.
 
 ### -param ppDescription [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/2EDFB412-0EE2-4CC7-9718-D35A815803B2">WINML_MODEL_DESC</a> containing the model description.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winml/ns-winml-winml_model_desc">WINML_MODEL_DESC</a> containing the model description.
 
 
 ## -returns
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/604ABFCC-9CA0-409D-A3FF-D5C59758462E">IWinMLModel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winml/nn-winml-iwinmlmodel">IWinMLModel</a>
  
 
  

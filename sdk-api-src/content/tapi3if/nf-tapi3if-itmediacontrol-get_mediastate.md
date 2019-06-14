@@ -61,7 +61,7 @@ The
 ### -param pTerminalMediaState [out]
 
 Pointer to the 
-<a href="https://msdn.microsoft.com/9cc07684-9804-41ac-bc25-f37f6ae00280">TERMINAL_MEDIA_STATE</a> descriptor of the current state of the file terminal.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-terminal_media_state">TERMINAL_MEDIA_STATE</a> descriptor of the current state of the file terminal.
 
 
 ## -returns
@@ -78,11 +78,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/016166a1-72ac-4ce8-9c86-43cf94b1bdbd">ITMediaControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itmediacontrol">ITMediaControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/9cc07684-9804-41ac-bc25-f37f6ae00280">TERMINAL_MEDIA_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-terminal_media_state">TERMINAL_MEDIA_STATE</a>
  
 
  

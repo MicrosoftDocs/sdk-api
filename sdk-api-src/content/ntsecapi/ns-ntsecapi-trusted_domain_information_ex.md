@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>TRUSTED_DOMAIN_INFORMATION_EX</b> structure is used to retrieve extended information about a trusted domain. The 
-<a href="https://msdn.microsoft.com/62925515-a6f3-4b5f-bf97-edb968af19a3">LsaQueryTrustedDomainInfo</a> function uses this structure when its <i>InformationClass</i> parameter is set to TrustedDomainInformationEx.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaquerytrusteddomaininfo">LsaQueryTrustedDomainInfo</a> function uses this structure when its <i>InformationClass</i> parameter is set to TrustedDomainInformationEx.
 
 
 ## -struct-fields
@@ -61,17 +61,17 @@ The <b>TRUSTED_DOMAIN_INFORMATION_EX</b> structure is used to retrieve extended 
 ### -field Name
 
 An 
-<a href="https://msdn.microsoft.com/9e1cf20f-01f9-4813-bf95-e47c5d57dcdc">LSA_UNICODE_STRING</a> structure that contains the name of the trusted domain. This is the DNS domain name.  For non-Microsoft trusted domains, this is the identifying name of the domain.
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the name of the trusted domain. This is the DNS domain name.  For non-Microsoft trusted domains, this is the identifying name of the domain.
 
 
 ### -field FlatName
 
-An <a href="https://msdn.microsoft.com/9e1cf20f-01f9-4813-bf95-e47c5d57dcdc">LSA_UNICODE_STRING</a> structure that contains the flat name of the trusted domain. For non-Microsoft trusted domains, this is the identifying name of the domain or it is <b>NULL</b>.
+An <a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the flat name of the trusted domain. For non-Microsoft trusted domains, this is the identifying name of the domain or it is <b>NULL</b>.
 
 
 ### -field Sid
 
-Pointer to the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) of the trusted domain. For non-Microsoft trusted domains, this member can be <b>NULL</b>.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) of the trusted domain. For non-Microsoft trusted domains, this member can be <b>NULL</b>.
 
 
 ### -field TrustDirection
@@ -288,27 +288,27 @@ Trust is treated as external for trust boundary purposes.
 
 
 
-<a href="https://msdn.microsoft.com/9e1cf20f-01f9-4813-bf95-e47c5d57dcdc">LSA_UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string">LSA_UNICODE_STRING</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f458098-9498-4f08-bd13-ac572678d734">LsaCreateTrustedDomainEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacreatetrusteddomainex">LsaCreateTrustedDomainEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/62925515-a6f3-4b5f-bf97-edb968af19a3">LsaQueryTrustedDomainInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaquerytrusteddomaininfo">LsaQueryTrustedDomainInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/d33d6cee-bd8b-49f4-8e65-07cdc65bec7c">LsaQueryTrustedDomainInfoByName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaquerytrusteddomaininfobyname">LsaQueryTrustedDomainInfoByName</a>
 
 
 
-<a href="https://msdn.microsoft.com/263e1025-1010-463d-8bc7-cdf916ce9872">LsaSetTrustedDomainInfoByName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsasettrusteddomaininfobyname">LsaSetTrustedDomainInfoByName</a>
 
 
 
-<a href="https://msdn.microsoft.com/442a0944-b498-4d9f-b338-d5aed1663d8d">TRUSTED_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_trusted_information_class">TRUSTED_INFORMATION_CLASS</a>
  
 
  

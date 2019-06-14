@@ -95,7 +95,7 @@ The method succeeded.
 
 
 
-This method is equivalent to setting the <a href="https://msdn.microsoft.com/01ee0766-06ed-4255-9057-2fe033a772cd">MFPKEY_RESIZE_INTERLACE</a> property. 
+This method is equivalent to setting the <a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-resize-interlace">MFPKEY_RESIZE_INTERLACE</a> property. 
 
 
 
@@ -105,7 +105,7 @@ This method is equivalent to setting the <a href="https://msdn.microsoft.com/01e
 
 
 
-<a href="https://msdn.microsoft.com/12c26507-c729-4143-a0bd-e043d42744f6">IWMResizerProps Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmresizerprops">IWMResizerProps Interface</a>
  
 
  

@@ -59,17 +59,17 @@ Contains information about the status of the protocol.
 
 ### -field Output
 
-A <a href="https://msdn.microsoft.com/118c5e12-5436-4c0a-a31d-a60c5123e384">WTS_PROTOCOL_COUNTERS</a> structure that contains the output protocol counters.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_protocol_counters">WTS_PROTOCOL_COUNTERS</a> structure that contains the output protocol counters.
 
 
 ### -field Input
 
-A <a href="https://msdn.microsoft.com/118c5e12-5436-4c0a-a31d-a60c5123e384">WTS_PROTOCOL_COUNTERS</a> structure that contains the input protocol counters.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_protocol_counters">WTS_PROTOCOL_COUNTERS</a> structure that contains the input protocol counters.
 
 
 ### -field Cache
 
-A <a href="https://msdn.microsoft.com/3c29596f-77c6-415b-bf97-529f70b9d9fe">WTS_CACHE_STATS</a> structure that contains protocol cache statistics.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_cache_stats">WTS_CACHE_STATS</a> structure that contains protocol cache statistics.
 
 
 ### -field AsyncSignal
@@ -91,7 +91,7 @@ An array of up to 100 counters.
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/d224877a-649a-4ac2-a5e7-831592e6a0d9">GetProtocolStatus</a> method.
+This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-getprotocolstatus">GetProtocolStatus</a> method.
 
 
 

@@ -64,7 +64,7 @@ The index, specified by the caller, to be associated with the entry list.
 
 ### -param pEntryList [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/98052f26-7956-4973-ab86-428e7a355937">ITocEntryList</a> interface that represents the entry list to be added.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocentrylist">ITocEntryList</a> interface that represents the entry list to be added.
 
 
 ## -returns
@@ -100,7 +100,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/b12d38c7-b80e-4ca8-9ac5-a116100911d0">IToc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a>
  
 
  

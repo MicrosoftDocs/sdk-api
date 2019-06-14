@@ -112,7 +112,7 @@ Represents the transparent or irregular parts of on object, typically parts that
 </table>
  
 
-The container can determine which of these drawing aspects an object supports by calling the new method <a href="https://msdn.microsoft.com/cf8ec90c-07bb-4f60-93c9-4cee3fb5a056">IViewObjectEx::GetViewStatus</a>. Individual bits return information about which aspects are supported. If an object does not support the <a href="https://msdn.microsoft.com/4e677ec6-9c9e-4ee7-bb7f-1df6e590319b">IViewObjectEx</a>interface, it is assumed to support only DVASPECT_CONTENT.
+The container can determine which of these drawing aspects an object supports by calling the new method <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getviewstatus">IViewObjectEx::GetViewStatus</a>. Individual bits return information about which aspects are supported. If an object does not support the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iviewobjectex">IViewObjectEx</a>interface, it is assumed to support only DVASPECT_CONTENT.
 
 Depending on which aspects are supported, the container can ask the object to draw itself during the front to back pass only, the back to front pass only, or both. The various possible cases are: 
 
@@ -136,7 +136,7 @@ Even when DVASPECT_OPAQUE and DVASPECT_TRANSPARENT are supported, the container 
 
 
 
-<a href="https://msdn.microsoft.com/913593ff-07fe-44bd-88dc-8e58da82089b">IViewObject::Draw</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject::Draw</a>
  
 
  

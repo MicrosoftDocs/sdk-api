@@ -59,7 +59,7 @@ Adds a synchronization object to the container.
 
 ### -param pSync [in]
 
-A pointer to the synchronization object to be added to the container. See <a href="https://msdn.microsoft.com/2c1e3d27-abb4-4bd0-ad9e-4dc9eda8e4b6">ISynchronize</a>.
+A pointer to the synchronization object to be added to the container. See <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isynchronize">ISynchronize</a>.
 
 
 ## -returns
@@ -115,11 +115,11 @@ A synchronization container can hold pointers to as many as 63 synchronization o
 
 
 
-<a href="https://msdn.microsoft.com/2c1e3d27-abb4-4bd0-ad9e-4dc9eda8e4b6">ISynchronize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isynchronize">ISynchronize</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a5be504-b5fa-491c-ba65-74c5de39e263">ISynchronizeContainer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isynchronizecontainer">ISynchronizeContainer</a>
  
 
  

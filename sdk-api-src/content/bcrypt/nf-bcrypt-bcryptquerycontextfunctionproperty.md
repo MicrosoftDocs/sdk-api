@@ -209,7 +209,7 @@ After this function returns, this variable contains the number of bytes that wer
 
 The address of a pointer to a buffer that receives the property data. The size and format of this buffer depends on the format of the property being retrieved. The value pointed to by the <i>pcbValue</i> parameter contains the size of this buffer.
 
-If the value pointed to by this parameter is <b>NULL</b>, this function will allocate the required memory. This memory must be freed when it is no longer needed by passing this pointer to the <a href="https://msdn.microsoft.com/0ee83ca1-2fe6-4ff2-823e-888b3e66f310">BCryptFreeBuffer</a> function.
+If the value pointed to by this parameter is <b>NULL</b>, this function will allocate the required memory. This memory must be freed when it is no longer needed by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfreebuffer">BCryptFreeBuffer</a> function.
 
 If this parameter is <b>NULL</b>, this function will place the required size, in bytes, in the variable pointed to by the <i>pcbValue</i> parameter and return <b>STATUS_BUFFER_TOO_SMALL</b>.
 

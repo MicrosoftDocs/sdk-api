@@ -56,9 +56,9 @@ The <b>Region</b> class describes an area of the display surface. The area can b
 
 
 
-A GDI+ region is stored in world coordinates whereas a GDI region is stored in device coordinates. Therefore, a GDI+ region is scalable and a GDI region is not. For more information, see the <b>Scalable Regions</b> section in <a href="https://msdn.microsoft.com/en-us/library/ms536340(v=VS.85).aspx">New Features</a>.
+A GDI+ region is stored in world coordinates whereas a GDI region is stored in device coordinates. Therefore, a GDI+ region is scalable and a GDI region is not. For more information, see the <b>Scalable Regions</b> section in <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-new-features-about">New Features</a>.
 
-An application can use regions to clip the output of drawing operations. The Window Manager uses regions to define the drawing area of windows. These regions are called clipping regions. An application can also use regions in hit-testing operations, such as checking whether a point is in a region or whether a rectangle intersects a region. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms536378(v=VS.85).aspx">Regions</a>, <a href="https://msdn.microsoft.com/en-us/library/ms536360(v=VS.85).aspx">Clipping</a>, and <a href="https://msdn.microsoft.com/en-us/library/ms533816(v=VS.85).aspx">Using Regions</a>.
+An application can use regions to clip the output of drawing operations. The Window Manager uses regions to define the drawing area of windows. These regions are called clipping regions. An application can also use regions in hit-testing operations, such as checking whether a point is in a region or whether a rectangle intersects a region. For more information, see <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-regions-about">Regions</a>, <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-clipping-about">Clipping</a>, and <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-regions-use">Using Regions</a>.
 
 
 

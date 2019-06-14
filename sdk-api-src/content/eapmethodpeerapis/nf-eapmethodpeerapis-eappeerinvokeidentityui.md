@@ -59,12 +59,12 @@ Raises a custom interactive user interface dialog to obtain user identity inform
 
 ### -param pEapType [in]
 
-An <a href="https://msdn.microsoft.com/47702dd9-d9c2-4dd5-a12d-23a55b031d27">EAP_METHOD_TYPE</a> structure that contains vendor and author information about the EAP method used for authenticating the connection.
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_type">EAP_METHOD_TYPE</a> structure that contains vendor and author information about the EAP method used for authenticating the connection.
 
 
 ### -param dwFlags [in]
 
-A combination of <a href="https://msdn.microsoft.com/b6305349-3418-475e-8a37-2c06b399556e">EAP flags</a> that describe the  EAP authentication session behavior.
+A combination of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-method-flags">EAP flags</a> that describe the  EAP authentication session behavior.
 
 
 ### -param hwndParent [in]
@@ -101,7 +101,7 @@ Specifies the size, in bytes, of the <i>ppUserDataOut</i>buffer.
 
 ### -param ppUserDataOut [out]
 
-A pointer to the pointer of the returned user data. The data is passed to <a href="https://msdn.microsoft.com/770a548c-c227-4708-bc40-08bf2681c90f">EapPeerBeginSession</a>   as input <i>pUserData</i>.
+A pointer to the pointer of the returned user data. The data is passed to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerbeginsession">EapPeerBeginSession</a>   as input <i>pUserData</i>.
 
 
 ### -param ppwszIdentity [out]
@@ -111,7 +111,7 @@ A pointer to the pointer of the returned user data. The data is passed to <a hre
 
 ### -param ppEapError [out]
 
-A pointer to the address of an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://msdn.microsoft.com/85b4197c-5caf-4e2b-94fd-e651712dd39d">EapPeerFreeErrorMemory</a>.
+A pointer to the address of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
 
 
 ## -remarks
@@ -128,11 +128,11 @@ This call is performed by a peer-based EAPHost using a function pointer to this 
 
 
 
-<a href="https://msdn.microsoft.com/ba5c90b2-5185-4810-84a2-d08e62e8105c">EAPHost Peer Method Configuration Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eaphost-peer-method-configuration-functions">EAPHost Peer Method Configuration Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b3a525a-2322-496e-83c7-a3180235583a">EapPeerInvokeIdentityUI</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerinvokeidentityui">EapPeerInvokeIdentityUI</a>
  
 
  

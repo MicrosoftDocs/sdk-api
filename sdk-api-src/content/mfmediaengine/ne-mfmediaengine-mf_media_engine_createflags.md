@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains flags for the <a href="https://msdn.microsoft.com/EDEAD2C4-5695-4E63-9E9E-B09D75B60B7F">IMFMediaEngineClassFactory::CreateInstance</a>  method.
+Contains flags for the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineclassfactory-createinstance">IMFMediaEngineClassFactory::CreateInstance</a>  method.
 
 
 ## -enum-fields
@@ -64,7 +64,7 @@ The Media Engine will play audio only. It will not play video.
 
 ### -field MF_MEDIA_ENGINE_WAITFORSTABLE_STATE
 
-The Media Engine's resource loading algorithm waits for the application to signal the thread that loads the resource. For more information, see the remarks for <b>MF_MEDIA_ENGINE_EVENT_NOTIFYSTABLESTATE</b> in the <a href="https://msdn.microsoft.com/05790FF8-0720-474B-AFF1-362E7A1B7C34">MF_MEDIA_ENGINE_EVENT</a> enumeration.
+The Media Engine's resource loading algorithm waits for the application to signal the thread that loads the resource. For more information, see the remarks for <b>MF_MEDIA_ENGINE_EVENT_NOTIFYSTABLESTATE</b> in the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_media_engine_event">MF_MEDIA_ENGINE_EVENT</a> enumeration.
 
 
 ### -field MF_MEDIA_ENGINE_FORCEMUTE
@@ -74,7 +74,7 @@ Always mute the audio.
 
 ### -field MF_MEDIA_ENGINE_REAL_TIME_MODE
 
-Enable low-latency mode in the rendering pipeline. This can be changed at a later time by calling <a href="https://msdn.microsoft.com/31534f69-33ec-41d3-93aa-f4c457649e48">IMFMediaEngineEx::SetRealTimeMode</a>.
+Enable low-latency mode in the rendering pipeline. This can be changed at a later time by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-setrealtimemode">IMFMediaEngineEx::SetRealTimeMode</a>.
 
 
 ### -field MF_MEDIA_ENGINE_DISABLE_LOCAL_PLUGINS
@@ -92,7 +92,7 @@ Reserved.
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

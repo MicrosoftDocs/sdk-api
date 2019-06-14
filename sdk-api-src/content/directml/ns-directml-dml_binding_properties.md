@@ -70,7 +70,7 @@ The minimum size, in descriptors, of the binding table required for a particular
 
 ### -field TemporaryResourceSize
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT64</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
 
 The minimum size in bytes of the temporary resource that must be bound to the binding table for a particular dispatchable
       object. A value of zero means that a temporary resource is not required.
@@ -78,7 +78,7 @@ The minimum size in bytes of the temporary resource that must be bound to the bi
 
 ### -field PersistentResourceSize
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT64</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
 
 The minimum size in bytes of the persistent resource that must be bound to the binding table for a particular
       dispatchable object. Persistent resources must be supplied during initialization of a compiled operator (where it

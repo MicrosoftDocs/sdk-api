@@ -90,7 +90,7 @@ Used space from the allocated area above. This must be less than or equal
 
 
 
-The <b>m_llMaximumDiffSpace</b> member is passed as a parameter to the <a href="https://msdn.microsoft.com/7b58331c-b8a2-4333-a05d-563395d5f0c2">IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea</a>, <a href="https://msdn.microsoft.com/c7773fa8-6b43-46bf-b644-0016b261c080">IVssDifferentialSoftwareSnapshotMgmt::ChangeDiffAreaMaximumSize</a>, and <a href="https://msdn.microsoft.com/9ba621d5-32ec-4512-a18f-dbdadbd3ff09">IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx</a> methods.
+The <b>m_llMaximumDiffSpace</b> member is passed as a parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-adddiffarea">IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea</a>, <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-changediffareamaximumsize">IVssDifferentialSoftwareSnapshotMgmt::ChangeDiffAreaMaximumSize</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt2-changediffareamaximumsizeex">IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx</a> methods.
 
 
 
@@ -100,11 +100,11 @@ The <b>m_llMaximumDiffSpace</b> member is passed as a parameter to the <a href="
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384957(v=VS.85).aspx">VSS_MGMT_OBJECT_UNION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-__midl___midl_itf_vsmgmt_0000_0000_0001">VSS_MGMT_OBJECT_UNION</a>
 
 
 
-<a href="https://msdn.microsoft.com/20cf12e4-4611-4e39-9f6f-e29f15e58b36">Volume Shadow Copy API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-structures">Volume Shadow Copy API Structures</a>
  
 
  

@@ -59,10 +59,10 @@ Represents the expiration time of a WS-Eventing message.
 
 ### -field Duration
 
-Reference to a <a href="https://msdn.microsoft.com/43d4d0c5-509a-46c4-bdf6-24c3307fb811">WSD_DURATION</a> structure that specifies the length of time a request or response is valid.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/ns-wsdxml-_wsd_duration">WSD_DURATION</a> structure that specifies the length of time a request or response is valid.
 
 
 ### -field DateTime
 
-Reference to a <a href="https://msdn.microsoft.com/ec42d69c-133a-4e76-bbbe-0e6978f4723a">WSD_DATETIME</a> structure that specifies the time that the request or response expires. 
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/ns-wsdxml-_wsd_datetime">WSD_DATETIME</a> structure that specifies the time that the request or response expires. 
 

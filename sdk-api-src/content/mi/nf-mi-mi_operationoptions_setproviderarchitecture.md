@@ -59,12 +59,12 @@ Sets the provider architecture for an operation.
 
 ### -param options [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/60445a53-c40c-4d0a-9650-21d0c7f3bbf6">MI_OperationOptions</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operationoptions">MI_OperationOptions</a> structure.
 
 
 ### -param architecture [in]
 
-One of the following <a href="https://msdn.microsoft.com/9dd275aa-23a9-44f4-916f-355b77490161">MI_ProviderArchitecture</a> values.
+One of the following <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_providerarchitecture">MI_ProviderArchitecture</a> values.
 
 
 

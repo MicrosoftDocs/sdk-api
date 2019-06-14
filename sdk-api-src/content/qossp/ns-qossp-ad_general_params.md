@@ -105,7 +105,7 @@ Indicates the existence of a network element in the data path that does not supp
 
 
 
-<a href="https://msdn.microsoft.com/90fad5de-7105-4126-a6db-d4fb663e01f4">RSVP_ADSPEC</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_adspec">RSVP_ADSPEC</a>
  
 
  

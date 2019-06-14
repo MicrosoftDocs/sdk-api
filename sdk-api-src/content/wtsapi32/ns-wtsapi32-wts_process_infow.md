@@ -77,8 +77,8 @@ Pointer to a null-terminated string containing the name of the executable file a
 ### -field pUserSid
 
 Pointer to the user 
-<a href="https://msdn.microsoft.com/7cb07bcd-70f4-43dd-8382-320fcff151c7">Security Identifiers</a> in the process's primary access token. For more information about SIDs and access tokens, see 
-<a href="https://msdn.microsoft.com/d9ce4ec5-5c09-4b33-93a1-39638a925986">Access Control</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-identifiers">Security Identifiers</a> in the process's primary access token. For more information about SIDs and access tokens, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a>.
 
 
 ## -see-also
@@ -86,7 +86,7 @@ Pointer to the user
 
 
 
-<a href="https://msdn.microsoft.com/ddfae294-2e7c-416e-b328-76d011b4af39">WTSEnumerateProcesses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsenumerateprocessesa">WTSEnumerateProcesses</a>
  
 
  

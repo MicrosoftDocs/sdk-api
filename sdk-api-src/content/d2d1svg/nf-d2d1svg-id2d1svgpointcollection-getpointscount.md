@@ -75,7 +75,7 @@ Returns the number of points in the array.
 
 
 
-<a href="https://msdn.microsoft.com/6033F923-35E1-400F-965F-2FBED95B260A">ID2D1SvgPointCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgpointcollection">ID2D1SvgPointCollection</a>
  
 
  

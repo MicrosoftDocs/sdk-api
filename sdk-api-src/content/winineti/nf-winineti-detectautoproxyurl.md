@@ -106,7 +106,7 @@ Use a well qualified name search to identify the proxy.
 
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -115,7 +115,7 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get extended er
 
 
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
@@ -125,15 +125,15 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get extended er
 
 
 
-<a href="https://msdn.microsoft.com/ccb69e89-9407-48ac-bb70-fbc425bd1051">InternetDeInitializeAutoProxyDll</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa384580(v=vs.85)">InternetDeInitializeAutoProxyDll</a>
 
 
 
-<a href="https://msdn.microsoft.com/5fc0f471-420c-4125-8323-cb1e1e72e43f">InternetGetProxyInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinInet/internetgetproxyinfo">InternetGetProxyInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/d55d64cb-ee92-4366-a1bb-f5d421ed81c8">InternetInitializeAutoProxyDll</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetinitializeautoproxydll">InternetInitializeAutoProxyDll</a>
  
 
  

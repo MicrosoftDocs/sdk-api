@@ -51,11 +51,11 @@ ms.custom: 19H1
 
 
 <p class="CCE_Message">[This property is supported for compatibility but it's recommended to use the 
-    <a href="https://msdn.microsoft.com/1CE772FA-CE33-4900-A499-058175A7C37E">FSRM WMI Classes</a> to manage FSRM. Please see the 
-    <a href="https://msdn.microsoft.com/9308f1de-ba8e-45f5-81ec-d8203839ee79">MSFT_FSRMQuota</a> class.]
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a> class.]
 
 Retrieves the date and time that the 
-    <a href="https://msdn.microsoft.com/86e2f8a1-766e-494d-9b99-c55e51d8509c">IFsrmQuota::QuotaPeakUsage</a> property was 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquota-get_quotapeakusage">IFsrmQuota::QuotaPeakUsage</a> property was 
     set.
 
 This property is read-only.
@@ -72,13 +72,13 @@ The time stamp is set when the quota usage reaches a new, higher peak level, or 
     reset.
 
 To get the highest peak usage value, access the 
-    <a href="https://msdn.microsoft.com/86e2f8a1-766e-494d-9b99-c55e51d8509c">QuotaPeakUsage</a> property.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquota-get_quotapeakusage">QuotaPeakUsage</a> property.
 
 
 #### Examples
 
 For an example, see 
-     <a href="https://msdn.microsoft.com/7b755410-5520-4933-8859-9c201cbd13eb">Getting Current Usage Values</a>.
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/getting-current-usage-values">Getting Current Usage Values</a>.
 
 <div class="code"></div>
 
@@ -89,11 +89,11 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/91ced22a-01b9-4fcf-b61a-c99e6f0286f3">IFsrmQuota</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nn-fsrmquota-ifsrmquota">IFsrmQuota</a>
 
 
 
-<a href="https://msdn.microsoft.com/9308f1de-ba8e-45f5-81ec-d8203839ee79">MSFT_FSRMQuota</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
  
 
  

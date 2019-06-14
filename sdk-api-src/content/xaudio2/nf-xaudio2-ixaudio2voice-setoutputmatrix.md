@@ -59,7 +59,7 @@ Sets the volume level of each channel of the final output for the voice. These c
 
 ### -param pDestinationVoice [in]
 
-Pointer to a destination <a href="https://msdn.microsoft.com/en-us/library/Ee415917(v=VS.85).aspx">IXAudio2Voice</a> for which to set volume levels.
+Pointer to a destination <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voice">IXAudio2Voice</a> for which to set volume levels.
 
 <div class="alert"><b>Note</b>  If the voice sends to a single target voice then specifying NULL will cause <b>SetOutputMatrix</b> to operate on that target voice.</div>
 <div> </div>
@@ -136,14 +136,14 @@ TBD
 
 #### - OperationSet [in]
 
-Identifies this call as part of a deferred batch. See the <a href="https://msdn.microsoft.com/5bfd747d-af65-f619-e549-be8130748261">XAudio2 Operation Sets</a> overview for more information.
+Identifies this call as part of a deferred batch. See the <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-operation-sets">XAudio2 Operation Sets</a> overview for more information.
 
 
 ## -returns
 
 
 
-Returns S_OK if successful, an error code otherwise. See <a href="https://msdn.microsoft.com/42a1c21c-4b14-114a-d79e-15a61eb2139b">XAudio2 Error Codes</a> for descriptions of error codes.
+Returns S_OK if successful, an error code otherwise. See <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-error-codes">XAudio2 Error Codes</a> for descriptions of error codes.
 
 
 
@@ -156,14 +156,14 @@ This method is valid only for source and submix voices, because mastering voices
 
 
 
-Volume levels are expressed as floating-point amplitude multipliers between -XAUDIO2_MAX_VOLUME_LEVEL and XAUDIO2_MAX_VOLUME_LEVEL (-2²⁴ to 2²⁴), with a maximum gain of 144.5 dB. A volume level of 1.0 means there is no attenuation or gain and 0 means silence. Negative levels can be used to invert the audio's phase. See <a href="https://msdn.microsoft.com/dedc2d01-af83-d7d2-5b64-743dcebc83f7">XAudio2 Volume and Pitch Control</a> for additional information on volume control.
+Volume levels are expressed as floating-point amplitude multipliers between -XAUDIO2_MAX_VOLUME_LEVEL and XAUDIO2_MAX_VOLUME_LEVEL (-2²⁴ to 2²⁴), with a maximum gain of 144.5 dB. A volume level of 1.0 means there is no attenuation or gain and 0 means silence. Negative levels can be used to invert the audio's phase. See <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-volume-and-pitch-control">XAudio2 Volume and Pitch Control</a> for additional information on volume control.
 
 
 
 
-The <a href="https://msdn.microsoft.com/1638e848-4186-5dea-18e8-5369eee544ae">X3DAudio</a> function <a href="https://msdn.microsoft.com/en-us/library/Ee419052(v=VS.85).aspx">X3DAudioCalculate</a> can produce an output matrix for use with <b>SetOutputMatrix</b> based on a sound's position and a listener's position.
+The <a href="https://docs.microsoft.com/windows/desktop/xaudio2/x3daudio-overview">X3DAudio</a> function <a href="https://docs.microsoft.com/windows/desktop/api/x3daudio/nf-x3daudio-x3daudiocalculate">X3DAudioCalculate</a> can produce an output matrix for use with <b>SetOutputMatrix</b> based on a sound's position and a listener's position.
 
-<div class="alert"><b>Note</b>  <a href="https://msdn.microsoft.com/en-us/library/Ee418590(v=VS.85).aspx">IXAudio2Voice::GetOutputMatrix</a> always returns the levels most recently set by <b>IXAudio2Voice::SetOutputMatrix</b>. However, they may not actually be in effect yet: they only take effect the next time the audio engine runs after the <b>IXAudio2Voice::SetOutputMatrix</b> call (or after the corresponding <a href="https://msdn.microsoft.com/en-us/library/Ee418603(v=VS.85).aspx">IXAudio2::CommitChanges</a> call, if <b>IXAudio2Voice::SetOutputMatrix</b> was called with a deferred operation ID).</div>
+<div class="alert"><b>Note</b>  <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getoutputmatrix">IXAudio2Voice::GetOutputMatrix</a> always returns the levels most recently set by <b>IXAudio2Voice::SetOutputMatrix</b>. However, they may not actually be in effect yet: they only take effect the next time the audio engine runs after the <b>IXAudio2Voice::SetOutputMatrix</b> call (or after the corresponding <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-commitchanges">IXAudio2::CommitChanges</a> call, if <b>IXAudio2Voice::SetOutputMatrix</b> was called with a deferred operation ID).</div>
 <div> </div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
@@ -176,11 +176,11 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/40004128-4abb-4bcd-fe76-91276be8abec">How to: Change Voice Volume</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/how-to--change-voice-volume">How to: Change Voice Volume</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415917(v=VS.85).aspx">IXAudio2Voice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voice">IXAudio2Voice</a>
  
 
  

@@ -90,7 +90,7 @@ The information level of the data. This parameter can be one of the following va
 </td>
 <td width="60%">
 Specifies the user account name. The <i>buf</i> parameter points to a 
-<a href="https://msdn.microsoft.com/5d24a2dd-d1ee-4c97-8fbc-0b336313b60c">USER_INFO_0</a> structure. Use this structure to specify a new group name. For more information, see the following Remarks section.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_0">USER_INFO_0</a> structure. Use this structure to specify a new group name. For more information, see the following Remarks section.
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ Specifies the user account name. The <i>buf</i> parameter points to a
 </td>
 <td width="60%">
 Specifies detailed information about the user account. The <i>buf</i> parameter points to a 
-<a href="https://msdn.microsoft.com/f17a1aef-45f1-461f-975d-75221d08277c">USER_INFO_1</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1">USER_INFO_1</a> structure.
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ Specifies detailed information about the user account. The <i>buf</i> parameter 
 </td>
 <td width="60%">
 Specifies level one information and additional attributes about the user account. The <i>buf</i> parameter points to a 
-<a href="https://msdn.microsoft.com/50c78c6a-a08f-473b-929a-9528e618165f">USER_INFO_2</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_2">USER_INFO_2</a> structure.
 
 </td>
 </tr>
@@ -123,8 +123,8 @@ Specifies level one information and additional attributes about the user account
 </td>
 <td width="60%">
 Specifies level two information and additional attributes about the user account. This level is valid only on servers. The <i>buf</i> parameter points to a 
-<a href="https://msdn.microsoft.com/39ed05f5-165d-4cb8-98af-e4120a1634f6">USER_INFO_3</a> structure. Note that  it is recommended that you use 
-<a href="https://msdn.microsoft.com/66b11a5f-1c2d-4564-8845-9e2fa1f40f3e">USER_INFO_4</a> instead.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_3">USER_INFO_3</a> structure. Note that  it is recommended that you use 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_4">USER_INFO_4</a> instead.
 
 </td>
 </tr>
@@ -135,7 +135,7 @@ Specifies level two information and additional attributes about the user account
 </td>
 <td width="60%">
  Specifies level two information and additional attributes about the user account. This level is valid only on servers. The <i>buf</i> parameter points to a 
-<a href="https://msdn.microsoft.com/66b11a5f-1c2d-4564-8845-9e2fa1f40f3e">USER_INFO_4</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_4">USER_INFO_4</a> structure.
 
 </td>
 </tr>
@@ -146,7 +146,7 @@ Specifies level two information and additional attributes about the user account
 </td>
 <td width="60%">
 Specifies a one-way encrypted LAN Manager 2.<i>x</i>-compatible password. The <i>buf</i> parameter points to a 
-<a href="https://msdn.microsoft.com/227e97c5-972e-4d4a-9609-53e60e76d43e">USER_INFO_21</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_21">USER_INFO_21</a> structure.
 
 </td>
 </tr>
@@ -157,7 +157,7 @@ Specifies a one-way encrypted LAN Manager 2.<i>x</i>-compatible password. The <i
 </td>
 <td width="60%">
 Specifies detailed information about the user account. The <i>buf</i> parameter points to a 
-<a href="https://msdn.microsoft.com/ff8d2088-953b-4a8a-bdcb-86148dc66a7a">USER_INFO_22</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_22">USER_INFO_22</a> structure.
 
 </td>
 </tr>
@@ -168,7 +168,7 @@ Specifies detailed information about the user account. The <i>buf</i> parameter 
 </td>
 <td width="60%">
 Specifies a user password. The <i>buf</i> parameter points to a 
-<a href="https://msdn.microsoft.com/ef1d1ecd-7226-4e4e-a0b3-ec096d3b1207">USER_INFO_1003</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1003">USER_INFO_1003</a> structure.
 
 </td>
 </tr>
@@ -179,7 +179,7 @@ Specifies a user password. The <i>buf</i> parameter points to a
 </td>
 <td width="60%">
 Specifies a user privilege level. The <i>buf</i> parameter points to a 
-<a href="https://msdn.microsoft.com/a953b48f-bda0-4dce-a153-d4db912de533">USER_INFO_1005</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1005">USER_INFO_1005</a> structure.
 
 </td>
 </tr>
@@ -190,7 +190,7 @@ Specifies a user privilege level. The <i>buf</i> parameter points to a
 </td>
 <td width="60%">
 Specifies the path of the home directory for the user. The <i>buf</i> parameter points to a 
-<a href="https://msdn.microsoft.com/9eb4973b-cda5-4862-b558-3af90b7de19f">USER_INFO_1006</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1006">USER_INFO_1006</a> structure.
 
 </td>
 </tr>
@@ -201,7 +201,7 @@ Specifies the path of the home directory for the user. The <i>buf</i> parameter 
 </td>
 <td width="60%">
 Specifies a comment to associate with the user account. The <i>buf</i> parameter points to a 
-<a href="https://msdn.microsoft.com/a2e49802-799d-4f98-aa6d-5cb1478cb4d4">USER_INFO_1007</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1007">USER_INFO_1007</a> structure.
 
 </td>
 </tr>
@@ -212,7 +212,7 @@ Specifies a comment to associate with the user account. The <i>buf</i> parameter
 </td>
 <td width="60%">
 Specifies user account attributes. The <i>buf</i> parameter points to a 
-<a href="https://msdn.microsoft.com/142408ef-ed8e-4af3-8fc2-ffdd40ce4f1e">USER_INFO_1008</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1008">USER_INFO_1008</a> structure.
 
 </td>
 </tr>
@@ -223,7 +223,7 @@ Specifies user account attributes. The <i>buf</i> parameter points to a
 </td>
 <td width="60%">
 Specifies the path for the user's logon script file. The <i>buf</i> parameter points to a 
-<a href="https://msdn.microsoft.com/baaabbf9-9571-49db-bf38-a3fc2d0a200a">USER_INFO_1009</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1009">USER_INFO_1009</a> structure.
 
 </td>
 </tr>
@@ -234,7 +234,7 @@ Specifies the path for the user's logon script file. The <i>buf</i> parameter po
 </td>
 <td width="60%">
 Specifies the user's operator privileges. The <i>buf</i> parameter points to a 
-<a href="https://msdn.microsoft.com/6760729a-1d59-430e-8412-1257977af169">USER_INFO_1010</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1010">USER_INFO_1010</a> structure.
 
 </td>
 </tr>
@@ -245,7 +245,7 @@ Specifies the user's operator privileges. The <i>buf</i> parameter points to a
 </td>
 <td width="60%">
 Specifies the full name of the user. The <i>buf</i> parameter points to a 
-<a href="https://msdn.microsoft.com/f60075b4-19c5-4998-b8c3-61e960e76035">USER_INFO_1011</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1011">USER_INFO_1011</a> structure.
 
 </td>
 </tr>
@@ -256,7 +256,7 @@ Specifies the full name of the user. The <i>buf</i> parameter points to a
 </td>
 <td width="60%">
 Specifies a comment to associate with the user. The <i>buf</i> parameter points to a 
-<a href="https://msdn.microsoft.com/92501552-7afe-4a95-980a-576254a122a9">USER_INFO_1012</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1012">USER_INFO_1012</a> structure.
 
 </td>
 </tr>
@@ -267,7 +267,7 @@ Specifies a comment to associate with the user. The <i>buf</i> parameter points 
 </td>
 <td width="60%">
 Specifies the names of workstations from which the user can log on. The <i>buf</i> parameter points to a 
-<a href="https://msdn.microsoft.com/ff7f385d-bcda-4560-b22f-d1fc94e7ae41">USER_INFO_1014</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1014">USER_INFO_1014</a> structure.
 
 </td>
 </tr>
@@ -278,7 +278,7 @@ Specifies the names of workstations from which the user can log on. The <i>buf</
 </td>
 <td width="60%">
 Specifies when the user account expires. The <i>buf</i> parameter points to a 
-<a href="https://msdn.microsoft.com/67ded50e-ab9a-4202-9496-1a39d1af0f58">USER_INFO_1017</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1017">USER_INFO_1017</a> structure.
 
 </td>
 </tr>
@@ -289,7 +289,7 @@ Specifies when the user account expires. The <i>buf</i> parameter points to a
 </td>
 <td width="60%">
 Specifies the times during which the user can log on. The <i>buf</i> parameter points to a 
-<a href="https://msdn.microsoft.com/959ed1f4-d5ee-4d77-abd7-bb681778f0b1">USER_INFO_1020</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1020">USER_INFO_1020</a> structure.
 
 </td>
 </tr>
@@ -300,7 +300,7 @@ Specifies the times during which the user can log on. The <i>buf</i> parameter p
 </td>
 <td width="60%">
 Specifies the user's country/region code. The <i>buf</i> parameter points to a 
-<a href="https://msdn.microsoft.com/8133238f-c968-4a65-a8dd-7b9a61a193f5">USER_INFO_1024</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1024">USER_INFO_1024</a> structure.
 
 </td>
 </tr>
@@ -311,7 +311,7 @@ Specifies the user's country/region code. The <i>buf</i> parameter points to a
 </td>
 <td width="60%">
 Specifies the relative identifier of a global group that represents the enrolled user. The <i>buf</i> parameter points to a 
-<a href="https://msdn.microsoft.com/dbd7c63b-c383-48dd-98f2-087f2b41fc52">USER_INFO_1051</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1051">USER_INFO_1051</a> structure.
 
 </td>
 </tr>
@@ -322,7 +322,7 @@ Specifies the relative identifier of a global group that represents the enrolled
 </td>
 <td width="60%">
 Specifies the path to a network user's profile. The <i>buf</i> parameter points to a 
-<a href="https://msdn.microsoft.com/55ec6819-8558-413a-9a79-c2d59993163d">USER_INFO_1052</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1052">USER_INFO_1052</a> structure.
 
 </td>
 </tr>
@@ -333,7 +333,7 @@ Specifies the path to a network user's profile. The <i>buf</i> parameter points 
 </td>
 <td width="60%">
 Specifies the drive letter assigned to the user's home directory. The <i>buf</i> parameter points to a 
-<a href="https://msdn.microsoft.com/687b2c35-344d-49db-a1e2-fb5c2b5db2d6">USER_INFO_1053</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1053">USER_INFO_1053</a> structure.
 
 </td>
 </tr>
@@ -344,7 +344,7 @@ Specifies the drive letter assigned to the user's home directory. The <i>buf</i>
 ### -param buf [in]
 
 A pointer to the buffer that specifies the data. The format of this data depends on the value of the <i>level</i> parameter. For more information, see 
-<a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a>.
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a>.
 
 
 ### -param parm_err [out]
@@ -475,28 +475,28 @@ The user name could not be found.
 
 
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management user functions. For more information, see 
-<a href="https://msdn.microsoft.com/6eea74c2-2d6d-4dfd-9a22-3da2d5ce49bf">IADsUser</a> and 
-<a href="https://msdn.microsoft.com/e2b90a98-5777-42c2-95dd-4623e738c4da">IADsComputer</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsuser">IADsUser</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscomputer">IADsComputer</a>.
 
-If you call this function on a domain controller that is running Active Directory, access is allowed or denied based on the access control list (ACL) for the <a href="https://msdn.microsoft.com/32f2ec06-822f-4d1e-bf51-5ae1d7355e60">securable object</a>. The default ACL permits only Domain Admins and Account Operators to call this function. On a member server or workstation, only Administrators and Power Users can call this function. For more information, see 
-<a href="https://msdn.microsoft.com/846a5b81-d5bf-4275-a898-38e6ba308b8f">Security Requirements for the Network Management Functions</a>. For more information on ACLs, ACEs, and access tokens, see 
-<a href="https://msdn.microsoft.com/fd3b718a-5eff-4894-9fc6-d157ddb67330">Access Control Model</a>.
+If you call this function on a domain controller that is running Active Directory, access is allowed or denied based on the access control list (ACL) for the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/securable-objects">securable object</a>. The default ACL permits only Domain Admins and Account Operators to call this function. On a member server or workstation, only Administrators and Power Users can call this function. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/security-requirements-for-the-network-management-functions">Security Requirements for the Network Management Functions</a>. For more information on ACLs, ACEs, and access tokens, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-model">Access Control Model</a>.
 
 The security descriptor of the User object is used to perform the access check for this function.
 
 Only users or applications having administrative privileges can call the 
 <b>NetUserSetInfo</b> function to change a user's password. When an administrator calls 
 <b>NetUserSetInfo</b>, the only restriction applied is that the new password length must be consistent with system modals. A user or application that knows a user's current password can call the 
-<a href="https://msdn.microsoft.com/e3791756-3bd4-490b-983a-9687373d846b">NetUserChangePassword</a> function to change the password. For more information about calling functions that require administrator privileges, see <a href="https://msdn.microsoft.com/b25db548-d5ab-4276-9b50-36d030909384">Running with Special Privileges</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netuserchangepassword">NetUserChangePassword</a> function to change the password. For more information about calling functions that require administrator privileges, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>.
 
 Members of the Administrators local group can set any modifiable user account elements. All users can set the <b>usri2_country_code</b> member of the 
-<a href="https://msdn.microsoft.com/50c78c6a-a08f-473b-929a-9528e618165f">USER_INFO_2</a> structure (and the <b>usri1024_country_code</b> member of the 
-<a href="https://msdn.microsoft.com/8133238f-c968-4a65-a8dd-7b9a61a193f5">USER_INFO_1024</a> structure) for their own accounts.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_2">USER_INFO_2</a> structure (and the <b>usri1024_country_code</b> member of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1024">USER_INFO_1024</a> structure) for their own accounts.
 
 A member of the Account Operator's local group cannot set details for an Administrators class account, give an existing account Administrator privilege, or change the operator privilege of any account. If you attempt to change the privilege level or disable the last account with Administrator privilege in the security database, (the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory), the 
 <b>NetUserSetInfo</b> function fails and returns NERR_LastAdmin.
 
-To set the following user account control flags, the following <a href="https://msdn.microsoft.com/fe6aae0f-93eb-4aba-a6ac-45e71c251c51">privileges</a> and <a href="https://msdn.microsoft.com/27ad74bd-ad87-422e-a4a2-02c0d51c4dd4">control access rights</a> are required.
+To set the following user account control flags, the following <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/privileges">privileges</a> and <a href="https://docs.microsoft.com/windows/desktop/AD/control-access-rights">control access rights</a> are required.
 
 <table>
 <tr>
@@ -530,11 +530,11 @@ To set the following user account control flags, the following <a href="https://
 </table>
  
 
-For a list of privilege constants, see <a href="https://msdn.microsoft.com/be5637e3-0932-49b6-a5af-a542060545e0">Authorization  Constants</a>.
+For a list of privilege constants, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-constants">Authorization  Constants</a>.
 
 The correct way to specify the new name for an account is to call 
 <b>NetUserSetInfo</b> with 
-<a href="https://msdn.microsoft.com/5d24a2dd-d1ee-4c97-8fbc-0b336313b60c">USER_INFO_0</a> and to specify the new value using the <b>usri0_name</b> member. If you call 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_0">USER_INFO_0</a> and to specify the new value using the <b>usri0_name</b> member. If you call 
 <b>NetUserSetInfo</b> with other information levels and specify a value using a <b>usriX_name</b> member, the value is ignored.
 
 Note that calls to 
@@ -669,7 +669,7 @@ The
 
 The following code sample demonstrates how to disable a user account with a call to the 
 <b>NetUserSetInfo</b> function. The code sample fills in the <b>usri1008_flags</b> member of the 
-<a href="https://msdn.microsoft.com/142408ef-ed8e-4af3-8fc2-ffdd40ce4f1e">USER_INFO_1008</a> structure, specifying the value UF_ACCOUNTDISABLE. Then the sample calls 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1008">USER_INFO_1008</a> structure, specifying the value UF_ACCOUNTDISABLE. Then the sample calls 
 <b>NetUserSetInfo</b>, specifying information level 0.
 
 
@@ -729,113 +729,113 @@ int wmain(int argc, wchar_t *argv[])
 
 
 
-<a href="https://msdn.microsoft.com/5bd13bed-938a-4273-840e-99fca99f7139">NetUserGetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusergetinfo">NetUserGetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd159e2e-f37e-46b2-b980-008b73d40b39">Network
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d24a2dd-d1ee-4c97-8fbc-0b336313b60c">USER_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_0">USER_INFO_0</a>
 
 
 
-<a href="https://msdn.microsoft.com/f17a1aef-45f1-461f-975d-75221d08277c">USER_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1">USER_INFO_1</a>
 
 
 
-<a href="https://msdn.microsoft.com/ef1d1ecd-7226-4e4e-a0b3-ec096d3b1207">USER_INFO_1003</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1003">USER_INFO_1003</a>
 
 
 
-<a href="https://msdn.microsoft.com/a953b48f-bda0-4dce-a153-d4db912de533">USER_INFO_1005</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1005">USER_INFO_1005</a>
 
 
 
-<a href="https://msdn.microsoft.com/9eb4973b-cda5-4862-b558-3af90b7de19f">USER_INFO_1006</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1006">USER_INFO_1006</a>
 
 
 
-<a href="https://msdn.microsoft.com/a2e49802-799d-4f98-aa6d-5cb1478cb4d4">USER_INFO_1007</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1007">USER_INFO_1007</a>
 
 
 
-<a href="https://msdn.microsoft.com/142408ef-ed8e-4af3-8fc2-ffdd40ce4f1e">USER_INFO_1008</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1008">USER_INFO_1008</a>
 
 
 
-<a href="https://msdn.microsoft.com/baaabbf9-9571-49db-bf38-a3fc2d0a200a">USER_INFO_1009</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1009">USER_INFO_1009</a>
 
 
 
-<a href="https://msdn.microsoft.com/6760729a-1d59-430e-8412-1257977af169">USER_INFO_1010</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1010">USER_INFO_1010</a>
 
 
 
-<a href="https://msdn.microsoft.com/f60075b4-19c5-4998-b8c3-61e960e76035">USER_INFO_1011</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1011">USER_INFO_1011</a>
 
 
 
-<a href="https://msdn.microsoft.com/92501552-7afe-4a95-980a-576254a122a9">USER_INFO_1012</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1012">USER_INFO_1012</a>
 
 
 
-<a href="https://msdn.microsoft.com/7166201d-57e3-4288-ad15-392cc3733dc6">USER_INFO_1013</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1013">USER_INFO_1013</a>
 
 
 
-<a href="https://msdn.microsoft.com/ff7f385d-bcda-4560-b22f-d1fc94e7ae41">USER_INFO_1014</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1014">USER_INFO_1014</a>
 
 
 
-<a href="https://msdn.microsoft.com/67ded50e-ab9a-4202-9496-1a39d1af0f58">USER_INFO_1017</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1017">USER_INFO_1017</a>
 
 
 
-<a href="https://msdn.microsoft.com/959ed1f4-d5ee-4d77-abd7-bb681778f0b1">USER_INFO_1020</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1020">USER_INFO_1020</a>
 
 
 
-<a href="https://msdn.microsoft.com/8133238f-c968-4a65-a8dd-7b9a61a193f5">USER_INFO_1024</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1024">USER_INFO_1024</a>
 
 
 
-<a href="https://msdn.microsoft.com/dbd7c63b-c383-48dd-98f2-087f2b41fc52">USER_INFO_1051</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1051">USER_INFO_1051</a>
 
 
 
-<a href="https://msdn.microsoft.com/55ec6819-8558-413a-9a79-c2d59993163d">USER_INFO_1052</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1052">USER_INFO_1052</a>
 
 
 
-<a href="https://msdn.microsoft.com/687b2c35-344d-49db-a1e2-fb5c2b5db2d6">USER_INFO_1053</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1053">USER_INFO_1053</a>
 
 
 
-<a href="https://msdn.microsoft.com/50c78c6a-a08f-473b-929a-9528e618165f">USER_INFO_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_2">USER_INFO_2</a>
 
 
 
-<a href="https://msdn.microsoft.com/227e97c5-972e-4d4a-9609-53e60e76d43e">USER_INFO_21</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_21">USER_INFO_21</a>
 
 
 
-<a href="https://msdn.microsoft.com/ff8d2088-953b-4a8a-bdcb-86148dc66a7a">USER_INFO_22</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_22">USER_INFO_22</a>
 
 
 
-<a href="https://msdn.microsoft.com/66b11a5f-1c2d-4564-8845-9e2fa1f40f3e">USER_INFO_4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_4">USER_INFO_4</a>
 
 
 
-<a href="https://msdn.microsoft.com/cf0e5102-3924-46c0-8124-0aa04e95f48d">User Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/user-functions">User Functions</a>
  
 
  

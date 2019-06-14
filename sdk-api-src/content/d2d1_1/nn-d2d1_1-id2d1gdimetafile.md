@@ -54,7 +54,7 @@ A Direct2D resource that wraps a WMF, EMF, or EMF+ metafile.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1GdiMetafile</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID2D1GdiMetafile</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1GdiMetafile</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1GdiMetafile</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1GdiMetafile</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/59DA5314-2A6C-42B0-A4B8-72F6302B4B0F">GetBounds</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1gdimetafile-getbounds">GetBounds</a>
 </td>
 <td align="left" width="63%">
  Gets the bounds of the metafile, in DIPs, as reported in the metafile’s header.
@@ -78,7 +78,7 @@ The <b>ID2D1GdiMetafile</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/84E7305D-1E2D-43C3-8E79-02EBCC8F36A1">Stream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1gdimetafile-stream">Stream</a>
 </td>
 <td align="left" width="63%">
 This method streams the contents of the command  to the given metafile  sink. 

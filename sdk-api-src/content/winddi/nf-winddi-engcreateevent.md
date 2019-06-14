@@ -85,15 +85,15 @@ Pointer to a location in which a valid event object is returned.
 
 
 
-<a href="https://msdn.microsoft.com/b1db14ed-345f-428e-9338-74c7b230e661">EngDeleteEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engdeleteevent">EngDeleteEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/04e5d5e0-02b1-4335-9830-ecf04fdc0db1">EngSetEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engsetevent">EngSetEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/a2a1c7ad-1e56-45f7-83de-49ebc0d831f9">EngWaitForSingleObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engwaitforsingleobject">EngWaitForSingleObject</a>
  
 
  

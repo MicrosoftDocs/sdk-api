@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains parameters used to create a font object through the <a href="https://msdn.microsoft.com/9ab384d6-fc21-4152-a0cf-744948f2f72c">OleCreateFontIndirect</a> function.
+Contains parameters used to create a font object through the <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatefontindirect">OleCreateFontIndirect</a> function.
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ The size of the structure, in bytes.
 
 ### -field lpstrName
 
-Pointer to an <a href="https://msdn.microsoft.com/bf3341a0-5b1d-479b-998d-a61bb945e0c3">OLESTR</a> that specifies the caller-owned string specifying the font name.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/nf-wtypesbase-olestr">OLESTR</a> that specifies the caller-owned string specifying the font name.
 
 cySize
 
@@ -104,7 +104,7 @@ Initial strikethrough state of the font.
 
 
 
-<a href="https://msdn.microsoft.com/9ab384d6-fc21-4152-a0cf-744948f2f72c">OleCreateFontIndirect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatefontindirect">OleCreateFontIndirect</a>
  
 
  

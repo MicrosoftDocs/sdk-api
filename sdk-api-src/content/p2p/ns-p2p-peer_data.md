@@ -84,19 +84,19 @@ Pointer to a buffer.
 
 
 
-<a href="https://msdn.microsoft.com/93104ca5-b3de-492c-965e-3acd12d05ea6">PEER_EVENT_INCOMING_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_incoming_data_tag">PEER_EVENT_INCOMING_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/4e0a1c44-e5a4-42d6-bb56-9bdcf7f9e6f1">PEER_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record_tag">PEER_RECORD</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa340e32-6d7f-4218-b120-8c352fdbda0f">PFNPEER_FREE_SECURITY_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nc-p2p-pfnpeer_free_security_data">PFNPEER_FREE_SECURITY_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/454b40f6-a7de-4b59-ae35-a809c4510133">PFNPEER_SECURE_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nc-p2p-pfnpeer_secure_record">PFNPEER_SECURE_RECORD</a>
  
 
  

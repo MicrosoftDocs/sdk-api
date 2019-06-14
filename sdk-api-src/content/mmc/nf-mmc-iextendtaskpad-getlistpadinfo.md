@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>IExtendTaskPad::GetListPadInfo</b> method is used for list-view taskpads only. It enables MMC to get the title text for the list control, the text for an optional button, and the command ID passed to 
-<a href="https://msdn.microsoft.com/c20d87f9-a5a0-41b9-b343-a11e8b41ed71">IExtendTaskPad::TaskNotify</a> when that optional button is clicked.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-tasknotify">IExtendTaskPad::TaskNotify</a> when that optional button is clicked.
 
 
 ## -parameters
@@ -60,16 +60,16 @@ The <b>IExtendTaskPad::GetListPadInfo</b> method is used for list-view taskpads 
 
 ### -param pszGroup [in]
 
-A pointer to a null-terminated string that contains the group name that identifies the taskpad. The group name is the string that follows the hash (#) in the string passed in the ppViewType parameter when MMC calls <a href="https://msdn.microsoft.com/d2575f79-d646-41b5-84a5-768402cfb826">IComponent::GetResultViewType</a> to display the taskpad. If no group name is specified, szGroup is a <b>NULL</b> string.
+A pointer to a null-terminated string that contains the group name that identifies the taskpad. The group name is the string that follows the hash (#) in the string passed in the ppViewType parameter when MMC calls <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-getresultviewtype">IComponent::GetResultViewType</a> to display the taskpad. If no group name is specified, szGroup is a <b>NULL</b> string.
 
 
 ### -param lpListPadInfo [out]
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/53e3cd8f-9d78-4edc-a0bb-3b409857561f">MMC_LISTPAD_INFO</a> structure that the snap-in must fill in with the title text for the list control, the text for an optional button, and the command ID passed to <a href="https://msdn.microsoft.com/c20d87f9-a5a0-41b9-b343-a11e8b41ed71">IExtendTaskPad::TaskNotify</a> when that optional button is clicked.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_listpad_info">MMC_LISTPAD_INFO</a> structure that the snap-in must fill in with the title text for the list control, the text for an optional button, and the command ID passed to <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-tasknotify">IExtendTaskPad::TaskNotify</a> when that optional button is clicked.
 
 Be aware that the caller (MMC) allocates the memory for the 
-<a href="https://msdn.microsoft.com/53e3cd8f-9d78-4edc-a0bb-3b409857561f">MMC_LISTPAD_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_listpad_info">MMC_LISTPAD_INFO</a> structure.
 
 
 ## -returns
@@ -95,7 +95,7 @@ If the snap-in is not a list-view taskpad, this method is not called by MMC.
 
 
 
-<a href="https://msdn.microsoft.com/30f5b526-d2d5-48a6-be5f-d0f2ba9397c4">IExtendTaskPad</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iextendtaskpad">IExtendTaskPad</a>
  
 
  

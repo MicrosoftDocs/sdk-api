@@ -49,7 +49,7 @@ req.redist:
 
 
 Provides data set range information for use with the 
-    <a href="https://msdn.microsoft.com/48e797ec-dad2-4a9e-9ccd-aaa65ece8da4">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
     control code.
 
 
@@ -74,11 +74,11 @@ Length of the data set range, in bytes. Must be a multiple of disk logical secto
 
 
 
-<a href="https://msdn.microsoft.com/328902b7-97e3-40dc-9771-f5e64ccf3364">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/85ebbdca-94a0-4467-8d15-ee3a850e1cd9">Device Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/device-management-structures">Device Management Structures</a>
  
 
  

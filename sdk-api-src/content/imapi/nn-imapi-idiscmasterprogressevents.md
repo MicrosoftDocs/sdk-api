@@ -51,12 +51,12 @@ ms.custom: 19H1
 
 The 
 <b>IDiscMasterProgressEvents</b> interface provides a single interface for all callbacks that can be made from IMAPI to an application. An application implements this interface on one of its objects and then registers it using 
-<a href="https://msdn.microsoft.com/64966230-2042-46cb-9974-adbe382723a1">IDiscMaster::ProgressAdvise</a>. All but one of the methods in this interface are related to progress during staging or burns. Even if an application is not interested in a particular callback, it must implement the callback function and return E_NOTIMPL on the call.
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmaster-progressadvise">IDiscMaster::ProgressAdvise</a>. All but one of the methods in this interface are related to progress during staging or burns. Even if an application is not interested in a particular callback, it must implement the callback function and return E_NOTIMPL on the call.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscMasterProgressEvents</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDiscMasterProgressEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscMasterProgressEvents</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDiscMasterProgressEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDiscMasterProgressEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d367b789-430e-48f5-9e50-5d6ffb9d7ebc">NotifyAddProgress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmasterprogressevents-notifyaddprogress">NotifyAddProgress</a>
 </td>
 <td align="left" width="63%">
 Reports progress of audio/data staging.
@@ -80,7 +80,7 @@ Reports progress of audio/data staging.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6c156be7-5ba4-48e7-a0d1-b0b8d69b30e2">NotifyBlockProgress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmasterprogressevents-notifyblockprogress">NotifyBlockProgress</a>
 </td>
 <td align="left" width="63%">
 Reports progress of audio/data burn.
@@ -89,7 +89,7 @@ Reports progress of audio/data burn.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/deefe7cb-60aa-4255-a7b1-261fb40e6318">NotifyBurnComplete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmasterprogressevents-notifyburncomplete">NotifyBurnComplete</a>
 </td>
 <td align="left" width="63%">
 Reports that the burn is fully complete.
@@ -98,7 +98,7 @@ Reports that the burn is fully complete.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2eeccb4e-0e49-40a9-b659-f0784f921074">NotifyClosingDisc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmasterprogressevents-notifyclosingdisc">NotifyClosingDisc</a>
 </td>
 <td align="left" width="63%">
 Reports progress while closing a disc.
@@ -107,7 +107,7 @@ Reports progress while closing a disc.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/17a0debe-919d-4db7-bcbb-eb4fc9973d83">NotifyEraseComplete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmasterprogressevents-notifyerasecomplete">NotifyEraseComplete</a>
 </td>
 <td align="left" width="63%">
 Reports that an erase is fully complete.
@@ -116,7 +116,7 @@ Reports that an erase is fully complete.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d2b41e86-2f1b-46f1-955d-7fc42f8189a4">NotifyPnPActivity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmasterprogressevents-notifypnpactivity">NotifyPnPActivity</a>
 </td>
 <td align="left" width="63%">
 Reports possible changes to recorder list.
@@ -125,7 +125,7 @@ Reports possible changes to recorder list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/28aced4e-6e7e-40fe-a00a-c0e470815cac">NotifyPreparingBurn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmasterprogressevents-notifypreparingburn">NotifyPreparingBurn</a>
 </td>
 <td align="left" width="63%">
 Reports progress during burn setup.
@@ -134,7 +134,7 @@ Reports progress during burn setup.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fb1eafe9-d907-4b41-8e4d-03f1b3f51012">NotifyTrackProgress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmasterprogressevents-notifytrackprogress">NotifyTrackProgress</a>
 </td>
 <td align="left" width="63%">
 Reports progress of an audio burn.
@@ -143,7 +143,7 @@ Reports progress of an audio burn.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ca7ad8cb-0792-41ec-be5b-147be6750442">QueryCancel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmasterprogressevents-querycancel">QueryCancel</a>
 </td>
 <td align="left" width="63%">
 Checks whether a burn is to be canceled.

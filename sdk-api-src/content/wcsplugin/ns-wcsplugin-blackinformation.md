@@ -76,7 +76,7 @@ An indicator whether the source color contains only black. This value can only b
 
 <ul>
 <li>the source device has a black channel</li>
-<li>the <a href="https://msdn.microsoft.com/library/ms536577(v=VS.85).aspx">PRESERVEBLACK</a> flag is set to <b>true</b>. This flag is in the <i>dwFlags</i> parameter of a Color Management Module (CMM) transform function.</li>
+<li>the <a href="https://docs.microsoft.com/previous-versions//ms536577(v=vs.85)">PRESERVEBLACK</a> flag is set to <b>true</b>. This flag is in the <i>dwFlags</i> parameter of a Color Management Module (CMM) transform function.</li>
 </ul>
 
 ## -remarks
@@ -119,11 +119,11 @@ You can set plug-ins to either support or ignore the <b>BlackInformation</b>.
 
 
 
-<a href="https://msdn.microsoft.com/a0623917-0b63-4546-a71a-1e9efa9fe8e5">Basic Color Management Concepts</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
 
 
 
-<a href="https://msdn.microsoft.com/68d681e6-4798-449b-9afd-ab35f24d6e67">Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/structures">Structures</a>
  
 
  

@@ -86,9 +86,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method should be avoided whenever possible. The caller is responsible for ensuring the memory block is valid for the lifetime of the stream when using <b>InitializeFromMemory</b>.  A workaround for this behavior is to create an <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> and use <a href="https://msdn.microsoft.com/bfe413e1-f579-4c9c-9e88-3b369235c529">InitializeFromIStream</a> to create the <a href="https://msdn.microsoft.com/bc398732-037d-4f48-940f-c70975447972">IWICStream</a>.
+This method should be avoided whenever possible. The caller is responsible for ensuring the memory block is valid for the lifetime of the stream when using <b>InitializeFromMemory</b>.  A workaround for this behavior is to create an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> and use <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicstream-initializefromistream">InitializeFromIStream</a> to create the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicstream">IWICStream</a>.
 
-If you require a growable memory stream, use <a href="https://msdn.microsoft.com/413c107b-a943-4c02-9c00-aea708e876d7">CreateStreamOnHGlobal</a>.
+If you require a growable memory stream, use <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-createstreamonhglobal">CreateStreamOnHGlobal</a>.
 
 
 

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>EMRPOLYDRAW16</b> structure contains members for the <a href="https://msdn.microsoft.com/5fd3f285-dcf3-4cd0-915a-236ba7902353">PolyDraw</a> enhanced metafile record.
+The <b>EMRPOLYDRAW16</b> structure contains members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polydraw">PolyDraw</a> enhanced metafile record.
 
 
 
@@ -77,7 +77,7 @@ The number of points.
 
 ### -field apts
 
-An array of <a href="https://msdn.microsoft.com/d36bc846-c538-4a37-bb5d-c75d41a3c7cc">POINTS</a> structures, representing the data points in logical units.
+An array of <a href="https://docs.microsoft.com/previous-versions//dd162808(v=vs.85)">POINTS</a> structures, representing the data points in logical units.
 
 
 ### -field abTypes
@@ -90,27 +90,27 @@ An array of values that specifies how each point in the <b>apts</b> array is use
 
 
 
-<a href="https://msdn.microsoft.com/06582047-b64b-44ec-ae27-1f8ed7c56b97">EMR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagemr">EMR</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a509ed5-cea3-4318-ad17-9d20425a6e80">Metafile Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/309ee4cf-111b-4f09-a722-4823cb3d26b0">Metafiles Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/d36bc846-c538-4a37-bb5d-c75d41a3c7cc">POINTS</a>
+<a href="https://docs.microsoft.com/previous-versions//dd162808(v=vs.85)">POINTS</a>
 
 
 
-<a href="https://msdn.microsoft.com/5fd3f285-dcf3-4cd0-915a-236ba7902353">PolyDraw</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polydraw">PolyDraw</a>
 
 
 
-<a href="https://msdn.microsoft.com/47a89d2d-4733-47be-91c1-450845e78075">RECTL</a>
+<a href="https://docs.microsoft.com/previous-versions//dd162907(v=vs.85)">RECTL</a>
  
 
  

@@ -77,7 +77,7 @@ Send the packets at a high priority.
 
 
 
-<a href="https://msdn.microsoft.com/34addc3d-5541-48c9-a749-256114e0c2aa">Priority Property of IRDPSRAPIVirtualChannel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapivirtualchannel-get_priority">Priority Property of IRDPSRAPIVirtualChannel</a>
  
 
  

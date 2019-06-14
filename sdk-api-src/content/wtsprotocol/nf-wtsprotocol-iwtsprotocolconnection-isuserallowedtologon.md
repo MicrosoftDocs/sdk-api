@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>IWTSProtocolConnection::IsUserAllowedToLogon</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://msdn.microsoft.com/4e2c5d2b-ec45-45ea-8bd3-71aaa0b15529">IWRdsProtocolConnection::IsUserAllowedToLogon</a>.]
+<p class="CCE_Message">[<b>IWTSProtocolConnection::IsUserAllowedToLogon</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnection-isuserallowedtologon">IWRdsProtocolConnection::IsUserAllowedToLogon</a>.]
 
 Determines whether a user is allowed to log on to a session.
 
@@ -84,7 +84,7 @@ A pointer to a string that contains the user name.
 
 
 
-<a href="https://msdn.microsoft.com/584a6874-0df4-480e-a10a-4b603643870e">IWTSProtocolConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>
  
 
  

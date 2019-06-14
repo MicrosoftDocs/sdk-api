@@ -59,7 +59,7 @@ The <b>GetSecondarySecurity</b> method returns additional security contexts that
 
 ### -param pSecurityObjects [out]
 
-An array of <a href="https://msdn.microsoft.com/C3E61527-76AB-49E9-8BBD-486F437CC677">SECURITY_OBJECT</a> structures that contain the secondary security objects associated with the resources that are set on success. The array is owned by the caller and is freed by using the <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a> function. The <b>pwszName</b> member is also freed by using <b>LocalFree</b>. If the <b>cbData</b> or <b>cbData2</b> members of the <b>SECURITY_OBJECT</b> structure are not zero, then the caller must free the corresponding <b>pData</b> or <b>pData2</b> by using <b>LocalFree</b>. If either of those members are zero, then the corresponding <b>pData</b> and <b>pData2</b> members are owned by the resource manager and must remain valid until the <a href="https://msdn.microsoft.com/756c94b0-946f-47eb-b4b4-db3e6e89fe46">EditSecurity</a> function returns
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-_security_object">SECURITY_OBJECT</a> structures that contain the secondary security objects associated with the resources that are set on success. The array is owned by the caller and is freed by using the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function. The <b>pwszName</b> member is also freed by using <b>LocalFree</b>. If the <b>cbData</b> or <b>cbData2</b> members of the <b>SECURITY_OBJECT</b> structure are not zero, then the caller must free the corresponding <b>pData</b> or <b>pData2</b> by using <b>LocalFree</b>. If either of those members are zero, then the corresponding <b>pData</b> and <b>pData2</b> members are owned by the resource manager and must remain valid until the <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-editsecurity">EditSecurity</a> function returns
 
 
 ### -param pSecurityObjectCount [out]
@@ -73,7 +73,7 @@ The number of security objects in the <i>pSecurityObjects</i> parameter that are
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an error code. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -82,9 +82,9 @@ If the method fails, it returns an error code. For a list of common error codes,
 
 
 
-A resource manager does not need to return secondary objects with the <b>fWellKnown</b> member set to <b>TRUE</b> and the <b>Id</b> member set to SECURITY_OBJECT_ID_OBJECT_SD, SECURITY_OBJECT_ID_CENTRAL_POLICY, or SECURITY_OBJECT_ID_CENTRAL_ACCESS_RULE. Security objects with these IDs will be provided by the access control editor when calling <a href="https://msdn.microsoft.com/03B73103-D7C0-4BA2-B315-3CC0049B1B8E">ComputeEffectivePermissionWithSecondarySecurity</a>.
+A resource manager does not need to return secondary objects with the <b>fWellKnown</b> member set to <b>TRUE</b> and the <b>Id</b> member set to SECURITY_OBJECT_ID_OBJECT_SD, SECURITY_OBJECT_ID_CENTRAL_POLICY, or SECURITY_OBJECT_ID_CENTRAL_ACCESS_RULE. Security objects with these IDs will be provided by the access control editor when calling <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-ieffectivepermission2-computeeffectivepermissionwithsecondarysecurity">ComputeEffectivePermissionWithSecondarySecurity</a>.
 
-Interpretation of the returned security objects is tied to the implementation of <a href="https://msdn.microsoft.com/03B73103-D7C0-4BA2-B315-3CC0049B1B8E">ComputeEffectivePermissionWithSecondarySecurity</a>.
+Interpretation of the returned security objects is tied to the implementation of <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-ieffectivepermission2-computeeffectivepermissionwithsecondarysecurity">ComputeEffectivePermissionWithSecondarySecurity</a>.
 
 
 
@@ -94,7 +94,7 @@ Interpretation of the returned security objects is tied to the implementation of
 
 
 
-<a href="https://msdn.microsoft.com/F7AD3612-5D66-49DB-81EF-040849D32CB4">ISecurityInformation4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation4">ISecurityInformation4</a>
  
 
  

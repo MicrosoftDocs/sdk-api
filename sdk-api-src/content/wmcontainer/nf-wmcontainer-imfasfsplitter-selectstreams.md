@@ -129,7 +129,7 @@ Calling this method supersedes any previous stream selections; only the streams 
 
 By default, no streams are selected by the splitter.
 
-You can obtain a list of the currently selected streams by calling the <a href="https://msdn.microsoft.com/f2c12e45-f320-43e0-abf1-36993dfed32d">IMFASFSplitter::GetSelectedStreams</a> method.
+You can obtain a list of the currently selected streams by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-getselectedstreams">IMFASFSplitter::GetSelectedStreams</a> method.
 
 
 
@@ -139,11 +139,11 @@ You can obtain a list of the currently selected streams by calling the <a href="
 
 
 
-<a href="https://msdn.microsoft.com/383b1cc6-4a77-4e0e-a766-6213c64b025c">ASF Splitter</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-splitter">ASF Splitter</a>
 
 
 
-<a href="https://msdn.microsoft.com/75d8b2a3-7c50-4dd5-8927-b11eb9f12602">IMFASFSplitter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfsplitter">IMFASFSplitter</a>
  
 
  

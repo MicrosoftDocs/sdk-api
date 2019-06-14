@@ -66,13 +66,13 @@ A handle to a toolbar control whose buttons have command IDs that correspond to 
 
 ### -param punkBand [in]
 
-Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-If this parameter points to a COM object that supports the <a href="https://msdn.microsoft.com/46793ae9-936e-4a58-bc34-84396151b4a3">IShellMenu</a> interface, menu items that correspond to visible toolbar buttons are filtered out of the menu so that they do not appear in both places. 
+If this parameter points to a COM object that supports the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenu">IShellMenu</a> interface, menu items that correspond to visible toolbar buttons are filtered out of the menu so that they do not appear in both places. 
                 
                     
 
-If this parameter is <b>NULL</b> or points to a COM object that does not support the <a href="https://msdn.microsoft.com/46793ae9-936e-4a58-bc34-84396151b4a3">IShellMenu</a> interface, then the obscured buttons in the toolbar are added to the shell menu in the position specified in <i>dwSMSetFlags</i>.
+If this parameter is <b>NULL</b> or points to a COM object that does not support the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenu">IShellMenu</a> interface, then the obscured buttons in the toolbar are added to the shell menu in the position specified in <i>dwSMSetFlags</i>.
 
 
 ### -param dwSMSetFlags [in]

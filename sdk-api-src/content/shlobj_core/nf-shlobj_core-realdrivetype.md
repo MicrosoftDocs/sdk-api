@@ -174,11 +174,11 @@ The drive is a RAM disk.
 
 
 
-<a href="https://msdn.microsoft.com/3089656d-2e64-4d65-aa18-0a451d82fa95">DriveType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-drivetype">DriveType</a>
 
 
 
-<a href="https://msdn.microsoft.com/b3989a3f-fc90-4ea0-8d3e-8e57068a08bc">GetDriveType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdrivetypea">GetDriveType</a>
  
 
  

@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 The 
 <b>IGPMTrustee</b> interface contains methods to retrieve information about a given trustee when using the Group Policy Management Console (GPMC). The <b>GPMTrustee</b> object represents a user, group or security group in the domain. To create a <b>GPMTrustee</b> object, call the 
-<a href="https://msdn.microsoft.com/98230e5f-b866-4f68-9977-eec4bdd14d9e">IGPM::CreateTrustee</a> method.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpm-createtrustee">IGPM::CreateTrustee</a> method.
 
 
 ## -see-also
@@ -60,19 +60,19 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/2780760e-7114-46b0-a264-00ed58a556cb">IGPM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
 
 
 
-<a href="https://msdn.microsoft.com/7ac19065-571e-45f5-934f-35ddbf225262">IGPMPermission</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmpermission">IGPMPermission</a>
 
 
 
-<a href="https://msdn.microsoft.com/1205b1d7-3dc1-4ecd-b4fa-c833dd4e1a74">IGPMSecurityInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsecurityinfo">IGPMSecurityInfo</a>
  
 
  

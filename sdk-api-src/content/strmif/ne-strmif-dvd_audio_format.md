@@ -118,7 +118,7 @@ Audio format is unrecognized.
 
 
 
-This enumeration is a member of the <a href="https://msdn.microsoft.com/a4365c05-718e-4d48-bb2c-a13a609df82f">DVD_AudioAttributes</a> structure.
+This enumeration is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_audioattributes">DVD_AudioAttributes</a> structure.
 
 
 
@@ -128,7 +128,7 @@ This enumeration is a member of the <a href="https://msdn.microsoft.com/a4365c05
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
  
 
  

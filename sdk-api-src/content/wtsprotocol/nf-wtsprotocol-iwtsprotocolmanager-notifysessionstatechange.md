@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>IWTSProtocolManager::NotifySessionStateChange</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://msdn.microsoft.com/72438718-1a66-473b-a563-67cfc8095318">IWRdsProtocolManager::NotifySessionStateChange</a>.]
+<p class="CCE_Message">[<b>IWTSProtocolManager::NotifySessionStateChange</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolmanager-notifysessionstatechange">IWRdsProtocolManager::NotifySessionStateChange</a>.]
 
 Notifies the protocol provider of changes in the state of a session.
 
@@ -61,7 +61,7 @@ Notifies the protocol provider of changes in the state of a session.
 
 ### -param SessionId [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/fe0714ec-c670-40b7-9808-2171abae79a8">WTS_SESSION_ID</a> structure that uniquely identifies the session.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_session_id">WTS_SESSION_ID</a> structure that uniquely identifies the session.
 
 
 ### -param EventId [in]
@@ -101,7 +101,7 @@ An integer that contains the event ID. The following IDs can be found in Winuser
 
 
 
-When you are implementing this method, return <b>S_OK</b> if the function succeeds. If it fails, return an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+When you are implementing this method, return <b>S_OK</b> if the function succeeds. If it fails, return an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -111,7 +111,7 @@ When you are implementing this method, return <b>S_OK</b> if the function succee
 
 
 
-<a href="https://msdn.microsoft.com/a54bdb46-b18b-4a6d-90fc-75947f6dd191">IWTSProtocolManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolmanager">IWTSProtocolManager</a>
  
 
  

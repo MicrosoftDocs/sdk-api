@@ -60,7 +60,7 @@ Creates a file management job.
 
 ### -param fileManagementJob [out]
 
-An <a href="https://msdn.microsoft.com/e9ae697d-4f7c-47d9-8d2a-c46c2e5f838f">IFsrmFileManagementJob</a> interface that you use to define the new file management job.
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmfilemanagementjob">IFsrmFileManagementJob</a> interface that you use to define the new file management job.
 
 
 ## -returns
@@ -77,11 +77,11 @@ The method returns the following return values.
 
 
 
-<a href="https://msdn.microsoft.com/f59844ba-2aff-4885-b80b-82f3e1a638d3">FsrmFileManagementJobManager</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmfilemanagementjobmanager">FsrmFileManagementJobManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/2df0e8d0-1da7-422e-8d02-ad5d030fdd8d">IFsrmFileManagementJobManager</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmfilemanagementjobmanager">IFsrmFileManagementJobManager</a>
  
 
  

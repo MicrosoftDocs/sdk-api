@@ -65,7 +65,7 @@ The <b>AddAccessEntryEx</b> method adds an entry to the IP address access list.
 
 ### -param aeType [in]
 
-A member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757889(v=VS.85).aspx">WM_AETYPE</a> enumeration specifying the specifying the access permissions (exclusion or inclusion).
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wm_aetype">WM_AETYPE</a> enumeration specifying the specifying the access permissions (exclusion or inclusion).
 
 
 ### -param bstrAddress [in]
@@ -92,7 +92,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743280(v=VS.85).aspx">IWMAddressAccess2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmaddressaccess2">IWMAddressAccess2 Interface</a>
  
 
  

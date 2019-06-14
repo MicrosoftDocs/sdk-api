@@ -156,11 +156,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/e12ada84-0825-4946-8075-731dfc51ef50">IBrowserService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice">IBrowserService</a>
 
 
 
-<a href="https://msdn.microsoft.com/71f99bc7-0601-4dc4-90df-c9f9a0ab51a5">_NavigateToPidl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_navigatetopidl">_NavigateToPidl</a>
  
 
  

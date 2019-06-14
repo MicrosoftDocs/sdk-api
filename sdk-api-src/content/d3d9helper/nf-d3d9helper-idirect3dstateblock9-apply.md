@@ -64,7 +64,7 @@ Apply the state block to the current device state.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails while in record mode, the return value is D3DERR_INVALIDCALL.
 
@@ -76,7 +76,7 @@ If the method succeeds, the return value is D3D_OK. If the method fails while in
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205887(v=VS.85).aspx">IDirect3DStateBlock9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dstateblock9">IDirect3DStateBlock9</a>
  
 
  

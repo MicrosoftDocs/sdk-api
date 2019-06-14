@@ -64,7 +64,7 @@ The <b>ITfInputProcessorProfileMgr::EnumProfiles</b> method returns profiles to 
 
 ### -param ppEnum [out]
 
-[out] The pointer to receive a pointer of <a href="https://msdn.microsoft.com/1a6dd7f9-d348-4c86-8d74-544aaa45581d">IEnumTfInputProcessorProfiles</a> interface.
+[out] The pointer to receive a pointer of <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfinputprocessorprofiles">IEnumTfInputProcessorProfiles</a> interface.
 
 
 ## -returns

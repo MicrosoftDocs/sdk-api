@@ -65,12 +65,12 @@ Unicode string that specifies the IP address or hostname of the DHCP server.
 ### -param SubnetAddress [in]
 
 
-<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_ADDRESS</a> value that contains the IPv4 subnet for which the DHCP clients are returned. If this parameter is set to 0, the DHCP clients for all known IPv4 subnets are returned.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that contains the IPv4 subnet for which the DHCP clients are returned. If this parameter is set to 0, the DHCP clients for all known IPv4 subnets are returned.
 
 
 ### -param ResumeHandle [in, out]
 
-Pointer to a <a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_RESUME_HANDLE</a> value that identifies the enumeration operation on the DHCP server. Initially, this value must be set to 0. A successful call will return a handle value in this parameter, which can be passed to subsequent enumeration requests. The returned handle value is the last IPv4 address retrieved in the enumeration operation.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_RESUME_HANDLE</a> value that identifies the enumeration operation on the DHCP server. Initially, this value must be set to 0. A successful call will return a handle value in this parameter, which can be passed to subsequent enumeration requests. The returned handle value is the last IPv4 address retrieved in the enumeration operation.
 
 
 ### -param PreferredMaximum [in]
@@ -80,7 +80,7 @@ Specifies the preferred maximum number of bytes to return in the enumeration ope
 
 ### -param ClientInfo [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd897574(v=VS.85).aspx">DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY</a> structure that contains all of the DHCP clients serviced on the specified subnet, as well as any associated link-layer filter status information for each of them.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_filter_status_info_array">DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY</a> structure that contains all of the DHCP clients serviced on the specified subnet, as well as any associated link-layer filter status information for each of them.
 
 
 ### -param ClientsRead [out]
@@ -97,7 +97,7 @@ Pointer to a value that specifies the number of DHCP client record remaining and
 
 
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://msdn.microsoft.com/6370313f-d7db-4ff1-b0e0-7fa47474facb">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -148,7 +148,7 @@ There are still unenumerated client lease records on the DHCP server for the pro
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd897574(v=VS.85).aspx">DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_filter_status_info_array">DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY</a>
  
 
  

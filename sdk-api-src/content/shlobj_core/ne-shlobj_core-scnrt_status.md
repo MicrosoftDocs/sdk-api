@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates whether to enable or disable Async Register and Deregister for <a href="https://msdn.microsoft.com/170afefc-b4de-4661-9c12-1341656b0fdb">SHChangeNotifyRegisterThread</a>.
+Indicates whether to enable or disable Async Register and Deregister for <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-shchangenotifyregisterthread">SHChangeNotifyRegisterThread</a>.
 
 
 ## -enum-fields
@@ -59,12 +59,12 @@ Indicates whether to enable or disable Async Register and Deregister for <a href
 
 ### -field SCNRT_ENABLE
 
-Enable Async Register and Deregister for <a href="https://msdn.microsoft.com/170afefc-b4de-4661-9c12-1341656b0fdb">SHChangeNotifyRegisterThread</a>.
+Enable Async Register and Deregister for <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-shchangenotifyregisterthread">SHChangeNotifyRegisterThread</a>.
 
 
 ### -field SCNRT_DISABLE
 
-Disable Async Register and Deregister for <a href="https://msdn.microsoft.com/170afefc-b4de-4661-9c12-1341656b0fdb">SHChangeNotifyRegisterThread</a>.
+Disable Async Register and Deregister for <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-shchangenotifyregisterthread">SHChangeNotifyRegisterThread</a>.
 
 
 ## -see-also
@@ -72,7 +72,7 @@ Disable Async Register and Deregister for <a href="https://msdn.microsoft.com/17
 
 
 
-<a href="https://msdn.microsoft.com/170afefc-b4de-4661-9c12-1341656b0fdb">SHChangeNotifyRegisterThread</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-shchangenotifyregisterthread">SHChangeNotifyRegisterThread</a>
  
 
  

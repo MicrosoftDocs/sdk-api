@@ -128,7 +128,7 @@ The address of a null-terminated IA5 string that contains the RFC 3066 language 
 
 
 
-<a href="https://msdn.microsoft.com/97357faa-2720-4240-a3c3-77abdce8d86d">CERT_LOGOTYPE_AUDIO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_logotype_audio">CERT_LOGOTYPE_AUDIO</a>
  
 
  

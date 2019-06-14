@@ -77,15 +77,15 @@ Pointer to a Unicode string that contains the peer name of the peer group member
 
 
 
-<a href="https://msdn.microsoft.com/5cdae832-e6a7-481c-9784-1c1c07d689dd">PEER_GROUP_EVENT_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_data_tag">PEER_GROUP_EVENT_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/9c9c82c3-b02a-49c2-9a8f-eb355ded8480">PEER_GROUP_EVENT_REGISTRATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_registration_tag">PEER_GROUP_EVENT_REGISTRATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/ecebec4f-1dc6-481c-a2d4-cf0043729a8c">PEER_MEMBER_CHANGE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_member_change_type_tag">PEER_MEMBER_CHANGE_TYPE</a>
  
 
  

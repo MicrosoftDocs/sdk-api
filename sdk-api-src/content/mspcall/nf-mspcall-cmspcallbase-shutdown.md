@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>ShutDown</b> method is called by the <b>MSPAddress</b> object (in the method 
-<a href="https://msdn.microsoft.com/6527db85-cad8-4b0d-977a-9ab8b047e44e">ShutdownMSPCall</a>) to shut down the call. The derived class implementation should shut down all the streams on the call. (See also 
-<a href="https://msdn.microsoft.com/en-us/library/ms726907(v=VS.85).aspx">CMSPCallMultiGraph::ShutDown</a>.)
+<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-shutdownmspcall">ShutdownMSPCall</a>) to shut down the call. The derived class implementation should shut down all the streams on the call. (See also 
+<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nf-mspcall-cmspcallmultigraph-shutdown">CMSPCallMultiGraph::ShutDown</a>.)
 
 
 ## -parameters
@@ -67,7 +67,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms726496(v=VS.85).aspx">CMSPCallBase</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nl-mspcall-cmspcallbase">CMSPCallBase</a>
  
 
  

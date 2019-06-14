@@ -59,7 +59,7 @@ Gets one of the audio formats supported by the device.
 
 ### -param FmtIndex [in]
 
-The zero-based index of the audio format to retrieve. To get the number of audio formats, call <a href="https://msdn.microsoft.com/en-us/library/Dd693327(v=VS.85).aspx">IBDA_Encoder::QueryCapabilities</a>. 
+The zero-based index of the audio format to retrieve. To get the number of audio formats, call <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_encoder-querycapabilities">IBDA_Encoder::QueryCapabilities</a>. 
 
 
 ### -param MethodID [out]
@@ -131,7 +131,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693323(v=VS.85).aspx">IBDA_Encoder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_encoder">IBDA_Encoder</a>
  
 
  

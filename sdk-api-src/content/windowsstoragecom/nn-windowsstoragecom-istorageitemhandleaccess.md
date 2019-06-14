@@ -56,7 +56,7 @@ Provides access to the operating system handle of a storage file.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStorageItemHandleAccess</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IStorageHandleAccess</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStorageItemHandleAccess</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStorageHandleAccess</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IStorageItemHandleAccess</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2BBF5CFE-0212-4133-BA19-DEA322ED5569">Create</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windowsstoragecom/nf-windowsstoragecom-istorageitemhandleaccess-create">Create</a>
 </td>
 <td align="left" width="63%">
 Creates a handle to a storage file.

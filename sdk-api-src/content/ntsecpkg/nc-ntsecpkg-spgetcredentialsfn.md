@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SpGetCredentials</b> function retrieves the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">primary</a> and <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">supplemental credentials</a> from the user object.
+The <b>SpGetCredentials</b> function retrieves the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">primary</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">supplemental credentials</a> from the user object.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ A handle to the credentials to be retrieved.
 ### -param Credentials [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/75f49d9c-7d3c-4f45-a94e-44cd05773a07">SecBuffer</a> structure that receives the credentials.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbuffer">SecBuffer</a> structure that receives the credentials.
 
 
 ## -returns
@@ -116,8 +116,8 @@ The handle is not valid.
 SSP/APs must implement the <b>SpGetCredentials</b> function; however, the actual name given to the implementation is up to the developer.
 
 A pointer to the <b>SpGetCredentials</b> function is available in the 
-<a href="https://msdn.microsoft.com/43ca0f9b-1393-48aa-9d9c-4dd19963a66d">SECPKG_FUNCTION_TABLE</a> structure received from the 
-<a href="https://msdn.microsoft.com/1ef3770b-197f-4d5b-9933-b7f6f63e5627">SpLsaModeInitialize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
 
 
 
@@ -127,11 +127,11 @@ A pointer to the <b>SpGetCredentials</b> function is available in the
 
 
 
-<a href="https://msdn.microsoft.com/43ca0f9b-1393-48aa-9d9c-4dd19963a66d">SECPKG_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/1ef3770b-197f-4d5b-9933-b7f6f63e5627">SpLsaModeInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a>
  
 
  

@@ -59,7 +59,7 @@ Opens a session within which multiple scan requests can be correlated.
 
 ### -param amsiContext [in]
 
-The handle of type HAMSICONTEXT that was initially received from <a href="https://msdn.microsoft.com/946FC79C-556C-404E-A559-323AA69B3EC6">AmsiInitialize</a>.
+The handle of type HAMSICONTEXT that was initially received from <a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiinitialize">AmsiInitialize</a>.
 
 
 ### -param amsiSession [out]
@@ -80,7 +80,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-When the app is finished with the session it must call <a href="https://msdn.microsoft.com/1DF760A2-22AE-427E-8395-1EE34BD7BCAB">AmsiCloseSession</a>.
+When the app is finished with the session it must call <a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiclosesession">AmsiCloseSession</a>.
 
 
 
@@ -90,11 +90,11 @@ When the app is finished with the session it must call <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/1DF760A2-22AE-427E-8395-1EE34BD7BCAB">AmsiCloseSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiclosesession">AmsiCloseSession</a>
 
 
 
-<a href="https://msdn.microsoft.com/946FC79C-556C-404E-A559-323AA69B3EC6">AmsiInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiinitialize">AmsiInitialize</a>
  
 
  

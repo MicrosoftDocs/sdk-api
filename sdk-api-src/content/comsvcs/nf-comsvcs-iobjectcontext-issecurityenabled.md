@@ -84,7 +84,7 @@ In the COM+ environment, server and library applications can use role-based secu
 
 
 
-<a href="https://msdn.microsoft.com/9395bc9a-dfe5-428a-839f-1c4ad090f636">IObjectContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontext">IObjectContext</a>
  
 
  

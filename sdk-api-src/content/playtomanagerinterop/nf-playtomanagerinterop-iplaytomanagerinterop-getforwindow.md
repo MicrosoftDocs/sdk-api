@@ -99,7 +99,7 @@ You can use the <b>GetForWindow</b> method to get the <a href="https://docs.micr
 
 
 
-<a href="https://msdn.microsoft.com/e7a8df61-e5ae-4eff-a4eb-e0a5cdae3b7f">IPlayToManagerInterop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/playtomanagerinterop/nn-playtomanagerinterop-iplaytomanagerinterop">IPlayToManagerInterop</a>
 
 
 

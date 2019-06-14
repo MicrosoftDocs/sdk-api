@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
- Sets the font weight for text within a text range specified by a <a href="https://msdn.microsoft.com/2e37e060-69b9-4ca2-9d95-8e9a39f6cf83">DWRITE_TEXT_RANGE</a> structure.
+ Sets the font weight for text within a text range specified by a <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_text_range">DWRITE_TEXT_RANGE</a> structure.
 
 
 ## -parameters
@@ -59,14 +59,14 @@ ms.custom: 19H1
 
 ### -param fontWeight
 
-Type: <b><a href="https://msdn.microsoft.com/82396f80-eb62-4865-ba07-9653220c84f2">DWRITE_FONT_WEIGHT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_weight">DWRITE_FONT_WEIGHT</a></b>
 
 The font weight to be set for text within the range specified by <i>textRange</i>.
 
 
 ### -param textRange
 
-Type: <b><a href="https://msdn.microsoft.com/2e37e060-69b9-4ca2-9d95-8e9a39f6cf83">DWRITE_TEXT_RANGE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_text_range">DWRITE_TEXT_RANGE</a></b>
 
 Text range to which this change applies.
 
@@ -86,7 +86,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The font weight can be set to one of the predefined font weight values provided in the <a href="https://msdn.microsoft.com/82396f80-eb62-4865-ba07-9653220c84f2">DWRITE_FONT_WEIGHT</a> enumeration or an integer from 1 to 999.  Values outside this range will cause the method to fail with an <b>E_INVALIDARG</b> return value.
+The font weight can be set to one of the predefined font weight values provided in the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_weight">DWRITE_FONT_WEIGHT</a> enumeration or an integer from 1 to 999.  Values outside this range will cause the method to fail with an <b>E_INVALIDARG</b> return value.
 
 The following illustration shows an example of Normal and UltraBold weights for the Palatino Linotype typeface.
 
@@ -119,7 +119,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/0d687337-8623-4014-967c-f533072e31cc">IDWriteTextLayout</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>AddCertTypeToRequestWStr</b> method adds a certificate template to a request (used to support the enterprise <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA)). This method was first defined by the <a href="https://msdn.microsoft.com/60a28944-35de-4ea2-8523-5634685ac224">IEnroll2</a> interface.
+The <b>AddCertTypeToRequestWStr</b> method adds a certificate template to a request (used to support the enterprise <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA)). This method was first defined by the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll2">IEnroll2</a> interface.
 
 The <b>AddCertTypeToRequestWStr</b> method is an advanced topic that is associated with the Microsoft Certificate Services enterprise Policy Module. Its use is not recommended for most applications.
 
@@ -65,7 +65,7 @@ The phrase "certificate type" is synonymous with "certificate template."
 
 ### -param szw [in]
 
-Fully qualified name of the certificate template which is being added to the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate request</a>. This value is interpreted by the certification authority.
+Fully qualified name of the certificate template which is being added to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>. This value is interpreted by the certification authority.
 
 
 ## -returns
@@ -91,7 +91,7 @@ This method can be called multiple times if more than one certificate template i
 
 
 
-<a href="https://msdn.microsoft.com/133529fb-e02a-41a2-83df-646cbc01dbe9">IEnroll</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
  
 
  

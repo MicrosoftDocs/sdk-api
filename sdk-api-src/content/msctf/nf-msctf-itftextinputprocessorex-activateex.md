@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ITfTextInputProcessorEx::ActivateEx</b> method activates a text service when a user session starts. If the text service implements <b>ITfTextInputProcessorEx</b> and <b>ActivateEx</b> is called, <a href="https://msdn.microsoft.com/c5fd6b5c-0a78-4b5b-aad5-0c398798cf30">ITfTextInputProcessor::Activate</a> will not be called.
+The <b>ITfTextInputProcessorEx::ActivateEx</b> method activates a text service when a user session starts. If the text service implements <b>ITfTextInputProcessorEx</b> and <b>ActivateEx</b> is called, <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftextinputprocessor-activate">ITfTextInputProcessor::Activate</a> will not be called.
 
 
 ## -parameters

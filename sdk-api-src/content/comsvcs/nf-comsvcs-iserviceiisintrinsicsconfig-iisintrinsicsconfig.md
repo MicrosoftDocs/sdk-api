@@ -59,7 +59,7 @@ Configures the IIS intrinsics for the enclosed work.
 
 ### -param iisIntrinsicsConfig [in]
 
-A value from the <a href="https://msdn.microsoft.com/69a3989b-724c-4e32-8a6a-4892610b0118">CSC_IISIntrinsicsConfig</a> enumeration.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_iisintrinsicsconfig">CSC_IISIntrinsicsConfig</a> enumeration.
 
 
 ## -returns
@@ -76,7 +76,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/fc4524b0-ef00-429d-ad27-cb81f8a5269f">IServiceIISIntrinsicsConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iserviceiisintrinsicsconfig">IServiceIISIntrinsicsConfig</a>
  
 
  

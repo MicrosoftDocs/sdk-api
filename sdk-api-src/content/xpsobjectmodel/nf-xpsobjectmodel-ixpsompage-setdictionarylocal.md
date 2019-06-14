@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the <a href="https://msdn.microsoft.com/f887e3d3-973c-4267-a785-6bc190c13082">IXpsOMDictionary</a> interface pointer of the page's local dictionary resource.
+Sets the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdictionary">IXpsOMDictionary</a> interface pointer of the page's local dictionary resource.
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Sets the <a href="https://msdn.microsoft.com/f887e3d3-973c-4267-a785-6bc190c1308
 
 ### -param resourceDictionary [in]
 
-The <a href="https://msdn.microsoft.com/f887e3d3-973c-4267-a785-6bc190c13082">IXpsOMDictionary</a> interface pointer to be set for the page. A <b>NULL</b> pointer releases any previously assigned local dictionary.
+The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdictionary">IXpsOMDictionary</a> interface pointer to be set for the page. A <b>NULL</b> pointer releases any previously assigned local dictionary.
 
 
 ## -returns
 
 
 
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -105,16 +105,16 @@ The method succeeded.
 
 
 
-After you call <b>SetDictionaryLocal</b>, the remote dictionary resource is released and <a href="https://msdn.microsoft.com/12313d19-e6f1-4ec3-9702-2a403087763a">GetDictionaryResource</a> returns a <b>NULL</b> pointer in the <i>remoteDictionaryResource</i> parameter. The table that follows explains the relationship between the local and remote values of this property.
+After you call <b>SetDictionaryLocal</b>, the remote dictionary resource is released and <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompage-getdictionaryresource">GetDictionaryResource</a> returns a <b>NULL</b> pointer in the <i>remoteDictionaryResource</i> parameter. The table that follows explains the relationship between the local and remote values of this property.
 
 <table>
 <tr>
 <th>Most recent method called</th>
-<th>Object that is returned  in <i>resourceDictionary</i> by <a href="https://msdn.microsoft.com/e842c828-6e8c-4190-b845-8c8a26af1579">GetDictionary</a>
+<th>Object that is returned  in <i>resourceDictionary</i> by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompage-getdictionary">GetDictionary</a>
 </th>
-<th>Object that is returned  in <i>resourceDictionary</i>      by <a href="https://msdn.microsoft.com/1eece7d5-2f2d-4fae-a2f4-8e52236f57c4">GetDictionaryLocal</a>
+<th>Object that is returned  in <i>resourceDictionary</i>      by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompage-getdictionarylocal">GetDictionaryLocal</a>
 </th>
-<th>Object that is returned  in <i>remoteDictionaryResource</i>  by <a href="https://msdn.microsoft.com/12313d19-e6f1-4ec3-9702-2a403087763a">GetDictionaryResource</a>
+<th>Object that is returned  in <i>remoteDictionaryResource</i>  by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompage-getdictionaryresource">GetDictionaryResource</a>
 </th>
 </tr>
 <tr>
@@ -138,12 +138,12 @@ The local dictionary resource that is set by <b>SetDictionaryLocal</b>.
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/e424c70e-289c-4519-8b20-5fb98d46bf34">SetDictionaryResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompage-setdictionaryresource">SetDictionaryResource</a>
 
 
 </td>
 <td>
-The shared dictionary in the dictionary resource that is set by <a href="https://msdn.microsoft.com/e424c70e-289c-4519-8b20-5fb98d46bf34">SetDictionaryResource</a>.
+The shared dictionary in the dictionary resource that is set by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompage-setdictionaryresource">SetDictionaryResource</a>.
 
 </td>
 <td>
@@ -151,13 +151,13 @@ The shared dictionary in the dictionary resource that is set by <a href="https:/
 
 </td>
 <td>
-The remote dictionary resource that is set by <a href="https://msdn.microsoft.com/e424c70e-289c-4519-8b20-5fb98d46bf34">SetDictionaryResource</a>.
+The remote dictionary resource that is set by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompage-setdictionaryresource">SetDictionaryResource</a>.
 
 </td>
 </tr>
 <tr>
 <td>
-Neither <b>SetDictionaryLocal</b> nor <a href="https://msdn.microsoft.com/e424c70e-289c-4519-8b20-5fb98d46bf34">SetDictionaryResource</a> has been called yet.
+Neither <b>SetDictionaryLocal</b> nor <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompage-setdictionaryresource">SetDictionaryResource</a> has been called yet.
 
 </td>
 <td>
@@ -184,11 +184,11 @@ Neither <b>SetDictionaryLocal</b> nor <a href="https://msdn.microsoft.com/e424c7
 
 
 
-<a href="https://msdn.microsoft.com/f887e3d3-973c-4267-a785-6bc190c13082">IXpsOMDictionary</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdictionary">IXpsOMDictionary</a>
 
 
 
-<a href="https://msdn.microsoft.com/741deebd-9dce-4cd9-883e-4586c10a4609">IXpsOMPage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompage">IXpsOMPage</a>
 
 
 
@@ -196,7 +196,7 @@ Neither <b>SetDictionaryLocal</b> nor <a href="https://msdn.microsoft.com/e424c7
 
 
 
-<a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
  
 
  

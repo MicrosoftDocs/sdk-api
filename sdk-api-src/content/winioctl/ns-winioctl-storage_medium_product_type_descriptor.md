@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Used in conjunction with the <a href="https://msdn.microsoft.com/6755dcd4-e4a0-423f-9dcc-b9719c8e5c88">IOCTL_STORAGE_QUERY_PROPERTY</a> request to describe the product type of a storage device.
+Used in conjunction with the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> request to describe the product type of a storage device.
 
 
 ## -struct-fields
@@ -126,7 +126,7 @@ Specifies the product type of the storage device.
 
 
 
-<a href="https://msdn.microsoft.com/6755dcd4-e4a0-423f-9dcc-b9719c8e5c88">IOCTL_STORAGE_QUERY_PROPERTY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
  
 
  

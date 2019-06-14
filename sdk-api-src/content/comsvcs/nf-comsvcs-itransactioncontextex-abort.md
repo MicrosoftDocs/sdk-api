@@ -88,7 +88,7 @@ The transaction was aborted.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/5f3f83e0-33fc-4c43-9327-59485c0d8bd3">TransactionContextEx</a> object is not running under a COM+ process, possibly indicating a corrupted registry entry for the <b>TransactionContextEx</b> component.
+The <a href="https://docs.microsoft.com/windows/desktop/cossdk/transactioncontextex">TransactionContextEx</a> object is not running under a COM+ process, possibly indicating a corrupted registry entry for the <b>TransactionContextEx</b> component.
 
 
 </td>
@@ -151,7 +151,7 @@ if (bUserCanceled) {
 
 
 
-<a href="https://msdn.microsoft.com/cdf3a74f-cdef-4721-9c0d-90af724c24ba">ITransactionContextEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-itransactioncontextex">ITransactionContextEx</a>
  
 
  

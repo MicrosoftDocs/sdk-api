@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set of interconnect types that subsystems can support.
 
@@ -94,15 +94,15 @@ The subsystem supports a serial attached iSCSI (SAS) interconnect.
 
 
 
-<a href="https://msdn.microsoft.com/5e8e69b4-023d-49f7-a363-bae1ae9536ac">IVdsSubSystemInterconnect::GetSupportedInterconnects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsysteminterconnect-getsupportedinterconnects">IVdsSubSystemInterconnect::GetSupportedInterconnects</a>
 
 
 
-<a href="https://msdn.microsoft.com/30ee6e39-c1e5-4173-a3dd-5644632140d1">VDS Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-enumerations">VDS Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/b16cc14b-4aef-43ec-9232-a95de06f1194">VDS_HWPROVIDER_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_hwprovider_type">VDS_HWPROVIDER_TYPE</a>
  
 
  

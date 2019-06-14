@@ -80,7 +80,7 @@ Specifies the size of the memory range to be secured.
 
 
 
-The address range locked down by <b>EngSecureMem</b> will not be deallocated until it is unlocked by <a href="https://msdn.microsoft.com/ceb011cf-7c4c-4f28-a805-9554c0597063">EngUnsecureMem</a>.
+The address range locked down by <b>EngSecureMem</b> will not be deallocated until it is unlocked by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engunsecuremem">EngUnsecureMem</a>.
 
 
 

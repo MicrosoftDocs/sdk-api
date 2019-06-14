@@ -53,7 +53,7 @@ The
 <b>get_ButtonState</b> method retrieves the button state associated with a particular button.
 
 The application must call the 
-<a href="https://msdn.microsoft.com/d9efe2f7-3628-4e1f-b554-a6889d82a973">ITPhone::Open</a> method before invoking this method; otherwise, the invocation fails.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-open">ITPhone::Open</a> method before invoking this method; otherwise, the invocation fails.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ Button identifier.
 ### -param pButtonState [out]
 
 The 
-<a href="https://msdn.microsoft.com/a9f7b527-9c74-45ac-9394-6f736aae1ccf">PHONE_BUTTON_STATE</a> descriptor for the button's state.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-phone_button_state">PHONE_BUTTON_STATE</a> descriptor for the button's state.
 
 
 ## -returns
@@ -86,11 +86,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/94dff33c-67a1-4df8-9ef5-2b6524438f6f">ITPhone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a>
 
 
 
-<a href="https://msdn.microsoft.com/6eedda9d-c127-446d-972c-09a7c1a4bd0f">ITPhoneEvent::get_ButtonState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphoneevent-get_buttonstate">ITPhoneEvent::get_ButtonState</a>
  
 
  

@@ -63,7 +63,7 @@ Retrieves the color interpolation mode that the gradient stop collection uses.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/E3E9FB4C-5E77-451B-ABED-39D9C7AE567A">D2D1_COLOR_INTERPOLATION_MODE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_color_interpolation_mode">D2D1_COLOR_INTERPOLATION_MODE</a></b>
 
 The color interpolation mode.
 
@@ -75,15 +75,15 @@ The color interpolation mode.
 
 
 
-<a href="https://msdn.microsoft.com/6374fc62-1f54-4112-8ba3-9c1167bf8685">ID2D1DeviceContext::CreateGradientStopCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-creategradientstopcollection">ID2D1DeviceContext::CreateGradientStopCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa423e18-c6b5-4587-b044-deda00a84615">ID2D1GradientStopCollection1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1gradientstopcollection1">ID2D1GradientStopCollection1</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd742781(v=VS.85).aspx">ID2D1RenderTarget::CreateGradientStopCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-creategradientstopcollection">ID2D1RenderTarget::CreateGradientStopCollection</a>
  
 
  

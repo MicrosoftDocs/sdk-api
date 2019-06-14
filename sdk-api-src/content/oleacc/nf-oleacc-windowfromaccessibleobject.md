@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the window handle that corresponds to a particular instance of an <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a> interface.
+Retrieves the window handle that corresponds to a particular instance of an <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface.
 
 
 ## -parameters
@@ -61,12 +61,12 @@ Retrieves the window handle that corresponds to a particular instance of an <a h
 
 Type: <b>IAccessible*</b>
 
-Pointer to the <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a> interface whose corresponding window handle will be retrieved. This parameter must not be <b>NULL</b>.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface whose corresponding window handle will be retrieved. This parameter must not be <b>NULL</b>.
 
 
 ### -param phwnd [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a>*</b>
 
 Address of a variable that receives a handle to the window containing the object specified in <i>pacc</i>. If this value is <b>NULL</b> after the call, the object is not contained within a window; for example, the mouse pointer is not contained within a window.
 
@@ -79,7 +79,7 @@ Type: <b>STDAPI</b>
 
 If successful, returns S_OK.
 
-If not successful, returns the following or another standard <a href="https://msdn.microsoft.com/e6deca92-42da-41ab-bfdb-75cbce3022bb">COM error code</a>.
+If not successful, returns the following or another standard <a href="https://docs.microsoft.com/windows/desktop/WinAuto/return-values">COM error code</a>.
 
 <table>
 <tr>
@@ -108,11 +108,11 @@ An argument is not valid.
 
 
 
-<a href="https://msdn.microsoft.com/297ac50f-2a58-477b-ba57-5d1416c191b3">AccessibleObjectFromWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-accessibleobjectfromwindow">AccessibleObjectFromWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
  
 
  

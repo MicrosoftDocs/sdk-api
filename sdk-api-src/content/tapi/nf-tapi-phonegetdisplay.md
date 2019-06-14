@@ -66,7 +66,7 @@ Handle to the open phone device.
 ### -param lpDisplay
 
 Pointer to the memory location where the display content is to be stored, of type 
-<a href="https://msdn.microsoft.com/ec73ed48-db5a-4478-8748-b8e58247c2f4">VARSTRING</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring_tag">VARSTRING</a>.
 
 
 ## -returns
@@ -85,8 +85,8 @@ PHONEERR_INVALPHONEHANDLE, PHONEERR_RESOURCEUNAVAIL, PHONEERR_INVALPOINTER, PHON
 
 
 The <b>lpDisplay</b> memory area should be at least (<b>dwDisplayNumRows</b> * <b>dwDisplayNumColumns</b>) elements in size to receive all of the display information. The <b>dwDisplayNumRows</b> and <b>dwDisplayNumColumns</b> members are available in the 
-<a href="https://msdn.microsoft.com/9549e30c-9425-4fb1-8ce5-f180a32f8e1f">PHONECAPS</a> structure returned by 
-<a href="https://msdn.microsoft.com/7bfef6d7-d5fd-4887-afb8-b1d850df050d">phoneGetDevCaps</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonecaps_tag">PHONECAPS</a> structure returned by 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonegetdevcaps">phoneGetDevCaps</a>.
 
 
 
@@ -96,23 +96,23 @@ The <b>lpDisplay</b> memory area should be at least (<b>dwDisplayNumRows</b> * <
 
 
 
-<a href="https://msdn.microsoft.com/9549e30c-9425-4fb1-8ce5-f180a32f8e1f">PHONECAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonecaps_tag">PHONECAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d1a81d2-aa9e-4a85-85d3-aa4eabb26eb5">Supplementary Phone Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-phone-service-functions">Supplementary Phone Service Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d703b414-1389-416c-8e94-c1931979f0c9">TAPI 2.2 Reference Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/ec73ed48-db5a-4478-8748-b8e58247c2f4">VARSTRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring_tag">VARSTRING</a>
 
 
 
-<a href="https://msdn.microsoft.com/7bfef6d7-d5fd-4887-afb8-b1d850df050d">phoneGetDevCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonegetdevcaps">phoneGetDevCaps</a>
  
 
  

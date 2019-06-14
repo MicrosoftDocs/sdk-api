@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns the number of  <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a802-8f7bdbb11b90">cluster objects</a> associated with a  <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> enumeration handle. The <b>PCLUSAPI_CLUSTER_RESOURCE_GET_ENUM_COUNT</b> type defines a pointer to this function.
+Returns the number of  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">cluster objects</a> associated with a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> enumeration handle. The <b>PCLUSAPI_CLUSTER_RESOURCE_GET_ENUM_COUNT</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Returns the number of  <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a8
 
 ### -param hResEnum [in]
 
-Handle to a resource enumeration. This handle is obtained from  <a href="https://msdn.microsoft.com/f801401f-f49d-41de-b88b-b832330eeccf">ClusterResourceOpenEnum</a>. A valid handle is required. This parameter cannot be <b>NULL</b>.
+Handle to a resource enumeration. This handle is obtained from  <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourceopenenum">ClusterResourceOpenEnum</a>. A valid handle is required. This parameter cannot be <b>NULL</b>.
 
 
 ## -returns

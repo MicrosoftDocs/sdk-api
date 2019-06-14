@@ -100,11 +100,11 @@ Use this function to decide whether or not to deserialize a property value in a 
 
 
 
-<a href="https://msdn.microsoft.com/ea4196e6-fc99-4288-942a-e5283f2e5544">StgConvertPropertyToVariant</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-stgconvertpropertytovariant">StgConvertPropertyToVariant</a>
 
 
 
-<a href="https://msdn.microsoft.com/55b4de40-d81d-4989-8f57-a286815fa495">StgDeserializePropVariant</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-stgdeserializepropvariant">StgDeserializePropVariant</a>
  
 
  

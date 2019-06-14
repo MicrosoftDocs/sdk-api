@@ -60,7 +60,7 @@ Retrieves a value indicating the type of sync operation that was being performed
 
 ### -param pSyncOp [out]
 
-Receives a value from the <a href="https://msdn.microsoft.com/d32db35c-4789-49e6-8c15-15d44eac95cf">OFFLINEFILES_SYNC_OPERATION</a> enumeration that indicates the operation type.
+Receives a value from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/ne-cscobj-tagofflinefiles_sync_operation">OFFLINEFILES_SYNC_OPERATION</a> enumeration that indicates the operation type.
 
 
 ## -returns
@@ -77,7 +77,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/df1dd351-eb18-46e6-b778-852f551adfd1">IOfflineFilesSyncErrorInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessyncerrorinfo">IOfflineFilesSyncErrorInfo</a>
  
 
  

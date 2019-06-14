@@ -55,7 +55,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the process preferred UI languages for the application process. For more information, see <a href="https://msdn.microsoft.com/ae8ab98f-dc3b-414d-85c9-6bf204c2f776">User Interface Language Management</a>.
+Sets the process preferred UI languages for the application process. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/user-interface-language-management">User Interface Language Management</a>.
 
 
 ## -parameters
@@ -80,7 +80,7 @@ We recommend that you use MUI_LANGUAGE_NAME instead of MUI_LANGUAGE_ID.
 </dl>
 </td>
 <td width="60%">
-The input parameter language strings are in <a href="https://msdn.microsoft.com/076e2a43-256a-4646-a5c8-1d48ab08ce1a">language identifier</a> format.
+The input parameter language strings are in <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">language identifier</a> format.
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ The input parameter language strings are in <a href="https://msdn.microsoft.com/
 </dl>
 </td>
 <td width="60%">
-The input parameter language strings are in <a href="https://msdn.microsoft.com/e8c54168-22b3-435e-b19a-9b34adcdb018">language name</a> format.
+The input parameter language strings are in <a href="https://docs.microsoft.com/windows/desktop/Intl/language-names">language name</a> format.
 
 </td>
 </tr>
@@ -114,7 +114,7 @@ Pointer to the number of languages that has been set in the process language lis
 
 
 
-Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended error information, the application can call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>, which can return the following error code:
+Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return the following error code:
 
 <ul>
 <li>ERROR_INVALID_PARAMETER. An invalid parameter is specified.</li>
@@ -131,7 +131,7 @@ If the process preferred UI languages list is empty or if the languages specifie
 
 Ideally, applications will call <b>SetProcessPreferredUILanguages</b> as soon as possible after launching.
 
-After this function returns, the application can call <a href="https://msdn.microsoft.com/115fd1f4-39ae-4c69-aa42-606617a989aa">GetProcessPreferredUILanguages</a> to verify and examine the resulting language list.
+After this function returns, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getprocesspreferreduilanguages">GetProcessPreferredUILanguages</a> to verify and examine the resulting language list.
 
 When MUI_LANGUAGE_ID is specified, the input parameter language strings must use hexadecimal language 
 
@@ -162,15 +162,15 @@ passed as "0409" and en as "0009".
 
 
 
-<a href="https://msdn.microsoft.com/115fd1f4-39ae-4c69-aa42-606617a989aa">GetProcessPreferredUILanguages</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getprocesspreferreduilanguages">GetProcessPreferredUILanguages</a>
 
 
 
-<a href="https://msdn.microsoft.com/2980365c-5a83-4c0f-aa37-e212ec9f0408">Multilingual User Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface">Multilingual User Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/918d1f04-78fe-4b60-bee7-08d2f131437e">Multilingual User Interface Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface-functions">Multilingual User Interface Functions</a>
  
 
  

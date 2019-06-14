@@ -117,11 +117,11 @@ This enumeration is numerically equivalent to the <b>COPP_ImageAspectRatio_EN300
 
 
 
-<a href="https://msdn.microsoft.com/e72e0a5e-476d-41f0-9139-54c4c488053f">OPM Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/opm-enumerations">OPM Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd388970(v=VS.85).aspx">OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ns-opmapi-_opm_set_acp_and_cgmsa_signaling_parameters">OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS</a>
  
 
  

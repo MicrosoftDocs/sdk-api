@@ -109,20 +109,20 @@ Synchronization failed.
 
 
 
-If the user does not select any item choices for the registered application, the <b>ISyncMgrSynchronize::Synchronize</b> method is not called and the interface is released. If this method is called, the application must synchronize the items that were specified in the <a href="https://msdn.microsoft.com/82e70e75-a5d4-41b2-87c4-2a032628954d">ISyncMgrSynchronize::PrepareForSync</a> method.
+If the user does not select any item choices for the registered application, the <b>ISyncMgrSynchronize::Synchronize</b> method is not called and the interface is released. If this method is called, the application must synchronize the items that were specified in the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-prepareforsync">ISyncMgrSynchronize::PrepareForSync</a> method.
 
 The registered application's handler should return from the <b>ISyncMgrSynchronize::Synchronize</b> method as soon as possible and then call the 
-<a href="https://msdn.microsoft.com/df0f0e20-6b84-4ff1-badb-40006a4b8e2c">SynchronizeCompleted</a> method. It is acceptable for the handler to call the <b>SynchronizeCompleted</b> call before returning from the <b>ISyncMgrSynchronize::Synchronize</b> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-synchronizecompleted">SynchronizeCompleted</a> method. It is acceptable for the handler to call the <b>SynchronizeCompleted</b> call before returning from the <b>ISyncMgrSynchronize::Synchronize</b> method.
 
-The application must give progress feedback and check whether the synchronization should be canceled by using the <i>pSyncCallBack</i> interface pointer that was set up in the <a href="https://msdn.microsoft.com/193926e8-824c-4969-9707-e2d95961c242">ISyncMgrSynchronize::SetProgressCallback</a> method.
+The application must give progress feedback and check whether the synchronization should be canceled by using the <i>pSyncCallBack</i> interface pointer that was set up in the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-setprogresscallback">ISyncMgrSynchronize::SetProgressCallback</a> method.
 
 Applications must provide progress information even if the 
-<a href="https://msdn.microsoft.com/b1a60a6b-b4f8-4c89-853b-5a5584c415e9">SYNCMGRFLAG_MAYBOTHERUSER</a> flag was not specified in <a href="https://msdn.microsoft.com/4357d66e-b1f5-4a3c-b1a9-3a40aa6d8e10">ISyncMgrSynchronize::Initialize</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-_tagsyncmgrflag">SYNCMGRFLAG_MAYBOTHERUSER</a> flag was not specified in <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-initialize">ISyncMgrSynchronize::Initialize</a>.
 
 Applications should try not to show user interface elements from within the 
-<b>ISyncMgrSynchronize::Synchronize</b> method. Any user interface elements should be shown in the <a href="https://msdn.microsoft.com/82e70e75-a5d4-41b2-87c4-2a032628954d">ISyncMgrSynchronize::PrepareForSync</a> and <a href="https://msdn.microsoft.com/0e313c61-6482-4396-b4b8-824fba0226ac">ISyncMgrSynchronize::ShowError</a> methods so the end user experiences a consistent user interface which is limited to logon and to specifying shares to be synchronized. Subsequently, the synchronization can be performed without any user intervention. After the synchronization is complete, conflicts or other error messages can be shown.
+<b>ISyncMgrSynchronize::Synchronize</b> method. Any user interface elements should be shown in the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-prepareforsync">ISyncMgrSynchronize::PrepareForSync</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-showerror">ISyncMgrSynchronize::ShowError</a> methods so the end user experiences a consistent user interface which is limited to logon and to specifying shares to be synchronized. Subsequently, the synchronization can be performed without any user intervention. After the synchronization is complete, conflicts or other error messages can be shown.
 
-The <a href="https://msdn.microsoft.com/1c817a21-be91-43af-86c8-aa7909ae2fa2">ISyncMgrSynchronizeCallback</a> methods can be called on any thread in your application.
+The <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizecallback">ISyncMgrSynchronizeCallback</a> methods can be called on any thread in your application.
 
 
 
@@ -132,27 +132,27 @@ The <a href="https://msdn.microsoft.com/1c817a21-be91-43af-86c8-aa7909ae2fa2">IS
 
 
 
-<a href="https://msdn.microsoft.com/bb821672-10b1-4fe6-a752-6cd1ccd1e49e">ISyncMgrSynchronize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronize">ISyncMgrSynchronize</a>
 
 
 
-<a href="https://msdn.microsoft.com/4357d66e-b1f5-4a3c-b1a9-3a40aa6d8e10">ISyncMgrSynchronize::Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-initialize">ISyncMgrSynchronize::Initialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/82e70e75-a5d4-41b2-87c4-2a032628954d">ISyncMgrSynchronize::PrepareForSync</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-prepareforsync">ISyncMgrSynchronize::PrepareForSync</a>
 
 
 
-<a href="https://msdn.microsoft.com/193926e8-824c-4969-9707-e2d95961c242">ISyncMgrSynchronize::SetProgressCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-setprogresscallback">ISyncMgrSynchronize::SetProgressCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/0e313c61-6482-4396-b4b8-824fba0226ac">ISyncMgrSynchronize::ShowError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-showerror">ISyncMgrSynchronize::ShowError</a>
 
 
 
-<a href="https://msdn.microsoft.com/df0f0e20-6b84-4ff1-badb-40006a4b8e2c">SynchronizeCompleted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-synchronizecompleted">SynchronizeCompleted</a>
  
 
  

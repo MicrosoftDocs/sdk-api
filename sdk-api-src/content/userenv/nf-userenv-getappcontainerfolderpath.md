@@ -64,7 +64,7 @@ A pointer to the SID of the app container.
 
 ### -param ppszPath [out]
 
-The address of a pointer to a string that, when this function returns successfully, receives the path of the local folder. It is the responsibility of the caller to free this string when it is no longer needed by calling the <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> function.
+The address of a pointer to a string that, when this function returns successfully, receives the path of the local folder. It is the responsibility of the caller to free this string when it is no longer needed by calling the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
 
 ## -returns
@@ -110,7 +110,7 @@ The <i>pszAppContainerSid</i> or <i>ppszPath</i> parameter is <b>NULL</b>.
 
 
 
-The path retrieved through this function is the same path that you would get by calling the <a href="https://msdn.microsoft.com/5434c744-484b-4c34-9a76-dddbcb81eb29">SHGetKnownFolderPath</a> function with <b>FOLDERID_LocalAppData</b>.
+The path retrieved through this function is the same path that you would get by calling the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath">SHGetKnownFolderPath</a> function with <b>FOLDERID_LocalAppData</b>.
 
 If a thread token is set, this function uses the app container for the current user. If no thread token is set, this function uses the app container associated with the process identity.
 
@@ -122,7 +122,7 @@ If a thread token is set, this function uses the app container for the current u
 
 
 
-<a href="https://msdn.microsoft.com/DAD7EC07-D57D-40F5-AA99-AD7579910294">GetAppContainerRegistryLocation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-getappcontainerregistrylocation">GetAppContainerRegistryLocation</a>
  
 
  

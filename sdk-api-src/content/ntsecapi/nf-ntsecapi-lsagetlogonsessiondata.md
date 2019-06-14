@@ -67,8 +67,8 @@ Specifies a pointer to a <b>LUID</b> that identifies the logon session whose inf
 ### -param ppLogonSessionData [out]
 
 Address of a pointer to a 
-<a href="https://msdn.microsoft.com/284ddb9a-fd08-4f38-b1d0-242596c114a8">SECURITY_LOGON_SESSION_DATA</a> structure containing information on the logon session specified by <i>LogonId</i>. This structure is allocated by the LSA. When the information is no longer needed, call the 
-<a href="https://msdn.microsoft.com/e814ed68-07e7-4936-ba96-5411086f43f6">LSAFreeReturnBuffer</a> function to free the memory used by this structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_security_logon_session_data">SECURITY_LOGON_SESSION_DATA</a> structure containing information on the logon session specified by <i>LogonId</i>. This structure is allocated by the LSA. When the information is no longer needed, call the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsafreereturnbuffer">LSAFreeReturnBuffer</a> function to free the memory used by this structure.
 
 
 ## -returns
@@ -87,7 +87,7 @@ If the function fails, the return value is an <b>NTSTATUS</b> code indicating th
 
 
 To obtain valid logon session identifiers that may be passed to this function's <i>LogonId</i> parameter, call the 
-<a href="https://msdn.microsoft.com/ddf3b9ec-dea7-4333-9ffe-142811048c83">LsaEnumerateLogonSessions</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaenumeratelogonsessions">LsaEnumerateLogonSessions</a> function.
 
 If  <i>LogonID</i> specifies the LocalSystem account (0x0:0x3e7), then this function returns zero for the logon session data retrieved in <i>ppLogonSessionData</i>. The reason is that the LocalSystem account does not get logged on in the typical logon manner. Rather, the LocalSystem account is active after the system starts.
 

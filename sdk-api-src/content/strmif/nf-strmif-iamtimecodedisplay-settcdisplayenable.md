@@ -89,15 +89,15 @@ This method is not intended for rendering characters inside a filter graph, it i
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/2edfc260-5bb6-475d-b8af-252e7c7a8552">IAMTimecodeDisplay Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtimecodedisplay">IAMTimecodeDisplay Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/fe8bac4d-a271-47b3-9737-f115429b50aa">IAMTimecodeDisplay::GetTCDisplayEnable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtimecodedisplay-gettcdisplayenable">IAMTimecodeDisplay::GetTCDisplayEnable</a>
  
 
  

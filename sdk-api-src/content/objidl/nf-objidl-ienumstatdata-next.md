@@ -88,11 +88,11 @@ If the method retrieves the number of items requested, the return value is S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/8e2f6655-4a09-4868-a909-18999104b3ff">IEnumSTATDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstatdata">IEnumSTATDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/f31469b2-4a4a-4da5-9229-38ddd0bcc88e">STATDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatdata">STATDATA</a>
  
 
  

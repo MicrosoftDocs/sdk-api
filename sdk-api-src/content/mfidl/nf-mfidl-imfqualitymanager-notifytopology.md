@@ -63,7 +63,7 @@ Called when the Media Session is about to start playing a new topology.
 
 ### -param pTopology [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/f293e9ee-9bd2-4b3e-a4ff-53457ee910f6">IMFTopology</a> interface of the new topology. If this parameter is <b>NULL</b>, the quality manager should release any references to the previous topology.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a> interface of the new topology. If this parameter is <b>NULL</b>, the quality manager should release any references to the previous topology.
 
 
 ## -returns
@@ -106,15 +106,15 @@ Enumerates the nodes in the topology.
 
 </li>
 <li>
-Calls <a href="https://msdn.microsoft.com/039d8009-5e5a-4503-9908-7317bc2bf412">IMFTopologyNode::GetObject</a> to get the node's underlying object.
+Calls <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getobject">IMFTopologyNode::GetObject</a> to get the node's underlying object.
 
 </li>
 <li>
-Queries for the <a href="https://msdn.microsoft.com/20681ce7-e07e-4e34-9238-ec23cc6bfc84">IMFQualityAdvise</a> interface.
+Queries for the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise">IMFQualityAdvise</a> interface.
 
 </li>
 </ol>
-The quality manager can then use the <a href="https://msdn.microsoft.com/20681ce7-e07e-4e34-9238-ec23cc6bfc84">IMFQualityAdvise</a> pointers to adjust audio-video quality as needed.
+The quality manager can then use the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise">IMFQualityAdvise</a> pointers to adjust audio-video quality as needed.
 
 
 
@@ -124,7 +124,7 @@ The quality manager can then use the <a href="https://msdn.microsoft.com/20681ce
 
 
 
-<a href="https://msdn.microsoft.com/66781a1f-7469-4222-9e99-6b1415830f4c">IMFQualityManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfqualitymanager">IMFQualityManager</a>
  
 
  

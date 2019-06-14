@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used with <a href="https://msdn.microsoft.com/5646B34D-EB2C-4161-8FF0-67F96254AFBC">IDXGIFactoryMedia</a>::<a href="https://msdn.microsoft.com/A4030D6E-EE5A-47E7-A5A2-A008F6869230">CreateDecodeSwapChainForCompositionSurfaceHandle</a> to describe a decode swap chain.
+Used with <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgifactorymedia">IDXGIFactoryMedia</a>::<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgifactorymedia-createdecodeswapchainforcompositionsurfacehandle">CreateDecodeSwapChainForCompositionSurfaceHandle</a> to describe a decode swap chain.
 
 
 ## -struct-fields
@@ -67,7 +67,7 @@ Additional flags describing the decode swap chain. This field is reserved and mu
 
 
 
-<a href="https://msdn.microsoft.com/22e98880-bcd1-448a-9223-604fff9173fe">DXGI Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-structures">DXGI Structures</a>
  
 
  

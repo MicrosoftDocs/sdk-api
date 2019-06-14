@@ -62,7 +62,7 @@ ms.custom: 19H1
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
     available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
     information, and alternatives to TxF, please see 
-    <a href="https://msdn.microsoft.com/9ee26e7e-990e-4cd3-8180-f0fcaac2b752">Alternatives to using Transactional NTFS</a>.]
+    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
 Retrieves file system attributes for a specified file or directory as a transacted 
     operation.
@@ -81,7 +81,7 @@ The name of the file or directory.
 In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
        To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
        "\\?\" to the path. For more information, see 
-       <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">Naming a File</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
 
 The file or directory must reside on the local computer; otherwise, the function fails and the last error code is set to <b>ERROR_TRANSACTIONS_UNSUPPORTED_REMOTE</b>.
 
@@ -92,7 +92,7 @@ The level of attribute information to retrieve.
       
 
 This parameter can be the following value from the 
-       <a href="https://msdn.microsoft.com/1004ab99-9c08-4ed4-ba5f-d72f1b44a415">GET_FILEEX_INFO_LEVELS</a> enumeration.
+       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ne-minwinbase-get_fileex_info_levels">GET_FILEEX_INFO_LEVELS</a> enumeration.
 
 <table>
 <tr>
@@ -106,7 +106,7 @@ This parameter can be the following value from the
 </td>
 <td width="60%">
 The <i>lpFileInformation</i> parameter is a 
-        <a href="https://msdn.microsoft.com/e1a7fb5c-2d69-40e3-b9d8-b583a03d828a">WIN32_FILE_ATTRIBUTE_DATA</a> 
+        <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-_win32_file_attribute_data">WIN32_FILE_ATTRIBUTE_DATA</a> 
         structure.
 
 </td>
@@ -123,13 +123,13 @@ A pointer to a buffer that receives the attribute information.
 The type of attribute information that is stored into this buffer is determined by the value of 
        <i>fInfoLevelId</i>. If the <i>fInfoLevelId</i> parameter is 
        <b>GetFileExInfoStandard</b> then this parameter points to a 
-       <a href="https://msdn.microsoft.com/e1a7fb5c-2d69-40e3-b9d8-b583a03d828a">WIN32_FILE_ATTRIBUTE_DATA</a> 
+       <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-_win32_file_attribute_data">WIN32_FILE_ATTRIBUTE_DATA</a> 
         structure
 
 
 ### -param hTransaction [in]
 
-A handle to the transaction. This handle is returned by the <a href="https://msdn.microsoft.com/578bda35-bd35-4f6d-8366-a4bfb4dbfe42">CreateTransaction</a> function.
+A handle to the transaction. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a> function.
 
 
 ## -returns
@@ -139,7 +139,7 @@ A handle to the transaction. This handle is returned by the <a href="https://msd
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero (0). To get extended 
-       error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -151,7 +151,7 @@ If the function fails, the return value is zero (0). To get extended
 When <b>GetFileAttributesTransacted</b> is 
     called on a directory that is a mounted folder, it returns the attributes of the directory, not those of the root directory in the volume that the mounted folder associates with the directory. To obtain the 
     file attributes of the associated volume, call 
-    <a href="https://msdn.microsoft.com/3f749042-bdc9-4087-bb8a-d833713472eb">GetVolumeNameForVolumeMountPoint</a> to 
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumenameforvolumemountpointw">GetVolumeNameForVolumeMountPoint</a> to 
     obtain the name of the associated volume. Then use the resulting name in a call to 
     <b>GetFileAttributesTransacted</b>. The results are 
     the attributes of the root directory on the associated volume.
@@ -236,39 +236,39 @@ If a file is open for modification in a transaction, no other thread can open th
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/ed9a73d2-7fb6-4fb7-97f6-4dbf89e2f156">File Attribute Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>
 
 
 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d94bf32b-f14b-44b4-824b-ed453d0424ef">FindFirstFileTransacted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findfirstfiletransacteda">FindFirstFileTransacted</a>
 
 
 
-<a href="https://msdn.microsoft.com/db7acb83-2da6-40bf-9962-5cfe54e257a5">FindNextFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/1004ab99-9c08-4ed4-ba5f-d72f1b44a415">GET_FILEEX_INFO_LEVELS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ne-minwinbase-get_fileex_info_levels">GET_FILEEX_INFO_LEVELS</a>
 
 
 
-<a href="https://msdn.microsoft.com/e25e77b2-a6ad-4ce4-8589-d7ff6c4074f6">SetFileAttributesTransacted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setfileattributestransacteda">SetFileAttributesTransacted</a>
 
 
 
-<a href="https://msdn.microsoft.com/d6bf5df7-bc12-4dec-b116-95d9109f5eb4">Symbolic Links</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8c3ceed-d391-4934-b3f7-12c2123c8c23">Transactional NTFS</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS</a>
  
 
  

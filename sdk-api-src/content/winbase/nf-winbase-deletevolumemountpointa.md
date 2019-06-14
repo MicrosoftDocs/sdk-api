@@ -81,7 +81,7 @@ The drive letter or mounted folder to be deleted. A trailing backslash is requir
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -162,7 +162,7 @@ SMB does not support volume management functions. For CsvFs, a new mount point w
 #### Examples
 
 For an example, see 
-     <a href="https://msdn.microsoft.com/33049110-acf8-4db5-a9c4-bd4a884c8590">Unmounting a Volume at a Mount Point</a>.
+     <a href="https://docs.microsoft.com/windows/desktop/FileIO/unmounting-a-volume-at-a-mount-point">Unmounting a Volume at a Mount Point</a>.
 
 <div class="code"></div>
 
@@ -173,23 +173,23 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/3f749042-bdc9-4087-bb8a-d833713472eb">GetVolumeNameForVolumeMountPoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumenameforvolumemountpointw">GetVolumeNameForVolumeMountPoint</a>
 
 
 
-<a href="https://msdn.microsoft.com/fa34786c-af82-4b59-bf36-e9a95a2f913e">GetVolumePathName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumepathnamew">GetVolumePathName</a>
 
 
 
-<a href="https://msdn.microsoft.com/6de526cd-5537-4411-b43f-3c0bdac70d64">Mounted Folders</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-mount-points">Mounted Folders</a>
 
 
 
-<a href="https://msdn.microsoft.com/1535fe64-221a-4756-a9ba-81bbe7596598">SetVolumeMountPoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setvolumemountpointa">SetVolumeMountPoint</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc985126-970c-49f2-877f-3759125e43b6">Volume Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
  
 
  

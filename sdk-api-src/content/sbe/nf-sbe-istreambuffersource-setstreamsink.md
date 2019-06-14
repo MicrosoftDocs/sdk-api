@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SetStreamSink</b> method sets a pointer to the <a href="https://msdn.microsoft.com/e49fe3c2-e77f-419a-910c-78f72ebdfdbc">Stream Buffer Sink</a> filter, so that the Stream Buffer Source filter can stream data from the sink filter.
+The <b>SetStreamSink</b> method sets a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-sink-filter">Stream Buffer Sink</a> filter, so that the Stream Buffer Source filter can stream data from the sink filter.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>SetStreamSink</b> method sets a pointer to the <a href="https://msdn.micr
 
 ### -param pIStreamBufferSink [in]
 
-Pointer to the Stream Buffer Sink filter's <a href="https://msdn.microsoft.com/4ae5a9e9-da51-4034-9a2c-22b57374deac">IStreamBufferSink Interface</a> interface.
+Pointer to the Stream Buffer Sink filter's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambuffersink">IStreamBufferSink Interface</a> interface.
 
 
 ## -returns
@@ -94,7 +94,7 @@ The method succeeded.
 
 
 
-The source filter and the sink filter must be within the same process, but can reside in different filter graphs. If they are in different processes, call <a href="https://msdn.microsoft.com/en-us/library/Dd389983(v=VS.85).aspx">IFileSourceFilter::Load</a> with the same file name used in the <a href="https://msdn.microsoft.com/9e694cc2-090e-43b1-88c7-77175a930bf1">IStreamBufferSink::LockProfile</a> method.
+The source filter and the sink filter must be within the same process, but can reside in different filter graphs. If they are in different processes, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifilesourcefilter-load">IFileSourceFilter::Load</a> with the same file name used in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambuffersink-lockprofile">IStreamBufferSink::LockProfile</a> method.
 
 Several Stream Buffer Source filters can stream from the same sink filter.
 
@@ -106,7 +106,7 @@ Several Stream Buffer Source filters can stream from the same sink filter.
 
 
 
-<a href="https://msdn.microsoft.com/1e407f85-820a-4d17-926d-0c00e1e453e2">IStreamBufferSource Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambuffersource">IStreamBufferSource Interface</a>
  
 
  

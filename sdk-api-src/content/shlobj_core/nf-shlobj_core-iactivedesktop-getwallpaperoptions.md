@@ -61,7 +61,7 @@ Gets the wallpaper options.
 
 Type: <b>LPWALLPAPEROPT</b>
 
-The address of a <a href="https://msdn.microsoft.com/5fafbc3a-606c-4175-ac3a-132a1bfded07">WALLPAPEROPT</a> structure containing the options currently set. 
+The address of a <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagwallpaperopt">WALLPAPEROPT</a> structure containing the options currently set. 
 
 
 ### -param dwReserved
@@ -87,7 +87,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/4d572b86-36e8-417b-857c-eb477c04c691">IActiveDesktop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>
  
 
  

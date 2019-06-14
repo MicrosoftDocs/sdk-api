@@ -62,7 +62,7 @@ Schedules an asynchronous operation to be completed after a specified interval.
 
 ### -param pResult [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/8c95b1de-8974-445c-8070-41552ea83e53">IMFAsyncResult</a> interface of an asynchronous result object. To create the result object, call <a href="https://msdn.microsoft.com/6ff773a9-961e-4a5e-ad37-46234022c575">MFCreateAsyncResult</a>.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncresult">IMFAsyncResult</a> interface of an asynchronous result object. To create the result object, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreateasyncresult">MFCreateAsyncResult</a>.
 
 
 ### -param Timeout [in]
@@ -72,7 +72,7 @@ Time-out interval, in milliseconds. Set this parameter to a negative value. The 
 
 ### -param pKey [out]
 
-Receives a key that can be used to cancel the timer. To cancel the timer, call <a href="https://msdn.microsoft.com/a24fae61-30c8-4aca-b067-22b99f904fd8">MFCancelWorkItem</a> and pass this key in the <i>Key</i> parameter.
+Receives a key that can be used to cancel the timer. To cancel the timer, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcancelworkitem">MFCancelWorkItem</a> and pass this key in the <i>Key</i> parameter.
 
 
 ## -returns
@@ -107,7 +107,7 @@ The function succeeded.
 
 
 
-When the timer interval elapses, the timer calls <a href="https://msdn.microsoft.com/28832d50-9b15-4eb0-96f9-2032d4edcaf4">MFInvokeCallback</a> with the <i>pResult</i> pointer to invoke the asynchronous callback. The callback is specified when you create the result object.
+When the timer interval elapses, the timer calls <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfinvokecallback">MFInvokeCallback</a> with the <i>pResult</i> pointer to invoke the asynchronous callback. The callback is specified when you create the result object.
 
 
 
@@ -117,15 +117,15 @@ When the timer interval elapses, the timer calls <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/c14786e4-7fbe-4748-a6ba-e9e68f78b241">MFScheduleWorkItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfscheduleworkitem">MFScheduleWorkItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/f886d096-b1f5-42e4-8888-501b58bffd50">Work Queues</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/work-queues">Work Queues</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IFaxOutboundRoutingGroup</b> interface describes a configuration object that is used by a fax client application to retrieve information about an individual fax outbound routing group. The object also includes a method to retrieve the ordered collection of device IDs (<a href="https://msdn.microsoft.com/en-us/library/ms686503(v=VS.85).aspx">IFaxDeviceIds</a> interfaces) that participate in the routing group. The order of the devices in the collection determines the relative order in which available devices send outgoing transmissions.
+The <b>IFaxOutboundRoutingGroup</b> interface describes a configuration object that is used by a fax client application to retrieve information about an individual fax outbound routing group. The object also includes a method to retrieve the ordered collection of device IDs (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdeviceids">IFaxDeviceIds</a> interfaces) that participate in the routing group. The order of the devices in the collection determines the relative order in which available devices send outgoing transmissions.
 		
 
 
@@ -57,7 +57,7 @@ The <b>IFaxOutboundRoutingGroup</b> interface describes a configuration object t
 
 
 
-A default implementation of <b>IFaxOutboundRoutingGroup</b> is provided as the <a href="https://msdn.microsoft.com/en-us/library/ms689098(v=VS.85).aspx">FaxOutboundRoutingGroup</a> object.
+A default implementation of <b>IFaxOutboundRoutingGroup</b> is provided as the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutinggroup">FaxOutboundRoutingGroup</a> object.
 
 
 

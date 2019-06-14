@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>NetRemoveServiceAccount</b> function deletes the specified service account from the <a href="https://msdn.microsoft.com/9fc78c72-c59c-4c4d-ace5-00a431645c4b">Active Directory</a> database if the account is a standalone managed service account (sMSA). For group managed service accounts (gMSAs), this function does not delete the account from the Active Directory database.  The secret stored in the <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">Local Security Authority</a> (LSA) is deleted for both sMSAs and gMSAs, and the state is stored in the Netlogon registry store.
+The <b>NetRemoveServiceAccount</b> function deletes the specified service account from the <a href="https://docs.microsoft.com/windows/desktop/AD/active-directory-domain-services">Active Directory</a> database if the account is a standalone managed service account (sMSA). For group managed service accounts (gMSAs), this function does not delete the account from the Active Directory database.  The secret stored in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) is deleted for both sMSAs and gMSAs, and the state is stored in the Netlogon registry store.
 
-This function has no associated import library. You must use the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> functions to dynamically link to Logoncli.dll.
+This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Logoncli.dll.
 
 
 ## -parameters
@@ -109,15 +109,15 @@ If the function fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/004bd392-8837-4d98-905a-cd19ed02817d">NetAddServiceAccount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netaddserviceaccount">NetAddServiceAccount</a>
 
 
 
-<a href="https://msdn.microsoft.com/048116b6-1bae-4dcc-9bd0-a466c395e5d8">NetEnumerateServiceAccounts</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netenumerateserviceaccounts">NetEnumerateServiceAccounts</a>
 
 
 
-<a href="https://msdn.microsoft.com/975e7c0d-d803-4d78-99ed-d07369341674">NetIsServiceAccount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netisserviceaccount">NetIsServiceAccount</a>
  
 
  

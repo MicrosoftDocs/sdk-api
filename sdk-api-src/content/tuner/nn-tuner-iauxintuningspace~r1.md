@@ -39,7 +39,7 @@ ms.custom: 19H1
 
 ## -description
 
-The <b>IAuxInTuningSpace</b> interface is implemented on <a href="https://msdn.microsoft.com/f3d0948c-aa40-4a19-a620-af75495ecde2">AuxInTuningSpace</a> objects, which represent auxiliary video inputs such as S-video or composite video on a hardware device that is connected to the computer. 
+The <b>IAuxInTuningSpace</b> interface is implemented on <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/auxintuningspace-object">AuxInTuningSpace</a> objects, which represent auxiliary video inputs such as S-video or composite video on a hardware device that is connected to the computer. 
 
 
 ## -inheritance
@@ -58,8 +58,8 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/51850105-b3b1-4758-acde-05ca2f3439f2">ITuningSpace</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d956e1d-88b3-4236-9987-f37f674645de">Tuning Model Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>

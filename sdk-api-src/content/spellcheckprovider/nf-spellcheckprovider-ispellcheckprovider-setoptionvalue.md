@@ -121,7 +121,7 @@ Successful.
 
 
 
-This method is called by the system, which reads the option values that were set by the user in the control panel and sends them to the <a href="https://msdn.microsoft.com/D7C8831E-6FCE-45E0-B2EB-4EB2B1F7911F">ISpellCheckProvider</a>. If the option was not set, this method will not be called and the provider should initialize itself internally with the default value for the option.
+This method is called by the system, which reads the option values that were set by the user in the control panel and sends them to the <a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckprovider">ISpellCheckProvider</a>. If the option was not set, this method will not be called and the provider should initialize itself internally with the default value for the option.
 
 
 
@@ -131,7 +131,7 @@ This method is called by the system, which reads the option values that were set
 
 
 
-<a href="https://msdn.microsoft.com/D7C8831E-6FCE-45E0-B2EB-4EB2B1F7911F">ISpellCheckProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckprovider">ISpellCheckProvider</a>
  
 
  

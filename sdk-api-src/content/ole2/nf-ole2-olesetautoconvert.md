@@ -145,7 +145,7 @@ Cannot read a key from the registry.
 
 
 
-<b>OleSetAutoConvert</b> goes to the system registry, finds the <b><a href="https://msdn.microsoft.com/e34b799b-0d23-4034-ba79-49e92ec4dea7">AutoConvertTo</a></b> subkey under the CLSID specified by <i>clsidOld</i>, and sets it to <i>clsidNew</i>. This function does not validate whether an appropriate registry entry for <i>clsidNew</i> currently exists. These entries appear in the registry as subkeys of the CLSID key.
+<b>OleSetAutoConvert</b> goes to the system registry, finds the <b><a href="https://docs.microsoft.com/windows/desktop/com/autoconvertto">AutoConvertTo</a></b> subkey under the CLSID specified by <i>clsidOld</i>, and sets it to <i>clsidNew</i>. This function does not validate whether an appropriate registry entry for <i>clsidNew</i> currently exists. These entries appear in the registry as subkeys of the CLSID key.
 
 Object conversion means that the object's data is permanently associated with a new CLSID. Automatic conversion is typically specified in the setup program of a new version of an object application, so objects created by its older versions can be automatically updated to the new version.
 
@@ -163,15 +163,15 @@ Before setting the desired <b>AutoConvertTo</b> value, setup programs should als
 
 
 
-<a href="https://msdn.microsoft.com/e34b799b-0d23-4034-ba79-49e92ec4dea7">AutoConvertTo</a>
+<a href="https://docs.microsoft.com/windows/desktop/com/autoconvertto">AutoConvertTo</a>
 
 
 
-<a href="https://msdn.microsoft.com/fe470f8a-b2f0-48a4-a270-77420bd1472a">OleDoAutoConvert</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oledoautoconvert">OleDoAutoConvert</a>
 
 
 
-<a href="https://msdn.microsoft.com/f84e578a-d2ed-4b7b-9b7c-5d63f12d5781">OleGetAutoConvert</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olegetautoconvert">OleGetAutoConvert</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a> or related object based on an item specified by an <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a>.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> or related object based on an item specified by an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>.
 
 
 ## -parameters
@@ -59,16 +59,16 @@ Creates an <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc
 
 ### -param pdtobj [in]
 
-Type: <b><a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>*</b>
 
-A pointer to the source <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> instance.
+A pointer to the source <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> instance.
 
 
 ### -param dwFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/7a5ee490-cf30-452a-ade2-22d875ce0358">DATAOBJ_GET_ITEM_FLAGS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-dataobj_get_item_flags">DATAOBJ_GET_ITEM_FLAGS</a></b>
 
-One or more values from the <a href="https://msdn.microsoft.com/7a5ee490-cf30-452a-ade2-22d875ce0358">DATAOBJ_GET_ITEM_FLAGS</a> enumeration to specify options regarding the target object. This value can be 0.
+One or more values from the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-dataobj_get_item_flags">DATAOBJ_GET_ITEM_FLAGS</a> enumeration to specify options regarding the target object. This value can be 0.
 
 
 ### -param riid [in]
@@ -82,7 +82,7 @@ A reference to the IID of the interface to retrieve through <i>ppv</i>, typicall
 
 Type: <b>void**</b>
 
-When this method returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>.
+When this method returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>.
 
 
 ## -returns

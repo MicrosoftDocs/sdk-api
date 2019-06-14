@@ -81,7 +81,7 @@ A pointer to a null-terminated string that specifies the name of the value.
 
 Type: <b>DWORD</b>
 
-Type of data to be stored. This parameter must be the <b>REG_SZ</b> type. For more information, see <a href="https://msdn.microsoft.com/4185e7af-e1f0-40af-91c7-0ff7e27896ae">Registry Data Types</a>.
+Type of data to be stored. This parameter must be the <b>REG_SZ</b> type. For more information, see <a href="https://docs.microsoft.com/windows/desktop/shell/schemas">Registry Data Types</a>.
 
 
 ### -param pvData [in, optional]
@@ -141,7 +141,7 @@ Equivalent to (<b>SHREGSET_FORCE_HKCU</b> | <b>SHREGSET_HKLM</b>).
 
 Type: <b>LSTATUS</b>
 
-Returns ERROR_SUCCESS if successful, or a nonzero error code defined in Winerror.h otherwise. You can use the <a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to retrieve a generic description of the error.
+Returns ERROR_SUCCESS if successful, or a nonzero error code defined in Winerror.h otherwise. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to retrieve a generic description of the error.
 
 
 
@@ -150,7 +150,7 @@ Returns ERROR_SUCCESS if successful, or a nonzero error code defined in Winerror
 
 
 
-This function opens the key each time it is used. If your code involves setting a series of values in the same key, it is more efficient to open the key once with <a href="https://msdn.microsoft.com/756430a9-a495-412e-95c3-a93222bc467a">SHRegOpenUSKey</a> and then use <a href="https://msdn.microsoft.com/f94569c6-415b-4263-bab4-8a5baca47901">SHRegWriteUSValue</a> to write the data.
+This function opens the key each time it is used. If your code involves setting a series of values in the same key, it is more efficient to open the key once with <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shregopenuskeya">SHRegOpenUSKey</a> and then use <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shregwriteusvaluea">SHRegWriteUSValue</a> to write the data.
 
 
 

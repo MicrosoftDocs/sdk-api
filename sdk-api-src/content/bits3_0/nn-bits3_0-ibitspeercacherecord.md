@@ -54,10 +54,10 @@ Use <b>IBitsPeerCacheRecord</b> to get information about a file in the cache.
 
 To get this interface, call one of the following methods:<ul>
 <li>
-<a href="https://msdn.microsoft.com/7dd32e9c-bf4e-4dbf-aa9f-9ffbf98d3f1c">IBitsPeerCacheAdministration::GetRecord</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-getrecord">IBitsPeerCacheAdministration::GetRecord</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/a8117baa-9f77-4735-bd15-2c7e1e759e9b">IEnumBitsPeerCacheRecords::Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ienumbitspeercacherecords-next">IEnumBitsPeerCacheRecords::Next</a>
 </li>
 </ul>
 
@@ -65,7 +65,7 @@ To get this interface, call one of the following methods:<ul>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBitsPeerCacheRecord</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBitsPeerCacheRecord</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBitsPeerCacheRecord</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBitsPeerCacheRecord</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -80,7 +80,7 @@ The <b>IBitsPeerCacheRecord</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fe24b090-7dfd-4cbe-bb5d-ff3fd01723df">GetFileModificationTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacherecord-getfilemodificationtime">GetFileModificationTime</a>
 </td>
 <td align="left" width="63%">
 Gets the date and time that the file was last modified on the server.
@@ -89,7 +89,7 @@ Gets the date and time that the file was last modified on the server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/63f9821c-f5b6-4646-96e0-4ec61ce16e9b">GetFileRanges</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacherecord-getfileranges">GetFileRanges</a>
 </td>
 <td align="left" width="63%">
 Gets the ranges of the file that are in the cache.
@@ -98,7 +98,7 @@ Gets the ranges of the file that are in the cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3b997cd0-a947-4ce7-b047-85268ea46b70">GetFileSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacherecord-getfilesize">GetFileSize</a>
 </td>
 <td align="left" width="63%">
 Gets the size of the file.
@@ -107,7 +107,7 @@ Gets the size of the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a1894ab3-0b3f-492b-8ed7-51f3b4ee1eaa">GetId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacherecord-getid">GetId</a>
 </td>
 <td align="left" width="63%">
 Get the identifier that uniquely identifies the record in the cache.
@@ -116,7 +116,7 @@ Get the identifier that uniquely identifies the record in the cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f4443db2-3d4f-497f-b2e3-d969d8271d6f">GetLastAccessTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacherecord-getlastaccesstime">GetLastAccessTime</a>
 </td>
 <td align="left" width="63%">
 Get the date and time that the file was last accessed.
@@ -125,7 +125,7 @@ Get the date and time that the file was last accessed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9d74df3a-89e0-4a3a-82f3-c2e79c609b21">GetOriginUrl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacherecord-getoriginurl">GetOriginUrl</a>
 </td>
 <td align="left" width="63%">
 Gets the origin URL of the cached file.
@@ -134,7 +134,7 @@ Gets the origin URL of the cached file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f492f009-bef7-412e-8626-ae84cd5ce03f">IsFileValidated</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacherecord-isfilevalidated">IsFileValidated</a>
 </td>
 <td align="left" width="63%">
 Determines whether the file has been validated.

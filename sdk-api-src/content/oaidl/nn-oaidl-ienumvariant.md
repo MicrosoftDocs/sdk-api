@@ -54,7 +54,7 @@ Provides a method for enumerating a collection of variants, including heterogene
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumVARIANT</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnumVARIANT</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumVARIANT</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumVARIANT</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IEnumVARIANT</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/44beac4a-784d-461e-8a4b-71bdcf512fbc">Clone</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-ienumvariant-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the current state of enumeration.
@@ -80,7 +80,7 @@ Creates a copy of the current state of enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/691c1624-8d01-41e0-890e-a4782eba1f59">Next</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-ienumvariant-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified items in the enumeration sequence.
@@ -89,7 +89,7 @@ Retrieves the specified items in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0c3f0cd7-6bad-4cb7-8b84-d8a212dbadbd">Reset</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-ienumvariant-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning.
@@ -100,7 +100,7 @@ Resets the enumeration sequence to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5fe6951f-1e21-4a3d-8694-96efb15e6d11">Skip</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-ienumvariant-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Attempts to skip over the next celt elements in the enumeration sequence.

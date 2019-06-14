@@ -61,7 +61,7 @@ Removes data collected during a namespace walk.
 
 Type: <b>HRESULT</b>
 
-The results of <a href="https://msdn.microsoft.com/cfe328f4-6db5-423b-b944-f0f390359793">Walk</a>.
+The results of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacewalk-walk">Walk</a>.
 
 
 ## -returns

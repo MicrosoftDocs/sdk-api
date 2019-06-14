@@ -61,7 +61,7 @@ The
 ### -param pSupport
 
 Pointer to 
-<a href="https://msdn.microsoft.com/36f9f126-361f-448a-a464-ffef1de25d26">FULLDUPLEX_SUPPORT</a> enumerator member, such as FDS_SUPPORTED.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-fullduplex_support">FULLDUPLEX_SUPPORT</a> enumerator member, such as FDS_SUPPORTED.
 
 
 ## -returns
@@ -97,11 +97,11 @@ Method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/36f9f126-361f-448a-a464-ffef1de25d26">FULLDUPLEX_SUPPORT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-fullduplex_support">FULLDUPLEX_SUPPORT</a>
 
 
 
-<a href="https://msdn.microsoft.com/f1ef5f5d-822d-466d-997e-e9c1a09abcbe">ITLegacyWaveSupport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itlegacywavesupport">ITLegacyWaveSupport</a>
  
 
  

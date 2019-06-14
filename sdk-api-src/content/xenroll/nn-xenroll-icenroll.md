@@ -52,12 +52,12 @@ ms.custom: 19H1
 <p class="CCE_Message">[This interface is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
 The <b>ICEnroll</b> interface is one of several interfaces that represent the Certificate Enrollment Control. It is primarily of interest if you are not using Automation. If, on the other hand, you are programming in Visual Basic or another Automation language, see the 
-<a href="https://msdn.microsoft.com/7f13549d-811b-496b-abdd-7e52cbc2ed54">CEnroll</a> object.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376007(v=vs.85)">CEnroll</a> object.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICEnroll</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICEnroll</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICEnroll</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICEnroll</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -73,397 +73,397 @@ The <b>ICEnroll</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dae9f6b8-6690-47cc-9397-168c1ff54c55">acceptFilePKCS7</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptfilepkcs7">acceptFilePKCS7</a>
 </td>
 <td align="left" width="63%">
 Accepts and processes a file that contains a PKCS #7 message containing a certificate.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5a428d83-c846-4f44-a682-58c3e025c353">acceptPKCS7</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptpkcs7">acceptPKCS7</a>
 </td>
 <td align="left" width="63%">
 Accepts and processes a PKCS #7 message containing a certificate. The PKCS #7 is input as a parameter.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/074c7321-6117-4261-836a-a2055c9e029d">createFilePKCS10</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-createfilepkcs10">createFilePKCS10</a>
 </td>
 <td align="left" width="63%">
-Creates a base64-encoded PKCS #10 <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate request</a> and saves it in a file.</p> (Inherited from <b>ICEnroll</b>)</td>
+Creates a base64-encoded PKCS #10 <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a> and saves it in a file.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b8e841c1-f16e-4f3a-94f2-ef6708c88910">createPKCS10</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-createpkcs10">createPKCS10</a>
 </td>
 <td align="left" width="63%">
 Creates a base64-encoded PKCS #10 certificate request.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/28102a55-3bda-4413-84b6-cfa2057be98b">enumContainers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-enumcontainers">enumContainers</a>
 </td>
 <td align="left" width="63%">
-Retrieves the names of the containers for the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) specified by the 
-<a href="https://msdn.microsoft.com/092d5ed1-8d03-45d8-bc7a-3e27035f4b2f">ProviderName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Retrieves the names of the containers for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) specified by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providername">ProviderName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/05188aee-2b03-46bc-89f4-506a019496a4">enumProviders</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-enumproviders">enumProviders</a>
 </td>
 <td align="left" width="63%">
 Retrieves the names of the available CSPs specified by the 
-<a href="https://msdn.microsoft.com/90daa97a-350e-4307-80a5-b018cc1f0e86">ProviderType</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providertype">ProviderType</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2d3fd4d4-779f-4e28-9b07-4de17262ac5e">freeRequestInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-freerequestinfo">freeRequestInfo</a>
 </td>
 <td align="left" width="63%">
 Cleans up the stores if an error occurs. Currently not implemented.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cde75e0f-5074-44f7-a101-f503913a58f4">get_CAStoreFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_castoreflags">get_CAStoreFlags</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/cde75e0f-5074-44f7-a101-f503913a58f4">CAStoreFlags</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_castoreflags">CAStoreFlags</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/29616175-7195-430e-a85b-99b50e276e7f">get_CAStoreName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_castorename">get_CAStoreName</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/29616175-7195-430e-a85b-99b50e276e7f">CAStoreName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_castorename">CAStoreName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8b0b113d-4046-4b2b-8f3b-ad08bfe3d0ac">get_CAStoreType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_castoretype">get_CAStoreType</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/8b0b113d-4046-4b2b-8f3b-ad08bfe3d0ac">CAStoreType</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_castoretype">CAStoreType</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fa863843-8bbc-47c5-9d58-b64fb6703c0a">get_ContainerName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_containername">get_ContainerName</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/fa863843-8bbc-47c5-9d58-b64fb6703c0a">ContainerName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_containername">ContainerName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f026f4ed-e003-4ece-8c08-427dac48229f">get_DeleteRequestCert</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_deleterequestcert">get_DeleteRequestCert</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/f026f4ed-e003-4ece-8c08-427dac48229f">DeleteRequestCert</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_deleterequestcert">DeleteRequestCert</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d22fe4d4-a939-4f77-8e11-f9312c81ec1e">get_GenKeyFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_genkeyflags">get_GenKeyFlags</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/d22fe4d4-a939-4f77-8e11-f9312c81ec1e">GenKeyFlags</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_genkeyflags">GenKeyFlags</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/48f8a47b-0ab4-4150-b8cf-37e57fb04d3e">get_HashAlgorithm</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_hashalgorithm">get_HashAlgorithm</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/48f8a47b-0ab4-4150-b8cf-37e57fb04d3e">HashAlgorithm</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_hashalgorithm">HashAlgorithm</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/30cc7c86-29ce-42e9-b9dc-d29f5b5450a5">get_KeySpec</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_keyspec">get_KeySpec</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/30cc7c86-29ce-42e9-b9dc-d29f5b5450a5">KeySpec</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_keyspec">KeySpec</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0616c666-9cfc-48f9-93a2-91d51d8dff04">get_MyStoreFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_mystoreflags">get_MyStoreFlags</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/0616c666-9cfc-48f9-93a2-91d51d8dff04">MyStoreFlags</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_mystoreflags">MyStoreFlags</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/aa08e88d-bd1f-4bd6-806e-56f720846623">get_MyStoreName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_mystorename">get_MyStoreName</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/aa08e88d-bd1f-4bd6-806e-56f720846623">MyStoreName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_mystorename">MyStoreName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/948a9012-b2ac-4bf0-8cae-690ea3ecdb2e">get_MyStoreType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_mystoretype">get_MyStoreType</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/948a9012-b2ac-4bf0-8cae-690ea3ecdb2e">MyStoreType</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_mystoretype">MyStoreType</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ddf92921-368f-4769-b2c1-b9d6a94b0fcb">get_ProviderFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providerflags">get_ProviderFlags</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/ddf92921-368f-4769-b2c1-b9d6a94b0fcb">ProviderFlags</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providerflags">ProviderFlags</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/092d5ed1-8d03-45d8-bc7a-3e27035f4b2f">get_ProviderName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providername">get_ProviderName</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/092d5ed1-8d03-45d8-bc7a-3e27035f4b2f">ProviderName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providername">ProviderName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/90daa97a-350e-4307-80a5-b018cc1f0e86">get_ProviderType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providertype">get_ProviderType</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/90daa97a-350e-4307-80a5-b018cc1f0e86">ProviderType</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providertype">ProviderType</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3f841bb2-6cfd-4712-bb71-5c3d9d462fab">get_PVKFileName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_pvkfilename">get_PVKFileName</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/3f841bb2-6cfd-4712-bb71-5c3d9d462fab">PVKFileName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_pvkfilename">PVKFileName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/399870f0-69e1-4a21-a7fa-c3de9ee66876">get_RequestStoreFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_requeststoreflags">get_RequestStoreFlags</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/399870f0-69e1-4a21-a7fa-c3de9ee66876">RequestStoreFlags</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_requeststoreflags">RequestStoreFlags</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c42d1dc8-ee1c-4bb7-b54f-6ede3301ce03">get_RequestStoreName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_requeststorename">get_RequestStoreName</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/c42d1dc8-ee1c-4bb7-b54f-6ede3301ce03">RequestStoreName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_requeststorename">RequestStoreName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cc0d09bc-3589-454d-a1fe-141af46bc45b">get_RequestStoreType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_requeststoretype">get_RequestStoreType</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/cc0d09bc-3589-454d-a1fe-141af46bc45b">RequestStoreType</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_requeststoretype">RequestStoreType</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bf844047-4f5a-42de-a446-195371c0dbcf">get_RootStoreFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_rootstoreflags">get_RootStoreFlags</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/bf844047-4f5a-42de-a446-195371c0dbcf">RootStoreFlags</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_rootstoreflags">RootStoreFlags</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5b686ade-e8ee-4c59-ab90-05088f575acd">get_RootStoreName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_rootstorename">get_RootStoreName</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/5b686ade-e8ee-4c59-ab90-05088f575acd">RootStoreName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_rootstorename">RootStoreName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/452f89ad-e512-4ac7-816a-c3f97e25350a">get_RootStoreType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_rootstoretype">get_RootStoreType</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/452f89ad-e512-4ac7-816a-c3f97e25350a">RootStoreType</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_rootstoretype">RootStoreType</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4ff2f111-31bd-4ed4-a335-2db536477660">get_SPCFileName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_spcfilename">get_SPCFileName</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/4ff2f111-31bd-4ed4-a335-2db536477660">SPCFileName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_spcfilename">SPCFileName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e5115033-bda1-4160-84b3-80c692bf64fb">get_UseExistingKeySet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_useexistingkeyset">get_UseExistingKeySet</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/e5115033-bda1-4160-84b3-80c692bf64fb">UseExistingKeySet</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_useexistingkeyset">UseExistingKeySet</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cc622f5b-e6d0-48c5-8535-29d6d4b02129">get_WriteCertToCSP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_writecerttocsp">get_WriteCertToCSP</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/cc622f5b-e6d0-48c5-8535-29d6d4b02129">WriteCertToCSP</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_writecerttocsp">WriteCertToCSP</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3094cd58-d123-40f1-ac81-dffdfb56d47d">getCertFromPKCS7</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-getcertfrompkcs7">getCertFromPKCS7</a>
 </td>
 <td align="left" width="63%">
 Retrieves the certificate, contained in a PKCS #7 message, that was  issued in response to a PKCS #10 certificate request.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0616c666-9cfc-48f9-93a2-91d51d8dff04">put MyStoreFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_mystoreflags">put MyStoreFlags</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://msdn.microsoft.com/0616c666-9cfc-48f9-93a2-91d51d8dff04">MyStoreFlags</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_mystoreflags">MyStoreFlags</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cde75e0f-5074-44f7-a101-f503913a58f4">put_CAStoreFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_castoreflags">put_CAStoreFlags</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://msdn.microsoft.com/cde75e0f-5074-44f7-a101-f503913a58f4">CAStoreFlags</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_castoreflags">CAStoreFlags</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/29616175-7195-430e-a85b-99b50e276e7f">put_CAStoreName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_castorename">put_CAStoreName</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://msdn.microsoft.com/29616175-7195-430e-a85b-99b50e276e7f">CAStoreName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_castorename">CAStoreName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8b0b113d-4046-4b2b-8f3b-ad08bfe3d0ac">put_CAStoreType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_castoretype">put_CAStoreType</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://msdn.microsoft.com/8b0b113d-4046-4b2b-8f3b-ad08bfe3d0ac">CAStoreType</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_castoretype">CAStoreType</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fa863843-8bbc-47c5-9d58-b64fb6703c0a">put_ContainerName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_containername">put_ContainerName</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://msdn.microsoft.com/fa863843-8bbc-47c5-9d58-b64fb6703c0a">ContainerName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_containername">ContainerName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f026f4ed-e003-4ece-8c08-427dac48229f">put_DeleteRequestCert</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_deleterequestcert">put_DeleteRequestCert</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://msdn.microsoft.com/f026f4ed-e003-4ece-8c08-427dac48229f">DeleteRequestCert</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_deleterequestcert">DeleteRequestCert</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d22fe4d4-a939-4f77-8e11-f9312c81ec1e">put_GenKeyFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_genkeyflags">put_GenKeyFlags</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://msdn.microsoft.com/d22fe4d4-a939-4f77-8e11-f9312c81ec1e">GenKeyFlags</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_genkeyflags">GenKeyFlags</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/48f8a47b-0ab4-4150-b8cf-37e57fb04d3e">put_HashAlgorithm</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_hashalgorithm">put_HashAlgorithm</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://msdn.microsoft.com/48f8a47b-0ab4-4150-b8cf-37e57fb04d3e">HashAlgorithm</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_hashalgorithm">HashAlgorithm</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/30cc7c86-29ce-42e9-b9dc-d29f5b5450a5">put_KeySpec</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_keyspec">put_KeySpec</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://msdn.microsoft.com/30cc7c86-29ce-42e9-b9dc-d29f5b5450a5">KeySpec</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_keyspec">KeySpec</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/aa08e88d-bd1f-4bd6-806e-56f720846623">put_MyStoreName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_mystorename">put_MyStoreName</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://msdn.microsoft.com/aa08e88d-bd1f-4bd6-806e-56f720846623">MyStoreName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_mystorename">MyStoreName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/948a9012-b2ac-4bf0-8cae-690ea3ecdb2e">put_MyStoreType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_mystoretype">put_MyStoreType</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://msdn.microsoft.com/948a9012-b2ac-4bf0-8cae-690ea3ecdb2e">MyStoreType</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_mystoretype">MyStoreType</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ddf92921-368f-4769-b2c1-b9d6a94b0fcb">put_ProviderFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providerflags">put_ProviderFlags</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://msdn.microsoft.com/ddf92921-368f-4769-b2c1-b9d6a94b0fcb">ProviderFlags</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providerflags">ProviderFlags</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/092d5ed1-8d03-45d8-bc7a-3e27035f4b2f">put_ProviderName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providername">put_ProviderName</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://msdn.microsoft.com/092d5ed1-8d03-45d8-bc7a-3e27035f4b2f">ProviderName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providername">ProviderName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/90daa97a-350e-4307-80a5-b018cc1f0e86">put_ProviderType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providertype">put_ProviderType</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://msdn.microsoft.com/90daa97a-350e-4307-80a5-b018cc1f0e86">ProviderType</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providertype">ProviderType</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3f841bb2-6cfd-4712-bb71-5c3d9d462fab">put_PVKFileName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_pvkfilename">put_PVKFileName</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://msdn.microsoft.com/3f841bb2-6cfd-4712-bb71-5c3d9d462fab">PVKFileName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_pvkfilename">PVKFileName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/399870f0-69e1-4a21-a7fa-c3de9ee66876">put_RequestStoreFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_requeststoreflags">put_RequestStoreFlags</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://msdn.microsoft.com/399870f0-69e1-4a21-a7fa-c3de9ee66876">RequestStoreFlags</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_requeststoreflags">RequestStoreFlags</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c42d1dc8-ee1c-4bb7-b54f-6ede3301ce03">put_RequestStoreName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_requeststorename">put_RequestStoreName</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://msdn.microsoft.com/c42d1dc8-ee1c-4bb7-b54f-6ede3301ce03">RequestStoreName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_requeststorename">RequestStoreName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cc0d09bc-3589-454d-a1fe-141af46bc45b">put_RequestStoreType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_requeststoretype">put_RequestStoreType</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://msdn.microsoft.com/cc0d09bc-3589-454d-a1fe-141af46bc45b">RequestStoreType</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_requeststoretype">RequestStoreType</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bf844047-4f5a-42de-a446-195371c0dbcf">put_RootStoreFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_rootstoreflags">put_RootStoreFlags</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://msdn.microsoft.com/bf844047-4f5a-42de-a446-195371c0dbcf">RootStoreFlags</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_rootstoreflags">RootStoreFlags</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5b686ade-e8ee-4c59-ab90-05088f575acd">put_RootStoreName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_rootstorename">put_RootStoreName</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://msdn.microsoft.com/5b686ade-e8ee-4c59-ab90-05088f575acd">RootStoreName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_rootstorename">RootStoreName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/452f89ad-e512-4ac7-816a-c3f97e25350a">put_RootStoreType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_rootstoretype">put_RootStoreType</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://msdn.microsoft.com/452f89ad-e512-4ac7-816a-c3f97e25350a">RootStoreType</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_rootstoretype">RootStoreType</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4ff2f111-31bd-4ed4-a335-2db536477660">put_SPCFileName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_spcfilename">put_SPCFileName</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://msdn.microsoft.com/4ff2f111-31bd-4ed4-a335-2db536477660">SPCFileName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_spcfilename">SPCFileName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e5115033-bda1-4160-84b3-80c692bf64fb">put_UseExistingKeySet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_useexistingkeyset">put_UseExistingKeySet</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://msdn.microsoft.com/e5115033-bda1-4160-84b3-80c692bf64fb">UseExistingKeySet</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_useexistingkeyset">UseExistingKeySet</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cc622f5b-e6d0-48c5-8535-29d6d4b02129">put_WriteCertToCSP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_writecerttocsp">put_WriteCertToCSP</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://msdn.microsoft.com/cc622f5b-e6d0-48c5-8535-29d6d4b02129">WriteCertToCSP</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_writecerttocsp">WriteCertToCSP</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 </table> 
 <h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICEnroll</b> interface has these properties.
@@ -476,7 +476,7 @@ Sets the value of the <a href="https://msdn.microsoft.com/cc622f5b-e6d0-48c5-853
 <tr data="inherited;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/cde75e0f-5074-44f7-a101-f503913a58f4">CAStoreFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_castoreflags">CAStoreFlags</a>
 
 
 </td>
@@ -490,7 +490,7 @@ Sets or retrieves a flag that controls the certificate store when it is opened.<
 <tr data="inherited;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/29616175-7195-430e-a85b-99b50e276e7f">CAStoreName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_castorename">CAStoreName</a>
 
 
 </td>
@@ -504,7 +504,7 @@ Read/write
 <tr data="inherited;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8b0b113d-4046-4b2b-8f3b-ad08bfe3d0ac">CAStoreType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_castoretype">CAStoreType</a>
 
 
 </td>
@@ -514,12 +514,12 @@ Read/write
 </td>
 <td align="left" width="63%">
 Sets or retrieves the type of store to use for the store specified by the 
-<a href="https://msdn.microsoft.com/29616175-7195-430e-a85b-99b50e276e7f">CAStoreName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_castorename">CAStoreName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/fa863843-8bbc-47c5-9d58-b64fb6703c0a">ContainerName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_containername">ContainerName</a>
 
 
 </td>
@@ -528,12 +528,12 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Sets or retrieves the  name of the <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33">key container</a> to use.</p> (Inherited from <b>ICEnroll</b>)</td>
+Sets or retrieves the  name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key container</a> to use.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/f026f4ed-e003-4ece-8c08-427dac48229f">DeleteRequestCert</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_deleterequestcert">DeleteRequestCert</a>
 
 
 </td>
@@ -547,7 +547,7 @@ Sets or retrieves a Boolean indicator that controls whether dummy certificates i
 <tr data="inherited;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d22fe4d4-a939-4f77-8e11-f9312c81ec1e">GenKeyFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_genkeyflags">GenKeyFlags</a>
 
 
 </td>
@@ -556,12 +556,12 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Sets or retrieves a flag that controls whether a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> is exportable.</p> (Inherited from <b>ICEnroll</b>)</td>
+Sets or retrieves a flag that controls whether a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> is exportable.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/48f8a47b-0ab4-4150-b8cf-37e57fb04d3e">HashAlgorithm</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_hashalgorithm">HashAlgorithm</a>
 
 
 </td>
@@ -570,12 +570,12 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Sets or retrieves only the signature <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash algorithm</a> used to sign the PKCS #10.</p> (Inherited from <b>ICEnroll</b>)</td>
+Sets or retrieves only the signature <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash algorithm</a> used to sign the PKCS #10.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/30cc7c86-29ce-42e9-b9dc-d29f5b5450a5">KeySpec</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_keyspec">KeySpec</a>
 
 
 </td>
@@ -589,7 +589,7 @@ Sets or retrieves the  type of key generated.</p> (Inherited from <b>ICEnroll</b
 <tr data="inherited;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/0616c666-9cfc-48f9-93a2-91d51d8dff04">MyStoreFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_mystoreflags">MyStoreFlags</a>
 
 
 </td>
@@ -603,7 +603,7 @@ Sets the registry location used for the MY store.</p> (Inherited from <b>ICEnrol
 <tr data="inherited;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/aa08e88d-bd1f-4bd6-806e-56f720846623">MyStoreName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_mystorename">MyStoreName</a>
 
 
 </td>
@@ -617,7 +617,7 @@ Read/write
 <tr data="inherited;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/948a9012-b2ac-4bf0-8cae-690ea3ecdb2e">MyStoreType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_mystoretype">MyStoreType</a>
 
 
 </td>
@@ -627,12 +627,12 @@ Read/write
 </td>
 <td align="left" width="63%">
 Sets or retrieves the type of store  specified by the 
-<a href="https://msdn.microsoft.com/aa08e88d-bd1f-4bd6-806e-56f720846623">MyStoreName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_mystorename">MyStoreName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/ddf92921-368f-4769-b2c1-b9d6a94b0fcb">ProviderFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providerflags">ProviderFlags</a>
 
 
 </td>
@@ -646,7 +646,7 @@ Read/write
 <tr data="inherited;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/092d5ed1-8d03-45d8-bc7a-3e27035f4b2f">ProviderName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providername">ProviderName</a>
 
 
 </td>
@@ -660,7 +660,7 @@ Read/write
 <tr data="inherited;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/90daa97a-350e-4307-80a5-b018cc1f0e86">ProviderType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providertype">ProviderType</a>
 
 
 </td>
@@ -674,7 +674,7 @@ Read/write
 <tr data="inherited;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/3f841bb2-6cfd-4712-bb71-5c3d9d462fab">PVKFileName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_pvkfilename">PVKFileName</a>
 
 
 </td>
@@ -688,7 +688,7 @@ Read/write
 <tr data="inherited;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/399870f0-69e1-4a21-a7fa-c3de9ee66876">RequestStoreFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_requeststoreflags">RequestStoreFlags</a>
 
 
 </td>
@@ -702,7 +702,7 @@ Sets or retrieves the registry location used for the REQUEST store.</p> (Inherit
 <tr data="inherited;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c42d1dc8-ee1c-4bb7-b54f-6ede3301ce03">RequestStoreName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_requeststorename">RequestStoreName</a>
 
 
 </td>
@@ -711,12 +711,12 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Sets or retrieves the name of the store that contains the dummy certificate. This dummy certificate, along with the added private keys, remains in the request store  until a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> processes the request and responds with a PKCS #7. </p> (Inherited from <b>ICEnroll</b>)</td>
+Sets or retrieves the name of the store that contains the dummy certificate. This dummy certificate, along with the added private keys, remains in the request store  until a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> processes the request and responds with a PKCS #7. </p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/cc0d09bc-3589-454d-a1fe-141af46bc45b">RequestStoreType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_requeststoretype">RequestStoreType</a>
 
 
 </td>
@@ -726,12 +726,12 @@ Read/write
 </td>
 <td align="left" width="63%">
  Sets or retrieves the type of store to use for the store specified by the 
-<a href="https://msdn.microsoft.com/c42d1dc8-ee1c-4bb7-b54f-6ede3301ce03">RequestStoreName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_requeststorename">RequestStoreName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/bf844047-4f5a-42de-a446-195371c0dbcf">RootStoreFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_rootstoreflags">RootStoreFlags</a>
 
 
 </td>
@@ -745,7 +745,7 @@ Sets or retrieves the registry location used for the ROOT store.</p> (Inherited 
 <tr data="inherited;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/5b686ade-e8ee-4c59-ab90-05088f575acd">RootStoreName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_rootstorename">RootStoreName</a>
 
 
 </td>
@@ -754,12 +754,12 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Sets or retrieves the name of the root store where all intrinsically trusted self-signed <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">ROOT certificates</a> are kept.</p> (Inherited from <b>ICEnroll</b>)</td>
+Sets or retrieves the name of the root store where all intrinsically trusted self-signed <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">ROOT certificates</a> are kept.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/452f89ad-e512-4ac7-816a-c3f97e25350a">RootStoreType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_rootstoretype">RootStoreType</a>
 
 
 </td>
@@ -769,12 +769,12 @@ Read/write
 </td>
 <td align="left" width="63%">
 Sets or retrieves the type of store to use for the store specified by the 
-<a href="https://msdn.microsoft.com/5b686ade-e8ee-4c59-ab90-05088f575acd">RootStoreName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_rootstorename">RootStoreName</a> property.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/4ff2f111-31bd-4ed4-a335-2db536477660">SPCFileName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_spcfilename">SPCFileName</a>
 
 
 </td>
@@ -788,7 +788,7 @@ Sets or retrieves the name of the file to write the resulting base64-encoded PKC
 <tr data="inherited;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/e5115033-bda1-4160-84b3-80c692bf64fb">UseExistingKeySet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_useexistingkeyset">UseExistingKeySet</a>
 
 
 </td>
@@ -802,7 +802,7 @@ Read/write
 <tr data="inherited;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/cc622f5b-e6d0-48c5-8535-29d6d4b02129">WriteCertToCSP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_writecerttocsp">WriteCertToCSP</a>
 
 
 </td>
@@ -821,19 +821,19 @@ Sets or retrieves a Boolean value that indicates whether a certificate should be
 
 
 
-<a href="https://msdn.microsoft.com/12c51daf-a72f-43da-9fb7-20ec261b4917">ICEnroll2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll2">ICEnroll2</a>
 
 
 
-<a href="https://msdn.microsoft.com/4caa7e75-0116-4891-8bf2-ede09a05a440">ICEnroll3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll3">ICEnroll3</a>
 
 
 
-<a href="https://msdn.microsoft.com/4e3e3792-aa41-46fe-bf75-26c2b8959f7a">ICEnroll4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

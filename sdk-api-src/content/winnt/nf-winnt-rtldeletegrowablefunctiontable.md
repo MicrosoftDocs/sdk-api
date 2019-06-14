@@ -60,7 +60,7 @@ Informs the system that a previously reported dynamic function table is no longe
 
 ### -param DynamicTable [in]
 
-An opaque reference returned by <a href="https://msdn.microsoft.com/84ba7171-a4eb-4807-9883-f4fac6296ed0">RtlAddGrowableFunctionTable.</a>
+An opaque reference returned by <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-rtladdgrowablefunctiontable">RtlAddGrowableFunctionTable.</a>
 
 
 

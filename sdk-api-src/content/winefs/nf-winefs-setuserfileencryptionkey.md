@@ -60,7 +60,7 @@ Sets the user's current key to the specified certificate.
 ### -param pEncryptionCertificate [in]
 
 A pointer to a certificate that will be the user's key. This parameter is a pointer to an 
-<a href="https://msdn.microsoft.com/33b36659-48bb-4297-8142-f8702db03d20">ENCRYPTION_CERTIFICATE</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-_encryption_certificate">ENCRYPTION_CERTIFICATE</a> structure.
 
 
 ## -returns
@@ -70,7 +70,7 @@ A pointer to a certificate that will be the user's key. This parameter is a poin
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 If the function fails, the return value is a system error code. For a complete list of error codes, see 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a> or the header file WinError.h.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a> or the header file WinError.h.
 
 
 
@@ -150,15 +150,15 @@ SMB 3.0 does not support EFS on shares with continuous availability capability.
 
 
 
-<a href="https://msdn.microsoft.com/33b36659-48bb-4297-8142-f8702db03d20">ENCRYPTION_CERTIFICATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-_encryption_certificate">ENCRYPTION_CERTIFICATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f20109f-727d-44a9-90a1-0adc19b00d28">File Encryption</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>
 
 
 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
  
 
  

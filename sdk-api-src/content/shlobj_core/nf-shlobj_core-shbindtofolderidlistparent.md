@@ -63,7 +63,7 @@ Given a Shell namespace item specified in the form of a folder, and an item iden
 
 ### -param psfRoot [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>*</b>
 
 A pointer to a Shell folder object. If <i>psfRoot</i> is <b>NULL</b>, indicates that the IDList passed is relative to the desktop.
 
@@ -86,7 +86,7 @@ Reference to the desired interface ID. This is typically IID_IShellFolder or IID
 
 Type: <b>void**</b>
 
-When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a> or <a href="https://msdn.microsoft.com/9b008034-3576-429e-b67c-e2222592ca46">IShellFolder2</a>, but can be anything supported by the target folder.
+When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2">IShellFolder2</a>, but can be anything supported by the target folder.
 
 
 ### -param ppidlLast [out, optional]
@@ -111,7 +111,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<div class="alert"><b>Note</b>  Calling the <b>SHBindToFolderIDListParent</b> function is equivalent to calling the <a href="https://msdn.microsoft.com/4f9b68cb-d0ae-45f7-90f5-2db1da3ab599">SHBindToFolderIDListParentEx</a> function with <b>NULL</b> as the bind context.</div>
+<div class="alert"><b>Note</b>  Calling the <b>SHBindToFolderIDListParent</b> function is equivalent to calling the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shbindtofolderidlistparentex">SHBindToFolderIDListParentEx</a> function with <b>NULL</b> as the bind context.</div>
 <div> </div>
 
 
@@ -121,7 +121,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/4f9b68cb-d0ae-45f7-90f5-2db1da3ab599">SHBindToFolderIDListParentEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shbindtofolderidlistparentex">SHBindToFolderIDListParentEx</a>
  
 
  

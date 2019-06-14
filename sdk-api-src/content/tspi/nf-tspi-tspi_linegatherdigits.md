@@ -66,7 +66,7 @@ The service provider's handle to the call on which digit gathering is to be perf
 ### -param dwEndToEndID
 
 A unique, uninterpreted identifier of the request for its entire lifetime, that is, until the matching 
-<a href="https://msdn.microsoft.com/bc625ff5-4af4-4e70-ab3a-1c12c74cff1c">LINE_GATHERDIGITS</a> message is sent. The service provider includes this identifier as one of the parameters in the message.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725229(v=vs.85)">LINE_GATHERDIGITS</a> message is sent. The service provider includes this identifier as one of the parameters in the message.
 
 
 ### -param dwDigitModes
@@ -105,7 +105,7 @@ Detect digits as DTMF tones. Valid digits for DTMF mode are '0' through '9', 'A'
 ### -param lpsDigits
 
 A pointer to the buffer where detected digits are to be stored as text characters. The service provider may, but is not required to, place digits in the buffer one at a time as they are collected. When the 
-<a href="https://msdn.microsoft.com/bc625ff5-4af4-4e70-ab3a-1c12c74cff1c">LINE_GATHERDIGITS</a> message is sent, the content of the buffer must be complete. If <i>lpsDigits</i> is specified as <b>NULL</b> the digit gathering currently in progress on the call is canceled and the <i>dwNumDigits</i> parameter is ignored. Otherwise, <i>lpsDigits</i> is assumed to have room for <i>dwNumDigits</i> digits.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725229(v=vs.85)">LINE_GATHERDIGITS</a> message is sent, the content of the buffer must be complete. If <i>lpsDigits</i> is specified as <b>NULL</b> the digit gathering currently in progress on the call is canceled and the <i>dwNumDigits</i> parameter is ignored. Otherwise, <i>lpsDigits</i> is assumed to have room for <i>dwNumDigits</i> digits.
 
 
 ### -param dwNumDigits
@@ -116,7 +116,7 @@ The number of digits to be collected before a LINE_GATHERDIGITS message is sent 
 ### -param lpszTerminationDigits
 
 Pointer to a <b>null</b>-terminated Unicode string of termination digits as text characters. If one of the digits in the string is detected, that termination digit is appended to the buffer, digit collection is terminated, and the 
-<a href="https://msdn.microsoft.com/bc625ff5-4af4-4e70-ab3a-1c12c74cff1c">LINE_GATHERDIGITS</a> message is sent to TAPI. 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725229(v=vs.85)">LINE_GATHERDIGITS</a> message is sent to TAPI. 
 
 
 
@@ -132,8 +132,8 @@ The time duration in milliseconds in which the first digit is expected. If the f
 ### -param dwInterDigitTimeout
 
 The maximum time duration in milliseconds between consecutive digits. If no digit is received in this timeframe, digit collection is terminated and a 
-<a href="https://msdn.microsoft.com/bc625ff5-4af4-4e70-ab3a-1c12c74cff1c">LINE_GATHERDIGITS</a> message is sent to TAPI. A single NULL character is written to the buffer, indicating that an interdigit timeout terminated digit gathering. The 
-<a href="https://msdn.microsoft.com/83e38453-bb93-4cc5-923f-d0cd2898350a">LINEDEVCAPS</a> structure must specify the valid range for this parameter or indicate that timeouts are not supported. This parameter is not validated by TAPI when this function is called.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725229(v=vs.85)">LINE_GATHERDIGITS</a> message is sent to TAPI. A single NULL character is written to the buffer, indicating that an interdigit timeout terminated digit gathering. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a> structure must specify the valid range for this parameter or indicate that timeouts are not supported. This parameter is not validated by TAPI when this function is called.
 
 
 ## -returns
@@ -166,7 +166,7 @@ Digit collection can be terminated in the following ways:
 Although this function can be invoked in any call state except <i>idle</i>, digits can typically only be gathered while the call is in the <i>connected</i> state.
 
 The 
-<a href="https://msdn.microsoft.com/bc625ff5-4af4-4e70-ab3a-1c12c74cff1c">LINE_GATHERDIGITS</a> message is normally sent when the digit buffer becomes filled. It is also sent when partial buffers are returned because of timeouts or matching termination digits, or when the request is canceled through another 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725229(v=vs.85)">LINE_GATHERDIGITS</a> message is normally sent when the digit buffer becomes filled. It is also sent when partial buffers are returned because of timeouts or matching termination digits, or when the request is canceled through another 
 <b>TSPI_lineGatherDigits</b> request on the call. Only one gather digits request can be active at a time. The service provider must terminate any outstanding gathering operation with a LINE_GATHERDIGITS message when 
 <b>TSPI_lineGatherDigits</b> is called.
 
@@ -174,11 +174,11 @@ When the operation associated with a call to the
 <b>TSPI_lineGatherDigits</b> function is canceled (by a subsequent call to the function), the service provider copies any digits collected up to that point to the buffer specified in the original call.
 
 TAPI can use 
-<a href="https://msdn.microsoft.com/3153eb0e-32e9-40bf-b6aa-de594f6edbf6">TSPI_lineMonitorDigits</a> to enable or disable unbuffered digit detection. Each time a digit is detected in this fashion, a 
-<a href="https://msdn.microsoft.com/f1771e15-6356-4455-a951-ce0a2803bcfc">LINE_MONITORDIGITS</a> message is sent to TAPI. Both buffered (gather digits) and unbuffered digit detection can be enabled for the same call simultaneously.
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linemonitordigits">TSPI_lineMonitorDigits</a> to enable or disable unbuffered digit detection. Each time a digit is detected in this fashion, a 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725232(v=vs.85)">LINE_MONITORDIGITS</a> message is sent to TAPI. Both buffered (gather digits) and unbuffered digit detection can be enabled for the same call simultaneously.
 
 The service provider is allowed some variation in the quality of timing it uses for this function, including not doing timings at all. The quality of timing is reported in 
-<a href="https://msdn.microsoft.com/83e38453-bb93-4cc5-923f-d0cd2898350a">LINEDEVCAPS</a>, in the members <b>dwGatherDigitsMinTimeout</b> and <b>dwGatherDigitsMaxTimeout</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>, in the members <b>dwGatherDigitsMinTimeout</b> and <b>dwGatherDigitsMaxTimeout</b>.
 
 The corresponding function at the TAPI level does not include the formal parameter <i>dwEndToEndID</i>. At that level, there is no end-to-end marking. TAPI uses end-to-end marking at the TSPI level to distinguish one 
 <b>TSPI_lineGatherDigits</b> request from another.
@@ -191,27 +191,27 @@ The corresponding function at the TAPI level does not include the formal paramet
 
 
 
-<a href="https://msdn.microsoft.com/83e38453-bb93-4cc5-923f-d0cd2898350a">LINEDEVCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/d603ea28-2b93-4548-bb16-78e93087f828">LINEDIGITMODE_ Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linedigitmode--constants">LINEDIGITMODE_ Constants</a>
 
 
 
-<a href="https://msdn.microsoft.com/bc625ff5-4af4-4e70-ab3a-1c12c74cff1c">LINE_GATHERDIGITS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725229(v=vs.85)">LINE_GATHERDIGITS</a>
 
 
 
-<a href="https://msdn.microsoft.com/f1771e15-6356-4455-a951-ce0a2803bcfc">LINE_MONITORDIGITS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725232(v=vs.85)">LINE_MONITORDIGITS</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c5a668e-9a9a-4a7a-98e9-bd8ec4b819b2">TSPI_lineGetDevCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetdevcaps">TSPI_lineGetDevCaps</a>
 
 
 
-<a href="https://msdn.microsoft.com/3153eb0e-32e9-40bf-b6aa-de594f6edbf6">TSPI_lineMonitorDigits</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linemonitordigits">TSPI_lineMonitorDigits</a>
  
 
  

@@ -89,11 +89,11 @@ Specify this setting to get the best video quality possible. It is appropriate f
 
 
 
-<a href="https://msdn.microsoft.com/A1649897-B368-4D03-9A08-630C8C59E44A">D3D11_VIDEO_PROCESSOR_CONTENT_DESC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_processor_content_desc">D3D11_VIDEO_PROCESSOR_CONTENT_DESC</a>
 
 
 
-<a href="https://msdn.microsoft.com/40061AD1-BCD9-4170-A442-34B4C792BB55">Direct3D 11 Video Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-enumerations">Direct3D 11 Video Enumerations</a>
  
 
  

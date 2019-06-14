@@ -59,7 +59,7 @@ ms.custom: 19H1
 
 ### -param gdiInterop [out]
 
-Type: <b><a href="https://msdn.microsoft.com/79472021-ee12-45dd-a943-3908c9e06cde">IDWriteGdiInterop</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritegdiinterop">IDWriteGdiInterop</a>**</b>
 
 When this method returns, contains an address of a pointer to a GDI interop object if successful, or <b>NULL</b> in case of failure.
 
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/73a85977-5c24-4abc-ad8c-1d0d6474bd7e">IDWriteFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>
  
 
  

@@ -51,11 +51,11 @@ ms.custom: 19H1
 
 
 Provides an application callback mechanism during data transfers from Windows Image Acquisition (WIA) hardware devices to applications.
-<div class="alert"><b>Note</b>  For Windows Vista applications, use <a href="https://msdn.microsoft.com/en-us/library/ms629914(v=VS.85).aspx">IWiaTransferCallback</a> instead of <b>IWiaDataCallback</b>.</div><div> </div>
+<div class="alert"><b>Note</b>  For Windows Vista applications, use <a href="https://docs.microsoft.com/windows/desktop/wia/-wia-iwiatransfercallback">IWiaTransferCallback</a> instead of <b>IWiaDataCallback</b>.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWiaDataCallback</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWiaDataCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWiaDataCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWiaDataCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,10 +70,10 @@ The <b>IWiaDataCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms630156(v=VS.85).aspx">BandedDataCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatacallback-bandeddatacallback">BandedDataCallback</a>
 </td>
 <td align="left" width="63%">
-Provides data transfer status notifications. WIA data transfer methods of the <a href="https://msdn.microsoft.com/en-us/library/ms630155(v=VS.85).aspx">IWiaDataTransfer</a> interface periodically call this method. 
+Provides data transfer status notifications. WIA data transfer methods of the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer">IWiaDataTransfer</a> interface periodically call this method. 
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ Provides data transfer status notifications. WIA data transfer methods of the <a
 
 
 
-The <b>IWiaDataCallback</b> interface, like all Component Object Model (COM) interfaces, inherits the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface methods. 
+The <b>IWiaDataCallback</b> interface, like all Component Object Model (COM) interfaces, inherits the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface methods. 
 
 <table class="clsStd">
 <tr>
@@ -93,19 +93,19 @@ The <b>IWiaDataCallback</b> interface, like all Component Object Model (COM) int
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">IUnknown::QueryInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a>
 </td>
 <td>Returns pointers to supported interfaces.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63">IUnknown::AddRef</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a>
 </td>
 <td>Increments reference count.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a>
 </td>
 <td>Decrements reference count.</td>
 </tr>

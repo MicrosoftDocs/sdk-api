@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The <b>FWPS_INCOMING_VALUES0</b> structure defines data values that are passed by the filter engine to a
   callout's 
-  <a href="https://msdn.microsoft.com/e8423c27-d3eb-4bef-a835-37fae0e2b68c">classifyFn</a> callout function.
-<div class="alert"><b>Note</b>  <b>FWPS_INCOMING_VALUES0</b> is a specific version of <b>FWPS_INCOMING_VALUES</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn</a> callout function.
+<div class="alert"><b>Note</b>  <b>FWPS_INCOMING_VALUES0</b> is a specific version of <b>FWPS_INCOMING_VALUES</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -struct-fields
 
@@ -63,14 +63,14 @@ The <b>FWPS_INCOMING_VALUES0</b> structure defines data values that are passed b
 
 The run-time filtering layer identifier for the filtering layer at which the data values were
      obtained. For more information, see 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">Run-time Filtering Layer
+     <a href="https://docs.microsoft.com/windows/desktop/FWP/management-filtering-layer-identifiers-">Run-time Filtering Layer
      Identifiers</a>.
 
 
 ### -field valueCount
 
 The number of 
-     <a href="https://msdn.microsoft.com/94a81a93-7c92-4c0a-9ac7-c2085175c1a7">FWPS_INCOMING_VALUE0</a> structures in the
+     <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_incoming_value0_">FWPS_INCOMING_VALUE0</a> structures in the
      array pointed to by the 
      <b>incomingValue</b> member.
 
@@ -78,7 +78,7 @@ The number of
 ### -field incomingValue
 
 A pointer to an array of 
-     <a href="https://msdn.microsoft.com/94a81a93-7c92-4c0a-9ac7-c2085175c1a7">FWPS_INCOMING_VALUE0</a> structures that
+     <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_incoming_value0_">FWPS_INCOMING_VALUE0</a> structures that
      contain the data values.
 
 
@@ -87,7 +87,7 @@ A pointer to an array of
 
 
 The filter engine passes a pointer to an FWPS_INCOMING_VALUES0 structure to a callout's 
-    <a href="https://msdn.microsoft.com/e8423c27-d3eb-4bef-a835-37fae0e2b68c">classifyFn</a> callout function.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn</a> callout function.
 
 
 
@@ -97,11 +97,11 @@ The filter engine passes a pointer to an FWPS_INCOMING_VALUES0 structure to a ca
 
 
 
-<a href="https://msdn.microsoft.com/94a81a93-7c92-4c0a-9ac7-c2085175c1a7">FWPS_INCOMING_VALUE0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_incoming_value0_">FWPS_INCOMING_VALUE0</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8423c27-d3eb-4bef-a835-37fae0e2b68c">classifyFn</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn</a>
  
 
  

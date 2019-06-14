@@ -98,7 +98,7 @@ The method returns an <b>HRESULT</b>. Possible values include the following.
 </dl>
 </td>
 <td width="60%">
-The graph is not built. Call the <a href="https://msdn.microsoft.com/49f78dd8-f26e-456d-b67e-155ae0ed5419">Build</a> or <a href="https://msdn.microsoft.com/ec0e2a88-13c0-42f3-ba7d-8ebff1234b86">View</a> method on the Video Control.
+The graph is not built. Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-build">Build</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-view">View</a> method on the Video Control.
 
 </td>
 </tr>
@@ -151,16 +151,16 @@ The position mode determines how the parameters are interpreted for the followin
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd694592(v=VS.85).aspx">IMSVidPlayback::get_Length</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidplayback-get_length">IMSVidPlayback::get_Length</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd694590(v=VS.85).aspx">IMSVidPlayback::get_CurrentPosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidplayback-get_currentposition">IMSVidPlayback::get_CurrentPosition</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd694596(v=VS.85).aspx">IMSVidPlayback::put_CurrentPosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidplayback-put_currentposition">IMSVidPlayback::put_CurrentPosition</a>
 </li>
 </ul>
-Call the <a href="https://msdn.microsoft.com/49f78dd8-f26e-456d-b67e-155ae0ed5419">IMSVidCtl::Build</a> or <a href="https://msdn.microsoft.com/ec0e2a88-13c0-42f3-ba7d-8ebff1234b86">IMSVidCtl::View</a> method before calling this method.
+Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-build">IMSVidCtl::Build</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-view">IMSVidCtl::View</a> method before calling this method.
 
 
 #### Examples
@@ -181,11 +181,11 @@ hr = m_pPlayback->put_PositionMode(TenthsSecondsMode);
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694586(v=VS.85).aspx">IMSVidPlayback Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidplayback">IMSVidPlayback Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694593(v=VS.85).aspx">get_PositionMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidplayback-get_positionmode">get_PositionMode</a>
  
 
  

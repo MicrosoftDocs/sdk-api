@@ -66,7 +66,7 @@ Number of bytes to allocate.
 
 ### -param pContext [in]
 
-Context information set in the <b>pMemContext</b> member of <a href="https://msdn.microsoft.com/9bfab8aa-f44b-4515-8a2a-764583080f57">PERF_PROVIDER_CONTEXT</a>.
+Context information set in the <b>pMemContext</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_provider_context">PERF_PROVIDER_CONTEXT</a>.
 
 
 ## -returns
@@ -82,9 +82,9 @@ Pointer to the allocated memory or <b>NULL</b> if an error occurred.
 
 
 
-If you used the <b>-MemoryRoutines</b> when calling <a href="https://msdn.microsoft.com/3939f6a1-0a94-429d-a71e-b37f045fea13">CTRPP</a>, you must implement this callback function. You pass the name of your callback function to <a href="https://msdn.microsoft.com/edcf8df3-0f6d-4849-b41d-270509499b8e">CounterInitialize</a>.
+If you used the <b>-MemoryRoutines</b> when calling <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/ctrpp">CTRPP</a>, you must implement this callback function. You pass the name of your callback function to <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/counterinitialize">CounterInitialize</a>.
 
-<b>Windows Vista:  </b>The <a href="https://msdn.microsoft.com/edcf8df3-0f6d-4849-b41d-270509499b8e">CounterInitialize</a> function is named <b>PerfAutoInitialize</b>.
+<b>Windows Vista:  </b>The <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/counterinitialize">CounterInitialize</a> function is named <b>PerfAutoInitialize</b>.
 
 
 
@@ -94,11 +94,11 @@ If you used the <b>-MemoryRoutines</b> when calling <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/3b2f9f68-131a-4e17-8b43-6c3a20871dad">FreeMemory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nc-perflib-perf_mem_free">FreeMemory</a>
 
 
 
-<a href="https://msdn.microsoft.com/9bfab8aa-f44b-4515-8a2a-764583080f57">PERF_PROVIDER_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_provider_context">PERF_PROVIDER_CONTEXT</a>
  
 
  

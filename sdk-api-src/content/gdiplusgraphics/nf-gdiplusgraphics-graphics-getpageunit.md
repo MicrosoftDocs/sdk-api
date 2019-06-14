@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>Graphics::GetPageUnit</b> method gets the unit of measure currently set for this 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object.
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object.
 
 
 ## -parameters
@@ -65,11 +65,11 @@ The <b>Graphics::GetPageUnit</b> method gets the unit of measure currently set f
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534405(v=VS.85).aspx">Unit</a></b>
+Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-unit">Unit</a></b>
 </strong>
 
-This method returns an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534405(v=VS.85).aspx">Unit</a> enumeration that indicates the unit of measure currently set for this 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object.
+This method returns an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-unit">Unit</a> enumeration that indicates the unit of measure currently set for this 
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object.
 
 
 
@@ -79,35 +79,35 @@ This method returns an element of the <a href="https://msdn.microsoft.com/en-us/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535703(v=VS.85).aspx">Graphics::GetDpiX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getdpix">Graphics::GetDpiX</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535705(v=VS.85).aspx">Graphics::GetDpiY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getdpiy">Graphics::GetDpiY</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535716(v=VS.85).aspx">Graphics::GetPageScale</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getpagescale">Graphics::GetPageScale</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535811(v=VS.85).aspx">Graphics::SetPageScale</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setpagescale">Graphics::SetPageScale</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535812(v=VS.85).aspx">Graphics::SetPageUnit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setpageunit">Graphics::SetPageUnit</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536399(v=VS.85).aspx">Types of Coordinate Systems</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-types-of-coordinate-systems-about">Types of Coordinate Systems</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534405(v=VS.85).aspx">Unit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-unit">Unit</a>
  
 
  

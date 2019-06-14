@@ -53,7 +53,7 @@ Initializes a new instance of <code>XMU555</code> from three <code>float</code> 
 	<code>bool</code> arguments.
     
 
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420402(v=VS.85).aspx">XMU555 </a> from three
+This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555">XMU555 </a> from three
 	<code>float</code> (specifying x-, y-, and z-components) and one <code>bool</code> (specifying
 	the w-component) arguments.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
@@ -140,11 +140,11 @@ The following pseudocode demonstrates the operation of this constructor, which t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420402(v=VS.85).aspx">XMU555</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555">XMU555</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415437(v=VS.85).aspx">XMU555 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmu555-ctor">XMU555 Constructors</a>
  
 
  

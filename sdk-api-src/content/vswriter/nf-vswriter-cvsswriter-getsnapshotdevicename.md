@@ -52,9 +52,9 @@ ms.custom: 19H1
 
 The <b>GetSnapshotDeviceName</b> method 
    returns the name of the device that hosts the shadow copy of the specified volume or file share. This method allows writers to support 
-   <a href="https://msdn.microsoft.com/en-us/library/Aa384651(v=VS.85).aspx">auto-recover</a> shadow copies, and 
+   <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-a">auto-recover</a> shadow copies, and 
    can only be called during the processing of the 
-   <a href="https://msdn.microsoft.com/d97d4246-882e-49c3-a214-d8d3887c1508">OnPostSnapshot</a> method.
+   <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostsnapshot">OnPostSnapshot</a> method.
 
 
 ## -parameters
@@ -123,7 +123,7 @@ One of the parameter values is not valid.
 </td>
 <td width="60%">
 The call was not made during the 
-        <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PostSnapshot event</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PostSnapshot event</a>.
 
 </td>
 </tr>
@@ -151,7 +151,7 @@ The <i>wszOriginalVolume</i> parameter is not one of the volumes or file shares 
 
 <b>Windows 7, Windows Server 2008 R2, Windows Vista, Windows Server 2008, Windows XP and Windows Server 2003:  </b>Remote file shares are not supported until Windows 8 and Windows Server 2012.
 
-To get the name of the original volume for the <i>wszOriginalVolume</i> parameter, first call the <a href="https://msdn.microsoft.com/5f553a46-10ee-475e-b028-2652c74fbe5d">CVssWriter::GetCurrentVolumeCount</a> method to query the number of volumes in the shadow copy set. Then call the <a href="https://msdn.microsoft.com/75f72b51-e940-4b1d-88a1-7c35de5a3d87">CVssWriter::GetCurrentVolumeArray</a> method to enumerate the original names of the volumes in the shadow copy set.
+To get the name of the original volume for the <i>wszOriginalVolume</i> parameter, first call the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-getcurrentvolumecount">CVssWriter::GetCurrentVolumeCount</a> method to query the number of volumes in the shadow copy set. Then call the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-getcurrentvolumearray">CVssWriter::GetCurrentVolumeArray</a> method to enumerate the original names of the volumes in the shadow copy set.
 
 
 

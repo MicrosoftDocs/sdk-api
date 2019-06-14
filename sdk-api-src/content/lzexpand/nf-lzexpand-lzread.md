@@ -80,7 +80,7 @@ The count of bytes to be read.
 If the function succeeds, the return value specifies the number of bytes read.
 
 If the function fails, the return value is an LZERROR_* code. These codes have values less than zero. Note that 
-<b>LZRead</b> calls neither <a href="https://msdn.microsoft.com/d9da833f-36ca-4046-8d2f-cd4449dd3c63">SetLastError</a> nor <a href="https://msdn.microsoft.com/d97494db-868a-49d4-a613-e8beba86d4e6">SetLastErrorEx</a>; thus, its failure does not affect a thread's last-error code.
+<b>LZRead</b> calls neither <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> nor <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setlasterrorex">SetLastErrorEx</a>; thus, its failure does not affect a thread's last-error code.
 
 The following is the list of error codes that 
 <b>LZRead</b> can return upon failure.
@@ -170,7 +170,7 @@ There is insufficient space for the output file.
 </table>
  
 
-There is no extended error information for this function; do not call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+There is no extended error information for this function; do not call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -180,8 +180,8 @@ There is no extended error information for this function; do not call <a href="h
 
 
 The handle identifying the file must be retrieved by calling either the 
-<a href="https://msdn.microsoft.com/53e6345a-e303-4ef6-8b4d-b9a3fcacfb13">LZInit</a> or 
-<a href="https://msdn.microsoft.com/6ab3c81c-88f2-4b87-84b1-5b64848af043">LZOpenFile</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/lzexpand/nf-lzexpand-lzinit">LZInit</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/lzexpand/nf-lzexpand-lzopenfilea">LZOpenFile</a> function.
 
 If the file is compressed, 
 <b>LZRead</b> operates on an expanded image of the file and copies the bytes of data into the specified buffer.
@@ -257,23 +257,23 @@ CsvFs will do redirected IO for compressed files.
 
 
 
-<a href="https://msdn.microsoft.com/35a9fb47-5a73-479c-8fe0-5a2b07705536">File Compression and Decompression</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-compression-and-decompression">File Compression and Decompression</a>
 
 
 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/53e6345a-e303-4ef6-8b4d-b9a3fcacfb13">LZInit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lzexpand/nf-lzexpand-lzinit">LZInit</a>
 
 
 
-<a href="https://msdn.microsoft.com/6ab3c81c-88f2-4b87-84b1-5b64848af043">LZOpenFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lzexpand/nf-lzexpand-lzopenfilea">LZOpenFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb3d8546-6280-4e4b-8ca4-3697b9339d86">LZSeek</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lzexpand/nf-lzexpand-lzseek">LZSeek</a>
  
 
  

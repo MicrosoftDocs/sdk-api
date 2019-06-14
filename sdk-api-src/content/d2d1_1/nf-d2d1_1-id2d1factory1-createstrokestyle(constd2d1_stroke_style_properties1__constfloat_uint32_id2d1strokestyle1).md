@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/7afaa6f8-8e25-42ec-9afb-a5342bba11d0">ID2D1StrokeStyle1</a> object.
+Creates a <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1strokestyle1">ID2D1StrokeStyle1</a> object.
 
 
 ## -parameters
@@ -59,28 +59,28 @@ Creates a <a href="https://msdn.microsoft.com/7afaa6f8-8e25-42ec-9afb-a5342bba11
 
 ### -param strokeStyleProperties [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/6bed0f23-be10-4265-8edd-ccf82ce0e683">D2D1_STROKE_STYLE_PROPERTIES1</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_stroke_style_properties1">D2D1_STROKE_STYLE_PROPERTIES1</a></b>
 
 The stroke style properties to apply.
 
 
 ### -param dashes [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/540bb00c-f0e2-4ddd-98d1-cf3ed86b6ce0">FLOAT</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_abcfloat">FLOAT</a>*</b>
 
 An array of widths for the dashes and gaps.
 
 
 ### -param dashesCount
 
-Type: <b><a href="https://msdn.microsoft.com/62a8da3a-3e5d-4ce8-bda5-08f84255ba3f">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_uint64_description">UINT</a></b>
 
 The size of the dash array.
 
 
 ### -param strokeStyle [out]
 
-Type: <b>const <a href="https://msdn.microsoft.com/7afaa6f8-8e25-42ec-9afb-a5342bba11d0">ID2D1StrokeStyle1</a>**</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1strokestyle1">ID2D1StrokeStyle1</a>**</b>
 
 When this method returns, contains the address of a pointer to the  newly created stroke style.
 
@@ -130,11 +130,11 @@ It is valid to specify a dash array only if D2D1_DASH_STYLE_CUSTOM is also speci
 
 
 
-<a href="https://msdn.microsoft.com/8221c3b4-e331-403c-9406-ee8d3e103825">ID2D1Factory1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1factory1">ID2D1Factory1</a>
 
 
 
-<a href="https://msdn.microsoft.com/7afaa6f8-8e25-42ec-9afb-a5342bba11d0">ID2D1StrokeStyle1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1strokestyle1">ID2D1StrokeStyle1</a>
  
 
  

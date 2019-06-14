@@ -81,7 +81,7 @@ A pointer to an array that contains glyph indices. If this parameter is <b>NULL<
 
 ### -param pabc [out]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/00000000-0000-0000-0000-000000000001">ABC</a> structures that receives the character widths, in logical units. This array must contain at least as many <b>ABC</b> structures as there are glyph indices specified by the <i>cgi</i> parameter.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_abc">ABC</a> structures that receives the character widths, in logical units. This array must contain at least as many <b>ABC</b> structures as there are glyph indices specified by the <i>cgi</i> parameter.
 
 
 ## -returns
@@ -103,11 +103,11 @@ The TrueType rasterizer provides ABC character spacing after a specific point si
 
 When the <b>GetCharABCWidthsI</b> function retrieves negative A or C widths for a character, that character includes underhangs or overhangs.
 
-To convert the ABC widths to font design units, an application should use the value stored in the <b>otmEMSquare</b> member of a <a href="https://msdn.microsoft.com/79d77df0-193a-49a8-b93d-4ef5807c3c9b">OUTLINETEXTMETRIC</a> structure. This value can be retrieved by calling the <a href="https://msdn.microsoft.com/b8c7a557-ca35-41a4-9043-8496e5b01564">GetOutlineTextMetrics</a> function.
+To convert the ABC widths to font design units, an application should use the value stored in the <b>otmEMSquare</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_outlinetextmetrica">OUTLINETEXTMETRIC</a> structure. This value can be retrieved by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getoutlinetextmetricsa">GetOutlineTextMetrics</a> function.
 
 The ABC widths of the default character are used for characters outside the range of the currently selected font.
 
-To retrieve the widths of glyph indices in non-TrueType fonts, applications should use the <a href="https://msdn.microsoft.com/5f532149-7c2f-4972-9900-68c2f185d255">GetCharWidthI</a> function.
+To retrieve the widths of glyph indices in non-TrueType fonts, applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharwidthi">GetCharWidthI</a> function.
 
 
 
@@ -117,27 +117,27 @@ To retrieve the widths of glyph indices in non-TrueType fonts, applications shou
 
 
 
-<a href="https://msdn.microsoft.com/00000000-0000-0000-0000-000000000001">ABC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_abc">ABC</a>
 
 
 
-<a href="https://msdn.microsoft.com/69c04ed7-52da-4cb6-9fd2-f2a8c044df8b">Font and Text Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9944baa9-8e50-40b9-9650-78b0b1d7643a">Fonts and Text Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/be29c195-cf67-45d5-8a46-ac572afb756d">GetCharWidth</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharwidtha">GetCharWidth</a>
 
 
 
-<a href="https://msdn.microsoft.com/b8c7a557-ca35-41a4-9043-8496e5b01564">GetOutlineTextMetrics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getoutlinetextmetricsa">GetOutlineTextMetrics</a>
 
 
 
-<a href="https://msdn.microsoft.com/79d77df0-193a-49a8-b93d-4ef5807c3c9b">OUTLINETEXTMETRIC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_outlinetextmetrica">OUTLINETEXTMETRIC</a>
  
 
  

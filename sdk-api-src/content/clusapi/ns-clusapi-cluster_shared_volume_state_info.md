@@ -69,7 +69,7 @@ The node name  of the node that hosts the CSV.
 
 ### -field VolumeState
 
-A <a href="https://msdn.microsoft.com/B27C110C-939F-42D4-960E-702CA1B141F9">CLUSTER_SHARED_VOLUME_STATE</a> enumeration value that specifies the state of the CSV.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-_cluster_shared_volume_state">CLUSTER_SHARED_VOLUME_STATE</a> enumeration value that specifies the state of the CSV.
 
 
 ## -see-also
@@ -77,15 +77,15 @@ A <a href="https://msdn.microsoft.com/B27C110C-939F-42D4-960E-702CA1B141F9">CLUS
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn806623(v=VS.85).aspx">CLUSTER_SHARED_VOLUME_STATE_INFO_EX</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-_cluster_shared_volume_state_info_ex">CLUSTER_SHARED_VOLUME_STATE_INFO_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3ad7c34-0c8a-4f03-8e5c-b57802c493f0">Data structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/45da8dbc-dd70-4f95-b933-66d8e4340448">Utility Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/utility-structures">Utility Structures</a>
  
 
  

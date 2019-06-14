@@ -74,7 +74,7 @@ The<i> DxEnableIRQ</i> callback function indicates to the video miniport driver 
 
 #### - EnableIrqInfo
 
-Points to the <a href="https://msdn.microsoft.com/f6ac3ef8-1afc-4c0f-b24f-34d3d56d62a8">DDENABLEIRQINFO</a> structure that contains the information required to enable interrupts.
+Points to the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddenableirqinfo">DDENABLEIRQINFO</a> structure that contains the information required to enable interrupts.
 
 
 #### - HwDeviceExtension
@@ -102,7 +102,7 @@ Reserved for system use.
 
 The <b>dwIRQSources</b> member of the DDENABLEIRQINFO structure at <i>EnableIrqInfo</i> contains the DDIRQ_<i>Xxx</i> flags that are set for every IRQ that should be enabled. If an IRQ is not specified in this call, it should be disabled. If the requested combination cannot be supported, this function fails. 
 
-Because the video miniport driver must always manage its own IRQ, it must call the specified <a href="https://msdn.microsoft.com/c4e47fb2-0d41-4efe-8f84-41e279ac8bbb">IRQCallback</a> when an IRQ occurs. When calling <b>IRQCallback</b>, the <b>dwIRQFlags</b> member of the <a href="https://msdn.microsoft.com/258cfaa3-8de2-45d9-b61b-683cf41c127f">DX_IRQDATA</a> structure passed to <b>IRQCallback</b> contains the DDIRQ_<i>Xxx</i> flags that indicate what caused the IRQ. 
+Because the video miniport driver must always manage its own IRQ, it must call the specified <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_irqcallback">IRQCallback</a> when an IRQ occurs. When calling <b>IRQCallback</b>, the <b>dwIRQFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_dx_irqdata">DX_IRQDATA</a> structure passed to <b>IRQCallback</b> contains the DDIRQ_<i>Xxx</i> flags that indicate what caused the IRQ. 
 
 
 
@@ -112,15 +112,15 @@ Because the video miniport driver must always manage its own IRQ, it must call t
 
 
 
-<a href="https://msdn.microsoft.com/f6ac3ef8-1afc-4c0f-b24f-34d3d56d62a8">DDENABLEIRQINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddenableirqinfo">DDENABLEIRQINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/258cfaa3-8de2-45d9-b61b-683cf41c127f">DX_IRQDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_dx_irqdata">DX_IRQDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4e47fb2-0d41-4efe-8f84-41e279ac8bbb">IRQCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_irqcallback">IRQCallback</a>
  
 
  

@@ -51,8 +51,8 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SecPkgContext_Names</b> structure indicates the name of the user associated with a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a>. The 
-<a href="https://msdn.microsoft.com/67bc087f-7519-4c8a-9b34-b3ecd306a334">QueryContextAttributes (General)</a> function uses this structure.
+The <b>SecPkgContext_Names</b> structure indicates the name of the user associated with a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function uses this structure.
 
 
 ## -struct-fields
@@ -62,7 +62,7 @@ The <b>SecPkgContext_Names</b> structure indicates the name of the user associat
 
 ### -field sUserName
 
-Pointer to a null-terminated string containing the name of the user represented by the context. If the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a> has set the SECPKG_FLAG_ACCEPT_WIN32_NAME flag, this name can be used in other Windows calls.
+Pointer to a null-terminated string containing the name of the user represented by the context. If the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> has set the SECPKG_FLAG_ACCEPT_WIN32_NAME flag, this name can be used in other Windows calls.
 
 
 ## -see-also
@@ -70,7 +70,7 @@ Pointer to a null-terminated string containing the name of the user represented 
 
 
 
-<a href="https://msdn.microsoft.com/67bc087f-7519-4c8a-9b34-b3ecd306a334">QueryContextAttributes (General)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a>
  
 
  

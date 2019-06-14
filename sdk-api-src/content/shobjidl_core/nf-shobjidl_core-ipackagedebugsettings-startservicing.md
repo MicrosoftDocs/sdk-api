@@ -75,7 +75,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Use the <b>StartServicing</b> method to simulate what happens when a package is updated to a newer version. New background task activations are buffered (delayed) until you call the <a href="https://msdn.microsoft.com/129ea98a-e0c3-4472-918c-6d9aa4858c4b">StopServicing</a> method.
+Use the <b>StartServicing</b> method to simulate what happens when a package is updated to a newer version. New background task activations are buffered (delayed) until you call the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-stopservicing">StopServicing</a> method.
 
 
 
@@ -85,11 +85,11 @@ Use the <b>StartServicing</b> method to simulate what happens when a package is 
 
 
 
-<a href="https://msdn.microsoft.com/e407c4ca-0de1-4b17-bb83-5c4128952d48">IPackageDebugSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipackagedebugsettings">IPackageDebugSettings</a>
 
 
 
-<a href="https://msdn.microsoft.com/129ea98a-e0c3-4472-918c-6d9aa4858c4b">StopServicing</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-stopservicing">StopServicing</a>
  
 
  

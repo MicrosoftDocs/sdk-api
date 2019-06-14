@@ -60,7 +60,7 @@ The
 
 ### -param pbstr [out]
 
-Receives a reference to a string that contains the URL. Release this string with <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> when it is no longer required. If the device does not specify this URL, this parameter is set to <b>NULL</b>.
+Receives a reference to a string that contains the URL. Release this string with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when it is no longer required. If the device does not specify this URL, this parameter is set to <b>NULL</b>.
 
 
 ## -returns
@@ -86,11 +86,11 @@ This property is optional and <i>pbstr</i> can return <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/566cc606-3dfb-4052-93b0-3c922bf30f84">IUPnPDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/b62ba17d-4d0f-4609-ae34-0d8bd350f761">IUPnPDevice::ManufacturerName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_manufacturername">IUPnPDevice::ManufacturerName</a>
  
 
  

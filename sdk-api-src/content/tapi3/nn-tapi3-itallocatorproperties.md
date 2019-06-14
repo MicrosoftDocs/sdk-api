@@ -53,14 +53,14 @@ The
 <b>ITAllocatorProperties</b> interface exposes the buffer allocator properties of the Media Streaming Terminal (MST) to an end-user or server application. An application needs to tune the sample size for a particular protocol. The decision concerning appropriate properties is highly implementation dependent.
 
 This interface is exposed on the 
-<a href="https://msdn.microsoft.com/0d96f229-76c0-46a3-bc4b-6f558b9956c6">Terminal Object</a> by the associated Media Service Provider. If it exists, a <b>QueryInterface</b> on any Terminal interface, such as 
-<a href="https://msdn.microsoft.com/38bc30fa-3e4e-417a-9d04-931ba2451fa4">ITTerminal</a>, can be used to obtain an 
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object">Terminal Object</a> by the associated Media Service Provider. If it exists, a <b>QueryInterface</b> on any Terminal interface, such as 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a>, can be used to obtain an 
 <b>ITAllocatorProperties</b> pointer.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAllocatorProperties</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITAllocatorProperties</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAllocatorProperties</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITAllocatorProperties</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>ITAllocatorProperties</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/74058181-ab74-4a2d-8395-c8a1a7f02820">GetAllocateBuffers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itallocatorproperties-getallocatebuffers">GetAllocateBuffers</a>
 </td>
 <td align="left" width="63%">
 Gets whether buffers must be supplied.
@@ -84,7 +84,7 @@ Gets whether buffers must be supplied.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/67360904-a632-43cf-9f67-50bbdbb62f48">GetAllocatorProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itallocatorproperties-getallocatorproperties">GetAllocatorProperties</a>
 </td>
 <td align="left" width="63%">
 Gets the negotiated allocator properties following a connection.
@@ -93,7 +93,7 @@ Gets the negotiated allocator properties following a connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c1571bbb-345b-4b62-acb2-67afda1c9c9b">GetBufferSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itallocatorproperties-getbuffersize">GetBufferSize</a>
 </td>
 <td align="left" width="63%">
 Gets the size of the allocator buffer.
@@ -102,7 +102,7 @@ Gets the size of the allocator buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5f4a25f8-1a5f-40ff-9a29-586d1c7c217c">SetAllocateBuffers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itallocatorproperties-setallocatebuffers">SetAllocateBuffers</a>
 </td>
 <td align="left" width="63%">
 Sets whether buffers must be supplied.
@@ -111,7 +111,7 @@ Sets whether buffers must be supplied.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3ab13fac-2667-44ce-aa1a-72cd18d37b0a">SetAllocatorProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itallocatorproperties-setallocatorproperties">SetAllocatorProperties</a>
 </td>
 <td align="left" width="63%">
 Forces MST to use the values input during filter negotiation.
@@ -120,7 +120,7 @@ Forces MST to use the values input during filter negotiation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5aea70fd-2078-4f51-909f-c51cb997f5ea">SetBufferSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itallocatorproperties-setbuffersize">SetBufferSize</a>
 </td>
 <td align="left" width="63%">
 Sets the size of the allocator buffer.

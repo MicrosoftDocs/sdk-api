@@ -57,7 +57,7 @@ The <code>IPhotoAcquireOptionsDialog</code> interface is used to display an opti
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPhotoAcquireOptionsDialog</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPhotoAcquireOptionsDialog</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPhotoAcquireOptionsDialog</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPhotoAcquireOptionsDialog</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IPhotoAcquireOptionsDialog</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/22eb58d2-f1cf-4115-a5d4-dceb1d3ba4ad">Create</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireoptionsdialog-create">Create</a>
 </td>
 <td align="left" width="63%">
 Creates and displays a modeless instance of the photo options dialog box, hosted within a parent window.
@@ -81,16 +81,16 @@ Creates and displays a modeless instance of the photo options dialog box, hosted
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/787e12e9-b134-416a-9191-5a2cc6a922fd">Destroy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireoptionsdialog-destroy">Destroy</a>
 </td>
 <td align="left" width="63%">
-Closes and destroys the modeless dialog box created with the <a href="https://msdn.microsoft.com/22eb58d2-f1cf-4115-a5d4-dceb1d3ba4ad">Create</a> method.
+Closes and destroys the modeless dialog box created with the <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireoptionsdialog-create">Create</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fbceebc3-10dd-4028-9672-1976a459cafe">DoModal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireoptionsdialog-domodal">DoModal</a>
 </td>
 <td align="left" width="63%">
 Creates and displays the options dialog box as a modal dialog box.
@@ -99,7 +99,7 @@ Creates and displays the options dialog box as a modal dialog box.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6e3c7876-28a6-4d5f-afca-7c0421df8c02">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireoptionsdialog-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the options dialog box and reads any saved options from the registry.
@@ -108,7 +108,7 @@ Initializes the options dialog box and reads any saved options from the registry
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/271c2bfb-67a9-4998-90d1-4ed61f89aa03">SaveData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireoptionsdialog-savedata">SaveData</a>
 </td>
 <td align="left" width="63%">
 Saves the acquisition settings from the options dialog box to the registry, so that a subsequent instance of the dialog can be initialized with the same settings.
@@ -123,7 +123,7 @@ Saves the acquisition settings from the options dialog box to the registry, so t
 
 
 
-<a href="https://msdn.microsoft.com/f58529da-f419-445a-879a-2c087b770f0f">Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/acquisition/interfaces">Interfaces</a>
  
 
  

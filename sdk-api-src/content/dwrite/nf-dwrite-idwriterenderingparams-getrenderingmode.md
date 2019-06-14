@@ -63,7 +63,7 @@ Gets the rendering mode of the rendering parameters object.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/c6b2c15a-be22-49ce-affd-1369e23f4d6b">DWRITE_RENDERING_MODE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_rendering_mode">DWRITE_RENDERING_MODE</a></b>
 
 A value that indicates the rendering mode of the rendering parameters object.
 
@@ -74,7 +74,7 @@ A value that indicates the rendering mode of the rendering parameters object.
 
 
 
-By default, the rendering mode is initialized to DWRITE_RENDERING_MODE_DEFAULT, which means the rendering mode is determined automatically based on the font and size. To determine the recommended rendering mode to use for a given font and size and rendering parameters object, use the <a href="https://msdn.microsoft.com/54504bcb-b05c-4b63-8704-8d718cf2ee16">IDWriteFontFace::GetRecommendedRenderingMode</a> method.
+By default, the rendering mode is initialized to DWRITE_RENDERING_MODE_DEFAULT, which means the rendering mode is determined automatically based on the font and size. To determine the recommended rendering mode to use for a given font and size and rendering parameters object, use the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontface-getrecommendedrenderingmode">IDWriteFontFace::GetRecommendedRenderingMode</a> method.
 
 
 
@@ -84,7 +84,7 @@ By default, the rendering mode is initialized to DWRITE_RENDERING_MODE_DEFAULT, 
 
 
 
-<a href="https://msdn.microsoft.com/28b118e4-9a63-46cf-8ab7-e1039126405b">IDWriteRenderingParams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwriterenderingparams">IDWriteRenderingParams</a>
  
 
  

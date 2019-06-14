@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Releases the memory associated with  a <a href="https://msdn.microsoft.com/42e4d24d-5611-4561-b874-6dc3f3f88c73">Service Host</a> object.
+Releases the memory associated with  a <a href="https://docs.microsoft.com/windows/desktop/wsw/service-host">Service Host</a> object.
             
 
 
@@ -60,8 +60,8 @@ Releases the memory associated with  a <a href="https://msdn.microsoft.com/42e4d
 
 ### -param serviceHost [in]
 
-A pointer to the <b>Service Host</b> object to release.  The pointer must reference a valid <a href="https://msdn.microsoft.com/1186e3ae-87d0-4d0b-a7cc-cce63dc091e2">WS_SERVICE_HOST</a> object
-                    returned by <a href="https://msdn.microsoft.com/412a262a-1706-4101-b154-1804408a5b9f">WsCreateServiceHost</a> and the referenced <b>Service Host</b> value may not be <b>NULL</b>.
+A pointer to the <b>Service Host</b> object to release.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-service-host">WS_SERVICE_HOST</a> object
+                    returned by <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreateservicehost">WsCreateServiceHost</a> and the referenced <b>Service Host</b> value may not be <b>NULL</b>.
         
                 
 

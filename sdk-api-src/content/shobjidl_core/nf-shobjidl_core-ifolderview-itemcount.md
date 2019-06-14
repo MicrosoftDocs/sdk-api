@@ -61,7 +61,7 @@ Gets the number of items in the folder. This can be the number of all items, or 
 
 Type: <b>UINT</b>
 
-Flags from the <a href="https://msdn.microsoft.com/06ed616b-8121-4ea0-bd05-632888d0f376">_SVGIO</a> enumeration that limit the count to certain types of items.
+Flags from the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_svgio">_SVGIO</a> enumeration that limit the count to certain types of items.
 
 
 ### -param pcItems [out]

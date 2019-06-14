@@ -82,11 +82,11 @@ File group component. This is any component other than a database.
 
 
 A writer sets a component's type when it adds the component to its Writer Metadata Document using 
-    <a href="https://msdn.microsoft.com/fdbcbcea-d49e-49bc-9bb8-2210a9de02a4">IVssCreateWriterMetadata::AddComponent</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addcomponent">IVssCreateWriterMetadata::AddComponent</a>.
 
 Writers and requesters can find the type information of components selected for inclusion in a Backup 
     Components Document through calls to 
-    <a href="https://msdn.microsoft.com/89675df6-dcfd-4167-aa6f-5c88e619ef1c">IVssComponent::GetComponentType</a> to return 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getcomponenttype">IVssComponent::GetComponentType</a> to return 
     a component type directly.
 
 A requester can obtain the type of any component in a given writer's Writer Metadata Document by doing the 
@@ -94,13 +94,13 @@ A requester can obtain the type of any component in a given writer's Writer Meta
 
 <ol>
 <li>Using 
-      <a href="https://msdn.microsoft.com/fd03ac7c-8398-4972-85f1-2afe13317950">IVssExamineWriterMetadata::GetComponent</a> 
-      to obtain a <a href="https://msdn.microsoft.com/8567ca7f-dc50-4cf2-b3c1-a2ae8d55dc95">IVssWMComponent</a> interface</li>
+      <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getcomponent">IVssExamineWriterMetadata::GetComponent</a> 
+      to obtain a <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivsswmcomponent">IVssWMComponent</a> interface</li>
 <li>Using 
-      <a href="https://msdn.microsoft.com/ac01bfea-e60f-4f50-a865-5bb7e372fbf2">IVssWMComponent::GetComponentInfo</a> to 
-      return a <a href="https://msdn.microsoft.com/9723e90e-cd5e-4815-843b-8ed8632ebe45">VSS_COMPONENTINFO</a> structure</li>
+      <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivsswmcomponent-getcomponentinfo">IVssWMComponent::GetComponentInfo</a> to 
+      return a <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/ns-vsbackup-_vss_componentinfo">VSS_COMPONENTINFO</a> structure</li>
 <li>Examining the <b>Type</b> member of the 
-      <a href="https://msdn.microsoft.com/9723e90e-cd5e-4815-843b-8ed8632ebe45">VSS_COMPONENTINFO</a> object</li>
+      <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/ns-vsbackup-_vss_componentinfo">VSS_COMPONENTINFO</a> object</li>
 </ol>
 
 
@@ -110,15 +110,15 @@ A requester can obtain the type of any component in a given writer's Writer Meta
 
 
 
-<a href="https://msdn.microsoft.com/89675df6-dcfd-4167-aa6f-5c88e619ef1c">IVssComponent::GetComponentType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getcomponenttype">IVssComponent::GetComponentType</a>
 
 
 
-<a href="https://msdn.microsoft.com/9723e90e-cd5e-4815-843b-8ed8632ebe45">VSS_COMPONENTINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/ns-vsbackup-_vss_componentinfo">VSS_COMPONENTINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb89c3cc-5a8e-419e-839c-f72a1886eadf">VSS_SOURCE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_source_type">VSS_SOURCE_TYPE</a>
  
 
  

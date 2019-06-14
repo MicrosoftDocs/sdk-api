@@ -69,7 +69,7 @@ An HRESULT that indicates if the enumeration of the software device was successf
 
 ### -param pContext [in, optional]
 
-The context that was optionally supplied by the client app to <a href="https://msdn.microsoft.com/8274D7D9-D4AD-412E-A9C0-7D4A08C8A14F">SwDeviceCreate</a>. 
+The context that was optionally supplied by the client app to <a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nf-swdevice-swdevicecreate">SwDeviceCreate</a>. 
 
 
 ### -param pszDeviceInstanceId [in, optional]
@@ -99,7 +99,7 @@ PnP enumeration of a device is the first step that a device undergoes.  After Pn
 <div> </div>
 The callback function will execute on an arbitrary thread-pool thread.  Client apps can perform as much work as needed in the callback function.
 
-In Windows 8, you can't call <a href="https://msdn.microsoft.com/C5E659CD-203A-4021-AB3F-3AFEE2B31E7C">SwDeviceClose</a> inside the callback function.  Doing so will cause a deadlock.  Be careful of releasing a ref counted object that will call <b>SwDeviceClose</b> when its destructor runs.  In Windows 8.1, this restriction is lifted, and you can call <b>SwDeviceClose</b> inside the callback function.
+In Windows 8, you can't call <a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nf-swdevice-swdeviceclose">SwDeviceClose</a> inside the callback function.  Doing so will cause a deadlock.  Be careful of releasing a ref counted object that will call <b>SwDeviceClose</b> when its destructor runs.  In Windows 8.1, this restriction is lifted, and you can call <b>SwDeviceClose</b> inside the callback function.
 
 Always check the HRESULT that is passed to <i>CreateResult</i> to make sure PnP was able to enumerate the device.
 
@@ -111,7 +111,7 @@ Always check the HRESULT that is passed to <i>CreateResult</i> to make sure PnP 
 
 
 
-<a href="https://msdn.microsoft.com/8274D7D9-D4AD-412E-A9C0-7D4A08C8A14F">SwDeviceCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nf-swdevice-swdevicecreate">SwDeviceCreate</a>
  
 
  

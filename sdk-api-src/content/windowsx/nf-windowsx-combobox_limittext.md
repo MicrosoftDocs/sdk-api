@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Limits the length of the text the user may type into the edit control of a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775877(v=VS.85).aspx">CB_LIMITTEXT</a> message explicitly.
+Limits the length of the text the user may type into the edit control of a combo box. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-limittext">CB_LIMITTEXT</a> message explicitly.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Limits the length of the text the user may type into the edit control of a combo
 
 ### -param hwndCtl
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -75,7 +75,7 @@ The maximum number of characters.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775877(v=VS.85).aspx">CB_LIMITTEXT</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-limittext">CB_LIMITTEXT</a>.
 
 
 

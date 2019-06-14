@@ -222,15 +222,15 @@ String property method for specifying any vendor-specific property of the EAP me
 
 
 
-<a href="https://msdn.microsoft.com/ba4d5a7f-3a5d-4ca3-975e-1ffa182b9014">EAPHost Supplicant Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-supplicant-enumerations">EAPHost Supplicant Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/df8c9ba2-e1c5-4011-bdbe-1d04765d19cd">EAP_METHOD_PROPERTY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_property">EAP_METHOD_PROPERTY</a>
 
 
 
-<a href="https://msdn.microsoft.com/17ef654a-d4a0-45ba-a49d-45add8e78b28">EAP_METHOD_PROPERTY_VALUE_TYPE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ne-eaptypes-_eap_method_property_value_type">EAP_METHOD_PROPERTY_VALUE_TYPE</a>
  
 
  

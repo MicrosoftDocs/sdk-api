@@ -49,7 +49,7 @@ ms.custom: 19H1
 
 A constructor for <code>XMMATRIX</code>.
 
-A constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx">XMMATRIX</a>.
+A constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a>.
 
 <div class="alert"><b>Note</b>  This constructor is only available when developing with C++.</div>
 
@@ -63,6 +63,6 @@ A value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx">XMMATRIX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415353(v=VS.85).aspx">XMMATRIX Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmmatrix-ctor">XMMATRIX Constructors</a>

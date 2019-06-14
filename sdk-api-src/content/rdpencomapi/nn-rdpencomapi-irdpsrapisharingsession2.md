@@ -56,17 +56,17 @@ The main object that an application must create  to start a collaboration sessio
 
 This interface uses the  single-threaded apartment (STA) threading model. The object exposes a source interface 
     that is used for firing session-specific events 
-    (<a href="https://msdn.microsoft.com/89ffdf37-156f-4977-93c4-bf9fe5aec838">_IRDPSessionEvents</a>) and a dual interface that is used 
+    (<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-_irdpsessionevents">_IRDPSessionEvents</a>) and a dual interface that is used 
     for managing a session.
 
 This interface extends the 
-    <a href="https://msdn.microsoft.com/531382ec-d94f-411e-bd43-86cd3066ac26">IRDPSRAPISharingSession</a> interface and contains the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapisharingsession">IRDPSRAPISharingSession</a> interface and contains the 
     following members.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPISharingSession2</b> interface inherits from <a href="https://msdn.microsoft.com/531382ec-d94f-411e-bd43-86cd3066ac26">IRDPSRAPISharingSession</a>. <b>IRDPSRAPISharingSession2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPISharingSession2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapisharingsession">IRDPSRAPISharingSession</a>. <b>IRDPSRAPISharingSession2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -82,7 +82,7 @@ The <b>IRDPSRAPISharingSession2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ab6e27d8-b6f2-42a6-a0f6-cfdfb5ec9a13">Close</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-close">Close</a>
 </td>
 <td align="left" width="63%">
 Puts the session in an inactive state, closes all attendees, and stops listening to new incoming connections.
@@ -91,7 +91,7 @@ Puts the session in an inactive state, closes all attendees, and stops listening
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/18651433-90cb-4ebd-afaf-480800dfe033">ConnectToClient</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-connecttoclient">ConnectToClient</a>
 </td>
 <td align="left" width="63%">
 Connects the viewer from the sharer in reverse connect mode if the viewer cannot connect to the sharer because of a network issue. For example, the viewer may not be able to connect to the sharer because of network address translation (NAT).
@@ -100,7 +100,7 @@ Connects the viewer from the sharer in reverse connect mode if the viewer cannot
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/78f517c9-0870-4dfd-a318-3bd510e05dfa">ConnectUsingTransportStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession2-connectusingtransportstream">ConnectUsingTransportStream</a>
 </td>
 <td align="left" width="63%">
 Connects using the specified transport stream.
@@ -109,7 +109,7 @@ Connects using the specified transport stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2b224fa2-928d-4222-80a6-91f654b97ae1">GetDesktopSharedRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-getdesktopsharedrect">GetDesktopSharedRect</a>
 </td>
 <td align="left" width="63%">
 Retrieves the rectangle of the sharer's virtual desktop.
@@ -118,7 +118,7 @@ Retrieves the rectangle of the sharer's virtual desktop.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2c97a37d-5862-4ad3-9029-481ea0a789e0">Open</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-open">Open</a>
 </td>
 <td align="left" width="63%">
 Puts the session in an active state and starts listening to incoming connections.
@@ -127,7 +127,7 @@ Puts the session in an active state and starts listening to incoming connections
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1ea0e8c4-39ef-4261-af7b-d27d6052c17d">Pause</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-pause">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses the encoding of the sharer's desktop  to pause sending graphics updates to all viewers.
@@ -136,7 +136,7 @@ Pauses the encoding of the sharer's desktop  to pause sending graphics updates t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3e99d514-a6fe-4855-99ab-9ab2b5cbcc9b">Resume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-resume">Resume</a>
 </td>
 <td align="left" width="63%">
 Resumes the encoding of the sharer's desktop  to resume sending graphics updates to all viewers.
@@ -145,16 +145,16 @@ Resumes the encoding of the sharer's desktop  to resume sending graphics updates
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d10c8f2b-b1ee-4966-9e96-21e78124874b">SendControlLevelChangeResponse</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession2-sendcontrollevelchangeresponse">SendControlLevelChangeResponse</a>
 </td>
 <td align="left" width="63%">
-Sends an <a href="https://msdn.microsoft.com/E190DAEC-776A-4248-8A73-073AB6F2FE8A">OnControlLevelChangeResponse</a> event.
+Sends an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdp/oncontrollevelchangeresponse">OnControlLevelChangeResponse</a> event.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8dda8b52-5bec-45ed-9215-2009cb74bf3e">SetDesktopSharedRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-setdesktopsharedrect">SetDesktopSharedRect</a>
 </td>
 <td align="left" width="63%">
 Sets the rectangle of the sharer's virtual desktop to be shared.
@@ -172,7 +172,7 @@ Sets the rectangle of the sharer's virtual desktop to be shared.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/4a346305-972c-40c4-882e-905745edf6e9">ApplicationFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-get_applicationfilter">ApplicationFilter</a>
 
 
 </td>
@@ -181,14 +181,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-An object implementing the <a href="https://msdn.microsoft.com/6a08c948-1b25-4a36-93c8-23e7e3f4fb08">IRDPSRAPIApplicationFilter</a> interface.
+An object implementing the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiapplicationfilter">IRDPSRAPIApplicationFilter</a> interface.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/bcbc8f16-855d-4835-966c-73773f3ac6d4">Attendees</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-get_attendees">Attendees</a>
 
 
 </td>
@@ -197,14 +197,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-An object implementing the <a href="https://msdn.microsoft.com/202b539c-b7a0-4cf3-ba64-f60cc062575a">IRDPSRAPIAttendeeManager</a> interface.
+An object implementing the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendeemanager">IRDPSRAPIAttendeeManager</a> interface.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8835a79c-281a-4f50-ba41-c9d4a0a8d7bd">ColorDepth</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-get_colordepth">ColorDepth</a>
 
 
 </td>
@@ -220,7 +220,7 @@ The color depth of the session.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/2547b317-0c1b-429c-81d4-7cb97e1cc3e0">FrameBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession2-get_framebuffer">FrameBuffer</a>
 
 
 </td>
@@ -229,14 +229,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/ab40bdd2-448f-4867-aabd-d6b66add5247">IRDPSRAPIFrameBuffer</a> interface for the session.
+The <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiframebuffer">IRDPSRAPIFrameBuffer</a> interface for the session.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/6e5116d9-7b65-4d93-ab1e-caac080e870e">Invitations</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-get_invitations">Invitations</a>
 
 
 </td>
@@ -245,14 +245,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-An object implementing the <a href="https://msdn.microsoft.com/300940ef-e8a6-4dd9-a078-d4325e20ae91">IRDPSRAPIInvitationManager</a> interface.
+An object implementing the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiinvitationmanager">IRDPSRAPIInvitationManager</a> interface.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d9eff86e-74ee-440b-9f89-7cf26ba1ac39">Properties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-get_properties">Properties</a>
 
 
 </td>
@@ -261,14 +261,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-An object implementing the <a href="https://msdn.microsoft.com/bf4d9df2-8436-4d21-9016-7db231212155">IRDPSRAPISessionProperties</a> interface.
+An object implementing the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapisessionproperties">IRDPSRAPISessionProperties</a> interface.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/ba951d8a-cf8e-4183-a40b-beba45fd48ef">VirtualChannelManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-get_virtualchannelmanager">VirtualChannelManager</a>
 
 
 </td>
@@ -277,7 +277,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-An object implementing the <a href="https://msdn.microsoft.com/750e7d98-196f-4bf2-864b-50b3bef6f6ad">IRDPSRAPIVirtualChannelManager</a> interface.
+An object implementing the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapivirtualchannelmanager">IRDPSRAPIVirtualChannelManager</a> interface.
 
 </td>
 </tr>
@@ -289,7 +289,7 @@ An object implementing the <a href="https://msdn.microsoft.com/750e7d98-196f-4bf
 
 
 
-<a href="https://msdn.microsoft.com/531382ec-d94f-411e-bd43-86cd3066ac26">IRDPSRAPISharingSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapisharingsession">IRDPSRAPISharingSession</a>
  
 
  

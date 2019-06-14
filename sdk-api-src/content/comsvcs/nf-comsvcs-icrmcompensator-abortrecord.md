@@ -59,7 +59,7 @@ Delivers a log record to the CRM Compensator during the abort phase.
 
 ### -param crmLogRec [in]
 
-The log record, as a <a href="https://msdn.microsoft.com/0af0eba5-6e8c-4b1d-aec4-f9a1ffe7bce6">CrmLogRecordRead</a> structure.
+The log record, as a <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-tagcrmlogrecordread">CrmLogRecordRead</a> structure.
 
 
 ### -param pfForget [out]
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Log records are delivered in the reverse order in which they were written. This method can be received by the CRM Compensator multiple times, once for each log record that was written. If no log records are written, the <a href="https://msdn.microsoft.com/443d0a09-0f5f-4237-870b-5cc47c80e2fe">BeginAbort</a> and <a href="https://msdn.microsoft.com/009209fe-0910-4db1-b5c2-accd7239c3e5">EndAbort</a> methods are received but there are no <b>AbortRecord</b> method calls.
+Log records are delivered in the reverse order in which they were written. This method can be received by the CRM Compensator multiple times, once for each log record that was written. If no log records are written, the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensator-beginabort">BeginAbort</a> and <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensator-endabort">EndAbort</a> methods are received but there are no <b>AbortRecord</b> method calls.
 
 The CRM Compensator can choose to forget the record that is delivered to it during this phase by setting the forget flag on return from this method.
 
@@ -92,7 +92,7 @@ The CRM Compensator can choose to forget the record that is delivered to it duri
 
 
 
-<a href="https://msdn.microsoft.com/9e5a8f2c-4115-42bd-a541-d0ce75c45b72">ICrmCompensator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmcompensator">ICrmCompensator</a>
  
 
  

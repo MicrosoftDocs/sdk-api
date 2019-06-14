@@ -70,7 +70,7 @@ The handle of the device context on which to draw.
 
 The array of points in ink space coordinates to convert into pixel locations. This should be an array of 32-bit integer values, passed within a VARIANT.
 
-For more information about the VARIANT structure, see <a href="https://msdn.microsoft.com/fa43fad9-804c-42d9-9717-6686d5f98ed8">Using the COM Library</a>.
+For more information about the VARIANT structure, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
 
 ## -returns
@@ -136,7 +136,7 @@ An exception occurred inside the method.
 
 
 
-<b>InkSpaceToPixelFromPoints</b> applies the object transform, applies the view transform of the <a href="https://msdn.microsoft.com/66ec7cab-bfc2-4934-93a4-0ab9cb8c96e7">InkRenderer</a> object, and then converts from inkspace to pixel units (1 ink unit = .01mm).
+<b>InkSpaceToPixelFromPoints</b> applies the object transform, applies the view transform of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrenderer-class">InkRenderer</a> object, and then converts from inkspace to pixel units (1 ink unit = .01mm).
 
 
 
@@ -150,19 +150,19 @@ An exception occurred inside the method.
 
 
 
-<a href="https://msdn.microsoft.com/66ec7cab-bfc2-4934-93a4-0ab9cb8c96e7">InkRenderer Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrenderer-class">InkRenderer Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/9dfdc481-7129-47b1-9c5e-d17a70571ce2">InkSpaceToPixel Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-inkspacetopixel">InkSpaceToPixel Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/fb881fe0-0be3-4e23-ac50-e421e2dc7845">PixelToInkSpace Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-pixeltoinkspace">PixelToInkSpace Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/1427ab50-1b04-43a8-a987-838f2d6893cc">PixelToInkSpaceFromPoints Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-pixeltoinkspacefrompoints">PixelToInkSpaceFromPoints Method</a>
  
 
  

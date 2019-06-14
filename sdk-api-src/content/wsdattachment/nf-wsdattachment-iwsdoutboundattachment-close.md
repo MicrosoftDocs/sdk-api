@@ -89,7 +89,7 @@ Method completed successfully. All data in the attachment stream was successfull
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/8ab63ed5-7b71-4f28-926d-a24666f0dd15">Close</a> was called before <a href="https://msdn.microsoft.com/5bd24e7c-f2f4-4cc4-abc0-176ed024fa43">Write</a> was called. You must call <b>Write</b> before closing the attachment stream.
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdoutboundattachment-close">Close</a> was called before <a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdoutboundattachment-write">Write</a> was called. You must call <b>Write</b> before closing the attachment stream.
 
 </td>
 </tr>
@@ -116,11 +116,11 @@ Internal buffers were not available. The data in the attachment stream was not s
 
 <b>Close</b> is used to indicate that the application has no more data to transmit in the current attachment stream. The return value can indicate an error in a previous Write operation or an issue closing the connection.
 
-<b>Close</b> may block while waiting for a previous <a href="https://msdn.microsoft.com/5bd24e7c-f2f4-4cc4-abc0-176ed024fa43">Write</a> operation to complete.
+<b>Close</b> may block while waiting for a previous <a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdoutboundattachment-write">Write</a> operation to complete.
 <b>Close</b> may block for up to 30 seconds (per HTTP transmission timeouts) while waiting for a  previous <b>Write</b> operation to complete.
 
 
- The <b>Close</b> method may return successfully after a failed  <b>Close</b> attempt that returned <b>STG_S_BLOCK</b>.  A subsequent success indicates that the internal buffers were freed for use after the initial failed attempt. When <b>STG_S_BLOCK</b> is received by an application, the application can either call <b>Close</b> again or terminate  the data transfer using the <a href="https://msdn.microsoft.com/add0160c-bbf7-446e-8592-a05fd4d16fac">Abort</a> method.
+ The <b>Close</b> method may return successfully after a failed  <b>Close</b> attempt that returned <b>STG_S_BLOCK</b>.  A subsequent success indicates that the internal buffers were freed for use after the initial failed attempt. When <b>STG_S_BLOCK</b> is received by an application, the application can either call <b>Close</b> again or terminate  the data transfer using the <a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdoutboundattachment-abort">Abort</a> method.
 
 
 
@@ -130,19 +130,19 @@ Internal buffers were not available. The data in the attachment stream was not s
 
 
 
-<a href="https://msdn.microsoft.com/1bacbf20-2eb2-4aa1-ba37-e14dc0d955b0">IWSDInboundAttachment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nn-wsdattachment-iwsdinboundattachment">IWSDInboundAttachment</a>
 
 
 
-<a href="https://msdn.microsoft.com/ba2f2038-e6ef-4ad4-a1fb-50e225394c60">IWSDOutboundAttachment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nn-wsdattachment-iwsdoutboundattachment">IWSDOutboundAttachment</a>
 
 
 
-<a href="https://msdn.microsoft.com/add0160c-bbf7-446e-8592-a05fd4d16fac">IWSDOutboundAttachment::Abort</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdoutboundattachment-abort">IWSDOutboundAttachment::Abort</a>
 
 
 
-<a href="https://msdn.microsoft.com/5bd24e7c-f2f4-4cc4-abc0-176ed024fa43">IWSDOutboundAttachment::Write</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdoutboundattachment-write">IWSDOutboundAttachment::Write</a>
  
 
  

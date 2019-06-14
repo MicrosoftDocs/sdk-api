@@ -63,12 +63,12 @@ Unregisters a platform work queue from a Multimedia Class Scheduler Service (MMC
 
 ### -param dwPlatformWorkQueue [in]
 
-Platform work queue to register with MMCSS. See <a href="https://msdn.microsoft.com/aea9f946-dd59-4e51-a1de-b086e70ea083">IMFWorkQueueServices::BeginRegisterPlatformWorkQueueWithMMCSS</a>.
+Platform work queue to register with MMCSS. See <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-beginregisterplatformworkqueuewithmmcss">IMFWorkQueueServices::BeginRegisterPlatformWorkQueueWithMMCSS</a>.
 
 
 ### -param pCallback [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/7edff985-da59-4cc0-96de-1a92e03a7d41">IMFAsyncCallback</a> interface of a callback object. The caller must implement this interface.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface of a callback object. The caller must implement this interface.
 
 
 ### -param pState [in]
@@ -108,7 +108,7 @@ The method succeeded.
 
 
 
-This method is asynchronous. When the operation completes, the callback object's <a href="https://msdn.microsoft.com/22473605-637e-4783-a8cb-98248b0a0327">IMFAsyncCallback::Invoke</a> method is called. At that point, the application should call <a href="https://msdn.microsoft.com/e6cce9d8-7f6c-4835-96a4-a2e836c61d08">IMFWorkQueueServices::EndUnregisterPlatformWorkQueueWithMMCSS</a> to complete the asynchronous request.
+This method is asynchronous. When the operation completes, the callback object's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method is called. At that point, the application should call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-endunregisterplatformworkqueuewithmmcss">IMFWorkQueueServices::EndUnregisterPlatformWorkQueueWithMMCSS</a> to complete the asynchronous request.
 
 
 
@@ -118,7 +118,7 @@ This method is asynchronous. When the operation completes, the callback object's
 
 
 
-<a href="https://msdn.microsoft.com/7a6ddb67-9a8c-408c-b750-4f3fd3ba0d7d">IMFWorkQueueServices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservices">IMFWorkQueueServices</a>
  
 
  

@@ -63,7 +63,7 @@ This property is read/write.
 
 
 
-When reading or writing XML for a task, this setting is specified in the <a href="https://msdn.microsoft.com/89584694-0685-44e2-b8b7-69e47ee28d5d">Duration</a> element of the Task Scheduler schema.
+When reading or writing XML for a task, this setting is specified in the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-duration-idlesettingstype-element">Duration</a> element of the Task Scheduler schema.
 
 
 
@@ -73,11 +73,11 @@ When reading or writing XML for a task, this setting is specified in the <a href
 
 
 
-<a href="https://msdn.microsoft.com/a6bd9278-b9ac-4eb3-957a-5191cee12a6f">IIdleSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iidlesettings">IIdleSettings</a>
 
 
 
-<a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
  
 
  

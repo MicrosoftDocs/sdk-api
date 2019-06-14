@@ -59,7 +59,7 @@ Called by the Windows Biometric Framework to retrieve format and version informa
 
 ### -param Pipeline [in, out]
 
-Pointer to a <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae41c3e12a">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 
 ### -param Format [out]
@@ -69,7 +69,7 @@ Pointer to a variable that receives a  GUID that uniquely identifies the data fo
 
 ### -param Version [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/b9d08e10-00db-4f3f-9e27-6063aafa4151">WINBIO_VERSION</a>  structure that receives the version number of the storage adapter component.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-version">WINBIO_VERSION</a>  structure that receives the version number of the storage adapter component.
 
 
 
@@ -117,7 +117,7 @@ The <b>StorageContext</b> member of the pipeline object is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/5f04d912-f9bc-41d4-aa9e-b843e4b5a994">Plug-in Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
  
 
  

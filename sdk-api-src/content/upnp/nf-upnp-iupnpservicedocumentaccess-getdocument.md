@@ -76,11 +76,11 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the method r
 
 
 
-<a href="https://msdn.microsoft.com/A4890300-2945-4973-ACFC-F950C5E15A0E">IUPnPServiceDocumentAccess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservicedocumentaccess">IUPnPServiceDocumentAccess</a>
 
 
 
-<a href="https://msdn.microsoft.com/57AF4510-89D6-4DD5-B164-1478A5C27E20">IUPnPServiceDocumentAccess::GetDocumentURL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservicedocumentaccess-getdocumenturl">IUPnPServiceDocumentAccess::GetDocumentURL</a>
  
 
  

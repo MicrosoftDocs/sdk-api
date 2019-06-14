@@ -115,7 +115,7 @@ Device MFTs can take advantage of this function to initialize various internal o
 
 
 
-<a href="https://msdn.microsoft.com/375293FA-8017-4F74-A93C-C15FED8F19AF">IMFDeviceTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransform">IMFDeviceTransform</a>
  
 
  

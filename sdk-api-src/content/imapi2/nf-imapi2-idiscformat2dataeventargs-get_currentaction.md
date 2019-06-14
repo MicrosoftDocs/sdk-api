@@ -59,7 +59,7 @@ Retrieves the current write action being performed.
 
 ### -param value [out]
 
-Current write action being performed. For a list of possible actions, see  the <a href="https://msdn.microsoft.com/f406e727-e168-46d9-9c03-c949469bb1c9">IMAPI_FORMAT2_DATA_WRITE_ACTION</a> enumeration type.
+Current write action being performed. For a list of possible actions, see  the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_format2_data_write_action">IMAPI_FORMAT2_DATA_WRITE_ACTION</a> enumeration type.
 
 
 ## -returns
@@ -97,11 +97,11 @@ Value: 0x80004003
 
 
 
-<a href="https://msdn.microsoft.com/f9f1d976-9ec9-40a5-92b6-d00a7e15d0aa">DDiscFormat2DataEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-ddiscformat2dataevents">DDiscFormat2DataEvents</a>
 
 
 
-<a href="https://msdn.microsoft.com/6bf149d3-62ea-4ef5-8d45-44df9ad4982c">IDiscFormat2DataEventArgs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2dataeventargs">IDiscFormat2DataEventArgs</a>
  
 
  

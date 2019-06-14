@@ -75,7 +75,7 @@ This method returns the DXGI color space of this context.
 
 
 
-<a href="https://msdn.microsoft.com/77C8730B-C753-48E7-89C1-FBE28E687704">ID2D1ColorContext1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1colorcontext1">ID2D1ColorContext1</a>
  
 
  

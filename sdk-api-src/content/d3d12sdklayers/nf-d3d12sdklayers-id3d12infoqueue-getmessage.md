@@ -63,7 +63,7 @@ Get a message from the message queue.
 
 Type: <b>UINT64</b>
 
-Index into message queue after an optional retrieval filter has been applied. This can be between 0 and the number of messages in the message queue that pass through the retrieval filter (which can be obtained with <a href="https://msdn.microsoft.com/57F10336-2304-4DC9-B62B-6536A7AD76CB">GetNumStoredMessagesAllowedByRetrievalFilter</a>). 0 is the message at the front of the message queue.
+Index into message queue after an optional retrieval filter has been applied. This can be between 0 and the number of messages in the message queue that pass through the retrieval filter (which can be obtained with <a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-getnumstoredmessagesallowedbyretrievalfilter">GetNumStoredMessagesAllowedByRetrievalFilter</a>). 0 is the message at the front of the message queue.
 
 
           
@@ -71,7 +71,7 @@ Index into message queue after an optional retrieval filter has been applied. Th
 
 ### -param pMessage [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/DED84AC1-0126-450E-8A0A-1336BB4084D4">D3D12_MESSAGE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/ns-d3d12sdklayers-d3d12_message">D3D12_MESSAGE</a>*</b>
 
 Returned message.
 
@@ -89,9 +89,9 @@ Size of <i>pMessage</i> in bytes.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>. 
+This method returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a>. 
           
 
 
@@ -130,7 +130,7 @@ hr = pInfoQueue-&gt;GetMessage(0, pMessage, &amp;messageLength);
 
 
 
-<a href="https://msdn.microsoft.com/61667AAC-05AC-4745-8992-E9377641D411">ID3D12InfoQueue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12infoqueue">ID3D12InfoQueue</a>
  
 
  

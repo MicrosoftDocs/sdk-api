@@ -49,13 +49,13 @@ ms.custom: 19H1
 ## -description
 
 
-Creates Direct2D resources. This interface performs all the same functions as the <a href="https://msdn.microsoft.com/79656026-7197-4EF4-A8DD-7E65D43D1F18">ID2D1Factory6</a> interface, 
-        plus it enables the creation of <a href="https://msdn.microsoft.com/4C8AA3D6-E08E-45CE-958A-DBC8C9EB7B97">ID2D1Device6</a> objects.
+Creates Direct2D resources. This interface performs all the same functions as the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1factory6">ID2D1Factory6</a> interface, 
+        plus it enables the creation of <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1device6">ID2D1Device6</a> objects.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Factory7</b> interface inherits from <a href="https://msdn.microsoft.com/79656026-7197-4EF4-A8DD-7E65D43D1F18">ID2D1Factory6</a>. <b>ID2D1Factory7</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Factory7</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1factory6">ID2D1Factory6</a>. <b>ID2D1Factory7</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID2D1Factory7</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6E40B8EA-AF61-40CF-B085-13954EDFA71F">CreateDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1factory7-createdevice">CreateDevice</a>
 </td>
 <td align="left" width="63%">
 Creates a new Direct2D device from the given IDXGIDevice

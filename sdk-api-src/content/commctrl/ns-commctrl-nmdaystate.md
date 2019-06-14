@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Carries information required to process the <a href="https://msdn.microsoft.com/en-us/library/Bb760935(v=VS.85).aspx">MCN_GETDAYSTATE</a> notification code. All members of this structure are for input, except 
+Carries information required to process the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcn-getdaystate">MCN_GETDAYSTATE</a> notification code. All members of this structure are for input, except 
 			<b>prgDayState</b>, which the receiving application must set when processing MCN_GETDAYSTATE. 
 
 
@@ -60,18 +60,18 @@ Carries information required to process the <a href="https://msdn.microsoft.com/
 
 ### -field nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about this notification code. 
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that contains information about this notification code. 
 
 
 ### -field stStart
 
-Type: <b><a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a></b>
 
 
-<a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure that contains the starting date. 
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that contains the starting date. 
 
 
 ### -field cDayState
@@ -86,7 +86,7 @@ INT value specifying the total number of elements that must be in the array at
 
 Type: <b>LPMONTHDAYSTATE</b>
 
-Address of an array of <a href="https://msdn.microsoft.com/en-us/library/Bb760915(v=VS.85).aspx">MONTHDAYSTATE</a> values. The buffer at this address must be large enough to contain at least 
+Address of an array of <a href="https://docs.microsoft.com/windows/desktop/Controls/monthdaystate">MONTHDAYSTATE</a> values. The buffer at this address must be large enough to contain at least 
 					<b>cDayState</b> elements. The first element in the array corresponds to the date in 
 					<b>stStart</b>. 
 

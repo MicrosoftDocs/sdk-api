@@ -63,9 +63,9 @@ This property is read/write.
 
 
 
-The variant type is VT_UI8 if the <a href="https://msdn.microsoft.com/cc217b3b-389a-4d15-b47d-456778f3eaec">ValueMapType</a> enumeration is plaIndex, plaFlag or plaFlagArray.
+The variant type is VT_UI8 if the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/ne-pla-__midl___midl_itf_pla_0001_0043_0008">ValueMapType</a> enumeration is plaIndex, plaFlag or plaFlagArray.
 
-The variant type is VT_UI4 if <a href="https://msdn.microsoft.com/cc217b3b-389a-4d15-b47d-456778f3eaec">ValueMapType</a> is plaValidation.
+The variant type is VT_UI4 if <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/ne-pla-__midl___midl_itf_pla_0001_0043_0008">ValueMapType</a> is plaValidation.
 
 
 
@@ -75,15 +75,15 @@ The variant type is VT_UI4 if <a href="https://msdn.microsoft.com/cc217b3b-389a-
 
 
 
-<a href="https://msdn.microsoft.com/9f344845-956e-4254-82e2-e4e00f6a371b">IValueMap::Value</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get_value">IValueMap::Value</a>
 
 
 
-<a href="https://msdn.microsoft.com/5fab2a62-d974-49f7-ac81-c704d9d8624c">IValueMapItem</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemapitem">IValueMapItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/006d134d-d14b-4964-b46c-7dd2353d2493">IValueMapItem::ValueMapType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemapitem-get_valuemaptype">IValueMapItem::ValueMapType</a>
  
 
  

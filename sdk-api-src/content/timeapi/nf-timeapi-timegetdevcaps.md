@@ -63,13 +63,13 @@ The <b>timeGetDevCaps</b> function queries the timer device to determine its res
 
 ### -param ptc
 
-A pointer to a <a href="https://msdn.microsoft.com/64a5c4ba-d340-4abc-8da3-766f3a2d7ec8">TIMECAPS</a> structure. This structure is filled with information about the resolution of the timer device.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/timeapi/ns-timeapi-timecaps_tag">TIMECAPS</a> structure. This structure is filled with information about the resolution of the timer device.
           
 
 
 ### -param cbtc
 
-The size, in bytes, of the <a href="https://msdn.microsoft.com/64a5c4ba-d340-4abc-8da3-766f3a2d7ec8">TIMECAPS</a> structure.
+The size, in bytes, of the <a href="https://docs.microsoft.com/windows/desktop/api/timeapi/ns-timeapi-timecaps_tag">TIMECAPS</a> structure.
           
 
 
@@ -117,15 +117,15 @@ The <i>ptc</i> parameter is <b>NULL</b>, or the <i>cbtc</i> parameter is invalid
 
 
 
-<a href="https://msdn.microsoft.com/71680295-7fd3-4a8b-a574-78ea05e1d11d">Multimedia Timer Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/multimedia-timer-functions">Multimedia Timer Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/25e0b313-64ff-4f30-ae0a-ac364ce3f0cf">Multimedia Timers</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/multimedia-timers">Multimedia Timers</a>
 
 
 
-<a href="https://msdn.microsoft.com/2e5e94fe-8175-417f-8c59-9d5cf052ea89">Timer Resolution</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/timer-resolution">Timer Resolution</a>
  
 
  

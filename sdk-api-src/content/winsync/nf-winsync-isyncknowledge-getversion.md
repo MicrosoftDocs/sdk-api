@@ -59,7 +59,7 @@ Gets the version of this knowledge structure.
 
 ### -param pdwVersion [out]
 
-Returns the version of this knowledge structure. is one of the values in the <a href="https://msdn.microsoft.com/en-us/library/Dd744813(v=VS.85).aspx">SYNC_SERIALIZATION_VERSION</a> enumeration.
+Returns the version of this knowledge structure. is one of the values in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ne-winsync-__midl___midl_itf_winsync_0000_0000_0007">SYNC_SERIALIZATION_VERSION</a> enumeration.
 
 
 ## -returns
@@ -115,11 +115,11 @@ This value is the version of the knowledge structure itself. When the internal k
 
 
 
-<a href="https://msdn.microsoft.com/cfb08476-7b5d-4953-b723-5160330e57be">ISyncKnowledge Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd744813(v=VS.85).aspx">SYNC_SERIALIZATION_VERSION Enumeration</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ne-winsync-__midl___midl_itf_winsync_0000_0000_0007">SYNC_SERIALIZATION_VERSION Enumeration</a>
  
 
  

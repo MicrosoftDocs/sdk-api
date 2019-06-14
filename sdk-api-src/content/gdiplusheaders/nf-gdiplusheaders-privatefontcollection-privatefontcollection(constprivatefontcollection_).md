@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an empty <a href="https://msdn.microsoft.com/en-us/library/ms534491(v=VS.85).aspx">PrivateFontCollection</a> object.
+Creates an empty <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-privatefontcollection">PrivateFontCollection</a> object.
 
 
 ## -parameters

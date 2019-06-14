@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>EcSetSubscriptionProperty</b> function sets new values or updates existing values of a subscription. New values set through this method will not be active unless they are saved by the <a href="https://msdn.microsoft.com/41702fb8-5b39-4daa-8904-aa36de18665c">EcSaveSubscription</a> method.
+The <b>EcSetSubscriptionProperty</b> function sets new values or updates existing values of a subscription. New values set through this method will not be active unless they are saved by the <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/nf-evcoll-ecsavesubscription">EcSaveSubscription</a> method.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ The handle to the subscription object.
 
 ### -param PropertyId [in]
 
-A value from the  <a href="https://msdn.microsoft.com/c70dca98-1c14-4c0c-9f2e-6241c463fe4e">EC_SUBSCRIPTION_PROPERTY_ID</a> enumeration that specifies which property of the subscription to set.
+A value from the  <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/ne-evcoll-_ec_subscription_property_id">EC_SUBSCRIPTION_PROPERTY_ID</a> enumeration that specifies which property of the subscription to set.
 
 
 ### -param Flags [in]
@@ -91,7 +91,7 @@ This function returns BOOL.
 
 
 
-<a href="https://msdn.microsoft.com/48155df6-ba9c-4abe-ba84-6190cee95878">Windows Event Collector Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WEC/windows-event-collector-functions">Windows Event Collector Functions</a>
  
 
  

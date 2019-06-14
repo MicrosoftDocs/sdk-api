@@ -118,11 +118,11 @@ Insufficient memory exists to perform the operation.
 
 
 
-<a href="https://msdn.microsoft.com/4c75314c-72f0-4eae-a1f5-36f3959c322a">IEnumAgent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumagent">IEnumAgent</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c1409c9-da73-4d21-bf56-07e9ab7b33a0">ITAgent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
  
 
  

@@ -61,7 +61,7 @@ Changes the visual state of the window. For example, minimizes or maximizes it.
 
 #### - state [in]
 
-Type: <b><a href="https://msdn.microsoft.com/5912551c-2745-434b-98de-bf24212f7eef">WindowVisualState</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-windowvisualstate">WindowVisualState</a></b>
 
 The state of the window.
 
@@ -71,7 +71,7 @@ The state of the window.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -87,7 +87,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/cf09ad4e-fd5b-4304-b5fb-165205bff1f3">IWindowProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iwindowprovider">IWindowProvider</a>
 
 
 
@@ -95,11 +95,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/8928c889-0e0a-439f-87e8-a9d121fcf73f">UI Automation Providers Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/c65e8687-51b7-45ea-8183-6d9674f77012">WindowVisualState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iwindowprovider-get_windowvisualstate">WindowVisualState</a>
  
 
  

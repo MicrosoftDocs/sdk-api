@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 
 The <b>SetMetaFileBitsEx</b> function creates a memory-based Windows-format metafile from the supplied data.
-<div class="alert"><b>Note</b>  This function is provided only for compatibility with Windows-format metafiles. Enhanced-format metafiles provide superior functionality and are recommended for new applications. The corresponding function for an enhanced-format metafile is <a href="https://msdn.microsoft.com/0f21ed97-e37f-4b44-a2eb-b8e284b3dc4b">SetEnhMetaFileBits</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  This function is provided only for compatibility with Windows-format metafiles. Enhanced-format metafiles provide superior functionality and are recommended for new applications. The corresponding function for an enhanced-format metafile is <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setenhmetafilebits">SetEnhMetaFileBits</a>.</div><div> </div>
 
 ## -parameters
 
@@ -68,7 +68,7 @@ Specifies the size, in bytes, of the Windows-format metafile.
 
 ### -param lpData [in]
 
-Pointer to a buffer that contains the Windows-format metafile. (It is assumed that the data was obtained by using the <a href="https://msdn.microsoft.com/6ca6de2e-79cb-4503-a0d7-f616b8e383eb">GetMetaFileBitsEx</a> function.)
+Pointer to a buffer that contains the Windows-format metafile. (It is assumed that the data was obtained by using the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getmetafilebitsex">GetMetaFileBitsEx</a> function.)
 
 
 ## -returns
@@ -86,9 +86,9 @@ If the function fails, the return value is <b>NULL</b>.
 
 
 
-To convert a Windows-format metafile into an enhanced-format metafile, use the <a href="https://msdn.microsoft.com/b7170c8a-da5f-4946-9c56-da3cffc84567">SetWinMetaFileBits</a> function.
+To convert a Windows-format metafile into an enhanced-format metafile, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setwinmetafilebits">SetWinMetaFileBits</a> function.
 
-When the application no longer needs the metafile handle returned by <b>SetMetaFileBitsEx</b>, it should delete it by calling the <a href="https://msdn.microsoft.com/51766282-f185-4e29-a36e-1069d9d61f7c">DeleteMetaFile</a> function.
+When the application no longer needs the metafile handle returned by <b>SetMetaFileBitsEx</b>, it should delete it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deletemetafile">DeleteMetaFile</a> function.
 
 
 
@@ -98,27 +98,27 @@ When the application no longer needs the metafile handle returned by <b>SetMetaF
 
 
 
-<a href="https://msdn.microsoft.com/51766282-f185-4e29-a36e-1069d9d61f7c">DeleteMetaFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deletemetafile">DeleteMetaFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/6ca6de2e-79cb-4503-a0d7-f616b8e383eb">GetMetaFileBitsEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getmetafilebitsex">GetMetaFileBitsEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/93a17a8c-308b-4442-933e-fedc8b9a84b0">Metafile Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-functions">Metafile Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/309ee4cf-111b-4f09-a722-4823cb3d26b0">Metafiles Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/0f21ed97-e37f-4b44-a2eb-b8e284b3dc4b">SetEnhMetaFileBits</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setenhmetafilebits">SetEnhMetaFileBits</a>
 
 
 
-<a href="https://msdn.microsoft.com/b7170c8a-da5f-4946-9c56-da3cffc84567">SetWinMetaFileBits</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setwinmetafilebits">SetWinMetaFileBits</a>
  
 
  

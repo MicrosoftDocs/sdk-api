@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies whether a stream associated with an <a href="https://msdn.microsoft.com/061EF002-178E-42CA-9D32-7E1282297BA4">IMFSensorDevice</a> is an input or an output stream.
+Specifies whether a stream associated with an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensordevice">IMFSensorDevice</a> is an input or an output stream.
 
 
 ## -enum-fields

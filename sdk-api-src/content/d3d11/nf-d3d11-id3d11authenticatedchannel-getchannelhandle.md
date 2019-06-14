@@ -76,11 +76,11 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/fd52e939-127a-4493-8406-31f7767921cd">GetCertificateSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/getcertificatesize">GetCertificateSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/B2DE8E06-1571-4D50-9296-8EB4BB74D6BA">ID3D11AuthenticatedChannel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11authenticatedchannel">ID3D11AuthenticatedChannel</a>
  
 
  

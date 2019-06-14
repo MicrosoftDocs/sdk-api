@@ -67,7 +67,7 @@ The index of the power scheme to be read.
 ### -param pMachineProcessorPowerPolicy [out]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/54403b81-97bc-4f2b-8721-48c9f69e2773">MACHINE_PROCESSOR_POWER_POLICY</a> structure that receives the processor power policy settings.
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_machine_processor_power_policy">MACHINE_PROCESSOR_POWER_POLICY</a> structure that receives the processor power policy settings.
 
 
 ## -returns
@@ -77,7 +77,7 @@ A pointer to a
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -87,11 +87,11 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 The 
-<a href="https://msdn.microsoft.com/54403b81-97bc-4f2b-8721-48c9f69e2773">MACHINE_PROCESSOR_POWER_POLICY</a> structure contains processor power policy settings for use while the system is running on AC power or battery power.
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_machine_processor_power_policy">MACHINE_PROCESSOR_POWER_POLICY</a> structure contains processor power policy settings for use while the system is running on AC power or battery power.
 
-Starting with Windows Vista, power management configuration of the system's processor is controlled through the GUID_PROCESSOR_SETTINGS_SUBGROUP power settings subgroup. Use the <a href="https://msdn.microsoft.com/5b2c8263-d916-4909-be56-ec784537bdc3">PowerEnumerate</a> function to enumerate individual settings.
+Starting with Windows Vista, power management configuration of the system's processor is controlled through the GUID_PROCESSOR_SETTINGS_SUBGROUP power settings subgroup. Use the <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powerenumerate">PowerEnumerate</a> function to enumerate individual settings.
 
-For more information on using PowrProf.h, see <a href="https://msdn.microsoft.com/36052517-a85c-4512-8772-8aec31551c77">Power Schemes</a>.
+For more information on using PowrProf.h, see <a href="https://docs.microsoft.com/windows/desktop/Power/power-schemes">Power Schemes</a>.
 
 
 
@@ -101,19 +101,19 @@ For more information on using PowrProf.h, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/54403b81-97bc-4f2b-8721-48c9f69e2773">MACHINE_PROCESSOR_POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_machine_processor_power_policy">MACHINE_PROCESSOR_POWER_POLICY</a>
 
 
 
-<a href="https://msdn.microsoft.com/eae96a9e-ced2-4e13-b250-33c5acbbae48">Power Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/36052517-a85c-4512-8772-8aec31551c77">Power Schemes</a>
+<a href="https://docs.microsoft.com/windows/desktop/Power/power-schemes">Power Schemes</a>
 
 
 
-<a href="https://msdn.microsoft.com/70e18f50-4774-4a7c-8fe0-7fd6a54aaa90">WriteProcessorPwrScheme</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-writeprocessorpwrscheme">WriteProcessorPwrScheme</a>
  
 
  

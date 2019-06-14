@@ -86,23 +86,23 @@ This constructor allows GDI+ to own the windows handle to the metafile, which sh
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533831(v=VS.85).aspx">Loading and Displaying Metafiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-loading-and-displaying-metafiles-use">Loading and Displaying Metafiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534477(v=VS.85).aspx">Metafile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535271(v=VS.85).aspx">Metafile::GetHENHMETAFILE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-metafile-gethenhmetafile">Metafile::GetHENHMETAFILE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536391(v=VS.85).aspx">Metafiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-metafiles-about">Metafiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533833(v=VS.85).aspx">Recording Metafiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-recording-metafiles-use">Recording Metafiles</a>
  
 
  

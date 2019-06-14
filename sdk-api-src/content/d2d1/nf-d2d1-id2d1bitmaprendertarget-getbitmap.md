@@ -59,7 +59,7 @@ Retrieves the bitmap for this render target. The returned bitmap can be used for
 
 ### -param bitmap [out]
 
-Type: <b><a href="https://msdn.microsoft.com/e58216ea-e6b5-450f-a0ea-b879aa5dff38">ID2D1Bitmap</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>**</b>
 
 When this method returns, contains the address of a pointer to the bitmap for this render target. This bitmap can be used for drawing operations.
 
@@ -68,7 +68,7 @@ When this method returns, contains the address of a pointer to the bitmap for th
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -79,12 +79,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The DPI for the <a href="https://msdn.microsoft.com/e58216ea-e6b5-450f-a0ea-b879aa5dff38">ID2D1Bitmap</a> obtained from <b>GetBitmap</b> will be the DPI of the <a href="https://msdn.microsoft.com/f298d4f7-acb8-4fbe-89f7-2410e3b753bd">ID2D1BitmapRenderTarget</a> when the render target was created. Changing the DPI of the <b>ID2D1BitmapRenderTarget</b> by calling  <a href="https://msdn.microsoft.com/603a838b-4abc-4adf-93a9-ec8535d42ed6">SetDpi</a> doesn't affect the DPI of the bitmap, even if <b>SetDpi</b> is called before <b>GetBitmap</b>. Using <b>SetDpi</b> to change the DPI of the <b>ID2D1BitmapRenderTarget</b> does affect how contents are rendered into the bitmap: it just doesn't affect the DPI of the bitmap retrieved by <b>GetBitmap</b>.
+The DPI for the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a> obtained from <b>GetBitmap</b> will be the DPI of the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmaprendertarget">ID2D1BitmapRenderTarget</a> when the render target was created. Changing the DPI of the <b>ID2D1BitmapRenderTarget</b> by calling  <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-setdpi">SetDpi</a> doesn't affect the DPI of the bitmap, even if <b>SetDpi</b> is called before <b>GetBitmap</b>. Using <b>SetDpi</b> to change the DPI of the <b>ID2D1BitmapRenderTarget</b> does affect how contents are rendered into the bitmap: it just doesn't affect the DPI of the bitmap retrieved by <b>GetBitmap</b>.
 
 
 #### Examples
 
-The following example uses the <a href="https://msdn.microsoft.com/en-us/library/Dd742780(v=VS.85).aspx">CreateCompatibleRenderTarget</a> method to create an <a href="https://msdn.microsoft.com/f298d4f7-acb8-4fbe-89f7-2410e3b753bd">ID2D1BitmapRenderTarget</a> and uses it to  draw a grid pattern. The grid pattern is used as the source of an <a href="https://msdn.microsoft.com/22b14ffa-14cb-4e4d-bf80-7d81e4ae9ee4">ID2D1BitmapBrush</a>.
+The following example uses the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createcompatiblerendertarget">CreateCompatibleRenderTarget</a> method to create an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmaprendertarget">ID2D1BitmapRenderTarget</a> and uses it to  draw a grid pattern. The grid pattern is used as the source of an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a>.
 
 
 ```cpp
@@ -166,7 +166,7 @@ Code has been omitted from this example.
 
 
 
-<a href="https://msdn.microsoft.com/f298d4f7-acb8-4fbe-89f7-2410e3b753bd">ID2D1BitmapRenderTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmaprendertarget">ID2D1BitmapRenderTarget</a>
  
 
  

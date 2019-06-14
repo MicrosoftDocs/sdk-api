@@ -51,13 +51,13 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/507c8262-c5e8-470e-be89-566ae732946d">CHPtrArray</a> class 
+<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/chptrarr/nl-chptrarr-chptrarray">CHPtrArray</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
-The <b>GetAt</b> method accesses an element in a <a href="https://msdn.microsoft.com/507c8262-c5e8-470e-be89-566ae732946d">CHPtrArray</a> array.
+The <b>GetAt</b> method accesses an element in a <a href="https://docs.microsoft.com/windows/desktop/api/chptrarr/nl-chptrarr-chptrarray">CHPtrArray</a> array.
 
 
 ## -parameters
@@ -74,7 +74,7 @@ An integer index that is greater than or equal to zero (0), and less than or equ
 
 
 
-If the <b>GetAt</b> method is successful, it returns the <a href="https://msdn.microsoft.com/507c8262-c5e8-470e-be89-566ae732946d">CHPtrArray</a> pointer element currently at this index.
+If the <b>GetAt</b> method is successful, it returns the <a href="https://docs.microsoft.com/windows/desktop/api/chptrarr/nl-chptrarr-chptrarray">CHPtrArray</a> pointer element currently at this index.
 
 
 
@@ -84,11 +84,11 @@ If the <b>GetAt</b> method is successful, it returns the <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/507c8262-c5e8-470e-be89-566ae732946d">CHPtrArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/chptrarr/nl-chptrarr-chptrarray">CHPtrArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/d2414a72-3435-4035-bcd9-b3ec87f5709c">Provider Framework Utility Classes</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/provider-framework-utility-classes">Provider Framework Utility Classes</a>
  
 
  

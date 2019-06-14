@@ -60,16 +60,16 @@ Get the support of a given format on the installed video device.
 
 ### -param Format [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a></b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> enumeration that describes a format for which to check for support.
+A <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> enumeration that describes a format for which to check for support.
 
 
 ### -param pFormatSupport [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
-A bitfield of <a href="https://msdn.microsoft.com/en-us/library/Bb205063(v=VS.85).aspx">D3D10_FORMAT_SUPPORT</a> enumeration values describing how the specified format is supported on the installed device. 
+A bitfield of <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_format_support">D3D10_FORMAT_SUPPORT</a> enumeration values describing how the specified format is supported on the installed device. 
         The values are ORed together.
 
 
@@ -77,7 +77,7 @@ A bitfield of <a href="https://msdn.microsoft.com/en-us/library/Bb205063(v=VS.85
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 Returns S_OK if successful; otherwise, returns E_INVALIDARG if the <i>Format</i> parameter is <b>NULL</b>, or returns E_FAIL if the described 
       format does not exist.
@@ -101,7 +101,7 @@ Most format support is based on the Direct3D feature level. Only a few specific 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
  
 
  

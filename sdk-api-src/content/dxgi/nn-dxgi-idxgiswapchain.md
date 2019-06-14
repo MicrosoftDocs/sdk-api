@@ -50,12 +50,12 @@ ms.custom: 19H1
 ## -description
 
 
-An <b>IDXGISwapChain</b> interface implements one or more <a href="https://msdn.microsoft.com/en-us/library/Bb174565(v=VS.85).aspx">surfaces</a> for storing rendered data before presenting it to an output.
+An <b>IDXGISwapChain</b> interface implements one or more <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgisurface">surfaces</a> for storing rendered data before presenting it to an output.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGISwapChain</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb174528(v=VS.85).aspx">IDXGIDeviceSubObject</a>. <b>IDXGISwapChain</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGISwapChain</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgidevicesubobject">IDXGIDeviceSubObject</a>. <b>IDXGISwapChain</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IDXGISwapChain</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174570(v=VS.85).aspx">GetBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-getbuffer">GetBuffer</a>
 </td>
 <td align="left" width="63%">
 Accesses one of the swap-chain's back buffers.
@@ -79,7 +79,7 @@ Accesses one of the swap-chain's back buffers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174571(v=VS.85).aspx">GetContainingOutput</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-getcontainingoutput">GetContainingOutput</a>
 </td>
 <td align="left" width="63%">
 Get the output (the display monitor) that contains the majority of the client area of the target window.
@@ -88,18 +88,18 @@ Get the output (the display monitor) that contains the majority of the client ar
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174572(v=VS.85).aspx">GetDesc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-getdesc">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Get a description of the swap chain.
 
-<div class="alert"><b>Note</b>  Starting with Direct3D 11.1, we recommend not to use <a href="https://msdn.microsoft.com/en-us/library/Bb174572(v=VS.85).aspx">GetDesc</a> anymore to get a description of the swap chain. Instead, use <a href="https://msdn.microsoft.com/86BB75A7-C289-4EBA-A9EE-ED4F5C590BA2">IDXGISwapChain1::GetDesc1</a>.</div>
+<div class="alert"><b>Note</b>  Starting with Direct3D 11.1, we recommend not to use <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-getdesc">GetDesc</a> anymore to get a description of the swap chain. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-getdesc1">IDXGISwapChain1::GetDesc1</a>.</div>
 <div> </div>
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174573(v=VS.85).aspx">GetFrameStatistics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-getframestatistics">GetFrameStatistics</a>
 </td>
 <td align="left" width="63%">
 Gets performance statistics about the last render frame.
@@ -108,7 +108,7 @@ Gets performance statistics about the last render frame.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174574(v=VS.85).aspx">GetFullscreenState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-getfullscreenstate">GetFullscreenState</a>
 </td>
 <td align="left" width="63%">
 Get the state associated with full-screen mode.
@@ -117,16 +117,16 @@ Get the state associated with full-screen mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174575(v=VS.85).aspx">GetLastPresentCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-getlastpresentcount">GetLastPresentCount</a>
 </td>
 <td align="left" width="63%">
-Gets the number of times  that <a href="https://msdn.microsoft.com/en-us/library/Bb174576(v=VS.85).aspx">IDXGISwapChain::Present</a> or <a href="https://msdn.microsoft.com/F795A719-71BA-4A25-B41A-9D93F96B6CA4">IDXGISwapChain1::Present1</a> has been called.
+Gets the number of times  that <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present">IDXGISwapChain::Present</a> or <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-present1">IDXGISwapChain1::Present1</a> has been called.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174576(v=VS.85).aspx">Present</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present">Present</a>
 </td>
 <td align="left" width="63%">
 Presents a rendered image to the user.
@@ -135,7 +135,7 @@ Presents a rendered image to the user.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174577(v=VS.85).aspx">ResizeBuffers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-resizebuffers">ResizeBuffers</a>
 </td>
 <td align="left" width="63%">
 Changes the swap chain's back buffer size, format, and number of buffers. 
@@ -145,7 +145,7 @@ Changes the swap chain's back buffer size, format, and number of buffers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174578(v=VS.85).aspx">ResizeTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-resizetarget">ResizeTarget</a>
 </td>
 <td align="left" width="63%">
 Resizes the output target.
@@ -154,7 +154,7 @@ Resizes the output target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174579(v=VS.85).aspx">SetFullscreenState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-setfullscreenstate">SetFullscreenState</a>
 </td>
 <td align="left" width="63%">
 Sets the display state to windowed or full screen.
@@ -169,7 +169,7 @@ Sets the display state to windowed or full screen.
 
 
 You can create a swap chain by 
-calling <a href="https://msdn.microsoft.com/B78E9F87-C6B0-4078-8C59-AFB85B9C3CBD">IDXGIFactory2::CreateSwapChainForHwnd</a>, <a href="https://msdn.microsoft.com/B3AC3AEB-3449-4444-9FD3-866A3795C41F">IDXGIFactory2::CreateSwapChainForCoreWindow</a>, or <a href="https://msdn.microsoft.com/8AE13082-F8C3-422A-A111-4E91488BD1AF">IDXGIFactory2::CreateSwapChainForComposition</a>. You can also create a swap chain when you call <a href="https://msdn.microsoft.com/84d73e8c-f13c-4343-91de-57f9f8a0ad96">D3D11CreateDeviceAndSwapChain</a>; however, you can then only access the sub-set of swap-chain functionality that the <b>IDXGISwapChain</b> interface provides.
+calling <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforhwnd">IDXGIFactory2::CreateSwapChainForHwnd</a>, <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcorewindow">IDXGIFactory2::CreateSwapChainForCoreWindow</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcomposition">IDXGIFactory2::CreateSwapChainForComposition</a>. You can also create a swap chain when you call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-d3d11createdeviceandswapchain">D3D11CreateDeviceAndSwapChain</a>; however, you can then only access the sub-set of swap-chain functionality that the <b>IDXGISwapChain</b> interface provides.
 
 
 
@@ -179,11 +179,11 @@ calling <a href="https://msdn.microsoft.com/B78E9F87-C6B0-4078-8C59-AFB85B9C3CBD
 
 
 
-<a href="https://msdn.microsoft.com/b561b26b-961c-4d5e-8483-56b51b989bf7">DXGI Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174528(v=VS.85).aspx">IDXGIDeviceSubObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgidevicesubobject">IDXGIDeviceSubObject</a>
  
 
  

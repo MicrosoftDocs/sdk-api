@@ -59,17 +59,17 @@ The <b>PeerGroupConnectByAddress</b> function  attempts to connect to the peer g
 
 ### -param hGroup [in]
 
-Handle to the peer group  to which a peer intends to connect. This handle is returned by the <a href="https://msdn.microsoft.com/b85d87c6-28b7-49f8-865c-9d246f89367e">PeerGroupCreate</a>, <a href="https://msdn.microsoft.com/cfaf244f-8786-4801-926d-f6c79bfa4275">PeerGroupOpen</a>,<a href="https://msdn.microsoft.com/a7f5689d-4849-4363-bc61-3fed63f4287b">PeerGroupJoin</a>, or <a href="https://msdn.microsoft.com/aff8a462-a4cf-462b-a641-b1573311037b">PeerGroupPasswordJoin</a> function. This parameter is required.
+Handle to the peer group  to which a peer intends to connect. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupcreate">PeerGroupCreate</a>, <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupopen">PeerGroupOpen</a>,<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergrouppasswordjoin">PeerGroupPasswordJoin</a> function. This parameter is required.
 
 
 ### -param cAddresses [in]
 
-The total number of <a href="https://msdn.microsoft.com/09476d3b-ec65-40a2-90ee-a20be230deca">PEER_ADDRESS</a> structures pointed to by <i>pAddresses</i>.
+The total number of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address_tag">PEER_ADDRESS</a> structures pointed to by <i>pAddresses</i>.
 
 
 ### -param pAddresses [in]
 
-Pointer to a list of <a href="https://msdn.microsoft.com/09476d3b-ec65-40a2-90ee-a20be230deca">PEER_ADDRESS</a> structures that specify the endpoints of peers participating in the group.
+Pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address_tag">PEER_ADDRESS</a> structures that specify the endpoints of peers participating in the group.
 
 
 ## -returns
@@ -97,7 +97,7 @@ The handle to the peer group is invalid.
 </table>
  
 
-Cryptography-specific errors may be returned from the <a href="https://msdn.microsoft.com/c36025c5-a407-4a05-8780-23f8107730df">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
+Cryptography-specific errors may be returned from the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
 
 
 
@@ -116,19 +116,19 @@ If  a time-out value for PeerGroupConnectByAddress is not provided in the applic
 
 
 
-<a href="https://msdn.microsoft.com/09476d3b-ec65-40a2-90ee-a20be230deca">PEER_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address_tag">PEER_ADDRESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/240bcba7-29f9-4043-8203-e71175bee69a">PeerGroupConnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupconnect">PeerGroupConnect</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7f5689d-4849-4363-bc61-3fed63f4287b">PeerGroupJoin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a>
 
 
 
-<a href="https://msdn.microsoft.com/aff8a462-a4cf-462b-a641-b1573311037b">PeerGroupPasswordJoin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergrouppasswordjoin">PeerGroupPasswordJoin</a>
  
 
  

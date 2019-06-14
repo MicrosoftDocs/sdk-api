@@ -75,15 +75,15 @@ Specifies a range of Unicode points (characters).
 
 
 
-<a href="https://msdn.microsoft.com/047a72f9-a627-4c8b-b271-13d3c873abc9">GetEnabledUnicodeRanges Function</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-getenabledunicoderanges">GetEnabledUnicodeRanges Function</a>
 
 
 
-<a href="https://msdn.microsoft.com/4a354073-e971-43ba-93c9-84fa2e8c59aa">GetUnicodeRanges Function</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-getunicoderanges">GetUnicodeRanges Function</a>
 
 
 
-<a href="https://msdn.microsoft.com/68c7c06b-eab1-419d-ad58-22cbd4c3065e">SetEnabledUnicodeRanges Function</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-setenabledunicoderanges">SetEnabledUnicodeRanges Function</a>
  
 
  

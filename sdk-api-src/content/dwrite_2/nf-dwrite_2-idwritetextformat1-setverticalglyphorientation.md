@@ -59,7 +59,7 @@ Sets the orientation of a text format.
 
 ### -param glyphOrientation
 
-Type: <b><a href="https://msdn.microsoft.com/F13CD254-0D6A-4549-A2C2-3D3126E7B2EB">DWRITE_VERTICAL_GLYPH_ORIENTATION</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ne-dwrite_1-dwrite_vertical_glyph_orientation">DWRITE_VERTICAL_GLYPH_ORIENTATION</a></b>
 
 The orientation to apply to the text format.
 
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/15295A17-E542-4071-AE38-02014A1235D5">IDWriteTextFormat1</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritetextformat1">IDWriteTextFormat1</a>
  
 
  

@@ -144,7 +144,7 @@ The RPC client has not been authenticated successfully.
  
 
 Failure returns an RPC_S_* error code, or a Windows error code. Extended error information is available through standard RPC or Windows error code retrieval mechanisms. For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.
 
 
 
@@ -164,7 +164,7 @@ The
 
 The 
 <b>RpcGetAuthorizationContextForClient</b> function is thread-safe, and can be called from multiple threads. The context returned in <i>pAuthzClientContext</i> is independent of the function call, and can be used subsequent to its completion. The caller is responsible for freeing the context with a call to the 
-<a href="https://msdn.microsoft.com/ad6117e1-3244-42dd-b513-d5b2c28e8e10">RpcFreeAuthorizationContext</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcfreeauthorizationcontext">RpcFreeAuthorizationContext</a> function.
 
 Performance improvement observed by using the 
 <b>RpcGetAuthorizationContextForClient</b> function, when compared to previous methods of impersonation or access check or revert to self, depend on the following factors:
@@ -187,25 +187,25 @@ Calls over ncalrpc with static identity tracking execute the
 
 
 
-<a href="https://msdn.microsoft.com/c236f335-b5de-4e8b-851d-45e008791271">Client/Server Access
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Client/Server Access
 		  Control Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/a812a46b-f23f-45b1-a6c6-48f931b78750">LUID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid">LUID</a>
 
 
 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return
 		  Values</a>
 
 
 
-<a href="https://msdn.microsoft.com/ad6117e1-3244-42dd-b513-d5b2c28e8e10">RpcFreeAuthorizationContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcfreeauthorizationcontext">RpcFreeAuthorizationContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/1b91c4dc-ac49-4002-b293-a25ca2ffcb21">RpcImpersonateClient</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcimpersonateclient">RpcImpersonateClient</a>
  
 
  

@@ -58,7 +58,7 @@ Interface that enqueues download requests for remote fonts, characters, glyphs, 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontDownloadQueue</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDWriteFontDownloadQueue</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontDownloadQueue</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontDownloadQueue</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,27 +73,27 @@ The <b>IDWriteFontDownloadQueue</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c539be2d-bc77-cc8a-c78c-226a67b8dd26">AddListener</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-addlistener">AddListener</a>
 </td>
 <td align="left" width="63%">
 Registers a client-defined listener object that receives download notifications.  
-    All registered listener's DownloadCompleted will be called after <a href="https://msdn.microsoft.com/1e3b200c-0190-f600-1cb6-4e2a46f882b4">BeginDownload</a>completes. 
+    All registered listener's DownloadCompleted will be called after <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-begindownload">BeginDownload</a>completes. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1e3b200c-0190-f600-1cb6-4e2a46f882b4">BeginDownload</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-begindownload">BeginDownload</a>
 </td>
 <td align="left" width="63%">
 Begins an asynchronous download operation. The download operation executes   
-    in the background until it completes or is cancelled by a <a href="https://msdn.microsoft.com/f2ecabcf-3301-d446-8eda-4536b3f9b5e3">CancelDownload</a> call.
+    in the background until it completes or is cancelled by a <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-canceldownload">CancelDownload</a> call.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f2ecabcf-3301-d446-8eda-4536b3f9b5e3">CancelDownload</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-canceldownload">CancelDownload</a>
 </td>
 <td align="left" width="63%">
  Removes all download requests from the queue and cancels any active download    
@@ -103,7 +103,7 @@ Begins an asynchronous download operation. The download operation executes
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6fbbe575-b186-7ffb-ff32-efceccccc48c">GetGenerationCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-getgenerationcount">GetGenerationCount</a>
 </td>
 <td align="left" width="63%">
 Gets the current generation number of the download queue, which is incremented   
@@ -114,20 +114,20 @@ Gets the current generation number of the download queue, which is incremented
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2f1f0d1c-0db8-c382-7879-92a889cfeb6b">IsEmpty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-isempty">IsEmpty</a>
 </td>
 <td align="left" width="63%">
 Determines whether the download queue is empty. Note that the queue does not    
-    include requests that are already being downloaded. Calling <a href="https://msdn.microsoft.com/1e3b200c-0190-f600-1cb6-4e2a46f882b4">BeginDownload</a>clears the queue.
+    include requests that are already being downloaded. Calling <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-begindownload">BeginDownload</a>clears the queue.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e3470f17-9630-de53-d1ae-ab2a2508a069">RemoveListener</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-removelistener">RemoveListener</a>
 </td>
 <td align="left" width="63%">
-Unregisters a notification handler that was previously registered using <a href="https://msdn.microsoft.com/c539be2d-bc77-cc8a-c78c-226a67b8dd26">AddListener</a>.
+Unregisters a notification handler that was previously registered using <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-addlistener">AddListener</a>.
 
 </td>
 </tr>

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 Conference method adds a consultation call to the conference in which the current call is a participant. If an associated 
-<a href="https://msdn.microsoft.com/bdc91cac-c0ec-4484-a415-8cd1aa1e18e8">ITCallHub</a> object does not exist, it is created.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallhub">ITCallHub</a> object does not exist, it is created.
 
 
 ## -parameters
@@ -62,13 +62,13 @@ Conference method adds a consultation call to the conference in which the curren
 ### -param pCall [in]
 
 Pointer to the 
-<a href="https://msdn.microsoft.com/a0b4c496-5ee8-4810-8170-8ea505c99f18">ITBasicCallControl</a> interface for the consultation call.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a> interface for the consultation call.
 
 
 ### -param fSync [in]
 
 Indicates whether the call should be conferenced synchronously (VARIANT_TRUE) or asynchronously (VARIANT_FALSE). See 
-<a href="https://msdn.microsoft.com/cc9a8bfd-14c0-459c-a911-325b73323c08">Connect</a> for additional explanation.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-connect">Connect</a> for additional explanation.
 
 
 ## -returns
@@ -148,19 +148,19 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 
 
 Some service providers do not support this operation while streaming is active. The application may need to call 
-<a href="https://msdn.microsoft.com/6014e76e-ce2c-4ab8-b6f2-c09fc2acf315">ITStream::StopStream</a> or 
-<a href="https://msdn.microsoft.com/fa5028f6-80eb-4076-a81c-c83b462fc27c">ITSubStream::StopSubStream</a> prior to the operation and 
-<a href="https://msdn.microsoft.com/23553f00-5ce5-465e-b455-8bf2d73dae9d">ITStream::StartStream</a> or 
-<a href="https://msdn.microsoft.com/603cb667-a108-4e47-9808-99fddad5d894">ITSubStream::StartSubStream</a> following completion of the operation.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstream-stopstream">ITStream::StopStream</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-stopsubstream">ITSubStream::StopSubStream</a> prior to the operation and 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstream-startstream">ITStream::StartStream</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-startsubstream">ITSubStream::StartSubStream</a> following completion of the operation.
 
 The consultation call (<i>pCall</i>) is created by 
-<a href="https://msdn.microsoft.com/1b5a755c-fdaf-42ca-9747-9b34efbd0ac3">ITAddress::CreateCall</a>. The connection is completed by calling the 
-<a href="https://msdn.microsoft.com/3b0bd871-b618-4c24-a717-62a248112d97">Finish</a> method. Please see 
-<a href="https://msdn.microsoft.com/fb55853d-b882-41c8-99e6-bfa897b2dabf">Create a Simple Conference</a> for an example of using this method.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createcall">ITAddress::CreateCall</a>. The connection is completed by calling the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-finish">Finish</a> method. Please see 
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/create-a-simple-conference">Create a Simple Conference</a> for an example of using this method.
 
 If the consultation call is not in the CONNECTED state when 
 Conference is called, TAPI will use the destination address (as specified when the consultation call was first created via 
-<a href="https://msdn.microsoft.com/1b5a755c-fdaf-42ca-9747-9b34efbd0ac3">ITAddress::CreateCall</a>) and try to connect at that time. If the original call had a <b>NULL</b> destination address, 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createcall">ITAddress::CreateCall</a>) and try to connect at that time. If the original call had a <b>NULL</b> destination address, 
 Conference will fail with E_INVALIDARG.
 
 
@@ -171,35 +171,35 @@ Conference will fail with E_INVALIDARG.
 
 
 
-<a href="https://msdn.microsoft.com/67c063ba-8b12-40d6-9011-923bdee8b214">Call Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/f685097b-1b54-412b-999f-d9bdb3120ab9">Conference overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/conference-ovr">Conference overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/fb55853d-b882-41c8-99e6-bfa897b2dabf">Create a Simple Conference</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/create-a-simple-conference">Create a Simple Conference</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b0bd871-b618-4c24-a717-62a248112d97">Finish</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-finish">Finish</a>
 
 
 
-<a href="https://msdn.microsoft.com/1b5a755c-fdaf-42ca-9747-9b34efbd0ac3">ITAddress::CreateCall</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createcall">ITAddress::CreateCall</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0b4c496-5ee8-4810-8170-8ea505c99f18">ITBasicCallControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/ae7d74f7-c69b-45d1-a049-59e581856f27">ITCallInfo::get_CallHub</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_callhub">ITCallInfo::get_CallHub</a>
 
 
 
-<a href="https://msdn.microsoft.com/4f2a06e6-9f0b-4bf3-9f18-6e9f57c4b02f">Transfer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-transfer">Transfer</a>
  
 
  

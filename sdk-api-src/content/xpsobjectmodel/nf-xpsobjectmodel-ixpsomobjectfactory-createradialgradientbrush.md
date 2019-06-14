@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/2f5b7b99-64a0-4156-8963-cfceb0d73503">IXpsOMRadialGradientBrush</a> interface.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomradialgradientbrush">IXpsOMRadialGradientBrush</a> interface.
 
 
 ## -parameters
@@ -59,12 +59,12 @@ Creates an <a href="https://msdn.microsoft.com/2f5b7b99-64a0-4156-8963-cfceb0d73
 
 ### -param gradStop1 [in]
 
-The <a href="https://msdn.microsoft.com/e115d806-70c1-4c6a-810e-e6a058628b44">IXpsOMGradientStop</a> interface that specifies the  properties of the gradient  at gradient origin. This parameter must not be <b>NULL</b>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientstop">IXpsOMGradientStop</a> interface that specifies the  properties of the gradient  at gradient origin. This parameter must not be <b>NULL</b>.
 
 
 ### -param gradStop2 [in]
 
-The <a href="https://msdn.microsoft.com/e115d806-70c1-4c6a-810e-e6a058628b44">IXpsOMGradientStop</a> interface that specifies the  properties of the gradient  at the end of  the gradient's vector, which is the ellipse that encloses the gradient region. This parameter must not be <b>NULL</b>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientstop">IXpsOMGradientStop</a> interface that specifies the  properties of the gradient  at the end of  the gradient's vector, which is the ellipse that encloses the gradient region. This parameter must not be <b>NULL</b>.
 
 
 ### -param centerPoint [in]
@@ -81,14 +81,14 @@ The coordinates of the origin  of the radial gradient.
 
 ### -param radiiSizes [in]
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd372988(v=VS.85).aspx">XPS_SIZE</a> structure whose members specify the lengths of the gradient region's radii.
+The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0018">XPS_SIZE</a> structure whose members specify the lengths of the gradient region's radii.
 
 Size is described in XPS units. There are 96 XPS units per inch. For example, a 1" radius is 96 XPS units.
 
 <table>
 <tr>
 <th>
-<a href="https://msdn.microsoft.com/en-us/library/Dd372988(v=VS.85).aspx">XPS_SIZE</a> Member</th>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0018">XPS_SIZE</a> Member</th>
 <th>Meaning</th>
 </tr>
 <tr>
@@ -117,14 +117,14 @@ Length of the radius  along the y-axis.
 
 ### -param radialGradientBrush [out, retval]
 
-A pointer to the new <a href="https://msdn.microsoft.com/2f5b7b99-64a0-4156-8963-cfceb0d73503">IXpsOMRadialGradientBrush</a> interface.
+A pointer to the new <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomradialgradientbrush">IXpsOMRadialGradientBrush</a> interface.
 
 
 ## -returns
 
 
 
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -149,7 +149,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The point that is described by <i>centerPoint</i>, <i>radiiSizes</i>, or <i>gradientOrigin</i> is not valid. The members of the <a href="https://msdn.microsoft.com/en-us/library/Dd372977(v=VS.85).aspx">XPS_POINT</a> structure must contain valid and finite floating-point values.
+The point that is described by <i>centerPoint</i>, <i>radiiSizes</i>, or <i>gradientOrigin</i> is not valid. The members of the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0017">XPS_POINT</a> structure must contain valid and finite floating-point values.
 
 </td>
 </tr>
@@ -188,7 +188,7 @@ The point that is described by <i>centerPoint</i>, <i>radiiSizes</i>, or <i>grad
   As shown in the following illustration, the gradient region of a radial gradient is the area enclosed by the ellipse that is described by the center point and the x and y radii that extend from the center point. The spread area is the area outside of that ellipse. The gradient path (not shown) is a radial line that is drawn between the gradient origin and the ellipse that bounds the gradient region.
 
 <img alt="A figure that shows the terms used in a radial gradient" src="../images/RadialGradient1.png"/>
-For radial-gradient brushes, the gradient stop that is set by the <i>gradStop1</i> parameter corresponds to the gradient origin location and an offset value of 0.0. The gradient stop that is set by the <i>gradStop2</i> parameter corresponds to the circumference of the gradient region and an offset value of 1.0. For more information on gradient stops, see <a href="https://msdn.microsoft.com/e115d806-70c1-4c6a-810e-e6a058628b44">IXpsOMGradientStop</a>.
+For radial-gradient brushes, the gradient stop that is set by the <i>gradStop1</i> parameter corresponds to the gradient origin location and an offset value of 0.0. The gradient stop that is set by the <i>gradStop2</i> parameter corresponds to the circumference of the gradient region and an offset value of 1.0. For more information on gradient stops, see <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientstop">IXpsOMGradientStop</a>.
 
 The code example that follows illustrates how this method is used to create a new  interface.
 
@@ -247,15 +247,15 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/e115d806-70c1-4c6a-810e-e6a058628b44">IXpsOMGradientStop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientstop">IXpsOMGradientStop</a>
 
 
 
-<a href="https://msdn.microsoft.com/2444703e-4b89-4ef0-9ed7-aa937bc62e8c">IXpsOMObjectFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomobjectfactory">IXpsOMObjectFactory</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f5b7b99-64a0-4156-8963-cfceb0d73503">IXpsOMRadialGradientBrush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomradialgradientbrush">IXpsOMRadialGradientBrush</a>
 
 
 
@@ -263,15 +263,15 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd372977(v=VS.85).aspx">XPS_POINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0017">XPS_POINT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd372988(v=VS.85).aspx">XPS_SIZE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0018">XPS_SIZE</a>
  
 
  

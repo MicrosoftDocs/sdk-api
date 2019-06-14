@@ -79,7 +79,7 @@ The index of the corresponding property name.
 
 
 
- If the property does not exist, this method returns <a href="https://msdn.microsoft.com/912207f4-90fc-47f6-851a-6537cfe80d49">D2D1_INVALID_PROPERTY_INDEX</a>. This reserved value will never map to a valid index and will cause <b>NULL</b> or sentinel values to be returned from other parts of the property interface.
+ If the property does not exist, this method returns <a href="https://docs.microsoft.com/windows/desktop/direct2d/--d2d1-invalid-property-index">D2D1_INVALID_PROPERTY_INDEX</a>. This reserved value will never map to a valid index and will cause <b>NULL</b> or sentinel values to be returned from other parts of the property interface.
 
 
 
@@ -89,15 +89,15 @@ The index of the corresponding property name.
 
 
 
-<a href="https://msdn.microsoft.com/912207f4-90fc-47f6-851a-6537cfe80d49">D2D1_INVALID_PROPERTY_INDEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct2d/--d2d1-invalid-property-index">D2D1_INVALID_PROPERTY_INDEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/dfe587f9-e92f-4367-a503-edd446a91cb8">ID2D1DeviceContext::CreateEffect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createeffect">ID2D1DeviceContext::CreateEffect</a>
 
 
 
-<a href="https://msdn.microsoft.com/c38bfcc0-c696-41cc-9531-7c8f15c0b512">ID2D1Properties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a>
  
 
  

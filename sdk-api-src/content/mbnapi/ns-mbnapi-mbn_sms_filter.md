@@ -59,10 +59,10 @@ The <b>MBN_SMS_FILTER</b> structure contains the values that describe a set of S
 
 ### -field flag
 
-An <a href="https://msdn.microsoft.com/caabe2b2-86f0-40e7-b5ee-aeda8b64651a">MBN_SMS_FLAG</a> value that 	specifies the message class.
+An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_flag">MBN_SMS_FLAG</a> value that 	specifies the message class.
 
 
 ### -field messageIndex
 
-Contains the index of a particular message in device memory.  This value is only meaningful when <b>flag</b> is set to 	<b>MBN_SMS_FLAG_INDEX</b>.  The maximum range of this value is from 1 to the <a href="https://msdn.microsoft.com/c7dee4b7-4a34-4d08-aae3-7455531a9556">MaxMessageIndex</a> property of <a href="https://msdn.microsoft.com/ee261c32-aa17-496a-a568-d9da43e1e23a">IMbnSmsConfiguration</a>. 
+Contains the index of a particular message in device memory.  This value is only meaningful when <b>flag</b> is set to 	<b>MBN_SMS_FLAG_INDEX</b>.  The maximum range of this value is from 1 to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323170(v=vs.85)">MaxMessageIndex</a> property of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsconfiguration">IMbnSmsConfiguration</a>. 
 

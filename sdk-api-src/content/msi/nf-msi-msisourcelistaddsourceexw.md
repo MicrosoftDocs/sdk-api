@@ -62,7 +62,7 @@ The <b>MsiSourceListAddSourceEx</b> function  adds  or reorders the set of sourc
 
 ### -param szProductCodeOrPatchCode [in]
 
-The <a href="https://msdn.microsoft.com/33cedd37-0343-471c-ad4b-0db5f98d5894">ProductCode</a> or patch GUID of the product or patch. Use a null-terminated string. If the string is longer than 39 characters, the function fails and returns <b>ERROR_INVALID_PARAMETER</b>. This parameter cannot be <b>NULL</b>.
+The <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> or patch GUID of the product or patch. Use a null-terminated string. If the string is longer than 39 characters, the function fails and returns <b>ERROR_INVALID_PARAMETER</b>. This parameter cannot be <b>NULL</b>.
 
 
 ### -param szUserSid [in, optional]
@@ -201,7 +201,7 @@ The source is a URL type.
 ### -param szSource [in]
 
 Source to add or move. This parameter is expected to contain only the path without the filename. 
-The filename is already registered as "PackageName" and can be manipulated through <a href="https://msdn.microsoft.com/c449bb2e-2ced-4cde-9111-d3c10db669e1">MsiSourceListSetInfo</a>. This argument is required.
+The filename is already registered as "PackageName" and can be manipulated through <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisourcelistsetinfoa">MsiSourceListSetInfo</a>. This argument is required.
 
 
 ### -param dwIndex [in, optional]
@@ -315,7 +315,7 @@ Unexpected internal failure.
 
 Administrators can modify the installation  of   a product or patch   instance that exists  under the machine context or under their own per-user context (managed or unmanaged.) They can modify the installation of  a product or patch instance that exists under any user's per-user-managed context.  Administrators cannot modify another user's installation of a product or patch instance  that exists  under that other user's per-user-unmanaged context. 
 
-Non-administrators cannot  modify the installation of  a product or patch instance that exists under another user's per-user context (managed or unmanaged.) They can modify the installation of  a product or patch instance that exists under their own per-user-unmanaged context.  They can modify the installation of a product or patch instance under the machine context or their own per-user-managed context only if they are enabled to browse for a product or patch source. Users can be enabled to browse for sources by setting policy. For more information, see the <a href="https://msdn.microsoft.com/51806a4c-4ae5-42e9-9d58-8032108164cb">DisableBrowse</a>, <a href="https://msdn.microsoft.com/1cf83f77-75a4-48c3-961e-339c76ba4306">AllowLockdownBrowse</a>, and <a href="https://msdn.microsoft.com/0bbec06a-0a2b-430a-a361-317a319da615">AlwaysInstallElevated</a> policies.
+Non-administrators cannot  modify the installation of  a product or patch instance that exists under another user's per-user context (managed or unmanaged.) They can modify the installation of  a product or patch instance that exists under their own per-user-unmanaged context.  They can modify the installation of a product or patch instance under the machine context or their own per-user-managed context only if they are enabled to browse for a product or patch source. Users can be enabled to browse for sources by setting policy. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/Msi/disablebrowse">DisableBrowse</a>, <a href="https://docs.microsoft.com/windows/desktop/Msi/allowlockdownbrowse">AllowLockdownBrowse</a>, and <a href="https://docs.microsoft.com/windows/desktop/Msi/alwaysinstallelevated">AlwaysInstallElevated</a> policies.
 
 
 
@@ -325,31 +325,31 @@ Non-administrators cannot  modify the installation of  a product or patch instan
 
 
 
-<a href="https://msdn.microsoft.com/1cf83f77-75a4-48c3-961e-339c76ba4306">AllowLockdownBrowse</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/allowlockdownbrowse">AllowLockdownBrowse</a>
 
 
 
-<a href="https://msdn.microsoft.com/0bbec06a-0a2b-430a-a361-317a319da615">AlwaysInstallElevated</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/alwaysinstallelevated">AlwaysInstallElevated</a>
 
 
 
-<a href="https://msdn.microsoft.com/51806a4c-4ae5-42e9-9d58-8032108164cb">DisableBrowse</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/disablebrowse">DisableBrowse</a>
 
 
 
-<a href="https://msdn.microsoft.com/c449bb2e-2ced-4cde-9111-d3c10db669e1">MsiSourceListSetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisourcelistsetinfoa">MsiSourceListSetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/850b598a-338e-4f84-8336-01e962256a08">Not Supported in Windows Installer 2.0 and earlier</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
 
 
 
-<a href="https://msdn.microsoft.com/33cedd37-0343-471c-ad4b-0db5f98d5894">ProductCode</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d6a0524-d5df-4d4c-b861-d4a7da95ce40">Source Resiliency</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/source-resiliency">Source Resiliency</a>
  
 
  

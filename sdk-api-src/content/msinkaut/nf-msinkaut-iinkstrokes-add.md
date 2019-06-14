@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Adds an <a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp</a> object or <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes</a> collection to an existing InkStrokes collection.
+Adds an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection to an existing InkStrokes collection.
 
 
 
@@ -63,7 +63,7 @@ Adds an <a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4
 
 ### -param InkStroke [in]
 
- The stroke to add to the <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes</a> collection.
+ The stroke to add to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection.
 
 
 ## -returns
@@ -106,7 +106,7 @@ A parameter contained an invalid pointer.
 </dl>
 </td>
 <td width="60%">
-Cannot allocate <a href="https://msdn.microsoft.com/eaa89dfe-6141-4205-845b-634321130e26">Stroke</a> handler helper object.
+Cannot allocate <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-stroke">Stroke</a> handler helper object.
 
 </td>
 </tr>
@@ -128,7 +128,7 @@ An exception occurred inside the method.
 </dl>
 </td>
 <td width="60%">
-IInkStrokeDisp* does not point to a compatible <a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp</a> object.
+IInkStrokeDisp* does not point to a compatible <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object.
 
 </td>
 </tr>
@@ -139,7 +139,7 @@ IInkStrokeDisp* does not point to a compatible <a href="https://msdn.microsoft.c
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp</a> object of the <a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp</a> being added does not match the <b>InkDisp</b> object of the <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes</a> collection.
+The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> being added does not match the <b>InkDisp</b> object of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection.
 
 </td>
 </tr>
@@ -153,9 +153,9 @@ The <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">In
 
 
 
-<div class="alert"><b>Note</b>  The stroke must already exist within the <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp</a> object, and cannot belong to another <b>InkDisp</b> object. Also, this method does not copy or otherwise alter the <b>InkDisp</b> object, but merely adds this stroke to the collection.</div>
+<div class="alert"><b>Note</b>  The stroke must already exist within the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object, and cannot belong to another <b>InkDisp</b> object. Also, this method does not copy or otherwise alter the <b>InkDisp</b> object, but merely adds this stroke to the collection.</div>
 <div> </div>
-Use this method to add one stroke to an <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes</a> collection. To add one collection of strokes to another, use the <a href="https://msdn.microsoft.com/76580828-c776-4787-843c-db0acb768321">AddStrokes</a> method.
+Use this method to add one stroke to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection. To add one collection of strokes to another, use the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-addstrokes">AddStrokes</a> method.
 
 
 
@@ -165,11 +165,11 @@ Use this method to add one stroke to an <a href="https://msdn.microsoft.com/c7fb
 
 
 
-<a href="https://msdn.microsoft.com/76580828-c776-4787-843c-db0acb768321">AddStrokes Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-addstrokes">AddStrokes Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
 
 
 
@@ -177,7 +177,7 @@ Use this method to add one stroke to an <a href="https://msdn.microsoft.com/c7fb
 
 
 
-<a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes Collection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
  
 
  

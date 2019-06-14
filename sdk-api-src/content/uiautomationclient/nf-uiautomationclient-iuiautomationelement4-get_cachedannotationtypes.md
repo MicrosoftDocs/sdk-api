@@ -63,11 +63,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt845694(v=VS.85).aspx">CurrentAnnotationTypes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement4-get_currentannotationtypes">CurrentAnnotationTypes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn903677(v=VS.85).aspx">IUIAutomationElement4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement4">IUIAutomationElement4</a>
  
 
  

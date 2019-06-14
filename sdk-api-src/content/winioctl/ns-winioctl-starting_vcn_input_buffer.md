@@ -49,7 +49,7 @@ req.redist:
 
 
 Contains the starting VCN to the 
-<a href="https://msdn.microsoft.com/002f6703-8db3-4034-a79f-3fa9c4159115">FSCTL_GET_RETRIEVAL_POINTERS</a> control code.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_retrieval_pointers">FSCTL_GET_RETRIEVAL_POINTERS</a> control code.
 
 
 ## -struct-fields
@@ -68,11 +68,11 @@ the operation will begin enumerating extents in the file. This value may be roun
 
 
 
-<a href="https://msdn.microsoft.com/a35dbd6e-1344-4694-9760-7bc3d33196e5">Defragmentation</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364407(v=vs.85)">Defragmentation</a>
 
 
 
-<a href="https://msdn.microsoft.com/002f6703-8db3-4034-a79f-3fa9c4159115">FSCTL_GET_RETRIEVAL_POINTERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_retrieval_pointers">FSCTL_GET_RETRIEVAL_POINTERS</a>
  
 
  

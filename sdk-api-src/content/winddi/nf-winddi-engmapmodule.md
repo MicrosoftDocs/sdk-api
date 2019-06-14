@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>EngMapModule</b> function returns the address and size of a file that was loaded by <a href="https://msdn.microsoft.com/0327d3f0-f9ee-4715-aa0e-ad1d0544a1ff">EngLoadModule</a>, <a href="https://msdn.microsoft.com/e5509142-624e-4c57-93b0-2579c6fb7089">EngLoadModuleForWrite</a>, <a href="https://msdn.microsoft.com/03b1835a-5c4e-4f38-93b1-e557a2975be7">EngLoadImage</a>, or <a href="https://msdn.microsoft.com/6887f7e1-f94f-421c-be7a-14a41d621ce1">EngMapFile</a>.
+The <b>EngMapModule</b> function returns the address and size of a file that was loaded by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadmodule">EngLoadModule</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadmoduleforwrite">EngLoadModuleForWrite</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadimage">EngLoadImage</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmapfile">EngMapFile</a>.
 
 
 ## -parameters
@@ -80,7 +80,7 @@ Pointer to a memory location that receives the size, in bytes, of the memory-map
 
 
 
-A driver can open and read a file using <a href="https://msdn.microsoft.com/0327d3f0-f9ee-4715-aa0e-ad1d0544a1ff">EngLoadModule</a> and <b>EngMapModule</b>.
+A driver can open and read a file using <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadmodule">EngLoadModule</a> and <b>EngMapModule</b>.
 
 
 
@@ -90,23 +90,23 @@ A driver can open and read a file using <a href="https://msdn.microsoft.com/0327
 
 
 
-<a href="https://msdn.microsoft.com/f5520aec-5747-4970-ba2f-06b39e4f43f2">EngFreeModule</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engfreemodule">EngFreeModule</a>
 
 
 
-<a href="https://msdn.microsoft.com/03b1835a-5c4e-4f38-93b1-e557a2975be7">EngLoadImage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadimage">EngLoadImage</a>
 
 
 
-<a href="https://msdn.microsoft.com/0327d3f0-f9ee-4715-aa0e-ad1d0544a1ff">EngLoadModule</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadmodule">EngLoadModule</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5509142-624e-4c57-93b0-2579c6fb7089">EngLoadModuleForWrite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadmoduleforwrite">EngLoadModuleForWrite</a>
 
 
 
-<a href="https://msdn.microsoft.com/6887f7e1-f94f-421c-be7a-14a41d621ce1">EngMapFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmapfile">EngMapFile</a>
  
 
  

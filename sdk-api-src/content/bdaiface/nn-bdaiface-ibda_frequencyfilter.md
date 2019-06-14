@@ -57,7 +57,7 @@ The <b>IBDA_FrequencyFilter</b> interface is implemented on a BDA tuner device, 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_FrequencyFilter</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBDA_FrequencyFilter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_FrequencyFilter</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_FrequencyFilter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IBDA_FrequencyFilter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693356(v=VS.85).aspx">get_Autotune</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_frequencyfilter-get_autotune">get_Autotune</a>
 </td>
 <td align="left" width="63%">
 Retrieves a channel frequency to scan for a precise signal.
@@ -81,7 +81,7 @@ Retrieves a channel frequency to scan for a precise signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693357(v=VS.85).aspx">get_Bandwidth</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_frequencyfilter-get_bandwidth">get_Bandwidth</a>
 </td>
 <td align="left" width="63%">
 Retrieves the bandwidth parameters.
@@ -90,7 +90,7 @@ Retrieves the bandwidth parameters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693358(v=VS.85).aspx">get_Frequency</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_frequencyfilter-get_frequency">get_Frequency</a>
 </td>
 <td align="left" width="63%">
 Retrieves the frequency parameters.
@@ -99,7 +99,7 @@ Retrieves the frequency parameters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693359(v=VS.85).aspx">get_FrequencyMultiplier</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_frequencyfilter-get_frequencymultiplier">get_FrequencyMultiplier</a>
 </td>
 <td align="left" width="63%">
 Retrieves the frequency multiplier parameters.
@@ -108,7 +108,7 @@ Retrieves the frequency multiplier parameters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693360(v=VS.85).aspx">get_Polarity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_frequencyfilter-get_polarity">get_Polarity</a>
 </td>
 <td align="left" width="63%">
 Retrieves the polarity parameters.
@@ -117,7 +117,7 @@ Retrieves the polarity parameters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693361(v=VS.85).aspx">get_Range</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_frequencyfilter-get_range">get_Range</a>
 </td>
 <td align="left" width="63%">
 Retrieves the tuner range parameters.
@@ -126,7 +126,7 @@ Retrieves the tuner range parameters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693362(v=VS.85).aspx">put_Autotune</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_frequencyfilter-put_autotune">put_Autotune</a>
 </td>
 <td align="left" width="63%">
 Specifies a channel frequency to scans for a precise signal.
@@ -135,7 +135,7 @@ Specifies a channel frequency to scans for a precise signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693363(v=VS.85).aspx">put_Bandwidth</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_frequencyfilter-put_bandwidth">put_Bandwidth</a>
 </td>
 <td align="left" width="63%">
 Specifies the bandwidth parameters.
@@ -144,7 +144,7 @@ Specifies the bandwidth parameters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693364(v=VS.85).aspx">put_Frequency</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_frequencyfilter-put_frequency">put_Frequency</a>
 </td>
 <td align="left" width="63%">
 Specifies the frequency parameters.
@@ -153,7 +153,7 @@ Specifies the frequency parameters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693365(v=VS.85).aspx">put_FrequencyMultiplier</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_frequencyfilter-put_frequencymultiplier">put_FrequencyMultiplier</a>
 </td>
 <td align="left" width="63%">
 Specifies the frequency multiplier parameters.
@@ -162,7 +162,7 @@ Specifies the frequency multiplier parameters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693366(v=VS.85).aspx">put_Polarity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_frequencyfilter-put_polarity">put_Polarity</a>
 </td>
 <td align="left" width="63%">
 Specifies the polarity parameters.
@@ -171,7 +171,7 @@ Specifies the polarity parameters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693367(v=VS.85).aspx">put_Range</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_frequencyfilter-put_range">put_Range</a>
 </td>
 <td align="left" width="63%">
 Specifies the tuner range parameters
@@ -195,7 +195,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
  
 
  

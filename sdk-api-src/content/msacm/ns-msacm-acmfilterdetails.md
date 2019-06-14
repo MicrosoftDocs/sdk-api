@@ -62,22 +62,22 @@ The <b>ACMFILTERDETAILS</b> structure details a waveform-audio filter for a spec
 
 ### -field cbStruct
 
-Size, in bytes, of the <b>ACMFILTERDETAILS</b> structure. This member must be initialized before calling the <a href="https://msdn.microsoft.com/ab29362e-fa85-4833-a2c8-df5cfacc6140">acmFilterDetails</a> or <a href="https://msdn.microsoft.com/ee8154d6-3aa1-49ce-96c5-7b8526f02a8a">acmFilterEnum</a> functions. The size specified in this member must be large enough to contain the base <b>ACMFILTERDETAILS</b> structure. When the <b>acmFilterDetails</b> function returns, this member contains the actual size of the information returned. The returned information will never exceed the requested size.
+Size, in bytes, of the <b>ACMFILTERDETAILS</b> structure. This member must be initialized before calling the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterdetails">acmFilterDetails</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterenum">acmFilterEnum</a> functions. The size specified in this member must be large enough to contain the base <b>ACMFILTERDETAILS</b> structure. When the <b>acmFilterDetails</b> function returns, this member contains the actual size of the information returned. The returned information will never exceed the requested size.
 
 
 ### -field dwFilterIndex
 
-Index of the filter about which details will be retrieved. The index ranges from zero to one less than the number of standard filters supported by an ACM driver for a filter tag. The number of standard filters supported by a driver for a filter tag is contained in the <b>cStandardFilters</b> member of the <a href="https://msdn.microsoft.com/94b31090-74ed-42ac-b904-0a90f055e03a">ACMFILTERTAGDETAILS</a> structure. The <b>dwFilterIndex</b> member is used only when querying standard filter details about a driver by index; otherwise, this member should be zero. Also, this member will be set to zero by the ACM when an application queries for details on a filter; in other words, this member is used only for input and is never returned by the ACM or an ACM driver.
+Index of the filter about which details will be retrieved. The index ranges from zero to one less than the number of standard filters supported by an ACM driver for a filter tag. The number of standard filters supported by a driver for a filter tag is contained in the <b>cStandardFilters</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmfiltertagdetails">ACMFILTERTAGDETAILS</a> structure. The <b>dwFilterIndex</b> member is used only when querying standard filter details about a driver by index; otherwise, this member should be zero. Also, this member will be set to zero by the ACM when an application queries for details on a filter; in other words, this member is used only for input and is never returned by the ACM or an ACM driver.
 
 
 ### -field dwFilterTag
 
-Waveform-audio filter tag that the <b>ACMFILTERDETAILS</b> structure describes. This member is used as an input for the ACM_FILTERDETAILSF_INDEX query flag. For the ACM_FILTERDETAILSF_FORMAT query flag, this member must be initialized to the same filter tag as the <b>pwfltr</b> member specifies. If the <a href="https://msdn.microsoft.com/ab29362e-fa85-4833-a2c8-df5cfacc6140">acmFilterDetails</a> function is successful, this member is always returned. This member should be set to WAVE_FILTER_UNKNOWN for all other query flags.
+Waveform-audio filter tag that the <b>ACMFILTERDETAILS</b> structure describes. This member is used as an input for the ACM_FILTERDETAILSF_INDEX query flag. For the ACM_FILTERDETAILSF_FORMAT query flag, this member must be initialized to the same filter tag as the <b>pwfltr</b> member specifies. If the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterdetails">acmFilterDetails</a> function is successful, this member is always returned. This member should be set to WAVE_FILTER_UNKNOWN for all other query flags.
 
 
 ### -field fdwSupport
 
-Driver-support flags specific to the specified filter. These flags are identical to the <b>fdwSupport</b> flags of the <a href="https://msdn.microsoft.com/b45b26e2-a9c0-4d01-9989-a071d9c73993">ACMDRIVERDETAILS</a> structure, but they are specific to the filter that is being queried. This member can be a combination of the following values and identifies which operations the driver supports for the filter tag:
+Driver-support flags specific to the specified filter. These flags are identical to the <b>fdwSupport</b> flags of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmdriverdetails">ACMDRIVERDETAILS</a> structure, but they are specific to the filter that is being queried. This member can be a combination of the following values and identifies which operations the driver supports for the filter tag:
 
 <table>
 <tr>
@@ -130,7 +130,7 @@ Driver supports a filter (modification of the data without changing any of the f
 </dl>
 </td>
 <td width="60%">
-Driver supports hardware input, output, or both with the specified filter through a waveform-audio device. An application should use the <a href="https://msdn.microsoft.com/30b6dc13-b523-4c42-aa35-c86b3ebe04c3">acmMetrics</a> function with the ACM_METRIC_HARDWARE_WAVE_INPUT and ACM_METRIC_HARDWARE_WAVE_OUTPUT metric indexes to retrieve the waveform-audio device identifiers associated with the supporting ACM driver.
+Driver supports hardware input, output, or both with the specified filter through a waveform-audio device. An application should use the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a> function with the ACM_METRIC_HARDWARE_WAVE_INPUT and ACM_METRIC_HARDWARE_WAVE_OUTPUT metric indexes to retrieve the waveform-audio device identifiers associated with the supporting ACM driver.
 
 </td>
 </tr>
@@ -140,17 +140,17 @@ Driver supports hardware input, output, or both with the specified filter throug
 
 ### -field pwfltr
 
-Pointer to a <a href="https://msdn.microsoft.com/dea3df47-88a2-439f-bf07-b5c592bf23e8">WAVEFILTER</a> structure that will receive the filter details. This structure requires no initialization by the application unless the ACM_FILTERDETAILSF_FILTER flag is specified with the <a href="https://msdn.microsoft.com/ab29362e-fa85-4833-a2c8-df5cfacc6140">acmFilterDetails</a> function. In this case, the <b>dwFilterTag</b> member of the <b>WAVEFILTER</b> structure must be equal to the <b>dwFilterTag</b> member of the <b>ACMFILTERDETAILS</b> structure.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-wavefilter_tag">WAVEFILTER</a> structure that will receive the filter details. This structure requires no initialization by the application unless the ACM_FILTERDETAILSF_FILTER flag is specified with the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterdetails">acmFilterDetails</a> function. In this case, the <b>dwFilterTag</b> member of the <b>WAVEFILTER</b> structure must be equal to the <b>dwFilterTag</b> member of the <b>ACMFILTERDETAILS</b> structure.
 
 
 ### -field cbwfltr
 
-Size, in bytes, available for <b>pwfltr</b> to receive the filter details. The <a href="https://msdn.microsoft.com/30b6dc13-b523-4c42-aa35-c86b3ebe04c3">acmMetrics</a> and <a href="https://msdn.microsoft.com/6b1fd113-5753-4a45-974c-ecf3f5d27866">acmFilterTagDetails</a> functions can be used to determine the maximum size required for any filter available for the specified driver (or for all installed ACM drivers).
+Size, in bytes, available for <b>pwfltr</b> to receive the filter details. The <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a> and <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfiltertagdetails">acmFilterTagDetails</a> functions can be used to determine the maximum size required for any filter available for the specified driver (or for all installed ACM drivers).
 
 
 ### -field szFilter
 
-String that describes the filter for the <b>dwFilterTag</b> type. If the <a href="https://msdn.microsoft.com/ab29362e-fa85-4833-a2c8-df5cfacc6140">acmFilterDetails</a> function is successful, this string is always returned.
+String that describes the filter for the <b>dwFilterTag</b> type. If the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterdetails">acmFilterDetails</a> function is successful, this string is always returned.
 
 
 ## -see-also
@@ -158,39 +158,39 @@ String that describes the filter for the <b>dwFilterTag</b> type. If the <a href
 
 
 
-<a href="https://msdn.microsoft.com/b45b26e2-a9c0-4d01-9989-a071d9c73993">ACMDRIVERDETAILS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmdriverdetails">ACMDRIVERDETAILS</a>
 
 
 
-<a href="https://msdn.microsoft.com/94b31090-74ed-42ac-b904-0a90f055e03a">ACMFILTERTAGDETAILS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmfiltertagdetails">ACMFILTERTAGDETAILS</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f9a4540-86c0-40e6-b4da-24a9d31b56bf">Audio Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
 
 
 
-<a href="https://msdn.microsoft.com/19ef4569-e6fc-480a-8659-98df3d36d05f">Audio Compression Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-structures">Audio Compression Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/dea3df47-88a2-439f-bf07-b5c592bf23e8">WAVEFILTER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-wavefilter_tag">WAVEFILTER</a>
 
 
 
-<a href="https://msdn.microsoft.com/ab29362e-fa85-4833-a2c8-df5cfacc6140">acmFilterDetails</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterdetails">acmFilterDetails</a>
 
 
 
-<a href="https://msdn.microsoft.com/ee8154d6-3aa1-49ce-96c5-7b8526f02a8a">acmFilterEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterenum">acmFilterEnum</a>
 
 
 
-<a href="https://msdn.microsoft.com/6b1fd113-5753-4a45-974c-ecf3f5d27866">acmFilterTagDetails</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfiltertagdetails">acmFilterTagDetails</a>
 
 
 
-<a href="https://msdn.microsoft.com/30b6dc13-b523-4c42-aa35-c86b3ebe04c3">acmMetrics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a>
  
 
  

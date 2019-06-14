@@ -64,7 +64,7 @@ This property is read/write.
 
 
 
-The <b>GenerateAudits</b> property controls application initialization, client context creation, client context deletion,  and access check run-time auditing. The client context can be created by <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID), name, or token.
+The <b>GenerateAudits</b> property controls application initialization, client context creation, client context deletion,  and access check run-time auditing. The client context can be created by <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID), name, or token.
 
 
 

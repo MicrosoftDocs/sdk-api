@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ITfDocumentMgr</b> interface is implemented by the TSF manager and used by an application or text service to create and manage text contexts. To obtain an instance of this interface call <a href="https://msdn.microsoft.com/0f90a359-61e7-46e5-9d0b-ab6fe24f3136">ITfThreadMgr::CreateDocumentMgr</a>.
+The <b>ITfDocumentMgr</b> interface is implemented by the TSF manager and used by an application or text service to create and manage text contexts. To obtain an instance of this interface call <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-createdocumentmgr">ITfThreadMgr::CreateDocumentMgr</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfDocumentMgr</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfDocumentMgr</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfDocumentMgr</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfDocumentMgr</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfDocumentMgr</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1415f338-731c-44c5-b798-edf823174272">CreateContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">CreateContext</a>
 </td>
 <td align="left" width="63%">
 Creates a context object.
@@ -78,7 +78,7 @@ Creates a context object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0656301a-9e24-4b13-bc39-7d9085c0d6f2">EnumContexts</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-enumcontexts">EnumContexts</a>
 </td>
 <td align="left" width="63%">
 Obtains a context enumerator.
@@ -87,7 +87,7 @@ Obtains a context enumerator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/71248c77-7440-412c-b565-39c04108b98b">GetBase</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-getbase">GetBase</a>
 </td>
 <td align="left" width="63%">
 Obtains the context at the base of the context stack.
@@ -96,7 +96,7 @@ Obtains the context at the base of the context stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5be7635f-ec27-4892-9cfe-dba31e202510">GetTop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-gettop">GetTop</a>
 </td>
 <td align="left" width="63%">
 Obtains the context at the top of the context stack.
@@ -105,7 +105,7 @@ Obtains the context at the top of the context stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bbf65d8d-5a59-4c4b-a132-fa28babcd70b">Pop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-pop">Pop</a>
 </td>
 <td align="left" width="63%">
 Removes the context from the top of the context stack.
@@ -114,7 +114,7 @@ Removes the context from the top of the context stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/afd5452b-4121-428d-801f-1638c2767c67">Push</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-push">Push</a>
 </td>
 <td align="left" width="63%">
 Adds a context to the top of the context stack.
@@ -129,17 +129,17 @@ Adds a context to the top of the context stack.
 
 
 
-<a href="https://msdn.microsoft.com/ca98c7bb-7348-405d-976a-18012b0886c6">ITfContext
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/0f90a359-61e7-46e5-9d0b-ab6fe24f3136">ITfThreadMgr::CreateDocumentMgr
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-createdocumentmgr">ITfThreadMgr::CreateDocumentMgr
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

@@ -50,10 +50,10 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the 
-   properties of a <a href="https://msdn.microsoft.com/ae2c4d47-15a6-4b9d-9165-4ee04a6ff3a8">controller object</a>.
+   properties of a <a href="https://docs.microsoft.com/windows/desktop/VDS/controller-object">controller object</a>.
 
 
 ## -struct-fields
@@ -79,13 +79,13 @@ The subsystem identifier, typically a serial number; a zero-terminated, human-re
 ### -field status
 
 A 
-      <a href="https://msdn.microsoft.com/a888fcb7-83f5-40c1-9f24-efa929aa9f6a">VDS_CONTROLLER_STATUS</a> enumeration value that specifies the status of the controller.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_controller_status">VDS_CONTROLLER_STATUS</a> enumeration value that specifies the status of the controller.
 
 
 ### -field health
 
 A 
-      <a href="https://msdn.microsoft.com/c65d9266-d691-4711-8225-a442e90d8ba3">VDS_HEALTH</a> enumeration value that specifies the health state of the controller. The following are the valid values for this member.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_health">VDS_HEALTH</a> enumeration value that specifies the health state of the controller. The following are the valid values for this member.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b><b>VDS_H_REPLACED</b> and <b>VDS_H_DEGRADED</b> are not supported.
 
@@ -119,8 +119,8 @@ The number of ports that the controller contains. Ports are numbered from zero. 
 
 
 
-The <a href="https://msdn.microsoft.com/37230ac4-45f5-46ba-9a1c-072409e9362c">IVdsController::GetProperties</a> 
-    method returns this structure to report the properties of a <a href="https://msdn.microsoft.com/ae2c4d47-15a6-4b9d-9165-4ee04a6ff3a8">controller object</a>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-getproperties">IVdsController::GetProperties</a> 
+    method returns this structure to report the properties of a <a href="https://docs.microsoft.com/windows/desktop/VDS/controller-object">controller object</a>.
 
 
 
@@ -130,19 +130,19 @@ The <a href="https://msdn.microsoft.com/37230ac4-45f5-46ba-9a1c-072409e9362c">IV
 
 
 
-<a href="https://msdn.microsoft.com/37230ac4-45f5-46ba-9a1c-072409e9362c">IVdsController::GetProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-getproperties">IVdsController::GetProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a13f5eb-0fa1-48e2-a112-b2254ca28423">VDS Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-structures">VDS Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/a888fcb7-83f5-40c1-9f24-efa929aa9f6a">VDS_CONTROLLER_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_controller_status">VDS_CONTROLLER_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/c65d9266-d691-4711-8225-a442e90d8ba3">VDS_HEALTH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_health">VDS_HEALTH</a>
  
 
  

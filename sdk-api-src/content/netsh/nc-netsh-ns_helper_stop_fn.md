@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>NS_HELPER_STOP_FN</b> command is the stop function for helpers. This function enables helper contexts to release any resources before being unloaded, and is registered in the 
-<a href="https://msdn.microsoft.com/52cebe62-d4b6-4229-8418-c0ae9849822b">RegisterContext</a> function. The following is an example of a stop function. Be aware that <b>SampleStopHelper</b> is a placeholder for the application-defined function name.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-registercontext">RegisterContext</a> function. The following is an example of a stop function. Be aware that <b>SampleStopHelper</b> is a placeholder for the application-defined function name.
 
 
 ## -parameters
@@ -87,15 +87,15 @@ The stop function for helpers provides an opportunity for a helper context to re
 
 
 
-<a href="https://msdn.microsoft.com/b2a3ae40-4aaa-41b2-965c-1467a07ab2de">NS_HELPER_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/ns-netsh-_ns_helper_attributes">NS_HELPER_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/0060feb9-3072-4a1c-9d25-4c304f60d42d">NS_HELPER_START_FN</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nc-netsh-ns_helper_start_fn">NS_HELPER_START_FN</a>
 
 
 
-<a href="https://msdn.microsoft.com/52cebe62-d4b6-4229-8418-c0ae9849822b">RegisterContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-registercontext">RegisterContext</a>
  
 
  

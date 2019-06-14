@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The NET_IF_ADMIN_STATUS enumeration type specifies the 
-  <a href="https://msdn.microsoft.com/library/Ff566527(v=VS.85).aspx">NDIS network interface</a> administrative
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-network-interfaces2">NDIS network interface</a> administrative
   status, as described in RFC 2863.
 
 
@@ -64,7 +64,7 @@ The NET_IF_ADMIN_STATUS enumeration type specifies the
 Specifies that the interface is initialized and enabled, but the interface is not necessarily
      ready to transmit and receive network data because that depends on the operational status of the
      interface. For more information about the operational status of an interface, see 
-     <a href="https://msdn.microsoft.com/library/Ff569619(v=VS.85).aspx">OID_GEN_OPERATIONAL_STATUS</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-operational-status">OID_GEN_OPERATIONAL_STATUS</a>.
 
 
 ### -field NET_IF_ADMIN_STATUS_DOWN
@@ -94,7 +94,7 @@ For more information on RFC 2863, see
 
 
 
-<a href="https://msdn.microsoft.com/library/Ff569437(v=VS.85).aspx">OID_GEN_ADMIN_STATUS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-admin-status">OID_GEN_ADMIN_STATUS</a>
  
 
  

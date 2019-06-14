@@ -59,7 +59,7 @@ Queries the application for a context menu to use on a right-click event.
 
 ### -param seltype
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Selection type. The value, which specifies the contents of the new selection, can be one or more of the following values.
 
@@ -124,7 +124,7 @@ More than one COM object.
 </dl>
 </td>
 <td width="60%">
-Indicates that a context menu for a right-mouse drag drop should be generated. The <i>lpoleobj</i> parameter is a pointer to the <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> interface for the object being dropped.
+Indicates that a context menu for a right-mouse drag drop should be generated. The <i>lpoleobj</i> parameter is a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface for the object being dropped.
 
 </td>
 </tr>
@@ -138,24 +138,24 @@ Type: <b>LPOLEOBJECT</b>
 
 Pointer to an interface. If the 
 					<i>seltype</i> parameter includes the <b>SEL_OBJECT</b> flag, 
-					<i>lpoleobj</i> is a pointer to the <a href="https://msdn.microsoft.com/58b32c87-39b6-4d64-9174-cf798ed302c2">IOleObject</a> interface for the first selected COM object. If 
+					<i>lpoleobj</i> is a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a> interface for the first selected COM object. If 
 					<i>seltype</i> includes the <b>GCM_RIGHTMOUSEDROP</b> flag, 
 					<i>lpoleobj</i> is a pointer to an 
-					<a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> interface. Otherwise, 
+					<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface. Otherwise, 
 					<i>lpoleobj</i> is <b>NULL</b>. If you hold on to the interface pointer, you must call 
-					the <a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63">AddRef</a> method to increment the object's reference count. 
+					the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method to increment the object's reference count. 
 
 
 ### -param lpchrg
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb787885(v=VS.85).aspx">CHARRANGE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_charrange">CHARRANGE</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb787885(v=VS.85).aspx">CHARRANGE</a> structure containing the current selection. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_charrange">CHARRANGE</a> structure containing the current selection. 
 
 
 ### -param lphmenu
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HMENU</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HMENU</a>*</b>
 
 The handle of a context menu to use. This parameter is ignored if an error is returned. A rich edit control destroys the menu when it is finished with it so the client should not. 
 
@@ -164,7 +164,7 @@ The handle of a context menu to use. This parameter is ignored if an error is re
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns <b>S_OK</b> on success. If the method fails, it can be the following value.
 
@@ -194,7 +194,7 @@ There was an invalid argument.
 
 
 
-When the user selects an item from the context window, a <a href="https://msdn.microsoft.com/en-us/library/ms647591(v=VS.85).aspx">WM_COMMAND</a> message is sent to the parent window of the rich edit control.
+When the user selects an item from the context window, a <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command">WM_COMMAND</a> message is sent to the parent window of the rich edit control.
 
 
 
@@ -204,15 +204,15 @@ When the user selects an item from the context window, a <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787885(v=VS.85).aspx">CHARRANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_charrange">CHARRANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/6354921F-3C9F-4CBD-AC48-1EB67D1FDEB7">GETCONTEXTMENUEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_getcontextmenuex">GETCONTEXTMENUEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774308(v=VS.85).aspx">IRichEditOleCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/nn-richole-iricheditolecallback">IRichEditOleCallback</a>
 
 
 

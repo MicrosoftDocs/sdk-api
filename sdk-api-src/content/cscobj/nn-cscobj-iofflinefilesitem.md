@@ -50,12 +50,12 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a single item in the Offline Files cache. The item may be a server, share, directory or file.  While each item type has a type-specific interface (for example, <a href="https://msdn.microsoft.com/724fabf6-fb27-49c9-8f99-dc61377ac921">IOfflineFilesServerItem</a>), this interface provides the functionality that is common to all items.
+Represents a single item in the Offline Files cache. The item may be a server, share, directory or file.  While each item type has a type-specific interface (for example, <a href="https://docs.microsoft.com/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesserveritem">IOfflineFilesServerItem</a>), this interface provides the functionality that is common to all items.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesItem</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IOfflineFilesItem</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesItem</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOfflineFilesItem</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IOfflineFilesItem</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/87fbf63a-d103-4c80-b6a7-60784c7350bc">GetItemType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesitem-getitemtype">GetItemType</a>
 </td>
 <td align="left" width="63%">
 Returns a type code identifying the type of the item; server, share, directory, or file.
@@ -79,7 +79,7 @@ Returns a type code identifying the type of the item; server, share, directory, 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4fa89807-cd0c-4868-bd65-a8a0a42dff7d">GetParentItem</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesitem-getparentitem">GetParentItem</a>
 </td>
 <td align="left" width="63%">
 Retrieves the <b>IOfflineFilesItem</b> interface for the parent of the item.
@@ -88,7 +88,7 @@ Retrieves the <b>IOfflineFilesItem</b> interface for the parent of the item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d1453c9c-e0e7-4451-bb42-58a627fa1db5">GetPath</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesitem-getpath">GetPath</a>
 </td>
 <td align="left" width="63%">
 Retrieves the fully qualified UNC path string for an item in the Offline Files cache.
@@ -97,7 +97,7 @@ Retrieves the fully qualified UNC path string for an item in the Offline Files c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/03c0fec4-d320-4c46-a07c-3ebbec61cc54">IsMarkedForDeletion</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesitem-ismarkedfordeletion">IsMarkedForDeletion</a>
 </td>
 <td align="left" width="63%">
 Determines whether an item has been deleted from the Offline Files cache.
@@ -106,7 +106,7 @@ Determines whether an item has been deleted from the Offline Files cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7b54d6fa-18b6-4ffb-98ce-4cbc44ed5b77">Refresh</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesitem-refresh">Refresh</a>
 </td>
 <td align="left" width="63%">
 Refreshes any data cached in the object by rereading from the Offline Files cache.
@@ -121,7 +121,7 @@ Refreshes any data cached in the object by rereading from the Offline Files cach
 
 
 
-<a href="https://msdn.microsoft.com/9dea396f-ab71-4b2e-b5d3-776c16614f26">Offline Files API Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/offlinefiles/offline-files-api-interfaces">Offline Files API Interfaces</a>
  
 
  

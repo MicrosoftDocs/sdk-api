@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns the identifier of a  <a href="https://msdn.microsoft.com/57d16e1f-e774-4ffb-b26b-7e72d6d589aa">network</a>. The <b>PCLUSAPI_GET_CLUSTER_NETWORK_ID</b> type defines a pointer to this function.
+Returns the identifier of a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/networks">network</a>. The <b>PCLUSAPI_GET_CLUSTER_NETWORK_ID</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -79,7 +79,7 @@ Pointer to the size of the <i>lpszNetworkID</i> buffer as a count of characters.
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following is one of the possible values.
+the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following is one of the possible values.
 
 <table>
 <tr>
@@ -107,7 +107,7 @@ The buffer pointed to by <i>lpszNetworkID</i> is not big enough to hold the resu
 
 
 
-Note that <i>lpcchNetworkID</i> refers to a count of characters and not a count of bytes, and that the returned size does not include the terminating <b>NULL</b> in the count. For more information on sizing buffers, see  <a href="https://msdn.microsoft.com/283dc560-d547-4b42-b45c-435045080639">Data Size Conventions</a>.
+Note that <i>lpcchNetworkID</i> refers to a count of characters and not a count of bytes, and that the returned size does not include the terminating <b>NULL</b> in the count. For more information on sizing buffers, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-size-conventions">Data Size Conventions</a>.
 
 
 
@@ -117,7 +117,7 @@ Note that <i>lpcchNetworkID</i> refers to a count of characters and not a count 
 
 
 
-<a href="https://msdn.microsoft.com/a888ca91-e56f-42bc-81c5-9235c6fd5172">OpenClusterNetwork</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusternetwork">OpenClusterNetwork</a>
  
 
  

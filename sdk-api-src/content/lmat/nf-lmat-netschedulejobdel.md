@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>NetScheduleJobDel</b> is no longer available for use as of Windows 8. Instead, use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e"> Task Scheduler 2.0 Interfaces</a>.
+<p class="CCE_Message">[<b>NetScheduleJobDel</b> is no longer available for use as of Windows 8. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces"> Task Scheduler 2.0 Interfaces</a>.
 
 ]
 
@@ -87,7 +87,7 @@ The  maximum job identifier. Jobs with a job identifier larger than <i>MaxJobId<
 If the function succeeds, the return value is NERR_Success.
 
 If the function fails, the return value is a system error code. For a list of error codes, see 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -104,7 +104,7 @@ If the following registry value has the least significant bit set (for example, 
 <b>HKLM\System\CurrentControlSet\Control\Lsa\SubmitControl</b>
 
 Call the 
-<a href="https://msdn.microsoft.com/e3384414-6a15-4979-bed4-6f94f046474a">NetScheduleJobEnum</a> function to retrieve the job identifier for one or more scheduled jobs.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmat/nf-lmat-netschedulejobenum">NetScheduleJobEnum</a> function to retrieve the job identifier for one or more scheduled jobs.
 
 The 
 <b>NetScheduleJobDel</b> function deletes all jobs whose job identifiers are in the range <i>MinJobId</i> through <i>MaxJobId</i>.
@@ -120,29 +120,29 @@ To delete all scheduled jobs at the server, you can call
 
 
 
-<a href="https://msdn.microsoft.com/813d13ba-abe1-4b14-88c7-87ba88a42a3b">NetScheduleJobAdd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmat/nf-lmat-netschedulejobadd">NetScheduleJobAdd</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3384414-6a15-4979-bed4-6f94f046474a">NetScheduleJobEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmat/nf-lmat-netschedulejobenum">NetScheduleJobEnum</a>
 
 
 
-<a href="https://msdn.microsoft.com/44589715-edab-4737-9e49-6f491fd44c28">NetScheduleJobGetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmat/nf-lmat-netschedulejobgetinfo">NetScheduleJobGetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd159e2e-f37e-46b2-b980-008b73d40b39">Network
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/1ddc9b95-fdbc-4e39-9b55-2a5bc570b95d">Schedule
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/schedule-functions">Schedule
 		  Functions</a>
  
 

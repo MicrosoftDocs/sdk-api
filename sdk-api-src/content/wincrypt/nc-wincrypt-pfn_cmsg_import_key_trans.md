@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PFN_CMSG_IMPORT_KEY_TRANS</b> callback function imports a content encryption key for a key transport recipient of an enveloped message. <b>PFN_CMSG_IMPORT_KEY_TRANS</b> can be installed by using a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">CryptoAPI</a> <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a>. This function is called by the <a href="https://msdn.microsoft.com/a990d44d-2993-429f-b817-2a834105ecef">CryptMsgControl</a> function when its <i>dwCtrlType</i> parameter is set to <b>CMSG_CTRL_DECRYPT</b>.
+The <b>PFN_CMSG_IMPORT_KEY_TRANS</b> callback function imports a content encryption key for a key transport recipient of an enveloped message. <b>PFN_CMSG_IMPORT_KEY_TRANS</b> can be installed by using a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CryptoAPI</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a>. This function is called by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a> function when its <i>dwCtrlType</i> parameter is set to <b>CMSG_CTRL_DECRYPT</b>.
 
 
 ## -parameters
@@ -59,12 +59,12 @@ The <b>PFN_CMSG_IMPORT_KEY_TRANS</b> callback function imports a content encrypt
 
 ### -param pContentEncryptionAlgorithm [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/ef0d3aa6-6b36-426f-a14c-2fdf7543deb9">CRYPT_ALGORITHM_IDENTIFIER</a> structure that specifies the algorithm used to encrypt the message contents and any associated parameters.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that specifies the algorithm used to encrypt the message contents and any associated parameters.
 
 
 ### -param pKeyTransDecryptPara [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/5f3387c9-4ff0-42a0-8fc7-67d3bb8b6bef">CMSG_CTRL_KEY_TRANS_DECRYPT_PARA</a> structure that contains information about the key transport recipient.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_ctrl_key_trans_decrypt_para">CMSG_CTRL_KEY_TRANS_DECRYPT_PARA</a> structure that contains information about the key transport recipient.
 
 
 ### -param dwFlags [in]
@@ -88,11 +88,11 @@ The address of a handle to the content encryption key returned by this function.
 
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
-If the function fails, the return value is zero (<b>FALSE</b>). For extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is zero (<b>FALSE</b>). For extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
-If this callback function does not support the key encryption algorithm, it must return <b>FALSE</b> and call <a href="https://msdn.microsoft.com/d9da833f-36ca-4046-8d2f-cd4449dd3c63">SetLastError</a> with <b>E_NOTIMPL</b>.
+If this callback function does not support the key encryption algorithm, it must return <b>FALSE</b> and call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> with <b>E_NOTIMPL</b>.
 
 
 
@@ -101,7 +101,7 @@ If this callback function does not support the key encryption algorithm, it must
 
 
 
-You can use <a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a> to deploy this callback function. Wincrypt.h defines the following constants for this purpose.
+You can use <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a> to deploy this callback function. Wincrypt.h defines the following constants for this purpose.
 
 <table>
 <tr>

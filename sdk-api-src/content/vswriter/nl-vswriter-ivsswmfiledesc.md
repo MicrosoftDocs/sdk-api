@@ -53,38 +53,38 @@ ms.custom: 19H1
 The 
 <b>IVssWMFiledesc</b> interface is a C++ (not COM) interface returned to a calling application by a number of query methods. It provides detailed information about a file or set of files (a file set).
 
-The calling application is responsible for calling <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> to release the resources held by the returned 
+The calling application is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> to release the resources held by the returned 
 <b>IVssWMFiledesc</b> interface when it is no longer needed.
 
 The following methods return an 
 <b>IVssWMFiledesc</b> interface:
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/8c6537eb-67ba-4d6a-ac86-44da176ef5c5">IVssComponent::GetAlternateLocationMapping</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getalternatelocationmapping">IVssComponent::GetAlternateLocationMapping</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/21f22fae-2230-418b-8942-754c863a9213">IVssComponent::GetNewTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getnewtarget">IVssComponent::GetNewTarget</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/886d526f-c477-4c1c-80b0-65e3ea227142">IVssExamineWriterMetadata::GetExcludeFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getexcludefile">IVssExamineWriterMetadata::GetExcludeFile</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/1264d4bc-dd45-41e7-9f95-c6e9aebd4d22">IVssExamineWriterMetadata::GetAlternateLocationMapping</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getalternatelocationmapping">IVssExamineWriterMetadata::GetAlternateLocationMapping</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/55956a05-59b8-4197-8496-03903b6e0faa">IVssWMComponent::GetFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivsswmcomponent-getfile">IVssWMComponent::GetFile</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/adb2d6f7-592c-403d-92c0-6b99e2180a6b">IVssWMComponent::GetDatabaseFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivsswmcomponent-getdatabasefile">IVssWMComponent::GetDatabaseFile</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/8aaab68a-27e3-4e76-8116-530001b504a3">IVssWMComponent::GetDatabaseLogFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivsswmcomponent-getdatabaselogfile">IVssWMComponent::GetDatabaseLogFile</a>
 </li>
 </ul>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssWMFiledesc</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IVssWMFiledesc</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssWMFiledesc</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssWMFiledesc</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -99,7 +99,7 @@ The <b>IVssWMFiledesc</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3bb787eb-ac15-40d0-9901-b869442399c5">GetAlternateLocation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsswmfiledesc-getalternatelocation">GetAlternateLocation</a>
 </td>
 <td align="left" width="63%">
 Obtains the alternate backup location of the component files.
@@ -108,7 +108,7 @@ Obtains the alternate backup location of the component files.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9d5f3a16-2053-42dd-867d-740c4a34bdb6">GetBackupTypeMask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsswmfiledesc-getbackuptypemask">GetBackupTypeMask</a>
 </td>
 <td align="left" width="63%">
 Obtains the file backup specification for a file or set of files.
@@ -117,7 +117,7 @@ Obtains the file backup specification for a file or set of files.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9661d22b-5c82-412d-966d-83605c568e22">GetFilespec</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsswmfiledesc-getfilespec">GetFilespec</a>
 </td>
 <td align="left" width="63%">
 Obtains the file specification for the list of files provided.
@@ -126,7 +126,7 @@ Obtains the file specification for the list of files provided.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e646bf76-8779-4095-a022-2d69d5c3bead">GetPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsswmfiledesc-getpath">GetPath</a>
 </td>
 <td align="left" width="63%">
 Obtains the fully qualified directory path for the list of files provided.
@@ -135,7 +135,7 @@ Obtains the fully qualified directory path for the list of files provided.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f467bd6f-997b-4d5f-87a4-727d9a84a222">GetRecursive</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsswmfiledesc-getrecursive">GetRecursive</a>
 </td>
 <td align="left" width="63%">
 Determines whether only files in the root directory or files in the entire directory hierarchy are considered for backup.

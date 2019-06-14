@@ -53,7 +53,7 @@ ms.custom: 19H1
 The <b>SetValue</b> method sets a <b>DATE</b> value at the specified index of the <b>DATE</b> array.
 
  You must call 
-the <a href="https://msdn.microsoft.com/f09087aa-ae10-4a59-9b59-5f8b72254ce6">ICertEncodeDateArray::Reset</a> method before calling <b>SetValue</b> for the first time.
+the <a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodedatearray-reset">ICertEncodeDateArray::Reset</a> method before calling <b>SetValue</b> for the first time.
 
 
 ## -parameters
@@ -78,7 +78,7 @@ Specifies the <b>DATE</b> value to set.
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -88,15 +88,15 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-<a href="https://msdn.microsoft.com/9973c49a-d886-4cc4-b75e-7ff46f56d51c">ICertEncodeDateArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nn-certenc-icertencodedatearray">ICertEncodeDateArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/db108b2a-c3ee-4ef8-be5c-74dc739dacee">ICertEncodeDateArray::GetValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodedatearray-getvalue">ICertEncodeDateArray::GetValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/f09087aa-ae10-4a59-9b59-5f8b72254ce6">ICertEncodeDateArray::Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodedatearray-reset">ICertEncodeDateArray::Reset</a>
  
 
  

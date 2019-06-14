@@ -59,7 +59,7 @@ Gets the application handle that was used to create the specified session.
 
 ### -param session [in]
 
-Session that was created from <a href="https://msdn.microsoft.com/76010766-aa20-4632-940d-48d9769803da">MI_Application_NewSession</a>.
+Session that was created from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newsession">MI_Application_NewSession</a>.
 
 
 ### -param application [out]

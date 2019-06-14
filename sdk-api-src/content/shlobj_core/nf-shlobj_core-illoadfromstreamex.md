@@ -54,8 +54,8 @@ ms.custom: 19H1
     is available for use in the operating systems specified in the Requirements section. It may be altered or 
     unavailable in subsequent versions.]
 
-Loads an absolute <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> from an 
-    <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>.
+Loads an absolute <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> from an 
+    <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>.
 
 
 ## -parameters
@@ -65,10 +65,10 @@ Loads an absolute <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-89
 
 ### -param pstm [in]
 
-Type: <b><a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> interface from which the absolute 
-      <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> loads.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface from which the absolute 
+      <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> loads.
 
 
 ### -param pidl [out]
@@ -76,7 +76,7 @@ A pointer to the <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cac
 Type: <b>PIDLIST_ABSOLUTE*</b>
 
 When this method returns and succeeds, contains the resulting absolute 
-      <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a>. If it fails, contains 
+      <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a>. If it fails, contains 
       <b>NULL</b>.
 
 

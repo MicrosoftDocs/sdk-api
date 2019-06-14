@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the <a href="https://msdn.microsoft.com/b6817676-affb-4bb3-adba-e24e0b75ad10">IWICColorContext</a> associated with the image frame.
+Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwiccolorcontext">IWICColorContext</a> associated with the image frame.
 
 
 ## -parameters
@@ -69,9 +69,9 @@ This value must be the size of, or smaller than, the size available to <i>ppICol
 
 ### -param ppIColorContexts [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/b6817676-affb-4bb3-adba-e24e0b75ad10">IWICColorContext</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwiccolorcontext">IWICColorContext</a>**</b>
 
-A pointer that receives a pointer to the <a href="https://msdn.microsoft.com/b6817676-affb-4bb3-adba-e24e0b75ad10">IWICColorContext</a> objects.
+A pointer that receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwiccolorcontext">IWICColorContext</a> objects.
 
 
 ### -param pcActualCount [out]
@@ -100,7 +100,7 @@ If NULL is passed for <i>ppIColorContexts</i>, and 0 is passed for <i>cCount</i>
 
 
 
-The <i>ppIColorContexts</i> array must be filled with valid data: each <a href="https://msdn.microsoft.com/b6817676-affb-4bb3-adba-e24e0b75ad10">IWICColorContext*</a> in the array must have been created using <a href="https://msdn.microsoft.com/60ae0ec4-2bf4-43f0-9882-ff8b6f5f5923">IWICImagingFactory::CreateColorContext</a>.
+The <i>ppIColorContexts</i> array must be filled with valid data: each <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwiccolorcontext">IWICColorContext*</a> in the array must have been created using <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicimagingfactory-createcolorcontext">IWICImagingFactory::CreateColorContext</a>.
 
 
 

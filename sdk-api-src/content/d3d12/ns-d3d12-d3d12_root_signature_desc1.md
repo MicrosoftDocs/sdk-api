@@ -65,7 +65,7 @@ The number of slots in the root signature. This number is also the number of ele
 
 ### -field pParameters
 
-An array of <a href="https://msdn.microsoft.com/615B8ABF-FD80-4254-976B-9E587CE9F12E">D3D12_ROOT_PARAMETER1</a> structures for the slots in the root signature.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_parameter1">D3D12_ROOT_PARAMETER1</a> structures for the slots in the root signature.
           
 
 
@@ -76,20 +76,20 @@ Specifies the number of static samplers.
 
 ### -field pStaticSamplers
 
-Pointer to one or more <a href="https://msdn.microsoft.com/35553C1C-3661-4778-8BC5-F2E6775DF96D">D3D12_STATIC_SAMPLER_DESC</a> structures.
+Pointer to one or more <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_static_sampler_desc">D3D12_STATIC_SAMPLER_DESC</a> structures.
           
 
 
 ### -field Flags
 
-Specifies the <a href="https://msdn.microsoft.com/C3118E58-2006-459F-B2D6-4EC84F2BC058">D3D12_ROOT_SIGNATURE_FLAGS</a> that determine the data volatility.
+Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_root_signature_flags">D3D12_ROOT_SIGNATURE_FLAGS</a> that determine the data volatility.
 
 
 ## -remarks
 
 
 
-Use this structure with the <a href="https://msdn.microsoft.com/46F692DD-55FF-4DFF-AF11-78CAD10922C1">D3D12_VERSIONED_ROOT_SIGNATURE_DESC</a> structure.
+Use this structure with the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_versioned_root_signature_desc">D3D12_VERSIONED_ROOT_SIGNATURE_DESC</a> structure.
 
 
 
@@ -99,15 +99,15 @@ Use this structure with the <a href="https://msdn.microsoft.com/46F692DD-55FF-4D
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/D74D9D3B-96AB-489A-A91C-4F68AC3D05EE">D3D12_ROOT_SIGNATURE_DESC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_signature_desc">D3D12_ROOT_SIGNATURE_DESC</a>
 
 
 
-<a href="https://msdn.microsoft.com/8FE42C1C-7F1D-4E70-A7EE-D5EC67237327">Root Signature Version 1.1</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/root-signature-version-1-1">Root Signature Version 1.1</a>
  
 
  

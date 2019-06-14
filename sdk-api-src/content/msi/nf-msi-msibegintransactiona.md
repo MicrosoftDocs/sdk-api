@@ -51,9 +51,9 @@ ms.custom: 19H1
 ## -description
 
 
-The  <b>MsiBeginTransaction</b> function starts <a href="https://msdn.microsoft.com/en-us/library/Aa372093(v=VS.85).aspx">transaction processing</a> of a multiple-package installation and returns an identifier for the transaction. The  <a href="https://msdn.microsoft.com/70912430-63d7-4087-858c-fb13f47008e2">MsiEndTransaction</a> function ends  the transaction.
+The  <b>MsiBeginTransaction</b> function starts <a href="https://docs.microsoft.com/windows/desktop/Msi/t-gly">transaction processing</a> of a multiple-package installation and returns an identifier for the transaction. The  <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiendtransaction">MsiEndTransaction</a> function ends  the transaction.
 
-<b><a href="https://msdn.microsoft.com/7256b759-3fb5-4195-b0e4-a1631327ebb7">Windows Installer 4.0 and earlier</a>:  </b>Not supported. This function is available beginning with Windows Installer 4.5.
+<b><a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-4-0">Windows Installer 4.0 and earlier</a>:  </b>Not supported. This function is available beginning with Windows Installer 4.5.
 
 
 ## -parameters
@@ -108,7 +108,7 @@ Transaction ID is a <b>MSIHANDLE</b> value that identifies the transaction. Only
 
 ### -param phChangeOfOwnerEvent [out]
 
-This parameter returns a handle to an event that  is set when the <a href="https://msdn.microsoft.com/222c37fd-1a77-4017-8e55-cbd844f375df">MsiJoinTransaction</a> function changes the owner of the transaction to a new owner. The current owner can use this to determine when ownership of the transaction has changed. Leaving a transaction without an owner will roll back the transaction.
+This parameter returns a handle to an event that  is set when the <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msijointransaction">MsiJoinTransaction</a> function changes the owner of the transaction to a new owner. The current owner can use this to determine when ownership of the transaction has changed. Leaving a transaction without an owner will roll back the transaction.
 
 
 ## -returns
@@ -164,7 +164,7 @@ An invalid parameter is passed to the function.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/6c70e788-beb0-46db-94b0-1bbaac972acf">Rollback Installations</a> have been disabled by the <a href="https://msdn.microsoft.com/c17d9663-af13-4e12-b496-64942f4379f5">DISABLEROLLBACK</a> property or <a href="https://msdn.microsoft.com/01747de6-7478-4403-ba36-8ff1abc2b70f">DisableRollback</a> policy.     
+<a href="https://docs.microsoft.com/windows/desktop/Msi/rollback-installation">Rollback Installations</a> have been disabled by the <a href="https://docs.microsoft.com/windows/desktop/Msi/-disablerollback">DISABLEROLLBACK</a> property or <a href="https://docs.microsoft.com/windows/desktop/Msi/disablerollback">DisableRollback</a> policy.     
 
 </td>
 </tr>
@@ -179,7 +179,7 @@ An invalid parameter is passed to the function.
 
 
 
-<a href="https://msdn.microsoft.com/c4a0f4d8-818d-4e60-908b-adaa2a54de95">Multiple Package Installations</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/multiple-package-installations">Multiple Package Installations</a>
  
 
  

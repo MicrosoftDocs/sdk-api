@@ -63,7 +63,7 @@ The <code>EnumMatchingFilters</code> method enumerates registered filters that m
 
 ### -param ppEnum [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/c8dec22b-946d-48ae-9315-54d353f3b853">IEnumMoniker</a> interface. Use this interface pointer to retrieve filter monikers from the enumeration. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienummoniker">IEnumMoniker</a> interface. Use this interface pointer to retrieve filter monikers from the enumeration. The caller must release the interface.
 
 
 ### -param dwFlags [in]
@@ -78,7 +78,7 @@ Boolean value indicating whether an exact match is required. See Remarks for mor
 
 ### -param dwMerit [in]
 
-Minimum merit value. The enumeration exludes filters with a lesser merit value. For a list of merit values, see <a href="https://msdn.microsoft.com/9e026675-e0a9-4c82-9b57-ab0e7d9592ea">Merit</a>. If <i>dwMerit</i> is higher than MERIT_DO_NOT_USE, the enumeration also excludes filters whose category has a merit less than or equal to MERIT_DO_NOT_USE. (See <a href="https://msdn.microsoft.com/cab4e2c9-eab9-4836-adfc-870490ca5b6b">Filter Categories</a>.)
+Minimum merit value. The enumeration exludes filters with a lesser merit value. For a list of merit values, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/merit">Merit</a>. If <i>dwMerit</i> is higher than MERIT_DO_NOT_USE, the enumeration also excludes filters whose category has a merit less than or equal to MERIT_DO_NOT_USE. (See <a href="https://docs.microsoft.com/windows/desktop/DirectShow/filter-categories">Filter Categories</a>.)
 
 
 ### -param bInputNeeded [in]
@@ -93,22 +93,22 @@ Number of input media types specified in <i>pInputTypes</i>.
 
 ### -param pInputTypes [in]
 
-Pointer to an array of GUID pairs that specify major types and subtypes, for the input pins to match. The size of the array is 2 * <i>cInputTypes</i>. The array can be <b>NULL</b>. Individual array members can be GUID_NULL, which matches any type. (See <a href="https://msdn.microsoft.com/c8efe9e6-7d1d-4ec2-ab1b-70ee0798a6a3">Media Types</a>.)
+Pointer to an array of GUID pairs that specify major types and subtypes, for the input pins to match. The size of the array is 2 * <i>cInputTypes</i>. The array can be <b>NULL</b>. Individual array members can be GUID_NULL, which matches any type. (See <a href="https://docs.microsoft.com/windows/desktop/DirectShow/media-types">Media Types</a>.)
 
 
 ### -param pMedIn [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/ed5614fe-bfeb-4ddf-a626-b14080f45b33">REGPINMEDIUM</a> structure specifying the medium for the input pins. Set to <b>NULL</b> if not needed.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-regpinmedium">REGPINMEDIUM</a> structure specifying the medium for the input pins. Set to <b>NULL</b> if not needed.
 
 
 ### -param pPinCategoryIn [in]
 
-Pointer to a GUID that specifies the input pin category. (See <a href="https://msdn.microsoft.com/0c01bd51-353d-4f48-b33c-796f740915e2">Pin Property Set</a>.) Set to <b>NULL</b> if not needed.
+Pointer to a GUID that specifies the input pin category. (See <a href="https://docs.microsoft.com/windows/desktop/DirectShow/pin-property-set">Pin Property Set</a>.) Set to <b>NULL</b> if not needed.
 
 
 ### -param bRender [in]
 
-Boolean value that specifies whether the filter must render its input. If <b>TRUE</b>, the specified filter must render its input. (This value corresponds to the <b>bRendered</b> field in the <a href="https://msdn.microsoft.com/1da033e1-24c3-46e0-becf-025966e6238f">REGFILTERPINS</a> structure, which is used to register information about the filter's pins.)
+Boolean value that specifies whether the filter must render its input. If <b>TRUE</b>, the specified filter must render its input. (This value corresponds to the <b>bRendered</b> field in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-regfilterpins">REGFILTERPINS</a> structure, which is used to register information about the filter's pins.)
 
 
 ### -param bOutputNeeded [in]
@@ -128,12 +128,12 @@ Pointer to an array of GUID pairs that specify major types and subtypes, for the
 
 ### -param pMedOut [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/ed5614fe-bfeb-4ddf-a626-b14080f45b33">REGPINMEDIUM</a> structure specifying the medium for the output pins. Set to <b>NULL</b> if not needed.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-regpinmedium">REGPINMEDIUM</a> structure specifying the medium for the output pins. Set to <b>NULL</b> if not needed.
 
 
 ### -param pPinCategoryOut [in]
 
-Pointer to a GUID that specifies the output pin category. (See <a href="https://msdn.microsoft.com/0c01bd51-353d-4f48-b33c-796f740915e2">Pin Property Set</a>.) Set to <b>NULL</b> if not needed.
+Pointer to a GUID that specifies the output pin category. (See <a href="https://docs.microsoft.com/windows/desktop/DirectShow/pin-property-set">Pin Property Set</a>.) Set to <b>NULL</b> if not needed.
 
 
 ## -returns
@@ -235,11 +235,11 @@ If a pin did not register any media types, this method will not consider it a ma
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a3db838-cee3-4a9f-a924-fb55931acc83">IFilterMapper2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltermapper2">IFilterMapper2 Interface</a>
  
 
  

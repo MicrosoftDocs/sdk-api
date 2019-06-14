@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Point::operator+</b> method adds the <b>X</b> and <b>Y</b> data members of two <a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a> objects.
+The <b>Point::operator+</b> method adds the <b>X</b> and <b>Y</b> data members of two <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> objects.
 
 
 ## -parameters
@@ -60,19 +60,19 @@ The <b>Point::operator+</b> method adds the <b>X</b> and <b>Y</b> data members o
 
 ### -param point [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a></b>
 
-Reference to a <a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a> object whose <b>X</b> and <b>Y</b> data members are added to the <b>X</b> and <b>Y</b> data members of this <b>Point</b> object. 
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> object whose <b>X</b> and <b>Y</b> data members are added to the <b>X</b> and <b>Y</b> data members of this <b>Point</b> object. 
 
 
 ## -returns
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a></b>
+Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a></b>
 </strong>
 
-This method returns a <a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a> object that is the sum of two <b>Point</b> objects.
+This method returns a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> object that is the sum of two <b>Point</b> objects.
 
 
 
@@ -81,14 +81,14 @@ This method returns a <a href="https://msdn.microsoft.com/en-us/library/ms534487
 
 
 
-This method overloads the addition operator for <a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a> objects. If A, B, and C are <b>Point</b> objects, the statement <b>C = A + B</b> is equivalent to <b>C = A.operator+(B)</b>.
+This method overloads the addition operator for <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> objects. If A, B, and C are <b>Point</b> objects, the statement <b>C = A + B</b> is equivalent to <b>C = A.operator+(B)</b>.
 
 
 #### Examples
 
 
 
-The following example creates two <a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a> objects, then adds the two <b>Point</b> objects and stores the result in a third <b>Point</b> object.
+The following example creates two <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> objects, then adds the two <b>Point</b> objects and stores the result in a third <b>Point</b> object.
 
 
 ```cpp
@@ -108,19 +108,19 @@ Point point3 = point1 + point2;
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535007(v=VS.85).aspx">Point::Equals</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-point-equals">Point::Equals</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535009(v=VS.85).aspx">Point::operator-</a>
+<a href="https://docs.microsoft.com/previous-versions//ms535009(v=vs.85)">Point::operator-</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
  
 
  

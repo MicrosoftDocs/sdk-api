@@ -81,7 +81,7 @@ This function returns ERROR_SUCCESS on completion.
 
 
 
-<a href="https://msdn.microsoft.com/ea437d31-a688-4602-8453-f891e83af9ea">TdhOpenDecodingHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhopendecodinghandle">TdhOpenDecodingHandle</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>OpenRole</b> method opens an <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> object with the specified name.
+The <b>OpenRole</b> method opens an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> object with the specified name.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>OpenRole</b> method opens an <a href="https://msdn.microsoft.com/2934d783
 
 ### -param bstrRoleName [in]
 
-Name of the <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> object to open.
+Name of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> object to open.
 
 
 ### -param varReserved [in, optional]
@@ -70,7 +70,7 @@ Reserved for future use.
 
 ### -param ppRole [out]
 
-A pointer to a pointer to the opened <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> object.
+A pointer to a pointer to the opened <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> object.
 
 
 ## -returns

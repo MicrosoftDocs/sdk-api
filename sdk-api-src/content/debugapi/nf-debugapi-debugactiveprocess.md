@@ -76,7 +76,7 @@ The identifier for the process to be debugged. The debugger is granted debugging
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is 0 (zero). To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -86,9 +86,9 @@ If the function fails, the return value is 0 (zero). To get extended error infor
 
 
 To stop debugging the process, you must exit the process or call the 
-    <a href="https://msdn.microsoft.com/29d1a6d1-0c10-43c1-bef1-b063f07b16a4">DebugActiveProcessStop</a> function. Exiting the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-debugactiveprocessstop">DebugActiveProcessStop</a> function. Exiting the 
     debugger also exits the process unless you use the 
-    <a href="https://msdn.microsoft.com/7ef44527-bde4-41f0-a470-d3f404c77ea9">DebugSetProcessKillOnExit</a> function.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-debugsetprocesskillonexit">DebugSetProcessKillOnExit</a> function.
 
 The debugger must have appropriate access to the target process, and it must be able to open the process for 
     <b>PROCESS_ALL_ACCESS</b>. 
@@ -99,19 +99,19 @@ The debugger must have appropriate access to the target process, and it must be 
 
 After the system checks the process identifier and determines that a valid debugging attachment is being made, 
     the function returns <b>TRUE</b>. Then the debugger is expected to wait for debugging events by 
-    using the <a href="https://msdn.microsoft.com/0d81a4ac-dd66-4648-9f3f-1f54aca84243">WaitForDebugEvent</a> function. The system 
+    using the <a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-waitfordebugevent">WaitForDebugEvent</a> function. The system 
     suspends all threads in the process, and sends the debugger events that represents the current state of the 
     process.
 
 The system sends the debugger a single <b>CREATE_PROCESS_DEBUG_EVENT</b> debugging event 
     that represents the process specified by the <i>dwProcessId</i> parameter. The 
     <b>lpStartAddress</b> member of the 
-    <a href="https://msdn.microsoft.com/4607aaff-bd05-46b5-86ed-abfffe6c2551">CREATE_PROCESS_DEBUG_INFO</a> structure is 
+    <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-create_process_debug_info">CREATE_PROCESS_DEBUG_INFO</a> structure is 
     <b>NULL</b>.
 
 For each thread that is currently part of the process, the system sends a 
     <b>CREATE_THREAD_DEBUG_EVENT</b> debugging event. The <b>lpStartAddress</b> 
-    member of the <a href="https://msdn.microsoft.com/daabd118-fa03-410e-af25-8655194902b0">CREATE_THREAD_DEBUG_INFO</a> 
+    member of the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-create_thread_debug_info">CREATE_THREAD_DEBUG_INFO</a> 
     structure is <b>NULL</b>.
 
 For each dynamic-link library (DLL) that is currently loaded into the address space of the target process, the 
@@ -132,31 +132,31 @@ After all of this is done, the system resumes all threads in the process. When t
 
 
 
-<a href="https://msdn.microsoft.com/4607aaff-bd05-46b5-86ed-abfffe6c2551">CREATE_PROCESS_DEBUG_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-create_process_debug_info">CREATE_PROCESS_DEBUG_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/daabd118-fa03-410e-af25-8655194902b0">CREATE_THREAD_DEBUG_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-create_thread_debug_info">CREATE_THREAD_DEBUG_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
 
 
 
-<a href="https://msdn.microsoft.com/29d1a6d1-0c10-43c1-bef1-b063f07b16a4">DebugActiveProcessStop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-debugactiveprocessstop">DebugActiveProcessStop</a>
 
 
 
-<a href="https://msdn.microsoft.com/95a838a2-f138-4682-b733-3f363b6c4a4b">Debugging Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/debugging-functions">Debugging Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/2662411f-a69a-442b-a177-a27ea025bb01">Debugging a Running Process</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/debugging-a-running-process">Debugging a Running Process</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d81a4ac-dd66-4648-9f3f-1f54aca84243">WaitForDebugEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-waitfordebugevent">WaitForDebugEvent</a>
  
 
  

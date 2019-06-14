@@ -109,11 +109,11 @@ The address in the <i>pSize</i> parameter is not valid. For example, it may be
 
 
 
-<a href="https://msdn.microsoft.com/3a04d2b7-b2eb-4c6c-8863-1e88321fa382">IFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
 
 
 
-<a href="https://msdn.microsoft.com/1c39a7dc-553b-41b7-8b66-1a5980493dce">IFont::put_Size</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-put_size">IFont::put_Size</a>
  
 
  

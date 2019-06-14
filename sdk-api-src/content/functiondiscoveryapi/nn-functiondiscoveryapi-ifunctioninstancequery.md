@@ -56,7 +56,7 @@ This interface implements the asynchronous query for a function instance based o
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFunctionInstanceQuery</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IFunctionInstanceQuery</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFunctionInstanceQuery</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFunctionInstanceQuery</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,10 +71,10 @@ The <b>IFunctionInstanceQuery</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/42618944-6ae6-45f0-85f9-3c958d719ed2">Execute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstancequery-execute">Execute</a>
 </td>
 <td align="left" width="63%">
-Performs the query defined by <a href="https://msdn.microsoft.com/80e70972-ced1-416e-aa4f-69c54b2cbf95">CreateInstanceQuery</a>.
+Performs the query defined by <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscovery-createinstancequery">CreateInstanceQuery</a>.
 
 </td>
 </tr>
@@ -85,7 +85,7 @@ Performs the query defined by <a href="https://msdn.microsoft.com/80e70972-ced1-
 
 
 
-The <a href="https://msdn.microsoft.com/42618944-6ae6-45f0-85f9-3c958d719ed2">Execute</a> method must be invoked by the client program before any data can be retrieved from the query object.
+The <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstancequery-execute">Execute</a> method must be invoked by the client program before any data can be retrieved from the query object.
 
 
 
@@ -95,7 +95,7 @@ The <a href="https://msdn.microsoft.com/42618944-6ae6-45f0-85f9-3c958d719ed2">Ex
 
 
 
-<a href="https://msdn.microsoft.com/3c255fb4-8f9d-47a2-9770-1aa528d07f43">Function Discovery Queries</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/function-discovery-queries">Function Discovery Queries</a>
  
 
  

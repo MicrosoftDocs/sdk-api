@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>GetAutoArrange</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/987383c8-aaea-4144-8a8c-b4a8943a2acd">IFolderView::GetAutoArrange</a>.]
+<p class="CCE_Message">[<b>GetAutoArrange</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-getautoarrange">IFolderView::GetAutoArrange</a>.]
 
 Gets the current state of the folder's Auto Arrange mode.
 

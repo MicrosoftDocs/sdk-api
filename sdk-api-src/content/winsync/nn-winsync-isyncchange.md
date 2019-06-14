@@ -55,7 +55,7 @@ Represents a change to an item.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncChange</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISyncChange</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncChange</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncChange</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ISyncChange</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d3d0d805-ed29-4c88-925a-a16e130a3fe5">GetChangeUnits</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchange-getchangeunits">GetChangeUnits</a>
 </td>
 <td align="left" width="63%">
 Gets an object that can enumerate change units that are contained in this change.
@@ -80,7 +80,7 @@ Gets an object that can enumerate change units that are contained in this change
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6b6def94-8c48-41f6-8869-e28d0db0d500">GetChangeVersion</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchange-getchangeversion">GetChangeVersion</a>
 </td>
 <td align="left" width="63%">
 Gets the version that is associated with this change.
@@ -90,7 +90,7 @@ Gets the version that is associated with this change.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2c795cbe-b587-42ef-9200-b7d0d972e7c7">GetCreationVersion</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchange-getcreationversion">GetCreationVersion</a>
 </td>
 <td align="left" width="63%">
 Gets the creation version of the changed item.
@@ -100,7 +100,7 @@ Gets the creation version of the changed item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/de0509a4-550b-49f2-a850-fc1bd57b60cd">GetFlags</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchange-getflags">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Gets flags that are associated with this change.
@@ -110,7 +110,7 @@ Gets flags that are associated with this change.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7a9ba0b8-160e-4ab3-8686-d3d12e4f4ecc">GetLearnedKnowledge</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchange-getlearnedknowledge">GetLearnedKnowledge</a>
 </td>
 <td align="left" width="63%">
 Gets the knowledge that a replica will learn when this change is applied to its item store.
@@ -120,7 +120,7 @@ Gets the knowledge that a replica will learn when this change is applied to its 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/536e7575-e3c7-4f40-83f4-6fb7a7c2d2ba">GetMadeWithKnowledge</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchange-getmadewithknowledge">GetMadeWithKnowledge</a>
 </td>
 <td align="left" width="63%">
 Gets the made-with knowledge for this change.
@@ -130,7 +130,7 @@ Gets the made-with knowledge for this change.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c65dc19e-e11a-4bd1-b10f-f2af75294d48">GetOwnerReplicaId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchange-getownerreplicaid">GetOwnerReplicaId</a>
 </td>
 <td align="left" width="63%">
 Gets the ID of the replica that originated this change.
@@ -140,7 +140,7 @@ Gets the ID of the replica that originated this change.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/775868d5-8cab-431a-913b-b22b2d516f0d">GetRootItemId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchange-getrootitemid">GetRootItemId</a>
 </td>
 <td align="left" width="63%">
 Gets the ID of the changed item.
@@ -150,7 +150,7 @@ Gets the ID of the changed item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ba79bb88-bdeb-42be-88a9-1355fe048d10">GetWorkEstimate</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchange-getworkestimate">GetWorkEstimate</a>
 </td>
 <td align="left" width="63%">
 Gets the work estimate for this change.
@@ -160,7 +160,7 @@ Gets the work estimate for this change.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2f26cc10-ff0c-448e-a174-edca0b0b2e10">SetWorkEstimate</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchange-setworkestimate">SetWorkEstimate</a>
 </td>
 <td align="left" width="63%">
 Sets the work estimate for this change.
@@ -176,7 +176,7 @@ Sets the work estimate for this change.
 
 
 
-<a href="https://msdn.microsoft.com/2c185fe2-1bbe-4409-aea0-6e138430b304">Windows Sync Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
  
 
  

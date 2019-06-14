@@ -65,7 +65,7 @@ The <b>GetNetworkProtocol</b> method retrieves the network protocol that the net
 
 ### -param pProtocol [out]
 
-Pointer to a variable that receives a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757847(v=VS.85).aspx">WMT_NET_PROTOCOL</a> enumeration type.
+Pointer to a variable that receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_net_protocol">WMT_NET_PROTOCOL</a> enumeration type.
 
 
 ## -returns
@@ -112,15 +112,15 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798761(v=VS.85).aspx">IWMWriterNetworkSink Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriternetworksink">IWMWriterNetworkSink Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798769(v=VS.85).aspx">IWMWriterNetworkSink::SetNetworkProtocol</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriternetworksink-setnetworkprotocol">IWMWriterNetworkSink::SetNetworkProtocol</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757847(v=VS.85).aspx">WMT_NET_PROTOCOL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_net_protocol">WMT_NET_PROTOCOL</a>
  
 
  

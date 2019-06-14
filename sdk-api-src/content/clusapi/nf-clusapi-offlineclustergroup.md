@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Takes a  <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> offline. The <b>PCLUSAPI_OFFLINE_CLUSTER_GROUP</b> type defines a pointer to this function.
+Takes a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">group</a> offline. The <b>PCLUSAPI_OFFLINE_CLUSTER_GROUP</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ Handle to the group to be taken offline.
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following is one of the possible error codes.
+the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following is one of the possible error codes.
 
 <table>
 <tr>
@@ -97,7 +97,7 @@ The operation is in progress.
 
 
 
-Do not call  <b>OfflineClusterGroup</b> from a resource DLL. For more information, see  <a href="https://msdn.microsoft.com/0eaa4aea-8d9a-4552-b43a-fafa23a3e736">Function Calls to Avoid in Resource DLLs</a>.
+Do not call  <b>OfflineClusterGroup</b> from a resource DLL. For more information, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
 
 
@@ -107,11 +107,11 @@ Do not call  <b>OfflineClusterGroup</b> from a resource DLL. For more informatio
 
 
 
-<a href="https://msdn.microsoft.com/33b4f435-f394-41fc-846f-8e9206c76aa1">OnlineClusterGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-onlineclustergroup">OnlineClusterGroup</a>
 
 
 
-<a href="https://msdn.microsoft.com/0c7ef9d9-d32b-448e-9e07-6befb9b3e338">OpenClusterGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclustergroup">OpenClusterGroup</a>
  
 
  

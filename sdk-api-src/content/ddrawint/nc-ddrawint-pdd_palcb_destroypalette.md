@@ -68,7 +68,7 @@ The <b>DdDestroyPalette</b> callback function destroys the specified palette.
 
 #### - lpDestroyPalette
 
-Points to a <a href="https://msdn.microsoft.com/e309f782-bd0b-4703-b58c-e202fd87b904">DD_DESTROYPALETTEDATA</a> structure that contains the information needed to destroy a palette.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_destroypalettedata">DD_DESTROYPALETTEDATA</a> structure that contains the information needed to destroy a palette.
 
 
 ## -returns
@@ -85,7 +85,7 @@ Points to a <a href="https://msdn.microsoft.com/e309f782-bd0b-4703-b58c-e202fd87
 
 
 
-<a href="https://msdn.microsoft.com/e309f782-bd0b-4703-b58c-e202fd87b904">DD_DESTROYPALETTEDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_destroypalettedata">DD_DESTROYPALETTEDATA</a>
  
 
  

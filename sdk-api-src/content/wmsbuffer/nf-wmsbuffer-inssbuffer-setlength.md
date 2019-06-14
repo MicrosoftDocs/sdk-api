@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-The <b>SetLength</b> method specifies the size of the used portion of the buffer. If you are storing a sample in the buffer, call <a href="https://msdn.microsoft.com/en-us/library/Dd743259(v=VS.85).aspx">INSSBuffer::GetBuffer</a> to retrieve the address of the buffer. Then copy your data to that address and use this method to set the length of the used portion of the buffer.
+The <b>SetLength</b> method specifies the size of the used portion of the buffer. If you are storing a sample in the buffer, call <a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getbuffer">INSSBuffer::GetBuffer</a> to retrieve the address of the buffer. Then copy your data to that address and use this method to set the length of the used portion of the buffer.
 
 
 
@@ -112,11 +112,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743261(v=VS.85).aspx">INSSBuffer::GetLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getlength">INSSBuffer::GetLength</a>
  
 
  

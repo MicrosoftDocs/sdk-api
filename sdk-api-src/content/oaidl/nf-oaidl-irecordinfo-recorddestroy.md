@@ -110,9 +110,9 @@ One or more of the arguments is not valid.
 
 
 
-<a href="https://msdn.microsoft.com/979b0702-3342-4036-8113-c84728436ab6">RecordClear</a> is called to release the resources held by the instance of a record without deallocating memory.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-recordclear">RecordClear</a> is called to release the resources held by the instance of a record without deallocating memory.
 
-<div class="alert"><b>Note</b>  This method can only be called on records allocated through <a href="https://msdn.microsoft.com/f688623e-c03b-456f-bd51-426049e0eb2b">RecordCreate</a> and <a href="https://msdn.microsoft.com/9cc2a46a-ec92-46a7-8b75-8c36598cc441">RecordCreateCopy</a>. If you allocate the record yourself, you cannot call this method.</div>
+<div class="alert"><b>Note</b>  This method can only be called on records allocated through <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-recordcreate">RecordCreate</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-recordcreatecopy">RecordCreateCopy</a>. If you allocate the record yourself, you cannot call this method.</div>
 <div> </div>
 
 
@@ -122,7 +122,7 @@ One or more of the arguments is not valid.
 
 
 
-<a href="https://msdn.microsoft.com/065ebfa8-bfac-4c75-a3f9-9dc0409ea454">IRecordInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>
  
 
  

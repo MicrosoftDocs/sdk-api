@@ -51,12 +51,12 @@ ms.custom: 19H1
 
 Use this interface to identify the file size and data stream of the file contents.
 
-To get this interface, call the <a href="https://msdn.microsoft.com/8e90e367-e7c3-41db-a8c9-9b0220cf402b">IFileSystemImage::CreateFileItem</a> method.
+To get this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-createfileitem">IFileSystemImage::CreateFileItem</a> method.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsiFileItem</b> interface inherits from <a href="https://msdn.microsoft.com/44494e66-e6b4-4acb-a2a6-0a3e5cc4a2a0">IFsiItem</a>. <b>IFsiFileItem</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsiFileItem</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem</a>. <b>IFsiFileItem</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IFsiFileItem</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/90ed4c81-7113-4329-ae1e-9114740b7e09">get_Data</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem-get_data">get_Data</a>
 </td>
 <td align="left" width="63%">
 Retrieves the data stream of the file's content.
@@ -80,7 +80,7 @@ Retrieves the data stream of the file's content.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e0e53ca9-bb72-4191-9025-d07030c59a51">get_DataSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem-get_datasize">get_DataSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of bytes in the file. 
@@ -89,25 +89,25 @@ Retrieves the number of bytes in the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2f4f06e7-10a6-4aa0-b7b1-bf8799fcd41e">get_DataSize32BitHigh</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem-get_datasize32bithigh">get_DataSize32BitHigh</a>
 </td>
 <td align="left" width="63%">
-Retrieves the most significant 32 bits of the <a href="https://msdn.microsoft.com/e0e53ca9-bb72-4191-9025-d07030c59a51">get_DataSize</a> property.
+Retrieves the most significant 32 bits of the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem-get_datasize">get_DataSize</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/beeec2bc-5f0e-4a53-afed-50c0b6069f54">get_DataSize32BitLow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem-get_datasize32bitlow">get_DataSize32BitLow</a>
 </td>
 <td align="left" width="63%">
-Retrieves the least significant 32 bits of the <a href="https://msdn.microsoft.com/e0e53ca9-bb72-4191-9025-d07030c59a51">get_DataSize</a> property.
+Retrieves the least significant 32 bits of the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem-get_datasize">get_DataSize</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5fe00500-615c-48fe-a4a3-b3291e61db1f">put_Data</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem-put_data">put_Data</a>
 </td>
 <td align="left" width="63%">
 Sets the data stream of the file's content.
@@ -133,7 +133,7 @@ This is an <b>FsiFileItem</b> object in script.
 
 
 
-<a href="https://msdn.microsoft.com/44494e66-e6b4-4acb-a2a6-0a3e5cc4a2a0">IFsiItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem</a>
  
 
  

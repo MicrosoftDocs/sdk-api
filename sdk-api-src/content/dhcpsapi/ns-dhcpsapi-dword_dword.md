@@ -72,7 +72,7 @@ Specifies the lower 32 bits of the value.
 
 
 
-<a href="https://msdn.microsoft.com/2ffc8968-f903-4d8e-8b34-c8031a56ebfc">DHCP_OPTION_DATA_ELEMENT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_option_data_element">DHCP_OPTION_DATA_ELEMENT</a>
  
 
  

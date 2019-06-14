@@ -54,7 +54,7 @@ The <b>ITfMenu</b> interface is implemented by the language bar and used by a la
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfMenu</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfMenu</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfMenu</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfMenu</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfMenu</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c00048d1-d7c1-4ea3-a132-5f5aa570148f">AddMenuItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itfmenu-addmenuitem">AddMenuItem</a>
 </td>
 <td align="left" width="63%">
 Adds an item to the menu that the language bar will display for the button.
@@ -84,22 +84,22 @@ Adds an item to the menu that the language bar will display for the button.
 
 
 
-<a href="https://msdn.microsoft.com/0f34f488-729b-42d3-9a24-85b3f95607ec">ITfLangBarItemBitmapButton::InitMenu
+<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembitmapbutton-initmenu">ITfLangBarItemBitmapButton::InitMenu
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/6f9debf8-1c25-4228-abd2-2b2a099cf5cd">ITfLangBarItemButton::InitMenu
+<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembutton-initmenu">ITfLangBarItemButton::InitMenu
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/6e8ba0ef-2f0a-4d67-95c1-06fee763bc14">ITfSystemLangBarItemSink::InitMenu
+<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itfsystemlangbaritemsink-initmenu">ITfSystemLangBarItemSink::InitMenu
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

@@ -66,12 +66,12 @@ The thread id of the called application.
 
 ### -param dwTickCount [in]
 
-The number of ticks since the call was made. It is calculated from the <a href="https://msdn.microsoft.com/22201c82-a49a-4972-9f49-6baf6d23a1ea">GetTickCount</a> function.
+The number of ticks since the call was made. It is calculated from the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-gettickcount">GetTickCount</a> function.
 
 
 ### -param dwPendingType [in]
 
-The type of call made during which a message or event was received. Possible values are from the enumeration <a href="https://msdn.microsoft.com/8f167342-5398-4ecc-9b56-dcf2b4248c65">PENDINGTYPE</a>, where PENDINGTYPE_TOPLEVEL means the outgoing call was not nested within a call from another application and PENDINTGYPE_NESTED means the outgoing call was nested within a call from another application.
+The type of call made during which a message or event was received. Possible values are from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tagpendingtype">PENDINGTYPE</a>, where PENDINGTYPE_TOPLEVEL means the outgoing call was not nested within a call from another application and PENDINTGYPE_NESTED means the outgoing call was nested within a call from another application.
 
 
 ## -returns
@@ -144,9 +144,9 @@ If the callee does not respond, type ahead is not misinterpreted and the user is
 </ul>
 Handling input while waiting for an outgoing call to finish can introduce complications. The application should determine whether to process the message without interrupting the call, to continue waiting, or to cancel the operation.
 
-When there is no response to the original COM call, the application can cancel the call and restore the COM object to a consistent state by calling <a href="https://msdn.microsoft.com/d1b7626e-bad1-47b5-8bcd-3da3b05c53c4">IStorage::Revert</a> on its storage. The object can be released when the container can shut down. However, canceling a call can create orphaned operations and resource leaks. Canceling should be used only as a last resort. It is strongly recommended that applications not allow such calls to be canceled.
+When there is no response to the original COM call, the application can cancel the call and restore the COM object to a consistent state by calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-revert">IStorage::Revert</a> on its storage. The object can be released when the container can shut down. However, canceling a call can create orphaned operations and resource leaks. Canceling should be used only as a last resort. It is strongly recommended that applications not allow such calls to be canceled.
 
-<div class="alert"><b>Note</b>  Although the <i>htaskCallee</i> parameter is typed as an HTASK, it  contains the thread id of the called thread. When you implement the <a href="https://msdn.microsoft.com/e12d48c0-5033-47a8-bdcd-e94c49857248">IMessageFilter</a> interface, you can call the <a href="https://msdn.microsoft.com/d020ecc5-89d1-4a0d-a197-15a66e269e86">OpenThread</a> function to get the thread handle from the <i>htaskCallee</i> parameter,  and you can call the <a href="https://msdn.microsoft.com/1878088b-e0fd-4009-b608-f491805948b5">GetProcessIdOfThread</a> function to get the process id.</div>
+<div class="alert"><b>Note</b>  Although the <i>htaskCallee</i> parameter is typed as an HTASK, it  contains the thread id of the called thread. When you implement the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imessagefilter">IMessageFilter</a> interface, you can call the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthread">OpenThread</a> function to get the thread handle from the <i>htaskCallee</i> parameter,  and you can call the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessidofthread">GetProcessIdOfThread</a> function to get the process id.</div>
 <div> </div>
 
 
@@ -156,11 +156,11 @@ When there is no response to the original COM call, the application can cancel t
 
 
 
-<a href="https://msdn.microsoft.com/e12d48c0-5033-47a8-bdcd-e94c49857248">IMessageFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imessagefilter">IMessageFilter</a>
 
 
 
-<a href="https://msdn.microsoft.com/317f0dbf-7ac9-4e5a-a5ed-e6b807f07fb2">OleUIBusy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuibusya">OleUIBusy</a>
  
 
  

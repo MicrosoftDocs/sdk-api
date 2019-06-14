@@ -54,7 +54,7 @@ Parses text and identifies individual words and phrases. This interface is a lan
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWordBreaker</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWordBreaker</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWordBreaker</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWordBreaker</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,16 +69,16 @@ The <b>IWordBreaker</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266429(v=VS.85).aspx">BreakText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nf-indexsrv-iwordbreaker-breaktext">BreakText</a>
 </td>
 <td align="left" width="63%">
-Parses text to identify words and phrases and provides the results to the <a href="https://msdn.microsoft.com/220FCAE5-D22D-45ED-9689-E78C0D8E0BB3">IWordSink</a> and <a href="https://msdn.microsoft.com/9485202D-94D6-4E9E-9C42-502033E85670">IPhraseSink</a> objects.
+Parses text to identify words and phrases and provides the results to the <a href="https://docs.microsoft.com/windows/desktop/search/iwordsink">IWordSink</a> and <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-iphrasesink">IPhraseSink</a> objects.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266430(v=VS.85).aspx">ComposePhrase</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nf-indexsrv-iwordbreaker-composephrase">ComposePhrase</a>
 </td>
 <td align="left" width="63%">
 Not currently supported.
@@ -87,7 +87,7 @@ Not currently supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266431(v=VS.85).aspx">GetLicenseToUse</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nf-indexsrv-iwordbreaker-getlicensetouse">GetLicenseToUse</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the license information for this implementation of the <b>IWordBreaker</b> interface.
@@ -96,7 +96,7 @@ Gets a pointer to the license information for this implementation of the <b>IWor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266432(v=VS.85).aspx">Init</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nf-indexsrv-iwordbreaker-init">Init</a>
 </td>
 <td align="left" width="63%">
 Initializes the <b>IWordBreaker</b> implementation and indicates the mode in which the component operates.

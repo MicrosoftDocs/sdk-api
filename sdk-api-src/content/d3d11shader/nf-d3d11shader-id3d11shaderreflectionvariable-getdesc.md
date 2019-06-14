@@ -59,18 +59,18 @@ Get a shader-variable description.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/b5620fea-c7d1-4db1-9bd1-991a2efa3b4c">D3D11_SHADER_VARIABLE_DESC</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-_d3d11_shader_variable_desc">D3D11_SHADER_VARIABLE_DESC</a>*</b>
 
-A pointer to a shader-variable description (see <a href="https://msdn.microsoft.com/b5620fea-c7d1-4db1-9bd1-991a2efa3b4c">D3D11_SHADER_VARIABLE_DESC</a>).
+A pointer to a shader-variable description (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-_d3d11_shader_variable_desc">D3D11_SHADER_VARIABLE_DESC</a>).
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
+Returns one of the following <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a>.
 
 
 
@@ -79,7 +79,7 @@ Returns one of the following <a href="https://msdn.microsoft.com/c0856a58-b760-4
 
 
 
-This method can be used to determine if the <a href="https://msdn.microsoft.com/4422a51f-b190-4df0-a1bb-a8ee2cc66da2">ID3D11ShaderReflectionVariable Interface</a> is valid, the method returns <b>E_FAIL</b> when the variable is not valid.
+This method can be used to determine if the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11shaderreflectionvariable">ID3D11ShaderReflectionVariable Interface</a> is valid, the method returns <b>E_FAIL</b> when the variable is not valid.
 
 This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
 
@@ -91,7 +91,7 @@ This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
 
 
 
-<a href="https://msdn.microsoft.com/4422a51f-b190-4df0-a1bb-a8ee2cc66da2">ID3D11ShaderReflectionVariable Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11shaderreflectionvariable">ID3D11ShaderReflectionVariable Interface</a>
  
 
  

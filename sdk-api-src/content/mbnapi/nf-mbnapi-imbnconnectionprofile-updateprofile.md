@@ -59,7 +59,7 @@ Updates the contents of the profile.
 
 ### -param strProfile [in]
 
-A string that contains the profile data in XML format compliant with the <a href="https://msdn.microsoft.com/bfec0a1d-de17-4ebd-b9fb-570e230da317">Mobile Broadband Profile Schema Reference</a>.
+A string that contains the profile data in XML format compliant with the <a href="https://docs.microsoft.com/windows/desktop/mbn/schema-schema">Mobile Broadband Profile Schema Reference</a>.
 
 
 ## -returns
@@ -138,11 +138,11 @@ The Mobile Broadband service is not running on this system.
 
 
 
-The data provided by this method complies with the <a href="https://msdn.microsoft.com/bfec0a1d-de17-4ebd-b9fb-570e230da317">Mobile Broadband Profile Schema Reference</a>.
+The data provided by this method complies with the <a href="https://docs.microsoft.com/windows/desktop/mbn/schema-schema">Mobile Broadband Profile Schema Reference</a>.
 
 This method should be called when the device for the profile is present in the system.
 
-This is a synchronous operation.  If successful, the Mobile Broadband service will notify the calling application by calling the <a href="https://msdn.microsoft.com/eb113544-0c89-4b38-a2f4-c67c639fe8a3">OnProfileUpdate</a> method of the <a href="https://msdn.microsoft.com/235fa0ef-4fc2-4a36-8ad7-2dceb597498f">IMbnConnectionProfileEvents</a> interface.
+This is a synchronous operation.  If successful, the Mobile Broadband service will notify the calling application by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofileevents-onprofileupdate">OnProfileUpdate</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofileevents">IMbnConnectionProfileEvents</a> interface.
 
 
 
@@ -152,7 +152,7 @@ This is a synchronous operation.  If successful, the Mobile Broadband service wi
 
 
 
-<a href="https://msdn.microsoft.com/f7730efe-e367-4642-8482-2a23052bab0c">IMbnConnectionProfile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofile">IMbnConnectionProfile</a>
  
 
  

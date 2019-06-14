@@ -110,11 +110,11 @@ Authentication and cipher algorithms are used in pairs. The following table show
 
 
 
-<a href="https://msdn.microsoft.com/2ea8173d-f528-4065-90ce-71a455a6b35f">DOT11_ADHOC_CIPHER_ALGORITHM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/ne-adhoc-tagdot11_adhoc_cipher_algorithm">DOT11_ADHOC_CIPHER_ALGORITHM</a>
 
 
 
-<a href="https://msdn.microsoft.com/87ba445a-1ad7-49da-aa61-ed72d118e517">IDot11AdHocSecuritySettings::GetDot11AuthAlgorithm</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocsecuritysettings-getdot11authalgorithm">IDot11AdHocSecuritySettings::GetDot11AuthAlgorithm</a>
  
 
  

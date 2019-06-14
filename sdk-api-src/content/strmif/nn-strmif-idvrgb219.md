@@ -51,14 +51,14 @@ ms.custom: 19H1
 
 
 
-The <code>IDVRGB219</code> interface controls the dynamic range in the <a href="https://msdn.microsoft.com/ac57bd11-de16-4a58-9f4b-da270a57ad08">DV Video Encoder</a> and <a href="https://msdn.microsoft.com/aa47010e-8510-475d-836a-cb63deeb3a7b">DV Video Decoder</a> filters.
+The <code>IDVRGB219</code> interface controls the dynamic range in the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dv-video-encoder-filter">DV Video Encoder</a> and <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dv-video-decoder-filter">DV Video Decoder</a> filters.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVRGB219</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDVRGB219</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVRGB219</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDVRGB219</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IDVRGB219</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d203158b-4c15-4fde-9bc2-6d0ba04af504">SetRGB219</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvrgb219-setrgb219">SetRGB219</a>
 </td>
 <td align="left" width="63%">
 Controls the dynamic range for DV encoding and decoding.

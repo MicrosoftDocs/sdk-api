@@ -75,7 +75,7 @@ Specifies a unique number that identifies the interface associated with the new 
 #### - ServiceEntry [in]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/873a3808-9813-43b4-818a-bea7e1fb7cd3">IPX_STATIC_SERVICE_INFO</a> structure that specifies parameters of the static service to be added.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374456(v=vs.85)">IPX_STATIC_SERVICE_INFO</a> structure that specifies parameters of the static service to be added.
 
 
 ## -returns
@@ -128,19 +128,19 @@ One of the parameters is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/230ddff5-7fd1-4e4e-b4bb-49c427a3f9c7">DeleteStaticService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-pdelete_static_service">DeleteStaticService</a>
 
 
 
-<a href="https://msdn.microsoft.com/e93e3bf2-80a2-44ec-a067-58220cdd31b4">IPX Service Table Management</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/ipx-service-table-management">IPX Service Table Management</a>
 
 
 
-<a href="https://msdn.microsoft.com/873a3808-9813-43b4-818a-bea7e1fb7cd3">IPX_STATIC_SERVICE_INFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374456(v=vs.85)">IPX_STATIC_SERVICE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb31f1ad-5761-4112-8c05-51a627b9e0b7">Service Table Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/service-table-management-functions">Service Table Management Functions</a>
  
 
  

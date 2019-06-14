@@ -57,7 +57,7 @@ The <code>IKsTopologyInfo</code> interface enumerates the nodes in a stream clas
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsTopologyInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IKsTopologyInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsTopologyInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsTopologyInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IKsTopologyInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390149(v=VS.85).aspx">CreateNodeInstance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ikstopologyinfo-createnodeinstance">CreateNodeInstance</a>
 </td>
 <td align="left" width="63%">
 Creates a COM object that represents a node in the filter.
@@ -81,7 +81,7 @@ Creates a COM object that represents a node in the filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390150(v=VS.85).aspx">get_Category</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ikstopologyinfo-get_category">get_Category</a>
 </td>
 <td align="left" width="63%">
 Returns one of the filter categories for this stream class driver.
@@ -90,7 +90,7 @@ Returns one of the filter categories for this stream class driver.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390151(v=VS.85).aspx">get_ConnectionInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ikstopologyinfo-get_connectioninfo">get_ConnectionInfo</a>
 </td>
 <td align="left" width="63%">
 Returns information about one node connection in the filter.
@@ -99,7 +99,7 @@ Returns information about one node connection in the filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390152(v=VS.85).aspx">get_NodeName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ikstopologyinfo-get_nodename">get_NodeName</a>
 </td>
 <td align="left" width="63%">
 Returns the name of the node.
@@ -108,7 +108,7 @@ Returns the name of the node.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390153(v=VS.85).aspx">get_NodeType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ikstopologyinfo-get_nodetype">get_NodeType</a>
 </td>
 <td align="left" width="63%">
 Returns the node type for a given node.
@@ -117,7 +117,7 @@ Returns the node type for a given node.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390154(v=VS.85).aspx">get_NumCategories</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ikstopologyinfo-get_numcategories">get_NumCategories</a>
 </td>
 <td align="left" width="63%">
 Returns the number of categories for this filter.
@@ -126,7 +126,7 @@ Returns the number of categories for this filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390155(v=VS.85).aspx">get_NumConnections</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ikstopologyinfo-get_numconnections">get_NumConnections</a>
 </td>
 <td align="left" width="63%">
 Returns the number of node connections within the filter.
@@ -135,7 +135,7 @@ Returns the number of node connections within the filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390156(v=VS.85).aspx">get_NumNodes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ikstopologyinfo-get_numnodes">get_NumNodes</a>
 </td>
 <td align="left" width="63%">
 Returns the number of nodes in the filter.
@@ -153,7 +153,7 @@ In the Windows Driver Model, a kernel-streaming (KS) filter contains one or more
 
 <img alt="KsFilter nodes" border="0" src="./images/ksproxynodes.png"/>
 
-Some devices also support the <a href="https://msdn.microsoft.com/en-us/library/Dd377075(v=VS.85).aspx">ISelector</a> interface for selecting input nodes. For example, if a video capture device has a camera and a tape transport, these could be represented as two nodes (see the previous diagram).
+Some devices also support the <a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nn-vidcap-iselector">ISelector</a> interface for selecting input nodes. For example, if a video capture device has a camera and a tape transport, these could be represented as two nodes (see the previous diagram).
 
 Include Vidcap.h from the Windows SDK or from the DirectX 9.0 SDK Update (Summer 2004) or later.
 
@@ -165,7 +165,7 @@ Include Vidcap.h from the Windows SDK or from the DirectX 9.0 SDK Update (Summer
 
 
 
-<a href="https://msdn.microsoft.com/6244f006-db9f-42b2-81cd-26eba583613e">Working with USB DV Video Devices</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/working-with-usb-dv-video-devices">Working with USB DV Video Devices</a>
  
 
  

@@ -54,7 +54,7 @@ Provides methods for creating a language-specific stemmer. The stemmer generates
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStemmer</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IStemmer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStemmer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStemmer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,16 +69,16 @@ The <b>IStemmer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266434(v=VS.85).aspx">GenerateWordForms</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nf-indexsrv-istemmer-generatewordforms">GenerateWordForms</a>
 </td>
 <td align="left" width="63%">
-Generates alternative forms for a word and puts these forms in the <a href="https://msdn.microsoft.com/81D52B0C-BADD-48C0-85DB-57CA82D7BBA8">IWordFormSink</a> object.
+Generates alternative forms for a word and puts these forms in the <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-iwordformsink">IWordFormSink</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266435(v=VS.85).aspx">GetLicenseToUse</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nf-indexsrv-istemmer-getlicensetouse">GetLicenseToUse</a>
 </td>
 <td align="left" width="63%">
 Gets the license information for this <b>IStemmer</b> implementation.
@@ -87,7 +87,7 @@ Gets the license information for this <b>IStemmer</b> implementation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266436(v=VS.85).aspx">Init</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nf-indexsrv-istemmer-init">Init</a>
 </td>
 <td align="left" width="63%">
 Initializes the stemmer.

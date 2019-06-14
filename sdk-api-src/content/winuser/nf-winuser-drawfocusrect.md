@@ -91,12 +91,12 @@ Because <b>DrawFocusRect</b> is an XOR function, calling it a second time with t
 
 This function draws a rectangle that cannot be scrolled. To scroll an area containing a rectangle drawn by this function, call <b>DrawFocusRect</b> to remove the rectangle from the screen, scroll the area, and then call <b>DrawFocusRect</b> again to draw the rectangle in the new position.
 
-<b>Windows XP:</b> The focus rectangle can now be thicker than 1 pixel, so it is more visible for high-resolution, high-density displays and accessibility needs. This is handled by the SPI_SETFOCUSBORDERWIDTH and SPI_SETFOCUSBORDERHEIGHT in <a href="https://msdn.microsoft.com/9b99465c-e12d-413c-8e69-b46b52f2f11f">SystemParametersInfo</a>.
+<b>Windows XP:</b> The focus rectangle can now be thicker than 1 pixel, so it is more visible for high-resolution, high-density displays and accessibility needs. This is handled by the SPI_SETFOCUSBORDERWIDTH and SPI_SETFOCUSBORDERHEIGHT in <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>.
 
 
 #### Examples
 
-For an example, see "Creating an Owner-Drawn List Box" in <a href="https://msdn.microsoft.com/en-us/library/Bb775148(v=VS.85).aspx">Using List Boxes</a>.
+For an example, see "Creating an Owner-Drawn List Box" in <a href="https://docs.microsoft.com/windows/desktop/Controls/using-list-boxes">Using List Boxes</a>.
 
 <div class="code"></div>
 
@@ -107,15 +107,15 @@ For an example, see "Creating an Owner-Drawn List Box" in <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/a1083cb5-5e6c-4134-badf-9fc5142d1453">FrameRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-framerect">FrameRect</a>
 
 
 
-<a href="https://msdn.microsoft.com/ec18323e-c13b-4328-83bf-9e4ed4a712b8">Painting and Drawing Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e6034af-4dea-4579-b476-52f6dd3d5bc7">Painting and Drawing Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
 
 
 

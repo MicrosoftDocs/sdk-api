@@ -77,7 +77,7 @@ Type: <b>BOOL</b>
 
 If the character is lowercase, the return value is nonzero.
 
-If the character is not lowercase, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the character is not lowercase, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -91,7 +91,7 @@ If the character is not lowercase, the return value is zero. To get extended err
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647485(v=VS.85).aspx">IsCharUpper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-ischaruppera">IsCharUpper</a>
 
 
 
@@ -99,7 +99,7 @@ If the character is not lowercase, the return value is zero. To get extended err
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/strings">Strings</a>
  
 
  

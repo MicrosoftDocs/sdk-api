@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used to specify and set applet configuration in <a href="https://msdn.microsoft.com/6604112A-5BD5-4B2C-AECC-D09180B04D7F">IImePad</a>.
+Used to specify and set applet configuration in <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a>.
 
 
 ## -struct-fields
@@ -79,7 +79,7 @@ Combination of <b>IPACFG_*</b> flags.
 </dl>
 </td>
 <td width="60%">
-The applet has a property Dialog. If this flag is set, <a href="https://msdn.microsoft.com/6604112A-5BD5-4B2C-AECC-D09180B04D7F">IImePad</a> calls <a href="https://msdn.microsoft.com/5C370DC8-D308-4339-81F3-FEE88359A52F">IImePadApplet::Notify</a> with <b>IMEPN_CFG</b>.
+The applet has a property Dialog. If this flag is set, <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> calls <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nf-imepad-iimepadapplet-notify">IImePadApplet::Notify</a> with <b>IMEPN_CFG</b>.
 
 </td>
 </tr>
@@ -89,7 +89,7 @@ The applet has a property Dialog. If this flag is set, <a href="https://msdn.mic
 </dl>
 </td>
 <td width="60%">
-The applet has help. If this flag is set, <a href="https://msdn.microsoft.com/6604112A-5BD5-4B2C-AECC-D09180B04D7F">IImePad</a> calls <a href="https://msdn.microsoft.com/5C370DC8-D308-4339-81F3-FEE88359A52F">IImePadApplet::Notify</a> with <b>IMEPN_HELP</b>.
+The applet has help. If this flag is set, <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> calls <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nf-imepad-iimepadapplet-notify">IImePadApplet::Notify</a> with <b>IMEPN_HELP</b>.
 
 </td>
 </tr>
@@ -182,7 +182,7 @@ Reserved.
 
 
 
-<a href="https://msdn.microsoft.com/D24EF900-01D4-4E6E-B752-B11B2F4A6A6C">IImePadApplet::GetAppletCfg</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh851787(v=vs.85)">IImePadApplet::GetAppletCfg</a>
  
 
  

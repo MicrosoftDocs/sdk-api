@@ -60,7 +60,7 @@ Used to indicate that the reader should interpret the bytes it reads as binary x
 
 ### -field encoding
 
-The base type for all types that derive from <a href="https://msdn.microsoft.com/54d9683e-c2d1-4e18-92a2-a68558999e28">WS_XML_READER_ENCODING</a>.
+The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_encoding">WS_XML_READER_ENCODING</a>.
         
 
 
@@ -75,7 +75,7 @@ Indicates the dictionary that the reader should use for static strings.  The bin
 ### -field dynamicDictionary
 
 Indicates the dictionary that the reader should use for dynamic strings. These are strings that were not in the 
-          staticDictionary when the document was written but that were found by the <a href="https://msdn.microsoft.com/c1520c9a-4360-4ac0-89b8-e80385668051">WS_DYNAMIC_STRING_CALLBACK</a>.
+          staticDictionary when the document was written but that were found by the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_dynamic_string_callback">WS_DYNAMIC_STRING_CALLBACK</a>.
           The binary representation of the xml document references these strings by id (as opposed to embedding the actual string), 
           and therefore they must contain the same set of strings used when the document was written.
           The application that uses the reader and writer must coordinate communicating the values referenced by these strings.

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>capSetCallbackOnError</b> macro sets an error callback function in the client application. AVICap calls this procedure when errors occur. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/4eb57515-9b5a-466c-bbaa-fdee3bca19db">WM_CAP_SET_CALLBACK_ERROR</a> message.
+The <b>capSetCallbackOnError</b> macro sets an error callback function in the client application. AVICap calls this procedure when errors occur. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-callback-error">WM_CAP_SET_CALLBACK_ERROR</a> message.
 
 
 
@@ -67,7 +67,7 @@ Handle to a capture window.
 
 ### -param fpProc
 
-Pointer to the error callback function, of type <a href="https://msdn.microsoft.com/3dc41a0e-1fed-423d-b05b-c42f361a3fb3">capErrorCallback</a>. Specify <b>NULL</b> for this parameter to disable a previously installed error callback function. 
+Pointer to the error callback function, of type <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nc-vfw-caperrorcallbacka">capErrorCallback</a>. Specify <b>NULL</b> for this parameter to disable a previously installed error callback function. 
 
 
 ## -remarks
@@ -91,23 +91,23 @@ Applications can optionally set an error callback function. If set, AVICap calls
 
 
 
-<a href="https://msdn.microsoft.com/a489ec94-c566-44b1-aa93-9b43f23de744">Creating an Error Callback Function</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/creating-an-error-callback-function">Creating an Error Callback Function</a>
 
 
 
-<a href="https://msdn.microsoft.com/c93ecc51-e2c5-4b69-8625-c8385d53fab2">Video Capture</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://msdn.microsoft.com/21061f06-d58b-4800-a9f5-9821494fabd6">Video Capture Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
 
 
 
-<a href="https://msdn.microsoft.com/4eb57515-9b5a-466c-bbaa-fdee3bca19db">WM_CAP_SET_CALLBACK_ERROR</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-callback-error">WM_CAP_SET_CALLBACK_ERROR</a>
 
 
 
-<a href="https://msdn.microsoft.com/3dc41a0e-1fed-423d-b05b-c42f361a3fb3">capErrorCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nc-vfw-caperrorcallbacka">capErrorCallback</a>
  
 
  

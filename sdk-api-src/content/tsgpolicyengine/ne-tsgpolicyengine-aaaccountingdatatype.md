@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the type of event that the <a href="https://msdn.microsoft.com/ebc57caa-804b-46a4-96bb-8b50c13029ab">ITSGAccountingEngine::DoAccounting</a> method is being notified of.
+Specifies the type of event that the <a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/nf-tsgpolicyengine-itsgaccountingengine-doaccounting">ITSGAccountingEngine::DoAccounting</a> method is being notified of.
 
 
 ## -enum-fields
@@ -62,7 +62,7 @@ Specifies the type of event that the <a href="https://msdn.microsoft.com/ebc57ca
 
 A new session was created.
 
-The following fields in the <a href="https://msdn.microsoft.com/en-us/library/Ee672198(v=VS.85).aspx">AAAccountingData</a> structure represented by the <i>accountingData</i> parameter are valid:
+The following fields in the <a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/ns-tsgpolicyengine-__midl___midl_itf_tsgpolicyengine_0000_0000_0003">AAAccountingData</a> structure represented by the <i>accountingData</i> parameter are valid:
 
 <ul>
 <li><b>userName</b></li>
@@ -75,7 +75,7 @@ The following fields in the <a href="https://msdn.microsoft.com/en-us/library/Ee
 
 A new subsession was created by an  existing connection.
 
-The following fields in the <a href="https://msdn.microsoft.com/en-us/library/Ee672198(v=VS.85).aspx">AAAccountingData</a> structure represented by the <i>accountingData</i> parameter are valid:
+The following fields in the <a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/ns-tsgpolicyengine-__midl___midl_itf_tsgpolicyengine_0000_0000_0003">AAAccountingData</a> structure represented by the <i>accountingData</i> parameter are valid:
 
 <ul>
 <li><b>userName</b></li>
@@ -90,7 +90,7 @@ The following fields in the <a href="https://msdn.microsoft.com/en-us/library/Ee
 
 A subsession was closed.
 
-The following fields in the <a href="https://msdn.microsoft.com/en-us/library/Ee672198(v=VS.85).aspx">AAAccountingData</a> structure represented by the <i>accountingData</i> parameter are valid:
+The following fields in the <a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/ns-tsgpolicyengine-__midl___midl_itf_tsgpolicyengine_0000_0000_0003">AAAccountingData</a> structure represented by the <i>accountingData</i> parameter are valid:
 
 <ul>
 <li><b>numberOfBytesTransfered</b></li>
@@ -103,7 +103,7 @@ The following fields in the <a href="https://msdn.microsoft.com/en-us/library/Ee
 
 A connection was closed.
 
-The following fields in the <a href="https://msdn.microsoft.com/en-us/library/Ee672198(v=VS.85).aspx">AAAccountingData</a> structure represented by the <i>accountingData</i> parameter are valid:
+The following fields in the <a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/ns-tsgpolicyengine-__midl___midl_itf_tsgpolicyengine_0000_0000_0003">AAAccountingData</a> structure represented by the <i>accountingData</i> parameter are valid:
 
 <ul>
 <li><b>mainSessionId</b></li>
@@ -114,7 +114,7 @@ The following fields in the <a href="https://msdn.microsoft.com/en-us/library/Ee
 
 
 
-<a href="https://msdn.microsoft.com/ebc57caa-804b-46a4-96bb-8b50c13029ab">ITSGAccountingEngine::DoAccounting</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/nf-tsgpolicyengine-itsgaccountingengine-doaccounting">ITSGAccountingEngine::DoAccounting</a>
  
 
  

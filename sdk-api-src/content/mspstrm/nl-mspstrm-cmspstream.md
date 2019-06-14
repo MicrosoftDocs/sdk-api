@@ -53,22 +53,22 @@ The
 <b>CMSPStream</b> class exposes methods that allow an application to start, pause, or stop a substream, and to select or unselect terminals. Defined in MSPstrm.h.
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/2c719828-904f-4469-ab3b-a331f009b9c3">CMSPStream Type Definitions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspstream-type-definitions">CMSPStream Type Definitions</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/792a29ac-ebbb-4bb2-bebf-fbf870b18e84">CMSPStream Members</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspstream-members">CMSPStream Members</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/184d74c7-a36e-47f5-8f11-9161cc03b627">CMSPStream MSPI Methods Implemented</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspstream-mspi-methods-implemented">CMSPStream MSPI Methods Implemented</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/7a59ca78-b5e8-45e9-8fdb-89402ffef916">CMSPStream Public Methods, Called by MSPCall Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspstream-public-methods-called-by-mspcall-object">CMSPStream Public Methods, Called by MSPCall Object</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/aa2958c1-fdd0-4d07-a2c1-910221c79264">CMSPStream Overriden CComObject Methods</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspstream-overriden-ccomobject-methods">CMSPStream Overriden CComObject Methods</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/6f21ba58-984d-4d45-834d-5b2252e33517">CMSPStream Pure Virtual Methods</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspstream-pure-virtual-methods">CMSPStream Pure Virtual Methods</a>
 </li>
 </ul><b xmlns:loc="http://microsoft.com/wdcml/l10n">CMSPStream</b> has these types of members:
 

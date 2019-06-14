@@ -83,7 +83,7 @@ Pointer to an optional parameter provided for the security subsystem. Used only 
 ### -param Policy
 
 Pointer to the 
-<a href="https://msdn.microsoft.com/2647d75d-09b5-48b2-9a79-4d1f95cb094b">RPC_POLICY</a> structure, which contains flags that set transport-specific attributes. In the case of the <b>ncadg_mq</b> transport, these flags specify the properties of the server process–receive queue. In the case of the <b>ncacn_ip_tcp</b> or <b>ncadg_ip_udp</b> transports, these flags restrict port allocation for dynamic ports and allow multihomed computers to selectively bind to network interface cards. 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_policy">RPC_POLICY</a> structure, which contains flags that set transport-specific attributes. In the case of the <b>ncadg_mq</b> transport, these flags specify the properties of the server process–receive queue. In the case of the <b>ncacn_ip_tcp</b> or <b>ncadg_ip_udp</b> transports, these flags restrict port allocation for dynamic ports and allow multihomed computers to selectively bind to network interface cards. 
 
 
 
@@ -183,7 +183,7 @@ The security descriptor is invalid.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -194,8 +194,8 @@ The security descriptor is invalid.
 
 The parameters and effects of 
 <b>RpcServerUseProtseqEpEx</b> subsume those of 
-<a href="https://msdn.microsoft.com/1914a90a-6dee-4517-9de1-d332124eb0a4">RpcServerUseProtseqEp</a>. The difference is the <i>Policy</i> parameter, which allows you to set specific policies at the endpoints. Setting the <b>NICFlags</b> field of the 
-<a href="https://msdn.microsoft.com/2647d75d-09b5-48b2-9a79-4d1f95cb094b">RPC_POLICY</a> structure to zero makes this extended function equivalent to the original 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqep">RpcServerUseProtseqEp</a>. The difference is the <i>Policy</i> parameter, which allows you to set specific policies at the endpoints. Setting the <b>NICFlags</b> field of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_policy">RPC_POLICY</a> structure to zero makes this extended function equivalent to the original 
 <b>RpcServerUseProtseqEp</b> when used with the <b>ncacn_ip_tcp</b> or <b>ncadg_ip_udp</b> transports.
 
 A server application calls 
@@ -213,12 +213,12 @@ When the computer is configured to use selective binding, successful return does
 
 
 For more information, see 
-<a href="https://msdn.microsoft.com/3c9e69e8-9745-4e62-9ddc-1bc04b4bef59">Server-Side Binding</a>, 
-<a href="https://msdn.microsoft.com/5e55ddd0-d71c-42ef-90cc-dd1f0b9ed305">String Binding</a>, 
-<a href="https://msdn.microsoft.com/a33b51e7-2ded-46bd-aadb-27cbd99e1029">Configuring the Registry for Port Allocations and Selective Binding</a>, and 
-<a href="https://msdn.microsoft.com/f1c8665b-3754-4c2e-b3ac-bba1f4b329e1">RPC Message Queuing</a> and the MIDL reference pages 
-<a href="https://msdn.microsoft.com/ec616bf5-a845-4e7e-9f39-20947d2074f7">message</a> and 
-<a href="https://msdn.microsoft.com/7472fc47-c1f0-4578-8aef-b655505e0563">ncadg_mq</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/server-side-binding">Server-Side Binding</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/string-binding">String Binding</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/configuring-the-windows-xp-2000-nt-registry-for-port-allocations-and-selective-binding">Configuring the Registry for Port Allocations and Selective Binding</a>, and 
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-message-queuing">RPC Message Queuing</a> and the MIDL reference pages 
+<a href="https://docs.microsoft.com/windows/desktop/Midl/message">message</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/Midl/ncadg-mq">ncadg_mq</a>.
 
 
 
@@ -228,23 +228,23 @@ For more information, see
 
 
 
-<a href="https://msdn.microsoft.com/2647d75d-09b5-48b2-9a79-4d1f95cb094b">RPC_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_policy">RPC_POLICY</a>
 
 
 
-<a href="https://msdn.microsoft.com/4fc2ccbe-1b01-4157-b3e7-2c61397d78f7">RpcServerUseAllProtseqsEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseallprotseqsex">RpcServerUseAllProtseqsEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/118c931e-29ca-4ffb-aa32-24c6f4289cc8">RpcServerUseAllProtseqsIfEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseallprotseqsifex">RpcServerUseAllProtseqsIfEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/a8cedfe9-9c16-4c35-9cc4-5ccaa9e130a8">RpcServerUseProtseqEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqex">RpcServerUseProtseqEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/28238ff2-0ed0-4cb5-8117-b6c544d8c098">RpcServerUseProtseqIfEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqifex">RpcServerUseProtseqIfEx</a>
 
 
 

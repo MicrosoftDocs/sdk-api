@@ -59,17 +59,17 @@ Specifies the changes to an indexed item.
 
 ### -field Change
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965702(v=VS.85).aspx">SEARCH_KIND_OF_CHANGE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-_search_kind_of_change">SEARCH_KIND_OF_CHANGE</a></b>
 
 Flag that specifies the kind of change as a value from the 
-                <a href="https://msdn.microsoft.com/en-us/library/Aa965702(v=VS.85).aspx">SEARCH_KIND_OF_CHANGE</a> enumerated type.
+                <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-_search_kind_of_change">SEARCH_KIND_OF_CHANGE</a> enumerated type.
 
 
 ### -field Priority
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965703(v=VS.85).aspx">SEARCH_NOTIFICATION_PRIORITY</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-_search_notification_priority">SEARCH_NOTIFICATION_PRIORITY</a></b>
 
-Flag that specifies the priority of processing this change as a value from the <a href="https://msdn.microsoft.com/en-us/library/Aa965703(v=VS.85).aspx">SEARCH_NOTIFICATION_PRIORITY</a> enumerated type.
+Flag that specifies the priority of processing this change as a value from the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-_search_notification_priority">SEARCH_NOTIFICATION_PRIORITY</a> enumerated type.
 
 
 ### -field pUserData

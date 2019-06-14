@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The  <b>CryptCATCDFEnumCatAttributes</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CryptCATCDFEnumCatAttributes</b> function enumerates catalog-level attributes within the <b>CatalogHeader</b> section of a catalog definition file (CDF). <b>CryptCATCDFEnumCatAttributes</b> is called by <a href="https://msdn.microsoft.com/233b3644-f2a5-4166-bac0-30bf2f54e957">MakeCat</a>.
+The <b>CryptCATCDFEnumCatAttributes</b> function enumerates catalog-level attributes within the <b>CatalogHeader</b> section of a catalog definition file (CDF). <b>CryptCATCDFEnumCatAttributes</b> is called by <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/makecat">MakeCat</a>.
 
 
 ## -parameters
@@ -61,12 +61,12 @@ The <b>CryptCATCDFEnumCatAttributes</b> function enumerates catalog-level attrib
 
 ### -param pCDF [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/15d5710a-d4df-4e45-b161-5d4f7509ba29">CRYPTCATCDF</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf_">CRYPTCATCDF</a> structure.
 
 
 ### -param pPrevAttr [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/41b91303-f3eb-4288-9ad2-98f170680988">CRYPTCATATTRIBUTE</a> structure for a catalog attribute in the CDF pointed to by <i>pCDF</i>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute_">CRYPTCATATTRIBUTE</a> structure for a catalog attribute in the CDF pointed to by <i>pCDF</i>.
 
 
 ### -param pfnParseError [in]
@@ -78,7 +78,7 @@ A pointer to a user-defined function to handle file parse errors.
 
 
 
-Upon success, this function returns a pointer to a <a href="https://msdn.microsoft.com/41b91303-f3eb-4288-9ad2-98f170680988">CRYPTCATATTRIBUTE</a> structure. The <b>CryptCATCDFEnumCatAttributes</b> function returns a <b>NULL</b> pointer if it fails.
+Upon success, this function returns a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute_">CRYPTCATATTRIBUTE</a> structure. The <b>CryptCATCDFEnumCatAttributes</b> function returns a <b>NULL</b> pointer if it fails.
 
 
 
@@ -121,15 +121,15 @@ The following example shows the correct sequence of assignments for the <i>pPrev
 
 
 
-<a href="https://msdn.microsoft.com/41b91303-f3eb-4288-9ad2-98f170680988">CRYPTCATATTRIBUTE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute_">CRYPTCATATTRIBUTE</a>
 
 
 
-<a href="https://msdn.microsoft.com/15d5710a-d4df-4e45-b161-5d4f7509ba29">CRYPTCATCDF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf_">CRYPTCATCDF</a>
 
 
 
-<a href="https://msdn.microsoft.com/233b3644-f2a5-4166-bac0-30bf2f54e957">MakeCat</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/makecat">MakeCat</a>
  
 
  

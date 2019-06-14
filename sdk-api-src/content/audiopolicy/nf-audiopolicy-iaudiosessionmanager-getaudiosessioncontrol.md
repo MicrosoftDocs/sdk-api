@@ -72,7 +72,7 @@ Specifies the status of the flags for the audio stream.
 
 ### -param SessionControl [out]
 
-Pointer to a pointer variable into which the method writes a pointer to the <a href="https://msdn.microsoft.com/4446140e-2e61-40ed-b0f9-4c1b90e7c2de">IAudioSessionControl</a> interface of the audio session control object. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <b>Release</b> method. If the call fails, <i>*SessionControl</i> is <b>NULL</b>.
+Pointer to a pointer variable into which the method writes a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol">IAudioSessionControl</a> interface of the audio session control object. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <b>Release</b> method. If the call fails, <i>*SessionControl</i> is <b>NULL</b>.
 
 
 ## -returns
@@ -151,7 +151,7 @@ Out of memory.
 
 
 
-For a code example that calls this method, see <a href="https://msdn.microsoft.com/91a93b79-2563-4b25-af5d-ca5f7d35d77b">Audio Events for Legacy Audio Applications</a>.
+For a code example that calls this method, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audio-events-for-legacy-audio-applications">Audio Events for Legacy Audio Applications</a>.
 
 
 
@@ -161,11 +161,11 @@ For a code example that calls this method, see <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/4446140e-2e61-40ed-b0f9-4c1b90e7c2de">IAudioSessionControl Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol">IAudioSessionControl Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/606b0a42-d1d1-4196-911f-5b095bf56c4e">IAudioSessionManager Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionmanager">IAudioSessionManager Interface</a>
  
 
  

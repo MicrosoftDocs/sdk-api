@@ -66,7 +66,7 @@ Allocates memory for a multiple-window- position structure and returns the handl
 
 Type: <b>int</b>
 
-The initial number of windows for which to store position information. The <a href="https://msdn.microsoft.com/en-us/library/ms632681(v=VS.85).aspx">DeferWindowPos</a> function increases the size of the structure, if necessary. 
+The initial number of windows for which to store position information. The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-deferwindowpos">DeferWindowPos</a> function increases the size of the structure, if necessary. 
 
 
 ## -returns
@@ -76,7 +76,7 @@ The initial number of windows for which to store position information. The <a hr
 Type: <strong>Type: <b>HDWP</b>
 </strong>
 
-If the function succeeds, the return value identifies the multiple-window-position structure. If insufficient system resources are available to allocate the structure, the return value is <b>NULL</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function succeeds, the return value identifies the multiple-window-position structure. If insufficient system resources are available to allocate the structure, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -88,11 +88,11 @@ If the function succeeds, the return value identifies the multiple-window-positi
 The multiple-window-position structure is an internal structure; an application cannot access it directly. 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632681(v=VS.85).aspx">DeferWindowPos</a> fills the multiple-window-position structure with information about the target position for one or more windows about to be moved. The <a href="https://msdn.microsoft.com/en-us/library/ms633440(v=VS.85).aspx">EndDeferWindowPos</a> function accepts the handle to this structure and repositions the windows by using the information stored in the structure. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-deferwindowpos">DeferWindowPos</a> fills the multiple-window-position structure with information about the target position for one or more windows about to be moved. The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enddeferwindowpos">EndDeferWindowPos</a> function accepts the handle to this structure and repositions the windows by using the information stored in the structure. 
 
 If any of the windows in the multiple-window- position structure have the <b>SWP_HIDEWINDOW</b> or <b>SWP_SHOWWINDOW</b> flag set, none of the windows are repositioned.
 
-If the system must increase the size of the multiple-window- position structure beyond the initial size specified by the <i>nNumWindows</i> parameter but cannot allocate enough memory to do so, the system fails the entire window positioning sequence (<b>BeginDeferWindowPos</b>, <a href="https://msdn.microsoft.com/en-us/library/ms632681(v=VS.85).aspx">DeferWindowPos</a>, and <a href="https://msdn.microsoft.com/en-us/library/ms633440(v=VS.85).aspx">EndDeferWindowPos</a>). By specifying the maximum size needed, an application can detect and process failure early in the process. 
+If the system must increase the size of the multiple-window- position structure beyond the initial size specified by the <i>nNumWindows</i> parameter but cannot allocate enough memory to do so, the system fails the entire window positioning sequence (<b>BeginDeferWindowPos</b>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-deferwindowpos">DeferWindowPos</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enddeferwindowpos">EndDeferWindowPos</a>). By specifying the maximum size needed, an application can detect and process failure early in the process. 
 
 
 
@@ -106,11 +106,11 @@ If the system must increase the size of the multiple-window- position structure 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632681(v=VS.85).aspx">DeferWindowPos</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-deferwindowpos">DeferWindowPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633440(v=VS.85).aspx">EndDeferWindowPos</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enddeferwindowpos">EndDeferWindowPos</a>
 
 
 
@@ -118,11 +118,11 @@ If the system must increase the size of the multiple-window- position structure 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633545(v=VS.85).aspx">SetWindowPos</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowpos">SetWindowPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SCardDisconnect</b> function terminates a connection previously opened between the calling application and a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">smart card</a> in the target <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">reader</a>.
+The <b>SCardDisconnect</b> function terminates a connection previously opened between the calling application and a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> in the target <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader</a>.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The <b>SCardDisconnect</b> function terminates a connection previously opened be
 ### -param hCard [in]
 
 Reference value obtained from a previous call to 
-<a href="https://msdn.microsoft.com/389ada98-383f-4b37-bf5d-c40577ef25fd">SCardConnect</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>.
 
 
 ### -param dwDisposition [in]
@@ -149,7 +149,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -164,15 +164,15 @@ An error code. For more information, see
 
 
 If an application (which previously called 
-<a href="https://msdn.microsoft.com/389ada98-383f-4b37-bf5d-c40577ef25fd">SCardConnect</a>) exits without calling <b>SCardDisconnect</b>, the card is automatically reset.
+<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>) exits without calling <b>SCardDisconnect</b>, the card is automatically reset.
 
-The <b>SCardDisconnect</b> function is a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">smart card</a> and <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">reader</a> access function. For more information on other access functions, see 
-<a href="https://msdn.microsoft.com/37d92491-174b-471e-b36e-46d9285dd404">Smart Card and Reader Access Functions</a>.
+The <b>SCardDisconnect</b> function is a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader</a> access function. For more information on other access functions, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/smart-card-and-reader-access-functions">Smart Card and Reader Access Functions</a>.
 
 
 #### Examples
 
-The following example terminates the specified smart card connection. The example assumes that lReturn is a variable of type <b>LONG</b>, and that hCardHandle is a valid handle received from a previous call to <a href="https://msdn.microsoft.com/389ada98-383f-4b37-bf5d-c40577ef25fd">SCardConnect</a>.
+The following example terminates the specified smart card connection. The example assumes that lReturn is a variable of type <b>LONG</b>, and that hCardHandle is a valid handle received from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>.
 
 
 ```cpp
@@ -196,11 +196,11 @@ if ( SCARD_S_SUCCESS != lReturn )
 
 
 
-<a href="https://msdn.microsoft.com/389ada98-383f-4b37-bf5d-c40577ef25fd">SCardConnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>
 
 
 
-<a href="https://msdn.microsoft.com/c79e5810-c2be-4184-8ac7-c058ccb9308e">SCardReconnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardreconnect">SCardReconnect</a>
  
 
  

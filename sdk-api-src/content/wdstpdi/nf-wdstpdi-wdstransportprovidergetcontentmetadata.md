@@ -59,7 +59,7 @@ Retrieves metadata for an open content stream.
 
 ### -param hContent [in]
 
-Handle to an open content stream, opened with the <a href="https://msdn.microsoft.com/95bea971-9c97-4d66-871d-5ef7407b9659">WdsTransportProviderOpenContent</a> callback.
+Handle to an open content stream, opened with the <a href="https://docs.microsoft.com/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportprovideropencontent">WdsTransportProviderOpenContent</a> callback.
 
 
 ### -param pvData [out]

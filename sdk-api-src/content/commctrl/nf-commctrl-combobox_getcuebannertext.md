@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the cue banner text displayed in the edit control of a combo box. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775843(v=VS.85).aspx">CB_GETCUEBANNER</a> message explicitly.
+Gets the cue banner text displayed in the edit control of a combo box. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-getcuebanner">CB_GETCUEBANNER</a> message explicitly.
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Gets the cue banner text displayed in the edit control of a combo box. Use this 
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the combo box.
 
 
 ### -param lpwText
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPWSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPWSTR</a></b>
 
 A pointer to a Unicode string buffer that receives the cue banner text. The calling application is responsible for allocating the memory for the buffer. The buffer size must be equal to the length of the cue banner string in <b>WCHAR</b><b>s</b>, plus 1—for the terminating <b>NULL</b> <b>WCHAR</b>.
 
@@ -84,7 +84,7 @@ The size of the buffer pointed to by <i>lpwText</i> in <b>WCHAR</b><b>s</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775793(v=VS.85).aspx">Combo Box Features</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/combo-box-features">Combo Box Features</a>
  
 
  

@@ -87,11 +87,11 @@ CDFS (ISO 9660) sets the <i>LastAccessedTime</i> value retrieved by this method 
 
 
 
-<a href="https://msdn.microsoft.com/44494e66-e6b4-4acb-a2a6-0a3e5cc4a2a0">IFsiItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/6192bff5-9535-4845-9c99-d5ceeea0335f">IFsiItem::put_LastAccessedTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-put_lastaccessedtime">IFsiItem::put_LastAccessedTime</a>
  
 
  

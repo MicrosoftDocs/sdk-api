@@ -60,7 +60,7 @@ Get the priority of the GPU thread.
 
 ### -param pPriority
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a>*</b>
 
 Current GPU priority. Valid values range from -7 to 7.
 
@@ -69,9 +69,9 @@ Current GPU priority. Valid values range from -7 to 7.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-Possible return values include: D3D_OK or D3DERR_DEVICEREMOVED (see <a href="https://msdn.microsoft.com/en-us/library/Bb172554(v=VS.85).aspx">D3DERR</a>).
+Possible return values include: D3D_OK or D3DERR_DEVICEREMOVED (see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3derr">D3DERR</a>).
 
 
 
@@ -80,9 +80,9 @@ Possible return values include: D3D_OK or D3DERR_DEVICEREMOVED (see <a href="htt
 
 
 
-Use <a href="https://msdn.microsoft.com/en-us/library/Bb174346(v=VS.85).aspx">IDirect3DDevice9Ex::SetGPUThreadPriority</a> to set the priority of a thread.
+Use <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-setgputhreadpriority">IDirect3DDevice9Ex::SetGPUThreadPriority</a> to set the priority of a thread.
 
-This method will retrieve the priority of the thread stored with the Direct3D device even if it was created with the <a href="https://msdn.microsoft.com/en-us/library/Bb172527(v=VS.85).aspx">D3DCREATE_PUREDEVICE</a> flag.
+This method will retrieve the priority of the thread stored with the Direct3D device even if it was created with the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dcreate">D3DCREATE_PUREDEVICE</a> flag.
 
 
 
@@ -92,7 +92,7 @@ This method will retrieve the priority of the thread stored with the Direct3D de
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174337(v=VS.85).aspx">IDirect3DDevice9Ex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nn-d3d9-idirect3ddevice9ex">IDirect3DDevice9Ex</a>
  
 
  

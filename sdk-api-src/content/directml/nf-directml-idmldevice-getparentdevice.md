@@ -65,14 +65,14 @@ Retrieves the Direct3D 12 device that was used to create this DirectML device.
 
 Type: <b>REFIID</b>
 
-A reference to the globally unique identifier (GUID) of the interface that you wish to be returned in <i>ppv</i>. This is expected to be the GUID of <a href="https://msdn.microsoft.com/D32B3397-A1E0-48AF-9251-2EDA96261A9F">ID3D12Device</a>.
+A reference to the globally unique identifier (GUID) of the interface that you wish to be returned in <i>ppv</i>. This is expected to be the GUID of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>.
 
 
 ### -param ppv [out]
 
 Type: <b>void**</b>
 
-A pointer to a memory block that receives a pointer to the device. This is the address of a pointer to an <a href="https://msdn.microsoft.com/D32B3397-A1E0-48AF-9251-2EDA96261A9F">ID3D12Device</a>, representing  the device.
+A pointer to a memory block that receives a pointer to the device. This is the address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>, representing  the device.
 
 
 ## -returns

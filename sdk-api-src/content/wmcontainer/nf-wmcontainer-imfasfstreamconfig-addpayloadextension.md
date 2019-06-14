@@ -63,7 +63,7 @@ Configures a payload extension for the stream.
 
 ### -param guidExtensionSystemID [in]
 
-Pointer to a GUID that identifies the payload extension. For a list of predefined payload extensions, see <a href="https://msdn.microsoft.com/db973b41-1e5c-4bc8-921d-5e9312eb21cb">ASF Payload Extension GUIDs</a>. Applications can also define custom payload extensions.
+Pointer to a GUID that identifies the payload extension. For a list of predefined payload extensions, see <a href="https://docs.microsoft.com/windows/desktop/medfound/asf-payload-extension-guids">ASF Payload Extension GUIDs</a>. Applications can also define custom payload extensions.
 
 
 ### -param cbExtensionDataSize [in]
@@ -114,11 +114,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/7bb63396-21c2-400d-b9de-c00b90f46d62">IMFASFStreamConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamconfig">IMFASFStreamConfig</a>
 
 
 
-<a href="https://msdn.microsoft.com/5b3b831c-2218-4a76-8359-7f39cab53a57">IMFASFStreamConfig::GetPayloadExtension</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-getpayloadextension">IMFASFStreamConfig::GetPayloadExtension</a>
  
 
  

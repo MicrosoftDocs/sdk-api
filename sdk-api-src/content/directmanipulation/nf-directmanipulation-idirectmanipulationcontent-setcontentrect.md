@@ -76,7 +76,7 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRES
 
 
 
-The default bounding rectangle is (-<a href="https://msdn.microsoft.com/library/ms858507(v=MSDN.10).aspx">FLT_MAX</a>, -<a href="https://msdn.microsoft.com/library/ms858507(v=MSDN.10).aspx">FLT_MAX</a>, <a href="https://msdn.microsoft.com/library/ms858507(v=MSDN.10).aspx">FLT_MAX</a>, <a href="https://msdn.microsoft.com/library/ms858507(v=MSDN.10).aspx">FLT_MAX</a>).
+The default bounding rectangle is (-<a href="/previous-versions/ms858507(v=msdn.10)">FLT_MAX</a>, -<a href="/previous-versions/ms858507(v=msdn.10)">FLT_MAX</a>, <a href="/previous-versions/ms858507(v=msdn.10)">FLT_MAX</a>, <a href="/previous-versions/ms858507(v=msdn.10)">FLT_MAX</a>).
 
 
 
@@ -86,7 +86,7 @@ The default bounding rectangle is (-<a href="https://msdn.microsoft.com/library/
 
 
 
-<a href="https://msdn.microsoft.com/4d69a503-f998-4197-824f-4df48825c941">IDirectManipulationContent</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationcontent">IDirectManipulationContent</a>
  
 
  

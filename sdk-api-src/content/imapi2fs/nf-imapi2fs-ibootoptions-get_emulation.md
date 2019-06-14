@@ -59,7 +59,7 @@ Retrieves the media type that the boot image is intended to emulate.
 
 ### -param pVal [out]
 
-Media type that the boot image is intended to emulate. For possible values, see the <a href="https://msdn.microsoft.com/53e87d6d-9547-4437-9548-652cfcbd308e">EmulationType</a> enumeration type. 
+Media type that the boot image is intended to emulate. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/ne-imapi2fs-emulationtype">EmulationType</a> enumeration type. 
 
 
 ## -returns
@@ -97,11 +97,11 @@ Value: 0x80004003
 
 
 
-<a href="https://msdn.microsoft.com/446b535c-d576-4f96-8b74-305e34cb99d4">IBootOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ibootoptions">IBootOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/93ed301e-fdea-451c-9ab0-6ea9a7fd45de">IBootOptions::put_Emulation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-put_emulation">IBootOptions::put_Emulation</a>
  
 
  

@@ -63,12 +63,12 @@ The <b>CreateClassEnumerator</b> method creates an enumerator for a specified de
 
 ### -param clsidDeviceClass [in]
 
-Specifies the class identifier (CLSID) of the device category. See <a href="https://msdn.microsoft.com/cab4e2c9-eab9-4836-adfc-870490ca5b6b">Filter Categories</a>.
+Specifies the class identifier (CLSID) of the device category. See <a href="https://docs.microsoft.com/windows/desktop/DirectShow/filter-categories">Filter Categories</a>.
 
 
 ### -param ppEnumMoniker [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/c8dec22b-946d-48ae-9315-54d353f3b853">IEnumMoniker</a> interface. The caller must release the interface. 
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienummoniker">IEnumMoniker</a> interface. The caller must release the interface. 
 
 
 ### -param dwFlags [in]
@@ -190,7 +190,7 @@ if (hr == S_OK)
 </td>
 </tr>
 </table></span></div>
-Use the <b>IEnumMoniker</b> interface to enumerate monikers that represent the filters in the device category. Monikers support the <b>IMoniker</b> interface. The monikers created by <b>CreateClassEnumerator</b> also support the <a href="https://msdn.microsoft.com/97a9112f-7b7b-4a7e-8f40-bdb148d413c8">IGetCapabilitiesKey</a> interface.
+Use the <b>IEnumMoniker</b> interface to enumerate monikers that represent the filters in the device category. Monikers support the <b>IMoniker</b> interface. The monikers created by <b>CreateClassEnumerator</b> also support the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igetcapabilitieskey">IGetCapabilitiesKey</a> interface.
 
 
 
@@ -200,11 +200,11 @@ Use the <b>IEnumMoniker</b> interface to enumerate monikers that represent the f
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/fc300bb8-aea4-4848-af43-a70a7fb8c07c">ICreateDevEnum Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icreatedevenum">ICreateDevEnum Interface</a>
  
 
  

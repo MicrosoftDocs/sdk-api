@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains the similarity information that was returned for a file by the <a href="https://msdn.microsoft.com/40ec97fc-052d-474e-9a55-822aa113ac03">ISimilarityTableDumpState::GetNextData</a> method.
+Contains the similarity information that was returned for a file by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytabledumpstate-getnextdata">ISimilarityTableDumpState::GetNextData</a> method.
 
 
 ## -struct-fields
@@ -59,12 +59,12 @@ Contains the similarity information that was returned for a file by the <a href=
 
 ### -field m_FileIndex
 
-The index of the <a href="https://msdn.microsoft.com/33fdb48c-6f33-44e8-83b1-6029b1eace1d">SimilarityData</a> structure in the similarity traits table.
+The index of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0012">SimilarityData</a> structure in the similarity traits table.
 
 
 ### -field m_Data
 
-A <a href="https://msdn.microsoft.com/33fdb48c-6f33-44e8-83b1-6029b1eace1d">SimilarityData</a> structure that contains the similarity data for the file.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0012">SimilarityData</a> structure that contains the similarity data for the file.
 
 
 ## -see-also
@@ -72,7 +72,7 @@ A <a href="https://msdn.microsoft.com/33fdb48c-6f33-44e8-83b1-6029b1eace1d">Simi
 
 
 
-<a href="https://msdn.microsoft.com/a56433b5-191f-49fe-83fb-7057e4c30bbd">ISimilarityTableDumpState</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilaritytabledumpstate">ISimilarityTableDumpState</a>
  
 
  

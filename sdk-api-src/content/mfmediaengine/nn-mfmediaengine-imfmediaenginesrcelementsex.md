@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Extends the <a href="https://msdn.microsoft.com/37A3EAC0-639C-47F3-AAB9-588EBEC8E1E3">IMFMediaEngineSrcElements</a> interface to provide additional capabilities.
+Extends the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaenginesrcelements">IMFMediaEngineSrcElements</a> interface to provide additional capabilities.
 
 
 ## -inheritance
@@ -69,16 +69,16 @@ The <b>IMFMediaEngineSrcElementsEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ad799c61-3ffb-4879-a875-d218c0b56e1c">AddElementEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesrcelementsex-addelementex">AddElementEx</a>
 </td>
 <td align="left" width="63%">
-Provides an enhanced version of <a href="https://msdn.microsoft.com/2C98A70B-F6B3-4CA7-8D04-958DFCCD2A50">IMFMediaEngineSrcElements::AddElement</a> to add the key system intended to be used with content to an element.
+Provides an enhanced version of <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesrcelements-addelement">IMFMediaEngineSrcElements::AddElement</a> to add the key system intended to be used with content to an element.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5d8db178-a17d-4920-9eed-b2dfba9f05fc">GetKeySystem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesrcelementsex-getkeysystem">GetKeySystem</a>
 </td>
 <td align="left" width="63%">
 Gets the key system for the given source element index.
@@ -93,7 +93,7 @@ Gets the key system for the given source element index.
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

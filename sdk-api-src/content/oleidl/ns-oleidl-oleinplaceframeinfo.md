@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information about the accelerators supported by a container during an in-place session. The structure is used in the <a href="https://msdn.microsoft.com/f6cf62b3-5a64-49aa-b0bd-56744ecee313">IOleInPlaceSite::GetWindowContext</a> method and the <a href="https://msdn.microsoft.com/c590efef-7f03-4ae6-a35f-eff2fc4da3d9">OleTranslateAccelerator</a> function.
+Contains information about the accelerators supported by a container during an in-place session. The structure is used in the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-getwindowcontext">IOleInPlaceSite::GetWindowContext</a> method and the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oletranslateaccelerator">OleTranslateAccelerator</a> function.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ Contains information about the accelerators supported by a container during an i
 
 ### -field cb
 
-The size of this structure, in bytes. The object server must specify sizeof(<b>OLEINPLACEFRAMEINFO</b>) in the structure it passes to <a href="https://msdn.microsoft.com/f6cf62b3-5a64-49aa-b0bd-56744ecee313">IOleInPlaceSite::GetWindowContext</a>. The container can then use this size to determine the structure's version.
+The size of this structure, in bytes. The object server must specify sizeof(<b>OLEINPLACEFRAMEINFO</b>) in the structure it passes to <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-getwindowcontext">IOleInPlaceSite::GetWindowContext</a>. The container can then use this size to determine the structure's version.
 
 
 ### -field fMDIApp
@@ -87,7 +87,7 @@ The number of accelerators in <b>haccel</b>.
 
 
 
-When an object is being in-place activated, its server calls the container's <a href="https://msdn.microsoft.com/f6cf62b3-5a64-49aa-b0bd-56744ecee313">IOleInPlaceSite::GetWindowContext</a> method, which fills in an <b>OLEINPLACEFRAMEINFO</b> structure. During an in-place session, the message loop of an EXE server passes a pointer to the <b>OLEINPLACEFRAMEINFO</b> structure to <a href="https://msdn.microsoft.com/c590efef-7f03-4ae6-a35f-eff2fc4da3d9">OleTranslateAccelerator</a>. OLE uses the information in this structure to determine whether a message maps to one of the container's accelerators.
+When an object is being in-place activated, its server calls the container's <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-getwindowcontext">IOleInPlaceSite::GetWindowContext</a> method, which fills in an <b>OLEINPLACEFRAMEINFO</b> structure. During an in-place session, the message loop of an EXE server passes a pointer to the <b>OLEINPLACEFRAMEINFO</b> structure to <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oletranslateaccelerator">OleTranslateAccelerator</a>. OLE uses the information in this structure to determine whether a message maps to one of the container's accelerators.
 
 
 
@@ -97,11 +97,11 @@ When an object is being in-place activated, its server calls the container's <a 
 
 
 
-<a href="https://msdn.microsoft.com/f6cf62b3-5a64-49aa-b0bd-56744ecee313">IOleInPlaceSite::GetWindowContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-getwindowcontext">IOleInPlaceSite::GetWindowContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/c590efef-7f03-4ae6-a35f-eff2fc4da3d9">OleTranslateAccelerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oletranslateaccelerator">OleTranslateAccelerator</a>
  
 
  

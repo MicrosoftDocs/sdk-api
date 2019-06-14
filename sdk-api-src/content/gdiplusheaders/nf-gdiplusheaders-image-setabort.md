@@ -60,23 +60,23 @@ The <b>Image::SetAbort</b> method sets the object whose <b>Abort</b> method is c
 
 ### -param pIAbort
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534066(v=VS.85).aspx">GdiplusAbort</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ns-gdiplustypes-gdiplusabort">GdiplusAbort</a>*</b>
 
-Pointer to an application-defined descendant of the <a href="https://msdn.microsoft.com/en-us/library/ms534066(v=VS.85).aspx">GdiplusAbort</a> structure.
+Pointer to an application-defined descendant of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ns-gdiplustypes-gdiplusabort">GdiplusAbort</a> structure.
 
 
 ## -returns
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 </strong>
 
 If the method succeeds, it returns <b>Ok</b>, which is an element of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 
 
@@ -86,7 +86,7 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a>
  
 
  

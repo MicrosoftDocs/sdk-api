@@ -73,7 +73,7 @@ You cannot forcibly silence some updates. If an update does not support this act
 
 
 
-<a href="https://msdn.microsoft.com/89edc91d-59a1-4e23-9adb-fc3027e2e898">IUpdateInstaller2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateinstaller2">IUpdateInstaller2</a>
  
 
  

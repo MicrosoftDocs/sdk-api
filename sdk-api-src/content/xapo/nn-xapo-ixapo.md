@@ -54,7 +54,7 @@ The interface for an Audio Processing Object which be used in an XAudio2 effect 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXAPO</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IXAPO</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXAPO</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXAPO</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IXAPO</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418449(v=VS.85).aspx">CalcInputFrames</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-calcinputframes">CalcInputFrames</a>
 </td>
 <td align="left" width="63%">
 Returns the number of input frames required to generate the given number of output frames.
@@ -78,7 +78,7 @@ Returns the number of input frames required to generate the given number of outp
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418450(v=VS.85).aspx">CalcOutputFrames</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-calcoutputframes">CalcOutputFrames</a>
 </td>
 <td align="left" width="63%">
 Returns the number of output frames that will be generated from a given number of input frames.
@@ -87,7 +87,7 @@ Returns the number of output frames that will be generated from a given number o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418451(v=VS.85).aspx">GetRegistrationProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-getregistrationproperties">GetRegistrationProperties</a>
 </td>
 <td align="left" width="63%">
 Returns the registration properties of an XAPO. 
@@ -96,7 +96,7 @@ Returns the registration properties of an XAPO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418452(v=VS.85).aspx">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Performs any effect-specific initialization.
@@ -105,7 +105,7 @@ Performs any effect-specific initialization.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418453(v=VS.85).aspx">IsInputFormatSupported</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-isinputformatsupported">IsInputFormatSupported</a>
 </td>
 <td align="left" width="63%">
 Queries if a specific input format is supported for a given output format.
@@ -114,7 +114,7 @@ Queries if a specific input format is supported for a given output format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418454(v=VS.85).aspx">IsOutputFormatSupported</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-isoutputformatsupported">IsOutputFormatSupported</a>
 </td>
 <td align="left" width="63%">
 Queries if a specific output format is supported for a given input format.
@@ -123,16 +123,16 @@ Queries if a specific output format is supported for a given input format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418455(v=VS.85).aspx">LockForProcess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-lockforprocess">LockForProcess</a>
 </td>
 <td align="left" width="63%">
-Called by XAudio2 to lock the input and output configurations of an XAPO allowing it to do any final initialization before <a href="https://msdn.microsoft.com/en-us/library/Ee418456(v=VS.85).aspx">Process</a> is called on the realtime thread.
+Called by XAudio2 to lock the input and output configurations of an XAPO allowing it to do any final initialization before <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-process">Process</a> is called on the realtime thread.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418456(v=VS.85).aspx">Process</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-process">Process</a>
 </td>
 <td align="left" width="63%">
 Runs the XAPO's digital signal processing (DSP) code on the given input and output buffers.
@@ -141,7 +141,7 @@ Runs the XAPO's digital signal processing (DSP) code on the given input and outp
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418459(v=VS.85).aspx">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets variables dependent on frame history.
@@ -150,10 +150,10 @@ Resets variables dependent on frame history.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418460(v=VS.85).aspx">UnlockForProcess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-unlockforprocess">UnlockForProcess</a>
 </td>
 <td align="left" width="63%">
-Deallocates variables that were allocated with the <a href="https://msdn.microsoft.com/en-us/library/Ee418455(v=VS.85).aspx">LockForProcess</a> method.
+Deallocates variables that were allocated with the <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-lockforprocess">LockForProcess</a> method.
 
 </td>
 </tr>
@@ -175,7 +175,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/96691e00-9ed0-b31c-fbe9-4daaba0daf98">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/interfaces">Interfaces</a>
  
 
  

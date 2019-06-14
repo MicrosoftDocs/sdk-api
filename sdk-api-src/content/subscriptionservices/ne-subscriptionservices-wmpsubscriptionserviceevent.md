@@ -87,7 +87,7 @@ The online store is no longer the current active music store.
 
 
 
-<a href="https://msdn.microsoft.com/b4d27310-9902-4c46-a558-f46f19735ec7">Enumerations for Type 2 Online Stores</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/enumerations-for-type-2-online-stores">Enumerations for Type 2 Online Stores</a>
  
 
  

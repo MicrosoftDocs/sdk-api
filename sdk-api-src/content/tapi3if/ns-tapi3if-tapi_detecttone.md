@@ -88,15 +88,15 @@ The frequency, in hertz, of a component of the tone. If fewer than three frequen
 
 
 
-<a href="https://msdn.microsoft.com/e059bfc0-3701-4e07-8c30-0a2512731080">ITLegacyCallMediaControl2::DetectTones</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-detecttones">ITLegacyCallMediaControl2::DetectTones</a>
 
 
 
-<a href="https://msdn.microsoft.com/09cbcd9d-66cd-4131-b45c-cb3898d8446d">ITLegacyCallMediaControl2::DetectTonesByCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-detecttonesbycollection">ITLegacyCallMediaControl2::DetectTonesByCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/f2d37591-2f1e-458f-b4d4-ab63eb31d33a">LINEMONITORTONE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemonitortone_tag">LINEMONITORTONE</a>
  
 
  

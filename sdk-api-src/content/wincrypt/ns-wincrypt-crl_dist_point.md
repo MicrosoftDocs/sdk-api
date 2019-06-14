@@ -49,10 +49,10 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CRL_DIST_POINT</b> structure identifies a single <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL) distribution point that a certificate user can reference to determine whether certificates have been revoked. A certificate user can obtain a CRL from an applicable distribution point or can obtain a current complete CRL from the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) directory entry.
+The <b>CRL_DIST_POINT</b> structure identifies a single <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) distribution point that a certificate user can reference to determine whether certificates have been revoked. A certificate user can obtain a CRL from an applicable distribution point or can obtain a current complete CRL from the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) directory entry.
 
 The <b>CRL_DIST_POINT</b> structures are the elements in the array member of a 
-<a href="https://msdn.microsoft.com/cc0fe49c-80ab-42d8-9756-a6d6b885761e">CRL_DIST_POINTS_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_dist_points_info">CRL_DIST_POINTS_INFO</a> structure.
 
 
 ## -struct-fields
@@ -63,12 +63,12 @@ The <b>CRL_DIST_POINT</b> structures are the elements in the array member of a
 ### -field DistPointName
 
 A 
-						<a href="https://msdn.microsoft.com/f47283c3-34f5-4611-b041-456d28d85dbe">CRL_DIST_POINT_NAME</a> structure that identifies the location of a CRL source. If <b>NULL</b>, the distribution point name defaults to the <b>CRLIssuer</b> name.
+						<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_dist_point_name">CRL_DIST_POINT_NAME</a> structure that identifies the location of a CRL source. If <b>NULL</b>, the distribution point name defaults to the <b>CRLIssuer</b> name.
 
 
 ### -field ReasonFlags
 
-A <a href="https://msdn.microsoft.com/6f102ff3-bfff-4415-a5d8-ca2c226074b3">CRYPT_BIT_BLOB</a> that contains a byte that indicates the revocation reasons covered by the CRL. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_bit_blob">CRYPT_BIT_BLOB</a> that contains a byte that indicates the revocation reasons covered by the CRL. 
 
 
 
@@ -93,7 +93,7 @@ The following are currently defined <b>ReasonFlags</b> values. For revocations o
 ### -field CRLIssuer
 
 A 
-						<a href="https://msdn.microsoft.com/f9a20827-3333-4ce2-b074-2e8ce903fad2">CERT_ALT_NAME_INFO</a> that identifies the authority that issued and signed the CRL. If <b>NULL</b>, the issuer name defaults to the issuer name of the certificate.
+						<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_alt_name_info">CERT_ALT_NAME_INFO</a> that identifies the authority that issued and signed the CRL. If <b>NULL</b>, the issuer name defaults to the issuer name of the certificate.
 
 
 ## -see-also
@@ -101,11 +101,11 @@ A
 
 
 
-<a href="https://msdn.microsoft.com/cc0fe49c-80ab-42d8-9756-a6d6b885761e">CRL_DIST_POINTS_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_dist_points_info">CRL_DIST_POINTS_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/f47283c3-34f5-4611-b041-456d28d85dbe">CRL_DIST_POINT_NAME</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_dist_point_name">CRL_DIST_POINT_NAME</a>
  
 
  

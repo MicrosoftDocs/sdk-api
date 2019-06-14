@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Starting with Direct3D 11.1, we recommend not to use <b>GetSharedHandle</b> anymore to retrieve the handle to a shared resource. Instead, use <a href="https://msdn.microsoft.com/7A53616A-E7AB-4EB7-9B8F-ED43A70B691C">IDXGIResource1::CreateSharedHandle</a> to get a handle for sharing. To use <b>IDXGIResource1::CreateSharedHandle</b>, you  must create the resource as shared and specify that it uses NT handles (that is, you set the <a href="https://msdn.microsoft.com/2a324055-21b0-4dad-a8e0-781905329dc2">D3D11_RESOURCE_MISC_SHARED_NTHANDLE</a> flag). We also recommend that you create shared resources that use NT handles so you can use <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a>, <a href="https://msdn.microsoft.com/9c8da574-5bda-49f1-a6b6-c026639d6504">DuplicateHandle</a>, and so on on those shared resources.]
+<p class="CCE_Message">[Starting with Direct3D 11.1, we recommend not to use <b>GetSharedHandle</b> anymore to retrieve the handle to a shared resource. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiresource1-createsharedhandle">IDXGIResource1::CreateSharedHandle</a> to get a handle for sharing. To use <b>IDXGIResource1::CreateSharedHandle</b>, you  must create the resource as shared and specify that it uses NT handles (that is, you set the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_resource_misc_flag">D3D11_RESOURCE_MISC_SHARED_NTHANDLE</a> flag). We also recommend that you create shared resources that use NT handles so you can use <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>, <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle">DuplicateHandle</a>, and so on on those shared resources.]
 
 Gets the handle to a shared resource.
 
@@ -62,7 +62,7 @@ Gets the handle to a shared resource.
 
 ### -param pSharedHandle [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HANDLE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HANDLE</a>*</b>
 
 A pointer to a handle.
 
@@ -71,9 +71,9 @@ A pointer to a handle.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-Returns one of the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> values.
+Returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a> values.
 
 
 
@@ -82,11 +82,11 @@ Returns one of the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=
 
 
 
-<b>GetSharedHandle</b> returns a handle for the resource that you created as shared (that is, you set the <a href="https://msdn.microsoft.com/2a324055-21b0-4dad-a8e0-781905329dc2">D3D11_RESOURCE_MISC_SHARED</a> with or without the <a href="https://msdn.microsoft.com/2a324055-21b0-4dad-a8e0-781905329dc2">D3D11_RESOURCE_MISC_SHARED_KEYEDMUTEX</a> flag). You can pass this handle to the <a href="https://msdn.microsoft.com/bc054547-e098-457e-8c8a-a41496234a63">ID3D11Device::OpenSharedResource</a> method to give another device access to the shared resource. You can also marshal this handle to another process to share a resource with a device in another process. However, this handle is not an NT handle. Therefore, don't use the handle with <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a>, <a href="https://msdn.microsoft.com/9c8da574-5bda-49f1-a6b6-c026639d6504">DuplicateHandle</a>, and so on.
+<b>GetSharedHandle</b> returns a handle for the resource that you created as shared (that is, you set the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_resource_misc_flag">D3D11_RESOURCE_MISC_SHARED</a> with or without the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_resource_misc_flag">D3D11_RESOURCE_MISC_SHARED_KEYEDMUTEX</a> flag). You can pass this handle to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-opensharedresource">ID3D11Device::OpenSharedResource</a> method to give another device access to the shared resource. You can also marshal this handle to another process to share a resource with a device in another process. However, this handle is not an NT handle. Therefore, don't use the handle with <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>, <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle">DuplicateHandle</a>, and so on.
 
 The creator of a shared resource must not destroy the resource until all intended entities have opened the resource. The validity of the handle is tied to the lifetime of the underlying video memory. If no resource objects exist on any devices that refer to this resource, the handle is no longer valid. To extend the lifetime of the handle and video memory, you must open the shared resource on a device.
 
-<b>GetSharedHandle</b> can also return handles for resources that were passed into <a href="https://msdn.microsoft.com/bc054547-e098-457e-8c8a-a41496234a63">ID3D11Device::OpenSharedResource</a> to open those resources.
+<b>GetSharedHandle</b> can also return handles for resources that were passed into <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-opensharedresource">ID3D11Device::OpenSharedResource</a> to open those resources.
 
 <b>GetSharedHandle</b> fails if the resource to which it wants to get a handle is not shared.
 
@@ -98,7 +98,7 @@ The creator of a shared resource must not destroy the resource until all intende
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174560(v=VS.85).aspx">IDXGIResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiresource">IDXGIResource</a>
  
 
  

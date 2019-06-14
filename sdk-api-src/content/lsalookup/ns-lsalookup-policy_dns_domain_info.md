@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>POLICY_DNS_DOMAIN_INFO</b> structure is used to set and query Domain Name System (DNS) information about the primary domain associated with a <a href="https://msdn.microsoft.com/4253c7fb-85f5-441d-90bf-492e802ad0f8">Policy</a> object. The 
-<a href="https://msdn.microsoft.com/2d543500-f639-4ef7-91f4-cdc5060dd567">LsaQueryInformationPolicy</a> and 
-<a href="https://msdn.microsoft.com/2aa3b09e-2cd9-4a09-bfd6-b37c97266dcb">LsaSetInformationPolicy</a> functions use this structure when their <i>InformationClass</i> parameters are set to <b>PolicyDnsDomainInformation</b>.
+The <b>POLICY_DNS_DOMAIN_INFO</b> structure is used to set and query Domain Name System (DNS) information about the primary domain associated with a <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaqueryinformationpolicy">LsaQueryInformationPolicy</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsasetinformationpolicy">LsaSetInformationPolicy</a> functions use this structure when their <i>InformationClass</i> parameters are set to <b>PolicyDnsDomainInformation</b>.
 
 
 ## -struct-fields
@@ -62,29 +62,29 @@ The <b>POLICY_DNS_DOMAIN_INFO</b> structure is used to set and query Domain Name
 ### -field Name
 
 An 
-<a href="https://msdn.microsoft.com/9e1cf20f-01f9-4813-bf95-e47c5d57dcdc">LSA_UNICODE_STRING</a> structure that specifies the name of the primary domain. This is the same as the primary domain name in the 
-<a href="https://msdn.microsoft.com/20102da1-bc05-4ea5-9a2d-a50ecba5fd88">POLICY_PRIMARY_DOMAIN_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string">LSA_UNICODE_STRING</a> structure that specifies the name of the primary domain. This is the same as the primary domain name in the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_policy_primary_domain_info">POLICY_PRIMARY_DOMAIN_INFO</a> structure.
 
 
 ### -field DnsDomainName
 
-An <a href="https://msdn.microsoft.com/9e1cf20f-01f9-4813-bf95-e47c5d57dcdc">LSA_UNICODE_STRING</a> structure that specifies the DNS name of the primary domain.
+An <a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string">LSA_UNICODE_STRING</a> structure that specifies the DNS name of the primary domain.
 
 
 ### -field DnsForestName
 
-An <a href="https://msdn.microsoft.com/9e1cf20f-01f9-4813-bf95-e47c5d57dcdc">LSA_UNICODE_STRING</a> structure that specifies the DNS forest name of the primary domain. This is the DNS name of the domain at the root of the enterprise.
+An <a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string">LSA_UNICODE_STRING</a> structure that specifies the DNS forest name of the primary domain. This is the DNS name of the domain at the root of the enterprise.
 
 
 ### -field DomainGuid
 
 A 
-<a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a> structure that contains the GUID of the primary domain.
+<a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structure that contains the GUID of the primary domain.
 
 
 ### -field Sid
 
-Pointer to the SID of the primary domain. This is the same as the primary domain SID in the <a href="https://msdn.microsoft.com/20102da1-bc05-4ea5-9a2d-a50ecba5fd88">POLICY_PRIMARY_DOMAIN_INFO</a> structure.
+Pointer to the SID of the primary domain. This is the same as the primary domain SID in the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_policy_primary_domain_info">POLICY_PRIMARY_DOMAIN_INFO</a> structure.
 
 
 ## -remarks
@@ -92,9 +92,9 @@ Pointer to the SID of the primary domain. This is the same as the primary domain
 
 
 The <b>POLICY_DNS_DOMAIN_INFO</b> structure is an extended version of the 
-<a href="https://msdn.microsoft.com/20102da1-bc05-4ea5-9a2d-a50ecba5fd88">POLICY_PRIMARY_DOMAIN_INFO</a> structure. Setting <b>POLICY_DNS_DOMAIN_INFO</b> information will overwrite the corresponding values in the <b>POLICY_PRIMARY_DOMAIN_INFO</b> (name and SID), and vice versa.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_policy_primary_domain_info">POLICY_PRIMARY_DOMAIN_INFO</a> structure. Setting <b>POLICY_DNS_DOMAIN_INFO</b> information will overwrite the corresponding values in the <b>POLICY_PRIMARY_DOMAIN_INFO</b> (name and SID), and vice versa.
 
-If the computer associated with the <a href="https://msdn.microsoft.com/4253c7fb-85f5-441d-90bf-492e802ad0f8">Policy</a> object is not a member of a domain, all structure members except <b>Name</b> are <b>NULL</b> or zero.
+If the computer associated with the <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object is not a member of a domain, all structure members except <b>Name</b> are <b>NULL</b> or zero.
 
 
 
@@ -104,23 +104,23 @@ If the computer associated with the <a href="https://msdn.microsoft.com/4253c7fb
 
 
 
-<a href="https://msdn.microsoft.com/9e1cf20f-01f9-4813-bf95-e47c5d57dcdc">LSA_UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string">LSA_UNICODE_STRING</a>
 
 
 
-<a href="https://msdn.microsoft.com/2d543500-f639-4ef7-91f4-cdc5060dd567">LsaQueryInformationPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaqueryinformationpolicy">LsaQueryInformationPolicy</a>
 
 
 
-<a href="https://msdn.microsoft.com/2aa3b09e-2cd9-4a09-bfd6-b37c97266dcb">LsaSetInformationPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsasetinformationpolicy">LsaSetInformationPolicy</a>
 
 
 
-<a href="https://msdn.microsoft.com/b734b5e8-1ee9-436b-b2a9-210ae79fbaf5">POLICY_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_policy_information_class">POLICY_INFORMATION_CLASS</a>
 
 
 
-<a href="https://msdn.microsoft.com/20102da1-bc05-4ea5-9a2d-a50ecba5fd88">POLICY_PRIMARY_DOMAIN_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_policy_primary_domain_info">POLICY_PRIMARY_DOMAIN_INFO</a>
  
 
  

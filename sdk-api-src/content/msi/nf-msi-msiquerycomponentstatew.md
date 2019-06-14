@@ -62,7 +62,7 @@ The <b>MsiQueryComponentState</b> function returns the installed state for a com
 
 ### -param szProductCode [in]
 
-Specifies the <a href="https://msdn.microsoft.com/33cedd37-0343-471c-ad4b-0db5f98d5894">ProductCode</a> GUID for the product that contains the component.
+Specifies the <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> GUID for the product that contains the component.
 
 
 ### -param szUserSid [in]
@@ -145,7 +145,7 @@ Retrieves the component's state for the per-machine instance of the product.
 
 ### -param szComponentCode [in]
 
-Specifies the component being queried. Component code GUID of the component as found in the ComponentID column of the <a href="https://msdn.microsoft.com/069d64e9-106a-42b7-8dea-a44fc0c6e0cd">Component</a> table.
+Specifies the component being queried. Component code GUID of the component as found in the ComponentID column of the <a href="https://docs.microsoft.com/windows/desktop/Msi/component-table">Component</a> table.
 
 
 ### -param pdwState [out]
@@ -284,7 +284,7 @@ Buffer too small to get the user SID.
  
 
 For more information, see 
-<a href="https://msdn.microsoft.com/0153a21f-9b26-4088-b12b-96c9e6918cc3">Displayed Error Messages</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>.
 
 
 
@@ -294,23 +294,23 @@ For more information, see
 
 
 
-<a href="https://msdn.microsoft.com/069d64e9-106a-42b7-8dea-a44fc0c6e0cd">Component</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/component-table">Component</a>
 
 
 
-<a href="https://msdn.microsoft.com/0153a21f-9b26-4088-b12b-96c9e6918cc3">Displayed Error Messages</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer Selection Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Installer Selection Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/850b598a-338e-4f84-8336-01e962256a08">Not Supported in Windows Installer 2.0 and earlier</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
 
 
 
-<a href="https://msdn.microsoft.com/33cedd37-0343-471c-ad4b-0db5f98d5894">ProductCode</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a>
  
 
  

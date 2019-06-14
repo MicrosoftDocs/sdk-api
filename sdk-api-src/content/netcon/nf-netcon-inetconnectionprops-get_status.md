@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/4043a85f-ebdc-424c-acf5-9097d1472773">Windows Firewall API</a>.]
+<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 The 
 <b>get_Status</b> method retrieves the status of the connection.
@@ -63,7 +63,7 @@ The
 ### -param pStatus [out]
 
 Pointer to a variable of type 
-<a href="https://msdn.microsoft.com/en-us/library/Aa366265(v=VS.85).aspx">NETCON_STATUS</a> that, on successful return, receives a code that specifies the status of the connection.
+<a href="https://docs.microsoft.com/windows/desktop/api/netcon/ne-netcon-netcon_status">NETCON_STATUS</a> that, on successful return, receives a code that specifies the status of the connection.
 
 
 ## -returns
@@ -178,11 +178,11 @@ The method failed for unknown reasons.
 
 
 
-<a href="https://msdn.microsoft.com/8152f75c-1c93-4c30-8a13-c47fd5dde4af">INetConnectionProps</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetconnectionprops">INetConnectionProps</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa366265(v=VS.85).aspx">NETCON_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netcon/ne-netcon-netcon_status">NETCON_STATUS</a>
  
 
  

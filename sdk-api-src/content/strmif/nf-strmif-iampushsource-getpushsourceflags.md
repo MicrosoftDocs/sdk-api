@@ -63,7 +63,7 @@ The <code>GetPushSourceFlags</code> method retrieves a combination of flags desc
 
 ### -param pFlags [out]
 
-Pointer to a variable that receives a combination of flags from the <a href="https://msdn.microsoft.com/878dc41b-8df3-4294-9e1f-7a3da1834ad1">AM_PUSHSOURCE_FLAGS</a> enumeration.
+Pointer to a variable that receives a combination of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-_am_pushsource_flags">AM_PUSHSOURCE_FLAGS</a> enumeration.
 
 
 ## -returns
@@ -89,11 +89,11 @@ Call this method to determine whether a renderer filter can safely match clock r
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/5ab294a8-f250-405c-a589-68998bc04cdf">IAMPushSource Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iampushsource">IAMPushSource Interface</a>
  
 
  

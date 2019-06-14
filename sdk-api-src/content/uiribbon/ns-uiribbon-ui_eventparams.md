@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information about a <a href="https://msdn.microsoft.com/en-us/library/Dd316811(v=VS.85).aspx">Ribbon</a> event.
+Contains information about a <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-ribbon">Ribbon</a> event.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ Contains information about a <a href="https://msdn.microsoft.com/en-us/library/D
 
 ### -field EventType
 
-One of the values from <a href="https://msdn.microsoft.com/424C833C-E6D6-4532-8CF1-A294B429CC21">UI_EVENTTYPE</a>.
+One of the values from <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_eventtype">UI_EVENTTYPE</a>.
 
 
 ### -field Modes
@@ -69,7 +69,7 @@ The application modes.
 
 ### -field Params
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd371615(v=VS.85).aspx">Command</a> associated with the event.
+The <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-command">Command</a> associated with the event.
 
 
 ## -remarks
@@ -80,7 +80,7 @@ For top-level events (application menu opened/closed, ribbon minimized/expanded/
 
 
 
-For the <a href="https://msdn.microsoft.com/424C833C-E6D6-4532-8CF1-A294B429CC21">UI_EVENTTYPE_ApplicationModeSwitched</a> event,  <b>Modes</b> specifies which modes have been set.  (This is the same integer value that is passed to <a href="https://msdn.microsoft.com/en-us/library/Dd371476(v=VS.85).aspx">SetModes</a> to switch modes in the first place.)
+For the <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_eventtype">UI_EVENTTYPE_ApplicationModeSwitched</a> event,  <b>Modes</b> specifies which modes have been set.  (This is the same integer value that is passed to <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setmodes">SetModes</a> to switch modes in the first place.)
 
 
 
@@ -94,19 +94,19 @@ For all other events, <b>Params</b> contains additional data about the event.
 
 
 
-<a href="https://msdn.microsoft.com/1BE6F914-C57D-4A8F-A286-C47BFD48B310">OnUIEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuieventlogger-onuievent">OnUIEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd940486(v=VS.85).aspx">Reconfiguring the Ribbon with Application Modes</a>
+<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/ribbon-applicationmodes">Reconfiguring the Ribbon with Application Modes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371476(v=VS.85).aspx">SetModes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setmodes">SetModes</a>
 
 
 
-<a href="https://msdn.microsoft.com/8A109C67-BF05-4BA4-8F12-473F2C773B90">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/structures">Structures</a>
  
 
  

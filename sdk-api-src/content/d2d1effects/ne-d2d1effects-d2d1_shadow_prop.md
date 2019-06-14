@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/53525584-10CF-46C2-9400-C4FB225D4693">Shadow effect</a>.
+Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/drop-shadow">Shadow effect</a>.
         
 
 
@@ -76,7 +76,7 @@ The default value is 3.0f.
 The color of the drop shadow. This property is a D2D1_VECTOR_4F defined as: (R, G, B, A). You must specify this color in straight alpha.
             
 
-The type is <a href="https://msdn.microsoft.com/6D931285-0F2B-44BE-8A1A-2348AC49A8DF">D2D1_VECTOR_4F</a>.
+The type is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_4f">D2D1_VECTOR_4F</a>.
 
 The default value is {0.0f, 0.0f, 0.0f, 1.0f}.
 
@@ -86,7 +86,7 @@ The default value is {0.0f, 0.0f, 0.0f, 1.0f}.
 The level of performance optimization.
             
 
-The type is <a href="https://msdn.microsoft.com/1C509608-BEBA-4E4C-8EC5-88B587D81B34">D2D1_SHADOW_OPTIMIZATION</a>.
+The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_shadow_optimization">D2D1_SHADOW_OPTIMIZATION</a>.
 
 The default value is D2D1_SHADOW_OPTIMIZATION_BALANCED.
 

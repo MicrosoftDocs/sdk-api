@@ -82,7 +82,7 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the method r
 
 
 To retrieve the GPO's friendly name, which is suitable for display, you can call the 
-<a href="https://msdn.microsoft.com/3c1a43a5-5d16-4abc-85e0-1eeace2ee086">GetDisplayName</a> method.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igpeinformation-getdisplayname">GetDisplayName</a> method.
 
 
 
@@ -92,21 +92,21 @@ To retrieve the GPO's friendly name, which is suitable for display, you can call
 
 
 
-<a href="https://msdn.microsoft.com/3c1a43a5-5d16-4abc-85e0-1eeace2ee086">GetDisplayName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igpeinformation-getdisplayname">GetDisplayName</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc15a69d-a44d-4731-a9e5-6165abd581c4">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-interfaces">Group Policy
     Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/1285ab5a-ea68-4c16-bc34-8ab2f3cfad35">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b3e7793-fc69-43a3-a2b1-0aa36748a19b">IGPEInformation</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igpeinformation">IGPEInformation</a>
  
 
  

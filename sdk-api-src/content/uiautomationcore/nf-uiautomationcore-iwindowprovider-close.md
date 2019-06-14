@@ -63,7 +63,7 @@ Attempts to close the window.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -77,7 +77,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 <b>IWindowProvider::Close</b> must return immediately without blocking.
         
 
-<b>IWindowProvider::Close</b> raises the <a href="https://msdn.microsoft.com/en-us/library/Ee671223(v=VS.85).aspx">UIA_Window_WindowClosedEventId</a> 
+<b>IWindowProvider::Close</b> raises the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-event-ids">UIA_Window_WindowClosedEventId</a> 
         event. 
         If possible, the event should be raised after the control has completed its associated action. 
         
@@ -96,11 +96,11 @@ This method may also close all other panes depending on implementation.
 
 
 
-<a href="https://msdn.microsoft.com/cf09ad4e-fd5b-4304-b5fb-165205bff1f3">IWindowProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iwindowprovider">IWindowProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/8928c889-0e0a-439f-87e8-a9d121fcf73f">UI Automation Providers Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
  
 
  

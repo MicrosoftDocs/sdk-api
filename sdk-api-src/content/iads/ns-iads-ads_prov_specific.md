@@ -71,7 +71,7 @@ A pointer to an array of bytes.
 
 
 
-The <b>ADS_PROV_SPECIFIC</b> structure is one of the data types used as a member of the  <a href="https://msdn.microsoft.com/b53c4a14-9965-4025-95bc-37f460ea2bc9">ADSVALUE</a> structure definition. The data is represented as a BLOB here, although the actual data can be packed in any format, such as a C structure. The provider writer must publish the specific data format under the BLOB.
+The <b>ADS_PROV_SPECIFIC</b> structure is one of the data types used as a member of the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_adsvalue">ADSVALUE</a> structure definition. The data is represented as a BLOB here, although the actual data can be packed in any format, such as a C structure. The provider writer must publish the specific data format under the BLOB.
 
 ADSI may also return attributes as <b>ADS_PROV_SPECIFIC</b> if unable to determine the correct attribute syntax type as would occur if, for example, the schema was unavailable.
 
@@ -83,11 +83,11 @@ ADSI may also return attributes as <b>ADS_PROV_SPECIFIC</b> if unable to determi
 
 
 
-<a href="https://msdn.microsoft.com/3ee0e469-9932-4135-8798-27d318011786">ADSI Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/b53c4a14-9965-4025-95bc-37f460ea2bc9">ADSVALUE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_adsvalue">ADSVALUE</a>
  
 
  

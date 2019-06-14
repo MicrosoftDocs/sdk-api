@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies a folder shortcut's target folder and its attributes. This structure is used by <a href="https://msdn.microsoft.com/97a343af-0998-4718-8293-1eb4d2ac0c8a">IPersistFolder3::GetFolderTargetInfo</a> and <a href="https://msdn.microsoft.com/50a426b5-a526-4d3d-a20a-67050229f02e">IPersistFolder3::InitializeEx</a>.
+Specifies a folder shortcut's target folder and its attributes. This structure is used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistfolder3-getfoldertargetinfo">IPersistFolder3::GetFolderTargetInfo</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistfolder3-initializeex">IPersistFolder3::InitializeEx</a>.
 
 
 ## -struct-fields
@@ -75,7 +75,7 @@ A null-terminated Unicode string with the target folder's parsing name. Set <b>s
 
 Type: <b>WCHAR[MAX_PATH]</b>
 
-A null-terminated Unicode string that specifies the type of network provider that will be used when binding to the target folder. The format is the same as that used by the <a href="https://msdn.microsoft.com/7668ac55-7104-4ddb-88eb-920cfe4e36fd">WNet API</a>. Set <b>szNetworkProvider</b> to an empty string if not specified.
+A null-terminated Unicode string that specifies the type of network provider that will be used when binding to the target folder. The format is the same as that used by the <a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-wnet-">WNet API</a>. Set <b>szNetworkProvider</b> to an empty string if not specified.
 
 
 ### -field dwAttributes
@@ -89,7 +89,7 @@ A <b>DWORD</b> value that contains FILE_ATTRIBUTE_* flags as defined in Winnt.h.
 
 Type: <b>int</b>
 
-The target folder's <a href="https://msdn.microsoft.com/33d92271-2865-4ebd-b96c-bf293deb4310">CSIDL</a> value, if it has one. Set <b>csidl</b> to -1 if the target folder does not have a CSIDL. In addition to the CSIDL value, you can also set the following two flags.
+The target folder's <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL</a> value, if it has one. Set <b>csidl</b> to -1 if the target folder does not have a CSIDL. In addition to the CSIDL value, you can also set the following two flags.
 
 
 
@@ -118,7 +118,7 @@ Any or all of the <b>pidlTargetFolder</b>, <b>szTargetParsingName</b>, and <b>cs
 
 
 
-<a href="https://msdn.microsoft.com/77a10997-1512-41ee-a84c-f3fa2e500d20">IPersistFolder3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder3">IPersistFolder3</a>
  
 
  

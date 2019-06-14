@@ -62,18 +62,18 @@ Contains and receives display information for a tree-view item. This structure i
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about this notification. 
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that contains information about this notification. 
 
 
 ### -field item
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb773456(v=VS.85).aspx">TVITEM</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvitema">TVITEM</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773456(v=VS.85).aspx">TVITEM</a> structure that identifies and contains information about the tree-view item. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvitema">TVITEM</a> structure that identifies and contains information about the tree-view item. The 
 					<b>mask</b> member of the <b>TVITEM</b> structure specifies which information is being set or retrieved. It can be one or more of the following values: 
 
 <table>
@@ -122,8 +122,8 @@ The
 <td width="60%">
 The 
 						<b>pszText</b> member specifies the new item text or the address of a buffer that is to receive the item text. If the structure is receiving item text, you typically copy the text to the buffer pointed to by the 
-						<b>pszText</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb773456(v=VS.85).aspx">TVITEM</a> structure. However, you can return a string in the 
-						<b>pszText</b> member instead. If you do so, you cannot change or delete the string until the corresponding item text is deleted or until two additional <a href="https://msdn.microsoft.com/en-us/library/Bb773518(v=VS.85).aspx">TVN_GETDISPINFO</a> notification codes have been sent. 
+						<b>pszText</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvitema">TVITEM</a> structure. However, you can return a string in the 
+						<b>pszText</b> member instead. If you do so, you cannot change or delete the string until the corresponding item text is deleted or until two additional <a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-getdispinfo">TVN_GETDISPINFO</a> notification codes have been sent. 
 
 </td>
 </tr>
@@ -140,11 +140,11 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773551(v=VS.85).aspx">TVN_SETDISPINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-setdispinfo">TVN_SETDISPINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775583(v=VS.85).aspx">WM_NOTIFY</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/wm-notify">WM_NOTIFY</a>
  
 
  

@@ -59,12 +59,12 @@ Called by the Windows Biometric Framework to build a template from the current f
 
 ### -param Pipeline [in, out]
 
-Pointer to a <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae41c3e12a">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 
 ### -param Identity [out]
 
-Pointer to a  <a href="https://msdn.microsoft.com/58a5f4ba-2f58-466c-90fd-9480c3c095db">WINBIO_IDENTITY</a> structure that contains the GUID or SID of the template recovered from the database. This value is returned only if a match is found.
+Pointer to a  <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-identity">WINBIO_IDENTITY</a> structure that contains the GUID or SID of the template recovered from the database. This value is returned only if a match is found.
 
 
 ### -param SubFactor [out]
@@ -163,11 +163,11 @@ The feature set in the pipeline does not correspond to any identity in the datab
 
 
 
-The algorithm used to generate the template hash is that which was selected by the most recent call, on this pipeline, to <a href="https://msdn.microsoft.com/0d16d82a-287c-4402-ac10-f601684bd976">EngineAdapterSetHashAlgorithm</a>.
+The algorithm used to generate the template hash is that which was selected by the most recent call, on this pipeline, to <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_set_hash_algorithm_fn">EngineAdapterSetHashAlgorithm</a>.
 
 The hash value returned by this function, if any, is the hash of the enrollment template found in the database, not the matching template attached to the pipeline.
 
-The <i>PayloadBlob</i> and <i>HashValue</i> buffers are owned and managed by the engine adapter after the <i>EngineAdapterIdentifyFeatureSet</i> function returns successfully. The engine adapter must keep the buffer address valid, for this pipeline, until the next call to <a href="https://msdn.microsoft.com/c4ed5971-e657-4583-aac2-6263801f7468">EngineAdapterClearContext</a>.
+The <i>PayloadBlob</i> and <i>HashValue</i> buffers are owned and managed by the engine adapter after the <i>EngineAdapterIdentifyFeatureSet</i> function returns successfully. The engine adapter must keep the buffer address valid, for this pipeline, until the next call to <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_clear_context_fn">EngineAdapterClearContext</a>.
 
 
 #### Examples
@@ -412,11 +412,11 @@ cleanup:
 
 
 
-<a href="https://msdn.microsoft.com/64107d5b-3071-4bd4-9c2c-dd06006aec4d">EngineAdapterVerifyFeatureSet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_verify_feature_set_fn">EngineAdapterVerifyFeatureSet</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f04d912-f9bc-41d4-aa9e-b843e4b5a994">Plug-in Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
  
 
  

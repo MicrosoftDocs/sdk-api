@@ -56,7 +56,7 @@ The <b>IOleUILinkContainer</b> methods enumerate the links associated with a con
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleUILinkContainer</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IOleUILinkContainer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleUILinkContainer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOleUILinkContainer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IOleUILinkContainer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/97099e4d-20ea-47fb-8ca8-27330f980038">CancelLink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-ioleuilinkcontainera-cancellink">CancelLink</a>
 </td>
 <td align="left" width="63%">
 Disconnects the selected links.
@@ -80,7 +80,7 @@ Disconnects the selected links.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/10f1bc84-cc09-4a41-8f55-21314338f636">GetLinkSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-ioleuilinkcontainera-getlinksource">GetLinkSource</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about a link that can be displayed in the <b>Links</b> dialog box.
@@ -89,7 +89,7 @@ Retrieves information about a link that can be displayed in the <b>Links</b> dia
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/136894a6-ddf6-4a47-80f5-997625362536">GetLinkUpdateOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-ioleuilinkcontainera-getlinkupdateoptions">GetLinkUpdateOptions</a>
 </td>
 <td align="left" width="63%">
 Determines the current update options for the link.
@@ -98,7 +98,7 @@ Determines the current update options for the link.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/60246b31-3677-4424-a131-840feeca030f">GetNextLink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-ioleuilinkcontainera-getnextlink">GetNextLink</a>
 </td>
 <td align="left" width="63%">
 Enumerates the links in a container.
@@ -107,7 +107,7 @@ Enumerates the links in a container.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bc732a2f-f13d-4d08-a81d-292dd2ba1140">OpenLinkSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-ioleuilinkcontainera-openlinksource">OpenLinkSource</a>
 </td>
 <td align="left" width="63%">
 Opens the link's source.
@@ -116,7 +116,7 @@ Opens the link's source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c76723e8-e895-4ba1-9ba1-7e56a44cc5f2">SetLinkSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-ioleuilinkcontainera-setlinksource">SetLinkSource</a>
 </td>
 <td align="left" width="63%">
 Changes the source of a link.
@@ -125,7 +125,7 @@ Changes the source of a link.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d2a7758d-9692-4e3c-8186-b74530299a6a">SetLinkUpdateOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-ioleuilinkcontainera-setlinkupdateoptions">SetLinkUpdateOptions</a>
 </td>
 <td align="left" width="63%">
 Sets a link's update options to automatic or manual.
@@ -134,7 +134,7 @@ Sets a link's update options to automatic or manual.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fccee32a-3a6f-4ef8-9ca7-c5b664ee03cf">UpdateLink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-ioleuilinkcontainera-updatelink">UpdateLink</a>
 </td>
 <td align="left" width="63%">
 Forces a link to connect to its source and update.
@@ -149,23 +149,23 @@ Forces a link to connect to its source and update.
 
 
 
-<a href="https://msdn.microsoft.com/0a139936-bda4-40c8-85d6-b52ff042f2d9">OLEUIEDITLINKS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuieditlinksa">OLEUIEDITLINKS</a>
 
 
 
-<a href="https://msdn.microsoft.com/53ff17aa-3135-462e-885d-3bfbb74ed1c5">OleUIChangeSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuichangesourcea">OleUIChangeSource</a>
 
 
 
-<a href="https://msdn.microsoft.com/17c7daf8-83bf-4cfd-a67c-a638630ca263">OleUIEditLinks</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuieditlinksa">OleUIEditLinks</a>
 
 
 
-<a href="https://msdn.microsoft.com/591f6056-2e5f-4e58-8806-9a0093de2463">OleUIObjectProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiobjectpropertiesa">OleUIObjectProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/f280b061-45d8-484d-9fe1-ec4d85288bc6">OleUIUpdateLinks</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiupdatelinksa">OleUIUpdateLinks</a>
  
 
  

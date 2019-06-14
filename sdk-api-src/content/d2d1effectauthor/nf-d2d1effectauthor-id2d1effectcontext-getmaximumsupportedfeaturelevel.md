@@ -60,7 +60,7 @@ This indicates the maximum feature level from the provided list which is support
 
 ### -param featureLevels [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/afbc1a02-1730-4502-af15-b668412d664c">D3D_FEATURE_LEVEL</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_feature_level">D3D_FEATURE_LEVEL</a>*</b>
 
 The feature levels provided by the application.
 
@@ -74,7 +74,7 @@ The count of feature levels provided by the application
 
 ### -param maximumSupportedFeatureLevel [out]
 
-Type: <b><a href="https://msdn.microsoft.com/afbc1a02-1730-4502-af15-b668412d664c">D3D_FEATURE_LEVEL</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_feature_level">D3D_FEATURE_LEVEL</a>*</b>
 
 The maximum feature level from the <i>featureLevels</i> list which is supported by the D2D device.
 
@@ -120,7 +120,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 
-<a href="https://msdn.microsoft.com/6BE6DF90-C5B7-4377-9DBF-804AB1C91FEE">ID2D1EffectContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectcontext">ID2D1EffectContext</a>
  
 
  

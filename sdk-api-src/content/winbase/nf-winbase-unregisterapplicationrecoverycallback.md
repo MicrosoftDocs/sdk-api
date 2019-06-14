@@ -101,7 +101,7 @@ You do not need to call this function before exiting. You need to remove the reg
 
 
 
-<a href="https://msdn.microsoft.com/4ff73c2c-a941-4626-ae40-cafbe6e50644">RegisterApplicationRecoveryCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerapplicationrecoverycallback">RegisterApplicationRecoveryCallback</a>
  
 
  

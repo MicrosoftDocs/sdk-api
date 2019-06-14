@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The
 				<b>NETINFOSTRUCT</b> structure contains information describing the network provider returned by the 
-<a href="https://msdn.microsoft.com/df190133-b73b-4f3e-aaee-4095cd619065">WNetGetNetworkInformation</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetnetworkinformationa">WNetGetNetworkInformation</a> function.
 
 
 ## -struct-fields
@@ -223,15 +223,15 @@ The <b>NETINFOSTRUCT</b> structure contains information describing the network, 
 
 
 
-<a href="https://msdn.microsoft.com/df190133-b73b-4f3e-aaee-4095cd619065">WNetGetNetworkInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetnetworkinformationa">WNetGetNetworkInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/7668ac55-7104-4ddb-88eb-920cfe4e36fd">Windows Networking (WNet) Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-wnet-">Windows Networking (WNet) Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/7969ccbb-d1ae-4a1f-8b9c-862cc6ddef1a">Windows Networking Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-structures">Windows Networking Structures</a>
  
 
  

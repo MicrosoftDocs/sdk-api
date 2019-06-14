@@ -59,44 +59,44 @@ Handles a WinEvent.
 
 ### -param idWinEvent [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-The identifier of the incoming <a href="https://msdn.microsoft.com/ba97b00b-4a4c-4889-ae9c-8e92eb742849">WinEvent</a>. For a list of WinEvent IDs, see <a href="https://msdn.microsoft.com/e27b135d-4faf-401e-a6c1-64ed0e1b5de5">Event Constants</a>.
+The identifier of the incoming <a href="https://docs.microsoft.com/windows/desktop/WinAuto/winevents-collision169">WinEvent</a>. For a list of WinEvent IDs, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/event-constants">Event Constants</a>.
 
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 The handle of the window for which the WinEvent was fired. This should also be the window for which the proxy was created.
 
 
 ### -param idObject [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
-The object identifier (OBJID_*) of the accessible object associated with the event. For a list of object identifiers, see <a href="https://msdn.microsoft.com/dc1603f8-29e5-4acd-817a-c6957feaff6c">Object Identifiers</a>.
+The object identifier (OBJID_*) of the accessible object associated with the event. For a list of object identifiers, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/object-identifiers">Object Identifiers</a>.
 
 
 ### -param idChild [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 The child identifier of the element associated with the event, or <b>CHILDID_SELF</b> if the element is not a child.
 
 
 ### -param pSink [in]
 
-Type: <b><a href="https://msdn.microsoft.com/55489e34-ab23-4c65-9d6f-e2ff39bca74c">IProxyProviderWinEventSink</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iproxyproviderwineventsink">IProxyProviderWinEventSink</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/55489e34-ab23-4c65-9d6f-e2ff39bca74c">IProxyProviderWinEventSink</a> interface provided by the UI Automation core. Any event that the proxy needs to raise in response to the WinEvent being handled should be added to the sink.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iproxyproviderwineventsink">IProxyProviderWinEventSink</a> interface provided by the UI Automation core. Any event that the proxy needs to raise in response to the WinEvent being handled should be added to the sink.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -117,11 +117,11 @@ The provider should review the event data. If the provider needs to raise a UI A
 
 
 
-<a href="https://msdn.microsoft.com/3105ce04-fc99-494a-8db2-1a221af61c0a">IProxyProviderWinEventHandler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iproxyproviderwineventhandler">IProxyProviderWinEventHandler</a>
 
 
 
-<a href="https://msdn.microsoft.com/55489e34-ab23-4c65-9d6f-e2ff39bca74c">IProxyProviderWinEventSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iproxyproviderwineventsink">IProxyProviderWinEventSink</a>
 
 
 

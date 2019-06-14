@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Translates the specified virtual-key code and keyboard state to the corresponding Unicode character or characters.
 
-To specify a handle to the keyboard layout to use to translate the specified code, use the <a href="https://msdn.microsoft.com/en-us/library/ms646322(v=VS.85).aspx">ToUnicodeEx</a> function.
+To specify a handle to the keyboard layout to use to translate the specified code, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-tounicodeex">ToUnicodeEx</a> function.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ To specify a handle to the keyboard layout to use to translate the specified cod
 
 Type: <b>UINT</b>
 
-The virtual-key code to be translated. See <a href="https://msdn.microsoft.com/en-us/library/Dd375731(v=VS.85).aspx">Virtual-Key Codes</a>.
+The virtual-key code to be translated. See <a href="https://docs.microsoft.com/windows/desktop/inputdev/virtual-key-codes">Virtual-Key Codes</a>.
 
 
 ### -param wScanCode [in]
@@ -193,7 +193,7 @@ Typically, <b>ToUnicode</b> performs the translation based on the virtual-key co
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
 
 
 
@@ -201,15 +201,15 @@ Typically, <b>ToUnicode</b> performs the translation based on the virtual-key co
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646316(v=VS.85).aspx">ToAscii</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-toascii">ToAscii</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646322(v=VS.85).aspx">ToUnicodeEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-tounicodeex">ToUnicodeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646329(v=VS.85).aspx">VkKeyScan</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-vkkeyscana">VkKeyScan</a>
  
 
  

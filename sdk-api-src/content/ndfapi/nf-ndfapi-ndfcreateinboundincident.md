@@ -92,9 +92,9 @@ The SID for the application receiving the traffic. If <b>NULL</b>, the caller's 
 
 ### -param localTarget [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/dfd84b91-0a94-4fe6-b8d2-18562afb9c24">SOCKADDR_STORAGE</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms740504(v=vs.85)">SOCKADDR_STORAGE</a></b>
 
-A <a href="https://msdn.microsoft.com/dfd84b91-0a94-4fe6-b8d2-18562afb9c24">SOCKADDR_STORAGE</a> structure which limits the diagnosis to traffic to a specific IP address. If <b>NULL</b>, all traffic will be included in the diagnosis.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms740504(v=vs.85)">SOCKADDR_STORAGE</a> structure which limits the diagnosis to traffic to a specific IP address. If <b>NULL</b>, all traffic will be included in the diagnosis.
 
 
 ### -param protocol

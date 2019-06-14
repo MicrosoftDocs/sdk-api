@@ -59,12 +59,12 @@ Creates an in-memory instance of a synchronization provider configuration UI.
 
 ### -param pConfigUIConfig [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd317251(v=VS.85).aspx">SyncProviderConfigUIConfiguration</a> structure that contains the configuration UI registration information.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/ns-syncregistration-_syncproviderconfiguiconfiguration">SyncProviderConfigUIConfiguration</a> structure that contains the configuration UI registration information.
 
 
 ### -param ppConfigUIInfo [out]
 
-  Returns a pointer to an <a href="https://msdn.microsoft.com/b7c49533-d289-44b0-9a9e-cfa47af3a087">ISyncProviderConfigUIInfo</a> interface that is used to store the configuration UI’s UX elements and any necessary persisted configuration information.
+  Returns a pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderconfiguiinfo">ISyncProviderConfigUIInfo</a> interface that is used to store the configuration UI’s UX elements and any necessary persisted configuration information.
 
 
 ## -returns
@@ -121,7 +121,7 @@ The same CLSID and content type combination, or the same unique instance ID has 
 
 
 
-The configuration UI is not registered on the system until the <b>ISyncProviderConfigUIInfo::Commit</b> method is called. This method is inherited by <a href="https://msdn.microsoft.com/b7c49533-d289-44b0-9a9e-cfa47af3a087">ISyncProviderConfigUIInfo</a> from <b>IPropertyStore</b>.
+The configuration UI is not registered on the system until the <b>ISyncProviderConfigUIInfo::Commit</b> method is called. This method is inherited by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderconfiguiinfo">ISyncProviderConfigUIInfo</a> from <b>IPropertyStore</b>.
 
 
 
@@ -131,11 +131,11 @@ The configuration UI is not registered on the system until the <b>ISyncProviderC
 
 
 
-<a href="https://msdn.microsoft.com/e7cf0c05-9d07-4630-ae34-9a9dd81492b2">ISyncProviderRegistration Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderregistration">ISyncProviderRegistration Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd317251(v=VS.85).aspx">SyncProviderConfigUIConfiguration Structure</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/ns-syncregistration-_syncproviderconfiguiconfiguration">SyncProviderConfigUIConfiguration Structure</a>
  
 
  

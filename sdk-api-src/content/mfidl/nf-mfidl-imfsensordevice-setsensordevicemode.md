@@ -62,7 +62,7 @@ Sets a value that specifies the sharing mode of the sensor device to either cont
 
 ### -param eMode [in]
 
-A member of the <a href="https://msdn.microsoft.com/D405AB48-13EC-4859-91B6-0DB797F85DBE">MFSensorDeviceMode</a> enumeration specifying wether the device is in shared or controller mode.
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-__midl___midl_itf_mfidl_0000_0109_0003">MFSensorDeviceMode</a> enumeration specifying wether the device is in shared or controller mode.
 
 
 ## -returns
@@ -111,7 +111,7 @@ The sensor group has not been initialized.
 
 
 
-<a href="https://msdn.microsoft.com/061EF002-178E-42CA-9D32-7E1282297BA4">IMFSensorDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensordevice">IMFSensorDevice</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Accelerator table structure. Used by <a href="https://msdn.microsoft.com/953b7571-0da1-4e31-bb6f-1761f8103c6e">IPreviewHandlerFrame::GetWindowContext</a>.
+Accelerator table structure. Used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandlerframe-getwindowcontext">IPreviewHandlerFrame::GetWindowContext</a>.
 
 
 ## -struct-fields

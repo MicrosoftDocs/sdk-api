@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the format of session information. This enumeration is used by the <a href="https://msdn.microsoft.com/1f12d8a4-6cbd-43e3-98a7-eaf3d30a053e">CreateTokenEx</a> function to specify the format of the <i>SessionInformation</i> parameter.
+Specifies the format of session information. This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_create_token_ex">CreateTokenEx</a> function to specify the format of the <i>SessionInformation</i> parameter.
 
 
 ## -enum-fields
@@ -59,5 +59,5 @@ Specifies the format of session information. This enumeration is used by the <a 
 
 ### -field SecSessionPrimaryCred
 
-The session information is contained in a <a href="https://msdn.microsoft.com/e51fd400-6c3c-4861-ab5c-6c1800b12d31">SECPKG_PRIMARY_CRED</a> structure.
+The session information is contained in a <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_primary_cred">SECPKG_PRIMARY_CRED</a> structure.
 

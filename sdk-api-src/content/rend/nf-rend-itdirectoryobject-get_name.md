@@ -121,7 +121,7 @@ Insufficient memory exists to perform the operation.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>ppName</i> parameter.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory allocated for the <i>ppName</i> parameter.
 			
 
 
@@ -132,11 +132,11 @@ The application must use
 
 
 
-<a href="https://msdn.microsoft.com/a48644a4-43e2-4c52-84be-0cb5c49e6436">ITDirectoryObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/398ba207-bdd7-4090-ac8b-72badbb401e3">ITDirectoryObject::put_Name</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobject-put_name">ITDirectoryObject::put_Name</a>
  
 
  

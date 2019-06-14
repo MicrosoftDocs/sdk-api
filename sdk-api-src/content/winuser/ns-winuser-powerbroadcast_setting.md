@@ -50,8 +50,8 @@ ms.custom: 19H1
 
 
 Sent with a power setting event and contains data about the specific change. For more 
-    information, see <a href="https://msdn.microsoft.com/840390ca-d32a-4cf3-9e75-66322c7cdee0">Registering for Power 
-    Events</a> and <a href="https://msdn.microsoft.com/39D432A7-54F8-4135-B98C-7290F95B054A">Power Setting GUIDs</a>.
+    information, see <a href="https://docs.microsoft.com/windows/desktop/Power/registering-for-power-events">Registering for Power 
+    Events</a> and <a href="https://docs.microsoft.com/windows/desktop/Power/power-setting-guids">Power Setting GUIDs</a>.
 
 
 ## -struct-fields
@@ -62,7 +62,7 @@ Sent with a power setting event and contains data about the specific change. For
 ### -field PowerSetting
 
 Indicates the power setting for which this notification is being delivered. For more 
-    info, see <a href="https://msdn.microsoft.com/39D432A7-54F8-4135-B98C-7290F95B054A">Power Setting GUIDs</a>.
+    info, see <a href="https://docs.microsoft.com/windows/desktop/Power/power-setting-guids">Power Setting GUIDs</a>.
 
 
 ### -field DataLength
@@ -80,11 +80,11 @@ The new value of the power setting. The type and possible values for this member
 
 
 
-<a href="https://msdn.microsoft.com/39D432A7-54F8-4135-B98C-7290F95B054A">Power Setting GUIDs</a>
+<a href="https://docs.microsoft.com/windows/desktop/Power/power-setting-guids">Power Setting GUIDs</a>
 
 
 
-<a href="https://msdn.microsoft.com/840390ca-d32a-4cf3-9e75-66322c7cdee0">Registering for Power Events</a>
+<a href="https://docs.microsoft.com/windows/desktop/Power/registering-for-power-events">Registering for Power Events</a>
  
 
  

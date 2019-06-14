@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the  source of configuration information returned by the <a href="https://msdn.microsoft.com/aabbcc03-3241-49ab-ab11-ccd3e6893e78">WTSQueryUserConfig</a> function. This enumeration type is used in the <a href="https://msdn.microsoft.com/73788ea3-1ba7-4749-983d-4ca6e4f76acb">WTSUSERCONFIG</a> structure.
+Specifies the  source of configuration information returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsqueryuserconfiga">WTSQueryUserConfig</a> function. This enumeration type is used in the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wtsuserconfiga">WTSUSERCONFIG</a> structure.
 
 
 ## -enum-fields
@@ -67,11 +67,11 @@ The configuration information came from the Security Accounts Manager (SAM) data
 
 
 
-<a href="https://msdn.microsoft.com/aabbcc03-3241-49ab-ab11-ccd3e6893e78">WTSQueryUserConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsqueryuserconfiga">WTSQueryUserConfig</a>
 
 
 
-<a href="https://msdn.microsoft.com/73788ea3-1ba7-4749-983d-4ca6e4f76acb">WTSUSERCONFIG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wtsuserconfiga">WTSUSERCONFIG</a>
  
 
  

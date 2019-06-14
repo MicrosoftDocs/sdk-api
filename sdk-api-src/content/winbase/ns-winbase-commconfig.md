@@ -74,15 +74,15 @@ Reserved; do not use.
 
 ### -field dcb
 
-The device-control block (<a href="https://msdn.microsoft.com/9dccd2c6-44b7-4609-a2b9-9815430bf3c7">DCB</a>) structure for RS-232 serial devices. A 
+The device-control block (<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_dcb">DCB</a>) structure for RS-232 serial devices. A 
 <b>DCB</b> structure is always present regardless of the port driver subtype specified in the device's 
-<a href="https://msdn.microsoft.com/d50ff606-1939-4e36-ba83-da8f269a3cc8">COMMPROP</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_commprop">COMMPROP</a> structure.
 
 
 ### -field dwProviderSubType
 
 The type of communications provider, and thus the format of the provider-specific data. For a list of communications provider types, see the description of the 
-<a href="https://msdn.microsoft.com/d50ff606-1939-4e36-ba83-da8f269a3cc8">COMMPROP</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_commprop">COMMPROP</a> structure.
 
 
 ### -field dwProviderOffset
@@ -106,7 +106,7 @@ Optional provider-specific data. This member can be of any size or can be omitte
 
 
 If the provider subtype is PST_RS232 or PST_PARALLELPORT, the <b>wcProviderData</b> member is omitted. If the provider subtype is PST_MODEM, the <b>wcProviderData</b> member contains a 
-<a href="https://msdn.microsoft.com/4648992b-eeeb-4a8d-8e08-7e80f0dc56ef">MODEMSETTINGS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-_modemsettings">MODEMSETTINGS</a> structure.
 
 
 
@@ -116,19 +116,19 @@ If the provider subtype is PST_RS232 or PST_PARALLELPORT, the <b>wcProviderData<
 
 
 
-<a href="https://msdn.microsoft.com/d50ff606-1939-4e36-ba83-da8f269a3cc8">COMMPROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_commprop">COMMPROP</a>
 
 
 
-<a href="https://msdn.microsoft.com/9dccd2c6-44b7-4609-a2b9-9815430bf3c7">DCB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_dcb">DCB</a>
 
 
 
-<a href="https://msdn.microsoft.com/dbbf55d6-d369-4b28-bdc7-1fd9a736e658">GetCommProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcommproperties">GetCommProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/4648992b-eeeb-4a8d-8e08-7e80f0dc56ef">MODEMSETTINGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-_modemsettings">MODEMSETTINGS</a>
  
 
  

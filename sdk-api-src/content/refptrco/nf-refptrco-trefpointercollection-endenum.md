@@ -50,10 +50,10 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/a2d1758a-4a7e-40fd-84c7-a25bc36ab538">TRefPointerCollection</a> class 
+<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/refptrco/nl-refptrco-trefpointercollection">TRefPointerCollection</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>EndEnum</b> method ends the enumeration of the collection.
@@ -80,11 +80,11 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/a2d1758a-4a7e-40fd-84c7-a25bc36ab538">TRefPointerCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/refptrco/nl-refptrco-trefpointercollection">TRefPointerCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f7879e8-0eeb-4768-a478-8effd4e355d3">TRefPointerCollection::BeginEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/refptrco/nf-refptrco-trefpointercollection-beginenum">TRefPointerCollection::BeginEnum</a>
  
 
  

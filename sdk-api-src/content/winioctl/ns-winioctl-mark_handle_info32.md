@@ -50,8 +50,8 @@ req.redist:
 
 Contains information that is used to mark a specified file or directory, and its update sequence 
     number (USN) change journal record with data about changes. This is only defined for 64-bit code and exists to 
-    interpret <a href="https://msdn.microsoft.com/6f736b31-279d-4118-a5e3-ad3c2bea2250">MARK_HANDLE_INFO</a> structures sent by 32-bit 
-    code. It is used by the <a href="https://msdn.microsoft.com/c96b49d8-12f3-4281-9f9f-6621769359f0">FSCTL_MARK_HANDLE</a> 
+    interpret <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-mark_handle_info">MARK_HANDLE_INFO</a> structures sent by 32-bit 
+    code. It is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_mark_handle">FSCTL_MARK_HANDLE</a> 
     control code.
 
 
@@ -97,7 +97,7 @@ A typical use is when Remote Storage moves data from external to local storage. 
          <b>USN_REASON_DATA_OVERWRITE</b> flag to a USN record. However, the data has not changed 
          from the user point of view. By noting <b>USN_SOURCE_DATA_MANAGEMENT</b> in the 
          <b>SourceInfo</b> member of the 
-         <a href="https://msdn.microsoft.com/1747453d-fd18-4853-a953-47131f3067ae">USN_RECORD</a> structure that holds the record, you can 
+         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_v2">USN_RECORD</a> structure that holds the record, you can 
          determine that although a write operation is performed on the item, data has not changed.
 
 </td>
@@ -146,7 +146,7 @@ The volume handle to the volume where the file or directory resides. For more in
 This handle is required to check the privileges for this operation.
 
 The caller must have the <b>SE_MANAGE_VOLUME_NAME</b> privilege. For more information, 
-        see <a href="https://msdn.microsoft.com/fe6aae0f-93eb-4aba-a6ac-45e71c251c51">Privileges</a>.
+        see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/privileges">Privileges</a>.
 
 
 ### -field HandleInfo
@@ -200,7 +200,7 @@ The file is marked as unable to be defragmented until the handle is closed.
 </td>
 <td width="60%">
 The file is marked for real-time read behavior regardless of the actual file type. Files marked with 
-         this flag must be opened for <a href="https://msdn.microsoft.com/ae1e5d0f-9b55-4aae-8402-b9c8e33d9363">unbuffered I/O</a>.
+         this flag must be opened for <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-buffering">unbuffered I/O</a>.
 
 </td>
 </tr>
@@ -214,7 +214,7 @@ The file is marked for real-time read behavior regardless of the actual file typ
 The file previously marked for real-time read behavior using the 
          <b>MARK_HANDLE_REALTIME</b> flag can be unmarked using this flag, removing the real-time 
          behavior. Files marked with this flag must be opened for 
-         <a href="https://msdn.microsoft.com/ae1e5d0f-9b55-4aae-8402-b9c8e33d9363">unbuffered I/O</a>.
+         <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-buffering">unbuffered I/O</a>.
 
 </td>
 </tr>

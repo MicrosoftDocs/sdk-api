@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/22DC496E-2958-4726-A74D-B3DE934F507C">Linear transfer effect</a>.
+Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/linear-transfer">Linear transfer effect</a>.
 
 
 ## -enum-fields

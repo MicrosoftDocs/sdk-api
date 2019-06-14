@@ -94,11 +94,11 @@ This value should be set prior to passing the buffer to the mixer for a Mix oper
 
 
 
-<a href="https://msdn.microsoft.com/1135b309-b158-4b70-9f76-5c93d0ad3250">How to Write an EVR Presenter</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-write-an-evr-presenter">How to Write an EVR Presenter</a>
 
 
 
-<a href="https://msdn.microsoft.com/373c076c-6329-4332-9f07-f18a01197659">IMFDesiredSample</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfdesiredsample">IMFDesiredSample</a>
  
 
  

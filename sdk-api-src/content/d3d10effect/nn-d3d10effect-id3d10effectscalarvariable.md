@@ -55,7 +55,7 @@ An effect-scalar-variable interface accesses scalar values.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10EffectScalarVariable</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable</a>. <b>ID3D10EffectScalarVariable</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10EffectScalarVariable</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectvariable">ID3D10EffectVariable</a>. <b>ID3D10EffectScalarVariable</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID3D10EffectScalarVariable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173681(v=VS.85).aspx">GetBool</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectscalarvariable-getbool">GetBool</a>
 </td>
 <td align="left" width="63%">
 Get a boolean variable.
@@ -79,7 +79,7 @@ Get a boolean variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173682(v=VS.85).aspx">GetBoolArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectscalarvariable-getboolarray">GetBoolArray</a>
 </td>
 <td align="left" width="63%">
 Get an array of boolean variables.
@@ -88,7 +88,7 @@ Get an array of boolean variables.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173683(v=VS.85).aspx">GetFloat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectscalarvariable-getfloat">GetFloat</a>
 </td>
 <td align="left" width="63%">
 Get a floating-point variable.
@@ -97,7 +97,7 @@ Get a floating-point variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173684(v=VS.85).aspx">GetFloatArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectscalarvariable-getfloatarray">GetFloatArray</a>
 </td>
 <td align="left" width="63%">
 Get an array of floating-point variables.
@@ -106,7 +106,7 @@ Get an array of floating-point variables.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173685(v=VS.85).aspx">GetInt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectscalarvariable-getint">GetInt</a>
 </td>
 <td align="left" width="63%">
 Get an integer variable.
@@ -115,7 +115,7 @@ Get an integer variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173686(v=VS.85).aspx">GetIntArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectscalarvariable-getintarray">GetIntArray</a>
 </td>
 <td align="left" width="63%">
 Get an array of integer variables.
@@ -124,7 +124,7 @@ Get an array of integer variables.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173687(v=VS.85).aspx">SetBool</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectscalarvariable-setbool">SetBool</a>
 </td>
 <td align="left" width="63%">
 Set a boolean variable.
@@ -133,7 +133,7 @@ Set a boolean variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173688(v=VS.85).aspx">SetBoolArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectscalarvariable-setboolarray">SetBoolArray</a>
 </td>
 <td align="left" width="63%">
 Set an array of boolean variables.
@@ -142,7 +142,7 @@ Set an array of boolean variables.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173689(v=VS.85).aspx">SetFloat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectscalarvariable-setfloat">SetFloat</a>
 </td>
 <td align="left" width="63%">
 Set a floating-point variable.
@@ -151,7 +151,7 @@ Set a floating-point variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173690(v=VS.85).aspx">SetFloatArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectscalarvariable-setfloatarray">SetFloatArray</a>
 </td>
 <td align="left" width="63%">
 Set an array of floating-point variables.
@@ -160,7 +160,7 @@ Set an array of floating-point variables.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173691(v=VS.85).aspx">SetInt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectscalarvariable-setint">SetInt</a>
 </td>
 <td align="left" width="63%">
 Set an integer variable.
@@ -169,7 +169,7 @@ Set an integer variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173692(v=VS.85).aspx">SetIntArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectscalarvariable-setintarray">SetIntArray</a>
 </td>
 <td align="left" width="63%">
 Set an array of integer variables.
@@ -184,11 +184,11 @@ Set an array of integer variables.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205178(v=VS.85).aspx">Effect Interfaces (Direct3D 10)</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-effect-interfaces">Effect Interfaces (Direct3D 10)</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectvariable">ID3D10EffectVariable</a>
  
 
  

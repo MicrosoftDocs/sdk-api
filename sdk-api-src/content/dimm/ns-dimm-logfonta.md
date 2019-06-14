@@ -478,7 +478,7 @@ Font families describe the look of a font in a general way. They are intended fo
 
 Type: <b>TCHAR[LF_FACESIZE]</b>
 
-Specifies a null-terminated string that specifies the typeface name of the font. The length of this string must not exceed 32 characters, including the terminating null character. The <a href="https://msdn.microsoft.com/4960afbb-eeba-4030-ac89-d1ff077bb2f3">EnumFontFamilies</a> function can be used to enumerate the typeface names of all currently available fonts. If <b>lfFaceName</b> is an empty string, GDI uses the first font that matches the other specified attributes.
+Specifies a null-terminated string that specifies the typeface name of the font. The length of this string must not exceed 32 characters, including the terminating null character. The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesa">EnumFontFamilies</a> function can be used to enumerate the typeface names of all currently available fonts. If <b>lfFaceName</b> is an empty string, GDI uses the first font that matches the other specified attributes.
 
 
 ## -remarks
@@ -494,7 +494,7 @@ The following situations do not support ClearType antialiasing:
 <li>The font is not a TrueType font or an Microsoft OpenType font with TrueType outlines. For example, the following do not support ClearType antialiasing: Type 1 fonts, Postscript OpenType fonts without TrueType outlines, bitmap fonts, vector fonts, and device fonts.</li>
 <li>The font has tuned embedded bitmaps, for any font sizes that contain the embedded bitmaps. For example, this occurs commonly in East Asian fonts.</li>
 </ul>
-This structure first appeared in Shtypes.idl and Shtypes.h in Windows Vista, for ease of use with members of the <a href="https://msdn.microsoft.com/0f4921ad-18b4-447e-8e4b-0a40ce430137">IVisualProperties</a> interface. However, the identical structure is defined in Wingdi.h and Windows.h in earlier versions of Windows.
+This structure first appeared in Shtypes.idl and Shtypes.h in Windows Vista, for ease of use with members of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-ivisualproperties">IVisualProperties</a> interface. However, the identical structure is defined in Wingdi.h and Windows.h in earlier versions of Windows.
 
 
 
@@ -504,11 +504,11 @@ This structure first appeared in Shtypes.idl and Shtypes.h in Windows Vista, fo
 
 
 
-<a href="https://msdn.microsoft.com/d12e2091-37cb-4a9e-abfc-8795d18bddd2">IVisualProperties::GetFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ivisualproperties-getfont">IVisualProperties::GetFont</a>
 
 
 
-<a href="https://msdn.microsoft.com/ecdf8652-0e1c-47df-bd19-80390bdf6c7f">IVisualProperties::SetFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ivisualproperties-setfont">IVisualProperties::SetFont</a>
  
 
  

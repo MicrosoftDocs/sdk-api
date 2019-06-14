@@ -80,7 +80,7 @@ The context that you want to determine if it is supported.
 
 
 
-<b>IsValidDpiAwarenessContext</b> determines the validity of any provided <b>DPI_AWARENESS_CONTEXT</b>. You should make sure a context is valid before using <a href="https://msdn.microsoft.com/95531BDC-3D45-4BB6-8C63-0D845C66B88F">SetThreadDpiAwarenessContext</a> to that context.
+<b>IsValidDpiAwarenessContext</b> determines the validity of any provided <b>DPI_AWARENESS_CONTEXT</b>. You should make sure a context is valid before using <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setthreaddpiawarenesscontext">SetThreadDpiAwarenessContext</a> to that context.
 
 An input <i>value</i> of <b>NULL</b> is considered to be an invalid context and will result in a return value of <b>FALSE.</b>
 

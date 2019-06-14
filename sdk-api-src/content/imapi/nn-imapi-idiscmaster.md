@@ -51,13 +51,13 @@ ms.custom: 19H1
 
 The 
 <b>IDiscMaster</b> interface allows an application to reserve an image mastering API, enumerate disc mastering formats and disc recorders supported by an image mastering object, and start a simulated or actual burn of a disc. Although an image mastering object can support several formats, it may not be possible to access all formats through a specific recorder. For this reason, you must select a recorder with 
-<a href="https://msdn.microsoft.com/5f2e9135-d251-4702-b5d1-51d9b445a4f5">SetActiveDiscRecorder</a> after selecting a format with 
-<a href="https://msdn.microsoft.com/fcc2840b-d302-4cd6-b576-1826c83b711e">SetActiveDiscMasterFormat</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmaster-setactivediscrecorder">SetActiveDiscRecorder</a> after selecting a format with 
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmaster-setactivediscmasterformat">SetActiveDiscMasterFormat</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscMaster</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDiscMaster</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscMaster</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDiscMaster</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IDiscMaster</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d3c0d850-914b-47ae-b614-a292411e6832">ClearFormatContent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmaster-clearformatcontent">ClearFormatContent</a>
 </td>
 <td align="left" width="63%">
 Clears the contents of an unburned image.
@@ -81,7 +81,7 @@ Clears the contents of an unburned image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c5ebeca1-baaa-49ac-87ac-134d4b37e8c9">Close</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmaster-close">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the interface.
@@ -90,7 +90,7 @@ Closes the interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7190dbf6-6458-4228-a892-428183ea2742">EnumDiscMasterFormats</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmaster-enumdiscmasterformats">EnumDiscMasterFormats</a>
 </td>
 <td align="left" width="63%">
 Retrieves a format enumerator.
@@ -99,7 +99,7 @@ Retrieves a format enumerator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/03daab81-11cf-4100-ab5e-3442a5972912">EnumDiscRecorders</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmaster-enumdiscrecorders">EnumDiscRecorders</a>
 </td>
 <td align="left" width="63%">
 Retrieves a recorder enumerator.
@@ -108,7 +108,7 @@ Retrieves a recorder enumerator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/37677090-fa1d-4515-9b01-13bfa55d8ebb">GetActiveDiscMasterFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmaster-getactivediscmasterformat">GetActiveDiscMasterFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the currently selected recorder format.
@@ -117,7 +117,7 @@ Retrieves the currently selected recorder format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bdbc6108-c5c9-4083-84cd-7eae63d45c0f">GetActiveDiscRecorder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmaster-getactivediscrecorder">GetActiveDiscRecorder</a>
 </td>
 <td align="left" width="63%">
 Retrieves the active disc recorder format.
@@ -126,7 +126,7 @@ Retrieves the active disc recorder format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f9d64a07-67d9-4cc1-aeb5-64762a4e8153">Open</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmaster-open">Open</a>
 </td>
 <td align="left" width="63%">
 Opens an IMAPI object.
@@ -135,7 +135,7 @@ Opens an IMAPI object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/64966230-2042-46cb-9974-adbe382723a1">ProgressAdvise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmaster-progressadvise">ProgressAdvise</a>
 </td>
 <td align="left" width="63%">
 Registers for progress notifications.
@@ -144,7 +144,7 @@ Registers for progress notifications.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b2729ff7-aefb-40cf-ae7b-9451fbe10bbb">ProgressUnadvise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmaster-progressunadvise">ProgressUnadvise</a>
 </td>
 <td align="left" width="63%">
 Cancels progress notifications.
@@ -153,7 +153,7 @@ Cancels progress notifications.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2b234dc5-2409-49d8-83be-0ffea74f5bcf">RecordDisc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmaster-recorddisc">RecordDisc</a>
 </td>
 <td align="left" width="63%">
 Burns the staged image to media in the active disc recorder.
@@ -162,7 +162,7 @@ Burns the staged image to media in the active disc recorder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fcc2840b-d302-4cd6-b576-1826c83b711e">SetActiveDiscMasterFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmaster-setactivediscmasterformat">SetActiveDiscMasterFormat</a>
 </td>
 <td align="left" width="63%">
 Sets a new active recorder format.
@@ -171,7 +171,7 @@ Sets a new active recorder format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5f2e9135-d251-4702-b5d1-51d9b445a4f5">SetActiveDiscRecorder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmaster-setactivediscrecorder">SetActiveDiscRecorder</a>
 </td>
 <td align="left" width="63%">
 Selects a new active disc recorder.

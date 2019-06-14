@@ -59,7 +59,7 @@ Delivers a log record in forward order during the prepare phase. This method can
 
 ### -param crmLogRec [in]
 
-The log record, as a <a href="https://msdn.microsoft.com/0af0eba5-6e8c-4b1d-aec4-f9a1ffe7bce6">CrmLogRecordRead</a> structure.
+The log record, as a <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-tagcrmlogrecordread">CrmLogRecordRead</a> structure.
 
 
 ### -param pfForget [out]
@@ -80,9 +80,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Unstructured log records are delivered as a <a href="https://msdn.microsoft.com/0af0eba5-6e8c-4b1d-aec4-f9a1ffe7bce6">CrmLogRecordRead</a> structure. In addition to the user data (as a single BLOB), this structure contains a couple of additional fields that might be useful for debugging or fault-finding if human compensation is necessary. The <b>dwCrmFlags</b> member is a bitfield that provides further information about whether this record was forgotten at some point and when it was written. The <b>dwSequenceNumber</b> member provides the sequence number of the log record. In most cases, sequence numbers are sequential but are not necessarily contiguous due to internal log records that are not delivered to the CRM Compensator.
+Unstructured log records are delivered as a <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-tagcrmlogrecordread">CrmLogRecordRead</a> structure. In addition to the user data (as a single BLOB), this structure contains a couple of additional fields that might be useful for debugging or fault-finding if human compensation is necessary. The <b>dwCrmFlags</b> member is a bitfield that provides further information about whether this record was forgotten at some point and when it was written. The <b>dwSequenceNumber</b> member provides the sequence number of the log record. In most cases, sequence numbers are sequential but are not necessarily contiguous due to internal log records that are not delivered to the CRM Compensator.
 
-If no log records are written by the CRM Worker, the <a href="https://msdn.microsoft.com/316a9b00-5843-40b3-9c72-a71da21a81d0">BeginPrepare</a> and <a href="https://msdn.microsoft.com/97dfdd8c-1a33-4173-aa71-cb9c9b1ef5ee">EndPrepare</a> methods are received but there are no <b>PrepareRecord</b> method calls. This is to allow for CRM Compensators that write log records at prepare time only.
+If no log records are written by the CRM Worker, the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensator-beginprepare">BeginPrepare</a> and <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensator-endprepare">EndPrepare</a> methods are received but there are no <b>PrepareRecord</b> method calls. This is to allow for CRM Compensators that write log records at prepare time only.
 
 The CRM Compensator can choose to forget the record that is delivered to it during this phase by setting the forget flag on return from this method.
 
@@ -94,7 +94,7 @@ The CRM Compensator can choose to forget the record that is delivered to it duri
 
 
 
-<a href="https://msdn.microsoft.com/9e5a8f2c-4115-42bd-a541-d0ce75c45b72">ICrmCompensator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmcompensator">ICrmCompensator</a>
  
 
  

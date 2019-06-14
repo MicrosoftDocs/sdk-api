@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 Provides information about the capabilities of a BDA device filter that represents a TV tuner.
-    This interface extends the <a href="https://msdn.microsoft.com/d7027ff4-4fb9-48c1-b527-92e65009b089">ITunerCap</a> interface.
+    This interface extends the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunercap">ITunerCap</a> interface.
 
 
 ## -remarks
@@ -68,7 +68,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/d7027ff4-4fb9-48c1-b527-92e65009b089">ITunerCap</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunercap">ITunerCap</a>
  
 
  

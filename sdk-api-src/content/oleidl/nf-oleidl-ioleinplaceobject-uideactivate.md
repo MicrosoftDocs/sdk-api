@@ -94,10 +94,10 @@ An unexpected error has occurred.
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 This method is called by the object's immediate container when, for example, the user has clicked in the client area outside the object.
 
-If the container has called <b>IOleInPlaceObject::UIDeactivate</b>, it should later call <a href="https://msdn.microsoft.com/174a8bde-0795-4d4d-a294-7708c7d1823a">IOleInPlaceObject::InPlaceDeactivate</a> to properly clean up resources. The container can assume that stopping or releasing the object cleans up resources if necessary. The object must be prepared to do so if <b>IOleInPlaceObject::InPlaceDeactivate</b> has not been called. but either <b>IOleInPlaceObject::UIDeactivate</b> or <a href="https://msdn.microsoft.com/61ecd153-ed6b-4a2c-a862-54742c5769ee">IOleObject::Close</a> has been called.
+If the container has called <b>IOleInPlaceObject::UIDeactivate</b>, it should later call <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceobject-inplacedeactivate">IOleInPlaceObject::InPlaceDeactivate</a> to properly clean up resources. The container can assume that stopping or releasing the object cleans up resources if necessary. The object must be prepared to do so if <b>IOleInPlaceObject::InPlaceDeactivate</b> has not been called. but either <b>IOleInPlaceObject::UIDeactivate</b> or <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-close">IOleObject::Close</a> has been called.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-Resources such as menus and windows can be either cleaned up or kept in a hidden state until your object is completely deactivated by calls to either <a href="https://msdn.microsoft.com/174a8bde-0795-4d4d-a294-7708c7d1823a">IOleInPlaceObject::InPlaceDeactivate</a> or <a href="https://msdn.microsoft.com/61ecd153-ed6b-4a2c-a862-54742c5769ee">IOleObject::Close</a>. The object application must call <a href="https://msdn.microsoft.com/926c02b4-0bfa-4509-b5bc-4e5007e4db1a">IOleInPlaceSite::OnUIDeactivate</a> before doing anything with the composite menus so that the container can first be detached from the frame window. On deactivating the in-place object's user interface, the object is left in a ready state so it can be quickly reactivated. The object stays in this state until the undo state of the document changes. The container should then call <b>IOleInPlaceObject::InPlaceDeactivate</b> to tell the object to discard its undo state.
+Resources such as menus and windows can be either cleaned up or kept in a hidden state until your object is completely deactivated by calls to either <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceobject-inplacedeactivate">IOleInPlaceObject::InPlaceDeactivate</a> or <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-close">IOleObject::Close</a>. The object application must call <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-onuideactivate">IOleInPlaceSite::OnUIDeactivate</a> before doing anything with the composite menus so that the container can first be detached from the frame window. On deactivating the in-place object's user interface, the object is left in a ready state so it can be quickly reactivated. The object stays in this state until the undo state of the document changes. The container should then call <b>IOleInPlaceObject::InPlaceDeactivate</b> to tell the object to discard its undo state.
 
 
 
@@ -107,23 +107,23 @@ Resources such as menus and windows can be either cleaned up or kept in a hidden
 
 
 
-<a href="https://msdn.microsoft.com/c14de79d-e844-49cf-ae70-6c3e417fab90">IOleInPlaceObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceobject">IOleInPlaceObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/174a8bde-0795-4d4d-a294-7708c7d1823a">IOleInPlaceObject::InPlaceDeactivate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceobject-inplacedeactivate">IOleInPlaceObject::InPlaceDeactivate</a>
 
 
 
-<a href="https://msdn.microsoft.com/b41bbfd6-1a86-4ca6-9d4b-c87c4feea7c3">IOleInPlaceObject::ReactivateAndUndo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceobject-reactivateandundo">IOleInPlaceObject::ReactivateAndUndo</a>
 
 
 
-<a href="https://msdn.microsoft.com/926c02b4-0bfa-4509-b5bc-4e5007e4db1a">IOleInPlaceSite::OnUIDeactivate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-onuideactivate">IOleInPlaceSite::OnUIDeactivate</a>
 
 
 
-<a href="https://msdn.microsoft.com/61ecd153-ed6b-4a2c-a862-54742c5769ee">IOleObject::Close</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-close">IOleObject::Close</a>
  
 
  

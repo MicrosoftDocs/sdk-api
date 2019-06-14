@@ -85,16 +85,16 @@ The following shader or effect creation functions take an array of shader macros
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb205084(v=VS.85).aspx">D3D10CompileShader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10shader/nf-d3d10shader-d3d10compileshader">D3D10CompileShader</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb172658(v=VS.85).aspx">D3DX10CreateEffectFromFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3dx10createeffectfromfile">D3DX10CreateEffectFromFile</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb172681(v=VS.85).aspx">D3DX10PreprocessShaderFromFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3dx10preprocessshaderfromfile">D3DX10PreprocessShaderFromFile</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/a7e9754b-acc1-49d0-bd8e-b116bc3c7e3a">D3DX11CreateAsyncShaderPreprocessProcessor</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3dx11createasyncshaderpreprocessprocessor">D3DX11CreateAsyncShaderPreprocessProcessor</a>
 </li>
 </ul>
 
@@ -105,7 +105,7 @@ The following shader or effect creation functions take an array of shader macros
 
 
 
-<a href="https://msdn.microsoft.com/d18f5baa-ef4e-41bc-90f2-28788faeb39d">Common Version Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-common-structures">Common Version Structures</a>
  
 
  

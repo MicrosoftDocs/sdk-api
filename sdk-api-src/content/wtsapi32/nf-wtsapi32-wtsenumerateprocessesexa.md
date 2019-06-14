@@ -64,14 +64,14 @@ Retrieves information about the active
 ### -param hServer [in]
 
 A handle to an RD Session Host server. Specify a handle opened by the 
-      <a href="https://msdn.microsoft.com/f0b7dce7-59eb-41b8-9a61-65a69d1cc1f3">WTSOpenServer</a> function, or specify 
+      <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsopenservera">WTSOpenServer</a> function, or specify 
       <b>WTS_CURRENT_SERVER_HANDLE</b> to indicate the server on which your application is 
       running.
 
 
 ### -param pLevel [in, out]
 
-A pointer to a <b>DWORD</b> variable that, on input, specifies the type of information  to return. To return an array of <a href="https://msdn.microsoft.com/5df01ad8-71fd-4831-8eba-1d6cabd61348">WTS_PROCESS_INFO</a> structures, specify zero. To return an array of <a href="https://msdn.microsoft.com/a678d249-4943-4d2b-9cea-87ce20177c75">WTS_PROCESS_INFO_EX</a> structures, specify one.
+A pointer to a <b>DWORD</b> variable that, on input, specifies the type of information  to return. To return an array of <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_process_infoa">WTS_PROCESS_INFO</a> structures, specify zero. To return an array of <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_process_info_exa">WTS_PROCESS_INFO_EX</a> structures, specify one.
 
 If you do not specify a valid value for this parameter, on output, <b>WTSEnumerateProcessesEx</b> sets this parameter to one and returns an error. Otherwise, on output, <b>WTSEnumerateProcessesEx</b> does not change the value of this parameter.
 
@@ -84,8 +84,8 @@ The session  for which to enumerate processes. To enumerate processes for all se
 ### -param ppProcessInfo [out]
 
 A pointer to a variable that receives a pointer to an array of 
-      <a href="https://msdn.microsoft.com/5df01ad8-71fd-4831-8eba-1d6cabd61348">WTS_PROCESS_INFO</a> or <a href="https://msdn.microsoft.com/a678d249-4943-4d2b-9cea-87ce20177c75">WTS_PROCESS_INFO_EX</a> structures. The type of structure is determined by the value passed to the <i>pLevel</i> parameter. Each structure 
-      in the array contains information about an active process. When you have finished using the array, free it by calling the <a href="https://msdn.microsoft.com/d84a4fe3-a829-4cf3-b217-157391d0c495">WTSFreeMemoryEx</a> function. You should also set the pointer to <b>NULL</b>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_process_infoa">WTS_PROCESS_INFO</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_process_info_exa">WTS_PROCESS_INFO_EX</a> structures. The type of structure is determined by the value passed to the <i>pLevel</i> parameter. Each structure 
+      in the array contains information about an active process. When you have finished using the array, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsfreememoryexa">WTSFreeMemoryEx</a> function. You should also set the pointer to <b>NULL</b>.
 
 
 ### -param pCount [out]
@@ -101,7 +101,7 @@ A pointer to a variable that receives the number of
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 
 
@@ -120,15 +120,15 @@ The caller must be a member of the Administrators group to enumerate processes t
 
 
 
-<a href="https://msdn.microsoft.com/f0b7dce7-59eb-41b8-9a61-65a69d1cc1f3">WTSOpenServer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsopenservera">WTSOpenServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/5df01ad8-71fd-4831-8eba-1d6cabd61348">WTS_PROCESS_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_process_infoa">WTS_PROCESS_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/a678d249-4943-4d2b-9cea-87ce20177c75">WTS_PROCESS_INFO_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_process_info_exa">WTS_PROCESS_INFO_EX</a>
  
 
  

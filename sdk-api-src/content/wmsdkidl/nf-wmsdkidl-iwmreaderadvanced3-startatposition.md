@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-The <b>StartAtPosition</b> method enables you to specify a starting position for a file using one of several offset formats. This method is very similar to <a href="https://msdn.microsoft.com/en-us/library/Dd743608(v=VS.85).aspx">IWMReader::Start</a>, except that the starting position and duration can be given for time, video frame number, SMPTE time code, or playlist position. If you only need to seek on presentation time, use <b>Start</b>.
+The <b>StartAtPosition</b> method enables you to specify a starting position for a file using one of several offset formats. This method is very similar to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-start">IWMReader::Start</a>, except that the starting position and duration can be given for time, video frame number, SMPTE time code, or playlist position. If you only need to seek on presentation time, use <b>Start</b>.
 
 
 
@@ -94,7 +94,7 @@ Void pointer to the address containing the offset start. The unit of measurement
 <tr>
 <td>WMT_OFFSET_FORMAT_TIMECODE</td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd757858(v=VS.85).aspx">WMT_TIMECODE_EXTENSION_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmt_timecode_extension_data">WMT_TIMECODE_EXTENSION_DATA</a>
 </td>
 </tr>
 <tr>
@@ -131,7 +131,7 @@ Void pointer to the address containing the duration of playback. If zero is pass
 <tr>
 <td>WMT_OFFSET_FORMAT_TIMECODE</td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd757858(v=VS.85).aspx">WMT_TIMECODE_EXTENSION_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmt_timecode_extension_data">WMT_TIMECODE_EXTENSION_DATA</a>
 </td>
 </tr>
 <tr>
@@ -144,7 +144,7 @@ Void pointer to the address containing the duration of playback. If zero is pass
 
 ### -param dwOffsetFormat [in]
 
-<b>DWORD</b> containing one member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757848(v=VS.85).aspx">WMT_OFFSET_FORMAT</a> enumeration type. Valid values and their meanings are as follows.
+<b>DWORD</b> containing one member of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-tagwmt_offset_format">WMT_OFFSET_FORMAT</a> enumeration type. Valid values and their meanings are as follows.
 
 <table>
 <tr>
@@ -184,7 +184,7 @@ Floating point number indicating playback rate. Normal-speed playback is 1.0; hi
 
 ### -param pvContext [in]
 
-Generic pointer, for use by the application. This pointer is passed back to the application on calls to <a href="https://msdn.microsoft.com/en-us/library/Dd743493(v=VS.85).aspx">IWMReaderCallback</a>.
+Generic pointer, for use by the application. This pointer is passed back to the application on calls to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallback">IWMReaderCallback</a>.
 
 
 ## -returns
@@ -283,7 +283,7 @@ If an invalid duration is specified, <b>StartAtPosition</b> will not fail. As ma
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757447(v=VS.85).aspx">IWMReaderAdvanced3 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced3">IWMReaderAdvanced3 Interface</a>
  
 
  

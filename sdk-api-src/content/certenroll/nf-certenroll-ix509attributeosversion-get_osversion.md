@@ -62,7 +62,7 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/1eee63f8-8345-4f3d-9fee-d8d67bcebb8c">InitializeEncode</a> method or the  <a href="https://msdn.microsoft.com/2f13002f-bdaa-4c82-859a-da932615dd81">InitializeDecode</a> method to initialize the <b>OSVersion</b> property.
+Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509attributeosversion-initializeencode">InitializeEncode</a> method or the  <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509attributeosversion-initializedecode">InitializeDecode</a> method to initialize the <b>OSVersion</b> property.
 
 
 
@@ -72,7 +72,7 @@ Call the <a href="https://msdn.microsoft.com/1eee63f8-8345-4f3d-9fee-d8d67bcebb8
 
 
 
-<a href="https://msdn.microsoft.com/2ae84d47-2bda-4954-9165-902634d09da9">IX509AttributeOSVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributeosversion">IX509AttributeOSVersion</a>
  
 
  

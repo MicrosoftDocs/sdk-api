@@ -54,7 +54,7 @@ Retrieves the code and description for errors and warnings returned by various o
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISettingsResult</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISettingsResult</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISettingsResult</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISettingsResult</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISettingsResult</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/09e1c5ae-f5ba-4f5a-b35d-a1c2e8dbdfe9">GetColumn</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsresult-getcolumn">GetColumn</a>
 </td>
 <td align="left" width="63%">
 Returns the column number where the error has occurred.
@@ -78,7 +78,7 @@ Returns the column number where the error has occurred.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d2bb39ce-9c49-46ab-b7d7-e4e4794f6b5a">GetContextDescription</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsresult-getcontextdescription">GetContextDescription</a>
 </td>
 <td align="left" width="63%">
 Returns the description of the context that surrounds the error.
@@ -87,7 +87,7 @@ Returns the description of the context that surrounds the error.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d020bd46-8967-4105-856d-ee448b527852">GetDescription</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsresult-getdescription">GetDescription</a>
 </td>
 <td align="left" width="63%">
 Returns the description of the error.
@@ -96,7 +96,7 @@ Returns the description of the error.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c0044133-480e-4b40-ad3f-b3d65e259029">GetErrorCode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsresult-geterrorcode">GetErrorCode</a>
 </td>
 <td align="left" width="63%">
 Returns the HRESULT error code value.
@@ -105,7 +105,7 @@ Returns the HRESULT error code value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c74beea9-5e81-4cd2-ade2-c812b6a035a1">GetLine</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsresult-getline">GetLine</a>
 </td>
 <td align="left" width="63%">
 Returns the line number where the error has occurred.
@@ -114,7 +114,7 @@ Returns the line number where the error has occurred.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2a76b243-5294-47a7-8ad3-b39425735866">GetSource</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsresult-getsource">GetSource</a>
 </td>
 <td align="left" width="63%">
 Returns the file or path where the error has occurred.

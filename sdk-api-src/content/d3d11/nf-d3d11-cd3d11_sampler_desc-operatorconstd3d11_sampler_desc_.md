@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-This operator returns the address of a <a href="https://msdn.microsoft.com/97dd6cac-6657-4a1e-b631-4e5d36994b16">D3D11_SAMPLER_DESC</a> structure that contains  the data from the <a href="https://msdn.microsoft.com/1FE748DB-7DC6-4C6E-94D5-DF88477B3DEC">CD3D11_SAMPLER_DESC</a> instance.
+This operator returns the address of a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_sampler_desc">D3D11_SAMPLER_DESC</a> structure that contains  the data from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151678(v=vs.85)">CD3D11_SAMPLER_DESC</a> instance.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ This operator returns the address of a <a href="https://msdn.microsoft.com/97dd6
 
 
 
-<a href="https://msdn.microsoft.com/1FE748DB-7DC6-4C6E-94D5-DF88477B3DEC">CD3D11_SAMPLER_DESC</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151678(v=vs.85)">CD3D11_SAMPLER_DESC</a>
  
 
  

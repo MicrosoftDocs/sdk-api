@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Determines the default application for a given association type. This is the default application launched by <a href="https://msdn.microsoft.com/8b1f3978-a0ee-4684-8a37-98e270b63897">ShellExecute</a> for that type. Not intended for use in Windows 8.
+Determines the default application for a given association type. This is the default application launched by <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a> for that type. Not intended for use in Windows 8.
 
 
 ## -parameters
@@ -66,16 +66,16 @@ A pointer to a null-terminated, Unicode string that contains the file name exten
 
 ### -param atQueryType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/3dbbe748-5e83-4103-932a-b51a2a55f9fd">ASSOCIATIONTYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-associationtype">ASSOCIATIONTYPE</a></b>
 
-One of the <a href="https://msdn.microsoft.com/3dbbe748-5e83-4103-932a-b51a2a55f9fd">ASSOCIATIONTYPE</a> enumeration values that specifies the type of association, such as extension or MIME type.
+One of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-associationtype">ASSOCIATIONTYPE</a> enumeration values that specifies the type of association, such as extension or MIME type.
 
 
 ### -param alQueryLevel [in]
 
-Type: <b><a href="https://msdn.microsoft.com/846ce9f4-092a-420d-be73-0951efc4368f">ASSOCIATIONLEVEL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-associationlevel">ASSOCIATIONLEVEL</a></b>
 
-One of the <a href="https://msdn.microsoft.com/846ce9f4-092a-420d-be73-0951efc4368f">ASSOCIATIONLEVEL</a> enumeration values that specifies the level of association, such as per-user or machine. This is typically <a href="https://msdn.microsoft.com/846ce9f4-092a-420d-be73-0951efc4368f">AL_EFFECTIVE</a>.
+One of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-associationlevel">ASSOCIATIONLEVEL</a> enumeration values that specifies the level of association, such as per-user or machine. This is typically <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-associationlevel">AL_EFFECTIVE</a>.
 
 
 ### -param ppszAssociation [out]
@@ -85,7 +85,7 @@ Type: <b>LPWSTR*</b>
 When this method returns, contains the address of a pointer to the ProgID that identifies the current default association.
                     
 
-<div class="alert"><b>Note</b>  It is the responsibility of the calling application to release the string through <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.</div>
+<div class="alert"><b>Note</b>  It is the responsibility of the calling application to release the string through <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.</div>
 <div> </div>
 
 ## -returns
@@ -114,11 +114,11 @@ The string produced is typically a ProgID matching one of the ProgIDs associated
 
 
 
-<a href="https://msdn.microsoft.com/78cd05a4-df33-42b5-91b9-826ebce04a1d">Default Programs</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/default-programs">Default Programs</a>
 
 
 
-<a href="https://msdn.microsoft.com/015a3be4-2e74-4a2b-8c02-54dcbf0ecacd">IApplicationAssociationRegistration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationassociationregistration">IApplicationAssociationRegistration</a>
  
 
  

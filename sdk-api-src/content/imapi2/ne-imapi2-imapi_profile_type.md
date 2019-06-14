@@ -234,11 +234,11 @@ Other values not defined here may exist. Consumers of this enumeration should no
 
 
 
-<a href="https://msdn.microsoft.com/7ee1b58b-0289-42e8-a23d-2600b9dd2e21">IDiscRecorder2::get_SupportedProfiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_supportedprofiles">IDiscRecorder2::get_SupportedProfiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/1295d536-8531-4470-a8b4-1e589736e0b1">IDiscRecorder2Ex::GetSupportedProfiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedprofiles">IDiscRecorder2Ex::GetSupportedProfiles</a>
  
 
  

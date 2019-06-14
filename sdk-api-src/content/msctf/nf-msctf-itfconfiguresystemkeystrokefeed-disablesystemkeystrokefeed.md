@@ -92,7 +92,7 @@ The method was successful.
 
 By default, the TSF manager will process keystrokes and pass them to the text services. An application prevents this by calling this method. Typically, this method is called when text service input is inappropriate, for example when a menu is displayed.
 
-Calls to this method are cumulative, so every call to this method requires a subsequent call to <a href="https://msdn.microsoft.com/66dc5db3-c4d9-422e-bbc0-300409a9576a">ITfConfigureSystemKeystrokeFeed::EnableSystemKeystrokeFeed</a>.
+Calls to this method are cumulative, so every call to this method requires a subsequent call to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfconfiguresystemkeystrokefeed-enablesystemkeystrokefeed">ITfConfigureSystemKeystrokeFeed::EnableSystemKeystrokeFeed</a>.
 
 
 
@@ -102,11 +102,11 @@ Calls to this method are cumulative, so every call to this method requires a sub
 
 
 
-<a href="https://msdn.microsoft.com/9b15d628-87aa-4e20-b9c3-fb29a79683cb">ITfConfigureSystemKeystrokeFeed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfconfiguresystemkeystrokefeed">ITfConfigureSystemKeystrokeFeed</a>
 
 
 
-<a href="https://msdn.microsoft.com/66dc5db3-c4d9-422e-bbc0-300409a9576a">ITfConfigureSystemKeystrokeFeed::EnableSystemKeystrokeFeed
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfconfiguresystemkeystrokefeed-enablesystemkeystrokefeed">ITfConfigureSystemKeystrokeFeed::EnableSystemKeystrokeFeed
       </a>
  
 

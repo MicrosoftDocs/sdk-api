@@ -89,7 +89,7 @@ The number of valid entries in the <b>adwIndex</b> array.
 
 ### -field dwChunkId
 
-A <b>FOURCC</b> that identifies the object that is indexed. This member has the same meaning as the <b>dwChunkId</b>  member of the <a href="https://msdn.microsoft.com/c36d5759-710e-4abe-85dc-13462013bb9f">AVIOLDINDEX</a> structure.
+A <b>FOURCC</b> that identifies the object that is indexed. This member has the same meaning as the <b>dwChunkId</b>  member of the <a href="https://docs.microsoft.com/previous-versions/ms779634(v%3dvs.85)">AVIOLDINDEX</a> structure.
 
 
 ### -field qwBaseOffset
@@ -104,7 +104,7 @@ Reserved. Set to zero.
 
 ### -field aIndex
 
-An array of <a href="https://msdn.microsoft.com/en-us/library/Ff625870(v=VS.85).aspx">AVISTDINDEX_ENTRY</a> structures. The number of elements in the array is calculated from the value of <b>cb</b>.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/aviriff/ns-aviriff-_avistdindex_entry">AVISTDINDEX_ENTRY</a> structures. The number of elements in the array is calculated from the value of <b>cb</b>.
 
 
 ## -remarks
@@ -123,15 +123,15 @@ and countries.)
 
 
 
-<a href="https://msdn.microsoft.com/2d8cf5be-1252-4b58-89b1-f5c53ea17d0e">AVI RIFF File Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/avi-riff-file-reference">AVI RIFF File Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/d27b2b14-55a1-4992-ad85-75244369accc">AVIMETAINDEX</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/aviriff/ns-aviriff-avimetaindex">AVIMETAINDEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
  
 
  

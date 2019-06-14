@@ -97,7 +97,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/1D0F8C4E-CB64-4787-A25F-8D826356226C">IMFSensorActivityMonitor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivitymonitor">IMFSensorActivityMonitor</a>
  
 
  

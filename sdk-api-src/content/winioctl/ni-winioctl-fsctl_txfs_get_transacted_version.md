@@ -52,12 +52,12 @@ req.redist:
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
     available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
     information, and alternatives to TxF, please see 
-    <a href="https://msdn.microsoft.com/9ee26e7e-990e-4cd3-8180-f0fcaac2b752">Alternatives to using Transactional NTFS</a>.]
+    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
-Returns a <a href="https://msdn.microsoft.com/4a8d0271-7693-483f-89b3-2f6b592bbb8a">TXFS_GET_TRANSACTED_VERSION</a> structure.  The structure identifies the most recently committed version of the specified file, the version number of the handle. 
+Returns a <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_get_transacted_version">TXFS_GET_TRANSACTED_VERSION</a> structure.  The structure identifies the most recently committed version of the specified file, the version number of the handle. 
 
 To perform this operation, call the 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -173,15 +173,15 @@ If you attempt to retrieve the version of a resource manager's root, the value
 
 
 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/4a8d0271-7693-483f-89b3-2f6b592bbb8a">TXFS_GET_TRANSACTED_VERSION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_get_transacted_version">TXFS_GET_TRANSACTED_VERSION</a>
  
 
  

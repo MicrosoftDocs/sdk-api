@@ -55,7 +55,7 @@ Use this interface to notify an application of cost and data plan status change 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetworkConnectionCostEvents</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>INetworkConnectionCostEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetworkConnectionCostEvents</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INetworkConnectionCostEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ Indicates a network cost change.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F965C648-EC59-40E4-8E8A-FE5A7E8FDAEA">ConnectionDataPlanStatusChanged</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkconnectioncostevents-connectiondataplanstatuschanged">ConnectionDataPlanStatusChanged</a>
 </td>
 <td align="left" width="63%">
 Indicates a data plan status change.

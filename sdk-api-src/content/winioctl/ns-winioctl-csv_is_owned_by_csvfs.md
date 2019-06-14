@@ -49,7 +49,7 @@ req.redist:
 
 
 Contains the output for the 
-    <a href="https://msdn.microsoft.com/AA9D31DD-352C-4509-A5F3-55DC1C685E33">FSCTL_IS_VOLUME_OWNED_BYCSVFS</a> control code 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_is_volume_owned_bycsvfs">FSCTL_IS_VOLUME_OWNED_BYCSVFS</a> control code 
     that determines whether a volume is owned by CSVFS.
 
 
@@ -69,11 +69,11 @@ Contains the output for the
 
 
 
-<a href="https://msdn.microsoft.com/AA9D31DD-352C-4509-A5F3-55DC1C685E33">FSCTL_IS_VOLUME_OWNED_BYCSVFS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_is_volume_owned_bycsvfs">FSCTL_IS_VOLUME_OWNED_BYCSVFS</a>
 
 
 
-<a href="https://msdn.microsoft.com/bbde9dfb-c205-4432-be71-250d73b881f1">Volume Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
  
 
  

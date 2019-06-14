@@ -61,7 +61,7 @@ The
 ### -param DigitMode [in]
 
 Indicates 
-<a href="https://msdn.microsoft.com/69663f27-10e6-4dc1-bcab-728c83648912">digit mode</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-digitmode--constants">digit mode</a>.
 
 
 ## -returns
@@ -119,11 +119,11 @@ No call currently exists.
 
 
 
-<a href="https://msdn.microsoft.com/5f3d0189-fc9d-4fa5-bc8e-a0abf1f607f8">ITLegacyAddressMediaControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itlegacyaddressmediacontrol">ITLegacyAddressMediaControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/73288c46-6c6d-4938-9bb7-4d94acfc67f6">ITLegacyCallMediaControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itlegacycallmediacontrol">ITLegacyCallMediaControl</a>
  
 
  

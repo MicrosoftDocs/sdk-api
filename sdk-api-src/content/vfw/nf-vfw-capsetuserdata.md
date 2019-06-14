@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>capSetUserData</b> macro associates a <b>LONG_PTR</b> data value with a capture window. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/067502e3-f009-4cf2-b612-4a0b64624416">WM_CAP_SET_USER_DATA</a> message.
+The <b>capSetUserData</b> macro associates a <b>LONG_PTR</b> data value with a capture window. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-user-data">WM_CAP_SET_USER_DATA</a> message.
 
 
 
@@ -84,11 +84,11 @@ Typically this message is used to point to a block of data associated with a cap
 
 
 
-<a href="https://msdn.microsoft.com/c93ecc51-e2c5-4b69-8625-c8385d53fab2">Video Capture</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://msdn.microsoft.com/21061f06-d58b-4800-a9f5-9821494fabd6">Video Capture Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
  
 
  

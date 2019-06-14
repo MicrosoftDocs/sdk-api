@@ -59,12 +59,12 @@ Called by the Windows Biometric Framework or by the engine adapter to locate tem
 
 ### -param Pipeline [in, out]
 
-Pointer to the <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae41c3e12a">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 
 ### -param Identity [in]
 
-Pointer to a  <a href="https://msdn.microsoft.com/58a5f4ba-2f58-466c-90fd-9480c3c095db">WINBIO_IDENTITY</a> structure that contains the GUID or SID to be located. If the <b>Type</b> field of this structure contains <b>WINBIO_IDENTITY_TYPE_WILDCARD</b>, the query returns every template that matches the <i>SubFactor</i> parameter.
+Pointer to a  <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-identity">WINBIO_IDENTITY</a> structure that contains the GUID or SID to be located. If the <b>Type</b> field of this structure contains <b>WINBIO_IDENTITY_TYPE_WILDCARD</b>, the query returns every template that matches the <i>SubFactor</i> parameter.
 
 
 
@@ -166,7 +166,7 @@ If this method returns successfully, the result set in the pipeline is replaced 
 Callers of this function should be able to  retrieve all records by:
 
 <ul>
-<li>Passing a <a href="https://msdn.microsoft.com/58a5f4ba-2f58-466c-90fd-9480c3c095db">WINBIO_IDENTITY</a> structure in the <i>Identity</i> parameter with the  <b>Type</b> field set to  <b>WINBIO_IDENTITY_TYPE_WILDCARD</b>.</li>
+<li>Passing a <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-identity">WINBIO_IDENTITY</a> structure in the <i>Identity</i> parameter with the  <b>Type</b> field set to  <b>WINBIO_IDENTITY_TYPE_WILDCARD</b>.</li>
 <li>Passing <b>WINBIO_SUBTYPE_ANY</b> in the <i>SubFactor</i> parameter.</li>
 </ul>
 After a successful call to this function, the result set cursor should be  positioned on the first record in the set.
@@ -286,27 +286,27 @@ cleanup:
 
 
 
-<a href="https://msdn.microsoft.com/5f04d912-f9bc-41d4-aa9e-b843e4b5a994">Plug-in Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/736688c3-2c2c-4244-9f49-98ad0fe2d141">StorageAdapterFirstRecord</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_first_record_fn">StorageAdapterFirstRecord</a>
 
 
 
-<a href="https://msdn.microsoft.com/a06550da-c6ea-44e5-b54f-8005bcbc0364">StorageAdapterGetCurrentRecord</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_get_current_record_fn">StorageAdapterGetCurrentRecord</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc7891c3-33f7-498c-acb1-4687909debb7">StorageAdapterGetRecordCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_get_record_count_fn">StorageAdapterGetRecordCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/e0025167-0778-474e-baca-ffc767822893">StorageAdapterNextRecord</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_next_record_fn">StorageAdapterNextRecord</a>
 
 
 
-<a href="https://msdn.microsoft.com/773aacd1-a34a-4c5a-b615-2a5485f13ca1">StorageAdapterQueryByContent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_query_by_content_fn">StorageAdapterQueryByContent</a>
  
 
  

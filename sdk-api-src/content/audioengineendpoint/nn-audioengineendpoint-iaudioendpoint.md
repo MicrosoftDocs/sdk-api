@@ -55,7 +55,7 @@ Provides information to the audio engine about an audio endpoint. This interface
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioEndpoint</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAudioEndpoint</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioEndpoint</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioEndpoint</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IAudioEndpoint</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fb34ef19-4155-461e-a8d7-0a903e9d7c72">GetFrameFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpoint-getframeformat">GetFrameFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the format of the endpoint.
@@ -79,7 +79,7 @@ Retrieves the format of the endpoint.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b9e47262-9e6f-4ddf-a74a-b7fa63983a5a">GetFramesPerPacket</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpoint-getframesperpacket">GetFramesPerPacket</a>
 </td>
 <td align="left" width="63%">
 Gets the maximum number of frames per packet that the audio endpoint can support, based on the period and 
@@ -89,7 +89,7 @@ Gets the maximum number of frames per packet that the audio endpoint can support
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9afca6b7-2e0e-40a1-bb4a-932dad21b9eb">GetLatency</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpoint-getlatency">GetLatency</a>
 </td>
 <td align="left" width="63%">
 Gets the latency of the audio endpoint.
@@ -98,7 +98,7 @@ Gets the latency of the audio endpoint.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9f0f216a-d785-42e9-b07d-f1f2568b5833">SetEventHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpoint-seteventhandle">SetEventHandle</a>
 </td>
 <td align="left" width="63%">
 Sets the handle for the event  that the audio engine uses to signal the client when the audio engine 
@@ -109,7 +109,7 @@ Sets the handle for the event  that the audio engine uses to signal the client w
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f6713912-ba7e-4e3e-95d9-8318c40a7042">SetStreamFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpoint-setstreamflags">SetStreamFlags</a>
 </td>
 <td align="left" width="63%">
 Sets the stream  configuration flags on the audio endpoint.
@@ -134,7 +134,7 @@ The Remote Desktop Services AudioEndpoint API is for use in Remote Desktop scena
 
 
 
-<a href="https://msdn.microsoft.com/0e3ea0e7-8c61-400e-b8ef-8a0403aedafa">Remote Desktop Services AudioEndpoint API Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/TermServ/terminal-services-audioendpoint-api-reference">Remote Desktop Services AudioEndpoint API Reference</a>
  
 
  

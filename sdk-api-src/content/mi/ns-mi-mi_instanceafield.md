@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a property inside an <a href="https://msdn.microsoft.com/3dce1817-7995-49e5-8cc0-ee9496665e5c">MI_Instance</a> structure.
+Represents a property inside an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a> structure.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ Represents a property inside an <a href="https://msdn.microsoft.com/3dce1817-799
 
 ### -field value
 
-A field of type <a href="https://msdn.microsoft.com/f25514cb-8a2c-43a0-b6c6-b08266d3ee5c">MI_InstanceA</a>.
+A field of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instancea">MI_InstanceA</a>.
 
 
 ### -field exists
@@ -87,11 +87,11 @@ The element value is <b>NULL</b>.
 
 #### MI_FLAG_BORROW ((1 << 30))
 
-Used while adding and setting properties on an <a href="https://msdn.microsoft.com/3dce1817-7995-49e5-8cc0-ee9496665e5c">MI_Instance</a> to indicate that the instance will not copy the value. The value must stay valid until the instance is deleted.
+Used while adding and setting properties on an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a> to indicate that the instance will not copy the value. The value must stay valid until the instance is deleted.
 
 
 
 #### MI_FLAG_ADOPT ((1 << 31))
 
-Used while adding and setting properties on an <a href="https://msdn.microsoft.com/3dce1817-7995-49e5-8cc0-ee9496665e5c">MI_Instance</a> to indicate that the instance will adopt the pointer and will be responsible for deleting it.
+Used while adding and setting properties on an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a> to indicate that the instance will adopt the pointer and will be responsible for deleting it.
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines messages for a Media Foundation transform (MFT). To send a message to an MFT, call <a href="https://msdn.microsoft.com/a6dc67e5-8473-444a-8463-24f411e59565">IMFTransform::ProcessMessage</a>.
+Defines messages for a Media Foundation transform (MFT). To send a message to an MFT, call <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processmessage">IMFTransform::ProcessMessage</a>.
 
 
 ## -enum-fields
@@ -61,7 +61,7 @@ Defines messages for a Media Foundation transform (MFT). To send a message to an
 
 Requests the MFT to flush all stored data. 
 
-See <a href="https://msdn.microsoft.com/c799a962-da79-46df-a37f-4016c8c1701e">MFT_MESSAGE_COMMAND_FLUSH</a>.
+See <a href="https://docs.microsoft.com/windows/desktop/medfound/mft-message-command-flush">MFT_MESSAGE_COMMAND_FLUSH</a>.
             
           
 
@@ -70,17 +70,17 @@ See <a href="https://msdn.microsoft.com/c799a962-da79-46df-a37f-4016c8c1701e">MF
 
 Requests the MFT to drain any stored data.
 
-See <a href="https://msdn.microsoft.com/c48f3a88-a007-4f30-ac60-9e5a8c24e1ee">MFT_MESSAGE_COMMAND_DRAIN</a>.
+See <a href="https://docs.microsoft.com/windows/desktop/medfound/mft-message-command-drain">MFT_MESSAGE_COMMAND_DRAIN</a>.
 
 
 ### -field MFT_MESSAGE_SET_D3D_MANAGER
 
-Sets or clears the <a href="https://msdn.microsoft.com/d82fd82d-510e-4004-b18b-8f2372e29701">Direct3D Device Manager</a> for DirectX Video Accereration (DXVA).
+Sets or clears the <a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-device-manager">Direct3D Device Manager</a> for DirectX Video Accereration (DXVA).
             
             
           
 
-See <a href="https://msdn.microsoft.com/fd346d56-1f80-488a-94c8-4e4e36d72890">MFT_MESSAGE_SET_D3D_MANAGER</a>.
+See <a href="https://docs.microsoft.com/windows/desktop/medfound/mft-message-set-d3d-manager">MFT_MESSAGE_SET_D3D_MANAGER</a>.
 
 
 ### -field MFT_MESSAGE_DROP_SAMPLES
@@ -99,7 +99,7 @@ Notifies the MFT that streaming is about to begin.
             
           
 
-See <a href="https://msdn.microsoft.com/a7f02e92-a747-4ac6-aa83-60897acb2bc5">MFT_MESSAGE_NOTIFY_BEGIN_STREAMING</a>.
+See <a href="https://docs.microsoft.com/windows/desktop/medfound/mft-message-notify-begin-streaming">MFT_MESSAGE_NOTIFY_BEGIN_STREAMING</a>.
 
 
 ### -field MFT_MESSAGE_NOTIFY_END_STREAMING
@@ -108,7 +108,7 @@ Notifies the MFT that streaming is about to end.
             
           
 
-See <a href="https://msdn.microsoft.com/df313a66-e80f-499c-a9f2-a7cbaaf0a7d4">MFT_MESSAGE_NOTIFY_END_STREAMING</a>.
+See <a href="https://docs.microsoft.com/windows/desktop/medfound/mft-message-notify-end-streaming">MFT_MESSAGE_NOTIFY_END_STREAMING</a>.
 
 
 ### -field MFT_MESSAGE_NOTIFY_END_OF_STREAM
@@ -117,7 +117,7 @@ Notifies the MFT that an input stream has ended.
             
           
 
-See <a href="https://msdn.microsoft.com/2d6cdf45-1bb4-4915-bd27-efa041089100">MFT_MESSAGE_NOTIFY_END_OF_STREAM</a>.
+See <a href="https://docs.microsoft.com/windows/desktop/medfound/mft-message-notify-end-of-stream">MFT_MESSAGE_NOTIFY_END_OF_STREAM</a>.
 
 
 ### -field MFT_MESSAGE_NOTIFY_START_OF_STREAM
@@ -126,7 +126,7 @@ Notifies the MFT that the first sample is about to be processed.
 
 See
             
-           <a href="https://msdn.microsoft.com/579df695-02c4-4332-b1b4-c7bd9da50c0f">MFT_MESSAGE_NOTIFY_START_OF_STREAM</a>.
+           <a href="https://docs.microsoft.com/windows/desktop/medfound/mft-message-notify-start-of-stream">MFT_MESSAGE_NOTIFY_START_OF_STREAM</a>.
 
 
 ### -field MFT_MESSAGE_NOTIFY_RELEASE_RESOURCES
@@ -148,7 +148,7 @@ See
 
 Marks a point in the stream. This message applies only to asynchronous MFTs. 
 
-See <a href="https://msdn.microsoft.com/eae1d066-64af-45e2-b8bb-eddf9147ad8b">MFT_MESSAGE_COMMAND_MARKER</a>.
+See <a href="https://docs.microsoft.com/windows/desktop/medfound/mft-message-command-marker">MFT_MESSAGE_COMMAND_MARKER</a>.
 
 <div class="alert"><b>Note</b>  Requires Windows 7</div>
 <div> </div>
@@ -167,15 +167,15 @@ Some messages require specific actions from the MFT. These events have "MESSAGE"
 
 
 
-<a href="https://msdn.microsoft.com/a6dc67e5-8473-444a-8463-24f411e59565">IMFTransform::ProcessMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processmessage">IMFTransform::ProcessMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb23fe0a-c42c-4912-a0bf-1f0b18a6f4e0">Media Foundation Transforms</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
  
 
  

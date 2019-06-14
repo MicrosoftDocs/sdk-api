@@ -153,11 +153,11 @@ The following is a list of the data directories. Offsets are relative to the beg
 
 
 
-<a href="https://msdn.microsoft.com/b6a50ffc-49f8-4824-9b51-7e381eaf8852">IMAGE_OPTIONAL_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_optional_header">IMAGE_OPTIONAL_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/b88c7a21-933f-450c-97e8-04cf3c5f9b11">ImageHlp Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-structures">ImageHlp Structures</a>
  
 
  

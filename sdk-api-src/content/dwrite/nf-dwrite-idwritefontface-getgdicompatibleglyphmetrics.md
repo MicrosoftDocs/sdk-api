@@ -73,7 +73,7 @@ The number of physical pixels per DIP.
 
 ### -param transform [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/fe4bd8ba-fc3b-4a04-8a72-9983d52f4404">DWRITE_MATRIX</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_matrix">DWRITE_MATRIX</a>*</b>
 
 An optional transform applied to the glyphs and their positions. This transform is applied after the
     scaling specified by the font size and <i>pixelsPerDip</i>.
@@ -102,9 +102,9 @@ The number of elements in the <i>glyphIndices</i> array.
 
 ### -param glyphMetrics [out]
 
-Type: <b><a href="https://msdn.microsoft.com/d2a4ac9f-f510-4235-93bb-e7bdecc65873">DWRITE_GLYPH_METRICS</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_glyph_metrics">DWRITE_GLYPH_METRICS</a>*</b>
 
-An array of <a href="https://msdn.microsoft.com/d2a4ac9f-f510-4235-93bb-e7bdecc65873">DWRITE_GLYPH_METRICS</a> structures filled by this function. The metrics are in font design units.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_glyph_metrics">DWRITE_GLYPH_METRICS</a> structures filled by this function. The metrics are in font design units.
 
 
 ### -param isSideways
@@ -130,7 +130,7 @@ Standard <b>HRESULT</b> error code. If any of the input glyph indices are outsid
 
 
 
-<a href="https://msdn.microsoft.com/1b6bb9e2-cf01-413c-9ee8-42bb0f703ce8">IDWriteFontFace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontface">IDWriteFontFace</a>
  
 
  

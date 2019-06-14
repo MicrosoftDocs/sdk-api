@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines capabilities of the underlying Direct3D device which may be queried using <a href="https://msdn.microsoft.com/1A97B928-7715-4D4E-AD38-7D01EE243494">ID2D1EffectContext::CheckFeatureSupport</a>.
+Defines capabilities of the underlying Direct3D device which may be queried using <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-checkfeaturesupport">ID2D1EffectContext::CheckFeatureSupport</a>.
 
 
 ## -enum-fields

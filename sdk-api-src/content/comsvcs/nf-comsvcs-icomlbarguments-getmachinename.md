@@ -81,7 +81,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/1eb1c464-9371-420e-afc0-4b18c11a70d4">ICOMLBArguments</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icomlbarguments">ICOMLBArguments</a>
  
 
  

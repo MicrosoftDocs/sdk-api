@@ -68,12 +68,12 @@ A pointer to the GUID of the specific namespace provider from which the service 
 On input, the size, in bytes, of the buffer pointed to by <i>lpServiceClassInfo</i> parameter. 
 
 On output, if the function fails and the error is 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a>, this parameter specifies the minimum size, in bytes, of the buffer pointed to the <i>lpServiceClassInfo</i> parameter needed to retrieve the record.
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a>, this parameter specifies the minimum size, in bytes, of the buffer pointed to the <i>lpServiceClassInfo</i> parameter needed to retrieve the record.
 
 
 ### -param lpServiceClassInfo [in, out]
 
-Returns a pointer to <a href="https://msdn.microsoft.com/02422c24-34a6-4e34-a795-66b0b687ac44">WSASERVICECLASSINFOW</a> structure that contains the service class to namespace-specific mapping information. The <i>lpServiceClassId</i> parameter must be filled to indicate which <b>WSASERVICECLASSINFOW</b> record should be returned.
+Returns a pointer to <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaserviceclassinfow">WSASERVICECLASSINFOW</a> structure that contains the service class to namespace-specific mapping information. The <i>lpServiceClassId</i> parameter must be filled to indicate which <b>WSASERVICECLASSINFOW</b> record should be returned.
 
 
 ## -returns
@@ -81,7 +81,7 @@ Returns a pointer to <a href="https://msdn.microsoft.com/02422c24-34a6-4e34-a795
 
 
 If no error occurs, the 
-<b>NSPGetServiceClassInfo</b> function returns <b>NO_ERROR</b> (zero). Otherwise, <b>SOCKET_ERROR</b> (–1) is returned and the namespace provider must set the appropriate error code using <a href="https://msdn.microsoft.com/596155ee-3dcc-4ae3-97ab-0653e019cbee">WSASetLastError</a>.
+<b>NSPGetServiceClassInfo</b> function returns <b>NO_ERROR</b> (zero). Otherwise, <b>SOCKET_ERROR</b> (–1) is returned and the namespace provider must set the appropriate error code using <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>.
 
 
 
@@ -93,7 +93,7 @@ If no error occurs, the
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -104,7 +104,7 @@ There is not enough memory available to perform this operation.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEACCES</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEACCES</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -115,18 +115,18 @@ The calling routine does not have sufficient privileges to access the informatio
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
-The  buffer pointed to by the <i>lpServiceClass</i> parameter was too small to contain a <a href="https://msdn.microsoft.com/02422c24-34a6-4e34-a795-66b0b687ac44">WSASERVICECLASSINFOW</a> structure. The application needs to pass in a larger buffer.
+The  buffer pointed to by the <i>lpServiceClass</i> parameter was too small to contain a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaserviceclassinfow">WSASERVICECLASSINFOW</a> structure. The application needs to pass in a larger buffer.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -137,7 +137,7 @@ The specified service class identifier or namespace provider identifier is not v
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEOPNOTSUPP</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEOPNOTSUPP</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -148,7 +148,7 @@ The operation is not supported. This error is returned if the namespace provider
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANO_DATA</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_DATA</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -159,7 +159,7 @@ The requested name is valid, but no data of the requested type was found.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSATYPE_NOT_FOUND</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSATYPE_NOT_FOUND</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -178,9 +178,9 @@ The specified class was not found.
 
 
 The W2_32.dll uses this function to implement the 
-<a href="https://msdn.microsoft.com/0a61751e-10e5-4f91-a0b2-8c1baf477653">WSAGetServiceClassNameByClassId</a> function, as well as to retrieve the namespace-specific information passed to the 
-<a href="https://msdn.microsoft.com/a0b71821-4434-470f-b729-370d7e1722ec">NSPLookupServiceBegin</a> and 
-<a href="https://msdn.microsoft.com/df76ea75-c0bc-48b8-b1a7-0c510c5cc28d">NSPSetService</a> functions.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsagetserviceclassnamebyclassida">WSAGetServiceClassNameByClassId</a> function, as well as to retrieve the namespace-specific information passed to the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicebegin">NSPLookupServiceBegin</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnspsetservice">NSPSetService</a> functions.
 
 
 
@@ -190,35 +190,35 @@ The W2_32.dll uses this function to implement the
 
 
 
-<a href="https://msdn.microsoft.com/437a3580-e296-4f20-8921-84e522cccc1a">NSPInstallServiceClass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnspinstallserviceclass">NSPInstallServiceClass</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0b71821-4434-470f-b729-370d7e1722ec">NSPLookupServiceBegin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicebegin">NSPLookupServiceBegin</a>
 
 
 
-<a href="https://msdn.microsoft.com/97313e6f-ec9e-4dcb-b888-14436259a519">NSPRemoveServiceClass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnspremoveserviceclass">NSPRemoveServiceClass</a>
 
 
 
-<a href="https://msdn.microsoft.com/df76ea75-c0bc-48b8-b1a7-0c510c5cc28d">NSPSetService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnspsetservice">NSPSetService</a>
 
 
 
-<a href="https://msdn.microsoft.com/e177bb7d-c7d3-43a4-a809-ab8212feea2e">WSAGetServiceClassInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsagetserviceclassinfoa">WSAGetServiceClassInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/0a61751e-10e5-4f91-a0b2-8c1baf477653">WSAGetServiceClassNameByClassId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsagetserviceclassnamebyclassida">WSAGetServiceClassNameByClassId</a>
 
 
 
-<a href="https://msdn.microsoft.com/02422c24-34a6-4e34-a795-66b0b687ac44">WSASERVICECLASSINFOW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaserviceclassinfow">WSASERVICECLASSINFOW</a>
 
 
 
-<a href="https://msdn.microsoft.com/596155ee-3dcc-4ae3-97ab-0653e019cbee">WSASetLastError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>
  
 
  

@@ -68,7 +68,7 @@ The <b>CreateNewMutualExclusion</b> method creates a mutual exclusion object. Mu
 
 ### -param ppME [out]
 
-Pointer to a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd757238(v=VS.85).aspx">IWMMutualExclusion</a> interface of the new mutual exclusion object.
+Pointer to a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion">IWMMutualExclusion</a> interface of the new mutual exclusion object.
 
 
 ## -returns
@@ -116,7 +116,7 @@ The <i>ppME</i> parameter is <b>NULL</b>.
 
 This creation method is included as a method to this interface, rather than as an independent function. For clarity, it is not possible to have a mutual exclusion object other than as an element of a profile.
 
-After the application has created the mutual exclusion object, it must be configured and then <a href="https://msdn.microsoft.com/en-us/library/Dd757398(v=VS.85).aspx">AddMutualExclusion</a> must be called to add the mutual exclusion to the profile.
+After the application has created the mutual exclusion object, it must be configured and then <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-addmutualexclusion">AddMutualExclusion</a> must be called to add the mutual exclusion to the profile.
 
 
 
@@ -126,19 +126,19 @@ After the application has created the mutual exclusion object, it must be config
 
 
 
-<a href="https://msdn.microsoft.com/00f28d6b-d27d-4268-960e-c8ea25e5359e">IWMProfile Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmprofile">IWMProfile Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757266(v=VS.85).aspx">IWMProfile2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile2">IWMProfile2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3">IWMProfile3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757398(v=VS.85).aspx">IWMProfile::AddMutualExclusion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-addmutualexclusion">IWMProfile::AddMutualExclusion</a>
  
 
  

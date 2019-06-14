@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndReturnString</b> macro retrieves the reply to the most recent MCI string command sent to an MCI device. Information in the reply is supplied as a null-terminated string. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/36a5222c-a63c-4b8c-ad0c-a00477e95b96">MCIWNDM_RETURNSTRING</a> message.
+The <b>MCIWndReturnString</b> macro retrieves the reply to the most recent MCI string command sent to an MCI device. Information in the reply is supplied as a null-terminated string. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-returnstring">MCIWNDM_RETURNSTRING</a> message.
 
 
 

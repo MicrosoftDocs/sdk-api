@@ -117,7 +117,7 @@ System account users can stop a task, users with Administrator group privileges 
 
 
 
-<a href="https://msdn.microsoft.com/3743d012-ad7c-402f-8859-939bb01ee447">IRegisteredTask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iregisteredtask">IRegisteredTask</a>
  
 
  

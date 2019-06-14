@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[This method has been deprecated. Use <a href="https://msdn.microsoft.com/d8ff0c8f-9678-455b-b7ec-9b651df769bc">IFolderView2::GetSelection</a> instead.]
+<p class="CCE_Message">[This method has been deprecated. Use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-getselection">IFolderView2::GetSelection</a> instead.]
 
 Gets an array of the objects in the view that are selected and the number of those objects.
 
@@ -63,7 +63,7 @@ Gets an array of the objects in the view that are selected and the number of tho
 
 Type: <b>PCUITEMID_CHILD**</b>
 
-The address of a pointer that, when this method returns successfully, points to an array of the currently selected items in the view. The calling application is expected to free the array at <i>pppidl</i> using <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a>. The calling application must not free the individual items contained in the array.
+The address of a pointer that, when this method returns successfully, points to an array of the currently selected items in the view. The calling application is expected to free the array at <i>pppidl</i> using <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>. The calling application must not free the individual items contained in the array.
 
 
 ### -param puItems [out]

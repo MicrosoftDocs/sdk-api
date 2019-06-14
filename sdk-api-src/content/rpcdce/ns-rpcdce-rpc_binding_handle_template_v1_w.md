@@ -89,7 +89,7 @@ The <b>ObjectUuid</b> member contains a valid value. If this flag is not set, th
 
 ### -field ProtocolSequence
 
-A <a href="https://msdn.microsoft.com/51284532-b0ac-4bf2-b322-91393b2b9dc6">protocol sequence string literal</a> associated with this binding handle.  It can be one of the following values.
+A <a href="https://docs.microsoft.com/windows/desktop/Rpc/protocol-sequence-constants">protocol sequence string literal</a> associated with this binding handle.  It can be one of the following values.
 
 
 
@@ -115,7 +115,7 @@ Pointer to a string representation of the network address to bind to.
 
 ### -field StringEndpoint
 
-Pointer to a string representation of the endpoint to bind to. If a dynamic endpoint is used, set this member to <b>NULL</b>. After the endpoint is resolved, use <a href="https://msdn.microsoft.com/fd4fea9a-067e-4a1b-8be5-867bbe9663c5">RpcBindingToStringBinding</a> to obtain it.
+Pointer to a string representation of the endpoint to bind to. If a dynamic endpoint is used, set this member to <b>NULL</b>. After the endpoint is resolved, use <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingtostringbinding">RpcBindingToStringBinding</a> to obtain it.
 
 
 ### -field u1
@@ -128,7 +128,7 @@ Reserved. This member must be set to <b>NULL</b>.
 
 ### -field ObjectUuid
 
-The UUID of the remote object. The semantics for this UUID are the same as those for a string binding. After the binding handle is created, call <a href="https://msdn.microsoft.com/5dcf341f-e392-4608-b741-8fa07cabd50b">RpcBindingSetObject</a> to change the UUID as needed.
+The UUID of the remote object. The semantics for this UUID are the same as those for a string binding. After the binding handle is created, call <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetobject">RpcBindingSetObject</a> to change the UUID as needed.
 
 
 ###### - ProtocolSequence.ncacn_http (Specifies RPC over HTTP.)
@@ -147,9 +147,9 @@ The UUID of the remote object. The semantics for this UUID are the same as those
 
 
 
-Fast binding handles are slightly different from "classic" binding handles in the way they are handled during calls to <a href="https://msdn.microsoft.com/2f7a447a-50b1-422e-a49a-00ede3fcf187">RpcBindingReset</a>. <b>RpcBindingReset</b> is a no-op call for static fast binding handles. For classic binding handles, however, <b>RpcBindingReset</b> converts a static binding handle into a dynamic one to preserve backwards compatibility.
+Fast binding handles are slightly different from "classic" binding handles in the way they are handled during calls to <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingreset">RpcBindingReset</a>. <b>RpcBindingReset</b> is a no-op call for static fast binding handles. For classic binding handles, however, <b>RpcBindingReset</b> converts a static binding handle into a dynamic one to preserve backwards compatibility.
 
-The following table demonstrates the behavior of static and dynamic binding handles with regards to <a href="https://msdn.microsoft.com/2f7a447a-50b1-422e-a49a-00ede3fcf187">RpcBindingReset</a> and <a href="https://msdn.microsoft.com/839eefea-f06d-412b-9637-4af01b783121">RpcEpResolveBinding</a>.
+The following table demonstrates the behavior of static and dynamic binding handles with regards to <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingreset">RpcBindingReset</a> and <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcepresolvebinding">RpcEpResolveBinding</a>.
   <table>
 <tr>
 <th>Endpoint Type</th>
@@ -165,7 +165,7 @@ The following table demonstrates the behavior of static and dynamic binding hand
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/2f7a447a-50b1-422e-a49a-00ede3fcf187">RpcBindingReset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingreset">RpcBindingReset</a>
 </td>
 <td>No-op</td>
 <td>Converts to dynamic</td>
@@ -174,7 +174,7 @@ The following table demonstrates the behavior of static and dynamic binding hand
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/839eefea-f06d-412b-9637-4af01b783121">RpcEpResolveBinding</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcepresolvebinding">RpcEpResolveBinding</a>
 </td>
 <td>No-op</td>
 <td>No-op</td>
@@ -194,15 +194,15 @@ The following table demonstrates the behavior of static and dynamic binding hand
 
 
 
-<a href="https://msdn.microsoft.com/3e07d9e9-04d8-4f94-8104-cd0ee89a9407">RPC_BINDING_HANDLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-binding-handle">RPC_BINDING_HANDLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/dbc73a66-b1ca-4a53-b662-430b611f8c20">RpcBindingBind</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcbindingbind">RpcBindingBind</a>
 
 
 
-<a href="https://msdn.microsoft.com/0188512e-bff6-414b-a6eb-19bfe8e0b3a9">RpcBindingCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingcreatea">RpcBindingCreate</a>
  
 
  

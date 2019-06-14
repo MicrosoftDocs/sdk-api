@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 The <b>CAStoreNameWStr</b> property  sets or retrieves the name of the store where all non-"ROOT" and non-"MY" certificates are kept.
 
-The default value for this property is "CA". This property was first defined in the <a href="https://msdn.microsoft.com/5be210b8-475a-4504-9cc0-5b02384e114e">IEnroll</a> interface.
+The default value for this property is "CA". This property was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll">IEnroll</a> interface.
 
 This property is read/write.
 
@@ -72,10 +72,10 @@ The <b>CAStoreNameWStr</b> property affects the behavior of the following method
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/8772f528-2c33-48f4-bb0c-cfde91cf2fba">acceptPKCS7Blob</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-acceptpkcs7blob">acceptPKCS7Blob</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/9c2b99df-769b-457b-b5c5-7690b73d6f84">acceptFilePKCS7WStr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-acceptfilepkcs7wstr">acceptFilePKCS7WStr</a>
 </li>
 </ul>
 
@@ -88,7 +88,7 @@ The <b>CAStoreNameWStr</b> property affects the behavior of the following method
 
 
 
-<a href="https://msdn.microsoft.com/133529fb-e02a-41a2-83df-646cbc01dbe9">IEnroll</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
  
 
  

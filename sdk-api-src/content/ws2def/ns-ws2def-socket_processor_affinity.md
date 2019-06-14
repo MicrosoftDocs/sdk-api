@@ -59,7 +59,7 @@ The <b>SOCKET_PROCESSOR_AFFINITY</b> structure contains the association between 
 
 ### -field Processor
 
-A structure to represent a system wide processor number. This <a href="https://msdn.microsoft.com/9005c6d4-07a9-4ce0-9ee2-54880d7244c3">PROCESSOR_NUMBER</a> structure contains a
+A structure to represent a system wide processor number. This <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_processor_number">PROCESSOR_NUMBER</a> structure contains a
 group number and relative processor number within the group.
 
 
@@ -79,7 +79,7 @@ A value reserved for future use.
 
 The <b>SOCKET_PROCESSOR_AFFINITY</b>  structure is supported on Windows 8,   and Windows Server 2012, and later versions of the operating system.
 
-The <a href="https://msdn.microsoft.com/DAF18C92-B479-474F-B438-0746CBA20653">SIO_QUERY_RSS_PROCESSOR_INFO</a> 
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj553482(v=vs.85)">SIO_QUERY_RSS_PROCESSOR_INFO</a> 
         IOCTL is used to determine the association between a socket and an RSS processor core and NUMA node. This IOCTL returns a <b>SOCKET_PROCESSOR_AFFINITY</b> structure that contains the processor number and the NUMA node ID.
 
 
@@ -90,11 +90,11 @@ The <a href="https://msdn.microsoft.com/DAF18C92-B479-474F-B438-0746CBA20653">SI
 
 
 
-<a href="https://msdn.microsoft.com/9005c6d4-07a9-4ce0-9ee2-54880d7244c3">PROCESSOR_NUMBER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_processor_number">PROCESSOR_NUMBER</a>
 
 
 
-<a href="https://msdn.microsoft.com/DAF18C92-B479-474F-B438-0746CBA20653">SIO_QUERY_RSS_PROCESSOR_INFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj553482(v=vs.85)">SIO_QUERY_RSS_PROCESSOR_INFO</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies result flags for the <a href="https://msdn.microsoft.com/83D09C41-CB96-4ADA-AE38-7D9542CCCFE0">ReclaimResources1</a> method.
+Specifies result flags for the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/nf-dxgi1_5-idxgidevice4-reclaimresources1">ReclaimResources1</a> method.
 
 
 ## -enum-fields
@@ -59,12 +59,12 @@ Specifies result flags for the <a href="https://msdn.microsoft.com/83D09C41-CB96
 
 ### -field DXGI_RECLAIM_RESOURCE_RESULT_OK
 
-The surface was successfully reclaimed and has valid content. This result is identical to the <i>false</i> value returned by the older <a href="https://msdn.microsoft.com/30533605-0F5A-4D15-B01E-7C23E2AE775E">ReclaimResources</a> API.
+The surface was successfully reclaimed and has valid content. This result is identical to the <i>false</i> value returned by the older <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgidevice2-reclaimresources">ReclaimResources</a> API.
 
 
 ### -field DXGI_RECLAIM_RESOURCE_RESULT_DISCARDED
 
-The surface was reclaimed, but the old content was lost and must be regenerated. This result is identical to the <i>true</i> value returned by the older <a href="https://msdn.microsoft.com/30533605-0F5A-4D15-B01E-7C23E2AE775E">ReclaimResources</a> API.
+The surface was reclaimed, but the old content was lost and must be regenerated. This result is identical to the <i>true</i> value returned by the older <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgidevice2-reclaimresources">ReclaimResources</a> API.
 
 
 ### -field DXGI_RECLAIM_RESOURCE_RESULT_NOT_COMMITTED
@@ -78,7 +78,7 @@ recreated and the content regenerated in order to be used. All future use of tha
 
 
 
-<a href="https://msdn.microsoft.com/c4574c89-dee2-4841-9318-5383cf417111">DXGI Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-enums">DXGI Enumerations</a>
  
 
  

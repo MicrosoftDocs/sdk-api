@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Performs the action specified by an <a href="https://msdn.microsoft.com/6deb7e22-f153-45fd-98ea-53a2e5692df7">IEnhancedStorageSiloAction</a> object.
+Performs the action specified by an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstoragesiloaction">IEnhancedStorageSiloAction</a> object.
 
 
 ## -parameters
@@ -92,7 +92,7 @@ The action was invoked successfully.
 
 
 
-<a href="https://msdn.microsoft.com/6deb7e22-f153-45fd-98ea-53a2e5692df7">IEnhancedStorageSiloAction</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstoragesiloaction">IEnhancedStorageSiloAction</a>
  
 
  

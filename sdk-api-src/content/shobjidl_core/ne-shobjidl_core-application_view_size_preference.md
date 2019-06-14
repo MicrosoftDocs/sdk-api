@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines the set of possible general window (app view) size preferences. Used by <a href="https://msdn.microsoft.com/A151EA3D-42EE-4F22-B2A8-C696F582F81C">ILaunchSourceViewSizePreference::GetSourceViewSizePreference</a> and <a href="https://msdn.microsoft.com/2C852FD1-09FD-45B6-A493-07DEE72BEA4C">ILaunchTargetViewSizePreference::GetTargetViewSizePreference</a>.
+Defines the set of possible general window (app view) size preferences. Used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ilaunchsourceviewsizepreference-getsourceviewsizepreference">ILaunchSourceViewSizePreference::GetSourceViewSizePreference</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ilaunchtargetviewsizepreference-gettargetviewsizepreference">ILaunchTargetViewSizePreference::GetTargetViewSizePreference</a>.
 
 
 ## -enum-fields
@@ -97,11 +97,11 @@ The window has no visible component.
 
 
 
-<a href="https://msdn.microsoft.com/D6DF8432-7D37-4D39-9E08-2F5B874A0BCB">IApplicationDesignModeSettings2::GetApplicationViewOrientation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings2-getapplicationvieworientation">IApplicationDesignModeSettings2::GetApplicationViewOrientation</a>
 
 
 
-<a href="https://msdn.microsoft.com/FCD2FDFD-1058-45D6-B9D5-A4B845CF80AA">IApplicationDesignModeSettings2::SetApplicationViewOrientation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings2-setapplicationvieworientation">IApplicationDesignModeSettings2::SetApplicationViewOrientation</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
- Unregisters a custom font collection loader that was previously registered using <a href="https://msdn.microsoft.com/495f8f56-42b6-4731-a26e-5da2c56a28ed">RegisterFontCollectionLoader</a>.
+ Unregisters a custom font collection loader that was previously registered using <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-registerfontcollectionloader">RegisterFontCollectionLoader</a>.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ ms.custom: 19H1
 
 ### -param fontCollectionLoader
 
-Type: <b><a href="https://msdn.microsoft.com/898645ce-4bd5-4491-a31c-f60a17578872">IDWriteFontCollectionLoader</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontcollectionloader">IDWriteFontCollectionLoader</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/898645ce-4bd5-4491-a31c-f60a17578872">IDWriteFontCollectionLoader</a> object to be unregistered.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontcollectionloader">IDWriteFontCollectionLoader</a> object to be unregistered.
 
 
 ## -returns
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/73a85977-5c24-4abc-ad8c-1d0d6474bd7e">IDWriteFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>
  
 
  

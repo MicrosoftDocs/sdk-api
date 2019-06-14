@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>WM_SYNCHRONISED_LYRICS</b> structure is used as the data item for the <a href="https://msdn.microsoft.com/edc73826-9062-4767-8659-8ec4652c42ab">WM/Lyrics_Synchronised</a> complex metadata attribute.
+The <b>WM_SYNCHRONISED_LYRICS</b> structure is used as the data item for the <a href="https://docs.microsoft.com/windows/desktop/wmformat/wm-lyrics-synchronised">WM/Lyrics_Synchronised</a> complex metadata attribute.
 
 
 
@@ -159,7 +159,7 @@ The objects of the Windows Media Format SDK do not validate the values of time s
 
 
 
-<a href="https://msdn.microsoft.com/118ef278-ca4f-4c30-9633-a2d851f5c758">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
  
 
  

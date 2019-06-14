@@ -59,12 +59,12 @@ Specifies a lowest and highest base address and alignment as part of an extended
 
 ### -field LowestStartingAddress
 
-Specifies the lowest acceptable address. Calling <a href="https://msdn.microsoft.com/en-us/library/Mt832849(v=VS.85).aspx">VirtualAlloc2</a> or <a href="https://msdn.microsoft.com/en-us/library/Mt832844(v=VS.85).aspx">MapViewOfFile3</a>, and specifying <b>NULL</b> for <i>LowestStartingAddress</i>, gives the same behavior as calling <a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a>/<a href="https://msdn.microsoft.com/df9f54cd-b2de-4107-a1c5-d5a07045851e">MapViewOfFile</a>.
+Specifies the lowest acceptable address. Calling <a href="https://msdn.microsoft.com/en-us/library/Mt832849(v=VS.85).aspx">VirtualAlloc2</a> or <a href="https://msdn.microsoft.com/en-us/library/Mt832844(v=VS.85).aspx">MapViewOfFile3</a>, and specifying <b>NULL</b> for <i>LowestStartingAddress</i>, gives the same behavior as calling <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>/<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>.
 
 
 ### -field HighestEndingAddress
 
-Specifies the highest acceptable address (inclusive). This address must not exceed <b>lpMaximumApplicationAddress</b> returned by <a href="https://msdn.microsoft.com/f6d745af-729a-494e-90b4-19fe7d97c7af">GetSystemInfo</a>. Calling <a href="https://msdn.microsoft.com/en-us/library/Mt832849(v=VS.85).aspx">VirtualAlloc2</a> or <a href="https://msdn.microsoft.com/en-us/library/Mt832844(v=VS.85).aspx">MapViewOfFile3</a>, and specifying <b>NULL</b> for <i>HighestEndingAddress</i>, gives the same behavior as calling <a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a>/<a href="https://msdn.microsoft.com/df9f54cd-b2de-4107-a1c5-d5a07045851e">MapViewOfFile</a>.
+Specifies the highest acceptable address (inclusive). This address must not exceed <b>lpMaximumApplicationAddress</b> returned by <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a>. Calling <a href="https://msdn.microsoft.com/en-us/library/Mt832849(v=VS.85).aspx">VirtualAlloc2</a> or <a href="https://msdn.microsoft.com/en-us/library/Mt832844(v=VS.85).aspx">MapViewOfFile3</a>, and specifying <b>NULL</b> for <i>HighestEndingAddress</i>, gives the same behavior as calling <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>/<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>.
 
 
 ### -field Alignment

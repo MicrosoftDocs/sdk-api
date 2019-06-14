@@ -71,7 +71,7 @@ Pointer to a location in memory with the screen orientation preferences to set f
 
 TRUE if the method succeeds, otherwise FALSE.
 
-See <a href="https://msdn.microsoft.com/48D609CC-3E2B-4E0E-9566-FE02853DD831">GetDisplayAutoRotationPreferences</a> for an example of using this function.
+See <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdisplayautorotationpreferences">GetDisplayAutoRotationPreferences</a> for an example of using this function.
 
 
 

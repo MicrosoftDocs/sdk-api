@@ -50,9 +50,9 @@ ms.custom: 19H1
 ## -description
 
 
-Default implementation of the <a href="https://msdn.microsoft.com/en-us/library/Ee415893(v=VS.85).aspx">IXAPO</a> interface.
+Default implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a> interface.
 
-For a list of all members of this class, see <a href="https://msdn.microsoft.com/en-us/library/Ee415237(v=VS.85).aspx">CXAPOBase Members</a>.
+For a list of all members of this class, see <a href="https://docs.microsoft.com/windows/desktop/xaudio2/cxapobase-members">CXAPOBase Members</a>.
 
 
 
@@ -61,7 +61,7 @@ For a list of all members of this class, see <a href="https://msdn.microsoft.com
 
 
 
-<b>CXAPOBase</b> provides overridable implementations for all <a href="https://msdn.microsoft.com/en-us/library/Ee415893(v=VS.85).aspx">IXAPO</a> methods except <a href="https://msdn.microsoft.com/en-us/library/Ee418456(v=VS.85).aspx">IXAPO::Process</a>.
+<b>CXAPOBase</b> provides overridable implementations for all <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a> methods except <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-process">IXAPO::Process</a>.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
@@ -74,15 +74,15 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415237(v=VS.85).aspx">CXAPOBase Members</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/cxapobase-members">CXAPOBase Members</a>
 
 
 
-<a href="https://msdn.microsoft.com/4349f03a-54a0-2780-0138-a893e1568a26">Classes</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/classes">Classes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415893(v=VS.85).aspx">IXAPO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a>
  
 
  

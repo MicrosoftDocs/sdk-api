@@ -75,7 +75,7 @@ A reference to the IID of the requested interface.
 
 Type: <b>void**</b>
 
-When this function returns, contains the interface pointer requested in riid. This will typically be <a href="https://msdn.microsoft.com/61e94e50-9e12-4a2c-a6c7-64a9181f80b8">IExplorerCommand</a>.
+When this function returns, contains the interface pointer requested in riid. This will typically be <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand">IExplorerCommand</a>.
 
 
 ## -returns

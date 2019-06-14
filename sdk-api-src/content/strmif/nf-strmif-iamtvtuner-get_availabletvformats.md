@@ -63,7 +63,7 @@ The <code>get_AvailableTVFormats</code> method retrieves all the analog video TV
 
 ### -param lAnalogVideoStandard [out]
 
-Pointer to a variable that receives a bitwise combination of values from the <a href="https://msdn.microsoft.com/6760a40c-550c-4774-a5d1-d7e2a6aa6096">AnalogVideoStandard</a> enumeration.
+Pointer to a variable that receives a bitwise combination of values from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-taganalogvideostandard">AnalogVideoStandard</a> enumeration.
 
 
 ## -returns
@@ -80,15 +80,15 @@ Returns an <b>HRESULT</b> value that depends on the implementation of the interf
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/1c8300c2-be13-4e4c-aa0c-53ce57bc9152">IAMTVTuner Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtvtuner">IAMTVTuner Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/997d39c5-a1a5-4d2d-8704-9846f149712c">IAMTuner Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner Interface</a>
  
 
  

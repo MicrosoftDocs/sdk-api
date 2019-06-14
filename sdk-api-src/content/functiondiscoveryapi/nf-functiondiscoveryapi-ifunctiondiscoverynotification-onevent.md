@@ -75,13 +75,13 @@ The type of event.
 </dl>
 </td>
 <td width="60%">
-The search was completed by a provider. Typically, this notification is sent by network protocol providers where the protocol specifies a defined interval in which search results will be accepted.  Both the WSD and <a href="https://msdn.microsoft.com/41d65b08-7601-430e-9702-6a6fd9854027">SSDP</a> providers use this event type. 
+The search was completed by a provider. Typically, this notification is sent by network protocol providers where the protocol specifies a defined interval in which search results will be accepted.  Both the WSD and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/ssdp-provider">SSDP</a> providers use this event type. 
 
 Once this notification is sent, a query ignores all incoming responses to the initial search or probe request. However, the query will still monitor for Hello or Bye messages (used to indicate when a device is added or removed). The query will continue to monitor for these events until <b>Release</b> is called on the query object.
 
 This notification will not be sent if a catastrophic error occurs.
 
-For information about how this event is implemented or used by a specific provider, follow the link to the provider documentation from the  <a href="https://msdn.microsoft.com/45caf8f6-3173-4b1a-bbbe-66637ac1f7bc">Built-in Providers</a> topic.
+For information about how this event is implemented or used by a specific provider, follow the link to the provider documentation from the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/built-in-providers">Built-in Providers</a> topic.
 
 </td>
 </tr>
@@ -183,12 +183,12 @@ Do not call <b>Release</b> on the query object from this method. Doing so could 
 
 All notifications passed to Function Discovery by providers are queued and returned to the client one by one. Callbacks are synchronized so that a client will only receive one notification at a time.
 
-Because other <a href="https://msdn.microsoft.com/1819fe08-b151-482d-8e2c-1d599fd15609">IFunctionDiscoveryNotification</a> method calls may be made in other threads, any changes made to the thread state during the call  must be restored before exiting the method.
+Because other <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> method calls may be made in other threads, any changes made to the thread state during the call  must be restored before exiting the method.
 
 
 #### Examples
 
-The following example shows an OnEvent handler implementation. The <b>CMyNotificationListener</b> class is defined in the <a href="https://msdn.microsoft.com/1819fe08-b151-482d-8e2c-1d599fd15609">IFunctionDiscoveryNotification</a> topic.
+The following example shows an OnEvent handler implementation. The <b>CMyNotificationListener</b> class is defined in the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> topic.
 
 
 ```cpp
@@ -232,7 +232,7 @@ HRESULT CMyNotificationListener::OnEvent(
 
 
 
-<a href="https://msdn.microsoft.com/1819fe08-b151-482d-8e2c-1d599fd15609">IFunctionDiscoveryNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a>
  
 
  

@@ -77,7 +77,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205159(v=VS.85).aspx">Shader Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-shader-structures">Shader Structures</a>
  
 
  

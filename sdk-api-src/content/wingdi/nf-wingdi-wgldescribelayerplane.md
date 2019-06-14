@@ -69,12 +69,12 @@ Specifies which layer planes of a pixel format are being described.
 
 ### -param arg3
 
-Specifies the overlay or underlay plane. Positive values of <i>iLayerPlane</i> identify overlay planes, where 1 is the first overlay plane over the main plane, 2 is the second overlay plane over the first overlay plane, and so on. Negative values identify underlay planes, where 1 is the first underlay plane under the main plane, 2 is the second underlay plane under the first underlay plane, and so on. The number of overlay and underlay planes is given in the <b>bReserved</b> member of the <a href="https://msdn.microsoft.com/1480dea3-ae74-4e8b-b4de-fca8de5d8395">PIXELFORMATDESCRIPTOR</a> structure.
+Specifies the overlay or underlay plane. Positive values of <i>iLayerPlane</i> identify overlay planes, where 1 is the first overlay plane over the main plane, 2 is the second overlay plane over the first overlay plane, and so on. Negative values identify underlay planes, where 1 is the first underlay plane under the main plane, 2 is the second underlay plane under the first underlay plane, and so on. The number of overlay and underlay planes is given in the <b>bReserved</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagpixelformatdescriptor">PIXELFORMATDESCRIPTOR</a> structure.
 
 
 ### -param arg4
 
-Specifies the size, in bytes, of the structure pointed to by <i>plpd</i>. The <b>wglDescribeLayerPlane</b> function stores layer plane data in a <a href="https://msdn.microsoft.com/fdb0322d-503f-4c17-b438-f764d60da7f6">LAYERPLANEDESCRIPTOR</a> structure, and stores no more than <i>nBytes</i> of data. Set the value of <i>nBytes</i> to the size of <b>LAYERPLANEDESCRIPTOR</b>.
+Specifies the size, in bytes, of the structure pointed to by <i>plpd</i>. The <b>wglDescribeLayerPlane</b> function stores layer plane data in a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglayerplanedescriptor">LAYERPLANEDESCRIPTOR</a> structure, and stores no more than <i>nBytes</i> of data. Set the value of <i>nBytes</i> to the size of <b>LAYERPLANEDESCRIPTOR</b>.
 
 
 ### -param arg5
@@ -107,27 +107,27 @@ The numbering of planes (<i>iLayerPlane</i> ) determines their order. Higher-num
 
 
 
-<a href="https://msdn.microsoft.com/9692a30d-c7d4-40c7-a265-72c4ebabd5f2">DescribePixelFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-describepixelformat">DescribePixelFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/fdb0322d-503f-4c17-b438-f764d60da7f6">LAYERPLANEDESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglayerplanedescriptor">LAYERPLANEDESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/589a86f1-598d-4175-97fc-27ca0b254935">OpenGL on Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows</a>
 
 
 
-<a href="https://msdn.microsoft.com/1480dea3-ae74-4e8b-b4de-fca8de5d8395">PIXELFORMATDESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagpixelformatdescriptor">PIXELFORMATDESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/52053370-d88b-4faf-bdcd-4663c6d5270d">WGL Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/OpenGL/wgl-functions">WGL Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/81050b48-7385-4ef3-acc5-82d5c893b2e8">wglCreateLayerContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wglcreatelayercontext">wglCreateLayerContext</a>
  
 
  

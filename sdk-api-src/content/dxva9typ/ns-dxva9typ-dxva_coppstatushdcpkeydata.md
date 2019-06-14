@@ -62,17 +62,17 @@ Contains the result from an HDCP Key Data query in Certified Output Protection P
 
 ### -field rApp
 
-A 128-bit random number that was passed by the application in the <a href="https://msdn.microsoft.com/en-us/library/Dd373427(v=VS.85).aspx">AMCOPPStatusInput</a> structure.
+A 128-bit random number that was passed by the application in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_amcoppstatusinput">AMCOPPStatusInput</a> structure.
 
 
 ### -field dwFlags
 
-Status flag. See <a href="https://msdn.microsoft.com/9109bb2c-1422-4629-b2df-ac877d3cd86e">COPP_StatusFlags</a>.
+Status flag. See <a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ne-dxva9typ-_copp_statusflags">COPP_StatusFlags</a>.
 
 
 ### -field dwHDCPFlags
 
-Receives zero or more flags from the <a href="https://msdn.microsoft.com/40ad7f00-9b4f-4c2d-8c6b-05725a072bfc">COPP_StatusHDCPFlags</a> enumeration. If the COPP_HDCPRepeater flag is present, the application should not play the content using this graphics adapter.
+Receives zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ne-dxva9typ-_copp_statushdcpflags">COPP_StatusHDCPFlags</a> enumeration. If the COPP_HDCPRepeater flag is present, the application should not play the content using this graphics adapter.
 
 
 ### -field BKey
@@ -95,11 +95,11 @@ Reserved. Must be zero.
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/23eebe93-416b-48c8-a05f-019e38b9a660">Using Certified Output Protection Protocol (COPP)</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>
  
 
  

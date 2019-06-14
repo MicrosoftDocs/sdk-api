@@ -54,7 +54,7 @@ Provides methods that enable apps to be informed of state changes and location f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFrameworkInputPane</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IFrameworkInputPane</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFrameworkInputPane</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFrameworkInputPane</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,25 +69,25 @@ The <b>IFrameworkInputPane</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F05A097F-13A4-48ad-B660-5B2409BB6D61">Advise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iframeworkinputpane-advise">Advise</a>
 </td>
 <td align="left" width="63%">
-Registers the app's input pane handler object to receive notifications on behalf of a window when an event triggers the input pane. This method differs from <a href="https://msdn.microsoft.com/6C4F52DC-0ED0-4A2D-9C5F-F29063E1AAEE">AdviseWithHWND</a> in that it references its window through an object that implements <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.core.icorewindow">ICoreWindow</a>.
+Registers the app's input pane handler object to receive notifications on behalf of a window when an event triggers the input pane. This method differs from <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iframeworkinputpane-advisewithhwnd">AdviseWithHWND</a> in that it references its window through an object that implements <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.core.icorewindow">ICoreWindow</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6C4F52DC-0ED0-4A2D-9C5F-F29063E1AAEE">AdviseWithHWND</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iframeworkinputpane-advisewithhwnd">AdviseWithHWND</a>
 </td>
 <td align="left" width="63%">
-Registers the app's input pane handler object to receive notifications on behalf of a window when an event triggers the input pane. This method differs from <a href="https://msdn.microsoft.com/F05A097F-13A4-48ad-B660-5B2409BB6D61">Advise</a> in that it references its window through an <b>HWND</b>.
+Registers the app's input pane handler object to receive notifications on behalf of a window when an event triggers the input pane. This method differs from <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iframeworkinputpane-advise">Advise</a> in that it references its window through an <b>HWND</b>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2633AD19-318E-419f-9B40-16E65803285E">Location</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iframeworkinputpane-location">Location</a>
 </td>
 <td align="left" width="63%">
 Gets the current location of the input pane.
@@ -96,7 +96,7 @@ Gets the current location of the input pane.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E4187EC2-DD8F-4e3c-BD0C-B5AD4B02E943">Unadvise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iframeworkinputpane-unadvise">Unadvise</a>
 </td>
 <td align="left" width="63%">
 Unregisters an app's input pane handler object so that it no longer receives notifications.
@@ -121,7 +121,7 @@ Do not implement this interface; the implementation is supplied with Windows as 
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

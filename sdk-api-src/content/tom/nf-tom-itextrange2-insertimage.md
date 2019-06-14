@@ -125,14 +125,14 @@ Align the top of the image at the top of the text line
 
 ### -param bstrAltText [in]
 
-Type: <b><a href="https://msdn.microsoft.com/1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a></b>
 
 The alternate text for the image.
 
 
 ### -param pStream [in]
 
-Type: <b><a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a></b>
 
 The stream that contains the image data. 
 
@@ -162,7 +162,7 @@ If the range is nondegenerate, the image replaces the text in the range.
 
 
 
-<a href="https://msdn.microsoft.com/905f0967-8b99-45ed-a1cc-19d49e919a65">ITextRange2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
  
 
  

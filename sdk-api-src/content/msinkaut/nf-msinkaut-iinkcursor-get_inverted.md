@@ -67,7 +67,7 @@ This property is read-only.
 
 
 
-Inverted cursors are generally associated with erasing. A pen might have one end that is intended for drawing and another intended for erasing. For more information about erasing ink, see <a href="https://msdn.microsoft.com/9851c871-4d1c-43b6-9615-5d231cbc01ae">Erasing Ink with the Pen</a>.
+Inverted cursors are generally associated with erasing. A pen might have one end that is intended for drawing and another intended for erasing. For more information about erasing ink, see <a href="https://docs.microsoft.com/windows/desktop/tablet/erasing-ink-with-the-pen">Erasing Ink with the Pen</a>.
 
 Whether or not you use the <b>Inverted</b> property is entirely up to the needs of your application. Applications are not required to inspect inverted cursors, and the <i>ink collector</i> applies default drawing attributes to inverted cursors just as it does to cursors that are not inverted.
 
@@ -81,11 +81,11 @@ Whether or not you use the <b>Inverted</b> property is entirely up to the needs 
 
 
 
-<a href="https://msdn.microsoft.com/39b365ad-1eb0-4183-8799-a3c3ecbd3f6e">InkCursor Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor">InkCursor Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/10ca7ae5-28dd-42a2-98d9-852d4de5869d">InkDrawingAttributes Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes Class</a>
  
 
  

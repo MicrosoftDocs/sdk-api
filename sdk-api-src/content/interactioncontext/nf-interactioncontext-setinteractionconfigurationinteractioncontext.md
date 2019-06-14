@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Configures the <a href="https://msdn.microsoft.com/60BFDCD7-D277-4B4A-94DA-7ADB1412252A">Interaction Context</a> object to process the specified manipulations.
+Configures the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object to process the specified manipulations.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Configures the <a href="https://msdn.microsoft.com/60BFDCD7-D277-4B4A-94DA-7ADB1
 
 ### -param interactionContext [in]
 
-The handle of the <a href="https://msdn.microsoft.com/60BFDCD7-D277-4B4A-94DA-7ADB1412252A">Interaction Context</a>.
+The handle of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a>.
 
 
 ### -param configurationCount [in]
@@ -72,7 +72,7 @@ The number of interactions being configured.
 
 ### -param configuration [in]
 
-The interactions to enable for this <a href="https://msdn.microsoft.com/60BFDCD7-D277-4B4A-94DA-7ADB1412252A">Interaction Context</a> object.
+The interactions to enable for this <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
 
 
 ## -returns
@@ -102,19 +102,19 @@ Configuration changes are applied only to new interactions.
 
 
 
-<a href="https://msdn.microsoft.com/30996835-420a-4141-838f-10b62b562992">GetInteractionConfigurationInteractionContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-getinteractionconfigurationinteractioncontext">GetInteractionConfigurationInteractionContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/3E3DE99D-B457-4202-8CC2-A6F5C019EFF8">HINTERACTIONCONTEXT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/0cbae801-d6d9-412b-ab8a-0b6c9d7c103e">INTERACTION_CONTEXT_CONFIGURATION</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-interaction_context_configuration">INTERACTION_CONTEXT_CONFIGURATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/0F34F181-D92C-4B08-9F1D-62379D4A2B15">Interaction Context Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>
  
 
  

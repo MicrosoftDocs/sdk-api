@@ -59,14 +59,14 @@ Sets a cookie associated with the specified URL in the HTTP cookie jar.
 
 ### -param pCookie
 
-A pointer to an <a href="https://msdn.microsoft.com/208829B0-DBCC-4C22-910D-D6826283F8A0">XHR_COOKIE</a> structure that specifies the cookie and properties of the cookie to be associated with  the specified URL.
+A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/ns-msxml6-tagxhr_cookie">XHR_COOKIE</a> structure that specifies the cookie and properties of the cookie to be associated with  the specified URL.
 
 
 ### -param pdwCookieState
 
 A pointer to a value that indicates the cookie state if the call completes successfully. 
 
-This parameter can be one of the values from the <a href="https://msdn.microsoft.com/040a5ae8-ec18-44a6-a3e9-376637cc005a">XHR_COOKIE_STATE</a> enumeration type defined in the <i>Msxml6.h</i>  header file.
+This parameter can be one of the values from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/ne-msxml6-_xhr_cookie_state">XHR_COOKIE_STATE</a> enumeration type defined in the <i>Msxml6.h</i>  header file.
 
 <table>
 <tr>
@@ -164,9 +164,9 @@ Returns <b>S_OK</b> on success.
 
 The <b>SetCookie</b> method has different behavior for Windows Store apps and Windows desktop applications. 
 
-When used in a Windows Store app, the <b>SetCookie</b> method  by default sets the cookie as a persistent cookie in the Windows Store app. When the <b>dwFlags</b> member of the <a href="https://msdn.microsoft.com/208829B0-DBCC-4C22-910D-D6826283F8A0">XHR_COOKIE</a> has the <b>XHR_COOKIE_IS_SESSION</b> flag set, then the cookie is set only for the current session of the app.
+When used in a Windows Store app, the <b>SetCookie</b> method  by default sets the cookie as a persistent cookie in the Windows Store app. When the <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/ns-msxml6-tagxhr_cookie">XHR_COOKIE</a> has the <b>XHR_COOKIE_IS_SESSION</b> flag set, then the cookie is set only for the current session of the app.
 
-When used in a Windows desktop application, the <b>SetCookie</b> method  by default sets a persistent cookie that  is system wide and shared by all Windows desktop applications.   When the <b>dwFlags</b> member of the <a href="https://msdn.microsoft.com/208829B0-DBCC-4C22-910D-D6826283F8A0">XHR_COOKIE</a> has the <b>XHR_COOKIE_IS_SESSION</b> flag set, then the cookie is set only for the current session of the Windows desktop application.
+When used in a Windows desktop application, the <b>SetCookie</b> method  by default sets a persistent cookie that  is system wide and shared by all Windows desktop applications.   When the <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/ns-msxml6-tagxhr_cookie">XHR_COOKIE</a> has the <b>XHR_COOKIE_IS_SESSION</b> flag set, then the cookie is set only for the current session of the Windows desktop application.
 
 
 
@@ -176,19 +176,19 @@ When used in a Windows desktop application, the <b>SetCookie</b> method  by defa
 
 
 
-<a href="https://msdn.microsoft.com/A2A9C54B-92A2-41EA-A741-797BA219BCDA">GetCookie Method</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-getcookie">GetCookie Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/BBC11C4A-AECF-4D6D-8275-3E852E309908">IXMLHTTPRequest2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2</a>
 
 
 
-<a href="https://msdn.microsoft.com/208829B0-DBCC-4C22-910D-D6826283F8A0">XHR_COOKIE Structure</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/ns-msxml6-tagxhr_cookie">XHR_COOKIE Structure</a>
 
 
 
-<a href="https://msdn.microsoft.com/040a5ae8-ec18-44a6-a3e9-376637cc005a">XHR_COOKIE_STATE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/ne-msxml6-_xhr_cookie_state">XHR_COOKIE_STATE</a>
  
 
  

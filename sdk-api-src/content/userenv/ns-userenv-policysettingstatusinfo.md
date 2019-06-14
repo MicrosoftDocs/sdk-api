@@ -81,7 +81,7 @@ Specifies the event log message ID.
 ### -field dwErrorCode
 
 A 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> that indicates an error that occurred during the application of the policy setting.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> that indicates an error that occurred during the application of the policy setting.
 
 
 ### -field status
@@ -122,7 +122,7 @@ The policy setting was applied successfully, but an error occurred while attempt
 ### -field timeLogged
 
 Specifies a 
-<a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure that indicates the time at which the source generated the event.
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that indicates the time at which the source generated the event.
 
 
 ## -see-also
@@ -130,15 +130,15 @@ Specifies a
 
 
 
-<a href="https://msdn.microsoft.com/1285ab5a-ea68-4c16-bc34-8ab2f3cfad35">Group Policy Overview</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/8bd42909-7877-414d-a89c-658365acc280">Group Policy Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-structures">Group Policy Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/7ea2f217-4dd2-4c0f-af1b-d4bcb8707519">RSoPSetPolicySettingStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-rsopsetpolicysettingstatus">RSoPSetPolicySettingStatus</a>
  
 
  

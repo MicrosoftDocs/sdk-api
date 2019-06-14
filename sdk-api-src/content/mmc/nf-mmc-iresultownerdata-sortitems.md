@@ -82,7 +82,7 @@ Instructs MMC to remove the sort arrow icon. This option is useful when the snap
 ### -param lUserParam [in]
 
 A user parameter passed in an 
-<a href="https://msdn.microsoft.com/457eccaf-3727-4b29-a38b-9f009749673e">IResultData::Sort</a> call, <b>NULL</b> if the user initiated the sort.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-sort">IResultData::Sort</a> call, <b>NULL</b> if the user initiated the sort.
 
 
 ## -returns
@@ -99,9 +99,9 @@ This method can return one of these values.
 
 
 Because the snap-in maintains all the item data storage for a virtual list, the list does not support sorting. The console calls this function when the user clicks the header item of a virtual list or when the snap-in calls 
-<a href="https://msdn.microsoft.com/457eccaf-3727-4b29-a38b-9f009749673e">IResultData::Sort</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-sort">IResultData::Sort</a>.
 
-MMC calls <b>IResultOwnerData::SortItems</b> with the same sort options that were passed by the snap-in in the call to <a href="https://msdn.microsoft.com/457eccaf-3727-4b29-a38b-9f009749673e">IResultData::Sort</a>.
+MMC calls <b>IResultOwnerData::SortItems</b> with the same sort options that were passed by the snap-in in the call to <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-sort">IResultData::Sort</a>.
 
 
 
@@ -111,7 +111,7 @@ MMC calls <b>IResultOwnerData::SortItems</b> with the same sort options that wer
 
 
 
-<a href="https://msdn.microsoft.com/457eccaf-3727-4b29-a38b-9f009749673e">IResultData::Sort</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-sort">IResultData::Sort</a>
  
 
  

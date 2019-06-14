@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-This interface provides methods for reconnecting an input pin while the filter is still running. The Filter Graph Manager calls methods on this interface when it performs dynamic reconnections (see the <a href="https://msdn.microsoft.com/7df22157-9dd1-410e-b037-a155f7b9a01b">IGraphConfig</a> interface). Applications might also use this interface to perform dynamic pin reconnections.
+This interface provides methods for reconnecting an input pin while the filter is still running. The Filter Graph Manager calls methods on this interface when it performs dynamic reconnections (see the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphconfig">IGraphConfig</a> interface). Applications might also use this interface to perform dynamic pin reconnections.
 
 <b>Filter developers: </b>Implement this interface on any input pin that allows dynamic reconnection or dynamic changes in format.
 
@@ -60,7 +60,7 @@ This interface provides methods for reconnecting an input pin while the filter i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPinConnection</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPinConnection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPinConnection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPinConnection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IPinConnection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/44a5a219-fd42-4fe1-a767-f74d01d86012">DynamicDisconnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipinconnection-dynamicdisconnect">DynamicDisconnect</a>
 </td>
 <td align="left" width="63%">
 Disconnects the pin when the filter is running.
@@ -84,7 +84,7 @@ Disconnects the pin when the filter is running.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/86a4f18c-4bd0-45d2-bb5a-b0f41cd0ab43">DynamicQueryAccept</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipinconnection-dynamicqueryaccept">DynamicQueryAccept</a>
 </td>
 <td align="left" width="63%">
 Queries whether the pin can accept the specified media type while the graph is running with the current connection to this pin.
@@ -93,7 +93,7 @@ Queries whether the pin can accept the specified media type while the graph is r
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e078c952-2c3b-48cd-a898-ac2de9fc359a">IsEndPin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipinconnection-isendpin">IsEndPin</a>
 </td>
 <td align="left" width="63%">
 Indicates whether a reconnection search should end at this pin.
@@ -102,7 +102,7 @@ Indicates whether a reconnection search should end at this pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3a911436-a679-4a86-93f9-e9c57ca762c5">NotifyEndOfStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipinconnection-notifyendofstream">NotifyEndOfStream</a>
 </td>
 <td align="left" width="63%">
 Requests notification from the pin when the next end-of-stream condition occurs.
@@ -117,11 +117,11 @@ Requests notification from the pin when the next end-of-stream condition occurs.
 
 
 
-<a href="https://msdn.microsoft.com/13fed430-979b-40f7-91ba-aff2d811bd92">Dynamic Graph Building</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dynamic-graph-building">Dynamic Graph Building</a>
 
 
 
-<a href="https://msdn.microsoft.com/5b777f64-6b62-48dd-8eae-6603582a452a">Dynamic Reconnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dynamic-reconnection">Dynamic Reconnection</a>
  
 
  

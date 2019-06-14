@@ -69,7 +69,7 @@ The <b>IPlayToManagerInterop</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/444f0d68-a6ae-46de-aa97-d7d505c95948">GetForWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/playtomanagerinterop/nf-playtomanagerinterop-iplaytomanagerinterop-getforwindow">GetForWindow</a>
 </td>
 <td align="left" width="63%">
 Gets the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.media.playto.playtomanager">PlayToManager</a> instance for the specified window.
@@ -78,7 +78,7 @@ Gets the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.media.playto.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/106ddd95-06dd-479a-8350-39d791add469">ShowPlayToUIForWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/playtomanagerinterop/nf-playtomanagerinterop-iplaytomanagerinterop-showplaytouiforwindow">ShowPlayToUIForWindow</a>
 </td>
 <td align="left" width="63%">
 Displays the Play To UI for the specified window.

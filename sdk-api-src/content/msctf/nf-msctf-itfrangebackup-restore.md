@@ -58,12 +58,12 @@ ms.custom: 19H1
 
 ### -param ec [in]
 
-Contains an edit cookie that identifies the edit session. This is the value passed to <a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession</a>.
+Contains an edit cookie that identifies the edit session. This is the value passed to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
 
 ### -param pRange [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange</a> object that receives the backup information. If this parameter is <b>NULL</b>, the backup information is restored into a copy of the range originally backed up by <b>ITfContext::CreateRangeBackup</b>.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that receives the backup information. If this parameter is <b>NULL</b>, the backup information is restored into a copy of the range originally backed up by <b>ITfContext::CreateRangeBackup</b>.
 
 
 ## -returns
@@ -143,26 +143,26 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/c3b52170-af1b-407b-9160-1265ae3c9afc">ITfContext::CreateRangeBackup
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-createrangebackup">ITfContext::CreateRangeBackup
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/f98cd8d0-7033-4bd2-94a1-1a75913c2647">ITfRangeBackup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrangebackup">ITfRangeBackup</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629023(v=VS.85).aspx">Ranges: Clones and Backups</a>
+<a href="https://docs.microsoft.com/windows/desktop/TSF/ranges">Ranges: Clones and Backups</a>
  
 
  

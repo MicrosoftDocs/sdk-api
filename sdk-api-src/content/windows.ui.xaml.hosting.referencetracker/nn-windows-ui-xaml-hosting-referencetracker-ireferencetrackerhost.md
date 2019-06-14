@@ -54,7 +54,7 @@ Defines an interface that provides the global services used by the garbage colle
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IReferenceTrackerHost</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IReferenceTrackerHost</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IReferenceTrackerHost</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IReferenceTrackerHost</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IReferenceTrackerHost</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1e04381c-49b2-436b-9e92-ec13b88e42f1">AddMemoryPressure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackerhost-addmemorypressure">AddMemoryPressure</a>
 </td>
 <td align="left" width="63%">
 Informs the host of increased memory allocations since the last notification.
@@ -80,7 +80,7 @@ The CLR uses this to inform the algorithm that determines when to run a garbage 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c962299e-f813-45b8-a83b-1c1887e8c0f9">DisconnectUnusedReferenceSources</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackerhost-disconnectunusedreferencesources">DisconnectUnusedReferenceSources</a>
 </td>
 <td align="left" width="63%">
 Requests that the host perform a garbage collection and remove all unnecessary reference sources.  
@@ -89,7 +89,7 @@ Requests that the host perform a garbage collection and remove all unnecessary r
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5dabc7ce-a6aa-4acd-b331-3f74b0f2d179">GetTrackerTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackerhost-gettrackertarget">GetTrackerTarget</a>
 </td>
 <td align="left" width="63%">
 Requests the host to provide a reference tracker target that references a reference tracker source. This tracker target then controls the lifetime of the tracker source.
@@ -98,7 +98,7 @@ Requests the host to provide a reference tracker target that references a refere
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/14391c59-832c-441a-956a-090888d35c81">NotifyEndOfReferenceTrackingOnThread</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackerhost-notifyendofreferencetrackingonthread">NotifyEndOfReferenceTrackingOnThread</a>
 </td>
 <td align="left" width="63%">
 Notifies the host that reference tracking is no longer available on the calling thread; XAML calls this when the <b>FrameworkView</b> is uninitialized.
@@ -108,7 +108,7 @@ Notifies the host that reference tracking is no longer available on the calling 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c8b6f458-a9b9-41b7-a718-a193803842d8">ReleaseDisconnectedReferenceSources</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackerhost-releasedisconnectedreferencesources">ReleaseDisconnectedReferenceSources</a>
 </td>
 <td align="left" width="63%">
 Requests that the host call <b>IUnknown::Release</b> on any reference tracker objects that have been disconnected by a reference source.  
@@ -117,7 +117,7 @@ Requests that the host call <b>IUnknown::Release</b> on any reference tracker ob
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/686a8a17-d6a6-4062-9f14-add132685b66">RemoveMemoryPressure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackerhost-removememorypressure">RemoveMemoryPressure</a>
 </td>
 <td align="left" width="63%">
 Informs the host of reduced memory allocations since the last notification.
@@ -131,7 +131,7 @@ Informs the host of reduced memory allocations since the last notification.
 
 
 
-An implementation of this interface must be registered with the XAML framework by passing it to the <a href="https://msdn.microsoft.com/02828d30-5023-4bd6-9c7a-8a3458462655">IReferenceTrackerManager::SetReferenceTrackerHost</a> method.
+An implementation of this interface must be registered with the XAML framework by passing it to the <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackermanager-setreferencetrackerhost">IReferenceTrackerManager::SetReferenceTrackerHost</a> method.
 
 
 

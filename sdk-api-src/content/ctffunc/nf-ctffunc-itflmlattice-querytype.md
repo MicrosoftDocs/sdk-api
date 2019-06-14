@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ### -param rguidType [in]
 
-Specifies the lattice type identifier. This can be one of the <a href="https://msdn.microsoft.com/ce4bf11b-e7e7-4f06-b572-8ed6f0ed8d36">Lattice Type</a> values.
+Specifies the lattice type identifier. This can be one of the <a href="https://docs.microsoft.com/windows/desktop/TSF/lattice-types">Lattice Type</a> values.
 
 
 ### -param pfSupported [out]
@@ -110,11 +110,11 @@ Either <i>pfSupported</i> is invalid or the specified lattice type is not suppor
 
 
 
-<a href="https://msdn.microsoft.com/25ad6ef2-1d42-498a-852f-163a0efbc26a">ITfLMLattice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itflmlattice">ITfLMLattice</a>
 
 
 
-<a href="https://msdn.microsoft.com/ce4bf11b-e7e7-4f06-b572-8ed6f0ed8d36">Lattice Types
+<a href="https://docs.microsoft.com/windows/desktop/TSF/lattice-types">Lattice Types
       </a>
  
 

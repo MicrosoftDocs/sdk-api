@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-An <b>ICspStatus</b> object contains information about a  cryptographic provider/algorithm pair. The object is primarily used by the Certificate Enrollment Control to enable a user to select which cryptographic providers and algorithms to use when creating a certificate request. It can be retrieved, either alone or in an  <a href="https://msdn.microsoft.com/73d0f3a7-7afd-42c9-88db-911531c50137">ICspStatuses</a> collection, by calling the following properties or methods:<table>
+An <b>ICspStatus</b> object contains information about a  cryptographic provider/algorithm pair. The object is primarily used by the Certificate Enrollment Control to enable a user to select which cryptographic providers and algorithms to use when creating a certificate request. It can be retrieved, either alone or in an  <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a> collection, by calling the following properties or methods:<table>
 <tr>
 <th>Property/Method</th>
 <th>Interface</th>
@@ -57,59 +57,59 @@ An <b>ICspStatus</b> object contains information about a  cryptographic provider
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/6b551e72-2f0a-4ae8-ba06-dff1508a7d83">GetCspStatusFromOperations</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-getcspstatusfromoperations">GetCspStatusFromOperations</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>
 </td>
 <td>Creates an <b>ICspStatus</b> object for the first supported algorithm that is consistent with a specified algorithm object identifier (OID) and algorithm type.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/7c099357-8299-4664-ba16-7f8936e16054">GetCspStatusesFromOperations</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformations-getcspstatusesfromoperations">GetCspStatusesFromOperations</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/8141023c-c162-46d6-9c37-e227ce1c8761">ICspInformations</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformations">ICspInformations</a>
 </td>
-<td>Creates an <a href="https://msdn.microsoft.com/73d0f3a7-7afd-42c9-88db-911531c50137">ICspStatuses</a> collection for a specified algorithm type and optional provider information.<div class="alert"><b>Note</b>  The Certificate Enrollment Control uses an <a href="https://msdn.microsoft.com/73d0f3a7-7afd-42c9-88db-911531c50137">ICspStatuses</a> collection only for private key asymmetric (encryption, signing, and key exchange) algorithm  selection.</div>
+<td>Creates an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a> collection for a specified algorithm type and optional provider information.<div class="alert"><b>Note</b>  The Certificate Enrollment Control uses an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a> collection only for private key asymmetric (encryption, signing, and key exchange) algorithm  selection.</div>
 <div> </div>
 </td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/f73d40cb-dde3-46a5-ba9f-f7cbfa2efe70">GetCspStatusFromProviderName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformations-getcspstatusfromprovidername">GetCspStatusFromProviderName</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/8141023c-c162-46d6-9c37-e227ce1c8761">ICspInformations</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformations">ICspInformations</a>
 </td>
 <td>Creates an <b>ICspStatus</b> object for a legacy provider by provider name and supported key operations.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/8bf6e62d-9ecf-4eee-9652-f04d2010b4f7">CspStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_cspstatus">CspStatus</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
 </td>
 <td>Specifies or retrieves an <b>ICspStatus</b> object. The  object is typically created during the enrollment process.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/50dc8cc5-21ee-4347-a12a-0d6e62901fbb">GetCspStatuses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs10-getcspstatuses">GetCspStatuses</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/5b3764dc-fc63-45cc-8c35-65539c461e81">IX509CertificateRequestPkcs10</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
 </td>
-<td>Creates an <a href="https://msdn.microsoft.com/73d0f3a7-7afd-42c9-88db-911531c50137">ICspStatuses</a> collection that contains all  provider/algorithm pairs consistent with the intended use of the private key as specified by the caller.</td>
+<td>Creates an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a> collection that contains all  provider/algorithm pairs consistent with the intended use of the private key as specified by the caller.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/cad6d8f0-f7d6-4ede-96a2-b00159962a1b">CspStatuses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs10-get_cspstatuses">CspStatuses</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/5b3764dc-fc63-45cc-8c35-65539c461e81">IX509CertificateRequestPkcs10</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
 </td>
-<td>Creates an <a href="https://msdn.microsoft.com/73d0f3a7-7afd-42c9-88db-911531c50137">ICspStatuses</a> collection that contains all  provider/algorithm pairs consistent with the intended use of the private key as identified by the <a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a> object associated with the certificate request.</td>
+<td>Creates an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a> collection that contains all  provider/algorithm pairs consistent with the intended use of the private key as identified by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a> object associated with the certificate request.</td>
 </tr>
 </table>
  
@@ -120,17 +120,17 @@ Because cryptographic providers typically support more than one algorithm, multi
 
 <img alt="Structure of the ICspStatuses collection showing individual ICspStatus objects" src="./images/ICSPStatuses.png"/>
 
-You can use the <a href="https://msdn.microsoft.com/56798477-ec12-47b6-a226-d20258677033">EnrollmentStatus</a> property on an <b>ICspStatus</b> object to retrieve an <a href="https://msdn.microsoft.com/fa5e3a10-7f00-46b6-b740-b72d78745bf7">IX509EnrollmentStatus</a> object that defines the following properties:<ul>
-<li>The <a href="https://msdn.microsoft.com/91ac74af-8e59-42fc-bca8-d7ef96a1fed0">Display</a> property specifies whether the provider/algorithm pair can be displayed in a user interface.</li>
-<li>The <a href="https://msdn.microsoft.com/9050f394-ccad-4a6e-90bc-53af3a874f91">Selected</a> property specifies or retrieves a value that indicates whether the status of a specific item is monitored during the enrollment process.</li>
-<li>The <a href="https://msdn.microsoft.com/ca1105eb-a29a-458d-abbb-34c9b67d7c8a">Status</a> property identifies the status of the enrollment process.</li>
+You can use the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspstatus-get_enrollmentstatus">EnrollmentStatus</a> property on an <b>ICspStatus</b> object to retrieve an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentstatus">IX509EnrollmentStatus</a> object that defines the following properties:<ul>
+<li>The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentstatus-get_display">Display</a> property specifies whether the provider/algorithm pair can be displayed in a user interface.</li>
+<li>The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentstatus-get_selected">Selected</a> property specifies or retrieves a value that indicates whether the status of a specific item is monitored during the enrollment process.</li>
+<li>The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentstatus-get_status">Status</a> property identifies the status of the enrollment process.</li>
 </ul>
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICspStatus</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICspStatus</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICspStatus</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICspStatus</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -146,7 +146,7 @@ The <b>ICspStatus</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dc5f92e8-29fe-474c-bf1d-c6d7716abce1">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspstatus-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object from a cryptographic provider and an associated algorithm.
@@ -165,12 +165,12 @@ Initializes the object from a cryptographic provider and an associated algorithm
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/fc86ff4a-98f4-4e14-8d24-132926c9b41d">CspAlgorithm</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspstatus-get_cspalgorithm">CspAlgorithm</a>
 
 
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://msdn.microsoft.com/08eba616-2e96-40cd-9fda-8549de98c138">ICspAlgorithm</a> object that contains information about an algorithm supported by the provider.
+Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspalgorithm">ICspAlgorithm</a> object that contains information about an algorithm supported by the provider.
 
 [WebEnabled]
 
@@ -179,12 +179,12 @@ Retrieves an <a href="https://msdn.microsoft.com/08eba616-2e96-40cd-9fda-8549de9
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/9e9202ad-086e-493b-8830-0a0f8980cec5">CspInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspstatus-get_cspinformation">CspInformation</a>
 
 
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a> object that contains general information about the provider.
+Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a> object that contains general information about the provider.
 
 [WebEnabled]
 
@@ -193,7 +193,7 @@ Retrieves an <a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/7c778f78-1e94-4e84-a51a-3c0171f19db6">DisplayName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspstatus-get_displayname">DisplayName</a>
 
 
 </td>
@@ -205,24 +205,24 @@ Retrieves a string that contains the name of the provider, the algorithm name, a
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/56798477-ec12-47b6-a226-d20258677033">EnrollmentStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspstatus-get_enrollmentstatus">EnrollmentStatus</a>
 
 
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://msdn.microsoft.com/fa5e3a10-7f00-46b6-b740-b72d78745bf7">IX509EnrollmentStatus</a> object that contains information about the certificate enrollment.
+Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentstatus">IX509EnrollmentStatus</a> object that contains information about the certificate enrollment.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/e392e28f-084e-43a7-8a5e-14bea0ed8d58">Ordinal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspstatus-get_ordinal">Ordinal</a>
 
 
 </td>
 <td align="left" width="63%">
-Specifies or retrieves the  position of the <b>ICspStatus</b> object in the <a href="https://msdn.microsoft.com/73d0f3a7-7afd-42c9-88db-911531c50137">ICspStatuses</a> collection.
+Specifies or retrieves the  position of the <b>ICspStatus</b> object in the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a> collection.
 
 </td>
 </tr>
@@ -234,15 +234,15 @@ Specifies or retrieves the  position of the <b>ICspStatus</b> object in the <a h
 
 
 
-<a href="https://msdn.microsoft.com/d49511ed-8651-457e-a102-0bea4edde24c">CertEnroll Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/73d0f3a7-7afd-42c9-88db-911531c50137">ICspStatuses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

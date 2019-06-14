@@ -71,7 +71,7 @@ The recognizer treats the ink as a single word.
 
 For example, if the recognizer context contains to get her, the recognizer returns together.
 
-<div class="alert"><b>Note</b>  Some compound words in the dictionary are treated as single words by recognizers of Latin script. For example, recognizers of Latin script treat "Los Angeles" as a single word if you use the WordMode flag. In addition, certain factoids-such as the Date <a href="https://msdn.microsoft.com/247a1f7d-8205-4e4d-9cfc-daad9bd2191f">Factoid</a> in English (United Kingdom), English (United States), German, and French-treat some multiple word dates as single words. For example, these recognizers treat "January 21, 2000" as a single word if you use the WordMode flag.</div>
+<div class="alert"><b>Note</b>  Some compound words in the dictionary are treated as single words by recognizers of Latin script. For example, recognizers of Latin script treat "Los Angeles" as a single word if you use the WordMode flag. In addition, certain factoids-such as the Date <a href="https://docs.microsoft.com/windows/desktop/tablet/factoid-constants">Factoid</a> in English (United Kingdom), English (United States), German, and French-treat some multiple word dates as single words. For example, these recognizers treat "January 21, 2000" as a single word if you use the WordMode flag.</div>
 <div> </div>
 
 ### -field IRM_Coerce
@@ -137,15 +137,15 @@ In C++, explicit casting is required when trying to set more than one flag at a 
 
 
 
-<a href="https://msdn.microsoft.com/247a1f7d-8205-4e4d-9cfc-daad9bd2191f">Factoid Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/factoid-constants">Factoid Constants</a>
 
 
 
-<a href="https://msdn.microsoft.com/2b39fd32-831d-4606-8600-b52aaa7ed882">InkRecognizerContext Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/71b02f99-4076-4c56-b88a-4201b7033411">RecognitionFlags Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_recognitionflags">RecognitionFlags Property</a>
  
 
  

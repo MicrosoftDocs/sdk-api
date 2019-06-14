@@ -63,12 +63,12 @@ Retrieves the capabilities of a video processor mode.
 
 ### -param lpVideoProcessorMode [in]
 
-Pointer to a GUID that identifies the video processor mode. To get a list of available modes, call <a href="https://msdn.microsoft.com/1004341d-d39b-4032-a027-39e35ecab635">IMFVideoProcessor::GetAvailableVideoProcessorModes</a>.
+Pointer to a GUID that identifies the video processor mode. To get a list of available modes, call <a href="https://docs.microsoft.com/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getavailablevideoprocessormodes">IMFVideoProcessor::GetAvailableVideoProcessorModes</a>.
 
 
 ### -param lpVideoProcessorCaps [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/cff01719-e653-4ea1-a177-9a6948b0da56">DXVA2_VideoProcessorCaps</a> structure that receives the capabilities.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_videoprocessorcaps">DXVA2_VideoProcessorCaps</a> structure that receives the capabilities.
 
 
 ## -returns
@@ -124,11 +124,11 @@ Before calling this method, you must set the media type for the reference stream
 
 
 
-<a href="https://msdn.microsoft.com/1c985558-d25d-4f51-978a-58c05943dab9">Enhanced Video Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://msdn.microsoft.com/0a63c4f8-eb32-4f0c-b69b-0c16243f2f21">IMFVideoProcessor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evr9/nn-evr9-imfvideoprocessor">IMFVideoProcessor</a>
  
 
  

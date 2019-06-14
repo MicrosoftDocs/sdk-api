@@ -65,7 +65,7 @@ Reserved. Must be zero.
 
 ### -param ConfigId [in]
 
-Type of configuration record to be set. This parameter can be one of the following values from the <a href="https://msdn.microsoft.com/1b250408-4e3b-4cec-a31e-2c7f7ebad23b">HTTP_SERVICE_CONFIG_ID</a> enumeration.
+Type of configuration record to be set. This parameter can be one of the following values from the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_service_config_id">HTTP_SERVICE_CONFIG_ID</a> enumeration.
 
 <table>
 <tr>
@@ -135,7 +135,7 @@ Sets a specified SSL Server Name Indication (SNI) certificate record.
 </dl>
 </td>
 <td width="60%">
-Sets the   SSL certificate record that specifies that Http.sys should consult the Centralized Certificate Store (CCS) store to find certificates if the  port receives a Transport Layer Security (TLS) handshake. The port is specified by the <b>KeyDesc</b> member of the <a href="https://msdn.microsoft.com/BA815FB7-4A9F-4917-89E7-3CD108E1CEE3">HTTP_SERVICE_CONFIG_SSL_CCS_SET</a> structure that you  pass to the <i>pConfigInformation</i> parameter.
+Sets the   SSL certificate record that specifies that Http.sys should consult the Centralized Certificate Store (CCS) store to find certificates if the  port receives a Transport Layer Security (TLS) handshake. The port is specified by the <b>KeyDesc</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_ccs_set">HTTP_SERVICE_CONFIG_SSL_CCS_SET</a> structure that you  pass to the <i>pConfigInformation</i> parameter.
 
 <b>Windows 8 and later:  </b>This enumeration value is supported.
 
@@ -161,7 +161,7 @@ A pointer to a buffer that contains the appropriate data to specify the type of 
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/a45fd5e4-0ae4-47fc-bb50-931e0947a6bc">HTTP_SERVICE_CONFIG_IP_LISTEN_PARAM</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ip_listen_param">HTTP_SERVICE_CONFIG_IP_LISTEN_PARAM</a> structure.
 
 </td>
 </tr>
@@ -172,7 +172,7 @@ A pointer to a buffer that contains the appropriate data to specify the type of 
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/23adda0b-907d-4804-9c12-e549af4f18c4">HTTP_SERVICE_CONFIG_SSL_SET</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_set">HTTP_SERVICE_CONFIG_SSL_SET</a> structure.
 
 </td>
 </tr>
@@ -183,7 +183,7 @@ A pointer to a buffer that contains the appropriate data to specify the type of 
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/92fc3f65-0153-4075-a61b-48a63c8e0ffe">HTTP_SERVICE_CONFIG_URLACL_SET</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_urlacl_set">HTTP_SERVICE_CONFIG_URLACL_SET</a> structure.
 
 </td>
 </tr>
@@ -194,7 +194,7 @@ A pointer to a buffer that contains the appropriate data to specify the type of 
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/928cb09d-9f63-4334-b034-ee27e950ce0a">HTTP_SERVICE_CONFIG_TIMEOUT_SET</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_timeout_set">HTTP_SERVICE_CONFIG_TIMEOUT_SET</a> structure.
 
 
 <b>Windows Vista and later:  </b>This structure is supported.
@@ -210,7 +210,7 @@ A pointer to a buffer that contains the appropriate data to specify the type of 
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/382838B9-C15E-459F-AC40-ECA15EFC18B8">HTTP_SERVICE_CONFIG_SSL_SNI_SET</a> structure. The hostname will be "*" when the SSL central certificate store is queried and wildcard bindings are used, and a host name for regular SNI.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_sni_set">HTTP_SERVICE_CONFIG_SSL_SNI_SET</a> structure. The hostname will be "*" when the SSL central certificate store is queried and wildcard bindings are used, and a host name for regular SNI.
 
 
 <b>Windows 8 and later:  </b>This structure is supported.
@@ -226,7 +226,7 @@ A pointer to a buffer that contains the appropriate data to specify the type of 
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/BA815FB7-4A9F-4917-89E7-3CD108E1CEE3">HTTP_SERVICE_CONFIG_SSL_CCS_SET</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_ccs_set">HTTP_SERVICE_CONFIG_SSL_CCS_SET</a> structure.
 
 
 <b>Windows 8 and later:  </b>This structure is supported.
@@ -324,7 +324,7 @@ The SSL Certificate used is invalid.  This can occur only if the <i>HttpServiceC
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> defined in WinError.h.
+A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> defined in WinError.h.
 
 </td>
 </tr>
@@ -348,19 +348,19 @@ The configuration parameters set with <b>HttpSetServiceConfiguration</b> are app
 
 
 
-<a href="https://msdn.microsoft.com/1da9907d-a09d-41e1-aca1-9a8e2b91296f">HTTP Server API Version 1.0 Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-functions">HTTP Server API Version 1.0 Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/0ae94936-4c6a-4c9f-adb8-5e3af75cf486">HttpDeleteServiceConfiguration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpdeleteserviceconfiguration">HttpDeleteServiceConfiguration</a>
 
 
 
-<a href="https://msdn.microsoft.com/bbd2c3c4-d2d0-4590-9b5c-6916b91600cd">HttpQueryServiceConfiguration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a>
 
 
 
-<a href="https://msdn.microsoft.com/B2102444-1183-4133-A83F-A58587FB6B89">HttpUpdateServiceConfiguration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpupdateserviceconfiguration">HttpUpdateServiceConfiguration</a>
  
 
  

@@ -80,7 +80,7 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/40e6f80d-a778-4d5f-bb1b-db294815f8b5">HRESULT_FROM_WIN32</a>(ERROR_CANCELLED)</b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a>(ERROR_CANCELLED)</b></dt>
 </dl>
 </td>
 <td width="60%">

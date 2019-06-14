@@ -97,7 +97,7 @@ Unknown app package architecture.
 
 
 
-<a href="https://msdn.microsoft.com/0A332C96-9535-4BD3-B4D2-39559E430870">IAppxManifestPackageId::GetArchitecture</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestpackageid-getarchitecture">IAppxManifestPackageId::GetArchitecture</a>
  
 
  

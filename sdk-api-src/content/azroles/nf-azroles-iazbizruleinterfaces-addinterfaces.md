@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>AddInterfaces</b> method adds the specified interfaces to the list of <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interfaces that can be called by business rule (BizRule) scripts. To add the specified interfaces, AzMan calls the <a href="https://msdn.microsoft.com/library/s8eyc3sh(v=VS.85).aspx">AddNamedItem</a> method of the <a href="https://msdn.microsoft.com/library/ky29ffxd(v=VS.85).aspx">IActiveScript</a> interface once for each specified interface.
+The <b>AddInterfaces</b> method adds the specified interfaces to the list of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interfaces that can be called by business rule (BizRule) scripts. To add the specified interfaces, AzMan calls the <a href="https://docs.microsoft.com/scripting/winscript/reference/iactivescript-addnameditem">AddNamedItem</a> method of the <a href="https://docs.microsoft.com/scripting/winscript/reference/iactivescript">IActiveScript</a> interface once for each specified interface.
 
 
 ## -parameters
@@ -59,17 +59,17 @@ The <b>AddInterfaces</b> method adds the specified interfaces to the list of <a 
 
 ### -param varInterfaceNames [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> that specifies the names that scripts use to call the interfaces specified by the <i>varInterfaces</i> array.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY</a> that specifies the names that scripts use to call the interfaces specified by the <i>varInterfaces</i> array.
 
 
 ### -param varInterfaceFlags [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> that specifies flags sent to the <a href="https://msdn.microsoft.com/library/s8eyc3sh(v=VS.85).aspx">AddNamedItem</a> method of the <a href="https://msdn.microsoft.com/library/ky29ffxd(v=VS.85).aspx">IActiveScript</a> interface. The <b>AddNamedItem</b> always behaves as if the <b>SCRIPTITEM_ISVISIBLE</b> flag is set, and the <b>SCRIPTITEM_ISPERSISTENT</b> flag is not set.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY</a> that specifies flags sent to the <a href="https://docs.microsoft.com/scripting/winscript/reference/iactivescript-addnameditem">AddNamedItem</a> method of the <a href="https://docs.microsoft.com/scripting/winscript/reference/iactivescript">IActiveScript</a> interface. The <b>AddNamedItem</b> always behaves as if the <b>SCRIPTITEM_ISVISIBLE</b> flag is set, and the <b>SCRIPTITEM_ISPERSISTENT</b> flag is not set.
 
 
 ### -param varInterfaces [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> that specifies the IDs of the interfaces to be added.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY</a> that specifies the IDs of the interfaces to be added.
 
 
 ## -returns
@@ -78,7 +78,7 @@ A <a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFE
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an error code. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 

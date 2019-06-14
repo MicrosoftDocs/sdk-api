@@ -61,7 +61,7 @@ The traffic control object
 ### -field ObjectHdr
 
 The QOS object 
-<a href="https://msdn.microsoft.com/a2021d70-e7ef-4c2a-8800-1a1d7540ce02">QOS_OBJECT_HDR</a>. The object type for this traffic control object should be 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>. The object type for this traffic control object should be 
 <b>QOS_OBJECT_DS_CLASS</b>.
 
 
@@ -141,19 +141,19 @@ Non-conformant traffic
 
 
 
-<a href="https://msdn.microsoft.com/3d1035dc-0e46-46f4-abb3-26100356b60d">QOS_DIFFSERV</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qosobjs/ns-qosobjs-_qos_diffserv">QOS_DIFFSERV</a>
 
 
 
-<a href="https://msdn.microsoft.com/732cfbec-4175-4397-854f-0d2a930e11bc">QOS_DIFFSERV_RULE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qosobjs/ns-qosobjs-_qos_diffserv_rule">QOS_DIFFSERV_RULE</a>
 
 
 
-<a href="https://msdn.microsoft.com/a2021d70-e7ef-4c2a-8800-1a1d7540ce02">QOS_OBJECT_HDR</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>
 
 
 
-<a href="https://msdn.microsoft.com/60c6492f-ddcf-401c-8121-2349b89eb223">QOS_TRAFFIC_CLASS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qosobjs/ns-qosobjs-_qos_traffic_class">QOS_TRAFFIC_CLASS</a>
  
 
  

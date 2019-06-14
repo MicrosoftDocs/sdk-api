@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>ACTIVATION_CONTEXT_QUERY_INDEX</b> structure is used by 
-<a href="https://msdn.microsoft.com/7d45f63f-0baf-4236-b245-d36f9eb32e8c">QueryActCtxW</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-queryactctxw">QueryActCtxW</a> function.
 
 
 ## -struct-fields
@@ -74,9 +74,9 @@ Zero-based index of the file in the above assembly to be queried.
 
 
 Calling the 
-<a href="https://msdn.microsoft.com/7d45f63f-0baf-4236-b245-d36f9eb32e8c">QueryActCtxW</a> function with the FileInformationInAssemblyOfAssemblyInActivationContext option requires that the <i>pvSubInstance</i> parameter point to an 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-queryactctxw">QueryActCtxW</a> function with the FileInformationInAssemblyOfAssemblyInActivationContext option requires that the <i>pvSubInstance</i> parameter point to an 
 <b>ACTIVATION_CONTEXT_QUERY_INDEX</b> structure. See the sample for 
-<a href="https://msdn.microsoft.com/7f1e5155-a6c1-4b6a-be47-37fab337186c">ASSEMBLY_FILE_DETAILED_INFORMATION</a> for an example of its use.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_assembly_file_detailed_information">ASSEMBLY_FILE_DETAILED_INFORMATION</a> for an example of its use.
 
 
 

@@ -76,7 +76,7 @@ The property value.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -97,11 +97,11 @@ Property IDs are defined by the Text Object Model (TOM).  Here are how some of t
 
 
 
-<a href="https://msdn.microsoft.com/d2d43bfd-7cdf-458a-822d-e3965bfe2284">ITextFont2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4d35fed-9bf5-431e-96c9-b1d51d51703a">ITextFont2::SetProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont2-setproperty">ITextFont2::SetProperty</a>
  
 
  

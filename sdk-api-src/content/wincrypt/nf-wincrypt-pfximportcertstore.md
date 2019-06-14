@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PFXImportCertStore</b> function imports a PFX BLOB and returns the handle of a store that contains certificates and any associated <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private keys</a>.
+The <b>PFXImportCertStore</b> function imports a PFX BLOB and returns the handle of a store that contains certificates and any associated <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private keys</a>.
 
 
 ## -parameters
@@ -59,16 +59,16 @@ The <b>PFXImportCertStore</b> function imports a PFX BLOB and returns the handle
 
 ### -param pPFX [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_DATA_BLOB</a> structure that contains a PFX packet with the exported and encrypted certificates and keys.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that contains a PFX packet with the exported and encrypted certificates and keys.
 
 
 ### -param szPassword [in]
 
 A string password used to decrypt and verify the PFX packet. Whether set to a string of length greater than zero or set to an empty string or to <b>NULL</b>,  this value must be exactly the same as the value that was used to encrypt the packet.
 
-Beginning with Windows 8 and Windows Server 2012, if the PFX packet was created in the <a href="https://msdn.microsoft.com/e8bd54b1-946f-4c65-8a86-96f0dbec07ff">PFXExportCertStoreEx</a> function by using the <b>PKCS12_PROTECT_TO_DOMAIN_SIDS</b> flag, the <b>PFXImportCertStore</b> function attempts to decrypt the password by using the Active Directory (AD) principal that was used to encrypt it. The AD principal is specified in the <i>pvPara</i> parameter. If the <i>szPassword</i> parameter in the <b>PFXExportCertStoreEx</b> function was an empty string or <b>NULL</b> and the <i>dwFlags</i> parameter was set to <b>PKCS12_PROTECT_TO_DOMAIN_SIDS</b>, that function randomly generated a password and encrypted it to the AD principal specified in the <i>pvPara</i> parameter. In that case you should set the password to the value, empty string or <b>NULL</b>, that was used when the PFX packet was created. The <b>PFXImportCertStore</b> function will use the AD principal to decrypt the random password, and the randomly generated password will be used to decrypt the PFX certificate.
+Beginning with Windows 8 and Windows Server 2012, if the PFX packet was created in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-pfxexportcertstoreex">PFXExportCertStoreEx</a> function by using the <b>PKCS12_PROTECT_TO_DOMAIN_SIDS</b> flag, the <b>PFXImportCertStore</b> function attempts to decrypt the password by using the Active Directory (AD) principal that was used to encrypt it. The AD principal is specified in the <i>pvPara</i> parameter. If the <i>szPassword</i> parameter in the <b>PFXExportCertStoreEx</b> function was an empty string or <b>NULL</b> and the <i>dwFlags</i> parameter was set to <b>PKCS12_PROTECT_TO_DOMAIN_SIDS</b>, that function randomly generated a password and encrypted it to the AD principal specified in the <i>pvPara</i> parameter. In that case you should set the password to the value, empty string or <b>NULL</b>, that was used when the PFX packet was created. The <b>PFXImportCertStore</b> function will use the AD principal to decrypt the random password, and the randomly generated password will be used to decrypt the PFX certificate.
 
-When you have finished using the password, clear it from memory by calling the <a href="https://msdn.microsoft.com/2c4090a6-025b-4b7b-8f31-7e744ad51b39">SecureZeroMemory</a> function. For more information about protecting passwords, see <a href="https://msdn.microsoft.com/1d810f71-9bf5-4c5c-a573-c35081f604cf">Handling Passwords</a>.
+When you have finished using the password, clear it from memory by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function. For more information about protecting passwords, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
 
 
 ### -param dwFlags [in]
@@ -88,7 +88,7 @@ This parameter can be one of the following values.
 </td>
 <td width="60%">
 Imported keys are marked as exportable. If this flag is not used, calls to 
-the <a href="https://msdn.microsoft.com/8a7c7b46-3bea-4043-b568-6d91d6335737">CryptExportKey</a> function with the key handle fail.
+the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptexportkey">CryptExportKey</a> function with the key handle fail.
 
 </td>
 </tr>
@@ -99,7 +99,7 @@ the <a href="https://msdn.microsoft.com/8a7c7b46-3bea-4043-b568-6d91d6335737">Cr
 </dl>
 </td>
 <td width="60%">
-The user is to be notified through a dialog box or other method when certain attempts to use this key are made. The precise behavior is specified by the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) being used.
+The user is to be notified through a dialog box or other method when certain attempts to use this key are made. The precise behavior is specified by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) being used.
 
 Prior to Internet Explorer 4.0, Microsoft cryptographic service providers ignored this flag. Starting with Internet Explorer 4.0, Microsoft providers support this flag.
 
@@ -136,7 +136,7 @@ The private keys are stored under the current user and not under the local compu
 </dl>
 </td>
 <td width="60%">
-Indicates that the CNG <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33">key storage provider</a> (KSP) is preferred. If the CSP is specified in the PFX file, then the CSP is used, otherwise the KSP is preferred. If the CNG KSP is unavailable, the <b>PFXImportCertStore</b> function will fail.
+Indicates that the CNG <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key storage provider</a> (KSP) is preferred. If the CSP is specified in the PFX file, then the CSP is used, otherwise the KSP is preferred. If the CNG KSP is unavailable, the <b>PFXImportCertStore</b> function will fail.
 
 <b>Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
@@ -177,7 +177,7 @@ Allow overwrite of the existing key. Specify this flag when you encounter a scen
 <td width="60%">
 Do not persist the key. Specify this flag when you do not want to persist the key. For example, if it is not necessary to store the key after verification, then instead of creating a container and then deleting it, you can specify this flag to dispose of the key immediately.
 
-<div class="alert"><b>Note</b>  If the <b>PKCS12_NO_PERSIST_KEY</b> flag is not set, keys are persisted on disk. If you do not want to persist the keys beyond their usage, you must delete them by calling the <a href="https://msdn.microsoft.com/57e13662-3189-4f8d-b90a-d1fbdc09b63c">CryptAcquireContext</a>  function with the <b>CRYPT_DELETEKEYSET</b> flag set in the <i>dwFlags</i> parameter.</div>
+<div class="alert"><b>Note</b>  If the <b>PKCS12_NO_PERSIST_KEY</b> flag is not set, keys are persisted on disk. If you do not want to persist the keys beyond their usage, you must delete them by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>  function with the <b>CRYPT_DELETEKEYSET</b> flag set in the <i>dwFlags</i> parameter.</div>
 <div> </div>
 <b>Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
@@ -221,7 +221,7 @@ Unpack but do not persist the results.
 
 If the function succeeds, the function returns a handle to a certificate store that contains the imported certificates, including available private keys.
 
-If the function fails, that is, if the password parameter does not contain an exact match with the password used to encrypt the exported packet or if there were any other problems decoding the PFX BLOB, the function returns <b>NULL</b>, and an error code can be found by calling the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+If the function fails, that is, if the password parameter does not contain an exact match with the password used to encrypt the exported packet or if there were any other problems decoding the PFX BLOB, the function returns <b>NULL</b>, and an error code can be found by calling the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 
 
@@ -230,7 +230,7 @@ If the function fails, that is, if the password parameter does not contain an ex
 
 
 
-The <b>PFXImportCertStore</b> function opens a temporary store. If the function succeeds, you should close the handle to the store by calling the <a href="https://msdn.microsoft.com/a93fdd65-359e-4046-910d-347c3af01280">CertCloseStore</a> function.
+The <b>PFXImportCertStore</b> function opens a temporary store. If the function succeeds, you should close the handle to the store by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a> function.
 
 When you import a certificate from the PFX packet, the CSP/KSP container name is determined by using the AttributeId with OID 1.3.6.1.4.1.311.17.1 of the PKCS8ShroudedKeyBag SafeBag [bagId: 1.2.840.113549.1.12.10.1.2] (see <a href="http://www.rsa.com/rsalabs/node.asp?id=2138">PKCS #12</a> for details about the ASN.1 structure of this).
 
@@ -280,11 +280,11 @@ If the AttributeId is not present, then the CAPI key value is set to AT_KEYEXCHA
 
 
 
-<a href="https://msdn.microsoft.com/003602c6-d6c9-4695-9c60-ffaf0aa02266">PFXExportCertStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-pfxexportcertstore">PFXExportCertStore</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8bd54b1-946f-4c65-8a86-96f0dbec07ff">PFXExportCertStoreEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-pfxexportcertstoreex">PFXExportCertStoreEx</a>
  
 
  

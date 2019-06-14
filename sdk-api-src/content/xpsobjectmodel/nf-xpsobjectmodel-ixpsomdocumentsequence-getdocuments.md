@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets a pointer to the <a href="https://msdn.microsoft.com/4f3acae9-10a0-47ff-9170-a40abe230580">IXpsOMDocumentCollection</a> interface, which contains the documents specified in the document sequence.
+Gets a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocumentcollection">IXpsOMDocumentCollection</a> interface, which contains the documents specified in the document sequence.
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Gets a pointer to the <a href="https://msdn.microsoft.com/4f3acae9-10a0-47ff-917
 
 ### -param documents [out, retval]
 
-A pointer to the <a href="https://msdn.microsoft.com/4f3acae9-10a0-47ff-9170-a40abe230580">IXpsOMDocumentCollection</a> interface, which contains the documents specified in the document sequence. If the sequence does not have any documents, the <b>IXpsOMDocumentCollection</b> interface will be empty.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocumentcollection">IXpsOMDocumentCollection</a> interface, which contains the documents specified in the document sequence. If the sequence does not have any documents, the <b>IXpsOMDocumentCollection</b> interface will be empty.
 
 
 ## -returns
 
 
 
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -105,7 +105,7 @@ The method succeeded.
 
 
 
-If the document sequence does not have any documents, the document collection that is returned in <i>documents</i> will be empty. To get  the number of documents in the collection, call the collection's <a href="https://msdn.microsoft.com/92ca1a4f-7fc8-4dd5-b594-6097e0ab2203">GetCount</a> method.
+If the document sequence does not have any documents, the document collection that is returned in <i>documents</i> will be empty. To get  the number of documents in the collection, call the collection's <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomdocumentcollection-getcount">GetCount</a> method.
 
 
 
@@ -115,7 +115,7 @@ If the document sequence does not have any documents, the document collection th
 
 
 
-<a href="https://msdn.microsoft.com/472095a4-ecd8-406a-97c2-1a34b4e5184a">IXpsOMDocumentSequence</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocumentsequence">IXpsOMDocumentSequence</a>
 
 
 
@@ -123,7 +123,7 @@ If the document sequence does not have any documents, the document collection th
 
 
 
-<a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
  
 
  

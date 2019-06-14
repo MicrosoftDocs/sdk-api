@@ -86,7 +86,7 @@ Returns <b>TRUE</b> if <i>pszName</i> exceeds the number of characters allowed b
 
 
 
-<a href="https://msdn.microsoft.com/c69d6cca-44e7-4792-8fb2-3c4ecd2e57f2">PathIsFileSpec</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathisfilespeca">PathIsFileSpec</a>
  
 
  

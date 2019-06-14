@@ -92,11 +92,11 @@ Returns S_OK if successful, or an error code otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/04d2e14a-374b-405d-803b-0bd6f57c077a">IActiveDesktopP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-iactivedesktopp">IActiveDesktopP</a>
 
 
 
-<a href="https://msdn.microsoft.com/68d72b0f-f5e9-4fff-bb13-4c60d1dd7009">Using the Active Desktop Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/lwef/active-desktop-interface">Using the Active Desktop Object</a>
  
 
  

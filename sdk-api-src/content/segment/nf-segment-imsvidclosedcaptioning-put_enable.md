@@ -94,11 +94,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/070a208b-cf4c-41e1-9a5f-76cc444285c9">IMSVidClosedCaptioning Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidclosedcaptioning">IMSVidClosedCaptioning Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694472(v=VS.85).aspx">IMSVidClosedCaptioning::get_Enable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidclosedcaptioning-get_enable">IMSVidClosedCaptioning::get_Enable</a>
  
 
  

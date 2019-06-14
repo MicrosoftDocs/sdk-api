@@ -95,7 +95,7 @@ When any XAML diagnostics API results in a resource reference becoming invalid, 
 
 
 
-<a href="https://msdn.microsoft.com/F1C11F32-9524-49D6-89DD-C89E4A81720A">IVisualTreeServiceCallback2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservicecallback2">IVisualTreeServiceCallback2</a>
  
 
  

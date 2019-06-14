@@ -82,7 +82,7 @@ All [out] and [in, out] parameters are freed.
 
 
 
-<a href="https://msdn.microsoft.com/97261d93-40cf-4a27-9bee-677600c04699">ICallFrame::Free</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframe-free">ICallFrame::Free</a>
  
 
  

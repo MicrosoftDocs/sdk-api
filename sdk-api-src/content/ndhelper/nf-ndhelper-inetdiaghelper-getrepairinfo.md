@@ -59,7 +59,7 @@ The <b>GetRepairInfo</b> method retrieves the repair information that the Helper
 
 ### -param problem [in]
 
-A <a href="https://msdn.microsoft.com/cf5a4205-b79f-4de6-b153-0955c6ff4e11">PROBLEM_TYPE</a> value that specifies the problem type that the helper class has previously diagnosed.
+A <a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/ne-ndhelper-tagproblem_type">PROBLEM_TYPE</a> value that specifies the problem type that the helper class has previously diagnosed.
 
 
 ### -param pcelt [out]
@@ -69,7 +69,7 @@ A pointer to a count of elements in the <b>RepairInfo</b> array.
 
 ### -param ppInfo [out]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/07639ac5-e586-4ab1-96e8-502c378de940">RepairInfo</a> structures.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-tagrepairinfo">RepairInfo</a> structures.
 
 
 ## -returns
@@ -169,7 +169,7 @@ This method is not required when building a Helper Class Extension.
 
 
 
-<a href="https://msdn.microsoft.com/7f1b8a5b-389b-4276-a49d-94a39be3c35c">INetDiagHelper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>
  
 
  

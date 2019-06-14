@@ -78,7 +78,7 @@ Reserved.
 
 
 
-<a href="https://msdn.microsoft.com/331D32B5-1583-4A2C-9A1A-0D546DDE846D">RpcRevertContainerImpersonation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcrevertcontainerimpersonation">RpcRevertContainerImpersonation</a>
  
 
  

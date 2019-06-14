@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="https://msdn.microsoft.com/8F33B96B-AA9A-46d5-8808-0F2D0723935B">Windows Firewall with Advanced Security</a> API is recommended.]
+<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
 
 Returns the specified service if it is in the collection. 
 
@@ -73,7 +73,7 @@ Type of  service to fetch.
 <tr>
 <td><strong>VB</strong></td>
 <td>
-Type of  service to fetch. See <a href="https://msdn.microsoft.com/c2d7c143-8b89-41a8-8c5f-ac1e90ca5215">NET_FW_SERVICE_TYPE</a>
+Type of  service to fetch. See <a href="https://docs.microsoft.com/windows/desktop/api/icftypes/ne-icftypes-net_fw_service_type">NET_FW_SERVICE_TYPE</a>
 
 
 </td>
@@ -93,7 +93,7 @@ Reference to the returned <b>INetFwService</b> object.
 <tr>
 <td><strong>VB</strong></td>
 <td>
-Reference to the returned <a href="https://msdn.microsoft.com/57a777a4-03f5-416a-ae28-474d8794a759">INetFwService</a> object.
+Reference to the returned <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwservice">INetFwService</a> object.
 
 </td>
 </tr>
@@ -243,15 +243,15 @@ The method failed because the requested item does not exist.
 
 
 
-<a href="https://msdn.microsoft.com/57a777a4-03f5-416a-ae28-474d8794a759">INetFwService</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwservice">INetFwService</a>
 
 
 
-<a href="https://msdn.microsoft.com/b99464c5-dabc-405a-ad3e-da06a6faef47">INetFwServices</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwservices">INetFwServices</a>
 
 
 
-<a href="https://msdn.microsoft.com/c2d7c143-8b89-41a8-8c5f-ac1e90ca5215">NET_FW_SERVICE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/icftypes/ne-icftypes-net_fw_service_type">NET_FW_SERVICE_TYPE</a>
  
 
  

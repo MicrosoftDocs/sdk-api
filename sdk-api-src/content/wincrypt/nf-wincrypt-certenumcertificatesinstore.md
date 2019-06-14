@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CertEnumCertificatesInStore</b> function retrieves the first or next certificate in a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a>. Used in a loop, this function can retrieve in sequence all certificates in a certificate store.
+The <b>CertEnumCertificatesInStore</b> function retrieves the first or next certificate in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a>. Used in a loop, this function can retrieve in sequence all certificates in a certificate store.
 
 
 ## -parameters
@@ -59,18 +59,18 @@ The <b>CertEnumCertificatesInStore</b> function retrieves the first or next cert
 
 ### -param hCertStore [in]
 
-A handle of a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a>.
+A handle of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a>.
 
 
 ### -param pPrevCertContext [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> of the previous <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate context</a> found.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> of the previous <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a> found.
 
-This parameter must be <b>NULL</b> to begin the enumeration and get the first certificate in the store. Successive certificates are enumerated by setting <i>pPrevCertContext</i> to the pointer returned by a previous call to the function. This function frees the <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> referenced by non-<b>NULL</b> values of this parameter.
+This parameter must be <b>NULL</b> to begin the enumeration and get the first certificate in the store. Successive certificates are enumerated by setting <i>pPrevCertContext</i> to the pointer returned by a previous call to the function. This function frees the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> referenced by non-<b>NULL</b> values of this parameter.
 
-For <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">logical stores</a>, including collection stores, a duplicate of the <i>pCertContext</i> returned by this function cannot be used to begin a new subsequence of enumerations because the duplicated certificate loses the initial enumeration <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">state</a>. The enumeration skips any certificate previously deleted by 
-<a href="https://msdn.microsoft.com/4390c8da-9c4d-47a4-9af4-d179829f77f3">CertDeleteCertificateFromStore</a>.
+For <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logical stores</a>, including collection stores, a duplicate of the <i>pCertContext</i> returned by this function cannot be used to begin a new subsequence of enumerations because the duplicated certificate loses the initial enumeration <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">state</a>. The enumeration skips any certificate previously deleted by 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certdeletecertificatefromstore">CertDeleteCertificateFromStore</a>.
 
 
 ## -returns
@@ -78,10 +78,10 @@ For <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">lo
 
 
 If the function succeeds, the function returns  a pointer to the next 
-<a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> in the store. If no more certificates exist in the store, the function returns <b>NULL</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> in the store. If no more certificates exist in the store, the function returns <b>NULL</b>.
 
 For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. Some possible error codes follow.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Some possible error codes follow.
 
 <table>
 <tr>
@@ -132,15 +132,15 @@ Applies to external stores. No certificates were found. This happens if the stor
 
 
 The returned pointer is freed when passed as the <i>pPrevCertContext</i> parameter on a subsequent call. Otherwise, the pointer must be freed by calling 
-<a href="https://msdn.microsoft.com/7d2f3237-3f8b-4234-b6db-3057384cd89b">CertFreeCertificateContext</a>. A non-<b>NULL</b> <i>pPrevCertContext</i> passed to <b>CertEnumCertificatesInStore</b> is always freed even for an error.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>. A non-<b>NULL</b> <i>pPrevCertContext</i> passed to <b>CertEnumCertificatesInStore</b> is always freed even for an error.
 
 A duplicate of the currently enumerated certificate can be made by calling 
-<a href="https://msdn.microsoft.com/589edd25-c8d0-4f93-83b2-9df2ed2e2812">CertDuplicateCertificateContext</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecertificatecontext">CertDuplicateCertificateContext</a>.
 
 
 #### Examples
 
-The following  example lists the certificate contexts in the certificate store. For another example that uses this function, see <a href="https://msdn.microsoft.com/52a0287b-7d2a-483e-8bbc-43621c4b7103">Example C Program: Deleting Certificates from a Certificate Store</a>.
+The following  example lists the certificate contexts in the certificate store. For another example that uses this function, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-deleting-certificates-from-a-certificate-store">Example C Program: Deleting Certificates from a Certificate Store</a>.
 
 
 ```cpp
@@ -206,35 +206,35 @@ if (!CertCloseStore(
 
 
 
-<a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/4390c8da-9c4d-47a4-9af4-d179829f77f3">CertDeleteCertificateFromStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certdeletecertificatefromstore">CertDeleteCertificateFromStore</a>
 
 
 
-<a href="https://msdn.microsoft.com/589edd25-c8d0-4f93-83b2-9df2ed2e2812">CertDuplicateCertificateContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecertificatecontext">CertDuplicateCertificateContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e481912-204a-4d86-ab67-81f8ae4d1aaa">CertFindCRLInStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindcrlinstore">CertFindCRLInStore</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5ed3b22-e96f-4e7d-a20e-eebed0a84d3c">CertFindCTLInStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindctlinstore">CertFindCTLInStore</a>
 
 
 
-<a href="https://msdn.microsoft.com/20b3fcfb-55df-46ff-80a5-70f31a3d03b2">CertFindCertificateInStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindcertificateinstore">CertFindCertificateInStore</a>
 
 
 
-<a href="https://msdn.microsoft.com/7d2f3237-3f8b-4234-b6db-3057384cd89b">CertFreeCertificateContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Functions</a>
  
 
  

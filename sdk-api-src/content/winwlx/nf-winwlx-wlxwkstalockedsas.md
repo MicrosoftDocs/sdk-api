@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>WlxWkstaLockedSAS</b> function must be implemented by a replacement <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> DLL. <a href="https://msdn.microsoft.com/031c898b-3b4d-4b29-811a-112da37b5e3d">Winlogon</a> calls this function when it receives a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">secure attention sequence</a> (SAS) and the workstation is locked. The GINA should return a value that indicates the workstation is to remain locked, the workstation is to be unlocked, or the logged-on user is to be logged off (which leaves the workstation locked until the logoff is completed).
+The <b>WlxWkstaLockedSAS</b> function must be implemented by a replacement <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> DLL. <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> calls this function when it receives a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">secure attention sequence</a> (SAS) and the workstation is locked. The GINA should return a value that indicates the workstation is to remain locked, the workstation is to be unlocked, or the logged-on user is to be logged off (which leaves the workstation locked until the logoff is completed).
 <div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>WlxWkstaLockedSAS</b> function must be implemented by a replacement <a hr
 ### -param pWlxContext [in]
 
 A pointer to the GINA context associated with this window station. The GINA returns this context value when Winlogon calls 
-<a href="https://msdn.microsoft.com/db03f2b3-0719-40be-8a42-04ab7110f711">WlxInitialize</a> for this station.
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> for this station.
 
 
 ### -param dwSasType [in]
@@ -80,7 +80,7 @@ The following SAS types are predefined.
 </dl>
 </td>
 <td width="60%">
-Indicates a user has typed the standard CTRL+ALT+DEL <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">secure attention sequence</a> (SAS).
+Indicates a user has typed the standard CTRL+ALT+DEL <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">secure attention sequence</a> (SAS).
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ Indicates a user has typed the standard CTRL+ALT+DEL <a href="https://msdn.micro
 </dl>
 </td>
 <td width="60%">
-Indicates that a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">smart card</a> has been inserted into a compatible device.
+Indicates that a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> has been inserted into a compatible device.
 
 </td>
 </tr>
@@ -136,7 +136,7 @@ The <b>WlxWkstaLockedSAS</b> function should return the following values.
 </dl>
 </td>
 <td width="60%">
-Tells <a href="https://msdn.microsoft.com/031c898b-3b4d-4b29-811a-112da37b5e3d">Winlogon</a> to keep the workstation locked.
+Tells <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> to keep the workstation locked.
 
 </td>
 </tr>
@@ -193,7 +193,7 @@ Before calling <b>WlxWkstaLockedSAS</b>, Winlogon sets the desktop state so that
 
 
 
-<a href="https://msdn.microsoft.com/db03f2b3-0719-40be-8a42-04ab7110f711">WlxInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
  
 
  

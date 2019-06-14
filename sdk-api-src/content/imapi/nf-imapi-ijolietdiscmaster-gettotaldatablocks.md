@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Retrieves the total number of blocks available for staging a Joliet data disc. The data returned from this method is valid only after a 
-<a href="https://msdn.microsoft.com/5f2e9135-d251-4702-b5d1-51d9b445a4f5">SetActiveDiscRecorder</a> call, especially in a multi-session burn.
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmaster-setactivediscrecorder">SetActiveDiscRecorder</a> call, especially in a multi-session burn.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ S_OK is returned on success, but other success codes may be returned as a result
 
 
 
-<a href="https://msdn.microsoft.com/e2269b68-1860-4afd-90f2-d61297f3fa9b">IJolietDiscMaster</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-ijolietdiscmaster">IJolietDiscMaster</a>
  
 
  

@@ -82,7 +82,7 @@ Pointer to a constant string specifying who the message is from. If this paramet
 ### -param buf [in]
 
 Pointer to a buffer that contains the message text. For more information, see 
-<a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a>.
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a>.
 
 
 ### -param buflen [in]
@@ -170,8 +170,8 @@ A general failure occurred in the network hardware.
 
 
 If you call this function on a domain controller that is running Active Directory, access is allowed or denied based on the access control list (ACL) for the securable object. The default ACL permits only Domain Admins and Account Operators to call this function. On a member server or workstation, only Administrators and Server Operators can call this function. For more information, see 
-<a href="https://msdn.microsoft.com/846a5b81-d5bf-4275-a898-38e6ba308b8f">Security Requirements for the Network Management Functions</a>. For more information on ACLs and ACEs, see 
-<a href="https://msdn.microsoft.com/fd3b718a-5eff-4894-9fc6-d157ddb67330">Access Control Model</a>.
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/security-requirements-for-the-network-management-functions">Security Requirements for the Network Management Functions</a>. For more information on ACLs and ACEs, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-model">Access Control Model</a>.
 
 
 
@@ -181,33 +181,33 @@ If you call this function on a domain controller that is running Active Director
 
 
 
-<a href="https://msdn.microsoft.com/9face737-3472-4a53-97b6-e861a60ee96a">Message
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/message-functions">Message
 		  Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/5330e883-5439-46af-b4ae-b0926feadb70">NetMessageNameAdd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmmsg/nf-lmmsg-netmessagenameadd">NetMessageNameAdd</a>
 
 
 
-<a href="https://msdn.microsoft.com/6d6c65ee-f53e-4a24-b8c0-50faa76af640">NetMessageNameDel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmmsg/nf-lmmsg-netmessagenamedel">NetMessageNameDel</a>
 
 
 
-<a href="https://msdn.microsoft.com/fc1b11e6-294d-47d3-8c63-bee80b5a8581">NetMessageNameEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmmsg/nf-lmmsg-netmessagenameenum">NetMessageNameEnum</a>
 
 
 
-<a href="https://msdn.microsoft.com/72129865-2aee-41d5-8a89-53bb815a7f63">NetMessageNameGetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmmsg/nf-lmmsg-netmessagenamegetinfo">NetMessageNameGetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd159e2e-f37e-46b2-b980-008b73d40b39">Network
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
  
 

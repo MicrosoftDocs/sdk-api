@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>BLUETOOTH_LOCAL_SERVICE_INFO</b> structure contains local service information for a Bluetooth device. This structure is used by the <a href="https://msdn.microsoft.com/836c7804-6747-4a0b-b97c-c8c4e00374ca">BluetoothSetLocalServiceInfo</a> function.
+The <b>BLUETOOTH_LOCAL_SERVICE_INFO</b> structure contains local service information for a Bluetooth device. This structure is used by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb870603(v=vs.85)">BluetoothSetLocalServiceInfo</a> function.
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ If <b>TRUE</b>, specifies that the advertised services are enabled; otherwise th
 
 ### -field btAddr
 
-A <a href="https://msdn.microsoft.com/2262a91b-c8b0-415a-9c23-7504998cc2a4">BLUETOOTH_ADDRESS</a> structure that contains the address of a remote device. This address is used when advertising services to a device.
+A <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluetoothapis-_bluetooth_address">BLUETOOTH_ADDRESS</a> structure that contains the address of a remote device. This address is used when advertising services to a device.
 
 
 ### -field szName
@@ -91,7 +91,7 @@ In the event  the service is not associated with a specific device, <b>btAddr</b
 
 
 
-<a href="https://msdn.microsoft.com/836c7804-6747-4a0b-b97c-c8c4e00374ca">BluetoothSetLocalServiceInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb870603(v=vs.85)">BluetoothSetLocalServiceInfo</a>
  
 
  

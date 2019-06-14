@@ -61,7 +61,7 @@ Called by the Remote Desktop Protocol (RDP) stack to return a stream buffer to t
 
 Type: <b>IRDPSRAPITransportStreamBuffer*</b>
 
-An <a href="https://msdn.microsoft.com/44087315-7a71-4557-89b3-bf8c66ed10a4">IRDPSRAPITransportStreamBuffer</a> interface pointer that represents the buffer to free.
+An <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstreambuffer">IRDPSRAPITransportStreamBuffer</a> interface pointer that represents the buffer to free.
 
 
 ## -returns
@@ -80,7 +80,7 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the return v
 
 
 
-<a href="https://msdn.microsoft.com/18ac00d5-f574-463f-a34a-40c2dc16d4d8">IRDPSRAPITransportStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstream">IRDPSRAPITransportStream</a>
  
 
  

@@ -61,7 +61,7 @@ Establishes a callback to be invoked to write bytes within an element.  In some 
 
 ### -param writer [in]
 
-A pointer to the XML Writer object to which the bytes are written.  The pointer must reference a valid <a href="https://msdn.microsoft.com/8f413e60-8a30-492c-8f2d-80be511fee11">WS_XML_WRITER</a> and   the referenced value may not be <b>NULL</b>.
+A pointer to the XML Writer object to which the bytes are written.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> and   the referenced value may not be <b>NULL</b>.
                 
 
 
@@ -79,7 +79,7 @@ A pointer to a user-defined state that is  passed to the callback function.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 
@@ -126,13 +126,13 @@ The operation is not allowed due to the current state of the object.
 
 
 
-When writing with the <a href="https://msdn.microsoft.com/en-us/library/Dd323578(v=VS.85).aspx">WS_XML_WRITER_MTOM_ENCODING</a>, <b>WsPushBytes</b> provides a way
+When writing with the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_writer_mtom_encoding">WS_XML_WRITER_MTOM_ENCODING</a>, <b>WsPushBytes</b> provides a way
         to write bytes directly into its own MIME part and avoid a copy.  However, the writer at its discretion,
         may choose to invoke the callback immediately, so the caller should be prepared for this.
       
 
 If the encoding cannot take advantage of this behavior, then <b>WsPushBytes</b> will invoke the
-        callback immediately and operate as if <a href="https://msdn.microsoft.com/1fa9ecfc-c791-459f-ae11-ffcdc82b7145">WsWriteBytes</a> was called.
+        callback immediately and operate as if <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritebytes">WsWriteBytes</a> was called.
       
 
 

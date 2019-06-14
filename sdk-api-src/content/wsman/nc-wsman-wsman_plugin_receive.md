@@ -61,7 +61,7 @@ The DLL entry point name must be <b>WSManPluginReceive</b>.
 
 ### -param *requestDetails
 
-A pointer to a <a href="https://msdn.microsoft.com/3191f2b3-e754-4f2d-ae8b-11da859c94b7">WSMAN_PLUGIN_REQUEST</a> structure that specifies the resource URI, options, locale, shutdown flag, and handle for the request.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_plugin_request">WSMAN_PLUGIN_REQUEST</a> structure that specifies the resource URI, options, locale, shutdown flag, and handle for the request.
 
 
 ### -param flags
@@ -81,7 +81,7 @@ If this request is aimed at a command and not a shell, this is the context retur
 
 ### -param *streamSet
 
-A <a href="https://msdn.microsoft.com/a5705afa-e0b3-4a74-8c13-5abf3f53a209">WSMAN_STREAM_ID_SET</a> structure that contains a list of streams for which  data is to be received.  If this list is empty, all streams that were configured in the shell are implied, which means  that all streams are available.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_stream_id_set">WSMAN_STREAM_ID_SET</a> structure that contains a list of streams for which  data is to be received.  If this list is empty, all streams that were configured in the shell are implied, which means  that all streams are available.
 
 
 ## -returns
@@ -97,7 +97,7 @@ This callback function does not return a value.
 
 
 
-Based on the client request, the <b>WSMAN_PLUGIN_RECEIVE</b> callback function can be called against the shell and/or the command. The plug-in calls the <a href="https://msdn.microsoft.com/717c1e37-83e1-4caf-8b52-175999597fc0">WSManPluginReceiveResult</a> method for each piece of data that needs to be sent back to the client. After all of the data has been sent, the plug-in calls <a href="https://msdn.microsoft.com/6cb47762-edfc-48d7-88ec-d62056ea1751">WSManPluginOperationComplete</a> to end the stream. All parameters passed in are valid until the Windows Remote Management (WinRM) plug-in calls <b>WSManPluginOperationComplete</b>.
+Based on the client request, the <b>WSMAN_PLUGIN_RECEIVE</b> callback function can be called against the shell and/or the command. The plug-in calls the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanpluginreceiveresult">WSManPluginReceiveResult</a> method for each piece of data that needs to be sent back to the client. After all of the data has been sent, the plug-in calls <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanpluginoperationcomplete">WSManPluginOperationComplete</a> to end the stream. All parameters passed in are valid until the Windows Remote Management (WinRM) plug-in calls <b>WSManPluginOperationComplete</b>.
 
 
 

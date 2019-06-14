@@ -59,14 +59,14 @@ Requests the text host to create a timer with a specified time-out.
 
 ### -param idTimer [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Timer identifier. 
 
 
 ### -param uTimeout [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Time-out in milliseconds. 
 
@@ -75,7 +75,7 @@ Time-out in milliseconds.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Return <b>TRUE</b> if the method succeeds. 
 
@@ -88,7 +88,7 @@ Return <b>FALSE</b> if the method fails.
 
 
 
-<i>idTimer</i> is used in <a href="https://msdn.microsoft.com/en-us/library/Bb787708(v=VS.85).aspx">ITextHost::TxKillTimer</a>.
+<i>idTimer</i> is used in <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-txkilltimer">ITextHost::TxKillTimer</a>.
 
 
 
@@ -102,7 +102,7 @@ Return <b>FALSE</b> if the method fails.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
 
 
 
@@ -110,11 +110,11 @@ Return <b>FALSE</b> if the method fails.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787708(v=VS.85).aspx">TxKillTimer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-txkilltimer">TxKillTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
  
 
  

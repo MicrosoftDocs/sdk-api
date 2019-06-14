@@ -140,7 +140,7 @@ Invalid pointer.
 
 
 
-Another way to obtain the same result is to pass <i>pbItemId</i> and <i>pbChangeUnitId</i> to the <a href="https://msdn.microsoft.com/67fc3b59-ad82-47a4-9fc6-2d980b9e26fe">ISyncKnowledge::ContainsChangeUnit</a> method of <i>pKnowledge</i>, and then take the resulting projected knowledge and pass it to the <a href="https://msdn.microsoft.com/b6b58390-84be-48ff-a3b9-3b3c83d4f661">ISyncKnowledge::ContainsKnowledge</a> method of this object.
+Another way to obtain the same result is to pass <i>pbItemId</i> and <i>pbChangeUnitId</i> to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-containschangeunit">ISyncKnowledge::ContainsChangeUnit</a> method of <i>pKnowledge</i>, and then take the resulting projected knowledge and pass it to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-containsknowledge">ISyncKnowledge::ContainsKnowledge</a> method of this object.
 
 
 
@@ -151,11 +151,11 @@ Another way to obtain the same result is to pass <i>pbItemId</i> and <i>pbChange
 
 
 
-<a href="https://msdn.microsoft.com/cfb08476-7b5d-4953-b723-5160330e57be">ISyncKnowledge Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/1acbae32-8fa6-4c1e-95f6-30aca483c966">ISyncKnowledge2 Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge2">ISyncKnowledge2 Interface</a>
  
 
  

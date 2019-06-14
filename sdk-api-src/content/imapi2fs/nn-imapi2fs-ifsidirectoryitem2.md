@@ -54,7 +54,7 @@ Use this interface to add a directory tree, which includes all sub-directories, 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsiDirectoryItem2</b> interface inherits from <a href="https://msdn.microsoft.com/1c9a2e36-0e79-4bad-b880-ddfbf473308b">IFsiDirectoryItem</a>. <b>IFsiDirectoryItem2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsiDirectoryItem2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsidirectoryitem">IFsiDirectoryItem</a>. <b>IFsiDirectoryItem2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IFsiDirectoryItem2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d87d1932-85d4-4d7d-99a7-933a87b48b6a">AddTreeWithNamedStreams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem2-addtreewithnamedstreams">AddTreeWithNamedStreams</a>
 </td>
 <td align="left" width="63%">
 Adds the contents of a directory tree along with the named streams associated with the files in the file system image.
@@ -101,7 +101,7 @@ This interface is supported in Windows Server 2003 with Service Pack 1 (SP1), 
 
 
 
-<a href="https://msdn.microsoft.com/1c9a2e36-0e79-4bad-b880-ddfbf473308b">IFsiDirectoryItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsidirectoryitem">IFsiDirectoryItem</a>
  
 
  

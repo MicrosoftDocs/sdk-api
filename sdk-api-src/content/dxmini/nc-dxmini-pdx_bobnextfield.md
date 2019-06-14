@@ -74,7 +74,7 @@ The <i>DxBobNextField</i> callback function bobs the next field of interleaved d
 
 #### - BobNextFieldInfo
 
-Points to a <a href="https://msdn.microsoft.com/fad2bf3d-798c-47d9-bd82-b6fc0deff0aa">DDBOBNEXTFIELDINFO</a> structure that contains the bob information for the surface.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddbobnextfieldinfo">DDBOBNEXTFIELDINFO</a> structure that contains the bob information for the surface.
 
 
 #### - HwDeviceExtension
@@ -94,15 +94,15 @@ Reserved for system use.
 <i>DxBobNextField</i> returns DX_OK if it succeeds; otherwise, it returns one of the following error values:
 
 
-<a href="https://msdn.microsoft.com/da4cc7d7-6826-48aa-96c6-004e31fc3e3e">DXERR_GENERIC</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/display/return-values-for-directdraw">DXERR_GENERIC</a>
 
 
 
-<a href="https://msdn.microsoft.com/da4cc7d7-6826-48aa-96c6-004e31fc3e3e">DXERR_OUTOFCAPS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/display/return-values-for-directdraw">DXERR_OUTOFCAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/da4cc7d7-6826-48aa-96c6-004e31fc3e3e">DXERR_UNSUPPORTED</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/display/return-values-for-directdraw">DXERR_UNSUPPORTED</a>
 
 
 
@@ -112,7 +112,7 @@ Reserved for system use.
 
 
 
-When data is interleaved, the driver's <a href="https://msdn.microsoft.com/4ce2e967-7b4a-4065-844d-d8852dec8a8f">DdFlip</a> function is called every other frame. This is insufficient for bob because it must be notified after every V-sync. The driver's <i>DxBobNextField</i> function is called when a V-sync does not cause a flip. 
+When data is interleaved, the driver's <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_flip">DdFlip</a> function is called every other frame. This is insufficient for bob because it must be notified after every V-sync. The driver's <i>DxBobNextField</i> function is called when a V-sync does not cause a flip. 
 
 
 
@@ -122,11 +122,11 @@ When data is interleaved, the driver's <a href="https://msdn.microsoft.com/4ce2e
 
 
 
-<a href="https://msdn.microsoft.com/fad2bf3d-798c-47d9-bd82-b6fc0deff0aa">DDBOBNEXTFIELDINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddbobnextfieldinfo">DDBOBNEXTFIELDINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ce2e967-7b4a-4065-844d-d8852dec8a8f">DdFlip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_flip">DdFlip</a>
  
 
  

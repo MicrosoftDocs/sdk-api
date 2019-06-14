@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>get_Event</b> method gets the 
-<a href="https://msdn.microsoft.com/7fb4acab-d60a-4848-a426-5e2960efefc1">ADDRESS_EVENT</a> descriptor of an event.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-address_event">ADDRESS_EVENT</a> descriptor of an event.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param pEvent [out]
 
 Pointer to the 
-<a href="https://msdn.microsoft.com/7fb4acab-d60a-4848-a426-5e2960efefc1">ADDRESS_EVENT</a> descriptor of an event.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-address_event">ADDRESS_EVENT</a> descriptor of an event.
 
 
 ## -returns
@@ -131,8 +131,8 @@ The <i>pEvent</i> parameter is not a valid pointer.
 
 
 Certain events on PnP devices, such as AE_NEWTERMINAL and AE_REMOVETERMINAL, will not be received until after the first time static terminals are enumerated using 
-<a href="https://msdn.microsoft.com/91fea706-9792-40e1-b812-f7578bc7968b">ITTerminalSupport::EnumerateStaticTerminals</a> or 
-<a href="https://msdn.microsoft.com/f4cdd3f5-ca8c-4660-b37c-c38779a516dd">ITTerminalSupport::get_StaticTerminals</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-enumeratestaticterminals">ITTerminalSupport::EnumerateStaticTerminals</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-get_staticterminals">ITTerminalSupport::get_StaticTerminals</a>.
 
 
 
@@ -142,15 +142,15 @@ Certain events on PnP devices, such as AE_NEWTERMINAL and AE_REMOVETERMINAL, wil
 
 
 
-<a href="https://msdn.microsoft.com/7fb4acab-d60a-4848-a426-5e2960efefc1">ADDRESS_EVENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-address_event">ADDRESS_EVENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/ab6db262-f99e-4027-9525-7597fcf02e72">Address Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/340d938a-a107-4317-af65-3dca98102767">ITAddressEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddressevent">ITAddressEvent</a>
  
 
  

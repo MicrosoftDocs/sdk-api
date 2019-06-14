@@ -62,7 +62,7 @@ The <b>PEVENT_RECORD_CALLBACK</b> type defines a pointer to this callback functi
 ### -param EventRecord [in]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/e352c1a7-39a2-43e3-a723-5fc6a3921ee8">EVENT_RECORD</a> structure that contains the event information.
+<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_record">EVENT_RECORD</a> structure that contains the event information.
 
 
 ## -returns
@@ -81,13 +81,13 @@ The function does not return a value.
 
 To specify the function that ETW calls to deliver events, set the 
 <b>EventRecordCallback</b> member of the 
-<a href="https://msdn.microsoft.com/179451e9-7e3c-4d3a-bcc6-3ad9d382229a">EVENT_TRACE_LOGFILE</a> structure (you pass this structure to the 
-<a href="https://msdn.microsoft.com/505e643b-6b4f-4f93-96c8-7fe8abdd6234">OpenTrace</a> function). You must also set the <b>ProcessTraceMode</b> member to PROCESS_TRACE_MODE_EVENT_RECORD.
+<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a> structure (you pass this structure to the 
+<a href="https://docs.microsoft.com/windows/desktop/ETW/opentrace">OpenTrace</a> function). You must also set the <b>ProcessTraceMode</b> member to PROCESS_TRACE_MODE_EVENT_RECORD.
 
 This callback receives all events that the session generates from the time you call the 
-<a href="https://msdn.microsoft.com/505e643b-6b4f-4f93-96c8-7fe8abdd6234">OpenTrace</a> function. Call the <a href="https://msdn.microsoft.com/aea25a95-f435-4068-9b15-7473f31ebf16">ProcessTrace</a> function to begin receiving the events.
+<a href="https://docs.microsoft.com/windows/desktop/ETW/opentrace">OpenTrace</a> function. Call the <a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a> function to begin receiving the events.
 
-For information on parsing the event data, see <a href="https://msdn.microsoft.com/8164b963-6232-42aa-b15e-071ac389dd27">Retrieving Event Data Using TDH</a>. 
+For information on parsing the event data, see <a href="https://docs.microsoft.com/windows/desktop/ETW/retrieving-event-data-using-tdh">Retrieving Event Data Using TDH</a>. 
 
 
 
@@ -97,15 +97,15 @@ For information on parsing the event data, see <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/0cfe2f62-63dc-45a6-96ce-fb4bf458358f">BufferCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/buffercallback">BufferCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/179451e9-7e3c-4d3a-bcc6-3ad9d382229a">EVENT_TRACE_LOGFILE</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a>
 
 
 
-<a href="https://msdn.microsoft.com/aea25a95-f435-4068-9b15-7473f31ebf16">ProcessTrace</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a>
  
 
  

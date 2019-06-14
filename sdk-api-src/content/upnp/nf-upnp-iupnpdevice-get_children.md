@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>Children</b> property specifies all the child devices of the device. The devices are stored in an 
-<a href="https://msdn.microsoft.com/237715dc-2b5a-45b4-b006-d31c0b4e89e3">IUPnPDevices</a> collection.
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevices">IUPnPDevices</a> collection.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param ppudChildren [out]
 
 Receives a reference to an 
-<a href="https://msdn.microsoft.com/237715dc-2b5a-45b4-b006-d31c0b4e89e3">IUPnPDevices</a> collection that enumerates the child devices of the device. This reference must be released when it is no longer required. 
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevices">IUPnPDevices</a> collection that enumerates the child devices of the device. This reference must be released when it is no longer required. 
 
 
 
@@ -83,7 +83,7 @@ For C++: If this property's "get" method succeeds, the return value is S_OK. Oth
 
 
 
-To determine if a device has any children (but not the actual number of children), use <a href="https://msdn.microsoft.com/18a7c7e0-389d-4fc4-b98c-4eb1afea4a7e">IUPnPDevice::HasChildren</a>.
+To determine if a device has any children (but not the actual number of children), use <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_haschildren">IUPnPDevice::HasChildren</a>.
 
 
 
@@ -93,15 +93,15 @@ To determine if a device has any children (but not the actual number of children
 
 
 
-<a href="https://msdn.microsoft.com/566cc606-3dfb-4052-93b0-3c922bf30f84">IUPnPDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/18a7c7e0-389d-4fc4-b98c-4eb1afea4a7e">IUPnPDevice::HasChildren</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_haschildren">IUPnPDevice::HasChildren</a>
 
 
 
-<a href="https://msdn.microsoft.com/237715dc-2b5a-45b4-b006-d31c0b4e89e3">IUPnPDevices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevices">IUPnPDevices</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the type of information that an object should store in the <a href="https://msdn.microsoft.com/c9552d2a-fb51-4d9f-acd5-32b3f20a9e1e">OLECMDTEXT</a> structure passed in <a href="https://msdn.microsoft.com/8acbf788-f113-43d9-800d-aad84db24498">IOleCommandTarget::QueryStatus</a>. One value from this enumeration is stored the <b>cmdtextf</b> member of the <b>OLECMDTEXT</b> structure to indicate the desired information.
+Specifies the type of information that an object should store in the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-_tagolecmdtext">OLECMDTEXT</a> structure passed in <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-querystatus">IOleCommandTarget::QueryStatus</a>. One value from this enumeration is stored the <b>cmdtextf</b> member of the <b>OLECMDTEXT</b> structure to indicate the desired information.
 
 
 
@@ -79,11 +79,11 @@ The object should provide a localized status string for the command.
 
 
 
-<a href="https://msdn.microsoft.com/8acbf788-f113-43d9-800d-aad84db24498">IOleCommandTarget::QueryStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-querystatus">IOleCommandTarget::QueryStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/c9552d2a-fb51-4d9f-acd5-32b3f20a9e1e">OLECMDTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-_tagolecmdtext">OLECMDTEXT</a>
  
 
  

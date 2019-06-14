@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Copies the caret's position to the specified <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure. 
+Copies the caret's position to the specified <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure. 
 
 
 ## -parameters
@@ -64,7 +64,7 @@ Copies the caret's position to the specified <a href="https://msdn.microsoft.com
 
 Type: <b>LPPOINT</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure that is to receive the client coordinates of the caret. 
+A pointer to the <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure that is to receive the client coordinates of the caret. 
 
 
 ## -returns
@@ -76,7 +76,7 @@ Type: <b>BOOL</b>
 If the function succeeds, the return value is nonzero.
                 
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -98,7 +98,7 @@ This API does not participate in DPI virtualization. The returned values are int
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646968(v=VS.85).aspx">Carets</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/carets">Carets</a>
 
 
 
@@ -110,7 +110,7 @@ This API does not participate in DPI virtualization. The returned values are int
 
 
 
-<a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>
+<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>
 
 
 
@@ -118,7 +118,7 @@ This API does not participate in DPI virtualization. The returned values are int
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648405(v=VS.85).aspx">SetCaretPos</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setcaretpos">SetCaretPos</a>
  
 
  

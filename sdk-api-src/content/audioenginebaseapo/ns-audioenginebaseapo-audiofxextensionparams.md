@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The AudioFXExtensionParams structure is passed to the system effects ControlPanel  
-Extension PropertyPage via <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/bb416595.aspx">IShellPropSheetExt::AddPages</a>.
+Extension PropertyPage via <a href="/previous-versions/bb416595(v=msdn.10)">IShellPropSheetExt::AddPages</a>.
 
 
 ## -struct-fields
@@ -70,7 +70,7 @@ The ID for the audio endpoint.
 
 ### -field pFxProperties
 
-An <a href="https://msdn.microsoft.com/63afd5b1-87cc-4e0a-8964-2138c5fbff46">IPropertyStore</a> object.
+An <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> object.
 
 
 ## -see-also
@@ -78,11 +78,11 @@ An <a href="https://msdn.microsoft.com/63afd5b1-87cc-4e0a-8964-2138c5fbff46">IPr
 
 
 
-<a href="https://msdn.microsoft.com/63afd5b1-87cc-4e0a-8964-2138c5fbff46">IPropertyStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>
 
 
 
-<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/bb416595.aspx">IShellPropSheetExt::AddPages</a>
+<a href="/previous-versions/bb416595(v=msdn.10)">IShellPropSheetExt::AddPages</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
- Unregisters a font file loader that was previously registered with the DirectWrite font system using <a href="https://msdn.microsoft.com/f5b28c3d-c3ad-4435-92c8-07841e8d160a">RegisterFontFileLoader</a>.
+ Unregisters a font file loader that was previously registered with the DirectWrite font system using <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-registerfontfileloader">RegisterFontFileLoader</a>.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ ms.custom: 19H1
 
 ### -param fontFileLoader
 
-Type: <b><a href="https://msdn.microsoft.com/855e281e-3855-4c11-af87-68f8e0dadbf8">IDWriteFontFileLoader</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontfileloader">IDWriteFontFileLoader</a>*</b>
 
-Pointer to the file loader that was previously registered with the DirectWrite font system using <a href="https://msdn.microsoft.com/f5b28c3d-c3ad-4435-92c8-07841e8d160a">RegisterFontFileLoader</a>.
+Pointer to the file loader that was previously registered with the DirectWrite font system using <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-registerfontfileloader">RegisterFontFileLoader</a>.
 
 
 ## -returns
@@ -95,7 +95,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/73a85977-5c24-4abc-ad8c-1d0d6474bd7e">IDWriteFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>
  
 
  

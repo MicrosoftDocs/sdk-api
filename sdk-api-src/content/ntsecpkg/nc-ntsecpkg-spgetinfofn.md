@@ -49,11 +49,11 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SpGetInfo</b> function provides general information about the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a>, such as its name and capabilities.
+The <b>SpGetInfo</b> function provides general information about the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>, such as its name and capabilities.
 
 The <b>SpGetInfo</b> function is called when the client calls the 
-<a href="https://msdn.microsoft.com/130ef0fe-bb13-4a65-b476-cd25ed234da1">QuerySecurityPackageInfo</a> function of the 
-<a href="https://msdn.microsoft.com/91d2389b-1238-49d3-9fef-f1017a8072df">Security Support Provider Interface</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querysecuritypackageinfoa">QuerySecurityPackageInfo</a> function of the 
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi">Security Support Provider Interface</a>.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ The <b>SpGetInfo</b> function is called when the client calls the
 ### -param PackageInfo [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/d0bff3d8-63f1-4a4e-851f-177040af6bd2">SecPkgInfo</a> structure that is allocated by the <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">Local Security Authority</a> (LSA) and must be populated by the package.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkginfoa">SecPkgInfo</a> structure that is allocated by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) and must be populated by the package.
 
 
 ## -returns
@@ -83,13 +83,13 @@ If the function fails, return an <b>NTSTATUS</b> code that indicates the reason 
 
 
 It is safe to place pointers to constant or dynamic data into the 
-<a href="https://msdn.microsoft.com/d0bff3d8-63f1-4a4e-851f-177040af6bd2">SecPkgInfo</a> structure—the LSA will make a copy of the data prior to forwarding it.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkginfoa">SecPkgInfo</a> structure—the LSA will make a copy of the data prior to forwarding it.
 
 SSP/APs must implement the <b>SpGetInfo</b> function; however, the actual name given to the implementation is up to the developer.
 
 A pointer to the <b>SpGetInfo</b> function is available in the 
-<a href="https://msdn.microsoft.com/43ca0f9b-1393-48aa-9d9c-4dd19963a66d">SECPKG_FUNCTION_TABLE</a> structure received from the 
-<a href="https://msdn.microsoft.com/1ef3770b-197f-4d5b-9933-b7f6f63e5627">SpLsaModeInitialize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
 
 
 
@@ -99,15 +99,15 @@ A pointer to the <b>SpGetInfo</b> function is available in the
 
 
 
-<a href="https://msdn.microsoft.com/43ca0f9b-1393-48aa-9d9c-4dd19963a66d">SECPKG_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/d0bff3d8-63f1-4a4e-851f-177040af6bd2">SecPkgInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkginfoa">SecPkgInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/1ef3770b-197f-4d5b-9933-b7f6f63e5627">SpLsaModeInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a>
  
 
  

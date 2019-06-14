@@ -64,7 +64,7 @@ The <b>get_InputsAvailable</b> method retrieves the input devices that are avail
 
 ### -param pVal [out]
 
-Receives an <a href="https://msdn.microsoft.com/cb9d9885-718e-43b9-b195-66149bd7e973">IMSVidInputDevices</a> interface pointer. The caller must release the interface.
+Receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidinputdevices">IMSVidInputDevices</a> interface pointer. The caller must release the interface.
 
 
 ## -returns
@@ -80,9 +80,9 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-This method is provided for Automation clients. C++ applications can use the <a href="https://msdn.microsoft.com/2d77eca3-aec9-423d-8d02-92e6f9ab5167">IMSVidCtl::get__InputsAvailable</a> method, which takes a GUID rather than a <b>BSTR</b> value.
+This method is provided for Automation clients. C++ applications can use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get__inputsavailable">IMSVidCtl::get__InputsAvailable</a> method, which takes a GUID rather than a <b>BSTR</b> value.
 
-If the method succeeds, the <a href="https://msdn.microsoft.com/cb9d9885-718e-43b9-b195-66149bd7e973">IMSVidInputDevices</a> interface has an outstanding reference count. The caller must release the interface.
+If the method succeeds, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidinputdevices">IMSVidInputDevices</a> interface has an outstanding reference count. The caller must release the interface.
 
 
 
@@ -92,7 +92,7 @@ If the method succeeds, the <a href="https://msdn.microsoft.com/cb9d9885-718e-43
 
 
 
-<a href="https://msdn.microsoft.com/e3ea10ea-bfb4-4c35-9933-5ad0367fd9ee">IMSVidCtl Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidctl">IMSVidCtl Interface</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Enables a client <a href="https://msdn.microsoft.com/en-us/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a> (DDEML) application to attempt to reestablish a conversation with a service that has terminated a conversation with the client. When the conversation is reestablished, the Dynamic Data Exchange Management Library (DDEML) attempts to reestablish any preexisting advise loops. 
+Enables a client <a href="https://docs.microsoft.com/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a> (DDEML) application to attempt to reestablish a conversation with a service that has terminated a conversation with the client. When the conversation is reestablished, the Dynamic Data Exchange Management Library (DDEML) attempts to reestablish any preexisting advise loops. 
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Enables a client <a href="https://msdn.microsoft.com/en-us/library/ms648712(v=VS
 
 Type: <b>HCONV</b>
 
-A handle to the conversation to be reestablished. A client must have obtained the conversation handle by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/ms648745(v=VS.85).aspx">DdeConnect</a> function or from an <a href="https://msdn.microsoft.com/en-us/library/ms648720(v=VS.85).aspx">XTYP_DISCONNECT</a> transaction. 
+A handle to the conversation to be reestablished. A client must have obtained the conversation handle by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeconnect">DdeConnect</a> function or from an <a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-disconnect">XTYP_DISCONNECT</a> transaction. 
 
 
 ## -returns
@@ -74,7 +74,7 @@ If the function succeeds, the return value is the handle to the reestablished co
 
 If the function fails, the return value is 0L. 
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms648755(v=VS.85).aspx">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values: 
+The <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddegetlasterror">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values: 
 
 
 
@@ -88,15 +88,15 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms648755(v=VS.85).aspx">Dd
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648745(v=VS.85).aspx">DdeConnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeconnect">DdeConnect</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648749(v=VS.85).aspx">DdeDisconnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddedisconnect">DdeDisconnect</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a>
 
 
 

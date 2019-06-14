@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains the file index information that the <a href="https://msdn.microsoft.com/09c9b918-1def-4d19-84d4-99b881070e36">ISimilarityTraitsTable::FindSimilarFileIndex</a> method returned for a matching file.
+Contains the file index information that the <a href="https://docs.microsoft.com/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-findsimilarfileindex">ISimilarityTraitsTable::FindSimilarFileIndex</a> method returned for a matching file.
 
 
 ## -struct-fields
@@ -73,7 +73,7 @@ The number of traits that were matched. The valid range is from <b>MSRDC_MINIMUM
 
 
 
-<a href="https://msdn.microsoft.com/09c9b918-1def-4d19-84d4-99b881070e36">ISimilarityTraitsTable::FindSimilarFileIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-findsimilarfileindex">ISimilarityTraitsTable::FindSimilarFileIndex</a>
  
 
  

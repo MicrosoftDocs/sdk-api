@@ -114,7 +114,7 @@ A call to this method, resetting the sequence, does not guarantee that the same 
 
 
 
-<a href="https://msdn.microsoft.com/a42d0791-28d0-4d83-b94d-ff2f8ef9a614">IEnumEventObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ienumeventobject">IEnumEventObject</a>
  
 
  

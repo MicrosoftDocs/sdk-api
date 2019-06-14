@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines the gestures that can be passed to <a href="https://msdn.microsoft.com/EBBBCEDB-8BAC-4E87-A69C-9730865A257F">SetManualGesture</a>.
+Defines the gestures that can be passed to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-setmanualgesture">SetManualGesture</a>.
 
 
 ## -enum-fields
@@ -69,12 +69,12 @@ Only default gestures are supported. This is the default value.
 
 ### -field DIRECTMANIPULATION_GESTURE_CROSS_SLIDE_VERTICAL
 
-Vertical slide and swipe gestures are supported through the cross-slide interaction. For more information, see <a href="https://msdn.microsoft.com/897555e2-c567-4bbe-b600-553daeb223d5">Guidelines for cross-slide</a>.
+Vertical slide and swipe gestures are supported through the cross-slide interaction. For more information, see <a href="https://docs.microsoft.com/windows/uwp/input-and-devices/guidelines-for-cross-slide">Guidelines for cross-slide</a>.
 
 
 ### -field DIRECTMANIPULATION_GESTURE_CROSS_SLIDE_HORIZONTAL
 
-Horizontal slide and swipe gestures are supported through the cross-slide interaction. For more information, see <a href="https://msdn.microsoft.com/897555e2-c567-4bbe-b600-553daeb223d5">Guidelines for cross-slide</a>.
+Horizontal slide and swipe gestures are supported through the cross-slide interaction. For more information, see <a href="https://docs.microsoft.com/windows/uwp/input-and-devices/guidelines-for-cross-slide">Guidelines for cross-slide</a>.
 
 
 ### -field DIRECTMANIPULATION_GESTURE_PINCH_ZOOM
@@ -86,7 +86,7 @@ Pinch and stretch gestures for zooming.
 
 
 
-By default, <a href="https://msdn.microsoft.com/26358bc5-71e9-40f0-9243-9bddd961a0e5">Direct Manipulation</a> always reassigns tap and press-and-hold gestures to the application. 
+By default, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-portal">Direct Manipulation</a> always reassigns tap and press-and-hold gestures to the application. 
 
 
 Use <b>DIRECTMANIPULATION_GESTURE_PINCH_ZOOM</b> to zoom instead of scale.
@@ -100,7 +100,7 @@ Use <b>DIRECTMANIPULATION_GESTURE_PINCH_ZOOM</b> to zoom instead of scale.
 
 
 
-<a href="https://msdn.microsoft.com/D116798F-E381-46D4-8271-8BD8CADC9D27">Direct Manipulation Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-enumerations">Direct Manipulation Enumerations</a>
  
 
  

@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 Enumerates all modules that have been loaded for the process by the 
-<a href="https://msdn.microsoft.com/be50588b-066b-42ab-ba81-7537c811676f">SymLoadModule64</a> or <a href="https://msdn.microsoft.com/4a880090-f063-4d03-8fd5-a57ccba262c8">SymLoadModuleEx</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symloadmodule">SymLoadModule64</a> or <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symloadmoduleex">SymLoadModuleEx</a> function.
 
 
 ## -parameters
@@ -64,13 +64,13 @@ Enumerates all modules that have been loaded for the process by the
 ### -param hProcess [in]
 
 A handle to the process that was originally passed to the 
-<a href="https://msdn.microsoft.com/fb1c98cb-6cd0-4218-aea4-384c24c66395">SymInitialize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 
 ### -param EnumModulesCallback [in]
 
 The enumeration callback function. This function is called once per module. For more information, see 
-<a href="https://msdn.microsoft.com/97a82134-7e1b-4c7e-aa55-8347fea4e739">SymEnumerateModulesProc64</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-psym_enummodules_callback">SymEnumerateModulesProc64</a>.
 
 
 ### -param UserContext [in, optional]
@@ -85,7 +85,7 @@ A user-defined value or <b>NULL</b>. This value is simply passed to the callback
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -96,7 +96,7 @@ If the function fails, the return value is <b>FALSE</b>. To retrieve extended er
 
 The 
 <b>SymEnumerateModules64</b> function enumerates all modules that have been loaded for the process by 
-<a href="https://msdn.microsoft.com/be50588b-066b-42ab-ba81-7537c811676f">SymLoadModule64</a>, even if the symbol loading is deferred. The enumeration callback function is called once for each module and is passed the module information.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symloadmodule">SymLoadModule64</a>, even if the symbol loading is deferred. The enumeration callback function is called once for each module and is passed the module information.
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
@@ -120,7 +120,7 @@ SymEnumerateModulesW64(
 
 
 This function supersedes the <b>SymEnumerateModules</b> function. For more information, see 
-<a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>SymEnumerateModules</b> is defined as follows in Dbghelp.h. 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <b>SymEnumerateModules</b> is defined as follows in Dbghelp.h. 
 
 
 ```cpp
@@ -142,7 +142,7 @@ SymEnumerateModules(
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/8c7fdfaa-d4d3-42d6-ad19-23e8ffda7bf4">Enumerating Symbol Modules</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/enumerating-symbol-modules">Enumerating Symbol Modules</a>.
 
 <div class="code"></div>
 
@@ -153,19 +153,19 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/7b28f70b-2d97-4cc2-8064-dfb806f9cffa">DbgHelp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/97a82134-7e1b-4c7e-aa55-8347fea4e739">SymEnumerateModulesProc64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-psym_enummodules_callback">SymEnumerateModulesProc64</a>
 
 
 
-<a href="https://msdn.microsoft.com/fb1c98cb-6cd0-4218-aea4-384c24c66395">SymInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/be50588b-066b-42ab-ba81-7537c811676f">SymLoadModule64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symloadmodule">SymLoadModule64</a>
  
 
  

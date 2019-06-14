@@ -96,11 +96,11 @@ Method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/f2c51048-93aa-4469-b00e-911e62b5702d">ITCustomTone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcustomtone">ITCustomTone</a>
 
 
 
-<a href="https://msdn.microsoft.com/28eead55-915a-4bb6-9915-ebd56c9d123d">get_Volume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcustomtone-get_volume">get_Volume</a>
  
 
  

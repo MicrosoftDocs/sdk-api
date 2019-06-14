@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>Image::GetType</b> method gets the type (bitmap or metafile) of this 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object.
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object.
 
 
 ## -parameters
@@ -65,10 +65,10 @@ The <b>Image::GetType</b> method gets the type (bitmap or metafile) of this
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534139(v=VS.85).aspx">ImageType</a></b>
+Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-imagetype">ImageType</a></b>
 </strong>
 
-This method returns an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534139(v=VS.85).aspx">ImageType</a> enumeration that indicates the image type.
+This method returns an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-imagetype">ImageType</a> enumeration that indicates the image type.
 
 
 
@@ -78,19 +78,19 @@ This method returns an element of the <a href="https://msdn.microsoft.com/en-us/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534139(v=VS.85).aspx">ImageType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-imagetype">ImageType</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533831(v=VS.85).aspx">Loading and Displaying Metafiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-loading-and-displaying-metafiles-use">Loading and Displaying Metafiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536393(v=VS.85).aspx">Types of Bitmaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-types-of-bitmaps-about">Types of Bitmaps</a>
  
 
  

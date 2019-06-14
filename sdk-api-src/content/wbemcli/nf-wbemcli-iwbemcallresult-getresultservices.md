@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>IWbemCallResult::GetResultServices</b> method  retrieves the 
-<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> pointer, which results from a semisynchronous call to 
-<a href="https://msdn.microsoft.com/09ff9078-3d97-432b-8626-62f12b5e3ef4">IWbemServices::OpenNamespace</a> when it becomes available.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> pointer, which results from a semisynchronous call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-opennamespace">IWbemServices::OpenNamespace</a> when it becomes available.
 
 
 ## -parameters
@@ -68,8 +68,8 @@ The maximum time in milliseconds that this call blocks before it returns. If you
 ### -param ppServices [out]
 
 Cannot be <b>NULL</b>. It receives a pointer to the 
-<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> interface requested by the original call to 
-<a href="https://msdn.microsoft.com/09ff9078-3d97-432b-8626-62f12b5e3ef4">OpenNamespace</a> when it becomes available The caller must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IWbemServices::Release</a>on the returned object when it is no longer required.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> interface requested by the original call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-opennamespace">OpenNamespace</a> when it becomes available The caller must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IWbemServices::Release</a>on the returned object when it is no longer required.
 
 On error, a new object is not returned.
 
@@ -92,11 +92,11 @@ COM-specific error codes may also be returned if network problems cause you to l
 
 
 
-<a href="https://msdn.microsoft.com/f0aa0233-3b9b-4757-bfdc-26d9fd556ce9">IWbemCallResult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcallresult">IWbemCallResult</a>
 
 
 
-<a href="https://msdn.microsoft.com/09ff9078-3d97-432b-8626-62f12b5e3ef4">IWbemServices::OpenNamespace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-opennamespace">IWbemServices::OpenNamespace</a>
  
 
  

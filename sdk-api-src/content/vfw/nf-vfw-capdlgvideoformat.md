@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>capDlgVideoFormat</b> macro displays a dialog box in which the user can select the video format. The Video Format dialog box might be used to select image dimensions, bit depth, and hardware compression options. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/3b44507e-3806-467f-877a-e9992d1337cb">WM_CAP_DLG_VIDEOFORMAT</a> message.
+The <b>capDlgVideoFormat</b> macro displays a dialog box in which the user can select the video format. The Video Format dialog box might be used to select image dimensions, bit depth, and hardware compression options. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-dlg-videoformat">WM_CAP_DLG_VIDEOFORMAT</a> message.
 
 
 
@@ -69,9 +69,9 @@ Handle to a capture window.
 
 
 
-After this message returns, applications might need to update the <a href="https://msdn.microsoft.com/65ad6e33-c601-4026-a5a4-2c68576d7ab7">CAPSTATUS</a> structure because the user might have changed the image dimensions.
+After this message returns, applications might need to update the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-tagcapstatus">CAPSTATUS</a> structure because the user might have changed the image dimensions.
 
-The Video Format dialog box is unique for each capture driver. Some capture drivers might not support a Video Format dialog box. Applications can determine if the capture driver supports this message by checking the <b>fHasDlgVideoFormat</b> member of <a href="https://msdn.microsoft.com/6d341be9-6b10-495b-803b-059ead1114cc">CAPDRIVERCAPS</a>.
+The Video Format dialog box is unique for each capture driver. Some capture drivers might not support a Video Format dialog box. Applications can determine if the capture driver supports this message by checking the <b>fHasDlgVideoFormat</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-tagcapdrivercaps">CAPDRIVERCAPS</a>.
 
 
 
@@ -81,11 +81,11 @@ The Video Format dialog box is unique for each capture driver. Some capture driv
 
 
 
-<a href="https://msdn.microsoft.com/c93ecc51-e2c5-4b69-8625-c8385d53fab2">Video Capture</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://msdn.microsoft.com/21061f06-d58b-4800-a9f5-9821494fabd6">Video Capture Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
  
 
  

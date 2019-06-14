@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 This frees the heap object, and the memory associated with any allocations 
-                made on it using <a href="https://msdn.microsoft.com/633b6a11-09ba-48a7-a1ad-940846c65d79">WsAlloc</a>.
+                made on it using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsalloc">WsAlloc</a>.
             
 
 
@@ -62,7 +62,7 @@ This frees the heap object, and the memory associated with any allocations
 ### -param heap [in]
 
 The heap to free.  This must be a valid heap object that was returned
-                    from <a href="https://msdn.microsoft.com/459b7146-3b32-4df8-87e1-4ac7ad33ed0e">WsCreateHeap</a>.  This parameter may not be <b>NULL</b>.
+                    from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreateheap">WsCreateHeap</a>.  This parameter may not be <b>NULL</b>.
                 
 
 

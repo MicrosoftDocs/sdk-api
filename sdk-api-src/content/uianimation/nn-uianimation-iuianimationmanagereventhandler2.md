@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Defines a method for handling updates to an <a href="https://msdn.microsoft.com/BD7DAD23-2A7D-4EE7-9BCF-8380F928674D">animation manager</a>.
+Defines a method for handling updates to an <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationmanager2">animation manager</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAnimationManagerEventHandler2</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUIAnimationManagerEventHandler2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAnimationManagerEventHandler2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAnimationManagerEventHandler2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,10 +69,10 @@ The <b>IUIAnimationManagerEventHandler2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/398A52B3-E7FA-466E-BCED-0A6E91633CF7">IUIAnimationManager2::OnManagerStatusChanged</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanagereventhandler2-onmanagerstatuschanged">IUIAnimationManager2::OnManagerStatusChanged</a>
 </td>
 <td align="left" width="63%">
-Handles status changes to an <a href="https://msdn.microsoft.com/BD7DAD23-2A7D-4EE7-9BCF-8380F928674D">animation manager</a>.
+Handles status changes to an <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationmanager2">animation manager</a>.
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ Handles status changes to an <a href="https://msdn.microsoft.com/BD7DAD23-2A7D-4
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

@@ -63,7 +63,7 @@ Acquires D3D11 resources for use with D3D 11on12.
 
 Type: <b>ID3D11Resource*</b>
 
-Specifies a pointer to a set of D3D11 resources, defined by <a href="https://msdn.microsoft.com/3823ec00-cb3c-43ce-9f1a-be4e1e99d587">ID3D11Resource</a>.
+Specifies a pointer to a set of D3D11 resources, defined by <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a>.
           
 
 
@@ -92,7 +92,7 @@ This method does not return a value.
 This method marks the resources as "acquired" in hazard tracking.
         
 
-Keyed mutex resources cannot be provided to this method; use <a href="https://msdn.microsoft.com/31edab76-7b16-4a02-83ff-998c21e77f2e">IDXGIKeyedMutex::AcquireSync</a> instead.
+Keyed mutex resources cannot be provided to this method; use <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgikeyedmutex-acquiresync">IDXGIKeyedMutex::AcquireSync</a> instead.
         
 
 
@@ -137,7 +137,7 @@ void D3D1211on12::RenderUI()
 ```
 
 
-Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
+Refer to the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>
 
@@ -148,7 +148,7 @@ Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A
 
 
 
-<a href="https://msdn.microsoft.com/031F9AC2-E5C0-47F9-B084-2D2431F1187A">ID3D11On12Device</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11on12/nn-d3d11on12-id3d11on12device">ID3D11On12Device</a>
  
 
  

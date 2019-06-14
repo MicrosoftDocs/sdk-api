@@ -215,14 +215,14 @@ Carries input data that depends on the value specified in the <i>FunctionCode</i
 
 Returns a pointer to a buffer that contains the requested information in the structure passed in the <i>QueryLevel</i> parameter.
 
- The buffer must be freed using <a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a>.
+ The buffer must be freed using <a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a>.
 
 
 ## -returns
 
 
 
-The method returns 0x00000000 (<b>NERR_Success</b>) on success; otherwise, it returns a nonzero error code defined in Lmerr.h or Winerror.h. NET_API_STATUS error codes begin with the value 0x00000834. For more information about network management error codes, see <a href="https://msdn.microsoft.com/8ef49677-b81d-42f2-8de1-40193a3afcde">Network_Management_Error_Codes</a>. The following table describes possible return values.
+The method returns 0x00000000 (<b>NERR_Success</b>) on success; otherwise, it returns a nonzero error code defined in Lmerr.h or Winerror.h. NET_API_STATUS error codes begin with the value 0x00000834. For more information about network management error codes, see <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-error-codes">Network_Management_Error_Codes</a>. The following table describes possible return values.
 
 <table>
 <tr>
@@ -394,19 +394,19 @@ This function can be used to request that a BDC ensure that its copy of the SAM 
 
 
 
-<a href="https://msdn.microsoft.com/053e937a-c7a9-4b8f-9312-32c82b705c08">NETLOGON_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_netlogon_info_1">NETLOGON_INFO_1</a>
 
 
 
-<a href="https://msdn.microsoft.com/ab29013d-e93a-4f15-84e1-c0e3e55b288d">NETLOGON_INFO_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_netlogon_info_2">NETLOGON_INFO_2</a>
 
 
 
-<a href="https://msdn.microsoft.com/6498c4b2-523a-4050-acbd-5088b9e0eaae">NETLOGON_INFO_3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_netlogon_info_3">NETLOGON_INFO_3</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a0ffd68-149f-4d5d-8a8a-69f429ca135a">NETLOGON_INFO_4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_netlogon_info_4">NETLOGON_INFO_4</a>
  
 
  

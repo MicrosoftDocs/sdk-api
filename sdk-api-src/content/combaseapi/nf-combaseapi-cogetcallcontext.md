@@ -124,11 +124,11 @@ The call context does not support the interface specified by <i>riid</i>.
 
 
 
-<a href="https://msdn.microsoft.com/aacef77c-7185-44ed-aa1a-465c6100a431">IServerSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iserversecurity">IServerSecurity</a>
 
 
 
-<a href="https://msdn.microsoft.com/c9f6d06c-da24-48ea-908a-2462c33f7ee3">Security in COM</a>
+<a href="https://docs.microsoft.com/windows/desktop/com/security-in-com">Security in COM</a>
  
 
  

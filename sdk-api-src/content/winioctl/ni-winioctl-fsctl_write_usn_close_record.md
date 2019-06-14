@@ -52,7 +52,7 @@ Generates a record in the update sequence number (USN) change journal stream for
     file. This record will have the <b>USN_REASON_CLOSE</b> flag.
 
 To perform this operation, call the 
-    <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following 
+    <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following 
     parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -148,7 +148,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 For the implications of overlapped I/O on this operation, see the Remarks section for 
-    <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>.
 
 You can use <b>FSCTL_WRITE_USN_CLOSE_RECORD</b> 
     to force a close record into the change journal for the input handle. The close record will contain any current 
@@ -156,10 +156,10 @@ You can use <b>FSCTL_WRITE_USN_CLOSE_RECORD</b>
     operation.
 
 For more information, see 
-     <a href="https://msdn.microsoft.com/26cbacc2-d26b-434b-91b5-31aedc96da13">Creating, Modifying, and Deleting a Change Journal</a>.
+     <a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-modifying-and-deleting-a-change-journal">Creating, Modifying, and Deleting a Change Journal</a>.
 
 To retrieve a handle to a volume, call 
-     <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> with the 
+     <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> with the 
      <i>lpFileName</i> parameter set to a string in the following form:
 
 \\.\<i>X</i>:
@@ -234,23 +234,23 @@ If <b>FSCTL_WRITE_USN_CLOSE_RECORD</b> is called
 
 
 
-<a href="https://msdn.microsoft.com/9a158c2b-da8e-4ca9-b3c1-2185cf41eb7d">Change Journals</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/change-journals">Change Journals</a>
 
 
 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
 
 
 
-<a href="https://msdn.microsoft.com/87f39e1c-3ebf-4c6f-a842-699ec3c45e76">Volume Management Control Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes">Volume Management Control Codes</a>
  
 
  

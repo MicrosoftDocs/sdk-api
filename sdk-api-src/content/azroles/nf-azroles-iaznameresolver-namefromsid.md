@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>NameFromSid</b> method gets the display name that corresponds to the specified <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID).
+The <b>NameFromSid</b> method gets the display name that corresponds to the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).
 
 
 ## -parameters
@@ -64,7 +64,7 @@ The string representation of the SID to translate.
 
 ### -param pSidType [out]
 
-An element of the <a href="https://msdn.microsoft.com/4e6af6bd-056b-4f5a-b223-57a673c3fcfa">SID_NAME_USE</a> enumeration that specifies the type of SID being translated.
+An element of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_sid_name_use">SID_NAME_USE</a> enumeration that specifies the type of SID being translated.
 
 
 ### -param pbstrName [out]
@@ -78,7 +78,7 @@ A pointer to the display name of the principal that corresponds to the SID speci
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. In particular, if the method cannot find the display name of the principal, it returns <b>CO_E_NOMATCHINGNAMEFOUND</b>. For a list of other common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an error code. In particular, if the method cannot find the display name of the principal, it returns <b>CO_E_NOMATCHINGNAMEFOUND</b>. For a list of other common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 

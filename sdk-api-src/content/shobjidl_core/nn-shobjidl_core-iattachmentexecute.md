@@ -54,7 +54,7 @@ Exposes methods that work with client applications to present a user environment
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAttachmentExecute</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAttachmentExecute</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAttachmentExecute</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAttachmentExecute</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAttachmentExecute</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ff6a0aa8-4d14-4074-b084-be117b01c77a">CheckPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-checkpolicy">CheckPolicy</a>
 </td>
 <td align="left" width="63%">
 Provides a Boolean test that can be used to make decisions based on the attachment's execution policy.
@@ -78,7 +78,7 @@ Provides a Boolean test that can be used to make decisions based on the attachme
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/238e78be-3306-4ac5-95a9-c7fa48c1c4fe">ClearClientState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-clearclientstate">ClearClientState</a>
 </td>
 <td align="left" width="63%">
 Removes any stored state that is based on the client's GUID. An example might be a setting based on a checked box that indicates a prompt should not be displayed again for a particular file type.
@@ -87,7 +87,7 @@ Removes any stored state that is based on the client's GUID. An example might be
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/80cbbb6c-c6f1-4937-9c1e-4de57aee748c">Execute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-execute">Execute</a>
 </td>
 <td align="left" width="63%">
 Executes an action on an attachment.
@@ -96,7 +96,7 @@ Executes an action on an attachment.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/01c01abf-df7a-411b-979b-ddd8da569f91">Prompt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-prompt">Prompt</a>
 </td>
 <td align="left" width="63%">
 Presents a prompt UI to the user.
@@ -105,7 +105,7 @@ Presents a prompt UI to the user.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/25661942-f38b-42d6-981b-4a3f4d083f6c">Save</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-save">Save</a>
 </td>
 <td align="left" width="63%">
 Saves the attachment.
@@ -114,7 +114,7 @@ Saves the attachment.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6d5b2d02-98ee-4e46-826f-fa073ecff5c4">SaveWithUI</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-savewithui">SaveWithUI</a>
 </td>
 <td align="left" width="63%">
 Presents the user with explanatory error UI if the save action fails.
@@ -123,7 +123,7 @@ Presents the user with explanatory error UI if the save action fails.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d0ee35f7-c23e-450b-8b90-0fb5744263fd">SetClientGuid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setclientguid">SetClientGuid</a>
 </td>
 <td align="left" width="63%">
 Specifies and stores the GUID for the client.
@@ -132,7 +132,7 @@ Specifies and stores the GUID for the client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/24840acd-c2d1-43d8-99aa-8614e55d6604">SetClientTitle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setclienttitle">SetClientTitle</a>
 </td>
 <td align="left" width="63%">
 Specifies and stores the title of the prompt window.
@@ -141,7 +141,7 @@ Specifies and stores the title of the prompt window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/52dc823f-4429-4c1f-8906-9e4ee3f8158e">SetFileName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setfilename">SetFileName</a>
 </td>
 <td align="left" width="63%">
 Specifies and stores the proposed name of the file.
@@ -150,7 +150,7 @@ Specifies and stores the proposed name of the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/763ce5a7-bbad-4dd8-a416-86a96f466510">SetLocalPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setlocalpath">SetLocalPath</a>
 </td>
 <td align="left" width="63%">
 Sets and stores the path to the file.
@@ -159,7 +159,7 @@ Sets and stores the path to the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d7ee869a-2afe-4d98-a0bb-d80e57425079">SetReferrer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setreferrer">SetReferrer</a>
 </td>
 <td align="left" width="63%">
 Sets the security zone associated with the attachment file based on the referring file.
@@ -168,7 +168,7 @@ Sets the security zone associated with the attachment file based on the referrin
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6545252b-1c43-4d62-9784-b63688ef9fdc">SetSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setsource">SetSource</a>
 </td>
 <td align="left" width="63%">
 Sets an alternate path or URL for the source of a file transfer.

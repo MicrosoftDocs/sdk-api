@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextAnalyzer</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDWriteTextAnalyzer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextAnalyzer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteTextAnalyzer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,70 +69,70 @@ The <b>IDWriteTextAnalyzer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/413d49d2-bacd-4e98-bfac-c0aea2650a7c">AnalyzeBidi</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalyzer-analyzebidi">AnalyzeBidi</a>
 </td>
 <td align="left" width="63%">
  Analyzes a text range for script directionality, reading attributes
-     from the source and reporting levels to the sink callback <a href="https://msdn.microsoft.com/f51bae22-b4a0-4f72-a341-4479d66cfec5">SetBidiLevel</a>.
+     from the source and reporting levels to the sink callback <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalysissink-setbidilevel">SetBidiLevel</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6c676065-0226-456c-b8c4-10752a8daec8">AnalyzeLineBreakpoints</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalyzer-analyzelinebreakpoints">AnalyzeLineBreakpoints</a>
 </td>
 <td align="left" width="63%">
  Analyzes a text range for potential breakpoint opportunities, reading
      attributes from the source and reporting breakpoint opportunities to
-     the sink callback <a href="https://msdn.microsoft.com/423f1f0e-b2bd-48b6-aa3b-c79a2b542d5d">SetLineBreakpoints</a>.
+     the sink callback <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalysissink-setlinebreakpoints">SetLineBreakpoints</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1cd53f79-5bbc-4a70-b66a-b807fe163a98">AnalyzeNumberSubstitution</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalyzer-analyzenumbersubstitution">AnalyzeNumberSubstitution</a>
 </td>
 <td align="left" width="63%">
  Analyzes a text range for spans where number substitution is applicable,
      reading attributes from the source and reporting substitutable ranges
-     to the sink callback <a href="https://msdn.microsoft.com/09b00b49-702e-4cef-bf1c-397c5d572513">SetNumberSubstitution</a>.
+     to the sink callback <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalysissink-setnumbersubstitution">SetNumberSubstitution</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e681f7c8-7d87-454b-a7b6-6c3fe38b0f92">AnalyzeScript</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalyzer-analyzescript">AnalyzeScript</a>
 </td>
 <td align="left" width="63%">
  Analyzes a text range for script boundaries, reading text attributes
      from the source and reporting the Unicode script ID to the sink 
-     callback <a href="https://msdn.microsoft.com/beae0420-b244-4c87-a3cb-a1b34562c3ed">SetScript</a>.
+     callback <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalysissink-setscriptanalysis">SetScript</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/49312b03-9ee9-44ef-b3eb-a35631a6e693">GetGdiCompatibleGlyphPlacements</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritetextanalyzer-getgdicompatibleglyphplacements">GetGdiCompatibleGlyphPlacements</a>
 </td>
 <td align="left" width="63%">
-Place glyphs output from the <a href="https://msdn.microsoft.com/9bc373b6-9161-4ffc-a942-50d97d6509c3">GetGlyphs</a> method according to the font 
+Place glyphs output from the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalyzer-getglyphs">GetGlyphs</a> method according to the font 
     and the writing system's rendering rules.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/72e9af97-6fd2-4dd0-befc-2e9f809c12a2">GetGlyphPlacements</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalyzer-getglyphplacements">GetGlyphPlacements</a>
 </td>
 <td align="left" width="63%">
- Places glyphs output from the <a href="https://msdn.microsoft.com/9bc373b6-9161-4ffc-a942-50d97d6509c3">GetGlyphs</a> method according to the font 
+ Places glyphs output from the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalyzer-getglyphs">GetGlyphs</a> method according to the font 
      and the writing system's rendering rules.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9bc373b6-9161-4ffc-a942-50d97d6509c3">GetGlyphs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalyzer-getglyphs">GetGlyphs</a>
 </td>
 <td align="left" width="63%">
  Parses the input text string and maps it to the set of glyphs and associated glyph data

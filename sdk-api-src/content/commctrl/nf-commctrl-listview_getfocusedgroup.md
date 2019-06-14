@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the group that has the focus. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774925(v=VS.85).aspx">LVM_GETFOCUSEDGROUP</a> message explicitly. 
+Gets the group that has the focus. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getfocusedgroup">LVM_GETFOCUSEDGROUP</a> message explicitly. 
 
 
 
@@ -60,7 +60,7 @@ Gets the group that has the focus. Use this macro or send the <a href="https://m
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 

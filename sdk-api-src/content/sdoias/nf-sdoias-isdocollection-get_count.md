@@ -79,11 +79,11 @@ If the method fails, the return value is one of the following error codes.
 
 
 
-<a href="https://msdn.microsoft.com/26470906-1cba-41fc-96f3-078208ab3d51">ISdoCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdocollection">ISdoCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/f41211cf-7ed6-4f49-ba90-a72b6eb4db3e">ISdoCollection::get__NewEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdocollection-get__newenum">ISdoCollection::get__NewEnum</a>
  
 
  

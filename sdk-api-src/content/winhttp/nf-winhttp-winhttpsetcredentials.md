@@ -60,8 +60,8 @@ The <b>WinHttpSetCredentials</b> function passes the required authorization cred
 ### -param hRequest [in]
 
 Valid 
-<a href="https://msdn.microsoft.com/0bd82860-1347-40c8-ae77-c4d865c109be">HINTERNET</a> handle returned by 
-<a href="https://msdn.microsoft.com/9ecd035d-1abf-48ca-baf2-d9754f912c60">WinHttpOpenRequest</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> handle returned by 
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopenrequest">WinHttpOpenRequest</a>.
 
 
 ### -param AuthTargets [in]
@@ -100,7 +100,7 @@ Credentials are passed to a proxy.
 ### -param AuthScheme [in]
 
 An unsigned integer that specifies a flag that contains the authentication scheme.  Must be one of the supported authentication schemes returned from 
-<a href="https://msdn.microsoft.com/37fb9342-c5c2-46a3-a8b0-83060aa997e2">WinHttpQueryAuthSchemes</a>. The following table identifies the possible values.
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpqueryauthschemes">WinHttpQueryAuthSchemes</a>. The following table identifies the possible values.
 
 <table>
 <tr>
@@ -181,7 +181,7 @@ This parameter is reserved and must be <b>NULL</b>.
 
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. The following table identifies the error codes returned.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following table identifies the error codes returned.
 
 <table>
 <tr>
@@ -242,16 +242,16 @@ Not enough memory was available to complete the requested operation (Windows err
 
 
 
-Even when  WinHTTP is  used in asynchronous mode (that is, when <b>WINHTTP_FLAG_ASYNC</b> has been set in <a href="https://msdn.microsoft.com/34ce8f7d-7cc3-4b38-ba6a-1247f50ebd33">WinHttpOpen</a>), this function operates synchronously. The return value indicates success or failure.  To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+Even when  WinHTTP is  used in asynchronous mode (that is, when <b>WINHTTP_FLAG_ASYNC</b> has been set in <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>), this function operates synchronously. The return value indicates success or failure.  To get extended error information, call 
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The credentials set by <b>WinHttpSetCredentials</b> are only used for a single request; WinHTTP does not cache these credentials for use in subsequent requests. As a result, applications must be written so that they can respond to multiple challenges. If an authenticated connection is re-used, subsequent requests cannot be challenged, but your code should be able to respond to a challenge at any point.
 
-For sample code that illustrates the use of <b>WinHttpSetCredentials</b>, see <a href="https://msdn.microsoft.com/077d6275-8600-4091-b78e-419a41a2101a">Authentication in WinHTTP</a>.
+For sample code that illustrates the use of <b>WinHttpSetCredentials</b>, see <a href="https://docs.microsoft.com/windows/desktop/WinHttp/authentication-in-winhttp">Authentication in WinHTTP</a>.
 
-<div class="alert"><b>Note</b>  When using Passport authentication and responding to a 407 status code, a WinHTTP application must use <a href="https://msdn.microsoft.com/bcf1da09-5787-4d2a-82ae-6965e27fa477">WinHttpSetOption</a> to provide proxy credentials rather than <b>WinHttpSetCredentials</b>. This is only true when using Passport authentication; in all other circumstances,  use <b>WinHttpSetCredentials</b>, because <b>WinHttpSetOption</b>  is less secure.</div>
+<div class="alert"><b>Note</b>  When using Passport authentication and responding to a 407 status code, a WinHTTP application must use <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsetoption">WinHttpSetOption</a> to provide proxy credentials rather than <b>WinHttpSetCredentials</b>. This is only true when using Passport authentication; in all other circumstances,  use <b>WinHttpSetCredentials</b>, because <b>WinHttpSetOption</b>  is less secure.</div>
 <div> </div>
-<div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Run-Time Requirements</a> section of the WinHttp start page.</div>
+<div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Run-Time Requirements</a> section of the WinHttp start page.</div>
 <div> </div>
 
 
@@ -261,35 +261,35 @@ For sample code that illustrates the use of <b>WinHttpSetCredentials</b>, see <a
 
 
 
-<a href="https://msdn.microsoft.com/8337f699-3ec0-4397-acc2-6dc813f7542d">About Microsoft Windows HTTP Services (WinHTTP)</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinHttp/about-winhttp">About Microsoft Windows HTTP Services (WinHTTP)</a>
 
 
 
-<a href="https://msdn.microsoft.com/077d6275-8600-4091-b78e-419a41a2101a">Authentication in WinHTTP</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinHttp/authentication-in-winhttp">Authentication in WinHTTP</a>
 
 
 
-<a href="https://msdn.microsoft.com/b69e5087-7849-4cbc-a97b-204a26fdd044">WinHTTP Versions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP Versions</a>
 
 
 
-<a href="https://msdn.microsoft.com/78215141-dfe8-4f0a-ba1a-a63fa257db6f">WinHttpCloseHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpclosehandle">WinHttpCloseHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/afcdad8d-687e-4a1f-99d8-5d8be13825fa">WinHttpConnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpconnect">WinHttpConnect</a>
 
 
 
-<a href="https://msdn.microsoft.com/34ce8f7d-7cc3-4b38-ba6a-1247f50ebd33">WinHttpOpen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ecd035d-1abf-48ca-baf2-d9754f912c60">WinHttpOpenRequest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopenrequest">WinHttpOpenRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/37fb9342-c5c2-46a3-a8b0-83060aa997e2">WinHttpQueryAuthSchemes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpqueryauthschemes">WinHttpQueryAuthSchemes</a>
  
 
  

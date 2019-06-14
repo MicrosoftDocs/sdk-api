@@ -66,7 +66,7 @@ Specifies the ID of an existing property.
 ### -param pValue [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> that contains the value of the property.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> that contains the value of the property.
 
 
 ## -returns
@@ -85,19 +85,19 @@ If the method fails, the return value is one of the following error codes.
 
 
 
-<a href="https://msdn.microsoft.com/9c7ee4d7-987f-45ae-810f-fc310955f36d">IASCOMMONPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iascommonproperties">IASCOMMONPROPERTIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/f8f49bf2-d8cc-40ad-ac52-05d74bcd931c">ISdo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdo">ISdo</a>
 
 
 
-<a href="https://msdn.microsoft.com/c2e440a7-d58c-4542-bd0b-a06b810edd34">ISdo::SetProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-putproperty">ISdo::SetProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a>
  
 
  

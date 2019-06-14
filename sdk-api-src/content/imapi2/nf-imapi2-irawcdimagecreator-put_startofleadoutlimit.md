@@ -87,11 +87,11 @@ This method is supported in Windows Server 2003 with Service Pack 1 (SP1), Win
 
 
 
-<a href="https://msdn.microsoft.com/b5fe1a32-545e-417d-9996-34d12862a0ea">IRawCDImageCreator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-irawcdimagecreator">IRawCDImageCreator</a>
 
 
 
-<a href="https://msdn.microsoft.com/07397f94-fd32-4507-89dd-53de7f25b231">IRawCDImageCreator::get_StartOfLeadoutLimit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-irawcdimagecreator-get_startofleadoutlimit">IRawCDImageCreator::get_StartOfLeadoutLimit</a>
  
 
  

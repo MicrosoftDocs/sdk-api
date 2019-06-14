@@ -127,7 +127,7 @@ This member is reserved and set to DATA_NOT_AVAILABLE (0xFFFFFFFF).
 
 
 
-<a href="https://msdn.microsoft.com/f2f9c03b-4f57-4087-8fef-5cdccece91d9">IGetAppTrackerData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-igetapptrackerdata">IGetAppTrackerData</a>
  
 
  

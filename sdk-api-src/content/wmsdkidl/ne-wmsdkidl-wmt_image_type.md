@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>WMT_IMAGE_TYPE</b> enumeration type defines the types of images that can be used for banner ads. This type is used as the value of the <a href="https://msdn.microsoft.com/e751cc73-8960-4ec8-9bff-b2cd06df7919">BannerImageType</a> attribute.
+The <b>WMT_IMAGE_TYPE</b> enumeration type defines the types of images that can be used for banner ads. This type is used as the value of the <a href="https://docs.microsoft.com/windows/desktop/wmformat/bannerimagetype">BannerImageType</a> attribute.
 
 
 
@@ -62,7 +62,7 @@ The <b>WMT_IMAGE_TYPE</b> enumeration type defines the types of images that can 
 
 ### -field WMT_IT_NONE
 
-There is no image. If a <a href="https://msdn.microsoft.com/ce9b0692-ae0b-4a23-b38c-3a1df830fac2">BannerImageData</a> attribute in the file, it will be ignored.
+There is no image. If a <a href="https://docs.microsoft.com/windows/desktop/wmformat/bannerimagedata">BannerImageData</a> attribute in the file, it will be ignored.
 
 
 ### -field WMT_IT_BITMAP
@@ -85,7 +85,7 @@ The banner image uses GIF encoding.
 
 
 
-<a href="https://msdn.microsoft.com/cd28f608-25ba-44a7-868b-b1cd4dfcfa45">Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>
  
 
  

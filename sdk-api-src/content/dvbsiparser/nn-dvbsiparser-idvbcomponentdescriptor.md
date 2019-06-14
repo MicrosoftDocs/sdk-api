@@ -54,7 +54,7 @@ Identifies the type of a Digital Video Broadcast (DVB) component stream and prov
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbComponentDescriptor</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDvbComponentDescriptor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbComponentDescriptor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvbComponentDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDvbComponentDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1ecfb7db-2fb6-4389-8f62-3d912ffc301b">GetComponentTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbcomponentdescriptor-getcomponenttag">GetComponentTag</a>
 </td>
 <td align="left" width="63%">
 Gets the component tag from  a DVB component descriptor.
@@ -78,7 +78,7 @@ Gets the component tag from  a DVB component descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c7bf5e21-1c88-4b5e-b043-33a127fad65f">GetComponentType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbcomponentdescriptor-getcomponenttype">GetComponentType</a>
 </td>
 <td align="left" width="63%">
  Gets the component type code for a DVB component descriptor.
@@ -87,7 +87,7 @@ Gets the component tag from  a DVB component descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9898cd33-db5d-41d3-9e3d-77da2ff38e44">GetLanguageCode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbcomponentdescriptor-getlanguagecode">GetLanguageCode</a>
 </td>
 <td align="left" width="63%">
 Gets the ISO 639 language identifier for a DVB component descriptor.
@@ -96,7 +96,7 @@ Gets the ISO 639 language identifier for a DVB component descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/418d654a-a8cf-42f1-b361-bc1bf80da194">GetLength</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbcomponentdescriptor-getlength">GetLength</a>
 </td>
 <td align="left" width="63%">
 Gets the body length of a  a DVB component descriptor.
@@ -105,7 +105,7 @@ Gets the body length of a  a DVB component descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3bfa86c4-2b94-43cd-842e-33cc03b713a5">GetStreamContent</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbcomponentdescriptor-getstreamcontent">GetStreamContent</a>
 </td>
 <td align="left" width="63%">
  Gets the stream content code for a DVB component descriptor.
@@ -114,7 +114,7 @@ Gets the body length of a  a DVB component descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/680be3c5-ed02-4719-a510-cf84615f8738">GetTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbcomponentdescriptor-gettag">GetTag</a>
 </td>
 <td align="left" width="63%">
 Gets the tag that identifies a DVB component descriptor.
@@ -123,7 +123,7 @@ Gets the tag that identifies a DVB component descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1b4ff757-24d0-4dca-8def-c8079724e571">GetTextW</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbcomponentdescriptor-gettextw">GetTextW</a>
 </td>
 <td align="left" width="63%">
  Gets the text describing the elementary stream  from a DVB component descriptor, in Unicode string format.

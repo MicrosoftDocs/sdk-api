@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deprecated. Used with <a href="https://msdn.microsoft.com/c0c53cd4-4b85-42d5-98c3-22ef46644a3f">IBrowserService2::_GetEffectiveClientArea</a> to negotiate the size and position of the browser view.
+Deprecated. Used with <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_geteffectiveclientarea">IBrowserService2::_GetEffectiveClientArea</a> to negotiate the size and position of the browser view.
 
 
 ## -parameters
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method is called by <a href="https://msdn.microsoft.com/738aa84d-9586-493e-8a50-e8e1918198e6">IBrowserService2::GetViewRect</a>.
+This method is called by <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-getviewrect">IBrowserService2::GetViewRect</a>.
 
 
 

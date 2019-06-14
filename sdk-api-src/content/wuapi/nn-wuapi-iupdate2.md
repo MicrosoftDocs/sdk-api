@@ -54,7 +54,7 @@ Contains the  properties and methods that are available to an update.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdate2</b> interface inherits from <a href="https://msdn.microsoft.com/d0feee2a-96f6-4c86-aaf8-f49d05616fc9">IUpdate</a>. <b>IUpdate2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdate2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>. <b>IUpdate2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IUpdate2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a12f850a-df08-4263-bb66-94c45f7d875e">CopyToCache</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate2-copytocache">CopyToCache</a>
 </td>
 <td align="left" width="63%">
 Copies files for an update from a specified source location to the internal Windows Update Agent (WUA) download cache.
@@ -88,7 +88,7 @@ Copies files for an update from a specified source location to the internal Wind
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/536a3dea-708d-4885-bf07-4088cb83d9da">CveIDs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate2-get_cveids">CveIDs</a>
 
 
 </td>
@@ -104,7 +104,7 @@ Gets a collection of common vulnerabilities and exposures (CVE) IDs that are ass
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/de378d24-aba9-44c2-9c49-fbd1b2fc2446">IsPresent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate2-get_ispresent">IsPresent</a>
 
 
 </td>
@@ -120,7 +120,7 @@ Gets a Boolean value that indicates whether an update is present on a computer.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/7e665fd1-20f9-47a0-b78f-e60b51cdac5f">RebootRequired</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate2-get_rebootrequired">RebootRequired</a>
 
 
 </td>
@@ -141,7 +141,7 @@ Gets a Boolean value that indicates whether a system restart is required on a co
 
 
 
-<a href="https://msdn.microsoft.com/d0feee2a-96f6-4c86-aaf8-f49d05616fc9">IUpdate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
  
 
  

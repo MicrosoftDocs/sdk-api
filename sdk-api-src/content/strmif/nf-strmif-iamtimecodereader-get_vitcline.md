@@ -91,15 +91,15 @@ The high bit indicates that multiple lines are used and successive calls will cy
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/76c3f603-8abc-450a-adb2-f2a90cb1634d">IAMTimecodeReader Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtimecodereader">IAMTimecodeReader Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/171b0fd2-1498-41ae-9803-99b9128ee305">IAMTimecodeReader::put_VITCLine</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtimecodereader-put_vitcline">IAMTimecodeReader::put_VITCLine</a>
  
 
  

@@ -133,7 +133,7 @@ Value: 0x80070057
 
 
 
-<a href="https://msdn.microsoft.com/2d0f03e5-a47d-4b46-a177-f462bbafe153">IStreamInterleave</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-istreaminterleave">IStreamInterleave</a>
  
 
  

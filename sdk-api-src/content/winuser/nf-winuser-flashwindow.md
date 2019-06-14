@@ -52,7 +52,7 @@ ms.custom: 19H1
 Flashes the specified window one time. It does not change the active state of the window.
 
 To flash the window a specified number of times, use the 
-<a href="https://msdn.microsoft.com/474ec2d9-3ee9-4622-843e-d6ae36fedd7f">FlashWindowEx</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-flashwindowex">FlashWindowEx</a> function.
 
 
 ## -parameters
@@ -104,11 +104,11 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/ae8ad3a2-1f1a-46d6-adaa-74c50c07dcc5">Error Handling Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/error-handling-functions">Error Handling Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/35b6e93c-323a-4592-9394-a2e9dd79d9e6">Notifying the User</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/notifying-the-user">Notifying the User</a>
  
 
  

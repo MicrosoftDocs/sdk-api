@@ -135,7 +135,7 @@ A <b>FsrmReportType_FolderByProperty</b> report will list up to a maximum number
 
 
 You specify the  value for the limit in the <i>limitValue</i> parameter when calling the 
-    <a href="https://msdn.microsoft.com/7d5a73ab-eccb-42e5-8796-d2986deccd34">IFsrmReportManager::SetReportSizeLimit</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-setreportsizelimit">IFsrmReportManager::SetReportSizeLimit</a> 
     method.
 
 
@@ -146,15 +146,15 @@ You specify the  value for the limit in the <i>limitValue</i> parameter when cal
 
 
 
-<a href="https://msdn.microsoft.com/6fb5cb02-371b-4d07-9f13-d0409d5835d4">FsrmReportType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmreporttype">FsrmReportType</a>
 
 
 
-<a href="https://msdn.microsoft.com/1fe2546c-d70c-466a-8640-77cc2403a91d">IFsrmReportManager::GetReportSizeLimit</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-getreportsizelimit">IFsrmReportManager::GetReportSizeLimit</a>
 
 
 
-<a href="https://msdn.microsoft.com/7d5a73ab-eccb-42e5-8796-d2986deccd34">IFsrmReportManager::SetReportSizeLimit</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-setreportsizelimit">IFsrmReportManager::SetReportSizeLimit</a>
  
 
  

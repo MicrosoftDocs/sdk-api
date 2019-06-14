@@ -60,9 +60,9 @@ Deprecated. Allows the derived class to specify a navigation record to be used i
 
 ### -param ptl [in]
 
-Type: <b><a href="https://msdn.microsoft.com/820869aa-ca93-4bb5-831a-3afb52da5389">ITravelLog</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nn-shdeprecated-itravellog">ITravelLog</a>*</b>
 
-A pointer to an existing <a href="https://msdn.microsoft.com/820869aa-ca93-4bb5-831a-3afb52da5389">ITravelLog</a> object to be used for the new window.
+A pointer to an existing <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nn-shdeprecated-itravellog">ITravelLog</a> object to be used for the new window.
         
 
 

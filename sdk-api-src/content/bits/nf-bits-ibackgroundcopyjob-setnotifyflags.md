@@ -107,7 +107,7 @@ Event notification is disabled. BITS ignores the other flags.
 </td>
 <td width="60%">
 The job has been modified. For example, a property value changed, the state of the job changed, or progress is made transferring the files. This flag is ignored in command-line callbacks if 
-<a href="https://msdn.microsoft.com/61b99d01-ca0f-4a89-b7ca-77d23c21a9ad">command line notification</a> is specified.
+<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-setnotifycmdline">command line notification</a> is specified.
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ The job has been modified. For example, a property value changed, the state of t
 </td>
 <td width="60%">
 A file in the job has been transferred.  This flag is ignored in command-line callbacks if 
-<a href="https://msdn.microsoft.com/61b99d01-ca0f-4a89-b7ca-77d23c21a9ad">command line notification</a> is specified.
+<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-setnotifycmdline">command line notification</a> is specified.
 
 </td>
 </tr>
@@ -131,7 +131,7 @@ A file in the job has been transferred.  This flag is ignored in command-line ca
 </td>
 <td width="60%">
 A range of bytes in the file has been transferred.    This flag is ignored in command-line callbacks if 
-<a href="https://msdn.microsoft.com/61b99d01-ca0f-4a89-b7ca-77d23c21a9ad">command line notification</a> is specified. The flag can be specified for any job, but you will only get notifications for jobs that meet the requirements for a <b>BITS_JOB_PROPERTY_ON_DEMAND_MODE</b> job.
+<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-setnotifycmdline">command line notification</a> is specified. The flag can be specified for any job, but you will only get notifications for jobs that meet the requirements for a <b>BITS_JOB_PROPERTY_ON_DEMAND_MODE</b> job.
 
 </td>
 </tr>
@@ -195,14 +195,14 @@ The state of the job cannot be BG_JOB_STATE_CANCELLED or BG_JOB_STATE_ACKNOWLEDG
 
 Use the 
 <b>SetNotifyFlags</b> method in conjunction with the 
-<a href="https://msdn.microsoft.com/34d51546-ec27-471f-9da5-3bec7ed4e1ea">IBackgroundCopyJob::SetNotifyInterface</a> and 
-<a href="https://msdn.microsoft.com/61b99d01-ca0f-4a89-b7ca-77d23c21a9ad">IBackgroundCopyJob2::SetNotifyCmdLine</a> methods to receive event notification.
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyinterface">IBackgroundCopyJob::SetNotifyInterface</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-setnotifycmdline">IBackgroundCopyJob2::SetNotifyCmdLine</a> methods to receive event notification.
 
 
 #### Examples
 
 See the example code for the 
-<a href="https://msdn.microsoft.com/34d51546-ec27-471f-9da5-3bec7ed4e1ea">IBackgroundCopyJob::SetNotifyInterface</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyinterface">IBackgroundCopyJob::SetNotifyInterface</a> method.
 
 <div class="code"></div>
 
@@ -213,23 +213,23 @@ See the example code for the
 
 
 
-<a href="https://msdn.microsoft.com/e1aa6775-d1e5-4463-ae0f-32c0498881e1">IBackgroundCopyCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/9bbc323c-0caf-46a9-ba25-e72a2c6ae363">IBackgroundCopyCallback2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ibackgroundcopycallback2">IBackgroundCopyCallback2</a>
 
 
 
-<a href="https://msdn.microsoft.com/61b99d01-ca0f-4a89-b7ca-77d23c21a9ad">IBackgroundCopyJob2::SetNotifyCmdLine</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-setnotifycmdline">IBackgroundCopyJob2::SetNotifyCmdLine</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4407816-a4c5-4734-9686-46d5a8133c2f">IBackgroundCopyJob::GetNotifyFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getnotifyflags">IBackgroundCopyJob::GetNotifyFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/34d51546-ec27-471f-9da5-3bec7ed4e1ea">IBackgroundCopyJob::SetNotifyInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyinterface">IBackgroundCopyJob::SetNotifyInterface</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>ReleaseBuffer</b> method releases a buffer that was locked by a previous call to <a href="https://msdn.microsoft.com/en-us/library/Dd376003(v=VS.85).aspx">IAMVideoAccelerator::GetBuffer</a>.
+The <b>ReleaseBuffer</b> method releases a buffer that was locked by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-getbuffer">IAMVideoAccelerator::GetBuffer</a>.
 
 
 
@@ -63,12 +63,12 @@ The <b>ReleaseBuffer</b> method releases a buffer that was locked by a previous 
 
 ### -param dwTypeIndex [in]
 
-The surface type of the buffer. Use the same value that was passed to the <i>dwTypeIndex</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/Dd376003(v=VS.85).aspx">GetBuffer</a> method.
+The surface type of the buffer. Use the same value that was passed to the <i>dwTypeIndex</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-getbuffer">GetBuffer</a> method.
 
 
 ### -param dwBufferIndex [in]
 
-The zero-based index of the buffer. Use the same value that was passed to the <i>dwBufferIndex</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/Dd376003(v=VS.85).aspx">GetBuffer</a> method.
+The zero-based index of the buffer. Use the same value that was passed to the <i>dwBufferIndex</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-getbuffer">GetBuffer</a> method.
           
 
 
@@ -172,9 +172,9 @@ The pins on the decoder and video renderer filters are not connected.
 
 If the filter's pins are not connected, the method returns <b>VFW_E_NOT_CONNECTED</b>.
 
-This method unlocks a single buffer. The video decoder calls this method when the buffer is no longer required, after any calls to <a href="https://msdn.microsoft.com/en-us/library/Dd376002(v=VS.85).aspx">IAMVideoAccelerator::Execute</a> have been made using that buffer.
+This method unlocks a single buffer. The video decoder calls this method when the buffer is no longer required, after any calls to <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-execute">IAMVideoAccelerator::Execute</a> have been made using that buffer.
 
-The buffer pointer obtained from <a href="https://msdn.microsoft.com/en-us/library/Dd376003(v=VS.85).aspx">GetBuffer</a> is no longer valid after this call.
+The buffer pointer obtained from <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-getbuffer">GetBuffer</a> is no longer valid after this call.
       
 
 
@@ -185,15 +185,15 @@ The buffer pointer obtained from <a href="https://msdn.microsoft.com/en-us/libra
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/0bc6b65b-4502-4c6f-a0f2-82a2bd444d1d">How Decoders Use IAMVideoAccelerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/how-decoders-use-iamvideoaccelerator">How Decoders Use IAMVideoAccelerator</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375992(v=VS.85).aspx">IAMVideoAccelerator Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator">IAMVideoAccelerator Interface</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates which values in the <a href="https://msdn.microsoft.com/b4437aa7-9682-4819-a353-936179e84005">CM_COLUMNINFO</a> structure should be set during calls to <a href="https://msdn.microsoft.com/3a52d634-0ff0-4dbc-81cb-90cdffe4f6ae">IColumnManager::SetColumnInfo</a>.
+Indicates which values in the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cm_columninfo">CM_COLUMNINFO</a> structure should be set during calls to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icolumnmanager-setcolumninfo">IColumnManager::SetColumnInfo</a>.
 
 
 ## -enum-fields

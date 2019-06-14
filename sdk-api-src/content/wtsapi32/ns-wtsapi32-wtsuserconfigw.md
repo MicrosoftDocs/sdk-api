@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains configuration information for a user on a domain controller or Remote Desktop Session Host (RD Session Host) server. This structure is used by the <a href="https://msdn.microsoft.com/aabbcc03-3241-49ab-ab11-ccd3e6893e78">WTSQueryUserConfig</a> and <a href="https://msdn.microsoft.com/44d027c6-6ebb-4750-a0fa-17fdf31e45cd">WTSSetUserConfig</a> functions.
+Contains configuration information for a user on a domain controller or Remote Desktop Session Host (RD Session Host) server. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsqueryuserconfiga">WTSQueryUserConfig</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetuserconfiga">WTSSetUserConfig</a> functions.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ Contains configuration information for a user on a domain controller or Remote D
 
 ### -field Source
 
-A value of the <a href="https://msdn.microsoft.com/2e1f45d9-dc89-4848-9ba5-e6d54b2a7737">WTS_CONFIG_SOURCE</a> enumeration type that specifies the  source of configuration information returned by the <a href="https://msdn.microsoft.com/aabbcc03-3241-49ab-ab11-ccd3e6893e78">WTSQueryUserConfig</a> function.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-_wts_config_source">WTS_CONFIG_SOURCE</a> enumeration type that specifies the  source of configuration information returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsqueryuserconfiga">WTSQueryUserConfig</a> function.
 
 
 ### -field InheritInitialProgram
@@ -226,7 +226,7 @@ The user of remote control can view the session remotely but not actively contro
 
 ### -field TerminalServerRemoteHomeDir
 
-A value that indicates whether the <b>TerminalServerHomeDir</b> member contains a path to a local directory or a network share. You cannot set this member by using the <a href="https://msdn.microsoft.com/44d027c6-6ebb-4750-a0fa-17fdf31e45cd">WTSSetUserConfig</a> function. This member can be one of the following values.
+A value that indicates whether the <b>TerminalServerHomeDir</b> member contains a path to a local directory or a network share. You cannot set this member by using the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetuserconfiga">WTSSetUserConfig</a> function. This member can be one of the following values.
 
 
 
@@ -369,15 +369,15 @@ The <b>TerminalServerHomeDir</b> member contains a path to a network share, and 
 
 
 
-<a href="https://msdn.microsoft.com/aabbcc03-3241-49ab-ab11-ccd3e6893e78">WTSQueryUserConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsqueryuserconfiga">WTSQueryUserConfig</a>
 
 
 
-<a href="https://msdn.microsoft.com/44d027c6-6ebb-4750-a0fa-17fdf31e45cd">WTSSetUserConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetuserconfiga">WTSSetUserConfig</a>
 
 
 
-<a href="https://msdn.microsoft.com/2e1f45d9-dc89-4848-9ba5-e6d54b2a7737">WTS_CONFIG_SOURCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-_wts_config_source">WTS_CONFIG_SOURCE</a>
  
 
  

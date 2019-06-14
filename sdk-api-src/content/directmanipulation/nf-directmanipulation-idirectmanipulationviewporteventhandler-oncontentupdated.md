@@ -81,9 +81,9 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRES
 
 
 
-This method is called once for each  content change in the viewport. This can result in multiple <b>OnContentUpdated</b> calls. For instance, when the position of the content is changed, you can use <a href="https://msdn.microsoft.com/9db4f521-227c-4e2f-8c7d-44ae4a25651e">IDirectManipualtionContent::GetContentTransform</a> to retrieve the new value.
+This method is called once for each  content change in the viewport. This can result in multiple <b>OnContentUpdated</b> calls. For instance, when the position of the content is changed, you can use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationcontent-getcontenttransform">IDirectManipualtionContent::GetContentTransform</a> to retrieve the new value.
 
-If you have actions that need to be executed once for a viewport update, implement <a href="https://msdn.microsoft.com/dfb70d6f-ce3c-4d39-b7b5-21812ff7e56b">OnViewportUpdated</a>.
+If you have actions that need to be executed once for a viewport update, implement <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewporteventhandler-onviewportupdated">OnViewportUpdated</a>.
 
 
 
@@ -93,7 +93,7 @@ If you have actions that need to be executed once for a viewport update, impleme
 
 
 
-<a href="https://msdn.microsoft.com/3594011a-da4a-4550-9b3b-076218d09f39">IDirectManipulationViewportEventHandler</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewporteventhandler">IDirectManipulationViewportEventHandler</a>
  
 
  

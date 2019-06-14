@@ -127,9 +127,9 @@ An exception occurred while processing.
 
 The hot point is the one distinguishing point of a gesture. It is usually the point of the angle in a gesture or the point at which the gesture is intended to occur in relation to the content around it. If there is no discernable hot point for a known gesture, the starting point of the gesture is the hot point.
 
-For example, the hot point of the <a href="https://msdn.microsoft.com/b429ec96-691f-4761-92bf-ef500cf0e1be">Check</a> gesture is the point of the angle, and the hot point of the <b>Curlicue</b> gesture is the start of the stroke that is the gesture.
+For example, the hot point of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">Check</a> gesture is the point of the angle, and the hot point of the <b>Curlicue</b> gesture is the start of the stroke that is the gesture.
 
-For more information about how a hot point is used, see <a href="https://msdn.microsoft.com/5bc80086-7acf-4f86-a9fb-a663de489f8b">Using Gestures</a>.
+For more information about how a hot point is used, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-gestures">Using Gestures</a>.
 
 
 
@@ -139,11 +139,11 @@ For more information about how a hot point is used, see <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/87a1db34-371e-4c02-a470-55f35dfbf4ab">IInkGesture Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkgesture">IInkGesture Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/5bc80086-7acf-4f86-a9fb-a663de489f8b">Using Gestures</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/using-gestures">Using Gestures</a>
  
 
  

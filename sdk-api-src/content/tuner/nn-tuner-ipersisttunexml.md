@@ -69,7 +69,7 @@ The <b>IPersistTuneXml</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/75485d59-118c-4098-974b-40f7a36dbd91">InitNew</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ipersisttunexml-initnew">InitNew</a>
 </td>
 <td align="left" width="63%">
 Not implemented in the current release.
@@ -79,7 +79,7 @@ Not implemented in the current release.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/afbfb4da-ac61-496b-9383-05c312bbfc2c">Load</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ipersisttunexml-load">Load</a>
 </td>
 <td align="left" width="63%">
 Deserializes a tuning model object from an XML node.
@@ -89,7 +89,7 @@ Deserializes a tuning model object from an XML node.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5813966a-6053-43ce-9b92-e9552d9acdec">Save</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ipersisttunexml-save">Save</a>
 </td>
 <td align="left" width="63%">
 Serializes a tuning model object to an XML node.

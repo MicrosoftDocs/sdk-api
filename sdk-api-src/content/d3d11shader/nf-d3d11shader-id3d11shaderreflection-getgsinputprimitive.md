@@ -63,12 +63,12 @@ Gets the geometry-shader input-primitive description.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/d7a83edb-48ab-4e9f-bf2b-790ebb4a14c4">D3D_PRIMITIVE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_primitive">D3D_PRIMITIVE</a></b>
 
 The input-primitive description.  See
-            <a href="https://msdn.microsoft.com/b4becdcc-cc19-4d5a-940b-b232ebedce68">D3D_PRIMITIVE_TOPOLOGY</a>,
-            <a href="https://msdn.microsoft.com/ca0547b2-d0f8-4edc-a62c-3c903e1b33ea">D3D11_PRIMITIVE_TOPOLOGY</a>, or
-            <a href="https://msdn.microsoft.com/en-us/library/Bb205334(v=VS.85).aspx">D3D10_PRIMITIVE_TOPOLOGY</a>.
+            <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_primitive_topology">D3D_PRIMITIVE_TOPOLOGY</a>,
+            <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff476189(v=vs.85)">D3D11_PRIMITIVE_TOPOLOGY</a>, or
+            <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb205334(v=vs.85)">D3D10_PRIMITIVE_TOPOLOGY</a>.
           
 
 
@@ -88,7 +88,7 @@ This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
 
 
 
-<a href="https://msdn.microsoft.com/a28cca72-7f2d-416a-bfa9-4d1f71fc98d5">ID3D11ShaderReflection Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11shaderreflection">ID3D11ShaderReflection Interface</a>
  
 
  

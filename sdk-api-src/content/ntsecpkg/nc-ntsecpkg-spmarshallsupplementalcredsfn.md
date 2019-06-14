@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SpMarshallSupplementalCreds</b> function converts <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">supplemental credentials</a> from a public format into a format suitable for local procedure calls.
+The <b>SpMarshallSupplementalCreds</b> function converts <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">supplemental credentials</a> from a public format into a format suitable for local procedure calls.
 
 
 ## -parameters
@@ -74,8 +74,8 @@ Pointer to the size of the <i>MarshalledCreds</i> buffer.
 
 ### -param *MarshalledCreds [out]
 
-Pointer that receives the address of the buffer containing the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">serialized</a> credentials. Allocate the memory for this buffer by calling the 
-<a href="https://msdn.microsoft.com/cb87f1b1-3e1e-4add-8e74-ca7b4f8599ba">AllocateHeap</a> function.
+Pointer that receives the address of the buffer containing the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">serialized</a> credentials. Allocate the memory for this buffer by calling the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_lsa_heap">AllocateHeap</a> function.
 
 
 ## -returns
@@ -96,8 +96,8 @@ If the function fails, return an <b>NTSTATUS</b> code that indicates the reason 
 SSP/APs must implement the <b>SpMarshallSupplementalCreds</b> function; however, the actual name given to the implementation is up to the developer.
 
 A pointer to the <b>SpMarshallSupplementalCreds</b> function is available in the 
-<a href="https://msdn.microsoft.com/2b3fc6d1-2f55-4053-9271-f5cb5c318555">SECPKG_USER_FUNCTION_TABLE</a> structure received from the 
-<a href="https://msdn.microsoft.com/e260db29-995b-4f32-b389-4ef62b3b29bc">SpUserModeInitialize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a> structure received from the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a> function.
 
 
 
@@ -107,15 +107,15 @@ A pointer to the <b>SpMarshallSupplementalCreds</b> function is available in the
 
 
 
-<a href="https://msdn.microsoft.com/8e97ea0e-42f5-4641-83d7-3858c533479c">AllocateHeap</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374721(v=vs.85)">AllocateHeap</a>
 
 
 
-<a href="https://msdn.microsoft.com/2b3fc6d1-2f55-4053-9271-f5cb5c318555">SECPKG_USER_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/e260db29-995b-4f32-b389-4ef62b3b29bc">SpUserModeInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a>
  
 
  

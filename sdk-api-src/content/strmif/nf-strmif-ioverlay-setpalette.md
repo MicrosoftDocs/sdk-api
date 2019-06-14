@@ -84,11 +84,11 @@ Returns S_OK if successful. If the method fails, it returns an <b>HRESULT</b> er
 
 
 
-This method sets a logical palette for the window. The window is not guaranteed to always have the colors requested in the actual system device palette. The Microsoft® Windows® operating system only guarantees those colors when the window is the foreground active window. The current device palette can be obtained by calling <a href="https://msdn.microsoft.com/993c80fb-fa67-4dd6-815b-8e15d2f7f495">IOverlay::GetPalette</a>.
+This method sets a logical palette for the window. The window is not guaranteed to always have the colors requested in the actual system device palette. The Microsoft® Windows® operating system only guarantees those colors when the window is the foreground active window. The current device palette can be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ioverlay-getpalette">IOverlay::GetPalette</a>.
 
 If the device does not have a palette, it returns VFW_E_NO_DISPLAY_PALETTE.
 
-The <a href="https://msdn.microsoft.com/e80938b7-31f0-467b-a3fa-c4511d14758d">Overlay Mixer</a> filter returns E_NOTIMPL.
+The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> filter returns E_NOTIMPL.
 
 
 
@@ -98,11 +98,11 @@ The <a href="https://msdn.microsoft.com/e80938b7-31f0-467b-a3fa-c4511d14758d">Ov
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/2d49888a-7046-4779-9634-d181fa582584">IOverlay Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ioverlay">IOverlay Interface</a>
  
 
  

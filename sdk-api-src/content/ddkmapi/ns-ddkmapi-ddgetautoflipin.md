@@ -64,7 +64,7 @@ Specifies the Microsoft DirectDraw handle.
 
 ### -field hVideoPort
 
-Specifies the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">video port extensions (VPE)</a> object handle.
+Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object handle.
 
 
 ## -see-also
@@ -72,11 +72,11 @@ Specifies the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a
 
 
 
-<a href="https://msdn.microsoft.com/96c48986-e4b0-4509-bf25-b4a141e31beb">DD_DXAPI_GET_CURRENT_VP_AUTOFLIP_SURFACE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550642(v=vs.85)">DD_DXAPI_GET_CURRENT_VP_AUTOFLIP_SURFACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4b38376-b54f-4fbb-b305-5951a1ea76a1">DxApi</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
  
 
  

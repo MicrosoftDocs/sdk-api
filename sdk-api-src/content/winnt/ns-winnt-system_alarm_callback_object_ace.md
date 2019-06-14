@@ -62,13 +62,13 @@ The <b>SYSTEM_ALARM_CALLBACK_OBJECT_ACE</b> structure is reserved for future use
 ### -field Header
 
 
-<a href="https://msdn.microsoft.com/d23f15d6-0453-4aaf-a2db-7528b551a992">ACE_HEADER</a> structure that specifies the size and type of ACE. It contains flags that control inheritance of the ACE by child objects. The structure also contains flags that indicate whether the ACE audits successful access attempts, failed access attempts, or both. The <b>AceType</b> member of the <b>ACE_HEADER</b> structure should be set to SYSTEM_ALARM_CALLBACK_OBJECT_ACE_TYPE.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a> structure that specifies the size and type of ACE. It contains flags that control inheritance of the ACE by child objects. The structure also contains flags that indicate whether the ACE audits successful access attempts, failed access attempts, or both. The <b>AceType</b> member of the <b>ACE_HEADER</b> structure should be set to SYSTEM_ALARM_CALLBACK_OBJECT_ACE_TYPE.
 
 
 ### -field Mask
 
 An 
-<a href="https://msdn.microsoft.com/f115ee54-3333-4109-8004-d71904a7a943">ACCESS_MASK</a> that specifies the access rights the system will audit for access attempts by the <a href="https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f">trustee</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a> that specifies the access rights the system will audit for access attempts by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">trustee</a>.
 
 
 ### -field Flags
@@ -112,7 +112,7 @@ The <b>InheritedObjectType</b> member contains a GUID.
 ### -field ObjectType
 
 A 
-<a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a> structure that identifies a property set, property, extended right, or type of child object. 
+<a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structure that identifies a property set, property, extended right, or type of child object. 
 
 
 
@@ -172,29 +172,29 @@ The <b>ObjectType</b> GUID identifies a validated write.
 
 ### -field InheritedObjectType
 
-A <a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a> structure that identifies the type of child object that can inherit the ACE. 
+A <a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structure that identifies the type of child object that can inherit the ACE. 
 
 
 
 
 This member is valid only if the ACE_INHERITED_OBJECT_TYPE_PRESENT bit is set in the <b>Flags</b> member. If that bit is not set, <b>InheritedObjectType</b> is ignored and all types of child objects can inherit the ACE. In either case, inheritance is also controlled by the inheritance flags in the 
-<a href="https://msdn.microsoft.com/d23f15d6-0453-4aaf-a2db-7528b551a992">ACE_HEADER</a>, as well as by any protection against inheritance placed on the child objects.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a>, as well as by any protection against inheritance placed on the child objects.
 
 
 ### -field SidStart
 
-The first <b>DWORD</b> of a trustee's ACE. This ACE can be appended with application data. When the <a href="https://msdn.microsoft.com/e8a510e6-0739-4765-ad07-3bcb1b9c905c">AuthzAccessCheckCallback</a> function is called, this ACE is passed as the <i>pAce</i> parameter of that function.
+The first <b>DWORD</b> of a trustee's ACE. This ACE can be appended with application data. When the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authzaccesscheckcallback">AuthzAccessCheckCallback</a> function is called, this ACE is passed as the <i>pAce</i> parameter of that function.
 
 
 ## -remarks
 
 
 
-If neither the <b>ObjectType</b> nor <b>InheritedObjectType</b> GUID is specified, the <b>SYSTEM_ALARM_CALLBACK_OBJECT_ACE</b> structure has the same semantics as the <a href="https://msdn.microsoft.com/8bfb579f-4bee-454e-827b-63a800bccf85">SYSTEM_ALARM_CALLBACK_ACE</a> structure. In that case, use the 
+If neither the <b>ObjectType</b> nor <b>InheritedObjectType</b> GUID is specified, the <b>SYSTEM_ALARM_CALLBACK_OBJECT_ACE</b> structure has the same semantics as the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_alarm_callback_ace">SYSTEM_ALARM_CALLBACK_ACE</a> structure. In that case, use the 
 <b>SYSTEM_ALARM_CALLBACK_ACE</b> structure because it is smaller and more efficient.
 
 An ACL that contains an <b>SYSTEM_ALARM_CALLBACK_OBJECT_ACE</b> must specify the ACL_REVISION_DS revision number in its 
-<a href="https://msdn.microsoft.com/d23f15d6-0453-4aaf-a2db-7528b551a992">ACE_HEADER</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a> structure.
 
 
 

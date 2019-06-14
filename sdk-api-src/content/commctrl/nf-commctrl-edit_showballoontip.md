@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Displays a balloon tip associated with an edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761668(v=VS.85).aspx">EM_SHOWBALLOONTIP</a> message explicitly. 
+Displays a balloon tip associated with an edit control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-showballoontip">EM_SHOWBALLOONTIP</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Displays a balloon tip associated with an edit control. You can use this macro o
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the edit control. 
 
@@ -68,14 +68,14 @@ A handle to the edit control.
 
 Type: <b>PEDITBALLOONTIP</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb775466(v=VS.85).aspx">EDITBALLOONTIP</a> structure that contains information about the balloon tip to display. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-_tageditballoontip">EDITBALLOONTIP</a> structure that contains information about the balloon tip to display. 
 
 
 ## -remarks
 
 
 
-<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.</div>
+<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.</div>
 <div> </div>
 
 
@@ -89,15 +89,15 @@ A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb775466(v=VS.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775466(v=VS.85).aspx">EDITBALLOONTIP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-_tageditballoontip">EDITBALLOONTIP</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761668(v=VS.85).aspx">EM_SHOWBALLOONTIP</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/em-showballoontip">EM_SHOWBALLOONTIP</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775458(v=VS.85).aspx">Edit Controls</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/edit-controls">Edit Controls</a>
 
 
 

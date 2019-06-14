@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SetDeviceGammaRamp</b> function sets the <a href="https://msdn.microsoft.com/en-us/library/Dd316909(v=VS.85).aspx">gamma ramp</a> on direct color display boards having drivers that support downloadable gamma ramps in hardware.
+The <b>SetDeviceGammaRamp</b> function sets the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/g">gamma ramp</a> on direct color display boards having drivers that support downloadable gamma ramps in hardware.
 
 
 ## -parameters
@@ -95,11 +95,11 @@ Direct color display modes do not use color lookup tables and are usually 16, 24
 
 
 
-<a href="https://msdn.microsoft.com/a0623917-0b63-4546-a71a-1e9efa9fe8e5">Basic Color Management Concepts</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
 
 
 
-<a href="https://msdn.microsoft.com/ee9e9502-5514-4070-95fa-265674a1dde7">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions//dd316902(v=vs.85)">Functions</a>
  
 
  

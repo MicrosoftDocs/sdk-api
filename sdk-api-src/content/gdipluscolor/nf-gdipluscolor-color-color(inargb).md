@@ -82,15 +82,15 @@ An
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536243(v=VS.85).aspx">Color Constructors</a>
+<a href="https://docs.microsoft.com/previous-versions//ms536243(v=vs.85)">Color Constructors</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536254(v=VS.85).aspx">Color::MakeARGB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-makeargb">Color::MakeARGB</a>
  
 
  

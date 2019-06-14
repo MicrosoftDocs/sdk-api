@@ -82,15 +82,15 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms694500(v=VS.85).aspx">CoCreateFreeThreadedMarshaler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreatefreethreadedmarshaler">CoCreateFreeThreadedMarshaler</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms678428(v=VS.85).aspx">CoMarshalInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-comarshalinterface">CoMarshalInterface</a>
 
 
 
-<a href="https://msdn.microsoft.com/60bd765f-0846-47f5-af1b-bc8e72720841">ITfLangBarMgr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbarmgr">ITfLangBarMgr</a>
  
 
  

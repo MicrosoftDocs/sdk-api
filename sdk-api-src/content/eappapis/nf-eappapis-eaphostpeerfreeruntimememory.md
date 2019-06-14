@@ -87,11 +87,11 @@ This call is performed by a peer-based EAPHost using a function pointer to this 
 
 
 
-<a href="https://msdn.microsoft.com/b1c473ba-9a12-4929-b4d0-27262117e9c0">EAPHost Supplicant Run-Time Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-supplicant-run-time-functions">EAPHost Supplicant Run-Time Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/48c48162-44d8-45d2-9147-5bf006d493b5">EapHostPeerInvokeIdentityUI</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeidentityui">EapHostPeerInvokeIdentityUI</a>
  
 
  

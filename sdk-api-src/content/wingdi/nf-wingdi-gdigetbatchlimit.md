@@ -76,13 +76,13 @@ If the function fails, the return value is zero.
 
 
 
-The batch limit is set by using the <a href="https://msdn.microsoft.com/53bf0dfe-e93c-401d-ac5d-6717bad2625e">GdiSetBatchLimit</a> function. Setting the limit to 1 effectively disables batching.
+The batch limit is set by using the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gdisetbatchlimit">GdiSetBatchLimit</a> function. Setting the limit to 1 effectively disables batching.
 
-Only GDI drawing functions that return Boolean values can be batched; calls to any other GDI functions immediately flush the current batch. Exceeding the batch limit or calling the <a href="https://msdn.microsoft.com/6d2f398d-7a30-4b14-81de-23ab10e1749c">GdiFlush</a> function also flushes the current batch.
+Only GDI drawing functions that return Boolean values can be batched; calls to any other GDI functions immediately flush the current batch. Exceeding the batch limit or calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gdiflush">GdiFlush</a> function also flushes the current batch.
 
-When the system batches a function call, the function returns <b>TRUE</b>. The actual return value for the function is reported only if <a href="https://msdn.microsoft.com/6d2f398d-7a30-4b14-81de-23ab10e1749c">GdiFlush</a> is used to flush the batch.
+When the system batches a function call, the function returns <b>TRUE</b>. The actual return value for the function is reported only if <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gdiflush">GdiFlush</a> is used to flush the batch.
 
-<div class="alert"><b>Note</b>  The batch limit is maintained for each thread separately. In order to completely disable batching, call <a href="https://msdn.microsoft.com/53bf0dfe-e93c-401d-ac5d-6717bad2625e">GdiSetBatchLimit</a> (1) during the initialization of each thread.</div>
+<div class="alert"><b>Note</b>  The batch limit is maintained for each thread separately. In order to completely disable batching, call <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gdisetbatchlimit">GdiSetBatchLimit</a> (1) during the initialization of each thread.</div>
 <div> </div>
 
 
@@ -92,21 +92,21 @@ When the system batches a function call, the function returns <b>TRUE</b>. The a
 
 
 
-<a href="https://msdn.microsoft.com/6d2f398d-7a30-4b14-81de-23ab10e1749c">GdiFlush
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gdiflush">GdiFlush
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/53bf0dfe-e93c-401d-ac5d-6717bad2625e">GdiSetBatchLimit
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gdisetbatchlimit">GdiSetBatchLimit
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/ec18323e-c13b-4328-83bf-9e4ed4a712b8">Painting and Drawing Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e6034af-4dea-4579-b476-52f6dd3d5bc7">Painting and Drawing Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
  
 
  

@@ -68,7 +68,7 @@ The <i>DdVideoPortWaitForSync</i> callback function waits until the next vertica
 
 #### - lpWaitForSync
 
-Points to a <a href="https://msdn.microsoft.com/903c697e-4fa5-472e-ab5b-7864a326f323">DD_WAITFORVPORTSYNCDATA</a> structure that contains the information required for the driver to synchronize the VPE object.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_waitforvportsyncdata">DD_WAITFORVPORTSYNCDATA</a> structure that contains the information required for the driver to synchronize the VPE object.
 
 
 ## -returns
@@ -84,7 +84,7 @@ Points to a <a href="https://msdn.microsoft.com/903c697e-4fa5-472e-ab5b-7864a326
 
 
 
-If the condition on which the driver is waiting does not occur before the number of milliseconds specified in the  <b>dwTimeOut</b> member of the DD_WAITFORVPORTSYNCDATA structure at <i>lpWaitForSync</i> has elapsed, the driver should set the <b>ddRVal</b> member of <a href="https://msdn.microsoft.com/903c697e-4fa5-472e-ab5b-7864a326f323">DD_WAITFORVPORTSYNCDATA</a> to DDERR_VIDEONOTACTIVE and return DDHAL_DRIVER_HANDLED.
+If the condition on which the driver is waiting does not occur before the number of milliseconds specified in the  <b>dwTimeOut</b> member of the DD_WAITFORVPORTSYNCDATA structure at <i>lpWaitForSync</i> has elapsed, the driver should set the <b>ddRVal</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_waitforvportsyncdata">DD_WAITFORVPORTSYNCDATA</a> to DDERR_VIDEONOTACTIVE and return DDHAL_DRIVER_HANDLED.
 
 The driver must specify its own time-out criteria when <b>dwTimeOut</b> is zero.
 
@@ -96,7 +96,7 @@ The driver must specify its own time-out criteria when <b>dwTimeOut</b> is zero.
 
 
 
-<a href="https://msdn.microsoft.com/903c697e-4fa5-472e-ab5b-7864a326f323">DD_WAITFORVPORTSYNCDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_waitforvportsyncdata">DD_WAITFORVPORTSYNCDATA</a>
  
 
  

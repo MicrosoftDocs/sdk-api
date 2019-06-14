@@ -59,7 +59,7 @@ The DD_GETSCANLINEDATA structure contains the members required to query and retu
 
 ### -field lpDD
 
-Points to a <a href="https://msdn.microsoft.com/a59f064b-48cf-4491-82cd-84f59467af87">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
 
 
 ### -field dwScanLine
@@ -69,7 +69,7 @@ Specifies the location in which the driver returns the number of the current sca
 
 ### -field ddRVal
 
-Specifies the location in which the driver writes the return value of the <a href="https://msdn.microsoft.com/3738205f-2d27-4211-944a-6ca71954fe47">DdGetScanLine</a> callback. A return code of DD_OK indicates success. For more information, see <a href="https://msdn.microsoft.com/da4cc7d7-6826-48aa-96c6-004e31fc3e3e">Return Values for DirectDraw</a>.
+Specifies the location in which the driver writes the return value of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getscanline">DdGetScanLine</a> callback. A return code of DD_OK indicates success. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/return-values-for-directdraw">Return Values for DirectDraw</a>.
 
 
 ### -field GetScanLine
@@ -91,7 +91,7 @@ The returned scan line value in <b>dwScanLine</b> must be greater than or equal 
 
 
 
-<a href="https://msdn.microsoft.com/3738205f-2d27-4211-944a-6ca71954fe47">DdGetScanLine</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getscanline">DdGetScanLine</a>
  
 
  

@@ -50,9 +50,9 @@ ms.custom: 19H1
 
 
 Sets the current position of the Reader.  The position must have been obtained by a call to
-        <a href="https://msdn.microsoft.com/91e543f3-7325-4a90-9b99-c98918478853">WsGetReaderPosition</a> or <a href="https://msdn.microsoft.com/0c0fbd78-ed4f-40da-a63d-a2f38136ecb3">WsGetWriterPosition</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetreaderposition">WsGetReaderPosition</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetwriterposition">WsGetWriterPosition</a>.
       
-        This function can only be used on a reader that is set to a <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a>.
+        This function can only be used on a reader that is set to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a>.
       
 
 
@@ -63,7 +63,7 @@ Sets the current position of the Reader.  The position must have been obtained b
 
 ### -param reader [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/7acbe407-e91b-435a-82bc-acbbc13cfcfd">WS_XML_READER</a> object for which the current position is set.  The pointer must reference a valid <b>XML Reader</b> object.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> object for which the current position is set.  The pointer must reference a valid <b>XML Reader</b> object.
                 
 
 
@@ -75,7 +75,7 @@ A pointer to the position to set the Reader.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 
@@ -124,12 +124,12 @@ The operation is not allowed due to the current state of the object.
 
 
 
-See <a href="https://msdn.microsoft.com/40ca058c-04e1-4358-b330-360a094a8791">WS_XML_NODE_POSITION</a> for more information on using positions.
+See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_node_position">WS_XML_NODE_POSITION</a> for more information on using positions.
       
 
-This function cannot be used while canonicalizing.  If <a href="https://msdn.microsoft.com/5dad9485-db3c-4ae0-b053-e1e4f32ad64d">WsStartReaderCanonicalization</a> has
+This function cannot be used while canonicalizing.  If <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsstartreadercanonicalization">WsStartReaderCanonicalization</a> has
         been called, then it will return <b>WS_E_INVALID_OPERATION</b>.
-      (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.)
+      (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 
 
 

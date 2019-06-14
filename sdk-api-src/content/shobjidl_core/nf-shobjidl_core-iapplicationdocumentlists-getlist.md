@@ -94,7 +94,7 @@ A reference to the IID of the interface to retrieve through <i>ppv</i>, typicall
 
 Type: <b>void**</b>
 
-When this method returns, contains the interface pointer requested in <i>riid</i>. This is typically an <a href="https://msdn.microsoft.com/ab0bb213-dc9c-4853-98d7-668e7ca76583">IObjectArray</a> or <a href="https://msdn.microsoft.com/914f2a4d-a67a-45d9-96ee-d8cae7d08e3c">IEnumObjects</a> which represents a collection of <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a> or <a href="https://msdn.microsoft.com/67982d28-27ce-4482-b588-10fec8143750">IShellLink</a> objects (or a mix of the two) that represent the retrieved items from the list.
+When this method returns, contains the interface pointer requested in <i>riid</i>. This is typically an <a href="https://docs.microsoft.com/windows/desktop/api/objectarray/nn-objectarray-iobjectarray">IObjectArray</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumobjects">IEnumObjects</a> which represents a collection of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a> objects (or a mix of the two) that represent the retrieved items from the list.
 
 
 ## -returns
@@ -124,15 +124,15 @@ If a user pins an item in the <b>Recent</b> or <b>Frequent</b> categories, the i
 
 
 
-<a href="https://msdn.microsoft.com/1912d8fd-1724-4a4b-b74a-e05db12ffead">IApplicationDocumentLists</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdocumentlists">IApplicationDocumentLists</a>
 
 
 
-<a href="https://msdn.microsoft.com/1c5135c1-b98d-4d27-8437-5ca57af9a525">IApplicationDocumentLists::SetAppID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdocumentlists-setappid">IApplicationDocumentLists::SetAppID</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbf2b07d-d67c-4755-888c-d40692d13cae">Taskbar Extensions</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
  
 
  

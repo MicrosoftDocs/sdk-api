@@ -105,9 +105,9 @@ This view has no meaningful state to save. This error should be rare because mos
 
 
 
-The view's state includes properties such as the view type, zoom factor, and location of insertion point. The container typically calls this function before deactivating the view. The stream can then later be used to reinitialize a view of the same document to this saved state through <a href="https://msdn.microsoft.com/f78526b4-977a-4dde-8a2f-7ae0a1c5c7f9">IOleDocumentView::ApplyViewState</a>.
+The view's state includes properties such as the view type, zoom factor, and location of insertion point. The container typically calls this function before deactivating the view. The stream can then later be used to reinitialize a view of the same document to this saved state through <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-applyviewstate">IOleDocumentView::ApplyViewState</a>.
 
-According to the rules governing <a href="https://msdn.microsoft.com/97ea64ee-d950-4872-add6-1f532a6eb33f">IPersistStream</a>, a view must write its CLSID as the first element in the stream. Any cross-platform file format compatibility issues that apply to the document's storage representation also apply to this context.
+According to the rules governing <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a>, a view must write its CLSID as the first element in the stream. Any cross-platform file format compatibility issues that apply to the document's storage representation also apply to this context.
 
 
 
@@ -117,15 +117,15 @@ According to the rules governing <a href="https://msdn.microsoft.com/97ea64ee-d9
 
 
 
-<a href="https://msdn.microsoft.com/07948c08-f047-4ae0-a41b-5410b4bbf4d6">IOleDocumentView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ioledocumentview">IOleDocumentView</a>
 
 
 
-<a href="https://msdn.microsoft.com/f78526b4-977a-4dde-8a2f-7ae0a1c5c7f9">IOleDocumentView::ApplyViewState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-applyviewstate">IOleDocumentView::ApplyViewState</a>
 
 
 
-<a href="https://msdn.microsoft.com/97ea64ee-d950-4872-add6-1f532a6eb33f">IPersistStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a>
  
 
  

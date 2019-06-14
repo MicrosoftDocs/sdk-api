@@ -52,7 +52,7 @@ req.redist:
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
     available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
     information, and alternatives to TxF, please see 
-    <a href="https://msdn.microsoft.com/9ee26e7e-990e-4cd3-8180-f0fcaac2b752">Alternatives to using Transactional NTFS</a>.]
+    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
 Contains information about the resource manager (RM).
 
@@ -64,7 +64,7 @@ Contains information about the resource manager (RM).
 
 ### -field BytesRequired
 
-If <a href="https://msdn.microsoft.com/24e80fdb-9243-455a-a2bf-7bf9b0a61efb">FSCTL_TXFS_QUERY_RM_INFORMATION</a> 
+If <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_query_rm_information">FSCTL_TXFS_QUERY_RM_INFORMATION</a> 
       returns <b>ERROR_BUFFER_TOO_SMALL</b>, this member specifies the minimum number of bytes 
       needed to return the information requested, including the <b>NULL</b> terminating 
       character.
@@ -399,11 +399,11 @@ The offset from the beginning of this structure to a <b>NULL</b>-terminated Unic
 
 
 
-<a href="https://msdn.microsoft.com/24e80fdb-9243-455a-a2bf-7bf9b0a61efb">FSCTL_TXFS_QUERY_RM_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_query_rm_information">FSCTL_TXFS_QUERY_RM_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/85b3cf8e-bff3-4693-b00e-64bf5d1f5065">TxF Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-structures">TxF Structures</a>
  
 
  

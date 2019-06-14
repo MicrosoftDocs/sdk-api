@@ -90,7 +90,7 @@ The method was successful.
 
 
 
-The standard speech text service usually initializes the speech-related user interface on the TSF language bar. When a TSF-enabled application, that does not use the speech text service, requires use of the <a href="https://msdn.microsoft.com/40961001-b659-4ddb-ae7d-5342957770be">ITfSpeechUIServer</a> interface, it initializes the user interface with this method.
+The standard speech text service usually initializes the speech-related user interface on the TSF language bar. When a TSF-enabled application, that does not use the speech text service, requires use of the <a href="https://docs.microsoft.com/windows/desktop/api/ctfspui/nn-ctfspui-itfspeechuiserver">ITfSpeechUIServer</a> interface, it initializes the user interface with this method.
 
 
 
@@ -100,7 +100,7 @@ The standard speech text service usually initializes the speech-related user int
 
 
 
-<a href="https://msdn.microsoft.com/40961001-b659-4ddb-ae7d-5342957770be">ITfSpeechUIServer
+<a href="https://docs.microsoft.com/windows/desktop/api/ctfspui/nn-ctfspui-itfspeechuiserver">ITfSpeechUIServer
       </a>
  
 

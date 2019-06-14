@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Contains information on range tracking parameters for an update sequence number (USN) change journal using the <a href="https://msdn.microsoft.com/258E16B2-B6E8-44BB-8073-B1BEDD4FA86A">FSCTL_USN_TRACK_MODIFIED_RANGES</a> control code.
+Contains information on range tracking parameters for an update sequence number (USN) change journal using the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_usn_track_modified_ranges">FSCTL_USN_TRACK_MODIFIED_RANGES</a> control code.
 
 
 ## -struct-fields
@@ -69,7 +69,7 @@ Indicates enabling range tracking.
 <td>FLAG_USN_TRACK_MODIFIED_RANGES_ENABLE 
 0x00000001 
 </td>
-<td>This flag is mandatory with <a href="https://msdn.microsoft.com/258E16B2-B6E8-44BB-8073-B1BEDD4FA86A">FSCTL_USN_TRACK_MODIFIED_RANGES</a> and is used to enable range tracking on the volume.</td>
+<td>This flag is mandatory with <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_usn_track_modified_ranges">FSCTL_USN_TRACK_MODIFIED_RANGES</a> and is used to enable range tracking on the volume.</td>
 </tr>
 </table>
  
@@ -87,7 +87,7 @@ Chunk size for tracking ranges. A single byte modification will be reflected as 
 
 ### -field FileSizeThreshold
 
-File size threshold to start outputting <a href="https://msdn.microsoft.com/2636D1A1-6FD1-4F84-954C-499DCCE6E390">USN_RECORD_V4</a> record(s) for modified file, i.e. if the modified file size is less than this threshold, then no <b>USN_RECORD_V4</b> record will be output. 
+File size threshold to start outputting <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_v4">USN_RECORD_V4</a> record(s) for modified file, i.e. if the modified file size is less than this threshold, then no <b>USN_RECORD_V4</b> record will be output. 
 
 
 ## -remarks
@@ -104,7 +104,7 @@ Once range tracking is enabled for a given volume it cannot be disabled except b
 
 
 
-<a href="https://msdn.microsoft.com/258E16B2-B6E8-44BB-8073-B1BEDD4FA86A">FSCTL_USN_TRACK_MODIFIED_RANGES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_usn_track_modified_ranges">FSCTL_USN_TRACK_MODIFIED_RANGES</a>
  
 
  

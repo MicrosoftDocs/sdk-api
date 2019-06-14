@@ -61,7 +61,7 @@ The
 ### -param CallInfoString [in]
 
 
-<a href="https://msdn.microsoft.com/28482ba8-c536-48ef-bca6-eba5b801c06e">CALLINFO_STRING</a> indicator of information type, such as CIS_DISPLAYABLEADDRESS.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-callinfo_string">CALLINFO_STRING</a> indicator of information type, such as CIS_DISPLAYABLEADDRESS.
 
 
 ### -param pCallInfoString [in]
@@ -121,7 +121,7 @@ The <i>CallInfoString</i> parameter is not a valid value.
 </td>
 <td width="60%">
 The current 
-<a href="https://msdn.microsoft.com/d4ed5e99-3abe-4434-9f99-5e98d8c6f3f1">call state</a> is not valid for this operation.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-call_state">call state</a> is not valid for this operation.
 
 </td>
 </tr>
@@ -136,8 +136,8 @@ The current
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221458(v=VS.85).aspx">SysAllocString</a> to allocate memory for the string data referenced by <i>pCallInfoString</i> parameter and use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory when the variable is no longer needed.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> to allocate memory for the string data referenced by <i>pCallInfoString</i> parameter and use 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory when the variable is no longer needed.
 
 
 
@@ -147,19 +147,19 @@ The application must use
 
 
 
-<a href="https://msdn.microsoft.com/28482ba8-c536-48ef-bca6-eba5b801c06e">CALLINFO_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-callinfo_string">CALLINFO_STRING</a>
 
 
 
-<a href="https://msdn.microsoft.com/67c063ba-8b12-40d6-9011-923bdee8b214">Call Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/5209d4a1-e05b-453e-8896-2dc71f0b9af0">ITCallInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/248022e7-c6cf-4c46-be94-ee1b79b9f39a">get_CallInfoString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_callinfostring">get_CallInfoString</a>
  
 
  

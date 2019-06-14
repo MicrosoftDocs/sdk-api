@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Called from the <a href="https://msdn.microsoft.com/28fbd8db-557d-487b-8cf7-c550fe0826f7">WSManPluginAuthzOperation</a> plug-in entry point. It reports either a successful or failed authorization for a user operation.
+Called from the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_operation">WSManPluginAuthzOperation</a> plug-in entry point. It reports either a successful or failed authorization for a user operation.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Called from the <a href="https://msdn.microsoft.com/28fbd8db-557d-487b-8cf7-c550
 
 ### -param senderDetails [in]
 
-A pointer  to the <a href="https://msdn.microsoft.com/f68a9f75-6808-4dfa-b40f-061da88ead3c">WSMAN_SENDER_DETAILS</a> structure that was passed into the <a href="https://msdn.microsoft.com/28fbd8db-557d-487b-8cf7-c550fe0826f7">WSManPluginAuthzOperation</a> plug-in call.
+A pointer  to the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_sender_details">WSMAN_SENDER_DETAILS</a> structure that was passed into the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_operation">WSManPluginAuthzOperation</a> plug-in call.
 
 
 ### -param flags [in]
@@ -69,7 +69,7 @@ Reserved for future use. Must be zero.
 
 ### -param userAuthorizationContext [in, optional]
 
-Specifies a plug-in defined context that is used to help track user context information. This context can be returned to multiple calls, to this call, or to an operation call.  The plug-in manages reference counting for all calls.  If the user record times out or re-authorization is required, the WinRM (WinRM) infrastructure calls <a href="https://msdn.microsoft.com/f6cdf6cd-b62a-4678-a36e-a2a14662a9a5">WSManPluginAuthzReleaseContext</a>.
+Specifies a plug-in defined context that is used to help track user context information. This context can be returned to multiple calls, to this call, or to an operation call.  The plug-in manages reference counting for all calls.  If the user record times out or re-authorization is required, the WinRM (WinRM) infrastructure calls <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_release_context">WSManPluginAuthzReleaseContext</a>.
 
 
 ### -param errorCode [in]

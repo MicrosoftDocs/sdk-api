@@ -54,7 +54,7 @@ The <b>IXpsDocumentPackageTarget</b> interface contains the elements needed for 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsDocumentPackageTarget</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IXpsDocumentPackageTarget</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsDocumentPackageTarget</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsDocumentPackageTarget</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,28 +69,28 @@ The <b>IXpsDocumentPackageTarget</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/130114DF-DEE7-4ADD-8080-7D804F9F296E">GetXpsOMFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_1/nf-xpsobjectmodel_1-ixpsdocumentpackagetarget-getxpsomfactory">GetXpsOMFactory</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/2444703e-4b89-4ef0-9ed7-aa937bc62e8c">IXpsOMObjectFactory</a> object for the document package.
+Gets the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomobjectfactory">IXpsOMObjectFactory</a> object for the document package.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D20AE05F-466F-44B6-972A-06AA872FF7BA">GetXpsOMPackageWriter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_1/nf-xpsobjectmodel_1-ixpsdocumentpackagetarget-getxpsompackagewriter">GetXpsOMPackageWriter</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/cbbcc8bf-6172-41c8-9d74-27e5635ec167">IXpsOMPackageWriter</a> object for the document package.
+Gets the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a> object for the document package.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A2B2523F-2F07-4331-A8EA-84BB6636B948">GetXpsType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_1/nf-xpsobjectmodel_1-ixpsdocumentpackagetarget-getxpstype">GetXpsType</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/en-us/library/Hh832138(v=VS.85).aspx">XPS_DOCUMENT_TYPE</a> enumerated value for the document package.
+Gets the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_1/ne-xpsobjectmodel_1-__midl___midl_itf_xpsobjectmodel_1_0000_0000_0001">XPS_DOCUMENT_TYPE</a> enumerated value for the document package.
 
 </td>
 </tr>
@@ -102,11 +102,11 @@ Gets the <a href="https://msdn.microsoft.com/en-us/library/Hh832138(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/631FBF5E-1DDF-49A9-8E1E-201BC6996EA5">IPrintDocumentPackageTargetFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/documenttarget/nn-documenttarget-iprintdocumentpackagetargetfactory">IPrintDocumentPackageTargetFactory</a>
 
 
 
-<a href="http://msdn.microsoft.com/en-us/library/windows/apps/windows.graphics.printing.printmanager.aspx">Windows.Graphics.Printing.PrintManager</a>
+<a href="http://docs.microsoft.com/uwp/api/windows.graphics.printing.printmanager">Windows.Graphics.Printing.PrintManager</a>
  
 
  

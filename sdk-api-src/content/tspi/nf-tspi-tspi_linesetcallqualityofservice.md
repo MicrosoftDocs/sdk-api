@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>TSPI_lineSetCallQualityOfService</b> function service provider attempts to renegotiate the QOS on the call with the switch If the desired QOS is not available, then the function fails, but the call continues with the previous QOS. If the function succeeds, the new QOS information is stored in 
-<a href="https://msdn.microsoft.com/b077546b-cc95-44ce-99ee-f0007fd916b2">LINECALLINFO</a>; a LINECALLINFOSTATE_QOS message is sent by the service provider to indicate the updated values.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a>; a LINECALLINFOSTATE_QOS message is sent by the service provider to indicate the updated values.
 
 
 ## -parameters
@@ -71,22 +71,22 @@ The service provider's handle to the call.
 
 ### -param lpSendingFlowspec
 
-Pointer to memory containing a WinSock2 <a href="https://msdn.microsoft.com/268e0d3a-2b04-40fd-91eb-f1780236b3e4">FLOWSPEC</a> structure followed by provider-specific data. The provider-specific portion following the <b>FLOWSPEC</b> structure must not contain pointers to other blocks of memory in the application process, because TAPI does not know how to marshal the data pointed to by the private pointer(s) and convey it through interprocess communication to the service provider.
+Pointer to memory containing a WinSock2 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a> structure followed by provider-specific data. The provider-specific portion following the <b>FLOWSPEC</b> structure must not contain pointers to other blocks of memory in the application process, because TAPI does not know how to marshal the data pointed to by the private pointer(s) and convey it through interprocess communication to the service provider.
 
 
 ### -param dwSendingFlowspecSize
 
-The total size in bytes of the <a href="https://msdn.microsoft.com/268e0d3a-2b04-40fd-91eb-f1780236b3e4">FLOWSPEC</a> and accompanying provider-specific data, equivalent to what would have been stored in SendingFlowspec.len in a WinSock2 <a href="https://msdn.microsoft.com/859faa13-bd66-46ee-8452-6ff5d53d66c9">QOS</a> structure.
+The total size in bytes of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a> and accompanying provider-specific data, equivalent to what would have been stored in SendingFlowspec.len in a WinSock2 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_qualityofservice">QOS</a> structure.
 
 
 ### -param lpReceivingFlowspec
 
-Pointer to memory containing a WinSock2 <a href="https://msdn.microsoft.com/268e0d3a-2b04-40fd-91eb-f1780236b3e4">FLOWSPEC</a> structure followed by provider-specific data. The provider-specific portion following the <b>FLOWSPEC</b> structure must not contain pointers to other blocks of memory in the application process, because TAPI does not know how to marshal the data pointed to by the private pointer(s) and convey it through interprocess communication to the service provider.
+Pointer to memory containing a WinSock2 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a> structure followed by provider-specific data. The provider-specific portion following the <b>FLOWSPEC</b> structure must not contain pointers to other blocks of memory in the application process, because TAPI does not know how to marshal the data pointed to by the private pointer(s) and convey it through interprocess communication to the service provider.
 
 
 ### -param dwReceivingFlowspecSize
 
-The total size in bytes of the <a href="https://msdn.microsoft.com/268e0d3a-2b04-40fd-91eb-f1780236b3e4">FLOWSPEC</a> and accompanying provider-specific data, equivalent to what would have been stored in ReceivingFlowspec.len in a WinSock2 <a href="https://msdn.microsoft.com/859faa13-bd66-46ee-8452-6ff5d53d66c9">QOS</a> structure.
+The total size in bytes of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a> and accompanying provider-specific data, equivalent to what would have been stored in ReceivingFlowspec.len in a WinSock2 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_qualityofservice">QOS</a> structure.
 
 
 ## -returns
@@ -105,7 +105,7 @@ LINEERR_INVALCALLSTATE, LINEERR_INVALRATE, LINEERR_NOMEM, LINEERR_OPERATIONFAILE
 
 
 
-<a href="https://msdn.microsoft.com/b077546b-cc95-44ce-99ee-f0007fd916b2">LINECALLINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a>
  
 
  

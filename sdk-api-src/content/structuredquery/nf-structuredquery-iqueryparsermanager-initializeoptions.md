@@ -74,7 +74,7 @@ Type: <b>BOOL</b>
 
 ### -param pQueryParser [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231353(v=VS.85).aspx">IQueryParser</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iqueryparser">IQueryParser</a>*</b>
 
 Pointer to the query parser object.
 

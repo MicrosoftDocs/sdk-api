@@ -100,7 +100,7 @@ Indicates that the lifetime of the software device is tied to the lifetime of it
 
 
 
-S_OK is returned if <a href="https://msdn.microsoft.com/64CAAA98-9358-4F53-A0AA-EE5984DE9638">SwDeviceSetLifetime</a> successfully retrieved the lifetime. 
+S_OK is returned if <a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nf-swdevice-swdevicesetlifetime">SwDeviceSetLifetime</a> successfully retrieved the lifetime. 
 
 
 

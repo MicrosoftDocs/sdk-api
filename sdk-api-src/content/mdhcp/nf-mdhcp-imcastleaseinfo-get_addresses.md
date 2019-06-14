@@ -54,7 +54,7 @@ provides similar functionality.]
 
  The 
 <b>get_Addresses</b> method obtains the collection of multicast addresses that are the subject of this lease or lease request. This method is primarily for Visual Basic and other scripting languages; C++ programmers use 
-<a href="https://msdn.microsoft.com/edbfe386-9b3d-4160-916e-6c9ea640cfbc">EnumerateAddresses</a> instead.
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastleaseinfo-enumerateaddresses">EnumerateAddresses</a> instead.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ provides similar functionality.]
 ### -param pVariant [out]
 
 Pointer to a <b>VARIANT</b> receiving an 
-<a href="https://msdn.microsoft.com/2286678a-68b9-4f4a-b36b-7fdf8cdad6a6">ITCollection</a> of <b>BSTR</b> strings. Each string is an IP version 4 address in dotted quad notation (for example, 10.111.222.111).
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a> of <b>BSTR</b> strings. Each string is an IP version 4 address in dotted quad notation (for example, 10.111.222.111).
 
 
 ## -returns
@@ -125,7 +125,7 @@ Not enough memory to allocate the collection.
 Each address is an IP version 4 address represented as a <b>BSTR</b> in dotted quad notation (for example, 10.111.222.111).
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://msdn.microsoft.com/93f2e4cf-013e-4064-88d5-69fddd458274">ITAddress</a> interface returned by <b>IMcastLeaseInfo::get_Addresses</b>. The application must call <b>Release</b> on the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a> interface returned by <b>IMcastLeaseInfo::get_Addresses</b>. The application must call <b>Release</b> on the 
 <b>ITAddress</b> interface to free resources associated with it.
 
 This function may send data over the wire in unencrypted form; therefore, someone eavesdropping on the network may be able to read the data. The security risk of sending the data in clear text should be considered before using this method.
@@ -138,15 +138,15 @@ This function may send data over the wire in unencrypted form; therefore, someon
 
 
 
-<a href="https://msdn.microsoft.com/edbfe386-9b3d-4160-916e-6c9ea640cfbc">EnumerateAddresses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastleaseinfo-enumerateaddresses">EnumerateAddresses</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4ad8009-559e-4db9-9ae2-28e4d36cf346">IMcastLeaseInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-imcastleaseinfo">IMcastLeaseInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/93f2e4cf-013e-4064-88d5-69fddd458274">ITAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
  
 
  

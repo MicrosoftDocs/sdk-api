@@ -82,7 +82,7 @@ This method is reserved for system use.
 
 
 
-<a href="https://msdn.microsoft.com/9c03f24c-073f-40bc-aee7-c462d4e2d781">INetDiagHelperEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelperex">INetDiagHelperEx</a>
  
 
  

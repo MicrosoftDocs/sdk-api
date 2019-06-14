@@ -74,7 +74,7 @@ Flags that control the behavior of the initialization. This parameter can be one
 </dl>
 </td>
 <td width="60%">
-The authorization store is opened for use by the <b>Update</b> method and the <a href="https://msdn.microsoft.com/0bd16cdb-3dba-4656-b264-32e622732155">AccessCheck</a> method.
+The authorization store is opened for use by the <b>Update</b> method and the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-accesscheck">AccessCheck</a> method.
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ The calling application is required to have SE_AUDIT_PRIVILEGE; if the applicati
 </dl>
 </td>
 <td width="60%">
-The provider is notified that many objects will be modified or created. The provider then optimizes submission of the changes for better performance. Use this flag only when multiple child objects of an <a href="https://msdn.microsoft.com/f848cca6-3838-46bc-b1f4-d6eab5096046">AzAuthorizationStore</a> object are updated  simultaneously, such as during an install or a controlled batch update.
+The provider is notified that many objects will be modified or created. The provider then optimizes submission of the changes for better performance. Use this flag only when multiple child objects of an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore">AzAuthorizationStore</a> object are updated  simultaneously, such as during an install or a controlled batch update.
 
 </td>
 </tr>
@@ -130,8 +130,8 @@ If the AZ_AZSTORE_FLAG_CREATE flag is specified:
 <ul>
 <li>The system will attempt to create the underlying policy store specified by the <i>bstrPolicyURL</i> parameter.</li>
 <li>If the specified policy store exists, the <b>Initialize</b> method will fail with ERROR_ALREADY_EXISTS. </li>
-<li>You must call the <a href="https://msdn.microsoft.com/bf2962af-0e8f-4c4c-a63a-dfd623308e4d">Submit</a> method to persist any changes made by this method.</li>
-<li>The <a href="https://msdn.microsoft.com/1fd17040-f736-44a6-8a01-720f4c8fe9ac">UpdateCache</a> method will fail until the <a href="https://msdn.microsoft.com/bf2962af-0e8f-4c4c-a63a-dfd623308e4d">Submit</a> method is called. The underlying policy store is actually created when <b>Submit</b> is called.</li>
+<li>You must call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-submit">Submit</a> method to persist any changes made by this method.</li>
+<li>The <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-updatecache">UpdateCache</a> method will fail until the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-submit">Submit</a> method is called. The underlying policy store is actually created when <b>Submit</b> is called.</li>
 </ul>
 If the AZ_AZSTORE_FLAG_CREATE flag is not specified, the system expects the underlying policy store to exist. If the store does not exist, the <b>Initialize</b> method will fail with ERROR_FILE_NOT_FOUND.
 
@@ -146,7 +146,7 @@ The policy URL prefix for an Active Directory store is <b>msldap:</b>. The gener
 
 <b>msldap://</b><i>ServerName</i><b>:</b><i>Port</i><b>//</b><i>DistinguishedNameForTheStore</i>
 
-The server name and the port are optional. If a server name is not provided, the default domain controller is used. If a port is not specified, the default LDAP port (LDAP_PORT, 389) is used. The distinguished name (DN) for the store begins with the relative distinguished name (RDN) of the <a href="https://msdn.microsoft.com/f848cca6-3838-46bc-b1f4-d6eab5096046">AzAuthorizationStore</a> object. For example, if the RDN of the <b>AzAuthorizationStore</b> object is MyStore and MyStore is in an organizational unit (OU) named AzMan, a possible URL for the Active Directory store is as follows:
+The server name and the port are optional. If a server name is not provided, the default domain controller is used. If a port is not specified, the default LDAP port (LDAP_PORT, 389) is used. The distinguished name (DN) for the store begins with the relative distinguished name (RDN) of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore">AzAuthorizationStore</a> object. For example, if the RDN of the <b>AzAuthorizationStore</b> object is MyStore and MyStore is in an organizational unit (OU) named AzMan, a possible URL for the Active Directory store is as follows:
 
 msldap://<i>MyServer</i>/CN=MyStore,OU=AzMan,DC=<i>MyDomain</i>,DC=Fabrikam,DC=Com
 
@@ -184,7 +184,7 @@ Reserved for future use. This parameter can be one of the following values:
 
 If the <i>bstrPolicyURL</i> parameter is not valid, the method returns HRESULT_FROM_WIN32(ERROR_INVALID_NAME).
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 

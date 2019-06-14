@@ -96,7 +96,7 @@ Value: 0x80004003
 
 
 
-This is the same value passed to the <a href="https://msdn.microsoft.com/a6158984-04d3-4919-8a67-fc860b4b3a47">IWriteEngine2::WriteSection</a> method. 
+This is the same value passed to the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-writesection">IWriteEngine2::WriteSection</a> method. 
 
 
 
@@ -106,19 +106,19 @@ This is the same value passed to the <a href="https://msdn.microsoft.com/a615898
 
 
 
-<a href="https://msdn.microsoft.com/a6158984-04d3-4919-8a67-fc860b4b3a47">IWriteEngine2::WriteSection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-writesection">IWriteEngine2::WriteSection</a>
 
 
 
-<a href="https://msdn.microsoft.com/1922410a-5871-477f-b778-36b12ad95168">IWriteEngine2EventArgs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2eventargs">IWriteEngine2EventArgs</a>
 
 
 
-<a href="https://msdn.microsoft.com/2db929b4-dbba-4f6a-bde0-0cefb30abf64">IWriteEngine2EventArgs::get_LastReadLba</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2eventargs-get_lastreadlba">IWriteEngine2EventArgs::get_LastReadLba</a>
 
 
 
-<a href="https://msdn.microsoft.com/ccb964b5-dd6f-4250-b6d2-41154258872f">IWriteEngine2EventArgs::get_LastWrittenLba</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2eventargs-get_lastwrittenlba">IWriteEngine2EventArgs::get_LastWrittenLba</a>
  
 
  

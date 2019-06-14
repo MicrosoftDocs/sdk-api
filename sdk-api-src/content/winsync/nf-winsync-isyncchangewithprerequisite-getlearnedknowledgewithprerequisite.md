@@ -133,7 +133,7 @@ This object does not contain prerequisite knowledge.
 
 
 
-<a href="https://msdn.microsoft.com/7650fc2c-fe2d-4cb1-a22a-433c90c5cb8d">ISyncChangeWithPrerequisite Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangewithprerequisite">ISyncChangeWithPrerequisite Interface</a>
  
 
  

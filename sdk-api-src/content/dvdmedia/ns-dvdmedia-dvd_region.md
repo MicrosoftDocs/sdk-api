@@ -101,7 +101,7 @@ The AM_PROPERTY_DVDCOPY_REGION property uses this structure.
 
 
 
-<a href="https://msdn.microsoft.com/da3abefd-8f25-449d-8787-84d2cef928da">DVD Copy Protection Property Set</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-copy-protection-property-set">DVD Copy Protection Property Set</a>
  
 
  

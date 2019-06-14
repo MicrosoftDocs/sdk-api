@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>NdrClientCall</b> function is the client-side entry point for the <a href="https://msdn.microsoft.com/cf597a45-410f-4098-850b-240c6ebce23b">/Oicf</a> mode stub.
+The <b>NdrClientCall</b> function is the client-side entry point for the <a href="https://docs.microsoft.com/windows/desktop/Midl/-oi">/Oicf</a> mode stub.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>NdrClientCall</b> function is the client-side entry point for the <a href
 
 ### -param pStubDescriptor [in]
 
-Pointer to the MIDL-generated <a href="https://msdn.microsoft.com/e3178aaa-a30a-43ba-a78a-a28d6f20fa74">MIDL_STUB_DESC</a> structure that contains information about the description of the remote interface.
+Pointer to the MIDL-generated <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-_midl_stub_desc">MIDL_STUB_DESC</a> structure that contains information about the description of the remote interface.
 
 
 ### -param pFormat [in]
@@ -76,7 +76,7 @@ Pointer to the client-side calling stack.
 
 
 
-Return value of the remote call. The maximum size of a return value is equivalent to the register size of the system. MIDL switches to the <a href="https://msdn.microsoft.com/dc5cafbb-dcc6-4fcb-a04f-1bc9720a13cb">/Os</a> mode stub if the return value size is larger than the register size.
+Return value of the remote call. The maximum size of a return value is equivalent to the register size of the system. MIDL switches to the <a href="https://docs.microsoft.com/windows/desktop/Midl/-os">/Os</a> mode stub if the return value size is larger than the register size.
 
 Depending on the method definition, this function can throw an exception if there is a network or server failure.
 
@@ -87,7 +87,7 @@ Depending on the method definition, this function can throw an exception if ther
 
 
 
-The <b>NdrClientCall</b> function is used by the <a href="https://msdn.microsoft.com/cf597a45-410f-4098-850b-240c6ebce23b">/Oicf /robust</a>  client-side stub. The <b>/Oi</b> and <b>/Oic</b> client-side stubs are obsolete as of MIDL version 6.0.359 and should not be used. The <b>NdrClientCall</b> function transmits all [in] data to the remote server, and upon receipt of the response packet, returns the [out] value to the client-side application.
+The <b>NdrClientCall</b> function is used by the <a href="https://docs.microsoft.com/windows/desktop/Midl/-oi">/Oicf /robust</a>  client-side stub. The <b>/Oi</b> and <b>/Oic</b> client-side stubs are obsolete as of MIDL version 6.0.359 and should not be used. The <b>NdrClientCall</b> function transmits all [in] data to the remote server, and upon receipt of the response packet, returns the [out] value to the client-side application.
 
 
 
@@ -97,11 +97,11 @@ The <b>NdrClientCall</b> function is used by the <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/cf597a45-410f-4098-850b-240c6ebce23b">/Oicf</a>
+<a href="https://docs.microsoft.com/windows/desktop/Midl/-oi">/Oicf</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a858600-ea06-4396-9a1b-240d646e8c7d">/robust</a>
+<a href="https://docs.microsoft.com/windows/desktop/Midl/-robust">/robust</a>
  
 
  

@@ -75,7 +75,7 @@ A reference to the desired IID.
 
 Type: <b>void**</b>
 
-The address of a pointer to the interface specified by <i>riid</i>, usually <a href="https://msdn.microsoft.com/en-us/library/Bb775244(v=VS.85).aspx">IPropertyChange</a>.
+The address of a pointer to the interface specified by <i>riid</i>, usually <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertychange">IPropertyChange</a>.
 
 
 ## -returns

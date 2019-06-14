@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Creates the <a href="https://msdn.microsoft.com/dac99908-be90-415d-8837-2f97d573feb5">Media Session</a> in the application's process.
+Creates the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> in the application's process.
 
 
 
@@ -62,13 +62,13 @@ Creates the <a href="https://msdn.microsoft.com/dac99908-be90-415d-8837-2f97d573
 
 ### -param pConfiguration
 
-Pointer to the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> interface. This parameter can be <b>NULL</b>. See Remarks.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. This parameter can be <b>NULL</b>. See Remarks.
           
 
 
 ### -param ppMediaSession
 
-Receives a pointer to the Media Session's <a href="https://msdn.microsoft.com/feebf891-73fa-4fe6-94ca-3594986fc92d">IMFMediaSession</a> interface. The caller must release the interface. Before releasing the last reference to the <b>IMFMediaSession</b> pointer, the application must call the <a href="https://msdn.microsoft.com/5b9663c2-e32e-4075-b397-59ae01558e15">IMFMediaSession::Shutdown</a> method.
+Receives a pointer to the Media Session's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a> interface. The caller must release the interface. Before releasing the last reference to the <b>IMFMediaSession</b> pointer, the application must call the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-shutdown">IMFMediaSession::Shutdown</a> method.
 
 
 ## -returns
@@ -104,7 +104,7 @@ The function succeeded.
 
 
 
-If your application does not play protected content, you can use this function to create the Media Session in the application's process. To use the Media Session for protected content, you must call <a href="https://msdn.microsoft.com/cb492e68-3d8a-49b2-8c0b-bee8065b53a8">MFCreatePMPMediaSession</a>.
+If your application does not play protected content, you can use this function to create the Media Session in the application's process. To use the Media Session for protected content, you must call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatepmpmediasession">MFCreatePMPMediaSession</a>.
       
 
 You can use the <i>pConfiguration</i> parameter to specify any of the following attributes:
@@ -113,16 +113,16 @@ You can use the <i>pConfiguration</i> parameter to specify any of the following 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/6810a22c-f091-423c-97dd-c04fdabdb9bb">MF_SESSION_GLOBAL_TIME</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-session-global-time-attribute">MF_SESSION_GLOBAL_TIME</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/24b4a5e3-84f1-44d0-a8ac-75c127ec8a8a">MF_SESSION_QUALITY_MANAGER</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-session-quality-manager-attribute">MF_SESSION_QUALITY_MANAGER</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/672274fb-71fc-49ca-bab6-1fc4de21d17c">MF_SESSION_TOPOLOADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-session-topoloader-attribute">MF_SESSION_TOPOLOADER</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/4D11B4D6-8CFF-4850-BF8F-9019A1F79153">MF_LOW_LATENCY</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-low-latency">MF_LOW_LATENCY</a>
 </li>
 </ul>
 
@@ -133,19 +133,19 @@ You can use the <i>pConfiguration</i> parameter to specify any of the following 
 
 
 
-<a href="https://msdn.microsoft.com/09f50b11-0e0a-42b6-a7bf-bb0135343351">About the Media Session</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/about-the-media-session">About the Media Session</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb492e68-3d8a-49b2-8c0b-bee8065b53a8">MFCreatePMPMediaSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatepmpmediasession">MFCreatePMPMediaSession</a>
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/dac99908-be90-415d-8837-2f97d573feb5">Media Session</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a>
  
 
  

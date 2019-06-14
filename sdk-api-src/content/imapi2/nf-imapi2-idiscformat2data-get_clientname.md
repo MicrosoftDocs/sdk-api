@@ -110,11 +110,11 @@ Value: 0x8007000E
 
 
 
-<a href="https://msdn.microsoft.com/6bb871c2-1a6e-4cf6-94e1-7a566ce7a88e">IDiscFormat2Data</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
 
 
 
-<a href="https://msdn.microsoft.com/1cd4ef46-4769-4e8e-80ca-fdcd81b486f1">IDiscFormat2Data::put_ClientName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-put_clientname">IDiscFormat2Data::put_ClientName</a>
  
 
  

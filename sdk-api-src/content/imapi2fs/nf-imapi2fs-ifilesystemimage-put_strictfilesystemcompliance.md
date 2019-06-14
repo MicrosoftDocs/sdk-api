@@ -89,11 +89,11 @@ If this property is VARIANT_TRUE and a method requests an action that violates o
 
 
 
-<a href="https://msdn.microsoft.com/0256f1d2-a3fb-45b2-bd84-e2b71148e4ec">IFileSystemImage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
 
 
 
-<a href="https://msdn.microsoft.com/07139ef3-ffd5-4035-afa9-6212808a6fbc">IFileSystemImage::get_StrictFileSystemCompliance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_strictfilesystemcompliance">IFileSystemImage::get_StrictFileSystemCompliance</a>
  
 
  

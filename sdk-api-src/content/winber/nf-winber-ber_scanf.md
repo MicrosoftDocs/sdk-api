@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ber_scanf</b> function decodes a BER element in a similar manner as <a href="http://go.microsoft.com/fwlink/p/?linkid=83973">sscanf_s</a>. One important difference is that some state status data is kept with the <b>BerElement</b> argument so that multiple calls can be made to <b>ber_scanf</b> to sequentially read from the BER element. The <b>BerElement</b> argument should be a pointer to a <b>BerElement</b> returned by <a href="https://msdn.microsoft.com/ad6557e9-1683-4ffd-a59e-8f37eb67d089">ber_init</a>.
+The <b>ber_scanf</b> function decodes a BER element in a similar manner as <a href="http://go.microsoft.com/fwlink/p/?linkid=83973">sscanf_s</a>. One important difference is that some state status data is kept with the <b>BerElement</b> argument so that multiple calls can be made to <b>ber_scanf</b> to sequentially read from the BER element. The <b>BerElement</b> argument should be a pointer to a <b>BerElement</b> returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_init">ber_init</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>ber_scanf</b> function decodes a BER element in a similar manner as <a hr
 
 ### -param pBerElement [in, out]
 
-Pointer to the decoded <a href="https://msdn.microsoft.com/491bdf54-0b45-4324-93fc-35fe15155a3d">BerElement</a> structure.
+Pointer to the decoded <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure.
 
 
 ### -param fmt [in]
@@ -95,12 +95,12 @@ The function interprets the bytes according to the format string <i>fmt</i>, and
 <tr>
 <td><b>a</b></td>
 <td><b>Octet string</b>. A <b>char**</b> argument must be supplied. Memory is allocated, filled with the contents of the octet string, zero-terminated, and the pointer to the string is stored in the argument. The returned value should be freed using 
-<a href="https://msdn.microsoft.com/3256a202-4245-4bea-a66c-0f28bfe2ef7e">ldap_memfree</a>. The tag of the element must indicate the primitive form (constructed strings are not supported), but is otherwise ignored and discarded during the decoding. This format cannot be used with octet strings which could contain null bytes.</td>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_memfree">ldap_memfree</a>. The tag of the element must indicate the primitive form (constructed strings are not supported), but is otherwise ignored and discarded during the decoding. This format cannot be used with octet strings which could contain null bytes.</td>
 </tr>
 <tr>
 <td><b>O</b></td>
 <td><b>Octet string</b>. A <b>berval**</b> argument must be supplied, which upon return points to an allocated <b>berval</b> that contains the octet string and its length. 
-<a href="https://msdn.microsoft.com/9e5a4bb9-568d-48ee-be75-952916c021b1">ber_bvfree</a> should be called to free the allocated memory. The tag of the element must indicate the primitive form (constructed strings are not supported), but is otherwise ignored during the decoding.</td>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_bvfree">ber_bvfree</a> should be called to free the allocated memory. The tag of the element must indicate the primitive form (constructed strings are not supported), but is otherwise ignored during the decoding.</td>
 </tr>
 <tr>
 <td><b>b</b></td>
@@ -117,7 +117,7 @@ The function interprets the bytes according to the format string <i>fmt</i>, and
 <tr>
 <td><b>B</b></td>
 <td><b>Bitstring</b>. A <b>char**</b> argument must be supplied which will point to the allocated bits, followed by a <b>ber_len_t</b> * argument, which will point to the length (in bits) of the bitstring returned. 
-<a href="https://msdn.microsoft.com/3256a202-4245-4bea-a66c-0f28bfe2ef7e">ldap_memfree</a> should be called to free the bitstring. The tag of the element must indicate the primitive form (constructed bitstrings are not supported), but is otherwise ignored during the decoding.</td>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_memfree">ldap_memfree</a> should be called to free the bitstring. The tag of the element must indicate the primitive form (constructed bitstrings are not supported), but is otherwise ignored during the decoding.</td>
 </tr>
 <tr>
 <td><b>n</b></td>
@@ -125,17 +125,17 @@ The function interprets the bytes according to the format string <i>fmt</i>, and
 </tr>
 <tr>
 <td><b>t</b></td>
-<td><b>Tag</b>. A pointer to a <b>ber_tag_t</b> must be supplied. The <b>ber_tag_t</b> value stored will be the tag of the next element in the <i>pBerElement</i>, represented so it can be written using the <b>t</b> format of <a href="https://msdn.microsoft.com/6bae449b-eb75-4598-aacc-65567de67997">ber_printf</a>. The decoding position within the <i>pBerElement</i> argument is unchanged by this.</td>
+<td><b>Tag</b>. A pointer to a <b>ber_tag_t</b> must be supplied. The <b>ber_tag_t</b> value stored will be the tag of the next element in the <i>pBerElement</i>, represented so it can be written using the <b>t</b> format of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_printf">ber_printf</a>. The decoding position within the <i>pBerElement</i> argument is unchanged by this.</td>
 </tr>
 <tr>
 <td><b>v</b></td>
 <td><b>Several octet strings</b>. A <b>char***</b> argument must be supplied, which upon return points to an allocated null-terminated array of char *'s that contain the octet strings. <b>NULL</b> is stored if the sequence is empty. 
-<a href="https://msdn.microsoft.com/3256a202-4245-4bea-a66c-0f28bfe2ef7e">ldap_memfree</a> should be called to free each element of the array and the array itself. The tag of the sequence and of the octet strings are ignored.</td>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_memfree">ldap_memfree</a> should be called to free each element of the array and the array itself. The tag of the sequence and of the octet strings are ignored.</td>
 </tr>
 <tr>
 <td><b>V</b></td>
 <td><b>Several octet strings</b> (which could contain null bytes). A <b>berval***</b> must be supplied, which upon return points to an allocated NULL-terminated array of <b>berval*</b>'s containing the octet strings and their lengths. <b>NULL</b> is stored if the sequence is empty. 
-<a href="https://msdn.microsoft.com/5c2b53e4-257e-4c3f-b712-345e6b33341b">ber_bvecfree</a> can be called to free the allocated memory. The tag of the sequence and of the octet strings are ignored.</td>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_bvecfree">ber_bvecfree</a> can be called to free the allocated memory. The tag of the sequence and of the octet strings are ignored.</td>
 </tr>
 <tr>
 <td><b>x</b></td>
@@ -168,19 +168,19 @@ The function interprets the bytes according to the format string <i>fmt</i>, and
 
 
 
-<a href="https://msdn.microsoft.com/491bdf54-0b45-4324-93fc-35fe15155a3d">BerElement</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a0040ea-f8f3-4378-8371-49768714d762">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/6bae449b-eb75-4598-aacc-65567de67997">ber_printf</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_printf">ber_printf</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f279905-ab02-4a8b-9b77-e8ea2b56e882">berval</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a>
  
 
  

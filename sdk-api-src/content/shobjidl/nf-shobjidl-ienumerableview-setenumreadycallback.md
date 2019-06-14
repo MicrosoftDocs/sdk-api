@@ -59,9 +59,9 @@ Sets a callback on the view that is notified when the initial view enumeration i
 
 ### -param percb [in]
 
-Type: <b><a href="https://msdn.microsoft.com/6c36e13d-9bd8-4ec1-980a-dc4ebd4dbcd9">IEnumReadyCallback</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-ienumreadycallback">IEnumReadyCallback</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/6c36e13d-9bd8-4ec1-980a-dc4ebd4dbcd9">IEnumReadyCallback</a> interface.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-ienumreadycallback">IEnumReadyCallback</a> interface.
 
 
 ## -returns

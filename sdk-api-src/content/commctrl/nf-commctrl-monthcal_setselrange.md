@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the selection for a month calendar control to a given date range. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761014(v=VS.85).aspx">MCM_SETSELRANGE</a> message explicitly. 
+Sets the selection for a month calendar control to a given date range. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcm-setselrange">MCM_SETSELRANGE</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Sets the selection for a month calendar control to a given date range. You can u
 
 ### -param hmc
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a month calendar control. 
 
@@ -68,5 +68,5 @@ Handle to a month calendar control.
 
 Type: <b>LPSYSTEMTIME</b>
 
-Pointer to a two-element array of <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structures that contain date information representing the selection limits. The first selected date must be specified in <i>lprgSysTimeArray</i>[0], and the last selected date must be specified in <i>lprgSysTimeArray</i>[1]. The time members of these structures are ignored. 
+Pointer to a two-element array of <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structures that contain date information representing the selection limits. The first selected date must be specified in <i>lprgSysTimeArray</i>[0], and the last selected date must be specified in <i>lprgSysTimeArray</i>[1]. The time members of these structures are ignored. 
 

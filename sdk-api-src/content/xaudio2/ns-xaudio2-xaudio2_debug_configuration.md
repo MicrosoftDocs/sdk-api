@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains the new global debug configuration for XAudio2. Used with the <a href="https://msdn.microsoft.com/en-us/library/Ee418624(v=VS.85).aspx">SetDebugConfiguration</a> function.
+Contains the new global debug configuration for XAudio2. Used with the <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-setdebugconfiguration">SetDebugConfiguration</a> function.
 
 
 ## -struct-fields
@@ -182,7 +182,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/3656aaf9-7a3a-2a5b-50f5-d279ce8a9e6c">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/structures">Structures</a>
  
 
  

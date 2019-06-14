@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the partition parameters of a partition style.
 
@@ -138,8 +138,8 @@ If this attribute is set, the partition is not detected by the Mount Manager.
 
 As a result, the partition does not receive a drive letter, 
           does not receive a volume GUID path, does not host mounted folders (also called volume mount points), and is not enumerated by calls to 
-          <a href="https://msdn.microsoft.com/en-us/library/Aa364425(v=VS.85).aspx">FindFirstVolume</a> and 
-          <a href="https://msdn.microsoft.com/en-us/library/Aa364431(v=VS.85).aspx">FindNextVolume</a>. This ensures that applications 
+          <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstvolumew">FindFirstVolume</a> and 
+          <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextvolumew">FindNextVolume</a>. This ensures that applications 
           such as Disk Defragmenter do not access the partition. The Volume Shadow Copy Service (VSS) uses this attribute.
 
 Despite its name, this attribute can be set for basic and dynamic disks.
@@ -177,7 +177,7 @@ Despite its name, this attribute can be set for basic and dynamic disks.
 If this attribute is set, the partition is read-only. 
 
 All requests to write to the partition will fail. 
-          <a href="https://msdn.microsoft.com/en-us/library/Aa365182(v=VS.85).aspx">IOCTL_DISK_IS_WRITABLE</a> will fail with the 
+          <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_is_writable">IOCTL_DISK_IS_WRITABLE</a> will fail with the 
           ERROR_WRITE_PROTECT Win32 error code, which causes the file system to mount as read-only, if a file system is present.
 
 VSS uses this attribute.
@@ -195,7 +195,7 @@ Do not set this attribute for dynamic disks. Setting it can cause I/O errors and
 
 
 The 
-    <a href="https://msdn.microsoft.com/0345a4b1-bbe1-4e59-9a04-bb40ff6db954">IVdsAdvancedDisk::ChangeAttributes</a> 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-changeattributes">IVdsAdvancedDisk::ChangeAttributes</a> 
     method takes this structure as a parameter.
 
 
@@ -206,11 +206,11 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/0345a4b1-bbe1-4e59-9a04-bb40ff6db954">IVdsAdvancedDisk::ChangeAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-changeattributes">IVdsAdvancedDisk::ChangeAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a13f5eb-0fa1-48e2-a112-b2254ca28423">VDS Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-structures">VDS Structures</a>
  
 
  

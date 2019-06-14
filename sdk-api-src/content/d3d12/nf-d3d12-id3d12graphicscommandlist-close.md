@@ -64,7 +64,7 @@ Indicates that recording to the command list has finished.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 Returns <b>S_OK</b> if successful; otherwise, returns one of the following values:
               
@@ -77,7 +77,7 @@ Returns <b>S_OK</b> if successful; otherwise, returns one of the following value
 <li><b>E_INVALIDARG</b> if an invalid argument was passed to the command list API during recording.
               </li>
 </ul>
-See <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a> for other possible return values.
+See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a> for other possible return values.
             
 
 
@@ -93,7 +93,7 @@ The runtime will validate that the command list has not previously been closed. 
 
 #### Examples
 
-The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::Close</b> as follows:
+The <a href="https://docs.microsoft.com/windows/desktop/direct3d12/working-samples">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::Close</b> as follows:
         
 
 
@@ -276,7 +276,7 @@ void D3D12HelloTriangle::PopulateCommandList()
 ```
 
 
-See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
+See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
         
 
 <div class="code"></div>
@@ -288,7 +288,7 @@ See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Ex
 
 
 
-<a href="https://msdn.microsoft.com/1BF282A7-F6D4-43A9-BDAD-D877564A1C6B">ID3D12GraphicsCommandList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
  
 
  

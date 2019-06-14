@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-This interface is used by the RemoteFX graphics services to send and receive data to a virtual graphics channel. An instance of this interface is provided to the RemoteFX graphics services in response to the <a href="https://msdn.microsoft.com/2dcce4ac-aa1d-4bdf-9c95-8737f924d0e9">IWRdsGraphicsChannelManager::CreateChannel</a> method.
+This interface is used by the RemoteFX graphics services to send and receive data to a virtual graphics channel. An instance of this interface is provided to the RemoteFX graphics services in response to the <a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/nf-wrdsgraphicschannels-iwrdsgraphicschannelmanager-createchannel">IWRdsGraphicsChannelManager::CreateChannel</a> method.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWRdsGraphicsChannel</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWRdsGraphicsChannel</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWRdsGraphicsChannel</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWRdsGraphicsChannel</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWRdsGraphicsChannel</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6e3fb05d-0f5b-4ac3-b121-e6a1662c6ea2">Close</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/nf-wrdsgraphicschannels-iwrdsgraphicschannel-close">Close</a>
 </td>
 <td align="left" width="63%">
 Called to close the channel.
@@ -78,7 +78,7 @@ Called to close the channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3b32b37f-6b1f-4682-9e2e-4a64e5c36e04">Open</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/nf-wrdsgraphicschannels-iwrdsgraphicschannel-open">Open</a>
 </td>
 <td align="left" width="63%">
 Called to open a channel.
@@ -87,7 +87,7 @@ Called to open a channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6ce627d8-078d-427a-b732-473d4f44f719">Write</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/nf-wrdsgraphicschannels-iwrdsgraphicschannel-write">Write</a>
 </td>
 <td align="left" width="63%">
 Called to send data to the virtual channel.

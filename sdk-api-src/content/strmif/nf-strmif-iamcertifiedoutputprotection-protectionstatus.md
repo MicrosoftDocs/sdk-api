@@ -60,12 +60,12 @@ The <code>ProtectionStatus</code> method sends a COPP status request to the grap
 
 ### -param pStatusInput [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/988e6d54-f241-4cfc-8793-fc42de92ac52">AMCOPPStatusInput</a> structure that contains the status request.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_amcoppstatusinput">AMCOPPStatusInput</a> structure that contains the status request.
 
 
 ### -param pStatusOutput [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/136ce182-24c3-489d-a9c2-0121593e4b1e">AMCOPPStatusOutput</a> structure. The method fills this structure with the driver's response.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_amcoppstatusoutput">AMCOPPStatusOutput</a> structure. The method fills this structure with the driver's response.
 
 
 ## -returns
@@ -123,11 +123,11 @@ The display device does not support COPP; or the VMR has not connected to a disp
 
 
 
-<a href="https://msdn.microsoft.com/e5da271d-9528-4bcb-8b76-56fbec2e5855">IAMCertifiedOutputProtection Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamcertifiedoutputprotection">IAMCertifiedOutputProtection Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/23eebe93-416b-48c8-a05f-019e38b9a660">Using Certified Output Protection Protocol (COPP)</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>
  
 
  

@@ -126,7 +126,7 @@ One or more of the arguments is not valid.
 
 
 
-The records created must be freed by calling <a href="https://msdn.microsoft.com/36faf2f6-ecb5-4d6f-a05d-a37ae21a8f07">RecordDestroy</a>.
+The records created must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-recorddestroy">RecordDestroy</a>.
 
 
 
@@ -136,7 +136,7 @@ The records created must be freed by calling <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/065ebfa8-bfac-4c75-a3f9-9dc0409ea454">IRecordInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>
  
 
  

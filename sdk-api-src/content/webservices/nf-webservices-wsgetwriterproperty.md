@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves a specified XML Writer property.  The property to retrieve is identified by a  <a href="https://msdn.microsoft.com/c919eb01-bd15-4583-afcf-e46ac2fc9c8c">WS_XML WRITER_PROPERTY_ID</a> input parameter.
+Retrieves a specified XML Writer property.  The property to retrieve is identified by a  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_xml_writer_property_id">WS_XML WRITER_PROPERTY_ID</a> input parameter.
             
 
 
@@ -85,7 +85,7 @@ The byte-length buffer size allocated by the caller to store the retrieved prope
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 

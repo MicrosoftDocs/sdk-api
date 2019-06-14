@@ -80,7 +80,7 @@ The function returns the current processor number.
 
 This function is used to provide information for estimating process performance.
 
-On systems with more than 64 logical processors, the <b>GetCurrentProcessorNumber</b> function returns the processor number within the <a href="https://msdn.microsoft.com/c627ac0f-96e8-48b5-9103-4316f487e173">processor group</a> to which the logical processor is assigned. Use the <a href="https://msdn.microsoft.com/46c3d3f7-7a82-40d3-8a9e-0f8d0df534f3">GetCurrentProcessorNumberEx</a> function to retrieve the processor group and number of the current processor.
+On systems with more than 64 logical processors, the <b>GetCurrentProcessorNumber</b> function returns the processor number within the <a href="https://docs.microsoft.com/windows/desktop/ProcThread/processor-groups">processor group</a> to which the logical processor is assigned. Use the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocessornumberex">GetCurrentProcessorNumberEx</a> function to retrieve the processor group and number of the current processor.
 
 
 
@@ -90,15 +90,15 @@ On systems with more than 64 logical processors, the <b>GetCurrentProcessorNumbe
 
 
 
-<a href="https://msdn.microsoft.com/3c9186c8-a54d-4536-8237-bfff78cc7d11">Multiple Processors</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/multiple-processors">Multiple Processors</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c8e8af0-bf50-4a4b-945c-83bae1eff7dd">Process and Thread Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/4bdec0f5-7276-422e-9935-0e231b0fc17d">Processes</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/child-processes">Processes</a>
  
 
  

@@ -60,7 +60,7 @@ Gets the current color glyph run.
 
 ### -param colorGlyphRun [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4433AFDF-F034-43DF-A030-4D7DD6E9CFF5">DWRITE_COLOR_GLYPH_RUN1</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/ns-dwrite_3-dwrite_color_glyph_run1">DWRITE_COLOR_GLYPH_RUN1</a></b>
 
 Receives a pointer to the color glyph run. The pointer remains valid until the next call to
           MoveNext or until the interface is released.
@@ -70,7 +70,7 @@ Receives a pointer to the color glyph run. The pointer remains valid until the n
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 Standard HRESULT error code. An error is returned if there is
           no current glyph run, i.e., if MoveNext has not yet been called
@@ -84,7 +84,7 @@ Standard HRESULT error code. An error is returned if there is
 
 
 
-<a href="https://msdn.microsoft.com/692CB5FF-3E74-4D3E-B961-E4AF5995A1B2">IDWriteColorGlyphRunEnumerator1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritecolorglyphrunenumerator1">IDWriteColorGlyphRunEnumerator1</a>
  
 
  

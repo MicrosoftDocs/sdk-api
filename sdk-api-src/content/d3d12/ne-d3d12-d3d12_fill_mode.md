@@ -71,7 +71,7 @@ Fill the triangles formed by the vertices. Adjacent vertices are not drawn.
 
 
 
-Fill mode is specified in a <a href="https://msdn.microsoft.com/52ECF841-72BE-44B7-BFB1-305B6981C1F4">D3D12_RASTERIZER_DESC</a> structure.
+Fill mode is specified in a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_rasterizer_desc">D3D12_RASTERIZER_DESC</a> structure.
       
 
 
@@ -82,11 +82,11 @@ Fill mode is specified in a <a href="https://msdn.microsoft.com/52ECF841-72BE-44
 
 
 
-<a href="https://msdn.microsoft.com/28AA8256-1CAF-484F-B219-0F0461BA947C">CD3DX12_RASTERIZER_DESC</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/cd3dx12-rasterizer-desc">CD3DX12_RASTERIZER_DESC</a>
 
 
 
-<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
  
 
  

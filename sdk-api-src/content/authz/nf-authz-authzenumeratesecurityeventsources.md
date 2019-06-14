@@ -64,7 +64,7 @@ Reserved for future use; set this parameter to zero.
 
 ### -param Buffer [out]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/8b4d6e14-fb9c-428a-bd94-34eba668edc6">AUTHZ_SOURCE_SCHEMA_REGISTRATION</a> structures that returns the registered security event sources.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_source_schema_registration">AUTHZ_SOURCE_SCHEMA_REGISTRATION</a> structures that returns the registered security event sources.
 
 
 ### -param pdwCount [out]
@@ -83,7 +83,7 @@ A pointer to a variable that specifies the length of the <i>Buffer</i> parameter
 
 If the function succeeds, it returns <b>TRUE</b>.
 
-If the function fails, it returns <b>FALSE</b>. For extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, it returns <b>FALSE</b>. For extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -93,7 +93,7 @@ If the function fails, it returns <b>FALSE</b>. For extended error information, 
 
 
 
-<a href="https://msdn.microsoft.com/8b4d6e14-fb9c-428a-bd94-34eba668edc6">AUTHZ_SOURCE_SCHEMA_REGISTRATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_source_schema_registration">AUTHZ_SOURCE_SCHEMA_REGISTRATION</a>
  
 
  

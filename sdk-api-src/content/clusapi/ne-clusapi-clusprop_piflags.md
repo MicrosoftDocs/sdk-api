@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 Represents disk partition information.  The enumeration flags identify certain properties of a disk partition, 
     which is a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa372937(v=VS.85).aspx">storage class resource</a>.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/s-gly">storage class resource</a>.
 
 
 ## -enum-fields
@@ -73,13 +73,13 @@ The storage class resource is removable.
 ### -field CLUSPROP_PIFLAG_USABLE
 
 The storage class resource is formatted with a file system that is usable by the 
-      <a href="https://msdn.microsoft.com/90717d6e-f2a4-49a0-86b6-17de1c4bcfe4">Cluster service</a>.
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a>.
 
 
 ### -field CLUSPROP_PIFLAG_DEFAULT_QUORUM
 
 The partition should be used to store quorum files if no partition is specified in the 
-      <a href="https://msdn.microsoft.com/1a00c09e-4470-4c02-807d-c559fd992066">SetClusterQuorumResource</a> function.
+      <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-setclusterquorumresource">SetClusterQuorumResource</a> function.
 
 
 ### -field CLUSPROP_PIFLAG_USABLE_FOR_CSV
@@ -113,7 +113,7 @@ The partition uses an unknown file system type.
 
 
 
-For <a href="https://msdn.microsoft.com/d42e9bca-3717-44f7-a1b9-dfad1dbddd23">Physical Disk</a> resources, the smallest NTFS partition 
+For <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/physical-disk">Physical Disk</a> resources, the smallest NTFS partition 
      larger than 50 MB automatically receives the <b>CLUSPROP_PIFLAG_DEFAULT_QUORUM</b> flag.
 
 
@@ -124,27 +124,27 @@ For <a href="https://msdn.microsoft.com/d42e9bca-3717-44f7-a1b9-dfad1dbddd23">Ph
 
 
 
-<a href="https://msdn.microsoft.com/cda1e334-dba8-4fe9-b035-4e475245869c">CLUSPROP_PARTITION_INFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_partition_info">CLUSPROP_PARTITION_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/b1343a04-b8bd-469a-a620-985eeb89401c">CLUSPROP_PARTITION_INFO_EX</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_partition_info_ex">CLUSPROP_PARTITION_INFO_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/656b230d-b4ba-45e4-b6b3-8bbe72f9428a">CLUS_PARTITION_INFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_partition_info">CLUS_PARTITION_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c">CLUS_PARTITION_INFO_EX</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_partition_info_ex">CLUS_PARTITION_INFO_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/19a69c92-495c-486d-9f42-6b0531dfb992">Flags Property of the ClusPartition Object</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluspartition-flags">Flags Property of the ClusPartition Object</a>
  
 
  

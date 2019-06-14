@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DrtGetEventDataSize</b> function returns the size of the <a href="https://msdn.microsoft.com/b52bf815-d962-4f72-8876-a80769bc3d3d">DRT_EVENT_DATA</a> structure associated with a signaled event.
+The <b>DrtGetEventDataSize</b> function returns the size of the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_event_data_tag">DRT_EVENT_DATA</a> structure associated with a signaled event.
 
 
 ## -parameters
@@ -133,7 +133,7 @@ There is no more event data available.
 
 
 
-<a href="https://msdn.microsoft.com/b52bf815-d962-4f72-8876-a80769bc3d3d">DRT_EVENT_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_event_data_tag">DRT_EVENT_DATA</a>
  
 
  

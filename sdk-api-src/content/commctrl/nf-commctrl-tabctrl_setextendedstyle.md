@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the extended styles that the tab control will use. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760627(v=VS.85).aspx">TCM_SETEXTENDEDSTYLE</a> message explicitly. 
+Sets the extended styles that the tab control will use. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-setextendedstyle">TCM_SETEXTENDEDSTYLE</a> message explicitly. 
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Sets the extended styles that the tab control will use. You can use this macro o
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tab control. 
 
 
 ### -param dw
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Value that contains the new tab control extended styles. This value is a combination of tab control <a href="https://msdn.microsoft.com/en-us/library/Bb760546(v=VS.85).aspx">extended styles</a>. 
+Value that contains the new tab control extended styles. This value is a combination of tab control <a href="https://docs.microsoft.com/windows/desktop/Controls/tab-control-extended-styles">extended styles</a>. 
 

@@ -60,7 +60,7 @@ Retrieves the last modification date for the current property in the enumeration
 
 ### -param pftModificationDate [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx">FILETIME</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>*</b>
 
 Specifies the last modified date as a UTC FILETIME. 
 

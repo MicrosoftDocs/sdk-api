@@ -72,11 +72,11 @@ One or more animation variables has changed.
 
 
 
-<a href="https://msdn.microsoft.com/6008fe44-8d86-4a56-a1e2-7bc144b224b2">IUIAnimationManager::Update</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager-update">IUIAnimationManager::Update</a>
 
 
 
-<a href="https://msdn.microsoft.com/06daa961-5f92-451f-958a-cf68f8ae2b0a">IUIAnimationTimerUpdateHandler::OnUpdate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtimerupdatehandler-onupdate">IUIAnimationTimerUpdateHandler::OnUpdate</a>
  
 
  

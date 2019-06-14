@@ -137,11 +137,11 @@ If a non-zero time-out value is specified, then <b>CMP_WaitNoPendingInstallEvent
 
 New installation events can occur at any time. This function just indicates that there are no pending installation activities at the moment it is called.
 
-This function is typically used by <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device installation applications</a>. For more information, see <a href="https://msdn.microsoft.com/library/Ff554015(v=VS.85).aspx">Writing a Device Installation Application</a>.
+This function is typically used by <a href="https://docs.microsoft.com/windows-hardware/drivers/">device installation applications</a>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/writing-a-device-installation-application">Writing a Device Installation Application</a>.
 
 Do not call this function while processing any events inside of a system-initiated callback function that is expected to return within a short amount of time.  This includes service startup (for example in the <b>ServiceMain</b> callback function) or while processing any control in the service handler (for example, the <b>Handler</b> callback function), or from installation components such as class-installers or co-installers.
 
-For Windows XP (with no service pack installed), this function must be called from <a href="https://msdn.microsoft.com/5f6fec1a-1134-4765-81be-9b50939e5e66">session zero</a>, with administrator privileges. For Windows XP with Service Pack 1 (SP1) and later versions of Windows, the function can be called from any session, and administrator privileges are not required.
+For Windows XP (with no service pack installed), this function must be called from <a href="https://docs.microsoft.com/windows-hardware/drivers/">session zero</a>, with administrator privileges. For Windows XP with Service Pack 1 (SP1) and later versions of Windows, the function can be called from any session, and administrator privileges are not required.
 
 
 
@@ -151,7 +151,7 @@ For Windows XP (with no service pack installed), this function must be called fr
 
 
 
-<a href="https://msdn.microsoft.com/b9922576-9e7e-454f-88e0-948a1e16523f">CM_WaitNoPendingInstallEvents</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/install/cm-waitnopendinginstallevents">CM_WaitNoPendingInstallEvents</a>
  
 
  

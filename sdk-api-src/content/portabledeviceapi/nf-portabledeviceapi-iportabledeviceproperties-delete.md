@@ -68,7 +68,7 @@ Pointer to a null-terminated string that specifies the ID of the object whose pr
 
 ### -param pKeys [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/2460f5bc-6b1c-4e3b-bdb9-faaa6d6c87fd">IPortableDeviceKeyCollection</a> interface that specifies which properties to delete. For a list of properties defined by Windows Portable Devices, see <a href="https://msdn.microsoft.com/3bfbe8d0-6ad5-42de-afdd-d83328aaaa62">Properties and Attributes</a>.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicekeycollection">IPortableDeviceKeyCollection</a> interface that specifies which properties to delete. For a list of properties defined by Windows Portable Devices, see <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/properties-and-attributes">Properties and Attributes</a>.
 
 
 ## -returns
@@ -125,9 +125,9 @@ The required pointer argument was <b>NULL</b>.
 
 
 
-Properties can be deleted only if their WPD_PROPERTY_ATTRIBUTE_CAN_DELETE attribute is True. This attribute can be retrieved by calling <a href="https://msdn.microsoft.com/bb2206ff-e1d4-4bc5-819b-b008a293c43d">GetPropertyAttributes</a>.
+Properties can be deleted only if their WPD_PROPERTY_ATTRIBUTE_CAN_DELETE attribute is True. This attribute can be retrieved by calling <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceproperties-getpropertyattributes">GetPropertyAttributes</a>.
 
-The driver has no way to indicate partial success; that is, if only some properties could be deleted, the driver will return <b>S_FALSE</b>, but this method does not indicate which properties were successfully deleted. The only way to learn which properties were deleted is to request all properties by calling <a href="https://msdn.microsoft.com/5f4ec65c-dd26-40d5-a9f8-a2175c3aa54c">IPortableDeviceProperties::GetValues</a>.
+The driver has no way to indicate partial success; that is, if only some properties could be deleted, the driver will return <b>S_FALSE</b>, but this method does not indicate which properties were successfully deleted. The only way to learn which properties were deleted is to request all properties by calling <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceproperties-getvalues">IPortableDeviceProperties::GetValues</a>.
 
 
 
@@ -137,7 +137,7 @@ The driver has no way to indicate partial success; that is, if only some propert
 
 
 
-<a href="https://msdn.microsoft.com/4555e85b-c667-466c-a527-cc29ca7a6aee">IPortableDeviceProperties Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties">IPortableDeviceProperties Interface</a>
  
 
  

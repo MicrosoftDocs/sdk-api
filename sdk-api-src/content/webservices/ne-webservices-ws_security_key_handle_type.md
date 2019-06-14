@@ -60,15 +60,15 @@ The types of security keys.
 
 ### -field WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE_TYPE
 
-Type ID for <a href="https://msdn.microsoft.com/en-us/library/Dd402004(v=VS.85).aspx">WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE</a>.
+Type ID for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_raw_symmetric_security_key_handle">WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE</a>.
 
 
 ### -field WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE_TYPE
 
-Type ID for <a href="https://msdn.microsoft.com/en-us/library/Dd401973(v=VS.85).aspx">WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE</a>.
+Type ID for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_ncrypt_asymmetric_security_key_handle">WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE</a>.
 
 
 ### -field WS_CAPI_ASYMMETRIC_SECURITY_KEY_HANDLE_TYPE
 
-Type ID for <a href="https://msdn.microsoft.com/en-us/library/Dd401771(v=VS.85).aspx">WS_CAPI_ASYMMETRIC_SECURITY_KEY_HANDLE</a>.
+Type ID for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_capi_asymmetric_security_key_handle">WS_CAPI_ASYMMETRIC_SECURITY_KEY_HANDLE</a>.
 

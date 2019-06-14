@@ -140,7 +140,7 @@ This method applies only to <i>next</i> tables. Otherwise, the method returns E_
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694773(v=VS.85).aspx">IPAT Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipat">IPAT Interface</a>
  
 
  

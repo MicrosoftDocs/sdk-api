@@ -59,9 +59,9 @@ ms.custom: 19H1
 
 ### -param wordWrapping
 
-Type: <b><a href="https://msdn.microsoft.com/5b0a5e15-1bbf-433e-9c7f-d7b8fa9313c2">DWRITE_WORD_WRAPPING</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_word_wrapping">DWRITE_WORD_WRAPPING</a></b>
 
-The word wrapping option being set for a paragraph; see <a href="https://msdn.microsoft.com/5b0a5e15-1bbf-433e-9c7f-d7b8fa9313c2">DWRITE_WORD_WRAPPING</a> for more information.
+The word wrapping option being set for a paragraph; see <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_word_wrapping">DWRITE_WORD_WRAPPING</a> for more information.
 
 
 ## -returns
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/64b2cac3-c4cb-4213-b808-7b279d296939">IDWriteTextFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a>
  
 
  

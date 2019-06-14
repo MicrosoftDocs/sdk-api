@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-A structure used to represent a discontiguous array of <a href="https://msdn.microsoft.com/0106e372-80bf-4a62-b941-1a4501c92a9c">WS_BYTES</a>.
+A structure used to represent a discontiguous array of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_bytes">WS_BYTES</a>.
 
 
 ## -struct-fields

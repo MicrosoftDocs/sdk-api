@@ -80,7 +80,7 @@ Pointer to the next <b>MPE_ELEMENT</b> structure in the list, or <b>NULL</b> if 
 
 
 
-<a href="https://msdn.microsoft.com/5ae43ac6-519d-486b-aaa5-c766f3194ef2">BDA Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-structures">BDA Structures</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 
 A constructor for <code>XMUBYTE2</code>.
 
-A constructor for <a href="https://msdn.microsoft.com/en-us/library/Hh404719(v=VS.85).aspx">XMUBYTE2</a>.
+A constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyte2">XMUBYTE2</a>.
 
 <div class="alert"><b>Note</b>  This constructor is only available with C++.</div>
 
@@ -63,6 +63,6 @@ A value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404719(v=VS.85).aspx">XMUBYTE2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyte2">XMUBYTE2</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449522(v=VS.85).aspx">XMUBYTE2 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmubyte2-ctor">XMUBYTE2 Constructors</a>

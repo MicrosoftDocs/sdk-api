@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 Creates a fence object.
 
-This member function is equivalent to the Direct3D 12 <a href="https://msdn.microsoft.com/731A60CA-644A-4FC2-8461-DDD686363BED">ID3D12Device::CreateFence</a> member function, and applies between Direct3D 11 and Direct3D 12 in interop scenarios.
+This member function is equivalent to the Direct3D 12 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createfence">ID3D12Device::CreateFence</a> member function, and applies between Direct3D 11 and Direct3D 12 in interop scenarios.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ This member function is equivalent to the Direct3D 12 <a href="https://msdn.micr
 
 ### -param InitialValue
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT64</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
 
 The initial value for the fence.
           
@@ -70,9 +70,9 @@ The initial value for the fence.
 
 ### -param Flags
 
-Type: <b><a href="https://msdn.microsoft.com/745B72A2-628C-477E-8534-336E73B5268A">D3D11_FENCE_FLAG</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/ne-d3d11_3-d3d11_fence_flag">D3D11_FENCE_FLAG</a></b>
 
-A combination of <a href="https://msdn.microsoft.com/745B72A2-628C-477E-8534-336E73B5268A">D3D11_FENCE_FLAG</a>-typed values that are combined by using a bitwise OR operation. 
+A combination of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/ne-d3d11_3-d3d11_fence_flag">D3D11_FENCE_FLAG</a>-typed values that are combined by using a bitwise OR operation. 
             The resulting value specifies options for the fence.
           
 
@@ -81,7 +81,7 @@ A combination of <a href="https://msdn.microsoft.com/745B72A2-628C-477E-8534-336
 
 Type: <b>REFIID</b>
 
-The globally unique identifier (<b>GUID</b>) for the fence interface (<a href="https://msdn.microsoft.com/DC07EDEF-DA38-4CAF-8FDE-B3867DC83B8C">ID3D11Fence</a>).
+The globally unique identifier (<b>GUID</b>) for the fence interface (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11fence">ID3D11Fence</a>).
             The <b>REFIID</b>, or <b>GUID</b>, of the interface to the fence can be obtained by using the __uuidof() macro.
             For example, __uuidof(ID3D11Fence) will get the <b>GUID</b> of the interface to a fence.
           
@@ -91,7 +91,7 @@ The globally unique identifier (<b>GUID</b>) for the fence interface (<a href="h
 
 Type: <b>void**</b>
 
-A pointer to a memory block that receives a pointer to the <a href="https://msdn.microsoft.com/DC07EDEF-DA38-4CAF-8FDE-B3867DC83B8C">ID3D11Fence</a> interface that is used to access the fence.
+A pointer to a memory block that receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11fence">ID3D11Fence</a> interface that is used to access the fence.
           
 
 
@@ -99,9 +99,9 @@ A pointer to a memory block that receives a pointer to the <a href="https://msdn
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-Returns <b>S_OK</b> if successful; otherwise, returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
+Returns <b>S_OK</b> if successful; otherwise, returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a>.
           
 
 
@@ -112,11 +112,11 @@ Returns <b>S_OK</b> if successful; otherwise, returns one of the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/C077BAD4-08D2-4F1F-8313-5066F68F014C">ID3D11Device5</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_4/nn-d3d11_4-id3d11device5">ID3D11Device5</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt589892(v=VS.85).aspx">UnregisterDeviceRemoved</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11device4-unregisterdeviceremoved">UnregisterDeviceRemoved</a>
  
 
  

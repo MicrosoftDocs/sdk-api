@@ -59,6 +59,6 @@ The <b>KERB_CERTIFICATE_INFO_TYPE</b> enumeration specifies the type of certific
 
 ### -field CertHashInfo
 
-Identifies certificate hash information as defined by the <a href="https://msdn.microsoft.com/09D78E91-5873-481D-A5FC-B7F39F8F9BB8">KERB_CERTIFICATE_HASHINFO</a> structure.
+Identifies certificate hash information as defined by the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_certificate_hashinfo">KERB_CERTIFICATE_HASHINFO</a> structure.
 
 

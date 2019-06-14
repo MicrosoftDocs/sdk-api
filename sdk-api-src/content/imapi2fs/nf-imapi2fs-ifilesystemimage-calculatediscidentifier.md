@@ -111,7 +111,7 @@ Value: 0xC0AAB15D
 
 When layering sessions on a disc, the signature acts as a key that the client can use to ensure the session order, and to distinguish sessions on disc from session images that will be laid on the disc. 
 
-You must call <a href="https://msdn.microsoft.com/632cd123-4e66-4ac3-891a-aa9d0c085b4f">IFileSystemImage::put_MultisessionInterfaces</a> prior to calling <b>CalculateDiscIdentifier</b>.
+You must call <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_multisessioninterfaces">IFileSystemImage::put_MultisessionInterfaces</a> prior to calling <b>CalculateDiscIdentifier</b>.
 
 
 
@@ -121,7 +121,7 @@ You must call <a href="https://msdn.microsoft.com/632cd123-4e66-4ac3-891a-aa9d0c
 
 
 
-<a href="https://msdn.microsoft.com/0256f1d2-a3fb-45b2-bd84-e2b71148e4ec">IFileSystemImage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
  
 
  

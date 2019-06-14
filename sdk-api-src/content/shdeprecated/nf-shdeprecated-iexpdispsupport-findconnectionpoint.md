@@ -80,7 +80,7 @@ Value that indicates a member of the <a href="https://docs.microsoft.com/en-us/d
 
 #### IID_IPropertyNotifySink
 
-Value that indicates a member of the <a href="https://msdn.microsoft.com/bfdf315c-6375-4c77-abd8-03f07342820f">IPropertyNotifySink</a> interface.
+Value that indicates a member of the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertynotifysink">IPropertyNotifySink</a> interface.
 
 
 ### -param ppccp [out]

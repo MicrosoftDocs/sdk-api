@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies Desktop Window Manager (DWM) thumbnail properties. Used by the <a href="https://msdn.microsoft.com/en-us/library/Aa969526(v=VS.85).aspx">DwmUpdateThumbnailProperties</a> function.
+Specifies Desktop Window Manager (DWM) thumbnail properties. Used by the <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmupdatethumbnailproperties">DwmUpdateThumbnailProperties</a> function.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ Specifies Desktop Window Manager (DWM) thumbnail properties. Used by the <a href
 
 ### -field dwFlags
 
-A bitwise combination of <a href="https://msdn.microsoft.com/en-us/library/Aa969535(v=VS.85).aspx">DWM thumbnail constant</a> values that indicates which members of this structure are set.
+A bitwise combination of <a href="https://docs.microsoft.com/windows/desktop/dwm/dwm-tnp-constants">DWM thumbnail constant</a> values that indicates which members of this structure are set.
 
 
 ### -field rcDestination

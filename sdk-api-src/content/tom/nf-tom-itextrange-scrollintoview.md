@@ -70,7 +70,7 @@ Flag specifying the end to scroll into view. It can be one of the following.
 </tr>
 <tr>
 <td width="40%"><a id="tomEnd"></a><a id="tomend"></a><a id="TOMEND"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomEnd</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomEnd</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -80,7 +80,7 @@ Scrolls the end character position to appear on the bottom line.
 </tr>
 <tr>
 <td width="40%"><a id="tomStart"></a><a id="tomstart"></a><a id="TOMSTART"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStart</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomStart</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -90,14 +90,14 @@ Scrolls the start character position to appear on the top line. (Default value).
 </tr>
 <tr>
 <td width="40%"><a id="tomNoUpScroll"></a><a id="tomnoupscroll"></a><a id="TOMNOUPSCROLL"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomNoUpScroll</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomNoUpScroll</a></b></dt>
 </dl>
 </td>
 <td width="60%"></td>
 </tr>
 <tr>
 <td width="40%"><a id="tomNoVpScroll"></a><a id="tomnovpscroll"></a><a id="TOMNOVPSCROLL"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomNoVpScroll</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomNoVpScroll</a></b></dt>
 </dl>
 </td>
 <td width="60%"></td>
@@ -126,7 +126,7 @@ The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
@@ -134,7 +134,7 @@ The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
  
 
  

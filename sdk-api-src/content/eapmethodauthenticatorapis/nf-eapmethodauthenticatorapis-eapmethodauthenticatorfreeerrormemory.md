@@ -61,7 +61,7 @@ Releases error-specific memory allocated by the EAP authenticator method.
 
 ### -param pEapError [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains the error data to free.
+A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structure that contains the error data to free.
 
 
 ## -see-also
@@ -69,7 +69,7 @@ A pointer to an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10
 
 
 
-<a href="https://msdn.microsoft.com/319516ee-b21d-4375-8c90-e3abe0a457e8">EAPHost Authenticator Method Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-authenticator-method-functions">EAPHost Authenticator Method Functions</a>
  
 
  

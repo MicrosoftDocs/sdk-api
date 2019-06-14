@@ -55,7 +55,7 @@ Used for resetting the current audio endpoint device format.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioEndpointFormatControl</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAudioEndpointFormatControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioEndpointFormatControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioEndpointFormatControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IAudioEndpointFormatControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/EAE5206D-8BDF-4016-A0E6-D56D0F6B3566">ResetToDefault</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioendpoints/nf-audioendpoints-iaudioendpointformatcontrol-resettodefault">ResetToDefault</a>
 </td>
 <td align="left" width="63%">
 Resets the format to the default setting provided by the device manufacturer.
@@ -85,7 +85,7 @@ Resets the format to the default setting provided by the device manufacturer.
 
 
 This setting is exposed to the user through the "Sounds" control panel  and can be read from the endpoint property store using
-<a href="https://msdn.microsoft.com/eb3c734f-0bb8-47cc-a01f-99569f472cde">PKEY_AudioEngine_DeviceFormat</a>.
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/pkey-audioengine-deviceformat">PKEY_AudioEngine_DeviceFormat</a>.
 
 
 
@@ -95,7 +95,7 @@ This setting is exposed to the user through the "Sounds" control panel  and can 
 
 
 
-<a href="https://msdn.microsoft.com/b18e2094-e974-4c23-b70b-ace5a168132d">Core Audio Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
  
 
  

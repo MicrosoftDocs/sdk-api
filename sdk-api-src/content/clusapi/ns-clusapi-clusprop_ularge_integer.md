@@ -50,9 +50,9 @@ ms.custom: 19H1
 
 
 Describes an unsigned large integer. It is used as an entry in a 
-    <a href="https://msdn.microsoft.com/f2b20fe5-0d7e-4ccd-b288-aa8104a24fef">value list</a> and consists of:
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/value-lists">value list</a> and consists of:
 <ul>
-<li>A <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure indicating the format 
+<li>A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure indicating the format 
      and type of the integer value.</li>
 <li>An unsigned large integer value.</li>
 </ul>
@@ -70,7 +70,7 @@ Unsigned large integer value.
 ### -field CLUSPROP_VALUE
 
 
-<a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure with a <a href="https://msdn.microsoft.com/23353e11-63bb-4d3b-90fb-e2a5544e0d09">CLUSPROP_SYNTAX</a>  with a value 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure with a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>  with a value 
        of <b>CLUSPROP_SYNTAX_LIST_VALUE_ULARGE_INTEGER</b> (0x00010006) and a <b>cbLength</b> field indicating 
        the count of bytes in the <b>li</b> member. 
 
@@ -80,8 +80,8 @@ Unsigned large integer value.
 
 
 Use caution when referencing large integer values in <b>DWORD</b>-aligned structures such 
-     as value lists, <a href="https://msdn.microsoft.com/57312b32-01cf-48e8-b61f-6095e23bb580">property lists</a>, and 
-     <a href="https://msdn.microsoft.com/fd77397b-36dd-4a20-b3f4-7dbbee1fd787">parameter blocks</a>. For Windows Server for Itanium-based 
+     as value lists, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-lists">property lists</a>, and 
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/parameter-blocks">parameter blocks</a>. For Windows Server for Itanium-based 
      systems, a naturally-aligned large integer value always begins on an address ending in 0h or 8h. 
      <b>DWORD</b> alignment can cause large values to begin on unaligned boundaries (addresses 
      ending in 4h or Ch), which will cause an alignment fault when the data is read or written. You can avoid 
@@ -96,15 +96,15 @@ Use caution when referencing large integer values in <b>DWORD</b>-aligned struct
 
 
 
-<a href="https://msdn.microsoft.com/23353e11-63bb-4d3b-90fb-e2a5544e0d09">CLUSPROP_SYNTAX</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>
 
 
 
-<a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3ad7c34-0c8a-4f03-8e5c-b57802c493f0">Data structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
  
 
  

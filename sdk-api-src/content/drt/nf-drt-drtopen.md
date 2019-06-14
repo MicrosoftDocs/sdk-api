@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DrtOpen</b> function creates a local Distributed Routing Table instance against criteria specified by the <a href="https://msdn.microsoft.com/22408b8e-b114-43cd-8f84-3eaf8508f441">DRT_SETTINGS</a> structure.
+The <b>DrtOpen</b> function creates a local Distributed Routing Table instance against criteria specified by the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings_tag">DRT_SETTINGS</a> structure.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>DrtOpen</b> function creates a local Distributed Routing Table instance a
 
 ### -param pSettings [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/22408b8e-b114-43cd-8f84-3eaf8508f441">DRT_SETTINGS</a> structure which specifies the settings used for the creation of the DRT instance.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings_tag">DRT_SETTINGS</a> structure which specifies the settings used for the creation of the DRT instance.
 
 
 ### -param hEvent [in]
@@ -106,7 +106,7 @@ This function returns S_OK on success. Other possible values include:
 </dl>
 </td>
 <td width="60%">
-<i>pSettings</i> is <b>NULL</b> or the <b>dwSize</b> member value of <a href="https://msdn.microsoft.com/22408b8e-b114-43cd-8f84-3eaf8508f441">DRT_SETTINGS</a>  is not equal to the size of the <b>DRT_SETTINGS</b> object.
+<i>pSettings</i> is <b>NULL</b> or the <b>dwSize</b> member value of <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings_tag">DRT_SETTINGS</a>  is not equal to the size of the <b>DRT_SETTINGS</b> object.
 
 </td>
 </tr>
@@ -128,7 +128,7 @@ This function returns S_OK on success. Other possible values include:
 </dl>
 </td>
 <td width="60%">
-The <b>ulMaxRoutingAddresses</b> member of <a href="https://msdn.microsoft.com/22408b8e-b114-43cd-8f84-3eaf8508f441">DRT_SETTINGS</a> specifies less than 1 or more than 20 as the maximum number of addresses.
+The <b>ulMaxRoutingAddresses</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings_tag">DRT_SETTINGS</a> specifies less than 1 or more than 20 as the maximum number of addresses.
 
 </td>
 </tr>
@@ -139,7 +139,7 @@ The <b>ulMaxRoutingAddresses</b> member of <a href="https://msdn.microsoft.com/2
 </dl>
 </td>
 <td width="60%">
-The <b>hTransport</b> member in <a href="https://msdn.microsoft.com/22408b8e-b114-43cd-8f84-3eaf8508f441">DRT_SETTINGS</a> is <b>NULL</b> or some fields of the Transport are <b>NULL</b>
+The <b>hTransport</b> member in <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings_tag">DRT_SETTINGS</a> is <b>NULL</b> or some fields of the Transport are <b>NULL</b>
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ The <b>hTransport</b> member in <a href="https://msdn.microsoft.com/22408b8e-b11
 </dl>
 </td>
 <td width="60%">
-The <b>eSecurityMode</b> member of <a href="https://msdn.microsoft.com/22408b8e-b114-43cd-8f84-3eaf8508f441">DRT_SETTINGS</a> specifies  an invalid security mode.
+The <b>eSecurityMode</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings_tag">DRT_SETTINGS</a> specifies  an invalid security mode.
 
 </td>
 </tr>
@@ -161,7 +161,7 @@ The <b>eSecurityMode</b> member of <a href="https://msdn.microsoft.com/22408b8e-
 </dl>
 </td>
 <td width="60%">
-The <b>pSecurityProvider</b> member of <a href="https://msdn.microsoft.com/22408b8e-b114-43cd-8f84-3eaf8508f441">DRT_SETTINGS</a> is <b>NULL</b>.
+The <b>pSecurityProvider</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings_tag">DRT_SETTINGS</a> is <b>NULL</b>.
 
 </td>
 </tr>
@@ -172,7 +172,7 @@ The <b>pSecurityProvider</b> member of <a href="https://msdn.microsoft.com/22408
 </dl>
 </td>
 <td width="60%">
-The  <b>pBootstrapProvider</b> member of <a href="https://msdn.microsoft.com/22408b8e-b114-43cd-8f84-3eaf8508f441">DRT_SETTINGS</a> is <b>NULL</b> or some fields of the bootstrap provider are <b>NULL</b>.
+The  <b>pBootstrapProvider</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings_tag">DRT_SETTINGS</a> is <b>NULL</b> or some fields of the bootstrap provider are <b>NULL</b>.
 
 </td>
 </tr>
@@ -183,7 +183,7 @@ The  <b>pBootstrapProvider</b> member of <a href="https://msdn.microsoft.com/224
 </dl>
 </td>
 <td width="60%">
-The size of the <b>pwzDrtInstancePrefix</b> specified in <a href="https://msdn.microsoft.com/22408b8e-b114-43cd-8f84-3eaf8508f441">DRT_SETTINGS</a> is larger than the maximum prefix length (128).
+The size of the <b>pwzDrtInstancePrefix</b> specified in <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings_tag">DRT_SETTINGS</a> is larger than the maximum prefix length (128).
 
 </td>
 </tr>
@@ -339,11 +339,11 @@ An unexpected fatal error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/22408b8e-b114-43cd-8f84-3eaf8508f441">DRT_SETTINGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings_tag">DRT_SETTINGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/37c0a579-64be-4ed6-b1b3-852013875361">DrtClose</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtclose">DrtClose</a>
  
 
  

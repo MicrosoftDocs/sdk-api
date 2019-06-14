@@ -76,7 +76,7 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRES
 
 
 
-<a href="https://msdn.microsoft.com/1972032f-48ac-4a15-98ce-9349fa158a07">ITSGPolicyEngine</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/nn-tsgpolicyengine-itsgpolicyengine">ITSGPolicyEngine</a>
  
 
  

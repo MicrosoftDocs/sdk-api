@@ -126,7 +126,7 @@ The presence of this value indicates that the packet is a DHCPV6 packet. This va
 
 ### -param phHandle [out]
 
-A handle to the packet. This handle can be used by the <a href="https://msdn.microsoft.com/98c0d220-db20-4aba-9df0-e50f3b947da2">WdsBpQueryOption</a> function and must be closed using the <a href="https://msdn.microsoft.com/b35ec3e2-7dd5-4e17-b657-72bafe91921a">WdsBpCloseHandle</a> function.
+A handle to the packet. This handle can be used by the <a href="https://docs.microsoft.com/windows/desktop/api/wdsbp/nf-wdsbp-wdsbpqueryoption">WdsBpQueryOption</a> function and must be closed using the <a href="https://docs.microsoft.com/windows/desktop/api/wdsbp/nf-wdsbp-wdsbpclosehandle">WdsBpCloseHandle</a> function.
 
 
 ## -returns

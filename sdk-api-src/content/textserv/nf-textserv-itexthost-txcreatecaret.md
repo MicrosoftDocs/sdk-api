@@ -59,12 +59,12 @@ Creates a new shape for windowless rich edit control's caret.
 
 ### -param hbmp [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HBITMAP</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HBITMAP</a></b>
 
 Handle to the bitmap for the new caret shape. 
 
 
-If the windowless rich edit control has the <a href="https://msdn.microsoft.com/en-us/library/Bb774236(v=VS.85).aspx">SES_LOGICALCARET</a> style, <i>hbmp</i> is a combination of the following values:
+If the windowless rich edit control has the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-seteditstyle">SES_LOGICALCARET</a> style, <i>hbmp</i> is a combination of the following values:
 
 
 
@@ -139,14 +139,14 @@ The caret moves right to left.
 
 ### -param xWidth [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 Caret width, in logical units. 
 
 
 ### -param yHeight [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 Caret height, in logical units. 
 
@@ -155,7 +155,7 @@ Caret height, in logical units.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Return <b>TRUE</b> if the method succeeds. 
 
@@ -182,11 +182,11 @@ This method is only valid when the control is in-place active; calls while the c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648399(v=VS.85).aspx">CreateCaret</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createcaret">CreateCaret</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
 
 
 
@@ -194,7 +194,7 @@ This method is only valid when the control is in-place active; calls while the c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
  
 
  

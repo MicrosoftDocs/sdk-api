@@ -50,7 +50,7 @@ req.redist:
 
 Contains information defining the boundaries for and starting place of an enumeration of update 
     sequence number (USN) change journal records. It is used as the input buffer for the 
-    <a href="https://msdn.microsoft.com/44d20401-a2ed-4756-9fda-878a24eab7c3">FSCTL_ENUM_USN_DATA</a> control code. Prior to 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_enum_usn_data">FSCTL_ENUM_USN_DATA</a> control code. Prior to 
     Windows Server 2012 this structure was named 
     <b>MFT_ENUM_DATA</b>. Use that name to compile with older SDKs 
     and compilers.
@@ -65,7 +65,7 @@ Contains information defining the boundaries for and starting place of an enumer
 
 The ordinal position within the files on the current volume at which the enumeration is to begin.
 
-The first call to <a href="https://msdn.microsoft.com/44d20401-a2ed-4756-9fda-878a24eab7c3">FSCTL_ENUM_USN_DATA</a> during an 
+The first call to <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_enum_usn_data">FSCTL_ENUM_USN_DATA</a> during an 
        enumeration must have the <b>StartFileReferenceNumber</b> member set to 
        <code>(DWORDLONG)0</code>. Each call to 
        <b>FSCTL_ENUM_USN_DATA</b> retrieves the starting point for 
@@ -91,11 +91,11 @@ The upper boundary of the range of USN values used to filter which files are ret
 
 
 
-<a href="https://msdn.microsoft.com/44d20401-a2ed-4756-9fda-878a24eab7c3">FSCTL_ENUM_USN_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_enum_usn_data">FSCTL_ENUM_USN_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/bbde9dfb-c205-4432-be71-250d73b881f1">Volume Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
  
 
  

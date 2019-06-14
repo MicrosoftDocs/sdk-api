@@ -71,7 +71,7 @@ Specifies the stencil value.
 
 
 
-This structure is used in the <a href="https://msdn.microsoft.com/03B67F91-C150-4719-8C43-D04F51DC9C06">D3D12_CLEAR_VALUE</a> structure.
+This structure is used in the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_clear_value">D3D12_CLEAR_VALUE</a> structure.
 
 
 
@@ -81,7 +81,7 @@ This structure is used in the <a href="https://msdn.microsoft.com/03B67F91-C150-
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
  
 
  

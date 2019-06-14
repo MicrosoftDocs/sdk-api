@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 Server programs use the 
 <b>RpcCertGeneratePrincipalName</b> function to generate 
-<a href="https://msdn.microsoft.com/4d9977f8-0efb-4559-977e-3eba4e277bc0">principal names</a> for security certificates.
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/principal-names">principal names</a> for security certificates.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ Currently, the only valid flag for this parameter is RPC_C_FULL_CERT_CHAIN. Usin
 
 Pointer to a pointer. The 
 <b>RpcCertGeneratePrincipalName</b> function sets this to point at a null-terminated string that contains the 
-<a href="https://msdn.microsoft.com/4d9977f8-0efb-4559-977e-3eba4e277bc0">principal name</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/principal-names">principal name</a>.
 
 
 ## -returns
@@ -95,7 +95,7 @@ By default, the principal name that the
 <b>RpcCertGeneratePrincipalName</b> function passes back is in msstd format. To generate a name in fullsic format, pass RPC_C_FULL_CERT_CHAIN as the value for the <i>Flags</i> parameter.
 
 Your application must call 
-<a href="https://msdn.microsoft.com/07226282-1091-4479-adc8-b2f604c645e7">RpcStringFree</a> to release the memory for the string which contains the principal name.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a> to release the memory for the string which contains the principal name.
 
 
 
@@ -105,11 +105,11 @@ Your application must call
 
 
 
-<a href="https://msdn.microsoft.com/4d9977f8-0efb-4559-977e-3eba4e277bc0">Principal Names</a>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/principal-names">Principal Names</a>
 
 
 
-<a href="https://msdn.microsoft.com/07226282-1091-4479-adc8-b2f604c645e7">RpcStringFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a>
  
 
  

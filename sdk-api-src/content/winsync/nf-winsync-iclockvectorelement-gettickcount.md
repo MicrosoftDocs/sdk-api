@@ -106,7 +106,7 @@ Invalid pointer.
 
 
 
-<a href="https://msdn.microsoft.com/cae24ef0-5b31-48c2-99bd-9e0954ec3b37">IClockVectorElement Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-iclockvectorelement">IClockVectorElement Interface</a>
  
 
  

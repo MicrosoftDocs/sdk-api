@@ -49,7 +49,7 @@ ms.custom: 19H1
 
 
 Opens a 
-    <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a>. The 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a>. The 
     <b>POPEN_V2_ROUTINE</b> type defines a pointer to this function.
 
 
@@ -65,14 +65,14 @@ The name of the resource to open.
 
 ### -param ResourceKey [in]
 
-The <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">cluster database</a> key for the 
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> key for the 
        cluster that includes the resource represented by 
        <i>ResourceName</i>.
 
 
 ### -param ResourceHandle [in]
 
-The resource handle to pass to the <a href="https://msdn.microsoft.com/3733F912-9D43-489B-91D8-7128D0F5D1A4">SetResourceStatusEx</a> 
+The resource handle to pass to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_status_routine_ex">SetResourceStatusEx</a> 
        callback function.
 
 
@@ -101,7 +101,7 @@ If the operation was successful, returns a resource
        identifier (<b>RESID</b>).
 
 If the operation was not successful, returns 
-       <b>NULL</b>. Call  <a href="https://msdn.microsoft.com/d9da833f-36ca-4046-8d2f-cd4449dd3c63">SetLastError</a> to 
+       <b>NULL</b>. Call  <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> to 
        specify that an error has occurred.
 
 
@@ -112,7 +112,7 @@ If the operation was not successful, returns
 
 
 
-<a href="https://msdn.microsoft.com/933d7b97-b5be-4c84-a983-41d1fd935c19">Resource DLL Entry-Point Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>
  
 
  

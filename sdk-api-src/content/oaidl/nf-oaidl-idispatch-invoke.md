@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Provides access to properties and methods exposed by an object. The dispatch function <a href="https://msdn.microsoft.com/69b89e5c-2a04-4a6a-beb0-18e68f8866ac">DispInvoke</a> provides a standard implementation of <b>Invoke</b>.
+Provides access to properties and methods exposed by an object. The dispatch function <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-dispinvoke">DispInvoke</a> provides a standard implementation of <b>Invoke</b>.
 
 
 
@@ -61,7 +61,7 @@ Provides access to properties and methods exposed by an object. The dispatch fun
 
 ### -param dispIdMember [in]
 
-Identifies the member. Use <a href="https://msdn.microsoft.com/6f6cf233-3481-436e-8d6a-51f93bf91619">GetIDsOfNames</a> or the object's documentation to obtain the dispatch identifier.
+Identifies the member. Use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-getidsofnames">GetIDsOfNames</a> or the object's documentation to obtain the dispatch identifier.
 
 
 ### -param riid [in]
@@ -71,9 +71,9 @@ Reserved for future use. Must be IID_NULL.
 
 ### -param lcid [in]
 
-The locale context in which to interpret arguments. The <i>lcid</i> is used by the <a href="https://msdn.microsoft.com/6f6cf233-3481-436e-8d6a-51f93bf91619">GetIDsOfNames</a> function, and is also passed to <b>Invoke</b> to allow the object to interpret its arguments specific to a locale.
+The locale context in which to interpret arguments. The <i>lcid</i> is used by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-getidsofnames">GetIDsOfNames</a> function, and is also passed to <b>Invoke</b> to allow the object to interpret its arguments specific to a locale.
 
-Applications that do not support multiple national languages can ignore this parameter. For more information, refer to <a href="https://msdn.microsoft.com/47dc5add-232c-4268-b977-43e12da81ede">Supporting Multiple National Languages</a> and <a href="https://msdn.microsoft.com/f488675d-4104-40e9-8ee1-265ce92188b3">Exposing ActiveX Objects</a>.
+Applications that do not support multiple national languages can ignore this parameter. For more information, refer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/supporting-multiple-national-languages">Supporting Multiple National Languages</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/exposing-activex-objects">Exposing ActiveX Objects</a>.
 
 
 ### -param wFlags [in]
@@ -150,7 +150,7 @@ Pointer to a structure that contains exception information. This structure shoul
 
 ### -param puArgErr [out]
 
-The index within rgvarg of the first argument that has an error. Arguments are stored in pDispParams-&gt;rgvarg in reverse order, so the first argument is the one with the highest index in the array. This parameter is returned only when the resulting return value is DISP_E_TYPEMISMATCH or DISP_E_PARAMNOTFOUND. This argument can be set to null. For details, see <a href="https://msdn.microsoft.com/8eaff01a-f038-4fca-8951-7d0efcfdf1e1">Returning Errors</a>.
+The index within rgvarg of the first argument that has an error. Arguments are stored in pDispParams-&gt;rgvarg in reverse order, so the first argument is the one with the highest index in the array. This parameter is returned only when the resulting return value is DISP_E_TYPEMISMATCH or DISP_E_PARAMNOTFOUND. This argument can be set to null. For details, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/returning-errors">Returning Errors</a>.
 
 
 
@@ -229,7 +229,7 @@ The requested member does not exist.
 </dl>
 </td>
 <td width="60%">
-This implementation of <a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> does not support named arguments.
+This implementation of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> does not support named arguments.
 
 </td>
 </tr>
@@ -315,11 +315,11 @@ A required parameter was omitted.
 
 
 
-Generally, you should not implement <b>Invoke</b> directly. Instead, use the dispatch interface to create functions <a href="https://msdn.microsoft.com/45a59243-df93-41ca-ac60-354cb1165004">CreateStdDispatch</a> and <a href="https://msdn.microsoft.com/69b89e5c-2a04-4a6a-beb0-18e68f8866ac">DispInvoke</a>. For details, refer to <b>CreateStdDispatch</b>, <b>DispInvoke</b>, <a href="https://msdn.microsoft.com/0606fe11-59e3-4ce1-bde1-a34cfbf0b093">Creating the IDispatch Interface</a> and <a href="https://msdn.microsoft.com/f488675d-4104-40e9-8ee1-265ce92188b3">Exposing ActiveX Objects</a>. 
+Generally, you should not implement <b>Invoke</b> directly. Instead, use the dispatch interface to create functions <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createstddispatch">CreateStdDispatch</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-dispinvoke">DispInvoke</a>. For details, refer to <b>CreateStdDispatch</b>, <b>DispInvoke</b>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/creating-the-idispatch-interface">Creating the IDispatch Interface</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/exposing-activex-objects">Exposing ActiveX Objects</a>. 
 
-If some application-specific processing needs to be performed before calling a member, the code should perform the necessary actions, and then call <a href="https://msdn.microsoft.com/en-us/library/ms221652(v=VS.85).aspx">ITypeInfo::Invoke</a> to invoke the member. <b>ITypeInfo::Invoke</b> acts exactly like <b>Invoke</b>. The standard implementations of <b>Invoke</b> created by <b>CreateStdDispatch</b> and <b>DispInvoke</b> defer to <b>ITypeInfo::Invoke</b>.
+If some application-specific processing needs to be performed before calling a member, the code should perform the necessary actions, and then call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-invoke">ITypeInfo::Invoke</a> to invoke the member. <b>ITypeInfo::Invoke</b> acts exactly like <b>Invoke</b>. The standard implementations of <b>Invoke</b> created by <b>CreateStdDispatch</b> and <b>DispInvoke</b> defer to <b>ITypeInfo::Invoke</b>.
 
-In an ActiveX client, <b>Invoke</b> should be used to get and set the values of properties, or to call a method of an ActiveX object. The <i>dispIdMember</i> argument identifies the member to invoke. The DISPIDs that identify members are defined by the implementor of the object and can be determined by using the object's documentation, the <a href="https://msdn.microsoft.com/en-us/library/ms221306(v=VS.85).aspx">IDispatch::GetIDsOfNames</a> function, or the <a href="https://msdn.microsoft.com/f3356463-3373-4279-bae1-953378aa2680">ITypeInfo</a> interface.
+In an ActiveX client, <b>Invoke</b> should be used to get and set the values of properties, or to call a method of an ActiveX object. The <i>dispIdMember</i> argument identifies the member to invoke. The DISPIDs that identify members are defined by the implementor of the object and can be determined by using the object's documentation, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-getidsofnames">IDispatch::GetIDsOfNames</a> function, or the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a> interface.
 
 When you use <b>IDispatch::Invoke()</b> with DISPATCH_PROPERTYPUT or DISPATCH_PROPERTYPUTREF, you have to specially initialize the <b>cNamedArgs</b> and <b>rgdispidNamedArgs</b> elements of your DISPPARAMS structure with the following: 
 
@@ -341,7 +341,7 @@ The information that follows addresses developers of ActiveX clients and others 
 
 
 
-<a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

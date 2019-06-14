@@ -436,11 +436,11 @@ hr = BluetoothGATTSetDescriptorValue(hDevice,
 
 
 
-<a href="https://msdn.microsoft.com/DE738ADA-AE8E-4679-887C-A6194E88386E">BTH_LE_GATT_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-_bth_le_gatt_descriptor">BTH_LE_GATT_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/81D05AA7-B16C-4705-919F-8563FFA4A58E">BTH_LE_GATT_DESCRIPTOR_VALUE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-_bth_le_gatt_descriptor_value">BTH_LE_GATT_DESCRIPTOR_VALUE</a>
  
 
  

@@ -55,7 +55,7 @@ Enumerates range exceptions that are stored in a knowledge object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumRangeExceptions</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnumRangeExceptions</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumRangeExceptions</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumRangeExceptions</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IEnumRangeExceptions</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b9ba5d49-754f-4eb0-972b-67e9a6a41994">Clone</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ienumrangeexceptions-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Clones the enumerator and returns a new enumerator that is in the same state as the current one.
@@ -80,7 +80,7 @@ Clones the enumerator and returns a new enumerator that is in the same state as 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0ca472d7-4e97-4998-b883-05329dfdb27a">Next</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ienumrangeexceptions-next">Next</a>
 </td>
 <td align="left" width="63%">
 Returns the next elements in the range exception set, if they are available.
@@ -90,7 +90,7 @@ Returns the next elements in the range exception set, if they are available.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d4056703-8218-4b0b-9ed6-4c1584f0b751">Reset</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ienumrangeexceptions-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumerator to the beginning of the range exception set.
@@ -100,7 +100,7 @@ Resets the enumerator to the beginning of the range exception set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/61907858-4089-4c12-865c-623a43132be3">Skip</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ienumrangeexceptions-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips the specified number of range exceptions.
@@ -116,7 +116,7 @@ Skips the specified number of range exceptions.
 
 
 
-<a href="https://msdn.microsoft.com/2c185fe2-1bbe-4409-aea0-6e138430b304">Windows Sync Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
  
 
  

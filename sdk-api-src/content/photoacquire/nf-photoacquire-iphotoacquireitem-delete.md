@@ -95,7 +95,7 @@ The method succeeded.
 
 
 
-To determine whether an item may be deleted, call <a href="https://msdn.microsoft.com/df0acbed-0352-4591-8908-f0dda1da25dd">CanDelete</a> first.
+To determine whether an item may be deleted, call <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireitem-candelete">CanDelete</a> first.
 
 
 
@@ -105,11 +105,11 @@ To determine whether an item may be deleted, call <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/57e099eb-bf8d-4465-af4d-fcfc3eee3b5b">IPhotoAcquireItem Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/df0acbed-0352-4591-8908-f0dda1da25dd">IPhotoAcquireItem::CanDelete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireitem-candelete">IPhotoAcquireItem::CanDelete</a>
  
 
  

@@ -49,7 +49,7 @@ req.redist:
 
 
 Specifies the attributes to be set on a disk device. Passed as the input buffer to the 
-    <a href="https://msdn.microsoft.com/ba0e3666-8660-493c-b821-5997d577e7e2">IOCTL_DISK_SET_DISK_ATTRIBUTES</a> control 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_disk_attributes">IOCTL_DISK_SET_DISK_ATTRIBUTES</a> control 
     code.
 
 
@@ -153,15 +153,15 @@ Reserved. Must be set to 0.
 
 
 
-<a href="https://msdn.microsoft.com/dd55c570-68b5-4dc5-9fd0-a6e3277c318b">Disk Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-structures">Disk Management Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/c6a0461d-cc23-4191-a0ff-c4279c1b097e">GET_DISK_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_get_disk_attributes">GET_DISK_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/ba0e3666-8660-493c-b821-5997d577e7e2">IOCTL_DISK_SET_DISK_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_disk_attributes">IOCTL_DISK_SET_DISK_ATTRIBUTES</a>
  
 
  

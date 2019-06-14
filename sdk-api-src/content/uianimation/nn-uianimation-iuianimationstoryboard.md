@@ -55,7 +55,7 @@ Defines a storyboard, which contains a group of transitions
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAnimationStoryboard</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUIAnimationStoryboard</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAnimationStoryboard</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAnimationStoryboard</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IUIAnimationStoryboard</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2350dbd0-3a67-4832-94dd-56adce80a387">Abandon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-abandon">Abandon</a>
 </td>
 <td align="left" width="63%">
 Directs the storyboard to abandon playing.
@@ -79,7 +79,7 @@ Directs the storyboard to abandon playing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/055206d8-ea9e-4013-89ee-2929bfeb2731">AddKeyframeAfterTransition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-addkeyframeaftertransition">AddKeyframeAfterTransition</a>
 </td>
 <td align="left" width="63%">
 Adds a keyfame at the end of the specified transition.
@@ -88,7 +88,7 @@ Adds a keyfame at the end of the specified transition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f598c8a4-4325-49ed-bc18-5d672e089592">AddKeyframeAtOffset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-addkeyframeatoffset">AddKeyframeAtOffset</a>
 </td>
 <td align="left" width="63%">
 Adds a keyfame at the specified offset from an existing keyframe.
@@ -97,7 +97,7 @@ Adds a keyfame at the specified offset from an existing keyframe.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c3213e5d-c8f5-406a-bc44-9de7a740b070">AddTransition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-addtransition">AddTransition</a>
 </td>
 <td align="left" width="63%">
 Adds a transition to the storyboard.
@@ -106,7 +106,7 @@ Adds a transition to the storyboard.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/94a9aafc-fe5a-49a8-8e14-9e7c4624869a">AddTransitionAtKeyframe</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-addtransitionatkeyframe">AddTransitionAtKeyframe</a>
 </td>
 <td align="left" width="63%">
 Adds a transition that starts at the specified keyframe.
@@ -115,7 +115,7 @@ Adds a transition that starts at the specified keyframe.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/75db41ef-526b-40aa-a62d-a4262cc8d80e">AddTransitionBetweenKeyframes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-addtransitionbetweenkeyframes">AddTransitionBetweenKeyframes</a>
 </td>
 <td align="left" width="63%">
 Adds a transition between two keyframes.
@@ -124,7 +124,7 @@ Adds a transition between two keyframes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/82f915df-c031-41e9-8347-044b37793182">Conclude</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-conclude">Conclude</a>
 </td>
 <td align="left" width="63%">
 Directs the storyboard to conclude.
@@ -133,7 +133,7 @@ Directs the storyboard to conclude.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/45d0872a-dbcf-4151-a880-80b2c6fb884c">Finish</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-finish">Finish</a>
 </td>
 <td align="left" width="63%">
 Directs the storyboard to finish playing within the specified time.
@@ -142,7 +142,7 @@ Directs the storyboard to finish playing within the specified time.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/901afd34-03cc-4421-a467-9d096e1458fe">GetElapsedTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-getelapsedtime">GetElapsedTime</a>
 </td>
 <td align="left" width="63%">
 Gets the time elapsed since the storyboard started playing.
@@ -151,7 +151,7 @@ Gets the time elapsed since the storyboard started playing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8ee9a17f-c57c-49df-950d-491e05ba8768">GetStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-getstatus">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Gets the status of the storyboard.
@@ -160,7 +160,7 @@ Gets the status of the storyboard.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9c74dc23-ea42-400d-a78c-79b716c5e614">GetTag</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-gettag">GetTag</a>
 </td>
 <td align="left" width="63%">
 Gets the tag for the storyboard.
@@ -169,7 +169,7 @@ Gets the tag for the storyboard.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ac5ee9c0-cecb-41f1-b8d3-6f779dfafef7">HoldVariable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-holdvariable">HoldVariable</a>
 </td>
 <td align="left" width="63%">
 Directs the storyboard to hold the specified animation variable at its final value until the storyboard ends.
@@ -178,7 +178,7 @@ Directs the storyboard to hold the specified animation variable at its final val
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3c1ddb8c-fcbf-4b0c-8725-35dfc15e3c02">RepeatBetweenKeyframes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-repeatbetweenkeyframes">RepeatBetweenKeyframes</a>
 </td>
 <td align="left" width="63%">
 Creates a loop between two specified keyframes.
@@ -187,7 +187,7 @@ Creates a loop between two specified keyframes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b47d4ffd-ae51-40e7-8f91-9d7b7b2901c8">Schedule</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-schedule">Schedule</a>
 </td>
 <td align="left" width="63%">
 Directs the storyboard to schedule itself for play.
@@ -196,7 +196,7 @@ Directs the storyboard to schedule itself for play.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5f87a4b1-8db9-42ba-963f-664db588c520">SetLongestAcceptableDelay</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-setlongestacceptabledelay">SetLongestAcceptableDelay</a>
 </td>
 <td align="left" width="63%">
 Sets the longest acceptable delay before the scheduled storyboard begins.
@@ -205,7 +205,7 @@ Sets the longest acceptable delay before the scheduled storyboard begins.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8fbe8e94-8585-4adc-8643-3962aff6a031">SetStoryboardEventHandler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-setstoryboardeventhandler">SetStoryboardEventHandler</a>
 </td>
 <td align="left" width="63%">
 Specifies a handler for storyboard events.
@@ -214,7 +214,7 @@ Specifies a handler for storyboard events.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ade41b03-9194-4b1a-a672-32bb48a2f5ba">SetTag</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-settag">SetTag</a>
 </td>
 <td align="left" width="63%">
 Sets the tag for the storyboard.
@@ -230,8 +230,8 @@ Sets the tag for the storyboard.
 
 <b>IUIAnimationStoryboard</b> is a primary component for building animations,
          along with 
-         <a href="https://msdn.microsoft.com/1632e62d-6e82-4841-8823-f6b60efc4298">IUIAnimationVariable</a> and 
-         <a href="https://msdn.microsoft.com/99804a2f-82c9-494c-b75d-69e66f1e49ef">IUIAnimationTransition</a>.
+         <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationvariable">IUIAnimationVariable</a> and 
+         <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransition">IUIAnimationTransition</a>.
          
          
 
@@ -243,31 +243,31 @@ Sets the tag for the storyboard.
 
 
 
-<a href="https://msdn.microsoft.com/cecb0026-ed6f-48b8-9381-d020a36e7e87">IUIAnimationManager::AbandonAllStoryboards</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager-abandonallstoryboards">IUIAnimationManager::AbandonAllStoryboards</a>
 
 
 
-<a href="https://msdn.microsoft.com/933ffb62-0f69-4225-873b-e2e023939bea">IUIAnimationManager::CreateStoryboard</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager-createstoryboard">IUIAnimationManager::CreateStoryboard</a>
 
 
 
-<a href="https://msdn.microsoft.com/db5ba70c-3904-4053-881a-b1412beb35f3">IUIAnimationManager::FinishAllStoryboards</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager-finishallstoryboards">IUIAnimationManager::FinishAllStoryboards</a>
 
 
 
-<a href="https://msdn.microsoft.com/74a9265a-3602-4707-949e-6073cbde9ac4">IUIAnimationManager::GetStoryboardFromTag</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager-getstoryboardfromtag">IUIAnimationManager::GetStoryboardFromTag</a>
 
 
 
-<a href="https://msdn.microsoft.com/56042549-d6f6-4eed-8079-c1b14acbe160">IUIAnimationVariable::GetCurrentStoryboard</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-getcurrentstoryboard">IUIAnimationVariable::GetCurrentStoryboard</a>
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/d37718ac-0256-4a24-a26c-d29173593be0">Storyboard Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/UIAnimation/storyboard-construction">Storyboard Overview</a>
  
 
  

@@ -95,7 +95,7 @@ If the method succeeds, it returns S_OK. If it fails, possible return codes incl
 </dl>
 </td>
 <td width="60%">
-The supplied  <a href="https://msdn.microsoft.com/DFFE770F-41C0-4048-A38F-FB96353E9216">AudioObjectType</a> value does not represent a static channel.
+The supplied  <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/ne-spatialaudioclient-audioobjecttype">AudioObjectType</a> value does not represent a static channel.
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ The supplied  <a href="https://msdn.microsoft.com/DFFE770F-41C0-4048-A38F-FB9635
 
 
 
-<a href="https://msdn.microsoft.com/950778D4-79FE-4222-951F-5A456A633124">ISpatialAudioClient</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a>
  
 
  

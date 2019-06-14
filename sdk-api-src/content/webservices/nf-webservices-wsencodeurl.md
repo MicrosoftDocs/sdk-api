@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-Encodes the specified <a href="https://msdn.microsoft.com/efc67b64-cedf-4cd9-83b3-047f6c38c6ea">WS_URL</a> into a URL string given its component parts. Values are escaped as necessary,
-                combined, and stored in the specified <a href="https://msdn.microsoft.com/1866f54f-26fc-4889-a88f-0d298a418bdc">WS_HEAP</a>, and the result is returned as a <a href="https://msdn.microsoft.com/eb6c7397-6b15-4e79-89ec-585861113edf">WS_STRING</a>.
+Encodes the specified <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_url">WS_URL</a> into a URL string given its component parts. Values are escaped as necessary,
+                combined, and stored in the specified <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-heap">WS_HEAP</a>, and the result is returned as a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_string">WS_STRING</a>.
 
 
 ## -parameters
@@ -60,19 +60,19 @@ Encodes the specified <a href="https://msdn.microsoft.com/efc67b64-cedf-4cd9-83b
 
 ### -param url [in]
 
-A reference to the  <a href="https://msdn.microsoft.com/efc67b64-cedf-4cd9-83b3-047f6c38c6ea">WS_URL</a> to encode.
+A reference to the  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_url">WS_URL</a> to encode.
                 
 
 
 ### -param flags [in]
 
-The value of this parameter determines the URL scheme evaluation method.  See <a href="https://msdn.microsoft.com/b74c22fd-35b1-4d7b-974d-8ff7fff07813">WS_URL_FLAGS</a>.
+The value of this parameter determines the URL scheme evaluation method.  See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_12">WS_URL_FLAGS</a>.
                 
 
 
 ### -param heap [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/1866f54f-26fc-4889-a88f-0d298a418bdc">WS_HEAP</a> in which to allocate URL.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-heap">WS_HEAP</a> in which to allocate URL.
                 
 
 
@@ -83,7 +83,7 @@ A pointer to the resulting URL string.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 
@@ -154,7 +154,7 @@ This function may return other errors not listed above.
 
 
 If a scheme is not recognized in the <i>url</i> parameter the function returns WS_E_INVALID_FORMAT.  
-                Only scheme types identified in  <a href="https://msdn.microsoft.com/e8763719-6ba0-4e5e-bb71-625d36a45eaf">WS_URL_SCHEME_TYPE</a> are supported.
+                Only scheme types identified in  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_url_scheme_type">WS_URL_SCHEME_TYPE</a> are supported.
             
 
 

@@ -72,7 +72,7 @@ Specifies that the anchor will be moved to the region immediately following a ra
 
 
 
-<a href="https://msdn.microsoft.com/f24f0155-fab6-46fb-9bff-598cd25e17ea">IAnchor::ShiftRegion
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-shiftregion">IAnchor::ShiftRegion
       </a>
  
 

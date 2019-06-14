@@ -117,11 +117,11 @@ IPv6 is used.
 
 ### -param TableClass [in]
 
-The type of the TCP table structure to retrieve. This parameter can be one of the values from the <a href="https://msdn.microsoft.com/abfaf7e5-7739-4f23-bfb4-09206111599f">TCP_TABLE_CLASS</a> enumeration. 
+The type of the TCP table structure to retrieve. This parameter can be one of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-_tcp_table_class">TCP_TABLE_CLASS</a> enumeration. 
 
-On the Windows SDK released for Windows Vista and later, the organization of header files has changed and the <a href="https://msdn.microsoft.com/abfaf7e5-7739-4f23-bfb4-09206111599f">TCP_TABLE_CLASS</a> enumeration is defined in the <i>Iprtrmib.h</i> header file, not in the <i>Iphlpapi.h</i> header file. 
+On the Windows SDK released for Windows Vista and later, the organization of header files has changed and the <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-_tcp_table_class">TCP_TABLE_CLASS</a> enumeration is defined in the <i>Iprtrmib.h</i> header file, not in the <i>Iphlpapi.h</i> header file. 
 
-The <a href="https://msdn.microsoft.com/abfaf7e5-7739-4f23-bfb4-09206111599f">TCP_TABLE_CLASS</a> enumeration value is combined with the value of the <i>ulAf</i> parameter to determine the extended TCP information to retrieve. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-_tcp_table_class">TCP_TABLE_CLASS</a> enumeration value is combined with the value of the <i>ulAf</i> parameter to determine the extended TCP information to retrieve. 
 
 
 
@@ -164,7 +164,7 @@ This error is also returned if the <i>pTcpTable</i> parameter is <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-An invalid parameter was passed to the function. This error is returned if the <i>TableClass</i> parameter contains a value that is not defined in the <a href="https://msdn.microsoft.com/abfaf7e5-7739-4f23-bfb4-09206111599f">TCP_TABLE_CLASS</a> enumeration.
+An invalid parameter was passed to the function. This error is returned if the <i>TableClass</i> parameter contains a value that is not defined in the <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-_tcp_table_class">TCP_TABLE_CLASS</a> enumeration.
 
 </td>
 </tr>
@@ -191,55 +191,55 @@ When the <i>ulAf</i> parameter is set to <b>AF_INET</b>, the following table ind
 <tr>
 <td><b>TCP_TABLE_BASIC_ALL</b></td>
 <td>
-<a href="https://msdn.microsoft.com/a8ed8ac2-a72f-4099-ac99-a8b0b77b7b84">MIB_TCPTABLE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcptable">MIB_TCPTABLE</a>
 </td>
 </tr>
 <tr>
 <td><b>TCP_TABLE_BASIC_CONNECTIONS</b></td>
 <td>
-<a href="https://msdn.microsoft.com/a8ed8ac2-a72f-4099-ac99-a8b0b77b7b84">MIB_TCPTABLE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcptable">MIB_TCPTABLE</a>
 </td>
 </tr>
 <tr>
 <td><b>TCP_TABLE_BASIC_LISTENER</b></td>
 <td>
-<a href="https://msdn.microsoft.com/a8ed8ac2-a72f-4099-ac99-a8b0b77b7b84">MIB_TCPTABLE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcptable">MIB_TCPTABLE</a>
 </td>
 </tr>
 <tr>
 <td><b>TCP_TABLE_OWNER_MODULE_ALL</b></td>
 <td>
-<a href="https://msdn.microsoft.com/d44c9d82-906b-43ea-8edd-cf973864668d">MIB_TCPTABLE_OWNER_MODULE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcptable_owner_module">MIB_TCPTABLE_OWNER_MODULE</a>
 </td>
 </tr>
 <tr>
 <td><b>TCP_TABLE_OWNER_MODULE_CONNECTIONS</b></td>
 <td>
-<a href="https://msdn.microsoft.com/d44c9d82-906b-43ea-8edd-cf973864668d">MIB_TCPTABLE_OWNER_MODULE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcptable_owner_module">MIB_TCPTABLE_OWNER_MODULE</a>
 </td>
 </tr>
 <tr>
 <td><b>TCP_TABLE_OWNER_MODULE_LISTENER</b></td>
 <td>
-<a href="https://msdn.microsoft.com/d44c9d82-906b-43ea-8edd-cf973864668d">MIB_TCPTABLE_OWNER_MODULE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcptable_owner_module">MIB_TCPTABLE_OWNER_MODULE</a>
 </td>
 </tr>
 <tr>
 <td><b>TCP_TABLE_OWNER_PID_ALL</b></td>
 <td>
-<a href="https://msdn.microsoft.com/ef39b832-1f22-468a-8734-c7d9bd3ac965">MIB_TCPTABLE_OWNER_PID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcptable_owner_pid">MIB_TCPTABLE_OWNER_PID</a>
 </td>
 </tr>
 <tr>
 <td><b>TCP_TABLE_OWNER_PID_CONNECTIONS</b></td>
 <td>
-<a href="https://msdn.microsoft.com/ef39b832-1f22-468a-8734-c7d9bd3ac965">MIB_TCPTABLE_OWNER_PID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcptable_owner_pid">MIB_TCPTABLE_OWNER_PID</a>
 </td>
 </tr>
 <tr>
 <td><b>TCP_TABLE_OWNER_PID_LISTENER</b></td>
 <td>
-<a href="https://msdn.microsoft.com/ef39b832-1f22-468a-8734-c7d9bd3ac965">MIB_TCPTABLE_OWNER_PID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcptable_owner_pid">MIB_TCPTABLE_OWNER_PID</a>
 </td>
 </tr>
 </table>
@@ -258,37 +258,37 @@ When the <i>ulAf</i> parameter is set to <b>AF_INET</b>, the following table ind
 <tr>
 <td><b>TCP_TABLE_OWNER_MODULE_ALL</b></td>
 <td>
-<a href="https://msdn.microsoft.com/aa52531c-1d4e-44f9-8638-1528beb491f3">MIB_TCP6TABLE_OWNER_MODULE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6table_owner_module">MIB_TCP6TABLE_OWNER_MODULE</a>
 </td>
 </tr>
 <tr>
 <td><b>TCP_TABLE_OWNER_MODULE_CONNECTIONS</b></td>
 <td>
-<a href="https://msdn.microsoft.com/aa52531c-1d4e-44f9-8638-1528beb491f3">MIB_TCP6TABLE_OWNER_MODULE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6table_owner_module">MIB_TCP6TABLE_OWNER_MODULE</a>
 </td>
 </tr>
 <tr>
 <td><b>TCP_TABLE_OWNER_MODULE_LISTENER</b></td>
 <td>
-<a href="https://msdn.microsoft.com/aa52531c-1d4e-44f9-8638-1528beb491f3">MIB_TCP6TABLE_OWNER_MODULE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6table_owner_module">MIB_TCP6TABLE_OWNER_MODULE</a>
 </td>
 </tr>
 <tr>
 <td><b>TCP_TABLE_OWNER_PID_ALL</b></td>
 <td>
-<a href="https://msdn.microsoft.com/93629d1d-e5f2-4ae8-b585-17e39ae4986d">MIB_TCP6TABLE_OWNER_PID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6table_owner_pid">MIB_TCP6TABLE_OWNER_PID</a>
 </td>
 </tr>
 <tr>
 <td><b>TCP_TABLE_OWNER_PID_CONNECTIONS</b></td>
 <td>
-<a href="https://msdn.microsoft.com/93629d1d-e5f2-4ae8-b585-17e39ae4986d">MIB_TCP6TABLE_OWNER_PID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6table_owner_pid">MIB_TCP6TABLE_OWNER_PID</a>
 </td>
 </tr>
 <tr>
 <td><b>TCP_TABLE_OWNER_PID_LISTENER</b></td>
 <td>
-<a href="https://msdn.microsoft.com/93629d1d-e5f2-4ae8-b585-17e39ae4986d">MIB_TCP6TABLE_OWNER_PID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6table_owner_pid">MIB_TCP6TABLE_OWNER_PID</a>
 </td>
 </tr>
 </table>
@@ -298,7 +298,7 @@ When the <i>ulAf</i> parameter is set to <b>AF_INET</b>, the following table ind
 
 The <b>GetExtendedTcpTable</b> function called with the <i>ulAf</i> parameter set to <b>AF_INET6</b> and the <i>TableClass</i> set to <b>TCP_TABLE_BASIC_LISTENER</b>, <b>TCP_TABLE_BASIC_CONNECTIONS</b>, or <b>TCP_TABLE_BASIC_ALL</b> is not supported and returns <b>ERROR_NOT_SUPPORTED</b>. 
 
-On the Windows SDK released for Windows Vista and later, the organization of header files has changed. The various <a href="https://msdn.microsoft.com/a8ed8ac2-a72f-4099-ac99-a8b0b77b7b84">MIB_TCPTABLE</a> structures are defined in the <i>Tcpmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Tcpmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The <i>Tcpmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
+On the Windows SDK released for Windows Vista and later, the organization of header files has changed. The various <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcptable">MIB_TCPTABLE</a> structures are defined in the <i>Tcpmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Tcpmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The <i>Tcpmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
 
 
 
@@ -308,31 +308,31 @@ On the Windows SDK released for Windows Vista and later, the organization of he
 
 
 
-<a href="https://msdn.microsoft.com/62bb8544-0a0a-40b5-92cf-9631c9a9987c">MIB_TCP6TABLE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6table">MIB_TCP6TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa52531c-1d4e-44f9-8638-1528beb491f3">MIB_TCP6TABLE_OWNER_MODULE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6table_owner_module">MIB_TCP6TABLE_OWNER_MODULE</a>
 
 
 
-<a href="https://msdn.microsoft.com/93629d1d-e5f2-4ae8-b585-17e39ae4986d">MIB_TCP6TABLE_OWNER_PID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6table_owner_pid">MIB_TCP6TABLE_OWNER_PID</a>
 
 
 
-<a href="https://msdn.microsoft.com/a8ed8ac2-a72f-4099-ac99-a8b0b77b7b84">MIB_TCPTABLE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcptable">MIB_TCPTABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/d44c9d82-906b-43ea-8edd-cf973864668d">MIB_TCPTABLE_OWNER_MODULE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcptable_owner_module">MIB_TCPTABLE_OWNER_MODULE</a>
 
 
 
-<a href="https://msdn.microsoft.com/ef39b832-1f22-468a-8734-c7d9bd3ac965">MIB_TCPTABLE_OWNER_PID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcptable_owner_pid">MIB_TCPTABLE_OWNER_PID</a>
 
 
 
-<a href="https://msdn.microsoft.com/abfaf7e5-7739-4f23-bfb4-09206111599f">TCP_TABLE_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-_tcp_table_class">TCP_TABLE_CLASS</a>
  
 
  

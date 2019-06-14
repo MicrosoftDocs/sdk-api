@@ -67,7 +67,7 @@ The following flag or 0.
 
 #### ITSSFLAG_KILL_ON_DESTROY
 
-Immediately cease execution of the current task when the <a href="https://msdn.microsoft.com/4898da7b-3d63-481f-a63a-d4f2554cfc8e">IShellTaskScheduler</a> instance is released.
+Immediately cease execution of the current task when the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelltaskscheduler">IShellTaskScheduler</a> instance is released.
 
 
 ### -param dwThreadTimeout [in]

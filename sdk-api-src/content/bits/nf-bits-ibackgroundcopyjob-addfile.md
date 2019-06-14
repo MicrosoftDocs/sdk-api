@@ -60,12 +60,12 @@ Adds a single file to the job.
 
 ### -param RemoteUrl [in]
 
-Null-terminated string that contains the name of the file on the server. For information on specifying the remote name, see the <b>RemoteName</b> member and Remarks section of the <a href="https://msdn.microsoft.com/bf5302e9-da8f-4c57-a998-fd49484e0584">BG_FILE_INFO</a> structure.
+Null-terminated string that contains the name of the file on the server. For information on specifying the remote name, see the <b>RemoteName</b> member and Remarks section of the <a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-_bg_file_info">BG_FILE_INFO</a> structure.
 
 
 ### -param LocalName [in]
 
-Null-terminated string that contains the name of the file on the client. For information on specifying the local name, see the <b>LocalName</b> member and Remarks section of the <a href="https://msdn.microsoft.com/bf5302e9-da8f-4c57-a998-fd49484e0584">BG_FILE_INFO</a> structure.
+Null-terminated string that contains the name of the file on the client. For information on specifying the local name, see the <b>LocalName</b> member and Remarks section of the <a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-_bg_file_info">BG_FILE_INFO</a> structure.
 
 
 ## -returns
@@ -150,9 +150,9 @@ User does not have permission to write to the specified directory on the client.
 
 
 To add more than one file at a time to a  job, call the 
-<a href="https://msdn.microsoft.com/fe2f9b47-0f0a-48ab-be0e-658307cfec5f">IBackgroundCopyJob::AddFileSet</a> method. It is more efficient to call the <b>AddFileSet</b> method when adding multiple files to a job than to call the <b>AddFile</b> method in a loop. For more information, see <a href="https://msdn.microsoft.com/fb6e7219-b6ca-4f72-b7a3-60d65e8f3892">Adding Files to a Job</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfileset">IBackgroundCopyJob::AddFileSet</a> method. It is more efficient to call the <b>AddFileSet</b> method when adding multiple files to a job than to call the <b>AddFile</b> method in a loop. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Bits/adding-files-to-a-job">Adding Files to a Job</a>.
 
-To add a file to a job from which BITS downloads ranges of data from the file, call the <a href="https://msdn.microsoft.com/b3601f23-1a69-47db-8943-7515652cf015">IBackgroundCopyJob3::AddFileWithRanges</a> method.
+To add a file to a job from which BITS downloads ranges of data from the file, call the <a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-addfilewithranges">IBackgroundCopyJob3::AddFileWithRanges</a> method.
 
 Upload jobs can only contain one file. If you add a second file, the method returns BG_E_TOO_MANY_FILES.
 
@@ -168,13 +168,13 @@ By default, a user can add up to 200 files to a job. This limit does not apply t
 
 <b>Prior to Windows Vista:  </b>There is no limit on the number of files that a user can add to a job.
 
-For scalability concerns, see <a href="https://msdn.microsoft.com/f4a09a80-2a85-4b59-b0fd-c23c128973f7">Best Practices When Using BITS</a>.
+For scalability concerns, see <a href="https://docs.microsoft.com/windows/desktop/Bits/best-practices-when-using-bits">Best Practices When Using BITS</a>.
 
 
 #### Examples
 
 For an example that adds a single file to a job, see 
-<a href="https://msdn.microsoft.com/fb6e7219-b6ca-4f72-b7a3-60d65e8f3892">Adding Files to a Job</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Bits/adding-files-to-a-job">Adding Files to a Job</a>.
 
 <div class="code"></div>
 
@@ -185,23 +185,23 @@ For an example that adds a single file to a job, see
 
 
 
-<a href="https://msdn.microsoft.com/b3601f23-1a69-47db-8943-7515652cf015">IBackgroundCopyJob3::AddFileWithRanges</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-addfilewithranges">IBackgroundCopyJob3::AddFileWithRanges</a>
 
 
 
-<a href="https://msdn.microsoft.com/fe2f9b47-0f0a-48ab-be0e-658307cfec5f">IBackgroundCopyJob::AddFileSet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfileset">IBackgroundCopyJob::AddFileSet</a>
 
 
 
-<a href="https://msdn.microsoft.com/c6b8ef69-9c67-447f-9f90-b6905a5a5a19">IBackgroundCopyJob::EnumFiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-enumfiles">IBackgroundCopyJob::EnumFiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/32789bd2-2368-473b-accf-ac6e317d0172">IBackgroundCopyJob::GetState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getstate">IBackgroundCopyJob::GetState</a>
 
 
 
-<a href="https://msdn.microsoft.com/a9e6f057-0a51-4f2d-810b-edbb3e019370">IBackgroundCopyJob::Resume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-resume">IBackgroundCopyJob::Resume</a>
  
 
  

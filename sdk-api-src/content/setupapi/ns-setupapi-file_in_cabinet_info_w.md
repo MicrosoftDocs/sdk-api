@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>FILE_IN_CABINET_INFO</b> structure provides information about a file found in the cabinet. The 
-<a href="https://msdn.microsoft.com/2fa2d140-fa8e-41a8-9800-d10e5559fab4">SetupIterateCabinet</a> function sends this structure as one of the parameters when it sends a 
-<a href="https://msdn.microsoft.com/c6d89759-c0d4-4741-b992-43eaa0dc4f01">SPFILENOTIFY_FILEINCABINET</a> notification to the cabinet callback routine.
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupiteratecabineta">SetupIterateCabinet</a> function sends this structure as one of the parameters when it sends a 
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/spfilenotify-fileincabinet">SPFILENOTIFY_FILEINCABINET</a> notification to the cabinet callback routine.
 
 
 ## -struct-fields
@@ -72,7 +72,7 @@ Uncompressed size of the file in the cabinet, in bytes.
 
 ### -field Win32Error
 
-If an error occurs, this member is the <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. If no error has occurred, it is  NO_ERROR.
+If an error occurs, this member is the <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. If no error has occurred, it is  NO_ERROR.
 
 
 ### -field DosDate
@@ -100,15 +100,15 @@ Target path and file name.
 
 
 
-<a href="https://msdn.microsoft.com/205bff19-d9ac-4dc0-ab11-92cf70a3bd49">CABINET_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_cabinet_info_a">CABINET_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/58201596-cb8c-480a-abef-896c1f9ef098">Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/837F1864-CE2F-4A9A-A7D9-18EB8622541E">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/structures--setup-api-">Structures</a>
  
 
  

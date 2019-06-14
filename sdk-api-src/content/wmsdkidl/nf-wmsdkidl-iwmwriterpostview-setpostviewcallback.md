@@ -65,7 +65,7 @@ The <b>SetPostViewCallback</b> method specifies the callback interface to use fo
 
 ### -param pCallback [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd798771(v=VS.85).aspx">IWMWriterPostViewCallback</a> interface.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpostviewcallback">IWMWriterPostViewCallback</a> interface.
 
 
 ### -param pvContext [in]
@@ -87,7 +87,7 @@ This method always returns S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798770(v=VS.85).aspx">IWMWriterPostView Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpostview">IWMWriterPostView Interface</a>
  
 
  

@@ -59,12 +59,12 @@ Obtains the handles to input/output devices for the protocol.
 
 ### -param pKeyboardHandle [out]
 
-A pointer to a handle that receives the handle of the keyboard device. This is a handle to an <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539967(v=vs.85).aspx">I8042prt keyboard driver</a>.
+A pointer to a handle that receives the handle of the keyboard device. This is a handle to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">I8042prt keyboard driver</a>.
 
 
 ### -param pMouseHandle [out]
 
-A pointer to a handle that receives the handle of the mouse device. This is a handle to a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff542367(v=vs.85).aspx">Mouclass driver</a>.
+A pointer to a handle that receives the handle of the mouse device. This is a handle to a <a href="https://docs.microsoft.com/previous-versions//ff542367(v=vs.85)">Mouclass driver</a>.
 
 
 ### -param pBeepHandle [out]
@@ -86,7 +86,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/2b8a5b2f-5a54-4d60-8b5a-8a914728087c">IWRdsProtocolConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnection">IWRdsProtocolConnection</a>
  
 
  

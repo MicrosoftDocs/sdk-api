@@ -65,7 +65,7 @@ The count of pointers in the array pointed to by <b>aAuthInfo</b>.
 
 ### -field aAuthInfo
 
-An array of <a href="https://msdn.microsoft.com/23beb1b1-e4b7-4282-9868-5caf40a69a61">SOLE_AUTHENTICATION_INFO</a> structures. Each of these structures contains an identifier for an authentication service, an identifier for the authorization service, and a pointer to authentication information to use with the specified authentication service.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagsole_authentication_info">SOLE_AUTHENTICATION_INFO</a> structures. Each of these structures contains an identifier for an authentication service, an identifier for the authorization service, and a pointer to authentication information to use with the specified authentication service.
 
 
 
@@ -74,7 +74,7 @@ An array of <a href="https://msdn.microsoft.com/23beb1b1-e4b7-4282-9868-5caf40a6
 
 
 
-<a href="https://msdn.microsoft.com/e0933741-6b75-4ce1-aa63-6240e4a7130f">CoInitializeSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity">CoInitializeSecurity</a>
  
 
  

@@ -137,7 +137,7 @@ The flags are associated with the act of inheritance, and not with the inherited
 
 
 
-<a href="https://msdn.microsoft.com/f3356463-3373-4279-bae1-953378aa2680">ITypeInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
  
 
  

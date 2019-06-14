@@ -61,7 +61,7 @@ Establishes a session key for an authenticated channel.
 
 ### -param pChannel [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/B2DE8E06-1571-4D50-9296-8EB4BB74D6BA">ID3D11AuthenticatedChannel</a> interface.  This method will fail if the channel type is    <a href="https://msdn.microsoft.com/4B4E8AA9-5FFE-4ADB-AC83-89FE1BCE27EB">D3D11_AUTHENTICATED_CHANNEL_D3D11</a>, because the Direct3D11 channel does not support authentication.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11authenticatedchannel">ID3D11AuthenticatedChannel</a> interface.  This method will fail if the channel type is    <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_authenticated_channel_type">D3D11_AUTHENTICATED_CHANNEL_D3D11</a>, because the Direct3D11 channel does not support authentication.
 
 
 ### -param DataSize [in]
@@ -88,7 +88,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method will fail if the channel type is    <a href="https://msdn.microsoft.com/4B4E8AA9-5FFE-4ADB-AC83-89FE1BCE27EB">D3D11_AUTHENTICATED_CHANNEL_D3D11</a>, because the Direct3D11 channel does not support authentication.
+This method will fail if the channel type is    <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_authenticated_channel_type">D3D11_AUTHENTICATED_CHANNEL_D3D11</a>, because the Direct3D11 channel does not support authentication.
 
 
 
@@ -98,7 +98,7 @@ This method will fail if the channel type is    <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/6EF09C31-56C7-46B5-87AE-B1FE43EC66FC">ID3D11VideoContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a>
  
 
  

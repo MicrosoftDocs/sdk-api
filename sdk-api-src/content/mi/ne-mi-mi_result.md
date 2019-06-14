@@ -70,7 +70,7 @@ A general error occurred, not covered by a more specific error code.
 ### -field MI_RESULT_ACCESS_DENIED
 
 Access to a CIM resource is not available to the client. Reasons for this might be not having enough permissions to access the requested resources while carrying out the operation, 
-or calling APIs with inconsistent identities. An example of the latter would be creating an <a href="https://msdn.microsoft.com/68a69321-0aa9-423e-a72f-aa2f4dee2d51">MI_Session</a> with one identity while trying to carry out an operation on the same session with a different identity.
+or calling APIs with inconsistent identities. An example of the latter would be creating an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_session">MI_Session</a> with one identity while trying to carry out an operation on the same session with a different identity.
 
 
 ### -field MI_RESULT_INVALID_NAMESPACE

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the class identifier (CLSID) of the object that implements <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a>, if the current item is a junction point.
+Sets the class identifier (CLSID) of the object that implements <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>, if the current item is a junction point.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Sets the class identifier (CLSID) of the object that implements <a href="https:/
 
 Type: <b>REFCLSID</b>
 
-The CLSID for the object that implements <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a> with a junction point as its current item.
+The CLSID for the object that implements <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> with a junction point as its current item.
 
 
 ## -returns

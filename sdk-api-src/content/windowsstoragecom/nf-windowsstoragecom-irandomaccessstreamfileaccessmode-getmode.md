@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/20A538B5-ACD6-4BD9-9CDC-3F2CCDCAF251">IRandomAccessStreamFileAccessMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windowsstoragecom/nn-windowsstoragecom-irandomaccessstreamfileaccessmode">IRandomAccessStreamFileAccessMode</a>
 
 
 

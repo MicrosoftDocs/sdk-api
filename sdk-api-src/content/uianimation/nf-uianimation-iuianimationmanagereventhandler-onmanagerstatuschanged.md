@@ -71,7 +71,7 @@ The previous status.
 
 
 
-If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/38f15d61-d415-4c7d-b454-5144fc7c9b1e">Windows Animation Error Codes</a> for a list of error codes.
+If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
 
 
 
@@ -90,15 +90,15 @@ A call made in this callback method to any other animation method results in the
 
 
 
-<a href="https://msdn.microsoft.com/838140c3-12ca-4909-a0f8-713b5472e5a9">IUIAnimationManager::GetStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager-getstatus">IUIAnimationManager::GetStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/caefafb8-55f8-47c3-adc7-26708b90d2cd">IUIAnimationManagerEventHandler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationmanagereventhandler">IUIAnimationManagerEventHandler</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd317043(v=VS.85).aspx">UI_ANIMATION_MANAGER_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/ne-uianimation-__midl___midl_itf_uianimation_0000_0000_0002">UI_ANIMATION_MANAGER_STATUS</a>
  
 
  

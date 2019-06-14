@@ -81,15 +81,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/e609c8b6-2b2e-4188-894c-5c85960206ea">IShellWindows</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nn-exdisp-ishellwindows">IShellWindows</a>
 
 
 
-<a href="https://msdn.microsoft.com/04157d1a-8a4d-4ffd-882d-41748408ba2b">IShellWindows::Item</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-item">IShellWindows::Item</a>
 
 
 
-<a href="https://msdn.microsoft.com/e91b2be7-2be9-4460-9a2a-57090dcfc961">IShellWindows::_NewEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-_newenum">IShellWindows::_NewEnum</a>
  
 
  

@@ -62,8 +62,8 @@ The <b>ICertView2</b> interface is used to perform the following tasks:<ul>
 </ul>
 
 
-In C++, the <b>ICertView2</b> interface is instantiated through a call to the COM function <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>. If, on the other hand, you are using Visual Basic Scripting Edition, you will need to reference the CertAdm Type library in your project and then instantiate the <b>CCertView</b> object by a call to 'New'.  The sample code for the  
-<a href="https://msdn.microsoft.com/576af4d1-88c9-40e3-9438-9fefd483be7a">OpenConnection</a> method illustrates the instantiation techniques.
+In C++, the <b>ICertView2</b> interface is instantiated through a call to the COM function <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>. If, on the other hand, you are using Visual Basic Scripting Edition, you will need to reference the CertAdm Type library in your project and then instantiate the <b>CCertView</b> object by a call to 'New'.  The sample code for the  
+<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-openconnection">OpenConnection</a> method illustrates the instantiation techniques.
 
 The <b>ICertView2</b> interface is defined in Certview.h. When you create your program, however, use Certsrv.h as the include file. Certadm.dll provides the <b>ICertView2</b> interface. The type information for this interface is also in Certadml.dll, which is shipped with the Platform Software Development Kit (SDK).
 
@@ -72,7 +72,7 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertView2</b> interface inherits from <a href="https://msdn.microsoft.com/0b6660ee-458f-457f-8a38-0d950aee2710">ICertView</a> and <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>. <b>ICertView2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertView2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview">ICertView</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>. <b>ICertView2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -87,73 +87,73 @@ The <b>ICertView2</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a51162f9-cc3d-4f06-993a-e5c9f57dd8a1">EnumCertViewColumn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-enumcertviewcolumn">EnumCertViewColumn</a>
 </td>
 <td align="left" width="63%">
 Obtains a pointer to 
-<a href="https://msdn.microsoft.com/6e6547f9-44b2-4050-be90-ac8ede892adc">IEnumCERTVIEWCOLUMN</a> for schema enumeration.</p> (Inherited from <a href="https://msdn.microsoft.com/0b6660ee-458f-457f-8a38-0d950aee2710">ICertView</a>
-<a href="https://msdn.microsoft.com/0b6660ee-458f-457f-8a38-0d950aee2710">CCertView</a>)</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-ienumcertviewcolumn">IEnumCERTVIEWCOLUMN</a> for schema enumeration.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview">ICertView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview">CCertView</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0297d8e3-5077-40da-88b7-adac252e0f1b">GetColumnCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-getcolumncount">GetColumnCount</a>
 </td>
 <td align="left" width="63%">
-Retrieves the count of columns in the view.</p> (Inherited from <a href="https://msdn.microsoft.com/0b6660ee-458f-457f-8a38-0d950aee2710">ICertView</a>
-<a href="https://msdn.microsoft.com/0b6660ee-458f-457f-8a38-0d950aee2710">CCertView</a>)</td>
+Retrieves the count of columns in the view.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview">ICertView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview">CCertView</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3d869db9-b4df-4fcd-85e7-19fe773b4262">GetColumnIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-getcolumnindex">GetColumnIndex</a>
 </td>
 <td align="left" width="63%">
-Retrieves the zero-based index of a named column.</p> (Inherited from <a href="https://msdn.microsoft.com/0b6660ee-458f-457f-8a38-0d950aee2710">ICertView</a>
-<a href="https://msdn.microsoft.com/0b6660ee-458f-457f-8a38-0d950aee2710">CCertView</a>)</td>
+Retrieves the zero-based index of a named column.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview">ICertView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview">CCertView</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/576af4d1-88c9-40e3-9438-9fefd483be7a">OpenConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-openconnection">OpenConnection</a>
 </td>
 <td align="left" width="63%">
-Establishes an instance of a column-enumeration sequence for the database schema.</p> (Inherited from <a href="https://msdn.microsoft.com/0b6660ee-458f-457f-8a38-0d950aee2710">ICertView</a>
-<a href="https://msdn.microsoft.com/0b6660ee-458f-457f-8a38-0d950aee2710">CCertView</a>)</td>
+Establishes an instance of a column-enumeration sequence for the database schema.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview">ICertView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview">CCertView</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d68a5463-f711-4737-b0ad-889f7e4855d5">OpenView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-openview">OpenView</a>
 </td>
 <td align="left" width="63%">
 Opens a view to a Certificate Services database and instantiates an instance of an 
-<a href="https://msdn.microsoft.com/c9529f7a-9d97-4315-af96-f7b687af3c2e">IEnumCERTVIEWROW</a> object.</p> (Inherited from <a href="https://msdn.microsoft.com/0b6660ee-458f-457f-8a38-0d950aee2710">ICertView</a>
-<a href="https://msdn.microsoft.com/0b6660ee-458f-457f-8a38-0d950aee2710">CCertView</a>)</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-ienumcertviewrow">IEnumCERTVIEWROW</a> object.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview">ICertView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview">CCertView</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a2dc8675-1d75-4c15-a9f7-971274ab044c">SetRestriction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-setrestriction">SetRestriction</a>
 </td>
 <td align="left" width="63%">
-Sets sorting and qualifying restrictions on a column.</p> (Inherited from <a href="https://msdn.microsoft.com/0b6660ee-458f-457f-8a38-0d950aee2710">ICertView</a>
-<a href="https://msdn.microsoft.com/0b6660ee-458f-457f-8a38-0d950aee2710">CCertView</a>)</td>
+Sets sorting and qualifying restrictions on a column.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview">ICertView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview">CCertView</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c13bdc3a-e623-49df-bba0-34c4c178dc3b">SetResultColumn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-setresultcolumn">SetResultColumn</a>
 </td>
 <td align="left" width="63%">
-Specifies a column for the result set of a customized view of the Certificate Services database.</p> (Inherited from <a href="https://msdn.microsoft.com/0b6660ee-458f-457f-8a38-0d950aee2710">ICertView</a>
-<a href="https://msdn.microsoft.com/0b6660ee-458f-457f-8a38-0d950aee2710">CCertView</a>)</td>
+Specifies a column for the result set of a customized view of the Certificate Services database.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview">ICertView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview">CCertView</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f98b2f45-be9f-47ba-9c6b-63a2912288ac">SetResultColumnCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-setresultcolumncount">SetResultColumnCount</a>
 </td>
 <td align="left" width="63%">
-Specifies the maximum the number of columns for the result set of a customized view of the Certificate Services database.</p> (Inherited from <a href="https://msdn.microsoft.com/0b6660ee-458f-457f-8a38-0d950aee2710">ICertView</a>
-<a href="https://msdn.microsoft.com/0b6660ee-458f-457f-8a38-0d950aee2710">CCertView</a>)</td>
+Specifies the maximum the number of columns for the result set of a customized view of the Certificate Services database.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview">ICertView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview">CCertView</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/76353137-75c5-46e5-82da-33d2f8e54661">SetTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview2-settable">SetTable</a>
 </td>
 <td align="left" width="63%">
 Specifies which Certificate Services database table is used for subsequent calls to  the methods of the <b>ICertView2</b> interface.</p> (Inherited from <b>ICertView2</b><b>CCertView</b>)</td>

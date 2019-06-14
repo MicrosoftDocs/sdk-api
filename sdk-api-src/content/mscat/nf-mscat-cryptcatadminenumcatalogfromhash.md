@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The  <b>CryptCATAdminEnumCatalogFromHash</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CryptCATAdminEnumCatalogFromHash</b> function enumerates the catalogs that contain a specified hash. The hash is typically returned from the <a href="https://msdn.microsoft.com/4dc5688f-4b7a-4baf-9671-868cac7f1896">CryptCATAdminCalcHashFromFileHandle</a> function.  This function has no associated import library. You must use the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> functions to dynamically link to Wintrust.dll. After the final call to this function, call <a href="https://msdn.microsoft.com/6cc13013-2c0a-4934-a866-30b69cbcf934">CryptCATAdminReleaseCatalogContext</a> to release allocated memory.
+The <b>CryptCATAdminEnumCatalogFromHash</b> function enumerates the catalogs that contain a specified hash. The hash is typically returned from the <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatadmincalchashfromfilehandle">CryptCATAdminCalcHashFromFileHandle</a> function.  This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll. After the final call to this function, call <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatadminreleasecatalogcontext">CryptCATAdminReleaseCatalogContext</a> to release allocated memory.
 
 
 ## -parameters
@@ -61,12 +61,12 @@ The <b>CryptCATAdminEnumCatalogFromHash</b> function enumerates the catalogs tha
 
 ### -param hCatAdmin [in]
 
-A handle to a catalog administrator context previously assigned by the <a href="https://msdn.microsoft.com/693af055-fa93-4526-aa9c-3a659f8ff78f">CryptCATAdminAcquireContext</a> function.
+A handle to a catalog administrator context previously assigned by the <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatadminacquirecontext">CryptCATAdminAcquireContext</a> function.
 
 
 ### -param pbHash [in]
 
-A pointer to the buffer that contains the hash retrieved by calling <a href="https://msdn.microsoft.com/4dc5688f-4b7a-4baf-9671-868cac7f1896">CryptCATAdminCalcHashFromFileHandle</a>.
+A pointer to the buffer that contains the hash retrieved by calling <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatadmincalchashfromfilehandle">CryptCATAdminCalcHashFromFileHandle</a>.
 
 
 ### -param cbHash [in]
@@ -90,7 +90,7 @@ A pointer to the handle to the previous catalog context or <b>NULL</b>,  if an e
 
 The return value is a handle to the catalog context or <b>NULL</b>,  if there are no more catalogs to enumerate or retrieve.
 
-For extended error information, call the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function. For a complete list of error codes provided by the operating system, see <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+For extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. For a complete list of error codes provided by the operating system, see <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 

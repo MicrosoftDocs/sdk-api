@@ -50,8 +50,8 @@ ms.custom: 19H1
 
 
 The <b>TRUSTED_PASSWORD_INFO</b> structure is used to query or set the password for a trusted domain. The 
-<a href="https://msdn.microsoft.com/62925515-a6f3-4b5f-bf97-edb968af19a3">LsaQueryTrustedDomainInfo</a> and 
-<a href="https://msdn.microsoft.com/a7b89ea7-af92-46ba-ac73-2fba1cc27680">LsaSetTrustedDomainInformation</a> functions use this structure when their <i>InformationClass</i> parameters are set to TrustedPasswordInformation.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaquerytrusteddomaininfo">LsaQueryTrustedDomainInfo</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsasettrusteddomaininformation">LsaSetTrustedDomainInformation</a> functions use this structure when their <i>InformationClass</i> parameters are set to TrustedPasswordInformation.
 
 
 ## -struct-fields
@@ -62,19 +62,19 @@ The <b>TRUSTED_PASSWORD_INFO</b> structure is used to query or set the password 
 ### -field Password
 
 An 
-<a href="https://msdn.microsoft.com/9e1cf20f-01f9-4813-bf95-e47c5d57dcdc">LSA_UNICODE_STRING</a> structure that contains the password to use when creating an authenticated connection to the domain.
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the password to use when creating an authenticated connection to the domain.
 
 
 ### -field OldPassword
 
-An <a href="https://msdn.microsoft.com/9e1cf20f-01f9-4813-bf95-e47c5d57dcdc">LSA_UNICODE_STRING</a> structure that contains the old password. On set operations, if the <b>Buffer</b> member of this structure is <b>NULL</b>, the old password is set to the current password.
+An <a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the old password. On set operations, if the <b>Buffer</b> member of this structure is <b>NULL</b>, the old password is set to the current password.
 
 
 ## -remarks
 
 
 
-When you have finished using the <b>TRUSTED_PASSWORD_INFO</b> structure, clear the sensitive information from memory by calling the <a href="https://msdn.microsoft.com/2c4090a6-025b-4b7b-8f31-7e744ad51b39">SecureZeroMemory</a> function. For more information about protecting passwords, see <a href="https://msdn.microsoft.com/1d810f71-9bf5-4c5c-a573-c35081f604cf">Handling Passwords</a>.
+When you have finished using the <b>TRUSTED_PASSWORD_INFO</b> structure, clear the sensitive information from memory by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function. For more information about protecting passwords, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
 
 
 
@@ -84,19 +84,19 @@ When you have finished using the <b>TRUSTED_PASSWORD_INFO</b> structure, clear t
 
 
 
-<a href="https://msdn.microsoft.com/9e1cf20f-01f9-4813-bf95-e47c5d57dcdc">LSA_UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string">LSA_UNICODE_STRING</a>
 
 
 
-<a href="https://msdn.microsoft.com/62925515-a6f3-4b5f-bf97-edb968af19a3">LsaQueryTrustedDomainInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaquerytrusteddomaininfo">LsaQueryTrustedDomainInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7b89ea7-af92-46ba-ac73-2fba1cc27680">LsaSetTrustedDomainInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsasettrusteddomaininformation">LsaSetTrustedDomainInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/442a0944-b498-4d9f-b338-d5aed1663d8d">TRUSTED_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_trusted_information_class">TRUSTED_INFORMATION_CLASS</a>
  
 
  

@@ -61,7 +61,7 @@ The image output of the blend transform is the same as rendering an image effect
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1BlendTransform</b> interface inherits from <a href="https://msdn.microsoft.com/5349EF29-767F-4C78-A6F9-B0C6F143E762">ID2D1ConcreteTransform</a>. <b>ID2D1BlendTransform</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1BlendTransform</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1concretetransform">ID2D1ConcreteTransform</a>. <b>ID2D1BlendTransform</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>ID2D1BlendTransform</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7608A055-FD44-406E-86C7-DF575718D936">GetDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1blendtransform-getdescription">GetDescription</a>
 </td>
 <td align="left" width="63%">
 Gets the blend description of the corresponding blend transform object.
@@ -85,7 +85,7 @@ Gets the blend description of the corresponding blend transform object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/37E52B64-D998-4D85-858D-04A7751D7E0A">SetDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1blendtransform-setdescription">SetDescription</a>
 </td>
 <td align="left" width="63%">
 Changes the blend description of the corresponding blend transform object.
@@ -100,15 +100,15 @@ Changes the blend description of the corresponding blend transform object.
 
 
 
-<a href="https://msdn.microsoft.com/5349EF29-767F-4C78-A6F9-B0C6F143E762">ID2D1ConcreteTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1concretetransform">ID2D1ConcreteTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/6CA29200-9834-4A5B-99E8-434CD6E9B243">ID2D1TransformGraph</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transformgraph">ID2D1TransformGraph</a>
 
 
 
-<a href="https://msdn.microsoft.com/2ACF65DA-A812-4983-B044-71103A9AA450">ID2D1TransformNode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transformnode">ID2D1TransformNode</a>
  
 
  

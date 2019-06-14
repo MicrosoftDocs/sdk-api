@@ -54,7 +54,7 @@ Implement this interface to receive notification when a CD or DVD device is adde
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">DDiscMaster2Events</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>DDiscMaster2Events</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">DDiscMaster2Events</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>DDiscMaster2Events</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>DDiscMaster2Events</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1f728b33-3788-4fc4-b261-da243b4ff46e">NotifyDeviceAdded</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-ddiscmaster2events-notifydeviceadded">NotifyDeviceAdded</a>
 </td>
 <td align="left" width="63%">
 Receives notification when an optical media device is added to the computer. 
@@ -78,7 +78,7 @@ Receives notification when an optical media device is added to the computer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/626096ba-f2d7-4a75-b04c-f95aad6915cc">NotifyDeviceRemoved</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-ddiscmaster2events-notifydeviceremoved">NotifyDeviceRemoved</a>
 </td>
 <td align="left" width="63%">
 Receives notification when an optical media device is removed from the computer. 
@@ -93,7 +93,7 @@ Receives notification when an optical media device is removed from the computer.
 
 
 
-<a href="https://msdn.microsoft.com/cdca44d4-6ab5-4c2f-91ba-bef79b1d457e">IDiscMaster2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscmaster2">IDiscMaster2</a>
  
 
  

@@ -59,10 +59,10 @@ Information classes for placeholder info.
 
 ### -field CF_PLACEHOLDER_INFO_BASIC
 
-Basic placeholder information.  See <a href="https://msdn.microsoft.com/77367235-342D-4BBC-B910-FE798E14B588">CF_PLACEHOLDER_BASIC_INFO</a>.
+Basic placeholder information.  See <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/ns-cfapi-cf_placeholder_basic_info">CF_PLACEHOLDER_BASIC_INFO</a>.
 
 
 ### -field CF_PLACEHOLDER_INFO_STANDARD
 
-Standard placeholder information. See <a href="https://msdn.microsoft.com/F0CDC9CD-7D31-4854-9568-8F13516C6D15">CF_PLACEHOLDER_STANDARD_INFO</a>.
+Standard placeholder information. See <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/ns-cfapi-cf_placeholder_standard_info">CF_PLACEHOLDER_STANDARD_INFO</a>.
 

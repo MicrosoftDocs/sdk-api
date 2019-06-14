@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies an application that displays a dialog box when the <a href="https://msdn.microsoft.com/e1983777-13c1-4bf5-834d-471db3bfa0f6">SLIsGenuineLocal</a> function indicates that an installation is not genuine.
+Specifies an application that displays a dialog box when the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slisgenuinelocal">SLIsGenuineLocal</a> function indicates that an installation is not genuine.
 
 
 ## -struct-fields
@@ -69,5 +69,5 @@ A pointer to an <b>SLID</b> structure that specifies an application that display
 
 ### -field hResultUI
 
-The return value that the <a href="https://msdn.microsoft.com/e1983777-13c1-4bf5-834d-471db3bfa0f6">SLIsGenuineLocal</a> function returns when an installation is not genuine.
+The return value that the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slisgenuinelocal">SLIsGenuineLocal</a> function returns when an installation is not genuine.
 

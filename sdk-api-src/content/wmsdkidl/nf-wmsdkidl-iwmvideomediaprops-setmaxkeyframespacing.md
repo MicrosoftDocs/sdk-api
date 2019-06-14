@@ -79,7 +79,7 @@ This method always returns S_OK.
 
 
 
-A key frame is a video frame that can be rendered without any information being required from any previous frame. A delta frame is a frame that is dependent on a previous frame. The application can seek to a key frame, but not to a delta frame. The SDK does not enforce any limit on the time between key frames. In general, times longer than 30 seconds can adversely affect seek times both when the content is streamed over a network, and when it is played back locally. For recommended values, see <a href="https://msdn.microsoft.com/2df507f9-60a5-4489-b3db-7fe15604e625">Configuring Video Streams for Seeking Performance</a>.
+A key frame is a video frame that can be rendered without any information being required from any previous frame. A delta frame is a frame that is dependent on a previous frame. The application can seek to a key frame, but not to a delta frame. The SDK does not enforce any limit on the time between key frames. In general, times longer than 30 seconds can adversely affect seek times both when the content is streamed over a network, and when it is played back locally. For recommended values, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/configuring-video-streams-for-seeking-performance">Configuring Video Streams for Seeking Performance</a>.
 
 
 
@@ -89,11 +89,11 @@ A key frame is a video frame that can be rendered without any information being 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798711(v=VS.85).aspx">IWMVideoMediaProps Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmvideomediaprops">IWMVideoMediaProps Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798712(v=VS.85).aspx">IWMVideoMediaProps::GetMaxKeyFrameSpacing</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmvideomediaprops-getmaxkeyframespacing">IWMVideoMediaProps::GetMaxKeyFrameSpacing</a>
  
 
  

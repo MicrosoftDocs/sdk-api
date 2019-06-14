@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Starting with Direct3D 11.1, we recommend not to use <b>GetDisplayModeList</b> anymore to retrieve the matching display mode. Instead, use <a href="https://msdn.microsoft.com/49522ED9-30AD-4F39-96D2-BB6677D72349">IDXGIOutput1::GetDisplayModeList1</a>, which supports stereo display mode.]
+<p class="CCE_Message">[Starting with Direct3D 11.1, we recommend not to use <b>GetDisplayModeList</b> anymore to retrieve the matching display mode. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutput1-getdisplaymodelist1">IDXGIOutput1::GetDisplayModeList1</a>, which supports stereo display mode.]
 
 Gets the display modes that match the requested format and other input options.
 
@@ -62,23 +62,23 @@ Gets the display modes that match the requested format and other input options.
 
 ### -param EnumFormat
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a></b>
 
-The color format (see <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>).
+The color format (see <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>).
 
 
 ### -param Flags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Options for modes to include (see <a href="https://msdn.microsoft.com/en-us/library/Cc308060(v=VS.85).aspx">DXGI_ENUM_MODES</a>).
+Options for modes to include (see <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-enum-modes">DXGI_ENUM_MODES</a>).
             DXGI_ENUM_MODES_SCALING needs to be specified to expose the display modes that require scaling.  Centered modes, requiring no 
             scaling and corresponding directly to the display output, are enumerated by default.
 
 
 ### -param pNumModes [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
 Set <i>pDesc</i> to <b>NULL</b> so that <i>pNumModes</i> returns the number of display modes that match the format and the options.
         Otherwise, <i>pNumModes</i> returns the number of display modes returned in <i>pDesc</i>.
@@ -86,18 +86,18 @@ Set <i>pDesc</i> to <b>NULL</b> so that <i>pNumModes</i> returns the number of d
 
 ### -param pDesc [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173064(v=VS.85).aspx">DXGI_MODE_DESC</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173064(v=vs.85)">DXGI_MODE_DESC</a>*</b>
 
-A pointer to a list of display modes (see <a href="https://msdn.microsoft.com/en-us/library/Bb173064(v=VS.85).aspx">DXGI_MODE_DESC</a>); set to <b>NULL</b> to get the number of display modes.
+A pointer to a list of display modes (see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173064(v=vs.85)">DXGI_MODE_DESC</a>); set to <b>NULL</b> to get the number of display modes.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>. It is rare, but possible, that the display modes available can change immediately after calling 
+Returns one of the following <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a>. It is rare, but possible, that the display modes available can change immediately after calling 
       this method, in which case DXGI_ERROR_MORE_DATA is returned (if there is not enough room for all the display modes).  
       If <b>GetDisplayModeList</b> is called from a Remote Desktop Services session (formerly Terminal Services session), DXGI_ERROR_NOT_CURRENTLY_AVAILABLE is returned.
 
@@ -139,7 +139,7 @@ pOutput->GetDisplayModeList( format, flags, &num, pDescs);
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174546(v=VS.85).aspx">IDXGIOutput</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgioutput">IDXGIOutput</a>
  
 
  

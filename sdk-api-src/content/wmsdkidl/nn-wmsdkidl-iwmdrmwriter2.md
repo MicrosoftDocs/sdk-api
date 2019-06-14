@@ -62,7 +62,7 @@ An <b>IWMDRMWriter2</b> interface exists for every writer object. You can obtain
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDRMWriter2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd798372(v=VS.85).aspx">IWMDRMWriter</a>. <b>IWMDRMWriter2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDRMWriter2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmwriter">IWMDRMWriter</a>. <b>IWMDRMWriter2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IWMDRMWriter2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798374(v=VS.85).aspx">SetWMDRMNetEncryption</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmwriter2-setwmdrmnetencryption">SetWMDRMNetEncryption</a>
 </td>
 <td align="left" width="63%">
 Configures the writer to receive input samples encoded for Windows Media DRM 10 for Network Devices delivery.
@@ -92,15 +92,15 @@ Configures the writer to receive input samples encoded for Windows Media DRM 10 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798372(v=VS.85).aspx">IWMDRMWriter Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmwriter">IWMDRMWriter Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/c61a0739-09f2-497f-a2cd-d3f2472738e3">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/8058b7fe-7d02-4572-ad43-6867d4ceb7e9">Writer Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/writer-object">Writer Object</a>
  
 
  

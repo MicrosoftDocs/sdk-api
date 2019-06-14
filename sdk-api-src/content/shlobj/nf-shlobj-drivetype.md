@@ -166,7 +166,7 @@ The drive is a RAM disk.
 
 
 
-<b>DriveType</b> is equivalent to calling <a href="https://msdn.microsoft.com/c4e55b50-637a-446f-aa9c-7d8c71d8071c">RealDriveType</a>. <b>RealDriveType</b> is the preferred function.
+<b>DriveType</b> is equivalent to calling <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-realdrivetype">RealDriveType</a>. <b>RealDriveType</b> is the preferred function.
 
 
 
@@ -176,11 +176,11 @@ The drive is a RAM disk.
 
 
 
-<a href="https://msdn.microsoft.com/b3989a3f-fc90-4ea0-8d3e-8e57068a08bc">GetDriveType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdrivetypea">GetDriveType</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4e55b50-637a-446f-aa9c-7d8c71d8071c">RealDriveType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-realdrivetype">RealDriveType</a>
  
 
  

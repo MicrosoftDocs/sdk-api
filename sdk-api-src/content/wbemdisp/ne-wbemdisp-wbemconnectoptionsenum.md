@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 WbemConnectOptionsEnum constant defines a security flag that is used as a parameter in calls to 
-the <a href="https://msdn.microsoft.com/31364c68-b031-4cf0-851f-b4e302f077e0">SWbemLocator.ConnectServer</a> method when a connection to WMI on a remote machine is failing.
+the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemlocator-connectserver">SWbemLocator.ConnectServer</a> method when a connection to WMI on a remote machine is failing.
 
 
 ## -enum-fields
@@ -61,7 +61,7 @@ the <a href="https://msdn.microsoft.com/31364c68-b031-4cf0-851f-b4e302f077e0">SW
 
 ### -field wbemConnectFlagUseMaxWait
 
-Shortens the timeout for the <a href="https://msdn.microsoft.com/31364c68-b031-4cf0-851f-b4e302f077e0">SWbemLocator.ConnectServer</a> method call to two minutes.
+Shortens the timeout for the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemlocator-connectserver">SWbemLocator.ConnectServer</a> method call to two minutes.
 
 
 ## -see-also
@@ -69,7 +69,7 @@ Shortens the timeout for the <a href="https://msdn.microsoft.com/31364c68-b031-4
 
 
 
-<a href="https://msdn.microsoft.com/feaab757-3167-420b-8f42-edced4cd4c53">Scripting API Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/scripting-api-constants">Scripting API Constants</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>CryptXmlDllVerifySignature</b>  function verifies a signature.
 
-The <b>CryptXmlDllVerifySignature</b> function is exposed through the exported <a href="https://msdn.microsoft.com/a547e869-3c9f-4408-9895-29fae0cc6066">CryptXmlDllGetInterface</a>  function.
+The <b>CryptXmlDllVerifySignature</b> function is exposed through the exported <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllgetinterface">CryptXmlDllGetInterface</a>  function.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>CryptXmlDllVerifySignature</b> function is exposed through the exported <
 
 ### -param *pSignatureMethod [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/4eb99c1e-fa06-41ec-906c-a3ba34e7aaeb">CRYPT_XML_ALGORITHM</a> structure that specifies the algorithm.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structure that specifies the algorithm.
 
 
 ### -param hKey [in]

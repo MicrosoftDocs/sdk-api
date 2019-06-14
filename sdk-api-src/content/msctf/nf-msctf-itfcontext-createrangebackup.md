@@ -58,17 +58,17 @@ ms.custom: 19H1
 
 ### -param ec [in]
 
-Contains an edit cookie that identifies the edit session. This is the value passed to <a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession</a>.
+Contains an edit cookie that identifies the edit session. This is the value passed to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
 
 ### -param pRange [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange</a> object to be backed up.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object to be backed up.
 
 
 ### -param ppBackup [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/f98cd8d0-7033-4bd2-94a1-1a75913c2647">ITfRangeBackup</a> interface pointer that receives the backup of <i>pRange</i>.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrangebackup">ITfRangeBackup</a> interface pointer that receives the backup of <i>pRange</i>.
 
 
 ## -returns
@@ -158,7 +158,7 @@ An unspecified error occurred.
 
 
 
-This method creates a copy of the range that it can use to restore the data in <a href="https://msdn.microsoft.com/bb168504-34c0-4d30-826e-61926fd10a2a">ITfRangeBackup::Restore</a>.
+This method creates a copy of the range that it can use to restore the data in <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrangebackup-restore">ITfRangeBackup::Restore</a>.
 
 
 
@@ -168,31 +168,31 @@ This method creates a copy of the range that it can use to restore the data in <
 
 
 
-<a href="https://msdn.microsoft.com/ca98c7bb-7348-405d-976a-18012b0886c6">ITfContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/f98cd8d0-7033-4bd2-94a1-1a75913c2647">ITfRangeBackup
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrangebackup">ITfRangeBackup
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/bb168504-34c0-4d30-826e-61926fd10a2a">ITfRangeBackup::Restore
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrangebackup-restore">ITfRangeBackup::Restore
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629023(v=VS.85).aspx">Ranges: Clones and Backups</a>
+<a href="https://docs.microsoft.com/windows/desktop/TSF/ranges">Ranges: Clones and Backups</a>
  
 
  

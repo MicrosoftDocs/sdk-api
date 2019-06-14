@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/6B5E19EA-F66B-447C-B8D5-C98260E82789">IVideoFrameNative</a> from the provided <a href="https://msdn.microsoft.com/b1c3758c-5133-41ee-b991-ae99d0296ccc">IMFSample</a>.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/windows.media.core.interop/nn-windows-media-core-interop-ivideoframenative">IVideoFrameNative</a> from the provided <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>.
 
 
 ## -parameters
@@ -110,7 +110,7 @@ Pointer to the device associated with the image data.
 
 Type: <b>REFIID</b>
 
-The IID of the <a href="https://msdn.microsoft.com/6B5E19EA-F66B-447C-B8D5-C98260E82789">IVideoFrameNative</a> interface.
+The IID of the <a href="https://docs.microsoft.com/windows/desktop/api/windows.media.core.interop/nn-windows-media-core-interop-ivideoframenative">IVideoFrameNative</a> interface.
 
 
 ### -param ppv [out]
@@ -124,7 +124,7 @@ When this method returns successfully, contains the requested interface.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 Returns S_OK on successful completion.
 
@@ -136,7 +136,7 @@ Returns S_OK on successful completion.
 
 
 
-<a href="https://msdn.microsoft.com/A884D0B5-6E12-4225-A46B-DD0C0A77B58E">IVideoFrameNativeFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.media.core.interop/nn-windows-media-core-interop-ivideoframenativefactory">IVideoFrameNativeFactory</a>
  
 
  

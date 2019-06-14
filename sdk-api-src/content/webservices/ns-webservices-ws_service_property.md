@@ -60,7 +60,7 @@ Specifies a service specific setting.
 
 ### -field id
 
-Identifies the <a href="https://msdn.microsoft.com/305fe7ad-e4a2-499a-b34b-e5b7cde53e22">WS_SERVICE_PROPERTY_ID</a>.
+Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_service_property_id">WS_SERVICE_PROPERTY_ID</a>.
             
 
 

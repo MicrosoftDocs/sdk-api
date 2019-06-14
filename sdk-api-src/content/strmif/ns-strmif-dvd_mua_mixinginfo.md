@@ -91,7 +91,7 @@ The speaker for which this channel is intended. See Remarks.
 
 Applications cannot use the information contained in this structure to change the mixing unless they have a way to communicate with a custom audio decoder that has been inserted manually into the filter graph. The default audio decoder handles Linear Pulse Code Modulated (LPCM) audio using the mixing information on the digital video disc (DVD), but applications have no way to instruct the decoder to modify the mixing values. This means that current DVD playback applications should have no need to access the multichannel-related data structures.
 
-The <a href="https://msdn.microsoft.com/8aba7e5a-62ec-4ef5-821f-cfef8cf7d93d">DVD_MultichannelAudioAttributes</a> structure contains information about one audio stream in a specified title. An array of up to eight <code>DVD_MUA_MixingInfo</code> structures will be populated in this structure, if the following conditions are true.
+The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_multichannelaudioattributes">DVD_MultichannelAudioAttributes</a> structure contains information about one audio stream in a specified title. An array of up to eight <code>DVD_MUA_MixingInfo</code> structures will be populated in this structure, if the following conditions are true.
 
 <ul>
 <li>DVD_AudioAttributes.AppMode = DVD_AudioMode_Surround</li>
@@ -166,11 +166,11 @@ Possible values for <b>dwSpeakerPosition</b> are defined in Ksmedia.h as follows
 
 
 
-<a href="https://msdn.microsoft.com/a4365c05-718e-4d48-bb2c-a13a609df82f">DVD_AudioAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_audioattributes">DVD_AudioAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
  
 
  

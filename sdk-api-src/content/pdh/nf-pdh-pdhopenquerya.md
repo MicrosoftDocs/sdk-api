@@ -55,7 +55,7 @@ Creates a new query that is used to manage the collection of performance data.
 			
 
 To use handles to data sources, use the 
-<a href="https://msdn.microsoft.com/068c55da-d7e0-4111-91c8-a2bbd676f99d">PdhOpenQueryH</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenqueryh">PdhOpenQueryH</a> function.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ To use handles to data sources, use the
 ### -param dwUserData [in]
 
 User-defined value to associate with this query. To retrieve the user data later, call 
-<a href="https://msdn.microsoft.com/12e1a194-5418-4c2a-9853-ef2d2c666893">PdhGetCounterInfo</a> and access the <b>dwQueryUserData</b> member of <a href="https://msdn.microsoft.com/c9ede50e-85de-4a68-b539-54285c2599cb">PDH_COUNTER_INFO</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetcounterinfoa">PdhGetCounterInfo</a> and access the <b>dwQueryUserData</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_counter_info_a">PDH_COUNTER_INFO</a>.
 
 
 ### -param phQuery [out]
@@ -91,8 +91,8 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> or a 
-<a href="https://msdn.microsoft.com/ea67d798-81db-44ad-b0fb-24e0c3be7388">PDH error code</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. 
 
 
 
@@ -102,23 +102,23 @@ If the function fails, the return value is a
 
 
 
-<a href="https://msdn.microsoft.com/af0fb9f4-3999-48fa-88d7-aa59b5caed75">PdhCloseQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhclosequery">PdhCloseQuery</a>
 
 
 
-<a href="https://msdn.microsoft.com/12e1a194-5418-4c2a-9853-ef2d2c666893">PdhGetCounterInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetcounterinfoa">PdhGetCounterInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/4f6b2d8d-3a0f-4346-8b8e-a7aea11fbc40">PdhIsRealTimeQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhisrealtimequery">PdhIsRealTimeQuery</a>
 
 
 
-<a href="https://msdn.microsoft.com/068c55da-d7e0-4111-91c8-a2bbd676f99d">PdhOpenQueryH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenqueryh">PdhOpenQueryH</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a46ac26-c1a1-40c1-a328-688e0b394e18">PdhSetDefaultRealTimeDataSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhsetdefaultrealtimedatasource">PdhSetDefaultRealTimeDataSource</a>
  
 
  

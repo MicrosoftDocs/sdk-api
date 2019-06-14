@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>WM_USER_TEXT</b> structure is used as the data item for the <a href="https://msdn.microsoft.com/892e7f02-6a21-49f2-a9cf-6ac52994a577">WM/Text</a> complex metadata attribute.
+The <b>WM_USER_TEXT</b> structure is used as the data item for the <a href="https://docs.microsoft.com/windows/desktop/wmformat/wm-text">WM/Text</a> complex metadata attribute.
 
 
 
@@ -75,7 +75,7 @@ Pointer to a wide-character null-terminated string containing the text.
 
 
 
-<a href="https://msdn.microsoft.com/118ef278-ca4f-4c30-9633-a2d851f5c758">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
  
 
  

@@ -162,19 +162,19 @@ The closest category to a <b>GUID</b> is chosen in one of two modes. In the firs
 
 
 
-<a href="https://msdn.microsoft.com/26139c8c-e1d9-4d7a-a0c0-ef73e572fbe4">ITfCategoryMgr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcategorymgr">ITfCategoryMgr</a>
 
 
 
-<a href="https://msdn.microsoft.com/271e5fbe-54e2-47e3-97d4-cd4211b92080">ITfCategoryMgr::EnumCategoriesInItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-enumcategoriesinitem">ITfCategoryMgr::EnumCategoriesInItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/88b123d8-86aa-40ae-8777-1b33cfbb953a">ITfCategoryMgr::EnumItemsInCategory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-enumitemsincategory">ITfCategoryMgr::EnumItemsInCategory</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e9a72a8-ea9b-4438-992c-5a7db64f7d82">ITfCategoryMgr::RegisterCategory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registercategory">ITfCategoryMgr::RegisterCategory</a>
  
 
  

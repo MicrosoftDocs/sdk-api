@@ -59,7 +59,7 @@ ms.custom: 19H1
 ## -description
 
 
-For a locale specified by identifier, maps one input character string to another using a specified transformation, or generates a sort key for the input string. <div class="alert"><b>Note</b>  For interoperability reasons, the application should prefer the <a href="https://msdn.microsoft.com/725e4e75-c328-40bc-a594-20a295a487c6">LCMapStringEx</a> function to <b>LCMapString</b> because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. This recommendation applies especially to custom locales, including those created by Microsoft. Any application that will be run only on Windows Vista and later should use <a href="https://msdn.microsoft.com/725e4e75-c328-40bc-a594-20a295a487c6">LCMapStringEx</a>. </div>
+For a locale specified by identifier, maps one input character string to another using a specified transformation, or generates a sort key for the input string. <div class="alert"><b>Note</b>  For interoperability reasons, the application should prefer the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-lcmapstringex">LCMapStringEx</a> function to <b>LCMapString</b> because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. This recommendation applies especially to custom locales, including those created by Microsoft. Any application that will be run only on Windows Vista and later should use <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-lcmapstringex">LCMapStringEx</a>. </div>
 <div> </div>
 
 
@@ -72,36 +72,36 @@ For a locale specified by identifier, maps one input character string to another
 ### -param Locale [in]
 
 
-<a href="https://msdn.microsoft.com/ea45b0e5-7df7-47fb-8dad-fccfbe53fec0">Locale identifier</a> that specifies the locale. You can use the <a href="https://msdn.microsoft.com/2f8893a0-f916-4a62-a423-e525cf281fa4">MAKELCID</a> macro to create a locale identifier or use one of the following predefined values.
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-identifiers">Locale identifier</a> that specifies the locale. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelcid">MAKELCID</a> macro to create a locale identifier or use one of the following predefined values.
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/d37df17d-8cd5-4481-bee2-062cf9d78e9b">LOCALE_INVARIANT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-invariant">LOCALE_INVARIANT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/57de328c-3afc-4fbb-882c-fa35d3552c13">LOCALE_SYSTEM_DEFAULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-system-default">LOCALE_SYSTEM_DEFAULT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/9ccb489b-24d0-42e5-a01a-2cdb7c3267eb">LOCALE_USER_DEFAULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-user-default">LOCALE_USER_DEFAULT</a>
 </li>
 </ul>
 The following custom locale identifiers are also supported.
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/a41a7f55-8905-47a1-86c3-74ed40b3834c">LOCALE_CUSTOM_DEFAULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_DEFAULT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/a41a7f55-8905-47a1-86c3-74ed40b3834c">LOCALE_CUSTOM_UI_DEFAULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UI_DEFAULT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/a41a7f55-8905-47a1-86c3-74ed40b3834c">LOCALE_CUSTOM_UNSPECIFIED</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UNSPECIFIED</a>
 </li>
 </ul>
 
 ### -param dwMapFlags [in]
 
-Flags specifying the type of transformation to use during string mapping or the type of sort key to generate. For detailed definitions, see the <i>dwMapFlags</i> parameter of <a href="https://msdn.microsoft.com/725e4e75-c328-40bc-a594-20a295a487c6">LCMapStringEx</a>.
+Flags specifying the type of transformation to use during string mapping or the type of sort key to generate. For detailed definitions, see the <i>dwMapFlags</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-lcmapstringex">LCMapStringEx</a>.
 
 
 ### -param lpSrcStr [in]
@@ -142,7 +142,7 @@ The application can set <i>cchDest</i> to 0. In this case, the function does not
 
 Returns the number of characters or bytes in the translated string or sort key, including a terminating null character, if successful. If the function succeeds and the value of <i>cchDest</i> is 0, the return value is the size of the buffer required to hold the translated string or sort key, including a terminating null character.
 
-This function returns 0 if it does not succeed. To get extended error information, the application can call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>, which can return one of the following error codes:
+This function returns 0 if it does not succeed. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <ul>
 <li>ERROR_INSUFFICIENT_BUFFER. A supplied buffer size was not large enough, or it was incorrectly set to <b>NULL</b>.</li>
@@ -156,7 +156,7 @@ This function returns 0 if it does not succeed. To get extended error informatio
 
 
 
-See Remarks for <a href="https://msdn.microsoft.com/725e4e75-c328-40bc-a594-20a295a487c6">LCMapStringEx</a>.
+See Remarks for <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-lcmapstringex">LCMapStringEx</a>.
 
 The ANSI version of <b>LCMapString</b> maps strings to and from Unicode based on the default Windows (ANSI) code page associated with the specified locale. When the ANSI version of this function is used with a Unicode-only locale, the function can succeed because the operating system uses the CP_ACP value, representing the system default Windows ANSI code page. However, characters that are undefined in the system code page appear in the string as a question mark (?).
 
@@ -168,31 +168,31 @@ The ANSI version of <b>LCMapString</b> maps strings to and from Unicode based on
 
 
 
-<a href="https://msdn.microsoft.com/4db84fa7-f3c2-48fb-ad7d-8673397c4b0e">CompareString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a>
 
 
 
-<a href="https://msdn.microsoft.com/d65a67d1-a7e1-4d2a-ae8b-6b4ac7f2a987">FindNLSString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-findnlsstring">FindNLSString</a>
 
 
 
-<a href="https://msdn.microsoft.com/09bc53e1-69f4-4a71-82b3-1b1b84a1b84f">GetNLSVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getnlsversion">GetNLSVersion</a>
 
 
 
-<a href="https://msdn.microsoft.com/c8fc32bd-02bd-4a40-a836-d9ad9f69c209">Handling Sorting in Your Applications</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/handling-sorting-in-your-applications">Handling Sorting in Your Applications</a>
 
 
 
-<a href="https://msdn.microsoft.com/725e4e75-c328-40bc-a594-20a295a487c6">LCMapStringEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-lcmapstringex">LCMapStringEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a548074-0782-45e1-8051-80c3b9d81885">National Language Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c72c4de-83be-4b7e-9ed8-b0236c1df8a4">National Language Support Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
  
 
  

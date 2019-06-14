@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>OnStart</b> method is called by the SDK when a bulk operation started by <a href="https://msdn.microsoft.com/a69afdc9-622d-45fc-b71e-6058d9d528b0">IPortableDevicePropertiesBulk::Start</a> is about to begin.
+The <b>OnStart</b> method is called by the SDK when a bulk operation started by <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicepropertiesbulk-start">IPortableDevicePropertiesBulk::Start</a> is about to begin.
 
 
 
@@ -63,7 +63,7 @@ The <b>OnStart</b> method is called by the SDK when a bulk operation started by 
 
 ### -param pContext [in]
 
-Pointer to a GUID that identifies which operation has started. This value is produced by a <b>Queue</b>... method of the <a href="https://msdn.microsoft.com/57cda40a-8573-4b6c-981e-770f35186038">IPortableDevicePropertiesBulk</a> interface.
+Pointer to a GUID that identifies which operation has started. This value is produced by a <b>Queue</b>... method of the <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicepropertiesbulk">IPortableDevicePropertiesBulk</a> interface.
 
 
 ## -returns
@@ -80,7 +80,7 @@ The application should return either S_OK or an error code to abandon the operat
 
 
 
-<a href="https://msdn.microsoft.com/0a066e30-f584-4a8f-be08-c542060a335b">IPortableDevicePropertiesBulkCallback Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicepropertiesbulkcallback">IPortableDevicePropertiesBulkCallback Interface</a>
  
 
  

@@ -59,7 +59,7 @@ The <b>IEnumTfUIElements::Clone</b> method creates a copy of the enumerator obje
 
 ### -param ppEnum [out]
 
-[out] A pointer to a <a href="https://msdn.microsoft.com/5ee3d89c-0761-4d4b-9fd9-6b9de7ceb077">IEnumTfUIElements</a> interface.
+[out] A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfuielements">IEnumTfUIElements</a> interface.
 
 
 ## -returns

@@ -116,7 +116,7 @@ Require an absolute (full) path.
 
 Type: <b>int</b>
 
-Returns <b>TRUE</b>, unless PRF_VERIFYEXISTS is set. If that flag is set, the function returns <b>TRUE</b> if the file is verified to exist and <b>FALSE</b> otherwise. It also sets an ERROR_FILE_NOT_FOUND error code that you can retrieve by calling <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+Returns <b>TRUE</b>, unless PRF_VERIFYEXISTS is set. If that flag is set, the function returns <b>TRUE</b> if the file is verified to exist and <b>FALSE</b> otherwise. It also sets an ERROR_FILE_NOT_FOUND error code that you can retrieve by calling <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -127,7 +127,7 @@ Returns <b>TRUE</b>, unless PRF_VERIFYEXISTS is set. If that flag is set, the fu
 
 A <b>FALSE</b> return value does not necessarily mean that the file does not exist. It might mean that the function is simply unable to find the file from the supplied information.
 
-If <b>PathResolve</b> cannot resolve the path specified in <i>pszPath</i>, it calls <a href="https://msdn.microsoft.com/d9281eb2-39b7-444f-85b7-1e1e76c38ae2">PathFindOnPath</a> using <i>pszPath</i> and <i>dirs</i> as the parameters.
+If <b>PathResolve</b> cannot resolve the path specified in <i>pszPath</i>, it calls <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathfindonpatha">PathFindOnPath</a> using <i>pszPath</i> and <i>dirs</i> as the parameters.
 
 
 
@@ -137,7 +137,7 @@ If <b>PathResolve</b> cannot resolve the path specified in <i>pszPath</i>, it ca
 
 
 
-<a href="https://msdn.microsoft.com/d9281eb2-39b7-444f-85b7-1e1e76c38ae2">PathFindOnPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathfindonpatha">PathFindOnPath</a>
  
 
  

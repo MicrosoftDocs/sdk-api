@@ -50,8 +50,8 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a> object using a 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a> object to specify the 
+Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a> object using a 
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a> object to specify the 
 			<b>X</b> and 
 			<b>Y</b> data members.
 
@@ -63,12 +63,12 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).as
 
 ### -param size [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a></b>
 
 Reference to a 
-					<a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a> object whose 
+					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a> object whose 
 					<b>Width</b> data member specifies the 
-					<b>X</b> data member of this <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a> object, and whose 
+					<b>X</b> data member of this <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a> object, and whose 
 					<b>Height</b> data member specifies the 
 					<b>Y</b> data member of this <b>PointF</b> object. 
 
@@ -78,15 +78,15 @@ Reference to a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535005(v=VS.85).aspx">Point Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-class-point-constructors">Point Constructors</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
  
 
  

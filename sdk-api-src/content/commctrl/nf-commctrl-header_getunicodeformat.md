@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the Unicode character format flag for the control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775347(v=VS.85).aspx">HDM_GETUNICODEFORMAT</a> message explicitly. 
+Gets the Unicode character format flag for the control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-getunicodeformat">HDM_GETUNICODEFORMAT</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets the Unicode character format flag for the control. You can use this macro o
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control. 
 
@@ -69,7 +69,7 @@ A handle to the control.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775427(v=VS.85).aspx">Header_SetUnicodeFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-header_setunicodeformat">Header_SetUnicodeFormat</a>
  
 
  

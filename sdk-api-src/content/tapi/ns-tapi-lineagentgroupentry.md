@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>LINEAGENTGROUPENTRY</b> structure provides information on ACD agent groups. The 
-<a href="https://msdn.microsoft.com/6189eb8e-20a4-4c87-bc7f-0a6af9605be7">LINEAGENTGROUPLIST</a> structure can contain an array of 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentgrouplist_tag">LINEAGENTGROUPLIST</a> structure can contain an array of 
 <b>LINEAGENTGROUPENTRY</b> structures.
 
 
@@ -98,19 +98,19 @@ Offset from the beginning of the structure to a <b>null</b>-terminated string sp
 
 
 
-<a href="https://msdn.microsoft.com/6189eb8e-20a4-4c87-bc7f-0a6af9605be7">LINEAGENTGROUPLIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentgrouplist_tag">LINEAGENTGROUPLIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/b3767efd-8f7a-4a03-81f6-97e11994900d">lineGetAgentGroupList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetagentgrouplista">lineGetAgentGroupList</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e1d63e2-f87d-41ed-92ba-fe3bbdade8d3">lineGetGroupList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetgrouplista">lineGetGroupList</a>
 
 
 
-<a href="https://msdn.microsoft.com/ce6795fb-fe11-4125-abeb-9b2686ea669a">lineSetAgentGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetagentgroup">lineSetAgentGroup</a>
  
 
  

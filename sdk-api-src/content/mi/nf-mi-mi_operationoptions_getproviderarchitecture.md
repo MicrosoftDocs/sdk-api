@@ -60,7 +60,7 @@ Gets the provider architecture for an operation.
 ### -param options [in]
 
 
-<a href="https://msdn.microsoft.com/60445a53-c40c-4d0a-9650-21d0c7f3bbf6">MI_OperationOptions</a> structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operationoptions">MI_OperationOptions</a> structure.
 
 
 ### -param architecture [out]

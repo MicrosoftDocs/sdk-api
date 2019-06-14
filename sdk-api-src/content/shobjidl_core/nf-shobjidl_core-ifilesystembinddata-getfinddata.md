@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the file system information stored in the <a href="https://msdn.microsoft.com/eb700d84-0ba5-4af8-a619-2d2544560dbc">WIN32_FIND_DATA</a> structure.
+Gets the file system information stored in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_win32_find_dataa">WIN32_FIND_DATA</a> structure.
 
 
 
@@ -60,9 +60,9 @@ Gets the file system information stored in the <a href="https://msdn.microsoft.c
 
 ### -param pfd [out]
 
-Type: <b><a href="https://msdn.microsoft.com/eb700d84-0ba5-4af8-a619-2d2544560dbc">WIN32_FIND_DATA</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_win32_find_dataa">WIN32_FIND_DATA</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/eb700d84-0ba5-4af8-a619-2d2544560dbc">WIN32_FIND_DATA</a> structure that receives the data.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_win32_find_dataa">WIN32_FIND_DATA</a> structure that receives the data.
         
 
 
@@ -81,7 +81,7 @@ Returns S_OK.
 
 
 
-This method provides bind context information to <a href="https://msdn.microsoft.com/099e71b0-04f2-4f82-aa00-7581bd357900">IShellFolder::ParseDisplayName</a>. The client accesses the object by calling <a href="https://msdn.microsoft.com/8f423495-7a34-4901-968e-1fe204680d8a">IBindCtx::GetObjectParam</a> with the <i>pszKey</i> parameter set to the string "File System Bind Data".
+This method provides bind context information to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname">IShellFolder::ParseDisplayName</a>. The client accesses the object by calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ibindctx-getobjectparam">IBindCtx::GetObjectParam</a> with the <i>pszKey</i> parameter set to the string "File System Bind Data".
       
 
 

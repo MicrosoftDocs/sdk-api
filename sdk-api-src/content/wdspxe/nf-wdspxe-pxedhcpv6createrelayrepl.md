@@ -61,7 +61,7 @@ For more information about RELAY-REPL and RELAY-FORW messages, developers should
 
 ### -param pRelayMessages [in]
 
-An array of <b>PXE_DHCPV6_NESTED_RELAY_FORW</b> structures which together specify the sequence of nested RELAY-FORW packets.  This value can be obtained from the <i>pRelayMessages</i> parameter of <a href="https://msdn.microsoft.com/1D9F1FFF-3ABB-4580-A5F2-C74B5E7EEAC9">PxeDhcpv6ParseRelayForw</a>.
+An array of <b>PXE_DHCPV6_NESTED_RELAY_FORW</b> structures which together specify the sequence of nested RELAY-FORW packets.  This value can be obtained from the <i>pRelayMessages</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxedhcpv6parserelayforw">PxeDhcpv6ParseRelayForw</a>.
 
 
 ### -param nRelayMessages [in]

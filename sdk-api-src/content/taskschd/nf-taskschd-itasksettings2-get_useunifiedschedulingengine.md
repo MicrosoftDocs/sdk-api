@@ -63,7 +63,7 @@ This property is read/write.
 
 
 
-When reading or writing XML for a task, this setting is specified in the <a href="https://msdn.microsoft.com/93436f14-1caf-4ec8-bf74-a198b7dcb27c">UseUnifiedSchedulingEngine</a> element of the Task Scheduler schema.
+When reading or writing XML for a task, this setting is specified in the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-useunifiedschedulingengine-settingstype-element">UseUnifiedSchedulingEngine</a> element of the Task Scheduler schema.
 
 
 
@@ -73,11 +73,11 @@ When reading or writing XML for a task, this setting is specified in the <a href
 
 
 
-<a href="https://msdn.microsoft.com/ea08e599-5d4a-4919-abed-c35fe0977f3f">ITaskSettings2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itasksettings2">ITaskSettings2</a>
 
 
 
-<a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
  
 
  

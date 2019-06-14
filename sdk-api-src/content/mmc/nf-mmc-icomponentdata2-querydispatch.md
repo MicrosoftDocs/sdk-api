@@ -51,9 +51,9 @@ ms.custom: 19H1
 
 The 
 <b>QueryDispatch</b> method returns the snap-in's <b>IDispatch</b> interface for a specified item. MMC exposes this interface through the 
-<a href="https://msdn.microsoft.com/eb7c92e7-d834-4736-bff4-74940c9bb194">MMC 2.0 Automation object model</a>. Script, or other applications, can access the <b>IDispatch</b> interface for the item represented by the specified cookie through the 
-<a href="https://msdn.microsoft.com/340ab6d0-e674-438a-9c84-87dcb274ae6a">View.SnapinScopeObject</a> and 
-<a href="https://msdn.microsoft.com/f29347ab-9339-4e77-95a7-c9fb7992e676">View.SnapinSelectionObject</a> methods.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmc-2-0-automation-object-model">MMC 2.0 Automation object model</a>. Script, or other applications, can access the <b>IDispatch</b> interface for the item represented by the specified cookie through the 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/view-snapinscopeobject">View.SnapinScopeObject</a> and 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/view-snapinselectionobject">View.SnapinSelectionObject</a> methods.
 
 
 ## -parameters
@@ -103,11 +103,11 @@ If successful, the return value is S_OK. Other return values indicate an error c
 
 
 
-<a href="https://msdn.microsoft.com/340ab6d0-e674-438a-9c84-87dcb274ae6a">View.SnapinScopeObject</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/view-snapinscopeobject">View.SnapinScopeObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/f29347ab-9339-4e77-95a7-c9fb7992e676">View.SnapinSelectionObject</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/view-snapinselectionobject">View.SnapinSelectionObject</a>
  
 
  

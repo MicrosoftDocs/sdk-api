@@ -81,11 +81,11 @@ The output is a custom frame rate.
 
 
 
-<a href="https://msdn.microsoft.com/40061AD1-BCD9-4170-A442-34B4C792BB55">Direct3D 11 Video Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-enumerations">Direct3D 11 Video Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/D353F6E8-B465-46CB-AA47-8B097AB4AF2A">ID3D11VideoContext::VideoProcessorSetStreamOutputRate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetstreamoutputrate">ID3D11VideoContext::VideoProcessorSetStreamOutputRate</a>
  
 
  

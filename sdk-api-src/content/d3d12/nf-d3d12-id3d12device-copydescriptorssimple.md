@@ -60,7 +60,7 @@ Copies descriptors from a source to a destination.
 
 ### -param NumDescriptors [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The number of descriptors to copy.
           
@@ -68,7 +68,7 @@ The number of descriptors to copy.
 
 ### -param DestDescriptorRangeStart [in]
 
-Type: <b><a href="https://msdn.microsoft.com/92451E4C-5E70-4015-8760-3F75066A44FD">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
 
 A CPU_descriptor_handle that describes the destination descriptors to start to copy to.
           
@@ -76,7 +76,7 @@ A CPU_descriptor_handle that describes the destination descriptors to start to c
 
 ### -param SrcDescriptorRangeStart [in]
 
-Type: <b><a href="https://msdn.microsoft.com/92451E4C-5E70-4015-8760-3F75066A44FD">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
 
 A CPU_descriptor_handle that describes the source descriptors to start to copy from.
           
@@ -84,9 +84,9 @@ A CPU_descriptor_handle that describes the source descriptors to start to copy f
 
 ### -param DescriptorHeapsType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/E74C78BC-B0FC-473A-B4F3-434F50A55E9F">D3D12_DESCRIPTOR_HEAP_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_heap_type">D3D12_DESCRIPTOR_HEAP_TYPE</a></b>
 
-The <a href="https://msdn.microsoft.com/E74C78BC-B0FC-473A-B4F3-434F50A55E9F">D3D12_DESCRIPTOR_HEAP_TYPE</a>-typed value that specifies the type of descriptor heap to copy with.
+The <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_heap_type">D3D12_DESCRIPTOR_HEAP_TYPE</a>-typed value that specifies the type of descriptor heap to copy with.
           
 
 
@@ -105,11 +105,11 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/65AE4D96-6221-46B5-BF55-F86479FCF97C">Copying Descriptors</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/copying-descriptors">Copying Descriptors</a>
 
 
 
-<a href="https://msdn.microsoft.com/D32B3397-A1E0-48AF-9251-2EDA96261A9F">ID3D12Device</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>
  
 
  

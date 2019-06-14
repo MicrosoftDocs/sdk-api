@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/4043a85f-ebdc-424c-acf5-9097d1472773">Windows Firewall API</a>.]
+<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 The 
 <b>get_SharingConnectionType</b> method determines the type of sharing that is enabled on this connection.
@@ -63,7 +63,7 @@ The
 ### -param pType [out]
 
 Pointer to a variable of type 
-<a href="https://msdn.microsoft.com/97409190-55b3-412f-b654-e5b27928a4c3">SHARINGCONNECTIONTYPE</a> that specifies whether this connection is shared publicly or privately.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/ne-netcon-tagsharingconnectiontype">SHARINGCONNECTIONTYPE</a> that specifies whether this connection is shared publicly or privately.
 
 
 ## -returns
@@ -178,11 +178,11 @@ The method failed for unknown reasons.
 
 
 To determine whether connection sharing is supported on the currently-installed operating system, use 
-<a href="https://msdn.microsoft.com/7cf705dd-41c3-4ac7-a75f-5677a7b49645">INetSharingManager::get_SharingInstalled</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingmanager-get_sharinginstalled">INetSharingManager::get_SharingInstalled</a>.
 
 Use the 
-<a href="https://msdn.microsoft.com/8f774509-0efb-49e5-bf56-61f4810631bd">INetSharingManager::get_INetSharingConfigurationForINetConnection</a> method to obtain an 
-<a href="https://msdn.microsoft.com/3ed1a3ae-87af-4415-b149-c66ae65cd053">INetSharingConfiguration</a> interface for a particular connection.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingmanager-get_inetsharingconfigurationforinetconnection">INetSharingManager::get_INetSharingConfigurationForINetConnection</a> method to obtain an 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingconfiguration">INetSharingConfiguration</a> interface for a particular connection.
 
 
 
@@ -192,27 +192,27 @@ Use the
 
 
 
-<a href="https://msdn.microsoft.com/3ed1a3ae-87af-4415-b149-c66ae65cd053">INetSharingConfiguration</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingconfiguration">INetSharingConfiguration</a>
 
 
 
-<a href="https://msdn.microsoft.com/85fda578-603c-4447-8546-374077235943">INetSharingConfiguration::DisableSharing</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingconfiguration-disablesharing">INetSharingConfiguration::DisableSharing</a>
 
 
 
-<a href="https://msdn.microsoft.com/40b2a2ff-50f4-484c-bf79-ae99a348644f">INetSharingConfiguration::EnableSharing</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netcon/nf-netcon-inetsharingconfiguration-enablesharing">INetSharingConfiguration::EnableSharing</a>
 
 
 
-<a href="https://msdn.microsoft.com/dfef918e-9abf-4ac2-8365-28cd5b249add">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-interfaces">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/7ab18626-adc9-450c-a2b8-723d2c839a7b">Internet Connection Sharing and Internet Connection Firewall Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/97409190-55b3-412f-b654-e5b27928a4c3">SHARINGCONNECTIONTYPE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/ne-netcon-tagsharingconnectiontype">SHARINGCONNECTIONTYPE</a>
  
 
  

@@ -59,9 +59,9 @@ Retrieves a conflict items array.
 
 ### -param ppArray [out]
 
-Type: <b><a href="https://msdn.microsoft.com/1dea310d-137b-4180-99c9-e40cd4fa3a98">ISyncMgrConflictItems</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrconflictitems">ISyncMgrConflictItems</a>**</b>
 
-The address of a pointer to an <a href="https://msdn.microsoft.com/1dea310d-137b-4180-99c9-e40cd4fa3a98">ISyncMgrConflictItems</a> array.
+The address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrconflictitems">ISyncMgrConflictItems</a> array.
 
 
 ## -returns

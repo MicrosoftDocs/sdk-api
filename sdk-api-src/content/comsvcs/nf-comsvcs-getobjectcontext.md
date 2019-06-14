@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Retrieves a reference to the context that is associated with the current COM+ object.
 
-For similar functionality, see <a href="https://msdn.microsoft.com/7e2edb2f-ca86-4636-aaad-7b00335065df">IMTxAS::GetObjectContext</a>.
+For similar functionality, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683405(v=vs.85)">IMTxAS::GetObjectContext</a>.
 
 
 ## -parameters
@@ -61,18 +61,18 @@ For similar functionality, see <a href="https://msdn.microsoft.com/7e2edb2f-ca86
 
 ### -param ppIOC [out]
 
-A reference to <a href="https://msdn.microsoft.com/9395bc9a-dfe5-428a-839f-1c4ad090f636">IObjectContext</a> on the object's context. If the object's component has not been imported into an MTS package or if the <b>GetObjectContext</b> function is called from a constructor or an <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> method, this parameter is set to a <b>NULL</b> pointer.
+A reference to <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontext">IObjectContext</a> on the object's context. If the object's component has not been imported into an MTS package or if the <b>GetObjectContext</b> function is called from a constructor or an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> method, this parameter is set to a <b>NULL</b> pointer.
 
 
 ## -remarks
 
 
 
-An object's context is not accessible from an object's constructor or from any <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> method.
+An object's context is not accessible from an object's constructor or from any <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> method.
 
-An object should never attempt to pass its <a href="https://msdn.microsoft.com/9395bc9a-dfe5-428a-839f-1c4ad090f636">IObjectContext</a> reference to another object. If you pass an <b>IObjectContext</b> reference to another object, it is no longer a valid reference.
+An object should never attempt to pass its <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontext">IObjectContext</a> reference to another object. If you pass an <b>IObjectContext</b> reference to another object, it is no longer a valid reference.
 
-When an object obtains a reference to its <a href="https://msdn.microsoft.com/9395bc9a-dfe5-428a-839f-1c4ad090f636">IObjectContext</a>, it must release the <b>IObjectContext</b> object when it is finished with it.
+When an object obtains a reference to its <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontext">IObjectContext</a>, it must release the <b>IObjectContext</b> object when it is finished with it.
 
 
 
@@ -82,15 +82,15 @@ When an object obtains a reference to its <a href="https://msdn.microsoft.com/93
 
 
 
-<a href="https://msdn.microsoft.com/50ccf75e-2652-4254-a771-af83cc9248b3">COM+ Contexts and Threading Models</a>
+<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--contexts-and-threading-models">COM+ Contexts and Threading Models</a>
 
 
 
-<a href="https://msdn.microsoft.com/7e2edb2f-ca86-4636-aaad-7b00335065df">IMTxAS::GetObjectContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683405(v=vs.85)">IMTxAS::GetObjectContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/9395bc9a-dfe5-428a-839f-1c4ad090f636">IObjectContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontext">IObjectContext</a>
  
 
  

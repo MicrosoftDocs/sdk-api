@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ITfFunction</b> interface is the base interface for the individual function interfaces. This interface is implemented by the provider of the function object and used by any component to obtain the display name of the function object. Instances of this interface are not obtained directly. This interface is always part of a derived interface, such as <a href="https://msdn.microsoft.com/d5d60767-95f3-4ed0-b61e-58e06d1e1a98">ITfFnShowHelp</a>.
+The <b>ITfFunction</b> interface is the base interface for the individual function interfaces. This interface is implemented by the provider of the function object and used by any component to obtain the display name of the function object. Instances of this interface are not obtained directly. This interface is always part of a derived interface, such as <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itffnshowhelp">ITfFnShowHelp</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFunction</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfFunction</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFunction</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfFunction</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfFunction</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/da52ca6d-9606-45c5-8db9-c876c827df14">GetDisplayName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itffunction-getdisplayname">GetDisplayName</a>
 </td>
 <td align="left" width="63%">
 Obtains the function display name.
@@ -84,12 +84,12 @@ Obtains the function display name.
 
 
 
-<a href="https://msdn.microsoft.com/d5d60767-95f3-4ed0-b61e-58e06d1e1a98">ITfFnShowHelp
+<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itffnshowhelp">ITfFnShowHelp
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Forces the pager control to recalculate the size of the contained window. Using this macro will result in a <a href="https://msdn.microsoft.com/en-us/library/Bb760864(v=VS.85).aspx">PGN_CALCSIZE</a> notification being sent. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760876(v=VS.85).aspx">PGM_RECALCSIZE</a> message explicitly. 
+Forces the pager control to recalculate the size of the contained window. Using this macro will result in a <a href="https://docs.microsoft.com/windows/desktop/Controls/pgn-calcsize">PGN_CALCSIZE</a> notification being sent. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/pgm-recalcsize">PGM_RECALCSIZE</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Forces the pager control to recalculate the size of the contained window. Using 
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the pager control. 
 

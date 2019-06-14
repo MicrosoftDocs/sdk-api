@@ -61,9 +61,9 @@ Gets the XML markup of an application-specific <b>Object</b> element.
 
 A pointer to a buffer that contains the XML markup of an <b>Object</b> element and includes the opening and closing <b>Object</b> tags.
 
-In the buffer, XML markup is preceded by a <a href="https://msdn.microsoft.com/library/ms776429(v=VS.85).aspx">byte order mark</a> that corresponds to the encoding of the markup.
+In the buffer, XML markup is preceded by a <a href="https://docs.microsoft.com/previous-versions//ms776429(v=vs.85)">byte order mark</a> that corresponds to the encoding of the markup.
 
-Supported encodings and <a href="https://msdn.microsoft.com/library/ms776429(v=VS.85).aspx">byte order mark</a> values.<table>
+Supported encodings and <a href="https://docs.microsoft.com/previous-versions//ms776429(v=vs.85)">byte order mark</a> values.<table>
 <tr>
 <th>Encoding</th>
 <th>Description</th>
@@ -89,7 +89,7 @@ Supported encodings and <a href="https://msdn.microsoft.com/library/ms776429(v=V
 
 
 
-For an example of a buffer with a <a href="https://msdn.microsoft.com/library/ms776429(v=VS.85).aspx">byte order mark</a>, see the Remarks section.
+For an example of a buffer with a <a href="https://docs.microsoft.com/previous-versions//ms776429(v=vs.85)">byte order mark</a>, see the Remarks section.
 
 
 ### -param count [out]
@@ -140,15 +140,15 @@ The method succeeded.
 
 
 
-This method allocates memory used by the buffer returned in <i>xmlMarkup</i>.  If the method succeeds, call the <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> function to free the memory.
+This method allocates memory used by the buffer returned in <i>xmlMarkup</i>.  If the method succeeds, call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free the memory.
 
 Serialized application-specific <b>Object</b> elements in signature markup can be added, removed, or modified by replacing the signature markup.
 
-To replace signature markup, call the <a href="https://msdn.microsoft.com/cacd0ccf-0cb9-41dc-a944-74db8254fd95">IOpcDigitalSignatureManager::ReplaceSignatureXml</a> method. The caller must ensure that addition, deletion, or modification of application-specific <b>Object</b> elements does not break the signature.
+To replace signature markup, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcdigitalsignaturemanager-replacesignaturexml">IOpcDigitalSignatureManager::ReplaceSignatureXml</a> method. The caller must ensure that addition, deletion, or modification of application-specific <b>Object</b> elements does not break the signature.
 
-To sign an application-specific  <b>Object</b> element or a child of that element, create a reference to the XML element to be signed. Create the reference by calling the <a href="https://msdn.microsoft.com/5e943769-a043-4354-80e7-d471a1dbde7a">IOpcSignatureReferenceSet::Create</a> method with the <i>referenceUri</i> parameter value set to "#" followed by the <b>Id</b> attribute value  of the referenced element. For example, if the <b>Id</b> attribute of the referenced element is "Application",  set <i>referenceUri</i> to "#Application".
+To sign an application-specific  <b>Object</b> element or a child of that element, create a reference to the XML element to be signed. Create the reference by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsignaturereferenceset-create">IOpcSignatureReferenceSet::Create</a> method with the <i>referenceUri</i> parameter value set to "#" followed by the <b>Id</b> attribute value  of the referenced element. For example, if the <b>Id</b> attribute of the referenced element is "Application",  set <i>referenceUri</i> to "#Application".
 
-The following table shows a <a href="https://msdn.microsoft.com/library/ms776429(v=VS.85).aspx">byte order mark</a> at the beginning of an <i>xmlMarkup</i> buffer that contains "&lt;Object Id="id1"&gt;&lt;/Object&gt;":
+The following table shows a <a href="https://docs.microsoft.com/previous-versions//ms776429(v=vs.85)">byte order mark</a> at the beginning of an <i>xmlMarkup</i> buffer that contains "&lt;Object Id="id1"&gt;&lt;/Object&gt;":
 		
 
 <table>
@@ -196,7 +196,7 @@ The following table shows a <a href="https://msdn.microsoft.com/library/ms776429
 
 Packaging objects are not thread-safe.
 
-For more information, see the <a href="https://msdn.microsoft.com/ef392c88-49cd-4ffa-b1fb-1501c6448264">Getting Started with the Packaging API</a>.
+For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
 
 
@@ -206,23 +206,23 @@ For more information, see the <a href="https://msdn.microsoft.com/ef392c88-49cd-
 
 
 
-<a href="https://msdn.microsoft.com/62069595-0d1e-44e5-b68d-2bb0c355c565">Core Packaging Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/ef392c88-49cd-4ffa-b1fb-1501c6448264">Getting Started with the Packaging API</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
 
 
 
-<a href="https://msdn.microsoft.com/13e8a7b9-1d25-421b-bc81-adc495e6d9c7">IOpcDigitalSignatureManager</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcdigitalsignaturemanager">IOpcDigitalSignatureManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ebb4fbe-66cc-46d9-b548-31177d9f6da9">IOpcSignatureCustomObject</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsignaturecustomobject">IOpcSignatureCustomObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/7955ac86-de6e-4911-a107-a1617c14e685">IOpcSignatureReferenceSet</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsignaturereferenceset">IOpcSignatureReferenceSet</a>
 
 
 
@@ -230,23 +230,23 @@ For more information, see the <a href="https://msdn.microsoft.com/ef392c88-49cd-
 
 
 
-<a href="https://msdn.microsoft.com/cb35d87e-bbec-42d3-9f9d-d1cf36f39419">Packaging API Programming Guide</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-guide">Packaging API Programming Guide</a>
 
 
 
-<a href="https://msdn.microsoft.com/7ab1cc09-ce81-4f56-8adf-d8c95bf2c4cd">Packaging API Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-reference">Packaging API Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/885137be-35d5-4ec5-bbcc-16c95adf55ab">Packaging API Samples</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-samples">Packaging API Samples</a>
 
 
 
-<a href="https://msdn.microsoft.com/76455a88-81be-45d9-a682-2ba43038b43f">Packaging Digital Signature Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-digital-signature-interfaces">Packaging Digital Signature Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0e9f38f-ab35-4fc2-855c-ea21bf164223">Packaging Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd371635(v=vs.85)">Packaging Interfaces</a>
 
 
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Calculates the sector-aligned reservation size for a set of reserved records.  This value is then passed to <a href="https://msdn.microsoft.com/5e464b64-4617-4fbd-97cd-3c2db8f151b2">AllocReservedLog</a> to reserve a block of log space for a set of records.
+Calculates the sector-aligned reservation size for a set of reserved records.  This value is then passed to <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-allocreservedlog">AllocReservedLog</a> to reserve a block of log space for a set of records.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Calculates the sector-aligned reservation size for a set of reserved records.  T
 
 ### -param pvMarshal [in, out]
 
-A pointer to the opaque marshaling context that is allocated by calling the <a href="https://msdn.microsoft.com/750c0615-bfac-402b-a590-6c9d800cf2d8">CreateLogMarshallingArea</a> function.
+A pointer to the opaque marshaling context that is allocated by calling the <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogmarshallingarea">CreateLogMarshallingArea</a> function.
 
 
 ### -param cReservedRecords [in]
@@ -78,7 +78,7 @@ The number of allocations corresponds to the number of records  that  <i>cReserv
 
 A pointer to a variable in which the function returns the number of   sector-aligned byte space to be reserved in the log—after being given the number of records  that  <i>cRecords</i> specifies and the size of reservations specified in the <i>rgcbReservation</i> array.
 
-  The value returned in <i>*pcbAlignReservation</i> is used as input to <a href="https://msdn.microsoft.com/5e464b64-4617-4fbd-97cd-3c2db8f151b2">AllocReservedLog</a>. If  <b>AllocReservedLog</b> succeeds, this value is always greater than zero (0).  If <b>AllocReservedLog</b> fails, the value is zero (0).
+  The value returned in <i>*pcbAlignReservation</i> is used as input to <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-allocreservedlog">AllocReservedLog</a>. If  <b>AllocReservedLog</b> succeeds, this value is always greater than zero (0).  If <b>AllocReservedLog</b> fails, the value is zero (0).
 
 
 ## -returns
@@ -89,7 +89,7 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero (0). To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. The following  list identifies the possible error codes:
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following  list identifies the possible error codes:
 
 
 
@@ -99,11 +99,11 @@ If the function fails, the return value is zero (0). To get extended error infor
 
 
 
-<a href="https://msdn.microsoft.com/5e464b64-4617-4fbd-97cd-3c2db8f151b2">AllocReservedLog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-allocreservedlog">AllocReservedLog</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3059828-d291-493d-a4fe-13d06e49ed12">Common Log File System Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
  
 
  

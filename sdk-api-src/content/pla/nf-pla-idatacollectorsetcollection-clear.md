@@ -73,11 +73,11 @@ Returns S_OK if successful.
 
 
 
-<a href="https://msdn.microsoft.com/5f4cc411-1efb-4f70-a677-3c20d95f0c53">IDataCollectorSetCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorsetcollection">IDataCollectorSetCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/6200dac0-8817-4d59-9456-67921bcf15ae">IDataCollectorSetCollection::Remove</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorsetcollection-remove">IDataCollectorSetCollection::Remove</a>
  
 
  

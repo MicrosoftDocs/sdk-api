@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns the number of  <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a802-8f7bdbb11b90">cluster objects</a> associated with a  <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a> enumeration handle.
+Returns the number of  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">cluster objects</a> associated with a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a> enumeration handle.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Returns the number of  <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a8
 
 ### -param hNodeEnum [in]
 
-Handle to a node enumeration. This handle is obtained from  <a href="https://msdn.microsoft.com/f187f4d7-24c8-477d-91fc-0ef738b66f22">ClusterNodeOpenEnum</a>. A valid handle is required. This parameter cannot be <b>NULL</b>.
+Handle to a node enumeration. This handle is obtained from  <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternodeopenenum">ClusterNodeOpenEnum</a>. A valid handle is required. This parameter cannot be <b>NULL</b>.
 
 
 ## -returns

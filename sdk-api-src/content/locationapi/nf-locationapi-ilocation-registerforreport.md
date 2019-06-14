@@ -62,7 +62,7 @@ Requests location report events.
 
 ### -param pEvents [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/5281ae0f-8599-4f84-a3f3-cde8c69e893d">ILocationEvents</a> callback interface through which the requested event notifications will be received. 
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilocationevents">ILocationEvents</a> callback interface through which the requested event notifications will be received. 
 
 
 ### -param reportType [in]
@@ -131,9 +131,9 @@ The method succeeded.
 
 The interval you request by using the <i>dwRequestedReportInterval</i> parameter represents the shortest amount of time between events. This means that you request to receive event notifications no more frequently than specified, but the elapsed time may be significantly longer. Use the <i>dwRequestedReportInterval</i> parameter to help ensure that event notifications do not use more processor resources than necessary.
 
-The location provider is not required to provide reports at the interval that you request. Call <a href="https://msdn.microsoft.com/c7bcd665-317c-428a-aa20-0d09c8d7a813">GetReportInterval</a> to discover the true report interval setting.
+The location provider is not required to provide reports at the interval that you request. Call <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocation-getreportinterval">GetReportInterval</a> to discover the true report interval setting.
 
-Applications that need to get location data only once, to fill out a form or place the user's location on a map, should register for events and wait for the first report event as described in <a href="https://msdn.microsoft.com/37485532-04f4-4d31-92a4-90545b12e59c">Waiting For a Location Report</a>.
+Applications that need to get location data only once, to fill out a form or place the user's location on a map, should register for events and wait for the first report event as described in <a href="https://docs.microsoft.com/previous-versions/visualstudio">Waiting For a Location Report</a>.
 
 
 #### Examples
@@ -224,11 +224,11 @@ int wmain()
 
 
 
-<a href="https://msdn.microsoft.com/beeedbbd-df93-4c05-a215-4cfd14e03076">ILocation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilocation">ILocation</a>
 
 
 
-<a href="https://msdn.microsoft.com/5281ae0f-8599-4f84-a3f3-cde8c69e893d">ILocationEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilocationevents">ILocationEvents</a>
  
 
  

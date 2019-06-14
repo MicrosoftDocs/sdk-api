@@ -72,7 +72,7 @@ A null-terminated wide character string containing the component (managed by the
 ### -param onWriterId [in]
 
 The class ID or 
-<a href="https://msdn.microsoft.com/e64b36d6-4f10-42bd-9ad4-00aba90e9715">VSS_ID</a> (GUID) of the writer managing the component on which the current component depends.
+<a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_ID</a> (GUID) of the writer managing the component on which the current component depends.
 
 
 ### -param wszOnLogicalPath [in]
@@ -137,7 +137,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more information, see 
-<a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+<a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -160,7 +160,7 @@ The component specified by <i>wszForLogicalPath</i> and <i>wszForComponentName</
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -182,7 +182,7 @@ A dependency requires that both the target of the dependency and the component t
 
 Because the combination of logical name and component name must be unique across all instances of a writer class, the fact that several writers may have the same class ID is not a problem.
 
-This method can be used to declare remote dependencies. A writer can declare a remote dependency by prepending "\\<i>RemoteComputerName</i>\", where <i>RemoteComputerName</i> is the name of the computer where the remote component resides, to the logical path in the <i>wszOnLogicalPath</i> parameter. The value of <i>RemoteComputerName</i> can be an IP address or a computer name returned by the <a href="https://msdn.microsoft.com/eae3f75d-7ec7-42ae-b207-e3ebaa33346e">GetComputerNameEx</a> function.
+This method can be used to declare remote dependencies. A writer can declare a remote dependency by prepending "\\<i>RemoteComputerName</i>\", where <i>RemoteComputerName</i> is the name of the computer where the remote component resides, to the logical path in the <i>wszOnLogicalPath</i> parameter. The value of <i>RemoteComputerName</i> can be an IP address or a computer name returned by the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getcomputernameexa">GetComputerNameEx</a> function.
 
 If the remote component resides on a cluster, the writer must report the virtual name for the cluster, and it is the requester's responsibility to map the virtual name to the physical name of a cluster node before a volume shadow copy can be created.
 

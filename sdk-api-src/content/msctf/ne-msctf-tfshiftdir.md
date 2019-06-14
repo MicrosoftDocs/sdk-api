@@ -72,12 +72,12 @@ Specifies that the anchor will be moved to the region immediately following the 
 
 
 
-<a href="https://msdn.microsoft.com/cda2282f-3d3c-4763-9892-b889b29963a6">ITfRange::ShiftEndRegion
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-shiftendregion">ITfRange::ShiftEndRegion
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/6e16112a-0cfe-41be-9d9c-4cbcde898c3f">ITfRange::ShiftStartRegion
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-shiftstartregion">ITfRange::ShiftStartRegion
       </a>
  
 

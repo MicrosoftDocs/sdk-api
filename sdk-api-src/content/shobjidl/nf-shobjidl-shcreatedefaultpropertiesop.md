@@ -59,16 +59,16 @@ Creates a file operation that sets the default properties on the Shell item that
 
 ### -param psi [in]
 
-Type: <b><a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
-A pointer to the source shell item. See <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>.
+A pointer to the source shell item. See <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>.
 
 
 ### -param ppFileOp [out]
 
-Type: <b><a href="https://msdn.microsoft.com/6596607e-0699-4eb6-b0d6-7cc2e5eb49c7">IFileOperation</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation">IFileOperation</a>**</b>
 
-The address of the <a href="https://msdn.microsoft.com/6596607e-0699-4eb6-b0d6-7cc2e5eb49c7">IFileOperation</a> interface pointer.
+The address of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation">IFileOperation</a> interface pointer.
 
 
 ## -returns
@@ -86,7 +86,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-The list of properties to set a default value comes from the <b>SetDefaultsFor</b> registry entry under the ProgID for the file association of the item. The list is prefixed by <code>prop:</code> and contains the canonical names of the properties to set the default value, for example, <code>prop:System.Author;System.Document.DateCreated</code>. The possible properties for this list are <a href="https://msdn.microsoft.com/07a411c2-9e88-4d14-b9f7-e3a5d8d1630e">System.Author</a>, <a href="https://msdn.microsoft.com/00d8faa6-6b9c-4981-aeb1-17f8f14b1926">System.Document.DateCreated</a>, and <a href="https://msdn.microsoft.com/197fb739-7fe6-47e8-908f-54e75cb47ec4">System.Photo.DateTaken</a>. If the <b>SetDefaultsFor</b> entry does not exist on the ProgID, this function uses the default found on the <b>SetDefaultsFor</b> entry of <b>HKEY_CLASSES_ROOT</b>\<b>*</b>.
+The list of properties to set a default value comes from the <b>SetDefaultsFor</b> registry entry under the ProgID for the file association of the item. The list is prefixed by <code>prop:</code> and contains the canonical names of the properties to set the default value, for example, <code>prop:System.Author;System.Document.DateCreated</code>. The possible properties for this list are <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-author">System.Author</a>, <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-document-datecreated">System.Document.DateCreated</a>, and <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-photo-datetaken">System.Photo.DateTaken</a>. If the <b>SetDefaultsFor</b> entry does not exist on the ProgID, this function uses the default found on the <b>SetDefaultsFor</b> entry of <b>HKEY_CLASSES_ROOT</b>\<b>*</b>.
 
 
 

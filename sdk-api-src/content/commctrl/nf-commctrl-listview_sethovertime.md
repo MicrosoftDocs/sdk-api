@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the amount of time that the mouse cursor must hover over an item before it is selected. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761174(v=VS.85).aspx">LVM_SETHOVERTIME</a> message explicitly. 
+Sets the amount of time that the mouse cursor must hover over an item before it is selected. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-sethovertime">LVM_SETHOVERTIME</a> message explicitly. 
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Sets the amount of time that the mouse cursor must hover over an item before it 
 
 ### -param hwndLV
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a list-view control. 
 
 
 ### -param dwHoverTimeMs
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 The new amount of time, in milliseconds, that the mouse cursor must hover over an item before it is selected. If this value is (<b>DWORD</b>)-1, then the hover time is set to the default hover time. 
 
@@ -75,7 +75,7 @@ The new amount of time, in milliseconds, that the mouse cursor must hover over a
 
 
 
-The hover time only affects list-view controls that have the <a href="https://msdn.microsoft.com/en-us/library/Bb774732(v=VS.85).aspx">LVS_EX_TRACKSELECT</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb774732(v=VS.85).aspx">LVS_EX_ONECLICKACTIVATE</a>, or <a href="https://msdn.microsoft.com/en-us/library/Bb774732(v=VS.85).aspx">LVS_EX_TWOCLICKACTIVATE</a> extended list-view style. 
+The hover time only affects list-view controls that have the <a href="https://docs.microsoft.com/windows/desktop/Controls/extended-list-view-styles">LVS_EX_TRACKSELECT</a>, <a href="https://docs.microsoft.com/windows/desktop/Controls/extended-list-view-styles">LVS_EX_ONECLICKACTIVATE</a>, or <a href="https://docs.microsoft.com/windows/desktop/Controls/extended-list-view-styles">LVS_EX_TWOCLICKACTIVATE</a> extended list-view style. 
 
 
 

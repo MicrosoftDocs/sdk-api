@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>StringFormat::GetMeasurableCharacterRangeCount</b> method gets the number of measurable character ranges that are currently set. The character ranges that are set can be measured in a string by using the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms535796(v=VS.85).aspx">MeasureCharacterRanges</a> method.
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-measurecharacterranges">MeasureCharacterRanges</a> method.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ The <b>StringFormat::GetMeasurableCharacterRangeCount</b> method gets the number
 Type: <strong>Type: <b>INT</b>
 </strong>
 
-This method returns an integer that indicates the number of character ranges that can be measured by <a href="https://msdn.microsoft.com/en-us/library/ms535796(v=VS.85).aspx">MeasureCharacterRanges</a>.
+This method returns an integer that indicates the number of character ranges that can be measured by <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-measurecharacterranges">MeasureCharacterRanges</a>.
 
 
 
@@ -78,15 +78,15 @@ This method returns an integer that indicates the number of character ranges tha
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535796(v=VS.85).aspx">MeasureCharacterRanges</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-measurecharacterranges">MeasureCharacterRanges</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534729(v=VS.85).aspx">StringFormat::SetMeasurableCharacterRanges</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-setmeasurablecharacterranges">StringFormat::SetMeasurableCharacterRanges</a>
  
 
  

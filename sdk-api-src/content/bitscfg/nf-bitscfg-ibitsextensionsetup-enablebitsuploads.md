@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Use the 
 <b>EnableBITSUploads</b> method to enable BITS upload on the virtual directory to which the ADSI object points. This method sets the 
-<a href="https://msdn.microsoft.com/08a40cc1-ec6d-4b65-971a-15c7b06df148">BITSUploadEnabled</a> IIS extension property.
+<a href="https://docs.microsoft.com/windows/desktop/Bits/bits-iis-extension-properties">BITSUploadEnabled</a> IIS extension property.
 
 
 ## -parameters
@@ -77,13 +77,13 @@ This method returns <b>S_OK</b> for success. Otherwise, the method failed.
 This method turns off the scripting and execute permissions on the virtual directory; you cannot upload files to a virtual directory that has scripting and execute permissions enabled. If the permissions are restored after calling this method, the upload jobs fail with an error code of <b>BG_E_SERVER_EXECUTE_ENABLED</b>.
 
 The 
-<b>EnableBITSUploads</b> method fails if the <a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a> is disabled.
+<b>EnableBITSUploads</b> method fails if the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a> is disabled.
 
 
 #### Examples
 
 See the example for the 
-<a href="https://msdn.microsoft.com/840608ef-9c07-43f7-9cfd-20996a18bb50">IBITSExtensionSetup</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/bitscfg/nn-bitscfg-ibitsextensionsetup">IBITSExtensionSetup</a> interface.
 
 <div class="code"></div>
 
@@ -94,7 +94,7 @@ See the example for the
 
 
 
-<a href="https://msdn.microsoft.com/3d439054-a751-4f63-9e82-223d1ce9c551">IBITSExtensionSetup::DisableBITSUploads</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bitscfg/nf-bitscfg-ibitsextensionsetup-disablebitsuploads">IBITSExtensionSetup::DisableBITSUploads</a>
  
 
  

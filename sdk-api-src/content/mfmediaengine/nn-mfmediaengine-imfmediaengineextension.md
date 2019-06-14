@@ -54,7 +54,7 @@ Enables an application to load media resources in the Media Engine.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaEngineExtension</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFMediaEngineExtension</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaEngineExtension</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaEngineExtension</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFMediaEngineExtension</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/804E9F16-E4C9-41F6-8913-950A569FB835">BeginCreateObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineextension-begincreateobject">BeginCreateObject</a>
 </td>
 <td align="left" width="63%">
 Begins an asynchronous request to create either a byte stream or a media source.
@@ -78,7 +78,7 @@ Begins an asynchronous request to create either a byte stream or a media source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E2FEC865-221E-41B5-8271-32A53D60619E">CancelObjectCreation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineextension-cancelobjectcreation">CancelObjectCreation</a>
 </td>
 <td align="left" width="63%">
 Cancels the current request to create an object.
@@ -87,7 +87,7 @@ Cancels the current request to create an object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F715B4CB-363E-4EF2-962C-C0AFB26B088E">CanPlayType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineextension-canplaytype">CanPlayType</a>
 </td>
 <td align="left" width="63%">
 Queries whether the object can load a specified type of media resource.
@@ -96,7 +96,7 @@ Queries whether the object can load a specified type of media resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F2B19870-7529-4C8C-9FE6-B312F6A2D2ED">EndCreateObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineextension-endcreateobject">EndCreateObject</a>
 </td>
 <td align="left" width="63%">
 Completes an asynchronous request to create a byte stream or media source.
@@ -110,7 +110,7 @@ Completes an asynchronous request to create a byte stream or media source.
 
 
 
-To use this interface, set the <a href="https://msdn.microsoft.com/D2F3F41D-086A-4DEB-99D0-07574BC8F0D7">MF_MEDIA_ENGINE_EXTENSION</a> attribute when you call the <a href="https://msdn.microsoft.com/EDEAD2C4-5695-4E63-9E9E-B09D75B60B7F">IMFMediaEngineClassFactory::CreateInstance</a> method.
+To use this interface, set the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-media-engine-extension">MF_MEDIA_ENGINE_EXTENSION</a> attribute when you call the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineclassfactory-createinstance">IMFMediaEngineClassFactory::CreateInstance</a> method.
 
 
 
@@ -120,7 +120,7 @@ To use this interface, set the <a href="https://msdn.microsoft.com/D2F3F41D-086A
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

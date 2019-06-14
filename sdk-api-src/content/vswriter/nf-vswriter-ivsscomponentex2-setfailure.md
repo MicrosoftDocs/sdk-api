@@ -59,7 +59,7 @@ VSS writers call this method to report errors at the component level.
 
 ### -param hr [in]
 
-The error code to be returned to the requester that calls the <a href="https://msdn.microsoft.com/a5d739d3-9169-4b25-a590-35703e77dacc">IVssComponentEx2::GetFailure</a> method. 
+The error code to be returned to the requester that calls the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex2-getfailure">IVssComponentEx2::GetFailure</a> method. 
       
 
 The following are the error codes that this method can set.
@@ -132,7 +132,7 @@ The writer failed due to an error that would likely not occur if the entire back
 <td width="60%">
 The writer operation failed because of an error that might recur if another shadow copy is created. For 
         more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -168,9 +168,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-In addition to calling this method,  use the <a href="https://msdn.microsoft.com/c049a016-6546-4e72-90e8-46be8c2f7764">CVssWriterEx2::SetWriterFailureEx</a> method to report that a partial writer failure has occurred.
+In addition to calling this method,  use the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex2-setwriterfailureex">CVssWriterEx2::SetWriterFailureEx</a> method to report that a partial writer failure has occurred.
 
-This method cannot be called from <a href="https://msdn.microsoft.com/542d479a-695a-4b1f-94e7-f2ffa08440b7">CVssWriter::OnIdentify</a> or <a href="https://msdn.microsoft.com/4cb3b8f6-f702-4fba-a3cc-af84897cfd82">CVssWriterEx::OnIdentifyEx</a>.
+This method cannot be called from <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onidentify">CVssWriter::OnIdentify</a> or <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex-onidentifyex">CVssWriterEx::OnIdentifyEx</a>.
 
 
 
@@ -180,7 +180,7 @@ This method cannot be called from <a href="https://msdn.microsoft.com/542d479a-6
 
 
 
-<a href="https://msdn.microsoft.com/f40705bf-46a9-464d-a545-1d68d89876c2">IVssComponentEx2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponentex2">IVssComponentEx2</a>
  
 
  

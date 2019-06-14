@@ -54,7 +54,7 @@ The <b>_IMathInputControlEvents</b> interface exposes the math input control eve
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">_IMathInputControlEvents</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>_IMathInputControlEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">_IMathInputControlEvents</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>_IMathInputControlEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>_IMathInputControlEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/06ff786c-5426-41c1-839e-9eb76ff9ef25">Clear</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd317350(v=vs.85)">Clear</a>
 </td>
 <td align="left" width="63%">
 Notifies the event handler when the <b>Clear</b> button is clicked.
@@ -78,7 +78,7 @@ Notifies the event handler when the <b>Clear</b> button is clicked.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7ffd6fce-9f1a-44c8-92c3-9064b54eb336">Close</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd317351(v=vs.85)">Close</a>
 </td>
 <td align="left" width="63%">
 Notifies the event handler when the <b>Close</b> button is clicked.
@@ -87,7 +87,7 @@ Notifies the event handler when the <b>Close</b> button is clicked.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e1d23958-a895-4dfb-ba90-ef5a4913ad7c">Insert</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd317352(v=vs.85)">Insert</a>
 </td>
 <td align="left" width="63%">
 Notifies the event handler when the <b>Insert</b> button is clicked.
@@ -96,7 +96,7 @@ Notifies the event handler when the <b>Insert</b> button is clicked.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d7a96c34-3f80-451f-88ba-f49de8acd0f1">Paint</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd317353(v=vs.85)">Paint</a>
 </td>
 <td align="left" width="63%">
 Notifies the event handler when the buttons and background of the control require painting.

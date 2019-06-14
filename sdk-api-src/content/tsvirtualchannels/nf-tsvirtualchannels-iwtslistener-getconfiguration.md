@@ -76,7 +76,7 @@ Returns <b>S_OK</b> if successful.
 
 
 
-<a href="https://msdn.microsoft.com/af0dda9a-0d18-4f44-ac13-0bf2b903d34e">IWTSListener</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtslistener">IWTSListener</a>
  
 
  

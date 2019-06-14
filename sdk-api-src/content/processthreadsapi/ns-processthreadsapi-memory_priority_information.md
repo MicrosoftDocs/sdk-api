@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the memory priority for a thread or process. This structure is used by the <a href="https://msdn.microsoft.com/2b075405-b7b6-4da0-b78d-45eaa9c6c8cd">GetProcessInformation</a>, <a href="https://msdn.microsoft.com/1739fadf-6b43-4b89-8a17-87d9867d5197">SetProcessInformation</a>, <a href="https://msdn.microsoft.com/b7996647-78ab-4f32-bcf6-41aa87d13bb8">GetThreadInformation</a>, and <a href="https://msdn.microsoft.com/c0159bea-870a-46b7-a350-91fe52efae49">SetThreadInformation</a> functions.
+Specifies the memory priority for a thread or process. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessinformation">GetProcessInformation</a>, <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessinformation">SetProcessInformation</a>, <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadinformation">GetThreadInformation</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadinformation">SetThreadInformation</a> functions.
 
 
 ## -struct-fields
@@ -129,7 +129,7 @@ Normal memory priority. This is the default priority for all threads and process
 
 
 
-The memory priority of a thread or process serves as a hint to the memory manager when it trims pages from the working set. Other factors being equal, pages with lower memory priority are trimmed before pages with higher memory priority. For more information, see <a href="https://msdn.microsoft.com/ff05276a-1d40-4844-b649-10e32e3f1937">Working Set</a>.
+The memory priority of a thread or process serves as a hint to the memory manager when it trims pages from the working set. Other factors being equal, pages with lower memory priority are trimmed before pages with higher memory priority. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Memory/working-set">Working Set</a>.
 
 
 
@@ -139,19 +139,19 @@ The memory priority of a thread or process serves as a hint to the memory manage
 
 
 
-<a href="https://msdn.microsoft.com/2b075405-b7b6-4da0-b78d-45eaa9c6c8cd">GetProcessInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessinformation">GetProcessInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/b7996647-78ab-4f32-bcf6-41aa87d13bb8">GetThreadInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadinformation">GetThreadInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/1739fadf-6b43-4b89-8a17-87d9867d5197">SetProcessInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessinformation">SetProcessInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/c0159bea-870a-46b7-a350-91fe52efae49">SetThreadInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadinformation">SetThreadInformation</a>
  
 
  

@@ -62,7 +62,7 @@ Retrieves the scope for the specified index.
 ### -param hProcess [in]
 
 A handle to a process. This handle must have been previously passed to the 
-<a href="https://msdn.microsoft.com/fb1c98cb-6cd0-4218-aea4-384c24c66395">SymInitialize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 
 ### -param BaseOfDll [in]
@@ -78,7 +78,7 @@ A unique value for the symbol.
 ### -param Symbol [in, out]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/785a9702-8b77-4ce1-99df-143ce78490ab">SYMBOL_INFO</a> structure. The <b>Scope</b> member contains the scope.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_symbol_info">SYMBOL_INFO</a> structure. The <b>Scope</b> member contains the scope.
 
 
 ## -returns
@@ -89,7 +89,7 @@ If the function succeeds, the return value is <b>TRUE</b>.
 						
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -108,19 +108,19 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 
 
-<a href="https://msdn.microsoft.com/7b28f70b-2d97-4cc2-8064-dfb806f9cffa">DbgHelp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/785a9702-8b77-4ce1-99df-143ce78490ab">SYMBOL_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_symbol_info">SYMBOL_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f7bcf12-8d8d-4dea-8191-4f7b24be1b5a">SymSetScopeFromAddr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetscopefromaddr">SymSetScopeFromAddr</a>
 
 
 
-<a href="https://msdn.microsoft.com/06792478-35e2-4f05-85c9-910909fe65cd">SymSetScopeFromIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetscopefromindex">SymSetScopeFromIndex</a>
  
 
  

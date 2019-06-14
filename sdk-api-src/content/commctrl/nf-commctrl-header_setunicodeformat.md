@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the UNICODE character format flag for the control. This message allows you to change the character set used by the control at run time rather than having to re-create the control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775371(v=VS.85).aspx">HDM_SETUNICODEFORMAT</a> message explicitly. 
+Sets the UNICODE character format flag for the control. This message allows you to change the character set used by the control at run time rather than having to re-create the control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-setunicodeformat">HDM_SETUNICODEFORMAT</a> message explicitly. 
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Sets the UNICODE character format flag for the control. This message allows you 
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control. 
 
 
 ### -param fUnicode
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Determines the character set that is used by the control. If this value is nonzero, the control will use Unicode characters. If this value is zero, the control will use ANSI characters. 
 
@@ -76,7 +76,7 @@ Determines the character set that is used by the control. If this value is nonze
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775405(v=VS.85).aspx">Header_GetUnicodeFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-header_getunicodeformat">Header_GetUnicodeFormat</a>
  
 
  

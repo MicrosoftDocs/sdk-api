@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-A support structure used in the <a href="https://msdn.microsoft.com/bbe367c4-1964-4f6d-9345-fa19c090e018">MI_Server</a> 
+A support structure used in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_server">MI_Server</a> 
      structure. Use the functions with the name prefix "MI_Server_" to manipulate these structures.
 
 

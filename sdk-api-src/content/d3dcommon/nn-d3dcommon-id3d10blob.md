@@ -55,7 +55,7 @@ This interface is used to return arbitrary-length data.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Blob</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID3D10Blob</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Blob</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D10Blob</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID3D10Blob</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/21ABCED3-388E-41AD-B557-DA8707128B01">GetBufferPointer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/nf-d3dcommon-id3d10blob-getbufferpointer">GetBufferPointer</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the data.
@@ -80,7 +80,7 @@ Gets a pointer to the data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E98833B1-07F7-4015-86C6-B9335529FC29">GetBufferSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/nf-d3dcommon-id3d10blob-getbuffersize">GetBufferSize</a>
 </td>
 <td align="left" width="63%">
 Gets the size.
@@ -95,7 +95,7 @@ Gets the size.
 
 
 
-The <a href="https://msdn.microsoft.com/f6a04778-1ab9-4935-98b8-f814c6b4ebac">ID3DBlob</a> interface is type-defined in the D3DCommon.h header file as a <b>ID3D10Blob</b> interface, which is fully defined in the D3DCommon.h header file.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)">ID3DBlob</a> interface is type-defined in the D3DCommon.h header file as a <b>ID3D10Blob</b> interface, which is fully defined in the D3DCommon.h header file.
           <b>ID3DBlob</b> is version-neutral and can be used in code for any Direct3D version.
         
 
@@ -111,15 +111,15 @@ Blobs can be used as a data buffer, storing vertex, adjacency, and material info
 
 
 
-<a href="https://msdn.microsoft.com/d228c3c2-e2ff-4723-aec1-5c3ce82c321d">Common Version Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-common-interfaces">Common Version Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/f6a04778-1ab9-4935-98b8-f814c6b4ebac">ID3DBlob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)">ID3DBlob</a>
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

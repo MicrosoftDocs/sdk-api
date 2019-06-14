@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Provides information about the <b>PERF_DATA_HEADER</b> block that contains the structure. A <b>PERF_DATA_HEADER</b> block corresponds to one query specification in a query, and consists of a <b>PERF_DATA_HEADER</b>structure followed by a sequence of <a href="https://msdn.microsoft.com/8C07E4BB-61CD-4A0F-8C23-86BE7DAA415F">PERF_COUNTER_HEADER</a> blocks.
+Provides information about the <b>PERF_DATA_HEADER</b> block that contains the structure. A <b>PERF_DATA_HEADER</b> block corresponds to one query specification in a query, and consists of a <b>PERF_DATA_HEADER</b>structure followed by a sequence of <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_header">PERF_COUNTER_HEADER</a> blocks.
 
 
 ## -struct-fields
@@ -59,12 +59,12 @@ Provides information about the <b>PERF_DATA_HEADER</b> block that contains the s
 
 ### -field dwTotalSize
 
-The sum of the size of the <b>PERF_DATA_HEADER</b> structure and the sizes of all of the <a href="https://msdn.microsoft.com/8C07E4BB-61CD-4A0F-8C23-86BE7DAA415F">PERF_COUNTER_HEADER</a> blocks in the <b>PERF_DATA_HEADER</b> block. 
+The sum of the size of the <b>PERF_DATA_HEADER</b> structure and the sizes of all of the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_header">PERF_COUNTER_HEADER</a> blocks in the <b>PERF_DATA_HEADER</b> block. 
 
 
 ### -field dwNumCounters
 
-The number of <a href="https://msdn.microsoft.com/8C07E4BB-61CD-4A0F-8C23-86BE7DAA415F">PERF_COUNTER_HEADER</a> blocks that the <b>PERF_DATA_HEADER</b> block contains.
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_header">PERF_COUNTER_HEADER</a> blocks that the <b>PERF_DATA_HEADER</b> block contains.
 
 
 ### -field PerfTimeStamp
@@ -91,8 +91,8 @@ The time at which data is collected by the provider.
 
 
 
-The ordering of the <a href="https://msdn.microsoft.com/8C07E4BB-61CD-4A0F-8C23-86BE7DAA415F">PERF_COUNTER_HEADER</a> blocks is based on the <b>Index</b> member of
-the <a href="https://msdn.microsoft.com/4BBAB831-9A7F-407E-A7D6-9123192C12B4">PERF_COUNTER_IDENTIFIER</a> blocks that the <a href="https://msdn.microsoft.com/42CAB98C-4525-499D-BA11-731A666E112D">PerfQueryCounterInfo</a> function gets. Each
+The ordering of the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_header">PERF_COUNTER_HEADER</a> blocks is based on the <b>Index</b> member of
+the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a> blocks that the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfquerycounterinfo">PerfQueryCounterInfo</a> function gets. Each
 <b>PERF_COUNTER_HEADER</b> block is 8-byte aligned, so the value of the <b>dwTotalSize</b> is  a multiple
 of 8 bytes.
 
@@ -110,11 +110,11 @@ you compute the display values of certain performance counters.
 
 
 
-<a href="https://msdn.microsoft.com/8C07E4BB-61CD-4A0F-8C23-86BE7DAA415F">PERF_COUNTER_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_header">PERF_COUNTER_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/42CAB98C-4525-499D-BA11-731A666E112D">PerfQueryCounterInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfquerycounterinfo">PerfQueryCounterInfo</a>
  
 
  

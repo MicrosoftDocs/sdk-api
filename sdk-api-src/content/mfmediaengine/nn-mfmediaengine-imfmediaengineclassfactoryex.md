@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Extension for the <a href="https://msdn.microsoft.com/8E4E84A0-BCFC-4CBF-813B-4FEE2B42A83E">IMFMediaEngineClassFactory</a> interface.
+Extension for the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineclassfactory">IMFMediaEngineClassFactory</a> interface.
 
 
 ## -inheritance
@@ -69,7 +69,7 @@ The <b>IMFMediaEngineClassFactoryEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/40b2b978-f12c-4066-acf5-e0c68b0fa928">CreateMediaKeys</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineclassfactoryex-createmediakeys">CreateMediaKeys</a>
 </td>
 <td align="left" width="63%">
 Creates a media keys object based on the specified key system.
@@ -78,16 +78,16 @@ Creates a media keys object based on the specified key system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2a76bae3-0b7e-49fe-ab5d-bfb32d029d60">CreateMediaSourceExtension</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineclassfactoryex-createmediasourceextension">CreateMediaSourceExtension</a>
 </td>
 <td align="left" width="63%">
-Creates an instance of <a href="https://msdn.microsoft.com/2acabcc2-242d-4b3d-b5b4-680c7973201f">IMFMediaSourceExtension</a>.
+Creates an instance of <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediasourceextension">IMFMediaSourceExtension</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6f4f50db-e491-46c2-a8b2-1b8e51033b5b">IsTypeSupported</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/imfmediaengineclassfactoryex-istypesupported">IsTypeSupported</a>
 </td>
 <td align="left" width="63%">
 Gets a value that indicates if the specified key system supports the specified media type.
@@ -111,7 +111,7 @@ This class is implemented by the Media Engine (CLSID_MFMediaEngineClassFactory).
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

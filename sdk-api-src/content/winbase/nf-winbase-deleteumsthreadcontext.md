@@ -60,7 +60,7 @@ Deletes  the specified user-mode scheduling (UMS) thread context. The thread mus
 
 ### -param UmsThread [in]
 
-A pointer to the UMS thread context to be deleted. The <a href="https://msdn.microsoft.com/b27ce81a-8463-46af-8acf-2de091f625df">CreateUmsThreadContext</a> function provides this pointer.
+A pointer to the UMS thread context to be deleted. The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createumsthreadcontext">CreateUmsThreadContext</a> function provides this pointer.
 
 
 ## -returns
@@ -69,7 +69,7 @@ A pointer to the UMS thread context to be deleted. The <a href="https://msdn.mic
 
 If the function succeeds, it returns a nonzero value.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -84,7 +84,7 @@ When a UMS worker thread finishes running (for example, by returning from its th
 
  Any attempt to execute the  UMS thread will fail because the thread is already terminated. 
 
-To check the termination status of a thread, the application's scheduler should call <a href="https://msdn.microsoft.com/5f694edf-ba5e-45a2-a938-5013edddcae2">QueryUmsThreadInformation</a> with the <b>UmsIsThreadTerminated</b> information class. 
+To check the termination status of a thread, the application's scheduler should call <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-queryumsthreadinformation">QueryUmsThreadInformation</a> with the <b>UmsIsThreadTerminated</b> information class. 
 
 
 
@@ -94,11 +94,11 @@ To check the termination status of a thread, the application's scheduler should 
 
 
 
-<a href="https://msdn.microsoft.com/b27ce81a-8463-46af-8acf-2de091f625df">CreateUmsThreadContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createumsthreadcontext">CreateUmsThreadContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f694edf-ba5e-45a2-a938-5013edddcae2">QueryUmsThreadInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-queryumsthreadinformation">QueryUmsThreadInformation</a>
  
 
  

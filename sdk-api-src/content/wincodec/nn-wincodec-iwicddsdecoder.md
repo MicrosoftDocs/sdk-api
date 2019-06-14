@@ -54,7 +54,7 @@ Provides information and functionality specific to the DDS image format.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICDdsDecoder</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWICDdsDecoder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICDdsDecoder</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICDdsDecoder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWICDdsDecoder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8842FD14-575B-4A81-9598-83A5A67415B7">GetFrame</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicddsdecoder-getframe">GetFrame</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified frame of the DDS image.
@@ -78,7 +78,7 @@ Retrieves the specified frame of the DDS image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D4EE39D6-54DC-450D-A430-2996D349BEC6">GetParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicddsdecoder-getparameters">GetParameters</a>
 </td>
 <td align="left" width="63%">
 Gets DDS-specific data.
@@ -92,7 +92,7 @@ Gets DDS-specific data.
 
 
 
-This interface is implemented by the WIC DDS codec. To obtain this interface, create an <a href="https://msdn.microsoft.com/91dafd5e-e4fb-4691-a3d0-ca8b6ff0aaf7">IWICBitmapDecoder</a> using the DDS codec and QueryInterface for <b>IWICDdsDecoder</b>.
+This interface is implemented by the WIC DDS codec. To obtain this interface, create an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapdecoder">IWICBitmapDecoder</a> using the DDS codec and QueryInterface for <b>IWICDdsDecoder</b>.
 
 
 

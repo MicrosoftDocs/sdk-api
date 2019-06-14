@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/39D8BAA3-8FF3-4F10-99A0-B26FCA3018AE">Blend effect</a>.
+Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/blend">Blend effect</a>.
         
 
 
@@ -63,7 +63,7 @@ Identifiers for properties of the <a href="https://msdn.microsoft.com/39D8BAA3-8
 The blend mode used for the effect.
           
 
-The type is <a href="https://msdn.microsoft.com/006EE339-5E67-434B-BB47-FCBBC2D3FB50">D2D1_BLEND_MODE</a>.
+The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_blend_mode">D2D1_BLEND_MODE</a>.
 
 The default value is D2D1_BLEND_MODE_MULTIPLY.
 

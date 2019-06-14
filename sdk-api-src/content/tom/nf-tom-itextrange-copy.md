@@ -63,7 +63,7 @@ Type: <b>VARIANT*</b>
 
 The copied text. 
 					<i>pVar</i>-&gt;ppunkVal is the out parameter for an 
-					<a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> provided that the following conditions exist: 
+					<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> provided that the following conditions exist: 
 					
 
 <ul>
@@ -90,15 +90,15 @@ This method returns an
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Bb787744(v=VS.85).aspx">ITextRange::Cut</a>, 
-				<b>ITextRange::Copy</b>, and <a href="https://msdn.microsoft.com/en-us/library/Bb774095(v=VS.85).aspx">ITextRange::Paste</a> methods let you perform the usual 
+The <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-cut">ITextRange::Cut</a>, 
+				<b>ITextRange::Copy</b>, and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-paste">ITextRange::Paste</a> methods let you perform the usual 
 				<b>Cut</b>, <b>Copy</b>, and 
-				<b>Paste</b> operations on a range object using an <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a>, thereby not changing the contents of the clipboard. Among clipboard formats typically supported are <b>CF_TEXT</b> and <b>CF_RTF</b>. In addition, private clipboard formats can be used to reference a text solution's own internal rich text formats.
+				<b>Paste</b> operations on a range object using an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>, thereby not changing the contents of the clipboard. Among clipboard formats typically supported are <b>CF_TEXT</b> and <b>CF_RTF</b>. In addition, private clipboard formats can be used to reference a text solution's own internal rich text formats.
 
-To copy and replace plain text, you can use the <a href="https://msdn.microsoft.com/en-us/library/Bb774036(v=VS.85).aspx">ITextRange::GetText</a> 
-				<b></b>and <a href="https://msdn.microsoft.com/en-us/library/Bb787831(v=VS.85).aspx">ITextRange::SetText</a> 
+To copy and replace plain text, you can use the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-gettext">ITextRange::GetText</a> 
+				<b></b>and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-settext">ITextRange::SetText</a> 
 				<b></b>methods. To copy formatted text from range r1 to range r2 without using the clipboard, you can use <b>Copy</b> and 
-				<b>Paste</b> and also the <a href="https://msdn.microsoft.com/en-us/library/Bb773958(v=VS.85).aspx">ITextRange::GetFormattedText</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb774149(v=VS.85).aspx">ITextRange::SetFormattedText</a> methods, as shown in the following Microsoft Visual Basic example:
+				<b>Paste</b> and also the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-getformattedtext">ITextRange::GetFormattedText</a> and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-setformattedtext">ITextRange::SetFormattedText</a> methods, as shown in the following Microsoft Visual Basic example:
 
 <code>r2.GetFormattedText = r1.GetFormattedText</code>
 
@@ -114,23 +114,23 @@ To copy and replace plain text, you can use the <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787744(v=VS.85).aspx">Cut</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-cut">Cut</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773958(v=VS.85).aspx">GetFormattedText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-getformattedtext">GetFormattedText</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774036(v=VS.85).aspx">GetText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-gettext">GetText</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774095(v=VS.85).aspx">Paste</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-paste">Paste</a>
 
 
 
@@ -138,15 +138,15 @@ To copy and replace plain text, you can use the <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774149(v=VS.85).aspx">SetFormattedText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-setformattedtext">SetFormattedText</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787831(v=VS.85).aspx">SetText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-settext">SetText</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
  
 
  

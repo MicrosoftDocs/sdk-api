@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DHCP_CLIENT_INFO_ARRAY</b> structure defines an array of <a href="https://msdn.microsoft.com/cc841dac-85d4-4250-a868-95c41731fe45">DHCP_CLIENT_INFO</a> structures for use with enumeration functions.
+The <b>DHCP_CLIENT_INFO_ARRAY</b> structure defines an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info">DHCP_CLIENT_INFO</a> structures for use with enumeration functions.
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ Specifies the number of elements present in <b>Clients</b>.
 
 ### -field Clients
 
-Pointer to a list of <a href="https://msdn.microsoft.com/cc841dac-85d4-4250-a868-95c41731fe45">DHCP_CLIENT_INFO</a> structures that contain information on specific DHCP subnet clients.).
+Pointer to a list of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info">DHCP_CLIENT_INFO</a> structures that contain information on specific DHCP subnet clients.).
 
 
 ### -field Clients.size_is
@@ -84,11 +84,11 @@ Pointer to a list of <a href="https://msdn.microsoft.com/cc841dac-85d4-4250-a868
 
 
 
-<a href="https://msdn.microsoft.com/cc841dac-85d4-4250-a868-95c41731fe45">DHCP_CLIENT_INFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info">DHCP_CLIENT_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/04ef441e-0638-4ee7-a6a6-a35ab5cf7a44">DhcpEnumSubnetClients</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpenumsubnetclients">DhcpEnumSubnetClients</a>
  
 
  

@@ -64,7 +64,7 @@ ID of the type of sensors to retrieve.
 
 ### -param ppSensorsFound [out]
 
-Address of an <a href="https://msdn.microsoft.com/54d8572a-40a2-49d0-a8bf-2161b63eee42">ISensorCollection</a> interface pointer that receives the pointer to the sensor collection requested.
+Address of an <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorcollection">ISensorCollection</a> interface pointer that receives the pointer to the sensor collection requested.
 
 
 ## -returns
@@ -123,11 +123,11 @@ NULL was passed in for ppSensorsFound.
 
 
 
-<a href="https://msdn.microsoft.com/313742c9-58a7-4ddd-9582-a6ee276e97d0">ISensorManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanager">ISensorManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/36631bae-f237-4951-9959-6ab6286bd1f7">Retrieving a Sensor Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/retrieving-a-sensor">Retrieving a Sensor Object</a>
  
 
  

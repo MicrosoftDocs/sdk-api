@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The object should use the values of <i>dwMultithreadedWorkQueueId</i> and <i>lWorkItemBasePriority</i> when it queues new work items. Use the <a href="https://msdn.microsoft.com/C49818B3-83FF-40CE-B68A-F60F3277F7B8">MFPutWorkItem2</a> or <a href="https://msdn.microsoft.com/A29DC852-AF0F-4269-97FB-DA1F725E7C09">MFPutWorkItemEx2</a> function to queue the work item.
+The object should use the values of <i>dwMultithreadedWorkQueueId</i> and <i>lWorkItemBasePriority</i> when it queues new work items. Use the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfputworkitem2">MFPutWorkItem2</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfputworkitemex2">MFPutWorkItemEx2</a> function to queue the work item.
 
 
 
@@ -90,15 +90,15 @@ The object should use the values of <i>dwMultithreadedWorkQueueId</i> and <i>lWo
 
 
 
-<a href="https://msdn.microsoft.com/EC5CDD23-B862-4DAE-AC01-4926C4FAD89A">IMFRealTimeClientEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfrealtimeclientex">IMFRealTimeClientEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/9E2A1D94-BF82-488E-8297-D524683ABE17">Work Queue and Threading Improvements</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-work-queue-and-threading-improvements">Work Queue and Threading Improvements</a>
 
 
 
-<a href="https://msdn.microsoft.com/f886d096-b1f5-42e4-8888-501b58bffd50">Work Queues</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/work-queues">Work Queues</a>
  
 
  

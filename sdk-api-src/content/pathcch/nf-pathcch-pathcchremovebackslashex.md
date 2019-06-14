@@ -54,12 +54,12 @@ ms.custom: 19H1
 
 Removes the trailing backslash from the end of a path string.
 
-This function differs from <a href="https://msdn.microsoft.com/61afc20e-ee6c-46ad-a058-64c57de41ba4">PathCchRemoveBackslash</a> in that it can return a pointer to the new end of the string and report the number of unused characters remaining in the buffer.
+This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchremovebackslash">PathCchRemoveBackslash</a> in that it can return a pointer to the new end of the string and report the number of unused characters remaining in the buffer.
 
-This function differs from <a href="https://msdn.microsoft.com/58d13c38-40aa-4aaa-81dc-2b68425f1fe0">PathRemoveBackslash</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
+This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathremovebackslasha">PathRemoveBackslash</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
 
-<div class="alert"><b>Note</b>  This function, or <a href="https://msdn.microsoft.com/61afc20e-ee6c-46ad-a058-64c57de41ba4">PathCchRemoveBackslash</a>, should be used in place of <a href="https://msdn.microsoft.com/58d13c38-40aa-4aaa-81dc-2b68425f1fe0">PathRemoveBackslash</a> to prevent the possibility of a buffer overrun.</div><div> </div>
+<div class="alert"><b>Note</b>  This function, or <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchremovebackslash">PathCchRemoveBackslash</a>, should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathremovebackslasha">PathRemoveBackslash</a> to prevent the possibility of a buffer overrun.</div><div> </div>
 
 ## -parameters
 

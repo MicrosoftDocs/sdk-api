@@ -69,12 +69,12 @@ The name of the protocol.
 
 ### -param pProxyConfig [in]
 
-Pointer to the <b>IPropertyStore</b> interface of a property store that contains the proxy configuration in the <a href="https://msdn.microsoft.com/85f2bd02-8a2f-46b5-b765-1a0bc5b6ccc3">MFNETSOURCE_PROXYSETTINGS</a> property.
+Pointer to the <b>IPropertyStore</b> interface of a property store that contains the proxy configuration in the <a href="https://docs.microsoft.com/windows/desktop/medfound/mfnetsource-proxysettings-property">MFNETSOURCE_PROXYSETTINGS</a> property.
 
 
 ### -param ppProxyLocator [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/2906b998-f1ca-4c65-b810-cbc360390653">IMFNetProxyLocator</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfnetproxylocator">IMFNetProxyLocator</a> interface. The caller must release the interface.
 
 
 ## -returns
@@ -111,11 +111,11 @@ The function succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/e739746d-2a09-4237-a7c1-0aed4e4516d7">Proxy Support for Network Sources</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/proxy-support-for-network-sources">Proxy Support for Network Sources</a>
  
 
  

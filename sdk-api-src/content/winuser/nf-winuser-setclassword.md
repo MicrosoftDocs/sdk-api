@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Replaces the 16-bit (<b>WORD</b>) value at the specified offset into the extra class memory for the window class to which the specified window belongs.
-<div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit versions of Windows. Applications should use the <a href="https://msdn.microsoft.com/en-us/library/ms633588(v=VS.85).aspx">SetClassLong</a> function.</div><div> </div>
+<div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit versions of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setclasslonga">SetClassLong</a> function.</div><div> </div>
 
 ## -parameters
 
@@ -87,7 +87,7 @@ Type: <strong>Type: <b>WORD</b>
 
 If the function succeeds, the return value is the previous value of the specified 16-bit integer. If the value was not previously set, the return value is zero. 
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -97,7 +97,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 Reserve extra class memory by specifying a nonzero value in the 
-				<b>cbClsExtra</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms633576(v=VS.85).aspx">WNDCLASS</a> structure used with the <a href="https://msdn.microsoft.com/en-us/library/ms633586(v=VS.85).aspx">RegisterClass</a> function. 
+				<b>cbClsExtra</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwndclassa">WNDCLASS</a> structure used with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> function. 
 
 
 
@@ -111,7 +111,7 @@ Reserve extra class memory by specifying a nonzero value in the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633583(v=VS.85).aspx">GetClassWord</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclassword">GetClassWord</a>
 
 
 
@@ -119,19 +119,19 @@ Reserve extra class memory by specifying a nonzero value in the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633586(v=VS.85).aspx">RegisterClass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633588(v=VS.85).aspx">SetClassLong</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setclasslonga">SetClassLong</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633576(v=VS.85).aspx">WNDCLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwndclassa">WNDCLASS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632596(v=VS.85).aspx">Window Classes</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/window-classes">Window Classes</a>
  
 
  

@@ -59,14 +59,14 @@ Shares a resource (or subresource) between the D3D layers and diagnostics tools.
 
 ### -param pResource [in]
 
-Type: <b><a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>*</b>
 
 A pointer to the resource to share.
 
 
 ### -param Subresource
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 An unsigned 32bit subresource id.
 
@@ -92,7 +92,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/10E61C88-0CDC-42E6-AB70-4911D254C40A">ID3D12SharingContract</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12sharingcontract">ID3D12SharingContract</a>
  
 
  

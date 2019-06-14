@@ -81,7 +81,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-Because of interleaving of streams with slightly different time stamps at any particular point in the file, the actual stop time might not be exactly as specified in <i>cnsStopTime</i>. To increase the precision, call <a href="https://msdn.microsoft.com/en-us/library/Dd798758(v=VS.85).aspx">IWMWriterFileSink3::SetControlStream</a>.
+Because of interleaving of streams with slightly different time stamps at any particular point in the file, the actual stop time might not be exactly as specified in <i>cnsStopTime</i>. To increase the precision, call <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterfilesink3-setcontrolstream">IWMWriterFileSink3::SetControlStream</a>.
 
 
 
@@ -91,15 +91,15 @@ Because of interleaving of streams with slightly different time stamps at any pa
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798743(v=VS.85).aspx">IWMWriterFileSink2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink2">IWMWriterFileSink2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798744(v=VS.85).aspx">IWMWriterFileSink2::Close</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterfilesink2-close">IWMWriterFileSink2::Close</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798749(v=VS.85).aspx">IWMWriterFileSink2::Start</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterfilesink2-start">IWMWriterFileSink2::Start</a>
  
 
  

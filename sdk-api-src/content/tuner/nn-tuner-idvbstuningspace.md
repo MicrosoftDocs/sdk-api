@@ -57,7 +57,7 @@ The <b>IDVBSTuningSpace</b> interface is implemented on the <b>DVBTuningSpace</b
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVBSTuningSpace</b> interface inherits from <a href="https://msdn.microsoft.com/01325520-0cb3-46c2-b5a1-f07c5f8d7c7b">IDVBTuningSpace2</a>. <b>IDVBSTuningSpace</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVBSTuningSpace</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-idvbtuningspace2">IDVBTuningSpace2</a>. <b>IDVBSTuningSpace</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IDVBSTuningSpace</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e3b70684-5066-411e-9946-ccfc1efa3e7c">get_HighOscillator</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbstuningspace-get_highoscillator">get_HighOscillator</a>
 </td>
 <td align="left" width="63%">
 Retrieves the high oscillator frequency.
@@ -81,7 +81,7 @@ Retrieves the high oscillator frequency.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d116c1d1-df48-434b-ad49-eabd0efaa810">get_InputRange</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbstuningspace-get_inputrange">get_InputRange</a>
 </td>
 <td align="left" width="63%">
 Retrieves an integer indicating which option or switch contains the requested signal source.
@@ -90,7 +90,7 @@ Retrieves an integer indicating which option or switch contains the requested si
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/56cea4ef-7679-4b78-883d-194c9259032f">get_LNBSwitch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbstuningspace-get_lnbswitch">get_LNBSwitch</a>
 </td>
 <td align="left" width="63%">
 Retrieves the LNB switch frequency.
@@ -99,7 +99,7 @@ Retrieves the LNB switch frequency.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7f48902d-9242-4791-b0f1-fc4ab5bd85c0">get_LowOscillator</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbstuningspace-get_lowoscillator">get_LowOscillator</a>
 </td>
 <td align="left" width="63%">
 Retrieves the low oscillator frequency.
@@ -108,7 +108,7 @@ Retrieves the low oscillator frequency.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/68374808-2999-4196-9b2b-b6c97308b041">get_SpectralInversion</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbstuningspace-get_spectralinversion">get_SpectralInversion</a>
 </td>
 <td align="left" width="63%">
 Retrieves an integer indicating the spectral inversion.
@@ -117,7 +117,7 @@ Retrieves an integer indicating the spectral inversion.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0f71008b-dbb6-485b-b196-7c2d215b3064">put_HighOscillator</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbstuningspace-put_highoscillator">put_HighOscillator</a>
 </td>
 <td align="left" width="63%">
 Sets the high oscillator frequency.
@@ -126,7 +126,7 @@ Sets the high oscillator frequency.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fa7c065e-91c7-4780-a33a-c5f6bf77a2c4">put_InputRange</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbstuningspace-put_inputrange">put_InputRange</a>
 </td>
 <td align="left" width="63%">
 Sets an integer indicating which option or switch contains the requested signal source.
@@ -135,7 +135,7 @@ Sets an integer indicating which option or switch contains the requested signal 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/40f9ae9e-ba0d-468d-81c2-4641770e39a5">put_LNBSwitch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbstuningspace-put_lnbswitch">put_LNBSwitch</a>
 </td>
 <td align="left" width="63%">
 Sets the LNB switch frequency.
@@ -144,7 +144,7 @@ Sets the LNB switch frequency.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cadc2818-d54c-410a-9894-28baa51b9b01">put_LowOscillator</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbstuningspace-put_lowoscillator">put_LowOscillator</a>
 </td>
 <td align="left" width="63%">
 Sets the low oscillator frequency.
@@ -153,7 +153,7 @@ Sets the low oscillator frequency.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c3fd3237-6c10-419d-b1ce-7cb00ebb3442">put_SpectralInversion</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbstuningspace-put_spectralinversion">put_SpectralInversion</a>
 </td>
 <td align="left" width="63%">
 Sets an integer indicating the spectral inversion.
@@ -177,11 +177,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/01325520-0cb3-46c2-b5a1-f07c5f8d7c7b">IDVBTuningSpace2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-idvbtuningspace2">IDVBTuningSpace2</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d956e1d-88b3-4236-9987-f37f674645de">Tuning Model Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
  
 
  

@@ -52,7 +52,7 @@ ms.custom: 19H1
 The 
 <b>GetTcpStatisticsEx2</b> function retrieves the Transmission Control Protocol (TCP) statistics for the current computer. The 
 <b>GetTcpStatisticsEx2</b> function differs from the 
-<a href="https://msdn.microsoft.com/78cfc69d-eae8-49c1-a460-6527a61f773d">GetTcpStatisticsEx</a> function in that 
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcpstatisticsex">GetTcpStatisticsEx</a> function in that 
 it uses a new output structure that contains 64-bit counters, rather than 32-bit counters.
 
 
@@ -64,7 +64,7 @@ it uses a new output structure that contains 64-bit counters, rather than 32-bit
 ### -param Statistics [out]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/08d85d02-62a0-479d-bf56-5dad452436f3">MIB_TCPSTATS2</a> structure that receives the TCP statistics for the local computer.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcpstats_lh">MIB_TCPSTATS2</a> structure that receives the TCP statistics for the local computer.
 
 
 ### -param Family [in]
@@ -145,7 +145,7 @@ This function is not supported on the operating system on which the function cal
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> to obtain the message string for the returned error.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
@@ -160,11 +160,11 @@ Use
 
 
 
-<a href="https://msdn.microsoft.com/2de88e92-5fa5-4d8d-9448-67a33bf02f05">IP Helper Function Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/4896a9f8-0486-4380-bf49-d1c9ef114acc">IP Helper Start Page</a>
+<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
  
 
  

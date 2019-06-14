@@ -69,12 +69,12 @@ Specifies the type of  record. The  type is a <b>GUID</b> that an application mu
 
 ### -field id
 
-Specifies the unique ID of a record. The Peer Infrastructure supplies this ID. This parameter is ignored in calls to  <a href="https://msdn.microsoft.com/d9ca87bc-30da-4a19-b34a-8d8388ccd19a">PeerGroupAddRecord</a>. An application cannot modify this member.
+Specifies the unique ID of a record. The Peer Infrastructure supplies this ID. This parameter is ignored in calls to  <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupaddrecord">PeerGroupAddRecord</a>. An application cannot modify this member.
 
 
 ### -field dwVersion
 
-Specifies the version of a record that   the Peer Infrastructure supplies when an application  calls <a href="https://msdn.microsoft.com/8256e379-e5d5-4aef-ab05-e220602edf12">PeerGraphAddRecord</a> or <a href="https://msdn.microsoft.com/9007095f-4f2a-4e92-895b-9a4033f0f7b9">PeerGraphUpdateRecord</a>. An application cannot modify this member.
+Specifies the version of a record that   the Peer Infrastructure supplies when an application  calls <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphaddrecord">PeerGraphAddRecord</a> or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphupdaterecord">PeerGraphUpdateRecord</a>. An application cannot modify this member.
 
 
 ### -field dwFlags
@@ -102,7 +102,7 @@ Specifies the flags that indicate  special processing, which must be applied to 
 
 ### -field pwzCreatorId
 
-Pointer to the unique ID of a record creator.   This member is set to <b>NULL</b> for calls to <a href="https://msdn.microsoft.com/8256e379-e5d5-4aef-ab05-e220602edf12">PeerGraphAddRecord</a> and <a href="https://msdn.microsoft.com/9007095f-4f2a-4e92-895b-9a4033f0f7b9">PeerGraphUpdateRecord</a>. An application cannot set this member.
+Pointer to the unique ID of a record creator.   This member is set to <b>NULL</b> for calls to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphaddrecord">PeerGraphAddRecord</a> and <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphupdaterecord">PeerGraphUpdateRecord</a>. An application cannot set this member.
 
 
 ### -field pwzModifiedById
@@ -112,7 +112,7 @@ Specifies the unique ID of  the last person who changes a record. An application
 
 ### -field pwzAttributes
 
-Pointer to the set of attribute name and value pairs that are   associated with a record. This member points to   an XML string. Record attributes are specified as an XML string,  and they must be consistent with the Peer Infrastructure record attribute schema.   For a complete explanation of the XML schema, see <a href="https://msdn.microsoft.com/2991af9b-da32-4915-b4d6-575e3faac04e">Record Attribute Schema</a>.
+Pointer to the set of attribute name and value pairs that are   associated with a record. This member points to   an XML string. Record attributes are specified as an XML string,  and they must be consistent with the Peer Infrastructure record attribute schema.   For a complete explanation of the XML schema, see <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/record-attribute-schema">Record Attribute Schema</a>.
 
 The Peer Infrastructure reserves several attribute names that a user cannot set. The following list identifies the reserved attribute names:<ul>
 <li><b>peerlastmodifiedby</b></li>
@@ -128,7 +128,7 @@ The Peer Infrastructure reserves several attribute names that a user cannot set.
 
 ### -field ftCreation
 
-Specifies the Coordinated Universal Time (UTC) that a record is created. The Peer Infrastructure supplies this value, and the value is set to zero (0) in calls to <a href="https://msdn.microsoft.com/d9ca87bc-30da-4a19-b34a-8d8388ccd19a">PeerGroupAddRecord</a>. An application cannot set this member.
+Specifies the Coordinated Universal Time (UTC) that a record is created. The Peer Infrastructure supplies this value, and the value is set to zero (0) in calls to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupaddrecord">PeerGroupAddRecord</a>. An application cannot set this member.
 
 
 ### -field ftExpiration
@@ -140,12 +140,12 @@ The UTC time that a record expires. This member is required.  It can be updated 
 
 ### -field ftLastModified
 
-The UTC time that a record is modified.   The Peer Infrastructure supplies this value. Set this member to  <b>NULL</b> when  calling  <a href="https://msdn.microsoft.com/8256e379-e5d5-4aef-ab05-e220602edf12">PeerGraphAddRecord</a>, <a href="https://msdn.microsoft.com/9007095f-4f2a-4e92-895b-9a4033f0f7b9">PeerGraphUpdateRecord</a>, <a href="https://msdn.microsoft.com/d9ca87bc-30da-4a19-b34a-8d8388ccd19a">PeerGroupAddRecord</a>, and <a href="https://msdn.microsoft.com/bfff0422-452c-4780-8df7-d3e8d5ad385c">PeerGroupUpdateRecord</a>. An application cannot set this member.
+The UTC time that a record is modified.   The Peer Infrastructure supplies this value. Set this member to  <b>NULL</b> when  calling  <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphaddrecord">PeerGraphAddRecord</a>, <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphupdaterecord">PeerGraphUpdateRecord</a>, <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupaddrecord">PeerGroupAddRecord</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupupdaterecord">PeerGroupUpdateRecord</a>. An application cannot set this member.
 
 
 ### -field securityData
 
-Specifies the security data contained in a  <a href="https://msdn.microsoft.com/d8a8b9e3-c455-4813-b812-263efe7f5e3e">PEER_DATA</a> structure. The Graphing API uses this member, and provides  the security provider with a place to store security data, for example, a signature.  The Grouping API cannot modify this member.
+Specifies the security data contained in a  <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_data_tag">PEER_DATA</a> structure. The Graphing API uses this member, and provides  the security provider with a place to store security data, for example, a signature.  The Grouping API cannot modify this member.
 
 
 ### -field data
@@ -158,47 +158,47 @@ Specifies the actual data that this record contains.
 
 
 
-<a href="https://msdn.microsoft.com/d8a8b9e3-c455-4813-b812-263efe7f5e3e">PEER_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_data_tag">PEER_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/454b40f6-a7de-4b59-ae35-a809c4510133">PFNPEER_SECURE_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nc-p2p-pfnpeer_secure_record">PFNPEER_SECURE_RECORD</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d81f09b-e46b-43e6-b0a8-ed7c236f2968">PFNPEER_VALIDATE_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nc-p2p-pfnpeer_validate_record">PFNPEER_VALIDATE_RECORD</a>
 
 
 
-<a href="https://msdn.microsoft.com/8256e379-e5d5-4aef-ab05-e220602edf12">PeerGraphAddRecord</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphaddrecord">PeerGraphAddRecord</a>
 
 
 
-<a href="https://msdn.microsoft.com/d6ecc762-8702-4366-81fc-c2b168dc8cb3">PeerGraphDeleteRecord</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphdeleterecord">PeerGraphDeleteRecord</a>
 
 
 
-<a href="https://msdn.microsoft.com/5e777c02-980c-42f9-add7-9568c86c2efe">PeerGraphGetRecord</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphgetrecord">PeerGraphGetRecord</a>
 
 
 
-<a href="https://msdn.microsoft.com/9007095f-4f2a-4e92-895b-9a4033f0f7b9">PeerGraphUpdateRecord</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphupdaterecord">PeerGraphUpdateRecord</a>
 
 
 
-<a href="https://msdn.microsoft.com/d9ca87bc-30da-4a19-b34a-8d8388ccd19a">PeerGroupAddRecord</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupaddrecord">PeerGroupAddRecord</a>
 
 
 
-<a href="https://msdn.microsoft.com/e80fbf7f-2193-4a45-8a7f-46707ae4acfe">PeerGroupDeleteRecord</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupdeleterecord">PeerGroupDeleteRecord</a>
 
 
 
-<a href="https://msdn.microsoft.com/cf24bf5f-8ffc-4b86-80f7-dcb7621f49d2">PeerGroupGetRecord</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupgetrecord">PeerGroupGetRecord</a>
 
 
 
-<a href="https://msdn.microsoft.com/bfff0422-452c-4780-8df7-d3e8d5ad385c">PeerGroupUpdateRecord</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupupdaterecord">PeerGroupUpdateRecord</a>
  
 
  

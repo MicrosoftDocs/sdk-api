@@ -112,11 +112,11 @@ Use bitwise comparisons when comparing this flag.
 In certain cases, Remote Desktop Services places a 
     <b>CHANNEL_PDU_HEADER</b> structure at the beginning 
     of each chunk of data read by a call to the 
-    <a href="https://msdn.microsoft.com/7434e761-303f-496f-81cb-83c199ddec8a">WTSVirtualChannelRead</a> function. This will 
+    <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelread">WTSVirtualChannelRead</a> function. This will 
     occur if the client DLL sets the <b>CHANNEL_OPTION_SHOW_PROTOCOL</b> option when it calls the 
-    <a href="https://msdn.microsoft.com/3dae59dc-e70f-450e-a324-a4d68341a72e">VirtualChannelInit</a> function to initialize the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelinit">VirtualChannelInit</a> function to initialize the 
     virtual channel. This will also occur if the channel is a dynamic virtual channel written to by using the 
-    <a href="https://msdn.microsoft.com/fef7067c-6d81-42b7-8534-191bc98906d4">IWTSVirtualChannel::Write</a> method.
+    <a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsvirtualchannel-write">IWTSVirtualChannel::Write</a> method.
 
 
 
@@ -126,19 +126,19 @@ In certain cases, Remote Desktop Services places a
 
 
 
-<a href="https://msdn.microsoft.com/fef7067c-6d81-42b7-8534-191bc98906d4">IWTSVirtualChannel::Write</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsvirtualchannel-write">IWTSVirtualChannel::Write</a>
 
 
 
-<a href="https://msdn.microsoft.com/3dae59dc-e70f-450e-a324-a4d68341a72e">VirtualChannelInit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelinit">VirtualChannelInit</a>
 
 
 
-<a href="https://msdn.microsoft.com/bd7bc65e-403c-4e29-bdb4-f2f5a957d6ab">VirtualChannelWrite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelwrite">VirtualChannelWrite</a>
 
 
 
-<a href="https://msdn.microsoft.com/7434e761-303f-496f-81cb-83c199ddec8a">WTSVirtualChannelRead</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelread">WTSVirtualChannelRead</a>
  
 
  

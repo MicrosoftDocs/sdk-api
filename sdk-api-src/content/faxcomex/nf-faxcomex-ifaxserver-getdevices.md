@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IFaxServer::GetDevices</b> method creates a <a href="https://msdn.microsoft.com/en-us/library/ms684821(v=VS.85).aspx">IFaxDevices</a> interface, a collection of all the fax devices exposed by all the fax service providers (FSPs) currently registered with the fax service.
+The <b>IFaxServer::GetDevices</b> method creates a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdevices">IFaxDevices</a> interface, a collection of all the fax devices exposed by all the fax service providers (FSPs) currently registered with the fax service.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ The <b>IFaxServer::GetDevices</b> method creates a <a href="https://msdn.microso
 
 ### -param ppFaxDevices [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms684821(v=VS.85).aspx">IFaxDevices</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdevices">IFaxDevices</a>**</b>
 
-An address of a pointer that receives a <a href="https://msdn.microsoft.com/en-us/library/ms684821(v=VS.85).aspx">IFaxDevices</a> interface.
+An address of a pointer that receives a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdevices">IFaxDevices</a> interface.
 
 
 ## -returns
@@ -79,9 +79,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-You can use the <a href="https://msdn.microsoft.com/en-us/library/ms684821(v=VS.85).aspx">IFaxDevices</a> interface to enumerate the fax devices associated with a connected fax server and to create <a href="https://msdn.microsoft.com/en-us/library/ms686193(v=VS.85).aspx">IFaxDevice</a> interfaces for them.
+You can use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdevices">IFaxDevices</a> interface to enumerate the fax devices associated with a connected fax server and to create <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdevice">IFaxDevice</a> interfaces for them.
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
+To use this method, a user must have the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_access_rights_enum">farQUERY_CONFIG</a> access right.
 
 
 
@@ -91,15 +91,15 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/en-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689109(v=VS.85).aspx">FaxServer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxserver">FaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689110(v=VS.85).aspx">IFaxServer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxserver">IFaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693400(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-configuring-a-fax-device">Visual Basic Example</a>
  
 
  

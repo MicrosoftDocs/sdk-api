@@ -66,14 +66,14 @@ Writer identifier.
 
 ### -param ct [in]
 
-Type of the component. See <a href="https://msdn.microsoft.com/ba3b726c-448a-46c0-8fa5-5793497aa385">VSS_COMPONENT_TYPE</a> 
+Type of the component. See <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a> 
       for the possible values.
 
 
 ### -param wszLogicalPath [in]
 
 <b>Null</b>-terminated wide character string containing the logical path of the component. 
-      For more information, see <a href="https://msdn.microsoft.com/663c8ca9-8f5b-48bd-af2d-b2d90de9e492">Logical Pathing of Components</a>.
+      For more information, see <a href="https://docs.microsoft.com/windows/desktop/VSS/logical-pathing-of-components">Logical Pathing of Components</a>.
 
 The value of the string containing the logical path used here should be the same as was used when the 
        component was added.
@@ -90,7 +90,7 @@ There are no restrictions on the characters that can appear in a non-<b>NULL</b>
 
 The string cannot be <b>NULL</b> and should contain the same component name as was used when the component was added 
       to the backup set using 
-      <a href="https://msdn.microsoft.com/50cb0b16-9ed3-4496-962a-9c845c10986c">IVssBackupComponents::AddComponent</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addcomponent">IVssBackupComponents::AddComponent</a>.
 
 
 ### -param bSelectedForRestore [in]
@@ -176,7 +176,7 @@ The component being selected does not exist in the Backup Components Document, o
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more 
         information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -188,7 +188,7 @@ The XML document is not valid. Check the event log for details. For more
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -209,18 +209,18 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 <b>SetSelectedForRestore</b> can 
     only be called for components that were explicitly added to the backup document at backup time using 
-    <a href="https://msdn.microsoft.com/50cb0b16-9ed3-4496-962a-9c845c10986c">IVssBackupComponents::AddComponent</a>. 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addcomponent">IVssBackupComponents::AddComponent</a>. 
     Restoring a component that was implicitly selected for backup as part of a component set must be done by calling 
    <b>SetSelectedForRestore</b> on the 
     closest ancestor component that was added to the document. If only this component's data is to be restored, that 
     should be accomplished through 
-    <a href="https://msdn.microsoft.com/8eea27d7-6780-49cf-97ea-8876a9a2c8f8">IVssBackupComponents::AddRestoreSubcomponent</a>; 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addrestoresubcomponent">IVssBackupComponents::AddRestoreSubcomponent</a>; 
     this can only be done if the component is selectable for restore (see 
-    <a href="https://msdn.microsoft.com/e8920cca-d944-437f-bf6a-7ce8d518746a">Working with Selectability and 
+    <a href="https://docs.microsoft.com/windows/desktop/VSS/working-with-selectability-and-logical-paths">Working with Selectability and 
     Logical Paths</a>).
 
 This method must be called before 
-    <a href="https://msdn.microsoft.com/7a4c8869-9655-49a7-818b-98a08103f4b4">IVssBackupComponents::PreRestore</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">IVssBackupComponents::PreRestore</a>.
 
 
 
@@ -230,19 +230,19 @@ This method must be called before
 
 
 
-<a href="https://msdn.microsoft.com/fe1220c7-11e5-4872-b7a9-61558f7c75c0">IVssBackupComponents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a4c8869-9655-49a7-818b-98a08103f4b4">IVssBackupComponents::PreRestore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">IVssBackupComponents::PreRestore</a>
 
 
 
-<a href="https://msdn.microsoft.com/76d0461d-a0ac-49c7-84b1-16f21114b72d">IVssComponent::IsSelectedForRestore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-isselectedforrestore">IVssComponent::IsSelectedForRestore</a>
 
 
 
-<a href="https://msdn.microsoft.com/ba3b726c-448a-46c0-8fa5-5793497aa385">VSS_COMPONENT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a>
  
 
  

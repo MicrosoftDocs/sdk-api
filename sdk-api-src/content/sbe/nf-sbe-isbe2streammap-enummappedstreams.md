@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Enumerates streams that are mapped to output pins in a <a href="https://msdn.microsoft.com/435081e9-8a3f-42ab-9091-30c7c3dd59c6">Stream Buffer Source</a> filter.
+Enumerates streams that are mapped to output pins in a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Enumerates streams that are mapped to output pins in a <a href="https://msdn.mic
 
 ### -param ppStreams [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/77a918f8-d305-4d4d-9a5c-523ddb796b26">ISBE2EnumStream</a> interface for an enumeration object that lists all streams mapped to the filter outputs pin.
+Receives a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2enumstream">ISBE2EnumStream</a> interface for an enumeration object that lists all streams mapped to the filter outputs pin.
           The caller is responsible for freeing the interface.
 
 
@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-In Windows 7, only one stream at a time can be mapped to an output pin, although a call to the <a href="https://msdn.microsoft.com/efe3b21d-9664-4367-9bfe-4c02589370c4">ISBE2StreamMap::MapStream</a> method can be used to change the stream mapped to any particular pin while the graph is running. In previous versions of Windows, a stream mapped to a pin could not be changed while the graph was running.
+In Windows 7, only one stream at a time can be mapped to an output pin, although a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2streammap-mapstream">ISBE2StreamMap::MapStream</a> method can be used to change the stream mapped to any particular pin while the graph is running. In previous versions of Windows, a stream mapped to a pin could not be changed while the graph was running.
 
 
 
@@ -86,19 +86,19 @@ In Windows 7, only one stream at a time can be mapped to an output pin, although
 
 
 
-<a href="https://msdn.microsoft.com/299816e7-2dad-44a5-a44d-9c3efe405d9b">ISBE2Crossbar</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2crossbar">ISBE2Crossbar</a>
 
 
 
-<a href="https://msdn.microsoft.com/77a918f8-d305-4d4d-9a5c-523ddb796b26">ISBE2EnumStream</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2enumstream">ISBE2EnumStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/d63691ca-2420-4c54-b343-be85d634488c">ISBE2StreamMap</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2streammap">ISBE2StreamMap</a>
 
 
 
-<a href="https://msdn.microsoft.com/435081e9-8a3f-42ab-9091-30c7c3dd59c6">Stream Buffer Source Filter</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source Filter</a>
  
 
  

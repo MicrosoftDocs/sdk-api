@@ -59,7 +59,7 @@ Retrieves message parameters from the layer below this layer in the protocol sta
 
 ### -param ppTxParams [out]
 
-An <a href="https://msdn.microsoft.com/fb659a5e-1f55-47a6-b22d-660975d8c0fd">IWSDMessageParameters</a> interface that you use to communicate message specific information up and down the protocol stack.
+An <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a> interface that you use to communicate message specific information up and down the protocol stack.
 
 
 ## -returns
@@ -111,7 +111,7 @@ The method was not implemented.
 
 
 
-<a href="https://msdn.microsoft.com/fb659a5e-1f55-47a6-b22d-660975d8c0fd">IWSDMessageParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a>
  
 
  

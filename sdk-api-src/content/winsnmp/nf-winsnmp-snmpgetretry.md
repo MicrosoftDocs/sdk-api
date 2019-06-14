@@ -49,11 +49,11 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/6429e748-e0bf-431a-8989-db5b211665d5">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The WinSNMP 
 <b>SnmpGetRetry</b> function returns the retry count value, in units, for the retransmission of SNMP message requests. The retry count applies to calls that a WinSNMP application makes to the 
-<a href="https://msdn.microsoft.com/c4b9f4bb-24f0-4b5e-b12d-8be839b34895">SnmpSendMsg</a> function for a specified management entity.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpsendmsg">SnmpSendMsg</a> function for a specified management entity.
 
 
 ## -parameters
@@ -83,7 +83,7 @@ Pointer to an unsigned long integer variable to receive the last actual or estim
 If the function succeeds, the return value is SNMPAPI_SUCCESS.
 
 If the function fails, the return value is SNMPAPI_FAILURE. To get extended error information, call 
-<a href="https://msdn.microsoft.com/0cfb2bc3-cfa5-4806-9dcf-119541463e7b">SnmpGetLastError</a> specifying a <b>NULL</b> value in its <i>session</i> parameter. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpgetlasterror">SnmpGetLastError</a> specifying a <b>NULL</b> value in its <i>session</i> parameter. The 
 <b>SnmpGetLastError</b> function can return one of the following errors.
 
 <table>
@@ -99,7 +99,7 @@ If the function fails, the return value is SNMPAPI_FAILURE. To get extended erro
 </td>
 <td width="60%">
 The 
-<a href="https://msdn.microsoft.com/7b8a4a1e-871f-424b-8bcb-c0b3bfaae9ce">SnmpStartup</a> function did not complete successfully.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstartup">SnmpStartup</a> function did not complete successfully.
 
 </td>
 </tr>
@@ -161,11 +161,11 @@ Typically a WinSNMP application, rather than an agent application, calls the
 <b>SnmpGetRetry</b> function.
 
 A WinSNMP application can modify the retry count value with a call to the 
-<a href="https://msdn.microsoft.com/6a28ccc6-1d06-41d7-8d76-14e594102832">SnmpSetRetry</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpsetretry">SnmpSetRetry</a> function.
 
 The WinSNMP application can monitor the value of the <i>nActualRetry</i> parameter and compare it to the value of the <i>nPolicyRetry</i> parameter to optimize transmission performance. For additional information, see 
-<a href="https://msdn.microsoft.com/71150a66-74a3-4957-bc70-3dd25c3b9c71">About Retransmission</a> and 
-<a href="https://msdn.microsoft.com/1f1a9589-3566-4d90-ac4d-7acf69f34676">Managing the Retransmission Policy</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/about-retransmission">About Retransmission</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/managing-the-retransmission-policy">Managing the Retransmission Policy</a>.
 
 
 
@@ -175,24 +175,24 @@ The WinSNMP application can monitor the value of the <i>nActualRetry</i> paramet
 
 
 
-<a href="https://msdn.microsoft.com/8df40980-56e2-485f-87e0-42878b320e4e">SnmpGetRetransmitMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpgetretransmitmode">SnmpGetRetransmitMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/d206ba15-a068-4579-bd6a-ab2444a723e0">SnmpSetRetransmitMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpsetretransmitmode">SnmpSetRetransmitMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a28ccc6-1d06-41d7-8d76-14e594102832">SnmpSetRetry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpsetretry">SnmpSetRetry</a>
 
 
 
-<a href="https://msdn.microsoft.com/ae95ac47-81ff-4715-b3e9-e19c07223712">WinSNMP
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-functions">WinSNMP
 		  Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/54d9b61a-815a-41c3-9365-ec4478acc3f2">WinSNMP API Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>
  
 
  

@@ -69,5 +69,5 @@ Pointer to a variable, constant, or data member.
 
 ### -field lptcomp
 
-The <a href="https://msdn.microsoft.com/4d35370f-506f-45cd-9d75-e48c640d8f4d">ITypeComp</a> that binds the pointer.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a> that binds the pointer.
 

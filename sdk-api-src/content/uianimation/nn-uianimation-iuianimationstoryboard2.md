@@ -59,7 +59,7 @@ Defines a storyboard, which contains a group of transitions
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/ABB7184F-A703-45E3-96D8-E3062EEB9565">Abandon Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-abandon">Abandon Method</a>
 
 
 </td>
@@ -71,7 +71,7 @@ Terminates the storyboard, releases all related animation variables, and removes
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/F5D13D36-1AEE-4D47-9683-A428E9ADF1D6">AddKeyframeAfterTransition Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-addkeyframeaftertransition">AddKeyframeAfterTransition Method</a>
 
 
 </td>
@@ -83,7 +83,7 @@ Adds a keyframe at the end of the specified transition.
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/6AB47BC1-4437-4191-8B66-8545EB4102A9">AddKeyframeAtOffset Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-addkeyframeatoffset">AddKeyframeAtOffset Method</a>
 
 
 </td>
@@ -95,7 +95,7 @@ Adds a keyframe at the specified offset from an existing keyframe.
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/BFC05D67-EE1C-489E-9A8C-10F0AAB24A0A">AddTransition Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-addtransition">AddTransition Method</a>
 
 
 </td>
@@ -107,7 +107,7 @@ Adds a transition to the storyboard.
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/F4DAB833-E857-4FD8-87E2-8F32AF460F90">AddTransitionAtKeyframe Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-addtransitionatkeyframe">AddTransitionAtKeyframe Method</a>
 
 
 </td>
@@ -119,7 +119,7 @@ Adds a transition that starts at the specified keyframe.
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/55AEA5EA-7D9E-4669-8315-7A6F4428EDF9">AddTransitionBetweenKeyframes Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-addtransitionbetweenkeyframes">AddTransitionBetweenKeyframes Method</a>
 
 
 </td>
@@ -131,19 +131,19 @@ Adds a transition between two keyframes.
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/C7687E52-433F-4E73-910D-86298E528F7B">Conclude Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-conclude">Conclude Method</a>
 
 
 </td>
 <td>
-Completes the current iteration of a keyframe loop that is in progress (where the loop is set to <a href="https://msdn.microsoft.com/09213B74-16C9-48F9-9626-59FF6CFDE975">UI_ANIMATION_REPEAT_INDEFINITELY</a>), terminates the loop, and continues with the storyboard. 
+Completes the current iteration of a keyframe loop that is in progress (where the loop is set to <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/ui-animation-repeat-indefinitely">UI_ANIMATION_REPEAT_INDEFINITELY</a>), terminates the loop, and continues with the storyboard. 
 
 </td>
 </tr>
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/632BC77D-F2C5-4D08-8E9C-0598617A1DA7">Finish Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-finish">Finish Method</a>
 
 
 </td>
@@ -155,7 +155,7 @@ Finishes the storyboard within the specified time, compressing the storyboard if
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/014F8A6A-345A-4DA7-8002-20A4683BB3B6">GetElapsedTime Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-getelapsedtime">GetElapsedTime Method</a>
 
 
 </td>
@@ -167,7 +167,7 @@ Gets the time that has elapsed since the storyboard started playing.
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/1694B720-891A-4214-A009-6AA722E5B83D">GetStatus Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-getstatus">GetStatus Method</a>
 
 
 </td>
@@ -179,7 +179,7 @@ Gets the status of the storyboard.
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/A73D5003-FC28-4A79-B157-3D0D2E0DEB3D">GetTag Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-gettag">GetTag Method</a>
 
 
 </td>
@@ -191,7 +191,7 @@ Gets the tag for a storyboard.
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/E6B7C4F9-2377-4968-A16F-15F174EC5439">HoldVariable Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-holdvariable">HoldVariable Method</a>
 
 
 </td>
@@ -203,7 +203,7 @@ Directs the storyboard to hold the specified animation variable at its final val
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/31BC2628-14B3-4405-BA9B-4FB275D9AC0D">RepeatBetweenKeyframes Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-repeatbetweenkeyframes">RepeatBetweenKeyframes Method</a>
 
 
 </td>
@@ -215,7 +215,7 @@ Creates a loop between two keyframes.
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/9F20AE4A-F693-4DDA-90F4-FCCA5291208B">Schedule Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-schedule">Schedule Method</a>
 
 
 </td>
@@ -227,7 +227,7 @@ Directs the storyboard to schedule itself for play.
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/177623D7-5516-41EA-9014-61B150E527D9">SetSkipDuration Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-setskipduration">SetSkipDuration Method</a>
 
 
 </td>
@@ -239,7 +239,7 @@ Specifies an offset from the beginning of a storyboard at which to start animati
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/D23F4833-413C-470B-8572-2DCB051576A3">SetLongestAcceptableDelay Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-setlongestacceptabledelay">SetLongestAcceptableDelay Method</a>
 
 
 </td>
@@ -251,7 +251,7 @@ Sets the longest acceptable delay before the scheduled storyboard begins.
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/9C105DDC-4BED-45FC-B4AE-2331A228BB86">SetStoryboardEventHandler Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-setstoryboardeventhandler">SetStoryboardEventHandler Method</a>
 
 
 </td>
@@ -263,7 +263,7 @@ Specifies a handler for storyboard events.
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/9BEB2BF7-55F7-43F7-822C-CB4AC6F29E32">SetTag Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-settag">SetTag Method</a>
 
 
 </td>
@@ -288,7 +288,7 @@ The <b>IUIAnimationStoryboard2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ABB7184F-A703-45E3-96D8-E3062EEB9565">Abandon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-abandon">Abandon</a>
 </td>
 <td align="left" width="63%">
 Terminates the storyboard, releases all related animation variables, and removes the storyboard from the schedule.
@@ -297,7 +297,7 @@ Terminates the storyboard, releases all related animation variables, and removes
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F5D13D36-1AEE-4D47-9683-A428E9ADF1D6">AddKeyframeAfterTransition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-addkeyframeaftertransition">AddKeyframeAfterTransition</a>
 </td>
 <td align="left" width="63%">
 Adds a keyframe at the end of the specified transition.
@@ -306,7 +306,7 @@ Adds a keyframe at the end of the specified transition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6AB47BC1-4437-4191-8B66-8545EB4102A9">AddKeyframeAtOffset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-addkeyframeatoffset">AddKeyframeAtOffset</a>
 </td>
 <td align="left" width="63%">
 Adds a keyframe at the specified offset from an existing keyframe.
@@ -315,7 +315,7 @@ Adds a keyframe at the specified offset from an existing keyframe.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/BFC05D67-EE1C-489E-9A8C-10F0AAB24A0A">AddTransition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-addtransition">AddTransition</a>
 </td>
 <td align="left" width="63%">
 Adds a transition to the storyboard.
@@ -324,7 +324,7 @@ Adds a transition to the storyboard.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F4DAB833-E857-4FD8-87E2-8F32AF460F90">AddTransitionAtKeyframe</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-addtransitionatkeyframe">AddTransitionAtKeyframe</a>
 </td>
 <td align="left" width="63%">
 Adds a transition that starts at the specified keyframe.
@@ -333,7 +333,7 @@ Adds a transition that starts at the specified keyframe.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/55AEA5EA-7D9E-4669-8315-7A6F4428EDF9">AddTransitionBetweenKeyframes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-addtransitionbetweenkeyframes">AddTransitionBetweenKeyframes</a>
 </td>
 <td align="left" width="63%">
 Adds a transition between two keyframes.
@@ -342,16 +342,16 @@ Adds a transition between two keyframes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C7687E52-433F-4E73-910D-86298E528F7B">Conclude</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-conclude">Conclude</a>
 </td>
 <td align="left" width="63%">
-Completes the current iteration of a keyframe loop that is in progress (where the loop is set to <a href="https://msdn.microsoft.com/09213B74-16C9-48F9-9626-59FF6CFDE975">UI_ANIMATION_REPEAT_INDEFINITELY</a>), terminates the loop, and continues with the storyboard. 
+Completes the current iteration of a keyframe loop that is in progress (where the loop is set to <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/ui-animation-repeat-indefinitely">UI_ANIMATION_REPEAT_INDEFINITELY</a>), terminates the loop, and continues with the storyboard. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/632BC77D-F2C5-4D08-8E9C-0598617A1DA7">Finish</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-finish">Finish</a>
 </td>
 <td align="left" width="63%">
 Finishes the storyboard within the specified time, compressing the storyboard if necessary.
@@ -360,7 +360,7 @@ Finishes the storyboard within the specified time, compressing the storyboard if
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/014F8A6A-345A-4DA7-8002-20A4683BB3B6">GetElapsedTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-getelapsedtime">GetElapsedTime</a>
 </td>
 <td align="left" width="63%">
 Gets the time that has elapsed since the storyboard started playing.
@@ -369,7 +369,7 @@ Gets the time that has elapsed since the storyboard started playing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1694B720-891A-4214-A009-6AA722E5B83D">GetStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-getstatus">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Gets the status of the storyboard.
@@ -378,7 +378,7 @@ Gets the status of the storyboard.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A73D5003-FC28-4A79-B157-3D0D2E0DEB3D">GetTag</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-gettag">GetTag</a>
 </td>
 <td align="left" width="63%">
 Gets the tag for a storyboard.
@@ -387,7 +387,7 @@ Gets the tag for a storyboard.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E6B7C4F9-2377-4968-A16F-15F174EC5439">HoldVariable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-holdvariable">HoldVariable</a>
 </td>
 <td align="left" width="63%">
 Directs the storyboard to hold the specified animation variable at its final value until the storyboard ends.
@@ -396,7 +396,7 @@ Directs the storyboard to hold the specified animation variable at its final val
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/31BC2628-14B3-4405-BA9B-4FB275D9AC0D">RepeatBetweenKeyframes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-repeatbetweenkeyframes">RepeatBetweenKeyframes</a>
 </td>
 <td align="left" width="63%">
 Creates a loop between two keyframes.
@@ -405,7 +405,7 @@ Creates a loop between two keyframes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9F20AE4A-F693-4DDA-90F4-FCCA5291208B">Schedule</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-schedule">Schedule</a>
 </td>
 <td align="left" width="63%">
 Directs the storyboard to schedule itself for play.
@@ -414,7 +414,7 @@ Directs the storyboard to schedule itself for play.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D23F4833-413C-470B-8572-2DCB051576A3">SetLongestAcceptableDelay</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-setlongestacceptabledelay">SetLongestAcceptableDelay</a>
 </td>
 <td align="left" width="63%">
 Sets the longest acceptable delay before the scheduled storyboard begins.
@@ -423,7 +423,7 @@ Sets the longest acceptable delay before the scheduled storyboard begins.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/177623D7-5516-41EA-9014-61B150E527D9">SetSkipDuration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-setskipduration">SetSkipDuration</a>
 </td>
 <td align="left" width="63%">
 Specifies an offset from the beginning of a storyboard at which to start animating.
@@ -432,7 +432,7 @@ Specifies an offset from the beginning of a storyboard at which to start animati
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9C105DDC-4BED-45FC-B4AE-2331A228BB86">SetStoryboardEventHandler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-setstoryboardeventhandler">SetStoryboardEventHandler</a>
 </td>
 <td align="left" width="63%">
 Specifies a handler for storyboard events.
@@ -441,7 +441,7 @@ Specifies a handler for storyboard events.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9BEB2BF7-55F7-43F7-822C-CB4AC6F29E32">SetTag</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-settag">SetTag</a>
 </td>
 <td align="left" width="63%">
 Sets the tag for the storyboard.
@@ -460,7 +460,7 @@ Adds a transition that starts at the specified keyframe.
 
 Adds a transition between two keyframes.
 
-Completes the current iteration of a keyframe loop that is in progress (where the loop is set to <a href="https://msdn.microsoft.com/09213B74-16C9-48F9-9626-59FF6CFDE975">UI_ANIMATION_REPEAT_INDEFINITELY</a>), terminates the loop, and continues with the storyboard. 
+Completes the current iteration of a keyframe loop that is in progress (where the loop is set to <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/ui-animation-repeat-indefinitely">UI_ANIMATION_REPEAT_INDEFINITELY</a>), terminates the loop, and continues with the storyboard. 
 
 Finishes the storyboard within the specified time, compressing the storyboard if necessary.
 

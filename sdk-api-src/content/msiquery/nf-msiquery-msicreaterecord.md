@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 The 
 <b>MsiCreateRecord</b> function creates a new record object with the specified number of fields. This function returns a handle that should be closed using 
-<a href="https://msdn.microsoft.com/b9e90ed4-fda8-4628-a713-67c651e1b572">MsiCloseHandle</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a>.
 
 
 ## -parameters
@@ -84,7 +84,7 @@ Field 0 of the record object created by the
 <b>MsiCreateRecord</b> function is used for format strings and operation codes and is not included in the count specified by <i>cParams</i>. All fields are initialized to null.
 
 Note that it is recommended to use variables of type PMSIHANDLE because the installer closes PMSIHANDLE objects as they go out of scope, whereas you must close MSIHANDLE objects by calling 
-<a href="https://msdn.microsoft.com/b9e90ed4-fda8-4628-a713-67c651e1b572">MsiCloseHandle</a>. For more information see <a href="https://msdn.microsoft.com/en-us/library/Bb204770(v=VS.85).aspx">Use PMSIHANDLE instead of HANDLE</a> section in the <a href="https://msdn.microsoft.com/ff48d995-fe6f-4d1b-898d-67574ed3c5b7">Windows Installer Best Practices</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a>. For more information see <a href="https://docs.microsoft.com/windows/desktop/Msi/windows-installer-best-practices">Use PMSIHANDLE instead of HANDLE</a> section in the <a href="https://docs.microsoft.com/windows/desktop/Msi/windows-installer-best-practices">Windows Installer Best Practices</a>.
 
 
 
@@ -94,11 +94,11 @@ Note that it is recommended to use variables of type PMSIHANDLE because the inst
 
 
 
-<a href="https://msdn.microsoft.com/95516437-9708-4f4e-a5c2-7bcd4741c776">Database Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Database Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Record Processing Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Record Processing Functions</a>
  
 
  

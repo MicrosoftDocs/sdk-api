@@ -77,11 +77,11 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a>
 
 
 
-<a href="https://msdn.microsoft.com/9a820165-2f78-44f4-b49f-dc7a2b6fb4e5">DnsAcquireContextHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsacquirecontexthandle_a">DnsAcquireContextHandle</a>
  
 
  

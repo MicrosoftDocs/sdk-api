@@ -54,7 +54,7 @@ Exposes methods that retrieves information about what input and output pins are 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMILBitmapEffectConnectionsInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMILBitmapEffectConnectionsInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMILBitmapEffectConnectionsInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMILBitmapEffectConnectionsInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,16 +69,16 @@ The <b>IMILBitmapEffectConnectionsInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735307(v=VS.85).aspx">GetInputConnectorInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectconnectionsinfo-getinputconnectorinfo">GetInputConnectorInfo</a>
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms735303(v=VS.85).aspx">IMILBitmapEffectConnectorInfo</a> associated with the given input pin.
+Retrieves the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffectconnectorinfo">IMILBitmapEffectConnectorInfo</a> associated with the given input pin.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735308(v=VS.85).aspx">GetNumberInputs</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectconnectionsinfo-getnumberinputs">GetNumberInputs</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of input pins the bitmap effect implements.
@@ -87,7 +87,7 @@ Retrieves the number of input pins the bitmap effect implements.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735309(v=VS.85).aspx">GetNumberOutputs</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectconnectionsinfo-getnumberoutputs">GetNumberOutputs</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of output pins the bitmap effect implements.
@@ -96,10 +96,10 @@ Retrieves the number of output pins the bitmap effect implements.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735310(v=VS.85).aspx">GetOutputConnectorInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectconnectionsinfo-getoutputconnectorinfo">GetOutputConnectorInfo</a>
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms735303(v=VS.85).aspx">IMILBitmapEffectConnectorInfo</a> associated with the given output pin.
+Retrieves the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffectconnectorinfo">IMILBitmapEffectConnectorInfo</a> associated with the given output pin.
 
 </td>
 </tr>

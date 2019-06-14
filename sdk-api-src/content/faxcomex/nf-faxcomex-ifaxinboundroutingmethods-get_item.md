@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IFaxInboundRoutingMethods::get_Item</b> method returns a <a href="https://msdn.microsoft.com/en-us/library/ms687470(v=VS.85).aspx">IFaxInboundRoutingMethod</a> object from the <a href="https://msdn.microsoft.com/en-us/library/ms686682(v=VS.85).aspx">IFaxInboundRoutingMethods</a> collection.
+The <b>IFaxInboundRoutingMethods::get_Item</b> method returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxinboundroutingmethod">IFaxInboundRoutingMethod</a> object from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxinboundroutingmethods">IFaxInboundRoutingMethods</a> collection.
 
 
 ## -parameters
@@ -70,9 +70,9 @@ If this parameter is type VT_I2 or VT_I4, the parameter specifies the index of t
 
 ### -param pFaxInboundRoutingMethod [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms687470(v=VS.85).aspx">IFaxInboundRoutingMethod</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxinboundroutingmethod">IFaxInboundRoutingMethod</a>**</b>
 
-Address of a pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms687470(v=VS.85).aspx">IFaxInboundRoutingMethod</a> interface.
+Address of a pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxinboundroutingmethod">IFaxInboundRoutingMethod</a> interface.
 
 
 ## -returns
@@ -91,11 +91,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686682(v=VS.85).aspx">IFaxInboundRoutingMethods</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxinboundroutingmethods">IFaxInboundRoutingMethods</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693492(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-managing-routing-extensions-and-routing-methods">Visual Basic Example</a>
  
 
  

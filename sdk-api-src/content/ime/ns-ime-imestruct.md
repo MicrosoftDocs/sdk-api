@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used by <a href="https://msdn.microsoft.com/en-us/library/Aa969468(v=VS.85).aspx">SendIMEMessageEx</a> to specify the subfunction to be executed in the Input Method Editor (IME) message and its parameters. This structure is also used to receive return values from those subfunctions.
+Used by <a href="https://docs.microsoft.com/windows/desktop/api/ime/nf-ime-sendimemessageexa">SendIMEMessageEx</a> to specify the subfunction to be executed in the Input Method Editor (IME) message and its parameters. This structure is also used to receive return values from those subfunctions.
 
 
 ## -struct-fields
@@ -79,12 +79,12 @@ Used to register words. Words are registered as an application sends a word and 
 <tr>
 <td><b>lParam1</b> [Windows 3.1]</td>
 <td><b>LPARAM</b></td>
-<td>The low-order word specifies a handle to the global memory that contains a word string ending with 0. The global memory is a memory block allocated by specifying the <b>GMEM_MOVEABLE</b> and <b>GMEM_SHARE</b> flags in the <a href="https://msdn.microsoft.com/06886545-bd5c-4d81-b1c3-dfa7e146e43a">GlobalAlloc</a> function.</td>
+<td>The low-order word specifies a handle to the global memory that contains a word string ending with 0. The global memory is a memory block allocated by specifying the <b>GMEM_MOVEABLE</b> and <b>GMEM_SHARE</b> flags in the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> function.</td>
 </tr>
 <tr>
 <td><b>lParam2</b> [Windows 3.1]</td>
 <td><b>LPARAM</b></td>
-<td>The low-order word specifies a handle to the global memory that contains a reading string ending with 0. The global memory is a memory block allocated by specifying the <b>GMEM_MOVEABLE</b> and <b>GMEM_SHARE</b> flags in the <a href="https://msdn.microsoft.com/06886545-bd5c-4d81-b1c3-dfa7e146e43a">GlobalAlloc</a> function</td>
+<td>The low-order word specifies a handle to the global memory that contains a reading string ending with 0. The global memory is a memory block allocated by specifying the <b>GMEM_MOVEABLE</b> and <b>GMEM_SHARE</b> flags in the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> function</td>
 </tr>
 <tr>
 <td><b>lParam3</b> [Windows 3.1]</td>
@@ -94,12 +94,12 @@ Used to register words. Words are registered as an application sends a word and 
 <tr>
 <td><b>lParam1</b> [Windows NT]</td>
 <td><b>LPARAM</b></td>
-<td>Specifies a handle to the global memory that contains a word string ending with 0. The global memory is a memory block allocated by specifying the <b>GMEM_MOVEABLE</b> and <b>GMEM_SHARE</b> flags in the <a href="https://msdn.microsoft.com/06886545-bd5c-4d81-b1c3-dfa7e146e43a">GlobalAlloc</a> function.</td>
+<td>Specifies a handle to the global memory that contains a word string ending with 0. The global memory is a memory block allocated by specifying the <b>GMEM_MOVEABLE</b> and <b>GMEM_SHARE</b> flags in the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> function.</td>
 </tr>
 <tr>
 <td><b>lParam2</b> [Windows NT]</td>
 <td><b>LPARAM</b></td>
-<td>Specifies a handle to the global memory that contains a reading string ending with 0. The global memory is a memory block allocated by specifying the <b>GMEM_MOVEABLE</b> and <b>GMEM_SHARE</b> flags in the <a href="https://msdn.microsoft.com/06886545-bd5c-4d81-b1c3-dfa7e146e43a">GlobalAlloc</a> function.</td>
+<td>Specifies a handle to the global memory that contains a reading string ending with 0. The global memory is a memory block allocated by specifying the <b>GMEM_MOVEABLE</b> and <b>GMEM_SHARE</b> flags in the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> function.</td>
 </tr>
 <tr>
 <td><b>lParam3</b> [Windows NT]</td>
@@ -204,12 +204,12 @@ A font to be used to display an undetermined string that appears in the conversi
 <tr>
 <td><b>lParam1</b> [Windows 3.1]</td>
 <td><b>LPARAM</b></td>
-<td>The low-order word specifies a handle to the global memory that contains a <a href="https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec145beb4">LOGFONT</a> structure that specifies the logical font. The global memory is a memory block allocated by specifying the <b>GMEM_MOVEABLE</b> and <b>GMEM_SHARE</b> flags in the <a href="https://msdn.microsoft.com/06886545-bd5c-4d81-b1c3-dfa7e146e43a">GlobalAlloc</a> function. <b>NULL</b> indicates a system font.</td>
+<td>The low-order word specifies a handle to the global memory that contains a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure that specifies the logical font. The global memory is a memory block allocated by specifying the <b>GMEM_MOVEABLE</b> and <b>GMEM_SHARE</b> flags in the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> function. <b>NULL</b> indicates a system font.</td>
 </tr>
 <tr>
 <td><b>lParam1</b> [Windows NT]</td>
 <td><b>LPARAM</b></td>
-<td>Specifies a handle to the global memory that contains a <a href="https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec145beb4">LOGFONT</a> structure that specifies the logical font. The global memory is a memory block allocated by specifying the <b>GMEM_MOVEABLE</b> and <b>GMEM_SHARE</b> flags in the <a href="https://msdn.microsoft.com/06886545-bd5c-4d81-b1c3-dfa7e146e43a">GlobalAlloc</a> function. <b>NULL</b> indicates a system font.</td>
+<td>Specifies a handle to the global memory that contains a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure that specifies the logical font. The global memory is a memory block allocated by specifying the <b>GMEM_MOVEABLE</b> and <b>GMEM_SHARE</b> flags in the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> function. <b>NULL</b> indicates a system font.</td>
 </tr>
 </table>
  
@@ -222,7 +222,7 @@ The font specified by <b>IME_SETCONVERSIONFONTEX</b> can only be used to display
 
 To display undetermined strings at the default position, use a system font. If the display position is no longer the default position, enable the previously specified font.
 
-The global memory that contains the <a href="https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec145beb4">LOGFONT</a> structure is released by the application.
+The global memory that contains the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure is released by the application.
 
 If the IME currently displaying the conversion window receives the <b>IME_SETCONVERSIONFONTEX</b> command, and as a result of the command processing the conversion window has changed, the IME should send a WM_IME_REPORT:IR_CHANGECONVERT message. This message should not be sent if the font specified by <b>IME_SETCONVERSIONFONTEX</b> is the same as the one being used by the IME.
 
@@ -352,7 +352,7 @@ If the MCW_HIDDEN style is specified in an IME_SETCONVERSIONWINDOW message, the 
 
 
 <ol>
-<li>Font information is retrieved in the <a href="https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec145beb4">LOGFONT</a> structure by the <a href="https://msdn.microsoft.com/555ab876-d990-426d-915c-f98df82a10aa">GetObject</a> function using the font handle of SYSTEM_FONT.</li>
+<li>Font information is retrieved in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a> function using the font handle of SYSTEM_FONT.</li>
 <li>The font is created by adding an ampersand (@) at the beginning of the face name and setting the escapement and orientation to 270 degrees.</li>
 </ol>
 
@@ -469,7 +469,7 @@ Usage depends on the subfunction specified in <b>fnc</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648709(v=VS.85).aspx">Clipboard</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/clipboard">Clipboard</a>
 
 
 
@@ -481,7 +481,7 @@ Usage depends on the subfunction specified in <b>fnc</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649051(v=VS.85).aspx">SetClipboardData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setclipboarddata">SetClipboardData</a>
  
 
  

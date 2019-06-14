@@ -65,7 +65,7 @@ This property is read/write.
 
 Specify parameters only if the classifier expects the rule to pass parameters.
 
-The parameters are not passed directly to the classifier. Instead the rule is passed to the classifier which contains the parameters (see the <a href="https://msdn.microsoft.com/69d848b9-4143-4b6c-9a45-66ff44c54b66">IFsrmPipelineModuleImplementation::OnLoad</a> method).
+The parameters are not passed directly to the classifier. Instead the rule is passed to the classifier which contains the parameters (see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpipelinemoduleimplementation-onload">IFsrmPipelineModuleImplementation::OnLoad</a> method).
 
 FSRM does not limit the length of the parameter name or value, nor does it limit the number of parameters that you can specify. Specifying a parameter without a value is valid (for example, "parameter=").
 
@@ -77,7 +77,7 @@ FSRM does not limit the length of the parameter name or value, nor does it limit
 
 
 
-<a href="https://msdn.microsoft.com/e1de871f-a2c9-4787-a3e8-8c3428e9249e">IFsrmRule</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmrule">IFsrmRule</a>
  
 
  

@@ -61,7 +61,7 @@ Retrieves the capabilities of the palette object.
 
 #### - lpdwCaps [out]
 
-A pointer to a variable that receives a value from the <b>dwPalCaps</b> member of the <a href="https://msdn.microsoft.com/4ddda0a7-c0db-47cf-a908-959aabb530c6">DDCAPS</a> structure that defines palette capabilities. This value consists of one or more of the following flags:
+A pointer to a variable that receives a value from the <b>dwPalCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-_ddcaps_dx3">DDCAPS</a> structure that defines palette capabilities. This value consists of one or more of the following flags:
 
 
 
@@ -97,7 +97,7 @@ The index refers to an 8-bit color index. This flag is valid only when used with
 
 #### DDPCAPS_ALPHA
 
-The <b>peFlags</b> member of the associated <a href="https://msdn.microsoft.com/6430e7cf-c9f2-4376-8b17-28c10d9d0f00">PALETTEENTRY</a> structure must be interpreted as a single 8-bit alpha value (in addition to the <b>peRed</b>, <b>peGreen</b>, and <b>peBlue</b> members). A palette created with this flag can be attached only to a texture: a surface created with the DDSCAPS_TEXTURE capability flag.
+The <b>peFlags</b> member of the associated <a href="https://docs.microsoft.com/previous-versions//dd162769(v=vs.85)">PALETTEENTRY</a> structure must be interpreted as a single 8-bit alpha value (in addition to the <b>peRed</b>, <b>peGreen</b>, and <b>peBlue</b> members). A palette created with this flag can be attached only to a texture: a surface created with the DDSCAPS_TEXTURE capability flag.
 
 
 
@@ -145,7 +145,7 @@ If it fails, the method can return one of the following error values:
 
 
 
-You must use <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> to access the <b>GetCaps</b> method.
+You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>GetCaps</b> method.
 
 
 
@@ -155,7 +155,7 @@ You must use <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d
 
 
 
-<a href="https://msdn.microsoft.com/82dad1d4-2368-4cb0-a45c-0de894b016b7">IDirectDrawPalette</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawpalette">IDirectDrawPalette</a>
  
 
  

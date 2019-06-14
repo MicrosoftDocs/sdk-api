@@ -66,32 +66,32 @@ The unique identifier of the property.
 
 ### -field pProgrammaticName
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCWSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
 
 The programmatic name of the property (a non-localizable string).
 
 
 ### -field type
 
-Type: <b><a href="https://msdn.microsoft.com/6090d5b5-2376-43ce-bef2-49bb3515107a">UIAutomationType</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-uiautomationtype">UIAutomationType</a></b>
 
-A value from the <a href="https://msdn.microsoft.com/6090d5b5-2376-43ce-bef2-49bb3515107a">UIAutomationType</a> enumerated type indicating the data type of the property value.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-uiautomationtype">UIAutomationType</a> enumerated type indicating the data type of the property value.
 
 
 ## -remarks
 
 
 
-A custom property must have one of the following data types specified by the <a href="https://msdn.microsoft.com/6090d5b5-2376-43ce-bef2-49bb3515107a">UIAutomationType</a> enumeration. No other data types are supported for custom properties. For more information, see <a href="https://msdn.microsoft.com/d1eca598-1a02-4437-8036-77c8d62032d5">Custom Properties, Events, and Control Patterns</a>.
+A custom property must have one of the following data types specified by the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-uiautomationtype">UIAutomationType</a> enumeration. No other data types are supported for custom properties. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-custompropertieseventscontrolpatterns">Custom Properties, Events, and Control Patterns</a>.
 
 
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/Ee684080(v=VS.85).aspx">UIAutomationType_Bool</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/Ee684080(v=VS.85).aspx">UIAutomationType_Double</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/Ee684080(v=VS.85).aspx">UIAutomationType_Element</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/Ee684080(v=VS.85).aspx">UIAutomationType_Int</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/Ee684080(v=VS.85).aspx">UIAutomationType_Point</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/Ee684080(v=VS.85).aspx">UIAutomationType_String</a></li>
+<li><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-uiautomationtype">UIAutomationType_Bool</a></li>
+<li><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-uiautomationtype">UIAutomationType_Double</a></li>
+<li><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-uiautomationtype">UIAutomationType_Element</a></li>
+<li><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-uiautomationtype">UIAutomationType_Int</a></li>
+<li><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-uiautomationtype">UIAutomationType_Point</a></li>
+<li><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-uiautomationtype">UIAutomationType_String</a></li>
 </ul>
 
 
@@ -101,11 +101,11 @@ A custom property must have one of the following data types specified by the <a 
 
 
 
-<a href="https://msdn.microsoft.com/d1eca598-1a02-4437-8036-77c8d62032d5">Custom Properties, Events, and Control Patterns</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-custompropertieseventscontrolpatterns">Custom Properties, Events, and Control Patterns</a>
 
 
 
-<a href="https://msdn.microsoft.com/225bbbec-5910-4711-b713-3409c9925be2">RegisterProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iuiautomationregistrar-registerproperty">RegisterProperty</a>
  
 
  

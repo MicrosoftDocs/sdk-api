@@ -88,7 +88,7 @@ This flag should be set if the option is provided by a vendor.
 ### -param OptionID [in]
 
 
-<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_OPTION_ID</a> value that specifies the code for a specific DHCP option.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_OPTION_ID</a> value that specifies the code for a specific DHCP option.
 
 
 ### -param ClassName [in]
@@ -103,14 +103,14 @@ Pointer to a Unicode string that specifies the vendor of the option. This parame
 
 ### -param OptionInfo [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/1be34eb4-a226-4f07-b763-173a4f8a0671">DHCP_OPTION</a> structure that contains the information on the option specified by <i>OptionID</i>.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_option">DHCP_OPTION</a> structure that contains the information on the option specified by <i>OptionID</i>.
 
 
 ## -returns
 
 
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://msdn.microsoft.com/6370313f-d7db-4ff1-b0e0-7fa47474facb">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -161,11 +161,11 @@ The provided class name is either incorrect or does not exist on the DHCP server
 
 
 
-<a href="https://msdn.microsoft.com/1be34eb4-a226-4f07-b763-173a4f8a0671">DHCP_OPTION</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_option">DHCP_OPTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf7b744d-da02-4c2f-b29a-e2b9b3fe3881">DhcpGetOptionInfoV5</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpgetoptioninfov5">DhcpGetOptionInfoV5</a>
  
 
  

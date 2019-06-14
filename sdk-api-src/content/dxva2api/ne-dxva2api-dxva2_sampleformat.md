@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Describes the content of a video sample. These flags are used in the <a href="https://msdn.microsoft.com/eba2c56b-8951-4dc5-91ae-1371793ce787">DXVA2_ExtendedFormat</a> structure.
+Describes the content of a video sample. These flags are used in the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_extendedformat">DXVA2_ExtendedFormat</a> structure.
 
 
 
@@ -106,7 +106,7 @@ The sample contains a video substream frame. Use this value for substream mixing
 
 This enumeration is equivalent to the <b>DXVA_SampleFormat</b> enumeration used in DXVA 1.0.
 
-The following table shows the mapping from <a href="https://msdn.microsoft.com/10a3d7b1-74ed-46cd-b10e-59a8f01726d5">MFVideoInterlaceMode</a> enumeration values, which are used in Media Foundation media types, to <b>DXVA2_SampleFormat</b> values.
+The following table shows the mapping from <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-_mfvideointerlacemode">MFVideoInterlaceMode</a> enumeration values, which are used in Media Foundation media types, to <b>DXVA2_SampleFormat</b> values.
 
 <table>
 <tr>
@@ -139,14 +139,14 @@ The following table shows the mapping from <a href="https://msdn.microsoft.com/1
 </tr>
 <tr>
 <td>MFVideoInterlace_MixedInterlaceOrProgressive</td>
-<td>No exact match. Use DXVA2_SampleFieldInterleavedEvenFirst as an initial value, then use the interlace flags from the media samples. For more information, see <a href="https://msdn.microsoft.com/2911ae57-1703-4a9d-bd33-94af1e0f8804">Video Interlacing</a>.</td>
+<td>No exact match. Use DXVA2_SampleFieldInterleavedEvenFirst as an initial value, then use the interlace flags from the media samples. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/video-interlacing">Video Interlacing</a>.</td>
 </tr>
 </table>
  
 
 With the exception of MFVideoInterlace_MixedInterlaceOrProgressive, each pair of corresponding enumeration values has the same numeric value.
 
-The value DXVA2_SampleSubStream has no equivalent in the <a href="https://msdn.microsoft.com/10a3d7b1-74ed-46cd-b10e-59a8f01726d5">MFVideoInterlaceMode</a> enumeration.
+The value DXVA2_SampleSubStream has no equivalent in the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-_mfvideointerlacemode">MFVideoInterlaceMode</a> enumeration.
 
 
 
@@ -156,7 +156,7 @@ The value DXVA2_SampleSubStream has no equivalent in the <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

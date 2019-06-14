@@ -91,7 +91,7 @@ The operation was successful.
 </dl>
 </td>
 <td width="60%">
-The provider name is not available.  The Mobile Broadband service is currently probing the device for the information.  When the provider name is available, the Mobile Broadband service will call the <a href="https://msdn.microsoft.com/5c916f16-e8f5-4c8a-942c-3a9ae11905a7">OnRegisterModeAvailable</a> method of <a href="https://msdn.microsoft.com/f3b60a93-3b57-4c2c-9114-912ca47f16b2">IMbnRegistrationEvents</a>.
+The provider name is not available.  The Mobile Broadband service is currently probing the device for the information.  When the provider name is available, the Mobile Broadband service will call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnregistrationevents-onregistermodeavailable">OnRegisterModeAvailable</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnregistrationevents">IMbnRegistrationEvents</a>.
 
 </td>
 </tr>
@@ -138,9 +138,9 @@ A bad SIM is inserted in the device.
 
 
 
-The provider name may change when the Mobile Broadband device moves from one network to another. This includes whenever there is change from <b>MBN_REGISTER_STATE_HOME</b> to <b>MBN_REGISTER_STATE_SEARCHING</b> in the network registration state.  This also occurs when there is a change in the registered network, such as when a  network changes its registration from one provider to another.  After such changes, the Mobile Broadband service will call the  <a href="https://msdn.microsoft.com/62393a9b-70e5-4819-8df1-59b94c1b6922">OnRegisterStateChange</a> method of <a href="https://msdn.microsoft.com/f3b60a93-3b57-4c2c-9114-912ca47f16b2">IMbnRegistrationEvents</a>. When this happens, the application should call <a href="https://msdn.microsoft.com/0b21a103-2b49-4d99-8041-c9da9cbc5750">GetProviderID</a>.
+The provider name may change when the Mobile Broadband device moves from one network to another. This includes whenever there is change from <b>MBN_REGISTER_STATE_HOME</b> to <b>MBN_REGISTER_STATE_SEARCHING</b> in the network registration state.  This also occurs when there is a change in the registered network, such as when a  network changes its registration from one provider to another.  After such changes, the Mobile Broadband service will call the  <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnregistrationevents-onregisterstatechange">OnRegisterStateChange</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnregistrationevents">IMbnRegistrationEvents</a>. When this happens, the application should call <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getproviderid">GetProviderID</a>.
 
-For the recoverable error <b>E_MBN_PIN_REQUIRED</b>, the Mobile Broadband service will try to refetch this information from the device when the error condition is over (when a PIN is entered).  Then it will call the  <a href="https://msdn.microsoft.com/62393a9b-70e5-4819-8df1-59b94c1b6922">OnRegisterStateChange</a> method of <a href="https://msdn.microsoft.com/f3b60a93-3b57-4c2c-9114-912ca47f16b2">IMbnRegistrationEvents</a>.
+For the recoverable error <b>E_MBN_PIN_REQUIRED</b>, the Mobile Broadband service will try to refetch this information from the device when the error condition is over (when a PIN is entered).  Then it will call the  <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnregistrationevents-onregisterstatechange">OnRegisterStateChange</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnregistrationevents">IMbnRegistrationEvents</a>.
 
 
 
@@ -151,7 +151,7 @@ For the recoverable error <b>E_MBN_PIN_REQUIRED</b>, the Mobile Broadband servic
 
 
 
-<a href="https://msdn.microsoft.com/da5413b7-adf4-4a3d-893f-f51441460541">IMbnRegistration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnregistration">IMbnRegistration</a>
  
 
  

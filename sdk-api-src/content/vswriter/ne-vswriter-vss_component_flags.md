@@ -51,11 +51,11 @@ ms.custom: 19H1
 
 The <b>VSS_COMPONENT_FLAGS</b> enumeration is 
     used by writers to indicate support for 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa384651(v=VS.85).aspx">auto-recovery</a>. These 
+    <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-a">auto-recovery</a>. These 
     values are used in the <b>dwComponentFlags</b> member of 
-    the <a href="https://msdn.microsoft.com/9723e90e-cd5e-4815-843b-8ed8632ebe45">VSS_COMPONENTINFO</a> structure and the 
+    the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/ns-vsbackup-_vss_componentinfo">VSS_COMPONENTINFO</a> structure and the 
     <i>dwComponentFlags</i> parameter of 
-    the <a href="https://msdn.microsoft.com/fdbcbcea-d49e-49bc-9bb8-2210a9de02a4">IVssCreateWriterMetadata::AddComponent</a> method.
+    the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addcomponent">IVssCreateWriterMetadata::AddComponent</a> method.
 
 
 ## -enum-fields
@@ -68,7 +68,7 @@ The <b>VSS_COMPONENT_FLAGS</b> enumeration is
 The writer will need write access to this component after the shadow copy has been created.
       
 
-This flag can be used together with the <b>VSS_VOLSNAP_ATTR_TRANSPORTABLE</b> value of the <a href="https://msdn.microsoft.com/0326a81e-036c-4548-9e09-29054e51fadd">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a> enumeration if the VSS hardware provider supports LUN masking.<b>Windows Vista and Windows Server 2003 with SP1:  </b>This flag is incompatible with <b>VSS_VOLSNAP_ATTR_TRANSPORTABLE</b>.
+This flag can be used together with the <b>VSS_VOLSNAP_ATTR_TRANSPORTABLE</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a> enumeration if the VSS hardware provider supports LUN masking.<b>Windows Vista and Windows Server 2003 with SP1:  </b>This flag is incompatible with <b>VSS_VOLSNAP_ATTR_TRANSPORTABLE</b>.
 
 
 
@@ -78,11 +78,11 @@ This flag is not supported for express writers.
 ### -field VSS_CF_APP_ROLLBACK_RECOVERY
 
 If this is a rollback shadow copy 
-      (see the <b>VSS_VOLSNAP_ATTR_ROLLBACK_RECOVERY</b> value of the <a href="https://msdn.microsoft.com/0326a81e-036c-4548-9e09-29054e51fadd">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a> enumeration), the writer for this 
+      (see the <b>VSS_VOLSNAP_ATTR_ROLLBACK_RECOVERY</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a> enumeration), the writer for this 
       component will need write access to this component after the shadow copy has been created.
       
 
-This flag can be used together with the <b>VSS_VOLSNAP_ATTR_TRANSPORTABLE</b> value of the <a href="https://msdn.microsoft.com/0326a81e-036c-4548-9e09-29054e51fadd">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a> enumeration if the VSS hardware provider supports LUN masking.<b>Windows Vista and Windows Server 2003 with SP1:  </b>This flag is incompatible with <b>VSS_VOLSNAP_ATTR_TRANSPORTABLE</b>.
+This flag can be used together with the <b>VSS_VOLSNAP_ATTR_TRANSPORTABLE</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a> enumeration if the VSS hardware provider supports LUN masking.<b>Windows Vista and Windows Server 2003 with SP1:  </b>This flag is incompatible with <b>VSS_VOLSNAP_ATTR_TRANSPORTABLE</b>.
 
 
 
@@ -101,19 +101,19 @@ This component is not part of system state.
 
 
 
-<a href="https://msdn.microsoft.com/fdbcbcea-d49e-49bc-9bb8-2210a9de02a4">IVssCreateWriterMetadata::AddComponent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addcomponent">IVssCreateWriterMetadata::AddComponent</a>
 
 
 
-<a href="https://msdn.microsoft.com/3541c8bd-2712-458b-9153-1fffe6bf5688">VSS_BACKUP_SCHEMA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_backup_schema">VSS_BACKUP_SCHEMA</a>
 
 
 
-<a href="https://msdn.microsoft.com/9723e90e-cd5e-4815-843b-8ed8632ebe45">VSS_COMPONENTINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/ns-vsbackup-_vss_componentinfo">VSS_COMPONENTINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/31997417-d993-4f28-b108-ce1dd8239650">VSS_USAGE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_usage_type">VSS_USAGE_TYPE</a>
  
 
  

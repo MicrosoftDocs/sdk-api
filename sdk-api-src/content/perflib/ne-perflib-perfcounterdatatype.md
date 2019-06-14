@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates the content type of a <a href="https://msdn.microsoft.com/8C07E4BB-61CD-4A0F-8C23-86BE7DAA415F">PERF_COUNTER_HEADER</a> block that the <a href="https://msdn.microsoft.com/EBCF00E0-6C40-40E5-9F3D-9AE5F9AB74AC">PerfQueryCounterData</a> function includes as part of the <a href="https://msdn.microsoft.com/0B30B30A-2B2D-43D8-B6DD-58C70D54EB58">PERF_DATA_HEADER</a> block that the function produces as output.
+Indicates the content type of a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_header">PERF_COUNTER_HEADER</a> block that the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfquerycounterdata">PerfQueryCounterData</a> function includes as part of the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_data_header">PERF_DATA_HEADER</a> block that the function produces as output.
 
 
 ## -enum-fields
@@ -87,11 +87,11 @@ The query returned multiple counters from each of multiple instances.
 
 
 
-<a href="https://msdn.microsoft.com/8C07E4BB-61CD-4A0F-8C23-86BE7DAA415F">PERF_COUNTER_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_header">PERF_COUNTER_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/EBCF00E0-6C40-40E5-9F3D-9AE5F9AB74AC">PerfQueryCounterData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfquerycounterdata">PerfQueryCounterData</a>
  
 
  

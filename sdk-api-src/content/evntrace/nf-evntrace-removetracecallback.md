@@ -56,7 +56,7 @@ ms.custom: 19H1
 <p class="CCE_Message">[Do not use this function; it may be unavailable in subsequent versions.]
 
 The <b>RemoveTraceCallback</b> function stops an 
-    <a href="https://msdn.microsoft.com/32e94f58-b8b6-4e0a-b53b-716a534ac374">EventClassCallback</a> function from receiving events 
+    <a href="https://docs.microsoft.com/windows/desktop/ETW/eventclasscallback">EventClassCallback</a> function from receiving events 
     for an event trace class.
 
 
@@ -68,7 +68,7 @@ The <b>RemoveTraceCallback</b> function stops an
 ### -param pGuid [in]
 
 Pointer to the class GUID of the event trace class for which the callback receives events. Use the same 
-      class GUID that you passed to the <a href="https://msdn.microsoft.com/8663f64f-a203-43e5-94e8-337f2d81c3a0">SetTraceCallback</a> 
+      class GUID that you passed to the <a href="https://docs.microsoft.com/windows/desktop/ETW/settracecallback">SetTraceCallback</a> 
       to begin receiving the events.
 
 
@@ -79,7 +79,7 @@ Pointer to the class GUID of the event trace class for which the callback receiv
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is one of the 
-       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>. The following table includes some 
+       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some 
        common errors and their causes.
 
 <table>
@@ -105,7 +105,7 @@ The <i>pGuid</i> parameter is <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-There is no <a href="https://msdn.microsoft.com/32e94f58-b8b6-4e0a-b53b-716a534ac374">EventClassCallback</a> 
+There is no <a href="https://docs.microsoft.com/windows/desktop/ETW/eventclasscallback">EventClassCallback</a> 
         function associated with the event trace class.
 
 </td>
@@ -130,15 +130,15 @@ Consumers call this function.
 
 
 
-<a href="https://msdn.microsoft.com/32e94f58-b8b6-4e0a-b53b-716a534ac374">EventClassCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/eventclasscallback">EventClassCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/aea25a95-f435-4068-9b15-7473f31ebf16">ProcessTrace</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a>
 
 
 
-<a href="https://msdn.microsoft.com/8663f64f-a203-43e5-94e8-337f2d81c3a0">SetTraceCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/settracecallback">SetTraceCallback</a>
  
 
  

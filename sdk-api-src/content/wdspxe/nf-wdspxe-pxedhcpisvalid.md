@@ -60,7 +60,7 @@ Validates that a packet is a DHCP packet.
 ### -param pPacket [in]
 
 Pointer to a reply packet allocated with 
-      the <a href="https://msdn.microsoft.com/f3a664a8-565c-4894-bea7-6664df0ecd9b">PxePacketAllocate</a> function.
+      the <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxepacketallocate">PxePacketAllocate</a> function.
 
 
 ### -param uPacketLen [in]
@@ -124,7 +124,7 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 
 Providers use this function when the filter set with 
-    the  <a href="https://msdn.microsoft.com/01f7b50b-966b-4ff9-b933-851eaf1f1411">PxeProviderSetAttribute</a> function is set to receive all 
+    the  <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxeprovidersetattribute">PxeProviderSetAttribute</a> function is set to receive all 
     packets to determine if a specified packet is a valid DHCP packet. Providers can also use this function to validate 
     reply packets; typically this is done only for debug or test builds of the provider.
 
@@ -180,15 +180,15 @@ The validation tests include the following tests.
 
 
 
-<a href="https://msdn.microsoft.com/f3a664a8-565c-4894-bea7-6664df0ecd9b">PxePacketAllocate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxepacketallocate">PxePacketAllocate</a>
 
 
 
-<a href="https://msdn.microsoft.com/01f7b50b-966b-4ff9-b933-851eaf1f1411">PxeProviderSetAttribute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxeprovidersetattribute">PxeProviderSetAttribute</a>
 
 
 
-<a href="https://msdn.microsoft.com/b6089ff9-4d74-4f5d-957f-4a741c09f4b9">Windows Deployment Services Server Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>
  
 
  

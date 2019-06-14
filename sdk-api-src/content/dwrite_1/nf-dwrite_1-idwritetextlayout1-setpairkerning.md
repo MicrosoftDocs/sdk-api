@@ -66,7 +66,7 @@ The flag that indicates whether text is pair-kerned.
 
 ### -param textRange
 
-Type: <b><a href="https://msdn.microsoft.com/2e37e060-69b9-4ca2-9d95-8e9a39f6cf83">DWRITE_TEXT_RANGE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_text_range">DWRITE_TEXT_RANGE</a></b>
 
 The text range to which the change applies.
 
@@ -87,7 +87,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/FF6B3C78-0CC0-4843-9D17-3CF0777EA8BA">IDWriteTextLayout1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritetextlayout1">IDWriteTextLayout1</a>
  
 
  

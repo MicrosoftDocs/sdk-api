@@ -59,18 +59,18 @@ Contains listener setting information for a remote session.
 
 ### -field WRdsListenerSettingLevel
 
-A value of the <a href="https://msdn.microsoft.com/09FF31B5-7566-440D-98BB-96C7A4192C30">WRDS_LISTENER_SETTING_LEVEL</a> enumeration that specifies the type of structure that is contained in the <b>WRdsListenerSetting</b> member.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ne-wtsdefs-_wrds_listener_setting_level">WRDS_LISTENER_SETTING_LEVEL</a> enumeration that specifies the type of structure that is contained in the <b>WRdsListenerSetting</b> member.
 
 
 
 #### WRDS_LISTENER_SETTING_LEVEL_1
 
-The structure is a <a href="https://msdn.microsoft.com/F8F35CED-16EC-4FBB-A3CA-2A5545A88B4A">WRDS_LISTENER_SETTINGS_1</a> structure.
+The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wrds_listener_settings_1">WRDS_LISTENER_SETTINGS_1</a> structure.
 
 
 ### -field WRdsListenerSetting
 
-A <a href="https://msdn.microsoft.com/F7EF3E44-70B7-437C-9810-982802F86C77">WRDS_LISTENER_SETTING</a> structure that specifies the listener settings.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wrds_listener_setting">WRDS_LISTENER_SETTING</a> structure that specifies the listener settings.
 
 
 ### -field WRdsListenerSetting.switch_is

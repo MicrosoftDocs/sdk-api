@@ -103,7 +103,7 @@ Reserved.
 
 
 
-If your event data consists of multiple data items, you would create an array of <b>EVENT_DATA_DESCRIPTOR </b> structures and call the <a href="https://msdn.microsoft.com/a5823ad0-0710-4fd2-9b44-a60a42f138fd">EventDataDescCreate</a> macro to initialize each element with this information. For an example, see <a href="https://msdn.microsoft.com/76e7202e-74ce-40a3-a04b-9af5117fe20e">Writing Manifest-based Events</a>. 
+If your event data consists of multiple data items, you would create an array of <b>EVENT_DATA_DESCRIPTOR </b> structures and call the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventdatadesccreate">EventDataDescCreate</a> macro to initialize each element with this information. For an example, see <a href="https://docs.microsoft.com/windows/desktop/ETW/writing-manifest-based-events">Writing Manifest-based Events</a>. 
 
 Note that the total data size of the event (not just this data item) is the lesser of 
 
@@ -113,7 +113,7 @@ Note that the total data size of the event (not just this data item) is the less
 And
 
 <ul>
-<li>The session's buffer size minus the size of the buffer's header (0x48 bytes) minus the sum of the size of the <a href="https://msdn.microsoft.com/479091ae-7229-433b-b93b-8da6cc18df89">EVENT_HEADER</a> structure and each extended data item (the <a href="https://msdn.microsoft.com/130dc14b-7488-48ab-a31d-310c0f4ee13f">EVENT_HEADER_EXTENDED_DATA_ITEM</a> structure) that the controller wants to include in the event data.</li>
+<li>The session's buffer size minus the size of the buffer's header (0x48 bytes) minus the sum of the size of the <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_header">EVENT_HEADER</a> structure and each extended data item (the <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_header_extended_data_item">EVENT_HEADER_EXTENDED_DATA_ITEM</a> structure) that the controller wants to include in the event data.</li>
 </ul>
 
 
@@ -123,27 +123,27 @@ And
 
 
 
-<a href="https://msdn.microsoft.com/479091ae-7229-433b-b93b-8da6cc18df89">EVENT_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_header">EVENT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/130dc14b-7488-48ab-a31d-310c0f4ee13f">EVENT_HEADER_EXTENDED_DATA_ITEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_header_extended_data_item">EVENT_HEADER_EXTENDED_DATA_ITEM</a>
 
 
 
-<a href="https://msdn.microsoft.com/a5823ad0-0710-4fd2-9b44-a60a42f138fd">EventDataDescCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventdatadesccreate">EventDataDescCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/93070eb7-c167-4419-abff-e861877dad07">EventWrite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwrite">EventWrite</a>
 
 
 
-<a href="https://msdn.microsoft.com/798cf3ba-e1cc-4eaf-a1d2-2313a64aab1a">EventWriteTransfer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwritetransfer">EventWriteTransfer</a>
 
 
 
-<a href="https://msdn.microsoft.com/76e7202e-74ce-40a3-a04b-9af5117fe20e">Writing Manifest-based Events</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/writing-manifest-based-events">Writing Manifest-based Events</a>
  
 
  

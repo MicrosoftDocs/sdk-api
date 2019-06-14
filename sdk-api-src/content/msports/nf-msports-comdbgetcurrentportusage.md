@@ -59,7 +59,7 @@ ms.custom: 19H1
 
 ### -param HComDB [in]
 
-Handle to the COM port database that was returned by <a href="https://msdn.microsoft.com/6ae22de0-b71e-441d-af12-8518a3f474e3">ComDBOpen</a>.
+Handle to the COM port database that was returned by <a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-comdbopen">ComDBOpen</a>.
 
 
 ### -param Buffer [out, optional]
@@ -188,15 +188,15 @@ If <i>ReportType</i> is CDB_REPORT_BYTES, the routine returns a byte array that 
 
 
 
-<a href="https://msdn.microsoft.com/b32b42e8-d38c-4bb5-bf8a-96538a03cb5b">ComDBClaimNextFreePort</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-comdbclaimnextfreeport">ComDBClaimNextFreePort</a>
 
 
 
-<a href="https://msdn.microsoft.com/d0baa783-1039-41a4-8bb1-78c977ed62b6">ComDBClaimPort</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-comdbclaimport">ComDBClaimPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/fef761be-57c5-4188-8de9-dbca31d91870">ComDBResizeDatabase</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-comdbresizedatabase">ComDBResizeDatabase</a>
  
 
  

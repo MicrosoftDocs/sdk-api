@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>IWTSProtocolConnection::DisconnectNotify</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://msdn.microsoft.com/2399677b-0859-4e43-9dbc-0b08fa0647b0">IWRdsProtocolConnection::DisconnectNotify</a>.]
+<p class="CCE_Message">[<b>IWTSProtocolConnection::DisconnectNotify</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnection-disconnectnotify">IWRdsProtocolConnection::DisconnectNotify</a>.]
 
 Notifies the protocol that the session has been disconnected.
 
@@ -75,7 +75,7 @@ This is an event notification and you should return immediately from this method
 
 
 
-<a href="https://msdn.microsoft.com/584a6874-0df4-480e-a10a-4b603643870e">IWTSProtocolConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>
  
 
  

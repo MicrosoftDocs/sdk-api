@@ -66,7 +66,7 @@ Number of elements in <i>pathArray</i>.
 
 ### -param pathArray [in, optional]
 
-Array of all display paths that are to be set. Only the paths within this array that have the DISPLAYCONFIG_PATH_ACTIVE flag set in the <b>flags</b> member of <a href="https://msdn.microsoft.com/e218c36d-60d5-42c8-9443-419a388a2b8d">DISPLAYCONFIG_PATH_INFO</a> are set. This parameter can be <b>NULL</b>. The order in which active paths appear in this array determines the path priority. For more information about path priority order, see <a href="https://msdn.microsoft.com/93f8f932-fc7b-4420-8b3e-27194937bed5">Path Priority Order</a>. 
+Array of all display paths that are to be set. Only the paths within this array that have the DISPLAYCONFIG_PATH_ACTIVE flag set in the <b>flags</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_path_info">DISPLAYCONFIG_PATH_INFO</a> are set. This parameter can be <b>NULL</b>. The order in which active paths appear in this array determines the path priority. For more information about path priority order, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/path-priority-order">Path Priority Order</a>. 
 
 
 ### -param numModeInfoArrayElements [in]
@@ -76,7 +76,7 @@ Number of elements in <i>modeInfoArray</i>.
 
 ### -param modeInfoArray [in, optional]
 
-Array of display source and target mode information (<a href="https://msdn.microsoft.com/39ffe49b-96d3-4d8b-94a7-01c388448b82">DISPLAYCONFIG_MODE_INFO</a>) that is referenced by the <b>modeInfoIdx</b> member of DISPLAYCONFIG_PATH_SOURCE_INFO and DISPLAYCONFIG_PATH_TARGET_INFO element of path information from <i>pathArray</i>. This parameter can be <b>NULL</b>. 
+Array of display source and target mode information (<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_mode_info">DISPLAYCONFIG_MODE_INFO</a>) that is referenced by the <b>modeInfoIdx</b> member of DISPLAYCONFIG_PATH_SOURCE_INFO and DISPLAYCONFIG_PATH_TARGET_INFO element of path information from <i>pathArray</i>. This parameter can be <b>NULL</b>. 
 
 
 ### -param flags [in]
@@ -258,7 +258,7 @@ The combination of parameters and flags specified is invalid.
 </dl>
 </td>
 <td width="60%">
-The system is not running a graphics driver that was written according to the <a href="https://msdn.microsoft.com/d9dc0d48-aea4-4614-a23b-e2449800469f">Windows Display Driver Model (WDDM)</a>. The function is only supported on a system with a WDDM driver running.
+The system is not running a graphics driver that was written according to the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/windows-vista-display-driver-model-design-guide">Windows Display Driver Model (WDDM)</a>. The function is only supported on a system with a WDDM driver running.
 
 </td>
 </tr>
@@ -307,17 +307,17 @@ The function could not find a workable solution for the source and target modes 
 
 The <b>SetDisplayConfig</b> function takes the active display paths with any specified source and target mode information and uses best mode logic to generate any missing source and target mode information. This function then sets the complete display path.
 
-The <b>ModeInfoIdx</b> members in the <a href="https://msdn.microsoft.com/df43d20b-a55a-4bec-89a2-9ede03b4d6c5">DISPLAYCONFIG_PATH_SOURCE_INFO</a> and <a href="https://msdn.microsoft.com/3dcdca96-7c5d-4e69-b7dd-8b5ccda25f6a">DISPLAYCONFIG_PATH_TARGET_INFO</a> structures are used to indicate whether source and target mode are supplied for a given active path. If the index value is DISPLAYCONFIG_PATH_MODE_IDX_INVALID for either, this indicates the mode information is not being specified. It is valid for the path plus source mode or the path plus source and target mode information to be specified for a given path. However, it is not valid for the path plus target mode to be specified without the source mode.
+The <b>ModeInfoIdx</b> members in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_path_source_info">DISPLAYCONFIG_PATH_SOURCE_INFO</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_path_target_info">DISPLAYCONFIG_PATH_TARGET_INFO</a> structures are used to indicate whether source and target mode are supplied for a given active path. If the index value is DISPLAYCONFIG_PATH_MODE_IDX_INVALID for either, this indicates the mode information is not being specified. It is valid for the path plus source mode or the path plus source and target mode information to be specified for a given path. However, it is not valid for the path plus target mode to be specified without the source mode.
 
 The source and target modes for each source and target identifiers can only appear in the <i>modeInfoArray</i> array once. For example, a source mode for source identifier S1 can only appear in the table once; if multiple paths reference the same source, they have to use the same <b>ModeInfoIdx</b>.
 
-The expectation is that most callers use <a href="https://msdn.microsoft.com/b1792d7f-f216-4250-a6b6-a11b251a9cec">QueryDisplayConfig</a> to get the current configuration along with other valid possibilities and then use <b>SetDisplayConfig</b> to test and set the configuration.
+The expectation is that most callers use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-querydisplayconfig">QueryDisplayConfig</a> to get the current configuration along with other valid possibilities and then use <b>SetDisplayConfig</b> to test and set the configuration.
 
 The order in which the active paths appear in the <i>PathArray</i> array determines the path priority.
 
 By default, <b>SetDisplayConfig</b> never changes any supplied path, source mode, or target mode information. If best mode logic cannot find a solution without changing the specified display path information, <b>SetDisplayConfig</b> fails with ERROR_BAD_CONFIGURATION. In this case, the caller should specify the SDC_ALLOW_CHANGES flag to allow the function to tweak some of the specified source and mode details to allow the display path change to be successful.
 
-If the specified or calculated source and target modes have the same dimensions, <b>SetDisplayConfig</b> automatically sets the path scaling to DISPLAYCONFIG_PPR_IDENTITY before setting the display path and saving it in the database. For information about how <b>SetDisplayConfig</b> handles scaling, see <a href="https://msdn.microsoft.com/e27c7510-45b0-46e6-878f-b901cdd1cd57">Scaling the Desktop Image</a>.
+If the specified or calculated source and target modes have the same dimensions, <b>SetDisplayConfig</b> automatically sets the path scaling to DISPLAYCONFIG_PPR_IDENTITY before setting the display path and saving it in the database. For information about how <b>SetDisplayConfig</b> handles scaling, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/scaling-the-desktop-image">Scaling the Desktop Image</a>.
 
 When the caller specifies the SDC_USE_SUPPLIED_DISPLAY_CONFIG flag to set a clone path and if any source mode indexes are invalid in the path array, <b>SetDisplayConfig</b> determines that all of the source mode indexes from that source are invalid. <b>SetDisplayConfig</b> uses the best mode logic to determine the source mode information. 
 
@@ -426,23 +426,23 @@ This API does not participate in DPI virtualization. All sizes in the DEVMODE st
 
 
 
-<a href="https://msdn.microsoft.com/39ffe49b-96d3-4d8b-94a7-01c388448b82">DISPLAYCONFIG_MODE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_mode_info">DISPLAYCONFIG_MODE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/e218c36d-60d5-42c8-9443-419a388a2b8d">DISPLAYCONFIG_PATH_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_path_info">DISPLAYCONFIG_PATH_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/df43d20b-a55a-4bec-89a2-9ede03b4d6c5">DISPLAYCONFIG_PATH_SOURCE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_path_source_info">DISPLAYCONFIG_PATH_SOURCE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/3dcdca96-7c5d-4e69-b7dd-8b5ccda25f6a">DISPLAYCONFIG_PATH_TARGET_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_path_target_info">DISPLAYCONFIG_PATH_TARGET_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/b1792d7f-f216-4250-a6b6-a11b251a9cec">QueryDisplayConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-querydisplayconfig">QueryDisplayConfig</a>
  
 
  

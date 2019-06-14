@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The DDMOCOMPBUFFERINFO structure contains the macro block information required to render a frame and passes this information to the <a href="https://msdn.microsoft.com/a890707f-b773-4b66-8817-68efdb8d47f8">DD_RENDERMOCOMPDATA</a> structure. 
+The DDMOCOMPBUFFERINFO structure contains the macro block information required to render a frame and passes this information to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_rendermocompdata">DD_RENDERMOCOMPDATA</a> structure. 
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ Specifies the size in bytes of this DDMOCOMPBUFFERINFO structure.
 
 ### -field lpCompSurface
 
-Points to a <a href="https://msdn.microsoft.com/45a41cec-0257-4e26-809d-c2fc4c247328">DD_SURFACE_LOCAL</a> structure that contains the compressed data. 
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_local">DD_SURFACE_LOCAL</a> structure that contains the compressed data. 
 
 
 ### -field dwDataOffset
@@ -87,11 +87,11 @@ Used by Microsoft DirectDraw and should be ignored by the driver.
 
 
 
-<a href="https://msdn.microsoft.com/a890707f-b773-4b66-8817-68efdb8d47f8">DD_RENDERMOCOMPDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_rendermocompdata">DD_RENDERMOCOMPDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/45a41cec-0257-4e26-809d-c2fc4c247328">DD_SURFACE_LOCAL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_local">DD_SURFACE_LOCAL</a>
  
 
  

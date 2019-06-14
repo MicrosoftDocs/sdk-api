@@ -64,7 +64,7 @@ Zero-based index number corresponding to a progress item in the collection.
 
 ### -param item [out]
 
-An <a href="https://msdn.microsoft.com/b6ba9226-655e-4eac-ad43-2b5a8e90039f">IProgressItem</a> interface associated with the specified index value.
+An <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitem">IProgressItem</a> interface associated with the specified index value.
 
 
 ## -returns
@@ -127,7 +127,7 @@ Value: 0x80070057
 
 
 
-To enumerate all progress items, call the <a href="https://msdn.microsoft.com/24528fad-b88c-429a-b5c9-e232e62d3aeb">IProgressItems::get__NewEnum</a> method.
+To enumerate all progress items, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitems-get__newenum">IProgressItems::get__NewEnum</a> method.
 
 
 
@@ -137,19 +137,19 @@ To enumerate all progress items, call the <a href="https://msdn.microsoft.com/24
 
 
 
-<a href="https://msdn.microsoft.com/b6ba9226-655e-4eac-ad43-2b5a8e90039f">IProgressItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitem">IProgressItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/40c28e67-8ff3-4330-90a1-7ebccb0023ad">IProgressItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitems">IProgressItems</a>
 
 
 
-<a href="https://msdn.microsoft.com/2b37cf63-24be-42ff-a439-157703db9604">IProgressItems::ProgressItemFromBlock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitems-progressitemfromblock">IProgressItems::ProgressItemFromBlock</a>
 
 
 
-<a href="https://msdn.microsoft.com/c27e9f30-e3f1-4436-b33a-fa3130baf374">IProgressItems::ProgressItemFromDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitems-progressitemfromdescription">IProgressItems::ProgressItemFromDescription</a>
  
 
  

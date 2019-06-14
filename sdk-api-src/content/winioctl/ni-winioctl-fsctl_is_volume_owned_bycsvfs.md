@@ -50,7 +50,7 @@ req.redist:
 
 Determines whether a volume is locked by CSVFS.
 
-To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
+To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
     function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -149,9 +149,9 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 If the volume is locked on behalf of CSVFS, the control code returns information that is sent to an NTFS 
-    volume. If the volume is locked (using <a href="https://msdn.microsoft.com/b59b5c5e-6719-47a8-8810-14b60204e5ed">FSCTL_LOCK_VOLUME</a>) 
+    volume. If the volume is locked (using <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_lock_volume">FSCTL_LOCK_VOLUME</a>) 
     from a request that originates from CSVFS, then the 
-    <a href="https://msdn.microsoft.com/F189E0F9-F711-4AB6-8237-775855FCD290">CSV_IS_OWNED_BY_CSVFS</a> structure's 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_is_owned_by_csvfs">CSV_IS_OWNED_BY_CSVFS</a> structure's 
     <b>OwnedByCSVFS</b> member has a value of <b>TRUE</b>.
 
 
@@ -162,19 +162,19 @@ If the volume is locked on behalf of CSVFS, the control code returns information
 
 
 
-<a href="https://msdn.microsoft.com/F189E0F9-F711-4AB6-8237-775855FCD290">CSV_IS_OWNED_BY_CSVFS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_is_owned_by_csvfs">CSV_IS_OWNED_BY_CSVFS</a>
 
 
 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/87f39e1c-3ebf-4c6f-a842-699ec3c45e76">Volume Management Control Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes">Volume Management Control Codes</a>
  
 
  

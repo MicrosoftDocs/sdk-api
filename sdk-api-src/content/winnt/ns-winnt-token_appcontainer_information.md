@@ -59,5 +59,5 @@ The <b>TOKEN_APPCONTAINER_INFORMATION</b> structure specifies all the informatio
 
 ### -field TokenAppContainer
 
-The <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) of the app container.
+The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) of the app container.
 

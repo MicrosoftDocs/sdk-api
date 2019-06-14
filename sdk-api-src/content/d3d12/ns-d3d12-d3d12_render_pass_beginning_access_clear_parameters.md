@@ -59,7 +59,7 @@ Describes the clear value to which resource(s) should be cleared at the beginnin
 
 ### -field ClearValue
 
-A  <a href="https://msdn.microsoft.com/03B67F91-C150-4719-8C43-D04F51DC9C06">D3D12_CLEAR_VALUE</a>. The clear value to which the resource(s) should be cleared.
+A  <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_clear_value">D3D12_CLEAR_VALUE</a>. The clear value to which the resource(s) should be cleared.
 
 
 ## -see-also
@@ -67,7 +67,7 @@ A  <a href="https://msdn.microsoft.com/03B67F91-C150-4719-8C43-D04F51DC9C06">D3D
 
 
 
-<a href="https://msdn.microsoft.com/5BF1440E-E4D8-43C8-BF0E-F02FEFE79C93">Rendering</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/rendering">Rendering</a>
  
 
  

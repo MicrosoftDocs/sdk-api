@@ -66,7 +66,7 @@ The text range to scroll.
 
 ### -param alignToTop [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 TRUE to align the top of the text range with the top of the viewport; 
 				FALSE to align the bottom of the text range with the bottom of the viewport.
@@ -76,7 +76,7 @@ TRUE to align the top of the text range with the top of the viewport;
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK if successful or an error value otherwise.
 

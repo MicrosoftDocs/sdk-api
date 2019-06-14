@@ -61,17 +61,17 @@ The <b>CM_Get_Resource_Conflict_Details</b> function obtains the details about o
 
 ### -param clConflictList [in]
 
-Caller-supplied handle to a conflict list, obtained by a previous call to <a href="https://msdn.microsoft.com/d8b86549-3687-42e8-a82f-0f2dbd70cf66">CM_Query_Resource_Conflict_List</a>.
+Caller-supplied handle to a conflict list, obtained by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_query_resource_conflict_list">CM_Query_Resource_Conflict_List</a>.
 
 
 ### -param ulIndex [in]
 
-Caller-supplied value used as an index into the conflict list. This value can be from zero to one less than the number returned by <a href="https://msdn.microsoft.com/758fbc4c-499f-492d-b64d-f80b1fc7ee25">CM_Get_Resource_Conflict_Count</a>.
+Caller-supplied value used as an index into the conflict list. This value can be from zero to one less than the number returned by <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_resource_conflict_count">CM_Get_Resource_Conflict_Count</a>.
 
 
 ### -param pConflictDetails [in, out]
 
-Caller-supplied address of a <a href="https://msdn.microsoft.com/7f095104-4478-4047-b411-ac6bcc44a11f">CONFLICT_DETAILS</a> structure to receive conflict details. The caller must supply values for the structure's <i>CD_ulSize</i> and <i>CD_ulMask</i> structures.
+Caller-supplied address of a <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-_conflict_details_a">CONFLICT_DETAILS</a> structure to receive conflict details. The caller must supply values for the structure's <i>CD_ulSize</i> and <i>CD_ulMask</i> structures.
 
 
 ## -returns
@@ -91,11 +91,11 @@ To determine conflicting resource requirements between a specified device and ot
 
 <ol>
 <li>
-Call <a href="https://msdn.microsoft.com/d8b86549-3687-42e8-a82f-0f2dbd70cf66">CM_Query_Resource_Conflict_List</a> to obtain a handle to a list of resource conflicts.
+Call <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_query_resource_conflict_list">CM_Query_Resource_Conflict_List</a> to obtain a handle to a list of resource conflicts.
 
 </li>
 <li>
-Call <a href="https://msdn.microsoft.com/758fbc4c-499f-492d-b64d-f80b1fc7ee25">CM_Get_Resource_Conflict_Count</a> to determine the number of conflicts contained in the resource conflict list.
+Call <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_resource_conflict_count">CM_Get_Resource_Conflict_Count</a> to determine the number of conflicts contained in the resource conflict list.
 
 </li>
 <li>

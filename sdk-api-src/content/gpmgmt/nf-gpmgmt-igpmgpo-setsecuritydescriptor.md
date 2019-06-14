@@ -95,7 +95,7 @@ The security descriptor to set.
 #### - objIADsSecurityDescriptor
 
 
-<a href="https://msdn.microsoft.com/c77547ab-e666-4d72-b8ef-4b2f3d61ad38">IADsSecurityDescriptor</a> object to set.
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a> object to set.
 
 
 ## -returns
@@ -116,7 +116,7 @@ Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 
 
 For more information about ACLs and the security model for controlling access to Windows objects, see the 
-<a href="https://msdn.microsoft.com/d9ce4ec5-5c09-4b33-93a1-39638a925986">Access Control</a> topic .
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a> topic .
 
 
 
@@ -126,11 +126,11 @@ For more information about ACLs and the security model for controlling access to
 
 
 
-<a href="https://msdn.microsoft.com/d9ce4ec5-5c09-4b33-93a1-39638a925986">Access Control</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a>
 
 
 
-<a href="https://msdn.microsoft.com/2857c8b7-019d-4ec2-9a00-574fc8541cae">IGPMGPO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a>
  
 
  

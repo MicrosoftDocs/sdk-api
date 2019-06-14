@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>FAX_CONTEXT_INFO</b> structure contains information about a fax printer device context. The <b>SizeOfStruct</b> member is required. Information for the other members is supplied by a call to the <a href="https://msdn.microsoft.com/en-us/library/ms691423(v=VS.85).aspx">FaxStartPrintJob</a> function.
+The <b>FAX_CONTEXT_INFO</b> structure contains information about a fax printer device context. The <b>SizeOfStruct</b> member is required. Information for the other members is supplied by a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxstartprintjoba">FaxStartPrintJob</a> function.
 
 
 ## -struct-fields
@@ -63,28 +63,28 @@ The <b>FAX_CONTEXT_INFO</b> structure contains information about a fax printer d
 
 Type: <b>DWORD</b>
 
-Specifies the size, in bytes, of the <b>FAX_CONTEXT_INFO</b> structure. The calling application must set this member to <b>sizeof(FAX_CONTEXT_INFO)</b> before it calls the <a href="https://msdn.microsoft.com/en-us/library/ms691423(v=VS.85).aspx">FaxStartPrintJob</a> function.
+Specifies the size, in bytes, of the <b>FAX_CONTEXT_INFO</b> structure. The calling application must set this member to <b>sizeof(FAX_CONTEXT_INFO)</b> before it calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxstartprintjoba">FaxStartPrintJob</a> function.
 
 
 ### -field hDC
 
 Type: <b>HDC</b>
 
-Handle to a fax printer device context. A call to the <a href="https://msdn.microsoft.com/en-us/library/ms691423(v=VS.85).aspx">FaxStartPrintJob</a> function supplies the data for this member.
+Handle to a fax printer device context. A call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxstartprintjoba">FaxStartPrintJob</a> function supplies the data for this member.
 
 
 ### -field ServerName
 
 Type: <b>TCHAR[MAX_COMPUTERNAME_LENGTH+1]</b>
 
-Specifies a variable that contains a null-terminated string that is the fax server name of interest. A call to the <a href="https://msdn.microsoft.com/en-us/library/ms691423(v=VS.85).aspx">FaxStartPrintJob</a> function supplies the data for this member. If the fax server is on the local computer, this member will be empty. The client application does not need to fill in this member.
+Specifies a variable that contains a null-terminated string that is the fax server name of interest. A call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxstartprintjoba">FaxStartPrintJob</a> function supplies the data for this member. If the fax server is on the local computer, this member will be empty. The client application does not need to fill in this member.
 
 
 ## -remarks
 
 
 
-A fax client application can call the <a href="https://msdn.microsoft.com/en-us/library/ms691423(v=VS.85).aspx">FaxStartPrintJob</a> function to retrieve the handle to a fax printer device context. The function returns the handle in a <b>FAX_CONTEXT_INFO</b> structure. The application must call the <a href="https://msdn.microsoft.com/en-us/library/Dd183533(v=VS.85).aspx">DeleteDC</a> function to deallocate the handle to the printer device context. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690908(v=VS.85).aspx">Printing a Fax to a Device Context</a>.
+A fax client application can call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxstartprintjoba">FaxStartPrintJob</a> function to retrieve the handle to a fax printer device context. The function returns the handle in a <b>FAX_CONTEXT_INFO</b> structure. The application must call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deletedc">DeleteDC</a> function to deallocate the handle to the printer device context. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-printing-a-fax-to-a-device-context">Printing a Fax to a Device Context</a>.
 
 
 
@@ -94,27 +94,27 @@ A fax client application can call the <a href="https://msdn.microsoft.com/en-us/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd183533(v=VS.85).aspx">DeleteDC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deletedc">DeleteDC</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd162594(v=VS.85).aspx">EndDoc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enddoc">EndDoc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691952(v=VS.85).aspx">Fax Service Client API Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-structures">Fax Service Client API Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-for-windows-2000">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692378(v=VS.85).aspx">FaxPrintCoverPage</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxprintcoverpagea">FaxPrintCoverPage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691423(v=VS.85).aspx">FaxStartPrintJob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxstartprintjoba">FaxStartPrintJob</a>
  
 
  

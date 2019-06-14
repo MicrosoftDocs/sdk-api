@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CMSG_MAIL_LIST_RECIPIENT_INFO</b> structure contains information used for previously distributed <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">symmetric</a> key-encryption keys (KEK).
+The <b>CMSG_MAIL_LIST_RECIPIENT_INFO</b> structure contains information used for previously distributed <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">symmetric</a> key-encryption keys (KEK).
 
 
 ## -struct-fields
@@ -64,18 +64,18 @@ Indicates the version of the structure. This member is always four.
 
 ### -field KeyId
 
-A <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_DATA_BLOB</a> structure that identifies a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">symmetric key</a>-encryption key previously distributed to the sender and one or more recipients.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that identifies a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">symmetric key</a>-encryption key previously distributed to the sender and one or more recipients.
 
 
 ### -field KeyEncryptionAlgorithm
 
 
-<a href="https://msdn.microsoft.com/ef0d3aa6-6b36-426f-a14c-2fdf7543deb9">CRYPT_ALGORITHM_IDENTIFIER</a> that identifies the key-encryption algorithm and any associated parameters used to encrypt the content encryption key.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> that identifies the key-encryption algorithm and any associated parameters used to encrypt the content encryption key.
 
 
 ### -field EncryptedKey
 
-A <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_DATA_BLOB</a> structure that contains the encrypted content encryption key.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that contains the encrypted content encryption key.
 
 
 ### -field Date
@@ -86,5 +86,5 @@ Optional. When present, this member specifies a single key-encryption key from a
 ### -field pOtherAttr
 
 Optional pointer to a 
-<a href="https://msdn.microsoft.com/84057581-d0a9-464a-9399-ba806e37516f">CRYPT_ATTRIBUTE_TYPE_VALUE</a> structure containing additional information.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_attribute_type_value">CRYPT_ATTRIBUTE_TYPE_VALUE</a> structure containing additional information.
 

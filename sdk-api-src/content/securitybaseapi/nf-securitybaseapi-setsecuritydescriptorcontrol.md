@@ -56,8 +56,8 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SetSecurityDescriptorControl</b> function sets the control bits of a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security descriptor</a>. The function can set only the control bits that relate to automatic inheritance of ACEs. To set the other control bits of a security descriptor, use the functions, such as 
-<a href="https://msdn.microsoft.com/a873b803-391e-47e1-af7e-6dad7195968c">SetSecurityDescriptorDacl</a>, for modifying the components of a security descriptor.
+The <b>SetSecurityDescriptorControl</b> function sets the control bits of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a>. The function can set only the control bits that relate to automatic inheritance of ACEs. To set the other control bits of a security descriptor, use the functions, such as 
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptordacl">SetSecurityDescriptorDacl</a>, for modifying the components of a security descriptor.
 
 
 ## -parameters
@@ -68,19 +68,19 @@ The <b>SetSecurityDescriptorControl</b> function sets the control bits of a <a h
 ### -param pSecurityDescriptor [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> structure whose control and revision information are set.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> structure whose control and revision information are set.
 
 
 ### -param ControlBitsOfInterest [in]
 
 A 
-<a href="https://msdn.microsoft.com/9a4ef57e-c374-4ef6-99dc-1a8dd250f2c2">SECURITY_DESCRIPTOR_CONTROL</a> mask that indicates the control bits to set.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-control">SECURITY_DESCRIPTOR_CONTROL</a> mask that indicates the control bits to set.
 
 
 ### -param ControlBitsToSet [in]
 
 A 
-<a href="https://msdn.microsoft.com/9a4ef57e-c374-4ef6-99dc-1a8dd250f2c2">SECURITY_DESCRIPTOR_CONTROL</a> mask that indicates the new values for the control bits specified by the <i>ControlBitsOfInterest</i> mask.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-control">SECURITY_DESCRIPTOR_CONTROL</a> mask that indicates the new values for the control bits specified by the <i>ControlBitsOfInterest</i> mask.
 
 
 ## -returns
@@ -89,7 +89,7 @@ A
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -103,7 +103,7 @@ The <b>SetSecurityDescriptorControl</b> function specifies the control bit or bi
 
 #### Examples
 
-The following example marks the DACL on the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security descriptor</a> as protected.
+The following example marks the DACL on the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> as protected.
 
 
 ```cpp
@@ -131,27 +131,27 @@ The following example marks the DACL as not protected.
 
 
 
-<a href="https://msdn.microsoft.com/d9ce4ec5-5c09-4b33-93a1-39638a925986">Access Control Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d66682f2-8017-4245-9d93-5f8332a5b483">GetSecurityDescriptorControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorcontrol">GetSecurityDescriptorControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/9a4ef57e-c374-4ef6-99dc-1a8dd250f2c2">SECURITY_DESCRIPTOR_CONTROL</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-control">SECURITY_DESCRIPTOR_CONTROL</a>
 
 
 
-<a href="https://msdn.microsoft.com/a873b803-391e-47e1-af7e-6dad7195968c">SetSecurityDescriptorDacl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptordacl">SetSecurityDescriptorDacl</a>
  
 
  

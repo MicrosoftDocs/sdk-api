@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>CERT_GENERAL_SUBTREE</b> structure is used in 
-<a href="https://msdn.microsoft.com/16a57c4b-905f-40c0-b298-71f0534bfa5a">CERT_NAME_CONSTRAINTS_INFO</a> structure. This structure provides the identity of a certificate that can be included or excluded.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_name_constraints_info">CERT_NAME_CONSTRAINTS_INFO</a> structure. This structure provides the identity of a certificate that can be included or excluded.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ The <b>CERT_GENERAL_SUBTREE</b> structure is used in
 ### -field Base
 
 
-<a href="https://msdn.microsoft.com/1353ef56-cae7-43f2-a31f-2bb3b502450e">CERT_ALT_NAME_ENTRY</a> containing a base name identifier of a certificate.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_alt_name_entry">CERT_ALT_NAME_ENTRY</a> containing a base name identifier of a certificate.
 
 
 ### -field dwMinimum

@@ -60,7 +60,7 @@ The <b>DhcpServerQueryDnsRegCredentials</b> function retrieves the current Domai
 ### -param ServerIpAddress [in]
 
 
-<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_SRV_HANDLE</a> that specifies the RPC binding to the DHCP server that will be queried.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_SRV_HANDLE</a> that specifies the RPC binding to the DHCP server that will be queried.
 
 
 ### -param UnameSize [in]
@@ -87,7 +87,7 @@ Pointer to a null-terminated Unicode string that contains the domain name for th
 
 
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://msdn.microsoft.com/6370313f-d7db-4ff1-b0e0-7fa47474facb">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 
 
@@ -96,7 +96,7 @@ This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it
 
 
 
-DNS credentials can be set on the DHCP server by calling the <a href="https://msdn.microsoft.com/7fed2635-43a6-417a-996f-fff8d0692924">DhcpServerSetDnsRegCredentialsV5</a> function.
+DNS credentials can be set on the DHCP server by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpserversetdnsregcredentialsv5">DhcpServerSetDnsRegCredentialsV5</a> function.
 
 
 
@@ -106,7 +106,7 @@ DNS credentials can be set on the DHCP server by calling the <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/7fed2635-43a6-417a-996f-fff8d0692924">DhcpServerSetDnsRegCredentialsV5</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpserversetdnsregcredentialsv5">DhcpServerSetDnsRegCredentialsV5</a>
  
 
  

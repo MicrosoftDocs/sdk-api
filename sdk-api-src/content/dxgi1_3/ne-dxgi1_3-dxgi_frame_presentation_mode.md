@@ -69,7 +69,7 @@ Specifies that the presentation mode is a composition surface, meaning that the 
 
 Specifies that the presentation mode is an overlay surface, meaning that the YUV to RGB conversion is happening efficiently in hardware (once per video frame).
             When this value is returned, the media app can continue to use the decode swap chain.
-            See <a href="https://msdn.microsoft.com/814EDDA6-EFEA-4281-BE06-9FF8822B4927">IDXGIDecodeSwapChain</a>.
+            See <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgidecodeswapchain">IDXGIDecodeSwapChain</a>.
           
 
 
@@ -97,7 +97,7 @@ Note that simply re-creating the swap chain or the device will usually have no i
 
 
 
-This enum is used by the <a href="https://msdn.microsoft.com/BC23B5C1-8257-4556-B930-E09FE60D536C">DXGI_FRAME_STATISTICS_MEDIA</a> structure.
+This enum is used by the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/ns-dxgi1_3-dxgi_frame_statistics_media">DXGI_FRAME_STATISTICS_MEDIA</a> structure.
 
 
 
@@ -107,7 +107,7 @@ This enum is used by the <a href="https://msdn.microsoft.com/BC23B5C1-8257-4556-
 
 
 
-<a href="https://msdn.microsoft.com/c4574c89-dee2-4841-9318-5383cf417111">DXGI Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-enums">DXGI Enumerations</a>
  
 
  

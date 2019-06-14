@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PeerGraphClose</b> function invalidates the peer graph handle returned by a call to either <a href="https://msdn.microsoft.com/62e3ec57-378c-4322-9ad4-a40d98e03dab">PeerGraphCreate</a> or <a href="https://msdn.microsoft.com/a34656f1-3e29-4bcb-a8a7-0eed19368184">PeerGraphOpen</a>, and closes  all network connections for the specified peer graph.
+The <b>PeerGraphClose</b> function invalidates the peer graph handle returned by a call to either <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphcreate">PeerGraphCreate</a> or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphopen">PeerGraphOpen</a>, and closes  all network connections for the specified peer graph.
 
 
 ## -parameters
@@ -113,7 +113,7 @@ The handle to the peer graph is invalid.
 </dl>
 </td>
 <td width="60%">
-The peer graph must be initialized with a call to <a href="https://msdn.microsoft.com/00ffdec7-f084-4170-a4a1-e6112bab4d61">PeerGraphStartup</a> before using this function.
+The peer graph must be initialized with a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a> before using this function.
 
 </td>
 </tr>
@@ -128,11 +128,11 @@ The peer graph must be initialized with a call to <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/62e3ec57-378c-4322-9ad4-a40d98e03dab">PeerGraphCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphcreate">PeerGraphCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/a34656f1-3e29-4bcb-a8a7-0eed19368184">PeerGraphOpen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphopen">PeerGraphOpen</a>
  
 
  

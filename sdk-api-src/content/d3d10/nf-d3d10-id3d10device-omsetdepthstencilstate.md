@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">depth-stencil</a> state of 
+Sets the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage">depth-stencil</a> state of 
     the output-merger stage.
 
 
@@ -61,14 +61,14 @@ Sets the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).asp
 
 ### -param pDepthStencilState [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173524(v=VS.85).aspx">ID3D10DepthStencilState</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10depthstencilstate">ID3D10DepthStencilState</a>*</b>
 
-Pointer to a depth-stencil state interface (see <a href="https://msdn.microsoft.com/en-us/library/Bb173524(v=VS.85).aspx">ID3D10DepthStencilState</a>) to bind to the device.
+Pointer to a depth-stencil state interface (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10depthstencilstate">ID3D10DepthStencilState</a>) to bind to the device.
 
 
 ### -param StencilRef [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Reference value to perform against when doing a depth-stencil test. See remarks.
 
@@ -86,9 +86,9 @@ Returns nothing.
 
 
 
-To create a depth-stencil state interface, call <a href="https://msdn.microsoft.com/en-us/library/Bb173546(v=VS.85).aspx">ID3D10Device::CreateDepthStencilState</a>.
+To create a depth-stencil state interface, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createdepthstencilstate">ID3D10Device::CreateDepthStencilState</a>.
 
-Depth-stencil state is used by the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">output-merger</a> stage to 
+Depth-stencil state is used by the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage">output-merger</a> stage to 
       setup depth-stencil testing. 
       The stencil reference value is the control value used in the depth-stencil test.
 
@@ -103,7 +103,7 @@ The method will not hold a reference to the interfaces passed in. For that reaso
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
  
 
  

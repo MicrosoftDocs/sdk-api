@@ -65,11 +65,11 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee338604(v=VS.85).aspx">CLIENT_DISPLAY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sessdirpublictypes/ns-sessdirpublictypes-__midl___midl_itf_sessdirpublictypes_0000_0000_0001">CLIENT_DISPLAY</a>
 
 
 
-<a href="https://msdn.microsoft.com/d6f4c66a-79c3-4bc1-889d-ec5715e359ce">ITsSbSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbsession">ITsSbSession</a>
  
 
  

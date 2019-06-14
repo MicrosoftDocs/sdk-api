@@ -97,7 +97,7 @@ The popup menu associated with the window.
 </dl>
 </td>
 <td width="60%">
-The menu bar associated with the window (see the <a href="https://msdn.microsoft.com/en-us/library/ms647640(v=VS.85).aspx">GetMenu</a> function).
+The menu bar associated with the window (see the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmenu">GetMenu</a> function).
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ The menu bar associated with the window (see the <a href="https://msdn.microsoft
 </dl>
 </td>
 <td width="60%">
-The system menu associated with the window (see the <a href="https://msdn.microsoft.com/en-us/library/ms647985(v=VS.85).aspx">GetSystemMenu</a> function).
+The system menu associated with the window (see the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmenu">GetSystemMenu</a> function).
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ The item for which to retrieve information. If this parameter is zero, the funct
 
 Type: <b>PMENUBARINFO</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms647564(v=VS.85).aspx">MENUBARINFO</a> structure that receives the information. Note that you must set the <b>cbSize</b> member to <code>sizeof(MENUBARINFO)</code> before calling this function. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmenubarinfo">MENUBARINFO</a> structure that receives the information. Note that you must set the <b>cbSize</b> member to <code>sizeof(MENUBARINFO)</code> before calling this function. 
 
 
 ## -returns
@@ -138,7 +138,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -152,19 +152,19 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647640(v=VS.85).aspx">GetMenu</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmenu">GetMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647985(v=VS.85).aspx">GetSystemMenu</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmenu">GetSystemMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647564(v=VS.85).aspx">MENUBARINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmenubarinfo">MENUBARINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
 
 
 

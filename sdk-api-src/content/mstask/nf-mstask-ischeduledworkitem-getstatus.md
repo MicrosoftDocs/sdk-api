@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Retrieves the status of the <a href="https://msdn.microsoft.com/en-us/library/Aa384011(v=VS.85).aspx">work item</a>.
+Retrieves the status of the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/w">work item</a>.
 
 
 ## -parameters
@@ -155,19 +155,19 @@ The arguments are not valid.
 
 
 The methods of the 
-<a href="https://msdn.microsoft.com/e668833a-094d-4504-90a0-87912a6a53c2">IScheduledWorkItem</a> interface are inherited by the 
-<a href="https://msdn.microsoft.com/84a70dd0-43cb-42be-8360-35263bf1afb8">ITask</a> interface. Consequently, 
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a> interface are inherited by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itask">ITask</a> interface. Consequently, 
 <b>IScheduledWorkItem::GetStatus</b> is typically called through the 
 <b>ITask</b> interface.
 
-<b>IScheduledWorkItem::GetStatus</b> does not obtain the status of the task dynamically. <a href="https://msdn.microsoft.com/27391e34-8632-4ab5-9d6e-d2fde7942f80">ITaskScheduler::Activate</a>should be called to obtain a new <a href="https://msdn.microsoft.com/e668833a-094d-4504-90a0-87912a6a53c2">IScheduledWorkItem</a> interface, which is used to get an updated status. For more information, see the example for <a href="https://msdn.microsoft.com/27391e34-8632-4ab5-9d6e-d2fde7942f80">ITaskScheduler::Activate</a>.
+<b>IScheduledWorkItem::GetStatus</b> does not obtain the status of the task dynamically. <a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itaskscheduler-activate">ITaskScheduler::Activate</a>should be called to obtain a new <a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a> interface, which is used to get an updated status. For more information, see the example for <a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itaskscheduler-activate">ITaskScheduler::Activate</a>.
 
 
 #### Examples
 
-For an example of how to retrieve the status of a task, see <a href="https://msdn.microsoft.com/7ad40ac7-2363-481a-87fa-18dcf2d749b3">C/C++ Code Example: Retrieving Task Status</a>.
+For an example of how to retrieve the status of a task, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/c-c-code-example-retrieving-task-status">C/C++ Code Example: Retrieving Task Status</a>.
 
-For an example of how to retrieve  the task status as part of terminating the task, see <a href="https://msdn.microsoft.com/f8401650-e196-4959-8f23-3d649a55f73d">Terminating a Task Example</a>.
+For an example of how to retrieve  the task status as part of terminating the task, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/terminating-a-task-example">Terminating a Task Example</a>.
 
 <div class="code"></div>
 
@@ -178,11 +178,11 @@ For an example of how to retrieve  the task status as part of terminating the ta
 
 
 
-<a href="https://msdn.microsoft.com/e668833a-094d-4504-90a0-87912a6a53c2">IScheduledWorkItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/84a70dd0-43cb-42be-8360-35263bf1afb8">ITask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
  
 
  

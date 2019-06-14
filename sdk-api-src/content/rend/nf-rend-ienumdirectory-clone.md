@@ -64,7 +64,7 @@ The
 ### -param ppEnum [out]
 
 Pointer to the new 
-<a href="https://msdn.microsoft.com/9c1e83c5-c718-4a3b-916d-e844a8377a29">IEnumDirectory</a> object.
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-ienumdirectory">IEnumDirectory</a> object.
 
 
 ## -returns
@@ -133,7 +133,7 @@ Failed for unknown reasons.
 
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://msdn.microsoft.com/9c1e83c5-c718-4a3b-916d-e844a8377a29">IEnumDirectory</a> interface returned by <b>IEnumDirectory::Clone</b>. The application must call <b>Release</b> on the 
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-ienumdirectory">IEnumDirectory</a> interface returned by <b>IEnumDirectory::Clone</b>. The application must call <b>Release</b> on the 
 <b>IEnumDirectory</b> interface to free resources associated with it.
 
 
@@ -144,7 +144,7 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 
-<a href="https://msdn.microsoft.com/9c1e83c5-c718-4a3b-916d-e844a8377a29">IEnumDirectory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-ienumdirectory">IEnumDirectory</a>
  
 
  

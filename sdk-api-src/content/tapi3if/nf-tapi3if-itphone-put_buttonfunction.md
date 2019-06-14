@@ -66,7 +66,7 @@ Button identifier.
 ### -param ButtonFunction [in]
 
 The 
-<a href="https://msdn.microsoft.com/2200b9aa-37fb-483f-9bfa-928348a4bc51">PHONE_BUTTON_FUNCTION</a> descriptor for the button's function.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-phone_button_function">PHONE_BUTTON_FUNCTION</a> descriptor for the button's function.
 
 
 ## -returns
@@ -83,11 +83,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/94dff33c-67a1-4df8-9ef5-2b6524438f6f">ITPhone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a>
 
 
 
-<a href="https://msdn.microsoft.com/a884c0b4-141a-4f04-8cfb-7ae6b1ec11b3">get_ButtonFunction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_buttonfunction">get_ButtonFunction</a>
  
 
  

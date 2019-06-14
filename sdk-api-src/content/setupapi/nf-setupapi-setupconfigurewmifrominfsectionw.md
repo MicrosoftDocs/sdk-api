@@ -121,15 +121,15 @@ In previous SetupAPI versions, WMI information in INF files is exposed to all us
 
 
 
-<a href="https://msdn.microsoft.com/0a9518b7-f231-48f2-ba50-5b802f8ccaed">Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/58201596-cb8c-480a-abef-896c1f9ef098">Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/a5d8eaaa-4585-44a3-ab92-2a323d9af80c">Specifying a Security Descriptor From an INF File</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/specifying-a-security-descriptor-from-an-inf-file">Specifying a Security Descriptor From an INF File</a>
  
 
  

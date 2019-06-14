@@ -60,9 +60,9 @@ Used to check for hardware feature support.
 
 ### -param Feature
 
-Type: <b><a href="https://msdn.microsoft.com/207D5BDC-5D10-4F84-931F-4812574FA74B">DXGI_FEATURE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/ne-dxgi1_5-dxgi_feature">DXGI_FEATURE</a></b>
 
-Specifies one member of  <a href="https://msdn.microsoft.com/207D5BDC-5D10-4F84-931F-4812574FA74B">DXGI_FEATURE</a> to query support for.
+Specifies one member of  <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/ne-dxgi1_5-dxgi_feature">DXGI_FEATURE</a> to query support for.
 
 
 ### -param pFeatureSupportData [in, out]
@@ -83,7 +83,7 @@ The size, in bytes, of <i>pFeatureSupportData</i>.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 
@@ -94,7 +94,7 @@ This method returns an HRESULT success or error code.
 
 
 
-Refer to the description of <a href="https://msdn.microsoft.com/en-us/library/Bb173076(v=VS.85).aspx">DXGI_SWAP_CHAIN_FLAG_ALLOW_TEARING</a>.
+Refer to the description of <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_chain_flag">DXGI_SWAP_CHAIN_FLAG_ALLOW_TEARING</a>.
 
 
 
@@ -104,7 +104,7 @@ Refer to the description of <a href="https://msdn.microsoft.com/en-us/library/Bb
 
 
 
-<a href="https://msdn.microsoft.com/DB77E4DE-62FF-4AA3-BDA9-847ABB38973B">IDXGIFactory5</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/nn-dxgi1_5-idxgifactory5">IDXGIFactory5</a>
  
 
  

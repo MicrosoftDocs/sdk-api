@@ -98,15 +98,15 @@ The service provider defines the actual audible ringing patterns corresponding t
 
 
 
-<a href="https://msdn.microsoft.com/9549e30c-9425-4fb1-8ce5-f180a32f8e1f">PHONECAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonecaps_tag">PHONECAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/d929ed39-ba1d-4eae-9667-86d904ba96a8">TSPI_phoneGetDevCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegetdevcaps">TSPI_phoneGetDevCaps</a>
 
 
 
-<a href="https://msdn.microsoft.com/8540f39e-4891-48d9-a5b0-b928eeb4be0d">TSPI_phoneSetRing</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonesetring">TSPI_phoneSetRing</a>
  
 
  

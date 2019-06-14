@@ -78,7 +78,7 @@ Indicates whether to disable encryption (<b>TRUE</b>) or enable it
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
       
 
 
@@ -88,7 +88,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-Under normal circumstances, <a href="https://msdn.microsoft.com/7620e9fa-74d6-4b41-93db-4a562be63202">EncryptFile</a> will not encrypt 
+Under normal circumstances, <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-encryptfilea">EncryptFile</a> will not encrypt 
     files and directories with the <b>FILE_ATTRIBUTE_SYSTEM</b> attribute set. It is possible to 
     override the <b>FILE_ATTRIBUTE_SYSTEM</b> attribute and encrypt files. Also, if a file or 
     directory is marked with the <b>FILE_ATTRIBUTE_SYSTEM</b> attribute, it will normally be
@@ -105,9 +105,9 @@ If <b>TRUE</b> is passed in,
 Disable=1</code></pre>
 If the section already exists but <i>Disable</i> is set to 0, it will be set to 1.
 
-Thereafter, <a href="https://msdn.microsoft.com/7620e9fa-74d6-4b41-93db-4a562be63202">EncryptFile</a> will fail on the 
+Thereafter, <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-encryptfilea">EncryptFile</a> will fail on the 
     directory and the files in it, and the code that 
-    <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns will be 
+    <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns will be 
     <b>ERROR_DIR_EFS_DISALLOWED</b>. This function does not affect encryption of subdirectories 
     within the given directory.
 
@@ -115,8 +115,8 @@ The user can also manually add or edit the above lines in the Desktop.ini file a
     same effect.
 
 <b>EncryptionDisable</b> affects only 
-    <a href="https://msdn.microsoft.com/96efe065-de62-4941-811d-610465cd7ef5">FileEncryptionStatus</a> and 
-    <a href="https://msdn.microsoft.com/7620e9fa-74d6-4b41-93db-4a562be63202">EncryptFile</a>. After the directory is 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-fileencryptionstatusa">FileEncryptionStatus</a> and 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-encryptfilea">EncryptFile</a>. After the directory is 
     encrypted, any new files and new subdirectories created without the 
     <b>FILE_ATTRIBUTE_SYSTEM</b> attribute will be encrypted.
 
@@ -205,31 +205,31 @@ SMB 3.0 does not support EFS on shares with continuous availability capability.
 
 
 
-<a href="https://msdn.microsoft.com/6b8f0ed0-8825-4c84-bf58-3a89cda882b4">DecryptFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-decryptfilea">DecryptFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/7620e9fa-74d6-4b41-93db-4a562be63202">EncryptFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-encryptfilea">EncryptFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/ed9a73d2-7fb6-4fb7-97f6-4dbf89e2f156">File Attribute Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f20109f-727d-44a9-90a1-0adc19b00d28">File Encryption</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>
 
 
 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/96efe065-de62-4941-811d-610465cd7ef5">FileEncryptionStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-fileencryptionstatusa">FileEncryptionStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/9f9bcdbb-1ffd-49c2-92f4-181fdcc9c690">GetFileAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>
  
 
  

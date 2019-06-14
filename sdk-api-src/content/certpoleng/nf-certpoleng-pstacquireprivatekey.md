@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Associates the caller's <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> with the specified <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate</a>.
+Associates the caller's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> with the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a>.
 
 
 ## -parameters

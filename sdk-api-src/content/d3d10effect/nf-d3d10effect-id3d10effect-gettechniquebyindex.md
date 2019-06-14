@@ -59,7 +59,7 @@ Get a technique by index.
 
 ### -param Index [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A zero-based index.
 
@@ -68,9 +68,9 @@ A zero-based index.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173708(v=VS.85).aspx">ID3D10EffectTechnique</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effecttechnique">ID3D10EffectTechnique</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb173708(v=VS.85).aspx">ID3D10EffectTechnique Interface</a>.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effecttechnique">ID3D10EffectTechnique Interface</a>.
 
 
 
@@ -80,7 +80,7 @@ A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb173708(v=VS.
 
 
 An effect contains one or more techniques; each technique contains one or more passes. You can access a technique using its name or with an index. 
-      For more about techniques, see <a href="https://msdn.microsoft.com/en-us/library/Bb205112(v=VS.85).aspx">techniques and passes</a>.
+      For more about techniques, see <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-effects-organize">techniques and passes</a>.
 
 
 
@@ -90,7 +90,7 @@ An effect contains one or more techniques; each technique contains one or more p
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173630(v=VS.85).aspx">ID3D10Effect Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effect">ID3D10Effect Interface</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <code>GetCurrentProfile</code> method retrieves the current ASF profile from the <a href="https://msdn.microsoft.com/1b12f65f-8d77-4d38-aad9-92bb15cc0426">WM ASF Writer</a> filter.
+The <code>GetCurrentProfile</code> method retrieves the current ASF profile from the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/wm-asf-writer-filter">WM ASF Writer</a> filter.
 
 
 
@@ -62,7 +62,7 @@ The <code>GetCurrentProfile</code> method retrieves the current ASF profile from
 
 ### -param ppProfile [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/00f28d6b-d27d-4268-960e-c8ea25e5359e">IWMProfile</a> interface of the profile. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmprofile">IWMProfile</a> interface of the profile. The caller must release the interface.
 
 
 ## -returns
@@ -79,15 +79,15 @@ Returns S_OK if successful, or an <b>HRESULT</b> error code otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/dffda43a-5831-4889-864f-81351b9e2bb3">Creating ASF Files in DirectShow</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/creating-asf-files-in-directshow">Creating ASF Files in DirectShow</a>
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd312017(v=VS.85).aspx">IConfigAsfWriter Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter">IConfigAsfWriter Interface</a>
  
 
  

@@ -59,7 +59,7 @@ Called by the Windows Biometric Framework to open a database.
 
 ### -param Pipeline [in, out]
 
-Pointer to the <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae41c3e12a">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 
 ### -param DatabaseId [in]
@@ -165,19 +165,19 @@ The <b>StorageContext</b> member of the pipeline object is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/5f04d912-f9bc-41d4-aa9e-b843e4b5a994">Plug-in Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/ddb8d0b8-e975-4ee2-bb8c-423b1304c467">StorageAdapterCloseDatabase</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_close_database_fn">StorageAdapterCloseDatabase</a>
 
 
 
-<a href="https://msdn.microsoft.com/7b9e034e-51d4-4209-9092-14e21e9fff3c">StorageAdapterCreateDatabase</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_create_database_fn">StorageAdapterCreateDatabase</a>
 
 
 
-<a href="https://msdn.microsoft.com/c1fc2f3f-034b-4546-aeee-1d1a38695793">StorageAdapterEraseDatabase</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_erase_database_fn">StorageAdapterEraseDatabase</a>
  
 
  

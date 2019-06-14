@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-This <a href="https://msdn.microsoft.com/en-us/library/ms536168(v=VS.85).aspx">FontFamily</a> class encapsulates a set of fonts that make up a font family. A font family is a group of fonts that have the same typeface but different styles.
+This <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-fontfamily-fontfamily(constfontfamily_)">FontFamily</a> class encapsulates a set of fonts that make up a font family. A font family is a group of fonts that have the same typeface but different styles.
 
 
 ## -remarks

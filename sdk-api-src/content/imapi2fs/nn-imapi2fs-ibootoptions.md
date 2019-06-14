@@ -56,7 +56,7 @@ To create an instance of this interface, call the <b>CoCreateInstance</b> functi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBootOptions</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IBootOptions</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBootOptions</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IBootOptions</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IBootOptions</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/63d598dd-72a8-4544-813d-11f2e7e53ec5">AssignBootImage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-assignbootimage">AssignBootImage</a>
 </td>
 <td align="left" width="63%">
 Sets the data stream that contains the boot image.
@@ -80,7 +80,7 @@ Sets the data stream that contains the boot image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/161e0cea-63dd-4806-a246-4b36249b2cc7">get_BootImage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-get_bootimage">get_BootImage</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the boot image data stream.
@@ -89,7 +89,7 @@ Retrieves a pointer to the boot image data stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ade69c2b-ff25-4993-bf4c-ee372e3cc1b0">get_Emulation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-get_emulation">get_Emulation</a>
 </td>
 <td align="left" width="63%">
 Retrieves the media type that the boot image is intended to emulate.
@@ -98,7 +98,7 @@ Retrieves the media type that the boot image is intended to emulate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2e3fd791-5a38-4082-9553-29eae92dfd5e">get_ImageSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-get_imagesize">get_ImageSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the size of the boot image.
@@ -107,7 +107,7 @@ Retrieves the size of the boot image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e9c75760-42e8-4ad0-aa5c-82bfdc1327af">get_Manufacturer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-get_manufacturer">get_Manufacturer</a>
 </td>
 <td align="left" width="63%">
 Retrieves the identifier of the manufacturer of the CD.
@@ -116,7 +116,7 @@ Retrieves the identifier of the manufacturer of the CD.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8d5ceb0e-4fd2-4146-8e15-b157c80a9d5b">get_PlatformId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-get_platformid">get_PlatformId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the platform identifier that identifies the operating system architecture that the boot image supports.
@@ -125,7 +125,7 @@ Retrieves the platform identifier that identifies the operating system architect
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/93ed301e-fdea-451c-9ab0-6ea9a7fd45de">put_Emulation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-put_emulation">put_Emulation</a>
 </td>
 <td align="left" width="63%">
 Sets the media type that the boot image is intended to emulate.
@@ -134,7 +134,7 @@ Sets the media type that the boot image is intended to emulate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/485b36f0-6c33-48da-8ac5-64f4fc13fd68">put_Manufacturer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-put_manufacturer">put_Manufacturer</a>
 </td>
 <td align="left" width="63%">
 Sets an identifier that identifies the manufacturer of the CD.
@@ -143,7 +143,7 @@ Sets an identifier that identifies the manufacturer of the CD.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/295f3a3c-0f01-4b9b-b73c-48f075e6a33a">put_PlatformId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-put_platformid">put_PlatformId</a>
 </td>
 <td align="left" width="63%">
 Sets the platform identifier that identifies the operating system architecture that the boot image supports.
@@ -159,9 +159,9 @@ Sets the platform identifier that identifies the operating system architecture t
 
 This interface supports the "El Torito" Bootable CD-ROM format specification. 
 
-To add the boot image to a file system image, call the <a href="https://msdn.microsoft.com/0556b72d-eabd-4649-b16b-fd66052504f4">IFileSystemImage::put_BootImageOptions</a> method. 
+To add the boot image to a file system image, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_bootimageoptions">IFileSystemImage::put_BootImageOptions</a> method. 
 
-To get the boot image associated with a file system image, call the <a href="https://msdn.microsoft.com/b9721313-a2b0-4d91-af10-7932bd2d01be">IFileSystemImage::get_BootImageOptions</a> method.
+To get the boot image associated with a file system image, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_bootimageoptions">IFileSystemImage::get_BootImageOptions</a> method.
 
 To create the <b>BootOptions</b> object in a script, use IMAPI2.BootOptions as the program identifier when calling <b>CreateObject</b>.
 

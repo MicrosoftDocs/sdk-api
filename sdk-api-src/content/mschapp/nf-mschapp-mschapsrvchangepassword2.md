@@ -70,14 +70,14 @@ A pointer to a null-terminated Unicode string that specifies the name of the use
 
 ### -param NewPasswordEncryptedWithOldNt [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/10137c59-db99-4d70-9716-6f05369084a0">SAMPR_ENCRYPTED_USER_PASSWORD</a> structure that contains the new clear text password encrypted using the current NT one-way function (OWF) password hash as the encryption key.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mschapp/ns-mschapp-_sampr_encrypted_user_password">SAMPR_ENCRYPTED_USER_PASSWORD</a> structure that contains the new clear text password encrypted using the current NT one-way function (OWF) password hash as the encryption key.
 
 <div class="alert"><b>Note</b>  Use  the <b>NewPasswordEncryptedWithOldNtPasswordHash()</b> function as defined in <a href="http://go.microsoft.com/fwlink/p/?linkid=84041">RFC 2433</a>, section A.11 to calculate the cipher for <i>NewPasswordEncryptedWithOldNt</i>.</div>
 <div> </div>
 
 ### -param OldNtOwfPasswordEncryptedWithNewNt [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/fab739b6-c7f4-4c57-9754-e0c32853b7e1">ENCRYPTED_NT_OWF_PASSWORD</a> structure that contains the old NT OWF password hash encrypted using the new NT OWF password hash as the encryption key.
+A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc325729(v=vs.85)">ENCRYPTED_NT_OWF_PASSWORD</a> structure that contains the old NT OWF password hash encrypted using the new NT OWF password hash as the encryption key.
 
 
 ### -param LmPresent [in]
@@ -87,14 +87,14 @@ A <b>BOOLEAN</b> that specifies if the current Lan Manager (LM) or NT OWF passwo
 
 ### -param NewPasswordEncryptedWithOldLm [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/10137c59-db99-4d70-9716-6f05369084a0">SAMPR_ENCRYPTED_USER_PASSWORD</a> structure that contains the new clear text password encrypted using the current LM OWF password hash.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mschapp/ns-mschapp-_sampr_encrypted_user_password">SAMPR_ENCRYPTED_USER_PASSWORD</a> structure that contains the new clear text password encrypted using the current LM OWF password hash.
 
 <div class="alert"><b>Note</b>  Use  the <b>NewPasswordEncryptedWithOldLmPasswordHash()</b> function as defined in <a href="http://go.microsoft.com/fwlink/p/?linkid=84041">RFC 2433</a>, section A.15 to calculate the cipher for <i>NewPasswordEncryptedWithOldLm</i>.</div>
 <div> </div>
 
 ### -param OldLmOwfPasswordEncryptedWithNewLmOrNt [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/83498d3f-0ac5-435c-804e-a4baa1ae855d">ENCRYPTED_LM_OWF_PASSWORD</a> structure that contains the current LM OWF password hash encrypted using the new LM OWF password hash.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mschapp/ns-mschapp-_encrypted_lm_owf_password">ENCRYPTED_LM_OWF_PASSWORD</a> structure that contains the current LM OWF password hash encrypted using the new LM OWF password hash.
 
 
 ## -returns
@@ -216,11 +216,11 @@ This function fails with <b>STATUS_PASSWORD_RESTRICTION</b> if the attempt to ch
 
 
 
-<a href="https://msdn.microsoft.com/eef2a339-1b9c-4575-92a6-0e6575711243">MS-CHAP Password Management Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mschap/ms-chap-password-management-functions">MS-CHAP Password Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c154675-4c82-4305-8231-577f990eaeb1">MSChapSrvChangePassword</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mschapp/nf-mschapp-mschapsrvchangepassword">MSChapSrvChangePassword</a>
  
 
  

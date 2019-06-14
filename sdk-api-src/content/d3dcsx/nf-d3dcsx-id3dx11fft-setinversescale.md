@@ -60,7 +60,7 @@ Sets the scale used for inverse transforms.
 
 ### -param InverseScale [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 Scale used for inverse transforms.  Setting <i>InverseScale</i> to 0 causes the default value of 1/N to be used, 
           where N is the product of the transformed dimension lengths.
@@ -70,9 +70,9 @@ Scale used for inverse transforms.  Setting <i>InverseScale</i> to 0 causes the 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-Returns one of the return codes described in the topic <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
+Returns one of the return codes described in the topic <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a>.
 
 
 
@@ -81,7 +81,7 @@ Returns one of the return codes described in the topic <a href="https://msdn.mic
 
 
 
-<b>SetInverseScale</b> sets the scale used by <a href="https://msdn.microsoft.com/e4fe7a35-b039-4977-ba68-9869c5cc4383">ID3DX11FFT::InverseTransform</a>.
+<b>SetInverseScale</b> sets the scale used by <a href="https://docs.microsoft.com/windows/desktop/api/d3dcsx/nf-d3dcsx-id3dx11fft-inversetransform">ID3DX11FFT::InverseTransform</a>.
 
 
 
@@ -91,7 +91,7 @@ Returns one of the return codes described in the topic <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/6979aea4-5121-4a65-85f6-4b5753083715">ID3DX11FFT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3dcsx/nn-d3dcsx-id3dx11fft">ID3DX11FFT</a>
  
 
  

@@ -112,7 +112,7 @@ Check if the ICW is present, run the ICW in Internet Explorer Administrator Kit 
 </dl>
 </td>
 <td width="60%">
- If the retail mode ISP signup is present, run the ICW using the value set in the <b>ShellNext</b> registry key by <a href="https://msdn.microsoft.com/f08753b2-9666-498d-aee4-8eb2c7f0d95b">SetShellNext</a> function.
+ If the retail mode ISP signup is present, run the ICW using the value set in the <b>ShellNext</b> registry key by <a href="https://docs.microsoft.com/windows/desktop/api/icwcfg/nf-icwcfg-setshellnext">SetShellNext</a> function.
 
 </td>
 </tr>
@@ -235,7 +235,7 @@ The retail mode ISP signup  is run using Icwconn1.exe. IEAK mode is run using Is
 
 
 
-<a href="https://msdn.microsoft.com/f08753b2-9666-498d-aee4-8eb2c7f0d95b">SetShellNext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/icwcfg/nf-icwcfg-setshellnext">SetShellNext</a>
  
 
  

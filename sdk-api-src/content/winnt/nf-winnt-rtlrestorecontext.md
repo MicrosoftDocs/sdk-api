@@ -63,12 +63,12 @@ Restores the context of the caller to the specified context record.
 
 ### -param ContextRecord [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a> structure.
 
 
 ### -param ExceptionRecord [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/85a64178-bdcb-4293-9363-289c654730a2">EXCEPTION_RECORD</a> structure. This parameter is optional and should typically be <b>NULL</b>. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_exception_record">EXCEPTION_RECORD</a> structure. This parameter is optional and should typically be <b>NULL</b>. 
 
 An exception record is used primarily with long jump and C++ catch-throw support. If the <b>ExceptionCode</b> member is STATUS_LONGJUMP, the <b>ExceptionInformation</b> member contains a pointer to a jump buffer. <b>RtlRestoreContext</b> will copy the non-volatile state from the jump buffer in to the context record before the context record is restored.
 
@@ -89,11 +89,11 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2ce0cde-43ab-4681-be66-bd7509fd6ca2">RtlCaptureContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-rtlcapturecontext">RtlCaptureContext</a>
  
 
  

@@ -101,7 +101,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/15181a89-aa64-4ecf-aaf5-4aac36753ddf">IMSVidGenericSink Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidgenericsink">IMSVidGenericSink Interface</a>
  
 
  

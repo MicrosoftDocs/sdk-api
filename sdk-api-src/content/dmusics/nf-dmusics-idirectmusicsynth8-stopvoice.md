@@ -77,7 +77,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/C5D773BB-3939-494D-9F61-3DC8231295AF">IDirectMusicSynth8</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nn-dmusics-idirectmusicsynth8">IDirectMusicSynth8</a>
  
 
  

@@ -88,17 +88,17 @@ GUID identifying the major type of digital media. This must be one of the follow
 
 ### -param dwCodecIndex [in]
 
-<b>DWORD</b> containing the codec index ranging from zero to one less than the number of supported codecs of the type specified by <i>guidType</i>. To retrieve the number of individual codecs supporting a major type, use the <a href="https://msdn.microsoft.com/en-us/library/Dd743324(v=VS.85).aspx">IWMCodecInfo::GetCodecInfoCount</a> method.
+<b>DWORD</b> containing the codec index ranging from zero to one less than the number of supported codecs of the type specified by <i>guidType</i>. To retrieve the number of individual codecs supporting a major type, use the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo-getcodecinfocount">IWMCodecInfo::GetCodecInfoCount</a> method.
 
 
 ### -param dwFormatIndex [in]
 
-<b>DWORD</b> containing the format index ranging from zero to one less than the number of supported formats. To retrieve the number of individual formats supported by a codec, use the <a href="https://msdn.microsoft.com/en-us/library/Dd743323(v=VS.85).aspx">IWMCodecInfo::GetCodecFormatCount</a> method.
+<b>DWORD</b> containing the format index ranging from zero to one less than the number of supported formats. To retrieve the number of individual formats supported by a codec, use the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo-getcodecformatcount">IWMCodecInfo::GetCodecFormatCount</a> method.
 
 
 ### -param ppIStreamConfig [out]
 
-Pointer to a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig</a> interface of a stream configuration object containing the settings of the specified format. When calling <b>GetCodecFormatDesc</b> to retrieve the size of the description string, pass <b>NULL</b> for this parameter.
+Pointer to a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig">IWMStreamConfig</a> interface of a stream configuration object containing the settings of the specified format. When calling <b>GetCodecFormatDesc</b> to retrieve the size of the description string, pass <b>NULL</b> for this parameter.
 
 
 ### -param wszDesc [out]
@@ -166,7 +166,7 @@ Some formats of the Windows Media Audio 9 codec and Windows Media Audio 9 Profes
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743314(v=VS.85).aspx">IWMCodecInfo2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo2">IWMCodecInfo2 Interface</a>
  
 
  

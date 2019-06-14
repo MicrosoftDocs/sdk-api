@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Extracts data from a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure into a newly-allocated <b>ULONG</b> vector.
+Extracts data from a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure into a newly-allocated <b>ULONG</b> vector.
 
 
 ## -parameters
@@ -61,21 +61,21 @@ Extracts data from a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96
 
 Type: <b>REFPROPVARIANT</b>
 
-Reference to a source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure.
+Reference to a source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure.
 
 
 ### -param pprgn [out]
 
 Type: <b>ULONG**</b>
 
-When this function returns, contains a pointer to a vector of <b>ULONG</b> values extracted from the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure.
+When this function returns, contains a pointer to a vector of <b>ULONG</b> values extracted from the source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure.
 
 
 ### -param pcElem [out]
 
 Type: <b>ULONG*</b>
 
-When this function returns, contains the count of <b>ULONG</b> values extracted from the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure.
+When this function returns, contains the count of <b>ULONG</b> values extracted from the source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure.
 
 
 ## -returns
@@ -109,7 +109,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> was not of the appropriate type.
+The <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> was not of the appropriate type.
 
 </td>
 </tr>
@@ -123,14 +123,14 @@ The <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PR
 
 
 
-This helper function is used in places where the calling application expects a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> to hold a vector of <b>ULONG</b> values.
+This helper function is used in places where the calling application expects a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> to hold a vector of <b>ULONG</b> values.
 
-If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> has type <b>VT_VECTOR</b> | <b>VT_UI4</b> or <b>VT_ARRAY</b> | <b>VT_UI4</b>, this function extracts a vector of <b>ULONG</b> values into a newly allocated vector. The calling application is responsible for using <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> to release the vector pointed to by <i>pprgn</i> when it is no longer needed. 
+If the source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> has type <b>VT_VECTOR</b> | <b>VT_UI4</b> or <b>VT_ARRAY</b> | <b>VT_UI4</b>, this function extracts a vector of <b>ULONG</b> values into a newly allocated vector. The calling application is responsible for using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to release the vector pointed to by <i>pprgn</i> when it is no longer needed. 
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776571(v=VS.85).aspx">PropVariantToUInt32VectorAlloc</a> to access a <b>ULONG</b> vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttouint32vectoralloc">PropVariantToUInt32VectorAlloc</a> to access a <b>ULONG</b> vector value in a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>.
 
 
 ```cpp
@@ -155,23 +155,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762312(v=VS.85).aspx">InitPropVariantFromUInt32Vector</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromuint32vector">InitPropVariantFromUInt32Vector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776529(v=VS.85).aspx">PropVariantGetUInt32Elem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantgetuint32elem">PropVariantGetUInt32Elem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776569(v=VS.85).aspx">PropVariantToUInt32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttouint32">PropVariantToUInt32</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776570(v=VS.85).aspx">PropVariantToUInt32Vector</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttouint32vector">PropVariantToUInt32Vector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776628(v=VS.85).aspx">VariantToUInt32Array</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttouint32array">VariantToUInt32Array</a>
  
 
  

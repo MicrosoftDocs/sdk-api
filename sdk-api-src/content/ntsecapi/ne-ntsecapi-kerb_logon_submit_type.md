@@ -84,7 +84,7 @@ Logon using a proxy server.
 
 ### -field KerbTicketLogon
 
-Logon using a valid <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33">Kerberos</a> ticket as a credential.
+Logon using a valid <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">Kerberos</a> ticket as a credential.
 
 
 ### -field KerbTicketUnlockLogon

@@ -152,9 +152,9 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 The optional output buffer returned through the <i>lpOutBuffer</i> parameter can be one of 
      several structures depending on the value of the <b>PropertyId</b> member of the 
-     <a href="https://msdn.microsoft.com/c97a14ab-628c-41f1-96c3-0f47654d0606">STORAGE_PROPERTY_QUERY</a> structure pointed to by the 
+     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_property_query">STORAGE_PROPERTY_QUERY</a> structure pointed to by the 
      <i>lpInBuffer</i> parameter. These values are enumerated by the 
-     <a href="https://msdn.microsoft.com/9747be01-7c70-4697-97f7-e3830b54ba0a">STORAGE_PROPERTY_ID</a> enumeration. If the 
+     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_property_id">STORAGE_PROPERTY_ID</a> enumeration. If the 
      <b>QueryType</b> member of the 
      <b>STORAGE_PROPERTY_QUERY</b> is set to 
      <b>PropertyExistsQuery</b> then no structure is returned.
@@ -167,15 +167,15 @@ The optional output buffer returned through the <i>lpOutBuffer</i> parameter can
 
 
 
-<a href="https://msdn.microsoft.com/488a7d32-cbb5-4f32-9655-0aca8ac69640">Disk Management Control Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes">Disk Management Control Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/f98e53d5-45cb-4c3f-b04d-8eecd98655d2">STORAGE_DESCRIPTOR_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_descriptor_header">STORAGE_DESCRIPTOR_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/c97a14ab-628c-41f1-96c3-0f47654d0606">STORAGE_PROPERTY_QUERY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_property_query">STORAGE_PROPERTY_QUERY</a>
  
 
  

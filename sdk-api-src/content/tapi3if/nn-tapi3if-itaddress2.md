@@ -51,13 +51,13 @@ ms.custom: 19H1
 
 The 
 <b>ITAddress2</b> interface derives from the 
-<a href="https://msdn.microsoft.com/93f2e4cf-013e-4064-88d5-69fddd458274">ITAddress</a> interface. 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a> interface. 
 <b>ITAddress2</b> adds methods to the Address object in order to support phone devices. All Address objects enumerated from TAPI 3.1 automatically implement this interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAddress2</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITAddress2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAddress2</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITAddress2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>ITAddress2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d3b9e04d-ec20-4e30-847f-eb77f426f0f3">DeviceSpecific</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress2-devicespecific">DeviceSpecific</a>
 </td>
 <td align="left" width="63%">
 Provides access to device-specific features. This method is intended for C/C++ applications.
@@ -81,7 +81,7 @@ Provides access to device-specific features. This method is intended for C/C++ a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/27882bb2-dab8-4b8c-acca-35fbdc526362">DeviceSpecificVariant</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress2-devicespecificvariant">DeviceSpecificVariant</a>
 </td>
 <td align="left" width="63%">
 Provides access to device-specific features. This method is intended for Visual Basic and scripting applications.
@@ -90,7 +90,7 @@ Provides access to device-specific features. This method is intended for Visual 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/674a9c35-8949-4935-9fa2-800fced6b57b">EnumeratePhones</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress2-enumeratephones">EnumeratePhones</a>
 </td>
 <td align="left" width="63%">
 Enumerates the phone objects corresponding to the phone devices that can be used with this address. This method is intended for C/C++ applications.
@@ -99,7 +99,7 @@ Enumerates the phone objects corresponding to the phone devices that can be used
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a5a02f79-59b3-43f0-9b3b-fdd7839ba026">EnumeratePreferredPhones</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress2-enumeratepreferredphones">EnumeratePreferredPhones</a>
 </td>
 <td align="left" width="63%">
 Enumerates the phone objects corresponding to the phone devices that are preferred for use with this address. This method is intended for C/C++ applications.
@@ -108,7 +108,7 @@ Enumerates the phone objects corresponding to the phone devices that are preferr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cb0fbfc1-56bf-4455-8d6a-71c78b6a6534">get_EventFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress2-get_eventfilter">get_EventFilter</a>
 </td>
 <td align="left" width="63%">
 Gets event filters for this address.
@@ -117,7 +117,7 @@ Gets event filters for this address.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5cd82f34-1f3f-46a2-bad3-954dc5b93d87">get_Phones</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress2-get_phones">get_Phones</a>
 </td>
 <td align="left" width="63%">
 Gets a collection of phone objects that can be used with this address. This method is intended for Visual Basic and scripting applications.
@@ -126,7 +126,7 @@ Gets a collection of phone objects that can be used with this address. This meth
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6cb17c83-86db-4d44-bbd3-80a0e52fec73">get_PreferredPhones</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress2-get_preferredphones">get_PreferredPhones</a>
 </td>
 <td align="left" width="63%">
 Returns a collection of phone objects corresponding to the phone devices that are preferred for use with this address. This method is intended for Visual Basic and scripting applications.
@@ -135,7 +135,7 @@ Returns a collection of phone objects corresponding to the phone devices that ar
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0d3873ad-ce3d-4b4c-907f-9c0dbf0ef206">GetPhoneFromTerminal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress2-getphonefromterminal">GetPhoneFromTerminal</a>
 </td>
 <td align="left" width="63%">
 Gets the phone object associated with the terminal.
@@ -144,7 +144,7 @@ Gets the phone object associated with the terminal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/219b5c74-f999-4bb7-9e13-59c6ade9da46">NegotiateExtVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress2-negotiateextversion">NegotiateExtVersion</a>
 </td>
 <td align="left" width="63%">
 Negotiates an extension version to use with the specified line device.
@@ -153,7 +153,7 @@ Negotiates an extension version to use with the specified line device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ca58c796-d843-48c3-9eac-ca126395d448">put_EventFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress2-put_eventfilter">put_EventFilter</a>
 </td>
 <td align="left" width="63%">
 Sets event filters for this address.
@@ -168,11 +168,11 @@ Sets event filters for this address.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/93f2e4cf-013e-4064-88d5-69fddd458274">ITAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
  
 
  

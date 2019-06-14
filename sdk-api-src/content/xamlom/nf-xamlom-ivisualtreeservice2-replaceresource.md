@@ -86,15 +86,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/022E495B-2609-4CA0-A69D-BFC4A04A6F9B">IVisualTreeService2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice2">IVisualTreeService2</a>
 
 
 
-<a href="https://msdn.microsoft.com/86590A71-8BFC-4214-9F7C-1DF5B8391552">IVisualTreeService3::AddDictionaryItem</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice3-adddictionaryitem">IVisualTreeService3::AddDictionaryItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/6239D855-7408-47ED-9090-E7726E7E403E">IVisualTreeService3::RemoveDictionaryItem</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice3-removedictionaryitem">IVisualTreeService3::RemoveDictionaryItem</a>
  
 
  

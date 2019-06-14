@@ -55,7 +55,7 @@ Represents an item ID range to exclude from a knowledge object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRangeException</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IRangeException</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRangeException</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRangeException</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IRangeException</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9a13bb4c-ed0e-45f0-a78f-13eadd32760e">GetClockVector</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-irangeexception-getclockvector">GetClockVector</a>
 </td>
 <td align="left" width="63%">
 Gets the clock vector that is associated with this exception.
@@ -80,7 +80,7 @@ Gets the clock vector that is associated with this exception.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1725d0b8-2ecb-4cce-b20f-7e8d0da502de">GetClosedRangeEnd</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-irangeexception-getclosedrangeend">GetClosedRangeEnd</a>
 </td>
 <td align="left" width="63%">
 Gets the upper bound of the range of item IDs to exclude.
@@ -90,7 +90,7 @@ Gets the upper bound of the range of item IDs to exclude.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5c3c4e92-8c0d-4a3d-97be-029d2c386af4">GetClosedRangeStart</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-irangeexception-getclosedrangestart">GetClosedRangeStart</a>
 </td>
 <td align="left" width="63%">
 Gets the lower bound of the range of item IDs to exclude.
@@ -106,7 +106,7 @@ Gets the lower bound of the range of item IDs to exclude.
 
 
 
-<a href="https://msdn.microsoft.com/2c185fe2-1bbe-4409-aea0-6e138430b304">Windows Sync Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
  
 
  

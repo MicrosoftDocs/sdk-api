@@ -84,19 +84,19 @@ The index object of an ASF file can contain a number of distinct indexes. Each i
 
 
 
-<a href="https://msdn.microsoft.com/3f95b0ac-d70f-4bc2-8524-c7de1df34afa">ASF Index Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-index-object">ASF Index Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc38a060-36e4-458e-829e-2770387fc484">IMFASFIndexer::GetIndexStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getindexstatus">IMFASFIndexer::GetIndexStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/bad10893-07af-4b46-bab1-2878553813b5">IMFASFIndexer::SetIndexStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-setindexstatus">IMFASFIndexer::SetIndexStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/39fdd724-13ca-48ab-8a55-93529d1da3b4">Media Foundation Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
  
 
  

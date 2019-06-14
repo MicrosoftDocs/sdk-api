@@ -57,7 +57,7 @@ The <b>IVssHardwareSnapshotProvider</b>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssHardwareSnapshotProvider</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IVssHardwareSnapshotProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssHardwareSnapshotProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssHardwareSnapshotProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IVssHardwareSnapshotProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f3615770-63a1-49eb-a3b9-b4d349fc33df">AreLunsSupported</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-arelunssupported">AreLunsSupported</a>
 </td>
 <td align="left" width="63%">
 Determines whether the hardware provider supports shadow copy creation for all LUNs that contribute to the volume.
@@ -81,7 +81,7 @@ Determines whether the hardware provider supports shadow copy creation for all L
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4a8bdffa-bb6e-425d-a708-1f31af302da9">BeginPrepareSnapshot</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-beginpreparesnapshot">BeginPrepareSnapshot</a>
 </td>
 <td align="left" width="63%">
 Called for each shadow copy that is added to the shadow copy set.
@@ -90,25 +90,25 @@ Called for each shadow copy that is added to the shadow copy set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4e4e5942-5bc8-4b5e-a651-5bb354514994">FillInLunInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-fillinluninfo">FillInLunInfo</a>
 </td>
 <td align="left" width="63%">
-Prompts the hardware provider to indicate whether it supports the corresponding disk device and correct any omissions in the <a href="https://msdn.microsoft.com/6ad7ec27-add1-4f1e-aa01-6f43c75b7ad9">VDS_LUN_INFORMATION</a> structure.
+Prompts the hardware provider to indicate whether it supports the corresponding disk device and correct any omissions in the <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a> structure.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/299020eb-0afd-41c8-9551-1275eff45fa1">GetTargetLuns</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-gettargetluns">GetTargetLuns</a>
 </td>
 <td align="left" width="63%">
-Prompts the hardware provider to initialize the <a href="https://msdn.microsoft.com/6ad7ec27-add1-4f1e-aa01-6f43c75b7ad9">VDS_LUN_INFORMATION</a> structures for the newly created shadow copy LUNs.
+Prompts the hardware provider to initialize the <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a> structures for the newly created shadow copy LUNs.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9a996875-a495-43c1-987e-67c31d0651c7">LocateLuns</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-locateluns">LocateLuns</a>
 </td>
 <td align="left" width="63%">
 Prompts the hardware provider to make the shadow copy LUNs visible to the computer.
@@ -117,7 +117,7 @@ Prompts the hardware provider to make the shadow copy LUNs visible to the comput
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/06a31704-9031-4ab9-84eb-685f6b648d27">OnLunEmpty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-onlunempty">OnLunEmpty</a>
 </td>
 <td align="left" width="63%">
 Called whenever VSS determines that a shadow copy LUN contains no interesting data.
@@ -132,7 +132,7 @@ Called whenever VSS determines that a shadow copy LUN contains no interesting da
 
 
 
-<a href="https://msdn.microsoft.com/3a0c60df-666c-4e33-a54c-7fa5ddbfde13">Volume Shadow Copy API Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-interfaces">Volume Shadow Copy API Interfaces</a>
  
 
  

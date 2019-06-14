@@ -78,7 +78,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
  If the
-<b>MaxMajorVersionTested</b> attribute is not specified for the current dependency package, this method returns the highest 16 bits of the <b>MinVersion</b> field. For more information, see the <a href="https://msdn.microsoft.com/301053BA-A2DB-405C-9E2E-3817B2B5D7FD">GetMinVersion</a> method.
+<b>MaxMajorVersionTested</b> attribute is not specified for the current dependency package, this method returns the highest 16 bits of the <b>MinVersion</b> field. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestpackagedependency-getminversion">GetMinVersion</a> method.
 
 
 
@@ -88,11 +88,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/301053BA-A2DB-405C-9E2E-3817B2B5D7FD">GetMinVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestpackagedependency-getminversion">GetMinVersion</a>
 
 
 
-<a href="https://msdn.microsoft.com/9363C5BB-BDEF-4671-9545-5B8C0EF14FBE">IAppxManifestPackageDependency2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestpackagedependency2">IAppxManifestPackageDependency2</a>
  
 
  

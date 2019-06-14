@@ -70,7 +70,7 @@ Pointer to an array of information IDs. This pointer cannot be <b>NULL</b>.
 
 ### -param pInfoValues [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> of 
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY</a> of 
       information values.
 
 
@@ -100,19 +100,19 @@ Although Server Data Objects (SDO) exposes this method, you do not need it in or
 
 
 
-<a href="https://msdn.microsoft.com/84ed435c-c6e8-41e7-9a5f-acd78fce4a10">ATTRIBUTEINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_attributeinfo">ATTRIBUTEINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/5aaa4008-3b39-4d1d-90db-79631e5bb6b9">ISdoDictionaryOld</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdodictionaryold">ISdoDictionaryOld</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a>
  
 
  

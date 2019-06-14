@@ -69,6 +69,6 @@ Reserved for internal use.
 
 ### -field ft
 
-Pointer to the <a href="https://msdn.microsoft.com/148c4f5a-277a-41fa-b801-34884fbf3225">MI_HostedProviderFT</a> function 
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_hostedproviderft">MI_HostedProviderFT</a> function 
       table.
 

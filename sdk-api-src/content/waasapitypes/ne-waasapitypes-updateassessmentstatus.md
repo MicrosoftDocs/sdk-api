@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Describes how up-to-date the OS on a device is.<b>UpdateAssessmentStatus</b> is used by the <a href="https://msdn.microsoft.com/BD456DF6-4A29-41B4-8EB4-8F29910981E7">UpdateAssessment</a> and <a href="https://msdn.microsoft.com/D76D0587-E31E-48D2-9DF6-33444E4CA325">OSUpdateAssessment</a> structures, in the <b>assessmentForCurrent</b>, <b>assessmentForUpToDate</b>, and <b>securityStatus</b> members. Exactly one constant is returned.
+Describes how up-to-date the OS on a device is.<b>UpdateAssessmentStatus</b> is used by the <a href="https://docs.microsoft.com/windows/desktop/api/waasapitypes/ns-waasapitypes-tagupdateassessment">UpdateAssessment</a> and <a href="https://docs.microsoft.com/windows/desktop/api/waasapitypes/ns-waasapitypes-tagosupdateassessment">OSUpdateAssessment</a> structures, in the <b>assessmentForCurrent</b>, <b>assessmentForUpToDate</b>, and <b>securityStatus</b> members. Exactly one constant is returned.
 
 
 ## -enum-fields
@@ -120,7 +120,7 @@ The device is not on the latest update due to a reason that cannot be determined
 
 
 
-This enumeration is used most often with the <a href="https://msdn.microsoft.com/BD456DF6-4A29-41B4-8EB4-8F29910981E7">UpdateAssessment</a>  and <a href="https://msdn.microsoft.com/D76D0587-E31E-48D2-9DF6-33444E4CA325">OSUpdateAssessment</a> structures, which are in turn used with the <a href="https://msdn.microsoft.com/3123362E-6A1C-49BD-BE9C-0B8506EA944B">GetOSUpdateAssessment</a> method for <a href="https://msdn.microsoft.com/CE5D99C9-2348-4566-AC94-DFBA5B583503">IWaaSAssessor</a>.
+This enumeration is used most often with the <a href="https://docs.microsoft.com/windows/desktop/api/waasapitypes/ns-waasapitypes-tagupdateassessment">UpdateAssessment</a>  and <a href="https://docs.microsoft.com/windows/desktop/api/waasapitypes/ns-waasapitypes-tagosupdateassessment">OSUpdateAssessment</a> structures, which are in turn used with the <a href="https://docs.microsoft.com/windows/desktop/api/waasapi/nf-waasapi-iwaasassessor-getosupdateassessment">GetOSUpdateAssessment</a> method for <a href="https://docs.microsoft.com/windows/desktop/api/waasapi/nn-waasapi-iwaasassessor">IWaaSAssessor</a>.
 
 
 

@@ -76,15 +76,15 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375955(v=VS.85).aspx">IAMTuner::put_Channel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtuner-put_channel">IAMTuner::put_Channel</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694420(v=VS.85).aspx">IMSVidAnalogTuner Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidanalogtuner">IMSVidAnalogTuner Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694428(v=VS.85).aspx">IMSVidAnalogTuner::get_Channel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidanalogtuner-get_channel">IMSVidAnalogTuner::get_Channel</a>
  
 
  

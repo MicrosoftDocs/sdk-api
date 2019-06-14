@@ -64,12 +64,12 @@ Contains the number of mipmap levels in the chain.
 
 ### -field lpVideoPort
 
-Points to a <a href="https://msdn.microsoft.com/c497d1ef-0eb1-465f-978c-60cf5606de93">DD_VIDEOPORT_LOCAL</a> structure of the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">video port extensions (VPE)</a> object currently writing data to this surface. 
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_videoport_local">DD_VIDEOPORT_LOCAL</a> structure of the <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object currently writing data to this surface. 
 
 
 ### -field dwOverlayFlags
 
-Specifies a set of flags that indicate the overlay flags most recently passed to <a href="https://msdn.microsoft.com/e86b3b75-319a-4817-bcb1-59580c855ef9">DdUpdateOverlay</a>. This member is a bitwise OR of any of the following values:
+Specifies a set of flags that indicate the overlay flags most recently passed to <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_updateoverlay">DdUpdateOverlay</a>. This member is a bitwise OR of any of the following values:
 
 <table>
 <tr>
@@ -322,12 +322,12 @@ Turn this overlay on.
 
 ### -field ddsCapsEx
 
-Specifies a DDSCAPSEX structure that is used to expose extended surface capabilities. A DDSCAPSEX structure is the same as a <a href="https://msdn.microsoft.com/023b1a6d-3f08-43cc-b9c0-9d312b347a6b">DDSCAPS2</a> structure without the <b>dwCaps</b> member. 
+Specifies a DDSCAPSEX structure that is used to expose extended surface capabilities. A DDSCAPSEX structure is the same as a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550292(v=vs.85)">DDSCAPS2</a> structure without the <b>dwCaps</b> member. 
 
 
 ### -field dwSurfaceHandle
 
-Specifies a cookie for <a href="https://msdn.microsoft.com/dd07e49c-ec1f-4ba6-8b17-80ce6d3c5813">D3dCreateSurfaceEx</a> so that it can associate a texture handle with the surface. 
+Specifies a cookie for <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_createsurfaceex">D3dCreateSurfaceEx</a> so that it can associate a texture handle with the surface. 
 
 
 ## -see-also
@@ -335,15 +335,15 @@ Specifies a cookie for <a href="https://msdn.microsoft.com/dd07e49c-ec1f-4ba6-8b
 
 
 
-<a href="https://msdn.microsoft.com/dd07e49c-ec1f-4ba6-8b17-80ce6d3c5813">D3dCreateSurfaceEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_createsurfaceex">D3dCreateSurfaceEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/c497d1ef-0eb1-465f-978c-60cf5606de93">DD_VIDEOPORT_LOCAL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_videoport_local">DD_VIDEOPORT_LOCAL</a>
 
 
 
-<a href="https://msdn.microsoft.com/e86b3b75-319a-4817-bcb1-59580c855ef9">DdUpdateOverlay</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_updateoverlay">DdUpdateOverlay</a>
  
 
  

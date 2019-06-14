@@ -74,7 +74,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 Calling the <b>Close</b> method more than once has no effect and returns <b>S_OK</b>. 
 
-For info on implementing the <b>Close</b> method, see  the Remarks at <a href="https://msdn.microsoft.com/856C7D91-15AB-4101-BC5F-232004AD6DF4">IClosable</a>.
+For info on implementing the <b>Close</b> method, see  the Remarks at <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-iclosable">IClosable</a>.
 
 
 
@@ -84,7 +84,7 @@ For info on implementing the <b>Close</b> method, see  the Remarks at <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/856C7D91-15AB-4101-BC5F-232004AD6DF4">IClosable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-iclosable">IClosable</a>
  
 
  

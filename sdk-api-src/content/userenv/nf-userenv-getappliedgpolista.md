@@ -83,7 +83,7 @@ A pointer to the name of the remote computer. The format of the name is "\\<i>co
 A value that specifies the SID of the user. If <i>pMachineName</i> is not <b>NULL</b> and <i>dwFlags</i> specifies user policy, then <i>pSidUser</i> cannot be <b>NULL</b>.
 
 If <i>pMachineName</i> is <b>NULL</b> and <i>pSidUser</i> is <b>NULL</b>, the user is the currently logged-on user. If <i>pMachineName</i> is <b>NULL</b> and <i>pSidUser</i> is not <b>NULL</b>, the user is represented by <i>pSidUser</i> on the local computer. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379571(v=VS.85).aspx">Security Identifiers</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-identifiers">Security Identifiers</a>.
 
 
 ### -param pGuidExtension [in]
@@ -94,7 +94,7 @@ A value that specifies the <b>GUID</b> of the extension.
 ### -param ppGPOList [out]
 
 A pointer that receives the list of GPO structures. For more information, see 
-<a href="https://msdn.microsoft.com/7275a3cd-6b19-4eb9-9481-b73bd5af5753">GROUP_POLICY_OBJECT</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-_group_policy_objecta">GROUP_POLICY_OBJECT</a>.
 
 
 ## -returns
@@ -102,7 +102,7 @@ A pointer that receives the list of GPO structures. For more information, see
 
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>. Otherwise, the function returns a system error code. For a complete list of error codes, see 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a> or the header file WinError.h.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a> or the header file WinError.h.
 
 
 
@@ -112,7 +112,7 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b>. Otherwise, t
 
 
 To free the GPO list when you have finished processing it, call the 
-<a href="https://msdn.microsoft.com/96bd2b5b-c088-4eea-bbc2-31d83c13aa99">FreeGPOList</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-freegpolista">FreeGPOList</a> function.
 
 
 
@@ -122,24 +122,24 @@ To free the GPO list when you have finished processing it, call the
 
 
 
-<a href="https://msdn.microsoft.com/96bd2b5b-c088-4eea-bbc2-31d83c13aa99">FreeGPOList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-freegpolista">FreeGPOList</a>
 
 
 
-<a href="https://msdn.microsoft.com/7275a3cd-6b19-4eb9-9481-b73bd5af5753">GROUP_POLICY_OBJECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-_group_policy_objecta">GROUP_POLICY_OBJECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/26c54ac5-23d7-40ed-94a9-70d25e14431f">GetGPOList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-getgpolista">GetGPOList</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c45666e-d7c7-4989-ad19-b1b230757a88">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
     Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/1285ab5a-ea68-4c16-bc34-8ab2f3cfad35">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
  
 

@@ -97,15 +97,15 @@ Value: 0x80004003
 
 
 
-<a href="https://msdn.microsoft.com/b6ba9226-655e-4eac-ad43-2b5a8e90039f">IProgressItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitem">IProgressItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/6960fecb-f202-4a10-9abb-fc945217a314">IProgressItem::get_BlockCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitem-get_blockcount">IProgressItem::get_BlockCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/ad75e708-4a10-45b9-89c2-11270f6edd9e">IProgressItem::get_LastBlock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitem-get_lastblock">IProgressItem::get_LastBlock</a>
  
 
  

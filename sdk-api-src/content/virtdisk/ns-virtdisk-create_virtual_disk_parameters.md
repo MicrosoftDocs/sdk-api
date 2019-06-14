@@ -61,7 +61,7 @@ Contains virtual hard disk (VHD) creation parameters, providing control over, an
 
 ### -field Version
 
-A value from the <a href="https://msdn.microsoft.com/en-us/library/Dd323662(v=VS.85).aspx">CREATE_VIRTUAL_DISK_VERSION</a> 
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_create_virtual_disk_version">CREATE_VIRTUAL_DISK_VERSION</a> 
       enumeration that is the discriminant for the union.
 
 <table>
@@ -191,7 +191,7 @@ The default and only allowable size, 512 bytes.
 
 ### -field Version1.ParentPath
 
-Optional <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">fully qualified</a> path to a parent 
+Optional <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">fully qualified</a> path to a parent 
          virtual disk object. Associates the new virtual disk with an existing virtual disk.
 
 If this parameter is not <b>NULL</b>, <b>SourcePath</b> must be 
@@ -200,7 +200,7 @@ If this parameter is not <b>NULL</b>, <b>SourcePath</b> must be
 
 ### -field Version1.SourcePath
 
-Optional <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">fully qualified</a> path to 
+Optional <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">fully qualified</a> path to 
           pre-populate the new virtual disk object with block data from an existing disk. This path may refer to a 
           virtual disk or a physical disk.
 
@@ -295,7 +295,7 @@ Internal size of the virtual disk object sectors. For VHDX  must be set to 512 (
 
 ### -field Version2.ParentPath
 
-Optional <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">fully qualified</a> path to a parent 
+Optional <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">fully qualified</a> path to a parent 
          virtual disk object. Associates the new virtual disk with an existing virtual disk.
 
 If this parameter is not <b>NULL</b>, <b>SourcePath</b> must be 
@@ -304,7 +304,7 @@ If this parameter is not <b>NULL</b>, <b>SourcePath</b> must be
 
 ### -field Version2.SourcePath
 
-Optional <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">fully qualified</a> path to 
+Optional <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">fully qualified</a> path to 
           pre-populate the new virtual disk object with block data from an existing disk. This path may refer to a 
           virtual disk or a physical disk.
 
@@ -315,19 +315,19 @@ If this parameter is not <b>NULL</b>, <b>ParentPath</b> must be
 ### -field Version2.OpenFlags
 
 Zero or more flags from the 
-        <a href="https://msdn.microsoft.com/en-us/library/Dd323681(v=VS.85).aspx">OPEN_VIRTUAL_DISK_FLAG</a> enumeration describing 
+        <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_open_virtual_disk_flag">OPEN_VIRTUAL_DISK_FLAG</a> enumeration describing 
         how the virtual disk is to be opened.
 
 
 ### -field Version2.ParentVirtualStorageType
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd323704(v=VS.85).aspx">VIRTUAL_STORAGE_TYPE</a> structure describing 
+A <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> structure describing 
         the parent virtual disk specified in the <b>ParentPath</b> member.
 
 
 ### -field Version2.SourceVirtualStorageType
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd323704(v=VS.85).aspx">VIRTUAL_STORAGE_TYPE</a> structure describing 
+A <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> structure describing 
         the source virtual disk specified in the <b>SourcePath</b> member.
 
 
@@ -493,23 +493,23 @@ Resiliency <b>GUID</b> for the file.
 
 
 
-<a href="https://msdn.microsoft.com/c9531c07-ad55-42b6-8685-7f55a47e8485">About VHD</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd323659(v=VS.85).aspx">CreateVirtualDisk</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-createvirtualdisk">CreateVirtualDisk</a>
 
 
 
-<a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">Naming Files, Paths, and Namespaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b5d0da0-2b23-4b7c-b007-ed3fe030926c">VHD Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/e0caf715-bde5-4fe8-ad69-9372146e17b9">VHD Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323701(v=vs.85)">VHD Structures</a>
  
 
  

@@ -64,7 +64,7 @@ The path of the setting object.
 
 ### -param Setting [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/a743d942-69f9-426b-be88-adf88b9bb1e0">ISettingsItem</a> object that represents 
+A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a> object that represents 
       the created setting.
 
 
@@ -169,7 +169,7 @@ Indicates that the path is incorrectly specified and references the wrong key fo
 
 
 
-<a href="https://msdn.microsoft.com/a5d7b9ff-eb6f-40be-b246-17189cad92be">ISettingsNamespace</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsnamespace">ISettingsNamespace</a>
  
 
  

@@ -51,14 +51,14 @@ ms.custom: 19H1
 
 The 
 <b>ITAgentHandler</b> interface provides methods to create Agent objects and enumerate Automatic Call Distribution (ACD) groups. The 
-<a href="https://msdn.microsoft.com/0e6a7db0-c339-4a36-aea8-e3f9f2d5cd09">IEnumAgentHandler::Next</a> and 
-<a href="https://msdn.microsoft.com/61972ea2-d3ab-4893-8fc6-cd3c10f8584e">ITTapiCallCenter::get_AgentHandlers</a> methods create the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ienumagenthandler-next">IEnumAgentHandler::Next</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ittapicallcenter-get_agenthandlers">ITTapiCallCenter::get_AgentHandlers</a> methods create the 
 <b>ITAgentHandler</b> interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAgentHandler</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITAgentHandler</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAgentHandler</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITAgentHandler</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>ITAgentHandler</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f3242013-59a6-40f9-9bb1-0bc30f27311c">CreateAgent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagenthandler-createagent">CreateAgent</a>
 </td>
 <td align="left" width="63%">
 Creates an Agent object.
@@ -82,7 +82,7 @@ Creates an Agent object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/95c70e48-b990-47c7-a8b8-5fa3a84ec5ba">CreateAgentWithID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagenthandler-createagentwithid">CreateAgentWithID</a>
 </td>
 <td align="left" width="63%">
 Creates an Agent object based on an agent identifier.
@@ -91,7 +91,7 @@ Creates an Agent object based on an agent identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a9078166-ff6a-4520-8209-e785bd6e7100">EnumerateACDGroups</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagenthandler-enumerateacdgroups">EnumerateACDGroups</a>
 </td>
 <td align="left" width="63%">
 Enumerates ACD groups currently associated with the agent handler.
@@ -100,7 +100,7 @@ Enumerates ACD groups currently associated with the agent handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9821b073-c64b-4f2b-b771-6bf027f9aa70">EnumerateUsableAddresses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagenthandler-enumerateusableaddresses">EnumerateUsableAddresses</a>
 </td>
 <td align="left" width="63%">
 Enumerates addresses available for receiving ACD calls on this agent handler.
@@ -109,7 +109,7 @@ Enumerates addresses available for receiving ACD calls on this agent handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/72dcc4c8-fac6-4635-995e-18a5693da99b">get_ACDGroups</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagenthandler-get_acdgroups">get_ACDGroups</a>
 </td>
 <td align="left" width="63%">
 Creates a collection of ACD groups currently associated with the agent handler. This method is provided for Automation client applications, such as those written in Visual Basic.
@@ -118,7 +118,7 @@ Creates a collection of ACD groups currently associated with the agent handler. 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/18596742-9a0e-44c1-97e1-1d13d84cc10c">get_Name</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagenthandler-get_name">get_Name</a>
 </td>
 <td align="left" width="63%">
 Gets the agent handler name.
@@ -127,7 +127,7 @@ Gets the agent handler name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ee457b5c-e505-489c-93dc-8bdfb87c7afe">get_UsableAddresses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagenthandler-get_usableaddresses">get_UsableAddresses</a>
 </td>
 <td align="left" width="63%">
 Creates a collection of addresses available for receiving ACD calls on this agent handler. This method is provided for Automation client applications, such as those written in Visual Basic.
@@ -142,15 +142,15 @@ Creates a collection of addresses available for receiving ACD calls on this agen
 
 
 
-<a href="https://msdn.microsoft.com/6b24e8aa-fef4-44aa-8d2b-33b9be3d6ea7">About Call Center Controls</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c1409c9-da73-4d21-bf56-07e9ab7b33a0">ITAgent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
  
 
  

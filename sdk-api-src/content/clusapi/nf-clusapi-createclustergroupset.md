@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Adds a  groupset to a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> and returns a handle to the newly added groupset.
+Adds a  groupset to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a> and returns a handle to the newly added groupset.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ If the operation succeeds,
 returns a groupset handle.
 
 If the operation fails, 
-returns <b>NULL</b>. For more information about the error, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+returns <b>NULL</b>. For more information about the error, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 

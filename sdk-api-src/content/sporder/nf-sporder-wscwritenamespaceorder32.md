@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The 
-<b>WSCWriteNameSpaceOrder32</b> function changes the order of available Windows Sockets (Winsock) 2 namespace providers in a 32-bit catalog. The order of the namespace providers determines the priority of the namespace when enumerated or queried for name resolution.<div class="alert"><b>Note</b>  This call is a strictly 32-bit version of <a href="https://msdn.microsoft.com/00a06104-570f-4cd5-9520-bc73516ac7a5">WSCWriteNameSpaceOrder</a> for use on 64-bit platforms. It is provided to allow 64-bit processes to reorder the 32-bit namespace provider catalog.</div>
+<b>WSCWriteNameSpaceOrder32</b> function changes the order of available Windows Sockets (Winsock) 2 namespace providers in a 32-bit catalog. The order of the namespace providers determines the priority of the namespace when enumerated or queried for name resolution.<div class="alert"><b>Note</b>  This call is a strictly 32-bit version of <a href="https://docs.microsoft.com/windows/desktop/api/sporder/nf-sporder-wscwritenamespaceorder">WSCWriteNameSpaceOrder</a> for use on 64-bit platforms. It is provided to allow 64-bit processes to reorder the 32-bit namespace provider catalog.</div>
 <div> </div>
 
 
@@ -62,7 +62,7 @@ The
 
 ### -param lpProviderId [in]
 
-An array of <b>NSProviderId</b> elements as found in the <a href="https://msdn.microsoft.com/a5c76657-df62-471a-95e9-8017cad47b00">WSANAMESPACE_INFO</a>structure.  The order of the <b>NSProviderId</b> elements is the new
+An array of <b>NSProviderId</b> elements as found in the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsanamespace_infow">WSANAMESPACE_INFO</a>structure.  The order of the <b>NSProviderId</b> elements is the new
       priority ordering for the namespace providers.
 
 
@@ -85,7 +85,7 @@ The function returns <b>ERROR_SUCCESS</b> (zero) if the routine is successful. O
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -96,7 +96,7 @@ The <b>NSProviderId</b> array is not fully contained within process address spac
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -107,7 +107,7 @@ Input parameters were invalid, no action was taken.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANO_RECOVERY</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -118,7 +118,7 @@ A nonrecoverable error occurred. This error is returned under several conditions
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSASYSCALLFAILURE</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASYSCALLFAILURE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -129,7 +129,7 @@ A system call that should never fail has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx"> WSATRY_AGAIN</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2"> WSATRY_AGAIN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -140,7 +140,7 @@ The function is called by another thread or process.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -169,14 +169,14 @@ The function may return any registry error code.
 
 
 
-Namespace providers are installed on 64-bit platforms in a 32-bit namespace provider catalog using the  <a href="https://msdn.microsoft.com/b107fbe6-bbfb-45be-8419-4d85d3c4e80c">WSCInstallNameSpace32</a> function. The order in which namespace providers in a 32-bit catalog are initially installed governs the default order in which they are enumerated through 
-  <a href="https://msdn.microsoft.com/792737d9-231d-4524-b1a6-b9904951d5b4">WSCEnumNameSpaceProviders32</a>.  More importantly, this order also governs the order in which namespace providers are considered when a client requests name resolution. On 64-bit platforms, the <b>WSCWriteNameSpaceOrder32</b> function is provided to allow 64-bit processes to change the order of namespace providers in the 32-bit namespace provider catalog. The order of namespace providers in the native catalog can be changed using the <a href="https://msdn.microsoft.com/00a06104-570f-4cd5-9520-bc73516ac7a5">WSCWriteNameSpaceOrder</a> function. 
+Namespace providers are installed on 64-bit platforms in a 32-bit namespace provider catalog using the  <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallnamespace32">WSCInstallNameSpace32</a> function. The order in which namespace providers in a 32-bit catalog are initially installed governs the default order in which they are enumerated through 
+  <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumnamespaceproviders32">WSCEnumNameSpaceProviders32</a>.  More importantly, this order also governs the order in which namespace providers are considered when a client requests name resolution. On 64-bit platforms, the <b>WSCWriteNameSpaceOrder32</b> function is provided to allow 64-bit processes to change the order of namespace providers in the 32-bit namespace provider catalog. The order of namespace providers in the native catalog can be changed using the <a href="https://docs.microsoft.com/windows/desktop/api/sporder/nf-sporder-wscwritenamespaceorder">WSCWriteNameSpaceOrder</a> function. 
 
 The current namespace provider catalog is stored in the registry under the following registry key: <b>HKEY_LOCAL_MACHINE</b>\<b>SYSTEM</b>\<b>Current Control Set</b>\<b>Services</b>\<b>Winsock2</b>\<b>Parameters</b>\<b>NameSpace_Catalog5</b>
 
 
 
-A client request for name resolution uses the <a href="https://msdn.microsoft.com/448309ef-b9dd-4960-8016-d26691df59ec">WSALookupServiceBegin</a>, <a href="https://msdn.microsoft.com/ab4f1830-b38d-4224-a6a9-6d4512245ad6">WSALookupServiceNext</a>, and <a href="https://msdn.microsoft.com/f9d2ac54-a818-464d-918e-80ebb5b1b106">WSALookupServiceEnd</a> routines. The <b>dwNameSpace</b> member of the <a href="https://msdn.microsoft.com/6c81fbba-aaf4-49ca-ab79-b6fe5dfb0076">WSAQUERYSET</a> structure passed to <b>WSALookupServiceBegin</b> is set to the identifier of a single namespace (<b>NS_DNS</b>, for example) in which to constrain the search, or <b>NS_ALL</b> to include all namespaces. If multiple namespace providers support a specific namespace (for example, <b>NS_DNS</b>), then the results from all namespace providers that match the requested <b>dwNameSpace</b> are returned unless the <b>lpNSProviderId</b> 
+A client request for name resolution uses the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina">WSALookupServiceBegin</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta">WSALookupServiceNext</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupserviceend">WSALookupServiceEnd</a> routines. The <b>dwNameSpace</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a> structure passed to <b>WSALookupServiceBegin</b> is set to the identifier of a single namespace (<b>NS_DNS</b>, for example) in which to constrain the search, or <b>NS_ALL</b> to include all namespaces. If multiple namespace providers support a specific namespace (for example, <b>NS_DNS</b>), then the results from all namespace providers that match the requested <b>dwNameSpace</b> are returned unless the <b>lpNSProviderId</b> 
 member is set to a specific namespace provider. The results from all namespace providers is returned if <b>NS_ALL</b> is specified for the <b>dwNameSpace</b> member. The order that the results are returned depends on the namespace provider order in the catalog.
 
 The Windows SDK includes an application called SpOrder.exe that allows the catalog of installed namespace providers to be displayed. Winsock 2 includes the ws2_32.DLL on 64-bit platforms that exports the  <b>WSCWriteNameSpaceOrder32</b> function for reordering namespace providers in the 32-bit namespace provider  catalog. This interface can be imported by linking with WS2_32.lib. For computers running on Windows XP with Service Pack 2 (SP2) and Windows Server 2003 with Service Pack 1 (SP1) and later,  the <b>netsh.exe winsock show catalog</b> command will display both the protocol and namespace providers installed. The native 64-bit catalog is displayed first followed by the 32-bit provider catalogs (denoted with a 32 after their name).
@@ -203,31 +203,31 @@ The following list describes scenarios in which the
 
 
 
-<a href="https://msdn.microsoft.com/f5b6cd42-c5cb-43b6-bb96-fd260217e252">WSAEnumNameSpaceProviders</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersa">WSAEnumNameSpaceProviders</a>
 
 
 
-<a href="https://msdn.microsoft.com/a5c76657-df62-471a-95e9-8017cad47b00">WSANAMESPACE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsanamespace_infow">WSANAMESPACE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c81fbba-aaf4-49ca-ab79-b6fe5dfb0076">WSAQUERYSET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a>
 
 
 
-<a href="https://msdn.microsoft.com/792737d9-231d-4524-b1a6-b9904951d5b4">WSCEnumNameSpaceProviders32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumnamespaceproviders32">WSCEnumNameSpaceProviders32</a>
 
 
 
-<a href="https://msdn.microsoft.com/f17f6174-879e-45e7-a250-975d1ee24fe0">WSCInstallNameSpace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallnamespace">WSCInstallNameSpace</a>
 
 
 
-<a href="https://msdn.microsoft.com/b107fbe6-bbfb-45be-8419-4d85d3c4e80c">WSCInstallNameSpace32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallnamespace32">WSCInstallNameSpace32</a>
 
 
 
-<a href="https://msdn.microsoft.com/00a06104-570f-4cd5-9520-bc73516ac7a5">WSCWriteNameSpaceOrder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sporder/nf-sporder-wscwritenamespaceorder">WSCWriteNameSpaceOrder</a>
  
 
  

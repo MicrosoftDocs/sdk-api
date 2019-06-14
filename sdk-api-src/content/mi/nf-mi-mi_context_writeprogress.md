@@ -66,7 +66,7 @@ Request context.
 
 A null-terminated string that represents the current activity. This string should be localized based on the 
       client UI request (retrieved through the 
-      <a href="https://msdn.microsoft.com/7d2271e8-de76-4629-aedc-0ab882ab58eb">MI_Context_GetLocale</a> function).
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_getlocale">MI_Context_GetLocale</a> function).
 
 
 ### -param currentOperation [in]
@@ -97,7 +97,7 @@ Estimated seconds remaining to complete the current operation. Passing 0xfffffff
 
 
 
-A value of the <a href="https://msdn.microsoft.com/9AA2B479-E8A5-4F0C-A8A4-06DB7CB7CA2F">MI_Result</a> enumeration that specifies the 
+A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_result">MI_Result</a> enumeration that specifies the 
       function return code. This can be one of the following codes.
 
 
@@ -126,11 +126,11 @@ A provider calls this function to indicate how far through an operation the prov
 
 
 
-<a href="https://msdn.microsoft.com/51d6c510-f9fd-4ab7-a669-b2a5776b496d">MI_Context</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_context">MI_Context</a>
 
 
 
-<a href="https://msdn.microsoft.com/7d2271e8-de76-4629-aedc-0ab882ab58eb">MI_Context_GetLocale</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_getlocale">MI_Context_GetLocale</a>
  
 
  

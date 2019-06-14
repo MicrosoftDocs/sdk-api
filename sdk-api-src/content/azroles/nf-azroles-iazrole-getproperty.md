@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>GetProperty</b> method returns the <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> object property  with the specified property ID.
+The <b>GetProperty</b> method returns the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> object property  with the specified property ID.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>GetProperty</b> method returns the <a href="https://msdn.microsoft.com/29
 
 ### -param lPropId [in]
 
-Property ID of the <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> object property  to return. The following table shows the possible values.
+Property ID of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> object property  to return. The following table shows the possible values.
 
 <table>
 <tr>
@@ -73,7 +73,7 @@ Property ID of the <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://msdn.microsoft.com/6cb85528-35b4-4fed-98bb-6209dd0af0fd">ApplicationData</a>  property
+Also  accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-get_applicationdata">ApplicationData</a>  property
 
 </td>
 </tr>
@@ -93,7 +93,7 @@ Determines whether the current user has permission to create child objects. This
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://msdn.microsoft.com/2909c2ea-8308-49c3-9456-d035c1c242f0">Description</a>  property
+Also  accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-get_description">Description</a>  property
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ Also  accessed through the <a href="https://msdn.microsoft.com/2909c2ea-8308-49c
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://msdn.microsoft.com/fecd1cb8-55b8-4c7c-ba49-a633f9c8710c">Name</a>  property
+Also  accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-get_name">Name</a>  property
 
 </td>
 </tr>
@@ -113,7 +113,7 @@ Also  accessed through the <a href="https://msdn.microsoft.com/fecd1cb8-55b8-4c7
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://msdn.microsoft.com/c41933d4-d3fe-485c-9249-e82d51c0bfc9">AppMembers</a>  property
+Also  accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-get_appmembers">AppMembers</a>  property
 
 </td>
 </tr>
@@ -123,7 +123,7 @@ Also  accessed through the <a href="https://msdn.microsoft.com/c41933d4-d3fe-485
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://msdn.microsoft.com/03391842-fc8a-4dc2-878e-4fe1c41cc4dd">Members</a>  property
+Also  accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-get_members">Members</a>  property
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ Also  accessed through the <a href="https://msdn.microsoft.com/03391842-fc8a-4dc
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://msdn.microsoft.com/defaefa8-2d76-49c6-bd1c-8b386f9dc5f1">MembersName</a>  property
+Also  accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-get_membersname">MembersName</a>  property
 
 </td>
 </tr>
@@ -143,7 +143,7 @@ Also  accessed through the <a href="https://msdn.microsoft.com/defaefa8-2d76-49c
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://msdn.microsoft.com/44d90f1e-6112-4f02-b840-2ba7af8d9f33">Operations</a>  property
+Also  accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-get_operations">Operations</a>  property
 
 </td>
 </tr>
@@ -153,7 +153,7 @@ Also  accessed through the <a href="https://msdn.microsoft.com/44d90f1e-6112-4f0
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://msdn.microsoft.com/60342e8f-1947-4949-b25e-01db473712ac">Tasks</a>  property
+Also  accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-get_tasks">Tasks</a>  property
 
 </td>
 </tr>
@@ -163,7 +163,7 @@ Also  accessed through the <a href="https://msdn.microsoft.com/60342e8f-1947-494
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://msdn.microsoft.com/053b0ec4-143b-449d-bbbd-8ec8f00b0f2e">Writable</a>  property
+Also  accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-get_writable">Writable</a>  property
 
 </td>
 </tr>
@@ -178,7 +178,7 @@ Reserved for future use.
 
 ### -param pvarProp [out]
 
-A pointer to the returned <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> object property.
+A pointer to the returned <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> object property.
 
 
 ## -returns

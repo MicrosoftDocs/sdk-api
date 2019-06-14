@@ -72,11 +72,11 @@ Collections are 1-based. That is, the index for the first item in the collection
 
 
 
-<a href="https://msdn.microsoft.com/97403825-5762-477c-9695-3775bb5bc9e4">IRegisteredTaskCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iregisteredtaskcollection">IRegisteredTaskCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
  
 
  

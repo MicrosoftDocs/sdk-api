@@ -59,7 +59,7 @@ Notification method called by the Mobile Broadband service to indicate that regi
 
 ### -param newInterface [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/da5413b7-adf4-4a3d-893f-f51441460541">IMbnRegistration</a> interface that represents the applicable device.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnregistration">IMbnRegistration</a> interface that represents the applicable device.
 
 
 ## -returns
@@ -75,7 +75,7 @@ This method must return <b>S_OK</b>.
 
 
 
-The <b>OnRegisterModeAvailable</b> method is called by the Mobile Broadband service to signal that  the registration mode information for a device is available. An application can call the <a href="https://msdn.microsoft.com/30030eb8-3b08-4583-a7ba-0560db32007f">GetRegisterMode</a> method of the passed <a href="https://msdn.microsoft.com/da5413b7-adf4-4a3d-893f-f51441460541">IMbnRegistration</a> get the current registration mode of the device.
+The <b>OnRegisterModeAvailable</b> method is called by the Mobile Broadband service to signal that  the registration mode information for a device is available. An application can call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getregistermode">GetRegisterMode</a> method of the passed <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnregistration">IMbnRegistration</a> get the current registration mode of the device.
 
 
 
@@ -85,7 +85,7 @@ The <b>OnRegisterModeAvailable</b> method is called by the Mobile Broadband serv
 
 
 
-<a href="https://msdn.microsoft.com/f3b60a93-3b57-4c2c-9114-912ca47f16b2">IMbnRegistrationEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnregistrationevents">IMbnRegistrationEvents</a>
  
 
  

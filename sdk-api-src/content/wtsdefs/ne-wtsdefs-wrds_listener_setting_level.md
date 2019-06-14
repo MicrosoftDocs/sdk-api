@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used to specify the type of structure that is contained in the <b>WRdsListenerSetting</b> member of the <a href="https://msdn.microsoft.com/75C9C9AF-9C27-402C-886D-269BF567825F">WRDS_LISTENER_SETTINGS</a> structure.
+Used to specify the type of structure that is contained in the <b>WRdsListenerSetting</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wrds_listener_settings">WRDS_LISTENER_SETTINGS</a> structure.
 
 
 ## -enum-fields
@@ -64,5 +64,5 @@ The type of structure is not defined.
 
 ### -field WRDS_LISTENER_SETTING_LEVEL_1
 
-The structure is a <a href="https://msdn.microsoft.com/F8F35CED-16EC-4FBB-A3CA-2A5545A88B4A">WRDS_LISTENER_SETTINGS_1</a> structure.
+The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wrds_listener_settings_1">WRDS_LISTENER_SETTINGS_1</a> structure.
 

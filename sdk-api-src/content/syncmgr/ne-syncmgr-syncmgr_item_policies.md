@@ -64,12 +64,12 @@ No policy flags are set.
 
 ### -field SYNCMGR_IPM_PREVENT_ENABLE
 
-Enabling of the item is not supported at the time of the call. This value can be used by an item to implement support for group policy that prevents the item from being enabled. If this value is set, the <b>Enable</b> task is not shown in the handler's folder when this item is selected. The item should provide a comment—returned from its implementation of <a href="https://msdn.microsoft.com/3959784b-2926-43fd-b8e5-bb1884e5d321">ISyncMgrSyncItemInfo::GetComment</a>—to let the user know why the <b>Enable</b> task is not available. Most items should not set this value.
+Enabling of the item is not supported at the time of the call. This value can be used by an item to implement support for group policy that prevents the item from being enabled. If this value is set, the <b>Enable</b> task is not shown in the handler's folder when this item is selected. The item should provide a comment—returned from its implementation of <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynciteminfo-getcomment">ISyncMgrSyncItemInfo::GetComment</a>—to let the user know why the <b>Enable</b> task is not available. Most items should not set this value.
 
 
 ### -field SYNCMGR_IPM_PREVENT_DISABLE
 
-Disabling of the item is not supported at the time of the call. This value can be used by an item to implement support for group policy that prevents the item from being disabled. If this value is set, the <b>Disable</b> task is not shown in the handler's folder when this item is selected. The item should provide a comment—returned from its implementation of <a href="https://msdn.microsoft.com/3959784b-2926-43fd-b8e5-bb1884e5d321">ISyncMgrSyncItemInfo::GetComment</a>—to let the user know why the <b>Disable</b> task is not available. Most items should not set this value.
+Disabling of the item is not supported at the time of the call. This value can be used by an item to implement support for group policy that prevents the item from being disabled. If this value is set, the <b>Disable</b> task is not shown in the handler's folder when this item is selected. The item should provide a comment—returned from its implementation of <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynciteminfo-getcomment">ISyncMgrSyncItemInfo::GetComment</a>—to let the user know why the <b>Disable</b> task is not available. Most items should not set this value.
 
 
 ### -field SYNCMGR_IPM_PREVENT_START_SYNC
@@ -104,7 +104,7 @@ The <b>Stop Sync</b> task should be disabled when it is shown for this sync item
 
 ### -field SYNCMGR_IPM_DISABLE_BROWSE
 
-The <b>Browse</b> task should be disabled when it is shown for this sync item. The <b>Browse</b> task is shown only if the SYNCMGR_ICM_CAN_BROWSE_CONTENT value is returned from the <a href="https://msdn.microsoft.com/6cb98b83-cf17-451c-ba29-700408f474c7">ISyncMgrSyncItem::GetCapabilities</a> method.
+The <b>Browse</b> task should be disabled when it is shown for this sync item. The <b>Browse</b> task is shown only if the SYNCMGR_ICM_CAN_BROWSE_CONTENT value is returned from the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getcapabilities">ISyncMgrSyncItem::GetCapabilities</a> method.
 
 
 ### -field SYNCMGR_IPM_DISABLE_DELETE
@@ -119,5 +119,5 @@ The item should be hidden from the user unless the <b>Show Hidden Files</b> opti
 
 ### -field SYNCMGR_IPM_VALID_MASK
 
-A mask used to retrieve valid <a href="https://msdn.microsoft.com/d894beca-855c-472f-931a-db5c6f3f891e">SYNCMGR_ITEM_POLICIES</a> flags.
+A mask used to retrieve valid <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_item_policies">SYNCMGR_ITEM_POLICIES</a> flags.
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents the status of an <a href="https://msdn.microsoft.com/E17F39CB-61E3-44EF-805D-AD386743744E">ID3D11CryptoSession</a> interface.
+Represents the status of an <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11cryptosession">ID3D11CryptoSession</a> interface.
 
 
 ## -enum-fields
@@ -59,17 +59,17 @@ Represents the status of an <a href="https://msdn.microsoft.com/E17F39CB-61E3-44
 
 ### -field D3D11_CRYPTO_SESSION_STATUS_OK
 
-The <a href="https://msdn.microsoft.com/E17F39CB-61E3-44EF-805D-AD386743744E">ID3D11CryptoSession</a> is in a functional state.
+The <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11cryptosession">ID3D11CryptoSession</a> is in a functional state.
 
 
 ### -field D3D11_CRYPTO_SESSION_STATUS_KEY_LOST
 
-The underlying hardware key for the specified <a href="https://msdn.microsoft.com/E17F39CB-61E3-44EF-805D-AD386743744E">ID3D11CryptoSession</a> has become lost.
+The underlying hardware key for the specified <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11cryptosession">ID3D11CryptoSession</a> has become lost.
 
 
 ### -field D3D11_CRYPTO_SESSION_STATUS_KEY_AND_CONTENT_LOST
 
-The underlying hardware key for the specified <a href="https://msdn.microsoft.com/E17F39CB-61E3-44EF-805D-AD386743744E">ID3D11CryptoSession</a> has become lost and protected content has become corrupted. 
+The underlying hardware key for the specified <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11cryptosession">ID3D11CryptoSession</a> has become lost and protected content has become corrupted. 
 
 
 ## -see-also
@@ -77,7 +77,7 @@ The underlying hardware key for the specified <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/40061AD1-BCD9-4170-A442-34B4C792BB55">Direct3D 11 Video Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-enumerations">Direct3D 11 Video Enumerations</a>
  
 
  

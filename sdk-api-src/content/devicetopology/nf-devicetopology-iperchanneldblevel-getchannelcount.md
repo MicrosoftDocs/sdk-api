@@ -98,7 +98,7 @@ Pointer <i>pcChannels</i> is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/e70b4518-c9de-4426-b8e5-db80656699a9">IPerChannelDbLevel Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iperchanneldblevel">IPerChannelDbLevel Interface</a>
  
 
  

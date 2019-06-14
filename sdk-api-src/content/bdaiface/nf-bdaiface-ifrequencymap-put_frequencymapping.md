@@ -93,11 +93,11 @@ Applications can use this method to modify a frequency table or create new frequ
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694086(v=VS.85).aspx">IFrequencyMap Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ifrequencymap">IFrequencyMap Interface</a>
  
 
  

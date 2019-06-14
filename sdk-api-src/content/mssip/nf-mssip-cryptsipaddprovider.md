@@ -59,14 +59,14 @@ The <b>CryptSIPAddProvider</b> function registers functions that are exported by
 
 ### -param psNewProv [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/5ca88c0c-a7c9-4517-a874-49d38c1bc7c3">SIP_ADD_NEWPROVIDER</a> structure that specifies the DLL file and function names to register.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_add_newprovider_">SIP_ADD_NEWPROVIDER</a> structure that specifies the DLL file and function names to register.
 
 
 ## -returns
 
 
 
-The return value is <b>TRUE</b> if the function succeeds; <b>FALSE</b> if the function fails. If the function fails, call the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function to determine the reason for failure.
+The return value is <b>TRUE</b> if the function succeeds; <b>FALSE</b> if the function fails. If the function fails, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to determine the reason for failure.
 
 
 
@@ -77,7 +77,7 @@ The return value is <b>TRUE</b> if the function succeeds; <b>FALSE</b> if the fu
 
 Typically, you call this function as part of an in-process COM server registration. The <b>CryptSIPAddProvider</b> function persists the appropriate Registry entries for the SIP provider functions.
 
-When you have finished using the added SIP provider, remove it by calling the <a href="https://msdn.microsoft.com/0a269956-b2c7-414a-b002-7cec0d52bfd6">CryptSIPRemoveProvider</a> function.
+When you have finished using the added SIP provider, remove it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipremoveprovider">CryptSIPRemoveProvider</a> function.
 
 
 
@@ -87,7 +87,7 @@ When you have finished using the added SIP provider, remove it by calling the <a
 
 
 
-<a href="https://msdn.microsoft.com/0a269956-b2c7-414a-b002-7cec0d52bfd6">CryptSIPRemoveProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipremoveprovider">CryptSIPRemoveProvider</a>
  
 
  

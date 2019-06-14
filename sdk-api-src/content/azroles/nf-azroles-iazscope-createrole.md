@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CreateRole</b> method creates an <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> object with the specified name.
+The <b>CreateRole</b> method creates an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> object with the specified name.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>CreateRole</b> method creates an <a href="https://msdn.microsoft.com/2934
 
 ### -param bstrRoleName [in]
 
-Name for the new <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> object.
+Name for the new <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> object.
 
 
 ### -param varReserved [in, optional]
@@ -70,7 +70,7 @@ Reserved for future use.
 
 ### -param ppRole [out]
 
-A pointer to a pointer to the created <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> object.
+A pointer to a pointer to the created <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> object.
 
 
 ## -returns
@@ -86,9 +86,9 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates success. Any ot
 
 
 
-You must call the <a href="https://msdn.microsoft.com/97f2018a-92f0-4ebb-85f1-78c140003d8f">IAzRole::Submit</a> method to persist any changes made to the returned object.
+You must call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-submit">IAzRole::Submit</a> method to persist any changes made to the returned object.
 
-The returned <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> object is an immediate child object of the <a href="https://msdn.microsoft.com/f7abe7cb-8827-46f6-85fe-99282582a3d4">IAzScope</a> object.
+The returned <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> object is an immediate child object of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazscope">IAzScope</a> object.
 
 
 

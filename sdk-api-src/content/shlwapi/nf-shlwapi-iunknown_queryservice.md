@@ -64,9 +64,9 @@ Retrieves an interface for a service from a specified object.
 
 ### -param punk [in]
 
-Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> instance of the COM object that supports the service.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> instance of the COM object that supports the service.
 
 
 ### -param guidService [in]
@@ -87,7 +87,7 @@ The IID of the desired service interface.
 
 Type: <b>void**</b>
 
-When this method returns, contains the interface pointer requested <i>riid</i>. If successful, the calling application is responsible for calling <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a> using this value when the service is no longer needed. In the case of failure, this value is <b>NULL</b>.
+When this method returns, contains the interface pointer requested <i>riid</i>. If successful, the calling application is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> using this value when the service is no longer needed. In the case of failure, this value is <b>NULL</b>.
 
 
 ## -returns
@@ -96,7 +96,7 @@ When this method returns, contains the interface pointer requested <i>riid</i>. 
 
 Type: <b>HRESULT</b>
 
-Returns <b>S_OK</b> if successful. Returns <b>E_FAIL</b> if the object does not support <a href="https://msdn.microsoft.com/library/Cc678965(v=VS.85).aspx">IServiceProvider</a>. Otherwise, the function returns the <b>HRESULT</b> returned by the object's <a href="https://msdn.microsoft.com/library/Cc678966(v=VS.85).aspx">QueryService</a> method.
+Returns <b>S_OK</b> if successful. Returns <b>E_FAIL</b> if the object does not support <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678965(v=vs.85)">IServiceProvider</a>. Otherwise, the function returns the <b>HRESULT</b> returned by the object's <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)">QueryService</a> method.
 
 
 
@@ -105,7 +105,7 @@ Returns <b>S_OK</b> if successful. Returns <b>E_FAIL</b> if the object does not 
 
 
 
-If the object passed in the <i>punk</i> parameter supports the <a href="https://msdn.microsoft.com/library/Cc678965(v=VS.85).aspx">IServiceProvider</a> interface, then its <a href="https://msdn.microsoft.com/library/Cc678966(v=VS.85).aspx">QueryService</a> method is invoked, passing the <i>guidService</i>, <i>riid</i>, and <i>ppvOut</i> parameters and propagating the return value. Otherwise, the function returns E_FAIL.
+If the object passed in the <i>punk</i> parameter supports the <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678965(v=vs.85)">IServiceProvider</a> interface, then its <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)">QueryService</a> method is invoked, passing the <i>guidService</i>, <i>riid</i>, and <i>ppvOut</i> parameters and propagating the return value. Otherwise, the function returns E_FAIL.
 
 For those versions of Windows that do not include <b>IUnknown_QueryService</b> in Shlwapi.h, this function must be called directly from Shlwapi.dll using ordinal 176.
 
@@ -117,11 +117,11 @@ For those versions of Windows that do not include <b>IUnknown_QueryService</b> i
 
 
 
-<a href="https://msdn.microsoft.com/library/Cc678965(v=VS.85).aspx">IServiceProvider</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678965(v=vs.85)">IServiceProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Cc678966(v=VS.85).aspx">QueryService</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)">QueryService</a>
  
 
  

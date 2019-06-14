@@ -77,7 +77,7 @@ This method does not return a value.
 
 This method can be called from graphics or compute command lists and bundles.
 
-This method is an alternative to <a href="https://msdn.microsoft.com/751E09A4-D8FE-4DEA-86D9-1C84265F2F21">ID3D12GraphicsCommandList::SetPipelineState</a>, which is only defined for graphics and compute shaders.  There is only one pipeline state active on a command list at a time, so either call sets the current pipeline state.  The distinction between the calls is that each sets particular types of pipeline state only.  In the current release, <b>SetPipelineState1</b> is only used for setting raytracing pipeline state.
+This method is an alternative to <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpipelinestate">ID3D12GraphicsCommandList::SetPipelineState</a>, which is only defined for graphics and compute shaders.  There is only one pipeline state active on a command list at a time, so either call sets the current pipeline state.  The distinction between the calls is that each sets particular types of pipeline state only.  In the current release, <b>SetPipelineState1</b> is only used for setting raytracing pipeline state.
 
 
 

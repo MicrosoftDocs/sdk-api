@@ -63,7 +63,7 @@ This property is read/write.
 
 
 
-If multiple CEP servers have the same ID value (specified when the <a href="https://msdn.microsoft.com/b0d848a2-1bac-4a30-ae02-26d5af719688">Initialize</a> method is called), the server with the lowest cost is contacted first. 
+If multiple CEP servers have the same ID value (specified when the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-initialize">Initialize</a> method is called), the server with the lowest cost is contacted first. 
 
 
 
@@ -73,7 +73,7 @@ If multiple CEP servers have the same ID value (specified when the <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a>
  
 
  

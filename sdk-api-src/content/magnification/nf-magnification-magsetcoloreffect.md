@@ -59,14 +59,14 @@ Sets the color transformation matrix for a magnifier control.
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 The magnification window.
 
 
 ### -param pEffect [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms692383(v=VS.85).aspx">PMAGCOLOREFFECT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/ns-magnification-tagmagcoloreffect">PMAGCOLOREFFECT</a></b>
 
 The color transformation matrix, or <b>NULL</b> to remove the current color effect, if any.
 
@@ -75,7 +75,7 @@ The color transformation matrix, or <b>NULL</b> to remove the current color effe
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
@@ -139,7 +139,7 @@ BOOL ConvertToGrayscale(HWND hwndMag, BOOL fConvert)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692387(v=VS.85).aspx">MagGetColorEffect</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/nf-magnification-maggetcoloreffect">MagGetColorEffect</a>
  
 
  

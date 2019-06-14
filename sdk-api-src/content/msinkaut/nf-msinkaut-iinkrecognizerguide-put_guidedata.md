@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 
 
-Gets or sets the <a href="https://msdn.microsoft.com/c35fcb28-f21f-427c-8d5f-6e6a73945956">InkRecoGuide</a> structure that represents the boundaries of the ink to the recognizer.
+Gets or sets the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ns-msinkaut-_inkrecoguide">InkRecoGuide</a> structure that represents the boundaries of the ink to the recognizer.
 
 
 
@@ -74,11 +74,11 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/c35fcb28-f21f-427c-8d5f-6e6a73945956">InkRecoGuide Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ns-msinkaut-_inkrecoguide">InkRecoGuide Structure</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4990aa5-8c8b-4206-8376-b5c0d0c8e0a7">InkRecognizerGuide Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizerguide-class">InkRecognizerGuide Class</a>
  
 
  

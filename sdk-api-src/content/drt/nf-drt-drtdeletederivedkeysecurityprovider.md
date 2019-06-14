@@ -59,7 +59,7 @@ The <b>DrtDeleteDerivedKeySecurityProvider</b> function deletes a derived key se
 
 ### -param pSecurityProvider [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/1eedfff3-d561-462e-bad0-45e7bc46fb1a">DRT_SECURITY_PROVIDER</a> specifying the security provider to delete.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_security_provider_tag">DRT_SECURITY_PROVIDER</a> specifying the security provider to delete.
 
 
 ## -returns
@@ -76,11 +76,11 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/069358e0-4b61-44ed-b235-37f1d038feff">DrtCreateDerivedKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtcreatederivedkey">DrtCreateDerivedKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/e4cc8326-e2bc-459f-97dd-a00cfd1ed35e">DrtCreateDerivedKeySecurityProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtcreatederivedkeysecurityprovider">DrtCreateDerivedKeySecurityProvider</a>
  
 
  

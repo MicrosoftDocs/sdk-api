@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>WPUCloseThread</b> function closes a thread opened with a call to 
-<a href="https://msdn.microsoft.com/92d21f29-240f-407e-89a7-bbbb8f9bf0eb">WPUOpenCurrentThread</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpuopencurrentthread">WPUOpenCurrentThread</a>.
 
 
 ## -parameters
@@ -62,8 +62,8 @@ The
 ### -param lpThreadId [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/eeea1139-1d14-4f53-bd64-833539b53bed">WSATHREADID</a> structure that identifies the thread context. This structure must have been initialized by a previous call to 
-<a href="https://msdn.microsoft.com/92d21f29-240f-407e-89a7-bbbb8f9bf0eb">WPUOpenCurrentThread</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-_wsathreadid">WSATHREADID</a> structure that identifies the thread context. This structure must have been initialized by a previous call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpuopencurrentthread">WPUOpenCurrentThread</a>.
 
 
 ### -param lpErrno [out]
@@ -76,7 +76,7 @@ Pointer to the error code.
 
 
 If no error occurs, 
-<a href="https://msdn.microsoft.com/92d21f29-240f-407e-89a7-bbbb8f9bf0eb">WPUOpenCurrentThread</a> returns zero. Otherwise, it returns SOCKET_ERROR, and a specific error code is available in <i>lpErrno</i>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpuopencurrentthread">WPUOpenCurrentThread</a> returns zero. Otherwise, it returns SOCKET_ERROR, and a specific error code is available in <i>lpErrno</i>.
 
 
 
@@ -88,12 +88,12 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 A successful 
-<a href="https://msdn.microsoft.com/9ebfe81c-bed6-4bde-b1dd-5eaefbaac9cf">WSPStartup</a> call must occur before using this function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wspstartup">WSPStartup</a> call must occur before using this function.
 
 </td>
 </tr>
@@ -113,13 +113,13 @@ A successful
 
 The 
 <b>WPUCloseThread</b> function is used in a layered service provider to deallocate the resources that were initiated in a call by the 
-<a href="https://msdn.microsoft.com/92d21f29-240f-407e-89a7-bbbb8f9bf0eb">WPUOpenCurrentThread</a> function. The 
-<a href="https://msdn.microsoft.com/eeea1139-1d14-4f53-bd64-833539b53bed">WSATHREADID</a> structure in the <i>lpThreadId</i> is the thread to deallocate.
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpuopencurrentthread">WPUOpenCurrentThread</a> function. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-_wsathreadid">WSATHREADID</a> structure in the <i>lpThreadId</i> is the thread to deallocate.
 
 Every call to 
-<a href="https://msdn.microsoft.com/92d21f29-240f-407e-89a7-bbbb8f9bf0eb">WPUOpenCurrentThread</a> must have a call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpuopencurrentthread">WPUOpenCurrentThread</a> must have a call to 
 <b>WPUCloseThread</b>. These two functions are used when the overlapped functions, such as 
-<a href="https://msdn.microsoft.com/4d741663-34f5-41b9-ba8f-77d45382d50b">WSPSend</a>, are called in a lower layer of the service provider than the current thread.
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v%3dvs.85)">WSPSend</a>, are called in a lower layer of the service provider than the current thread.
 
 
 
@@ -129,11 +129,11 @@ Every call to
 
 
 
-<a href="https://msdn.microsoft.com/92d21f29-240f-407e-89a7-bbbb8f9bf0eb">WPUOpenCurrentThread</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpuopencurrentthread">WPUOpenCurrentThread</a>
 
 
 
-<a href="https://msdn.microsoft.com/eeea1139-1d14-4f53-bd64-833539b53bed">WSATHREADID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-_wsathreadid">WSATHREADID</a>
  
 
  

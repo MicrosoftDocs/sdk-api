@@ -127,7 +127,7 @@ The count returned by
 <b>GetAlternateLocationMappingCount</b> refers to the number of alternate location mappings used in the course of restoring files.
 
 The count is updated by calls to 
-<a href="https://msdn.microsoft.com/349ec124-f3f5-4142-8600-8d9f508c9bb2">IVssBackupComponents::AddAlternativeLocationMapping</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addalternativelocationmapping">IVssBackupComponents::AddAlternativeLocationMapping</a>.
 
 
 
@@ -137,11 +137,11 @@ The count is updated by calls to
 
 
 
-<a href="https://msdn.microsoft.com/c686a424-b0b9-4efc-8dc6-b92193de2a5d">IVssComponent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c6537eb-67ba-4d6a-ac86-44da176ef5c5">IVssComponent::GetAlternateLocationMapping</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getalternatelocationmapping">IVssComponent::GetAlternateLocationMapping</a>
  
 
  

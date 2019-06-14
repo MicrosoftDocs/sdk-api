@@ -163,7 +163,7 @@ Rating level is currently unknown. This value is returned until a rating level i
 
 
 
-<a href="https://msdn.microsoft.com/5406cb4b-e843-463c-95e0-0da7e4152978">TV Ratings Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tv-ratings-enumerations">TV Ratings Enumerations</a>
  
 
  

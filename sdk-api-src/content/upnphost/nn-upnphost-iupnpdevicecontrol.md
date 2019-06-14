@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPDeviceControl</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUPnPDeviceControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPDeviceControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUPnPDeviceControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IUPnPDeviceControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/55b54edf-fd1d-45b8-95d4-a746a60e5310">GetServiceObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpdevicecontrol-getserviceobject">GetServiceObject</a>
 </td>
 <td align="left" width="63%">
 Method that returns an <b>IDispatch</b> pointer to the service object that was requested by the device host.
@@ -79,7 +79,7 @@ Method that returns an <b>IDispatch</b> pointer to the service object that was r
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0c1ea343-f04b-414d-92cf-044cb117bc9c">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpdevicecontrol-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Method that initializes the device control object with the device description and a device-specific initialization string.

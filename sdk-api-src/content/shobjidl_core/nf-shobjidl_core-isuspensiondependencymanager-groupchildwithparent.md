@@ -77,7 +77,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/F632DC0B-01EF-4421-ADF3-2CD5AD363CC0">ISuspensionDependencyManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-isuspensiondependencymanager">ISuspensionDependencyManager</a>
  
 
  

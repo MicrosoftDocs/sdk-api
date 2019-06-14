@@ -124,15 +124,15 @@ The lifetime of the virtual disk is not tied to any application or process.
 
 
 
-<a href="https://msdn.microsoft.com/c9531c07-ad55-42b6-8685-7f55a47e8485">About VHD</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b5d0da0-2b23-4b7c-b007-ed3fe030926c">VHD Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/7d5f5d02-5aad-4d64-a3a9-ddfa5a4b01c5">Virtual Storage</a>
+<a href="https://docs.microsoft.com/windows/desktop/VStor/virtual-storage">Virtual Storage</a>
  
 
  

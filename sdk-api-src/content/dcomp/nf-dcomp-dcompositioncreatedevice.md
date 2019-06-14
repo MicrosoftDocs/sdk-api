@@ -59,7 +59,7 @@ Creates a new device object that can be used to create other Microsoft DirectCom
 
 ### -param dxgiDevice [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb174527(v=VS.85).aspx">IDXGIDevice</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgidevice">IDXGIDevice</a>*</b>
 
 The DXGI device to use to create DirectComposition surface objects.
 
@@ -82,9 +82,9 @@ Receives an interface pointer to the newly created device object. The pointer is
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/8DFBFC34-DBD0-4731-8305-B33E90C96C54">DirectComposition Error Codes</a>  for a list of error codes.
+If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/directcomp/directcomposition-error-codes">DirectComposition Error Codes</a>  for a list of error codes.
 
 
 
@@ -93,15 +93,15 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-A  device object serves as the factory for all other DirectComposition objects. It also controls transactional composition through the <a href="https://msdn.microsoft.com/49a6d33d-7454-44be-b8ca-602b247d4eab">IDCompositionDevice::Commit</a> method.
+A  device object serves as the factory for all other DirectComposition objects. It also controls transactional composition through the <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice-commit">IDCompositionDevice::Commit</a> method.
 
-The DXGI device specified by <i>dxgiDevice</i> is used to create all DirectComposition surface objects. In particular, the <a href="https://msdn.microsoft.com/0D7E90A1-90E4-44BE-A4DA-8DA300C81A35">IDCompositionSurface::BeginDraw</a> method returns an interface pointer to a DXGI surface that belongs to the device specified by the <i>dxgiDevice</i> parameter.
+The DXGI device specified by <i>dxgiDevice</i> is used to create all DirectComposition surface objects. In particular, the <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionsurface-begindraw">IDCompositionSurface::BeginDraw</a> method returns an interface pointer to a DXGI surface that belongs to the device specified by the <i>dxgiDevice</i> parameter.
 
 
 
-When creating the DXGI device, developers must specify the <a href="https://msdn.microsoft.com/580c784a-17de-495c-9159-833f858ad155">D3D11_CREATE_DEVICE BGRA_SUPPORT</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb204909(v=VS.85).aspx">D3D10_CREATE_DEVICE_BGRA_SUPPORT</a> flag for Direct2D interoperability with Microsoft Direct3D resources.
+When creating the DXGI device, developers must specify the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_create_device_flag">D3D11_CREATE_DEVICE BGRA_SUPPORT</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_create_device_flag">D3D10_CREATE_DEVICE_BGRA_SUPPORT</a> flag for Direct2D interoperability with Microsoft Direct3D resources.
 
-The <i>iid</i> parameter must be <code>__uuidof(IDCompositionDevice)</code>, and the <i>dcompositionDevice</i> parameter receives a pointer to an <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface.
+The <i>iid</i> parameter must be <code>__uuidof(IDCompositionDevice)</code>, and the <i>dcompositionDevice</i> parameter receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiondevice">IDCompositionDevice</a> interface.
 
 
 
@@ -177,7 +177,7 @@ HRESULT InitializeDirectCompositionDevice(HWND hwndTarget,
 
 
 
-<a href="https://msdn.microsoft.com/750FDFD5-ADD5-43B3-A596-ECDB82C2EF73">Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/directcomp/functions">Functions</a>
  
 
  

@@ -70,8 +70,8 @@ Handle to a Windows device context that has a font selected. A handle is a numbe
 
 
 In most cases when you obtain a device context handle by calling the 
-				<a href="https://msdn.microsoft.com/en-us/library/ms535709(v=VS.85).aspx">GetHDC</a> method of a 
-				<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object, the device context will not have a font selected. If you pass such a handle to this constructor, the constructor will fail.
+				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-gethdc">GetHDC</a> method of a 
+				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object, the device context will not have a font selected. If you pass such a handle to this constructor, the constructor will fail.
 
 A device context is a structure that is maintained internally. It is associated with a particular device, such as a video monitor or a printer. There is usually one device context associated with each window displayed on a video monitor. A device context contains some graphics attributes used by GDI+.
 
@@ -83,15 +83,15 @@ A device context is a structure that is maintained internally. It is associated 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536339(v=VS.85).aspx">Changes in the Programming Model</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-changes-in-the-programming-model-about">Changes in the Programming Model</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533817(v=VS.85).aspx">Using Text and Fonts</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>
  
 
  

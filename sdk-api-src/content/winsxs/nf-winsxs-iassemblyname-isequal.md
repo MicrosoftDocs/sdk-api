@@ -59,12 +59,12 @@ The <b>IsEqual</b> method compares the current assembly name to another assembly
 
 ### -param pName [in]
 
-A pointer to another  <a href="https://msdn.microsoft.com/304b8fb3-5d17-4af0-b070-450a40dc5cc9">IAssemblyName</a> instance, which is to be compared to the current assembly.
+A pointer to another  <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a> instance, which is to be compared to the current assembly.
 
 
 ### -param dwCmpFlags [in]
 
-Indicates which portion of the assembly names are to be compared. The value can be one of the options of the <a href="https://msdn.microsoft.com/3dd1ac40-e729-409d-a109-8e4f5fd12b37">ASM_CMP_FLAGS</a> enumeration.
+Indicates which portion of the assembly names are to be compared. The value can be one of the options of the <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/ne-winsxs-__midl_iassemblyname_0004">ASM_CMP_FLAGS</a> enumeration.
 
 
 ## -returns
@@ -111,7 +111,7 @@ The specified portions of the names do not match.
 
 
 
-<a href="https://msdn.microsoft.com/304b8fb3-5d17-4af0-b070-450a40dc5cc9">IAssemblyName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>IKsJackDescription</b> interface provides information about the jacks or internal connectors that provide a physical connection between a device on an audio adapter and an external or internal endpoint device (for example, a microphone or CD player). The client obtains a reference to the <b>IKsJackDescription</b> interface of a part by calling the <a href="https://msdn.microsoft.com/72e08a30-65c0-437b-9932-110ba48a2376">IPart::Activate</a> method with parameter <i>refiid</i> set to <b>REFIID</b> IID_IKsJackDescription. The call to <b>IPart::Activate</b> succeeds only if the part supports the <b>IKsJackDescription</b> interface. Only a part object that represents a connector with a Physical_External or Physical_Internal connection type will support this interface.
+The <b>IKsJackDescription</b> interface provides information about the jacks or internal connectors that provide a physical connection between a device on an audio adapter and an external or internal endpoint device (for example, a microphone or CD player). The client obtains a reference to the <b>IKsJackDescription</b> interface of a part by calling the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-activate">IPart::Activate</a> method with parameter <i>refiid</i> set to <b>REFIID</b> IID_IKsJackDescription. The call to <b>IPart::Activate</b> succeeds only if the part supports the <b>IKsJackDescription</b> interface. Only a part object that represents a connector with a Physical_External or Physical_Internal connection type will support this interface.
 
 Most Windows audio adapter drivers support the Windows Driver Model (WDM) and use kernel-streaming (KS) properties to represent the hardware description parameters in connectors (referred to as KS pins). The <b>IKsJackDescription</b> interface provides convenient access to the KSPROPERTY_JACK_DESCRIPTION property of a connector to an endpoint device. For more information about KS properties and KS pins, see the Windows DDK documentation.
 
@@ -59,7 +59,7 @@ Most Windows audio adapter drivers support the Windows Driver Model (WDM) and us
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsJackDescription</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IKsJackDescription</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsJackDescription</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsJackDescription</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IKsJackDescription</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d99ad923-2846-4d3e-bc5b-b5b737219f13">GetJackCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iksjackdescription-getjackcount">GetJackCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of jacks required to connect to an endpoint device.
@@ -83,7 +83,7 @@ Gets the number of jacks required to connect to an endpoint device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/84278805-3b6d-4fae-8770-f9932b0e0fab">GetJackDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iksjackdescription-getjackdescription">GetJackDescription</a>
 </td>
 <td align="left" width="63%">
 Gets a description of an audio jack.
@@ -191,9 +191,9 @@ Exit:
 ```
 
 
-In the preceding code example, the GetJackInfo function takes two parameters. Input parameter <i>pDevice</i> points to the <a href="https://msdn.microsoft.com/12b05e7e-81b2-49fd-bb9f-d5ad3315c580">IMMDevice</a> interface of an endpoint device. Output parameter <i>ppJackDesc</i> points to a pointer value into which the function writes the address of the corresponding <b>IKsJackDescription</b> interface, if the interface exists. If the interface does not exist, the function writes <b>NULL</b> to  <i>*ppJackDesc</i> and returns error code E_NOINTERFACE.
+In the preceding code example, the GetJackInfo function takes two parameters. Input parameter <i>pDevice</i> points to the <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice</a> interface of an endpoint device. Output parameter <i>ppJackDesc</i> points to a pointer value into which the function writes the address of the corresponding <b>IKsJackDescription</b> interface, if the interface exists. If the interface does not exist, the function writes <b>NULL</b> to  <i>*ppJackDesc</i> and returns error code E_NOINTERFACE.
 
-In the preceding code example, the call to <a href="https://msdn.microsoft.com/12e4a117-1fa3-49c8-949b-8973edf7e12e">IMMDevice::Activate</a> retrieves the <a href="https://msdn.microsoft.com/1b509f69-6277-40c0-a293-02afc30d464a">IDeviceTopology</a> interface of the endpoint device. The device topology of an endpoint device contains a single connector (connector number 0) that connects to the adapter device. At the other side of this connection, the connector on the adapter device represents the audio jack or jacks that the endpoint device plugs into. The call to the <a href="https://msdn.microsoft.com/a2da5d1e-ecd3-411e-8428-f529569cc11d">IDeviceTopology::GetConnector</a> method retrieves the <a href="https://msdn.microsoft.com/6eb5b439-3ac7-4c0b-84e2-b246c1b946a5">IConnector</a> interface of the connector on the endpoint device, and the <a href="https://msdn.microsoft.com/bee0187c-5650-4b54-89b7-e63874048ed0">IConnector::GetConnectedTo</a> method call retrieves the corresponding connector on the adapter device. Finally, the <b>IConnector::QueryInterface</b> method call retrieves the <a href="https://msdn.microsoft.com/3bcfab9f-fad8-4605-8780-0b7c2068fcdf">IPart</a> interface of the adapter device's connector, and the <a href="https://msdn.microsoft.com/72e08a30-65c0-437b-9932-110ba48a2376">IPart::Activate</a> method call retrieves the connector's <b>IKsJackDescription</b> interface, if it exists.
+In the preceding code example, the call to <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-activate">IMMDevice::Activate</a> retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-idevicetopology">IDeviceTopology</a> interface of the endpoint device. The device topology of an endpoint device contains a single connector (connector number 0) that connects to the adapter device. At the other side of this connection, the connector on the adapter device represents the audio jack or jacks that the endpoint device plugs into. The call to the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-idevicetopology-getconnector">IDeviceTopology::GetConnector</a> method retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iconnector">IConnector</a> interface of the connector on the endpoint device, and the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iconnector-getconnectedto">IConnector::GetConnectedTo</a> method call retrieves the corresponding connector on the adapter device. Finally, the <b>IConnector::QueryInterface</b> method call retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart</a> interface of the adapter device's connector, and the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-activate">IPart::Activate</a> method call retrieves the connector's <b>IKsJackDescription</b> interface, if it exists.
 
 
 
@@ -203,15 +203,15 @@ In the preceding code example, the call to <a href="https://msdn.microsoft.com/1
 
 
 
-<a href="https://msdn.microsoft.com/b18e2094-e974-4c23-b70b-ace5a168132d">Core Audio Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/051311ef-dd29-4014-bb9c-4cdccf7ce7de">DeviceTopology API</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/devicetopology-api">DeviceTopology API</a>
 
 
 
-<a href="https://msdn.microsoft.com/72e08a30-65c0-437b-9932-110ba48a2376">IPart::Activate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-activate">IPart::Activate</a>
  
 
  

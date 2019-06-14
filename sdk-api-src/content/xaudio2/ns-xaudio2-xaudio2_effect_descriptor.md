@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information about an <a href="https://msdn.microsoft.com/4fe88a0f-0234-462f-b575-e592f2c8401e">XAPO</a> for use in an effect chain.
+Contains information about an <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xapo-overview">XAPO</a> for use in an effect chain.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ Contains information about an <a href="https://msdn.microsoft.com/4fe88a0f-0234-
 
 ### -field pEffect
 
-Pointer to the <b>IUnknown</b> interface of the <a href="https://msdn.microsoft.com/4fe88a0f-0234-462f-b575-e592f2c8401e">XAPO</a> object.
+Pointer to the <b>IUnknown</b> interface of the <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xapo-overview">XAPO</a> object.
 
 
 ### -field InitialState
@@ -76,11 +76,11 @@ Number of output channels the effect should produce.
 
 
 
-XAPO instances are passed to XAudio2 as <b>IUnknown</b> interfaces and XAudio2 uses <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ee418457(v=vs.85).aspx">IXAPO::QueryInterface</a> to acquire an <a href="https://msdn.microsoft.com/en-us/library/Ee415893(v=VS.85).aspx">IXAPO</a> interface and to detect whether the XAPO implements the <a href="https://msdn.microsoft.com/en-us/library/Ee415896(v=VS.85).aspx">IXAPOParameters</a> interface.
+XAPO instances are passed to XAudio2 as <b>IUnknown</b> interfaces and XAudio2 uses <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ee418457(v=vs.85)">IXAPO::QueryInterface</a> to acquire an <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a> interface and to detect whether the XAPO implements the <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nn-xapo-ixapoparameters">IXAPOParameters</a> interface.
 
 
 
-For additional information on using XAPOs with XAudio2 see <a href="https://msdn.microsoft.com/4c33bd83-2654-cd6f-ea6c-bbc0d5872638">How to: Create an Effect Chain</a> and <a href="https://msdn.microsoft.com/d4d24177-25eb-13ca-0e38-0c876a273e0d">How to: Use an XAPO in XAudio2</a>.
+For additional information on using XAPOs with XAudio2 see <a href="https://docs.microsoft.com/windows/desktop/xaudio2/how-to--create-an-effect-chain">How to: Create an Effect Chain</a> and <a href="https://docs.microsoft.com/windows/desktop/xaudio2/how-to--use-an-xapo-in-xaudio2">How to: Use an XAPO in XAudio2</a>.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
@@ -93,15 +93,15 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/4fe88a0f-0234-462f-b575-e592f2c8401e">XAPO Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/xapo-overview">XAPO Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/3656aaf9-7a3a-2a5b-50f5-d279ce8a9e6c">XAudio2 Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/structures">XAudio2 Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419235(v=VS.85).aspx">XAudio2_Effect_Chain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_effect_chain">XAudio2_Effect_Chain</a>
  
 
  

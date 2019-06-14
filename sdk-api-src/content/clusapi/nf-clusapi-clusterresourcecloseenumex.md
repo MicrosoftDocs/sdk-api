@@ -71,7 +71,7 @@ The handle to a resource enumeration  to  close.
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
      If the operation fails, 
-the function returns a different <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>.
+the function returns a different <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 
 
@@ -81,7 +81,7 @@ the function returns a different <a href="https://msdn.microsoft.com/4a3a8feb-a0
 
 
 
-<a href="https://msdn.microsoft.com/d1f7360d-f592-49fb-b3b4-60d93afd7c6f">Failover Cluster Resource Management Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-management-functions">Failover Cluster Resource Management Functions</a>
  
 
  

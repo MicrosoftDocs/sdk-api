@@ -51,10 +51,10 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> class 
+<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>GetAllocLength</b> method returns the size of the allocated string buffer.
@@ -81,11 +81,11 @@ The <b>GetAllocLength</b> method returns an integer that contains the size of th
 
 
 
-<a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a>
 
 
 
-<a href="https://msdn.microsoft.com/b898f9d1-b9a2-4c7b-a7c0-1b6b51ae565f">CHString::GetLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-getlength">CHString::GetLength</a>
  
 
  

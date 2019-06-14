@@ -62,9 +62,9 @@ A good value to use as an initial value for maxHitTestMetricsCount may be calcul
 
 
 where lineCount is obtained from the value of the output argument
-     *actualLineCount (from the function <a href="https://msdn.microsoft.com/0d687337-8623-4014-967c-f533072e31cc">IDWriteTextLayout</a>::GetLineLengths),
-     and the maxBidiReorderingDepth value from the <a href="https://msdn.microsoft.com/4524ace3-fca6-4daf-9ecb-516771e53fc9">DWRITE_TEXT_METRICS</a>structure of the output argument *textMetrics (from the function
-     <a href="https://msdn.microsoft.com/73a85977-5c24-4abc-ad8c-1d0d6474bd7e">IDWriteFactory</a>::<a href="https://msdn.microsoft.com/f76f85df-112f-4bc3-b922-a0d7940d2954">CreateTextLayout</a>).
+     *actualLineCount (from the function <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a>::GetLineLengths),
+     and the maxBidiReorderingDepth value from the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_text_metrics">DWRITE_TEXT_METRICS</a>structure of the output argument *textMetrics (from the function
+     <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>::<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-createtextlayout">CreateTextLayout</a>).
 
 
 ## -parameters
@@ -102,7 +102,7 @@ The origin pixel location Y at the top of the layout box. This offset is added t
 
 ### -param hitTestMetrics [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/00aaed92-7078-4823-95c5-855c063c744a">DWRITE_HIT_TEST_METRICS</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_hit_test_metrics">DWRITE_HIT_TEST_METRICS</a>*</b>
 
 When this method returns, contains a pointer to a buffer of the output geometry fully enclosing the specified position range.  The buffer must be at least as large as <i>maxHitTestMetricsCount</i>.
 
@@ -137,7 +137,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/0d687337-8623-4014-967c-f533072e31cc">IDWriteTextLayout</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a>
  
 
  

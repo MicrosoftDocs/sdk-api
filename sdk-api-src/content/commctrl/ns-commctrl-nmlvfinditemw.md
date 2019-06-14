@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information the owner needs to find items requested by a <a href="https://msdn.microsoft.com/en-us/library/Bb774735(v=VS.85).aspx">virtual list-view</a> control. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb774857(v=VS.85).aspx">LVN_ODFINDITEM</a> notification code. 
+Contains information the owner needs to find items requested by a <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-controls-overview">virtual list-view</a> control. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvn-odfinditem">LVN_ODFINDITEM</a> notification code. 
 
 
 ## -struct-fields
@@ -61,10 +61,10 @@ Contains information the owner needs to find items requested by a <a href="https
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information on this notification code. 
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that contains information on this notification code. 
 
 
 ### -field iStart
@@ -76,8 +76,8 @@ Index of the item at which the search will start.
 
 ### -field lvfi
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb774745(v=VS.85).aspx">LVFINDINFO</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvfindinfoa">LVFINDINFO</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774745(v=VS.85).aspx">LVFINDINFO</a> structure that contains information necessary to perform a search. 
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvfindinfoa">LVFINDINFO</a> structure that contains information necessary to perform a search. 
 

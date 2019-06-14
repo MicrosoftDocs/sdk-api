@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 <span>This topic lists the constructors of the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> class. For a complete class listing, see <b>Pen Class</b>. 
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> class. For a complete class listing, see <b>Pen Class</b>. 
 </span><h3>Overload list</h3><table>
 <tr>
 <th align="left" width="37%">Constructor</th>
@@ -58,19 +58,19 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535058(v=VS.85).aspx">Pen(Brush*,REAL)</a>
+<a href="https://docs.microsoft.com/previous-versions//ms535058(v=vs.85)">Pen(Brush*,REAL)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object that uses the attributes of a brush and a real number to set the width of this <b>Pen</b> object.
+Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object that uses the attributes of a brush and a real number to set the width of this <b>Pen</b> object.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535059(v=VS.85).aspx">Pen(Color&,REAL)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-pen(inconstcolor__inreal)">Pen(Color&,REAL)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object that uses a specified color and width.
+Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object that uses a specified color and width.
 
 </td>
 </tr>

@@ -138,7 +138,7 @@ Not implemented.
 
 
 
-This method applies to specific input pins on the <a href="https://msdn.microsoft.com/f76d5c82-33b2-4579-9420-8f97eca53ede">Audio Capture Filter</a>, so the filter itself returns E_NOTIMPL.
+This method applies to specific input pins on the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/audio-capture-filter">Audio Capture Filter</a>, so the filter itself returns E_NOTIMPL.
 
 
 
@@ -148,15 +148,15 @@ This method applies to specific input pins on the <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/217cb49d-7f5f-42c5-83db-546621f6a375">IAMAudioInputMixer Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamaudioinputmixer">IAMAudioInputMixer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/84f179bf-2e2f-4ba0-81b7-c20acd09ccea">IAMAudioInputMixer::put_Enable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-put_enable">IAMAudioInputMixer::put_Enable</a>
  
 
  

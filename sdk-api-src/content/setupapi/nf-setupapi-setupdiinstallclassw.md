@@ -65,7 +65,7 @@ The handle to the parent window for any user interface that is used to install t
 
 ### -param InfFileName [in]
 
-A pointer to a NULL-terminated string that contains the name of the INF file that contains an <a href="https://msdn.microsoft.com/library/Ff546335(v=VS.85).aspx">INF ClassInstall32 section</a>.
+A pointer to a NULL-terminated string that contains the name of the INF file that contains an <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-classinstall32-section">INF ClassInstall32 section</a>.
 
 
 ### -param Flags [in]
@@ -141,7 +141,7 @@ The caller of this function must be a member of the Administrators group.
 
 This function is called by a class installer when it installs a device of a new device class.
 
-To install an interface class or a device class, use <a href="https://msdn.microsoft.com/72ab3fb4-dc4f-439a-87ed-4f4ad061d03a">SetupDiInstallClassEx</a>.
+To install an interface class or a device class, use <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiinstallclassexa">SetupDiInstallClassEx</a>.
 
 
 
@@ -151,11 +151,11 @@ To install an interface class or a device class, use <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/2aa631c3-8d00-4309-a37c-efaa7eda3efa">SetupDiCallClassInstaller</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a>
 
 
 
-<a href="https://msdn.microsoft.com/72ab3fb4-dc4f-439a-87ed-4f4ad061d03a">SetupDiInstallClassEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiinstallclassexa">SetupDiInstallClassEx</a>
  
 
  

@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>CALL_STATE</b> enum is used by the 
-<a href="https://msdn.microsoft.com/f7beb48f-d7d2-4a99-8e6a-6122059c9170">ITCallInfo::get_CallState</a> and 
-<a href="https://msdn.microsoft.com/45e46b99-c65f-4296-9537-7fb7a4210727">ITCallStateEvent::get_State</a> methods.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_callstate">ITCallInfo::get_CallState</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallstateevent-get_state">ITCallStateEvent::get_State</a> methods.
 
 
 ## -enum-fields
@@ -63,13 +63,13 @@ The
 ### -field CS_IDLE
 
 The call has been created, but 
-<a href="https://msdn.microsoft.com/cc9a8bfd-14c0-459c-a911-325b73323c08">Connect</a> has not been called yet. A call can never transition into the idle state. This is the initial state for both incoming and outgoing calls.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-connect">Connect</a> has not been called yet. A call can never transition into the idle state. This is the initial state for both incoming and outgoing calls.
 
 
 ### -field CS_INPROGRESS
 
 
-<a href="https://msdn.microsoft.com/cc9a8bfd-14c0-459c-a911-325b73323c08">Connect</a> has been called, and the service provider is working on making a connection. This state is valid only on outgoing calls. This message is optional, because a service provider may have a call transition directly to the connected state.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-connect">Connect</a> has been called, and the service provider is working on making a connection. This state is valid only on outgoing calls. This message is optional, because a service provider may have a call transition directly to the connected state.
 
 
 ### -field CS_CONNECTED
@@ -85,9 +85,9 @@ Call has been disconnected. There are several causes for disconnection. See the 
 ### -field CS_OFFERING
 
 A new call has appeared, and is being offered to an application. If the application has owner privileges on the call, it can either call 
-<a href="https://msdn.microsoft.com/81928cf7-082e-44e1-a631-a50a1f01ecec">Answer</a> or 
-<a href="https://msdn.microsoft.com/b7d556fd-d3f5-4b93-96a9-cc5c58fb8a95">Disconnect</a> while the call is in the offering state. Current call privilege can be determined by calling 
-<a href="https://msdn.microsoft.com/64a80fb6-b5bc-45c5-9f1d-a89ac95b9c53">ITCallInfo::get_Privilege</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-answer">Answer</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-disconnect">Disconnect</a> while the call is in the offering state. Current call privilege can be determined by calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_privilege">ITCallInfo::get_Privilege</a>.
 
 
 ### -field CS_HOLD
@@ -191,11 +191,11 @@ Following is a table of all valid call state transitions.
 
 
 
-<a href="https://msdn.microsoft.com/f7beb48f-d7d2-4a99-8e6a-6122059c9170">ITCallInfo::get_CallState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_callstate">ITCallInfo::get_CallState</a>
 
 
 
-<a href="https://msdn.microsoft.com/45e46b99-c65f-4296-9537-7fb7a4210727">ITCallStateEvent::get_State</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallstateevent-get_state">ITCallStateEvent::get_State</a>
  
 
  

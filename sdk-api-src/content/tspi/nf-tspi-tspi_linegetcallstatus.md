@@ -66,7 +66,7 @@ The service provider's handle to the call to be queried for its status. The call
 ### -param lpCallStatus
 
 A pointer to a variably sized data structure of type 
-<a href="https://msdn.microsoft.com/f056bea6-aeb0-4c18-8e3b-c1c6fd907f62">LINECALLSTATUS</a>. This structure is filled with call status information.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallstatus_tag">LINECALLSTATUS</a>. This structure is filled with call status information.
 
 
 ## -returns
@@ -85,7 +85,7 @@ LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONFAILED, LINEERR_NOMEM, LINEERR_RESOURC
 
 
 The following table indicates which members of the 
-<a href="https://msdn.microsoft.com/f056bea6-aeb0-4c18-8e3b-c1c6fd907f62">LINECALLSTATUS</a> data structure are filled in by the service provider and which members are filled in by TAPI. The service provider must preserve (it must not overwrite) the values filled in by TAPI.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallstatus_tag">LINECALLSTATUS</a> data structure are filled in by the service provider and which members are filled in by TAPI. The service provider must preserve (it must not overwrite) the values filled in by TAPI.
 
 <table>
 <tr>
@@ -142,7 +142,7 @@ The following table indicates which members of the
  
 
 <b>TSPI_lineGetCallStatus</b> returns the dynamic status of a call, whereas 
-<a href="https://msdn.microsoft.com/9ef43928-05aa-4ec6-bc44-f07a63d8ecdf">TSPI_lineGetCallInfo</a> returns primarily static information about a call. Call status information includes the current call state, detailed mode information related to the call while in this state (if any), as well as a list of the available TSPI functions TAPI can invoke on the call while the call is in this state.
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetcallinfo">TSPI_lineGetCallInfo</a> returns primarily static information about a call. Call status information includes the current call state, detailed mode information related to the call while in this state (if any), as well as a list of the available TSPI functions TAPI can invoke on the call while the call is in this state.
 
 
 
@@ -152,11 +152,11 @@ The following table indicates which members of the
 
 
 
-<a href="https://msdn.microsoft.com/f056bea6-aeb0-4c18-8e3b-c1c6fd907f62">LINECALLSTATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallstatus_tag">LINECALLSTATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ef43928-05aa-4ec6-bc44-f07a63d8ecdf">TSPI_lineGetCallInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetcallinfo">TSPI_lineGetCallInfo</a>
  
 
  

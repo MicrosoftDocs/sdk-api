@@ -59,20 +59,20 @@ Describes a command queue.
 
 ### -field Type
 
-Specifies one member of <a href="https://msdn.microsoft.com/28BC70FF-6818-4B8D-9DE4-8316AB2FB288">D3D12_COMMAND_LIST_TYPE</a>.
+Specifies one member of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_command_list_type">D3D12_COMMAND_LIST_TYPE</a>.
           
 
 
 ### -field Priority
 
 The priority for the command queue, as a 
-            <a href="https://msdn.microsoft.com/33C07FE4-D85F-4F94-BF0E-C9E0ED05765C">D3D12_COMMAND_QUEUE_PRIORITY</a>enumeration constant to select normal or high priority.
+            <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_command_queue_priority">D3D12_COMMAND_QUEUE_PRIORITY</a>enumeration constant to select normal or high priority.
           
 
 
 ### -field Flags
 
-Specifies any flags from the <a href="https://msdn.microsoft.com/95040CB8-445B-4E10-8407-AA09637544FB">D3D12_COMMAND_QUEUE_FLAGS</a> enumeration.
+Specifies any flags from the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_command_queue_flags">D3D12_COMMAND_QUEUE_FLAGS</a> enumeration.
           
 
 
@@ -81,17 +81,17 @@ Specifies any flags from the <a href="https://msdn.microsoft.com/95040CB8-445B-4
 For single GPU operation, set this to zero. If there are multiple GPU nodes, set a bit to identify the node (the  device's physical adapter) to which the command queue applies.
             Each bit in the mask corresponds to a single node.
             Only 1 bit must be set.
-          Refer to <a href="https://msdn.microsoft.com/en-us/library/Dn933253(v=VS.85).aspx">Multi-Adapter</a>.
+          Refer to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/mulit-engine">Multi-Adapter</a>.
 
 
 ## -remarks
 
 
 
-This structure is passed into <a href="https://msdn.microsoft.com/556D068C-9939-4B42-AFC2-4EBB2D7B553B">CreateCommandQueue</a>.
+This structure is passed into <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommandqueue">CreateCommandQueue</a>.
         
 
-This structure is returned by <a href="https://msdn.microsoft.com/AEEE6B15-AEB0-47C5-A3F8-9957516BFBEE">ID3D12CommandQueue::GetDesc</a>.
+This structure is returned by <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-getdesc">ID3D12CommandQueue::GetDesc</a>.
         
 
 
@@ -102,7 +102,7 @@ This structure is returned by <a href="https://msdn.microsoft.com/AEEE6B15-AEB0-
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
  
 
  

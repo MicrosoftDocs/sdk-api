@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Removes a word that was previously added by <a href="https://msdn.microsoft.com/d600a57e-7191-4a82-8004-026a04ef94ed">ISpellChecker.Add</a>, or set by <a href="https://msdn.microsoft.com/e82dd7a3-3ec4-4ef4-a19f-ad44866bbb1c">ISpellChecker.Ignore</a> to be ignored.
+Removes a word that was previously added by <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-add">ISpellChecker.Add</a>, or set by <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-ignore">ISpellChecker.Ignore</a> to be ignored.
 
 
 ## -parameters
@@ -117,19 +117,19 @@ Successful.
 
 
 
-<a href="https://msdn.microsoft.com/3cc5f675-048d-4ef3-9b66-5f081ee17a18">ISpellChecker</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker">ISpellChecker</a>
 
 
 
-<a href="https://msdn.microsoft.com/d600a57e-7191-4a82-8004-026a04ef94ed">ISpellChecker.Add</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-add">ISpellChecker.Add</a>
 
 
 
-<a href="https://msdn.microsoft.com/e82dd7a3-3ec4-4ef4-a19f-ad44866bbb1c">ISpellChecker.Ignore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-ignore">ISpellChecker.Ignore</a>
 
 
 
-<a href="https://msdn.microsoft.com/615C52CD-BD4D-4AC0-9732-6AB6BD7A930F">ISpellChecker2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker2">ISpellChecker2</a>
  
 
  

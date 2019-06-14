@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DS_SITE_COST_INFO</b> structure is used with the <a href="https://msdn.microsoft.com/7a4cbd1c-8445-4882-8559-d44b6e5693e7">DsQuerySitesByCost</a> function to contain communication cost data.
+The <b>DS_SITE_COST_INFO</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsquerysitesbycosta">DsQuerySitesByCost</a> function to contain communication cost data.
 
 
 ## -struct-fields
@@ -84,11 +84,11 @@ If the <b>errorCode</b> member contains <b>ERROR_SUCCESS</b>, this member contai
 
 
 
-<a href="https://msdn.microsoft.com/a92783c2-ffb8-473e-8484-1c05ca5453ff">DC and Replication Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/dc-and-replication-management-functions">DC and Replication Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a4cbd1c-8445-4882-8559-d44b6e5693e7">DsQuerySitesByCost</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsquerysitesbycosta">DsQuerySitesByCost</a>
  
 
  

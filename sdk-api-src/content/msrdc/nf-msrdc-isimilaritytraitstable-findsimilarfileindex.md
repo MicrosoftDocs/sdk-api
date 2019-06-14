@@ -59,7 +59,7 @@ Returns a list of files that are similar to a given file. The results in the lis
 
 ### -param similarityData [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/33fdb48c-6f33-44e8-83b1-6029b1eace1d">SimilarityData</a> structure that contains similarity information for the file.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0012">SimilarityData</a> structure that contains similarity information for the file.
 
 
 ### -param numberOfMatchesRequired
@@ -69,17 +69,17 @@ TBD
 
 ### -param findSimilarFileIndexResults [out]
 
-A pointer to a buffer that receives an array of <a href="https://msdn.microsoft.com/2e0d39ab-d491-496e-8753-e7223a5c5029">FindSimilarFileIndexResults</a> structures that contain the requested information.
+A pointer to a buffer that receives an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0013">FindSimilarFileIndexResults</a> structures that contain the requested information.
 
 
 ### -param resultsSize [in]
 
-The number of <a href="https://msdn.microsoft.com/2e0d39ab-d491-496e-8753-e7223a5c5029">FindSimilarFileIndexResults</a> structures that can be stored in the buffer that the <i>findSimilarFileIndexResults</i> parameter points to.
+The number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0013">FindSimilarFileIndexResults</a> structures that can be stored in the buffer that the <i>findSimilarFileIndexResults</i> parameter points to.
 
 
 ### -param resultsUsed [out]
 
-The number of <a href="https://msdn.microsoft.com/2e0d39ab-d491-496e-8753-e7223a5c5029">FindSimilarFileIndexResults</a> structures that were returned in the buffer that the <i>findSimilarFileIndexResults</i> parameter points to.
+The number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0013">FindSimilarFileIndexResults</a> structures that were returned in the buffer that the <i>findSimilarFileIndexResults</i> parameter points to.
 
 
 ## -returns
@@ -105,7 +105,7 @@ The list of files that is returned in the <i>findSimilarFileIndexResults</i> par
 
 
 
-<a href="https://msdn.microsoft.com/0985e27c-aa70-43c1-bcec-00ef14f2df58">ISimilarityTraitsTable</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilaritytraitstable">ISimilarityTraitsTable</a>
  
 
  

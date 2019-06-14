@@ -60,13 +60,13 @@ Contains the LastModified and Expire times for a resource stored in the Internet
 ### -field ftExpires
 
 
-<a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that contains the Expires time. 
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the Expires time. 
 
 
 ### -field ftLastModified
 
 
-<a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that contains the LastModified time. 
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the LastModified time. 
 
 
 ## -remarks
@@ -74,10 +74,10 @@ Contains the LastModified and Expire times for a resource stored in the Internet
 
 
 This structure is returned in the buffer when calling 
-<a href="https://msdn.microsoft.com/b0bafd3d-8f54-429e-b423-dae3d61b0030">InternetQueryOption</a> with the 
-<a href="https://msdn.microsoft.com/708510b8-468a-4287-849b-cba3d7001ea8">INTERNET_OPTION_CACHE_TIMESTAMPS</a> flag.
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetqueryoptiona">InternetQueryOption</a> with the 
+<a href="https://docs.microsoft.com/windows/desktop/WinInet/option-flags">INTERNET_OPTION_CACHE_TIMESTAMPS</a> flag.
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
@@ -87,7 +87,7 @@ This structure is returned in the buffer when calling
 
 
 
-<a href="https://msdn.microsoft.com/b0bafd3d-8f54-429e-b423-dae3d61b0030">InternetQueryOption</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetqueryoptiona">InternetQueryOption</a>
  
 
  

@@ -50,12 +50,12 @@ ms.custom: 19H1
 
 
 The <b>IDsDisplaySpecifier</b> interface provides access to Active Directory Domain Service objects of the <b>displaySpecifier</b> class. Such objects are known as <i>display specifiers</i>. A display specifier stores data about how user interface elements, such as property pages or context menus, of an object in Active Directory Domain Services are to be displayed. For more information, see 
-<a href="https://msdn.microsoft.com/0c31b02b-9fd3-4547-9ebc-d511a10d7106">Display Specifiers</a>.
+<a href="https://docs.microsoft.com/windows/desktop/AD/display-specifiers">Display Specifiers</a>.
 
 This interface is used to extend the display features of an existing object in Active Directory Domain Services, manage the display for a new directory object, or enhance the display of an Active Directory Domain Services enabled application. For more information, see 
-<a href="https://msdn.microsoft.com/758ec25d-42ab-46ba-aa58-416d7ac8fd68">Extending the User Interface for Directory Objects</a>.
+<a href="https://docs.microsoft.com/windows/desktop/AD/extending-the-user-interface-for-directory-objects">Extending the User Interface for Directory Objects</a>.
 
-To create an instance of this interface,  call <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> with the <b>CLSID_DsDisplaySpecifier</b> object identifier as shown in the following code  example.
+To create an instance of this interface,  call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with the <b>CLSID_DsDisplaySpecifier</b> object identifier as shown in the following code  example.
 
 ```cpp
 #include <objbase.h>
@@ -87,7 +87,7 @@ CoUninitialize();
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDsDisplaySpecifier</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDsDisplaySpecifier</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDsDisplaySpecifier</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDsDisplaySpecifier</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -102,7 +102,7 @@ The <b>IDsDisplaySpecifier</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/78b8e280-454c-4db7-9037-ea7e42798323">EnumClassAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-enumclassattributes">EnumClassAttributes</a>
 </td>
 <td align="left" width="63%">
 Enumerates the attributes for a given object class.
@@ -111,7 +111,7 @@ Enumerates the attributes for a given object class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4e9ecbee-b298-42a4-ad02-28bab9d99b6b">GetAttributeADsType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getattributeadstype">GetAttributeADsType</a>
 </td>
 <td align="left" width="63%">
 Obtains the attribute type for a given attribute.
@@ -120,7 +120,7 @@ Obtains the attribute type for a given attribute.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/23b88707-c4c3-47dd-a5bc-e325142602f5">GetClassCreationInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getclasscreationinfo">GetClassCreationInfo</a>
 </td>
 <td align="left" width="63%">
 Obtains data about the class creation wizard objects for a given object class.
@@ -129,7 +129,7 @@ Obtains data about the class creation wizard objects for a given object class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c4fc25f6-0157-406d-b523-8542183291ed">GetDisplaySpecifier</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getdisplayspecifier">GetDisplaySpecifier</a>
 </td>
 <td align="left" width="63%">
 Binds to the display specifier object for a given class in Active Directory Domain Services.
@@ -138,7 +138,7 @@ Binds to the display specifier object for a given class in Active Directory Doma
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6a4551ec-0b73-4119-8fdd-1e1952f60bd2">GetFriendlyAttributeName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getfriendlyattributename">GetFriendlyAttributeName</a>
 </td>
 <td align="left" width="63%">
 Obtains the localized name of an attribute of a given object class.
@@ -147,7 +147,7 @@ Obtains the localized name of an attribute of a given object class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/192e2a57-6bde-4357-893e-37f466588b55">GetFriendlyClassName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getfriendlyclassname">GetFriendlyClassName</a>
 </td>
 <td align="left" width="63%">
 Obtains the localized name for an object class.
@@ -156,7 +156,7 @@ Obtains the localized name for an object class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7057779b-4176-41a3-bc7e-0d6958baf245">GetIcon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-geticon">GetIcon</a>
 </td>
 <td align="left" width="63%">
 Obtains the icon for a given object class.
@@ -165,7 +165,7 @@ Obtains the icon for a given object class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a5e65bde-aa2d-47e0-8cfc-062b14da3e87">GetIconLocation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-geticonlocation">GetIconLocation</a>
 </td>
 <td align="left" width="63%">
 Obtains the icon location for a given object class.
@@ -174,7 +174,7 @@ Obtains the icon location for a given object class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1717200a-353b-413e-97a2-0742a95056d8">IsClassContainer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-isclasscontainer">IsClassContainer</a>
 </td>
 <td align="left" width="63%">
 Determines if a given object class is a container.
@@ -183,7 +183,7 @@ Determines if a given object class is a container.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/306538a4-dccc-4f4f-89fa-491d08718d14">SetLanguageID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-setlanguageid">SetLanguageID</a>
 </td>
 <td align="left" width="63%">
 Changes the locale used by the  <b>IDsDisplaySpecifier</b> object to a specified language.
@@ -192,7 +192,7 @@ Changes the locale used by the  <b>IDsDisplaySpecifier</b> object to a specified
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f72cc711-7dec-4f5a-9cf1-57612240b435">SetServer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-setserver">SetServer</a>
 </td>
 <td align="left" width="63%">
 Specifies the server from which display specifier data is obtained.
@@ -207,27 +207,27 @@ Specifies the server from which display specifier data is obtained.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
 
 
 
-<a href="https://msdn.microsoft.com/f53d4425-5496-45f8-a09b-f163b63a29c8">Display Interfaces in Active Directory Domain Services</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/display-interfaces-in-active-directory-domain-services">Display Interfaces in Active Directory Domain Services</a>
 
 
 
-<a href="https://msdn.microsoft.com/56d05afb-6e5e-41be-bc10-61192c1c1312">ICommonQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nn-cmnquery-icommonquery">ICommonQuery</a>
 
 
 
-<a href="https://msdn.microsoft.com/f50caa34-d29e-4ad1-98b0-ef5c1f5550bf">IDsBrowseDomainTree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nn-dsclient-idsbrowsedomaintree">IDsBrowseDomainTree</a>
 
 
 
-<a href="https://msdn.microsoft.com/9d90f119-3d10-4f06-bed4-5ffab9ae14a4">IPersistQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nn-cmnquery-ipersistquery">IPersistQuery</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd4f41f0-8aeb-4c83-a079-a5a77685c143">IQueryForm</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nn-cmnquery-iqueryform">IQueryForm</a>
  
 
  

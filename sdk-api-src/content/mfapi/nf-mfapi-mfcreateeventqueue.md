@@ -62,7 +62,7 @@ Creates an event queue.
 
 ### -param ppMediaEventQueue
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/e1698caa-db70-436d-af6a-64c6e7247590">IMFMediaEventQueue</a> interface of the event queue. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventqueue">IMFMediaEventQueue</a> interface of the event queue. The caller must release the interface.
 
 
 ## -returns
@@ -97,7 +97,7 @@ The function succeeded.
 
 
 
-This function creates a helper object that you can use to implement the <a href="https://msdn.microsoft.com/a37d0840-c896-43a0-b3d1-c2a6aaff1b25">IMFMediaEventGenerator</a> interface.
+This function creates a helper object that you can use to implement the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator">IMFMediaEventGenerator</a> interface.
 
 This function is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -113,11 +113,11 @@ This function is available on the following platforms if the Windows Media Forma
 
 
 
-<a href="https://msdn.microsoft.com/2e003ad4-9fcb-4834-a335-e4969ffd3a00">Media Event Generators</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-event-generators">Media Event Generators</a>
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

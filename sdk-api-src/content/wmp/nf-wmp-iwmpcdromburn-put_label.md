@@ -109,11 +109,11 @@ Due to the way CD labels are stored, the label of the CD may be shorter than the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563081(v=VS.85).aspx">IWMPCdromBurn Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcdromburn">IWMPCdromBurn Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563088(v=VS.85).aspx">IWMPCdromBurn::get_label</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-get_label">IWMPCdromBurn::get_label</a>
  
 
  

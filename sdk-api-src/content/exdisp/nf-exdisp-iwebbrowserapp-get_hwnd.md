@@ -76,7 +76,7 @@ Internet Explorer 7. With the introduction of tabbed browsing, the return value 
 
 
 
-<a href="https://msdn.microsoft.com/AFED694C-8D7B-4539-9A1A-B2DA546F3A07">IWebBrowser2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nn-exdisp-iwebbrowser2">IWebBrowser2</a>
  
 
  

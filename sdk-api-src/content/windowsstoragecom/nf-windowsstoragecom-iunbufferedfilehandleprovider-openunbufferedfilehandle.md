@@ -59,7 +59,7 @@ Gets a handle from a random-access byte stream that the <a href="https://docs.mi
 
 ### -param oplockBreakCallback [in]
 
-An interface that contains the implementation of the <a href="https://msdn.microsoft.com/F5B6B4F6-61F2-4C5A-9E63-E9DC876FEB60">IUnbufferedFileHandleOplockCallback::OnBrokenCallback</a> method that you want to run when the opportunistic lock for the handle is broken. 
+An interface that contains the implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/windowsstoragecom/nf-windowsstoragecom-iunbufferedfilehandleoplockcallback-onbrokencallback">IUnbufferedFileHandleOplockCallback::OnBrokenCallback</a> method that you want to run when the opportunistic lock for the handle is broken. 
 
 
 ### -param fileHandle [out, retval]
@@ -82,7 +82,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 <b>IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle</b> opens a new handle that is open for GENERIC_READ. <b>IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle</b> does not return the actual handle underlying the stream, or a duplicate of that handle.
 
- Call <a href="https://msdn.microsoft.com/8D6CD3A2-0CCD-49F4-86B3-99823A6E4EA8">IUnbufferedFileHandleProvider::CloseUnbufferedFileHandle</a> when you no longer need the handle. The handle is also closed when the opportunistic lock breaks, so your code must process exceptions that occur when the handle is not valid. 
+ Call <a href="https://docs.microsoft.com/windows/desktop/api/windowsstoragecom/nf-windowsstoragecom-iunbufferedfilehandleprovider-closeunbufferedfilehandle">IUnbufferedFileHandleProvider::CloseUnbufferedFileHandle</a> when you no longer need the handle. The handle is also closed when the opportunistic lock breaks, so your code must process exceptions that occur when the handle is not valid. 
 
 
 
@@ -92,23 +92,23 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/D2ECEB3D-D13E-44C1-BFE2-1AA57F7432C6">IRandomAccessStream</a>
+<a href="https://docs.microsoft.com/previous-versions//hh438400(v=vs.85)">IRandomAccessStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/7418EDE0-D9E1-4D8C-84B0-CAE9BDF053E3">IUnbufferedFileHandleOplockCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windowsstoragecom/nn-windowsstoragecom-iunbufferedfilehandleoplockcallback">IUnbufferedFileHandleOplockCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/F5B6B4F6-61F2-4C5A-9E63-E9DC876FEB60">IUnbufferedFileHandleOplockCallback::OnBrokenCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windowsstoragecom/nf-windowsstoragecom-iunbufferedfilehandleoplockcallback-onbrokencallback">IUnbufferedFileHandleOplockCallback::OnBrokenCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/9716B7ED-8E2C-4B7F-B9C9-39A755615CB3">IUnbufferedFileHandleProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windowsstoragecom/nn-windowsstoragecom-iunbufferedfilehandleprovider">IUnbufferedFileHandleProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/8D6CD3A2-0CCD-49F4-86B3-99823A6E4EA8">IUnbufferedFileHandleProvider::CloseUnbufferedFileHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windowsstoragecom/nf-windowsstoragecom-iunbufferedfilehandleprovider-closeunbufferedfilehandle">IUnbufferedFileHandleProvider::CloseUnbufferedFileHandle</a>
  
 
  

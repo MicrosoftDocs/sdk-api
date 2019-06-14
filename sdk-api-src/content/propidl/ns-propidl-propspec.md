@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>PROPSPEC</b> structure is used by many of the methods of 
-<a href="https://msdn.microsoft.com/c021f695-db54-4861-9f30-35a81d2dccd5">IPropertyStorage</a> to specify a property either by its property identifier (ID) or the associated string name.
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> to specify a property either by its property identifier (ID) or the associated string name.
 
 
 ## -struct-fields
@@ -113,7 +113,7 @@ Specifies the string name of the property as a null-terminated Unicode string.
 
 
 
-String names are optional and can be assigned to a set of properties when the property is created with a call to <a href="https://msdn.microsoft.com/480a2be3-ccb0-4135-a085-733f6ab48ccd">IPropertyStorage::WriteMultiple</a> or later with a call to <a href="https://msdn.microsoft.com/3612bf29-344a-4389-bd3b-56b9fa297362">IPropertyStorage::WritePropertyNames</a>.
+String names are optional and can be assigned to a set of properties when the property is created with a call to <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-writemultiple">IPropertyStorage::WriteMultiple</a> or later with a call to <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-writepropertynames">IPropertyStorage::WritePropertyNames</a>.
 
 
 
@@ -123,7 +123,7 @@ String names are optional and can be assigned to a set of properties when the pr
 
 
 
-<a href="https://msdn.microsoft.com/c021f695-db54-4861-9f30-35a81d2dccd5">IPropertyStorage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a>
  
 
  

@@ -76,28 +76,28 @@ The number of characters in string.
 
 ### -param textFormat [in]
 
-Type: <b><a href="https://msdn.microsoft.com/64b2cac3-c4cb-4213-b808-7b279d296939">IDWriteTextFormat</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a>*</b>
 
 An object that describes formatting details of the text to draw, such as the font, the font size, and flow direction.
 
 
 ### -param layoutRect [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a></b>
 
 The size and position of the area in which the text is drawn.
 
 
 ### -param defaultFillBrush [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/5b8f6ff8-ba52-4d30-9bea-3de89793c868">ID2D1Brush</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>*</b>
 
 The brush used to paint the text.
 
 
 ### -param svgGlyphStyle [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/FE01771A-D82A-4610-8014-E0C0C0C5402E">ID2D1SvgGlyphStyle</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1svgglyphstyle">ID2D1SvgGlyphStyle</a>*</b>
 
 Values for context-fill, context-stroke, and context-value that are used when rendering SVG glyphs.
 
@@ -111,19 +111,19 @@ The index used to select a color palette within a color font.
 
 ### -param options
 
-Type: <b><a href="https://msdn.microsoft.com/30f5be4a-83c2-4039-8e09-00e842fc5eb2">D2D1_DRAW_TEXT_OPTIONS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_draw_text_options">D2D1_DRAW_TEXT_OPTIONS</a></b>
 
 A value that indicates whether the text should be snapped to pixel boundaries and whether the text should be clipped to the layout rectangle. 
-          The default value is <a href="https://msdn.microsoft.com/30f5be4a-83c2-4039-8e09-00e842fc5eb2">D2D1_DRAW_TEXT_OPTIONS_NONE</a>, 
+          The default value is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_draw_text_options">D2D1_DRAW_TEXT_OPTIONS_NONE</a>, 
           which indicates that text should be snapped to pixel boundaries and it should not be clipped to the layout rectangle.
 
 
 ### -param measuringMode
 
-Type: <b><a href="https://msdn.microsoft.com/99e89754-8bc2-457d-bfdb-a3c9ccfe00c1">DWRITE_MEASURING_MODE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-dwrite_measuring_mode">DWRITE_MEASURING_MODE</a></b>
 
 A value that indicates how glyph metrics are used to measure text when it is formatted. 
-          The default value is <a href="https://msdn.microsoft.com/99e89754-8bc2-457d-bfdb-a3c9ccfe00c1">DWRITE_MEASURING_MODE_NATURAL</a>. 
+          The default value is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-dwrite_measuring_mode">DWRITE_MEASURING_MODE_NATURAL</a>. 
 
 
 ## -returns
@@ -140,7 +140,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/59E1F73B-BAD9-4826-BF5B-435E760CC546">ID2D1DeviceContext4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext4">ID2D1DeviceContext4</a>
  
 
  

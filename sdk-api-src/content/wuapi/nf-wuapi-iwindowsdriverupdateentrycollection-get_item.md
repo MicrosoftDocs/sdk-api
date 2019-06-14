@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an <a href="https://msdn.microsoft.com/91b8ed77-70f7-400f-a887-b3cf9f573c76">IWindowsDriverUpdateEntry</a> interface in the collection.
+Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdateentry">IWindowsDriverUpdateEntry</a> interface in the collection.
 
 This property is read-only.
 
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/f071b05f-f0fa-43af-a502-f83a5f877120">IWindowsDriverUpdateEntryCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdateentrycollection">IWindowsDriverUpdateEntryCollection</a>
  
 
  

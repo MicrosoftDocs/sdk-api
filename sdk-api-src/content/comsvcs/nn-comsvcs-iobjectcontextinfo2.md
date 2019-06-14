@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Provides additional information about an object's context. This interface extends the <a href="https://msdn.microsoft.com/76dcc6f3-f840-4672-bba9-038c1249a306">IObjectContextInfo</a> interface.
+Provides additional information about an object's context. This interface extends the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextinfo">IObjectContextInfo</a> interface.
 
 
 ## -inheritance
@@ -69,7 +69,7 @@ The <b>IObjectContextInfo2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/45cf882a-7a46-4106-a03d-c87c0b52477e">GetApplicationId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontextinfo2-getapplicationid">GetApplicationId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the identifier of the application of the current object context.
@@ -78,7 +78,7 @@ Retrieves the identifier of the application of the current object context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e20e02c8-23ad-4234-9f20-4e8cae2e9279">GetApplicationInstanceId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontextinfo2-getapplicationinstanceid">GetApplicationInstanceId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the identifier of the application instance of the current object context.
@@ -87,7 +87,7 @@ Retrieves the identifier of the application instance of the current object conte
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/090afcec-d124-4b7c-822a-ecb56f9037a6">GetPartitionId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontextinfo2-getpartitionid">GetPartitionId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the identifier of the partition of the current object context.
@@ -102,11 +102,11 @@ Retrieves the identifier of the partition of the current object context.
 
 
 
-<a href="https://msdn.microsoft.com/50ccf75e-2652-4254-a771-af83cc9248b3">COM+ Contexts and Threading Models</a>
+<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--contexts-and-threading-models">COM+ Contexts and Threading Models</a>
 
 
 
-<a href="https://msdn.microsoft.com/76dcc6f3-f840-4672-bba9-038c1249a306">IObjectContextInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextinfo">IObjectContextInfo</a>
  
 
  

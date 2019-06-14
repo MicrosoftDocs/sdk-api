@@ -63,7 +63,7 @@ Contains the CLSID of the text service that owns the item.
 
 ### -param rcatid [in]
 
-Contains a GUID value that identifies the category to register the item under. This can be a user-defined category or one of the <a href="https://msdn.microsoft.com/04c0632d-ac64-4081-ba95-c11feb3f40dd">predefined category values</a>.
+Contains a GUID value that identifies the category to register the item under. This can be a user-defined category or one of the <a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-category-values">predefined category values</a>.
 
 
 ### -param rguid [in]
@@ -115,17 +115,17 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/26139c8c-e1d9-4d7a-a0c0-ef73e572fbe4">ITfCategoryMgr
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcategorymgr">ITfCategoryMgr
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/73013bc1-4623-4e00-b87b-29ea3d728e9f">ITfCategoryMgr::UnregisterCategory
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-unregistercategory">ITfCategoryMgr::UnregisterCategory
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/04c0632d-ac64-4081-ba95-c11feb3f40dd">Predefined Category Values
+<a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-category-values">Predefined Category Values
       </a>
  
 

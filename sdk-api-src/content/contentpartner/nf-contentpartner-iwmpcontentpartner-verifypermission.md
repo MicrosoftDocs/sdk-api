@@ -104,7 +104,7 @@ The method succeeded.
 
 
 
-The <b>VerifyPermission</b> method initiates a permission verification and then returns immediately. When the online store has completed the verification, it calls <a href="https://msdn.microsoft.com/en-us/library/Dd563155(v=VS.85).aspx">IWMPContentPartnerCallback::VerifyPermissionComplete</a> to notify Windows Media Player that permission has been granted or denied.
+The <b>VerifyPermission</b> method initiates a permission verification and then returns immediately. When the online store has completed the verification, it calls <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-verifypermissioncomplete">IWMPContentPartnerCallback::VerifyPermissionComplete</a> to notify Windows Media Player that permission has been granted or denied.
 
 The following list gives the possible values for <i>bstrPermission</i> along with the corresponding meanings of <i>pContext</i>.
 
@@ -120,11 +120,11 @@ Windows Media Player is requesting permission from the online store to synchroni
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563141(v=VS.85).aspx">IWMPContentPartner Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563155(v=VS.85).aspx">IWMPContentPartnerCallback::VerifyPermissionComplete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-verifypermissioncomplete">IWMPContentPartnerCallback::VerifyPermissionComplete</a>
  
 
  

@@ -57,7 +57,7 @@ The <b>IWMPPluginUI</b> interface manages the connection to Windows Media Player
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPPluginUI</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMPPluginUI</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPPluginUI</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPPluginUI</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IWMPPluginUI</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563592(v=VS.85).aspx">Create</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmpplug/nf-wmpplug-iwmppluginui-create">Create</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to instantiate the plug-in user interface.
@@ -81,7 +81,7 @@ Called by Windows Media Player to instantiate the plug-in user interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563593(v=VS.85).aspx">Destroy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmpplug/nf-wmpplug-iwmppluginui-destroy">Destroy</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to shut down the plug-in user interface.
@@ -90,7 +90,7 @@ Called by Windows Media Player to shut down the plug-in user interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563594(v=VS.85).aspx">DisplayPropertyPage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmpplug/nf-wmpplug-iwmppluginui-displaypropertypage">DisplayPropertyPage</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to request that the plug-in display its property page.
@@ -99,7 +99,7 @@ Called by Windows Media Player to request that the plug-in display its property 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563595(v=VS.85).aspx">GetProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmpplug/nf-wmpplug-iwmppluginui-getproperty">GetProperty</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to retrieve name/value property pairs from the plug-in.
@@ -108,7 +108,7 @@ Called by Windows Media Player to retrieve name/value property pairs from the pl
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563596(v=VS.85).aspx">SetCore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmpplug/nf-wmpplug-iwmppluginui-setcore">SetCore</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to provide plug-in access to the core Windows Media Player APIs.
@@ -117,7 +117,7 @@ Called by Windows Media Player to provide plug-in access to the core Windows Med
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563597(v=VS.85).aspx">SetProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmpplug/nf-wmpplug-iwmppluginui-setproperty">SetProperty</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to set name/value property pairs for the plug-in.
@@ -126,7 +126,7 @@ Called by Windows Media Player to set name/value property pairs for the plug-in.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563598(v=VS.85).aspx">TranslateAccelerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmpplug/nf-wmpplug-iwmppluginui-translateaccelerator">TranslateAccelerator</a>
 </td>
 <td align="left" width="63%">
 Called as part of the Windows Media Player message loop to allow the plug-in to intercept and respond to keyboard events.
@@ -141,7 +141,7 @@ Called as part of the Windows Media Player message loop to allow the plug-in to 
 
 
 
-<a href="https://msdn.microsoft.com/5139412c-bafc-4009-82d2-f9c502118c7d">User Interface Plug-ins Programming Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/user-interface-plug-ins-programming-reference">User Interface Plug-ins Programming Reference</a>
  
 
  

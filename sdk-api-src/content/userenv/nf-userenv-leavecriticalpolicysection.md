@@ -61,7 +61,7 @@ The
 ### -param hSection [in]
 
 Handle to a policy section, which is returned by the 
-<a href="https://msdn.microsoft.com/d17578b3-3a71-456b-97ca-961b81572528">EnterCriticalPolicySection</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-entercriticalpolicysection">EnterCriticalPolicySection</a> function.
 
 
 ## -returns
@@ -71,7 +71,7 @@ Handle to a policy section, which is returned by the
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -81,16 +81,16 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/d17578b3-3a71-456b-97ca-961b81572528">EnterCriticalPolicySection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-entercriticalpolicysection">EnterCriticalPolicySection</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c45666e-d7c7-4989-ad19-b1b230757a88">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
     Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/1285ab5a-ea68-4c16-bc34-8ab2f3cfad35">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
  
 

@@ -68,7 +68,7 @@ Entrypoint in the state object for which to retrieve an identifier.
 
 A pointer to the shader identifier.
 
-The data referenced by this pointer is valid as long as the state object it came from is valid.  The size of the data returned is <a href="https://msdn.microsoft.com/F02EAAAF-984F-4357-AB81-AC8045E2AE49">D3D12_SHADER_IDENTIFIER_SIZE_IN_BYTES</a>.  Applications should copy and cache this data to avoid the cost of searching for it in the state object if it will need to be retrieved many times.  The identifier is used in shader records within shader tables in GPU memory, which the app must populate. 
+The data referenced by this pointer is valid as long as the state object it came from is valid.  The size of the data returned is <a href="https://docs.microsoft.com/windows/desktop/direct3d12/constants">D3D12_SHADER_IDENTIFIER_SIZE_IN_BYTES</a>.  Applications should copy and cache this data to avoid the cost of searching for it in the state object if it will need to be retrieved many times.  The identifier is used in shader records within shader tables in GPU memory, which the app must populate. 
 
 The data itself globally identifies the shader, so even if the shader appears in a different state object with same associations, like any root signatures, it will have the same identifier.
 

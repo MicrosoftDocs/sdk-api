@@ -60,7 +60,7 @@ Sets the time that an action that uses the global run limit interval must wait b
 
 ### -param actionType [in]
 
-The action type to limit. For possible values, see the <a href="https://msdn.microsoft.com/3e34395e-b8e6-4288-a040-dff6cf7f5fe6">FsrmActionType</a> enumeration.
+The action type to limit. For possible values, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmactiontype">FsrmActionType</a> enumeration.
 
 
 ### -param delayTimeMinutes [in]
@@ -81,7 +81,7 @@ The method returns the following return values.
 
 
 
-Applies to actions that have the <a href="https://msdn.microsoft.com/3d5be77f-282f-479d-aa34-a8cb1c771951">IFsrmAction::RunLimitInterval</a> property set to –1.
+Applies to actions that have the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmaction-get_runlimitinterval">IFsrmAction::RunLimitInterval</a> property set to –1.
 
 This property specifies the interval that should occur before the action is run again if the global run limit interval is used. For example, if the interval has expired since the action last ran, the server will run the action again in response to an event; otherwise, the server cannot run the action again.
 
@@ -93,11 +93,11 @@ This property specifies the interval that should occur before the action is run 
 
 
 
-<a href="https://msdn.microsoft.com/0c27393a-9a84-4147-a7e0-582c0bf2d918">FsrmSetting</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmsetting">FsrmSetting</a>
 
 
 
-<a href="https://msdn.microsoft.com/432fbaaa-7ddb-4d8c-bfbe-40cd26b08f9b">IFsrmSetting</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmsetting">IFsrmSetting</a>
  
 
  

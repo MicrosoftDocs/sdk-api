@@ -92,11 +92,11 @@ The alpha channel contains custom data that is not alpha.
 
 
 
-<a href="https://msdn.microsoft.com/D4EE39D6-54DC-450D-A430-2996D349BEC6">IWICDdsDecoder::GetParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicddsdecoder-getparameters">IWICDdsDecoder::GetParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/2E5755B4-E8DC-40B2-8DA1-B053A261079B">WICDdsParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-wincodec-wicddsparameters">WICDdsParameters</a>
  
 
  

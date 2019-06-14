@@ -97,7 +97,7 @@ If the extension calling the function is a primary extension with a single page 
 
 
 
-<a href="https://msdn.microsoft.com/b38016a2-bbb7-4715-81cc-bd9911fb5a3b">IDsAdminNewObj</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nn-dsadmin-idsadminnewobj">IDsAdminNewObj</a>
  
 
  

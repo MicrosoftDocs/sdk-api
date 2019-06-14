@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>get_DynamicTerminalClasses</b> method creates a collection of currently available dynamic terminals. This method is provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the 
-<a href="https://msdn.microsoft.com/1dcb9163-306b-42fc-afb4-41b33d7e2d40">EnumerateDynamicTerminalClasses</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-enumeratedynamicterminalclasses">EnumerateDynamicTerminalClasses</a> method.
 
 
 ## -parameters
@@ -62,8 +62,8 @@ The
 ### -param pVariant [out]
 
 Pointer to a <b>VARIANT</b> containing an 
-<a href="https://msdn.microsoft.com/2286678a-68b9-4f4a-b36b-7fdf8cdad6a6">ITCollection</a> of 
-<a href="https://msdn.microsoft.com/2a16d33c-2d87-4172-a5ff-33ff62e96615">terminal classes</a> in a string (<b>BSTR</b>) format.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a> of 
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-class">terminal classes</a> in a string (<b>BSTR</b>) format.
 
 
 ## -returns
@@ -121,7 +121,7 @@ The <i>pVariant</i> parameter is not a valid pointer.
 
 
 An application calls this method to find out which dynamic terminal classes are supported by this address in a call to 
-<a href="https://msdn.microsoft.com/2a2a037a-753c-4dd4-b6ce-10b69f2e2421">ITTerminalSupport::CreateTerminal</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-createterminal">ITTerminalSupport::CreateTerminal</a>.
 
 
 
@@ -131,23 +131,23 @@ An application calls this method to find out which dynamic terminal classes are 
 
 
 
-<a href="https://msdn.microsoft.com/ab6db262-f99e-4027-9525-7597fcf02e72">Address Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/8669324a-5c2c-4ed8-be24-a0c71fbb8c01">ITTerminalSupport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminalsupport">ITTerminalSupport</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a16d33c-2d87-4172-a5ff-33ff62e96615">Terminal Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-class">Terminal Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d96f229-76c0-46a3-bc4b-6f558b9956c6">Terminal Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object">Terminal Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/08320d1c-1400-4746-b526-74b0789c5fc0">Terminal Object Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object-interfaces">Terminal Object Interfaces</a>
  
 
  

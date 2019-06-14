@@ -107,7 +107,7 @@ The value of <i>phandle</i> is not valid. For example, it may be <b>NULL</b>.
 
 <h3><a id="Notes_to_Callers_"></a><a id="notes_to_callers_"></a><a id="NOTES_TO_CALLERS_"></a>Notes to Callers
 </h3>
-The picture object may retain ownership of the picture. However, the caller can be assured that the picture will remain valid until either the caller specifically destroys the picture or the picture object is itself destroyed. The <i>fOwn</i> parameter to <a href="https://msdn.microsoft.com/fb021348-07d4-4974-a71e-abb1b8d760c4">OleCreatePictureIndirect</a> determines ownership when the picture object is created. <a href="https://msdn.microsoft.com/de1847cd-ecc0-4941-9dbc-a60b8ef0b1c1">OleLoadPicture</a> forces <i>fOwn</i> to <b>TRUE</b>.
+The picture object may retain ownership of the picture. However, the caller can be assured that the picture will remain valid until either the caller specifically destroys the picture or the picture object is itself destroyed. The <i>fOwn</i> parameter to <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatepictureindirect">OleCreatePictureIndirect</a> determines ownership when the picture object is created. <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-oleloadpicture">OleLoadPicture</a> forces <i>fOwn</i> to <b>TRUE</b>.
 
 
 
@@ -117,7 +117,7 @@ The picture object may retain ownership of the picture. However, the caller can 
 
 
 
-<a href="https://msdn.microsoft.com/42e3cd0e-2413-494a-8be8-2952089e02d2">IPicture</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a>
  
 
  

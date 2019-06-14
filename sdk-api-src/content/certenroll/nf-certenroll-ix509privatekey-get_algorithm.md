@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Algorithm</b> property specifies or retrieves an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) for the public key algorithm. This property is web enabled for both input and output.
+The <b>Algorithm</b> property specifies or retrieves an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) for the public key algorithm. This property is web enabled for both input and output.
 
 This property is read/write.
 
@@ -63,7 +63,7 @@ This property is read/write.
 
 
 
-This property is automatically set when the <a href="https://msdn.microsoft.com/8bf6e62d-9ecf-4eee-9652-f04d2010b4f7">CspStatus</a> property is called.
+This property is automatically set when the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_cspstatus">CspStatus</a> property is called.
 
 
 
@@ -73,7 +73,7 @@ This property is automatically set when the <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
  
 
  

@@ -54,7 +54,7 @@ The <b>IEnumITfCompositionView</b> interface is implemented by the TSF manager t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumITfCompositionView</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnumITfCompositionView</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumITfCompositionView</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumITfCompositionView</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IEnumITfCompositionView</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/536b89ee-c2bd-4713-aa2c-2a2e4841a8de">Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumitfcompositionview-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the enumerator object.
@@ -78,7 +78,7 @@ Creates a copy of the enumerator object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/70b0dd55-41c0-4188-b79e-e49a0e203949">Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumitfcompositionview-next">Next</a>
 </td>
 <td align="left" width="63%">
 Obtains, from the current position, the specified number of elements in the enumeration sequence.
@@ -87,7 +87,7 @@ Obtains, from the current position, the specified number of elements in the enum
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d0f63b58-fe9c-4c2c-8e70-e7be88030417">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumitfcompositionview-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
@@ -96,7 +96,7 @@ Resets the enumerator object by moving the current position to the beginning of 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9edc8dd8-4cbb-4250-a0e9-05d7250d5ad3">Skip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumitfcompositionview-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Moves the current position forward in the enumeration sequence by the specified number of elements.

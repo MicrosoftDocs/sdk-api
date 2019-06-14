@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates the object that's used to access a device. The instantiated object implements  the <a href="https://msdn.microsoft.com/d285e04e-04d0-4c2a-b9f0-72eebebf4f4b">IDeviceIoControl</a> and <a href="https://msdn.microsoft.com/ebc8d694-c933-4d98-95f5-67b0dd733d4d">ICreateDeviceAccessAsync</a> interfaces.
+Creates the object that's used to access a device. The instantiated object implements  the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nn-deviceaccess-ideviceiocontrol">IDeviceIoControl</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nn-deviceaccess-icreatedeviceaccessasync">ICreateDeviceAccessAsync</a> interfaces.
 
 Conditions (FYI):
 
@@ -88,14 +88,14 @@ The requested level of access to the device, which can be summarized as read, wr
  
 
 
-The most commonly used values are <b>GENERIC_READ</b>, <b>GENERIC_WRITE</b>, or both (<b>GENERIC_READ</b> | <b>GENERIC_WRITE</b>). For more information, see <a href="https://msdn.microsoft.com/e18cede9-9bf7-4866-850b-5d7fa43a5b0f">Generic Access Rights</a>, <a href="https://msdn.microsoft.com/991d7d94-fae7-406f-b2e3-dee811279366">File Security and Access Rights</a>, <a href="https://msdn.microsoft.com/c534e853-b61f-414d-befe-8d3c4bf08d22">File Access Rights Constants</a>, <a href="https://msdn.microsoft.com/094cac29-c66d-409e-8928-878dc693d393">Creating and Opening Files</a>, and <a href="https://msdn.microsoft.com/f115ee54-3333-4109-8004-d71904a7a943">ACCESS_MASK</a>.
+The most commonly used values are <b>GENERIC_READ</b>, <b>GENERIC_WRITE</b>, or both (<b>GENERIC_READ</b> | <b>GENERIC_WRITE</b>). For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/generic-access-rights">Generic Access Rights</a>, <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>, <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-access-rights-constants">File Access Rights Constants</a>, <a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-and-opening-files">Creating and Opening Files</a>, and <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a>.
  
 
 
 
 ### -param createAsync
 
-Asynchronous interface to control binding for this instance.  For more information, see <a href="https://msdn.microsoft.com/ebc8d694-c933-4d98-95f5-67b0dd733d4d">ICreateDeviceAccessAsync</a>.
+Asynchronous interface to control binding for this instance.  For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nn-deviceaccess-icreatedeviceaccessasync">ICreateDeviceAccessAsync</a>.
 
 
 ## -returns

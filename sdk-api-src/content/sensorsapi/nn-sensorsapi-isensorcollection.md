@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Represents a collection of sensors, such as all the sensors connected to a computer.
 
-Retrieve a pointer to <b>ISensorCollection</b> by calling methods of the <a href="https://msdn.microsoft.com/313742c9-58a7-4ddd-9582-a6ee276e97d0">ISensorManager</a> interface.
+Retrieve a pointer to <b>ISensorCollection</b> by calling methods of the <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanager">ISensorManager</a> interface.
 In addition to the methods inherited from <b>IUnknown</b>, the <b>ISensorCollection</b> interface exposes the following methods.
 
 
@@ -61,7 +61,7 @@ In addition to the methods inherited from <b>IUnknown</b>, the <b>ISensorCollect
 
 
 
-<a href="https://msdn.microsoft.com/872de1e9-20f9-409b-9917-24b13a8cc08a">COM Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/windows-sensors-com-interfaces">COM Interfaces</a>
  
 
  

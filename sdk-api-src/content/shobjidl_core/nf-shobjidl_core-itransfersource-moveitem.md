@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Moves the item within the volume/namespace, returning the <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a> in its new location.
+Moves the item within the volume/namespace, returning the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> in its new location.
 
 
 ## -parameters
@@ -59,16 +59,16 @@ Moves the item within the volume/namespace, returning the <a href="https://msdn.
 
 ### -param psi [in]
 
-Type: <b><a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a> to be moved.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> to be moved.
 
 
 ### -param psiParentDst [in]
 
-Type: <b><a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a> that represents the new parent item at the destination.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> that represents the new parent item at the destination.
 
 
 ### -param pszNameDst [in]
@@ -80,16 +80,16 @@ Pointer to a null-terminated buffer that contains the destination path.
 
 ### -param flags
 
-Type: <b><a href="https://msdn.microsoft.com/8a3da00a-1d96-444d-acbe-9327620b8d24">TRANSFER_SOURCE_FLAGS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a></b>
 
-Flags that control the file operation. One or more of the <a href="https://msdn.microsoft.com/8a3da00a-1d96-444d-acbe-9327620b8d24">TRANSFER_SOURCE_FLAGS</a> constants.
+Flags that control the file operation. One or more of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> constants.
 
 
 ### -param ppsiNew [out]
 
-Type: <b><a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>**</b>
 
-When this method returns successfully, contains an address of a pointer to the <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a> in its new location.
+When this method returns successfully, contains an address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> in its new location.
 
 
 ## -returns
@@ -156,7 +156,7 @@ The caller should convert a move operation into a copy and delete operation. Thi
 </dl>
 </td>
 <td width="60%">
-When moving a folder, the caller should convert the move operation into a copy and delete operation. The destination item must support <a href="https://msdn.microsoft.com/8d0049e0-e227-40ae-a282-cdc17f227e24">ITransferDestination</a>. This error is seen as <code>HRESULT_FROM_WIN32(ERROR_FILE_EXISTS)</code>.
+When moving a folder, the caller should convert the move operation into a copy and delete operation. The destination item must support <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferdestination">ITransferDestination</a>. This error is seen as <code>HRESULT_FROM_WIN32(ERROR_FILE_EXISTS)</code>.
 
 </td>
 </tr>
@@ -167,7 +167,7 @@ When moving a folder, the caller should convert the move operation into a copy a
 </dl>
 </td>
 <td width="60%">
-When moving a folder, the caller should convert the move operation into a copy and delete operation. The destination item must support <a href="https://msdn.microsoft.com/8d0049e0-e227-40ae-a282-cdc17f227e24">ITransferDestination</a>. This error is seen as <code>HRESULT_FROM_WIN32(ERROR_ALREADY_EXISTS)</code>.
+When moving a folder, the caller should convert the move operation into a copy and delete operation. The destination item must support <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferdestination">ITransferDestination</a>. This error is seen as <code>HRESULT_FROM_WIN32(ERROR_ALREADY_EXISTS)</code>.
 
 </td>
 </tr>

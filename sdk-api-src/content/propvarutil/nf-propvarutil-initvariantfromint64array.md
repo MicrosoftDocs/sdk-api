@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Initializes a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure with an array of 64-bit integer values.
+Initializes a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> structure with an array of 64-bit integer values.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ The number of array elements.
 
 Type: <b>VARIANT*</b>
 
-When this function returns, contains the initialized <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
+When this function returns, contains the initialized <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> structure.
 
 
 ## -returns
@@ -100,7 +100,7 @@ Creates a VT_ARRAY | VT_I8 variant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762332(v=VS.85).aspx">InitVariantFromInt64Array</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfromint64array">InitVariantFromInt64Array</a>.
 
 
 ```cpp
@@ -125,15 +125,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762302(v=VS.85).aspx">InitPropVariantFromInt64Vector</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromint64vector">InitPropVariantFromInt64Vector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762331(v=VS.85).aspx">InitVariantFromInt64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfromint64">InitVariantFromInt64</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776613(v=VS.85).aspx">VariantToInt64Array</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttoint64array">VariantToInt64Array</a>
  
 
  

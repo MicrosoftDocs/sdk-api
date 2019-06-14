@@ -64,9 +64,9 @@ Gets the description of the command queue.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/8C43C45B-0A7B-4336-B546-1E6F13D153F3">D3D12_COMMAND_QUEUE_DESC</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_command_queue_desc">D3D12_COMMAND_QUEUE_DESC</a></b>
 
-The description of the command queue, as a <a href="https://msdn.microsoft.com/8C43C45B-0A7B-4336-B546-1E6F13D153F3">D3D12_COMMAND_QUEUE_DESC</a> structure.
+The description of the command queue, as a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_command_queue_desc">D3D12_COMMAND_QUEUE_DESC</a> structure.
           
 
 
@@ -77,7 +77,7 @@ The description of the command queue, as a <a href="https://msdn.microsoft.com/8
 
 
 
-<a href="https://msdn.microsoft.com/88A4E8BA-02B9-48A1-8E46-2D2560544539">ID3D12CommandQueue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12commandqueue">ID3D12CommandQueue</a>
  
 
  

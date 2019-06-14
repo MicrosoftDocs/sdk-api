@@ -83,7 +83,7 @@ A null-terminated text string that specifies the keyword to locate in the keywor
 
 
 
-<a href="https://msdn.microsoft.com/fce80bac-2a44-46e7-a87a-ef93f4599807">WinHelp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-winhelpa">WinHelp</a>
  
 
  

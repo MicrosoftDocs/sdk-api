@@ -67,7 +67,7 @@ The character-position range in the active display.
 
 ### -field dwFlags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 One or more of the following content menu flags: 
 
@@ -125,7 +125,7 @@ Get the context menu that is invoked by touch.
 
 ### -field pt
 
-Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
 
 The screen coordinates for the content menu. 
 

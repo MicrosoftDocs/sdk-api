@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ### -param dwFlags [in]
 
-Contains a set of flags that indicate changes in the language bar item. This can be a combination of one or more of the <a href="https://msdn.microsoft.com/ed84012f-19ba-43b3-bbb5-7373ed174c33">TF_LBI_*</a> values.
+Contains a set of flags that indicate changes in the language bar item. This can be a combination of one or more of the <a href="https://docs.microsoft.com/windows/desktop/TSF/tf-lbi--constants">TF_LBI_*</a> values.
 
 
 ## -returns
@@ -114,11 +114,11 @@ A language bar item should call this method when the internal state of the item 
 
 
 
-<a href="https://msdn.microsoft.com/1734a011-1ee8-4afd-ace8-334eeaf14518">ITfLangBarItemSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritemsink">ITfLangBarItemSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/ed84012f-19ba-43b3-bbb5-7373ed174c33">TF_LBI_* Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/TSF/tf-lbi--constants">TF_LBI_* Constants</a>
  
 
  

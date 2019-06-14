@@ -138,7 +138,7 @@ Reserved
 
 
 
-<a href="https://msdn.microsoft.com/CBC1DA09-6D3D-42D8-8E77-CFDBA733C228">IDWriteTextAnalyzer1::GetScriptProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-getscriptproperties">IDWriteTextAnalyzer1::GetScriptProperties</a>
  
 
  

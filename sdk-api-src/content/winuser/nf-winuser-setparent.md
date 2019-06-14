@@ -79,7 +79,7 @@ A handle to the child window.
 Type: <b>HWND</b>
 
 A handle to the new parent window. If this parameter is <b>NULL</b>, the desktop window becomes the new parent window. 
-					 If this parameter is <b>HWND_MESSAGE</b>, the child window becomes a <a href="https://msdn.microsoft.com/en-us/library/ms632599(v=VS.85).aspx">message-only window</a>. 
+					 If this parameter is <b>HWND_MESSAGE</b>, the child window becomes a <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-features">message-only window</a>. 
 
 
 ## -returns
@@ -91,7 +91,7 @@ Type: <strong>Type: <b>HWND</b>
 
 If the function succeeds, the return value is a handle to the previous parent window.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -106,7 +106,7 @@ If the window identified by the <i>hWndChild</i> parameter is visible, the syste
 
 For compatibility reasons, <b>SetParent</b> does not modify the <b>WS_CHILD</b> or <b>WS_POPUP</b> window styles of the window whose parent is being changed. Therefore, if <i>hWndNewParent</i> is <b>NULL</b>, you should also clear the <b>WS_CHILD</b> bit and set the <b>WS_POPUP</b> style after calling <b>SetParent</b>. Conversely, if <i>hWndNewParent</i> is not <b>NULL</b> and the window was previously a child of the desktop, you should clear the <b>WS_POPUP</b> style and set the <b>WS_CHILD</b> style before calling <b>SetParent</b>. 
 
- When you change the parent of a window, you should synchronize the UISTATE of both windows. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms646342(v=VS.85).aspx">WM_CHANGEUISTATE</a> and <a href="https://msdn.microsoft.com/en-us/library/ms646361(v=VS.85).aspx">WM_UPDATEUISTATE</a>. 
+ When you change the parent of a window, you should synchronize the UISTATE of both windows. For more information, see <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-changeuistate">WM_CHANGEUISTATE</a> and <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-updateuistate">WM_UPDATEUISTATE</a>. 
 
 Unexpected behavior or errors may occur if <i>hWndNewParent</i> and <i>hWndChild</i> are running in different DPI awareness modes. The table below outlines this behavior:
 
@@ -137,7 +137,7 @@ Unexpected behavior or errors may occur if <i>hWndNewParent</i> and <i>hWndChild
 </table>
  
 
- For more information on DPI awareness, see <a href="https://msdn.microsoft.com/6C419EEF-D898-4B50-8D16-E65A594487AA">the Windows High DPI documentation.</a>
+ For more information on DPI awareness, see <a href="https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows">the Windows High DPI documentation.</a>
 
 
 
@@ -152,7 +152,7 @@ Unexpected behavior or errors may occur if <i>hWndNewParent</i> and <i>hWndChild
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633510(v=VS.85).aspx">GetParent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getparent">GetParent</a>
 
 
 
@@ -160,7 +160,7 @@ Unexpected behavior or errors may occur if <i>hWndNewParent</i> and <i>hWndChild
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
  
 
  

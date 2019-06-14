@@ -50,8 +50,8 @@ ms.custom: 19H1
 
 
 The <b>URL_COMPONENTS</b> structure contains the constituent parts of a URL. This structure is used with the 
-<a href="https://msdn.microsoft.com/656dfe11-2242-4587-aa53-87a280f5df81">WinHttpCrackUrl</a> and 
-<a href="https://msdn.microsoft.com/3f0403ea-479a-4764-ae65-d9bbd9233a50">WinHttpCreateUrl</a> functions.
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpcrackurl">WinHttpCrackUrl</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpcreateurl">WinHttpCreateUrl</a> functions.
 
 
 ## -struct-fields
@@ -170,14 +170,14 @@ Unsigned long integer value that contains the length of the extra information, i
 
 
 For the 
-<a href="https://msdn.microsoft.com/656dfe11-2242-4587-aa53-87a280f5df81">WinHttpCrackUrl</a> function, if a pointer member and its corresponding length member are both zero, that component of the URL is not returned. If the pointer member is <b>NULL</b> but the length member is not zero, both the pointer and length members are returned. If both pointer and corresponding length members are nonzero, the pointer member points to a buffer where the component is copied. All escape sequences can be removed from a component, depending on the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpcrackurl">WinHttpCrackUrl</a> function, if a pointer member and its corresponding length member are both zero, that component of the URL is not returned. If the pointer member is <b>NULL</b> but the length member is not zero, both the pointer and length members are returned. If both pointer and corresponding length members are nonzero, the pointer member points to a buffer where the component is copied. All escape sequences can be removed from a component, depending on the 
 <i>dwFlags</i> parameter of 
-<a href="https://msdn.microsoft.com/656dfe11-2242-4587-aa53-87a280f5df81">WinHttpCrackUrl</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpcrackurl">WinHttpCrackUrl</a>.
 
 For the 
-<a href="https://msdn.microsoft.com/3f0403ea-479a-4764-ae65-d9bbd9233a50">WinHttpCreateUrl</a> function, the pointer members should be <b>NULL</b> if the component of the URL is not required. If the corresponding length member is zero, the pointer member is the pointer to a zero-terminated string. If the length member is not zero, it is the string length of the corresponding pointer member.
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpcreateurl">WinHttpCreateUrl</a> function, the pointer members should be <b>NULL</b> if the component of the URL is not required. If the corresponding length member is zero, the pointer member is the pointer to a zero-terminated string. If the length member is not zero, it is the string length of the corresponding pointer member.
 
-<div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Run-Time Requirements</a> section of the WinHttp start page.</div>
+<div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Run-Time Requirements</a> section of the WinHttp start page.</div>
 <div> </div>
 
 
@@ -187,7 +187,7 @@ For the
 
 
 
-<a href="https://msdn.microsoft.com/b69e5087-7849-4cbc-a97b-204a26fdd044">WinHTTP
+<a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP
 		  Versions</a>
  
 

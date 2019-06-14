@@ -60,7 +60,7 @@ The <b>IBDA_SignalProperties</b> interface is implemented by a BDA device filter
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_SignalProperties</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBDA_SignalProperties</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_SignalProperties</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_SignalProperties</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IBDA_SignalProperties</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693426(v=VS.85).aspx">GetNetworkType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_signalproperties-getnetworktype">GetNetworkType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the network type for the current tuning request.
@@ -84,7 +84,7 @@ Retrieves the network type for the current tuning request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693427(v=VS.85).aspx">GetSignalSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_signalproperties-getsignalsource">GetSignalSource</a>
 </td>
 <td align="left" width="63%">
 Retrieves the signal source for the current tuning request.
@@ -93,7 +93,7 @@ Retrieves the signal source for the current tuning request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693428(v=VS.85).aspx">GetTuningSpace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_signalproperties-gettuningspace">GetTuningSpace</a>
 </td>
 <td align="left" width="63%">
 Retrieves the tuning space for the current tuning request.
@@ -102,7 +102,7 @@ Retrieves the tuning space for the current tuning request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693429(v=VS.85).aspx">PutNetworkType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_signalproperties-putnetworktype">PutNetworkType</a>
 </td>
 <td align="left" width="63%">
 Specifies the network type for the current tuning request.
@@ -111,7 +111,7 @@ Specifies the network type for the current tuning request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693430(v=VS.85).aspx">PutSignalSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_signalproperties-putsignalsource">PutSignalSource</a>
 </td>
 <td align="left" width="63%">
 Specifies the signal source for the current tuning request.
@@ -120,7 +120,7 @@ Specifies the signal source for the current tuning request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693431(v=VS.85).aspx">PutTuningSpace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_signalproperties-puttuningspace">PutTuningSpace</a>
 </td>
 <td align="left" width="63%">
 Specifies the tuning space for the current tuning request.
@@ -144,7 +144,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
  
 
  

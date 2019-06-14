@@ -66,7 +66,7 @@ Specifies the URL of the document to load. If the URL specified is a relative UR
 ### -param punkCallback [in]
 
 Reference to an <b>IUnknown</b> specifying the callback that the UPnP framework uses to notify the caller when the operation is complete. If the load operation did not fail immediately, this callback indicates whether or not the load operation succeeded or failed. The object referred to by <i>pUnkCallback</i> must support either the 
-<a href="https://msdn.microsoft.com/0c9071d8-2ec1-49fe-976d-0c63f9de8b61">IUPnPDescriptionDocumentCallback</a> interface or the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdescriptiondocumentcallback">IUPnPDescriptionDocumentCallback</a> interface or the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface.
 
 
 ## -returns
@@ -171,8 +171,8 @@ This method should not be called from a user interface thread because it can tak
 
 If you invoke this method for the same object immediately after a previous invocation, the first invocation of 
 <b>LoadAsync</b> is aborted. To avoid this, wait for the 
-<a href="https://msdn.microsoft.com/899b1aa4-597c-4434-80cc-2ea22759fbc8">IUPnPDescriptionDocumentCallback::LoadComplete</a> callback, and then use 
-<a href="https://msdn.microsoft.com/3faf3dfa-ed42-4dbd-9ad7-7e34a8b00be8">LoadResult</a> to view the state information.
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocumentcallback-loadcomplete">IUPnPDescriptionDocumentCallback::LoadComplete</a> callback, and then use 
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-get_loadresult">LoadResult</a> to view the state information.
 
 If the 
 <b>LoadAsync</b> method is called by a script within a Web page, <i>bstrUrl</i> might be a relative URL. The address of the current Web page is used as the base URL.
@@ -180,19 +180,19 @@ If the
 If this method is called from a Web page, the URL that the caller specifies must refer to the same server from which the Web page was loaded.
 
 The object referred to by <i>pUnkCallback</i> must either support the 
-<a href="https://msdn.microsoft.com/0c9071d8-2ec1-49fe-976d-0c63f9de8b61">IUPnPDescriptionDocumentCallback</a> interface or the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdescriptiondocumentcallback">IUPnPDescriptionDocumentCallback</a> interface or the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. The 
 <b>LoadAsync</b> method first queries <i>pUnkCallback</i> for the 
 <b>IUPnPDescriptionDocumentCallback</b> interface. If this interface is not supported, the 
 <b>LoadAsync</b> method then queries <i>pUnkCallback</i> for the <b>IDispatch</b> interface. If the <b>IDispatch</b> interface is not supported, both checks have failed and the 
 <b>LoadAsync</b> method returns E_FAIL.
 
-The callback based on <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> for the 
-<b>LoadAsync</b> method works as a script function that takes one parameter. This parameter is the result of the load operation. If the parameter is zero, the load succeeded, and the user can retrieve device objects from the document. If the parameter is non-zero, it describes the error. The value is the same as the error code that the <a href="https://msdn.microsoft.com/02ae8af2-44f2-4b7c-a426-f2a26c43da37">IUPnPDescriptionDocument::Load</a> method returns.
+The callback based on <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> for the 
+<b>LoadAsync</b> method works as a script function that takes one parameter. This parameter is the result of the load operation. If the parameter is zero, the load succeeded, and the user can retrieve device objects from the document. If the parameter is non-zero, it describes the error. The value is the same as the error code that the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-load">IUPnPDescriptionDocument::Load</a> method returns.
 
 In Visual Basic Scripting Edition (VBScript) development software, the second argument must be<b>GetRef</b>(<i>funcname</i>), where <i>funcname</i> is the name of the callback subroutine.
 
 If this function returns S_OK, 
-<a href="https://msdn.microsoft.com/899b1aa4-597c-4434-80cc-2ea22759fbc8">IUPnPDescriptionDocumentCallback::LoadComplete</a> is invoked by the UPnP framework.
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocumentcallback-loadcomplete">IUPnPDescriptionDocumentCallback::LoadComplete</a> is invoked by the UPnP framework.
 
 
 
@@ -202,11 +202,11 @@ If this function returns S_OK,
 
 
 
-<a href="https://msdn.microsoft.com/25bd3abd-b270-4609-93bb-a786ccaa95dd">IUPnPDescriptionDocument</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdescriptiondocument">IUPnPDescriptionDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/02ae8af2-44f2-4b7c-a426-f2a26c43da37">IUPnPDescriptionDocument::Load</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-load">IUPnPDescriptionDocument::Load</a>
  
 
  

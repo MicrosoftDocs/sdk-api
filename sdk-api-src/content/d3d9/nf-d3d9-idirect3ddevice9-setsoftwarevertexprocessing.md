@@ -60,7 +60,7 @@ Use this method to switch between software and hardware vertex processing.
 
 ### -param bSoftware [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> to specify software vertex processing; <b>FALSE</b> to specify hardware vertex processing.
 
@@ -69,7 +69,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 
@@ -80,7 +80,7 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-The restrictions for changing modes are as follows (also refer to the notes on the <a href="https://msdn.microsoft.com/en-us/library/Bb172527(v=VS.85).aspx">D3DCREATE</a> constants):
+The restrictions for changing modes are as follows (also refer to the notes on the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dcreate">D3DCREATE</a> constants):
 
 <ul>
 <li>If a device is created with D3DCREATE_SOFTWARE_VERTEXPROCESSING, the vertex processing will be done in software and cannot be changed.</li>
@@ -99,11 +99,11 @@ In Direct3D 9, use <b>SetSoftwareVertexProcessing</b> instead. This new API is n
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174408(v=VS.85).aspx">IDirect3DDevice9::GetSoftwareVertexProcessing</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getsoftwarevertexprocessing">IDirect3DDevice9::GetSoftwareVertexProcessing</a>
  
 
  

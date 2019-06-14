@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[CStdStubBuffer_Disconnect is not supported and may be altered or unavailable in the future.]
 
-The <b>CStdStubBuffer_Disconnect</b> function implements  the <a href="https://msdn.microsoft.com/da0ecd2b-a445-4ecb-a003-ef07fa1d0458">IRpcStubBuffer::Disconnect</a> method and disconnects the server object from the stub.
+The <b>CStdStubBuffer_Disconnect</b> function implements  the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-disconnect">IRpcStubBuffer::Disconnect</a> method and disconnects the server object from the stub.
 
 
 ## -parameters

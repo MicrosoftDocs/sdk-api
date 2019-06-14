@@ -54,7 +54,7 @@ Represents a single color and location within a gradient.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMGradientStop</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IXpsOMGradientStop</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMGradientStop</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsOMGradientStop</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IXpsOMGradientStop</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ea4cdf1d-bb65-4a1b-b5bc-3eb1e90929ff">Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgradientstop-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Makes a deep copy of the <b>IXpsOMGradientStop</b> interface.
@@ -79,7 +79,7 @@ Makes a deep copy of the <b>IXpsOMGradientStop</b> interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6630d58f-d0f0-4b39-a14c-d3955f0f401a">GetColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgradientstop-getcolor">GetColor</a>
 </td>
 <td align="left" width="63%">
 Gets the color value and color profile of the gradient stop.
@@ -88,7 +88,7 @@ Gets the color value and color profile of the gradient stop.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/14048707-1a73-40a1-9094-da4885d9934d">GetOffset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgradientstop-getoffset">GetOffset</a>
 </td>
 <td align="left" width="63%">
 Gets the offset value of the gradient stop.
@@ -97,17 +97,17 @@ Gets the offset value of the gradient stop.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a590e461-bf86-4379-b29a-ecdba57bd3f8">GetOwner</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgradientstop-getowner">GetOwner</a>
 </td>
 <td align="left" width="63%">
-Gets a pointer to the <a href="https://msdn.microsoft.com/d381b813-5368-4ffe-a9a1-0f5027ae9d80">IXpsOMGradientBrush</a> interface that contains the gradient stop.
+Gets a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientbrush">IXpsOMGradientBrush</a> interface that contains the gradient stop.
             
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/535b14f3-6d17-4c3c-b310-b018922d48e8">SetColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgradientstop-setcolor">SetColor</a>
 </td>
 <td align="left" width="63%">
 Sets the color value and color profile of the gradient stop.
@@ -116,7 +116,7 @@ Sets the color value and color profile of the gradient stop.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8c1932b0-386b-4779-a4e4-e239e42e1d16">SetOffset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgradientstop-setoffset">SetOffset</a>
 </td>
 <td align="left" width="63%">
 Sets the offset location of the gradient stop.
@@ -201,15 +201,15 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/d381b813-5368-4ffe-a9a1-0f5027ae9d80">IXpsOMGradientBrush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientbrush">IXpsOMGradientBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/c9217444-fc9d-4b1e-abb2-7e1badd32052">IXpsOMObjectFactory::CreateGradientStop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-creategradientstop">IXpsOMObjectFactory::CreateGradientStop</a>
 
 
 
-<a href="https://msdn.microsoft.com/8d72ff28-6dfb-4fa8-a1b6-14b054aa7eb5">Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316980(v=vs.85)">Interfaces</a>
 
 
 

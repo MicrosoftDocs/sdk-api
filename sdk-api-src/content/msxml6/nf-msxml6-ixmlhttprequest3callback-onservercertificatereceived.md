@@ -74,7 +74,7 @@ The number of elements in the <i>rgServerCertChain</i> parameter.
 
 ### -param rgServerCertificateChain [in]
 
-An array of <a href="https://msdn.microsoft.com/0BBA4BDA-9A63-44A6-9B90-33B3EAE253C1">XHR_CERT</a> structures that represent the server certificate chain.
+An array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/ns-msxml6-tagxhr_cert">XHR_CERT</a> structures that represent the server certificate chain.
 
 
 ## -returns
@@ -100,23 +100,23 @@ Returns <b>S_OK</b> on success.
 
 
 
-<a href="https://msdn.microsoft.com/66af3f84-585c-441e-b9be-4ec188d72a19">IXMLHTTPRequest3</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest3">IXMLHTTPRequest3</a>
 
 
 
-<a href="https://msdn.microsoft.com/f745669a-a594-457d-ae6b-952a55576bae">IXMLHTTPRequest3Callback</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest3callback">IXMLHTTPRequest3Callback</a>
 
 
 
-<a href="https://msdn.microsoft.com/4BBA4E21-29ED-413D-90D6-161D31CC13C9">SetProperty</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-setproperty">SetProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/0BBA4BDA-9A63-44A6-9B90-33B3EAE253C1">XHR_CERT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/ns-msxml6-tagxhr_cert">XHR_CERT</a>
 
 
 
-<a href="https://msdn.microsoft.com/fb7ddd8a-aa00-4ca8-9516-f16e2b8df7b4">XHR_CERT_ERROR_FLAG</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/ne-msxml6-_xhr_cert_error_flag">XHR_CERT_ERROR_FLAG</a>
  
 
  

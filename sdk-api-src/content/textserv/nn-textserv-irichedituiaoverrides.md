@@ -54,7 +54,7 @@ Enables the host  container of a windowless rich edit control to override the co
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRicheditUiaOverrides</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IRicheditUiaOverrides</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRicheditUiaOverrides</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRicheditUiaOverrides</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IRicheditUiaOverrides</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C949A3DA-F98E-4035-8986-A76EB8F54558">GetPropertyOverrideValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-irichedituiaoverrides-getpropertyoverridevalue">GetPropertyOverrideValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the host container's override value for the specified UI Automation accessibility property of a windowless rich edit control.
@@ -84,11 +84,11 @@ Retrieves the host container's override value for the specified UI Automation ac
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh768428(v=VS.85).aspx">IRichEditUiaInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nn-textserv-irichedituiainformation">IRichEditUiaInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/E58E9577-4004-4627-A0D6-CF8166C0C43F">IRicheditWindowlessAccessibility</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nn-textserv-iricheditwindowlessaccessibility">IRicheditWindowlessAccessibility</a>
  
 
  

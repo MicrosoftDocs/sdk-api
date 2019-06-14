@@ -71,7 +71,7 @@ The D2D1_EDGEDETECTION_PROP_BLUR_RADIUS property is a float value specifying the
 
 ### -field D2D1_EDGEDETECTION_PROP_MODE
 
-The D2D1_EDGEDETECTION_PROP_MODE property is a <a href="https://msdn.microsoft.com/22C57518-8617-44F3-BC04-42605A77985C">D2D1_EDGEDETECTION_MODE</a> enumeration value which mode to use for edge detection.  
+The D2D1_EDGEDETECTION_PROP_MODE property is a <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_edgedetection_mode">D2D1_EDGEDETECTION_MODE</a> enumeration value which mode to use for edge detection.  
           The default value is D2D1_EDGEDETECTION_MODE_SOBEL.
 
 
@@ -84,9 +84,9 @@ The D2D1_EDGEDETECTION_PROP_OVERLAY_EDGES property is a boolean value. Edge dete
 
 ### -field D2D1_EDGEDETECTION_PROP_ALPHA_MODE
 
-The D2D1_EDGEDETECTION_PROP_ALPHA_MODE property is a <a href="https://msdn.microsoft.com/f1b1e735-2e89-4dc1-9fee-dfb4626ef453">D2D1_ALPHA_MODE</a> enumeration value indicating the alpha mode of the input file.
+The D2D1_EDGEDETECTION_PROP_ALPHA_MODE property is a <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode">D2D1_ALPHA_MODE</a> enumeration value indicating the alpha mode of the input file.
           If the input is not opaque, this value is used to determine whether to unpremultiply the inputs.
-          See the About Alpha Modes section of the <a href="https://msdn.microsoft.com/09b1f9c6-1780-4733-ac22-9e8c21466b67">Supported Pixel Formats and Alpha Modes</a> topic for additional information.   
+          See the About Alpha Modes section of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/supported-pixel-formats-and-alpha-modes">Supported Pixel Formats and Alpha Modes</a> topic for additional information.   
           
           The default value is D2D1_ALPHA_MODE_PREMULTIPLIED.
 

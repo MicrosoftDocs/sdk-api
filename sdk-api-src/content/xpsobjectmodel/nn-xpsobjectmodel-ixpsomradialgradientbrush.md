@@ -54,7 +54,7 @@ Specifies a radial gradient.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMRadialGradientBrush</b> interface inherits from <a href="https://msdn.microsoft.com/d381b813-5368-4ffe-a9a1-0f5027ae9d80">IXpsOMGradientBrush</a>. <b>IXpsOMRadialGradientBrush</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMRadialGradientBrush</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientbrush">IXpsOMGradientBrush</a>. <b>IXpsOMRadialGradientBrush</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IXpsOMRadialGradientBrush</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/be715ef5-9d75-464d-ab72-da2a4047d1e5">Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomradialgradientbrush-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Makes a deep copy of the interface. 
@@ -78,7 +78,7 @@ Makes a deep copy of the interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/92ce3433-6c3d-4759-81f8-055fdcc58dcf">GetCenter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomradialgradientbrush-getcenter">GetCenter</a>
 </td>
 <td align="left" width="63%">
 Gets the center point of the radial gradient region ellipse.
@@ -87,7 +87,7 @@ Gets the center point of the radial gradient region ellipse.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/44e55c42-a18b-45dd-aa92-b9336eedd9ad">GetGradientOrigin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomradialgradientbrush-getgradientorigin">GetGradientOrigin</a>
 </td>
 <td align="left" width="63%">
 Gets the origin point of the radial gradient.
@@ -96,7 +96,7 @@ Gets the origin point of the radial gradient.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c57c125b-7a21-4b94-b4c3-1aa34d615a12">GetRadiiSizes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomradialgradientbrush-getradiisizes">GetRadiiSizes</a>
 </td>
 <td align="left" width="63%">
 Gets the sizes of the radii that define the ellipse of the radial gradient region.
@@ -105,7 +105,7 @@ Gets the sizes of the radii that define the ellipse of the radial gradient regio
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7f1fd304-8495-40b3-b11f-7af9924150eb">SetCenter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomradialgradientbrush-setcenter">SetCenter</a>
 </td>
 <td align="left" width="63%">
 Sets the center point of the radial gradient region ellipse.
@@ -114,7 +114,7 @@ Sets the center point of the radial gradient region ellipse.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/101bebbf-854c-49fa-bc5c-8c81c5d2f7f9">SetGradientOrigin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomradialgradientbrush-setgradientorigin">SetGradientOrigin</a>
 </td>
 <td align="left" width="63%">
 Sets the origin point of the radial gradient.
@@ -123,7 +123,7 @@ Sets the origin point of the radial gradient.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2d32c0a7-1069-4c76-ba5c-5978e3fd7125">SetRadiiSizes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomradialgradientbrush-setradiisizes">SetRadiiSizes</a>
 </td>
 <td align="left" width="63%">
 Sets the sizes of the radii that define ellipse of the radial gradient region.
@@ -197,19 +197,19 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/d381b813-5368-4ffe-a9a1-0f5027ae9d80">IXpsOMGradientBrush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientbrush">IXpsOMGradientBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/739bf088-0f09-47c1-9b49-6c279395f15b">IXpsOMLinearGradientBrush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomlineargradientbrush">IXpsOMLinearGradientBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/b91c9490-1995-48cb-a313-ef83f00b9c50">IXpsOMObjectFactory::CreateRadialGradientBrush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-createradialgradientbrush">IXpsOMObjectFactory::CreateRadialGradientBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/8d72ff28-6dfb-4fa8-a1b6-14b054aa7eb5">Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316980(v=vs.85)">Interfaces</a>
 
 
 

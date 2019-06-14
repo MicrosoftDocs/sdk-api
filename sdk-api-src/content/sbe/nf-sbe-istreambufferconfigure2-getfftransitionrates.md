@@ -99,7 +99,7 @@ The method succeeded.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/c6e7b27a-b217-4430-adf7-c7ebc7e17bf6">IStreamBufferConfigure2::SetFFTransitionRates</a>.
+For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure2-setfftransitionrates">IStreamBufferConfigure2::SetFFTransitionRates</a>.
 
 
 
@@ -109,7 +109,7 @@ For more information, see <a href="https://msdn.microsoft.com/c6e7b27a-b217-4430
 
 
 
-<a href="https://msdn.microsoft.com/df71783c-1ff3-46b0-bae2-61d12f4d70d0">IStreamBufferConfigure2 Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferconfigure2">IStreamBufferConfigure2 Interface</a>
  
 
  

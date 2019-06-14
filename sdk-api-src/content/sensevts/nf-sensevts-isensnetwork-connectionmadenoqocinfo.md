@@ -103,7 +103,7 @@ Method returned successfully.
 SENS calls this method to notify your application that the specified connection has been established when Quality of Connection information is not available.
 
 Filtering can be performed on the publisher property <i>ulConnectionMadeTypeNoQOC</i> by setting it to either CONNECTION_LAN or CONNECTION_WAN or both. Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms685465(v=VS.85).aspx">IEventSubscription::PutPublisherProperty</a> to set the publisher property.
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-putpublisherproperty">IEventSubscription::PutPublisherProperty</a> to set the publisher property.
 
 
 
@@ -113,23 +113,23 @@ Filtering can be performed on the publisher property <i>ulConnectionMadeTypeNoQO
 
 
 
-<a href="https://msdn.microsoft.com/f313588f-6257-4a0d-b95a-aabc0bc64b53">About System Event Notification Service</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sens/about-system-event-notification-service">About System Event Notification Service</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686510(v=VS.85).aspx">IEventSubscription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685465(v=VS.85).aspx">IEventSubscription::PutPublisherProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-putpublisherproperty">IEventSubscription::PutPublisherProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/1cea5dff-13ea-4afb-84ac-7b8df4f55fc8">ISensNetwork</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nn-sensevts-isensnetwork">ISensNetwork</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b067a6f-ba4c-4914-aa5b-e0fd7690e75c">ISensNetwork::ConnectionMade</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isensnetwork-connectionmade">ISensNetwork::ConnectionMade</a>
  
 
  

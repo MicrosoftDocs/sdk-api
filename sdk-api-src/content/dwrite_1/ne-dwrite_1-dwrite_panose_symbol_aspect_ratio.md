@@ -112,7 +112,7 @@ Very narrow symbolic characters.
 
 
 
-<a href="https://msdn.microsoft.com/B65B4C8E-1CA0-47AC-AA3F-8F2EACC5C11A">DWRITE_PANOSE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ns-dwrite_1-dwrite_panose">DWRITE_PANOSE</a>
  
 
  

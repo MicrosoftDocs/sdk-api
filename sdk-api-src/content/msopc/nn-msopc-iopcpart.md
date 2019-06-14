@@ -54,7 +54,7 @@ Represents a part that contains data and is not a Relationships part.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOpcPart</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IOpcPart</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOpcPart</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOpcPart</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IOpcPart</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/aee8e3a2-3fac-40da-bea2-1fd4e2224c81">GetCompressionOptions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcpart-getcompressionoptions">GetCompressionOptions</a>
 </td>
 <td align="left" width="63%">
 Gets a value that describes the way part content is compressed.
@@ -78,7 +78,7 @@ Gets a value that describes the way part content is compressed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b40e3df2-e717-465d-8893-511e4776d80d">GetContentStream</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcpart-getcontentstream">GetContentStream</a>
 </td>
 <td align="left" width="63%">
 Gets a stream that provides read/write access to  part content.
@@ -87,7 +87,7 @@ Gets a stream that provides read/write access to  part content.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fe0d6ba3-8c62-4269-86ff-669609529933">GetContentType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcpart-getcontenttype">GetContentType</a>
 </td>
 <td align="left" width="63%">
 Gets the media  type of part content.
@@ -96,7 +96,7 @@ Gets the media  type of part content.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/83fed005-c061-4f1d-8b2b-73397e0b7a92">GetName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcpart-getname">GetName</a>
 </td>
 <td align="left" width="63%">
 Gets a part URI object that represents the part name.
@@ -105,7 +105,7 @@ Gets a part URI object that represents the part name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a8a8ce1f-3420-457f-b02a-5dc3e9725a02">GetRelationshipSet</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcpart-getrelationshipset">GetRelationshipSet</a>
 </td>
 <td align="left" width="63%">
 Gets a relationship set object that represents the Relationships part that stores relationships that have the part as their source.
@@ -119,7 +119,7 @@ Gets a relationship set object that represents the Relationships part that store
 
 
 
-To create a part object to represent a part, call the <a href="https://msdn.microsoft.com/8c5de7ac-f51c-42f2-9068-8e9ede86ad97">IOpcPartSet::CreatePart</a> method. To get a pointer to the interface of a part object that represents an existing part, call the <a href="https://msdn.microsoft.com/3a44725b-23a0-4338-b618-c0ce4ecde204">IOpcPartSet::GetPart</a> or  <a href="https://msdn.microsoft.com/54759fcb-858f-434c-92e9-6164f3d972fb">IOpcPartEnumerator::GetCurrent</a> method.
+To create a part object to represent a part, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcpartset-createpart">IOpcPartSet::CreatePart</a> method. To get a pointer to the interface of a part object that represents an existing part, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcpartset-getpart">IOpcPartSet::GetPart</a> or  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcpartenumerator-getcurrent">IOpcPartEnumerator::GetCurrent</a> method.
 
 A Relationships part cannot be represented by an implementation of the <b>IOpcPart</b> interface.
 
@@ -133,7 +133,7 @@ Methods of an <b>IOpcPart</b> interface provide access to part information throu
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/aee8e3a2-3fac-40da-bea2-1fd4e2224c81">GetCompressionOptions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcpart-getcompressionoptions">GetCompressionOptions</a>
 </td>
 <td>Compression </td>
 <td>
@@ -143,7 +143,7 @@ The compression option to be used on part content.
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/b40e3df2-e717-465d-8893-511e4776d80d">GetContentStream</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcpart-getcontentstream">GetContentStream</a>
 </td>
 <td>Content</td>
 <td>
@@ -153,7 +153,7 @@ The stream of bytes that makes up the part as described in the <i>ECMA-376 OpenX
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/fe0d6ba3-8c62-4269-86ff-669609529933">GetContentType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcpart-getcontenttype">GetContentType</a>
 </td>
 <td>Content type</td>
 <td>
@@ -163,7 +163,7 @@ The media type of the part content, as specified by the package designer in comp
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/83fed005-c061-4f1d-8b2b-73397e0b7a92">GetName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcpart-getname">GetName</a>
 </td>
 <td>Name</td>
 <td>
@@ -174,14 +174,14 @@ The URI of the part in the package.
 </table>
  
 
-For more information about parts, see the <a href="https://msdn.microsoft.com/115430f2-8e1f-46ba-ae6e-b7f3689048ff">Open Packaging Conventions Fundamentals</a> and the <i>OPC</i>.
+For more information about parts, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/open-packaging-conventions-overview">Open Packaging Conventions Fundamentals</a> and the <i>OPC</i>.
 
 
 #### Thread Safety
 
 Packaging objects are not thread-safe.
 
-For more information, see the <a href="https://msdn.microsoft.com/ef392c88-49cd-4ffa-b1fb-1501c6448264">Getting Started with the Packaging API</a>.
+For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
 
 
@@ -191,7 +191,7 @@ For more information, see the <a href="https://msdn.microsoft.com/ef392c88-49cd-
 
 
 
-<a href="https://msdn.microsoft.com/62069595-0d1e-44e5-b68d-2bb0c355c565">Core Packaging Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
 
 
 
@@ -203,23 +203,23 @@ For more information, see the <a href="https://msdn.microsoft.com/ef392c88-49cd-
 
 
 
-<a href="https://msdn.microsoft.com/ef392c88-49cd-4ffa-b1fb-1501c6448264">Getting Started with the Packaging API</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
 
 
 
-<a href="https://msdn.microsoft.com/f34c682f-7677-4d20-bd37-b1a68293d85c">IOpcPartSet</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcpartset">IOpcPartSet</a>
 
 
 
-<a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/bc821e84-fd18-449c-89d0-a261f43f8971">OPC_COMPRESSION_OPTIONS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/ne-msopc-__midl___midl_itf_msopc_0000_0002_0002">OPC_COMPRESSION_OPTIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/115430f2-8e1f-46ba-ae6e-b7f3689048ff">Open Packaging Conventions Fundamentals</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/open-packaging-conventions-overview">Open Packaging Conventions Fundamentals</a>
 
 
 
@@ -227,15 +227,15 @@ For more information, see the <a href="https://msdn.microsoft.com/ef392c88-49cd-
 
 
 
-<a href="https://msdn.microsoft.com/7ab1cc09-ce81-4f56-8adf-d8c95bf2c4cd">Packaging API Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-reference">Packaging API Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/885137be-35d5-4ec5-bbcc-16c95adf55ab">Packaging API Samples</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-samples">Packaging API Samples</a>
 
 
 
-<a href="https://msdn.microsoft.com/95da581d-3d30-4cd7-bd20-f44bf505ac0a">Parts Overview</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/parts-overview">Parts Overview</a>
 
 
 

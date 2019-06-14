@@ -69,13 +69,13 @@ Server binding handle to which authentication and authorization information is t
 
 Pointer to the expected principal name of the server referenced by <i>Binding</i>. The content of the name and its syntax are defined by the authentication service in use. 
 
-<div class="alert"><b>Note</b>  For the set of allowable target names for SSPs, please refer to the comments in the <a href="https://msdn.microsoft.com/21d965d4-3c03-4e29-a70d-4538c5c366b0">InitializeSecurityContext</a> documentation.</div>
+<div class="alert"><b>Note</b>  For the set of allowable target names for SSPs, please refer to the comments in the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext</a> documentation.</div>
 <div> </div>
 
 ### -param AuthnLevel
 
 Level of authentication to be performed on remote procedure calls made using <i>Binding</i>. For a list of the RPC-supported authentication levels, see the list of 
-<a href="https://msdn.microsoft.com/b8bb2517-e1a0-4607-a672-259f8686fc3e">Authentication-Level Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/authentication-level-constants">Authentication-Level Constants</a>.
 
 
 ### -param AuthnSvc
@@ -93,7 +93,7 @@ If RPC_C_AUTHN_DEFAULT is specified, the RPC run-time library uses the RPC_C_AUT
 ### -param AuthIdentity
 
 Handle to the structure containing the client's authentication and authorization credentials appropriate for the selected authentication and authorization service.When using the RPC_C_AUTHN_WINNT authentication service <i>AuthIdentity</i> should be a pointer to a 
-<a href="https://msdn.microsoft.com/829dee24-aeeb-4191-b5fc-85970725f064">SEC_WINNT_AUTH_IDENTITY</a> structure (defined in Rpcdce.h). Kerberos and Negotiate authentication services also use the 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure (defined in Rpcdce.h). Kerberos and Negotiate authentication services also use the 
 <b>SEC_WINNT_AUTH_IDENTITY</b> structure. 
 
 
@@ -114,7 +114,7 @@ Authorization service implemented by the server for the interface of interest. S
 The validity and trustworthiness of authorization data, like any application data, depends on the authentication service and authentication level selected. This parameter is ignored when using the RPC_C_AUTHN_WINNT authentication service.
 
 <div class="alert"><b>Note</b>  For more information, see 
-<a href="https://msdn.microsoft.com/ac95276f-230d-4993-92fe-1739d022c8b3">Authentication-Service Constants</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/authentication-service-constants">Authentication-Service Constants</a>.</div>
 <div> </div>
 
 ## -returns
@@ -174,7 +174,7 @@ Unknown authentication service.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -188,14 +188,14 @@ A client application calls the
 
 Unless a client calls 
 <b>RpcBindingSetAuthInfo</b>, no remote procedure calls on the <i>Binding</i> binding handle are authenticated. A server can call 
-<a href="https://msdn.microsoft.com/2834a6a8-8bd6-4829-84ea-e3f35c917ab7">RpcBindingInqAuthClient</a> from within a remote procedure call to determine whether that call has been authenticated.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindinginqauthclient">RpcBindingInqAuthClient</a> from within a remote procedure call to determine whether that call has been authenticated.
 
 The 
 <b>RpcBindingSetAuthInfo</b> function takes a snapshot of the credentials. Therefore, the memory dedicated to the <i>AuthIdentity</i> parameter can be freed before the binding handle.
 
 Due to varying requirements of different versions of Microsoft RPC, Microsoft recommends that your application maintain a pointer to the <i>AuthIdentity</i> parameter for as long as the binding handle exists. Doing so increases the application's portability.
 
-<b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>For Windows XP SP2 and Windows Server 2003 SP1, the pointer to the <i>AuthIdentity</i> parameter need not be maintained for the life of the binding handle. This pointer must only be maintained if subsequent calls to <a href="https://msdn.microsoft.com/becb2c58-bfc7-47a7-ad2f-947ecf7bba2b">RpcBindingInqAuthInfo</a> or <a href="https://msdn.microsoft.com/e75f5ba6-7a1c-4069-8810-05aa38a47e9c">RpcBindingInqAuthInfoEx</a> are made.
+<b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>For Windows XP SP2 and Windows Server 2003 SP1, the pointer to the <i>AuthIdentity</i> parameter need not be maintained for the life of the binding handle. This pointer must only be maintained if subsequent calls to <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindinginqauthinfo">RpcBindingInqAuthInfo</a> or <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindinginqauthinfoexa">RpcBindingInqAuthInfoEx</a> are made.
 
 <div class="alert"><b>Note</b>  The <b>RpcBindingSetAuthInfo</b> function must not be called on a binding handle while an RPC call on the same handle is in progress. Doing so produces undefined results.</div>
 <div> </div>
@@ -207,20 +207,20 @@ Due to varying requirements of different versions of Microsoft RPC, Microsoft re
 
 
 
-<a href="https://msdn.microsoft.com/0f4d45c4-7457-4449-8736-e141a95f6930">MSMQ Security
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/msmq-security-services">MSMQ Security
 		  Services</a>
 
 
 
-<a href="https://msdn.microsoft.com/becb2c58-bfc7-47a7-ad2f-947ecf7bba2b">RpcBindingInqAuthInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindinginqauthinfo">RpcBindingInqAuthInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/bc721fb0-2271-4658-995b-a41e8eefc5d5">RpcBindingSetOption</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetoption">RpcBindingSetOption</a>
 
 
 
-<a href="https://msdn.microsoft.com/b7a7b57e-540b-460b-9eec-6246cc1fd9d3">RpcServerRegisterAuthInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterauthinfo">RpcServerRegisterAuthInfo</a>
  
 
  

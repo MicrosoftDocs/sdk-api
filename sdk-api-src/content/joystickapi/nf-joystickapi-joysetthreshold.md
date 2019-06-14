@@ -115,7 +115,7 @@ The specified joystick device identifier <i>uJoyID</i> is invalid.
 
 
 
-The movement threshold is the distance the joystick must be moved before a joystick position-change message (<a href="https://msdn.microsoft.com/317ac0b2-f873-413d-b071-47d840229643">MM_JOY1MOVE</a>, <a href="https://msdn.microsoft.com/25d98963-03e6-4276-a132-256e8bbfa73b">MM_JOY1ZMOVE</a>, <a href="https://msdn.microsoft.com/8dc1c092-3947-43d5-8504-a4e4e121fbcb">MM_JOY2MOVE</a>, or <a href="https://msdn.microsoft.com/f09a1a11-8c97-4a03-a388-8bf9ab89a3db">MM_JOY2ZMOVE</a>) is sent to a window that has captured the device. The threshold is initially zero.
+The movement threshold is the distance the joystick must be moved before a joystick position-change message (<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-joy1move">MM_JOY1MOVE</a>, <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-joy1zmove">MM_JOY1ZMOVE</a>, <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-joy2move">MM_JOY2MOVE</a>, or <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-joy2zmove">MM_JOY2ZMOVE</a>) is sent to a window that has captured the device. The threshold is initially zero.
 
 
 
@@ -125,11 +125,11 @@ The movement threshold is the distance the joystick must be moved before a joyst
 
 
 
-<a href="https://msdn.microsoft.com/29fe25c8-51ea-4dc1-9f98-1c10d23b7b2a">Joysticks</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/joysticks">Joysticks</a>
 
 
 
-<a href="https://msdn.microsoft.com/84e47ac3-b40f-48bc-8f59-cc678d7d521e">Multimedia Joystick Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/multimedia-joystick-functions">Multimedia Joystick Functions</a>
  
 
  

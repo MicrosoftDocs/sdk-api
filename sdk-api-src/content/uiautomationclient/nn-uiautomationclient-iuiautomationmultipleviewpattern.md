@@ -54,7 +54,7 @@ Provides access to a control that  can switch between multiple representations o
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationMultipleViewPattern</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUIAutomationMultipleViewPattern</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationMultipleViewPattern</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationMultipleViewPattern</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IUIAutomationMultipleViewPattern</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7d6874c2-adf9-441a-931e-15b65b7a427c">GetCachedSupportedViews</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationmultipleviewpattern-getcachedsupportedviews">GetCachedSupportedViews</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of control-specific view identifiers from the cache.
@@ -79,7 +79,7 @@ Retrieves a collection of control-specific view identifiers from the cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9380797a-b546-4e36-9403-d34cea672ace">GetCurrentSupportedViews</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationmultipleviewpattern-getcurrentsupportedviews">GetCurrentSupportedViews</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of control-specific view identifiers.
@@ -88,7 +88,7 @@ Retrieves a collection of control-specific view identifiers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cad994dc-ee7c-41a3-a878-75a79225b5f8">GetViewName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationmultipleviewpattern-getviewname">GetViewName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of a control-specific view.
@@ -97,7 +97,7 @@ Retrieves the name of a control-specific view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/43da5f4a-e6ce-4cc3-8981-85189d5e5158">SetCurrentView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationmultipleviewpattern-setcurrentview">SetCurrentView</a>
 </td>
 <td align="left" width="63%">
 Sets the view of the control.
@@ -115,7 +115,7 @@ Sets the view of the control.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/e2426af9-a704-4561-a9f7-ac47aec13f87">CachedCurrentView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationmultipleviewpattern-get_cachedcurrentview">CachedCurrentView</a>
 
 
 </td>
@@ -131,7 +131,7 @@ Retrieves the cached control-specific identifier of the current view of the cont
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/87cda32c-00ed-40d9-8123-f3cf78eff43f">CurrentCurrentView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationmultipleviewpattern-get_currentcurrentview">CurrentCurrentView</a>
 
 
 </td>
@@ -152,7 +152,7 @@ Retrieves the control-specific identifier of the current view of the control.
 
 
 
-<a href="https://msdn.microsoft.com/14358ef0-aa54-42c1-a3da-0f835f5f5ef6">Control Pattern Interfaces for Clients</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>
  
 
  

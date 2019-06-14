@@ -83,7 +83,7 @@ A type that has virtual and pure functions.
 
 ### -field TKIND_DISPATCH
 
-A set of methods and properties that are accessible through <a href="https://msdn.microsoft.com/964ade8e-9d8a-4d32-bd47-aa678912a54d">IDispatch::Invoke</a>. By default, dual interfaces return TKIND_DISPATCH.
+A set of methods and properties that are accessible through <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">IDispatch::Invoke</a>. By default, dual interfaces return TKIND_DISPATCH.
 
 
 

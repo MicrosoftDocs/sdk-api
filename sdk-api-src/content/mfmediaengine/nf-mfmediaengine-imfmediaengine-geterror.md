@@ -59,7 +59,7 @@ Gets the most recent error status.
 
 ### -param ppError [out]
 
-Receives either a pointer to the <a href="https://msdn.microsoft.com/08F161FE-C0E5-44EE-923E-646ADA534C42">IMFMediaError</a> interface, or the value <b>NULL</b>. If the value is <b>non-NULL</b>, the caller must release the interface.
+Receives either a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaerror">IMFMediaError</a> interface, or the value <b>NULL</b>. If the value is <b>non-NULL</b>, the caller must release the interface.
 
 
 ## -returns
@@ -87,7 +87,7 @@ This method corresponds to the <b>error</b> attribute of the <b>HTMLMediaElement
 
 
 
-<a href="https://msdn.microsoft.com/A0023F18-2D28-4F0D-9B00-B8FB11567034">IMFMediaEngine</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a new <a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).aspx">Size</a> object and initializes the members to zero. This is the default constructor.
+Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a> object and initializes the members to zero. This is the default constructor.
 
 
 ## -parameters
@@ -65,11 +65,11 @@ Creates a new <a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).aspx">Size</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534747(v=VS.85).aspx">Size Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-class-size-constructors">Size Constructors</a>
  
 
  

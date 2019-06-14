@@ -73,15 +73,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/922562be-4d5b-45b6-ad0b-49176f893c8e">Customizing the Math Input Control</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/customizing-the-math-input-control">Customizing the Math Input Control</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d6a6289-7be5-4cf0-8cb7-9095c4ee7149">IMathInputControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/d45d1e73-eace-4611-a4a4-28706a19766c">Show</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-show">Show</a>
  
 
  

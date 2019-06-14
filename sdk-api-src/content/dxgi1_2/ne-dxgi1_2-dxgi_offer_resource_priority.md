@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifies the importance of a resource’s content when you call the  <a href="https://msdn.microsoft.com/E642DDD5-17FE-4BB9-823F-1DA51C281253">IDXGIDevice2::OfferResources</a> method to offer the resource.
+Identifies the importance of a resource’s content when you call the  <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgidevice2-offerresources">IDXGIDevice2::OfferResources</a> method to offer the resource.
         
 
 
@@ -87,15 +87,15 @@ Priority determines how likely the operating system is to discard an offered res
 
 
 
-<a href="https://msdn.microsoft.com/c4574c89-dee2-4841-9318-5383cf417111">DXGI Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-enums">DXGI Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/E642DDD5-17FE-4BB9-823F-1DA51C281253">IDXGIDevice2::OfferResources</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgidevice2-offerresources">IDXGIDevice2::OfferResources</a>
 
 
 
-<a href="https://msdn.microsoft.com/30533605-0F5A-4D15-B01E-7C23E2AE775E">IDXGIDevice2::ReclaimResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgidevice2-reclaimresources">IDXGIDevice2::ReclaimResource</a>
  
 
  

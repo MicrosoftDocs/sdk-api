@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SpInstanceInit</b> function is called once for each <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a> contained in an SSP/AP, when the SSP/AP is loaded into a client/server process. Security packages should use this function to perform any user mode-specific initialization.
+The <b>SpInstanceInit</b> function is called once for each <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> contained in an SSP/AP, when the SSP/AP is loaded into a client/server process. Security packages should use this function to perform any user mode-specific initialization.
 
 
 ## -parameters
@@ -59,13 +59,13 @@ The <b>SpInstanceInit</b> function is called once for each <a href="https://msdn
 
 ### -param Version [in]
 
-The version of the <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">Local Security Authority</a> (LSA).
+The version of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA).
 
 
 ### -param FunctionTable [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/a7881f06-792c-4791-9aa6-9a7eb202020b">SECPKG_DLL_FUNCTIONS</a> structure containing the support functions that the security package can use in user-mode.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_dll_functions">SECPKG_DLL_FUNCTIONS</a> structure containing the support functions that the security package can use in user-mode.
 
 
 ### -param *UserFunctions [out]
@@ -89,12 +89,12 @@ If the function fails, return an <b>NTSTATUS</b> code that indicates the reason 
 
 
 The <b>SpInstanceInit</b> function is called once when the SSP/AP is loaded into the user-mode process, after the 
-<a href="https://msdn.microsoft.com/e260db29-995b-4f32-b389-4ef62b3b29bc">SpUserModeInitialize</a> function is called.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a> function is called.
 
 SSP/APs must implement the <b>SpInstanceInit</b> function; however, the actual name given to the implementation is up to the developer.
 
 A pointer to the <b>SpInstanceInit</b> function is available in the 
-<a href="https://msdn.microsoft.com/2b3fc6d1-2f55-4053-9271-f5cb5c318555">SECPKG_USER_FUNCTION_TABLE</a> structure received from the <a href="https://msdn.microsoft.com/e260db29-995b-4f32-b389-4ef62b3b29bc">SpUserModeInitialize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a> structure received from the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a> function.
 
 
 
@@ -104,11 +104,11 @@ A pointer to the <b>SpInstanceInit</b> function is available in the
 
 
 
-<a href="https://msdn.microsoft.com/2b3fc6d1-2f55-4053-9271-f5cb5c318555">SECPKG_USER_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/e260db29-995b-4f32-b389-4ef62b3b29bc">SpUserModeInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a>
  
 
  

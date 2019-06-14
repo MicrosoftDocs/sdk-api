@@ -64,7 +64,7 @@ Receives the number of frames available in the endpoint buffer.
 
 ### -param pAeCurrentPosition [out]
 
-Receives information about the position of the  current frame in the endpoint buffer in an <a href="https://msdn.microsoft.com/2e239114-1af7-455a-a60f-2054b05e1414">AE_CURRENT_POSITION</a> structure specified by the caller.
+Receives information about the position of the  current frame in the endpoint buffer in an <a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/ns-audioengineendpoint-ae_current_position">AE_CURRENT_POSITION</a> structure specified by the caller.
 
 
 ## -returns
@@ -98,7 +98,7 @@ The Remote Desktop Services AudioEndpoint API is for use in Remote Desktop scena
 
 
 
-<a href="https://msdn.microsoft.com/3fb05ce4-a3be-4c84-8e03-71213f453f74">IAudioEndpointRT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioendpointrt">IAudioEndpointRT</a>
  
 
  

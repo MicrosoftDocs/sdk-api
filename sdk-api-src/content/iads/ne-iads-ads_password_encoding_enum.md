@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ADS_PASSWORD_ENCODING_ENUM</b> enumeration identifies the type of password encoding used with the <b>ADS_OPTION_PASSWORD_METHOD</b> option in the <a href="https://msdn.microsoft.com/77a994d2-81ae-4afb-be5c-be8d7159a2c2">IADsObjectOptions::GetOption</a> and <a href="https://msdn.microsoft.com/e6e43c99-fc8b-4f34-82cf-8cf30c506859">IADsObjectOptions::SetOption</a> methods.
+The <b>ADS_PASSWORD_ENCODING_ENUM</b> enumeration identifies the type of password encoding used with the <b>ADS_OPTION_PASSWORD_METHOD</b> option in the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsobjectoptions-getoption">IADsObjectOptions::GetOption</a> and <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsobjectoptions-setoption">IADsObjectOptions::SetOption</a> methods.
 
 
 ## -enum-fields
@@ -72,15 +72,15 @@ Passwords are not encoded and are transmitted in plaintext.
 
 
 
-<a href="https://msdn.microsoft.com/afb32e03-7e4e-4df9-87c7-db962d62e5f0">ADS_OPTION_ENUM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0077_0001">ADS_OPTION_ENUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/77a994d2-81ae-4afb-be5c-be8d7159a2c2">IADsObjectOptions::GetOption</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsobjectoptions-getoption">IADsObjectOptions::GetOption</a>
 
 
 
-<a href="https://msdn.microsoft.com/e6e43c99-fc8b-4f34-82cf-8cf30c506859">IADsObjectOptions::SetOption</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsobjectoptions-setoption">IADsObjectOptions::SetOption</a>
  
 
  

@@ -71,7 +71,7 @@ IPv4 address, expressed as four UCHARs.
 
 
 
-When working with IPv6 addresses, use <a href="https://msdn.microsoft.com/e21edb47-c704-415f-901b-7612e5157ab0">IN_ADDR_IPV6</a>.
+When working with IPv6 addresses, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_in_addr_ipv6">IN_ADDR_IPV6</a>.
 
 
 
@@ -81,7 +81,7 @@ When working with IPv6 addresses, use <a href="https://msdn.microsoft.com/e21edb
 
 
 
-<a href="https://msdn.microsoft.com/e21edb47-c704-415f-901b-7612e5157ab0">IN_ADDR_IPV6</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_in_addr_ipv6">IN_ADDR_IPV6</a>
  
 
  

@@ -121,13 +121,13 @@ Parameter <i>pNumFramesInNextPacket</i> is <b>NULL</b>.
 
 Use this method only with shared-mode streams. It does not work with exclusive-mode streams.
 
-Before calling the <a href="https://msdn.microsoft.com/4298f584-39ce-4138-994a-0e551370429f">IAudioCaptureClient::GetBuffer</a> method to retrieve the next data packet, the client can call <b>GetNextPacketSize</b> to retrieve the number of audio frames in the next packet. The count reported by <b>GetNextPacketSize</b> matches the count retrieved in the <b>GetBuffer</b> call (through the <i>pNumFramesToRead</i> output parameter) that follows the <b>GetNextPacketSize</b> call.
+Before calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiocaptureclient-getbuffer">IAudioCaptureClient::GetBuffer</a> method to retrieve the next data packet, the client can call <b>GetNextPacketSize</b> to retrieve the number of audio frames in the next packet. The count reported by <b>GetNextPacketSize</b> matches the count retrieved in the <b>GetBuffer</b> call (through the <i>pNumFramesToRead</i> output parameter) that follows the <b>GetNextPacketSize</b> call.
 
 A packet always consists of an integral number of audio frames.
 
-<b>GetNextPacketSize</b> must be called in the same thread as the <a href="https://msdn.microsoft.com/4298f584-39ce-4138-994a-0e551370429f">GetBuffer</a> and <a href="https://msdn.microsoft.com/38e1ea6c-d07d-4075-b6f2-d563c4bce007">IAudioCaptureClient::ReleaseBuffer</a> method calls that get and release the packets in the capture endpoint buffer.
+<b>GetNextPacketSize</b> must be called in the same thread as the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiocaptureclient-getbuffer">GetBuffer</a> and <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiocaptureclient-releasebuffer">IAudioCaptureClient::ReleaseBuffer</a> method calls that get and release the packets in the capture endpoint buffer.
 
-For a code example that uses the <b>GetNextPacketSize</b> method, see <a href="https://msdn.microsoft.com/1d9072dc-4f9b-4111-a747-5eb33ad3ae5b">Capturing a Stream</a>.
+For a code example that uses the <b>GetNextPacketSize</b> method, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/capturing-a-stream">Capturing a Stream</a>.
 
 
 
@@ -137,19 +137,19 @@ For a code example that uses the <b>GetNextPacketSize</b> method, see <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/c0fa6841-56bf-421e-9949-c6a037cf9fd4">IAudioCaptureClient Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudiocaptureclient">IAudioCaptureClient Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/4298f584-39ce-4138-994a-0e551370429f">IAudioCaptureClient::GetBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiocaptureclient-getbuffer">IAudioCaptureClient::GetBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/38e1ea6c-d07d-4075-b6f2-d563c4bce007">IAudioCaptureClient::ReleaseBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiocaptureclient-releasebuffer">IAudioCaptureClient::ReleaseBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a2c9ddf-f668-41ff-85f0-34de593c0fe2">IAudioClient::GetCurrentPadding</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getcurrentpadding">IAudioClient::GetCurrentPadding</a>
  
 
  

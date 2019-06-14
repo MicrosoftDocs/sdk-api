@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/1964b04e-7146-4d08-a08f-a85393d07592">IComTrackingInfoProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icomtrackinginfoproperties">IComTrackingInfoProperties</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the bitmap contained in an <a href="https://msdn.microsoft.com/72be7757-f969-4f4f-ada1-71789b8d1de0">ISharedBitmap</a> object, and returns a copy if the contained bitmap resides in shared memory. After calling this method the bitmap is no longer associated with this <b>ISharedBitmap</b> and you cannot call <a href="https://msdn.microsoft.com/0d2cfdba-b51f-4035-b0b2-e48933505c73">ISharedBitmap::GetSharedBitmap</a> or <b>ISharedBitmap::Detach</b> on it again.
+Retrieves the bitmap contained in an <a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/nn-thumbcache-isharedbitmap">ISharedBitmap</a> object, and returns a copy if the contained bitmap resides in shared memory. After calling this method the bitmap is no longer associated with this <b>ISharedBitmap</b> and you cannot call <a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/nf-thumbcache-isharedbitmap-getsharedbitmap">ISharedBitmap::GetSharedBitmap</a> or <b>ISharedBitmap::Detach</b> on it again.
 
 
 ## -parameters

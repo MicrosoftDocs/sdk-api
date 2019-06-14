@@ -72,7 +72,7 @@ On computers that are running Windows XP, the <b>LastDeploymentChangeTime</b> p
 
 
 
-<a href="https://msdn.microsoft.com/d0feee2a-96f6-4c86-aaf8-f49d05616fc9">IUpdate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
  
 
  

@@ -105,7 +105,7 @@ Is not read-accessible.
 
 
 
-<a href="https://msdn.microsoft.com/1b618bee-7069-410b-9a3d-65ee4b25874c">EngProbeForReadAndWrite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engprobeforreadandwrite">EngProbeForReadAndWrite</a>
  
 
  

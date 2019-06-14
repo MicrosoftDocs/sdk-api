@@ -51,13 +51,13 @@ ms.custom: 19H1
 
 The 
 <b>ITPhone</b> interface is the main interface for the new Phone objects in the TAPI 3.1 object model. This interface allows access to the phone device at a level comparable to that available with the TAPI 2.<i>x</i> C API. The interface also allows the application to determine which addresses the phone is usable on, and to get a list of terminals associated with the phone. The 
-<a href="https://msdn.microsoft.com/7ea1e851-00df-4b32-ba37-c562da983102">IEnumPhone::Next</a> and <a href="https://msdn.microsoft.com/81b61c98-839a-488b-a0da-085f8891197c">ITPhoneEvent::get_Phone</a> methods create the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ienumphone-next">IEnumPhone::Next</a> and <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphoneevent-get_phone">ITPhoneEvent::get_Phone</a> methods create the 
 <b>ITPhone</b> interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITPhone</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITPhone</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITPhone</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITPhone</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>ITPhone</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1eae1a14-dd5e-4ba9-8e6e-71e9956cb3e3">Close</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-close">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the phone device.
@@ -81,7 +81,7 @@ Closes the phone device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fba4bf7e-8c9d-4d34-ac56-aa47dff6f57c">DeviceSpecific</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-devicespecific">DeviceSpecific</a>
 </td>
 <td align="left" width="63%">
 Provides access to device-specific features. For C/C++ applications.
@@ -90,7 +90,7 @@ Provides access to device-specific features. For C/C++ applications.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/828d34e5-efac-4776-85a2-51eb94d68dac">DeviceSpecificVariant</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-devicespecificvariant">DeviceSpecificVariant</a>
 </td>
 <td align="left" width="63%">
 Provides access to device-specific features. For Visual Basic and scripting applications.
@@ -99,7 +99,7 @@ Provides access to device-specific features. For Visual Basic and scripting appl
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d72f6877-eb89-400e-a1bc-393116a9666f">EnumerateAddresses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-enumerateaddresses">EnumerateAddresses</a>
 </td>
 <td align="left" width="63%">
 Enumerates the addresses on which the phone can be used. For C/C++ applications.
@@ -108,7 +108,7 @@ Enumerates the addresses on which the phone can be used. For C/C++ applications.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7bb15dc1-c1f0-4da5-8217-baedb45b70f7">EnumeratePreferredAddresses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-enumeratepreferredaddresses">EnumeratePreferredAddresses</a>
 </td>
 <td align="left" width="63%">
 Enumerates addresses that the phone is preferred for use on. For C/C++ applications.
@@ -117,7 +117,7 @@ Enumerates addresses that the phone is preferred for use on. For C/C++ applicati
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/87c756e3-abd0-4dff-b815-ff7dd60902f7">EnumerateTerminals</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-enumerateterminals">EnumerateTerminals</a>
 </td>
 <td align="left" width="63%">
 Gets an enumeration of terminals that are associated with the phone.
@@ -126,7 +126,7 @@ Gets an enumeration of terminals that are associated with the phone.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/823db8d1-e4e3-4cfb-a864-5ad57a44ebc6">get_Addresses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_addresses">get_Addresses</a>
 </td>
 <td align="left" width="63%">
 Gets the collection of addresses on which the phone can be used. For Visual Basic and scripting applications.
@@ -135,7 +135,7 @@ Gets the collection of addresses on which the phone can be used. For Visual Basi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a884c0b4-141a-4f04-8cfb-7ae6b1ec11b3">get_ButtonFunction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_buttonfunction">get_ButtonFunction</a>
 </td>
 <td align="left" width="63%">
 Gets the button function associated with a particular button.
@@ -144,7 +144,7 @@ Gets the button function associated with a particular button.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5b3173bf-1c79-4c5d-a2bc-3b3ae4f0ae8a">get_ButtonMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_buttonmode">get_ButtonMode</a>
 </td>
 <td align="left" width="63%">
 Gets the button mode associated with a particular button.
@@ -153,7 +153,7 @@ Gets the button mode associated with a particular button.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f14e0593-0f03-4119-b80a-12d32b68aa99">get_ButtonState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_buttonstate">get_ButtonState</a>
 </td>
 <td align="left" width="63%">
 Gets the button state associated with a particular button.
@@ -162,7 +162,7 @@ Gets the button state associated with a particular button.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/75a216fb-7bb3-4178-baa5-8ba478bd5422">get_ButtonText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_buttontext">get_ButtonText</a>
 </td>
 <td align="left" width="63%">
 Gets the button text associated with a particular button.
@@ -171,7 +171,7 @@ Gets the button text associated with a particular button.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/259982d7-8c28-4c0d-81b3-e4ec49fc9765">get_Display</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_display">get_Display</a>
 </td>
 <td align="left" width="63%">
 Gets the display for the phone.
@@ -180,7 +180,7 @@ Gets the display for the phone.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4560b447-45af-482a-b97b-dd0cbdb52466">get_HookSwitchState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_hookswitchstate">get_HookSwitchState</a>
 </td>
 <td align="left" width="63%">
 Gets the current hookswitch state for a particular hookswitch device on the phone.
@@ -189,7 +189,7 @@ Gets the current hookswitch state for a particular hookswitch device on the phon
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5e0fa135-304a-4598-a6cd-2e5734b3678c">get_LampMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_lampmode">get_LampMode</a>
 </td>
 <td align="left" width="63%">
 Gets the current lamp mode for the given lamp.
@@ -198,37 +198,37 @@ Gets the current lamp mode for the given lamp.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d9397aa8-2be4-4775-8123-975bdd58a6b5">get_PhoneCapsBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_phonecapsbuffer">get_PhoneCapsBuffer</a>
 </td>
 <td align="left" width="63%">
 Gets a buffer capability/information about the phone, based on the 
-<a href="https://msdn.microsoft.com/208efd60-58b2-4d0a-b757-29b1db017195">PHONECAPS_BUFFER</a> enum passed in. For Visual Basic and scripting applications.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-phonecaps_buffer">PHONECAPS_BUFFER</a> enum passed in. For Visual Basic and scripting applications.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9d7804a7-616b-4efc-9f3b-6d7b1fda1bf6">get_PhoneCapsLong</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_phonecapslong">get_PhoneCapsLong</a>
 </td>
 <td align="left" width="63%">
 Gets a capability of the phone, based on the 
-<a href="https://msdn.microsoft.com/7a73d5ff-d08a-46e6-b4ad-4f3b973967a7">PHONECAPS_LONG</a> enum passed in.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-phonecaps_long">PHONECAPS_LONG</a> enum passed in.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e4a0ed77-455e-428c-a3e5-cd467e47b5b2">get_PhoneCapsString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_phonecapsstring">get_PhoneCapsString</a>
 </td>
 <td align="left" width="63%">
 Gets a string capability/information about the phone, based on the 
-<a href="https://msdn.microsoft.com/3ff60aa8-9a77-48a1-a60f-1e1d31653728">PHONECAPS_STRING</a> enum passed in.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-phonecaps_string">PHONECAPS_STRING</a> enum passed in.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bda43c65-a1f9-4143-b808-2a4e61220b1b">get_PreferredAddresses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_preferredaddresses">get_PreferredAddresses</a>
 </td>
 <td align="left" width="63%">
 Returns a collection of addresses that the phone is preferred for use on. For Visual Basic and scripting applications.
@@ -237,7 +237,7 @@ Returns a collection of addresses that the phone is preferred for use on. For Vi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/88103a48-a5cd-43a7-a88e-9b16313b35c2">get_Privilege</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_privilege">get_Privilege</a>
 </td>
 <td align="left" width="63%">
 Gets the privilege of the open phone.
@@ -246,7 +246,7 @@ Gets the privilege of the open phone.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/55f6a75c-dffb-46e7-8679-70c7d59ff5b4">get_RingMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_ringmode">get_RingMode</a>
 </td>
 <td align="left" width="63%">
 Gets the phone's ring mode.
@@ -255,7 +255,7 @@ Gets the phone's ring mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/147553f1-74a7-4f80-bbf3-b140d9b375ba">get_RingVolume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_ringvolume">get_RingVolume</a>
 </td>
 <td align="left" width="63%">
 Gets the phone's volume.
@@ -264,7 +264,7 @@ Gets the phone's volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/09e5921c-c7da-40fc-902a-1e22ebe19b0a">get_Terminals</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_terminals">get_Terminals</a>
 </td>
 <td align="left" width="63%">
 Gets a collection of terminals that are associated with the phone.
@@ -273,17 +273,17 @@ Gets a collection of terminals that are associated with the phone.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/239902ca-0e9e-4b8d-927d-ee46a35dd9d8">GetPhoneCapsBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-getphonecapsbuffer">GetPhoneCapsBuffer</a>
 </td>
 <td align="left" width="63%">
 Gets a buffer capability/information about the phone, based on the 
-<a href="https://msdn.microsoft.com/208efd60-58b2-4d0a-b757-29b1db017195">PHONECAPS_BUFFER</a> enum passed in. For C/C++ applications.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-phonecaps_buffer">PHONECAPS_BUFFER</a> enum passed in. For C/C++ applications.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a29311bf-0fe4-4e58-96cc-2e3734c32aee">NegotiateExtVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-negotiateextversion">NegotiateExtVersion</a>
 </td>
 <td align="left" width="63%">
 Negotiates an extension version to use with the specified phone device.
@@ -292,7 +292,7 @@ Negotiates an extension version to use with the specified phone device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d9efe2f7-3628-4e1f-b554-a6889d82a973">Open</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-open">Open</a>
 </td>
 <td align="left" width="63%">
 Opens the phone device.
@@ -301,7 +301,7 @@ Opens the phone device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8002ab8a-a15d-4a1f-b0c3-7a15c61cb6c4">put_ButtonFunction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-put_buttonfunction">put_ButtonFunction</a>
 </td>
 <td align="left" width="63%">
 Puts the button function.
@@ -310,7 +310,7 @@ Puts the button function.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d2287c86-5884-4890-956c-fcc26c426cd3">put_ButtonMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-put_buttonmode">put_ButtonMode</a>
 </td>
 <td align="left" width="63%">
 Sets the button mode.
@@ -319,7 +319,7 @@ Sets the button mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b50427e9-94cd-47bb-910f-2f879df9bcf8">put_ButtonText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-put_buttontext">put_ButtonText</a>
 </td>
 <td align="left" width="63%">
 Sets the button text.
@@ -328,7 +328,7 @@ Sets the button text.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ab0bcd30-6985-4f53-a39d-90230421b6f4">put_HookSwitchState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-put_hookswitchstate">put_HookSwitchState</a>
 </td>
 <td align="left" width="63%">
 Sets the current hookswitch state for a particular hookswitch device on the phone.
@@ -337,7 +337,7 @@ Sets the current hookswitch state for a particular hookswitch device on the phon
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0445cf2c-1b00-4136-bdab-3c6e0669ef11">put_LampMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-put_lampmode">put_LampMode</a>
 </td>
 <td align="left" width="63%">
 Sets the current lamp mode for the given lamp.
@@ -346,7 +346,7 @@ Sets the current lamp mode for the given lamp.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f693bf24-540d-4509-bf0c-01be27f823f8">put_RingMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-put_ringmode">put_RingMode</a>
 </td>
 <td align="left" width="63%">
 Sets the phone's ring mode.
@@ -355,7 +355,7 @@ Sets the phone's ring mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/858ca6a8-a53b-4858-b4b0-985230ec8ea0">put_RingVolume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-put_ringvolume">put_RingVolume</a>
 </td>
 <td align="left" width="63%">
 Sets the phone's volume.
@@ -364,7 +364,7 @@ Sets the phone's volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/690756c4-201d-472d-b536-452074226701">SetDisplay</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-setdisplay">SetDisplay</a>
 </td>
 <td align="left" width="63%">
 Sets the display for the phone.

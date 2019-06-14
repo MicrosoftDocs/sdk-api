@@ -73,19 +73,19 @@ The FilterMax generator was used to generate the parameters.
 
 
 
-<a href="https://msdn.microsoft.com/6767ab24-2bb6-48bf-8f12-794d8b22e2b7">IRdcGeneratorFilterMaxParameters</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgeneratorfiltermaxparameters">IRdcGeneratorFilterMaxParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/d9fd60d5-a542-4a00-becd-85c7dafbe105">IRdcGeneratorParameters::GetGeneratorParametersType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgeneratorparameters-getgeneratorparameterstype">IRdcGeneratorParameters::GetGeneratorParametersType</a>
 
 
 
-<a href="https://msdn.microsoft.com/a39e26bc-7493-4def-af6d-cf3620ec8a9f">IRdcLibrary::CreateGeneratorParameters</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-creategeneratorparameters">IRdcLibrary::CreateGeneratorParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/83e11884-d174-4dae-99fa-321a2b47122c">Remote Differential Compression Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdc/remote-differential-compression-enumerations">Remote Differential Compression Enumerations</a>
  
 
  

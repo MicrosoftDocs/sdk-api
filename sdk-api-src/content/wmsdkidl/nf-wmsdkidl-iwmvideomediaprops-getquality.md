@@ -109,7 +109,7 @@ The method succeeded.
 
 
 
-For more information, see the Remarks for <a href="https://msdn.microsoft.com/en-us/library/Dd798715(v=VS.85).aspx">SetQuality</a>.
+For more information, see the Remarks for <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmvideomediaprops-setquality">SetQuality</a>.
 
 
 
@@ -119,7 +119,7 @@ For more information, see the Remarks for <a href="https://msdn.microsoft.com/en
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798711(v=VS.85).aspx">IWMVideoMediaProps Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmvideomediaprops">IWMVideoMediaProps Interface</a>
  
 
  

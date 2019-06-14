@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Receives a pointer to the object of the <a href="https://msdn.microsoft.com/A2DB8313-2855-4B0E-908E-CAE71E88FEF0">IWdsTransportTftpManager</a> interface used to manage the WDS TFTP server. This property is available beginning with Windows Server 2012.
+Receives a pointer to the object of the <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransporttftpmanager">IWdsTransportTftpManager</a> interface used to manage the WDS TFTP server. This property is available beginning with Windows Server 2012.
 
 This property is read-only.
 
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/27BB5319-74F0-480A-9600-8940491FB7E0">IWdsTransportServer2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportserver2">IWdsTransportServer2</a>
  
 
  

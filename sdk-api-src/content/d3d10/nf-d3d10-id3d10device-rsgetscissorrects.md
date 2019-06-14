@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Get the array of <a href="https://msdn.microsoft.com/en-us/library/Bb205126(v=VS.85).aspx">scissor rectangles</a> bound to the <a href="https://msdn.microsoft.com/en-us/library/Bb205125(v=VS.85).aspx">rasterizer stage</a>.
+Get the array of <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-rasterizer-stage-getting-started">scissor rectangles</a> bound to the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-rasterizer-stage">rasterizer stage</a>.
 
 
 ## -parameters
@@ -60,16 +60,16 @@ Get the array of <a href="https://msdn.microsoft.com/en-us/library/Bb205126(v=VS
 
 ### -param NumRects [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
 Number of scissor rectangles to get. If pRects is <b>NULL</b>, this will be filled with the number of scissor rectangles currently bound.
 
 
 ### -param pRects [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb232915(v=VS.85).aspx">D3D10_RECT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-rect">D3D10_RECT</a>*</b>
 
-An array of scissor rectangles (see <a href="https://msdn.microsoft.com/en-us/library/Bb232915(v=VS.85).aspx">D3D10_RECT</a>). If NumRects is greater than the number of scissor rects currently bound, then unused members of the array will contain 0.
+An array of scissor rectangles (see <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-rect">D3D10_RECT</a>). If NumRects is greater than the number of scissor rects currently bound, then unused members of the array will contain 0.
 
 
 ## -returns
@@ -86,7 +86,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
  
 
  

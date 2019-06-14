@@ -166,12 +166,12 @@ If the function fails, the return value is zero.
 
 The values of the <i>dwRop</i> parameter for this function are a limited subset of the full 256 ternary raster-operation codes; in particular, an operation code that refers to a source rectangle cannot be used.
 
-Not all devices support the <b>PatBlt</b> function. For more information, see the description of the RC_BITBLT capability in the <a href="https://msdn.microsoft.com/d524c4c7-22af-495d-aecc-b9921e53ca7b">GetDeviceCaps</a> function.
+Not all devices support the <b>PatBlt</b> function. For more information, see the description of the RC_BITBLT capability in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function.
 
 
 #### Examples
 
-For an example, see "Example of Menu-Item Bitmaps" in <a href="https://msdn.microsoft.com/en-us/library/ms647558(v=VS.85).aspx">Using Menus</a>.
+For an example, see "Example of Menu-Item Bitmaps" in <a href="https://docs.microsoft.com/windows/desktop/menurc/using-menus">Using Menus</a>.
 
 <div class="code"></div>
 
@@ -182,15 +182,15 @@ For an example, see "Example of Menu-Item Bitmaps" in <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/617eb778-876c-4bbb-90da-c5f13359becb">Brush Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/brush-functions">Brush Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/b8912842-87d6-4d97-83ce-53d18cbedc74">Brushes Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/brushes">Brushes Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/d524c4c7-22af-495d-aecc-b9921e53ca7b">GetDeviceCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
  
 
  

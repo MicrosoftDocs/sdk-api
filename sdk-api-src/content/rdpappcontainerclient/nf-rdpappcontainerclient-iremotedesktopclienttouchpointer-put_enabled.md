@@ -67,7 +67,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/98c47e41-ecda-45cb-94e9-de51edc7af08">IRemoteDesktopClientTouchPointer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclienttouchpointer">IRemoteDesktopClientTouchPointer</a>
  
 
  

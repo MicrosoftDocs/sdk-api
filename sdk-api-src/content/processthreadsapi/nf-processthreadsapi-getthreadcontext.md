@@ -58,7 +58,7 @@ ms.custom: 19H1
 Retrieves the context of the specified thread.
 
 A 64-bit application can retrieve the context of a WOW64 thread using the 
-    <a href="https://msdn.microsoft.com/1bac28e1-3558-43c4-97e4-d8bb9514c38e">Wow64GetThreadContext</a> function.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-wow64getthreadcontext">Wow64GetThreadContext</a> function.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A 64-bit application can retrieve the context of a WOW64 thread using the
 
 A handle to the thread whose context is to be retrieved. The handle must have 
       <b>THREAD_GET_CONTEXT</b> access to the thread. For more information, see 
-      <a href="https://msdn.microsoft.com/72709446-5c59-4fac-8dc8-7912906ecc85">Thread Security and Access Rights</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-security-and-access-rights">Thread Security and Access Rights</a>.
       
 
 <b>WOW64:  </b>The handle must also have <b>THREAD_QUERY_INFORMATION</b> access.
@@ -78,7 +78,7 @@ A handle to the thread whose context is to be retrieved. The handle must have
 
 ### -param lpContext [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a> structure that receives the 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a> structure that receives the 
       appropriate context of the specified thread. The value of the <b>ContextFlags</b> member of 
       this structure specifies which portions of a thread's context are retrieved. The 
       <b>CONTEXT</b> structure is highly processor specific. Refer to 
@@ -93,7 +93,7 @@ A pointer to a <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2f
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -108,7 +108,7 @@ This function is used to retrieve the thread context of the specified thread. Th
     debugged, but the function can also operate when the thread is not being debugged.
 
 You cannot get a valid context for a running thread. Use the 
-    <a href="https://msdn.microsoft.com/1332abcb-3356-4890-a03c-843358c1a3ce">SuspendThread</a> function to suspend the thread before 
+    <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-suspendthread">SuspendThread</a> function to suspend the thread before 
     calling <b>GetThreadContext</b>.
 
 If you call <b>GetThreadContext</b> for the current 
@@ -122,27 +122,27 @@ If you call <b>GetThreadContext</b> for the current
 
 
 
-<a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/95a838a2-f138-4682-b733-3f363b6c4a4b">Debugging Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/debugging-functions">Debugging Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/D9A8D0B6-21E3-46B7-AB88-CE2FF4025A17">GetXStateFeaturesMask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getxstatefeaturesmask">GetXStateFeaturesMask</a>
 
 
 
-<a href="https://msdn.microsoft.com/be134953-b569-48ea-80ac-ab14dee24500">SetThreadContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadcontext">SetThreadContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/1332abcb-3356-4890-a03c-843358c1a3ce">SuspendThread</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-suspendthread">SuspendThread</a>
 
 
 
-<a href="https://msdn.microsoft.com/1bac28e1-3558-43c4-97e4-d8bb9514c38e">Wow64GetThreadContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-wow64getthreadcontext">Wow64GetThreadContext</a>
  
 
  

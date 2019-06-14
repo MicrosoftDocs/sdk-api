@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 The <b>CERT_POLICIES_INFO</b> structure contains an array of 
-<a href="https://msdn.microsoft.com/0d6396fe-99f6-4f66-9f01-55582d24ddc1">CERT_POLICY_INFO</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_policy_info">CERT_POLICY_INFO</a>.
 
 
-<a href="https://msdn.microsoft.com/7d5ed4f4-9d76-4a16-9059-27b0edd83459">CryptDecodeObject</a> creates an instance of this structure when performed on a 
-<a href="https://msdn.microsoft.com/787a4df0-c0e3-46b9-a7e6-eb3bee3ed717">CERT_EXTENSION</a> structure's <b>Value</b> member with the structure's <b>pszObjId</b> member set to szOID_CERT_POLICIES.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobject">CryptDecodeObject</a> creates an instance of this structure when performed on a 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_extension">CERT_EXTENSION</a> structure's <b>Value</b> member with the structure's <b>pszObjId</b> member set to szOID_CERT_POLICIES.
 
 An instance of this structure can be used as input to 
-<a href="https://msdn.microsoft.com/9576a2a7-4379-4c1b-8ad5-284720cf7ccc">CryptEncodeObject</a> to create an appropriate <a href="https://msdn.microsoft.com/787a4df0-c0e3-46b9-a7e6-eb3bee3ed717">CERT_EXTENSION</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> to create an appropriate <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_extension">CERT_EXTENSION</a>.
 
 
 ## -struct-fields
@@ -74,7 +74,7 @@ Number of elements in the <b>rgPolicyInfo</b> array.
 ### -field rgPolicyInfo
 
 Array of 
-<a href="https://msdn.microsoft.com/0d6396fe-99f6-4f66-9f01-55582d24ddc1">CERT_POLICY_INFO</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_policy_info">CERT_POLICY_INFO</a> structures.
 
 
 ## -see-also
@@ -82,19 +82,19 @@ Array of
 
 
 
-<a href="https://msdn.microsoft.com/787a4df0-c0e3-46b9-a7e6-eb3bee3ed717">CERT_EXTENSION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_extension">CERT_EXTENSION</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d6396fe-99f6-4f66-9f01-55582d24ddc1">CERT_POLICY_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_policy_info">CERT_POLICY_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/7d5ed4f4-9d76-4a16-9059-27b0edd83459">CryptDecodeObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobject">CryptDecodeObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/9576a2a7-4379-4c1b-8ad5-284720cf7ccc">CryptEncodeObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a>
  
 
  

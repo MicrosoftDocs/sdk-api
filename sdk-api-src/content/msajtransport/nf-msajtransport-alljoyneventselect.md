@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Provides AllJoyn transport functionality similar to the TCP socket <a href="https://msdn.microsoft.com/f98a71e4-47fb-47a4-b37e-e4cc801a8f98">WSAEventSelect</a>  functionality.
+Provides AllJoyn transport functionality similar to the TCP socket <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaeventselect">WSAEventSelect</a>  functionality.
 
 
 ## -parameters
@@ -79,7 +79,7 @@ Bit mask of events to select.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 

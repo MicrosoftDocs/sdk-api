@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ### -param ppEnum [out]
 
-Address of an <a href="https://msdn.microsoft.com/20b342e6-cac4-4bc5-820b-e397e0ce4648">IEnumTfContexts</a> pointer that receives the enumerator.
+Address of an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfcontexts">IEnumTfContexts</a> pointer that receives the enumerator.
 
 
 ## -returns
@@ -116,12 +116,12 @@ The enumerator cannot be initialized.
 
 
 
-<a href="https://msdn.microsoft.com/20b342e6-cac4-4bc5-820b-e397e0ce4648">IEnumTfContexts
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfcontexts">IEnumTfContexts
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/e99e9bdb-6a3a-438d-8fac-92ef96c8dfdd">ITfDocumentMgr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdocumentmgr">ITfDocumentMgr</a>
  
 
  

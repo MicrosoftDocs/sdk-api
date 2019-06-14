@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the image size for a video format. Given a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure, this function calculates the correct value of the <b>biSizeImage</b> member.
+Retrieves the image size for a video format. Given a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader">BITMAPINFOHEADER</a> structure, this function calculates the correct value of the <b>biSizeImage</b> member.
         
       
 
@@ -155,7 +155,7 @@ This function is available on the following platforms if the Windows Media Forma
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

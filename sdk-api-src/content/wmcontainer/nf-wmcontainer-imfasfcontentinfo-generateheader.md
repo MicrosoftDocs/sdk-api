@@ -63,7 +63,7 @@ Encodes the data in the <b>MFASFContentInfo</b> object into a binary Advanced Sy
 
 ### -param pIHeader [in, out]
 
-A pointer to the <a href="https://msdn.microsoft.com/3ccc7089-d0d0-4eb1-b763-0d4e348af685">IMFMediaBuffer</a> interface of the buffer object that will receive the encoded header. Set to <b>NULL</b> to retrieve the size of the header.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a> interface of the buffer object that will receive the encoded header. Set to <b>NULL</b> to retrieve the size of the header.
           
 
 
@@ -144,7 +144,7 @@ The buffer passed in <i>pIHeader</i> is not large enough to hold the ASF Header 
 
 The size received in the <i>pcbHeader</i> parameter includes the padding size. The content information shrinks or expands the padding data depending on the size of the ASF Header Objects.
 
-During this call, the stream properties are set based on the encoding properties of the profile. These properties are available through the <a href="https://msdn.microsoft.com/411658ca-dc5e-445b-8d61-0c0429fcfbb1">IMFMetadata</a> interface.
+During this call, the stream properties are set based on the encoding properties of the profile. These properties are available through the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmetadata">IMFMetadata</a> interface.
 
 
 
@@ -154,15 +154,15 @@ During this call, the stream properties are set based on the encoding properties
 
 
 
-<a href="https://msdn.microsoft.com/6b7f8b68-fe98-4aeb-9842-a80ac6235999">ASF ContentInfo Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-contentinfo-object">ASF ContentInfo Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/cf73306d-156a-45c0-a3d6-ae48734f5709">Generating a New ASF Header Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/generating-a-new-asf-header-object">Generating a New ASF Header Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/9f490e6a-f378-45c1-a69d-985c6e884358">IMFASFContentInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfcontentinfo">IMFASFContentInfo</a>
  
 
  

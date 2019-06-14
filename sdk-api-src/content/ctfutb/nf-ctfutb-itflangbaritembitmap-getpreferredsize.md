@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ### -param pszDefault [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a> structure that contains the default size, in pixels, of the bitmap.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a> structure that contains the default size, in pixels, of the bitmap.
 
 
 ### -param psz [out]
@@ -99,11 +99,11 @@ The method was successful.
 
 
 
-<a href="https://msdn.microsoft.com/3bae0422-625e-4f7d-9845-5353ad3ff335">ITfLangBarItemBitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritembitmap">ITfLangBarItemBitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a>
+<a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a>
  
 
  

@@ -62,14 +62,14 @@ Releases the specified lock.
 
 ### -param lock [in]
 
-The <a href="https://msdn.microsoft.com/d472b588-b208-4665-9364-f2c92fe09bcd">RealTimeStylusLockType Enumeration</a> value that indicates which object lock to release.
+The <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/ne-rtscom-realtimestyluslocktype">RealTimeStylusLockType Enumeration</a> value that indicates which object lock to release.
 
 
 ## -returns
 
 
 
-For a description of the return values, see <a href="https://msdn.microsoft.com/fc0900b4-f08b-4a93-bbc0-d3db067d7917">RealTimeStylus Classes and Interfaces</a>.
+For a description of the return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
 
 
 
@@ -88,15 +88,15 @@ The object locks can be used to help protect the RealTimeStylus (RTS) object's m
 
 
 
-<a href="https://msdn.microsoft.com/938e1eb2-3dd4-4e21-9c46-9ef840172b05">DynamicRenderer Class</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/fe76386d-55b5-40a8-aa6f-b4a1ee8d9fbd">IRealTimeStylusSynchronization Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylussynchronization">IRealTimeStylusSynchronization Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/74e315c5-99c2-4ba5-bca5-72d812624fa0">IRealTimeStylusSynchronization::AcquireLock Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylussynchronization-acquirelock">IRealTimeStylusSynchronization::AcquireLock Method</a>
  
 
  

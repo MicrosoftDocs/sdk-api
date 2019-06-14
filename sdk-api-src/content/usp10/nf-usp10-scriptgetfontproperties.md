@@ -62,17 +62,17 @@ Retrieves information from the font cache on the special glyphs used by a font.
 
 ### -param hdc [in]
 
-Optional. Handle to the device context. For more information, see <a href="https://msdn.microsoft.com/c06c0eaf-41cb-4fd1-9750-a78355217f12">Caching</a>.
+Optional. Handle to the device context. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/caching">Caching</a>.
 
 
 ### -param psc [in, out]
 
-Pointer to a <a href="https://msdn.microsoft.com/56a98529-6ae9-4b71-bd7d-cf056a1e3683">SCRIPT_CACHE</a> structure identifying the script cache.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Intl/script-cache">SCRIPT_CACHE</a> structure identifying the script cache.
 
 
 ### -param sfp [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/6757e758-6525-47a4-9ed4-99ef42fa14a3">SCRIPT_FONTPROPERTIES</a> structure in which this function retrieves the information from the font cache.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-script_fontproperties">SCRIPT_FONTPROPERTIES</a> structure in which this function retrieves the information from the font cache.
 
 
 ## -returns
@@ -100,19 +100,19 @@ The structure retrieved by this function identifies the glyphs that are used for
 
 
 
-<a href="https://msdn.microsoft.com/56a98529-6ae9-4b71-bd7d-cf056a1e3683">SCRIPT_CACHE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/script-cache">SCRIPT_CACHE</a>
 
 
 
-<a href="https://msdn.microsoft.com/6757e758-6525-47a4-9ed4-99ef42fa14a3">SCRIPT_FONTPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-script_fontproperties">SCRIPT_FONTPROPERTIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/de7a882f-ed74-4be2-b66d-59c2e50dc07a">Uniscribe</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://msdn.microsoft.com/876e36f5-a91c-490b-87bd-b7cb4993f8c4">Uniscribe Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
  
 
  

@@ -72,7 +72,7 @@ Indicates a verb that should appear in the container's menu of verbs for this ob
 
 
 
-Values are used in the enumerator (which supports the <a href="https://msdn.microsoft.com/fc9b3474-6f56-4274-af7d-72e0920c0457">IEnumOLEVERB</a> interface) that is created by a call to <a href="https://msdn.microsoft.com/c67770d0-e478-41dc-9028-1e0a6cb9e3c7">IOleObject::EnumVerbs</a>. 
+Values are used in the enumerator (which supports the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ienumoleverb">IEnumOLEVERB</a> interface) that is created by a call to <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-enumverbs">IOleObject::EnumVerbs</a>. 
 
 
 
@@ -82,15 +82,15 @@ Values are used in the enumerator (which supports the <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/fc9b3474-6f56-4274-af7d-72e0920c0457">IEnumOLEVERB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ienumoleverb">IEnumOLEVERB</a>
 
 
 
-<a href="https://msdn.microsoft.com/c67770d0-e478-41dc-9028-1e0a6cb9e3c7">IOleObject::EnumVerbs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-enumverbs">IOleObject::EnumVerbs</a>
 
 
 
-<a href="https://msdn.microsoft.com/657e3cc3-67fb-4458-8dad-f2a31df1b631">OLEVERB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ns-oleidl-tagoleverb">OLEVERB</a>
  
 
  

@@ -59,12 +59,12 @@ The <b>DrvSynchronize</b> function informs the driver that GDI needs to access a
 
 ### -param dhpdev
 
-Handle to the physical device's <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDEV</a> structure that identifies the device to be synchronized with GDI. This parameter is the device handle returned to GDI by <a href="https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e">DrvEnablePDEV</a>.
+Handle to the physical device's <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a> structure that identifies the device to be synchronized with GDI. This parameter is the device handle returned to GDI by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
 
 
 ### -param prcl
 
-Pointer to a <a href="https://msdn.microsoft.com/709f8262-829e-4cda-bb0b-564307edfd24">RECTL</a> structure. This parameter should be ignored by the driver.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a> structure. This parameter should be ignored by the driver.
 
 
 ## -returns
@@ -82,11 +82,11 @@ None
 
 This function allows asynchronous drawing operations performed by a device's coprocessor to be coordinated with GDI accesses.
 
-<b>DrvSynchronize</b> can be optionally implemented in display drivers. GDI calls this function only if it is hooked by <a href="https://msdn.microsoft.com/8cb6d4bf-67bd-4bfb-9605-eeb954fc590c">EngAssociateSurface</a>. GDI calls <b>DrvSynchronize</b> just before drawing directly onto the device surface. GDI will call <a href="https://msdn.microsoft.com/717e0738-71a0-45e1-a479-337fab2998ab">DrvSynchronizeSurface</a> instead of <b>DrvSynchronize</b> in drivers that implement both of these functions.
+<b>DrvSynchronize</b> can be optionally implemented in display drivers. GDI calls this function only if it is hooked by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engassociatesurface">EngAssociateSurface</a>. GDI calls <b>DrvSynchronize</b> just before drawing directly onto the device surface. GDI will call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvsynchronizesurface">DrvSynchronizeSurface</a> instead of <b>DrvSynchronize</b> in drivers that implement both of these functions.
 
 This function should return only when it is safe for GDI to access any device-managed surface. That is, <b>DrvSynchronize</b> should delay returning from the call until all asynchronous drawing operations have been completed by the device's coprocessor, thus indicating that it is safe for GDI to access any device-managed surface.
 
-<b>DrvSynchronize</b> is intended to support devices that use a coprocessor for drawing. Such a device can treat some drawing operations as asynchronous, returning to GDI from the operation before the drawing is complete. If this is the case, it is possible that a subsequent drawing operation will be handled by GDI. In order for GDI to safely access device-managed surfaces, it must have a means of ensuring that any <a href="https://msdn.microsoft.com/4ef14b5b-128b-4b7c-9211-116e8bd60cab">asynchronous rendering</a> being done by the device's coprocessor is complete. By calling this function, GDI synchronizes access to a device-managed surface with the driver.
+<b>DrvSynchronize</b> is intended to support devices that use a coprocessor for drawing. Such a device can treat some drawing operations as asynchronous, returning to GDI from the operation before the drawing is complete. If this is the case, it is possible that a subsequent drawing operation will be handled by GDI. In order for GDI to safely access device-managed surfaces, it must have a means of ensuring that any <a href="https://docs.microsoft.com/windows-hardware/drivers/">asynchronous rendering</a> being done by the device's coprocessor is complete. By calling this function, GDI synchronizes access to a device-managed surface with the driver.
 
 GDI will never call <b>DrvSynchronize</b> for device-managed surfaces. <b>DrvSynchronize</b> is not itself an output function.
 
@@ -98,15 +98,15 @@ GDI will never call <b>DrvSynchronize</b> for device-managed surfaces. <b>DrvSyn
 
 
 
-<a href="https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e">DrvEnablePDEV</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
 
 
 
-<a href="https://msdn.microsoft.com/717e0738-71a0-45e1-a479-337fab2998ab">DrvSynchronizeSurface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvsynchronizesurface">DrvSynchronizeSurface</a>
 
 
 
-<a href="https://msdn.microsoft.com/8cb6d4bf-67bd-4bfb-9605-eeb954fc590c">EngAssociateSurface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engassociatesurface">EngAssociateSurface</a>
  
 
  

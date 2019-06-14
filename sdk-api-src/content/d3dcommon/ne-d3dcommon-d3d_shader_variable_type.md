@@ -638,9 +638,9 @@ This value is not used by a programmer; it exists to force the enumeration to co
 
 
 A call to the
-          <a href="https://msdn.microsoft.com/96296270-fcca-4843-bd0a-78c7f87136e5">ID3D11ShaderReflectionType::GetDesc</a>method returns a
+          <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectiontype-getdesc">ID3D11ShaderReflectionType::GetDesc</a>method returns a
           <b>D3D_SHADER_VARIABLE_TYPE</b>value in the <b>Type</b> member of a
-          <a href="https://msdn.microsoft.com/8d2067a3-17f8-4496-a613-581f5e35fe93">D3D11_SHADER_TYPE_DESC</a> structure.
+          <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-_d3d11_shader_type_desc">D3D11_SHADER_TYPE_DESC</a> structure.
         
 
 The types in a structured buffer describe the structure of the elements in the buffer.
@@ -663,7 +663,7 @@ struct mystruct {float4 val; uint ind;}; RWStructuredBuffer<mystruct> rwbuf;
 
 
 
-<a href="https://msdn.microsoft.com/002154d5-74a6-48fb-b55f-8687e4505fc7">Common Version Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-common-enumerations">Common Version Enumerations</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndCanPlay</b> macro determines if an MCI device can play a data file or content of some other kind. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/dbb742b0-b8ab-4b80-96da-c4823a4747c9">MCIWNDM_CAN_PLAY</a> message.
+The <b>MCIWndCanPlay</b> macro determines if an MCI device can play a data file or content of some other kind. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-can-play">MCIWNDM_CAN_PLAY</a> message.
 
 
 
@@ -70,7 +70,7 @@ Handle of the MCIWnd window.
 
 
 
-<a href="https://msdn.microsoft.com/dbb742b0-b8ab-4b80-96da-c4823a4747c9">MCIWNDM_CAN_PLAY</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-can-play">MCIWNDM_CAN_PLAY</a>
  
 
  

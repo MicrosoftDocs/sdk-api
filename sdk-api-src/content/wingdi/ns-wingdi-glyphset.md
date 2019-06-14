@@ -102,19 +102,19 @@ Array of Unicode ranges that are supported in the font.
 
 
 
-<a href="https://msdn.microsoft.com/93726d5c-d4ed-4681-bf45-cb899f195b5d">Font and Text Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/9944baa9-8e50-40b9-9650-78b0b1d7643a">Fonts and Text Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/51b0ab12-c467-4a89-8173-fdc513868aae">GetFontUnicodeRanges</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getfontunicoderanges">GetFontUnicodeRanges</a>
 
 
 
-<a href="https://msdn.microsoft.com/20959057-6062-4c1e-a23d-535584ba6ea3">WCRANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagwcrange">WCRANGE</a>
  
 
  

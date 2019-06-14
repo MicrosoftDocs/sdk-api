@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Configures side-by-side assemblies for the work that is done when calling either <a href="https://msdn.microsoft.com/3009eb4f-e3f3-497b-ba05-5b750d8a40d0">CoCreateActivity</a> or <a href="https://msdn.microsoft.com/84640b3b-1f43-4bec-abf6-c295cfb3da8b">CoEnterServiceDomain</a>.
+Configures side-by-side assemblies for the work that is done when calling either <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-cocreateactivity">CoCreateActivity</a> or <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-coenterservicedomain">CoEnterServiceDomain</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceSxSConfig</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IServiceSxSConfig</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceSxSConfig</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServiceSxSConfig</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IServiceSxSConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ce067aca-8bb4-48ac-b466-9080d2166bdd">SxsConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iservicesxsconfig-sxsconfig">SxsConfig</a>
 </td>
 <td align="left" width="63%">
 Configures the side-by-side assembly for the enclosed work.
@@ -79,7 +79,7 @@ Configures the side-by-side assembly for the enclosed work.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5eb909a5-7730-4f0b-aee6-9bb8de076cea">SxsDirectory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iservicesxsconfig-sxsdirectory">SxsDirectory</a>
 </td>
 <td align="left" width="63%">
 Sets the directory for the side-by-side assembly for the enclosed work.
@@ -89,7 +89,7 @@ Sets the directory for the side-by-side assembly for the enclosed work.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/622632ba-1287-4303-a9dd-4fb870e43786">SxsName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iservicesxsconfig-sxsname">SxsName</a>
 </td>
 <td align="left" width="63%">
 Sets the file name of the side-by-side assembly for the enclosed work.
@@ -105,11 +105,11 @@ Sets the file name of the side-by-side assembly for the enclosed work.
 
 
 
-<a href="https://msdn.microsoft.com/f546ded4-255e-4565-b588-f36175902778">CServiceConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f841eb6-9a6c-4c9b-b057-a3da6cd6b0b0">Isolated Applications and Side-by-side Assemblies</a>
+<a href="https://docs.microsoft.com/windows/desktop/SbsCs/isolated-applications-and-side-by-side-assemblies-portal">Isolated Applications and Side-by-side Assemblies</a>
  
 
  

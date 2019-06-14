@@ -51,13 +51,13 @@ ms.custom: 19H1
 
 The 
 <b>WbemQueryFlagEnum</b> constants define the depth of enumeration or query, which determines how many objects are returned by a call. These constants are used by 
-<a href="https://msdn.microsoft.com/cfe08956-7215-4e2e-a279-6e86f14e5c27">SWbemServices.SubclassesOf</a>, 
-<a href="https://msdn.microsoft.com/6465a981-f98e-4ece-a9b6-9da8ae618bc6">SWbemServices.InstancesOf</a>, 
-<a href="https://msdn.microsoft.com/c17e5d4a-016f-42ae-bc11-e21a44772ce5">SWbemObject.Subclasses_</a>, and 
-<a href="https://msdn.microsoft.com/30402d7d-f7cb-43b5-96b5-a8a76144e32d">SWbemObject.Instances_</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemservices-subclassesof">SWbemServices.SubclassesOf</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemservices-instancesof">SWbemServices.InstancesOf</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemobject-subclasses-">SWbemObject.Subclasses_</a>, and 
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemobject-instances-">SWbemObject.Instances_</a>.
 
 The WMI scripting type library, wbemdisp.tlb, defines these constants. Visual Basic applications can access this library; script languages must use the value of the constant directly, unless they use Windows Script Host (WSH) XML file format. For more information, see 
-<a href="https://msdn.microsoft.com/6ef4e210-0733-4f2a-89c1-1a7aca5a19d9">Using the WMI Scripting Type Library</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/using-the-wmi-scripting-type-library">Using the WMI Scripting Type Library</a>.
 
 
 ## -enum-fields
@@ -85,7 +85,7 @@ Used for prototyping. It stops the query from happening and instead returns an o
 
 
 
-<a href="https://msdn.microsoft.com/feaab757-3167-420b-8f42-edced4cd4c53">Scripting API Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/scripting-api-constants">Scripting API Constants</a>
  
 
  

@@ -61,7 +61,7 @@ ms.custom: 19H1
 
 
 Continues a volume search started by a call to the 
-    <a href="https://msdn.microsoft.com/3eaf9903-ae20-47e7-b32c-943bf60e7bbd">FindFirstVolume</a> function. <b>FindNextVolume</b> finds one volume per call.
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstvolumew">FindFirstVolume</a> function. <b>FindNextVolume</b> finds one volume per call.
 
 
 ## -parameters
@@ -72,7 +72,7 @@ Continues a volume search started by a call to the
 ### -param hFindVolume [in]
 
 The volume search handle returned by a previous call to the 
-      <a href="https://msdn.microsoft.com/3eaf9903-ae20-47e7-b32c-943bf60e7bbd">FindFirstVolume</a> function.
+      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstvolumew">FindFirstVolume</a> function.
 
 
 ### -param lpszVolumeName [out]
@@ -93,10 +93,10 @@ The length of the buffer that receives the volume <b>GUID</b> path, in
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. If no matching files can be found, the 
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If no matching files can be found, the 
        <b>GetLastError</b> function returns the 
        <b>ERROR_NO_MORE_FILES</b> error code. In that case, close the search with the 
-       <a href="https://msdn.microsoft.com/091a2f0c-df38-4fef-a926-3507545bb58d">FindVolumeClose</a> function.
+       <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findvolumeclose">FindVolumeClose</a> function.
 
 
 
@@ -106,7 +106,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 After the search handle is established by calling 
-    <a href="https://msdn.microsoft.com/3eaf9903-ae20-47e7-b32c-943bf60e7bbd">FindFirstVolume</a>, you can use the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstvolumew">FindFirstVolume</a>, you can use the 
     <b>FindNextVolume</b> function to search for other volumes.
 
 You should not assume any correlation between the order of the volumes that are returned by these functions 
@@ -179,7 +179,7 @@ SMB does not support volume management functions.
 #### Examples
 
 For an example, see 
-     <a href="https://msdn.microsoft.com/a9ee8cc8-fa62-4fc9-aa69-35ee98afe417">Displaying Volume Paths</a>.
+     <a href="https://docs.microsoft.com/windows/desktop/FileIO/displaying-volume-paths">Displaying Volume Paths</a>.
 
 <div class="code"></div>
 
@@ -190,19 +190,19 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/3eaf9903-ae20-47e7-b32c-943bf60e7bbd">FindFirstVolume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstvolumew">FindFirstVolume</a>
 
 
 
-<a href="https://msdn.microsoft.com/091a2f0c-df38-4fef-a926-3507545bb58d">FindVolumeClose</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findvolumeclose">FindVolumeClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/6de526cd-5537-4411-b43f-3c0bdac70d64">Mounted Folders</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-mount-points">Mounted Folders</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc985126-970c-49f2-877f-3759125e43b6">Volume Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
  
 
  

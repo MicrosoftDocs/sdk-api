@@ -69,7 +69,7 @@ Sets the cursor shape.
 
 Type: <b>HCURSOR</b>
 
-A handle to the cursor. The cursor must have been created by the <a href="https://msdn.microsoft.com/en-us/library/ms648385(v=VS.85).aspx">CreateCursor</a> function or loaded by the <a href="https://msdn.microsoft.com/en-us/library/ms648391(v=VS.85).aspx">LoadCursor</a> or <a href="https://msdn.microsoft.com/en-us/library/ms648045(v=VS.85).aspx">LoadImage</a> function. If this parameter is <b>NULL</b>, the cursor is removed from the screen.
+A handle to the cursor. The cursor must have been created by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createcursor">CreateCursor</a> function or loaded by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadcursora">LoadCursor</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a> function. If this parameter is <b>NULL</b>, the cursor is removed from the screen.
 
 
 ## -returns
@@ -95,12 +95,12 @@ The cursor is a shared resource. A window should set the cursor shape only when 
 
 If your application must set the cursor while it is in a window, make sure the class cursor for the specified window's class is set to <b>NULL</b>. If the class cursor is not <b>NULL</b>, the system restores the class cursor each time the mouse is moved. 
 
-The cursor is not shown on the screen if the internal cursor display count is less than zero. This occurs if the application uses the <a href="https://msdn.microsoft.com/en-us/library/ms648396(v=VS.85).aspx">ShowCursor</a> function to hide the cursor more times than to show the cursor. 
+The cursor is not shown on the screen if the internal cursor display count is less than zero. This occurs if the application uses the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showcursor">ShowCursor</a> function to hide the cursor more times than to show the cursor. 
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648380(v=VS.85).aspx">Displaying a Cursor</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-cursors">Displaying a Cursor</a>.
 
 <div class="code"></div>
 
@@ -115,27 +115,27 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648380(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648385(v=VS.85).aspx">CreateCursor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createcursor">CreateCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646970(v=VS.85).aspx">Cursors</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/cursors">Cursors</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648388(v=VS.85).aspx">GetCursor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcursor">GetCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648391(v=VS.85).aspx">LoadCursor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadcursora">LoadCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648045(v=VS.85).aspx">LoadImage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a>
 
 
 
@@ -147,11 +147,11 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648380(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648394(v=VS.85).aspx">SetCursorPos</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setcursorpos">SetCursorPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648396(v=VS.85).aspx">ShowCursor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showcursor">ShowCursor</a>
  
 
  

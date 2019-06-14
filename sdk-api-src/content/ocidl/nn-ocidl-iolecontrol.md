@@ -54,7 +54,7 @@ Provides the features for supporting keyboard mnemonics, ambient properties, and
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleControl</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IOleControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOleControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IOleControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/08872f4f-eb3e-434c-bd7d-d4de621948ad">FreezeEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iolecontrol-freezeevents">FreezeEvents</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the container is ignoring or accepting events from the control.
@@ -78,7 +78,7 @@ Indicates whether the container is ignoring or accepting events from the control
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/defb7509-e586-45a0-9e56-de9eba17f18e">GetControlInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iolecontrol-getcontrolinfo">GetControlInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about the control's keyboard mnemonics and behavior.
@@ -87,7 +87,7 @@ Retrieves information about the control's keyboard mnemonics and behavior.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9ca43723-a14e-4f03-8eec-e10ab34ecb4d">OnAmbientPropertyChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iolecontrol-onambientpropertychange">OnAmbientPropertyChange</a>
 </td>
 <td align="left" width="63%">
 Informs a control that one or more of the container's ambient properties has changed.
@@ -96,7 +96,7 @@ Informs a control that one or more of the container's ambient properties has cha
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3b40afc9-89cf-4dfc-ab25-055bdf6964ce">OnMnemonic</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iolecontrol-onmnemonic">OnMnemonic</a>
 </td>
 <td align="left" width="63%">
 Informs a control that the user has pressed a keystroke that represents a keyboard mneumonic.
@@ -111,11 +111,11 @@ Informs a control that the user has pressed a keystroke that represents a keyboa
 
 
 
-<a href="https://msdn.microsoft.com/8b022f2c-d4b4-44ca-8e69-46e9aa20b3f9">IOleControlSite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iolecontrolsite">IOleControlSite</a>
 
 
 
-<a href="https://msdn.microsoft.com/ccddeae4-14fc-47df-a612-83d48a479b48">ISimpleFrameSite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-isimpleframesite">ISimpleFrameSite</a>
  
 
  

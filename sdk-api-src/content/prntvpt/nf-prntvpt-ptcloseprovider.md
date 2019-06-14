@@ -60,7 +60,7 @@ Closes a print ticket provider handle.
 
 ### -param hProvider [in]
 
-A handle to the provider. This handle is returned by the <a href="https://msdn.microsoft.com/6821b1b0-74b0-4caf-b8e6-a9df4d7693d7">PTOpenProvider</a> or <a href="https://msdn.microsoft.com/0e65170b-66f6-4238-bdde-0a0b7108a686">PTOpenProviderEx</a> function.
+A handle to the provider. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptopenprovider">PTOpenProvider</a> or <a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptopenproviderex">PTOpenProviderEx</a> function.
 
 
 ## -returns
@@ -71,7 +71,7 @@ If the operation succeeds, the return value is S_OK, otherwise the <b>HRESULT</b
 
 If <i>hProvider</i> was opened in a different thread, the <b>HRESULT</b> is E_INVALIDARG.
 
-For more information about COM error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa376932(v=VS.85).aspx">Error Handling</a>.
+For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/SetupApi/error-handling">Error Handling</a>.
 
 
 
@@ -95,15 +95,15 @@ A handle cannot be used after it is closed.
 
 
 
-<a href="https://msdn.microsoft.com/98d5f8ec-54bd-4e88-b632-ed427b599cb6">Print Schema</a>
+<a href="https://docs.microsoft.com/windows/desktop/printdocs/printschema">Print Schema</a>
 
 
 
-<a href="https://msdn.microsoft.com/d859f84d-af0e-4b8b-b7fa-d7b1fc35ed39">Print Spooler API Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/printdocs/printing-and-print-spooler-functions">Print Spooler API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5c115b0-9c1e-46e7-8fb5-eddbc2c75298">Printing</a>
+<a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
  
 
  

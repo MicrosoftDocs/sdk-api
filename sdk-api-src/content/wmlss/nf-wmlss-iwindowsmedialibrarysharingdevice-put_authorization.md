@@ -59,7 +59,7 @@ The <b>put_Authorization</b> method authorizes or unauthorizes the device to hav
 
 ### -param authorization [in]
 
-An element of the <a href="https://msdn.microsoft.com/2b858236-32d9-410e-bf57-207a1c44c9d5">WindowsMediaLibrarySharingDeviceAuthorizationStatus</a> enumeration that specifies whether the device is authorized (<b>DEVICE_AUTHORIZATION_ALLOWED</b>) or unauthorized (<b>DEVICE_AUTHORIZATION_DENIED</b>) to have access to the current user's media library.
+An element of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/ne-wmlss-windowsmedialibrarysharingdeviceauthorizationstatus">WindowsMediaLibrarySharingDeviceAuthorizationStatus</a> enumeration that specifies whether the device is authorized (<b>DEVICE_AUTHORIZATION_ALLOWED</b>) or unauthorized (<b>DEVICE_AUTHORIZATION_DENIED</b>) to have access to the current user's media library.
 
 
 ## -returns

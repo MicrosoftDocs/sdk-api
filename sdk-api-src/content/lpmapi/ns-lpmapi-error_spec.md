@@ -60,7 +60,7 @@ The
 
 ### -field errs_header
 
-Error header, in the form of an <a href="https://msdn.microsoft.com/90a237c0-0e62-4f27-927a-e3f3c1ac629e">RsvpObjHdr</a> structure.
+Error header, in the form of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a> structure.
 
 
 ### -field errs_u
@@ -71,7 +71,7 @@ Union containing RSVP error information.
 
 #### errs_ipv4
 
-Error information, expressed as an <a href="https://msdn.microsoft.com/23df7278-8f37-426f-98ff-0cf02d780b76">Error_Spec_IPv4</a> structure.
+Error information, expressed as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-error_spec_ipv4">Error_Spec_IPv4</a> structure.
 
 
 ### -field errs_ipv4
@@ -86,11 +86,11 @@ Error information, expressed as an <a href="https://msdn.microsoft.com/23df7278-
 
 
 
-<a href="https://msdn.microsoft.com/23df7278-8f37-426f-98ff-0cf02d780b76">Error_Spec_IPv4</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-error_spec_ipv4">Error_Spec_IPv4</a>
 
 
 
-<a href="https://msdn.microsoft.com/90a237c0-0e62-4f27-927a-e3f3c1ac629e">RsvpObjHdr</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a>
  
 
  

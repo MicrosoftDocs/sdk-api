@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>IDsAdminCreateObj::Initialize</b> method initializes an 
-<a href="https://msdn.microsoft.com/93673b29-744a-4100-86b7-8a2eec861c47">IDsAdminCreateObj</a> object with data about the container where the object will be created, the class of the object to be created and, possibly, the source object to copy from.
+<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nn-dsadmin-idsadmincreateobj">IDsAdminCreateObj</a> object with data about the container where the object will be created, the class of the object to be created and, possibly, the source object to copy from.
 
 
 ## -parameters
@@ -60,12 +60,12 @@ The <b>IDsAdminCreateObj::Initialize</b> method initializes an
 
 ### -param pADsContainerObj [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/6c1d6c7c-e003-47f9-adfa-4a753fb3e9b2">IADsContainer</a> interface that represents the  container where the object will be created. This parameter must not be <b>NULL</b>.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a> interface that represents the  container where the object will be created. This parameter must not be <b>NULL</b>.
 
 
 ### -param pADsCopySource [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a> interface of the object from which a copy is made. If the new object is not copied from another object, this parameter is <b>NULL</b>. The copy operation is only supported for user objects.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a> interface of the object from which a copy is made. If the new object is not copied from another object, this parameter is <b>NULL</b>. The copy operation is only supported for user objects.
 
 
 ### -param lpszClassName [in]
@@ -87,7 +87,7 @@ If the method succeeds,
 
 
 
-The <b>IDsAdminCreateObj::Initialize</b> method must be called before <a href="https://msdn.microsoft.com/8c157dd8-b569-4171-bd23-b9bce80dbc21">IDsAdminCreateObj::CreateModal</a> can be called.
+The <b>IDsAdminCreateObj::Initialize</b> method must be called before <a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadmincreateobj-createmodal">IDsAdminCreateObj::CreateModal</a> can be called.
 
 
 
@@ -97,15 +97,15 @@ The <b>IDsAdminCreateObj::Initialize</b> method must be called before <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/6c1d6c7c-e003-47f9-adfa-4a753fb3e9b2">IADsContainer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a>
 
 
 
-<a href="https://msdn.microsoft.com/93673b29-744a-4100-86b7-8a2eec861c47">IDsAdminCreateObj</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nn-dsadmin-idsadmincreateobj">IDsAdminCreateObj</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c157dd8-b569-4171-bd23-b9bce80dbc21">IDsAdminCreateObj::CreateModal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadmincreateobj-createmodal">IDsAdminCreateObj::CreateModal</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>NCryptProviderName</b> structure is used to contain the name of a CNG key storage provider. This structure is used with the <a href="https://msdn.microsoft.com/24a8ee01-b716-4f36-9df5-b6476b1df4f0">NCryptEnumStorageProviders</a> function to return the names of the registered CNG key storage providers.
+The <b>NCryptProviderName</b> structure is used to contain the name of a CNG key storage provider. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptenumstorageproviders">NCryptEnumStorageProviders</a> function to return the names of the registered CNG key storage providers.
 
 
 ## -struct-fields
@@ -72,7 +72,7 @@ A pointer to a null-terminated Unicode string that contains optional text for th
 
 
 
-<a href="https://msdn.microsoft.com/24a8ee01-b716-4f36-9df5-b6476b1df4f0">NCryptEnumStorageProviders</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptenumstorageproviders">NCryptEnumStorageProviders</a>
  
 
  

@@ -199,7 +199,7 @@ Enabling performance logging degrades performance slightly.
 
 
 
-<a href="https://msdn.microsoft.com/52b79602-6e24-4d66-a400-5745149e744b">StopWatchFlush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-stopwatchflush">StopWatchFlush</a>
  
 
  

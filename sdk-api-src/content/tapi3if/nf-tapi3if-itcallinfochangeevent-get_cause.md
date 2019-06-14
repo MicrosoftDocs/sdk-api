@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>get_Cause</b> method gets a 
-<a href="https://msdn.microsoft.com/587329e2-3b5f-4d9e-9cec-2676c0bd1de8">CALLINFOCHANGE_CAUSE</a> description of the change.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-callinfochange_cause">CALLINFOCHANGE_CAUSE</a> description of the change.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param pCIC [out]
 
 Pointer to 
-<a href="https://msdn.microsoft.com/587329e2-3b5f-4d9e-9cec-2676c0bd1de8">CALLINFOCHANGE_CAUSE</a> description of the call event that has occurred.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-callinfochange_cause">CALLINFOCHANGE_CAUSE</a> description of the call event that has occurred.
 
 
 ## -returns
@@ -120,15 +120,15 @@ The <i>pCIC</i> parameter is not a valid pointer.
 
 
 
-<a href="https://msdn.microsoft.com/587329e2-3b5f-4d9e-9cec-2676c0bd1de8">CALLINFOCHANGE_CAUSE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-callinfochange_cause">CALLINFOCHANGE_CAUSE</a>
 
 
 
-<a href="https://msdn.microsoft.com/67c063ba-8b12-40d6-9011-923bdee8b214">Call Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/f543da95-c0cc-4631-b91e-ba02dde2c081">ITCallInfoChangeEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfochangeevent">ITCallInfoChangeEvent</a>
  
 
  

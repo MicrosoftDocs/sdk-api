@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the the array of Unicode characters that is stored in the current <a href="https://msdn.microsoft.com/447625BA-F982-4155-9B05-E478E1229443">IPropertyValue</a> object.
+Gets the the array of Unicode characters that is stored in the current <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ Type: <b>WCHAR**</b>
 
 The array of Unicode characters.
 
-The returned pointer must be freed using <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
+The returned pointer must be freed using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 
 ## -returns
@@ -89,11 +89,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/447625BA-F982-4155-9B05-E478E1229443">IPropertyValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/4d78015a-dfe1-49be-8523-a5b0f96f7c58">IPropertyValueStatics::CreateChar16Array</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createchar16array">IPropertyValueStatics::CreateChar16Array</a>
  
 
  

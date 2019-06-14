@@ -163,7 +163,7 @@ The rate at which the window is to be flashed, in milliseconds. If <b>dwTimeout<
 
 
 
-<a href="https://msdn.microsoft.com/474ec2d9-3ee9-4622-843e-d6ae36fedd7f">FlashWindowEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-flashwindowex">FlashWindowEx</a>
  
 
  

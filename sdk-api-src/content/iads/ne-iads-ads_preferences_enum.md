@@ -64,7 +64,7 @@ Requests an asynchronous search.
 
 ### -field ADSIPROP_DEREF_ALIASES
 
-Specifies that aliases of found objects are to be resolved. Use  <a href="https://msdn.microsoft.com/4cd080cc-59f9-48e8-93c1-1fccea0238ad">ADS_DEREFENUM</a> to specify how to perform this operation.
+Specifies that aliases of found objects are to be resolved. Use  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0020">ADS_DEREFENUM</a> to specify how to perform this operation.
 
 
 ### -field ADSIPROP_SIZE_LIMIT
@@ -84,7 +84,7 @@ Indicates that the search should obtain only the name of attributes to which val
 
 ### -field ADSIPROP_SEARCH_SCOPE
 
-Specifies the search scope that should be observed by the server. For more information about the appropriate settings, see the  <a href="https://msdn.microsoft.com/403e45fa-bcd6-4422-9111-e9ca9859550a">ADS_SCOPEENUM</a> enumeration.
+Specifies the search scope that should be observed by the server. For more information about the appropriate settings, see the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0021">ADS_SCOPEENUM</a> enumeration.
 
 
 ### -field ADSIPROP_TIMEOUT
@@ -104,12 +104,12 @@ Specifies the time limit, in seconds, that the server should observe to search a
 
 ### -field ADSIPROP_CHASE_REFERRALS
 
-Specifies that referrals may be chased. If the root search is not specified in the naming context of the server or when the search results cross a naming context (for example, when you have child domains and search in the parent domain), the server sends a referral message to the client which the client can choose to ignore or chase. By default, this option is set to ADS_CHASE_REFERRALS_EXTERNAL. For more information about referrals chasing, see  <a href="https://msdn.microsoft.com/1a6ff821-95fe-4993-b503-a8afdedfaeeb">ADS_CHASE_REFERRALS_ENUM</a>.
+Specifies that referrals may be chased. If the root search is not specified in the naming context of the server or when the search results cross a naming context (for example, when you have child domains and search in the parent domain), the server sends a referral message to the client which the client can choose to ignore or chase. By default, this option is set to ADS_CHASE_REFERRALS_EXTERNAL. For more information about referrals chasing, see  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0024">ADS_CHASE_REFERRALS_ENUM</a>.
 
 
 ### -field ADSIPROP_SORT_ON
 
-Specifies that the server sorts the result set. Use the  <a href="https://msdn.microsoft.com/e4fe499a-4f81-4b92-bf50-b4124ae6e4a3">ADS_SORTKEY</a> structure to specify the sort keys.
+Specifies that the server sorts the result set. Use the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_ads_sortkey">ADS_SORTKEY</a> structure to specify the sort keys.
 
 
 ### -field ADSIPROP_CACHE_RESULTS
@@ -119,7 +119,7 @@ Specifies if the result should be cached on the client side. By default, ADSI ca
 
 ### -field ADSIPROP_ADSIFLAG
 
-Allows the OLEDB client to specify bind flags to use when binding to the server. Valid values are those allowed by  <a href="https://msdn.microsoft.com/c4b85d8e-b33b-47a4-b7d7-5f901f80dce9">ADsOpenObject</a>. It is accessed from ADO scripts using the property name "ADSI Flag."
+Allows the OLEDB client to specify bind flags to use when binding to the server. Valid values are those allowed by  <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a>. It is accessed from ADO scripts using the property name "ADSI Flag."
 
 
 ## -remarks
@@ -136,23 +136,23 @@ Because VBScript cannot read data from a type library, VBScript applications do 
 
 
 
-<a href="https://msdn.microsoft.com/f0ad5ce5-742d-40dc-ac5a-31d779e40bfd">ADSI Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/1a6ff821-95fe-4993-b503-a8afdedfaeeb">ADS_CHASE_REFERRALS_ENUM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0024">ADS_CHASE_REFERRALS_ENUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/4cd080cc-59f9-48e8-93c1-1fccea0238ad">ADS_DEREFENUM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0020">ADS_DEREFENUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/403e45fa-bcd6-4422-9111-e9ca9859550a">ADS_SCOPEENUM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0021">ADS_SCOPEENUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/e4fe499a-4f81-4b92-bf50-b4124ae6e4a3">ADS_SORTKEY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_ads_sortkey">ADS_SORTKEY</a>
  
 
  

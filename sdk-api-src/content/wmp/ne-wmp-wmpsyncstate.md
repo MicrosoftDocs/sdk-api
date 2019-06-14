@@ -99,27 +99,27 @@ Windows Media Player 10 Mobile: This enumeration is not supported.
 
 
 
-<a href="https://msdn.microsoft.com/90689fb7-656d-4c06-a0a9-02bbe0e5b5dd">Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/enumeration-types">Enumeration Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563295(v=VS.85).aspx">IWMPEvents2::DeviceSyncStateChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents2-devicesyncstatechange">IWMPEvents2::DeviceSyncStateChange</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563715(v=VS.85).aspx">IWMPSyncDevice3::estimateSyncSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice3-estimatesyncsize">IWMPSyncDevice3::estimateSyncSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563742(v=VS.85).aspx">IWMPSyncDevice::get_syncState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_syncstate">IWMPSyncDevice::get_syncState</a>
 
 
 
-<a href="https://msdn.microsoft.com/68a0bdaf-ae1b-4ba1-817b-a31c68b9fddd">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/d543b2a0-a2cb-47e2-b50e-4513fc061b46">Remoting the Windows Media Player Control</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>
  
 
  

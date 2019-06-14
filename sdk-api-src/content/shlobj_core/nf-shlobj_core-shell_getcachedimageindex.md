@@ -111,7 +111,7 @@ The <b>Shell_GetCachedImageIndexA</b> and <b>Shell_GetCachedImageIndexW</b> vers
 
 
 
-<a href="https://msdn.microsoft.com/4e661326-157e-4c75-86df-cd213e01c3e5">FileIconInit</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/fileiconinit">FileIconInit</a>
  
 
  

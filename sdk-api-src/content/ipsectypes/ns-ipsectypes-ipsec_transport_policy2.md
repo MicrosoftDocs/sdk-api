@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>IPSEC_TRANSPORT_POLICY2</b> structure  stores the quick mode negotiation policy for transport mode IPsec.
-<div class="alert"><b>Note</b>  <b>IPSEC_TRANSPORT_POLICY2</b> is the specific implementation of IPSEC_TRANSPORT_POLICY used in Windows 8. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://msdn.microsoft.com/4ee39f30-f7fc-40a9-92b0-e059cb9b84a2">IPSEC_TRANSPORT_POLICY1</a> is available. For Windows Vista, <a href="https://msdn.microsoft.com/c17ebe74-41e3-467c-875a-db43978a5234">IPSEC_TRANSPORT_POLICY0</a> is available. </div><div> </div>
+<div class="alert"><b>Note</b>  <b>IPSEC_TRANSPORT_POLICY2</b> is the specific implementation of IPSEC_TRANSPORT_POLICY used in Windows 8. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_transport_policy1_">IPSEC_TRANSPORT_POLICY1</a> is available. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_transport_policy0_">IPSEC_TRANSPORT_POLICY0</a> is available. </div><div> </div>
 
 ## -struct-fields
 
@@ -66,7 +66,7 @@ Type: <b>UINT32</b>
 
 ### -field ipsecProposals
 
-Type: <b><a href="https://msdn.microsoft.com/bc551733-dbba-4d66-8054-fbf4bbfa28b5">IPSEC_PROPOSAL0</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_proposal0_">IPSEC_PROPOSAL0</a>*</b>
 
 Array of quick mode proposals.
 
@@ -177,14 +177,14 @@ Timeout in seconds, after which the IPsec security association (SA) should stop 
 
 ### -field saIdleTimeout
 
-Type: <b><a href="https://msdn.microsoft.com/99113c80-1e2a-4878-9b18-502cfb1e43cc">IPSEC_SA_IDLE_TIMEOUT0</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_idle_timeout0_">IPSEC_SA_IDLE_TIMEOUT0</a></b>
 
 The SA idle timeout in IPsec policy.
 
 
 ### -field emPolicy
 
-Type: <b><a href="https://msdn.microsoft.com/01e3122b-812f-4c01-a514-dc0d513de822">IKEEXT_EM_POLICY2</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy2_">IKEEXT_EM_POLICY2</a>*</b>
 
 The AuthIP extended mode authentication policy.
 
@@ -194,19 +194,19 @@ The AuthIP extended mode authentication policy.
 
 
 
-<a href="https://msdn.microsoft.com/01e3122b-812f-4c01-a514-dc0d513de822">IKEEXT_EM_POLICY2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy2_">IKEEXT_EM_POLICY2</a>
 
 
 
-<a href="https://msdn.microsoft.com/bc551733-dbba-4d66-8054-fbf4bbfa28b5">IPSEC_PROPOSAL0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_proposal0_">IPSEC_PROPOSAL0</a>
 
 
 
-<a href="https://msdn.microsoft.com/99113c80-1e2a-4878-9b18-502cfb1e43cc">IPSEC_SA_IDLE_TIMEOUT0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_idle_timeout0_">IPSEC_SA_IDLE_TIMEOUT0</a>
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

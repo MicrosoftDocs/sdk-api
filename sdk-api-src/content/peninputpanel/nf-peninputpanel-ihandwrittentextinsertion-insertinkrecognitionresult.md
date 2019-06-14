@@ -62,7 +62,7 @@ Inserts recognition results.
 
 ### -param pIInkRecoResult [in]
 
-The <a href="https://msdn.microsoft.com/fd7ee250-6f76-419b-8164-0d2717ea288c">IInkRecognitionResult</a> for the insertion which contains the recognition results and the collection of ink strokes for the insertion.
+The <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult">IInkRecognitionResult</a> for the insertion which contains the recognition results and the collection of ink strokes for the insertion.
 
 
 ### -param locale [in]
@@ -89,7 +89,7 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/67fcf19a-a864-40de-987f-406f18726a9f">IHandWrittenTextInsertion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-ihandwrittentextinsertion">IHandWrittenTextInsertion</a>
  
 
  

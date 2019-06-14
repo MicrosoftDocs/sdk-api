@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Contains information returned by the 
-<a href="https://msdn.microsoft.com/8dc95b0a-6aee-4c38-ab25-a800153bbe91">MiniDumpCallback</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a> function.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ Contains information returned by the
 ### -field ModuleWriteFlags
 
 The module write operation flags. This member can be one or more of the values in the 
-<a href="https://msdn.microsoft.com/f074edb2-2cd7-44f6-994b-c649201c1e9d">MODULE_WRITE_FLAGS</a> enumeration. The flags are set to their default values on entry to the callback.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_module_write_flags">MODULE_WRITE_FLAGS</a> enumeration. The flags are set to their default values on entry to the callback.
 
 This member is ignored unless the callback type is <b>IncludeModuleCallback</b> or <b>ModuleCallback</b>.
 
@@ -69,14 +69,14 @@ This member is ignored unless the callback type is <b>IncludeModuleCallback</b> 
 ### -field ThreadWriteFlags
 
 The thread write operation flags. This member can be one or more of the values in the 
-<a href="https://msdn.microsoft.com/b2d933c0-5e52-4078-82ea-844c2415eb45">THREAD_WRITE_FLAGS</a> enumeration. The flags are set to their default values on entry to the callback.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_thread_write_flags">THREAD_WRITE_FLAGS</a> enumeration. The flags are set to their default values on entry to the callback.
 
 This member is ignored unless the callback type is <b>IncludeThreadCallback</b>, <b>ThreadCallback</b>, or <b>ThreadExCallback</b>.
 
 
 ### -field SecondaryFlags
 
-Contains a value from the <a href="https://msdn.microsoft.com/en-us/library/Aa813365(v=VS.85).aspx">MINIDUMP_SECONDARY_FLAGS</a> enumeration type.
+Contains a value from the <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_secondary_flags">MINIDUMP_SECONDARY_FLAGS</a> enumeration type.
 
 <b>DbgHelp 6.5 and earlier:  </b>This member is not available.
 
@@ -104,7 +104,7 @@ This member is ignored unless the callback type is <b>CancelCallback</b>.
 
 ### -field Cancel
 
-Controls whether the dump should be canceled. If the callback function returns <b>TRUE</b> and <b>Cancel</b> is <b>TRUE</b>, the dump will be canceled. In this case, the <a href="https://msdn.microsoft.com/b476023d-0e93-4d76-9ba8-ce5766c9ac51">MiniDumpWriteDump</a> function fails and the dump is not valid.
+Controls whether the dump should be canceled. If the callback function returns <b>TRUE</b> and <b>Cancel</b> is <b>TRUE</b>, the dump will be canceled. In this case, the <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump">MiniDumpWriteDump</a> function fails and the dump is not valid.
 
 This member is ignored unless the callback type is <b>CancelCallback</b>.
 
@@ -118,14 +118,14 @@ This member is ignored unless the callback type is <b>WriteKernelMinidumpCallbac
 
 ### -field VmRegion
 
-A <a href="https://msdn.microsoft.com/e9a797b9-5cad-48c0-bb33-ca9c13de8239">MINIDUMP_MEMORY_INFO</a> structure that describes the virtual memory region. The region base and size must be aligned on a page boundary. The region size can be set to 0 to filter out the region.
+A <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_memory_info">MINIDUMP_MEMORY_INFO</a> structure that describes the virtual memory region. The region base and size must be aligned on a page boundary. The region size can be set to 0 to filter out the region.
 
 This member is ignored unless the callback type is <b>IncludeVmRegionCallback</b>.
 
 
 ### -field Continue
 
-Controls whether the dump should be continued. If the callback function returns <b>TRUE</b> and <b>Continue</b> is <b>TRUE</b>, the dump will be continued. Otherwise, the <a href="https://msdn.microsoft.com/b476023d-0e93-4d76-9ba8-ce5766c9ac51">MiniDumpWriteDump</a> function fails and the dump is not valid.
+Controls whether the dump should be continued. If the callback function returns <b>TRUE</b> and <b>Continue</b> is <b>TRUE</b>, the dump will be continued. Otherwise, the <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump">MiniDumpWriteDump</a> function fails and the dump is not valid.
 
 This member is ignored unless the callback type is <b>IncludeVmRegionCallback</b>.
 
@@ -162,15 +162,15 @@ This member is ignored unless the callback type is <b>ReadMemoryFailureCallback<
 
 
 
-<a href="https://msdn.microsoft.com/f074edb2-2cd7-44f6-994b-c649201c1e9d">MODULE_WRITE_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_module_write_flags">MODULE_WRITE_FLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/8dc95b0a-6aee-4c38-ab25-a800153bbe91">MiniDumpCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/b2d933c0-5e52-4078-82ea-844c2415eb45">THREAD_WRITE_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_thread_write_flags">THREAD_WRITE_FLAGS</a>
  
 
  

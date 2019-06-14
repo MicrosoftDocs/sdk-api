@@ -59,7 +59,7 @@ Gets the maximum number of messages that can be added to the message queue.
 
 ### -param Producer [in]
 
- A <a href="https://msdn.microsoft.com/85946D30-5E49-4E4B-AC25-394ABFF0DB11">DXGI_DEBUG_ID</a> value that identifies the entity that gets the number.
+ A <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-debug-id">DXGI_DEBUG_ID</a> value that identifies the entity that gets the number.
 
 
 ## -returns
@@ -87,7 +87,7 @@ When the number of messages in the message queue reaches the maximum limit, new 
 
 
 
-<a href="https://msdn.microsoft.com/F1BC6752-F334-4E8C-BE42-B731635A799D">IDXGIInfoQueue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgiinfoqueue">IDXGIInfoQueue</a>
  
 
  

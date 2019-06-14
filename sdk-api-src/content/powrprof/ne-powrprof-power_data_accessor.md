@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-Enumeration values used by <a href="https://msdn.microsoft.com/5b2c8263-d916-4909-be56-ec784537bdc3">PowerEnumerate</a> 
-    and <a href="https://msdn.microsoft.com/0b89c189-b162-44d4-aa50-d78385e40c27">PowerSettingAccessCheck</a>.
+Enumeration values used by <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powerenumerate">PowerEnumerate</a> 
+    and <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powersettingaccesscheck">PowerSettingAccessCheck</a>.
 
 
 ## -enum-fields
@@ -60,13 +60,13 @@ Enumeration values used by <a href="https://msdn.microsoft.com/5b2c8263-d916-490
 
 ### -field ACCESS_AC_POWER_SETTING_INDEX
 
-Used with <a href="https://msdn.microsoft.com/0b89c189-b162-44d4-aa50-d78385e40c27">PowerSettingAccessCheck</a> to 
+Used with <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powersettingaccesscheck">PowerSettingAccessCheck</a> to 
       check for group policy overrides for AC power settings.
 
 
 ### -field ACCESS_DC_POWER_SETTING_INDEX
 
-Used with <a href="https://msdn.microsoft.com/0b89c189-b162-44d4-aa50-d78385e40c27">PowerSettingAccessCheck</a> to 
+Used with <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powersettingaccesscheck">PowerSettingAccessCheck</a> to 
       check for group policy overrides for DC power settings.
 
 
@@ -115,32 +115,32 @@ Used with <a href="https://msdn.microsoft.com/0b89c189-b162-44d4-aa50-d78385e40c
 ### -field ACCESS_SCHEME
 
 Used to enumerate power schemes with 
-      <a href="https://msdn.microsoft.com/5b2c8263-d916-4909-be56-ec784537bdc3">PowerEnumerate</a> and with 
-      <a href="https://msdn.microsoft.com/0b89c189-b162-44d4-aa50-d78385e40c27">PowerSettingAccessCheck</a> to check for 
+      <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powerenumerate">PowerEnumerate</a> and with 
+      <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powersettingaccesscheck">PowerSettingAccessCheck</a> to check for 
       restricted access to specific power schemes.
 
 
 ### -field ACCESS_SUBGROUP
 
 Used to enumerate subgroups with 
-      <a href="https://msdn.microsoft.com/5b2c8263-d916-4909-be56-ec784537bdc3">PowerEnumerate</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powerenumerate">PowerEnumerate</a>.
 
 
 ### -field ACCESS_INDIVIDUAL_SETTING
 
 Used to enumerate individual power settings with 
-      <a href="https://msdn.microsoft.com/5b2c8263-d916-4909-be56-ec784537bdc3">PowerEnumerate</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powerenumerate">PowerEnumerate</a>.
 
 
 ### -field ACCESS_ACTIVE_SCHEME
 
-Used with <a href="https://msdn.microsoft.com/0b89c189-b162-44d4-aa50-d78385e40c27">PowerSettingAccessCheck</a> to 
+Used with <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powersettingaccesscheck">PowerSettingAccessCheck</a> to 
       check for group policy overrides for active power schemes.
 
 
 ### -field ACCESS_CREATE_SCHEME
 
-Used with <a href="https://msdn.microsoft.com/0b89c189-b162-44d4-aa50-d78385e40c27">PowerSettingAccessCheck</a> to 
+Used with <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powersettingaccesscheck">PowerSettingAccessCheck</a> to 
       check for restricted access for creating power schemes.
 
 
@@ -172,15 +172,15 @@ Used with <a href="https://msdn.microsoft.com/0b89c189-b162-44d4-aa50-d78385e40c
 
 
 
-<a href="https://msdn.microsoft.com/f78cd97f-586f-4091-ab4a-5f109a0f679a">Power Management Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-enumeration-types">Power Management Enumeration Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/5b2c8263-d916-4909-be56-ec784537bdc3">PowerEnumerate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powerenumerate">PowerEnumerate</a>
 
 
 
-<a href="https://msdn.microsoft.com/0b89c189-b162-44d4-aa50-d78385e40c27">PowerSettingAccessCheck</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powersettingaccesscheck">PowerSettingAccessCheck</a>
  
 
  

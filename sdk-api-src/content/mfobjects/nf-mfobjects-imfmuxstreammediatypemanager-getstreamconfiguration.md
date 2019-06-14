@@ -115,7 +115,7 @@ The specified configuration index is not valid.
 
 
 
-Stream configurations are ordered within the <a href="https://msdn.microsoft.com/BBDAEF1C-DFEC-4647-8B74-E2ABB25F87CC">IMFMuxStreamMediaTypeManager</a> by the numeric value of the bitmask.
+Stream configurations are ordered within the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmuxstreammediatypemanager">IMFMuxStreamMediaTypeManager</a> by the numeric value of the bitmask.
 
 
 
@@ -125,7 +125,7 @@ Stream configurations are ordered within the <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/BBDAEF1C-DFEC-4647-8B74-E2ABB25F87CC">IMFMuxStreamMediaTypeManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmuxstreammediatypemanager">IMFMuxStreamMediaTypeManager</a>
  
 
  

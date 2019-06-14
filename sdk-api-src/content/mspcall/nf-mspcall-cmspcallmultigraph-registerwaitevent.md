@@ -50,8 +50,8 @@ ms.custom: 19H1
 
 
 The 
-<b>RegisterWaitEvent</b> method should be called only within a critical section on the call object. It allocates a thread pool context block, fills in the fields, increments the reference counts, and posts the block to the thread pool by calling the <a href="https://msdn.microsoft.com/d0cd8b28-6e20-449a-94dd-cca2be46b812">RegisterWaitForSingleObject</a> function. Saves the wait handle returned for use in 
-<a href="https://msdn.microsoft.com/en-us/library/ms726910(v=VS.85).aspx">UnregisterWaitEvent</a>. Saves the wait block in the list of wait blocks.
+<b>RegisterWaitEvent</b> method should be called only within a critical section on the call object. It allocates a thread pool context block, fills in the fields, increments the reference counts, and posts the block to the thread pool by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerwaitforsingleobject">RegisterWaitForSingleObject</a> function. Saves the wait handle returned for use in 
+<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nf-mspcall-cmspcallmultigraph-unregisterwaitevent">UnregisterWaitEvent</a>. Saves the wait block in the list of wait blocks.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ Pointer to DirectShow <b>IMediaEvent</b> interface.
 ### -param pITStream
 
 Pointer to 
-<a href="https://msdn.microsoft.com/74a385c8-0c36-4cf0-8983-5ffd7b0e5c4a">ITStream</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a> interface.
 
 
 ## -returns
@@ -84,7 +84,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms726558(v=VS.85).aspx">CMSPCallMultiGraph</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nl-mspcall-cmspcallmultigraph">CMSPCallMultiGraph</a>
  
 
  

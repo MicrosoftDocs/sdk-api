@@ -56,7 +56,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>GetAclInformation</b> function retrieves information about an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control list</a> (ACL).
+The <b>GetAclInformation</b> function retrieves information about an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL).
 
 
 ## -parameters
@@ -83,13 +83,13 @@ The size, in bytes, of the buffer pointed to by the <i>pAclInformation</i> param
 ### -param dwAclInformationClass [in]
 
 A value of the 
-<a href="https://msdn.microsoft.com/e1abf877-9757-4ee4-b7da-f3e7eb53bddd">ACL_INFORMATION_CLASS</a> enumeration that indicates the class of information requested. This parameter can be one of two values from this enumeration:
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_acl_information_class">ACL_INFORMATION_CLASS</a> enumeration that indicates the class of information requested. This parameter can be one of two values from this enumeration:
 
 <ul>
 <li>If the value is <b>AclRevisionInformation</b>, the function fills the buffer pointed to by the <i>pAclInformation</i> parameter with an 
-<a href="https://msdn.microsoft.com/cdc7f6b1-aaa1-4893-a192-5a42233b3ec1">ACL_REVISION_INFORMATION</a> structure.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl_revision_information">ACL_REVISION_INFORMATION</a> structure.</li>
 <li>If the value is <b>AclSizeInformation</b>, the function fills the buffer pointed to by the <i>pAclInformation</i> parameter with an 
-<a href="https://msdn.microsoft.com/05034096-211d-4ee3-a686-dfebfa167814">ACL_SIZE_INFORMATION</a> structure.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl_size_information">ACL_SIZE_INFORMATION</a> structure.</li>
 </ul>
 
 ## -returns
@@ -100,7 +100,7 @@ If the function succeeds, the function returns nonzero.
       
 
 If the function fails, it returns zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -110,39 +110,39 @@ If the function fails, it returns zero. To get extended error information, call
 
 
 
-<a href="https://msdn.microsoft.com/e1abf877-9757-4ee4-b7da-f3e7eb53bddd">ACL_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_acl_information_class">ACL_INFORMATION_CLASS</a>
 
 
 
-<a href="https://msdn.microsoft.com/cdc7f6b1-aaa1-4893-a192-5a42233b3ec1">ACL_REVISION_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl_revision_information">ACL_REVISION_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/05034096-211d-4ee3-a686-dfebfa167814">ACL_SIZE_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl_size_information">ACL_SIZE_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/5b5d8751-20d7-40a2-bd70-cfbe956aaa03">GetAce</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getace">GetAce</a>
 
 
 
-<a href="https://msdn.microsoft.com/b990a7bd-7840-4c10-baf8-68b3862147f4">InitializeAcl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializeacl">InitializeAcl</a>
 
 
 
-<a href="https://msdn.microsoft.com/3ae9f147-4e90-44df-a1af-cf6ebad92aea">IsValidAcl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-isvalidacl">IsValidAcl</a>
 
 
 
-<a href="https://msdn.microsoft.com/16337b77-23c5-4b7a-a344-66a02ee0e8a8">Low-level Access Control</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/low-level-access-control">Low-level Access Control</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Low-level Access Control Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Low-level Access Control Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/bb4dd7f9-2f15-4a27-89c9-1675f4fb8d92">SetAclInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setaclinformation">SetAclInformation</a>
  
 
  

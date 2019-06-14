@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an array of <a href="https://msdn.microsoft.com/3f5f31af-f040-443b-9045-9761055381ea">PROPERTYKEY</a> structures that represent the columns that the view supports. Includes either all columns or only those currently visible.
+Gets an array of <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structures that represent the columns that the view supports. Includes either all columns or only those currently visible.
 
 
 ## -parameters
@@ -59,16 +59,16 @@ Gets an array of <a href="https://msdn.microsoft.com/3f5f31af-f040-443b-9045-976
 
 ### -param dwFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/9706ae59-d172-4518-8090-375b1a0ff4fb">CM_ENUM_FLAGS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-cm_enum_flags">CM_ENUM_FLAGS</a></b>
 
-A value from the <a href="https://msdn.microsoft.com/9706ae59-d172-4518-8090-375b1a0ff4fb">CM_ENUM_FLAGS</a> enumeration that specifies whether to show only visible columns or all columns regardless of visibility.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-cm_enum_flags">CM_ENUM_FLAGS</a> enumeration that specifies whether to show only visible columns or all columns regardless of visibility.
 
 
 ### -param rgkeyOrder [out]
 
-Type: <b><a href="https://msdn.microsoft.com/3f5f31af-f040-443b-9045-9761055381ea">PROPERTYKEY</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a>*</b>
 
-On success, contains a pointer to an array of <a href="https://msdn.microsoft.com/3f5f31af-f040-443b-9045-9761055381ea">PROPERTYKEY</a> structures that represent the columns.
+On success, contains a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structures that represent the columns.
 
 
 ### -param cColumns [in]
@@ -109,7 +109,7 @@ Collection retrieved.
 </dl>
 </td>
 <td width="60%">
-All columns were not mapped to <a href="https://msdn.microsoft.com/3f5f31af-f040-443b-9045-9761055381ea">PROPERTYKEY</a> structures.
+All columns were not mapped to <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structures.
 
 </td>
 </tr>

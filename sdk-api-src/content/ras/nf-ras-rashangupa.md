@@ -65,8 +65,8 @@ The
 ### -param Arg1 [in]
 
 Specifies the remote access connection to terminate. This is a handle returned from a previous call to 
-<a href="https://msdn.microsoft.com/579a9038-8216-4948-a065-fd45b97da73a">RasDial</a> or 
-<a href="https://msdn.microsoft.com/b581cfbf-a55e-4f56-89cd-168aa23af550">RasEnumConnections</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasenumconnectionsa">RasEnumConnections</a>.
 
 
 ## -returns
@@ -75,7 +75,7 @@ Specifies the remote access connection to terminate. This is a handle returned f
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is one of the following error codes or a value from <a href="https://msdn.microsoft.com/1fa41438-7c93-4e9c-851c-652fba23da4f">Routing and Remote Access Error Codes</a> or Winerror.h.
+If the function fails, the return value is one of the following error codes or a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 <table>
 <tr>
@@ -104,22 +104,22 @@ The handle specified in <i>hrasconn</i> is invalid.
 
 
 The connection is terminated even if the 
-<a href="https://msdn.microsoft.com/579a9038-8216-4948-a065-fd45b97da73a">RasDial</a> call has not yet been completed.
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> call has not yet been completed.
 
 After this call, the <i>hrasconn</i> handle can no longer be used.
 
 An application should not call 
 <b>RasHangUp</b> and then immediately exit. The connection state machine needs time to properly terminate. If the system prematurely terminates the state machine, the state machine can fail to properly close a port, leaving the port in an inconsistent state. Also, an immediate attempt to use the same connection may fail leaving the connection unusable. A simple way to avoid these problems is to call 
-<a href="https://msdn.microsoft.com/en-us/library/ms686298(v=VS.85).aspx">Sleep</a>(3000) after returning from 
+<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-sleep">Sleep</a>(3000) after returning from 
 <b>RasHangUp</b>; after that pause, the application can exit. A more responsive way to avoid these problems is, after returning from 
 <b>RasHangUp</b>, to call 
-<a href="https://msdn.microsoft.com/3b2a2f8d-b1ff-44d2-ba49-60877ca6c104">RasGetConnectStatus</a>(<i>hrasconn</i>) and <b>Sleep</b>(0) in a loop until 
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetconnectstatusa">RasGetConnectStatus</a>(<i>hrasconn</i>) and <b>Sleep</b>(0) in a loop until 
 <b>RasGetConnectStatus</b> returns <b>ERROR_INVALID_HANDLE</b>.
 
 You can call 
 <b>RasHangUp</b> on the handle returned by 
-<a href="https://msdn.microsoft.com/020388b1-9965-4bd1-be7b-30f2127cb0fb">RasGetSubEntryHandle</a> to terminate a single link in a multi-link connection. However, in this case, you cannot use 
-<a href="https://msdn.microsoft.com/3b2a2f8d-b1ff-44d2-ba49-60877ca6c104">RasGetConnectStatus</a> to determine if the link terminated; 
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetsubentryhandlea">RasGetSubEntryHandle</a> to terminate a single link in a multi-link connection. However, in this case, you cannot use 
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetconnectstatusa">RasGetConnectStatus</a> to determine if the link terminated; 
 <b>RasGetConnectStatus</b> may not return <b>ERROR_INVALID_HANDLE</b> even though the link terminated successfully.
 
 
@@ -130,35 +130,35 @@ You can call
 
 
 
-<a href="https://msdn.microsoft.com/234834e2-f539-42de-add7-63e93086de17">RASCONN</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376725(v=vs.85)">RASCONN</a>
 
 
 
-<a href="https://msdn.microsoft.com/56410af3-7b23-4536-998d-88d78d45585d">RasCustomHangUp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rascustomhangupfn">RasCustomHangUp</a>
 
 
 
-<a href="https://msdn.microsoft.com/579a9038-8216-4948-a065-fd45b97da73a">RasDial</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>
 
 
 
-<a href="https://msdn.microsoft.com/b581cfbf-a55e-4f56-89cd-168aa23af550">RasEnumConnections</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasenumconnectionsa">RasEnumConnections</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b2a2f8d-b1ff-44d2-ba49-60877ca6c104">RasGetConnectStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetconnectstatusa">RasGetConnectStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/5016fa0b-72eb-484e-b8d7-af9de2e25689">Remote Access Service (RAS) Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/5883a77a-6af8-47a8-bb28-6ef60a5aa2f1">Remote Access Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686298(v=VS.85).aspx">Sleep</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-sleep">Sleep</a>
  
 
  

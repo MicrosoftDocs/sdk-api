@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/8784dcc2-52f4-41d9-a0ae-3ea7a736b604">IMFMediaEngineSupportsSourceTransfer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaenginesupportssourcetransfer">IMFMediaEngineSupportsSourceTransfer</a>
  
 
  

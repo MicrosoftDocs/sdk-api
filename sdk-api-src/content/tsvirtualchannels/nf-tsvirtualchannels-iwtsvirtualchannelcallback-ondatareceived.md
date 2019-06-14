@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Notifies the user about data that is being received.
 
-The data has the same size and content as a corresponding <a href="https://msdn.microsoft.com/cb999de8-74a1-4491-bffb-dc4d74a1fea3">WTSVirtualChannelWrite()</a> call from the remote side. There is no hard limit on the size of the data that can be sent. All packet reconstruction is handled by the dynamic virtual channel (DVC) framework.
+The data has the same size and content as a corresponding <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelwrite">WTSVirtualChannelWrite()</a> call from the remote side. There is no hard limit on the size of the data that can be sent. All packet reconstruction is handled by the dynamic virtual channel (DVC) framework.
 
 
 ## -parameters
@@ -83,7 +83,7 @@ Returns <b>S_OK</b> on success. Results in no action if the call fails.
 
 
 
-<a href="https://msdn.microsoft.com/d90c6f80-ed4c-4b99-af85-d2c5816ade85">IWTSVirtualChannelCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsvirtualchannelcallback">IWTSVirtualChannelCallback</a>
  
 
  

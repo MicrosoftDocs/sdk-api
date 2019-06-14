@@ -59,7 +59,7 @@ Enables the Media Engine to access protected content while in frame-server mode.
 
 ### -param pUnkDeviceContext [in]
 
-A pointer to the Direct3D 11 device content. The Media Engine queries this pointer for the <a href="https://msdn.microsoft.com/6EF09C31-56C7-46B5-87AE-B1FE43EC66FC">ID3D11VideoContext</a> interface. 
+A pointer to the Direct3D 11 device content. The Media Engine queries this pointer for the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a> interface. 
 
 
 ## -returns
@@ -85,7 +85,7 @@ In frame-server mode, this method enables the Media Engine to share protected co
 
 
 
-<a href="https://msdn.microsoft.com/85B37711-DB46-4BC7-A051-79E9507791FA">IMFMediaEngineProtectedContent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineprotectedcontent">IMFMediaEngineProtectedContent</a>
  
 
  

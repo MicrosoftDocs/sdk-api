@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The KSP_PINMODE structure specifies the pin property and the supported audio processing modes for a pin factory.
 
-KSP_PINMODE provides property data for <a href="https://msdn.microsoft.com/53FDAFE2-8E5C-42C7-A8F3-13666BA90D98">KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST</a>.
+KSP_PINMODE provides property data for <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn457706(v=vs.85)">KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST</a>.
 
 
 ## -struct-fields
@@ -74,7 +74,7 @@ The audio processing mode (or modes) supported by the pin factory.
 
 
 
-<a href="https://msdn.microsoft.com/53FDAFE2-8E5C-42C7-A8F3-13666BA90D98">KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn457706(v=vs.85)">KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>LINEREQMEDIACALL</b> structure describes a request initiated by a call to the 
-<a href="https://msdn.microsoft.com/c72ed61f-abbe-4a6d-9f8d-95afbd5dfb04">lineGetRequest</a> function. This data structure is obsolete and should not be used.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetrequest">lineGetRequest</a> function. This data structure is obsolete and should not be used.
 
 
 ## -struct-fields
@@ -114,7 +114,7 @@ The comment buffer.
 
 
 
-<a href="https://msdn.microsoft.com/c72ed61f-abbe-4a6d-9f8d-95afbd5dfb04">lineGetRequest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetrequest">lineGetRequest</a>
  
 
  

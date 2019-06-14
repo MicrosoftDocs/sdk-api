@@ -54,9 +54,9 @@ A 4D vector for storing unsigned, normalized integer values as 10 bit unsigned x
     
 
 For a list of more functionality such as constructors and operators that are available
-	using <code>XMUDECN4</code> when you are programming in C++, see <a href="https://msdn.microsoft.com/en-us/library/Ee415454(v=VS.85).aspx">XMUDECN4 Extensions</a>.
-<div class="alert"><b>Note</b>  See <a href="https://msdn.microsoft.com/31512657-c413-9e6e-e343-1ea677a02b8c">DirectXMath Library Type
-	Equivalences</a> for information about equivalent <a href="https://msdn.microsoft.com/en-us/library/Bb172533(v=VS.85).aspx">D3DDECLTYPE</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> objects.
+	using <code>XMUDECN4</code> when you are programming in C++, see <a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmudecn4-extensions">XMUDECN4 Extensions</a>.
+<div class="alert"><b>Note</b>  See <a href="https://docs.microsoft.com/windows/desktop/dxmath/pg-xnamath-internals">DirectXMath Library Type
+	Equivalences</a> for information about equivalent <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddecltype">D3DDECLTYPE</a>, <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> objects.
     </div><div> </div>
 
 ## -struct-fields
@@ -125,13 +125,13 @@ Those <code>XMUDECN4</code> constructors using floating point arguments require 
       The results are rounded, and then assigned to the appropriate members of <code>XMUDECN4</code>.
 	
 
-You can use <code>XMUDECN4</code> to load instances of <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> from normalized values 
+You can use <code>XMUDECN4</code> to load instances of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> from normalized values 
       by using <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadudecn4">XMLoadUDecN4</a>, which divides the x-, y-, and
 	    z-components by 1023.0f, divides the w-component by 3.0f, rounds the result, and then assigns
 	    the components to an <code>XMVECTOR</code> instance.
 	
 
-<code>XMVECTOR</code> instances containing normalized values can be stored into <code>XMUDECN4</code>using <a href="https://msdn.microsoft.com/en-us/library/Ee420379(v=VS.85).aspx">XMStoreUDecN4</a>, which multiplies the x-, y-, and z-components by
+<code>XMVECTOR</code> instances containing normalized values can be stored into <code>XMUDECN4</code>using <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstoreudecn4">XMStoreUDecN4</a>, which multiplies the x-, y-, and z-components by
 	    1023.0f, multiplies the w-component by 3.0f, and rounds the result before assigning the values 
       to the appropriate <code>XMUDECN4</code> members.
 	
@@ -149,11 +149,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/58acb05d-e79b-8f42-4cf4-76ae57929739">DirectXMath Library Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-structures">DirectXMath Library Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415454(v=VS.85).aspx">XMUDECN4 Extensions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmudecn4-extensions">XMUDECN4 Extensions</a>
  
 
  

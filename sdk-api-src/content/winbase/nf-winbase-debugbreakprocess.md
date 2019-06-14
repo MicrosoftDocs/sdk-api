@@ -69,7 +69,7 @@ A handle to the process.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -88,15 +88,15 @@ If the process is not being debugged, the function uses the search logic of a st
 
 
 
-<a href="https://msdn.microsoft.com/d9e1d565-fb76-4d91-8aa7-4ff0ff31f71f">Communicating with the Debugger</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/communicating-with-the-debugger">Communicating with the Debugger</a>
 
 
 
-<a href="https://msdn.microsoft.com/1ca9d2d1-eed4-4982-8964-64b44e8be256">DebugBreak</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-debugbreak">DebugBreak</a>
 
 
 
-<a href="https://msdn.microsoft.com/95a838a2-f138-4682-b733-3f363b6c4a4b">Debugging Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/debugging-functions">Debugging Functions</a>
  
 
  

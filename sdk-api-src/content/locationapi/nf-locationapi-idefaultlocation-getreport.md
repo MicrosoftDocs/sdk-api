@@ -67,7 +67,7 @@ Retrieves the specified report type from the default location provider.
 
 ### -param ppLocationReport [out]
 
-The address of a pointer to <a href="https://msdn.microsoft.com/6dc78c26-36b3-4545-b5ba-7f04f6e67706">ILocationReport</a> that receives the specified location report from the default location provider.
+The address of a pointer to <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a> that receives the specified location report from the default location provider.
 
 
 ## -returns
@@ -137,7 +137,7 @@ No data is available. This may be due to a lack of default location data in the 
 
 
 
-<a href="https://msdn.microsoft.com/6dc78c26-36b3-4545-b5ba-7f04f6e67706">ILocationReport</a> is the base interface for specific location report types. The actual interface you use for <i>ppLocationReport</i> must match the type you specified through <i>reportType</i>.
+<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a> is the base interface for specific location report types. The actual interface you use for <i>ppLocationReport</i> must match the type you specified through <i>reportType</i>.
 
 A call to <b>IDefaultLocation::GetReport</b> may result in a notification being displayed in the taskbar, and a Location Activity event being logged in Event Viewer, if it is the application's first use of location.   
 
@@ -149,15 +149,15 @@ A call to <b>IDefaultLocation::GetReport</b> may result in a notification being 
 
 
 
-<a href="https://msdn.microsoft.com/b03c8710-2913-48a8-9b05-ae580e3d9e24">About Location Notifications</a>
+<a href="https://docs.microsoft.com/previous-versions/visualstudio">About Location Notifications</a>
 
 
 
-<a href="https://msdn.microsoft.com/ab69bbc7-e624-4f18-bf11-dd555236f1fa">About Logging Location Activity</a>
+<a href="https://docs.microsoft.com/previous-versions/visualstudio">About Logging Location Activity</a>
 
 
 
-<a href="https://msdn.microsoft.com/408062c8-2fea-4734-a243-e4ed21b7b3c3">IDefaultLocation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-idefaultlocation">IDefaultLocation</a>
  
 
  

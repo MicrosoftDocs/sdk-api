@@ -168,7 +168,7 @@ Pointer to the dialog box's <b>HWND</b>.
 
 
 
-<a href="https://msdn.microsoft.com/317f0dbf-7ac9-4e5a-a5ed-e6b807f07fb2">OleUIBusy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuibusya">OleUIBusy</a>
  
 
  

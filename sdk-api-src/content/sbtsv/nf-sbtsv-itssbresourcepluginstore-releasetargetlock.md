@@ -59,7 +59,7 @@ Releases a lock on a target.
 
 ### -param pContext [in]
 
-A pointer to the context returned by the <a href="https://msdn.microsoft.com/ee6f22cf-c111-4a11-ab84-b52904a148b6">AcquireTargetLock</a> method.
+A pointer to the context returned by the <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcepluginstore-acquiretargetlock">AcquireTargetLock</a> method.
 
 
 ## -returns
@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/b8b54827-6c6b-4531-8ae3-73baed6125cd">ITsSbResourcePluginStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcepluginstore">ITsSbResourcePluginStore</a>
  
 
  

@@ -49,11 +49,11 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/d59f017e-df32-4826-954d-9ba338282d0d">Task Scheduler 2.0 Enumerated Types</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-enumerated-types">Task Scheduler 2.0 Enumerated Types</a> instead.] ]
 
 Defines the type of task page to be retrieved.
 
-Each property page can be used to define the properties of a <a href="https://msdn.microsoft.com/en-us/library/Aa382533(v=VS.85).aspx">task object</a>.
+Each property page can be used to define the properties of a <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/t">task object</a>.
 
 
 ## -enum-fields
@@ -70,26 +70,26 @@ Specifies the Task page for the task. This page provides the following UI elemen
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/f533fcf6-8ece-442f-b6d5-3702321db9e9">Run</a>: This field specifies the name of the application associated with the task.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-run">Run</a>: This field specifies the name of the application associated with the task.</li>
 <li>This property can also be set programmatically by calling 
-<a href="https://msdn.microsoft.com/0bec25a9-e653-48b5-be41-8f513169fc8c">ITask::SetApplicationName</a>.</li>
-<li><b>Start in</b>: This field specifies the <a href="https://msdn.microsoft.com/en-us/library/Aa384011(v=VS.85).aspx">working directory</a> for the task.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itask-setapplicationname">ITask::SetApplicationName</a>.</li>
+<li><b>Start in</b>: This field specifies the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/w">working directory</a> for the task.</li>
 <li>This property can also be set programmatically by calling 
-<a href="https://msdn.microsoft.com/df12d899-c254-4bbf-a49f-d89a2fcb0e28">ITask::SetWorkingDirectory</a>.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itask-setworkingdirectory">ITask::SetWorkingDirectory</a>.</li>
 <li><b>Comments</b>: This field specifies any application-defined comments for the task.</li>
 <li>This property can also be set programmatically by calling 
-<a href="https://msdn.microsoft.com/c6017aa1-8860-454c-a402-becbc1a4ee5c">IScheduledWorkItem::SetComment</a>.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setcomment">IScheduledWorkItem::SetComment</a>.</li>
 <li><b>Run as</b>: (Windows Server 2003, Windows XP, and  Windows 2000 only.) This field specifies the account name under which the task will run. To the right of this field is a <b>Password</b> button for specifying the password for the account.</li>
 <li>This property can also be set programmatically by calling 
-<a href="https://msdn.microsoft.com/fae1299f-2f3f-48cf-91d9-1057ce62172b">IScheduledWorkItem::SetAccountInformation</a>.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setaccountinformation">IScheduledWorkItem::SetAccountInformation</a>.</li>
 <li><b>Enabled</b> (scheduled task runs at specific time): This checkbox specifies whether the TASK_TRIGGER_FLAG_DISABLED flag is set.</li>
 <li>This property can also be set by setting this flag in the <b>rgFlags</b> member of the 
-<a href="https://msdn.microsoft.com/b4716e32-7c7a-40ab-baa1-4c7ebafc3d71">TASK_TRIGGER</a> structure.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-_task_trigger">TASK_TRIGGER</a> structure.</li>
 </ul>
 
 ### -field TASKPAGE_SCHEDULE
 
-Specifies the Schedule page for the task. This page is used to manage the <a href="https://msdn.microsoft.com/en-us/library/Aa382533(v=VS.85).aspx">triggers</a> for the task. The user can create triggers, edit triggers, and delete triggers from this page. 
+Specifies the Schedule page for the task. This page is used to manage the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/t">triggers</a> for the task. The user can create triggers, edit triggers, and delete triggers from this page. 
 
 
 
@@ -107,7 +107,7 @@ This page provides the following UI elements:
 
 ### -field TASKPAGE_SETTINGS
 
-Specifies the Settings page for the task. The user can specify what happens when the task is completed, <a href="https://msdn.microsoft.com/en-us/library/Aa446894(v=VS.85).aspx">idle conditions</a>, and power management properties for the task. 
+Specifies the Settings page for the task. The user can specify what happens when the task is completed, <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/i">idle conditions</a>, and power management properties for the task. 
 
 
 
@@ -117,15 +117,15 @@ This page provides the following UI elements:
 <ul>
 <li><b>Scheduled Task Completed</b> group box: This group box includes check boxes for setting the TASK_FLAG_DELETE_WHEN_DONE flag and the maximum run time for the task.</li>
 <li>The TASK_FLAG_DELETE_WHEN_DONE flag can also be set programmatically by calling 
-<a href="https://msdn.microsoft.com/640ba3c7-ed9d-4c4c-82fd-34fc777172c2">IScheduledWorkItem::SetFlags</a>. The maximum run time can be set by calling 
-<a href="https://msdn.microsoft.com/fb9012c6-be41-4ec6-bb1a-73bd7896738f">ITask::SetMaxRunTime</a>.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setflags">IScheduledWorkItem::SetFlags</a>. The maximum run time can be set by calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itask-setmaxruntime">ITask::SetMaxRunTime</a>.</li>
 <li><b>Idle Time</b> group box: This group box includes fields for setting idle conditions.</li>
 <li>The idle time can also be set programmatically by calling 
-<a href="https://msdn.microsoft.com/f7ad639a-4094-4621-9add-b89958c0bda4">IScheduledWorkItem::SetIdleWait</a>. The TASK_FLAG_START_ONLY_IF_IDLE and TASK_FLAG_KILL_ON_IDLE_END flags can be set by calling 
-<a href="https://msdn.microsoft.com/640ba3c7-ed9d-4c4c-82fd-34fc777172c2">IScheduledWorkItem::SetFlags</a>.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setidlewait">IScheduledWorkItem::SetIdleWait</a>. The TASK_FLAG_START_ONLY_IF_IDLE and TASK_FLAG_KILL_ON_IDLE_END flags can be set by calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setflags">IScheduledWorkItem::SetFlags</a>.</li>
 <li><b>Power management</b> group box: (Windows 95 only) This group box includes check boxes for indicating how the task behaves when the system is losing power.</li>
 <li>These properties can also be set programmatically by setting the TASK_FLAG_DONT_START_IF_ON_BATTERIES and TASK_FLAG_KILL_IF_GOING_ON_BATTERIES flags using 
-<a href="https://msdn.microsoft.com/640ba3c7-ed9d-4c4c-82fd-34fc777172c2">IScheduledWorkItem::SetFlags</a>.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setflags">IScheduledWorkItem::SetFlags</a>.</li>
 </ul>
 
 ## -see-also
@@ -133,39 +133,39 @@ This page provides the following UI elements:
 
 
 
-<a href="https://msdn.microsoft.com/2313abc1-587f-473b-8d2e-390dfa7234ab">IProvideTaskPage::GetPage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-iprovidetaskpage-getpage">IProvideTaskPage::GetPage</a>
 
 
 
-<a href="https://msdn.microsoft.com/fae1299f-2f3f-48cf-91d9-1057ce62172b">IScheduledWorkItem::SetAccountInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setaccountinformation">IScheduledWorkItem::SetAccountInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/c6017aa1-8860-454c-a402-becbc1a4ee5c">IScheduledWorkItem::SetComment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setcomment">IScheduledWorkItem::SetComment</a>
 
 
 
-<a href="https://msdn.microsoft.com/640ba3c7-ed9d-4c4c-82fd-34fc777172c2">IScheduledWorkItem::SetFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setflags">IScheduledWorkItem::SetFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/f7ad639a-4094-4621-9add-b89958c0bda4">IScheduledWorkItem::SetIdleWait</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setidlewait">IScheduledWorkItem::SetIdleWait</a>
 
 
 
-<a href="https://msdn.microsoft.com/0bec25a9-e653-48b5-be41-8f513169fc8c">ITask::SetApplicationName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itask-setapplicationname">ITask::SetApplicationName</a>
 
 
 
-<a href="https://msdn.microsoft.com/fb9012c6-be41-4ec6-bb1a-73bd7896738f">ITask::SetMaxRunTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itask-setmaxruntime">ITask::SetMaxRunTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/df12d899-c254-4bbf-a49f-d89a2fcb0e28">ITask::SetWorkingDirectory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itask-setworkingdirectory">ITask::SetWorkingDirectory</a>
 
 
 
-<a href="https://msdn.microsoft.com/b4716e32-7c7a-40ab-baa1-4c7ebafc3d71">TASK_TRIGGER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-_task_trigger">TASK_TRIGGER</a>
  
 
  

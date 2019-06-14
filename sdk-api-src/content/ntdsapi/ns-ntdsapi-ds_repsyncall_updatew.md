@@ -52,8 +52,8 @@ ms.custom: 19H1
 
 
 The <b>DS_REPSYNCALL_UPDATE</b> structure contains status data about the replication performed by the 
-<a href="https://msdn.microsoft.com/2608adde-4f18-4048-a96f-d736ff09cd4b">DsReplicaSyncAll</a> function. The <b>DsReplicaSyncAll</b> function passes this structure to a callback function in its <i>pFnCallBack</i> parameter. For more information about the callback function, see 
-<a href="https://msdn.microsoft.com/b5243a07-b058-4384-aafc-bf80078d904b">SyncUpdateProc</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicasyncalla">DsReplicaSyncAll</a> function. The <b>DsReplicaSyncAll</b> function passes this structure to a callback function in its <i>pFnCallBack</i> parameter. For more information about the callback function, see 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms677968(v=vs.85)">SyncUpdateProc</a>.
 
 
 ## -struct-fields
@@ -63,19 +63,19 @@ The <b>DS_REPSYNCALL_UPDATE</b> structure contains status data about the replica
 
 ### -field event
 
-Contains a <a href="https://msdn.microsoft.com/a732a906-0e26-45f6-b89c-58f2277057ba">DS_REPSYNCALL_EVENT</a> value that describes the event which the <b>DS_REPSYNCALL_UPDATE</b> structure represents.
+Contains a <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ne-ntdsapi-ds_repsyncall_event">DS_REPSYNCALL_EVENT</a> value that describes the event which the <b>DS_REPSYNCALL_UPDATE</b> structure represents.
 
 
 ### -field pErrInfo
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/70af4e3e-1f0e-49c5-b8c6-5e89114ed4ea">DS_REPSYNCALL_ERRINFO</a> structure that contains error data about the replication performed by the <a href="https://msdn.microsoft.com/2608adde-4f18-4048-a96f-d736ff09cd4b">DsReplicaSyncAll</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repsyncall_errinfoa">DS_REPSYNCALL_ERRINFO</a> structure that contains error data about the replication performed by the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicasyncalla">DsReplicaSyncAll</a> function.
 
 
 ### -field pSync
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/54a6695e-3493-428b-9e8d-7f781e7b3961">DS_REPSYNCALL_SYNC</a> structure that identifies the source and destination servers that have either initiated or finished synchronization.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repsyncall_synca">DS_REPSYNCALL_SYNC</a> structure that identifies the source and destination servers that have either initiated or finished synchronization.
 
 
 ## -see-also
@@ -83,27 +83,27 @@ Pointer to a
 
 
 
-<a href="https://msdn.microsoft.com/70af4e3e-1f0e-49c5-b8c6-5e89114ed4ea">DS_REPSYNCALL_ERRINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repsyncall_errinfoa">DS_REPSYNCALL_ERRINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/a732a906-0e26-45f6-b89c-58f2277057ba">DS_REPSYNCALL_EVENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ne-ntdsapi-ds_repsyncall_event">DS_REPSYNCALL_EVENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/54a6695e-3493-428b-9e8d-7f781e7b3961">DS_REPSYNCALL_SYNC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repsyncall_synca">DS_REPSYNCALL_SYNC</a>
 
 
 
-<a href="https://msdn.microsoft.com/42b20d3b-1799-4f5f-b74e-fe9284dd8ac3">Domain Controller and Replication Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/domain-controller-and-replication-management-structures">Domain Controller and Replication Management Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/2608adde-4f18-4048-a96f-d736ff09cd4b">DsReplicaSyncAll</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicasyncalla">DsReplicaSyncAll</a>
 
 
 
-<a href="https://msdn.microsoft.com/b5243a07-b058-4384-aafc-bf80078d904b">SyncUpdateProc</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms677968(v=vs.85)">SyncUpdateProc</a>
  
 
  

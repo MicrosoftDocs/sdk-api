@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[This function is no longer available for use as of Windows Vista. Instead, use the <a href="https://msdn.microsoft.com/00e80e90-1a6d-426d-90cd-20b967ebbb8e">GetUdpTable</a> or <a href="https://msdn.microsoft.com/c936d5a0-ca5e-487e-b304-bfd81403ab40">GetExtendedUdpTable</a> function to retrieve the UDP connection table.]
+<p class="CCE_Message">[This function is no longer available for use as of Windows Vista. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getudptable">GetUdpTable</a> or <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedudptable">GetExtendedUdpTable</a> function to retrieve the UDP connection table.]
 
 The <b>AllocateAndGetUdpExTableFromStack</b> function retrieves the UDP connection table and allocates memory from the local heap to store the table.
 
@@ -137,15 +137,15 @@ In the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://msdn.microsoft.com/c79dd5ba-e80b-494f-80fa-efa10c021773">AllocateAndGetTcpExTableFromStack</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-allocateandgettcpextablefromstack">AllocateAndGetTcpExTableFromStack</a>
 
 
 
-<a href="https://msdn.microsoft.com/c936d5a0-ca5e-487e-b304-bfd81403ab40">GetExtendedUdpTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedudptable">GetExtendedUdpTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/00e80e90-1a6d-426d-90cd-20b967ebbb8e">GetUdpTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getudptable">GetUdpTable</a>
  
 
  

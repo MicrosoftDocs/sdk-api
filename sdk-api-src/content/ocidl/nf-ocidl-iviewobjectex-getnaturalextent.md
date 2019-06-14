@@ -59,7 +59,7 @@ Provides sizing hints from the container for the object to use as the user resiz
 
 ### -param dwAspect [in]
 
-The requested drawing aspect. It can be any of the following values, which are defined by the <a href="https://msdn.microsoft.com/a2b729c8-7091-4520-93cd-c44468ba0274">DVASPECT</a> enumeration.
+The requested drawing aspect. It can be any of the following values, which are defined by the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagdvaspect">DVASPECT</a> enumeration.
 
 <table>
 <tr>
@@ -112,7 +112,7 @@ Provide a thumbnail representation of an object so it can be displayed in a brow
 
 ### -param lindex [in]
 
-Indicates the portion of the object that is of interest for the draw operation. Its interpretation varies depending on the value in the <i>dwAspect</i> parameter. See the <a href="https://msdn.microsoft.com/a2b729c8-7091-4520-93cd-c44468ba0274">DVASPECT</a> enumeration for more information.
+Indicates the portion of the object that is of interest for the draw operation. Its interpretation varies depending on the value in the <i>dwAspect</i> parameter. See the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagdvaspect">DVASPECT</a> enumeration for more information.
 
 
 ### -param ptd [in]
@@ -127,7 +127,7 @@ Specifies the information context for the target device indicated by the ptd par
 
 ### -param pExtentInfo [in]
 
-Pointer to <a href="https://msdn.microsoft.com/bd603de2-39db-43a1-a391-01dcfedc073f">DVEXTENTINFO</a> structure that specifies the sizing data.
+Pointer to <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagextentinfo">DVEXTENTINFO</a> structure that specifies the sizing data.
 
 
 ### -param pSizel [out]
@@ -180,22 +180,22 @@ This method was not implemented.
 
 There are two general approaches to sizing a control. The first approach gives the control responsibility for sizing itself; the second approach gives the container responsibility for sizing the control. The first approach is called autosizing. There are two alternatives involved in the second approach: content sizing and integral sizing.
 
-The <b>IViewObjectEx::GetNaturalExtent</b> method supports both content and integral sizing. In content sizing, the container passes the <a href="https://msdn.microsoft.com/bd603de2-39db-43a1-a391-01dcfedc073f">DVEXTENTINFO</a> structure to the object into which the object returns a suggested size. In integral sizing, the container passes a preferred size to the object in <b>DVEXTENTINFO</b>, and the object actually adjusts its height. Integral sizing is used when the user rubberbands a new size in design mode.
+The <b>IViewObjectEx::GetNaturalExtent</b> method supports both content and integral sizing. In content sizing, the container passes the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagextentinfo">DVEXTENTINFO</a> structure to the object into which the object returns a suggested size. In integral sizing, the container passes a preferred size to the object in <b>DVEXTENTINFO</b>, and the object actually adjusts its height. Integral sizing is used when the user rubberbands a new size in design mode.
 
 Autosizing typically occurs with objects such as the Label control which resizes if the autosize property was enabled and the associated text changed. Autosizing is handled differently depending on the state of the object.
 
 If the object is inactive, the following occurs:
 
 <ol>
-<li>The object calls <a href="https://msdn.microsoft.com/68867ddd-fad0-4eef-8e5c-8198366e8e64">IOleClientSite::RequestNewObjectLayout</a>.</li>
-<li>The container calls <a href="https://msdn.microsoft.com/babaf55e-6c43-48d8-ad13-1333e29a3e1d">IOleObject::GetExtent</a> and retrieves the new extents.</li>
-<li>The container calls <a href="https://msdn.microsoft.com/f1960095-7c9a-4058-aef1-f31e3d6e3509">IOleObject::SetExtent</a> and adjusts the new extents.</li>
+<li>The object calls <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleclientsite-requestnewobjectlayout">IOleClientSite::RequestNewObjectLayout</a>.</li>
+<li>The container calls <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getextent">IOleObject::GetExtent</a> and retrieves the new extents.</li>
+<li>The container calls <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setextent">IOleObject::SetExtent</a> and adjusts the new extents.</li>
 </ol>
 If the object is active, the following occurs:
 
 <ol>
-<li>The object calls <a href="https://msdn.microsoft.com/a12d6a2a-6581-41e3-b33d-74af5d772e71">IOleInPlaceSite::OnPosRectChange</a> to specify that it requires resizing.</li>
-<li>The container calls <a href="https://msdn.microsoft.com/5ae2e44b-d2e2-4351-b4fa-8c37419a2bcb">IOleInPlaceObject::SetObjectRects</a> and specifies the new size.</li>
+<li>The object calls <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-onposrectchange">IOleInPlaceSite::OnPosRectChange</a> to specify that it requires resizing.</li>
+<li>The container calls <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceobject-setobjectrects">IOleInPlaceObject::SetObjectRects</a> and specifies the new size.</li>
 </ol>
 
 
@@ -205,27 +205,27 @@ If the object is active, the following occurs:
 
 
 
-<a href="https://msdn.microsoft.com/68867ddd-fad0-4eef-8e5c-8198366e8e64">IOleClientSite::RequestNewObjectLayout</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleclientsite-requestnewobjectlayout">IOleClientSite::RequestNewObjectLayout</a>
 
 
 
-<a href="https://msdn.microsoft.com/5ae2e44b-d2e2-4351-b4fa-8c37419a2bcb">IOleInPlaceObject::SetObjectRects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceobject-setobjectrects">IOleInPlaceObject::SetObjectRects</a>
 
 
 
-<a href="https://msdn.microsoft.com/a12d6a2a-6581-41e3-b33d-74af5d772e71">IOleInPlaceSite::OnPosRectChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-onposrectchange">IOleInPlaceSite::OnPosRectChange</a>
 
 
 
-<a href="https://msdn.microsoft.com/babaf55e-6c43-48d8-ad13-1333e29a3e1d">IOleObject::GetExtent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getextent">IOleObject::GetExtent</a>
 
 
 
-<a href="https://msdn.microsoft.com/f1960095-7c9a-4058-aef1-f31e3d6e3509">IOleObject::SetExtent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setextent">IOleObject::SetExtent</a>
 
 
 
-<a href="https://msdn.microsoft.com/4e677ec6-9c9e-4ee7-bb7f-1df6e590319b">IViewObjectEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iviewobjectex">IViewObjectEx</a>
  
 
  

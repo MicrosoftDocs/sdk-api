@@ -54,7 +54,7 @@ Enables retrieving an agile reference to an object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAgileReference</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAgileReference</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAgileReference</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAgileReference</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAgileReference</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/627A7EE4-CFEF-47F6-BA99-51BEB78C5D55">Resolve</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinRT/iagilereference-resolve">Resolve</a>
 </td>
 <td align="left" width="63%">
 Gets the interface ID of an agile reference to an object.
@@ -83,7 +83,7 @@ Gets the interface ID of an agile reference to an object.
 
 
 
-Call the <a href="https://msdn.microsoft.com/D16224C7-1BB7-46F5-B66C-54D0B9679006">RoGetAgileReference</a> function to create an agile reference to an object.
+Call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-rogetagilereference">RoGetAgileReference</a> function to create an agile reference to an object.
 
 
 
@@ -93,11 +93,11 @@ Call the <a href="https://msdn.microsoft.com/D16224C7-1BB7-46F5-B66C-54D0B967900
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/D16224C7-1BB7-46F5-B66C-54D0B9679006">RoGetAgileReference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-rogetagilereference">RoGetAgileReference</a>
  
 
  

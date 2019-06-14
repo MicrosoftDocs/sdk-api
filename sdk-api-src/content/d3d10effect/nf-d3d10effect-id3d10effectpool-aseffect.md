@@ -63,9 +63,9 @@ Get the effect that created the effect pool.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173630(v=VS.85).aspx">ID3D10Effect</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effect">ID3D10Effect</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb173630(v=VS.85).aspx">ID3D10Effect Interface</a> interface.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effect">ID3D10Effect Interface</a> interface.
 
 
 
@@ -75,7 +75,7 @@ A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb173630(v=VS.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173667(v=VS.85).aspx">ID3D10EffectPool Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectpool">ID3D10EffectPool Interface</a>
  
 
  

@@ -59,7 +59,7 @@ Gets the properties of the package as defined in the manifest.
 
 ### -param packageProperties [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/5DA0A805-13D3-4977-8EFB-45E8B51AAF60">IAppxManifestProperties</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestproperties">IAppxManifestProperties</a>**</b>
 
 Properties of the package as described by the manifest.
 
@@ -79,12 +79,12 @@ If the method succeeds, it returns <b>S_OK</b>.
 
 
 
-Properties are specified using the <a href="https://msdn.microsoft.com/0847bddc-08ad-4f0b-b1ef-9987916e9c98">Properties</a> element in the manifest.
+Properties are specified using the <a href="https://docs.microsoft.com/uwp/schemas/appxpackage/appxmanifestschema/element-properties">Properties</a> element in the manifest.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/A29986F9-C620-48CD-87F8-525DFA076AAB">Quickstart: Read app package manifest info</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/appxpkg/how-to-query-package-identity-information">Quickstart: Read app package manifest info</a>.
 
 <div class="code"></div>
 
@@ -95,7 +95,7 @@ For an example, see <a href="https://msdn.microsoft.com/A29986F9-C620-48CD-87F8-
 
 
 
-<a href="https://msdn.microsoft.com/3DA45F2F-7088-4A9B-968C-91E402CAA412">IAppxManifestReader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestreader">IAppxManifestReader</a>
  
 
  

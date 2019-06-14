@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertySheetProvider</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPropertySheetProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertySheetProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPropertySheetProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IPropertySheetProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3a2ce7a6-65d6-4e39-b8b8-8d9b59b32d11">AddExtensionPages</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ipropertysheetprovider-addextensionpages">AddExtensionPages</a>
 </td>
 <td align="left" width="63%">
 Collects pages from one or more extension snap-ins.
@@ -79,7 +79,7 @@ Collects pages from one or more extension snap-ins.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f555dfd0-8af3-422f-a339-ab79daa89b45">AddPrimaryPages</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ipropertysheetprovider-addprimarypages">AddPrimaryPages</a>
 </td>
 <td align="left" width="63%">
 Collects property pages from the primary snap-in.
@@ -88,7 +88,7 @@ Collects property pages from the primary snap-in.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8d53083a-d578-4a88-bd3f-d43c88d697e5">CreatePropertySheet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ipropertysheetprovider-createpropertysheet">CreatePropertySheet</a>
 </td>
 <td align="left" width="63%">
 Creates a property sheet frame.
@@ -97,7 +97,7 @@ Creates a property sheet frame.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/14f3a2b7-9e14-4068-a85a-20c41d7e4a4d">FindPropertySheet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ipropertysheetprovider-findpropertysheet">FindPropertySheet</a>
 </td>
 <td align="left" width="63%">
 Determines whether a property sheet exists.
@@ -106,7 +106,7 @@ Determines whether a property sheet exists.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/08e1e3d9-9c9e-49c8-9d55-31c9519c5b0c">Show</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ipropertysheetprovider-show">Show</a>
 </td>
 <td align="left" width="63%">
 Displays a specific property sheet frame.

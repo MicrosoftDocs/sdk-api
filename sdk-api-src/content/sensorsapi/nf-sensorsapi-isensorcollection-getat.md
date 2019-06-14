@@ -64,7 +64,7 @@ Retrieves the sensor at the specified index in the collection.
 
 ### -param ppSensor [out]
 
-Address of an <a href="https://msdn.microsoft.com/3216afbb-d524-486d-99ad-0ee0cfb884e0">ISensor</a> pointer that receives the pointer to the specified sensor.
+Address of an <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a> pointer that receives the pointer to the specified sensor.
 
 
 ## -returns
@@ -111,7 +111,7 @@ NULL was passed in for ppSensor.
 
 
 
-<a href="https://msdn.microsoft.com/54d8572a-40a2-49d0-a8bf-2161b63eee42">ISensorCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorcollection">ISensorCollection</a>
  
 
  

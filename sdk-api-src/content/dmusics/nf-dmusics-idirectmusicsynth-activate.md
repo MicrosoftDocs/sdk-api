@@ -151,9 +151,9 @@ Indicates that the synth is already active.
 
 By enabling or disabling the audio device under program control, <code>Activate</code> gives the application the ability to manage its use of resources. When not playing music, the application can deactivate the wave-output resource, which frees it for other applications to use.
 
-The wave-output resource is actually managed by a separate COM object, which has a <a href="https://msdn.microsoft.com/11944933-cd95-4979-82b2-2c3875b221b3">IDirectMusicSynthSink</a> interface. This object must first be connected with a call to <b>SetSynthSink</b>. Otherwise, the synthesizer will fail the <code>Activate</code> call with DMUS_E_NOSYNTHSINK.
+The wave-output resource is actually managed by a separate COM object, which has a <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nn-dmusics-idirectmusicsynthsink">IDirectMusicSynthSink</a> interface. This object must first be connected with a call to <b>SetSynthSink</b>. Otherwise, the synthesizer will fail the <code>Activate</code> call with DMUS_E_NOSYNTHSINK.
 
-Activation is mostly managed by the wave sink object. When <code>IDirectMusicSynth::Activate</code> is called, the synth sets its internal activation state and calls <a href="https://msdn.microsoft.com/49b66410-23bd-4c4d-929c-b7e82fb45a9c">IDirectMusicSynthSink::Activate</a> to enable or disable the wave output.
+Activation is mostly managed by the wave sink object. When <code>IDirectMusicSynth::Activate</code> is called, the synth sets its internal activation state and calls <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynthsink-activate">IDirectMusicSynthSink::Activate</a> to enable or disable the wave output.
 
 
 
@@ -163,11 +163,11 @@ Activation is mostly managed by the wave sink object. When <code>IDirectMusicSyn
 
 
 
-<a href="https://msdn.microsoft.com/15a16b27-7693-4fc6-80ae-e8aedcf879d0">IDirectMusicSynth::Open</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-open">IDirectMusicSynth::Open</a>
 
 
 
-<a href="https://msdn.microsoft.com/49b66410-23bd-4c4d-929c-b7e82fb45a9c">IDirectMusicSynthSink::Activate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynthsink-activate">IDirectMusicSynthSink::Activate</a>
  
 
  

@@ -64,7 +64,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/2cc4d15f-eb8c-4db1-a81b-6eb3ee128121">IAutomaticUpdatesSettings3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings3">IAutomaticUpdatesSettings3</a>
  
 
  

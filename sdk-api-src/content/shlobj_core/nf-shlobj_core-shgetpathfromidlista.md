@@ -103,11 +103,11 @@ If the <i>pidl</i> parameter specifies a shortcut, the <i>pszPath</i> will conta
 
 
 
-<a href="https://msdn.microsoft.com/80270c59-275d-4b13-b16c-0c07bb79ed8e">SHGetPathFromIDListEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetpathfromidlistex">SHGetPathFromIDListEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/7bdfeed5-dcd0-40f6-a9d0-08ce816ee055">SHParseDisplayName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shparsedisplayname">SHParseDisplayName</a>
  
 
  

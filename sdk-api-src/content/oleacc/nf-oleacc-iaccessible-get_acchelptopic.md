@@ -68,7 +68,7 @@ Address of a <b>BSTR</b> that receives the full path of the WinHelp file that is
 
 Type: <b>VARIANT</b>
 
-Specifies whether the retrieved Help topic belongs to the object or one of the object's child elements. This parameter is either CHILDID_SELF (to obtain a Help topic for the object) or a child ID (to obtain a Help topic for one of the object's child elements). For more information about initializing the <a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a>, see <a href="https://msdn.microsoft.com/051ec5ba-540c-4ae1-b917-4c229557ca2f">How Child IDs Are Used in Parameters</a>.
+Specifies whether the retrieved Help topic belongs to the object or one of the object's child elements. This parameter is either CHILDID_SELF (to obtain a Help topic for the object) or a child ID (to obtain a Help topic for one of the object's child elements). For more information about initializing the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/how-child-ids-are-used-in-parameters">How Child IDs Are Used in Parameters</a>.
 
 
 ### -param pidTopic
@@ -82,11 +82,11 @@ Type: <b>long*</b>
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If successful, returns S_OK.
 
-If not successful, returns one of the values in the table that follows, or another standard <a href="https://msdn.microsoft.com/e6deca92-42da-41ab-bfdb-75cbce3022bb">COM error code</a>. Servers return these values, but clients must always check output parameters to ensure that they contain valid values. For more information, see <a href="https://msdn.microsoft.com/0def0349-178b-4be5-aa1d-6602dc015981">Checking IAccessible Return Values</a>.
+If not successful, returns one of the values in the table that follows, or another standard <a href="https://docs.microsoft.com/windows/desktop/WinAuto/return-values">COM error code</a>. Servers return these values, but clients must always check output parameters to ensure that they contain valid values. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/checking-iaccessible-return-values">Checking IAccessible Return Values</a>.
 
 <table>
 <tr>
@@ -138,7 +138,7 @@ The object does not support this property.
 
 Getting information from a Help file might be time and memory intensive.
 
-<b>Note to server developers:  </b>This property provides access to a Help topic in WinHelp, whereas <a href="https://msdn.microsoft.com/ef541ef9-ae9f-4a8c-8dd1-f221eddb55c7">IAccessible::get_accHelp</a> returns a string. Objects are not required to support both <b>IAccessible::get_accHelp</b> and <b>IAccessible::get_accHelpTopic</b>, but they must support at least one. If they can easily return a string, they must support <b>IAccessible::get_accHelp</b>; otherwise they must support <b>IAccessible::get_accHelpTopic</b>. If both are supported, <b>IAccessible::get_accHelpTopic</b> provides more detailed information.
+<b>Note to server developers:  </b>This property provides access to a Help topic in WinHelp, whereas <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_acchelp">IAccessible::get_accHelp</a> returns a string. Objects are not required to support both <b>IAccessible::get_accHelp</b> and <b>IAccessible::get_accHelpTopic</b>, but they must support at least one. If they can easily return a string, they must support <b>IAccessible::get_accHelp</b>; otherwise they must support <b>IAccessible::get_accHelpTopic</b>. If both are supported, <b>IAccessible::get_accHelpTopic</b> provides more detailed information.
 
 
 
@@ -148,15 +148,15 @@ Getting information from a Help file might be time and memory intensive.
 
 
 
-<a href="https://msdn.microsoft.com/07681d62-c7b4-439f-b43a-57f430914d4a">HelpTopic Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/helptopic-property">HelpTopic Property</a>
 
 
 
-<a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
 
 
 
-<a href="https://msdn.microsoft.com/ef541ef9-ae9f-4a8c-8dd1-f221eddb55c7">IAccessible::get_accHelp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_acchelp">IAccessible::get_accHelp</a>
  
 
  

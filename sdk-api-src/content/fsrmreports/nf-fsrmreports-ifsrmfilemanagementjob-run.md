@@ -50,8 +50,8 @@ ms.custom: 19H1
 
 
 <p class="CCE_Message">[This method is supported for compatibility but it's recommended to use the 
-    <a href="https://msdn.microsoft.com/1CE772FA-CE33-4900-A499-058175A7C37E">FSRM WMI Classes</a> to manage FSRM. Please see the 
-    <a href="https://msdn.microsoft.com/1ce33602-0ada-4d82-aebb-9dee7dc8b2f3">MSFT_FSRMFileManagementJob</a> class.]
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a> class.]
 
 Runs the job.
 
@@ -64,7 +64,7 @@ Runs the job.
 ### -param context [in]
 
 Specifies to which subdirectory the reports or logging are written, if enabled. For possible values, see 
-      the <a href="https://msdn.microsoft.com/02e18cc2-7c5e-473f-8a7f-e310bfb1c57d">FsrmReportGenerationContext</a> 
+      the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmreportgenerationcontext">FsrmReportGenerationContext</a> 
       enumeration.
 
 
@@ -87,13 +87,13 @@ Since the file management job consumes the results of classification, running th
 The jobs are run asynchronously. Jobs that run in the scheduled context remain in the queue for five minutes 
     before they are run; jobs that run in the other contexts remain in the queue for 30 seconds. To block your code 
     until the job completes, calling the 
-    <a href="https://msdn.microsoft.com/8d0d0046-989f-4d6a-b9da-caf6df44e1db">IFsrmFileManagementJob::WaitForCompletion</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-waitforcompletion">IFsrmFileManagementJob::WaitForCompletion</a> 
     method. Calling <b>WaitForCompletion</b> 
     removes the job from the queue and runs it immediately.
 
 If you call this method and the job is already queued or running, the method returns an error. To determine 
     the status of the job, access the 
-    <a href="https://msdn.microsoft.com/ae87183c-8e82-487c-b774-6b2b802fa645">IFsrmReportJob::RunningStatus</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-get_runningstatus">IFsrmReportJob::RunningStatus</a> 
     property.
 
 
@@ -104,11 +104,11 @@ If you call this method and the job is already queued or running, the method ret
 
 
 
-<a href="https://msdn.microsoft.com/e9ae697d-4f7c-47d9-8d2a-c46c2e5f838f">IFsrmFileManagementJob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmfilemanagementjob">IFsrmFileManagementJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/1ce33602-0ada-4d82-aebb-9dee7dc8b2f3">MSFT_FSRMFileManagementJob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a>
  
 
  

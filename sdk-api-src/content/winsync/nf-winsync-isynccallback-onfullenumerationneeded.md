@@ -113,11 +113,11 @@ By default, if an application callback is not registered to receive this notific
 
 
 
-<a href="https://msdn.microsoft.com/f6c96e02-e9db-402c-8197-580f688b068f">ISyncCallback Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isynccallback">ISyncCallback Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd317256(v=VS.85).aspx">SYNC_FULL_ENUMERATION_ACTION Enumeration</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ne-winsync-__midl___midl_itf_winsync_0000_0000_0004">SYNC_FULL_ENUMERATION_ACTION Enumeration</a>
  
 
  

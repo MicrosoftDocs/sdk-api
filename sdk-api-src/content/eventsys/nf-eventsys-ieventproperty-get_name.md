@@ -64,7 +64,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/e1ed7249-7fe3-4f90-b3e1-b79597773d85">IEventProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventproperty">IEventProperty</a>
  
 
  

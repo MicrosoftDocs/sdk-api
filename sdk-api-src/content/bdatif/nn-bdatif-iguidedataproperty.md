@@ -57,7 +57,7 @@ The <b>IGuideDataProperty</b> interface represents the name, value, and language
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGuideDataProperty</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IGuideDataProperty</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGuideDataProperty</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGuideDataProperty</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IGuideDataProperty</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e49a35f3-0517-4e84-b806-203818a0f62c">get_Language</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-iguidedataproperty-get_language">get_Language</a>
 </td>
 <td align="left" width="63%">
 Retrieves the language associated with the property.
@@ -81,7 +81,7 @@ Retrieves the language associated with the property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/63606e76-fd4a-4954-93bd-1085d32dd2da">get_Name</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-iguidedataproperty-get_name">get_Name</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the property.
@@ -90,7 +90,7 @@ Retrieves the name of the property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3a6014aa-a8a2-4436-b7a3-d083f2f0fa98">get_Value</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-iguidedataproperty-get_value">get_Value</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value associated with the property.
@@ -114,7 +114,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
  
 
  

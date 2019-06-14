@@ -63,7 +63,7 @@ A handle to the process's image file. If this member is <b>NULL</b>, the handle 
        valid. Otherwise, the debugger can use the member to read from and write to the image file.
 
 When the debugger is finished with this file, it should close the handle using the 
-       <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function.
+       <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function.
 
 
 ### -field hProcess
@@ -111,7 +111,7 @@ A pointer to a block of data. At offset 0x2C into this block is another pointer,
 
 A pointer to the starting address of the thread. This value may only be an approximation of the thread's 
       starting address, because any application with appropriate access to the thread can change the thread's context 
-      by using the <a href="https://msdn.microsoft.com/be134953-b569-48ea-80ac-ab14dee24500">SetThreadContext</a> function.
+      by using the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadcontext">SetThreadContext</a> function.
 
 
 ### -field lpImageName
@@ -128,7 +128,7 @@ This member is strictly optional. Debuggers must be prepared to handle the case 
        <b>NULL</b>. Specifically, the system does not provide an image name for a create process 
        event, and will not likely pass an image name for the first DLL event. The system also does not provide this 
        information in the case of debug events that originate from a call to the 
-       <a href="https://msdn.microsoft.com/306a5b28-658a-4dab-a516-c638b73f4a77">DebugActiveProcess</a> function.
+       <a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-debugactiveprocess">DebugActiveProcess</a> function.
 
 
 ### -field fUnicode
@@ -142,23 +142,23 @@ A value that indicates whether a file name specified by the <b>lpImageName</b> m
 
 
 
-<a href="https://msdn.microsoft.com/daabd118-fa03-410e-af25-8655194902b0">CREATE_THREAD_DEBUG_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-create_thread_debug_info">CREATE_THREAD_DEBUG_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/056aa7ee-51ca-48ec-9cd7-26085bb85b11">DEBUG_EVENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-debug_event">DEBUG_EVENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/306a5b28-658a-4dab-a516-c638b73f4a77">DebugActiveProcess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-debugactiveprocess">DebugActiveProcess</a>
 
 
 
-<a href="https://msdn.microsoft.com/80edb12f-1d1f-4480-9032-5f7a17f47910">LOAD_DLL_DEBUG_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-load_dll_debug_info">LOAD_DLL_DEBUG_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/be134953-b569-48ea-80ac-ab14dee24500">SetThreadContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadcontext">SetThreadContext</a>
  
 
  

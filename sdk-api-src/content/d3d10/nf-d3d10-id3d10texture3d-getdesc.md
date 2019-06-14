@@ -60,9 +60,9 @@ Get the properties of the texture resource.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172481(v=VS.85).aspx">D3D10_TEXTURE3D_DESC</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-cd3d10_texture3d_desc">D3D10_TEXTURE3D_DESC</a>*</b>
 
-Pointer to a resource description (see <a href="https://msdn.microsoft.com/en-us/library/Bb172481(v=VS.85).aspx">D3D10_TEXTURE3D_DESC</a>).
+Pointer to a resource description (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-cd3d10_texture3d_desc">D3D10_TEXTURE3D_DESC</a>).
 
 
 ## -returns
@@ -79,7 +79,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173871(v=VS.85).aspx">ID3D10Texture3D Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10texture3d">ID3D10Texture3D Interface</a>
  
 
  

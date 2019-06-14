@@ -59,7 +59,7 @@ Gets the creation version of the changed item.
 
 ### -param pbCurrentReplicaId [in]
 
-The ID of the replica that owns this change. The ID format must match the format that is specified by the <a href="https://msdn.microsoft.com/7391689a-5546-409a-9fff-2ceced1850fe">ID_PARAMETERS</a> property of the provider.
+The ID of the replica that owns this change. The ID format must match the format that is specified by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ns-winsync-_id_parameters">ID_PARAMETERS</a> property of the provider.
 
 
 ### -param pVersion [out]
@@ -134,11 +134,11 @@ Invalid pointer.
 
 
 
-<a href="https://msdn.microsoft.com/0cd29977-8d02-4a1e-b63f-783cc10021ee">ISyncChange Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchange">ISyncChange Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a493a58-3dab-4032-90de-be9f903ae489">SYNC VERSION Structure</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ns-winsync-_sync_version">SYNC VERSION Structure</a>
  
 
  

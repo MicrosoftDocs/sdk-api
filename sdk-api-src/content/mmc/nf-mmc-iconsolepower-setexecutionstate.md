@@ -97,12 +97,12 @@ If successful, the return value is <b>S_OK</b>. This method will return <b>S_FAL
 
 
 Call <b>IConsolePower::SetExecutionState</b> instead of 
-<a href="https://msdn.microsoft.com/9214ea84-7636-4a78-91fd-a5a5da8199a1">SetThreadExecutionState</a>. Snap-ins must not call the <b>SetThreadExecutionState</b> function directly, doing so causes conflicts if multiple snap-ins are running on the same thread.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setthreadexecutionstate">SetThreadExecutionState</a>. Snap-ins must not call the <b>SetThreadExecutionState</b> function directly, doing so causes conflicts if multiple snap-ins are running on the same thread.
 
 A snap-in defines its power requirements and sends them to MMC by calling 
 <b>SetExecutionState</b>. After the snap-in calls 
 <b>SetExecutionState</b>, its execution state remains in effect until the snap-in makes another call to 
-<b>SetExecutionState</b>. Be aware that after <b>SetExecutionState</b> is called, the same instance of the <a href="https://msdn.microsoft.com/d34e8da0-2689-4514-be10-4c11008432b3">IConsolePower</a> interface must be used for subsequent calls to <b>SetExecutionState</b>. If a snap-in does not use the same instance of <b>IConsolePower</b>, then MMC cannot effectively call <a href="https://msdn.microsoft.com/9214ea84-7636-4a78-91fd-a5a5da8199a1">SetThreadExecutionState</a>. MMC maintains an array to track each snap-in's execution state, and calls <b>SetThreadExecutionState</b> for all snap-ins running on the thread.
+<b>SetExecutionState</b>. Be aware that after <b>SetExecutionState</b> is called, the same instance of the <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsolepower">IConsolePower</a> interface must be used for subsequent calls to <b>SetExecutionState</b>. If a snap-in does not use the same instance of <b>IConsolePower</b>, then MMC cannot effectively call <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setthreadexecutionstate">SetThreadExecutionState</a>. MMC maintains an array to track each snap-in's execution state, and calls <b>SetThreadExecutionState</b> for all snap-ins running on the thread.
 
 
 #### Examples
@@ -142,11 +142,11 @@ switch (hr)
 
 
 
-<a href="https://msdn.microsoft.com/83de4b7f-3214-4354-a4a0-721054e2e899">IConsolePower::ResetIdleTimer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsolepower-resetidletimer">IConsolePower::ResetIdleTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/9214ea84-7636-4a78-91fd-a5a5da8199a1">SetThreadExecutionState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setthreadexecutionstate">SetThreadExecutionState</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a specified <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">cluster database</a> key. If the key 
+Creates a specified <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> key. If the key 
     already exists in the database, 
     <b>ClusterRegCreateKey</b> opens it without making 
     changes.
@@ -99,14 +99,14 @@ The opened or created key is not volatile; the information is preserved when the
 Access mask that specifies the needed security access for the new key. The following values are valid.
 
 For more information, see 
-       <a href="https://msdn.microsoft.com/266d5c8e-1bcd-48e5-bc06-2fbc956d8658">Registry Key Security and Access Rights</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
 
 
 
 #### ACCESS_SYSTEM_SECURITY (0x01000000)
 
 Permission to access system security. It is used to indicate access to a 
-         <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">system access control list</a> (SACL). This type of 
+         <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL). This type of 
          access requires the calling process to have the <b>SE_SECURITY_NAME</b> (Manage auditing 
          and security log) privilege.
 
@@ -179,7 +179,7 @@ Combination of <b>KEY_SET_VALUE</b> and <b>KEY_CREATE_SUB_KEY</b>
 #### READ_CONTROL (0x00020000)
 
 Permission to read the owner, group, and 
-         <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">discretionary access control list</a> 
+         <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control list</a> 
          (DACL) of the security descriptor.
 
 
@@ -198,7 +198,7 @@ Permission to change the owner.
 ### -param lpSecurityAttributes [in, optional]
 
 This parameter is ignored. To set the security attributes on a new registry key, call the 
-       <a href="https://msdn.microsoft.com/adb2ea52-6a3a-4243-944d-c7ae68a42a1a">ClusterRegSetKeySecurity</a> function after 
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregsetkeysecurity">ClusterRegSetKeySecurity</a> function after 
        <b>ClusterRegCreateKey</b> has returned 
        successfully.
 
@@ -233,7 +233,7 @@ The key existed and was opened.
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, the function returns a 
-       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 
 
@@ -242,7 +242,7 @@ If the operation fails, the function returns a
 
 
 
-Callers should call <a href="https://msdn.microsoft.com/2216ac42-6beb-4ceb-bd15-12bb2886bc6a">ClusterRegCloseKey</a> to close 
+Callers should call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregclosekey">ClusterRegCloseKey</a> to close 
      the key handle created by the <b>ClusterRegCreateKey</b> 
      function when they are done with it.
 
@@ -251,24 +251,24 @@ Do not call <b>ClusterRegCreateKey</b> from the
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/c7c74440-c98a-4440-8bf4-10ebd1a68608">Close</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pclose_routine">Close</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/1d67a4f5-66f8-4818-8b63-d0f50452f889">Offline</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Offline</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/b406ef44-0622-4625-a6cf-462b6ea6018d">Online</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_routine">Online</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/0a5c10c5-0380-4638-b49d-396be3b3c0dd">Open</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-popen_routine">Open</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/b53ab7db-ed17-4386-8a5f-5d0b0d1cb1b3">Terminate</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pterminate_routine">Terminate</a>
 </li>
 </ul>
 <b>ClusterRegCreateKey</b> can be safely called from 
      any other resource DLL entry point function or from a worker thread. For more information, see 
-     <a href="https://msdn.microsoft.com/0eaa4aea-8d9a-4552-b43a-fafa23a3e736">Function Calls to Avoid in Resource DLLs</a>.
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
 
 
@@ -278,19 +278,19 @@ Do not call <b>ClusterRegCreateKey</b> from the
 
 
 
-<a href="https://msdn.microsoft.com/2bb0650f-ef9c-40bb-ae90-229bfa23838e">Cluster Registry Access Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-registry-access-functions">Cluster Registry Access Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/2216ac42-6beb-4ceb-bd15-12bb2886bc6a">ClusterRegCloseKey</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregclosekey">ClusterRegCloseKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/af2b3b9c-2ff1-483e-a9cf-5db7b1fcbd85">ClusterRegDeleteKey</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregdeletekey">ClusterRegDeleteKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/f2cf204e-d02d-40b9-86d7-0262b8cc4db1">ClusterRegOpenKey</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregopenkey">ClusterRegOpenKey</a>
  
 
  

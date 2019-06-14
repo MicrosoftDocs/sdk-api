@@ -70,14 +70,14 @@ A handle to the current instance of the application.
 
 Type: <b>HINSTANCE</b>
 
-A handle to the previous instance of the application. This parameter is always <b>NULL</b>. If you need to detect whether another instance already exists, create a uniquely named mutex using the <a href="https://msdn.microsoft.com/c8315d1c-98c9-4f0a-ae0d-800d7d8100cd">CreateMutex</a> function. <b>CreateMutex</b> will succeed even if the mutex already exists, but the  function will return <b>ERROR_ALREADY_EXISTS</b>. This indicates that another instance of your application exists, because it created the mutex first. However, a malicious user can create this mutex before you do and prevent your application from starting. To prevent this situation, create a randomly named mutex and store the name so that it can only be obtained by an authorized user. Alternatively, you can use a file for this purpose. To limit your application to one instance per user, create a locked file in the user's profile directory.
+A handle to the previous instance of the application. This parameter is always <b>NULL</b>. If you need to detect whether another instance already exists, create a uniquely named mutex using the <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createmutexa">CreateMutex</a> function. <b>CreateMutex</b> will succeed even if the mutex already exists, but the  function will return <b>ERROR_ALREADY_EXISTS</b>. This indicates that another instance of your application exists, because it created the mutex first. However, a malicious user can create this mutex before you do and prevent your application from starting. To prevent this situation, create a randomly named mutex and store the name so that it can only be obtained by an authorized user. Alternatively, you can use a file for this purpose. To limit your application to one instance per user, create a locked file in the user's profile directory.
 
 
 ### -param lpCmdLine [in]
 
 Type: <b>LPSTR</b>
 
-The command line for the application, excluding the program name. To retrieve the entire command line, use the <a href="https://msdn.microsoft.com/08dfcab2-eb6e-49a4-80eb-87d4076c98c6">GetCommandLine</a> function.
+The command line for the application, excluding the program name. To retrieve the entire command line, use the <a href="https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-getcommandlinea">GetCommandLine</a> function.
 
 
 ### -param nShowCmd
@@ -230,7 +230,7 @@ Activates and displays a window. If the window is minimized or maximized, the sy
 Type: <strong>Type: <b>int</b>
 </strong>
 
-If the function succeeds, terminating when it receives a <a href="https://msdn.microsoft.com/en-us/library/ms632641(v=VS.85).aspx">WM_QUIT</a> message, it should return the exit value contained in that message's <i>wParam</i> parameter. If the function terminates before entering the message loop, it should return zero.
+If the function succeeds, terminating when it receives a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-quit">WM_QUIT</a> message, it should return the exit value contained in that message's <i>wParam</i> parameter. If the function terminates before entering the message loop, it should return zero.
 
 
 
@@ -241,9 +241,9 @@ If the function succeeds, terminating when it receives a <a href="https://msdn.m
 
 The name <b>WinMain</b> is used by convention by many programming frameworks. Depending on the programming framework, the call to the <b>WinMain</b> function can be preceded and followed by additional activities specific to that framework.
 
-Your <b>WinMain</b> should initialize the application, display its main window, and enter a message retrieval-and-dispatch loop that is the top-level control structure for the remainder of the application's execution. Terminate the message loop when it receives a <a href="https://msdn.microsoft.com/en-us/library/ms632641(v=VS.85).aspx">WM_QUIT</a> message. At that point, your <b>WinMain</b> should exit the application, returning the value passed in the <b>WM_QUIT</b> message's <i>wParam</i> parameter. If <b>WM_QUIT</b> was received as a result of calling <a href="https://msdn.microsoft.com/en-us/library/ms644945(v=VS.85).aspx">PostQuitMessage</a>, the value of <i>wParam</i> is the value of the <b>PostQuitMessage</b> function's <i>nExitCode</i> parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms644928(v=VS.85).aspx">Creating a Message Loop</a>.
+Your <b>WinMain</b> should initialize the application, display its main window, and enter a message retrieval-and-dispatch loop that is the top-level control structure for the remainder of the application's execution. Terminate the message loop when it receives a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-quit">WM_QUIT</a> message. At that point, your <b>WinMain</b> should exit the application, returning the value passed in the <b>WM_QUIT</b> message's <i>wParam</i> parameter. If <b>WM_QUIT</b> was received as a result of calling <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postquitmessage">PostQuitMessage</a>, the value of <i>wParam</i> is the value of the <b>PostQuitMessage</b> function's <i>nExitCode</i> parameter. For more information, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/using-messages-and-message-queues">Creating a Message Loop</a>.
 
-ANSI applications can use the <i>lpCmdLine</i> parameter of the <b>WinMain</b> function to access the command-line string, excluding the program name. Note that <i>lpCmdLine</i> uses the <b>LPSTR</b> data type instead of the <b>LPTSTR</b> data type. This means that <b>WinMain</b> cannot be used by Unicode programs. The <a href="https://msdn.microsoft.com/08dfcab2-eb6e-49a4-80eb-87d4076c98c6">GetCommandLineW</a> function can be used to obtain the command line as a Unicode string. Some programming frameworks might provide an alternative entry point that provides a Unicode command line. For example, the Microsoft Visual Studio C++ complier uses the name <b>wWinMain</b> for the Unicode entry point.
+ANSI applications can use the <i>lpCmdLine</i> parameter of the <b>WinMain</b> function to access the command-line string, excluding the program name. Note that <i>lpCmdLine</i> uses the <b>LPSTR</b> data type instead of the <b>LPTSTR</b> data type. This means that <b>WinMain</b> cannot be used by Unicode programs. The <a href="https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-getcommandlinea">GetCommandLineW</a> function can be used to obtain the command line as a Unicode string. Some programming frameworks might provide an alternative entry point that provides a Unicode command line. For example, the Microsoft Visual Studio C++ complier uses the name <b>wWinMain</b> for the Unicode entry point.
 
 
 
@@ -257,19 +257,19 @@ ANSI applications can use the <i>lpCmdLine</i> parameter of the <b>WinMain</b> f
 
 
 
-<a href="https://msdn.microsoft.com/c8315d1c-98c9-4f0a-ae0d-800d7d8100cd">CreateMutex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createmutexa">CreateMutex</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644934(v=VS.85).aspx">DispatchMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dispatchmessage">DispatchMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/08dfcab2-eb6e-49a4-80eb-87d4076c98c6">GetCommandLine</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-getcommandlinea">GetCommandLine</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644936(v=VS.85).aspx">GetMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a>
 
 
 
@@ -277,7 +277,7 @@ ANSI applications can use the <i>lpCmdLine</i> parameter of the <b>WinMain</b> f
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644945(v=VS.85).aspx">PostQuitMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postquitmessage">PostQuitMessage</a>
 
 
 
@@ -285,11 +285,11 @@ ANSI applications can use the <i>lpCmdLine</i> parameter of the <b>WinMain</b> f
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644955(v=VS.85).aspx">TranslateMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage">TranslateMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
  
 
  

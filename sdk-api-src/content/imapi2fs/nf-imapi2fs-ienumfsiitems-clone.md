@@ -121,7 +121,7 @@ Using this method, a client can record a particular point in the enumeration seq
 
 
 
-<a href="https://msdn.microsoft.com/f3186af1-4056-4cb5-aac4-5253ee6dbc01">IEnumFsiItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ienumfsiitems">IEnumFsiItems</a>
  
 
  

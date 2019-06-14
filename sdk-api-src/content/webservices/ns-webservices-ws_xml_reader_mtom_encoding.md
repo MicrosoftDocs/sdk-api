@@ -60,7 +60,7 @@ Used to indicate that the reader should interpret the bytes it reads as in MTOM 
 
 ### -field encoding
 
-The base type for all types that derive from <a href="https://msdn.microsoft.com/54d9683e-c2d1-4e18-92a2-a68558999e28">WS_XML_READER_ENCODING</a>.
+The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_encoding">WS_XML_READER_ENCODING</a>.
         
 
 
@@ -101,10 +101,10 @@ The mime part that contains the xml.  This corresponds to the "start" parameter 
 
 
 
-When used with <a href="https://msdn.microsoft.com/86277c29-d42f-4b6a-ba33-b836bef284e7">WS_XML_READER_BUFFER_INPUT</a> the MIME parts may appear in any order.
+When used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_buffer_input">WS_XML_READER_BUFFER_INPUT</a> the MIME parts may appear in any order.
       
 
-When used with <a href="https://msdn.microsoft.com/53537eb2-6b8d-443e-9453-4b39dfef1dd7">WS_XML_READER_STREAM_INPUT</a> the root MIME part must be first, and
+When used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_stream_input">WS_XML_READER_STREAM_INPUT</a> the root MIME part must be first, and
         subsequent MIME parts must appear in the order that they are referenced from xop:Include elements.
       
 

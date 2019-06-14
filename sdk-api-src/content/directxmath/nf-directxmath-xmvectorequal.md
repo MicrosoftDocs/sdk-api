@@ -106,15 +106,15 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/8caad40f-ab8e-db2f-da11-18f3d3ccf6ef">Vector Comparison Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-comparison">Vector Comparison Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee421014(v=VS.85).aspx">XMVectorEqualInt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorequalint">XMVectorEqualInt</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404785(v=VS.85).aspx">XMVectorEqualR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorequalr">XMVectorEqualR</a>
  
 
  

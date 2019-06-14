@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 The 
 <b>DnsWriteQuestionToBuffer</b> function type creates a DNS query message and stores it in a 
-<a href="https://msdn.microsoft.com/2a6fdf8f-ac30-4e32-9cde-67d41ddef8af">DNS_MESSAGE_BUFFER</a> structure. Like many DNS functions, the 
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dns_message_buffer">DNS_MESSAGE_BUFFER</a> structure. Like many DNS functions, the 
 <b>DnsWriteQuestionToBuffer</b> function type is implemented in multiple forms to facilitate different character encoding. Based on the character encoding involved, use one of the following functions:
 <ul>
 <li>
@@ -74,7 +74,7 @@ The
 
 ### -param pDnsBuffer [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/2a6fdf8f-ac30-4e32-9cde-67d41ddef8af">DNS_MESSAGE_BUFFER</a> structure that contains a DNS query message stored in a buffer.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dns_message_buffer">DNS_MESSAGE_BUFFER</a> structure that contains a DNS query message stored in a buffer.
 
 
 ### -param pdwBufferSize [in, out]
@@ -89,7 +89,7 @@ A pointer to a string that represents the name of the owner of the record set be
 
 ### -param wType [in]
 
-A value that represents the RR <a href="https://msdn.microsoft.com/95bc9193-7962-498a-9abd-c4718ac35f0f">DNS Record Type</a>. <b>wType</b> determines the format of <b>Data</b>. For example, if the value of <b>wType</b> is <b>DNS_TYPE_A</b>, the data type of <b>Data</b> is <a href="https://msdn.microsoft.com/0fd21930-1319-4ae7-b46f-2b744f4faae9">DNS_A_DATA</a>.
+A value that represents the RR <a href="https://docs.microsoft.com/windows/desktop/DNS/dns-constants">DNS Record Type</a>. <b>wType</b> determines the format of <b>Data</b>. For example, if the value of <b>wType</b> is <b>DNS_TYPE_A</b>, the data type of <b>Data</b> is <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_2">DNS_A_DATA</a>.
 
 
 ### -param Xid [in]
@@ -135,15 +135,15 @@ DnsWriteQuestionToBuffer_UTF8(
 
 
 
-<a href="https://msdn.microsoft.com/2a6fdf8f-ac30-4e32-9cde-67d41ddef8af">DNS_MESSAGE_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dns_message_buffer">DNS_MESSAGE_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d810b76-cea1-4904-9b5a-c2566b332c2c">DnsQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a>
  
 
  

@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-Allows a <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a> to attempt to regain ownership of a 
-    <a href="https://msdn.microsoft.com/4c2ee30e-4de2-44ba-93ba-d2d89196545e">quorum resource</a>. The 
+Allows a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a> to attempt to regain ownership of a 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/quorum-resource">quorum resource</a>. The 
     <b>PARBITRATE_ROUTINE</b> type defines a pointer to this function.
 
 
@@ -66,7 +66,7 @@ Resource identifier for the quorum resource to be owned.
 
 ### -param LostQuorumResource [in]
 
-Address of a <a href="https://msdn.microsoft.com/353eaf47-f93e-4243-8bed-7b6f07513a3c">QuorumResourceLost</a> callback 
+Address of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pquorum_resource_lost">QuorumResourceLost</a> callback 
        function that should be called if control of the quorum resource is lost after being successfully gained.
 
 
@@ -94,7 +94,7 @@ The arbitration was successful and the quorum resource remains defended.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">Error code</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">Error code</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -113,9 +113,9 @@ The arbitration was not successful.
 
 
 The <i>Arbitrate</i> entry-point function is implemented for 
-     <a href="https://msdn.microsoft.com/4c2ee30e-4de2-44ba-93ba-d2d89196545e">quorum resources</a> only. Expect this function to 
-     be called only after both <a href="https://msdn.microsoft.com/b07a2c32-2ff5-4917-9bcb-e1cfe445b3b3">Startup</a> and 
-     <a href="https://msdn.microsoft.com/0a5c10c5-0380-4638-b49d-396be3b3c0dd">Open</a> have been called.
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/quorum-resource">quorum resources</a> only. Expect this function to 
+     be called only after both <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pstartup_routine">Startup</a> and 
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-popen_routine">Open</a> have been called.
 
 Implementations of <b>Arbitrate</b> should take less than 300 
      milliseconds to complete.
@@ -133,7 +133,7 @@ If <b>Arbitrate</b> is successful, make sure that only the
 
 
 
-<a href="https://msdn.microsoft.com/933d7b97-b5be-4c84-a983-41d1fd935c19">Resource DLL Entry-Point Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>
  
 
  

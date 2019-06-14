@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-This structure is passed to applications when they receive a <a href="https://msdn.microsoft.com/en-us/library/Bb787285(v=VS.85).aspx">TBN_SAVE</a> notification code. It contains information about the button currently being saved. Applications can modify the values of the members to save additional information. 
+This structure is passed to applications when they receive a <a href="https://docs.microsoft.com/windows/desktop/Controls/tbn-save">TBN_SAVE</a> notification code. It contains information about the button currently being saved. Applications can modify the values of the members to save additional information. 
 
 
 ## -struct-fields
@@ -59,14 +59,14 @@ This structure is passed to applications when they receive a <a href="https://ms
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about the notification. 
+An <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that contains additional information about the notification. 
 
 
 ### -field pData
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
 
 A pointer to the data stream used to store the save information. When complete, it will contain blocks of Shell-defined information for each button, alternating with blocks defined by the application. Applications may also choose to place a block of global data at the start of 
 					<b>pData</b>. The format and length of the application-defined blocks are determined by the application. When the save starts, the Shell will pass the amount of memory it needs in 
@@ -76,7 +76,7 @@ A pointer to the data stream used to store the save information. When complete, 
 
 ### -field pCurrent
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
 
 A pointer to the start of the unused portion of the data stream. You should load your data here, and then advance 
 					<b>pCurrent</b> to the start of the remaining unused portion. The Shell will then load the information for the next button, advance 
@@ -85,7 +85,7 @@ A pointer to the start of the unused portion of the data stream. You should load
 
 ### -field cbData
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The size of the data stream. When the save starts, 
 					<b>cbData</b> will be set to the amount of data needed by the Shell. You should change it to the total amount allocated. 
@@ -107,7 +107,7 @@ An estimate of the number of buttons. Because it is based on the size of the dat
 
 ### -field tbButton
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb760476(v=VS.85).aspx">TBBUTTON</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-_tbbutton">TBBUTTON</a></b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb760476(v=VS.85).aspx">TBBUTTON</a> structure that contains information about the button currently being saved. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-_tbbutton">TBBUTTON</a> structure that contains information about the button currently being saved. 
 

@@ -54,7 +54,7 @@ The <b>get__NewEnum</b> method returns an enumerator for the collection.
 
 
 
-This method is provided to enable scripting and Visual Basic applications to iterate through the collection in a <code>For...Each</code> loop. C++ applications should use the <a href="https://msdn.microsoft.com/0d3fb395-191c-4862-8eba-07b5502dc5d4">ITuningSpaces::get_EnumTuningSpaces</a> method.
+This method is provided to enable scripting and Visual Basic applications to iterate through the collection in a <code>For...Each</code> loop. C++ applications should use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspaces-get_enumtuningspaces">ITuningSpaces::get_EnumTuningSpaces</a> method.
 
 
 ## -parameters
@@ -90,7 +90,7 @@ The returned <b>IEnumVARIANT</b> interface is not thread safe, because it is int
 
 
 
-<a href="https://msdn.microsoft.com/db252e22-8efe-4bfc-8fd3-2be7022bbbbd">ITuningSpaces Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspaces">ITuningSpaces Interface</a>
  
 
  

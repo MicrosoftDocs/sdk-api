@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Releases a protected handle referenced by <a href="https://msdn.microsoft.com/C6281FD6-3A37-4D90-9B19-03DD23949C39">CfReferenceProtectedHandle</a>.
+Releases a protected handle referenced by <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfreferenceprotectedhandle">CfReferenceProtectedHandle</a>.
 
 
 ## -parameters

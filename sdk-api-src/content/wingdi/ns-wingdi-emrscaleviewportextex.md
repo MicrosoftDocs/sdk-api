@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>EMRSCALEVIEWPORTEXTEX</b> and <b>EMRSCALEWINDOWEXTEX</b> structures contain members for the <a href="https://msdn.microsoft.com/8dde1322-82d7-4069-9655-a7bd3a324cb0">ScaleViewportExtEx</a> and <a href="https://msdn.microsoft.com/c34f0978-74dd-4839-99f2-a106f3d2c0f9">ScaleWindowExtEx</a> enhanced metafile records.
+The <b>EMRSCALEVIEWPORTEXTEX</b> and <b>EMRSCALEWINDOWEXTEX</b> structures contain members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-scaleviewportextex">ScaleViewportExtEx</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-scalewindowextex">ScaleWindowExtEx</a> enhanced metafile records.
 
 
 
@@ -90,11 +90,11 @@ Vertical divisor.
 
 
 
-<a href="https://msdn.microsoft.com/6a509ed5-cea3-4318-ad17-9d20425a6e80">Metafile Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/309ee4cf-111b-4f09-a722-4823cb3d26b0">Metafiles Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
  
 
  

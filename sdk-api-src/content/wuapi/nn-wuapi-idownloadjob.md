@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Contains properties and methods that are available to a download operation.  This interface is returned by the   <a href="https://msdn.microsoft.com/9a953240-3d8e-4876-92a9-cc7efca62780">IUpdateDownloader.BeginDownload</a> method.
+Contains properties and methods that are available to a download operation.  This interface is returned by the   <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatedownloader-begindownload">IUpdateDownloader.BeginDownload</a> method.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDownloadJob</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IDownloadJob</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDownloadJob</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IDownloadJob</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IDownloadJob</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0910acbc-81d7-44ae-bae1-26c82b33d29b">CleanUp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-idownloadjob-cleanup">CleanUp</a>
 </td>
 <td align="left" width="63%">
 Waits for an asynchronous operation to be completed and releases all callbacks.
@@ -79,16 +79,16 @@ Waits for an asynchronous operation to be completed and releases all callbacks.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e87c85cf-0011-4edb-a409-0b4db3292caf">GetProgress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-idownloadjob-getprogress">GetProgress</a>
 </td>
 <td align="left" width="63%">
-Returns an <a href="https://msdn.microsoft.com/773de760-5fde-4975-ba8d-d20b3affb4a7">IDownloadProgress</a> interface that describes the current progress of a download.
+Returns an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-idownloadprogress">IDownloadProgress</a> interface that describes the current progress of a download.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/01f403c5-b73d-4366-8e9e-132f373a354f">RequestAbort</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-idownloadjob-requestabort">RequestAbort</a>
 </td>
 <td align="left" width="63%">
 Makes a request to end an asynchronous download.
@@ -106,7 +106,7 @@ Makes a request to end an asynchronous download.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/47d2af4a-c04f-4413-ad29-3b8cb1292539">AsyncState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-idownloadjob-get_asyncstate">AsyncState</a>
 
 
 </td>
@@ -115,14 +115,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets  the caller-specific state object that is passed to the <a href="https://msdn.microsoft.com/9a953240-3d8e-4876-92a9-cc7efca62780">IUpdateDownloader.BeginDownload</a> method.
+Gets  the caller-specific state object that is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatedownloader-begindownload">IUpdateDownloader.BeginDownload</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d63f1bfc-589c-4cd2-95dd-e8c88e7f593c">IsCompleted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-idownloadjob-get_iscompleted">IsCompleted</a>
 
 
 </td>
@@ -131,14 +131,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets  the setting that indicates whether the call to <a href="https://msdn.microsoft.com/9a953240-3d8e-4876-92a9-cc7efca62780">IUpdateDownloader.BeginDownload</a> was processed completely.
+Gets  the setting that indicates whether the call to <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatedownloader-begindownload">IUpdateDownloader.BeginDownload</a> was processed completely.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/43ceffc8-f045-4cac-976a-2357ab0d1283">Updates</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-idownloadjob-get_updates">Updates</a>
 
 
 </td>

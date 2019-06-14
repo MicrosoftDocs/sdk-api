@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>BCryptUnregisterConfigChangeNotify(HANDLE)</b> function removes a user mode CNG configuration change event handler that was created by using the <a href="https://msdn.microsoft.com/e0d60ea1-3b0b-4afe-bbfc-52f0d48b7399">BCryptRegisterConfigChangeNotify(HANDLE*)</a> function.
+The <b>BCryptUnregisterConfigChangeNotify(HANDLE)</b> function removes a user mode CNG configuration change event handler that was created by using the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptregisterconfigchangenotify">BCryptRegisterConfigChangeNotify(HANDLE*)</a> function.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>BCryptUnregisterConfigChangeNotify(HANDLE)</b> function removes a user mo
 
 ### -param pEvent [in]
 
-The handle of the event to remove. This is the handle that was obtained by using the <a href="https://msdn.microsoft.com/e0d60ea1-3b0b-4afe-bbfc-52f0d48b7399">BCryptRegisterConfigChangeNotify(HANDLE*)</a> function.
+The handle of the event to remove. This is the handle that was obtained by using the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptregisterconfigchangenotify">BCryptRegisterConfigChangeNotify(HANDLE*)</a> function.
 
 
 ## -returns
@@ -121,7 +121,7 @@ A memory allocation failure occurred.
 
 
 
-<b>BCryptUnregisterConfigChangeNotify(HANDLE)</b> can be called only in user mode. Code executing in kernel mode must call <a href="https://msdn.microsoft.com/6354f595-f917-485e-8682-2be994135c36">BCryptUnregisterConfigChangeNotify(PRKEVENT)</a>.
+<b>BCryptUnregisterConfigChangeNotify(HANDLE)</b> can be called only in user mode. Code executing in kernel mode must call <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptunregisterconfigchangenotify">BCryptUnregisterConfigChangeNotify(PRKEVENT)</a>.
 
 
 
@@ -131,7 +131,7 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://msdn.microsoft.com/e0d60ea1-3b0b-4afe-bbfc-52f0d48b7399">BCryptRegisterConfigChangeNotify(HANDLE*)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptregisterconfigchangenotify">BCryptRegisterConfigChangeNotify(HANDLE*)</a>
  
 
  

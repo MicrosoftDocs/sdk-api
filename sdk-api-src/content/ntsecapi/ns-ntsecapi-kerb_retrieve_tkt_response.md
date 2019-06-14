@@ -52,7 +52,7 @@ ms.custom: 19H1
 The <b>KERB_RETRIEVE_TKT_RESPONSE</b> structure contains the response from retrieving a ticket.
 
 It is used by 
-<a href="https://msdn.microsoft.com/b891fa60-28b3-4819-9a92-e4524677fa4f">LsaCallAuthenticationPackage</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a>.
 
 
 ## -struct-fields
@@ -63,5 +63,5 @@ It is used by
 ### -field Ticket
 
 
-<a href="https://msdn.microsoft.com/742e2795-ec74-4856-a680-7a1c233a2934">KERB_EXTERNAL_TICKET</a> structure containing the requested ticket.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_external_ticket">KERB_EXTERNAL_TICKET</a> structure containing the requested ticket.
 

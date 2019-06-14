@@ -179,7 +179,7 @@ The method did not succeed.
 
 
 
-<a href="https://msdn.microsoft.com/9df9ee58-0354-49f0-af9c-5b92179cfaea">IAssemblyCacheItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nn-winsxs-iassemblycacheitem">IAssemblyCacheItem</a>
  
 
  

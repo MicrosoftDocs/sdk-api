@@ -81,7 +81,7 @@ Resolves the source samples to their average value. It can be used with any non-
 
 
 
-This enum is used by the <a href="https://msdn.microsoft.com/8CF3809C-0EC7-4FBB-AEEF-E74FCD9B836D">ID3D12GraphicsCommandList1::ResolveSubresourceRegion</a> function.
+This enum is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-resolvesubresourceregion">ID3D12GraphicsCommandList1::ResolveSubresourceRegion</a> function.
 
 
 
@@ -91,7 +91,7 @@ This enum is used by the <a href="https://msdn.microsoft.com/8CF3809C-0EC7-4FBB-
 
 
 
-<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
  
 
  

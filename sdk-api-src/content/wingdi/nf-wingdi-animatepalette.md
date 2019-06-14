@@ -76,7 +76,7 @@ The number of entries to be replaced.
 
 ### -param ppe [in]
 
-A pointer to the first member in an array of <a href="https://msdn.microsoft.com/6430e7cf-c9f2-4376-8b17-28c10d9d0f00">PALETTEENTRY</a> structures used to replace the current entries.
+A pointer to the first member in an array of <a href="https://docs.microsoft.com/previous-versions//dd162769(v=vs.85)">PALETTEENTRY</a> structures used to replace the current entries.
 
 
 ## -returns
@@ -94,9 +94,9 @@ If the function fails, the return value is zero.
 
 
 
-An application can determine whether a device supports palette operations by calling the <a href="https://msdn.microsoft.com/d524c4c7-22af-495d-aecc-b9921e53ca7b">GetDeviceCaps</a> function and specifying the RASTERCAPS constant.
+An application can determine whether a device supports palette operations by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function and specifying the RASTERCAPS constant.
 
-The <b>AnimatePalette</b> function only changes entries with the PC_RESERVED flag set in the corresponding <b>palPalEntry</b> member of the <a href="https://msdn.microsoft.com/99d70a0e-ac61-4a88-a500-66443e7882ad">LOGPALETTE</a> structure.
+The <b>AnimatePalette</b> function only changes entries with the PC_RESERVED flag set in the corresponding <b>palPalEntry</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogpalette">LOGPALETTE</a> structure.
 
 If the given palette is associated with the active window, the colors in the palette are replaced immediately.
 
@@ -108,27 +108,27 @@ If the given palette is associated with the active window, the colors in the pal
 
 
 
-<a href="https://msdn.microsoft.com/9dd32d4a-30bd-406f-a934-bb71ad4ca2cb">Color Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/color-functions">Color Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d1a25f13-6b47-4be7-927b-814dd6ae81f8">Colors Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/colors">Colors Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/f3462198-9360-4b77-ac62-9fe21ec666be">CreatePalette</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpalette">CreatePalette</a>
 
 
 
-<a href="https://msdn.microsoft.com/d524c4c7-22af-495d-aecc-b9921e53ca7b">GetDeviceCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
 
 
 
-<a href="https://msdn.microsoft.com/99d70a0e-ac61-4a88-a500-66443e7882ad">LOGPALETTE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogpalette">LOGPALETTE</a>
 
 
 
-<a href="https://msdn.microsoft.com/6430e7cf-c9f2-4376-8b17-28c10d9d0f00">PALETTEENTRY</a>
+<a href="https://docs.microsoft.com/previous-versions//dd162769(v=vs.85)">PALETTEENTRY</a>
  
 
  

@@ -114,7 +114,7 @@ Returns ERROR_SUCCESS if successful, or a Windows error code otherwise.
 
 
 
-For Windows 2000, <b>SHRegSetPath</b> uses <a href="https://msdn.microsoft.com/cfab1ee0-03f3-4e0f-a29d-5331fec022b5">PathUnExpandEnvStrings</a> to convert folder names to their corresponding environment string. If any environment variables were substituted, the registry value will be set with the <b>REG_EXPAND_SZ</b> data type. Otherwise, it will be set with the <b>REG_SZ</b> data type.
+For Windows 2000, <b>SHRegSetPath</b> uses <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathunexpandenvstringsa">PathUnExpandEnvStrings</a> to convert folder names to their corresponding environment string. If any environment variables were substituted, the registry value will be set with the <b>REG_EXPAND_SZ</b> data type. Otherwise, it will be set with the <b>REG_SZ</b> data type.
 
 The following folder paths will be replaced by their equivalent environment string.
 

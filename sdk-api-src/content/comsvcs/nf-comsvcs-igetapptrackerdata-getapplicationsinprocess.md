@@ -74,7 +74,7 @@ A partition ID to filter results, or GUID_NULL for all partitions.
 
 ### -param Flags [in]
 
-A combination of flags from the <a href="https://msdn.microsoft.com/7af61221-e876-4b1c-b416-a92817ad7025">GetAppTrackerDataFlags</a> enumeration to filter results and to select which data is returned. The following flags are supported: GATD_INCLUDE_LIBRARY_APPS, GATD_INCLUDE_SWC, GATD_INCLUDE_APPLICATION_NAME. See Remarks below for more information. 
+A combination of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-_getapptrackerdataflags">GetAppTrackerDataFlags</a> enumeration to filter results and to select which data is returned. The following flags are supported: GATD_INCLUDE_LIBRARY_APPS, GATD_INCLUDE_SWC, GATD_INCLUDE_APPLICATION_NAME. See Remarks below for more information. 
 
 
 ### -param NumApplicationsInProcess [out]
@@ -84,7 +84,7 @@ On return, the number of applications in the process that match the filter crite
 
 ### -param Applications [out]
 
-On return, an array of <a href="https://msdn.microsoft.com/3291eede-5318-4d97-a969-ce54381f30af">ApplicationSummary</a> structures for the matching applications. 
+On return, an array of <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-_applicationsummary">ApplicationSummary</a> structures for the matching applications. 
 
 
 
@@ -154,7 +154,7 @@ If neither GATD_INCLUDE_LIBRARY_APPS nor GATD_INCLUDE_SWC are set in <i>Flags</i
 
 
 
-<a href="https://msdn.microsoft.com/f2f9c03b-4f57-4087-8fef-5cdccece91d9">IGetAppTrackerData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-igetapptrackerdata">IGetAppTrackerData</a>
  
 
  

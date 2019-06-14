@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>MPRAPI_OBJECT_TYPE</b> enumeration specifies the structure type in  a <a href="https://msdn.microsoft.com/2f4e1ddc-7991-4091-9889-fdd2d75e702f">MPRAPI_OBJECT_HEADER</a> structure.
+The <b>MPRAPI_OBJECT_TYPE</b> enumeration specifies the structure type in  a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mprapi_object_header">MPRAPI_OBJECT_HEADER</a> structure.
 
 
 ## -enum-fields
@@ -59,27 +59,27 @@ The <b>MPRAPI_OBJECT_TYPE</b> enumeration specifies the structure type in  a <a 
 
 ### -field MPRAPI_OBJECT_TYPE_RAS_CONNECTION_OBJECT
 
-The structure is a <a href="https://msdn.microsoft.com/48526073-caeb-463e-b85b-1ef46ca1e2b4">RAS_CONNECTION_EX</a> structure.
+The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_ex">RAS_CONNECTION_EX</a> structure.
 
 
 ### -field MPRAPI_OBJECT_TYPE_MPR_SERVER_OBJECT
 
-The structure is a <a href="https://msdn.microsoft.com/10c1e3bd-adb8-4aff-835c-e7d881c9f5cf">MPR_SERVER_EX</a> structure.
+The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_server_ex0">MPR_SERVER_EX</a> structure.
 
 
 ### -field MPRAPI_OBJECT_TYPE_MPR_SERVER_SET_CONFIG_OBJECT
 
-The structure is a <a href="https://msdn.microsoft.com/6c993c9c-4522-4758-926a-fa7ef2a89418">MPR_SERVER_SET_CONFIG_EX</a> structure.
+The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_server_set_config_ex0">MPR_SERVER_SET_CONFIG_EX</a> structure.
 
 
 ### -field MPRAPI_OBJECT_TYPE_AUTH_VALIDATION_OBJECT
 
-The structure is a <a href="https://msdn.microsoft.com/17e78379-a9f8-4aab-aff3-aa9b21eb629c">AUTH_VALIDATION_EX</a> structure.
+The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_auth_validation_ex">AUTH_VALIDATION_EX</a> structure.
 
 
 ### -field MPRAPI_OBJECT_TYPE_UPDATE_CONNECTION_OBJECT
 
-The structure is a <a href="https://msdn.microsoft.com/bfa35f1c-e9f5-43f1-ad2d-d54f4675cff8">RAS_UPDATE_CONNECTION</a> structure.
+The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_update_connection_">RAS_UPDATE_CONNECTION</a> structure.
 
 
 ### -field MPRAPI_OBJECT_TYPE_IF_CUSTOM_CONFIG_OBJECT
@@ -92,15 +92,15 @@ The structure is a <a href="https://msdn.microsoft.com/bfa35f1c-e9f5-43f1-ad2d-d
 
 
 
-<a href="https://msdn.microsoft.com/2f4e1ddc-7991-4091-9889-fdd2d75e702f">MPRAPI_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mprapi_object_header">MPRAPI_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/61265bb0-7884-4896-a76a-a2cc11ccccda">Router Management Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-enumerations">Router Management Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/352505a9-616a-4d47-9857-f88d345333fd">Router Management Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
  
 
  

@@ -59,7 +59,7 @@ The interface you implement to provide needed information to  the text analyzer,
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextAnalysisSource1</b> interface inherits from <a href="https://msdn.microsoft.com/7e2a523d-9191-4f99-9e73-a7955c432126">IDWriteTextAnalysisSource</a>. <b>IDWriteTextAnalysisSource1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextAnalysisSource1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextanalysissource">IDWriteTextAnalysisSource</a>. <b>IDWriteTextAnalysisSource1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IDWriteTextAnalysisSource1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2F229E8A-171D-4DED-9E9E-F2925855E8C0">GetVerticalGlyphOrientation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalysissource1-getverticalglyphorientation">GetVerticalGlyphOrientation</a>
 </td>
 <td align="left" width="63%">
 Used by the text analyzer to obtain the desired glyph
@@ -90,7 +90,7 @@ Used by the text analyzer to obtain the desired glyph
 
 
 
-<a href="https://msdn.microsoft.com/7e2a523d-9191-4f99-9e73-a7955c432126">IDWriteTextAnalysisSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextanalysissource">IDWriteTextAnalysisSource</a>
  
 
  

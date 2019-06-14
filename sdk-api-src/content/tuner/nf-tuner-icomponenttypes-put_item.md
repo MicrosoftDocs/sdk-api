@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>put_Item</b> method replaces the <a href="https://msdn.microsoft.com/d5d8af25-4d39-4327-bd6d-8984ae9e6a78">ComponentType</a> object at the specified index with a new <b>ComponentType</b> object.
+The <b>put_Item</b> method replaces the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd693036(v=vs.85)">ComponentType</a> object at the specified index with a new <b>ComponentType</b> object.
 
 
 
@@ -67,7 +67,7 @@ Index number of the item to be replaced.
 
 ### -param ComponentType [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/e83bbbbe-64a9-4ed3-9c32-925ca80c2c38">IComponentType</a> object that will be inserted into the collection.
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttype">IComponentType</a> object that will be inserted into the collection.
 
 
 ## -returns
@@ -84,7 +84,7 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="https://msdn.microsoft.com/47c3837b-1348-4359-ad3d-3d82c5fe3781">IComponentTypes Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttypes">IComponentTypes Interface</a>
  
 
  

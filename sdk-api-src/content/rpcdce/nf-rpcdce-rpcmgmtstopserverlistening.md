@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>RpcMgmtStopServerListening</b> function tells a server to stop listening for remote procedure calls. This function will not affect auto-listen interfaces. See 
-<a href="https://msdn.microsoft.com/1666bc0a-72bf-40da-b054-c10b477c4367">RpcServerRegisterIfEx</a> for more details.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterifex">RpcServerRegisterIfEx</a> for more details.
 
 
 ## -parameters
@@ -110,7 +110,7 @@ This was the wrong kind of binding for the operation.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -121,15 +121,15 @@ This was the wrong kind of binding for the operation.
 
 An application calls the 
 <b>RpcMgmtStopServerListening</b> function to direct a server to stop listening for remote procedure calls. If <i>DontWait</i> was <b>TRUE</b>, the application should call 
-<a href="https://msdn.microsoft.com/19fa750f-76f8-4005-992f-9c2707e48668">RpcMgmtWaitServerListen</a> to wait for all calls to complete.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtwaitserverlisten">RpcMgmtWaitServerListen</a> to wait for all calls to complete.
 
-When it receives a stop-listening request, the RPC run-time library stops accepting new remote procedure calls for all registered interfaces. Executing calls are allowed to complete, including callbacks. After all calls complete, this function signals <a href="https://msdn.microsoft.com/430561b2-c74b-423c-8448-339cc71dbd68">RpcServerListen</a> function that it must stop listening and return to the caller. If the <i>DontWait</i> parameter of <b>RpcServerListen</b> was set to <b>TRUE</b>, the application calls 
-<a href="https://msdn.microsoft.com/19fa750f-76f8-4005-992f-9c2707e48668">RpcMgmtWaitServerListen</a> for all remaining calls to complete.
+When it receives a stop-listening request, the RPC run-time library stops accepting new remote procedure calls for all registered interfaces. Executing calls are allowed to complete, including callbacks. After all calls complete, this function signals <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverlisten">RpcServerListen</a> function that it must stop listening and return to the caller. If the <i>DontWait</i> parameter of <b>RpcServerListen</b> was set to <b>TRUE</b>, the application calls 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtwaitserverlisten">RpcMgmtWaitServerListen</a> for all remaining calls to complete.
 
 <div class="alert"><b>Note</b>  From the client-side, 
 <b>RpcMgmtStopServerListening</b> is disabled by default. To enable this function, create an authorization function in your server application that returns <b>TRUE</b> (to allow a remote shutdown) whenever 
 <b>RpcMgmtStopServerListening</b> is called. Use 
-<a href="https://msdn.microsoft.com/bb381a52-17e4-4ebe-9a1a-a561c12d73d4">RpcMgmtSetAuthorizationFn</a> to give the client access to the management function.</div>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtsetauthorizationfn">RpcMgmtSetAuthorizationFn</a> to give the client access to the management function.</div>
 <div> </div>
 The server must be listening for remote procedure calls for this function to succeed.  If the server is not listening, the function fails.
 
@@ -141,19 +141,19 @@ The server must be listening for remote procedure calls for this function to suc
 
 
 
-<a href="https://msdn.microsoft.com/839eefea-f06d-412b-9637-4af01b783121">RpcEpResolveBinding</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcepresolvebinding">RpcEpResolveBinding</a>
 
 
 
-<a href="https://msdn.microsoft.com/19fa750f-76f8-4005-992f-9c2707e48668">RpcMgmtWaitServerListen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtwaitserverlisten">RpcMgmtWaitServerListen</a>
 
 
 
-<a href="https://msdn.microsoft.com/430561b2-c74b-423c-8448-339cc71dbd68">RpcServerListen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverlisten">RpcServerListen</a>
 
 
 
-<a href="https://msdn.microsoft.com/1666bc0a-72bf-40da-b054-c10b477c4367">RpcServerRegisterIfEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterifex">RpcServerRegisterIfEx</a>
  
 
  

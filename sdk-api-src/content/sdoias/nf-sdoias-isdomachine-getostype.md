@@ -62,7 +62,7 @@ The
 ### -param eOSType [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/83a3d4cf-e0ab-467a-8c5a-b7372c76cca3">IASOSTYPE</a> variable that receives the type of the operating system on the SDO computer.
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iasostype">IASOSTYPE</a> variable that receives the type of the operating system on the SDO computer.
 
 
 ## -returns
@@ -81,7 +81,7 @@ If the method fails, the return value is one of the following error codes.
 
 
 Before calling this method, use the 
-<a href="https://msdn.microsoft.com/444ba670-8224-40bc-b0e4-585c682deafd">ISdoMachine::Attach</a> method to attach to the SDO computer.
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-attach">ISdoMachine::Attach</a> method to attach to the SDO computer.
 
 
 
@@ -91,15 +91,15 @@ Before calling this method, use the
 
 
 
-<a href="https://msdn.microsoft.com/83a3d4cf-e0ab-467a-8c5a-b7372c76cca3">IASOSTYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iasostype">IASOSTYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/11372116-56eb-4d8e-8f28-4402835ee903">ISdoMachine</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdomachine">ISdoMachine</a>
 
 
 
-<a href="https://msdn.microsoft.com/444ba670-8224-40bc-b0e4-585c682deafd">ISdoMachine::Attach</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-attach">ISdoMachine::Attach</a>
  
 
  

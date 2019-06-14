@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>TSPI_lineSetAppSpecific</b> function sets the application-specific field of the specified call's 
-<a href="https://msdn.microsoft.com/b077546b-cc95-44ce-99ee-f0007fd916b2">LINECALLINFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a> structure.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ The handle to the call whose application-specific field is to be set. The call s
 ### -param dwAppSpecific
 
 The new content of the <b>dwAppSpecific</b> member for the call's 
-<a href="https://msdn.microsoft.com/b077546b-cc95-44ce-99ee-f0007fd916b2">LINECALLINFO</a> structure. This value is uninterpreted by the service provider. This parameter is not validated by TAPI when this function is called.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a> structure. This value is uninterpreted by the service provider. This parameter is not validated by TAPI when this function is called.
 
 
 ## -returns
@@ -86,9 +86,9 @@ LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONFAILED, LINEERR_NOMEM, LINEERR_RESOURC
 
 
 The application-specific field in the 
-<a href="https://msdn.microsoft.com/b077546b-cc95-44ce-99ee-f0007fd916b2">LINECALLINFO</a> data structure that exists for each call is uninterpreted by the Telephony API or any of its service providers. Its usage is entirely defined by the applications. The field can be read from the 
-<a href="https://msdn.microsoft.com/b077546b-cc95-44ce-99ee-f0007fd916b2">LINECALLINFO</a> record returned by 
-<a href="https://msdn.microsoft.com/9ef43928-05aa-4ec6-bc44-f07a63d8ecdf">TSPI_lineGetCallInfo</a>. However, 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a> data structure that exists for each call is uninterpreted by the Telephony API or any of its service providers. Its usage is entirely defined by the applications. The field can be read from the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a> record returned by 
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetcallinfo">TSPI_lineGetCallInfo</a>. However, 
 <b>TSPI_lineSetAppSpecific</b> must be used to set the field so that changes become visible to other applications. When this field is changed, the service provider sends a LINE_CALLINFO message with an indication that the <b>AppSpecific</b> field has changed.
 
 
@@ -99,15 +99,15 @@ The application-specific field in the
 
 
 
-<a href="https://msdn.microsoft.com/b077546b-cc95-44ce-99ee-f0007fd916b2">LINECALLINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/74d16c8c-ef58-41a0-b777-225ee601ee6c">LINE_CALLINFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725218(v=vs.85)">LINE_CALLINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ef43928-05aa-4ec6-bc44-f07a63d8ecdf">TSPI_lineGetCallInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetcallinfo">TSPI_lineGetCallInfo</a>
  
 
  

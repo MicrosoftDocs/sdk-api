@@ -67,7 +67,7 @@ Tracks the full path for the binary (DLL or EXE) from which the ETW registration
 
 ### -field EventProviderSetTraits
 
-Sets traits for the provider. Implicitly indicates that the provider correctly initializes the EVENT_DATA_DESCRIPTOR values passed to EventWrite APIs, so the EVENT_DATA_DESCRIPTOR::Type field will be respected. For more information on the format of the traits, see <a href="https://msdn.microsoft.com/97755D64-BF57-4C0D-8ED4-040FC375C4AF">Provider Traits</a>.
+Sets traits for the provider. Implicitly indicates that the provider correctly initializes the EVENT_DATA_DESCRIPTOR values passed to EventWrite APIs, so the EVENT_DATA_DESCRIPTOR::Type field will be respected. For more information on the format of the traits, see <a href="https://docs.microsoft.com/windows/desktop/ETW/provider-traits">Provider Traits</a>.
 
 
 ### -field EventProviderUseDescriptorType
@@ -85,11 +85,11 @@ Maximum value for testing purposes.
 
 
 
-<a href="https://msdn.microsoft.com/e8b408ba-4bb5-4166-bf43-d18e4fe8de32">EventSetInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventsetinformation">EventSetInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/97755D64-BF57-4C0D-8ED4-040FC375C4AF">Provider Traits</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/provider-traits">Provider Traits</a>
  
 
  

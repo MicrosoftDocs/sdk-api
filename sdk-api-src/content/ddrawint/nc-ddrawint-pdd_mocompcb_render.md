@@ -68,7 +68,7 @@ The <b>DdMoCompRender</b> callback function tells the driver what macroblocks to
 
 #### - lpRenderData
 
-Points to a <a href="https://msdn.microsoft.com/a890707f-b773-4b66-8817-68efdb8d47f8">DD_RENDERMOCOMPDATA</a> structure that contains the information needed to render a frame. 
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_rendermocompdata">DD_RENDERMOCOMPDATA</a> structure that contains the information needed to render a frame. 
 
 
 ## -returns
@@ -86,7 +86,7 @@ Points to a <a href="https://msdn.microsoft.com/a890707f-b773-4b66-8817-68efdb8d
 
 DirectDraw drivers that support motion compensation must implement <b>DdMoCompRender</b>.
 
-<b>DdMoCompRender</b> can be called multiple times between the <a href="https://msdn.microsoft.com/0038aedc-2e4f-4d89-878f-7f6f751015cc">DdMoCompBeginFrame</a> and <a href="https://msdn.microsoft.com/3589f003-32fc-44c4-867a-abf54f347de9">DdMoCompEndFrame</a> sequence.
+<b>DdMoCompRender</b> can be called multiple times between the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_mocompcb_beginframe">DdMoCompBeginFrame</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_mocompcb_endframe">DdMoCompEndFrame</a> sequence.
 
 If a previous render operation is not yet finished, the driver should fail the call by setting the <b>ddRVal</b> member of the DD_RENDERMOCOMPDATA structure at <i>lpRenderData</i> to DDERR_WASSTILLDRAWING and returning DDHAL_DRIVER_HANDLED. 
 
@@ -98,15 +98,15 @@ If a previous render operation is not yet finished, the driver should fail the c
 
 
 
-<a href="https://msdn.microsoft.com/a890707f-b773-4b66-8817-68efdb8d47f8">DD_RENDERMOCOMPDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_rendermocompdata">DD_RENDERMOCOMPDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/0038aedc-2e4f-4d89-878f-7f6f751015cc">DdMoCompBeginFrame</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_mocompcb_beginframe">DdMoCompBeginFrame</a>
 
 
 
-<a href="https://msdn.microsoft.com/3589f003-32fc-44c4-867a-abf54f347de9">DdMoCompEndFrame</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_mocompcb_endframe">DdMoCompEndFrame</a>
  
 
  

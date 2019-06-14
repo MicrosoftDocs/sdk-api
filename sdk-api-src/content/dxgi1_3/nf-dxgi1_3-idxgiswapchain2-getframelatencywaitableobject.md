@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 Returns a waitable handle that signals when the DXGI adapter has finished presenting a new frame.
 
-Windows 8.1 introduces new APIs that allow lower-latency rendering by waiting  until the previous frame is presented to the display before drawing the next frame. To use this method, first create the DXGI swap chain with the <a href="https://msdn.microsoft.com/en-us/library/Bb173076(v=VS.85).aspx">DXGI_SWAP_CHAIN_FLAG_FRAME_LATENCY_WAITABLE_OBJECT</a> flag set, then call <b>GetFrameLatencyWaitableObject</b> to retrieve the waitable handle. Use the waitable handle with <a href="https://msdn.microsoft.com/530b5340-f8b2-4e00-a3ca-87a7c7372482">WaitForSingleObjectEx</a> to synchronize rendering of each new frame with the end of the previous frame. For every frame it renders, the app should wait on this handle before starting any rendering operations. Note that this requirement includes the first frame the app renders with the swap chain. See the <a href="http://go.microsoft.com/fwlink/p/?linkid=320129">DirectXLatency sample</a>.
+Windows 8.1 introduces new APIs that allow lower-latency rendering by waiting  until the previous frame is presented to the display before drawing the next frame. To use this method, first create the DXGI swap chain with the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_chain_flag">DXGI_SWAP_CHAIN_FLAG_FRAME_LATENCY_WAITABLE_OBJECT</a> flag set, then call <b>GetFrameLatencyWaitableObject</b> to retrieve the waitable handle. Use the waitable handle with <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobjectex">WaitForSingleObjectEx</a> to synchronize rendering of each new frame with the end of the previous frame. For every frame it renders, the app should wait on this handle before starting any rendering operations. Note that this requirement includes the first frame the app renders with the swap chain. See the <a href="http://go.microsoft.com/fwlink/p/?linkid=320129">DirectXLatency sample</a>.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ Windows 8.1 introduces new APIs that allow lower-latency rendering by waiting  
 
 
 
-A handle to the waitable object, or NULL if the swap chain was not created with <a href="https://msdn.microsoft.com/en-us/library/Bb173076(v=VS.85).aspx">DXGI_SWAP_CHAIN_FLAG_FRAME_LATENCY_WAITABLE_OBJECT</a>.
+A handle to the waitable object, or NULL if the swap chain was not created with <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_chain_flag">DXGI_SWAP_CHAIN_FLAG_FRAME_LATENCY_WAITABLE_OBJECT</a>.
 
 
 
@@ -80,15 +80,15 @@ A handle to the waitable object, or NULL if the swap chain was not created with 
 
 
 
-<a href="https://msdn.microsoft.com/F0A07900-8F10-475B-B13F-E0F49B50C2EB">GetMaximumFrameLatency</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgiswapchain2-getmaximumframelatency">GetMaximumFrameLatency</a>
 
 
 
-<a href="https://msdn.microsoft.com/1E14EAF6-5EEA-4B4A-8F5F-0BC779093654">IDXGISwapChain2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgiswapchain2">IDXGISwapChain2</a>
 
 
 
-<a href="https://msdn.microsoft.com/AF3F03F2-38B4-474A-8A66-86A93D776EA0">SetMaximumFrameLatency</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgiswapchain2-setmaximumframelatency">SetMaximumFrameLatency</a>
  
 
  

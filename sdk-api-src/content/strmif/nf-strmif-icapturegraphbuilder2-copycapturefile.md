@@ -78,7 +78,7 @@ Boolean value that specifies whether pressing the ESC key cancels the copy opera
 
 ### -param pCallback [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/780ffe63-f4b6-4b3c-b7a6-571b58aba4dd">IAMCopyCaptureFileProgress</a> interface to display progress information, or <b>NULL</b>. See Remarks for more information.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamcopycapturefileprogress">IAMCopyCaptureFileProgress</a> interface to display progress information, or <b>NULL</b>. See Remarks for more information.
 
 
 ## -returns
@@ -172,7 +172,7 @@ Typically, you will first capture to a large preallocated file. This method copi
 
 The source and destination files must be AVI files. Other file types are not supported.
 
-To display the progress of the copy operation, implement the <a href="https://msdn.microsoft.com/780ffe63-f4b6-4b3c-b7a6-571b58aba4dd">IAMCopyCaptureFileProgress</a> interface and pass a pointer to the interface in the <i>pCallback</i> parameter. If <i>pCallback</i> is non-<b>NULL</b>, this method periodically calls the <a href="https://msdn.microsoft.com/6908627e-51de-4206-bdb2-b3aaedf9478f">IAMCopyCaptureFileProgress::Progress</a> method with an integer between 0 and 100 that specifies the percentage complete.
+To display the progress of the copy operation, implement the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamcopycapturefileprogress">IAMCopyCaptureFileProgress</a> interface and pass a pointer to the interface in the <i>pCallback</i> parameter. If <i>pCallback</i> is non-<b>NULL</b>, this method periodically calls the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamcopycapturefileprogress-progress">IAMCopyCaptureFileProgress::Progress</a> method with an integer between 0 and 100 that specifies the percentage complete.
 
 
 
@@ -182,11 +182,11 @@ To display the progress of the copy operation, implement the <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/abdf6fb2-e98f-4df8-98ec-06d33798abb5">ICaptureGraphBuilder2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icapturegraphbuilder2">ICaptureGraphBuilder2 Interface</a>
  
 
  

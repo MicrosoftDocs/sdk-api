@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 
-This interface is exposed by the Windows Media Decoder <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">DMO</a> and is called by a media player source filter to set up the various connections required to enable DirectX® video acceleration (VA) for decoding of Windows Media-based video content. A player obtains this interface by calling the <a href="https://msdn.microsoft.com/en-us/library/Dd757427(v=VS.85).aspx">IWMReaderAccelerator::GetCodecInterface</a> method, which is exposed on the reader object.
+This interface is exposed by the Windows Media Decoder <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">DMO</a> and is called by a media player source filter to set up the various connections required to enable DirectX® video acceleration (VA) for decoding of Windows Media-based video content. A player obtains this interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderaccelerator-getcodecinterface">IWMReaderAccelerator::GetCodecInterface</a> method, which is exposed on the reader object.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMCodecAMVideoAccelerator</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMCodecAMVideoAccelerator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMCodecAMVideoAccelerator</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMCodecAMVideoAccelerator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IWMCodecAMVideoAccelerator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743309(v=VS.85).aspx">NegotiateConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmdxva/nf-wmdxva-iwmcodecamvideoaccelerator-negotiateconnection">NegotiateConnection</a>
 </td>
 <td align="left" width="63%">
 Called by the output pin on the player's source filter during the connection process when it has been given a DirectX VA media type.
@@ -81,7 +81,7 @@ Called by the output pin on the player's source filter during the connection pro
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743311(v=VS.85).aspx">SetAcceleratorInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmdxva/nf-wmdxva-iwmcodecamvideoaccelerator-setacceleratorinterface">SetAcceleratorInterface</a>
 </td>
 <td align="left" width="63%">
 Called by the output pin on the player's source filter to pass the VMR's <b>IAMVideoAccelerator</b> interface to the decoder DMO.
@@ -90,7 +90,7 @@ Called by the output pin on the player's source filter to pass the VMR's <b>IAMV
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743312(v=VS.85).aspx">SetPlayerNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmdxva/nf-wmdxva-iwmcodecamvideoaccelerator-setplayernotify">SetPlayerNotify</a>
 </td>
 <td align="left" width="63%">
 Called by the output pin on the source filter to provide the decoder DMO with the source filter's <b>IWMPlayerTimestampHook</b> interface to enable the filter to update the time stamps on the samples before they are delivered to the renderer.
@@ -105,15 +105,15 @@ Called by the output pin on the source filter to provide the decoder DMO with th
 
 
 
-<a href="https://msdn.microsoft.com/5cb2f564-88e3-4b60-bde3-6ccf69c97c48">Enabling DirectX Video Acceleration</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/enabling-directx-video-acceleration">Enabling DirectX Video Acceleration</a>
 
 
 
-<a href="https://msdn.microsoft.com/c61a0739-09f2-497f-a2cd-d3f2472738e3">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/b5edbf8b-820f-4e09-a482-8efc2283360e">Reader Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/reader-object">Reader Object</a>
  
 
  

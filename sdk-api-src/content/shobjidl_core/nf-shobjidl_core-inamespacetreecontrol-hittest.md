@@ -59,14 +59,14 @@ Retrieves the item that a given point is in, if any.
 
 ### -param ppt [in]
 
-Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>*</b>
 
 A pointer to the point to be tested.
 
 
 ### -param ppsiOut [out]
 
-Type: <b><a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>**</b>
 
 The address of a pointer to the item in which the point exists, or <b>NULL</b> if the point does not exist in an item.
 

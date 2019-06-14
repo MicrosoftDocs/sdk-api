@@ -62,22 +62,22 @@ Creates a video decoder device.
 
 ### -param Guid [in]
 
-GUID that specifies the decoder device to create. To get the available device GUIDs, call <a href="https://msdn.microsoft.com/53980b1f-2be1-4267-a581-a4b09255b89f">IDirectXVideoDecoderService::GetDecoderDeviceGuids</a>.
+GUID that specifies the decoder device to create. To get the available device GUIDs, call <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoderservice-getdecoderdeviceguids">IDirectXVideoDecoderService::GetDecoderDeviceGuids</a>.
 
 
 ### -param pVideoDesc [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/0e500a08-a3b5-475c-8bbc-e4b30cce247d">DXVA2_VideoDesc</a> structure that describes the video content.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_videodesc">DXVA2_VideoDesc</a> structure that describes the video content.
 
 
 ### -param pConfig [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/1515cfa9-24ff-4c65-adca-f4143d36685c">DXVA2_ConfigPictureDecode</a> structure that specifies the decoder configuration.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_configpicturedecode">DXVA2_ConfigPictureDecode</a> structure that specifies the decoder configuration.
 
 
 ### -param ppDecoderRenderTargets [in]
 
-Pointer to an array of <b>IDirect3DSurface9</b> pointers containing pointers to the decoder render targets. To create these surfaces, call <a href="https://msdn.microsoft.com/34ed2029-7c79-45ce-962d-df4970babb23">IDirectXVideoAccelerationService::CreateSurface</a>. Specify DXVA2_VideoDecoderRenderTarget for the <i>DxvaType</i> parameter.
+Pointer to an array of <b>IDirect3DSurface9</b> pointers containing pointers to the decoder render targets. To create these surfaces, call <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoaccelerationservice-createsurface">IDirectXVideoAccelerationService::CreateSurface</a>. Specify DXVA2_VideoDecoderRenderTarget for the <i>DxvaType</i> parameter.
 
 
 ### -param NumRenderTargets [in]
@@ -87,7 +87,7 @@ Size of the <i>ppDecoderRenderTargets</i> array. This value cannot be zero.
 
 ### -param ppDecode [out]
 
-Receives a pointer to the decoder's <a href="https://msdn.microsoft.com/116c19a3-39be-4f96-969f-f3d62ed33a70">IDirectXVideoDecoder</a> interface. The caller must release the interface.
+Receives a pointer to the decoder's <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideodecoder">IDirectXVideoDecoder</a> interface. The caller must release the interface.
 
 
 ## -returns
@@ -123,11 +123,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/acb73b20-89fa-4a48-be4a-846715a239b0">DirectX Video Acceleration 2.0</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/directx-video-acceleration-2-0">DirectX Video Acceleration 2.0</a>
 
 
 
-<a href="https://msdn.microsoft.com/eeb62178-b54d-45d3-a584-75865f0662fa">IDirectXVideoDecoderService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideodecoderservice">IDirectXVideoDecoderService</a>
  
 
  

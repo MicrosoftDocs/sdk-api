@@ -68,7 +68,7 @@ A pointer to an array that will receive the dash pattern. The array must be able
 
 Type: <b>UINT</b>
 
-The number of dashes to copy. If this value is less than the number of dashes in the stroke style's dashes array, the returned dashes are truncated to <i>dashesCount</i>. If this value is greater than the number of dashes in the stroke style's dashes array, the extra dashes are set to 0.0f. To obtain the actual number of dashes in the stroke style's dashes array, use the <a href="https://msdn.microsoft.com/0bd1df70-17db-4f0f-b7a4-b26601b23c44">GetDashesCount</a> method. 
+The number of dashes to copy. If this value is less than the number of dashes in the stroke style's dashes array, the returned dashes are truncated to <i>dashesCount</i>. If this value is greater than the number of dashes in the stroke style's dashes array, the extra dashes are set to 0.0f. To obtain the actual number of dashes in the stroke style's dashes array, use the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1strokestyle-getdashescount">GetDashesCount</a> method. 
 
 
 ## -returns
@@ -94,7 +94,7 @@ The dashes are specified in units that are a multiple of the stroke width, with 
 
 
 
-<a href="https://msdn.microsoft.com/2cdf66dc-f34f-4132-8c06-7464648d3cef">ID2D1StrokeStyle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a>
  
 
  

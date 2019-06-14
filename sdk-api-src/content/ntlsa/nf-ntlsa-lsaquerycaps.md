@@ -69,12 +69,12 @@ The number of IDs in the <i>CAPIDs</i> parameter.
 
 ### -param CAPs [out]
 
-Receives a pointer to an array of pointers to <a href="https://msdn.microsoft.com/C1C2E8AE-0B7F-4620-9C27-31DAF683E342">CENTRAL_ACCESS_POLICY</a> structures representing the queried CAPs.
+Receives a pointer to an array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/ntlsa/ns-ntlsa-_central_access_policy">CENTRAL_ACCESS_POLICY</a> structures representing the queried CAPs.
 
 
 ### -param CAPCount [out]
 
-The number of <a href="https://msdn.microsoft.com/C1C2E8AE-0B7F-4620-9C27-31DAF683E342">CENTRAL_ACCESS_POLICY</a> structure pointers returned in the <i>CAPs</i> parameter.
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/ntlsa/ns-ntlsa-_central_access_policy">CENTRAL_ACCESS_POLICY</a> structure pointers returned in the <i>CAPs</i> parameter.
 
 
 ## -returns
@@ -83,7 +83,7 @@ The number of <a href="https://msdn.microsoft.com/C1C2E8AE-0B7F-4620-9C27-31DAF6
 
 If the function succeeds, the return value is STATUS_SUCCESS.
 
-If the function fails, the return value is an NTSTATUS code, which can be one of the <a href="https://msdn.microsoft.com/ee55364e-8ffe-4a78-a49a-250756561770">LSA Policy Function Return Values</a>.
+If the function fails, the return value is an NTSTATUS code, which can be one of the <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
 
 
 

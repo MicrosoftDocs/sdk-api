@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndGetPositionString</b> macro retrieves the numerical value of the current position within the content of the MCI device. This macro also provides the current position in string form in an application-defined buffer. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/6dc5d3bd-8515-4514-a2a5-c1bee07f7acf">MCIWNDM_GETPOSITION</a> message.
+The <b>MCIWndGetPositionString</b> macro retrieves the numerical value of the current position within the content of the MCI device. This macro also provides the current position in string form in an application-defined buffer. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getposition">MCIWNDM_GETPOSITION</a> message.
 
 
 
@@ -81,7 +81,7 @@ Size, in bytes, of the buffer. If the null-terminated string is longer than the 
 
 
 
-<a href="https://msdn.microsoft.com/6dc5d3bd-8515-4514-a2a5-c1bee07f7acf">MCIWNDM_GETPOSITION</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getposition">MCIWNDM_GETPOSITION</a>
  
 
  

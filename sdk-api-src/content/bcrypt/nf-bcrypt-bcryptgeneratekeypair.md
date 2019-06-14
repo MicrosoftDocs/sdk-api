@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>BCryptGenerateKeyPair</b> function creates an empty public/private key pair. After you create a key by using this function, you can use the <a href="https://msdn.microsoft.com/687f3410-d28b-4ce2-a2a1-c564f757c668">BCryptSetProperty</a> function to set its properties; however, the key cannot be used until the <a href="https://msdn.microsoft.com/bf0b90f1-6da8-464e-9271-ad60ea762653">BCryptFinalizeKeyPair</a> function is called.
+The <b>BCryptGenerateKeyPair</b> function creates an empty public/private key pair. After you create a key by using this function, you can use the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptsetproperty">BCryptSetProperty</a> function to set its properties; however, the key cannot be used until the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfinalizekeypair">BCryptFinalizeKeyPair</a> function is called.
 
 
 ## -parameters
@@ -60,12 +60,12 @@ The <b>BCryptGenerateKeyPair</b> function creates an empty public/private key pa
 
 ### -param hAlgorithm [in, out]
 
-Handle of an algorithm provider that supports signing, asymmetric encryption, or key agreement. This handle must have been created by using the <a href="https://msdn.microsoft.com/aceba9c0-19e6-4f3c-972a-752feed4a9f8">BCryptOpenAlgorithmProvider</a> function.
+Handle of an algorithm provider that supports signing, asymmetric encryption, or key agreement. This handle must have been created by using the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptopenalgorithmprovider">BCryptOpenAlgorithmProvider</a> function.
 
 
 ### -param phKey [out]
 
-A pointer to a <b>BCRYPT_KEY_HANDLE</b> that receives the handle of the key. This handle is used in subsequent functions that require a key, such as <a href="https://msdn.microsoft.com/69fe4530-4b7c-40db-a85c-f9dc458735e7">BCryptEncrypt</a>. This handle must be released when it is no longer needed by passing it to the <a href="https://msdn.microsoft.com/98c02e55-6489-4901-8a7a-021baac41965">BCryptDestroyKey</a> function.
+A pointer to a <b>BCRYPT_KEY_HANDLE</b> that receives the handle of the key. This handle is used in subsequent functions that require a key, such as <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptencrypt">BCryptEncrypt</a>. This handle must be released when it is no longer needed by passing it to the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptdestroykey">BCryptDestroyKey</a> function.
 
 
 ### -param dwLength [in]
@@ -248,7 +248,7 @@ The specified provider does not support asymmetric key encryption.
 
 
 
-Depending on what processor modes a provider supports, <b>BCryptGenerateKeyPair</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hAlgorithm</i> parameter must have been opened by using the <b>BCRYPT_PROV_DISPATCH</b> flag, and any pointers passed to the <b>BCryptGenerateKeyPair</b> function must refer to nonpaged (or locked) memory.
+Depending on what processor modes a provider supports, <b>BCryptGenerateKeyPair</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hAlgorithm</i> parameter must have been opened by using the <b>BCRYPT_PROV_DISPATCH</b> flag, and any pointers passed to the <b>BCryptGenerateKeyPair</b> function must refer to nonpaged (or locked) memory.
 
 To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). <b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
 
@@ -262,7 +262,7 @@ To call this function in kernel mode, use Cng.lib, which is part of the Driver D
 
 
 
-<a href="https://msdn.microsoft.com/98c02e55-6489-4901-8a7a-021baac41965">BCryptDestroyKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptdestroykey">BCryptDestroyKey</a>
  
 
  

@@ -69,29 +69,29 @@ The maximum number of samples to allocate.
 
 ### -param pAttributes [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> interface. You can use this interface to configure the allocator. Currently, the following configuration attributes are defined:
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. You can use this interface to configure the allocator. Currently, the following configuration attributes are defined:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/A782BF8A-822A-407D-A30A-F2045BBB0BC0">MF_SA_BUFFERS_PER_SAMPLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-sa-buffers-per-sample">MF_SA_BUFFERS_PER_SAMPLE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/C3B475B1-9A44-47EA-BCE7-D3D0FB56DDAC">MF_SA_D3D11_BINDFLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-sa-d3d11-bindflags">MF_SA_D3D11_BINDFLAGS</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/E9A415FA-74BF-4822-BB0E-D8AAA7D73664">MF_SA_D3D11_USAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-sa-d3d11-usage">MF_SA_D3D11_USAGE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/798CA474-3B1A-4795-81B7-563749197104">MF_SA_D3D11_SHARED</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-sa-d3d11-shared">MF_SA_D3D11_SHARED</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/A9F4D4AF-BB47-48E2-B40A-D0245FD61FAF">MF_SA_D3D11_SHARED_WITHOUT_MUTEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-sa-d3d11-shared-without-mutex">MF_SA_D3D11_SHARED_WITHOUT_MUTEX</a>
 </li>
 </ul>
 
 ### -param pMediaType [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface of a media type that describes the video format. 
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of a media type that describes the video format. 
 
 
 ## -returns
@@ -108,7 +108,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/B621F413-001B-4419-8FA7-439C45F97243">IMFVideoSampleAllocatorEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocatorex">IMFVideoSampleAllocatorEx</a>
  
 
  

@@ -110,7 +110,7 @@ The pointer passed is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/6d483058-f7c4-4a6c-a1a8-816c2fab9994">INetwork</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a>
  
 
  

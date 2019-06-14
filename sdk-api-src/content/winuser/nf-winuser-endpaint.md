@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>EndPaint</b> function marks the end of painting in the specified window. This function is required for each call to the <a href="https://msdn.microsoft.com/513341d7-bed8-469c-a067-ee71dc8860f9">BeginPaint</a> function, but only after painting is complete.
+The <b>EndPaint</b> function marks the end of painting in the specified window. This function is required for each call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a> function, but only after painting is complete.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ Handle to the window that has been repainted.
 
 ### -param lpPaint [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/1f8c6dd2-e511-48f2-8ab0-d2fadb1ce433">PAINTSTRUCT</a> structure that contains the painting information retrieved by <a href="https://msdn.microsoft.com/513341d7-bed8-469c-a067-ee71dc8860f9">BeginPaint</a>.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpaintstruct">PAINTSTRUCT</a> structure that contains the painting information retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a>.
 
 
 ## -returns
@@ -83,14 +83,14 @@ The return value is always nonzero.
 
 
 
-If the caret was hidden by <a href="https://msdn.microsoft.com/513341d7-bed8-469c-a067-ee71dc8860f9">BeginPaint</a>, <b>EndPaint</b> restores the caret to the screen.
+If the caret was hidden by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a>, <b>EndPaint</b> restores the caret to the screen.
 
-<b>EndPaint</b> releases the display device context that <a href="https://msdn.microsoft.com/513341d7-bed8-469c-a067-ee71dc8860f9">BeginPaint</a> retrieved.
+<b>EndPaint</b> releases the display device context that <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a> retrieved.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/ed995bfd-a791-4d73-9a0b-daf65a9f7709">Drawing in the Client Area</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/drawing-in-the-client-area">Drawing in the Client Area</a>.
 
 <div class="code"></div>
 
@@ -101,19 +101,19 @@ For an example, see <a href="https://msdn.microsoft.com/ed995bfd-a791-4d73-9a0b-
 
 
 
-<a href="https://msdn.microsoft.com/513341d7-bed8-469c-a067-ee71dc8860f9">BeginPaint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f8c6dd2-e511-48f2-8ab0-d2fadb1ce433">PAINTSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpaintstruct">PAINTSTRUCT</a>
 
 
 
-<a href="https://msdn.microsoft.com/ec18323e-c13b-4328-83bf-9e4ed4a712b8">Painting and Drawing Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e6034af-4dea-4579-b476-52f6dd3d5bc7">Painting and Drawing Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
  
 
  

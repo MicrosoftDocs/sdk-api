@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deprecated. Calls <a href="https://msdn.microsoft.com/92860c13-cb67-4499-90fe-2b0254ae25c7">IBrowserService2::_UpdateViewRectSize</a>, then updates the browser view by using <a href="https://msdn.microsoft.com/240d2ae5-abce-4bea-969e-f47780908bbb">IOleInPlaceActiveObject::ResizeBorder</a>.
+Deprecated. Calls <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_updateviewrectsize">IBrowserService2::_UpdateViewRectSize</a>, then updates the browser view by using <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-resizeborder">IOleInPlaceActiveObject::ResizeBorder</a>.
 
 
 ## -parameters

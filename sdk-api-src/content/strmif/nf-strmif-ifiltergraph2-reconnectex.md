@@ -149,9 +149,9 @@ The filter is not stopped, but it does not support reconnection while in a runni
 
 
 
-Filters can call this method in order to renegotiate a pin connection. The method executes on a separate thread. Before calling this method, call <a href="https://msdn.microsoft.com/ed11eeef-464b-4a75-958b-2bc6dbc7af04">IPin::QueryAccept</a> on the other pin to ensure that the reconnnection attempt will succeed. Do not call this method unless <b>QueryAccept</b> returns S_OK. Otherwise, because the reconnection is performed asynchronously, the reconnection might fail even though the <code>ReconnectEx</code> method succeeds, leaving the filter graph in an inconsistent state.
+Filters can call this method in order to renegotiate a pin connection. The method executes on a separate thread. Before calling this method, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-queryaccept">IPin::QueryAccept</a> on the other pin to ensure that the reconnnection attempt will succeed. Do not call this method unless <b>QueryAccept</b> returns S_OK. Otherwise, because the reconnection is performed asynchronously, the reconnection might fail even though the <code>ReconnectEx</code> method succeeds, leaving the filter graph in an inconsistent state.
 
-This method improves on the <a href="https://msdn.microsoft.com/98a46014-031b-4f35-b1bc-58aef411360b">IFilterGraph::Reconnect</a> method by specifying a media type. This makes the reconnection more likely to succeed.
+This method improves on the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltergraph-reconnect">IFilterGraph::Reconnect</a> method by specifying a media type. This makes the reconnection more likely to succeed.
 
 
 
@@ -161,15 +161,15 @@ This method improves on the <a href="https://msdn.microsoft.com/98a46014-031b-4f
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/1a1ef4fe-a054-4ba7-99c7-1f209472c5a6">IFilterGraph2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltergraph2">IFilterGraph2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/34b3e4de-e4eb-48c5-aaef-fc99b63e8691">Reconnecting Pins</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/reconnecting-pins">Reconnecting Pins</a>
  
 
  

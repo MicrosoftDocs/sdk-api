@@ -66,7 +66,7 @@ The format of the message is
     <i>module_name</i>,<i>rule_name</i>|<i>message</i> 
     (FSRM adds the <i>module_name</i>,<i>rule_name</i>| components to the 
     message that you specified when calling the 
-    <a href="https://msdn.microsoft.com/2d9166fd-5211-4114-843f-2c6563941715">IFsrmPropertyBag::AddMessage</a> method).
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-addmessage">IFsrmPropertyBag::AddMessage</a> method).
 
 
 
@@ -76,11 +76,11 @@ The format of the message is
 
 
 
-<a href="https://msdn.microsoft.com/237f024d-2b1d-45d5-a63d-c530426278e6">IFsrmPropertyBag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertybag">IFsrmPropertyBag</a>
 
 
 
-<a href="https://msdn.microsoft.com/2d9166fd-5211-4114-843f-2c6563941715">IFsrmPropertyBag::AddMessage</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-addmessage">IFsrmPropertyBag::AddMessage</a>
  
 
  

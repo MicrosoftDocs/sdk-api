@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>AUTHZ_SID_OPERATION</b> enumeration indicates the type of SID operations that can be made by a call to the <a href="https://msdn.microsoft.com/740569A5-6159-409B-B8CB-B3A8BAE4F398">AuthzModifySids</a> function.
+The <b>AUTHZ_SID_OPERATION</b> enumeration indicates the type of SID operations that can be made by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzmodifysids">AuthzModifySids</a> function.
 
 
 ## -enum-fields

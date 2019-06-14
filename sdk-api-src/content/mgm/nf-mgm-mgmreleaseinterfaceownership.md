@@ -61,7 +61,7 @@ The
 ### -param hProtocol [in]
 
 Handle to the protocol obtained from a previous call to 
-<a href="https://msdn.microsoft.com/a9b5f5f3-6e54-4a97-b3e7-e9e026947116">MgmRegisterMProtocol</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmregistermprotocol">MgmRegisterMProtocol</a>.
 
 
 ### -param dwIfIndex [in]
@@ -129,7 +129,7 @@ Invalid handle to a client, or the interface was not found.
 
 
 A client must release ownership of all the interfaces it owns before deregistering itself with the 
-<a href="https://msdn.microsoft.com/e9b2613e-4e52-4993-81dd-0be50a072db6">MgmDeRegisterMProtocol</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmderegistermprotocol">MgmDeRegisterMProtocol</a> function.
 
 
 
@@ -139,11 +139,11 @@ A client must release ownership of all the interfaces it owns before deregisteri
 
 
 
-<a href="https://msdn.microsoft.com/e9b2613e-4e52-4993-81dd-0be50a072db6">MgmDeRegisterMProtocol</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmderegistermprotocol">MgmDeRegisterMProtocol</a>
 
 
 
-<a href="https://msdn.microsoft.com/b072c884-0b84-4dd9-a14c-185f5d327017">MgmTakeInterfaceOwnership</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmtakeinterfaceownership">MgmTakeInterfaceOwnership</a>
  
 
  

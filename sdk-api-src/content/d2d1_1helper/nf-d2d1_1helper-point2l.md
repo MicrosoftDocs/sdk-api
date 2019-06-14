@@ -75,7 +75,7 @@ The y-coordinate of the point.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/B782EDE3-54A2-4FCA-8E9C-C472950A5509">D2D1_POINT_2L</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh847948(v=vs.85)">D2D1_POINT_2L</a></b>
 
 A POINT structure that defines the x- and y- coordinates of a point.
 

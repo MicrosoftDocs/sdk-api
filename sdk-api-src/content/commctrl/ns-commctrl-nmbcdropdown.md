@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information about a <a href="https://msdn.microsoft.com/en-us/library/Bb775983(v=VS.85).aspx">BCN_DROPDOWN</a> notification.
+Contains information about a <a href="https://docs.microsoft.com/windows/desktop/Controls/bcn-dropdown">BCN_DROPDOWN</a> notification.
 
 
 ## -struct-fields
@@ -59,9 +59,9 @@ Contains information about a <a href="https://msdn.microsoft.com/en-us/library/B
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure containing information about the notification.
+An <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure containing information about the notification.
 
 
 ### -field rcButton

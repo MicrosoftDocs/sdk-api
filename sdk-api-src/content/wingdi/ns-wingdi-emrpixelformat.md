@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>EMRPIXELFORMAT</b> structure contains the members for the <a href="https://msdn.microsoft.com/f8d74078-a7e7-4d95-857a-f51d5d70598e">SetPixelFormat</a> enhanced metafile record. The pixel format information in <a href="https://msdn.microsoft.com/8e5f9a51-a995-48be-b936-1766fccb603a">ENHMETAHEADER</a> refers to this structure.
+The <b>EMRPIXELFORMAT</b> structure contains the members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setpixelformat">SetPixelFormat</a> enhanced metafile record. The pixel format information in <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagenhmetaheader">ENHMETAHEADER</a> refers to this structure.
 
 
 
@@ -68,7 +68,7 @@ The base structure for all record types.
 ### -field pfd
 
 A 
-            <a href="https://msdn.microsoft.com/1480dea3-ae74-4e8b-b4de-fca8de5d8395">PIXELFORMATDESCRIPTOR</a> structure, which describes the pixel format.
+            <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagpixelformatdescriptor">PIXELFORMATDESCRIPTOR</a> structure, which describes the pixel format.
 
 
 ## -see-also
@@ -76,23 +76,23 @@ A
 
 
 
-<a href="https://msdn.microsoft.com/8e5f9a51-a995-48be-b936-1766fccb603a">ENHMETAHEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagenhmetaheader">ENHMETAHEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a509ed5-cea3-4318-ad17-9d20425a6e80">Metafile Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/309ee4cf-111b-4f09-a722-4823cb3d26b0">Metafiles Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/1480dea3-ae74-4e8b-b4de-fca8de5d8395">PIXELFORMATDESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagpixelformatdescriptor">PIXELFORMATDESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/f8d74078-a7e7-4d95-857a-f51d5d70598e">SetPixelFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setpixelformat">SetPixelFormat</a>
  
 
  

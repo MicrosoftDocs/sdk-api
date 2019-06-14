@@ -66,9 +66,9 @@ Sets the specified waitable timer to the inactive state.
 ### -param hTimer [in]
 
 A handle to the timer object. The 
-<a href="https://msdn.microsoft.com/en-us/library/ms682492(v=VS.85).aspx">CreateWaitableTimer</a> or 
-<a href="https://msdn.microsoft.com/en-us/library/ms684337(v=VS.85).aspx">OpenWaitableTimer</a> function returns this handle. The handle must have the <b>TIMER_MODIFY_STATE</b> access right. For more information, see 
-<a href="https://msdn.microsoft.com/92478298-617c-4672-a1cc-9a8e9af40327">Synchronization Object Security and Access Rights</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createwaitabletimera">CreateWaitableTimer</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openwaitabletimera">OpenWaitableTimer</a> function returns this handle. The handle must have the <b>TIMER_MODIFY_STATE</b> access right. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>. 
 
 
 
@@ -82,7 +82,7 @@ A handle to the timer object. The
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -95,10 +95,10 @@ The
 <b>CancelWaitableTimer</b> function does not change the signaled state of the timer. It stops the timer before it can be set to the signaled state and cancels outstanding APCs. Therefore, threads performing a wait operation on the timer remain waiting until they time out or the timer is reactivated and its state is set to signaled. If the timer is already in the signaled state, it remains in that state.
 
 To reactivate the timer, call the 
-<a href="https://msdn.microsoft.com/237e22dc-696d-473f-8bb5-c28f7c7c75b2">SetWaitableTimer</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-setwaitabletimer">SetWaitableTimer</a> function.
 
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0400 or later. For more information, see 
-<a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 
@@ -108,23 +108,23 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms682492(v=VS.85).aspx">CreateWaitableTimer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createwaitabletimera">CreateWaitableTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684337(v=VS.85).aspx">OpenWaitableTimer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openwaitabletimera">OpenWaitableTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/237e22dc-696d-473f-8bb5-c28f7c7c75b2">SetWaitableTimer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-setwaitabletimer">SetWaitableTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b6359c2-0113-49b6-83d0-316ad95aba1b">Synchronization Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d39ada0-ea31-40d7-b075-aeb657ee508c">Waitable Timer Objects</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/waitable-timer-objects">Waitable Timer Objects</a>
  
 
  

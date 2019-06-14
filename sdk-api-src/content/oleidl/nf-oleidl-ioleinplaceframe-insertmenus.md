@@ -64,7 +64,7 @@ A handle to an empty menu.
 
 ### -param lpMenuWidths [in, out]
 
-A pointer to an <a href="https://msdn.microsoft.com/e6ad4ab7-0e53-4fad-8f2e-a0ff7b376815">OLEMENUGROUPWIDTHS</a> array with six elements. The container fills in elements 0, 2, and 4 to reflect the number of menu elements it provided in the <b>File</b>, <b>View</b>, and <b>Window</b> menu groups.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ns-oleidl-tagolemenugroupwidths">OLEMENUGROUPWIDTHS</a> array with six elements. The container fills in elements 0, 2, and 4 to reflect the number of menu elements it provided in the <b>File</b>, <b>View</b>, and <b>Window</b> menu groups.
 
 
 ## -returns
@@ -102,7 +102,7 @@ An unexpected error has occurred.
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 This method is called by object applications when they are first being activated. They call it to insert their menus into the frame-level user interface.
 
-The object application asks the container to add its menus to the menu specified in <i>hmenuShared</i> and to set the group counts in the <a href="https://msdn.microsoft.com/e6ad4ab7-0e53-4fad-8f2e-a0ff7b376815">OLEMENUGROUPWIDTHS</a> array pointed to by <i>lpMenuWidths</i>. The object application then adds its own menus and counts. Objects can call <b>IOleInPlaceFrame::InsertMenus</b> as many times as necessary to build up the composite menus. The container should use the initial menu handle associated with the composite menu for all menu items in the drop-down menus.
+The object application asks the container to add its menus to the menu specified in <i>hmenuShared</i> and to set the group counts in the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ns-oleidl-tagolemenugroupwidths">OLEMENUGROUPWIDTHS</a> array pointed to by <i>lpMenuWidths</i>. The object application then adds its own menus and counts. Objects can call <b>IOleInPlaceFrame::InsertMenus</b> as many times as necessary to build up the composite menus. The container should use the initial menu handle associated with the composite menu for all menu items in the drop-down menus.
 
 
 
@@ -112,7 +112,7 @@ The object application asks the container to add its menus to the menu specified
 
 
 
-<a href="https://msdn.microsoft.com/c530aff7-fd83-413d-8945-0c9d1bfb51ba">IOleInPlaceFrame</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceframe">IOleInPlaceFrame</a>
  
 
  

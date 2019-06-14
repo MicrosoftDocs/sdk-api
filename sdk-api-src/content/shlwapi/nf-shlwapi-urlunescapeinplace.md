@@ -100,7 +100,7 @@ UrlUnescape(pszUrl, NULL, NULL, dwFlags | URL_UNESCAPE_INPLACE)
 
 
 
-<a href="https://msdn.microsoft.com/5bff5161-3b57-4f12-b126-42eac3f60267">UrlUnescape</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-urlunescapea">UrlUnescape</a>
  
 
  

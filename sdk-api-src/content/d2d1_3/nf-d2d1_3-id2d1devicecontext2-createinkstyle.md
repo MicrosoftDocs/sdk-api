@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a new <a href="https://msdn.microsoft.com/03853FA5-1377-42FB-A4C2-50069DDF6E2D">ID2D1InkStyle</a> object, for use with ink 
-        rendering methods such as <a href="https://msdn.microsoft.com/d7c27267-c0c3-d21c-7980-3d92396509c7">DrawInk</a>.
+Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1inkstyle">ID2D1InkStyle</a> object, for use with ink 
+        rendering methods such as <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-drawink">DrawInk</a>.
 
 
 ## -parameters
@@ -60,14 +60,14 @@ Creates a new <a href="https://msdn.microsoft.com/03853FA5-1377-42FB-A4C2-50069D
 
 ### -param inkStyleProperties [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/81B9E108-D0A6-4F7E-8BE9-76A570B1D050">D2D1_INK_STYLE_PROPERTIES</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/ns-d2d1_3-d2d1_ink_style_properties">D2D1_INK_STYLE_PROPERTIES</a></b>
 
 The properties of the ink style to be created.
 
 
 ### -param inkStyle [out]
 
-Type: <b><a href="https://msdn.microsoft.com/03853FA5-1377-42FB-A4C2-50069DDF6E2D">ID2D1InkStyle</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1inkstyle">ID2D1InkStyle</a>**</b>
 
 When this method returns, contains the address of a pointer to a new ink style object.
 
@@ -76,7 +76,7 @@ When this method returns, contains the address of a pointer to a new ink style o
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 S_OK if successful, otherwise a failure HRESULT.
 
@@ -88,7 +88,7 @@ S_OK if successful, otherwise a failure HRESULT.
 
 
 
-<a href="https://msdn.microsoft.com/25c11cfc-75af-20a1-8f54-6b370942b841">ID2D1DeviceContext2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext2">ID2D1DeviceContext2</a>
  
 
  

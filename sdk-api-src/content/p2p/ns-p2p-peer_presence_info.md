@@ -60,7 +60,7 @@ The <b>PEER_PRESENCE_INFO</b> structure contains specific peer presence informat
 ### -field status
 
 
-<a href="https://msdn.microsoft.com/0f7f6fa8-5da4-4f59-b9ea-0117ff8a3e28">PEER_PRESENCE_STATUS</a> enumeration value that indicates the current availability or level of participation by the peer in a peer collaboration network.
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_presence_status_tag">PEER_PRESENCE_STATUS</a> enumeration value that indicates the current availability or level of participation by the peer in a peer collaboration network.
 
 
 ### -field pwzDescriptiveText
@@ -82,11 +82,11 @@ Peer "presence" is information about a specific peer's level of participation in
 
 
 
-<a href="https://msdn.microsoft.com/0f7f6fa8-5da4-4f59-b9ea-0117ff8a3e28">PEER_PRESENCE_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_presence_status_tag">PEER_PRESENCE_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/2634899c-3263-45ce-9fac-407e11e42cd4">Peer Collaboration API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-structures">Peer Collaboration API Structures</a>
  
 
  

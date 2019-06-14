@@ -64,7 +64,7 @@ Stream ID of the input stream whose state needs to be retrieved.
 
 ### -param ppAttributes [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. The caller must release the interface.
 
 
 ## -returns
@@ -131,7 +131,7 @@ This method  is used by DTM to get a specific input stream’s attribute store.
 
 
 
-<a href="https://msdn.microsoft.com/375293FA-8017-4F74-A93C-C15FED8F19AF">IMFDeviceTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransform">IMFDeviceTransform</a>
  
 
  

@@ -84,15 +84,15 @@ A physical monitor description is always an array of 128 characters.
 
 
 
-<a href="https://msdn.microsoft.com/f2ac8a6a-3be9-4155-ad13-c256b96da792">GetPhysicalMonitorsFromHMONITOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/physicalmonitorenumerationapi/nf-physicalmonitorenumerationapi-getphysicalmonitorsfromhmonitor">GetPhysicalMonitorsFromHMONITOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/1e0e9749-8ee4-42d5-ab7b-182222b6c429">GetPhysicalMonitorsFromIDirect3DDevice9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/physicalmonitorenumerationapi/nf-physicalmonitorenumerationapi-getphysicalmonitorsfromidirect3ddevice9">GetPhysicalMonitorsFromIDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/4aca3a00-d2c6-42a6-9143-72e42c1d33bb">Monitor Configuration Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Monitor/monitor-configuration-structures">Monitor Configuration Structures</a>
  
 
  

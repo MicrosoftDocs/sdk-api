@@ -79,19 +79,19 @@ The <code>IAudioSystemEffectsCustomFormats</code> interface inherits from <b>IUn
 <dl>
 <dd>
 
-<a href="https://msdn.microsoft.com/0eab885f-32f7-47d3-b9b1-684eb3d2cd37">IAudioSystemEffectsCustomFormats::GetFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformat">IAudioSystemEffectsCustomFormats::GetFormat</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/70d215e5-e30a-4fbd-b9c3-c988c6bbd941">IAudioSystemEffectsCustomFormats::GetFormatCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformatcount">IAudioSystemEffectsCustomFormats::GetFormatCount</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/35953b82-8832-4e7b-9186-e336fdc65362">IAudioSystemEffectsCustomFormats::GetFormatRepresentation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformatrepresentation">IAudioSystemEffectsCustomFormats::GetFormatRepresentation</a>
 
 
 </dd>

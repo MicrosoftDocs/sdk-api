@@ -98,7 +98,7 @@ Returns S_OK if successful or an error value otherwise, including the following:
 </dl>
 </td>
 <td width="60%">
-The image was not previously decoded, the call to <a href="https://msdn.microsoft.com/954424d6-cb90-46c1-a850-4e1113dfe2e4">IShellImageData::Decode</a> failed, or <i>hdc</i> is <b>NULL</b>. Other internal calls also can cause this error to be returned.
+The image was not previously decoded, the call to <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-decode">IShellImageData::Decode</a> failed, or <i>hdc</i> is <b>NULL</b>. Other internal calls also can cause this error to be returned.
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ The <i>prcDest</i> parameter is <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-The process was terminated by the calling application through a registered instance of <a href="https://msdn.microsoft.com/98a79c41-a384-4486-af51-a33cd5f0750e">IShellImageDataAbort</a>.
+The process was terminated by the calling application through a registered instance of <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedataabort">IShellImageDataAbort</a>.
 
 </td>
 </tr>

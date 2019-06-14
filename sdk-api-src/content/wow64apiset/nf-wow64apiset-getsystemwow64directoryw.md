@@ -87,7 +87,7 @@ The maximum size of the buffer, in <b>TCHARs</b>.
 If the function succeeds, the return value is the length, in <b>TCHARs</b>, of the string copied to the buffer, not including the terminating null character. If the length is greater than the size of the buffer, the return value is the size of the buffer required to hold the path.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 On 32-bit Windows, the function always fails, and the extended error is set to ERROR_CALL_NOT_IMPLEMENTED.
 
@@ -101,10 +101,10 @@ On 32-bit Windows, the function always fails, and the extended error is set to E
 WOW64 uses the system directory to store shared 32-bit code on 64-bit Windows. Most applications have no need to access this directory explicitly.
 
 For more information on WOW64, see 
-<a href="https://msdn.microsoft.com/ac75c5af-86e8-4282-9a8e-8db3c22cbda0">Running 32-bit Applications</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WinProg64/running-32-bit-applications">Running 32-bit Applications</a>.
 
 To compile an application that uses this function, define _WIN32_WINNT as 0x0501 or later. For more information, see 
-<a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 
@@ -114,7 +114,7 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0501
 
 
 
-<a href="https://msdn.microsoft.com/aa7deebf-7dce-4147-8a15-1d7411aea0fa">System
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System
     Information Functions</a>
  
 

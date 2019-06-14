@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Invoked by Microsoft Media Foundation to complete the asynchronous operation started by <a href="https://msdn.microsoft.com/01B799C2-63C6-4BDC-AAE2-CFC3C426A218">BeginReadPayload</a>. When this method completes successfully, the payload data will have been written to the buffer that Media Foundation provided when invoking <b>BeginReadPayload</b>.
+Invoked by Microsoft Media Foundation to complete the asynchronous operation started by <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadrequest-beginreadpayload">BeginReadPayload</a>. When this method completes successfully, the payload data will have been written to the buffer that Media Foundation provided when invoking <b>BeginReadPayload</b>.
 
 
 ## -parameters
@@ -62,17 +62,17 @@ Invoked by Microsoft Media Foundation to complete the asynchronous operation sta
 
 ### -param pResult [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/8c95b1de-8974-445c-8070-41552ea83e53">IMFAsyncResult</a> interface. Microsoft Media Foundation will pass in the same pointer that its callback object received in the <a href="https://msdn.microsoft.com/22473605-637e-4783-a8cb-98248b0a0327">IMFAsyncCallback::Invoke</a> method.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncresult">IMFAsyncResult</a> interface. Microsoft Media Foundation will pass in the same pointer that its callback object received in the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method.
 
 
 ### -param pqwOffset [out]
 
-The offset of the first byte written to the buffer, relative to the complete message body of the current HTTP request. For example, when Media Foundation invokes <a href="https://msdn.microsoft.com/01B799C2-63C6-4BDC-AAE2-CFC3C426A218">BeginReadPayload</a> for the first time on a given <a href="https://msdn.microsoft.com/A8A37C2F-A662-4FDA-95F6-43D96A8471A8">IMFHttpDownloadRequest</a>, and specifies a buffer size of 100, the <i>pqwOffset</i> parameter will be set to 0. Then, when Media Foundation invokes <b>BeginReadPayload</b> for the second time on the same <b>IMNFHttpDownloadRequest</b>, the <i>pqwOffset</i> parameter will be set to 100.
+The offset of the first byte written to the buffer, relative to the complete message body of the current HTTP request. For example, when Media Foundation invokes <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadrequest-beginreadpayload">BeginReadPayload</a> for the first time on a given <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>, and specifies a buffer size of 100, the <i>pqwOffset</i> parameter will be set to 0. Then, when Media Foundation invokes <b>BeginReadPayload</b> for the second time on the same <b>IMNFHttpDownloadRequest</b>, the <i>pqwOffset</i> parameter will be set to 100.
 
 
 ### -param pcbRead [out]
 
-Specifies the number of bytes written to the buffer that Media Foundation provided when invoking <a href="https://msdn.microsoft.com/01B799C2-63C6-4BDC-AAE2-CFC3C426A218">BeginReadPayload</a>. Note that this value must always be equal to the size of the buffer specified in <b>BeginReadPayload</b>, unless the request failed, or unless the end of the message body has been reached.
+Specifies the number of bytes written to the buffer that Media Foundation provided when invoking <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadrequest-beginreadpayload">BeginReadPayload</a>. Note that this value must always be equal to the size of the buffer specified in <b>BeginReadPayload</b>, unless the request failed, or unless the end of the message body has been reached.
 
 
 ## -returns
@@ -94,7 +94,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-Successfully wrote data to the buffer provided in <a href="https://msdn.microsoft.com/01B799C2-63C6-4BDC-AAE2-CFC3C426A218">BeginReadPayload</a>.
+Successfully wrote data to the buffer provided in <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadrequest-beginreadpayload">BeginReadPayload</a>.
 
 </td>
 </tr>
@@ -109,7 +109,7 @@ Successfully wrote data to the buffer provided in <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/A8A37C2F-A662-4FDA-95F6-43D96A8471A8">IMFHttpDownloadRequest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>
  
 
  

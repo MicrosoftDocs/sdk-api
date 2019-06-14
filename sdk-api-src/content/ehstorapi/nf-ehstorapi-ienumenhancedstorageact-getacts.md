@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns an enumeration of all the Addressable Command Targets (ACT) currently connected to the system. If at least one ACT is present, the Enhanced Storage API allocates an array of 1 or more <a href="https://msdn.microsoft.com/807834cc-0f52-43f6-a3b3-06591ba68c15">IEnumEnhancedStorageACT</a> pointers.
+Returns an enumeration of all the Addressable Command Targets (ACT) currently connected to the system. If at least one ACT is present, the Enhanced Storage API allocates an array of 1 or more <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienumenhancedstorageact">IEnumEnhancedStorageACT</a> pointers.
 
 
 ## -parameters
@@ -59,12 +59,12 @@ Returns an enumeration of all the Addressable Command Targets (ACT) currently co
 
 ### -param pppIEnhancedStorageACTs [out]
 
-Array of <a href="https://msdn.microsoft.com/33d5df30-f877-4852-ad2f-af1bb58d0044">IEnhancedStorageACT</a> interface pointers that represent the ACTs for all devices connected to the system. This array is allocated within the API.
+Array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a> interface pointers that represent the ACTs for all devices connected to the system. This array is allocated within the API.
 
 
 ### -param pcEnhancedStorageACTs
 
-Count of <a href="https://msdn.microsoft.com/33d5df30-f877-4852-ad2f-af1bb58d0044">IEnhancedStorageACT</a> pointers returned. This is the dimension of the  array represented by <i>pppIEnhancedStorageACTs</i>.
+Count of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a> pointers returned. This is the dimension of the  array represented by <i>pppIEnhancedStorageACTs</i>.
 
 
 ## -returns
@@ -121,7 +121,7 @@ Operation failed due to insufficient memory.
 
 
 
-The memory containing the array of <a href="https://msdn.microsoft.com/33d5df30-f877-4852-ad2f-af1bb58d0044">IEnhancedStorageACT</a> interfaces is allocated by the Enhanced Storage API and must be freed by passing the returned pointer to the <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> method.
+The memory containing the array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a> interfaces is allocated by the Enhanced Storage API and must be freed by passing the returned pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> method.
 
 
 
@@ -131,7 +131,7 @@ The memory containing the array of <a href="https://msdn.microsoft.com/33d5df30-
 
 
 
-<a href="https://msdn.microsoft.com/807834cc-0f52-43f6-a3b3-06591ba68c15">IEnumEnhancedStorageACT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienumenhancedstorageact">IEnumEnhancedStorageACT</a>
  
 
  

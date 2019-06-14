@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The
 				<b>AT_ENUM</b> structure contains information about a submitted job. The 
-<a href="https://msdn.microsoft.com/e3384414-6a15-4979-bed4-6f94f046474a">NetScheduleJobEnum</a> function uses this structure to enumerate and return information about an entire queue of submitted jobs.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmat/nf-lmat-netschedulejobenum">NetScheduleJobEnum</a> function uses this structure to enumerate and return information about an entire queue of submitted jobs.
 
 
 ## -struct-fields
@@ -166,7 +166,7 @@ A pointer to a Unicode string that contains the name of the command, batch progr
 
 
 For more information about setting the bit flags to schedule jobs that execute once, jobs that execute multiple times, and jobs that execute periodically without deletion, see 
-the <a href="https://msdn.microsoft.com/813d13ba-abe1-4b14-88c7-87ba88a42a3b">NetScheduleJobAdd</a> function.
+the <a href="https://docs.microsoft.com/windows/desktop/api/lmat/nf-lmat-netschedulejobadd">NetScheduleJobAdd</a> function.
 
 
 
@@ -176,19 +176,19 @@ the <a href="https://msdn.microsoft.com/813d13ba-abe1-4b14-88c7-87ba88a42a3b">Ne
 
 
 
-<a href="https://msdn.microsoft.com/e3384414-6a15-4979-bed4-6f94f046474a">NetScheduleJobEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmat/nf-lmat-netschedulejobenum">NetScheduleJobEnum</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4b05054-bef2-4cab-89f6-725d92ee75b8">Network Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/1ddc9b95-fdbc-4e39-9b55-2a5bc570b95d">Schedule Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/schedule-functions">Schedule Functions</a>
  
 
  

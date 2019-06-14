@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Loads the File History configuration information for the current user into an <a href="https://msdn.microsoft.com/CC97FC0F-3AA4-4D8A-81B3-14F68FDF5788">FhConfigMgr</a> object.
+Loads the File History configuration information for the current user into an <a href="https://docs.microsoft.com/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a> object.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 
 
-This method or the <a href="https://msdn.microsoft.com/70F67D8D-E449-4006-BB14-0E5E9B91D517">IFhConfigMgr::CreateDefaultConfiguration</a> method must be called before any other <a href="https://msdn.microsoft.com/CDE8A011-6E78-49DF-A5E1-8E968355BA11">IFhConfigMgr</a> method can be called.
+This method or the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-createdefaultconfiguration">IFhConfigMgr::CreateDefaultConfiguration</a> method must be called before any other <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nn-fhcfg-ifhconfigmgr">IFhConfigMgr</a> method can be called.
 
 
 
@@ -83,19 +83,19 @@ This method or the <a href="https://msdn.microsoft.com/70F67D8D-E449-4006-BB14-0
 
 
 
-<a href="https://msdn.microsoft.com/CC97FC0F-3AA4-4D8A-81B3-14F68FDF5788">FhConfigMgr</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a>
 
 
 
-<a href="https://msdn.microsoft.com/CDE8A011-6E78-49DF-A5E1-8E968355BA11">IFhConfigMgr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nn-fhcfg-ifhconfigmgr">IFhConfigMgr</a>
 
 
 
-<a href="https://msdn.microsoft.com/70F67D8D-E449-4006-BB14-0E5E9B91D517">IFhConfigMgr::CreateDefaultConfiguration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-createdefaultconfiguration">IFhConfigMgr::CreateDefaultConfiguration</a>
 
 
 
-<a href="https://msdn.microsoft.com/71D6E732-927B-4AA4-9947-6E52B09FF5B8">IFhConfigMgr::SaveConfiguration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-saveconfiguration">IFhConfigMgr::SaveConfiguration</a>
  
 
  

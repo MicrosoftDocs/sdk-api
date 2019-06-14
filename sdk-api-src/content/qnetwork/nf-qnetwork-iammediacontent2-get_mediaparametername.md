@@ -118,7 +118,7 @@ The caller must release the returned <b>BSTR</b> by calling <b>SysFreeString</b>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319639(v=VS.85).aspx">IAMMediaContent2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nn-qnetwork-iammediacontent2">IAMMediaContent2 Interface</a>
  
 
  

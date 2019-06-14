@@ -107,7 +107,7 @@ This parameter can be zero if <i>dwFlags</i> contains TF_GTP_INCL_TEXT. This ind
 
 ### -param ppEnum [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/68e17539-3b00-4e51-964d-0516b448f6c8">IEnumTfRanges</a> interface pointer that receives the enumerator object.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfranges">IEnumTfRanges</a> interface pointer that receives the enumerator object.
 
 
 ## -returns
@@ -165,12 +165,12 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://msdn.microsoft.com/68e17539-3b00-4e51-964d-0516b448f6c8">IEnumTfRanges
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfranges">IEnumTfRanges
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/2106cd97-9e1f-4d7c-a7a4-55676cf8923b">ITfEditRecord</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfeditrecord">ITfEditRecord</a>
  
 
  

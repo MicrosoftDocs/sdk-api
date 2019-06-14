@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains parameters for the <a href="https://msdn.microsoft.com/3f77b5b9-94af-42b1-83ca-cb3310083632">IMFLocalMFTRegistration::RegisterMFTs</a> method.
+Contains parameters for the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imflocalmftregistration-registermfts">IMFLocalMFTRegistration::RegisterMFTs</a> method.
 
 
 ## -struct-fields
@@ -64,12 +64,12 @@ CLSID of the Media Foundation transform (MFT) to register.
 
 ### -field guidCategory
 
-GUID that specifies the category of the MFT. For a list of MFT categories, see <a href="https://msdn.microsoft.com/eca3ae3b-e40a-407d-986c-d0a85b891f52">MFT_CATEGORY</a>.
+GUID that specifies the category of the MFT. For a list of MFT categories, see <a href="https://docs.microsoft.com/windows/desktop/medfound/mft-category">MFT_CATEGORY</a>.
 
 
 ### -field uiFlags
 
-Bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/ba39fb66-d8b6-49c1-8312-18ebdcb012c9">_MFT_ENUM_FLAG</a> enumeration.
+Bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ne-mfapi-_mft_enum_flag">_MFT_ENUM_FLAG</a> enumeration.
 
 
 ### -field pszName
@@ -84,7 +84,7 @@ Number of elements in the <b>pInTypes</b> array.
 
 ### -field pInTypes
 
-Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/ms694919(v=VS.85).aspx">MFT_REGISTER_TYPE_INFO</a> structures. Each member of the array specifies an input format that the MFT supports. If this member is <b>NULL</b>, the <b>cInTypes</b> member must be zero.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-__midl___midl_itf_mfobjects_0000_0008_0003">MFT_REGISTER_TYPE_INFO</a> structures. Each member of the array specifies an input format that the MFT supports. If this member is <b>NULL</b>, the <b>cInTypes</b> member must be zero.
 
 
 ### -field cOutTypes
@@ -94,7 +94,7 @@ Number of elements in the <b>pOutTypes</b> array.
 
 ### -field pOutTypes
 
-Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/ms694919(v=VS.85).aspx">MFT_REGISTER_TYPE_INFO</a> structures. Each member of the array defines an output format that the MFT supports. If this member is <b>NULL</b>, the <b>cOutTypes</b> member must be zero.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-__midl___midl_itf_mfobjects_0000_0008_0003">MFT_REGISTER_TYPE_INFO</a> structures. Each member of the array defines an output format that the MFT supports. If this member is <b>NULL</b>, the <b>cOutTypes</b> member must be zero.
 
 
 ## -see-also
@@ -102,7 +102,7 @@ Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/ms69491
 
 
 
-<a href="https://msdn.microsoft.com/39fdd724-13ca-48ab-8a55-93529d1da3b4">Media Foundation Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
  
 
  

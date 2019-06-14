@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Removes a cache connection created previously using <a href="https://msdn.microsoft.com/2a86063a-3ee6-4fc2-a6e0-6e9ffa658348">IOleCache::Cache</a>.
+Removes a cache connection created previously using <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Removes a cache connection created previously using <a href="https://msdn.micros
 
 ### -param dwConnection [in]
 
-The cache connection to be removed. This nonzero value was returned by <a href="https://msdn.microsoft.com/2a86063a-3ee6-4fc2-a6e0-6e9ffa658348">IOleCache::Cache</a> when the cache was originally established.
+The cache connection to be removed. This nonzero value was returned by <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a> when the cache was originally established.
 
 
 ## -returns
@@ -94,7 +94,7 @@ No cache connection exists for <i>dwConnection</i>.
 
 
 
-The <b>IOleCache::Uncache</b> method removes a cache connection that was created in a prior call to <a href="https://msdn.microsoft.com/2a86063a-3ee6-4fc2-a6e0-6e9ffa658348">IOleCache::Cache</a>. It uses the <i>dwConnection</i> parameter that was returned by the prior call to <b>IOleCache::Cache</b>.
+The <b>IOleCache::Uncache</b> method removes a cache connection that was created in a prior call to <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a>. It uses the <i>dwConnection</i> parameter that was returned by the prior call to <b>IOleCache::Cache</b>.
 
 
 
@@ -104,11 +104,11 @@ The <b>IOleCache::Uncache</b> method removes a cache connection that was created
 
 
 
-<a href="https://msdn.microsoft.com/b5ef85d0-b54e-4831-87f1-ac6763179181">IOleCache</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecache">IOleCache</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a86063a-3ee6-4fc2-a6e0-6e9ffa658348">IOleCache::Cache</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a>
  
 
  

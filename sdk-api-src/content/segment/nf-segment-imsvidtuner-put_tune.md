@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/69f71855-86d0-4ef9-a168-14e79461ec98">put_Tune</a> method specifies the tune request.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituner-put_tunerequest">put_Tune</a> method specifies the tune request.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <a href="https://msdn.microsoft.com/69f71855-86d0-4ef9-a168-14e79461ec98">pu
 
 ### -param pTR [in]
 
-Specifies a pointer to the tune request's <a href="https://msdn.microsoft.com/34077b45-32b4-466b-b103-6a42fc869265">ITuneRequest</a> interface.
+Specifies a pointer to the tune request's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> interface.
 
 
 ## -returns
@@ -76,15 +76,15 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694704(v=VS.85).aspx">IMSVidTuner Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidtuner">IMSVidTuner Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694707(v=VS.85).aspx">IMSVidTuner::get_Tune</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidtuner-get_tune">IMSVidTuner::get_Tune</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0f36580-522f-48d6-989d-11e8d175ffdb">The Microsoft Unified Tuning Model</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/the-microsoft-unified-tuning-model">The Microsoft Unified Tuning Model</a>
  
 
  

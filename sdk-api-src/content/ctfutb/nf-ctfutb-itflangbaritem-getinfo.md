@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ### -param pInfo [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/4a826a2c-4cae-4cbf-8a25-38337dcd498d">TF_LANGBARITEMINFO</a> structure that receives the language bar item information.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/ns-ctfutb-tf_langbariteminfo">TF_LANGBARITEMINFO</a> structure that receives the language bar item information.
 
 
 ## -returns
@@ -105,11 +105,11 @@ The method was successful.
 
 
 
-<a href="https://msdn.microsoft.com/16612641-2bff-4e6f-a955-85793021a20b">ITfLangBarItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/4a826a2c-4cae-4cbf-8a25-38337dcd498d">TF_LANGBARITEMINFO
+<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/ns-ctfutb-tf_langbariteminfo">TF_LANGBARITEMINFO
       </a>
  
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
- Places glyphs output from the <a href="https://msdn.microsoft.com/9bc373b6-9161-4ffc-a942-50d97d6509c3">GetGlyphs</a> method according to the font 
+ Places glyphs output from the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalyzer-getglyphs">GetGlyphs</a> method according to the font 
      and the writing system's rendering rules.
 
 
@@ -70,15 +70,15 @@ An array of characters containing the original string from which the glyphs came
 Type: <b>const UINT16*</b>
 
 A pointer to the mapping from character ranges to glyph 
-     ranges. This is returned by <a href="https://msdn.microsoft.com/9bc373b6-9161-4ffc-a942-50d97d6509c3">GetGlyphs</a>.
+     ranges. This is returned by <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalyzer-getglyphs">GetGlyphs</a>.
 
 
 ### -param textProps [in]
 
-Type: <b><a href="https://msdn.microsoft.com/2fd1af73-c2ea-4077-9cf5-77ab9f237f0a">DWRITE_SHAPING_TEXT_PROPERTIES</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_shaping_text_properties">DWRITE_SHAPING_TEXT_PROPERTIES</a>*</b>
 
 A pointer to an array of structures that contains  shaping properties for each character. This structure is returned by 
-     <a href="https://msdn.microsoft.com/9bc373b6-9161-4ffc-a942-50d97d6509c3">GetGlyphs</a>.
+     <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalyzer-getglyphs">GetGlyphs</a>.
 
 
 ### -param textLength
@@ -92,26 +92,26 @@ The text length of <i>textString</i>.
 
 Type: <b>const UINT16*</b>
 
-An array of glyph indices returned by <a href="https://msdn.microsoft.com/9bc373b6-9161-4ffc-a942-50d97d6509c3">GetGlyphs</a>.
+An array of glyph indices returned by <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalyzer-getglyphs">GetGlyphs</a>.
 
 
 ### -param glyphProps [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/debaa84f-8883-4117-9be0-962857b55020">DWRITE_SHAPING_GLYPH_PROPERTIES</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_shaping_glyph_properties">DWRITE_SHAPING_GLYPH_PROPERTIES</a>*</b>
 
-A pointer to an array of structures that contain  shaping properties for each glyph returned by <a href="https://msdn.microsoft.com/9bc373b6-9161-4ffc-a942-50d97d6509c3">GetGlyphs</a>.
+A pointer to an array of structures that contain  shaping properties for each glyph returned by <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalyzer-getglyphs">GetGlyphs</a>.
 
 
 ### -param glyphCount
 
 Type: <b>UINT32</b>
 
-The number of glyphs returned from <a href="https://msdn.microsoft.com/9bc373b6-9161-4ffc-a942-50d97d6509c3">GetGlyphs</a>.
+The number of glyphs returned from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalyzer-getglyphs">GetGlyphs</a>.
 
 
 ### -param fontFace
 
-Type: <b><a href="https://msdn.microsoft.com/1b6bb9e2-cf01-413c-9ee8-42bb0f703ce8">IDWriteFontFace</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontface">IDWriteFontFace</a>*</b>
 
 A pointer to the font face that is the source for the output glyphs.
 
@@ -140,9 +140,9 @@ A Boolean flag set to <b>TRUE</b> for right-to-left text.
 
 ### -param scriptAnalysis [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/dafda5f6-39aa-4577-9213-898bdeddc7c2">DWRITE_SCRIPT_ANALYSIS</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_script_analysis">DWRITE_SCRIPT_ANALYSIS</a>*</b>
 
-A pointer to a Script analysis result from an <a href="https://msdn.microsoft.com/e681f7c8-7d87-454b-a7b6-6c3fe38b0f92">AnalyzeScript</a> call.
+A pointer to a Script analysis result from an <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalyzer-analyzescript">AnalyzeScript</a> call.
 
 
 ### -param localeName [in, optional]
@@ -156,7 +156,7 @@ An array of characters containing the locale to use when selecting glyphs.
 
 ### -param features [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/21ef4266-5dd6-48b6-9175-452b74e94a07">DWRITE_TYPOGRAPHIC_FEATURES</a>**</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_typographic_features">DWRITE_TYPOGRAPHIC_FEATURES</a>**</b>
 
 An array of pointers to the sets of typographic 
      features to use in each feature range.
@@ -186,7 +186,7 @@ When this method returns, contains the advance width of each glyph.
 
 ### -param glyphOffsets [out]
 
-Type: <b><a href="https://msdn.microsoft.com/f5a231c0-78df-4fe0-99a8-81fcad517cda">DWRITE_GLYPH_OFFSET</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_glyph_offset">DWRITE_GLYPH_OFFSET</a>*</b>
 
 When this method returns, contains the offset of the origin of each glyph.
 
@@ -207,7 +207,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/e832ffc4-31db-41b1-a008-04696d9a975e">IDWriteTextAnalyzer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextanalyzer">IDWriteTextAnalyzer</a>
  
 
  

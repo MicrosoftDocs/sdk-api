@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <i>CryptXmlDllSignData</i> function signs data.
 
-The <i>CryptXmlDllSignData</i> function is exposed through the exported <a href="https://msdn.microsoft.com/a547e869-3c9f-4408-9895-29fae0cc6066">CryptXmlDllGetInterface</a>  function.
+The <i>CryptXmlDllSignData</i> function is exposed through the exported <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllgetinterface">CryptXmlDllGetInterface</a>  function.
 
 
 ## -parameters
@@ -61,12 +61,12 @@ The <i>CryptXmlDllSignData</i> function is exposed through the exported <a href=
 
 ### -param *pSignatureMethod [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/4eb99c1e-fa06-41ec-906c-a3ba34e7aaeb">CRYPT_XML_ALGORITHM</a> structure that specifies the algorithm.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structure that specifies the algorithm.
 
 
 ### -param hCryptProvOrNCryptKey [in]
 
-The handle of the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) that creates the signature. This handle must be an <b>HCRYPTPROV</b> handle that was obtained from a call to the <a href="https://msdn.microsoft.com/57e13662-3189-4f8d-b90a-d1fbdc09b63c">CryptAcquireContext</a> function or an <b>NCRYPT_KEY_HANDLE</b> handle that was created by using the <a href="https://msdn.microsoft.com/581c5d89-730d-4d8c-b3bb-a28edec25910">NCryptOpenKey</a> function. New applications should pass in an <a href="https://msdn.microsoft.com/1ad77adb-5960-4965-bddb-5967b982b034">NCRYPT_KEY_HANDLE</a> handle.
+The handle of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) that creates the signature. This handle must be an <b>HCRYPTPROV</b> handle that was obtained from a call to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function or an <b>NCRYPT_KEY_HANDLE</b> handle that was created by using the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenkey">NCryptOpenKey</a> function. New applications should pass in an <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/hcryptprov-or-ncrypt-key-handle">NCRYPT_KEY_HANDLE</a> handle.
 
 
 ### -param dwKeySpec [in]

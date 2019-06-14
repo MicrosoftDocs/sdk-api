@@ -136,14 +136,14 @@ Reserved; must be zero.
 
 Type: <b>USHORT</b>
 
-Windows message compatible virtual-key code. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd375731(v=VS.85).aspx">Virtual Key Codes</a>. 
+Windows message compatible virtual-key code. For more information, see <a href="https://docs.microsoft.com/windows/desktop/inputdev/virtual-key-codes">Virtual Key Codes</a>. 
 
 
 ### -field Message
 
 Type: <b>UINT</b>
 
-The corresponding window message, for example <a href="https://msdn.microsoft.com/en-us/library/ms646280(v=VS.85).aspx">WM_KEYDOWN</a>, <a href="https://msdn.microsoft.com/en-us/library/ms646286(v=VS.85).aspx">WM_SYSKEYDOWN</a>, and so forth. 
+The corresponding window message, for example <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>, <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-syskeydown">WM_SYSKEYDOWN</a>, and so forth. 
 
 
 ### -field ExtraInformation
@@ -162,15 +162,15 @@ The device-specific additional information for the event.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645597(v=VS.85).aspx">GetRawInputDeviceInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getrawinputdeviceinfoa">GetRawInputDeviceInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx">RAWINPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinput">RAWINPUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645536(v=VS.85).aspx">Raw Input</a>
+<a href="https://docs.microsoft.com/windows/desktop/inputdev/raw-input">Raw Input</a>
 
 
 

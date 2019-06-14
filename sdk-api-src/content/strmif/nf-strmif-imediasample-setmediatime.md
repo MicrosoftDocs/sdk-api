@@ -84,9 +84,9 @@ Returns S_OK, or an <b>HRESULT</b> value indicating the cause of the error.
 
 
 
-To invalidate the media time, set <i>pTimeStart</i> and <i>pTimeEnd</i> to <b>NULL</b>. This will cause the <a href="https://msdn.microsoft.com/eb2a8fd4-4a25-482c-8509-f43461c708d6">IMediaSample::GetMediaTime</a> method to return VFW_E_MEDIA_TIME_NOT_SET.
+To invalidate the media time, set <i>pTimeStart</i> and <i>pTimeEnd</i> to <b>NULL</b>. This will cause the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediasample-getmediatime">IMediaSample::GetMediaTime</a> method to return VFW_E_MEDIA_TIME_NOT_SET.
 
-For more information about media times, see <a href="https://msdn.microsoft.com/445fe6b9-9d5b-45fd-9c9e-8c632c5228ae">Time Stamps</a>.
+For more information about media times, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/time-stamps">Time Stamps</a>.
 
 
 
@@ -96,11 +96,11 @@ For more information about media times, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/883e5e3b-db91-4806-96cc-c6f8cddfcca6">IMediaSample Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample Interface</a>
  
 
  

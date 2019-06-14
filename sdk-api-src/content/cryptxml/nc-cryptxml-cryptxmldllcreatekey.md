@@ -59,14 +59,14 @@ the <b>CryptXmlDllCreateKey</b> function parses the <b>KeyValue</b> element and 
 
 ### -param *pEncoded [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/b70aae53-919b-4d4a-b284-ea6bc223842f">CRYPT_XML_BLOB</a> structure that contains the <b>KeyValue</b> element.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_blob">CRYPT_XML_BLOB</a> structure that contains the <b>KeyValue</b> element.
 
 
 ### -param *phKey [out]
 
 A pointer to a <b>BCRYPT_KEY_HANDLE</b> variable that receives the handle of the key used to verify the signature.
 
-When CryptXML has finished using the key, CryptXML frees it by calling the <a href="https://msdn.microsoft.com/98c02e55-6489-4901-8a7a-021baac41965">BCryptDestroyKey</a> function.
+When CryptXML has finished using the key, CryptXML frees it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptdestroykey">BCryptDestroyKey</a> function.
 
 
 ## -returns

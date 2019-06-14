@@ -60,12 +60,12 @@ the target that was returned by load balancing.
 
 ### -param pConnection [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/6649f43d-0e2a-42d7-8111-862bb28e3dbc">ITsSbClientConnection</a> client connection object.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbclientconnection">ITsSbClientConnection</a> client connection object.
 
 
 ### -param pPlacementSink [in]
 
- A pointer to an <a href="https://msdn.microsoft.com/7abc5454-141a-47bc-b9cd-341b41a093d2">ITsSbPlacementNotifySink</a> placement sink object.
+ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbplacementnotifysink">ITsSbPlacementNotifySink</a> placement sink object.
 
 
 ## -returns
@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Your plug-in should use the <a href="https://msdn.microsoft.com/7abc5454-141a-47bc-b9cd-341b41a093d2">ITsSbPlacementNotifySink</a> object to report the state of the environment to Remote Desktop Connection Broker (RD Connection Broker).
+Your plug-in should use the <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbplacementnotifysink">ITsSbPlacementNotifySink</a> object to report the state of the environment to Remote Desktop Connection Broker (RD Connection Broker).
 
 After RD Connection Broker receives a load-balancing result, it calls <b>QueryEnvironmentForTarget</b> 
 to determine whether the environment is present and ready.
@@ -94,15 +94,15 @@ to determine whether the environment is present and ready.
 
 
 
-<a href="https://msdn.microsoft.com/6649f43d-0e2a-42d7-8111-862bb28e3dbc">ITsSbClientConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbclientconnection">ITsSbClientConnection</a>
 
 
 
-<a href="https://msdn.microsoft.com/d90501dd-ca15-463c-b204-b1f56103ebe7">ITsSbPlacement</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbplacement">ITsSbPlacement</a>
 
 
 
-<a href="https://msdn.microsoft.com/7abc5454-141a-47bc-b9cd-341b41a093d2">ITsSbPlacementNotifySink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbplacementnotifysink">ITsSbPlacementNotifySink</a>
  
 
  

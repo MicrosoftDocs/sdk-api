@@ -59,12 +59,12 @@ Obtains the public POS (Part of Speech) table.
 
 ### -param prgPosTbl [out]
 
-Pointer to the array of <a href="https://msdn.microsoft.com/CA6A4E71-651A-44CA-B47D-79888A36BB12">POSTBL</a> structures.
+Pointer to the array of <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_postbl">POSTBL</a> structures.
 
 
 ### -param pcPosTbl [out]
 
-Pointer to the number of <a href="https://msdn.microsoft.com/CA6A4E71-651A-44CA-B47D-79888A36BB12">POSTBL</a> structures in the returned array. Can be <b>NULL</b>.
+Pointer to the number of <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_postbl">POSTBL</a> structures in the returned array. Can be <b>NULL</b>.
 
 
 ## -returns
@@ -81,11 +81,11 @@ Pointer to the number of <a href="https://msdn.microsoft.com/CA6A4E71-651A-44CA-
 
 
 
-<a href="https://msdn.microsoft.com/4C63FF43-0170-4038-AB01-72441E1BB189">IFEDictionary</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>
 
 
 
-<a href="https://msdn.microsoft.com/CA6A4E71-651A-44CA-B47D-79888A36BB12">POSTBL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_postbl">POSTBL</a>
  
 
  

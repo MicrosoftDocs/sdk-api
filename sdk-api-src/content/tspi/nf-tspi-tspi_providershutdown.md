@@ -61,15 +61,15 @@ The
 ### -param dwTSPIVersion
 
 The version of the TSPI definition under which this function must operate. The caller can use 
-<a href="https://msdn.microsoft.com/d92fbf18-282d-485b-9d56-22e4896ece57">TSPI_lineNegotiateTSPIVersion</a> or 
-<a href="https://msdn.microsoft.com/a6bca1a3-a6cd-4cb5-80e9-0da0ad6ba8dc">TSPI_phoneNegotiateTSPIVersion</a> with the special <i>dwDeviceID</i>
-<a href="https://msdn.microsoft.com/ce978913-47a1-4387-bd1b-1795aaf82dd7">INITIALIZE_NEGOTIATION</a> to negotiate a version that is guaranteed to be acceptable to the service provider.
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linenegotiatetspiversion">TSPI_lineNegotiateTSPIVersion</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonenegotiatetspiversion">TSPI_phoneNegotiateTSPIVersion</a> with the special <i>dwDeviceID</i>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/initialize-negotiation">INITIALIZE_NEGOTIATION</a> to negotiate a version that is guaranteed to be acceptable to the service provider.
 
 
 ### -param dwPermanentProviderID
 
 This parameter allows the service provider to determine which among multiple possible instances of the service provider is being shut down. The value of the parameter is identical to that passed in the parameter of the same name in 
-<a href="https://msdn.microsoft.com/6cb7817b-6df3-4a6a-a666-b41c2eb0b118">TSPI_providerInit</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providerinit">TSPI_providerInit</a>.
 
 
 ## -returns
@@ -88,8 +88,8 @@ LINEERR_INCOMPATIBLEAPIVERSION, LINEERR_NOMEM.
 
 
 The final paired call to this function must be the last call to any of the TSPI functions prefixed with <b>TSPI_line</b> or <b>TSPI_phone</b> other than 
-<a href="https://msdn.microsoft.com/d92fbf18-282d-485b-9d56-22e4896ece57">TSPI_lineNegotiateTSPIVersion</a>, or 
-<a href="https://msdn.microsoft.com/a6bca1a3-a6cd-4cb5-80e9-0da0ad6ba8dc">TSPI_phoneNegotiateTSPIVersion</a>. It is the caller's responsibility to ensure this.
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linenegotiatetspiversion">TSPI_lineNegotiateTSPIVersion</a>, or 
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonenegotiatetspiversion">TSPI_phoneNegotiateTSPIVersion</a>. It is the caller's responsibility to ensure this.
 
 This function should always succeed except in extraordinary circumstances. Most callers will probably ignore the return code because they will be unable to compensate for any error that occurs. The specified return values are more advisory for development diagnostic purposes than anything else.
 
@@ -103,15 +103,15 @@ There is no directly corresponding function in TAPI. In TAPI, multiple different
 
 
 
-<a href="https://msdn.microsoft.com/d92fbf18-282d-485b-9d56-22e4896ece57">TSPI_lineNegotiateTSPIVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linenegotiatetspiversion">TSPI_lineNegotiateTSPIVersion</a>
 
 
 
-<a href="https://msdn.microsoft.com/a6bca1a3-a6cd-4cb5-80e9-0da0ad6ba8dc">TSPI_phoneNegotiateTSPIVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonenegotiatetspiversion">TSPI_phoneNegotiateTSPIVersion</a>
 
 
 
-<a href="https://msdn.microsoft.com/6cb7817b-6df3-4a6a-a666-b41c2eb0b118">TSPI_providerInit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providerinit">TSPI_providerInit</a>
  
 
  

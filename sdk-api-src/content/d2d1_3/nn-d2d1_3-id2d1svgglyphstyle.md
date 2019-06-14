@@ -54,7 +54,7 @@ This object supplies the values for context-fill, context-stroke, and context-va
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1SvgGlyphStyle</b> interface inherits from <a href="https://msdn.microsoft.com/8f19e74a-f010-4082-a4da-d1dc3cfe3192">ID2D1Resource</a>. <b>ID2D1SvgGlyphStyle</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1SvgGlyphStyle</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1SvgGlyphStyle</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1SvgGlyphStyle</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9F57178E-87F7-43C7-9DCD-643E1A6B3B4D">GetFill</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1svgglyphstyle-getfill">GetFill</a>
 </td>
 <td align="left" width="63%">
 Returns the requested fill parameters.
@@ -78,7 +78,7 @@ Returns the requested fill parameters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5EC78516-E0E2-4758-9C36-47F951D1BCAE">GetStroke</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1svgglyphstyle-getstroke">GetStroke</a>
 </td>
 <td align="left" width="63%">
 Returns the requested stroke parameters.
@@ -87,7 +87,7 @@ Returns the requested stroke parameters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/99CCB20B-B7E2-4D53-BB0C-A1996874F0B2">GetStrokeDashesCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1svgglyphstyle-getstrokedashescount">GetStrokeDashesCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of dashes in the dash array.
@@ -96,7 +96,7 @@ Returns the number of dashes in the dash array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7F8D423C-6A3A-4240-87E9-515F5FE29C1D">SetFill</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1svgglyphstyle-setfill">SetFill</a>
 </td>
 <td align="left" width="63%">
 Provides values to an SVG glyph for fill.
@@ -105,7 +105,7 @@ Provides values to an SVG glyph for fill.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3C7734DF-3EA6-43A8-8913-8D174ABAAA56">SetStroke</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1svgglyphstyle-setstroke">SetStroke</a>
 </td>
 <td align="left" width="63%">
 Provides values to an SVG glyph for stroke properties. The brush with opacity

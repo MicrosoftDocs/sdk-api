@@ -68,9 +68,9 @@ The distance to translate along the y-axis, in pixels.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/8DFBFC34-DBD0-4731-8305-B33E90C96C54">DirectComposition Error Codes</a>  for a list of error codes.
+If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/directcomp/directcomposition-error-codes">DirectComposition Error Codes</a>  for a list of error codes.
 
 
 
@@ -94,15 +94,15 @@ If the OffsetY property was previously animated, this method removes the animati
 
 
 
-<a href="https://msdn.microsoft.com/C265E5FC-F7A1-4E87-8311-C4D0613DD7BC">IDCompositionTranslateTransform3D</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiontranslatetransform3d">IDCompositionTranslateTransform3D</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449117(v=VS.85).aspx">IDCompositionTranslateTransform3D::SetOffsetX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setoffsetx">IDCompositionTranslateTransform3D::SetOffsetX</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449123(v=VS.85).aspx">IDCompositionTranslateTransform3D::SetOffsetZ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setoffsetz">IDCompositionTranslateTransform3D::SetOffsetZ</a>
  
 
  

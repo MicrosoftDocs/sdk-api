@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Identifies the type of thread information that will be written to the minidump file by the 
-<a href="https://msdn.microsoft.com/b476023d-0e93-4d76-9ba8-ce5766c9ac51">MiniDumpWriteDump</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump">MiniDumpWriteDump</a> function.
 
 
 ## -enum-fields
@@ -92,7 +92,7 @@ When the minidump type includes <b>MiniDumpWithProcessThreadData</b>, this flag 
 
 ### -field ThreadWriteThreadInfo
 
-When the minidump type includes <b>MiniDumpWithThreadInfo</b>, this flag is set. The callback function can clear this flag to control which threads provide thread state information in the minidump file. For more information, see <a href="https://msdn.microsoft.com/855bbccb-a7c8-4744-b314-8692f785b1c0">MINIDUMP_THREAD_INFO</a>.
+When the minidump type includes <b>MiniDumpWithThreadInfo</b>, this flag is set. The callback function can clear this flag to control which threads provide thread state information in the minidump file. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_thread_info">MINIDUMP_THREAD_INFO</a>.
 
 <b>DbgHelp 6.1 and earlier:  </b>This value is not supported.
 
@@ -102,11 +102,11 @@ When the minidump type includes <b>MiniDumpWithThreadInfo</b>, this flag is set.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680363(v=VS.85).aspx">MINIDUMP_CALLBACK_OUTPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_callback_output">MINIDUMP_CALLBACK_OUTPUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/b476023d-0e93-4d76-9ba8-ce5766c9ac51">MiniDumpWriteDump</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump">MiniDumpWriteDump</a>
  
 
  

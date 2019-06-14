@@ -76,7 +76,7 @@ A pointer to the string to be converted.
 
 ### -param c [in]
 
-The length of both the <a href="https://msdn.microsoft.com/695fd0f9-abd4-4666-acad-2c409624ddc6">length of the string</a> pointed to by <i>lpstr</i> and the size (in WORDs) of the buffer pointed to by <i>pgi</i>.
+The length of both the <a href="https://docs.microsoft.com/windows/desktop/gdi/specifying-length-of-text-output-string">length of the string</a> pointed to by <i>lpstr</i> and the size (in WORDs) of the buffer pointed to by <i>pgi</i>.
 
 
 ### -param pgi [out]
@@ -122,7 +122,7 @@ If the function fails, the return value is GDI_ERROR.
 
 
 
-This function attempts to identify a single-glyph representation for each character in the string pointed to by <i>lpstr</i>. While this is useful for certain low-level purposes (such as manipulating font files), higher-level applications that wish to map a string to glyphs will typically wish to use the <a href="https://msdn.microsoft.com/de7a882f-ed74-4be2-b66d-59c2e50dc07a">Uniscribe</a> functions.
+This function attempts to identify a single-glyph representation for each character in the string pointed to by <i>lpstr</i>. While this is useful for certain low-level purposes (such as manipulating font files), higher-level applications that wish to map a string to glyphs will typically wish to use the <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a> functions.
 
 
 
@@ -132,15 +132,15 @@ This function attempts to identify a single-glyph representation for each charac
 
 
 
-<a href="https://msdn.microsoft.com/69c04ed7-52da-4cb6-9fd2-f2a8c044df8b">Font and Text Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9944baa9-8e50-40b9-9650-78b0b1d7643a">Fonts and Text Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/51b0ab12-c467-4a89-8173-fdc513868aae">GetFontUnicodeRanges</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getfontunicoderanges">GetFontUnicodeRanges</a>
  
 
  

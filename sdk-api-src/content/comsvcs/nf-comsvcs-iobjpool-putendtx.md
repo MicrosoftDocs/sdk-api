@@ -59,7 +59,7 @@ Destroys the pooled object when the transaction ends.
 
 ### -param pObj [in]
 
-A reference to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> of the pooled object.
+A reference to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> of the pooled object.
 
 
 ## -returns
@@ -76,7 +76,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/d3730a37-933b-4705-b787-4b8bb728a278">IObjPool</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjpool">IObjPool</a>
  
 
  

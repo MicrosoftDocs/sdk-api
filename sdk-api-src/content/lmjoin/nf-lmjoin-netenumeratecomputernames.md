@@ -132,7 +132,7 @@ in the buffer pointed to by the <i>ComputerNames</i> parameter if the function s
 A pointer to an array of pointers to names.  If the function call is successful, this parameter will return the computer names that match the computer type name specified in the <i>NameType</i> parameter. 
 
 When the application no longer needs this array, this buffer should be freed by
-        calling <a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a> function.
+        calling <a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function.
 
 
 
@@ -143,7 +143,7 @@ When the application no longer needs this array, this buffer should be freed by
 If the function succeeds, the return value is NERR_Success.
 
 If the function fails, the return value can be one of the following error codes or one of the 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 <table>
 <tr>
@@ -251,31 +251,31 @@ The <b>NetEnumerateComputerNames</b> function requires that the caller is a memb
 
 
 
-<a href="https://msdn.microsoft.com/710865c6-e327-439c-931d-de8674d69233">NetAddAlternateComputerName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netaddalternatecomputername">NetAddAlternateComputerName</a>
 
 
 
-<a href="https://msdn.microsoft.com/4efcb399-03af-4312-9f1d-6bc38f356cac">NetJoinDomain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netjoindomain">NetJoinDomain</a>
 
 
 
-<a href="https://msdn.microsoft.com/3c7ab44e-d5fa-40da-83fe-a44bf85b2ba5">NetRemoveAlternateComputerName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netremovealternatecomputername">NetRemoveAlternateComputerName</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f7ddaa1-a349-49a6-856d-a2fde2f1dc3b">NetRenameMachineInDomain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netrenamemachineindomain">NetRenameMachineInDomain</a>
 
 
 
-<a href="https://msdn.microsoft.com/524c8219-a303-45ab-95e2-91319b477568">NetSetPrimaryComputerName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netsetprimarycomputername">NetSetPrimaryComputerName</a>
 
 
 
-<a href="https://msdn.microsoft.com/cc755c22-1fd6-4787-999e-a43258287a05">NetUnjoinDomain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netunjoindomain">NetUnjoinDomain</a>
 
 
 
-<a href="https://msdn.microsoft.com/12163456-770c-4f9e-9261-a6ea5f2cd93a">SetComputerNameEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernameexa">SetComputerNameEx</a>
  
 
  

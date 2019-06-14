@@ -70,7 +70,7 @@ Specifies, in bytes, the length of the range that is restricted.
 ### -param dwLockType [in]
 
 Specifies the type of access restrictions previously placed on the range. This parameter uses a value from the 
-<a href="https://msdn.microsoft.com/5d84fb08-aa4f-4918-a0de-550b02cb5287">LOCKTYPE</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-taglocktype">LOCKTYPE</a> enumeration.
 
 
 ## -returns
@@ -87,7 +87,7 @@ This method can return one of these values.
 
 
 <b>ILockBytes::UnlockRegion</b> unlocks a region previously locked with a call to 
-<a href="https://msdn.microsoft.com/cea59e2a-99d8-472d-8e4f-2e2474789c20">ILockBytes::LockRegion</a>. Each region locked must be explicitly unlocked, using the same values for the <i>libOffset</i>, <i>cb</i>, and <i>dwLockType</i> parameters as in the matching calls to <b>ILockBytes::LockRegion</b>. Two adjacent regions cannot be locked separately and then unlocked with a single unlock call.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ilockbytes-lockregion">ILockBytes::LockRegion</a>. Each region locked must be explicitly unlocked, using the same values for the <i>libOffset</i>, <i>cb</i>, and <i>dwLockType</i> parameters as in the matching calls to <b>ILockBytes::LockRegion</b>. Two adjacent regions cannot be locked separately and then unlocked with a single unlock call.
 
 
 
@@ -97,19 +97,19 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/700b6a3c-1046-4c21-8887-16f344c23510">ILockBytes - File-Based Implementation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Stg/ilockbytes-file-based-implementation">ILockBytes - File-Based Implementation</a>
 
 
 
-<a href="https://msdn.microsoft.com/6ab019b0-34d7-4b6e-ba77-6b6881fabd29">ILockBytes - Global Memory Implementation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Stg/ilockbytes-global-memory-implementation">ILockBytes - Global Memory Implementation</a>
 
 
 
-<a href="https://msdn.microsoft.com/cea59e2a-99d8-472d-8e4f-2e2474789c20">ILockBytes::LockRegion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ilockbytes-lockregion">ILockBytes::LockRegion</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d84fb08-aa4f-4918-a0de-550b02cb5287">LOCKTYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-taglocktype">LOCKTYPE</a>
  
 
  

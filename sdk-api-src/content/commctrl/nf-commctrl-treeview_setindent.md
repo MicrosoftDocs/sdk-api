@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the width of indentation for a tree-view control and redraws the control to reflect the new width. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773750(v=VS.85).aspx">TVM_SETINDENT</a> message explicitly.
+Sets the width of indentation for a tree-view control and redraws the control to reflect the new width. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-setindent">TVM_SETINDENT</a> message explicitly.
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Sets the width of indentation for a tree-view control and redraws the control to
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control. 
 
 
 ### -param indent
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 Width, in pixels, of the indentation. If this parameter is less than the system-defined minimum width, the new width is set to the system-defined minimum. 
 
@@ -75,7 +75,7 @@ Width, in pixels, of the indentation. If this parameter is less than the system-
 
 
 
-The system-defined minimum indent value is typically five pixels, but it is not fixed. To retrieve the exact value of the minimum indent on a particular system, use the <b>TreeView_SetIndent</b> macro with <i>indent</i> set to zero. Then use the <a href="https://msdn.microsoft.com/en-us/library/Bb773832(v=VS.85).aspx">TreeView_GetIndent</a> macro to retrieve the minimum indent value.
+The system-defined minimum indent value is typically five pixels, but it is not fixed. To retrieve the exact value of the minimum indent on a particular system, use the <b>TreeView_SetIndent</b> macro with <i>indent</i> set to zero. Then use the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_getindent">TreeView_GetIndent</a> macro to retrieve the minimum indent value.
 
 
 
@@ -85,7 +85,7 @@ The system-defined minimum indent value is typically five pixels, but it is not 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773750(v=VS.85).aspx">TVM_SETINDENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-setindent">TVM_SETINDENT</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <b>DDP_FILE_EXTENT</b> represents the extent of data in a 
      file that is to be read in a pending call to 
-     <a href="https://msdn.microsoft.com/9A85B32B-7430-46AC-A9BF-2896651F40AF">ReadBackupFile</a>.
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ddpbackup/nf-ddpbackup-idedupreadfilecallback-readbackupfile">ReadBackupFile</a>.
 
 
 ## -struct-fields
@@ -83,7 +83,7 @@ Data Deduplication needs to read only the portions of a container file that back
 
 
 
-<a href="https://msdn.microsoft.com/A3AFB530-ED97-4BEC-BF9D-668115E36A36">IDedupReadFileCallback::PreviewContainerRead</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ddpbackup/nf-ddpbackup-idedupreadfilecallback-previewcontainerread">IDedupReadFileCallback::PreviewContainerRead</a>
  
 
  

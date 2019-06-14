@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Allocates sector-aligned space  for a set of reserved records.  The requested allocation must  be  the  same size   that <a href="https://msdn.microsoft.com/1ac8ecc7-a937-40cb-8a8b-8b168d9fce61">AlignReservedLog</a> returns.
+Allocates sector-aligned space  for a set of reserved records.  The requested allocation must  be  the  same size   that <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-alignreservedlog">AlignReservedLog</a> returns.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Allocates sector-aligned space  for a set of reserved records.  The requested al
 
 ### -param pvMarshal [in, out]
 
-A pointer to the  marshaling context that is allocated by calling the <a href="https://msdn.microsoft.com/750c0615-bfac-402b-a590-6c9d800cf2d8">CreateLogMarshallingArea</a> function.
+A pointer to the  marshaling context that is allocated by calling the <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogmarshallingarea">CreateLogMarshallingArea</a> function.
 
 
 ### -param cReservedRecords [in]
@@ -73,7 +73,7 @@ This value must be greater than zero (0).
 
 The size of the sector-aligned space reservation that is associated with the number of records specified in <i>cReservedRecords</i>, in bytes.  
 
-This parameter must be the aligned reservation size  that  <a href="https://msdn.microsoft.com/1ac8ecc7-a937-40cb-8a8b-8b168d9fce61">AlignReservedLog</a> returns in <i>*pcbAlignReservation</i>. 
+This parameter must be the aligned reservation size  that  <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-alignreservedlog">AlignReservedLog</a> returns in <i>*pcbAlignReservation</i>. 
 
 
 ## -returns
@@ -84,7 +84,7 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero (0). To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. The following  list identifies the possible  error codes:
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following  list identifies the possible  error codes:
 
 
 
@@ -94,11 +94,11 @@ If the function fails, the return value is zero (0). To get extended error infor
 
 
 
-<a href="https://msdn.microsoft.com/1ac8ecc7-a937-40cb-8a8b-8b168d9fce61">AlignReservedLog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-alignreservedlog">AlignReservedLog</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3059828-d291-493d-a4fe-13d06e49ed12">Common Log File System Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
  
 
  

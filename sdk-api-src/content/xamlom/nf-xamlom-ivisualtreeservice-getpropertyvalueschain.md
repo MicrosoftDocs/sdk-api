@@ -97,8 +97,8 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 
 
-<b>GetPropertyValuesChain</b> returns an array of <a href="https://msdn.microsoft.com/111D10AB-2C16-4D21-A716-968C810B928F">PropertyChainValue</a> structs that represents all the
-    properties set on the element passed in. It also returns an array of <a href="https://msdn.microsoft.com/B9A506D5-5F7B-429C-AA62-52B4C5BF78E0">PropertyChainSource</a> structs that represents all the styles involved in setting the effective value of each property. 
+<b>GetPropertyValuesChain</b> returns an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/ns-xamlom-propertychainvalue">PropertyChainValue</a> structs that represents all the
+    properties set on the element passed in. It also returns an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/ns-xamlom-propertychainsource">PropertyChainSource</a> structs that represents all the styles involved in setting the effective value of each property. 
 
 
 
@@ -108,7 +108,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 
 
-<a href="https://msdn.microsoft.com/5C0896E4-E37E-49DF-B303-1814BCA6F5B3">IVisualTreeService</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice">IVisualTreeService</a>
  
 
  

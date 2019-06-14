@@ -54,7 +54,7 @@ Use this interface to obtain information and perform operations for an 1667 Addr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnhancedStorageACT</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnhancedStorageACT</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnhancedStorageACT</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnhancedStorageACT</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,16 +69,16 @@ The <b>IEnhancedStorageACT</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/77141891-9adc-4cd9-b682-8f5b8e842f4c">Authorize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nf-ehstorapi-ienhancedstorageact-authorize">Authorize</a>
 </td>
 <td align="left" width="63%">
-Associates the Addressable Command Target (ACT) with the <b>Authorized</b> state    defined by <a href="https://msdn.microsoft.com/385b2f9d-659e-451d-97da-15be70180e1f">ACT_AUTHORIZATION_STATE</a>, and ensures the authentication of each individual silo according to the required sequence and logical combination necessary to authorize access to the ACT.
+Associates the Addressable Command Target (ACT) with the <b>Authorized</b> state    defined by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/ns-ehstorapi-_act_authorization_state">ACT_AUTHORIZATION_STATE</a>, and ensures the authentication of each individual silo according to the required sequence and logical combination necessary to authorize access to the ACT.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/79615cae-cdd1-43bc-9954-108084ea692b">GetAuthorizationState</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nf-ehstorapi-ienhancedstorageact-getauthorizationstate">GetAuthorizationState</a>
 </td>
 <td align="left" width="63%">
 Returns the current authorization state of the ACT.
@@ -87,7 +87,7 @@ Returns the current authorization state of the ACT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/823da812-b3f5-4c61-bb33-cd970695879f">GetSilos</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nf-ehstorapi-ienhancedstorageact-getsilos">GetSilos</a>
 </td>
 <td align="left" width="63%">
 Returns an enumeration of all the silos associated with the ACT. 
@@ -96,7 +96,7 @@ Returns an enumeration of all the silos associated with the ACT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0f8d33af-a771-4cbd-9740-a72fbb7e9b42">GetUniqueIdentity</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nf-ehstorapi-ienhancedstorageact-getuniqueidentity">GetUniqueIdentity</a>
 </td>
 <td align="left" width="63%">
 Retrieves the unique identity of the Addressable Command Target (ACT).
@@ -105,10 +105,10 @@ Retrieves the unique identity of the Addressable Command Target (ACT).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/82f78f9d-fb50-4f44-b4ad-f3a43ccca671">Unauthorize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nf-ehstorapi-ienhancedstorageact-unauthorize">Unauthorize</a>
 </td>
 <td align="left" width="63%">
-Associates the Addressable Command Target (ACT) with the <b>Unauthorized</b> state defined by <a href="https://msdn.microsoft.com/385b2f9d-659e-451d-97da-15be70180e1f">ACT_AUTHORIZATION_STATE</a>, and ensures the deauthentication of each individual silo according to the required sequence and logical combination necessary to unauthorize access to the ACT.
+Associates the Addressable Command Target (ACT) with the <b>Unauthorized</b> state defined by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/ns-ehstorapi-_act_authorization_state">ACT_AUTHORIZATION_STATE</a>, and ensures the deauthentication of each individual silo according to the required sequence and logical combination necessary to unauthorize access to the ACT.
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ Associates the Addressable Command Target (ACT) with the <b>Unauthorized</b> sta
 
 
 
-<a href="https://msdn.microsoft.com/807834cc-0f52-43f6-a3b3-06591ba68c15">IEnumEnhancedStorageACT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienumenhancedstorageact">IEnumEnhancedStorageACT</a>
  
 
  

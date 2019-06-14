@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
  Finds the specified OpenType font table if it exists and returns a pointer to it.
-     The function accesses the underlying font data through the <a href="https://msdn.microsoft.com/792ab9be-853f-427d-a762-2da8e81423f8">IDWriteFontFileStream</a> interface
+     The function accesses the underlying font data through the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontfilestream">IDWriteFontFileStream</a> interface
      implemented by the font file loader.
 
 
@@ -89,8 +89,8 @@ When this method returns, contains a pointer to the size, in bytes, of the font 
 
 Type: <b>void**</b>
 
-When this method returns, the address of a pointer to  the opaque context, which must be freed by calling <a href="https://msdn.microsoft.com/6e9b7e30-eae9-476b-89bd-a794e08ba468">ReleaseFontTable</a>.
-         The context actually comes from the lower-level <a href="https://msdn.microsoft.com/792ab9be-853f-427d-a762-2da8e81423f8">IDWriteFontFileStream</a>,
+When this method returns, the address of a pointer to  the opaque context, which must be freed by calling <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontface-releasefonttable">ReleaseFontTable</a>.
+         The context actually comes from the lower-level <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontfilestream">IDWriteFontFileStream</a>,
          which may be implemented by the application or DWrite itself.
          It is possible for a <b>NULL</b> <i>tableContext</i> to be returned, especially if
          the implementation performs direct memory mapping on the whole file.
@@ -132,7 +132,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/1b6bb9e2-cf01-413c-9ee8-42bb0f703ce8">IDWriteFontFace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontface">IDWriteFontFace</a>
  
 
  

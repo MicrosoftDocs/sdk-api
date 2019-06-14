@@ -59,7 +59,7 @@ Obtains a response packet from the EAP method.
 
 ### -param sessionHandle [in]
 
-A pointer to an <b>EAP_SESSION_HANDLE</b> structure that contains the unique handle for this EAP authentication session on the EAPHost server. This handle is returned in the <i>pSessionHandle</i> parameter in a previous call to <a href="https://msdn.microsoft.com/770a548c-c227-4708-bc40-08bf2681c90f">EapPeerBeginSession</a>.
+A pointer to an <b>EAP_SESSION_HANDLE</b> structure that contains the unique handle for this EAP authentication session on the EAPHost server. This handle is returned in the <i>pSessionHandle</i> parameter in a previous call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerbeginsession">EapPeerBeginSession</a>.
 
 
 ### -param pcbSendPacket [in, out]
@@ -69,12 +69,12 @@ A pointer to a value that contains the size in bytes of the buffer allocated for
 
 ### -param pSendPacket [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/a5d78db0-990f-4318-8f1a-4e903221845f">EapPacket</a> structure that contains the response packet.
+A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodtypes/ns-eapmethodtypes-tageappacket">EapPacket</a> structure that contains the response packet.
 
 
 ### -param ppEapError [out]
 
-A pointer to the address of an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by calling<a href="https://msdn.microsoft.com/85b4197c-5caf-4e2b-94fd-e651712dd39d">EapPeerFreeErrorMemory</a>.
+A pointer to the address of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by calling<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
 
 
 ## -remarks
@@ -93,7 +93,7 @@ This call is performed by a peer-based EAPHost using a function pointer to this 
 
 
 
-<a href="https://msdn.microsoft.com/fdfa595d-acf7-4489-88a8-113093567fe5">EAPHost Peer Method Run-Time Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eaphost-peer-method-run-time-functions">EAPHost Peer Method Run-Time Functions</a>
  
 
  

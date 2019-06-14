@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Extends the <a href="https://msdn.microsoft.com/2072cb3c-e540-4708-bfe8-33fff3a190bd">INameSpaceTreeControl</a> interface by providing methods that get and set the display styles of treeview controls for use with Shell namespace items.
+Extends the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrol">INameSpaceTreeControl</a> interface by providing methods that get and set the display styles of treeview controls for use with Shell namespace items.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INameSpaceTreeControl2</b> interface inherits from <a href="https://msdn.microsoft.com/2072cb3c-e540-4708-bfe8-33fff3a190bd">INameSpaceTreeControl</a>. <b>INameSpaceTreeControl2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INameSpaceTreeControl2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrol">INameSpaceTreeControl</a>. <b>INameSpaceTreeControl2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>INameSpaceTreeControl2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5305d7ba-e37f-4f95-8ae2-e0532012cb1e">GetControlStyle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrol2-getcontrolstyle">GetControlStyle</a>
 </td>
 <td align="left" width="63%">
 Gets the display styles set for the namespace object's treeview controls.
@@ -78,7 +78,7 @@ Gets the display styles set for the namespace object's treeview controls.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1c96d936-2a79-491b-8e1e-2dd0e71aba10">GetControlStyle2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrol2-getcontrolstyle2">GetControlStyle2</a>
 </td>
 <td align="left" width="63%">
 Gets the extended display styles set for the namespace object's treeview controls.
@@ -87,7 +87,7 @@ Gets the extended display styles set for the namespace object's treeview control
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/20a212e2-13e8-4e17-a8d3-78fff2a1fafb">SetControlStyle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrol2-setcontrolstyle">SetControlStyle</a>
 </td>
 <td align="left" width="63%">
 Sets the display styles for the namespace object's treeview controls.
@@ -96,7 +96,7 @@ Sets the display styles for the namespace object's treeview controls.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/17d54fa9-ff5c-4fca-a7a6-7ecd4a58c7b9">SetControlStyle2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrol2-setcontrolstyle2">SetControlStyle2</a>
 </td>
 <td align="left" width="63%">
 Sets the extended display styles for the namespace object's treeview controls.
@@ -110,7 +110,7 @@ Sets the extended display styles for the namespace object's treeview controls.
 
 
 
-This interface also provides the methods of the <a href="https://msdn.microsoft.com/2072cb3c-e540-4708-bfe8-33fff3a190bd">INameSpaceTreeControl</a> interface, from which it inherits.
+This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrol">INameSpaceTreeControl</a> interface, from which it inherits.
 
 Use class identifier (CLSID) CLSID_NameSpaceTreeControl to instantiate an instance of this interface.
 

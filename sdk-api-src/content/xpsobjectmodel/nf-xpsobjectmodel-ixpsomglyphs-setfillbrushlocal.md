@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the <a href="https://msdn.microsoft.com/43cb56db-e09e-47cb-b50b-7827131659fd">IXpsOMBrush</a> interface pointer to a local, unshared fill brush.
+Sets the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsombrush">IXpsOMBrush</a> interface pointer to a local, unshared fill brush.
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Sets the <a href="https://msdn.microsoft.com/43cb56db-e09e-47cb-b50b-7827131659f
 
 ### -param fillBrush [in]
 
-The <a href="https://msdn.microsoft.com/43cb56db-e09e-47cb-b50b-7827131659fd">IXpsOMBrush</a> interface pointer  to be set as the local, unshared fill brush. A <b>NULL</b> pointer releases any previously assigned brushes.
+The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsombrush">IXpsOMBrush</a> interface pointer  to be set as the local, unshared fill brush. A <b>NULL</b> pointer releases any previously assigned brushes.
 
 
 ## -returns
 
 
 
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -105,16 +105,16 @@ The method succeeded.
 
 
 
-After you call <b>SetFillBrushLocal</b>, the fill brush lookup key is released and <a href="https://msdn.microsoft.com/f71b0b98-12d6-4108-8b1e-4ad254ffbdfd">GetFillBrushLookup</a> returns a <b>NULL</b> pointer in the <i>key</i> parameter. The table that follows explains the relationship between the local and lookup values of this property.
+After you call <b>SetFillBrushLocal</b>, the fill brush lookup key is released and <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomglyphs-getfillbrushlookup">GetFillBrushLookup</a> returns a <b>NULL</b> pointer in the <i>key</i> parameter. The table that follows explains the relationship between the local and lookup values of this property.
 
 <table>
 <tr>
 <th>Most recent method called</th>
-<th>Object that is returned in <i>fillBrush</i> by <a href="https://msdn.microsoft.com/0deadd8e-24c5-4be1-8eaf-43cd59e22243">GetFillBrush</a>
+<th>Object that is returned in <i>fillBrush</i> by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomglyphs-getfillbrush">GetFillBrush</a>
 </th>
-<th>Object that is returned in <i>fillBrush</i>   by <a href="https://msdn.microsoft.com/d497eac9-8096-4a0e-bb43-315f734fd36e">GetFillBrushLocal</a>
+<th>Object that is returned in <i>fillBrush</i>   by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomglyphs-getfillbrushlocal">GetFillBrushLocal</a>
 </th>
-<th>String that is returned  in <i>key</i> by <a href="https://msdn.microsoft.com/f71b0b98-12d6-4108-8b1e-4ad254ffbdfd">GetFillBrushLookup</a>
+<th>String that is returned  in <i>key</i> by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomglyphs-getfillbrushlookup">GetFillBrushLookup</a>
 </th>
 </tr>
 <tr>
@@ -138,12 +138,12 @@ The local brush that is set by <b>SetFillBrushLocal</b>.
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/a983583b-8698-48aa-af24-2e71d87d30c4">SetFillBrushLookup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomglyphs-setfillbrushlookup">SetFillBrushLookup</a>
 
 
 </td>
 <td>
-The shared brush that gets retrieved, with a lookup key matching the key that is set by <a href="https://msdn.microsoft.com/a983583b-8698-48aa-af24-2e71d87d30c4">SetFillBrushLookup</a>, from the resource directory.
+The shared brush that gets retrieved, with a lookup key matching the key that is set by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomglyphs-setfillbrushlookup">SetFillBrushLookup</a>, from the resource directory.
 
 </td>
 <td>
@@ -151,13 +151,13 @@ The shared brush that gets retrieved, with a lookup key matching the key that is
 
 </td>
 <td>
-The lookup key that is set by <a href="https://msdn.microsoft.com/a983583b-8698-48aa-af24-2e71d87d30c4">SetFillBrushLookup</a>.
+The lookup key that is set by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomglyphs-setfillbrushlookup">SetFillBrushLookup</a>.
 
 </td>
 </tr>
 <tr>
 <td>
-Neither <b>SetFillBrushLocal</b> nor <a href="https://msdn.microsoft.com/a983583b-8698-48aa-af24-2e71d87d30c4">SetFillBrushLookup</a> has been called yet.
+Neither <b>SetFillBrushLocal</b> nor <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomglyphs-setfillbrushlookup">SetFillBrushLookup</a> has been called yet.
 
 </td>
 <td>
@@ -184,11 +184,11 @@ Neither <b>SetFillBrushLocal</b> nor <a href="https://msdn.microsoft.com/a983583
 
 
 
-<a href="https://msdn.microsoft.com/43cb56db-e09e-47cb-b50b-7827131659fd">IXpsOMBrush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsombrush">IXpsOMBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/6d2cda65-c719-46f2-97c9-8aee7b5f84b9">IXpsOMGlyphs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphs">IXpsOMGlyphs</a>
 
 
 
@@ -196,7 +196,7 @@ Neither <b>SetFillBrushLocal</b> nor <a href="https://msdn.microsoft.com/a983583
 
 
 
-<a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
  
 
  

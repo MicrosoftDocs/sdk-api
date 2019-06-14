@@ -86,7 +86,7 @@ Number of object pointers passed in <i>ppUnk</i>.
 
 ### -param ppUnk [in]
 
-An array of <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> pointers on the objects for which this property sheet is being invoked. The number of elements in the array is specified by <i>cObjects</i>. These pointers are passed to each property page through <a href="https://msdn.microsoft.com/0d7a73ce-8e3c-40c5-9040-6370df5edc2b">IPropertyPage::SetObjects</a>.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointers on the objects for which this property sheet is being invoked. The number of elements in the array is specified by <i>cObjects</i>. These pointers are passed to each property page through <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-setobjects">IPropertyPage::SetObjects</a>.
 
 
 ### -param cPages [in]
@@ -101,7 +101,7 @@ Array of size <i>cPages</i> containing the CLSIDs of each property page to displ
 
 ### -param lcid [in]
 
-Locale identifier to use for the property sheet. Property pages can retrieve this identifier through <a href="https://msdn.microsoft.com/d569346d-4a40-42a4-ac8e-539588c4dd66">IPropertyPageSite::GetLocaleID</a>.
+Locale identifier to use for the property sheet. Property pages can retrieve this identifier through <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertypagesite-getlocaleid">IPropertyPageSite::GetLocaleID</a>.
 
 
 ### -param dwReserved [in]
@@ -157,7 +157,7 @@ The address in <i>lpszCaption</i>, <i>ppUnk</i>, or <i>pPageCIsID</i> is not val
 
 
 
-The property pages to be displayed are identified with <i>pPageClsID</i>, which is an array of <i>cPages</i> <a href="https://msdn.microsoft.com/8f2be90c-360a-410c-81aa-bae9ae2c1a21">CLSID</a> values. The objects that are affected by this property sheet are identified in <i>ppUnk</i>, an array of size <i>cObjects</i> containing <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> pointers.
+The property pages to be displayed are identified with <i>pPageClsID</i>, which is an array of <i>cPages</i> <a href="https://docs.microsoft.com/windows/desktop/com/clsid">CLSID</a> values. The objects that are affected by this property sheet are identified in <i>ppUnk</i>, an array of size <i>cObjects</i> containing <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointers.
 
 This function always creates a modal dialog box and does not return until the dialog box is closed.
 
@@ -169,11 +169,11 @@ This function always creates a modal dialog box and does not return until the di
 
 
 
-<a href="https://msdn.microsoft.com/0d7a73ce-8e3c-40c5-9040-6370df5edc2b">IPropertyPage::SetObjects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-setobjects">IPropertyPage::SetObjects</a>
 
 
 
-<a href="https://msdn.microsoft.com/d569346d-4a40-42a4-ac8e-539588c4dd66">IPropertyPageSite::GetLocaleID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertypagesite-getlocaleid">IPropertyPageSite::GetLocaleID</a>
  
 
  

@@ -66,10 +66,10 @@ A handle to the edit control.
 
 ### -param dw
 
-A <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a> value that specifies the extended edit control styles to set. 
+A <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a> value that specifies the extended edit control styles to set. 
 
 
 ### -param dwMask
 
-A <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a> value that specifies which styles are to be affected. 
+A <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a> value that specifies which styles are to be affected. 
 

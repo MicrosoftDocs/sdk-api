@@ -54,7 +54,7 @@ Represents a function for animating one or more  properties of one or more  Micr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionAnimation</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDCompositionAnimation</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionAnimation</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDCompositionAnimation</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDCompositionAnimation</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d80ab2db-0d88-46ed-a40d-4408bf315a85">AddCubic</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcompanimation/nf-dcompanimation-idcompositionanimation-addcubic">AddCubic</a>
 </td>
 <td align="left" width="63%">
 Adds a cubic polynomial segment to the animation function.
@@ -78,7 +78,7 @@ Adds a cubic polynomial segment to the animation function.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/14179e2f-3ede-4137-baa4-074bb31e1481">AddRepeat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcompanimation/nf-dcompanimation-idcompositionanimation-addrepeat">AddRepeat</a>
 </td>
 <td align="left" width="63%">
 Adds a repeat segment that causes the specified portion of an animation function to be repeated.
@@ -87,7 +87,7 @@ Adds a repeat segment that causes the specified portion of an animation function
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C54768ED-30A7-45E8-8CE0-33F06E48EA10">AddSinusoidal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcompanimation/nf-dcompanimation-idcompositionanimation-addsinusoidal">AddSinusoidal</a>
 </td>
 <td align="left" width="63%">
 Adds a sinusoidal segment to the animation function.
@@ -96,7 +96,7 @@ Adds a sinusoidal segment to the animation function.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/71287ae2-d930-4e96-8c12-538d2b58ccc6">End</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcompanimation/nf-dcompanimation-idcompositionanimation-end">End</a>
 </td>
 <td align="left" width="63%">
 Adds an end segment that marks the end of an animation function.  
@@ -105,7 +105,7 @@ Adds an end segment that marks the end of an animation function.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3745fff0-eefa-4262-9ce3-9ab812264c1d">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcompanimation/nf-dcompanimation-idcompositionanimation-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the animation function so that it contains no segments.
@@ -114,7 +114,7 @@ Resets the animation function so that it contains no segments.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/661049EC-DAA2-46A5-B600-C3F0EF8B3EDF">SetAbsoluteBeginTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcompanimation/nf-dcompanimation-idcompositionanimation-setabsolutebegintime">SetAbsoluteBeginTime</a>
 </td>
 <td align="left" width="63%">
 Sets the absolute time at which the animation function starts.
@@ -129,7 +129,7 @@ Sets the absolute time at which the animation function starts.
 
 
 
-<a href="https://msdn.microsoft.com/e32193b2-de93-417e-9fe0-49f8e45f7a01">IDCompositionDevice::CreateAnimation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice-createanimation">IDCompositionDevice::CreateAnimation</a>
  
 
  

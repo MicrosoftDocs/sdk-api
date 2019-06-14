@@ -72,7 +72,7 @@ Specifies the upper 32 bits of the time value.
 
 
 
-<a href="https://msdn.microsoft.com/cc841dac-85d4-4250-a868-95c41731fe45">DHCP_CLIENT_INFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info">DHCP_CLIENT_INFO</a>
  
 
  

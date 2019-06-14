@@ -59,39 +59,39 @@ ms.custom: 19H1
 
 ### -param uNumShaders [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The number of shaders to compress.
 
 
 ### -param pShaderData [in]
 
-Type: <b><a href="https://msdn.microsoft.com/34cde0c9-e8ee-428d-86f5-87c91b95f5d8">D3D_SHADER_DATA</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3d-shader-data">D3D_SHADER_DATA</a>*</b>
 
-An array of <a href="https://msdn.microsoft.com/34cde0c9-e8ee-428d-86f5-87c91b95f5d8">D3D_SHADER_DATA</a> structures that describe the set of shaders to compress.
+An array of <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3d-shader-data">D3D_SHADER_DATA</a> structures that describe the set of shaders to compress.
 
 
 ### -param uFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Flags that indicate how to compress the shaders. Currently, only the  D3D_COMPRESS_SHADER_KEEP_ALL_PARTS (0x00000001) flag is defined.
 
 
 ### -param ppCompressedData [out]
 
-Type: <b><a href="https://msdn.microsoft.com/f6a04778-1ab9-4935-98b8-f814c6b4ebac">ID3DBlob</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)">ID3DBlob</a>**</b>
 
-The address of a pointer to the <a href="https://msdn.microsoft.com/f6a04778-1ab9-4935-98b8-f814c6b4ebac">ID3DBlob</a> interface that is used to retrieve the compressed shader data.
+The address of a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)">ID3DBlob</a> interface that is used to retrieve the compressed shader data.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-Returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 return codes</a>.
+Returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 return codes</a>.
 
 
 
@@ -101,7 +101,7 @@ Returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-1
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd607342(v=VS.85).aspx">Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference-functions">Functions</a>
  
 
  

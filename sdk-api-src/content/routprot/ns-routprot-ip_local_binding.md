@@ -73,7 +73,7 @@ Specifies the subnet mask for the IP address.
 
 
 Since an adapter can have more than one IP address, the 
-<a href="https://msdn.microsoft.com/3eb864e7-2de6-44c2-af3e-fee547de6081">IP_ADAPTER_BINDING_INFO</a> structure maintains an array of 
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-ip_adapter_binding_info">IP_ADAPTER_BINDING_INFO</a> structure maintains an array of 
 <b>IP_LOCAL_BINDING</b> structures.
 
 
@@ -84,15 +84,15 @@ Since an adapter can have more than one IP address, the
 
 
 
-<a href="https://msdn.microsoft.com/3eb864e7-2de6-44c2-af3e-fee547de6081">IP_ADAPTER_BINDING_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-ip_adapter_binding_info">IP_ADAPTER_BINDING_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/352505a9-616a-4d47-9857-f88d345333fd">Router Management Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/767733eb-1cbd-4b8d-98b7-41d1d0f2c630">Router Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>
  
 
  

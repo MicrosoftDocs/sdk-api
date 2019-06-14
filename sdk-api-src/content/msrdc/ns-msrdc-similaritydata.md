@@ -67,7 +67,7 @@ The similarity data for the file.
 
 
 
-<a href="https://msdn.microsoft.com/0200008c-5664-445f-ae65-0eb004856a4c">SimilarityDumpData</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0014">SimilarityDumpData</a>
  
 
  

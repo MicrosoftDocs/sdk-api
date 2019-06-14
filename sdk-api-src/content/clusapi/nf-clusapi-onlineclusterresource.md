@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Brings an offline or failed  <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> online. The <b>PCLUSAPI_ONLINE_CLUSTER_RESOURCE</b> type defines a pointer to this function.
+Brings an offline or failed  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> online. The <b>PCLUSAPI_ONLINE_CLUSTER_RESOURCE</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -72,7 +72,7 @@ Handle to the resource to be brought online.
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following is a possible error code.
+the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following is a possible error code.
 
 <table>
 <tr>
@@ -86,7 +86,7 @@ the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f
 </dl>
 </td>
 <td width="60%">
-The resource or one of the resources it depends on has returned <b>ERROR_IO_PENDING</b> from its  <a href="https://msdn.microsoft.com/b406ef44-0622-4625-a6cf-462b6ea6018d">Online</a> entry point function.
+The resource or one of the resources it depends on has returned <b>ERROR_IO_PENDING</b> from its  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_routine">Online</a> entry point function.
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ The resource or one of the resources it depends on has returned <b>ERROR_IO_PEND
 
 
 
-Do not call  <b>OnlineClusterResource</b> from a resource DLL. For more information, see  <a href="https://msdn.microsoft.com/0eaa4aea-8d9a-4552-b43a-fafa23a3e736">Function Calls to Avoid in Resource DLLs</a>.
+Do not call  <b>OnlineClusterResource</b> from a resource DLL. For more information, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
 
 
@@ -110,19 +110,19 @@ Do not call  <b>OnlineClusterResource</b> from a resource DLL. For more informat
 
 
 
-<a href="https://msdn.microsoft.com/1d67a4f5-66f8-4818-8b63-d0f50452f889">Offline</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Offline</a>
 
 
 
-<a href="https://msdn.microsoft.com/694dbf3d-3355-44d9-8af0-ea2baae832fd">OfflineClusterResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-offlineclusterresource">OfflineClusterResource</a>
 
 
 
-<a href="https://msdn.microsoft.com/b406ef44-0622-4625-a6cf-462b6ea6018d">Online</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_routine">Online</a>
 
 
 
-<a href="https://msdn.microsoft.com/c699cb00-b999-45b8-b9db-570150e1a65e">OpenClusterResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusterresource">OpenClusterResource</a>
  
 
  

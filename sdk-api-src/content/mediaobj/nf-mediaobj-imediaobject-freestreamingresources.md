@@ -76,7 +76,7 @@ Returns S_OK if successful. Otherwise, returns an <b>HRESULT</b> value indicatin
 
 
 
-This method releases any resources that the <a href="https://msdn.microsoft.com/en-us/library/Dd406943(v=VS.85).aspx">IMediaObject::AllocateStreamingResources</a> method initializes.
+This method releases any resources that the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-allocatestreamingresources">IMediaObject::AllocateStreamingResources</a> method initializes.
 
 If the DMO does not support this method, the method returns S_OK. If you call this method during streaming, the method fails and the DMO does not release any resources.
 
@@ -90,7 +90,7 @@ Regardless of whether the method fails or succeeds, the application can continue
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406926(v=VS.85).aspx">IMediaObject Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>
  
 
  

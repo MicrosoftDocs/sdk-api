@@ -49,11 +49,11 @@ ms.custom: 19H1
 ## -description
 
 
-Server dispatch function used to create a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a> shared by a server and client.
+Server dispatch function used to create a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a> shared by a server and client.
 
 The <b>SpAcceptLsaModeContext</b> function is called when the server calls the 
-<a href="https://msdn.microsoft.com/eaa15fed-4438-4e43-9be3-aa100ca453c7">AcceptSecurityContext (General)</a> function of the 
-<a href="https://msdn.microsoft.com/91d2389b-1238-49d3-9fef-f1017a8072df">Security Support Provider Interface</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (General)</a> function of the 
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi">Security Support Provider Interface</a>.
 
 
 ## -parameters
@@ -74,7 +74,7 @@ Optional. Handle to the current context.
 ### -param InputBuffer [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/fc6ef09c-3ba9-4bcb-a3c2-07422af8eaa9">SecBufferDesc</a> structure containing information from the client.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbufferdesc">SecBufferDesc</a> structure containing information from the client.
 
 
 ### -param ContextRequirements [in]
@@ -112,7 +112,7 @@ Both the client and the server are required to prove their identity.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a> will support the detection of replayed packets.
+The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a> will support the detection of replayed packets.
 
 </td>
 </tr>
@@ -132,7 +132,7 @@ The security context will support the detection of out-of-order messages.
 </dl>
 </td>
 <td width="60%">
-A new <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">session key</a> must be negotiated.
+A new <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">session key</a> must be negotiated.
 
 </td>
 </tr>
@@ -163,7 +163,7 @@ The input buffer contains package-specific credential information which should b
 </td>
 <td width="60%">
 The package must allocate memory. The caller must eventually call the 
-<a href="https://msdn.microsoft.com/3c3d27bb-4f9a-4979-b679-1e10fa1ff221">FreeContextBuffer</a> function to free memory allocated by the security package.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a> function to free memory allocated by the security package.
 
 </td>
 </tr>
@@ -184,7 +184,7 @@ The caller expects a three-leg mutual authentication transaction.
 </td>
 <td width="60%">
 A datagram-type communications channel should be used. For more information, see 
-<a href="https://msdn.microsoft.com/f312796c-cbe6-4be9-9886-52fdb34ced6b">Datagram Contexts</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/datagram-contexts">Datagram Contexts</a>.
 
 </td>
 </tr>
@@ -195,7 +195,7 @@ A datagram-type communications channel should be used. For more information, see
 </td>
 <td width="60%">
 A connection-type communications channel should be used. For more information see 
-<a href="https://msdn.microsoft.com/82c6b1aa-304c-47f9-8e0f-ad70a89772aa">Connection-Oriented Contexts</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/connection-oriented-contexts">Connection-Oriented Contexts</a>.
 
 </td>
 </tr>
@@ -216,7 +216,7 @@ If the context fails, generate an error reply message to send back to the client
 </td>
 <td width="60%">
 A stream-type communications channel should be used. For more information, see 
-<a href="https://msdn.microsoft.com/05a6b036-1f7f-473f-9813-a1e1534e0f0d">Stream Contexts</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/stream-contexts">Stream Contexts</a>.
 
 </td>
 </tr>
@@ -242,13 +242,13 @@ Flag indicating the data representation, such as byte ordering, to use. Contains
 ### -param NewContextHandle [out]
 
 Pointer to an <b>LSA_SEC_HANDLE</b>. On the first call to 
-<a href="https://msdn.microsoft.com/eaa15fed-4438-4e43-9be3-aa100ca453c7">AcceptSecurityContext</a>, this pointer receives the new context handle. On subsequent calls, <i>NewContextHandle</i> can be the same as the handle specified in the <i>ContextHandle</i> parameter.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext</a>, this pointer receives the new context handle. On subsequent calls, <i>NewContextHandle</i> can be the same as the handle specified in the <i>ContextHandle</i> parameter.
 
 
 ### -param OutputBuffer [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/fc6ef09c-3ba9-4bcb-a3c2-07422af8eaa9">SecBufferDesc</a> structure that receives information to be sent to the client.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbufferdesc">SecBufferDesc</a> structure that receives information to be sent to the client.
 
 
 ### -param ContextAttributes [out]
@@ -259,19 +259,19 @@ Pointer to flags specifying the context attributes that the server supports. For
 ### -param ExpirationTime [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/0a609b32-dbd7-4905-8990-65ebabcd0668">TimeStamp</a> that receives the expiration time for the context.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/timestamp">TimeStamp</a> that receives the expiration time for the context.
 
 
 ### -param MappedContext [out]
 
-Pointer to a Boolean value. Set <i>MappedContext</i> to <b>TRUE</b> if the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a> implements the user-mode SSP/AP functions.
+Pointer to a Boolean value. Set <i>MappedContext</i> to <b>TRUE</b> if the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> implements the user-mode SSP/AP functions.
 
 
 ### -param ContextData [out]
 
 Optional. Pointer to a 
-<a href="https://msdn.microsoft.com/75f49d9c-7d3c-4f45-a94e-44cd05773a07">SecBuffer</a> structure that receives context-specific data to copy when creating the user-mode <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a>. Memory for <i>ContextData</i> must be allocated using the 
-<a href="https://msdn.microsoft.com/cb87f1b1-3e1e-4add-8e74-ca7b4f8599ba">AllocateLsaHeap</a> function. The <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">Local Security Authority</a> (LSA) will free the memory.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbuffer">SecBuffer</a> structure that receives context-specific data to copy when creating the user-mode <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>. Memory for <i>ContextData</i> must be allocated using the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_lsa_heap">AllocateLsaHeap</a> function. The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) will free the memory.
 
 
 ## -returns
@@ -290,13 +290,13 @@ If the function fails to create the security context for any other reason, retur
 
 
 
-<a href="https://msdn.microsoft.com/e733d6fb-0ce6-4fd2-a8e2-54aa44602828">SpInitLsaModeContext</a> is the client-side function for creating a security context.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitlsamodecontextfn">SpInitLsaModeContext</a> is the client-side function for creating a security context.
 
 SSP/APs must implement the <b>SpAcceptLsaModeContext</b> function. The actual name given to the implementation is up to the developer.
 
 A pointer to the <b>SpAcceptLsaModeContext</b> function is available in the 
-<a href="https://msdn.microsoft.com/43ca0f9b-1393-48aa-9d9c-4dd19963a66d">SECPKG_FUNCTION_TABLE</a> structure received from the 
-<a href="https://msdn.microsoft.com/1ef3770b-197f-4d5b-9933-b7f6f63e5627">SpLsaModeInitialize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
 
 
 
@@ -306,15 +306,15 @@ A pointer to the <b>SpAcceptLsaModeContext</b> function is available in the
 
 
 
-<a href="https://msdn.microsoft.com/cb87f1b1-3e1e-4add-8e74-ca7b4f8599ba">AllocateLsaHeap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_lsa_heap">AllocateLsaHeap</a>
 
 
 
-<a href="https://msdn.microsoft.com/e733d6fb-0ce6-4fd2-a8e2-54aa44602828">SpInitLsaModeContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitlsamodecontextfn">SpInitLsaModeContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/1ef3770b-197f-4d5b-9933-b7f6f63e5627">SpLsaModeInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a>
  
 
  

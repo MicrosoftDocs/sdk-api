@@ -80,11 +80,11 @@ Returns S_OK if successsful, or an error code otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/83384ef6-40d6-4d37-866d-6059dc5d7542">IAMLatency Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamlatency">IAMLatency Interface</a>
  
 
  

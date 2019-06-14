@@ -75,7 +75,7 @@ Name of the original volume that is the source of the shadow copies. The name of
 
 ### -param ppEnum [out]
 
-The address of an <a href="https://msdn.microsoft.com/c2067822-1824-4676-8376-7d83fcbbaea3">IVssEnumMgmtObject</a> interface 
+The address of an <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssenummgmtobject">IVssEnumMgmtObject</a> interface 
       pointer, which is initialized on return. Callers must release the interface.
 
 
@@ -142,7 +142,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 Provider error - the provider logged the error in the event log. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -154,7 +154,7 @@ Provider error - the provider logged the error in the event log. For more inform
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -170,10 +170,10 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 
-The returned <a href="https://msdn.microsoft.com/c2067822-1824-4676-8376-7d83fcbbaea3">IVssEnumMgmtObject</a> enumerator object 
-    will contain <a href="https://msdn.microsoft.com/c4a20583-7fee-4ae1-97ed-d80b2a7539e3">VSS_DIFF_VOLUME_PROP</a> structures inside 
-    the <a href="https://msdn.microsoft.com/en-us/library/Aa384957(v=VS.85).aspx">VSS_MGMT_OBJECT_UNION</a> union inside the 
-    <a href="https://msdn.microsoft.com/86681207-969e-4b33-aff8-79454ab04829">VSS_MGMT_OBJECT_PROP</a> structure.
+The returned <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssenummgmtobject">IVssEnumMgmtObject</a> enumerator object 
+    will contain <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-_vss_diff_volume_prop">VSS_DIFF_VOLUME_PROP</a> structures inside 
+    the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-__midl___midl_itf_vsmgmt_0000_0000_0001">VSS_MGMT_OBJECT_UNION</a> union inside the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-_vss_mgmt_object_prop">VSS_MGMT_OBJECT_PROP</a> structure.
 
 
 
@@ -183,11 +183,11 @@ The returned <a href="https://msdn.microsoft.com/c2067822-1824-4676-8376-7d83fcb
 
 
 
-<a href="https://msdn.microsoft.com/d322981f-1916-4d38-9d05-bc3db2cd596d">IVssDifferentialSoftwareSnapshotMgmt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt">IVssDifferentialSoftwareSnapshotMgmt</a>
 
 
 
-<a href="https://msdn.microsoft.com/c2067822-1824-4676-8376-7d83fcbbaea3">IVssEnumMgmtObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssenummgmtobject">IVssEnumMgmtObject</a>
  
 
  

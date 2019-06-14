@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The  <b>CRYPT_REGISTER_ACTIONID</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CRYPT_REGISTER_ACTIONID</b> structure provides information about the functions of a provider. This structure is used by the  <a href="https://msdn.microsoft.com/3b282342-9c86-42fa-b745-e5194d2885dc">WintrustAddActionID</a> function.
+The <b>CRYPT_REGISTER_ACTIONID</b> structure provides information about the functions of a provider. This structure is used by the  <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-wintrustaddactionid">WintrustAddActionID</a> function.
 
 
 ## -struct-fields
@@ -67,49 +67,49 @@ The size, in bytes, of this structure.
 ### -field sInitProvider
 
 
-<a href="https://msdn.microsoft.com/1a531219-f254-4057-934b-af95bfe0bb83">CRYPT_TRUST_REG_ENTRY</a> structure that identifies the function that initializes the provider.
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_trust_reg_entry">CRYPT_TRUST_REG_ENTRY</a> structure that identifies the function that initializes the provider.
 
 
 ### -field sObjectProvider
 
 
-<a href="https://msdn.microsoft.com/1a531219-f254-4057-934b-af95bfe0bb83">CRYPT_TRUST_REG_ENTRY</a> structure that identifies the object provider function.
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_trust_reg_entry">CRYPT_TRUST_REG_ENTRY</a> structure that identifies the object provider function.
 
 
 ### -field sSignatureProvider
 
 
-<a href="https://msdn.microsoft.com/1a531219-f254-4057-934b-af95bfe0bb83">CRYPT_TRUST_REG_ENTRY</a> structure that identifies the signature provider function.
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_trust_reg_entry">CRYPT_TRUST_REG_ENTRY</a> structure that identifies the signature provider function.
 
 
 ### -field sCertificateProvider
 
 
-<a href="https://msdn.microsoft.com/1a531219-f254-4057-934b-af95bfe0bb83">CRYPT_TRUST_REG_ENTRY</a> structure that identifies the certificate provider function.
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_trust_reg_entry">CRYPT_TRUST_REG_ENTRY</a> structure that identifies the certificate provider function.
 
 
 ### -field sCertificatePolicyProvider
 
 
-<a href="https://msdn.microsoft.com/1a531219-f254-4057-934b-af95bfe0bb83">CRYPT_TRUST_REG_ENTRY</a> structure that identifies the certificate policy provider function.
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_trust_reg_entry">CRYPT_TRUST_REG_ENTRY</a> structure that identifies the certificate policy provider function.
 
 
 ### -field sFinalPolicyProvider
 
 
-<a href="https://msdn.microsoft.com/1a531219-f254-4057-934b-af95bfe0bb83">CRYPT_TRUST_REG_ENTRY</a> structure that identifies the final policy provider function.
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_trust_reg_entry">CRYPT_TRUST_REG_ENTRY</a> structure that identifies the final policy provider function.
 
 
 ### -field sTestPolicyProvider
 
 
-<a href="https://msdn.microsoft.com/1a531219-f254-4057-934b-af95bfe0bb83">CRYPT_TRUST_REG_ENTRY</a> structure that identifies the test policy provider function.
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_trust_reg_entry">CRYPT_TRUST_REG_ENTRY</a> structure that identifies the test policy provider function.
 
 
 ### -field sCleanupProvider
 
 
-<a href="https://msdn.microsoft.com/1a531219-f254-4057-934b-af95bfe0bb83">CRYPT_TRUST_REG_ENTRY</a> structure that identifies the cleanup provider function.
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_trust_reg_entry">CRYPT_TRUST_REG_ENTRY</a> structure that identifies the cleanup provider function.
 
 
 ## -see-also
@@ -117,11 +117,11 @@ The size, in bytes, of this structure.
 
 
 
-<a href="https://msdn.microsoft.com/1a531219-f254-4057-934b-af95bfe0bb83">CRYPT_TRUST_REG_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_trust_reg_entry">CRYPT_TRUST_REG_ENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b282342-9c86-42fa-b745-e5194d2885dc">WintrustAddActionID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-wintrustaddactionid">WintrustAddActionID</a>
  
 
  

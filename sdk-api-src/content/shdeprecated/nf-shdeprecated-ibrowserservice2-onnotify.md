@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deprecated. Calls the derived class from the base class on receipt of a <a href="https://msdn.microsoft.com/en-us/library/Bb775583(v=VS.85).aspx">WM_NOTIFY</a> message. The derived class handles the message.
+Deprecated. Calls the derived class from the base class on receipt of a <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-notify">WM_NOTIFY</a> message. The derived class handles the message.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Deprecated. Calls the derived class from the base class on receipt of a <a href=
 
 Type: <b>tagNMHDR*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that receives the initialization parameters passed to the window procedure (WinProc) of the class.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that receives the initialization parameters passed to the window procedure (WinProc) of the class.
 
 
 ## -returns

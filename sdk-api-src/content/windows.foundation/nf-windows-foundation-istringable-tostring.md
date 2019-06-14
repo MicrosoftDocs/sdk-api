@@ -76,11 +76,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>
 
 
 
-<a href="https://msdn.microsoft.com/1D67D073-57E8-4562-8586-CAF2619995D7">IStringable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-istringable">IStringable</a>
  
 
  

@@ -59,7 +59,7 @@ The FD_GLYPHSET structure is used to define the mappings from Unicode characters
 
 ### -field cjThis
 
-Specifies the size, in bytes, of the structure, including the array of <a href="https://msdn.microsoft.com/01a90280-a7cc-4726-b0a2-68121bdb4686">WCRUN</a> structures.
+Specifies the size, in bytes, of the structure, including the array of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_wcrun">WCRUN</a> structures.
 
 
 ### -field flAccel
@@ -112,12 +112,12 @@ Specifies the total number of glyphs in all runs.
 
 ### -field cRuns
 
-Specifies the number of <a href="https://msdn.microsoft.com/01a90280-a7cc-4726-b0a2-68121bdb4686">WCRUN</a> structures in the <b>awcrun</b> array.
+Specifies the number of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_wcrun">WCRUN</a> structures in the <b>awcrun</b> array.
 
 
 ### -field awcrun
 
-Is an array of <a href="https://msdn.microsoft.com/01a90280-a7cc-4726-b0a2-68121bdb4686">WCRUN</a> structures.
+Is an array of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_wcrun">WCRUN</a> structures.
 
 
 ## -see-also
@@ -125,11 +125,11 @@ Is an array of <a href="https://msdn.microsoft.com/01a90280-a7cc-4726-b0a2-68121
 
 
 
-<a href="https://msdn.microsoft.com/29601ea6-9b68-4cdc-a7a1-b6a922524760">DrvQueryFontTree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvqueryfonttree">DrvQueryFontTree</a>
 
 
 
-<a href="https://msdn.microsoft.com/01a90280-a7cc-4726-b0a2-68121bdb4686">WCRUN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_wcrun">WCRUN</a>
  
 
  

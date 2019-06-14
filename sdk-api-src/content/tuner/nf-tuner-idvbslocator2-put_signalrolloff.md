@@ -65,11 +65,11 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/2f17c9a3-6ae8-4102-aee6-b2cb206d4952">IDVBSLocator2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-idvbslocator2">IDVBSLocator2</a>
 
 
 
-<a href="https://msdn.microsoft.com/f6a22a66-735d-413c-853d-237e552481d8">RollOff</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/rolloff">RollOff</a>
  
 
  

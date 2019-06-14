@@ -118,16 +118,16 @@ The method failed. The resource has not been tracked. The likely cause is that t
 
 Some resources are not kept in inventory; they are always manufactured on demand. The Holder is used only as a mechanism to automatically free the resources left at the end of an object's lifetime.
 
-TrackResource tells the Holder that a resource should be tracked until it is freed by calling <a href="https://msdn.microsoft.com/380b09ad-08d6-4d25-8d80-0e56d4295b8f">IHolder::UntrackResource</a>, or until the object that called <b>TrackResource</b> is released, at which time the Dispenser Manager automatically frees the resource.
+TrackResource tells the Holder that a resource should be tracked until it is freed by calling <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iholder-untrackresource">IHolder::UntrackResource</a>, or until the object that called <b>TrackResource</b> is released, at which time the Dispenser Manager automatically frees the resource.
 
-If <b>TrackResource</b> is called from a transactional object, it calls back to the Resource Dispenser's <a href="https://msdn.microsoft.com/87a8b7f4-edf3-4ab5-b75a-f8fda1f4975a">IDispenserDriver::EnlistResource</a> method. The <b>EnlistResource</b> method can enlist the resource in the transaction, or it can return S_FALSE, indicating that the resource is not transaction capable and has not been enlisted.
+If <b>TrackResource</b> is called from a transactional object, it calls back to the Resource Dispenser's <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-idispenserdriver-enlistresource">IDispenserDriver::EnlistResource</a> method. The <b>EnlistResource</b> method can enlist the resource in the transaction, or it can return S_FALSE, indicating that the resource is not transaction capable and has not been enlisted.
 
 This resource is eventually destroyed after both of the following are true: 
 
 
 
 <ul>
-<li>The Resource Dispenser calls <a href="https://msdn.microsoft.com/380b09ad-08d6-4d25-8d80-0e56d4295b8f">IHolder::UntrackResource</a> (most likely at the component's request), or the object's lifetime ends.</li>
+<li>The Resource Dispenser calls <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iholder-untrackresource">IHolder::UntrackResource</a> (most likely at the component's request), or the object's lifetime ends.</li>
 <li>The transaction that the resource was enlisted in (if any) is done.</li>
 </ul>
 
@@ -138,15 +138,15 @@ This resource is eventually destroyed after both of the following are true:
 
 
 
-<a href="https://msdn.microsoft.com/dba9c616-031d-48a7-b3e3-eb28b95a573a">IDispenserDriver</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0465d78-f8b7-4934-9dc6-c8f0ead04bf1">IDispenserManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/3c852e72-2fdc-4fd0-b523-f5601154da2a">IHolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iholder">IHolder</a>
  
 
  

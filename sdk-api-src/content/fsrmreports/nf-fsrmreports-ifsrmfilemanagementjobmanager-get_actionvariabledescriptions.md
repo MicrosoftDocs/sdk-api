@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Retrieves the descriptions for the macros contained in the 
-    <a href="https://msdn.microsoft.com/222c826f-0ade-4e5d-be2e-5c0dfa8758d0">IFsrmFileManagementJobManager::ActionVariables</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjobmanager-get_actionvariables">IFsrmFileManagementJobManager::ActionVariables</a> 
     property.
 
 This property is read-only.
@@ -66,11 +66,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/f59844ba-2aff-4885-b80b-82f3e1a638d3">FsrmFileManagementJobManager</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmfilemanagementjobmanager">FsrmFileManagementJobManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/2df0e8d0-1da7-422e-8d02-ad5d030fdd8d">IFsrmFileManagementJobManager</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmfilemanagementjobmanager">IFsrmFileManagementJobManager</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-This function -- which disassembles a compiled shader into a text string that contains assembly instructions and register assignments -- has been deprecated. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Dd607326(v=VS.85).aspx">D3DDisassemble</a>.
+This function -- which disassembles a compiled shader into a text string that contains assembly instructions and register assignments -- has been deprecated. Instead, use <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3ddisassemble">D3DDisassemble</a>.
 
 
 ## -parameters
@@ -66,28 +66,28 @@ A pointer to the compiled shader.
 
 ### -param BytecodeLength [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SIZE_T</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SIZE_T</a></b>
 
 The size of pShader.
 
 
 ### -param EnableColorCode [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Include HTML tags in the output to color code the result.
 
 
 ### -param pComments [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
 The comment string at the top of the shader that identifies the shader constants and variables.
 
 
 ### -param ppDisassembly [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn933260(v=VS.85).aspx">ID3D10Blob</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/nn-d3dcommon-id3d10blob">ID3D10Blob</a>**</b>
 
 Address of a buffer which contains the disassembled shader.
 
@@ -96,7 +96,7 @@ Address of a buffer which contains the disassembled shader.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 Return value
 
@@ -108,7 +108,7 @@ Return value
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205157(v=VS.85).aspx">Shader Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-shader-functions">Shader Functions</a>
  
 
  

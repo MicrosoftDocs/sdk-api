@@ -85,7 +85,7 @@ This function can return one of these values.
 
 
 
-This function deserializes a <b>PROPVARIANT</b> data type. This function is similar to the <a href="https://msdn.microsoft.com/ea4196e6-fc99-4288-942a-e5283f2e5544">StgConvertPropertyToVariant</a> function. The <b>StgDeserializePropVariant</b> function uses the default value of <b>CP_WINUNICODE</b> for the code page and a system provided allocator that uses task memory.  Use <b>StgDeserializePropVariant</b> unless you want to specify which code page and memory allocator to use.
+This function deserializes a <b>PROPVARIANT</b> data type. This function is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-stgconvertpropertytovariant">StgConvertPropertyToVariant</a> function. The <b>StgDeserializePropVariant</b> function uses the default value of <b>CP_WINUNICODE</b> for the code page and a system provided allocator that uses task memory.  Use <b>StgDeserializePropVariant</b> unless you want to specify which code page and memory allocator to use.
 
 
 
@@ -95,11 +95,11 @@ This function deserializes a <b>PROPVARIANT</b> data type. This function is simi
 
 
 
-<a href="https://msdn.microsoft.com/ea4196e6-fc99-4288-942a-e5283f2e5544">StgConvertPropertyToVariant</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-stgconvertpropertytovariant">StgConvertPropertyToVariant</a>
 
 
 
-<a href="https://msdn.microsoft.com/e1382c1e-3f9e-41a2-8e95-fc3702e516d3">StgSerializePropVariant</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-stgserializepropvariant">StgSerializePropVariant</a>
  
 
  

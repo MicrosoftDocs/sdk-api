@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Contains directory information for a file. This structure is returned from the 
-    <a href="https://msdn.microsoft.com/e261ea45-d084-490e-94b4-129bd76f6a04">GetFileInformationByHandleEx</a> function when 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a> function when 
     <b>FileFullDirectoryInfo</b> or <b>FileFullDirectoryRestartInfo</b> is 
     passed in the <i>FileInformationClass</i> parameter. 
 
@@ -165,7 +165,7 @@ The first character of the file name string. This is followed in memory by the r
 
 
 The <b>FILE_FULL_DIR_INFO</b> structure is a subset of the 
-    information in the <a href="https://msdn.microsoft.com/d7011ea4-e70a-4c03-a715-6144ce0c7029">FILE_ID_BOTH_DIR_INFO</a> structure. 
+    information in the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_id_both_dir_info">FILE_ID_BOTH_DIR_INFO</a> structure. 
     If the additional information is not needed then the operation will be faster as it comes from the directory 
     entry; <b>FILE_ID_BOTH_DIR_INFO</b> contains information 
     from both the directory entry and the Master File Table (MFT).
@@ -183,7 +183,7 @@ This <b>FILE_FULL_DIR_INFO</b> structure must be aligned
 
 To compile an application that uses this structure, define the <b>_WIN32_WINNT</b> macro 
     as 0x0600 or later. For more information, see 
-    <a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 
@@ -193,15 +193,15 @@ To compile an application that uses this structure, define the <b>_WIN32_WINNT</
 
 
 
-<a href="https://msdn.microsoft.com/8f02e824-ca41-48c1-a5e8-5b12d81886b5">FILE_INFO_BY_HANDLE_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ne-minwinbase-file_info_by_handle_class">FILE_INFO_BY_HANDLE_CLASS</a>
 
 
 
-<a href="https://msdn.microsoft.com/406d5c0f-b49a-4075-ac3e-c5b55a0c3fe9">File Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-structures">File Management Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/e261ea45-d084-490e-94b4-129bd76f6a04">GetFileInformationByHandleEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>
  
 
  

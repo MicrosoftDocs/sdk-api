@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DsGetFriendlyClassName</b> function retrieves the localized name for an object class. This function is obsolete. New applications should use the <a href="https://msdn.microsoft.com/192e2a57-6bde-4357-893e-37f466588b55">IDsDisplaySpecifier::GetFriendlyClassName</a> method to perform this function.
+The <b>DsGetFriendlyClassName</b> function retrieves the localized name for an object class. This function is obsolete. New applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getfriendlyclassname">IDsDisplaySpecifier::GetFriendlyClassName</a> method to perform this function.
 
 
 ## -parameters
@@ -95,7 +95,7 @@ If no friendly name is set in the display specifiers for the object class, this 
 
 
 
-<a href="https://msdn.microsoft.com/192e2a57-6bde-4357-893e-37f466588b55">IDsDisplaySpecifier::GetFriendlyClassName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getfriendlyclassname">IDsDisplaySpecifier::GetFriendlyClassName</a>
  
 
  

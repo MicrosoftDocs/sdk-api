@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>AuthzUnregisterSecurityEventSource</b> function unregisters a security event source with the <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">Local Security Authority</a> (LSA).
+The <b>AuthzUnregisterSecurityEventSource</b> function unregisters a security event source with the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA).
 
 
 ## -parameters
@@ -73,7 +73,7 @@ A pointer to a handle to the security event source to unregister.
 
 If the function succeeds, the function returns <b>TRUE</b>.
 
-If the function fails, it returns <b>FALSE</b>. For extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, it returns <b>FALSE</b>. For extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -82,7 +82,7 @@ If the function fails, it returns <b>FALSE</b>. For extended error information, 
 
 
 
-This function deallocates any resources and closes any RPC connections associated with a previous call to the <a href="https://msdn.microsoft.com/726e480d-1a34-4fd6-ac2d-876fa08f4eae">AuthzRegisterSecurityEventSource</a> function.
+This function deallocates any resources and closes any RPC connections associated with a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzregistersecurityeventsource">AuthzRegisterSecurityEventSource</a> function.
 
 
 
@@ -92,7 +92,7 @@ This function deallocates any resources and closes any RPC connections associate
 
 
 
-<a href="https://msdn.microsoft.com/726e480d-1a34-4fd6-ac2d-876fa08f4eae">AuthzRegisterSecurityEventSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzregistersecurityeventsource">AuthzRegisterSecurityEventSource</a>
  
 
  

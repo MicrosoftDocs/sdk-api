@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies values that identify the font property state of a <a href="https://msdn.microsoft.com/en-us/library/Dd371673(v=VS.85).aspx">FontControl</a>, such as <b>Strikethrough</b>.
+Specifies values that identify the font property state of a <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-fontcontrol">FontControl</a>, such as <b>Strikethrough</b>.
 
 
 ## -enum-fields
@@ -77,7 +77,7 @@ The property is set.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371540(v=VS.85).aspx">Constants and Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-enumerations">Constants and Enumerations</a>
  
 
  

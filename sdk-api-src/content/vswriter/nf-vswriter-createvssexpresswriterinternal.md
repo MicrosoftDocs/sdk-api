@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/debb0731-6e24-4320-8236-220e07ec37c3">IVssExpressWriter</a> interface object and returns a pointer to it.<div class="alert"><b>Note</b>  This function is exported as <b>CreateVssExpressWriterInternal</b>, but you should call <b>CreateVssExpressWriter</b>, not <b>CreateVssExpressWriterInternal</b>.</div>
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivssexpresswriter">IVssExpressWriter</a> interface object and returns a pointer to it.<div class="alert"><b>Note</b>  This function is exported as <b>CreateVssExpressWriterInternal</b>, but you should call <b>CreateVssExpressWriter</b>, not <b>CreateVssExpressWriterInternal</b>.</div>
 <div> </div>
 
 
@@ -62,7 +62,7 @@ Creates an <a href="https://msdn.microsoft.com/debb0731-6e24-4320-8236-220e07ec3
 
 ### -param ppWriter [out]
 
-Doubly indirect pointer to the newly created <a href="https://msdn.microsoft.com/debb0731-6e24-4320-8236-220e07ec37c3">IVssExpressWriter</a> object.
+Doubly indirect pointer to the newly created <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivssexpresswriter">IVssExpressWriter</a> object.
 
 
 ## -returns
@@ -84,7 +84,7 @@ The return values listed here are in addition to the normal COM HRESULT values t
 </td>
 <td width="60%">
 Successfully returned a pointer to an 
-        <a href="https://msdn.microsoft.com/debb0731-6e24-4320-8236-220e07ec37c3">IVssExpressWriter</a> interface.
+        <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivssexpresswriter">IVssExpressWriter</a> interface.
 
 </td>
 </tr>

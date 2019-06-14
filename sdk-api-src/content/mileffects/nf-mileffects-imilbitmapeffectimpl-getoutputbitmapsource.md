@@ -66,9 +66,9 @@ The index of the of the output bitmap source.
 
 ### -param pRenderContext [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735245(v=VS.85).aspx">IMILBitmapEffectRenderContext</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffectrendercontext">IMILBitmapEffectRenderContext</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms735245(v=VS.85).aspx">IMILBitmapEffectRenderContext</a>.
+A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffectrendercontext">IMILBitmapEffectRenderContext</a>.
 
 
 ### -param pfModifyInPlace [in, out]
@@ -82,7 +82,7 @@ A value that indicates whether to modify in-place.
 
 Type: <b>IWICBitmapSource**</b>
 
-A pointer that receives a pointer to the output <a href="https://msdn.microsoft.com/en-us/library/Ee690171(v=VS.85).aspx">IWICBitmapSource Interface</a>.
+A pointer that receives a pointer to the output <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource Interface</a>.
 
 
 ## -returns

@@ -110,7 +110,7 @@ Number of elements skipped was not <i>celt</i>.
 
 
 
-<a href="https://msdn.microsoft.com/328183cd-a80b-4f1f-9e5e-9f466a4e4b43">IEnumDirectoryObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-ienumdirectoryobject">IEnumDirectoryObject</a>
  
 
  

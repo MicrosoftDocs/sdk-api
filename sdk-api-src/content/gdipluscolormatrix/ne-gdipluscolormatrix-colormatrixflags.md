@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>ColorMatrixFlags</b> enumeration specifies the types of images and colors that will be affected by the color and grayscale adjustment settings of an 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object.
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes">ImageAttributes</a> object.
 
 
 ## -enum-fields
@@ -79,19 +79,19 @@ Specifies that colors are adjusted by one matrix and gray shades are adjusted by
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535416(v=VS.85).aspx">ImageAttributes::ClearColorMatrices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-clearcolormatrices">ImageAttributes::ClearColorMatrices</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535417(v=VS.85).aspx">ImageAttributes::ClearColorMatrix</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-clearcolormatrix">ImageAttributes::ClearColorMatrix</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535430(v=VS.85).aspx">ImageAttributes::SetColorMatrices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-setcolormatrices">ImageAttributes::SetColorMatrices</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535431(v=VS.85).aspx">ImageAttributes::SetColorMatrix</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-setcolormatrix">ImageAttributes::SetColorMatrix</a>
  
 
  

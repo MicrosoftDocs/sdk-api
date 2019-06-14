@@ -61,14 +61,14 @@ Sets the story type.
 
 Type: <b>long</b>
 
-The story type. The type values are defined in <a href="https://msdn.microsoft.com/43a75284-c461-4118-834c-9ce5ded55094">ITextStory::GetType</a>.
+The story type. The type values are defined in <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextstory-gettype">ITextStory::GetType</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -80,11 +80,11 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-<a href="https://msdn.microsoft.com/8b52c6e8-c250-4cfb-979e-770df9f94010">ITextStory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextstory">ITextStory</a>
 
 
 
-<a href="https://msdn.microsoft.com/43a75284-c461-4118-834c-9ce5ded55094">ITextStory::GetType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextstory-gettype">ITextStory::GetType</a>
  
 
  

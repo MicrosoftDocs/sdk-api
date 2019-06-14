@@ -217,11 +217,11 @@ The number of routes in this entity's route table.
 
 
 
-<a href="https://msdn.microsoft.com/b992b585-e1c8-4262-a6e0-ad8b5047620f">IOCTL_TCP_QUERY_INFORMATION_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpioctl/ni-tcpioctl-ioctl_tcp_query_information_ex">IOCTL_TCP_QUERY_INFORMATION_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/566bf187-73d0-4d61-be8e-306dc482a005">Management Information Base
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mib/management-information-base-reference">Management Information Base
 			 Reference</a>
  
 

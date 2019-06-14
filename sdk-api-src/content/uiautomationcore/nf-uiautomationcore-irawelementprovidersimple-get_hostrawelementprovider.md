@@ -67,7 +67,7 @@ This property is generally the Microsoft UI Automation provider for the window o
 			of the element is usually obtained from the host provider.
 
 A host provider must be returned in the following cases: when the element is a fragment root, 
-			when the element is a simple element (such as a push button), and when the provider is a repositioning placeholder (for more information, see <a href="https://msdn.microsoft.com/en-us/library/Ee671615(v=VS.85).aspx">Provider Repositioning</a>). 
+			when the element is a simple element (such as a push button), and when the provider is a repositioning placeholder (for more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-serversideprovider">Provider Repositioning</a>). 
 			 In other cases, the property should be <b>NULL</b>.
 
 
@@ -95,11 +95,11 @@ HRESULT STDMETHODCALLTYPE Provider::get_HostRawElementProvider(IRawElementProvid
 
 
 
-<a href="https://msdn.microsoft.com/f0ec6185-acd0-4df7-88f4-fd00747f98bf">IRawElementProviderSimple</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a>
 
 
 
-<a href="https://msdn.microsoft.com/8cc8a8d8-a4e0-477e-bf3b-2fd5df2b9db1">UiaHostProviderFromHwnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiahostproviderfromhwnd">UiaHostProviderFromHwnd</a>
  
 
  

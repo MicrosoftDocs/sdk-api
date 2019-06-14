@@ -56,7 +56,7 @@ A container application can distinguish between embedded objects and linked obje
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleLink</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IOleLink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleLink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOleLink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IOleLink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/791fbb3c-6b73-490c-a69b-ba58fd386de4">BindIfRunning</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-bindifrunning">BindIfRunning</a>
 </td>
 <td align="left" width="63%">
 Activates the connection between the linked object and the link source if the link source is already running.
@@ -80,7 +80,7 @@ Activates the connection between the linked object and the link source if the li
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1fadd27d-cb2c-47fc-891a-16f82bdac0f6">BindToSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-bindtosource">BindToSource</a>
 </td>
 <td align="left" width="63%">
 Activates the connection to the link source by binding the moniker stored within the linked object.
@@ -89,7 +89,7 @@ Activates the connection to the link source by binding the moniker stored within
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/37d24337-eacc-453a-9a90-043ec9b35e9c">GetBoundSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-getboundsource">GetBoundSource</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the link source if the connection is active.
@@ -98,7 +98,7 @@ Retrieves a pointer to the link source if the connection is active.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a4c5bc82-f423-4a02-b8d4-49b38a9c0f42">GetSourceDisplayName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-getsourcedisplayname">GetSourceDisplayName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the display name of the link source of the linked object.
@@ -107,7 +107,7 @@ Retrieves the display name of the link source of the linked object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ef447726-7aef-45c4-a522-a8de9a3e6b74">GetSourceMoniker</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-getsourcemoniker">GetSourceMoniker</a>
 </td>
 <td align="left" width="63%">
 Retrieves the moniker identifying the link source of a linked object.
@@ -116,7 +116,7 @@ Retrieves the moniker identifying the link source of a linked object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2cb91b48-0026-4afa-80ab-16ac6fbce04d">GetUpdateOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-getupdateoptions">GetUpdateOptions</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating how often the linked object updates its cached data.
@@ -125,7 +125,7 @@ Retrieves a value indicating how often the linked object updates its cached data
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/762d021f-4bf1-4f90-bf41-065b8810de47">SetSourceDisplayName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-setsourcedisplayname">SetSourceDisplayName</a>
 </td>
 <td align="left" width="63%">
 Sets the display name for the link source.
@@ -134,7 +134,7 @@ Sets the display name for the link source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/85fe1d28-d9c6-46b4-abff-6afce9ff3cd0">SetSourceMoniker</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-setsourcemoniker">SetSourceMoniker</a>
 </td>
 <td align="left" width="63%">
 Sets the moniker for the link source.
@@ -143,7 +143,7 @@ Sets the moniker for the link source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/310c25b5-a2f6-4ed7-8673-c53809fad32f">SetUpdateOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-setupdateoptions">SetUpdateOptions</a>
 </td>
 <td align="left" width="63%">
 Specifies how often a linked object should update its cached data.
@@ -152,7 +152,7 @@ Specifies how often a linked object should update its cached data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3a678944-b4ba-47d8-9a89-470762efc6f9">UnbindSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-unbindsource">UnbindSource</a>
 </td>
 <td align="left" width="63%">
 Breaks the connection between a linked object and its link source.
@@ -161,7 +161,7 @@ Breaks the connection between a linked object and its link source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c1da8b95-88e7-42b0-884c-5aa394cc49f4">Update</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-update">Update</a>
 </td>
 <td align="left" width="63%">
 Updates the compound document's cached data for a linked object.
@@ -176,15 +176,15 @@ Updates the compound document's cached data for a linked object.
 
 
 
-<a href="https://msdn.microsoft.com/58b32c87-39b6-4d64-9174-cf798ed302c2">IOleObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/7fc0aab3-7476-49ec-8a1d-3f4851f9f31c">IOleUILinkContainer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a>
 
 
 
-<a href="https://msdn.microsoft.com/17c7daf8-83bf-4cfd-a67c-a638630ca263">OleUIEditLinks</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuieditlinksa">OleUIEditLinks</a>
  
 
  

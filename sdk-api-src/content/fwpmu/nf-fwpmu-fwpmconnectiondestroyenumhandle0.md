@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>FwpmConnectionDestroyEnumHandle0</b> function frees a handle returned by <a href="https://msdn.microsoft.com/b33878d5-437d-4625-b488-28fbe95eb69f">FwpmConnectionCreateEnumHandle0</a>.
+The <b>FwpmConnectionDestroyEnumHandle0</b> function frees a handle returned by <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmconnectioncreateenumhandle0">FwpmConnectionCreateEnumHandle0</a>.
 
 
 ## -parameters
@@ -61,14 +61,14 @@ The <b>FwpmConnectionDestroyEnumHandle0</b> function frees a handle returned by 
 
 Type: <b>HANDLE</b>
 
-Handle for an open session to the filter engine. Call <a href="https://msdn.microsoft.com/5165f219-f3e0-4e84-915b-75912aab02b7">FwpmEngineOpen0</a> to open a session to the filter engine.
+Handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
 
 ### -param enumHandle [in]
 
 Type: <b>HANDLE</b>
 
-Handle of a connection object enumeration created by a call to <a href="https://msdn.microsoft.com/3b660e3a-fba6-4466-aa82-eb90c27ae004">FwpmProviderContextCreateEnumHandle0</a>.
+Handle of a connection object enumeration created by a call to <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercontextcreateenumhandle0">FwpmProviderContextCreateEnumHandle0</a>.
 
 
 ## -returns
@@ -102,7 +102,7 @@ The enumerator was successfully deleted.
 </dl>
 </td>
 <td width="60%">
-A Windows Filtering Platform (WFP) specific error. See <a href="https://msdn.microsoft.com/11f3085a-f044-4a78-b47a-59b9086562bf">WFP Error Codes</a> for details.
+A Windows Filtering Platform (WFP) specific error. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
 
 </td>
 </tr>
@@ -129,11 +129,11 @@ Failure to communicate with the remote or local firewall engine.
 
 
 
-<a href="https://msdn.microsoft.com/b33878d5-437d-4625-b488-28fbe95eb69f">FwpmConnectionCreateEnumHandle0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmconnectioncreateenumhandle0">FwpmConnectionCreateEnumHandle0</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b660e3a-fba6-4466-aa82-eb90c27ae004">FwpmProviderContextCreateEnumHandle0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercontextcreateenumhandle0">FwpmProviderContextCreateEnumHandle0</a>
  
 
  

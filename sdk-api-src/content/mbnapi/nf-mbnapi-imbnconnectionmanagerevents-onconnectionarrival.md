@@ -59,7 +59,7 @@ Notification method that indicates a new connection was added to the system.
 
 ### -param newConnection [in]
 
-An <a href="https://msdn.microsoft.com/dae6ce6f-2534-4799-8ed3-53cd1f2eca13">IMbnConnection</a> interface that represents the device added to the system.
+An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a> interface that represents the device added to the system.
 
 
 ## -returns
@@ -76,7 +76,7 @@ This method must return <b>S_OK</b>.
 
 
 
-<a href="https://msdn.microsoft.com/153ab8c5-2b39-44a7-8c12-9f1df0012270">IMbnConnectionManagerEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionmanagerevents">IMbnConnectionManagerEvents</a>
  
 
  

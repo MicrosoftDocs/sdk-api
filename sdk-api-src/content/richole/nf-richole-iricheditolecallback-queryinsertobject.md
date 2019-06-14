@@ -73,7 +73,7 @@ Storage containing the object.
 
 ### -param cp
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Character position, at which the object will be inserted. 
 
@@ -82,7 +82,7 @@ Character position, at which the object will be inserted.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK on success. If the return value is not S_OK, the object was not inserted. If the method fails, it can return the following value.
 
@@ -113,7 +113,7 @@ There was an invalid argument.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774308(v=VS.85).aspx">IRichEditOleCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/nn-richole-iricheditolecallback">IRichEditOleCallback</a>
  
 
  

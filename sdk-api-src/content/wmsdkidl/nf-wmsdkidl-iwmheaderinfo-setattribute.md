@@ -56,7 +56,7 @@ ms.custom: 19H1
 
 
 
-The <b>SetAttribute</b> method sets a descriptive attribute that is stored in the header section of the ASF file. This method is replaced by <a href="https://msdn.microsoft.com/en-us/library/Dd798509(v=VS.85).aspx">IWMHeaderInfo3::AddAttribute</a>, and should not be used.
+The <b>SetAttribute</b> method sets a descriptive attribute that is stored in the header section of the ASF file. This method is replaced by <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-addattribute">IWMHeaderInfo3::AddAttribute</a>, and should not be used.
 
 
 
@@ -167,7 +167,7 @@ The object is not in a configurable state, or no profile has been set.
 
 
 
-Refer to the <a href="https://msdn.microsoft.com/1e9392b4-4fff-41ad-9d80-23c1c7f9e9a4">Attributes</a> section for a list of predefined attributes. For predefined attributes, the <i>Type</i> parameter must match the data type defined for that attribute. For custom attributes, you can specify any type except WMT_TYPE_GUID, but the buffer size (given by <i>cbLength</i>) must match the type. See <a href="https://msdn.microsoft.com/en-us/library/Dd757834(v=VS.85).aspx">WMT_ATTR_DATATYPE</a> for more information.
+Refer to the <a href="https://docs.microsoft.com/windows/desktop/wmformat/attributes">Attributes</a> section for a list of predefined attributes. For predefined attributes, the <i>Type</i> parameter must match the data type defined for that attribute. For custom attributes, you can specify any type except WMT_TYPE_GUID, but the buffer size (given by <i>cbLength</i>) must match the type. See <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a> for more information.
 
 The <b>IWMHeaderInfo</b> interface does not support the WMT_TYPE_GUID data type. To use this data type, you must use the methods of the <b>IWMHeaderInfo3</b> interface.
 
@@ -175,11 +175,11 @@ Attributes in MP3 files cannot be specific to a particular stream. For MP3 files
 
 This method does not support attributes with values larger than 64 kilobytes. To include large attributes in your file, use the methods of the <b>IWMHeaderInfo3</b> interface.
 
-The writer object supports this method only before the <a href="https://msdn.microsoft.com/en-us/library/Dd757474(v=VS.85).aspx">IWMWriter::BeginWriting</a> method has been called. The reader and synchronous reader objects do not support this method.
+The writer object supports this method only before the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-beginwriting">IWMWriter::BeginWriting</a> method has been called. The reader and synchronous reader objects do not support this method.
 
-Before you can use this method through the <b>IWMHeaderInfo</b> interface of a writer object to set <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">DRM</a> attributes, you must set a profile for the writer to use.
+Before you can use this method through the <b>IWMHeaderInfo</b> interface of a writer object to set <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">DRM</a> attributes, you must set a profile for the writer to use.
 
-The objects of the Windows Media Format SDK perform type checking on some supported metadata attributes, but not all of them. You should ensure that any attributes you use are set using the data type specified in the <a href="https://msdn.microsoft.com/1e9392b4-4fff-41ad-9d80-23c1c7f9e9a4">Attributes</a> section of this documentation. Likewise, you cannot assume that an attribute set by another application will use the correct data type.
+The objects of the Windows Media Format SDK perform type checking on some supported metadata attributes, but not all of them. You should ensure that any attributes you use are set using the data type specified in the <a href="https://docs.microsoft.com/windows/desktop/wmformat/attributes">Attributes</a> section of this documentation. Likewise, you cannot assume that an attribute set by another application will use the correct data type.
 
 
 
@@ -189,35 +189,35 @@ The objects of the Windows Media Format SDK perform type checking on some suppor
 
 
 
-<a href="https://msdn.microsoft.com/1e9392b4-4fff-41ad-9d80-23c1c7f9e9a4">Attributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/attributes">Attributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798504(v=VS.85).aspx">IWMHeaderInfo Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo">IWMHeaderInfo Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798505(v=VS.85).aspx">IWMHeaderInfo2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2">IWMHeaderInfo2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798508(v=VS.85).aspx">IWMHeaderInfo3 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3">IWMHeaderInfo3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/905fdf2c-a398-457e-80e9-aac124301f99">IWMHeaderInfo::GetAttributeByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getattributebyindex">IWMHeaderInfo::GetAttributeByIndex</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798519(v=VS.85).aspx">IWMHeaderInfo::GetAttributeByName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getattributebyname">IWMHeaderInfo::GetAttributeByName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798520(v=VS.85).aspx">IWMHeaderInfo::GetAttributeCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getattributecount">IWMHeaderInfo::GetAttributeCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757834(v=VS.85).aspx">WMT_ATTR_DATATYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a>
  
 
  

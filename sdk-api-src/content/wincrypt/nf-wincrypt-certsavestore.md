@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CertSaveStore</b> function saves the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a> to a file or to a memory <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a>.
+The <b>CertSaveStore</b> function saves the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> to a file or to a memory <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a>.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ The handle of the certificate store to be saved.
 
 ### -param dwEncodingType [in]
 
-Specifies the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate encoding type</a> and <a href="https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1">message encoding type</a>. Encoding is used only when <i>dwSaveAs</i> contains <b>CERT_STORE_SAVE_AS_PKCS7</b>. Otherwise, the <i>dwMsgAndCertEncodingType</i> parameter is not used.
+Specifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate encoding type</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding type</a>. Encoding is used only when <i>dwSaveAs</i> contains <b>CERT_STORE_SAVE_AS_PKCS7</b>. Otherwise, the <i>dwMsgAndCertEncodingType</i> parameter is not used.
 
 
 This parameter can be a combination of one or more of the following values.
@@ -123,7 +123,7 @@ This parameter can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-The certificate store can be saved as a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">PKCS #7</a> signed message that does not include additional properties. The <i>dwEncodingType</i> parameter specifies the message encoding type.
+The certificate store can be saved as a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">PKCS #7</a> signed message that does not include additional properties. The <i>dwEncodingType</i> parameter specifies the message encoding type.
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ The certificate store can be saved as a <a href="https://msdn.microsoft.com/2fe6
 </dl>
 </td>
 <td width="60%">
-The certificate store can be saved as a serialized store containing properties in addition to encoded certificates, <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation lists</a> (CRLs), and <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate trust lists</a> (CTLs). The <i>dwEncodingType</i> parameter is ignored.
+The certificate store can be saved as a serialized store containing properties in addition to encoded certificates, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation lists</a> (CRLs), and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust lists</a> (CTLs). The <i>dwEncodingType</i> parameter is ignored.
 
 <div class="alert"><b>Note</b>  The <b>CERT_KEY_CONTEXT_PROP_ID</b> property and the related <b>CERT_KEY_PROV_HANDLE_PROP_ID</b> and <b>CERT_KEY_SPEC_PROP_ID</b> values are not saved to a serialized store.</div>
 <div> </div>
@@ -165,7 +165,7 @@ This parameter can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-The function saves the certificate store to a file. The <i>pvSaveToPara</i> parameter contains a handle to a file previously obtained by using the <a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function. The file must be opened with write permission. After a successful save operation, the file pointer is positioned after the last write operation.
+The function saves the certificate store to a file. The <i>pvSaveToPara</i> parameter contains a handle to a file previously obtained by using the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function. The file must be opened with write permission. After a successful save operation, the file pointer is positioned after the last write operation.
 
 </td>
 </tr>
@@ -209,7 +209,7 @@ The function saves the certificate store to a file. The <i>pvSaveToPara</i> para
 </dl>
 </td>
 <td width="60%">
-The function saves the certificate store to a memory BLOB. The <i>pvSaveToPara</i> parameter contains a pointer to a <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CERT_BLOB</a> structure. Before use, the <b>CERT_BLOB</b>'s <b>pbData</b> and <b>cbData</b> members must be initialized. Upon return, <b>cbData</b> is updated with the actual length. For a length-only calculation, <b>pbData</b> must be set to <b>NULL</b>. If <b>pbData</b> is non-<b>NULL</b> and <b>cbData</b> is not large enough, the function returns zero with a last error code of <b>ERROR_MORE_DATA</b>.
+The function saves the certificate store to a memory BLOB. The <i>pvSaveToPara</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_BLOB</a> structure. Before use, the <b>CERT_BLOB</b>'s <b>pbData</b> and <b>cbData</b> members must be initialized. Upon return, <b>cbData</b> is updated with the actual length. For a length-only calculation, <b>pbData</b> must be set to <b>NULL</b>. If <b>pbData</b> is non-<b>NULL</b> and <b>cbData</b> is not large enough, the function returns zero with a last error code of <b>ERROR_MORE_DATA</b>.
 
 </td>
 </tr>
@@ -234,9 +234,9 @@ This parameter is reserved for future use and must be set to zero.
 If the function succeeds, the function returns nonzero.
 
 If the function fails, it returns zero. For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-Note that <a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> or <a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a> errors can be propagated to this function. One possible error code is <b>CRYPT_E_FILE_ERROR</b> which indicates that an error occurred while writing to the file.
+Note that <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> or <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a> errors can be propagated to this function. One possible error code is <b>CRYPT_E_FILE_ERROR</b> which indicates that an error occurred while writing to the file.
 
 
 
@@ -246,23 +246,23 @@ Note that <a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).as
 
 
 
-<a href="https://msdn.microsoft.com/a93fdd65-359e-4046-910d-347c3af01280">CertCloseStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a>
 
 
 
-<a href="https://msdn.microsoft.com/4edccbfe-c0a8-442b-b6b7-51ef598e7c90">CertOpenStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Store Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Store Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
  
 
  

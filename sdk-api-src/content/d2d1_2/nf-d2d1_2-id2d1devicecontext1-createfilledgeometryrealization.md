@@ -59,7 +59,7 @@ Creates a device-dependent representation of the fill of the geometry that can b
 
 ### -param geometry [in]
 
-Type: <b><a href="https://msdn.microsoft.com/be4ab801-64f6-48f9-8f62-d0492cc438b1">ID2D1Geometry</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>*</b>
 
 The geometry to realize.
 
@@ -73,7 +73,7 @@ The flattening tolerance to use when converting Beziers to line segments. This p
 
 ### -param geometryRealization
 
-Type: <b><a href="https://msdn.microsoft.com/EC2CF78B-5CED-494A-9ED3-407A4B6CD113">ID2D1GeometryRealization</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_2/nn-d2d1_2-id2d1geometryrealization">ID2D1GeometryRealization</a>**</b>
 
 When this method returns, contains the address of a pointer to a new geometry realization object.
 
@@ -113,9 +113,9 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 
-This method is used in conjunction with <a href="https://msdn.microsoft.com/BA4FB8E7-E59A-42BD-86BB-8048267A26AA">ID2D1DeviceContext1::DrawGeometryRealization</a>. The <a href="https://msdn.microsoft.com/62461D91-FAAF-4ABC-A852-6CD4B9B8182B">D2D1::ComputeFlatteningTolerance</a> helper API may be used to determine the proper flattening tolerance.
+This method is used in conjunction with <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_2/nf-d2d1_2-id2d1devicecontext1-drawgeometryrealization">ID2D1DeviceContext1::DrawGeometryRealization</a>. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn280327(v=vs.85)">D2D1::ComputeFlatteningTolerance</a> helper API may be used to determine the proper flattening tolerance.
 
-If the provided stroke style specifies a stroke transform type other than <a href="https://msdn.microsoft.com/99c2c5c8-49ce-4865-befa-e9f92905a260">D2D1_STROKE_TRANSFORM_TYPE_NORMAL</a>, then the stroke will be realized assuming the identity transform and a DPI of 96.
+If the provided stroke style specifies a stroke transform type other than <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_stroke_transform_type">D2D1_STROKE_TRANSFORM_TYPE_NORMAL</a>, then the stroke will be realized assuming the identity transform and a DPI of 96.
 
 
 
@@ -125,7 +125,7 @@ If the provided stroke style specifies a stroke transform type other than <a hre
 
 
 
-<a href="https://msdn.microsoft.com/E08FDAE4-05D3-472C-9AD9-228BAF989F1D">ID2D1DeviceContext1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_2/nn-d2d1_2-id2d1devicecontext1">ID2D1DeviceContext1</a>
  
 
  

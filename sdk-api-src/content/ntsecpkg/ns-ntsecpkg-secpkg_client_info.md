@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SECPKG_CLIENT_INFO</b> structure holds information about a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package's</a> client. This structure is used by the 
-<a href="https://msdn.microsoft.com/3669f2e2-da70-4195-bdd0-f8415d97ae99">GetClientInfo</a> function.
+The <b>SECPKG_CLIENT_INFO</b> structure holds information about a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package's</a> client. This structure is used by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_get_client_info">GetClientInfo</a> function.
 
 
 ## -struct-fields
@@ -60,7 +60,7 @@ The <b>SECPKG_CLIENT_INFO</b> structure holds information about a <a href="https
 
 ### -field LogonId
 
-The client's effective <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">logon identifier</a>.
+The client's effective <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon identifier</a>.
 
 
 ### -field ProcessID
@@ -80,7 +80,7 @@ The client's thread identifier.
 
 ### -field Impersonating
 
-<b>TRUE</b> if the client is impersonating another <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security principal</a>.
+<b>TRUE</b> if the client is impersonating another <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security principal</a>.
 
 
 ### -field Restricted

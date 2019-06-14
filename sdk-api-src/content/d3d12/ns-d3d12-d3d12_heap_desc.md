@@ -62,13 +62,13 @@ Describes a heap.
 The size, in bytes, of the heap.
             To avoid wasting memory, applications should pass <i>SizeInBytes</i> values which are multiples of the effective <i>Alignment</i>;
             but non-aligned <i>SizeInBytes</i> is also supported, for convenience.
-            To find out how large a heap must be to support textures with undefined layouts and adapter-specific sizes, call <a href="https://msdn.microsoft.com/43467E09-835B-4DB9-B0A4-F75868DE4609">ID3D12Device::GetResourceAllocationInfo</a>.
+            To find out how large a heap must be to support textures with undefined layouts and adapter-specific sizes, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getresourceallocationinfo">ID3D12Device::GetResourceAllocationInfo</a>.
           
 
 
 ### -field Properties
 
-A <a href="https://msdn.microsoft.com/0A197D3D-67F4-46BB-8578-15E05DF46067">D3D12_HEAP_PROPERTIES</a> structure that describes the heap properties.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_heap_properties">D3D12_HEAP_PROPERTIES</a> structure that describes the heap properties.
           
 
 
@@ -107,7 +107,7 @@ The alignment value for the heap.  Valid values:
 
 ### -field Flags
 
-A combination of <a href="https://msdn.microsoft.com/C3C1B611-714C-49DB-8034-9C9B7D6772E4">D3D12_HEAP_FLAGS</a>-typed values that are combined by using a bitwise-OR operation.
+A combination of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_flags">D3D12_HEAP_FLAGS</a>-typed values that are combined by using a bitwise-OR operation.
             The resulting value identifies heap options.
             When creating heaps to support adapters with resource heap tier 1, an application must choose some flags.
           
@@ -117,7 +117,7 @@ A combination of <a href="https://msdn.microsoft.com/C3C1B611-714C-49DB-8034-9C9
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/DB5DF4B2-4673-4B8D-BDED-9F672A41E7F6">CreateHeap</a> method, and returned by the <a href="https://msdn.microsoft.com/45237F32-FBDE-49FF-926F-80B914B36AE5">GetDesc</a> method.
+This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createheap">CreateHeap</a> method, and returned by the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/id3d12heap-getdesc">GetDesc</a> method.
       
 
 
@@ -128,15 +128,15 @@ This structure is used by the <a href="https://msdn.microsoft.com/DB5DF4B2-4673-
 
 
 
-<a href="https://msdn.microsoft.com/38E0BA60-2BB0-4AC1-870A-10AB16E4C6E6">CD3DX12_HEAP_DESC</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/cd3dx12-heap-desc">CD3DX12_HEAP_DESC</a>
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/04D3FACF-21EC-45CA-AD9B-78FDCDDC7136">Descriptor Heaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/descriptor-heaps">Descriptor Heaps</a>
  
 
  

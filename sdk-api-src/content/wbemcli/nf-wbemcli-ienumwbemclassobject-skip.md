@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 You can use the 
 <b>IEnumWbemClassObject::Skip</b> method to move the current position in an enumeration ahead by a specified number of objects. Also, this affects subsequent calls to 
-<a href="https://msdn.microsoft.com/1ff82982-a2d7-4618-8488-9e4b7628012d">NextAsync</a>, but it does not affect pending deliveries begun with 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-nextasync">NextAsync</a>, but it does not affect pending deliveries begun with 
 <b>NextAsync</b>.
 
 

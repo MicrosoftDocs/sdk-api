@@ -79,7 +79,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-The actual frame rate during playback might be less than the authored frame rate. For more information on actual versus authored frame rates, see the Remarks section for the <a href="https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85).aspx">VIDEOINFOHEADER</a> structure.
+The actual frame rate during playback might be less than the authored frame rate. For more information on actual versus authored frame rates, see the Remarks section for the <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader">VIDEOINFOHEADER</a> structure.
 
 
 
@@ -89,11 +89,11 @@ The actual frame rate during playback might be less than the authored frame rate
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd376915(v=VS.85).aspx">IQualProp Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nn-amvideo-iqualprop">IQualProp Interface</a>
  
 
  

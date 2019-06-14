@@ -80,7 +80,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/a12d3b2a-6873-4ef4-90d6-08dbd5feb959">WDEnable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windowsdefender/nf-windowsdefender-wdenable">WDEnable</a>
  
 
  

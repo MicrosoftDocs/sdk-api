@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>ICDrawStop</b> macro notifies a rendering driver to stop its internal clock for the timing of drawing frames. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/9ffda595-e3d6-48f0-9487-69f7e95979c2">ICM_DRAW_STOP</a> message.
+The <b>ICDrawStop</b> macro notifies a rendering driver to stop its internal clock for the timing of drawing frames. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-stop">ICM_DRAW_STOP</a> message.
 
 
 
@@ -79,11 +79,11 @@ This macro is used by hardware that performs its own asynchronous decompression,
 
 
 
-<a href="https://msdn.microsoft.com/e8ee41fa-180a-432a-933b-b4a525b9df8c">Video Compression Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://msdn.microsoft.com/df876309-68d3-43a3-9d83-6fdb8f345fdc">Video Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
  
 
  

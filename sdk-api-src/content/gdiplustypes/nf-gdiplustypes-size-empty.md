@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>Size::Empty</b> method determines whether a 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).aspx">Size</a> object is empty.
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a> object is empty.
 
 
 ## -parameters
@@ -80,7 +80,7 @@ If the
 
 
 A 
-				<a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).aspx">Size</a> object is defined as empty if the 
+				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a> object is defined as empty if the 
 				<b>Width</b> and 
 				<b>Height</b> data members are both equal to zero.
 
@@ -112,15 +112,15 @@ if(size.Empty())
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).aspx">Size</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a>
  
 
  

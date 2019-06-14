@@ -66,12 +66,12 @@ Handle to the input context.
 
 ### -param DWORD [in]
 
-Conversion mode values. For more information, see <a href="https://msdn.microsoft.com/0b0afb4e-f7aa-4ca6-9174-21983b2a422b">IME Conversion Mode Values</a>.
+Conversion mode values. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/ime-conversion-mode-values">IME Conversion Mode Values</a>.
 
 
 #### - fdwSentence [in]
 
-Sentence mode values. For more information, see <a href="https://msdn.microsoft.com/24b12936-7dfc-4c8d-970c-d8354ad46d1d">IME Sentence Mode Values</a>.
+Sentence mode values. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/ime-sentence-mode-values">IME Sentence Mode Values</a>.
 
 
 ## -returns
@@ -87,7 +87,7 @@ Returns a nonzero value if successful, or 0 otherwise.
 
 
 
-This function sends the <a href="https://msdn.microsoft.com/62bb9717-cc41-4e34-af1a-ff41324bd3a9">IMN_SETCONVERSIONMODE</a> and <a href="https://msdn.microsoft.com/72455193-cd17-45f8-b19c-a1f735ff81bf">IMN_SETSENTENCEMODE</a> commands to the application.
+This function sends the <a href="https://docs.microsoft.com/windows/desktop/Intl/imn-setconversionmode">IMN_SETCONVERSIONMODE</a> and <a href="https://docs.microsoft.com/windows/desktop/Intl/imn-setsentencemode">IMN_SETSENTENCEMODE</a> commands to the application.
 
 <div class="alert"><b>Note</b>  <b>Beginning with Windows 8:</b> By default, the input switch is set per user instead of per thread. 
 The Microsoft IME (Japanese) respects the mode globally, and therefore  <b>ImmSetConversionStatus</b> fails when getting focus.</div>
@@ -100,19 +100,19 @@ The Microsoft IME (Japanese) respects the mode globally, and therefore  <b>ImmSe
 
 
 
-<a href="https://msdn.microsoft.com/62bb9717-cc41-4e34-af1a-ff41324bd3a9">IMN_SETCONVERSIONMODE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/imn-setconversionmode">IMN_SETCONVERSIONMODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/72455193-cd17-45f8-b19c-a1f735ff81bf">IMN_SETSENTENCEMODE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/imn-setsentencemode">IMN_SETSENTENCEMODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e23e004-514a-4021-bd20-5ac55547258f">Input Method Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://msdn.microsoft.com/833c07eb-0ecf-41e2-9e01-8d83e51ffcef">Input Method Manager Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
  
 
  

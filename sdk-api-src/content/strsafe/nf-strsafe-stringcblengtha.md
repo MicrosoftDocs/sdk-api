@@ -90,7 +90,7 @@ The number of bytes in <i>psz</i>, excluding those used for the terminating null
 
 Type: <b>HRESULT</b>
 
-This function can return one of the following values. It is strongly recommended that you use the <a href="https://msdn.microsoft.com/7a258b0b-d214-46c5-be0a-6493cd14a0e5">SUCCEEDED</a> and <a href="https://msdn.microsoft.com/d9c4ff73-c255-4a82-b901-23bd5b41ee6c">FAILED</a> macros to test the return value of this function.
+This function can return one of the following values. It is strongly recommended that you use the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros to test the return value of this function.
 
 <table>
 <tr>
@@ -160,7 +160,7 @@ Compared to  the functions it replaces, <b>StringCbLength</b> is an additional t
  
 
 
-<a href="https://msdn.microsoft.com/2aa104f8-44e2-4896-86d8-5e2b6d9d7b73">UnalignedStringCbLength</a> is an alias for this function.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh305643(v=vs.85)">UnalignedStringCbLength</a> is an alias for this function.
 
 
 
@@ -170,7 +170,7 @@ Compared to  the functions it replaces, <b>StringCbLength</b> is an additional t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647539(v=VS.85).aspx">StringCchLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchlengtha">StringCchLength</a>
  
 
  

@@ -59,15 +59,15 @@ Types of sync root information.
 
 ### -field CF_SYNC_ROOT_INFO_BASIC
 
-Basic sync root information. See <a href="https://msdn.microsoft.com/7499D9DD-BAF6-449A-A34E-CEAE3EE10543">CF_SYNC_ROOT_BASIC_INFO</a>.
+Basic sync root information. See <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/ns-cfapi-cf_sync_root_basic_info">CF_SYNC_ROOT_BASIC_INFO</a>.
 
 
 ### -field CF_SYNC_ROOT_INFO_STANDARD
 
-Standard sync root information. See <a href="https://msdn.microsoft.com/17E409FB-2997-432C-977F-BEBF53068B42">CF_SYNC_ROOT_STANDARD_INFO</a>.
+Standard sync root information. See <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/ns-cfapi-cf_sync_root_standard_info">CF_SYNC_ROOT_STANDARD_INFO</a>.
 
 
 ### -field CF_SYNC_ROOT_INFO_PROVIDER
 
-Sync root provider information. See <a href="https://msdn.microsoft.com/9EBC64B5-7FB3-41AA-BCB2-29B3E444B463">CF_SYNC_ROOT_PROVIDER_INFO</a>.
+Sync root provider information. See <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/ns-cfapi-cf_sync_root_provider_info">CF_SYNC_ROOT_PROVIDER_INFO</a>.
 

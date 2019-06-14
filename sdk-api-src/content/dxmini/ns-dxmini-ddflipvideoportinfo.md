@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The DDFLIPVIDEOPORTINFO structure contains the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">video port extensions (VPE)</a> object and surface information. 
+The DDFLIPVIDEOPORTINFO structure contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object and surface information. 
 
 
 ## -struct-fields
@@ -59,12 +59,12 @@ The DDFLIPVIDEOPORTINFO structure contains the <a href="https://msdn.microsoft.c
 
 ### -field lpVideoPortData
 
-Points to a <a href="https://msdn.microsoft.com/662ff6ee-d6b1-4cb1-8ff8-b4c1e17b26df">DDVIDEOPORTDATA</a> structure that contains the VPE object information. 
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddvideoportdata">DDVIDEOPORTDATA</a> structure that contains the VPE object information. 
 
 
 ### -field lpCurrentSurface
 
-Points to a <a href="https://msdn.microsoft.com/4057cfcf-675e-439f-8b51-23adede1d35a">DDSURFACEDATA</a> structure that contains information about the current surface. 
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddsurfacedata">DDSURFACEDATA</a> structure that contains information about the current surface. 
 
 
 ### -field lpTargetSurface
@@ -74,7 +74,7 @@ Points to a DDSURFACEDATA structure that contains information about the target s
 
 ### -field dwFlipVPFlags
 
-Indicates whether the surfaces represent <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">vertical blanking interval (VBI)</a> surfaces or regular surfaces. One of the following: 
+Indicates whether the surfaces represent <a href="https://docs.microsoft.com/windows-hardware/drivers/">vertical blanking interval (VBI)</a> surfaces or regular surfaces. One of the following: 
 
 <table>
 <tr>
@@ -110,15 +110,15 @@ Flip the normal video surface.
 
 
 
-<a href="https://msdn.microsoft.com/4057cfcf-675e-439f-8b51-23adede1d35a">DDSURFACEDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddsurfacedata">DDSURFACEDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/662ff6ee-d6b1-4cb1-8ff8-b4c1e17b26df">DDVIDEOPORTDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddvideoportdata">DDVIDEOPORTDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/d6047c90-1163-475a-a55b-95ccb0570e3e">DxFlipVideoPort</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_flipvideoport">DxFlipVideoPort</a>
  
 
  

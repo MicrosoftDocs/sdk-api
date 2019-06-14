@@ -117,11 +117,11 @@ The <i>ppdwBuffer</i> or <i>pdwLength</i> parameter is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743259(v=VS.85).aspx">INSSBuffer::GetBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getbuffer">INSSBuffer::GetBuffer</a>
  
 
  

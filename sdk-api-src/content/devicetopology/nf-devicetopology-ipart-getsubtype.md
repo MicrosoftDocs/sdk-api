@@ -99,7 +99,7 @@ Pointer <i>pSubType</i> is <b>NULL</b>.
 
 This method typically retrieves one of the KSNODETYPE_<i>Xxx</i> GUID values from header file Ksmedia.h, although some custom drivers might provide other GUID values. For more information about KSNODETYPE_<i>Xxx</i> GUIDs, see the Windows DDK documentation.
 
-As explained in <a href="https://msdn.microsoft.com/3bcfab9f-fad8-4605-8780-0b7c2068fcdf">IPart Interface</a>, a part can be either a connector or a subunit.
+As explained in <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart Interface</a>, a part can be either a connector or a subunit.
 
 For a part that is a connector, this method retrieves the pin-category GUID that the driver has assigned to the connector. The following are examples of pin-category GUIDs:
 
@@ -125,83 +125,83 @@ The following table lists some of the subtype GUIDs that can be retrieved by the
 <tr>
 <td>KSNODETYPE_3D_EFFECTS</td>
 <td>
-<a href="https://msdn.microsoft.com/b8e54e9e-a6eb-46e6-a71c-ff498c7e8f47">IAudioChannelConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiochannelconfig">IAudioChannelConfig</a>
 </td>
 <td>Optional</td>
 </tr>
 <tr>
 <td>KSNODETYPE_AGC</td>
 <td>
-<a href="https://msdn.microsoft.com/f21e27e6-f3a0-418a-ad2e-e3e104dd6da2">IAudioAutoGainControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudioautogaincontrol">IAudioAutoGainControl</a>
 </td>
 <td>Required</td>
 </tr>
 <tr>
 <td>KSNODETYPE_DAC</td>
 <td>
-<a href="https://msdn.microsoft.com/b8e54e9e-a6eb-46e6-a71c-ff498c7e8f47">IAudioChannelConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiochannelconfig">IAudioChannelConfig</a>
 </td>
 <td>Optional</td>
 </tr>
 <tr>
 <td>KSNODETYPE_DEMUX</td>
 <td>
-<a href="https://msdn.microsoft.com/571a44b6-972f-4d75-a31f-0e02cf728764">IAudioOutputSelector</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiooutputselector">IAudioOutputSelector</a>
 </td>
 <td>Required</td>
 </tr>
 <tr>
 <td>KSNODETYPE_DEV_SPECIFIC</td>
 <td>
-<a href="https://msdn.microsoft.com/52873fe2-7f59-4a30-b526-cbefa27a81bb">IDeviceSpecificProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-idevicespecificproperty">IDeviceSpecificProperty</a>
 </td>
 <td>Required</td>
 </tr>
 <tr>
 <td>KSNODETYPE_LOUDNESS</td>
 <td>
-<a href="https://msdn.microsoft.com/c182d6ae-c55b-4e3b-9639-7c2f2f7d826d">IAudioLoudness</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudioloudness">IAudioLoudness</a>
 </td>
 <td>Required</td>
 </tr>
 <tr>
 <td>KSNODETYPE_MUTE</td>
 <td>
-<a href="https://msdn.microsoft.com/53d49af7-81c3-4e75-ba06-dcee34d84292">IAudioMute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiomute">IAudioMute</a>
 </td>
 <td>Required</td>
 </tr>
 <tr>
 <td>KSNODETYPE_MUX</td>
 <td>
-<a href="https://msdn.microsoft.com/6f5ce9c0-39e4-4fab-910c-9a11b90fcde7">IAudioInputSelector</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudioinputselector">IAudioInputSelector</a>
 </td>
 <td>Required</td>
 </tr>
 <tr>
 <td>KSNODETYPE_PEAKMETER</td>
 <td>
-<a href="https://msdn.microsoft.com/524d83ff-4303-448c-a070-58d17dec03ba">IAudioPeakMeter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiopeakmeter">IAudioPeakMeter</a>
 </td>
 <td>Required</td>
 </tr>
 <tr>
 <td>KSNODETYPE_PROLOGIC_DECODER</td>
 <td>
-<a href="https://msdn.microsoft.com/b8e54e9e-a6eb-46e6-a71c-ff498c7e8f47">IAudioChannelConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiochannelconfig">IAudioChannelConfig</a>
 </td>
 <td>Optional</td>
 </tr>
 <tr>
 <td>KSNODETYPE_TONE</td>
 <td>
-<a href="https://msdn.microsoft.com/036ca996-8612-4905-9afa-a4c3b4624652">IAudioBass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiobass">IAudioBass</a>
 
-<a href="https://msdn.microsoft.com/d2d93dba-1867-4c3a-9cd1-60842bf8311d">IAudioMidrange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiomidrange">IAudioMidrange</a>
 
 
 
-<a href="https://msdn.microsoft.com/3ace174e-c21c-41e7-9830-80d247d8437f">IAudioTreble</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiotreble">IAudioTreble</a>
 
 
 </td>
@@ -214,9 +214,9 @@ Optional
 <tr>
 <td>KSNODETYPE_VOLUME</td>
 <td>
-<a href="https://msdn.microsoft.com/b8e54e9e-a6eb-46e6-a71c-ff498c7e8f47">IAudioChannelConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiochannelconfig">IAudioChannelConfig</a>
 
-<a href="https://msdn.microsoft.com/5e7d7111-e4b0-43b3-af35-9878d1a19e5f">IAudioVolumeLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiovolumelevel">IAudioVolumeLevel</a>
 
 
 </td>
@@ -229,7 +229,7 @@ Optional
 
 In the preceding table, the middle column lists the control interfaces that are supported by subunits of the subtype specified in the left column. The right column indicates whether the subunit's support for a control interface is required or optional. If support is required, an application can rely on a subunit of the specified subtype to support the control interface. If support is optional, a subunit of the specified subtype can, but does not necessarily, support the control interface.
 
-The control interfaces in the preceding table provide convenient access to the properties of subunits. However, some subunits have properties for which no corresponding control interfaces exist. Applications can access these properties through the <a href="https://msdn.microsoft.com/d73cf2fc-15bb-4f45-aae3-fb55bcd072a3">IKsControl</a> interface. For more information, see <a href="https://msdn.microsoft.com/72bf9164-96c6-4543-b858-19480b032fdb">Using the IKsControl Interface to Access Audio Properties</a>.
+The control interfaces in the preceding table provide convenient access to the properties of subunits. However, some subunits have properties for which no corresponding control interfaces exist. Applications can access these properties through the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nn-ksproxy-ikscontrol">IKsControl</a> interface. For more information, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/using-the-ikscontrol-interface-to-access-audio-properties">Using the IKsControl Interface to Access Audio Properties</a>.
 
 
 
@@ -239,7 +239,7 @@ The control interfaces in the preceding table provide convenient access to the p
 
 
 
-<a href="https://msdn.microsoft.com/3bcfab9f-fad8-4605-8780-0b7c2068fcdf">IPart Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart Interface</a>
  
 
  

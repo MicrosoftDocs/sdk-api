@@ -65,7 +65,7 @@ Further details for values in this enumerated type are obtained by referring to 
 ### -field eatMinimum
 
 Specifies a value equal to zero, and used as the <b>NULL</b> terminator in any array of 
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> structures. 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> structures. 
 
 This attribute type is consumed by PPP client supplicants.
 
@@ -73,7 +73,7 @@ This attribute type is consumed by PPP client supplicants.
 ### -field eatUserName
 
 Specifies the name of the user to be authenticated. This attribute type is also used when the user's password is changed. For Routing and Remote Access Service (RRAS) authentication sessions, the identity string (name) of the authenticating user is sent to IAS as part of the request attributes. The <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type points to a multi-byte string with no NULL termination character. For more information, see 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type points to a multi-byte string with no NULL termination character. For more information, see 
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 This attribute type is exported  by MS-CHAPv2 methods and by PEAP methods. It is consumed by PPP server supplicants.
@@ -82,21 +82,21 @@ This attribute type is exported  by MS-CHAPv2 methods and by PEAP methods. It is
 ### -field eatUserPassword
 
 Specifies the password of the user to be authenticated. The <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field eatMD5CHAPPassword
 
 Specifies the password provided by the user in response to an MD5 Challenge Handshake Authentication Protocol (CHAP) challenge. The <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field eatNASIPAddress
 
 Specifies the IP address of the Network Access Server (NAS) that is requesting user authentication. An Access-Request should specify either an NAS IP address or an NAS identifier. The <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
@@ -106,21 +106,21 @@ Specifies the IP address of the Network Access Server (NAS) that is requesting u
 ### -field eatServiceType
 
 Specifies the type of service the user has requested or the type of service to be provided. The <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field eatFramedProtocol
 
 Specifies the type of framed protocol to use for framed access, for example SLIP, PPP, or ARAP (AppleTalk Remote Access Protocol). The <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field eatFramedIPAddress
 
 Specifies the IP address that is configured for the user requesting authentication. This attribute is typically returned by the authentication provider. However, the NAS may use it in an authentication request to specify a preferred IP address. The <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
@@ -143,14 +143,14 @@ This attribute type is not used by EAPHost methods or supplicants.
 ### -field eatFilterId
 
 Specifies the name of the filter list for the user requesting authentication. The <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field eatFramedMTU
 
 Specifies the Maximum Transmission Unit (MTU) for the user. This attribute is used in cases where the MTU is not negotiated through some other means, such as PPP. The <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
@@ -196,7 +196,7 @@ This attribute type is not used by EAPHost methods or supplicants.
 ### -field eatReplyMessage
 
 Specifies a message to display to the user. The <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 This attribute type consumed by the PPP server supplicant. This attribute type should not be used by any other method or supplicant. <b>eatEAPMessage</b> should be used to sent displayable messages whenever possible. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84062">RFC 3580</a>.
@@ -205,14 +205,14 @@ This attribute type consumed by the PPP server supplicant. This attribute type s
 ### -field eatCallbackNumber
 
 Specifies a callback number. The <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field eatCallbackId
 
 Specifies a location to call back. The value of this attribute is interpreted by the NAS. The <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
@@ -242,7 +242,7 @@ This attribute type is not used by EAPHost methods or supplicants.
 ### -field eatState
 
 Specifies state information provided to the client by the server. For RRAS authentication sessions, if authentication completed successfully and IAS returned attributes, then this state information is saved and used as input when constructing the request attributes for IAS during the next packet cycle.  The <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type points to a byte string. Refer to 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type points to a byte string. Refer to 
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a> for detailed information about this value. 
 
 This attribute type is consumed by PPP server supplicants.
@@ -251,7 +251,7 @@ This attribute type is consumed by PPP server supplicants.
 ### -field eatClass
 
 Specifies a value that is provided to the NAS by the authentication provider. The NAS should use this value when communicating with the accounting provider. The <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
@@ -263,7 +263,7 @@ This field is used to store Microsoft Point-to-Point Encryption (MPPE) keys cons
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 The following table shows the structure of the data pointed to by the <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type. 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type. 
 
 <table>
 <tr>
@@ -335,7 +335,7 @@ This attribute type is consumed by 802.1X supplicants.
 ### -field eatSessionTimeout
 
 Specifies the maximum number of seconds for which to provide service to the user. After this time, the session is terminated.  The <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 This attribute type is typically used by EAP methods to set the timeout duration for authentication within an Access-Challenge packet. The duration of the timeout is determined by IAS, not the EAP method. 
@@ -364,19 +364,19 @@ This attribute type is not used by EAPHost methods or supplicants.
 ### -field eatCalledStationId
 
 Specifies the phone number called using Dialed Number Identification (DNIS) or similar technology. The phone number called by the user may be different than the phone number from which the call originated. This attribute type may also be used to store other types of information, such as MAC addresses. The <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84062">RFC 3580</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84062">RFC 3580</a>.
 
 
 ### -field eatCallingStationId
 
 Specifies the originating phone number for a call, using Automatic Number Identification (ANI) or similar technology. This attribute type may also be used to store other types of information, such as MAC addresses. The <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84062">RFC 3580</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84062">RFC 3580</a>.
 
 
 ### -field eatNASIdentifier
 
 Specifies the NAS identifier. An Access-Request should specify either an NAS identifier or an NAS IP address. The <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
@@ -544,7 +544,7 @@ This attribute type is not used by EAPHost methods or supplicants.
 ### -field eatNASPortType
 
 Specifies the type of the port through which NAS is authenticating the user, for example, asynchronous, ISDN, virtual. The <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
@@ -664,7 +664,7 @@ This attribute type is not used by EAPHost methods or supplicants.
 ### -field eatEAPMessage
 
 Specifies that EAP information be sent directly between the user and the authentication provider. For RRAS authentication sessions, this attribute type is used to retrieve the EAP message from the authenticator and send the message to the  client. The <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84059">RFC 2869</a>.
 
 This attribute type is consumed by PPP server supplicants.
@@ -697,19 +697,19 @@ This attribute type is not used by EAPHost methods or supplicants.
 ### -field eatNASIPv6Address
 
 The IPv6 address of the NAS requesting user authentication. This address should be unique to the NAS within the scope of the RADIUS server. The <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a>.
 
 
 ### -field eatFramedInterfaceId
 
 The IPv6 interface identifier to be configured for the user. The <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a>.
 
 
 ### -field eatFramedIPv6Prefix
 
 The IPv6 prefix (and corresponding route) to be configured for the user. The <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a>.
 
 
 ### -field eatLoginIPv6Host
@@ -738,7 +738,7 @@ This attribute type is not used by EAPHost methods or supplicants.
 ### -field eatCertificateOID
 
 The object identifier (OID) present on the certificate. This attribute type is used in certificate-based authentication sessions. The <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type points to a byte string.  
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type points to a byte string.  
 
 This attribute type is exported  by EAP-TLS and NPS methods.
 
@@ -751,7 +751,7 @@ Not used.
 ### -field eatPEAPEmbeddedEAPTypeId
 
 The identifier of the inner EAP method used in PEAP authentication.  The <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type points to a DWORD.  Only the least significant byte of the DWORD is meaningful. 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type points to a DWORD.  Only the least significant byte of the DWORD is meaningful. 
 
 This attribute type is exported  by PEAP methods and is not consumed by any supplicant.
 
@@ -759,7 +759,7 @@ This attribute type is exported  by PEAP methods and is not consumed by any supp
 ### -field eatPEAPFastRoamedSession
 
 Specifies whether PEAP fast reconnect is used by the authenticator.  The <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type points to a DWORD.  If  <b>pValue</b> points to 0, then fast reconnect is not used by the authenticator. If <b>pValue</b> points to a nonzero value, then fast reconnect is used by the authenticator.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type points to a DWORD.  If  <b>pValue</b> points to 0, then fast reconnect is not used by the authenticator. If <b>pValue</b> points to a nonzero value, then fast reconnect is used by the authenticator.
 
 This attribute type is exported  by PEAP methods and consumed by PPP client supplicants.
 
@@ -772,7 +772,7 @@ This attribute type is exported  by PEAP methods and consumed by PPP client supp
 An EAP-TLV attribute. This attribute type is used to handle statement of health (SoH) requests and SoH responses from the server. 
 
 The following table shows the structure of the data pointed to by the <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type. 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type. 
 
 <table>
 <tr>
@@ -831,7 +831,7 @@ This attribute type is consumed by PPP client supplicants and by EAPHost supplic
 ### -field eatCredentialsChanged
 
 Specifies whether credentials have changed during EAP authentication. The <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type points to a DWORD.  If  <b>pValue</b> points to 0, then the credentials have not changed. If <b>pValue</b> points to a nonzero value, then credentials have changed.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type points to a DWORD.  If  <b>pValue</b> points to 0, then the credentials have not changed. If <b>pValue</b> points to a nonzero value, then credentials have changed.
 
 This attribute type may be exported by MS-CHAPv2 methods, and is consumed by PPP client supplicants.
 
@@ -839,7 +839,7 @@ This attribute type may be exported by MS-CHAPv2 methods, and is consumed by PPP
 ### -field eatInnerEapMethodType
 
 The inner EAP method used inside native tunnel methods. The <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type points to an <a href="https://msdn.microsoft.com/47702dd9-d9c2-4dd5-a12d-23a55b031d27">EAP_METHOD_TYPE</a> structure. 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type points to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_type">EAP_METHOD_TYPE</a> structure. 
 
 This attribute type is exported by EAP methods.
 
@@ -847,7 +847,7 @@ This attribute type is exported by EAP methods.
 ### -field eatClearTextPassword
 
 The password, in clear text, of the user to be authenticated. This attribute type is sent by EAP methods that use EAPHost to raise the identity user interface. The <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type points to an <a href="https://msdn.microsoft.com/47702dd9-d9c2-4dd5-a12d-23a55b031d27">EAP_METHOD_TYPE</a> structure. 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type points to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_type">EAP_METHOD_TYPE</a> structure. 
 
 This attribute type is exported by EAPHost.
 
@@ -855,7 +855,7 @@ This attribute type is exported by EAPHost.
 ### -field eatQuarantineSoH
 
 Contains SoH request and response information used during EAP authentication.  The <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type points to a byte string.  
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type points to a byte string.  
 
 This attribute type is exported by EAPHost and PEAP methods, and consumed by PPP server supplicants.
 
@@ -866,7 +866,7 @@ This attribute type is exported by EAPHost and PEAP methods, and consumed by PPP
 ### -field eatPeerId
 
 The peer identity provided in the identity response message (EAP-Response/Identity). This identity may be different than the peer identity authenticated by the EAP method.   The <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type points to an ASCII string. The string will be <b>NULL</b> if the EAP peer identity does not exist. For more information, see the <a href="Http://go.microsoft.com/fwlink/p/?linkid=84023">Key Management Framework draft specification</a>. 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type points to an ASCII string. The string will be <b>NULL</b> if the EAP peer identity does not exist. For more information, see the <a href="Http://go.microsoft.com/fwlink/p/?linkid=84023">Key Management Framework draft specification</a>. 
 
 This attribute type is exported by EAP methods and consumed by supplicants.
 
@@ -874,7 +874,7 @@ This attribute type is exported by EAP methods and consumed by supplicants.
 ### -field eatServerId
 
 The identity of the server used when the EAP method authenticates to the server. The <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type points to an ASCII string. The string will be <b>NULL</b> if an EAP method does not define a method-specific peer identity. For more information, see the <a href="Http://go.microsoft.com/fwlink/p/?linkid=84023">Key Management Framework draft specification</a>. 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type points to an ASCII string. The string will be <b>NULL</b> if an EAP method does not define a method-specific peer identity. For more information, see the <a href="Http://go.microsoft.com/fwlink/p/?linkid=84023">Key Management Framework draft specification</a>. 
 
 This attribute type is exported by EAP methods and consumed by supplicants.
 
@@ -882,7 +882,7 @@ This attribute type is exported by EAP methods and consumed by supplicants.
 ### -field eatMethodId
 
 A temporally unique method identifier that identifies an EAP session of a given type between an peer and a server. Any EAP method that derives keys must specify this attribute type. The <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type points to a DWORD. For more information, see the <a href="Http://go.microsoft.com/fwlink/p/?linkid=84023">Key Management Framework draft specification</a>. 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type points to a DWORD. For more information, see the <a href="Http://go.microsoft.com/fwlink/p/?linkid=84023">Key Management Framework draft specification</a>. 
 
 This attribute type is exported by EAPHost methods and other EAP methods, and consumed by supplicants.
 
@@ -890,7 +890,7 @@ This attribute type is exported by EAPHost methods and other EAP methods, and co
 ### -field eatEMSK
 
 The extended session master key (EMSK). This key material is derived  between the peer and the server, and should not be shared with a third party. The <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type points to a byte string, which should contain at least 64 octets of key material. For more information, see the <a href="Http://go.microsoft.com/fwlink/p/?linkid=84023">Key Management Framework draft specification</a>. 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type points to a byte string, which should contain at least 64 octets of key material. For more information, see the <a href="Http://go.microsoft.com/fwlink/p/?linkid=84023">Key Management Framework draft specification</a>. 
 
 This attribute type is exported by EAP methods and consumed by supplicants.
 
@@ -913,7 +913,7 @@ Not used.
 #### - eatNASport
 
 Specifies the physical or virtual private network (VPN) through which the user is connecting to the NAS. Note that this value is not a port number in the sense of TCP or UDP. The <b>pValue</b> member  of  
-<a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
@@ -922,7 +922,7 @@ Specifies the physical or virtual private network (VPN) through which the user i
 
 
 
-<a href="https://msdn.microsoft.com/3c54cca2-cd3b-4149-bb0e-036d490cdd3b">About EAP Attributes</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/about-eap-attributes">About EAP Attributes</a>
 
 
 

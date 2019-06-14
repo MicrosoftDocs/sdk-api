@@ -105,18 +105,18 @@ Reserved value.
 
 
 <b>VSS_OBJECT_TYPE</b> is used when calling 
-    <a href="https://msdn.microsoft.com/3f79bf84-c7b9-4291-ae3b-7061fe3199e9">IVssBackupComponents::Query</a> to specify the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-query">IVssBackupComponents::Query</a> to specify the 
     types of objects about which to obtain information. An input of <b>VSS_OBJECT_NONE</b> will 
     return information about all objects.
 
 In addition, <b>VSS_OBJECT_TYPE</b> is used as an input to 
-    <a href="https://msdn.microsoft.com/2e06f69e-8210-4773-8080-5c58e6f59792">IVssBackupComponents::DeleteSnapshots</a>. 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-deletesnapshots">IVssBackupComponents::DeleteSnapshots</a>. 
     However, <b>DeleteSnapshots</b> accepts 
     only <b>VSS_OBJECT_TYPE</b> values of 
     <b>VSS_OBJECT_SNAPSHOT_SET</b> or <b>VSS_OBJECT_SNAPSHOT</b>.
 
 The <b>Type</b> member of 
-    <a href="https://msdn.microsoft.com/90664042-e9a0-4959-a975-9289477d2394">VSS_OBJECT_PROP</a> is a member of the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_object_prop">VSS_OBJECT_PROP</a> is a member of the 
     <b>VSS_OBJECT_TYPE</b> enumeration.
 
 
@@ -127,27 +127,27 @@ The <b>Type</b> member of
 
 
 
-<a href="https://msdn.microsoft.com/2e06f69e-8210-4773-8080-5c58e6f59792">IVssBackupComponents::DeleteSnapshots</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-deletesnapshots">IVssBackupComponents::DeleteSnapshots</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f79bf84-c7b9-4291-ae3b-7061fe3199e9">IVssBackupComponents::Query</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-query">IVssBackupComponents::Query</a>
 
 
 
-<a href="https://msdn.microsoft.com/b8e80909-a28a-45d7-87e2-4f44bf6990f4">IVssEnumObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssenumobject">IVssEnumObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/ba3b726c-448a-46c0-8fa5-5793497aa385">VSS_COMPONENT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/90664042-e9a0-4959-a975-9289477d2394">VSS_OBJECT_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_object_prop">VSS_OBJECT_PROP</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384960(v=VS.85).aspx">VSS_OBJECT_UNION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-__midl___midl_itf_vss_0000_0000_0001">VSS_OBJECT_UNION</a>
  
 
  

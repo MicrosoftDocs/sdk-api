@@ -115,7 +115,7 @@ The sink does not support the media type.
 
 
 
-This is an asynchronous call.  Listen to the <a href="https://msdn.microsoft.com/A48CBC82-87C2-4AED-B7E0-B7C60FCCE4CC">MF_CAPTURE_ENGINE_OUTPUT_MEDIA_TYPE_SET</a> event
+This is an asynchronous call.  Listen to the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-capture-engine-output-media-type-set">MF_CAPTURE_ENGINE_OUTPUT_MEDIA_TYPE_SET</a> event
 to be notified when the output media type has been set.
 
 
@@ -126,7 +126,7 @@ to be notified when the output media type has been set.
 
 
 
-<a href="https://msdn.microsoft.com/afaf0d2e-3732-4c78-8aba-870c6aaefa28">IMFCaptureSink2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink2">IMFCaptureSink2</a>
  
 
  

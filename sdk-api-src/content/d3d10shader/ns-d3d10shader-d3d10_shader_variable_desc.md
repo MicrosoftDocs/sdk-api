@@ -59,35 +59,35 @@ Describes a shader variable.
 
 ### -field Name
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
 The variable name.
 
 
 ### -field StartOffset
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Offset from the start of the parent structure, to the beginning of the variable.
 
 
 ### -field Size
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Size of the variable (in bytes).
 
 
 ### -field uFlags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Flags, which identify shader-variable properties (see <a href="https://msdn.microsoft.com/en-us/library/Bb172442(v=VS.85).aspx">D3D10_SHADER_VARIABLE_FLAGS</a>).
+Flags, which identify shader-variable properties (see <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_shader_variable_flags">D3D10_SHADER_VARIABLE_FLAGS</a>).
 
 
 ### -field DefaultValue
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPVOID</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPVOID</a></b>
 
 The default value for initializing the variable.
 
@@ -96,7 +96,7 @@ The default value for initializing the variable.
 
 
 
-Get a shader-variable description using reflection, by calling <a href="https://msdn.microsoft.com/en-us/library/Bb173846(v=VS.85).aspx">ID3D10ShaderReflectionVariable::GetDesc</a>.
+Get a shader-variable description using reflection, by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflectionvariable-getdesc">ID3D10ShaderReflectionVariable::GetDesc</a>.
 
 
 
@@ -106,7 +106,7 @@ Get a shader-variable description using reflection, by calling <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205159(v=VS.85).aspx">Shader Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-shader-structures">Shader Structures</a>
  
 
  

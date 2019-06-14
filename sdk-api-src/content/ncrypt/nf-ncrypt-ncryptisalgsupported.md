@@ -59,12 +59,12 @@ The <b>NCryptIsAlgSupported</b> function determines if a CNG key storage provide
 
 ### -param hProvider [in]
 
-The handle of the key storage provider. This handle is obtained with the <a href="https://msdn.microsoft.com/febcf440-78b3-420b-b13d-030e8071cd50">NCryptOpenStorageProvider</a> function.
+The handle of the key storage provider. This handle is obtained with the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenstorageprovider">NCryptOpenStorageProvider</a> function.
 
 
 ### -param pszAlgId [in]
 
-A pointer to a null-terminated Unicode string that identifies the cryptographic algorithm in question. This can be one of the standard <a href="https://msdn.microsoft.com/a05ae7e6-d882-4287-9990-23e4cd340b05">CNG Algorithm Identifiers</a> or the identifier for another registered algorithm.
+A pointer to a null-terminated Unicode string that identifies the cryptographic algorithm in question. This can be one of the standard <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a> or the identifier for another registered algorithm.
 
 
 ### -param dwFlags [in]

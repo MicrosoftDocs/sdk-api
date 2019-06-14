@@ -73,7 +73,7 @@ The GUID of the adapter.
 
 ### -field Media
 
-Type: <b><a href="https://msdn.microsoft.com/76617f35-c7a1-49ff-a630-482f2fe45dd7">WCM_MEDIA_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ne-wcmapi-_wcm_media_type">WCM_MEDIA_TYPE</a></b>
 
 The media type for the profile.
 
@@ -83,7 +83,7 @@ The media type for the profile.
 
 
 
-<a href="https://msdn.microsoft.com/76617f35-c7a1-49ff-a630-482f2fe45dd7">WCM_MEDIA_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ne-wcmapi-_wcm_media_type">WCM_MEDIA_TYPE</a>
  
 
  

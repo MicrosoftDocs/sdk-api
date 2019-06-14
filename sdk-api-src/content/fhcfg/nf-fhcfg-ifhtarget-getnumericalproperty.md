@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves a numeric property of the File History backup target that is represented by an <a href="https://msdn.microsoft.com/5A73A81A-72A3-4794-86E5-9CA8FCA200C0">IFhTarget</a> interface.
+Retrieves a numeric property of the File History backup target that is represented by an <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nn-fhcfg-ifhtarget">IFhTarget</a> interface.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Retrieves a numeric property of the File History backup target that is represent
 
 ### -param PropertyType [in]
 
-Specifies the numeric property. See the <a href="https://msdn.microsoft.com/0A39626B-942F-4BD6-930D-15E9D401F0FF">FH_TARGET_PROPERTY_TYPE</a> enumeration for a list of possible numeric properties.
+Specifies the numeric property. See the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-_fh_target_property_type">FH_TARGET_PROPERTY_TYPE</a> enumeration for a list of possible numeric properties.
 
 
 ### -param PropertyValue [out]
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 
 
-The <a href="https://msdn.microsoft.com/0A39626B-942F-4BD6-930D-15E9D401F0FF">FH_TARGET_PROPERTY_TYPE</a> enumeration defines property types for string properties and numeric properties. However, the <b>IFhTarget::GetNumericalProperty</b> method can only be used to retrieve numeric properties. String properties must be retrieved by  calling the <a href="https://msdn.microsoft.com/DC5FE023-FA6E-4B97-AD9D-830975A17159">IFhTarget::GetStringProperty</a> method.
+The <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-_fh_target_property_type">FH_TARGET_PROPERTY_TYPE</a> enumeration defines property types for string properties and numeric properties. However, the <b>IFhTarget::GetNumericalProperty</b> method can only be used to retrieve numeric properties. String properties must be retrieved by  calling the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhtarget-getstringproperty">IFhTarget::GetStringProperty</a> method.
 
 
 
@@ -90,15 +90,15 @@ The <a href="https://msdn.microsoft.com/0A39626B-942F-4BD6-930D-15E9D401F0FF">FH
 
 
 
-<a href="https://msdn.microsoft.com/0A39626B-942F-4BD6-930D-15E9D401F0FF">FH_TARGET_PROPERTY_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-_fh_target_property_type">FH_TARGET_PROPERTY_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/5A73A81A-72A3-4794-86E5-9CA8FCA200C0">IFhTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nn-fhcfg-ifhtarget">IFhTarget</a>
 
 
 
-<a href="https://msdn.microsoft.com/DC5FE023-FA6E-4B97-AD9D-830975A17159">IFhTarget::GetStringProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhtarget-getstringproperty">IFhTarget::GetStringProperty</a>
  
 
  

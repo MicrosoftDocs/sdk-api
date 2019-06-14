@@ -73,7 +73,7 @@ TBD
 #### - Handler [in]
 
 A pointer to a vectored exception handler previously registered using the 
-<a href="https://msdn.microsoft.com/23ad21a1-a298-45ac-9867-463f0852f292">AddVectoredContinueHandler</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-addvectoredcontinuehandler">AddVectoredContinueHandler</a> function.
 
 
 ## -returns
@@ -92,7 +92,7 @@ If the function fails, the return value is zero.
 
 
 To compile an application that uses this function, define the _WIN32_WINNT macro as 0x0500 or later. For more information, see 
-<a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 
@@ -102,11 +102,11 @@ To compile an application that uses this function, define the _WIN32_WINNT macro
 
 
 
-<a href="https://msdn.microsoft.com/23ad21a1-a298-45ac-9867-463f0852f292">AddVectoredContinueHandler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-addvectoredcontinuehandler">AddVectoredContinueHandler</a>
 
 
 
-<a href="https://msdn.microsoft.com/e4cf8a88-1bdf-4666-8653-fe2e86c4d8ef">Vectored Exception Handling</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/vectored-exception-handling">Vectored Exception Handling</a>
  
 
  

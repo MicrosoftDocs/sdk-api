@@ -106,28 +106,28 @@ Type: <b>UINT</b>
 
 Type: <b>IUknown*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface of the <a href="https://msdn.microsoft.com/3b9e65d4-a881-4e13-9487-87de9d560377">MenuBand</a> object.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the <a href="https://docs.microsoft.com/windows/desktop/shell/profiles-directory">MenuBand</a> object.
 
 
 ### -field pidlFolder
 
 Type: <b>PIDLIST_ABSOLUTE</b>
 
-The <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> of the shell folder portion of the menu.
+The <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> of the shell folder portion of the menu.
 
 
 ### -field pidlItem
 
 Type: <b>PUITEMID_CHILD</b>
 
-The <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> of the selected item in the shell folder portion of the menu.
+The <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> of the selected item in the shell folder portion of the menu.
 
 
 ### -field psf
 
-Type: <b><a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a> interface for the folder associated with the shell folder portion of the menu.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> interface for the folder associated with the shell folder portion of the menu.
 
 
 ### -field pvUserData

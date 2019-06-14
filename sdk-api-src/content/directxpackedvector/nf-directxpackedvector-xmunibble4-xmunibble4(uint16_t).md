@@ -53,7 +53,7 @@ Initializes a new instance of <code>XMUNIBBLE</code> from a <code>uint16_t</code
 	  containing component data in a packed format.
   
 
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420614(v=VS.85).aspx">XMUNIBBLE4</a> from a
+This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4">XMUNIBBLE4</a> from a
 	  <code>uint16_t</code> variable containing component data in a packed format.
   
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
@@ -116,11 +116,11 @@ The last 4 bits (bits 12-15) of <b>Packed</b> assigned, as an integer, to
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420614(v=VS.85).aspx">XMUNIBBLE4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4">XMUNIBBLE4</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415488(v=VS.85).aspx">XMUNIBBLE4 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmunibble4-ctor">XMUNIBBLE4 Constructors</a>
  
 
  

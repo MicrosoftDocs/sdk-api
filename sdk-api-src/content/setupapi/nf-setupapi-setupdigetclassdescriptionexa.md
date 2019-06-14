@@ -113,19 +113,19 @@ If there is a friendly name in the registry key for the class, this routine retu
 
 
 
-<a href="https://msdn.microsoft.com/a01b1f8f-55af-4053-8c31-9329ef36f2ce">SetupDiBuildClassInfoList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdibuildclassinfolist">SetupDiBuildClassInfoList</a>
 
 
 
-<a href="https://msdn.microsoft.com/32c6c548-79f8-41be-ad9a-5456972a16eb">SetupDiBuildClassInfoListEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdibuildclassinfolistexa">SetupDiBuildClassInfoListEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f624882-9ccc-4be1-92aa-8bba9f0022ea">SetupDiGetDeviceInfoListDetail</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinfolistdetaila">SetupDiGetDeviceInfoListDetail</a>
 
 
 
-<a href="https://msdn.microsoft.com/03e66c5b-9b76-4a40-8bd4-f640b689ce27">SetupDiGetINFClass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetinfclassa">SetupDiGetINFClass</a>
  
 
  

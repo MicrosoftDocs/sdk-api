@@ -88,7 +88,7 @@ To translate an address, addrA, in image A to an address, addrB, in image B, per
 
 
 
-<a href="https://msdn.microsoft.com/d89947fa-65fd-4929-9f7e-a4923792049e">SymGetOmaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetomaps">SymGetOmaps</a>
  
 
  

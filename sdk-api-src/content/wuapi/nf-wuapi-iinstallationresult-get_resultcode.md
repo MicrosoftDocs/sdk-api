@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an <a href="https://msdn.microsoft.com/02d3442e-d098-42b6-b1b1-cc2d1a815fa4">OperationResultCode</a> value that specifies the result of an operation on an update.
+Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-tagoperationresultcode">OperationResultCode</a> value that specifies the result of an operation on an update.
 
 This property is read-only.
 
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/453945d7-11a3-4237-b1c8-928194be558d">IInstallationResult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iinstallationresult">IInstallationResult</a>
  
 
  

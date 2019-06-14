@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>QOSCloseHandle</b> function closes a handle returned by the <a href="https://msdn.microsoft.com/dcee0bed-dc6f-435d-b292-07e331f6cf5b">QOSCreateHandle</a> function.
+The <b>QOSCloseHandle</b> function closes a handle returned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a> function.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>QOSCloseHandle</b> function closes a handle returned by the <a href="http
 
 ### -param QOSHandle [in]
 
-Handle to the QOS subsystem returned by <a href="https://msdn.microsoft.com/dcee0bed-dc6f-435d-b292-07e331f6cf5b">QOSCreateHandle</a>.
+Handle to the QOS subsystem returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>.
 
 
 ## -returns
@@ -98,12 +98,12 @@ The <i>QOSHandle</i> parameter is invalid.
 
 All flows added on the handle being closed are immediately removed from the system.  Any traffic going out of a socket used to create these flows will no longer be marked with priority values.  Any pending operations on these flows are immediately completed with <b>ERROR_ABORTED</b>.
 
-If any clients were being tracked through the handle being closed by a previous call to the <a href="https://msdn.microsoft.com/36e4a71f-fb6b-42b6-a770-8cbcf98e7eb3">QOSStartTrackingClient</a> function, <b>QOSCloseHandle</b> indicates that the application is no longer using the client endpoint.
+If any clients were being tracked through the handle being closed by a previous call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosstarttrackingclient">QOSStartTrackingClient</a> function, <b>QOSCloseHandle</b> indicates that the application is no longer using the client endpoint.
 
 
 #### Examples
 
-The following "CleanUpQos" function illustrates  the use of <a href="https://msdn.microsoft.com/c67dc959-2511-4a95-87e4-1689f49c167a">QOSRemoveSocketFromFlow</a> and <b>QOSCloseHandle</b>:  
+The following "CleanUpQos" function illustrates  the use of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosremovesocketfromflow">QOSRemoveSocketFromFlow</a> and <b>QOSCloseHandle</b>:  
 
 See the Windows SDK for a complete sample code listing. SDK folder: Samples\NetDs\GQos\Qos2
 
@@ -158,7 +158,7 @@ int CleanUpQos( HANDLE qosHandle,
 
 
 
-<a href="https://msdn.microsoft.com/022fde13-415e-49aa-8df4-472c4eadd6a0">Quality Windows Audio/Video Experience (qWAVE)</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
  
 
  

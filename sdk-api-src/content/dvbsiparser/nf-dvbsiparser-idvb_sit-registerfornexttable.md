@@ -65,7 +65,7 @@ The <b>RegisterForNextTable</b> method registers the client to be notified when 
 
 ### -param hNextTableAvailable [in]
 
-Handle to an event created by the caller. The object signals the event when the <i>next</i> table arrives. When the event is signaled, call the <a href="https://msdn.microsoft.com/e5a23ec2-8eff-42cb-abe2-bf4447406e8c">IDVB_SIT::GetNextTable</a> method to retrieve the table.
+Handle to an event created by the caller. The object signals the event when the <i>next</i> table arrives. When the event is signaled, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sit-getnexttable">IDVB_SIT::GetNextTable</a> method to retrieve the table.
 
 
 ## -returns
@@ -143,7 +143,7 @@ This method applies only to <i>current</i> tables. Otherwise, the method returns
 
 
 
-<a href="https://msdn.microsoft.com/f278d942-a450-4a01-998d-4dac1c8a1fcc">IDVB_SIT Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_sit">IDVB_SIT Interface</a>
  
 
  

@@ -76,7 +76,7 @@ The color of the text.
 
 
 
-If the function succeeds, the return value is a color reference for the previous text color as a <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> value.
+If the function succeeds, the return value is a color reference for the previous text color as a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> value.
 
 If the function fails, the return value is CLR_INVALID.
 
@@ -87,12 +87,12 @@ If the function fails, the return value is CLR_INVALID.
 
 
 
-The text color is used to draw the face of each character written by the <a href="https://msdn.microsoft.com/0c437ff8-3893-4dc3-827b-fa9ce4bcd7e6">TextOut</a> and <a href="https://msdn.microsoft.com/74f8fcb8-8ad4-47f2-a330-fa56713bdb37">ExtTextOut</a> functions. The text color is also used in converting bitmaps from color to monochrome and vice versa.
+The text color is used to draw the face of each character written by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a> functions. The text color is also used in converting bitmaps from color to monochrome and vice versa.
 
 
 #### Examples
 
-For an example, see "Setting Fonts for Menu-Item Text Strings" in <a href="https://msdn.microsoft.com/en-us/library/ms647558(v=VS.85).aspx">Using Menus</a>.
+For an example, see "Setting Fonts for Menu-Item Text Strings" in <a href="https://docs.microsoft.com/windows/desktop/menurc/using-menus">Using Menus</a>.
 
 <div class="code"></div>
 
@@ -103,43 +103,43 @@ For an example, see "Setting Fonts for Menu-Item Text Strings" in <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/d6a181e4-b6cf-44b7-bf47-4900272d6d72">BitBlt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-bitblt">BitBlt</a>
 
 
 
-<a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
 
 
 
-<a href="https://msdn.microsoft.com/74f8fcb8-8ad4-47f2-a330-fa56713bdb37">ExtTextOut</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a>
 
 
 
-<a href="https://msdn.microsoft.com/69c04ed7-52da-4cb6-9fd2-f2a8c044df8b">Font and Text Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9944baa9-8e50-40b9-9650-78b0b1d7643a">Fonts and Text Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/d3d91b86-5143-431a-ba18-b951b832d7b6">GetTextColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextcolor">GetTextColor</a>
 
 
 
-<a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">RGB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
 
 
 
-<a href="https://msdn.microsoft.com/9163370b-19c5-4c23-9197-793e4b8d50c4">SetBkColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbkcolor">SetBkColor</a>
 
 
 
-<a href="https://msdn.microsoft.com/5130c88e-08e8-4faa-a1cb-a8106c86cea0">StretchBlt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchblt">StretchBlt</a>
 
 
 
-<a href="https://msdn.microsoft.com/0c437ff8-3893-4dc3-827b-fa9ce4bcd7e6">TextOut</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut</a>
  
 
  

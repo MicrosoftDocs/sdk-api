@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Opens an existing  <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">cluster database</a> key.
+Opens an existing  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> key.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ Pointer to a null-terminated Unicode string specifying the name of the subkey to
 <li>Must not begin with the backslash character ( \ ).</li>
 <li>Must not be <b>NULL</b>.</li>
 </ul>
-The <i>lpszSubKey</i> parameter can point to an empty string, causing  <a href="https://msdn.microsoft.com/a5e924bd-9336-45c8-b2c9-48291f8db774">ClusterRegCreateKey</a> to return a handle to the database key represented by <i>hKey</i>.
+The <i>lpszSubKey</i> parameter can point to an empty string, causing  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatekey">ClusterRegCreateKey</a> to return a handle to the database key represented by <i>hKey</i>.
 
 
 ### -param samDesired [in]
@@ -93,7 +93,7 @@ Pointer to a handle to the opened or created key.
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>.
+the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 
 
@@ -102,7 +102,7 @@ the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f
 
 
 
-Callers should call  <a href="https://msdn.microsoft.com/2216ac42-6beb-4ceb-bd15-12bb2886bc6a">ClusterRegCloseKey</a> to close the key handle opened by  <b>ClusterRegOpenKey</b> when they are done with it.
+Callers should call  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregclosekey">ClusterRegCloseKey</a> to close the key handle opened by  <b>ClusterRegOpenKey</b> when they are done with it.
 
 
 
@@ -112,11 +112,11 @@ Callers should call  <a href="https://msdn.microsoft.com/2216ac42-6beb-4ceb-bd15
 
 
 
-<a href="https://msdn.microsoft.com/2216ac42-6beb-4ceb-bd15-12bb2886bc6a">ClusterRegCloseKey</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregclosekey">ClusterRegCloseKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/a5e924bd-9336-45c8-b2c9-48291f8db774">ClusterRegCreateKey</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatekey">ClusterRegCreateKey</a>
  
 
  

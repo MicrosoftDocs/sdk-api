@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifies parts of the input string that the parser did not recognize or did not use when constructing the <a href="https://msdn.microsoft.com/en-us/library/Bb231346(v=VS.85).aspx">IQuerySolution</a> condition tree.
+Identifies parts of the input string that the parser did not recognize or did not use when constructing the <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iquerysolution">IQuerySolution</a> condition tree.
         
 
 
@@ -70,7 +70,7 @@ The desired IID of the result, either IID_IEnumUnknown or IID_IEnumVARIANT.
 
 Type: <b>void**</b>
 
-Receives a pointer to an enumeration of zero or more <a href="https://msdn.microsoft.com/en-us/library/Bb231336(v=VS.85).aspx">IRichChunk</a> objects, each describing one parsing error.
+Receives a pointer to an enumeration of zero or more <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-irichchunk">IRichChunk</a> objects, each describing one parsing error.
         
 
 
@@ -90,7 +90,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
  
-        Each parsing error is represented by an <a href="https://msdn.microsoft.com/en-us/library/Bb231336(v=VS.85).aspx">IRichChunk</a> object in which the position information reflects token counts. The <b>IRichChunk</b> object <i>ppsz</i> string is <b>NULL</b>, and the <i>pValue</i> is a <a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a> that contains a <b>lVal</b> identifying the <a href="https://msdn.microsoft.com/en-us/library/Aa965707(v=VS.85).aspx">STRUCTURED_QUERY_PARSE_ERROR</a> enumeration.
+        Each parsing error is represented by an <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-irichchunk">IRichChunk</a> object in which the position information reflects token counts. The <b>IRichChunk</b> object <i>ppsz</i> string is <b>NULL</b>, and the <i>pValue</i> is a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> that contains a <b>lVal</b> identifying the <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-tagstructured_query_parse_error">STRUCTURED_QUERY_PARSE_ERROR</a> enumeration.
       
 
 The valid values for <i>riid</i> are __uuidof(IEnumUnknown) and __uuidof(IEnumVARIANT).

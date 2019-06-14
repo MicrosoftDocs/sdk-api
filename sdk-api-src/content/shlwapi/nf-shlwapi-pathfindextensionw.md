@@ -85,7 +85,7 @@ Returns the address of the "." that precedes the extension within <i>pszPath</i>
 
 
 
-Note that a valid file name extension cannot contain a space. For more information on valid file name extensions, see <a href="https://msdn.microsoft.com/c0c5c3ef-35ff-4ab6-bb8a-1f0640109d50">File Type Handlers</a>.
+Note that a valid file name extension cannot contain a space. For more information on valid file name extensions, see <a href="https://docs.microsoft.com/windows/desktop/shell/fa-file-extensions">File Type Handlers</a>.
 
 
 

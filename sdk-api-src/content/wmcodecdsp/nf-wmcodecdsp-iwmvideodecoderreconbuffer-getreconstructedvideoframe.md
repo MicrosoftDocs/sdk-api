@@ -100,15 +100,15 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/e2a4600e-3d55-42f1-804c-8dc5bdf5daec">IWMVideoDecoderReconBuffer Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmvideodecoderreconbuffer">IWMVideoDecoderReconBuffer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/7faadeed-4c89-4b3e-8e08-51de66224aaa">IWMVideoDecoderReconBuffer::GetReconstructedVideoFrameSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmvideodecoderreconbuffer-getreconstructedvideoframesize">IWMVideoDecoderReconBuffer::GetReconstructedVideoFrameSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/baffb56f-b2c5-464f-a2ae-1cb9677b8b83">IWMVideoDecoderReconBuffer::SetReconstructedVideoFrame</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmvideodecoderreconbuffer-setreconstructedvideoframe">IWMVideoDecoderReconBuffer::SetReconstructedVideoFrame</a>
  
 
  

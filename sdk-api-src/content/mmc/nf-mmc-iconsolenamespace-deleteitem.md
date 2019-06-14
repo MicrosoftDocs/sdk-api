@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IConsoleNameSpace2::DeleteItem</b> method <a href="https://msdn.microsoft.com/en-us/library/Mt300831(v=VS.85).aspx">IConsoleNameSpace</a>enables the snap-in to delete a single item from the scope pane.
+The <b>IConsoleNameSpace2::DeleteItem</b> method <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsolenamespace">IConsoleNameSpace</a>enables the snap-in to delete a single item from the scope pane.
 
 
 ## -parameters
@@ -82,11 +82,11 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt300831(v=VS.85).aspx">IConsoleNameSpace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsolenamespace">IConsoleNameSpace</a>
 
 
 
-<a href="https://msdn.microsoft.com/894f99a6-2189-458d-a50f-497930d4a9dd">IConsoleNameSpace2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsolenamespace2">IConsoleNameSpace2</a>
  
 
  

@@ -85,7 +85,7 @@ Type: <b>BOOL</b>
 The return value is always nonzero except when you pass the same address to 
 						<i>lpszSrc</i> and 
 						<i>lpszDst</i> in the wide-character version of the function. In this case the function returns zero and 
-						<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns <b>ERROR_INVALID_ADDRESS</b>.
+						<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_INVALID_ADDRESS</b>.
 
 
 
@@ -95,7 +95,7 @@ The return value is always nonzero except when you pass the same address to
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319646(v=VS.85).aspx">CharToOemBuff</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-chartooembuffa">CharToOemBuff</a>
 
 
 
@@ -103,11 +103,11 @@ The return value is always nonzero except when you pass the same address to
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647493(v=VS.85).aspx">OemToChar</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-oemtochara">OemToChar</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647494(v=VS.85).aspx">OemToCharBuff</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-oemtocharbuffa">OemToCharBuff</a>
 
 
 
@@ -115,7 +115,7 @@ The return value is always nonzero except when you pass the same address to
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/strings">Strings</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>MPRAPI_OBJECT_HEADER</b> structure is used as a header field for structures and defines the structure version for the <a href="https://msdn.microsoft.com/48526073-caeb-463e-b85b-1ef46ca1e2b4">RAS_CONNECTION_EX</a>, <a href="https://msdn.microsoft.com/10c1e3bd-adb8-4aff-835c-e7d881c9f5cf">MPR_SERVER_EX</a>, <a href="https://msdn.microsoft.com/6c993c9c-4522-4758-926a-fa7ef2a89418">MPR_SERVER_SET_CONFIG_EX</a>, <a href="https://msdn.microsoft.com/bfa35f1c-e9f5-43f1-ad2d-d54f4675cff8">RAS_UPDATE_CONNECTION</a>, <a href="https://msdn.microsoft.com/17e78379-a9f8-4aab-aff3-aa9b21eb629c">AUTH_VALIDATION_EX</a> structures,  and the structure version used by the <a href="https://msdn.microsoft.com/12507432-bf18-444d-9bcc-4ebc1418c083">MprAdminConnectionEnumEx</a> method.
+The <b>MPRAPI_OBJECT_HEADER</b> structure is used as a header field for structures and defines the structure version for the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_ex">RAS_CONNECTION_EX</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_server_ex0">MPR_SERVER_EX</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_server_set_config_ex0">MPR_SERVER_SET_CONFIG_EX</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_update_connection_">RAS_UPDATE_CONNECTION</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_auth_validation_ex">AUTH_VALIDATION_EX</a> structures,  and the structure version used by the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminconnectionenumex">MprAdminConnectionEnumEx</a> method.
 
 
 ## -struct-fields
@@ -73,7 +73,7 @@ A value that represents the version of the structure specified by <b>type</b>. P
 </dl>
 </td>
 <td width="60%">
-Represents version 1 of the <a href="https://msdn.microsoft.com/48526073-caeb-463e-b85b-1ef46ca1e2b4">RAS_CONNECTION_EX</a> structure if <b>type</b> is <b>MPRAPI_OBJECT_TYPE_RAS_CONNECTION_OBJECT</b>.
+Represents version 1 of the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_ex">RAS_CONNECTION_EX</a> structure if <b>type</b> is <b>MPRAPI_OBJECT_TYPE_RAS_CONNECTION_OBJECT</b>.
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ Represents version 1 of the <a href="https://msdn.microsoft.com/48526073-caeb-46
 </dl>
 </td>
 <td width="60%">
-Represents version 1 of the <a href="https://msdn.microsoft.com/10c1e3bd-adb8-4aff-835c-e7d881c9f5cf">MPR_SERVER_EX</a> structure if <b>type</b> is <b>MPRAPI_OBJECT_TYPE_MPR_SERVER_OBJECT</b>.
+Represents version 1 of the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_server_ex0">MPR_SERVER_EX</a> structure if <b>type</b> is <b>MPRAPI_OBJECT_TYPE_MPR_SERVER_OBJECT</b>.
 
 </td>
 </tr>
@@ -95,7 +95,7 @@ Represents version 1 of the <a href="https://msdn.microsoft.com/10c1e3bd-adb8-4a
 </dl>
 </td>
 <td width="60%">
-Represents version 1 of the <a href="https://msdn.microsoft.com/6c993c9c-4522-4758-926a-fa7ef2a89418">MPR_SERVER_SET_CONFIG_EX</a> structure if <b>type</b> is <b>MPRAPI_OBJECT_TYPE_MPR_SERVER_SET_CONFIG_OBJECT</b>.
+Represents version 1 of the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_server_set_config_ex0">MPR_SERVER_SET_CONFIG_EX</a> structure if <b>type</b> is <b>MPRAPI_OBJECT_TYPE_MPR_SERVER_SET_CONFIG_OBJECT</b>.
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ Represents version 1 of the <a href="https://msdn.microsoft.com/6c993c9c-4522-47
 
 #### type
 
-A value from the <a href="https://msdn.microsoft.com/93d5bf41-e0ec-4dcf-b784-bbd9746f8134">MPRAPI_OBJECT_TYPE</a> enumeration that specifies the structure type.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-_mprapi_object_type">MPRAPI_OBJECT_TYPE</a> enumeration that specifies the structure type.
 
 
 
@@ -132,11 +132,11 @@ The size, in bytes,  of the structure based on <b>type</b> and <b>revision</b>.
 
 
 
-<a href="https://msdn.microsoft.com/352505a9-616a-4d47-9857-f88d345333fd">Router Management Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/767733eb-1cbd-4b8d-98b7-41d1d0f2c630">Router Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>
  
 
  

@@ -86,15 +86,15 @@ Attenuation is 0 inside the inner cone.   Attenuation is linearly interpolated b
 
 
 
-<a href="https://msdn.microsoft.com/830DB9FC-B2D0-46E5-B0C1-0BBC94D37050">HrtfDirectivity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/hrtfapoapi/ns-hrtfapoapi-hrtfdirectivity">HrtfDirectivity</a>
 
 
 
-<a href="https://msdn.microsoft.com/0705BB4C-01FE-434A-889B-F0D24D06DEF3">HrtfDirectivityCardioid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/hrtfapoapi/ns-hrtfapoapi-hrtfdirectivitycardioid">HrtfDirectivityCardioid</a>
 
 
 
-<a href="https://msdn.microsoft.com/3656aaf9-7a3a-2a5b-50f5-d279ce8a9e6c">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/structures">Structures</a>
  
 
  

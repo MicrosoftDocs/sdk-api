@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/1B34AEFD-BBA7-4759-B80A-89D9BFC1933D">ID2D1Device2</a> object. 
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1device2">ID2D1Device2</a> object. 
 
 
 ## -parameters
@@ -59,23 +59,23 @@ Creates an <a href="https://msdn.microsoft.com/1B34AEFD-BBA7-4759-B80A-89D9BFC19
 
 ### -param dxgiDevice [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb174527(v=VS.85).aspx">IDXGIDevice</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgidevice">IDXGIDevice</a>*</b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/Bb174527(v=VS.85).aspx">IDXGIDevice</a> object used when creating  the <a href="https://msdn.microsoft.com/1B34AEFD-BBA7-4759-B80A-89D9BFC1933D">ID2D1Device2</a>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgidevice">IDXGIDevice</a> object used when creating  the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1device2">ID2D1Device2</a>.
 
 
 ### -param d2dDevice2 [out]
 
-Type: <b><a href="https://msdn.microsoft.com/1B34AEFD-BBA7-4759-B80A-89D9BFC1933D">ID2D1Device2</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1device2">ID2D1Device2</a>**</b>
 
-The requested <a href="https://msdn.microsoft.com/1B34AEFD-BBA7-4759-B80A-89D9BFC1933D">ID2D1Device2</a> object.
+The requested <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1device2">ID2D1Device2</a> object.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -87,7 +87,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/95923BAA-0A26-45BF-85F7-8994B70B7D92">ID2D1Factory3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1factory3">ID2D1Factory3</a>
  
 
  

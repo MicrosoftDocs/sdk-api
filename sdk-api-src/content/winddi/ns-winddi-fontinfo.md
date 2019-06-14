@@ -96,7 +96,7 @@ Specifies the size of the largest glyph in 32 bits/pixel. A nonzero value implie
 
 
 
-GDI writes and returns this structure through <a href="https://msdn.microsoft.com/4b952bdc-a496-4ded-9390-9f4b470f3a6c">FONTOBJ_vGetInfo</a>.
+GDI writes and returns this structure through <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-fontobj_vgetinfo">FONTOBJ_vGetInfo</a>.
 
 
 
@@ -106,7 +106,7 @@ GDI writes and returns this structure through <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/4b952bdc-a496-4ded-9390-9f4b470f3a6c">FONTOBJ_vGetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-fontobj_vgetinfo">FONTOBJ_vGetInfo</a>
  
 
  

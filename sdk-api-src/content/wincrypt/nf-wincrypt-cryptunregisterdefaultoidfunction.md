@@ -91,7 +91,7 @@ If the function fails, the return value is zero (<b>FALSE</b>).
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a>
  
 
  

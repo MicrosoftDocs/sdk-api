@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Removes multiple containers from a log that is associated with a dedicated or multiplexed log handle.
 
-A client must have  administrative privileges on the log handle to  remove a container. The <a href="https://msdn.microsoft.com/e6571cb0-8453-4db0-9a33-17339c4ea223">RemoveLogContainer</a> function is a special case of this <b>RemoveLogContainerSet</b> function, because it removes only one container.  To remove multiple containers, use the <b>RemoveLogContainerSet</b>.
+A client must have  administrative privileges on the log handle to  remove a container. The <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-removelogcontainer">RemoveLogContainer</a> function is a special case of this <b>RemoveLogContainerSet</b> function, because it removes only one container.  To remove multiple containers, use the <b>RemoveLogContainerSet</b>.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ A client must have  administrative privileges on the log handle to  remove a con
 
 ### -param hLog [in]
 
-A handle to the log that is obtained from <a href="https://msdn.microsoft.com/ac104bf9-7ca7-417a-bd14-09b0e82c6a77">CreateLogFile</a>.  
+A handle to the log that is obtained from <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a>.  
 
 The log handle must have administrative permission to add a log container, and can refer to either a dedicated or multiplexed log.
 
@@ -77,7 +77,7 @@ This value must be nonzero.
 
 An array of pointers to container path names that contain  <i>cContainers</i> pointers.  
 
-Each path name is a wide character string that identifies  a container  created by either <a href="https://msdn.microsoft.com/5e886b96-9431-43f6-b888-e0f47c432371">AddLogContainer</a> or <a href="https://msdn.microsoft.com/b3dec3bd-3e39-42fa-8f73-71784b3d5be2">AddLogContainerSet</a>.
+Each path name is a wide character string that identifies  a container  created by either <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-addlogcontainer">AddLogContainer</a> or <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-addlogcontainerset">AddLogContainerSet</a>.
 
 
 ### -param fForce [in]
@@ -102,7 +102,7 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following list identifies the  possible error codes:
 
@@ -126,23 +126,23 @@ A log client can request a forced deletion on a container by setting the deletio
 
 
 
-<a href="https://msdn.microsoft.com/5e886b96-9431-43f6-b888-e0f47c432371">AddLogContainer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-addlogcontainer">AddLogContainer</a>
 
 
 
-<a href="https://msdn.microsoft.com/b3dec3bd-3e39-42fa-8f73-71784b3d5be2">AddLogContainerSet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-addlogcontainerset">AddLogContainerSet</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3059828-d291-493d-a4fe-13d06e49ed12">Common Log File System Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
 
 
 
-<a href="https://msdn.microsoft.com/e6571cb0-8453-4db0-9a33-17339c4ea223">RemoveLogContainer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-removelogcontainer">RemoveLogContainer</a>
  
 
  

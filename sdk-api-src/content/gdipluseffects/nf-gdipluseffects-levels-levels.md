@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534471(v=VS.85).aspx">Levels</a> object. 
+Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-levels">Levels</a> object. 
 
 
 ## -parameters
@@ -65,15 +65,15 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534471(v=VS.85).as
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534471(v=VS.85).aspx">Levels</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-levels">Levels</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535361(v=VS.85).aspx">Levels::SetParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gdipluseffects-levels-setparameters">Levels::SetParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534070(v=VS.85).aspx">LevelsParams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ns-gdipluseffects-levelsparams">LevelsParams</a>
  
 
  

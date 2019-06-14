@@ -77,7 +77,7 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an error value.
 
 
 
-<a href="https://msdn.microsoft.com/6bf8b1b7-698f-443f-9ddf-0d50551cebab">ITASRTerminalEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itasrterminalevent">ITASRTerminalEvent</a>
  
 
  

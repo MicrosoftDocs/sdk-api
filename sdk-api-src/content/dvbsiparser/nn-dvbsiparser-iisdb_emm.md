@@ -58,8 +58,8 @@ Gets data from an Integrated Services Digital Broadcasting (ISDB)
 To obtain a pointer to this interface, first make sure that the media graph is in a running state and that the stream you are tuned to contains an EMM. Then:
 
 <ol>
-<li>Query the <a href="https://msdn.microsoft.com/22044a4c-480f-4c98-a78e-52c66a5eac99">BDA MPEG-2 Transport Information Filter</a> to obtain a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd694840(v=VS.85).aspx">IPSITables</a> interface. (You can also go through the graph and query each filter until you find one that supports <b>IPSITables</b>.)</li>
-<li>Call the <a href="https://msdn.microsoft.com/en-us/library/Dd694841(v=VS.85).aspx">IPSITables::GetTable</a> method. The interface pointer for the desired table is returned in the <i>ppIUnknown</i> output parameter.
+<li>Query the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-mpeg-2-transport-information-filter">BDA MPEG-2 Transport Information Filter</a> to obtain a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipsitables">IPSITables</a> interface. (You can also go through the graph and query each filter until you find one that supports <b>IPSITables</b>.)</li>
+<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipsitables-gettable">IPSITables::GetTable</a> method. The interface pointer for the desired table is returned in the <i>ppIUnknown</i> output parameter.
 </li>
 </ol>
 
@@ -67,7 +67,7 @@ To obtain a pointer to this interface, first make sure that the media graph is i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IISDB_EMM</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IISDB_EMM</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IISDB_EMM</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IISDB_EMM</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -82,7 +82,7 @@ The <b>IISDB_EMM</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/71d92f83-f802-4b5c-a3de-4a2ad675318a">GetDataBytes</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_emm-getdatabytes">GetDataBytes</a>
 </td>
 <td align="left" width="63%">
 Gets the data contained in the EMM table.
@@ -91,7 +91,7 @@ Gets the data contained in the EMM table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/311b4efb-dacb-41e1-a798-913e3f99b168">GetIndividualEmmMessage</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_emm-getindividualemmmessage">GetIndividualEmmMessage</a>
 </td>
 <td align="left" width="63%">
 Gets an individual EMM message (sent to a specific decoder).
@@ -100,7 +100,7 @@ Gets an individual EMM message (sent to a specific decoder).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d3ad405c-cdf0-4a37-9495-3f126e6c0688">GetSharedEmmMessage</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_emm-getsharedemmmessage">GetSharedEmmMessage</a>
 </td>
 <td align="left" width="63%">
 Gets an shared EMM message (sent to multiple decoders).
@@ -109,7 +109,7 @@ Gets an shared EMM message (sent to multiple decoders).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/aa0aba5d-181b-4466-8ad1-5db541d36261">GetTableIdExtension</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_emm-gettableidextension">GetTableIdExtension</a>
 </td>
 <td align="left" width="63%">
 Gets the value of the table ID extension field from the EMM table.
@@ -118,7 +118,7 @@ Gets the value of the table ID extension field from the EMM table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f0d97b49-8ab3-4632-9055-e2208b3121e4">GetVersionHash</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_emm-getversionhash">GetVersionHash</a>
 </td>
 <td align="left" width="63%">
 Returns a hash value for this EMM table instance.
@@ -127,7 +127,7 @@ Returns a hash value for this EMM table instance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3eebc1cc-044b-4a0a-8259-cb225f829df8">GetVersionNumber</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_emm-getversionnumber">GetVersionNumber</a>
 </td>
 <td align="left" width="63%">
 Gets the version number for the EMM table.
@@ -136,7 +136,7 @@ Gets the version number for the EMM table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/127e7987-6782-4577-9104-86124d948d18">Initialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_emm-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes an object that implements this interface.

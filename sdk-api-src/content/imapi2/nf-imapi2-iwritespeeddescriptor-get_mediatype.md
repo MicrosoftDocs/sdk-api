@@ -59,7 +59,7 @@ Retrieves type of media in the current drive.
 
 ### -param value [out]
 
-Type of media in the current drive. For possible values, see the <a href="https://msdn.microsoft.com/027c5e09-6cf7-4d7c-8381-07dc92cc43c5">IMAPI_MEDIA_PHYSICAL_TYPE</a> enumeration type.
+Type of media in the current drive. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_media_physical_type">IMAPI_MEDIA_PHYSICAL_TYPE</a> enumeration type.
 
 
 ## -returns
@@ -101,7 +101,7 @@ IMAPI_MEDIA_PHYSICAL_TYPE
 
 
 
-<a href="https://msdn.microsoft.com/9efaa744-ae0c-4101-8d78-091cba990533">IWriteSpeedDescriptor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iwritespeeddescriptor">IWriteSpeedDescriptor</a>
  
 
  

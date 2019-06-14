@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <code>BIT_MASKS_MATCH</code> macro compares the color masks for two <a href="https://msdn.microsoft.com/en-us/library/Dd407323(v=VS.85).aspx">VIDEOINFO</a> structures.
+The <code>BIT_MASKS_MATCH</code> macro compares the color masks for two <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfo">VIDEOINFO</a> structures.
 
 
 
@@ -75,7 +75,7 @@ Pointer to the second VIDEOINFO structure.
 
 
 
-<a href="https://msdn.microsoft.com/02401edc-362b-4f6c-b10b-c46b30b3ebe7">Video and Image Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-and-image-functions">Video and Image Functions</a>
  
 
  

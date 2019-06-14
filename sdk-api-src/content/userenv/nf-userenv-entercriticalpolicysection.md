@@ -70,7 +70,7 @@ A value that specifies whether to stop the application of computer policy or use
 If the function succeeds, the return value is a handle to a policy section.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call the 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 
 
@@ -84,7 +84,7 @@ The maximum amount of time an application can hold a critical section is 10 minu
 To acquire both the computer and user critical section objects, acquire the user critical section object before acquiring the computer critical section object. This will help prevent a deadlock situation.
 
 To close the handle, call the 
-<a href="https://msdn.microsoft.com/9e6a938f-c9cb-4baf-b7d0-4316e45f874c">LeaveCriticalPolicySection</a> function. The policy section handle cannot be used in any other Windows functions.
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-leavecriticalpolicysection">LeaveCriticalPolicySection</a> function. The policy section handle cannot be used in any other Windows functions.
 
 
 
@@ -94,17 +94,17 @@ To close the handle, call the
 
 
 
-<a href="https://msdn.microsoft.com/7c45666e-d7c7-4989-ad19-b1b230757a88">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
     Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/1285ab5a-ea68-4c16-bc34-8ab2f3cfad35">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e6a938f-c9cb-4baf-b7d0-4316e45f874c">LeaveCriticalPolicySection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-leavecriticalpolicysection">LeaveCriticalPolicySection</a>
  
 
  

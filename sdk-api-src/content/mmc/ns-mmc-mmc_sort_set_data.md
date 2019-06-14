@@ -89,7 +89,7 @@ One column in the column set is sorted. Be aware that only single-column sorting
 ### -field pSortData
 
 A pointer to an array of 
-<a href="https://msdn.microsoft.com/26500d98-4355-4e0c-a636-2c6898955ef0">MMC_SORT_DATA</a> structures that hold the actual sort data. Should be set to <b>NULL</b> if nNumItems is set to 0.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_sort_data">MMC_SORT_DATA</a> structures that hold the actual sort data. Should be set to <b>NULL</b> if nNumItems is set to 0.
 
 
 ## -remarks
@@ -98,10 +98,10 @@ A pointer to an array of
 
 MMC 1.2 only supports single-column sorting, so the nNumItems member of the 
 MMC_SORT_SET_DATA structure cannot be greater than 1. Otherwise, 
-<a href="https://msdn.microsoft.com/ece69cce-6861-4795-b1cb-da22d2bdc67a">IColumnData::SetColumnSortData</a> will return S_FALSE.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icolumndata-setcolumnsortdata">IColumnData::SetColumnSortData</a> will return S_FALSE.
 
 Sorting is disabled on hidden columns. Columns can be hidden or displayed using the 
-<a href="https://msdn.microsoft.com/2f6727bd-b7ba-4e91-9dce-53605b0b6fe1">IColumnData::SetColumnConfigData</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icolumndata-setcolumnconfigdata">IColumnData::SetColumnConfigData</a> method.
 
 The user can hide columns using the Choose Columns dialog.
 
@@ -113,15 +113,15 @@ The user can hide columns using the Choose Columns dialog.
 
 
 
-<a href="https://msdn.microsoft.com/e4fc2b5f-2736-4a5b-adaa-f1c87d55f0b8">CCF_COLUMN_SET_ID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/ccf-column-set-id">CCF_COLUMN_SET_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/26500d98-4355-4e0c-a636-2c6898955ef0">MMC_SORT_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_sort_data">MMC_SORT_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/409b8212-a2fc-4d64-a407-ade2fde9ac4d">Using Column Persistence</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-column-persistence">Using Column Persistence</a>
  
 
  

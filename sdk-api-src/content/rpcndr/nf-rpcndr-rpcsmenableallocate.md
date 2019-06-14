@@ -95,7 +95,7 @@ The system is out of memory.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -106,14 +106,14 @@ The system is out of memory.
 
 In cases where the stub memory management is not enabled by the server stub itself, applications call 
 <b>RpcSmEnableAllocate</b> to establish the stub memory–management environment. This environment must be established prior to making a call to 
-<a href="https://msdn.microsoft.com/ca3373fa-8ea4-452e-b2a2-f30eb48fef9d">RpcSmAllocate</a>. In OSF-compatibility (<b>/osf</b>) mode, for server manager code called from the stub, the memory-management environment may be established by the server stub itself by using pointer manipulation or the 
-<a href="https://msdn.microsoft.com/3a232a82-f114-4d8c-8b71-cf8860c77db3">enable_allocate</a> attribute. In default (Microsoft-extended) mode, the environment is established only upon request by using the 
-<a href="https://msdn.microsoft.com/3a232a82-f114-4d8c-8b71-cf8860c77db3">enable_allocate</a> attribute. Otherwise, call 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a>. In OSF-compatibility (<b>/osf</b>) mode, for server manager code called from the stub, the memory-management environment may be established by the server stub itself by using pointer manipulation or the 
+<a href="https://docs.microsoft.com/windows/desktop/Midl/enable-allocate">enable_allocate</a> attribute. In default (Microsoft-extended) mode, the environment is established only upon request by using the 
+<a href="https://docs.microsoft.com/windows/desktop/Midl/enable-allocate">enable_allocate</a> attribute. Otherwise, call 
 <b>RpcSmEnableAllocate</b> before calling 
 <b>RpcSmAllocate</b>. For more information, see 
-<a href="https://msdn.microsoft.com/b56ccac1-84cb-4687-bdd2-21ee716b472a">Memory Management</a>, 
-<a href="https://msdn.microsoft.com/5bf2c93c-8273-484b-a79f-821b2068692d">RpcSmGetThreadHandle</a>, and 
-<a href="https://msdn.microsoft.com/90bfd7f3-c95b-450b-8578-6e46d3ac7517">RpcSmSetThreadHandle</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/memory-management">Memory Management</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmgetthreadhandle">RpcSmGetThreadHandle</a>, and 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmsetthreadhandle">RpcSmSetThreadHandle</a>.
 
 
 
@@ -123,11 +123,11 @@ In cases where the stub memory management is not enabled by the server stub itse
 
 
 
-<a href="https://msdn.microsoft.com/ca3373fa-8ea4-452e-b2a2-f30eb48fef9d">RpcSmAllocate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a>
 
 
 
-<a href="https://msdn.microsoft.com/229cab16-eabf-49d3-a61e-3c06e001d0ac">RpcSmDisableAllocate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmdisableallocate">RpcSmDisableAllocate</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>Merge</b> method executes a merge of the current database and current module. The merge attaches the components in the module to the feature identified by <i>Feature</i>. The root of the module's directory tree is redirected to the location given by <i>RedirectDir</i>. For more information, see the 
-<b>Merge</b> method of the <a href="https://msdn.microsoft.com/3f76ee8a-d195-4a69-99a3-31ef2c1c72d5">Merge</a> object.  
+<b>Merge</b> method of the <a href="https://docs.microsoft.com/windows/desktop/Msi/merge-object">Merge</a> object.  
 			
 
 <b>IMsmMerge2::Merge</b>    Mergemod.dll version 2.0 or later.
@@ -150,20 +150,20 @@ The function succeeded.
 
 
 
-This function executes a merge of the current database and current module. The root of the module's directory tree is redirected to the location given by <i>RedirectDir</i>. If any merge conflicts occur, including exclusions, they are placed in the error enumerator for later retrieval, but does not cause the merge to fail. Errors can be retrieved using the <a href="https://msdn.microsoft.com/81bf84f6-d469-47b1-9097-8a3ee9c8550d">get_Errors</a> function. Errors and informational messages are posted to the current log file.
+This function executes a merge of the current database and current module. The root of the module's directory tree is redirected to the location given by <i>RedirectDir</i>. If any merge conflicts occur, including exclusions, they are placed in the error enumerator for later retrieval, but does not cause the merge to fail. Errors can be retrieved using the <a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-get_errors">get_Errors</a> function. Errors and informational messages are posted to the current log file.
 
 Note that the 
 <b>Merge</b> function gets all the feature references in the module and substitutes the feature reference for all occurrences of the null GUID in the module database. For more information, see 
-<a href="https://msdn.microsoft.com/f2891457-efef-4319-bd09-5de7fcf32d21">Referencing Features in Merge Modules</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/referencing-features-in-merge-modules">Referencing Features in Merge Modules</a>.
 
 Once the merge is complete, components in the module are attached to the feature identified by <i>Feature</i>. This feature must already exist and is not created.
 
 The module can be attached to additional features using the 
-<a href="https://msdn.microsoft.com/f491beb8-90f7-4e41-891d-ef674306339d">Connect</a> function. Note that calling the 
+<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-connect">Connect</a> function. Note that calling the 
 <b>Connect</b> function only creates feature-component associations. It does not modify the rows that have already been merged in to the database.
 
 Changes made to the database are not saved to disk unless 
-the <a href="https://msdn.microsoft.com/efbb6238-e9e3-4603-896a-75fcff2bb362">CloseDatabase</a> function is called with <i>bCommit</i> set to <b>TRUE</b>.
+the <a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-closedatabase">CloseDatabase</a> function is called with <i>bCommit</i> set to <b>TRUE</b>.
 
 
 
@@ -173,7 +173,7 @@ the <a href="https://msdn.microsoft.com/efbb6238-e9e3-4603-896a-75fcff2bb362">Cl
 
 
 
-<a href="https://msdn.microsoft.com/877d3691-948f-4aea-89d8-0ff008126ccc">Merge Module Automation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
  
 
  

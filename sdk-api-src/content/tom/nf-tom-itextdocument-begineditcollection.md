@@ -65,7 +65,7 @@ Turns on edit collection (also called <i>undo grouping</i>).
 
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -119,15 +119,15 @@ A single
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787750(v=VS.85).aspx">EndEditCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-endeditcollection">EndEditCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773925(v=VS.85).aspx">Freeze</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-freeze">Freeze</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774052(v=VS.85).aspx">ITextDocument</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>
 
 
 
@@ -135,7 +135,7 @@ A single
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
  
 
  

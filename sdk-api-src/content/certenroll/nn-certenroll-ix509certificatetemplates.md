@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IX509CertificateTemplates</b> interface defines the following methods and properties that manage a collection of <a href="https://msdn.microsoft.com/56122d92-7e38-4eaa-b2f5-713adc81e68e">IX509CertificateTemplate</a> objects.
+The <b>IX509CertificateTemplates</b> interface defines the following methods and properties that manage a collection of <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplate">IX509CertificateTemplate</a> objects.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509CertificateTemplates</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IX509CertificateTemplates</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509CertificateTemplates</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509CertificateTemplates</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,10 +70,10 @@ The <b>IX509CertificateTemplates</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c52186bc-af51-4369-8ff5-6122d2e80450">Add</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificatetemplates-add">Add</a>
 </td>
 <td align="left" width="63%">
-Adds an <a href="https://msdn.microsoft.com/56122d92-7e38-4eaa-b2f5-713adc81e68e">IX509CertificateTemplate</a> object to the collection.
+Adds an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplate">IX509CertificateTemplate</a> object to the collection.
 
 [WebEnabled]
 
@@ -81,19 +81,19 @@ Adds an <a href="https://msdn.microsoft.com/56122d92-7e38-4eaa-b2f5-713adc81e68e
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e0f39478-f68b-4227-8e5f-812796feffc7">Clear</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificatetemplates-clear">Clear</a>
 </td>
 <td align="left" width="63%">
-Removes all <a href="https://msdn.microsoft.com/56122d92-7e38-4eaa-b2f5-713adc81e68e">IX509CertificateTemplate</a> objects from the collection.
+Removes all <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplate">IX509CertificateTemplate</a> objects from the collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e30aaeab-4130-40ab-9b50-32a119fdb794">Remove</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificatetemplates-remove">Remove</a>
 </td>
 <td align="left" width="63%">
-Removes an <a href="https://msdn.microsoft.com/56122d92-7e38-4eaa-b2f5-713adc81e68e">IX509CertificateTemplate</a> object from the collection by index number.
+Removes an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplate">IX509CertificateTemplate</a> object from the collection by index number.
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ Removes an <a href="https://msdn.microsoft.com/56122d92-7e38-4eaa-b2f5-713adc81e
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/9152cb6a-7f8f-48c8-866d-b8cb3f9663eb">_NewEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificatetemplates-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -124,7 +124,7 @@ Retrieves the enumerator for the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/92183bf8-fa1a-4377-a659-cc7ab3e2ca41">Count</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificatetemplates-get_count">Count</a>
 
 
 </td>
@@ -133,7 +133,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves the number of <a href="https://msdn.microsoft.com/56122d92-7e38-4eaa-b2f5-713adc81e68e">IX509CertificateTemplate</a> objects in the collection.
+Retrieves the number of <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplate">IX509CertificateTemplate</a> objects in the collection.
 
 [WebEnabled]
 
@@ -142,7 +142,7 @@ Retrieves the number of <a href="https://msdn.microsoft.com/56122d92-7e38-4eaa-b
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/1d7ddfd8-89f4-485a-ba90-83f2331168d2">ItemByIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificatetemplates-get_itembyindex">ItemByIndex</a>
 
 
 </td>
@@ -151,7 +151,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://msdn.microsoft.com/56122d92-7e38-4eaa-b2f5-713adc81e68e">IX509CertificateTemplate</a> object from the collection by index number.
+Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplate">IX509CertificateTemplate</a> object from the collection by index number.
 
 [WebEnabled]
 
@@ -160,7 +160,7 @@ Retrieves an <a href="https://msdn.microsoft.com/56122d92-7e38-4eaa-b2f5-713adc8
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/ceaf2274-01e6-422b-8762-a0527e9b9d57">ItemByName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificatetemplates-get_itembyname">ItemByName</a>
 
 
 </td>
@@ -169,7 +169,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://msdn.microsoft.com/56122d92-7e38-4eaa-b2f5-713adc81e68e">IX509CertificateTemplate</a> object from the collection by name.
+Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplate">IX509CertificateTemplate</a> object from the collection by name.
 
 [WebEnabled]
 
@@ -178,7 +178,7 @@ Retrieves an <a href="https://msdn.microsoft.com/56122d92-7e38-4eaa-b2f5-713adc8
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/f601a98b-035d-428b-8579-8e26365e4b78">ItemByOid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificatetemplates-get_itembyoid">ItemByOid</a>
 
 
 </td>
@@ -187,7 +187,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://msdn.microsoft.com/56122d92-7e38-4eaa-b2f5-713adc81e68e">IX509CertificateTemplate</a> object from the collection by <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a>.
+Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplate">IX509CertificateTemplate</a> object from the collection by <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a>.
 
 </td>
 </tr>

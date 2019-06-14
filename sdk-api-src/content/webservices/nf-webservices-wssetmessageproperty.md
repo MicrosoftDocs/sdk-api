@@ -60,7 +60,7 @@ This operation sets a Messageproperty.
 
 ### -param message [in]
 
-A pointer to the <b>Message</b> object with the property to set.  The pointer must reference a valid <a href="https://msdn.microsoft.com/22cc39a9-a3a7-4b4d-bdee-0ccac5dc03ee">WS_MESSAGE</a> object and the referenced value may not be <b>NULL</b>.
+A pointer to the <b>Message</b> object with the property to set.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-message">WS_MESSAGE</a> object and the referenced value may not be <b>NULL</b>.
                 
                 
 
@@ -86,7 +86,7 @@ The size in bytes  of the property value.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 

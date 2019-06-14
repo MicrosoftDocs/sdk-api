@@ -122,7 +122,7 @@ MaxFrameAverageLightLevel = 500;
 ```
 
 
-This structure is used in conjunction with the <a href="https://msdn.microsoft.com/03EBBB29-EAC3-4FE7-9CA7-D9F62CFDA8FB">SetHDRMetaData</a> method.
+This structure is used in conjunction with the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/nf-dxgi1_5-idxgiswapchain4-sethdrmetadata">SetHDRMetaData</a> method.
 
 
 
@@ -132,11 +132,11 @@ This structure is used in conjunction with the <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/DD7401E1-9991-48D8-AD23-4D34238EA4AF">DXGI 1.5 Improvements</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-1-5-improvements">DXGI 1.5 Improvements</a>
 
 
 
-<a href="https://msdn.microsoft.com/22e98880-bcd1-448a-9223-604fff9173fe">DXGI Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-structures">DXGI Structures</a>
  
 
  

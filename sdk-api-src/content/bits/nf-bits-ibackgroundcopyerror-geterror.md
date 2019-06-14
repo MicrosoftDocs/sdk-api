@@ -60,7 +60,7 @@ Retrieves the error code and identify the context in which the error occurred.
 ### -param pContext [out]
 
 Context in which the error occurred. For a list of context values, see the 
-<a href="https://msdn.microsoft.com/c9d98518-6f2e-4fd1-b0ee-6735c6d6ecd9">BG_ERROR_CONTEXT</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-__midl_ibackgroundcopyerror_0001">BG_ERROR_CONTEXT</a> enumeration.
 
 
 ### -param pCode [out]
@@ -82,15 +82,15 @@ This method returns <b>S_OK</b> on success or one of the standard COM HRESULT va
 
 
 
-<a href="https://msdn.microsoft.com/87f5ae62-c171-4637-bebb-3a5c5aa546b3">IBackgroundCopyError::GetErrorContextDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-geterrorcontextdescription">IBackgroundCopyError::GetErrorContextDescription</a>
 
 
 
-<a href="https://msdn.microsoft.com/57323f38-c2e6-4e40-b357-7df758899f97">IBackgroundCopyError::GetErrorDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-geterrordescription">IBackgroundCopyError::GetErrorDescription</a>
 
 
 
-<a href="https://msdn.microsoft.com/7b6d4bd4-2102-4e6b-b250-1d73fae94cf9">IBackgroundCopyError::GetFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-getfile">IBackgroundCopyError::GetFile</a>
  
 
  

@@ -56,7 +56,7 @@ The teletext descriptor is the part of the DVB program map table (PMT) that iden
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbTeletextDescriptor</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDvbTeletextDescriptor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbTeletextDescriptor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvbTeletextDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDvbTeletextDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a802c685-9d7a-446a-a29c-4fc3e9ad3dc4">GetCountOfRecords</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbteletextdescriptor-getcountofrecords">GetCountOfRecords</a>
 </td>
 <td align="left" width="63%">
 Gets the number of service records in a DVB teletext descriptor.
@@ -80,7 +80,7 @@ Gets the number of service records in a DVB teletext descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e785d05a-d4f1-40d8-b93e-ea944373f4c3">GetLength</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbteletextdescriptor-getlength">GetLength</a>
 </td>
 <td align="left" width="63%">
 Gets the body length of a DVB teletext descriptor.
@@ -89,7 +89,7 @@ Gets the body length of a DVB teletext descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cce0fd15-5098-4871-baab-e40b6cae39b1">GetRecordLangId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbteletextdescriptor-getrecordlangid">GetRecordLangId</a>
 </td>
 <td align="left" width="63%">
 Gets the three-character ISO 639 language code from a DVB teletext descriptor.
@@ -98,7 +98,7 @@ Gets the three-character ISO 639 language code from a DVB teletext descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bb3c39b6-dc85-42ca-9d4b-ad27eae077dd">GetRecordMagazineNumber</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbteletextdescriptor-getrecordmagazinenumber">GetRecordMagazineNumber</a>
 </td>
 <td align="left" width="63%">
 Gets the magazine number from a DVB teletext descriptor.
@@ -107,7 +107,7 @@ Gets the magazine number from a DVB teletext descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/323af443-8ef3-443e-9d6c-7af17419655a">GetRecordPageNumber</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbteletextdescriptor-getrecordpagenumber">GetRecordPageNumber</a>
 </td>
 <td align="left" width="63%">
 Gets the page number from a DVB teletext descriptor.
@@ -116,7 +116,7 @@ Gets the page number from a DVB teletext descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4272d95a-406f-4afc-92b9-abfd618f41ab">GetRecordTeletextType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbteletextdescriptor-getrecordteletexttype">GetRecordTeletextType</a>
 </td>
 <td align="left" width="63%">
 Gets the teletext type code from a DVB teletext descriptor.
@@ -125,7 +125,7 @@ Gets the teletext type code from a DVB teletext descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1f359c37-8d8f-48de-a4a2-89617c5761ed">GetTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbteletextdescriptor-gettag">GetTag</a>
 </td>
 <td align="left" width="63%">
 Gets the tag that idenfities a DVB teletext descriptor.

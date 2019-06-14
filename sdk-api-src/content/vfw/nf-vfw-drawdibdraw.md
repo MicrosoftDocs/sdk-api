@@ -97,7 +97,7 @@ Height, in <b>MM_TEXT</b> client coordinates, of the destination rectangle. If <
 
 ### -param lpbi
 
-Pointer to the <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the image format. The color table for the DIB within <b>BITMAPINFOHEADER</b> follows the format and the <b>biHeight</b> member must be a positive value; <b>DrawDibDraw</b> will not draw inverted DIBs.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader">BITMAPINFOHEADER</a> structure containing the image format. The color table for the DIB within <b>BITMAPINFOHEADER</b> follows the format and the <b>biHeight</b> member must be a positive value; <b>DrawDibDraw</b> will not draw inverted DIBs.
 
 
 ### -param lpBits
@@ -156,7 +156,7 @@ Applicable flags for drawing. The following values are defined.
 </tr>
 <tr>
 <td><b>DDF_HALFTONE</b></td>
-<td>Always dithers the DIB to a standard palette regardless of the palette of the DIB. If your application uses the <a href="https://msdn.microsoft.com/89178e33-e440-49fe-9900-0baea229d289">DrawDibBegin</a> function, set this value in <b>DrawDibBegin</b> rather than in <b>DrawDibDraw</b>.</td>
+<td>Always dithers the DIB to a standard palette regardless of the palette of the DIB. If your application uses the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-drawdibbegin">DrawDibBegin</a> function, set this value in <b>DrawDibBegin</b> rather than in <b>DrawDibDraw</b>.</td>
 </tr>
 <tr>
 <td><b>DDF_HURRYUP</b></td>
@@ -174,7 +174,7 @@ Applicable flags for drawing. The following values are defined.
 </tr>
 <tr>
 <td><b>DDF_SAME_DRAW</b></td>
-<td>Use the current drawing parameters for <b>DrawDibDraw</b>. Use this value only if <i>lpbi</i>, <i>dxDst</i>, <i>dyDst</i>, <i>dxSrc</i>, and <i>dySrc</i> have not changed since using <b>DrawDibDraw</b> or <a href="https://msdn.microsoft.com/89178e33-e440-49fe-9900-0baea229d289">DrawDibBegin</a>. <b>DrawDibDraw</b> typically checks the parameters, and if they have changed, <b>DrawDibBegin</b> prepares the DrawDib DC for drawing. This flag supersedes the <b>DDF_SAME_DIB</b> and <b>DDF_SAME_SIZE</b> flags.</td>
+<td>Use the current drawing parameters for <b>DrawDibDraw</b>. Use this value only if <i>lpbi</i>, <i>dxDst</i>, <i>dyDst</i>, <i>dxSrc</i>, and <i>dySrc</i> have not changed since using <b>DrawDibDraw</b> or <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-drawdibbegin">DrawDibBegin</a>. <b>DrawDibDraw</b> typically checks the parameters, and if they have changed, <b>DrawDibBegin</b> prepares the DrawDib DC for drawing. This flag supersedes the <b>DDF_SAME_DIB</b> and <b>DDF_SAME_SIZE</b> flags.</td>
 </tr>
 <tr>
 <td><b>DDF_UPDATE</b></td>
@@ -212,7 +212,7 @@ Although they are set at different times, <b>DDF_UPDATE</b> and <b>DDF_DONTDRAW<
 
 
 
-<a href="https://msdn.microsoft.com/9ba47b8d-5328-477e-9272-21e897e54348">DrawDib Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/drawdib-functions">DrawDib Functions</a>
  
 
  

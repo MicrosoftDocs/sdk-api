@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Retrieves a 
-<a href="https://msdn.microsoft.com/5ce7a7b4-e1c0-4e76-98c2-41462ec4ea17">GPMStarterGPO</a> object that has a specified Group Policy object ID. The GPO ID is represented by a GUID.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpo">GPMStarterGPO</a> object that has a specified Group Policy object ID. The GPO ID is represented by a GUID.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ Required. GUID that represents the ID of the GPO to access. Use a null-terminate
 ### -param ppTemplate [out]
 
 Address of a pointer to the 
-<a href="https://msdn.microsoft.com/5ce7a7b4-e1c0-4e76-98c2-41462ec4ea17">IGPMStarterGPO</a> interface for the specified Starter GPO ID.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpo">IGPMStarterGPO</a> interface for the specified Starter GPO ID.
 
 
 ## -returns
@@ -77,10 +77,10 @@ Address of a pointer to the
 Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 
 <h3>JScript</h3>
-Returns a reference to a <a href="https://msdn.microsoft.com/5ce7a7b4-e1c0-4e76-98c2-41462ec4ea17">GPMStarterGPO</a> object.
+Returns a reference to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpo">GPMStarterGPO</a> object.
 
 <h3>VB</h3>
-Returns a reference to a <a href="https://msdn.microsoft.com/5ce7a7b4-e1c0-4e76-98c2-41462ec4ea17">GPMStarterGPO</a> object.
+Returns a reference to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpo">GPMStarterGPO</a> object.
 
 
 
@@ -90,7 +90,7 @@ Returns a reference to a <a href="https://msdn.microsoft.com/5ce7a7b4-e1c0-4e76-
 
 
 
-<a href="https://msdn.microsoft.com/5abfea14-0cb9-46ea-915c-93a8d8b2477b">IGPMDomain2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain2">IGPMDomain2</a>
  
 
  

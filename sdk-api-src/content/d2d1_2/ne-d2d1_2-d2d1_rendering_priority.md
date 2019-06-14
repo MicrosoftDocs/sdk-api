@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The rendering priority affects the extent to which <a href="https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b">Direct2D</a> will throttle its rendering workload.
+The rendering priority affects the extent to which <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-portal">Direct2D</a> will throttle its rendering workload.
 
 
 ## -enum-fields

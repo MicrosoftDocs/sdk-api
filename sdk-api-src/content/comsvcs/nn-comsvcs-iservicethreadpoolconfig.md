@@ -49,13 +49,13 @@ ms.custom: 19H1
 ## -description
 
 
-Configures the thread pool of the activity object that is returned by calling <a href="https://msdn.microsoft.com/3009eb4f-e3f3-497b-ba05-5b750d8a40d0">CoCreateActivity</a>. 
+Configures the thread pool of the activity object that is returned by calling <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-cocreateactivity">CoCreateActivity</a>. 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceThreadPoolConfig</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IServiceThreadPoolConfig</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceThreadPoolConfig</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServiceThreadPoolConfig</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IServiceThreadPoolConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/eba8b4fc-aee7-4ba5-8e0e-b74ce9d25a86">SelectThreadPool</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iservicethreadpoolconfig-selectthreadpool">SelectThreadPool</a>
 </td>
 <td align="left" width="63%">
 Selects the thread pool in which the work submitted through the activity is to run.
@@ -80,7 +80,7 @@ Selects the thread pool in which the work submitted through the activity is to r
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9d2c4e6f-aa12-4874-a8e0-ca21a981b43f">SetBindingInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iservicethreadpoolconfig-setbindinginfo">SetBindingInfo</a>
 </td>
 <td align="left" width="63%">
 Binds all work submitted by the activity to a single single-threaded apartment.
@@ -95,7 +95,7 @@ Binds all work submitted by the activity to a single single-threaded apartment.
 
 
 
-<a href="https://msdn.microsoft.com/f546ded4-255e-4565-b588-f36175902778">CServiceConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a>
  
 
  

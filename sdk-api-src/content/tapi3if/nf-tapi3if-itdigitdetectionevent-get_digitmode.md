@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>get_DigitMode</b> method gets the indicator of the 
-<a href="https://msdn.microsoft.com/d603ea28-2b93-4548-bb16-78e93087f828">line digit mode</a>, such as LINEDIGITMODE_DTMF.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linedigitmode--constants">line digit mode</a>, such as LINEDIGITMODE_DTMF.
 
 
 ## -parameters
@@ -119,7 +119,7 @@ The <i>pDigitMode</i> parameter is not a valid pointer.
 
 
 
-<a href="https://msdn.microsoft.com/f387f5f5-06e4-45f2-8d93-31ff0da6151a">ITDigitDetectionEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itdigitdetectionevent">ITDigitDetectionEvent</a>
  
 
  

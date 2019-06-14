@@ -59,7 +59,7 @@ Contains detailed repair information that can be used to help resolve the  root 
 
 ### -field repair
 
-Type: <b><a href="https://msdn.microsoft.com/07639ac5-e586-4ab1-96e8-502c378de940">RepairInfo</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-tagrepairinfo">RepairInfo</a></b>
 
 The detailed repair information. 
 
@@ -68,7 +68,7 @@ The detailed repair information.
 
 Type: <b>USHORT</b>
 
-The rank of the repair, relative to other repairs in the <a href="https://msdn.microsoft.com/01d02658-ae12-4465-94fc-7a966dcdd8fb">RootCauseInfo</a> structure associated with the incident. A repair with rank 1 is expected to be more relevant to the problem and thus will be the first repair to be attempted. The success of any individual repair is not guaranteed, regardless of its rank.
+The rank of the repair, relative to other repairs in the <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-tagrootcauseinfo">RootCauseInfo</a> structure associated with the incident. A repair with rank 1 is expected to be more relevant to the problem and thus will be the first repair to be attempted. The success of any individual repair is not guaranteed, regardless of its rank.
 
 
 ## -see-also
@@ -76,15 +76,15 @@ The rank of the repair, relative to other repairs in the <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/b4e3e758-88cd-4ce2-b1a4-5b47889aae9b">FreeRepairInfoExs</a>
+<a href="https://docs.microsoft.com/windows/desktop/NDF/freerepairinfoexs">FreeRepairInfoExs</a>
 
 
 
-<a href="https://msdn.microsoft.com/07639ac5-e586-4ab1-96e8-502c378de940">RepairInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-tagrepairinfo">RepairInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/01d02658-ae12-4465-94fc-7a966dcdd8fb">RootCauseInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-tagrootcauseinfo">RootCauseInfo</a>
  
 
  

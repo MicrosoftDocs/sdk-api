@@ -60,23 +60,23 @@ Sets a single device render-state parameter.
 
 ### -param State [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172599(v=VS.85).aspx">D3DRENDERSTATETYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3drenderstatetype">D3DRENDERSTATETYPE</a></b>
 
-Device state variable that is being modified. This parameter can be any member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172599(v=VS.85).aspx">D3DRENDERSTATETYPE</a> enumerated type. 
+Device state variable that is being modified. This parameter can be any member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3drenderstatetype">D3DRENDERSTATETYPE</a> enumerated type. 
 
 
 ### -param Value [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-New value for the device render state to be set. The meaning of this parameter is dependent on the value specified for <i>State</i>. For example, if <i>State</i> were D3DRS_SHADEMODE, the second parameter would be one member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172605(v=VS.85).aspx">D3DSHADEMODE</a> enumerated type. 
+New value for the device render state to be set. The meaning of this parameter is dependent on the value specified for <i>State</i>. For example, if <i>State</i> were D3DRS_SHADEMODE, the second parameter would be one member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dshademode">D3DSHADEMODE</a> enumerated type. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL is returned if one of the arguments is invalid.
 
@@ -88,15 +88,15 @@ If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL is return
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174403(v=VS.85).aspx">IDirect3DDevice9::GetRenderState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getrenderstate">IDirect3DDevice9::GetRenderState</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174463(v=VS.85).aspx">IDirect3DDevice9::SetTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settransform">IDirect3DDevice9::SetTransform</a>
  
 
  

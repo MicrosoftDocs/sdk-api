@@ -60,14 +60,14 @@ Retrieves a render-state value for a device.
 
 ### -param State [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172599(v=VS.85).aspx">D3DRENDERSTATETYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3drenderstatetype">D3DRENDERSTATETYPE</a></b>
 
-Device state variable that is being queried. This parameter can be any member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172599(v=VS.85).aspx">D3DRENDERSTATETYPE</a> enumerated type. 
+Device state variable that is being queried. This parameter can be any member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3drenderstatetype">D3DRENDERSTATETYPE</a> enumerated type. 
 
 
 ### -param pValue [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
 
 Pointer to a variable that receives the value of the queried render state variable when the method returns. 
 
@@ -76,7 +76,7 @@ Pointer to a variable that receives the value of the queried render state variab
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL if one of the arguments is invalid.
 
@@ -87,7 +87,7 @@ If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL if one of
 
 
 
-This method will not return device state for a device that is created using D3DCREATE_PUREDEVICE. If you want to use this method, you must create your device with any of the other values in <a href="https://msdn.microsoft.com/en-us/library/Bb172527(v=VS.85).aspx">D3DCREATE</a>."
+This method will not return device state for a device that is created using D3DCREATE_PUREDEVICE. If you want to use this method, you must create your device with any of the other values in <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dcreate">D3DCREATE</a>."
     
 
 
@@ -99,11 +99,11 @@ This method will not return device state for a device that is created using D3DC
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174454(v=VS.85).aspx">IDirect3DDevice9::SetRenderState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setrenderstate">IDirect3DDevice9::SetRenderState</a>
  
 
  

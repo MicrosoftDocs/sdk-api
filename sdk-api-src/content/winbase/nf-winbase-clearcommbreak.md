@@ -64,7 +64,7 @@ Restores character transmission for a specified communications device and places
 ### -param hFile [in]
 
 A handle to the communications device. The 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function returns this handle.
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function returns this handle.
 
 
 ## -returns
@@ -74,7 +74,7 @@ A handle to the communications device. The
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -84,8 +84,8 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 A communications device is placed in a break state by the 
-<a href="https://msdn.microsoft.com/997fa1e0-c585-4517-abe7-77b9b08440ee">SetCommBreak</a> or 
-<a href="https://msdn.microsoft.com/27c4ebdf-1c06-4a60-8e49-dcccba10789c">EscapeCommFunction</a> function. Character transmission is then suspended until the break state is cleared by calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcommbreak">SetCommBreak</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-escapecommfunction">EscapeCommFunction</a> function. Character transmission is then suspended until the break state is cleared by calling 
 <b>ClearCommBreak</b>.
 
 
@@ -96,27 +96,27 @@ A communications device is placed in a break state by the
 
 
 
-<a href="https://msdn.microsoft.com/9cc52104-aa5e-4baa-86f1-8c6dcdd661ef">ClearCommError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-clearcommerror">ClearCommError</a>
 
 
 
-<a href="https://msdn.microsoft.com/ba7d1a9e-6906-4923-a8eb-db58050ba699">Communications Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-functions">Communications Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/7faf7d55-e30f-4be2-917b-e057265b81b2">Communications Resources</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-resources">Communications Resources</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/27c4ebdf-1c06-4a60-8e49-dcccba10789c">EscapeCommFunction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-escapecommfunction">EscapeCommFunction</a>
 
 
 
-<a href="https://msdn.microsoft.com/997fa1e0-c585-4517-abe7-77b9b08440ee">SetCommBreak</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcommbreak">SetCommBreak</a>
  
 
  

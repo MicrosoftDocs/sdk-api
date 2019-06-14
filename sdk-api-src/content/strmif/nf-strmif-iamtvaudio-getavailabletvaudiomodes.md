@@ -63,7 +63,7 @@ The <code>GetAvailableTVAudioModes</code> method retrieves a bitmask of the poss
 
 ### -param plModes [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/70e26550-0a8f-484e-b919-cfefdcf95f6b">TVAudioMode</a> enumeration type, identifying the audio mode.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagtvaudiomode">TVAudioMode</a> enumeration type, identifying the audio mode.
 
 
 ## -returns
@@ -143,11 +143,11 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/de340594-4410-4896-b206-0f47d4035bc1">IAMTVAudio Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtvaudio">IAMTVAudio Interface</a>
  
 
  

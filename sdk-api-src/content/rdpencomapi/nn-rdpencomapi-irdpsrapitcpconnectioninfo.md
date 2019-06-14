@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Supports the methods to retrieve the TCP connection information on the viewer and on the sharer side. This interface is exposed through the  <a href="https://msdn.microsoft.com/40112da5-c7b6-42f9-9acf-887161aceabf">IRDPSRAPIAttendee::get_ConnectivityInfo</a> method. 
+Supports the methods to retrieve the TCP connection information on the viewer and on the sharer side. This interface is exposed through the  <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiattendee-get_connectivityinfo">IRDPSRAPIAttendee::get_ConnectivityInfo</a> method. 
 
 
 ## -see-also
@@ -57,7 +57,7 @@ Supports the methods to retrieve the TCP connection information on the viewer an
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

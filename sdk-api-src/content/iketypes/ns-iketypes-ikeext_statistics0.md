@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_STATISTICS0</b> structure stores various IKE/AuthIP statistics.
-<div class="alert"><b>Note</b>  <b>IKEEXT_STATISTICS0</b> is the specific implementation of IKEEXT_STATISTICS used in Windows Vista. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7 and later, <a href="https://msdn.microsoft.com/73c36ea1-d009-4724-8b1c-54503ad57e4d">IKEEXT_STATISTICS1</a> is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>IKEEXT_STATISTICS0</b> is the specific implementation of IKEEXT_STATISTICS used in Windows Vista. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7 and later, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_statistics1_">IKEEXT_STATISTICS1</a> is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -61,21 +61,21 @@ The <b>IKEEXT_STATISTICS0</b> structure stores various IKE/AuthIP statistics.
 
 Statistics specific to IKE.
 
-See <a href="https://msdn.microsoft.com/87dca500-bf57-463a-a6de-db270430ae29">IKEEXT_KEYMODULE_STATISTICS0</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics0_">IKEEXT_KEYMODULE_STATISTICS0</a> for more information.
 
 
 ### -field authipStatistics
 
 Statistics specific to AuthIP.
 
-See <a href="https://msdn.microsoft.com/87dca500-bf57-463a-a6de-db270430ae29">IKEEXT_KEYMODULE_STATISTICS0</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics0_">IKEEXT_KEYMODULE_STATISTICS0</a> for more information.
 
 
 ### -field commonStatistics
 
 Statistics common to IKE and AuthIP.
 
-See <a href="https://msdn.microsoft.com/a53ef735-3223-4ff5-9b2a-d40ab0f53570">IKEEXT_COMMON_STATISTICS0</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_common_statistics0_">IKEEXT_COMMON_STATISTICS0</a> for more information.
 
 
 ## -see-also
@@ -83,11 +83,11 @@ See <a href="https://msdn.microsoft.com/a53ef735-3223-4ff5-9b2a-d40ab0f53570">IK
 
 
 
-<a href="https://msdn.microsoft.com/87dca500-bf57-463a-a6de-db270430ae29">IKEEXT_KEYMODULE_STATISTICS0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics0_">IKEEXT_KEYMODULE_STATISTICS0</a>
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

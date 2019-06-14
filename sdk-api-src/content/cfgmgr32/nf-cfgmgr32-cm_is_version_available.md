@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated and should not be used.]
 
-The <b>CM_Is_Version_Available</b> function indicates whether a specified version of the Plug and Play (PnP) Configuration Manager <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">DLL</a> (<i>Cfgmgr32.dll</i>) is supported by a local machine.
+The <b>CM_Is_Version_Available</b> function indicates whether a specified version of the Plug and Play (PnP) Configuration Manager <a href="https://docs.microsoft.com/windows-hardware/drivers/">DLL</a> (<i>Cfgmgr32.dll</i>) is supported by a local machine.
 
 
 ## -parameters
@@ -79,7 +79,7 @@ The function returns <b>TRUE</b> if the local machine supports the specified ver
 
 
 
-Use this function to determine whether a specified version of the configuration manager is supported by a local machine. If the specified version is supported, all versions earlier and including this version are supported by the machine. You can also use <a href="https://msdn.microsoft.com/a6728f01-7899-46e3-8cda-19a5c46f4992">CM_Is_Version_Available_Ex</a> to determine if a local or a remote machine supports a specific version of the configuration manager. 
+Use this function to determine whether a specified version of the configuration manager is supported by a local machine. If the specified version is supported, all versions earlier and including this version are supported by the machine. You can also use <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_version_available_ex">CM_Is_Version_Available_Ex</a> to determine if a local or a remote machine supports a specific version of the configuration manager. 
 
 
 
@@ -89,15 +89,15 @@ Use this function to determine whether a specified version of the configuration 
 
 
 
-<a href="https://msdn.microsoft.com/998c6c57-b242-4aa0-8c9f-cfff61d2a642">CM_Get_Version</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_version">CM_Get_Version</a>
 
 
 
-<a href="https://msdn.microsoft.com/f189a417-48a4-436e-bb1c-6b0c9f066c04">CM_Get_Version_Ex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_version_ex">CM_Get_Version_Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/a6728f01-7899-46e3-8cda-19a5c46f4992">CM_Is_Version_Available_Ex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_version_available_ex">CM_Is_Version_Available_Ex</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <i>DDEnumCallback</i> function is an application-defined callback function for the <a href="https://msdn.microsoft.com/1f994adb-79ff-4cc1-8769-0faeed893503">DirectDrawEnumerate</a> function.
+The <i>DDEnumCallback</i> function is an application-defined callback function for the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-directdrawenumeratew">DirectDrawEnumerate</a> function.
 
 
 

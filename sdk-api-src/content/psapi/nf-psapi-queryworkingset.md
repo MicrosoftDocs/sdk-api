@@ -59,7 +59,7 @@ Retrieves information about the pages currently added to the working set of the 
 
 To retrieve working set information for a subset of virtual addresses, or to retrieve information about pages 
     that are not part of the working set (such as AWE or large pages), use the 
-    <a href="https://msdn.microsoft.com/59ae76c9-e954-4648-9c9f-787136375b02">QueryWorkingSetEx</a> function.
+    <a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-queryworkingsetex">QueryWorkingSetEx</a> function.
 
 
 ## -parameters
@@ -71,18 +71,18 @@ To retrieve working set information for a subset of virtual addresses, or to ret
 
 A handle to the process. The handle must have the <b>PROCESS_QUERY_INFORMATION</b> and 
       <b>PROCESS_VM_READ</b> access rights. For more information, see 
-      <a href="https://msdn.microsoft.com/508a17c4-88cd-431a-a102-00180a7f7ab5">Process Security and Access Rights</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
 
 ### -param pv [out]
 
 A pointer to the buffer that receives the information. For more information, see 
-       <a href="https://msdn.microsoft.com/59ca42c0-ca88-4153-b061-980d961a8ca2">PSAPI_WORKING_SET_INFORMATION</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_psapi_working_set_information">PSAPI_WORKING_SET_INFORMATION</a>.
 
 If the buffer pointed to by the <i>pv</i> parameter is not large enough to contain all 
        working set entries for the target process, the function fails with <b>ERROR_BAD_LENGTH</b>. 
        In this case, the <b>NumberOfEntries</b> member of the 
-       <a href="https://msdn.microsoft.com/59ca42c0-ca88-4153-b061-980d961a8ca2">PSAPI_WORKING_SET_INFORMATION</a> 
+       <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_psapi_working_set_information">PSAPI_WORKING_SET_INFORMATION</a> 
        structure is set to the required number of entries, but the function does not return information about the 
        working set entries.
 
@@ -99,7 +99,7 @@ The size of the <i>pv</i> buffer, in bytes.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -134,23 +134,23 @@ Programs that must run on earlier versions of Windows as well as Windows 7 and 
 
 
 
-<a href="https://msdn.microsoft.com/0c0445cb-27d2-4857-a4a5-7a4c180b068b">EnumProcesses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-enumprocesses">EnumProcesses</a>
 
 
 
-<a href="https://msdn.microsoft.com/e158792b-fec2-498d-aae3-d5679fa55783">PSAPI Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/59ca42c0-ca88-4153-b061-980d961a8ca2">PSAPI_WORKING_SET_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_psapi_working_set_information">PSAPI_WORKING_SET_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/59ae76c9-e954-4648-9c9f-787136375b02">QueryWorkingSetEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-queryworkingsetex">QueryWorkingSetEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/33c42f79-cc77-4d44-84c3-8bf0a4a60019">Working Set Information</a>
+<a href="https://docs.microsoft.com/windows/desktop/psapi/working-set-information">Working Set Information</a>
  
 
  

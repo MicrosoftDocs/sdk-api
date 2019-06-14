@@ -62,14 +62,14 @@ The <b>AM_COPY_MACROVISION</b> structure specifies the analog copy protection le
 
 ### -field MACROVISIONLevel
 
-Analog copy protection level for the NTSC encoder. Member of the <a href="https://msdn.microsoft.com/en-us/library/Dd373458(v=VS.85).aspx">AM_COPY_MACROVISION_LEVEL</a> enumerated data type.
+Analog copy protection level for the NTSC encoder. Member of the <a href="https://docs.microsoft.com/windows/desktop/api/dvdmedia/ne-dvdmedia-am_copy_macrovision_level">AM_COPY_MACROVISION_LEVEL</a> enumerated data type.
 
 
 ## -remarks
 
 
 
-The AM_PROPERTY_COPY_MACROVISION property of the <a href="https://msdn.microsoft.com/da3abefd-8f25-449d-8787-84d2cef928da">DVD Copy Protection</a> property set uses this structure.
+The AM_PROPERTY_COPY_MACROVISION property of the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-copy-protection-property-set">DVD Copy Protection</a> property set uses this structure.
 
 
 
@@ -79,7 +79,7 @@ The AM_PROPERTY_COPY_MACROVISION property of the <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/da3abefd-8f25-449d-8787-84d2cef928da">DVD Copy Protection Property Set</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-copy-protection-property-set">DVD Copy Protection Property Set</a>
  
 
  

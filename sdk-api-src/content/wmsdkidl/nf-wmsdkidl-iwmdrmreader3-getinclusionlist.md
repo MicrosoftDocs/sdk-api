@@ -116,7 +116,7 @@ The license issuer can specify other protection systems to which the encrypted c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798345(v=VS.85).aspx">IWMDRMReader3 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader3">IWMDRMReader3 Interface</a>
  
 
  

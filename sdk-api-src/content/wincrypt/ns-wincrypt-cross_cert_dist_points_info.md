@@ -70,5 +70,5 @@ Count of the number of elements in the <b>rgDistPoint</b> member array.
 ### -field rgDistPoint
 
 Array of 
-<a href="https://msdn.microsoft.com/f9a20827-3333-4ce2-b074-2e8ce903fad2">CERT_ALT_NAME_INFO</a> structures for distribution points for updating cross certificates.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_alt_name_info">CERT_ALT_NAME_INFO</a> structures for distribution points for updating cross certificates.
 

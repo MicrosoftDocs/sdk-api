@@ -76,7 +76,7 @@ The y-coordinate, in logical units, of the point where filling is to start.
 
 ### -param color [in]
 
-The color of the boundary or of the area to be filled. The interpretation of <i>crColor</i> depends on the value of the <i>fuFillType</i> parameter. To create a <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> color value, use the <a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">RGB</a> macro.
+The color of the boundary or of the area to be filled. The interpretation of <i>crColor</i> depends on the value of the <i>fuFillType</i> parameter. To create a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> color value, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
 
 
 ### -param type [in]
@@ -94,7 +94,7 @@ The type of fill operation to be performed. This parameter must be one of the fo
 </dl>
 </td>
 <td width="60%">
-The fill area is bounded by the color specified by the <i>crColor</i> parameter. This style is identical to the filling performed by the <a href="https://msdn.microsoft.com/e53bebb5-4e46-4ea4-8d41-c12f4c6645ef">FloodFill</a> function.
+The fill area is bounded by the color specified by the <i>crColor</i> parameter. This style is identical to the filling performed by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-floodfill">FloodFill</a> function.
 
 </td>
 </tr>
@@ -139,12 +139,12 @@ If the <i>fuFillType</i> parameter is FLOODFILLBORDER, the system assumes that t
 
 If <i>fuFillType</i> is FLOODFILLSURFACE, the system assumes that the area to be filled is a single color. The function begins to fill the area at the point specified by <i>nXStart</i> and <i>nYStart</i> and continues in all directions, filling all adjacent regions containing the color specified by <i>crColor</i>.
 
-Only memory device contexts and devices that support raster-display operations support the <b>ExtFloodFill</b> function. To determine whether a device supports this technology, use the <a href="https://msdn.microsoft.com/d524c4c7-22af-495d-aecc-b9921e53ca7b">GetDeviceCaps</a> function.
+Only memory device contexts and devices that support raster-display operations support the <b>ExtFloodFill</b> function. To determine whether a device supports this technology, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function.
 
 
 #### Examples
 
-For an example, see "Adding Lines and Graphs to a Menu" in <a href="https://msdn.microsoft.com/en-us/library/ms647558(v=VS.85).aspx">Using Menus</a>.
+For an example, see "Adding Lines and Graphs to a Menu" in <a href="https://docs.microsoft.com/windows/desktop/menurc/using-menus">Using Menus</a>.
 
 <div class="code"></div>
 
@@ -155,27 +155,27 @@ For an example, see "Adding Lines and Graphs to a Menu" in <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/ef3abc8a-5d95-41d0-8eb6-47719d472414">Bitmap Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/ff0a5ae3-ae2e-4417-b5e5-0f9871c03964">Bitmaps Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
 
 
 
-<a href="https://msdn.microsoft.com/e53bebb5-4e46-4ea4-8d41-c12f4c6645ef">FloodFill</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-floodfill">FloodFill</a>
 
 
 
-<a href="https://msdn.microsoft.com/d524c4c7-22af-495d-aecc-b9921e53ca7b">GetDeviceCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
 
 
 
-<a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">RGB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
  
 
  

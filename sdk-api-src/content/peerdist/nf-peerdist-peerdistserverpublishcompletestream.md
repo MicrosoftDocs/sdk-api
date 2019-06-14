@@ -59,17 +59,17 @@ The <b>PeerDistServerPublishCompleteStream</b> function completes the process of
 
 ### -param hPeerDist [in]
 
-A PEERDIST_INSTANCE_HANDLE returned by <a href="https://msdn.microsoft.com/62d4f139-ab18-4d65-bda5-1cf09d7ddab9">PeerDistStartup</a>.
+A PEERDIST_INSTANCE_HANDLE returned by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
 
 
 ### -param hStream [in]
 
-A PEERDIST_STREAM_HANDLE returned  by <a href="https://msdn.microsoft.com/2133e578-f89d-4cfd-a522-12c2531babaa">PeerDistServerPublishStream</a>.
+A PEERDIST_STREAM_HANDLE returned  by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverpublishstream">PeerDistServerPublishStream</a>.
 
 
 ### -param lpOverlapped [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure. The <b>Offset</b> and <b>OffsetHigh</b> are reserved and must be zero.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure. The <b>Offset</b> and <b>OffsetHigh</b> are reserved and must be zero.
 
 
 ## -returns
@@ -148,9 +148,9 @@ The service  is unavailable.
 
 
 
-Once this API completes successfully, <a href="https://msdn.microsoft.com/17b07141-2786-4192-ba7b-f3210c10aad4">PeerDistServerOpenContentInformation</a> and <a href="https://msdn.microsoft.com/376ece5f-93ea-4650-a6d8-351ae60fc15b">PeerDistServerRetrieveContentInformation</a> can be used to retrieve content information.
+Once this API completes successfully, <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserveropencontentinformation">PeerDistServerOpenContentInformation</a> and <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverretrievecontentinformation">PeerDistServerRetrieveContentInformation</a> can be used to retrieve content information.
 
-<b>PeerDistServerPublishCompleteStream</b> does not close <i>hStream</i>. In order to close <i>hStream</i>, call <a href="https://msdn.microsoft.com/599b4694-3d03-4d25-9d02-313599aaaf0b">PeerDistServerCloseStreamHandle</a>.
+<b>PeerDistServerPublishCompleteStream</b> does not close <i>hStream</i>. In order to close <i>hStream</i>, call <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverclosestreamhandle">PeerDistServerCloseStreamHandle</a>.
 
 
 
@@ -160,27 +160,27 @@ Once this API completes successfully, <a href="https://msdn.microsoft.com/17b071
 
 
 
-<a href="https://msdn.microsoft.com/599b4694-3d03-4d25-9d02-313599aaaf0b">PeerDistServerCloseStreamHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverclosestreamhandle">PeerDistServerCloseStreamHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/17b07141-2786-4192-ba7b-f3210c10aad4">PeerDistServerOpenContentInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserveropencontentinformation">PeerDistServerOpenContentInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/296e21b9-9488-408a-b470-bbde1a18e6f0">PeerDistServerPublishAddToStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverpublishaddtostream">PeerDistServerPublishAddToStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/2133e578-f89d-4cfd-a522-12c2531babaa">PeerDistServerPublishStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverpublishstream">PeerDistServerPublishStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/376ece5f-93ea-4650-a6d8-351ae60fc15b">PeerDistServerRetrieveContentInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverretrievecontentinformation">PeerDistServerRetrieveContentInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/880927c4-f7d7-4c75-b371-2fe401a50b20">PeerDistServerUnpublish</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverunpublish">PeerDistServerUnpublish</a>
  
 
  

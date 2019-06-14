@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Compares two specified <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a> objects and returns an integer that indicates their relative position in a sort order.
+Compares two specified <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> objects and returns an integer that indicates their relative position in a sort order.
 
 
 ## -parameters
@@ -63,14 +63,14 @@ Compares two specified <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-85
 
 ### -param string1 [in]
 
-Type: <b><a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a></b>
 
 The first string to compare.
 
 
 ### -param string2 [in]
 
-Type: <b><a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a></b>
 
 The second string to compare.
 
@@ -127,7 +127,7 @@ The  comparison was successful.
 
 
 
-Use the <b>WindowsCompareStringOrdinal</b> function to compare two <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a> objects. After the comparison completes, the  <i>result</i> out parameter contains one of three values.
+Use the <b>WindowsCompareStringOrdinal</b> function to compare two <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> objects. After the comparison completes, the  <i>result</i> out parameter contains one of three values.
 
 
 <table>

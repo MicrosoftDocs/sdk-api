@@ -51,9 +51,9 @@ ms.custom: 19H1
 
 The RAS connection manager calls 
 <b>RasEapFreeMemory</b> to free memory buffers returned by 
-<a href="https://msdn.microsoft.com/cdd9b081-e654-445e-9383-3665258f5cfa">RasEapInvokeConfigUI</a>, 
-<a href="https://msdn.microsoft.com/66bc34d2-54b9-46eb-b952-6ad66868c8ce">RasEapGetIdentity</a>, and 
-<a href="https://msdn.microsoft.com/71dd40c9-acbd-4fb6-800d-d3f83a61b7b8">RasEapInvokeInteractiveUI</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapinvokeconfigui">RasEapInvokeConfigUI</a>, 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapgetidentity">RasEapGetIdentity</a>, and 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapinvokeinteractiveui">RasEapInvokeInteractiveUI</a>.
 
 
 ## -parameters
@@ -95,23 +95,23 @@ It is also possible that a single DLL may implement multiple user interfaces. Fo
 
 
 
-<a href="https://msdn.microsoft.com/090a3620-3732-4466-95ac-ce9cbdd36484">EAP Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/eap-functions">EAP Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d3cb25ce-6fb9-4fca-8662-3efef14238a5">Extensible Authentication Protocol Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/extensible-authentication-protocol-reference">Extensible Authentication Protocol Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/66bc34d2-54b9-46eb-b952-6ad66868c8ce">RasEapGetIdentity</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapgetidentity">RasEapGetIdentity</a>
 
 
 
-<a href="https://msdn.microsoft.com/cdd9b081-e654-445e-9383-3665258f5cfa">RasEapInvokeConfigUI</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapinvokeconfigui">RasEapInvokeConfigUI</a>
 
 
 
-<a href="https://msdn.microsoft.com/71dd40c9-acbd-4fb6-800d-d3f83a61b7b8">RasEapInvokeInteractiveUI</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapinvokeinteractiveui">RasEapInvokeInteractiveUI</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>ReadOnClearChannel</b> method reads data from the object at the current position without using secure authenticated channels. This is still secure for use with DRM-protected content. This operation is valid only if the storage object represents a file. If <b>IMDSPObject2</b> is supported, this method must be implemented. Windows Media Device Manager does not fall back to <a href="https://msdn.microsoft.com/1acf4112-0cb8-47e4-b8dc-3e820c0ef72f">IMDSPObject::Read</a> if this method fails.
+The <b>ReadOnClearChannel</b> method reads data from the object at the current position without using secure authenticated channels. This is still secure for use with DRM-protected content. This operation is valid only if the storage object represents a file. If <b>IMDSPObject2</b> is supported, this method must be implemented. Windows Media Device Manager does not fall back to <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-read">IMDSPObject::Read</a> if this method fails.
 
 
 
@@ -82,7 +82,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 
 
@@ -91,7 +91,7 @@ For an extensive list of possible error codes, see <a href="https://msdn.microso
 
 
 
-This method can be used for DRM-protected content. This method is more efficient than <a href="https://msdn.microsoft.com/1acf4112-0cb8-47e4-b8dc-3e820c0ef72f">IMDSPObject::Read</a> because this method does not involve encrypting and decrypting parameters.
+This method can be used for DRM-protected content. This method is more efficient than <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-read">IMDSPObject::Read</a> because this method does not involve encrypting and decrypting parameters.
 
 
 
@@ -101,19 +101,19 @@ This method can be used for DRM-protected content. This method is more efficient
 
 
 
-<a href="https://msdn.microsoft.com/a312dfef-ac48-4c58-a59a-b277f5386419">Enabling Synchronization with Windows Media Player</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/enabling-synchronization-with-windows-media-player">Enabling Synchronization with Windows Media Player</a>
 
 
 
-<a href="https://msdn.microsoft.com/f79c07a6-b7e6-4c00-83be-ac2bfc9a751b">IMDSPObject2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspobject2">IMDSPObject2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/9c80f382-2536-4f08-9111-94ad757747f7">IMDSPObject2::WriteOnClearChannel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject2-writeonclearchannel">IMDSPObject2::WriteOnClearChannel</a>
 
 
 
-<a href="https://msdn.microsoft.com/1acf4112-0cb8-47e4-b8dc-3e820c0ef72f">IMDSPObject::Read</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-read">IMDSPObject::Read</a>
  
 
  

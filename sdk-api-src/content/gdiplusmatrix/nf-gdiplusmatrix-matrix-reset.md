@@ -64,14 +64,14 @@ The <b>Matrix::Reset</b> method updates this matrix with the elements of the ide
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 </strong>
 
 If the method succeeds, it returns Ok, which is an element of the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 
 
@@ -88,9 +88,9 @@ The elements on the main diagonal of the identity matrix are 1. All other elemen
 
 
 The following example creates a 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a> object that represents a horizontal scaling by a factor of 5 and a vertical scaling by a factor of 3. The code calls the <b>Matrix::Reset</b> method to replace the elements of that matrix with the elements of the identity matrix. Then the code calls the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms535317(v=VS.85).aspx">Matrix::Translate</a> method to update the matrix with the product of itself (the identity) and a translation matrix. The result is that the matrix represents only the translation, not the scaling. The code uses the matrix to set the world transformation of a 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object and then draws a rectangle that is transformed according to that world transformation.
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a> object that represents a horizontal scaling by a factor of 5 and a vertical scaling by a factor of 3. The code calls the <b>Matrix::Reset</b> method to replace the elements of that matrix with the elements of the identity matrix. Then the code calls the 
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-translate">Matrix::Translate</a> method to update the matrix with the product of itself (the identity) and a translation matrix. The result is that the matrix represents only the translation, not the scaling. The code uses the matrix to set the world transformation of a 
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object and then draws a rectangle that is transformed according to that world transformation.
 
 
 ```cpp
@@ -117,23 +117,23 @@ VOID Example_Reset(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536395(v=VS.85).aspx">Global and Local Transformations</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-global-and-local-transformations-about">Global and Local Transformations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536397(v=VS.85).aspx">Matrix Representation of Transformations</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-matrix-representation-of-transformations-about">Matrix Representation of Transformations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535304(v=VS.85).aspx">Matrix::IsIdentity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-isidentity">Matrix::IsIdentity</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533810(v=VS.85).aspx">Transformations</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
  
 
  

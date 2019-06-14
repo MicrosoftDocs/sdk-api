@@ -62,7 +62,7 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/898da01b-94e6-4a07-9c53-f93378fbda8c">Initialize</a> method to specify a value for the <b>SHA1Hash</b> property.
+Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertysha1hash-initialize">Initialize</a> method to specify a value for the <b>SHA1Hash</b> property.
 
 
 
@@ -72,7 +72,7 @@ Call the <a href="https://msdn.microsoft.com/898da01b-94e6-4a07-9c53-f93378fbda8
 
 
 
-<a href="https://msdn.microsoft.com/0946827b-c933-472c-9466-aaa3495ab202">ICertPropertySHA1Hash</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertysha1hash">ICertPropertySHA1Hash</a>
  
 
  

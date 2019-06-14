@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>IDShowPlugin</b> interface enables the <a href="https://msdn.microsoft.com/e59b3086-4f62-4541-8bef-b0581f01906f">Windows Media Source</a> filter to communicate with the Windows Media Player 6.4 Plug-in for Netscape Navigator. If Windows Media Player 6.4 is hosted in the Netscape Navigator browser, the Windows Media Source filter uses this interface to retrieve the URL and the User-Agent heading. This interface is not used when the player is hosted as an ActiveX control in Microsoft Internet Explorer.
+The <b>IDShowPlugin</b> interface enables the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/windows-media-source-filter">Windows Media Source</a> filter to communicate with the Windows Media Player 6.4 Plug-in for Netscape Navigator. If Windows Media Player 6.4 is hosted in the Netscape Navigator browser, the Windows Media Source filter uses this interface to retrieve the URL and the User-Agent heading. This interface is not used when the player is hosted as an ActiveX control in Microsoft Internet Explorer.
 
 Applications cannot access this interface. It is documented here for completeness, because it is defined in the header file Qnetwork.h.
 
@@ -59,7 +59,7 @@ Applications cannot access this interface. It is documented here for completenes
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDShowPlugin</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDShowPlugin</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDShowPlugin</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDShowPlugin</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IDShowPlugin</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406855(v=VS.85).aspx">get_URL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-idshowplugin-get_url">get_URL</a>
 </td>
 <td align="left" width="63%">
 Gets the URL of the current web page.
@@ -83,7 +83,7 @@ Gets the URL of the current web page.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406856(v=VS.85).aspx">get_UserAgent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-idshowplugin-get_useragent">get_UserAgent</a>
 </td>
 <td align="left" width="63%">
 Gets the User-Agent string.

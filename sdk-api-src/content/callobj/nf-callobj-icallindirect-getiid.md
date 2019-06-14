@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the interface id supported by this <a href="https://msdn.microsoft.com/b85585fd-5f44-4c07-91a4-145eb44a6bdd">ICallIndirect</a> implementation.
+Retrieves the interface id supported by this <a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallindirect">ICallIndirect</a> implementation.
 
 
 ## -parameters
@@ -121,7 +121,7 @@ An unexpected error has occurred.
 
 
 
-<a href="https://msdn.microsoft.com/b85585fd-5f44-4c07-91a4-145eb44a6bdd">ICallIndirect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallindirect">ICallIndirect</a>
  
 
  

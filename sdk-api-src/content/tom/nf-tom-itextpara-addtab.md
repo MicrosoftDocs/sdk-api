@@ -193,7 +193,7 @@ A solid line is used.
 
 Type: <b>HRESULT</b>
 
-If <b>ITextPara::AddTab</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes.  For more information about COM error codes, see <a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling in COM</a>.
+If <b>ITextPara::AddTab</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes.  For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -264,7 +264,7 @@ It is assumed that there is never a tab at position zero. If multiple paragraphs
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787738(v=VS.85).aspx">ClearAllTabs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-clearalltabs">ClearAllTabs</a>
 
 
 
@@ -272,23 +272,23 @@ It is assumed that there is never a tab at position zero. If multiple paragraphs
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787748(v=VS.85).aspx">DeleteTab</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-deletetab">DeleteTab</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773989(v=VS.85).aspx">GetListTab</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-getlisttab">GetListTab</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774034(v=VS.85).aspx">GetTab</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-gettab">GetTab</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774035(v=VS.85).aspx">GetTabCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-gettabcount">GetTabCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
 
 
 
@@ -296,11 +296,11 @@ It is assumed that there is never a tab at position zero. If multiple paragraphs
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774177(v=VS.85).aspx">SetListTab</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-setlisttab">SetListTab</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
  
 
  

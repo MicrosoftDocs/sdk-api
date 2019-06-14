@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Initializes a new instance of <code>XMFLOAT3PK</code> from a <code>uint32_t</code>variable  containing component data in a packed format.
 
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee419478(v=VS.85).aspx">XMFLOAT3PK</a> from a
+This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3pk">XMFLOAT3PK</a> from a
   <code>uint32_t</code> variable  containing component data in a packed format.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
@@ -137,11 +137,11 @@ Bits 27-31 of <b>v</b> are the 5 bit <i>exponent</i> of the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419478(v=VS.85).aspx">XMFLOAT3PK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3pk">XMFLOAT3PK</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415282(v=VS.85).aspx">XMFLOAT3PK Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmfloat3pk-ctor">XMFLOAT3PK Constructors</a>
  
 
  

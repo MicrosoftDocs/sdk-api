@@ -250,11 +250,11 @@ The following illustration represents a single box from the previous illustratio
 
 
 
-<a href="https://msdn.microsoft.com/b86d6266-cce3-4f84-80b6-7d136172b3ca">GetGuide Function</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-getguide">GetGuide Function</a>
 
 
 
-<a href="https://msdn.microsoft.com/3ca3c743-83f9-46b0-851a-cba6e4ed980a">SetGuide Function</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-setguide">SetGuide Function</a>
  
 
  

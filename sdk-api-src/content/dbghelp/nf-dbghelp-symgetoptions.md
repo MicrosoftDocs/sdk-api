@@ -76,7 +76,7 @@ function returns the current options that have been set. Zero is a valid value a
 These options can be changed several times while the library is in use by an application. Any option change affects all future calls to the symbol handler.
 
 The return value is the combination of the 
-following values that have been set using the <a href="https://msdn.microsoft.com/15d72415-829f-4ba3-af80-1f3762cbebda">SymSetOptions</a> function.
+following values that have been set using the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetoptions">SymSetOptions</a> function.
 
 <ul>
 <li>SYMOPT_ALLOW_ABSOLUTE_SYMBOLS</li>
@@ -115,7 +115,7 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 
 
-<a href="https://msdn.microsoft.com/7b28f70b-2d97-4cc2-8064-dfb806f9cffa">DbgHelp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Create a buffer.
-<div class="alert"><b>Note</b>  Instead of using this function, we recommend that you use the <a href="https://msdn.microsoft.com/9cad9bff-1641-4fb1-a7c9-c3e31089d7f7">D3DCreateBlob</a> API.</div><div> </div>
+<div class="alert"><b>Note</b>  Instead of using this function, we recommend that you use the <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcreateblob">D3DCreateBlob</a> API.</div><div> </div>
 
 ## -parameters
 
@@ -59,7 +59,7 @@ Create a buffer.
 
 ### -param NumBytes [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SIZE_T</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SIZE_T</a></b>
 
 Number of bytes in the blob.
 
@@ -75,9 +75,9 @@ The address of a pointer to the buffer (see <a href="https://msdn.microsoft.com/
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-returnvalues">Direct3D 10 Return Codes</a>.
 
 
 
@@ -87,7 +87,7 @@ This method returns one of the following <a href="https://msdn.microsoft.com/en-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205151(v=VS.85).aspx">Core Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-functions">Core Functions</a>
  
 
  

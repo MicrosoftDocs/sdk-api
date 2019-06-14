@@ -59,7 +59,7 @@ The <b>PeerDistServerOpenContentInformation</b> function opens a <b>PEERDIST_CON
 
 ### -param hPeerDist [in]
 
-A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="https://msdn.microsoft.com/62d4f139-ab18-4d65-bda5-1cf09d7ddab9">PeerDistStartup</a>.
+A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
 
 
 ### -param cbContentIdentifier
@@ -84,7 +84,7 @@ The length, in bytes, of the content (starting from the ullContentOffset) for wh
 
 ### -param hCompletionPort [in, optional]
 
-A handle to the completion port used for retrieving the completion notification of the asynchronous function. To create a completion port, use the <a href="https://msdn.microsoft.com/40cb47fc-7b15-47f6-bee2-2611d4686053">CreateIoCompletionPort</a> function. This parameter can be <b>NULL</b>.
+A handle to the completion port used for retrieving the completion notification of the asynchronous function. To create a completion port, use the <a href="https://docs.microsoft.com/windows/desktop/FileIO/createiocompletionport">CreateIoCompletionPort</a> function. This parameter can be <b>NULL</b>.
 
 
 ### -param ulCompletionKey [in, optional]
@@ -174,8 +174,8 @@ The service is unavailable.
 
 
 If function succeeds, the handle received by <i>phContentInfo</i> can be passed to the  
- <a href="https://msdn.microsoft.com/376ece5f-93ea-4650-a6d8-351ae60fc15b">PeerDistServerRetrieveContentInformation</a> function to retrieve content information.
-The  handle   must be closed via the <a href="https://msdn.microsoft.com/066f1856-0617-40c7-a444-9765c01b4563">PeerDistServerCloseContentInformation</a> function.
+ <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverretrievecontentinformation">PeerDistServerRetrieveContentInformation</a> function to retrieve content information.
+The  handle   must be closed via the <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverclosecontentinformation">PeerDistServerCloseContentInformation</a> function.
 
 
 If <i>ullContentOffset</i> and <i>cbContentLength</i> are both zero, then the content information for the whole content will be retrieved.
@@ -188,7 +188,7 @@ If <i>ullContentOffset</i> and <i>cbContentLength</i> are both zero, then the co
 
 
 
-<a href="https://msdn.microsoft.com/376ece5f-93ea-4650-a6d8-351ae60fc15b">PeerDistServerRetrieveContentInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverretrievecontentinformation">PeerDistServerRetrieveContentInformation</a>
  
 
  

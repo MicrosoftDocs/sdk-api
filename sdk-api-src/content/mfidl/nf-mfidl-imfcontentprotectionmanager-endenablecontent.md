@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Ends an asynchronous request to perform a content enabling action. This method is called by the protected media path (PMP) to complete an asynchronous call to <a href="https://msdn.microsoft.com/2f422135-8e5f-41fb-a709-77636d1b451b">IMFContentProtectionManager::BeginEnableContent</a>.
+Ends an asynchronous request to perform a content enabling action. This method is called by the protected media path (PMP) to complete an asynchronous call to <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectionmanager-beginenablecontent">IMFContentProtectionManager::BeginEnableContent</a>.
 
 
 
@@ -63,7 +63,7 @@ Ends an asynchronous request to perform a content enabling action. This method i
 
 ### -param pResult [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/8c95b1de-8974-445c-8070-41552ea83e53">IMFAsyncResult</a> interface. This pointer is the same value that the application passed to the caller's <a href="https://msdn.microsoft.com/22473605-637e-4783-a8cb-98248b0a0327">IMFAsyncCallback::Invoke</a> method.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncresult">IMFAsyncResult</a> interface. This pointer is the same value that the application passed to the caller's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method.
 
 
 ## -returns
@@ -98,9 +98,9 @@ The method succeeded.
 
 
 
-When the <a href="https://msdn.microsoft.com/2f422135-8e5f-41fb-a709-77636d1b451b">BeginEnableContent</a> method completes asynchronously, the application notifies the PMP by invoking the asynchronous callback. The PMP calls <b>EndEnableContent</b> on the application to get the result code. This method is called on the application's thread from inside the callback method. Therefore, it must not block the thread that invoked the callback.
+When the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectionmanager-beginenablecontent">BeginEnableContent</a> method completes asynchronously, the application notifies the PMP by invoking the asynchronous callback. The PMP calls <b>EndEnableContent</b> on the application to get the result code. This method is called on the application's thread from inside the callback method. Therefore, it must not block the thread that invoked the callback.
 
-The application must return the success or failure code of the asynchronous processing that followed the call to <a href="https://msdn.microsoft.com/2f422135-8e5f-41fb-a709-77636d1b451b">BeginEnableContent</a>.
+The application must return the success or failure code of the asynchronous processing that followed the call to <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectionmanager-beginenablecontent">BeginEnableContent</a>.
 
 
 
@@ -110,7 +110,7 @@ The application must return the success or failure code of the asynchronous proc
 
 
 
-<a href="https://msdn.microsoft.com/0dba0384-eac7-456a-af9f-86eb944cdb2e">IMFContentProtectionManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfcontentprotectionmanager">IMFContentProtectionManager</a>
  
 
  

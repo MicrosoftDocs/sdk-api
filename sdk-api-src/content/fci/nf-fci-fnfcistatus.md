@@ -169,7 +169,7 @@ If  <i>typeStatus</i> equals <b>statusCabinet</b> the returned value indicates t
 
 
 
-<a href="https://msdn.microsoft.com/bfcea06d-2f09-405c-955c-0f56149148f2">FCICreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a>
  
 
  

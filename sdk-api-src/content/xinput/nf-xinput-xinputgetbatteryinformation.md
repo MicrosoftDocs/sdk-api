@@ -71,7 +71,7 @@ Specifies which device associated with this user index should be queried. Must b
 
 ### -param pBatteryInformation [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ff729734(v=VS.85).aspx">XINPUT_BATTERY_INFORMATION</a> structure that receives the battery information.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-_xinput_battery_information">XINPUT_BATTERY_INFORMATION</a> structure that receives the battery information.
 
 
 ## -returns
@@ -88,7 +88,7 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 
 
-<a href="https://msdn.microsoft.com/c1533555-9094-0030-f025-6f47e9002e1a">XInput Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/xinput/functions">XInput Functions</a>
  
 
  

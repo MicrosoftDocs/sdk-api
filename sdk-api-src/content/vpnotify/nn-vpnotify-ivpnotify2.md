@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <code>IVPNotify2</code> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd390589(v=VS.85).aspx">IVPNotify</a> and is implemented by the <a href="https://msdn.microsoft.com/e80938b7-31f0-467b-a3fa-c4511d14758d">Overlay Mixer</a> filter. This interface enables the Overlay Mixer to communicate with a video port (on a hardware device such as a decoder) that implements <a href="https://msdn.microsoft.com/en-us/library/Dd390583(v=VS.85).aspx">IVPConfig</a>.
+The <code>IVPNotify2</code> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify">IVPNotify</a> and is implemented by the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> filter. This interface enables the Overlay Mixer to communicate with a video port (on a hardware device such as a decoder) that implements <a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nn-vpconfig-ivpconfig">IVPConfig</a>.
 
 Applications should never use this interface.
 
@@ -60,7 +60,7 @@ Applications should never use this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVPNotify2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd390589(v=VS.85).aspx">IVPNotify</a>. <b>IVPNotify2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVPNotify2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify">IVPNotify</a>. <b>IVPNotify2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IVPNotify2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390591(v=VS.85).aspx">GetVPSyncMaster</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vpnotify/nf-vpnotify-ivpnotify2-getvpsyncmaster">GetVPSyncMaster</a>
 </td>
 <td align="left" width="63%">
 Checks whether the video port controls the synchronization of the VGA.
@@ -84,7 +84,7 @@ Checks whether the video port controls the synchronization of the VGA.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390592(v=VS.85).aspx">SetVPSyncMaster</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vpnotify/nf-vpnotify-ivpnotify2-setvpsyncmaster">SetVPSyncMaster</a>
 </td>
 <td align="left" width="63%">
 Sets whether the video port controls vertical synchronization of the VGA.
@@ -108,7 +108,7 @@ Include Vptype.h before Vpnotify.h.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390589(v=VS.85).aspx">IVPNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify">IVPNotify</a>
  
 
  

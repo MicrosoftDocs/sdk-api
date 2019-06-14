@@ -75,7 +75,7 @@ The new height of the window, in pixels.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -98,15 +98,15 @@ An object cannot be moved, resized, or rotated such that its resulting screen lo
 
 
 
-<a href="https://msdn.microsoft.com/2059daae-af25-4226-9a4d-a63e75c9ad14">CachedCanResize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern-get_cachedcanresize">CachedCanResize</a>
 
 
 
-<a href="https://msdn.microsoft.com/2ad057b2-d382-45e0-be98-3897e5f31668">CurrentCanResize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern-get_currentcanresize">CurrentCanResize</a>
 
 
 
-<a href="https://msdn.microsoft.com/276b44d9-a335-4d4e-8fe9-de03584dadb4">IUIAutomationTransformPattern</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtransformpattern">IUIAutomationTransformPattern</a>
  
 
  

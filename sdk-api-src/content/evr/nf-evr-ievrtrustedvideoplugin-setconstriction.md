@@ -98,7 +98,7 @@ The method succeeded.
 
 This method limits the effective resolution of the video image. The actual resolution on the target device might be higher, due to stretching the image.
 
-The EVR might call this method at any time if the <a href="https://msdn.microsoft.com/16bb31c3-51f7-4d9b-946c-f366fb6e5dee">IEVRTrustedVideoPlugin::CanConstrict</a> method returns <b>TRUE</b>.
+The EVR might call this method at any time if the <a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-ievrtrustedvideoplugin-canconstrict">IEVRTrustedVideoPlugin::CanConstrict</a> method returns <b>TRUE</b>.
 
 
 
@@ -108,15 +108,15 @@ The EVR might call this method at any time if the <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/1c985558-d25d-4f51-978a-58c05943dab9">Enhanced Video Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://msdn.microsoft.com/1dcaa01c-2596-4a22-9e2a-7f0e26d58ffe">IEVRTrustedVideoPlugin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-ievrtrustedvideoplugin">IEVRTrustedVideoPlugin</a>
 
 
 
-<a href="https://msdn.microsoft.com/e88806ae-0041-4b4a-a8df-69718a651e82">Protected Media Path</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/protected-media-path">Protected Media Path</a>
  
 
  

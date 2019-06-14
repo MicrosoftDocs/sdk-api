@@ -52,8 +52,8 @@ ms.custom: 19H1
 The <b>SECPKG_NAME_TYPE</b> enumeration is used to describe the type of name specified for an account.
 
 The <b>SECPKG_NAME_TYPE</b> enumeration is used by the 
-<a href="https://msdn.microsoft.com/1cc02c6b-2628-441d-97ae-ed83a4f6bfd0">GetAuthDataForUser</a> and 
-<a href="https://msdn.microsoft.com/1d9bfbe5-8dd2-4b0f-a19a-361eef8901a4">OpenSamUser</a> functions.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_get_auth_data_for_user">GetAuthDataForUser</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_open_sam_user">OpenSamUser</a> functions.
 
 
 ## -enum-fields
@@ -63,7 +63,7 @@ The <b>SECPKG_NAME_TYPE</b> enumeration is used by the
 
 ### -field SecNameSamCompatible
 
-The account name is compatible with the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">Security Accounts Manager</a> (SAM). An example of a name in SAM-compatible format is <b>"</b><i>ExampleDomain</i><b>\</b><i>UserName</i><b>"</b>.
+The account name is compatible with the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Security Accounts Manager</a> (SAM). An example of a name in SAM-compatible format is <b>"</b><i>ExampleDomain</i><b>\</b><i>UserName</i><b>"</b>.
 
 
 ### -field SecNameAlternateId

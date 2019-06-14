@@ -57,7 +57,7 @@ This topic applies to Windows XP or later.
 
 The <b>IMSVidFilePlaybackEvent</b> interface is used to receive events from the file playback object.
 
-This interface is an outgoing connection-point interface. To receive events related to file playback, implement this interface in your application. Then call the <b>IConnectionPoint::Advise</b> method on the <a href="https://msdn.microsoft.com/da8a1d86-b3a5-4488-8bbc-82dd09aeeaca">MSVidFilePlaybackDevice</a> object to establish a connection.
+This interface is an outgoing connection-point interface. To receive events related to file playback, implement this interface in your application. Then call the <b>IConnectionPoint::Advise</b> method on the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidfileplaybackdevice">MSVidFilePlaybackDevice</a> object to establish a connection.
 
 
 ## -remarks
@@ -74,11 +74,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694587(v=VS.85).aspx">IMSVidPlaybackEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidplaybackevent">IMSVidPlaybackEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf6c3ce9-1e56-4109-93f1-5b313e6ca19b">Video Control Event Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Event Interfaces</a>
  
 
  

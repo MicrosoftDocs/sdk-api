@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>EmfType</b> enumeration specifies the nature of the records that are placed in an Enhanced Metafile (EMF) file. This enumeration is used by several constructors in the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534477(v=VS.85).aspx">Metafile</a> class.
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a> class.
 
 
 ## -enum-fields
@@ -79,7 +79,7 @@ Specifies that all EMF+ records in the metafile are associated with an alternate
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535267(v=VS.85).aspx">Metafile Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-metafile-metafile(constmetafile_)">Metafile Constructors</a>
  
 
  

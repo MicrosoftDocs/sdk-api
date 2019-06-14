@@ -60,7 +60,7 @@ Apply a custom font fallback onto layout. If none is specified, the layout uses 
 
 ### -param fontFallback
 
-Custom font fallback created from <a href="https://msdn.microsoft.com/933CB690-879E-480E-A0C6-179FA84187F5">IDWriteFontFallbackBuilder::CreateFontFallback</a> or <a href="https://msdn.microsoft.com/7F2BDB39-2CB4-4DB7-BBBA-74B0C07E7420">IDWriteFactory2::GetSystemFontFallback</a>.
+Custom font fallback created from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritefontfallbackbuilder-createfontfallback">IDWriteFontFallbackBuilder::CreateFontFallback</a> or <a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritefactory2-getsystemfontfallback">IDWriteFactory2::GetSystemFontFallback</a>.
           
 
 
@@ -78,7 +78,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/034D795B-016A-401E-AD75-D5B0D1E87806">IDWriteTextLayout2</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritetextlayout2">IDWriteTextLayout2</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Called when the <a href="https://msdn.microsoft.com/99bd9bd7-d8d1-433a-bc5a-4b9761de5048">IMFSourceReader::ReadSample</a> method completes.
+Called when the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample">IMFSourceReader::ReadSample</a> method completes.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ The zero-based index of the stream that delivered the sample.
 
 ### -param dwStreamFlags [in]
 
-A bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/8981a682-3c0b-458b-910a-d1462ed73e64">MF_SOURCE_READER_FLAG</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/ne-mfreadwrite-mf_source_reader_flag">MF_SOURCE_READER_FLAG</a> enumeration.
 
 
 ### -param llTimestamp [in]
@@ -80,7 +80,7 @@ The time stamp of the sample, or the time of the stream event indicated in <i>dw
 
 ### -param pSample [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/b1c3758c-5133-41ee-b991-ae99d0296ccc">IMFSample</a> interface of a media sample. This parameter might be <b>NULL</b>.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> interface of a media sample. This parameter might be <b>NULL</b>.
 
 
 ## -returns
@@ -114,11 +114,11 @@ This interface is available on Windows Vista if Platform Update Supplement for 
 
 
 
-<a href="https://msdn.microsoft.com/fff8b6e6-5d56-4301-b3ce-f3ff49398593">IMFSourceReaderCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereadercallback">IMFSourceReaderCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a17a754-53ef-4c05-9189-7978d864b17a">Source Reader</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/source-reader">Source Reader</a>
  
 
  

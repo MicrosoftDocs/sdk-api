@@ -65,25 +65,25 @@ The size of the structure, in bytes.
 ### -field pfnGetTimeSysInfo
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/e1b527e2-ab7c-4106-b203-e74b4ce2a89b">GetTimeSysInfoFunc</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-gettimesysinfofunc">GetTimeSysInfoFunc</a> function.
 
 
 ### -field pfnLogTimeProvEvent
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/ddaea389-3f58-4011-bcf8-c60546d1bce1">LogTimeProvEventFunc</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-logtimeproveventfunc">LogTimeProvEventFunc</a> function.
 
 
 ### -field pfnAlertSamplesAvail
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/f90da019-072e-46c9-8e05-0321a9960968">AlertSamplesAvailFunc</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-alertsamplesavailfunc">AlertSamplesAvailFunc</a> function.
 
 
 ### -field pfnSetProviderStatus
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/e52dd1d3-081a-4fcc-85d9-a1dcef0e8011">SetProviderStatusFunc</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-setproviderstatusfunc">SetProviderStatusFunc</a> function.
 
 
 ## -see-also
@@ -91,23 +91,23 @@ A pointer to the
 
 
 
-<a href="https://msdn.microsoft.com/f90da019-072e-46c9-8e05-0321a9960968">AlertSamplesAvailFunc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-alertsamplesavailfunc">AlertSamplesAvailFunc</a>
 
 
 
-<a href="https://msdn.microsoft.com/e1b527e2-ab7c-4106-b203-e74b4ce2a89b">GetTimeSysInfoFunc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-gettimesysinfofunc">GetTimeSysInfoFunc</a>
 
 
 
-<a href="https://msdn.microsoft.com/ddaea389-3f58-4011-bcf8-c60546d1bce1">LogTimeProvEventFunc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-logtimeproveventfunc">LogTimeProvEventFunc</a>
 
 
 
-<a href="https://msdn.microsoft.com/e52dd1d3-081a-4fcc-85d9-a1dcef0e8011">SetProviderStatusFunc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-setproviderstatusfunc">SetProviderStatusFunc</a>
 
 
 
-<a href="https://msdn.microsoft.com/cf4f8d00-4c6f-4036-a179-444ff7505ab4">TimeProvOpen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nf-timeprov-timeprovopen">TimeProvOpen</a>
  
 
  

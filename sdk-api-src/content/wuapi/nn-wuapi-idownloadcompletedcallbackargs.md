@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information about the completion of a download. This interface acts as a parameter to the <a href="https://msdn.microsoft.com/ad1c3075-21d9-409f-9677-fbf6d0c50313">IDownloadCompletedCallback</a> delegate. The download and installation of the update is asynchronous.
+Contains information about the completion of a download. This interface acts as a parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-idownloadcompletedcallback">IDownloadCompletedCallback</a> delegate. The download and installation of the update is asynchronous.
 
 
 ## -remarks

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the elements from a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">buffer</a> resource to use in a render-target view.
+Specifies the elements from a <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">buffer</a> resource to use in a render-target view.
 
 
 ## -struct-fields
@@ -59,28 +59,28 @@ Specifies the elements from a <a href="https://msdn.microsoft.com/en-us/library/
 
 ### -field FirstElement
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of bytes between the beginning of the buffer and the first element to access.
 
 
 ### -field ElementOffset
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The offset of the first element in the view to access, relative to element 0.
 
 
 ### -field NumElements
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The total number of elements in the view.
 
 
 ### -field ElementWidth
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The width of each element (in bytes). This can be determined from the format stored in the render-target-view description.
 
@@ -89,7 +89,7 @@ The width of each element (in bytes). This can be determined from the format sto
 
 
 
-A render-target view is a member of a render-target-view description (see <a href="https://msdn.microsoft.com/en-us/library/Bb172410(v=VS.85).aspx">D3D10_RENDER_TARGET_VIEW_DESC</a>). Create a render-target view by calling <a href="https://msdn.microsoft.com/en-us/library/Bb173556(v=VS.85).aspx">ID3D10Device::CreateRenderTargetView</a>.
+A render-target view is a member of a render-target-view description (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_render_target_view_desc">D3D10_RENDER_TARGET_VIEW_DESC</a>). Create a render-target view by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createrendertargetview">ID3D10Device::CreateRenderTargetView</a>.
 
 
 
@@ -99,7 +99,7 @@ A render-target view is a member of a render-target-view description (see <a hre
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205277(v=VS.85).aspx">Resource Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-resource-structures">Resource Structures</a>
  
 
  

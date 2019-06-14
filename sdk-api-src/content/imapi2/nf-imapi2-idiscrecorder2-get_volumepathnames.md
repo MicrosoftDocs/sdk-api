@@ -123,11 +123,11 @@ Value: 0x8007000E
 
 
 
-<a href="https://msdn.microsoft.com/34f858b8-74eb-4725-8815-7954cb98cff0">IDiscRecorder2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
 
 
 
-<a href="https://msdn.microsoft.com/14ec2007-3648-49b6-a96e-b682d592c2f1">IDiscRecorder2::get_LegacyDeviceNumber</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_legacydevicenumber">IDiscRecorder2::get_LegacyDeviceNumber</a>
  
 
  

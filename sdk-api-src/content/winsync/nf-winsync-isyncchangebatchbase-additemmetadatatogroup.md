@@ -59,12 +59,12 @@ Adds a specified item change to the group that is currently open.
 
 ### -param pbOwnerReplicaId [in]
 
-The replica ID of the replica where <i>pChangeVersion</i> and <i>pCreationVersion</i> are valid. The ID format must match the format that is specified by the <a href="https://msdn.microsoft.com/7391689a-5546-409a-9fff-2ceced1850fe">ID_PARAMETERS</a> structure of the provider.
+The replica ID of the replica where <i>pChangeVersion</i> and <i>pCreationVersion</i> are valid. The ID format must match the format that is specified by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ns-winsync-_id_parameters">ID_PARAMETERS</a> structure of the provider.
 
 
 ### -param pbItemId [in]
 
-The ID of the item. The ID format must match the format that is specified by the <a href="https://msdn.microsoft.com/7391689a-5546-409a-9fff-2ceced1850fe">ID_PARAMETERS</a> structure of the provider.
+The ID of the item. The ID format must match the format that is specified by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ns-winsync-_id_parameters">ID_PARAMETERS</a> structure of the provider.
 
 
 ### -param pChangeVersion [in]
@@ -79,7 +79,7 @@ The creation version of the item.
 
 ### -param dwFlags [in]
 
-Flags that specify the state of the item change. For the flag values, see <a href="https://msdn.microsoft.com/de0509a4-550b-49f2-a850-fc1bd57b60cd">ISyncChange::GetFlags</a>.
+Flags that specify the state of the item change. For the flag values, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchange-getflags">ISyncChange::GetFlags</a>.
 
 
 ### -param dwWorkForChange [in]
@@ -169,15 +169,15 @@ The <b>ISyncChangeBatchBase</b> object has been sent to a change applier or to t
 
 
 
-<a href="https://msdn.microsoft.com/7391689a-5546-409a-9fff-2ceced1850fe">ID_PARAMETERS Structure</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ns-winsync-_id_parameters">ID_PARAMETERS Structure</a>
 
 
 
-<a href="https://msdn.microsoft.com/14ca01a1-04eb-4282-adf0-e775d6ff0801">ISyncChangeBatchBase Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a493a58-3dab-4032-90de-be9f903ae489">SYNC_VERSION Structure
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ns-winsync-_sync_version">SYNC_VERSION Structure
 </a>
  
 

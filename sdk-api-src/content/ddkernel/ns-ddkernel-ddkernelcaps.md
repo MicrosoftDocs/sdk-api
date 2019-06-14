@@ -77,7 +77,7 @@ DDKERNELCAPS_AUTOFLIP
 
 </td>
 <td>
-The driver supports the <a href="https://msdn.microsoft.com/d6047c90-1163-475a-a55b-95ccb0570e3e">DxFlipVideoPort</a> and the <a href="https://msdn.microsoft.com/7674f853-e5ea-44c7-b5ed-5fd90bfa1bcb">DxFlipOverlay</a> callbacks, and that these callbacks can be used for autoflipping.
+The driver supports the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_flipvideoport">DxFlipVideoPort</a> and the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_flipoverlay">DxFlipOverlay</a> callbacks, and that these callbacks can be used for autoflipping.
 
 </td>
 </tr>
@@ -87,7 +87,7 @@ DDKERNELCAPS_CAPTURE_INVERTED
 
 </td>
 <td>
-The device supports inverting the <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">DIBs</a> while capturing the data.
+The device supports inverting the <a href="https://docs.microsoft.com/windows-hardware/drivers/">DIBs</a> while capturing the data.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ DDKERNELCAPS_CAPTURE_NONLOCALVIDMEM
 
 </td>
 <td>
-The device supports a <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">video port extensions (VPE)</a> capture interface capable of transferring data to nonlocal display memory.
+The device supports a <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> capture interface capable of transferring data to nonlocal display memory.
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ DDKERNELCAPS_FLIPOVERLAY
 
 </td>
 <td>
-The driver supports the <a href="https://msdn.microsoft.com/7674f853-e5ea-44c7-b5ed-5fd90bfa1bcb">DxFlipOverlay</a> callback.
+The driver supports the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_flipoverlay">DxFlipOverlay</a> callback.
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ DDKERNELCAPS_FLIPVIDEOPORT
 
 </td>
 <td>
-The driver supports the <a href="https://msdn.microsoft.com/d6047c90-1163-475a-a55b-95ccb0570e3e">DxFlipVideoPort</a> callback.
+The driver supports the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_flipvideoport">DxFlipVideoPort</a> callback.
 
 </td>
 </tr>
@@ -147,7 +147,7 @@ DDKERNELCAPS_LOCK
 
 </td>
 <td>
-The device supports accessing the frame buffer without causing contention with blitters, and so on, and that the driver supports the <a href="https://msdn.microsoft.com/1eeeb68b-9098-4030-924a-634e79c3e682">DxLock</a> callback.
+The device supports accessing the frame buffer without causing contention with blitters, and so on, and that the driver supports the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_lock">DxLock</a> callback.
 
 </td>
 </tr>
@@ -157,7 +157,7 @@ DDKERNELCAPS_SETSTATE
 
 </td>
 <td>
-The driver supports the <a href="https://msdn.microsoft.com/f2d7f248-017e-4375-b0a0-49de65192511">DxSetState</a> callback, allowing a client to switch between bob and weave display modes.
+The driver supports the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_setstate">DxSetState</a> callback, allowing a client to switch between bob and weave display modes.
 
 </td>
 </tr>
@@ -167,7 +167,7 @@ DDKERNELCAPS_SKIPFIELDS
 
 </td>
 <td>
-The device supports field skipping, either using hardware or by supporting the <a href="https://msdn.microsoft.com/da19c8dc-fef5-41e6-b032-2a0ae05a73da">DxSkipNextField</a> callback.
+The device supports field skipping, either using hardware or by supporting the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_skipnextfield">DxSkipNextField</a> callback.
 
 </td>
 </tr>
@@ -403,23 +403,23 @@ he device can generate V-sync IRQs for hardware video port number 9.
 
 
 
-<a href="https://msdn.microsoft.com/7674f853-e5ea-44c7-b5ed-5fd90bfa1bcb">DxFlipOverlay</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_flipoverlay">DxFlipOverlay</a>
 
 
 
-<a href="https://msdn.microsoft.com/d6047c90-1163-475a-a55b-95ccb0570e3e">DxFlipVideoPort</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_flipvideoport">DxFlipVideoPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/1eeeb68b-9098-4030-924a-634e79c3e682">DxLock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_lock">DxLock</a>
 
 
 
-<a href="https://msdn.microsoft.com/f2d7f248-017e-4375-b0a0-49de65192511">DxSetState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_setstate">DxSetState</a>
 
 
 
-<a href="https://msdn.microsoft.com/da19c8dc-fef5-41e6-b032-2a0ae05a73da">DxSkipNextField</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_skipnextfield">DxSkipNextField</a>
  
 
  

@@ -59,7 +59,7 @@ Identifies the DPI hosting behavior for a window. This behavior allows windows c
 
 ### -field DPI_HOSTING_BEHAVIOR_INVALID
 
-Invalid DPI hosting behavior. This usually occurs if the previous <a href="https://msdn.microsoft.com/CF31D96A-EC84-4911-81A2-82EC90D417B9">SetThreadDpiHostingBehavior</a> call used an invalid parameter.
+Invalid DPI hosting behavior. This usually occurs if the previous <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setthreaddpihostingbehavior">SetThreadDpiHostingBehavior</a> call used an invalid parameter.
 
 
 ### -field DPI_HOSTING_BEHAVIOR_DEFAULT
@@ -76,7 +76,7 @@ Mixed DPI hosting behavior. This enables the creation and re-parenting of child 
 
 
 
-<b>DPI_HOSTING_BEHAVIOR</b> enables a mixed content hosting behavior, which allows parent windows created in the thread to host child windows with a different <a href="https://msdn.microsoft.com/BFD54A9F-642B-4A3A-BBB9-F3A80779251D">DPI_AWARENESS_CONTEXT</a> value. This property only effects new windows created within this thread while the mixed hosting behavior is active. A parent window with this hosting behavior is able to host child windows with different <b>DPI_AWARENESS_CONTEXT</b> values, regardless of whether the child windows have mixed hosting behavior enabled.
+<b>DPI_HOSTING_BEHAVIOR</b> enables a mixed content hosting behavior, which allows parent windows created in the thread to host child windows with a different <a href="https://docs.microsoft.com/windows/desktop/hidpi/dpi-awareness-context">DPI_AWARENESS_CONTEXT</a> value. This property only effects new windows created within this thread while the mixed hosting behavior is active. A parent window with this hosting behavior is able to host child windows with different <b>DPI_AWARENESS_CONTEXT</b> values, regardless of whether the child windows have mixed hosting behavior enabled.
 
 This hosting behavior does not allow for windows with per-monitor <b>DPI_AWARENESS_CONTEXT</b> values to be hosted until windows with <b>DPI_AWARENESS_CONTEXT</b> values of system or unaware.
 
@@ -94,15 +94,15 @@ Enabling mixed hosting behavior will not automatically adjust the thread's <b>DP
 
 
 
-<a href="https://msdn.microsoft.com/B9500745-9B53-47FF-9F45-0BFF3A66FD46">GetThreadDpiHostingBehavior</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getthreaddpihostingbehavior">GetThreadDpiHostingBehavior</a>
 
 
 
-<a href="https://msdn.microsoft.com/BD16F545-54A1-479A-BA4B-F54834043EB2">GetWindowDpiHostingBehavior</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowdpihostingbehavior">GetWindowDpiHostingBehavior</a>
 
 
 
-<a href="https://msdn.microsoft.com/CF31D96A-EC84-4911-81A2-82EC90D417B9">SetThreadDpiHostingBehavior</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setthreaddpihostingbehavior">SetThreadDpiHostingBehavior</a>
  
 
  

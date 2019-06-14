@@ -54,9 +54,9 @@ provides similar functionality.]
 
 The 
 <b>get_ScopeID</b> method obtains an identifier for the scope of multicast addresses. The scope ID and server ID are needed to select this scope in subsequent calls to 
-<a href="https://msdn.microsoft.com/ca428138-34d2-499d-9560-8dfd51403ba1">IMcastAddressAllocation::RequestAddress</a>, 
-<a href="https://msdn.microsoft.com/9f52d1e9-61d9-4f67-b180-c1844b4eb7f1">IMcastAddressAllocation::RenewAddress</a>, or 
-<a href="https://msdn.microsoft.com/6b5fd18b-1b13-4e2a-9ff9-4a66212213a7">IMcastAddressAllocation::ReleaseAddress</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastaddressallocation-requestaddress">IMcastAddressAllocation::RequestAddress</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastaddressallocation-renewaddress">IMcastAddressAllocation::RenewAddress</a>, or 
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastaddressallocation-releaseaddress">IMcastAddressAllocation::ReleaseAddress</a>.
 
 
 ## -parameters
@@ -113,11 +113,11 @@ The caller passed in an invalid pointer argument.
 
 
 
-<a href="https://msdn.microsoft.com/b0252ac4-856e-4aa7-aa3b-37b92472e864">IMcastScope</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-imcastscope">IMcastScope</a>
 
 
 
-<a href="https://msdn.microsoft.com/80c0ecca-647f-4e5e-92d6-fc95368715ad">IMcastScope::get_ServerID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastscope-get_serverid">IMcastScope::get_ServerID</a>
  
 
  

@@ -83,7 +83,7 @@ The value of the property was set by a classification rule during the last class
 ### -field FsrmPropertyFlags_Deleted
 
 The property was deleted by 
-      <a href="https://msdn.microsoft.com/bac42416-0757-462f-8869-339655f48587">IFsrmClassificationManager::ClearFileProperty</a>.
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-clearfileproperty">IFsrmClassificationManager::ClearFileProperty</a>.
 
 
 ### -field FsrmPropertyFlags_Reclassified
@@ -202,7 +202,7 @@ The <b>FsrmPropertyFlags_SetByClassifier</b> flag is set in the following cases:
 
 
 
-<a href="https://msdn.microsoft.com/59c52ac2-82ef-4dfa-85e9-450149c2e904">IFsrmProperty.PropertyFlags</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmproperty-get_propertyflags">IFsrmProperty.PropertyFlags</a>
  
 
  

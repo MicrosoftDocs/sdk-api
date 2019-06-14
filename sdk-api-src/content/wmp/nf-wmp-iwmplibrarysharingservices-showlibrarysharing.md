@@ -106,7 +106,7 @@ The <b>Library Sharing</b> dialog box enables the user to configure library shar
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563388(v=VS.85).aspx">IWMPLibrarySharingServices Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmplibrarysharingservices">IWMPLibrarySharingServices Interface</a>
  
 
  

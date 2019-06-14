@@ -68,7 +68,7 @@ Address of a pointer to the <b>IDirectDrawSurface</b> interface that is being us
 
 ### -param pbUsingExternal [out]
 
-Pointer to a variable that receives a Boolean value. It receives the value <b>TRUE</b> if the Overlay Mixer is using a DirectDraw surface specified by <a href="https://msdn.microsoft.com/a897c147-044d-44e2-9029-bd62c74483d2">IDDrawExclModeVideo::SetDDrawSurface</a>, or <b>FALSE</b> otherwise.
+Pointer to a variable that receives a Boolean value. It receives the value <b>TRUE</b> if the Overlay Mixer is using a DirectDraw surface specified by <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iddrawexclmodevideo-setddrawsurface">IDDrawExclModeVideo::SetDDrawSurface</a>, or <b>FALSE</b> otherwise.
 
 
 ## -returns
@@ -135,11 +135,11 @@ If the filter graph has not set a DirectDraw surface and the Overlay Mixer has n
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a846a07-f513-49e7-85e8-192a5c211515">IDDrawExclModeVideo Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iddrawexclmodevideo">IDDrawExclModeVideo Interface</a>
  
 
  

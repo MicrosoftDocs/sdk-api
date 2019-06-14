@@ -69,7 +69,7 @@ Target ID for the target on the specified adapter adapter.
 
 ### -param vos [in]
 
-A member of the <a href="https://msdn.microsoft.com/d52fbc40-072b-4b7a-87c2-b928563100bb">OPM_VIDEO_OUTPUT_SEMANTICS</a> enumeration.
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ne-opmapi-_opm_video_output_semantics">OPM_VIDEO_OUTPUT_SEMANTICS</a> enumeration.
 
 <table>
 <tr>
@@ -82,7 +82,7 @@ A member of the <a href="https://msdn.microsoft.com/d52fbc40-072b-4b7a-87c2-b928
 </dl>
 </td>
 <td width="60%">
-The returned <a href="https://msdn.microsoft.com/8bf43577-3535-4f62-ac81-bb7e3c329403">IOPMVideoOutput</a> pointer will use OPM semantics.
+The returned <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput">IOPMVideoOutput</a> pointer will use OPM semantics.
 
 </td>
 </tr>
@@ -92,7 +92,7 @@ The returned <a href="https://msdn.microsoft.com/8bf43577-3535-4f62-ac81-bb7e3c3
 </dl>
 </td>
 <td width="60%">
-The returned <a href="https://msdn.microsoft.com/8bf43577-3535-4f62-ac81-bb7e3c329403">IOPMVideoOutput</a> pointer will use Certified Output Protection Protocol (COPP) semantics.
+The returned <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput">IOPMVideoOutput</a> pointer will use Certified Output Protection Protocol (COPP) semantics.
 
 </td>
 </tr>
@@ -102,7 +102,7 @@ The returned <a href="https://msdn.microsoft.com/8bf43577-3535-4f62-ac81-bb7e3c3
 
 ### -param ppOPMVideoOutput [out]
 
-Receives a pointer to an <a href="https://msdn.microsoft.com/8bf43577-3535-4f62-ac81-bb7e3c329403">IOPMVideoOutput</a> pointer. The caller must release this  pointer.
+Receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput">IOPMVideoOutput</a> pointer. The caller must release this  pointer.
 
 
 ## -returns
@@ -118,7 +118,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-The <a href="https://msdn.microsoft.com/8bf43577-3535-4f62-ac81-bb7e3c329403">IOPMVideoOutput</a> interface has two modes of behavior, depending on the value of the <i>vos</i> parameter. If <i>vos</i> is <b>OPM_VOS_COPP_SEMANTICS</b>, <b>IOPMVideoOutput</b> uses COPP semantics. This mode is intended for backward compatibility with COPP. If <i>vos</i> is <b>OPM_VOS_OPM_SEMANTICS</b>, <b>IOPMVideoOutput</b> uses the newer OPM semantics. Differences in behavior are noted on the reference page for each method. The mode does not change during the lifetime of the object.
+The <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput">IOPMVideoOutput</a> interface has two modes of behavior, depending on the value of the <i>vos</i> parameter. If <i>vos</i> is <b>OPM_VOS_COPP_SEMANTICS</b>, <b>IOPMVideoOutput</b> uses COPP semantics. This mode is intended for backward compatibility with COPP. If <i>vos</i> is <b>OPM_VOS_OPM_SEMANTICS</b>, <b>IOPMVideoOutput</b> uses the newer OPM semantics. Differences in behavior are noted on the reference page for each method. The mode does not change during the lifetime of the object.
 
 
 
@@ -128,7 +128,7 @@ The <a href="https://msdn.microsoft.com/8bf43577-3535-4f62-ac81-bb7e3c329403">IO
 
 
 
-<a href="https://msdn.microsoft.com/7ecde6ae-56fd-451b-bebb-224c6801be05">OPM Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/opm-functions">OPM Functions</a>
  
 
  

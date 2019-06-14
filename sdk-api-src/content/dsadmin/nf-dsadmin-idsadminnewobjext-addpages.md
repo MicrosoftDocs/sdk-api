@@ -67,7 +67,7 @@ BOOL fnAddPage(HPROPSHEETPAGE hPage, LPARAM lParam);
 ```
 
 
-<i>hPage</i> contains the handle of the wizard page created by calling <a href="https://msdn.microsoft.com/en-us/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a>.
+<i>hPage</i> contains the handle of the wizard page created by calling <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-createpropertysheetpagea">CreatePropertySheetPage</a>.
 
 <i>lParam</i> is the <i>lParam</i> value passed to <b>AddPages</b>.
 
@@ -91,9 +91,9 @@ If the method is successful,
 
 
 
-For each page, the wizard extension adds to the wizard, the extension fills in a <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> structure, calls the <a href="https://msdn.microsoft.com/en-us/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a> function to create the page handle and then calls the <i>lpfnAddPage</i> function with the page handle and <i>lParam</i>.
+For each page, the wizard extension adds to the wizard, the extension fills in a <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetpagea_v2">PROPSHEETPAGE</a> structure, calls the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-createpropertysheetpagea">CreatePropertySheetPage</a> function to create the page handle and then calls the <i>lpfnAddPage</i> function with the page handle and <i>lParam</i>.
 
-This method is identical in format and operation to the <a href="https://msdn.microsoft.com/library/Bb774878(v=VS.85).aspx">IShellPropSheetExt::AddPages</a> method.
+This method is identical in format and operation to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellpropsheetext-addpages">IShellPropSheetExt::AddPages</a> method.
 
 
 
@@ -103,19 +103,19 @@ This method is identical in format and operation to the <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-createpropertysheetpagea">CreatePropertySheetPage</a>
 
 
 
-<a href="https://msdn.microsoft.com/a9b98647-b801-4a2a-98a4-d57679c07d55">IDsAdminNewObjExt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nn-dsadmin-idsadminnewobjext">IDsAdminNewObjExt</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774878(v=VS.85).aspx">IShellPropSheetExt::AddPages</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellpropsheetext-addpages">IShellPropSheetExt::AddPages</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetpagea_v2">PROPSHEETPAGE</a>
  
 
  

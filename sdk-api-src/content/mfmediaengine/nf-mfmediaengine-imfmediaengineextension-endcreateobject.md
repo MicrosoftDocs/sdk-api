@@ -59,12 +59,12 @@ Completes an asynchronous request to create a byte stream or media source.
 
 ### -param pResult [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/8c95b1de-8974-445c-8070-41552ea83e53">IMFAsyncResult</a> interface.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncresult">IMFAsyncResult</a> interface.
 
 
 ### -param ppObject [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface of the byte stream or media source. The caller must release the interface
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the byte stream or media source. The caller must release the interface
 
 
 ## -returns
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The Media Engine calls this method to complete the <a href="https://msdn.microsoft.com/804E9F16-E4C9-41F6-8913-950A569FB835">IMFMediaEngineExtension::BeginCreateObject</a> method.
+The Media Engine calls this method to complete the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineextension-begincreateobject">IMFMediaEngineExtension::BeginCreateObject</a> method.
 
 
 
@@ -90,7 +90,7 @@ The Media Engine calls this method to complete the <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/A032E0D0-2201-4B81-9FE0-8E9CE2707FDB">IMFMediaEngineExtension</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineextension">IMFMediaEngineExtension</a>
  
 
  

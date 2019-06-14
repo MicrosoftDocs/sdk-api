@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 Represents an address. It is used in the 
-<a href="https://msdn.microsoft.com/2809e3f1-c64a-4753-9fca-f78e89a878b2">STACKFRAME64</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagstackframe">STACKFRAME64</a> structure.
 
 
 ## -struct-fields
@@ -88,7 +88,7 @@ The addressing mode. This member can be one of the following values.
 </td>
 <td width="60%">
 16:16 addressing. To support this addressing mode, you must supply a 
-<a href="https://msdn.microsoft.com/56c374df-6b48-4649-a914-5cb2f9575bf3">TranslateAddressProc64</a> callback function.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-ptranslate_address_routine">TranslateAddressProc64</a> callback function.
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ The addressing mode. This member can be one of the following values.
 </td>
 <td width="60%">
 16:32 addressing. To support this addressing mode, you must supply a 
-<a href="https://msdn.microsoft.com/56c374df-6b48-4649-a914-5cb2f9575bf3">TranslateAddressProc64</a> callback function.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-ptranslate_address_routine">TranslateAddressProc64</a> callback function.
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ The addressing mode. This member can be one of the following values.
 </td>
 <td width="60%">
 Real-mode addressing. To support this addressing mode, you must supply a 
-<a href="https://msdn.microsoft.com/56c374df-6b48-4649-a914-5cb2f9575bf3">TranslateAddressProc64</a> callback function.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-ptranslate_address_routine">TranslateAddressProc64</a> callback function.
 
 </td>
 </tr>
@@ -136,7 +136,7 @@ Flat addressing. This is the only addressing mode supported by the library.
 
 
 This structure supersedes the <b>ADDRESS</b> structure. For more information, see 
-<a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>ADDRESS</b> is defined as follows in DbgHelp.h. 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <b>ADDRESS</b> is defined as follows in DbgHelp.h. 
 
 
 ```cpp
@@ -161,7 +161,7 @@ typedef struct _tagADDRESS {
 
 
 
-<a href="https://msdn.microsoft.com/2809e3f1-c64a-4753-9fca-f78e89a878b2">STACKFRAME64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagstackframe">STACKFRAME64</a>
  
 
  

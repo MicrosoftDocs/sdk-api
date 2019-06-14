@@ -61,17 +61,17 @@ The
 ### -param RequestQueueHandle [in]
 
 A handle to the request queue from which to retrieve the next available request. A request queue is created and its handle returned by a call to the 
-<a href="https://msdn.microsoft.com/a0f4112e-db81-4eda-afeb-d00117f7240c">HttpCreateRequestQueue</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a> function.
 
-<b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>The handle to the request queue is created by the <a href="https://msdn.microsoft.com/c3741092-c23a-465f-9a65-5bcbf977fad3">HttpCreateHttpHandle</a> function.
+<b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>The handle to the request queue is created by the <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreatehttphandle">HttpCreateHttpHandle</a> function.
 
 
 ### -param RequestId [in]
 
 On the first call to retrieve a request, this parameter should be <b>HTTP_NULL_ID</b>. Then, if more than one call is required to retrieve the entire request, 
 <b>HttpReceiveHttpRequest</b> or 
-<a href="https://msdn.microsoft.com/b4ba765f-537b-4021-9ecc-d400d9b94723">HttpReceiveRequestEntityBody</a> can be called with <i>RequestID</i> set to the value returned in the <b>RequestId</b> member of the 
-<a href="https://msdn.microsoft.com/e592cf54-df6d-472b-a736-c44a5ccdd3d2">HTTP_REQUEST</a> structure pointed to by <i>pRequestBuffer</i>.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpreceiverequestentitybody">HttpReceiveRequestEntityBody</a> can be called with <i>RequestID</i> set to the value returned in the <b>RequestId</b> member of the 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a> structure pointed to by <i>pRequestBuffer</i>.
 
 
 ### -param Flags [in]
@@ -100,7 +100,7 @@ Only the request headers are retrieved; the entity body is not copied.
 </td>
 <td width="60%">
 The available entity body is copied along with the request headers. The <b>pEntityChunks</b> member of the 
-<a href="https://msdn.microsoft.com/e592cf54-df6d-472b-a736-c44a5ccdd3d2">HTTP_REQUEST</a> structure points to the entity body.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a> structure points to the entity body.
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ The available entity body is copied along with the request headers. The <b>pEnti
 </td>
 <td width="60%">
 All of the entity bodies are copied along with the request headers. The <b>pEntityChunks</b> member of the 
-<a href="https://msdn.microsoft.com/e592cf54-df6d-472b-a736-c44a5ccdd3d2">HTTP_REQUEST</a> structure points to the entity body.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a> structure points to the entity body.
 
 </td>
 </tr>
@@ -122,9 +122,9 @@ All of the entity bodies are copied along with the request headers. The <b>pEnti
 ### -param RequestBuffer [out]
 
 A pointer to a buffer into which the function copies an 
-<a href="https://msdn.microsoft.com/e592cf54-df6d-472b-a736-c44a5ccdd3d2">HTTP_REQUEST</a> structure and entity body for the HTTP request. <b>HTTP_REQUEST.RequestId</b> contains the identifier for this HTTP request, which the application can use in subsequent calls <a href="https://msdn.microsoft.com/b4ba765f-537b-4021-9ecc-d400d9b94723">HttpReceiveRequestEntityBody</a>, 
-<a href="https://msdn.microsoft.com/0183584f-105e-4fa3-8991-d3f2dfca1d62">HttpSendHttpResponse</a>, or 
-<a href="https://msdn.microsoft.com/f2ff2e40-ef1f-4c35-a615-f31ac63ab738">HttpSendResponseEntityBody</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a> structure and entity body for the HTTP request. <b>HTTP_REQUEST.RequestId</b> contains the identifier for this HTTP request, which the application can use in subsequent calls <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpreceiverequestentitybody">HttpReceiveRequestEntityBody</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsendhttpresponse">HttpSendHttpResponse</a>, or 
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsendresponseentitybody">HttpSendResponseEntityBody</a>.
 
 
 ### -param RequestBufferLength [in]
@@ -145,15 +145,15 @@ When making an asynchronous call using <i>pOverlapped</i>, set <i>pBytesReceived
 ### -param Overlapped [in, optional]
 
 For asynchronous calls, set <i>pOverlapped</i> to point to an 
-<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure; for synchronous calls, set it to <b>NULL</b>. 
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure; for synchronous calls, set it to <b>NULL</b>. 
 
 
 
 
 A synchronous call blocks until a request has arrived in the specified queue and some or all of it has been retrieved, whereas an asynchronous call immediately returns <b>ERROR_IO_PENDING</b> and the calling application then uses 
-<a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a> or I/O completion ports to determine when the operation is completed. For more information about using 
-<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structures for synchronization, see  
-<a href="https://msdn.microsoft.com/db44990e-5a0f-4153-8ff6-79dd7cda48af">Synchronization and Overlapped Input and Output</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> or I/O completion ports to determine when the operation is completed. For more information about using 
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structures for synchronization, see  
+<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">Synchronization and Overlapped Input and Output</a>.
 
 
 ## -returns
@@ -222,7 +222,7 @@ The specified request has already been completely retrieved; in this case, the v
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> defined in WinError.h.
+A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> defined in WinError.h.
 
 </td>
 </tr>
@@ -238,7 +238,7 @@ A <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">syst
 
 More than one call can be required to retrieve a given request. When the <i>Flags</i> parameter is set to zero, for example, 
 <b>HttpReceiveHttpRequest</b> only copies the request header structure into the buffer, and does not attempt to copy any of the entity body. In this case, the 
-<a href="https://msdn.microsoft.com/b4ba765f-537b-4021-9ecc-d400d9b94723">HttpReceiveRequestEntityBody</a> function can be used to retrieve the entity body, or a second call can be made to 
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpreceiverequestentitybody">HttpReceiveRequestEntityBody</a> function can be used to retrieve the entity body, or a second call can be made to 
 <b>HttpReceiveHttpRequest</b>.
 
 Alternatively, the buffer provided by the application may be insufficiently large to receive all or part of the request. To be sure of receiving at least part of the request, it is recommended that an application provide at least a buffer of 4 KB, which accommodates most HTTP requests. Alternately, authentication headers, parsed as unknown headers, can add up to 12 KB to that, so if authentication/authorization is used, a buffer size of at least 16 KB is recommended.
@@ -256,23 +256,23 @@ If
 
 
 
-<a href="https://msdn.microsoft.com/1da9907d-a09d-41e1-aca1-9a8e2b91296f">HTTP Server API Version 1.0 Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-functions">HTTP Server API Version 1.0 Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/e592cf54-df6d-472b-a736-c44a5ccdd3d2">HTTP_REQUEST</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a>
 
 
 
-<a href="https://msdn.microsoft.com/b4ba765f-537b-4021-9ecc-d400d9b94723">HttpReceiveRequestEntityBody</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpreceiverequestentitybody">HttpReceiveRequestEntityBody</a>
 
 
 
-<a href="https://msdn.microsoft.com/0183584f-105e-4fa3-8991-d3f2dfca1d62">HttpSendHttpResponse</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsendhttpresponse">HttpSendHttpResponse</a>
 
 
 
-<a href="https://msdn.microsoft.com/f2ff2e40-ef1f-4c35-a615-f31ac63ab738">HttpSendResponseEntityBody</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsendresponseentitybody">HttpSendResponseEntityBody</a>
  
 
  

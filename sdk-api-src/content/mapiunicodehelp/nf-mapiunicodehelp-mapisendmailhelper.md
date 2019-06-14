@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Takes Unicode message information and sends the message using <a href="https://msdn.microsoft.com/FA6FB49A-FA13-4F2F-8B89-5FD38B18B41B">MAPISendMailW</a> or, if necessary, converts the message to ANSI and sends the message using <a href="https://msdn.microsoft.com/1d7da0f2-b736-401e-86bd-fc4375ccc0d1">MAPISendMail</a>. <b>On Windows 8 and later:  </b>Call <a href="https://msdn.microsoft.com/FA6FB49A-FA13-4F2F-8B89-5FD38B18B41B">MAPISendMailW</a> directly to send a message.
+Takes Unicode message information and sends the message using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a> or, if necessary, converts the message to ANSI and sends the message using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmail">MAPISendMail</a>. <b>On Windows 8 and later:  </b>Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a> directly to send a message.
 
 
 
@@ -75,9 +75,9 @@ If the value of the <i>ulUIParam</i> parameter is zero and a dialog box is displ
 
 ### -param lpMessage [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/FA6FB49A-FA13-4F2F-8B89-5FD38B18B41B">MAPISendMailW</a> structure containing the message to be sent.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a> structure containing the message to be sent.
 
-If the registered mail provider requires the message to use ANSI encoding, <b>MAPISendMailHelper</b> converts this message to the ANSI <a href="https://msdn.microsoft.com/7f696dd6-bfae-4c7d-b55f-d37952691c02">MapiMessage</a> structure calls <a href="https://msdn.microsoft.com/1d7da0f2-b736-401e-86bd-fc4375ccc0d1">MAPISendMail</a> to send the message.
+If the registered mail provider requires the message to use ANSI encoding, <b>MAPISendMailHelper</b> converts this message to the ANSI <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessage">MapiMessage</a> structure calls <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmail">MAPISendMail</a> to send the message.
 
 When you call the function, please note the following information about message structure members:<table>
 <tr>
@@ -135,7 +135,7 @@ A value of zero means that there are no recipients. Additionally, when this memb
 <div> </div>
 If either <b>MAPI_DIALOG</b> or <b>MAPI_DIALOG_MODELESS</b> is not set, the <b>nRecipCount</b> and <b>lpRecips</b> members of the structure must be valid for successful message delivery. Client applications can set the <b>flFlags</b> member to <b>MAPI_RECEIPT_REQUESTED</b> to request a read report.
 
-For more details about how the function handles recipient information, see <a href="https://msdn.microsoft.com/en-us/library/Hh707275(v=VS.85).aspx">Handling recipient information</a> in <b>MAPISendMailW</b>.
+For more details about how the function handles recipient information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">Handling recipient information</a> in <b>MAPISendMailW</b>.
 
 
 ### -param flFlags [in]
@@ -380,7 +380,7 @@ There were too many recipients. No message was sent.
 <td width="60%">
 The <b>MAPI_FORCE_UNICODE</b> flag is specified and Unicode is not supported.
 
-<div class="alert"><b>Note</b>  This value  can be returned only if  <a href="https://msdn.microsoft.com/FA6FB49A-FA13-4F2F-8B89-5FD38B18B41B">MAPISendMailW</a> is called to send the message.</div>
+<div class="alert"><b>Note</b>  This value  can be returned only if  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a> is called to send the message.</div>
 <div> </div>
 </td>
 </tr>
@@ -430,7 +430,7 @@ The call succeeded and the message was sent.
 
 
 
-For more information about MAPI send mail functions, see <a href="https://msdn.microsoft.com/FA6FB49A-FA13-4F2F-8B89-5FD38B18B41B">MAPISendMailW</a>.
+For more information about MAPI send mail functions, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a>.
 
 
 
@@ -440,7 +440,7 @@ For more information about MAPI send mail functions, see <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/FA6FB49A-FA13-4F2F-8B89-5FD38B18B41B">MAPISendMailW</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a>
 
 
 

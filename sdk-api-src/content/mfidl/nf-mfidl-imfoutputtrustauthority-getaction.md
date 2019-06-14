@@ -63,7 +63,7 @@ Retrieves the action that is performed by this output trust authority (OTA).
 
 ### -param pAction [out]
 
-Receives a member of the <a href="https://msdn.microsoft.com/74cee983-e084-458b-b615-5447cca9abbc">MFPOLICYMANAGER_ACTION</a> enumeration.
+Receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-_mfpolicymanager_action">MFPOLICYMANAGER_ACTION</a> enumeration.
 
 
 ## -returns
@@ -99,7 +99,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/21594ac0-7e3c-44a3-bbee-64316dd51824">IMFOutputTrustAuthority</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfoutputtrustauthority">IMFOutputTrustAuthority</a>
  
 
  

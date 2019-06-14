@@ -66,7 +66,7 @@ The animation variable for which the animation curve has been updated.
 
 
 
-If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/38f15d61-d415-4c7d-b454-5144fc7c9b1e">Windows Animation Error Codes</a> for a list of error codes.
+If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
 
 
 
@@ -76,11 +76,11 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/98C95C85-30C9-4E3E-82FE-E3D4C7ECAE0B">IUIAnimationVariable2::SetVariableCurveChangeHandler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable2-setvariablecurvechangehandler">IUIAnimationVariable2::SetVariableCurveChangeHandler</a>
 
 
 
-<a href="https://msdn.microsoft.com/C3F992CE-6C12-40AF-BA22-10C82E597314">IUIAnimationVariableCurveChangeHandler2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationvariablecurvechangehandler2">IUIAnimationVariableCurveChangeHandler2</a>
  
 
  

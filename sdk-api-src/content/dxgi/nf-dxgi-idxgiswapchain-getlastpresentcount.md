@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the number of times  that <a href="https://msdn.microsoft.com/en-us/library/Bb174576(v=VS.85).aspx">IDXGISwapChain::Present</a> or <a href="https://msdn.microsoft.com/F795A719-71BA-4A25-B41A-9D93F96B6CA4">IDXGISwapChain1::Present1</a> has been called.
+Gets the number of times  that <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present">IDXGISwapChain::Present</a> or <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-present1">IDXGISwapChain1::Present1</a> has been called.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Gets the number of times  that <a href="https://msdn.microsoft.com/en-us/library
 
 ### -param pLastPresentCount [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
 A pointer to a variable that receives the number of calls.
 
@@ -69,9 +69,9 @@ A pointer to a variable that receives the number of calls.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-Returns one of the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> values.
+Returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a> values.
 
 
 
@@ -80,7 +80,7 @@ Returns one of the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=
 
 
 
-For info about presentation statistics for a frame, see <a href="https://msdn.microsoft.com/en-us/library/Bb173060(v=VS.85).aspx">DXGI_FRAME_STATISTICS</a>.
+For info about presentation statistics for a frame, see <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/ns-dxgi-dxgi_frame_statistics">DXGI_FRAME_STATISTICS</a>.
 
 
 
@@ -90,7 +90,7 @@ For info about presentation statistics for a frame, see <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174569(v=VS.85).aspx">IDXGISwapChain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain">IDXGISwapChain</a>
  
 
  

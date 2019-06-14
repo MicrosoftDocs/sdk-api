@@ -85,7 +85,7 @@ RemovePage can be used only for pages that the snap-in has added.
 
 
 
-<a href="https://msdn.microsoft.com/e2115929-692e-4e59-bcdb-f37b02c53224">IPropertySheetCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-ipropertysheetcallback">IPropertySheetCallback</a>
  
 
  

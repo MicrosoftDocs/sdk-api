@@ -60,9 +60,9 @@ The <b>GraphicsPath::Outline</b> method transforms and flattens this path, and t
 
 ### -param matrix [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a>*</b>
 
-Optional. Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a> object that specifies the transformation. If this parameter is <b>NULL</b>, no transformation is applied. The default value is <b>NULL</b>. 
+Optional. Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a> object that specifies the transformation. If this parameter is <b>NULL</b>, no transformation is applied. The default value is <b>NULL</b>. 
 
 
 ### -param flatness [in]
@@ -76,12 +76,12 @@ Optional. Real number that specifies the maximum error between the path and its 
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 </strong>
 
-If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+If the method succeeds, it returns Ok, which is an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+If the method fails, it returns one of the other elements of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 
 
@@ -90,14 +90,14 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-A <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object stores a collection of data points that represent lines and curves. The <b>GraphicsPath::Outline</b> method changes those data points, and the original data points are lost.
+A <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object stores a collection of data points that represent lines and curves. The <b>GraphicsPath::Outline</b> method changes those data points, and the original data points are lost.
 
 
 #### Examples
 
 
 
-The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object and calls the <a href="https://msdn.microsoft.com/en-us/library/ms535615(v=VS.85).aspx">GraphicsPath::AddClosedCurve</a> method to add a closed cardinal spline to the path. The code calls the <a href="https://msdn.microsoft.com/en-us/library/ms535572(v=VS.85).aspx">GraphicsPath::Widen</a> method to widen the path and then draws the path. Next, the code calls the path's <b>Outline</b> method. The code calls the <a href="https://msdn.microsoft.com/en-us/library/ms535820(v=VS.85).aspx">TranslateTransform</a> method of a Graphics object so that the outlined path drawn by the subsequent call to <a href="https://msdn.microsoft.com/en-us/library/ms535685(v=VS.85).aspx">DrawPath</a> sits to the right of the first path.
+The following example creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object and calls the <a href="https://docs.microsoft.com/previous-versions//ms535615(v=vs.85)">GraphicsPath::AddClosedCurve</a> method to add a closed cardinal spline to the path. The code calls the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-widen">GraphicsPath::Widen</a> method to widen the path and then draws the path. Next, the code calls the path's <b>Outline</b> method. The code calls the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-translatetransform">TranslateTransform</a> method of a Graphics object so that the outlined path drawn by the subsequent call to <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawpath">DrawPath</a> sits to the right of the first path.
 
 
 ```cpp
@@ -138,39 +138,39 @@ VOID OutlineExample(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533825(v=VS.85).aspx">Clipping with a Region</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-clipping-with-a-region-use">Clipping with a Region</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533805(v=VS.85).aspx">Constructing and Drawing Paths</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-constructing-and-drawing-paths-use">Constructing and Drawing Paths</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533917(v=VS.85).aspx">Creating a Path Gradient</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-creating-a-path-gradient-use">Creating a Path Gradient</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535530(v=VS.85).aspx">GraphicsPath::Flatten</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-flatten">GraphicsPath::Flatten</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535571(v=VS.85).aspx">GraphicsPath::Warp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-warp">GraphicsPath::Warp</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535572(v=VS.85).aspx">GraphicsPath::Widen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-widen">GraphicsPath::Widen</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536370(v=VS.85).aspx">Paths</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>
  
 
  

@@ -82,11 +82,11 @@ This function should return ERROR_SUCCESS.
 
 
 
-<a href="https://msdn.microsoft.com/9903eb4b-017b-47df-81c5-98c4e1ac697d">CollectPerformanceData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winperf/nc-winperf-pm_collect_proc">CollectPerformanceData</a>
 
 
 
-<a href="https://msdn.microsoft.com/06913524-77b7-470b-82d9-8be92fda3109">OpenPerformanceData</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa372200(v=vs.85)">OpenPerformanceData</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>LSA_TRANSLATED_NAME</b> structure is used with the 
-<a href="https://msdn.microsoft.com/69051bad-91e7-469d-9010-48ac3d20f8af">LsaLookupSids</a> function to return information about the account identified by a <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupsids">LsaLookupSids</a> function to return information about the account identified by a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ The <b>LSA_TRANSLATED_NAME</b> structure is used with the
 ### -field Use
 
 A value from the 
-<a href="https://msdn.microsoft.com/4e6af6bd-056b-4f5a-b223-57a673c3fcfa">SID_NAME_USE</a> enumeration that identifies the type of SID. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_sid_name_use">SID_NAME_USE</a> enumeration that identifies the type of SID. 
 
 
 
@@ -120,14 +120,14 @@ The <b>Name</b> member is valid, but the <b>DomainIndex</b> member is not valid 
 ### -field Name
 
 An 
-<a href="https://msdn.microsoft.com/9e1cf20f-01f9-4813-bf95-e47c5d57dcdc">LSA_UNICODE_STRING</a> structure that contains the isolated name of the translated SID. An isolated name is a user, group, or local group account name without the domain name (for example, user_name, rather than Acctg\user_name).
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the isolated name of the translated SID. An isolated name is a user, group, or local group account name without the domain name (for example, user_name, rather than Acctg\user_name).
 
 
 ### -field DomainIndex
 
 Specifies the zero-based index of an entry in the 
-<a href="https://msdn.microsoft.com/ddf0afcb-7ec4-42ed-bf40-38ef33f33a0c">LSA_REFERENCED_DOMAIN_LIST</a> structure returned by the 
-<a href="https://msdn.microsoft.com/69051bad-91e7-469d-9010-48ac3d20f8af">LsaLookupSids</a> function. The entry contains the name and SID of the domain in which the account was found. 
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_referenced_domain_list">LSA_REFERENCED_DOMAIN_LIST</a> structure returned by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupsids">LsaLookupSids</a> function. The entry contains the name and SID of the domain in which the account was found. 
 
 
 
@@ -140,19 +140,19 @@ If there is no corresponding domain for an account, this member contains a negat
 
 
 
-<a href="https://msdn.microsoft.com/ddf0afcb-7ec4-42ed-bf40-38ef33f33a0c">LSA_REFERENCED_DOMAIN_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_referenced_domain_list">LSA_REFERENCED_DOMAIN_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e1cf20f-01f9-4813-bf95-e47c5d57dcdc">LSA_UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string">LSA_UNICODE_STRING</a>
 
 
 
-<a href="https://msdn.microsoft.com/69051bad-91e7-469d-9010-48ac3d20f8af">LsaLookupSids</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupsids">LsaLookupSids</a>
 
 
 
-<a href="https://msdn.microsoft.com/4e6af6bd-056b-4f5a-b223-57a673c3fcfa">SID_NAME_USE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_sid_name_use">SID_NAME_USE</a>
  
 
  

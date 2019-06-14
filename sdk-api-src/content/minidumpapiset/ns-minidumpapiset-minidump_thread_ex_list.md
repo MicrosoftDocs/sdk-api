@@ -65,7 +65,7 @@ The number of structures in the <b>Threads</b> array.
 ### -field Threads
 
 An array of 
-<a href="https://msdn.microsoft.com/aa99bdf3-29b7-4865-8935-810388f3d2b3">MINIDUMP_THREAD_EX</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_thread_ex">MINIDUMP_THREAD_EX</a> structures.
 
 
 ## -see-also
@@ -73,11 +73,11 @@ An array of
 
 
 
-<a href="https://msdn.microsoft.com/495136a0-2fed-47ca-8233-7e813b43b82f">MINIDUMP_STREAM_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa99bdf3-29b7-4865-8935-810388f3d2b3">MINIDUMP_THREAD_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_thread_ex">MINIDUMP_THREAD_EX</a>
  
 
  

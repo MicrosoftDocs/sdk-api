@@ -61,17 +61,17 @@ The <b>CombineTransform</b> function concatenates two world-space to page-space 
 
 ### -param lpxfOut [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/49f0d7ee-77fa-415e-af00-b8930253a3a9">XFORM</a> structure that receives the combined transformation.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagxform">XFORM</a> structure that receives the combined transformation.
 
 
 ### -param lpxf1 [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/49f0d7ee-77fa-415e-af00-b8930253a3a9">XFORM</a> structure that specifies the first transformation.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagxform">XFORM</a> structure that specifies the first transformation.
 
 
 ### -param lpxf2 [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/49f0d7ee-77fa-415e-af00-b8930253a3a9">XFORM</a> structure that specifies the second transformation.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagxform">XFORM</a> structure that specifies the second transformation.
 
 
 ## -returns
@@ -91,7 +91,7 @@ If the function fails, the return value is zero.
 
 Applying the combined transformation has the same effect as applying the first transformation and then applying the second transformation.
 
-The three transformations need not be distinct. For example, <i>lpxform1</i> can point to the same <a href="https://msdn.microsoft.com/49f0d7ee-77fa-415e-af00-b8930253a3a9">XFORM</a> structure as <i>lpxformResult</i>.
+The three transformations need not be distinct. For example, <i>lpxform1</i> can point to the same <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagxform">XFORM</a> structure as <i>lpxformResult</i>.
 
 
 
@@ -101,27 +101,27 @@ The three transformations need not be distinct. For example, <i>lpxform1</i> can
 
 
 
-<a href="https://msdn.microsoft.com/3ebcabf2-9718-47b2-aba0-7cc28fa42e5a">Coordinate Space and Transformation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/coordinate-space-and-transformation-functions">Coordinate Space and Transformation Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/cfb02788-9b73-4451-9e68-2ad310e0e527">Coordinate Spaces and Transformations Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/coordinate-spaces-and-transformations">Coordinate Spaces and Transformations Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/72945b1e-144e-4724-bf08-6f971f8adb43">GetWorldTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getworldtransform">GetWorldTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/2ce070e8-dd6d-4f28-8214-37e825b44273">ModifyWorldTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-modifyworldtransform">ModifyWorldTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/d103a4dd-949e-4f18-ac90-bb0e51011233">SetWorldTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setworldtransform">SetWorldTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/49f0d7ee-77fa-415e-af00-b8930253a3a9">XFORM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagxform">XFORM</a>
  
 
  

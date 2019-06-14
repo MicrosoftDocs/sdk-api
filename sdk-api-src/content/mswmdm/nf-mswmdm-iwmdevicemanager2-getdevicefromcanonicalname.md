@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>GetDeviceFromCanonicalName</b> method retrieves an <b>IWMDMDevice</b> interface for a device with a specified canonical name. You can retrieve a device's canonical name by calling <a href="https://msdn.microsoft.com/16e18a9e-315f-41a2-b895-e3e478720864">IWMDMDevice2::GetCanonicalName</a>.
+The <b>GetDeviceFromCanonicalName</b> method retrieves an <b>IWMDMDevice</b> interface for a device with a specified canonical name. You can retrieve a device's canonical name by calling <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice2-getcanonicalname">IWMDMDevice2::GetCanonicalName</a>.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ A wide-character, <b>null</b>-terminated string specifying the canonical name of
 
 ### -param ppDevice
 
-Pointer to a pointer to the <a href="https://msdn.microsoft.com/44212da9-a38a-4ed5-86af-cf60b40bb54d">IWMDMDevice</a> interface of the device object with the specified canonical name. The caller must release this interface when done with it.
+Pointer to a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice">IWMDMDevice</a> interface of the device object with the specified canonical name. The caller must release this interface when done with it.
 
 
 ## -returns
@@ -111,7 +111,7 @@ There is no connected device found with canonical name <i>pwszCanonicalName</i>.
 
 
 
-This method can be useful if an application implements <a href="https://msdn.microsoft.com/3089a04d-24f5-4a4c-9df5-b4073fef358a">IWMDMNotification</a>, which sends a canonical name notification when a device connects or disconnects from the computer.
+This method can be useful if an application implements <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmnotification">IWMDMNotification</a>, which sends a canonical name notification when a device connects or disconnects from the computer.
 
 
 
@@ -121,11 +121,11 @@ This method can be useful if an application implements <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/d8dcbde1-24ae-4ca6-aaf4-2d1511102ae9">IWMDMDevice2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice2">IWMDMDevice2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/ea4bf623-c93a-4c0f-a84f-e3a979b37d60">IWMDeviceManager2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager2">IWMDeviceManager2 Interface</a>
  
 
  

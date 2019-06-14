@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-You can use this method to retrieve details of the assessment that are not available in the summary information provided through the API. For details about all the information available in an assessment, see the <a href="https://msdn.microsoft.com/da497f3b-f5a2-401e-8230-937362ecf4f2">WinSAT Schema</a>.
+You can use this method to retrieve details of the assessment that are not available in the summary information provided through the API. For details about all the information available in an assessment, see the <a href="https://docs.microsoft.com/windows/desktop/WinSAT/winsat-schema">WinSAT Schema</a>.
 
 The first formal assessment is run when you initially set up your computer. The initial assessment will remain in the data store for the life of the data store. The WinSAT data store can contain up to 100 formal assessments. When the store reaches capacity, WinSAT will delete the oldest assessment (but not the initial assessment) in the data store for each new formal assessment that is run.
 
@@ -196,15 +196,15 @@ cleanup:
 
 
 
-<a href="https://msdn.microsoft.com/0b299477-50a4-4f61-a0e5-fdbae239503b">IInitiateWinSATAssessment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iinitiatewinsatassessment">IInitiateWinSATAssessment</a>
 
 
 
-<a href="https://msdn.microsoft.com/b78cfaf1-0fce-449c-96f5-76d318f30384">IQueryAllWinSATAssessments</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iqueryallwinsatassessments">IQueryAllWinSATAssessments</a>
 
 
 
-<a href="https://msdn.microsoft.com/f8a1c664-bea3-4505-bcf0-2b8715dbe7dd">IQueryRecentWinSATAssessment::XML</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iqueryrecentwinsatassessment-get_xml">IQueryRecentWinSATAssessment::XML</a>
  
 
  

@@ -92,7 +92,7 @@ This is the default termination action.
 </td>
 <td width="60%">
 Posts a completion packet to the completion port using the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365458(v=VS.85).aspx">PostQueuedCompletionStatus</a> function. After the completion packet is posted, the system clears the end-of-job time limit, and processes in the job can continue their execution. 
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/postqueuedcompletionstatus">PostQueuedCompletionStatus</a> function. After the completion packet is posted, the system clears the end-of-job time limit, and processes in the job can continue their execution. 
 
 
 
@@ -110,10 +110,10 @@ If no completion port is associated with the job when the time limit has been ex
 
 
 The end-of-job time limit is specified in the <b>PerJobUserTimeLimit</b> member of the 
-<a href="https://msdn.microsoft.com/83b940a7-05a0-4f5e-bfe3-3f2ac17e2d67">JOBOBJECT_BASIC_LIMIT_INFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_jobobject_basic_limit_information">JOBOBJECT_BASIC_LIMIT_INFORMATION</a> structure.
 
 To associate a completion port with a job, use the 
-<a href="https://msdn.microsoft.com/18120d81-5480-4e0d-8422-0366a6811319">JOBOBJECT_ASSOCIATE_COMPLETION_PORT</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_jobobject_associate_completion_port">JOBOBJECT_ASSOCIATE_COMPLETION_PORT</a> structure.
 
 
 
@@ -123,23 +123,23 @@ To associate a completion port with a job, use the
 
 
 
-<a href="https://msdn.microsoft.com/18120d81-5480-4e0d-8422-0366a6811319">JOBOBJECT_ASSOCIATE_COMPLETION_PORT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_jobobject_associate_completion_port">JOBOBJECT_ASSOCIATE_COMPLETION_PORT</a>
 
 
 
-<a href="https://msdn.microsoft.com/83b940a7-05a0-4f5e-bfe3-3f2ac17e2d67">JOBOBJECT_BASIC_LIMIT_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_jobobject_basic_limit_information">JOBOBJECT_BASIC_LIMIT_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365458(v=VS.85).aspx">PostQueuedCompletionStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/postqueuedcompletionstatus">PostQueuedCompletionStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/d843d578-fd67-4708-959f-00245ff70ec6">QueryInformationJobObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject">QueryInformationJobObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/46f7c579-e8d3-4434-a6ce-56573cd84387">SetInformationJobObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>
  
 
  

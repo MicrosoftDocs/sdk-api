@@ -57,7 +57,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>LookupAccountSid</b> function accepts a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) as input. It retrieves the name of the account for this SID and the name of the first domain on which this SID is found.
+The <b>LookupAccountSid</b> function accepts a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) as input. It retrieves the name of the account for this SID and the name of the first domain on which this SID is found.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ A pointer to a <b>null</b>-terminated character string that specifies the target
 ### -param Sid [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> to look up.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> to look up.
 
 
 ### -param Name [out, optional]
@@ -106,7 +106,7 @@ On input, specifies the size, in <b>TCHAR</b>s, of the <i>lpReferencedDomainName
 ### -param peUse [out]
 
 A pointer to a variable that receives a 
-<a href="https://msdn.microsoft.com/4e6af6bd-056b-4f5a-b223-57a673c3fcfa">SID_NAME_USE</a> value that indicates the type of the account.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_sid_name_use">SID_NAME_USE</a> value that indicates the type of the account.
 
 
 ## -returns
@@ -116,7 +116,7 @@ A pointer to a variable that receives a
 If the function succeeds, the function returns nonzero.
 
 If the function fails, it returns zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -125,16 +125,16 @@ If the function fails, it returns zero. To get extended error information, call
 
 
 
-The <b>LookupAccountSid</b> function attempts to find a name for the specified SID by first checking a list of well-known SIDs. If the supplied SID does not correspond to a well-known SID, the function checks built-in and administratively defined local accounts. Next, the function checks the primary domain. <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">Security identifiers</a> not recognized by the primary domain are checked against the trusted domains that correspond to their SID prefixes.
+The <b>LookupAccountSid</b> function attempts to find a name for the specified SID by first checking a list of well-known SIDs. If the supplied SID does not correspond to a well-known SID, the function checks built-in and administratively defined local accounts. Next, the function checks the primary domain. <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Security identifiers</a> not recognized by the primary domain are checked against the trusted domains that correspond to their SID prefixes.
 
-If the function cannot find an account name for the SID, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns ERROR_NONE_MAPPED. This can occur if a network time-out prevents the function from finding the name. It also occurs for SIDs that have no corresponding account name, such as a <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">logon SID</a> that identifies a <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">logon session</a>.
+If the function cannot find an account name for the SID, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_NONE_MAPPED. This can occur if a network time-out prevents the function from finding the name. It also occurs for SIDs that have no corresponding account name, such as a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon SID</a> that identifies a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a>.
 
 In addition to looking up SIDs for local accounts, local domain accounts, and explicitly trusted domain accounts, <b>LookupAccountSid</b> can look up SIDs for any account in any domain in the forest, including SIDs that appear only in the SIDhistory field of an account in the forest. The SIDhistory field stores former SIDs of an account that has been moved from another domain. To look up a SID, <b>LookupAccountSid</b> queries the global catalog of the forest. 
 
 
 #### Examples
 
-For an example that uses this function, see <a href="https://msdn.microsoft.com/f895dfef-75ad-419c-95d0-6480bdf9c769">Searching for a SID in an Access Token</a>.
+For an example that uses this function, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/searching-for-a-sid-in-an-access-token-in-c--">Searching for a SID in an Access Token</a>.
 
 <div class="code"></div>
 
@@ -145,27 +145,27 @@ For an example that uses this function, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/d9ce4ec5-5c09-4b33-93a1-39638a925986">Access Control Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/ef41de63-4ab5-40c6-8b16-b960e1308b5b">EqualPrefixSid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-equalprefixsid">EqualPrefixSid</a>
 
 
 
-<a href="https://msdn.microsoft.com/72855539-469a-4289-99cc-eae2ed89901f">LookupAccountName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea">LookupAccountName</a>
 
 
 
-<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
 
 
 
-<a href="https://msdn.microsoft.com/4e6af6bd-056b-4f5a-b223-57a673c3fcfa">SID_NAME_USE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_sid_name_use">SID_NAME_USE</a>
  
 
  

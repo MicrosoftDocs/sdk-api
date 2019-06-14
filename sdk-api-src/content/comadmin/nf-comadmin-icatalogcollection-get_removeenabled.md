@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates whether the <a href="https://msdn.microsoft.com/984f60b1-0963-482c-90a3-563e8699f73d">Remove</a> method is enabled for the collection.
+Indicates whether the <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-remove">Remove</a> method is enabled for the collection.
 
 This property is read-only.
 
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/7c24ead4-d69f-467d-b3d8-a81adbc49a7b">ICatalogCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a>
  
 
  

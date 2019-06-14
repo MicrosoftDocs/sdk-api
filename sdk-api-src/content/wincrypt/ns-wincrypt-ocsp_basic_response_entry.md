@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>OCSP_BASIC_RESPONSE_ENTRY</b> structure contains the current certificate status for a single certificate. This structure populates the <a href="https://msdn.microsoft.com/f067bfa0-114b-4295-bbee-a963d8b64332">OCSP_BASIC_RESPONSE_INFO</a> <b>rgResponseEntry</b> member.
+The <b>OCSP_BASIC_RESPONSE_ENTRY</b> structure contains the current certificate status for a single certificate. This structure populates the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ocsp_basic_response_info">OCSP_BASIC_RESPONSE_INFO</a> <b>rgResponseEntry</b> member.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ The <b>OCSP_BASIC_RESPONSE_ENTRY</b> structure contains the current certificate 
 
 ### -field CertId
 
-An <a href="https://msdn.microsoft.com/58717990-a7f7-4b41-aceb-cbce55411396">OCSP_CERT_ID</a> structure that specifies the target certificate of the <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">online certificate status protocol</a> (OCSP) response. 
+An <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ocsp_cert_id">OCSP_CERT_ID</a> structure that specifies the target certificate of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) response. 
 
 
 ### -field dwCertStatus
@@ -120,7 +120,7 @@ The responder has no information for the target certificate.
 
 ### -field DUMMYUNIONNAME.pRevokedInfo
 
-A pointer to an <a href="https://msdn.microsoft.com/4475cf2a-bf25-427d-8e53-5e5b96dd676a">OCSP_BASIC_REVOKED_INFO</a> structure that specifies the reason the target certificate was revoked.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ocsp_basic_revoked_info">OCSP_BASIC_REVOKED_INFO</a> structure that specifies the reason the target certificate was revoked.
 
 
 ### -field ThisUpdate
@@ -140,7 +140,7 @@ The number of elements in the <b>rgExtension</b> array.
 
 ### -field rgExtension
 
-An array of pointers to  <a href="https://msdn.microsoft.com/787a4df0-c0e3-46b9-a7e6-eb3bee3ed717">CERT_EXTENSION</a> structures, each of which contains additional information about the response.
+An array of pointers to  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_extension">CERT_EXTENSION</a> structures, each of which contains additional information about the response.
 
 
 ## -see-also
@@ -148,19 +148,19 @@ An array of pointers to  <a href="https://msdn.microsoft.com/787a4df0-c0e3-46b9-
 
 
 
-<a href="https://msdn.microsoft.com/787a4df0-c0e3-46b9-a7e6-eb3bee3ed717">CERT_EXTENSION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_extension">CERT_EXTENSION</a>
 
 
 
-<a href="https://msdn.microsoft.com/f067bfa0-114b-4295-bbee-a963d8b64332">OCSP_BASIC_RESPONSE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ocsp_basic_response_info">OCSP_BASIC_RESPONSE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/4475cf2a-bf25-427d-8e53-5e5b96dd676a">OCSP_BASIC_REVOKED_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ocsp_basic_revoked_info">OCSP_BASIC_REVOKED_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/58717990-a7f7-4b41-aceb-cbce55411396">OCSP_CERT_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ocsp_cert_id">OCSP_CERT_ID</a>
 
 
 

@@ -74,11 +74,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/016166a1-72ac-4ce8-9c86-43cf94b1bdbd">ITMediaControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itmediacontrol">ITMediaControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/b6fdf0da-9e22-4c77-9cd8-6ceccba81221">Start</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itmediacontrol-start">Start</a>
  
 
  

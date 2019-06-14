@@ -89,11 +89,11 @@ Call this method when a process must know whether an action has been canceled. I
 
 
 
-<a href="https://msdn.microsoft.com/e742e381-0fd2-482a-81a0-7b43d11b073b">IActionProgress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogress">IActionProgress</a>
 
 
 
-<a href="https://msdn.microsoft.com/28a2ee51-0a7a-4802-be55-f111be3a4d2d">IActionProgress::ResetCancel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iactionprogress-resetcancel">IActionProgress::ResetCancel</a>
  
 
  

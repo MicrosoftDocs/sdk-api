@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Defines values that are used to specify whether an event occurred on an ink collector and, if so, which event fired. To get the status of a given event, call the <a href="https://msdn.microsoft.com/532a798e-b434-4730-8c20-7ec60255f170">GetEventInterest</a> method. To set the status of a given event, call the <a href="https://msdn.microsoft.com/df25efbb-5229-4211-948f-3a213154a967">SetEventInterest</a> method.
+Defines values that are used to specify whether an event occurred on an ink collector and, if so, which event fired. To get the status of a given event, call the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-geteventinterest">GetEventInterest</a> method. To set the status of a given event, call the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-seteventinterest">SetEventInterest</a> method.
 
 
 
@@ -62,7 +62,7 @@ Defines values that are used to specify whether an event occurred on an ink coll
 
 ### -field ICEI_DefaultEvents
 
-The ink collector is interested in the <a href="https://msdn.microsoft.com/eaa89dfe-6141-4205-845b-634321130e26">Stroke</a>, <a href="https://msdn.microsoft.com/d05b240c-ba64-4008-b25d-e06c052eb5b0">CursorInRange</a>, and <a href="https://msdn.microsoft.com/a3a570ed-570b-4579-b120-ed5457630bc2">CursorOutOfRange</a> events.
+The ink collector is interested in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-stroke">Stroke</a>, <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-cursorinrange">CursorInRange</a>, and <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-cursoroutofrange">CursorOutOfRange</a> events.
 
 
 ### -field ICEI_CursorDown
@@ -155,23 +155,23 @@ The ink collector recognizes all events.
 
 
 
-<a href="https://msdn.microsoft.com/532a798e-b434-4730-8c20-7ec60255f170">GetEventInterest Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-geteventinterest">GetEventInterest Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/189f430e-9d00-4e29-bb8c-8ac195896793">InkCollector Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-class">InkCollector Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/61191ab3-075e-458b-9e0f-4bc255687b3c">InkOverlay Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9fa6807-6e2a-44ec-9b8f-a560185e4367">InkPicture Control Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture Control Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/df25efbb-5229-4211-948f-3a213154a967">SetEventInterest Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-seteventinterest">SetEventInterest Method</a>
  
 
  

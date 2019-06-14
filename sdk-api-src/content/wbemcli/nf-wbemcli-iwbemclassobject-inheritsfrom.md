@@ -76,7 +76,7 @@ Cannot be <b>NULL</b>. It contains the class name that is being tested. If the c
 
 
 
-This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>. For general <b>HRESULT</b> values, see <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>. For general <b>HRESULT</b> values, see <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -86,11 +86,11 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 
 
 
-<a href="https://msdn.microsoft.com/05228d88-baa2-4e89-a8c8-139f9ffea86c">GetPropertyOrigin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-getpropertyorigin">GetPropertyOrigin</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the text meant for display when the list-view control appears empty. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774921(v=VS.85).aspx">LVM_GETEMPTYTEXT</a> message explicitly.
+Gets the text meant for display when the list-view control appears empty. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getemptytext">LVM_GETEMPTYTEXT</a> message explicitly.
 
 
 ## -parameters
@@ -59,21 +59,21 @@ Gets the text meant for display when the list-view control appears empty. Use th
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
 
 ### -param pszText [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">PWSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">PWSTR</a></b>
 
 A pointer to a null-terminated, Unicode buffer of size specified by <i>cchText</i> to receive the text. The caller is responsible for allocating the buffer.
 
 
 ### -param cchText [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The size of the buffer pointed to by <i>pszText</i>, including the terminating               <b>NULL</b>.
 

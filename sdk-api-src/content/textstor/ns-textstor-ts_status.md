@@ -122,10 +122,10 @@ Contains a set of flags that cannot be changed at run time. This member can cont
 
 
 
-The <a href="https://msdn.microsoft.com/1f00c8e1-435c-45ce-892a-36af68154144">TF_STATUS</a> structure contains document status data.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms629192(v=vs.85)">TF_STATUS</a> structure contains document status data.
 
 
-<a href="https://msdn.microsoft.com/1f00c8e1-435c-45ce-892a-36af68154144">TF_STATUS</a> is an alias for <b>TS_STATUS</b>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms629192(v=vs.85)">TF_STATUS</a> is an alias for <b>TS_STATUS</b>.
 
 <b>dwDynamicFlags</b> contains a set of flags that can be changed by an app at run time. For example, an app can enable a check box for the user to reset the status of documentation. This member can contain zero, or one or more of the following values.
 
@@ -198,22 +198,22 @@ The <a href="https://msdn.microsoft.com/1f00c8e1-435c-45ce-892a-36af68154144">TF
 
 
 
-<a href="https://msdn.microsoft.com/6ed040ac-8584-4f09-9af8-218b5cd33765">ITextStoreACP::GetStatus
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getstatus">ITextStoreACP::GetStatus
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/44ecc116-e6f3-48dd-9bff-16d3c1e4cc97">ITextStoreACPSink::OnStatusChange
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacpsink-onstatuschange">ITextStoreACPSink::OnStatusChange
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/61192268-5a5f-4caa-bdb8-799ee4aea24e">ITextStoreAnchor::GetStatus
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-getstatus">ITextStoreAnchor::GetStatus
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/28bdfa93-29c1-4a9f-b85e-20c39a1b429b">ITextStoreAnchorSink::OnStatusChange
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onstatuschange">ITextStoreAnchorSink::OnStatusChange
       </a>
  
 

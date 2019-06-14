@@ -50,9 +50,9 @@ ms.custom: 19H1
 ## -description
 
 
-Registers a window to process the <a href="https://msdn.microsoft.com/9ED01D4C-58B4-4A21-B510-784281F9A909">WM_POINTERDEVICECHANGE</a>,
-<a href="https://msdn.microsoft.com/04244758-E662-4FB2-850E-20B4B3D1294A">WM_POINTERDEVICEINRANGE</a>, and
-<a href="https://msdn.microsoft.com/6BC667C1-6D9A-4E69-BAC6-761A1859F09E">WM_POINTERDEVICEOUTOFRANGE</a> pointer device notifications.
+Registers a window to process the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-pointerdevicechange">WM_POINTERDEVICECHANGE</a>,
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-pointerdeviceinrange">WM_POINTERDEVICEINRANGE</a>, and
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-pointerdeviceoutofrange">WM_POINTERDEVICEOUTOFRANGE</a> pointer device notifications.
 
 
 ## -parameters
@@ -62,15 +62,15 @@ Registers a window to process the <a href="https://msdn.microsoft.com/9ED01D4C-5
 
 ### -param window [in]
 
-The window that receives <a href="https://msdn.microsoft.com/9ED01D4C-58B4-4A21-B510-784281F9A909">WM_POINTERDEVICECHANGE</a>,
-<a href="https://msdn.microsoft.com/04244758-E662-4FB2-850E-20B4B3D1294A">WM_POINTERDEVICEINRANGE</a>, and
-<a href="https://msdn.microsoft.com/6BC667C1-6D9A-4E69-BAC6-761A1859F09E">WM_POINTERDEVICEOUTOFRANGE</a> notifications.
+The window that receives <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-pointerdevicechange">WM_POINTERDEVICECHANGE</a>,
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-pointerdeviceinrange">WM_POINTERDEVICEINRANGE</a>, and
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-pointerdeviceoutofrange">WM_POINTERDEVICEOUTOFRANGE</a> notifications.
 
 
 ### -param notifyRange [in]
 
-If set to TRUE, process the <a href="https://msdn.microsoft.com/04244758-E662-4FB2-850E-20B4B3D1294A">WM_POINTERDEVICEINRANGE</a> and
-<a href="https://msdn.microsoft.com/6BC667C1-6D9A-4E69-BAC6-761A1859F09E">WM_POINTERDEVICEOUTOFRANGE</a> messages. If set to FALSE, these messages aren't processed.
+If set to TRUE, process the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-pointerdeviceinrange">WM_POINTERDEVICEINRANGE</a> and
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-pointerdeviceoutofrange">WM_POINTERDEVICEOUTOFRANGE</a> messages. If set to FALSE, these messages aren't processed.
 
 
 ## -returns
@@ -79,7 +79,7 @@ If set to TRUE, process the <a href="https://msdn.microsoft.com/04244758-E662-4F
 
 If this function succeeds, it returns TRUE.
  
-Otherwise, it returns FALSE. To retrieve extended error information, call the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+Otherwise, it returns FALSE. To retrieve extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 
 
@@ -90,7 +90,7 @@ Otherwise, it returns FALSE. To retrieve extended error information, call the <a
 
 
 
-<a href="https://msdn.microsoft.com/44942954-3EA6-4C33-8CF1-E8BF72A914CB">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_pointerdevice/functions">Functions</a>
  
 
  

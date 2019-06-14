@@ -71,7 +71,7 @@ Provides the name of the column for which data is requested.
 
 ### -param pSearchColumn [out]
 
-Provides the address of a method-allocated  <a href="https://msdn.microsoft.com/9fdb370d-9409-4717-ae10-bb3b5b8a0e02">ADS_SEARCH_COLUMN</a> structure that contains the column from the current row of the search result.
+Provides the address of a method-allocated  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_search_column">ADS_SEARCH_COLUMN</a> structure that contains the column from the current row of the search result.
 
 
 ## -returns
@@ -80,7 +80,7 @@ Provides the address of a method-allocated  <a href="https://msdn.microsoft.com/
 
 This method returns the standard return values, as well as the following.
 
-For other return values, see  <a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>.
+For other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 
 
@@ -89,9 +89,9 @@ For other return values, see  <a href="https://msdn.microsoft.com/573889e4-37af-
 
 
 
-The method allocates the memory for the  <a href="https://msdn.microsoft.com/9fdb370d-9409-4717-ae10-bb3b5b8a0e02">ADS_SEARCH_COLUMN</a> structure to hold the data of the column. But the caller must free the memory by calling  <a href="https://msdn.microsoft.com/72e75429-d22c-490f-a1f7-d771628067c9">IDirectorySearch::FreeColumn</a>.
+The method allocates the memory for the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_search_column">ADS_SEARCH_COLUMN</a> structure to hold the data of the column. But the caller must free the memory by calling  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-freecolumn">IDirectorySearch::FreeColumn</a>.
 
-The <b>IDirectorySearch::GetColumn</b> method tries to read the schema definition of the requested attribute so it can return the attribute values in the appropriate format in the <a href="https://msdn.microsoft.com/b53c4a14-9965-4025-95bc-37f460ea2bc9">ADSVALUE</a> structures, contained in the <a href="https://msdn.microsoft.com/9fdb370d-9409-4717-ae10-bb3b5b8a0e02">ADS_SEARCH_COLUMN</a> structure. However, <b>GetColumn</b> can succeed even when the schema definition is not available, in which case the <b>dwADsType</b> member of the <b>ADS_SEARCH_COLUMN</b> structure returns ADSTYPE_PROV_SPECIFIC and the value is returned in an <a href="https://msdn.microsoft.com/45927280-7fb5-49a6-8ecd-f0a6931bed6a">ADS_PROV_SPECIFIC</a> structure. When you process the results of a <b>GetColumn</b> call, you must verify <b>dwADsType</b> to ensure that the data was returned in the expected format.
+The <b>IDirectorySearch::GetColumn</b> method tries to read the schema definition of the requested attribute so it can return the attribute values in the appropriate format in the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_adsvalue">ADSVALUE</a> structures, contained in the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_search_column">ADS_SEARCH_COLUMN</a> structure. However, <b>GetColumn</b> can succeed even when the schema definition is not available, in which case the <b>dwADsType</b> member of the <b>ADS_SEARCH_COLUMN</b> structure returns ADSTYPE_PROV_SPECIFIC and the value is returned in an <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0004">ADS_PROV_SPECIFIC</a> structure. When you process the results of a <b>GetColumn</b> call, you must verify <b>dwADsType</b> to ensure that the data was returned in the expected format.
 
 
 #### Examples
@@ -138,19 +138,19 @@ m_pSearch->CloseSearchHandle( hSearch );
 
 
 
-<a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/9fdb370d-9409-4717-ae10-bb3b5b8a0e02">ADS_SEARCH_COLUMN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_search_column">ADS_SEARCH_COLUMN</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8989795-8f72-476a-a69e-c0e8800289ab">IDirectorySearch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectorysearch">IDirectorySearch</a>
 
 
 
-<a href="https://msdn.microsoft.com/72e75429-d22c-490f-a1f7-d771628067c9">IDirectorySearch::FreeColumn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-freecolumn">IDirectorySearch::FreeColumn</a>
  
 
  

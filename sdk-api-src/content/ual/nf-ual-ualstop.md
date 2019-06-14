@@ -59,9 +59,9 @@ Stops a User Access Logging (UAL) session.
 
 ### -param Data [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/5C191327-0D15-41D7-8218-73F387740FDF">UAL_DATA_BLOB</a> structure that specifies session information.
+A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ual/ns-ual-tagual_data_blob">UAL_DATA_BLOB</a> structure that specifies session information.
 
-Only the <b>RoleGuid</b> property of the <a href="https://msdn.microsoft.com/5C191327-0D15-41D7-8218-73F387740FDF">UAL_DATA_BLOB</a> structure is required. All other members can be null.
+Only the <b>RoleGuid</b> property of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ual/ns-ual-tagual_data_blob">UAL_DATA_BLOB</a> structure is required. All other members can be null.
 
 
 ## -returns
@@ -78,11 +78,11 @@ If the function succeeds, it returns <b>S_OK</b>. If it fails, it returns an err
 
 
 
-<a href="https://msdn.microsoft.com/C7A0340F-3250-4570-9672-FC78AFC9ECC6">UalInstrument</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ual/nf-ual-ualinstrument">UalInstrument</a>
 
 
 
-<a href="https://msdn.microsoft.com/800E8BCF-39A1-490A-9B6A-12EE900B8D17">UalStart</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ual/nf-ual-ualstart">UalStart</a>
  
 
  

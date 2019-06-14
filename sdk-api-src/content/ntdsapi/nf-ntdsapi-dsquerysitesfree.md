@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DsQuerySitesFree</b> function frees the memory allocated by the <a href="https://msdn.microsoft.com/7a4cbd1c-8445-4882-8559-d44b6e5693e7">DsQuerySitesByCost</a> function.
+The <b>DsQuerySitesFree</b> function frees the memory allocated by the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsquerysitesbycosta">DsQuerySitesByCost</a> function.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>DsQuerySitesFree</b> function frees the memory allocated by the <a href="
 
 ### -param rgSiteInfo [in]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/1920e824-992f-4d69-9b6d-586f58fa2ef7">DS_SITE_COST_INFO</a> structures allocated by a call to <a href="https://msdn.microsoft.com/7a4cbd1c-8445-4882-8559-d44b6e5693e7">DsQuerySitesByCost</a>.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_site_cost_info">DS_SITE_COST_INFO</a> structures allocated by a call to <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsquerysitesbycosta">DsQuerySitesByCost</a>.
 
 
 ## -returns
@@ -76,15 +76,15 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/1920e824-992f-4d69-9b6d-586f58fa2ef7">DS_SITE_COST_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_site_cost_info">DS_SITE_COST_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/a92783c2-ffb8-473e-8484-1c05ca5453ff">Domain Controller and Replication Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a4cbd1c-8445-4882-8559-d44b6e5693e7">DsQuerySitesByCost</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsquerysitesbycosta">DsQuerySitesByCost</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Releases the device context previously obtained by a call to <a href="https://msdn.microsoft.com/232587a8-ed88-4339-9e28-6e34be263a51">IOleInPlaceSiteWindowless::GetDC</a>.
+Releases the device context previously obtained by a call to <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleinplacesitewindowless-getdc">IOleInPlaceSiteWindowless::GetDC</a>.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ This method returns S_OK on success.
 
 
 
-An object calls this method to notify its container that the object is done with the device context. If the device context was used for drawing, the container should ensure that all overlapping objects are repainted correctly. If the device context was an offscreen device context, its content should also be copied to the screen in the rectangle originally passed to <a href="https://msdn.microsoft.com/232587a8-ed88-4339-9e28-6e34be263a51">IOleInPlaceSiteWindowless::GetDC</a>. See <b>IOleInPlaceSiteWindowless::GetDC</b> for implementation notes relevant to <b>IOleInPlaceSiteWindowless::ReleaseDC</b>.
+An object calls this method to notify its container that the object is done with the device context. If the device context was used for drawing, the container should ensure that all overlapping objects are repainted correctly. If the device context was an offscreen device context, its content should also be copied to the screen in the rectangle originally passed to <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleinplacesitewindowless-getdc">IOleInPlaceSiteWindowless::GetDC</a>. See <b>IOleInPlaceSiteWindowless::GetDC</b> for implementation notes relevant to <b>IOleInPlaceSiteWindowless::ReleaseDC</b>.
 
 
 
@@ -85,11 +85,11 @@ An object calls this method to notify its container that the object is done with
 
 
 
-<a href="https://msdn.microsoft.com/4ad83599-99d2-4b35-95de-cff845a8d5e4">IOleInPlaceSiteWindowless</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a>
 
 
 
-<a href="https://msdn.microsoft.com/232587a8-ed88-4339-9e28-6e34be263a51">IOleInPlaceSiteWindowless::GetDC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleinplacesitewindowless-getdc">IOleInPlaceSiteWindowless::GetDC</a>
  
 
  

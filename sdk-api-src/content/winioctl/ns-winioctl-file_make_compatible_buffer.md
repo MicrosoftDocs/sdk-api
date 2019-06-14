@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Specifies the disc to close the current session for. This control code is used for UDF file systems. This structure is used for input when calling <a href="https://msdn.microsoft.com/bbe58c35-d0da-4c29-a412-a84a138dc9fb">FSCTL_MAKE_MEDIA_COMPATIBLE</a>.
+Specifies the disc to close the current session for. This control code is used for UDF file systems. This structure is used for input when calling <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_make_media_compatible">FSCTL_MAKE_MEDIA_COMPATIBLE</a>.
 
 
 ## -struct-fields
@@ -66,11 +66,11 @@ If <b>TRUE</b>, indicates the media should be finalized. No new data can be appe
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/bbe58c35-d0da-4c29-a412-a84a138dc9fb">FSCTL_MAKE_MEDIA_COMPATIBLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_make_media_compatible">FSCTL_MAKE_MEDIA_COMPATIBLE</a>
  
 
  

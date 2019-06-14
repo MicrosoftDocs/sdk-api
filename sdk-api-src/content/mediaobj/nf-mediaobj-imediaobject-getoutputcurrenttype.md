@@ -68,7 +68,7 @@ Zero-based index of an output stream on the DMO.
 
 ### -param pmt [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd375504(v=VS.85).aspx">DMO_MEDIA_TYPE</a> structure allocated by the caller. The method fills the structure with the media type.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/ns-mediaobj-_dmomediatype">DMO_MEDIA_TYPE</a> structure allocated by the caller. The method fills the structure with the media type.
 
 
 ## -returns
@@ -136,9 +136,9 @@ Success.
 
 
 
-The caller must set the media type for the stream before calling this method. To set the media type, call the <a href="https://msdn.microsoft.com/en-us/library/Dd406963(v=VS.85).aspx">IMediaObject::SetOutputType</a> method.
+The caller must set the media type for the stream before calling this method. To set the media type, call the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-setoutputtype">IMediaObject::SetOutputType</a> method.
 
-If the method succeeds, call <a href="https://msdn.microsoft.com/en-us/library/Dd390698(v=VS.85).aspx">MoFreeMediaType</a> to free the format block.
+If the method succeeds, call <a href="https://docs.microsoft.com/windows/desktop/api/dmort/nf-dmort-mofreemediatype">MoFreeMediaType</a> to free the format block.
 
 
 
@@ -148,7 +148,7 @@ If the method succeeds, call <a href="https://msdn.microsoft.com/en-us/library/D
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406926(v=VS.85).aspx">IMediaObject Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>
  
 
  

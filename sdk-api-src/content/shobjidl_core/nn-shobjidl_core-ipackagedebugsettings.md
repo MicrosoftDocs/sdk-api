@@ -54,7 +54,7 @@ Enables debugger developers to control the life cycle of a Windows Store app, su
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPackageDebugSettings</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPackageDebugSettings</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPackageDebugSettings</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPackageDebugSettings</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IPackageDebugSettings</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/30ef83f0-cad1-4aee-9b70-0fe7189aff9e">ActivateBackgroundTask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-activatebackgroundtask">ActivateBackgroundTask</a>
 </td>
 <td align="left" width="63%">
 Activates the specified background task. 
@@ -78,7 +78,7 @@ Activates the specified background task.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/102e57be-296e-44ec-8211-f2c2d5eae1e6">DisableDebugging</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-disabledebugging">DisableDebugging</a>
 </td>
 <td align="left" width="63%">
 Disables debug mode for the processes of the specified package.
@@ -87,7 +87,7 @@ Disables debug mode for the processes of the specified package.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a3afae41-b46e-47c8-95bb-a0aa747c6353">EnableDebugging</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-enabledebugging">EnableDebugging</a>
 </td>
 <td align="left" width="63%">
 Enables debug mode for the processes of the specified package.
@@ -96,7 +96,7 @@ Enables debug mode for the processes of the specified package.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/14a516c8-fb15-41b6-807c-b14d81148e0e">EnumerateBackgroundTasks</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-enumeratebackgroundtasks">EnumerateBackgroundTasks</a>
 </td>
 <td align="left" width="63%">
 Gets the background tasks that are provided by the specified package.
@@ -105,7 +105,7 @@ Gets the background tasks that are provided by the specified package.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/39560adc-9d35-48ec-8b70-2ed4b83dd1f6">GetPackageExecutionState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-getpackageexecutionstate">GetPackageExecutionState</a>
 </td>
 <td align="left" width="63%">
 Returns the current execution state of the specified package.
@@ -114,7 +114,7 @@ Returns the current execution state of the specified package.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D0E26154-DADB-499D-A434-8211196E2F5F">RegisterForPackageStateChanges</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-registerforpackagestatechanges">RegisterForPackageStateChanges</a>
 </td>
 <td align="left" width="63%">
 Register for package state-change notifications.
@@ -123,7 +123,7 @@ Register for package state-change notifications.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2f0b3188-4c58-4ff6-983e-912131a7c934">Resume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-resume">Resume</a>
 </td>
 <td align="left" width="63%">
 Resumes the processes of the package if they are currently suspended.
@@ -132,7 +132,7 @@ Resumes the processes of the package if they are currently suspended.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a7794703-08ff-40a8-8807-a09e35a4bb8f">SetTargetSessionId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-settargetsessionid">SetTargetSessionId</a>
 </td>
 <td align="left" width="63%">
 Sets the session identifier.
@@ -141,7 +141,7 @@ Sets the session identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/40f5331d-194f-4beb-9c59-f6899186b393">StartServicing</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-startservicing">StartServicing</a>
 </td>
 <td align="left" width="63%">
 Suspends and terminates the non-background portion of the apps associated with the specified package and cancels the background tasks associated with the package.
@@ -150,7 +150,7 @@ Suspends and terminates the non-background portion of the apps associated with t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a9f40c32-afbe-4f1f-9693-72a757d93a05">StartSessionRedirection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-startsessionredirection">StartSessionRedirection</a>
 </td>
 <td align="left" width="63%">
 Causes background tasks for the specified package to activate  in the specified user session.
@@ -159,16 +159,16 @@ Causes background tasks for the specified package to activate  in the specified 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/129ea98a-e0c3-4472-918c-6d9aa4858c4b">StopServicing</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-stopservicing">StopServicing</a>
 </td>
 <td align="left" width="63%">
-Completes the previous servicing operation that was started by a call to the  <a href="https://msdn.microsoft.com/40f5331d-194f-4beb-9c59-f6899186b393">StartServicing</a> method.
+Completes the previous servicing operation that was started by a call to the  <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-startservicing">StartServicing</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6edd4f9a-c9e8-45eb-a86b-a04116530aad">StopSessionRedirection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-stopsessionredirection">StopSessionRedirection</a>
 </td>
 <td align="left" width="63%">
 Stops redirection of background tasks for the specified package.
@@ -177,7 +177,7 @@ Stops redirection of background tasks for the specified package.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b1a62712-cd03-4728-b0f1-c1b543f2e056">Suspend</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-suspend">Suspend</a>
 </td>
 <td align="left" width="63%">
 Suspends the processes of the package if they are currently running.
@@ -186,7 +186,7 @@ Suspends the processes of the package if they are currently running.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e49faeaa-8fd8-4233-94ac-0899177a9bb3">TerminateAllProcesses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-terminateallprocesses">TerminateAllProcesses</a>
 </td>
 <td align="left" width="63%">
 Terminates all processes for the specified package.
@@ -195,10 +195,10 @@ Terminates all processes for the specified package.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/CFCDA0AD-83D5-43DD-A7DD-C121563BF3DB">UnregisterForPackageStateChanges</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-unregisterforpackagestatechanges">UnregisterForPackageStateChanges</a>
 </td>
 <td align="left" width="63%">
-Stops receiving package state-change notifications associated with a previous call to <a href="https://msdn.microsoft.com/D0E26154-DADB-499D-A434-8211196E2F5F">RegisterForPackageStateChanges</a>.
+Stops receiving package state-change notifications associated with a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-registerforpackagestatechanges">RegisterForPackageStateChanges</a>.
 
 </td>
 </tr>
@@ -211,7 +211,7 @@ Stops receiving package state-change notifications associated with a previous ca
 
 Any debug options set remain in effect until they are cleared or this interface is released.
 
-For debug settings to take effect on Internet Explorer in the new Windows UI, use "DefaultBrowser_NOPUBLISHERID" as the <i>packageFullName</i> parameter  for  <a href="https://msdn.microsoft.com/cae72152-c9d2-4791-b3f8-1187fb2a4d6c">IPackageDebugSettings</a> methods. 
+For debug settings to take effect on Internet Explorer in the new Windows UI, use "DefaultBrowser_NOPUBLISHERID" as the <i>packageFullName</i> parameter  for  <a href="https://docs.microsoft.com/previous-versions//hh438393(v=vs.85)">IPackageDebugSettings</a> methods. 
 
 
 

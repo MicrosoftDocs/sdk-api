@@ -74,7 +74,7 @@ Returns S_OK if successful, or a COM-defined error value otherwise.
 
 
 
-The Shell view obtains a view stream by calling the <a href="https://msdn.microsoft.com/887ebe9f-8bde-46dd-a7a2-7b2ca66bf905">GetViewStateStream</a> method and stores the current view state in that stream.
+The Shell view obtains a view stream by calling the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-getviewstatestream">GetViewStateStream</a> method and stores the current view state in that stream.
 
 <h3><a id="Note_to_Calling_Applications"></a><a id="note_to_calling_applications"></a><a id="NOTE_TO_CALLING_APPLICATIONS"></a>Note to Calling Applications</h3>
 Windows Explorer calls this method when it wants to save the view state for a view.
@@ -90,7 +90,7 @@ Be sure to make the format of the data stored in the stream robust enough that d
 
 
 
-<a href="https://msdn.microsoft.com/91438583-e4f1-456f-a130-2a45846fd725">IShellView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>
  
 
  

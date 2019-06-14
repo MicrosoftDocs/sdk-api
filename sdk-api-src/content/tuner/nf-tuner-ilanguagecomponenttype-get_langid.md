@@ -78,7 +78,7 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-The <i>pLangID</i> parameter is a pointer to a Win32 LCID. Use this method to determine the language of an audio stream. Use the <a href="https://msdn.microsoft.com/1c041173-0c78-486e-93b5-a46c9dc0afb1">IComponent::get_DescLangID</a> to determine the language of the text description of the stream.
+The <i>pLangID</i> parameter is a pointer to a Win32 LCID. Use this method to determine the language of an audio stream. Use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponent-get_desclangid">IComponent::get_DescLangID</a> to determine the language of the text description of the stream.
 
 
 
@@ -88,11 +88,11 @@ The <i>pLangID</i> parameter is a pointer to a Win32 LCID. Use this method to de
 
 
 
-<a href="https://msdn.microsoft.com/775b5e8d-d9ed-4371-a651-bfeed6fa0ad5">ILanguageComponentType Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ilanguagecomponenttype">ILanguageComponentType Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/c0dc0141-a839-4fdc-9313-24ddd3eaf63d">ILanguageComponentType::put_LangID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ilanguagecomponenttype-put_langid">ILanguageComponentType::put_LangID</a>
  
 
  

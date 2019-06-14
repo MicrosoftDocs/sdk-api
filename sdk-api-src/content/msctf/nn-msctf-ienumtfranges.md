@@ -54,7 +54,7 @@ The <b>IEnumTfRanges</b> interface is implemented by the TSF manager to provide 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumTfRanges</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnumTfRanges</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumTfRanges</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumTfRanges</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IEnumTfRanges</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5e51a747-0b77-4ba3-b03c-217a3f81a0aa">Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtfranges-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the enumerator object.
@@ -78,7 +78,7 @@ Creates a copy of the enumerator object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/95fe45f0-bf30-4f8c-86f3-e20a0d70127e">Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtfranges-next">Next</a>
 </td>
 <td align="left" width="63%">
 Obtains the specified number of elements in the enumeration sequence from the current position.
@@ -87,7 +87,7 @@ Obtains the specified number of elements in the enumeration sequence from the cu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c7f8ea8d-5627-4dc1-ab22-a9e14f536520">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtfranges-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
@@ -96,7 +96,7 @@ Resets the enumerator object by moving the current position to the beginning of 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f13ec6c2-379f-42e1-af92-62c4a8d8d922">Skip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtfranges-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Moves the current position forward in the enumeration sequence by the specified number of elements.

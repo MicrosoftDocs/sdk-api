@@ -59,7 +59,7 @@ Notification method called by the Mobile Broadband service to indicate that a se
 
 ### -param serviceActivation [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/cf23be24-f7a8-41b9-81f1-c267a265f85b">IMbnServiceActivation</a> interface representing the device on which the request was performed.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnserviceactivation">IMbnServiceActivation</a> interface representing the device on which the request was performed.
 
 
 ### -param vendorSpecificData [in]
@@ -187,7 +187,7 @@ This method must return <b>S_OK</b>.
 
 
 
-Successful service activation will also result in a change to the  ready state of the device. the Mobile Broadband service will call the <a href="https://msdn.microsoft.com/eb4364b8-cbbf-44c7-ae13-66950ce614e9">OnReadyStateChange</a> method of <a href="https://msdn.microsoft.com/3c641f14-9f53-4d69-9faa-2491189083df">IMbnInterfaceEvents</a> as notification.
+Successful service activation will also result in a change to the  ready state of the device. the Mobile Broadband service will call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onreadystatechange">OnReadyStateChange</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterfaceevents">IMbnInterfaceEvents</a> as notification.
 
 
 
@@ -197,7 +197,7 @@ Successful service activation will also result in a change to the  ready state o
 
 
 
-<a href="https://msdn.microsoft.com/b3385523-f1ab-403d-9244-7683a7e9f95a">IMbnServiceActivationEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnserviceactivationevents">IMbnServiceActivationEvents</a>
  
 
  

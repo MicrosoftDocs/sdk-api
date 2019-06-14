@@ -59,7 +59,7 @@ Retrieves  the current Burn Verification Level.
 
 ### -param value
 
-Pointer to an <a href="https://msdn.microsoft.com/83a267b7-8b25-49b8-b1d0-83efbad8fa2a">IMAPI_BURN_VERIFICATION_LEVEL</a> enumeration that specifies the current the Burn Verification Level.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_burn_verification_level">IMAPI_BURN_VERIFICATION_LEVEL</a> enumeration that specifies the current the Burn Verification Level.
 
 
 ## -returns
@@ -85,11 +85,11 @@ This method is supported in Windows Server 2003 with Service Pack 1 (SP1), Win
 
 
 
-<a href="https://msdn.microsoft.com/3a410ab8-dfc3-4c30-a198-3888ed750a6d">IBurnVerification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iburnverification">IBurnVerification</a>
 
 
 
-<a href="https://msdn.microsoft.com/83a267b7-8b25-49b8-b1d0-83efbad8fa2a">IMAPI_BURN_VERIFICATION_LEVEL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_burn_verification_level">IMAPI_BURN_VERIFICATION_LEVEL</a>
  
 
  

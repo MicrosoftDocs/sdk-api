@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 A security binding constraint that corresponds to the
-                <a href="https://msdn.microsoft.com/en-us/library/Dd323466(v=VS.85).aspx">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING</a>.
+                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_tcp_sspi_transport_security_binding">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING</a>.
             
 
 

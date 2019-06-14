@@ -55,7 +55,7 @@ ms.custom: 19H1
 ## -description
 
 
-Opens a registry value and supplies a stream that can be used to read from or write to the value. This function supersedes <a href="https://msdn.microsoft.com/2f839b89-8584-4b4d-91e7-166b6e2b6892">SHOpenRegStream</a>.
+Opens a registry value and supplies a stream that can be used to read from or write to the value. This function supersedes <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shopenregstreama">SHOpenRegStream</a>.
 
 
 ## -parameters
@@ -113,9 +113,9 @@ Open the stream for reading and writing.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
-Returns an <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> interface pointer if successful; otherwise, <b>NULL</b>. A <b>NULL</b> value can be caused by several situations, including an invalid <i>hkey</i> or <i>pszSubkey</i>, a subkey named by <i>pszSubkey</i> that does not exist, a caller without sufficient permissions to access the subkey, or an inability to open the stream.
+Returns an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface pointer if successful; otherwise, <b>NULL</b>. A <b>NULL</b> value can be caused by several situations, including an invalid <i>hkey</i> or <i>pszSubkey</i>, a subkey named by <i>pszSubkey</i> that does not exist, a caller without sufficient permissions to access the subkey, or an inability to open the stream.
 
 
 
@@ -124,7 +124,7 @@ Returns an <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613
 
 
 
-The calling application is responsible for calling the <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a> method of the returned object when that <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> object is no longer needed.
+The calling application is responsible for calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> method of the returned object when that <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> object is no longer needed.
 
 
 

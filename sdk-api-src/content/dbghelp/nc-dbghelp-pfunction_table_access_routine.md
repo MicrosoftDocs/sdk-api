@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 An application-defined callback function used with the 
-<a href="https://msdn.microsoft.com/e2bdaa4c-5474-41a0-bcea-927570c8402c">StackWalk64</a> function. It provides access to the run-time function table for the process.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-stackwalk">StackWalk64</a> function. It provides access to the run-time function table for the process.
 
 The <b>PFUNCTION_TABLE_ACCESS_ROUTINE64</b> type defines a pointer to this callback function. 
 <b>FunctionTableAccessProc64</b> is a placeholder for the application-defined function name.
@@ -76,8 +76,8 @@ The address of the instruction to be located.
 
 
 The function returns a pointer to the run-time function table. On an x86 computer, this is a pointer to an 
-<a href="https://msdn.microsoft.com/916dc7d5-ed88-4573-b696-fd00bbf4e086">FPO_DATA</a> structure. On an Alpha computer, this is a pointer to an 
-<a href="https://msdn.microsoft.com/ced956ec-7a12-4548-8e38-a1c1057c05e8">IMAGE_FUNCTION_ENTRY</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_fpo_data">FPO_DATA</a> structure. On an Alpha computer, this is a pointer to an 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_function_entry">IMAGE_FUNCTION_ENTRY</a> structure.
 
 
 
@@ -111,19 +111,19 @@ PVOID
 
 
 
-<a href="https://msdn.microsoft.com/7b28f70b-2d97-4cc2-8064-dfb806f9cffa">DbgHelp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/916dc7d5-ed88-4573-b696-fd00bbf4e086">FPO_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_fpo_data">FPO_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/ced956ec-7a12-4548-8e38-a1c1057c05e8">IMAGE_FUNCTION_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_function_entry">IMAGE_FUNCTION_ENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2bdaa4c-5474-41a0-bcea-927570c8402c">StackWalk64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-stackwalk">StackWalk64</a>
  
 
  

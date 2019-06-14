@@ -71,11 +71,11 @@ Represents a position in 3D space, using a right-handed coordinate system.
 
 
 
-<a href="https://msdn.microsoft.com/EDA29173-84B5-4D2F-90B0-546EEEC49539">IXAPOHrtfParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/hrtfapoapi/nn-hrtfapoapi-ixapohrtfparameters">IXAPOHrtfParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/3656aaf9-7a3a-2a5b-50f5-d279ce8a9e6c">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/structures">Structures</a>
  
 
  

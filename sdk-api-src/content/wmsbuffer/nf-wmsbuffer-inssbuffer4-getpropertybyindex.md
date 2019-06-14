@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-The <b>GetPropertyByIndex</b> method retrieves a buffer property, also called a data unit extension, that was set using <a href="https://msdn.microsoft.com/en-us/library/Dd743255(v=VS.85).aspx">INSSBuffer3::SetProperty</a>. This method differs from <a href="https://msdn.microsoft.com/en-us/library/Dd743254(v=VS.85).aspx">INSSBuffer3::GetProperty</a> in that, instead of accessing the property by name, it uses an index ranging from zero to one less than the total number of properties associated with the sample.
+The <b>GetPropertyByIndex</b> method retrieves a buffer property, also called a data unit extension, that was set using <a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer3-setproperty">INSSBuffer3::SetProperty</a>. This method differs from <a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer3-getproperty">INSSBuffer3::GetProperty</a> in that, instead of accessing the property by name, it uses an index ranging from zero to one less than the total number of properties associated with the sample.
 
 
 
@@ -65,7 +65,7 @@ The <b>GetPropertyByIndex</b> method retrieves a buffer property, also called a 
 
 ### -param dwBufferPropertyIndex [in]
 
-<b>DWORD</b> containing the buffer property index. This value will be between zero and one less than the total number of properties associated with the sample. You can retrieve the total number of properties by calling <a href="https://msdn.microsoft.com/en-us/library/Dd743258(v=VS.85).aspx">INSSBuffer4::GetPropertyCount</a>.
+<b>DWORD</b> containing the buffer property index. This value will be between zero and one less than the total number of properties associated with the sample. You can retrieve the total number of properties by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer4-getpropertycount">INSSBuffer4::GetPropertyCount</a>.
 
 
 ### -param pguidBufferProperty [out]
@@ -97,7 +97,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743256(v=VS.85).aspx">INSSBuffer4 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer4">INSSBuffer4 Interface</a>
  
 
  

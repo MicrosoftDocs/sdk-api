@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Instantiates a new instance of a  <a href="https://msdn.microsoft.com/7625F9B4-B181-44B3-BA1F-46936EF151DE">CD3D11_COUNTER_DESC</a> structure that is initialized with a <a href="https://msdn.microsoft.com/a0816409-fbe1-4b45-9b69-6f85b20008cb">D3D11_COUNTER_DESC</a> structure.
+Instantiates a new instance of a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151626(v=vs.85)">CD3D11_COUNTER_DESC</a> structure that is initialized with a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_counter_desc">D3D11_COUNTER_DESC</a> structure.
 
 
 ## -parameters
@@ -60,9 +60,9 @@ Instantiates a new instance of a  <a href="https://msdn.microsoft.com/7625F9B4-B
 
 ### -param o [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/a0816409-fbe1-4b45-9b69-6f85b20008cb">D3D11_COUNTER_DESC</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_counter_desc">D3D11_COUNTER_DESC</a></b>
 
-Address of the <a href="https://msdn.microsoft.com/a0816409-fbe1-4b45-9b69-6f85b20008cb">D3D11_COUNTER_DESC</a> structure that initializes the <a href="https://msdn.microsoft.com/7625F9B4-B181-44B3-BA1F-46936EF151DE">CD3D11_COUNTER_DESC</a> structure.
+Address of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_counter_desc">D3D11_COUNTER_DESC</a> structure that initializes the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151626(v=vs.85)">CD3D11_COUNTER_DESC</a> structure.
 
 
 ## -returns
@@ -79,7 +79,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/7625F9B4-B181-44B3-BA1F-46936EF151DE">CD3D11_COUNTER_DESC</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151626(v=vs.85)">CD3D11_COUNTER_DESC</a>
  
 
  

@@ -59,12 +59,12 @@ Retrieves an interface pointer to the object associated with the specified key i
 
 ### -param pszKey [in]
 
-The <a href="https://msdn.microsoft.com/library/Bb762592(v=VS.85).aspx">bind context string key</a> to be searched for. Key string comparison is case-sensitive.
+The <a href="https://docs.microsoft.com/windows/desktop/shell/str-constants">bind context string key</a> to be searched for. Key string comparison is case-sensitive.
 
 
 ### -param ppunk [out]
 
-The address of an <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>* pointer variable that receives the interface pointer to the object associated with <i>pszKey</i>. When successful, the implementation calls <a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63">AddRef</a> on *<i>ppunk</i>. It is the caller's responsibility to call <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a>. If an error occurs, the implementation sets *<i>ppunk</i> to <b>NULL</b>.
+The address of an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>* pointer variable that receives the interface pointer to the object associated with <i>pszKey</i>. When successful, the implementation calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on *<i>ppunk</i>. It is the caller's responsibility to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>. If an error occurs, the implementation sets *<i>ppunk</i> to <b>NULL</b>.
 
 
 ## -returns
@@ -82,12 +82,12 @@ If the method succeeds, the return value is S_OK. Otherwise, it is E_FAIL.
 
 A bind context maintains a table of interface pointers, each associated with a string key. This enables communication between a moniker implementation and the caller that initiated the binding operation. One party can store an interface pointer under a string known to both parties so that the other party can later retrieve it from the bind context.
 
-The pointer this method retrieves must have previously been inserted into the table using the <a href="https://msdn.microsoft.com/7ee2b5b2-9b9c-41f1-8e58-7432ebc0f9ed">IBindCtx::RegisterObjectParam</a> method.
+The pointer this method retrieves must have previously been inserted into the table using the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ibindctx-registerobjectparam">IBindCtx::RegisterObjectParam</a> method.
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-Objects using monikers to locate other objects can call this method when a binding operation fails to get specific information about the error that occurred. Depending on the error, it may be possible to correct the situation and retry the binding operation. See <a href="https://msdn.microsoft.com/7ee2b5b2-9b9c-41f1-8e58-7432ebc0f9ed">IBindCtx::RegisterObjectParam</a> for more information.
+Objects using monikers to locate other objects can call this method when a binding operation fails to get specific information about the error that occurred. Depending on the error, it may be possible to correct the situation and retry the binding operation. See <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ibindctx-registerobjectparam">IBindCtx::RegisterObjectParam</a> for more information.
 
-Moniker implementations can call this method to handle situations where a caller initiates a binding operation and requests specific information. By convention, the implementer should use key names that begin with the string form of the CLSID of a moniker class. (See the <a href="https://msdn.microsoft.com/61210ebd-cbf3-4e78-b077-53d2779053eb">StringFromCLSID</a> function.) 
+Moniker implementations can call this method to handle situations where a caller initiates a binding operation and requests specific information. By convention, the implementer should use key names that begin with the string form of the CLSID of a moniker class. (See the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-stringfromclsid">StringFromCLSID</a> function.) 
 
 
 
@@ -98,7 +98,7 @@ Moniker implementations can call this method to handle situations where a caller
 
 
 
-<a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>
  
 
  

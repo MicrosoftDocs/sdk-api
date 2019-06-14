@@ -62,7 +62,7 @@ Returns a <b>double</b> value from an attribute store, or a default value if the
 
 ### -param pAttributes [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> interface of the attribute store.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of the attribute store.
 
 
 ### -param guidKey [in]
@@ -90,7 +90,7 @@ Returns a <b>double</b> value.
 
 This helper function queries the attribute store for the attribute specified by <i>guidKey</i>. If the attribute is not present or does not have type <b>double</b>, the function returns <i>fDefault</i>.
 
-This function is convenient because it never returns a failure code. However, if the attribute in question does not have a meaningful default value, you should call <a href="https://msdn.microsoft.com/650a5f7f-609f-477b-8834-ff66ca3a9ca3">IMFAttributes::GetDouble</a> and check for MF_E_ATTRIBUTENOTFOUND.
+This function is convenient because it never returns a failure code. However, if the attribute in question does not have a meaningful default value, you should call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getdouble">IMFAttributes::GetDouble</a> and check for MF_E_ATTRIBUTENOTFOUND.
 
 
 
@@ -100,15 +100,15 @@ This function is convenient because it never returns a failure code. However, if
 
 
 
-<a href="https://msdn.microsoft.com/44af5e03-5f0a-4564-b9d6-b8c935df35b2">Attributes and Properties</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
 
 
 
-<a href="https://msdn.microsoft.com/650a5f7f-609f-477b-8834-ff66ca3a9ca3">IMFAttributes::GetDouble</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getdouble">IMFAttributes::GetDouble</a>
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

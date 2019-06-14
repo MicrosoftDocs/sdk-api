@@ -132,7 +132,7 @@ Waits indefinitely.
 </td>
 <td width="60%">
 Uses the default time-out specified in a call to the 
-<a href="https://msdn.microsoft.com/00d79639-3f14-4964-90f3-9462a23e68df">CreateNamedPipe</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> function.
 
 </td>
 </tr>
@@ -147,10 +147,10 @@ Uses the default time-out specified in a call to the
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 If the message written to the pipe by the server process is longer than <i>nOutBufferSize</i>, 
-<b>CallNamedPipe</b> returns <b>FALSE</b>, and <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns ERROR_MORE_DATA. The remainder of the message is discarded, because 
+<b>CallNamedPipe</b> returns <b>FALSE</b>, and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_MORE_DATA. The remainder of the message is discarded, because 
 <b>CallNamedPipe</b> closes the handle to the pipe before returning.
 
 
@@ -160,7 +160,7 @@ If the message written to the pipe by the server process is longer than <i>nOutB
 
 
 
-Calling <b>CallNamedPipe</b> is equivalent to calling the <a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> (or <a href="https://msdn.microsoft.com/cbb2300b-5d5f-4a7b-994b-63b747e9ccfc">WaitNamedPipe</a>, if <b>CreateFile</b> cannot open the pipe immediately), <a href="https://msdn.microsoft.com/79afcb18-babb-453e-8618-81b43ecb24c4">TransactNamedPipe</a>, and <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> functions. <b>CreateFile</b> is called with an access flag of GENERIC_READ | GENERIC_WRITE, and an inherit handle flag of <b>FALSE</b>.
+Calling <b>CallNamedPipe</b> is equivalent to calling the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> (or <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-waitnamedpipea">WaitNamedPipe</a>, if <b>CreateFile</b> cannot open the pipe immediately), <a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe">TransactNamedPipe</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> functions. <b>CreateFile</b> is called with an access flag of GENERIC_READ | GENERIC_WRITE, and an inherit handle flag of <b>FALSE</b>.
 
 <b>CallNamedPipe</b> fails if the pipe is a byte-type pipe.
 
@@ -170,7 +170,7 @@ Calling <b>CallNamedPipe</b> is equivalent to calling the <a href="https://msdn.
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/aedce207-7dea-4670-b6dd-0c61b3f6f690">Transactions on Named Pipes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/ipc/transactions-on-named-pipes">Transactions on Named Pipes</a>.
 
 <div class="code"></div>
 
@@ -181,31 +181,31 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/00d79639-3f14-4964-90f3-9462a23e68df">CreateNamedPipe</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e80783e-9641-4cbd-9c28-a8efe6b9efaa">Pipe Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/ipc/pipe-functions">Pipe Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/7cb8cbe4-eec8-4dda-9cb7-8d37abcee6f4">Pipes Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/ipc/pipes">Pipes Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/79afcb18-babb-453e-8618-81b43ecb24c4">TransactNamedPipe</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe">TransactNamedPipe</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbb2300b-5d5f-4a7b-994b-63b747e9ccfc">WaitNamedPipe</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-waitnamedpipea">WaitNamedPipe</a>
  
 
  

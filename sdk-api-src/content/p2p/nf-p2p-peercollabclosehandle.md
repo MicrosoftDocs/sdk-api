@@ -59,7 +59,7 @@ The <b>PeerCollabCloseHandle</b> function closes the handle to a Peer Collaborat
 
 ### -param hInvitation [in]
 
-Handle obtained by a previous call to <a href="https://msdn.microsoft.com/2101e16e-ee05-417f-835b-c00cba7f6576">PeerCollabAsyncInviteContact</a> or <a href="https://msdn.microsoft.com/2606d2ef-26d3-4c52-b481-3ea38350295a">PeerCollabAsyncInviteEndpoint</a>.
+Handle obtained by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabasyncinvitecontact">PeerCollabAsyncInviteContact</a> or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabasyncinviteendpoint">PeerCollabAsyncInviteEndpoint</a>.
 
 
 ## -returns
@@ -115,15 +115,15 @@ You must call this API after the handle has been signaled for an event and any d
 
 
 
-<a href="https://msdn.microsoft.com/00c3c1f1-c36c-469a-a644-0ec60f02d25e">Peer Collaboration API Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/2101e16e-ee05-417f-835b-c00cba7f6576">PeerCollabAsyncInviteContact</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabasyncinvitecontact">PeerCollabAsyncInviteContact</a>
 
 
 
-<a href="https://msdn.microsoft.com/2606d2ef-26d3-4c52-b481-3ea38350295a">PeerCollabAsyncInviteEndpoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabasyncinviteendpoint">PeerCollabAsyncInviteEndpoint</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The DDGETPOLARITYIN structure contains the Microsoft DirectDraw and <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">video port extensions (VPE)</a> object handles. 
+The DDGETPOLARITYIN structure contains the Microsoft DirectDraw and <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object handles. 
 
 
 ## -struct-fields
@@ -72,11 +72,11 @@ Specifies the VPE object handle.
 
 
 
-<a href="https://msdn.microsoft.com/613fe2ac-010a-493c-87eb-aa7503673e9e">DD_DXAPI_GET_POLARITY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550660(v=vs.85)">DD_DXAPI_GET_POLARITY</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4b38376-b54f-4fbb-b305-5951a1ea76a1">DxApi</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
  
 
  

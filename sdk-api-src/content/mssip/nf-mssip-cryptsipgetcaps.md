@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CryptSIPGetCaps</b> function retrieves the capabilities of a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">subject interface package</a> (SIP).
+The <b>CryptSIPGetCaps</b> function retrieves the capabilities of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">subject interface package</a> (SIP).
 
 
 ## -parameters
@@ -59,19 +59,19 @@ The <b>CryptSIPGetCaps</b> function retrieves the capabilities of a <a href="htt
 
 ### -param pSubjInfo [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/6274cd08-d67f-410d-9303-3a42b7f1edc6">SIP_SUBJECTINFO</a> structure that specifies subject information data to the SIP APIs.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo_">SIP_SUBJECTINFO</a> structure that specifies subject information data to the SIP APIs.
 
 
 ### -param pCaps [in, out]
 
-Pointer to a <a href="https://msdn.microsoft.com/0B6D173B-0183-4A7C-BB92-2D451F746164">SIP_CAP_SET</a> structure that defines the capabilities of an SIP.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-_sip_cap_set_v2">SIP_CAP_SET</a> structure that defines the capabilities of an SIP.
 
 
 ## -remarks
 
 
 
-Unlike other SIP functions, <b>CryptSIPGetCaps</b> is not registered in the dispatch table. For more information, see the <a href="https://msdn.microsoft.com/d34b5081-0af8-4dcc-8133-a91d0603d419">SIP_DISPATCH_INFO</a> structure. Instead, callers must map the object identifier (OID) to the function entry point. 
+Unlike other SIP functions, <b>CryptSIPGetCaps</b> is not registered in the dispatch table. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_dispatch_info_">SIP_DISPATCH_INFO</a> structure. Instead, callers must map the object identifier (OID) to the function entry point. 
 
 
 
@@ -81,15 +81,15 @@ Unlike other SIP functions, <b>CryptSIPGetCaps</b> is not registered in the disp
 
 
 
-<a href="https://msdn.microsoft.com/0B6D173B-0183-4A7C-BB92-2D451F746164">SIP_CAP_SET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-_sip_cap_set_v2">SIP_CAP_SET</a>
 
 
 
-<a href="https://msdn.microsoft.com/6274cd08-d67f-410d-9303-3a42b7f1edc6">SIP_SUBJECTINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo_">SIP_SUBJECTINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/8EA46B67-F542-4B15-81F4-3DD83DD45764">pCryptSIPGetCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mssip/nc-mssip-pcryptsipgetcaps">pCryptSIPGetCaps</a>
  
 
  

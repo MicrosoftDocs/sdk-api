@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Removes a sensor from the collection. The sensor is specified by a pointer to the <a href="https://msdn.microsoft.com/3216afbb-d524-486d-99ad-0ee0cfb884e0">ISensor</a> interface to be removed.
+Removes a sensor from the collection. The sensor is specified by a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a> interface to be removed.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Removes a sensor from the collection. The sensor is specified by a pointer to th
 
 ### -param pSensor [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/3216afbb-d524-486d-99ad-0ee0cfb884e0">ISensor</a> interface to remove from the collection.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a> interface to remove from the collection.
 
 
 ## -returns
@@ -106,7 +106,7 @@ The specified sensor is not part of the collection.
 
 
 
-<a href="https://msdn.microsoft.com/54d8572a-40a2-49d0-a8bf-2161b63eee42">ISensorCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorcollection">ISensorCollection</a>
  
 
  

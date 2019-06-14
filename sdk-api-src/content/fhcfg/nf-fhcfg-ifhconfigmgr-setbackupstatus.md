@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Changes the backup status value for an <a href="https://msdn.microsoft.com/CC97FC0F-3AA4-4D8A-81B3-14F68FDF5788">FhConfigMgr</a> object.
+Changes the backup status value for an <a href="https://docs.microsoft.com/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a> object.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Changes the backup status value for an <a href="https://msdn.microsoft.com/CC97F
 
 ### -param BackupStatus [in]
 
-The backup status value. See the <a href="https://msdn.microsoft.com/7F988CA1-8295-4758-B66B-9B707B2CA126">FH_BACKUP_STATUS</a> enumeration for a list of possible backup status values.
+The backup status value. See the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-_fh_backup_status">FH_BACKUP_STATUS</a> enumeration for a list of possible backup status values.
 
 
 ## -returns
@@ -86,19 +86,19 @@ The backup status value. See the <a href="https://msdn.microsoft.com/7F988CA1-82
 
 
 
-<a href="https://msdn.microsoft.com/7F988CA1-8295-4758-B66B-9B707B2CA126">FH_BACKUP_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-_fh_backup_status">FH_BACKUP_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/CC97FC0F-3AA4-4D8A-81B3-14F68FDF5788">FhConfigMgr</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a>
 
 
 
-<a href="https://msdn.microsoft.com/CDE8A011-6E78-49DF-A5E1-8E968355BA11">IFhConfigMgr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nn-fhcfg-ifhconfigmgr">IFhConfigMgr</a>
 
 
 
-<a href="https://msdn.microsoft.com/0AC8F205-B593-4117-9059-0DDA5BBE3124">IFhConfigMgr::GetBackupStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-getbackupstatus">IFhConfigMgr::GetBackupStatus</a>
  
 
  

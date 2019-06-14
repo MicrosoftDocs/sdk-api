@@ -93,7 +93,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 
-<a href="https://msdn.microsoft.com/6CA29200-9834-4A5B-99E8-434CD6E9B243">ID2D1TransformGraph</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transformgraph">ID2D1TransformGraph</a>
  
 
  

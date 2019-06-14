@@ -50,22 +50,22 @@ ms.custom: 19H1
 
 
 <p class="CCE_Message">[This interface is supported for compatibility but it's recommended to use the 
-    <a href="https://msdn.microsoft.com/1CE772FA-CE33-4900-A499-058175A7C37E">FSRM WMI Classes</a> to manage FSRM. Please see the 
-    <a href="https://msdn.microsoft.com/79571ae1-726e-491b-b41e-6cd10cdf3936">MSFT_FSRMClassification</a> class.]
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmclassification">MSFT_FSRMClassification</a> class.]
 
 Manages file classification. Use this interface to define properties to use in classification, add 
     classification rules for classifying files, define classification and storage modules, and enable classification 
     reporting.
 
 To get this interface, call the 
-    <a href="https://msdn.microsoft.com/en-us/library/ms680701(v=VS.85).aspx">CoCreateInstanceEx</a> function. Use 
+    <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmClassificationManager</b> as the class identifier and 
     <code>__uuidof(IFsrmClassificationManager)</code> as the interface identifier.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmClassificationManager</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFsrmClassificationManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmClassificationManager</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsrmClassificationManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -81,7 +81,7 @@ The <b>IFsrmClassificationManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ff26acfd-71ff-49f4-a7ea-60825ff42f3b">CancelClassification</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-cancelclassification">CancelClassification</a>
 </td>
 <td align="left" width="63%">
 Cancels classification if it is running.
@@ -90,7 +90,7 @@ Cancels classification if it is running.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bac42416-0757-462f-8869-339655f48587">ClearFileProperty</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-clearfileproperty">ClearFileProperty</a>
 </td>
 <td align="left" width="63%">
 Clears the value of the specified property in the file.
@@ -99,7 +99,7 @@ Clears the value of the specified property in the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1964f4b6-b4e0-45a2-aca1-2e3dc44745a4">CreateModuleDefinition</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-createmoduledefinition">CreateModuleDefinition</a>
 </td>
 <td align="left" width="63%">
 Creates a module definition of the specified type.
@@ -108,7 +108,7 @@ Creates a module definition of the specified type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/92c6198b-08b6-4ea6-b8de-1a21acd235d1">CreatePropertyDefinition</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-createpropertydefinition">CreatePropertyDefinition</a>
 </td>
 <td align="left" width="63%">
 Creates a property definition.
@@ -117,7 +117,7 @@ Creates a property definition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ca9a97b7-eadd-4f57-8f3a-afa439222f21">CreateRule</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-createrule">CreateRule</a>
 </td>
 <td align="left" width="63%">
 Creates a rule of the specified type.
@@ -126,7 +126,7 @@ Creates a rule of the specified type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9a833e94-d26b-4c94-bf2f-76ac6db3f8e9">EnumFileProperties</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-enumfileproperties">EnumFileProperties</a>
 </td>
 <td align="left" width="63%">
 Enumerates the properties of the specified file.
@@ -135,7 +135,7 @@ Enumerates the properties of the specified file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/eeda0802-e450-4a8b-a08c-135784540b17">EnumModuleDefinitions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-enummoduledefinitions">EnumModuleDefinitions</a>
 </td>
 <td align="left" width="63%">
 Enumerates the module definitions of the specified type.
@@ -144,7 +144,7 @@ Enumerates the module definitions of the specified type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c97cb2f1-6e03-444e-a15e-faa85f7a7915">EnumPropertyDefinitions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-enumpropertydefinitions">EnumPropertyDefinitions</a>
 </td>
 <td align="left" width="63%">
 Enumerates the property definitions.
@@ -153,7 +153,7 @@ Enumerates the property definitions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2f67527c-cde3-4907-9e61-4d9e18b18859">EnumRules</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-enumrules">EnumRules</a>
 </td>
 <td align="left" width="63%">
 Enumerates the rules of the specified type.
@@ -162,7 +162,7 @@ Enumerates the rules of the specified type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c8a3c4cb-4753-495b-88f4-2d6cdfef7dc7">GetFileProperty</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-getfileproperty">GetFileProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified property from the file.
@@ -171,7 +171,7 @@ Retrieves the specified property from the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/41272218-25af-4c8f-8730-37a08a7fad4f">GetModuleDefinition</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-getmoduledefinition">GetModuleDefinition</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified module definition.
@@ -180,7 +180,7 @@ Retrieves the specified module definition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/de89524d-70b7-4f0a-add0-d34d54bd32a7">GetPropertyDefinition</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-getpropertydefinition">GetPropertyDefinition</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified property definition.
@@ -189,7 +189,7 @@ Retrieves the specified property definition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2c21ed09-6c69-4f03-91bb-9beeb816ed62">GetRule</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-getrule">GetRule</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified rule.
@@ -198,7 +198,7 @@ Retrieves the specified rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/50fdc5c8-d2eb-4206-b0fa-0de2696d29c7">RunClassification</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-runclassification">RunClassification</a>
 </td>
 <td align="left" width="63%">
 Runs classification rules and generates the classification report.
@@ -207,7 +207,7 @@ Runs classification rules and generates the classification report.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0f13f00e-6ca2-4436-822e-01eff638c446">SetFileProperty</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-setfileproperty">SetFileProperty</a>
 </td>
 <td align="left" width="63%">
 Sets the value of the specified property in the file.
@@ -216,7 +216,7 @@ Sets the value of the specified property in the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d288f84c-5078-40e3-ad32-6794f82157d5">WaitForClassificationCompletion</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-waitforclassificationcompletion">WaitForClassificationCompletion</a>
 </td>
 <td align="left" width="63%">
 Waits for the specified period of time or until classification has finished running.
@@ -234,7 +234,7 @@ Waits for the specified period of time or until classification has finished runn
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02c62b7d-a128-432a-a15a-51de092b5bab">ClassificationLastError</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-get_classificationlasterror">ClassificationLastError</a>
 
 
 </td>
@@ -250,7 +250,7 @@ The error message from the last time classification was run.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/bdc32bbc-e8e5-48ed-97a1-0b42db3c3676">ClassificationLastReportPathWithoutExtension</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-get_classificationlastreportpathwithoutextension">ClassificationLastReportPathWithoutExtension</a>
 
 
 </td>
@@ -266,7 +266,7 @@ The local directory path where the reports were stored the last time classificat
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/a19a82fd-f00c-4663-b305-2cdc3bc863bd">ClassificationReportEnabled</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-get_classificationreportenabled">ClassificationReportEnabled</a>
 
 
 </td>
@@ -282,7 +282,7 @@ Determines whether classification reporting is enabled or not.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/a9402faa-06f9-4cfe-9a36-a2fc1a581824">ClassificationReportFormats</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-get_classificationreportformats">ClassificationReportFormats</a>
 
 
 </td>
@@ -298,7 +298,7 @@ The list of formats in which to generate the classification reports.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/fa998edc-7ef8-43fa-a83a-7e4ba911e970">ClassificationReportMailTo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-get_classificationreportmailto">ClassificationReportMailTo</a>
 
 
 </td>
@@ -314,7 +314,7 @@ The email address to which to send the classification reports, if any.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/f0a10671-9383-4935-b773-31f047732e27">ClassificationRunningStatus</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-get_classificationrunningstatus">ClassificationRunningStatus</a>
 
 
 </td>
@@ -330,7 +330,7 @@ The running status of classification.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c22f646b-36dc-45b8-a9ad-81ce6adab5bf">Logging</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-get_logging">Logging</a>
 
 
 </td>
@@ -355,14 +355,14 @@ To create this object from a script, use the "Fsrm.FsrmClassificationManager" pr
 
 The classification feature lets you classify (tag) files. To do this the properties that can be associated with 
      a file must first be defined using 
-     <a href="https://msdn.microsoft.com/92c6198b-08b6-4ea6-b8de-1a21acd235d1">CreatePropertyDefinition</a>. 
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-createpropertydefinition">CreatePropertyDefinition</a>. 
      Once a property is defined it may be set using APIs such as 
-     <a href="https://msdn.microsoft.com/0f13f00e-6ca2-4436-822e-01eff638c446">SetFileProperty</a>, retrieved 
-     using <a href="https://msdn.microsoft.com/c8a3c4cb-4753-495b-88f4-2d6cdfef7dc7">GetFileProperty</a> or 
-     <a href="https://msdn.microsoft.com/9a833e94-d26b-4c94-bf2f-76ac6db3f8e9">EnumFileProperties</a>, or 
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-setfileproperty">SetFileProperty</a>, retrieved 
+     using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-getfileproperty">GetFileProperty</a> or 
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-enumfileproperties">EnumFileProperties</a>, or 
      cleared using 
-     <a href="https://msdn.microsoft.com/bac42416-0757-462f-8869-339655f48587">ClearFileProperty</a>. 
-     <a href="https://msdn.microsoft.com/1dee9185-f83c-4e49-bf29-143271445046">ClassifyFiles</a> performs these 
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-clearfileproperty">ClearFileProperty</a>. 
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager2-classifyfiles">ClassifyFiles</a> performs these 
      actions on multiple files. Alternatively a series of rules to automatically classify files can be created. If a 
      rule applies to the file, the rule associates a property and property value with the file. The property can be 
      stored separately from the file or stored in the file depending on the storage module available on the 
@@ -381,7 +381,7 @@ The Office Storage Modules store the classification properties in the Office fil
 
 You can use the classification and storage plugins or you can implement your own classification and storage 
      plugins. Note that the built-in Content Classifier plugin uses the 
-     <a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a> interface to search the content of the file.
+     <a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> interface to search the content of the file.
 
 When you run classification, FSRM evaluates a files for any rule that is applicable to that file (and committed 
      to FSRM) and enabled. If reporting is enabled, FSRM also generates the classification reports.
@@ -390,7 +390,7 @@ When you run classification, FSRM evaluates a files for any rule that is applica
 #### Examples
 
 For examples in C# and PowerShell see 
-     <a href="https://msdn.microsoft.com/E057898F-72A0-4AB0-BE88-4C1BE6B2B5DE">Accessing Classification Properties</a>.
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/accessing-classification-properties">Accessing Classification Properties</a>.
 
 <div class="code"></div>
 
@@ -401,19 +401,19 @@ For examples in C# and PowerShell see
 
 
 
-<a href="https://msdn.microsoft.com/bbd888d9-1005-4173-8e82-ced13e68c09e">FSRM Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/4a8e0426-792d-49d8-acf3-ab00480e24ac">FsrmClassificationManager</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmclassificationmanager">FsrmClassificationManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/6ff821e3-f0bd-4c66-8ced-edbbfbc8503b">IFsrmClassificationManager2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmclassificationmanager2">IFsrmClassificationManager2</a>
 
 
 
-<a href="https://msdn.microsoft.com/79571ae1-726e-491b-b41e-6cd10cdf3936">MSFT_FSRMClassification</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmclassification">MSFT_FSRMClassification</a>
  
 
  

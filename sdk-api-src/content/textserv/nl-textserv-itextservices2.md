@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ITextServices2</b> interface extends the <a href="https://msdn.microsoft.com/en-us/library/Bb787617(v=VS.85).aspx">ITextServices</a> interface.
+The <b>ITextServices2</b> interface extends the <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itextservices">ITextServices</a> interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextServices2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb787617(v=VS.85).aspx">ITextServices</a>. <b>ITextServices2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextServices2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itextservices">ITextServices</a>. <b>ITextServices2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITextServices2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B45B015A-0A2C-49DD-9AA9-FC2A530BD057">TxDrawD2D</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices2-txdrawd2d">TxDrawD2D</a>
 </td>
 <td align="left" width="63%">
 Draws the text services object by using Direct2D rendering.
@@ -78,10 +78,10 @@ Draws the text services object by using Direct2D rendering.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9D9A3D06-5C1F-4D50-B7B7-E6CA2BFDB89C">TxGetNaturalSize2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices2-txgetnaturalsize2">TxGetNaturalSize2</a>
 </td>
 <td align="left" width="63%">
-Resizes a control so it fits its content appropriately. This method is similar to <a href="https://msdn.microsoft.com/en-us/library/Bb787672(v=VS.85).aspx">TxGetNaturalSize</a>, but also retrieves the ascent of the top line of text.
+Resizes a control so it fits its content appropriately. This method is similar to <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-txgetnaturalsize">TxGetNaturalSize</a>, but also retrieves the ascent of the top line of text.
 
 </td>
 </tr>
@@ -93,7 +93,7 @@ Resizes a control so it fits its content appropriately. This method is similar t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787617(v=VS.85).aspx">ITextServices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itextservices">ITextServices</a>
  
 
  

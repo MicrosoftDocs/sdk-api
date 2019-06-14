@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>EndSubscribeToEvents</b> method retrieves the results of  a previous  <a href="https://msdn.microsoft.com/605629CB-9DBA-4130-B55D-957187551435">BeginSubscribeToEvents</a> operation.
+The <b>EndSubscribeToEvents</b> method retrieves the results of  a previous  <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginsubscribetoevents">BeginSubscribeToEvents</a> operation.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>EndSubscribeToEvents</b> method retrieves the results of  a previous  <a 
 
 ### -param ullRequestID [in]
 
-A 64-bit <b>ULONG</b> value that corresponds to the <a href="https://msdn.microsoft.com/605629CB-9DBA-4130-B55D-957187551435">BeginSubscribeToEvents</a> operation requested prior to this call.
+A 64-bit <b>ULONG</b> value that corresponds to the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginsubscribetoevents">BeginSubscribeToEvents</a> operation requested prior to this call.
 
 
 ## -returns
@@ -113,14 +113,14 @@ The query did not complete due to problems at the UPnP protocol level.
 </dl>
 </td>
 <td width="60%">
-The remote operation failed due to an HTTP problem. To retrieve the HTTP error code, use <a href="https://msdn.microsoft.com/8593b800-ae0a-41b8-9a61-92bdfc106c8b">IUPnPService::LastTransportStatus</a>.
+The remote operation failed due to an HTTP problem. To retrieve the HTTP error code, use <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservice-get_lasttransportstatus">IUPnPService::LastTransportStatus</a>.
 
 </td>
 </tr>
 </table>
  
 
-<div class="alert"><b>Note</b>  Some values can indicate that an error was received from a UPnP-certified device. For more information, see <a href="https://msdn.microsoft.com/4b18a5d4-f6e8-4670-93dd-ecd012940000">Device Error Codes</a>.</div>
+<div class="alert"><b>Note</b>  Some values can indicate that an error was received from a UPnP-certified device. For more information, see <a href="https://docs.microsoft.com/windows/desktop/UPnP/device-error-codes">Device Error Codes</a>.</div>
 <div> </div>
 
 
@@ -130,15 +130,15 @@ The remote operation failed due to an HTTP problem. To retrieve the HTTP error c
 
 
 
-<a href="https://msdn.microsoft.com/605629CB-9DBA-4130-B55D-957187551435">BeginSubscribeToEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginsubscribetoevents">BeginSubscribeToEvents</a>
 
 
 
-<a href="https://msdn.microsoft.com/8593b800-ae0a-41b8-9a61-92bdfc106c8b">IUPnPService::LastTransportStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservice-get_lasttransportstatus">IUPnPService::LastTransportStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/B77025D6-26C7-46C9-84FE-69685C61735D">IUPnPServiceAsync</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpserviceasync">IUPnPServiceAsync</a>
  
 
  

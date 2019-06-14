@@ -51,12 +51,12 @@ ms.custom: 19H1
 
 A tile brush uses a  visual image to paint a region by repeating the image. 
 
-This is the base interface of <a href="https://msdn.microsoft.com/f5478582-466b-496e-b7f3-42fb8caa6814">IXpsOMImageBrush</a> and <a href="https://msdn.microsoft.com/56c11e64-64a8-4c42-9547-4f1fcdc13a4b">IXpsOMVisualBrush</a>.
+This is the base interface of <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomimagebrush">IXpsOMImageBrush</a> and <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisualbrush">IXpsOMVisualBrush</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMTileBrush</b> interface inherits from <a href="https://msdn.microsoft.com/43cb56db-e09e-47cb-b50b-7827131659fd">IXpsOMBrush</a>. <b>IXpsOMTileBrush</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMTileBrush</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsombrush">IXpsOMBrush</a>. <b>IXpsOMTileBrush</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,47 +71,47 @@ The <b>IXpsOMTileBrush</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4f39a728-9f27-4137-96eb-8f10e6e002cd">GetTileMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomtilebrush-gettilemode">GetTileMode</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/en-us/library/Dd372992(v=VS.85).aspx">XPS_TILE_MODE</a> value that describes the tile mode of the brush.
+Gets the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0001">XPS_TILE_MODE</a> value that describes the tile mode of the brush.
             
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/db4c4ef8-d5f4-4cff-b38d-d211e14a98c1">GetTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomtilebrush-gettransform">GetTransform</a>
 </td>
 <td align="left" width="63%">
-Gets a pointer to the <a href="https://msdn.microsoft.com/d21457bc-9445-4ca2-ab9f-1e3f55e2e635">IXpsOMMatrixTransform</a> interface that contains the resolved matrix transform for the brush.
+Gets a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsommatrixtransform">IXpsOMMatrixTransform</a> interface that contains the resolved matrix transform for the brush.
             
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e06661dd-387c-46c4-8c37-f4e101d3c536">GetTransformLocal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomtilebrush-gettransformlocal">GetTransformLocal</a>
 </td>
 <td align="left" width="63%">
-Gets a pointer to the <a href="https://msdn.microsoft.com/d21457bc-9445-4ca2-ab9f-1e3f55e2e635">IXpsOMMatrixTransform</a> interface that contains the local, unshared resolved matrix transform for the brush.
+Gets a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsommatrixtransform">IXpsOMMatrixTransform</a> interface that contains the local, unshared resolved matrix transform for the brush.
             
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bebed09b-7af7-4da1-aaa3-e8e2a45f2717">GetTransformLookup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomtilebrush-gettransformlookup">GetTransformLookup</a>
 </td>
 <td align="left" width="63%">
-Gets the lookup key that identifies the <a href="https://msdn.microsoft.com/d21457bc-9445-4ca2-ab9f-1e3f55e2e635">IXpsOMMatrixTransform</a> interface in a resource dictionary that contains the resolved matrix transform for the brush.
+Gets the lookup key that identifies the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsommatrixtransform">IXpsOMMatrixTransform</a> interface in a resource dictionary that contains the resolved matrix transform for the brush.
             
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dc884aa6-3652-4b94-80f6-83c345973d46">GetViewbox</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomtilebrush-getviewbox">GetViewbox</a>
 </td>
 <td align="left" width="63%">
 Gets the portion  of the source image to be used by the tile.
@@ -120,7 +120,7 @@ Gets the portion  of the source image to be used by the tile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/98da8f16-2bfa-45f6-9de1-417e7fb5d1dc">GetViewport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomtilebrush-getviewport">GetViewport</a>
 </td>
 <td align="left" width="63%">
 Gets the portion of  the destination geometry that is covered by a single tile.
@@ -129,27 +129,27 @@ Gets the portion of  the destination geometry that is covered by a single tile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5901e5ec-1907-404b-b1a8-a00e13d3eab8">SetTileMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomtilebrush-settilemode">SetTileMode</a>
 </td>
 <td align="left" width="63%">
-Sets the <a href="https://msdn.microsoft.com/en-us/library/Dd372992(v=VS.85).aspx">XPS_TILE_MODE</a> value that describes the tiling mode of the brush.
+Sets the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0001">XPS_TILE_MODE</a> value that describes the tiling mode of the brush.
             
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a0a0f0e9-d8b5-4b42-804b-66780f56b09a">SetTransformLocal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomtilebrush-settransformlocal">SetTransformLocal</a>
 </td>
 <td align="left" width="63%">
-Sets the <a href="https://msdn.microsoft.com/d21457bc-9445-4ca2-ab9f-1e3f55e2e635">IXpsOMMatrixTransform</a> interface pointer to a local, unshared matrix transform.
+Sets the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsommatrixtransform">IXpsOMMatrixTransform</a> interface pointer to a local, unshared matrix transform.
             
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b2d9519a-9e22-44ba-839d-e1ba33aacc26">SetTransformLookup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomtilebrush-settransformlookup">SetTransformLookup</a>
 </td>
 <td align="left" width="63%">
 Sets the lookup key name of a shared matrix transform that will be used as the transform for this brush.
@@ -158,7 +158,7 @@ Sets the lookup key name of a shared matrix transform that will be used as the t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a4a0a9c7-15d5-493e-8ed3-9644f59796fd">SetViewbox</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomtilebrush-setviewbox">SetViewbox</a>
 </td>
 <td align="left" width="63%">
 Sets the portion of the source content to be used as the tile image.
@@ -167,7 +167,7 @@ Sets the portion of the source content to be used as the tile image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e4a60f8d-3389-4420-851c-48483acecf0a">SetViewport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomtilebrush-setviewport">SetViewport</a>
 </td>
 <td align="left" width="63%">
 Sets the portion of the destination geometry that is covered by a single tile.
@@ -191,7 +191,7 @@ A <i>viewbox</i> describes the portion of the source image that is used for the 
  In the illustration that follows, the  brush is created by using  a viewbox that includes only a portion of the original image or visual.
 
 <img alt="An illustration that shows a viewbox example" src="../images/CreateBrush.png"/>
-The next illustration shows the tile modes that are used to repeat the tile image to fill the output area. If the tile mode value is <a href="https://msdn.microsoft.com/en-us/library/Dd372992(v=VS.85).aspx">XPS_TILE_MODE_NONE</a>, the tile image is drawn only once.
+The next illustration shows the tile modes that are used to repeat the tile image to fill the output area. If the tile mode value is <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0001">XPS_TILE_MODE_NONE</a>, the tile image is drawn only once.
 
 <img alt="An illustration that shows different examples of different tile mode behaviors" src="../images/TileMode.png"/>
 
@@ -202,19 +202,19 @@ The next illustration shows the tile modes that are used to repeat the tile imag
 
 
 
-<a href="https://msdn.microsoft.com/43cb56db-e09e-47cb-b50b-7827131659fd">IXpsOMBrush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsombrush">IXpsOMBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/f5478582-466b-496e-b7f3-42fb8caa6814">IXpsOMImageBrush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomimagebrush">IXpsOMImageBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/56c11e64-64a8-4c42-9547-4f1fcdc13a4b">IXpsOMVisualBrush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisualbrush">IXpsOMVisualBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/8d72ff28-6dfb-4fa8-a1b6-14b054aa7eb5">Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316980(v=vs.85)">Interfaces</a>
 
 
 

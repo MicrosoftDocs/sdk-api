@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/4043a85f-ebdc-424c-acf5-9097d1472773">Windows Firewall API</a>.]
+<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 The 
 <b>DisableInternetFirewall</b> method disables Internet Connection Firewall on this connection.
@@ -180,8 +180,8 @@ Calling this method triggers the following notification:
 This method returns successfully even if Internet Connection Firewall was not enabled on this connection.
 
 Use the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365966(v=VS.85).aspx">INetSharingManager::get_INetSharingConfigurationForINetConnection</a> method to obtain an 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365935(v=VS.85).aspx">INetSharingConfiguration</a> interface for a particular connection.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingmanager-get_inetsharingconfigurationforinetconnection">INetSharingManager::get_INetSharingConfigurationForINetConnection</a> method to obtain an 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingconfiguration">INetSharingConfiguration</a> interface for a particular connection.
 
 <b>Windows XP with SP2:  </b>Calling this API will disable the firewall on the specified interface, regardless of whether the Windows Firewall is on.
 
@@ -193,15 +193,15 @@ Use the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365935(v=VS.85).aspx">INetSharingConfiguration</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingconfiguration">INetSharingConfiguration</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365942(v=VS.85).aspx">INetSharingConfiguration::EnableInternetFirewall</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingconfiguration-enableinternetfirewall">INetSharingConfiguration::EnableInternetFirewall</a>
 
 
 
-<a href="https://msdn.microsoft.com/85f6b76f-3c31-4669-a54f-30d12a82935e">INetSharingConfiguration::get_InternetFirewallEnabled</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingconfiguration-get_internetfirewallenabled">INetSharingConfiguration::get_InternetFirewallEnabled</a>
  
 
  

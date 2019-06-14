@@ -59,14 +59,14 @@ Retrieves the hash value of the block.
 
 ### -param bufferSize [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT32</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT32</a>*</b>
 
 The length of  <i>buffer</i>.
 
 
 ### -param buffer [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a>**</b>
 
 The byte sequence representing the hash value of the block.
 
@@ -88,7 +88,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 The <i>buffer</i> value corresponds to the <b>Hash</b> attribute of the <b>Block</b> element.
 
-The caller is responsible for deallocating the memory used for <i>buffer</i>. Use the <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> function to deallocate the memory.
+The caller is responsible for deallocating the memory used for <i>buffer</i>. Use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to deallocate the memory.
 
 
 
@@ -98,7 +98,7 @@ The caller is responsible for deallocating the memory used for <i>buffer</i>. Us
 
 
 
-<a href="https://msdn.microsoft.com/39B0680A-F27B-478F-8E83-FE1BFCF61AC4">IAppxBlockMapBlock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxblockmapblock">IAppxBlockMapBlock</a>
  
 
  

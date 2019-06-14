@@ -52,12 +52,12 @@ ms.custom: 19H1
 
 Persists media data from a source byte stream to an application-provided byte stream.
 
-The byte stream used for HTTP download implements this interface. To get a pointer to this interface, call <a href="https://msdn.microsoft.com/4287dd1f-1718-4231-bc62-b58e0e61d688">IMFGetService::GetService</a> on the byte stream, with the service identifier MFNET_SAVEJOB_SERVICE.
+The byte stream used for HTTP download implements this interface. To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> on the byte stream, with the service identifier MFNET_SAVEJOB_SERVICE.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSaveJob</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFSaveJob</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSaveJob</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSaveJob</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMFSaveJob</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ff137b76-2a05-4e58-8d4f-d12cdd89656b">BeginSave</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsavejob-beginsave">BeginSave</a>
 </td>
 <td align="left" width="63%">
 Begins saving a Windows Media file to the application's byte stream.
@@ -81,25 +81,25 @@ Begins saving a Windows Media file to the application's byte stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ce3ec53a-eeca-430f-a939-3d941b9b2570">CancelSave</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsavejob-cancelsave">CancelSave</a>
 </td>
 <td align="left" width="63%">
-Cancels the operation started by <a href="https://msdn.microsoft.com/ff137b76-2a05-4e58-8d4f-d12cdd89656b">BeginSave</a>.
+Cancels the operation started by <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsavejob-beginsave">BeginSave</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9d63d7b5-4454-4301-b467-eea82bace6ff">EndSave</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsavejob-endsave">EndSave</a>
 </td>
 <td align="left" width="63%">
-Completes the operation started by <a href="https://msdn.microsoft.com/ff137b76-2a05-4e58-8d4f-d12cdd89656b">BeginSave</a>.
+Completes the operation started by <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsavejob-beginsave">BeginSave</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8782333c-796c-4401-9575-c78e95887015">GetProgress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsavejob-getprogress">GetProgress</a>
 </td>
 <td align="left" width="63%">
 Retrieves the percentage of content saved to the provided byte stream.
@@ -114,7 +114,7 @@ Retrieves the percentage of content saved to the provided byte stream.
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

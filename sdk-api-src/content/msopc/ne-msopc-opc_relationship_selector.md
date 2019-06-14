@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Describes how to interpret the  <i>selectionCriterion</i> parameter of the <a href="https://msdn.microsoft.com/ac1f0347-9b89-4d8f-b0cb-14708e7a6e55">IOpcRelationshipSelector::GetSelectionCriterion</a> method.
+Describes how to interpret the  <i>selectionCriterion</i> parameter of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcrelationshipselector-getselectioncriterion">IOpcRelationshipSelector::GetSelectionCriterion</a> method.
 
 
 ## -enum-fields
@@ -80,15 +80,15 @@ The <i>selectionCriterion</i> parameter is a relationship type.
 
 
 
-<a href="https://msdn.microsoft.com/ef392c88-49cd-4ffa-b1fb-1501c6448264">Getting Started with the Packaging API</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
 
 
 
-<a href="https://msdn.microsoft.com/583f56e5-c374-4f79-badd-35eb5eecef70">IOpcRelationshipSelector::GetSelectorType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcrelationshipselector-getselectortype">IOpcRelationshipSelector::GetSelectorType</a>
 
 
 
-<a href="https://msdn.microsoft.com/801d1924-c75c-47b5-99fe-9d97ea8dfee1">IOpcRelationshipSelectorSet::Create</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcrelationshipselectorset-create">IOpcRelationshipSelectorSet::Create</a>
 
 
 
@@ -96,19 +96,19 @@ The <i>selectionCriterion</i> parameter is a relationship type.
 
 
 
-<a href="https://msdn.microsoft.com/cb35d87e-bbec-42d3-9f9d-d1cf36f39419">Packaging API Programming Guide</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-guide">Packaging API Programming Guide</a>
 
 
 
-<a href="https://msdn.microsoft.com/885137be-35d5-4ec5-bbcc-16c95adf55ab">Packaging API Samples</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-samples">Packaging API Samples</a>
 
 
 
-<a href="https://msdn.microsoft.com/c84246dd-f34b-40ea-8530-f93483445533">Packaging Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-enumerations">Packaging Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0e9f38f-ab35-4fc2-855c-ea21bf164223">Packaging Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd371635(v=vs.85)">Packaging Interfaces</a>
 
 
 

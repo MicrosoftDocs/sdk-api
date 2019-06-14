@@ -58,7 +58,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRequiredExtensions</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IRequiredExtensions</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRequiredExtensions</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRequiredExtensions</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IRequiredExtensions</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f7278976-8f15-43a4-b9ef-fb1952fdd455">EnableAllExtensions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-irequiredextensions-enableallextensions">EnableAllExtensions</a>
 </td>
 <td align="left" width="63%">
 Enables all extensions.
@@ -82,7 +82,7 @@ Enables all extensions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1c84d6ab-c855-4b89-8e36-0794e3ffdb85">GetFirstExtension</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-irequiredextensions-getfirstextension">GetFirstExtension</a>
 </td>
 <td align="left" width="63%">
 Gets first required extension.
@@ -91,7 +91,7 @@ Gets first required extension.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/09372a73-e67d-4f1f-805d-b64ca1501976">GetNextExtension</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-irequiredextensions-getnextextension">GetNextExtension</a>
 </td>
 <td align="left" width="63%">
 Gets next required extension.

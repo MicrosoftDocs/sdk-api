@@ -77,7 +77,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 
 
-<a href="https://msdn.microsoft.com/BB207D78-9E27-49A4-91E4-601CED109389">WICJpegFrameHeader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-wincodec-wicjpegframeheader">WICJpegFrameHeader</a>
  
 
  

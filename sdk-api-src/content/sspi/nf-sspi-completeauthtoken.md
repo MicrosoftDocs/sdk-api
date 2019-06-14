@@ -52,7 +52,7 @@ ms.custom: 19H1
 The <b>CompleteAuthToken</b> function completes an authentication token. This function is used by protocols, such as DCE, that need to revise the security information after the transport application has updated some message parameters.
 			
 
-This function is supported only by the Digest <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security support provider</a> (SSP).
+This function is supported only by the Digest <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP).
 
 <b>CompleteAuthToken</b> is used on the server side only.
 
@@ -70,7 +70,7 @@ A handle of the context that needs to be completed.
 ### -param pToken [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/fc6ef09c-3ba9-4bcb-a3c2-07422af8eaa9">SecBufferDesc</a> structure that contains the buffer descriptor for the entire message.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbufferdesc">SecBufferDesc</a> structure that contains the buffer descriptor for the entire message.
 
 
 ## -returns
@@ -152,8 +152,8 @@ An error occurred that did not map to an SSPI error code.
 
 
 
-The client of a transport application calls the <b>CompleteAuthToken</b> function to allow the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a> to update a checksum or similar operation after all the protocol headers have been updated by the transport application. The client calls this function only if the 
-<a href="https://msdn.microsoft.com/4b482dcc-3878-4bc6-85e4-229a1726cecc">InitializeSecurityContext (Digest)</a> call returned SEC_I_COMPLETE_NEEDED or SEC_I_COMPLETE_AND_CONTINUE.
+The client of a transport application calls the <b>CompleteAuthToken</b> function to allow the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> to update a checksum or similar operation after all the protocol headers have been updated by the transport application. The client calls this function only if the 
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (Digest)</a> call returned SEC_I_COMPLETE_NEEDED or SEC_I_COMPLETE_AND_CONTINUE.
 
 
 
@@ -163,15 +163,15 @@ The client of a transport application calls the <b>CompleteAuthToken</b> functio
 
 
 
-<a href="https://msdn.microsoft.com/4b482dcc-3878-4bc6-85e4-229a1726cecc">InitializeSecurityContext (Digest)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (Digest)</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/fc6ef09c-3ba9-4bcb-a3c2-07422af8eaa9">SecBufferDesc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbufferdesc">SecBufferDesc</a>
  
 
  

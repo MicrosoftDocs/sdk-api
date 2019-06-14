@@ -60,49 +60,49 @@ Defines the attributes of rows in a table. The definitions include the correspon
 
 ### -field cbRow
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 The count of bytes in this structure.
 
 
 ### -field cbCell
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
-The count of bytes in <a href="https://msdn.microsoft.com/75bf07bd-103b-4f35-b421-5a7559c7b90e">TABLECELLPARMS</a>.
+The count of bytes in <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_tablecellparms">TABLECELLPARMS</a>.
 
 
 ### -field cCell
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 The count of cells in a row, up to the maximum specified by MAX_TABLE_CELLS.
 
 
 ### -field cRow
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 The count of rows.
 
 
 ### -field dxCellMargin
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 The size of the left and right margins in a cell (\trgaph).
 
 
 ### -field dxIndent
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 The amount of left indentation, or right indentation if the <b>fRTL</b> member is <b>TRUE</b> (similar to \trleft).
 
 
 ### -field dyHeight
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 The height of a row (\trrh). 
 
@@ -139,23 +139,23 @@ The height of a row (\trrh).
 
 ### -field cpStartRow
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 The character position that indicates where to insert table. A value of –1 indicates the character position of the selection. 
 
 
 ### -field bTableLevel
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
-The table nesting level (<a href="https://msdn.microsoft.com/36ADA41B-735B-4D6E-92B1-33260C71DF73">EM_GETTABLEPARMS</a> only).
+The table nesting level (<a href="https://docs.microsoft.com/windows/desktop/Controls/em-gettableparms">EM_GETTABLEPARMS</a> only).
 
 
 ### -field iCell
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
-The index of the cell to insert or delete (<a href="https://msdn.microsoft.com/6CE9B8D1-68C9-4692-8454-24BC81E9038F">EM_SETTABLEPARMS</a> only).
+The index of the cell to insert or delete (<a href="https://docs.microsoft.com/windows/desktop/Controls/em-settableparms">EM_SETTABLEPARMS</a> only).
 
 
 #### - fIdentCells:1
@@ -167,35 +167,35 @@ Type: <b>DWORD</b>
 
 #### - fKeep:1
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Keep rows together (\trkeep).
 
 
 #### - fKeepFollow:1
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Keep the row on the same page as the following row (\trkeepfollow).
 
 
 #### - fRTL:1
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Display cells in right-to-left order (\rtlrow).
 
 
 #### - fWrap:1
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Wrap text to the right or left, depending on <b>bAlignment</b>(see \tdfrmtxtLeftN and \tdfrmtxtRightN).
 
 
 #### - nAlignment:3
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 
 Row alignment \trql, trqr, \trqc)
@@ -246,11 +246,11 @@ The rows are aligned with the right margin.
 
 
 
-<a href="https://msdn.microsoft.com/7F9B2F28-1035-44AA-9DF6-57BC62886A4E">EM_INSERTTABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/em-inserttable">EM_INSERTTABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/75bf07bd-103b-4f35-b421-5a7559c7b90e">TABLECELLPARMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_tablecellparms">TABLECELLPARMS</a>
  
 
  

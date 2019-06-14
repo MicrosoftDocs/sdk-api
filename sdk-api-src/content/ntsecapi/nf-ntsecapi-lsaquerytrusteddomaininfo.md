@@ -59,8 +59,8 @@ The <b>LsaQueryTrustedDomainInfo</b> function retrieves information about a trus
 
 ### -param PolicyHandle [in]
 
-A handle to the <a href="https://msdn.microsoft.com/4253c7fb-85f5-441d-90bf-492e802ad0f8">Policy</a> object of a domain controller that has a trust relationship with the domain identified by the <i>TrustedDomainSid</i> parameter. The handle must have the POLICY_VIEW_LOCAL_INFORMATION access right. For more information, see 
-<a href="https://msdn.microsoft.com/66fdc878-d9c4-421c-b79f-9df08984611c">Opening a Policy Object Handle</a>.
+A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object of a domain controller that has a trust relationship with the domain identified by the <i>TrustedDomainSid</i> parameter. The handle must have the POLICY_VIEW_LOCAL_INFORMATION access right. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/opening-a-policy-object-handle">Opening a Policy Object Handle</a>.
 
 
 ### -param TrustedDomainSid [in]
@@ -71,7 +71,7 @@ Pointer to the SID of the trusted domain to query.
 ### -param InformationClass [in]
 
 Specifies one of the following values from the 
-<a href="https://msdn.microsoft.com/442a0944-b498-4d9f-b338-d5aed1663d8d">TRUSTED_INFORMATION_CLASS</a> enumeration type. The value indicates the type of information being requested. 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_trusted_information_class">TRUSTED_INFORMATION_CLASS</a> enumeration type. The value indicates the type of information being requested. 
 
 
 
@@ -90,7 +90,7 @@ Specifies one of the following values from the
 </td>
 <td width="60%">
 Retrieves the name of the trusted domain. The <i>Buffer</i> parameter receives a pointer to a 
-<a href="https://msdn.microsoft.com/9bc1301b-1d09-4cd2-8590-e7756ee4792d">TRUSTED_DOMAIN_NAME_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_trusted_domain_name_info">TRUSTED_DOMAIN_NAME_INFO</a> structure.
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ Retrieves the name of the trusted domain. The <i>Buffer</i> parameter receives a
 </td>
 <td width="60%">
 Retrieves the value used to generate Posix user and group identifiers for the trusted domain. The <i>Buffer</i> parameter receives a pointer to a 
-<a href="https://msdn.microsoft.com/0686da5e-43d4-49ac-8c5d-5c56b8d12e50">TRUSTED_POSIX_OFFSET_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_trusted_posix_offset_info">TRUSTED_POSIX_OFFSET_INFO</a> structure.
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ Retrieves the value used to generate Posix user and group identifiers for the tr
 </td>
 <td width="60%">
 Retrieves the password for the trusted domain. The <i>Buffer</i> parameter receives a pointer to a 
-<a href="https://msdn.microsoft.com/2c3aca10-8efd-4278-8127-2d31db776c0e">TRUSTED_PASSWORD_INFO</a> structure. The handle passed in the <i>PolicyHandle</i> parameter must have the POLICY_GET_PRIVATE_INFORMATION access right.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_trusted_password_info">TRUSTED_PASSWORD_INFO</a> structure. The handle passed in the <i>PolicyHandle</i> parameter must have the POLICY_GET_PRIVATE_INFORMATION access right.
 
 </td>
 </tr>
@@ -123,7 +123,7 @@ Retrieves the password for the trusted domain. The <i>Buffer</i> parameter recei
 </td>
 <td width="60%">
 Retrieves extended information for the trusted domain. The <i>Buffer</i> parameter receives a pointer to a 
-<a href="https://msdn.microsoft.com/acf9a2b5-f301-4e6a-a515-df338658ad56">TRUSTED_DOMAIN_INFORMATION_EX</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_trusted_domain_information_ex">TRUSTED_DOMAIN_INFORMATION_EX</a> structure.
 
 </td>
 </tr>
@@ -145,7 +145,7 @@ This value is not supported.
 </td>
 <td width="60%">
 Retrieves complete information for the trusted domain. This information includes the Posix offset information, authentication information, and the extended information returned for the TrustedDomainInformationEx value. The <i>Buffer</i> parameter receives a pointer to a 
-<a href="https://msdn.microsoft.com/b7abfe1e-d9e6-4583-a738-c16190ffd44d">TRUSTED_DOMAIN_FULL_INFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_trusted_domain_full_information">TRUSTED_DOMAIN_FULL_INFORMATION</a> structure.
 
 </td>
 </tr>
@@ -161,7 +161,7 @@ A pointer to a buffer that receives a pointer to a structure that contains the r
 
 
 When you have finished using the information, free the returned pointer by passing it to 
-<a href="https://msdn.microsoft.com/6eb3d18f-c54c-4e51-8a4b-b7a3f930cfa9">LsaFreeMemory</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsafreememory">LsaFreeMemory</a>.
 
 
 ## -returns
@@ -171,10 +171,10 @@ When you have finished using the information, free the returned pointer by passi
 If the function succeeds, the function returns STATUS_SUCCESS.
 
 If the function fails, it returns an <b>NTSTATUS</b> value that indicates the error. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms721859(v=VS.85).aspx">LSA Policy Function Return Values</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
 
 You can use the 
-<a href="https://msdn.microsoft.com/fa91794c-c502-4b36-84cc-a8d77c8e9d9f">LsaNtStatusToWinError</a> function to convert the <b>NTSTATUS</b> value to a Windows error code.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function to convert the <b>NTSTATUS</b> value to a Windows error code.
 
 
 
@@ -184,35 +184,35 @@ You can use the
 
 
 
-<a href="https://msdn.microsoft.com/a7b89ea7-af92-46ba-ac73-2fba1cc27680">LsaSetTrustedDomainInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsasettrusteddomaininformation">LsaSetTrustedDomainInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/0e38ac5f-40db-405d-9394-b6bcb7c652b5">POLICY_ACCOUNT_DOMAIN_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_policy_account_domain_info">POLICY_ACCOUNT_DOMAIN_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/3442e5e5-78cf-4bda-ba11-0f51ee40df16">POLICY_AUDIT_EVENTS_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_policy_audit_events_info">POLICY_AUDIT_EVENTS_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/5b2879cf-e0dc-4844-bfe8-bf45460285f1">POLICY_DNS_DOMAIN_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_policy_dns_domain_info">POLICY_DNS_DOMAIN_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/f66abe33-d8c8-45b8-9b94-d6890d786aaa">POLICY_LSA_SERVER_ROLE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_policy_lsa_server_role_info">POLICY_LSA_SERVER_ROLE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/ef4d1d1d-9b1b-4d67-80b8-2b548ec31a87">POLICY_MODIFICATION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_policy_modification_info">POLICY_MODIFICATION_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/20102da1-bc05-4ea5-9a2d-a50ecba5fd88">POLICY_PRIMARY_DOMAIN_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_policy_primary_domain_info">POLICY_PRIMARY_DOMAIN_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/442a0944-b498-4d9f-b338-d5aed1663d8d">TRUSTED_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_trusted_information_class">TRUSTED_INFORMATION_CLASS</a>
  
 
  

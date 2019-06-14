@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Saves the current drawing state to the specified <a href="https://msdn.microsoft.com/9a3d9146-0e1b-4642-ad5d-ff1d09a93d2b">ID2D1DrawingStateBlock</a>.
+Saves the current drawing state to the specified <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1drawingstateblock">ID2D1DrawingStateBlock</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Saves the current drawing state to the specified <a href="https://msdn.microsoft
 
 ### -param drawingStateBlock [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/9a3d9146-0e1b-4642-ad5d-ff1d09a93d2b">ID2D1DrawingStateBlock</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1drawingstateblock">ID2D1DrawingStateBlock</a>*</b>
 
 When this method returns, contains the current drawing state of the render target. This parameter must be initialized before passing it to the method.
 
@@ -78,7 +78,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/40629be9-5840-4bde-b369-56bbfd791775">ID2D1RenderTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
  
 
  

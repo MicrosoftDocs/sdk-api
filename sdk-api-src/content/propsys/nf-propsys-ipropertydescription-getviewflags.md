@@ -59,9 +59,9 @@ Gets the current set of flags governing the property's view.
 
 ### -param ppdvFlags [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762528(v=VS.85).aspx">PROPDESC_VIEW_FLAGS</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-propsys-propdesc_view_flags">PROPDESC_VIEW_FLAGS</a>*</b>
 
-When this method returns, contains a pointer to a value that includes one or more of the following flags. See <a href="https://msdn.microsoft.com/en-us/library/Bb762528(v=VS.85).aspx">PROPDESC_VIEW_FLAGS</a> for valid values.
+When this method returns, contains a pointer to a value that includes one or more of the following flags. See <a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-propsys-propdesc_view_flags">PROPDESC_VIEW_FLAGS</a> for valid values.
 
 
 ## -returns
@@ -80,11 +80,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
 
 
 
-<a href="https://msdn.microsoft.com/cac93c31-d90d-4116-b846-0cf593d1d56e">Property Description Schema</a>
+<a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
  
 
  

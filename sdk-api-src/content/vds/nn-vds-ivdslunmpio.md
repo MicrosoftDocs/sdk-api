@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides methods for performing 
    query and configuration operations on a LUN with MPIO extensions.
@@ -58,7 +58,7 @@ Provides methods for performing
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsLunMpio</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IVdsLunMpio</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsLunMpio</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsLunMpio</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,29 +73,29 @@ The <b>IVdsLunMpio</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/56866ecb-c84b-4297-9bd4-54969501bf9e">GetLoadBalancePolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunmpio-getloadbalancepolicy">GetLoadBalancePolicy</a>
 </td>
 <td align="left" width="63%">
 Returns the current load balance policy on the LUN.</p> (Inherited from <b>IVdsLunMpio</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c7cc1abf-c7f2-4260-b9d2-f70128276e1e">GetPathInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunmpio-getpathinfo">GetPathInfo</a>
 </td>
 <td align="left" width="63%">
-Returns an array of <a href="https://msdn.microsoft.com/14444252-11ca-4614-81d1-9a15e76d0186">VDS_PATH_INFO</a> structures, 
+Returns an array of <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_path_info">VDS_PATH_INFO</a> structures, 
      one for each path to the LUN.</p> (Inherited from <b>IVdsLunMpio</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1b1f3437-41db-403e-abdb-febbfe90858c">GetSupportedLbPolicies</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunmpio-getsupportedlbpolicies">GetSupportedLbPolicies</a>
 </td>
 <td align="left" width="63%">
 Retrieves the load balance policies that are supported by the hardware provider.</p> (Inherited from <b>IVdsLunMpio</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2f3eb00a-864e-4fb7-a722-4537e6b8dd42">SetLoadBalancePolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunmpio-setloadbalancepolicy">SetLoadBalancePolicy</a>
 </td>
 <td align="left" width="63%">
 Sets the load balance policy on the LUN.</p> (Inherited from <b>IVdsLunMpio</b>)</td>
@@ -117,7 +117,7 @@ If your provider is an iSCSI provider, or if your provider does not support MPIO
 
 
 
-<a href="https://msdn.microsoft.com/0bddfd62-881d-4fda-b303-ed38d434af55">VDS Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
  
 
  

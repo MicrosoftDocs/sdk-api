@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Attempts to cancel an asynchronous operation that was scheduled with <a href="https://msdn.microsoft.com/cfc22cfb-44fc-441b-826c-61f72cb0bd68">RtwqScheduleWorkItem</a>.
+Attempts to cancel an asynchronous operation that was scheduled with <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqscheduleworkitem">RtwqScheduleWorkItem</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Attempts to cancel an asynchronous operation that was scheduled with <a href="ht
 
 ### -param Key [in]
 
-The key that was received in the <i>key</i> parameter of the <a href="https://msdn.microsoft.com/cfc22cfb-44fc-441b-826c-61f72cb0bd68">RtwqScheduleWorkItem</a>.
+The key that was received in the <i>key</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqscheduleworkitem">RtwqScheduleWorkItem</a>.
           
 
 

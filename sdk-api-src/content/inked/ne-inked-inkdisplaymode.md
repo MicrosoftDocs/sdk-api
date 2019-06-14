@@ -75,11 +75,11 @@ The selection appears as text.
 
 
 
-<a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit Control Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit Control Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4e6f85a-b776-41ca-bfd2-6eb8d2425cd1">SelInksDisplayMode Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-get_selinksdisplaymode">SelInksDisplayMode Property</a>
  
 
  

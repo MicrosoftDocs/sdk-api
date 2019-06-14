@@ -59,7 +59,7 @@ Unregisters a listener event from the callback platform.
 
 ### -param platformEvents
 
-Pointer to the <a href="https://msdn.microsoft.com/9184D930-9305-4CA0-8E89-0CBAA5E4D53F">IRtwqPlatformEvents</a>  object which provides the events.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nn-rtworkq-irtwqplatformevents">IRtwqPlatformEvents</a>  object which provides the events.
 
 
 ## -returns

@@ -102,11 +102,11 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/e01a0177-7e3a-4087-84b8-151da2145be8">ITfMSAAControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msaatext/nn-msaatext-itfmsaacontrol">ITfMSAAControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms971350(v=MSDN.10).aspx">Microsoft Active Accessibility</a>
+<a href="/previous-versions/ms971350(v=msdn.10)">Microsoft Active Accessibility</a>
  
 
  

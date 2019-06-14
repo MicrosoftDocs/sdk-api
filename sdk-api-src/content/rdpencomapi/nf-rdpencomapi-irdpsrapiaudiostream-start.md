@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Starts the audio stream. The audio stream must be initialized by calling the <a href="https://msdn.microsoft.com/EF94E441-1331-4317-A104-05BDA6738C5A">Initialize</a> method before it can be started.
+Starts the audio stream. The audio stream must be initialized by calling the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiaudiostream-initialize">Initialize</a> method before it can be started.
 
 
 
@@ -74,11 +74,11 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the return v
 
 
 
-<a href="https://msdn.microsoft.com/B2BC04A1-DE22-4543-9F10-33B0B99E0F92">IRDPSRAPIAudioStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiaudiostream">IRDPSRAPIAudioStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/EF94E441-1331-4317-A104-05BDA6738C5A">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiaudiostream-initialize">Initialize</a>
  
 
  

@@ -59,7 +59,7 @@ Sets the character formatting attributes of the range.
 
 ### -param pFont [in]
 
-Type: <b><a href="https://msdn.microsoft.com/d2d43bfd-7cdf-458a-822d-e3965bfe2284">ITextFont2</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a>*</b>
 
 The font object with the desired character formatting attributes.
 
@@ -70,7 +70,7 @@ The font object with the desired character formatting attributes.
 
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -121,11 +121,11 @@ Insufficient memory.
 
 
 
-<a href="https://msdn.microsoft.com/905f0967-8b99-45ed-a1cc-19d49e919a65">ITextRange2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
 
 
 
-<a href="https://msdn.microsoft.com/24ef7fb3-4cf4-46ed-9273-6f91c77f7641">ITextRange2::GetFont2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getfont2">ITextRange2::GetFont2</a>
  
 
  

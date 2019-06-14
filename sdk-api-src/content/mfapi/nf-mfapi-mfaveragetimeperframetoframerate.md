@@ -109,7 +109,7 @@ The function succeeded.
 
 Average time per frame is used in the older <b>VIDEOINFOHEADER</b> and <b>VIDEOINFOHEADER2</b> format structures. This function provides a standard conversion so that all components in the pipeline can use consistent values, if they need to translate between the older format structures and the media type attributes used in Media Foundation.
 
-This function uses a look-up table for certain common durations. The table is listed in the Remarks section for the <a href="https://msdn.microsoft.com/750f6920-3386-4d50-9d59-73e876b406da">MFFrameRateToAverageTimePerFrame</a> function.
+This function uses a look-up table for certain common durations. The table is listed in the Remarks section for the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfframeratetoaveragetimeperframe">MFFrameRateToAverageTimePerFrame</a> function.
 
 
 
@@ -119,15 +119,15 @@ This function uses a look-up table for certain common durations. The table is li
 
 
 
-<a href="https://msdn.microsoft.com/750f6920-3386-4d50-9d59-73e876b406da">MFFrameRateToAverageTimePerFrame</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfframeratetoaveragetimeperframe">MFFrameRateToAverageTimePerFrame</a>
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/690fda6e-dcbd-44dc-968d-cc949126da81">Media Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-types">Media Types</a>
  
 
  

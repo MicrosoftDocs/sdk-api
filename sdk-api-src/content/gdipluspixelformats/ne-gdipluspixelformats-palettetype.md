@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The  <b>PaletteType</b> enumeration is used by the <a href="https://msdn.microsoft.com/en-us/library/ms536309(v=VS.85).aspx">Bitmap::InitializePalette</a> and <a href="https://msdn.microsoft.com/en-us/library/ms536306(v=VS.85).aspx">Bitmap::ConvertFormat</a> methods of the <a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> class. The members of the enumeration identify several standard color palette formats.
+The  <b>PaletteType</b> enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-initializepalette">Bitmap::InitializePalette</a> and <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-convertformat">Bitmap::ConvertFormat</a> methods of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a> class. The members of the enumeration identify several standard color palette formats.
 
 
 ## -enum-fields
@@ -65,7 +65,7 @@ An arbitrary custom palette provided by the caller.
 
 ### -field PaletteTypeOptimal
 
-An palette of colors that are optimal for a particular bitmap. To create an optimal palette, pass PaletteTypeOptimal, the number of colors you want in the palette, and the address of a <a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> object to the <a href="https://msdn.microsoft.com/en-us/library/ms536309(v=VS.85).aspx">Bitmap::InitializePalette</a> method.
+An palette of colors that are optimal for a particular bitmap. To create an optimal palette, pass PaletteTypeOptimal, the number of colors you want in the palette, and the address of a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a> object to the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-initializepalette">Bitmap::InitializePalette</a> method.
 
 
 ### -field PaletteTypeFixedBW

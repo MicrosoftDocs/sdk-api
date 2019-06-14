@@ -117,15 +117,15 @@ The fax job is being routed.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686168(v=VS.85).aspx">IFaxJobStatus::get_Status</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxjobstatus-status-vb">IFaxJobStatus::get_Status</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688565(v=VS.85).aspx">IFaxOutgoingJob::get_Status</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingjob-status-vb">IFaxOutgoingJob::get_Status</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684823(v=VS.85).aspx">Status</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingjob-status">Status</a>
  
 
  

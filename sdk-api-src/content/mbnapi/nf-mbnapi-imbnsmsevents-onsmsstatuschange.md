@@ -59,7 +59,7 @@ Notification method indicating  a change in the status of the message store.
 
 ### -param sms [in]
 
-An <a href="https://msdn.microsoft.com/4a5fae5a-91d5-4a94-ac54-cb641147e8dc">IMbnSms</a> interface representing the Mobile Broadband device for which the message store status has changed.
+An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsms">IMbnSms</a> interface representing the Mobile Broadband device for which the message store status has changed.
 
 
 ## -returns
@@ -75,7 +75,7 @@ This method must return <b>S_OK</b>.
 
 
 
-An application can use the <a href="https://msdn.microsoft.com/4a5fae5a-91d5-4a94-ac54-cb641147e8dc">IMbnSms</a> interface to get the new status information.  
+An application can use the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsms">IMbnSms</a> interface to get the new status information.  
 
 
 
@@ -85,7 +85,7 @@ An application can use the <a href="https://msdn.microsoft.com/4a5fae5a-91d5-4a9
 
 
 
-<a href="https://msdn.microsoft.com/06dfb631-fe5a-45d9-89f9-1f13990500ee">IMbnSmsEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsevents">IMbnSmsEvents</a>
  
 
  

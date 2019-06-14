@@ -79,22 +79,22 @@ None of the disk identifiers of the shadow copy LUNs will be reverted.
 
 ### -field VSS_ONLUNSTATECHANGE_NOTIFY_READ_WRITE
 
-The shadow copy LUNs will be converted permanently to read-write. This flag is set only as a notification for the provider; no provider action is required. For more information, see the <a href="https://msdn.microsoft.com/7546eca0-db52-4c4b-9b5a-a3cfdf2a98af">IVssHardwareSnapshotProviderEx::OnLunStateChange</a> method.
+The shadow copy LUNs will be converted permanently to read-write. This flag is set only as a notification for the provider; no provider action is required. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotproviderex-onlunstatechange">IVssHardwareSnapshotProviderEx::OnLunStateChange</a> method.
 
 
 ### -field VSS_ONLUNSTATECHANGE_NOTIFY_LUN_PRE_RECOVERY
 
-The shadow copy LUNs will be converted temporarily to read-write and are about to undergo TxF recovery or VSS auto-recovery. This flag is set only as a notification for the provider; no provider action is required. For more information, see the <a href="https://msdn.microsoft.com/7546eca0-db52-4c4b-9b5a-a3cfdf2a98af">IVssHardwareSnapshotProviderEx::OnLunStateChange</a> method.
+The shadow copy LUNs will be converted temporarily to read-write and are about to undergo TxF recovery or VSS auto-recovery. This flag is set only as a notification for the provider; no provider action is required. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotproviderex-onlunstatechange">IVssHardwareSnapshotProviderEx::OnLunStateChange</a> method.
 
 
 ### -field VSS_ONLUNSTATECHANGE_NOTIFY_LUN_POST_RECOVERY
 
-The shadow copy LUNs have just undergone TxF recovery or VSS auto-recovery and have been converted back to read-only. This flag is set only as a notification for the provider; no provider action is required. For more information, see the <a href="https://msdn.microsoft.com/7546eca0-db52-4c4b-9b5a-a3cfdf2a98af">IVssHardwareSnapshotProviderEx::OnLunStateChange</a> method.
+The shadow copy LUNs have just undergone TxF recovery or VSS auto-recovery and have been converted back to read-only. This flag is set only as a notification for the provider; no provider action is required. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotproviderex-onlunstatechange">IVssHardwareSnapshotProviderEx::OnLunStateChange</a> method.
 
 
 ### -field VSS_ONLUNSTATECHANGE_DO_MASK_LUNS
 
-The provider must mask shadow copy LUNs from this computer. For more information, see the <a href="https://msdn.microsoft.com/7546eca0-db52-4c4b-9b5a-a3cfdf2a98af">IVssHardwareSnapshotProviderEx::OnLunStateChange</a> method.
+The provider must mask shadow copy LUNs from this computer. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotproviderex-onlunstatechange">IVssHardwareSnapshotProviderEx::OnLunStateChange</a> method.
 
 
 ## -see-also
@@ -102,7 +102,7 @@ The provider must mask shadow copy LUNs from this computer. For more information
 
 
 
-<a href="https://msdn.microsoft.com/7546eca0-db52-4c4b-9b5a-a3cfdf2a98af">IVssHardwareSnapshotProviderEx::OnLunStateChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotproviderex-onlunstatechange">IVssHardwareSnapshotProviderEx::OnLunStateChange</a>
  
 
  

@@ -66,7 +66,7 @@ The handle of the window being subclassed.
 
 ### -param pfnSubclass [in]
 
-Type: <b><a href="https://msdn.microsoft.com/44e4cbe0-8252-4bcc-885e-d8af856e8ad7">SUBCLASSPROC</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nc-commctrl-subclassproc">SUBCLASSPROC</a></b>
 
 A pointer to a window procedure. This pointer and the subclass ID uniquely identify this subclass callback.
 
@@ -128,7 +128,7 @@ The subclass callback was not installed.
 
 
 
-To use <b>GetWindowSubclass</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.
+To use <b>GetWindowSubclass</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
 
 
 
@@ -138,15 +138,15 @@ To use <b>GetWindowSubclass</b>, specify Comctl32.dll version 6 in the manifest.
 
 
 
-<a href="https://msdn.microsoft.com/43b1efa5-11da-4a95-8d81-b0d8ae64733a">DefSubclassProc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-defsubclassproc">DefSubclassProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/09f27240-f3af-4791-afcb-a82bda79712a">RemoveWindowSubclass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-removewindowsubclass">RemoveWindowSubclass</a>
 
 
 
-<a href="https://msdn.microsoft.com/0b11144d-eb4e-462c-96d3-38c4bac48f2a">SetWindowSubclass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-setwindowsubclass">SetWindowSubclass</a>
  
 
  

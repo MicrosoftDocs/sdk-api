@@ -73,11 +73,11 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/9a20d09d-219c-4bcb-95b3-67a44e41629e">IConsole2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>
 
 
 
-<a href="https://msdn.microsoft.com/ef0fdca7-f52e-48b9-98a1-d4516c9089d4">Using Taskpads</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-taskpads">Using Taskpads</a>
  
 
  

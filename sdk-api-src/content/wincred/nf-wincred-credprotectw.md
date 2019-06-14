@@ -89,7 +89,7 @@ The size, in characters of the <i>pszProtectedCredentials</i> buffer. On output,
 
 ### -param ProtectionType [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/6d8d8ad6-1b44-4482-a9a2-9c50d522b8d9">CRED_PROTECTION_TYPE</a> enumeration type that, on output, specifies the type of protection provided.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ne-wincred-_cred_protection_type">CRED_PROTECTION_TYPE</a> enumeration type that, on output, specifies the type of protection provided.
 
 
 ## -returns
@@ -99,7 +99,7 @@ A pointer to a <a href="https://msdn.microsoft.com/6d8d8ad6-1b44-4482-a9a2-9c50d
 <b>TRUE</b> if the function succeeds; otherwise, <b>FALSE</b>.
 
 For extended error information, call the 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 
 
@@ -108,7 +108,7 @@ For extended error information, call the
 
 
 
-Note that the output of the <b>CredProtect</b> function is not integrity protected, so if the output is modified, the <a href="https://msdn.microsoft.com/7a22fb2b-edfc-45f2-b2d2-729f3761584d">CredUnprotect</a> function is not updated and may produce incorrect results.
+Note that the output of the <b>CredProtect</b> function is not integrity protected, so if the output is modified, the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credunprotecta">CredUnprotect</a> function is not updated and may produce incorrect results.
 
 
 

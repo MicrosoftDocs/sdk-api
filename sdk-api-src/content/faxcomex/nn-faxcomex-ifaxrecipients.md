@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IFaxRecipients</b> interface defines a <a href="https://msdn.microsoft.com/en-us/library/ms689604(v=VS.85).aspx">FaxRecipients</a> messaging collection is used by a fax client application to manage the fax recipient objects (<a href="https://msdn.microsoft.com/en-us/library/ms690204(v=VS.85).aspx">FaxRecipient</a>) that represent the recipients of a single fax document. The collection also includes methods to add and remove recipients. 
+The <b>IFaxRecipients</b> interface defines a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxrecipients">FaxRecipients</a> messaging collection is used by a fax client application to manage the fax recipient objects (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxrecipient">FaxRecipient</a>) that represent the recipients of a single fax document. The collection also includes methods to add and remove recipients. 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxRecipients</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxRecipients</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxRecipients</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxRecipients</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,37 +70,37 @@ The <b>IFaxRecipients</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms689572(v=VS.85).aspx">Add</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxrecipients-add-vb">Add</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms689572(v=VS.85).aspx">IFaxRecipients::Add</a> method adds a new <a href="https://msdn.microsoft.com/en-us/library/ms690204(v=VS.85).aspx">FaxRecipient</a> object to the <a href="https://msdn.microsoft.com/en-us/library/ms689604(v=VS.85).aspx">FaxRecipients</a> collection. 
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxrecipients-add-vb">IFaxRecipients::Add</a> method adds a new <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxrecipient">FaxRecipient</a> object to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxrecipients">FaxRecipients</a> collection. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms688373(v=VS.85).aspx">get__NewEnum</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxrecipients-get__newenum">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms688373(v=VS.85).aspx">IFaxRecipients::get__NewEnum</a> method returns a reference to an enumerator object that you can use to iterate through the <a href="https://msdn.microsoft.com/en-us/library/ms689604(v=VS.85).aspx">FaxRecipients</a> collection.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxrecipients-get__newenum">IFaxRecipients::get__NewEnum</a> method returns a reference to an enumerator object that you can use to iterate through the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxrecipients">FaxRecipients</a> collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms687543(v=VS.85).aspx">Item</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxrecipients-get_item">Item</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms687542(v=VS.85).aspx">Item</a> method returns a <a href="https://msdn.microsoft.com/en-us/library/ms690204(v=VS.85).aspx">FaxRecipient</a> object from the <a href="https://msdn.microsoft.com/en-us/library/ms689604(v=VS.85).aspx">FaxRecipients</a> collection. 
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxrecipients-item">Item</a> method returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxrecipient">FaxRecipient</a> object from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxrecipients">FaxRecipients</a> collection. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms690208(v=VS.85).aspx">Remove</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxrecipients-remove-vb">Remove</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms690208(v=VS.85).aspx">IFaxRecipients::Remove</a> method removes an item from the <a href="https://msdn.microsoft.com/en-us/library/ms689604(v=VS.85).aspx">FaxRecipients</a> collection.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxrecipients-remove-vb">IFaxRecipients::Remove</a> method removes an item from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxrecipients">FaxRecipients</a> collection.
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms690208(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688447(v=VS.85).aspx">Count</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxrecipients-count-vb">Count</a>
 
 
 </td>
@@ -124,7 +124,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms688447(v=VS.85).aspx">IFaxRecipients::get_Count</a> property represents the number of objects in the <a href="https://msdn.microsoft.com/en-us/library/ms689604(v=VS.85).aspx">FaxRecipients</a> collection. This is the total number of recipients associated with the fax server or fax document.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxrecipients-count-vb">IFaxRecipients::get_Count</a> property represents the number of objects in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxrecipients">FaxRecipients</a> collection. This is the total number of recipients associated with the fax server or fax document.
 
 </td>
 </tr>
@@ -135,7 +135,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms688447(v=VS.85).aspx">IF
 
 
 
-A default implementation of <b>IFaxRecipients</b> is provided as the <a href="https://msdn.microsoft.com/en-us/library/ms689604(v=VS.85).aspx">FaxRecipients</a> object. 
+A default implementation of <b>IFaxRecipients</b> is provided as the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxrecipients">FaxRecipients</a> object. 
 
 
 

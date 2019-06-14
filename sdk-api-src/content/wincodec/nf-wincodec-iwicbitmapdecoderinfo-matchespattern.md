@@ -59,7 +59,7 @@ Retrieves a value that indicates whether the codec recognizes the pattern within
 
 ### -param pIStream [in]
 
-Type: <b><a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
 The stream to pattern match within.
 

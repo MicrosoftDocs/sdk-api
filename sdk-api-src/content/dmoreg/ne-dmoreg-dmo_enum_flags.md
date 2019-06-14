@@ -79,11 +79,11 @@ A software key enables the developer of a DMO to control who uses the DMO. If a 
 
 
 
-<a href="https://msdn.microsoft.com/5d60c902-5fb0-419b-b54d-5e3b543c5df8">DMO Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dmo-enumerated-types">DMO Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375487(v=VS.85).aspx">DMOEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dmoreg/nf-dmoreg-dmoenum">DMOEnum</a>
  
 
  

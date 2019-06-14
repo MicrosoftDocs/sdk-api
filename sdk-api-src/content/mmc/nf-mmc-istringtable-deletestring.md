@@ -85,15 +85,15 @@ Strings in the string table are reference counted. For example, adding the strin
 
 
 
-<a href="https://msdn.microsoft.com/3b4cfc92-4f50-4b62-bb2c-77c8e0e003da">IStringTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-istringtable">IStringTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd4672fb-89d1-4542-b917-58c01290c928">IStringTable::AddString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-istringtable-addstring">IStringTable::AddString</a>
 
 
 
-<a href="https://msdn.microsoft.com/9a0b02f6-3c15-4687-a1b8-2beba40dd1dc">IStringTable::DeleteAllStrings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-istringtable-deleteallstrings">IStringTable::DeleteAllStrings</a>
  
 
  

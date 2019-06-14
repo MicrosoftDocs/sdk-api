@@ -99,7 +99,7 @@ Open the log file for querying only.
 
 
 The function returns the handle to the log file if it is successful. Otherwise, the return value is INVALID_HANDLE_VALUE and the logged error can be retrieved by a call to 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -109,19 +109,19 @@ The function returns the handle to the log file if it is successful. Otherwise, 
 
 
 
-<a href="https://msdn.microsoft.com/0a9518b7-f231-48f2-ba50-5b802f8ccaed">Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/58201596-cb8c-480a-abef-896c1f9ef098">Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/bc738212-ff81-4b52-b2ef-50aabf6658ab">SetupLogFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setuplogfilea">SetupLogFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/a230063a-2b4a-4ed3-8624-4859a17f8ccc">SetupTerminateFileLog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupterminatefilelog">SetupTerminateFileLog</a>
  
 
  

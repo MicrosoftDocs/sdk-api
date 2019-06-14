@@ -111,11 +111,11 @@ Class names are not guaranteed to be unique; only GUIDs are unique. Therefore, o
 
 
 
-<a href="https://msdn.microsoft.com/54516c6f-ec78-47ea-93f5-a4c7cde5a601">SetupDiClassGuidsFromName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiclassguidsfromnamea">SetupDiClassGuidsFromName</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d576df1-e259-4025-8ef0-a520f5680fa0">SetupDiClassNameFromGuidEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiclassnamefromguidexa">SetupDiClassNameFromGuidEx</a>
  
 
  

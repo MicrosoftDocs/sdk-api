@@ -71,7 +71,7 @@ Zero-based index of the candidate list.
 
 ### -param lpCandList [out, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/d60b28fb-0cdd-43b4-8d99-cb829bea6679">CANDIDATELIST</a> structure in which the function retrieves the candidate list.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-tagcandidatelist">CANDIDATELIST</a> structure in which the function retrieves the candidate list.
 
 
 ### -param dwBufLen [in]
@@ -95,15 +95,15 @@ The function returns 0 if it does not succeed.
 
 
 
-<a href="https://msdn.microsoft.com/d60b28fb-0cdd-43b4-8d99-cb829bea6679">CANDIDATELIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-tagcandidatelist">CANDIDATELIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e23e004-514a-4021-bd20-5ac55547258f">Input Method Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://msdn.microsoft.com/833c07eb-0ecf-41e2-9e01-8d83e51ffcef">Input Method Manager Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
  
 
  

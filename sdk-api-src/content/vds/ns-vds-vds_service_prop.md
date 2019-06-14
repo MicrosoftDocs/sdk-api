@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
-Defines the properties of the <a href="https://msdn.microsoft.com/ae4d18f2-4d50-480c-bc7a-4eec0334707d">service object</a>.
+Defines the properties of the <a href="https://docs.microsoft.com/windows/desktop/VDS/startup-and-service-objects">service object</a>.
 
 
 ## -struct-fields
@@ -66,14 +66,14 @@ The version of VDS; a zero-terminated, human-readable string.
 
 ### -field ulFlags
 
-A bitmask of <a href="https://msdn.microsoft.com/d14718bd-43a3-4775-a218-27c59f6995eb">VDS_SERVICE_FLAG</a> enumeration values that describe the service.
+A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_service_flag">VDS_SERVICE_FLAG</a> enumeration values that describe the service.
 
 
 ## -remarks
 
 
 
- The <a href="https://msdn.microsoft.com/fb5fe743-4833-400a-a8aa-8de886203190">IVdsService::GetProperties</a>method returns this structure to report the properties of the <a href="https://msdn.microsoft.com/ae4d18f2-4d50-480c-bc7a-4eec0334707d">service object</a>.
+ The <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-getproperties">IVdsService::GetProperties</a>method returns this structure to report the properties of the <a href="https://docs.microsoft.com/windows/desktop/VDS/startup-and-service-objects">service object</a>.
 
 
 
@@ -83,11 +83,11 @@ A bitmask of <a href="https://msdn.microsoft.com/d14718bd-43a3-4775-a218-27c59f6
 
 
 
-<a href="https://msdn.microsoft.com/fb5fe743-4833-400a-a8aa-8de886203190">IVdsService::GetProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-getproperties">IVdsService::GetProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a13f5eb-0fa1-48e2-a112-b2254ca28423">VDS Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-structures">VDS Structures</a>
  
 
  

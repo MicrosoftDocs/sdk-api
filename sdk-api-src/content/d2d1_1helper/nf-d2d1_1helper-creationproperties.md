@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns a  <a href="https://msdn.microsoft.com/657439fe-dc17-42af-9e2c-2f3cb769a5a3">D2D1_CREATION_PROPERTIES</a> that describes root-level creation details.
+Returns a  <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_creation_properties">D2D1_CREATION_PROPERTIES</a> that describes root-level creation details.
 
 
 ## -parameters
@@ -59,21 +59,21 @@ Returns a  <a href="https://msdn.microsoft.com/657439fe-dc17-42af-9e2c-2f3cb769a
 
 ### -param threadingMode
 
-Type: <b><a href="https://msdn.microsoft.com/21fba5ee-3d31-4142-b66a-94b343e1c6eb">D2D1_THREADING_MODE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_threading_mode">D2D1_THREADING_MODE</a></b>
 
 The threading mode with which the corresponding root objects are created.
 
 
 ### -param debugLevel
 
-Type: <b><a href="https://msdn.microsoft.com/3f1b4127-12d4-4472-ae26-0b69fdbb35a7">D2D1_DEBUG_LEVEL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_debug_level">D2D1_DEBUG_LEVEL</a></b>
 
 The debug level that the root objects should be created with.
 
 
 ### -param options
 
-Type: <b><a href="https://msdn.microsoft.com/be4e6eb7-0767-4faf-9f27-eeb3bed48244">D2D1_DEVICE_CONTEXT_OPTIONS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_device_context_options">D2D1_DEVICE_CONTEXT_OPTIONS</a></b>
 
 The device context options that the root objects should be created with.
 
@@ -82,7 +82,7 @@ The device context options that the root objects should be created with.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/657439fe-dc17-42af-9e2c-2f3cb769a5a3">D2D1_CREATION_PROPERTIES</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_creation_properties">D2D1_CREATION_PROPERTIES</a></b>
 
 The filled creation properties structure.
 

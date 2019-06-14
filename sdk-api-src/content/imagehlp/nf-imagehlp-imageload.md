@@ -65,7 +65,7 @@ The name of the image.
 ### -param DllPath [in]
 
 The path used to locate the image if the name provided cannot be found. If <b>NULL</b> is used, then the search path rules set forth in the 
-<a href="https://msdn.microsoft.com/8039365a-1b39-431e-af87-9a9933ca102d">SearchPath</a> function apply.
+<a href="https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-searchpathw">SearchPath</a> function apply.
 
 
 ## -returns
@@ -73,10 +73,10 @@ The path used to locate the image if the name provided cannot be found. If <b>NU
 
 
 If the function succeeds, the return value is a pointer to a 
-<a href="https://msdn.microsoft.com/8bfc6b47-23d6-45e1-a733-5b938d6312da">LOADED_IMAGE</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_loaded_image">LOADED_IMAGE</a> structure.
 
 If the function fails, the return value is <b>NULL</b>. To retrieve extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -87,11 +87,11 @@ If the function fails, the return value is <b>NULL</b>. To retrieve extended err
 
 The 
 <b>ImageLoad</b> function is used to maintain a list of loaded DLLs. If the image has already been loaded, the prior 
-<a href="https://msdn.microsoft.com/8bfc6b47-23d6-45e1-a733-5b938d6312da">LOADED_IMAGE</a> is returned. Otherwise, the new image is added to the list.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_loaded_image">LOADED_IMAGE</a> is returned. Otherwise, the new image is added to the list.
 
 The 
-<a href="https://msdn.microsoft.com/8bfc6b47-23d6-45e1-a733-5b938d6312da">LOADED_IMAGE</a> structure must be deallocated by the 
-<a href="https://msdn.microsoft.com/9cebd32f-11fe-4dfe-9579-b219d62c3e74">ImageUnload</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_loaded_image">LOADED_IMAGE</a> structure must be deallocated by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-imageunload">ImageUnload</a> function.
 
 All ImageHlp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
@@ -103,15 +103,15 @@ All ImageHlp functions, such as this one, are single threaded. Therefore, calls 
 
 
 
-<a href="https://msdn.microsoft.com/926f412e-25ba-4f9c-a118-b5a1bc723379">ImageHlp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9cebd32f-11fe-4dfe-9579-b219d62c3e74">ImageUnload</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-imageunload">ImageUnload</a>
 
 
 
-<a href="https://msdn.microsoft.com/8bfc6b47-23d6-45e1-a733-5b938d6312da">LOADED_IMAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_loaded_image">LOADED_IMAGE</a>
  
 
  

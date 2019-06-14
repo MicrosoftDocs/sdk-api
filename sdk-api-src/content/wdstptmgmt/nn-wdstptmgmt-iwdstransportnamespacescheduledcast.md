@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a base interface to the derived interfaces: <a href="https://msdn.microsoft.com/ffbbdd4c-5d64-4ec0-a2f3-a5d31aec6402">IWdsTransportNamespaceScheduledCastManualStart</a> and <a href="https://msdn.microsoft.com/f11122a2-6ea9-4a73-ac93-0af7961f52b6">IWdsTransportNamespaceScheduledCastAutoStart</a>. An administrator must start  multicast sessions that are hosted by a namespace object of  these derived interfaces.   
+Represents a base interface to the derived interfaces: <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespacescheduledcastmanualstart">IWdsTransportNamespaceScheduledCastManualStart</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespacescheduledcastautostart">IWdsTransportNamespaceScheduledCastAutoStart</a>. An administrator must start  multicast sessions that are hosted by a namespace object of  these derived interfaces.   
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWdsTransportNamespaceScheduledCast</b> interface inherits from <a href="https://msdn.microsoft.com/eadb7b1b-aaef-4a4e-a2de-c641a4e10173">IWdsTransportNamespace</a>. <b>IWdsTransportNamespaceScheduledCast</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWdsTransportNamespaceScheduledCast</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a>. <b>IWdsTransportNamespaceScheduledCast</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWdsTransportNamespaceScheduledCast</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/408ba96e-1a88-4a53-9cbe-8f2763542659">StartTransmission</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespacescheduledcast-starttransmission">StartTransmission</a>
 </td>
 <td align="left" width="63%">
 Starts a transmission on a namespace.
@@ -84,7 +84,7 @@ Starts a transmission on a namespace.
 
 
 
-<a href="https://msdn.microsoft.com/eadb7b1b-aaef-4a4e-a2de-c641a4e10173">IWdsTransportNamespace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a>
  
 
  

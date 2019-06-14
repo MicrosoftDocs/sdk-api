@@ -59,7 +59,7 @@ Retrieves information about the call frame.
 
 ### -param pInfo [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/3d490c8b-d254-458b-b355-39c3942ddc5e">CALLFRAMEINFO</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/callobj/ns-callobj-__midl_icallframe_0001">CALLFRAMEINFO</a> structure.
 
 
 ## -returns
@@ -106,11 +106,11 @@ An unexpected error has occurred.
 
 
 
-<a href="https://msdn.microsoft.com/3d490c8b-d254-458b-b355-39c3942ddc5e">CALLFRAMEINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/ns-callobj-__midl_icallframe_0001">CALLFRAMEINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/56a75123-f402-4187-af13-d31f72a5f094">ICallFrame</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>
  
 
  

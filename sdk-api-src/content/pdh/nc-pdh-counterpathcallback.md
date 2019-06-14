@@ -70,7 +70,7 @@ Applications implement the <b>CounterPathCallBack</b> function to process the co
 #### - dwArg [in]
 
 User-defined value passed to the callback function by the <b>Browse</b> dialog box. You set this value in the <b>dwCallBackArg</b> member of the 
-<a href="https://msdn.microsoft.com/8e045e0b-c157-4527-902c-6096c7922642">PDH_BROWSE_DLG_CONFIG</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_browsedlgconfig_a">PDH_BROWSE_DLG_CONFIG</a> structure.
 
 
 ## -returns
@@ -81,7 +81,7 @@ Return ERROR_SUCCESS if the function succeeds.
 
 If the function fails due to a transient error, you can return PDH_RETRY and PDH will call your callback immediately.
 
-Otherwise, return an appropriate error code. The error code is passed back to the caller of <a href="https://msdn.microsoft.com/4e9e4b20-a573-4f6d-97e8-63bcc675032b">PdhBrowseCounters</a>.
+Otherwise, return an appropriate error code. The error code is passed back to the caller of <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhbrowsecountersa">PdhBrowseCounters</a>.
 
 
 
@@ -91,7 +91,7 @@ Otherwise, return an appropriate error code. The error code is passed back to th
 
 
 The following members of the 
-<a href="https://msdn.microsoft.com/8e045e0b-c157-4527-902c-6096c7922642">PDH_BROWSE_DLG_CONFIG</a> structure are used to communicate with the callback function:
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_browsedlgconfig_a">PDH_BROWSE_DLG_CONFIG</a> structure are used to communicate with the callback function:
 
 
 
@@ -103,11 +103,11 @@ The following members of the
 
 
 
-<a href="https://msdn.microsoft.com/8e045e0b-c157-4527-902c-6096c7922642">PDH_BROWSE_DLG_CONFIG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_browsedlgconfig_a">PDH_BROWSE_DLG_CONFIG</a>
 
 
 
-<a href="https://msdn.microsoft.com/4e9e4b20-a573-4f6d-97e8-63bcc675032b">PdhBrowseCounters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhbrowsecountersa">PdhBrowseCounters</a>
  
 
  

@@ -59,14 +59,14 @@ Flags that describe miscellaneous query behavior.
 
 ### -field D3D10_QUERY_MISC_PREDICATEHINT
 
-Tell the hardware that if it is not yet sure if something is hidden or not to draw it anyway. This is only used with an occlusion predicate. Predication data cannot be returned to your application via <a href="https://msdn.microsoft.com/en-us/library/Bb173503(v=VS.85).aspx">ID3D10Asynchronous::GetData</a> when using this flag.
+Tell the hardware that if it is not yet sure if something is hidden or not to draw it anyway. This is only used with an occlusion predicate. Predication data cannot be returned to your application via <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-getdata">ID3D10Asynchronous::GetData</a> when using this flag.
 
 
 ## -remarks
 
 
 
-This flag is part of a query description (see <a href="https://msdn.microsoft.com/en-us/library/Bb172405(v=VS.85).aspx">D3D10_QUERY_DESC</a>).
+This flag is part of a query description (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_query_desc">D3D10_QUERY_DESC</a>).
 
 
 
@@ -76,7 +76,7 @@ This flag is part of a query description (see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-enums">Core Enumerations</a>
  
 
  

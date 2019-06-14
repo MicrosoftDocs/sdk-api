@@ -94,7 +94,7 @@ Return true if the record is successfully.
 
 
 
-<a href="https://msdn.microsoft.com/1E9866C3-2A07-48C2-A4C5-F9AE3C7B2272">ID2D1GdiMetafileSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1gdimetafilesink">ID2D1GdiMetafileSink</a>
  
 
  

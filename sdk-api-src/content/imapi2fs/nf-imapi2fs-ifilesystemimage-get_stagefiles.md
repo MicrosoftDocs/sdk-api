@@ -98,7 +98,7 @@ Value: 0x80004003
 
 "Staging" is a process in which an image is created on the hard-drive, containing all files to be burned, prior to the initiation of the  burn operation.
 
-Setting this this property to <b>VARIANT_TRUE</b> via <a href="https://msdn.microsoft.com/1040831b-0bda-40b7-ab6d-c914515f4e69">IFileSystemImage::put_StageFiles</a> will only affect files that are added after the property is set: those files will always be staged. Files that were not staged prior  to a specified property value of   <b>VARIANT_TRUE</b>, will not be staged.
+Setting this this property to <b>VARIANT_TRUE</b> via <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_stagefiles">IFileSystemImage::put_StageFiles</a> will only affect files that are added after the property is set: those files will always be staged. Files that were not staged prior  to a specified property value of   <b>VARIANT_TRUE</b>, will not be staged.
 
 By specifying <b>VARIANT_FALSE</b>, the file system image creation process is optimized in two ways:
 
@@ -116,11 +116,11 @@ However, in order to avoid buffer underrun problems during burning, a certain mi
 
 
 
-<a href="https://msdn.microsoft.com/0256f1d2-a3fb-45b2-bd84-e2b71148e4ec">IFileSystemImage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
 
 
 
-<a href="https://msdn.microsoft.com/1040831b-0bda-40b7-ab6d-c914515f4e69">IFileSystemImage::put_StageFiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_stagefiles">IFileSystemImage::put_StageFiles</a>
  
 
  

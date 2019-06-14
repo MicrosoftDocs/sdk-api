@@ -85,7 +85,7 @@ The Remote Desktop Services AudioEndpoint API is for use in Remote Desktop scena
 
 
 
-<a href="https://msdn.microsoft.com/f9638dea-f61d-45f6-b91d-72e4fc1b4a92">IAudioInputEndpointRT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioinputendpointrt">IAudioInputEndpointRT</a>
  
 
  

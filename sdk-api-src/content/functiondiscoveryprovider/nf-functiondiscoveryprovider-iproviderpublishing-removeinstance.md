@@ -61,7 +61,7 @@ Deletes an existing function instance.
 
 ### -param enumVisibilityFlags [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Aa364818(v=VS.85).aspx">SystemVisibilityFlags</a> enumeration value which specifies the visibility of the function instance which the provider is about to delete.  It is up to the provider whether or not to honor this setting, however the current user visibility can be used to allow processes running in a non-Administrator security context to still be able to remove function instances.
+A <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/ne-functiondiscoveryapi-tagsystemvisibilityflags">SystemVisibilityFlags</a> enumeration value which specifies the visibility of the function instance which the provider is about to delete.  It is up to the provider whether or not to honor this setting, however the current user visibility can be used to allow processes running in a non-Administrator security context to still be able to remove function instances.
 
 
 ### -param pszSubCategory [in]
@@ -129,7 +129,7 @@ The <i>pSiteInfo</i>, <i>pszSubCategory</i>, or <i>pszProviderInstanceIdentity</
 
 
 
-<a href="https://msdn.microsoft.com/7647db1b-88c8-44f3-b2af-a61dad4790f6">IProviderPublishing</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderpublishing">IProviderPublishing</a>
  
 
  

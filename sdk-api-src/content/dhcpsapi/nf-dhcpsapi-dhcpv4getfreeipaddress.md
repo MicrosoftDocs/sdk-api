@@ -65,19 +65,19 @@ Pointer to a null-terminated Unicode string that represents the IP address or ho
 ### -param ScopeId [in]
 
 
-<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_ADDRESS</a> structure that specifies the IPv4 subnet ID from which available addresses to lease to clients are retrieved.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> structure that specifies the IPv4 subnet ID from which available addresses to lease to clients are retrieved.
 
 
 ### -param StartIP [in]
 
 
-<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_ADDRESS</a> structure that specifies the scope IPv4 range's starting point address from where the available addresses are retrieved. If this parameter is 0, the start address of the IPv4 subnet specified by <i>ScopeId</i> is the default.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> structure that specifies the scope IPv4 range's starting point address from where the available addresses are retrieved. If this parameter is 0, the start address of the IPv4 subnet specified by <i>ScopeId</i> is the default.
 
 
 ### -param EndIP [in]
 
 
-<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_ADDRESS</a> structure that specifies the scope IPv4 range's end point address from where the available addresses are retrieved. If this parameter is 0, the end address of the IPv4 subnet specified by <i>ScopeId</i> parameter is taken as the default.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> structure that specifies the scope IPv4 range's end point address from where the available addresses are retrieved. If this parameter is 0, the end address of the IPv4 subnet specified by <i>ScopeId</i> parameter is taken as the default.
 
 
 ### -param NumFreeAddrReq [in]
@@ -87,7 +87,7 @@ Integer that specifies the number of IPv4 addresses retrieved from the specified
 
 ### -param IPAddrList [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/84f42e55-8364-4119-83e4-c03699a9aa0a">DHCP_IP_ARRAY</a> structure that contains the list of available IPv4 addresses that can be leased to clients.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ip_array">DHCP_IP_ARRAY</a> structure that contains the list of available IPv4 addresses that can be leased to clients.
 
 
 ## -returns
@@ -96,7 +96,7 @@ Pointer to a <a href="https://msdn.microsoft.com/84f42e55-8364-4119-83e4-c03699a
 
 If the function succeeds, it returns <b>ERROR_SUCCESS</b>.
 
-If the function fails, it returns one of the following or an error code from <a href="https://msdn.microsoft.com/6370313f-d7db-4ff1-b0e0-7fa47474facb">DHCP Server Management API Error Codes</a>.
+If the function fails, it returns one of the following or an error code from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -146,7 +146,7 @@ The specified DHCP Server has reached the end of the selected range while findin
 
 
 
-<i>IPAddrList</i> should be free using <a href="https://msdn.microsoft.com/bf22a0a6-2ecd-4460-89c4-3f870c6275dc">DhcpRpcFreeMemory</a>.
+<i>IPAddrList</i> should be free using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcprpcfreememory">DhcpRpcFreeMemory</a>.
 
 The maximum number of IPv4 addresses returned is 1024. To retrieve more that 1024 IPv4 addresses, multiple calls to  <b>DhcpV4GetFreeIPAddress</b> must be made. After the initial call, each subsequent call to <b>DhcpV4GetFreeIPAddress</b> must set <i>startIP</i> to the last address in the list received in <i>IPAddrList</i> from the previous call to <b>DhcpV4GetFreeIPAddress</b>.
 

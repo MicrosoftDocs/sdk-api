@@ -54,7 +54,7 @@ The <b>ITfFnLangProfileUtil</b> interface is implemented by the speech text serv
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnLangProfileUtil</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfFnLangProfileUtil</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnLangProfileUtil</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfFnLangProfileUtil</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfFnLangProfileUtil</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a0525a1b-e23c-49af-954d-e2d190c2f520">IsProfileAvailableForLang</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffnlangprofileutil-isprofileavailableforlang">IsProfileAvailableForLang</a>
 </td>
 <td align="left" width="63%">
 Determines if the speech text service has a profile available for a specific language.
@@ -78,7 +78,7 @@ Determines if the speech text service has a profile available for a specific lan
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3b86206d-a299-4207-a0be-35a334786560">RegisterActiveProfiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffnlangprofileutil-registeractiveprofiles">RegisterActiveProfiles</a>
 </td>
 <td align="left" width="63%">
 Causes the speech text service to register its active profiles.

@@ -67,7 +67,7 @@ Retrieves the current requested accuracy setting.
 
 ### -param arg2 [out]
 
-The address of a <a href="https://msdn.microsoft.com/5d3fc14b-fbf1-4140-8277-44e72a50e028">LOCATION_DESIRED_ACCURACY</a> that receives the accuracy value. If the report is not registered, this will be set to <b>NULL</b>.
+The address of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd756639(v=vs.85)">LOCATION_DESIRED_ACCURACY</a> that receives the accuracy value. If the report is not registered, this will be set to <b>NULL</b>.
 
 
 ## -returns
@@ -125,7 +125,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/beeedbbd-df93-4c05-a215-4cfd14e03076">ILocation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilocation">ILocation</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Copies the source array to the specified target array after releasing any resources in the target array. This is similar to <a href="https://msdn.microsoft.com/en-us/library/ms221451(v=VS.85).aspx">SafeArrayCopy</a>, except that the target array has to be set up by the caller. The target is not allocated or reallocated.
+Copies the source array to the specified target array after releasing any resources in the target array. This is similar to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraycopy">SafeArrayCopy</a>, except that the target array has to be set up by the caller. The target is not allocated or reallocated.
 
 
 ## -parameters

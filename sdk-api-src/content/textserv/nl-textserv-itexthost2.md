@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ITextHost2</b> interface extends the <a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a> interface. The purpose of these interfaces, along with <a href="https://msdn.microsoft.com/en-us/library/Bb787617(v=VS.85).aspx">ITextServices</a> and <a href="https://msdn.microsoft.com/B5DC90BA-F9A5-45DC-8C8A-784380C38769">ITextServices2</a>, is to enable rich edit controls to run without a dedicated window. The rich edit client typically has a window (<b>HWND</b>) that it shares with a number of windowless controls. 
+The <b>ITextHost2</b> interface extends the <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a> interface. The purpose of these interfaces, along with <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itextservices">ITextServices</a> and <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itextservices2">ITextServices2</a>, is to enable rich edit controls to run without a dedicated window. The rich edit client typically has a window (<b>HWND</b>) that it shares with a number of windowless controls. 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextHost2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a>. <b>ITextHost2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextHost2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>. <b>ITextHost2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITextHost2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/627FEF54-FD74-4A41-89FC-E02EBD29D18A">TxDestroyCaret</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost2-txdestroycaret">TxDestroyCaret</a>
 </td>
 <td align="left" width="63%">
 Destroys the caret (Direct2D only).
@@ -78,7 +78,7 @@ Destroys the caret (Direct2D only).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/AD017B2A-C38E-4A55-AA31-84639BE87FA8">TxFreeTextServicesNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost2-txfreetextservicesnotification">TxFreeTextServicesNotification</a>
 </td>
 <td align="left" width="63%">
 Notifies the text host that text services have been freed. 
@@ -87,16 +87,16 @@ Notifies the text host that text services have been freed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3D704159-795A-4BD6-B699-EC311D9B780C">TxGetEastAsianFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost2-txgeteastasianflags">TxGetEastAsianFlags</a>
 </td>
 <td align="left" width="63%">
-Gets whether IME input is allowed and whether the edit styles include <a href="https://msdn.microsoft.com/en-us/library/Bb774367(v=VS.85).aspx">ES_SELFIME</a>.
+Gets whether IME input is allowed and whether the edit styles include <a href="https://docs.microsoft.com/windows/desktop/Controls/rich-edit-control-styles">ES_SELFIME</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8C5468C9-D152-4F57-9E8A-23B4852BFD69">TxGetEditStyle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost2-txgeteditstyle">TxGetEditStyle</a>
 </td>
 <td align="left" width="63%">
 Gets whether a rich edit control is in a dialog box.
@@ -105,7 +105,7 @@ Gets whether a rich edit control is in a dialog box.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/86D53FEF-DB50-41F6-AC99-106FC01BCD61">TxGetHorzExtent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost2-txgethorzextent">TxGetHorzExtent</a>
 </td>
 <td align="left" width="63%">
 Gets the horizontal scroll extent of the text host window.
@@ -114,7 +114,7 @@ Gets the horizontal scroll extent of the text host window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A9881BE7-0434-40EF-9BD8-AB8EF4E31582">TxGetPalette</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost2-txgetpalette">TxGetPalette</a>
 </td>
 <td align="left" width="63%">
 Retrieves the color palette of the rich edit control.
@@ -123,7 +123,7 @@ Retrieves the color palette of the rich edit control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/42594B92-298B-4659-87EC-D10C6996CECF">TxGetWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost2-txgetwindow">TxGetWindow</a>
 </td>
 <td align="left" width="63%">
 Retrieves the handle of the text host window for the rich edit control. 
@@ -132,7 +132,7 @@ Retrieves the handle of the text host window for the rich edit control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/51885B3E-3DEE-461C-8625-3DE9D8C1F992">TxGetWindowStyles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost2-txgetwindowstyles">TxGetWindowStyles</a>
 </td>
 <td align="left" width="63%">
 Retrieves the window styles and extended windows styles of the text host window.
@@ -141,16 +141,16 @@ Retrieves the window styles and extended windows styles of the text host window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/24051A4F-70CD-4147-B623-BC818F3F9AF2">TxIsDoubleClickPending</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost2-txisdoubleclickpending">TxIsDoubleClickPending</a>
 </td>
 <td align="left" width="63%">
-Discovers whether the message queue contains a <a href="https://msdn.microsoft.com/en-us/library/ms645606(v=VS.85).aspx">WM_LBUTTONDBLCLK</a>  message that is pending for the text host window.
+Discovers whether the message queue contains a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondblclk">WM_LBUTTONDBLCLK</a>  message that is pending for the text host window.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9671AEEC-CA31-4CE7-8B40-57859E36EF23">TxSetCursor2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost2-txsetcursor2">TxSetCursor2</a>
 </td>
 <td align="left" width="63%">
 Sets the shape of the cursor in the text host window. 
@@ -159,7 +159,7 @@ Sets the shape of the cursor in the text host window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0C3400BB-FC9A-43C3-92B4-055DE0A17717">TxSetForegroundWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost2-txsetforegroundwindow">TxSetForegroundWindow</a>
 </td>
 <td align="left" width="63%">
 Sets the rich edit control's host window as the foreground window.
@@ -168,7 +168,7 @@ Sets the rich edit control's host window as the foreground window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D7FAD45E-3467-4F07-A0D9-3131E48C314B">TxShowDropCaret</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost2-txshowdropcaret">TxShowDropCaret</a>
 </td>
 <td align="left" width="63%">
 Shows or hides the  caret during the drop portion of a drag-and-drop operation (Direct2D only).
@@ -183,7 +183,7 @@ Shows or hides the  caret during the drop portion of a drag-and-drop operation (
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
  
 
  

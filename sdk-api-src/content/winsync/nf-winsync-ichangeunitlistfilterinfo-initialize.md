@@ -141,7 +141,7 @@ An <b>IChangeUnitListFilterInfo</b> object can be reused. Calling <b>Initialize<
 
 
 
-<a href="https://msdn.microsoft.com/fd379fc6-22e5-4165-b4e6-480bc65cccb3">IChangeUnitListFilterInfo Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ichangeunitlistfilterinfo">IChangeUnitListFilterInfo Interface</a>
  
 
  

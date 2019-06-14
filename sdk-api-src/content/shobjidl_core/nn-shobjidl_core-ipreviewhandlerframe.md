@@ -54,7 +54,7 @@ Enables preview handlers to pass keyboard shortcuts to the host. This interface 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPreviewHandlerFrame</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPreviewHandlerFrame</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPreviewHandlerFrame</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPreviewHandlerFrame</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IPreviewHandlerFrame</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/953b7571-0da1-4e31-bb6f-1761f8103c6e">GetWindowContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandlerframe-getwindowcontext">GetWindowContext</a>
 </td>
 <td align="left" width="63%">
 Gets a list of the keyboard shortcuts for the preview host.
@@ -78,7 +78,7 @@ Gets a list of the keyboard shortcuts for the preview host.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4f33a0b1-28ad-4e2d-9e2a-e58f44ab6f00">TranslateAccelerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandlerframe-translateaccelerator">TranslateAccelerator</a>
 </td>
 <td align="left" width="63%">
 Directs the host to handle an keyboard shortcut passed from the preview handler.
@@ -92,7 +92,7 @@ Directs the host to handle an keyboard shortcut passed from the preview handler.
 
 
 
-This is an interface that preview handlers use to communicate keyboard shortcuts to the host. Preview handlers obtain this interface by calling <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> on the pointer passed as a parameter to <a href="https://msdn.microsoft.com/5e95b2a6-85b3-4899-9e23-54ed9e69e821">SetSite</a>. Preview handlers do not need to implement this interface.
+This is an interface that preview handlers use to communicate keyboard shortcuts to the host. Preview handlers obtain this interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on the pointer passed as a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-setsite">SetSite</a>. Preview handlers do not need to implement this interface.
 
 
 

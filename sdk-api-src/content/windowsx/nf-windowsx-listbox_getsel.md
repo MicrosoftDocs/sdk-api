@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the selection state of an item. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775212(v=VS.85).aspx">LB_GETSEL</a> message explicitly.
+Gets the selection state of an item. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-getsel">LB_GETSEL</a> message explicitly.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets the selection state of an item. You can use this macro or send the <a href=
 
 ### -param hwndCtl
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -75,7 +75,7 @@ The zero-based index of the item.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775212(v=VS.85).aspx">LB_GETSEL</a>
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-getsel">LB_GETSEL</a>
 
 
 

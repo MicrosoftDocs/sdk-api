@@ -76,10 +76,10 @@ The identifier of a DS node.
 
 
 
-This structure is used if the <a href="https://msdn.microsoft.com/6CCCD5CA-FF29-41D4-B687-E403CADABF84">FSCTL_CSV_CONTROL</a> 
-    control code is called with a <a href="https://msdn.microsoft.com/77A2106F-2C07-4A30-BA46-651F74032609">CSV_CONTROL_OP</a> enumeration 
+This structure is used if the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_csv_control">FSCTL_CSV_CONTROL</a> 
+    control code is called with a <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_csv_control_op">CSV_CONTROL_OP</a> enumeration 
     value of <b>CsvControlQueryRedirectState</b>, or if the control code is used with an 
-    <a href="https://msdn.microsoft.com/B984F8CA-3548-4442-8D3B-B2F469F699E1">CSV_CONTROL_PARAM</a> structure containing that enumeration 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_control_param">CSV_CONTROL_PARAM</a> structure containing that enumeration 
     value.
 
 
@@ -90,19 +90,19 @@ This structure is used if the <a href="https://msdn.microsoft.com/6CCCD5CA-FF29-
 
 
 
-<a href="https://msdn.microsoft.com/77A2106F-2C07-4A30-BA46-651F74032609">CSV_CONTROL_OP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_csv_control_op">CSV_CONTROL_OP</a>
 
 
 
-<a href="https://msdn.microsoft.com/B984F8CA-3548-4442-8D3B-B2F469F699E1">CSV_CONTROL_PARAM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_control_param">CSV_CONTROL_PARAM</a>
 
 
 
-<a href="https://msdn.microsoft.com/6CCCD5CA-FF29-41D4-B687-E403CADABF84">FSCTL_CSV_CONTROL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_csv_control">FSCTL_CSV_CONTROL</a>
 
 
 
-<a href="https://msdn.microsoft.com/406d5c0f-b49a-4075-ac3e-c5b55a0c3fe9">File Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-structures">File Management Structures</a>
  
 
  

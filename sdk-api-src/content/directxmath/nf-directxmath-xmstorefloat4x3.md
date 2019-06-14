@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Stores an <a href="https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx">XMMATRIX</a> in an <a href="https://msdn.microsoft.com/en-us/library/Ee419611(v=VS.85).aspx">XMFLOAT4X3</a>.
+Stores an <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a> in an <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3">XMFLOAT4X3</a>.
 
 
 ## -parameters
@@ -81,7 +81,7 @@ None.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419611(v=VS.85).aspx">XMFLOAT4X3</a> is a row-major matrix form. This function cannot be used to write out column-major data since it assumes the last column is 0 0 0 1.
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3">XMFLOAT4X3</a> is a row-major matrix form. This function cannot be used to write out column-major data since it assumes the last column is 0 0 0 1.
 
 This function takes a matrix and writes the components out to twelve single-precision floating-point values at the given
     address. The most significant component of the first row vector is written to the first four bytes of the address,
@@ -123,7 +123,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/0e7b66bd-bdb0-956d-2962-b33ae52b3016">DirectXMath Library Vector Store Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-storage">DirectXMath Library Vector Store Functions</a>
  
 
  

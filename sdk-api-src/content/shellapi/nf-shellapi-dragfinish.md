@@ -61,7 +61,7 @@ Releases memory that the system allocated for use in transferring file names to 
 
 Type: <b>HDROP</b>
 
-Identifier of the structure that describes dropped files. This handle is retrieved from the <i>wParam</i> parameter of the <a href="https://msdn.microsoft.com/07dc2df7-4699-4e9c-b1a5-4ce877116268">WM_DROPFILES</a> message.
+Identifier of the structure that describes dropped files. This handle is retrieved from the <i>wParam</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/shell/wm-dropfiles">WM_DROPFILES</a> message.
 
 
 ## -returns

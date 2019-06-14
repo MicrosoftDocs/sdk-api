@@ -59,7 +59,7 @@ Determines the fill mode to use when rendering triangles.
 
 ### -field D3D10_FILL_WIREFRAME
 
-Draw lines connecting the vertices. <a href="https://msdn.microsoft.com/en-us/library/Bb205124(v=VS.85).aspx">Adjacent vertices</a> are not drawn.
+Draw lines connecting the vertices. <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-primitive-topologies">Adjacent vertices</a> are not drawn.
 
 
 ### -field D3D10_FILL_SOLID
@@ -71,7 +71,7 @@ Fill the triangles formed by the vertices. Adjacent vertices are not drawn.
 
 
 
-This enumeration is part of a rasterizer-state object description (see <a href="https://msdn.microsoft.com/en-us/library/Bb172408(v=VS.85).aspx">D3D10_RASTERIZER_DESC</a>).
+This enumeration is part of a rasterizer-state object description (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_rasterizer_desc">D3D10_RASTERIZER_DESC</a>).
 
 
 
@@ -81,7 +81,7 @@ This enumeration is part of a rasterizer-state object description (see <a href="
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-enums">Core Enumerations</a>
  
 
  

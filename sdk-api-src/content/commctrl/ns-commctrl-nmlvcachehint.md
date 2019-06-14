@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information used to update the cached item information for use with a <a href="https://msdn.microsoft.com/en-us/library/Bb774735(v=VS.85).aspx">virtual list view</a>. 
+Contains information used to update the cached item information for use with a <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-controls-overview">virtual list view</a>. 
 
 
 ## -struct-fields
@@ -59,10 +59,10 @@ Contains information used to update the cached item information for use with a <
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about this notification message. 
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that contains information about this notification message. 
 
 
 ### -field iFrom

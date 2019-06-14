@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>LINEFORWARD</b> structure describes an entry of the forwarding instructions. The 
-<a href="https://msdn.microsoft.com/3dec9ab6-43d8-4dda-b0b1-a25407e4d77a">LINEFORWARDLIST</a> and the 
-<a href="https://msdn.microsoft.com/795aa97d-76a9-4041-b9f6-345644561043">LINEADDRESSSTATUS</a> structures can contain an array of 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforwardlist_tag">LINEFORWARDLIST</a> and the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddressstatus_tag">LINEADDRESSSTATUS</a> structures can contain an array of 
 <b>LINEFORWARD</b> structures.
 
 
@@ -64,7 +64,7 @@ The
 ### -field dwForwardMode
 
 Types of forwarding. This member uses one of the 
-<a href="https://msdn.microsoft.com/8cc053bd-1056-42be-b48a-d2312c456893">LINEFORWARDMODE_ Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineforwardmode--constants">LINEFORWARDMODE_ Constants</a>.
 
 
 ### -field dwCallerAddressSize
@@ -121,13 +121,13 @@ Offset from the beginning of this structure to the variably sized field containi
 ### -field dwCallerAddressType
 
 
-<a href="https://msdn.microsoft.com/2c32eda1-e510-40eb-ae75-fc7b9e9953cd">Address type</a> of the caller. This member of the structure is available only if the negotiated version of TAPI is 3.1 or higher.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddresstype--constants">Address type</a> of the caller. This member of the structure is available only if the negotiated version of TAPI is 3.1 or higher.
 
 
 ### -field dwDestAddressType
 
 
-<a href="https://msdn.microsoft.com/2c32eda1-e510-40eb-ae75-fc7b9e9953cd">Address type</a> for the called destination. This member of the structure is available only if the negotiated version of TAPI is 3.1 or higher.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddresstype--constants">Address type</a> for the called destination. This member of the structure is available only if the negotiated version of TAPI is 3.1 or higher.
 
 
 ## -remarks
@@ -147,19 +147,19 @@ Each entry in the
 
 
 
-<a href="https://msdn.microsoft.com/795aa97d-76a9-4041-b9f6-345644561043">LINEADDRESSSTATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddressstatus_tag">LINEADDRESSSTATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/3dec9ab6-43d8-4dda-b0b1-a25407e4d77a">LINEFORWARDLIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforwardlist_tag">LINEFORWARDLIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd70bf7f-653c-47db-bf81-6a620f47e5bc">TSPI_lineForward</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineforward">TSPI_lineForward</a>
 
 
 
-<a href="https://msdn.microsoft.com/68dc99c5-1158-4e18-8e32-08216ff3567b">lineForward</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineforward">lineForward</a>
  
 
  

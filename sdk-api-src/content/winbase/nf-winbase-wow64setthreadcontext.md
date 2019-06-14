@@ -64,7 +64,7 @@ A handle to the thread whose context is to be set.
 
 ### -param lpContext [in]
 
-A <a href="https://msdn.microsoft.com/b27205a2-2c33-4f45-8948-9919bcd2355a">WOW64_CONTEXT</a> structure. The caller must 
+A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_wow64_context">WOW64_CONTEXT</a> structure. The caller must 
       initialize the <b>ContextFlags</b> member of this structure.
 
 
@@ -75,7 +75,7 @@ A <a href="https://msdn.microsoft.com/b27205a2-2c33-4f45-8948-9919bcd2355a">WOW6
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -92,10 +92,10 @@ This function allows the selective context to be set based on the value of the
 This function is intended for 64-bit applications. It is not supported on 32-bit Windows; such calls fail and 
     set the last error code to <b>ERROR_INVALID_FUNCTION</b>. A 32-bit application can call this 
     function on a WOW64 thread; the result is the same as calling the 
-    <a href="https://msdn.microsoft.com/be134953-b569-48ea-80ac-ab14dee24500">SetThreadContext</a> function.
+    <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadcontext">SetThreadContext</a> function.
 
 Do not try to set the context for a running thread; the results are unpredictable. Use the 
-    <a href="https://msdn.microsoft.com/d976675a-5400-41ac-a11d-c39a1b2dd50d">Wow64SuspendThread</a> function to suspend the thread 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-wow64suspendthread">Wow64SuspendThread</a> function to suspend the thread 
     before calling <b>Wow64SetThreadContext</b>.
 
 
@@ -106,27 +106,27 @@ Do not try to set the context for a running thread; the results are unpredictabl
 
 
 
-<a href="https://msdn.microsoft.com/95a838a2-f138-4682-b733-3f363b6c4a4b">Debugging Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/debugging-functions">Debugging Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/D9A8D0B6-21E3-46B7-AB88-CE2FF4025A17">GetXStateFeaturesMask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getxstatefeaturesmask">GetXStateFeaturesMask</a>
 
 
 
-<a href="https://msdn.microsoft.com/be134953-b569-48ea-80ac-ab14dee24500">SetThreadContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadcontext">SetThreadContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/64ADEA8A-DE78-437E-AE68-A68E7214C5FD">SetXStateFeaturesMask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setxstatefeaturesmask">SetXStateFeaturesMask</a>
 
 
 
-<a href="https://msdn.microsoft.com/b27205a2-2c33-4f45-8948-9919bcd2355a">WOW64_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_wow64_context">WOW64_CONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/1bac28e1-3558-43c4-97e4-d8bb9514c38e">Wow64GetThreadContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-wow64getthreadcontext">Wow64GetThreadContext</a>
  
 
  

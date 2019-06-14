@@ -52,13 +52,13 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> class 
+<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
-The <b>GetBuffer</b> method returns a pointer to the internal character buffer for the <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> object.
+The <b>GetBuffer</b> method returns a pointer to the internal character buffer for the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> object.
 
 
 ## -parameters
@@ -84,13 +84,13 @@ An <b>LPWSTR</b> pointer to the object's (<b>NULL</b>-terminated) character buff
 
 
 
-The returned <b>LPWSTR</b> is not <b>const</b> and therefore allows direct modification of <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> contents.
+The returned <b>LPWSTR</b> is not <b>const</b> and therefore allows direct modification of <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> contents.
 
-If you use the pointer returned by <b>GetBuffer</b> to change the string contents, you must call <a href="https://msdn.microsoft.com/55de2960-8a71-48cc-862b-7cf9a4edf8ea">ReleaseBuffer</a> before using any other <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> methods.
+If you use the pointer returned by <b>GetBuffer</b> to change the string contents, you must call <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-releasebuffer">ReleaseBuffer</a> before using any other <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> methods.
 
-After a call to <a href="https://msdn.microsoft.com/55de2960-8a71-48cc-862b-7cf9a4edf8ea">ReleaseBuffer</a>, the address returned by <b>GetBuffer</b> may not be valid because additional <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> operations can cause the <b>CHString</b> buffer to be reallocated. If you do not change the length of the <b>CHString</b> string, the buffer is not reallocated. The buffer memory is freed automatically when the <b>CHString</b> object is destroyed.
+After a call to <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-releasebuffer">ReleaseBuffer</a>, the address returned by <b>GetBuffer</b> may not be valid because additional <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> operations can cause the <b>CHString</b> buffer to be reallocated. If you do not change the length of the <b>CHString</b> string, the buffer is not reallocated. The buffer memory is freed automatically when the <b>CHString</b> object is destroyed.
 
-Note that if you keep track of the string length yourself, you should not append the terminating <b>NULL</b> character. You must, however, specify the final string length when you release the buffer with <a href="https://msdn.microsoft.com/55de2960-8a71-48cc-862b-7cf9a4edf8ea">ReleaseBuffer</a>. If you do append a terminating <b>NULL</b> character, you should pass –1 for the length to <b>ReleaseBuffer</b>, which calls <b>wcslen</b> on the buffer to determine its length.
+Note that if you keep track of the string length yourself, you should not append the terminating <b>NULL</b> character. You must, however, specify the final string length when you release the buffer with <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-releasebuffer">ReleaseBuffer</a>. If you do append a terminating <b>NULL</b> character, you should pass –1 for the length to <b>ReleaseBuffer</b>, which calls <b>wcslen</b> on the buffer to determine its length.
 
 
 
@@ -100,15 +100,15 @@ Note that if you keep track of the string length yourself, you should not append
 
 
 
-<a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a>
 
 
 
-<a href="https://msdn.microsoft.com/de40f3a3-1880-426d-b3c2-864f0f45f218">CHString::GetBufferSetLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-getbuffersetlength">CHString::GetBufferSetLength</a>
 
 
 
-<a href="https://msdn.microsoft.com/55de2960-8a71-48cc-862b-7cf9a4edf8ea">CHString::ReleaseBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-releasebuffer">CHString::ReleaseBuffer</a>
  
 
  

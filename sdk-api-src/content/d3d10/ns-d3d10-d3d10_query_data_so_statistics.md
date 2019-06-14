@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Query information about the amount of data streamed out to the stream-output buffers in between <a href="https://msdn.microsoft.com/en-us/library/Bb173501(v=VS.85).aspx">ID3D10Asynchronous::Begin</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb173502(v=VS.85).aspx">ID3D10Asynchronous::End</a>.
+Query information about the amount of data streamed out to the stream-output buffers in between <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-begin">ID3D10Asynchronous::Begin</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-end">ID3D10Asynchronous::End</a>.
 
 
 ## -struct-fields
@@ -59,14 +59,14 @@ Query information about the amount of data streamed out to the stream-output buf
 
 ### -field NumPrimitivesWritten
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT64</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
 
 Number of primitives (that is, points, lines, and triangles) written to the stream-output buffers.
 
 
 ### -field PrimitivesStorageNeeded
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT64</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
 
 Number of primitives that would have been written to the stream-output buffers if there had been enough space for them all.
 
@@ -76,7 +76,7 @@ Number of primitives that would have been written to the stream-output buffers i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205153(v=VS.85).aspx">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-structures">Core Structures</a>
  
 
  

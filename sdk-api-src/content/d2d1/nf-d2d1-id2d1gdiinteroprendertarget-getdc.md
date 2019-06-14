@@ -59,7 +59,7 @@ Retrieves the device context associated with this render target.
 
 ### -param mode
 
-Type: <b><a href="https://msdn.microsoft.com/a7837fe4-6e11-42a0-8a85-cba42e0f123a">D2D1_DC_INITIALIZE_MODE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_dc_initialize_mode">D2D1_DC_INITIALIZE_MODE</a></b>
 
 A value that specifies whether the device context should be cleared.
 
@@ -75,7 +75,7 @@ When this method returns, contains the device context associated with this rende
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -88,12 +88,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 Calling this method flushes the render target.
 
-This command can be called only after <a href="https://msdn.microsoft.com/0562b286-7427-4d76-b699-a39356496a0f">BeginDraw</a> and before <a href="https://msdn.microsoft.com/a8f24501-4e85-4981-bb38-2bd6333a7b49">EndDraw</a>. 
+This command can be called only after <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-begindraw">BeginDraw</a> and before <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">EndDraw</a>. 
 
-<div class="alert"><b>Note</b>  In Windows 7 and earlier, you should not call <b>GetDC</b> between <a href="https://msdn.microsoft.com/db2e975e-e5c5-4c57-8071-ec042b9a6fb9">PushAxisAlignedClip</a>/<a href="https://msdn.microsoft.com/0f0a2826-2356-4ced-a372-5bb59dd394ee">PopAxisAlignedClip</a> commands or between <a href="https://msdn.microsoft.com/0fc7ac38-ff74-4f3b-9aa2-025a99e6b013">PushLayer</a>/<a href="https://msdn.microsoft.com/6ab05160-4f42-477f-a5bf-f16863b0635c">PopLayer</a>.  However, this restriction does not apply to Windows 8 and later.</div>
+<div class="alert"><b>Note</b>  In Windows 7 and earlier, you should not call <b>GetDC</b> between <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-pushaxisalignedclip(constd2d1_rect_f__d2d1_antialias_mode)">PushAxisAlignedClip</a>/<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-popaxisalignedclip">PopAxisAlignedClip</a> commands or between <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-pushlayer(constd2d1_layer_parameters__id2d1layer)">PushLayer</a>/<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-poplayer">PopLayer</a>.  However, this restriction does not apply to Windows 8 and later.</div>
 <div> </div>
 
-<a href="https://msdn.microsoft.com/802bd023-f223-4505-9911-95b43f3490e3">ReleaseDC</a> must be called once for each call to <b>GetDC</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1gdiinteroprendertarget-releasedc">ReleaseDC</a> must be called once for each call to <b>GetDC</b>.
 
 
 
@@ -103,7 +103,7 @@ This command can be called only after <a href="https://msdn.microsoft.com/0562b2
 
 
 
-<a href="https://msdn.microsoft.com/cb992ddd-21b2-4eba-b7c4-e391bdd23a9d">ID2D1GdiInteropRenderTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1gdiinteroprendertarget">ID2D1GdiInteropRenderTarget</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information specific to a hit test operation. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb774494(v=VS.85).aspx">RB_HITTEST</a> message. 
+Contains information specific to a hit test operation. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/rb-hittest">RB_HITTEST</a> message. 
 
 
 ## -struct-fields
@@ -59,15 +59,15 @@ Contains information specific to a hit test operation. This structure is used wi
 
 ### -field pt
 
-Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
 
 
-<a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure that describes the point to be hit tested, in client coordinates. 
+<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure that describes the point to be hit tested, in client coordinates. 
 
 
 ### -field flags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Member that receives a flag value indicating the rebar band's component located at the point described by <b>pt</b>. This member will be one of the following:
 

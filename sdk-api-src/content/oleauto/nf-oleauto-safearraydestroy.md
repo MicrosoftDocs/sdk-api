@@ -59,7 +59,7 @@ Destroys an existing array descriptor and all of the data in the array. If objec
 
 ### -param psa [in]
 
-An array descriptor created by <a href="https://msdn.microsoft.com/5b94f1a2-a558-473f-85dd-9545c0464cc7">SafeArrayCreate</a>.
+An array descriptor created by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraycreate">SafeArrayCreate</a>.
 
 
 ## -returns
@@ -116,7 +116,7 @@ The array is locked.
 
 
 
-Safe arrays of variant will have the <a href="https://msdn.microsoft.com/28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a> function called on each member and safe arrays of BSTR will have the <a href="https://msdn.microsoft.com/8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function called on each element. <a href="https://msdn.microsoft.com/979b0702-3342-4036-8113-c84728436ab6">IRecordInfo::RecordClear</a> will be called to release object references and other values of a record without deallocating the record.
+Safe arrays of variant will have the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a> function called on each member and safe arrays of BSTR will have the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function called on each element. <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-recordclear">IRecordInfo::RecordClear</a> will be called to release object references and other values of a record without deallocating the record.
 
 
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/aed33117-9bfd-4a23-998f-4b8d040d6e3b">IUPnPHttpHeaderControl</a>::<b>AddRequestHeaders</b> method adds the supplied HTTP header to an HTTP request.
+The <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnphttpheadercontrol">IUPnPHttpHeaderControl</a>::<b>AddRequestHeaders</b> method adds the supplied HTTP header to an HTTP request.
 
 
 ## -parameters
@@ -81,7 +81,7 @@ If the method succeeds, the return value is S_OK. Otherwise, the method returns 
 
 
 
-<a href="https://msdn.microsoft.com/aed33117-9bfd-4a23-998f-4b8d040d6e3b">IUPnPHttpHeaderControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnphttpheadercontrol">IUPnPHttpHeaderControl</a>
  
 
  

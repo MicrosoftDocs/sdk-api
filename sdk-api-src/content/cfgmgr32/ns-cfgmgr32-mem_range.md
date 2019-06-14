@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The MEM_RANGE structure specifies a resource requirements list that describes memory usage for a device instance. For more information about resource requirements lists, see <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">Hardware Resources</a>.
+The MEM_RANGE structure specifies a resource requirements list that describes memory usage for a device instance. For more information about resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
 
 
 ## -struct-fields
@@ -79,7 +79,7 @@ The highest-numbered of a range of contiguous memory addresses that can be alloc
 
 ### -field MR_Flags
 
-One bit flag from <i>each</i> of the flag sets described in the table included with the description of the <b>MD_Flags</b> member of the <a href="https://msdn.microsoft.com/1a9ee8f2-fabe-4351-b11e-93f46e190d66">MEM_DES</a> structure.
+One bit flag from <i>each</i> of the flag sets described in the table included with the description of the <b>MD_Flags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_des_s">MEM_DES</a> structure.
 
 
 ### -field MR_Reserved
@@ -92,7 +92,7 @@ One bit flag from <i>each</i> of the flag sets described in the table included w
 
 
 
-<a href="https://msdn.microsoft.com/1a9ee8f2-fabe-4351-b11e-93f46e190d66">MEM_DES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_des_s">MEM_DES</a>
  
 
  

@@ -54,12 +54,12 @@ Enables the quality manager to adjust the audio or video quality of a component 
 
 This interface is exposed by pipeline components that can adjust their quality. Typically it is exposed by decoders and stream sinks. For example, the enhanced video renderer (EVR) implements this interface. However, media sources can also implement this interface.
 
-To get a pointer to this interface from a media source, call <a href="https://msdn.microsoft.com/4287dd1f-1718-4231-bc62-b58e0e61d688">IMFGetService::GetService</a> with the service identifier MF_QUALITY_SERVICES. For all other pipeline objects (transforms and media sinks), call <b>QueryInterface</b>.
+To get a pointer to this interface from a media source, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> with the service identifier MF_QUALITY_SERVICES. For all other pipeline objects (transforms and media sinks), call <b>QueryInterface</b>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFQualityAdvise</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFQualityAdvise</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFQualityAdvise</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFQualityAdvise</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IMFQualityAdvise</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/60d27190-7bed-427c-9018-2926c85815fe">DropTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfqualityadvise-droptime">DropTime</a>
 </td>
 <td align="left" width="63%">
 Drops samples over a specified interval of time.
@@ -83,7 +83,7 @@ Drops samples over a specified interval of time.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bb700a3e-837f-4e88-a9b7-294c41143402">GetDropMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfqualityadvise-getdropmode">GetDropMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current drop mode.
@@ -92,7 +92,7 @@ Retrieves the current drop mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9a2b501e-543d-4ba0-86a1-a55e7d136685">GetQualityLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfqualityadvise-getqualitylevel">GetQualityLevel</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current quality level.
@@ -101,7 +101,7 @@ Retrieves the current quality level.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/190de66a-6c47-49d5-a8f6-c2fb57a7aee2">SetDropMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfqualityadvise-setdropmode">SetDropMode</a>
 </td>
 <td align="left" width="63%">
 Sets the drop mode.
@@ -110,7 +110,7 @@ Sets the drop mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f788fd7d-65fc-4917-8d5d-cfaf35a013e7">SetQualityLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfqualityadvise-setqualitylevel">SetQualityLevel</a>
 </td>
 <td align="left" width="63%">
 Sets the quality level.
@@ -124,7 +124,7 @@ Sets the quality level.
 
 
 
-The quality manager typically obtains this interface when the quality manager's <a href="https://msdn.microsoft.com/5ff6d923-4a83-401a-a0de-0b1a732c31a5">IMFQualityManager::NotifyTopology</a> method is called.
+The quality manager typically obtains this interface when the quality manager's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfqualitymanager-notifytopology">IMFQualityManager::NotifyTopology</a> method is called.
 
 
 
@@ -134,11 +134,11 @@ The quality manager typically obtains this interface when the quality manager's 
 
 
 
-<a href="https://msdn.microsoft.com/66781a1f-7469-4222-9e99-6b1415830f4c">IMFQualityManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfqualitymanager">IMFQualityManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

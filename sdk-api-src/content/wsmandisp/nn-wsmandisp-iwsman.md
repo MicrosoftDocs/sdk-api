@@ -55,12 +55,12 @@ ms.custom: 19H1
 ## -description
 
 
-Provides methods and properties used to create a session, represented by a <a href="https://msdn.microsoft.com/b98ca759-71cb-492e-8645-8766b202eb36">Session</a> object. Any Windows Remote Management operations require creation of a <a href="https://msdn.microsoft.com/b98ca759-71cb-492e-8645-8766b202eb36">Session</a> that connects to a remote computer, <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">base management controller</a> (BMC), or the local computer. Operations include getting, writing, or enumerating data, or invoking methods.
+Provides methods and properties used to create a session, represented by a <a href="https://docs.microsoft.com/windows/desktop/WinRM/session">Session</a> object. Any Windows Remote Management operations require creation of a <a href="https://docs.microsoft.com/windows/desktop/WinRM/session">Session</a> that connects to a remote computer, <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">base management controller</a> (BMC), or the local computer. Operations include getting, writing, or enumerating data, or invoking methods.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSMan</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWSMan</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSMan</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSMan</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -77,14 +77,14 @@ The <b>IWSMan</b> interface has these methods.
 <tr data="declared;">
 <td align="left" width="37%"><b>CreateConnectionOptions</b></td>
 <td align="left" width="63%">
-Creates a,  <a href="https://msdn.microsoft.com/940097da-c5bb-4170-a2aa-fcbbee622fe6">IWSManConnectionOptions</a> object that specifies the user name and password  used when  creating a remote session.
+Creates a,  <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanconnectionoptions">IWSManConnectionOptions</a> object that specifies the user name and password  used when  creating a remote session.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%"><b>CreateSession</b></td>
 <td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/3e016080-339f-4bda-bfd2-f912e090981f">IWSManSession</a> object that can then be used for subsequent network operations.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a> object that can then be used for subsequent network operations.
 
 </td>
 </tr>
@@ -132,11 +132,11 @@ Gets error information.
 
 
 
-<a href="https://msdn.microsoft.com/45895a4e-b7de-4469-ae78-6d1d3f9d6145">WSMan</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinRM/wsman">WSMan</a>
 
 
 
-<a href="https://msdn.microsoft.com/c996f074-f14b-4edd-80b7-8f4de4cbabb0">Windows Remote Management Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-reference">Windows Remote Management Reference</a>
  
 
  

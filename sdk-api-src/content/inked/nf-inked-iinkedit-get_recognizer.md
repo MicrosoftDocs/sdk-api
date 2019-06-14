@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 
 
-Gets or sets the <a href="https://msdn.microsoft.com/97f982b6-f330-4053-91a9-2a4edc13b4b0">IInkRecognizer</a> object to use for recognition.
+Gets or sets the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer</a> object to use for recognition.
 
 
 
@@ -71,9 +71,9 @@ This property is read/write.
 
 This property is run time only.
 
-This property should only be changed if the <a href="https://msdn.microsoft.com/47a41d5c-2598-4dfc-a5b5-af4df7fdaa6d">Status</a> property returns IES_Idle.
+This property should only be changed if the <a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-get_status">Status</a> property returns IES_Idle.
 
-If a factoid is used for the <a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a> control, it must be reapplied after setting this property.
+If a factoid is used for the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control, it must be reapplied after setting this property.
 
 
 
@@ -83,7 +83,7 @@ If a factoid is used for the <a href="https://msdn.microsoft.com/52761cb2-4433-4
 
 
 
-<a href="https://msdn.microsoft.com/247a1f7d-8205-4e4d-9cfc-daad9bd2191f">Factoid Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/factoid-constants">Factoid Constants</a>
 
 
 
@@ -91,11 +91,11 @@ If a factoid is used for the <a href="https://msdn.microsoft.com/52761cb2-4433-4
 
 
 
-<a href="https://msdn.microsoft.com/97f982b6-f330-4053-91a9-2a4edc13b4b0">IInkRecognizer Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
  
 
  

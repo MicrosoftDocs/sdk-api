@@ -104,7 +104,7 @@ Type: <strong>Type: <b>int</b>
 If the function succeeds, the return value is the number of 
 						characters copied to the buffer, not including the terminating null character.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -118,19 +118,19 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633499(v=VS.85).aspx">FindWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-findwindowa">FindWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633578(v=VS.85).aspx">GetClassInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclassinfoa">GetClassInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633580(v=VS.85).aspx">GetClassLong</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclasslonga">GetClassLong</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633583(v=VS.85).aspx">GetClassWord</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclassword">GetClassWord</a>
 
 
 
@@ -138,7 +138,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632596(v=VS.85).aspx">Window Classes</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/window-classes">Window Classes</a>
  
 
  

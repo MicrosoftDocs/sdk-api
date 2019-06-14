@@ -82,7 +82,7 @@ Only the reserved set of DHCP options are selected.
 
 
 
-<a href="https://msdn.microsoft.com/d5c0cff9-7164-4f14-a0a9-58311390ebd9">DHCP_OPTION_SCOPE_INFO6</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_option_scope_info6">DHCP_OPTION_SCOPE_INFO6</a>
  
 
  

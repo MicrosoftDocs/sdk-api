@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The properties available on the Context. Not all properties may be available
-                at a given point on a context. All context properties are available through <a href="https://msdn.microsoft.com/9ab843ff-8f2c-424e-8bb9-ba71f9355728">WsGetOperationContextProperty</a>. 
+                at a given point on a context. All context properties are available through <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetoperationcontextproperty">WsGetOperationContextProperty</a>. 
             
 
 
@@ -62,38 +62,38 @@ The properties available on the Context. Not all properties may be available
 ### -field WS_OPERATION_CONTEXT_PROPERTY_CHANNEL
 
 This value is a handle to the underlying channel. This property is available to service operations ,
-                    to the <a href="https://msdn.microsoft.com/2fcd8905-7002-41b8-b947-14d53c889c21">WS_SERVICE_MESSAGE_RECEIVE_CALLBACK</a>, <a href="https://msdn.microsoft.com/473af4be-d193-42a5-82ff-359b50a7bc58">WS_SERVICE_ACCEPT_CHANNEL_CALLBACK</a> and 
-                    <a href="https://msdn.microsoft.com/e2860015-219b-46be-921d-7ced0d95fc60">WS_SERVICE_CLOSE_CHANNEL_CALLBACK</a>.
+                    to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_service_message_receive_callback">WS_SERVICE_MESSAGE_RECEIVE_CALLBACK</a>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_service_accept_channel_callback">WS_SERVICE_ACCEPT_CHANNEL_CALLBACK</a> and 
+                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_service_close_channel_callback">WS_SERVICE_CLOSE_CHANNEL_CALLBACK</a>.
                 
 
 
 ### -field WS_OPERATION_CONTEXT_PROPERTY_CONTRACT_DESCRIPTION
 
 The value represents the contract description. This property is available to service operations ,
-                    to the <a href="https://msdn.microsoft.com/2fcd8905-7002-41b8-b947-14d53c889c21">WS_SERVICE_MESSAGE_RECEIVE_CALLBACK</a>, <a href="https://msdn.microsoft.com/473af4be-d193-42a5-82ff-359b50a7bc58">WS_SERVICE_ACCEPT_CHANNEL_CALLBACK</a> and 
-                    <a href="https://msdn.microsoft.com/e2860015-219b-46be-921d-7ced0d95fc60">WS_SERVICE_CLOSE_CHANNEL_CALLBACK</a>.
+                    to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_service_message_receive_callback">WS_SERVICE_MESSAGE_RECEIVE_CALLBACK</a>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_service_accept_channel_callback">WS_SERVICE_ACCEPT_CHANNEL_CALLBACK</a> and 
+                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_service_close_channel_callback">WS_SERVICE_CLOSE_CHANNEL_CALLBACK</a>.
                 
 
 
 ### -field WS_OPERATION_CONTEXT_PROPERTY_HOST_USER_STATE
 
-The value is a pointer to the host state specified on the <a href="https://msdn.microsoft.com/42e4d24d-5611-4561-b874-6dc3f3f88c73">service host</a> as the 
-                    <a href="https://msdn.microsoft.com/305fe7ad-e4a2-499a-b34b-e5b7cde53e22">WS_SERVICE_PROPERTY_HOST_USER_STATE</a> service property. This property is available to 
-                     service operations  and to the <a href="https://msdn.microsoft.com/2fcd8905-7002-41b8-b947-14d53c889c21">WS_SERVICE_MESSAGE_RECEIVE_CALLBACK</a>.
+The value is a pointer to the host state specified on the <a href="https://docs.microsoft.com/windows/desktop/wsw/service-host">service host</a> as the 
+                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_service_property_id">WS_SERVICE_PROPERTY_HOST_USER_STATE</a> service property. This property is available to 
+                     service operations  and to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_service_message_receive_callback">WS_SERVICE_MESSAGE_RECEIVE_CALLBACK</a>.
                 
 
 
 ### -field WS_OPERATION_CONTEXT_PROPERTY_CHANNEL_USER_STATE
 
-The value is a pointer to the channel state specified through <a href="https://msdn.microsoft.com/473af4be-d193-42a5-82ff-359b50a7bc58">WS_SERVICE_ACCEPT_CHANNEL_CALLBACK</a>. This property is 
-                    available to  service operations and to the <a href="https://msdn.microsoft.com/2fcd8905-7002-41b8-b947-14d53c889c21">WS_SERVICE_MESSAGE_RECEIVE_CALLBACK</a>.
+The value is a pointer to the channel state specified through <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_service_accept_channel_callback">WS_SERVICE_ACCEPT_CHANNEL_CALLBACK</a>. This property is 
+                    available to  service operations and to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_service_message_receive_callback">WS_SERVICE_MESSAGE_RECEIVE_CALLBACK</a>.
                 
 
 
 ### -field WS_OPERATION_CONTEXT_PROPERTY_INPUT_MESSAGE
 
 The value is a pointer to the underlying input message. This property is available to service operations and to the 
-                    <a href="https://msdn.microsoft.com/2fcd8905-7002-41b8-b947-14d53c889c21">WS_SERVICE_MESSAGE_RECEIVE_CALLBACK</a>.
+                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_service_message_receive_callback">WS_SERVICE_MESSAGE_RECEIVE_CALLBACK</a>.
                 
 
 

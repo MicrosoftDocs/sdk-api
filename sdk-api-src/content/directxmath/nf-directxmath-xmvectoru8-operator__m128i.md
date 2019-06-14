@@ -49,8 +49,8 @@ Returns the object implementing the current instance of XMVECTORU8 cast to a __m
 
 ## -remarks
 
-Returns the underlying implementation object for an instance of XMVECTORU8 cast to a <a href="http://msdn.microsoft.com/en-us/library/26232t5c.aspx">__m128i</a> instance.
+Returns the underlying implementation object for an instance of XMVECTORU8 cast to a <a href="https://docs.microsoft.com/cpp/cpp/m128i">__m128i</a> instance.
 
 ## -see-also
 
-<a href="http://msdn.microsoft.com/en-us/library/26232t5c.aspx">__m128i</a>
+<a href="https://docs.microsoft.com/cpp/cpp/m128i">__m128i</a>

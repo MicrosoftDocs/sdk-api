@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Determines the type of COM security descriptor to get when calling <a href="https://msdn.microsoft.com/8210A6A0-B861-4E85-8E5A-1BF82A01C54E">CoGetSystemSecurityPermissions</a>.
+Determines the type of COM security descriptor to get when calling <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-cogetsystemsecuritypermissions">CoGetSystemSecurityPermissions</a>.
 
 
 ## -enum-fields
@@ -82,7 +82,7 @@ Machine-wide access limits.
 
 
 
-<a href="https://msdn.microsoft.com/8210A6A0-B861-4E85-8E5A-1BF82A01C54E">CoGetSystemSecurityPermissions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-cogetsystemsecuritypermissions">CoGetSystemSecurityPermissions</a>
  
 
  

@@ -57,12 +57,12 @@ The
 
 For that which displays the task image, the 
 <b>MMC_TASK_DISPLAY_OBJECT</b> structure is the <b>sDisplayObject</b> member of the 
-<a href="https://msdn.microsoft.com/bb101c09-947f-4316-890a-86e09358d88c">MMC_TASK</a> structure, which is filled in by the 
-<a href="https://msdn.microsoft.com/cb568307-7172-4941-a888-ff059f5256b6">IEnumTASK::Next</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task">MMC_TASK</a> structure, which is filled in by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ienumtask-next">IEnumTASK::Next</a> method.
 
 For that which displays the background image, the 
 <b>MMC_TASK_DISPLAY_OBJECT</b> structure is filled in by the 
-<a href="https://msdn.microsoft.com/e34fc088-61d7-46a8-b493-8255a733d521">IExtendTaskPad::GetBackground</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-getbackground">IExtendTaskPad::GetBackground</a> method.
 
 
 ## -struct-fields
@@ -73,13 +73,13 @@ For that which displays the background image, the
 ### -field eDisplayType
 
 Value of type 
-<a href="https://msdn.microsoft.com/55d90530-5cd0-42ae-8a5d-417f7f49edac">MMC_TASK_DISPLAY_TYPE</a> that specifies the type of image displayed as the background. The image can be one of three types: symbol, GIF, or bitmap.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-_mmc_task_display_type">MMC_TASK_DISPLAY_TYPE</a> that specifies the type of image displayed as the background. The image can be one of three types: symbol, GIF, or bitmap.
 
 
 ### -field uBitmap
 
 
-<a href="https://msdn.microsoft.com/9895eef1-7870-4092-8bf9-c13f38b74173">MMC_TASK_DISPLAY_BITMAP</a> structure that contains the resource paths to the image files of the image type specified by <b>eDisplayType</b>. 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task_display_bitmap">MMC_TASK_DISPLAY_BITMAP</a> structure that contains the resource paths to the image files of the image type specified by <b>eDisplayType</b>. 
 <b>MMC_TASK_DISPLAY_BITMAP</b> contains the paths to the two images used when the user moves the mouse over a task and when the task is deselected.
 
 The <b>uBitmap</b> member is used only if <b>eDisplayType</b> is one of the following values:
@@ -97,7 +97,7 @@ The <b>MMC_TASK_DISPLAY_TYPE_BITMAP</b> value indicates that a non-transparent i
 ### -field uSymbol
 
 
-<a href="https://msdn.microsoft.com/a46f1b86-883e-4eca-a3f8-d18c6a4d64e5">MMC_TASK_DISPLAY_SYMBOL</a> structure that contains the font name, EOT (embedded OpenType) resource path, and characters to display as the image.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task_display_symbol">MMC_TASK_DISPLAY_SYMBOL</a> structure that contains the font name, EOT (embedded OpenType) resource path, and characters to display as the image.
 
 The <b>uSymbol</b> is used only if <b>eDisplayType</b> is <b>MMC_TASK_DISPLAY_TYPE_SYMBOL</b>.
 
@@ -107,27 +107,27 @@ The <b>uSymbol</b> is used only if <b>eDisplayType</b> is <b>MMC_TASK_DISPLAY_TY
 
 
 
-<a href="https://msdn.microsoft.com/cb568307-7172-4941-a888-ff059f5256b6">IEnumTASK::Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ienumtask-next">IEnumTASK::Next</a>
 
 
 
-<a href="https://msdn.microsoft.com/e34fc088-61d7-46a8-b493-8255a733d521">IExtendTaskPad::GetBackground</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-getbackground">IExtendTaskPad::GetBackground</a>
 
 
 
-<a href="https://msdn.microsoft.com/bb101c09-947f-4316-890a-86e09358d88c">MMC_TASK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task">MMC_TASK</a>
 
 
 
-<a href="https://msdn.microsoft.com/9895eef1-7870-4092-8bf9-c13f38b74173">MMC_TASK_DISPLAY_BITMAP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task_display_bitmap">MMC_TASK_DISPLAY_BITMAP</a>
 
 
 
-<a href="https://msdn.microsoft.com/a46f1b86-883e-4eca-a3f8-d18c6a4d64e5">MMC_TASK_DISPLAY_SYMBOL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task_display_symbol">MMC_TASK_DISPLAY_SYMBOL</a>
 
 
 
-<a href="https://msdn.microsoft.com/55d90530-5cd0-42ae-8a5d-417f7f49edac">MMC_TASK_DISPLAY_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-_mmc_task_display_type">MMC_TASK_DISPLAY_TYPE</a>
  
 
  

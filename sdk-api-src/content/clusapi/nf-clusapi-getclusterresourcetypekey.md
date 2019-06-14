@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Opens the root of the  <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">cluster database</a> subtree for a  <a href="https://msdn.microsoft.com/d02e4f51-7b86-451a-a51c-ea850ae464d1">resource type</a>.
+Opens the root of the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> subtree for a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-types">resource type</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Opens the root of the  <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a
 
 ### -param hCluster [in]
 
-Handle to a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+Handle to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>.
 
 
 ### -param lpszTypeName [in]
@@ -79,7 +79,7 @@ Access mask that describes the security access needed for the opened key.
 If the operation succeeds, the function returns a registry key handle for the resource type.
 
 If the operation fails, 
-the function returns <b>NULL</b>. For more information about the error, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+the function returns <b>NULL</b>. For more information about the error, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -88,7 +88,7 @@ the function returns <b>NULL</b>. For more information about the error, call <a 
 
 
 
-The  <b>GetClusterResourceTypeKey</b> function returns a handle to a cluster database key representing the subtree root for the resource type pointed to by <i>lpszTypeName</i> in the cluster identified by <i>hCluster</i>. Callers should call  <a href="https://msdn.microsoft.com/2216ac42-6beb-4ceb-bd15-12bb2886bc6a">ClusterRegCloseKey</a> to close the key handle retrieved by  <b>GetClusterResourceTypeKey</b> when they are done with it.
+The  <b>GetClusterResourceTypeKey</b> function returns a handle to a cluster database key representing the subtree root for the resource type pointed to by <i>lpszTypeName</i> in the cluster identified by <i>hCluster</i>. Callers should call  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregclosekey">ClusterRegCloseKey</a> to close the key handle retrieved by  <b>GetClusterResourceTypeKey</b> when they are done with it.
 
 
 
@@ -98,11 +98,11 @@ The  <b>GetClusterResourceTypeKey</b> function returns a handle to a cluster dat
 
 
 
-<a href="https://msdn.microsoft.com/2216ac42-6beb-4ceb-bd15-12bb2886bc6a">ClusterRegCloseKey</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregclosekey">ClusterRegCloseKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/b2ee2575-cc1e-4696-8e95-9798fb556c58">OpenCluster</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>
  
 
  

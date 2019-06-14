@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies how an operation requested on certain methods of <a href="https://msdn.microsoft.com/197c4e6f-ffc4-4f19-a5bd-6859eef953c2">ISyncMgrControl</a> should be performed.
+Specifies how an operation requested on certain methods of <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrcontrol">ISyncMgrControl</a> should be performed.
 
 
 ## -enum-fields
@@ -79,5 +79,5 @@ Perform the operation without asking the sync handler to display the UI during t
 
 ### -field SYNCMGR_CF_VALID
 
-A mask used to determine valid <a href="https://msdn.microsoft.com/cfba36ba-8cbd-41ae-91ae-e568546508b9">SYNCMGR_CONTROL_FLAGS</a> flags.
+A mask used to determine valid <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_control_flags">SYNCMGR_CONTROL_FLAGS</a> flags.
 

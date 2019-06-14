@@ -215,11 +215,11 @@ Annex J command: Video_Presentation_Mode_Change.
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/71ae88f0-17ad-4530-b2e7-6a8155c14a97">IDvdInfo2::GetCurrentUOPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getcurrentuops">IDvdInfo2::GetCurrentUOPS</a>
  
 
  

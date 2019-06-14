@@ -63,7 +63,7 @@ Signals the mixer or presenter to query the enhanced video renderer (EVR) for in
 
 ### -param pLookup [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/a912c17a-40ef-441c-bfc9-7ef49d22070f">IMFTopologyServiceLookup</a> interface. To query the EVR for an interface, call <a href="https://msdn.microsoft.com/ba0dbfdf-1bab-42ba-910f-04a3f37be955">IMFTopologyServiceLookup::LookupService</a>.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imftopologyservicelookup">IMFTopologyServiceLookup</a> interface. To query the EVR for an interface, call <a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imftopologyservicelookup-lookupservice">IMFTopologyServiceLookup::LookupService</a>.
 
 
 ## -returns
@@ -98,9 +98,9 @@ The method succeeded.
 
 
 
-The <a href="https://msdn.microsoft.com/a912c17a-40ef-441c-bfc9-7ef49d22070f">IMFTopologyServiceLookup</a> pointer is guaranteed to be valid only during the call to <b>InitServicePointers</b>. The mixer or presenter should not store a pointer to this interface after the method returns.
+The <a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imftopologyservicelookup">IMFTopologyServiceLookup</a> pointer is guaranteed to be valid only during the call to <b>InitServicePointers</b>. The mixer or presenter should not store a pointer to this interface after the method returns.
 
-When the EVR calls <a href="https://msdn.microsoft.com/03ed29b4-89c1-4702-a23f-d013eeef5d44">IMFTopologyServiceLookupClient::ReleaseServicePointers</a>, the mixer or presenter should release any pointers it obtained from the EVR.
+When the EVR calls <a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imftopologyservicelookupclient-releaseservicepointers">IMFTopologyServiceLookupClient::ReleaseServicePointers</a>, the mixer or presenter should release any pointers it obtained from the EVR.
 
 
 
@@ -110,11 +110,11 @@ When the EVR calls <a href="https://msdn.microsoft.com/03ed29b4-89c1-4702-a23f-d
 
 
 
-<a href="https://msdn.microsoft.com/1135b309-b158-4b70-9f76-5c93d0ad3250">How to Write an EVR Presenter</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-write-an-evr-presenter">How to Write an EVR Presenter</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4215d08-3734-44b9-b053-0d49d89a90f6">IMFTopologyServiceLookupClient</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imftopologyservicelookupclient">IMFTopologyServiceLookupClient</a>
  
 
  

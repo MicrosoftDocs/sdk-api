@@ -178,7 +178,7 @@ Language tag.
 
 ### -field dwInitialFrames
 
-Specifies how far audio data is skewed ahead of the video frames in interleaved files. Typically, this is about 0.75 seconds. If you are creating interleaved files, specify the number of frames in the file prior to the initial frame of the AVI sequence in this member. For more information, see the remarks for the <b>dwInitialFrames</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Dd318180(v=VS.85).aspx">AVIMAINHEADER</a> structure.
+Specifies how far audio data is skewed ahead of the video frames in interleaved files. Typically, this is about 0.75 seconds. If you are creating interleaved files, specify the number of frames in the file prior to the initial frame of the AVI sequence in this member. For more information, see the remarks for the <b>dwInitialFrames</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/aviriff/ns-aviriff-_avimainheader">AVIMAINHEADER</a> structure.
 
 
 ### -field dwScale
@@ -217,7 +217,7 @@ Specifies an indicator of the quality of the data in the stream. Quality is repr
 
 ### -field dwSampleSize
 
-Specifies the size of a single sample of data. This is set to zero if the samples can vary in size. If this number is nonzero, then multiple samples of data can be grouped into a single chunk within the file. If it is zero, each sample of data (such as a video frame) must be in a separate chunk. For video streams, this number is typically zero, although it can be nonzero if all video frames are the same size. For audio streams, this number should be the same as the <b>nBlockAlign</b> member of the <a href="https://msdn.microsoft.com/4f3bf6fb-b15f-43b3-82f1-e7a8a3007057">WAVEFORMATEX</a> structure describing the audio.
+Specifies the size of a single sample of data. This is set to zero if the samples can vary in size. If this number is nonzero, then multiple samples of data can be grouped into a single chunk within the file. If it is zero, each sample of data (such as a video frame) must be in a separate chunk. For video streams, this number is typically zero, although it can be nonzero if all video frames are the same size. For audio streams, this number should be the same as the <b>nBlockAlign</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd757713(v%3dvs.85)">WAVEFORMATEX</a> structure describing the audio.
           
 
 
@@ -253,7 +253,7 @@ Specifies the destination rectangle for a text or video stream within the movie 
 
 
 
-Some of the members of this structure are also present in the <a href="https://msdn.microsoft.com/en-us/library/Dd318180(v=VS.85).aspx">AVIMAINHEADER</a> structure. The data in the <b>AVIMAINHEADER</b> structure applies to the whole file, while the data in the <b>AVISTREAMHEADER</b> structure applies to one stream.
+Some of the members of this structure are also present in the <a href="https://docs.microsoft.com/windows/desktop/api/aviriff/ns-aviriff-_avimainheader">AVIMAINHEADER</a> structure. The data in the <b>AVIMAINHEADER</b> structure applies to the whole file, while the data in the <b>AVISTREAMHEADER</b> structure applies to one stream.
       
 
 The header file Vfw.h defines a <b>AVIStreamHeader</b> structure that is equivalent to this structure, but omits the <b>fcc</b> and <b>cb</b> members.
@@ -266,11 +266,11 @@ The header file Vfw.h defines a <b>AVIStreamHeader</b> structure that is equival
 
 
 
-<a href="https://msdn.microsoft.com/2d8cf5be-1252-4b58-89b1-f5c53ea17d0e">AVI RIFF File Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/avi-riff-file-reference">AVI RIFF File Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
  
 
  

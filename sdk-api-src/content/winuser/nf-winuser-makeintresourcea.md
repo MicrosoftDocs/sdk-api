@@ -76,7 +76,7 @@ The return value should be passed only to functions which explicitly indicate th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632583(v=VS.85).aspx">Resources Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/resources">Resources Overview</a>
  
 
  

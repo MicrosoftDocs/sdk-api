@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITDigitsGatheredEvent</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITDigitsGatheredEvent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITDigitsGatheredEvent</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITDigitsGatheredEvent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,17 +70,17 @@ The <b>ITDigitsGatheredEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/43625f93-4ab2-4aeb-83da-70310f118e34">get_Call</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itdigitsgatheredevent-get_call">get_Call</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the 
-<a href="https://msdn.microsoft.com/5209d4a1-e05b-453e-8896-2dc71f0b9af0">ITCallInfo</a> interface for the call on which the event occurred.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a> interface for the call on which the event occurred.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/28c613bc-8320-43b5-a9b3-b6a47876d7dd">get_CallbackInstance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itdigitsgatheredevent-get_callbackinstance">get_CallbackInstance</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the application's callback function that will process the event.
@@ -89,7 +89,7 @@ Gets a pointer to the application's callback function that will process the even
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/940e186b-33bd-4846-8314-39ede19bad95">get_Digits</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itdigitsgatheredevent-get_digits">get_Digits</a>
 </td>
 <td align="left" width="63%">
 Gets the gathered digits for the call.
@@ -98,7 +98,7 @@ Gets the gathered digits for the call.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/97c123b9-4497-43f3-b747-660d3f9f5848">get_GatherTermination</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itdigitsgatheredevent-get_gathertermination">get_GatherTermination</a>
 </td>
 <td align="left" width="63%">
 Gets the reason why digit-gathering was terminated.
@@ -107,7 +107,7 @@ Gets the reason why digit-gathering was terminated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6e5fbed0-f132-418f-aa71-36d0e673affa">get_TickCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itdigitsgatheredevent-get_tickcount">get_TickCount</a>
 </td>
 <td align="left" width="63%">
 Gets the "tick count" (number of milliseconds since Windows started) at which digit-gathering completed.

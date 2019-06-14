@@ -108,7 +108,7 @@ The name service is unavailable.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -150,7 +150,7 @@ For example, during management operations to update a profile, you may need to a
 
 
 For example, a client application using name service import operations should first try to obtain bindings using the application's default expiration age. However, sometimes the import-next operation returns either no binding handles or an insufficient number of them. In this case, the client could retry the import operation and, after the 
-<a href="https://msdn.microsoft.com/8dca0490-72aa-41e0-b747-863d53a705ea">RpcNsBindingImportBegin</a> call, include an 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina">RpcNsBindingImportBegin</a> call, include an 
 <b>RpcNsMgmtHandleSetExpAge</b> call and specify 0 for the <i>ExpirationAge</i> parameter. When the client calls the import-next function again, the small handle-expiration age causes the import-next operation to update the local attribute data.
 
 </li>
@@ -163,15 +163,15 @@ For example, a client application using name service import operations should fi
 
 
 
-<a href="https://msdn.microsoft.com/8dca0490-72aa-41e0-b747-863d53a705ea">RpcNsBindingImportBegin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina">RpcNsBindingImportBegin</a>
 
 
 
-<a href="https://msdn.microsoft.com/b9e27fba-c4ee-4a0e-ab95-af4c975e9123">RpcNsMgmtInqExpAge</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmtinqexpage">RpcNsMgmtInqExpAge</a>
 
 
 
-<a href="https://msdn.microsoft.com/9433e8c3-2c52-4994-8661-6af089fa9bc9">RpcNsMgmtSetExpAge</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmtsetexpage">RpcNsMgmtSetExpAge</a>
  
 
  

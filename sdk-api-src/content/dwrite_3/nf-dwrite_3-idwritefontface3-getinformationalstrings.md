@@ -59,16 +59,16 @@ Gets a localized strings collection that contains the specified informational st
 
 ### -param informationalStringID [in]
 
-Type: <b><a href="https://msdn.microsoft.com/bbd5ea62-0837-49e4-a1e8-1d55d5d39ee3">DWRITE_INFORMATIONAL_STRING_ID</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_informational_string_id">DWRITE_INFORMATIONAL_STRING_ID</a></b>
 
-A <a href="https://msdn.microsoft.com/bbd5ea62-0837-49e4-a1e8-1d55d5d39ee3">DWRITE_INFORMATIONAL_STRING_ID</a>-typed value that identifies the strings to get.
+A <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_informational_string_id">DWRITE_INFORMATIONAL_STRING_ID</a>-typed value that identifies the strings to get.
 
 
 ### -param informationalStrings [out]
 
-Type: <b><a href="https://msdn.microsoft.com/37bfc613-4128-45aa-b6b2-6163d44378e4">IDWriteLocalizedStrings</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritelocalizedstrings">IDWriteLocalizedStrings</a>**</b>
 
-A pointer to a memory block that receives a pointer to a <a href="https://msdn.microsoft.com/37bfc613-4128-45aa-b6b2-6163d44378e4">IDWriteLocalizedStrings</a> interface for the newly created localized strings object.
+A pointer to a memory block that receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritelocalizedstrings">IDWriteLocalizedStrings</a> interface for the newly created localized strings object.
 
 
 ### -param exists [out]
@@ -94,7 +94,7 @@ If the font doesn't contain the specified string, the return value is S_OK, but 
 
 
 
-<a href="https://msdn.microsoft.com/1081A005-E4A8-4EE0-AFE0-10BD8D8471DF">IDWriteFontFace3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontface3">IDWriteFontFace3</a>
  
 
  

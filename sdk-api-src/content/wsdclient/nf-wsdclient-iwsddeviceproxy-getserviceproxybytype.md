@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves a generic <a href="https://msdn.microsoft.com/8753bcc8-f0c3-4dd0-8ebe-f6c15a271c70">IWSDServiceProxy</a> proxy for a service exposed by the device by port type name.
+Retrieves a generic <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxy">IWSDServiceProxy</a> proxy for a service exposed by the device by port type name.
 
 
 ## -parameters
@@ -59,13 +59,13 @@ Retrieves a generic <a href="https://msdn.microsoft.com/8753bcc8-f0c3-4dd0-8ebe-
 
 ### -param pType [in]
 
-Reference to a <a href="https://msdn.microsoft.com/9dce71d2-700c-4f86-9308-dee6a69010bb">WSDXML_NAME</a> structure that specifies the port type name. 
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_name">WSDXML_NAME</a> structure that specifies the port type name. 
 
 
 
 ### -param ppServiceProxy [out]
 
-Pointer to the <a href="https://msdn.microsoft.com/8753bcc8-f0c3-4dd0-8ebe-f6c15a271c70">IWSDServiceProxy</a> object associated with the specified service. 
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxy">IWSDServiceProxy</a> object associated with the specified service. 
 
 
 
@@ -155,7 +155,7 @@ If the device hosts more than one service of the specified type, a proxy for any
 
 
 
-<a href="https://msdn.microsoft.com/a1a54ba0-241a-4c3d-8113-89c0f8171c40">IWSDDeviceProxy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a>
  
 
  

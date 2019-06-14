@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-An extension to <a href="https://msdn.microsoft.com/867bfd3e-b2d8-4bbe-b1bf-2356fb992a7c">IProvideClassInfo</a> that makes is faster and easier to retrieve an object's outgoing interface IID for its default event set.
+An extension to <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iprovideclassinfo">IProvideClassInfo</a> that makes is faster and easier to retrieve an object's outgoing interface IID for its default event set.
 
 
 ## -inheritance
@@ -69,7 +69,7 @@ The <b>IProvideClassInfo2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1a424b93-93a9-4dc7-9c77-349522ee9e70">GetGUID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iprovideclassinfo2-getguid">GetGUID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified GUID for the object.

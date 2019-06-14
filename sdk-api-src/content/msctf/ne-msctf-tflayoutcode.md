@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Elements of the <b>TfLayoutCode</b> enumeration specify the type of layout change in an <a href="https://msdn.microsoft.com/a99313ab-98a7-4fc0-b3ae-78ff26a41d8e">ITfTextLayoutSink::OnLayoutChange</a> notification.
+Elements of the <b>TfLayoutCode</b> enumeration specify the type of layout change in an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftextlayoutsink-onlayoutchange">ITfTextLayoutSink::OnLayoutChange</a> notification.
 
 
 ## -enum-fields
@@ -86,7 +86,7 @@ In TSF, a view is on-screen rendering of document content. These constants are a
 
 
 
-<a href="https://msdn.microsoft.com/a99313ab-98a7-4fc0-b3ae-78ff26a41d8e">ITfTextLayoutSink::OnLayoutChange
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftextlayoutsink-onlayoutchange">ITfTextLayoutSink::OnLayoutChange
       </a>
  
 

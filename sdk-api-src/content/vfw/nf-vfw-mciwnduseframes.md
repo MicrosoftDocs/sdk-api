@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndUseFrames</b> macro sets the time format of an MCI device to frames. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/7de82094-6d35-44fd-88e7-ebd18a558cfd">MCIWNDM_SETTIMEFORMAT</a> message.
+The <b>MCIWndUseFrames</b> macro sets the time format of an MCI device to frames. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-settimeformat">MCIWNDM_SETTIMEFORMAT</a> message.
 
 
 

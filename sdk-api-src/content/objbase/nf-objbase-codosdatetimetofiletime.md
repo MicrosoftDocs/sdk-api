@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Converts the MS-DOS representation of the time and date to a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure used by Windows.
+Converts the MS-DOS representation of the time and date to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure used by Windows.
 <div class="alert"><b>Note</b>  This function is provided for compatibility with 16-bit Windows.</div><div> </div>
 
 ## -parameters
@@ -69,7 +69,7 @@ The MS-DOS time.
 
 ### -param lpFileTime [out]
 
-A pointer to the <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
 
 
 ## -returns
@@ -142,11 +142,11 @@ An MS-DOS time has the following format.
 
 
 
-<a href="https://msdn.microsoft.com/00083429-1d61-4a0b-bb73-82158869466d">CoFileTimeNow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cofiletimenow">CoFileTimeNow</a>
 
 
 
-<a href="https://msdn.microsoft.com/38670fe7-10cf-44e2-a5f1-60ec43fd83b5">CoFileTimeToDosDateTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-cofiletimetodosdatetime">CoFileTimeToDosDateTime</a>
  
 
  

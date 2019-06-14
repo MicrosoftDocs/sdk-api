@@ -113,7 +113,7 @@ An IPv4 address formatted as a <b>u_long</b>.
 
 The <b>in_addr</b> structure is used with IPv4 addresses. 
 
-The <b>in_addr</b> structure is the IPv4 equivalent of the IPv6-based <a href="https://msdn.microsoft.com/2029db76-3fe1-4560-b753-910c48cbc578">in6_addr</a> structure.  
+The <b>in_addr</b> structure is the IPv4 equivalent of the IPv6-based <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms738560(v=vs.85)">in6_addr</a> structure.  
 
 <div class="alert"><b>Note</b>  The <b>IN_ADDR</b>, <b>PIN_ADDR</b>, and  <b>LPIN_ADDR</b> derived structures are only defined on the Windows SDK released with Windows Vista and later. The <b>IN_ADDR</b>, <b>PIN_ADDR</b>, and  <b>LPIN_ADDR</b> derived structures are defined in the <i>Inaddr.h</i> header file. On earlier versions of the Windows SDK, variables of this type should be declared as <b>struct in_addr</b>. </div>
 <div> </div>
@@ -125,19 +125,19 @@ The <b>in_addr</b> structure is the IPv4 equivalent of the IPv6-based <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/2029db76-3fe1-4560-b753-910c48cbc578">in6_addr</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms738560(v=vs.85)">in6_addr</a>
 
 
 
-<a href="https://msdn.microsoft.com/7d6df658-9d83-45c7-97e7-b2a016a73847">inet_addr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_addr">inet_addr</a>
 
 
 
-<a href="https://msdn.microsoft.com/01cd32e7-a01d-40e8-afb5-69223d643a0e">inet_ntoa</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa">inet_ntoa</a>
 
 
 
-<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
  
 
  

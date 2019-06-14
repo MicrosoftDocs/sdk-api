@@ -84,11 +84,11 @@ These settings are applied after the effect chain is applied. This method is val
 
 
 
-Volume levels are expressed as floating-point amplitude multipliers between -2²⁴ to 2²⁴, with a maximum gain of 144.5 dB. A volume of 1 means there is no attenuation or gain, 0 means silence, and negative levels can be used to invert the audio's phase. See <a href="https://msdn.microsoft.com/dedc2d01-af83-d7d2-5b64-743dcebc83f7">XAudio2 Volume and Pitch Control</a> for additional information on volume control.
+Volume levels are expressed as floating-point amplitude multipliers between -2²⁴ to 2²⁴, with a maximum gain of 144.5 dB. A volume of 1 means there is no attenuation or gain, 0 means silence, and negative levels can be used to invert the audio's phase. See <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-volume-and-pitch-control">XAudio2 Volume and Pitch Control</a> for additional information on volume control.
 
 
 
-<div class="alert"><b>Note</b>  <b>GetChannelVolumes</b> always returns the volume levels most recently set by <a href="https://msdn.microsoft.com/en-us/library/Ee418593(v=VS.85).aspx">IXAudio2Voice::SetChannelVolumes</a>. However, those values may not actually be in effect yet: they only take effect the next time the audio engine runs after the <b>IXAudio2Voice::SetChannelVolumes</b> call (or after the corresponding <a href="https://msdn.microsoft.com/en-us/library/Ee418603(v=VS.85).aspx">IXAudio2::CommitChanges</a> call, if <b>IXAudio2Voice::SetChannelVolumes</b> was called with a deferred operation ID). </div>
+<div class="alert"><b>Note</b>  <b>GetChannelVolumes</b> always returns the volume levels most recently set by <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setchannelvolumes">IXAudio2Voice::SetChannelVolumes</a>. However, those values may not actually be in effect yet: they only take effect the next time the audio engine runs after the <b>IXAudio2Voice::SetChannelVolumes</b> call (or after the corresponding <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-commitchanges">IXAudio2::CommitChanges</a> call, if <b>IXAudio2Voice::SetChannelVolumes</b> was called with a deferred operation ID). </div>
 <div> </div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
@@ -101,7 +101,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415917(v=VS.85).aspx">IXAudio2Voice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voice">IXAudio2Voice</a>
  
 
  

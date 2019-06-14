@@ -53,10 +53,10 @@ The
 				<b>NetServerTransportAdd</b> function binds the server to the transport protocol.
 
 The extended function 
-<a href="https://msdn.microsoft.com/d1edc75d-8313-422c-a6fb-8b51a309a252">NetServerTransportAddEx</a> allows the calling application to specify the 
-<a href="https://msdn.microsoft.com/f21fed49-207a-4f64-becd-3d3c1e995eb0">SERVER_TRANSPORT_INFO_1</a>, 
-<a href="https://msdn.microsoft.com/b422eb71-1f93-432d-8283-81432edfe568">SERVER_TRANSPORT_INFO_2</a>, and 
-<a href="https://msdn.microsoft.com/045d60d4-518f-4ce4-b611-e23d1588d5d3">SERVER_TRANSPORT_INFO_3</a> information levels.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservertransportaddex">NetServerTransportAddEx</a> allows the calling application to specify the 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_transport_info_1">SERVER_TRANSPORT_INFO_1</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_transport_info_2">SERVER_TRANSPORT_INFO_2</a>, and 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_transport_info_3">SERVER_TRANSPORT_INFO_3</a> information levels.
 
 
 ## -parameters
@@ -90,7 +90,7 @@ Specifies the information level of the data. This parameter can be the following
 </td>
 <td width="60%">
 Specifies information about the transport protocol, including name, address, and location on the network. The <i>bufptr</i> parameter points to a 
-<a href="https://msdn.microsoft.com/5b94cf7a-74d1-4ae8-87bd-22b2daf292cb">SERVER_TRANSPORT_INFO_0</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_transport_info_0">SERVER_TRANSPORT_INFO_0</a> structure.
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ Specifies information about the transport protocol, including name, address, and
 A pointer to the buffer that contains the data.
 
 For more information, see 
-<a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a>.
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a>.
 
 
 ## -returns
@@ -172,7 +172,7 @@ The value specified for the <i>level</i> parameter is invalid.
 <td width="60%">
 A parameter is invalid. 
 
-This error is returned if the <b>svti0_transportname</b> or <b>svti0_transportaddress</b> member in the <a href="https://msdn.microsoft.com/5b94cf7a-74d1-4ae8-87bd-22b2daf292cb">SERVER_TRANSPORT_INFO_0</a> structure pointed to by the <i>bufptr</i> parameter is <b>NULL</b>. This error is also returned if the <b>svti0_transportaddresslength</b> member in the <b>SERVER_TRANSPORT_INFO_0</b> structure pointed to by the <i>bufptr</i> parameter is zero or larger than MAX_PATH (defined in the Windef.h header file). 
+This error is returned if the <b>svti0_transportname</b> or <b>svti0_transportaddress</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_transport_info_0">SERVER_TRANSPORT_INFO_0</a> structure pointed to by the <i>bufptr</i> parameter is <b>NULL</b>. This error is also returned if the <b>svti0_transportaddresslength</b> member in the <b>SERVER_TRANSPORT_INFO_0</b> structure pointed to by the <i>bufptr</i> parameter is zero or larger than MAX_PATH (defined in the Windef.h header file). 
 
 This error is also returned for other invalid parameters.
 
@@ -213,53 +213,53 @@ If you add a transport protocol to a server using a call to the
 
 
 
-<a href="https://msdn.microsoft.com/0789fbfe-be91-4849-a31c-1e1a6ae1e70d">NetServerComputerNameAdd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservercomputernameadd">NetServerComputerNameAdd</a>
 
 
 
-<a href="https://msdn.microsoft.com/501232ad-2821-4bbd-9f16-0f49984f6101">NetServerComputerNameDel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservercomputernamedel">NetServerComputerNameDel</a>
 
 
 
-<a href="https://msdn.microsoft.com/d1edc75d-8313-422c-a6fb-8b51a309a252">NetServerTransportAddEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservertransportaddex">NetServerTransportAddEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/69b22f30-62b1-4dcb-bbb0-aceae8d77f61">NetServerTransportDel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservertransportdel">NetServerTransportDel</a>
 
 
 
-<a href="https://msdn.microsoft.com/db42ac44-d70d-4b89-882a-6ac83fd611fd">NetServerTransportEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservertransportenum">NetServerTransportEnum</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd159e2e-f37e-46b2-b980-008b73d40b39">Network
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/5b94cf7a-74d1-4ae8-87bd-22b2daf292cb">SERVER_TRANSPORT_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_transport_info_0">SERVER_TRANSPORT_INFO_0</a>
 
 
 
-<a href="https://msdn.microsoft.com/f21fed49-207a-4f64-becd-3d3c1e995eb0">SERVER_TRANSPORT_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_transport_info_1">SERVER_TRANSPORT_INFO_1</a>
 
 
 
-<a href="https://msdn.microsoft.com/b422eb71-1f93-432d-8283-81432edfe568">SERVER_TRANSPORT_INFO_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_transport_info_2">SERVER_TRANSPORT_INFO_2</a>
 
 
 
-<a href="https://msdn.microsoft.com/045d60d4-518f-4ce4-b611-e23d1588d5d3">SERVER_TRANSPORT_INFO_3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_transport_info_3">SERVER_TRANSPORT_INFO_3</a>
 
 
 
-<a href="https://msdn.microsoft.com/64342e21-98f1-42d3-b541-46b826391fad">Server and Workstation Transport Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/server-and-workstation-transport-functions">Server and Workstation Transport Functions</a>
  
 
  

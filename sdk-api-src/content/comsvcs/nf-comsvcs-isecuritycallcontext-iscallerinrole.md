@@ -110,11 +110,11 @@ The role specified in the <i>bstrRole</i> parameter does not exist.
 
 
 
-Use this method to limit access to sections of code that should not be executed unless the caller is a member of the specified role. Windows groups and users are assigned to an application's roles using the Component Services administration tool. For more information about roles, see <a href="https://msdn.microsoft.com/7247758e-f486-4ce2-afca-f0d10fffe626">Role-Based Security</a>.
+Use this method to limit access to sections of code that should not be executed unless the caller is a member of the specified role. Windows groups and users are assigned to an application's roles using the Component Services administration tool. For more information about roles, see <a href="https://docs.microsoft.com/windows/desktop/cossdk/role-based-security-administration">Role-Based Security</a>.
 
-<b>IsCallerInRole</b> only applies to the direct caller of the currently executing method. <b>IsCallerInRole</b> does not apply to any other caller in the call sequence from which the current method was called. However, you can obtain information about other callers in the sequence by using the <a href="https://msdn.microsoft.com/e6561b89-8af6-46cc-aeab-2b007d48fe26">get_Item</a> property method to get the Callers property of the security call context object.
+<b>IsCallerInRole</b> only applies to the direct caller of the currently executing method. <b>IsCallerInRole</b> does not apply to any other caller in the call sequence from which the current method was called. However, you can obtain information about other callers in the sequence by using the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isecuritycallcontext-get_item">get_Item</a> property method to get the Callers property of the security call context object.
 
-Because <b>IsCallerInRole</b> is <b>TRUE</b> when role-based security is not enabled, it is a good idea to call <a href="https://msdn.microsoft.com/b247d430-56b1-40be-a85a-5ed141d90c85">IsSecurityEnabled</a> before calling <b>IsCallerInRole</b> to ensure that <b>IsCallerInRole</b> returns useful information. 
+Because <b>IsCallerInRole</b> is <b>TRUE</b> when role-based security is not enabled, it is a good idea to call <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isecuritycallcontext-issecurityenabled">IsSecurityEnabled</a> before calling <b>IsCallerInRole</b> to ensure that <b>IsCallerInRole</b> returns useful information. 
 
 
 
@@ -125,15 +125,15 @@ Because <b>IsCallerInRole</b> is <b>TRUE</b> when role-based security is not ena
 
 
 
-<a href="https://msdn.microsoft.com/cd96ef31-784f-40fa-beb5-92a88823326b">ISecurityCallContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isecuritycallcontext">ISecurityCallContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/6117970c-5dbd-485e-978e-3aa96e42b359">Programmatic Component Security</a>
+<a href="https://docs.microsoft.com/windows/desktop/cossdk/programmatic-component-security">Programmatic Component Security</a>
 
 
 
-<a href="https://msdn.microsoft.com/7247758e-f486-4ce2-afca-f0d10fffe626">Role-Based Security</a>
+<a href="https://docs.microsoft.com/windows/desktop/cossdk/role-based-security-administration">Role-Based Security</a>
  
 
  

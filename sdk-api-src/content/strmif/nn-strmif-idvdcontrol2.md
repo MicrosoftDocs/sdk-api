@@ -51,14 +51,14 @@ ms.custom: 19H1
 
 
 
-The <code>IDvdControl2</code> interface navigates and plays DVD-Video titles. The DirectShow <a href="https://msdn.microsoft.com/3b2c01a2-d52c-4497-8fc9-d1113e8507e8">DVD Navigator</a> source filter implements this interface. After creating a DVD filter graph through the <a href="https://msdn.microsoft.com/2179e54a-c6e2-4837-9f89-be210bde9180">IDvdGraphBuilder</a> interface, a DVD player application uses the methods of the <b>IDvdControl2</b> and <a href="https://msdn.microsoft.com/da30d3dc-feec-4f54-b2db-a771ce404286">IDvdInfo2</a> interfaces to send DVD commands to and retrieve state information from the DVD Navigator.
+The <code>IDvdControl2</code> interface navigates and plays DVD-Video titles. The DirectShow <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> source filter implements this interface. After creating a DVD filter graph through the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdgraphbuilder">IDvdGraphBuilder</a> interface, a DVD player application uses the methods of the <b>IDvdControl2</b> and <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2</a> interfaces to send DVD commands to and retrieve state information from the DVD Navigator.
 
-<code>IDvdControl2</code> provides the full functionality required by the DVD Annex J specification, as well as methods for playback, menu navigation, and parental control. For more information on writing a DVD player application using the DVD Navigator, including topics on the DVD filter graph, command synchronization, parental controls, menus, and karaoke support, see <a href="https://msdn.microsoft.com/6f41e0f1-e550-4ca6-9a80-ce4d498289e2">DVD Applications</a>.</p>Playback
+<code>IDvdControl2</code> provides the full functionality required by the DVD Annex J specification, as well as methods for playback, menu navigation, and parental control. For more information on writing a DVD player application using the DVD Navigator, including topics on the DVD filter graph, command synchronization, parental controls, menus, and karaoke support, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>.</p>Playback
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvdControl2</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDvdControl2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvdControl2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvdControl2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IDvdControl2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a990544e-6600-44b1-91f2-8b88fa43ccaf">AcceptParentalLevelChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-acceptparentallevelchange">AcceptParentalLevelChange</a>
 </td>
 <td align="left" width="63%">
 Accepts or rejects a request from the DVD Navigator to play content at a higher parental management level.
@@ -82,7 +82,7 @@ Accepts or rejects a request from the DVD Navigator to play content at a higher 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ff9eb02c-09c0-4b58-8e38-ec84ab1f1c42">ActivateAtPosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-activateatposition">ActivateAtPosition</a>
 </td>
 <td align="left" width="63%">
 Activates the menu button under the mouse pointer position.
@@ -91,7 +91,7 @@ Activates the menu button under the mouse pointer position.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/20213874-ed28-4e0a-83af-044570b2c7e3">ActivateButton</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-activatebutton">ActivateButton</a>
 </td>
 <td align="left" width="63%">
 Activates the selected menu button.
@@ -100,7 +100,7 @@ Activates the selected menu button.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/32ef572a-56f5-4aa4-b994-08f86a1f17ec">Pause</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-pause">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses or resumes playback at the current location. (Deprecated.)
@@ -109,7 +109,7 @@ Pauses or resumes playback at the current location. (Deprecated.)
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/75b66e8d-3107-48ca-a887-20cf3c0b9234">PlayAtTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-playattime">PlayAtTime</a>
 </td>
 <td align="left" width="63%">
 Starts playback from the specified time in the current title.
@@ -118,7 +118,7 @@ Starts playback from the specified time in the current title.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/034fa82f-38d2-4031-8d7f-dcf97aa699aa">PlayAtTimeInTitle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-playattimeintitle">PlayAtTimeInTitle</a>
 </td>
 <td align="left" width="63%">
 Starts playback from the specified time in the specified title.
@@ -127,7 +127,7 @@ Starts playback from the specified time in the specified title.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d195956b-a4e5-493f-a804-9095e3bba4e2">PlayBackwards</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-playbackwards">PlayBackwards</a>
 </td>
 <td align="left" width="63%">
 Plays backward at the specified speed from the current location.
@@ -136,7 +136,7 @@ Plays backward at the specified speed from the current location.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b624aa7e-ff88-417c-8536-4ac38e8ae1ca">PlayChapter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-playchapter">PlayChapter</a>
 </td>
 <td align="left" width="63%">
 Starts playback from the specified chapter in the current title.
@@ -145,7 +145,7 @@ Starts playback from the specified chapter in the current title.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1ac5072b-d397-4415-b4b9-656fd59a9269">PlayChapterInTitle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-playchapterintitle">PlayChapterInTitle</a>
 </td>
 <td align="left" width="63%">
 Starts playback from the beginning of the specified chapter of the specified title.
@@ -154,7 +154,7 @@ Starts playback from the beginning of the specified chapter of the specified tit
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fdf9642b-ac90-4ffc-a813-4a5b22a973dd">PlayChaptersAutoStop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-playchaptersautostop">PlayChaptersAutoStop</a>
 </td>
 <td align="left" width="63%">
 Plays the number of chapters specified, starting at the specified chapter within the specified title.
@@ -163,7 +163,7 @@ Plays the number of chapters specified, starting at the specified chapter within
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bf57e2fd-c85f-430d-a1fa-5b59f7bfb8af">PlayForwards</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-playforwards">PlayForwards</a>
 </td>
 <td align="left" width="63%">
 Plays forward at the specified speed from the current location.
@@ -172,7 +172,7 @@ Plays forward at the specified speed from the current location.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/654841ce-6689-47cc-93fb-bd8de8f4dd3a">PlayNextChapter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-playnextchapter">PlayNextChapter</a>
 </td>
 <td align="left" width="63%">
 Starts playback from the beginning of the next chapter in the current title.
@@ -181,7 +181,7 @@ Starts playback from the beginning of the next chapter in the current title.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6c0d647c-a0c3-428e-8368-9204049dfea8">PlayPeriodInTitleAutoStop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-playperiodintitleautostop">PlayPeriodInTitleAutoStop</a>
 </td>
 <td align="left" width="63%">
 Starts playback in the specified title from the specified start time until the specified end time.
@@ -190,7 +190,7 @@ Starts playback in the specified title from the specified start time until the s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bebfe1e1-9197-4105-9b3f-edeb6f04836c">PlayPrevChapter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-playprevchapter">PlayPrevChapter</a>
 </td>
 <td align="left" width="63%">
 Starts playback from the beginning of the previous chapter in the current title.
@@ -199,7 +199,7 @@ Starts playback from the beginning of the previous chapter in the current title.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5cdea69e-7d32-470e-846b-1b2be5ca87b1">PlayTitle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-playtitle">PlayTitle</a>
 </td>
 <td align="left" width="63%">
 Starts playback from the beginning of the specified title.
@@ -208,7 +208,7 @@ Starts playback from the beginning of the specified title.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ea1567fc-708f-4dcd-abc2-b5bdc9f6a62c">ReplayChapter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-replaychapter">ReplayChapter</a>
 </td>
 <td align="left" width="63%">
 Starts playback from the beginning of the current chapter.
@@ -217,7 +217,7 @@ Starts playback from the beginning of the current chapter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/522dcb38-8c17-46b0-b5aa-5ee380057077">Resume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-resume">Resume</a>
 </td>
 <td align="left" width="63%">
 Leaves a menu and resumes playback.
@@ -226,7 +226,7 @@ Leaves a menu and resumes playback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ef213ab6-3993-46e4-803d-3ce195256e7e">ReturnFromSubmenu</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-returnfromsubmenu">ReturnFromSubmenu</a>
 </td>
 <td align="left" width="63%">
 Returns the display from a submenu to its parent menu.
@@ -235,7 +235,7 @@ Returns the display from a submenu to its parent menu.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1e5ad753-bc35-4a98-83d8-82ffccbbe3ed">SelectAndActivateButton</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-selectandactivatebutton">SelectAndActivateButton</a>
 </td>
 <td align="left" width="63%">
 Selects and activates the specified menu button.
@@ -244,7 +244,7 @@ Selects and activates the specified menu button.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4acc06bc-efc3-46eb-bb71-4eb981048b36">SelectAngle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-selectangle">SelectAngle</a>
 </td>
 <td align="left" width="63%">
 Sets the new angle when the DVD Navigator is in an angle block.
@@ -253,7 +253,7 @@ Sets the new angle when the DVD Navigator is in an angle block.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f6cb9cb4-0792-43f5-b53b-02a38ccf0398">SelectAtPosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-selectatposition">SelectAtPosition</a>
 </td>
 <td align="left" width="63%">
 Highlights the menu button under the mouse pointer position.
@@ -262,7 +262,7 @@ Highlights the menu button under the mouse pointer position.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/845d00d5-3698-4cf5-bae4-abb9529c3f88">SelectAudioStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-selectaudiostream">SelectAudioStream</a>
 </td>
 <td align="left" width="63%">
 Selects the audio stream to play.
@@ -271,7 +271,7 @@ Selects the audio stream to play.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b2903a76-2888-4f0e-b23e-36d7488c837b">SelectButton</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-selectbutton">SelectButton</a>
 </td>
 <td align="left" width="63%">
 Selects the specified menu button.
@@ -280,7 +280,7 @@ Selects the specified menu button.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1f5cf846-6f14-4c17-bd01-6a8ecb46fdab">SelectDefaultAudioLanguage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-selectdefaultaudiolanguage">SelectDefaultAudioLanguage</a>
 </td>
 <td align="left" width="63%">
 Sets the default audio language.
@@ -289,7 +289,7 @@ Sets the default audio language.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f45d71e5-d125-477b-8fdf-f719a6c20101">SelectDefaultMenuLanguage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-selectdefaultmenulanguage">SelectDefaultMenuLanguage</a>
 </td>
 <td align="left" width="63%">
 Sets the default language for all menus and menu buttons.
@@ -298,7 +298,7 @@ Sets the default language for all menus and menu buttons.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f49698cd-cc83-4f05-991d-2b3bba77c33a">SelectDefaultSubpictureLanguage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-selectdefaultsubpicturelanguage">SelectDefaultSubpictureLanguage</a>
 </td>
 <td align="left" width="63%">
 Sets the default language for subpicture text.
@@ -307,7 +307,7 @@ Sets the default language for subpicture text.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9101fd83-1349-4cdd-b5e9-6daeb7d1e3d8">SelectKaraokeAudioPresentationMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-selectkaraokeaudiopresentationmode">SelectKaraokeAudioPresentationMode</a>
 </td>
 <td align="left" width="63%">
 Sends karaoke auxiliary channels to the left or right speaker.
@@ -316,7 +316,7 @@ Sends karaoke auxiliary channels to the left or right speaker.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fb0b3fa9-c6e5-49a4-bec7-1e4e7d07ba46">SelectParentalCountry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-selectparentalcountry">SelectParentalCountry</a>
 </td>
 <td align="left" width="63%">
 Sets the country/region for interpreting parental access levels and setting default languages.
@@ -325,7 +325,7 @@ Sets the country/region for interpreting parental access levels and setting defa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c87f8b12-0c14-4d3a-ac79-98577607d053">SelectParentalLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-selectparentallevel">SelectParentalLevel</a>
 </td>
 <td align="left" width="63%">
 Sets the parental access level for the logged-on user.
@@ -334,7 +334,7 @@ Sets the parental access level for the logged-on user.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2eb6243a-6f69-45d2-9b72-2dd28d02e86d">SelectRelativeButton</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-selectrelativebutton">SelectRelativeButton</a>
 </td>
 <td align="left" width="63%">
 Selects the specified relative button (upper, lower, right, left).
@@ -343,7 +343,7 @@ Selects the specified relative button (upper, lower, right, left).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0553a0c4-34d3-4774-9a22-acc01c0a832a">SelectSubpictureStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-selectsubpicturestream">SelectSubpictureStream</a>
 </td>
 <td align="left" width="63%">
 Sets the subpicture stream to display.
@@ -352,7 +352,7 @@ Sets the subpicture stream to display.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d970f48e-374f-43de-a59c-6c2e70161f55">SelectVideoModePreference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-selectvideomodepreference">SelectVideoModePreference</a>
 </td>
 <td align="left" width="63%">
 Sets the video mode display for subsequent playback—wide screen, letterbox, or pan-scan.
@@ -361,7 +361,7 @@ Sets the video mode display for subsequent playback—wide screen, letterbox, or
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fa64a614-14cb-4ea9-a005-0e738490b6d6">SetDVDDirectory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-setdvddirectory">SetDVDDirectory</a>
 </td>
 <td align="left" width="63%">
 Sets the DVD drive that the DVD Navigator will read from.
@@ -370,7 +370,7 @@ Sets the DVD drive that the DVD Navigator will read from.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/192bbf1d-a5de-4acf-b8d6-8a5f733da3a6">SetGPRM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-setgprm">SetGPRM</a>
 </td>
 <td align="left" width="63%">
 Sets a general parameter register value.
@@ -379,7 +379,7 @@ Sets a general parameter register value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b3b28da8-b0cb-4d76-8184-93572e4b6d06">SetOption</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-setoption">SetOption</a>
 </td>
 <td align="left" width="63%">
 Enables or disables a DVD Navigator internal behavioral flag.
@@ -388,7 +388,7 @@ Enables or disables a DVD Navigator internal behavioral flag.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3941b469-46f3-4499-9062-81a873a36292">SetState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-setstate">SetState</a>
 </td>
 <td align="left" width="63%">
 Saves the current disc position and state of the DVD Navigator for retrieval at a later time.
@@ -397,7 +397,7 @@ Saves the current disc position and state of the DVD Navigator for retrieval at 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2e654bc1-293b-436b-bc33-8a8f269e9aee">SetSubpictureState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-setsubpicturestate">SetSubpictureState</a>
 </td>
 <td align="left" width="63%">
 Turns the subpicture display on or off.
@@ -406,7 +406,7 @@ Turns the subpicture display on or off.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7427ff6c-875b-40ce-aa96-3d32b607dc56">ShowMenu</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-showmenu">ShowMenu</a>
 </td>
 <td align="left" width="63%">
 Displays the specified menu, if available.
@@ -415,7 +415,7 @@ Displays the specified menu, if available.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6c419a3b-482a-4b1b-afea-6cbf9373c5b9">StillOff</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-stilloff">StillOff</a>
 </td>
 <td align="left" width="63%">
 Resumes playback, canceling still mode.
@@ -424,7 +424,7 @@ Resumes playback, canceling still mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9c1ebe2b-c40a-410f-a4a5-ad79350a27dd">Stop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-stop">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops playback of a title or menu by moving the DVD Navigator into the DVD Stop domain.
@@ -439,7 +439,7 @@ Stops playback of a title or menu by moving the DVD Navigator into the DVD Stop 
 
 
 
-<a href="https://msdn.microsoft.com/6f41e0f1-e550-4ca6-9a80-ce4d498289e2">DVD Applications</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
  
 
  

@@ -77,7 +77,7 @@ The objects in the referenced tracking information collections are components.
 
 
 
-<a href="https://msdn.microsoft.com/7caa0fd3-a42c-43ea-849d-aa2c4ed1c628">IComTrackingInfoCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icomtrackinginfocollection">IComTrackingInfoCollection</a>
  
 
  

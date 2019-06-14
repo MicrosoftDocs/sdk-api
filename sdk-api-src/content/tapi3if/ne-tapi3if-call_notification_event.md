@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>CALL_NOTIFICATION_EVENT</b> enum describes call notification events. The 
-<a href="https://msdn.microsoft.com/08a3925c-e14e-442e-952e-483fc41d049c">ITCallNotificationEvent::get_Event</a> method returns a member of this enum to indicate the type of call notification event that occurred.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallnotificationevent-get_event">ITCallNotificationEvent::get_Event</a> method returns a member of this enum to indicate the type of call notification event that occurred.
 
 
 ## -enum-fields
@@ -79,11 +79,11 @@ The current application is monitoring the call on which the event occurred.
 
 
 
-<a href="https://msdn.microsoft.com/d0ea4f7a-7b50-4610-ae17-957c0c1891e1">ITCallNotificationEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallnotificationevent">ITCallNotificationEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/08a3925c-e14e-442e-952e-483fc41d049c">ITCallNotificationEvent::get_Event</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallnotificationevent-get_event">ITCallNotificationEvent::get_Event</a>
  
 
  

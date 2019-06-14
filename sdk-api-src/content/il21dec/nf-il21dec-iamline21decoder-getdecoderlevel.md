@@ -63,7 +63,7 @@ The <code>GetDecoderLevel</code> method retrieves the closed-captioned decoder l
 
 ### -param lpLevel
 
-Pointer to a variable that receives a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd373473(v=VS.85).aspx">AM_LINE21_CCLEVEL</a> enumeration. The returned value is always <b>AM_L21_CCLEVEL_TC2</b> (TeleCaption II).
+Pointer to a variable that receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/il21dec/ne-il21dec-_am_line21_cclevel">AM_LINE21_CCLEVEL</a> enumeration. The returned value is always <b>AM_L21_CCLEVEL_TC2</b> (TeleCaption II).
 
 
 ## -returns
@@ -109,7 +109,7 @@ Success
 
 
 
-TeleCaption I and TeleCaption II are standards for closed caption decoders. The <a href="https://msdn.microsoft.com/48fa5484-1f8c-4133-b2e1-888cb1834402">Line 21 Decoder</a> filter supports TeleCaption II, which is backward compatible with TeleCaption I.
+TeleCaption I and TeleCaption II are standards for closed caption decoders. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/line-21-decoder-filter">Line 21 Decoder</a> filter supports TeleCaption II, which is backward compatible with TeleCaption I.
 
 
 
@@ -119,11 +119,11 @@ TeleCaption I and TeleCaption II are standards for closed caption decoders. The 
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389385(v=VS.85).aspx">IAMLine21Decoder Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder">IAMLine21Decoder Interface</a>
  
 
  

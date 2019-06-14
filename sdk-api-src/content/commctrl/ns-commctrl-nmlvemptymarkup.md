@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information used with the <a href="https://msdn.microsoft.com/en-us/library/Bb774833(v=VS.85).aspx">LVN_GETEMPTYMARKUP</a> notification code. 
+Contains information used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvn-getemptymarkup">LVN_GETEMPTYMARKUP</a> notification code. 
 
 
 
@@ -60,14 +60,14 @@ Contains information used with the <a href="https://msdn.microsoft.com/en-us/lib
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
 
 Info on the notification message.
 
 
 ### -field dwFlags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 One of the following values. If <b>NULL</b>, markup is rendered left-justified in the listview area.
 
@@ -92,7 +92,7 @@ Render markup centered in the listview area.
 
 ### -field szMarkup
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WCHAR</a>[L_MAX_URL_LENGTH]</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WCHAR</a>[L_MAX_URL_LENGTH]</b>
 
 Markup to display.
 

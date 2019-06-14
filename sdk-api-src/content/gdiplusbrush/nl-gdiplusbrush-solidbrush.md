@@ -49,5 +49,5 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SolidBrush</b> class defines a solid color <a href="https://msdn.microsoft.com/en-us/library/ms534424(v=VS.85).aspx">Brush</a> object. A <b>Brush</b> object is used to fill in shapes similar to the way a paint brush can paint the inside of a shape. This class inherits from the <b>Brush</b> abstract base class.
+The <b>SolidBrush</b> class defines a solid color <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a> object. A <b>Brush</b> object is used to fill in shapes similar to the way a paint brush can paint the inside of a shape. This class inherits from the <b>Brush</b> abstract base class.
 

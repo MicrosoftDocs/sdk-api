@@ -61,7 +61,7 @@ Gets the options for the desktop item.
 
 Type: <b>LPCOMPONENTSOPT</b>
 
-The address of the <a href="https://msdn.microsoft.com/c56a2061-903a-4777-a3fc-bb1fae1f8c43">COMPONENTSOPT</a> structure containing the options that are currently set. 
+The address of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcomponentsopt">COMPONENTSOPT</a> structure containing the options that are currently set. 
 
 
 ### -param dwReserved
@@ -87,7 +87,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/4d572b86-36e8-417b-857c-eb477c04c691">IActiveDesktop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>
  
 
  

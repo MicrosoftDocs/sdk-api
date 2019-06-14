@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 The 
 <b>GetComponent</b> method returns an 
-<a href="https://msdn.microsoft.com/c686a424-b0b9-4efc-8dc6-b92193de2a5d">IVssComponent</a> interface to one of a given writer's components explicitly stored in the Backup Components Document.
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a> interface to one of a given writer's components explicitly stored in the Backup Components Document.
 
 
 ## -parameters
@@ -64,13 +64,13 @@ The
 
 Number of the component. The value of this parameter is an integer from 0 
       to <i>n</i>–1 inclusive, where <i>n</i> is the total number of components returned by 
-<a href="https://msdn.microsoft.com/ec89438f-4811-42f7-bda0-6df6d1b98f18">IVssWriterComponents::GetComponentCount</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsswritercomponents-getcomponentcount">IVssWriterComponents::GetComponentCount</a>.
 
 
 ### -param ppComponent [out]
 
 Doubly indirect pointer to an instance of the 
-<a href="https://msdn.microsoft.com/c686a424-b0b9-4efc-8dc6-b92193de2a5d">IVssComponent</a> object that contains component information.
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a> object that contains component information.
 
 
 ## -returns
@@ -138,8 +138,8 @@ The specified component was not found.
 
 
 
-The caller is responsible for calling <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> to release system resources held by the returned 
-<a href="https://msdn.microsoft.com/c686a424-b0b9-4efc-8dc6-b92193de2a5d">IVssComponent</a> object.
+The caller is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> to release system resources held by the returned 
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a> object.
 
 
 
@@ -149,7 +149,7 @@ The caller is responsible for calling <a href="https://msdn.microsoft.com/en-us/
 
 
 
-<a href="https://msdn.microsoft.com/e8ff2491-014c-43c7-bdce-99ed3b408605">IVssWriterComponents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswritercomponents">IVssWriterComponents</a>
  
 
  

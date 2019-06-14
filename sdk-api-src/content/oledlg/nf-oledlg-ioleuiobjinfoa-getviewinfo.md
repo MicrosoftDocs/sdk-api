@@ -155,11 +155,11 @@ You must fill in the object's current icon, aspect, and scale.
 
 
 
-<a href="https://msdn.microsoft.com/508dccb3-e98b-4f62-8bc3-98ca2b0d1349">IOleUIObjInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nn-oledlg-ioleuiobjinfoa">IOleUIObjInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/e45565c5-185e-4143-a5c2-d0b273b5086e">OLEUIVIEWPROPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuiviewpropsa">OLEUIVIEWPROPS</a>
  
 
  

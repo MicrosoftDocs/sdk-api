@@ -60,7 +60,7 @@ Gets the stream source frequency divider value.
 
 ### -param StreamNumber [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Stream source number.
 
@@ -74,7 +74,7 @@ TBD
 
 #### - Divider [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
 Returns the frequency divider value.
 
@@ -83,7 +83,7 @@ Returns the frequency divider value.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 
@@ -94,7 +94,7 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-Vertex shaders can now be invoked more than once per vertex. See <a href="https://msdn.microsoft.com/en-us/library/Bb173349(v=VS.85).aspx">Drawing Non-Indexed Geometry</a>.
+Vertex shaders can now be invoked more than once per vertex. See <a href="https://docs.microsoft.com/windows/desktop/direct3d9/efficiently-drawing-multiple-instances-of-geometry">Drawing Non-Indexed Geometry</a>.
 
 
 
@@ -104,11 +104,11 @@ Vertex shaders can now be invoked more than once per vertex. See <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174460(v=VS.85).aspx">IDirect3DDevice9::SetStreamSourceFreq</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setstreamsourcefreq">IDirect3DDevice9::SetStreamSourceFreq</a>
  
 
  

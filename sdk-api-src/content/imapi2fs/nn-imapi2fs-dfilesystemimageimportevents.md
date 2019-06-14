@@ -54,7 +54,7 @@ Use this interface to receives notifications regarding the current file system i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">DFileSystemImageImportEvents</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>DFileSystemImageImportEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">DFileSystemImageImportEvents</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>DFileSystemImageImportEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>DFileSystemImageImportEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/83617039-686d-4c03-9f43-02ecde2ca53e">UpdateImport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-dfilesystemimageimportevents-updateimport">UpdateImport</a>
 </td>
 <td align="left" width="63%">
 When implemented, receives import notification for every file and directory item imported from an optical medium.
@@ -93,7 +93,7 @@ This interface supports import notifications for ISO9660, Joliet and UDF file sy
 
 
 
-<a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

@@ -50,29 +50,29 @@ ms.custom: 19H1
 
 
 <p class="CCE_Message">[This interface is supported for compatibility but it's recommended to use the 
-    <a href="https://msdn.microsoft.com/1CE772FA-CE33-4900-A499-058175A7C37E">FSRM WMI Classes</a> to manage FSRM. Please see the 
-    <a href="https://msdn.microsoft.com/3941d07c-67e3-4763-8113-31fc156c9bd0">MSFT_FSRMAutoQuota</a> class.]
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmautoquota">MSFT_FSRMAutoQuota</a> class.]
 
 Used to automatically add the quota to new and existing subdirectories of the directory on which the 
     automatic quota is applied.
 
 To create an automatic quota, call the 
-    <a href="https://msdn.microsoft.com/faaa55ca-a0b1-4cd4-9c73-20d80879b10c">IFsrmQuotaManager::CreateAutoApplyQuota</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-createautoapplyquota">IFsrmQuotaManager::CreateAutoApplyQuota</a> 
     method.
 
 To retrieve this interface to an existing automatic quota, call one of the following methods:
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/6542bc4e-535f-4e6c-aaa8-ba6963490811">IFsrmQuotaManager::EnumAutoApplyQuotas</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-enumautoapplyquotas">IFsrmQuotaManager::EnumAutoApplyQuotas</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/e6a4645c-c323-4c28-a284-9ebb677aeebb">IFsrmQuotaManager::GetAutoApplyQuota</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-getautoapplyquota">IFsrmQuotaManager::GetAutoApplyQuota</a>
 </li>
 </ul>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmAutoApplyQuota</b> interface inherits from <a href="https://msdn.microsoft.com/80c01faf-717e-4375-8772-c61f04a7d7f3">IFsrmQuotaObject</a>. <b>IFsrmAutoApplyQuota</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmAutoApplyQuota</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nn-fsrmquota-ifsrmquotaobject">IFsrmQuotaObject</a>. <b>IFsrmAutoApplyQuota</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -88,7 +88,7 @@ The <b>IFsrmAutoApplyQuota</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f988b78d-214a-4f4f-81d4-d7f59fecb02a">CommitAndUpdateDerived</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmautoapplyquota-commitandupdatederived">CommitAndUpdateDerived</a>
 </td>
 <td align="left" width="63%">
 Saves the quota and then applies any changes to the derived quota objects.
@@ -106,7 +106,7 @@ Saves the quota and then applies any changes to the derived quota objects.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/1682e53c-f494-4fa4-b192-203b76e47394">ExcludeFolders</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmautoapplyquota-get_excludefolders">ExcludeFolders</a>
 
 
 </td>
@@ -128,16 +128,16 @@ Retrieves or sets an array of subdirectories to exclude from the automatic quota
 
 To change the properties of an automatic quota, change the properties of the template from which the automatic 
     quota is derived. Then call the 
-    <a href="https://msdn.microsoft.com/fecb034f-3f11-4d37-9468-56d4ea6268e7">IFsrmQuotaTemplate::CommitAndUpdateDerived</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotatemplate-commitandupdatederived">IFsrmQuotaTemplate::CommitAndUpdateDerived</a> 
     method to update the properties of the automatic quotas and the quotas that derive from the automatic quota.
 
 If any quota under the automatic quota's path was changed to a different template, it will not be changed to 
     the automatic quota's new settings until you call the 
-    <a href="https://msdn.microsoft.com/f988b78d-214a-4f4f-81d4-d7f59fecb02a">IFsrmAutoApplyQuota::CommitAndUpdateDerived</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmautoapplyquota-commitandupdatederived">IFsrmAutoApplyQuota::CommitAndUpdateDerived</a> 
     method.
 
 Changes made to the automatic quota are reflected in new quotas only after the automatic quota is 
-    <a href="https://msdn.microsoft.com/81c9b1db-7756-47b2-98e6-8e819d93cd0f">committed</a>.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmobject-commit">committed</a>.
 
 
 
@@ -147,15 +147,15 @@ Changes made to the automatic quota are reflected in new quotas only after the a
 
 
 
-<a href="https://msdn.microsoft.com/09f0b952-e24f-4388-8e82-6b34145f9ad4">IFsrmQuotaManager::CreateQuota</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-createquota">IFsrmQuotaManager::CreateQuota</a>
 
 
 
-<a href="https://msdn.microsoft.com/80c01faf-717e-4375-8772-c61f04a7d7f3">IFsrmQuotaObject</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nn-fsrmquota-ifsrmquotaobject">IFsrmQuotaObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/3941d07c-67e3-4763-8113-31fc156c9bd0">MSFT_FSRMAutoQuota</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmautoquota">MSFT_FSRMAutoQuota</a>
  
 
  

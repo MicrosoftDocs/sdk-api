@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-This property can be used to access the edge properties of a firewall rule defined by <a href="https://msdn.microsoft.com/69efe4d1-3614-4e6f-9bc1-4bacb9a7a8eb">NET_FW_EDGE_TRAVERSAL_TYPE</a>.
+This property can be used to access the edge properties of a firewall rule defined by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icftypes/ne-icftypes-net_fw_edge_traversal_type_">NET_FW_EDGE_TRAVERSAL_TYPE</a>.
 
 This property is read/write.
 
@@ -64,11 +64,11 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/35c28180-b60c-4dc1-81ce-0ce012f96525">INetFwRule2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule2">INetFwRule2</a>
 
 
 
-<a href="https://msdn.microsoft.com/69efe4d1-3614-4e6f-9bc1-4bacb9a7a8eb">NET_FW_EDGE_TRAVERSAL_TYPE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icftypes/ne-icftypes-net_fw_edge_traversal_type_">NET_FW_EDGE_TRAVERSAL_TYPE</a>
  
 
  

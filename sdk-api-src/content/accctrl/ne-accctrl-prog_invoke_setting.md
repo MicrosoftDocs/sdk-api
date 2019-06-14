@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PROG_INVOKE_SETTING</b> enumeration indicates the initial setting of the function used to track the progress of a call to the <a href="https://msdn.microsoft.com/caa711c3-301b-4ed7-b1f4-dc6a48563905">TreeSetNamedSecurityInfo</a> or <a href="https://msdn.microsoft.com/adae7d07-a452-409e-b1a1-e9f86f873e39">TreeResetNamedSecurityInfo</a> function.
+The <b>PROG_INVOKE_SETTING</b> enumeration indicates the initial setting of the function used to track the progress of a call to the <a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-treesetnamedsecurityinfoa">TreeSetNamedSecurityInfo</a> or <a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-treeresetnamedsecurityinfoa">TreeResetNamedSecurityInfo</a> function.
 
 
 ## -enum-fields

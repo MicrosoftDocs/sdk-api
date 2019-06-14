@@ -72,7 +72,7 @@ A pointer to a <b>null</b>-terminated string of maximum length MAX_PATH that con
     
     					
 
-If the <i>uFlags</i> parameter includes the <b>SHGFI_PIDL</b> flag, this parameter must be the address of an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> (PIDL) structure that contains the list of item identifiers that uniquely identifies the file within the Shell's namespace. The PIDL must be a fully qualified PIDL. Relative PIDLs are not allowed.
+If the <i>uFlags</i> parameter includes the <b>SHGFI_PIDL</b> flag, this parameter must be the address of an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> (PIDL) structure that contains the list of item identifiers that uniquely identifies the file within the Shell's namespace. The PIDL must be a fully qualified PIDL. Relative PIDLs are not allowed.
 
 If the <i>uFlags</i> parameter includes the <b>SHGFI_USEFILEATTRIBUTES</b> flag, this parameter does not have to be a valid file name. The function will proceed as if the file exists with the specified name and with the file attributes passed in the <i>dwFileAttributes</i> parameter. This allows you to obtain information about a file type by passing just the extension for <i>pszPath</i> and passing <b>FILE_ATTRIBUTE_NORMAL</b> in <i>dwFileAttributes</i>.
 
@@ -83,21 +83,21 @@ This string can use either short (the 8.3 form) or long file names.
 
 Type: <b>DWORD</b>
 
-A combination of one or more <a href="https://msdn.microsoft.com/f6eaea8a-0cc2-4fb6-bec5-7fb12b20c075">file attribute flags</a> (FILE_ATTRIBUTE_ values as defined in Winnt.h). If <i>uFlags</i> does not include the <b>SHGFI_USEFILEATTRIBUTES</b> flag, this parameter is ignored.
+A combination of one or more <a href="https://docs.microsoft.com/windows/desktop/FileIO/retrieving-and-changing-file-attributes">file attribute flags</a> (FILE_ATTRIBUTE_ values as defined in Winnt.h). If <i>uFlags</i> does not include the <b>SHGFI_USEFILEATTRIBUTES</b> flag, this parameter is ignored.
 
 
 ### -param psfi [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/9dbf873a-b447-4579-961e-20f2a64c87fe">SHFILEINFO</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shfileinfoa">SHFILEINFO</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/9dbf873a-b447-4579-961e-20f2a64c87fe">SHFILEINFO</a> structure to receive the file information.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shfileinfoa">SHFILEINFO</a> structure to receive the file information.
 
 
 ### -param cbFileInfo
 
 Type: <b>UINT</b>
 
-The size, in bytes, of the <a href="https://msdn.microsoft.com/9dbf873a-b447-4579-961e-20f2a64c87fe">SHFILEINFO</a> structure pointed to by the <i>psfi</i> parameter.
+The size, in bytes, of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shfileinfoa">SHFILEINFO</a> structure pointed to by the <i>psfi</i> parameter.
 
 
 ### -param uFlags
@@ -111,19 +111,19 @@ The flags that specify the file information to retrieve. This parameter can be a
 #### SHGFI_ADDOVERLAYS (0x000000020)
 
 
-<a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Version 5.0</a>. Apply the appropriate overlays to the file's icon. The <b>SHGFI_ICON</b> flag must also be set.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a>. Apply the appropriate overlays to the file's icon. The <b>SHGFI_ICON</b> flag must also be set.
 
 
 
 #### SHGFI_ATTR_SPECIFIED (0x000020000)
 
-Modify <b>SHGFI_ATTRIBUTES</b> to indicate that the <b>dwAttributes</b> member of the <a href="https://msdn.microsoft.com/9dbf873a-b447-4579-961e-20f2a64c87fe">SHFILEINFO</a> structure at <i>psfi</i> contains the specific attributes that are desired. These attributes are passed to <a href="https://msdn.microsoft.com/3864b386-7653-4661-880c-e96c08ff0dbb">IShellFolder::GetAttributesOf</a>. If this flag is not specified, 0xFFFFFFFF is passed to <b>IShellFolder::GetAttributesOf</b>, requesting all attributes. This flag cannot be specified with the <b>SHGFI_ICON</b> flag.
+Modify <b>SHGFI_ATTRIBUTES</b> to indicate that the <b>dwAttributes</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shfileinfoa">SHFILEINFO</a> structure at <i>psfi</i> contains the specific attributes that are desired. These attributes are passed to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">IShellFolder::GetAttributesOf</a>. If this flag is not specified, 0xFFFFFFFF is passed to <b>IShellFolder::GetAttributesOf</b>, requesting all attributes. This flag cannot be specified with the <b>SHGFI_ICON</b> flag.
 
 
 
 #### SHGFI_ATTRIBUTES (0x000000800)
 
-Retrieve the item attributes. The attributes are copied to the <b>dwAttributes</b> member of the structure specified in the <i>psfi</i> parameter. These are the same attributes that are obtained from <a href="https://msdn.microsoft.com/3864b386-7653-4661-880c-e96c08ff0dbb">IShellFolder::GetAttributesOf</a>.
+Retrieve the item attributes. The attributes are copied to the <b>dwAttributes</b> member of the structure specified in the <i>psfi</i> parameter. These are the same attributes that are obtained from <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">IShellFolder::GetAttributesOf</a>.
 
 
 
@@ -147,7 +147,7 @@ Retrieve the handle to the icon that represents the file and the index of the ic
 
 #### SHGFI_ICONLOCATION (0x000001000)
 
-Retrieve the name of the file that contains the icon representing the file specified by <i>pszPath</i>, as returned by the <a href="https://msdn.microsoft.com/56138982-c062-4b07-aea7-6023037451fe">IExtractIcon::GetIconLocation</a> method of the file's icon handler. Also retrieve the icon index within that file. The name of the file containing the icon is copied to the <b>szDisplayName</b> member of the structure specified by <i>psfi</i>. The icon's index is copied to that structure's <b>iIcon</b> member.
+Retrieve the name of the file that contains the icon representing the file specified by <i>pszPath</i>, as returned by the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iextracticona-geticonlocation">IExtractIcon::GetIconLocation</a> method of the file's icon handler. Also retrieve the icon index within that file. The name of the file containing the icon is copied to the <b>szDisplayName</b> member of the structure specified by <i>psfi</i>. The icon's index is copied to that structure's <b>iIcon</b> member.
 
 
 
@@ -172,13 +172,13 @@ Modify <b>SHGFI_ICON</b>, causing the function to retrieve the file's open icon.
 #### SHGFI_OVERLAYINDEX (0x000000040)
 
 
-<a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Version 5.0</a>. Return the index of the overlay icon. The value of the overlay index is returned in the upper eight bits of the <b>iIcon</b> member of the structure specified by <i>psfi</i>. This flag requires that the <b>SHGFI_ICON</b> be set as well.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a>. Return the index of the overlay icon. The value of the overlay index is returned in the upper eight bits of the <b>iIcon</b> member of the structure specified by <i>psfi</i>. This flag requires that the <b>SHGFI_ICON</b> be set as well.
 
 
 
 #### SHGFI_PIDL (0x000000008)
 
-Indicate that <i>pszPath</i> is the address of an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure rather than a path name.
+Indicate that <i>pszPath</i> is the address of an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure rather than a path name.
 
 
 
@@ -220,17 +220,17 @@ Indicates that the function should not attempt to access the file specified by <
 ##### - uFlags.SHGFI_ADDOVERLAYS (0x000000020)
 
 
-<a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Version 5.0</a>. Apply the appropriate overlays to the file's icon. The <b>SHGFI_ICON</b> flag must also be set.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a>. Apply the appropriate overlays to the file's icon. The <b>SHGFI_ICON</b> flag must also be set.
 
 
 ##### - uFlags.SHGFI_ATTRIBUTES (0x000000800)
 
-Retrieve the item attributes. The attributes are copied to the <b>dwAttributes</b> member of the structure specified in the <i>psfi</i> parameter. These are the same attributes that are obtained from <a href="https://msdn.microsoft.com/3864b386-7653-4661-880c-e96c08ff0dbb">IShellFolder::GetAttributesOf</a>.
+Retrieve the item attributes. The attributes are copied to the <b>dwAttributes</b> member of the structure specified in the <i>psfi</i> parameter. These are the same attributes that are obtained from <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">IShellFolder::GetAttributesOf</a>.
 
 
 ##### - uFlags.SHGFI_ATTR_SPECIFIED (0x000020000)
 
-Modify <b>SHGFI_ATTRIBUTES</b> to indicate that the <b>dwAttributes</b> member of the <a href="https://msdn.microsoft.com/9dbf873a-b447-4579-961e-20f2a64c87fe">SHFILEINFO</a> structure at <i>psfi</i> contains the specific attributes that are desired. These attributes are passed to <a href="https://msdn.microsoft.com/3864b386-7653-4661-880c-e96c08ff0dbb">IShellFolder::GetAttributesOf</a>. If this flag is not specified, 0xFFFFFFFF is passed to <b>IShellFolder::GetAttributesOf</b>, requesting all attributes. This flag cannot be specified with the <b>SHGFI_ICON</b> flag.
+Modify <b>SHGFI_ATTRIBUTES</b> to indicate that the <b>dwAttributes</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shfileinfoa">SHFILEINFO</a> structure at <i>psfi</i> contains the specific attributes that are desired. These attributes are passed to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">IShellFolder::GetAttributesOf</a>. If this flag is not specified, 0xFFFFFFFF is passed to <b>IShellFolder::GetAttributesOf</b>, requesting all attributes. This flag cannot be specified with the <b>SHGFI_ICON</b> flag.
 
 
 ##### - uFlags.SHGFI_DISPLAYNAME (0x000000200)
@@ -250,7 +250,7 @@ Retrieve the handle to the icon that represents the file and the index of the ic
 
 ##### - uFlags.SHGFI_ICONLOCATION (0x000001000)
 
-Retrieve the name of the file that contains the icon representing the file specified by <i>pszPath</i>, as returned by the <a href="https://msdn.microsoft.com/56138982-c062-4b07-aea7-6023037451fe">IExtractIcon::GetIconLocation</a> method of the file's icon handler. Also retrieve the icon index within that file. The name of the file containing the icon is copied to the <b>szDisplayName</b> member of the structure specified by <i>psfi</i>. The icon's index is copied to that structure's <b>iIcon</b> member.
+Retrieve the name of the file that contains the icon representing the file specified by <i>pszPath</i>, as returned by the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iextracticona-geticonlocation">IExtractIcon::GetIconLocation</a> method of the file's icon handler. Also retrieve the icon index within that file. The name of the file containing the icon is copied to the <b>szDisplayName</b> member of the structure specified by <i>psfi</i>. The icon's index is copied to that structure's <b>iIcon</b> member.
 
 
 ##### - uFlags.SHGFI_LARGEICON (0x000000000)
@@ -271,12 +271,12 @@ Modify <b>SHGFI_ICON</b>, causing the function to retrieve the file's open icon.
 ##### - uFlags.SHGFI_OVERLAYINDEX (0x000000040)
 
 
-<a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Version 5.0</a>. Return the index of the overlay icon. The value of the overlay index is returned in the upper eight bits of the <b>iIcon</b> member of the structure specified by <i>psfi</i>. This flag requires that the <b>SHGFI_ICON</b> be set as well.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a>. Return the index of the overlay icon. The value of the overlay index is returned in the upper eight bits of the <b>iIcon</b> member of the structure specified by <i>psfi</i>. This flag requires that the <b>SHGFI_ICON</b> be set as well.
 
 
 ##### - uFlags.SHGFI_PIDL (0x000000008)
 
-Indicate that <i>pszPath</i> is the address of an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure rather than a path name.
+Indicate that <i>pszPath</i> is the address of an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure rather than a path name.
 
 
 ##### - uFlags.SHGFI_SELECTED (0x000010000)
@@ -384,13 +384,13 @@ Console application or .bat file
 
 You should call this function from a background thread. Failure to do so could cause the UI to stop responding.
 
-If <b>SHGetFileInfo</b> returns an icon handle in the <b>hIcon</b> member of the <a href="https://msdn.microsoft.com/9dbf873a-b447-4579-961e-20f2a64c87fe">SHFILEINFO</a> structure pointed to by <i>psfi</i>, you are responsible for freeing it with <a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a> when you no longer need it.
+If <b>SHGetFileInfo</b> returns an icon handle in the <b>hIcon</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shfileinfoa">SHFILEINFO</a> structure pointed to by <i>psfi</i>, you are responsible for freeing it with <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> when you no longer need it.
 
-<div class="alert"><b>Note</b>  Once you have a handle to a system image list, you can use the <a href="https://msdn.microsoft.com/en-us/library/Bb761389(v=VS.85).aspx">Image List API</a> to manipulate it like any other image list. Because system image lists are created on a per-process basis, you should treat them as read-only objects. Writing to a system image list may overwrite or delete one of the system images, making it unavailable or incorrect for the remainder of the process.</div>
+<div class="alert"><b>Note</b>  Once you have a handle to a system image list, you can use the <a href="https://docs.microsoft.com/windows/desktop/Controls/image-lists">Image List API</a> to manipulate it like any other image list. Because system image lists are created on a per-process basis, you should treat them as read-only objects. Writing to a system image list may overwrite or delete one of the system images, making it unavailable or incorrect for the remainder of the process.</div>
 <div> </div>
-You must initialize Component Object Model (COM) with <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> prior to calling <b>SHGetFileInfo</b>.
+You must initialize Component Object Model (COM) with <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleinitialize">OleInitialize</a> prior to calling <b>SHGetFileInfo</b>.
 
-When you use the <b>SHGFI_EXETYPE</b> flag with a Windows application, the Windows version of the executable is given in the HIWORD of the return value. This version is returned as a hexadecimal value. For details on equating this value with a specific Windows version, see <a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+When you use the <b>SHGFI_EXETYPE</b> flag with a Windows application, the Windows version of the executable is given in the HIWORD of the return value. This version is returned as a hexadecimal value. For details on equating this value with a specific Windows version, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 #### Examples
@@ -429,7 +429,7 @@ ILFree(pidl);
 
 
 
-<a href="https://msdn.microsoft.com/4e661326-157e-4c75-86df-cd213e01c3e5">FileIconInit</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/fileiconinit">FileIconInit</a>
  
 
  

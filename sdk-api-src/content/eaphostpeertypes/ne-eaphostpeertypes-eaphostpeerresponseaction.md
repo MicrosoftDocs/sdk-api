@@ -105,7 +105,7 @@ The supplicant should invoke a user interface dialog on the client.
 
 
 
-<a href="https://msdn.microsoft.com/ba4d5a7f-3a5d-4ca3-975e-1ffa182b9014">EAPHost Supplicant Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-supplicant-enumerations">EAPHost Supplicant Enumerations</a>
  
 
  

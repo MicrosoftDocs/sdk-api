@@ -152,11 +152,11 @@ The version number is incremented every time there is a change in the set of fil
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/abca59f2-2134-4938-9933-bacaed771d0d">IGraphVersion Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphversion">IGraphVersion Interface</a>
  
 
  

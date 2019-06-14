@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> pointer that was previously stored in the media buffer object.
+Gets an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer that was previously stored in the media buffer object.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets an <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332
 
 ### -param guid [in]
 
-The identifier of the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> pointer.
+The identifier of the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer.
 
 
 ### -param riid [in]
@@ -127,11 +127,11 @@ The specified key was not found.
 
 
 
-<a href="https://msdn.microsoft.com/796D7755-275D-4A0B-A34F-5D34DCEC8AC7">IMFDXGIBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgibuffer">IMFDXGIBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/94BA5E48-FF89-48FA-BE0D-C158A5B4D4CF">IMFDXGIBuffer::SetUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgibuffer-setunknown">IMFDXGIBuffer::SetUnknown</a>
  
 
  

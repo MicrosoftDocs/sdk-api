@@ -78,11 +78,11 @@ The terminal can handle both directions of a media stream.
 
 
 
-<a href="https://msdn.microsoft.com/67f2f241-2389-476f-a412-af456c1c3376">ITPluggableTerminalClassRegistration::get_Direction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalclassregistration-get_direction">ITPluggableTerminalClassRegistration::get_Direction</a>
 
 
 
-<a href="https://msdn.microsoft.com/b68c0697-e889-471d-857a-d11e974c6552">ITPluggableTerminalClassRegistration::put_Direction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalclassregistration-put_direction">ITPluggableTerminalClassRegistration::put_Direction</a>
  
 
  

@@ -77,7 +77,7 @@ By default, Remote Desktop Connection Broker (RD Connection Broker) sets the fo
 
 
 
-<a href="https://msdn.microsoft.com/6649f43d-0e2a-42d7-8111-862bb28e3dbc">ITsSbClientConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbclientconnection">ITsSbClientConnection</a>
  
 
  

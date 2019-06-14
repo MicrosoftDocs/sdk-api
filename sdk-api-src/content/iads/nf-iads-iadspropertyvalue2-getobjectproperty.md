@@ -59,14 +59,14 @@ The <b>IADsPropertyValue2::GetObjectProperty</b> method retrieves an attribute v
 
 ### -param lnADsType [in, out]
 
-Pointer to a variable that, on entry, contains one of the <a href="https://msdn.microsoft.com/e601bae5-80bf-43f5-846f-11327889419a">ADSTYPEENUM</a> values that specifies the data format that the value should be returned.
+Pointer to a variable that, on entry, contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0001">ADSTYPEENUM</a> values that specifies the data format that the value should be returned.
 
-If the data type is not known, set this to <b>ADSTYPE_UNKNOWN</b>. In this case, this method will obtain the attribute value in the default data type and set this variable to the corresponding <a href="https://msdn.microsoft.com/e601bae5-80bf-43f5-846f-11327889419a">ADSTYPEENUM</a> value. If any other <b>ADSTYPEENUM</b> value is specified, ADSI will return the attribute value only if the data type matches the format of the value.
+If the data type is not known, set this to <b>ADSTYPE_UNKNOWN</b>. In this case, this method will obtain the attribute value in the default data type and set this variable to the corresponding <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0001">ADSTYPEENUM</a> value. If any other <b>ADSTYPEENUM</b> value is specified, ADSI will return the attribute value only if the data type matches the format of the value.
 
 
 ### -param pvProp [out]
 
-Pointer to a <b>VARIANT</b> that receives the requested attribute value. The variant type of this data will depend on the value returned in <i>lnADsType</i>. For more information and  a list of the <i>lnADsType</i> values and corresponding <i>pvProp</i> variant types, see <a href="https://msdn.microsoft.com/57a3b413-f658-4793-abad-358455b5b9f4">IADsPropertyValue2</a>.
+Pointer to a <b>VARIANT</b> that receives the requested attribute value. The variant type of this data will depend on the value returned in <i>lnADsType</i>. For more information and  a list of the <i>lnADsType</i> values and corresponding <i>pvProp</i> variant types, see <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertyvalue2">IADsPropertyValue2</a>.
 
 
 ## -returns
@@ -83,19 +83,19 @@ Returns <b>S_OK</b> if successful or one of the following error codes.
 
 
 
-<a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/e601bae5-80bf-43f5-846f-11327889419a">ADSTYPEENUM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0001">ADSTYPEENUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/7cad4d04-80d4-4f9a-95b7-2f1809ddb8fb">IADsPropertyValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertyvalue">IADsPropertyValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/57a3b413-f658-4793-abad-358455b5b9f4">IADsPropertyValue2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertyvalue2">IADsPropertyValue2</a>
  
 
  

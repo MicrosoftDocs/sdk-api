@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Announces the departure of a network host by sending a <a href="https://msdn.microsoft.com/7b9abfcc-28ab-4f29-af69-6dc68e3f51b6">Bye</a> message.
+Announces the departure of a network host by sending a <a href="https://docs.microsoft.com/windows/desktop/WsdApi/bye-message">Bye</a> message.
 
 
 ## -parameters
@@ -85,7 +85,7 @@ This parameter may be <b>NULL</b>.
 
 ### -param pAny [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/727149b4-31b0-4fd8-b0fa-eb773edb171e">WSDXML_ELEMENT</a> structure that contains an XML element  to be inserted in the "ANY" section of the message body.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_element">WSDXML_ELEMENT</a> structure that contains an XML element  to be inserted in the "ANY" section of the message body.
 
 
 ## -returns
@@ -133,7 +133,7 @@ One or more of the following conditions is true:
 </dl>
 </td>
 <td width="60%">
-The publisher has not been started. Attaching a notification sink starts the publisher. To attach a sink, call <a href="https://msdn.microsoft.com/75a6c593-298b-45b4-bde5-2a383b7581cc">RegisterNotificationSink</a>.
+The publisher has not been started. Attaching a notification sink starts the publisher. To attach a sink, call <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoverypublisher-registernotificationsink">RegisterNotificationSink</a>.
 
 </td>
 </tr>
@@ -168,7 +168,7 @@ If successful, <b>UnPublish</b> will send a WS-Discovery Bye message to the loca
 
 
 
-<a href="https://msdn.microsoft.com/4fff1328-d315-4a26-b7d8-43a273133e08">IWSDiscoveryPublisher</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublisher">IWSDiscoveryPublisher</a>
  
 
  

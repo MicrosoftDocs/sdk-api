@@ -59,7 +59,7 @@ Creates a copy of an existing safe array.
 
 ### -param psa [in]
 
-A safe array descriptor created by <a href="https://msdn.microsoft.com/5b94f1a2-a558-473f-85dd-9545c0464cc7">SafeArrayCreate</a>.
+A safe array descriptor created by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraycreate">SafeArrayCreate</a>.
 
 
 
@@ -132,15 +132,15 @@ Insufficient memory to complete the operation.
 
 
 
-<a href="https://msdn.microsoft.com/f98bff39-bc5f-4a81-85d7-d5228e20fbc8">SysAllocStringLen</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstringlen">SysAllocStringLen</a>
 
 
 
-<a href="https://msdn.microsoft.com/f6ddbe1f-37b0-44f1-a3f0-b7ef4df88f8a">VariantCopy</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantcopy">VariantCopy</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d9be6cd-92e5-485c-ba0d-8630d3e414b8">VariantCopyInd</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantcopyind">VariantCopyInd</a>
  
 
  

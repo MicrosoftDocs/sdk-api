@@ -72,7 +72,7 @@ The thread supports a message loop. This behavior is associated with single-thre
 
 
 
-<a href="https://msdn.microsoft.com/93437e45-f1e7-4f1f-bffb-ef234c7f5a6b">IComThreadingInfo::GetCurrentThreadType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-icomthreadinginfo-getcurrentthreadtype">IComThreadingInfo::GetCurrentThreadType</a>
  
 
  

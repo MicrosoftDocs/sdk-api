@@ -63,7 +63,7 @@ Specifies the number of elements to obtain.
 
 ### -param ppCand [out]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/82c77b59-a50c-42ae-ba1d-25a1c196662d">ITfCandidateString</a> interface pointers that receives the requested objects. This array must be at least <i>ulCount</i> elements in size.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatestring">ITfCandidateString</a> interface pointers that receives the requested objects. This array must be at least <i>ulCount</i> elements in size.
 
 
 ### -param pcFetched [out]
@@ -126,11 +126,11 @@ The method reached the end of the enumeration before the specified number of ele
 
 
 
-<a href="https://msdn.microsoft.com/4daef7e9-e5ab-4eb8-acb6-a475b84d4de6">IEnumTfCandidates</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-ienumtfcandidates">IEnumTfCandidates</a>
 
 
 
-<a href="https://msdn.microsoft.com/82c77b59-a50c-42ae-ba1d-25a1c196662d">ITfCandidateString
+<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatestring">ITfCandidateString
       </a>
  
 

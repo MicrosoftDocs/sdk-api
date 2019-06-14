@@ -63,7 +63,7 @@ The <code>FindUpstreamInterface</code> method searches the filter graph for a sp
 
 ### -param pPin [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/ad0ead4e-9f8e-4935-b220-306d665e50f4">IPin</a> interface of a pin. The pin must belong to a filter in the filter graph.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface of a pin. The pin must belong to a filter in the filter graph.
 
 
 ### -param riid [in]
@@ -78,7 +78,7 @@ Address of a void pointer. If the method succeeds, this variable receives a poin
 
 ### -param dwFlags [in]
 
-Combination of flags from the <a href="https://msdn.microsoft.com/090c19c8-eb38-4185-9f6b-169495f9ab27">AM_INTF_SEARCH_FLAGS</a> enumeration, specifying what to search (pins or filters).
+Combination of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-_am_intf_search_flags">AM_INTF_SEARCH_FLAGS</a> enumeration, specifying what to search (pins or filters).
 
 
 ## -returns
@@ -147,14 +147,14 @@ If <i>pPin</i> is an output pin, it queries the filter that owns <i>pPin</i>. Th
 To create a list of input pins with internal connections, the method does the following:
 
 <ul>
-<li>Calls <a href="https://msdn.microsoft.com/c0289b89-9220-402c-858c-09076e2ab6b6">IPin::QueryInternalConnections</a>.</li>
-<li>If that fails, calls <a href="https://msdn.microsoft.com/02675c93-7901-40f6-a9fc-f6f13f56acca">IBaseFilter::EnumPins</a> and looks for input pins.</li>
+<li>Calls <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-queryinternalconnections">IPin::QueryInternalConnections</a>.</li>
+<li>If that fails, calls <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ibasefilter-enumpins">IBaseFilter::EnumPins</a> and looks for input pins.</li>
 </ul>
 </li>
 </ol>
 It stops at the first object it finds that supports the interface. You can limit the objects that are searched (filters, input pin, or output pins) by setting <i>dwFlags</i> to a non-zero value.
 
-<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/931b42bf-25d6-4f0a-8c45-baf8ed65e302">ICaptureGraphBuilder2::FindInterface</a> method implements a more general approach to this problem, and in most situations is preferred.</div>
+<div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icapturegraphbuilder2-findinterface">ICaptureGraphBuilder2::FindInterface</a> method implements a more general approach to this problem, and in most situations is preferred.</div>
 <div> </div>
 
 
@@ -164,11 +164,11 @@ It stops at the first object it finds that supports the interface. You can limit
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/30d44536-2a2d-44ab-bafc-bdb851cd272b">IAMGraphStreams Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamgraphstreams">IAMGraphStreams Interface</a>
  
 
  

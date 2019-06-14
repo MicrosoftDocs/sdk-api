@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Shuts down a Media Foundation object and releases all resources associated with the object.
 
-This function is a helper function that wraps the <a href="https://msdn.microsoft.com/9e7824d2-0f76-4c4c-98c5-ba51cd297de7">IMFShutdown::Shutdown</a> method. The function queries the object for the <a href="https://msdn.microsoft.com/c3052658-51bb-401b-8db9-3428868899d6">IMFShutdown</a> interface and, if successful, calls <b>Shutdown</b> on the object.
+This function is a helper function that wraps the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-shutdown">IMFShutdown::Shutdown</a> method. The function queries the object for the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfshutdown">IMFShutdown</a> interface and, if successful, calls <b>Shutdown</b> on the object.
 
 
 ## -parameters
@@ -97,7 +97,7 @@ The function succeeded.
 
 
 
-This function is not related to the <a href="https://msdn.microsoft.com/10be2361-b5b4-4c10-92a1-527ca22c74e4">MFShutdown</a> function, which shuts down the Media Foundation platform, as described in <a href="https://msdn.microsoft.com/e4db81d3-7a9e-47d7-8611-6dac8026259c">Initializing Media Foundation</a>.
+This function is not related to the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfshutdown">MFShutdown</a> function, which shuts down the Media Foundation platform, as described in <a href="https://docs.microsoft.com/windows/desktop/medfound/initializing-media-foundation">Initializing Media Foundation</a>.
 
 
 
@@ -109,11 +109,11 @@ This function is not related to the <a href="https://msdn.microsoft.com/10be2361
 
 
 
-<a href="https://msdn.microsoft.com/c3052658-51bb-401b-8db9-3428868899d6">IMFShutdown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfshutdown">IMFShutdown</a>
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

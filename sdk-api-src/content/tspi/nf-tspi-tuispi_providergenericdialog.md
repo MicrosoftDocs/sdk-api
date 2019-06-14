@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>TUISPI_providerGenericDialog</b> function in the UI DLL is called when the service provider sends a 
-<a href="https://msdn.microsoft.com/5a7e34bc-1dc3-40c4-b07e-de5b88cbcd75">LINE_CREATEDIALOGINSTANCE</a> message. The service provider uses this to create dialog boxes in the application context in conjunction with the processing of particular asynchronous TSPI functions. This function is called from a thread created specifically for the purpose of displaying the dialog box. The UI DLL does not return from this function until the dialog box is destroyed.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-createdialoginstance">LINE_CREATEDIALOGINSTANCE</a> message. The service provider uses this to create dialog boxes in the application context in conjunction with the processing of particular asynchronous TSPI functions. This function is called from a thread created specifically for the purpose of displaying the dialog box. The UI DLL does not return from this function until the dialog box is destroyed.
 
 Implementation is mandatory if the service provider associated with the UI DLL sends LINE_CREATEDIALOGINSTANCE messages to spontaneously create dialog boxes in the application context.
 
@@ -69,7 +69,7 @@ Pointer to a function the UI DLL can call to communicate with the service provid
 ### -param htDlgInst
 
 The opaque identifier binding the association of this instance of the function to a particular request from the service provider. The UI DLL must include this parameter, along with TUISPI_OBJECT_DIALOGINSTANCE, in any call to 
-<a href="https://msdn.microsoft.com/2f4ec748-26ff-49c5-bd88-6c6e64e5bc89">TUISPIDLLCALLBACK</a> to request further data from or deliver data to the service provider.
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-tuispidllcallback">TUISPIDLLCALLBACK</a> to request further data from or deliver data to the service provider.
 
 
 ### -param lpParams
@@ -85,9 +85,9 @@ The size in bytes of the parameter block. If the <i>lpParams</i> parameter is a 
 ### -param hEvent
 
 Handle to an event object created by TAPI. This event is signaled by the UI DLL through 
-<a href="https://msdn.microsoft.com/b474eef1-5df9-4729-b940-0c5f201c5f31">SetEvent</a> (<i>hEvent</i>) when the UI DLL has completed initialization of this dialog box instance and is prepared to receive additional dialog box data through 
-<a href="https://msdn.microsoft.com/212ae478-49e1-44ce-b589-f2fb3994a2a2">TUISPI_providerGenericDialogData</a>. Data sent by the associated service provider (through 
-<a href="https://msdn.microsoft.com/d3c176ba-8b4b-4b7c-a603-130dfa761898">LINE_SENDDIALOGINSTANCEDATA</a>) for this dialog box instance are blocked by TAPI until the UI DLL signals this event, giving 
+<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-setevent">SetEvent</a> (<i>hEvent</i>) when the UI DLL has completed initialization of this dialog box instance and is prepared to receive additional dialog box data through 
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providergenericdialogdata">TUISPI_providerGenericDialogData</a>. Data sent by the associated service provider (through 
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-senddialoginstancedata">LINE_SENDDIALOGINSTANCEDATA</a>) for this dialog box instance are blocked by TAPI until the UI DLL signals this event, giving 
 <b>TUISPI_providerGenericDialog</b> the opportunity to perform any necessary initialization. The UI DLL should signal the event as quickly a possible to avoid blocking calls to 
 <b>TUISPI_providerGenericDialogData</b>.
 
@@ -108,23 +108,23 @@ LINEERR_INVALPARAM, LINEERR_NOMEM, LINEERR_OPERATIONFAILED.
 
 
 
-<a href="https://msdn.microsoft.com/5a7e34bc-1dc3-40c4-b07e-de5b88cbcd75">LINE_CREATEDIALOGINSTANCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-createdialoginstance">LINE_CREATEDIALOGINSTANCE</a>
 
 
 
-<a href="https://msdn.microsoft.com/d3c176ba-8b4b-4b7c-a603-130dfa761898">LINE_SENDDIALOGINSTANCEDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-senddialoginstancedata">LINE_SENDDIALOGINSTANCEDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/b474eef1-5df9-4729-b940-0c5f201c5f31">SetEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-setevent">SetEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f4ec748-26ff-49c5-bd88-6c6e64e5bc89">TUISPIDLLCALLBACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-tuispidllcallback">TUISPIDLLCALLBACK</a>
 
 
 
-<a href="https://msdn.microsoft.com/212ae478-49e1-44ce-b589-f2fb3994a2a2">TUISPI_providerGenericDialogData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providergenericdialogdata">TUISPI_providerGenericDialogData</a>
  
 
  

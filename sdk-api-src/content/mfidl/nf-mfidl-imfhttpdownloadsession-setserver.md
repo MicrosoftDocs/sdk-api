@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Called  by Microsoft Media Foundation to specify parameters common to all requests created by this instance of <a href="https://msdn.microsoft.com/048B2922-3B77-4F2D-9437-0FA54F94C67E">IMFHttpDownloadSession</a>.
+Called  by Microsoft Media Foundation to specify parameters common to all requests created by this instance of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadsession">IMFHttpDownloadSession</a>.
 
 
 ## -parameters
@@ -115,7 +115,7 @@ There is insufficient memory to complete the operation.
 
 
 
-<a href="https://msdn.microsoft.com/048B2922-3B77-4F2D-9437-0FA54F94C67E">IMFHttpDownloadSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadsession">IMFHttpDownloadSession</a>
  
 
  

@@ -62,7 +62,7 @@ The
 
 ### -param hInstall [in]
 
-Handle to the installation provided to a DLL custom action or obtained through <a href="https://msdn.microsoft.com/1227493a-58dc-4e41-b6d7-9ecce0b3df40">MsiOpenPackage</a>, <a href="https://msdn.microsoft.com/9e9550e9-9c10-4ef1-a172-dfacaaa37fd0">MsiOpenPackageEx</a>, or <a href="https://msdn.microsoft.com/fdc5a2f5-c44a-4cb3-b206-a598bd60024b">MsiOpenProduct</a>.
+Handle to the installation provided to a DLL custom action or obtained through <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
 
 
 ### -param szFeature [in]
@@ -139,13 +139,13 @@ The
 
 The 
 <b>MsiSetFeatureState</b> function requests a change in the select state of a feature in the 
-<a href="https://msdn.microsoft.com/1faee1d5-6e39-43ea-bf92-a0b3986a13a1">Feature</a> table and its children. In turn, the action state of all the components linked to the changed feature records are also updated appropriately, based on the new feature select state.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/feature-table">Feature</a> table and its children. In turn, the action state of all the components linked to the changed feature records are also updated appropriately, based on the new feature select state.
 
 The 
-<a href="https://msdn.microsoft.com/98f1d91d-632e-4dea-948f-2dc416b4d410">MsiSetInstallLevel</a> function must be called before calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msisetinstalllevel">MsiSetInstallLevel</a> function must be called before calling 
 <b>MsiSetFeatureState</b>.
 
-When <b>MsiSetFeatureState</b> is called, the installer attempts to set the action state of each component tied to the specified feature to the specified state. However, there are common situations when the request cannot be fully implemented. For example, if a feature is tied to two components, component A and component B, through the <a href="https://msdn.microsoft.com/aff16483-a9ed-4675-8e87-8adf695605ee">FeatureComponents</a> table, and component A has the <b>msidbComponentAttributesLocalOnly</b> attribute and component B has the <b>msidbComponentAttributesSourceOnly</b> attribute. In this case, if <b>MsiSetFeatureState</b> is called with a requested state of either INSTALLSTATE_LOCAL or INSTALLSTATE_SOURCE, the request cannot be fully implemented for both components. In this case, both components are turned ON, with component A set to Local and component B set to Source.
+When <b>MsiSetFeatureState</b> is called, the installer attempts to set the action state of each component tied to the specified feature to the specified state. However, there are common situations when the request cannot be fully implemented. For example, if a feature is tied to two components, component A and component B, through the <a href="https://docs.microsoft.com/windows/desktop/Msi/featurecomponents-table">FeatureComponents</a> table, and component A has the <b>msidbComponentAttributesLocalOnly</b> attribute and component B has the <b>msidbComponentAttributesSourceOnly</b> attribute. In this case, if <b>MsiSetFeatureState</b> is called with a requested state of either INSTALLSTATE_LOCAL or INSTALLSTATE_SOURCE, the request cannot be fully implemented for both components. In this case, both components are turned ON, with component A set to Local and component B set to Source.
 
 If more than one feature is linked to a single component (a common scenario), the final action state of that component is determined as follows:
 
@@ -155,9 +155,9 @@ If more than one feature is linked to a single component (a common scenario), th
 <li>If at least one feature requires the removal of the component, the action state is absent.</li>
 </ul>
 See 
-<a href="https://msdn.microsoft.com/b9795825-41fa-474b-a0c5-06770aa99bc1">Calling Database Functions from Programs</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/calling-database-functions-from-programs">Calling Database Functions from Programs</a>.
 
-If the function fails, you can obtain extended error information by using <a href="https://msdn.microsoft.com/0d6f4506-367b-43d7-ba1c-2a93c1d0cc51">MsiGetLastErrorRecord</a>.
+If the function fails, you can obtain extended error information by using <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
 
 
 
@@ -167,7 +167,7 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer Selection Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Installer Selection Functions</a>
  
 
  

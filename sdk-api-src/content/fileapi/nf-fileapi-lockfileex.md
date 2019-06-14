@@ -67,7 +67,7 @@ Locks the specified file  for exclusive access  by the calling process. This fun
 ### -param hFile [in]
 
 A handle to the file. The handle must have been created with either the <b>GENERIC_READ</b> or <b>GENERIC_WRITE</b> access right. For more information, see 
-<a href="https://msdn.microsoft.com/991d7d94-fae7-406f-b2e3-dee811279366">File Security and Access Rights</a>.
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
 
 ### -param dwFlags [in]
@@ -124,7 +124,7 @@ The high-order 32 bits of the length of the byte range to lock.
 ### -param lpOverlapped [in, out]
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure that the function uses with the locking request. This structure, which is required, contains the file offset of the beginning of the lock range. You must initialize the <b>hEvent</b> member to a valid handle or zero.
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure that the function uses with the locking request. This structure, which is required, contains the file offset of the beginning of the lock range. You must initialize the <b>hEvent</b> member to a valid handle or zero.
 
 
 ## -returns
@@ -134,7 +134,7 @@ A pointer to an
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
 If the function fails, the return value is zero (<b>FALSE</b>). To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -153,9 +153,9 @@ Locking a region of a file does not prevent reading from a mapped file view.
 
 The 
 <b>LockFileEx</b> function operates asynchronously if the file handle was opened for asynchronous I/O, unless the <b>LOCKFILE_FAIL_IMMEDIATELY</b> flag is specified. If an exclusive lock is requested for a range of a file that already has a shared or exclusive lock, the function returns the error <b>ERROR_IO_PENDING</b>. The system will signal the event specified in the 
-<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure after the lock is granted. To determine when the lock has been granted, use the 
-<a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a> function or one of the 
-<a href="https://msdn.microsoft.com/9c66c71d-fdfd-42ae-895c-2fc842b5bc7a">wait functions</a>. For more information, see <a href="https://msdn.microsoft.com/ade51d98-cc9d-4b33-9c52-559a9cb14707">Synchronous and Asynchronous I/O</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure after the lock is granted. To determine when the lock has been granted, use the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> function or one of the 
+<a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">wait functions</a>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/synchronous-and-asynchronous-i-o">Synchronous and Asynchronous I/O</a>.
 
 If the file handle was not opened for asynchronous I/O and the lock is not available, this call waits until the lock is granted or an error occurs, unless the <b>LOCKFILE_FAIL_IMMEDIATELY</b> flag is specified.
 
@@ -233,27 +233,27 @@ Yes
 
 
 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/c88e7b6c-c339-443b-adf9-0325807203dc">LockFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-lockfile">LockFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a930f83-3918-4688-ac60-d1de6857f479">UnlockFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-unlockfile">UnlockFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/78e2a75e-ff67-4039-b609-fb5004718c45">UnlockFileEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-unlockfileex">UnlockFileEx</a>
  
 
  

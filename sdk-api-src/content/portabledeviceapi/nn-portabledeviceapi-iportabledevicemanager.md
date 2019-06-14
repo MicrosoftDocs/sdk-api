@@ -53,14 +53,14 @@ ms.custom: 19H1
 
 Enumerates devices that are connected to the computer and provides a simple way to request installation information, including manufacturer, friendly name, and description. This is typically the first Windows Portable Devices interface created by an application. To create an instance of this interface, call <b>CoCreateInstance</b> and specify <b>CLSID_PortableDeviceManager</b>.
 
-The properties that are requested using this interface can also be requested by using the <a href="https://msdn.microsoft.com/4555e85b-c667-466c-a527-cc29ca7a6aee">IPortableDeviceProperties</a> interface. However, that interface requires several steps to acquire; using this interface is a much simpler way to request device information.
+The properties that are requested using this interface can also be requested by using the <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties">IPortableDeviceProperties</a> interface. However, that interface requires several steps to acquire; using this interface is a much simpler way to request device information.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceManager</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPortableDeviceManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceManager</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDeviceManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IPortableDeviceManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/16c08c8a-9ce7-455a-9859-6b0be406f642">GetDeviceDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicemanager-getdevicedescription">GetDeviceDescription</a>
 </td>
 <td align="left" width="63%">
 Retrieves the description of a device.
@@ -84,7 +84,7 @@ Retrieves the description of a device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/589995bb-fcce-412e-8828-a84e5809af2b">GetDeviceFriendlyName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicemanager-getdevicefriendlyname">GetDeviceFriendlyName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the user-friendly name for the device.
@@ -93,7 +93,7 @@ Retrieves the user-friendly name for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2bd64da1-819d-430c-ab66-ab3b8e6c48f6">GetDeviceManufacturer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicemanager-getdevicemanufacturer">GetDeviceManufacturer</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the device manufacturer.
@@ -102,7 +102,7 @@ Retrieves the name of the device manufacturer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/805a2407-f476-4223-97d9-6d8753380b17">GetDeviceProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicemanager-getdeviceproperty">GetDeviceProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves a property value stored by the device on the computer.
@@ -111,7 +111,7 @@ Retrieves a property value stored by the device on the computer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5061b3c0-8b93-480d-b1c6-0a6b616a2c8d">GetDevices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicemanager-getdevices">GetDevices</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of portable devices connected to the computer.
@@ -120,7 +120,7 @@ Retrieves a list of portable devices connected to the computer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f25a8eb4-be40-43c0-bb3c-00031b7f08db">GetPrivateDevices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicemanager-getprivatedevices">GetPrivateDevices</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of private portable devices connected to the computer.
@@ -129,7 +129,7 @@ Retrieves a list of private portable devices connected to the computer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/89163407-7b38-4c79-8171-67a5b7e1d17c">RefreshDeviceList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicemanager-refreshdevicelist">RefreshDeviceList</a>
 </td>
 <td align="left" width="63%">
 Refreshes the list of portable devices that are connected to the computer.
@@ -144,7 +144,7 @@ Refreshes the list of portable devices that are connected to the computer.
 
 
 
-<a href="https://msdn.microsoft.com/fbe53f17-940a-485e-82b2-c11ae39b3300">Client Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/client-interfaces">Client Interfaces</a>
  
 
  

@@ -59,7 +59,7 @@ An <b>IWMSyncReader2</b> interface exists for every synchronous reader object. Y
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMSyncReader2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd798576(v=VS.85).aspx">IWMSyncReader</a>. <b>IWMSyncReader2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMSyncReader2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader</a>. <b>IWMSyncReader2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IWMSyncReader2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798578(v=VS.85).aspx">GetAllocateForOutput</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader2-getallocateforoutput">GetAllocateForOutput</a>
 </td>
 <td align="left" width="63%">
 Retrieves an <b>IWMReaderAllocatorEx</b> interface for allocating output samples.
@@ -83,7 +83,7 @@ Retrieves an <b>IWMReaderAllocatorEx</b> interface for allocating output samples
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798579(v=VS.85).aspx">GetAllocateForStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader2-getallocateforstream">GetAllocateForStream</a>
 </td>
 <td align="left" width="63%">
 Retrieves an <b>IWMReaderAllocatorEx</b> interface for allocating stream samples.
@@ -92,7 +92,7 @@ Retrieves an <b>IWMReaderAllocatorEx</b> interface for allocating stream samples
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798580(v=VS.85).aspx">SetAllocateForOutput</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader2-setallocateforoutput">SetAllocateForOutput</a>
 </td>
 <td align="left" width="63%">
 Sets an <b>IWMReaderAllocatorEx</b> interface for allocating output samples.
@@ -101,7 +101,7 @@ Sets an <b>IWMReaderAllocatorEx</b> interface for allocating output samples.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798581(v=VS.85).aspx">SetAllocateForStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader2-setallocateforstream">SetAllocateForStream</a>
 </td>
 <td align="left" width="63%">
 Sets an <b>IWMReaderAllocatorEx</b> interface for allocating stream samples.
@@ -110,7 +110,7 @@ Sets an <b>IWMReaderAllocatorEx</b> interface for allocating stream samples.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798582(v=VS.85).aspx">SetRangeByFrameEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader2-setrangebyframeex">SetRangeByFrameEx</a>
 </td>
 <td align="left" width="63%">
 Enables you to play a portion of a file specified by frame numbers.
@@ -119,7 +119,7 @@ Enables you to play a portion of a file specified by frame numbers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798583(v=VS.85).aspx">SetRangeByTimecode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader2-setrangebytimecode">SetRangeByTimecode</a>
 </td>
 <td align="left" width="63%">
 Sets a start time and duration for playback using SMPTE time codes.
@@ -128,7 +128,7 @@ Sets a start time and duration for playback using SMPTE time codes.
 </tr>
 </table> 
 
-For information on which interfaces can be obtained by calling the QueryInterface method of this interface, see <a href="https://msdn.microsoft.com/52a4891f-03bf-4d8a-ab7b-e9739db30bc3">Synchronous Reader Object</a>.
+For information on which interfaces can be obtained by calling the QueryInterface method of this interface, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/synchronous-reader-object">Synchronous Reader Object</a>.
 
 
 
@@ -137,11 +137,11 @@ For information on which interfaces can be obtained by calling the QueryInterfac
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798576(v=VS.85).aspx">IWMSyncReader Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/c61a0739-09f2-497f-a2cd-d3f2472738e3">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
  
 
  

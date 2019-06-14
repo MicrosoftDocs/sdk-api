@@ -113,15 +113,15 @@ The <i>InterfaceIndex</i> parameter is invalid (for example, no interface exists
 
 
 
-<a href="https://msdn.microsoft.com/d2a90d20-7a1f-4301-adab-76224a4f8310">AddInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-padd_interface">AddInterface</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd780458-ef23-4ef2-8fe8-29b32100917f">Routing Protocol Interface Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-functions">Routing Protocol Interface Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/0429f5ca-6574-48f5-85ab-70b4677ca539">Routing Protocol Interface Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
  
 
  

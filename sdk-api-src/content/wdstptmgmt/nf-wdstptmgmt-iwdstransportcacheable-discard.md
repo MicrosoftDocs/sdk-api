@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Discards all changes made to the object data members by clearing the <a href="https://msdn.microsoft.com/f73e3013-e060-45bc-987c-d41cd01beef7">IWdsTransportCacheable::Dirty</a> property and then calling the object's <a href="https://msdn.microsoft.com/2fd838b5-5623-4133-9ad8-ec051b2b698d">IWdsTransportCacheable::Refresh</a> method to reread the current object data. 
+Discards all changes made to the object data members by clearing the <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportcacheable-get_dirty">IWdsTransportCacheable::Dirty</a> property and then calling the object's <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportcacheable-refresh">IWdsTransportCacheable::Refresh</a> method to reread the current object data. 
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Discards all changes made to the object data members by clearing the <a href="ht
 
 This method can be called on any object. 
 
-Unlike <a href="https://msdn.microsoft.com/2fd838b5-5623-4133-9ad8-ec051b2b698d">Refresh</a>, which always refreshes object data (as long as the object's <a href="https://msdn.microsoft.com/f73e3013-e060-45bc-987c-d41cd01beef7">Dirty</a> property has been set), this method checks first that the object's <b>Dirty</b> property has been set. If it has, the method resets the <b>Dirty</b> property and then rereads the current values of all data members. If <b>Dirty</b> has not been set, this method takes no action and returns immediately.
+Unlike <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportcacheable-refresh">Refresh</a>, which always refreshes object data (as long as the object's <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportcacheable-get_dirty">Dirty</a> property has been set), this method checks first that the object's <b>Dirty</b> property has been set. If it has, the method resets the <b>Dirty</b> property and then rereads the current values of all data members. If <b>Dirty</b> has not been set, this method takes no action and returns immediately.
 
 
 
@@ -76,7 +76,7 @@ Unlike <a href="https://msdn.microsoft.com/2fd838b5-5623-4133-9ad8-ec051b2b698d"
 
 
 
-<a href="https://msdn.microsoft.com/2245d198-056c-467f-aae7-b1bb02f188e2">IWdsTransportCacheable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportcacheable">IWdsTransportCacheable</a>
  
 
  

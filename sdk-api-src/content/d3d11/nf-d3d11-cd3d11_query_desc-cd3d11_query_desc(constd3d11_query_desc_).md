@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Instantiates a new instance of a  <a href="https://msdn.microsoft.com/F77E6197-550F-47ED-9619-42C8D2F16AF5">CD3D11_QUERY_DESC</a> structure that is initialized with a <a href="https://msdn.microsoft.com/2ed8e380-744b-41e1-87c8-9c7e8100ea2f">D3D11_QUERY_DESC</a> structure.
+Instantiates a new instance of a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151648(v=vs.85)">CD3D11_QUERY_DESC</a> structure that is initialized with a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_query_desc">D3D11_QUERY_DESC</a> structure.
 
 
 ## -parameters
@@ -60,9 +60,9 @@ Instantiates a new instance of a  <a href="https://msdn.microsoft.com/F77E6197-5
 
 ### -param o [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/2ed8e380-744b-41e1-87c8-9c7e8100ea2f">D3D11_QUERY_DESC</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_query_desc">D3D11_QUERY_DESC</a></b>
 
-Address of the <a href="https://msdn.microsoft.com/2ed8e380-744b-41e1-87c8-9c7e8100ea2f">D3D11_QUERY_DESC</a> structure that initializes the <a href="https://msdn.microsoft.com/F77E6197-550F-47ED-9619-42C8D2F16AF5">CD3D11_QUERY_DESC</a> structure.
+Address of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_query_desc">D3D11_QUERY_DESC</a> structure that initializes the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151648(v=vs.85)">CD3D11_QUERY_DESC</a> structure.
 
 
 ## -returns
@@ -79,7 +79,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/F77E6197-550F-47ED-9619-42C8D2F16AF5">CD3D11_QUERY_DESC</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151648(v=vs.85)">CD3D11_QUERY_DESC</a>
  
 
  

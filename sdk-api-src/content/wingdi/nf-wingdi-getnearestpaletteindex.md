@@ -66,7 +66,7 @@ A handle to a logical palette.
 
 ### -param color [in]
 
-A color to be matched. To create a <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> color value, use the <a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">RGB</a> macro.
+A color to be matched. To create a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> color value, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
 
 
 ## -returns
@@ -84,7 +84,7 @@ If the function fails, the return value is CLR_INVALID.
 
 
 
-An application can determine whether a device supports palette operations by calling the <a href="https://msdn.microsoft.com/d524c4c7-22af-495d-aecc-b9921e53ca7b">GetDeviceCaps</a> function and specifying the RASTERCAPS constant.
+An application can determine whether a device supports palette operations by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function and specifying the RASTERCAPS constant.
 
 If the given logical palette contains entries with the PC_EXPLICIT flag set, the return value is undefined.
 
@@ -96,35 +96,35 @@ If the given logical palette contains entries with the PC_EXPLICIT flag set, the
 
 
 
-<a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
 
 
 
-<a href="https://msdn.microsoft.com/9dd32d4a-30bd-406f-a934-bb71ad4ca2cb">Color Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/color-functions">Color Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d1a25f13-6b47-4be7-927b-814dd6ae81f8">Colors Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/colors">Colors Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/d524c4c7-22af-495d-aecc-b9921e53ca7b">GetDeviceCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
 
 
 
-<a href="https://msdn.microsoft.com/89e4e19b-47be-442e-8eb4-c867bb78f36a">GetNearestColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getnearestcolor">GetNearestColor</a>
 
 
 
-<a href="https://msdn.microsoft.com/5e72e881-32e1-458e-a09e-91fa13abe178">GetPaletteEntries</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getpaletteentries">GetPaletteEntries</a>
 
 
 
-<a href="https://msdn.microsoft.com/67bb0adf-ae7f-48d5-bc62-82ece45aeee6">GetSystemPaletteEntries</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getsystempaletteentries">GetSystemPaletteEntries</a>
 
 
 
-<a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">RGB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
  
 
  

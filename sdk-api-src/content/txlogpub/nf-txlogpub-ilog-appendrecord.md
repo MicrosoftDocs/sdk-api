@@ -90,14 +90,14 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Each log record written or read by <a href="https://msdn.microsoft.com/93f2be99-0799-4047-ae4e-62f0e74d15c3">ILog</a> is an opaque BLOB of data. As a convenience to callers, <b>AppendRecord</b> allows multiple BLOBs to be concatenated into a single record; because many implementations of <b>ILog</b> will copy records to a buffer in memory, it may be inefficient for the caller to allocate memory for concatenating the parts of a record. However, once a record is appended to the log, <b>ILog</b> provides no method to extract individual BLOBs from the record. It is the responsibility of the caller to parse the data in records read from the log. See <a href="https://msdn.microsoft.com/756d56a4-083f-45cd-bcdc-7c8a15dabae6">ILog::ReadRecord</a>.
+Each log record written or read by <a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a> is an opaque BLOB of data. As a convenience to callers, <b>AppendRecord</b> allows multiple BLOBs to be concatenated into a single record; because many implementations of <b>ILog</b> will copy records to a buffer in memory, it may be inefficient for the caller to allocate memory for concatenating the parts of a record. However, once a record is appended to the log, <b>ILog</b> provides no method to extract individual BLOBs from the record. It is the responsibility of the caller to parse the data in records read from the log. See <a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nf-txlogpub-ilog-readrecord">ILog::ReadRecord</a>.
 
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-A failure return value indicates that any records appended to the log since the last time it was successfully forced are not guaranteed to be on disk. The <a href="https://msdn.microsoft.com/93f2be99-0799-4047-ae4e-62f0e74d15c3">ILog</a> interface does not provide a method to determine which records have been successfully written to disk. If you need to know which records were successfully written to disk, you must force the log for each record.
+A failure return value indicates that any records appended to the log since the last time it was successfully forced are not guaranteed to be on disk. The <a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a> interface does not provide a method to determine which records have been successfully written to disk. If you need to know which records were successfully written to disk, you must force the log for each record.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-If <i>fForceNow</i> is <b>TRUE</b>, it is recommended that you flush file buffers (for example, using the <a href="https://msdn.microsoft.com/0d9ea467-6d5d-44b2-8e87-f2ecdd510fe6">FlushFileBuffers</a> function) before returning from this method.
+If <i>fForceNow</i> is <b>TRUE</b>, it is recommended that you flush file buffers (for example, using the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-flushfilebuffers">FlushFileBuffers</a> function) before returning from this method.
 
 
 
@@ -107,11 +107,11 @@ If <i>fForceNow</i> is <b>TRUE</b>, it is recommended that you flush file buffer
 
 
 
-<a href="https://msdn.microsoft.com/0d9ea467-6d5d-44b2-8e87-f2ecdd510fe6">FlushFileBuffers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-flushfilebuffers">FlushFileBuffers</a>
 
 
 
-<a href="https://msdn.microsoft.com/93f2be99-0799-4047-ae4e-62f0e74d15c3">ILog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a>
  
 
  

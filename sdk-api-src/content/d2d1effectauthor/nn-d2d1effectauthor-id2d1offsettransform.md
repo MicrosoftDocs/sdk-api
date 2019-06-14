@@ -55,7 +55,7 @@ Instructs the effect-rendering system to offset an input bitmap without insertin
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1OffsetTransform</b> interface inherits from <a href="https://msdn.microsoft.com/2ACF65DA-A812-4983-B044-71103A9AA450">ID2D1TransformNode</a>. <b>ID2D1OffsetTransform</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1OffsetTransform</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transformnode">ID2D1TransformNode</a>. <b>ID2D1OffsetTransform</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID2D1OffsetTransform</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/DC928758-4493-4D45-A52B-3E22A98BAF12">GetOffset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1offsettransform-getoffset">GetOffset</a>
 </td>
 <td align="left" width="63%">
 Gets the offset currently in the offset transform.
@@ -79,7 +79,7 @@ Gets the offset currently in the offset transform.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4694BB45-4D26-4CB8-B0D3-560493D60D88">SetOffset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1offsettransform-setoffset">SetOffset</a>
 </td>
 <td align="left" width="63%">
 Sets the offset in the current offset transform.
@@ -103,11 +103,11 @@ Because a rendering pass is not required, the interface derives from a transform
 
 
 
-<a href="https://msdn.microsoft.com/A0A479F7-CB2C-4A9A-B482-2383A3A1A841">I2D1DeviceContext::CreateOffsetTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-createoffsettransform">I2D1DeviceContext::CreateOffsetTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/2ACF65DA-A812-4983-B044-71103A9AA450">ID2D1TransformNode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transformnode">ID2D1TransformNode</a>
  
 
  

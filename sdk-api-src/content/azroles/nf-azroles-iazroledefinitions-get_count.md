@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Count</b> property retrieves the number of <a href="https://msdn.microsoft.com/9d17647c-3ff9-4881-a02f-d7bcb508e102">IAzRoleDefinitions</a> objects in the collection.
+The <b>Count</b> property retrieves the number of <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazroledefinitions">IAzRoleDefinitions</a> objects in the collection.
 
 This property is read-only.
 

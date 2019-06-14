@@ -69,7 +69,7 @@ Index of the media stream to retrieve.
 
 ### -param ppMediaStream [out]
 
-Address of a variable that receives an <a href="https://msdn.microsoft.com/en-us/library/Dd407041(v=VS.85).aspx">IMediaStream</a> interface pointer.
+Address of a variable that receives an <a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream</a> interface pointer.
 
 
 ## -returns
@@ -125,7 +125,7 @@ If the method succeeds, the caller must release the <b>IMediaStream</b> interfac
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd407042(v=VS.85).aspx">IMediaStreamFilter Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-imediastreamfilter">IMediaStreamFilter Interface</a>
  
 
  

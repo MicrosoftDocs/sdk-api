@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Opens a handle to a backup event log created by the <a href="https://msdn.microsoft.com/5cfd5bad-4401-4abd-9e81-5f139e4ecf73">BackupEventLog</a> function.
+Opens a handle to a backup event log created by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupeventloga">BackupEventLog</a> function.
 
 
 ## -parameters
@@ -78,7 +78,7 @@ If the function succeeds, the return value is a handle to the backup event log.
 						
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -99,11 +99,11 @@ When this function is used on Windows Vista and later computers, only backup ev
 
 
 
-<a href="https://msdn.microsoft.com/5cfd5bad-4401-4abd-9e81-5f139e4ecf73">BackupEventLog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupeventloga">BackupEventLog</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd5c12ec-3a3d-4b75-a573-0b27ae7a890b">Event Logging Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/EventLog/event-logging-functions">Event Logging Functions</a>
  
 
  

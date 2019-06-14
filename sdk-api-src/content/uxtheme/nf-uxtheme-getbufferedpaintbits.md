@@ -63,12 +63,12 @@ Retrieves a pointer to the buffer bitmap if the buffer is a device-independent b
 
 Type: <b>HPAINTBUFFER</b>
 
-The handle of the buffered paint context, obtained through <a href="https://msdn.microsoft.com/en-us/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a>.
+The handle of the buffered paint context, obtained through <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedpaint">BeginBufferedPaint</a>.
 
 
 ### -param ppbBuffer [out]
 
-Type: <b><a href="https://msdn.microsoft.com/22e0991d-078e-4b44-9f03-004137e31f6c">RGBQUAD</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagrgbquad">RGBQUAD</a>**</b>
 
 When this function returns, contains a pointer to the address of the buffer bitmap pixels.
 
@@ -84,7 +84,7 @@ When this function returns, contains a pointer to the width, in pixels, of the b
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK if successful, or an error value otherwise. If an error occurs, <i>ppbBuffer</i>  is set to <b>NULL</b> and <i>pcxRow</i> is set to zero.
 
@@ -95,7 +95,7 @@ Returns S_OK if successful, or an error value otherwise. If an error occurs, <i>
 
 
 
-The number of bits per pixel depends on the pixel format passed to <a href="https://msdn.microsoft.com/en-us/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a>.
+The number of bits per pixel depends on the pixel format passed to <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedpaint">BeginBufferedPaint</a>.
 
 
 
@@ -105,11 +105,11 @@ The number of bits per pixel depends on the pixel format passed to <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb759835(v=VS.85).aspx">BP_BUFFERFORMAT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ne-uxtheme-_bp_bufferformat">BP_BUFFERFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/56b39a3d-48a4-4620-9652-ec41ea4d6423">Device-Independent Bitmaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/device-independent-bitmaps">Device-Independent Bitmaps</a>
 
 
 

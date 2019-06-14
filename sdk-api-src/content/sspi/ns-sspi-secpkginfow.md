@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SecPkgInfo</b> structure provides general information about a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a>, such as its name and capabilities.
+The <b>SecPkgInfo</b> structure provides general information about a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>, such as its name and capabilities.
 
 
 ## -struct-fields
@@ -79,7 +79,7 @@ Set of bit flags that describes the capabilities of the security package. This m
 </dl>
 </td>
 <td width="60%">
-The security package supports the <a href="https://msdn.microsoft.com/d17824b0-6121-48a3-b19b-d4fae3e1348e">MakeSignature</a> and <a href="https://msdn.microsoft.com/bebeef92-1d6e-4879-846f-12d706db0653">VerifySignature</a> functions.
+The security package supports the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-makesignature">MakeSignature</a> and <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-verifysignature">VerifySignature</a> functions.
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ The security package supports the <a href="https://msdn.microsoft.com/d17824b0-6
 </dl>
 </td>
 <td width="60%">
-The security package supports the <a href="https://msdn.microsoft.com/2e09f262-9c3e-4db2-9285-017f5e1810c7">EncryptMessage (General)</a> and <a href="https://msdn.microsoft.com/ea271d0c-9167-41c5-8919-09611206fc71">DecryptMessage (General)</a> functions.
+The security package supports the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-encryptmessage">EncryptMessage (General)</a> and <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-decryptmessage">DecryptMessage (General)</a> functions.
 
 </td>
 </tr>
@@ -112,10 +112,10 @@ The package is interested only in the security-token portion of messages, and wi
 </dl>
 </td>
 <td width="60%">
-Supports <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">datagram</a>-style authentication. For more information, see 
-<a href="https://msdn.microsoft.com/6c87448b-5b8d-4694-ac3f-be83a258fbb0">SSPI Context Semantics</a>.
+Supports <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">datagram</a>-style authentication. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi-context-semantics">SSPI Context Semantics</a>.
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/e7870e72-1386-4818-bf6f-73430ae942a8">Microsoft Kerberos</a> package does not support datagram contexts in user-to-user mode.</div>
+<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/microsoft-kerberos">Microsoft Kerberos</a> package does not support datagram contexts in user-to-user mode.</div>
 <div> </div>
 </td>
 </tr>
@@ -127,7 +127,7 @@ Supports <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c
 </td>
 <td width="60%">
 Supports connection-oriented style authentication. For more information, see 
-<a href="https://msdn.microsoft.com/6c87448b-5b8d-4694-ac3f-be83a258fbb0">SSPI Context Semantics</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi-context-semantics">SSPI Context Semantics</a>.
 
 </td>
 </tr>
@@ -161,7 +161,7 @@ Server authentication support is not provided.
 </td>
 <td width="60%">
 Supports extended error handling. For more information, see 
-<a href="https://msdn.microsoft.com/a15c61f0-03cc-462f-b5c1-8e7f062e9523">Extended Error Information</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/extended-error-information">Extended Error Information</a>.
 
 </td>
 </tr>
@@ -195,7 +195,7 @@ Understands Windows principal and target names.
 </td>
 <td width="60%">
 Supports stream semantics. For more information, see 
-<a href="https://msdn.microsoft.com/6c87448b-5b8d-4694-ac3f-be83a258fbb0">SSPI Context Semantics</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi-context-semantics">SSPI Context Semantics</a>.
 
 </td>
 </tr>
@@ -206,7 +206,7 @@ Supports stream semantics. For more information, see
 </dl>
 </td>
 <td width="60%">
-Can be used by the <a href="https://msdn.microsoft.com/3aa7e979-8b55-416d-bed1-28296055d38e">Microsoft Negotiate</a> security package.
+Can be used by the <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/microsoft-negotiate">Microsoft Negotiate</a> security package.
 
 </td>
 </tr>
@@ -228,7 +228,7 @@ Supports GSS compatibility.
 </dl>
 </td>
 <td width="60%">
-Supports <a href="https://msdn.microsoft.com/75968d53-5af2-4d77-9486-26403b73c954">LsaLogonUser</a>.
+Supports <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a>.
 
 </td>
 </tr>
@@ -250,7 +250,7 @@ Token buffers are in ASCII characters format.
 </dl>
 </td>
 <td width="60%">
-Supports separating large tokens into smaller buffers so that applications can make repeated calls to <a href="https://msdn.microsoft.com/21d965d4-3c03-4e29-a70d-4538c5c366b0">InitializeSecurityContext (General)</a> and <a href="https://msdn.microsoft.com/eaa15fed-4438-4e43-9be3-aa100ca453c7">AcceptSecurityContext (General)</a> with the smaller buffers to complete authentication.
+Supports separating large tokens into smaller buffers so that applications can make repeated calls to <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (General)</a> and <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (General)</a> with the smaller buffers to complete authentication.
 
 </td>
 </tr>
@@ -283,7 +283,7 @@ Supports delegation.
 </dl>
 </td>
 <td width="60%">
-The security package supports using a checksum instead of in-place encryption when calling the <a href="https://msdn.microsoft.com/2e09f262-9c3e-4db2-9285-017f5e1810c7">EncryptMessage</a> function.
+The security package supports using a checksum instead of in-place encryption when calling the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-encryptmessage">EncryptMessage</a> function.
 
 </td>
 </tr>
@@ -305,7 +305,7 @@ Supports callers with restricted tokens.
 </dl>
 </td>
 <td width="60%">
-The security package extends the <a href="https://msdn.microsoft.com/3aa7e979-8b55-416d-bed1-28296055d38e">Microsoft Negotiate</a> security package. There can be at most one package of this type.
+The security package extends the <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/microsoft-negotiate">Microsoft Negotiate</a> security package. There can be at most one package of this type.
 
 </td>
 </tr>
@@ -426,11 +426,11 @@ Pointer to a null-terminated string. This can be any additional string passed ba
 
 
 
-<a href="https://msdn.microsoft.com/900790a6-111d-43f5-9316-e85aab03a3bc">EnumerateSecurityPackages</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-enumeratesecuritypackagesa">EnumerateSecurityPackages</a>
 
 
 
-<a href="https://msdn.microsoft.com/130ef0fe-bb13-4a65-b476-cd25ed234da1">QuerySecurityPackageInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querysecuritypackageinfoa">QuerySecurityPackageInfo</a>
  
 
  

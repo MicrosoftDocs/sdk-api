@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConsole</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IConsole</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConsole</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IConsole</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,7 +78,7 @@ Returns a handle to the main frame window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms645505(v=VS.85).aspx">MessageBox</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a>
 </td>
 <td align="left" width="63%">
 Displays a message box.
@@ -100,7 +100,7 @@ Creates a new window rooted at the specified scope item.
 </td>
 <td align="left" width="63%">
 Query for the 
-<a href="https://msdn.microsoft.com/9c4338c1-eb5e-47f3-8b5b-0623690bd5f6">IConsoleVerb</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsoleverb">IConsoleVerb</a> interface.
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ Queries the console-provided result pane's image list.
 <a href="https://docs.microsoft.com/en-us/windows/desktop/api/mmc/nf-mmc-iconsole-queryresultview">QueryResultView</a>
 </td>
 <td align="left" width="63%">
-Queries IConsole for the result view object's <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface pointer.
+Queries IConsole for the result view object's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer.
 
 </td>
 </tr>
@@ -146,7 +146,7 @@ Selects the given scope item.
 </td>
 <td align="left" width="63%">
 Used by instances of 
-<a href="https://msdn.microsoft.com/65eaa5ef-182b-4fec-bb3d-a308ac9dc660">IComponent</a> only. Sets the header interface to be used for this 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a> only. Sets the header interface to be used for this 
 IComponent.
 
 </td>
@@ -157,7 +157,7 @@ IComponent.
 </td>
 <td align="left" width="63%">
 Used by instances of 
-<a href="https://msdn.microsoft.com/65eaa5ef-182b-4fec-bb3d-a308ac9dc660">IComponent</a> only. Sets the toolbar interface to be used for this 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a> only. Sets the toolbar interface to be used for this 
 IComponent.
 
 </td>
@@ -179,19 +179,19 @@ Generates a notification to update views because of content change.
 
 
 
-<a href="https://msdn.microsoft.com/9a20d09d-219c-4bcb-95b3-67a44e41629e">IConsole2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>
 
 
 
-<a href="https://msdn.microsoft.com/be3d42a4-a18a-40a5-99fc-2cf2a848c564">IConsole3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole3">IConsole3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/c95742a4-ae9b-40f3-8d88-c4955e5a3032">MMC 2.0 Interfaces and Methods</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmc-interfaces-and-methods">MMC 2.0 Interfaces and Methods</a>
  
 
  

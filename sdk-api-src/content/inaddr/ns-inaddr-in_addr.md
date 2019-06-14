@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>in_addr</b> structure represents an IPv4 address.
-<div class="alert"><b>Note</b>  The <b>IPaddr</b> type definition in IP Helper also represents an IPv4 address and can be cast to an interchangeable <a href="https://msdn.microsoft.com/fc41a2d1-ea6e-41bb-b2c8-531ac8b5434c">in_addr</a> structure when needed. The <b>in_addr</b> structure in IP Helper has the same syntax and usage as the Windows Sockets <b>in_addr</b> structure, and is interchangeable with <b>in_addr</b> structure used in Windows sockets. Windows sockets also defines an <b>IN_ADDR</b> typedef for the <b>in_addr</b> structure.</div><div> </div>
+<div class="alert"><b>Note</b>  The <b>IPaddr</b> type definition in IP Helper also represents an IPv4 address and can be cast to an interchangeable <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a> structure when needed. The <b>in_addr</b> structure in IP Helper has the same syntax and usage as the Windows Sockets <b>in_addr</b> structure, and is interchangeable with <b>in_addr</b> structure used in Windows sockets. Windows sockets also defines an <b>IN_ADDR</b> typedef for the <b>in_addr</b> structure.</div><div> </div>
 
 ## -struct-fields
 
@@ -122,43 +122,43 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://msdn.microsoft.com/6495d289-b9b8-42cb-b00b-cde53d3dc91c">ARP_SEND_REPLY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-arp_send_reply">ARP_SEND_REPLY</a>
 
 
 
-<a href="https://msdn.microsoft.com/669264cd-a43c-4681-9416-2704d4232685">AddIPAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-addipaddress">AddIPAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/9171cdf7-4057-4a8d-a34c-1b7b1f94bcb1">GetBestInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getbestinterface">GetBestInterface</a>
 
 
 
-<a href="https://msdn.microsoft.com/4e84fe6f-40bd-4f0e-bb78-4180e13577aa">GetRTTAndHopCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getrttandhopcount">GetRTTAndHopCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/e6d43c35-1009-4df1-bc39-aec97178cae6">ICMP_ECHO_REPLY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-icmp_echo_reply">ICMP_ECHO_REPLY</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa366287(v=VS.85).aspx">IP_UNIDIRECTIONAL_ADAPTER_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-_ip_unidirectional_adapter_address">IP_UNIDIRECTIONAL_ADAPTER_ADDRESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/c3cdc535-2c13-48c6-9ab1-88cc5e5119b5">IcmpSendEcho</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/icmpapi/nf-icmpapi-icmpsendecho">IcmpSendEcho</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f70b6cc-9085-4eb8-b2cc-3b3d98d0ea46">IcmpSendEcho2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/icmpapi/nf-icmpapi-icmpsendecho2">IcmpSendEcho2</a>
 
 
 
-<a href="https://msdn.microsoft.com/5cbaf45a-a64e-49fd-a920-01759b5c4f81">SendARP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-sendarp">SendARP</a>
 
 
 
-<a href="https://msdn.microsoft.com/fc41a2d1-ea6e-41bb-b2c8-531ac8b5434c">in_addr(Winsock)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr(Winsock)</a>
  
 
  

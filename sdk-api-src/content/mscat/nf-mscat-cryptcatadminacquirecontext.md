@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The <b>CryptCATAdminAcquireContext</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CryptCATAdminAcquireContext</b> function acquires a handle to a catalog administrator context. This handle can be used by subsequent calls to the <a href="https://msdn.microsoft.com/a227597c-a0af-4b86-bd29-03f478aef244">CryptCATAdminAddCatalog</a>,  <a href="https://msdn.microsoft.com/33ab2d01-94ab-4d23-a054-9da0731485d6">CryptCATAdminEnumCatalogFromHash</a>, and <a href="https://msdn.microsoft.com/e09fe991-0e7a-45da-910a-8cb148bdff9a">CryptCATAdminRemoveCatalog</a> functions. This function has no associated import library. You must use the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> functions to dynamically link to Wintrust.dll.
+The <b>CryptCATAdminAcquireContext</b> function acquires a handle to a catalog administrator context. This handle can be used by subsequent calls to the <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatadminaddcatalog">CryptCATAdminAddCatalog</a>,  <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatadminenumcatalogfromhash">CryptCATAdminEnumCatalogFromHash</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatadminremovecatalog">CryptCATAdminRemoveCatalog</a> functions. This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>CryptCATAdminAcquireContext</b> function acquires a handle to a catalog a
 
 ### -param phCatAdmin [out]
 
-A pointer to the catalog administrator context handle that is assigned by this function. When you have finished using the handle, close it by calling the <a href="https://msdn.microsoft.com/dff253dc-c444-46be-a383-41340d634cce">CryptCATAdminReleaseContext</a> function.
+A pointer to the catalog administrator context handle that is assigned by this function. When you have finished using the handle, close it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatadminreleasecontext">CryptCATAdminReleaseContext</a> function.
 
 
 ### -param pgSubsystem [in]
@@ -80,7 +80,7 @@ Not used; set to zero.
 
 The return value is <b>TRUE</b> if the function succeeds; <b>FALSE</b> if the function fails.
 
-For extended error information, call the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function. For a complete list of error codes provided by the operating system, see <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+For extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. For a complete list of error codes provided by the operating system, see <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -90,15 +90,15 @@ For extended error information, call the <a href="https://msdn.microsoft.com/d85
 
 
 
-<a href="https://msdn.microsoft.com/a227597c-a0af-4b86-bd29-03f478aef244">CryptCATAdminAddCatalog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatadminaddcatalog">CryptCATAdminAddCatalog</a>
 
 
 
-<a href="https://msdn.microsoft.com/dff253dc-c444-46be-a383-41340d634cce">CryptCATAdminReleaseContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatadminreleasecontext">CryptCATAdminReleaseContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/e09fe991-0e7a-45da-910a-8cb148bdff9a">CryptCATAdminRemoveCatalog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatadminremovecatalog">CryptCATAdminRemoveCatalog</a>
  
 
  

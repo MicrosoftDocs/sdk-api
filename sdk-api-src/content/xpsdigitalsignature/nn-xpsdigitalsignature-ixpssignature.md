@@ -54,7 +54,7 @@ Represents a single digital signature.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsSignature</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IXpsSignature</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsSignature</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsSignature</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,47 +69,47 @@ The <b>IXpsSignature</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e4af0aa3-8420-4297-993c-dda4d4f7cf61">GetCertificateEnumerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignature-getcertificateenumerator">GetCertificateEnumerator</a>
 </td>
 <td align="left" width="63%">
-Gets a pointer to an <a href="https://msdn.microsoft.com/a66ad728-9d20-44d9-a363-1d2a7927d810">IOpcCertificateEnumerator</a> interface, which enumerates the package certificates that are attached to the signature.
+Gets a pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopccertificateenumerator">IOpcCertificateEnumerator</a> interface, which enumerates the package certificates that are attached to the signature.
             
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/98a656c7-714b-4b59-9289-e78dee795eaa">GetCustomObjectEnumerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignature-getcustomobjectenumerator">GetCustomObjectEnumerator</a>
 </td>
 <td align="left" width="63%">
-Gets a pointer to an <a href="https://msdn.microsoft.com/e82caa1e-4cf8-457f-86d9-24f707544199">IOpcSignatureCustomObjectEnumerator</a> interface, which enumerates the custom objects of the signature.
+Gets a pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsignaturecustomobjectenumerator">IOpcSignatureCustomObjectEnumerator</a> interface, which enumerates the custom objects of the signature.
             
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bcdbd3e0-a19a-448c-92b7-71720eff3386">GetCustomReferenceEnumerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignature-getcustomreferenceenumerator">GetCustomReferenceEnumerator</a>
 </td>
 <td align="left" width="63%">
-Gets a pointer to an <a href="https://msdn.microsoft.com/1d0a14c6-826c-419f-9e94-d5929fdbae82">IOpcSignatureReferenceEnumerator</a> interface, which enumerates the custom references of the signature.
+Gets a pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsignaturereferenceenumerator">IOpcSignatureReferenceEnumerator</a> interface, which enumerates the custom references of the signature.
             
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/632e5e53-1677-4b55-9085-0def97531a5d">GetPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignature-getpolicy">GetPolicy</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/en-us/library/Dd372987(v=VS.85).aspx">XPS_SIGN_POLICY</a> value that represents the signing policy used when the signature is created.
+Gets the <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/ne-xpsdigitalsignature-__midl___midl_itf_xpsdigitalsignature_0000_0000_0002">XPS_SIGN_POLICY</a> value that represents the signing policy used when the signature is created.
             
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9debed66-6588-40b5-ab52-a3dba0ddef92">GetSignatureId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignature-getsignatureid">GetSignatureId</a>
 </td>
 <td align="left" width="63%">
 Gets the value of the <b>Id</b> attribute of the <b>Signature</b> element.
@@ -119,7 +119,7 @@ Gets the value of the <b>Id</b> attribute of the <b>Signature</b> element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ed0c29e2-225b-4478-a8d7-d9ec28f8b1f4">GetSignaturePartName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignature-getsignaturepartname">GetSignaturePartName</a>
 </td>
 <td align="left" width="63%">
 Gets the part name of the signature part.
@@ -128,7 +128,7 @@ Gets the part name of the signature part.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/40a21fa3-cf71-4c0d-8343-83a2c1a216c9">GetSignatureValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignature-getsignaturevalue">GetSignatureValue</a>
 </td>
 <td align="left" width="63%">
 Gets the encrypted hash value of the signature.
@@ -137,7 +137,7 @@ Gets the encrypted hash value of the signature.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9e76487c-465c-4d15-82d0-ed2a21decc33">GetSignatureXml</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignature-getsignaturexml">GetSignatureXml</a>
 </td>
 <td align="left" width="63%">
 Gets the XML markup of the digital signature.
@@ -146,7 +146,7 @@ Gets the XML markup of the digital signature.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/47edfe80-2111-4e87-bb11-056cf939bdd9">GetSigningTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignature-getsigningtime">GetSigningTime</a>
 </td>
 <td align="left" width="63%">
 Gets the date and time of signature creation.
@@ -155,7 +155,7 @@ Gets the date and time of signature creation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a75df35c-dd12-4217-a6f8-91401be46225">GetSigningTimeFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignature-getsigningtimeformat">GetSigningTimeFormat</a>
 </td>
 <td align="left" width="63%">
 Gets the format of the signing time.
@@ -164,7 +164,7 @@ Gets the format of the signing time.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3ba32f16-2e11-479c-bc3c-0982e90b883d">SetSignatureXml</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignature-setsignaturexml">SetSignatureXml</a>
 </td>
 <td align="left" width="63%">
 Sets the XML markup of the digital signature.
@@ -173,7 +173,7 @@ Sets the XML markup of the digital signature.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6f3239dd-e29f-4340-a4ad-49ceb6a151de">Verify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignature-verify">Verify</a>
 </td>
 <td align="left" width="63%">
 Verifies the signature against a specified X.509 certificate.
@@ -199,19 +199,19 @@ An <b>IXpsSignature</b> interface may represent a signature that is not XPS comp
 
 
 
-<a href="https://msdn.microsoft.com/a66ad728-9d20-44d9-a363-1d2a7927d810">IOpcCertificateEnumerator</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopccertificateenumerator">IOpcCertificateEnumerator</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb2a561d-2723-45dc-98a6-ecf11101016b">IOpcSignatureCustomObjectSet</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsignaturecustomobjectset">IOpcSignatureCustomObjectSet</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d0a14c6-826c-419f-9e94-d5929fdbae82">IOpcSignatureReferenceEnumerator</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsignaturereferenceenumerator">IOpcSignatureReferenceEnumerator</a>
 
 
 
-<a href="https://msdn.microsoft.com/8d72ff28-6dfb-4fa8-a1b6-14b054aa7eb5">Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316980(v=vs.85)">Interfaces</a>
 
 
 
@@ -219,7 +219,7 @@ An <b>IXpsSignature</b> interface may represent a signature that is not XPS comp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd372987(v=VS.85).aspx">XPS_SIGN_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/ne-xpsdigitalsignature-__midl___midl_itf_xpsdigitalsignature_0000_0000_0002">XPS_SIGN_POLICY</a>
  
 
  

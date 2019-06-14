@@ -106,12 +106,12 @@ See
 
 
 
-<a href="https://msdn.microsoft.com/d9961600-cdca-42ec-92eb-118b8186ed2e">Bluetooth and WSALookupServiceBegin for Service
+<a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-wsalookupservicebegin-for-service-discovery">Bluetooth and WSALookupServiceBegin for Service
 		  Discovery</a>
 
 
 
-<a href="https://msdn.microsoft.com/c52a7e7d-92ab-4103-a6c6-57c3fafec706">Bluetooth and WSAQUERYSET for Service Inquiry</a>
+<a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-wsaqueryset-for-service-inquiry">Bluetooth and WSAQUERYSET for Service Inquiry</a>
  
 
  

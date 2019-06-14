@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the handle to the tab control of a property sheet. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774580(v=VS.85).aspx">PSM_GETTABCONTROL</a> message explicitly.
+Retrieves the handle to the tab control of a property sheet. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-gettabcontrol">PSM_GETTABCONTROL</a> message explicitly.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Retrieves the handle to the tab control of a property sheet. You can use this ma
 
 ### -param hDlg
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the property sheet.
 
@@ -68,7 +68,7 @@ Handle to the property sheet.
 
 
 
-<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PSH_AEROWIZARD</a>).</div>
+<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetheadera_v2">PSH_AEROWIZARD</a>).</div>
 <div> </div>
 
 

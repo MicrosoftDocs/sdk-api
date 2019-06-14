@@ -68,7 +68,7 @@ Contains constants used to distinguish between classes and instances.
 
 
 
-<a href="https://msdn.microsoft.com/e812c0cb-3e08-4cac-8d05-2cd7abc922d1">WMI System Properties</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-system-properties">WMI System Properties</a>
  
 
  

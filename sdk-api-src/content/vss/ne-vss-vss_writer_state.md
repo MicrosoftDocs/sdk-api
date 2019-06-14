@@ -69,7 +69,7 @@ This indicates an error on the part of the writer.
 ### -field VSS_WS_STABLE
 
 The writer has completed processing current shadow copy events and is ready to proceed, or 
-      <a href="https://msdn.microsoft.com/a077323e-d04c-4bf7-8aa6-5028fa1c6e6b">CVssWriter::OnPrepareSnapshot</a> has not yet 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpreparesnapshot">CVssWriter::OnPrepareSnapshot</a> has not yet 
       been called.
 
 
@@ -86,7 +86,7 @@ The writer is waiting for the thaw state.
 ### -field VSS_WS_WAITING_FOR_POST_SNAPSHOT
 
 The writer is waiting for the 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PostSnapshot</a> state.
+     <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PostSnapshot</a> state.
 
 
 ### -field VSS_WS_WAITING_FOR_BACKUP_COMPLETE
@@ -106,7 +106,7 @@ The writer vetoed the shadow copy creation process during the backup preparation
 
 ### -field VSS_WS_FAILED_AT_PREPARE_SNAPSHOT
 
-The writer vetoed the shadow copy creation process during the <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PrepareForSnapshot</a> state.
+The writer vetoed the shadow copy creation process during the <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PrepareForSnapshot</a> state.
 
 
 ### -field VSS_WS_FAILED_AT_FREEZE
@@ -122,27 +122,27 @@ The writer vetoed the shadow copy creation process during the thaw state.
 ### -field VSS_WS_FAILED_AT_POST_SNAPSHOT
 
 The writer vetoed the shadow copy creation process during the 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PostSnapshot</a> state.
+     <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PostSnapshot</a> state.
 
 
 ### -field VSS_WS_FAILED_AT_BACKUP_COMPLETE
 
 The shadow copy has been created and the writer failed during the 
-      <a href="https://msdn.microsoft.com/ee49d4b1-f3f4-4c85-a3a2-f4452d066f21">BackupComplete</a> state. A writer 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-backupcomplete">BackupComplete</a> state. A writer 
       should save information about this failure to the error log. For additional information on logging, see 
-      <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 
 ### -field VSS_WS_FAILED_AT_PRE_RESTORE
 
 The writer failed during the 
-      <a href="https://msdn.microsoft.com/7a4c8869-9655-49a7-818b-98a08103f4b4">PreRestore</a> state.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">PreRestore</a> state.
 
 
 ### -field VSS_WS_FAILED_AT_POST_RESTORE
 
 The writer failed during the 
-      <a href="https://msdn.microsoft.com/01cf3931-59ef-4572-9f2e-aa210da0ac2d">PostRestore</a> state.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-postrestore">PostRestore</a> state.
 
 
 ### -field VSS_WS_FAILED_AT_BACKUPSHUTDOWN
@@ -160,7 +160,7 @@ Reserved value.
 
 
 A requester determines the state of a writer through 
-    <a href="https://msdn.microsoft.com/652e9630-291d-41cd-96d9-6a63988932a5">IVssBackupComponents::GetWriterStatus</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getwriterstatus">IVssBackupComponents::GetWriterStatus</a>.
 
 
 
@@ -170,11 +170,11 @@ A requester determines the state of a writer through
 
 
 
-<a href="https://msdn.microsoft.com/a077323e-d04c-4bf7-8aa6-5028fa1c6e6b">CVssWriter::OnPrepareSnapshot</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpreparesnapshot">CVssWriter::OnPrepareSnapshot</a>
 
 
 
-<a href="https://msdn.microsoft.com/652e9630-291d-41cd-96d9-6a63988932a5">IVssBackupComponents::GetWriterStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getwriterstatus">IVssBackupComponents::GetWriterStatus</a>
  
 
  

@@ -59,44 +59,44 @@ Describes a shader constant-buffer.
 
 ### -field Name
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
 The name of the buffer.
 
 
 ### -field Type
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb204899(v=VS.85).aspx">D3D10_CBUFFER_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb204899(v=vs.85)">D3D10_CBUFFER_TYPE</a></b>
 
-The intended use of the constant data. See <a href="https://msdn.microsoft.com/en-us/library/Bb204899(v=VS.85).aspx">D3D10_CBUFFER_TYPE</a>.
+The intended use of the constant data. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb204899(v=vs.85)">D3D10_CBUFFER_TYPE</a>.
 
 
 ### -field Variables
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The number of unique variables.
 
 
 ### -field Size
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Buffer size (in bytes).
 
 
 ### -field uFlags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Shader buffer properties. See <a href="https://msdn.microsoft.com/en-us/library/Bb172418(v=VS.85).aspx">D3D10_SHADER_CBUFFER_FLAGS</a>.
+Shader buffer properties. See <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_shader_cbuffer_flags">D3D10_SHADER_CBUFFER_FLAGS</a>.
 
 
 ## -remarks
 
 
 
-Constants are supplied to shaders in a shader-constant buffer. Get the description of a shader-constant-buffer by calling <a href="https://msdn.microsoft.com/en-us/library/Bb173837(v=VS.85).aspx">ID3D10ShaderReflectionConstantBuffer::GetDesc</a>.
+Constants are supplied to shaders in a shader-constant buffer. Get the description of a shader-constant-buffer by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflectionconstantbuffer-getdesc">ID3D10ShaderReflectionConstantBuffer::GetDesc</a>.
 
 
 
@@ -106,7 +106,7 @@ Constants are supplied to shaders in a shader-constant buffer. Get the descripti
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205159(v=VS.85).aspx">Shader Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-shader-structures">Shader Structures</a>
  
 
  

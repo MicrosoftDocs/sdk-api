@@ -65,13 +65,13 @@ The operating system handle value.
 ### -field TypeNameRva
 
 An RVA to a 
-<a href="https://msdn.microsoft.com/b90b2b29-9d39-4a73-b5fb-bb6e04c94811">MINIDUMP_STRING</a> structure that specifies the object type of the handle. This member can be zero.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_string">MINIDUMP_STRING</a> structure that specifies the object type of the handle. This member can be zero.
 
 
 ### -field ObjectNameRva
 
 An RVA to a 
-<a href="https://msdn.microsoft.com/b90b2b29-9d39-4a73-b5fb-bb6e04c94811">MINIDUMP_STRING</a> structure that specifies the object name of the handle. This member can be 0.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_string">MINIDUMP_STRING</a> structure that specifies the object name of the handle. This member can be 0.
 
 
 ### -field Attributes
@@ -97,7 +97,7 @@ The meaning of this member depends on the handle type and the operating system.
 ### -field ObjectInfoRva
 
 An RVA to a 
-<a href="https://msdn.microsoft.com/en-us/library/ms680375(v=VS.85).aspx">MINIDUMP_HANDLE_OBJECT_INFORMATION</a> structure that specifies object-specific information. This member can be 0 if there is no extra information.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_handle_object_information">MINIDUMP_HANDLE_OBJECT_INFORMATION</a> structure that specifies object-specific information. This member can be 0 if there is no extra information.
 
 
 ### -field Reserved0
@@ -110,7 +110,7 @@ Reserved for future use; must be zero.
 
 
 The first descriptor in the handle data stream follows the header, 
-<a href="https://msdn.microsoft.com/en-us/library/ms680372(v=VS.85).aspx">MINIDUMP_HANDLE_DATA_STREAM</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_handle_data_stream">MINIDUMP_HANDLE_DATA_STREAM</a>.
 
 
 
@@ -120,15 +120,15 @@ The first descriptor in the handle data stream follows the header,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680372(v=VS.85).aspx">MINIDUMP_HANDLE_DATA_STREAM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_handle_data_stream">MINIDUMP_HANDLE_DATA_STREAM</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680375(v=VS.85).aspx">MINIDUMP_HANDLE_OBJECT_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_handle_object_information">MINIDUMP_HANDLE_OBJECT_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/b90b2b29-9d39-4a73-b5fb-bb6e04c94811">MINIDUMP_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_string">MINIDUMP_STRING</a>
  
 
  

@@ -63,9 +63,9 @@ ms.custom: 19H1
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/35a78bde-ba80-4328-8fb8-77ca73c1c04b">DWRITE_FLOW_DIRECTION</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_flow_direction">DWRITE_FLOW_DIRECTION</a></b>
 
-The direction that text lines flow within their parent container.  For example, <a href="https://msdn.microsoft.com/35a78bde-ba80-4328-8fb8-77ca73c1c04b">DWRITE_FLOW_DIRECTION_TOP_TO_BOTTOM</a> indicates that text lines are placed from top to bottom.
+The direction that text lines flow within their parent container.  For example, <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_flow_direction">DWRITE_FLOW_DIRECTION_TOP_TO_BOTTOM</a> indicates that text lines are placed from top to bottom.
 
 
 
@@ -75,7 +75,7 @@ The direction that text lines flow within their parent container.  For example, 
 
 
 
-<a href="https://msdn.microsoft.com/64b2cac3-c4cb-4213-b808-7b279d296939">IDWriteTextFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a>
  
 
  

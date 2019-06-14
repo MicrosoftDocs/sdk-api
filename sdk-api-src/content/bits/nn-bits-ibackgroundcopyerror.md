@@ -56,12 +56,12 @@ BITS creates an error object only when the state of the job is BG_JOB_STATE_ERRO
 
 To get an 
 <b>IBackgroundCopyError</b> object, call the 
-<a href="https://msdn.microsoft.com/2ad4c913-2d1e-4490-968c-960178a57e3b">IBackgroundCopyJob::GetError</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-geterror">IBackgroundCopyJob::GetError</a> method.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyError</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBackgroundCopyError</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyError</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBackgroundCopyError</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>IBackgroundCopyError</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/abdf115d-3ff2-4664-b053-f55872ad24ab">GetError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-geterror">GetError</a>
 </td>
 <td align="left" width="63%">
 Retrieves the error code and identifies the context in which the error occurred.
@@ -85,7 +85,7 @@ Retrieves the error code and identifies the context in which the error occurred.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/87f5ae62-c171-4637-bebb-3a5c5aa546b3">GetErrorContextDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-geterrorcontextdescription">GetErrorContextDescription</a>
 </td>
 <td align="left" width="63%">
 Retrieves a description of the context in which the error occurred.
@@ -94,7 +94,7 @@ Retrieves a description of the context in which the error occurred.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/57323f38-c2e6-4e40-b357-7df758899f97">GetErrorDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-geterrordescription">GetErrorDescription</a>
 </td>
 <td align="left" width="63%">
 Retrieves the error text associated with the error.
@@ -103,7 +103,7 @@ Retrieves the error text associated with the error.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7b6d4bd4-2102-4e6b-b250-1d73fae94cf9">GetFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-getfile">GetFile</a>
 </td>
 <td align="left" width="63%">
 Retrieves an interface pointer to the file object associated with the error.
@@ -112,7 +112,7 @@ Retrieves an interface pointer to the file object associated with the error.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/94c1fcc8-7132-41db-9a1c-cbe105e3b0bb">GetProtocol</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-getprotocol">GetProtocol</a>
 </td>
 <td align="left" width="63%">
 Retrieves the protocol used to transfer the file.
@@ -127,23 +127,23 @@ Retrieves the protocol used to transfer the file.
 
 
 
-<a href="https://msdn.microsoft.com/a7857cf1-05b7-42df-b79e-50a2f6a406dc">BG_JOB_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-__midl_ibackgroundcopyjob_0002">BG_JOB_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e206195-1a8c-435e-9b8f-6517b8e3c4ca">IBackgroundCopyCallback::JobError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopycallback-joberror">IBackgroundCopyCallback::JobError</a>
 
 
 
-<a href="https://msdn.microsoft.com/2ad4c913-2d1e-4490-968c-960178a57e3b">IBackgroundCopyJob::GetError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-geterror">IBackgroundCopyJob::GetError</a>
 
 
 
-<a href="https://msdn.microsoft.com/32789bd2-2368-473b-accf-ac6e317d0172">IBackgroundCopyJob::GetState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getstate">IBackgroundCopyJob::GetState</a>
 
 
 
-<a href="https://msdn.microsoft.com/e62e2bde-485d-42d4-b824-a682ab9e16ca">IBackgroundCopyManager::GetErrorDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-geterrordescription">IBackgroundCopyManager::GetErrorDescription</a>
  
 
  

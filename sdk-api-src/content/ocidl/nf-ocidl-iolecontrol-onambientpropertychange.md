@@ -86,7 +86,7 @@ S_OK is returned in all cases even when the control does not support ambient pro
 
 
 
-<a href="https://msdn.microsoft.com/ef85dce6-b680-4a72-9277-4cfdab27cbbc">IOleControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iolecontrol">IOleControl</a>
  
 
  

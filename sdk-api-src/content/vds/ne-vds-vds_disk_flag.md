@@ -49,10 +49,10 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set of valid flags for a disk object.
-<div class="alert"><b>Note</b>    Except for  <b>VDS_DF_READ_ONLY</b>, these flags  cannot be set by using the <a href="https://msdn.microsoft.com/0ede6a22-b15c-4afd-8d49-c963ea7e2052">IVdsDisk::SetFlags</a> method or cleared by using the <a href="https://msdn.microsoft.com/3ee43acd-6dcc-40de-9bb6-de7cfb605f15">IVdsDisk::ClearFlags</a> method.</div><div> </div>
+<div class="alert"><b>Note</b>    Except for  <b>VDS_DF_READ_ONLY</b>, these flags  cannot be set by using the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk-setflags">IVdsDisk::SetFlags</a> method or cleared by using the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk-clearflags">IVdsDisk::ClearFlags</a> method.</div><div> </div>
 
 ## -enum-fields
 
@@ -91,7 +91,7 @@ The disk is clustered.
 
 ### -field VDS_DF_READ_ONLY
 
-This flag indicates that the disk's read-only attribute, which is maintained by the Windows operating system, is set. This attribute  can be set by using the <a href="https://msdn.microsoft.com/0ede6a22-b15c-4afd-8d49-c963ea7e2052">IVdsDisk::SetFlags</a> method and cleared by using the <a href="https://msdn.microsoft.com/3ee43acd-6dcc-40de-9bb6-de7cfb605f15">IVdsDisk::ClearFlags</a> method. This flag and the corresponding attribute do not necessarily reflect the actual read-only state of the disk, which is indicated by the <b>VDS_DF_CURRENT_READ_ONLY</b> flag.
+This flag indicates that the disk's read-only attribute, which is maintained by the Windows operating system, is set. This attribute  can be set by using the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk-setflags">IVdsDisk::SetFlags</a> method and cleared by using the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk-clearflags">IVdsDisk::ClearFlags</a> method. This flag and the corresponding attribute do not necessarily reflect the actual read-only state of the disk, which is indicated by the <b>VDS_DF_CURRENT_READ_ONLY</b> flag.
 
 <b>Windows Vista and Windows Server 2003:  </b>Not supported before Windows Vista with SP1 and Windows Server 2008.
 
@@ -158,7 +158,7 @@ On computers that use the Extended Firmware Interface (EFI), this flag is set on
 
 ### -field VDS_DF_CURRENT_READ_ONLY
 
-This flag indicates that the disk is in a read-only state. If it is not set, the disk is read/write. Unlike the <b>VDS_DF_READ_ONLY</b> flag, which is used to change the disk's read-only attribute maintained by the Windows operating system, this flag reflects the actual disk state.  This flag  cannot be set by using the <a href="https://msdn.microsoft.com/0ede6a22-b15c-4afd-8d49-c963ea7e2052">IVdsDisk::SetFlags</a> method or cleared by using the <a href="https://msdn.microsoft.com/3ee43acd-6dcc-40de-9bb6-de7cfb605f15">IVdsDisk::ClearFlags</a> method.
+This flag indicates that the disk is in a read-only state. If it is not set, the disk is read/write. Unlike the <b>VDS_DF_READ_ONLY</b> flag, which is used to change the disk's read-only attribute maintained by the Windows operating system, this flag reflects the actual disk state.  This flag  cannot be set by using the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk-setflags">IVdsDisk::SetFlags</a> method or cleared by using the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk-clearflags">IVdsDisk::ClearFlags</a> method.
 
 The disk will be in a read-only state if its read-only attribute is set. However, a  disk can be in a read-only state even if its read-only attribute is not set, if the underlying hardware is read-only. For example, if the LUN is in read-only state, or if the disk is a virtual hard disk that resides on a volume that is read-only, the underlying hardware is read-only, and therefore the disk is in a read-only state.<b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This flag is not supported.
 
@@ -174,9 +174,9 @@ The disk will be in a read-only state if its read-only attribute is set. However
 
 
 
-This enumeration provides the values for the <b>ulFlags</b> member of the <a href="https://msdn.microsoft.com/c7c09f95-9489-46fd-8b03-cabdee4521cf">VDS_DISK_PROP</a> and <a href="https://msdn.microsoft.com/f51c2937-4b70-44fb-b626-1df072e2622a">VDS_DISK_PROP2</a> structures. The <b>VDS_DISK_PROP</b> structure is returned by the <a href="https://msdn.microsoft.com/d2046a26-852d-46b2-b060-98b4a2a92387">IVdsDisk::GetProperties</a> method. The <b>VDS_DISK_PROP2</b> structure is returned by the <a href="https://msdn.microsoft.com/ef88b61b-9139-4767-b54f-46122650e922">IVdsDisk3::GetProperties2</a> method.
+This enumeration provides the values for the <b>ulFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_disk_prop">VDS_DISK_PROP</a> and <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_disk_prop2">VDS_DISK_PROP2</a> structures. The <b>VDS_DISK_PROP</b> structure is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk-getproperties">IVdsDisk::GetProperties</a> method. The <b>VDS_DISK_PROP2</b> structure is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk3-getproperties2">IVdsDisk3::GetProperties2</a> method.
 
-All of the <b>VDS_DISK_FLAG</b> flag values are set by the VDS service; they cannot be set by applications. An exception is the <b>VDS_DF_READ_ONLY</b> flag, which can be set by using the <a href="https://msdn.microsoft.com/0ede6a22-b15c-4afd-8d49-c963ea7e2052">IVdsDisk::SetFlags</a> method and cleared by using the <a href="https://msdn.microsoft.com/3ee43acd-6dcc-40de-9bb6-de7cfb605f15">IVdsDisk::ClearFlags</a> method.
+All of the <b>VDS_DISK_FLAG</b> flag values are set by the VDS service; they cannot be set by applications. An exception is the <b>VDS_DF_READ_ONLY</b> flag, which can be set by using the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk-setflags">IVdsDisk::SetFlags</a> method and cleared by using the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk-clearflags">IVdsDisk::ClearFlags</a> method.
 
 USB disks and CD-ROMs have the following restrictions and capabilities:
 
@@ -198,27 +198,27 @@ USB disks and CD-ROMs have the following restrictions and capabilities:
 
 
 
-<a href="https://msdn.microsoft.com/ef88b61b-9139-4767-b54f-46122650e922">IVdsDisk3::GetProperties2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk3-getproperties2">IVdsDisk3::GetProperties2</a>
 
 
 
-<a href="https://msdn.microsoft.com/3ee43acd-6dcc-40de-9bb6-de7cfb605f15">IVdsDisk::ClearFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk-clearflags">IVdsDisk::ClearFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/d2046a26-852d-46b2-b060-98b4a2a92387">IVdsDisk::GetProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk-getproperties">IVdsDisk::GetProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/0ede6a22-b15c-4afd-8d49-c963ea7e2052">IVdsDisk::SetFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk-setflags">IVdsDisk::SetFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/c7c09f95-9489-46fd-8b03-cabdee4521cf">VDS_DISK_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_disk_prop">VDS_DISK_PROP</a>
 
 
 
-<a href="https://msdn.microsoft.com/f51c2937-4b70-44fb-b626-1df072e2622a">VDS_DISK_PROP2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_disk_prop2">VDS_DISK_PROP2</a>
  
 
  

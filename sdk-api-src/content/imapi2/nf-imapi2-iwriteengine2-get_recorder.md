@@ -59,7 +59,7 @@ Retrieves the recording device to use in the write operation.
 
 ### -param value [out]
 
-An <a href="https://msdn.microsoft.com/37e65b57-ec53-405c-a7bd-34c2df15d5d7">IDiscRecorder2Ex</a> interface that identifies the recording device to use in the write operation.
+An <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a> interface that identifies the recording device to use in the write operation.
 
 
 ## -returns
@@ -97,11 +97,11 @@ Value: 0x80004003
 
 
 
-<a href="https://msdn.microsoft.com/89e7526f-2b9b-4f37-b537-5046a0ac283d">IWriteEngine2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2">IWriteEngine2</a>
 
 
 
-<a href="https://msdn.microsoft.com/3ab46d99-7940-4ad0-9772-634de8c0d0ef">IWriteEngine2::put_Recorder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-put_recorder">IWriteEngine2::put_Recorder</a>
  
 
  

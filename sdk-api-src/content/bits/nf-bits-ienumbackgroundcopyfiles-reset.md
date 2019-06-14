@@ -73,7 +73,7 @@ This method returns <b>S_OK</b> on success or one of the standard COM <b>HRESULT
 
 
 
-<a href="https://msdn.microsoft.com/831998ba-601c-43c4-ba27-faff741f8eb4">IEnumBackgroundCopyFiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ienumbackgroundcopyfiles">IEnumBackgroundCopyFiles</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Called by an <a href="https://msdn.microsoft.com/en-us/library/Ee418456(v=VS.85).aspx">IXAPO::Process</a> implementation when an XAPO is disabled for thru processing.
+Called by an <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-process">IXAPO::Process</a> implementation when an XAPO is disabled for thru processing.
 
 
 ## -parameters
@@ -139,11 +139,11 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415236(v=VS.85).aspx">CXAPOBase</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xapobase/nl-xapobase-cxapobase">CXAPOBase</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415893(v=VS.85).aspx">IXAPO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a>
  
 
  

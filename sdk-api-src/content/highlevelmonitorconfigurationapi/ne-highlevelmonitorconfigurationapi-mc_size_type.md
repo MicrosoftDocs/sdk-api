@@ -74,11 +74,11 @@ Height.
 
 
 
-<a href="https://msdn.microsoft.com/c27cbcf8-bb89-47c4-9f37-8b7a3d61c99f">GetMonitorDisplayAreaSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-getmonitordisplayareasize">GetMonitorDisplayAreaSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/d6ab74af-0ac4-4dfe-bbf8-21b8339d2826">Monitor Configuration Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/Monitor/monitor-configuration-enumeration-types">Monitor Configuration Enumeration Types</a>
  
 
  

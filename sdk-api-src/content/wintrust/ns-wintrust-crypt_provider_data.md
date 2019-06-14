@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The  <b>CRYPT_PROVIDER_DATA</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CRYPT_PROVIDER_DATA</b> structure is used to pass data between <a href="https://msdn.microsoft.com/b7efac6a-ac9f-477a-aada-63fe32208e6f">WinVerifyTrust</a> and trust providers.
+The <b>CRYPT_PROVIDER_DATA</b> structure is used to pass data between <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> and trust providers.
 
 
 ## -struct-fields
@@ -66,7 +66,7 @@ The size, in bytes, of this structure.
 
 ### -field pWintrustData
 
-A pointer to a <a href="https://msdn.microsoft.com/8fb68f44-6f69-4eac-90de-02689e3e86cf">WINTRUST_DATA</a> structure that contains the information to verify.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_wintrust_data">WINTRUST_DATA</a> structure that contains the information to verify.
 
 
 ### -field fOpenedFile
@@ -86,7 +86,7 @@ A pointer to a <b>GUID</b> structure that identifies an action and the trust pro
 
 ### -field hProv
 
-A handle to the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP). If this parameter is <b>NULL</b>, then the operating system will provide a default CSP.
+A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP). If this parameter is <b>NULL</b>, then the operating system will provide a default CSP.
 
 
 ### -field dwError
@@ -106,7 +106,7 @@ The registry policy settings.
 
 ### -field psPfns
 
-A pointer to a <a href="https://msdn.microsoft.com/2c00f8ec-e262-4df8-8984-a2702a4162bf">CRYPT_PROVIDER_FUNCTIONS</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_provider_functions">CRYPT_PROVIDER_FUNCTIONS</a> structure.
 
 
 ### -field cdwTrustStepErrors
@@ -146,7 +146,7 @@ The number of elements in the <b>pasSigners</b> array.
 
 ### -field pasSigners
 
-A pointer to an array of <a href="https://msdn.microsoft.com/39cf9a03-768d-4ae0-a19d-17652181dbe4">CRYPT_PROVIDER_SGNR</a> structures.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_provider_sgnr">CRYPT_PROVIDER_SGNR</a> structures.
 
 
 ### -field csProvPrivData
@@ -156,7 +156,7 @@ The number of elements in the <b>pasProvPrivData</b> array.
 
 ### -field pasProvPrivData
 
-A pointer to an array of <a href="https://msdn.microsoft.com/499e4d9b-991a-4317-bc74-a1dfb6609a70">CRYPT_PROVIDER_PRIVDATA</a> structures.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_provider_privdata">CRYPT_PROVIDER_PRIVDATA</a> structures.
 
 
 ### -field dwSubjectChoice
@@ -171,7 +171,7 @@ A pointer to a <b>_PROVDATA_SIP</b> structure.
 
 ### -field pszUsageOID
 
-A pointer to a null-terminated string that contains the usage <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID).
+A pointer to a null-terminated string that contains the usage <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID).
 
 
 ### -field fRecallWithState
@@ -186,7 +186,7 @@ The system time.
 
 ### -field pszCTLSignerUsageOID
 
-A pointer to a null-terminated string that represents the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate trust list</a> (CTL) signer usage OID.
+A pointer to a null-terminated string that represents the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) signer usage OID.
 
 
 ### -field dwProvFlags
@@ -267,7 +267,7 @@ A value for the final error.
 
 ### -field pRequestUsage
 
-A pointer to a <a href="https://msdn.microsoft.com/6154f1f7-4293-4b8e-91ab-9f57bb6f5743">CERT_USAGE_MATCH</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_usage_match">CERT_USAGE_MATCH</a> structure.
 
 
 ### -field dwTrustPubSettings

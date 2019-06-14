@@ -51,14 +51,14 @@ ms.custom: 19H1
 
 The 
 <b>ITRequest</b> interface allows an application to use 
-<a href="https://msdn.microsoft.com/1c41f52b-f8bf-410e-a966-9323a690a4d5">Assisted Telephony</a>. Assisted Telephony provides telephony-enabled applications with a simple mechanism for making phone calls without requiring the developer to become fully literate in telephony.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/assisted-telephony-overview">Assisted Telephony</a>. Assisted Telephony provides telephony-enabled applications with a simple mechanism for making phone calls without requiring the developer to become fully literate in telephony.
 
 The Request object must be created using COM <b>CoCreateInstance</b>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITRequest</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITRequest</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITRequest</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITRequest</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>ITRequest</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6896a18a-75ff-4f43-81e2-7b828bb16ff6">MakeCall</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itrequest-makecall">MakeCall</a>
 </td>
 <td align="left" width="63%">
 Makes call to designated party.

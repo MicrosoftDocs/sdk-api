@@ -63,7 +63,7 @@ The <code>SetFormat</code> method sets the output format on the pin.
 
 ### -param pmt [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02">AM_MEDIA_TYPE</a> structure that specifies the new format.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_ammediatype">AM_MEDIA_TYPE</a> structure that specifies the new format.
 
 
 ## -returns
@@ -166,7 +166,7 @@ Cannot set the type; the filter is not stopped.
 
 This method specifies the format for the output pin. If the pin is not connected, it will use this format for its next connection. If the pin is already connected, it will attempt to reconnect with this format. The method might fail if the other pin rejects the new type.
 
-If this method succeeds, subsequent calls to the <a href="https://msdn.microsoft.com/288be4db-5236-40e5-bd92-d95b1bfb86fa">IPin::EnumMediaTypes</a> method will return the new type, and no others.
+If this method succeeds, subsequent calls to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-enummediatypes">IPin::EnumMediaTypes</a> method will return the new type, and no others.
 
 On most filters, this method fails if the filter is paused or running. On some compression filters, the method fails if the filter's input pin is not connected.
 
@@ -174,7 +174,7 @@ With some filters, you can call this method with the value <b>NULL</b> to reset 
 
 <b>Filter Developers</b>: The following remarks describe how to implement this method:
 
-If the output pin is not connected, and the pin supports the specified media type, return S_OK. Store the media type and offer it as format number zero in the <a href="https://msdn.microsoft.com/96f102b0-e2d1-49a1-84af-aa4622cae2a9">CBasePin::GetMediaType</a> method. Do not offer other formats, and reject other formats in the <a href="https://msdn.microsoft.com/6a138679-02b7-4ccc-8881-a0d496f84f93">CBasePin::CheckMediaType</a> method.
+If the output pin is not connected, and the pin supports the specified media type, return S_OK. Store the media type and offer it as format number zero in the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/cbasepin-getmediatype">CBasePin::GetMediaType</a> method. Do not offer other formats, and reject other formats in the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/cbasepin-checkmediatype">CBasePin::CheckMediaType</a> method.
 
 If the pin is already connected, and the pin supports the media type, reconnect the pin with that type. If the other pin rejects the new type, return VFW_E_INVALIDMEDIATYPE and restore the original connection.
 
@@ -186,11 +186,11 @@ If the pin is already connected, and the pin supports the media type, reconnect 
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/c171763e-9108-49a0-a4b7-855c6db0a71d">IAMStreamConfig Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamstreamconfig">IAMStreamConfig Interface</a>
  
 
  

@@ -59,9 +59,9 @@ Called by an application to fax a file.
 
 ### -param sndMode
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa358866(v=VS.85).aspx">SendToMode</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fxsutility/ne-fxsutility-sendtomode">SendToMode</a></b>
 
-A value specifying how to send the fax. For Windows Vista, this must be <a href="https://msdn.microsoft.com/en-us/library/Aa358866(v=VS.85).aspx">SEND_TO_FAX_RECIPIENT_ATTACHMENT</a>.
+A value specifying how to send the fax. For Windows Vista, this must be <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fxsutility/ne-fxsutility-sendtomode">SEND_TO_FAX_RECIPIENT_ATTACHMENT</a>.
 
 
 ### -param lpFileName
@@ -86,7 +86,7 @@ Zero, if the operation is successful.
 
 
 
-Call <a href="https://msdn.microsoft.com/en-us/library/Aa358862(v=VS.85).aspx">CanSendToFaxRecipient</a> first to determine if faxing from within an application is possible on the computer.  
+Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fxsutility/nf-fxsutility-cansendtofaxrecipient">CanSendToFaxRecipient</a> first to determine if faxing from within an application is possible on the computer.  
         
 
 
@@ -97,15 +97,15 @@ Call <a href="https://msdn.microsoft.com/en-us/library/Aa358862(v=VS.85).aspx">C
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358862(v=VS.85).aspx">CanSendToFaxRecipient</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fxsutility/nf-fxsutility-cansendtofaxrecipient">CanSendToFaxRecipient</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358866(v=VS.85).aspx">SendToMode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fxsutility/ne-fxsutility-sendtomode">SendToMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358863(v=VS.85).aspx">Shell Fax Extension Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-shell-fax-extension-functions">Shell Fax Extension Functions</a>
  
 
  

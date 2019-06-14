@@ -90,9 +90,9 @@ If this parameter is <b>TRUE</b>, the two threads are attached. If the parameter
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-<b>Windows Server 2003 and Windows XP:  </b>There is no extended error information; do not call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. This behavior changed as of Windows Vista.
+<b>Windows Server 2003 and Windows XP:  </b>There is no extended error information; do not call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. This behavior changed as of Windows Vista.
 
 
 
@@ -108,9 +108,9 @@ The
 <b>AttachThreadInput</b> function also fails if a journal record hook is installed. Journal record hooks attach all input queues together.
 
 Note that key state, which can be ascertained by calls to the 
-<a href="https://msdn.microsoft.com/en-us/library/ms646301(v=VS.85).aspx">GetKeyState</a> or 
-<a href="https://msdn.microsoft.com/en-us/library/ms646299(v=VS.85).aspx">GetKeyboardState</a> function, is reset after a call to 
-<b>AttachThreadInput</b>. You cannot attach a thread to a thread in another <a href="https://msdn.microsoft.com/c56cd63b-c260-40d0-9a62-1dee1eb18679">desktop</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeyboardstate">GetKeyboardState</a> function, is reset after a call to 
+<b>AttachThreadInput</b>. You cannot attach a thread to a thread in another <a href="https://docs.microsoft.com/windows/desktop/winstation/desktops">desktop</a>.
 
 
 
@@ -120,31 +120,31 @@ Note that key state, which can be ascertained by calls to the
 
 
 
-<a href="https://msdn.microsoft.com/a496f61a-e027-44e7-8b22-4f6651d7afb2">GetCurrentThreadId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentthreadid">GetCurrentThreadId</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646301(v=VS.85).aspx">GetKeyState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646299(v=VS.85).aspx">GetKeyboardState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeyboardstate">GetKeyboardState</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633522(v=VS.85).aspx">GetWindowThreadProcessId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowthreadprocessid">GetWindowThreadProcessId</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c8e8af0-bf50-4a4b-945c-83bae1eff7dd">Process and Thread Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd376983(v=VS.85).aspx">SetFocus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iresourcemanager-setfocus">SetFocus</a>
 
 
 
-<a href="https://msdn.microsoft.com/a78c17dc-d5d9-4baf-8770-597b04fa3fa8">Threads</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/multiple-threads">Threads</a>
  
 
  

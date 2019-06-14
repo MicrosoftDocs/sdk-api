@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns a <a href="https://msdn.microsoft.com/abcc84af-6067-4856-8618-fb66aff4255a">IWICBitmapSource</a> that is backed by the pixels of a Windows Graphics Device Interface (GDI) section handle.
+Returns a <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> that is backed by the pixels of a Windows Graphics Device Interface (GDI) section handle.
 
 
 ## -parameters
@@ -74,7 +74,7 @@ The height of the bitmap pixels.
 
 ### -param pixelFormat
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ee719797(v=VS.85).aspx">REFWICPixelFormatGUID</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-native-pixel-formats">REFWICPixelFormatGUID</a></b>
 
 The pixel format of the bitmap.
 
@@ -83,7 +83,7 @@ The pixel format of the bitmap.
 
 Type: <b>HANDLE</b>
 
-The section handle. This is a file mapping object handle returned by the <a href="https://msdn.microsoft.com/d3302183-76a0-47ec-874f-1173db353dfe">CreateFileMapping</a> function.
+The section handle. This is a file mapping object handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfilemappinga">CreateFileMapping</a> function.
 
 
 ### -param stride [in]
@@ -102,14 +102,14 @@ The offset into the section.
 
 ### -param desiredAccessLevel [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4b08bc8c-d67c-4bc4-a701-2903a971a478">WICSectionAccessLevel</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicsectionaccesslevel">WICSectionAccessLevel</a></b>
 
 The desired access level.
 
 
 ### -param ppIBitmap [out]
 
-Type: <b><a href="https://msdn.microsoft.com/15dcc80d-ef58-453d-a57a-348ffc7ddc6b">IWICBitmap</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a>**</b>
 
 A pointer that receives the bitmap.
 

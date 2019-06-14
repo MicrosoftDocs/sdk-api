@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Base interface that provides methods for controlling a spatial audio object render stream, including starting, stopping, and resetting the stream. Also provides methods for activating new <a href="https://msdn.microsoft.com/EE83AF5F-4342-4CF2-81A7-1123F8DAFA6F">ISpatialAudioObject</a> instances and notifying the system when you are beginning and ending the process of updating activated spatial audio objects and data.
+Base interface that provides methods for controlling a spatial audio object render stream, including starting, stopping, and resetting the stream. Also provides methods for activating new <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobject">ISpatialAudioObject</a> instances and notifying the system when you are beginning and ending the process of updating activated spatial audio objects and data.
 
 This interface is a part of  Windows Sonic, Microsoft’s audio platform for more immersive audio which includes integrated spatial sound on Xbox and Windows. 
 
@@ -59,7 +59,7 @@ This interface is a part of  Windows Sonic, Microsoft’s audio platform for mor
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialAudioObjectRenderStreamBase</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISpatialAudioObjectRenderStreamBase</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialAudioObjectRenderStreamBase</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISpatialAudioObjectRenderStreamBase</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,25 +74,25 @@ The <b>ISpatialAudioObjectRenderStreamBase</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9D858556-2EBE-4DF6-878B-BE0E12079248">BeginUpdatingAudioObjects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-beginupdatingaudioobjects">BeginUpdatingAudioObjects</a>
 </td>
 <td align="left" width="63%">
-Puts the system into the state where audio object data can be submitted for processing and the <a href="https://msdn.microsoft.com/EE83AF5F-4342-4CF2-81A7-1123F8DAFA6F">ISpatialAudioObject</a> state can be modified.
+Puts the system into the state where audio object data can be submitted for processing and the <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobject">ISpatialAudioObject</a> state can be modified.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/111DB695-66F6-45DD-B3B6-1DFB0D5D29FC">EndUpdatingAudioObjects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-endupdatingaudioobjects">EndUpdatingAudioObjects</a>
 </td>
 <td align="left" width="63%">
-Notifies the system that the app has finished supplying audio data for the spatial audio objects activated with <a href="https://msdn.microsoft.com/1B99E7FB-0796-4902-9B00-470FD08F8AFA">ActivateSpatialAudioObject</a>.
+Notifies the system that the app has finished supplying audio data for the spatial audio objects activated with <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstream-activatespatialaudioobject">ActivateSpatialAudioObject</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5E17B53A-B999-4B08-9DFB-96D55E7F9CF7">GetAvailableDynamicObjectCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-getavailabledynamicobjectcount">GetAvailableDynamicObjectCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of dynamic spatial audio objects that are currently available.
@@ -101,7 +101,7 @@ Gets the number of dynamic spatial audio objects that are currently available.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9262C9E1-DE15-460C-9BC2-DAD5163F447E">GetService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-getservice">GetService</a>
 </td>
 <td align="left" width="63%">
 Gets additional services from the <b>ISpatialAudioObjectRenderStream</b>.
@@ -110,7 +110,7 @@ Gets additional services from the <b>ISpatialAudioObjectRenderStream</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F6F096C0-3384-4463-B25F-99C6A7B3263B">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Reset a stopped audio stream.   
@@ -121,7 +121,7 @@ Reset a stopped audio stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/25D968AC-F5D2-4CAB-87ED-29FC63E5A5A4">Start</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-start">Start</a>
 </td>
 <td align="left" width="63%">
 Starts the spatial audio stream.  
@@ -130,7 +130,7 @@ Starts the spatial audio stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6ECD17AB-C37D-4F4E-9D7F-EC48FC3B838C">Stop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-stop">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops a running audio stream.   

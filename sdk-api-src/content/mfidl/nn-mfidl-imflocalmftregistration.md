@@ -51,12 +51,12 @@ ms.custom: 19H1
 
 Registers Media Foundation transforms (MFTs) in the caller's process.
 
-The Media Session exposes this interface as a service. To obtain a pointer to this interface, call the <a href="https://msdn.microsoft.com/4287dd1f-1718-4231-bc62-b58e0e61d688">IMFGetService::GetService</a> method on the Media Session with the service identifier <b>MF_LOCAL_MFT_REGISTRATION_SERVICE</b>.
+The Media Session exposes this interface as a service. To obtain a pointer to this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> method on the Media Session with the service identifier <b>MF_LOCAL_MFT_REGISTRATION_SERVICE</b>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFLocalMFTRegistration</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFLocalMFTRegistration</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFLocalMFTRegistration</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFLocalMFTRegistration</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IMFLocalMFTRegistration</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3f77b5b9-94af-42b1-83ca-cb3310083632">RegisterMFTs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imflocalmftregistration-registermfts">RegisterMFTs</a>
 </td>
 <td align="left" width="63%">
 Registers one or more  MFTs in the caller's process.
@@ -89,10 +89,10 @@ This interface requires the Media Session. If you are not using the Media Sessio
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/802f7083-e224-4e5c-8a35-3e93da0cbd91">MFTRegisterLocal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftregisterlocal">MFTRegisterLocal</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/80c45ac3-4487-41bf-a5f5-f459db3cd700">MFTRegisterLocalByCLSID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftregisterlocalbyclsid">MFTRegisterLocalByCLSID</a>
 </li>
 </ul>
 
@@ -103,7 +103,7 @@ This interface requires the Media Session. If you are not using the Media Sessio
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

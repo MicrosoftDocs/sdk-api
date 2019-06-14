@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an <a href="https://msdn.microsoft.com/847fd8a3-eb00-43f7-a89f-579cd79d0620">AutoSelectionMode</a> value indicating the automatic selection mode of an update in the Control Panel of Windows Update.
+Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-tagautoselectionmode">AutoSelectionMode</a> value indicating the automatic selection mode of an update in the Control Panel of Windows Update.
 
 This property is read-only.
 
@@ -72,7 +72,7 @@ The AutoSelection property indicates whether the update will be automatically se
 
 
 
-<a href="https://msdn.microsoft.com/ec25e83b-2bd0-4ec4-99db-7a9877c4a42f">IWindowsUpdateDriver5</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate5">IWindowsUpdateDriver5</a>
  
 
  

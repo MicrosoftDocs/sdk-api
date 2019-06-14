@@ -54,7 +54,7 @@ Navigates the settings tree, retrieves the metadata for a particular setting, an
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISettingsItem</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISettingsItem</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISettingsItem</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISettingsItem</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISettingsItem</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7a6751f2-0934-4329-9ab2-9ae9802bc33e">Attributes</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-attributes">Attributes</a>
 </td>
 <td align="left" width="63%">
 Gets a collection of the item attributes.
@@ -78,7 +78,7 @@ Gets a collection of the item attributes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/33bd7f91-c414-420e-bc18-1114924b93e9">Children</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-children">Children</a>
 </td>
 <td align="left" width="63%">
 Gets a collection of the items children.
@@ -87,7 +87,7 @@ Gets a collection of the items children.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c18fd849-aaa5-49d0-9e72-b3134a6f2be8">CreateListElement</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-createlistelement">CreateListElement</a>
 </td>
 <td align="left" width="63%">
 Creates a list element.
@@ -96,7 +96,7 @@ Creates a list element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8b51329e-dc81-46dc-b174-0191e2eea44a">CreateSettingByPath</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-createsettingbypath">CreateSettingByPath</a>
 </td>
 <td align="left" width="63%">
 Creates a child setting or list element.
@@ -105,7 +105,7 @@ Creates a child setting or list element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/995184e4-05ff-41f1-9404-872a82bedd49">GetAttribute</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-getattribute">GetAttribute</a>
 </td>
 <td align="left" width="63%">
 Gets an attribute from the item.
@@ -114,7 +114,7 @@ Gets an attribute from the item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4a3d3212-bd47-46fb-9ce1-79ac109c6444">GetChild</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-getchild">GetChild</a>
 </td>
 <td align="left" width="63%">
 Gets a child of the item.
@@ -123,7 +123,7 @@ Gets a child of the item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6ccb99aa-35d5-4f0b-a4f3-a42c4579bc4a">GetDataType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-getdatatype">GetDataType</a>
 </td>
 <td align="left" width="63%">
 Gets the data type of an item.
@@ -132,7 +132,7 @@ Gets the data type of an item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a627d0aa-05ef-43b6-a8e8-bb0770dd8873">GetKeyValue</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-getkeyvalue">GetKeyValue</a>
 </td>
 <td align="left" width="63%">
 Extracts key values for any list that already exists in the image.
@@ -141,7 +141,7 @@ Extracts key values for any list that already exists in the image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/34ee8457-34d1-4eff-813b-f59c35c4aa95">GetListKeyInformation</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-getlistkeyinformation">GetListKeyInformation</a>
 </td>
 <td align="left" width="63%">
 Gets the list key information for an item.
@@ -150,7 +150,7 @@ Gets the list key information for an item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a8517c53-5833-4087-91eb-3eb9301e0d3a">GetName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-getname">GetName</a>
 </td>
 <td align="left" width="63%">
 Gets the item name.
@@ -159,7 +159,7 @@ Gets the item name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/221b5929-7300-4d01-b93e-7c82c446f52b">GetPath</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-getpath">GetPath</a>
 </td>
 <td align="left" width="63%">
 Gets the path information for an item. 
@@ -168,7 +168,7 @@ Gets the path information for an item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/14bc4956-e8ea-464b-949e-ddc7ae445c1a">GetRestriction</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-getrestriction">GetRestriction</a>
 </td>
 <td align="left" width="63%">
 Gets the information for a given restriction.
@@ -177,7 +177,7 @@ Gets the information for a given restriction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/64cf82d5-c210-4ff2-a7c8-1a284859382e">GetRestrictionFacets</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-getrestrictionfacets">GetRestrictionFacets</a>
 </td>
 <td align="left" width="63%">
 Gets the restrictions defined on an item.
@@ -186,7 +186,7 @@ Gets the restrictions defined on an item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a4270c46-b214-4232-b414-d6b6e4e35635">GetSettingByPath</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-getsettingbypath">GetSettingByPath</a>
 </td>
 <td align="left" width="63%">
 Gets a child setting or list element.
@@ -195,7 +195,7 @@ Gets a child setting or list element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d222939f-9295-4751-8b32-586fa9930177">GetSettingType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-getsettingtype">GetSettingType</a>
 </td>
 <td align="left" width="63%">
 Gets the setting type of an item.
@@ -204,7 +204,7 @@ Gets the setting type of an item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/11b61570-d1ed-4dcf-b533-873096ae80b9">GetValue</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-getvalue">GetValue</a>
 </td>
 <td align="left" width="63%">
 Gets the item value.
@@ -213,7 +213,7 @@ Gets the item value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2b4b96df-1286-49be-869a-404adaead27a">GetValueRaw</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-getvalueraw">GetValueRaw</a>
 </td>
 <td align="left" width="63%">
 Gets the value, as a byte array, of the item.
@@ -222,7 +222,7 @@ Gets the value, as a byte array, of the item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6c22cb66-5116-4107-9fb0-a6a4161b6f8e">HasChild</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-haschild">HasChild</a>
 </td>
 <td align="left" width="63%">
 Determines if the item has children.
@@ -231,7 +231,7 @@ Determines if the item has children.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4dca22b5-b4e3-4bb6-9eb4-5507472b63b2">RemoveListElement</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-removelistelement">RemoveListElement</a>
 </td>
 <td align="left" width="63%">
 Removes a list element.
@@ -240,7 +240,7 @@ Removes a list element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5613df85-009f-4aab-91bc-797a6cf73cd0">RemoveSettingByPath</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-removesettingbypath">RemoveSettingByPath</a>
 </td>
 <td align="left" width="63%">
 Removes a child setting or list element.
@@ -249,7 +249,7 @@ Removes a child setting or list element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/52b7e852-b389-47ec-a9d0-e4ce2e95f1f8">SetValue</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-setvalue">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets the item value.
@@ -258,7 +258,7 @@ Sets the item value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/65925c16-7a12-440f-ba2d-9156e41049ba">SetValueRaw</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-setvalueraw">SetValueRaw</a>
 </td>
 <td align="left" width="63%">
 Sets the value of an item.

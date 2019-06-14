@@ -50,14 +50,14 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<a href="https://msdn.microsoft.com/b8a5d532-c1fd-4302-b983-cc9a74270321">ITravelEntry</a> may not be supported in versions of Windows later than Windows XP.]
+<p class="CCE_Message">[<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nn-shdeprecated-itravelentry">ITravelEntry</a> may not be supported in versions of Windows later than Windows XP.]
 
 Deprecated. Exposes methods that maintain and manipulate a record of travel in the browser.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITravelLog</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITravelLog</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITravelLog</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITravelLog</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>ITravelLog</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f83c1cb1-3cc5-413c-826b-ff4971cd4598">AddEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-itravellog-addentry">AddEntry</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Adds a new entry for a pending navigation to the travel log.
@@ -81,7 +81,7 @@ Deprecated. Adds a new entry for a pending navigation to the travel log.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/546581f1-648d-4817-b3d2-aca219b74911">Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-itravellog-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Duplicates the contents of the current travel log.
@@ -90,7 +90,7 @@ Deprecated. Duplicates the contents of the current travel log.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/490f7350-6c67-4c79-a100-af266b269472">CountEntries</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-itravellog-countentries">CountEntries</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Generates the number of entries in the travel log.
@@ -99,7 +99,7 @@ Deprecated. Generates the number of entries in the travel log.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/128627f3-c010-4b8e-b067-fdc1eed346e4">FindTravelEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-itravellog-findtravelentry">FindTravelEntry</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Determines whether a specific travel entry is present in the travel log.
@@ -108,7 +108,7 @@ Deprecated. Determines whether a specific travel entry is present in the travel 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a085fe2e-9658-448c-b659-4ef08896ec77">GetToolTipText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-itravellog-gettooltiptext">GetToolTipText</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Gets tooltip text for a travel entry, which is used as a Unicode display string in the UI.
@@ -117,7 +117,7 @@ Deprecated. Gets tooltip text for a travel entry, which is used as a Unicode dis
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8db8aa9a-91c2-49fb-bbef-c7e19de09efe">GetTravelEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-itravellog-gettravelentry">GetTravelEntry</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Gets a travel entry in the travel log relative to the position of the current entry.
@@ -126,7 +126,7 @@ Deprecated. Gets a travel entry in the travel log relative to the position of th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5e75c524-5fa6-4d76-8fe9-a69ee1b509e8">InsertMenuEntries</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-itravellog-insertmenuentries">InsertMenuEntries</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Inserts entries into the specified menu.
@@ -135,16 +135,16 @@ Deprecated. Inserts entries into the specified menu.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/202ce028-d64c-4733-8006-1bdb1efa8ad3">Revert</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-itravellog-revert">Revert</a>
 </td>
 <td align="left" width="63%">
-Deprecated. Reverts to the current entry, dropping the result of <a href="https://msdn.microsoft.com/f83c1cb1-3cc5-413c-826b-ff4971cd4598">ITravelLog::AddEntry</a> in the case of a failed navigation.
+Deprecated. Reverts to the current entry, dropping the result of <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-itravellog-addentry">ITravelLog::AddEntry</a> in the case of a failed navigation.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/eabe809a-dc02-40fc-9847-88df4cb53e44">Travel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-itravellog-travel">Travel</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Navigates to a travel entry in the travel log relative to the position of the current entry.
@@ -153,7 +153,7 @@ Deprecated. Navigates to a travel entry in the travel log relative to the positi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/63fe398d-c0e8-4350-9b57-fe9f11e24e47">UpdateEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-itravellog-updateentry">UpdateEntry</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Saves the browser state of the current entry in preparation for a pending navigation.
@@ -162,10 +162,10 @@ Deprecated. Saves the browser state of the current entry in preparation for a pe
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2fda446d-8652-455b-9233-aa02f2a85e7f">UpdateExternal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-itravellog-updateexternal">UpdateExternal</a>
 </td>
 <td align="left" width="63%">
-Deprecated. Updates an entry that originated out of the current procedure through <a href="https://msdn.microsoft.com/library/Aa767938(v=VS.85).aspx">IHlinkFrame</a>.
+Deprecated. Updates an entry that originated out of the current procedure through <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa767938(v=vs.85)">IHlinkFrame</a>.
 
 </td>
 </tr>

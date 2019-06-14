@@ -67,7 +67,7 @@ The part to get. This parameter is the local ID of the part. For more informatio
 
 ### -param ppPart [out]
 
-Pointer to a pointer variable into which the method writes the address of the <a href="https://msdn.microsoft.com/3bcfab9f-fad8-4605-8780-0b7c2068fcdf">IPart</a> interface of the part object that is identified by <i>nId</i>. Through this method, the caller obtains a counted reference to the interface. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <b>Release</b> method. If the <b>GetPartById</b> call fails,  <i>*ppPart</i> is <b>NULL</b>.
+Pointer to a pointer variable into which the method writes the address of the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart</a> interface of the part object that is identified by <i>nId</i>. Through this method, the caller obtains a counted reference to the interface. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <b>Release</b> method. If the <b>GetPartById</b> call fails,  <i>*ppPart</i> is <b>NULL</b>.
 
 
 ## -returns
@@ -113,7 +113,7 @@ Pointer <i>ppPart</i> is <b>NULL</b>.
 
 
 
-A local ID is a number that uniquely identifies a part among all the parts in a device topology. The <a href="https://msdn.microsoft.com/38288a63-62a3-4b06-b2e6-dbe8c27e09ad">IAudioInputSelector::GetSelection</a> and <a href="https://msdn.microsoft.com/af4b1a1d-b08d-4165-a011-bdbd1e063e74">IAudioOutputSelector::GetSelection</a> methods retrieve the local ID of a connected part. The <a href="https://msdn.microsoft.com/b6291447-d3a9-4bc7-808c-9427e1642752">IAudioInputSelector::SetSelection</a> and <a href="https://msdn.microsoft.com/e81d54f4-1451-4bd0-be06-28ff01fb65ab">IAudioOutputSelector::SetSelection</a> methods select the input or output that is connected to a part that is identified by its local ID. When you have a pointer to a part object, you can call the <a href="https://msdn.microsoft.com/d5ca4908-1822-485c-a04a-0eeee1e384a8">IPart::GetLocalId</a> method to get the local ID of the part.
+A local ID is a number that uniquely identifies a part among all the parts in a device topology. The <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iaudioinputselector-getselection">IAudioInputSelector::GetSelection</a> and <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iaudiooutputselector-getselection">IAudioOutputSelector::GetSelection</a> methods retrieve the local ID of a connected part. The <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iaudioinputselector-setselection">IAudioInputSelector::SetSelection</a> and <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iaudiooutputselector-setselection">IAudioOutputSelector::SetSelection</a> methods select the input or output that is connected to a part that is identified by its local ID. When you have a pointer to a part object, you can call the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-getlocalid">IPart::GetLocalId</a> method to get the local ID of the part.
 
 
 
@@ -123,31 +123,31 @@ A local ID is a number that uniquely identifies a part among all the parts in a 
 
 
 
-<a href="https://msdn.microsoft.com/38288a63-62a3-4b06-b2e6-dbe8c27e09ad">IAudioInputSelector::GetSelection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iaudioinputselector-getselection">IAudioInputSelector::GetSelection</a>
 
 
 
-<a href="https://msdn.microsoft.com/b6291447-d3a9-4bc7-808c-9427e1642752">IAudioInputSelector::SetSelection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iaudioinputselector-setselection">IAudioInputSelector::SetSelection</a>
 
 
 
-<a href="https://msdn.microsoft.com/af4b1a1d-b08d-4165-a011-bdbd1e063e74">IAudioOutputSelector::GetSelection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iaudiooutputselector-getselection">IAudioOutputSelector::GetSelection</a>
 
 
 
-<a href="https://msdn.microsoft.com/e81d54f4-1451-4bd0-be06-28ff01fb65ab">IAudioOutputSelector::SetSelection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iaudiooutputselector-setselection">IAudioOutputSelector::SetSelection</a>
 
 
 
-<a href="https://msdn.microsoft.com/1b509f69-6277-40c0-a293-02afc30d464a">IDeviceTopology Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-idevicetopology">IDeviceTopology Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3bcfab9f-fad8-4605-8780-0b7c2068fcdf">IPart Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/d5ca4908-1822-485c-a04a-0eeee1e384a8">IPart::GetLocalId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-getlocalid">IPart::GetLocalId</a>
  
 
  

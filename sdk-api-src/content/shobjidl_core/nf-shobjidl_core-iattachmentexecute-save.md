@@ -74,13 +74,13 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Before calling <b>IAttachmentExecute::Save</b>, you must call <a href="https://msdn.microsoft.com/763ce5a7-bbad-4dd8-a416-86a96f466510">IAttachmentExecute::SetLocalPath</a> with a valid path. The file should be copied to that local path before <b>IAttachmentExecute::Save</b> is called.
+Before calling <b>IAttachmentExecute::Save</b>, you must call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setlocalpath">IAttachmentExecute::SetLocalPath</a> with a valid path. The file should be copied to that local path before <b>IAttachmentExecute::Save</b> is called.
 
-<b>IAttachmentExecute::Save</b> should always be called if the local path declared in <a href="https://msdn.microsoft.com/763ce5a7-bbad-4dd8-a416-86a96f466510">IAttachmentExecute::SetLocalPath</a> is not the path of a temporary directory.
+<b>IAttachmentExecute::Save</b> should always be called if the local path declared in <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setlocalpath">IAttachmentExecute::SetLocalPath</a> is not the path of a temporary directory.
 
 <b>IAttachmentExecute::Save</b> may run virus scanners or other trust services to validate the file before saving it. Note that these services can delete or alter the file.
 
-<b>IAttachmentExecute::Save</b> may attach <a href="https://msdn.microsoft.com/ff6a0aa8-4d14-4074-b084-be117b01c77a">evidence</a> to the local path in its NTFS alternate data stream (ADS).
+<b>IAttachmentExecute::Save</b> may attach <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-checkpolicy">evidence</a> to the local path in its NTFS alternate data stream (ADS).
 
 
 
@@ -90,11 +90,11 @@ Before calling <b>IAttachmentExecute::Save</b>, you must call <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/2ebc3197-aa28-446e-8452-8ff71764fa9d">IAttachmentExecute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iattachmentexecute">IAttachmentExecute</a>
 
 
 
-<a href="https://msdn.microsoft.com/6d5b2d02-98ee-4e46-826f-fa073ecff5c4">IAttachmentExecute::SaveWithUI</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-savewithui">IAttachmentExecute::SaveWithUI</a>
  
 
  

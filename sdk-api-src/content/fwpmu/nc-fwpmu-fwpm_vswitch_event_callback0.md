@@ -61,12 +61,12 @@ The <b>FWPM_VSWITCH_EVENT_CALLBACK0</b> function is used to add custom behavior 
 
 Type: <b>void*</b>
 
-Optional context pointer. It contains the value of the <i>context</i> parameter of the <a href="https://msdn.microsoft.com/1264a58d-81e1-4877-915d-6ed3d7d15512">FwpmvSwitchEventSubscribe0</a> function.
+Optional context pointer. It contains the value of the <i>context</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmvswitcheventsubscribe0">FwpmvSwitchEventSubscribe0</a> function.
 
 
 ### -param *vSwitchEvent [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/bd25f66a-511a-470d-a33a-5e73d8b802c2">FWPM_VSWITCH_EVENT0</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_vswitch_event0_">FWPM_VSWITCH_EVENT0</a>*</b>
 
 The vSwitch event information.
 
@@ -84,9 +84,9 @@ This callback function does not return a value.
 
 
 
-Call <a href="https://msdn.microsoft.com/1264a58d-81e1-4877-915d-6ed3d7d15512">FwpmvSwitchEventSubscribe0</a> to register this callback function.
+Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmvswitcheventsubscribe0">FwpmvSwitchEventSubscribe0</a> to register this callback function.
 
-<b>FWPM_VSWITCH_EVENT_CALLBACK0</b> is a specific implementation of FWPM_VSWITCH_EVENT_CALLBACK. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FWPM_VSWITCH_EVENT_CALLBACK0</b> is a specific implementation of FWPM_VSWITCH_EVENT_CALLBACK. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -96,11 +96,11 @@ Call <a href="https://msdn.microsoft.com/1264a58d-81e1-4877-915d-6ed3d7d15512">F
 
 
 
-<a href="https://msdn.microsoft.com/bd25f66a-511a-470d-a33a-5e73d8b802c2">FWPM_VSWITCH_EVENT0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_vswitch_event0_">FWPM_VSWITCH_EVENT0</a>
 
 
 
-<a href="https://msdn.microsoft.com/1264a58d-81e1-4877-915d-6ed3d7d15512">FwpmvSwitchEventSubscribe0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmvswitcheventsubscribe0">FwpmvSwitchEventSubscribe0</a>
  
 
  

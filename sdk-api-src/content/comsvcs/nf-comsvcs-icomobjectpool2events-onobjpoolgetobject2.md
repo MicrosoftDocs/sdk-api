@@ -59,7 +59,7 @@ Generated when a non-transactional object is obtained from the pool.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms688276(v=VS.85).aspx">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-__midl___midl_itf_autosvcs_0000_0013_0001">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param guidActivity [in]
@@ -101,7 +101,7 @@ The user verifies the return values from this method.
 
 
 
-<a href="https://msdn.microsoft.com/2aac494d-52ce-408c-8444-8792b5b53604">IComObjectPool2Events</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icomobjectpool2events">IComObjectPool2Events</a>
  
 
  

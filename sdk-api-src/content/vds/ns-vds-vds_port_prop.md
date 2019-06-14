@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the properties 
    of a port on a controller object.
@@ -82,7 +82,7 @@ For Fibre Channel networks, this member should be the WWN for the port, formatte
 ### -field status
 
 The status of the port enumerated by 
-      <a href="https://msdn.microsoft.com/6e363020-caf4-4028-abd5-7f311edb2e69">VDS_PORT_STATUS</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_port_status">VDS_PORT_STATUS</a>.
 
 
 ## -remarks
@@ -90,7 +90,7 @@ The status of the port enumerated by
 
 
 The 
-    <a href="https://msdn.microsoft.com/01972923-2a43-4a80-80f8-8dab4207bbc4">IVdsController::GetPortProperties</a> 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-getportproperties">IVdsController::GetPortProperties</a> 
     method returns this structure to report the property details of a port on a controller object.
 
 
@@ -101,15 +101,15 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/01972923-2a43-4a80-80f8-8dab4207bbc4">IVdsController::GetPortProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-getportproperties">IVdsController::GetPortProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a13f5eb-0fa1-48e2-a112-b2254ca28423">VDS Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-structures">VDS Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/6e363020-caf4-4028-abd5-7f311edb2e69">VDS_PORT_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_port_status">VDS_PORT_STATUS</a>
  
 
  

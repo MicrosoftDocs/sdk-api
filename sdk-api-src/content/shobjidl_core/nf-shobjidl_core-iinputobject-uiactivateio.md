@@ -66,9 +66,9 @@ Indicates if the object is being activated or deactivated. If this value is nonz
 
 ### -param pMsg [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a> structure that contains the message that caused the activation change. This value may be <b>NULL</b>.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a> structure that contains the message that caused the activation change. This value may be <b>NULL</b>.
         
 
 

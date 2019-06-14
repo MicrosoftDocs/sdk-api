@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CertOpenServerOcspResponse</b> function opens a handle to an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">online certificate status protocol</a> (OCSP) response associated with a server certificate chain.
+The <b>CertOpenServerOcspResponse</b> function opens a handle to an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) response associated with a server certificate chain.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>CertOpenServerOcspResponse</b> function opens a handle to an <a href="htt
 
 ### -param pChainContext [in]
 
-The address of a <a href="https://msdn.microsoft.com/609311f4-9cd6-4945-9f93-7266b3fc4a74">CERT_CHAIN_CONTEXT</a> structure that contains the certificate chain.
+The address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_context">CERT_CHAIN_CONTEXT</a> structure that contains the certificate chain.
 
 
 ### -param dwFlags [in]
@@ -76,10 +76,10 @@ This parameter is not used and must be <b>NULL</b>.
 
 
 
-Returns a handle to the OCSP response associated with a server certificate chain if successful; otherwise, <b>NULL</b>. This handle must be passed to the <a href="https://msdn.microsoft.com/6247e8ca-ba12-432f-9bf8-a6c644f253e9">CertCloseServerOcspResponse</a> function when it is no longer needed.
+Returns a handle to the OCSP response associated with a server certificate chain if successful; otherwise, <b>NULL</b>. This handle must be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcloseserverocspresponse">CertCloseServerOcspResponse</a> function when it is no longer needed.
 
 For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. Possible error codes returned by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible error codes returned by the 
 		       <b>GetLastError</b> function include, but are not limited to, the following.
 
 <table>
@@ -122,25 +122,25 @@ The end certificate does not contain an OCSP authority information access (AIA) 
 The <b>CertOpenServerOcspResponse</b> function tries to retrieve an initial OCSP response before it returns.
 It blocks its process thread during the retrieval. The <b>CertOpenServerOcspResponse</b> function creates a background thread that prefetches time-valid OCSP responses.
 
-The <b>CertOpenServerOcspResponse</b> function increments the reference count for the chain context represented by the <i>pChainContext</i> parameter. When you have finished using the chain context, close the returned handle by calling the <a href="https://msdn.microsoft.com/6247e8ca-ba12-432f-9bf8-a6c644f253e9">CertCloseServerOcspResponse</a> function.
+The <b>CertOpenServerOcspResponse</b> function increments the reference count for the chain context represented by the <i>pChainContext</i> parameter. When you have finished using the chain context, close the returned handle by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcloseserverocspresponse">CertCloseServerOcspResponse</a> function.
 
 The <b>CertOpenServerOcspResponse</b> function initializes configuration settings used by the following functions:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/6ccc0e85-1fa0-480c-a5b4-b21ba811e5d0">CertAddRefServerOcspResponse</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddrefserverocspresponse">CertAddRefServerOcspResponse</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/6247e8ca-ba12-432f-9bf8-a6c644f253e9">CertCloseServerOcspResponse</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcloseserverocspresponse">CertCloseServerOcspResponse</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/07476e43-db6b-4119-8d6b-41143b98744e">CertGetServerOcspResponseContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetserverocspresponsecontext">CertGetServerOcspResponseContext</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/b7cdce9b-25fe-4fb9-b266-61989793699b">CertAddRefServerOcspResponseContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddrefserverocspresponsecontext">CertAddRefServerOcspResponseContext</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/a07fc1e0-6f06-4336-b33c-d4d6a838b609">CertFreeServerOcspResponseContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreeserverocspresponsecontext">CertFreeServerOcspResponseContext</a>
 </li>
 </ul>
 First, the <b>CertOpenServerOcspResponse</b> function initializes the settings based on default values in Wincrypt.h. If the function subsequently finds the registry key defined in <b>CERT_CHAIN_CONFIG_REGPATH</b>, it updates the previously initialized values with the registry values.
@@ -153,7 +153,7 @@ The following configuration setting names and default values are initialized by 
 
 L"SrvOcspRespMinValiditySeconds"
 
-The minimum time validity of the server OCSP response to be returned by <a href="https://msdn.microsoft.com/07476e43-db6b-4119-8d6b-41143b98744e">CertGetServerOcspResponseContext</a>. The OCSP
+The minimum time validity of the server OCSP response to be returned by <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetserverocspresponsecontext">CertGetServerOcspResponseContext</a>. The OCSP
 response validity must be sufficiently long that the client treats it as time valid.
 
 </li>
@@ -243,7 +243,7 @@ prefetch retrieval after the NextUpdate date of an OCSP response. When the curre
 
 
 
-<a href="https://msdn.microsoft.com/6247e8ca-ba12-432f-9bf8-a6c644f253e9">CertCloseServerOcspResponse</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcloseserverocspresponse">CertCloseServerOcspResponse</a>
  
 
  

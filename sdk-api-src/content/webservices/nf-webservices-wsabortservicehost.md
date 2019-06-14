@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Aborts all current operations on the specified <a href="https://msdn.microsoft.com/42e4d24d-5611-4561-b874-6dc3f3f88c73">service host</a>.
+Aborts all current operations on the specified <a href="https://docs.microsoft.com/windows/desktop/wsw/service-host">service host</a>.
              
                 
 
@@ -64,13 +64,13 @@ Aborts all current operations on the specified <a href="https://msdn.microsoft.c
 
 ### -param serviceHost [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/1186e3ae-87d0-4d0b-a7cc-cce63dc091e2">WS_SERVICE_HOST</a>  structure representing the service host on which to abort operations.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-service-host">WS_SERVICE_HOST</a>  structure representing the service host on which to abort operations.
                 
 
 
 ### -param error [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> structure that receives additional error information if the function fails.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure that receives additional error information if the function fails.
                 
 
 
@@ -108,13 +108,13 @@ One or more arguments are invalid.
 
 <b>WsAbortServiceHost</b> aborts all  listeners on the service host, and as a result, no new channels are accepted from the client. All channels currently being used by the service host to service messages are aborted as well. 
 
-If a call is pending and it has a cancel callback registered through the <a href="https://msdn.microsoft.com/3e456814-f70f-47ab-b866-f0b73d5cd35e">WsRegisterOperationForCancel</a> function, the callback is called. However, the runtime still waits for the call to complete. 
+If a call is pending and it has a cancel callback registered through the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsregisteroperationforcancel">WsRegisterOperationForCancel</a> function, the callback is called. However, the runtime still waits for the call to complete. 
 
 
            
 
 For more information on registering for cancellation notification,
-                see  <a href="https://msdn.microsoft.com/3e456814-f70f-47ab-b866-f0b73d5cd35e">WsRegisterOperationForCancel</a>. 
+                see  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsregisteroperationforcancel">WsRegisterOperationForCancel</a>. 
            
 
 

@@ -72,7 +72,7 @@ Version of the DHCP Server API that the third-party DLL is expected to support. 
 ### -param CalloutTbl [out]
 
 Cumulative set of notification hooks requested by all third-party DLLs, in the form of a 
-<a href="https://msdn.microsoft.com/fa57e5c5-2335-44ba-8642-61dcb8b33ffe">DHCP_CALLOUT_TABLE</a> structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpssdk/ns-dhcpssdk-_dhcp_callout_table">DHCP_CALLOUT_TABLE</a> structure.
 
 
 ## -returns
@@ -110,15 +110,15 @@ The initially loaded third-party DLL is responsible for maintaining a table of c
 
 
 
-<a href="https://msdn.microsoft.com/782dd73a-7f32-4001-859b-21379f1e80d4">Chaining Multiple Third-Party DLLs</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/chaining-multiple-third-party-dlls">Chaining Multiple Third-Party DLLs</a>
 
 
 
-<a href="https://msdn.microsoft.com/fa57e5c5-2335-44ba-8642-61dcb8b33ffe">DHCP_CALLOUT_TABLE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpssdk/ns-dhcpssdk-_dhcp_callout_table">DHCP_CALLOUT_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/5fd828d6-4d62-4823-a2f1-15782b5cd28c">Registry Value Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-value-types">Registry Value Types</a>
  
 
  

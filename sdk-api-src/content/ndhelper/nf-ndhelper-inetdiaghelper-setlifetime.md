@@ -59,7 +59,7 @@ The <b>SetLifeTime</b> method is called by NDF to set the start and end time of 
 
 ### -param lifeTime [in]
 
-A <a href="https://msdn.microsoft.com/31f038fb-08c1-4057-af61-f3912cfcd4f0">LIFE_TIME</a> structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-taglife_time">LIFE_TIME</a> structure.
 
 
 ## -returns
@@ -159,7 +159,7 @@ This method is not required when building a Helper Class Extension.
 
 
 
-<a href="https://msdn.microsoft.com/7f1b8a5b-389b-4276-a49d-94a39be3c35c">INetDiagHelper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>
  
 
  

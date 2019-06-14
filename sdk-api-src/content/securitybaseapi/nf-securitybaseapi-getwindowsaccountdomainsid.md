@@ -55,7 +55,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>GetWindowsAccountDomainSid</b> function receives a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) and returns a SID representing the domain of that SID.
+The <b>GetWindowsAccountDomainSid</b> function receives a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) and returns a SID representing the domain of that SID.
 
 
 ## -parameters
@@ -85,7 +85,7 @@ A pointer to a <b>DWORD</b> that <b>GetWindowsAccountDomainSid</b> fills with th
 Returns <b>TRUE</b> if successful.
 
 Otherwise, returns <b>FALSE</b>. For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 

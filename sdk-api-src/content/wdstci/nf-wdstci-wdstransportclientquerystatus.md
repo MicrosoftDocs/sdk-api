@@ -59,7 +59,7 @@ Retrieves the current status of an ongoing or complete multicast transmission fr
 
 ### -param hSessionKey [in]
 
-Unique handle returned by the call to <a href="https://msdn.microsoft.com/0ece4ac8-372c-46ec-a6a1-ff1b547a85ef">WdsTransportClientInitializeSession</a>.
+Unique handle returned by the call to <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nf-wdstci-wdstransportclientinitializesession">WdsTransportClientInitializeSession</a>.
 
 
 ### -param puStatus [out]

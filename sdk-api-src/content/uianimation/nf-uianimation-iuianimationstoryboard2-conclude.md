@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Completes the current iteration of a keyframe loop that is in progress (where the loop is set to <a href="https://msdn.microsoft.com/09213B74-16C9-48F9-9626-59FF6CFDE975">UI_ANIMATION_REPEAT_INDEFINITELY</a>), terminates the loop, and continues with the storyboard. 
+Completes the current iteration of a keyframe loop that is in progress (where the loop is set to <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/ui-animation-repeat-indefinitely">UI_ANIMATION_REPEAT_INDEFINITELY</a>), terminates the loop, and continues with the storyboard. 
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Completes the current iteration of a keyframe loop that is in progress (where th
 
 
 
-If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/38f15d61-d415-4c7d-b454-5144fc7c9b1e">Windows Animation Error Codes</a> for a list of error codes.
+If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
 
 
 
@@ -72,7 +72,7 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</
 
 
 
-This method specifies that any subsequent  keyframe loops that have a repetition count of <a href="https://msdn.microsoft.com/09213B74-16C9-48F9-9626-59FF6CFDE975">UI_ANIMATION_REPEAT_INDEFINITELY</a> (-1) will be skipped while the remainder of the storyboard is played.  
+This method specifies that any subsequent  keyframe loops that have a repetition count of <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/ui-animation-repeat-indefinitely">UI_ANIMATION_REPEAT_INDEFINITELY</a> (-1) will be skipped while the remainder of the storyboard is played.  
 
 An iteration of a keyframe loop that is in progress will be completed before the remainder of the storyboard plays.
 
@@ -90,7 +90,7 @@ For alternating keyframe loops, each iteration has a starting value that is equi
 
 
 
-<a href="https://msdn.microsoft.com/507B6C2B-92C6-4AEB-82D5-3F14A332D41F">IUIAnimationStoryboard2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationstoryboard2">IUIAnimationStoryboard2</a>
  
 
  

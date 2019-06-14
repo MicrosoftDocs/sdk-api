@@ -106,7 +106,7 @@ This method can return the standard return values E_INVALIDARG and S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/a9035a10-2078-4626-8386-f9298526dfb7">IPropertyPageSite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypagesite">IPropertyPageSite</a>
  
 
  

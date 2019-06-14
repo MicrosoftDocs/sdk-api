@@ -169,13 +169,13 @@ An attempt was made to modify text across a region boundary.
 
 
 
-Applications should start a composition by first using <a href="https://msdn.microsoft.com/f5cb512a-d9f5-451f-b6cb-2020ba32e855">ITextStoreAnchor::InsertTextAtSelection</a>. <b>ITextStoreAnchor::SetText</b> should be used only within an existing composition. If there is no active composition at the time <b>SetText</b> is called, the TSF manager creates a composition that lasts just long enough to wrap the call to <b>SetText</b>.
+Applications should start a composition by first using <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-inserttextatselection">ITextStoreAnchor::InsertTextAtSelection</a>. <b>ITextStoreAnchor::SetText</b> should be used only within an existing composition. If there is no active composition at the time <b>SetText</b> is called, the TSF manager creates a composition that lasts just long enough to wrap the call to <b>SetText</b>.
 
-Callers must hold a write lock obtained through <a href="https://msdn.microsoft.com/4cace5bd-d111-4a9a-af10-9ad454d4f2eb">ITextStoreAnchor::RequestLock</a>. Otherwise, <b>ITextStoreAnchor::SetText</b> will fail with TS_E_NOLOCK.
+Callers must hold a write lock obtained through <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-requestlock">ITextStoreAnchor::RequestLock</a>. Otherwise, <b>ITextStoreAnchor::SetText</b> will fail with TS_E_NOLOCK.
 
 If <i>paStart</i> is at the same location as <i>paEnd</i>, then the operation is an insertion, and no existing text will be removed.
 
-TS_CHAR_EMBEDDED cannot be passed into this method. For <a href="https://msdn.microsoft.com/44cb22b5-707b-4f21-b986-5258ed273543">embedded objects</a>, use <a href="https://msdn.microsoft.com/414842cc-7c3e-4f5c-93ac-3bd0eda5293e">ITextStoreAnchor::InsertEmbedded</a> instead.
+TS_CHAR_EMBEDDED cannot be passed into this method. For <a href="https://docs.microsoft.com/windows/desktop/TSF/embedded-objects">embedded objects</a>, use <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-insertembedded">ITextStoreAnchor::InsertEmbedded</a> instead.
 
 This method will fail if the range of text replaced covers any region boundary. Instead, callers should make multiple calls to the method, one for each region.
 
@@ -187,34 +187,34 @@ This method will fail if the range of text replaced covers any region boundary. 
 
 
 
-<a href="https://msdn.microsoft.com/3d9da4f2-ceb9-4abc-8979-d3756d948a57">Compositions</a>
+<a href="https://docs.microsoft.com/windows/desktop/TSF/compositions">Compositions</a>
 
 
 
-<a href="https://msdn.microsoft.com/44cb22b5-707b-4f21-b986-5258ed273543">Embedded Objects</a>
+<a href="https://docs.microsoft.com/windows/desktop/TSF/embedded-objects">Embedded Objects</a>
 
 
 
-<a href="https://msdn.microsoft.com/62730a6d-4dc8-4207-9818-ab95e6537854">ITextStoreAnchor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
 
 
 
-<a href="https://msdn.microsoft.com/414842cc-7c3e-4f5c-93ac-3bd0eda5293e">ITextStoreAnchor::InsertEmbedded
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-insertembedded">ITextStoreAnchor::InsertEmbedded
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/4cace5bd-d111-4a9a-af10-9ad454d4f2eb">ITextStoreAnchor::RequestLock
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-requestlock">ITextStoreAnchor::RequestLock
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/4bdf12bc-c15e-4bdb-8bc0-53172e9c943e">ITextStoreAnchorSink::OnTextChange
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-ontextchange">ITextStoreAnchorSink::OnTextChange
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/6e05ed74-fff3-4bc4-a21e-9af9492af23b">Miscellaneous Text Store Constants
+<a href="https://docs.microsoft.com/windows/desktop/TSF/miscellaneous-text-store-constants">Miscellaneous Text Store Constants
       </a>
  
 

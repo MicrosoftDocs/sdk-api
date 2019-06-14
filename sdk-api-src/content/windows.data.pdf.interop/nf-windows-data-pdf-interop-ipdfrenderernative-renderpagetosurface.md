@@ -76,7 +76,7 @@ An x- and y-coordinate offset within the target image-data object to output the 
 
 A set of page output properties, such as rendering only a portion of the page, rendering a scaled version of the page, setting the page's background color, and whether the page is shown in high contrast mode. 
 
-Provide a null pointer for this parameter to specify default page output properties. For the list of defaults, see <a href="https://msdn.microsoft.com/1B2F12FB-E053-4B79-B71D-E66D7A6E5054">PDF_RENDER_PARAMS</a>.
+Provide a null pointer for this parameter to specify default page output properties. For the list of defaults, see <a href="https://docs.microsoft.com/windows/desktop/api/windows.data.pdf.interop/ns-windows-data-pdf-interop-pdf_render_params">PDF_RENDER_PARAMS</a>.
 
 
 ## -returns
@@ -112,7 +112,7 @@ The page output operation succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/96a00afb-e957-4e49-8f30-d6a3d639680f">IPdfRendererNative</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.data.pdf.interop/nn-windows-data-pdf-interop-ipdfrenderernative">IPdfRendererNative</a>
  
 
  

@@ -54,7 +54,7 @@ Contains methods for interacting with the file catalog.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISimpleCommandCreator</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISimpleCommandCreator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISimpleCommandCreator</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISimpleCommandCreator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISimpleCommandCreator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/70880905-E4DF-4064-A877-18AF5CE839FB">CreateICommand</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nf-indexsrv-isimplecommandcreator-createicommand">CreateICommand</a>
 </td>
 <td align="left" width="63%">
 Creates an ICommand.
@@ -78,7 +78,7 @@ Creates an ICommand.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6BD65290-209A-4FCA-BD2B-E4BB800C8BEF">GetDefaultCatalog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nf-indexsrv-isimplecommandcreator-getdefaultcatalog">GetDefaultCatalog</a>
 </td>
 <td align="left" width="63%">
 Determines the default catalog for the system.
@@ -87,7 +87,7 @@ Determines the default catalog for the system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F4B1558D-F244-40ED-92C2-F5CC0B63AD50">VerifyCatalog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nf-indexsrv-isimplecommandcreator-verifycatalog">VerifyCatalog</a>
 </td>
 <td align="left" width="63%">
 Validates the catalog location.

@@ -54,7 +54,7 @@ Exposes methods that create a bitmap effect's output. This interface must be imp
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMILBitmapEffectPrimitive</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMILBitmapEffectPrimitive</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMILBitmapEffectPrimitive</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMILBitmapEffectPrimitive</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMILBitmapEffectPrimitive</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735254(v=VS.85).aspx">GetAffineMatrix</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectprimitive-getaffinematrix">GetAffineMatrix</a>
 </td>
 <td align="left" width="63%">
 Retrieves the affine transormation matrix for the effect.
@@ -78,7 +78,7 @@ Retrieves the affine transormation matrix for the effect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735255(v=VS.85).aspx">GetOutput</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectprimitive-getoutput">GetOutput</a>
 </td>
 <td align="left" width="63%">
 Performs pixel processing for the bitmap effect.
@@ -87,7 +87,7 @@ Performs pixel processing for the bitmap effect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735256(v=VS.85).aspx">HasAffineTransform</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectprimitive-hasaffinetransform">HasAffineTransform</a>
 </td>
 <td align="left" width="63%">
 Determines whether the effect has an affine transform.
@@ -96,7 +96,7 @@ Determines whether the effect has an affine transform.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735257(v=VS.85).aspx">HasInverseTransform</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectprimitive-hasinversetransform">HasInverseTransform</a>
 </td>
 <td align="left" width="63%">
 Determines whether the effect has an inverse transform.
@@ -105,7 +105,7 @@ Determines whether the effect has an inverse transform.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735259(v=VS.85).aspx">TransformPoint</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectprimitive-transformpoint">TransformPoint</a>
 </td>
 <td align="left" width="63%">
 Transforms the given point.
@@ -114,7 +114,7 @@ Transforms the given point.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735260(v=VS.85).aspx">TransformRect</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectprimitive-transformrect">TransformRect</a>
 </td>
 <td align="left" width="63%">
 Transforms the output of the given rectangle.
@@ -128,8 +128,8 @@ Transforms the output of the given rectangle.
 
 
 
-Effect clients, in general, should interact with the outer <a href="https://msdn.microsoft.com/en-us/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a> object rather than the <b>IMILBitmapEffectPrimitive</b> object.
-            If the client needs to interact with the <b>IMILBitmapEffectPrimitive</b> directly the client will need to implement <a href="https://msdn.microsoft.com/en-us/library/ms735314(v=VS.85).aspx">IMILBitmapEffectConnections</a>, <a href="https://msdn.microsoft.com/en-us/library/ms735311(v=VS.85).aspx">IMILBitmapEffectConnectionsInfo</a>, and <a href="https://msdn.microsoft.com/en-us/library/ms735303(v=VS.85).aspx">IMILBitmapEffectConnectorInfo</a>.
+Effect clients, in general, should interact with the outer <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffect">IMILBitmapEffect</a> object rather than the <b>IMILBitmapEffectPrimitive</b> object.
+            If the client needs to interact with the <b>IMILBitmapEffectPrimitive</b> directly the client will need to implement <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffectconnections">IMILBitmapEffectConnections</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffectconnectionsinfo">IMILBitmapEffectConnectionsInfo</a>, and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffectconnectorinfo">IMILBitmapEffectConnectorInfo</a>.
          
 
 

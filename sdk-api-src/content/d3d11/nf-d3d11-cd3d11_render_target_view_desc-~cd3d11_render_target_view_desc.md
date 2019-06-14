@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Destroys an instance of a <a href="https://msdn.microsoft.com/28D033EF-3EAC-41F0-A633-D69E4B10343D">CD3D11_RENDER_TARGET_VIEW_DESC</a> structure.
+Destroys an instance of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151668(v=vs.85)">CD3D11_RENDER_TARGET_VIEW_DESC</a> structure.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Destroys an instance of a <a href="https://msdn.microsoft.com/28D033EF-3EAC-41F0
 
 
 
-<a href="https://msdn.microsoft.com/28D033EF-3EAC-41F0-A633-D69E4B10343D">CD3D11_RENDER_TARGET_VIEW_DESC</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151668(v=vs.85)">CD3D11_RENDER_TARGET_VIEW_DESC</a>
  
 
  

@@ -59,7 +59,7 @@ Updates the home provider for a multi-carrier device.
 
 ### -param homeProvider [in]
 
-An <a href="https://msdn.microsoft.com/9D681192-1E40-4314-8E7F-8934AA8162D3">MBN_PROVIDER2</a> structure that contains the home provider.
+An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider2">MBN_PROVIDER2</a> structure that contains the home provider.
 
 <div class="alert"><b>Note</b>  <p class="note">The  <b>SignalStrength</b> and <b>SignalError</b> members must be 0.
 
@@ -68,7 +68,7 @@ An <a href="https://msdn.microsoft.com/9D681192-1E40-4314-8E7F-8934AA8162D3">MBN
 
 ### -param requestID [out]
 
-A pointer to the request ID set by the operating system for this request.  The asynchronous response from <a href="https://msdn.microsoft.com/6D0B5692-4D8C-45B1-B0AF-D507FD752B1F">OnSetHomeProviderComplete</a> will contain this same <i>requestID</i>.
+A pointer to the request ID set by the operating system for this request.  The asynchronous response from <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrierevents-onsethomeprovidercomplete">OnSetHomeProviderComplete</a> will contain this same <i>requestID</i>.
 
 Pointer to the request ID set by the operating system for this request. The asynchronous response will contain this same requestID.
 
@@ -149,7 +149,7 @@ The operation is not supported by the device. This may be returned by devices wh
 
 
 
-The <b>SetHomeProvider</b> method initiates an update of the home provider for the interface. This is an asynchronous operation, and the method call returns immediately. If this method returns successfully with <b>S_OK</b>, then Windows will notify the calling application about the completion status of this operation by calling the <a href="https://msdn.microsoft.com/6D0B5692-4D8C-45B1-B0AF-D507FD752B1F">OnSetHomeProviderComplete</a> method of <a href="https://msdn.microsoft.com/F7CAF21B-F487-4F35-806B-312B5246C1B2">IMbnMultiCarrierEvents</a>.
+The <b>SetHomeProvider</b> method initiates an update of the home provider for the interface. This is an asynchronous operation, and the method call returns immediately. If this method returns successfully with <b>S_OK</b>, then Windows will notify the calling application about the completion status of this operation by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrierevents-onsethomeprovidercomplete">OnSetHomeProviderComplete</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrierevents">IMbnMultiCarrierEvents</a>.
 
 The device will then automatically come up registered to the new network and indicate a registration state change. The device will continue to come up registered to this new home network across Windows reboots unless <b>SetHomeProvider</b> is used again to set a new home provider.
 
@@ -163,7 +163,7 @@ If the device is removed from the system before this operation is complete, ther
 
 
 
-<a href="https://msdn.microsoft.com/E40517CE-3169-4F20-A572-EDBC8FEC2862">IMbnMultiCarrier</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrier">IMbnMultiCarrier</a>
  
 
  

@@ -54,7 +54,7 @@ The
 <b>GetCurrentLevel</b> method returns the current application level.
 
 <b>GetCurrentLevel</b> is a protected method implemented by the 
-<a href="https://msdn.microsoft.com/5d54c966-86ad-41af-82be-8a182b3d203a">CVssWriter</a> base class.
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ The
 
 
 This method returns a writer's current application level as a 
-<a href="https://msdn.microsoft.com/fc7fbaee-d223-4557-987d-2c09f3877ec2">VSS_APPLICATION_LEVEL</a> enumeration value. See 
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_application_level">VSS_APPLICATION_LEVEL</a> enumeration value. See 
 <b>VSS_APPLICATION_LEVEL</b> for a description of these values.
 
 
@@ -80,23 +80,23 @@ This method returns a writer's current application level as a
 
 
 
-<a href="https://msdn.microsoft.com/5d54c966-86ad-41af-82be-8a182b3d203a">CVssWriter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
 
 
 
-<a href="https://msdn.microsoft.com/2aff5e87-4053-46a0-a7fb-7411e76166ba">CVssWriter::OnFreeze</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onfreeze">CVssWriter::OnFreeze</a>
 
 
 
-<a href="https://msdn.microsoft.com/a077323e-d04c-4bf7-8aa6-5028fa1c6e6b">CVssWriter::OnPrepareSnapshot</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpreparesnapshot">CVssWriter::OnPrepareSnapshot</a>
 
 
 
-<a href="https://msdn.microsoft.com/36028e9f-f7a7-41f1-a570-48f943e9ab83">CVssWriter::OnThaw</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onthaw">CVssWriter::OnThaw</a>
 
 
 
-<a href="https://msdn.microsoft.com/fc7fbaee-d223-4557-987d-2c09f3877ec2">VSS_APPLICATION_LEVEL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_application_level">VSS_APPLICATION_LEVEL</a>
  
 
  

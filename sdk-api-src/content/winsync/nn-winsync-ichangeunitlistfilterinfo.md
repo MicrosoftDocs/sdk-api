@@ -70,7 +70,7 @@ The <b>IChangeUnitListFilterInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/67420b58-b3c9-4500-8395-4d176133c142">GetChangeUnitId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ichangeunitlistfilterinfo-getchangeunitid">GetChangeUnitId</a>
 </td>
 <td align="left" width="63%">
 Gets the change unit ID that is stored at the specified index in the array of change unit IDs that define the filter. 
@@ -79,7 +79,7 @@ Gets the change unit ID that is stored at the specified index in the array of ch
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/23cb5f0f-0b8a-4e98-83b5-9353e7cee5d2">GetChangeUnitIdCount</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ichangeunitlistfilterinfo-getchangeunitidcount">GetChangeUnitIdCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of change unit IDs that define the filter. 
@@ -88,7 +88,7 @@ Gets the number of change unit IDs that define the filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ee3f86dc-8f5a-4b9b-ac06-b836898392ba">Initialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ichangeunitlistfilterinfo-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes a new instance of the <b>IChangeUnitListFilterInfo</b> class that contains the specified array of change unit IDs.
@@ -117,7 +117,7 @@ If a provider filters the contents of a change batch that it creates, it must cr
 
 
 
-<a href="https://msdn.microsoft.com/2c185fe2-1bbe-4409-aea0-6e138430b304">Windows Sync Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
  
 
  

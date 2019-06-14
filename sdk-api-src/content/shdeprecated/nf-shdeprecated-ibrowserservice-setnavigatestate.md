@@ -60,9 +60,9 @@ Deprecated. Sets the current navigation state. This method affects the cursor an
 
 ### -param bnstate [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e49f38f0-51d3-43a7-96f6-1722a4afa848">BNSTATE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/ne-shdeprecated-tagbnstate">BNSTATE</a></b>
 
-The value from the <a href="https://msdn.microsoft.com/e49f38f0-51d3-43a7-96f6-1722a4afa848">BNSTATE</a> enumeration that indicates the navigation state.
+The value from the <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/ne-shdeprecated-tagbnstate">BNSTATE</a> enumeration that indicates the navigation state.
 
 
 

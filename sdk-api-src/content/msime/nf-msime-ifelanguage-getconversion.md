@@ -64,7 +64,7 @@ A string of phonetic characters to convert.
 
 ### -param start [in]
 
-The starting character from which <a href="https://msdn.microsoft.com/9EE1BD9E-2D58-4720-841C-39865375BFE0">IFELanguage</a> begins conversion. The first character of <i>string</i> is represented by 1 (not 0).
+The starting character from which <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a> begins conversion. The first character of <i>string</i> is represented by 1 (not 0).
 
 
 ### -param length [in]
@@ -74,7 +74,7 @@ The number of characters to convert. If this value is -1, all of the remaining c
 
 ### -param result [out, retval]
 
-The converted string. This string is allocated by <a href="https://msdn.microsoft.com/f98bff39-bc5f-4a81-85d7-d5228e20fbc8">SysAllocStringLen</a> and must be freed by the client.
+The converted string. This string is allocated by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstringlen">SysAllocStringLen</a> and must be freed by the client.
 
 
 ## -returns
@@ -91,7 +91,7 @@ The converted string. This string is allocated by <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/9EE1BD9E-2D58-4720-841C-39865375BFE0">IFELanguage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a>
  
 
  

@@ -60,21 +60,21 @@ The <b>IPropertySheetProvider::AddPrimaryPages</b> method collects the pages fro
 ### -param lpUnknown [in]
 
 A pointer to snap-in interface that will be queried for the <b>IExtendPropertySheet</b> interface. If <i>bCreateHandle</i> is set to <b>TRUE</b>, this should also be a pointer to the snap-in's 
-<a href="https://msdn.microsoft.com/65eaa5ef-182b-4fec-bb3d-a308ac9dc660">IComponent</a> or 
-<a href="https://msdn.microsoft.com/60900b8d-59cc-4c1d-86b7-b902ba89216d">IComponentData</a> interface that will be queried for <b>IExtendPropertySheet</b>. Be aware that this value can be <b>NULL</b>. See Remarks for details.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a> interface that will be queried for <b>IExtendPropertySheet</b>. Be aware that this value can be <b>NULL</b>. See Remarks for details.
 
 
 ### -param bCreateHandle [in]
 
-A value that specifies whether to create a console-provided notification handle that is used to route the <a href="https://msdn.microsoft.com/4b1c6d78-23b1-4b5a-b913-8a7153471785">MMCN_PROPERTY_CHANGE</a> notification to the appropriate 
+A value that specifies whether to create a console-provided notification handle that is used to route the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-property-change">MMCN_PROPERTY_CHANGE</a> notification to the appropriate 
 <b>IComponent</b> or 
 <b>IComponentData</b> interface during calls to 
-<a href="https://msdn.microsoft.com/f563a6dd-22e7-4839-bd44-1702ab3e17a3">MMCPropertyChangeNotify</a>. The notification handle is passed back to the snap-in during calls to the snap-in's implementation of the 
-<a href="https://msdn.microsoft.com/14c4f088-ad94-48a1-8c6d-a199b2938074">IExtendPropertySheet2::CreatePropertyPages</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-mmcpropertychangenotify">MMCPropertyChangeNotify</a>. The notification handle is passed back to the snap-in during calls to the snap-in's implementation of the 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814847(v=vs.85)">IExtendPropertySheet2::CreatePropertyPages</a> method.
 
 If <i>bCreateHandle</i> is set to <b>TRUE</b>, the <i>lpUnknown</i> parameter should be a pointer to the 
 <b>IComponent</b> or 
-<b>IComponentData</b> that receives the <a href="https://msdn.microsoft.com/4b1c6d78-23b1-4b5a-b913-8a7153471785">MMCN_PROPERTY_CHANGE</a> notification.
+<b>IComponentData</b> that receives the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-property-change">MMCN_PROPERTY_CHANGE</a> notification.
 
 
 ### -param hNotifyWindow [in]
@@ -110,11 +110,11 @@ The snap-in might not add any pages during this method call. If this is the case
 
 
 
-<a href="https://msdn.microsoft.com/c63d5d5f-a334-4367-8a1e-252b4eb5b50d">IPropertySheetProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-ipropertysheetprovider">IPropertySheetProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/5371b7ab-a298-44d1-99f1-1cd8f188cb91">Using IPropertySheetProvider Directly</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-ipropertysheetprovider-directly">Using IPropertySheetProvider Directly</a>
  
 
  

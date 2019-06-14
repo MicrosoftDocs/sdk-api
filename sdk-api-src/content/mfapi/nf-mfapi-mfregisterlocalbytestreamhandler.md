@@ -69,7 +69,7 @@ A string that contains the MIME type for this handler.
 
 ### -param pActivate [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/c0936e3c-3cd1-4c1e-a336-2dee7d943963">IMFActivate</a> interface of an activation object. The caller implements this interface. The <a href="https://msdn.microsoft.com/120b8070-6732-450d-8334-b3910f7bb4d2">IMFActivate::ActivateObject</a> method of the activation object must create a byte-stream handler. The byte-stream handler exposes the <a href="https://msdn.microsoft.com/80c402d4-8246-42ee-a981-69c8d605cb0f">IMFByteStreamHandler</a> interface.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface of an activation object. The caller implements this interface. The <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject">IMFActivate::ActivateObject</a> method of the activation object must create a byte-stream handler. The byte-stream handler exposes the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfbytestreamhandler">IMFByteStreamHandler</a> interface.
 
 
 ## -returns
@@ -85,7 +85,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-Byte-stream handlers are used in Microsoft Media Foundation during the source resolution process, which creates a media source from a URL. For more information, see <a href="https://msdn.microsoft.com/b0113527-f22c-4519-b1cf-fea54bff4090">Scheme Handlers and Byte-Stream Handlers</a>.
+Byte-stream handlers are used in Microsoft Media Foundation during the source resolution process, which creates a media source from a URL. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/scheme-handlers-and-byte-stream-handlers">Scheme Handlers and Byte-Stream Handlers</a>.
 
 Within a process, local byte-stream handlers take precedence over byte-stream handlers that are registered in the registry. Local byte-stream handlers are not visible to other processes.
 
@@ -101,11 +101,11 @@ Either <i>szFileExtension</i> or <i>szMimeType</i> can be <b>NULL</b>; at least 
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/b0113527-f22c-4519-b1cf-fea54bff4090">Scheme Handlers and Byte-Stream Handlers</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/scheme-handlers-and-byte-stream-handlers">Scheme Handlers and Byte-Stream Handlers</a>
  
 
  

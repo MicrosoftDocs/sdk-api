@@ -98,7 +98,7 @@ Value: 0x80004001
 
 
 
-<div class="alert"><b>Note</b>  This property should not be used. Instead, you should use an interface derived from <a href="https://msdn.microsoft.com/a983af02-ee0e-4a62-8ae0-fb9a1e0c2571">IMultisession</a>, such as <a href="https://msdn.microsoft.com/b8124597-e75a-4f95-a25c-8cf59f452548">IMultisessionSequential</a>, for importing file data from the previous session.</div>
+<div class="alert"><b>Note</b>  This property should not be used. Instead, you should use an interface derived from <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a>, such as <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisessionsequential">IMultisessionSequential</a>, for importing file data from the previous session.</div>
 <div> </div>
 
 
@@ -108,15 +108,15 @@ Value: 0x80004001
 
 
 
-<a href="https://msdn.microsoft.com/6bb871c2-1a6e-4cf6-94e1-7a566ce7a88e">IDiscFormat2Data</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
 
 
 
-<a href="https://msdn.microsoft.com/bdbab74c-80bd-4dca-8d64-6d30452a5876">IDiscFormat2Data::get_NextWritableAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_nextwritableaddress">IDiscFormat2Data::get_NextWritableAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/a2f75240-9334-42a3-82d6-5ce9ddf1f3a2">IDiscFormat2Data::get_StartAddressOfPreviousSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_startaddressofprevioussession">IDiscFormat2Data::get_StartAddressOfPreviousSession</a>
  
 
  

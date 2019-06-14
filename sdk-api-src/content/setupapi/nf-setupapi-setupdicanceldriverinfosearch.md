@@ -59,7 +59,7 @@ The <b>SetupDiCancelDriverInfoSearch</b> function cancels a driver list search t
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> for which a driver list is being built.
+A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> for which a driver list is being built.
 
 
 ## -returns
@@ -85,7 +85,7 @@ If a driver list search is underway for the specified device information set whe
 
 
 
-<a href="https://msdn.microsoft.com/9e377865-8029-41c1-85b9-fdb2cbc09346">SetupDiBuildDriverInfoList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdibuilddriverinfolist">SetupDiBuildDriverInfoList</a>
  
 
  

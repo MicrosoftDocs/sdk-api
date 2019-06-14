@@ -59,7 +59,7 @@ Sets the filter on the contents of the current view.
 
 ### -param bstrFilterText [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a></b>
 
 The BSTR that names the filter view for the current folder.
 

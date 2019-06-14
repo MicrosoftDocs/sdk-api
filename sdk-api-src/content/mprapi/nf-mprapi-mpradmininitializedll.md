@@ -76,7 +76,7 @@ If the function returns any value other than <b>NO_ERROR</b>, RRAS will fail to 
 
 
 RAS supports multiple Administration DLLs. RAS calls the multiple implementations of <b>MprAdminInitializeDll</b> in the order in which the DLLs are listed in the 
-<a href="https://msdn.microsoft.com/e83a5e37-a39d-4465-abc9-653cdd56893b">registry</a>.
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-dll-registry-setup">registry</a>.
 
 This function can return any of the error codes that are defined in the Winerror.h header file in the Platform Software Development Kit (SDK).
 
@@ -88,19 +88,19 @@ This function can return any of the error codes that are defined in the Winerror
 
 
 
-<a href="https://msdn.microsoft.com/7be485ce-fd45-4968-9e9d-2128d5a8967d">MprAdminTerminateDll</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminterminatedll">MprAdminTerminateDll</a>
 
 
 
-<a href="https://msdn.microsoft.com/c15c6e2d-3bb6-4583-9ac3-19528feb863f">RAS Administration DLL</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-dll">RAS Administration DLL</a>
 
 
 
-<a href="https://msdn.microsoft.com/27cf63e2-9dd3-4bc1-98af-e93055d89492">RAS Administration Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-functions">RAS Administration Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/6170fcf2-26d5-4418-bddb-2afd99510520">Remote Access Service Administration Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
  
 
  

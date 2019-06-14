@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Inserts a singly-linked list at the front of another singly linked list. Access to the lists is synchronized on a multiprocessor system. This version of the method does not use the <a href="https://msdn.microsoft.com/library/6xa169sk(v=VS.85).aspx">__fastcall</a> calling convention.
+Inserts a singly-linked list at the front of another singly linked list. Access to the lists is synchronized on a multiprocessor system. This version of the method does not use the <a href="https://docs.microsoft.com/previous-versions//6xa169sk(v=vs.85)">__fastcall</a> calling convention.
 
 
 ## -parameters
@@ -68,13 +68,13 @@ Pointer to an <b>SLIST_HEADER</b> structure that represents the head of a singly
 ### -param List [in, out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/6c467621-fa51-49f1-b962-2dd5ec0f7084">SLIST_ENTRY</a> structure that represents the first item in the  list to be inserted. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_list_entry">SLIST_ENTRY</a> structure that represents the first item in the  list to be inserted. 
 
 
 ### -param ListEnd [in, out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/6c467621-fa51-49f1-b962-2dd5ec0f7084">SLIST_ENTRY</a> structure that represents the last item in the  list to be inserted. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_list_entry">SLIST_ENTRY</a> structure that represents the last item in the  list to be inserted. 
 
 
 ### -param Count [in]
@@ -105,27 +105,27 @@ All list items must be aligned on a <b>MEMORY_ALLOCATION_ALIGNMENT</b> boundary;
 
 
 
-<a href="https://msdn.microsoft.com/35463ace-33ab-4eb9-9901-2504a92456e2">Interlocked Singly Linked Lists</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/interlocked-singly-linked-lists">Interlocked Singly Linked Lists</a>
 
 
 
-<a href="https://msdn.microsoft.com/3fde3377-8a98-4976-a350-2c173b209e8c">InterlockedFlushSList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedflushslist">InterlockedFlushSList</a>
 
 
 
-<a href="https://msdn.microsoft.com/10760fd4-5973-4ab0-991c-7a5951c798a4">InterlockedPopEntrySList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedpopentryslist">InterlockedPopEntrySList</a>
 
 
 
-<a href="https://msdn.microsoft.com/60e3b6f7-f556-4699-be90-db7330cfb8ca">InterlockedPushEntrySList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedpushentryslist">InterlockedPushEntrySList</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c467621-fa51-49f1-b962-2dd5ec0f7084">SLIST_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_list_entry">SLIST_ENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/5608f84f-9211-4043-bb53-60339191ee29">Using Singly Linked Lists</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/using-singly-linked-lists">Using Singly Linked Lists</a>
  
 
  

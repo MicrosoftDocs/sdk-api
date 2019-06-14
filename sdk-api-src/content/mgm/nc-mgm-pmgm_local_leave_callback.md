@@ -53,7 +53,7 @@ The
 <b>PMGM_LOCAL_LEAVE_CALLBACK</b> callback is a call into a routing protocol to notify the routing protocol that the IGMP has detected that it no longer has receivers for a group on an interface that is currently owned by the routing protocol.
 
 This callback is invoked when the 
-<a href="https://msdn.microsoft.com/fe39d824-3154-4479-bd70-09b2b6593885">MgmDeleteGroupMembershipEntry</a> function is called by IGMP.
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmdeletegroupmembershipentry">MgmDeleteGroupMembershipEntry</a> function is called by IGMP.
 
 
 ## -parameters
@@ -140,7 +140,7 @@ This version of the Multicast Group Manager API supports only wildcard sources (
 
 
 
-<a href="https://msdn.microsoft.com/e8245b09-0fbc-49c3-a7bb-534115c74c88">PMGM_LOCAL_JOIN_CALLBACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nc-mgm-pmgm_local_join_callback">PMGM_LOCAL_JOIN_CALLBACK</a>
  
 
  

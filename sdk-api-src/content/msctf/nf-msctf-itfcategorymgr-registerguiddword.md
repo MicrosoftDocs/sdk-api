@@ -115,17 +115,17 @@ The method was unable to register the <b>DWORD</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/26139c8c-e1d9-4d7a-a0c0-ef73e572fbe4">ITfCategoryMgr
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcategorymgr">ITfCategoryMgr
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/016d77b5-fc08-4d2b-a9c4-50ae7926a057">ITfCategoryMgr::GetGUIDDWORD
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-getguiddword">ITfCategoryMgr::GetGUIDDWORD
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/37161b4b-7dfc-4b8d-8e0b-3b9f794eb3b0">ITfCategoryMgr::UnregisterGUIDDWORD
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-unregisterguiddword">ITfCategoryMgr::UnregisterGUIDDWORD
       </a>
  
 

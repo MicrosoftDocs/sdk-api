@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deprecated. Used in view size negotiations. This method is called by <a href="https://msdn.microsoft.com/92860c13-cb67-4499-90fe-2b0254ae25c7">_UpdateViewRectSize</a> after determining the available dimensions.
+Deprecated. Used in view size negotiations. This method is called by <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_updateviewrectsize">_UpdateViewRectSize</a> after determining the available dimensions.
 
 
 ## -parameters

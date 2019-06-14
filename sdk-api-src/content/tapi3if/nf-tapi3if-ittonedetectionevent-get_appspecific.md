@@ -61,8 +61,8 @@ The
 ### -param plAppSpecific [out]
 
 Pointer to a value to receive the application-specific identifier for the tone, as defined in the 
-<a href="https://msdn.microsoft.com/c03db3e2-3dc9-443f-8acf-66c06940e0b9">ITDetectTone</a> object or in the 
-<a href="https://msdn.microsoft.com/f2d37591-2f1e-458f-b4d4-ab63eb31d33a">LINEMONITORTONE</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itdetecttone">ITDetectTone</a> object or in the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemonitortone_tag">LINEMONITORTONE</a> structure.
 
 
 ## -returns
@@ -109,11 +109,11 @@ The <i>plAppSpecific</i> parameter is not a valid pointer.
 
 
 
-<a href="https://msdn.microsoft.com/1e0f71a2-1aae-46b7-9147-7bf9da4d9503">ITToneDetectionEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittonedetectionevent">ITToneDetectionEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/f2d37591-2f1e-458f-b4d4-ab63eb31d33a">LINEMONITORTONE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemonitortone_tag">LINEMONITORTONE</a>
  
 
  

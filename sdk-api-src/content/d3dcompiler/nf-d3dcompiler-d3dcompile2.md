@@ -59,37 +59,37 @@ Compiles Microsoft High Level Shader Language (HLSL) code into bytecode for a gi
 
 ### -param pSrcData [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCVOID</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCVOID</a></b>
 
 A pointer to uncompiled shader data (ASCII HLSL code).
 
 
 ### -param SrcDataSize [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SIZE_T</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SIZE_T</a></b>
 
 The size, in bytes, of the block of memory that <i>pSrcData</i> points to.
 
 
 ### -param pSourceName [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
 An optional pointer to a constant null-terminated string containing the name that identifies the source data to use in error messages. If not used, set to <b>NULL</b>.
 
 
 ### -param pDefines [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/8cfe0b3c-5ce8-4d59-8fd9-0fdf200c9552">D3D_SHADER_MACRO</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ns-d3dcommon-_d3d_shader_macro">D3D_SHADER_MACRO</a>*</b>
 
-An optional array of <a href="https://msdn.microsoft.com/8cfe0b3c-5ce8-4d59-8fd9-0fdf200c9552">D3D_SHADER_MACRO</a> structures that define shader macros. Each macro definition contains a name and a NULL-terminated definition. If not used, set to <b>NULL</b>.
+An optional array of <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ns-d3dcommon-_d3d_shader_macro">D3D_SHADER_MACRO</a> structures that define shader macros. Each macro definition contains a name and a NULL-terminated definition. If not used, set to <b>NULL</b>.
 
 
 ### -param pInclude [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/2020ce65-3a6e-4a9f-9e97-b94e3c75f4f5">ID3DInclude</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/nn-d3dcommon-id3dinclude">ID3DInclude</a>*</b>
 
- A pointer to an <a href="https://msdn.microsoft.com/2020ce65-3a6e-4a9f-9e97-b94e3c75f4f5">ID3DInclude</a> interface that the compiler uses to handle include files. If you set this parameter to <b>NULL</b> and the shader contains a #include, a compile error occurs. You can pass the <b>D3D_COMPILE_STANDARD_FILE_INCLUDE</b> macro, which is a pointer to a default include handler. This default include handler includes files that are relative to the current directory and files that are relative to the directory of the initial source file. When you use <b>D3D_COMPILE_STANDARD_FILE_INCLUDE</b>, you must specify the source file name in the <i>pSourceName</i> parameter; the compiler will derive the initial relative directory from <i>pSourceName</i>.
+ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/nn-d3dcommon-id3dinclude">ID3DInclude</a> interface that the compiler uses to handle include files. If you set this parameter to <b>NULL</b> and the shader contains a #include, a compile error occurs. You can pass the <b>D3D_COMPILE_STANDARD_FILE_INCLUDE</b> macro, which is a pointer to a default include handler. This default include handler includes files that are relative to the current directory and files that are relative to the directory of the initial source file. When you use <b>D3D_COMPILE_STANDARD_FILE_INCLUDE</b>, you must specify the source file name in the <i>pSourceName</i> parameter; the compiler will derive the initial relative directory from <i>pSourceName</i>.
 
 
 ```
@@ -101,35 +101,35 @@ Type: <b><a href="https://msdn.microsoft.com/2020ce65-3a6e-4a9f-9e97-b94e3c75f4f
 
 ### -param pEntrypoint [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
 A pointer to a constant null-terminated string that contains  the name of the shader entry point function where shader execution begins. When you compile an effect, <b>D3DCompile2</b> ignores <i>pEntrypoint</i>; we recommend that you set <i>pEntrypoint</i> to <b>NULL</b> because it is good programming practice to set a pointer parameter to <b>NULL</b> if the called function will not use it.
 
 
 ### -param pTarget [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
-A pointer to a constant null-terminated string that specifies the shader target or set of shader features to compile against. The shader target can be a shader model (for example, shader model 2, shader model 3, shader model 4, or shader model 5). The target can also be an effect type (for example, fx_4_1). For info about the targets that various profiles support, see <a href="https://msdn.microsoft.com/594E1C14-C1D4-4207-91A1-28892CE6D821">Specifying Compiler Targets</a>. 
+A pointer to a constant null-terminated string that specifies the shader target or set of shader features to compile against. The shader target can be a shader model (for example, shader model 2, shader model 3, shader model 4, or shader model 5). The target can also be an effect type (for example, fx_4_1). For info about the targets that various profiles support, see <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/specifying-compiler-targets">Specifying Compiler Targets</a>. 
 
 
 ### -param Flags1 [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-A combination of shader <a href="https://msdn.microsoft.com/039627DD-D6A4-4EA3-8E91-D2A20770E6FF">D3D compile constants</a> that are combined by using a bitwise <b>OR</b> operation. The resulting value specifies how the compiler compiles the HLSL code.
+A combination of shader <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompile-constants">D3D compile constants</a> that are combined by using a bitwise <b>OR</b> operation. The resulting value specifies how the compiler compiles the HLSL code.
 
 
 ### -param Flags2 [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-A combination of effect <a href="https://msdn.microsoft.com/AA46E5ED-92DD-4327-B852-8DD23A878562">D3D compile effect constants</a> that are combined by using a bitwise <b>OR</b> operation. The resulting value specifies how the compiler compiles the effect. When you compile a shader and not an effect file, <b>D3DCompile2</b> ignores <i>Flags2</i>; we recommend that you set <i>Flags2</i> to zero because it is good programming practice to set a nonpointer parameter to zero if the called function will not use it.
+A combination of effect <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompile-effect-constants">D3D compile effect constants</a> that are combined by using a bitwise <b>OR</b> operation. The resulting value specifies how the compiler compiles the effect. When you compile a shader and not an effect file, <b>D3DCompile2</b> ignores <i>Flags2</i>; we recommend that you set <i>Flags2</i> to zero because it is good programming practice to set a nonpointer parameter to zero if the called function will not use it.
 
 
 ### -param SecondaryDataFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A combination of the following flags that are combined by using a bitwise <b>OR</b> operation. The resulting value specifies how the compiler compiles the HLSL code. 
 
@@ -158,7 +158,7 @@ If <i>pSecondaryData</i> is <b>NULL</b>, set to zero.
 
 ### -param pSecondaryData [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCVOID</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCVOID</a></b>
 
 A pointer to secondary data. If you don't pass secondary data, set to <b>NULL</b>. Use this secondary data  to align UAV slots in two shaders. Suppose shader A has UAVs and they are bound to some slots. To compile shader B such that UAVs with the same names are mapped in B to the same slots as in A, pass A’s byte code to <b>D3DCompile2</b> as the secondary data.
 
@@ -167,32 +167,32 @@ A pointer to secondary data. If you don't pass secondary data, set to <b>NULL</b
 
 ### -param SecondaryDataSize [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SIZE_T</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SIZE_T</a></b>
 
 The size, in bytes, of the block of memory that <i>pSecondaryData</i> points to. If <i>pSecondaryData</i> is <b>NULL</b>, set to zero.
 
 
 ### -param ppCode [out]
 
-Type: <b><a href="https://msdn.microsoft.com/f6a04778-1ab9-4935-98b8-f814c6b4ebac">ID3DBlob</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)">ID3DBlob</a>**</b>
 
-A pointer to a variable that receives a pointer to the <a href="https://msdn.microsoft.com/f6a04778-1ab9-4935-98b8-f814c6b4ebac">ID3DBlob</a> interface that you can use to access the compiled code.
+A pointer to a variable that receives a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)">ID3DBlob</a> interface that you can use to access the compiled code.
 
 
 ### -param ppErrorMsgs [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/f6a04778-1ab9-4935-98b8-f814c6b4ebac">ID3DBlob</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)">ID3DBlob</a>**</b>
 
-A pointer to a variable that receives a pointer to the <a href="https://msdn.microsoft.com/f6a04778-1ab9-4935-98b8-f814c6b4ebac">ID3DBlob</a> interface that you can use to access compiler error messages, or <b>NULL</b> if there are no errors.
+A pointer to a variable that receives a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)">ID3DBlob</a> interface that you can use to access compiler error messages, or <b>NULL</b> if there are no errors.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-Returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 return codes</a>.
+Returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 return codes</a>.
 
 
 
@@ -201,10 +201,10 @@ Returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-1
 
 
 
-The difference between <b>D3DCompile2</b> and <a href="https://msdn.microsoft.com/en-us/library/Dd607324(v=VS.85).aspx">D3DCompile</a> is that <b>D3DCompile2</b> takes some optional parameters (<i>SecondaryDataFlags</i>, <i>pSecondaryData</i> and <i>SecondaryDataSize</i>)  that can be used to control some aspects of how bytecode is generated. Refer to the descriptions of these parameters for more details. There is no difference otherwise to the efficiency of the bytecode generated between  <b>D3DCompile2</b> and <b>D3DCompile</b>.
+The difference between <b>D3DCompile2</b> and <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompile">D3DCompile</a> is that <b>D3DCompile2</b> takes some optional parameters (<i>SecondaryDataFlags</i>, <i>pSecondaryData</i> and <i>SecondaryDataSize</i>)  that can be used to control some aspects of how bytecode is generated. Refer to the descriptions of these parameters for more details. There is no difference otherwise to the efficiency of the bytecode generated between  <b>D3DCompile2</b> and <b>D3DCompile</b>.
 
 <h3><a id="Compiling_shaders_for_UWP"></a><a id="compiling_shaders_for_uwp"></a><a id="COMPILING_SHADERS_FOR_UWP"></a>Compiling shaders for UWP</h3>
-To compile offline shaders the recommend approach is to use the <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/bb232919(v=vs.85).aspx">Effect-Compiler Tool</a>. If you cannot compile all of your shaders ahead of time, consider compiling the more expensive ones and the ones on your startup and most performance-sensitive paths require, and compiling the rest at runtime. You can use a process similar to the following to compile a loaded or generated shader in a UWP application without blocking your user interface thread.
+To compile offline shaders the recommend approach is to use the <a href="https://docs.microsoft.com/windows/desktop/direct3dtools/fxc">Effect-Compiler Tool</a>. If you cannot compile all of your shaders ahead of time, consider compiling the more expensive ones and the ones on your startup and most performance-sensitive paths require, and compiling the rest at runtime. You can use a process similar to the following to compile a loaded or generated shader in a UWP application without blocking your user interface thread.
 
 <ul>
 <li>Using Visual Studio 2015+ to develop the UWP app, add the new item "shader.hlsl".<ul>
@@ -269,11 +269,11 @@ To compile offline shaders the recommend approach is to use the <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd607342(v=VS.85).aspx">Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference-functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/399F5E91-B017-4F5E-9037-DC055407D96F">Specifying D3D12 Root Signatures in HLSL</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/specifying-root-signatures-in-hlsl">Specifying D3D12 Root Signatures in HLSL</a>
  
 
  

@@ -60,14 +60,14 @@ Get the rendering predicate state.
 
 ### -param ppPredicate [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/ad16e0ac-a5ff-41ae-9b73-e93235ef891b">ID3D11Predicate</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11predicate">ID3D11Predicate</a>**</b>
 
-Address of a pointer to a predicate (see <a href="https://msdn.microsoft.com/ad16e0ac-a5ff-41ae-9b73-e93235ef891b">ID3D11Predicate</a>). Value stored here will be <b>NULL</b> upon device creation.
+Address of a pointer to a predicate (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11predicate">ID3D11Predicate</a>). Value stored here will be <b>NULL</b> upon device creation.
 
 
 ### -param pPredicateValue [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a>*</b>
 
 Address of a boolean to fill with the predicate comparison value. <b>FALSE</b> upon device creation.
 
@@ -95,7 +95,7 @@ Any returned interfaces will have their reference count incremented by one. Appl
 
 
 
-<a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
  
 
  

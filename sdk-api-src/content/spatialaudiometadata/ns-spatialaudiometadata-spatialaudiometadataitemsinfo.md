@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Provides information about an <a href="https://msdn.microsoft.com/54A6B7DE-A41E-4214-AF02-CC19250B9037">ISpatialAudioMetadataItems</a> object. Get a copy of this structure by calling <a href="https://msdn.microsoft.com/F54BF2B9-B9A4-47EF-8C18-DC58B24B617E">GetInfo</a>.
+Provides information about an <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">ISpatialAudioMetadataItems</a> object. Get a copy of this structure by calling <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataitems-getinfo">GetInfo</a>.
 
 
 ## -struct-fields

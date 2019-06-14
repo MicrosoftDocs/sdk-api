@@ -53,14 +53,14 @@ ms.custom: 19H1
 
 The <code>IAMVfwCaptureDialogs</code> interface displays a dialog box provided by a Video for Windows (VFW) capture driver.
 
-The <a href="https://msdn.microsoft.com/663b6b3b-2a50-4586-9506-600a59869abe">VFW Capture</a> filter implements this interface. Applications can use it to display one of the three dialog boxes (Source, Format, or Display) provided by VFW capture drivers.
+The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/vfw-capture-filter">VFW Capture</a> filter implements this interface. Applications can use it to display one of the three dialog boxes (Source, Format, or Display) provided by VFW capture drivers.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMVfwCaptureDialogs</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAMVfwCaptureDialogs</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMVfwCaptureDialogs</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMVfwCaptureDialogs</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IAMVfwCaptureDialogs</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/be2d9b1f-c53f-4a75-89ab-ec07c655cbea">HasDialog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamvfwcapturedialogs-hasdialog">HasDialog</a>
 </td>
 <td align="left" width="63%">
 Determines if the specified dialog box exists in the driver.
@@ -84,7 +84,7 @@ Determines if the specified dialog box exists in the driver.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0a8ba932-0f31-4768-b5e3-15ec8533a574">SendDriverMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamvfwcapturedialogs-senddrivermessage">SendDriverMessage</a>
 </td>
 <td align="left" width="63%">
 Sends a driver-specific message.
@@ -93,7 +93,7 @@ Sends a driver-specific message.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/988b68e5-12fb-47c5-8a49-81ba262da739">ShowDialog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamvfwcapturedialogs-showdialog">ShowDialog</a>
 </td>
 <td align="left" width="63%">
 Displays the specified dialog box.

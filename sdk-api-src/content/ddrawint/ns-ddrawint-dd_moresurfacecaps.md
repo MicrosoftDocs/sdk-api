@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The DD_MORESURFACECAPS structure defines more driver surface capabilities in addition to those described in <a href="https://msdn.microsoft.com/529d60b5-658d-4d55-a599-fa35386c01a7">DDCORECAPS</a>.
+The DD_MORESURFACECAPS structure defines more driver surface capabilities in addition to those described in <a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-_ddcorecaps">DDCORECAPS</a>.
   
 
 
@@ -75,7 +75,7 @@ This calculation accounts for the minimum size of the DD_MORESURFACECAPS structu
 
 ### -field ddsCapsMore
 
-Specifies a DDSCAPSEX structure that provides the extensions to <b>ddcaps.ddsCaps</b> that describe the types of extended surfaces the driver can create. When a DDCAPS structure is returned to the application, it is a <a href="https://msdn.microsoft.com/023b1a6d-3f08-43cc-b9c0-9d312b347a6b">DDSCAPS2</a> structure manufactured from <b>DDCAPS.ddsCaps</b> and <b>DD_MORESURFACECAPS.ddsCapsMore</b>. A DDSCAPSEX structure is the same as a DDSCAPS2 structure without the <b>dwCaps</b> member. 
+Specifies a DDSCAPSEX structure that provides the extensions to <b>ddcaps.ddsCaps</b> that describe the types of extended surfaces the driver can create. When a DDCAPS structure is returned to the application, it is a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550292(v=vs.85)">DDSCAPS2</a> structure manufactured from <b>DDCAPS.ddsCaps</b> and <b>DD_MORESURFACECAPS.ddsCapsMore</b>. A DDSCAPSEX structure is the same as a DDSCAPS2 structure without the <b>dwCaps</b> member. 
 
 
 ### -field tagNTExtendedHeapRestrictions
@@ -121,11 +121,11 @@ This structure contains the caps bits added to the <b>DDCAPS.ddsCaps</b> structu
 
 
 
-<a href="https://msdn.microsoft.com/529d60b5-658d-4d55-a599-fa35386c01a7">DDCORECAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-_ddcorecaps">DDCORECAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/023b1a6d-3f08-43cc-b9c0-9d312b347a6b">DDSCAPS2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550292(v=vs.85)">DDSCAPS2</a>
  
 
  

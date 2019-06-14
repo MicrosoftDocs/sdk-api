@@ -101,7 +101,7 @@ The data type is unknown.
 
 
 
-A register component type is specified in the <b>ComponentType</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Ff476215(v=VS.85).aspx">D3D11_SIGNATURE_PARAMETER_DESC</a> structure.
+A register component type is specified in the <b>ComponentType</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-_d3d11_signature_parameter_desc">D3D11_SIGNATURE_PARAMETER_DESC</a> structure.
 
 
 
@@ -111,7 +111,7 @@ A register component type is specified in the <b>ComponentType</b> member of the
 
 
 
-<a href="https://msdn.microsoft.com/002154d5-74a6-48fb-b55f-8687e4505fc7">Common Version Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-common-enumerations">Common Version Enumerations</a>
  
 
  

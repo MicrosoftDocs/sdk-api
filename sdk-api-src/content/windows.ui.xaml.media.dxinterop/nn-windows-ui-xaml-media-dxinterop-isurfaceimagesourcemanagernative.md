@@ -54,7 +54,7 @@ Enables performing bulk operations across all <a href="https://docs.microsoft.co
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISurfaceImageSourceManagerNative</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISurfaceImageSourceManagerNative</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISurfaceImageSourceManagerNative</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISurfaceImageSourceManagerNative</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISurfaceImageSourceManagerNative</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2921FF9E-25C5-4DF6-B23F-7B60F0577983">FlushAllSurfacesWithDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-isurfaceimagesourcemanagernative-flushallsurfaceswithdevice">FlushAllSurfacesWithDevice</a>
 </td>
 <td align="left" width="63%">
 Flushes all current GPU work for all <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> or <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.virtualsurfaceimagesource">VirtualSurfaceImageSource</a>  objects associated with the given device.
@@ -84,7 +84,7 @@ Flushes all current GPU work for all <a href="https://docs.microsoft.com/en-us/u
 
 
 
-<a href="https://msdn.microsoft.com/17987EEA-6771-423C-9B68-6B9AEADC7B7F">DirectX and XAML interop</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/apps/hh825871(v=win.10)">DirectX and XAML interop</a>
 
 
 

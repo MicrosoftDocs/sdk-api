@@ -51,7 +51,7 @@ req.redist:
 Enables or disables the mechanism that ejects media, for those devices possessing that locking capability.
 
 To perform this operation, call the 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -156,23 +156,23 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/b3a3ffa1-e710-4d96-aff8-5b6876ab032b">Device Management Control Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/device-management-control-codes">Device Management Control Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/e1eeb3b8-b52b-4570-a3bc-e245ae58464f">IOCTL_STORAGE_EJECT_MEDIA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_eject_media">IOCTL_STORAGE_EJECT_MEDIA</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5b370e9-03e8-4ab8-ba3c-4677cecb3bef">IOCTL_STORAGE_LOAD_MEDIA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_load_media">IOCTL_STORAGE_LOAD_MEDIA</a>
 
 
 
-<a href="https://msdn.microsoft.com/a5f55555-5226-46a7-8869-df4d1c4e7352">PREVENT_MEDIA_REMOVAL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_prevent_media_removal">PREVENT_MEDIA_REMOVAL</a>
  
 
  

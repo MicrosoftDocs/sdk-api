@@ -82,21 +82,21 @@ The minor version of the service provider specification supported by this provid
 
 Type: <b>LPNSPCLEANUP</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/bef888a2-7cfd-4096-bd03-e1864af42365">NSPCleanup</a> function implemented by the namespace provider. Every NSP function entry must point to a valid function. If the provider does not implement this function, the <b>NSPCleanup</b> function should return <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEOPNOTSUPP</a>.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnspcleanup">NSPCleanup</a> function implemented by the namespace provider. Every NSP function entry must point to a valid function. If the provider does not implement this function, the <b>NSPCleanup</b> function should return <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEOPNOTSUPP</a>.
 
 
 ### -field NSPLookupServiceBegin
 
 Type: <b>LPNSPLOOKUPSERVICEBEGIN</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/a0b71821-4434-470f-b729-370d7e1722ec">NSPLookupServiceBegin</a> function implemented by the namespace provider. Every NSP function entry must point to a valid function. If the provider does not implement this function, the <b>NSPLookupServiceBegin</b> function should return <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEOPNOTSUPP</a>.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicebegin">NSPLookupServiceBegin</a> function implemented by the namespace provider. Every NSP function entry must point to a valid function. If the provider does not implement this function, the <b>NSPLookupServiceBegin</b> function should return <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEOPNOTSUPP</a>.
 
 
 ### -field NSPLookupServiceNext
 
 Type: <b>LPNSPLOOKUPSERVICENEXT</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/321732e4-5d48-48f4-8795-ffac208852dc">NSPLookupServiceNext</a> function implemented by the namespace provider. Every NSP function entry must point to a valid function. If the provider does not implement this function, the <b>NSPLookupServiceNext</b> function should return <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEOPNOTSUPP</a>. 
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicenext">NSPLookupServiceNext</a> function implemented by the namespace provider. Every NSP function entry must point to a valid function. If the provider does not implement this function, the <b>NSPLookupServiceNext</b> function should return <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEOPNOTSUPP</a>. 
 
 
 
@@ -107,21 +107,21 @@ A pointer to the <a href="https://msdn.microsoft.com/321732e4-5d48-48f4-8795-ffa
 
 Type: <b>LPNSPLOOKUPSERVICEEND</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/ec72c89a-a74b-449c-996a-02057dff9137">NSPLookupServiceEnd</a> function implemented by the namespace provider. Every NSP function entry must point to a valid function. If the provider does not implement this function, the <b>NSPLookupServiceEnd</b> function should return <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEOPNOTSUPP</a>.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupserviceend">NSPLookupServiceEnd</a> function implemented by the namespace provider. Every NSP function entry must point to a valid function. If the provider does not implement this function, the <b>NSPLookupServiceEnd</b> function should return <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEOPNOTSUPP</a>.
 
 
 ### -field NSPSetService
 
 Type: <b>LPNSPSETSERVICE</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/df76ea75-c0bc-48b8-b1a7-0c510c5cc28d">NSPSetService</a> function implemented by the namespace provider. Every NSP function entry must point to a valid function. If the provider does not implement this function, the <b>NSPSetService</b> function should return <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEOPNOTSUPP</a>.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnspsetservice">NSPSetService</a> function implemented by the namespace provider. Every NSP function entry must point to a valid function. If the provider does not implement this function, the <b>NSPSetService</b> function should return <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEOPNOTSUPP</a>.
 
 
 ### -field NSPInstallServiceClass
 
 Type: <b>LPNSPINSTALLSERVICECLASS</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/437a3580-e296-4f20-8921-84e522cccc1a">NSPInstallServiceClass</a> function implemented by the namespace provider. Every NSP function entry must point to a valid function. If the provider does not implement this function, the <b>NSPInstallServiceClass</b> function should return <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEOPNOTSUPP</a>. 
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnspinstallserviceclass">NSPInstallServiceClass</a> function implemented by the namespace provider. Every NSP function entry must point to a valid function. If the provider does not implement this function, the <b>NSPInstallServiceClass</b> function should return <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEOPNOTSUPP</a>. 
 
 
 
@@ -132,7 +132,7 @@ A pointer to the <a href="https://msdn.microsoft.com/437a3580-e296-4f20-8921-84e
 
 Type: <b>LPNSPREMOVESERVICECLASS</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/97313e6f-ec9e-4dcb-b888-14436259a519">NSPRemoveServiceClass</a> function implemented by the namespace provider. Every NSP function entry must point to a valid function. If the provider does not implement this function, the <b>NSPRemoveServiceClass</b> function should return <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEOPNOTSUPP</a>. 
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnspremoveserviceclass">NSPRemoveServiceClass</a> function implemented by the namespace provider. Every NSP function entry must point to a valid function. If the provider does not implement this function, the <b>NSPRemoveServiceClass</b> function should return <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEOPNOTSUPP</a>. 
 
 
 
@@ -143,7 +143,7 @@ A pointer to the <a href="https://msdn.microsoft.com/97313e6f-ec9e-4dcb-b888-144
 
 Type: <b>LPNSPGETSERVICECLASSINFO</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/babe1c96-9077-4d91-a52a-839c89d7a83b">NSPGetServiceClassInfo</a> function implemented by the namespace provider. Every NSP function entry must point to a valid function. If the provider does not implement this function, the <b>NSPGetServiceClassInfo</b> function should return <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEOPNOTSUPP</a>. 
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnspgetserviceclassinfo">NSPGetServiceClassInfo</a> function implemented by the namespace provider. Every NSP function entry must point to a valid function. If the provider does not implement this function, the <b>NSPGetServiceClassInfo</b> function should return <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEOPNOTSUPP</a>. 
 
 
 
@@ -154,7 +154,7 @@ A pointer to the <a href="https://msdn.microsoft.com/babe1c96-9077-4d91-a52a-839
 
 Type: <b>LPNSPIOCTL</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/061969f5-dbb5-47d7-820d-5af6fe6a0c62">NSPIoctl</a> function implemented by the namespace provider. Every NSP function entry must point to a valid function. If the provider does not implement this function, the <b>NSPIoctl</b> function should return <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEOPNOTSUPP</a>.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnspioctl">NSPIoctl</a> function implemented by the namespace provider. Every NSP function entry must point to a valid function. If the provider does not implement this function, the <b>NSPIoctl</b> function should return <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEOPNOTSUPP</a>.
 
 <div class="alert"><b>Note</b>  This structure member is only available on Windows XP and later.
 </div>
@@ -180,47 +180,47 @@ The version of the <b>NSP_ROUTINE</b> structure on Windows XP and later has the
 
 
 
-<a href="https://msdn.microsoft.com/bef888a2-7cfd-4096-bd03-e1864af42365">NSPCleanup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnspcleanup">NSPCleanup</a>
 
 
 
-<a href="https://msdn.microsoft.com/babe1c96-9077-4d91-a52a-839c89d7a83b">NSPGetServiceClassInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnspgetserviceclassinfo">NSPGetServiceClassInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/437a3580-e296-4f20-8921-84e522cccc1a">NSPInstallServiceClass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnspinstallserviceclass">NSPInstallServiceClass</a>
 
 
 
-<a href="https://msdn.microsoft.com/061969f5-dbb5-47d7-820d-5af6fe6a0c62">NSPIoctl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnspioctl">NSPIoctl</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0b71821-4434-470f-b729-370d7e1722ec">NSPLookupServiceBegin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicebegin">NSPLookupServiceBegin</a>
 
 
 
-<a href="https://msdn.microsoft.com/ec72c89a-a74b-449c-996a-02057dff9137">NSPLookupServiceEnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupserviceend">NSPLookupServiceEnd</a>
 
 
 
-<a href="https://msdn.microsoft.com/321732e4-5d48-48f4-8795-ffac208852dc">NSPLookupServiceNext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicenext">NSPLookupServiceNext</a>
 
 
 
-<a href="https://msdn.microsoft.com/97313e6f-ec9e-4dcb-b888-14436259a519">NSPRemoveServiceClass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnspremoveserviceclass">NSPRemoveServiceClass</a>
 
 
 
-<a href="https://msdn.microsoft.com/df76ea75-c0bc-48b8-b1a7-0c510c5cc28d">NSPSetService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnspsetservice">NSPSetService</a>
 
 
 
-<a href="https://msdn.microsoft.com/ed9e4ff3-736a-4037-bf85-5572f0cd279d">NSPStartup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-nspstartup">NSPStartup</a>
 
 
 
-<a href="https://msdn.microsoft.com/22a4ee47-030b-4aee-b9b1-c9e33b3e4fce">NSPV2_ROUTINE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-_nspv2_routine">NSPV2_ROUTINE</a>
  
 
  

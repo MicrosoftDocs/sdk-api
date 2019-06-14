@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>ICAbout</b> macro notifies a video compression driver to display its About dialog box. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/6eca69a3-0463-48e6-befb-5003b7515e7d">ICM_ABOUT</a> message.
+The <b>ICAbout</b> macro notifies a video compression driver to display its About dialog box. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-about">ICM_ABOUT</a> message.
 
 
 
@@ -69,7 +69,7 @@ Handle of the compressor.
 
 Handle of the parent window of the displayed dialog box.
 
-You can also determine if a driver has an About dialog box by specifying -1 in this parameter, as in the <a href="https://msdn.microsoft.com/073f217f-961b-4de2-9430-5ee81379e807">ICQueryAbout</a> macro. The driver returns ICERR_OK if it has an About dialog box or ICERR_UNSUPPORTED otherwise.
+You can also determine if a driver has an About dialog box by specifying -1 in this parameter, as in the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icqueryabout">ICQueryAbout</a> macro. The driver returns ICERR_OK if it has an About dialog box or ICERR_UNSUPPORTED otherwise.
 
 
 ## -see-also
@@ -77,11 +77,11 @@ You can also determine if a driver has an About dialog box by specifying -1 in t
 
 
 
-<a href="https://msdn.microsoft.com/e8ee41fa-180a-432a-933b-b4a525b9df8c">Video Compression Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://msdn.microsoft.com/df876309-68d3-43a3-9d83-6fdb8f345fdc">Video Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
  
 
  

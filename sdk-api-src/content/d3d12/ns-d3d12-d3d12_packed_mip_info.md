@@ -113,7 +113,7 @@ The offset of the first packed tile for the resource in the overall range of til
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/32574750-92D3-4CAF-90C6-BA0DEF1E5464">GetResourceTiling</a> method.
+This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getresourcetiling">GetResourceTiling</a> method.
       
 
 
@@ -124,11 +124,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/32574750-92D3-
 
 
 
-<a href="https://msdn.microsoft.com/B3549D78-C354-48FC-A012-1F835DBD585E">CD3DX12_PACKED_MIP_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/cd3dx12-packed-mip-info">CD3DX12_PACKED_MIP_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
  
 
  

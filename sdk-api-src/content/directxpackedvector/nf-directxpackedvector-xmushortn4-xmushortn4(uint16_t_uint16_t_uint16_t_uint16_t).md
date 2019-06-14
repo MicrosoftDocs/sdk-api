@@ -52,7 +52,7 @@ ms.custom: 19H1
 Initializes a new instance of <code>XMUSHORTN4</code> from four <code>uint16_t</code> arguments.
     
 
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420726(v=VS.85).aspx">XMUSHORTN4</a> from four
+This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmushortn4">XMUSHORTN4</a> from four
 	<code>uint16_t</code> arguments.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
@@ -124,11 +124,11 @@ Input values are not normalized. The following pseudocode demonstrates the opera
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420726(v=VS.85).aspx">XMUSHORTN4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmushortn4">XMUSHORTN4</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415513(v=VS.85).aspx">XMUSHORTN4 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmushortn4-ctor">XMUSHORTN4 Constructors</a>
  
 
  

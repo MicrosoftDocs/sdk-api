@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ### -param tid [in]
 
-Contains a <a href="https://msdn.microsoft.com/984dc390-6e15-4491-8c06-77c27c5bdd6f">TfClientId</a> value that identifies the client.
+Contains a <a href="https://docs.microsoft.com/windows/desktop/TSF/tfclientid">TfClientId</a> value that identifies the client.
 
 
 ### -param rguid [in]
@@ -132,11 +132,11 @@ The owner must clear this compartment.
 
 
 
-<a href="https://msdn.microsoft.com/7cdc5c82-4aac-4ec9-b791-93cea33ba8d2">ITfCompartmentMgr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompartmentmgr">ITfCompartmentMgr</a>
 
 
 
-<a href="https://msdn.microsoft.com/984dc390-6e15-4491-8c06-77c27c5bdd6f">TfClientId
+<a href="https://docs.microsoft.com/windows/desktop/TSF/tfclientid">TfClientId
       </a>
  
 

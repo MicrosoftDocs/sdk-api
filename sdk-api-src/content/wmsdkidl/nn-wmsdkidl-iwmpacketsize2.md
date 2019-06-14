@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>IWMPacketSize2</b> interface provides methods to set and retrieve the minimum <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">packet</a> size for a profile.
+The <b>IWMPacketSize2</b> interface provides methods to set and retrieve the minimum <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">packet</a> size for a profile.
 
 An <b>IWMPacketSize2</b> interface can be obtained for either a profile object, a reader object, or a synchronous reader object. You can obtain a pointer to <b>IWMPacketSize2</b> by calling the <b>QueryInterface</b> method of any of the other interfaces in one of the supported objects.
 
@@ -59,7 +59,7 @@ An <b>IWMPacketSize2</b> interface can be obtained for either a profile object, 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPacketSize2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd757255(v=VS.85).aspx">IWMPacketSize</a>. <b>IWMPacketSize2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPacketSize2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpacketsize">IWMPacketSize</a>. <b>IWMPacketSize2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IWMPacketSize2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd757257(v=VS.85).aspx">GetMinPacketSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmpacketsize2-getminpacketsize">GetMinPacketSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the minimum packet size for files created with the profile.
@@ -83,7 +83,7 @@ Retrieves the minimum packet size for files created with the profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd757258(v=VS.85).aspx">SetMinPacketSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmpacketsize2-setminpacketsize">SetMinPacketSize</a>
 </td>
 <td align="left" width="63%">
 Sets the minimum packet size for files created with the profile.
@@ -98,23 +98,23 @@ Sets the minimum packet size for files created with the profile.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757255(v=VS.85).aspx">IWMPacketSize Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpacketsize">IWMPacketSize Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/c61a0739-09f2-497f-a2cd-d3f2472738e3">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/ec42889e-580e-4a65-9fe6-4a5f15c97eb0">Profile Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/profile-object">Profile Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/b5edbf8b-820f-4e09-a482-8efc2283360e">Reader Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/reader-object">Reader Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/52a4891f-03bf-4d8a-ab7b-e9739db30bc3">Synchronous Reader Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/synchronous-reader-object">Synchronous Reader Object</a>
  
 
  

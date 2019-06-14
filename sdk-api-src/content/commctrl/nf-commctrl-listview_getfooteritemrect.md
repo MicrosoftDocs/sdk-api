@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the coordinates of a  footer for a specified item in a list-view control. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774929(v=VS.85).aspx">LVM_GETFOOTERITEMRECT</a> message explicitly.
+Gets the coordinates of a  footer for a specified item in a list-view control. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getfooteritemrect">LVM_GETFOOTERITEMRECT</a> message explicitly.
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Gets the coordinates of a  footer for a specified item in a list-view control. U
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
 
 ### -param iItem [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The index of the item in the list-view control.
 

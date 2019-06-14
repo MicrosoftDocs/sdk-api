@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Next</b> method retrieves a specified number of <a href="https://msdn.microsoft.com/54e1df08-de8f-430a-bf76-e66594df4839">STATSTG</a> structures, that follow in the enumeration sequence. If there are fewer than the requested number of <a href="https://msdn.microsoft.com/54e1df08-de8f-430a-bf76-e66594df4839">STATSTG</a> structures that remain in the enumeration sequence, it retrieves the remaining <b>STATSTG</b> structures.
+The <b>Next</b> method retrieves a specified number of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structures, that follow in the enumeration sequence. If there are fewer than the requested number of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structures that remain in the enumeration sequence, it retrieves the remaining <b>STATSTG</b> structures.
 
 
 ## -parameters
@@ -59,17 +59,17 @@ The <b>Next</b> method retrieves a specified number of <a href="https://msdn.mic
 
 ### -param celt [in]
 
-The number of <a href="https://msdn.microsoft.com/54e1df08-de8f-430a-bf76-e66594df4839">STATSTG</a> structures requested.
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structures requested.
 
 
 ### -param rgelt [out]
 
-An array of <a href="https://msdn.microsoft.com/54e1df08-de8f-430a-bf76-e66594df4839">STATSTG</a> structures returned.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structures returned.
 
 
 ### -param pceltFetched [out]
 
-The number of <a href="https://msdn.microsoft.com/54e1df08-de8f-430a-bf76-e66594df4839">STATSTG</a> structures  retrieved in the <i>rgelt</i> parameter.
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structures  retrieved in the <i>rgelt</i> parameter.
 
 
 ## -returns
@@ -90,7 +90,7 @@ This method supports the following return values:
 </dl>
 </td>
 <td width="60%">
-The number of <a href="https://msdn.microsoft.com/54e1df08-de8f-430a-bf76-e66594df4839">STATSTG</a> structures returned is equal to the number specified in the <i>celt</i> parameter.
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structures returned is equal to the number specified in the <i>celt</i> parameter.
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ The number of <a href="https://msdn.microsoft.com/54e1df08-de8f-430a-bf76-e66594
 </dl>
 </td>
 <td width="60%">
-The number of <a href="https://msdn.microsoft.com/54e1df08-de8f-430a-bf76-e66594df4839">STATSTG</a> structures returned is less than the number specified in the <i>celt</i> parameter.
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structures returned is less than the number specified in the <i>celt</i> parameter.
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ The number of <a href="https://msdn.microsoft.com/54e1df08-de8f-430a-bf76-e66594
 
 
 
-<a href="https://msdn.microsoft.com/93b8b14e-94e4-460b-9846-413affad8e4f">IEnumSTATSTG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstatstg">IEnumSTATSTG</a>
  
 
  

@@ -63,7 +63,7 @@ This method limits query results to only function instances with a property key 
 
 ### -param Key [in]
 
-The property key (PKEY) for the constraint. For more information about PKEYs, see <a href="https://msdn.microsoft.com/76184645-82f5-46ef-8250-8f4276b2a105">Key Definitions</a>. 
+The property key (PKEY) for the constraint. For more information about PKEYs, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/key-definitions">Key Definitions</a>. 
 
 
 ### -param pv [in]
@@ -100,7 +100,7 @@ The following shows possible values. Note that only a subset of the PROPVARIANT 
 
 ### -param enumPropertyConstraint [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Aa364708(v=VS.85).aspx">PropertyConstraint</a> value that specifies the type of comparison to use when comparing the constraint's PKEY to the function instance's PKEY.
+A <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryconstraints/ne-functiondiscoveryconstraints-tagpropertyconstraint">PropertyConstraint</a> value that specifies the type of comparison to use when comparing the constraint's PKEY to the function instance's PKEY.
 
 
 ## -returns
@@ -169,11 +169,11 @@ If multiple constraints are added, all constraints must be supported to satisfy 
 
 
 
-<a href="https://msdn.microsoft.com/3c255fb4-8f9d-47a2-9770-1aa528d07f43">Function Discovery Queries</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/function-discovery-queries">Function Discovery Queries</a>
 
 
 
-<a href="https://msdn.microsoft.com/ae279ac1-ed7a-431b-a5aa-d60f5f9a64b0">IFunctionInstanceCollectionQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstancecollectionquery">IFunctionInstanceCollectionQuery</a>
  
 
  

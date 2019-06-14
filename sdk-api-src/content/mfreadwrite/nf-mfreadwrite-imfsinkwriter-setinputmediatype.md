@@ -59,17 +59,17 @@ Sets the input format for a stream on the sink writer.
 
 ### -param dwStreamIndex [in]
 
-The zero-based index of the stream. The index is received by the <i>pdwStreamIndex</i> parameter of the <a href="https://msdn.microsoft.com/9f9b1216-e915-4188-bcfd-6c41e1821ec4">IMFSinkWriter::AddStream</a> method.
+The zero-based index of the stream. The index is received by the <i>pdwStreamIndex</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-addstream">IMFSinkWriter::AddStream</a> method.
 
 
 ### -param pInputMediaType [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface of a media type. The media type specifies the input format.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of a media type. The media type specifies the input format.
 
 
 ### -param pEncodingParameters [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> interface of an attribute store. Use the attribute store to configure the encoder. This parameter can be <b>NULL</b>.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of an attribute store. Use the attribute store to configure the encoder. This parameter can be <b>NULL</b>.
 
 
 ## -returns
@@ -139,7 +139,7 @@ Could not find an encoder for the encoded format.
 
 The input format does not have to match the target format that is written to the media sink. If the formats do not match, the method attempts to load an encoder that can encode from the input format to the target format.
 
-After streaming begins—that is, after the  first call to <a href="https://msdn.microsoft.com/1c65a5d0-cc1b-456e-9d88-a24da57ee30a">IMFSinkWriter::WriteSample</a>—you can call this method at any time to change the input format.  However, the underlying encoder and media sink must support dynamic format changes.
+After streaming begins—that is, after the  first call to <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-writesample">IMFSinkWriter::WriteSample</a>—you can call this method at any time to change the input format.  However, the underlying encoder and media sink must support dynamic format changes.
 
 This interface is available on Windows Vista if Platform Update Supplement for Windows Vista is installed.
 
@@ -151,11 +151,11 @@ This interface is available on Windows Vista if Platform Update Supplement for 
 
 
 
-<a href="https://msdn.microsoft.com/76fb915e-1586-429a-88a5-bd1290799352">IMFSinkWriter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwriter">IMFSinkWriter</a>
 
 
 
-<a href="https://msdn.microsoft.com/23AF25B8-B94C-48BC-83D8-5863ACFFD4CA">Sink Writer</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/sink-writer">Sink Writer</a>
  
 
  

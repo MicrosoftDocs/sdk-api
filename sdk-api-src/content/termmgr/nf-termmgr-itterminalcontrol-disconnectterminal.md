@@ -112,7 +112,7 @@ An unknown error occurred during the disconnect attempt.
 
 
 
-<a href="https://msdn.microsoft.com/6fe60002-3af3-45e9-a084-7296a48e7263">ITTerminalControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nn-termmgr-itterminalcontrol">ITTerminalControl</a>
  
 
  

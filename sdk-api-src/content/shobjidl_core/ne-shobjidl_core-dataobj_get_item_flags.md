@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Values used by the <a href="https://msdn.microsoft.com/1d7b9ffa-9980-4d68-85e4-7bab667be168">SHGetItemFromDataObject</a> function to specify options concerning the processing of the source object.
+Values used by the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shgetitemfromdataobject">SHGetItemFromDataObject</a> function to specify options concerning the processing of the source object.
 
 
 ## -enum-fields
@@ -64,17 +64,17 @@ Values used by the <a href="https://msdn.microsoft.com/1d7b9ffa-9980-4d68-85e4-7
 
 ### -field DOGIF_TRAVERSE_LINK
 
-0x0001. If the source object is a link, base the <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a> on the link's target rather than the link file itself.
+0x0001. If the source object is a link, base the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> on the link's target rather than the link file itself.
 
 
 ### -field DOGIF_NO_HDROP
 
-0x0002. If the source data object does not contain data in the CFSTR_SHELLIDLIST format, which identifies the object through an IDList, do not revert to the <a href="https://msdn.microsoft.com/fb8ce5d3-3215-4e05-a916-4d4a803464d2">CF_HDROP</a> format, which uses a file path, as an alternative in the transfer.
+0x0002. If the source data object does not contain data in the CFSTR_SHELLIDLIST format, which identifies the object through an IDList, do not revert to the <a href="https://docs.microsoft.com/windows/desktop/shell/clipboard">CF_HDROP</a> format, which uses a file path, as an alternative in the transfer.
 
 
 ### -field DOGIF_NO_URL
 
-0x0004. If the source data object does not contain data in the CFSTR_SHELLIDLIST format, which identifies the object through an IDList, do not revert to the <a href="https://msdn.microsoft.com/fb8ce5d3-3215-4e05-a916-4d4a803464d2">CFSTR_INETURL</a> clipboard format, which uses a URL, as an alternative in the transfer.
+0x0004. If the source data object does not contain data in the CFSTR_SHELLIDLIST format, which identifies the object through an IDList, do not revert to the <a href="https://docs.microsoft.com/windows/desktop/shell/clipboard">CFSTR_INETURL</a> clipboard format, which uses a URL, as an alternative in the transfer.
 
 
 ### -field DOGIF_ONLY_IF_ONE

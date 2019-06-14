@@ -116,11 +116,11 @@ The value returned in <i>pTimerResolution</i> is the period that the reference c
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/08638917-88b1-42f0-8324-ae6fb9afe5bd">IReferenceClockTimerControl Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ireferenceclocktimercontrol">IReferenceClockTimerControl Interface</a>
  
 
  

@@ -75,7 +75,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -84,14 +84,14 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-The cursor is a shared resource. If an application confines the cursor with the <a href="https://msdn.microsoft.com/en-us/library/ms648383(v=VS.85).aspx">ClipCursor</a> function, it must later release the cursor by using <b>ClipCursor</b> before relinquishing control to another application. 
+The cursor is a shared resource. If an application confines the cursor with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-clipcursor">ClipCursor</a> function, it must later release the cursor by using <b>ClipCursor</b> before relinquishing control to another application. 
 
 The calling process must have <b>WINSTA_READATTRIBUTES</b> access to the window station. 
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648380(v=VS.85).aspx">Confining a Cursor</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-cursors">Confining a Cursor</a>.
 
 <div class="code"></div>
 
@@ -102,7 +102,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648380(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648383(v=VS.85).aspx">ClipCursor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-clipcursor">ClipCursor</a>
 
 
 
@@ -110,11 +110,11 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648380(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646970(v=VS.85).aspx">Cursors</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/cursors">Cursors</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648390(v=VS.85).aspx">GetCursorPos</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcursorpos">GetCursorPos</a>
 
 
 

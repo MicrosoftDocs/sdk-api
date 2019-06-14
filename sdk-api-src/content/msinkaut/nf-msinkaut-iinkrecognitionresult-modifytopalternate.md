@@ -63,7 +63,7 @@ Changes the top alternate of a recognition result by using the specified alterna
 
 ### -param Alternate [in]
 
-The <a href="https://msdn.microsoft.com/219e96ee-6492-4f76-9928-f2e8dc28493d">IInkRecognitionAlternate</a> to use to modify the top alternate.
+The <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognitionAlternate</a> to use to modify the top alternate.
 
 
 ## -returns
@@ -155,11 +155,11 @@ Cannot allocate memory to complete the operation.
 
 By default, the best result string of the recognition result corresponds to the <b>top alternate</b>. However, you can use this method to specify that alternates other than the top alternate are used in the result. When you choose an alternate other than the top alternate, you are essentially choosing a different path through the lattice of alternates that are associated with the results.
 
-To retrieve the alternates that can be used to modify the recognition result, call the <a href="https://msdn.microsoft.com/506b36bc-390c-42ef-9a5e-8f15129d47f8">AlternatesFromSelection</a> method.
+To retrieve the alternates that can be used to modify the recognition result, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms698186(v=vs.85)">AlternatesFromSelection</a> method.
 
-<div class="alert"><b>Note</b>  A call to <b>ModifyTopAlternate Method</b> may modify the <a href="https://msdn.microsoft.com/9f345372-0208-4c78-9da7-9b334c0f281e">TopString</a> and <a href="https://msdn.microsoft.com/6be3d9d1-8c59-48c5-a6a5-10d93b47cd5d">TopAlternate</a> properties.</div>
+<div class="alert"><b>Note</b>  A call to <b>ModifyTopAlternate Method</b> may modify the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionresult-get_topstring">TopString</a> and <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionresult-get_topalternate">TopAlternate</a> properties.</div>
 <div> </div>
-The alternate used in the function can be a word alternate in an entire sentence. For example, an alternate obtained by using <a href="https://msdn.microsoft.com/506b36bc-390c-42ef-9a5e-8f15129d47f8">AlternatesFromSelection</a> (0, 5) for "Hello World" only changes the "Hello" part of the word leaving the "World" part intact.
+The alternate used in the function can be a word alternate in an entire sentence. For example, an alternate obtained by using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms698186(v=vs.85)">AlternatesFromSelection</a> (0, 5) for "Hello World" only changes the "Hello" part of the word leaving the "World" part intact.
 
 
 
@@ -169,23 +169,23 @@ The alternate used in the function can be a word alternate in an entire sentence
 
 
 
-<a href="https://msdn.microsoft.com/506b36bc-390c-42ef-9a5e-8f15129d47f8">GetAlternatesFromSelection Method</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms698186(v=vs.85)">GetAlternatesFromSelection Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/219e96ee-6492-4f76-9928-f2e8dc28493d">IInkRecognitionAlternate Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognitionAlternate Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd7ee250-6f76-419b-8164-0d2717ea288c">IInkRecognitionResult Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult">IInkRecognitionResult Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/6be3d9d1-8c59-48c5-a6a5-10d93b47cd5d">TopAlternate Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionresult-get_topalternate">TopAlternate Property</a>
 
 
 
-<a href="https://msdn.microsoft.com/9f345372-0208-4c78-9da7-9b334c0f281e">TopString Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionresult-get_topstring">TopString Property</a>
  
 
  

@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Input structure for the <a href="https://msdn.microsoft.com/1970ed09-5f37-4cc9-98c5-982629676fe4">FSCTL_REPAIR_COPIES</a> control code. It describes a single block of data and indicates which of the copies is to be copied to the specified copies of the data. The 
+Input structure for the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_repair_copies">FSCTL_REPAIR_COPIES</a> control code. It describes a single block of data and indicates which of the copies is to be copied to the specified copies of the data. The 
 
 
 ## -struct-fields
@@ -97,15 +97,15 @@ The zero-based copy numbers of the copies that will be repaired.
 
 
 
-<a href="https://msdn.microsoft.com/1970ed09-5f37-4cc9-98c5-982629676fe4">FSCTL_REPAIR_COPIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_repair_copies">FSCTL_REPAIR_COPIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3da7779-92e7-40bf-a889-dd2013e942ab">REPAIR_COPIES_OUTPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_repair_copies_output">REPAIR_COPIES_OUTPUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/bbde9dfb-c205-4432-be71-250d73b881f1">Volume Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
  
 
  

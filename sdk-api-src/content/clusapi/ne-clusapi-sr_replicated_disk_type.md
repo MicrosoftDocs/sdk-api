@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the replicated disk types for the <a href="https://msdn.microsoft.com/0C020CC3-43CD-49ED-B42D-2365D76ED40D">SR_RESOURCE_TYPE_REPLICATED_DISK</a> structure.
+Specifies the replicated disk types for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-_sr_resource_type_replicated_disk">SR_RESOURCE_TYPE_REPLICATED_DISK</a> structure.
 
 
 ## -enum-fields
@@ -103,7 +103,7 @@ Other.
 
 
 
-<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
  
 
  

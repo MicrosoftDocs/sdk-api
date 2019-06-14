@@ -59,7 +59,7 @@ Gets a handle that you use to enumerate the list of events that the provider def
 
 ### -param PublisherMetadata [in]
 
-A handle to the provider's metadata that the <a href="https://msdn.microsoft.com/0839fb15-12a9-4e30-9afa-6f6437956df0">EvtOpenPublisherMetadata</a> function returns.
+A handle to the provider's metadata that the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtopenpublishermetadata">EvtOpenPublisherMetadata</a> function returns.
 
 
 ### -param Flags [in]
@@ -71,7 +71,7 @@ Reserved. Must be zero.
 
 
 
-If successful, the function returns a handle to the list of events that the  provider defines; otherwise, <b>NULL</b>. If <b>NULL</b>, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function to get the error code.
+If successful, the function returns a handle to the list of events that the  provider defines; otherwise, <b>NULL</b>. If <b>NULL</b>, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to get the error code.
 
 
 
@@ -80,14 +80,14 @@ If successful, the function returns a handle to the list of events that the  pro
 
 
 
-To enumerate the events, call the <a href="https://msdn.microsoft.com/1077dc7c-3e73-4135-9020-20d086e30e71">EvtNextEventMetadata</a> function in a loop.
+To enumerate the events, call the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtnexteventmetadata">EvtNextEventMetadata</a> function in a loop.
 
-You must call the <a href="https://msdn.microsoft.com/c4b82d7b-508d-45bf-b990-04e90e846525">EvtClose</a> function to close the enumerator handle when done.
+You must call the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtclose">EvtClose</a> function to close the enumerator handle when done.
 
 
 #### Examples
 
-For an example that shows how to use this function, see <a href="https://msdn.microsoft.com/c9442dc1-3599-4e81-a144-943c2843a2f7">Getting a Provider's Metadata</a>.
+For an example that shows how to use this function, see <a href="https://docs.microsoft.com/windows/desktop/WES/getting-a-provider-s-metadata-">Getting a Provider's Metadata</a>.
 
 <div class="code"></div>
 
@@ -98,11 +98,11 @@ For an example that shows how to use this function, see <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/2a5c53e3-bbb4-4245-a640-86b58d1a3c52">EvtGetEventMetadataProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtgeteventmetadataproperty">EvtGetEventMetadataProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/1077dc7c-3e73-4135-9020-20d086e30e71">EvtNextEventMetadata</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtnexteventmetadata">EvtNextEventMetadata</a>
  
 
  

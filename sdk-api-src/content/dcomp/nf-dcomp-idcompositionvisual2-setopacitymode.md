@@ -66,7 +66,7 @@ Sets the opacity mode for this visual.
 
 
 
-If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/8DFBFC34-DBD0-4731-8305-B33E90C96C54">DirectComposition Error Codes</a>  for a list of error codes.
+If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/directcomp/directcomposition-error-codes">DirectComposition Error Codes</a>  for a list of error codes.
 
 
 
@@ -94,11 +94,11 @@ If the <i>opacityMode</i> parameter is anything other than DCOMPOSITION_OPACITY_
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437422(v=VS.85).aspx">IDCompositionEffectGroup::SetOpacity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setopacity">IDCompositionEffectGroup::SetOpacity</a>
 
 
 
-<a href="https://msdn.microsoft.com/D4D04A43-BF00-482A-9CDD-A476BD1CB953">IDCompositionVisual2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual2">IDCompositionVisual2</a>
  
 
  

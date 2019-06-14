@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used by delegate folders in place of a standard <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure.
+Used by delegate folders in place of a standard <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure.
 
 
 ## -struct-fields

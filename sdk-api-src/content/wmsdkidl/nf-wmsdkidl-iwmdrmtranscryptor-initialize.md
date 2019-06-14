@@ -86,12 +86,12 @@ Address of a variable that receives the address of the license response message.
 
 ### -param pCallback [in]
 
-Address of the <a href="https://msdn.microsoft.com/en-us/library/Dd798544(v=VS.85).aspx">IWMStatusCallback</a> implementation that will receive status messages from the transcryptor.
+Address of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback">IWMStatusCallback</a> implementation that will receive status messages from the transcryptor.
 
 
 ### -param pvContext [in]
 
-Generic pointer, for use by the application. This is passed to the application in calls to the <a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">IWMStatusCallback::OnStatus</a> callback. You can use this parameter to differentiate between messages from different objects when sharing a single status callback. This parameter can be <b>NULL</b>.
+Generic pointer, for use by the application. This is passed to the application in calls to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> callback. You can use this parameter to differentiate between messages from different objects when sharing a single status callback. This parameter can be <b>NULL</b>.
 
 
 ## -returns
@@ -173,15 +173,15 @@ This method is asynchronous. It returns immediately, but processing is not compl
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798367(v=VS.85).aspx">IWMDRMTranscryptor Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmtranscryptor">IWMDRMTranscryptor Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798368(v=VS.85).aspx">IWMDRMTranscryptor::Close</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmtranscryptor-close">IWMDRMTranscryptor::Close</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798370(v=VS.85).aspx">IWMDRMTranscryptor::Read</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmtranscryptor-read">IWMDRMTranscryptor::Read</a>
  
 
  

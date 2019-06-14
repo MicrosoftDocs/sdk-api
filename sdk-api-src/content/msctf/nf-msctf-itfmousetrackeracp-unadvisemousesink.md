@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ### -param dwCookie [in]
 
-Specifies the mouse advise sink identifier. This value is obtained by a call to <a href="https://msdn.microsoft.com/365538cd-0f18-45ce-91c2-ee3255b7fa93">ITfMouseTrackerACP::AdviseMouseSink</a>.
+Specifies the mouse advise sink identifier. This value is obtained by a call to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfmousetrackeracp-advisemousesink">ITfMouseTrackerACP::AdviseMouseSink</a>.
 
 
 ## -returns
@@ -104,7 +104,7 @@ The application does not support mouse event sinks.
 
 
 
-The application must release the <a href="https://msdn.microsoft.com/d6e5549e-768d-47af-a553-84430641cda4">ITfMouseSink</a> supplied in the <b>ITfMouseTrackerACP::AdviseMouseSink</b> call associated with <i>dwCookie</i>.
+The application must release the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfmousesink">ITfMouseSink</a> supplied in the <b>ITfMouseTrackerACP::AdviseMouseSink</b> call associated with <i>dwCookie</i>.
 
 
 
@@ -114,16 +114,16 @@ The application must release the <a href="https://msdn.microsoft.com/d6e5549e-76
 
 
 
-<a href="https://msdn.microsoft.com/d6e5549e-768d-47af-a553-84430641cda4">ITfMouseSink
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfmousesink">ITfMouseSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/6761cf80-60b1-4c3a-8c3f-f040fab60f24">ITfMouseTrackerACP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfmousetrackeracp">ITfMouseTrackerACP</a>
 
 
 
-<a href="https://msdn.microsoft.com/365538cd-0f18-45ce-91c2-ee3255b7fa93">ITfMouseTrackerACP::AdviseMouseSink
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfmousetrackeracp-advisemousesink">ITfMouseTrackerACP::AdviseMouseSink
       </a>
  
 

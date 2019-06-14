@@ -63,7 +63,7 @@ This property is read/write.
 
 
 
-If not empty, the subscription is persistent and the <a href="https://msdn.microsoft.com/207c8e74-d8f8-4576-8f2d-762c97bc048f">SubscriberInterface</a> property must be <b>NULL</b>. This property works in conjunction with the <a href="https://msdn.microsoft.com/b56027ac-abe6-4d13-ad3a-254a2f92ab6d">MachineName</a> property in a persistent subscription.
+If not empty, the subscription is persistent and the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_subscriberinterface">SubscriberInterface</a> property must be <b>NULL</b>. This property works in conjunction with the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_machinename">MachineName</a> property in a persistent subscription.
 
 
 
@@ -73,7 +73,7 @@ If not empty, the subscription is persistent and the <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/ce3f9f7e-3d0a-445f-b3db-671ee595aedf">IEventSubscription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
  
 
  

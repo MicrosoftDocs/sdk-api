@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-Contains properties that are common to the <a href="https://msdn.microsoft.com/bc5e5c1e-3483-4762-8063-047308dc3652">MI_PropertyDecl</a>
-<a href="https://msdn.microsoft.com/09ad6ea4-09ae-428b-9df9-414043044d6a">MI_ParameterDecl</a>and <a href="https://msdn.microsoft.com/50087394-44C2-4CE5-8952-9795FE9B236A">MI_MethodDecl</a> structures.
+Contains properties that are common to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_propertydecl">MI_PropertyDecl</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_parameterdecl">MI_ParameterDecl</a>and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_methoddecl">MI_MethodDecl</a> structures.
 
 
 ## -struct-fields

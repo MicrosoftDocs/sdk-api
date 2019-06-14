@@ -51,13 +51,13 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/0511cd5b-f791-4821-8d75-23b0635e2266">CThreadBase</a> class 
+<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/thrdbase/nl-thrdbase-cthreadbase">CThreadBase</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
-The <b>BeginWrite</b> method provides thread safety by indicating the beginning of a data write operation when the provider is built on the WMI Provider Framework. <a href="https://msdn.microsoft.com/0511cd5b-f791-4821-8d75-23b0635e2266">CThreadBase</a> is called internally.
+The <b>BeginWrite</b> method provides thread safety by indicating the beginning of a data write operation when the provider is built on the WMI Provider Framework. <a href="https://docs.microsoft.com/windows/desktop/api/thrdbase/nl-thrdbase-cthreadbase">CThreadBase</a> is called internally.
 
 
 ## -parameters

@@ -59,9 +59,9 @@ Enables asynchronous register and deregister of a thread.
 
 ### -param status
 
-Type: <b><a href="https://msdn.microsoft.com/31fd993b-d8cb-40cc-9f31-15711dba1b10">SCNRT_STATUS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ne-shlobj_core-scnrt_status">SCNRT_STATUS</a></b>
 
-Indicates whether the function is being used to register or deregister the thread. One of the values of <a href="https://msdn.microsoft.com/31fd993b-d8cb-40cc-9f31-15711dba1b10">SCNRT_STATUS</a>.
+Indicates whether the function is being used to register or deregister the thread. One of the values of <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ne-shlobj_core-scnrt_status">SCNRT_STATUS</a>.
 
 
 ## -returns

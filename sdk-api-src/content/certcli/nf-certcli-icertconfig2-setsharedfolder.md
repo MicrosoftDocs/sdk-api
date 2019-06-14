@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SetSharedFolder</b> method specifies the path to be used as the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a>'s (CA) shared folder. This method was first defined in the <a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a> interface.
+The <b>SetSharedFolder</b> method specifies the path to be used as the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a>'s (CA) shared folder. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a> interface.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ String value that specifies the path of the new shared folder directory.
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 

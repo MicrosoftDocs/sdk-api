@@ -75,15 +75,15 @@ The y-coordinate where the pen flick took place.
 
 
 
-<a href="https://msdn.microsoft.com/004c7d76-90a9-4506-a70b-dbf8f9e1c616">Flicks Gestures</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/flicks-gestures">Flicks Gestures</a>
 
 
 
-<a href="https://msdn.microsoft.com/d5c6fa9a-b7a3-4097-bf4f-6d540130f715">Responding to Pen Flicks</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms703447(v=vs.85)">Responding to Pen Flicks</a>
 
 
 
-<a href="https://msdn.microsoft.com/9433aadf-3440-4249-8f2c-3e22ebc949fb">WM_TABLET_FLICK message</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/wm-tablet-flick-message">WM_TABLET_FLICK message</a>
  
 
  

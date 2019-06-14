@@ -61,19 +61,19 @@ The <b>IPsecKeyManagerAddAndRegister0</b> function registers a Trusted Intermedi
 
 Type: <b>HANDLE</b>
 
-A handle for an open session to the filter engine. Call <a href="https://msdn.microsoft.com/5165f219-f3e0-4e84-915b-75912aab02b7">FwpmEngineOpen0</a> to open a session to the filter engine.
+A handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
 
 ### -param keyManager [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/942F38AF-13F4-4A2E-A504-5085EC90E74C">IPSEC_KEY_MANAGER0</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-_ipsec_key_manager0">IPSEC_KEY_MANAGER0</a>*</b>
 
 The set of key management callbacks which IPsec will invoke.
 
 
 ### -param keyManagerCallbacks [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/736ea54d-ca17-4cb5-bcb2-95b4377f321c">IPSEC_KEY_MANAGER_CALLBACKS0</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/ns-fwpmu-_ipsec_key_manager_callbacks0">IPSEC_KEY_MANAGER_CALLBACKS0</a>*</b>
 
 The set of callbacks which should be invoked by IPsec at various stages of SA negotiation.
 
@@ -116,7 +116,7 @@ The TIA was successfully registered.
 </dl>
 </td>
 <td width="60%">
-A Windows Filtering Platform (WFP) specific error. See <a href="https://msdn.microsoft.com/11f3085a-f044-4a78-b47a-59b9086562bf">WFP Error Codes</a> for details.
+A Windows Filtering Platform (WFP) specific error. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
 
 </td>
 </tr>
@@ -181,7 +181,7 @@ The TIA was not registered successfully because the binary image has not set the
 If the <b>IPSEC_KEY_MANAGER_FLAG_DICTATE_KEY</b> flag is set for <b>keyManager</b>, all three callback members of <b>keyManagerCallbacks</b> must be specified; otherwise, only the <b>keyNotify</b> callback should be specified
 
 This function cannot be called from within a transaction. It will fail
-with <b>FWP_E_TXN_IN_PROGRESS</b>. See <a href="https://msdn.microsoft.com/2625ef9a-0e62-4e21-ba93-047965d0d782">Object Management</a> for more information about transactions.
+with <b>FWP_E_TXN_IN_PROGRESS</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/object-management">Object Management</a> for more information about transactions.
 
 
 
@@ -191,15 +191,15 @@ with <b>FWP_E_TXN_IN_PROGRESS</b>. See <a href="https://msdn.microsoft.com/2625e
 
 
 
-<a href="https://msdn.microsoft.com/942F38AF-13F4-4A2E-A504-5085EC90E74C">IPSEC_KEY_MANAGER0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-_ipsec_key_manager0">IPSEC_KEY_MANAGER0</a>
 
 
 
-<a href="https://msdn.microsoft.com/736ea54d-ca17-4cb5-bcb2-95b4377f321c">IPSEC_KEY_MANAGER_CALLBACKS0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/ns-fwpmu-_ipsec_key_manager_callbacks0">IPSEC_KEY_MANAGER_CALLBACKS0</a>
 
 
 
-<a href="https://msdn.microsoft.com/26a69710-9981-40a4-8b1e-dca709624ead">WFP  Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-functions">WFP  Functions</a>
  
 
  

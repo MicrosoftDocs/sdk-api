@@ -269,9 +269,9 @@ By default, numbers are followed by a right parenthesis, for example: 1). Howeve
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If <b>ITextPara::GetListType</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling in COM</a>.
+If <b>ITextPara::GetListType</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -312,7 +312,7 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 Values above 32 correspond to Unicode values for bullets. 
 
-The mobile Microsoft Office version of the rich edit control uses <a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomIgnoreNumberStyle</a> to suppress setting the style.
+The mobile Microsoft Office version of the rich edit control uses <a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomIgnoreNumberStyle</a> to suppress setting the style.
 
 The following Microsoft Visual Basic for Applications (VBA) example numbers the paragraphs in a range, starting with the number 2 and following the numbers with a period.
             
@@ -324,7 +324,7 @@ The following Microsoft Visual Basic for Applications (VBA) example numbers the 
 ```
 
 
-For an example of <a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomListNumberAsSequence</a>, set <code>ListStart</code> to 0x2780, which gives you circled numbers. The <a href="http://go.microsoft.com/fwlink/p/?linkid=161649">Unicode Standard</a> has examples of many more numbering sequences.
+For an example of <a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomListNumberAsSequence</a>, set <code>ListStart</code> to 0x2780, which gives you circled numbers. The <a href="http://go.microsoft.com/fwlink/p/?linkid=161649">Unicode Standard</a> has examples of many more numbering sequences.
 
 
 
@@ -338,11 +338,11 @@ For an example of <a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=V
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773987(v=VS.85).aspx">GetListStart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-getliststart">GetListStart</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
 
 
 
@@ -350,15 +350,15 @@ For an example of <a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=V
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774175(v=VS.85).aspx">SetListStart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-setliststart">SetListStart</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787786(v=VS.85).aspx">SetListType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-setlisttype">SetListType</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
  
 
  

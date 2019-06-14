@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-True if the created private key needs to be attested; otherwise false. If true, it is expected that the <a href="https://msdn.microsoft.com/0df4d8e5-edb1-49c8-a2b6-f98692168900">AttestationEncryptionCertificate</a> property has been set.
+True if the created private key needs to be attested; otherwise false. If true, it is expected that the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs10v3-get_attestationencryptioncertificate">AttestationEncryptionCertificate</a> property has been set.
 
 
 This property is read/write.
@@ -65,7 +65,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/e833d1dc-da0f-4f5e-9027-ebf7413ef8c3">IX509CertificateRequestPkcs10V3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10v3">IX509CertificateRequestPkcs10V3</a>
  
 
  

@@ -61,13 +61,13 @@ Gets a node in the topology, specified by index.
 
 ### -param wIndex [in]
 
-The zero-based index of the node. To get the number of nodes in the topology, call <a href="https://msdn.microsoft.com/87378088-1d7a-4ad7-942f-69b6cfc4e573">IMFTopology::GetNodeCount</a>.
+The zero-based index of the node. To get the number of nodes in the topology, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopology-getnodecount">IMFTopology::GetNodeCount</a>.
           
 
 
 ### -param ppNode [out]
 
-Receives a pointer to the node's <a href="https://msdn.microsoft.com/01d7eb7c-a3d3-4924-a8ec-a67e9dc17424">IMFTopologyNode</a> interface. The caller must release the pointer.
+Receives a pointer to the node's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a> interface. The caller must release the pointer.
           
 
 
@@ -130,11 +130,11 @@ No node can be found at the index <i>wIndex</i>.
 
 
 
-<a href="https://msdn.microsoft.com/f293e9ee-9bd2-4b3e-a4ff-53457ee910f6">IMFTopology</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a>
 
 
 
-<a href="https://msdn.microsoft.com/6fc19244-0f42-4d23-899d-c79e97018855">Topologies</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/topologies">Topologies</a>
  
 
  

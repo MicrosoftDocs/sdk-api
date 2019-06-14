@@ -60,19 +60,19 @@ Creates a byte stream from a file.
 
 ### -param AccessMode
 
-The requested access mode, specified as a member of the <a href="https://msdn.microsoft.com/en-us/library/ms696239(v=VS.85).aspx">MF_FILE_ACCESSMODE</a> enumeration.
+The requested access mode, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-__midl___midl_itf_mfobjects_0000_0017_0001">MF_FILE_ACCESSMODE</a> enumeration.
           
 
 
 ### -param OpenMode
 
-The behavior of the function if the file already exists or does not exist, specified as a member of the <a href="https://msdn.microsoft.com/en-us/library/ms694164(v=VS.85).aspx">MF_FILE_OPENMODE</a> enumeration.
+The behavior of the function if the file already exists or does not exist, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-__midl___midl_itf_mfobjects_0000_0017_0002">MF_FILE_OPENMODE</a> enumeration.
           
 
 
 ### -param fFlags
 
-Bitwise <b>OR</b> of values from the <a href="https://msdn.microsoft.com/en-us/library/ms694926(v=VS.85).aspx">MF_FILE_FLAGS</a> enumeration.
+Bitwise <b>OR</b> of values from the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-__midl___midl_itf_mfobjects_0000_0017_0003">MF_FILE_FLAGS</a> enumeration.
           
 
 
@@ -84,7 +84,7 @@ Pointer to a null-terminated string that contains the file name.
 
 ### -param ppIByteStream
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/690035b7-2855-4714-938f-f8250ec70d24">IMFByteStream</a> interface of the byte stream. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a> interface of the byte stream. The caller must release the interface.
           
 
 
@@ -115,7 +115,7 @@ This function is available on the following platforms if the Windows Media Forma
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

@@ -106,7 +106,7 @@ Insufficient memory to complete the operation.
 
 
 
-The text should be supplied in the language specified by the locale ID (LCID) that was passed to the method raising the error. For more information, see LCID Attribute in <a href="https://msdn.microsoft.com/c4061d23-b6bd-43f4-adf0-5980dae7a059">Type Libraries and the Object Description Language</a>. 
+The text should be supplied in the language specified by the locale ID (LCID) that was passed to the method raising the error. For more information, see LCID Attribute in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/type-libraries-and-the-object-description-language">Type Libraries and the Object Description Language</a>. 
 
 
 
@@ -120,7 +120,7 @@ Use of this function is demonstrated in the file Main.cpp of the COM Fundamental
 
 
 
-<a href="https://msdn.microsoft.com/2e7c5ad5-9018-413e-8826-ef752ebf302c">ICreateErrorInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreateerrorinfo">ICreateErrorInfo</a>
  
 
  

@@ -80,23 +80,23 @@ The timestamp value of the module executable image, in <b>time_t</b> format.
 ### -field ModuleNameRva
 
 An RVA to a 
-<a href="https://msdn.microsoft.com/b90b2b29-9d39-4a73-b5fb-bb6e04c94811">MINIDUMP_STRING</a> structure that specifies the name of the module.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_string">MINIDUMP_STRING</a> structure that specifies the name of the module.
 
 
 ### -field VersionInfo
 
 A 
-<a href="https://msdn.microsoft.com/en-us/library/ms646997(v=VS.85).aspx">VS_FIXEDFILEINFO</a> structure that specifies the version of the module.
+<a href="https://docs.microsoft.com/windows/desktop/api/verrsrc/ns-verrsrc-tagvs_fixedfileinfo">VS_FIXEDFILEINFO</a> structure that specifies the version of the module.
 
 
 ### -field CvRecord
 
- A <a href="https://msdn.microsoft.com/en-us/library/ms680383(v=VS.85).aspx">MINIDUMP_LOCATION_DESCRIPTOR</a> structure that specifies the CodeView record of the module.
+ A <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_location_descriptor">MINIDUMP_LOCATION_DESCRIPTOR</a> structure that specifies the CodeView record of the module.
 
 
 ### -field MiscRecord
 
-A <a href="https://msdn.microsoft.com/en-us/library/ms680383(v=VS.85).aspx">MINIDUMP_LOCATION_DESCRIPTOR</a> structure that specifies the miscellaneous record of the module.
+A <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_location_descriptor">MINIDUMP_LOCATION_DESCRIPTOR</a> structure that specifies the miscellaneous record of the module.
 
 
 ### -field Reserved0
@@ -114,15 +114,15 @@ Reserved for future use.
 
 
 
-<a href="https://msdn.microsoft.com/9c30026d-9c72-472f-9d71-b15274459aae">MINIDUMP_MODULE_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_module_list">MINIDUMP_MODULE_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/b90b2b29-9d39-4a73-b5fb-bb6e04c94811">MINIDUMP_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_string">MINIDUMP_STRING</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646997(v=VS.85).aspx">VS_FIXEDFILEINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/verrsrc/ns-verrsrc-tagvs_fixedfileinfo">VS_FIXEDFILEINFO</a>
  
 
  

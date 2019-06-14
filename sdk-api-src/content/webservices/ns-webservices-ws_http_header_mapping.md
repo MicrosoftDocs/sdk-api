@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies an individual header that is mapped as part of <a href="https://msdn.microsoft.com/dff8217e-769d-4f0b-acf2-02d6e43589cf">WS_HTTP_MESSAGE_MAPPING</a>.
+Specifies an individual header that is mapped as part of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_http_message_mapping">WS_HTTP_MESSAGE_MAPPING</a>.
             
 
 
@@ -67,6 +67,6 @@ The name of the HTTP header.
 ### -field headerMappingOptions
 
 A set of flags that control how headers are mapped.  
-                    See <a href="https://msdn.microsoft.com/cd11cae2-36af-4086-80f3-e99493bf9eb1">WS_HTTP_HEADER_MAPPING_OPTIONS</a> for more information.
+                    See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_1">WS_HTTP_HEADER_MAPPING_OPTIONS</a> for more information.
                 
 

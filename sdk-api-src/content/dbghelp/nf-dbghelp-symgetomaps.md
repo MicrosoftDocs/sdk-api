@@ -60,7 +60,7 @@ Retrieves the omap tables within a loaded module.
 ### -param hProcess [in]
 
 A handle to a process. This handle must have been previously passed to the 
-<a href="https://msdn.microsoft.com/fb1c98cb-6cd0-4218-aea4-384c24c66395">SymInitialize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 
 ### -param BaseOfDll [in]
@@ -70,7 +70,7 @@ The base address of the module.
 
 ### -param OmapTo [out]
 
-An array of address map entries to the new image layout taken from the original layout. For details on the map entries, see the <a href="https://msdn.microsoft.com/47f1dc1d-9305-4514-83b8-6d32bd9914f2">OMAP</a> structure.
+An array of address map entries to the new image layout taken from the original layout. For details on the map entries, see the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_omap">OMAP</a> structure.
 
 
 ### -param cOmapTo [out]
@@ -80,7 +80,7 @@ The number of entries in the <i>OmapTo</i> array.
 
 ### -param OmapFrom [out]
 
-An array of address map entries from the new image layout to the original layout (as described by the debug symbols). For details on the map entries, see the <a href="https://msdn.microsoft.com/47f1dc1d-9305-4514-83b8-6d32bd9914f2">OMAP</a> structure.
+An array of address map entries from the new image layout to the original layout (as described by the debug symbols). For details on the map entries, see the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_omap">OMAP</a> structure.
 
 
 ### -param cOmapFrom [out]
@@ -95,7 +95,7 @@ The number of entries in the <i>OmapFrom</i> array.
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails (the omap is not found), the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -114,7 +114,7 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 
 
-<a href="https://msdn.microsoft.com/47f1dc1d-9305-4514-83b8-6d32bd9914f2">OMAP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_omap">OMAP</a>
  
 
  

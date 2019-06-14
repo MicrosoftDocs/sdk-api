@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Provides a mechanism whereby the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a> is notified. Notification can occur at fixed intervals, when an event object is signaled, or during certain system events.
+Provides a mechanism whereby the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> is notified. Notification can occur at fixed intervals, when an event object is signaled, or during certain system events.
 
 
 ## -parameters
@@ -258,14 +258,14 @@ If you specify the NOTIFY_CLASS_PACKAGE_CHANGE value for the <i>NotificationClas
 </tr>
 <tr>
 <td>SECPKG_PACKAGE_CHANGE_SELECT</td>
-<td>A new package became the preferred <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a>.</td>
+<td>A new package became the preferred <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>.</td>
 </tr>
 </table>
  
 
 A pointer to the <b>RegisterNotification</b> function is available in the 
-<a href="https://msdn.microsoft.com/85f04072-8634-454a-9038-737d86c5597d">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
-<a href="https://msdn.microsoft.com/d93bafc6-d946-4214-b3c0-5e5a8e359638">SpInitialize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 
 
@@ -275,11 +275,11 @@ A pointer to the <b>RegisterNotification</b> function is available in the
 
 
 
-<a href="https://msdn.microsoft.com/85f04072-8634-454a-9038-737d86c5597d">LSA_SECPKG_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/d93bafc6-d946-4214-b3c0-5e5a8e359638">SpInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
  
 
  

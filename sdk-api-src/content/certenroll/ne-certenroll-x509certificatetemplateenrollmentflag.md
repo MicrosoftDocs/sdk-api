@@ -64,7 +64,7 @@ Instructs the client and server to include a Secure/Multipurpose Internet Mail E
 
 ### -field EnrollmentPendAllRequests
 
-Instructs the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) to place all certificate requests in a pending state.
+Instructs the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) to place all certificate requests in a pending state.
 
 
 ### -field EnrollmentPublishToKRAContainer

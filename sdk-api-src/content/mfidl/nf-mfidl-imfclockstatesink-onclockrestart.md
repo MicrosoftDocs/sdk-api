@@ -78,10 +78,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method is called if the presentation clock is paused and the <a href="https://msdn.microsoft.com/ba5986d1-9c94-4747-a221-43d0583f1fed">IMFPresentationClock::Start</a> method is called with the value <b>PRESENTATION_CURRENT_POSITION</b>.
+This method is called if the presentation clock is paused and the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpresentationclock-start">IMFPresentationClock::Start</a> method is called with the value <b>PRESENTATION_CURRENT_POSITION</b>.
       
 
-The clock notifies the presentation time source by calling the time source's <b>OnClockRestart</b> method. This call occurs synchronously within the <a href="https://msdn.microsoft.com/ba5986d1-9c94-4747-a221-43d0583f1fed">Start</a> method. If the time source returns an error from <b>OnClockRestart</b>, the presentation clock's <b>Start</b> method returns an error and the state change does not take place.
+The clock notifies the presentation time source by calling the time source's <b>OnClockRestart</b> method. This call occurs synchronously within the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpresentationclock-start">Start</a> method. If the time source returns an error from <b>OnClockRestart</b>, the presentation clock's <b>Start</b> method returns an error and the state change does not take place.
       
 
 For any object that is not the presentation time source, the <b>OnClockRestart</b> method is called asynchronously, after the state change is completed. In that case, the return value from this method is ignored.
@@ -95,15 +95,15 @@ For any object that is not the presentation time source, the <b>OnClockRestart</
 
 
 
-<a href="https://msdn.microsoft.com/9aa0d2cd-a687-4b3a-834d-ccc8d3a03196">IMFClockStateSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfclockstatesink">IMFClockStateSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/9273ff1f-382e-4c58-b571-4852545915b3">MFTIME</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mftime">MFTIME</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb8bb62a-ef80-4de0-9a44-3bb77edc9dd5">Presentation Clock</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/presentation-clock">Presentation Clock</a>
  
 
  

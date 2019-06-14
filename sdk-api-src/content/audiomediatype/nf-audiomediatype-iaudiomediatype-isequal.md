@@ -59,7 +59,7 @@ The <code>IsEqual</code> method compares two media types and determines whether 
 
 ### -param pIAudioType [in]
 
-Specifies a pointer to an <a href="https://msdn.microsoft.com/bf3ee44b-79f3-441a-91f9-a340dc146d67">IAudioMediaType</a> interface of the media type to compare.
+Specifies a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/nn-audiomediatype-iaudiomediatype">IAudioMediaType</a> interface of the media type to compare.
 
 
 ### -param pdwFlags [out]
@@ -87,7 +87,7 @@ AUDIOMEDIATYPE_EQUAL_FORMAT_DATA
 
 </td>
 <td>
-The format information matches, not including extra data beyond the base <a href="https://msdn.microsoft.com/f2f050d6-afe2-4647-932b-1287f4538702">WAVEFORMATEX</a> structure.
+The format information matches, not including extra data beyond the base <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-twaveformatex">WAVEFORMATEX</a> structure.
 
 </td>
 </tr>
@@ -162,7 +162,7 @@ If the method succeeds and all the comparison flags are set in <i>pdwFlags</i>, 
 
 
 
-<a href="https://msdn.microsoft.com/bf3ee44b-79f3-441a-91f9-a340dc146d67">IAudioMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/nn-audiomediatype-iaudiomediatype">IAudioMediaType</a>
 
 
 
@@ -170,7 +170,7 @@ If the method succeeds and all the comparison flags are set in <i>pdwFlags</i>, 
 
 
 
-<a href="https://msdn.microsoft.com/f2f050d6-afe2-4647-932b-1287f4538702">WAVEFORMATEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-twaveformatex">WAVEFORMATEX</a>
  
 
  

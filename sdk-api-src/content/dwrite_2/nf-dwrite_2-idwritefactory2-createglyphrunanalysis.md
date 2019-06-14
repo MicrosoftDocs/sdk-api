@@ -59,14 +59,14 @@ Creates a glyph run analysis object, which encapsulates information used to rend
 
 ### -param glyphRun [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/2997d63f-8d33-44c3-9617-cfffe5f61f7d">DWRITE_GLYPH_RUN</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_glyph_run">DWRITE_GLYPH_RUN</a>*</b>
 
 Structure specifying the properties of the glyph run.
 
 
 ### -param transform [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/fe4bd8ba-fc3b-4a04-8a72-9983d52f4404">DWRITE_MATRIX</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_matrix">DWRITE_MATRIX</a>*</b>
 
 Optional transform applied to the glyphs and their positions. This transform is applied after the
           scaling specified by the emSize and pixelsPerDip.
@@ -82,21 +82,21 @@ Specifies the rendering mode, which must be one of the raster rendering modes (i
 
 ### -param measuringMode
 
-Type: <b><a href="https://msdn.microsoft.com/99e89754-8bc2-457d-bfdb-a3c9ccfe00c1">DWRITE_MEASURING_MODE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-dwrite_measuring_mode">DWRITE_MEASURING_MODE</a></b>
 
 Specifies the method to measure glyphs.
 
 
 ### -param gridFitMode
 
-Type: <b><a href="https://msdn.microsoft.com/C32A6017-3711-482B-B806-79651163DEF6">DWRITE_GRID_FIT_MODE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/ne-dwrite_2-dwrite_grid_fit_mode">DWRITE_GRID_FIT_MODE</a></b>
 
 How to grid-fit glyph outlines. This must be non-default.
 
 
 ### -param antialiasMode
 
-Type: <b><a href="https://msdn.microsoft.com/212B02C9-1265-4870-A059-F292640ECE15">DWRITE_TEXT_ANTIALIAS_MODE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ne-dwrite_1-dwrite_text_antialias_mode">DWRITE_TEXT_ANTIALIAS_MODE</a></b>
 
 Specifies the antialias mode.
 
@@ -117,7 +117,7 @@ Vertical position of the baseline origin, in DIPs.
 
 ### -param glyphRunAnalysis [out]
 
-Type: <b><a href="https://msdn.microsoft.com/d4739b55-1a9b-4346-9b47-d8adb98df163">IDWriteGlyphRunAnalysis</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwriteglyphrunanalysis">IDWriteGlyphRunAnalysis</a>**</b>
 
 Receives a pointer to the newly created object.
 
@@ -138,7 +138,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/1D3EEC28-EAB3-4FA2-98E9-7A8FDAF6E6FE">IDWriteFactory2</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritefactory2">IDWriteFactory2</a>
  
 
  

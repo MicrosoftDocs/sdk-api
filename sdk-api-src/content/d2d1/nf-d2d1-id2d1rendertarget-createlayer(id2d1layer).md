@@ -59,7 +59,7 @@ Creates a layer resource that can be used with this render target and its compat
 
 ### -param layer [out]
 
-Type: <b><a href="https://msdn.microsoft.com/ce7b2345-f0e5-4e44-9146-b1f140bb00ca">ID2D1Layer</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1layer">ID2D1Layer</a>**</b>
 
 When the method returns, contains a pointer to a pointer to the new layer. This parameter is passed uninitialized.
 
@@ -68,7 +68,7 @@ When the method returns, contains a pointer to a pointer to the new layer. This 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -84,7 +84,7 @@ The layer automatically resizes itself, as needed.
 
 #### Examples
 
-For an example on how to use <a href="https://msdn.microsoft.com/en-us/library/Dd742782(v=VS.85).aspx">CreateLayer</a>, see the <a href="https://msdn.microsoft.com/eaeb6cfd-de62-46f1-972d-a11e0ccc11d9">How to Clip a Region with a Layer</a>.
+For an example on how to use <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createlayer">CreateLayer</a>, see the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-clip-with-layers">How to Clip a Region with a Layer</a>.
 
 <div class="code"></div>
 
@@ -95,11 +95,11 @@ For an example on how to use <a href="https://msdn.microsoft.com/en-us/library/D
 
 
 
-<a href="https://msdn.microsoft.com/40629be9-5840-4bde-b369-56bbfd791775">ID2D1RenderTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
 
 
 
-<a href="https://msdn.microsoft.com/22d161fb-8470-49cc-a523-309f90643ea9">Layers Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-layers-overview">Layers Overview</a>
  
 
  

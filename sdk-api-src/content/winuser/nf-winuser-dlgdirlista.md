@@ -61,14 +61,14 @@ Replaces the contents of a list box with the names of the subdirectories and fil
 
 ### -param hDlg [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the dialog box that contains the list box. 
 
 
 ### -param lpPathSpec [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPTSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
 A pointer to a buffer containing a null-terminated string that specifies an absolute path, relative path, or filename. An absolute path can begin with a drive letter (for example, d:\) or a UNC name (for example, \\
 					<i>machinename</i>\
@@ -98,7 +98,7 @@ The identifier of a static control in the
 
 ### -param uFileType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Specifies the attributes of the files or directories to be added to the list box. This parameter can be one or more of the following values. 
 
@@ -195,7 +195,7 @@ Includes system files.
 </dl>
 </td>
 <td width="60%">
-If set, <b>DlgDirList</b> uses the <a href="https://msdn.microsoft.com/en-us/library/ms644944(v=VS.85).aspx">PostMessage</a> function to send messages to the list box. If not set, <b>DlgDirList</b> uses the <a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a> function.
+If set, <b>DlgDirList</b> uses the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea">PostMessage</a> function to send messages to the list box. If not set, <b>DlgDirList</b> uses the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> function.
 
 </td>
 </tr>
@@ -222,12 +222,12 @@ If the function fails, the return value is zero. For example, if the string spec
 
 
 If 
-				<i>lpPathSpec</i> specifies a directory, <a href="https://msdn.microsoft.com/en-us/library/Bb775935(v=VS.85).aspx">DlgDirListComboBox</a> changes the current directory to the specified directory before filling the list box. The text of the static control identified by the 
+				<i>lpPathSpec</i> specifies a directory, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dlgdirlistcomboboxa">DlgDirListComboBox</a> changes the current directory to the specified directory before filling the list box. The text of the static control identified by the 
 				<i>nIDStaticPath</i> parameter is set to the name of the new current directory. 
 
 <b>DlgDirList</b> sends the 
-				<a href="https://msdn.microsoft.com/en-us/library/Bb761325(v=VS.85).aspx">LB_RESETCONTENT</a> and 
-				<a href="https://msdn.microsoft.com/en-us/library/Bb775185(v=VS.85).aspx">LB_DIR</a> messages to the list box. 
+				<a href="https://docs.microsoft.com/windows/desktop/Controls/lb-resetcontent">LB_RESETCONTENT</a> and 
+				<a href="https://docs.microsoft.com/windows/desktop/Controls/lb-dir">LB_DIR</a> messages to the list box. 
 
 If 
 				<i>uFileType</i> includes the DDL_DIRECTORY flag and 
@@ -238,7 +238,7 @@ The directory listing displays long filenames, if any.
 
 #### Examples
 
-For examples, see the following topics: <a href="https://msdn.microsoft.com/en-us/library/Bb775148(v=VS.85).aspx">Creating a Directory Listing in a Single-selection List Box</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb775148(v=VS.85).aspx">Creating a Multiple-selection List Box</a>. 
+For examples, see the following topics: <a href="https://docs.microsoft.com/windows/desktop/Controls/using-list-boxes">Creating a Directory Listing in a Single-selection List Box</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/using-list-boxes">Creating a Multiple-selection List Box</a>. 
 
 <div class="code"></div>
 
@@ -249,15 +249,15 @@ For examples, see the following topics: <a href="https://msdn.microsoft.com/en-u
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775935(v=VS.85).aspx">DlgDirListComboBox</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dlgdirlistcomboboxa">DlgDirListComboBox</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775937(v=VS.85).aspx">DlgDirSelectComboBoxEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dlgdirselectcomboboxexa">DlgDirSelectComboBoxEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761368(v=VS.85).aspx">DlgDirSelectEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dlgdirselectexa">DlgDirSelectEx</a>
 
 
 

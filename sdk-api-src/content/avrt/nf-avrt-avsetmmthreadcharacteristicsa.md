@@ -75,7 +75,7 @@ The unique task identifier. The first time this function is called, this value m
 
 If the function succeeds, it returns a handle to the task. 
 
-If the function fails, it returns 0. To retrieve extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, it returns 0. To retrieve extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 The following are possible error codes.
@@ -130,7 +130,7 @@ The caller does not have sufficient privilege.
 
 
 
-When the task is completed, call the <a href="https://msdn.microsoft.com/2ae0d34c-3819-46fa-9779-5de8a57e5281">AvRevertMmThreadCharacteristics</a> function.
+When the task is completed, call the <a href="https://docs.microsoft.com/windows/desktop/api/avrt/nf-avrt-avrevertmmthreadcharacteristics">AvRevertMmThreadCharacteristics</a> function.
 
 
 
@@ -140,7 +140,7 @@ When the task is completed, call the <a href="https://msdn.microsoft.com/2ae0d34
 
 
 
-<a href="https://msdn.microsoft.com/a7169938-1c72-4c4c-881a-cb08ad6182c7">Multimedia Class Scheduler Service</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/multimedia-class-scheduler-service">Multimedia Class Scheduler Service</a>
  
 
  

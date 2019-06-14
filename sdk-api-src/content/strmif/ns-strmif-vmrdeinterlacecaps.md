@@ -83,7 +83,7 @@ Number of past samples needed to deinterlace the current field.
 
 ### -field DeinterlaceTechnology
 
-Bitwise combination of flags from the <a href="https://msdn.microsoft.com/10149023-c5e8-4dce-8a8c-cde96ae6c073">VMRDeinterlaceTech</a> enumeration type. These flags are used to describe the deinterlacing algorithm.
+Bitwise combination of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-vmrdeinterlacetech">VMRDeinterlaceTech</a> enumeration type. These flags are used to describe the deinterlacing algorithm.
 
 
 ## -see-also
@@ -91,11 +91,11 @@ Bitwise combination of flags from the <a href="https://msdn.microsoft.com/101490
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/77abbcd4-6538-491d-b3c2-6a29a391c68a">IVMRDeinterlaceControl Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrdeinterlacecontrol">IVMRDeinterlaceControl Interface</a>
  
 
  

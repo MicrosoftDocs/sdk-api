@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>CertGetNameString</b> function obtains the subject or issuer name from a certificate 
-<a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structure and converts it to a <b>null</b>-terminated character string.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure and converts it to a <b>null</b>-terminated character string.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The <b>CertGetNameString</b> function obtains the subject or issuer name from a 
 ### -param pCertContext [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> certificate context that includes a subject and issuer name to be converted.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> certificate context that includes a subject and issuer name to be converted.
 
 
 ### -param dwType [in]
@@ -93,7 +93,7 @@ If the certificate has a Subject Alternative Name extension or Issuer Alternativ
 </dl>
 </td>
 <td width="60%">
-Converts the Subject Name BLOB by calling <a href="https://msdn.microsoft.com/b3d96de8-5cbc-4ccb-b759-6757520bbda3">CertNameToStr</a>. <i>pvTypePara</i> points to a <b>DWORD</b> containing the <i>dwStrType</i> passed to <b>CertNameToStr</b>. If the Subject Name field is empty and the certificate has a Subject Alternative Name extension, uses the first directory Name choice from <b>CertNameToStr</b>.
+Converts the Subject Name BLOB by calling <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certnametostra">CertNameToStr</a>. <i>pvTypePara</i> points to a <b>DWORD</b> containing the <i>dwStrType</i> passed to <b>CertNameToStr</b>. If the Subject Name field is empty and the certificate has a Subject Alternative Name extension, uses the first directory Name choice from <b>CertNameToStr</b>.
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ Converts the Subject Name BLOB by calling <a href="https://msdn.microsoft.com/b3
 </dl>
 </td>
 <td width="60%">
-<i>pvTypePara</i> points to an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) specifying the name attribute to be returned. For example, if <i>pvTypePara</i> is szOID_COMMON_NAME, uses the Subject Name member. If the Subject Name member is empty and the certificate has a Subject Alternative Name extension, uses the first directoryName choice.
+<i>pvTypePara</i> points to an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) specifying the name attribute to be returned. For example, if <i>pvTypePara</i> is szOID_COMMON_NAME, uses the Subject Name member. If the Subject Name member is empty and the certificate has a Subject Alternative Name extension, uses the first directoryName choice.
 
 </td>
 </tr>
@@ -242,13 +242,13 @@ If the <i>dwType</i> parameter is set to <b>CERT_NAME_DNS_TYPE</b>, all applicab
 </dl>
 </td>
 <td width="60%">
-This flag enables decoding of  <a href="https://msdn.microsoft.com/c1268524-4304-4c21-8f7d-f0a2826cd74e">IA5String</a> strings to Unicode string values based on the <i>dwType</i> parameter value as defined below:
+This flag enables decoding of  <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/about-ia5string">IA5String</a> strings to Unicode string values based on the <i>dwType</i> parameter value as defined below:
 
 <ul>
-<li>CERT_NAME_EMAIL_TYPE: If the host name portion of the email address contains a Punycode encoded <a href="https://msdn.microsoft.com/c1268524-4304-4c21-8f7d-f0a2826cd74e">IA5String</a> component, it is converted to the Unicode equivalent.</li>
-<li>CERT_NAME_SIMPLE_DISPLAY_TYPE: If a Subject Name of szOID_RSA_emailAddr or the rfc822Name from the Subject Alternative Name is returned from the certificate, and the host name portion of the email address a contains Punycode encoded <a href="https://msdn.microsoft.com/c1268524-4304-4c21-8f7d-f0a2826cd74e">IA5String</a> component, it is converted to the Unicode equivalent.</li>
-<li>CERT_NAME_DNS_TYPE: If the certificate has an Issuer Alternative Name, with a DNSName choice, and the host name portion of the email address a contains Punycode encoded <a href="https://msdn.microsoft.com/c1268524-4304-4c21-8f7d-f0a2826cd74e">IA5String</a> component, it is converted to the Unicode equivalent.</li>
-<li>CERT_NAME_URL_TYPE: The URI is decoded and unescaped. If the server host name of the URI contains a Punycode encoded <a href="https://msdn.microsoft.com/c1268524-4304-4c21-8f7d-f0a2826cd74e">IA5String</a> component, the host name string is converted to the Unicode equivalent.</li>
+<li>CERT_NAME_EMAIL_TYPE: If the host name portion of the email address contains a Punycode encoded <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/about-ia5string">IA5String</a> component, it is converted to the Unicode equivalent.</li>
+<li>CERT_NAME_SIMPLE_DISPLAY_TYPE: If a Subject Name of szOID_RSA_emailAddr or the rfc822Name from the Subject Alternative Name is returned from the certificate, and the host name portion of the email address a contains Punycode encoded <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/about-ia5string">IA5String</a> component, it is converted to the Unicode equivalent.</li>
+<li>CERT_NAME_DNS_TYPE: If the certificate has an Issuer Alternative Name, with a DNSName choice, and the host name portion of the email address a contains Punycode encoded <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/about-ia5string">IA5String</a> component, it is converted to the Unicode equivalent.</li>
+<li>CERT_NAME_URL_TYPE: The URI is decoded and unescaped. If the server host name of the URI contains a Punycode encoded <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/about-ia5string">IA5String</a> component, the host name string is converted to the Unicode equivalent.</li>
 </ul>
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
@@ -260,7 +260,7 @@ This flag enables decoding of  <a href="https://msdn.microsoft.com/c1268524-4304
 
 ### -param pvTypePara [in]
 
-A pointer to either a <b>DWORD</b> containing the <i>dwStrType</i> or an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) specifying the name attribute. The type pointed to is determined by the value of <i>dwType</i>.
+A pointer to either a <b>DWORD</b> containing the <i>dwStrType</i> or an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) specifying the name attribute. The type pointed to is determined by the value of <i>dwType</i>.
 
 
 ### -param pszNameString [out]
@@ -289,7 +289,7 @@ Returns the number of characters converted, including the terminating zero chara
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Conversion Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Conversion Functions</a>
  
 
  

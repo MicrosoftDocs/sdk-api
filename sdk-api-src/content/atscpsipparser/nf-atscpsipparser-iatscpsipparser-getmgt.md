@@ -65,7 +65,7 @@ The <b>GetMGT</b> method retrieves the master guide table (MGT).
 
 ### -param ppMGT [out]
 
-Receives an <a href="https://msdn.microsoft.com/2d6cc17f-7288-468c-a028-31e6e284d8ca">IATSC_MGT</a> interface pointer. The caller must release the interface.
+Receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsc_mgt">IATSC_MGT</a> interface pointer. The caller must release the interface.
 
 
 ## -returns
@@ -154,7 +154,7 @@ The method fails if the filter does not receive a matching table within a predet
 
 
 
-<a href="https://msdn.microsoft.com/dbe922b3-b843-4eaa-807d-5608cfbb9686">IAtscPsipParser Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatscpsipparser">IAtscPsipParser Interface</a>
  
 
  

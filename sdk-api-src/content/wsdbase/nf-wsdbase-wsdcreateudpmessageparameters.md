@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves a pointer to the <a href="https://msdn.microsoft.com/3af6e0ff-c0b9-47af-b018-37567f614adc">IWSDUdpMessageParameters</a> interface.
+Retrieves a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpmessageparameters">IWSDUdpMessageParameters</a> interface.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Retrieves a pointer to the <a href="https://msdn.microsoft.com/3af6e0ff-c0b9-47a
 
 ### -param ppTxParams [out]
 
-Pointer to the <a href="https://msdn.microsoft.com/3af6e0ff-c0b9-47af-b018-37567f614adc">IWSDUdpMessageParameters</a> interface that you use to specify how often WSD repeats the message transmission.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpmessageparameters">IWSDUdpMessageParameters</a> interface that you use to specify how often WSD repeats the message transmission.
 
 
 ## -returns

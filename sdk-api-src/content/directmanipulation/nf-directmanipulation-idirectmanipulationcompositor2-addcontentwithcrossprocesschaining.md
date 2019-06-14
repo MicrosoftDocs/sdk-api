@@ -100,27 +100,27 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRES
 
 
 
-This method inserts a small visual tree (owned by the <a href="https://msdn.microsoft.com/26358bc5-71e9-40f0-9243-9bddd961a0e5">Direct Manipulation</a> device) between the <i>parentVisual</i> and the <i>childVisual</i>. Transforms can then be applied to the inserted content.  
+This method inserts a small visual tree (owned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-portal">Direct Manipulation</a> device) between the <i>parentVisual</i> and the <i>childVisual</i>. Transforms can then be applied to the inserted content.  
 
 
 All content, regardless of type, must be added to the compositor. 
 
-If the application uses a system-provided <a href="https://msdn.microsoft.com/b96b5e8f-fc11-48ad-83ca-96e23fd3ffc1">IDirectManipulationCompositor</a>:
+If the application uses a system-provided <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationcompositor">IDirectManipulationCompositor</a>:
 
 <ul>
-<li><i>device</i> must be an  <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> object, and parent and child visuals must be <a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a> objects.</li>
+<li><i>device</i> must be an  <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiondevice">IDCompositionDevice</a> object, and parent and child visuals must be <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual">IDCompositionVisual</a> objects.</li>
 <li><i>device</i>, <i>parentVisual</i>, and <i>childVisual</i> cannot be NULL. </li>
 <li><i>device</i>, <i>parentVisual</i>, and <i>childVisual</i> objects are created and owned by the application.
 </li>
-<li>When content is added to the composition tree using this method, the new composition visuals are inserted between <i>parentVisual</i> and <i>childVisual</i>. The new visuals should not be destroyed until they are disassociated from the compositor with <a href="https://msdn.microsoft.com/9bfb7fe4-abf9-4bb7-8d3f-673508053573">RemoveContent</a>.</li>
+<li>When content is added to the composition tree using this method, the new composition visuals are inserted between <i>parentVisual</i> and <i>childVisual</i>. The new visuals should not be destroyed until they are disassociated from the compositor with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationcompositor-removecontent">RemoveContent</a>.</li>
 </ul>
-If the application uses a custom implementation of <a href="https://msdn.microsoft.com/b96b5e8f-fc11-48ad-83ca-96e23fd3ffc1">IDirectManipulationCompositor</a>:
+If the application uses a custom implementation of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationcompositor">IDirectManipulationCompositor</a>:
 
 <ul>
-<li><i>device</i>, <i>parentVisual</i>, and <i>childVisual</i> must be a valid type for the compositor. They do not have to be <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> or <a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a> objects.</li>
+<li><i>device</i>, <i>parentVisual</i>, and <i>childVisual</i> must be a valid type for the compositor. They do not have to be <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiondevice">IDCompositionDevice</a> or <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual">IDCompositionVisual</a> objects.</li>
 <li><i>device</i>, <i>parentVisual</i>, and <i>childVisual</i> can be NULL, depending on the compositor. </li>
 </ul>
-The cross-process pointer events (<a href="https://msdn.microsoft.com/06F8152C-0DA0-4820-835E-07AD35B24310">WM_POINTERROUTEDAWAY</a>, <a href="https://msdn.microsoft.com/B031ED80-6F1B-42A7-B4E2-55934E2C456C">WM_POINTERROUTEDRELEASED</a>, and <a href="https://msdn.microsoft.com/163E2C31-4E29-4CBA-B079-1963D4762D7B">WM_POINTERROUTEDTO</a>) should be handled appropriately. 
+The cross-process pointer events (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-pointerroutedaway">WM_POINTERROUTEDAWAY</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-pointerroutedreleased">WM_POINTERROUTEDRELEASED</a>, and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-pointerroutedto">WM_POINTERROUTEDTO</a>) should be handled appropriately. 
 
 
 
@@ -130,19 +130,19 @@ The cross-process pointer events (<a href="https://msdn.microsoft.com/06F8152C-0
 
 
 
-<a href="https://msdn.microsoft.com/e428ddaa-3913-498a-a3fd-bed10289cd8d">IDirectManipulationCompositor2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationcompositor2">IDirectManipulationCompositor2</a>
 
 
 
-<a href="https://msdn.microsoft.com/06F8152C-0DA0-4820-835E-07AD35B24310">WM_POINTERROUTEDAWAY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-pointerroutedaway">WM_POINTERROUTEDAWAY</a>
 
 
 
-<a href="https://msdn.microsoft.com/B031ED80-6F1B-42A7-B4E2-55934E2C456C">WM_POINTERROUTEDRELEASED</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-pointerroutedreleased">WM_POINTERROUTEDRELEASED</a>
 
 
 
-<a href="https://msdn.microsoft.com/163E2C31-4E29-4CBA-B079-1963D4762D7B">WM_POINTERROUTEDTO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-pointerroutedto">WM_POINTERROUTEDTO</a>
  
 
  

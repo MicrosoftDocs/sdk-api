@@ -91,7 +91,7 @@ The desktop wallpaper is already in the state you're asking for through this cal
 </dl>
 </td>
 <td width="60%">
-The desktop wallpaper that would be used when the background is enabled is missing from its expected location. Call <a href="https://msdn.microsoft.com/5E0731DC-8B70-40dc-B90A-97B1E3E4D55D">SetWallpaper</a> to specify a new wallpaper.
+The desktop wallpaper that would be used when the background is enabled is missing from its expected location. Call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-setwallpaper">SetWallpaper</a> to specify a new wallpaper.
 
 </td>
 </tr>
@@ -107,9 +107,9 @@ The desktop wallpaper that would be used when the background is enabled is missi
 
 This method would normally be called to disable the desktop background for performance reasons.
 
-When the desktop background is disabled, a solid color is shown in its place. To get or set the specific color, use the <a href="https://msdn.microsoft.com/92666512-BE10-4ee7-B670-18F0C714A4C9">GetBackgroundColor</a> and <a href="https://msdn.microsoft.com/9CA14C0B-4727-4702-9EB0-4D24003EB456">SetBackgroundColor</a> methods.
+When the desktop background is disabled, a solid color is shown in its place. To get or set the specific color, use the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getbackgroundcolor">GetBackgroundColor</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-setbackgroundcolor">SetBackgroundColor</a> methods.
 
-<div class="alert"><b>Note</b>  A call to the <a href="https://msdn.microsoft.com/5E0731DC-8B70-40dc-B90A-97B1E3E4D55D">IDesktopWallpaper_SetWallpaper</a> or <a href="https://msdn.microsoft.com/0E4743A0-75AB-456a-BAAE-8EC4C0D14E6C">IDesktopWallpaper_SetSlideshow</a> methods will enable the desktop background even if it is currently disabled through this method.</div>
+<div class="alert"><b>Note</b>  A call to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-setwallpaper">IDesktopWallpaper_SetWallpaper</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-setslideshow">IDesktopWallpaper_SetSlideshow</a> methods will enable the desktop background even if it is currently disabled through this method.</div>
 <div> </div>
 
 
@@ -119,7 +119,7 @@ When the desktop background is disabled, a solid color is shown in its place. To
 
 
 
-<a href="https://msdn.microsoft.com/A83903B5-314B-4a8b-8D37-F8A8995DE0CB">IDesktopWallpaper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idesktopwallpaper">IDesktopWallpaper</a>
  
 
  

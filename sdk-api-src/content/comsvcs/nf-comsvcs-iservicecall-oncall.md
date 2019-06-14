@@ -72,15 +72,15 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-The batch work that is run in this method runs in the context and thread apartment of the activity that was created by the call to <a href="https://msdn.microsoft.com/3009eb4f-e3f3-497b-ba05-5b750d8a40d0">CoCreateActivity</a>. The batch work in this method is run through a call to either <a href="https://msdn.microsoft.com/d25e6942-7b1b-4b74-b711-2d0f513d0b38">SynchronousCall</a> or <a href="https://msdn.microsoft.com/1d81f2e6-9426-4733-bd1d-0b6ca087cc0a">AsynchronousCall</a>, using the <a href="https://msdn.microsoft.com/005bf0ec-f5a7-41a3-85b3-07f79f26af27">IServiceActivity</a> pointer that was returned from the call to <b>CoCreateActivity</b>.
+The batch work that is run in this method runs in the context and thread apartment of the activity that was created by the call to <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-cocreateactivity">CoCreateActivity</a>. The batch work in this method is run through a call to either <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iserviceactivity-synchronouscall">SynchronousCall</a> or <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iserviceactivity-asynchronouscall">AsynchronousCall</a>, using the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iserviceactivity">IServiceActivity</a> pointer that was returned from the call to <b>CoCreateActivity</b>.
 
 
 
-You must make sure that this method is thread safe in situations where the activity object that is created by <a href="https://msdn.microsoft.com/3009eb4f-e3f3-497b-ba05-5b750d8a40d0">CoCreateActivity</a> is not created with a synchronized context because in such situations many calls to <b>OnCall</b> can run at the same time.
+You must make sure that this method is thread safe in situations where the activity object that is created by <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-cocreateactivity">CoCreateActivity</a> is not created with a synchronized context because in such situations many calls to <b>OnCall</b> can run at the same time.
 
 
 
-To achieve the best performance from the system, the context configuration of the activity created by <a href="https://msdn.microsoft.com/3009eb4f-e3f3-497b-ba05-5b750d8a40d0">CoCreateActivity</a> should be matched to the batch work performed by the <b>OnCall</b> method. For example, if the batch work in the <b>OnCall</b> method uses poolable objects, the activity created by <b>CoCreateActivity</b> should be configured to use the multithreaded apartment (MTA).
+To achieve the best performance from the system, the context configuration of the activity created by <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-cocreateactivity">CoCreateActivity</a> should be matched to the batch work performed by the <b>OnCall</b> method. For example, if the batch work in the <b>OnCall</b> method uses poolable objects, the activity created by <b>CoCreateActivity</b> should be configured to use the multithreaded apartment (MTA).
 
 
 
@@ -91,7 +91,7 @@ To achieve the best performance from the system, the context configuration of th
 
 
 
-<a href="https://msdn.microsoft.com/97532e29-3d1a-4a7c-8103-dd7ae2866a70">IServiceCall</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicecall">IServiceCall</a>
  
 
  

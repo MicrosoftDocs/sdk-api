@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an instance of the <a href="https://msdn.microsoft.com/A30C73DA-9BD5-4D12-A6FB-771BBD2D1191">IMFImageSharingEngine</a> from the provided unique device name.
+Creates an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nn-mfsharingengine-imfimagesharingengine">IMFImageSharingEngine</a> from the provided unique device name.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ The unique device name of the device with which the sharing engine is created.
 
 ### -param ppEngine [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/A30C73DA-9BD5-4D12-A6FB-771BBD2D1191">IMFImageSharingEngine</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nn-mfsharingengine-imfimagesharingengine">IMFImageSharingEngine</a> interface. The caller must release the interface.
 
 
 ## -returns
@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/7D6385BC-4D9C-4026-9363-0F6917A62BDE">IMFImageSharingEngineClassFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nn-mfsharingengine-imfimagesharingengineclassfactory">IMFImageSharingEngineClassFactory</a>
  
 
  

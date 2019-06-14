@@ -62,7 +62,7 @@ ms.custom: 19H1
 
 Places (posts) a message in the message queue associated with the thread that created the specified window and returns without waiting for the thread to process the message.
 
-To post a message in the message queue associated with a thread, use the <a href="https://msdn.microsoft.com/en-us/library/ms644946(v=VS.85).aspx">PostThreadMessage</a> function.
+To post a message in the message queue associated with a thread, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postthreadmessagea">PostThreadMessage</a> function.
 
 
 ## -parameters
@@ -99,7 +99,7 @@ The message is posted to all top-level windows in the system, including disabled
 </dl>
 </td>
 <td width="60%">
-The function behaves like a call to <a href="https://msdn.microsoft.com/en-us/library/ms644946(v=VS.85).aspx">PostThreadMessage</a> with the <i>dwThreadId</i> parameter set to the identifier of the current thread.
+The function behaves like a call to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postthreadmessagea">PostThreadMessage</a> with the <i>dwThreadId</i> parameter set to the identifier of the current thread.
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ Type: <b>UINT</b>
 
 The message to be posted.
 
-For lists of the system-provided messages, see <a href="https://msdn.microsoft.com/en-us/library/ms644927(v=VS.85).aspx">System-Defined Messages</a>.
+For lists of the system-provided messages, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/about-messages-and-message-queues">System-Defined Messages</a>.
 
 
 ### -param wParam [in]
@@ -141,7 +141,7 @@ Type: <strong>Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. <b>GetLastError</b> returns <b>ERROR_NOT_ENOUGH_QUOTA</b> when the limit is hit. 
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. <b>GetLastError</b> returns <b>ERROR_NOT_ENOUGH_QUOTA</b> when the limit is hit. 
 
 
 
@@ -150,19 +150,19 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
- When a message is blocked by UIPI the last error, retrieved with <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>, is set to 5 (access denied).
+ When a message is blocked by UIPI the last error, retrieved with <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, is set to 5 (access denied).
 
-Messages in a message queue are retrieved by calls to the <a href="https://msdn.microsoft.com/en-us/library/ms644936(v=VS.85).aspx">GetMessage</a> or <a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a> function.
+Messages in a message queue are retrieved by calls to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> function.
 
-Applications that need to communicate using <b>HWND_BROADCAST</b> should use the <a href="https://msdn.microsoft.com/en-us/library/ms644947(v=VS.85).aspx">RegisterWindowMessage</a> function to obtain a unique message for inter-application communication.
+Applications that need to communicate using <b>HWND_BROADCAST</b> should use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea">RegisterWindowMessage</a> function to obtain a unique message for inter-application communication.
 
-The system only does marshalling for system messages (those in the range 0 to (<a href="https://msdn.microsoft.com/en-us/library/ms644931(v=VS.85).aspx">WM_USER</a>-1)). To send other messages (those &gt;= <b>WM_USER</b>) to another process, you must do custom marshalling.
+The system only does marshalling for system messages (those in the range 0 to (<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-user">WM_USER</a>-1)). To send other messages (those &gt;= <b>WM_USER</b>) to another process, you must do custom marshalling.
 
-If you send a message in the range below <a href="https://msdn.microsoft.com/en-us/library/ms644931(v=VS.85).aspx">WM_USER</a> to the asynchronous message functions (<b>PostMessage</b>, <a href="https://msdn.microsoft.com/en-us/library/ms644953(v=VS.85).aspx">SendNotifyMessage</a>, and <a href="https://msdn.microsoft.com/en-us/library/ms644951(v=VS.85).aspx">SendMessageCallback</a>), its message parameters cannot include pointers. Otherwise, the operation will fail. The functions will return before the receiving thread has had a chance to process the message and the sender will free the memory before it is used.
+If you send a message in the range below <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-user">WM_USER</a> to the asynchronous message functions (<b>PostMessage</b>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendnotifymessagea">SendNotifyMessage</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessagecallbacka">SendMessageCallback</a>), its message parameters cannot include pointers. Otherwise, the operation will fail. The functions will return before the receiving thread has had a chance to process the message and the sender will free the memory before it is used.
 
-Do not post the <a href="https://msdn.microsoft.com/en-us/library/ms632641(v=VS.85).aspx">WM_QUIT</a> message using <b>PostMessage</b>; use the <a href="https://msdn.microsoft.com/en-us/library/ms644945(v=VS.85).aspx">PostQuitMessage</a> function.
+Do not post the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-quit">WM_QUIT</a> message using <b>PostMessage</b>; use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postquitmessage">PostQuitMessage</a> function.
 
- An accessibility application can use <b>PostMessage</b> to post <a href="https://msdn.microsoft.com/en-us/library/ms646275(v=VS.85).aspx">WM_APPCOMMAND</a> messages  to the shell to launch applications. This  functionality is not guaranteed to work for other types of applications.
+ An accessibility application can use <b>PostMessage</b> to post <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-appcommand">WM_APPCOMMAND</a> messages  to the shell to launch applications. This  functionality is not guaranteed to work for other types of applications.
 
 There is a limit of 10,000 posted messages per message queue. This limit should be sufficiently large.  If your application exceeds the limit, it should be redesigned to avoid consuming so many system resources. To adjust this limit, modify the following registry key.
 				
@@ -205,7 +205,7 @@ You can post a message to the message queue associated with the thread that crea
 ```
 
 
-For more examples, see <a href="https://msdn.microsoft.com/en-us/library/ms648775(v=VS.85).aspx">Initiating a Data Link</a>.
+For more examples, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg/using-dynamic-data-exchange">Initiating a Data Link</a>.
 
 <div class="code"></div>
 
@@ -220,23 +220,23 @@ For more examples, see <a href="https://msdn.microsoft.com/en-us/library/ms64877
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644936(v=VS.85).aspx">GetMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632590(v=VS.85).aspx">Messages and Message Queues</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/messages-and-message-queues">Messages and Message Queues</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644945(v=VS.85).aspx">PostQuitMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postquitmessage">PostQuitMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644946(v=VS.85).aspx">PostThreadMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postthreadmessagea">PostThreadMessage</a>
 
 
 
@@ -244,15 +244,15 @@ For more examples, see <a href="https://msdn.microsoft.com/en-us/library/ms64877
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644947(v=VS.85).aspx">RegisterWindowMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea">RegisterWindowMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644951(v=VS.85).aspx">SendMessageCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessagecallbacka">SendMessageCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644953(v=VS.85).aspx">SendNotifyMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendnotifymessagea">SendNotifyMessage</a>
  
 
  

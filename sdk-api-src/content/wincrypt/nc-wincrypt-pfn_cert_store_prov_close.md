@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 An application-defined callback function that is called by 
-<a href="https://msdn.microsoft.com/a93fdd65-359e-4046-910d-347c3af01280">CertCloseStore</a> when the store's <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">reference count</a> is decremented to zero.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a> when the store's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reference count</a> is decremented to zero.
 
 
 ## -parameters
@@ -61,14 +61,14 @@ An application-defined callback function that is called by
 ### -param hStoreProv [in]
 
 Provider-specific value returned in 
-<a href="https://msdn.microsoft.com/dc6789a7-09a5-467a-b2e4-16acfa25b5f6">CERT_STORE_PROV_INFO</a> by 
-<a href="https://msdn.microsoft.com/2fe291dd-23e2-49df-b9e4-a4ed29667123">CertDllOpenStoreProv</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_store_prov_info">CERT_STORE_PROV_INFO</a> by 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_dll_open_store_prov_func">CertDllOpenStoreProv</a>.
 
 
 ### -param dwFlags [in]
 
 Copy of the <i>dwFlags</i> passed as a parameter to 
-<a href="https://msdn.microsoft.com/a93fdd65-359e-4046-910d-347c3af01280">CertCloseStore</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a>.
 
 
 ## -returns
@@ -85,7 +85,7 @@ This callback function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Callback Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Callback Functions</a>
  
 
  

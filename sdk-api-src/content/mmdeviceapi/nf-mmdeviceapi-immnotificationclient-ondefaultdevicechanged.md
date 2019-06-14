@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>OnDefaultDeviceChanged</b> method notifies the client that the default audio endpoint device for a particular <a href="https://msdn.microsoft.com/aa787004-0d3e-448b-80dd-92055f841aee">device role</a> has changed.
+The <b>OnDefaultDeviceChanged</b> method notifies the client that the default audio endpoint device for a particular <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-roles">device role</a> has changed.
 
 
 
@@ -62,7 +62,7 @@ The <b>OnDefaultDeviceChanged</b> method notifies the client that the default au
 
 ### -param flow [in]
 
-The data-flow direction of the endpoint device. This parameter is set to one of the following <a href="https://msdn.microsoft.com/en-us/library/Dd370828(v=VS.85).aspx">EDataFlow</a> enumeration values:
+The data-flow direction of the endpoint device. This parameter is set to one of the following <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/ne-mmdeviceapi-__midl___midl_itf_mmdeviceapi_0000_0000_0001">EDataFlow</a> enumeration values:
 
 eRender
 
@@ -73,7 +73,7 @@ The data-flow direction for a rendering device is eRender. The data-flow directi
 
 ### -param role [in]
 
-The <a href="https://msdn.microsoft.com/aa787004-0d3e-448b-80dd-92055f841aee">device role</a> of the audio endpoint device. This parameter is set to one of the following <a href="https://msdn.microsoft.com/en-us/library/Dd370842(v=VS.85).aspx">ERole</a> enumeration values:
+The <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-roles">device role</a> of the audio endpoint device. This parameter is set to one of the following <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/ne-mmdeviceapi-__midl___midl_itf_mmdeviceapi_0000_0000_0002">ERole</a> enumeration values:
 
 eConsole
 
@@ -84,7 +84,7 @@ eCommunications
 
 ### -param pwstrDefaultDeviceId [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/3c955e2d-daaa-4b77-8ca5-890383bb2d39">endpoint ID string</a> that identifies the audio endpoint device. This parameter points to a null-terminated, wide-character string containing the endpoint ID. The string remains valid for the duration of the call. If the user has removed or disabled the default device for a particular role, and no other device is available to assume that role, then <i>pwstrDefaultDevice</i> is <b>NULL</b>.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/endpoint-id-strings">endpoint ID string</a> that identifies the audio endpoint device. This parameter points to a null-terminated, wide-character string containing the endpoint ID. The string remains valid for the duration of the call. If the user has removed or disabled the default device for a particular role, and no other device is available to assume that role, then <i>pwstrDefaultDevice</i> is <b>NULL</b>.
 
 
 ## -returns
@@ -104,9 +104,9 @@ The three input parameters specify the data-flow direction, device role, and end
 
 In Windows Vista, the MMDevice API supports device roles but the system-supplied user interface programs do not. The user interface in Windows Vista enables the user to select a default audio device for rendering and a default audio device for capture. When the user changes the default rendering or capture device, the system assigns all three device roles (eConsole, eMultimedia, and eCommunications) to the new device. Thus, when the user changes the default rendering or capture device, the system calls the client's <b>OnDefaultDeviceChanged</b> method three times—once for each of the three device roles.
 
-In a future version of Windows, the user interface might enable the user to assign individual roles to different devices. In that case, if the user changes the assignment of only one or two device roles to a new rendering or capture device, the system will call the client's <b>OnDefaultDeviceChanged</b> method only once or twice (that is, one call per changed role). Depending on how the <b>OnDefaultDeviceChanged</b> method responds to role changes, the behavior of an audio application developed to run in Windows Vista might change when run in a future version of Windows. For more information, see <a href="https://msdn.microsoft.com/3b2cb1fe-0f11-4509-a6f3-513d2755cd29">Device Roles in Windows Vista</a>.
+In a future version of Windows, the user interface might enable the user to assign individual roles to different devices. In that case, if the user changes the assignment of only one or two device roles to a new rendering or capture device, the system will call the client's <b>OnDefaultDeviceChanged</b> method only once or twice (that is, one call per changed role). Depending on how the <b>OnDefaultDeviceChanged</b> method responds to role changes, the behavior of an audio application developed to run in Windows Vista might change when run in a future version of Windows. For more information, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-roles-in-windows-vista">Device Roles in Windows Vista</a>.
 
-For a code example that implements the <b>OnDefaultDeviceChanged</b> method, see <a href="https://msdn.microsoft.com/b31500d6-a79d-4e6e-878e-6bd77055f1ad">Device Events</a>.
+For a code example that implements the <b>OnDefaultDeviceChanged</b> method, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-events">Device Events</a>.
 
 
 
@@ -116,7 +116,7 @@ For a code example that implements the <b>OnDefaultDeviceChanged</b> method, see
 
 
 
-<a href="https://msdn.microsoft.com/76d3cd52-30bd-48b0-8adc-c23991a60d1b">IMMNotificationClient Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immnotificationclient">IMMNotificationClient Interface</a>
  
 
  

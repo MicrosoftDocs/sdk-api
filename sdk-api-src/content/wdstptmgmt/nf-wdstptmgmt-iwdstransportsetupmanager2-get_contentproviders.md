@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Receives a pointer to an instance of the <a href="https://msdn.microsoft.com/4a5c247f-28d7-4057-87e9-fca6e9effc96">IWdsTransportCollection</a> interface.  The collection contains objects of the <a href="https://msdn.microsoft.com/DF94E03F-0A9A-4467-B932-28227B6BB3C4">IWdsTransportContentProvider</a> interface for the content providers registered on the server. This property is available beginning with Windows Server 2012.
+Receives a pointer to an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportcollection">IWdsTransportCollection</a> interface.  The collection contains objects of the <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportcontentprovider">IWdsTransportContentProvider</a> interface for the content providers registered on the server. This property is available beginning with Windows Server 2012.
 
 This property is read-only.
 
@@ -63,11 +63,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/4a5c247f-28d7-4057-87e9-fca6e9effc96">IWdsTransportCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportcollection">IWdsTransportCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/C16D037D-8E6C-4789-8947-D3BAC73D86FF">IWdsTransportSetupManager2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportsetupmanager2">IWdsTransportSetupManager2</a>
  
 
  

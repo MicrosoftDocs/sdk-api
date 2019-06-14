@@ -98,19 +98,19 @@ A value that contains a combination of one or more shader requirements #define f
 <tr>
 <td><b>D3D_SHADER_REQUIRES_MINIMUM_PRECISION</b></td>
 <td>Shader requires the graphics driver and hardware to support minimum precision.
-                  For more info, see <a href="https://msdn.microsoft.com/422B0C45-5CEB-4235-AD05-62D36C36CFC6">Using HLSL minimum precision</a>.
+                  For more info, see <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/using-hlsl-minimum-precision">Using HLSL minimum precision</a>.
                 </td>
 </tr>
 <tr>
 <td><b>D3D_SHADER_REQUIRES_11_1_DOUBLE_EXTENSIONS</b></td>
 <td>Shader requires that the graphics driver and hardware support extended doubles instructions.
-                  For more info, see the <b>ExtendedDoublesShaderInstructions</b> member of <a href="https://msdn.microsoft.com/3193E3CC-C6CA-43D4-8D8C-41B7FCEE2BDF">D3D12_FEATURE_DATA_D3D12_OPTIONS</a>.
+                  For more info, see the <b>ExtendedDoublesShaderInstructions</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options">D3D12_FEATURE_DATA_D3D12_OPTIONS</a>.
                 </td>
 </tr>
 <tr>
 <td><b>D3D_SHADER_REQUIRES_11_1_SHADER_EXTENSIONS</b></td>
-<td>Shader requires that the graphics driver and hardware support the <a href="https://msdn.microsoft.com/6497F9AE-4524-44C2-A1C6-2A4ACB30FA9C">msad4</a> intrinsic function in shaders.
-                  For more info, see the <b>SAD4ShaderInstructions</b> member of <a href="https://msdn.microsoft.com/3193E3CC-C6CA-43D4-8D8C-41B7FCEE2BDF">D3D12_FEATURE_DATA_D3D12_OPTIONS</a>.
+<td>Shader requires that the graphics driver and hardware support the <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-msad4">msad4</a> intrinsic function in shaders.
+                  For more info, see the <b>SAD4ShaderInstructions</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options">D3D12_FEATURE_DATA_D3D12_OPTIONS</a>.
                 </td>
 </tr>
 <tr>
@@ -126,30 +126,30 @@ A value that contains a combination of one or more shader requirements #define f
 <tr>
 <td><b>D3D_SHADER_REQUIRES_STENCIL_REF</b></td>
 <td>Shader requires a reference value for depth stencil tests.
-                  For more info, see the <b>PSSpecifiedStencilRefSupported</b> member of the <a href="https://msdn.microsoft.com/3193E3CC-C6CA-43D4-8D8C-41B7FCEE2BDF">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure,
-                  and <a href="https://msdn.microsoft.com/96C5C209-71A2-4096-A86C-D376AC1AB46C">ID3D12GraphicsCommandList::OMSetStencilRef</a>.
+                  For more info, see the <b>PSSpecifiedStencilRefSupported</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure,
+                  and <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-omsetstencilref">ID3D12GraphicsCommandList::OMSetStencilRef</a>.
                 </td>
 </tr>
 <tr>
 <td><b>D3D_SHADER_REQUIRES_INNER_COVERAGE</b></td>
-<td>Shader requires that the graphics driver and hardware support inner coverage.For more info, see the enumeration constants D3D_NAME_INNER_COVERAGE and D3D11_NAME_INNER_COVERAGE in <a href="https://msdn.microsoft.com/16675331-36cf-4086-a753-6d80ee934ace">D3D_NAME</a>.
+<td>Shader requires that the graphics driver and hardware support inner coverage.For more info, see the enumeration constants D3D_NAME_INNER_COVERAGE and D3D11_NAME_INNER_COVERAGE in <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_name">D3D_NAME</a>.
                 </td>
 </tr>
 <tr>
 <td><b>D3D_SHADER_REQUIRES_TYPED_UAV_LOAD_ADDITIONAL_FORMATS</b></td>
 <td>Shader requires that the graphics driver and hardware support the loading of additional formats for typed unordered-access views (UAVs).
-                  See the <b>TypedUAVLoadAdditionalFormats</b> member of the <a href="https://msdn.microsoft.com/3193E3CC-C6CA-43D4-8D8C-41B7FCEE2BDF">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure.
+                  See the <b>TypedUAVLoadAdditionalFormats</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure.
                 </td>
 </tr>
 <tr>
 <td><b>D3D_SHADER_REQUIRES_ROVS</b></td>
 <td>Shader requires that the graphics driver and hardware support rasterizer ordered views (ROVs).
-                  See <a href="https://msdn.microsoft.com/D308BF3E-8CBE-4DF0-B020-4D202E858D99">Rasterizer Ordered Views</a>.
+                  See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/rasterizer-order-views">Rasterizer Ordered Views</a>.
                 </td>
 </tr>
 <tr>
 <td><b>D3D_SHADER_REQUIRES_VIEWPORT_AND_RT_ARRAY_INDEX_FROM_ANY_SHADER_FEEDING_RASTERIZER</b></td>
-<td>Shader requires that the graphics driver and hardware support viewport and render target array index values from any shader-feeding rasterizer.For more info, see the member <b>VPAndRTArrayIndexFromAnyShaderFeedingRasterizerSupportedWithoutGSEmulation</b>of the <a href="https://msdn.microsoft.com/3193E3CC-C6CA-43D4-8D8C-41B7FCEE2BDF">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure.
+<td>Shader requires that the graphics driver and hardware support viewport and render target array index values from any shader-feeding rasterizer.For more info, see the member <b>VPAndRTArrayIndexFromAnyShaderFeedingRasterizerSupportedWithoutGSEmulation</b>of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure.
                 </td>
 </tr>
 </table>
@@ -193,11 +193,11 @@ Here is how the D3D12Shader.h header defines the shader requirements flags:
 
 
 
-<a href="https://msdn.microsoft.com/0C40C73E-06F3-41FA-AA27-2C0B730B357B">Checking Hardware Feature Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/checking-hardware-feature-support">Checking Hardware Feature Support</a>
 
 
 
-<a href="https://msdn.microsoft.com/145F2CCB-C076-42BE-8AF4-74349CDF6B02">ID3D12ShaderReflection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12shaderreflection">ID3D12ShaderReflection</a>
  
 
  

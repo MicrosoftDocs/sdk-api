@@ -64,9 +64,9 @@ Gets the feature level of the hardware device.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/afbc1a02-1730-4502-af15-b668412d664c">D3D_FEATURE_LEVEL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_feature_level">D3D_FEATURE_LEVEL</a></b>
 
-A member of the <a href="https://msdn.microsoft.com/afbc1a02-1730-4502-af15-b668412d664c">D3D_FEATURE_LEVEL</a> enumerated type that describes the feature level of the hardware device.
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_feature_level">D3D_FEATURE_LEVEL</a> enumerated type that describes the feature level of the hardware device.
 
 
 
@@ -76,7 +76,7 @@ A member of the <a href="https://msdn.microsoft.com/afbc1a02-1730-4502-af15-b668
 
 
 
-<a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">Feature levels</a> determine the capabilities of your device.
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">Feature levels</a> determine the capabilities of your device.
 
 
 
@@ -86,7 +86,7 @@ A member of the <a href="https://msdn.microsoft.com/afbc1a02-1730-4502-af15-b668
 
 
 
-<a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>
  
 
  

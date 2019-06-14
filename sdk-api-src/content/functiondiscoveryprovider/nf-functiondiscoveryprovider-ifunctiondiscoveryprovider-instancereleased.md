@@ -61,7 +61,7 @@ Releases the specified function instance and frees the memory previously allocat
 
 ### -param pIFunctionInstance [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/cc421719-73a6-4d4d-9bf8-171e46c4e275">IFunctionInstance</a> interface.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a> interface.
 
 
 ### -param iProviderInstanceContext [in]
@@ -138,7 +138,7 @@ When you implement this method, you must clean up the memory allocated for <i>pp
 
 
 
-<a href="https://msdn.microsoft.com/e0019d0d-1495-4a0e-a7d9-7772046a4a26">IFunctionDiscoveryProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryprovider">IFunctionDiscoveryProvider</a>
  
 
  

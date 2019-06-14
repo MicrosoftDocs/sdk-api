@@ -74,7 +74,7 @@ The length of <i>textString</i>.
 
 ### -param fontFace
 
-Type: <b><a href="https://msdn.microsoft.com/1b6bb9e2-cf01-413c-9ee8-42bb0f703ce8">IDWriteFontFace</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontface">IDWriteFontFace</a>*</b>
 
 The font face that is the source of the output glyphs.
 
@@ -96,9 +96,9 @@ A Boolean flag set to <b>TRUE</b> for right-to-left text.
 
 ### -param scriptAnalysis [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/dafda5f6-39aa-4577-9213-898bdeddc7c2">DWRITE_SCRIPT_ANALYSIS</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_script_analysis">DWRITE_SCRIPT_ANALYSIS</a>*</b>
 
-A pointer to a Script analysis result from an <a href="https://msdn.microsoft.com/e681f7c8-7d87-454b-a7b6-6c3fe38b0f92">AnalyzeScript</a> call.
+A pointer to a Script analysis result from an <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalyzer-analyzescript">AnalyzeScript</a> call.
 
 
 ### -param localeName [in, optional]
@@ -112,14 +112,14 @@ The locale to use when selecting glyphs.
 
 ### -param numberSubstitution [optional]
 
-Type: <b><a href="https://msdn.microsoft.com/bf8caeea-6ede-4cd3-84f7-2e8314af50db">IDWriteNumberSubstitution</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritenumbersubstitution">IDWriteNumberSubstitution</a>*</b>
 
-A pointer to an optional number substitution which selects the appropriate glyphs for digits and related numeric characters, depending on the results obtained from <a href="https://msdn.microsoft.com/1cd53f79-5bbc-4a70-b66a-b807fe163a98">AnalyzeNumberSubstitution</a>. Passing <b>NULL</b> indicates that no substitution is needed and that the digits should receive nominal glyphs.
+A pointer to an optional number substitution which selects the appropriate glyphs for digits and related numeric characters, depending on the results obtained from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalyzer-analyzenumbersubstitution">AnalyzeNumberSubstitution</a>. Passing <b>NULL</b> indicates that no substitution is needed and that the digits should receive nominal glyphs.
 
 
 ### -param features [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/21ef4266-5dd6-48b6-9175-452b74e94a07">DWRITE_TYPOGRAPHIC_FEATURES</a>**</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_typographic_features">DWRITE_TYPOGRAPHIC_FEATURES</a>**</b>
 
 An array of pointers to the sets of typographic 
      features to use in each feature range.
@@ -158,7 +158,7 @@ When this method returns, contains the mapping from character ranges to glyph
 
 ### -param textProps [out]
 
-Type: <b><a href="https://msdn.microsoft.com/2fd1af73-c2ea-4077-9cf5-77ab9f237f0a">DWRITE_SHAPING_TEXT_PROPERTIES</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_shaping_text_properties">DWRITE_SHAPING_TEXT_PROPERTIES</a>*</b>
 
 When this method returns, contains a pointer to an array of structures that contains  shaping properties for each character.
 
@@ -172,7 +172,7 @@ The output glyph indices.
 
 ### -param glyphProps [out]
 
-Type: <b><a href="https://msdn.microsoft.com/debaa84f-8883-4117-9be0-962857b55020">DWRITE_SHAPING_GLYPH_PROPERTIES</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_shaping_glyph_properties">DWRITE_SHAPING_GLYPH_PROPERTIES</a>*</b>
 
 When this method returns, contains a pointer to an array of structures that contain  shaping properties for each output glyph.
 
@@ -216,7 +216,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/e832ffc4-31db-41b1-a008-04696d9a975e">IDWriteTextAnalyzer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextanalyzer">IDWriteTextAnalyzer</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information used with the <a href="https://msdn.microsoft.com/en-us/library/Bb787272(v=VS.85).aspx">TBN_GETOBJECT</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb760565(v=VS.85).aspx">TCN_GETOBJECT</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb774554(v=VS.85).aspx">PSN_GETOBJECT</a> notification codes. 
+Contains information used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/tbn-getobject">TBN_GETOBJECT</a>, <a href="https://docs.microsoft.com/windows/desktop/Controls/tcn-getobject">TCN_GETOBJECT</a>, and <a href="https://docs.microsoft.com/windows/desktop/Controls/psn-getobject">PSN_GETOBJECT</a> notification codes. 
 
 
 ## -struct-fields
@@ -59,16 +59,16 @@ Contains information used with the <a href="https://msdn.microsoft.com/en-us/lib
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about this notification. 
+An <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that contains additional information about this notification. 
 
 
 ### -field iItem
 
 Type: <b>int</b>
 
-A control-specific item identifier. This value will comply to item identification standards for the control sending the notification. However, this member is not used with the <a href="https://msdn.microsoft.com/en-us/library/Bb774554(v=VS.85).aspx">PSN_GETOBJECT</a> notification code. 
+A control-specific item identifier. This value will comply to item identification standards for the control sending the notification. However, this member is not used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/psn-getobject">PSN_GETOBJECT</a> notification code. 
 
 
 ### -field piid
@@ -80,14 +80,14 @@ A pointer to an interface identifier of the requested object.
 
 ### -field pObject
 
-Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
 A pointer to an object provided by the window processing the notification code. The application processing the notification code sets this member. 
 
 
 ### -field hResult
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 COM success or failure flags. The application processing the notification code sets this member. 
 

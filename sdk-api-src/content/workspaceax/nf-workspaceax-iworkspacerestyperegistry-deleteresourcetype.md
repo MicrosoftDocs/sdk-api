@@ -105,7 +105,7 @@ This method is called when the plug-in is uninstalled to unregister non-RDP reso
 
 
 
-<a href="https://msdn.microsoft.com/bea617a0-cd64-4c77-af27-b418178e3dad">IWorkspaceResTypeRegistry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/workspaceax/nn-workspaceax-iworkspacerestyperegistry">IWorkspaceResTypeRegistry</a>
  
 
  

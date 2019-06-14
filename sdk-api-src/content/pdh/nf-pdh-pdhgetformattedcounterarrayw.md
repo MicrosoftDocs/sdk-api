@@ -63,7 +63,7 @@ Returns an array of formatted counter values. Use this function when you want to
 ### -param hCounter [in]
 
 Handle to the counter whose current value you want to format. The 
-<a href="https://msdn.microsoft.com/b8b9a332-ce28-46d4-92e2-91f9f6c24da5">PdhAddCounter</a> function returns this handle.
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhaddcountera">PdhAddCounter</a> function returns this handle.
 
 
 ### -param dwFormat [in]
@@ -164,7 +164,7 @@ Number of counter values in the <i>ItemBuffer</i> buffer.
 ### -param ItemBuffer [out]
 
 Caller-allocated buffer that receives an array of 
-<a href="https://msdn.microsoft.com/d3bc6ad3-0cab-4843-ae1d-5f384948a1ea">PDH_FMT_COUNTERVALUE_ITEM</a> structures; the structures contain the counter values. Set to <b>NULL</b> if <i>lpdwBufferSize</i> is zero.
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_fmt_countervalue_item_a">PDH_FMT_COUNTERVALUE_ITEM</a> structures; the structures contain the counter values. Set to <b>NULL</b> if <i>lpdwBufferSize</i> is zero.
 
 
 ## -returns
@@ -175,8 +175,8 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> or a 
-<a href="https://msdn.microsoft.com/ea67d798-81db-44ad-b0fb-24e0c3be7388">PDH error code</a>. The following are possible values.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
 
 <table>
 <tr>
@@ -348,23 +348,23 @@ cleanup:
 
 
 
-<a href="https://msdn.microsoft.com/d3bc6ad3-0cab-4843-ae1d-5f384948a1ea">PDH_FMT_COUNTERVALUE_ITEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_fmt_countervalue_item_a">PDH_FMT_COUNTERVALUE_ITEM</a>
 
 
 
-<a href="https://msdn.microsoft.com/b8b9a332-ce28-46d4-92e2-91f9f6c24da5">PdhAddCounter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhaddcountera">PdhAddCounter</a>
 
 
 
-<a href="https://msdn.microsoft.com/cd104b26-1498-4f95-a411-97d868b43836">PdhGetFormattedCounterValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetformattedcountervalue">PdhGetFormattedCounterValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/03b30d08-6901-45cd-bd6d-d2672eb0f914">PdhGetRawCounterArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetrawcounterarraya">PdhGetRawCounterArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/bb246c82-8748-4e2f-9f44-a206199aff90">PdhGetRawCounterValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetrawcountervalue">PdhGetRawCounterValue</a>
  
 
  

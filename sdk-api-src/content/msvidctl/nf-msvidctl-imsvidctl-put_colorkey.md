@@ -85,11 +85,11 @@ The color key is used when the video renderer draws to an overlay surface.
 
 
 
-<a href="https://msdn.microsoft.com/e3ea10ea-bfb4-4c35-9933-5ad0367fd9ee">IMSVidCtl Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidctl">IMSVidCtl Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f197faf-a91e-4984-8858-ceab6506b273">IMSVidCtl::get_ColorKey</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_colorkey">IMSVidCtl::get_ColorKey</a>
  
 
  

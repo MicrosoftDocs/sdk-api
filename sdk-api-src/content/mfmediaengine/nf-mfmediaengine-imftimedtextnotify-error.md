@@ -59,7 +59,7 @@ Called when an error occurs in a text track.
 
 ### -param errorCode [in]
 
-Type: <b><a href="https://msdn.microsoft.com/D59B2063-5632-4115-BA8C-503181B5DF08">MF_TIMED_TEXT_ERROR_CODE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_timed_text_error_code">MF_TIMED_TEXT_ERROR_CODE</a></b>
 
 An MF_TIMED_TEXT_ERROR_CODE representing the last error.
 
@@ -92,7 +92,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/FE782D90-8CD4-4F8B-A20E-CE3F792A2DB4">IMFTimedTextNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextnotify">IMFTimedTextNotify</a>
  
 
  

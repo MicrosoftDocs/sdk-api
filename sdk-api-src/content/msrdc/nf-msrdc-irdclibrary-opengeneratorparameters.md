@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>OpenGeneratorParameters</b> method 
     opens an existing serialized parameter block and returns an 
-  <a href="https://msdn.microsoft.com/1b2db5c5-79eb-490a-ae03-36b0e926725d">IRdcGeneratorParameters</a> interface pointer initialized 
+  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgeneratorparameters">IRdcGeneratorParameters</a> interface pointer initialized 
   with the data.
 
 
@@ -73,7 +73,7 @@ Pointer to a serialized parameter block.
 ### -param iGeneratorParameters [out]
 
 Pointer to a location that will receive the returned 
-    <a href="https://msdn.microsoft.com/1b2db5c5-79eb-490a-ae03-36b0e926725d">IRdcGeneratorParameters</a> interface pointer. Callers 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgeneratorparameters">IRdcGeneratorParameters</a> interface pointer. Callers 
   must release the interface.
 
 
@@ -90,7 +90,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To create a serialized parameter block, use the <a href="https://msdn.microsoft.com/ba0d09b0-417f-494a-a5e8-dccd08e5280a">IRdcGeneratorParameters::Serialize</a> method.
+To create a serialized parameter block, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgeneratorparameters-serialize">IRdcGeneratorParameters::Serialize</a> method.
 
 
 
@@ -100,15 +100,15 @@ To create a serialized parameter block, use the <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/1b2db5c5-79eb-490a-ae03-36b0e926725d">IRdcGeneratorParameters</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgeneratorparameters">IRdcGeneratorParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/ba0d09b0-417f-494a-a5e8-dccd08e5280a">IRdcGeneratorParameters::Serialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgeneratorparameters-serialize">IRdcGeneratorParameters::Serialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/941fa35c-20fa-4843-89be-26112ff7eec5">IRdcLibrary</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdclibrary">IRdcLibrary</a>
  
 
  

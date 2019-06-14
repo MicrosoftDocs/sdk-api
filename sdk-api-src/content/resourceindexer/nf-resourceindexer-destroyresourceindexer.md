@@ -76,7 +76,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/240C94B6-DF61-4C84-9047-9CD81A6FF4B4">CreateResourceIndexer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/resourceindexer/nf-resourceindexer-createresourceindexer">CreateResourceIndexer</a>
  
 
  

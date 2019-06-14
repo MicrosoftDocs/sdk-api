@@ -131,17 +131,17 @@ The method was unable to register the description string.
 
 
 
-<a href="https://msdn.microsoft.com/26139c8c-e1d9-4d7a-a0c0-ef73e572fbe4">ITfCategoryMgr
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcategorymgr">ITfCategoryMgr
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/e0c4f64e-7e20-4dff-b597-acc280aebf32">ITfCategoryMgr::GetGUIDDescription
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-getguiddescription">ITfCategoryMgr::GetGUIDDescription
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/42bc1ddc-9f11-40dc-849c-2effc6efe1c8">ITfCategoryMgr::UnregisterGUIDDescription
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-unregisterguiddescription">ITfCategoryMgr::UnregisterGUIDDescription
       </a>
  
 

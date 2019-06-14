@@ -89,11 +89,11 @@ If no flags are set (the default case), it is equivalent to the bitwise <b>OR</b
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/23106ef0-e5ce-47a6-97b0-518bb78ec67c">IAMGraphStreams::FindUpstreamInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamgraphstreams-findupstreaminterface">IAMGraphStreams::FindUpstreamInterface</a>
  
 
  

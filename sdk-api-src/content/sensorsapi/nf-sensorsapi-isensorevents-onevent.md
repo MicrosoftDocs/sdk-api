@@ -59,7 +59,7 @@ Provides custom event notifications.
 
 ### -param pSensor [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/3216afbb-d524-486d-99ad-0ee0cfb884e0">ISensor</a> interface that represents the sensor that raised the event.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a> interface that represents the sensor that raised the event.
 
 
 ### -param eventID [in]
@@ -87,12 +87,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 This callback method receives custom event notifications. Custom events are defined by sensor providers. Platform-defined event IDs are defined in Sensors.h.
 
-To receive new data from a sensor, use the <a href="https://msdn.microsoft.com/dda03a66-ffdb-4f1f-a6e4-17075eab7e00">OnDataUpdated Method</a>.
+To receive new data from a sensor, use the <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-isensorevents-ondataupdated">OnDataUpdated Method</a>.
 
 
 #### Examples
 
-For an example of how to receive sensor events, see <a href="https://msdn.microsoft.com/0c396d54-cb2e-4b07-999f-3f4001db2a02">Using Sensor API Events</a>.
+For an example of how to receive sensor events, see <a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/using-sensor-api-events">Using Sensor API Events</a>.
 
 <div class="code"></div>
 
@@ -103,7 +103,7 @@ For an example of how to receive sensor events, see <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/41acbb4f-b4f8-4573-a993-ed93ec9494f0">ISensorEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorevents">ISensorEvents</a>
  
 
  

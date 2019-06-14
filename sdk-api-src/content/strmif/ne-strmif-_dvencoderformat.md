@@ -79,7 +79,7 @@ Use the 'dvsl' stream handler.
 
 
 
-This enumeration specifies the <b>fccType</b> member of the AVI stream header. For more information, see <a href="https://msdn.microsoft.com/ae1ec184-afc3-4ec1-9b92-f53656293446">DV Data in the AVI File Format</a>.
+This enumeration specifies the <b>fccType</b> member of the AVI stream header. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dv-data-in-the-avi-file-format">DV Data in the AVI File Format</a>.
 
 
 
@@ -89,11 +89,11 @@ This enumeration specifies the <b>fccType</b> member of the AVI stream header. F
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/f193b76f-ca6a-44f5-b097-1570c4527ab4">IDVEnc Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvenc">IDVEnc Interface</a>
  
 
  

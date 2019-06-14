@@ -62,7 +62,7 @@ Retrieves the default phrase to use for this relationship in restatements.
 
 Type: <b>LPWSTR*</b>
 
-Receives the default phrase as a Unicode string. The calling application must free the string by calling <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a>.
+Receives the default phrase as a Unicode string. The calling application must free the string by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 
 ## -returns

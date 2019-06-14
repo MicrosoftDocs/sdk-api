@@ -96,23 +96,23 @@ Network Access Protection (NAP) uses the <b>ISOLATION_STATE</b> value to determi
 
 
 
-<a href="https://msdn.microsoft.com/ba4d5a7f-3a5d-4ca3-975e-1ffa182b9014">EAPHost Supplicant Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-supplicant-enumerations">EAPHost Supplicant Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/298c89d9-7a6a-4280-9af9-77c7c00cab92">Implementing In-Band NAP Support for EAP Methods</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/enabling-in-band-nap-support">Implementing In-Band NAP Support for EAP Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/c25e4f03-759a-47a7-8b35-bbe669501c5c">Implementing NAP Support for EAP Methods</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/implementing-nap-for-eap-methods">Implementing NAP Support for EAP Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/79f81e8e-a105-4cc9-b175-8a364648f3a6">NAP IsolationState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ne-naptypes-tagisolationstate">NAP IsolationState</a>
 
 
 
-<a href="https://msdn.microsoft.com/7fa12cb4-694a-4db6-9743-5a2cbb995721">NotificationHandler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eappapis/nc-eappapis-notificationhandler">NotificationHandler</a>
  
 
  

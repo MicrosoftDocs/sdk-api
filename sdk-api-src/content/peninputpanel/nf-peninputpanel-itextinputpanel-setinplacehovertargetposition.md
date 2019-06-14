@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<a href="https://msdn.microsoft.com/1e719900-db58-430d-9059-efb3f884f6f0">ITextInputPanel</a> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/81E54703-095E-4810-A8A0-2ACBE7F3D634">IInputPanelConfiguration</a>.
+<p class="CCE_Message">[<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel</a> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelconfiguration">IInputPanelConfiguration</a>.
 
 ]
 
@@ -124,7 +124,7 @@ The <b>SetInPlaceHoverTargetPosition</b> method is synchronous. Positioning occu
 
 #### Examples
 
-This C++ example implements an <code>EN_SETFOCUS</code> event handler for an Edit control, <code>IDC_EDIT2</code>. It first checks if an <a href="https://msdn.microsoft.com/1e719900-db58-430d-9059-efb3f884f6f0">ITextInputPanel</a> object, <code>g_pTip</code>, has been created. If it exists, it sets the position of the Input Panel hover target by calling the <b>ITextInputPanel::SetInPlaceHoverTargetPosition Method</b>. It then reports whether the call was successful to debug output using the <b>TRACE</b> macro.
+This C++ example implements an <code>EN_SETFOCUS</code> event handler for an Edit control, <code>IDC_EDIT2</code>. It first checks if an <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel</a> object, <code>g_pTip</code>, has been created. If it exists, it sets the position of the Input Panel hover target by calling the <b>ITextInputPanel::SetInPlaceHoverTargetPosition Method</b>. It then reports whether the call was successful to debug output using the <b>TRACE</b> macro.
 
 
 ```cpp
@@ -158,15 +158,15 @@ void CCOMTIPDlg::OnEnSetfocusEdit2()
 
 
 
-<a href="https://msdn.microsoft.com/1e719900-db58-430d-9059-efb3f884f6f0">ITextInputPanel Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/49bb1a89-7064-4822-866f-739434043869">ITextInputPanel::SetInPlacePosition Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-setinplaceposition">ITextInputPanel::SetInPlacePosition Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/1e503857-9276-4308-b4ad-83db25866689">ITextInputPanel::SetInPlaceVisibility Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-setinplacevisibility">ITextInputPanel::SetInPlaceVisibility Method</a>
  
 
  

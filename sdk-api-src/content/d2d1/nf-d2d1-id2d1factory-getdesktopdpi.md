@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the current desktop dots per inch (DPI). To refresh this value, call <a href="https://msdn.microsoft.com/32c831c4-73e1-49f8-8d58-4248ae99fe37">ReloadSystemMetrics</a>.
+Retrieves the current desktop dots per inch (DPI). To refresh this value, call <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-reloadsystemmetrics">ReloadSystemMetrics</a>.
 
 
 ## -parameters
@@ -121,7 +121,7 @@ The following code uses the <b>GetDesktopDpi</b> method to obtain the system DPI
 ```
 
 
-For more information about enabling high-DPI scenarios, see <a href="https://msdn.microsoft.com/72a4b076-1cf0-4dc9-bd75-43b5173fc2a0">How to Ensure that Your Application Displays Properly on High-DPI Displays</a>.
+For more information about enabling high-DPI scenarios, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to--size-a-window-properly-for-high-dpi-displays">How to Ensure that Your Application Displays Properly on High-DPI Displays</a>.
 
 <div class="code"></div>
 
@@ -132,11 +132,11 @@ For more information about enabling high-DPI scenarios, see <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/72a4b076-1cf0-4dc9-bd75-43b5173fc2a0">How to Ensure that Your Application Displays Properly on High-DPI Displays</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to--size-a-window-properly-for-high-dpi-displays">How to Ensure that Your Application Displays Properly on High-DPI Displays</a>
 
 
 
-<a href="https://msdn.microsoft.com/cef6115c-98e8-49e6-b419-271b43ce2938">ID2D1Factory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>
  
 
  

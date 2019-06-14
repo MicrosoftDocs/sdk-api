@@ -107,11 +107,11 @@ The <i>plAppSpecific</i> parameter is not a valid pointer.
 
 
 
-<a href="https://msdn.microsoft.com/c03db3e2-3dc9-443f-8acf-66c06940e0b9">ITDetectTone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itdetecttone">ITDetectTone</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d008cda-bb01-4249-a0ca-a40d2daacbc4">put_AppSpecific</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itdetecttone-put_appspecific">put_AppSpecific</a>
  
 
  

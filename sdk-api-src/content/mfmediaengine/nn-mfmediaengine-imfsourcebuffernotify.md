@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Provides functionality for raising events associated with <a href="https://msdn.microsoft.com/f241e232-9013-46d0-be97-2d6b5246cff3">IMFSourceBuffer</a>.
+Provides functionality for raising events associated with <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSourceBufferNotify</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFSourceBufferNotify</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSourceBufferNotify</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSourceBufferNotify</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFSourceBufferNotify</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/65d8bbb3-e683-4a9d-acb2-023932d3e44d">OnAbort</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/imfsourcebuffernotify-onabort">OnAbort</a>
 </td>
 <td align="left" width="63%">
 Used to indicate that the source buffer has been aborted.
@@ -78,7 +78,7 @@ Used to indicate that the source buffer has been aborted.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a7187b7a-0090-4380-82bb-a7f72d54232e">OnError</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/imfsourcebuffernotify-onerror">OnError</a>
 </td>
 <td align="left" width="63%">
 Used to indicate that an error has occurred with the  source buffer.
@@ -87,7 +87,7 @@ Used to indicate that an error has occurred with the  source buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3c41f50f-7f0b-4676-9522-3866aedab047">OnUpdate</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/imfsourcebuffernotify-onupdate">OnUpdate</a>
 </td>
 <td align="left" width="63%">
 Used to indicate that the source buffer is updating.
@@ -96,7 +96,7 @@ Used to indicate that the source buffer is updating.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a06d5765-d91e-4cbc-ac12-09d1ce4d84f6">OnUpdateEnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfsourcebuffernotify-onupdateend">OnUpdateEnd</a>
 </td>
 <td align="left" width="63%">
 Used to indicate that the source buffer has finished updating.
@@ -105,7 +105,7 @@ Used to indicate that the source buffer has finished updating.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/513ef55d-756e-4ae3-b312-6a4178bc2f42">OnUpdateStart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfsourcebuffernotify-onupdatestart">OnUpdateStart</a>
 </td>
 <td align="left" width="63%">
 Used to indicate that the source buffer has started updating.
@@ -120,7 +120,7 @@ Used to indicate that the source buffer has started updating.
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Unlocks a buffer that was previously locked. Call this method once for each call to <a href="https://msdn.microsoft.com/887a7394-9fe0-473a-825b-f095b01626c4">IMF2DBuffer::Lock2D</a>.
+Unlocks a buffer that was previously locked. Call this method once for each call to <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imf2dbuffer-lock2d">IMF2DBuffer::Lock2D</a>.
 
 
 
@@ -96,15 +96,15 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/80eb23db-a7c0-4dbe-97d8-0dc07a34d8f7">IMF2DBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/3ee073ea-7bac-4971-9167-93a4e541ab77">Media Buffers</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-buffers">Media Buffers</a>
 
 
 
-<a href="https://msdn.microsoft.com/be5ec8a8-2d0b-401b-9d05-fdb87ad8c864">Uncompressed Video Buffers</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/uncompressed-video-buffers">Uncompressed Video Buffers</a>
  
 
  

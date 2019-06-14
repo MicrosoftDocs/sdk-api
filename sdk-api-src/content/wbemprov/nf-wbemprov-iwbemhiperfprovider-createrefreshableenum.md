@@ -51,9 +51,9 @@ ms.custom: 19H1
 
 The 
 <b>IWbemHiPerfProvider::CreateRefreshableEnum</b> method creates a new refreshable enumeration. The WMI Refresher calls this method in response to a client request to 
-<a href="https://msdn.microsoft.com/5b013267-78bc-4372-b55a-58e330acf927">IWbemConfigureRefresher::AddEnum</a>. The provider associates the supplied 
-<a href="https://msdn.microsoft.com/71ce1c89-446e-4137-9857-9d3c5921e0b7">IWbemHiPerfEnum</a> object with the supplied refresher. On each call to the supplied refresher's 
-<a href="https://msdn.microsoft.com/6de85040-c938-41dc-8240-0e21e89c7716">Refresh</a> method, the provider ensures that the enumerator contains a set of all the instances of the class listed in the <i>wszClass</i> parameter and that these instances contain updated information. One possible way to do this would be to keep an array of refreshable enumerators in the refresher.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemconfigurerefresher-addenum">IWbemConfigureRefresher::AddEnum</a>. The provider associates the supplied 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemhiperfenum">IWbemHiPerfEnum</a> object with the supplied refresher. On each call to the supplied refresher's 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemrefresher-refresh">Refresh</a> method, the provider ensures that the enumerator contains a set of all the instances of the class listed in the <i>wszClass</i> parameter and that these instances contain updated information. One possible way to do this would be to keep an array of refreshable enumerators in the refresher.
 <div class="alert"><b>Note</b>  If a provider does not implement this method, it must return <b>WBEM_E_PROVIDER_NOT_CAPABLE</b>.</div><div> </div>
 
 ## -parameters
@@ -64,7 +64,7 @@ The
 ### -param pNamespace [in]
 
 An 
-<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> pointer back into Windows Management, which can service any requests made by the provider. If <i>pNamespace</i> must call back into Windows Management during its execution, the provider calls <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> on this pointer.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> pointer back into Windows Management, which can service any requests made by the provider. If <i>pNamespace</i> must call back into Windows Management during its execution, the provider calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on this pointer.
 
 
 ### -param wszClass [in]
@@ -75,8 +75,8 @@ Constant, <b>null</b>-terminated string of 16-bit, Unicode characters that conta
 ### -param pRefresher [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/cd1d652a-f0ce-401c-9a5e-074e6bb4d9ed">IWbemRefresher</a> object that contains a refresher obtained by calling 
-<a href="https://msdn.microsoft.com/5962f5f6-a121-4234-8dcd-24c0e2b53990">IWbemHiPerfProvider::CreateRefresher</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemrefresher">IWbemRefresher</a> object that contains a refresher obtained by calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemhiperfprovider-createrefresher">IWbemHiPerfProvider::CreateRefresher</a>.
 
 
 ### -param lFlags [in]
@@ -87,14 +87,14 @@ Reserved. This parameter must be 0 (zero).
 ### -param pContext [in]
 
 Typically <b>NULL</b>; otherwise, a pointer to an 
-<a href="https://msdn.microsoft.com/458bd455-6984-414b-a0b7-62887d9dad7c">IWbemContext</a> object required by one or more dynamic class providers. The values in the context object must be specified in the specific provider's documentation. For more information about this parameter, see 
-<a href="https://msdn.microsoft.com/5bfd9d9b-ffe5-4def-a97d-85c4c01223f0">Making Calls to WMI</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> object required by one or more dynamic class providers. The values in the context object must be specified in the specific provider's documentation. For more information about this parameter, see 
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/making-calls-to-wmi">Making Calls to WMI</a>.
 
 
 ### -param pHiPerfEnum [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/71ce1c89-446e-4137-9857-9d3c5921e0b7">IWbemHiPerfEnum</a> object that contains the high-performance enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemhiperfenum">IWbemHiPerfEnum</a> object that contains the high-performance enumeration.
 
 
 ### -param plId [out]
@@ -118,7 +118,7 @@ This method returns an <b>HRESULT</b> that indicates the status of the method ca
 The provider must not modify the refreshable enumerator except during a refresh operation. The enumeration is shallow, so all instances placed in the enumerator should be of the class specified by <i>wszClass</i>.
 
 The provider must not access the enumerator unless WMI calls the 
-<a href="https://msdn.microsoft.com/6de85040-c938-41dc-8240-0e21e89c7716">IWbemRefresher::Refresh</a> method of the owner. As with refreshable objects, the provider must not update the enumerator unless the object owning the enumerator refreshes the enumerator.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemrefresher-refresh">IWbemRefresher::Refresh</a> method of the owner. As with refreshable objects, the provider must not update the enumerator unless the object owning the enumerator refreshes the enumerator.
 
 
 #### Examples
@@ -172,11 +172,11 @@ HRESULT CHiPerfProvider::CreateRefreshableEnum(
 
 
 
-<a href="https://msdn.microsoft.com/a4f537ba-9081-43b4-acff-4d206de3d9d7">Developing a WMI Provider</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/developing-a-wmi-provider">Developing a WMI Provider</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb0d12c0-d746-4bae-b47d-50350d33447a">IWbemHiPerfProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbemhiperfprovider">IWbemHiPerfProvider</a>
 
 
 
@@ -184,11 +184,11 @@ Making an Instance Provider into a High-Performance Provider
 
 
 
-<a href="https://msdn.microsoft.com/2c7206e7-f5f8-4d40-b993-56122e48069b">Performance Counter Provider</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/performance-counter-provider">Performance Counter Provider</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a22d6f7-d9e2-45fa-876d-921a4bc4f574">Writing an Instance Provider</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/making-an-instance-provider-into-a-high-performance-provider">Writing an Instance Provider</a>
  
 
  

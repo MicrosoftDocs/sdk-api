@@ -164,11 +164,11 @@ All ImageHlp functions, such as this one, are single threaded. Therefore, calls 
 
 
 
-<a href="https://msdn.microsoft.com/01a99601-64de-412d-991e-b1708286ca8c">CheckSumMappedFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-checksummappedfile">CheckSumMappedFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/926f412e-25ba-4f9c-a118-b5a1bc723379">ImageHlp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
  
 
  

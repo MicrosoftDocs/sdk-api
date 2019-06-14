@@ -50,18 +50,18 @@ ms.custom: 19H1
 
 
 
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://msdn.microsoft.com/dac99908-be90-415d-8837-2f97d573feb5">Media Session</a> for playback.</div>
+<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
 <div> </div>
 
 
 Contains methods to play media files.
 
-The MFPlay player object exposes this interface. To get a pointer to this interface, call <a href="https://msdn.microsoft.com/80c668e2-5e93-4af2-871c-646228e18717">MFPCreateMediaPlayer</a>.
+The MFPlay player object exposes this interface. To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-mfpcreatemediaplayer">MFPCreateMediaPlayer</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFPMediaPlayer</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFPMediaPlayer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFPMediaPlayer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFPMediaPlayer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>IMFPMediaPlayer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2c2b23ab-b282-445f-a5a0-4291ee6f22ba">ClearMediaItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-clearmediaitem">ClearMediaItem</a>
 </td>
 <td align="left" width="63%">
 Clears the current media item.
@@ -85,7 +85,7 @@ Clears the current media item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d647df89-b874-448e-ae41-ee3bcb55521f">CreateMediaItemFromObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-createmediaitemfromobject">CreateMediaItemFromObject</a>
 </td>
 <td align="left" width="63%">
 Creates a media item from an object.
@@ -94,7 +94,7 @@ Creates a media item from an object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7dc2a7f3-81b4-46c6-b45e-44c6a20afc6b">CreateMediaItemFromURL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-createmediaitemfromurl">CreateMediaItemFromURL</a>
 </td>
 <td align="left" width="63%">
 Creates a media item from a URL.
@@ -103,7 +103,7 @@ Creates a media item from a URL.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b7965965-2fbc-4494-9368-7d9699e4092a">FrameStep</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-framestep">FrameStep</a>
 </td>
 <td align="left" width="63%">
 Steps forward one video frame.
@@ -112,7 +112,7 @@ Steps forward one video frame.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/eaeb20d2-d547-4f88-a69f-7c3f46fe95ff">GetAspectRatioMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-getaspectratiomode">GetAspectRatioMode</a>
 </td>
 <td align="left" width="63%">
 Gets the current aspect-ratio correction mode. This mode controls whether the aspect ratio of the video is preserved during playback.
@@ -121,7 +121,7 @@ Gets the current aspect-ratio correction mode. This mode controls whether the as
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/27deeb41-5347-4a6d-bfd4-4e4444540651">GetBalance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-getbalance">GetBalance</a>
 </td>
 <td align="left" width="63%">
 Gets the current audio balance.
@@ -130,7 +130,7 @@ Gets the current audio balance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a07bacbd-3d45-4733-a506-3c54ec10b634">GetBorderColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-getbordercolor">GetBorderColor</a>
 </td>
 <td align="left" width="63%">
 Gets the current color of the video border.
@@ -139,7 +139,7 @@ Gets the current color of the video border.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7d201035-6946-4a46-bc66-b9e78006a04a">GetDuration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-getduration">GetDuration</a>
 </td>
 <td align="left" width="63%">
 Gets the playback duration of the current media item.
@@ -148,7 +148,7 @@ Gets the playback duration of the current media item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e6835852-10f0-4453-a22a-a567457bd7c5">GetIdealVideoSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-getidealvideosize">GetIdealVideoSize</a>
 </td>
 <td align="left" width="63%">
 Gets the range of video sizes that can be displayed without significantly degrading performance or image quality.
@@ -157,7 +157,7 @@ Gets the range of video sizes that can be displayed without significantly degrad
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9593092d-bd50-4ff6-a283-f5a0ab1e6fc0">GetMediaItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-getmediaitem">GetMediaItem</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the current media item.
@@ -166,7 +166,7 @@ Gets a pointer to the current media item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2a628608-37ea-48f3-aed4-0344d47ede9f">GetMute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-getmute">GetMute</a>
 </td>
 <td align="left" width="63%">
 Queries whether the audio is muted.
@@ -175,7 +175,7 @@ Queries whether the audio is muted.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6f0f09fb-d41c-4662-a20c-2a1d04b39df5">GetNativeVideoSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-getnativevideosize">GetNativeVideoSize</a>
 </td>
 <td align="left" width="63%">
 Gets the size and aspect ratio of the video.
@@ -184,7 +184,7 @@ Gets the size and aspect ratio of the video.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e3401c66-0dc7-46ef-9a38-088d605a3038">GetPosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-getposition">GetPosition</a>
 </td>
 <td align="left" width="63%">
 Gets the current playback position.
@@ -193,7 +193,7 @@ Gets the current playback position.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/51257361-0362-43c4-8aca-81fd49be8482">GetRate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-getrate">GetRate</a>
 </td>
 <td align="left" width="63%">
 Gets the current playback rate.
@@ -202,7 +202,7 @@ Gets the current playback rate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/072c5e93-b3ce-469c-8235-3e9c63bd77e3">GetState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-getstate">GetState</a>
 </td>
 <td align="left" width="63%">
 Gets the current playback state.
@@ -211,7 +211,7 @@ Gets the current playback state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e0e738e4-b8e4-41da-8b74-74ce06f17274">GetSupportedRates</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-getsupportedrates">GetSupportedRates</a>
 </td>
 <td align="left" width="63%">
 Gets the range of supported playback rates.
@@ -220,7 +220,7 @@ Gets the range of supported playback rates.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3b72ece3-f573-42e1-948c-443c793e5ba4">GetVideoSourceRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-getvideosourcerect">GetVideoSourceRect</a>
 </td>
 <td align="left" width="63%">
 Gets the video source rectangle.
@@ -229,7 +229,7 @@ Gets the video source rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/313e3a87-3dad-4cfb-ad37-1018cb03a707">GetVideoWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-getvideowindow">GetVideoWindow</a>
 </td>
 <td align="left" width="63%">
 Gets the window where the video is displayed.
@@ -238,7 +238,7 @@ Gets the window where the video is displayed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/08bf0bb3-4ee2-4229-9f41-64924c6122c9">GetVolume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-getvolume">GetVolume</a>
 </td>
 <td align="left" width="63%">
 Gets the current audio volume.
@@ -247,7 +247,7 @@ Gets the current audio volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2689ee46-5cfe-4616-850c-eb5aef340daa">InsertEffect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-inserteffect">InsertEffect</a>
 </td>
 <td align="left" width="63%">
 Applies an audio or video effect to playback.
@@ -256,7 +256,7 @@ Applies an audio or video effect to playback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f6bf6896-6ed6-4135-a01d-f875bfdc72f4">Pause</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-pause">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses playback.
@@ -265,7 +265,7 @@ Pauses playback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/24d6e8a0-d910-46f9-8172-dfcb68c4f364">Play</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-play">Play</a>
 </td>
 <td align="left" width="63%">
 Starts playback.
@@ -274,25 +274,25 @@ Starts playback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8745714c-315c-4183-86a2-7c189328dfe6">RemoveAllEffects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-removealleffects">RemoveAllEffects</a>
 </td>
 <td align="left" width="63%">
-Removes all effects that were added with the <a href="https://msdn.microsoft.com/2689ee46-5cfe-4616-850c-eb5aef340daa">IMFPMediaPlayer::InsertEffect</a> method.
+Removes all effects that were added with the <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-inserteffect">IMFPMediaPlayer::InsertEffect</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ca8507b9-c6c5-4e17-9c18-3ec1514de897">RemoveEffect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-removeeffect">RemoveEffect</a>
 </td>
 <td align="left" width="63%">
-Removes an effect that was added with the <a href="https://msdn.microsoft.com/2689ee46-5cfe-4616-850c-eb5aef340daa">IMFPMediaPlayer::InsertEffect</a> method.
+Removes an effect that was added with the <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-inserteffect">IMFPMediaPlayer::InsertEffect</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b100a422-548f-4c38-afeb-4d4c1d9a9140">SetAspectRatioMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-setaspectratiomode">SetAspectRatioMode</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the aspect ratio of the video is preserved during playback.
@@ -301,7 +301,7 @@ Specifies whether the aspect ratio of the video is preserved during playback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cb95d037-54b4-4686-b8e6-5b960998d361">SetBalance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-setbalance">SetBalance</a>
 </td>
 <td align="left" width="63%">
 Sets the audio balance.
@@ -310,7 +310,7 @@ Sets the audio balance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f66b671d-0c7d-4261-8210-05f2d2f8d9a5">SetBorderColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-setbordercolor">SetBorderColor</a>
 </td>
 <td align="left" width="63%">
 Sets the color for the video border.
@@ -319,7 +319,7 @@ Sets the color for the video border.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c792a024-c4f8-4e0b-9720-259d1dc28ee8">SetMediaItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-setmediaitem">SetMediaItem</a>
 </td>
 <td align="left" width="63%">
 Queues a media item for playback.
@@ -328,7 +328,7 @@ Queues a media item for playback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/81e2fb76-a125-4665-9aa5-8971410ee554">SetMute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-setmute">SetMute</a>
 </td>
 <td align="left" width="63%">
 Mutes or unmutes the audio.
@@ -337,7 +337,7 @@ Mutes or unmutes the audio.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d8665c3b-e0da-4a6f-a61b-38d507d1e78a">SetPosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-setposition">SetPosition</a>
 </td>
 <td align="left" width="63%">
 Sets the playback position.
@@ -346,7 +346,7 @@ Sets the playback position.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7e9d4a0d-b61f-47d9-af47-d8a07cd728f6">SetRate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-setrate">SetRate</a>
 </td>
 <td align="left" width="63%">
 Sets the playback rate.
@@ -355,7 +355,7 @@ Sets the playback rate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c95d724f-40a9-43c5-b81a-8505eda516f7">SetVideoSourceRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-setvideosourcerect">SetVideoSourceRect</a>
 </td>
 <td align="left" width="63%">
 Sets the video source rectangle.
@@ -364,7 +364,7 @@ Sets the video source rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/feee2812-7c7e-4c27-86be-8f7316854222">SetVolume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-setvolume">SetVolume</a>
 </td>
 <td align="left" width="63%">
 Sets the audio volume.
@@ -373,7 +373,7 @@ Sets the audio volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c56b07b5-f595-4933-9af6-868fc8938849">Shutdown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-shutdown">Shutdown</a>
 </td>
 <td align="left" width="63%">
 Shuts down the MFPlay player object and releases any resources that the object is using.
@@ -382,7 +382,7 @@ Shuts down the MFPlay player object and releases any resources that the object i
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1cfa41c7-209e-4c18-a204-563ede29c7c6">Stop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-stop">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops playback.
@@ -391,7 +391,7 @@ Stops playback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/de583e74-b31b-407e-af4b-c36649e1ca84">UpdateVideo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-updatevideo">UpdateVideo</a>
 </td>
 <td align="left" width="63%">
 Updates the video frame. Call this method when your application receives a <b>WM_PAINT</b> or <b>WM_SIZE</b> message.
@@ -406,11 +406,11 @@ Updates the video frame. Call this method when your application receives a <b>WM
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/6f143c51-ec46-46d4-9a1e-b04fcc0d8bea">Using MFPlay for Audio/Video Playback</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
  
 
  

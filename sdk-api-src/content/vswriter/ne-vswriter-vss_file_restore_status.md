@@ -52,7 +52,7 @@ ms.custom: 19H1
 The <b>VSS_FILE_RESTORE_STATUS</b> enumeration 
     defines the set of statuses of a file restore operation performed on the files managed by a 
     selected component or component set (see 
-    <a href="https://msdn.microsoft.com/e8920cca-d944-437f-bf6a-7ce8d518746a">Working with Selectability and 
+    <a href="https://docs.microsoft.com/windows/desktop/VSS/working-with-selectability-and-logical-paths">Working with Selectability and 
     Logical Paths</a> for information on selecting components).
 
 
@@ -112,15 +112,15 @@ Both the values <b>VSS_RS_FAILED</b> and <b>VSS_RS_NONE</b> indicate
       to disk and some files unrestored.</li>
 </ul>
 Requesters must set a restore status (using 
-    <a href="https://msdn.microsoft.com/669d61cc-c586-4dcc-a936-5343a393d371">IVssBackupComponents::SetFileRestoreStatus</a>) 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setfilerestorestatus">IVssBackupComponents::SetFileRestoreStatus</a>) 
     for every component (and its component set, if it defines one) explicitly added for restore to the Backup 
     Components Document (using either 
-    <a href="https://msdn.microsoft.com/8f8051d3-b1b6-418b-8a53-0ddc82a20bb3">IVssBackupComponents::SetSelectedForRestore</a> or 
-    <a href="https://msdn.microsoft.com/8eea27d7-6780-49cf-97ea-8876a9a2c8f8">IVssBackupComponents::AddRestoreSubcomponent</a>).
+    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setselectedforrestore">IVssBackupComponents::SetSelectedForRestore</a> or 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addrestoresubcomponent">IVssBackupComponents::AddRestoreSubcomponent</a>).
 
 Writers and requesters can query the status of the restoration of a component or a component set defined by a 
     selectable component with calls to 
-    <a href="https://msdn.microsoft.com/b79c4443-c850-4edf-bdd2-917e22e67d77">IVssComponent::GetFileRestoreStatus</a>. If
+    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getfilerestorestatus">IVssComponent::GetFileRestoreStatus</a>. If
     this method is called for a component that was not selected, the value returned is undefined.
 
 
@@ -131,11 +131,11 @@ Writers and requesters can query the status of the restoration of a component or
 
 
 
-<a href="https://msdn.microsoft.com/669d61cc-c586-4dcc-a936-5343a393d371">IVssBackupComponents::SetFileRestoreStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setfilerestorestatus">IVssBackupComponents::SetFileRestoreStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/b79c4443-c850-4edf-bdd2-917e22e67d77">IVssComponent::GetFileRestoreStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getfilerestorestatus">IVssComponent::GetFileRestoreStatus</a>
  
 
  

@@ -98,7 +98,7 @@ XPS_E_ABSOLUTE_REFERENCE: The OpenXPS document contains XML elements that use ab
 
 
 
-Use this method to read a stream that contains an XPS document that could be of type XPS_DOCUMENT_TYPE_ XPS or XPS_DOCUMENT_TYPE_ OPENXPS.   <a href="https://msdn.microsoft.com/4a4bb128-9480-4e50-8848-a2e1e715f4e3">CreatePackageFromStream</a>, released in Windows 7, only opens streams that contain an XPS document of type XPS_DOCUMENT_TYPE_ XPS.
+Use this method to read a stream that contains an XPS document that could be of type XPS_DOCUMENT_TYPE_ XPS or XPS_DOCUMENT_TYPE_ OPENXPS.   <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-createpackagefromstream">CreatePackageFromStream</a>, released in Windows 7, only opens streams that contain an XPS document of type XPS_DOCUMENT_TYPE_ XPS.
 
 
 
@@ -108,7 +108,7 @@ Use this method to read a stream that contains an XPS document that could be of 
 
 
 
-<a href="https://msdn.microsoft.com/f013e59d-83ae-453f-9cc5-9a8230729128">IXpsOMObjectFactory1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_1/nn-xpsobjectmodel_1-ixpsomobjectfactory1">IXpsOMObjectFactory1</a>
  
 
  

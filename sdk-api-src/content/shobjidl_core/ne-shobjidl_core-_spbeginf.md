@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used by <a href="https://msdn.microsoft.com/c26dd072-6d59-4c6c-a273-682ded994612">IActionProgress::Begin</a>, these constants specify certain UI operations that are to be enabled or disabled.
+Used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iactionprogress-begin">IActionProgress::Begin</a>, these constants specify certain UI operations that are to be enabled or disabled.
 
 
 ## -enum-fields
@@ -88,11 +88,11 @@ Indicates that the UI should not include a <b>Cancel</b> button.
 
 
 
-<a href="https://msdn.microsoft.com/e742e381-0fd2-482a-81a0-7b43d11b073b">IActionProgress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogress">IActionProgress</a>
 
 
 
-<a href="https://msdn.microsoft.com/c26dd072-6d59-4c6c-a273-682ded994612">IActionProgress::Begin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iactionprogress-begin">IActionProgress::Begin</a>
  
 
  

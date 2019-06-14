@@ -86,7 +86,7 @@ Defines a message other than corruption, error, warning, or information.
 
 
 
-Use this enumeration when you call <a href="https://msdn.microsoft.com/208C3253-09AE-4379-808D-BA0BECC59BF8">IDXGIInfoQueue::GetMessage</a> to retrieve a message and when you call <a href="https://msdn.microsoft.com/965DA310-D082-4970-BCD1-F15F44C074D0">IDXGIInfoQueue::AddMessage</a> to add a message. Also, use this enumeration with <a href="https://msdn.microsoft.com/30245BF0-C0AF-4780-A55F-D55A331427FA">IDXGIInfoQueue::AddApplicationMessage</a>.
+Use this enumeration when you call <a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-getmessage">IDXGIInfoQueue::GetMessage</a> to retrieve a message and when you call <a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-addmessage">IDXGIInfoQueue::AddMessage</a> to add a message. Also, use this enumeration with <a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-addapplicationmessage">IDXGIInfoQueue::AddApplicationMessage</a>.
 
 
 
@@ -100,7 +100,7 @@ Use this enumeration when you call <a href="https://msdn.microsoft.com/208C3253-
 
 
 
-<a href="https://msdn.microsoft.com/c4574c89-dee2-4841-9318-5383cf417111">DXGI Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-enums">DXGI Enumerations</a>
  
 
  

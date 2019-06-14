@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Used to set and obtain data on event class objects.
-This interface extends the <a href="https://msdn.microsoft.com/e8c1fcd1-59fb-49d6-94b9-52b7c8551651">IEventClass</a> interface.
+This interface extends the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventclass">IEventClass</a> interface.
 
 
 ## -see-also
@@ -58,7 +58,7 @@ This interface extends the <a href="https://msdn.microsoft.com/e8c1fcd1-59fb-49d
 
 
 
-<a href="https://msdn.microsoft.com/e8c1fcd1-59fb-49d6-94b9-52b7c8551651">IEventClass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventclass">IEventClass</a>
  
 
  

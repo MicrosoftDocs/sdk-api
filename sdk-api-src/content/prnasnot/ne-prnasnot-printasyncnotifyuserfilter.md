@@ -59,14 +59,14 @@ Specifies whether notifications will go only to listening applications that are 
 
 ### -field kPerUser
 
-When passed to <a href="https://msdn.microsoft.com/52cc586a-a565-46c6-b1b7-8613ad111ed3">CreatePrintAsyncNotifyChannel
-</a>, kPerUser indicates that notifications will go only to listening applications that are using <a href="https://msdn.microsoft.com/a3f74372-bdc9-43eb-b72f-7d00a43e78a8">Client Impersonation</a> to impersonate the same user as the Print Spooler-hosted sender. For example, if the Print Spooler-hosted sender sends a notification that a print job has finished printing, only listening applications impersonating the user that submitted the job will receive notification. When passed to <a href="https://msdn.microsoft.com/f5a01819-75d0-42a0-b66f-5a25a48b091c">RegisterForPrintAsyncNotifications</a>, kPerUser indicates that the listener will receive notifications only from senders that are impersonating the same user as the listener.
+When passed to <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nf-prnasnot-createprintasyncnotifychannel">CreatePrintAsyncNotifyChannel
+</a>, kPerUser indicates that notifications will go only to listening applications that are using <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/client-impersonation">Client Impersonation</a> to impersonate the same user as the Print Spooler-hosted sender. For example, if the Print Spooler-hosted sender sends a notification that a print job has finished printing, only listening applications impersonating the user that submitted the job will receive notification. When passed to <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nf-prnasnot-registerforprintasyncnotifications">RegisterForPrintAsyncNotifications</a>, kPerUser indicates that the listener will receive notifications only from senders that are impersonating the same user as the listener.
 
 
 ### -field kAllUsers
 
-When passed to <a href="https://msdn.microsoft.com/52cc586a-a565-46c6-b1b7-8613ad111ed3">CreatePrintAsyncNotifyChannel
-</a>, kAllUsers indicates that notifications will go to all listening applications, regardless of the user; as long as the sender has administration privileges on the associated print queue or print server. When passed to <a href="https://msdn.microsoft.com/f5a01819-75d0-42a0-b66f-5a25a48b091c">RegisterForPrintAsyncNotifications</a>, kAllUsers indicates that notifications will go to all listening applications whose associated user has administration privileges on the print queue or print server.
+When passed to <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nf-prnasnot-createprintasyncnotifychannel">CreatePrintAsyncNotifyChannel
+</a>, kAllUsers indicates that notifications will go to all listening applications, regardless of the user; as long as the sender has administration privileges on the associated print queue or print server. When passed to <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nf-prnasnot-registerforprintasyncnotifications">RegisterForPrintAsyncNotifications</a>, kAllUsers indicates that notifications will go to all listening applications whose associated user has administration privileges on the print queue or print server.
 
 
 ## -remarks

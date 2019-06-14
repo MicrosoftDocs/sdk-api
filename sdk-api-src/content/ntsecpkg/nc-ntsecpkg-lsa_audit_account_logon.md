@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>AuditAccountLogon</b> function produces an audit record that represents the mapping of a foreign <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">principal</a> name onto a Windows account.
+The <b>AuditAccountLogon</b> function produces an audit record that represents the mapping of a foreign <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">principal</a> name onto a Windows account.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>AuditAccountLogon</b> function produces an audit record that represents t
 
 ### -param AuditId [in]
 
-<a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">Security package</a>–defined message identifier. This value is included in the audit record.
+<a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Security package</a>–defined message identifier. This value is included in the audit record.
 
 
 ### -param Success [in]
@@ -70,17 +70,17 @@ Specifies whether the audit record is generated on success or failure of the log
 ### -param Source [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> specifying the source of the logon attempt.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> specifying the source of the logon attempt.
 
 
 ### -param ClientName [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> specifying the client name.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> specifying the client name.
 
 
 ### -param MappedName [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> containing the Windows account name to which the client name was mapped, if any.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the Windows account name to which the client name was mapped, if any.
 
 
 ### -param Status [in]
@@ -102,8 +102,8 @@ This function returns STATUS_SUCCESS.
 
 
 A pointer to the <b>AuditAccountLogon</b> function is available in the 
-<a href="https://msdn.microsoft.com/85f04072-8634-454a-9038-737d86c5597d">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
-<a href="https://msdn.microsoft.com/d93bafc6-d946-4214-b3c0-5e5a8e359638">SpInitialize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 
 
@@ -113,11 +113,11 @@ A pointer to the <b>AuditAccountLogon</b> function is available in the
 
 
 
-<a href="https://msdn.microsoft.com/85f04072-8634-454a-9038-737d86c5597d">LSA_SECPKG_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/d93bafc6-d946-4214-b3c0-5e5a8e359638">SpInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
  
 
  

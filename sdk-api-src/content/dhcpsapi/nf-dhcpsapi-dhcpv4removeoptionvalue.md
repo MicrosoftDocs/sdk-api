@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DhcpV4RemoveOptionValue</b> function  removes an option value from a scope defined on the DHCP server. This function extends the functionality provided by <a href="https://msdn.microsoft.com/3fe45007-0de2-4905-96d7-fe351c81ae30">DhcpRemoveOptionValueV5</a> by allowing the caller to specify a policy for the option.
+The <b>DhcpV4RemoveOptionValue</b> function  removes an option value from a scope defined on the DHCP server. This function extends the functionality provided by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpremoveoptionvaluev5">DhcpRemoveOptionValueV5</a> by allowing the caller to specify a policy for the option.
 
 
 ## -parameters
@@ -100,7 +100,7 @@ The option value is removed for a specific vendor. The vendor is in <i>VendorNam
 ### -param OptionID [in]
 
 
-<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_OPTION_ID</a> structure that specifies the option code for the option value to remove. A complete list of standard DHCP and BOOTP option codes can be found at <a href="http://www.ietf.org/rfc/rfc2132.txt">http://www.ietf.org/rfc/rfc2132.txt</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_OPTION_ID</a> structure that specifies the option code for the option value to remove. A complete list of standard DHCP and BOOTP option codes can be found at <a href="http://www.ietf.org/rfc/rfc2132.txt">http://www.ietf.org/rfc/rfc2132.txt</a>
 
 
 ### -param PolicyName [in, optional]
@@ -115,7 +115,7 @@ A null-terminated Unicode string that represents the vendor  of the option. This
 
 ### -param ScopeInfo [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/91d4d678-f0c5-4081-9302-0d08c8994692">DHCP_OPTION_SCOPE_INFO</a> structure that contains information on the scope of the option value to remove
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_option_scope_info">DHCP_OPTION_SCOPE_INFO</a> structure that contains information on the scope of the option value to remove
 
 
 ## -returns
@@ -124,7 +124,7 @@ Pointer to a <a href="https://msdn.microsoft.com/91d4d678-f0c5-4081-9302-0d08c89
 
 If the function succeeds, it returns <b>ERROR_SUCCESS</b>.
 
-If the function fails, it returns one of the following or an error code from <a href="https://msdn.microsoft.com/6370313f-d7db-4ff1-b0e0-7fa47474facb">DHCP Server Management API Error Codes</a>.
+If the function fails, it returns one of the following or an error code from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -197,19 +197,19 @@ The specified IPv4 subnet does not exist.
 
 
 
-<a href="https://msdn.microsoft.com/3c2fff2f-3d79-4e0d-8a31-9917088b1413">DhcpV4GetAllOptionValues</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4getalloptionvalues">DhcpV4GetAllOptionValues</a>
 
 
 
-<a href="https://msdn.microsoft.com/eadb26ec-50d5-474f-b6fe-1a586889bd23">DhcpV4GetOptionValue</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4getoptionvalue">DhcpV4GetOptionValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/cf8141cc-8cf3-4932-b13a-e276dcdeb825">DhcpV4SetOptionValue</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4setoptionvalue">DhcpV4SetOptionValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c50af53-8298-401e-826e-0fb1d1410499">DhcpV4SetOptionValues</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4setoptionvalues">DhcpV4SetOptionValues</a>
  
 
  

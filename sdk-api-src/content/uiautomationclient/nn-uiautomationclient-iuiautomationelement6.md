@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
- Extends the <a href="https://msdn.microsoft.com/9E3DE7EE-E569-4AE6-8A55-C9CDB28C51E5">IUIAutomationElement5</a> interface to provide access to current and cached full descriptions.
+ Extends the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement5">IUIAutomationElement5</a> interface to provide access to current and cached full descriptions.
 
 
 ## -see-also
@@ -57,11 +57,11 @@ ms.custom: 19H1
 
 
 
-<a href="https://msdn.microsoft.com/9E3DE7EE-E569-4AE6-8A55-C9CDB28C51E5">IUIAutomationElement5</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement5">IUIAutomationElement5</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd7cdcf1-3511-424f-b729-b71a7e11cdd8">UI Automation Element Interfaces for Clients</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-uiautoclientinterfaces">UI Automation Element Interfaces for Clients</a>
  
 
  

@@ -111,7 +111,7 @@ The <i>pllTime</i> parameter is <b>NULL</b>.
 
 This method retrieves the value set by <b>SetMaxKeyFrameSpacing</b>, or the default value for the key frame spacing, during the encoding process only. If called for a file that is open in the reader, the method always returns zero.
 
-For more information, see the Remarks for <a href="https://msdn.microsoft.com/en-us/library/Dd798714(v=VS.85).aspx">SetMaxKeyFrameSpacing</a>.
+For more information, see the Remarks for <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmvideomediaprops-setmaxkeyframespacing">SetMaxKeyFrameSpacing</a>.
 
 
 
@@ -121,7 +121,7 @@ For more information, see the Remarks for <a href="https://msdn.microsoft.com/en
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798711(v=VS.85).aspx">IWMVideoMediaProps Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmvideomediaprops">IWMVideoMediaProps Interface</a>
  
 
  

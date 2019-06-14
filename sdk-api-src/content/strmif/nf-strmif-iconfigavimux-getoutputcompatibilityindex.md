@@ -137,15 +137,15 @@ The AVI Mux filter always creates an AVI 2.0 index ('indx' format). If the value
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/4cc3cdeb-ebc5-46e1-8cc4-84b40e91323b">IConfigAviMux Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iconfigavimux">IConfigAviMux Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b9793e6-e5f4-432f-95f6-62053b955348">IConfigAviMux::SetOutputCompatibilityIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/nf-strmif-iconfigavimux-setoutputcompatibilityindex">IConfigAviMux::SetOutputCompatibilityIndex</a>
  
 
  

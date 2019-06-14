@@ -61,7 +61,7 @@ The <b>IAMAnalogVideoEncoder</b> interface might be implemented by a hardware vi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMAnalogVideoEncoder</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAMAnalogVideoEncoder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMAnalogVideoEncoder</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMAnalogVideoEncoder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>IAMAnalogVideoEncoder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/739a5f6f-2498-49f4-9c9d-008bd71d4855">get_AvailableTVFormats</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamanalogvideoencoder-get_availabletvformats">get_AvailableTVFormats</a>
 </td>
 <td align="left" width="63%">
 Retrieves the analog video standards (NTSC/M, PAL/B, SECAM/K1, and so on) supported by the encoder.
@@ -85,7 +85,7 @@ Retrieves the analog video standards (NTSC/M, PAL/B, SECAM/K1, and so on) suppor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0dab4b3a-f139-4ac5-ab30-f223e9120c44">get_CCEnable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamanalogvideoencoder-get_ccenable">get_CCEnable</a>
 </td>
 <td align="left" width="63%">
 Determines whether closed captioning is currently enabled.
@@ -94,7 +94,7 @@ Determines whether closed captioning is currently enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3eedb123-c70e-4a9a-98a9-abf7ccad32dc">get_CopyProtection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamanalogvideoencoder-get_copyprotection">get_CopyProtection</a>
 </td>
 <td align="left" width="63%">
 Determines whether copy protection is currently enabled.
@@ -103,7 +103,7 @@ Determines whether copy protection is currently enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5a88e2e7-508b-448b-ac1d-50a50b4bb79a">get_TVFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamanalogvideoencoder-get_tvformat">get_TVFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the analog video standard that the encoder is currently set to.
@@ -112,7 +112,7 @@ Retrieves the analog video standard that the encoder is currently set to.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6513cde7-2765-4225-814b-a619d6a6ab15">put_CCEnable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamanalogvideoencoder-put_ccenable">put_CCEnable</a>
 </td>
 <td align="left" width="63%">
 Enables or disables closed captioning.
@@ -121,7 +121,7 @@ Enables or disables closed captioning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a2a762f3-8b11-4334-979d-206234d6cf09">put_CopyProtection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamanalogvideoencoder-put_copyprotection">put_CopyProtection</a>
 </td>
 <td align="left" width="63%">
 Sets the level of copy protection for the encoder.
@@ -130,7 +130,7 @@ Sets the level of copy protection for the encoder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/76109fa1-2f7a-4538-9755-6e2de5852d4b">put_TVFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamanalogvideoencoder-put_tvformat">put_TVFormat</a>
 </td>
 <td align="left" width="63%">
 Sets the encoder to a particular analog video standard.
@@ -145,7 +145,7 @@ Sets the encoder to a particular analog video standard.
 
 
 
-<a href="https://msdn.microsoft.com/5b798477-9b36-4f59-b9cc-2938b5e4009f">Deprecated Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/deprecated-interfaces">Deprecated Interfaces</a>
  
 
  

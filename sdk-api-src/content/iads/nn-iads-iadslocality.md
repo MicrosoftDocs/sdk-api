@@ -49,15 +49,15 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IADsLocality</b> interface is a dual interface that inherits from <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. It is designed to represent the geographical location, or region, of a directory entity. This interface is one of several that provide support for directory services to organize accounts by country/region, locality (state/city/region), organization (company), or organizational unit (department). This interface manages locality, the  <a href="https://msdn.microsoft.com/223021ff-58ef-4762-a64a-056ccab2696c">IADsO</a> interface manages organization, and the  <a href="https://msdn.microsoft.com/3ac61a48-faa3-4457-8842-7e57175e35e5">IADsOU</a> interface manages the organization unit.
+The <b>IADsLocality</b> interface is a dual interface that inherits from <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>. It is designed to represent the geographical location, or region, of a directory entity. This interface is one of several that provide support for directory services to organize accounts by country/region, locality (state/city/region), organization (company), or organizational unit (department). This interface manages locality, the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadso">IADsO</a> interface manages organization, and the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsou">IADsOU</a> interface manages the organization unit.
    
 
-When a directory service provides hierarchical groupings of directory entries by country/region, locality, organization, or organization unit, you can use this and the related interfaces to expand the directory tree accordingly. In this case, the <b>IADsLocality</b> interface is implemented by a locality object that implements the <a href="https://msdn.microsoft.com/6c1d6c7c-e003-47f9-adfa-4a753fb3e9b2">IADsContainer</a> interface.
+When a directory service provides hierarchical groupings of directory entries by country/region, locality, organization, or organization unit, you can use this and the related interfaces to expand the directory tree accordingly. In this case, the <b>IADsLocality</b> interface is implemented by a locality object that implements the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a> interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsLocality</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsLocality</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsLocality</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> and <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>. <b>IADsLocality</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -73,7 +73,7 @@ The <b>IADsLocality</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fd6d79b6-46f8-42dd-8525-a72a6e0a7672">Get</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-get">Get</a>
 </td>
 <td align="left" width="63%">
 Gets the value for a property by name.
@@ -82,7 +82,7 @@ Gets the value for a property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cda6b8e7-fadc-4e0b-8217-66b37bf7efbd">GetEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getex">GetEx</a>
 </td>
 <td align="left" width="63%">
 Gets the value for a single or multi-valued property by name.
@@ -91,7 +91,7 @@ Gets the value for a single or multi-valued property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/73ceaeb1-9a6b-449a-9851-3756736dbad7">GetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfo">GetInfo</a>
 </td>
 <td align="left" width="63%">
 Loads the property values of this object from the underlying directory store.
@@ -100,7 +100,7 @@ Loads the property values of this object from the underlying directory store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/306ab953-890a-4ec9-8ec2-bea73888ea20">GetInfoEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfoex">GetInfoEx</a>
 </td>
 <td align="left" width="63%">
 Loads specific property values of this object from the underlying directory store.
@@ -109,7 +109,7 @@ Loads specific property values of this object from the underlying directory stor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b543220d-939b-4ca5-9a27-90b04f14be5d">Put</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-put">Put</a>
 </td>
 <td align="left" width="63%">
 Sets the value for a property by name.
@@ -118,7 +118,7 @@ Sets the value for a property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fb9d9b2c-9efc-4462-ac4b-9a2fbf0b5ec7">PutEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-putex">PutEx</a>
 </td>
 <td align="left" width="63%">
 Sets the value for a single or multi-valued property by name.
@@ -127,7 +127,7 @@ Sets the value for a single or multi-valued property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e7ff6acd-b7c4-463d-a34f-fd793067c63a">SetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">SetInfo</a>
 </td>
 <td align="left" width="63%">
 Persists the changes on this object to the underlying directory store.
@@ -145,7 +145,7 @@ Persists the changes on this object to the underlying directory store.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d2f6f686-a35a-4a9a-9b57-2ceb2f26ef12">AdsPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">AdsPath</a>
 
 
 </td>
@@ -161,7 +161,7 @@ Gets the object's ADsPath that uniquely identifies this object from all others.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d2f6f686-a35a-4a9a-9b57-2ceb2f26ef12">Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Class</a>
 
 
 </td>
@@ -177,7 +177,7 @@ Gets the name of the object's schema class.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/5d1cea40-62fb-49d4-857f-4563e9db7f51">Description</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadslocality-property-methods">Description</a>
 
 
 </td>
@@ -193,7 +193,7 @@ Gets and sets the description of the geographical region as represented by this 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d2f6f686-a35a-4a9a-9b57-2ceb2f26ef12">GUID</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">GUID</a>
 
 
 </td>
@@ -209,7 +209,7 @@ Gets the GUID of the object as stored in the underlying directory store.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/5d1cea40-62fb-49d4-857f-4563e9db7f51">LocalityName</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadslocality-property-methods">LocalityName</a>
 
 
 </td>
@@ -225,7 +225,7 @@ Gets and sets the name of this region.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d2f6f686-a35a-4a9a-9b57-2ceb2f26ef12">Name</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Name</a>
 
 
 </td>
@@ -241,7 +241,7 @@ Gets the object's relative name.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d2f6f686-a35a-4a9a-9b57-2ceb2f26ef12">Parent</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Parent</a>
 
 
 </td>
@@ -257,7 +257,7 @@ Gets the ADsPath string for the parent of the object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/5d1cea40-62fb-49d4-857f-4563e9db7f51">PostalAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadslocality-property-methods">PostalAddress</a>
 
 
 </td>
@@ -273,7 +273,7 @@ Gets and sets the main post office address of this region.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d2f6f686-a35a-4a9a-9b57-2ceb2f26ef12">Schema</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Schema</a>
 
 
 </td>
@@ -289,7 +289,7 @@ Gets the ADsPath string to the schema class object for this object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/5d1cea40-62fb-49d4-857f-4563e9db7f51">SeeAlso</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadslocality-property-methods">SeeAlso</a>
 
 
 </td>
@@ -310,23 +310,23 @@ Gets and sets any other information relevant to this region.
 
 
 
-<a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d1cea40-62fb-49d4-857f-4563e9db7f51">IADsLocality Property Methods</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadslocality-property-methods">IADsLocality Property Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/223021ff-58ef-4762-a64a-056ccab2696c">IADsO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadso">IADsO</a>
 
 
 
-<a href="https://msdn.microsoft.com/3ac61a48-faa3-4457-8842-7e57175e35e5">IADsOU</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsou">IADsOU</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

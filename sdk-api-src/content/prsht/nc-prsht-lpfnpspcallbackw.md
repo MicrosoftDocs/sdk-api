@@ -60,14 +60,14 @@ Specifies an application-defined callback function that a property sheet calls w
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Reserved; must be <b>NULL</b>.
 
 
 ### -param uMsg [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Action flag. This parameter can be one of the following values.
 
@@ -83,7 +83,7 @@ Action flag. This parameter can be one of the following values.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 5.80</a> or later. A page is being created. The return value is not used.
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 5.80</a> or later. A page is being created. The return value is not used.
 
 </td>
 </tr>
@@ -115,14 +115,14 @@ A page is being destroyed. The return value is ignored.
 
 Type: <b>LPPROPSHEETPAGE</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> structure that defines the page being created or destroyed. See the Remarks section for further discussion.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetpagea_v2">PROPSHEETPAGE</a> structure that defines the page being created or destroyed. See the Remarks section for further discussion.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The return value depends on the value of the <i>uMsg</i> parameter.
 
@@ -133,11 +133,11 @@ The return value depends on the value of the <i>uMsg</i> parameter.
 
 
 
-An application must specify the address of this callback function in the <b>pfnCallback</b> member of a <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> structure before passing the structure to the <a href="https://msdn.microsoft.com/en-us/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a> function.
+An application must specify the address of this callback function in the <b>pfnCallback</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetpagea_v2">PROPSHEETPAGE</a> structure before passing the structure to the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-createpropertysheetpagea">CreatePropertySheetPage</a> function.
 
 <div class="alert"><b>Note</b>  The property sheet is in the process of manipulating the list of pages when this function is called. Do not attempt to add, remove, or insert pages while handling this notification. Doing so will have unpredictable results.</div>
 <div> </div>
-With the exception of the <b>lParam</b> member, your application should not modify the <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> structure. Doing so will have unpredictable results. The <b>lParam</b> member contains application-defined data and can be modified as needed.
+With the exception of the <b>lParam</b> member, your application should not modify the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetpagea_v2">PROPSHEETPAGE</a> structure. Doing so will have unpredictable results. The <b>lParam</b> member contains application-defined data and can be modified as needed.
 
 
 

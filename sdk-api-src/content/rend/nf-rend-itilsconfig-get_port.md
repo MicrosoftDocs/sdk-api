@@ -110,11 +110,11 @@ Invalid pointer.
 
 
 
-<a href="https://msdn.microsoft.com/92a5624b-acf5-4280-9932-860fde53c6a0">ITILSConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itilsconfig">ITILSConfig</a>
 
 
 
-<a href="https://msdn.microsoft.com/9d911a9c-6538-4919-9110-0425c53f91c4">ITILSConfig::put_Port</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itilsconfig-put_port">ITILSConfig::put_Port</a>
  
 
  

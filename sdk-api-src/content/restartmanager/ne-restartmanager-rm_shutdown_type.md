@@ -87,7 +87,7 @@ The time to wait before initiating a forced shutdown of services is specified by
 
 
 
-<a href="https://msdn.microsoft.com/cdbc3bb7-0b3c-4fbc-8023-45a309c65bae">RmShutdown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmshutdown">RmShutdown</a>
  
 
  

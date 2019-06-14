@@ -61,7 +61,7 @@ The
 ### -param ppudDeviceParent [out]
 
 Receives a reference to an 
-<a href="https://msdn.microsoft.com/566cc606-3dfb-4052-93b0-3c922bf30f84">IUPnPDevice</a> object that describes the parent device. This reference must be released when it is no longer required. If the device has no parent, it is a topmost device, and the parameter receives <b>NULL</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a> object that describes the parent device. This reference must be released when it is no longer required. If the device has no parent, it is a topmost device, and the parameter receives <b>NULL</b>.
 
 
 ## -returns
@@ -77,7 +77,7 @@ For C++: If this property's "get" method succeeds, the return value is S_OK. If 
 
 
 
-To determine if the device has no parent, use <a href="https://msdn.microsoft.com/0416c4f0-1289-4e91-be34-23f8b80df5c3">IUPnPDevice::IsRootDevice</a>.
+To determine if the device has no parent, use <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_isrootdevice">IUPnPDevice::IsRootDevice</a>.
 
 
 
@@ -87,11 +87,11 @@ To determine if the device has no parent, use <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/566cc606-3dfb-4052-93b0-3c922bf30f84">IUPnPDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/a8cdc66f-c5c0-4328-a8f2-f40d55a20a4f">IUPnPDevice::Children</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_children">IUPnPDevice::Children</a>
  
 
  

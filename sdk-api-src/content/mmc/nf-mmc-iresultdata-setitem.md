@@ -61,7 +61,7 @@ The <b>IResultData::SetItem</b> method enables the snap-in to set a single item 
 ### -param item [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/c8f4682e-e1f7-4f7f-9a56-508648ca8c07">RESULTDATAITEM</a> structure that contains information about the item to be changed.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_resultdataitem">RESULTDATAITEM</a> structure that contains information about the item to be changed.
 
 
 ## -returns
@@ -78,7 +78,7 @@ This method can return one of these values.
 
 
 The itemID member of the structure pointed to by the item parameter should be set to refer to the item or subitem to be changed in the list. The mask and all appropriate associated fields in the 
-<a href="https://msdn.microsoft.com/c8f4682e-e1f7-4f7f-9a56-508648ca8c07">RESULTDATAITEM</a> structure should be filled out with the preferred changes. The nCol member should be set to 0 (zero) because it is the only column in which anything can be set or obtained. The str member of 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_resultdataitem">RESULTDATAITEM</a> structure should be filled out with the preferred changes. The nCol member should be set to 0 (zero) because it is the only column in which anything can be set or obtained. The str member of 
 <b>RESULTDATAITEM</b> should always be set to MMC_CALLBACK.
 
 This method does not support virtual lists.
@@ -91,15 +91,15 @@ This method does not support virtual lists.
 
 
 
-<a href="https://msdn.microsoft.com/58f8bcdb-b062-4048-92fc-eb652ce62c5b">IResultData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdata">IResultData</a>
 
 
 
-<a href="https://msdn.microsoft.com/cca0c2a4-7a41-48d1-bdaa-27b7aad7cc05">IResultData2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdata2">IResultData2</a>
 
 
 
-<a href="https://msdn.microsoft.com/18c345b0-7d3c-4c80-8d1e-b8d5791bc550">IResultData::GetItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-getitem">IResultData::GetItem</a>
  
 
  

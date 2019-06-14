@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>get__MixerBitmap</b> method retrieves the Video Mixing Renderer's <a href="https://msdn.microsoft.com/en-us/library/Dd390448(v=VS.85).aspx">IVMRMixerBitmap</a> interface, which controls how the VMR mixes a static bitmap.
+The <b>get__MixerBitmap</b> method retrieves the Video Mixing Renderer's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap</a> interface, which controls how the VMR mixes a static bitmap.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>get__MixerBitmap</b> method retrieves the Video Mixing Renderer's <a href
 
 ### -param MixerPicture [out]
 
-Receives an <a href="https://msdn.microsoft.com/en-us/library/Dd390448(v=VS.85).aspx">IVMRMixerBitmap</a> interface pointer.
+Receives an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap</a> interface pointer.
 
 
 ## -returns
@@ -75,7 +75,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-The returned <a href="https://msdn.microsoft.com/en-us/library/Dd390448(v=VS.85).aspx">IVMRMixerBitmap</a> interface has an outstanding reference count. The caller must release the interface.
+The returned <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap</a> interface has an outstanding reference count. The caller must release the interface.
 
 
 
@@ -85,19 +85,19 @@ The returned <a href="https://msdn.microsoft.com/en-us/library/Dd390448(v=VS.85)
 
 
 
-<a href="https://msdn.microsoft.com/27eb53f8-ece8-43eb-8f94-b3d2d91548ad">IMSVidVideoRenderer Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694739(v=VS.85).aspx">IMSVidVideoRenderer::get_MixerBitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get_mixerbitmap">IMSVidVideoRenderer::get_MixerBitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694759(v=VS.85).aspx">IMSVidVideoRenderer::put__MixerBitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put__mixerbitmap">IMSVidVideoRenderer::put__MixerBitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/e39cf7b0-7a88-41e9-bddc-cdd0cc381996">Mixing an Image Onto the Video Window in C++</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/mixing-an-image-onto-the-video-window-in-c-">Mixing an Image Onto the Video Window in C++</a>
  
 
  

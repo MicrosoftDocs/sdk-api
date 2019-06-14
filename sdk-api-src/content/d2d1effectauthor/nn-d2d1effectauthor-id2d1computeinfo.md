@@ -55,7 +55,7 @@ Enables specification of information for a compute-shader rendering pass.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1ComputeInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID2D1ComputeInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1ComputeInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1ComputeInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID2D1ComputeInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C5D45B7C-6EC8-4150-B0A9-C936C52B9E58">SetComputeShader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1computeinfo-setcomputeshader">SetComputeShader</a>
 </td>
 <td align="left" width="63%">
 Sets the compute shader to the given shader resource.  The resource must be loaded before this call is made.
@@ -79,7 +79,7 @@ Sets the compute shader to the given shader resource.  The resource must be load
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E7443E72-F8F6-48C4-A9BD-5EF132E8C090">SetComputeShaderConstantBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1computeinfo-setcomputeshaderconstantbuffer">SetComputeShaderConstantBuffer</a>
 </td>
 <td align="left" width="63%">
 Establishes or changes the constant buffer data for this transform.
@@ -88,7 +88,7 @@ Establishes or changes the constant buffer data for this transform.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/20641E91-15EB-4D64-AE36-DB83103B112E">SetResourceTexture</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1computeinfo-setresourcetexture">SetResourceTexture</a>
 </td>
 <td align="left" width="63%">
 Sets the resource texture corresponding to the given shader texture index to the given texture resource.

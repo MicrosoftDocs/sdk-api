@@ -76,19 +76,19 @@ A handle to the call that represents a connection to the destination of the tran
 ### -param htConfCall
 
 This parameter is only valid if <i>dwTransferMode</i> is specified as LINETRANSFERMODE_CONFERENCE. The service provider must save this parameter value and use it in all subsequent calls to the 
-<a href="https://msdn.microsoft.com/11ae7e78-8a10-4757-886b-c0aa47c4d55b">LINEEVENT</a> procedure reporting events on the call. Otherwise this parameter is ignored.
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-lineevent">LINEEVENT</a> procedure reporting events on the call. Otherwise this parameter is ignored.
 
 
 ### -param lphdConfCall
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/8bb1c3fe-a3de-4299-bc15-58321c5da549">HDRVCALL</a> representing the service provider's identifier for the call. This parameter is only valid if <i>dwTransferMode</i> is specified as LINETRANSFERMODE_CONFERENCE. The service provider must fill this location with its handle for the new conference call before returning from this function.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/hdrvline">HDRVCALL</a> representing the service provider's identifier for the call. This parameter is only valid if <i>dwTransferMode</i> is specified as LINETRANSFERMODE_CONFERENCE. The service provider must fill this location with its handle for the new conference call before returning from this function.
 
 
 ### -param dwTransferMode
 
 Specifies how the initiated transfer request is to be resolved. This parameter uses one of the 
-<a href="https://msdn.microsoft.com/0a01131f-b63c-45ef-a0a9-17d69a0dacf9">LINETRANSFERMODE_ constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linetransfermode--constants">LINETRANSFERMODE_ constants</a>.
 
 
 ## -returns
@@ -96,7 +96,7 @@ Specifies how the initiated transfer request is to be resolved. This parameter u
 
 
 Returns <i>dwRequestID</i> or an error number if an error occurs. The <i>lResult</i> actual parameter of the corresponding 
-<a href="https://msdn.microsoft.com/673c9d23-e380-49f7-bd06-23552634d5b9">ASYNC_COMPLETION</a> is zero if the function succeeds or an error number if an error occurs. Possible return values are as follows:
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> is zero if the function succeeds or an error number if an error occurs. Possible return values are as follows:
 
 LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALCALLSTATE, LINEERR_OPERATIONFAILED, LINEERR_NOMEM, LINEERR_RESOURCEUNAVAIL.
 
@@ -108,18 +108,18 @@ LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALCALLSTATE, LINEE
 
 
 This function completes the transfer of the original call, <i>hdCall</i>, to the party currently connected through <i>hdConsultCall</i>. The consultation call is typically dialed on the consultation call allocated as part of 
-<a href="https://msdn.microsoft.com/0cd95e53-62d5-4318-961a-1136646fd222">TSPI_lineSetupTransfer</a>, but it can be any call to which the switch is capable of transferring <i>hdCall</i>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetuptransfer">TSPI_lineSetupTransfer</a>, but it can be any call to which the switch is capable of transferring <i>hdCall</i>.
 
 The transfer request can be resolved either as a transfer or as a three-way conference call. When resolved as a transfer, the parties connected through <i>hdCall</i> and <i>hdConsultCall</i> are connected to each other, and both <i>hdCall</i> and <i>hdConsultCall</i> transition to the idle state.
 
 When resolved as a conference, all three parties enter into a conference call. Both existing call handles remain valid, but transition to the <i>conferenced</i> state. A conference call handle is created and returned, and it transitions to the <i>connected</i> state.
 
 It may also be possible to perform a blind transfer of a call using 
-<a href="https://msdn.microsoft.com/825f132c-fb0e-4e3d-bd2c-4e5226a30ba3">TSPI_lineBlindTransfer</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineblindtransfer">TSPI_lineBlindTransfer</a>.
 
 This function differs from the corresponding TAPI function in that it follows the TSPI model for beginning the lifetime of a call. TAPI and the service provider exchange opaque handles representing the call with one another. In addition, the service provider is permitted to do callbacks for the new call before it returns from this procedure. In any case, the service provider must also treat the handle it returned as "not yet valid" until after the matching 
-<a href="https://msdn.microsoft.com/673c9d23-e380-49f7-bd06-23552634d5b9">ASYNC_COMPLETION</a> message reports success. In other words, it must not issue any 
-<a href="https://msdn.microsoft.com/11ae7e78-8a10-4757-886b-c0aa47c4d55b">LINEEVENT</a> message for the new call or include it in call counts in messages or status data structures for the line.
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> message reports success. In other words, it must not issue any 
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-lineevent">LINEEVENT</a> message for the new call or include it in call counts in messages or status data structures for the line.
 
 
 
@@ -129,31 +129,31 @@ This function differs from the corresponding TAPI function in that it follows th
 
 
 
-<a href="https://msdn.microsoft.com/673c9d23-e380-49f7-bd06-23552634d5b9">ASYNC_COMPLETION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a>
 
 
 
-<a href="https://msdn.microsoft.com/11ae7e78-8a10-4757-886b-c0aa47c4d55b">LINEEVENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-lineevent">LINEEVENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/0a01131f-b63c-45ef-a0a9-17d69a0dacf9">LINETRANSFERMODE_ Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linetransfermode--constants">LINETRANSFERMODE_ Constants</a>
 
 
 
-<a href="https://msdn.microsoft.com/9070d6d2-f92c-4e07-8281-5b7e82862aaf">LINE_CALLSTATE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725219(v=vs.85)">LINE_CALLSTATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/825f132c-fb0e-4e3d-bd2c-4e5226a30ba3">TSPI_lineBlindTransfer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineblindtransfer">TSPI_lineBlindTransfer</a>
 
 
 
-<a href="https://msdn.microsoft.com/86f5490c-8401-4235-8ddd-313794bd5bf1">TSPI_lineCloseCall</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineclosecall">TSPI_lineCloseCall</a>
 
 
 
-<a href="https://msdn.microsoft.com/0cd95e53-62d5-4318-961a-1136646fd222">TSPI_lineSetupTransfer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetuptransfer">TSPI_lineSetupTransfer</a>
  
 
  

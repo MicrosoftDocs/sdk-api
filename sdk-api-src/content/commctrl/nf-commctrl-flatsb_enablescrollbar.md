@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Enables or disables one or both flat scroll bar direction buttons. If flat scroll bars are not initialized for the window, this function calls the standard <a href="https://msdn.microsoft.com/en-us/library/Bb787579(v=VS.85).aspx">EnableScrollBar</a> function. 
+Enables or disables one or both flat scroll bar direction buttons. If flat scroll bars are not initialized for the window, this function calls the standard <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enablescrollbar">EnableScrollBar</a> function. 
 
 
 ## -parameters
@@ -59,9 +59,9 @@ Enables or disables one or both flat scroll bar direction buttons. If flat scrol
 
 ### -param arg1
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://msdn.microsoft.com/en-us/library/Bb775443(v=VS.85).aspx">InitializeFlatSB</a>. 
+A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-initializeflatsb">InitializeFlatSB</a>. 
 
 
 ### -param arg2
@@ -111,7 +111,7 @@ Enables or disables the direction buttons on the vertical scroll bar.
 
 ### -param arg3
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A parameter that specifies whether the scroll bar arrows are enabled or disabled and indicates which arrows are enabled or disabled. It can be one of the following values: 
 
@@ -208,7 +208,7 @@ Enables both direction buttons on the specified scroll bar.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns nonzero if the scroll bar changes, or zero otherwise. 
 

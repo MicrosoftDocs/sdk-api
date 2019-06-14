@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DS_SPN_NAME_TYPE</b> enumeration is used by the <a href="https://msdn.microsoft.com/cbd53850-9b05-4f74-ab07-30dcad583fc5">DsGetSPN</a> function to identify the format for composing SPNs.
+The <b>DS_SPN_NAME_TYPE</b> enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsgetspna">DsGetSPN</a> function to identify the format for composing SPNs.
 
 
 ## -enum-fields
@@ -152,11 +152,11 @@ products.fabrikam.com
 
 
 
-<a href="https://msdn.microsoft.com/cbd53850-9b05-4f74-ab07-30dcad583fc5">DsGetSPN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsgetspna">DsGetSPN</a>
 
 
 
-<a href="https://msdn.microsoft.com/eafa3285-4474-4077-a6ad-b37f8211e7e6">Enumerations in Active Directory Domain Services</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/enumerations-in-active-directory-domain-services">Enumerations in Active Directory Domain Services</a>
  
 
  

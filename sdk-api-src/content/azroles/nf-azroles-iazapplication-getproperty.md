@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>GetProperty</b> method returns the <a href="https://msdn.microsoft.com/ea4a8a84-5003-44da-b75e-34da6bd898dd">IAzApplication</a> object property  with the specified property ID.
+The <b>GetProperty</b> method returns the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object property  with the specified property ID.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>GetProperty</b> method returns the <a href="https://msdn.microsoft.com/ea
 
 ### -param lPropId [in]
 
-Property ID of the <a href="https://msdn.microsoft.com/ea4a8a84-5003-44da-b75e-34da6bd898dd">IAzApplication</a> object property  to return. The following table shows the possible values.
+Property ID of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object property  to return. The following table shows the possible values.
 
 <table>
 <tr>
@@ -73,7 +73,7 @@ Property ID of the <a href="https://msdn.microsoft.com/ea4a8a84-5003-44da-b75e-3
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/d3dddd9c-a715-4697-bcca-ba12cead3b61">AuthzInterfaceClsid</a> property
+Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-get_authzinterfaceclsid">AuthzInterfaceClsid</a> property
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/d3dddd9c-a715-4697
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/7d7ec5c8-8032-437a-92b5-5c578deda6f9">ApplicationData</a> property
+Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-get_applicationdata">ApplicationData</a> property
 
 </td>
 </tr>
@@ -93,7 +93,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/7d7ec5c8-8032-437a
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/4fa03e8c-e039-465c-aca2-4b68b894eb29">Version</a> property
+Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-get_version">Version</a> property
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/4fa03e8c-e039-465c
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/722b0693-a11f-434a-a278-780619b0077a">ApplyStoreSacl</a> property
+Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-get_applystoresacl">ApplyStoreSacl</a> property
 
 </td>
 </tr>
@@ -123,7 +123,7 @@ Determines whether the current user has permission to create child objects. This
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/b20e1d5c-b07e-4f75-8b63-38036b07b24d">DelegatedPolicyUsers</a> property
+Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-get_delegatedpolicyusers">DelegatedPolicyUsers</a> property
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/b20e1d5c-b07e-4f75
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/ee18b86f-7ae2-4984-ac7a-3909eda647e3">DelegatedPolicyUsersName</a> property
+Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-get_delegatedpolicyusersname">DelegatedPolicyUsersName</a> property
 
 </td>
 </tr>
@@ -143,7 +143,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/ee18b86f-7ae2-4984
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/32ccf51c-b820-4819-9e19-135ed3a0581d">Description</a> property
+Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-get_description">Description</a> property
 
 </td>
 </tr>
@@ -153,7 +153,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/32ccf51c-b820-4819
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/c35f612e-4a2c-46b6-913a-26b0819394f4">GenerateAudits</a> property
+Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-get_generateaudits">GenerateAudits</a> property
 
 </td>
 </tr>
@@ -163,7 +163,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/c35f612e-4a2c-46b6
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/f94a902a-9187-486c-9442-6defa9893532">Name</a> property
+Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-get_name">Name</a> property
 
 </td>
 </tr>
@@ -173,7 +173,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/f94a902a-9187-486c
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/a0b66213-3dc7-4886-9c93-0d27d43a7d92">PolicyAdministrators</a> property
+Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-get_policyadministrators">PolicyAdministrators</a> property
 
 </td>
 </tr>
@@ -183,7 +183,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/a0b66213-3dc7-4886
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/fdabb04b-deb4-494a-bdde-264a301388b3">PolicyAdministratorsName</a> property
+Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-get_policyadministratorsname">PolicyAdministratorsName</a> property
 
 </td>
 </tr>
@@ -193,7 +193,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/fdabb04b-deb4-494a
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/7dcacc91-6327-4e6c-8aa0-06e7e0191a41">PolicyReaders</a> property
+Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-get_policyreaders">PolicyReaders</a> property
 
 </td>
 </tr>
@@ -203,7 +203,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/7dcacc91-6327-4e6c
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/e6ed4504-0df1-438b-87c7-1861264d02bd">PolicyReadersName</a> property
+Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-get_policyreadersname">PolicyReadersName</a> property
 
 </td>
 </tr>
@@ -213,7 +213,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/e6ed4504-0df1-438b
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/b7aacab4-e013-4649-9673-790dfaafffd9">Writable</a> property
+Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-get_writable">Writable</a> property
 
 </td>
 </tr>
@@ -228,7 +228,7 @@ Reserved for future use.
 
 ### -param pvarProp [out]
 
-A pointer to the returned <a href="https://msdn.microsoft.com/ea4a8a84-5003-44da-b75e-34da6bd898dd">IAzApplication</a> object property.
+A pointer to the returned <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object property.
 
 
 ## -returns

@@ -64,7 +64,7 @@ The <b>ENUMLOGFONTEX</b> structure contains information about an enumerated font
 
 ### -field elfLogFont
 
-A <a href="https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec145beb4">LOGFONT</a> structure that contains values defining the font attributes.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure that contains values defining the font attributes.
 
 
 ### -field elfFullName
@@ -87,23 +87,23 @@ The script, that is, the character set, of the font. For example, Cyrillic.
 
 
 
-<a href="https://msdn.microsoft.com/a4adad4c-ab6a-4adb-a1d3-fea3cfdbaf73">EnumFontFamExProc</a>
+<a href="https://docs.microsoft.com/previous-versions//dd162618(v=vs.85)">EnumFontFamExProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/4d70906d-8005-4c4a-869e-16dd3e6fa3f2">EnumFontFamiliesEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesexa">EnumFontFamiliesEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/93726d5c-d4ed-4681-bf45-cb899f195b5d">Font and Text Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/9944baa9-8e50-40b9-9650-78b0b1d7643a">Fonts and Text Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec145beb4">LOGFONT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a>
  
 
  

@@ -63,15 +63,15 @@ The <b>GetSnapshotProperties</b>
 ### -param SnapshotId [in]
 
 The identifier of the shadow copy of a volume as returned by 
-      <a href="https://msdn.microsoft.com/6c20e386-7cd8-45d9-92d6-96d0a458db50">IVssBackupComponents::AddToSnapshotSet</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addtosnapshotset">IVssBackupComponents::AddToSnapshotSet</a>.
      
 
 
 ### -param pProp [out]
 
-The address of a caller-allocated <a href="https://msdn.microsoft.com/070ec204-e751-4ebf-8f99-3c415f203cb2">VSS_SNAPSHOT_PROP</a> structure that receives 
+The address of a caller-allocated <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structure that receives 
       the shadow copy properties.
-      The software provider is responsible for setting the members of this structure. The software provider allocates memory for all string members  that it sets in the structure. When the structure is no longer needed, the software provider is responsible for freeing these strings by calling the <a href="https://msdn.microsoft.com/d5b5883b-03d5-4a83-af2e-f4d22e26ee82">VssFreeSnapshotProperties</a> function.
+      The software provider is responsible for setting the members of this structure. The software provider allocates memory for all string members  that it sets in the structure. When the structure is no longer needed, the software provider is responsible for freeing these strings by calling the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-vssfreesnapshotproperties">VssFreeSnapshotProperties</a> function.
 
 
 ## -returns
@@ -161,7 +161,7 @@ The specified shadow copy does not exist.
 </td>
 <td width="60%">
 Expected provider error. The provider logged the error in the event log. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
        
 
 </td>
@@ -174,7 +174,7 @@ Expected provider error. The provider logged the error in the event log. For mor
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -188,7 +188,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 <td width="60%">
 Unexpected provider error. The error code is logged in the error log. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event 
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event 
         and Error Handling Under VSS</a>.
        
 
@@ -204,9 +204,9 @@ Unexpected provider error. The error code is logged in the error log. For more i
 
 
 
-The caller should set the contents of the <a href="https://msdn.microsoft.com/070ec204-e751-4ebf-8f99-3c415f203cb2">VSS_SNAPSHOT_PROP</a> structure to zero before calling the <b>GetSnapshotProperties</b> method.
+The caller should set the contents of the <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structure to zero before calling the <b>GetSnapshotProperties</b> method.
 
-The provider is responsible for allocating and freeing the strings in the <a href="https://msdn.microsoft.com/070ec204-e751-4ebf-8f99-3c415f203cb2">VSS_SNAPSHOT_PROP</a> structure.
+The provider is responsible for allocating and freeing the strings in the <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structure.
 
 
 
@@ -216,27 +216,27 @@ The provider is responsible for allocating and freeing the strings in the <a hre
 
 
 
-<a href="https://msdn.microsoft.com/fe1220c7-11e5-4872-b7a9-61558f7c75c0">IVssBackupComponents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c20e386-7cd8-45d9-92d6-96d0a458db50">IVssBackupComponents::AddToSnapshotSet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addtosnapshotset">IVssBackupComponents::AddToSnapshotSet</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a0a6228-2131-48a6-8d18-9491969d265b">IVssBackupComponents::StartSnapshotSet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-startsnapshotset">IVssBackupComponents::StartSnapshotSet</a>
 
 
 
-<a href="https://msdn.microsoft.com/e64b36d6-4f10-42bd-9ad4-00aba90e9715">VSS_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/070ec204-e751-4ebf-8f99-3c415f203cb2">VSS_SNAPSHOT_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a>
 
 
 
-<a href="https://msdn.microsoft.com/d5b5883b-03d5-4a83-af2e-f4d22e26ee82">VssFreeSnapshotProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-vssfreesnapshotproperties">VssFreeSnapshotProperties</a>
  
 
  

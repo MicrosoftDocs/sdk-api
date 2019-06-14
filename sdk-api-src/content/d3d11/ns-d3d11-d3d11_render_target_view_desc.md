@@ -59,79 +59,79 @@ Specifies the subresources from a resource that are accessible using a render-ta
 
 ### -field Format
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a></b>
 
-The data format (see <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>).
+The data format (see <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>).
 
 
 ### -field ViewDimension
 
-Type: <b><a href="https://msdn.microsoft.com/42cbd3ec-fa8a-48ea-be88-bbe46db13566">D3D11_RTV_DIMENSION</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_rtv_dimension">D3D11_RTV_DIMENSION</a></b>
 
-The resource type (see <a href="https://msdn.microsoft.com/42cbd3ec-fa8a-48ea-be88-bbe46db13566">D3D11_RTV_DIMENSION</a>), which specifies how the render-target resource will be accessed.
+The resource type (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_rtv_dimension">D3D11_RTV_DIMENSION</a>), which specifies how the render-target resource will be accessed.
 
 
 ### -field Buffer
 
-Type: <b><a href="https://msdn.microsoft.com/979c69cf-f9b5-4b10-92ff-ad5245880802">D3D11_BUFFER_RTV</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_buffer_rtv">D3D11_BUFFER_RTV</a></b>
 
-Specifies which buffer elements can be accessed (see <a href="https://msdn.microsoft.com/979c69cf-f9b5-4b10-92ff-ad5245880802">D3D11_BUFFER_RTV</a>).
+Specifies which buffer elements can be accessed (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_buffer_rtv">D3D11_BUFFER_RTV</a>).
 
 
 ### -field Texture1D
 
-Type: <b><a href="https://msdn.microsoft.com/48b32ca3-39c4-437a-a4e5-468c9b52b425">D3D11_TEX1D_RTV</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex1d_rtv">D3D11_TEX1D_RTV</a></b>
 
-Specifies the subresources in a 1D texture that can be accessed (see <a href="https://msdn.microsoft.com/48b32ca3-39c4-437a-a4e5-468c9b52b425">D3D11_TEX1D_RTV</a>).
+Specifies the subresources in a 1D texture that can be accessed (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex1d_rtv">D3D11_TEX1D_RTV</a>).
 
 
 ### -field Texture1DArray
 
-Type: <b><a href="https://msdn.microsoft.com/cdb1c9e0-39a4-415e-a91f-05042b1f1b2d">D3D11_TEX1D_ARRAY_RTV</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex1d_array_rtv">D3D11_TEX1D_ARRAY_RTV</a></b>
 
-Specifies the subresources in a 1D texture array that can be accessed (see <a href="https://msdn.microsoft.com/cdb1c9e0-39a4-415e-a91f-05042b1f1b2d">D3D11_TEX1D_ARRAY_RTV</a>).
+Specifies the subresources in a 1D texture array that can be accessed (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex1d_array_rtv">D3D11_TEX1D_ARRAY_RTV</a>).
 
 
 ### -field Texture2D
 
-Type: <b><a href="https://msdn.microsoft.com/e0f24576-0767-461d-8dc3-b8822ea89fef">D3D11_TEX2D_RTV</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex2d_rtv">D3D11_TEX2D_RTV</a></b>
 
-Specifies the subresources in a 2D texture that can be accessed (see <a href="https://msdn.microsoft.com/e0f24576-0767-461d-8dc3-b8822ea89fef">D3D11_TEX2D_RTV</a>).
+Specifies the subresources in a 2D texture that can be accessed (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex2d_rtv">D3D11_TEX2D_RTV</a>).
 
 
 ### -field Texture2DArray
 
-Type: <b><a href="https://msdn.microsoft.com/5caecf26-707b-45f4-8296-784ed4184459">D3D11_TEX2D_ARRAY_RTV</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex2d_array_rtv">D3D11_TEX2D_ARRAY_RTV</a></b>
 
-Specifies the subresources in a 2D texture array that can be accessed (see <a href="https://msdn.microsoft.com/5caecf26-707b-45f4-8296-784ed4184459">D3D11_TEX2D_ARRAY_RTV</a>).
+Specifies the subresources in a 2D texture array that can be accessed (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex2d_array_rtv">D3D11_TEX2D_ARRAY_RTV</a>).
 
 
 ### -field Texture2DMS
 
-Type: <b><a href="https://msdn.microsoft.com/5414183c-4abf-4030-a148-ade5c9213635">D3D11_TEX2DMS_RTV</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex2dms_rtv">D3D11_TEX2DMS_RTV</a></b>
 
-Specifies a single subresource because a multisampled 2D texture only contains one subresource (see <a href="https://msdn.microsoft.com/5414183c-4abf-4030-a148-ade5c9213635">D3D11_TEX2DMS_RTV</a>).
+Specifies a single subresource because a multisampled 2D texture only contains one subresource (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex2dms_rtv">D3D11_TEX2DMS_RTV</a>).
 
 
 ### -field Texture2DMSArray
 
-Type: <b><a href="https://msdn.microsoft.com/ec08341c-980f-4d5f-8eb9-f41835105b46">D3D11_TEX2DMS_ARRAY_RTV</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex2dms_array_rtv">D3D11_TEX2DMS_ARRAY_RTV</a></b>
 
-Specifies the subresources in a multisampled 2D texture array that can be accessed (see <a href="https://msdn.microsoft.com/ec08341c-980f-4d5f-8eb9-f41835105b46">D3D11_TEX2DMS_ARRAY_RTV</a>).
+Specifies the subresources in a multisampled 2D texture array that can be accessed (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex2dms_array_rtv">D3D11_TEX2DMS_ARRAY_RTV</a>).
 
 
 ### -field Texture3D
 
-Type: <b><a href="https://msdn.microsoft.com/58a4b383-ad5d-4eb0-bff5-8825c3ae8dd1">D3D11_TEX3D_RTV</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex3d_rtv">D3D11_TEX3D_RTV</a></b>
 
-Specifies subresources in a 3D texture that can be accessed (see <a href="https://msdn.microsoft.com/58a4b383-ad5d-4eb0-bff5-8825c3ae8dd1">D3D11_TEX3D_RTV</a>).
+Specifies subresources in a 3D texture that can be accessed (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex3d_rtv">D3D11_TEX3D_RTV</a>).
 
 
 ## -remarks
 
 
 
-A render-target-view description is passed into <a href="https://msdn.microsoft.com/e757c959-f0ac-44c3-8226-b9f0b1c2a031">ID3D11Device::CreateRenderTargetView</a> to create a render target.
+A render-target-view description is passed into <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createrendertargetview">ID3D11Device::CreateRenderTargetView</a> to create a render target.
 
 A render-target-view cannot use the following formats:
 
@@ -149,7 +149,7 @@ If the format is set to DXGI_FORMAT_UNKNOWN, then the format of the resource tha
 
 
 
-<a href="https://msdn.microsoft.com/a29e01ac-8aa1-4a40-ad4d-3b738e129436">Resource Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-resource-structures">Resource Structures</a>
  
 
  

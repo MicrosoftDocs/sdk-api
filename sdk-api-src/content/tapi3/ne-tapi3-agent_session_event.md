@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>AGENT_SESSION_EVENT</b> enum describes agent session events. The 
-<a href="https://msdn.microsoft.com/34779590-c2f6-4bd7-932b-5ac6365bcb20">ITAgentSessionEvent::get_Event</a> method returns a member of this enum to indicate the type of agent session event that occurred.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagentsessionevent-get_event">ITAgentSessionEvent::get_Event</a> method returns a member of this enum to indicate the type of agent session event that occurred.
 
 
 ## -enum-fields
@@ -94,11 +94,11 @@ The session has completed.
 
 
 
-<a href="https://msdn.microsoft.com/34779590-c2f6-4bd7-932b-5ac6365bcb20">ITAgentSessionEvent::get_Event</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagentsessionevent-get_event">ITAgentSessionEvent::get_Event</a>
 
 
 
-<a href="https://msdn.microsoft.com/d0ea4f7a-7b50-4610-ae17-957c0c1891e1">ITCallNotificationEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallnotificationevent">ITCallNotificationEvent</a>
  
 
  

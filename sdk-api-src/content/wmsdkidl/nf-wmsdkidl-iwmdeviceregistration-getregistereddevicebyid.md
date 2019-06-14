@@ -81,12 +81,12 @@ The size of the certificate data in bytes.
 
 ### -param SerialNumber [in]
 
-128-bit device identifier, stored in a <a href="https://msdn.microsoft.com/en-us/library/Dd798047(v=VS.85).aspx">DRM_VAL16</a> structure.
+128-bit device identifier, stored in a <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_drm_val16">DRM_VAL16</a> structure.
 
 
 ### -param ppDevice [out]
 
-Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd743621(v=VS.85).aspx">IWMRegisteredDevice</a> interface. This interface provides access to information about the registered device in the list that matches the other identifying parameters.
+Address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistereddevice">IWMRegisteredDevice</a> interface. This interface provides access to information about the registered device in the list that matches the other identifying parameters.
 
 
 ## -returns
@@ -147,7 +147,7 @@ The specified device is not registered.
 
 
 
-When your application receives messages from a device, you can use the methods of the <a href="https://msdn.microsoft.com/en-us/library/Dd798321(v=VS.85).aspx">IWMDRMMessageParser</a> interface to extract the device certificate and device identifier. You can identify the device by using that data as inputs to this method.
+When your application receives messages from a device, you can use the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmmessageparser">IWMDRMMessageParser</a> interface to extract the device certificate and device identifier. You can identify the device by using that data as inputs to this method.
 
 The DRM_DEVICE_REGISTER_TYPE_STORAGE register type is defined, but is not used in this release.
 
@@ -159,7 +159,7 @@ The DRM_DEVICE_REGISTER_TYPE_STORAGE register type is defined, but is not used i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743357(v=VS.85).aspx">IWMDeviceRegistration Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdeviceregistration">IWMDeviceRegistration Interface</a>
  
 
  

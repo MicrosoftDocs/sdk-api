@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 The <b>ID3D10EffectVariable</b> interface is the base class for all effect variables.
 
-The lifetime of an <b>ID3D10EffectVariable</b> object is equal to the lifetime of its parent <a href="https://msdn.microsoft.com/en-us/library/Bb173630(v=VS.85).aspx">ID3D10Effect</a> object.
+The lifetime of an <b>ID3D10EffectVariable</b> object is equal to the lifetime of its parent <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effect">ID3D10Effect</a> object.
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul><h3><a id="methods"></a>Methods</h3>The <b>ID3D10EffectVariable</b> interface has these methods.
@@ -63,7 +63,7 @@ The lifetime of an <b>ID3D10EffectVariable</b> object is equal to the lifetime o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173725(v=VS.85).aspx">AsBlend</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asblend">AsBlend</a>
 </td>
 <td align="left" width="63%">
 Get a effect-blend variable.
@@ -72,7 +72,7 @@ Get a effect-blend variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173726(v=VS.85).aspx">AsConstantBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asconstantbuffer">AsConstantBuffer</a>
 </td>
 <td align="left" width="63%">
 Get a constant buffer.
@@ -81,7 +81,7 @@ Get a constant buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173727(v=VS.85).aspx">AsDepthStencil</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asdepthstencil">AsDepthStencil</a>
 </td>
 <td align="left" width="63%">
 Get a depth-stencil variable.
@@ -90,7 +90,7 @@ Get a depth-stencil variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb944007(v=VS.85).aspx">AsDepthStencilView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asdepthstencilview">AsDepthStencilView</a>
 </td>
 <td align="left" width="63%">
 Get a depth-stencil-view variable.
@@ -99,7 +99,7 @@ Get a depth-stencil-view variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173728(v=VS.85).aspx">AsMatrix</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asmatrix">AsMatrix</a>
 </td>
 <td align="left" width="63%">
 Get a matrix variable.
@@ -108,7 +108,7 @@ Get a matrix variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173729(v=VS.85).aspx">AsRasterizer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asrasterizer">AsRasterizer</a>
 </td>
 <td align="left" width="63%">
 Get a rasterizer variable.
@@ -117,7 +117,7 @@ Get a rasterizer variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb944008(v=VS.85).aspx">AsRenderTargetView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asrendertargetview">AsRenderTargetView</a>
 </td>
 <td align="left" width="63%">
 Get a render-target-view variable.
@@ -126,7 +126,7 @@ Get a render-target-view variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173730(v=VS.85).aspx">AsSampler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-assampler">AsSampler</a>
 </td>
 <td align="left" width="63%">
 Get a sampler variable.
@@ -135,7 +135,7 @@ Get a sampler variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173731(v=VS.85).aspx">AsScalar</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asscalar">AsScalar</a>
 </td>
 <td align="left" width="63%">
 Get a scalar variable.
@@ -144,7 +144,7 @@ Get a scalar variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173732(v=VS.85).aspx">AsShader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asshader">AsShader</a>
 </td>
 <td align="left" width="63%">
 Get a shader variable.
@@ -153,7 +153,7 @@ Get a shader variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173733(v=VS.85).aspx">AsShaderResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asshaderresource">AsShaderResource</a>
 </td>
 <td align="left" width="63%">
 Get a shader-resource variable.
@@ -162,7 +162,7 @@ Get a shader-resource variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173734(v=VS.85).aspx">AsString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asstring">AsString</a>
 </td>
 <td align="left" width="63%">
 Get a string variable.
@@ -171,7 +171,7 @@ Get a string variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173735(v=VS.85).aspx">AsVector</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asvector">AsVector</a>
 </td>
 <td align="left" width="63%">
 Get a vector variable.
@@ -180,7 +180,7 @@ Get a vector variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173736(v=VS.85).aspx">GetAnnotationByIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-getannotationbyindex">GetAnnotationByIndex</a>
 </td>
 <td align="left" width="63%">
 Get an annotation by index.
@@ -189,7 +189,7 @@ Get an annotation by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173737(v=VS.85).aspx">GetAnnotationByName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-getannotationbyname">GetAnnotationByName</a>
 </td>
 <td align="left" width="63%">
 Get an annotation by name.
@@ -198,7 +198,7 @@ Get an annotation by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173738(v=VS.85).aspx">GetDesc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-getdesc">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Get a description.
@@ -207,7 +207,7 @@ Get a description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173739(v=VS.85).aspx">GetElement</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-getelement">GetElement</a>
 </td>
 <td align="left" width="63%">
 Get an array element.
@@ -216,7 +216,7 @@ Get an array element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173740(v=VS.85).aspx">GetMemberByIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-getmemberbyindex">GetMemberByIndex</a>
 </td>
 <td align="left" width="63%">
 Get a structure member by index.
@@ -225,7 +225,7 @@ Get a structure member by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173741(v=VS.85).aspx">GetMemberByName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-getmemberbyname">GetMemberByName</a>
 </td>
 <td align="left" width="63%">
 Get a structure member by name.
@@ -234,7 +234,7 @@ Get a structure member by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173742(v=VS.85).aspx">GetMemberBySemantic</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-getmemberbysemantic">GetMemberBySemantic</a>
 </td>
 <td align="left" width="63%">
 Get a structure member by semantic.
@@ -243,7 +243,7 @@ Get a structure member by semantic.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173743(v=VS.85).aspx">GetParentConstantBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-getparentconstantbuffer">GetParentConstantBuffer</a>
 </td>
 <td align="left" width="63%">
 Get a constant buffer.
@@ -252,7 +252,7 @@ Get a constant buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173744(v=VS.85).aspx">GetRawValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-getrawvalue">GetRawValue</a>
 </td>
 <td align="left" width="63%">
 Get data.
@@ -261,7 +261,7 @@ Get data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173745(v=VS.85).aspx">GetType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-gettype">GetType</a>
 </td>
 <td align="left" width="63%">
 Get type information.
@@ -270,7 +270,7 @@ Get type information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173746(v=VS.85).aspx">IsValid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-isvalid">IsValid</a>
 </td>
 <td align="left" width="63%">
 Compare the data type with the data stored.
@@ -279,7 +279,7 @@ Compare the data type with the data stored.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173747(v=VS.85).aspx">SetRawValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-setrawvalue">SetRawValue</a>
 </td>
 <td align="left" width="63%">
 Set data.
@@ -299,7 +299,7 @@ The <b>ID3D10EffectVariable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173725(v=VS.85).aspx">AsBlend</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asblend">AsBlend</a>
 </td>
 <td align="left" width="63%">
 Get a effect-blend variable.
@@ -308,7 +308,7 @@ Get a effect-blend variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173726(v=VS.85).aspx">AsConstantBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asconstantbuffer">AsConstantBuffer</a>
 </td>
 <td align="left" width="63%">
 Get a constant buffer.
@@ -317,7 +317,7 @@ Get a constant buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173727(v=VS.85).aspx">AsDepthStencil</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asdepthstencil">AsDepthStencil</a>
 </td>
 <td align="left" width="63%">
 Get a depth-stencil variable.
@@ -326,7 +326,7 @@ Get a depth-stencil variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb944007(v=VS.85).aspx">AsDepthStencilView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asdepthstencilview">AsDepthStencilView</a>
 </td>
 <td align="left" width="63%">
 Get a depth-stencil-view variable.
@@ -335,7 +335,7 @@ Get a depth-stencil-view variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173728(v=VS.85).aspx">AsMatrix</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asmatrix">AsMatrix</a>
 </td>
 <td align="left" width="63%">
 Get a matrix variable.
@@ -344,7 +344,7 @@ Get a matrix variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173729(v=VS.85).aspx">AsRasterizer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asrasterizer">AsRasterizer</a>
 </td>
 <td align="left" width="63%">
 Get a rasterizer variable.
@@ -353,7 +353,7 @@ Get a rasterizer variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb944008(v=VS.85).aspx">AsRenderTargetView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asrendertargetview">AsRenderTargetView</a>
 </td>
 <td align="left" width="63%">
 Get a render-target-view variable.
@@ -362,7 +362,7 @@ Get a render-target-view variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173730(v=VS.85).aspx">AsSampler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-assampler">AsSampler</a>
 </td>
 <td align="left" width="63%">
 Get a sampler variable.
@@ -371,7 +371,7 @@ Get a sampler variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173731(v=VS.85).aspx">AsScalar</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asscalar">AsScalar</a>
 </td>
 <td align="left" width="63%">
 Get a scalar variable.
@@ -380,7 +380,7 @@ Get a scalar variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173732(v=VS.85).aspx">AsShader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asshader">AsShader</a>
 </td>
 <td align="left" width="63%">
 Get a shader variable.
@@ -389,7 +389,7 @@ Get a shader variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173733(v=VS.85).aspx">AsShaderResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asshaderresource">AsShaderResource</a>
 </td>
 <td align="left" width="63%">
 Get a shader-resource variable.
@@ -398,7 +398,7 @@ Get a shader-resource variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173734(v=VS.85).aspx">AsString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asstring">AsString</a>
 </td>
 <td align="left" width="63%">
 Get a string variable.
@@ -407,7 +407,7 @@ Get a string variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173735(v=VS.85).aspx">AsVector</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asvector">AsVector</a>
 </td>
 <td align="left" width="63%">
 Get a vector variable.
@@ -416,7 +416,7 @@ Get a vector variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173736(v=VS.85).aspx">GetAnnotationByIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-getannotationbyindex">GetAnnotationByIndex</a>
 </td>
 <td align="left" width="63%">
 Get an annotation by index.
@@ -425,7 +425,7 @@ Get an annotation by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173737(v=VS.85).aspx">GetAnnotationByName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-getannotationbyname">GetAnnotationByName</a>
 </td>
 <td align="left" width="63%">
 Get an annotation by name.
@@ -434,7 +434,7 @@ Get an annotation by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173738(v=VS.85).aspx">GetDesc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-getdesc">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Get a description.
@@ -443,7 +443,7 @@ Get a description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173739(v=VS.85).aspx">GetElement</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-getelement">GetElement</a>
 </td>
 <td align="left" width="63%">
 Get an array element.
@@ -452,7 +452,7 @@ Get an array element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173740(v=VS.85).aspx">GetMemberByIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-getmemberbyindex">GetMemberByIndex</a>
 </td>
 <td align="left" width="63%">
 Get a structure member by index.
@@ -461,7 +461,7 @@ Get a structure member by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173741(v=VS.85).aspx">GetMemberByName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-getmemberbyname">GetMemberByName</a>
 </td>
 <td align="left" width="63%">
 Get a structure member by name.
@@ -470,7 +470,7 @@ Get a structure member by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173742(v=VS.85).aspx">GetMemberBySemantic</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-getmemberbysemantic">GetMemberBySemantic</a>
 </td>
 <td align="left" width="63%">
 Get a structure member by semantic.
@@ -479,7 +479,7 @@ Get a structure member by semantic.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173743(v=VS.85).aspx">GetParentConstantBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-getparentconstantbuffer">GetParentConstantBuffer</a>
 </td>
 <td align="left" width="63%">
 Get a constant buffer.
@@ -488,7 +488,7 @@ Get a constant buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173744(v=VS.85).aspx">GetRawValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-getrawvalue">GetRawValue</a>
 </td>
 <td align="left" width="63%">
 Get data.
@@ -497,7 +497,7 @@ Get data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173745(v=VS.85).aspx">GetType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-gettype">GetType</a>
 </td>
 <td align="left" width="63%">
 Get type information.
@@ -506,7 +506,7 @@ Get type information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173746(v=VS.85).aspx">IsValid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-isvalid">IsValid</a>
 </td>
 <td align="left" width="63%">
 Compare the data type with the data stored.
@@ -515,7 +515,7 @@ Compare the data type with the data stored.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173747(v=VS.85).aspx">SetRawValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-setrawvalue">SetRawValue</a>
 </td>
 <td align="left" width="63%">
 Set data.
@@ -580,7 +580,7 @@ Set data.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205178(v=VS.85).aspx">Effect Interfaces (Direct3D 10)</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-effect-interfaces">Effect Interfaces (Direct3D 10)</a>
  
 
  

@@ -62,37 +62,37 @@ Produces an absolute URL from a specified URL reference (absolute or relative UR
 
 ### -param baseUrl [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/2e771c56-4a07-4c8e-92c1-ffcbf74cd1aa">WS_STRING</a> structure containing an absolute URL in encoded format.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-listener">WS_STRING</a> structure containing an absolute URL in encoded format.
                 
 
 
 ### -param referenceUrl [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/2e771c56-4a07-4c8e-92c1-ffcbf74cd1aa">WS_STRING</a> structure  containing an absolute or relative URL in encoded format.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-listener">WS_STRING</a> structure  containing an absolute or relative URL in encoded format.
                 
 
 
 ### -param flags [in]
 
-Controls the  format of the resulting URL.  For more information, see <a href="https://msdn.microsoft.com/b74c22fd-35b1-4d7b-974d-8ff7fff07813">WS_URL_FLAGS</a>.
+Controls the  format of the resulting URL.  For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_12">WS_URL_FLAGS</a>.
 
 
 ### -param heap [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/1866f54f-26fc-4889-a88f-0d298a418bdc">WS_HEAP</a> object from which the memory for the resulting URL is allocated.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-heap">WS_HEAP</a> object from which the memory for the resulting URL is allocated.
                 
 
 
 ### -param resultUrl [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/2e771c56-4a07-4c8e-92c1-ffcbf74cd1aa">WS_STRING</a> structure that receives the resulting URL.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-listener">WS_STRING</a> structure that receives the resulting URL.
                 This is an absolute URL in encoded format.
                 
 
 
 ### -param error [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> structure  that receives additional error information if the function fails.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
                 
 
 
@@ -167,7 +167,7 @@ If the reference URL is absolute, it is returned unchanged, if the specified fla
             If the reference URL is relative, it is combined with the base URL before being returned.
             
 
-Only the schemes listed in <a href="https://msdn.microsoft.com/e8763719-6ba0-4e5e-bb71-625d36a45eaf">WS_URL_SCHEME_TYPE</a> are supported.
+Only the schemes listed in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_url_scheme_type">WS_URL_SCHEME_TYPE</a> are supported.
             
 
 

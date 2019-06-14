@@ -108,7 +108,7 @@ Pointer to an AVI stream interface to use in the preview window. You must specif
 
 ### -param pc
 
-Pointer to a <a href="https://msdn.microsoft.com/b34378cb-ccf0-4d97-a952-1966999e3f65">COMPVARS</a> structure. The information returned initializes the structure for use with other functions.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-compvars">COMPVARS</a> structure. The information returned initializes the structure for use with other functions.
 
 
 ### -param lpszTitle
@@ -129,7 +129,7 @@ Returns <b>TRUE</b> if the user chooses a compressor and presses OK. Returns <b>
 
 
 
-Before using this function, set the <b>cbSize</b> member of the <a href="https://msdn.microsoft.com/b34378cb-ccf0-4d97-a952-1966999e3f65">COMPVARS</a> structure to the size of the structure. Initialize the rest of the structure to zeros unless you want to specify some valid defaults for the dialog box. If specifying defaults, set the <i>dwFlags</i> member to ICMF_COMPVARS_VALID and initialize the other members of the structure. For more information about initializing the structure, see the <a href="https://msdn.microsoft.com/90103468-fcdc-4c40-b328-29fe467b9039">ICSeqCompressFrameStart</a> function and <b>COMPVARS</b>.
+Before using this function, set the <b>cbSize</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-compvars">COMPVARS</a> structure to the size of the structure. Initialize the rest of the structure to zeros unless you want to specify some valid defaults for the dialog box. If specifying defaults, set the <i>dwFlags</i> member to ICMF_COMPVARS_VALID and initialize the other members of the structure. For more information about initializing the structure, see the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icseqcompressframestart">ICSeqCompressFrameStart</a> function and <b>COMPVARS</b>.
 
 
 
@@ -139,11 +139,11 @@ Before using this function, set the <b>cbSize</b> member of the <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/193961a5-b882-4769-bce7-a53d625fc9dd">Video Compression Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-functions">Video Compression Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/df876309-68d3-43a3-9d83-6fdb8f345fdc">Video Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
  
 
  

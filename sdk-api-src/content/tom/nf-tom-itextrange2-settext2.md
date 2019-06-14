@@ -119,7 +119,7 @@ The new text.
 
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -171,7 +171,7 @@ Insufficient memory.
 
 If the <i>bstr</i> parameter is <b>NULL</b>, the text in the range is deleted. 
 
-This method is similar to <a href="https://msdn.microsoft.com/en-us/library/Bb787831(v=VS.85).aspx">ITextRange:: SetText</a>, but lets the client specify flags that control various insertion options, including the special flag <b>tomLanguageTag</b> to get the BCP-47 language tag for the range. This is an industry standard language tag that may be preferable to <a href="https://msdn.microsoft.com/en-us/library/Bb774167(v=VS.85).aspx">ITextFont::SetLanguageID</a>, which uses a language code identifier (LCID).
+This method is similar to <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-settext">ITextRange:: SetText</a>, but lets the client specify flags that control various insertion options, including the special flag <b>tomLanguageTag</b> to get the BCP-47 language tag for the range. This is an industry standard language tag that may be preferable to <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setlanguageid">ITextFont::SetLanguageID</a>, which uses a language code identifier (LCID).
 
 
 
@@ -181,11 +181,11 @@ This method is similar to <a href="https://msdn.microsoft.com/en-us/library/Bb78
 
 
 
-<a href="https://msdn.microsoft.com/905f0967-8b99-45ed-a1cc-19d49e919a65">ITextRange2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
 
 
 
-<a href="https://msdn.microsoft.com/77f39808-b39d-45bb-ba03-3a27d503fe0e">ITextRange2::GetText2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-gettext2">ITextRange2::GetText2</a>
  
 
  

@@ -59,9 +59,9 @@ Binds to a handler for an item as specified by the handler ID value (BHID).
 
 ### -param pbc
 
-Type: <b><a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a> interface on a bind context object. Used to pass optional parameters to the handler. The contents of the bind context are handler-specific. For example, when binding to <b>BHID_Stream</b>, the <a href="https://msdn.microsoft.com/15a35da9-332a-46e1-9190-500c95e26f59">STGM</a> flags in the bind context indicate the mode of access desired (read or read/write).
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> interface on a bind context object. Used to pass optional parameters to the handler. The contents of the bind context are handler-specific. For example, when binding to <b>BHID_Stream</b>, the <a href="https://docs.microsoft.com/windows/desktop/Stg/stgm-constants">STGM</a> flags in the bind context indicate the mode of access desired (read or read/write).
 
 
 ### -param bhid
@@ -74,19 +74,19 @@ Reference to a GUID that specifies which handler will be created. One of the fol
 
 #### BHID_SFObject
 
-Restricts usage to <a href="https://msdn.microsoft.com/5e699494-1974-4b9b-8324-9394f7b96fe4">BindToObject</a>.
+Restricts usage to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-bindtoobject">BindToObject</a>.
 
 
 
 #### BHID_SFUIObject
 
-Restricts usage to <a href="https://msdn.microsoft.com/ec863dbf-8ec9-4952-8912-575125e6dd09">GetUIObjectOf</a>.
+Restricts usage to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getuiobjectof">GetUIObjectOf</a>.
 
 
 
 #### BHID_SFViewObject
 
-Restricts usage to <a href="https://msdn.microsoft.com/8a1b73ad-6719-403a-a8aa-27bef537b7a9">CreateViewObject</a>.
+Restricts usage to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-createviewobject">CreateViewObject</a>.
 
 
 
@@ -98,73 +98,73 @@ Attempts to retrieve the storage RIID, but defaults to Shell implementation on f
 
 #### BHID_Stream
 
-Restricts usage to <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>.
+Restricts usage to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>.
 
 
 
 #### BHID_LinkTargetItem
 
-CLSID_ShellItem is initialized with the target of this item (can only be SFGAO_LINK). See <a href="https://msdn.microsoft.com/3864b386-7653-4661-880c-e96c08ff0dbb">GetAttributesOf</a> for a description of SFGAO_LINK.
+CLSID_ShellItem is initialized with the target of this item (can only be SFGAO_LINK). See <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">GetAttributesOf</a> for a description of SFGAO_LINK.
 
 
 
 #### BHID_StorageEnum
 
-If the item is a folder, gets an <a href="https://msdn.microsoft.com/07aed597-359f-4f4b-9edf-168c15bdc58e">IEnumShellItems</a> object with which to enumerate the storage contents.
+If the item is a folder, gets an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumshellitems">IEnumShellItems</a> object with which to enumerate the storage contents.
 
 
 
 #### BHID_Transfer
 
-<b>Introduced in Windows Vista</b>: If the item is a folder, gets an <a href="https://msdn.microsoft.com/341966d4-f9cf-457d-97ef-8e6107544283">ITransferSource</a> or <a href="https://msdn.microsoft.com/8d0049e0-e227-40ae-a282-cdc17f227e24">ITransferDestination</a> object.
+<b>Introduced in Windows Vista</b>: If the item is a folder, gets an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransfersource">ITransferSource</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferdestination">ITransferDestination</a> object.
 
 
 
 #### BHID_PropertyStore
 
-<b>Introduced in Windows Vista</b>: Restricts usage to <a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a> or <a href="https://msdn.microsoft.com/78ea822d-da8e-4883-b0eb-4277e7eb87a2">IPropertyStoreFactory</a>.
+<b>Introduced in Windows Vista</b>: Restricts usage to <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> or <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystorefactory">IPropertyStoreFactory</a>.
 
 
 
 #### BHID_ThumbnailHandler
 
-<b>Introduced in Windows Vista</b>: Restricts usage to <a href="https://msdn.microsoft.com/28a13749-89e7-407e-89cb-95464859ce3e">IExtractImage</a> or <a href="https://msdn.microsoft.com/55c4739a-4835-4f53-a435-804ddf06ffcf">IThumbnailProvider</a>.
+<b>Introduced in Windows Vista</b>: Restricts usage to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage">IExtractImage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/nn-thumbcache-ithumbnailprovider">IThumbnailProvider</a>.
 
 
 
 #### BHID_EnumItems
 
-<b>Introduced in Windows Vista</b>: If the item is a folder, gets an <a href="https://msdn.microsoft.com/07aed597-359f-4f4b-9edf-168c15bdc58e">IEnumShellItems</a> object that enumerates all items in the folder. This includes folders, nonfolders, and hidden items.
+<b>Introduced in Windows Vista</b>: If the item is a folder, gets an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumshellitems">IEnumShellItems</a> object that enumerates all items in the folder. This includes folders, nonfolders, and hidden items.
 
 
 
 #### BHID_DataObject
 
-<b>Introduced in Windows Vista</b>: Gets an <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> object for use with an item or an array of items.
+<b>Introduced in Windows Vista</b>: Gets an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object for use with an item or an array of items.
 
 
 
 #### BHID_AssociationArray
 
-<b>Introduced in Windows Vista</b>: Gets an <a href="https://msdn.microsoft.com/8edb99d3-5860-4d78-a750-1df34cdfc313">IQueryAssociations</a> object for use with an item or an array of items.
+<b>Introduced in Windows Vista</b>: Gets an <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a> object for use with an item or an array of items.
 
 
 
 #### BHID_Filter
 
-<b>Introduced in Windows Vista</b>: Restricts usage to <a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a>.
+<b>Introduced in Windows Vista</b>: Restricts usage to <a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>.
 
 
 
 #### BHID_EnumAssocHandlers
 
-<b>Introduced in Windows 7</b>: Gets an <a href="https://msdn.microsoft.com/c8b11157-4d00-4ab1-aea5-ce8ae35c43ce">IEnumAssocHandlers</a> object used to enumerate the recommended association handlers for the given item.
+<b>Introduced in Windows 7</b>: Gets an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumassochandlers">IEnumAssocHandlers</a> object used to enumerate the recommended association handlers for the given item.
 
 
 
 #### BHID_RandomAccessStream
 
-<b>Introduced in Windows 8</b>: Gets an <a href="https://msdn.microsoft.com/en-us/library/Hh438400(v=VS.85).aspx">IRandomAccessStream</a> object for the item.
+<b>Introduced in Windows 8</b>: Gets an <a href="https://docs.microsoft.com/previous-versions//hh438400(v=vs.85)">IRandomAccessStream</a> object for the item.
 
 
 
@@ -203,11 +203,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>
 
 
 
-<a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>
  
 
  

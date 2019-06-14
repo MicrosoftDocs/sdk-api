@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Commits object data members to the underlying data store if the <a href="https://msdn.microsoft.com/f73e3013-e060-45bc-987c-d41cd01beef7">IWdsTransportCacheable::Dirty</a> property has been set. Otherwise, the method returns with no action.
+Commits object data members to the underlying data store if the <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportcacheable-get_dirty">IWdsTransportCacheable::Dirty</a> property has been set. Otherwise, the method returns with no action.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Commits object data members to the underlying data store if the <a href="https:/
 
 
 
-Upon successful completion, this method clears the <a href="https://msdn.microsoft.com/f73e3013-e060-45bc-987c-d41cd01beef7">Dirty</a> property.
+Upon successful completion, this method clears the <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportcacheable-get_dirty">Dirty</a> property.
 
 
 
@@ -75,7 +75,7 @@ Upon successful completion, this method clears the <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/2245d198-056c-467f-aae7-b1bb02f188e2">IWdsTransportCacheable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportcacheable">IWdsTransportCacheable</a>
  
 
  

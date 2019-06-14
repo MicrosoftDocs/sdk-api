@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Destroys an instance of a <a href="https://msdn.microsoft.com/8062BFAB-4A68-4ED4-B82F-0D1FF9E81733">CD3D11_UNORDERED_ACCESS_VIEW_DESC</a> structure.
+Destroys an instance of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151712(v=vs.85)">CD3D11_UNORDERED_ACCESS_VIEW_DESC</a> structure.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Destroys an instance of a <a href="https://msdn.microsoft.com/8062BFAB-4A68-4ED4
 
 
 
-<a href="https://msdn.microsoft.com/8062BFAB-4A68-4ED4-B82F-0D1FF9E81733">CD3D11_UNORDERED_ACCESS_VIEW_DESC</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151712(v=vs.85)">CD3D11_UNORDERED_ACCESS_VIEW_DESC</a>
  
 
  

@@ -79,7 +79,7 @@ Handle to a property sheet page.
 
 #### - lParam
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 Application-defined 32-bit value.
 
@@ -88,7 +88,7 @@ Application-defined 32-bit value.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
@@ -99,7 +99,7 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 
-<div class="alert"><b>Note</b>  This function is not supported when using the Aero wizard style (<a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PSH_AEROWIZARD</a>).</div>
+<div class="alert"><b>Note</b>  This function is not supported when using the Aero wizard style (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetheadera_v2">PSH_AEROWIZARD</a>).</div>
 <div> </div>
 
 

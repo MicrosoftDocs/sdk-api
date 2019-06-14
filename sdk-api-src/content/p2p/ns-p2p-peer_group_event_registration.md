@@ -60,7 +60,7 @@ The <b>PEER_GROUP_EVENT_REGISTRATION</b> structure defines the particular peer g
 ### -field eventType
 
 
-<a href="https://msdn.microsoft.com/9c28eb24-f158-4313-9a7c-0f271013d03a">PEER_GROUP_EVENT_TYPE</a> that specifies the peer group event type to register for.
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_group_event_type_tag">PEER_GROUP_EVENT_TYPE</a> that specifies the peer group event type to register for.
 
 
 ### -field pType
@@ -75,11 +75,11 @@ This member is only populated (not NULL) when <b>eventType</b> is either PEER_GR
 
 
 
-<a href="https://msdn.microsoft.com/9c28eb24-f158-4313-9a7c-0f271013d03a">PEER_GROUP_EVENT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_group_event_type_tag">PEER_GROUP_EVENT_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4dc100a-d3dc-408e-a425-bded11d04db5">PeerGroupRegisterEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupregisterevent">PeerGroupRegisterEvent</a>
  
 
  

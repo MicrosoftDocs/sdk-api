@@ -66,16 +66,16 @@ A value of type <b>GUID</b> that specifies the service being offered.
 
 ### -param psp [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Cc678965(v=VS.85).aspx">IServiceProvider</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678965(v=vs.85)">IServiceProvider</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/Cc678965(v=VS.85).aspx">IServiceProvider</a> interface.
+A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678965(v=vs.85)">IServiceProvider</a> interface.
 
 
 ### -param pdwCookie [out]
 
 Type: <b>DWORD*</b>
 
-A pointer to a <b>DWORD</b> that receives an implementation-defined value used for identification purposes. The calling application must keep track of this value for possible use in <a href="https://msdn.microsoft.com/90868bbb-6fcd-4de1-a853-524542b74701">IProfferService::RevokeService</a>.
+A pointer to a <b>DWORD</b> that receives an implementation-defined value used for identification purposes. The calling application must keep track of this value for possible use in <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iprofferservice-revokeservice">IProfferService::RevokeService</a>.
 
 
 ## -returns
@@ -94,15 +94,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/91aa5f9a-c276-4822-93e1-9cd2c48ddd9f">IProfferService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iprofferservice">IProfferService</a>
 
 
 
-<a href="https://msdn.microsoft.com/90868bbb-6fcd-4de1-a853-524542b74701">IProfferService::RevokeService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iprofferservice-revokeservice">IProfferService::RevokeService</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Cc678965(v=VS.85).aspx">IServiceProvider</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678965(v=vs.85)">IServiceProvider</a>
  
 
  

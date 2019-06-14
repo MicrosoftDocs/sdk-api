@@ -150,7 +150,7 @@ If the function fails in some other way, the return value should be an appropria
 
 The DLL that implements 
 <b>RasEapInvokeConfigUI</b> and 
-<a href="https://msdn.microsoft.com/d6eb6afd-0d92-4050-b6a9-7bd90788e01c">RasEapFreeMemory</a> may support more than one authentication protocol. The <i>dwEapTypeId</i> parameter specifies for which protocol to invoke the configuration UI.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapfreememory">RasEapFreeMemory</a> may support more than one authentication protocol. The <i>dwEapTypeId</i> parameter specifies for which protocol to invoke the configuration UI.
 
 RAS stores the connection data returned by 
 <b>RasEapInvokeConfigUI</b> in the phone-book entry for the connection on the client computer.
@@ -163,27 +163,27 @@ RAS stores the connection data returned by
 
 
 
-<a href="https://msdn.microsoft.com/956a7ad6-1fd5-4938-aa2f-4de646dfd6c2">Client-Side Configuration User Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/client-side-configuration-user-interface">Client-Side Configuration User Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/090a3620-3732-4466-95ac-ce9cbdd36484">EAP Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/eap-functions">EAP Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d3cb25ce-6fb9-4fca-8662-3efef14238a5">Extensible Authentication Protocol Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/extensible-authentication-protocol-reference">Extensible Authentication Protocol Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/d6eb6afd-0d92-4050-b6a9-7bd90788e01c">RasEapFreeMemory</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapfreememory">RasEapFreeMemory</a>
 
 
 
-<a href="https://msdn.microsoft.com/66bc34d2-54b9-46eb-b952-6ad66868c8ce">RasEapGetIdentity</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapgetidentity">RasEapGetIdentity</a>
 
 
 
-<a href="https://msdn.microsoft.com/71dd40c9-acbd-4fb6-800d-d3f83a61b7b8">RasEapInvokeInteractiveUI</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapinvokeinteractiveui">RasEapInvokeInteractiveUI</a>
  
 
  

@@ -143,7 +143,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The language-independent command name, or <i>verb</i>, is a name that can be passed to the <a href="https://msdn.microsoft.com/f3aaa84c-3b33-4288-a46a-cd80d3fa89cf">IContextMenu::InvokeCommand</a> method to activate a command by an application. The help text is a description of the command that Windows Explorer displays in its status bar. It should be reasonably short (under 40 characters).
+The language-independent command name, or <i>verb</i>, is a name that can be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand">IContextMenu::InvokeCommand</a> method to activate a command by an application. The help text is a description of the command that Windows Explorer displays in its status bar. It should be reasonably short (under 40 characters).
 
 Several common verbs can be identified by their canonical name, for instance, <i>open</i>, <i>print</i>, <i>delete</i>, and <i>rename</i>. Clients can compare the string pointed to by <i>pszName</i> against these canonical names to check for their presence on the shortcut menu.
 

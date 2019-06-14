@@ -232,12 +232,12 @@ A pointer to one or more string attribute values.
 
 ### -field Values.pFqbn
 
-A pointer to one or more <a href="https://msdn.microsoft.com/05b4bf7d-a0d9-473c-b215-9cf566b2a996">AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE</a> structures.
+A pointer to one or more <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_security_attribute_fqbn_value">AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE</a> structures.
 
 
 ### -field Values.pOctetString
 
-A pointer to one or more <a href="https://msdn.microsoft.com/en-us/library/Dd401614(v=VS.85).aspx">AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a> structures.
+A pointer to one or more <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_security_attribute_octet_string_value">AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a> structures.
 
 
 ## -see-also
@@ -245,11 +245,11 @@ A pointer to one or more <a href="https://msdn.microsoft.com/en-us/library/Dd401
 
 
 
-<a href="https://msdn.microsoft.com/1db95ab0-951f-488c-b522-b3f38fc74c7c">AUTHZ_SECURITY_ATTRIBUTES_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_security_attributes_information">AUTHZ_SECURITY_ATTRIBUTES_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/d84873e2-ecfe-45cf-9048-7ed173117efa">AuthzModifySecurityAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzmodifysecurityattributes">AuthzModifySecurityAttributes</a>
  
 
  

@@ -144,15 +144,15 @@ Comments (any line that starts with a semicolon) are stripped out and not return
 
 
 
-<a href="https://msdn.microsoft.com/f5d8593d-d086-4a28-b067-be3806ba78c3">GetPrivateProfileSectionNames</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprivateprofilesectionnames">GetPrivateProfileSectionNames</a>
 
 
 
-<a href="https://msdn.microsoft.com/cc90811b-5e7b-4c75-987b-57f36a9408c5">GetProfileSection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprofilesectiona">GetProfileSection</a>
 
 
 
-<a href="https://msdn.microsoft.com/23f9e012-4196-437a-9e22-0524b37505b4">WritePrivateProfileSection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeprivateprofilesectiona">WritePrivateProfileSection</a>
  
 
  

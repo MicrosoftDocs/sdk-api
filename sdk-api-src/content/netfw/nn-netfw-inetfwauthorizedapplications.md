@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="https://msdn.microsoft.com/8F33B96B-AA9A-46d5-8808-0F2D0723935B">Windows Firewall with Advanced Security</a> API is recommended.]
+<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
 
 The <b>INetFwAuthorizedApplications</b> interface provides access to a collection of applications authorized open ports in the
 firewall.
@@ -58,7 +58,7 @@ firewall.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwAuthorizedApplications</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>INetFwAuthorizedApplications</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwAuthorizedApplications</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetFwAuthorizedApplications</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -74,7 +74,7 @@ The <b>INetFwAuthorizedApplications</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f69f906d-0d7b-4f45-9bf0-fd1b031e3492">Add</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwauthorizedapplications-add">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a new application  to  the collection.
@@ -83,7 +83,7 @@ Adds a new application  to  the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c0ac9311-64a4-44cb-a0d3-6986f4de6b94">get__NewEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwauthorizedapplications-get__newenum">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the collection.
@@ -92,7 +92,7 @@ Retrieves an enumerator for the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6b0cc653-d5be-42af-ac8b-551b961550da">get_Count</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwauthorizedapplications-get_count">get_Count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the contents of the Count property.
@@ -101,7 +101,7 @@ Retrieves the contents of the Count property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3c9eac16-9ba5-43f6-b52e-4340598745d8">Item</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwauthorizedapplications-item">Item</a>
 </td>
 <td align="left" width="63%">
 Returns the specified application if present in the collection.
@@ -110,7 +110,7 @@ Returns the specified application if present in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7c4e7d3f-6ab2-46f9-a5a0-f2901a8b5734">Remove</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwauthorizedapplications-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an application  from the collection.
@@ -127,7 +127,7 @@ Removes an application  from the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c0ac9311-64a4-44cb-a0d3-6986f4de6b94">_NewEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwauthorizedapplications-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -139,7 +139,7 @@ Gets an enumerator for the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/6b0cc653-d5be-42af-ac8b-551b961550da">Count</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwauthorizedapplications-get_count">Count</a>
 
 
 </td>
@@ -156,7 +156,7 @@ Gets the count for the collection.
 
 
 An instance of this interface is retrieved through the
-<a href="https://msdn.microsoft.com/230f7dc0-6afd-4355-a02c-92343d3e10cd">AuthorizedApplications</a> property of the INetFwProfile interface. 
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwprofile-get_authorizedapplications">AuthorizedApplications</a> property of the INetFwProfile interface. 
 
 All
 configuration changes take effect immediately.
@@ -169,19 +169,19 @@ configuration changes take effect immediately.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/694bbff5-003d-4dde-9a85-f81ca29e6208">INetFwProfile</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwprofile">INetFwProfile</a>
 
 
 
-<a href="https://msdn.microsoft.com/230f7dc0-6afd-4355-a02c-92343d3e10cd">INetFwProfile.AuthorizedApplications</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwprofile-get_authorizedapplications">INetFwProfile.AuthorizedApplications</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

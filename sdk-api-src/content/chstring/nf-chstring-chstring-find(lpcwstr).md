@@ -52,13 +52,13 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> class 
+<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
-The <a href="https://msdn.microsoft.com/98a7c5ad-5bc7-4918-b978-45d2b439f250">Find</a> method searches a string for the first match of a substring.
+The <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-find">Find</a> method searches a string for the first match of a substring.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ A substring that the method searches for.
 
 
 
-If the <a href="https://msdn.microsoft.com/98a7c5ad-5bc7-4918-b978-45d2b439f250">Find</a> method is successful, it returns the zero-based index of the first character in this <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> string that matches the requested substring or characters. If the substring or character is not found, the method returns a value of -1.
+If the <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-find">Find</a> method is successful, it returns the zero-based index of the first character in this <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> string that matches the requested substring or characters. If the substring or character is not found, the method returns a value of -1.
 
 
 
@@ -84,7 +84,7 @@ If the <a href="https://msdn.microsoft.com/98a7c5ad-5bc7-4918-b978-45d2b439f250"
 
 
 
-The <a href="https://msdn.microsoft.com/98a7c5ad-5bc7-4918-b978-45d2b439f250">Find</a> method is overloaded to accept both single characters (similar to the runtime function, wcschr) and strings (similar to the runtime function, wcsstr).
+The <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-find">Find</a> method is overloaded to accept both single characters (similar to the runtime function, wcschr) and strings (similar to the runtime function, wcsstr).
 
 
 #### Examples
@@ -107,15 +107,15 @@ assert( s.Find( L"de" ) == 3 );
 
 
 
-<a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a>
 
 
 
-<a href="https://msdn.microsoft.com/f3f9111d-9191-4ba5-877a-736e11d0a168">CHString::FindOneOf</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-findoneof">CHString::FindOneOf</a>
 
 
 
-<a href="https://msdn.microsoft.com/941c9eb3-a5b8-42b7-bb9f-732eaf1faa24">CHString::ReverseFind</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-reversefind">CHString::ReverseFind</a>
  
 
  

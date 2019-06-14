@@ -51,9 +51,9 @@ req.redist:
 Specifies parameters for the offload write operation. An offload write operation is 
     initiated by specifying <b>DeviceDsmAction_OffloadWrite</b> in the 
     <b>Action</b> member of the 
-    <a href="https://msdn.microsoft.com/328902b7-97e3-40dc-9771-f5e64ccf3364">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> 
     structure passed in a 
-    <a href="https://msdn.microsoft.com/48e797ec-dad2-4a9e-9ccd-aaa65ece8da4">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
     control code.
 
 
@@ -80,7 +80,7 @@ The starting offset to copy from the range bound to the token
 ### -field Token
 
 
-<a href="https://msdn.microsoft.com/e33550d6-8d98-4fbb-8e61-d309f0e8e867">STORAGE_OFFLOAD_TOKEN</a> structure containing 
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_offload_token">STORAGE_OFFLOAD_TOKEN</a> structure containing 
       the token returned from the offload read operation.
 
 
@@ -89,19 +89,19 @@ The starting offset to copy from the range bound to the token
 
 
 
-<a href="https://msdn.microsoft.com/328902b7-97e3-40dc-9771-f5e64ccf3364">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/85ebbdca-94a0-4467-8d15-ee3a850e1cd9">Device Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/device-management-structures">Device Management Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/48e797ec-dad2-4a9e-9ccd-aaa65ece8da4">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/e33550d6-8d98-4fbb-8e61-d309f0e8e867">STORAGE_OFFLOAD_TOKEN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_offload_token">STORAGE_OFFLOAD_TOKEN</a>
  
 
  

@@ -81,7 +81,7 @@ Data type of a performance counter.
 
 
 
-These flags are an output parameter in <a href="https://msdn.microsoft.com/b09feac6-79c8-4f40-bfa1-028d4490b039">ID3D11Device::CheckCounter</a>.
+These flags are an output parameter in <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-checkcounter">ID3D11Device::CheckCounter</a>.
 
 
 
@@ -91,7 +91,7 @@ These flags are an output parameter in <a href="https://msdn.microsoft.com/b09fe
 
 
 
-<a href="https://msdn.microsoft.com/1641713a-5ac8-4597-900b-1bba54f9f522">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-enums">Core Enumerations</a>
  
 
  

@@ -78,7 +78,7 @@ Returns S_OK if successful, or an <b>HRESULT</b> error code otherwise.
 
 
 
-Use this method to determine whether the WM ASF Writer is currently configured to write indexed ASF files. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd312030(v=VS.85).aspx">IConfigAsfWriter::SetIndexMode</a>.
+Use this method to determine whether the WM ASF Writer is currently configured to write indexed ASF files. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter-setindexmode">IConfigAsfWriter::SetIndexMode</a>.
 
 
 
@@ -88,15 +88,15 @@ Use this method to determine whether the WM ASF Writer is currently configured t
 
 
 
-<a href="https://msdn.microsoft.com/dffda43a-5831-4889-864f-81351b9e2bb3">Creating ASF Files in DirectShow</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/creating-asf-files-in-directshow">Creating ASF Files in DirectShow</a>
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd312017(v=VS.85).aspx">IConfigAsfWriter Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter">IConfigAsfWriter Interface</a>
  
 
  

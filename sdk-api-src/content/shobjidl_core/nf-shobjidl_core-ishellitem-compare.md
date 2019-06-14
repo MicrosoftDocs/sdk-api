@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Compares two <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a> objects.
+Compares two <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> objects.
 
 
 ## -parameters
@@ -59,16 +59,16 @@ Compares two <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736ee
 
 ### -param psi
 
-Type: <b><a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a> object to compare with the existing <b>IShellItem</b> object.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> object to compare with the existing <b>IShellItem</b> object.
 
 
 ### -param hint
 
-Type: <b><a href="https://msdn.microsoft.com/4d333302-5be3-4e8d-9018-e42729df0cc3">SICHINTF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_sichintf">SICHINTF</a></b>
 
-One of the <a href="https://msdn.microsoft.com/4d333302-5be3-4e8d-9018-e42729df0cc3">SICHINTF</a> values that determines how to perform the comparison. See <b>SICHINTF</b> for the list of possible values for this parameter.
+One of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_sichintf">SICHINTF</a> values that determines how to perform the comparison. See <b>SICHINTF</b> for the list of possible values for this parameter.
 
 
 ### -param piOrder
@@ -109,11 +109,11 @@ typedef DWORD SICHINTF;
 
 
 
-<a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>
 
 
 
-<a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>
  
 
  

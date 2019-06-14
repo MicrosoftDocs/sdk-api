@@ -68,9 +68,9 @@ Retrieves the name and status of each service that depends on the specified serv
 ### -param hService [in]
 
 A handle to the service. This handle is returned by the 
-<a href="https://msdn.microsoft.com/e0a42613-95ad-4d0f-a464-c6df33014064">OpenService</a> or 
-<a href="https://msdn.microsoft.com/47288924-3294-4a50-b27d-7df80d5c957c">CreateService</a> function, and it must have the <b>SERVICE_ENUMERATE_DEPENDENTS</b> access right. For more information, see 
-<a href="https://msdn.microsoft.com/23d1c382-6ba4-49e2-8039-c2a91471076c">Service Security and Access Rights</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> function, and it must have the <b>SERVICE_ENUMERATE_DEPENDENTS</b> access right. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>.
 
 
 ### -param dwServiceState [in]
@@ -122,11 +122,11 @@ Combines the following states: <b>SERVICE_ACTIVE</b> and <b>SERVICE_INACTIVE</b>
 ### -param lpServices [out, optional]
 
 A pointer to an array of 
-<a href="https://msdn.microsoft.com/b088bd94-5d25-44a7-93c0-80ce6588b811">ENUM_SERVICE_STATUS</a> structures that receives the name and service status information for each dependent service in the database. The buffer must be large enough to hold the structures, plus the strings to which their members point.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_enum_service_statusa">ENUM_SERVICE_STATUS</a> structures that receives the name and service status information for each dependent service in the database. The buffer must be large enough to hold the structures, plus the strings to which their members point.
 
 The order of the services in this array is the reverse of the start order of the services. In other words, the first service in the array is the one that would be started last, and the last service in the array is the one that would be started first.
 
-The maximum size of this array is 64,000 bytes. To determine the required size, specify <b>NULL</b> for this parameter and 0 for the <i>cbBufSize</i> parameter. The function will fail and <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> will return <b>ERROR_MORE_DATA</b>. The <i>pcbBytesNeeded</i> parameter will receive the required size.
+The maximum size of this array is 64,000 bytes. To determine the required size, specify <b>NULL</b> for this parameter and 0 for the <i>cbBufSize</i> parameter. The function will fail and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return <b>ERROR_MORE_DATA</b>. The <i>pcbBytesNeeded</i> parameter will receive the required size.
 
 
 ### -param cbBufSize [in]
@@ -151,7 +151,7 @@ A pointer to a variable that receives the number of service entries returned.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following error codes may be set by the service control manager. Other error codes may be set by the registry functions that are called by the service control manager.
 
@@ -220,7 +220,7 @@ The returned services entries are ordered in the reverse order of the start orde
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/fe16d2a8-3e66-49cc-b9c7-fffbc206e8d3">Stopping a Service</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Services/stopping-a-service">Stopping a Service</a>.
 
 <div class="code"></div>
 
@@ -231,27 +231,27 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/47288924-3294-4a50-b27d-7df80d5c957c">CreateService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a>
 
 
 
-<a href="https://msdn.microsoft.com/b088bd94-5d25-44a7-93c0-80ce6588b811">ENUM_SERVICE_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_enum_service_statusa">ENUM_SERVICE_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/7d7940c3-b562-455f-9a21-6d5fb5953030">EnumServicesStatusEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-enumservicesstatusexa">EnumServicesStatusEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/e0a42613-95ad-4d0f-a464-c6df33014064">OpenService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a>
 
 
 
-<a href="https://msdn.microsoft.com/63666848-cbac-4853-8b91-89303f9854c0">Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Services/service-functions">Service Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/554b9983-4e49-4b11-b420-a4754123d854">Service Installation, Removal, and Enumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/Services/service-installation-removal-and-enumeration">Service Installation, Removal, and Enumeration</a>
  
 
  

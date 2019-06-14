@@ -52,7 +52,7 @@ Given a file handle, retrieves a data structure that describes the allocation an
     file, or, given a volume handle, the locations of bad clusters on a volume.
 
 To perform this operation, call the 
-    <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following 
+    <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following 
     parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -158,7 +158,7 @@ On supported file systems, the <b>FSCTL_GET_RETRIEVAL_POINTERS</b> operation ret
 The <b>FSCTL_GET_RETRIEVAL_POINTERS</b> control code also supports the alternate functionality of locating bad clusters. To query for the locations of bad clusters on a volume formatted with NTFS, FAT, or exFAT, use a volume handle as the <i>hDevice</i> parameter. This functionality is supported only on NTFS, FAT, and exFAT, and the caller must have <b>MANAGE_VOLUME_ACCESS</b> permission to the volume.
 
 For the implications of overlapped I/O on this operation, see the Remarks section of the 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> topic.
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> topic.
 
 In Windows 8 and Windows Server 2012, this code is supported by the following technologies.
 
@@ -218,47 +218,47 @@ Yes
 
 
 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/27ccaab7-ec89-489b-80dc-df9beb7969bc">Defragmentation</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/defragmenting-files">Defragmentation</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/488a7d32-cbb5-4f32-9655-0aca8ac69640">Disk Management Control Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes">Disk Management Control Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/17925fe8-ab5a-4bfb-8d9e-cd574c024107">FSCTL_GET_RETRIEVAL_POINTER_BASE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_retrieval_pointer_base">FSCTL_GET_RETRIEVAL_POINTER_BASE</a>
 
 
 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a>
 
 
 
-<a href="https://msdn.microsoft.com/8121a38b-0fe1-43b8-aed6-4b85af1feba9">GetQueuedCompletionStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
 
 
 
-<a href="https://msdn.microsoft.com/ce6ac9c7-6fce-4019-83cf-2f0250d12339">RETRIEVAL_POINTERS_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-retrieval_pointers_buffer">RETRIEVAL_POINTERS_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/b07668f9-b984-41cc-9545-8f4f9bff3682">STARTING_VCN_INPUT_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-starting_vcn_input_buffer">STARTING_VCN_INPUT_BUFFER</a>
  
 
  

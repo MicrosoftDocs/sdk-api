@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Releases the hold on the buffer after the <a href="https://msdn.microsoft.com/9A155107-1C43-49C2-BA92-4CBF37AEF4DB">GetBuffer</a> method is  called.
+Releases the hold on the buffer after the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiaudiostream-getbuffer">GetBuffer</a> method is  called.
 
 
 
@@ -75,7 +75,7 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the return v
 
 
 
-<a href="https://msdn.microsoft.com/B2BC04A1-DE22-4543-9F10-33B0B99E0F92">IRDPSRAPIAudioStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiaudiostream">IRDPSRAPIAudioStream</a>
  
 
  

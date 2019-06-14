@@ -71,7 +71,7 @@ Indicates a request for the file handle of a virtual channel that can be used fo
 
 
 
-For an example that shows the use of the WTSVirtualFileHandle value, see <a href="https://msdn.microsoft.com/68ae8174-d72b-4b1c-b8e9-ae5fed51d385">WTSVirtualChannelQuery</a>. This example shows how to gain access to a virtual channel file handle that can be used for asynchronous I/O.
+For an example that shows the use of the WTSVirtualFileHandle value, see <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelquery">WTSVirtualChannelQuery</a>. This example shows how to gain access to a virtual channel file handle that can be used for asynchronous I/O.
 
 
 
@@ -81,7 +81,7 @@ For an example that shows the use of the WTSVirtualFileHandle value, see <a href
 
 
 
-<a href="https://msdn.microsoft.com/68ae8174-d72b-4b1c-b8e9-ae5fed51d385">WTSVirtualChannelQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelquery">WTSVirtualChannelQuery</a>
  
 
  

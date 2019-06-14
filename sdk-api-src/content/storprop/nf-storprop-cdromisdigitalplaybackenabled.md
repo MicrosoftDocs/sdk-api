@@ -85,9 +85,9 @@ If the function succeeds the return value is <b>ERROR_SUCCESS</b>. Otherwise, it
 
 
 
-To enable digital playback for the specified CD-ROM or DVD drive, use the <a href="https://msdn.microsoft.com/a50a0c9a-21f3-4d55-97c3-144f5835b6af">CdromEnableDigitalPlayback</a> function. To disable digital playback for the specified CD-ROM or DVD drive, use the <a href="https://msdn.microsoft.com/289812ac-cec1-4ccc-b4ef-146b19a26ebd">CdromDisableDigitalPlayback</a> function. 
+To enable digital playback for the specified CD-ROM or DVD drive, use the <a href="https://docs.microsoft.com/windows/desktop/api/storprop/nf-storprop-cdromenabledigitalplayback">CdromEnableDigitalPlayback</a> function. To disable digital playback for the specified CD-ROM or DVD drive, use the <a href="https://docs.microsoft.com/windows/desktop/api/storprop/nf-storprop-cdromdisabledigitalplayback">CdromDisableDigitalPlayback</a> function. 
 
-This function has no associated import library. You must use the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> functions to dynamically link to StorProp.dll.
+This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to StorProp.dll.
 
 
 
@@ -97,15 +97,15 @@ This function has no associated import library. You must use the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/289812ac-cec1-4ccc-b4ef-146b19a26ebd">CdromDisableDigitalPlayback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/storprop/nf-storprop-cdromdisabledigitalplayback">CdromDisableDigitalPlayback</a>
 
 
 
-<a href="https://msdn.microsoft.com/a50a0c9a-21f3-4d55-97c3-144f5835b6af">CdromEnableDigitalPlayback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/storprop/nf-storprop-cdromenabledigitalplayback">CdromEnableDigitalPlayback</a>
 
 
 
-<a href="https://msdn.microsoft.com/3918ba49-1549-4f0c-b9fd-303ef46b810e">Device Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/device-management-functions">Device Management Functions</a>
  
 
  

@@ -67,11 +67,11 @@ This property is read-only.
 
 
 
-<div class="alert"><b>Note</b>  The array of Bezier control points that the <a href="https://msdn.microsoft.com/76bb749d-76cd-4c40-add3-4065d46ed6cb">BezierPoints</a> property returns are made up of x and y values. The <b>BezierCusps</b> property refers only to the x values in this array. The y values can be retrieved by an action similar to the following below.</div>
+<div class="alert"><b>Note</b>  The array of Bezier control points that the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_bezierpoints">BezierPoints</a> property returns are made up of x and y values. The <b>BezierCusps</b> property refers only to the x values in this array. The y values can be retrieved by an action similar to the following below.</div>
 <div> </div>
 A cusp is a point on the stroke where the direction of writing changes in a discontinuous fashion. For example, if the stroke represents the capital letter "L", this property returns three cusps: two corresponding to the first and last control points on the stroke and the third representing the corner of the "L".
 
-The following code extracts the x and y values of the Bezier cusps of an <a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp</a>, <code>theStroke</code>, and stores them in a two-dimensional array called <code>BezierCuspValues</code>.
+The following code extracts the x and y values of the Bezier cusps of an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a>, <code>theStroke</code>, and stores them in a two-dimensional array called <code>BezierCuspValues</code>.
 
 
 
@@ -81,11 +81,11 @@ The following code extracts the x and y values of the Bezier cusps of an <a href
 
 
 
-<a href="https://msdn.microsoft.com/76bb749d-76cd-4c40-add3-4065d46ed6cb">BezierPoints Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_bezierpoints">BezierPoints Property</a>
 
 
 
-<a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
  
 
  

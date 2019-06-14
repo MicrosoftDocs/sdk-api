@@ -55,7 +55,7 @@ This topic applies to Windows Vista and later.
 
 
 
-The <b>GetTunerStatus</b> method returns the current status of the most recent call to <a href="https://msdn.microsoft.com/35ed1b43-020e-4baa-9f15-eb316d9a137b">PerformExhaustiveScan</a>.
+The <b>GetTunerStatus</b> method returns the current status of the most recent call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iscanningtunerex-performexhaustivescan">PerformExhaustiveScan</a>.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ Receives the estimated number of seconds remaining for the scan to complete.
 
 ### -param CurrentLockType [out]
 
-Receives a member of the <a href="https://msdn.microsoft.com/657dfd46-b01c-41aa-af0c-0d07235f15fc">TunerLockType</a> enumeration, indicating how well the tuner locked onto a signal.
+Receives a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tunerlocktype">TunerLockType</a> enumeration, indicating how well the tuner locked onto a signal.
 
 
 ### -param AutoDetect [out]
@@ -106,7 +106,7 @@ While the scan is in progress, the application can use this method to estimate t
 
 
 
-<a href="https://msdn.microsoft.com/3f89173a-d24b-400c-a229-28efb7a703be">IScanningTunerEx Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iscanningtunerex">IScanningTunerEx Interface</a>
  
 
  

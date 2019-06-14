@@ -56,7 +56,7 @@ ms.custom: 19H1
 
 
 Appends one string to another.
-<div class="alert"><b>Warning</b>  Do not use. Consider using <a href="https://msdn.microsoft.com/en-us/library/ms647518(v=VS.85).aspx">StringCchCat</a> instead. See Security Considerations. </div><div> </div>
+<div class="alert"><b>Warning</b>  Do not use. Consider using <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcata">StringCchCat</a> instead. See Security Considerations. </div><div> </div>
 
 ## -parameters
 
@@ -106,51 +106,51 @@ If the function fails, the return value is <b>NULL</b>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647495(v=VS.85).aspx">StringCbCat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcata">StringCbCat</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647496(v=VS.85).aspx">StringCbCatEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcatexa">StringCbCatEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647497(v=VS.85).aspx">StringCbCatN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcatna">StringCbCatN</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647498(v=VS.85).aspx">StringCbCatNEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcatnexa">StringCbCatNEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647518(v=VS.85).aspx">StringCchCat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcata">StringCchCat</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647520(v=VS.85).aspx">StringCchCatEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcatexa">StringCchCatEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647522(v=VS.85).aspx">StringCchCatN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcatna">StringCchCatN</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647524(v=VS.85).aspx">StringCchCatNEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcatnexa">StringCchCatNEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/strings">Strings</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647488(v=VS.85).aspx">lstrcmp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcmpa">lstrcmp</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647489(v=VS.85).aspx">lstrcmpi</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcmpia">lstrcmpi</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647492(v=VS.85).aspx">lstrlen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrlena">lstrlen</a>
  
 
  

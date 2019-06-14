@@ -118,13 +118,13 @@ Specifies a FOURCC code. Valid values include NV12, YV12, YUY2, UYVY, IMC1, IMC2
 
 ### -field InputSampleFreq
 
-A <a href="https://msdn.microsoft.com/fb4c094a-2760-45b2-b494-a44d5493987f">VMRFrequency</a> structure that specifies the input frequency. For NTSC TV, the frequency would be expressed as 30,000:1001.
+A <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_vmrfrequency">VMRFrequency</a> structure that specifies the input frequency. For NTSC TV, the frequency would be expressed as 30,000:1001.
 
 
 ### -field OutputFrameFreq
 
 A 
-              <a href="https://msdn.microsoft.com/fb4c094a-2760-45b2-b494-a44d5493987f">VMRFrequency</a> structure that specifies the output frequency. For NTSC TV, the frequency would be expressed as 60,000:1001.
+              <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_vmrfrequency">VMRFrequency</a> structure that specifies the output frequency. For NTSC TV, the frequency would be expressed as 60,000:1001.
 
 
 ## -see-also
@@ -132,7 +132,7 @@ A
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
  
 
  

@@ -63,7 +63,7 @@ Called when the media processor is about to deliver an input sample to a pipelin
 
 ### -param pNode [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/01d7eb7c-a3d3-4924-a8ec-a67e9dc17424">IMFTopologyNode</a> interface of the topology node that represents the pipeline component.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a> interface of the topology node that represents the pipeline component.
 
 
 ### -param lInputIndex [in]
@@ -73,7 +73,7 @@ Index of the input stream on the topology node.
 
 ### -param pSample [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/b1c3758c-5133-41ee-b991-ae99d0296ccc">IMFSample</a> interface of the input sample.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> interface of the input sample.
 
 
 ## -returns
@@ -118,7 +118,7 @@ This method is called for every sample passing through every pipeline component.
 
 
 
-<a href="https://msdn.microsoft.com/66781a1f-7469-4222-9e99-6b1415830f4c">IMFQualityManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfqualitymanager">IMFQualityManager</a>
  
 
  

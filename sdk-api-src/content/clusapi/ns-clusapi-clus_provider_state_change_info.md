@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains data about the state of a <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">provider</a> resource.
+Contains data about the state of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/p-gly">provider</a> resource.
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ The size of this structure including the provider name and the terminating null 
 
 ### -field resourceState
 
-An enumerator from the <a href="https://msdn.microsoft.com/bd5dee18-a06f-4e46-a27e-c907b1c25a68">CLUSTER_RESOURCE_STATE</a> enumeration as its value.  The following are the possible values for this member.
+An enumerator from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_state">CLUSTER_RESOURCE_STATE</a> enumeration as its value.  The following are the possible values for this member.
 
 
 
@@ -88,7 +88,7 @@ The resource is not operational.
 
 #### ClusterResourceFailed (4)
 
-The resource has <a href="https://msdn.microsoft.com/en-us/library/Aa369590(v=VS.85).aspx">failed</a>.
+The resource has <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/f-gly">failed</a>.
 
 
 
@@ -105,7 +105,7 @@ The resource is in the process of going offline.
 
 ### -field szProviderId
 
-The globally unique ID of the provider resource. This value can also be passed to the <i>lpszResourceName</i> parameter of the <a href="https://msdn.microsoft.com/c699cb00-b999-45b8-b9db-570150e1a65e">OpenClusterResource</a> function instead of a resource's name.
+The globally unique ID of the provider resource. This value can also be passed to the <i>lpszResourceName</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusterresource">OpenClusterResource</a> function instead of a resource's name.
 
 
 ## -see-also
@@ -113,15 +113,15 @@ The globally unique ID of the provider resource. This value can also be passed t
 
 
 
-<a href="https://msdn.microsoft.com/bd5dee18-a06f-4e46-a27e-c907b1c25a68">CLUSTER_RESOURCE_STATE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_state">CLUSTER_RESOURCE_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3ad7c34-0c8a-4f03-8e5c-b57802c493f0">Data Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/c699cb00-b999-45b8-b9db-570150e1a65e">OpenClusterResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusterresource">OpenClusterResource</a>
  
 
  

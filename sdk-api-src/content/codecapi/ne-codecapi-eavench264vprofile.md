@@ -146,9 +146,9 @@ UC Constrained high profile. H.264 extension.
 
 
 
-These values are used with the <a href="https://msdn.microsoft.com/8c6a68cb-d976-4099-8934-064f0e8f6374">MF_MT_MPEG2_PROFILE</a> attribute.
+These values are used with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-mpeg2-profile-attribute">MF_MT_MPEG2_PROFILE</a> attribute.
 
-These values are also used with <a href="https://msdn.microsoft.com/B3D500DF-1FD4-4D7C-B6F8-8DE4B957ED5C">H.264 UVC 1.5 camera encoders</a>.
+These values are also used with <a href="https://docs.microsoft.com/windows/desktop/medfound/camera-encoder-h264-uvc-1-5">H.264 UVC 1.5 camera encoders</a>.
 
 
 
@@ -158,7 +158,7 @@ These values are also used with <a href="https://msdn.microsoft.com/B3D500DF-1FD
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

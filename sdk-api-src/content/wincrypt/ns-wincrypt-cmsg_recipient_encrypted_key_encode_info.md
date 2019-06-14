@@ -64,21 +64,21 @@ The size, in bytes, of this data structure.
 
 ### -field RecipientPublicKey
 
-A <a href="https://msdn.microsoft.com/6f102ff3-bfff-4415-a5d8-ca2c226074b3">CRYPT_BIT_BLOB</a> structure that contains the recipient's public key.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_bit_blob">CRYPT_BIT_BLOB</a> structure that contains the recipient's public key.
 
 
 ### -field RecipientId
 
-The <a href="https://msdn.microsoft.com/9e33f661-c365-4725-8c3f-27b6cdd9a84e">CERT_ID</a> that identifies a message recipient's public key. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_id">CERT_ID</a> that identifies a message recipient's public key. 
 					
 
 
 ### -field Date
 
-Optional <b>FILETIME</b>. Applicable only if the <a href="https://msdn.microsoft.com/9e33f661-c365-4725-8c3f-27b6cdd9a84e">CERT_ID</a> identifies the receiver's public key with a KEY_IDENTIFIER.
+Optional <b>FILETIME</b>. Applicable only if the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_id">CERT_ID</a> identifies the receiver's public key with a KEY_IDENTIFIER.
 
 
 ### -field pOtherAttr
 
-Optional. Pointer to a <a href="https://msdn.microsoft.com/84057581-d0a9-464a-9399-ba806e37516f">CRYPT_ATTRIBUTE_TYPE_VALUE</a>. Applicable only if the CERT_ID identifies the receiver's public key with a KEY_IDENTIFIER.
+Optional. Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_attribute_type_value">CRYPT_ATTRIBUTE_TYPE_VALUE</a>. Applicable only if the CERT_ID identifies the receiver's public key with a KEY_IDENTIFIER.
 

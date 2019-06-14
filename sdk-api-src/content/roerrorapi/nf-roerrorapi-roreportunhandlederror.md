@@ -61,7 +61,7 @@ Triggers the Global Error Handler when an unhandled exception occurs.
 
 ### -param pRestrictedErrorInfo [in]
 
-The error to report. Call the <a href="https://msdn.microsoft.com/CA459E57-90D5-44F6-A896-4E1C2FA0DC57">GetRestrictedErrorInfo</a> function to get the <a href="https://msdn.microsoft.com/1af8d4bf-1217-44ca-b0dd-9a6feda16100">IRestrictedErrorInfo</a> that represents the error.
+The error to report. Call the <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-getrestrictederrorinfo">GetRestrictedErrorInfo</a> function to get the <a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a> that represents the error.
 
 
 ## -returns
@@ -87,7 +87,7 @@ The <b>RoReportUnhandledError</b> function enables language projections to trigg
 
 
 
-<a href="https://msdn.microsoft.com/CA459E57-90D5-44F6-A896-4E1C2FA0DC57">GetRestrictedErrorInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-getrestrictederrorinfo">GetRestrictedErrorInfo</a>
 
 
 

@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 
-The <b>IMSVidTuner</b> interface manages tuning devices. It is exposed by the <a href="https://msdn.microsoft.com/a29f2bb1-650e-43f8-8949-b3944c54a9e1">MSVidBDATunerDevice</a> object, which represents Broadcast Driver Architecture (BDA)-compliant tuning devices. Non-BDA analog tuners expose the <a href="https://msdn.microsoft.com/en-us/library/Dd694420(v=VS.85).aspx">IMSVidAnalogTuner</a> interface, which inherits from this interface.
+The <b>IMSVidTuner</b> interface manages tuning devices. It is exposed by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidbdatunerdevice">MSVidBDATunerDevice</a> object, which represents Broadcast Driver Architecture (BDA)-compliant tuning devices. Non-BDA analog tuners expose the <a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidanalogtuner">IMSVidAnalogTuner</a> interface, which inherits from this interface.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidTuner</b> interface inherits from <a href="https://msdn.microsoft.com/cbc687b1-826d-4738-8d0a-a7b90f5ff20d">IMSVidVideoInputDevice</a>. <b>IMSVidTuner</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidTuner</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideoinputdevice">IMSVidVideoInputDevice</a>. <b>IMSVidTuner</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMSVidTuner</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694707(v=VS.85).aspx">get_Tune</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidtuner-get_tune">get_Tune</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current tune request.
@@ -81,7 +81,7 @@ Retrieves the current tune request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694708(v=VS.85).aspx">get_TuningSpace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidtuner-get_tuningspace">get_TuningSpace</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current tuning space.
@@ -90,7 +90,7 @@ Retrieves the current tuning space.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694709(v=VS.85).aspx">put_Tune</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidtuner-put_tune">put_Tune</a>
 </td>
 <td align="left" width="63%">
 Specifies the tune request.
@@ -99,7 +99,7 @@ Specifies the tune request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694710(v=VS.85).aspx">put_TuningSpace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidtuner-put_tuningspace">put_TuningSpace</a>
 </td>
 <td align="left" width="63%">
 Specifies the tuning space.
@@ -123,11 +123,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/cbc687b1-826d-4738-8d0a-a7b90f5ff20d">IMSVidVideoInputDevice</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideoinputdevice">IMSVidVideoInputDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf6c3ce9-1e56-4109-93f1-5b313e6ca19b">Video Control Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
  
 
  

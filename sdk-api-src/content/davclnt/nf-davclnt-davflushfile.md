@@ -64,7 +64,7 @@ Flushes the data from the local version of a remote file to the WebDAV server.
 A handle to an open file on a WebDAV server.
 
 The file handle must have the GENERIC_WRITE access right. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa364399(v=VS.85).aspx">File Security and Access Rights</a>.
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
 
 ## -returns
@@ -73,7 +73,7 @@ The file handle must have the GENERIC_WRITE access right. For more information, 
 
 If the function succeeds,  or if <i>hFile</i> is a handle to an encrypted file, the return value is ERROR_SUCCESS.
 
-If the function fails, the return value is a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>.
+If the function fails, the return value is a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 
 
@@ -96,19 +96,19 @@ This function does not flush encrypted files. If <i>hFile</i> is a handle to an 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa364439(v=VS.85).aspx">FlushFileBuffers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-flushfilebuffers">FlushFileBuffers</a>
 
 
 
-<a href="https://msdn.microsoft.com/800f4d40-252a-44fe-b10d-348c22d69355">OpenFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openfile">OpenFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/9d6fa723-fe3e-4052-b0b3-2686eee076a7">WriteFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
  
 
  

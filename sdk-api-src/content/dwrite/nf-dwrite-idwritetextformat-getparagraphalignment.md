@@ -63,7 +63,7 @@ ms.custom: 19H1
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/fcd11308-741a-47cb-aa7a-0ae2c7a9e769">DWRITE_PARAGRAPH_ALIGNMENT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_paragraph_alignment">DWRITE_PARAGRAPH_ALIGNMENT</a></b>
 
 A value that indicates the current paragraph alignment option.
 
@@ -75,7 +75,7 @@ A value that indicates the current paragraph alignment option.
 
 
 
-<a href="https://msdn.microsoft.com/64b2cac3-c4cb-4213-b808-7b279d296939">IDWriteTextFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a>
  
 
  

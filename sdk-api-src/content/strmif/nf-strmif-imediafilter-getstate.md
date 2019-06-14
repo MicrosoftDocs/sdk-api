@@ -67,7 +67,7 @@ Time-out interval, in milliseconds. To block indefinitely, use the value <b>INFI
 
 ### -param State [out]
 
-Receives a member of the <a href="https://msdn.microsoft.com/41f88abc-57d1-4f80-a099-d17e624ab8a6">FILTER_STATE</a> enumerated type, indicating the filter's state.
+Receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-_filterstate">FILTER_STATE</a> enumerated type, indicating the filter's state.
 
 
 ## -returns
@@ -139,7 +139,7 @@ State transitions can be asynchronous. If the filter is transitioning to a new s
 
 If a filter cannot deliver data for some reason, it returns <b>VFW_S_CANT_CUE</b>. Live capture filters return this value while paused, because they do not deliver data in the paused state.
 
-For more information, see <a href="https://msdn.microsoft.com/3fcfd874-39bc-42d2-9fc9-2d8945ffa8e3">Data Flow in the Filter Graph</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/data-flow-in-the-filter-graph">Data Flow in the Filter Graph</a>.
 
 
 
@@ -149,15 +149,15 @@ For more information, see <a href="https://msdn.microsoft.com/3fcfd874-39bc-42d2
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/d8c09dc7-dae8-4b51-8da8-69e64928a091">IBaseFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a>
 
 
 
-<a href="https://msdn.microsoft.com/5c0060e8-a9e5-4141-a38d-9a1bc55cc91b">IMediaFilter Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediafilter">IMediaFilter Interface</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 Identifies the target (proxy or server), authentication scheme, and the user's credentials to use for user authentication requests. The structure is passed to the 
-<a href="https://msdn.microsoft.com/adaffc21-7df1-48ca-8e05-bdb09663a49b">IBackgroundCopyJob2::SetCredentials</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials">IBackgroundCopyJob2::SetCredentials</a> method.
 
 
 ## -struct-fields
@@ -60,19 +60,19 @@ Identifies the target (proxy or server), authentication scheme, and the user's c
 ### -field Target
 
 Identifies whether to use the credentials for a proxy or server authentication request. For a list of values, see the 
-<a href="https://msdn.microsoft.com/efe7aa0a-48fc-4192-b81b-40d3a9b0fb22">BG_AUTH_TARGET</a> enumeration. You can specify only one value.
+<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ne-bits1_5-__midl_ibackgroundcopyjob2_0001">BG_AUTH_TARGET</a> enumeration. You can specify only one value.
 
 
 ### -field Scheme
 
 Identifies the scheme to use for authentication (for example, Basic or NTLM). For a list of values, see the 
-<a href="https://msdn.microsoft.com/e5a97cee-0012-4e30-850a-9adc258a36d3">BG_AUTH_SCHEME</a> enumeration. You can specify only one value.
+<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ne-bits1_5-__midl_ibackgroundcopyjob2_0002">BG_AUTH_SCHEME</a> enumeration. You can specify only one value.
 
 
 ### -field Credentials
 
 Identifies the credentials to use for the specified authentication scheme. For details, see the 
-<a href="https://msdn.microsoft.com/c16c616c-f4cb-483d-8a15-6ff9d45762ae">BG_AUTH_CREDENTIALS_UNION</a> union.
+<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ns-bits1_5-__midl_ibackgroundcopyjob2_0004">BG_AUTH_CREDENTIALS_UNION</a> union.
 
 
 ## -see-also
@@ -80,19 +80,19 @@ Identifies the credentials to use for the specified authentication scheme. For d
 
 
 
-<a href="https://msdn.microsoft.com/c16c616c-f4cb-483d-8a15-6ff9d45762ae">BG_AUTH_CREDENTIALS_UNION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ns-bits1_5-__midl_ibackgroundcopyjob2_0004">BG_AUTH_CREDENTIALS_UNION</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5a97cee-0012-4e30-850a-9adc258a36d3">BG_AUTH_SCHEME</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ne-bits1_5-__midl_ibackgroundcopyjob2_0002">BG_AUTH_SCHEME</a>
 
 
 
-<a href="https://msdn.microsoft.com/efe7aa0a-48fc-4192-b81b-40d3a9b0fb22">BG_AUTH_TARGET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ne-bits1_5-__midl_ibackgroundcopyjob2_0001">BG_AUTH_TARGET</a>
 
 
 
-<a href="https://msdn.microsoft.com/adaffc21-7df1-48ca-8e05-bdb09663a49b">IBackgroundCopyJob2::SetCredentials</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials">IBackgroundCopyJob2::SetCredentials</a>
  
 
  

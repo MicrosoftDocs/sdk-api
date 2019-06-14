@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>DISCONNECT_CODE</b> enum is used by the 
-<a href="https://msdn.microsoft.com/b7d556fd-d3f5-4b93-96a9-cc5c58fb8a95">ITBasicCallControl::Disconnect</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-disconnect">ITBasicCallControl::Disconnect</a> method.
 
 
 ## -enum-fields
@@ -67,7 +67,7 @@ The call is being disconnected as part of the normal cycle of the call.
 ### -field DC_NOANSWER
 
 The call is being disconnected because it has not been answered. (For example, an application may set a certain amount of time for the user to answer the call. If the user does not answer, the application can call 
-<a href="https://msdn.microsoft.com/b7d556fd-d3f5-4b93-96a9-cc5c58fb8a95">Disconnect</a> with the NOANSWER code.)
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-disconnect">Disconnect</a> with the NOANSWER code.)
 
 
 ### -field DC_REJECTED
@@ -80,7 +80,7 @@ The user rejected the offered call.
 
 
 
-<a href="https://msdn.microsoft.com/b7d556fd-d3f5-4b93-96a9-cc5c58fb8a95">ITBasicCallControl::Disconnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-disconnect">ITBasicCallControl::Disconnect</a>
  
 
  

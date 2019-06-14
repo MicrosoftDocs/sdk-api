@@ -66,9 +66,9 @@ These remote objects are in encoded format and are retrieved in a "context" form
 The address of a PKI object to be retrieved. The following schemes are supported:
 
 <ul>
-<li>ldap (<a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">Lightweight Directory Access Protocol</a>)</li>
+<li>ldap (<a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Lightweight Directory Access Protocol</a>)</li>
 <li>http</li>
-<li>https (<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms721572%28v=vs.85%29.aspx">certificate revocation list</a> (CRL) or <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">online certificate status protocol</a> (OCSP) retrievals only)</li>
+<li>https (<a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) retrievals only)</li>
 <li>file</li>
 </ul>
 
@@ -88,7 +88,7 @@ The address of a null-terminated ANSI string that identifies the type of object 
 </dl>
 </td>
 <td width="60%">
-Retrieve one or more data <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOBs</a>. The encoded bits are returned in an array of BLOBs. <i>ppvObject</i> is the address of a <a href="https://msdn.microsoft.com/c4429a0c-6e79-4f02-acac-42b5280aa3b1">CRYPT_BLOB_ARRAY</a> structure pointer that receives the BLOB array. When this structure is no longer needed, you must free it by passing the address of this structure to the <a href="https://msdn.microsoft.com/fb5c10ba-da8e-4a34-9302-67586a0a9624">CryptMemFree</a> function.
+Retrieve one or more data <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOBs</a>. The encoded bits are returned in an array of BLOBs. <i>ppvObject</i> is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_blob_array">CRYPT_BLOB_ARRAY</a> structure pointer that receives the BLOB array. When this structure is no longer needed, you must free it by passing the address of this structure to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemfree">CryptMemFree</a> function.
 
 </td>
 </tr>
@@ -101,9 +101,9 @@ Retrieve one or more data <a href="https://msdn.microsoft.com/2e570727-7da0-4e17
 <td width="60%">
 Retrieve one or more certificates.
 
-If a single object is being retrieved, <i>ppvObject</i> is the address of a <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structure pointer that receives the context. When this context is no longer needed, you must free it by passing the <b>CERT_CONTEXT</b> structure pointer to the <a href="https://msdn.microsoft.com/7d2f3237-3f8b-4234-b6db-3057384cd89b">CertFreeCertificateContext</a> function.
+If a single object is being retrieved, <i>ppvObject</i> is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure pointer that receives the context. When this context is no longer needed, you must free it by passing the <b>CERT_CONTEXT</b> structure pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> function.
 
-If multiple objects are being retrieved, <i>ppvObject</i> is the address of an <b>HCERTSTORE</b> variable that receives the handle of a store that contains the certificates. When this store is no longer needed, you must close it by passing this handle to the <a href="https://msdn.microsoft.com/a93fdd65-359e-4046-910d-347c3af01280">CertCloseStore</a> function.
+If multiple objects are being retrieved, <i>ppvObject</i> is the address of an <b>HCERTSTORE</b> variable that receives the handle of a store that contains the certificates. When this store is no longer needed, you must close it by passing this handle to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a> function.
 
 </td>
 </tr>
@@ -114,11 +114,11 @@ If multiple objects are being retrieved, <i>ppvObject</i> is the address of an <
 </dl>
 </td>
 <td width="60%">
-Retrieve one or more <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation lists</a> (CRLs). 
+Retrieve one or more <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation lists</a> (CRLs). 
 
-If a single object is being retrieved, <i>ppvObject</i> is the address of a <a href="https://msdn.microsoft.com/cf7cabcd-b469-492a-b855-8870465ea1cc">CRL_CONTEXT</a> structure pointer that receives the context. When this context is no longer needed, you must free it by passing the <b>CRL_CONTEXT</b> structure pointer to the <a href="https://msdn.microsoft.com/19a590a5-bd39-4bbe-ad86-4e648baa1ba8">CertFreeCRLContext</a> function.
+If a single object is being retrieved, <i>ppvObject</i> is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_context">CRL_CONTEXT</a> structure pointer that receives the context. When this context is no longer needed, you must free it by passing the <b>CRL_CONTEXT</b> structure pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a> function.
 
-If multiple objects are being retrieved, <i>ppvObject</i> is the address of an <b>HCERTSTORE</b> variable that receives the handle of a store that contains the CRLs. When this store is no longer needed, you must close it by passing this handle to the <a href="https://msdn.microsoft.com/a93fdd65-359e-4046-910d-347c3af01280">CertCloseStore</a> function.
+If multiple objects are being retrieved, <i>ppvObject</i> is the address of an <b>HCERTSTORE</b> variable that receives the handle of a store that contains the CRLs. When this store is no longer needed, you must close it by passing this handle to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a> function.
 
 </td>
 </tr>
@@ -129,11 +129,11 @@ If multiple objects are being retrieved, <i>ppvObject</i> is the address of an <
 </dl>
 </td>
 <td width="60%">
-Retrieve one or more <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate trust lists</a> (CTLs). 
+Retrieve one or more <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust lists</a> (CTLs). 
 
-If a single object is being retrieved, <i>ppvObject</i> is the address of a <a href="https://msdn.microsoft.com/780edddf-1b44-4292-9156-4dfd5100adb8">CTL_CONTEXT</a> structure pointer that receives the context. When this context is no longer needed, you must free it by passing the <b>CTL_CONTEXT</b> structure pointer to the <a href="https://msdn.microsoft.com/84b1aa0c-44d9-4a2f-861c-fa7d8caac192">CertFreeCTLContext</a> function.
+If a single object is being retrieved, <i>ppvObject</i> is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">CTL_CONTEXT</a> structure pointer that receives the context. When this context is no longer needed, you must free it by passing the <b>CTL_CONTEXT</b> structure pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a> function.
 
-If multiple objects are being retrieved, <i>ppvObject</i> is the address of an <b>HCERTSTORE</b> variable that receives the handle of a store that contains the CTLs. When this store is no longer needed, you must close it by passing this handle to the <a href="https://msdn.microsoft.com/a93fdd65-359e-4046-910d-347c3af01280">CertCloseStore</a> function.
+If multiple objects are being retrieved, <i>ppvObject</i> is the address of an <b>HCERTSTORE</b> variable that receives the handle of a store that contains the CTLs. When this store is no longer needed, you must close it by passing this handle to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a> function.
 
 </td>
 </tr>
@@ -144,7 +144,7 @@ If multiple objects are being retrieved, <i>ppvObject</i> is the address of an <
 </dl>
 </td>
 <td width="60%">
-<i>ppvObject</i> is the address of an <b>HCERTSTORE</b> variable that receives the handle of a store that contains the objects from the message. When this store is no longer needed, you must close it by passing this handle to the <a href="https://msdn.microsoft.com/a93fdd65-359e-4046-910d-347c3af01280">CertCloseStore</a> function.
+<i>ppvObject</i> is the address of an <b>HCERTSTORE</b> variable that receives the handle of a store that contains the objects from the message. When this store is no longer needed, you must close it by passing this handle to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a> function.
 
 </td>
 </tr>
@@ -155,7 +155,7 @@ If multiple objects are being retrieved, <i>ppvObject</i> is the address of an <
 </dl>
 </td>
 <td width="60%">
-<i>ppvObject</i> is the address of an <b>HCERTSTORE</b> variable that receives the handle of a store that contains the objects. When this store is no longer needed, you must close it by passing this handle to the <a href="https://msdn.microsoft.com/a93fdd65-359e-4046-910d-347c3af01280">CertCloseStore</a> function.
+<i>ppvObject</i> is the address of an <b>HCERTSTORE</b> variable that receives the handle of a store that contains the objects. When this store is no longer needed, you must close it by passing this handle to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a> function.
 
 </td>
 </tr>
@@ -166,7 +166,7 @@ If multiple objects are being retrieved, <i>ppvObject</i> is the address of an <
 </dl>
 </td>
 <td width="60%">
-<i>ppvObject</i> is the address of a pointer to a <a href="https://msdn.microsoft.com/c4429a0c-6e79-4f02-acac-42b5280aa3b1">CRYPT_BLOB_ARRAY</a> structure.
+<i>ppvObject</i> is the address of a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_blob_array">CRYPT_BLOB_ARRAY</a> structure.
 
 </td>
 </tr>
@@ -241,7 +241,7 @@ The following example shows the additional binary data delimited by the last sla
 
 <code>http://ocsp.openvalidation.org/MEIwQDA%2BMDwwOjAJBgUrDgMCGgUABBQdKNEwjytjKBQADcgM61jfflNpyQQUv1NDgnjQnsOA5RtnygUA37lIg6UCAQI%3D?Content-Type: application/ocsp-request</code>
 
-When this flag is set, the <b>CryptRetrieveObjectByUrl</b> function parses the URL by using the last slash mark (/) and question mark (?) delimiters. The string, which is delimited by a slash mark (/), contains an unescaped URL (that is, a plain text URL without escape characters or escape sequences) and Base64 data decoded into binary form before being passed to the <a href="https://msdn.microsoft.com/991bf531-2e6b-4581-8069-f75789915522">WinHttpSendRequest</a> function as the <i>lpOptional</i> parameter. The string delimited by a question mark (?) is passed to the <b>WinHttpSendRequest</b> function as the <i>pwszHeaders</i> parameter.
+When this flag is set, the <b>CryptRetrieveObjectByUrl</b> function parses the URL by using the last slash mark (/) and question mark (?) delimiters. The string, which is delimited by a slash mark (/), contains an unescaped URL (that is, a plain text URL without escape characters or escape sequences) and Base64 data decoded into binary form before being passed to the <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsendrequest">WinHttpSendRequest</a> function as the <i>lpOptional</i> parameter. The string delimited by a question mark (?) is passed to the <b>WinHttpSendRequest</b> function as the <i>pwszHeaders</i> parameter.
 
 </td>
 </tr>
@@ -335,7 +335,7 @@ Enables proxy cache retrieval of an object. If a proxy cache was not explicitly 
 </dl>
 </td>
 <td width="60%">
-Retrieves multiple objects if available. All objects must be of a homogeneous object type as determined by the value of <i>pszObjectOid</i>, unless the <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) value is CONTEXT_OID_CAPI2_ANY.
+Retrieves multiple objects if available. All objects must be of a homogeneous object type as determined by the value of <i>pszObjectOid</i>, unless the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) value is CONTEXT_OID_CAPI2_ANY.
 
 </td>
 </tr>
@@ -411,7 +411,7 @@ A pointer to a verification object. This object is a function of the <i>dwRetrie
 ### -param pAuxInfo [in]
 
 An optional pointer to a 
-<a href="https://msdn.microsoft.com/33ea51e7-c3e3-4cf8-ade0-099cb8b2e651">CRYPT_RETRIEVE_AUX_INFO</a> structure. If not <b>NULL</b> and if the <b>cbSize</b> member of the structure is set, this parameter returns the time of the last successful wire retrieval.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_retrieve_aux_info">CRYPT_RETRIEVE_AUX_INFO</a> structure. If not <b>NULL</b> and if the <b>cbSize</b> member of the structure is set, this parameter returns the time of the last successful wire retrieval.
 
 
 ## -returns
@@ -431,7 +431,7 @@ If the function fails, the return value is zero (<b>FALSE</b>).
 
 The remote object retrieval manager exposes two provider models. One is the Scheme Provider model that allows for installable protocol providers as defined by the URL scheme, that is, ldap, http, ftp, or file. The scheme provider entry point is the same as the <b>CryptRetrieveObjectByUrl</b> function; however, the *<i>ppvObject</i> returned is always a counted array of encoded bits (one per object retrieved).
 
-The second provider model is the Context Provider model that allows for installable creators of the context handles (objects) based on the retrieved encoded bits. These are dispatched based on the <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) specified in the call to <b>CryptRetrieveObjectByUrl</b>.
+The second provider model is the Context Provider model that allows for installable creators of the context handles (objects) based on the retrieved encoded bits. These are dispatched based on the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) specified in the call to <b>CryptRetrieveObjectByUrl</b>.
 
 Individual PKI objects such as certificates, trusts lists, revocation lists, PKCS #7 messages, and multiple homogenous objects can be retrieved. Starting with Windows Vista with Service Pack 1 (SP1) and Windows Server 2008, security of "http:" and "ldap:" retrievals have been hardened. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=147316">http://support.microsoft.com/kb/946401</a>.
 
@@ -449,7 +449,7 @@ This function supports "http:" and "ldap:" URL schemes as well as newly defined 
 
 
 
-<a href="https://msdn.microsoft.com/a92117b8-9144-4480-b88a-b9ffe1026d63">CryptGetObjectUrl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetobjecturl">CryptGetObjectUrl</a>
  
 
  

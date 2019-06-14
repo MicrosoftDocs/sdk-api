@@ -52,12 +52,12 @@ ms.custom: 19H1
 Enables you to compose the work of multiple COM+ objects in a single transaction and explicitly commit or abort the transaction.
 
 
-<b>ITransactionContext</b> and <a href="https://msdn.microsoft.com/cdf3a74f-cdef-4721-9c0d-90af724c24ba">ITransactionContextEx</a> provide the same functionality, but unlike <b>ITransactionContextEx</b>, <b>ITransactionContext</b> is compatible with Automation.
+<b>ITransactionContext</b> and <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-itransactioncontextex">ITransactionContextEx</a> provide the same functionality, but unlike <b>ITransactionContextEx</b>, <b>ITransactionContext</b> is compatible with Automation.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITransactionContext</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITransactionContext</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITransactionContext</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITransactionContext</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>ITransactionContext</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d7ea7c31-225c-4eb1-a358-21c4dab1a1da">Abort</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-itransactioncontext-abort">Abort</a>
 </td>
 <td align="left" width="63%">
 Aborts the work of all COM objects participating in the current transaction. The transaction ends on return from this method.
@@ -81,7 +81,7 @@ Aborts the work of all COM objects participating in the current transaction. The
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3945fdf1-6361-413e-9621-18871ded47a4">Commit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-itransactioncontext-commit">Commit</a>
 </td>
 <td align="left" width="63%">
 Attempts to commit the work of all COM objects participating in the current transaction. The transaction ends on return from this method.
@@ -90,7 +90,7 @@ Attempts to commit the work of all COM objects participating in the current tran
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3dc08700-0872-4d60-a968-cffed974c7b2">CreateInstance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-itransactioncontext-createinstance">CreateInstance</a>
 </td>
 <td align="left" width="63%">
 Creates a COM object that can execute within the scope of the transaction that was initiated by the transaction context object.
@@ -123,11 +123,11 @@ You obtain a reference to the <b>ITransactionContext</b> interface by creating a
 
 
 
-<a href="https://msdn.microsoft.com/cdf3a74f-cdef-4721-9c0d-90af724c24ba">ITransactionContextEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-itransactioncontextex">ITransactionContextEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/efaf1468-4973-472f-af91-85957a52b7df">TransactionContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/cossdk/transactioncontext">TransactionContext</a>
  
 
  

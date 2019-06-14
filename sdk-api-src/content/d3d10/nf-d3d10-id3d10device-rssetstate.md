@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Set the <a href="https://msdn.microsoft.com/en-us/library/Bb172408(v=VS.85).aspx">rasterizer state</a> for the <a href="https://msdn.microsoft.com/en-us/library/Bb205125(v=VS.85).aspx">rasterizer stage</a> of the pipeline.
+Set the <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_rasterizer_desc">rasterizer state</a> for the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-rasterizer-stage">rasterizer stage</a> of the pipeline.
 
 
 ## -parameters
@@ -60,9 +60,9 @@ Set the <a href="https://msdn.microsoft.com/en-us/library/Bb172408(v=VS.85).aspx
 
 ### -param pRasterizerState [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173825(v=VS.85).aspx">ID3D10RasterizerState</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10rasterizerstate">ID3D10RasterizerState</a>*</b>
 
-Pointer to a rasterizer-state interface (see <a href="https://msdn.microsoft.com/en-us/library/Bb173825(v=VS.85).aspx">ID3D10RasterizerState</a>) to bind to the pipeline.
+Pointer to a rasterizer-state interface (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10rasterizerstate">ID3D10RasterizerState</a>) to bind to the pipeline.
 
 
 ## -returns
@@ -78,7 +78,7 @@ Returns nothing.
 
 
 
-To create a rasterizer state interface, call <a href="https://msdn.microsoft.com/en-us/library/Bb173554(v=VS.85).aspx">ID3D10Device::CreateRasterizerState</a>. For more details on setting up the rasterizer state, see <a href="https://msdn.microsoft.com/en-us/library/Bb205126(v=VS.85).aspx">Set Rasterizer State</a>.
+To create a rasterizer state interface, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createrasterizerstate">ID3D10Device::CreateRasterizerState</a>. For more details on setting up the rasterizer state, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-rasterizer-stage-getting-started">Set Rasterizer State</a>.
 
 The method will not hold a reference to the interfaces passed in. For that reason, applications should be careful not to release an interface currently in use by the device.
 
@@ -90,7 +90,7 @@ The method will not hold a reference to the interfaces passed in. For that reaso
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
  
 
  

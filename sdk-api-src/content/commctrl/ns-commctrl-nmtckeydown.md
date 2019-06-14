@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information about a key press in a tab control. It is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb760567(v=VS.85).aspx">TCN_KEYDOWN</a> notification code. This structure supersedes the
+Contains information about a key press in a tab control. It is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcn-keydown">TCN_KEYDOWN</a> notification code. This structure supersedes the
 <b>TC_KEYDOWN</b> structure. 
 
 
@@ -60,23 +60,23 @@ Contains information about a key press in a tab control. It is used with the <a 
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about the notification. 
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that contains information about the notification. 
 
 
 ### -field wVKey
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Virtual key code. 
 
 
 ### -field flags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Value that is identical to the 
-					<i>lParam</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/ms646280(v=VS.85).aspx">WM_KEYDOWN</a> message. 
+					<i>lParam</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a> message. 
 

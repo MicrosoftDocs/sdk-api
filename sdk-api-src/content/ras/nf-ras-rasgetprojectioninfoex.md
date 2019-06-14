@@ -60,18 +60,18 @@ The <b>RasGetProjectionInfoEx</b> function  obtains information about Point-to-P
 ### -param hrasconn [in]
 
 A handle to the RAS connection for which the tunnel endpoints are to be changed. This can be a handle returned by the 
-<a href="https://msdn.microsoft.com/579a9038-8216-4948-a065-fd45b97da73a">RasDial</a> or 
-<a href="https://msdn.microsoft.com/b581cfbf-a55e-4f56-89cd-168aa23af550">RasEnumConnections</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasenumconnectionsa">RasEnumConnections</a> function.
 
 
 ### -param pRasProjection [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/ca4fbaff-f035-4340-8d29-7dcddaf1b1bb">RAS_PROJECTION_INFO</a> structure that receives the projection information for the RAS connections.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-_ras_projection_info">RAS_PROJECTION_INFO</a> structure that receives the projection information for the RAS connections.
 
 
 ### -param lpdwSize [in, out]
 
-A pointer, in input, that specifies the size, in bytes, of the buffer pointed to by pRasProjection. On output, this variable receives the size, in bytes, of the buffer needed to store the number of <a href="https://msdn.microsoft.com/ca4fbaff-f035-4340-8d29-7dcddaf1b1bb">RAS_PROJECTION_INFO</a> structures pointed to by 
+A pointer, in input, that specifies the size, in bytes, of the buffer pointed to by pRasProjection. On output, this variable receives the size, in bytes, of the buffer needed to store the number of <a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-_ras_projection_info">RAS_PROJECTION_INFO</a> structures pointed to by 
 					<i>pRasProjection</i>.
 
 
@@ -81,7 +81,7 @@ A pointer, in input, that specifies the size, in bytes, of the buffer pointed to
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is one of the following error codes or a value from <a href="https://msdn.microsoft.com/1fa41438-7c93-4e9c-851c-652fba23da4f">Routing and Remote Access Error Codes</a> or Winerror.h.
+If the function fails, the return value is one of the following error codes or a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 <table>
 <tr>
@@ -155,7 +155,7 @@ The control protocol for which information was requested neither succeeded nor f
 
 Remote access projection is the process whereby a remote access server and a remote client negotiate network protocol-specific information. A remote access server uses this network protocol-specific information to represent a remote client on the network.
 
-Remote access projection information is not available until the operating system has executed the <a href="https://msdn.microsoft.com/42047265-1b0f-4449-842c-e860b8fb6728">RASCS_Projected</a> state on the remote access connection. If 
+Remote access projection information is not available until the operating system has executed the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376727(v=vs.85)">RASCS_Projected</a> state on the remote access connection. If 
 <b>RasGetProjectionInfoEx</b> is called prior to the <b>RASCS_Projected</b> state, it returns <b>ERROR_PROJECTION_NOT_COMPLETE</b>.
 
 
@@ -166,11 +166,11 @@ Remote access projection information is not available until the operating system
 
 
 
-<a href="https://msdn.microsoft.com/5016fa0b-72eb-484e-b8d7-af9de2e25689">Remote Access Service (RAS) Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/5883a77a-6af8-47a8-bb28-6ef60a5aa2f1">Remote Access Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
  
 
  

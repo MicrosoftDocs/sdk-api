@@ -50,8 +50,8 @@ ms.custom: 19H1
 
 
 The 
-<b>DnsFreeProxyName</b> function frees memory allocated for the <b>proxyName</b> member of a <a href="https://msdn.microsoft.com/cfe7653f-7e68-4e50-ba67-bd441f837ef8">DNS_PROXY_INFORMATION</a> structure obtained using the 
-<a href="https://msdn.microsoft.com/fdc8eb09-e071-4f03-974a-2b11a657ab18">DnsGetProxyInformation</a> function.
+<b>DnsFreeProxyName</b> function frees memory allocated for the <b>proxyName</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-dns_proxy_information">DNS_PROXY_INFORMATION</a> structure obtained using the 
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsgetproxyinformation">DnsGetProxyInformation</a> function.
 
 
 ## -parameters
@@ -78,7 +78,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/9b3c1c20-5516-41de-b00f-b95736ff53f1">DNS Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/DNS/dns-functions">DNS Functions</a>
  
 
  

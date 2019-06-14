@@ -82,11 +82,11 @@ The initial tab ID, 0 or 1.
 
 
 
-<a href="https://msdn.microsoft.com/E70E3B78-58D7-40E9-8DAB-447B4CBC13F4">IFECommon::InvokeDictToolDialog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifecommon-invokedicttooldialog">IFECommon::InvokeDictToolDialog</a>
 
 
 
-<a href="https://msdn.microsoft.com/FBD09E98-9C89-4CE4-9D17-A13E2BE0AB91">IFECommon::InvokeWordRegDialog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifecommon-invokewordregdialog">IFECommon::InvokeWordRegDialog</a>
  
 
  

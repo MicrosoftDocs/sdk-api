@@ -48,7 +48,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents an input buffer for the <a href="https://msdn.microsoft.com/F3FF3348-4F75-4E7D-9C19-13A641B0E8E1">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INT</a>  control code.
+Represents an input buffer for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-storage-get-available-disks-ex2-int">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INT</a>  control code.
 
 
 ## -struct-fields
@@ -94,11 +94,11 @@ A storage pool <b>GUID</b> that filters the results.
 
 
 
-<a href="https://msdn.microsoft.com/F3FF3348-4F75-4E7D-9C19-13A641B0E8E1">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-storage-get-available-disks-ex2-int">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INT</a>
 
 
 
-<a href="https://msdn.microsoft.com/45da8dbc-dd70-4f95-b933-66d8e4340448">Utility Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/utility-structures">Utility Structures</a>
  
 
  

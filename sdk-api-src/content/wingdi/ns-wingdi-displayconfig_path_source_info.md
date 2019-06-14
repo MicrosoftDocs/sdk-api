@@ -88,7 +88,7 @@ A valid identifier used to show which clone group the path is a member of only w
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.sourceModeInfoIdx
 
-A valid index into the mode array of the <a href="https://msdn.microsoft.com/c81768f0-67d3-4ddd-94c8-013b1e4cf83e">DISPLAYCONFIG_SOURCE_MODE</a> entry that contains the source mode information for this path only when DISPLAYCONFIG_PATH_SUPPORT_VIRTUAL_MODE is set. If there is no entry for this in the mode array, the value of <b>sourceModeInfoIdx</b> is DISPLAYCONFIG_PATH_SOURCE_MODE_IDX_INVALID. Supported starting in Windows 10.
+A valid index into the mode array of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_target_mode">DISPLAYCONFIG_SOURCE_MODE</a> entry that contains the source mode information for this path only when DISPLAYCONFIG_PATH_SUPPORT_VIRTUAL_MODE is set. If there is no entry for this in the mode array, the value of <b>sourceModeInfoIdx</b> is DISPLAYCONFIG_PATH_SOURCE_MODE_IDX_INVALID. Supported starting in Windows 10.
 
 
 ### -field statusFlags
@@ -108,7 +108,7 @@ This source is in use by at least one active path.
 
 
 
-A DISPLAYCONFIG_PATH_SOURCE_INFO structure is specified in the <b>sourceInfo</b> member of a <a href="https://msdn.microsoft.com/e218c36d-60d5-42c8-9443-419a388a2b8d">DISPLAYCONFIG_PATH_INFO</a> structure.
+A DISPLAYCONFIG_PATH_SOURCE_INFO structure is specified in the <b>sourceInfo</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_path_info">DISPLAYCONFIG_PATH_INFO</a> structure.
 
 A source corresponds to a surface on which the display adapter can render pixels. Each display adapter is capable of rendering to x number of sources. What this means is how many desktops can be rendered for extend mode. This is typically 2. For example, source 0 might be rendering pixels from 0,0 to 1024,768, and source 1 might be rendering pixels from 1025,0 to 2048, 768. 
 
@@ -120,7 +120,7 @@ A source corresponds to a surface on which the display adapter can render pixels
 
 
 
-<a href="https://msdn.microsoft.com/e218c36d-60d5-42c8-9443-419a388a2b8d">DISPLAYCONFIG_PATH_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_path_info">DISPLAYCONFIG_PATH_INFO</a>
  
 
  

@@ -63,7 +63,7 @@ Retrieves a descriptor for a specified record in
 ### -param dwRecordIndex [in]
 
 Specifies the record number, indexed from zero. 
-Call the <a href="https://msdn.microsoft.com/c747278a-dea7-4772-b37d-89c1deaaf91f">IISDB_NBIT::GetCountOfRecords</a> 
+Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-getcountofrecords">IISDB_NBIT::GetCountOfRecords</a> 
  method to get the number 
 of records in the NBIT.
 
@@ -71,13 +71,13 @@ of records in the NBIT.
 ### -param dwIndex [in]
 
 Specifies which descriptor to retrieve, indexed from zero. 
-Call the <a href="https://msdn.microsoft.com/2f4f5b5a-f03a-4b90-aa7c-2552841ba165">IISDB_NBIT::GetRecordCountOfDescriptors</a> method 
+Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-getrecordcountofdescriptors">IISDB_NBIT::GetRecordCountOfDescriptors</a> method 
 to get the number of descriptors for a particular record.
 
 
 ### -param ppDescriptor [out]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor</a> interface implemented by the descriptor. The caller is responsible for freeing the interface.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-igenericdescriptor">IGenericDescriptor</a> interface implemented by the descriptor. The caller is responsible for freeing the interface.
 
 
 ## -returns
@@ -94,15 +94,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-igenericdescriptor">IGenericDescriptor</a>
 
 
 
-<a href="https://msdn.microsoft.com/32c15a03-6683-4b22-b374-a15784696368">IISDB_NBIT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdb_nbit">IISDB_NBIT</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f4f5b5a-f03a-4b90-aa7c-2552841ba165">IISDB_NBIT::GetRecordCountOfDescriptors</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-getrecordcountofdescriptors">IISDB_NBIT::GetRecordCountOfDescriptors</a>
  
 
  

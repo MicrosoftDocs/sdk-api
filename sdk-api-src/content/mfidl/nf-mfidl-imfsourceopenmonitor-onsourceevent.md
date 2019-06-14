@@ -63,7 +63,7 @@ Called by the network source when the open operation begins or ends.
 
 ### -param pEvent [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/b4f686be-9472-433c-b983-6c48dfd3ac76">IMFMediaEvent</a> interface.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaevent">IMFMediaEvent</a> interface.
 
 
 ## -returns
@@ -103,18 +103,18 @@ The networks source calls this method with the following event types.
 <ul>
 <li>
 
-<a href="https://msdn.microsoft.com/0844ac10-cc5b-4e7f-92df-3a5901c72148">MEConnectStart</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/meconnectstart">MEConnectStart</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/737aec32-24f4-4825-ad34-8d2fc889bc09">MEConnectEnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/meconnectend">MEConnectEnd</a>
 
 
 </li>
 </ul>
-For more information, see <a href="https://msdn.microsoft.com/46869f52-323c-41ec-95f7-e7e5d177b782">How to Get Events from the Network Source</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-get-events-from-the-network-source">How to Get Events from the Network Source</a>.
 
 
 
@@ -124,7 +124,7 @@ For more information, see <a href="https://msdn.microsoft.com/46869f52-323c-41ec
 
 
 
-<a href="https://msdn.microsoft.com/9145910b-81f1-4fd1-8f6f-d6273e0edde6">IMFSourceOpenMonitor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsourceopenmonitor">IMFSourceOpenMonitor</a>
  
 
  

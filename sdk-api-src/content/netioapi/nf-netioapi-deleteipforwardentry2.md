@@ -61,7 +61,7 @@ The
 ### -param Row [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/3678315d-b6ab-48c8-8522-a57deb63f8c9">MIB_IPFORWARD_ROW2</a> structure entry for an IP route entry. On successful return, this entry will be deleted.
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipforward_row2">MIB_IPFORWARD_ROW2</a> structure entry for an IP route entry. On successful return, this entry will be deleted.
 
 
 ## -returns
@@ -95,7 +95,7 @@ Access is denied. This error is returned under several conditions that include t
 </dl>
 </td>
 <td width="60%">
-An invalid parameter was passed to the function. This error is returned if a <b>NULL</b> pointer is passed in the <i>Row</i> parameter, the <b>DestinationPrefix</b> member of the <a href="https://msdn.microsoft.com/3678315d-b6ab-48c8-8522-a57deb63f8c9">MIB_IPFORWARD_ROW2</a> pointed to by the <i>Row</i> parameter was not specified, the <b>NextHop</b> member of the <b>MIB_IPFORWARD_ROW2</b> pointed to by the <i>Row</i> parameter was not specified, or both the <b>InterfaceLuid</b> or <b>InterfaceIndex</b> members of the <b>MIB_IPFORWARD_ROW2</b> pointed to by the <i>Row</i> parameter were unspecified.
+An invalid parameter was passed to the function. This error is returned if a <b>NULL</b> pointer is passed in the <i>Row</i> parameter, the <b>DestinationPrefix</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipforward_row2">MIB_IPFORWARD_ROW2</a> pointed to by the <i>Row</i> parameter was not specified, the <b>NextHop</b> member of the <b>MIB_IPFORWARD_ROW2</b> pointed to by the <i>Row</i> parameter was not specified, or both the <b>InterfaceLuid</b> or <b>InterfaceIndex</b> members of the <b>MIB_IPFORWARD_ROW2</b> pointed to by the <i>Row</i> parameter were unspecified.
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ An invalid parameter was passed to the function. This error is returned if a <b>
 </dl>
 </td>
 <td width="60%">
-The specified interface could not be found. This error is returned if the  network interface specified by the <b>InterfaceLuid</b> or <b>InterfaceIndex</b> member of the <a href="https://msdn.microsoft.com/3678315d-b6ab-48c8-8522-a57deb63f8c9">MIB_IPFORWARD_ROW2</a> pointed to by the <i>Row</i> parameter could not be found.  
+The specified interface could not be found. This error is returned if the  network interface specified by the <b>InterfaceLuid</b> or <b>InterfaceIndex</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipforward_row2">MIB_IPFORWARD_ROW2</a> pointed to by the <i>Row</i> parameter could not be found.  
 
 </td>
 </tr>
@@ -117,7 +117,7 @@ The specified interface could not be found. This error is returned if the  netwo
 </dl>
 </td>
 <td width="60%">
-The request is not supported. This error is returned if no IPv4 stack is on the local computer and an IPv4 address was specified in the <b>Address</b> member of the <a href="https://msdn.microsoft.com/3678315d-b6ab-48c8-8522-a57deb63f8c9">MIB_IPFORWARD_ROW2</a> pointed to by the <i>Row</i> parameter. This error is also returned if no IPv6 stack is on the local computer and an IPv6 address was specified in the <b>Address</b> member. 
+The request is not supported. This error is returned if no IPv4 stack is on the local computer and an IPv4 address was specified in the <b>Address</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipforward_row2">MIB_IPFORWARD_ROW2</a> pointed to by the <i>Row</i> parameter. This error is also returned if no IPv6 stack is on the local computer and an IPv6 address was specified in the <b>Address</b> member. 
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ The request is not supported. This error is returned if no IPv4 stack is on the 
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> to obtain the message string for the returned error.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
@@ -145,18 +145,18 @@ Use
 
 The <b>DeleteIpForwardEntry2</b> function is defined on Windows Vista and later. 
 
-The <b>DeleteIpForwardEntry2</b> function is used to delete a <a href="https://msdn.microsoft.com/3678315d-b6ab-48c8-8522-a57deb63f8c9">MIB_IPFORWARD_ROW2</a> structure entry.  
+The <b>DeleteIpForwardEntry2</b> function is used to delete a <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipforward_row2">MIB_IPFORWARD_ROW2</a> structure entry.  
 
-On input, the <b>DestinationPrefix</b> member in the <a href="https://msdn.microsoft.com/3678315d-b6ab-48c8-8522-a57deb63f8c9">MIB_IPFORWARD_ROW2</a> structure pointed to by the <i>Row</i> parameter must be initialized to a valid IPv4 or IPv6 address prefix and family. On input, the <b>NextHop</b> member in the <b>MIB_IPFORWARD_ROW2</b> structure pointed to by the <i>Row</i> parameter must be initialized to a valid IPv4 or IPv6 address and family. In addition, at least one of the following members in the <b>MIB_IPFORWARD_ROW2</b> structure pointed to the <i>Row</i> parameter must be initialized:
+On input, the <b>DestinationPrefix</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipforward_row2">MIB_IPFORWARD_ROW2</a> structure pointed to by the <i>Row</i> parameter must be initialized to a valid IPv4 or IPv6 address prefix and family. On input, the <b>NextHop</b> member in the <b>MIB_IPFORWARD_ROW2</b> structure pointed to by the <i>Row</i> parameter must be initialized to a valid IPv4 or IPv6 address and family. In addition, at least one of the following members in the <b>MIB_IPFORWARD_ROW2</b> structure pointed to the <i>Row</i> parameter must be initialized:
     the <b>InterfaceLuid</b> or <b>InterfaceIndex</b>.
 
     The fields are used in the order listed above. So if the <b>InterfaceLuid</b> is specified, then this member is used to determine the interface. If no value was set for the  <b>InterfaceLuid</b> member (the values of this member was set to zero), then the <b>InterfaceIndex</b> member is next used to determine the interface. 
 
 On output when the call is successful, <b>DeleteIpForwardEntry2</b> deletes the IP route entry. 
 
-The <b>DeleteIpForwardEntry2</b> function will fail if the <b>DestinationPrefix</b> and <b>NextHop</b> members of the <a href="https://msdn.microsoft.com/3678315d-b6ab-48c8-8522-a57deb63f8c9">MIB_IPFORWARD_ROW2</a> pointed to by the <i>Row</i> parameter do not match an existing IP route entry on the interface specified in the <b>InterfaceLuid</b> or <b>InterfaceIndex</b> members. 
+The <b>DeleteIpForwardEntry2</b> function will fail if the <b>DestinationPrefix</b> and <b>NextHop</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipforward_row2">MIB_IPFORWARD_ROW2</a> pointed to by the <i>Row</i> parameter do not match an existing IP route entry on the interface specified in the <b>InterfaceLuid</b> or <b>InterfaceIndex</b> members. 
 
-The <a href="https://msdn.microsoft.com/14412ef1-d970-419d-abfa-389f6ceb638d">GetIpForwardTable2</a> function can be called to enumerate the IP route entries on a local computer.
+The <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipforwardtable2">GetIpForwardTable2</a> function can be called to enumerate the IP route entries on a local computer.
 
 The <b>DeleteIpForwardEntry2</b> function can only be called by a user logged on as a member of the Administrators group. If <b>DeleteIpForwardEntry2</b> is called by a user that is not a member of the Administrators group, the function call will fail and <b>ERROR_ACCESS_DENIED</b> is returned. This function can also fail because of user account control (UAC) on Windows Vista and later. If an application that contains this function is executed by a user logged on as a member of the Administrators group other than the built-in Administrator, this call will fail unless the application has been marked in the manifest file with a <b>requestedExecutionLevel</b> set to requireAdministrator. If the application lacks this manifest file, a user logged on as a member of the Administrators group other than the built-in Administrator must then be executing the application in an enhanced shell as the built-in Administrator (RunAs administrator) for this function to succeed.
 
@@ -170,39 +170,39 @@ The <b>DeleteIpForwardEntry2</b> function can only be called by a user logged on
 
 
 
-<a href="https://msdn.microsoft.com/d2d065d3-daad-4167-8b87-4229199ee76a">CreateIpForwardEntry2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createipforwardentry2">CreateIpForwardEntry2</a>
 
 
 
-<a href="https://msdn.microsoft.com/7bc16824-c98f-4cd5-a589-e198b48b637c">GetBestRoute2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getbestroute2">GetBestRoute2</a>
 
 
 
-<a href="https://msdn.microsoft.com/53d5009a-d205-40ce-88e5-fe37e72b5a50">GetIpForwardEntry2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipforwardentry2">GetIpForwardEntry2</a>
 
 
 
-<a href="https://msdn.microsoft.com/14412ef1-d970-419d-abfa-389f6ceb638d">GetIpForwardTable2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipforwardtable2">GetIpForwardTable2</a>
 
 
 
-<a href="https://msdn.microsoft.com/1968c4e5-4b28-4387-a918-3326bc80bb3e">InitializeIpForwardEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-initializeipforwardentry">InitializeIpForwardEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/3678315d-b6ab-48c8-8522-a57deb63f8c9">MIB_IPFORWARD_ROW2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipforward_row2">MIB_IPFORWARD_ROW2</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ba938e8-3395-4c9d-b1d2-b2c030783c16">MIB_IPFORWARD_TABLE2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipforward_table2">MIB_IPFORWARD_TABLE2</a>
 
 
 
-<a href="https://msdn.microsoft.com/f104dc0c-b3e0-4f22-ac5f-5dbf967be31b">NotifyRouteChange2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifyroutechange2">NotifyRouteChange2</a>
 
 
 
-<a href="https://msdn.microsoft.com/e11aab0b-6d6c-4e90-a60a-f7d68c09751b">SetIpForwardEntry2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-setipforwardentry2">SetIpForwardEntry2</a>
  
 
  

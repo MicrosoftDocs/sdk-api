@@ -72,9 +72,9 @@ A pointer to a null-terminated string containing the URL to be parsed.
 
 ### -param ppu [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/9092dd7a-ff5b-465f-a808-ef4e0067f540">PARSEDURL</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-tagparsedurla">PARSEDURL</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/9092dd7a-ff5b-465f-a808-ef4e0067f540">PARSEDURL</a> structure that receives the parsed results. The calling application must set the structure's <i>cbSize</i> member to the size of the structure before calling <b>ParseURL</b>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-tagparsedurla">PARSEDURL</a> structure that receives the parsed results. The calling application must set the structure's <i>cbSize</i> member to the size of the structure before calling <b>ParseURL</b>.
 
 
 ## -returns
@@ -92,7 +92,7 @@ Returns <b>S_OK</b> on success, or a COM error code otherwise. The function retu
 
 
 
-The parsing performed by <b>ParseURL</b> is fairly rudimentary. For more sophisticated URL parsing, use <a href="https://msdn.microsoft.com/en-us/library/Aa384376(v=VS.85).aspx">InternetCrackUrl</a>.
+The parsing performed by <b>ParseURL</b> is fairly rudimentary. For more sophisticated URL parsing, use <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetcrackurla">InternetCrackUrl</a>.
 
 
 #### Examples

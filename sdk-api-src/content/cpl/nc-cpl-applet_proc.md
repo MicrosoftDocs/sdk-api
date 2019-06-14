@@ -100,7 +100,7 @@ Type: <b>LONG</b>
 The return value depends on the message. 
     					
 
-For more information, see the descriptions of the individual <a href="https://msdn.microsoft.com/2e61cbc0-fbb5-4680-8123-f8ffdcf98210">Control Panel messages</a>.
+For more information, see the descriptions of the individual <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc144185(v=vs.85)">Control Panel messages</a>.
 
 
 

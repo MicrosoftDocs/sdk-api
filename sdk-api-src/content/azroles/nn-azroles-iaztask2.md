@@ -49,5 +49,5 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IAzTask2</b> interface extends the <a href="https://msdn.microsoft.com/90eb19c9-1490-43f4-ab4b-393e825aeb2f">IAzTask</a> interface with a method that returns the role assignments associated with the task.
+The <b>IAzTask2</b> interface extends the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> interface with a method that returns the role assignments associated with the task.
 

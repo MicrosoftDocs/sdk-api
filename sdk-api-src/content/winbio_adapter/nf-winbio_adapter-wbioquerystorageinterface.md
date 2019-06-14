@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd401661(v=VS.85).aspx">WINBIO_STORAGE_INTERFACE</a> structure for the storage adapter.
+Retrieves a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_storage_interface">WINBIO_STORAGE_INTERFACE</a> structure for the storage adapter.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Retrieves a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd4
 
 ### -param StorageInterface [out]
 
-Address of a variable that receives a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd401661(v=VS.85).aspx">WINBIO_STORAGE_INTERFACE</a> structure.
+Address of a variable that receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_storage_interface">WINBIO_STORAGE_INTERFACE</a> structure.
 
 
 ## -returns
@@ -127,7 +127,7 @@ WbioQueryStorageInterface(
 
 
 
-<a href="https://msdn.microsoft.com/5f04d912-f9bc-41d4-aa9e-b843e4b5a994">Plug-in Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
  
 
  

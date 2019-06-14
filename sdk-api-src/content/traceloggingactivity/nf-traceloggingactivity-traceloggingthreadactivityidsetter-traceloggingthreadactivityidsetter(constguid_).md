@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a new <a href="https://msdn.microsoft.com/16E6E61C-0A3D-4B15-901B-E1302EBF1D1C">TraceLoggingThreadActivityIdSetter</a> object.
+Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivityidsetter">TraceLoggingThreadActivityIdSetter</a> object.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/16E6E61C-0A3D-4B15-901B-E1302EBF1D1C">TraceLoggingThreadActivityIdSetter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivityidsetter">TraceLoggingThreadActivityIdSetter</a>
  
 
  

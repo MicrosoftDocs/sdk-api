@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information about the high and low limits of a progress bar control. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb760832(v=VS.85).aspx">PBM_GETRANGE</a> message. 
+Contains information about the high and low limits of a progress bar control. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/pbm-getrange">PBM_GETRANGE</a> message. 
 
 
 ## -struct-fields

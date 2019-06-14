@@ -59,17 +59,17 @@ ms.custom: 19H1
 
 ### -field type
 
-A <a href="https://msdn.microsoft.com/ba725bf1-1d0a-4489-b912-3e761557d772">SoHAttributeType</a> value that defines the attribute type contained in <b>value</b>. 
+A <a href="https://docs.microsoft.com/windows/desktop/NAP/sohattributetype-enum">SoHAttributeType</a> value that defines the attribute type contained in <b>value</b>. 
 
 
 ### -field size
 
-The size, in bytes, of the SoH attribute pointed to by <b>value</b> and has a range of 0 to <a href="https://msdn.microsoft.com/2727487c-8c6a-4cd9-b6d8-253191a7d7f6">maxSoHAttributeSize</a>.
+The size, in bytes, of the SoH attribute pointed to by <b>value</b> and has a range of 0 to <a href="https://docs.microsoft.com/windows/desktop/NAP/nap-type-constants">maxSoHAttributeSize</a>.
 
 
 ### -field value
 
-A pointer to a <a href="https://msdn.microsoft.com/53b30455-33a5-4cf5-8d4e-f0fa8e4e1a12">SoHAttributeValue</a> structure that contains the SoH attribute value as defined by <b>type</b>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/NAP/sohattributevalue-union">SoHAttributeValue</a> structure that contains the SoH attribute value as defined by <b>type</b>.
 
 
 ## -see-also
@@ -77,11 +77,11 @@ A pointer to a <a href="https://msdn.microsoft.com/53b30455-33a5-4cf5-8d4e-f0fa8
 
 
 
-<a href="https://msdn.microsoft.com/e391be3c-95ab-4c80-a5d8-8a8fef28e56b">NAP Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/NAP/nap-reference">NAP Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/68048587-0f7e-48d4-9326-768a977ea3ee">NAP Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/NAP/nap-structures">NAP Structures</a>
  
 
  

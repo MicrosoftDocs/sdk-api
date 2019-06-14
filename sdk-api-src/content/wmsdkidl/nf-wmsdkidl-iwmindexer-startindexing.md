@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-The <b>StartIndexing</b> method initiates indexing. If you configure the indexer using the <a href="https://msdn.microsoft.com/en-us/library/Dd798533(v=VS.85).aspx">IWMIndexer2::Configure</a> method, <b>StartIndexing</b> creates an index based upon your configuration. When you use <b>StartIndexing</b> without first calling <b>Configure</b>, the indexer creates a default temporal index.
+The <b>StartIndexing</b> method initiates indexing. If you configure the indexer using the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmindexer2-configure">IWMIndexer2::Configure</a> method, <b>StartIndexing</b> creates an index based upon your configuration. When you use <b>StartIndexing</b> without first calling <b>Configure</b>, the indexer creates a default temporal index.
 
 
 
@@ -70,7 +70,7 @@ Pointer to a wide-character <b>null</b>-terminated string containing the URL or 
 
 ### -param pCallback [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd798544(v=VS.85).aspx">IWMStatusCallback</a> interface.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback">IWMStatusCallback</a> interface.
 
 
 ### -param pvContext [in]
@@ -176,11 +176,11 @@ g_wszWMStridable
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798531(v=VS.85).aspx">IWMIndexer Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmindexer">IWMIndexer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">IWMStatusCallback::OnStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a>
  
 
  

@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ### -param dwCookie [in]
 
-A DWORD value that identifies the advise event sink to uninstall. This value is provided by a previous call to <a href="https://msdn.microsoft.com/8ac607fd-b2c4-4441-8738-c64c25b6c586">ITfLangBarMgr::AdviseEventSink</a>.
+A DWORD value that identifies the advise event sink to uninstall. This value is provided by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbarmgr-adviseeventsink">ITfLangBarMgr::AdviseEventSink</a>.
 
 
 ## -returns
@@ -105,16 +105,16 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/60bd765f-0846-47f5-af1b-bc8e72720841">ITfLangBarMgr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbarmgr">ITfLangBarMgr</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ac607fd-b2c4-4441-8738-c64c25b6c586">ITfLangBarMgr::AdviseEventSink
+<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbarmgr-adviseeventsink">ITfLangBarMgr::AdviseEventSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/fd43b4c3-80bb-4118-a880-bdea07022c95">Thread Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/TSF/thread-manager">Thread Manager</a>
  
 
  

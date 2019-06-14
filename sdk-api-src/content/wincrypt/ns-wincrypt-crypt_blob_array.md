@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CRYPT_BLOB_ARRAY</b> structure contains an array of <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_DATA_BLOB</a> structures.
+The <b>CRYPT_BLOB_ARRAY</b> structure contains an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structures.
 
 
 ## -struct-fields
@@ -64,5 +64,5 @@ The number of elements in the <b>rgBlob</b> array.
 
 ### -field rgBlob
 
-An array of <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_DATA_BLOB</a> structures that contains the data blobs.
+An array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structures that contains the data blobs.
 

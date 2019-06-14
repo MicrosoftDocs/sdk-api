@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>NETCONNECTINFOSTRUCT</b> structure contains information about the performance of a network. It is used by the 
-<a href="https://msdn.microsoft.com/8ab9fa3b-50f4-492d-a352-8e215b2d62c1">NPGetConnectionPerformance</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npgetconnectionperformance">NPGetConnectionPerformance</a> function.
 
 
 ## -struct-fields

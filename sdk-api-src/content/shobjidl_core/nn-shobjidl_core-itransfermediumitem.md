@@ -49,14 +49,14 @@ ms.custom: 19H1
 ## -description
 
 
-Used by a copy engine to get the item on which to call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> to return a pointer to interface <a href="https://msdn.microsoft.com/8d0049e0-e227-40ae-a282-cdc17f227e24">ITransferDestination</a> or interface <a href="https://msdn.microsoft.com/341966d4-f9cf-457d-97ef-8e6107544283">ITransferSource</a>. These interfaces can be queried and enumerated for copy, move, or delete operations.
+Used by a copy engine to get the item on which to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> to return a pointer to interface <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferdestination">ITransferDestination</a> or interface <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransfersource">ITransferSource</a>. These interfaces can be queried and enumerated for copy, move, or delete operations.
 
 
 ## -remarks
 
 
 
-This interface provides only the methods of the <a href="https://msdn.microsoft.com/f42d218c-0251-45e0-b05a-f1ccdcaf036c">IRelatedItem</a> interface, from which it inherits.
+This interface provides only the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-irelateditem">IRelatedItem</a> interface, from which it inherits.
 
 
 

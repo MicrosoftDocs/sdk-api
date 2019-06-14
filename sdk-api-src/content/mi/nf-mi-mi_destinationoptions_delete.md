@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deletes the destination options structure created by using the <a href="https://msdn.microsoft.com/efaa1244-7fe4-4484-b9ac-e7309e2012b6">MI_Application_NewDestinationOptions</a> or <a href="https://msdn.microsoft.com/f331561b-97ad-42f1-91b3-d180db92da07">MI_DestinationOptions_Clone</a> function.
+Deletes the destination options structure created by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newdestinationoptions">MI_Application_NewDestinationOptions</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_destinationoptions_clone">MI_DestinationOptions_Clone</a> function.
 
 
 ## -parameters

@@ -60,7 +60,7 @@ Gets a service record at a given position from a  Program and System Information
 ### -param dwRecordIndex [in]
 
 Specifies the service record number, indexed from zero.
-  Call the <a href="https://msdn.microsoft.com/a39a0ec2-aabc-4609-91cc-667c14773515">IPBDA_Services::GetCountOfRecords</a> method to get the number of records in the PSIP table.
+  Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbda_services-getcountofrecords">IPBDA_Services::GetCountOfRecords</a> method to get the number of records in the PSIP table.
 
 
 ### -param pul64ServiceIdx [out]
@@ -82,11 +82,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/8d2d62cd-9f62-45d3-8b98-74bb8863c6d6">IPBDA_Services</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-ipbda_services">IPBDA_Services</a>
 
 
 
-<a href="https://msdn.microsoft.com/a39a0ec2-aabc-4609-91cc-667c14773515">IPBDA_Services::GetCountOfRecords</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbda_services-getcountofrecords">IPBDA_Services::GetCountOfRecords</a>
  
 
  

@@ -59,12 +59,12 @@ The <b>PeerGraphGetEventData</b> function retrieves peer events. An application 
 
 ### -param hPeerEvent [in]
 
-Peer event handle obtained by a call to <a href="https://msdn.microsoft.com/3ed963ba-0b9d-4de8-a610-b07cf49ed27f">PeerGraphRegisterEvent</a>.
+Peer event handle obtained by a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphregisterevent">PeerGraphRegisterEvent</a>.
 
 
 ### -param ppEventData [out]
 
-Receives a pointer to a <a href="https://msdn.microsoft.com/a052bff8-e90c-4ff7-8362-edb94b130f38">PEER_GRAPH_EVENT_DATA</a> structure that contains the data about an event notification.   When this structure is not needed, free it by calling <a href="https://msdn.microsoft.com/a5b7d563-214a-48e0-b184-0c12d62fb125">PeerGraphFreeData</a>.
+Receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_event_data_tag">PEER_GRAPH_EVENT_DATA</a> structure that contains the data about an event notification.   When this structure is not needed, free it by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphfreedata">PeerGraphFreeData</a>.
 
 
 ## -returns
@@ -118,7 +118,7 @@ The function call succeeds, but there is no data associated with a peer event.
 </dl>
 </td>
 <td width="60%">
-A peer graph must be  initialized with a call to <a href="https://msdn.microsoft.com/00ffdec7-f084-4170-a4a1-e6112bab4d61">PeerGraphStartup</a> before using this function.
+A peer graph must be  initialized with a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a> before using this function.
 
 </td>
 </tr>
@@ -132,7 +132,7 @@ A peer graph must be  initialized with a call to <a href="https://msdn.microsoft
 
 
 
-Peer event data is returned in  a <a href="https://msdn.microsoft.com/a052bff8-e90c-4ff7-8362-edb94b130f38">PEER_GRAPH_EVENT_DATA</a> structure.  The type of data structure that <b>PEER_GRAPH_EVENT_DATA</b> points to depends  on which event is triggered.
+Peer event data is returned in  a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_event_data_tag">PEER_GRAPH_EVENT_DATA</a> structure.  The type of data structure that <b>PEER_GRAPH_EVENT_DATA</b> points to depends  on which event is triggered.
 
 
 
@@ -142,19 +142,19 @@ Peer event data is returned in  a <a href="https://msdn.microsoft.com/a052bff8-e
 
 
 
-<a href="https://msdn.microsoft.com/a052bff8-e90c-4ff7-8362-edb94b130f38">PEER_GRAPH_EVENT_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_event_data_tag">PEER_GRAPH_EVENT_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/a5b7d563-214a-48e0-b184-0c12d62fb125">PeerGraphFreeData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphfreedata">PeerGraphFreeData</a>
 
 
 
-<a href="https://msdn.microsoft.com/3ed963ba-0b9d-4de8-a610-b07cf49ed27f">PeerGraphRegisterEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphregisterevent">PeerGraphRegisterEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/de37bb9a-e1b2-4448-9610-566f77acf542">PeerGraphUnregisterEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphunregisterevent">PeerGraphUnregisterEvent</a>
  
 
  

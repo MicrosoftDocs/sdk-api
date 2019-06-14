@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information about the two rectangles of a split button. Sent with the <a href="https://msdn.microsoft.com/en-us/library/Bb775534(v=VS.85).aspx">NM_GETCUSTOMSPLITRECT</a> notification.
+Contains information about the two rectangles of a split button. Sent with the <a href="https://docs.microsoft.com/windows/desktop/Controls/nm-getcustomsplitrect">NM_GETCUSTOMSPLITRECT</a> notification.
 
 
 ## -struct-fields
@@ -59,9 +59,9 @@ Contains information about the two rectangles of a split button. Sent with the <
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about the notification. 
+An <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that contains information about the notification. 
 
 
 ### -field rcClient
@@ -89,7 +89,7 @@ A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that d
 
 
 
-This information is used to draw the button. The button must be of style <a href="https://msdn.microsoft.com/en-us/library/Bb775951(v=VS.85).aspx">BS_SPLITBUTTON</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb775951(v=VS.85).aspx">BS_DEFSPLITBUTTON</a>
+This information is used to draw the button. The button must be of style <a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">BS_SPLITBUTTON</a> or <a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">BS_DEFSPLITBUTTON</a>
 
 
 

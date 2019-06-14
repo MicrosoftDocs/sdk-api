@@ -52,7 +52,7 @@ ms.custom: 19H1
 Initializes a new instance of <code>XMUBYTE4</code> from four <code>int8_t</code> arguments.
     
 
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420424(v=VS.85).aspx">XMUBYTE4</a> from four
+This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyte4">XMUBYTE4</a> from four
 	<code>uint8_t</code> arguments.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
@@ -123,11 +123,11 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420424(v=VS.85).aspx">XMUBYTE4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyte4">XMUBYTE4</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415443(v=VS.85).aspx">XMUBYTE4 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmubyte4-ctor">XMUBYTE4 Constructors</a>
  
 
  

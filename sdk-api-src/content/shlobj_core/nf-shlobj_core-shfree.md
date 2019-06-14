@@ -50,9 +50,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[This function is available through Windows XP Service Pack 2 (SP2) and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> instead.]
+<p class="CCE_Message">[This function is available through Windows XP Service Pack 2 (SP2) and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> instead.]
 
-Frees the memory allocated by <a href="https://msdn.microsoft.com/621e4335-1484-4111-9cfe-7ae5c6d5c609">SHAlloc</a>.
+Frees the memory allocated by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shalloc">SHAlloc</a>.
         
    		    
 
@@ -66,7 +66,7 @@ Frees the memory allocated by <a href="https://msdn.microsoft.com/621e4335-1484-
 
 Type: <b>void*</b>
 
-A pointer to the memory allocated by <a href="https://msdn.microsoft.com/621e4335-1484-4111-9cfe-7ae5c6d5c609">SHAlloc</a>.
+A pointer to the memory allocated by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shalloc">SHAlloc</a>.
 
 
 ## -returns

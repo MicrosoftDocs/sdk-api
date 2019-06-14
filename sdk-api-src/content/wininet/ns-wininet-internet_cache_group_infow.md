@@ -98,7 +98,7 @@ Group name.
 
 
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
@@ -108,11 +108,11 @@ Group name.
 
 
 
-<a href="https://msdn.microsoft.com/5e4e5666-1999-4bea-9b3e-f435f5dcfff8">GetUrlCacheGroupAttribute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-geturlcachegroupattributea">GetUrlCacheGroupAttribute</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd4e94cd-0fe5-414a-8a43-8777403e8a45">SetUrlCacheGroupAttribute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-seturlcachegroupattributea">SetUrlCacheGroupAttribute</a>
  
 
  

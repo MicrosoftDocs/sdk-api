@@ -66,8 +66,8 @@ Pointer to the header from which the block should be removed.
 ### -param dwInfoType [in]
 
 Specifies the type of block to be removed. The types available depend on the transport: 
-<a href="https://msdn.microsoft.com/911c61d4-e500-48c6-8861-39dbc09ab4e7">IP</a> or 
-<a href="https://msdn.microsoft.com/6cbc8415-f5ba-4f84-a23f-dd4f4a54d118">IPX</a>.
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/ip-information-types-for-router-information-blocks">IP</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/ipx-information-types-for-router-information-blocks">IPX</a>.
 
 
 ### -param lplpNewHeader [out]
@@ -107,7 +107,7 @@ The <i>lpHeader</i> parameter is <b>NULL</b>, or no block of type <i>dwInfoType<
 </td>
 <td width="60%">
 The memory allocation required for successful execution of 
-<a href="https://msdn.microsoft.com/2d124541-c954-4031-95cd-68a96c8e0a77">MprInfoBlockRemove</a> could not be completed.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprinfoblockremove">MprInfoBlockRemove</a> could not be completed.
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ The memory allocation required for successful execution of
 </td>
 <td width="60%">
 The call failed. Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the error message that corresponds to the returned error code.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the error message that corresponds to the returned error code.
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ The call failed. Use
 
 
 After removing an information block, obtain the new size of the information header by call 
-<a href="https://msdn.microsoft.com/cac491c9-3486-4eba-afe9-9e18f50c0643">MprInfoBlockQuerySize</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprinfoblockquerysize">MprInfoBlockQuerySize</a>.
 
 
 
@@ -144,19 +144,19 @@ After removing an information block, obtain the new size of the information head
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/389002c9-2d24-4b35-ab5b-801fe2091db9">MprInfo Functions and Information Headers</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/understanding-mprinfo-functions-and-information-headers">MprInfo Functions and Information Headers</a>
 
 
 
-<a href="https://msdn.microsoft.com/94d8fc3b-1ed6-4555-85c0-40e32d197a72">MprInfoBlockAdd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprinfoblockadd">MprInfoBlockAdd</a>
 
 
 
-<a href="https://msdn.microsoft.com/cac491c9-3486-4eba-afe9-9e18f50c0643">MprInfoBlockQuerySize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprinfoblockquerysize">MprInfoBlockQuerySize</a>
  
 
  

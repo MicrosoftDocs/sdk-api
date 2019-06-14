@@ -61,7 +61,7 @@ Sets flags to control the behavior of the dialog.
 
 Type: <b>FILEOPENDIALOGOPTIONS</b>
 
-One or more of the <a href="https://msdn.microsoft.com/CDDB4B39-AFB9-4C0D-9D5A-0F2EA9EABE64">FILEOPENDIALOGOPTIONS</a> values.
+One or more of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_fileopendialogoptions">FILEOPENDIALOGOPTIONS</a> values.
 
 
 ## -returns
@@ -79,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Generally, this method should take the value that was retrieved by <a href="https://msdn.microsoft.com/8a01b64d-b58e-4470-a5ed-8cf821b26c6b">IFileDialog::GetOptions</a> and modify it to include or exclude options by setting the appropriate flags.
+Generally, this method should take the value that was retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-getoptions">IFileDialog::GetOptions</a> and modify it to include or exclude options by setting the appropriate flags.
 
 
 

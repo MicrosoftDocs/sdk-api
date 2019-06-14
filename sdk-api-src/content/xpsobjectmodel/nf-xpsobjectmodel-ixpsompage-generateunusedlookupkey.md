@@ -59,7 +59,7 @@ Generates a unique name that can be used as a lookup key by a resource in a reso
 
 ### -param type [in]
 
-The   type of <a href="https://msdn.microsoft.com/2071292f-b898-4ec8-99f7-294c8d820965">IXpsOMShareable</a> object  for which  the lookup key is generated.
+The   type of <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomshareable">IXpsOMShareable</a> object  for which  the lookup key is generated.
 
 
 ### -param key [out, retval]
@@ -239,7 +239,7 @@ XPS_OBJECT_TYPE_VISUAL_BRUSH
 
 </div>
 <div> </div>
-This method allocates the memory used by the string that is returned in <i>key</i>.  If <i>key</i> is not <b>NULL</b>, use the <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory used by the string that is returned in <i>key</i>.  If <i>key</i> is not <b>NULL</b>, use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function  to free the memory.
 
 
 
@@ -249,7 +249,7 @@ This method allocates the memory used by the string that is returned in <i>key</
 
 
 
-<a href="https://msdn.microsoft.com/741deebd-9dce-4cd9-883e-4586c10a4609">IXpsOMPage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompage">IXpsOMPage</a>
 
 
 
@@ -257,7 +257,7 @@ This method allocates the memory used by the string that is returned in <i>key</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd372975(v=VS.85).aspx">XPS_OBJECT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0014">XPS_OBJECT_TYPE</a>
  
 
  

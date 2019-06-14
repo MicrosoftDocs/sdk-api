@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
  
-        Creates and initializes an <a href="https://msdn.microsoft.com/en-us/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a> object. This method has the same basic functionality as the <a href="https://msdn.microsoft.com/en-us/library/Bb231438(v=VS.85).aspx">ISearchProtocol::CreateAccessor</a> method, but it includes an additional <b>pUserData</b> parameter to supply additional data to the protocol handler.
+        Creates and initializes an <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a> object. This method has the same basic functionality as the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchprotocol-createaccessor">ISearchProtocol::CreateAccessor</a> method, but it includes an additional <b>pUserData</b> parameter to supply additional data to the protocol handler.
         
 
 
@@ -69,25 +69,25 @@ Pointer to a null-terminated Unicode string containing the URL of the item being
 
 ### -param pAuthenticationInfo [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965364(v=VS.85).aspx">AUTHENTICATION_INFO</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-_authentication_info">AUTHENTICATION_INFO</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa965364(v=VS.85).aspx">AUTHENTICATION_INFO</a> structure that contains authentication information necessary for accessing this item in the content source. 
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-_authentication_info">AUTHENTICATION_INFO</a> structure that contains authentication information necessary for accessing this item in the content source. 
                 
 
 
 ### -param pIncrementalAccessInfo [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965366(v=VS.85).aspx">INCREMENTAL_ACCESS_INFO</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-_incremental_access_info">INCREMENTAL_ACCESS_INFO</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa965366(v=VS.85).aspx">INCREMENTAL_ACCESS_INFO</a> structure that contains incremental access information, such as the last time the file was accessed by the gatherer. 
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-_incremental_access_info">INCREMENTAL_ACCESS_INFO</a> structure that contains incremental access information, such as the last time the file was accessed by the gatherer. 
 
 
 
 ### -param pItemInfo [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965368(v=VS.85).aspx">ITEM_INFO</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-_item_info">ITEM_INFO</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa965368(v=VS.85).aspx">ITEM_INFO</a> structure that contains information about the URL item, such as the name of the item's workspace catalog.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-_item_info">ITEM_INFO</a> structure that contains information about the URL item, such as the name of the item's workspace catalog.
 
 
 ### -param pUserData [in]
@@ -100,9 +100,9 @@ Pointer to user information. This data can be whatever the notification originat
 
 ### -param ppAccessor [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a>**</b>
 
-Receives the address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a> object created by this method. This object contains information about the URL item, such as the item's file name.
+Receives the address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a> object created by this method. This object contains information about the URL item, such as the item's file name.
                
 
 
@@ -121,7 +121,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method creates and initializes an <a href="https://msdn.microsoft.com/en-us/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a> object to process an item currently being accessed by the gatherer. The protocol host calls this method on the protocol handler. This method is called once for every URL processed by the gatherer and retrieves a pointer to the <b>IUrlAccessor</b> object. 
+This method creates and initializes an <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a> object to process an item currently being accessed by the gatherer. The protocol host calls this method on the protocol handler. This method is called once for every URL processed by the gatherer and retrieves a pointer to the <b>IUrlAccessor</b> object. 
 
 
 

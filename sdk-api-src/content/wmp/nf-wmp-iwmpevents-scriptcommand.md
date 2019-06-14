@@ -166,27 +166,27 @@ Param = http://myweb/mypage.html&&myframe
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563121(v=VS.85).aspx">IWMPClosedCaption::get_captioningId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-get_captioningid">IWMPClosedCaption::get_captioningId</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563310(v=VS.85).aspx">IWMPEvents Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563662(v=VS.85).aspx">IWMPSettings::get_invokeURLs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_invokeurls">IWMPSettings::get_invokeURLs</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563673(v=VS.85).aspx">IWMPSettings::put_baseURL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_baseurl">IWMPSettings::put_baseURL</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563674(v=VS.85).aspx">IWMPSettings::put_defaultFrame</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_defaultframe">IWMPSettings::put_defaultFrame</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563676(v=VS.85).aspx">IWMPSettings::put_invokeURLs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_invokeurls">IWMPSettings::put_invokeURLs</a>
  
 
  

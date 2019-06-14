@@ -53,8 +53,8 @@ The
 <b>LINECALLHUBTRACKINGINFO</b> structure contains information that reports the type of tracking available to a call hub. This structure is exposed only to applications that negotiate a TAPI version of 2.2 or higher.
 
 The 
-<a href="https://msdn.microsoft.com/ec2d5d46-1c83-47a0-9c10-684959630a16">TSPI_lineSetCallHubTracking</a> function and the 
-<a href="https://msdn.microsoft.com/c8fd8070-7393-4a59-9416-63acdd94f4ff">TSPI_lineGetCallHubTracking</a> function use the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetcallhubtracking">TSPI_lineSetCallHubTracking</a> function and the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetcallhubtracking">TSPI_lineGetCallHubTracking</a> function use the 
 <b>LINECALLHUBTRACKINGINFO</b> structure.
 
 
@@ -81,12 +81,12 @@ Size used, in bytes.
 ### -field dwAvailableTracking
 
 Available tracking, as represented by a 
-<a href="https://msdn.microsoft.com/ad3c8d2e-f074-4db0-bb72-fb2181cbf687">LINECALLHUBTRACKING</a>.constant.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallhubtracking--constants">LINECALLHUBTRACKING</a>.constant.
 
 
 ### -field dwCurrentTracking
 
-Current tracking, as represented by a <a href="https://msdn.microsoft.com/ad3c8d2e-f074-4db0-bb72-fb2181cbf687">LINECALLHUBTRACKING</a> constant.
+Current tracking, as represented by a <a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallhubtracking--constants">LINECALLHUBTRACKING</a> constant.
 
 
 ## -see-also
@@ -94,15 +94,15 @@ Current tracking, as represented by a <a href="https://msdn.microsoft.com/ad3c8d
 
 
 
-<a href="https://msdn.microsoft.com/ad3c8d2e-f074-4db0-bb72-fb2181cbf687">LINECALLHUBTRACKING</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallhubtracking--constants">LINECALLHUBTRACKING</a>
 
 
 
-<a href="https://msdn.microsoft.com/c8fd8070-7393-4a59-9416-63acdd94f4ff">TSPI_lineGetCallHubTracking</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetcallhubtracking">TSPI_lineGetCallHubTracking</a>
 
 
 
-<a href="https://msdn.microsoft.com/ec2d5d46-1c83-47a0-9c10-684959630a16">TSPI_lineSetCallHubTracking</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetcallhubtracking">TSPI_lineSetCallHubTracking</a>
  
 
  

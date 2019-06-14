@@ -87,7 +87,7 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error
 
 
 
-<a href="https://msdn.microsoft.com/0BE505EA-1C31-411E-AAF7-06D52D9F4682">ICompositorInterop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.composition.interop/nn-windows-ui-composition-interop-icompositorinterop">ICompositorInterop</a>
  
 
  

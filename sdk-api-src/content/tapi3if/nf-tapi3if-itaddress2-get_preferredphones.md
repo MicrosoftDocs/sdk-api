@@ -53,7 +53,7 @@ The
 <b>get_PreferredPhones</b> method returns a collection of phone objects corresponding to the phone devices that are preferred for use with this address.
 
 This method is intended for Visual Basic and scripting applications. C/C++ applications should use the 
-<a href="https://msdn.microsoft.com/a5a02f79-59b3-43f0-9b3b-fdd7839ba026">EnumeratePreferredPhones</a> method instead.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress2-enumeratepreferredphones">EnumeratePreferredPhones</a> method instead.
 
 
 ## -parameters
@@ -64,8 +64,8 @@ This method is intended for Visual Basic and scripting applications. C/C++ appli
 ### -param pPhones [out]
 
 Pointer to a <b>VARIANT</b> containing an 
-<a href="https://msdn.microsoft.com/2286678a-68b9-4f4a-b36b-7fdf8cdad6a6">ITCollection</a> of 
-<a href="https://msdn.microsoft.com/94dff33c-67a1-4df8-9ef5-2b6524438f6f">ITPhone</a> interface pointers.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a> of 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a> interface pointers.
 
 
 ## -returns
@@ -123,10 +123,10 @@ There is not enough memory to allocate the collection object.
 
 
 A phone device declares itself as being preferred to an address or set of addresses by returning address/line IDs using 
-<a href="https://msdn.microsoft.com/6a9c90ca-7a9e-43de-8075-240185658538">phoneGetID</a> with device class tapi/line. If no phones are available for use with this address, the method produces an empty collection and returns S_OK.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonegetid">phoneGetID</a> with device class tapi/line. If no phones are available for use with this address, the method produces an empty collection and returns S_OK.
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://msdn.microsoft.com/94dff33c-67a1-4df8-9ef5-2b6524438f6f">ITPhone</a> interface returned by <b>ITAddress2::get_PreferredPhones</b>. The application must call <b>Release</b> on the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a> interface returned by <b>ITAddress2::get_PreferredPhones</b>. The application must call <b>Release</b> on the 
 <b>ITPhone</b> interface to free resources associated with it.
 
 
@@ -137,11 +137,11 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 
-<a href="https://msdn.microsoft.com/3cc47291-8130-45bd-8db8-c5d1b463507d">ITAddress2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress2">ITAddress2</a>
 
 
 
-<a href="https://msdn.microsoft.com/94dff33c-67a1-4df8-9ef5-2b6524438f6f">ITPhone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a>
  
 
  

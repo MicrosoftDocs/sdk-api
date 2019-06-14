@@ -67,7 +67,7 @@ Zero-based index of the surface type to retrieve. Surface types are indexed in o
 
 ### -param pdwType [out]
 
-Receives a member of the <a href="https://msdn.microsoft.com/en-us/library/ms699850(v=VS.85).aspx">DXVA2_SurfaceType</a> enumeration that specifies the surface type.
+Receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ne-dxva2api-__midl___midl_itf_dxva2api_0000_0006_0001">DXVA2_SurfaceType</a> enumeration that specifies the surface type.
 
 
 ## -returns
@@ -114,11 +114,11 @@ The index was out of range.
 
 
 
-<a href="https://msdn.microsoft.com/cc2a6180-9698-460a-9a0d-1ee9e15f197f">IDirectXVideoMemoryConfiguration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideomemoryconfiguration">IDirectXVideoMemoryConfiguration</a>
 
 
 
-<a href="https://msdn.microsoft.com/40deaddb-bb17-4a34-8294-5c7dc8a8a457">Supporting DXVA 2.0 in DirectShow</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/supporting-dxva-2-0-in-directshow">Supporting DXVA 2.0 in DirectShow</a>
  
 
  

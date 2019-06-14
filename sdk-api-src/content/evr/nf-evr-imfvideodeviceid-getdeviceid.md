@@ -119,11 +119,11 @@ If a mixer or presenter uses Direct3D 9, it must return the value IID_IDirect3DD
 
 
 
-<a href="https://msdn.microsoft.com/1c985558-d25d-4f51-978a-58c05943dab9">Enhanced Video Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://msdn.microsoft.com/c42b75f9-6b72-4aab-92f2-3361ab475ce9">IMFVideoDeviceID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideodeviceid">IMFVideoDeviceID</a>
  
 
  

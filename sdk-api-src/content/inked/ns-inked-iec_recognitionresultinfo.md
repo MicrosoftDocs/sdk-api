@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Contains information about an <a href="https://msdn.microsoft.com/fd7ee250-6f76-419b-8164-0d2717ea288c">IInkRecognitionResult Interface</a> object.
+Contains information about an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult">IInkRecognitionResult Interface</a> object.
 
 
 
@@ -62,7 +62,7 @@ Contains information about an <a href="https://msdn.microsoft.com/fd7ee250-6f76-
 
 ### -field nmhdr
 
- The NMHDR structure that contains standard information about the WM_NOTIFY message. The NMHDR structure contains the handle and identifier of the control that is sending the message and the notification code, which in this case is <a href="https://msdn.microsoft.com/26023012-9ab1-4bd9-beff-41587bc74f5e">IECN_RECOGNITIONRESULT</a>. The format of the NMHDR structure is:
+ The NMHDR structure that contains standard information about the WM_NOTIFY message. The NMHDR structure contains the handle and identifier of the control that is sending the message and the notification code, which in this case is <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-messages--win32-only-">IECN_RECOGNITIONRESULT</a>. The format of the NMHDR structure is:
 
 
 ```cpp
@@ -77,7 +77,7 @@ typedef struct tagNMHDR {
 
 ### -field RecognitionResult
 
-The <a href="https://msdn.microsoft.com/fd7ee250-6f76-419b-8164-0d2717ea288c">IInkRecognitionResult</a> object that contains recognition results.
+The <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult">IInkRecognitionResult</a> object that contains recognition results.
 
 
 ## -see-also
@@ -85,19 +85,19 @@ The <a href="https://msdn.microsoft.com/fd7ee250-6f76-419b-8164-0d2717ea288c">II
 
 
 
-<a href="https://msdn.microsoft.com/fd7ee250-6f76-419b-8164-0d2717ea288c">IInkRecognitionResult Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult">IInkRecognitionResult Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
 
 
 
-<a href="https://msdn.microsoft.com/09618be0-fe49-494f-940f-79ff8352097e">RecognitionResult Event</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-recognitionresult">RecognitionResult Event</a>
 
 
 
-<a href="https://msdn.microsoft.com/fa43fad9-804c-42d9-9717-6686d5f98ed8">Using the COM Library</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>
  
 
  

@@ -62,7 +62,7 @@ This property is read-only.
 
 
 
-A certificate extension is defined by an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1) structure, and the extension is encoded into a byte array by using DER. The byte array is returned in a string to simplify use in languages other than C++. You can use the <a href="https://msdn.microsoft.com/b42628ae-deed-497b-a20f-d175843b79c2">EncodingType</a> enumeration to specify the type of Unicode encoding to apply to the string. You can call the <a href="https://msdn.microsoft.com/a01a371b-7dc2-4204-8029-269ac4a9c0d5">Initialize</a> method to specify the extension.
+A certificate extension is defined by an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) structure, and the extension is encoded into a byte array by using DER. The byte array is returned in a string to simplify use in languages other than C++. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-encodingtype">EncodingType</a> enumeration to specify the type of Unicode encoding to apply to the string. You can call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509extension-initialize">Initialize</a> method to specify the extension.
 
 
 
@@ -72,7 +72,7 @@ A certificate extension is defined by an <a href="https://msdn.microsoft.com/0ba
 
 
 
-<a href="https://msdn.microsoft.com/f04e3f63-c826-4401-a1c8-b2614e0dc374">IX509Extension</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>
  
 
  

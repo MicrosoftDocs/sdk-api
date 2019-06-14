@@ -52,5 +52,5 @@ Bypasses a WLAN driver.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/3fc32119-0f92-4939-8125-812f45584d45">WlanIhvControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanihvcontrol">WlanIhvControl</a>
  

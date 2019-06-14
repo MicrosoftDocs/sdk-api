@@ -63,7 +63,7 @@ Creates and registers a new  synchronization provider.
 ### -param hwndParent [in]
 
 HWND serving as the parent for the configuration UI that needs to be presented before the synchronization provider can be created. 
-    	The HWND should be <b>NULL</b> only if the <b>dwCapabilities</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Dd317251(v=VS.85).aspx">SyncProviderConfigUIConfiguration</a> structure is set to not support a UI.
+    	The HWND should be <b>NULL</b> only if the <b>dwCapabilities</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/ns-syncregistration-_syncproviderconfiguiconfiguration">SyncProviderConfigUIConfiguration</a> structure is set to not support a UI.
 
 
 ### -param pUnkContext [in]
@@ -73,7 +73,7 @@ Pointer to an interface containing additional information needed to generate the
 
 ### -param ppProviderInfo [out]
 
-An <a href="https://msdn.microsoft.com/fe50e34c-6499-4c1e-b891-7b4f797510f2">ISyncProviderInfo</a> object that contains information about the newly created and registered synchronization provider.
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderinfo">ISyncProviderInfo</a> object that contains information about the newly created and registered synchronization provider.
 
 
 ## -returns
@@ -131,7 +131,7 @@ There was not enough memory available to create and register the synchronization
 
 
 
-<a href="https://msdn.microsoft.com/27757aa1-a42d-4f66-99a8-bf66385fbec1">ISyncProviderConfigUI Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderconfigui">ISyncProviderConfigUI Interface</a>
  
 
  

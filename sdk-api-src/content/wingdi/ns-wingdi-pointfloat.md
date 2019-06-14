@@ -75,15 +75,15 @@ Specifies the vertical (y) coordinate of a point.
 
 
 
-<a href="https://msdn.microsoft.com/6ceccb76-be31-4a4d-b093-1f8e35261a60">GLYPHMETRICSFLOAT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_glyphmetricsfloat">GLYPHMETRICSFLOAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/589a86f1-598d-4175-97fc-27ca0b254935">OpenGL on Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows</a>
 
 
 
-<a href="https://msdn.microsoft.com/109c41b1-d3d2-4c1d-9809-99a0a89df263">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/OpenGL/structures">Structures</a>
  
 
  

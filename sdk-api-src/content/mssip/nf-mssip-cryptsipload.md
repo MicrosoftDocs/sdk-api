@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CryptSIPLoad</b> function loads the <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">dynamic-link library</a> (DLL) that implements a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">subject interface package</a> (SIP) and assigns appropriate library export functions to a <a href="https://msdn.microsoft.com/d34b5081-0af8-4dcc-8133-a91d0603d419">SIP_DISPATCH_INFO</a> structure. The exported functions must have been previously registered by calling the <a href="https://msdn.microsoft.com/99633c2f-e5ed-49e4-9c98-7501f66e5571">CryptSIPAddProvider</a> function.
+The <b>CryptSIPLoad</b> function loads the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">dynamic-link library</a> (DLL) that implements a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">subject interface package</a> (SIP) and assigns appropriate library export functions to a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_dispatch_info_">SIP_DISPATCH_INFO</a> structure. The exported functions must have been previously registered by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipaddprovider">CryptSIPAddProvider</a> function.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>CryptSIPLoad</b> function loads the <a href="https://msdn.microsoft.com/d
 
 ### -param pgSubject [in]
 
-A pointer to a GUID returned by calling the <a href="https://msdn.microsoft.com/b81472bc-6d9c-4634-a378-e39786a0ca09">CryptSIPRetrieveSubjectGuid</a> function.
+A pointer to a GUID returned by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipretrievesubjectguid">CryptSIPRetrieveSubjectGuid</a> function.
 
 
 ### -param dwFlags [in]
@@ -69,7 +69,7 @@ This parameter is reserved and must be set to zero.
 
 ### -param pSipDispatch [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/d34b5081-0af8-4dcc-8133-a91d0603d419">SIP_DISPATCH_INFO</a> structure that contains pointers to SIP provider functions that are specific to the subject type. The caller must initialize this structure to binary zeros, and set the <b>cbSize</b> member to <code>sizeof(SIP_DISPATCH_INFO)</code> before calling the <b>CryptSIPLoad</b> function.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_dispatch_info_">SIP_DISPATCH_INFO</a> structure that contains pointers to SIP provider functions that are specific to the subject type. The caller must initialize this structure to binary zeros, and set the <b>cbSize</b> member to <code>sizeof(SIP_DISPATCH_INFO)</code> before calling the <b>CryptSIPLoad</b> function.
 
 
 ## -returns
@@ -78,7 +78,7 @@ A pointer to a <a href="https://msdn.microsoft.com/d34b5081-0af8-4dcc-8133-a91d0
 
 If the function succeeds, the function returns <b>TRUE</b>.
 
-If the function fails, it returns  <b>FALSE</b>. For extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, it returns  <b>FALSE</b>. For extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 

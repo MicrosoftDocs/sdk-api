@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>RasPBDlgFunc</b> function is an application-defined callback function that receives notifications of user activity while the 
-<a href="https://msdn.microsoft.com/64603090-ec03-4eac-9da6-cb631c97dfb5">RasPhonebookDlg</a> dialog box is open.
+<a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nf-rasdlg-rasphonebookdlga">RasPhonebookDlg</a> dialog box is open.
 
 
 ## -parameters
@@ -82,8 +82,8 @@ The
 #### - dwCallbackId [in]
 
 Specifies the application-defined value that was specified in the <b>dwCallback</b> member of the 
-<a href="https://msdn.microsoft.com/fa5843ec-1f39-40b2-8c5a-9b72f3cc3539">RASPBDLG</a> structure passed to the 
-<a href="https://msdn.microsoft.com/64603090-ec03-4eac-9da6-cb631c97dfb5">RasPhonebookDlg</a> function.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377607(v=vs.85)">RASPBDLG</a> structure passed to the 
+<a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nf-rasdlg-rasphonebookdlga">RasPhonebookDlg</a> function.
 
 
 #### - dwEvent [in]
@@ -149,7 +149,7 @@ Received when the user makes changes in the<b> User Preferences</b> property she
 
 
 This event is also received during dialog startup if the <i>lpszPhonebook</i> parameter of the 
-<a href="https://msdn.microsoft.com/64603090-ec03-4eac-9da6-cb631c97dfb5">RasPhonebookDlg</a> call is <b>NULL</b>. In this case, the event informs the caller of the path of the default phone book.
+<a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nf-rasdlg-rasphonebookdlga">RasPhonebookDlg</a> call is <b>NULL</b>. In this case, the event informs the caller of the path of the default phone book.
 
 </td>
 </tr>
@@ -160,8 +160,8 @@ This event is also received during dialog startup if the <i>lpszPhonebook</i> pa
 </td>
 <td width="60%">
 Received during dialog box initialization when the RASPBDFLAG_NoUser flag is set. The <i>pData</i> parameter is a pointer to a 
-<a href="https://msdn.microsoft.com/a75d74e1-5a4b-4a17-9665-c964a9a28049">RASNOUSER</a> structure. The callback function should fill the structure with the user's logon credentials and dialog time out. The 
-<a href="https://msdn.microsoft.com/64603090-ec03-4eac-9da6-cb631c97dfb5">RasPhonebookDlg</a> function then uses the supplied credentials for authentication by the remote server. The <i>pszText</i> parameter is undefined.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377598(v=vs.85)">RASNOUSER</a> structure. The callback function should fill the structure with the user's logon credentials and dialog time out. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nf-rasdlg-rasphonebookdlga">RasPhonebookDlg</a> function then uses the supplied credentials for authentication by the remote server. The <i>pszText</i> parameter is undefined.
 
 </td>
 </tr>
@@ -172,7 +172,7 @@ Received during dialog box initialization when the RASPBDFLAG_NoUser flag is set
 </td>
 <td width="60%">
 Received if the RASPBDFLAG_NoUser flag is set and the user changes the credentials that are supplied during the <b>RASPBDEVENT_NoUser</b> event. The <i>pData</i> parameter is a pointer to the 
-<a href="https://msdn.microsoft.com/a75d74e1-5a4b-4a17-9665-c964a9a28049">RASNOUSER</a> structure that contains the updated credentials. This occurs during a dialing operation if the user changes his or her password, or if the authentication fails and the user retries authentication with different credentials. The <i>pszText</i> parameter is undefined.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377598(v=vs.85)">RASNOUSER</a> structure that contains the updated credentials. This occurs during a dialing operation if the user changes his or her password, or if the authentication fails and the user retries authentication with different credentials. The <i>pszText</i> parameter is undefined.
 
 </td>
 </tr>
@@ -204,19 +204,19 @@ This callback function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/a75d74e1-5a4b-4a17-9665-c964a9a28049">RASNOUSER</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377598(v=vs.85)">RASNOUSER</a>
 
 
 
-<a href="https://msdn.microsoft.com/64603090-ec03-4eac-9da6-cb631c97dfb5">RasPhonebookDlg</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nf-rasdlg-rasphonebookdlga">RasPhonebookDlg</a>
 
 
 
-<a href="https://msdn.microsoft.com/5016fa0b-72eb-484e-b8d7-af9de2e25689">Remote Access Service (RAS) Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/5883a77a-6af8-47a8-bb28-6ef60a5aa2f1">Remote Access Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
  
 
  

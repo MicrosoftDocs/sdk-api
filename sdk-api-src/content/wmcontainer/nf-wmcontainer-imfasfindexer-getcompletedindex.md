@@ -63,7 +63,7 @@ Retrieves the completed index from the ASF indexer object.
 
 ### -param pIIndexBuffer [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/3ccc7089-d0d0-4eb1-b763-0d4e348af685">IMFMediaBuffer</a> interface of a media buffer that receives the index data.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a> interface of a media buffer that receives the index data.
 
 
 ### -param cbOffsetWithinIndex [in]
@@ -118,9 +118,9 @@ This method uses as much of the buffer as possible, and updates the length of th
 
 If <i>pIIndexBuffer</i> is large enough to contain the entire buffer, <i>cbOffsetWithinIndex</i> should be 0, and the call needs to be made only once. Otherwise, there should be no gaps between successive buffers.
 
-The user must write this data to the content at <i>cbOffsetFromIndexStart</i> bytes after the end of the ASF data object. You can call <a href="https://msdn.microsoft.com/7ef0e36c-1be5-44ac-8f6a-e29805c99e78">IMFASFIndexer::GetIndexPosition</a> to determine the start position of the ASF index.
+The user must write this data to the content at <i>cbOffsetFromIndexStart</i> bytes after the end of the ASF data object. You can call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getindexposition">IMFASFIndexer::GetIndexPosition</a> to determine the start position of the ASF index.
 
-This call will not succeed unless <a href="https://msdn.microsoft.com/44b889e1-8860-44fa-b19f-5be9f844a194">IMFASFIndexer::CommitIndex</a> has been called. After calling <b>GetCompletedIndex</b>, the caller must call <a href="https://msdn.microsoft.com/972f5ae7-ad00-4c3b-8ec4-2cef4ce03c4e">IMFASFContentInfo::GenerateHeader</a> and overwrite the existing ASF header with the new header; otherwise, the ASF header will not match the content, and the file is not guaranteed to play correctly.
+This call will not succeed unless <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-commitindex">IMFASFIndexer::CommitIndex</a> has been called. After calling <b>GetCompletedIndex</b>, the caller must call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generateheader">IMFASFContentInfo::GenerateHeader</a> and overwrite the existing ASF header with the new header; otherwise, the ASF header will not match the content, and the file is not guaranteed to play correctly.
 
 You cannot use this method in an index reading scenario.  You can only use this method when writing indexes.
 
@@ -198,15 +198,15 @@ done:
 
 
 
-<a href="https://msdn.microsoft.com/3f95b0ac-d70f-4bc2-8524-c7de1df34afa">ASF Index Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-index-object">ASF Index Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/93127fe4-bca9-4674-ae21-012367d7dd2f">IMFASFIndexer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>
 
 
 
-<a href="https://msdn.microsoft.com/a14e3bef-0232-4259-930a-d860ed9230fd">Using the Indexer to Write a New Index</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd757932(v=vs.85)">Using the Indexer to Write a New Index</a>
  
 
  

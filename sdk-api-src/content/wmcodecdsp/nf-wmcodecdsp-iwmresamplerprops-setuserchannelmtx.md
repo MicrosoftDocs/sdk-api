@@ -95,7 +95,7 @@ The method succeeded.
 
 
 
-This method is equivalent to setting the <a href="https://msdn.microsoft.com/2f2a82bd-f051-4b05-a9c8-37aa4403fab4">MFPKEY_WMRESAMP_CHANNELMTX</a> property, except that the matrix is represented differently:
+This method is equivalent to setting the <a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-wmresamp-channelmtx">MFPKEY_WMRESAMP_CHANNELMTX</a> property, except that the matrix is represented differently:
 
 <ul>
 <li>Values are floating point.</li>
@@ -115,7 +115,7 @@ where <i>Coeff</i> is an integer coefficient.
 
 
 
-<a href="https://msdn.microsoft.com/af3cec68-59a2-4b9d-a279-e5af46e9c38e">IWMResamplerProps Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmresamplerprops">IWMResamplerProps Interface</a>
  
 
  

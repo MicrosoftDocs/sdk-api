@@ -59,7 +59,7 @@ Requests the text host's default character format.
 
 ### -param ppCF
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb787881(v=VS.85).aspx">CHARFORMAT</a>**</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_charformat">CHARFORMAT</a>**</b>
 
 The default character format. 
 
@@ -68,11 +68,11 @@ The default character format.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Return S_OK if the method succeeds. 
 
-Return the following COM error code if the method fails. For more information on COM error codes, see <a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling in COM</a>.
+Return the following COM error code if the method fails. For more information on COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -100,7 +100,7 @@ Not implemented.
 
 
 
-The text host retains ownership of the <a href="https://msdn.microsoft.com/en-us/library/Bb787881(v=VS.85).aspx">CHARFORMAT</a> returned. However, the pointer returned must remain valid until the text host notifies the text services object through <a href="https://msdn.microsoft.com/en-us/library/Bb787627(v=VS.85).aspx">OnTxPropertyBitsChange</a> that the default character format has changed.
+The text host retains ownership of the <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_charformat">CHARFORMAT</a> returned. However, the pointer returned must remain valid until the text host notifies the text services object through <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-ontxpropertybitschange">OnTxPropertyBitsChange</a> that the default character format has changed.
 
 
 
@@ -110,7 +110,7 @@ The text host retains ownership of the <a href="https://msdn.microsoft.com/en-us
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787881(v=VS.85).aspx">CHARFORMAT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_charformat">CHARFORMAT</a>
 
 
 
@@ -118,11 +118,11 @@ The text host retains ownership of the <a href="https://msdn.microsoft.com/en-us
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787627(v=VS.85).aspx">OnTxPropertyBitsChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-ontxpropertybitschange">OnTxPropertyBitsChange</a>
 
 
 
@@ -130,7 +130,7 @@ The text host retains ownership of the <a href="https://msdn.microsoft.com/en-us
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
  
 
  

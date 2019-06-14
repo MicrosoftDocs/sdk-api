@@ -71,7 +71,7 @@ This property is read/write.
 <li>EVENT_TRACE_USE_LOCAL_SEQUENCE</li>
 <li>EVENT_TRACE_USE_PAGED_MEMORY</li>
 </ul>
-For a description of all log file modes and their values, see <a href="https://msdn.microsoft.com/d12aaecb-776a-4476-9ba4-16af30fde9c2">Logging Mode Constants</a>. To set the other available log file modes, set the corresponding PLA property as shown in the following table.
+For a description of all log file modes and their values, see <a href="https://docs.microsoft.com/windows/desktop/ETW/logging-mode-constants">Logging Mode Constants</a>. To set the other available log file modes, set the corresponding PLA property as shown in the following table.
 
 <table>
 <tr>
@@ -81,42 +81,42 @@ For a description of all log file modes and their values, see <a href="https://m
 <tr>
 <td>EVENT_TRACE_BUFFERING_MODE</td>
 <td>
-<a href="https://msdn.microsoft.com/eeca98e2-8da1-44e5-8d43-00b52f51bcae">ITraceDataProvider::StreamMode</a> is set to <b>plaBuffering</b>.</td>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedatacollector-get_streammode">ITraceDataProvider::StreamMode</a> is set to <b>plaBuffering</b>.</td>
 </tr>
 <tr>
 <td>EVENT_TRACE_FILE_MODE_APPEND</td>
 <td>
-<a href="https://msdn.microsoft.com/c9843647-2c36-4d08-98d0-4df63b054993">IDataCollector::LogAppend</a>.</td>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_logappend">IDataCollector::LogAppend</a>.</td>
 </tr>
 <tr>
 <td>EVENT_TRACE_FILE_MODE_CIRCULAR</td>
 <td>
-<a href="https://msdn.microsoft.com/d1b35b02-cfda-42a4-bd1d-d837a91861d6">IDataCollector::LogCircular</a>.</td>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_logcircular">IDataCollector::LogCircular</a>.</td>
 </tr>
 <tr>
 <td>EVENT_TRACE_FILE_MODE_NEWFILE</td>
 <td>
-<a href="https://msdn.microsoft.com/5ecac3dd-0cd1-4563-a6b3-1b98e29fe769">IDataCollectorSet::Segment</a> and <a href="https://msdn.microsoft.com/7dd96822-a398-42c3-94f1-b9cd7a647575">IDataCollectorSet::SegmentMaxSize</a>.</td>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_segment">IDataCollectorSet::Segment</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_segmentmaxsize">IDataCollectorSet::SegmentMaxSize</a>.</td>
 </tr>
 <tr>
 <td>EVENT_TRACE_FILE_MODE_PREALLOCATE</td>
 <td>
-<a href="https://msdn.microsoft.com/7d05055b-a596-40b0-b289-31641957a72f">ITraceDataCollector::PreallocateFile</a> and <a href="https://msdn.microsoft.com/7dd96822-a398-42c3-94f1-b9cd7a647575">IDataCollectorSet::SegmentMaxSize</a>.</td>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedatacollector-get_preallocatefile">ITraceDataCollector::PreallocateFile</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_segmentmaxsize">IDataCollectorSet::SegmentMaxSize</a>.</td>
 </tr>
 <tr>
 <td>EVENT_TRACE_FILE_MODE_SEQUENTIAL</td>
 <td>
-<a href="https://msdn.microsoft.com/c9843647-2c36-4d08-98d0-4df63b054993">IDataCollector::LogAppend</a> and <a href="https://msdn.microsoft.com/d1b35b02-cfda-42a4-bd1d-d837a91861d6">IDataCollector::LogCircular</a> are false.</td>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_logappend">IDataCollector::LogAppend</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_logcircular">IDataCollector::LogCircular</a> are false.</td>
 </tr>
 <tr>
 <td>EVENT_TRACE_PRIVATE_LOGGER_MODE</td>
 <td>
-<a href="https://msdn.microsoft.com/63962145-7627-46bc-9be1-3a0738bdb1ce">ITraceDataProvider::ProcessMode</a>.</td>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedatacollector-get_processmode">ITraceDataProvider::ProcessMode</a>.</td>
 </tr>
 <tr>
 <td>EVENT_TRACE_REAL_TIME_MODE</td>
 <td>
-<a href="https://msdn.microsoft.com/eeca98e2-8da1-44e5-8d43-00b52f51bcae">ITraceDataProvider::StreamMode</a> is set to <b>plaRealTime</b>.</td>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedatacollector-get_streammode">ITraceDataProvider::StreamMode</a> is set to <b>plaRealTime</b>.</td>
 </tr>
 </table>
  
@@ -129,7 +129,7 @@ For a description of all log file modes and their values, see <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/1f57aa92-81f0-445f-baa3-274714e8291e">ITraceDataCollector</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-itracedatacollector">ITraceDataCollector</a>
  
 
  

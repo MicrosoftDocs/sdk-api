@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies whether an AAC decoder performs dynamic range control. This enumeration is used with the <a href="https://msdn.microsoft.com/b7cf092a-6bb8-454c-a78c-fb2334ac4820">AVDecHEAACDynamicRangeControl</a> property.
+Specifies whether an AAC decoder performs dynamic range control. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avdecheaacdynamicrangecontrol-property">AVDecHEAACDynamicRangeControl</a> property.
 
 
 ## -enum-fields
@@ -72,11 +72,11 @@ The decoder applies dynamic range control to any AAC stream that contains an ext
 
 
 
-<a href="https://msdn.microsoft.com/5d6e48cb-d181-448e-a96e-e5ab500427d7">Codec API Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
  
 
  

@@ -50,8 +50,8 @@ ms.custom: 19H1
 
 
 The <b>NOTIFYINFO</b> structure contains status information about a network connect or disconnect operation. It is used by the 
-<a href="https://msdn.microsoft.com/a061b088-81ca-4276-a0d6-9f1d1282a039">AddConnectNotify</a> and 
-<a href="https://msdn.microsoft.com/94bd969d-f94d-449c-971d-d17fff2c07e1">CancelConnectNotify</a> functions.
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-addconnectnotify">AddConnectNotify</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-cancelconnectnotify">CancelConnectNotify</a> functions.
 
 
 ## -struct-fields
@@ -72,8 +72,8 @@ This is set to WN_SUCCESS when <b>dwNotifyStatus</b> is NOTIFY_PRE.
 
 
 If <b>dwNotifyStatus</b> is set to NOTIFY_POST, <b>dwOperationStatus</b> contains the return status code from the function performing the operation: 
-<a href="https://msdn.microsoft.com/37a3988c-18ee-400a-85c3-cc3cbdf015ea">NPAddConnection</a> or 
-<a href="https://msdn.microsoft.com/e06768b2-760c-48f1-a6a4-896c3ea286f6">NPCancelConnection</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npaddconnection">NPAddConnection</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npcancelconnection">NPCancelConnection</a>.
 
 
 ### -field lpContext

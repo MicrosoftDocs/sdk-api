@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Saves the <a href="https://msdn.microsoft.com/9381cc2c-9554-4071-b9b5-3464d857c02d">IWICPersistStream</a> to the given input <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> using the given parameters.
+Saves the <a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicpersiststream">IWICPersistStream</a> to the given input <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> using the given parameters.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Saves the <a href="https://msdn.microsoft.com/9381cc2c-9554-4071-b9b5-3464d857c0
 
 ### -param pIStream [in]
 
-Type: <b><a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
 The stream to save to.
 
@@ -68,7 +68,7 @@ The stream to save to.
 
 Type: <b>DWORD</b>
 
-The <a href="https://msdn.microsoft.com/8c17cfcc-4f09-4cb5-a3fa-4eb865123ad6">WICPersistOptions</a>  to use when saving.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/ne-wincodecsdk-wicpersistoptions">WICPersistOptions</a>  to use when saving.
 
 
 ### -param fClearDirty [in]

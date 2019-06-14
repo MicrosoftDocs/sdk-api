@@ -62,7 +62,7 @@ Defines a keyframe, which represents a time offset within a storyboard.
 This structure should be treated as a handle. It is returned as an output parameter by some methods and should be used only as a  parameter passed back to other methods as an input parameter.
 
 
-<a href="https://msdn.microsoft.com/a77a460c-cf19-48a6-838f-c174950308d8">UI_ANIMATION_KEYFRAME_STORYBOARD_START</a> represents the implicit keyframe at the start of every storyboard.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd756780(v=vs.85)">UI_ANIMATION_KEYFRAME_STORYBOARD_START</a> represents the implicit keyframe at the start of every storyboard.
 
 
 
@@ -72,23 +72,23 @@ This structure should be treated as a handle. It is returned as an output parame
 
 
 
-<a href="https://msdn.microsoft.com/055206d8-ea9e-4013-89ee-2929bfeb2731">IUIAnimationStoryboard::AddKeyframeAfterTransition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-addkeyframeaftertransition">IUIAnimationStoryboard::AddKeyframeAfterTransition</a>
 
 
 
-<a href="https://msdn.microsoft.com/f598c8a4-4325-49ed-bc18-5d672e089592">IUIAnimationStoryboard::AddKeyframeAtOffset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-addkeyframeatoffset">IUIAnimationStoryboard::AddKeyframeAtOffset</a>
 
 
 
-<a href="https://msdn.microsoft.com/94a9aafc-fe5a-49a8-8e14-9e7c4624869a">IUIAnimationStoryboard::AddTransitionAtKeyframe</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-addtransitionatkeyframe">IUIAnimationStoryboard::AddTransitionAtKeyframe</a>
 
 
 
-<a href="https://msdn.microsoft.com/75db41ef-526b-40aa-a62d-a4262cc8d80e">IUIAnimationStoryboard::AddTransitionBetweenKeyframes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-addtransitionbetweenkeyframes">IUIAnimationStoryboard::AddTransitionBetweenKeyframes</a>
 
 
 
-<a href="https://msdn.microsoft.com/3c1ddb8c-fcbf-4b0c-8725-35dfc15e3c02">IUIAnimationStoryboard::RepeatBetweenKeyframes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-repeatbetweenkeyframes">IUIAnimationStoryboard::RepeatBetweenKeyframes</a>
  
 
  

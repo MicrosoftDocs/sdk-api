@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>BCRYPT_KEY_BLOB</b> structure is the base structure for all CNG key BLOBs. All CNG key BLOBs are based on this structure. For example, the <a href="https://msdn.microsoft.com/bbf3f4b9-5c69-4212-bb23-34bb2c84185c">BCRYPT_RSAKEY_BLOB</a> structure is based on this structure.
+The <b>BCRYPT_KEY_BLOB</b> structure is the base structure for all CNG key BLOBs. All CNG key BLOBs are based on this structure. For example, the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_rsakey_blob">BCRYPT_RSAKEY_BLOB</a> structure is based on this structure.
 
 
 ## -struct-fields
@@ -67,11 +67,11 @@ Specifies the type of key this BLOB represents. The possible values for this mem
 
 
 
-<a href="https://msdn.microsoft.com/e60f6630-e4b0-4f35-a3cf-95dbcb007124">BCRYPT_ECCKEY_BLOB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_ecckey_blob">BCRYPT_ECCKEY_BLOB</a>
 
 
 
-<a href="https://msdn.microsoft.com/bbf3f4b9-5c69-4212-bb23-34bb2c84185c">BCRYPT_RSAKEY_BLOB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_rsakey_blob">BCRYPT_RSAKEY_BLOB</a>
  
 
  

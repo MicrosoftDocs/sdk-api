@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ### -param pRangeThis [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange</a> object that contains the range that the property store now covers. This will be the range of text closest to the beginning of the context.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that contains the range that the property store now covers. This will be the range of text closest to the beginning of the context.
 
 
 ### -param pRangeNew [in]
@@ -68,7 +68,7 @@ Pointer to an <i>ITfRange</i> object that contains the range that the new proper
 
 ### -param ppPropStore [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/0678e622-3733-499b-b289-c8c181d4638c">ITfPropertyStore</a> interface pointer that receives a new property store object that will cover the range specified by <i>pRangeNew</i>.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfpropertystore">ITfPropertyStore</a> interface pointer that receives a new property store object that will cover the range specified by <i>pRangeNew</i>.
 
 
 ## -returns
@@ -115,12 +115,12 @@ If this method returns any value other than S_OK, the original property store is
 
 
 
-<a href="https://msdn.microsoft.com/0678e622-3733-499b-b289-c8c181d4638c">ITfPropertyStore
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfpropertystore">ITfPropertyStore
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
  
 

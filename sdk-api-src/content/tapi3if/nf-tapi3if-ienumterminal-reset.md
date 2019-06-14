@@ -104,7 +104,7 @@ Insufficient memory exists to perform the operation.
 
 
 
-<a href="https://msdn.microsoft.com/0d96f229-76c0-46a3-bc4b-6f558b9956c6">Terminal Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object">Terminal Object</a>
  
 
  

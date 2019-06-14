@@ -57,7 +57,7 @@ ms.custom: 19H1
 
 
 Specifies a default set of directories to search when the calling process loads a DLL. This search 
-    path is used when <a href="https://msdn.microsoft.com/4fc699ca-6ffb-4954-9b72-1b827d558563">LoadLibraryEx</a> is called with no 
+    path is used when <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a> is called with no 
     <b>LOAD_LIBRARY_SEARCH</b> flags.
 
 
@@ -121,8 +121,8 @@ If this value is used, %windows%\system32 is searched.
 </td>
 <td width="60%">
 If this value is used, any path explicitly added using the 
-        <a href="https://msdn.microsoft.com/7eb49bdf-58f9-4520-876b-c8b69bf26b8a">AddDllDirectory</a> or 
-        <a href="https://msdn.microsoft.com/c0c57554-3d98-487c-8bae-c594620d5a00">SetDllDirectory</a> function is searched. If more than 
+        <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-adddlldirectory">AddDllDirectory</a> or 
+        <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setdlldirectorya">SetDllDirectory</a> function is searched. If more than 
         one directory has been added, the order in which those directories are searched is unspecified.
 
 </td>
@@ -138,7 +138,7 @@ If this value is used, any path explicitly added using the
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -148,14 +148,14 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 The DLL search path is the set of directories that are searched for a DLL when a full path is not specified in 
-    a <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> or 
-    <a href="https://msdn.microsoft.com/4fc699ca-6ffb-4954-9b72-1b827d558563">LoadLibraryEx</a> function call, or when a full path to the 
+    a <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> or 
+    <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a> function call, or when a full path to the 
     DLL is specified but the system must search for dependent DLLs. For more information about the standard DLL search 
     path, see 
-    <a href="https://msdn.microsoft.com/44228cf2-6306-466c-8f16-f513cd3ba8b5">Dynamic-Link Library Search Order</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/Dlls/dynamic-link-library-search-order">Dynamic-Link Library Search Order</a>.
 
 The standard DLL search path contains directories that can be vulnerable to a 
-    <a href="https://msdn.microsoft.com/9493F299-789D-4CBC-9822-96EEAE39B494">DLL pre-loading attack</a>. An application can 
+    <a href="https://docs.microsoft.com/windows/desktop/Dlls/dynamic-link-library-security">DLL pre-loading attack</a>. An application can 
     use the <b>SetDefaultDllDirectories</b> function to 
     specify  a default DLL search path for the process that eliminates the most vulnerable directories and limits the 
     other directories that are searched. The process DLL search path applies only to the calling process and persists 
@@ -169,28 +169,28 @@ If the <i>DirectoryFlags</i> parameter specifies more than one flag, the directo
       directory is searched only for dependencies of the DLL being loaded.</li>
 <li>The application directory (<b>LOAD_LIBRARY_SEARCH_APPLICATION_DIR</b>).</li>
 <li>Paths explicitly added to the application search path with the 
-      <a href="https://msdn.microsoft.com/7eb49bdf-58f9-4520-876b-c8b69bf26b8a">AddDllDirectory</a> function 
+      <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-adddlldirectory">AddDllDirectory</a> function 
       (<b>LOAD_LIBRARY_SEARCH_USER_DIRS</b>) or the 
-      <a href="https://msdn.microsoft.com/c0c57554-3d98-487c-8bae-c594620d5a00">SetDllDirectory</a> function. If more than one path has 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setdlldirectorya">SetDllDirectory</a> function. If more than one path has 
       been added, the  order in which the paths are searched is unspecified.</li>
 <li>The System directory (<b>LOAD_LIBRARY_SEARCH_SYSTEM32</b>).</li>
 </ul>
 If <b>SetDefaultDllDirectories</b> does not 
     specify <b>LOAD_LIBRARY_SEARCH_USER_DIRS</b>, directories specified with the 
-    <a href="https://msdn.microsoft.com/7eb49bdf-58f9-4520-876b-c8b69bf26b8a">AddDllDirectory</a> function are used only for 
-    <a href="https://msdn.microsoft.com/4fc699ca-6ffb-4954-9b72-1b827d558563">LoadLibraryEx</a> function calls that specify 
+    <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-adddlldirectory">AddDllDirectory</a> function are used only for 
+    <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a> function calls that specify 
     <b>LOAD_LIBRARY_SEARCH_USER_DIRS</b>.
 
 It is not possible to revert to the standard DLL search path or remove any directory specified with 
     <b>SetDefaultDllDirectories</b> from the search 
     path. However, the process DLL search path can be overridden by calling 
-    <a href="https://msdn.microsoft.com/4fc699ca-6ffb-4954-9b72-1b827d558563">LoadLibraryEx</a> with one or more 
+    <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a> with one or more 
     <b>LOAD_LIBRARY_SEARCH</b> flags, and directories added with 
-    <a href="https://msdn.microsoft.com/7eb49bdf-58f9-4520-876b-c8b69bf26b8a">AddDllDirectory</a> can be removed by calling 
-    <a href="https://msdn.microsoft.com/89ab63be-f0db-4f0f-9792-6976d867524e">RemoveDllDirectory</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-adddlldirectory">AddDllDirectory</a> can be removed by calling 
+    <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-removedlldirectory">RemoveDllDirectory</a>.
 
 <b>Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:  </b>To call this function in an application, use the 
-      <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> function to retrieve its address from 
+      <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> function to retrieve its address from 
       Kernel32.dll. 
       <a href="http://go.microsoft.com/fwlink/p/?linkid=217865">KB2533623</a> must be 
       installed on the target platform.
@@ -203,27 +203,27 @@ It is not possible to revert to the standard DLL search path or remove any direc
 
 
 
-<a href="https://msdn.microsoft.com/7eb49bdf-58f9-4520-876b-c8b69bf26b8a">AddDllDirectory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-adddlldirectory">AddDllDirectory</a>
 
 
 
-<a href="https://msdn.microsoft.com/44228cf2-6306-466c-8f16-f513cd3ba8b5">Dynamic-Link Library Search Order</a>
+<a href="https://docs.microsoft.com/windows/desktop/Dlls/dynamic-link-library-search-order">Dynamic-Link Library Search Order</a>
 
 
 
-<a href="https://msdn.microsoft.com/9493F299-789D-4CBC-9822-96EEAE39B494">Dynamic-Link Library Security</a>
+<a href="https://docs.microsoft.com/windows/desktop/Dlls/dynamic-link-library-security">Dynamic-Link Library Security</a>
 
 
 
-<a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>
 
 
 
-<a href="https://msdn.microsoft.com/4fc699ca-6ffb-4954-9b72-1b827d558563">LoadLibraryEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/89ab63be-f0db-4f0f-9792-6976d867524e">RemoveDllDirectory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-removedlldirectory">RemoveDllDirectory</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Creates a <a href="https://msdn.microsoft.com/edc810d9-7d78-4b79-8cbb-e87401f6ae41">message</a> object with the specified properties.
+Creates a <a href="https://docs.microsoft.com/windows/desktop/wsw/message">message</a> object with the specified properties.
 
 
 
@@ -64,19 +64,19 @@ Creates a <a href="https://msdn.microsoft.com/edc810d9-7d78-4b79-8cbb-e87401f6ae
 
 ### -param envelopeVersion [in]
 
-A <a href="https://msdn.microsoft.com/2a6f6148-d37d-4ac2-8fd0-409eae71a3d8">WS_ENVELOPE_VERSION</a> enumeration value that specifies the version of the envelope for the message.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_envelope_version">WS_ENVELOPE_VERSION</a> enumeration value that specifies the version of the envelope for the message.
                 
 
 
 ### -param addressingVersion [in]
 
-A <a href="https://msdn.microsoft.com/87f60067-109c-456c-b060-33ab840872e0">WS_ADDRESSING_VERSION</a> that specifies the version of the addressing for the message.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION</a> that specifies the version of the addressing for the message.
                 
 
 
 ### -param properties
 
-An array of optional properties for the message. See <a href="https://msdn.microsoft.com/40751692-a8e6-4aa6-8dc9-55308b129a94">WS_MESSAGE_PROPERTY</a>.
+An array of optional properties for the message. See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_property">WS_MESSAGE_PROPERTY</a>.
 
 The value of this parameter may be <b>NULL</b>, in which case, the <i>propertyCount</i> parameter must be 0 (zero).
                 
@@ -90,15 +90,15 @@ The number of properties in the <i>properties</i> array.
 
 ### -param message
 
-On   success, a pointer that receives the address of a  <a href="https://msdn.microsoft.com/22cc39a9-a3a7-4b4d-bdee-0ccac5dc03ee">WS_MESSAGE</a> structure representing the new message.
+On   success, a pointer that receives the address of a  <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-message">WS_MESSAGE</a> structure representing the new message.
                 
 
-When you no longer need this structure, you must free it by calling <a href="https://msdn.microsoft.com/50e08300-9445-4741-9298-bd80fc777041">WsFreeMessage</a>.
+When you no longer need this structure, you must free it by calling <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreemessage">WsFreeMessage</a>.
 
 
 ### -param error [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> structure  that receives additional error information if the function fails.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
                 
                 
 
@@ -158,10 +158,10 @@ This function may return other errors not listed above.
 
 
 A message object is the delivery vehicle for Windows Web Services. A single message object can be used to send or  receive sequential messages. Reusing a message object in this way can reduce memory allocations.
-            When you no longer need the message, you must free the memory by calling <a href="https://msdn.microsoft.com/50e08300-9445-4741-9298-bd80fc777041">WsFreeMessage</a>. (For more information on reusing message objects, see <a href="https://msdn.microsoft.com/90a62cc8-a7e0-4451-8490-f6384bf3e7b6">WsResetMessage</a> .)
+            When you no longer need the message, you must free the memory by calling <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreemessage">WsFreeMessage</a>. (For more information on reusing message objects, see <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsresetmessage">WsResetMessage</a> .)
             
 
-If you are creating a message for use with a particular channel,  use the <a href="https://msdn.microsoft.com/0a4f076b-6725-45a9-8817-5dec3b647c4f">WsCreateMessageForChannel</a> function, which will ensure the correct message version for the channel. 
+If you are creating a message for use with a particular channel,  use the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatemessageforchannel">WsCreateMessageForChannel</a> function, which will ensure the correct message version for the channel. 
 
 
 

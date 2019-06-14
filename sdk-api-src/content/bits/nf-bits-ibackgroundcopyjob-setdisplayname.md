@@ -128,7 +128,7 @@ The state of the job cannot be BG_JOB_STATE_CANCELLED or BG_JOB_STATE_ACKNOWLEDG
 
 
 The display name is originally set when you create the job. For details on specifying the display name when you create the job, see the 
-<a href="https://msdn.microsoft.com/6d23e3c0-673b-4f37-b6a0-e364b2d73886">IBackgroundCopyManager::CreateJob</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-createjob">IBackgroundCopyManager::CreateJob</a> method.
 
 
 
@@ -138,11 +138,11 @@ The display name is originally set when you create the job. For details on speci
 
 
 
-<a href="https://msdn.microsoft.com/934cff3e-d4b8-4b76-96e1-fd7ded1842eb">IBackgroundCopyJob::GetDisplayName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getdisplayname">IBackgroundCopyJob::GetDisplayName</a>
 
 
 
-<a href="https://msdn.microsoft.com/6d23e3c0-673b-4f37-b6a0-e364b2d73886">IBackgroundCopyManager::CreateJob</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-createjob">IBackgroundCopyManager::CreateJob</a>
  
 
  

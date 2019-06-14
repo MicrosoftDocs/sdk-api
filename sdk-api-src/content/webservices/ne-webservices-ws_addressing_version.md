@@ -81,13 +81,13 @@ This addressing version indicates that the only addressing headers
                     as part of the SOAP envelope).
                 
 
-The <a href="https://msdn.microsoft.com/4c9b927d-00c7-41e4-bc29-e84a4c23c162">WS_ACTION_HEADER</a> and <b>WS_TO_HEADER</b> are
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_header_type">WS_ACTION_HEADER</a> and <b>WS_TO_HEADER</b> are
                     automatically mapped to/from the transport-specific message locations
                     when messages are sent/received.  Use of other <b>WS_HEADER_TYPE</b>are not supported for this addressing version.
                 
 
-This addressing version is only supported for <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_HTTP_CHANNEL_BINDING</a>.
+This addressing version is only supported for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>.
                     Since the SOAP over HTTP protocol does not support sending an action on a reply,
-                    the value of the <a href="https://msdn.microsoft.com/4c9b927d-00c7-41e4-bc29-e84a4c23c162">WS_ACTION_HEADER</a> will not be transmitted by the channel.
+                    the value of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_header_type">WS_ACTION_HEADER</a> will not be transmitted by the channel.
                 
 

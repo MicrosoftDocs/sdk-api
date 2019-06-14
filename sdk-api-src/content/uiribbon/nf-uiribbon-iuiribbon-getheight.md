@@ -90,7 +90,7 @@ The value returned for <i>cy</i> is based on a number of dependencies that
 
 #### Examples
 
-The following example demonstrates how to use the <b>IUIRibbon::GetHeight</b> method to retrieve the height  of the ribbon to calculate a display location for a <a href="https://msdn.microsoft.com/en-us/library/Dd940493(v=VS.85).aspx">Context Popup</a> control.
+The following example demonstrates how to use the <b>IUIRibbon::GetHeight</b> method to retrieve the height  of the ribbon to calculate a display location for a <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-contextpopup">Context Popup</a> control.
 
 
 ```cpp
@@ -135,11 +135,11 @@ void GetDisplayLocation(POINT &pt, HWND hWnd)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371360(v=VS.85).aspx">IUIRibbon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiribbon">IUIRibbon</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
  
 
  

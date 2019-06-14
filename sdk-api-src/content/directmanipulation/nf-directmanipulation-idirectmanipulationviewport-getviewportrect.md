@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the rectangle for the viewport relative to the origin of the viewport coordinate system specified by <a href="https://msdn.microsoft.com/45dfdf6e-aa4d-489a-bf9a-016e42eb57f6">SetViewportRect</a>.
+Retrieves the rectangle for the viewport relative to the origin of the viewport coordinate system specified by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-setviewportrect">SetViewportRect</a>.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRES
 
 
 
-<a href="https://msdn.microsoft.com/4c14143b-3b5f-401d-9df7-f17374abcd99">IDirectManipulationViewport</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport">IDirectManipulationViewport</a>
  
 
  

@@ -87,7 +87,7 @@ Otherwise, it returns an HRESULT error code.
 
 
 
-<b>SetCrossSlideParametersInteractionContext</b> fails if a <a href="https://msdn.microsoft.com/3871f24e-34a4-4524-801d-4d60cf6165d9">CROSS_SLIDE_PARAMETER</a> is enabled, but not specified  in the <i>crossSlideParameters</i> parameter.
+<b>SetCrossSlideParametersInteractionContext</b> fails if a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-cross_slide_parameter">CROSS_SLIDE_PARAMETER</a> is enabled, but not specified  in the <i>crossSlideParameters</i> parameter.
 
 
 #### Examples
@@ -126,19 +126,19 @@ SetCrossSlideParametersInteractionContext(
 
 
 
-<a href="https://msdn.microsoft.com/3871f24e-34a4-4524-801d-4d60cf6165d9">CROSS_SLIDE_PARAMETER</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-cross_slide_parameter">CROSS_SLIDE_PARAMETER</a>
 
 
 
-<a href="https://msdn.microsoft.com/19e934c6-8cd7-4302-a903-bd7865aef908">GetCrossSlideParameterInteractionContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-getcrossslideparameterinteractioncontext">GetCrossSlideParameterInteractionContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/3E3DE99D-B457-4202-8CC2-A6F5C019EFF8">HINTERACTIONCONTEXT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/0F34F181-D92C-4B08-9F1D-62379D4A2B15">Interaction Context Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>
  
 
  

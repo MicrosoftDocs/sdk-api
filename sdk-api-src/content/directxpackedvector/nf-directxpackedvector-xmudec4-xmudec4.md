@@ -52,7 +52,7 @@ ms.custom: 19H1
 Default constructor for <code>XMUDEC4</code>.
     
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee420508(v=VS.85).aspx">XMUDEC4</a> .
+Default constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmudec4">XMUDEC4</a> .
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
 ## -parameters
@@ -82,11 +82,11 @@ Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee4205
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420508(v=VS.85).aspx">XMUDEC4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmudec4">XMUDEC4</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415450(v=VS.85).aspx">XMUDEC4 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmudec4-ctor">XMUDEC4 Constructors</a>
  
 
  

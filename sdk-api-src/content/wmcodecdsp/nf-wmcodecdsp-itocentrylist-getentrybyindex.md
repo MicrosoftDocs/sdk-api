@@ -64,7 +64,7 @@ The index of the entry to retrieve.
 
 ### -param ppEntry [out]
 
-Pointer to a variable that receives a pointer to an <a href="https://msdn.microsoft.com/82a1a390-50b1-4699-9baa-60cea322ce7c">ITocEntry</a> interface that represents the entry.
+Pointer to a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocentry">ITocEntry</a> interface that represents the entry.
 
 
 ## -returns
@@ -100,11 +100,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/c8146c0f-ac91-42c7-9368-dd2db6079d3d">AddEntryByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/ee264259(v%3dvs.85)">AddEntryByIndex</a>
 
 
 
-<a href="https://msdn.microsoft.com/98052f26-7956-4973-ab86-428e7a355937">ITocEntryList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocentrylist">ITocEntryList</a>
  
 
  

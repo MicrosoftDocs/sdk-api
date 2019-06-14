@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PeerGraphStartup</b> function  indicates to the Peer Graphing Infrastructure what version of the Peer protocols the calling application requires.  <b>PeerGraphStartup</b> must be called before any other peer graphing functions. It must be matched by a call to <a href="https://msdn.microsoft.com/036f1bd6-f8aa-47ba-841e-f731ff486860">PeerGraphShutdown</a>.
+The <b>PeerGraphStartup</b> function  indicates to the Peer Graphing Infrastructure what version of the Peer protocols the calling application requires.  <b>PeerGraphStartup</b> must be called before any other peer graphing functions. It must be matched by a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphshutdown">PeerGraphShutdown</a>.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ Specify PEER_GRAPH_VERSION.
 
 ### -param pVersionData [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/b212101f-8c34-41d1-92b9-4daf3591200e">PEER_VERSION_DATA</a> structure that receives the 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_version_data_tag">PEER_VERSION_DATA</a> structure that receives the 
 version of the Peer Infrastructure installed on the local computer.
 
 
@@ -112,11 +112,11 @@ The version requested is not supported by the Peer Infrastructure .dll installed
 
 
 
-<a href="https://msdn.microsoft.com/b212101f-8c34-41d1-92b9-4daf3591200e">PEER_VERSION_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_version_data_tag">PEER_VERSION_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/036f1bd6-f8aa-47ba-841e-f731ff486860">PeerGraphShutdown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphshutdown">PeerGraphShutdown</a>
  
 
  

@@ -60,9 +60,9 @@ Gets publishing-related information about an application published by an applica
 
 ### -param ppai [out]
 
-Type: <b><a href="https://msdn.microsoft.com/927c58d3-4208-4fd3-a3fa-18ae7d8d3136">PUBAPPINFO</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/ns-shappmgr-_pubappinfo">PUBAPPINFO</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/927c58d3-4208-4fd3-a3fa-18ae7d8d3136">PUBAPPINFO</a> structure that returns the application information.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/ns-shappmgr-_pubappinfo">PUBAPPINFO</a> structure that returns the application information.
 
 
 ## -returns
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The dwMask member of the <a href="https://msdn.microsoft.com/927c58d3-4208-4fd3-a3fa-18ae7d8d3136">PUBAPPINFO</a> structure indicates which members have been requested. Note that Add/Remove Programs will not set the PAI_SCHEDULEDTIME and PAI_EXPIREDTIME bits.  However, the corresponding values stScheduled and stExpired will be used when applicable if the implementation provides them.  A publisher should provide this data if it is available.
+The dwMask member of the <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/ns-shappmgr-_pubappinfo">PUBAPPINFO</a> structure indicates which members have been requested. Note that Add/Remove Programs will not set the PAI_SCHEDULEDTIME and PAI_EXPIREDTIME bits.  However, the corresponding values stScheduled and stExpired will be used when applicable if the implementation provides them.  A publisher should provide this data if it is available.
 
 
 #### Examples
@@ -125,19 +125,19 @@ HRESULT CPubApp::GetPublishedAppInfo(PUBAPPINFO *pInfo)
 
 
 
-<a href="https://msdn.microsoft.com/5391444a-53b6-48c9-9a94-d045b3f97182">IAppPublisher</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-iapppublisher">IAppPublisher</a>
 
 
 
-<a href="https://msdn.microsoft.com/89a06b1d-1b72-46ca-91cd-bb63ea0cbff7">IEnumPublishedApps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-ienumpublishedapps">IEnumPublishedApps</a>
 
 
 
-<a href="https://msdn.microsoft.com/a5a44e74-494a-4c9b-8bf3-85c6093b2c0e">IPublishedApp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-ipublishedapp">IPublishedApp</a>
 
 
 
-<a href="https://msdn.microsoft.com/927c58d3-4208-4fd3-a3fa-18ae7d8d3136">PUBAPPINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/ns-shappmgr-_pubappinfo">PUBAPPINFO</a>
  
 
  

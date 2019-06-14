@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>RpcFreeAuthorizationContext</b> function frees an Authz context obtained by a previous call to the 
-<a href="https://msdn.microsoft.com/993dfa23-4303-4601-b05d-70158e5e87ed">RpcGetAuthorizationContextForClient</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcgetauthorizationcontextforclient">RpcGetAuthorizationContextForClient</a> function.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ Pointer to the previously obtained Authz client context to be freed.
 Successful completion returns RPC_S_OK. This function does not fail unless an invalid parameter is provided.
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -90,12 +90,12 @@ The <i>pAuthzClientContext</i> parameter is a pointer to the Authz context, not 
 
 
 
-<a href="https://msdn.microsoft.com/a15c61f0-03cc-462f-b5c1-8e7f062e9523">Extended Error
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/extended-error-information">Extended Error
 		  Information</a>
 
 
 
-<a href="https://msdn.microsoft.com/993dfa23-4303-4601-b05d-70158e5e87ed">RpcGetAuthorizationContextForClient</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcgetauthorizationcontextforclient">RpcGetAuthorizationContextForClient</a>
  
 
  

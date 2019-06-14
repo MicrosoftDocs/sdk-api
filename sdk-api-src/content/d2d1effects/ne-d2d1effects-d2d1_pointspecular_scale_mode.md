@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The interpolation mode the <a href="https://msdn.microsoft.com/89E22FD0-BB7F-465F-A79C-056CA9F14F5D">Point-specular lighting effect</a> uses to scale the image to the corresponding kernel unit length. 
+The interpolation mode the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/point-specular">Point-specular lighting effect</a> uses to scale the image to the corresponding kernel unit length. 
         There are six scale modes that range in quality and speed.
 
 

@@ -77,7 +77,7 @@ The type of instance information structure returned.  This parameter must be one
 
 </td>
 <td>
-Return an <a href="https://msdn.microsoft.com/35e2b098-1bc2-4ffc-86c8-b60b651df027">INSTANCE_BASIC_INFORMATION</a> structure for the instance. 
+Return an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltuserstructures/ns-fltuserstructures-_instance_basic_information">INSTANCE_BASIC_INFORMATION</a> structure for the instance. 
 
 </td>
 </tr>
@@ -87,7 +87,7 @@ Return an <a href="https://msdn.microsoft.com/35e2b098-1bc2-4ffc-86c8-b60b651df0
 
 </td>
 <td>
-Return an <a href="https://msdn.microsoft.com/6c034749-c110-4623-8a7b-a19235cad298">INSTANCE_FULL_INFORMATION</a> structure for the instance. 
+Return an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltuserstructures/ns-fltuserstructures-_instance_full_information">INSTANCE_FULL_INFORMATION</a> structure for the instance. 
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ Return an <a href="https://msdn.microsoft.com/6c034749-c110-4623-8a7b-a19235cad2
 
 </td>
 <td>
-Return an <a href="https://msdn.microsoft.com/cabcb39c-1f8d-41dc-a6ec-78f3fb3911cf">INSTANCE_PARTIAL_INFORMATION</a> structure for the instance. 
+Return an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltuserstructures/ns-fltuserstructures-_instance_partial_information">INSTANCE_PARTIAL_INFORMATION</a> structure for the instance. 
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ Return an <a href="https://msdn.microsoft.com/cabcb39c-1f8d-41dc-a6ec-78f3fb3911
 
 </td>
 <td>
-Return an <a href="https://msdn.microsoft.com/35311ee7-d023-4b04-b510-a949ab9a40ca">INSTANCE_AGGREGATE_STANDARD_INFORMATION</a> structure for the instance.  The LegacyFilter portion of the structure is not utilized.  This structure is available starting with Windows Vista.
+Return an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltuserstructures/ns-fltuserstructures-_instance_aggregate_standard_information">INSTANCE_AGGREGATE_STANDARD_INFORMATION</a> structure for the instance.  The LegacyFilter portion of the structure is not utilized.  This structure is available starting with Windows Vista.
 
 </td>
 </tr>
@@ -132,7 +132,7 @@ Pointer to a caller-allocated variable that receives the number of bytes returne
 
 ### -param lpFilterInstanceFind [out]
 
-Pointer to a caller-allocated variable that receives a search handle for the minifilter if the call to <b>FilterInstanceFindFirst</b> succeeds; otherwise, it receives INVALID_HANDLE_VALUE. This search handle can be used in subsequent calls to <a href="https://msdn.microsoft.com/c7305378-1de8-4db0-89a2-2ac342a17620">FilterInstanceFindNext</a> and <a href="https://msdn.microsoft.com/f4b066ca-4154-425d-85f6-682dc7460117">FilterInstanceFindClose</a>. 
+Pointer to a caller-allocated variable that receives a search handle for the minifilter if the call to <b>FilterInstanceFindFirst</b> succeeds; otherwise, it receives INVALID_HANDLE_VALUE. This search handle can be used in subsequent calls to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindnext">FilterInstanceFindNext</a> and <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindclose">FilterInstanceFindClose</a>. 
 
 
 ## -returns
@@ -189,7 +189,7 @@ The minifilter specified by the <i>lpFilterName</i> parameter does not have an i
 
 
 
-The <b>FilterInstanceFindFirst</b> function opens a search handle and returns information about an instance for the minifilter named by <i>lpFilterName</i>. After the search handle has been established, call <a href="https://msdn.microsoft.com/c7305378-1de8-4db0-89a2-2ac342a17620">FilterInstanceFindNext</a> to search for other instances of the same minifilter. When the search handle is no longer needed, close it by calling <a href="https://msdn.microsoft.com/f4b066ca-4154-425d-85f6-682dc7460117">FilterInstanceFindClose</a>.
+The <b>FilterInstanceFindFirst</b> function opens a search handle and returns information about an instance for the minifilter named by <i>lpFilterName</i>. After the search handle has been established, call <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindnext">FilterInstanceFindNext</a> to search for other instances of the same minifilter. When the search handle is no longer needed, close it by calling <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindclose">FilterInstanceFindClose</a>.
 
 
 
@@ -199,27 +199,27 @@ The <b>FilterInstanceFindFirst</b> function opens a search handle and returns in
 
 
 
-<a href="https://msdn.microsoft.com/f4b066ca-4154-425d-85f6-682dc7460117">FilterInstanceFindClose</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindclose">FilterInstanceFindClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/c7305378-1de8-4db0-89a2-2ac342a17620">FilterInstanceFindNext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindnext">FilterInstanceFindNext</a>
 
 
 
-<a href="https://msdn.microsoft.com/35311ee7-d023-4b04-b510-a949ab9a40ca">INSTANCE_AGGREGATE_STANDARD_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltuserstructures/ns-fltuserstructures-_instance_aggregate_standard_information">INSTANCE_AGGREGATE_STANDARD_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/35e2b098-1bc2-4ffc-86c8-b60b651df027">INSTANCE_BASIC_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltuserstructures/ns-fltuserstructures-_instance_basic_information">INSTANCE_BASIC_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c034749-c110-4623-8a7b-a19235cad298">INSTANCE_FULL_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltuserstructures/ns-fltuserstructures-_instance_full_information">INSTANCE_FULL_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/cabcb39c-1f8d-41dc-a6ec-78f3fb3911cf">INSTANCE_PARTIAL_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltuserstructures/ns-fltuserstructures-_instance_partial_information">INSTANCE_PARTIAL_INFORMATION</a>
  
 
  

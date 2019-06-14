@@ -66,21 +66,21 @@ The index to place the metadata item.
 
 ### -param pvarSchema [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>*</b>
 
 Pointer to the schema property of the metadata item.
 
 
 ### -param pvarId [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>*</b>
 
 Pointer to the id property of the metadata item.
 
 
 ### -param pvarValue [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>*</b>
 
 Pointer to the metadata value to set at the given index.
 

@@ -59,7 +59,7 @@ Retrieves compressed size of the block.
 
 ### -param size [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT32</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT32</a>*</b>
 
 The compressed size of the block, in bytes.
 
@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 This size corresponds to the compressed size of the block. 
 
-The <i>size</i> value corresponds to the <b>Size</b> attribute of the <a href="https://msdn.microsoft.com/7b4a9f58-a370-41f1-9234-004fc8ba425b">Block</a> element in the block map.
+The <i>size</i> value corresponds to the <b>Size</b> attribute of the <a href="https://docs.microsoft.com/uwp/schemas/blockmapschema/element-block">Block</a> element in the block map.
 
 
 
@@ -91,7 +91,7 @@ The <i>size</i> value corresponds to the <b>Size</b> attribute of the <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/39B0680A-F27B-478F-8E83-FE1BFCF61AC4">IAppxBlockMapBlock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxblockmapblock">IAppxBlockMapBlock</a>
  
 
  

@@ -59,7 +59,7 @@ Gets a class identifier (CLSID) from the preferred list, specified by index valu
 
 ### -param pluginType [in]
 
-Member of the <a href="https://msdn.microsoft.com/f967cf3f-582c-457a-ba75-980feb2d9bf3">MF_Plugin_Type</a> enumeration, specifying the type of object to enumerate.
+Member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-_mf_plugin_type">MF_Plugin_Type</a> enumeration, specifying the type of object to enumerate.
 
 
 ### -param index [in]
@@ -69,7 +69,7 @@ The zero-based index of the CLSID to retrieve.
 
 ### -param selector [out]
 
-Receives the key name associated with the CLSID. The caller must free the memory for the returned string by calling the <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> function. For more information about the format of key names, see the Remarks section of <a href="https://msdn.microsoft.com/cdc6fd4f-c544-43bb-ba99-5468ef49949d">IMFPluginControl</a>.
+Receives the key name associated with the CLSID. The caller must free the memory for the returned string by calling the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function. For more information about the format of key names, see the Remarks section of <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfplugincontrol">IMFPluginControl</a>.
 
 
 ### -param clsid [out]
@@ -132,7 +132,7 @@ The <i>index</i> parameter is out of range.
 
 
 
-<a href="https://msdn.microsoft.com/cdc6fd4f-c544-43bb-ba99-5468ef49949d">IMFPluginControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfplugincontrol">IMFPluginControl</a>
  
 
  

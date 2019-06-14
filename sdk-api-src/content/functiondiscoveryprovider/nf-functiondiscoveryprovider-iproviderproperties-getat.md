@@ -61,7 +61,7 @@ Gets the property key at the specified index.
 
 ### -param pIFunctionInstance [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/cc421719-73a6-4d4d-9bf8-171e46c4e275">IFunctionInstance</a> interface.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a> interface.
 
 
 ### -param iProviderInstanceContext [in]
@@ -134,7 +134,7 @@ The  <i>pKey</i> parameter is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/d6d3d1d1-d2fb-409c-be37-3cd286e325a3">IProviderProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderproperties">IProviderProperties</a>
  
 
  

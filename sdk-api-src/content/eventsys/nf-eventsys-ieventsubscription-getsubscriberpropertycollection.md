@@ -59,7 +59,7 @@ Retrieves a collection of properties and values stored in the subscriber propert
 
 ### -param collection [out, retval]
 
-Address of a pointer to the <a href="https://msdn.microsoft.com/7bb00b80-a48f-49c8-983d-9ff0ea424e4d">IEventObjectCollection</a> interface on an event object collection. This parameter cannot be <b>NULL</b>. 
+Address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventobjectcollection">IEventObjectCollection</a> interface on an event object collection. This parameter cannot be <b>NULL</b>. 
 
 
 ## -returns
@@ -86,7 +86,7 @@ A property bag is used to store information about the events the subscriber need
 
 
 
-<a href="https://msdn.microsoft.com/ce3f9f7e-3d0a-445f-b3db-671ee595aedf">IEventSubscription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
  
 
  

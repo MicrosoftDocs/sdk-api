@@ -81,7 +81,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
 Return user account names. The <i>bufptr</i> parameter points to an array of 
-<a href="https://msdn.microsoft.com/5d24a2dd-d1ee-4c97-8fbc-0b336313b60c">USER_INFO_0</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_0">USER_INFO_0</a> structures.
 
 </td>
 </tr>
@@ -92,7 +92,7 @@ Return user account names. The <i>bufptr</i> parameter points to an array of
 </td>
 <td width="60%">
 Return detailed information about user accounts. The <i>bufptr</i> parameter points to an array of 
-<a href="https://msdn.microsoft.com/f17a1aef-45f1-461f-975d-75221d08277c">USER_INFO_1</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1">USER_INFO_1</a> structures.
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ Return detailed information about user accounts. The <i>bufptr</i> parameter poi
 </td>
 <td width="60%">
 Return detailed information about user accounts, including authorization levels and logon information. The <i>bufptr</i> parameter points to an array of 
-<a href="https://msdn.microsoft.com/50c78c6a-a08f-473b-929a-9528e618165f">USER_INFO_2</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_2">USER_INFO_2</a> structures.
 
 </td>
 </tr>
@@ -114,7 +114,7 @@ Return detailed information about user accounts, including authorization levels 
 </td>
 <td width="60%">
 Return detailed information about user accounts, including authorization levels, logon information, RIDs for the user and the primary group, and profile information. The <i>bufptr</i> parameter points to an array of 
-<a href="https://msdn.microsoft.com/39ed05f5-165d-4cb8-98af-e4120a1634f6">USER_INFO_3</a> structures. 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_3">USER_INFO_3</a> structures. 
 
 </td>
 </tr>
@@ -125,7 +125,7 @@ Return detailed information about user accounts, including authorization levels,
 </td>
 <td width="60%">
 Return user and account names and comments. The <i>bufptr</i> parameter points to an array of 
-<a href="https://msdn.microsoft.com/f85e3e92-02b2-4ee8-8a82-38e4ef5b4072">USER_INFO_10</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_10">USER_INFO_10</a> structures.
 
 </td>
 </tr>
@@ -136,7 +136,7 @@ Return user and account names and comments. The <i>bufptr</i> parameter points t
 </td>
 <td width="60%">
 Return detailed information about user accounts. The <i>bufptr</i> parameter points to an array of 
-<a href="https://msdn.microsoft.com/718e7143-a6df-4912-954c-cc63bb490044">USER_INFO_11</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_11">USER_INFO_11</a> structures.
 
 </td>
 </tr>
@@ -147,8 +147,8 @@ Return detailed information about user accounts. The <i>bufptr</i> parameter poi
 </td>
 <td width="60%">
 Return the user's name and identifier and various account attributes. The <i>bufptr</i> parameter points to an array of 
-<a href="https://msdn.microsoft.com/67f58d6b-488b-4a88-808f-edb9c3464d85">USER_INFO_20</a> structures. Note that on Windows XP and later, it is recommended that you use 
-<a href="https://msdn.microsoft.com/1af3ff6d-bc9f-44ad-9981-124ac1961298">USER_INFO_23</a> instead.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_20">USER_INFO_20</a> structures. Note that on Windows XP and later, it is recommended that you use 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_23">USER_INFO_23</a> instead.
 
 </td>
 </tr>
@@ -227,14 +227,14 @@ Enumerates member server machine account data. This account type is associated w
 
 A pointer to the buffer that receives the data. The format of this data depends on the value of the <i>level</i> parameter. 
 
-The buffer for this data is allocated by the system and the application must call the <a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a> function to free the allocated memory when the data returned is no longer needed. Note that you must free the buffer even if the <b>NetUserEnum</b> function fails with ERROR_MORE_DATA.
+The buffer for this data is allocated by the system and the application must call the <a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function to free the allocated memory when the data returned is no longer needed. Note that you must free the buffer even if the <b>NetUserEnum</b> function fails with ERROR_MORE_DATA.
 
 
 ### -param prefmaxlen [in]
 
 The preferred maximum length, in bytes, of the returned data. If you specify MAX_PREFERRED_LENGTH, the <b>NetUserEnum</b> function allocates the amount of memory required for the data. If you specify another value in this parameter, it can restrict the number of bytes that the function returns. If the buffer size is insufficient to hold all entries, the function returns ERROR_MORE_DATA. For more information, see 
-<a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a> and 
-<a href="https://msdn.microsoft.com/08599966-68a1-420b-bbc7-6daac833d08f">Network Management Function Buffer Lengths</a>.
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
 
 ### -param entriesread [out]
@@ -245,8 +245,8 @@ A pointer to a value that receives the count of elements actually enumerated.
 ### -param totalentries [out]
 
 A pointer to a value that receives the total number of entries that could have been enumerated from the current resume position. Note that applications should consider this value only as a hint. If your application is communicating with a Windows 2000 or later domain controller, you should consider using the 
-<a href="https://msdn.microsoft.com/3c13ea2f-fe40-4fd4-8540-422f277e07c1">ADSI LDAP Provider</a> to retrieve this type of data more efficiently. The ADSI LDAP Provider implements a set of ADSI objects that support various ADSI interfaces. For more information, see 
-<a href="https://msdn.microsoft.com/419d7953-a879-4d6c-be74-173d76c3f932">ADSI Service Providers</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-ldap-provider">ADSI LDAP Provider</a> to retrieve this type of data more efficiently. The ADSI LDAP Provider implements a set of ADSI objects that support various ADSI interfaces. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-system-providers">ADSI Service Providers</a>. 
 
 
 
@@ -341,30 +341,30 @@ The
 				<b>NetUserEnum</b> function retrieves information about all user accounts on a specified remote server or the local computer.
 
 The 
-<a href="https://msdn.microsoft.com/049f1ea3-4d23-4b35-8b08-7256859aed45">NetQueryDisplayInformation</a> function can be used to quickly enumerate user, computer, or global group account information for display in user interfaces .
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netquerydisplayinformation">NetQueryDisplayInformation</a> function can be used to quickly enumerate user, computer, or global group account information for display in user interfaces .
 
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management user functions. For more information, see 
-<a href="https://msdn.microsoft.com/6eea74c2-2d6d-4dfd-9a22-3da2d5ce49bf">IADsUser</a> and 
-<a href="https://msdn.microsoft.com/e2b90a98-5777-42c2-95dd-4623e738c4da">IADsComputer</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsuser">IADsUser</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscomputer">IADsComputer</a>.
 
-If you call the <b>NetUserEnum</b> function on a domain controller that is running Active Directory, access is allowed or denied based on the access control list (ACL) for the <a href="https://msdn.microsoft.com/32f2ec06-822f-4d1e-bf51-5ae1d7355e60">securable object</a>. The default ACL permits all authenticated users and members of the "<a href="https://msdn.microsoft.com/library/Aa375347(v=VS.85).aspx">Pre-Windows 2000 compatible access</a>" group to view the information. If you call this function on a member server or workstation, all authenticated users can view the information. For  information about anonymous access and restricting anonymous access on these platforms, see 
-<a href="https://msdn.microsoft.com/846a5b81-d5bf-4275-a898-38e6ba308b8f">Security Requirements for the Network Management Functions</a>. For more information on ACLs, ACEs, and access tokens, see 
-<a href="https://msdn.microsoft.com/fd3b718a-5eff-4894-9fc6-d157ddb67330">Access Control Model</a>.
+If you call the <b>NetUserEnum</b> function on a domain controller that is running Active Directory, access is allowed or denied based on the access control list (ACL) for the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/securable-objects">securable object</a>. The default ACL permits all authenticated users and members of the "<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/allowing-anonymous-access">Pre-Windows 2000 compatible access</a>" group to view the information. If you call this function on a member server or workstation, all authenticated users can view the information. For  information about anonymous access and restricting anonymous access on these platforms, see 
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/security-requirements-for-the-network-management-functions">Security Requirements for the Network Management Functions</a>. For more information on ACLs, ACEs, and access tokens, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-model">Access Control Model</a>.
 
 The <b>NetUserEnum</b> function only returns information to which the caller has Read access. The caller must have List Contents access to the Domain object, and  Enumerate Entire SAM Domain access on the SAM Server object  located in the System container. 
 
-The <a href="https://msdn.microsoft.com/5c371d5a-26cf-4a99-a8e1-006b6b3cc91f">LsaEnumerateTrustedDomains</a> or <a href="https://msdn.microsoft.com/4a203bff-c3e1-4d95-b556-617dc8c2e8c2">LsaEnumerateTrustedDomainsEx</a> function can be used to retrieve the names and SIDs of domains trusted by a Local Security Authority (LSA) policy object.
+The <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaenumeratetrusteddomains">LsaEnumerateTrustedDomains</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaenumeratetrusteddomainsex">LsaEnumerateTrustedDomainsEx</a> function can be used to retrieve the names and SIDs of domains trusted by a Local Security Authority (LSA) policy object.
 
 The 
 <b>NetUserEnum</b> function does not return all system users. It returns only those users who have been added with a call to the 
-<a href="https://msdn.microsoft.com/b5ca5f76-d40b-4abf-925a-0de54fc476e4">NetUserAdd</a> function. There is no guarantee that the list of users will be returned in sorted order.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netuseradd">NetUserAdd</a> function. There is no guarantee that the list of users will be returned in sorted order.
 
 If you call 
 the <b>NetUserEnum</b> function and specify information level 1, 2, or 3,  for the <i>level</i> parameter, the password member of each structure retrieved is set to <b>NULL</b> to maintain password security.  
 
 User account names are limited to 20 characters and group names are limited to 256 characters. In addition, account names cannot be terminated by a period and they cannot include commas or any of the following printable characters: ", /, \, [, ], :, |, &lt;, &gt;, +, =, ;, ?, *. Names also cannot include characters in the range 1-31, which are nonprintable.
 
-The <b>NetUserEnum</b> function does not support a <i>level</i> parameter of 4 and the <a href="https://msdn.microsoft.com/66b11a5f-1c2d-4564-8845-9e2fa1f40f3e">USER_INFO_4</a> structure. The <a href="https://msdn.microsoft.com/5bd13bed-938a-4273-840e-99fca99f7139">NetUserGetInfo</a> 
+The <b>NetUserEnum</b> function does not support a <i>level</i> parameter of 4 and the <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_4">USER_INFO_4</a> structure. The <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusergetinfo">NetUserGetInfo</a> 
 		function supports a <i>level</i> parameter of 4 and the <b>USER_INFO_4</b> structure.
 
 
@@ -372,7 +372,7 @@ The <b>NetUserEnum</b> function does not support a <i>level</i> parameter of 4 a
 
 The following code sample demonstrates how to retrieve information about the user accounts on a server with a call to the 
 <b>NetUserEnum</b> function. The sample calls 
-<b>NetUserEnum</b>, specifying information level 0 (<a href="https://msdn.microsoft.com/5d24a2dd-d1ee-4c97-8fbc-0b336313b60c">USER_INFO_0</a>) to enumerate only global user accounts. If the call succeeds, the code loops through the entries and prints the name of each user account. Finally, the code sample frees the memory allocated for the information buffer and prints a total of the users enumerated.
+<b>NetUserEnum</b>, specifying information level 0 (<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_0">USER_INFO_0</a>) to enumerate only global user accounts. If the call succeeds, the code loops through the entries and prints the name of each user account. Finally, the code sample frees the memory allocated for the information buffer and prints a total of the users enumerated.
 
 
 ```cpp
@@ -495,73 +495,73 @@ int wmain(int argc, wchar_t *argv[])
 
 
 
-<a href="https://msdn.microsoft.com/5c371d5a-26cf-4a99-a8e1-006b6b3cc91f">LsaEnumerateTrustedDomains</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaenumeratetrusteddomains">LsaEnumerateTrustedDomains</a>
 
 
 
-<a href="https://msdn.microsoft.com/4a203bff-c3e1-4d95-b556-617dc8c2e8c2">LsaEnumerateTrustedDomainsEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaenumeratetrusteddomainsex">LsaEnumerateTrustedDomainsEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/049f1ea3-4d23-4b35-8b08-7256859aed45">NetQueryDisplayInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netquerydisplayinformation">NetQueryDisplayInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/b5ca5f76-d40b-4abf-925a-0de54fc476e4">NetUserAdd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netuseradd">NetUserAdd</a>
 
 
 
-<a href="https://msdn.microsoft.com/ecf1a94c-5dda-4f49-81bd-93e551e089f1">NetUserGetGroups</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusergetgroups">NetUserGetGroups</a>
 
 
 
-<a href="https://msdn.microsoft.com/5bd13bed-938a-4273-840e-99fca99f7139">NetUserGetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusergetinfo">NetUserGetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd159e2e-f37e-46b2-b980-008b73d40b39">Network
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d24a2dd-d1ee-4c97-8fbc-0b336313b60c">USER_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_0">USER_INFO_0</a>
 
 
 
-<a href="https://msdn.microsoft.com/f17a1aef-45f1-461f-975d-75221d08277c">USER_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1">USER_INFO_1</a>
 
 
 
-<a href="https://msdn.microsoft.com/f85e3e92-02b2-4ee8-8a82-38e4ef5b4072">USER_INFO_10</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_10">USER_INFO_10</a>
 
 
 
-<a href="https://msdn.microsoft.com/718e7143-a6df-4912-954c-cc63bb490044">USER_INFO_11</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_11">USER_INFO_11</a>
 
 
 
-<a href="https://msdn.microsoft.com/50c78c6a-a08f-473b-929a-9528e618165f">USER_INFO_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_2">USER_INFO_2</a>
 
 
 
-<a href="https://msdn.microsoft.com/67f58d6b-488b-4a88-808f-edb9c3464d85">USER_INFO_20</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_20">USER_INFO_20</a>
 
 
 
-<a href="https://msdn.microsoft.com/1af3ff6d-bc9f-44ad-9981-124ac1961298">USER_INFO_23</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_23">USER_INFO_23</a>
 
 
 
-<a href="https://msdn.microsoft.com/39ed05f5-165d-4cb8-98af-e4120a1634f6">USER_INFO_3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_3">USER_INFO_3</a>
 
 
 
-<a href="https://msdn.microsoft.com/cf0e5102-3924-46c0-8124-0aa04e95f48d">User Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/user-functions">User Functions</a>
  
 
  

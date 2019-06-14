@@ -71,7 +71,7 @@ If the function succeeds, the return value is nonzero.
 
   
 
-If the function fails, the return value is zero (0). To get extended error information, call the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+If the function fails, the return value is zero (0). To get extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
  The following list identifies the possible error codes:
 
@@ -82,7 +82,7 @@ If the function fails, the return value is zero (0). To get extended error infor
 
 
 
-This function must be called after you call <a href="https://msdn.microsoft.com/f5b7d0c1-9cd0-48fc-8125-d4da040951c4">CreateTransactionManager</a>.
+This function must be called after you call <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createtransactionmanager">CreateTransactionManager</a>.
 
 
 
@@ -92,11 +92,11 @@ This function must be called after you call <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/f5b7d0c1-9cd0-48fc-8125-d4da040951c4">CreateTransactionManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createtransactionmanager">CreateTransactionManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9704ea8-e67d-4278-b77e-1d4787224d52">Kernel Transaction Manager Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>
  
 
  

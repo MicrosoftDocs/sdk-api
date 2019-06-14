@@ -63,7 +63,7 @@ This method applies only to properties whose values form a linear range.
 
 ### -param Api [in]
 
-Pointer to a GUID that specifies the property to query. For a list of standard codec properties, see <a href="https://msdn.microsoft.com/5d527af7-07cf-42e2-99bb-d56c856cc1bc">Codec API Properties</a>.
+Pointer to a GUID that specifies the property to query. For a list of standard codec properties, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-properties">Codec API Properties</a>.
           
 
 
@@ -147,7 +147,7 @@ The valid range for the property is [<i>ValueMin</i>... <i>ValueMax</i>], with i
 <li>Signed types: <b>VT_I8</b>, <b>VT_I4</b>, <b>VT_I2</b></li>
 <li>Floating-point types: <b>VT_R8</b>, <b>VT_R4</b></li>
 </ul>
-If the property supports a list of values, instead of a range, the method returns  <b>VFW_E_CODECAPI_ENUMERATED</b>. In that case, call <a href="https://msdn.microsoft.com/7f6c7db8-f71f-4ea7-8584-0df6e28c0fc9">ICodecAPI::GetParameterValues</a> to get the list of values.
+If the property supports a list of values, instead of a range, the method returns  <b>VFW_E_CODECAPI_ENUMERATED</b>. In that case, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-getparametervalues">ICodecAPI::GetParameterValues</a> to get the list of values.
       
 
 
@@ -158,15 +158,15 @@ If the property supports a list of values, instead of a range, the method return
 
 
 
-<a href="https://msdn.microsoft.com/82085fd5-2d31-48a0-b2ef-0eede4de60c8">Codec API Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-reference">Codec API Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d19152f-17a3-4576-a2a2-5b827d9ca8d1">Encoder API</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/encoder-api">Encoder API</a>
 
 
 
-<a href="https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073">ICodecAPI</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a>
  
 
  

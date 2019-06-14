@@ -53,12 +53,12 @@ Represents a Mobile Broadband device.
 
 The properties and methods of <b>IMbnInterface</b> return the 
     state of the device. Applications should register for change event notifications by implementing 
-    <a href="https://msdn.microsoft.com/3c641f14-9f53-4d69-9faa-2491189083df">IMbnInterfaceEvents</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterfaceevents">IMbnInterfaceEvents</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMbnInterface</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMbnInterface</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMbnInterface</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnInterface</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -74,16 +74,16 @@ The <b>IMbnInterface</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/919772f5-1e86-424c-b3de-079a03bbc8e5">GetConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getconnection">GetConnection</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/dae6ce6f-2534-4799-8ed3-53cd1f2eca13">IMbnConnection</a> object.
+Gets the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b9d29a2a-f41b-4e20-b9ff-559dd39e1015">GetHomeProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-gethomeprovider">GetHomeProvider</a>
 </td>
 <td align="left" width="63%">
 Gets the home provider.
@@ -92,7 +92,7 @@ Gets the home provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cfe8f638-ad17-4118-9c79-b7ebc81c726a">GetInterfaceCapability</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getinterfacecapability">GetInterfaceCapability</a>
 </td>
 <td align="left" width="63%">
 Gets the device capabilities.
@@ -101,7 +101,7 @@ Gets the device capabilities.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cbd37f0a-4245-415d-bd74-501aa4c7ade7">GetPreferredProviders</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getpreferredproviders">GetPreferredProviders</a>
 </td>
 <td align="left" width="63%">
 Gets the list of preferred providers.
@@ -110,7 +110,7 @@ Gets the list of preferred providers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4236fd9d-292a-4840-b52e-c28c3e6eea10">GetReadyState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getreadystate">GetReadyState</a>
 </td>
 <td align="left" width="63%">
 Gets the ready state.
@@ -119,7 +119,7 @@ Gets the ready state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9114a3ed-2dc9-4637-b3d5-9430d309e89b">GetSubscriberInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getsubscriberinformation">GetSubscriberInformation</a>
 </td>
 <td align="left" width="63%">
 Gets the subscriber information.
@@ -128,7 +128,7 @@ Gets the subscriber information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/916c29ee-adb3-402c-b4f3-97b8977f44ac">GetVisibleProviders</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getvisibleproviders">GetVisibleProviders</a>
 </td>
 <td align="left" width="63%">
 Gets the visible providers.
@@ -137,7 +137,7 @@ Gets the visible providers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b4ce2c10-627d-4cbe-a884-7bb8731c3bcf">InEmergencyMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-inemergencymode">InEmergencyMode</a>
 </td>
 <td align="left" width="63%">
 Determines whether the device is in emergency mode.
@@ -146,7 +146,7 @@ Determines whether the device is in emergency mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/72db3d85-b7f2-4dae-9637-b003df6e9cf5">ScanNetwork</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-scannetwork">ScanNetwork</a>
 </td>
 <td align="left" width="63%">
 Scans the network to get a list of visible providers.
@@ -155,7 +155,7 @@ Scans the network to get a list of visible providers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2ea95b4a-07d9-40d6-bb82-091b49c965c4">SetPreferredProviders</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-setpreferredproviders">SetPreferredProviders</a>
 </td>
 <td align="left" width="63%">
 Updates the preferred providers.
@@ -173,7 +173,7 @@ Updates the preferred providers.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/9828567b-ef5e-44b7-90ce-1788cd8dd947">InterfaceID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-get_interfaceid">InterfaceID</a>
 
 
 </td>
@@ -194,9 +194,9 @@ The interface ID.
 
 
 <b>IMbnInterface</b> objects are provided by calls to the 
-     <a href="https://msdn.microsoft.com/f44aa20d-7edd-4227-8eca-9aacb19619e8">GetInterface</a> and 
-     <a href="https://msdn.microsoft.com/1cd10189-8f36-4bcb-95e9-35064e70fdf8">GetInterfaces</a> methods of the 
-     <a href="https://msdn.microsoft.com/a998381e-47de-4352-bc84-b6edca2f3fcc">IMbnInterfaceManager</a> interface.
+     <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterfacemanager-getinterface">GetInterface</a> and 
+     <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterfacemanager-getinterfaces">GetInterfaces</a> methods of the 
+     <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterfacemanager">IMbnInterfaceManager</a> interface.
 
 
 

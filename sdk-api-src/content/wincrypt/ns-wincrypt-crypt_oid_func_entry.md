@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CRYPT_OID_FUNC_ENTRY</b> structure contains an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) and a pointer to its related function. It is used with 
-<a href="https://msdn.microsoft.com/934e8278-0e0b-4402-a2b6-ff1e913d54c9">CryptInstallOIDFunctionAddress</a>.
+The <b>CRYPT_OID_FUNC_ENTRY</b> structure contains an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and a pointer to its related function. It is used with 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptinstalloidfunctionaddress">CryptInstallOIDFunctionAddress</a>.
 
 
 ## -struct-fields
@@ -60,7 +60,7 @@ The <b>CRYPT_OID_FUNC_ENTRY</b> structure contains an <a href="https://msdn.micr
 
 ### -field pszOID
 
-If the high-order word of the OID is nonzero, <b>pszOID</b> is a pointer to either an OID string, such as "2.5.29.1" or an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">ASCII</a> string, such as "file". If the high-order word of the OID is zero, the low-order word specifies the numeric identifier to be used as the object identifier.
+If the high-order word of the OID is nonzero, <b>pszOID</b> is a pointer to either an OID string, such as "2.5.29.1" or an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">ASCII</a> string, such as "file". If the high-order word of the OID is zero, the low-order word specifies the numeric identifier to be used as the object identifier.
 
 
 ### -field pvFuncAddr
@@ -73,7 +73,7 @@ The starting address of the function that the OID identifies.
 
 
 
-<a href="https://msdn.microsoft.com/934e8278-0e0b-4402-a2b6-ff1e913d54c9">CryptInstallOIDFunctionAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptinstalloidfunctionaddress">CryptInstallOIDFunctionAddress</a>
  
 
  

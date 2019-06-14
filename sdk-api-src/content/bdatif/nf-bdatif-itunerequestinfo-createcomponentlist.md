@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>CreateComponentList</b> method creates a new <a href="https://msdn.microsoft.com/6d779095-12f9-4e00-a25f-0a840f5149fa">Components</a> collection for the tune request, and fills it in with all network-specific data after the receiver has tuned to the service.
+The <b>CreateComponentList</b> method creates a new <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/components-object">Components</a> collection for the tune request, and fills it in with all network-specific data after the receiver has tuned to the service.
 
 
 
@@ -62,7 +62,7 @@ The <b>CreateComponentList</b> method creates a new <a href="https://msdn.micros
 
 ### -param CurrentRequest [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/34077b45-32b4-466b-b103-6a42fc869265">ITuneRequest</a> interface on the tune request.
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> interface on the tune request.
 
 
 ## -returns
@@ -121,7 +121,7 @@ No data could be acquired.
 
 After the Network Provider has acquired the correct transport stream, it asks the TIF to fill in the component data. If the tune request does not already have a components list, the Network Provider calls this method and asks the TIF to create one based on the relevant transport stream tables. Generally, the components will include one or more audio streams, video, data, and text. Each component has a component type, and on MPEG2 tuning spaces each component has an associated PID and pcrPID. Ideally, when the Guide Store Loader creates tune requests, it will include all the component information that is available.
 
-The <a href="https://msdn.microsoft.com/769d112e-4df7-451c-ac12-440b16c33e88">ITuneRequestInfo::GetComponentData</a> method is used to enable the TIF to change an existing list of components. S_FALSE indicates nothing was changed.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-itunerequestinfo-getcomponentdata">ITuneRequestInfo::GetComponentData</a> method is used to enable the TIF to change an existing list of components. S_FALSE indicates nothing was changed.
 
 
 
@@ -131,11 +131,11 @@ The <a href="https://msdn.microsoft.com/769d112e-4df7-451c-ac12-440b16c33e88">IT
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5cb1a15-29c4-4e0f-aed2-eafe12ea007a">ITuneRequestInfo Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nn-bdatif-itunerequestinfo">ITuneRequestInfo Interface</a>
  
 
  

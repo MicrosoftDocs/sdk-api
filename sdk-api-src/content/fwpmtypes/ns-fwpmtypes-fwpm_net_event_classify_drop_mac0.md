@@ -109,7 +109,7 @@ The LUID identifying the filter where the failure occured.
 
 ### -field layerId
 
-The identifier of the filtering layer where the failure occurred. For more information, see <a href="https://msdn.microsoft.com/3b2daef1-558b-4e3a-a98a-f4dfa80a29c0">Filtering Layer Identifiers</a>
+The identifier of the filtering layer where the failure occurred. For more information, see <a href="https://docs.microsoft.com/windows/desktop/FWP/management-filtering-layer-identifiers-">Filtering Layer Identifiers</a>
 
 
 
@@ -204,7 +204,7 @@ Transient destination port of a packet within the vSwitch.
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

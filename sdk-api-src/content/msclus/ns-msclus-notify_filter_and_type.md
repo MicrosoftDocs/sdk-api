@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a filter for a notification port that was created by the <a href="https://msdn.microsoft.com/81FE17A9-DE1C-4CDD-BE7D-50EA202D5AAC">CreateClusterNotifyPortV2</a> function. A filter specifies that  a   notification port accept  notifications for the specified type of cluster object during the specified event.
+Represents a filter for a notification port that was created by the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createclusternotifyportv2">CreateClusterNotifyPortV2</a> function. A filter specifies that  a   notification port accept  notifications for the specified type of cluster object during the specified event.
 
 
 ## -struct-fields
@@ -60,12 +60,12 @@ Represents a filter for a notification port that was created by the <a href="htt
 
 ### -field dwObjectType
 
-A <a href="https://msdn.microsoft.com/714C0EF1-7397-4227-B4B1-AFC5E61E08C2">CLUSTER_OBJECT_TYPE</a> enumeration value that specifies the cluster object type for the  filter.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_object_type">CLUSTER_OBJECT_TYPE</a> enumeration value that specifies the cluster object type for the  filter.
 
 
 ### -field FilterFlags
 
-A <a href="https://msdn.microsoft.com/EF414341-1EA4-4E69-AEA6-1CA3EAEAEDA5">CLUSTER_CHANGE_CLUSTER_V2</a> enumeration value that specifies the type for the filter.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_change_cluster_v2">CLUSTER_CHANGE_CLUSTER_V2</a> enumeration value that specifies the type for the filter.
 
 
 ## -see-also
@@ -73,7 +73,7 @@ A <a href="https://msdn.microsoft.com/EF414341-1EA4-4E69-AEA6-1CA3EAEAEDA5">CLUS
 
 
 
-<a href="https://msdn.microsoft.com/45da8dbc-dd70-4f95-b933-66d8e4340448">Utility Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/utility-structures">Utility Structures</a>
  
 
  

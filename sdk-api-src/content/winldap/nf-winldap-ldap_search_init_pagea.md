@@ -95,7 +95,7 @@ Search the base entry and all entries in the tree below the base.
 ### -param SearchFilter [in]
 
 A pointer to a null-terminated string that specifies the search filter. For more information, see 
-<a href="https://msdn.microsoft.com/3ce4709c-5ef7-4713-8fb7-b46ab284339f">Search Filter Syntax</a>.
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/search-filter-syntax">Search Filter Syntax</a>.
 
 
 ### -param AttributeList [in]
@@ -131,7 +131,7 @@ The maximum number of entries the client will accept.  The <i>TotalSizeLimit</i>
 ### -param SortKeys [in]
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/3cf6a279-5ea4-48f3-bdc7-768f64b1bf7c">LDAPSortKey</a> structure, which specifies the attribute type, the ordering rule, and the direction for the search.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapsortkeya">LDAPSortKey</a> structure, which specifies the attribute type, the ordering rule, and the direction for the search.
 
 
 ##### - ScopeOfSearch.LDAP_SCOPE_BASE
@@ -154,13 +154,13 @@ Search the base entry and all entries in the tree below the base.
 
 
 If the function succeeds, it returns a pointer to an 
-<a href="https://msdn.microsoft.com/70bdbb05-ac7f-48af-9241-e2a70b6b16ab">LDAPSearch</a> structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366129(v=vs.85)">LDAPSearch</a> structure.
 
 If the function fails, the return value is <b>NULL</b>. Use 
-<a href="https://msdn.microsoft.com/04bcdd90-344a-4f2d-a700-e725584e49d9">LdapGetLastError</a> or 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> to retrieve the error code.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldapgetlasterror">LdapGetLastError</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to retrieve the error code.
 
-Call the <a href="https://msdn.microsoft.com/0c434611-b4d0-46e4-8e81-fc221e63de9f">ldap_search_abandon_page</a> to free the returned structure.
+Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_abandon_page">ldap_search_abandon_page</a> to free the returned structure.
 
 
 
@@ -171,10 +171,10 @@ Call the <a href="https://msdn.microsoft.com/0c434611-b4d0-46e4-8e81-fc221e63de9
 
 The 
 <b>ldap_search_init_page</b> function creates an LDAPSearch structure for managing paged searches and returns a handle to the structure. The 
-<a href="https://msdn.microsoft.com/34ddf4d4-3a89-42e0-850d-fcc1c942cb3b">ldap_get_next_page</a>, 
-<a href="https://msdn.microsoft.com/44b1b298-9796-4627-945e-4051c20f3c92">ldap_get_next_page_s</a>, and 
-<a href="https://msdn.microsoft.com/17ad1c7e-c3a1-4f6a-8303-fbbedfc36409">ldap_get_paged_count</a> functions require this search handle as a parameter. When the paged search is completed, call 
-<a href="https://msdn.microsoft.com/0c434611-b4d0-46e4-8e81-fc221e63de9f">ldap_search_abandon_page</a> to free this structure and its handle.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_next_page">ldap_get_next_page</a>, 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_next_page_s">ldap_get_next_page_s</a>, and 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_paged_count">ldap_get_paged_count</a> functions require this search handle as a parameter. When the paged search is completed, call 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_abandon_page">ldap_search_abandon_page</a> to free this structure and its handle.
 
 To determine whether a server supports paged-results searches, check the supportedControl property off of the root for an object identifier (OID) of 1.2.840.113556.1.4.319.
 
@@ -186,35 +186,35 @@ To determine whether a server supports paged-results searches, check the support
 
 
 
-<a href="https://msdn.microsoft.com/7a0040ea-f8f3-4378-8371-49768714d762">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>
 
 
 
-<a href="https://msdn.microsoft.com/70bdbb05-ac7f-48af-9241-e2a70b6b16ab">LDAPSearch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366129(v=vs.85)">LDAPSearch</a>
 
 
 
-<a href="https://msdn.microsoft.com/3cf6a279-5ea4-48f3-bdc7-768f64b1bf7c">LDAPSortKey</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapsortkeya">LDAPSortKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/04bcdd90-344a-4f2d-a700-e725584e49d9">LdapGetLastError</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldapgetlasterror">LdapGetLastError</a>
 
 
 
-<a href="https://msdn.microsoft.com/34ddf4d4-3a89-42e0-850d-fcc1c942cb3b">ldap_get_next_page</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_next_page">ldap_get_next_page</a>
 
 
 
-<a href="https://msdn.microsoft.com/44b1b298-9796-4627-945e-4051c20f3c92">ldap_get_next_page_s</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_next_page_s">ldap_get_next_page_s</a>
 
 
 
-<a href="https://msdn.microsoft.com/0c434611-b4d0-46e4-8e81-fc221e63de9f">ldap_search_abandon_page</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_abandon_page">ldap_search_abandon_page</a>
  
 
  

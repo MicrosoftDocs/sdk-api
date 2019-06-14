@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/596FC65A-32C8-47F6-A23F-7B02939E26E3">IUIAutomationAnnotationPattern</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationannotationpattern">IUIAutomationAnnotationPattern</a>
  
 
  

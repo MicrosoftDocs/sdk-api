@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IADsNameTranslate::GetEx</b> method gets the object names in the specified format. The  object names must be set by  <a href="https://msdn.microsoft.com/e8a5014e-d848-46b7-a336-7801ff1f6b08">IADsNameTranslate::SetEx</a>.
+The <b>IADsNameTranslate::GetEx</b> method gets the object names in the specified format. The  object names must be set by  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-setex">IADsNameTranslate::SetEx</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>IADsNameTranslate::GetEx</b> method gets the object names in the specifie
 
 ### -param lnFormatType
 
-The format type used for  the output names. For more information about the various types of formats you can use, see  <a href="https://msdn.microsoft.com/8c5e8f2a-e805-463e-9583-96732d70b209">ADS_NAME_TYPE_ENUM</a>. This method does not support the ADS_NAME_TYPE_SID_OR_SID_HISTORY_NAME element in <b>ADS_NAME_TYPE_ENUM</b>.
+The format type used for  the output names. For more information about the various types of formats you can use, see  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0050_0001">ADS_NAME_TYPE_ENUM</a>. This method does not support the ADS_NAME_TYPE_SID_OR_SID_HISTORY_NAME element in <b>ADS_NAME_TYPE_ENUM</b>.
 
 
 ### -param pvar
@@ -199,15 +199,15 @@ The following VBScript/ASP code example translates two distinguished names compl
 
 
 
-<a href="https://msdn.microsoft.com/8c5e8f2a-e805-463e-9583-96732d70b209">ADS_NAME_TYPE_ENUM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0050_0001">ADS_NAME_TYPE_ENUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d8baeb1-0edc-4648-8691-6ea4dcfd8f62">IADsNameTranslate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8a5014e-d848-46b7-a336-7801ff1f6b08">IADsNameTranslate::SetEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-setex">IADsNameTranslate::SetEx</a>
  
 
  

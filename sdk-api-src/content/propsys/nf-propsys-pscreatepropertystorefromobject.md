@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Accepts the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface of an object that supports <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a> or <a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a>. If the object supports <b>IPropertySetStorage</b>, it is wrapped so that it supports <b>IPropertyStore</b>.
+Accepts the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of an object that supports <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> or <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a>. If the object supports <b>IPropertySetStorage</b>, it is wrapped so that it supports <b>IPropertyStore</b>.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ Accepts the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda37
 
 ### -param punk [in]
 
-Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-A pointer to an interface that supports either <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a> or <a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a>.
+A pointer to an interface that supports either <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> or <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a>.
 
 
 ### -param grfMode [in]
@@ -94,7 +94,7 @@ Reference to the requested IID.
 
 Type: <b>void**</b>
 
-When this function returns successfully, contains the address of a pointer to an interface guaranteed to support <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a>.
+When this function returns successfully, contains the address of a pointer to an interface guaranteed to support <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>.
 
 
 ## -returns
@@ -112,7 +112,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-If the object pointed to by <i>punk</i> already supports <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a>, no wrapper is created and the <i>punk</i> is returned unaltered.
+If the object pointed to by <i>punk</i> already supports <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>, no wrapper is created and the <i>punk</i> is returned unaltered.
 
 
 
@@ -122,7 +122,7 @@ If the object pointed to by <i>punk</i> already supports <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776493(v=VS.85).aspx">PSCreatePropertyStoreFromPropertySetStorage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-pscreatepropertystorefrompropertysetstorage">PSCreatePropertyStoreFromPropertySetStorage</a>
  
 
  

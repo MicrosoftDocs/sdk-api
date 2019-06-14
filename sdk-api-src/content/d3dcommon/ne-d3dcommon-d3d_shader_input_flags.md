@@ -65,7 +65,7 @@ Assign a shader input to a register based on the register assignment in the HLSL
 
 ### -field D3D_SIF_COMPARISON_SAMPLER
 
-Use a comparison sampler, which uses the <a href="https://msdn.microsoft.com/en-us/library/Bb509696(v=VS.85).aspx">SampleCmp (DirectX HLSL Texture Object)</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb509697(v=VS.85).aspx">SampleCmpLevelZero (DirectX HLSL Texture Object)</a> sampling functions.
+Use a comparison sampler, which uses the <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-samplecmp">SampleCmp (DirectX HLSL Texture Object)</a> and <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-samplecmplevelzero">SampleCmpLevelZero (DirectX HLSL Texture Object)</a> sampling functions.
           
 
 
@@ -101,7 +101,7 @@ Assign a shader input to a register based on the register assignment in the HLSL
 
 ### -field D3D10_SIF_COMPARISON_SAMPLER
 
-Use a comparison sampler, which uses the <a href="https://msdn.microsoft.com/en-us/library/Bb509696(v=VS.85).aspx">SampleCmp (DirectX HLSL Texture Object)</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb509697(v=VS.85).aspx">SampleCmpLevelZero (DirectX HLSL Texture Object)</a> sampling functions.
+Use a comparison sampler, which uses the <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-samplecmp">SampleCmp (DirectX HLSL Texture Object)</a> and <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-samplecmplevelzero">SampleCmpLevelZero (DirectX HLSL Texture Object)</a> sampling functions.
           
 
 
@@ -135,7 +135,7 @@ Forces the enumeration to compile to 32 bits.
 
 
 <b>D3D_SHADER_INPUT_FLAGS</b>-typed values are specified in
-          the <b>uFlags</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Ff476210(v=VS.85).aspx">D3D11_SHADER_INPUT_BIND_DESC</a> structure.
+          the <b>uFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-_d3d11_shader_input_bind_desc">D3D11_SHADER_INPUT_BIND_DESC</a> structure.
         
 
 
@@ -146,7 +146,7 @@ Forces the enumeration to compile to 32 bits.
 
 
 
-<a href="https://msdn.microsoft.com/002154d5-74a6-48fb-b55f-8687e4505fc7">Common Version Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-common-enumerations">Common Version Enumerations</a>
  
 
  

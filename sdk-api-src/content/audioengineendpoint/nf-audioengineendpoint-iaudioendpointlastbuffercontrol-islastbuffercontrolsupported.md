@@ -73,7 +73,7 @@ Indicates if last buffer control is supported.
 
 
 
-<a href="https://msdn.microsoft.com/79f4b370-fd04-41a9-ad74-54f7edd084c2">IAudioEndpointLastBufferControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioendpointlastbuffercontrol">IAudioEndpointLastBufferControl</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CASetupProperty</b> enumeration specifies a property type for setup and configuration of a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) role when using the <a href="https://msdn.microsoft.com/6792a0d6-d304-481d-a97b-5fb7033c7eae">ICertSrvSetup</a> interface.
+The <b>CASetupProperty</b> enumeration specifies a property type for setup and configuration of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) role when using the <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a> interface.
 
 
 ## -enum-fields
@@ -64,7 +64,7 @@ A value that specifies a property type that is not valid.
 
 ### -field ENUM_SETUPPROP_CATYPE
 
-A <b>VT_I4</b> value that specifies a value of the <a href="https://msdn.microsoft.com/32b20317-c0ef-4896-a8c6-309e34f87c30">ENUM_CATYPES</a> enumeration.
+A <b>VT_I4</b> value that specifies a value of the <a href="https://docs.microsoft.com/windows/desktop/api/certsrv/ne-certsrv-enum_catypes">ENUM_CATYPES</a> enumeration.
 
 If the computer is not joined to a domain, or the caller
 
@@ -73,7 +73,7 @@ is not an Enterprise or Domain administrator but is a local administrator, the d
 
 ### -field ENUM_SETUPPROP_CAKEYINFORMATION
 
-A <b>VT_DISPATCH</b> value, in the form of a <b>CCertSrvSetupKeyInformation</b>  object, that specifies the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> information used for a CA certificate. By default, setup generates a new key
+A <b>VT_DISPATCH</b> value, in the form of a <b>CCertSrvSetupKeyInformation</b>  object, that specifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> information used for a CA certificate. By default, setup generates a new key
 
 with a 2048-bit key length for root and subordinate CAs using "Microsoft
 
@@ -83,7 +83,7 @@ Strong Cryptographic Provider."
 
 ### -field ENUM_SETUPPROP_INTERACTIVE
 
-A <b>VT_BOOL</b> value that indicates whether the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) is allowed to interact with the desktop. The default is false.
+A <b>VT_BOOL</b> value that indicates whether the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) is allowed to interact with the desktop. The default is false.
 
 
 
@@ -107,7 +107,7 @@ A <b>VT_I4</b> value that specifies the number of units in the validity period a
 
 ### -field ENUM_SETUPPROP_VALIDITYPERIODUNIT
 
-A <b>VT_I4</b> value that specifies a value of the <a href="https://msdn.microsoft.com/1bd8c906-7e17-4d8c-93e8-8901f9104d58">ENUM_PERIOD</a> enumeration that indicates the time units of the validity period. For a subordinate CA, the validity period time unit is determined by the parent CA.
+A <b>VT_I4</b> value that specifies a value of the <a href="https://docs.microsoft.com/windows/desktop/api/celib/ne-celib-enum_period">ENUM_PERIOD</a> enumeration that indicates the time units of the validity period. For a subordinate CA, the validity period time unit is determined by the parent CA.
 
 
 ### -field ENUM_SETUPPROP_EXPIRATIONDATE

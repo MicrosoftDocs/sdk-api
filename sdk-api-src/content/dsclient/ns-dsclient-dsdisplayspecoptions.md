@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DSDISPLAYSPECOPTIONS</b> structure is returned by the <a href="https://msdn.microsoft.com/98e033e4-14fe-44ed-83d5-a97e00ecce4c">CFSTR_DS_DISPLAY_SPEC_OPTIONS</a> clipboard format and is used to supply data to a context menu or property page extension about the display specifiers used. It is important to specify the credentials required by the extension, to access data in the Active Directory server.
+The <b>DSDISPLAYSPECOPTIONS</b> structure is returned by the <a href="https://docs.microsoft.com/windows/desktop/AD/cfstr-ds-display-spec-options">CFSTR_DS_DISPLAY_SPEC_OPTIONS</a> clipboard format and is used to supply data to a context menu or property page extension about the display specifiers used. It is important to specify the credentials required by the extension, to access data in the Active Directory server.
 
 
 ## -struct-fields
@@ -76,7 +76,7 @@ The <b>offsetUserName</b>, <b>offsetPassword</b>, <b>offsetServer</b> and <b>off
 
 #### DSDSOF_SIMPLEAUTHENTICATE (0x00000002)
 
-Do not specify <b>ADS_SECURE_AUTHENTICATION</b> flag when calling <a href="https://msdn.microsoft.com/c4b85d8e-b33b-47a4-b7d7-5f901f80dce9">ADsOpenObject</a>.
+Do not specify <b>ADS_SECURE_AUTHENTICATION</b> flag when calling <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a>.
 
 
 
@@ -99,13 +99,13 @@ Contains the offset, in bytes, from the start of the <b>DSDISPLAYSPECOPTIONS</b>
 
 #### "admin"
 
-The extension was obtained from the <a href="https://msdn.microsoft.com/library/ms675216(v=VS.85).aspx">adminPropertyPages</a> attribute.
+The extension was obtained from the <a href="https://docs.microsoft.com/windows/desktop/ADSchema/a-adminpropertypages">adminPropertyPages</a> attribute.
 
 
 
 #### "shell"
 
-The extension was obtained from the <a href="https://msdn.microsoft.com/library/ms679813(v=VS.85).aspx">shellPropertyPages</a> attribute.
+The extension was obtained from the <a href="https://docs.microsoft.com/windows/desktop/ADSchema/a-shellpropertypages">shellPropertyPages</a> attribute.
 
 The following example shows how to use this member.
 
@@ -183,15 +183,15 @@ pwszServerConfigPath = (LPWSTR)((LPBYTE)pdso +
 
 
 
-<a href="https://msdn.microsoft.com/c4b85d8e-b33b-47a4-b7d7-5f901f80dce9">ADsOpenObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/98e033e4-14fe-44ed-83d5-a97e00ecce4c">CFSTR_DS_DISPLAY_SPEC_OPTIONS</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/cfstr-ds-display-spec-options">CFSTR_DS_DISPLAY_SPEC_OPTIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf6aa066-ee7e-4b13-9a4b-1e097632ec5a">Display Structures in Active Directory Domain Services</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/display-structures-in-active-directory-domain-services">Display Structures in Active Directory Domain Services</a>
  
 
  

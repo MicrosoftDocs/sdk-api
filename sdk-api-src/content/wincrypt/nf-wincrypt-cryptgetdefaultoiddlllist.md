@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CryptGetDefaultOIDDllList</b> function acquires the list of the names of DLL files that contain registered default <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) functions for a specified function set and encoding type.
+The <b>CryptGetDefaultOIDDllList</b> function acquires the list of the names of DLL files that contain registered default <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) functions for a specified function set and encoding type.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>CryptGetDefaultOIDDllList</b> function acquires the list of the names of 
 ### -param hFuncSet [in]
 
 Function set handle previously obtained by a call to 
-<a href="https://msdn.microsoft.com/576a2989-ed7f-417d-b60e-24baf90a6554">CryptInitOIDFunctionSet</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptinitoidfunctionset">CryptInitOIDFunctionSet</a>.
 
 
 ### -param dwEncodingType [in]
@@ -69,7 +69,7 @@ Specifies the encoding type to be matched. Currently, only X509_ASN_ENCODING and
 
 X509_ASN_ENCODING | PKCS_7_ASN_ENCODING
 
-<div class="alert"><b>Note</b>  Either a certificate or <a href="https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1">message encoding type</a> is required. X509_ASN_ENCODING is the default. If that type is indicated, it is used; otherwise, if the PKCS7_ASN_ENCODING type is indicated, it is used.</div>
+<div class="alert"><b>Note</b>  Either a certificate or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding type</a> is required. X509_ASN_ENCODING is the default. If that type is indicated, it is used; otherwise, if the PKCS7_ASN_ENCODING type is indicated, it is used.</div>
 <div> </div>
 
 ### -param pwszDllList [out]
@@ -81,7 +81,7 @@ A pointer to a buffer to receive the list of zero or more null-terminated file n
 
 L"<i>first</i>.dll\0" L"<i>second</i>.dll\0" L"\0"
 
-To retrieve the number of wide characters the buffer must hold, this parameter can be <b>NULL</b>. For more information, see <a href="https://msdn.microsoft.com/ef99edef-39b2-4d78-9c01-13720215d47f">Retrieving Data of Unknown Length</a>.
+To retrieve the number of wide characters the buffer must hold, this parameter can be <b>NULL</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 
 ### -param pcchDllList [in, out]
@@ -101,7 +101,7 @@ A pointer to a <b>DWORD</b> that specifies the size, in wide characters, of the 
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 This function has the following error codes.
 
@@ -132,7 +132,7 @@ If the buffer specified by the <i>pwszDllList</i> parameter is not large enough 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a>
  
 
  

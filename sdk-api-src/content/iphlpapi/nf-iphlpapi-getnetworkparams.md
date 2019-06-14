@@ -62,13 +62,13 @@ The
 ### -param pFixedInfo [out]
 
 A pointer to a 
-buffer that contains a <a href="https://msdn.microsoft.com/6dcf33c6-33dc-4583-9b04-5231948d3d9a">FIXED_INFO</a> structure that receives the network parameters for the local computer, if the function was successful. This buffer must be allocated by the caller prior to calling the <b>GetNetworkParams</b> function.
+buffer that contains a <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-fixed_info_w2ksp1">FIXED_INFO</a> structure that receives the network parameters for the local computer, if the function was successful. This buffer must be allocated by the caller prior to calling the <b>GetNetworkParams</b> function.
 
 
 ### -param pOutBufLen [in]
 
 A pointer to a <b>ULONG</b> variable that specifies the size of the 
-<a href="https://msdn.microsoft.com/6dcf33c6-33dc-4583-9b04-5231948d3d9a">FIXED_INFO</a> structure. If this size is insufficient to hold the information, 
+<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-fixed_info_w2ksp1">FIXED_INFO</a> structure. If this size is insufficient to hold the information, 
 <b>GetNetworkParams</b> fills in this variable with the required size, and returns an error code of <b>ERROR_BUFFER_OVERFLOW</b>.
 
 
@@ -137,7 +137,7 @@ The <b>GetNetworkParams</b> function is not supported by the operating system ru
 </td>
 <td width="60%">
 If the function fails, use 
-<a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> to obtain the message string for the returned error.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
@@ -151,9 +151,9 @@ If the function fails, use
 
 
 
-The <b>GetNetworkParams</b> function is used to retrieve  network parameters for the local computer. Network parameters are returned  in a <a href="https://msdn.microsoft.com/6dcf33c6-33dc-4583-9b04-5231948d3d9a">FIXED_INFO</a>structure. The  memory for the <b>FIXED_INFO</b>structure must be allocated by the application. It is the responsibility of the application to free this memory when it is no longer needed. 
+The <b>GetNetworkParams</b> function is used to retrieve  network parameters for the local computer. Network parameters are returned  in a <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-fixed_info_w2ksp1">FIXED_INFO</a>structure. The  memory for the <b>FIXED_INFO</b>structure must be allocated by the application. It is the responsibility of the application to free this memory when it is no longer needed. 
 
-In the Microsoft Windows Software Development Kit (SDK), the <a href="https://msdn.microsoft.com/6dcf33c6-33dc-4583-9b04-5231948d3d9a">FIXED_INFO_WIN2KSP1</a> structure is defined.   When compiling an 
+In the Microsoft Windows Software Development Kit (SDK), the <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-fixed_info_w2ksp1">FIXED_INFO_WIN2KSP1</a> structure is defined.   When compiling an 
      application if the target platform is Windows 2000 with Service Pack 1 (SP1) and later (<code>NTDDI_VERSION &gt;= NTDDI_WIN2KSP1</code>, 
      <code>_WIN32_WINNT &gt;= 0x0501</code>, or 
      <code>WINVER &gt;= 0x0501</code>), the <b>FIXED_INFO_WIN2KSP1</b> struct is typedefed to the <b>FIXED_INFO</b> structure. When compiling an application if the target 
@@ -161,7 +161,7 @@ In the Microsoft Windows Software Development Kit (SDK), the <a href="https://ms
      <b>FIXED_INFO</b> structure is undefined.
 
 The <b>GetNetworkParams</b> function and the 
-     <a href="https://msdn.microsoft.com/6dcf33c6-33dc-4583-9b04-5231948d3d9a">FIXED_INFO</a> structure are supported on  Windows 98and later. But to build an application for a target platform earlier than Windows 2000 with Service Pack 1 (SP1), an earlier version of the Platform Software Development Kit (SDK)  must be used.
+     <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-fixed_info_w2ksp1">FIXED_INFO</a> structure are supported on  Windows 98and later. But to build an application for a target platform earlier than Windows 2000 with Service Pack 1 (SP1), an earlier version of the Platform Software Development Kit (SDK)  must be used.
 
 
 #### Examples
@@ -283,15 +283,15 @@ int __cdecl main()
 
 
 
-<a href="https://msdn.microsoft.com/6dcf33c6-33dc-4583-9b04-5231948d3d9a">FIXED_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-fixed_info_w2ksp1">FIXED_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/2de88e92-5fa5-4d8d-9448-67a33bf02f05">IP Helper Function Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/4896a9f8-0486-4380-bf49-d1c9ef114acc">IP Helper Start Page</a>
+<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
  
 
  

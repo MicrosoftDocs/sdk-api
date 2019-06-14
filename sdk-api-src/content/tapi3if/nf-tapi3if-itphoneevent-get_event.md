@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>get_Event</b> method returns a 
-<a href="https://msdn.microsoft.com/9508cb8f-b7c9-4d5c-a58d-afdf079f9fee">PHONE_EVENT</a> value specifying the type of phone event that occurred.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-phone_event">PHONE_EVENT</a> value specifying the type of phone event that occurred.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param pEvent [out]
 
 The 
-<a href="https://msdn.microsoft.com/9508cb8f-b7c9-4d5c-a58d-afdf079f9fee">PHONE_EVENT</a> descriptor of the event.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-phone_event">PHONE_EVENT</a> descriptor of the event.
 
 
 ## -returns
@@ -79,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/cc3ca533-d523-4889-b3c7-bb306e49b85b">ITPhoneEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphoneevent">ITPhoneEvent</a>
  
 
  

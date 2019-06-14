@@ -57,7 +57,7 @@ The <b>IWMPServices</b> interface is implemented by Windows Media Player. It pro
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPServices</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMPServices</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPServices</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPServices</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IWMPServices</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563643(v=VS.85).aspx">GetStreamState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nf-wmpservices-iwmpservices-getstreamstate">GetStreamState</a>
 </td>
 <td align="left" width="63%">
 Returns a value that represents the current stream state.
@@ -81,7 +81,7 @@ Returns a value that represents the current stream state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563645(v=VS.85).aspx">GetStreamTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nf-wmpservices-iwmpservices-getstreamtime">GetStreamTime</a>
 </td>
 <td align="left" width="63%">
 Returns a value that indicates the current stream time.
@@ -96,7 +96,7 @@ Returns a value that indicates the current stream time.
 
 
 
-<a href="https://msdn.microsoft.com/4660f928-2e92-468f-9e2b-b411931dfded">DSP Plug-in Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/dsp-plug-in-interfaces">DSP Plug-in Interfaces</a>
  
 
  

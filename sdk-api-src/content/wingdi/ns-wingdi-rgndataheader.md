@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>RGNDATAHEADER</b> structure describes the data returned by the <a href="https://msdn.microsoft.com/e0d4862d-a405-4c00-b7b0-af4dd60407c0">GetRegionData</a> function.
+The <b>RGNDATAHEADER</b> structure describes the data returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getregiondata">GetRegionData</a> function.
 
 
 
@@ -77,7 +77,7 @@ The number of rectangles that make up the region.
 
 ### -field nRgnSize
 
-The size of the <a href="https://msdn.microsoft.com/3eac0b23-3138-4b34-9c16-6cc185e4de22">RGNDATA</a> buffer required to receive the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structures that make up the region. If the size is not known, this member can be zero.
+The size of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_rgndata">RGNDATA</a> buffer required to receive the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structures that make up the region. If the size is not known, this member can be zero.
 
 
 ### -field rcBound
@@ -90,7 +90,7 @@ A bounding rectangle for the region in logical units.
 
 
 
-<a href="https://msdn.microsoft.com/e0d4862d-a405-4c00-b7b0-af4dd60407c0">GetRegionData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getregiondata">GetRegionData</a>
 
 
 
@@ -98,15 +98,15 @@ A bounding rectangle for the region in logical units.
 
 
 
-<a href="https://msdn.microsoft.com/3eac0b23-3138-4b34-9c16-6cc185e4de22">RGNDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_rgndata">RGNDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/e66d46fd-af6f-43ce-a9f7-21389d14cb89">Region Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/region-structures">Region Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d2e8624-4d1a-44f7-821e-a54f6f538214">Regions Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/regions">Regions Overview</a>
  
 
  

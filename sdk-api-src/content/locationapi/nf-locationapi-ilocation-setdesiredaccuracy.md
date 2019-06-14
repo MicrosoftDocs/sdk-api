@@ -68,7 +68,7 @@ Specifies the accuracy to be used.
 ### -param arg2 [in]
 
 
-<a href="https://msdn.microsoft.com/5d3fc14b-fbf1-4140-8277-44e72a50e028">LOCATION_DESIRED_ACCURACY</a> value that specifies the accuracy to be used.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd756639(v=vs.85)">LOCATION_DESIRED_ACCURACY</a> value that specifies the accuracy to be used.
 
 
 ## -returns
@@ -111,7 +111,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The value of <i>desiredAccuracy</i> is not supported in the <a href="https://msdn.microsoft.com/5d3fc14b-fbf1-4140-8277-44e72a50e028">LOCATION_DESIRED_ACCURACY</a> enumerated type.
+The value of <i>desiredAccuracy</i> is not supported in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd756639(v=vs.85)">LOCATION_DESIRED_ACCURACY</a> enumerated type.
 
 </td>
 </tr>
@@ -126,7 +126,7 @@ The value of <i>desiredAccuracy</i> is not supported in the <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/beeedbbd-df93-4c05-a215-4cfd14e03076">ILocation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilocation">ILocation</a>
  
 
  

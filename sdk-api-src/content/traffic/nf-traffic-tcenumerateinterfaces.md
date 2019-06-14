@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>TcEnumerateInterfaces</b> function enumerates all traffic control–enabled network interfaces. Clients are notified of interface changes through the 
-<a href="https://msdn.microsoft.com/cacf4c21-d831-462c-b9e8-fd51fcf8e4e4">ClNotifyHandler</a> function.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_notify_handler">ClNotifyHandler</a> function.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param ClientHandle [in]
 
 Handle used by traffic control to identify the client. Clients receive handles when registering with traffic control through the 
-<a href="https://msdn.microsoft.com/10bbc08d-4bfa-4a64-b5b8-b720d7bc3185">TcRegisterClient</a> function.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcregisterclient">TcRegisterClient</a> function.
 
 
 ### -param pBufferSize [in, out]
@@ -182,11 +182,11 @@ The network address list descriptor includes the media type, as well as a list o
 
 
 
-<a href="https://msdn.microsoft.com/cacf4c21-d831-462c-b9e8-fd51fcf8e4e4">ClNotifyHandler</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_notify_handler">ClNotifyHandler</a>
 
 
 
-<a href="https://msdn.microsoft.com/10bbc08d-4bfa-4a64-b5b8-b720d7bc3185">TcRegisterClient</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcregisterclient">TcRegisterClient</a>
  
 
  

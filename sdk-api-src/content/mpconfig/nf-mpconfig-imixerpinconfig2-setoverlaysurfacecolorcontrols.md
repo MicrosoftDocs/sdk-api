@@ -80,11 +80,11 @@ Returns an <b>HRESULT</b> value. If the allocator on the pin is not using an ove
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/d166b139-3ef7-4f47-817a-8f5b644a3776">IMixerPinConfig2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nn-mpconfig-imixerpinconfig2">IMixerPinConfig2 Interface</a>
  
 
  

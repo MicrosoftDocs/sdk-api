@@ -345,7 +345,7 @@ Result   = test%2Ft%e%3Cs%20t.asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384225(v=VS.85).aspx">Handling Uniform Resource Locators</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinInet/handling-uniform-resource-locators">Handling Uniform Resource Locators</a>
  
 
  

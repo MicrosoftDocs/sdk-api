@@ -61,25 +61,25 @@ The <b>IAccessible::get_accRole</b> method retrieves information that describes 
 
 Type: <b>VARIANT</b>
 
-Specifies whether the retrieved role information belongs to the object or one of the object's child elements. This parameter is either CHILDID_SELF (to obtain information about the object) or a child ID (to obtain information about the object's child element). For more information about initializing the <a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a>, see <a href="https://msdn.microsoft.com/051ec5ba-540c-4ae1-b917-4c229557ca2f">How Child IDs Are Used in Parameters</a>.
+Specifies whether the retrieved role information belongs to the object or one of the object's child elements. This parameter is either CHILDID_SELF (to obtain information about the object) or a child ID (to obtain information about the object's child element). For more information about initializing the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/how-child-ids-are-used-in-parameters">How Child IDs Are Used in Parameters</a>.
 
 
 ### -param pvarRole [out, retval]
 
 Type: <b>VARIANT*</b>
 
-Address of a <a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a> that receives an <a href="https://msdn.microsoft.com/f015252a-c0df-4a21-a995-ff2f6cafbab8">object role</a> constant. The <b>vt</b> member must be VT_I4. The <b>lVal</b> member receives an object role constant.
+Address of a <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a> that receives an <a href="https://docs.microsoft.com/windows/desktop/WinAuto/object-roles">object role</a> constant. The <b>vt</b> member must be VT_I4. The <b>lVal</b> member receives an object role constant.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If successful, returns S_OK.
 
-If not successful, returns one of the values in the table that follows, or another standard <a href="https://msdn.microsoft.com/e6deca92-42da-41ab-bfdb-75cbce3022bb">COM error code</a>. Servers return these values, but clients must always check output parameters to ensure that they contain valid values. For more information, see <a href="https://msdn.microsoft.com/0def0349-178b-4be5-aa1d-6602dc015981">Checking IAccessible Return Values</a>.
+If not successful, returns one of the values in the table that follows, or another standard <a href="https://docs.microsoft.com/windows/desktop/WinAuto/return-values">COM error code</a>. Servers return these values, but clients must always check output parameters to ensure that they contain valid values. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/checking-iaccessible-return-values">Checking IAccessible Return Values</a>.
 
 <table>
 <tr>
@@ -107,7 +107,7 @@ An argument is not valid.
 
 
 
-Clients call <a href="https://msdn.microsoft.com/58436001-92d7-4afa-af07-169c8bbda9ba">GetRoleText</a> to retrieve a localized string that describes the object's role.
+Clients call <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-getroletexta">GetRoleText</a> to retrieve a localized string that describes the object's role.
 
 <b>Note to server developers:  </b>You must use the predefined role constants.
             
@@ -206,19 +206,19 @@ HRESULT PrintRole(IAccessible* pAcc, long childId)
 
 
 
-<a href="https://msdn.microsoft.com/58436001-92d7-4afa-af07-169c8bbda9ba">GetRoleText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-getroletexta">GetRoleText</a>
 
 
 
-<a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
 
 
 
-<a href="https://msdn.microsoft.com/f6abf95b-a77a-406d-9ca0-4663adc8245f">Role Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/role-property">Role Property</a>
 
 
 
-<a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>
  
 
  

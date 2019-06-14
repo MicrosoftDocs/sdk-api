@@ -63,7 +63,7 @@ This property is read/write.
 
 
 
-When reading or writing XML for a task, the logon trigger delay is specified using the <a href="https://msdn.microsoft.com/daab29f7-5d05-4e6d-a0c0-7b83b4d0b941">Delay</a> element of the Task Scheduler schema.
+When reading or writing XML for a task, the logon trigger delay is specified using the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-delay-logontriggertype-element">Delay</a> element of the Task Scheduler schema.
 
 
 
@@ -73,11 +73,11 @@ When reading or writing XML for a task, the logon trigger delay is specified usi
 
 
 
-<a href="https://msdn.microsoft.com/c0206a18-53f2-4def-8f54-2b175a0579f4">ILogonTrigger</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-ilogontrigger">ILogonTrigger</a>
 
 
 
-<a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
  
 
  

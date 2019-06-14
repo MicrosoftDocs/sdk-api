@@ -81,7 +81,7 @@ Reserved for future use.
 ### -field Address
 
 Pointer to an array of 
-<a href="https://msdn.microsoft.com/121cc415-35eb-4c9b-a02d-c23be468d6bc">IP_LOCAL_BINDING</a> structures. The array  contains a structure for each of the IP addresses associated with this adapter.
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-ip_local_binding">IP_LOCAL_BINDING</a> structures. The array  contains a structure for each of the IP addresses associated with this adapter.
 
 
 ## -remarks
@@ -90,7 +90,7 @@ Pointer to an array of
 
 Since an adapter can have more than one IP address, the 
 <b>IP_ADAPTER_BINDING_INFO</b> structure maintains an array of 
-<a href="https://msdn.microsoft.com/121cc415-35eb-4c9b-a02d-c23be468d6bc">IP_LOCAL_BINDING</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-ip_local_binding">IP_LOCAL_BINDING</a> structures.
 
 
 
@@ -100,15 +100,15 @@ Since an adapter can have more than one IP address, the
 
 
 
-<a href="https://msdn.microsoft.com/121cc415-35eb-4c9b-a02d-c23be468d6bc">IP_LOCAL_BINDING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-ip_local_binding">IP_LOCAL_BINDING</a>
 
 
 
-<a href="https://msdn.microsoft.com/352505a9-616a-4d47-9857-f88d345333fd">Router Management Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/767733eb-1cbd-4b8d-98b7-41d1d0f2c630">Router Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>
  
 
  

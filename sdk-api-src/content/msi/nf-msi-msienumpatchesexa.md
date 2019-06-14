@@ -62,7 +62,7 @@ The <b>MsiEnumPatchesEx</b> function enumerates all patches in a specific contex
 
 ### -param szProductCode [in, optional]
 
-A null-terminated string that specifies the <a href="https://msdn.microsoft.com/33cedd37-0343-471c-ad4b-0db5f98d5894">ProductCode</a> GUID of the product whose patches are enumerated. If non-<b>NULL</b>, patch enumeration is restricted to instances of this product under the user and context specified by <i>szUserSid</i> and <i>dwContext</i>. If <b>NULL</b>, the patches for all products under the specified context are enumerated.
+A null-terminated string that specifies the <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> GUID of the product whose patches are enumerated. If non-<b>NULL</b>, patch enumeration is restricted to instances of this product under the user and context specified by <i>szUserSid</i> and <i>dwContext</i>. If <b>NULL</b>, the patches for all products under the specified context are enumerated.
 
 
 ### -param szUserSid [in, optional]
@@ -202,7 +202,7 @@ The enumeration includes patches that are marked as obsolete.
 </dl>
 </td>
 <td width="60%">
-The enumeration includes patches that are registered but not yet applied. The <a href="https://msdn.microsoft.com/79f1286e-e30b-4989-a631-f2bcb87486a2">MsiSourceListAddSourceEx</a> function can register new patches.
+The enumeration includes patches that are registered but not yet applied. The <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisourcelistaddsourceexa">MsiSourceListAddSourceEx</a> function can register new patches.
 
 <div class="alert"><b>Note</b>  Patches registered for users other than current user and applied in the per-user-unmanaged context are not enumerated.</div>
 <div> </div>
@@ -235,7 +235,7 @@ An output buffer to contain the GUID of the patch being enumerated. The buffer s
 
 ### -param szTargetProductCode [out, optional]
 
-An output buffer to contain the <a href="https://msdn.microsoft.com/33cedd37-0343-471c-ad4b-0db5f98d5894">ProductCode</a> GUID of the product that receives this patch. The buffer should be large enough to hold the GUID. This parameter can be <b>NULL</b>.
+An output buffer to contain the <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> GUID of the product that receives this patch. The buffer should be large enough to hold the GUID. This parameter can be <b>NULL</b>.
 
 
 ### -param pdwTargetProductContext [out, optional]
@@ -345,7 +345,7 @@ The product that  <i>szProduct</i> specifies is not installed on the computer in
 </dl>
 </td>
 <td width="60%">
-This is returned when <i>pcchTargetUserSid</i> points to a buffer size less than required to copy the SID. In this case, the user can fix the buffer and call <a href="https://msdn.microsoft.com/32edcc56-190a-465f-b341-56dc60ab0589">MsiEnumPatchesEx</a>  again for the same index value.
+This is returned when <i>pcchTargetUserSid</i> points to a buffer size less than required to copy the SID. In this case, the user can fix the buffer and call <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msienumpatchesexa">MsiEnumPatchesEx</a>  again for the same index value.
 
 </td>
 </tr>
@@ -369,19 +369,19 @@ Non-administrators can  enumerate patches within  their visibility only. Adminis
 
 
 
-<a href="https://msdn.microsoft.com/20e7be9f-d9dc-4f43-86d7-b1a881126925">Installation Context</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/installation-context">Installation Context</a>
 
 
 
-<a href="https://msdn.microsoft.com/79f1286e-e30b-4989-a631-f2bcb87486a2">MsiSourceListAddSourceEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisourcelistaddsourceexa">MsiSourceListAddSourceEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/850b598a-338e-4f84-8336-01e962256a08">Not Supported in Windows Installer 2.0 and earlier</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
 
 
 
-<a href="https://msdn.microsoft.com/33cedd37-0343-471c-ad4b-0db5f98d5894">ProductCode</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a>
  
 
  

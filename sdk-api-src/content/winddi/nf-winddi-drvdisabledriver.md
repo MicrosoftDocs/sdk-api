@@ -84,7 +84,7 @@ The driver should free all allocated resources and return the device to the stat
 
 
 
-<a href="https://msdn.microsoft.com/b7aa5442-bbf5-4f9e-ad39-bf8a2d01c50e">DrvEnableDriver</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenabledriver">DrvEnableDriver</a>
  
 
  

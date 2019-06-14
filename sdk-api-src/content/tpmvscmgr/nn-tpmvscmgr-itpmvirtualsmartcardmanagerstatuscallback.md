@@ -55,7 +55,7 @@ Notifies the caller of the progress of the requested operation or any resulting 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITpmVirtualSmartCardManagerStatusCallback</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITpmVirtualSmartCardManagerStatusCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITpmVirtualSmartCardManagerStatusCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITpmVirtualSmartCardManagerStatusCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ITpmVirtualSmartCardManagerStatusCallback</b> interface has these methods
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/936F22EA-1C9F-4328-B71F-FA7720396F6F">ReportError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tpmvscmgr/nf-tpmvscmgr-itpmvirtualsmartcardmanagerstatuscallback-reporterror">ReportError</a>
 </td>
 <td align="left" width="63%">
 Reports any errors from the requested operation.
@@ -79,7 +79,7 @@ Reports any errors from the requested operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E20CF68F-0DFB-48E4-9B68-83A8E8763424">ReportProgress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tpmvscmgr/nf-tpmvscmgr-itpmvirtualsmartcardmanagerstatuscallback-reportprogress">ReportProgress</a>
 </td>
 <td align="left" width="63%">
 Reports the progress of the current operation.

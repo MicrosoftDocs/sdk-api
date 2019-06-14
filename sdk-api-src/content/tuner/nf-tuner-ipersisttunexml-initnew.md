@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-This method is not implemented in the current release. It was created to make the <a href="https://msdn.microsoft.com/2e08f727-9ffe-435b-9eca-4e9867fe410b">IPersistTuneXml</a> interface compatible with the <b>IPersistStreamInit</b> interface and is reserved for future use.
+This method is not implemented in the current release. It was created to make the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ipersisttunexml">IPersistTuneXml</a> interface compatible with the <b>IPersistStreamInit</b> interface and is reserved for future use.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ Always returns <b>S_OK</b>.
 
 
 
-<a href="https://msdn.microsoft.com/2e08f727-9ffe-435b-9eca-4e9867fe410b">IPersistTuneXml</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ipersisttunexml">IPersistTuneXml</a>
  
 
  

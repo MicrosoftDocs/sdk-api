@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Contains information about processor C-state policy settings. This structure is part of the 
-<a href="https://msdn.microsoft.com/ea1eae62-26b4-4f5d-a9ca-0a7bb463b90a">PROCESSOR_POWER_POLICY</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_processor_power_policy">PROCESSOR_POWER_POLICY</a> structure.
 
 
 ## -struct-fields
@@ -108,7 +108,7 @@ Reserved.
 
 
 
-<a href="https://msdn.microsoft.com/ea1eae62-26b4-4f5d-a9ca-0a7bb463b90a">PROCESSOR_POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_processor_power_policy">PROCESSOR_POWER_POLICY</a>
  
 
  

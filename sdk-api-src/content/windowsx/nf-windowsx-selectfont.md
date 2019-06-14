@@ -67,7 +67,7 @@ A handle to the DC.
 
 ### -param hfont
 
-A handle to the font object to be selected. The font object must have been created using either <a href="https://msdn.microsoft.com/373bac6e-5d4d-4909-8096-2f0e909d2f1d">CreateFont</a> or <a href="https://msdn.microsoft.com/b7919fb6-8515-4f1b-af9c-dc7eac381b90">CreateFontIndirect</a>.
+A handle to the font object to be selected. The font object must have been created using either <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createfonta">CreateFont</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta">CreateFontIndirect</a>.
 
 
 ## -remarks
@@ -76,7 +76,7 @@ A handle to the font object to be selected. The font object must have been creat
 
 After an application has finished drawing with the new font object, it should always replace a new font object with the original font object.
 
-The <b>SelectFont</b> macro is equivalent to calling <a href="https://msdn.microsoft.com/a89b875e-923d-4048-bc61-8dea132cc56d">SelectObject</a> as follows:
+The <b>SelectFont</b> macro is equivalent to calling <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a> as follows:
 
 <pre class="syntax" xml:space="preserve"><code>
 ((HFONT) SelectObject((hdc), (HGDIOBJ)(HFONT)(hfont)))
@@ -89,11 +89,11 @@ The <b>SelectFont</b> macro is equivalent to calling <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/5cb6c667-3c8b-41cf-b2b7-9e1e89729da7">DeleteFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-deletefont">DeleteFont</a>
 
 
 
-<a href="https://msdn.microsoft.com/a89b875e-923d-4048-bc61-8dea132cc56d">SelectObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
  
 
  

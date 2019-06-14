@@ -95,31 +95,31 @@ The parameter is not valid.
 
 
 
-<a href="https://msdn.microsoft.com/debb3c57-b5d2-440b-acf2-b6d8e712849b">PeerEnumGroups</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerenumgroups">PeerEnumGroups</a>
 
 
 
-<a href="https://msdn.microsoft.com/91f18185-0292-41a3-8aff-8b345cab5e82">PeerEnumIdentities</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerenumidentities">PeerEnumIdentities</a>
 
 
 
-<a href="https://msdn.microsoft.com/8f6fec31-8867-4d65-b5b0-e6506be9c991">PeerGetItemCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergetitemcount">PeerGetItemCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/015faeb3-82d9-49e5-a451-7394bf83240f">PeerGetNextItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergetnextitem">PeerGetNextItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/84a26066-3d6a-44c8-86a1-b3f997c17739">PeerGroupEnumConnections</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupenumconnections">PeerGroupEnumConnections</a>
 
 
 
-<a href="https://msdn.microsoft.com/1201ce0b-961a-4848-9b9c-ad6491e3ff4a">PeerGroupEnumMembers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupenummembers">PeerGroupEnumMembers</a>
 
 
 
-<a href="https://msdn.microsoft.com/d9a0654a-850a-40bb-9112-03ec9bf47370">PeerGroupEnumRecords</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupenumrecords">PeerGroupEnumRecords</a>
  
 
  

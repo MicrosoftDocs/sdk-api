@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Retrieves a value that indicates whether the <a href="https://msdn.microsoft.com/e9fa6807-6e2a-44ec-9b8f-a560185e4367">InkPicture</a> control has interest in a particular application gesture.
+Retrieves a value that indicates whether the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control has interest in a particular application gesture.
 
 
 
@@ -68,7 +68,7 @@ The gesture that you want the status of.
 
 ### -param Listening [out, retval]
 
-<b>VARIANT_TRUE</b> if the <a href="https://msdn.microsoft.com/e9fa6807-6e2a-44ec-9b8f-a560185e4367">InkPicture</a> control has interest in the gesture and the <a href="https://msdn.microsoft.com/a20f2d78-6cfe-4755-968e-91369021db1b">Gesture Event</a> fires when the gesture is recognized. <b>VARIANT_FALSE</b> if the InkPicture control has no interest in the gesture, and the strokes that were recognized as a gesture remain as <a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp</a> objects.
+<b>VARIANT_TRUE</b> if the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control has interest in the gesture and the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-gesture">Gesture Event</a> fires when the gesture is recognized. <b>VARIANT_FALSE</b> if the InkPicture control has no interest in the gesture, and the strokes that were recognized as a gesture remain as <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> objects.
 
 
 ## -returns
@@ -158,11 +158,11 @@ The flag is invalid.
 
 
 
-This method throws an exception if the <i>gesture</i> parameter is set to <a href="https://msdn.microsoft.com/b429ec96-691f-4761-92bf-ef500cf0e1be">IAG_AllGestures</a>.
+This method throws an exception if the <i>gesture</i> parameter is set to <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">IAG_AllGestures</a>.
 
-To set the interest of the <a href="https://msdn.microsoft.com/e9fa6807-6e2a-44ec-9b8f-a560185e4367">InkPicture</a> control in a particular gesture, call the <a href="https://msdn.microsoft.com/36f3611a-c7d9-49a2-9ead-db98647f6da7">SetGestureStatus Method</a>.
+To set the interest of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control in a particular gesture, call the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setgesturestatus">SetGestureStatus Method</a>.
 
-<div class="alert"><b>Note</b>  By default, the <a href="https://msdn.microsoft.com/e9fa6807-6e2a-44ec-9b8f-a560185e4367">InkPicture</a> control does not have interest in any application gesture.</div>
+<div class="alert"><b>Note</b>  By default, the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control does not have interest in any application gesture.</div>
 <div> </div>
 
 
@@ -172,7 +172,7 @@ To set the interest of the <a href="https://msdn.microsoft.com/e9fa6807-6e2a-44e
 
 
 
-<a href="https://msdn.microsoft.com/a20f2d78-6cfe-4755-968e-91369021db1b">Gesture Event</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-gesture">Gesture Event</a>
 
 
 
@@ -180,15 +180,15 @@ To set the interest of the <a href="https://msdn.microsoft.com/e9fa6807-6e2a-44e
 
 
 
-<a href="https://msdn.microsoft.com/b429ec96-691f-4761-92bf-ef500cf0e1be">InkApplicationGesture Enumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">InkApplicationGesture Enumeration</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9fa6807-6e2a-44ec-9b8f-a560185e4367">InkPicture</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a>
 
 
 
-<a href="https://msdn.microsoft.com/36f3611a-c7d9-49a2-9ead-db98647f6da7">SetGestureStatus Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setgesturestatus">SetGestureStatus Method</a>
  
 
  

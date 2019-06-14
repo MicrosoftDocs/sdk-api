@@ -59,7 +59,7 @@ Releases error-specific memory allocated by the EAP peer method.
 
 ### -param pEapError [in]
 
-A pointer to the address of an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains the error data to free.
+A pointer to the address of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structure that contains the error data to free.
 
 
 ## -returns
@@ -85,15 +85,15 @@ This call is performed by a peer-based EAPHost using a function pointer to this 
 
 
 
-<a href="https://msdn.microsoft.com/ba5c90b2-5185-4810-84a2-d08e62e8105c">EAPHost Peer Method Configuration Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eaphost-peer-method-configuration-functions">EAPHost Peer Method Configuration Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a>
 
 
 
-<a href="https://msdn.microsoft.com/544d999c-d857-4ca5-b5f8-b15780fc7019">EapPeerFreeMemory</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreememory">EapPeerFreeMemory</a>
  
 
  

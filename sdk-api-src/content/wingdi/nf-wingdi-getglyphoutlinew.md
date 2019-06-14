@@ -109,7 +109,7 @@ The function retrieves the glyph bitmap. For information about memory allocation
 </dl>
 </td>
 <td width="60%">
-Indicates that the <i>uChar</i> parameter is a TrueType Glyph Index rather than a character code. See the <a href="https://msdn.microsoft.com/74f8fcb8-8ad4-47f2-a330-fa56713bdb37">ExtTextOut</a> function for additional remarks on Glyph Indexing.
+Indicates that the <i>uChar</i> parameter is a TrueType Glyph Index rather than a character code. See the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a> function for additional remarks on Glyph Indexing.
 
 </td>
 </tr>
@@ -149,7 +149,7 @@ The function retrieves a glyph bitmap that contains 65 levels of gray.
 </dl>
 </td>
 <td width="60%">
-The function only retrieves the <a href="https://msdn.microsoft.com/a6fa3813-56f7-4b54-b21d-8aabc2309a34">GLYPHMETRICS</a> structure specified by <i>lpgm</i>. The <i>lpvBuffer</i> is ignored. This value affects the meaning of the function's return value upon failure; see the Return Values section.
+The function only retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_glyphmetrics">GLYPHMETRICS</a> structure specified by <i>lpgm</i>. The <i>lpvBuffer</i> is ignored. This value affects the meaning of the function's return value upon failure; see the Return Values section.
 
 </td>
 </tr>
@@ -181,7 +181,7 @@ Note that, for the GGO_GRAYn_BITMAP values, the function retrieves a glyph bitma
 
 ### -param lpgm [out]
 
-A pointer to the <a href="https://msdn.microsoft.com/a6fa3813-56f7-4b54-b21d-8aabc2309a34">GLYPHMETRICS</a> structure describing the placement of the glyph in the character cell.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_glyphmetrics">GLYPHMETRICS</a> structure describing the placement of the glyph in the character cell.
 
 
 ### -param cjBuffer [in]
@@ -196,7 +196,7 @@ A pointer to the buffer that receives information about the outline character. I
 
 ### -param lpmat2 [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/841883d6-bc4d-46ef-abf4-f179771d255b">MAT2</a> structure specifying a transformation matrix for the character.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_mat2">MAT2</a> structure specifying a transformation matrix for the character.
 
 
 ## -returns
@@ -214,13 +214,13 @@ If GGO_METRICS is specified and the function fails, the return value is GDI_ERRO
 
 
 
-The glyph outline returned by the <b>GetGlyphOutline</b> function is for a grid-fitted glyph. (A grid-fitted glyph is a glyph that has been modified so that its bitmapped image conforms as closely as possible to the original design of the glyph.) If an application needs an unmodified glyph outline, it can request the glyph outline for a character in a font whose size is equal to the font's em unit. The value for a font's em unit is stored in the <b>otmEMSquare</b> member of the <a href="https://msdn.microsoft.com/79d77df0-193a-49a8-b93d-4ef5807c3c9b">OUTLINETEXTMETRIC</a> structure.
+The glyph outline returned by the <b>GetGlyphOutline</b> function is for a grid-fitted glyph. (A grid-fitted glyph is a glyph that has been modified so that its bitmapped image conforms as closely as possible to the original design of the glyph.) If an application needs an unmodified glyph outline, it can request the glyph outline for a character in a font whose size is equal to the font's em unit. The value for a font's em unit is stored in the <b>otmEMSquare</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_outlinetextmetrica">OUTLINETEXTMETRIC</a> structure.
 
 The glyph bitmap returned by <b>GetGlyphOutline</b> when GGO_BITMAP is specified is a DWORD-aligned, row-oriented, monochrome bitmap. When GGO_GRAY2_BITMAP is specified, the bitmap returned is a DWORD-aligned, row-oriented array of bytes whose values range from 0 to 4. When GGO_GRAY4_BITMAP is specified, the bitmap returned is a DWORD-aligned, row-oriented array of bytes whose values range from 0 to 16. When GGO_GRAY8_BITMAP is specified, the bitmap returned is a DWORD-aligned, row-oriented array of bytes whose values range from 0 to 64.
 
-The native buffer returned by <b>GetGlyphOutline</b> when GGO_NATIVE is specified is a glyph outline. A glyph outline is returned as a series of one or more contours defined by a <a href="https://msdn.microsoft.com/eea54aeb-7847-4393-87fa-86de93017be8">TTPOLYGONHEADER</a> structure followed by one or more curves. Each curve in the contour is defined by a <a href="https://msdn.microsoft.com/59a26aec-786e-471b-8e08-ddffb04874d6">TTPOLYCURVE</a> structure followed by a number of <a href="https://msdn.microsoft.com/a8736c6c-7944-42ed-811c-308f41f1ab2f">POINTFX</a> data points. <b>POINTFX</b> points are absolute positions, not relative moves. The starting point of a contour is given by the <b>pfxStart</b> member of the <b>TTPOLYGONHEADER</b> structure. The starting point of each curve is the last point of the previous curve or the starting point of the contour. The count of data points in a curve is stored in the <b>cpfx</b> member of <b>TTPOLYCURVE</b> structure. The size of each contour in the buffer, in bytes, is stored in the <b>cb</b> member of <b>TTPOLYGONHEADER</b> structure. Additional curve definitions are packed into the buffer following preceding curves and additional contours are packed into the buffer following preceding contours. The buffer contains as many contours as fit within the buffer returned by <b>GetGlyphOutline</b>.
+The native buffer returned by <b>GetGlyphOutline</b> when GGO_NATIVE is specified is a glyph outline. A glyph outline is returned as a series of one or more contours defined by a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagttpolygonheader">TTPOLYGONHEADER</a> structure followed by one or more curves. Each curve in the contour is defined by a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagttpolycurve">TTPOLYCURVE</a> structure followed by a number of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagpointfx">POINTFX</a> data points. <b>POINTFX</b> points are absolute positions, not relative moves. The starting point of a contour is given by the <b>pfxStart</b> member of the <b>TTPOLYGONHEADER</b> structure. The starting point of each curve is the last point of the previous curve or the starting point of the contour. The count of data points in a curve is stored in the <b>cpfx</b> member of <b>TTPOLYCURVE</b> structure. The size of each contour in the buffer, in bytes, is stored in the <b>cb</b> member of <b>TTPOLYGONHEADER</b> structure. Additional curve definitions are packed into the buffer following preceding curves and additional contours are packed into the buffer following preceding contours. The buffer contains as many contours as fit within the buffer returned by <b>GetGlyphOutline</b>.
 
-The <a href="https://msdn.microsoft.com/a6fa3813-56f7-4b54-b21d-8aabc2309a34">GLYPHMETRICS</a> structure specifies the width of the character cell and the location of a glyph within the character cell. The origin of the character cell is located at the left side of the cell at the baseline of the font. The location of the glyph origin is relative to the character cell origin. The height of a character cell, the baseline, and other metrics global to the font are given by the <a href="https://msdn.microsoft.com/79d77df0-193a-49a8-b93d-4ef5807c3c9b">OUTLINETEXTMETRIC</a> structure.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_glyphmetrics">GLYPHMETRICS</a> structure specifies the width of the character cell and the location of a glyph within the character cell. The origin of the character cell is located at the left side of the cell at the baseline of the font. The location of the glyph origin is relative to the character cell origin. The height of a character cell, the baseline, and other metrics global to the font are given by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_outlinetextmetrica">OUTLINETEXTMETRIC</a> structure.
 
 An application can alter the characters retrieved in bitmap or native format by specifying a 2-by-2 transformation matrix in the <i>lpMatrix</i> parameter. For example the glyph can be modified by shear, rotation, scaling, or any combination of the three using matrix multiplication.
 
@@ -234,51 +234,51 @@ Additional information on a glyph outlines is located in the TrueType and the Op
 
 
 
-<a href="https://msdn.microsoft.com/74f8fcb8-8ad4-47f2-a330-fa56713bdb37">ExtTextOut</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a>
 
 
 
-<a href="https://msdn.microsoft.com/1c42ea6c-82cf-463c-bc67-44a8d8c4a1e7">FORM_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/printdocs/form-info-1">FORM_INFO_1</a>
 
 
 
-<a href="https://msdn.microsoft.com/69c04ed7-52da-4cb6-9fd2-f2a8c044df8b">Font and Text Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9944baa9-8e50-40b9-9650-78b0b1d7643a">Fonts and Text Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/a6fa3813-56f7-4b54-b21d-8aabc2309a34">GLYPHMETRICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_glyphmetrics">GLYPHMETRICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/b8c7a557-ca35-41a4-9043-8496e5b01564">GetOutlineTextMetrics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getoutlinetextmetricsa">GetOutlineTextMetrics</a>
 
 
 
-<a href="https://msdn.microsoft.com/841883d6-bc4d-46ef-abf4-f179771d255b">MAT2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_mat2">MAT2</a>
 
 
 
-<a href="https://msdn.microsoft.com/79d77df0-193a-49a8-b93d-4ef5807c3c9b">OUTLINETEXTMETRIC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_outlinetextmetrica">OUTLINETEXTMETRIC</a>
 
 
 
-<a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>
+<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>
 
 
 
-<a href="https://msdn.microsoft.com/a8736c6c-7944-42ed-811c-308f41f1ab2f">POINTFX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagpointfx">POINTFX</a>
 
 
 
-<a href="https://msdn.microsoft.com/59a26aec-786e-471b-8e08-ddffb04874d6">TTPOLYCURVE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagttpolycurve">TTPOLYCURVE</a>
 
 
 
-<a href="https://msdn.microsoft.com/eea54aeb-7847-4393-87fa-86de93017be8">TTPOLYGONHEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagttpolygonheader">TTPOLYGONHEADER</a>
  
 
  

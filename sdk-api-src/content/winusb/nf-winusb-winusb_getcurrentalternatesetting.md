@@ -59,7 +59,7 @@ The <b>WinUsb_GetCurrentAlternateSetting</b> function gets the current alternate
 
 ### -param InterfaceHandle [in]
 
-An opaque handle to an interface in the selected configuration. To get the current alternate setting in the first (default) interface on the device, use the interface handle returned by <a href="https://msdn.microsoft.com/258cf508-036a-4ade-95b2-4b36d1149ffd">WinUsb_Initialize</a>. For all other interfaces, use the handle to the target interface, retrieved by <a href="https://msdn.microsoft.com/1afc7b2f-4fb6-4ab4-8415-aaee9cd6ee0c">WinUsb_GetAssociatedInterface</a>.
+An opaque handle to an interface in the selected configuration. To get the current alternate setting in the first (default) interface on the device, use the interface handle returned by <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>. For all other interfaces, use the handle to the target interface, retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_getassociatedinterface">WinUsb_GetAssociatedInterface</a>.
 
 
 ### -param SettingNumber [out]
@@ -105,7 +105,7 @@ The caller passed <b>NULL</b> in the  <i>InterfaceHandle</i> parameter.
 
 
 
-<a href="https://msdn.microsoft.com/8234d0b4-2c73-45fa-a8bf-566c64cc2858">WinUSB</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WinUSB</a>
 
 
 
@@ -113,7 +113,7 @@ The caller passed <b>NULL</b> in the  <i>InterfaceHandle</i> parameter.
 
 
 
-<a href="https://msdn.microsoft.com/258cf508-036a-4ade-95b2-4b36d1149ffd">WinUsb_Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>
  
 
  

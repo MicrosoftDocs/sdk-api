@@ -57,7 +57,7 @@ The <b>ISCPSecureAuthenticate2</b> interface extends <b>ISCPSecureAuthenticate</
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISCPSecureAuthenticate2</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISCPSecureAuthenticate2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISCPSecureAuthenticate2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISCPSecureAuthenticate2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,10 +72,10 @@ The <b>ISCPSecureAuthenticate2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7e09d8ea-65aa-427b-a876-00b089659b1b">GetSCPSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureauthenticate2-getscpsession">GetSCPSession</a>
 </td>
 <td align="left" width="63%">
-Gets a pointer to an <a href="https://msdn.microsoft.com/4efd8e5a-490b-435b-b34d-7099198891b1">ISCPSession</a> interface that represents a session object.
+Gets a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsession">ISCPSession</a> interface that represents a session object.
 
 </td>
 </tr>
@@ -87,15 +87,15 @@ Gets a pointer to an <a href="https://msdn.microsoft.com/4efd8e5a-490b-435b-b34d
 
 
 
-<a href="https://msdn.microsoft.com/dfe37b41-f80b-4992-84c1-c23581cc4b69">ISCPSecureAuthenticate Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureauthenticate">ISCPSecureAuthenticate Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/4efd8e5a-490b-435b-b34d-7099198891b1">ISCPSession Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsession">ISCPSession Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3eecdb8-55a9-46e3-95d1-0fb9bd59f393">Interfaces for Secure Content Providers</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-secure-content-providers">Interfaces for Secure Content Providers</a>
  
 
  

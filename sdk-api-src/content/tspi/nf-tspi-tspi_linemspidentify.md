@@ -83,8 +83,8 @@ Returns zero if the function succeeds, or an error number if an error occurs. Po
 
 Note that TAPI 3 calls 
 <b>TSPI_lineMSPIdentify</b> only if the LINEDEVCAPFLAGS_MSP flag is set in the TSP. (You can set 
-<a href="https://msdn.microsoft.com/0c537488-9fb9-4961-bd0a-1937aefc0b08">LINEDEVCAPFLAGS_constants</a> in the <b>dwDevCapFlags</b> member of the 
-<a href="https://msdn.microsoft.com/83e38453-bb93-4cc5-923f-d0cd2898350a">LINEDEVCAPS</a> structure.)
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linedevcapflags--constants">LINEDEVCAPFLAGS_constants</a> in the <b>dwDevCapFlags</b> member of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a> structure.)
 
 If the device does not have an associated MSP, the TSP returns LINEERR_OPERATIONUNAVAIL.
 
@@ -96,23 +96,23 @@ If the device does not have an associated MSP, the TSP returns LINEERR_OPERATION
 
 
 
-<a href="https://msdn.microsoft.com/2dd1268f-b31a-443b-a36b-05c1570e7a8a">About The Media Service Provider (MSP)</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/about-the-media-service-provider-msp-">About The Media Service Provider (MSP)</a>
 
 
 
-<a href="https://msdn.microsoft.com/83e38453-bb93-4cc5-923f-d0cd2898350a">LINEDEVCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/700824ed-05a1-4fb5-adf1-491e1dea7bf4">TSPI_lineCloseMSPInstance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineclosemspinstance">TSPI_lineCloseMSPInstance</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d3421d8-2ef8-4f62-b6b0-5671a18ffc0b">TSPI_lineCreateMSPInstance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linecreatemspinstance">TSPI_lineCreateMSPInstance</a>
 
 
 
-<a href="https://msdn.microsoft.com/90d334e7-e91d-482e-bd79-4b610fe5144d">TSPI_lineReceiveMSPData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linereceivemspdata">TSPI_lineReceiveMSPData</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[CStdStubBuffer_CountRefs is not supported and may be altered or unavailable in the future.]
 
-The <b>CStdStubBuffer_CountRefs</b> function implements the <a href="https://msdn.microsoft.com/0a2a629a-b935-47a2-a4c6-ba9f20641a03">IRpcStubBuffer::CountRefs</a> method.
+The <b>CStdStubBuffer_CountRefs</b> function implements the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-countrefs">IRpcStubBuffer::CountRefs</a> method.
 
 
 ## -parameters

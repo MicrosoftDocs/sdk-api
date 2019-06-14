@@ -96,7 +96,7 @@ An unexpected error has occurred.
 
 
 
-This method replaces <a href="https://msdn.microsoft.com/070aac4e-94b6-4e23-b132-1dc833774c8b">IOleInPlaceSite::OnInPlaceDeactivate</a>. If the older method is used, the object must always be redrawn on deactivation.
+This method replaces <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-oninplacedeactivate">IOleInPlaceSite::OnInPlaceDeactivate</a>. If the older method is used, the object must always be redrawn on deactivation.
 
 
 
@@ -106,11 +106,11 @@ This method replaces <a href="https://msdn.microsoft.com/070aac4e-94b6-4e23-b132
 
 
 
-<a href="https://msdn.microsoft.com/070aac4e-94b6-4e23-b132-1dc833774c8b">IOleInPlaceSite::OnInPlaceDeactivate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-oninplacedeactivate">IOleInPlaceSite::OnInPlaceDeactivate</a>
 
 
 
-<a href="https://msdn.microsoft.com/d93e6d23-7867-43e4-8ab9-efe609362c18">IOleInPlaceSiteEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesiteex">IOleInPlaceSiteEx</a>
  
 
  

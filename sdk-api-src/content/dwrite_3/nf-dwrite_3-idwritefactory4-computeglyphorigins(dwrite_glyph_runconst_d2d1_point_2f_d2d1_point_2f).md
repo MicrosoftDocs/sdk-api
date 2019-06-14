@@ -60,38 +60,38 @@ Converts glyph run placements to glyph origins.
 
 ### -param glyphRun
 
-Type: <b><a href="https://msdn.microsoft.com/2997d63f-8d33-44c3-9617-cfffe5f61f7d">DWRITE_GLYPH_RUN</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_glyph_run">DWRITE_GLYPH_RUN</a></b>
 
 Structure containing the properties of the glyph run.
 
 
 ### -param baselineOrigin
 
-Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 
 The position of the baseline origin, in DIPs, relative to the upper-left corner of the DIB.
 
 
 ### -param glyphOrigins [out]
 
-Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a>*</b>
 
 On return contains the glyph origins for the glyphrun.
 
 
 #### - measuringMode
 
-Type: <b><a href="https://msdn.microsoft.com/99e89754-8bc2-457d-bfdb-a3c9ccfe00c1">DWRITE_MEASURING_MODE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-dwrite_measuring_mode">DWRITE_MEASURING_MODE</a></b>
 
 The measuring method for glyphs in the run, used with the other properties to determine the rendering mode.
 
 
 #### - worldAndDpiTransform [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/fe4bd8ba-fc3b-4a04-8a72-9983d52f4404">DWRITE_MATRIX</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_matrix">DWRITE_MATRIX</a></b>
 
 World transform multiplied by any DPI scaling. 
-          This is needed to compute glyph positions if the run contains color glyphs and the measuring mode is not <a href="https://msdn.microsoft.com/99e89754-8bc2-457d-bfdb-a3c9ccfe00c1">DWRITE_MEASURING_MODE_NATURAL</a>. 
+          This is needed to compute glyph positions if the run contains color glyphs and the measuring mode is not <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-dwrite_measuring_mode">DWRITE_MEASURING_MODE_NATURAL</a>. 
           If this parameter is NULL, and identity transform is assumed. 
 
 
@@ -99,7 +99,7 @@ World transform multiplied by any DPI scaling.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
 
@@ -120,7 +120,7 @@ The transform and DPI have no effect on the origin scaling. They are solely used
 
 
 
-<a href="https://msdn.microsoft.com/D3C5E48A-A062-430A-A196-CAC621F346FC">IDWriteFactory4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefactory4">IDWriteFactory4</a>
  
 
  

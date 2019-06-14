@@ -50,12 +50,12 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a media source from a URL or a byte stream. The <a href="https://msdn.microsoft.com/93eecf10-308b-4bb4-92f9-fd32d6ecdb04">Source Resolver</a> implements this interface. To create the source resolver, call <a href="https://msdn.microsoft.com/60d6b0e2-5ab2-4a20-99d9-e6b806a1f576">MFCreateSourceResolver</a> function.
+Creates a media source from a URL or a byte stream. The <a href="https://docs.microsoft.com/windows/desktop/medfound/source-resolver">Source Resolver</a> implements this interface. To create the source resolver, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatesourceresolver">MFCreateSourceResolver</a> function.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSourceResolver</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFSourceResolver</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSourceResolver</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSourceResolver</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMFSourceResolver</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6e218b93-4855-40dd-96cc-c4ee02792c14">BeginCreateObjectFromByteStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsourceresolver-begincreateobjectfrombytestream">BeginCreateObjectFromByteStream</a>
 </td>
 <td align="left" width="63%">
 Begins an asynchronous request to create a media source from a byte stream.
@@ -79,7 +79,7 @@ Begins an asynchronous request to create a media source from a byte stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bc97c1fb-d23a-4887-b6ac-0751c254a405">BeginCreateObjectFromURL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsourceresolver-begincreateobjectfromurl">BeginCreateObjectFromURL</a>
 </td>
 <td align="left" width="63%">
 Begins an asynchronous request to create a media source or a byte stream from a URL.
@@ -88,7 +88,7 @@ Begins an asynchronous request to create a media source or a byte stream from a 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6a30ac92-a281-4293-8975-987fa25a5318">CancelObjectCreation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsourceresolver-cancelobjectcreation">CancelObjectCreation</a>
 </td>
 <td align="left" width="63%">
 Cancels an asynchronous request to create an object.
@@ -97,7 +97,7 @@ Cancels an asynchronous request to create an object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e4a4aad5-0924-4251-b0da-6919ae010bf0">CreateObjectFromByteStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsourceresolver-createobjectfrombytestream">CreateObjectFromByteStream</a>
 </td>
 <td align="left" width="63%">
 Creates a media source from a byte stream.
@@ -106,7 +106,7 @@ Creates a media source from a byte stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b8f751b1-6456-4d67-839d-ecfa388e8d71">CreateObjectFromURL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsourceresolver-createobjectfromurl">CreateObjectFromURL</a>
 </td>
 <td align="left" width="63%">
 Creates a media source or a byte stream from a URL.
@@ -115,7 +115,7 @@ Creates a media source or a byte stream from a URL.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/54532c0e-772b-45b6-95a3-5959023b9bc8">EndCreateObjectFromByteStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsourceresolver-endcreateobjectfrombytestream">EndCreateObjectFromByteStream</a>
 </td>
 <td align="left" width="63%">
 Completes an asynchronous request to create a media source from a byte stream.
@@ -124,7 +124,7 @@ Completes an asynchronous request to create a media source from a byte stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/af50a76d-b083-4815-bbff-820b21ff8d1b">EndCreateObjectFromURL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsourceresolver-endcreateobjectfromurl">EndCreateObjectFromURL</a>
 </td>
 <td align="left" width="63%">
 Completes an asynchronous request to create an object from a URL.
@@ -139,11 +139,11 @@ Completes an asynchronous request to create an object from a URL.
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/93eecf10-308b-4bb4-92f9-fd32d6ecdb04">Source Resolver</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/source-resolver">Source Resolver</a>
  
 
  

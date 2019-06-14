@@ -60,7 +60,7 @@ Creates a factory object
 
 ### -param factoryType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/428053d3-7ea0-4b01-9924-4a31d8e018fb">D2D1_FACTORY_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_factory_type">D2D1_FACTORY_TYPE</a></b>
 
 The threading model of the factory and the resources it creates.
 
@@ -69,12 +69,12 @@ The threading model of the factory and the resources it creates.
 
 Type: <b>REFIID</b>
 
-A reference to the IID of <a href="https://msdn.microsoft.com/cef6115c-98e8-49e6-b419-271b43ce2938">ID2D1Factory</a> that is obtained by using __uuidof(ID2D1Factory).
+A reference to the IID of <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a> that is obtained by using __uuidof(ID2D1Factory).
 
 
 ### -param pFactoryOptions [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/2765d34e-978c-4121-82c9-2780d54e2850">D2D1_FACTORY_OPTIONS</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_factory_options">D2D1_FACTORY_OPTIONS</a>*</b>
 
 The level of detail provided to the debugging layer.
 
@@ -90,7 +90,7 @@ When this method returns, contains the address to a pointer to the new factory.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -101,7 +101,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-The <a href="https://msdn.microsoft.com/cef6115c-98e8-49e6-b419-271b43ce2938">ID2D1Factory</a> interface provides the starting point for  Direct2D. In general, objects created from a single instance of a factory object can be used with other resources created from that instance, but not with resources created by other factory instances.  
+The <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a> interface provides the starting point for  Direct2D. In general, objects created from a single instance of a factory object can be used with other resources created from that instance, but not with resources created by other factory instances.  
 	 
 
 
@@ -112,7 +112,7 @@ The <a href="https://msdn.microsoft.com/cef6115c-98e8-49e6-b419-271b43ce2938">ID
 
 
 
-<a href="https://msdn.microsoft.com/b1362ef6-40fc-4fa5-ba5b-22c622c39f04">Direct2D API Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/the-direct2d-api">Direct2D API Overview</a>
  
 
  

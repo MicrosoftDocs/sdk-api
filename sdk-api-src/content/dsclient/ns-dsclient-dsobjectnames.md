@@ -69,7 +69,7 @@ Contains the number of elements in the <b>aObjects</b> array.
 
 ### -field aObjects
 
-Contains an array of <a href="https://msdn.microsoft.com/2f16a015-a777-4410-bed5-d409a4869c97">DSBOJECT</a> structures. Each <b>DSBOJECT</b> structure represents a single directory object. The <b>cItems</b> member contains the number of elements in the array.
+Contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/ns-dsclient-dsobject">DSBOJECT</a> structures. Each <b>DSBOJECT</b> structure represents a single directory object. The <b>cItems</b> member contains the number of elements in the array.
 
 
 ## -see-also
@@ -77,11 +77,11 @@ Contains an array of <a href="https://msdn.microsoft.com/2f16a015-a777-4410-bed5
 
 
 
-<a href="https://msdn.microsoft.com/2f16a015-a777-4410-bed5-d409a4869c97">DSBOJECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/ns-dsclient-dsobject">DSBOJECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf6aa066-ee7e-4b13-9a4b-1e097632ec5a">Display Structures in Active Directory Domain Services</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/display-structures-in-active-directory-domain-services">Display Structures in Active Directory Domain Services</a>
  
 
  

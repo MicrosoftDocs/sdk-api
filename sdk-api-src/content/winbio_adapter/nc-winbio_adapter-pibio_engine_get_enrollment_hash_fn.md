@@ -59,7 +59,7 @@ Called by the Windows Biometric Framework to retrieve the hash of the completed 
 
 ### -param Pipeline [in, out]
 
-Pointer to a <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae41c3e12a">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 
 
@@ -127,21 +127,21 @@ The pipeline does not contain a completed enrollment template.
 
 
 
-The template hashed by this function must be the completed enrollment template that will be stored in the database when <a href="https://msdn.microsoft.com/f8eb3dd9-b993-4b45-b7f4-e1925c233a80">EngineAdapterCommitEnrollment</a> is called. You must not hash one of the intermediate captured samples.
+The template hashed by this function must be the completed enrollment template that will be stored in the database when <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_commit_enrollment_fn">EngineAdapterCommitEnrollment</a> is called. You must not hash one of the intermediate captured samples.
 
-The algorithm used to generate the template hash is that which was selected by the most recent call, on this pipeline, to <a href="https://msdn.microsoft.com/0d16d82a-287c-4402-ac10-f601684bd976">EngineAdapterSetHashAlgorithm</a>.
+The algorithm used to generate the template hash is that which was selected by the most recent call, on this pipeline, to <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_set_hash_algorithm_fn">EngineAdapterSetHashAlgorithm</a>.
 
 The memory that contains the hash is owned and managed by the engine adapter after the <i>EngineAdapterGetEnrollmentHash</i> function returns successfully. The engine adapter must keep the buffer address valid until the Framework calls any of the following functions:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/c4ed5971-e657-4583-aac2-6263801f7468">EngineAdapterClearContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_clear_context_fn">EngineAdapterClearContext</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/f8eb3dd9-b993-4b45-b7f4-e1925c233a80">EngineAdapterCommitEnrollment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_commit_enrollment_fn">EngineAdapterCommitEnrollment</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/305540bc-e0c6-460a-a00b-c295b3d6db93">EngineAdapterDiscardEnrollment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_discard_enrollment_fn">EngineAdapterDiscardEnrollment</a>
 </li>
 </ul>
 The engine adapter must also maintain a separate hash buffer for each pipeline.
@@ -242,7 +242,7 @@ cleanup:
 
 
 
-<a href="https://msdn.microsoft.com/5f04d912-f9bc-41d4-aa9e-b843e4b5a994">Plug-in Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
  
 
  

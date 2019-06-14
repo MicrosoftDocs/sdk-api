@@ -80,7 +80,7 @@ The size, in bytes, of the <i>pbCertEncoded</i> buffer.
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
-If the function fails, the return value is <b>FALSE</b>. <b>CertAddEncodedCertificateToSystemStore</b> depends on the functions listed in the following remarks for error handling. Refer to those function topics for their respective error handling behaviors. For extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is <b>FALSE</b>. <b>CertAddEncodedCertificateToSystemStore</b> depends on the functions listed in the following remarks for error handling. Refer to those function topics for their respective error handling behaviors. For extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -89,13 +89,13 @@ If the function fails, the return value is <b>FALSE</b>. <b>CertAddEncodedCertif
 
 
 
-Internally, <b>CertAddEncodedCertificateToSystemStore</b> calls <a href="https://msdn.microsoft.com/23699439-1a6c-4907-93fa-651024856be7">CertOpenSystemStore</a> and <a href="https://msdn.microsoft.com/7c092bf5-f8b2-47d0-94ee-c8e0f4bca62d">CertAddEncodedCertificateToStore</a> with the following parameters.
+Internally, <b>CertAddEncodedCertificateToSystemStore</b> calls <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopensystemstorea">CertOpenSystemStore</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddencodedcertificatetostore">CertAddEncodedCertificateToStore</a> with the following parameters.
 
 
 <table>
 <tr>
 <th>
-<a href="https://msdn.microsoft.com/23699439-1a6c-4907-93fa-651024856be7">CertOpenSystemStore</a> Parameter</th>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopensystemstorea">CertOpenSystemStore</a> Parameter</th>
 <th>Value</th>
 </tr>
 <tr>
@@ -107,13 +107,13 @@ Internally, <b>CertAddEncodedCertificateToSystemStore</b> calls <a href="https:/
 
 
 
-If <b>CertAddEncodedCertificateToSystemStore</b> obtains a handle to the specified system store, it calls <a href="https://msdn.microsoft.com/a93fdd65-359e-4046-910d-347c3af01280">CertCloseStore</a> to close the handle before it returns.
+If <b>CertAddEncodedCertificateToSystemStore</b> obtains a handle to the specified system store, it calls <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a> to close the handle before it returns.
 
 
 <table>
 <tr>
 <th>
-<a href="https://msdn.microsoft.com/7c092bf5-f8b2-47d0-94ee-c8e0f4bca62d">CertAddEncodedCertificateToStore</a> Parameter</th>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddencodedcertificatetostore">CertAddEncodedCertificateToStore</a> Parameter</th>
 <th>Value</th>
 </tr>
 <tr>

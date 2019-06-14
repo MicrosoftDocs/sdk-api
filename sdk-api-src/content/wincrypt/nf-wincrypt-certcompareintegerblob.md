@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CertCompareIntegerBlob</b> function compares two integer <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOBs</a> to determine whether they represent equal numeric values. 
+The <b>CertCompareIntegerBlob</b> function compares two integer <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOBs</a> to determine whether they represent equal numeric values. 
 
 
 ## -parameters
@@ -60,12 +60,12 @@ The <b>CertCompareIntegerBlob</b> function compares two integer <a href="https:/
 ### -param pInt1 [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_INTEGER_BLOB</a> structure that contains the first integer in the comparison.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure that contains the first integer in the comparison.
 
 
 ### -param pInt2 [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_INTEGER_BLOB</a> structure that contains the second integer in the comparison.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure that contains the second integer in the comparison.
 
 
 ## -returns
@@ -75,7 +75,7 @@ A pointer to a <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf071
 If the representations of the integer BLOBs are identical and the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -112,7 +112,7 @@ Most significant bytes with a value of 0xFF are removed from a negative number. 
 </table>
  
 
-Multiple-byte integers are treated as <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">little-endian</a>. The least significant byte is <i>pbData</i>[0]. The most significant byte is <i>pbData</i>[<i>cbData</i> - 1], that is, 0xFFFFFF88 is stored in four bytes as:
+Multiple-byte integers are treated as <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">little-endian</a>. The least significant byte is <i>pbData</i>[0]. The most significant byte is <i>pbData</i>[<i>cbData</i> - 1], that is, 0xFFFFFF88 is stored in four bytes as:
 
 {0x88, 0xFF, 0xFF, 0xFF}
 
@@ -120,7 +120,7 @@ Multiple-byte integers are treated as <a href="https://msdn.microsoft.com/65dd9a
 #### Examples
 
 For an example that uses this function, see 
-<a href="https://msdn.microsoft.com/89186d98-80a9-460a-be2b-3e328675c485">Example C Program: Using CertOIDToAlgId and CertCompareIntegerBlob</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-using-certoidtoalgid-and-certcompareintegerblob">Example C Program: Using CertOIDToAlgId and CertCompareIntegerBlob</a>.
 
 <div class="code"></div>
 
@@ -131,15 +131,15 @@ For an example that uses this function, see
 
 
 
-<a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_INTEGER_BLOB</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>
  
 
  

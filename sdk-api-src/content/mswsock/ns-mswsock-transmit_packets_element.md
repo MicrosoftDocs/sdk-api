@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>TRANSMIT_PACKETS_ELEMENT</b> structure specifies a single data element to be transmitted by the 
-<a href="https://msdn.microsoft.com/c574d320-2a90-40bb-b34c-6023e80514e6">TransmitPackets</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/mswsock/nc-mswsock-lpfn_transmitpackets">TransmitPackets</a> function.
 
 
 ## -struct-fields
@@ -98,7 +98,7 @@ Specifies that data resides in memory. Mutually exclusive with TP_ELEMENT_FILE.
 </td>
 <td width="60%">
 Specifies that this element should not be combined with the next element in a single 
-<a href="https://msdn.microsoft.com/902bb9cf-d847-43fc-8282-394d619b8f1b">send</a> request from the sockets layer to the transport. This flag is used for granular control of the content of each message on a datagram or message-oriented socket.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-send">send</a> request from the sockets layer to the transport. This flag is used for granular control of the content of each message on a datagram or message-oriented socket.
 
 </td>
 </tr>
@@ -139,11 +139,11 @@ A pointer to the data in memory to be sent. Valid only if TP_ELEMENT_MEMORY is s
 
 
 
-<a href="https://msdn.microsoft.com/c574d320-2a90-40bb-b34c-6023e80514e6">TransmitPackets</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswsock/nc-mswsock-lpfn_transmitpackets">TransmitPackets</a>
 
 
 
-<a href="https://msdn.microsoft.com/a46449f7-3206-45e9-9df0-f272b8cdcc4b">WSARecvMsg</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms741687(v=vs.85)">WSARecvMsg</a>
 
 
 

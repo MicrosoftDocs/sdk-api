@@ -60,21 +60,21 @@ Get a message from the message queue.
 
 ### -param MessageIndex [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT64</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
 
-Index into message queue after an optional retrieval filter has been applied. This can be between 0 and the number of messages in the message queue that pass through the retrieval filter (which can be obtained with <a href="https://msdn.microsoft.com/0da19bef-a0b3-43d7-88e5-9270bb98b20c">ID3D11InfoQueue::GetNumStoredMessagesAllowedByRetrievalFilter</a>). 0 is the message at the front of the message queue.
+Index into message queue after an optional retrieval filter has been applied. This can be between 0 and the number of messages in the message queue that pass through the retrieval filter (which can be obtained with <a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-getnumstoredmessagesallowedbyretrievalfilter">ID3D11InfoQueue::GetNumStoredMessagesAllowedByRetrievalFilter</a>). 0 is the message at the front of the message queue.
 
 
 ### -param pMessage [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/b00a7e61-5394-40bd-bdc1-94da45dfa264">D3D11_MESSAGE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/ns-d3d11sdklayers-d3d11_message">D3D11_MESSAGE</a>*</b>
 
-Returned message (see <a href="https://msdn.microsoft.com/b00a7e61-5394-40bd-bdc1-94da45dfa264">D3D11_MESSAGE</a>).
+Returned message (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/ns-d3d11sdklayers-d3d11_message">D3D11_MESSAGE</a>).
 
 
 ### -param pMessageByteLength [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SIZE_T</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SIZE_T</a>*</b>
 
 Size of pMessage in bytes, including the size of the message string that the pMessage points to.
 
@@ -83,9 +83,9 @@ Size of pMessage in bytes, including the size of the message string that the pMe
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
+This method returns one of the following <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a>.
 
 
 
@@ -114,7 +114,7 @@ hr = pInfoQueue->GetMessage(0, pMessage, &messageLength);
 ```
 
 
-For an overview see <a href="https://msdn.microsoft.com/240820c7-1c1f-4e2d-8b3e-497fd931d7d2">Information Queue Overview</a>.
+For an overview see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11infoqueue">Information Queue Overview</a>.
 
 
 
@@ -124,7 +124,7 @@ For an overview see <a href="https://msdn.microsoft.com/240820c7-1c1f-4e2d-8b3e-
 
 
 
-<a href="https://msdn.microsoft.com/240820c7-1c1f-4e2d-8b3e-497fd931d7d2">ID3D11InfoQueue Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11infoqueue">ID3D11InfoQueue Interface</a>
  
 
  

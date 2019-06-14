@@ -64,14 +64,14 @@ Indicates whether the server SSL certificate must be verified by the caller, Med
 
 ### -param pfOverrideAutomaticCheck [out]
 
-Pointer to a <b>BOOL</b> value. Set to <b>TRUE</b> if <a href="https://msdn.microsoft.com/4ba43175-4429-437d-acfb-e0ea8d300651">IMFSSLCertificateManager::OnServerCertificate</a> is used to verify the server certificate.
+Pointer to a <b>BOOL</b> value. Set to <b>TRUE</b> if <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsslcertificatemanager-onservercertificate">IMFSSLCertificateManager::OnServerCertificate</a> is used to verify the server certificate.
 Set to <b>FALSE</b> if Media Foundation verifies the server certificate  by using the certificates in the Windows certificate store.
 
 
 
 ### -param pfClientCertificateAvailable [out]
 
-Pointer to a <b>BOOL</b> value. Set to <b>TRUE</b> if the SSL certificate for the client is available for immediate retrieval. Media Foundation  calls <a href="https://msdn.microsoft.com/e375cb97-bb43-4852-9671-dd8fdea34cef">IMFSSLCertificateManager::GetClientCertificate</a> to obtain the client certificate synchronously. If the value is set to <b>FALSE</b>, Media Foundation obtains the client SSL certificate with an asynchronous call to <a href="https://msdn.microsoft.com/e375cb97-bb43-4852-9671-dd8fdea34cef">IMFSSLCertificateManager::BeginGetClientCertificate</a>.
+Pointer to a <b>BOOL</b> value. Set to <b>TRUE</b> if the SSL certificate for the client is available for immediate retrieval. Media Foundation  calls <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsslcertificatemanager-begingetclientcertificate">IMFSSLCertificateManager::GetClientCertificate</a> to obtain the client certificate synchronously. If the value is set to <b>FALSE</b>, Media Foundation obtains the client SSL certificate with an asynchronous call to <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsslcertificatemanager-begingetclientcertificate">IMFSSLCertificateManager::BeginGetClientCertificate</a>.
 
 
 ## -returns
@@ -88,7 +88,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/62e4227d-6bc9-4011-acee-6278fe388830">IMFSSLCertificateManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsslcertificatemanager">IMFSSLCertificateManager</a>
  
 
  

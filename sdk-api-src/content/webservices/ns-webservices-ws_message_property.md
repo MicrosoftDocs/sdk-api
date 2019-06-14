@@ -60,7 +60,7 @@ Specifies a message specific setting.
 
 ### -field id
 
-Identifies the <a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_ID</a>.
+Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_property_id">WS_MESSAGE_PROPERTY_ID</a>.
             
 
 

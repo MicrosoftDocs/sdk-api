@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>ReadData</b> method reads file headers. Called when an application uses the <a href="https://msdn.microsoft.com/9eef2ef4-316e-43e8-8011-14f1c0b46d50">AVIFileReadData</a> function.
+The <b>ReadData</b> method reads file headers. Called when an application uses the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avifilereaddata">AVIFileReadData</a> function.
 
 
 
@@ -130,11 +130,11 @@ HRESULT ReadData(DWORD fcc, LPVOID lp, LONG *lpcb);
 
 
 
-<a href="https://msdn.microsoft.com/ced6f7d1-5f27-47f4-a912-8c17ea5fa685">Custom File and Stream Handler Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/c61e0118-d405-4c1e-9ae8-ed6a145a5d6b">Custom File and Stream Handlers</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
  
 
  

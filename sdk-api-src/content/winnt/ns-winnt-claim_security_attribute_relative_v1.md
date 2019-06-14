@@ -111,7 +111,7 @@ The <b>Values</b> member refers to an array of offsets to Unicode character stri
 </dl>
 </td>
 <td width="60%">
-The <b>Values</b> member refers to an array of <a href="https://msdn.microsoft.com/en-us/library/Hh448485(v=VS.85).aspx">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a> values.
+The <b>Values</b> member refers to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_claim_security_attribute_octet_string_value">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a> values.
 
 </td>
 </tr>
@@ -162,7 +162,7 @@ The value of the claim security attribute is case sensitive. This flag is valid 
 </dl>
 </td>
 <td width="60%">
-The claim security attribute is considered only for deny <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entries</a> (ACEs).
+The claim security attribute is considered only for deny <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs).
 
 </td>
 </tr>
@@ -230,10 +230,10 @@ Pointer to an array of <b>ValueCount</b> members where each member is an offset 
 
 ### -field Values.pFqbn
 
-Pointer to an array of <b>ValueCount</b> members where each member is an offset from the beginning of the structure to the fully qualified binary name value of type <a href="https://msdn.microsoft.com/1FD9A519-40EA-4780-90F5-C9DF4ADAE72C">CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE</a>.
+Pointer to an array of <b>ValueCount</b> members where each member is an offset from the beginning of the structure to the fully qualified binary name value of type <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_claim_security_attribute_fqbn_value">CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE</a>.
 
 
 ### -field Values.pOctetString
 
-Pointer to an array of <b>ValueCount</b> members where each member is an offset from the beginning of the structure to a <b>LONG64</b> octet string of type <a href="https://msdn.microsoft.com/en-us/library/Hh448485(v=VS.85).aspx">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a>.
+Pointer to an array of <b>ValueCount</b> members where each member is an offset from the beginning of the structure to a <b>LONG64</b> octet string of type <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_claim_security_attribute_octet_string_value">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a>.
 

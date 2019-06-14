@@ -54,7 +54,7 @@ ms.custom: 19H1
 ## -description
 
 
-In high-DPI displays, enables automatic display scaling of the non-client area portions of the specified top-level window. Must be called during the initialization of that window.<div class="alert"><b>Note</b>  Applications running at a <a href="https://msdn.microsoft.com/BFD54A9F-642B-4A3A-BBB9-F3A80779251D">DPI_AWARENESS_CONTEXT</a> of <b>DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2</b> automatically scale their non-client areas by default. They do not need to call this function.</div>
+In high-DPI displays, enables automatic display scaling of the non-client area portions of the specified top-level window. Must be called during the initialization of that window.<div class="alert"><b>Note</b>  Applications running at a <a href="https://docs.microsoft.com/windows/desktop/hidpi/dpi-awareness-context">DPI_AWARENESS_CONTEXT</a> of <b>DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2</b> automatically scale their non-client areas by default. They do not need to call this function.</div>
 <div> </div>
 
 
@@ -73,7 +73,7 @@ The window that should have automatic scaling enabled.
 
 
 
-If the function succeeds, the return value is nonzero. If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function succeeds, the return value is nonzero. If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -82,7 +82,7 @@ If the function succeeds, the return value is nonzero. If the function fails, th
 
 
 
-Calling this function will enable non-client scaling for an individual top-level window with <a href="https://msdn.microsoft.com/BFD54A9F-642B-4A3A-BBB9-F3A80779251D">DPI_AWARENESS_CONTEXT</a> of <b>DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE</b>. If instead you are not using per-window awareness, and your entire process is running in <b>DPI_AWARENESS_PER_MONITOR_AWARE</b> mode, calling this function will enable non-client scaling in top-level windows in your process.
+Calling this function will enable non-client scaling for an individual top-level window with <a href="https://docs.microsoft.com/windows/desktop/hidpi/dpi-awareness-context">DPI_AWARENESS_CONTEXT</a> of <b>DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE</b>. If instead you are not using per-window awareness, and your entire process is running in <b>DPI_AWARENESS_PER_MONITOR_AWARE</b> mode, calling this function will enable non-client scaling in top-level windows in your process.
 
 If neither of those are true, or if you call this method from any other window, then it will fail and return a value of zero.
 

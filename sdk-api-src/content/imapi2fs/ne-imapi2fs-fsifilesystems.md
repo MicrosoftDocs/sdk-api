@@ -87,7 +87,7 @@ The disc appears to have a file system, but the layout does not match any of the
 
 
 
-<a href="https://msdn.microsoft.com/381be283-c877-44f0-9d96-b9e80a6aeec8">IFileSystemImage::IdentifyFileSystemsOnDisc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-identifyfilesystemsondisc">IFileSystemImage::IdentifyFileSystemsOnDisc</a>
  
 
  

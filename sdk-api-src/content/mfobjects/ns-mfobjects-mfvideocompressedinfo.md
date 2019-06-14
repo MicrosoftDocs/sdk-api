@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Contains information about a video compression format. This structure is used in the <a href="https://msdn.microsoft.com/7fbc4a35-117c-4f0c-9e9b-ff44e30a1618">MFVIDEOFORMAT</a> structure.
+Contains information about a video compression format. This structure is used in the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoformat">MFVIDEOFORMAT</a> structure.
 
 
 
@@ -89,11 +89,11 @@ For uncompressed video formats, set the structure members to zero.
 
 
 
-<a href="https://msdn.microsoft.com/39fdd724-13ca-48ab-8a55-93529d1da3b4">Media Foundation Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/690fda6e-dcbd-44dc-968d-cc949126da81">Media Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-types">Media Types</a>
  
 
  

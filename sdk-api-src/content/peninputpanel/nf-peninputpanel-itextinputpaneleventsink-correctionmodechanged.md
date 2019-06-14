@@ -62,12 +62,12 @@ Occurs when the correction comb on the Tablet PC Input Panel has changed modes.
 
 ### -param oldCorrectionMode [in]
 
-The previous correction mode, as defined by the <a href="https://msdn.microsoft.com/en-us/library/ms695063(v=VS.85).aspx">CorrectionMode Enumeration</a>.
+The previous correction mode, as defined by the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/ne-peninputpanel-__midl___midl_itf_peninputpanel_0000_0000_0004">CorrectionMode Enumeration</a>.
 
 
 ### -param newCorrectionMode [in]
 
-The current correction mode, as defined by the <a href="https://msdn.microsoft.com/en-us/library/ms695063(v=VS.85).aspx">CorrectionMode Enumeration</a>.
+The current correction mode, as defined by the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/ne-peninputpanel-__midl___midl_itf_peninputpanel_0000_0000_0004">CorrectionMode Enumeration</a>.
 
 
 ## -returns
@@ -124,15 +124,15 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/1e719900-db58-430d-9059-efb3f884f6f0">ITextInputPanel Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3ef6d65-ca6b-4587-bb21-3d3803a3432a">ITextInputPanelEventSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpaneleventsink">ITextInputPanelEventSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/f20b77dc-a04f-4bd3-9aa0-3a0c3d98e4a8">ITextInputPanelEventSink::CorrectionModeChanging Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-correctionmodechanging">ITextInputPanelEventSink::CorrectionModeChanging Method</a>
  
 
  

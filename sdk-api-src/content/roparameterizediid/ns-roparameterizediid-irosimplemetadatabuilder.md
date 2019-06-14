@@ -64,7 +64,7 @@ This member supports the Windows Runtime infrastructure and is not intended to b
 Assigns a Windows Runtime interface to the metadata builder.
 
 
-<a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a> and other non-Windows Runtime interfaces are not allowed. Not for use with parameterized type instances.
+<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> and other non-Windows Runtime interfaces are not allowed. Not for use with parameterized type instances.
 
 
 
@@ -134,7 +134,7 @@ The number of elements in the <i>defaultInterfaceNameElements</i> array.
 
 #### defaultInterfaceNameElements
 
-An array, as would be returned by <a href="https://msdn.microsoft.com/AF007D43-7BAC-4753-9D2B-8F397B4A464A">RoParseTypeName</a>, that specifies a parameterized type instance.
+An array, as would be returned by <a href="https://docs.microsoft.com/windows/desktop/api/rometadataresolution/nf-rometadataresolution-roparsetypename">RoParseTypeName</a>, that specifies a parameterized type instance.
 
 
 ### -field SetRuntimeClassSimpleDefault
@@ -183,7 +183,7 @@ The number of elements in the <i>defaultInterfaceNameElements</i> array.
 
 #### defaultInterfaceNameElements
 
-An array, as would be returned by <a href="https://msdn.microsoft.com/AF007D43-7BAC-4753-9D2B-8F397B4A464A">RoParseTypeName</a>, that specified a parameterized type instance.
+An array, as would be returned by <a href="https://docs.microsoft.com/windows/desktop/api/rometadataresolution/nf-rometadataresolution-roparsetypename">RoParseTypeName</a>, that specified a parameterized type instance.
 
 
 ### -field SetStruct
@@ -232,7 +232,7 @@ The base type of the enumeration, as specified by the metadata.
 
 Assigns a parameterized interface to the metadata builder.
 
-This method is only for the non-instantiated parameterized interface. Instances are handled by <a href="https://msdn.microsoft.com/DE908C82-5D7C-415C-B08B-31786589979B">RoGetParameterizedTypeInstanceIID</a>, and the caller does not need to parse them. 
+This method is only for the non-instantiated parameterized interface. Instances are handled by <a href="https://docs.microsoft.com/windows/desktop/api/roparameterizediid/nf-roparameterizediid-rogetparameterizedtypeinstanceiid">RoGetParameterizedTypeInstanceIID</a>, and the caller does not need to parse them. 
 
 
 
@@ -251,7 +251,7 @@ The number of type arguments required by the specified parameterized interface t
 
 Assigns a parameterized delegate to the metadata builder.
 
-This method is only for the non-instantiated parameterized interface. Instances are handled by <a href="https://msdn.microsoft.com/DE908C82-5D7C-415C-B08B-31786589979B">RoGetParameterizedTypeInstanceIID</a>, and the caller does not need to parse them.
+This method is only for the non-instantiated parameterized interface. Instances are handled by <a href="https://docs.microsoft.com/windows/desktop/api/roparameterizediid/nf-roparameterizediid-rogetparameterizedtypeinstanceiid">RoGetParameterizedTypeInstanceIID</a>, and the caller does not need to parse them.
 
 
 

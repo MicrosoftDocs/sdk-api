@@ -59,14 +59,14 @@ Called by a provider to notify the Microsoft UI Automation core that content is 
 
 ### -param pProvider [in]
 
-Type: <b><a href="https://msdn.microsoft.com/f0ec6185-acd0-4df7-88f4-fd00747f98bf">IRawElementProviderSimple</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a>*</b>
 
 The provider node where the content is being loaded.
 
 
 ### -param asyncContentLoadedState [in]
 
-Type: <b><a href="https://msdn.microsoft.com/7c562d3a-10cc-4d9e-aaad-6729574fcb96">AsyncContentLoadedState</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/ne-uiautomationcoreapi-asynccontentloadedstate">AsyncContentLoadedState</a></b>
 
 The current state of loading.
 
@@ -82,7 +82,7 @@ The percentage of content that has been loaded.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

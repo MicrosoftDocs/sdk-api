@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates the possible types of information that an application that calls the <a href="https://msdn.microsoft.com/90C2F258-094C-4A0E-80E7-3FA241D288EA">ReadDirectoryChangesExW</a> function can request.
+Indicates the possible types of information that an application that calls the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readdirectorychangesexw">ReadDirectoryChangesExW</a> function can request.
 
 
 ## -enum-fields
@@ -59,12 +59,12 @@ Indicates the possible types of information that an application that calls the <
 
 ### -field ReadDirectoryNotifyInformation
 
-The <a href="https://msdn.microsoft.com/90C2F258-094C-4A0E-80E7-3FA241D288EA">ReadDirectoryChangesExW</a> function  should provide  information that describes the changes within the specified directory, and return this information in the  output buffer in the form of <a href="https://msdn.microsoft.com/cb95352f-8a15-48d8-9150-e4bc395e0122">FILE_NOTIFY_INFORMATION</a> structures.
+The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readdirectorychangesexw">ReadDirectoryChangesExW</a> function  should provide  information that describes the changes within the specified directory, and return this information in the  output buffer in the form of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_file_notify_information">FILE_NOTIFY_INFORMATION</a> structures.
 
 
 ### -field ReadDirectoryNotifyExtendedInformation
 
-The <a href="https://msdn.microsoft.com/90C2F258-094C-4A0E-80E7-3FA241D288EA">ReadDirectoryChangesExW</a> function  should provide  extended information that describes the changes within the specified directory, and return this information in the  output buffer in the form of <a href="https://msdn.microsoft.com/4558F2E8-F515-4202-9CAA-FDAF20160F61">FILE_NOTIFY_EXTENDED_INFORMATION</a> structures.
+The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readdirectorychangesexw">ReadDirectoryChangesExW</a> function  should provide  extended information that describes the changes within the specified directory, and return this information in the  output buffer in the form of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_file_notify_extended_information">FILE_NOTIFY_EXTENDED_INFORMATION</a> structures.
 
 
 ## -see-also
@@ -72,15 +72,15 @@ The <a href="https://msdn.microsoft.com/90C2F258-094C-4A0E-80E7-3FA241D288EA">Re
 
 
 
-<a href="https://msdn.microsoft.com/4558F2E8-F515-4202-9CAA-FDAF20160F61">FILE_NOTIFY_EXTENDED_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_file_notify_extended_information">FILE_NOTIFY_EXTENDED_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb95352f-8a15-48d8-9150-e4bc395e0122">FILE_NOTIFY_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_file_notify_information">FILE_NOTIFY_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/90C2F258-094C-4A0E-80E7-3FA241D288EA">ReadDirectoryChangesExW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readdirectorychangesexw">ReadDirectoryChangesExW</a>
  
 
  

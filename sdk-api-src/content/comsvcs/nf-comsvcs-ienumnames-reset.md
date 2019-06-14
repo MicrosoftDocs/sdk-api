@@ -114,7 +114,7 @@ A call to this method, resetting the sequence, does not guarantee that the same 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685055(v=VS.85).aspx">IEnumNames</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-ienumnames">IEnumNames</a>
  
 
  

@@ -52,7 +52,7 @@ ms.custom: 19H1
 This indicates that a portion of an effect's input is invalid. This method can
      be called many times.
 
-You can use this method to propagate invalid rectangles through an effect graph. You can query Direct2D using the <a href="https://msdn.microsoft.com/D5CEFDB0-BD54-4CB9-801C-528CDA49C19C">GetEffectInvalidRectangles</a> method.
+You can use this method to propagate invalid rectangles through an effect graph. You can query Direct2D using the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-geteffectinvalidrectangles">GetEffectInvalidRectangles</a> method.
 <div class="alert"><b>Note</b>  Direct2D does not automatically use these invalid rectangles to reduce the region of an effect that is rendered.</div><div> </div>You can also use this method to invalidate caches that have accumulated while rendering effects that have the <b>D2D1_PROPERTY_CACHED</b> property set to true.
 
 
@@ -63,7 +63,7 @@ You can use this method to propagate invalid rectangles through an effect graph.
 
 ### -param effect [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e90d1830-c356-48f1-ac7b-1d94c8c26569">ID2D1Effect</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect">ID2D1Effect</a>*</b>
 
 The effect to invalidate.
 
@@ -77,7 +77,7 @@ The input index.
 
 ### -param inputRectangle [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a>*</b>
 
 The rect to invalidate.
 
@@ -118,7 +118,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 
-<a href="https://msdn.microsoft.com/a54dd628-c2a2-4b04-9ced-7749a395f187">ID2D1DeviceContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>
  
 
  

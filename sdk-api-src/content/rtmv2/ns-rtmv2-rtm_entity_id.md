@@ -78,7 +78,7 @@ Specifies a client's identifier, which is a combination of the <b>EntityProtocol
 
 
 
-<a href="https://msdn.microsoft.com/b2a1e6b9-0cac-4316-98a0-ff1d44c5a15a">RTM_ENTITY_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_entity_info">RTM_ENTITY_INFO</a>
  
 
  

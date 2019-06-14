@@ -51,12 +51,12 @@ ms.custom: 19H1
 
 Provides access to the current object's context. An object's context is primarily used when working with transactions or dealing with the security of an object.
 
-<b>ObjectContext</b> and <a href="https://msdn.microsoft.com/9395bc9a-dfe5-428a-839f-1c4ad090f636">IObjectContext</a> provide the same functionality, but unlike <b>IObjectContext</b>, <b>ObjectContext</b> is compatible with Automation.
+<b>ObjectContext</b> and <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontext">IObjectContext</a> provide the same functionality, but unlike <b>IObjectContext</b>, <b>ObjectContext</b> is compatible with Automation.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ObjectContext</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ObjectContext</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ObjectContext</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ObjectContext</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ObjectContext</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9719f672-d706-44e3-b976-28d0d0feacd1">CreateInstance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-objectcontext-createinstance">CreateInstance</a>
 </td>
 <td align="left" width="63%">
 Creates an object using current object's context.
@@ -80,7 +80,7 @@ Creates an object using current object's context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cf0e59d9-2760-445e-aa7d-8c2b78457181">DisableCommit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-objectcontext-disablecommit">DisableCommit</a>
 </td>
 <td align="left" width="63%">
 Declares that the object's transactional updates are inconsistent and cannot be committed in their present state.
@@ -89,7 +89,7 @@ Declares that the object's transactional updates are inconsistent and cannot be 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c625d3e2-8a12-4049-8997-6e57c3423acc">EnableCommit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-objectcontext-enablecommit">EnableCommit</a>
 </td>
 <td align="left" width="63%">
 Declares that the current object's work is not necessarily finished but that its transactional updates are consistent and could be committed in their present form.
@@ -98,7 +98,7 @@ Declares that the current object's work is not necessarily finished but that its
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/51a0ea69-c602-41db-b3a3-2cf9643c6b3a">get__NewEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-objectcontext-get__newenum">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the named context object properties.
@@ -107,7 +107,7 @@ Retrieves an enumerator for the named context object properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1974edd5-3348-4ac4-a80c-c549f2d79161">get_ContextInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-objectcontext-get_contextinfo">get_ContextInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves the context information object of the current object's context.
@@ -116,7 +116,7 @@ Retrieves the context information object of the current object's context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0844876e-6e21-4fac-9d74-01c221e1d78a">get_Count</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-objectcontext-get_count">get_Count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of named context object properties.
@@ -125,7 +125,7 @@ Retrieves the number of named context object properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fc39d63b-a210-4760-9027-eb315f63924d">get_Item</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-objectcontext-get_item">get_Item</a>
 </td>
 <td align="left" width="63%">
 Retrieves a named property.
@@ -134,7 +134,7 @@ Retrieves a named property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a160d214-b807-47cd-a712-b4cad941a157">get_Security</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-objectcontext-get_security">get_Security</a>
 </td>
 <td align="left" width="63%">
 Retrieves the security object of the current object's context.
@@ -143,7 +143,7 @@ Retrieves the security object of the current object's context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e1ef03e6-fcb2-463b-b2b3-a88e958a1d19">IsCallerInRole</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-objectcontext-iscallerinrole">IsCallerInRole</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the object's direct caller is in a specified role (either directly or as part of a group).
@@ -152,7 +152,7 @@ Indicates whether the object's direct caller is in a specified role (either dire
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/843fa973-2c54-4026-8dd9-4ca949b3a894">IsInTransaction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-objectcontext-isintransaction">IsInTransaction</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the current object is executing in a transaction.
@@ -161,7 +161,7 @@ Indicates whether the current object is executing in a transaction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c7b3a301-9f94-40de-a3d2-5387fb4e0596">IsSecurityEnabled</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-objectcontext-issecurityenabled">IsSecurityEnabled</a>
 </td>
 <td align="left" width="63%">
 Indicates whether security is enabled for the current object.
@@ -170,7 +170,7 @@ Indicates whether security is enabled for the current object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/709c1752-f2fb-463e-a95e-a082cd28b110">SetAbort</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-objectcontext-setabort">SetAbort</a>
 </td>
 <td align="left" width="63%">
 Declares that the transaction in which the object is executing must be aborted and that the object should be deactivated on return.
@@ -179,7 +179,7 @@ Declares that the transaction in which the object is executing must be aborted a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3bf3bbc2-9b4f-4dba-89ef-62c58640710b">SetComplete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-objectcontext-setcomplete">SetComplete</a>
 </td>
 <td align="left" width="63%">
 Declares that the transaction in which the object is executing can be committed and that the object should be deactivated on return.
@@ -194,7 +194,7 @@ Declares that the transaction in which the object is executing can be committed 
 
 
 
-<a href="https://msdn.microsoft.com/9395bc9a-dfe5-428a-839f-1c4ad090f636">IObjectContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontext">IObjectContext</a>
  
 
  

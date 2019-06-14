@@ -59,19 +59,19 @@ Specifies the types of CPU access allowed for a resource.
 
 ### -field D3D10_CPU_ACCESS_WRITE
 
-The resource is to be <a href="https://msdn.microsoft.com/en-us/library/Bb205132(v=VS.85).aspx">mappable</a> so that the CPU can change its contents. Resources created with this flag cannot be set as outputs of the pipeline and must be created with either dynamic or staging usage (see <a href="https://msdn.microsoft.com/en-us/library/Bb172499(v=VS.85).aspx">D3D10_USAGE</a>).
+The resource is to be <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-mapping">mappable</a> so that the CPU can change its contents. Resources created with this flag cannot be set as outputs of the pipeline and must be created with either dynamic or staging usage (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_usage">D3D10_USAGE</a>).
 
 
 ### -field D3D10_CPU_ACCESS_READ
 
-The resource is to be <a href="https://msdn.microsoft.com/en-us/library/Bb205132(v=VS.85).aspx">mappable</a> so that the CPU can read its contents. Resources created with this flag cannot be set as either inputs or outputs to the pipeline and must be created with staging usage (see <a href="https://msdn.microsoft.com/en-us/library/Bb172499(v=VS.85).aspx">D3D10_USAGE</a>).
+The resource is to be <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-mapping">mappable</a> so that the CPU can read its contents. Resources created with this flag cannot be set as either inputs or outputs to the pipeline and must be created with staging usage (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_usage">D3D10_USAGE</a>).
 
 
 ## -remarks
 
 
 
-This enumeration is used in <a href="https://msdn.microsoft.com/en-us/library/Bb204896(v=VS.85).aspx">D3D10_BUFFER_DESC</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb172479(v=VS.85).aspx">D3D10_TEXTURE1D_DESC</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb172480(v=VS.85).aspx">D3D10_TEXTURE2D_DESC</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb172481(v=VS.85).aspx">D3D10_TEXTURE3D_DESC</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb172696(v=VS.85).aspx">D3DX10_IMAGE_LOAD_INFO</a>. See <a href="https://msdn.microsoft.com/en-us/library/Bb205130(v=VS.85).aspx">Creating Buffer Resources (Direct3D 10)</a> for more details.
+This enumeration is used in <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-cd3d10_buffer_desc">D3D10_BUFFER_DESC</a>, <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-cd3d10_texture1d_desc">D3D10_TEXTURE1D_DESC</a>, <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-cd3d10_texture2d_desc">D3D10_TEXTURE2D_DESC</a>, <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-cd3d10_texture3d_desc">D3D10_TEXTURE3D_DESC</a>, and <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3dx10-image-load-info">D3DX10_IMAGE_LOAD_INFO</a>. See <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-creating">Creating Buffer Resources (Direct3D 10)</a> for more details.
 
 Applications can combine one or more of these flags with a bitwise OR. When possible, create resources with no CPU access flags, as this enables better resource optimization.
 
@@ -83,7 +83,7 @@ Applications can combine one or more of these flags with a bitwise OR. When poss
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205275(v=VS.85).aspx">Resource Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-resource-enums">Resource Enumerations</a>
  
 
  

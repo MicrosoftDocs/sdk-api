@@ -86,13 +86,13 @@ Identifier of the waveform-audio input device to open. It can be either a device
 
 ### -param pwfx
 
-Pointer to a <a href="https://msdn.microsoft.com/bd0f96ec-d26a-4e6f-8802-50e8ff207f54">WAVEFORMATEX</a> structure that identifies the desired format for recording waveform-audio data. You can free this structure immediately after <b>waveInOpen</b> returns.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure that identifies the desired format for recording waveform-audio data. You can free this structure immediately after <b>waveInOpen</b> returns.
           
 
 
 ### -param dwCallback
 
-Pointer to a fixed callback function, an event handle, a handle to a window, or the identifier of a thread to be called during waveform-audio recording to process messages related to the progress of recording. If no callback function is required, this value can be zero. For more information on the callback function, see <a href="https://msdn.microsoft.com/3ce1e43e-79c2-4310-b9ef-2c9374d1380c">waveInProc</a>.
+Pointer to a fixed callback function, an event handle, a handle to a window, or the identifier of a thread to be called during waveform-audio recording to process messages related to the progress of recording. If no callback function is required, this value can be zero. For more information on the callback function, see <a href="https://docs.microsoft.com/previous-versions//dd743849(v=vs.85)">waveInProc</a>.
           
 
 
@@ -238,13 +238,13 @@ Attempted to open with an unsupported waveform-audio format.
 
 
 
-Use the <a href="https://msdn.microsoft.com/d8cb3c6c-edf7-4035-86da-b13fbdeddf6d">waveInGetNumDevs</a> function to determine the number of waveform-audio input devices present on the system. The device identifier specified by <i>uDeviceID</i> varies from zero to one less than the number of devices present. The WAVE_MAPPER constant can also be used as a device identifier.
+Use the <a href="https://docs.microsoft.com/previous-versions//dd743844(v=vs.85)">waveInGetNumDevs</a> function to determine the number of waveform-audio input devices present on the system. The device identifier specified by <i>uDeviceID</i> varies from zero to one less than the number of devices present. The WAVE_MAPPER constant can also be used as a device identifier.
       
 
-If you choose to have a window or thread receive callback information, the following messages are sent to the window procedure or thread to indicate the progress of waveform-audio input: <a href="https://msdn.microsoft.com/4c646f58-c324-467e-871b-8fc36d5b89bc">MM_WIM_OPEN</a>, <a href="https://msdn.microsoft.com/4ea35b66-6bfa-41f0-9d52-a8cf2b0a69dd">MM_WIM_CLOSE</a>, and <a href="https://msdn.microsoft.com/14298153-ea2f-40b7-bca7-196f4e6c1155">MM_WIM_DATA</a>.
+If you choose to have a window or thread receive callback information, the following messages are sent to the window procedure or thread to indicate the progress of waveform-audio input: <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-wim-open">MM_WIM_OPEN</a>, <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-wim-close">MM_WIM_CLOSE</a>, and <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-wim-data">MM_WIM_DATA</a>.
       
 
-If you choose to have a function receive callback information, the following messages are sent to the function to indicate the progress of waveform-audio input: <a href="https://msdn.microsoft.com/de18e6b2-ea28-46d9-812c-e6dac49838ee">WIM_OPEN</a>, <a href="https://msdn.microsoft.com/3774b8b4-b03b-49e7-b9cd-cf3f194df847">WIM_CLOSE</a>, and <a href="https://msdn.microsoft.com/94cc02b8-61c4-44b9-9f8e-041fe989c1a6">WIM_DATA</a>.
+If you choose to have a function receive callback information, the following messages are sent to the function to indicate the progress of waveform-audio input: <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wim-open">WIM_OPEN</a>, <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wim-close">WIM_CLOSE</a>, and <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wim-data">WIM_DATA</a>.
 
 
 
@@ -254,11 +254,11 @@ If you choose to have a function receive callback information, the following mes
 
 
 
-<a href="https://msdn.microsoft.com/3188355c-65be-4372-8e87-e7f755982592">Waveform Audio</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c8aaa54-0477-484f-91e1-d2152aa9c185">Waveform Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>
  
 
  

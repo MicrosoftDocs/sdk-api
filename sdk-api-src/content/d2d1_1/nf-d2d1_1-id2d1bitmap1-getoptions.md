@@ -63,7 +63,7 @@ Gets the options used in creating the bitmap.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/c080e23e-99c4-46ed-8b21-be26dec288af">D2D1_BITMAP_OPTIONS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_bitmap_options">D2D1_BITMAP_OPTIONS</a></b>
 
 This method returns the options used.
 
@@ -75,11 +75,11 @@ This method returns the options used.
 
 
 
-<a href="https://msdn.microsoft.com/669a9377-248c-4a86-b447-ed117fff43a6">ID2D1Bitmap1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1bitmap1">ID2D1Bitmap1</a>
 
 
 
-<a href="https://msdn.microsoft.com/7ab8bed5-c124-4e14-8a05-3a71f07f5fd1">ID2D1Bitmap1::GetColorContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1bitmap1-getcolorcontext">ID2D1Bitmap1::GetColorContext</a>
  
 
  

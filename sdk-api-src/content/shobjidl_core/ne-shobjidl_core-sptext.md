@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the type of descriptive text being provided to an <a href="https://msdn.microsoft.com/e742e381-0fd2-482a-81a0-7b43d11b073b">IActionProgress</a> interface.
+Specifies the type of descriptive text being provided to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogress">IActionProgress</a> interface.
 
 
 ## -enum-fields
@@ -72,7 +72,7 @@ The text is a detailed description.
 
 
 
-<a href="https://msdn.microsoft.com/e742e381-0fd2-482a-81a0-7b43d11b073b">IActionProgress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogress">IActionProgress</a>
  
 
  

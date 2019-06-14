@@ -73,7 +73,7 @@ The size, in bytes, of the <i>pPattern</i> buffer.
 
 ### -param pPattern [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/cea9e07d-5e55-4320-9744-b5864b58cfd6">WICMetadataPattern</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/ns-wincodecsdk-wicmetadatapattern">WICMetadataPattern</a>*</b>
 
 Pointer that receives the metadata patterns.
 

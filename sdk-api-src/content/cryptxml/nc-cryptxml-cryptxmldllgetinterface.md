@@ -64,12 +64,12 @@ This parameter is reserved and must be set to zero.
 
 ### -param *pMethod [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/ab6ec092-d25d-4ca0-8206-b7e5ad36d69b">CRYPT_XML_ALGORITHM_INFO</a> structure to retrieve the interface of.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_algorithm_info">CRYPT_XML_ALGORITHM_INFO</a> structure to retrieve the interface of.
 
 
 ### -param *pInterface [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/ab6ec092-d25d-4ca0-8206-b7e5ad36d69b">CRYPT_XML_ALGORITHM_INFO</a> structure to receive the interface information.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_algorithm_info">CRYPT_XML_ALGORITHM_INFO</a> structure to receive the interface information.
 
 
 ## -returns
@@ -90,7 +90,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 The cryptographic extensions DLL must export the <b>CryptXmlDllGetInterface</b> entry.
 
 
-To get the <a href="https://msdn.microsoft.com/en-us/library/Dd433846(v=VS.85).aspx">CRYPT_XML_CRYPTOGRAPHIC_INTERFACE</a>  table, CryptXml loads the registered cryptographic extensions DLL by using the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> function, and then it calls the
+To get the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_cryptographic_interface">CRYPT_XML_CRYPTOGRAPHIC_INTERFACE</a>  table, CryptXml loads the registered cryptographic extensions DLL by using the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function, and then it calls the
 <b>CryptXmlDllGetInterface</b> function.
 
 

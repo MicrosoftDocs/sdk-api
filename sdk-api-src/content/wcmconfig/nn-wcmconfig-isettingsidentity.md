@@ -54,7 +54,7 @@ Identifies a namespace to open or use.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISettingsIdentity</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISettingsIdentity</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISettingsIdentity</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISettingsIdentity</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISettingsIdentity</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d79bf4be-f3ed-426b-a880-b9ab8aee0092">GetAttribute</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsidentity-getattribute">GetAttribute</a>
 </td>
 <td align="left" width="63%">
 Gets the identity attribute for a setting.
@@ -78,7 +78,7 @@ Gets the identity attribute for a setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/aec52cd2-90e2-492d-afcf-433a762133d1">GetFlags</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsidentity-getflags">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Gets the identity flags for a setting.
@@ -87,7 +87,7 @@ Gets the identity flags for a setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/498bb364-3da8-456d-8e77-22b508516de0">SetAttribute</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsidentity-setattribute">SetAttribute</a>
 </td>
 <td align="left" width="63%">
 Sets the identity attribute for a setting.
@@ -96,7 +96,7 @@ Sets the identity attribute for a setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f31f6ea1-e101-40c0-a431-ab3bdc9f02be">SetFlags</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsidentity-setflags">SetFlags</a>
 </td>
 <td align="left" width="63%">
  Sets the identity flags for a setting.

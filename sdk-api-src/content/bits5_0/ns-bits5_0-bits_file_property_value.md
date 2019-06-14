@@ -69,11 +69,11 @@ This value is used when using the property ID
 
 
 
-<a href="https://msdn.microsoft.com/7afe4d11-f611-40ea-be94-7825f95576de">IBackgroundCopyFile5.GetProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/nf-bits5_0-ibackgroundcopyfile5-getproperty">IBackgroundCopyFile5.GetProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a5809ef-e84f-4566-a5fa-fd63b1dfd15c">IBackgroundCopyFile5.SetProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/nf-bits5_0-ibackgroundcopyfile5-setproperty">IBackgroundCopyFile5.SetProperty</a>
  
 
  

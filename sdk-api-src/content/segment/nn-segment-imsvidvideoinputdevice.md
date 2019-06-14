@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IMSVidVideoInputDevice</b> interface represents a video input device. This interface inherits from the <a href="https://msdn.microsoft.com/5b413ade-4ab2-45fa-98b2-fd93c8f89a43">IMSVidInputDevice</a> interface but adds no methods to it. It exists to support polymorphism.
+The <b>IMSVidVideoInputDevice</b> interface represents a video input device. This interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidinputdevice">IMSVidInputDevice</a> interface but adds no methods to it. It exists to support polymorphism.
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd694704(v=VS.85).aspx">IMSVidTuner</a> interface, which represents video tuning devices, inherits from this interface.
+The <a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidtuner">IMSVidTuner</a> interface, which represents video tuning devices, inherits from this interface.
 
 
 ## -remarks
@@ -68,11 +68,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/5b413ade-4ab2-45fa-98b2-fd93c8f89a43">IMSVidInputDevice</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidinputdevice">IMSVidInputDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf6c3ce9-1e56-4109-93f1-5b313e6ca19b">Video Control Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
  
 
  

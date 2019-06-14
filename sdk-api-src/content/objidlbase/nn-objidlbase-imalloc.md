@@ -55,7 +55,7 @@ Allocates, frees, and manages memory.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMalloc</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IMalloc</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMalloc</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMalloc</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMalloc</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c9c9bdac-965f-4b18-9338-28a025930480">Alloc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-alloc">Alloc</a>
 </td>
 <td align="left" width="63%">
 Allocates a block of memory.
@@ -79,7 +79,7 @@ Allocates a block of memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/085dd7cd-c360-48fa-8713-64dd9057e20d">DidAlloc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-didalloc">DidAlloc</a>
 </td>
 <td align="left" width="63%">
 Determines whether this allocator was used to allocate the specified block of memory.
@@ -88,7 +88,7 @@ Determines whether this allocator was used to allocate the specified block of me
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d65411ea-13d5-4932-a757-d897311e9e28">Free</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-free">Free</a>
 </td>
 <td align="left" width="63%">
 Frees a previously allocated block of memory.
@@ -97,7 +97,7 @@ Frees a previously allocated block of memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/abf8cb53-7c1b-4dde-9745-30a45ad030b7">GetSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-getsize">GetSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the size of a previously allocated block of memory.
@@ -106,7 +106,7 @@ Retrieves the size of a previously allocated block of memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b57e32eb-a637-47d8-b136-05cb193e9f73">HeapMinimize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-heapminimize">HeapMinimize</a>
 </td>
 <td align="left" width="63%">
 Minimizes the heap as much as possible by releasing unused memory to the operating system, coalescing adjacent free blocks, and committing free pages.
@@ -115,7 +115,7 @@ Minimizes the heap as much as possible by releasing unused memory to the operati
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/37de166a-04a5-4a10-83b3-dd19d0bb48a4">Realloc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-realloc">Realloc</a>
 </td>
 <td align="left" width="63%">
 Changes the size of a previously allocated block of memory.
@@ -130,19 +130,19 @@ Changes the size of a previously allocated block of memory.
 
 
 
-<a href="https://msdn.microsoft.com/d1d09fbe-ca5c-4480-b807-3afcc043ccb9">CoGetMalloc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetmalloc">CoGetMalloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/28623c1f-e158-4cc5-8c7f-c13d7a65aa76">CoRegisterMallocSpy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coregistermallocspy">CoRegisterMallocSpy</a>
 
 
 
-<a href="https://msdn.microsoft.com/e1e984a2-2aee-452c-840c-42201ef5ee96">CoRevokeMallocSpy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-corevokemallocspy">CoRevokeMallocSpy</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ba500f7-c070-4788-b7fe-58b6a4e6a94c">IMallocSpy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a>
  
 
  

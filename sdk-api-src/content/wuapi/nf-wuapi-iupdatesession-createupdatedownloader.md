@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns an <a href="https://msdn.microsoft.com/8f9f3430-fc78-46cb-9dc8-b97e9d35d91c">IUpdateDownloader</a> interface for this session.
+Returns an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloader">IUpdateDownloader</a> interface for this session.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Returns an <a href="https://msdn.microsoft.com/8f9f3430-fc78-46cb-9dc8-b97e9d35d
 
 ### -param retval [out]
 
-An <a href="https://msdn.microsoft.com/8f9f3430-fc78-46cb-9dc8-b97e9d35d91c">IUpdateDownloader</a> interface for this session.
+An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloader">IUpdateDownloader</a> interface for this session.
 
 
 ## -returns
@@ -107,7 +107,7 @@ This  method cannot be called from a remote computer.
 
 
 
-An <a href="https://msdn.microsoft.com/8f9f3430-fc78-46cb-9dc8-b97e9d35d91c">IUpdateDownloader</a> interface can also be created by using the UpdateDownloader coclass.
+An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloader">IUpdateDownloader</a> interface can also be created by using the UpdateDownloader coclass.
 
 
 
@@ -117,7 +117,7 @@ An <a href="https://msdn.microsoft.com/8f9f3430-fc78-46cb-9dc8-b97e9d35d91c">IUp
 
 
 
-<a href="https://msdn.microsoft.com/00b84246-b5f2-48c2-a0ab-eaaa1ec80262">IUpdateSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesession">IUpdateSession</a>
  
 
  

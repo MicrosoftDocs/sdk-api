@@ -52,7 +52,7 @@ ms.custom: 19H1
 Used to get code page information or do conversion, depending on flag settings.
 
 
-<div class="alert"><b>Note</b>  Do not use this function. It can behave differently in different versions of Windows. To convert GB18030 bytes to Unicode characters or Unicode characters to GB18030 bytes, use the <a href="https://msdn.microsoft.com/a117fdfe-b52b-466f-9300-6455e91ea2a8">MultiByteToWideChar</a> and <a href="https://msdn.microsoft.com/b8c13444-86ab-479c-ac04-9b184d9eebf6">WideCharToMultiByte</a> functions.</div>
+<div class="alert"><b>Note</b>  Do not use this function. It can behave differently in different versions of Windows. To convert GB18030 bytes to Unicode characters or Unicode characters to GB18030 bytes, use the <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a> and <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a> functions.</div>
 <div> </div>
 
 
@@ -132,14 +132,14 @@ Character count of the Unicode buffer.
 
 ### -param lpCPInfo [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/accb7ce8-c1d0-4f89-9390-be26d7014de7">CPINFO</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_cpinfo">CPINFO</a> structure.
 
 
 ## -returns
 
 
 
-Returns 1 if successful. If the function does not succeed, it returns 0. To get extended error information, the application can call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>, which can return one of the following error codes:
+Returns 1 if successful. If the function does not succeed, it returns 0. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 
 <ul>
@@ -153,11 +153,11 @@ Returns 1 if successful. If the function does not succeed, it returns 0. To get 
 
 
 
-<a href="https://msdn.microsoft.com/a117fdfe-b52b-466f-9300-6455e91ea2a8">MultiByteToWideChar</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a>
 
 
 
-<a href="https://msdn.microsoft.com/b8c13444-86ab-479c-ac04-9b184d9eebf6">WideCharToMultiByte</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a>
  
 
  

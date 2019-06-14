@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>getProviderTypeWStr</b> method retrieves the type of the specified <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP).
+The <b>getProviderTypeWStr</b> method retrieves the type of the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP).
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>getProviderTypeWStr</b> method retrieves the type of the specified <a hre
 
 ### -param pwszProvName [in]
 
-A pointer to a null-terminated wide character string that contains the name of the CSP whose type is being requested. This method was first defined in the <a href="https://msdn.microsoft.com/133529fb-e02a-41a2-83df-646cbc01dbe9">IEnroll4</a> interface.
+A pointer to a null-terminated wide character string that contains the name of the CSP whose type is being requested. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a> interface.
 
 
 ### -param plProvType [out]
@@ -85,7 +85,7 @@ A pointer to a <b>LONG</b> value that receives the CSP type. The CSP type is one
 
 
 
-<a href="https://msdn.microsoft.com/133529fb-e02a-41a2-83df-646cbc01dbe9">IEnroll4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
  
 
  

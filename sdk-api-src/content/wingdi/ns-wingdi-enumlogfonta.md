@@ -64,7 +64,7 @@ The <b>ENUMLOGFONT</b> structure defines the attributes of a font, the complete 
 
 ### -field elfLogFont
 
-A <a href="https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec145beb4">LOGFONT</a> structure that defines the attributes of a font.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure that defines the attributes of a font.
 
 
 ### -field elfFullName
@@ -82,19 +82,19 @@ The style of the font. For example, Bold Italic.
 
 
 
-<a href="https://msdn.microsoft.com/9957885a-abf7-4d7c-ae8d-40f5d1150591">EnumFontFamProc</a>
+<a href="https://docs.microsoft.com/previous-versions//dd162621(v=vs.85)">EnumFontFamProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/93726d5c-d4ed-4681-bf45-cb899f195b5d">Font and Text Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/9944baa9-8e50-40b9-9650-78b0b1d7643a">Fonts and Text Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec145beb4">LOGFONT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a>
  
 
  

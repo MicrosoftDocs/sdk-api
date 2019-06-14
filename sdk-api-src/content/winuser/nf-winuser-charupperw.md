@@ -85,7 +85,7 @@ If the operand is a character string, the function returns a pointer to the conv
 If the operand is a single character, the return value is a 32-bit value whose high-order word is zero, and low-order word contains the converted character. 
 
 There is no indication of success or failure. Failure is rare. There is no extended error information for this function; do not call 
-						<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+						<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -94,7 +94,7 @@ There is no indication of success or failure. Failure is rare. There is no exten
 
 
 
-Note that <b>CharUpper</b> always maps lowercase I ("i") to uppercase I, even when the current language is Turkish or Azerbaijani. If you need a function that is linguistically sensitive in this respect, call <a href="https://msdn.microsoft.com/84dda2cd-cbf9-45e9-b18c-7dea0b5bc991">LCMapString</a>.
+Note that <b>CharUpper</b> always maps lowercase I ("i") to uppercase I, even when the current language is Turkish or Azerbaijani. If you need a function that is linguistically sensitive in this respect, call <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-lcmapstringa">LCMapString</a>.
 
 Conversion to Unicode in the ANSI version of the function is done with the system default locale in all cases.
 
@@ -106,15 +106,15 @@ Conversion to Unicode in the ANSI version of the function is done with the syste
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647467(v=VS.85).aspx">CharLower</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-charlowera">CharLower</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647468(v=VS.85).aspx">CharLowerBuff</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/f">CharLowerBuff</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647475(v=VS.85).aspx">CharUpperBuff</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-charupperbuffa">CharUpperBuff</a>
 
 
 
@@ -126,7 +126,7 @@ Conversion to Unicode in the ANSI version of the function is done with the syste
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/strings">Strings</a>
  
 
  

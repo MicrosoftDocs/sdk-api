@@ -93,7 +93,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Events in the newly-added stream will generate callbacks to the <a href="https://msdn.microsoft.com/70139402-86e6-43b4-9016-42854ef998fd">IEventCallback</a> object associated with this relogger.
+Events in the newly-added stream will generate callbacks to the <a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itraceeventcallback">IEventCallback</a> object associated with this relogger.
 
 
 
@@ -103,11 +103,11 @@ Events in the newly-added stream will generate callbacks to the <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/039a9f66-228e-4258-9967-2b2cd7d31091">Consuming Events</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/consuming-events">Consuming Events</a>
 
 
 
-<a href="https://msdn.microsoft.com/08073b9a-5ae0-4e88-a502-647567418005">ITraceRelogger</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itracerelogger">ITraceRelogger</a>
  
 
  

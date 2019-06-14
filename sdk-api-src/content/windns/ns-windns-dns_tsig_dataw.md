@@ -121,7 +121,7 @@ The time, in seconds, <b>i64CreateTime</b> may be in error.
 
 ### -field wOriginalXid
 
-The <a href="https://msdn.microsoft.com/e5bf19a1-4c71-482d-a075-1e149f94505b">Xid</a>  identifier of the original message.
+The <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dns_header">Xid</a>  identifier of the original message.
 
 
 ### -field wError
@@ -149,7 +149,7 @@ The <b>pSignature</b> field is bad.
 </dl>
 </td>
 <td width="60%">
-The <b>pKey</b> field of the <a href="https://msdn.microsoft.com/4dad3449-3e41-47d9-89c2-10fa6e51573b">DNS_TKEY_DATA</a> RR is bad.
+The <b>pKey</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_35">DNS_TKEY_DATA</a> RR is bad.
 
 </td>
 </tr>
@@ -193,7 +193,7 @@ Reserved for future use. Do not use.
 
 The 
 <b>DNS_TSIG_DATA</b> structure is used in conjunction with the 
-<a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a> structure to programmatically manage DNS entries.
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 
 
@@ -203,11 +203,11 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a>
 
 
 
-<a href="https://msdn.microsoft.com/4dad3449-3e41-47d9-89c2-10fa6e51573b">DNS_TKEY_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_35">DNS_TKEY_DATA</a>
  
 
  

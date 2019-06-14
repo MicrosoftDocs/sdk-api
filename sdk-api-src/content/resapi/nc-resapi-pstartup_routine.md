@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Loads a <a href="https://msdn.microsoft.com/e1434102-afaf-4a35-887e-a434c628bd90">resource DLL</a>, returning a structure 
+Loads a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dlls">resource DLL</a>, returning a structure 
     containing a function table and a version number. The <b>PSTARTUP_ROUTINE</b> 
     type defines a pointer to this function.
 
@@ -66,8 +66,8 @@ Type of resource being started.
 
 ### -param MinVersionSupported [in]
 
-Minimum version of the <a href="https://msdn.microsoft.com/764a35dd-a681-4af0-8e2c-281a254a3a30">Resource API</a> supported by the 
-       <a href="https://msdn.microsoft.com/90717d6e-f2a4-49a0-86b6-17de1c4bcfe4">Cluster service</a>.
+Minimum version of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-api">Resource API</a> supported by the 
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a>.
 
 
 ### -param MaxVersionSupported [in]
@@ -78,21 +78,21 @@ Maximum version of the Resource API supported by the Cluster service.
 ### -param SetResourceStatus [in]
 
 Pointer to a callback function that the resource DLL should call to update its status after returning 
-       <b>ERROR_IO_PENDING</b> from <a href="https://msdn.microsoft.com/b406ef44-0622-4625-a6cf-462b6ea6018d">Online</a> or 
-       <a href="https://msdn.microsoft.com/1d67a4f5-66f8-4818-8b63-d0f50452f889">Offline</a>. For more information see 
-       <a href="https://msdn.microsoft.com/8ddb4578-f8c4-462e-af04-8c537d585e8b">SetResourceStatus</a>.
+       <b>ERROR_IO_PENDING</b> from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_routine">Online</a> or 
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Offline</a>. For more information see 
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_status_routine">SetResourceStatus</a>.
 
 
 ### -param LogEvent [in]
 
 Pointer to a callback function that the resource DLL should call to report events for the 
-       <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a>. For more information see 
-       <a href="https://msdn.microsoft.com/91389083-e007-4d64-885f-e5188e74b9d8">LogEvent</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a>. For more information see 
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-plog_event_routine">LogEvent</a>.
 
 
 ### -param *FunctionTable [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/fa27076f-393c-415a-9301-91cfe770fb3c">CLRES_FUNCTION_TABLE</a> structure 
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-clres_function_table">CLRES_FUNCTION_TABLE</a> structure 
        that describes the Resource API version and the specific names for the entry points.
 
 
@@ -135,7 +135,7 @@ The resource DLL does not support a version that falls in the range identified b
  
 
 If the operation was not successful, <i>Startup</i> should 
-       return one of the <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>.
+       return one of the <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 
 
@@ -155,12 +155,12 @@ If your resource supports more than one version of the Resource API, return a fu
      parameter. If the version of the function table pointed to by the <i>FunctionTable</i> 
      parameter is not within range, your resource cannot be loaded successfully.
 
-For more information see <a href="https://msdn.microsoft.com/022f1e0b-fbd0-480c-9889-879e5d7458a3">Implementing Startup</a>.
+For more information see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/implementing-startup">Implementing Startup</a>.
 
 
 #### Examples
 
-See <a href="https://msdn.microsoft.com/022f1e0b-fbd0-480c-9889-879e5d7458a3">Implementing Startup</a>.
+See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/implementing-startup">Implementing Startup</a>.
 
 <div class="code"></div>
 
@@ -171,7 +171,7 @@ See <a href="https://msdn.microsoft.com/022f1e0b-fbd0-480c-9889-879e5d7458a3">Im
 
 
 
-<a href="https://msdn.microsoft.com/933d7b97-b5be-4c84-a983-41d1fd935c19">Resource DLL Entry-Point Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>
  
 
  

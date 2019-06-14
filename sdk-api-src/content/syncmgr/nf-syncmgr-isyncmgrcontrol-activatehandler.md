@@ -80,9 +80,9 @@ A handle to a window that can be used by the handler to display any necessary UI
 
 ### -param nControlFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/cfba36ba-8cbd-41ae-91ae-e568546508b9">SYNCMGR_CONTROL_FLAGS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_control_flags">SYNCMGR_CONTROL_FLAGS</a></b>
 
-A value from the <a href="https://msdn.microsoft.com/cfba36ba-8cbd-41ae-91ae-e568546508b9">SYNCMGR_CONTROL_FLAGS</a> enumeration specifying whether the activation or deactivation of the handler should be performed synchronously or asynchronously.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_control_flags">SYNCMGR_CONTROL_FLAGS</a> enumeration specifying whether the activation or deactivation of the handler should be performed synchronously or asynchronously.
 
 
 ## -returns
@@ -102,7 +102,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 An active handler appears in the Sync Center folder; an inactive handler appears in the Sync Setup folder.
 
-If the specified handler returns <a href="https://msdn.microsoft.com/99b0bebf-8131-49d0-bc9d-18fdf41c1371">SYNCMGR_HCM_QUERY_BEFORE_ACTIVATE</a> or <a href="https://msdn.microsoft.com/99b0bebf-8131-49d0-bc9d-18fdf41c1371">SYNCMGR_HCM_QUERY_BEFORE_DEACTIVATE</a> in the mask returned from the <a href="https://msdn.microsoft.com/3eb43984-f284-4df9-934b-1dd2f0e62e26">GetCapabilities</a> method, the query operation is requested before the handler is activated or deactivated. If no query UI is requested or once the user confirms the operation, the handler's <a href="https://msdn.microsoft.com/0061387d-516d-44c5-b511-3236593382a9">Activate</a> method is called.
+If the specified handler returns <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_handler_capabilities">SYNCMGR_HCM_QUERY_BEFORE_ACTIVATE</a> or <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_handler_capabilities">SYNCMGR_HCM_QUERY_BEFORE_DEACTIVATE</a> in the mask returned from the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getcapabilities">GetCapabilities</a> method, the query operation is requested before the handler is activated or deactivated. If no query UI is requested or once the user confirms the operation, the handler's <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-activate">Activate</a> method is called.
 
 If SYNCMGR_CF_WAIT is set in the <i>nControlFlags</i> parameter, <b>ActivateHandler</b> does not return until Sync Center has processed this notification.
 

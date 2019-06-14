@@ -59,18 +59,18 @@ The <b>PeerIdentityImport</b> function imports  one peer  identity. If the peer 
 
 ### -param pwzImportXML [in]
 
-Pointer to the XML format peer identity to import, which is returned by <a href="https://msdn.microsoft.com/2b7cfc46-77f6-49cb-966c-0a96830c96fd">PeerIdentityExport</a>. This binary data must match the exported data byte-for-byte.  The XML must remain valid XML with no extra 
+Pointer to the XML format peer identity to import, which is returned by <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peeridentityexport">PeerIdentityExport</a>. This binary data must match the exported data byte-for-byte.  The XML must remain valid XML with no extra 
 characters.
 
 
 ### -param pwzPassword [in]
 
-Specifies the password to use to de-crypt a peer identity. The password must be identical to the password supplied to <a href="https://msdn.microsoft.com/2b7cfc46-77f6-49cb-966c-0a96830c96fd">PeerIdentityExport</a>. This parameter cannot be <b>NULL</b>.
+Specifies the password to use to de-crypt a peer identity. The password must be identical to the password supplied to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peeridentityexport">PeerIdentityExport</a>. This parameter cannot be <b>NULL</b>.
 
 
 ### -param ppwzIdentity [out]
 
-Pointer to a string that represents a peer identity that is imported.  If the import operation is successful, the application must free <i>ppwzIdentity</i> by calling <a href="https://msdn.microsoft.com/54288829-c991-42d6-a7c4-874ed28dd106">PeerFreeData</a>. 
+Pointer to a string that represents a peer identity that is imported.  If the import operation is successful, the application must free <i>ppwzIdentity</i> by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>. 
 
 
 ## -returns
@@ -157,15 +157,15 @@ The XML fragment used by <b>PeerIdentityImport</b> is as follows:
 
 
 
-<a href="https://msdn.microsoft.com/d8a8b9e3-c455-4813-b812-263efe7f5e3e">PEER_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_data_tag">PEER_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/54288829-c991-42d6-a7c4-874ed28dd106">PeerFreeData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>
 
 
 
-<a href="https://msdn.microsoft.com/2b7cfc46-77f6-49cb-966c-0a96830c96fd">PeerIdentityExport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peeridentityexport">PeerIdentityExport</a>
  
 
  

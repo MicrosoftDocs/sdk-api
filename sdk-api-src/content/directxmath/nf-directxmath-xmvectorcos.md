@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Computes the cosine of each component of an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
+Computes the cosine of each component of an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>.
 
 
 ## -parameters
@@ -88,19 +88,19 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/aae12d4a-7758-83df-5376-99d5d94a28c4">Transcendental Vector Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-transcendental">Transcendental Vector Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420989(v=VS.85).aspx">XMVectorACos</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectoracos">XMVectorACos</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420990(v=VS.85).aspx">XMVectorACosEst</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectoracosest">XMVectorACosEst</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee421010(v=VS.85).aspx">XMVectorCosEst</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorcosest">XMVectorCosEst</a>
  
 
  

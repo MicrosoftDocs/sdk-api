@@ -80,7 +80,7 @@ Indicates how the user account information is to be obtained. The volume's quota
 <td width="60%">
 Resolve user account information asynchronously. 
 <b>AddUserName</b> returns immediately. The caller must implement the 
-<a href="https://msdn.microsoft.com/4b5dcb1f-8edb-4fcb-94ea-2a627667071e">IDiskQuotaEvents</a> interface to receive notification when the information is available. If the information was cached during a previous request, notification occurs as soon as the object is serviced. Otherwise, the method obtains the information from the network domain controller, then notifies 
+<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotaevents">IDiskQuotaEvents</a> interface to receive notification when the information is available. If the information was cached during a previous request, notification occurs as soon as the object is serviced. Otherwise, the method obtains the information from the network domain controller, then notifies 
 <b>IDiskQuotaEvents</b>.
 
 </td>
@@ -115,7 +115,7 @@ Resolve user account information synchronously.
 ### -param ppUser [out]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/27edbebc-35b4-4f6a-87cc-d8a99782f405">IDiskQuotaUser</a> interface pointer to the newly created quota user object.
+<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> interface pointer to the newly created quota user object.
 
 
 ## -returns
@@ -237,15 +237,15 @@ The NTFS file system automatically creates a user quota entry when a user first 
 
 
 
-<a href="https://msdn.microsoft.com/c1f79e2e-834b-41dc-a15f-6dd1034d021b">Disk Management Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/42efbd5b-6455-4319-a76e-cdb666fc36b8">Disk Quotas</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
 
 
 
-<a href="https://msdn.microsoft.com/fc9add5a-c9ef-462d-8125-128d48018717">IDiskQuotaControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>
  
 
  

@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The <b>RPC_HTTP_TRANSPORT_CREDENTIALS_V2</b> structure defines additional credentials to authenticate to an  RPC proxy server or HTTP proxy server when using RPC/HTTP.
 
-<b>RPC_HTTP_TRANSPORT_CREDENTIALS_V2</b> extends <a href="https://msdn.microsoft.com/fdb7f42a-e545-4965-a44a-70d4631f1723">RPC_HTTP_TRANSPORT_CREDENTIALS</a> by allowing authentication against an HTTP proxy server.
+<b>RPC_HTTP_TRANSPORT_CREDENTIALS_V2</b> extends <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_http_transport_credentials_a">RPC_HTTP_TRANSPORT_CREDENTIALS</a> by allowing authentication against an HTTP proxy server.
 
 
 ## -struct-fields
@@ -63,7 +63,7 @@ The <b>RPC_HTTP_TRANSPORT_CREDENTIALS_V2</b> structure defines additional creden
 
 ### -field TransportCredentials
 
-A pointer to a <a href="https://msdn.microsoft.com/829dee24-aeeb-4191-b5fc-85970725f064">SEC_WINNT_AUTH_IDENTITY</a> structure that contains the user name, domain, and password for the user.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure that contains the user name, domain, and password for the user.
 
 
 ### -field Flags
@@ -184,12 +184,12 @@ The algorithm for choosing the actual authentication scheme is as follows:
 
 ### -field ServerCertificateSubject
 
-Contains an optional string with the expected server principal name. The principal name is in the same format as that generated for <a href="https://msdn.microsoft.com/88a172f5-2226-46e9-845e-c67b0a885905">RpcCertGeneratePrincipalName</a> (see <a href="https://msdn.microsoft.com/4d9977f8-0efb-4559-977e-3eba4e277bc0">Principal Names</a> for more information). This member is used only when SSL is used. In such cases, the server certificate is checked against the generated principal name. If they do not match, an error is returned. This member enables clients to authenticate the RPC Proxy.
+Contains an optional string with the expected server principal name. The principal name is in the same format as that generated for <a href="https://docs.microsoft.com/windows/desktop/api/rpcssl/nf-rpcssl-rpccertgenerateprincipalname">RpcCertGeneratePrincipalName</a> (see <a href="https://docs.microsoft.com/windows/desktop/Rpc/principal-names">Principal Names</a> for more information). This member is used only when SSL is used. In such cases, the server certificate is checked against the generated principal name. If they do not match, an error is returned. This member enables clients to authenticate the RPC Proxy.
 
 
 ### -field ProxyCredentials
 
-A pointer to a <a href="https://msdn.microsoft.com/829dee24-aeeb-4191-b5fc-85970725f064">SEC_WINNT_AUTH_IDENTITY</a> structure that contains the user name, domain, and password for the user when authenticating against an HTTP proxy server. <b>ProxyCredentials</b> is only valid when <b>AuthenticationTarget</b> contains <b>RPC_C_HTTP_AUTHN_TARGET_PROXY</b>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure that contains the user name, domain, and password for the user when authenticating against an HTTP proxy server. <b>ProxyCredentials</b> is only valid when <b>AuthenticationTarget</b> contains <b>RPC_C_HTTP_AUTHN_TARGET_PROXY</b>.
 
 
 ### -field NumberOfProxyAuthnSchemes
@@ -288,7 +288,7 @@ If the <b>TransportCredentials</b> member is <b>NULL</b> and the authentication 
 <li>Caller requested use of SSL and used the <b>ServerCertificateSubject</b> member. This scenario guarantees credentials are protected both in transit and at the final destination, even if a weak hash is used.</li>
 <li>The lncompatibilitylevel key is set to 2 or higher. This  causes the NTLM security provider to emit or respond to only the strong NT hash, not the weak LM hash. In addition, customers are encouraged to use level 3 or higher, which will attempt NTLMv2.</li>
 </ul>
-If the Unicode version of the <a href="https://msdn.microsoft.com/2438816c-995e-4398-999d-48a3538eec18">RpcBindingSetAuthInfoEx</a> function is used,  Unicode versions of the <b>RPC_HTTP_TRANSPORT_CREDENTIALS_V2</b> and <a href="https://msdn.microsoft.com/829dee24-aeeb-4191-b5fc-85970725f064">SEC_WINNT_AUTH_IDENTITY</a> structures must also be provided, and the <b>Flags</b> member in <b>TransportCredentials</b> must be set to SEC_WINNT_AUTH_IDENTITY_UNICODE. 
+If the Unicode version of the <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa">RpcBindingSetAuthInfoEx</a> function is used,  Unicode versions of the <b>RPC_HTTP_TRANSPORT_CREDENTIALS_V2</b> and <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structures must also be provided, and the <b>Flags</b> member in <b>TransportCredentials</b> must be set to SEC_WINNT_AUTH_IDENTITY_UNICODE. 
 If the ANSI version of the <b>RpcBindingSetAuthInfoEx</b> function is used,  ANSI versions of <b>RPC_HTTP_TRANSPORT_CREDENTIALS_V2</b> and <b>SEC_WINNT_AUTH_IDENTITY</b> structures must be provided, and the <b>Flags</b> member in <b>TransportCredentials</b> must be set to SEC_WINNT_AUTH_IDENTITY_ANSI.
 
 
@@ -300,43 +300,43 @@ If the ANSI version of the <b>RpcBindingSetAuthInfoEx</b> function is used,  ANS
 
 
 
-<a href="https://msdn.microsoft.com/4d9977f8-0efb-4559-977e-3eba4e277bc0">Principal Names</a>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/principal-names">Principal Names</a>
 
 
 
-<a href="https://msdn.microsoft.com/fdb7f42a-e545-4965-a44a-70d4631f1723">RPC_HTTP_TRANSPORT_CREDENTIALS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_http_transport_credentials_a">RPC_HTTP_TRANSPORT_CREDENTIALS</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d9d53bc-f1e2-4a8d-a9c1-5b2192ceec56">RPC_HTTP_TRANSPORT_CREDENTIALS_V3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_http_transport_credentials_v3_a">RPC_HTTP_TRANSPORT_CREDENTIALS_V3</a>
 
 
 
-<a href="https://msdn.microsoft.com/f7733b9d-ae32-44ff-b1ca-dd0292dd0ff6">RPC_SECURITY_QOS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_security_qos">RPC_SECURITY_QOS</a>
 
 
 
-<a href="https://msdn.microsoft.com/4499a522-2911-444f-9fa4-e5a73c3b4391">RPC_SECURITY_QOS_V2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_security_qos_v2_a">RPC_SECURITY_QOS_V2</a>
 
 
 
-<a href="https://msdn.microsoft.com/56366edf-55af-4827-8986-7b5f8b1c878b">RPC_SECURITY_QOS_V3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_security_qos_v3_a">RPC_SECURITY_QOS_V3</a>
 
 
 
-<a href="https://msdn.microsoft.com/f87262f6-fd82-4e8c-bf83-8f93791deec0">Remote Procedure Calls Using RPC over HTTP</a>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/remote-procedure-calls-using-rpc-over-http">Remote Procedure Calls Using RPC over HTTP</a>
 
 
 
-<a href="https://msdn.microsoft.com/2438816c-995e-4398-999d-48a3538eec18">RpcBindingSetAuthInfoEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa">RpcBindingSetAuthInfoEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/88a172f5-2226-46e9-845e-c67b0a885905">RpcCertGeneratePrincipalName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcssl/nf-rpcssl-rpccertgenerateprincipalname">RpcCertGeneratePrincipalName</a>
 
 
 
-<a href="https://msdn.microsoft.com/829dee24-aeeb-4191-b5fc-85970725f064">SEC_WINNT_AUTH_IDENTITY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a>
  
 
  

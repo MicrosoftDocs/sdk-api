@@ -92,9 +92,9 @@ A pointer to the object that contains the notification data or response.
 
 The return values are COM error codes. Because this function might complete the operation successfully yet return an HRESULT other than S_OK you should use the SUCCEEDED or FAILED macro to determine the success of the call. To get the specific HRESULT that was returned by the function, use the HRESULT_CODE macro.
 
-See <a href="https://msdn.microsoft.com/2fb6698c-5d59-4ba0-a8ff-1313fade438c">PrintAsyncNotifyError</a> for other possible return values.
+See <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/ne-prnasnot-printasyncnotifyerror">PrintAsyncNotifyError</a> for other possible return values.
 
-For more information about COM error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa376932(v=VS.85).aspx">Error Handling</a>.
+For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/SetupApi/error-handling">Error Handling</a>.
 
 The following code example shows how these macros can be used to evaluate the return value.
 
@@ -133,9 +133,9 @@ if (FAILED(hr)) {
 
 
 
-When a component that is hosted by the print spooler closes a communication channel with a listening application, the component should call the <b>ChannelClosed</b> method of the <a href="https://msdn.microsoft.com/e2b021cd-1cfd-42b7-b6e4-7f8671b013f6">IPrintAsyncNotifyCallback</a> object, which the listening application provided at the time it registered for notifications. If the print server crashes, the print spooler will attempt to call the <a href="https://msdn.microsoft.com/2f398173-3cd6-46da-931d-057d1dccbe9b">OnEventNotify</a> method of the <b>IPrintAsyncNotifyCallback</b> object provided by the listening application. It will send a notification of type NOTIFICATION_RELEASE.
+When a component that is hosted by the print spooler closes a communication channel with a listening application, the component should call the <b>ChannelClosed</b> method of the <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nn-prnasnot-iprintasyncnotifycallback">IPrintAsyncNotifyCallback</a> object, which the listening application provided at the time it registered for notifications. If the print server crashes, the print spooler will attempt to call the <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nf-prnasnot-iprintasyncnotifycallback-oneventnotify">OnEventNotify</a> method of the <b>IPrintAsyncNotifyCallback</b> object provided by the listening application. It will send a notification of type NOTIFICATION_RELEASE.
 
-If the listening application closes a bidirectional communication channel, it should call the <b>ChannelClosed</b> method of the <a href="https://msdn.microsoft.com/e2b021cd-1cfd-42b7-b6e4-7f8671b013f6">IPrintAsyncNotifyCallback</a> object provided by the component when it created the channel. If the listening application crashes, the print spooler will call the <a href="https://msdn.microsoft.com/2f398173-3cd6-46da-931d-057d1dccbe9b">OnEventNotify</a> method of the <b>IPrintAsyncNotifyCallback</b> object provided by the  component that is hosted by the print spooler. It will send a notification of type NOTIFICATION_RELEASE.
+If the listening application closes a bidirectional communication channel, it should call the <b>ChannelClosed</b> method of the <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nn-prnasnot-iprintasyncnotifycallback">IPrintAsyncNotifyCallback</a> object provided by the component when it created the channel. If the listening application crashes, the print spooler will call the <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nf-prnasnot-iprintasyncnotifycallback-oneventnotify">OnEventNotify</a> method of the <b>IPrintAsyncNotifyCallback</b> object provided by the  component that is hosted by the print spooler. It will send a notification of type NOTIFICATION_RELEASE.
 
 
 
@@ -145,19 +145,19 @@ If the listening application closes a bidirectional communication channel, it sh
 
 
 
-<a href="https://msdn.microsoft.com/e96c957f-3972-4afc-9d76-a4725b8688f8">Asynchronous Printing Notification Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/printdocs/asynchronous-notification-interfaces">Asynchronous Printing Notification Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376932(v=VS.85).aspx">Error Handling</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/error-handling">Error Handling</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2b021cd-1cfd-42b7-b6e4-7f8671b013f6">IPrintAsyncNotifyCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nn-prnasnot-iprintasyncnotifycallback">IPrintAsyncNotifyCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5c115b0-9c1e-46e7-8fb5-eddbc2c75298">Printing</a>
+<a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
  
 
  

@@ -65,7 +65,7 @@ Stores a value in the calling fiber's fiber local storage (FLS) slot for the spe
 ### -param dwFlsIndex [in]
 
 The FLS index that was allocated by the 
-<a href="https://msdn.microsoft.com/dc348ef3-37e5-40f2-bd5c-5f8aebc7cc59">FlsAlloc</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flsalloc">FlsAlloc</a> function.
 
 
 ### -param lpFlsData [in, optional]
@@ -80,7 +80,7 @@ The value to be stored in the FLS slot for the calling fiber.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. The following errors can be returned.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following errors can be returned.
 
 <table>
 <tr>
@@ -120,9 +120,9 @@ The FLS array has not been allocated.
 
 
 FLS indexes are typically allocated by the 
-<a href="https://msdn.microsoft.com/dc348ef3-37e5-40f2-bd5c-5f8aebc7cc59">FlsAlloc</a> function during process or DLL initialization. After an FLS index is allocated, each fiber of the process can use it to access its own FLS slot for that index. A thread specifies an FLS index in a call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flsalloc">FlsAlloc</a> function during process or DLL initialization. After an FLS index is allocated, each fiber of the process can use it to access its own FLS slot for that index. A thread specifies an FLS index in a call to 
 <b>FlsSetValue</b> to store a value in its slot. The thread specifies the same index in a subsequent call to 
-<a href="https://msdn.microsoft.com/5d5a1fe6-10ed-42c5-87db-b24eef6f174c">FlsGetValue</a> to retrieve the stored value.
+<a href="https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flsgetvalue">FlsGetValue</a> to retrieve the stored value.
 
 
 
@@ -132,19 +132,19 @@ FLS indexes are typically allocated by the
 
 
 
-<a href="https://msdn.microsoft.com/6283f56b-23ae-4840-abd0-2478a50c670c">Fibers</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/fibers">Fibers</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc348ef3-37e5-40f2-bd5c-5f8aebc7cc59">FlsAlloc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flsalloc">FlsAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d5a1fe6-10ed-42c5-87db-b24eef6f174c">FlsGetValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flsgetvalue">FlsGetValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c8e8af0-bf50-4a4b-945c-83bae1eff7dd">Process and Thread Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
  
 
  

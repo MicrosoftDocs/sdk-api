@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Calculates the wire size of the <a href="https://msdn.microsoft.com/1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a> object, and gets its handle and data.
+Calculates the wire size of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a> object, and gets its handle and data.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ The data used by RPC.
 
 ### -param arg2 [in]
 
-The current buffer offset where the object will be marshaled. The method has to account for any padding needed for the <a href="https://msdn.microsoft.com/1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a> object to be properly aligned when it will be marshaled to the buffer.
+The current buffer offset where the object will be marshaled. The method has to account for any padding needed for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a> object to be properly aligned when it will be marshaled to the buffer.
 
 
 ### -param arg3 [in]

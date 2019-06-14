@@ -74,7 +74,7 @@ The result of the update.
 
             
             If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code.
-            See <a href="https://msdn.microsoft.com/38f15d61-d415-4c7d-b454-5144fc7c9b1e">Windows Animation Error Codes</a> for a list of error codes.
+            See <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
 
 
 
@@ -89,7 +89,7 @@ Calling this method advances the animation manager to <i>timeNow</i>, changing s
 
 #### Examples
 
-The following example updates the animation manager with the current time. For additional examples, see <a href="https://msdn.microsoft.com/c4f746c3-e47c-4b82-a41b-e2c0d177d097">Update the Animation Manager and Draw Frames</a>.
+The following example updates the animation manager with the current time. For additional examples, see <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/introducing-windows-animation-manager">Update the Animation Manager and Draw Frames</a>.
 
 
 ```cpp
@@ -124,27 +124,27 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/21f16c65-90aa-4b1f-93bc-8ee0488c6ded">IUIAnimationManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationmanager">IUIAnimationManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/52b11e79-9930-4fd8-84b4-152917090519">IUIAnimationManager::Pause</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager-pause">IUIAnimationManager::Pause</a>
 
 
 
-<a href="https://msdn.microsoft.com/f29a9337-0ed0-46f8-ab77-8f82ab39d8df">IUIAnimationManager::Resume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager-resume">IUIAnimationManager::Resume</a>
 
 
 
-<a href="https://msdn.microsoft.com/b5d6c5f1-1e1c-497f-a556-f419e2c68585">IUIAnimationManager::SetAnimationMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager-setanimationmode">IUIAnimationManager::SetAnimationMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd317046(v=VS.85).aspx">UI_ANIMATION_MODE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/ne-uianimation-__midl___midl_itf_uianimation_0000_0000_0003">UI_ANIMATION_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371974(v=VS.85).aspx">UI_ANIMATION_UPDATE_RESULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/ne-uianimation-__midl___midl_itf_uianimation_0000_0000_0001">UI_ANIMATION_UPDATE_RESULT</a>
  
 
  

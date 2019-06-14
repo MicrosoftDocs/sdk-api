@@ -58,11 +58,11 @@ The <b>IADsDNWithString</b> interface provides methods for an ADSI client to ass
 
 
 
-<a href="https://msdn.microsoft.com/d3fb67b6-9f7d-4de5-bf01-f9c5b9e4f086">IADsDNWithString Property Methods</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsdnwithstring-property-methods">IADsDNWithString Property Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

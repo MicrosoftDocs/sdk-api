@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-This interface performs all the same functions as the existing <a href="https://msdn.microsoft.com/4e0ce837-7f4e-4b93-8dd7-68f60cfb1105">ID2D1CommandSink</a> interface. It also enables access to the new primitive blend modes, MIN and ADD, through its <a href="https://msdn.microsoft.com/3EA9EC07-1B2F-48A2-ABFB-2DA0E2EFFBF4">SetPrimitiveBlend1</a> method.
+This interface performs all the same functions as the existing <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandsink">ID2D1CommandSink</a> interface. It also enables access to the new primitive blend modes, MIN and ADD, through its <a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1commandsink-setprimitiveblend1">SetPrimitiveBlend1</a> method.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1CommandSink1</b> interface inherits from <a href="https://msdn.microsoft.com/4e0ce837-7f4e-4b93-8dd7-68f60cfb1105">ID2D1CommandSink</a>. <b>ID2D1CommandSink1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1CommandSink1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandsink">ID2D1CommandSink</a>. <b>ID2D1CommandSink1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1CommandSink1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3EA9EC07-1B2F-48A2-ABFB-2DA0E2EFFBF4">SetPrimitiveBlend1</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1commandsink-setprimitiveblend1">SetPrimitiveBlend1</a>
 </td>
 <td align="left" width="63%">
 Sets a new primitive blend mode. 
@@ -84,7 +84,7 @@ Sets a new primitive blend mode.
 
 
 
-<a href="https://msdn.microsoft.com/4e0ce837-7f4e-4b93-8dd7-68f60cfb1105">ID2D1CommandSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandsink">ID2D1CommandSink</a>
  
 
  

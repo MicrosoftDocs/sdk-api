@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ID2D1PathGeometry1</b> interface adds functionality to <a href="https://msdn.microsoft.com/d200563c-d78e-4fa0-a8f2-242b24480e99">ID2D1PathGeometry</a>. In particular, it provides the path geometry-specific <a href="https://msdn.microsoft.com/4a47d928-7482-413a-ad9d-e887b309e367">ComputePointAndSegmentAtLength</a> method.
+The <b>ID2D1PathGeometry1</b> interface adds functionality to <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1pathgeometry">ID2D1PathGeometry</a>. In particular, it provides the path geometry-specific <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1pathgeometry1-computepointandsegmentatlength(float_uint32_constd2d1_matrix_3x2_f_d2d1_point_description)">ComputePointAndSegmentAtLength</a> method.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1PathGeometry1</b> interface inherits from <a href="https://msdn.microsoft.com/d200563c-d78e-4fa0-a8f2-242b24480e99">ID2D1PathGeometry</a>. <b>ID2D1PathGeometry1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1PathGeometry1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1pathgeometry">ID2D1PathGeometry</a>. <b>ID2D1PathGeometry1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1PathGeometry1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/993bfc4b-335c-0ca0-f34b-59e05aa173d2">ComputePointAndSegmentAtLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1pathgeometry1-computepointandsegmentatlength-overload">ComputePointAndSegmentAtLength</a>
 </td>
 <td align="left" width="63%">Overloaded. Computes the point that exists at a given distance along the path geometry along with the index of the segment 
       the point is on and the directional vector at that point.
@@ -83,7 +83,7 @@ The <b>ID2D1PathGeometry1</b> interface has these methods.
 
 
 
-This interface adds functionality to <a href="https://msdn.microsoft.com/d200563c-d78e-4fa0-a8f2-242b24480e99">ID2D1PathGeometry</a>.
+This interface adds functionality to <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1pathgeometry">ID2D1PathGeometry</a>.
 
 
 
@@ -93,7 +93,7 @@ This interface adds functionality to <a href="https://msdn.microsoft.com/d200563
 
 
 
-<a href="https://msdn.microsoft.com/d200563c-d78e-4fa0-a8f2-242b24480e99">ID2D1PathGeometry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1pathgeometry">ID2D1PathGeometry</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Returns the unique identifier of the current cluster 
-    <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a>.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a>.
 
 
 ## -parameters
@@ -92,7 +92,7 @@ This parameter points to a buffer that receives the unique ID of <i>hNode</i>, i
 
 Note that <i>lpcchName</i> refers to a count of characters and not a count of bytes, and 
      that the returned size does not include the terminating <b>NULL</b> in the count. For more information on sizing 
-     buffers, see <a href="https://msdn.microsoft.com/283dc560-d547-4b42-b45c-435045080639">Data Size Conventions</a>.
+     buffers, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-size-conventions">Data Size Conventions</a>.
 
 
 
@@ -102,15 +102,15 @@ Note that <i>lpcchName</i> refers to a count of characters and not a count of by
 
 
 
-<a href="https://msdn.microsoft.com/976ca079-10f7-4e12-9033-07ea83e8c92a">GetClusterNodeId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusternodeid">GetClusterNodeId</a>
 
 
 
-<a href="https://msdn.microsoft.com/18981eec-42c0-4e31-8e5c-b79d8ff89fc8">Node Management Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/node-management-functions">Node Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/7658a030-d4b2-407c-829f-61491b5907e6">OpenClusterNode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusternode">OpenClusterNode</a>
  
 
  

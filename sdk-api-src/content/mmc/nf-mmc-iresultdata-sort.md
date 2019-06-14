@@ -99,13 +99,13 @@ This method can return one of these values.
 
 
 If your snap-in implements the 
-<a href="https://msdn.microsoft.com/7a68713c-2de5-4944-a617-0b2d46c23eea">IResultDataCompare</a> or the 
-<a href="https://msdn.microsoft.com/e4b305e4-4649-42f4-86f4-3c12e5aa5337">IResultDataCompareEx</a> interface, MMC calls the interface's 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdatacompare">IResultDataCompare</a> or the 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdatacompareex">IResultDataCompareEx</a> interface, MMC calls the interface's 
 Compare method to allow the snap-in to compare list items. Otherwise, MMC uses a default string-compare function.
 
 There is no sorting function for a virtual list. To allow virtual list sorting the snap-in must implement the 
-<a href="https://msdn.microsoft.com/184f3783-9000-45aa-867b-580800b560b3">IResultOwnerData</a> interface. When <b>IResultData::Sort</b> is called, MMC forwards the call to 
-<a href="https://msdn.microsoft.com/5326e935-cb6c-4f76-8c9b-87d910dbbb0d">IResultOwnerData::SortItems</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultownerdata">IResultOwnerData</a> interface. When <b>IResultData::Sort</b> is called, MMC forwards the call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultownerdata-sortitems">IResultOwnerData::SortItems</a>.
 
 
 
@@ -115,19 +115,19 @@ There is no sorting function for a virtual list. To allow virtual list sorting t
 
 
 
-<a href="https://msdn.microsoft.com/58f8bcdb-b062-4048-92fc-eb652ce62c5b">IResultData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdata">IResultData</a>
 
 
 
-<a href="https://msdn.microsoft.com/cca0c2a4-7a41-48d1-bdaa-27b7aad7cc05">IResultData2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdata2">IResultData2</a>
 
 
 
-<a href="https://msdn.microsoft.com/00d18ba5-589f-4a70-b331-ba9c7d5164c5">IResultDataCompare::Compare</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdatacompare-compare">IResultDataCompare::Compare</a>
 
 
 
-<a href="https://msdn.microsoft.com/5326e935-cb6c-4f76-8c9b-87d910dbbb0d">IResultOwnerData::SortItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultownerdata-sortitems">IResultOwnerData::SortItems</a>
  
 
  

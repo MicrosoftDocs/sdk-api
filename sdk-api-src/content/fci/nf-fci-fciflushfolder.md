@@ -59,17 +59,17 @@ The <b>FCIFlushFolder</b> function forces the current folder under construction 
 
 ### -param hfci [in]
 
-A valid FCI context handle returned by the <a href="https://msdn.microsoft.com/bfcea06d-2f09-405c-955c-0f56149148f2">FCICreate</a> function.
+A valid FCI context handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a> function.
 
 
 ### -param pfnfcignc [in]
 
-Pointer to an application-defined callback function to obtain specifications on the next cabinet to create. The function should be declared using the <a href="https://msdn.microsoft.com/d56fb63e-91bf-4991-a954-176211697a2e">FNFCIGETNEXTCABINET</a> macro.
+Pointer to an application-defined callback function to obtain specifications on the next cabinet to create. The function should be declared using the <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fnfcigetnextcabinet">FNFCIGETNEXTCABINET</a> macro.
 
 
 ### -param pfnfcis [in]
 
-Pointer to an application-defined callback function to update the user. The function should be declared using the <a href="https://msdn.microsoft.com/529fd3c8-9783-4dbe-9268-a9137935cf9b">FNFCISTATUS</a> macro.
+Pointer to an application-defined callback function to update the user. The function should be declared using the <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fnfcistatus">FNFCISTATUS</a> macro.
 
 
 ## -returns
@@ -78,7 +78,7 @@ Pointer to an application-defined callback function to update the user. The func
 
 If the function succeeds, it returns <b>TRUE</b>; otherwise, FASLE.
 
-Extended error information is provided in the <a href="https://msdn.microsoft.com/ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b">ERF</a> structure used to create the FCI context.
+Extended error information is provided in the <a href="https://docs.microsoft.com/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf">ERF</a> structure used to create the FCI context.
 
 
 
@@ -99,7 +99,7 @@ The callback function indicated by <i>GetNextCab</i> will be called if the cabin
 
 
 
-<a href="https://msdn.microsoft.com/dc586260-180e-4a6b-accf-2ddd62ac1335">FCIFlushCabinet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fciflushcabinet">FCIFlushCabinet</a>
  
 
  

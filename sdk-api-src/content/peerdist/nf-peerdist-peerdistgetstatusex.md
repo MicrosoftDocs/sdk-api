@@ -59,12 +59,12 @@ The <b>PeerDistGetStatusEx</b> function returns the current status and capabilit
 
 ### -param hPeerDist [in]
 
-A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="https://msdn.microsoft.com/62d4f139-ab18-4d65-bda5-1cf09d7ddab9">PeerDistStartup</a>.
+A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
 
 
 ### -param pPeerDistStatus [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/6EE58EA9-BA0A-4A96-9F9C-EFAF2ABA37C6">PEERDIST_STATUS_INFO</a> structure that contains the current status and capabilities of the Peer Distribution service.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/ns-peerdist-peerdist_status_info_tag">PEERDIST_STATUS_INFO</a> structure that contains the current status and capabilities of the Peer Distribution service.
 
 
 ## -returns
@@ -90,11 +90,11 @@ A Group Policy change can result in the Peer Distribution service  moving to an 
 
 
 
-<a href="https://msdn.microsoft.com/d693dc1c-39ce-4a2b-b769-9d370abc3d3c">PEERDIST_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/ne-peerdist-peerdist_status">PEERDIST_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/6EE58EA9-BA0A-4A96-9F9C-EFAF2ABA37C6">PEERDIST_STATUS_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/ns-peerdist-peerdist_status_info_tag">PEERDIST_STATUS_INFO</a>
  
 
  

@@ -54,7 +54,7 @@ Exposes methods that notify the docking window object of changes, including show
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDockingWindow</b> interface inherits from <a href="https://msdn.microsoft.com/2d0efbae-4a1c-43b1-9021-8d89377f7282">IOleWindow</a>. <b>IDockingWindow</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDockingWindow</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>. <b>IDockingWindow</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDockingWindow</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/29e57436-cc8f-46e8-bc1a-b44bd803c4a8">CloseDW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idockingwindow-closedw">CloseDW</a>
 </td>
 <td align="left" width="63%">
 Notifies the docking window object that it is about to be removed from the frame. The docking window object should save any persistent information at this time.
@@ -78,16 +78,16 @@ Notifies the docking window object that it is about to be removed from the frame
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/de61badd-0794-484c-921f-4e72e881579c">ResizeBorderDW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idockingwindow-resizeborderdw">ResizeBorderDW</a>
 </td>
 <td align="left" width="63%">
-Notifies the docking window object that the frame's border space has changed. In response to this method, the <b>IDockingWindow</b> implementation must call <a href="https://msdn.microsoft.com/8c79c983-8a5d-4b52-848d-c85c4e4f86ec">IDockingWindowSite::SetBorderSpaceDW</a>, even if no border space is required or a change is not necessary.
+Notifies the docking window object that the frame's border space has changed. In response to this method, the <b>IDockingWindow</b> implementation must call <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-idockingwindowsite-setborderspacedw">IDockingWindowSite::SetBorderSpaceDW</a>, even if no border space is required or a change is not necessary.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c33031d4-f9f4-4210-93be-963e5f299408">ShowDW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idockingwindow-showdw">ShowDW</a>
 </td>
 <td align="left" width="63%">
 Instructs the docking window object to show or hide itself.
@@ -101,7 +101,7 @@ Instructs the docking window object to show or hide itself.
 
 
 
-<b>IDockingWindow</b> is derived from <a href="https://msdn.microsoft.com/2d0efbae-4a1c-43b1-9021-8d89377f7282">IOleWindow</a>. See the following topics for details on these methods also available to <b>IDockingWindow</b> through that inheritance.
+<b>IDockingWindow</b> is derived from <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>. See the following topics for details on these methods also available to <b>IDockingWindow</b> through that inheritance.
 
 
 
@@ -111,12 +111,12 @@ Instructs the docking window object to show or hide itself.
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/833adc81-be58-44a1-88f1-9aa28808e67b">IDockingWindow::GetWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolewindow-getwindow">IDockingWindow::GetWindow</a>
 </td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/253f26c6-b5dd-4837-9135-96e11b4688c8">IDockingWindow::ContextSensitiveHelp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolewindow-contextsensitivehelp">IDockingWindow::ContextSensitiveHelp</a>
 </td>
 </tr>
 </table>

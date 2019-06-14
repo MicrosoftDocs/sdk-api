@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates whether a  <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node's</a> attempt to start the  <a href="https://msdn.microsoft.com/90717d6e-f2a4-49a0-86b6-17de1c4bcfe4">Cluster service</a> represents an attempt to form or join a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>, and whether the node has attempted to start this version of the Cluster service before.  <a href="https://msdn.microsoft.com/e1434102-afaf-4a35-887e-a434c628bd90">Resource DLLs</a> receive the CLUS_STARTING_PARAMS structure with the  <a href="https://msdn.microsoft.com/3a66a48c-ddd3-464c-8254-bf842dd174b2">CLUSCTL_RESOURCE_TYPE_STARTING_PHASE1</a> and  <a href="https://msdn.microsoft.com/5187e72c-2838-487b-a897-0b4f99f6f9df">CLUSCTL_RESOURCE_TYPE_STARTING_PHASE2</a> control codes.
+Indicates whether a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node's</a> attempt to start the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a> represents an attempt to form or join a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>, and whether the node has attempted to start this version of the Cluster service before.  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dlls">Resource DLLs</a> receive the CLUS_STARTING_PARAMS structure with the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-starting-phase1">CLUSCTL_RESOURCE_TYPE_STARTING_PHASE1</a> and  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-starting-phase2">CLUSCTL_RESOURCE_TYPE_STARTING_PHASE2</a> control codes.
 
 
 ## -struct-fields
@@ -105,7 +105,7 @@ The  <b>CLUS_STARTING_PARAMS</b> structure allows resource DLLs to respond to th
 
 #### Examples
 
-The following example illustrates an abbreviated implementation of  <a href="https://msdn.microsoft.com/dc4a6e6e-f968-4502-88d0-dc692341528d">ResourceTypeControl</a>. For more information, see  <a href="https://msdn.microsoft.com/23d16976-1491-43d7-9dea-9cd8ae8086cb">Implementing ResourceTypeControl</a>.
+The following example illustrates an abbreviated implementation of  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-presource_type_control_routine">ResourceTypeControl</a>. For more information, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/implementing-resourcetypecontrol">Implementing ResourceTypeControl</a>.
 
 
 ```cpp
@@ -193,11 +193,11 @@ DWORD WINAPI MyDllResourceTypeControl(
 
 
 
-<a href="https://msdn.microsoft.com/3a66a48c-ddd3-464c-8254-bf842dd174b2">CLUSCTL_RESOURCE_TYPE_STARTING_PHASE1</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-starting-phase1">CLUSCTL_RESOURCE_TYPE_STARTING_PHASE1</a>
 
 
 
-<a href="https://msdn.microsoft.com/5187e72c-2838-487b-a897-0b4f99f6f9df">CLUSCTL_RESOURCE_TYPE_STARTING_PHASE2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-starting-phase2">CLUSCTL_RESOURCE_TYPE_STARTING_PHASE2</a>
  
 
  

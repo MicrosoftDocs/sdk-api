@@ -81,7 +81,7 @@ A pointer to a null-terminated string that specifies the name of the value. This
 
 Type: <b>BOOL</b>
 
-A variable that specifies which key to look under. When set to <b>TRUE</b>, <a href="https://msdn.microsoft.com/4d3b3bbe-dc2e-40c9-8ff1-0f9d2e323743">SHRegGetUSValue</a> ignores <b>HKEY_CURRENT_USER</b> and returns a value from <b>HKEY_LOCAL_MACHINE</b>.
+A variable that specifies which key to look under. When set to <b>TRUE</b>, <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shreggetusvaluea">SHRegGetUSValue</a> ignores <b>HKEY_CURRENT_USER</b> and returns a value from <b>HKEY_LOCAL_MACHINE</b>.
 
 
 ### -param fDefault [in]

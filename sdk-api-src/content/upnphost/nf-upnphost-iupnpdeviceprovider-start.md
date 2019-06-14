@@ -61,7 +61,7 @@ The
 ### -param bstrInitString [in]
 
 Identifies the initialization string specific to a device provider. This string is the same as the one passed to 
-<a href="https://msdn.microsoft.com/40f91b29-b535-46e7-834f-97f1a46084f7">IUPnPRegistrar::RegisterDeviceProvider</a> at registration.
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-registerdeviceprovider">IUPnPRegistrar::RegisterDeviceProvider</a> at registration.
 
 
 ## -returns
@@ -78,11 +78,11 @@ When implementing this method, return S_OK if the method succeeds. Otherwise, re
 
 
 
-<a href="https://msdn.microsoft.com/daaa8b55-bcef-4142-8f7b-e6f64e0ac258">IUPnPDeviceProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nn-upnphost-iupnpdeviceprovider">IUPnPDeviceProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/c8e4cd95-a6dc-4bf9-921e-63fbac743028">IUPnPDeviceProvider::Stop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpdeviceprovider-stop">IUPnPDeviceProvider::Stop</a>
  
 
  

@@ -61,13 +61,13 @@ The
 ### -param RtmRegHandle [in]
 
 Handle to the client obtained from a previous call to 
-<a href="https://msdn.microsoft.com/2b952ea2-cf33-49e3-ae31-a14b0907a1b5">RtmRegisterEntity</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
 
 
 ### -param NotifyHandle [in]
 
 Handle to a change notification obtained from a previous call to 
-<a href="https://msdn.microsoft.com/b6e04984-ac92-44a2-a18c-018c6b1b49a9">RtmRegisterForChangeNotification</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterforchangenotification">RtmRegisterForChangeNotification</a>.
 
 
 ### -param NumDests [in, out]
@@ -83,7 +83,7 @@ On output, <i>NumDests</i> receives the actual number of destinations received b
 ### -param ChangedDests [out]
 
 On input, <i>ChangedDests</i> is a pointer to an array of 
-<a href="https://msdn.microsoft.com/6712ed2f-c5b4-416b-b345-a3d0c5d26820">RTM_DEST_INFO</a> structures. 
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_dest_info">RTM_DEST_INFO</a> structures. 
 
 
 
@@ -141,17 +141,17 @@ No more changed destinations to retrieve.
 
 
 A client is notified of changes by an 
-<a href="https://msdn.microsoft.com/57179cea-d92b-4199-bb61-b34d980532cf">RTM_EVENT_CALLBACK</a>. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nc-rtmv2-_event_callback">RTM_EVENT_CALLBACK</a>. The 
 <b>RTM_EVENT_CALLBACK</b> is only used to notify the client, not deliver the changes. After a change notification is received, the client must call 
 <b>RtmGetChangedDests</b> repeatedly to retrieve all the changes.
 
 If two or more changes to the same destination have occurred since the notification, only the latest change is returned.
 
 When a client no longer needs the handles in <i>ChangedDests</i>, the client must use 
-<a href="https://msdn.microsoft.com/542cb23f-81c2-4b29-b049-ebb5827b1d62">RtmReleaseChangedDests</a> to release the handles.
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleasechangeddests">RtmReleaseChangedDests</a> to release the handles.
 
 For sample code using this function, see 
-<a href="https://msdn.microsoft.com/e079c585-6457-4c2c-82bd-e95d233c4aa6">Use the Event Notification Callback</a>.
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/use-the-event-notification-callback">Use the Event Notification Callback</a>.
 
 
 
@@ -161,31 +161,31 @@ For sample code using this function, see
 
 
 
-<a href="https://msdn.microsoft.com/6712ed2f-c5b4-416b-b345-a3d0c5d26820">RTM_DEST_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_dest_info">RTM_DEST_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/57179cea-d92b-4199-bb61-b34d980532cf">RTM_EVENT_CALLBACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nc-rtmv2-_event_callback">RTM_EVENT_CALLBACK</a>
 
 
 
-<a href="https://msdn.microsoft.com/fafe465a-6c89-45b0-83a9-f08d1d9546c6">RtmGetChangeStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetchangestatus">RtmGetChangeStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e0b4311-deba-45d6-b1c2-a1b661f25d0f">RtmIgnoreChangedDests</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmignorechangeddests">RtmIgnoreChangedDests</a>
 
 
 
-<a href="https://msdn.microsoft.com/bde390fe-3ada-48d3-b9aa-b4bb56228eac">RtmIsMarkedForChangeNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmismarkedforchangenotification">RtmIsMarkedForChangeNotification</a>
 
 
 
-<a href="https://msdn.microsoft.com/b7db8664-2775-4f96-8e5b-5062a8abcfe0">RtmMarkDestForChangeNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmmarkdestforchangenotification">RtmMarkDestForChangeNotification</a>
 
 
 
-<a href="https://msdn.microsoft.com/542cb23f-81c2-4b29-b049-ebb5827b1d62">RtmReleaseChangedDests</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleasechangeddests">RtmReleaseChangedDests</a>
  
 
  

@@ -123,7 +123,7 @@ By passing the value "ChildList" in the <i>bstrType</i> parameter, you can retri
 
 When using ChildList, pass the value "ChildList" in the <i>bstrType</i> parameter, and the value 0 in the <i>lAttributeIndex</i> parameter. You can call <b>QueryInterface</b> on the <b>VARIANT</b> that is returned to obtain an <b>IWMPStringCollection2</b> interface, from which you can access the child list.
 
-To use this method, you must have read access to the library. For more information, see <a href="https://msdn.microsoft.com/9f722531-a551-4ca9-be5f-01a291a180b0">Library Access</a>.
+To use this method, you must have read access to the library. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMP/library-access">Library Access</a>.
 
 <b>Windows Media Player 10 Mobile: </b>This method is not supported.
 
@@ -135,23 +135,23 @@ To use this method, you must have read access to the library. For more informati
 
 
 
-<a href="https://msdn.microsoft.com/0412d91a-11a7-434c-8717-a71d85655679">AlbumID Attribute</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/albumid-attribute">AlbumID Attribute</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563384(v=VS.85).aspx">IWMPLibraryServices Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmplibraryservices">IWMPLibraryServices Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563410(v=VS.85).aspx">IWMPMediaCollection2::getStringCollectionByQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection2-getstringcollectionbyquery">IWMPMediaCollection2::getStringCollectionByQuery</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563687(v=VS.85).aspx">IWMPStringCollection2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpstringcollection2">IWMPStringCollection2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563689(v=VS.85).aspx">IWMPStringCollection2::getItemInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpstringcollection2-getiteminfo">IWMPStringCollection2::getItemInfo</a>
  
 
  

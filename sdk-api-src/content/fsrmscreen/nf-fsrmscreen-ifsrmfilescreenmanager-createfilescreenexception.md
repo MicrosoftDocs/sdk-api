@@ -65,7 +65,7 @@ The local directory path to which the file screen exception applies. The path is
 
 ### -param fileScreenException [out]
 
-An <a href="https://msdn.microsoft.com/188e76dd-6df6-412f-8d51-fc727075de80">IFsrmFileScreenException</a> interface of the newly created file screen exception. To add the exception to FSRM, call <a href="https://msdn.microsoft.com/81c9b1db-7756-47b2-98e6-8e819d93cd0f">IFsrmFileScreenException::Commit</a> method.
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreenexception">IFsrmFileScreenException</a> interface of the newly created file screen exception. To add the exception to FSRM, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmobject-commit">IFsrmFileScreenException::Commit</a> method.
 
 
 ## -returns
@@ -86,7 +86,7 @@ You can use the exception to allow files to be saved in a directory when a file 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/a046f092-5b6d-452d-826b-fd4b83c774fb">Defining a File Screen Exception</a>.
+For an example, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/defining-a-file-screen-exception">Defining a File Screen Exception</a>.
 
 <div class="code"></div>
 
@@ -97,11 +97,11 @@ For an example, see <a href="https://msdn.microsoft.com/a046f092-5b6d-452d-826b-
 
 
 
-<a href="https://msdn.microsoft.com/82ff65fa-2e82-4f07-bdd4-e3b01d184c16">FsrmFileScreenManager</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmfilescreenmanager">FsrmFileScreenManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0cea95d-5839-41a2-91b9-da8e13030682">IFsrmFileScreenManager</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreenmanager">IFsrmFileScreenManager</a>
  
 
  

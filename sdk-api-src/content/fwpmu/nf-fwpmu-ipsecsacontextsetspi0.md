@@ -61,19 +61,19 @@ The <b>IPsecSaContextSetSpi0</b> function sets the security parameters index (SP
 
 Type: <b>HANDLE</b>
 
-Handle for an open session to the filter engine. Call <a href="https://msdn.microsoft.com/5165f219-f3e0-4e84-915b-75912aab02b7">FwpmEngineOpen0</a> to open a session to the filter engine.
+Handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
 
 ### -param id [in]
 
 Type: <b>UINT64</b>
 
-A runtime identifier for the SA context. This identifier was received from the system when the application called <a href="https://msdn.microsoft.com/b0eab185-fae2-4133-b3f2-22d609cb94d1">IPsecSaContextCreate1</a>.
+A runtime identifier for the SA context. This identifier was received from the system when the application called <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ipsecsacontextcreate1">IPsecSaContextCreate1</a>.
 
 
 ### -param getSpi [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/671a8dd2-b4f6-4bdd-a6f1-1bf4260c6cbe">IPSEC_GETSPI1</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_getspi1_">IPSEC_GETSPI1</a>*</b>
 
 The inbound IPsec traffic.
 
@@ -116,7 +116,7 @@ The SPI for the IPsec SA context was set successfully.
 </dl>
 </td>
 <td width="60%">
-A Windows Filtering Platform (WFP) specific error. See <a href="https://msdn.microsoft.com/11f3085a-f044-4a78-b47a-59b9086562bf">WFP Error Codes</a> for details.
+A Windows Filtering Platform (WFP) specific error. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
 
 </td>
 </tr>
@@ -142,9 +142,9 @@ Failure to communicate with the remote or local firewall engine.
 
 
 
-The caller needs <a href="https://msdn.microsoft.com/77f0a1ac-3e99-4cba-a7c6-b8747f35cd0c">FWPM_ACTRL_ADD</a> access to the IPsec security associations database. See <a href="https://msdn.microsoft.com/936ad5f0-d5cd-47ed-b9e5-a7d82a4da603">Access Control</a> for more information.
+The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-right-identifiers">FWPM_ACTRL_ADD</a> access to the IPsec security associations database. See <a href="https://docs.microsoft.com/windows/desktop/FWP/access-control">Access Control</a> for more information.
 
-<b>IPsecSaContextSetSpi0</b> is a specific implementation of IPsecSaContextSetSpi. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>IPsecSaContextSetSpi0</b> is a specific implementation of IPsecSaContextSetSpi. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -154,11 +154,11 @@ The caller needs <a href="https://msdn.microsoft.com/77f0a1ac-3e99-4cba-a7c6-b87
 
 
 
-<a href="https://msdn.microsoft.com/671a8dd2-b4f6-4bdd-a6f1-1bf4260c6cbe">IPSEC_GETSPI1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_getspi1_">IPSEC_GETSPI1</a>
 
 
 
-<a href="https://msdn.microsoft.com/b0eab185-fae2-4133-b3f2-22d609cb94d1">IPsecSaContextCreate1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ipsecsacontextcreate1">IPsecSaContextCreate1</a>
  
 
  

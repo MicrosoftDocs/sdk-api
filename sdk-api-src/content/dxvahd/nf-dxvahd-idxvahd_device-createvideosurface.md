@@ -69,12 +69,12 @@ The height of each surface, in pixels.
 
 ### -param Format [in]
 
-The pixel format, specified as a <b>D3DFORMAT</b> value or FOURCC code. For more information, see <a href="https://msdn.microsoft.com/bea4835d-fd7f-4ac3-8466-7f4e0d799a12">Video FOURCCs</a>.
+The pixel format, specified as a <b>D3DFORMAT</b> value or FOURCC code. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/video-fourccs">Video FOURCCs</a>.
 
 
 ### -param Pool [in]
 
-The memory pool in which the surface is  created. This parameter must equal the <b>InputPool</b> member of the <a href="https://msdn.microsoft.com/340669d4-2a84-4030-83c3-a61469fdfd61">DXVAHD_VPDEVCAPS</a> structure. Call the <a href="https://msdn.microsoft.com/93acad97-feee-46a5-95bf-51e560f91057">IDXVAHD_Device::GetVideoProcessorDeviceCaps</a> method to get this value.
+The memory pool in which the surface is  created. This parameter must equal the <b>InputPool</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_vpdevcaps">DXVAHD_VPDEVCAPS</a> structure. Call the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessordevicecaps">IDXVAHD_Device::GetVideoProcessorDeviceCaps</a> method to get this value.
 
 
 ### -param Usage [in]
@@ -84,7 +84,7 @@ Reserved. Set to 0.
 
 ### -param Type [in]
 
-The type of surface to create, specified as a member of the <a href="https://msdn.microsoft.com/06df2d2f-9163-4672-8ea4-57f1942320c5">DXVAHD_SURFACE_TYPE</a> enumeration.
+The type of surface to create, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-_dxvahd_surface_type">DXVAHD_SURFACE_TYPE</a> enumeration.
 
 
 ### -param NumSurfaces [in]
@@ -116,11 +116,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/38ebec28-c4fc-4e72-ac87-1e41707d1908">DXVA-HD</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f79ac9c-2aed-4e1c-bf6f-02f9c54d59cd">IDXVAHD_Device</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nn-dxvahd-idxvahd_device">IDXVAHD_Device</a>
  
 
  

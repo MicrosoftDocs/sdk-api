@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Stores the dimensions of the two possible sizes of icon spacing that are available for display: small and large. Used by <a href="https://msdn.microsoft.com/92450bc7-26e5-4061-90f7-eea0f0a4db09">IShellFolderView::GetItemSpacing</a>.
+Stores the dimensions of the two possible sizes of icon spacing that are available for display: small and large. Used by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-getitemspacing">IShellFolderView::GetItemSpacing</a>.
 
 
 ## -struct-fields

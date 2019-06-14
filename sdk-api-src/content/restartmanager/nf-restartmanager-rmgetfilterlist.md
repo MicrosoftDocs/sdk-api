@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Lists the modifications to shutdown and restart actions that have already been applied by the <a href="https://msdn.microsoft.com/63d1d1d2-d7b7-4d6c-99f9-b849229e171f">RmAddFilter</a> function. The function returns a pointer to a buffer containing information about the modifications which have been applied.
+Lists the modifications to shutdown and restart actions that have already been applied by the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmaddfilter">RmAddFilter</a> function. The function returns a pointer to a buffer containing information about the modifications which have been applied.
 
 
 ## -parameters
@@ -81,7 +81,7 @@ The number of bytes needed in the buffer.
 
 
 
-This is the most recent error received. The function can return one of the <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a> that are defined in Winerror.h.
+This is the most recent error received. The function can return one of the <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a> that are defined in Winerror.h.
 
 <table>
 <tr>
@@ -120,7 +120,7 @@ One or more arguments are not correct. This error value is returned by the Resta
 </dl>
 </td>
 <td width="60%">
-This error value is returned by the <a href="https://msdn.microsoft.com/61427838-8b23-4105-93fd-55f457fd43a7">RmGetFilterList</a> function if the <i>pbFilterBuf</i> buffer is too small to hold all the application information in the list or if <i>cbFilterBufNeeded</i> was not specified.
+This error value is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmgetfilterlist">RmGetFilterList</a> function if the <i>pbFilterBuf</i> buffer is too small to hold all the application information in the list or if <i>cbFilterBufNeeded</i> was not specified.
 
 </td>
 </tr>
@@ -156,7 +156,7 @@ The returned <i>pbFilterBuf</i> buffer has to be typecast to <b>RM_FILTER_INFO</
 
 
 
-<a href="https://msdn.microsoft.com/63d1d1d2-d7b7-4d6c-99f9-b849229e171f">RmAddFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmaddfilter">RmAddFilter</a>
  
 
  

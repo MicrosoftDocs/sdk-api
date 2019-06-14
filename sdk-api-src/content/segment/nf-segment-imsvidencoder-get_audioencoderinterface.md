@@ -59,7 +59,7 @@ The <b>get_AudioEncoderInterface</b> method retrieves a pointer to the audio enc
 
 ### -param ppEncInt [out]
 
-Pointer to a variable that receives an <b>IUnknown</b> interface pointer. The caller can query this interface for the <a href="https://msdn.microsoft.com/en-us/library/Dd693975(v=VS.85).aspx">IEncoderAPI</a> interface.
+Pointer to a variable that receives an <b>IUnknown</b> interface pointer. The caller can query this interface for the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iencoderapi">IEncoderAPI</a> interface.
 
 
 ## -returns
@@ -85,7 +85,7 @@ If the method succeeds, the caller must release the <b>IUnknown</b> interface.
 
 
 
-<a href="https://msdn.microsoft.com/37d03dff-ae40-4e7f-a66f-facd0c1f6eee">IMSVidEncoder Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidencoder">IMSVidEncoder Interface</a>
  
 
  

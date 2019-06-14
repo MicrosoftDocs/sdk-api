@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a> object and initializes the members to zero. This is the default constructor.
+Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a> object and initializes the members to zero. This is the default constructor.
 
 
 ## -parameters
@@ -65,11 +65,11 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).as
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534738(v=VS.85).aspx">SizeF Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-class-sizef-constructors">SizeF Constructors</a>
  
 
  

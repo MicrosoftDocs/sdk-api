@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Defines flags that control how the <a href="https://msdn.microsoft.com/3b2c01a2-d52c-4497-8fc9-d1113e8507e8">DVD Navigator Filter</a> filter handles command synchronization.
+Defines flags that control how the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator Filter</a> filter handles command synchronization.
 
 
 
@@ -72,7 +72,7 @@ The DVD Navigator will flush all of its buffered video data before issuing the c
 
 ### -field DVD_CMD_FLAG_SendEvents
 
-The DVD Navigator will send an <a href="https://msdn.microsoft.com/230116b4-23f1-4c37-a781-da2c5aa20a1f">EC_DVD_CMD_START</a> event when the command begins, and an <a href="https://msdn.microsoft.com/f460db8e-b966-41fa-bfa1-4ad3fa65c3e3">EC_DVD_CMD_END</a> event when the command ends. The event parameters contain the status code of the operation.
+The DVD Navigator will send an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-cmd-start">EC_DVD_CMD_START</a> event when the command begins, and an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-cmd-end">EC_DVD_CMD_END</a> event when the command ends. The event parameters contain the status code of the operation.
 
 
 ### -field DVD_CMD_FLAG_Block
@@ -91,19 +91,19 @@ The DVD Navigator will block until the specified action is actually rendered. Th
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/fdf9642b-ac90-4ffc-a813-4a5b22a973dd">IDvdControl2::PlayChaptersAutoStop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-playchaptersautostop">IDvdControl2::PlayChaptersAutoStop</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/6c0d647c-a0c3-428e-8368-9204049dfea8">IDvdControl2::PlayPeriodInTitleAutoStop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-playperiodintitleautostop">IDvdControl2::PlayPeriodInTitleAutoStop</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/0553a0c4-34d3-4774-9a22-acc01c0a832a">IDvdControl2::SelectSubpictureStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-selectsubpicturestream">IDvdControl2::SelectSubpictureStream</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/2e654bc1-293b-436b-bc33-8a8f269e9aee">IDvdControl2::SetSubpictureState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-setsubpicturestate">IDvdControl2::SetSubpictureState</a>
 </li>
 </ul>
-For example, when used with <a href="https://msdn.microsoft.com/fdf9642b-ac90-4ffc-a813-4a5b22a973dd">PlayChaptersAutoStop</a>, this flag causes the DVD Navigator to block until the specified chapters have all played. When used with <a href="https://msdn.microsoft.com/0553a0c4-34d3-4774-9a22-acc01c0a832a">SelectSubpictureStream</a>, the flag causes the DVD Navigator to block until the new subpicture is rendered.
+For example, when used with <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-playchaptersautostop">PlayChaptersAutoStop</a>, this flag causes the DVD Navigator to block until the specified chapters have all played. When used with <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-selectsubpicturestream">SelectSubpictureStream</a>, the flag causes the DVD Navigator to block until the new subpicture is rendered.
 
 
 ## -see-also
@@ -111,11 +111,11 @@ For example, when used with <a href="https://msdn.microsoft.com/fdf9642b-ac90-4f
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/37e8f940-617d-43f6-92bd-aadccafe0059">Synchronizing DVD Commands</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/synchronizing-dvd-commands">Synchronizing DVD Commands</a>
  
 
  

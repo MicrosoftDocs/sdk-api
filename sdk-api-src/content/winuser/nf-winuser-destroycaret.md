@@ -70,7 +70,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -83,7 +83,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 The system provides one caret per queue. A window should create a caret only when it has the keyboard focus or is active. The window should destroy the caret before losing the keyboard focus or becoming inactive. 
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648398(v=VS.85).aspx">Destroying a Caret</a>
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-carets">Destroying a Caret</a>
 
 
 
@@ -93,7 +93,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648398(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646968(v=VS.85).aspx">Carets</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/carets">Carets</a>
 
 
 
@@ -101,11 +101,11 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648398(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648399(v=VS.85).aspx">CreateCaret</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createcaret">CreateCaret</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648403(v=VS.85).aspx">HideCaret</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-hidecaret">HideCaret</a>
 
 
 
@@ -113,7 +113,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648398(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648406(v=VS.85).aspx">ShowCaret</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showcaret">ShowCaret</a>
  
 
  

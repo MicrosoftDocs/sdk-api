@@ -59,7 +59,7 @@ Returns the value of an option from the parsed packet.
 
 ### -param hHandle [in]
 
-A handle returned by the <a href="https://msdn.microsoft.com/dc6007ad-0dd5-477d-a49f-45820aa1b5f6">WdsBpParseInitialize</a> function.
+A handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wdsbp/nf-wdsbp-wdsbpparseinitialize">WdsBpParseInitialize</a> function.
 
 
 ### -param uOption [in]

@@ -76,7 +76,7 @@ If the method succeeds, it returns S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/50434617-E70E-4931-B98E-61650E9DEA7E">IAudioFormatEnumerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-iaudioformatenumerator">IAudioFormatEnumerator</a>
  
 
  

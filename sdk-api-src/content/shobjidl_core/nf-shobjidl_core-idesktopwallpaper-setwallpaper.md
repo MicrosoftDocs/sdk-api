@@ -59,7 +59,7 @@ Sets the desktop wallpaper.
 
 ### -param monitorID [in]
 
-The ID of the monitor. This value can be obtained through <a href="https://msdn.microsoft.com/CE0C6B07-F9D1-4221-9D9D-8D17CF6780E6">GetMonitorDevicePathAt</a>. Set this value to NULL to set the wallpaper image on all monitors.
+The ID of the monitor. This value can be obtained through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getmonitordevicepathat">GetMonitorDevicePathAt</a>. Set this value to NULL to set the wallpaper image on all monitors.
 
 
 ### -param wallpaper [in]
@@ -81,11 +81,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/A83903B5-314B-4a8b-8D37-F8A8995DE0CB">IDesktopWallpaper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idesktopwallpaper">IDesktopWallpaper</a>
 
 
 
-<a href="https://msdn.microsoft.com/A5AC5EB3-2091-4547-8B6A-C60C4E90DFBC">IDesktopWallpaper::GetWallpaper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getwallpaper">IDesktopWallpaper::GetWallpaper</a>
  
 
  

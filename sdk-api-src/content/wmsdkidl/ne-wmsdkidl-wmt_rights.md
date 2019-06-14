@@ -64,7 +64,7 @@ Specifies the right to play content without restriction.
 
 ### -field WMT_RIGHT_COPY_TO_NON_SDMI_DEVICE
 
-Specifies the right to copy content to a device not compliant with the <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">Secure Digital Music Initiative (SDMI)</a>.
+Specifies the right to copy content to a device not compliant with the <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">Secure Digital Music Initiative (SDMI)</a>.
 
 
 ### -field WMT_RIGHT_COPY_TO_CD
@@ -123,11 +123,11 @@ When using Windows Media DRM 10, <b>WMT_RIGHT_COPY_TO_NON_SDMI_DEVICE</b>, <b>WM
 
 
 
-<a href="https://msdn.microsoft.com/cd28f608-25ba-44a7-868b-b1cd4dfcfa45">Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/a25fef3b-8d0c-42de-8008-245f9560da44">WAVEFORMATEX</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd757720(v=vs.85)">WAVEFORMATEX</a>
  
 
  

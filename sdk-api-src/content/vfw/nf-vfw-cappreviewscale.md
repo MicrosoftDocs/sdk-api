@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>capPreviewScale</b> macro enables or disables scaling of the preview video images. If scaling is enabled, the captured video frame is stretched to the dimensions of the capture window. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/f15f1d18-2c5a-40c1-baa1-0d18549bee23">WM_CAP_SET_SCALE</a> message.
+The <b>capPreviewScale</b> macro enables or disables scaling of the preview video images. If scaling is enabled, the captured video frame is stretched to the dimensions of the capture window. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-scale">WM_CAP_SET_SCALE</a> message.
 
 
 
@@ -86,11 +86,11 @@ Scaling has no effect when using overlay to display video in the frame buffer.
 
 
 
-<a href="https://msdn.microsoft.com/c93ecc51-e2c5-4b69-8625-c8385d53fab2">Video Capture</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://msdn.microsoft.com/21061f06-d58b-4800-a9f5-9821494fabd6">Video Capture Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
  
 
  

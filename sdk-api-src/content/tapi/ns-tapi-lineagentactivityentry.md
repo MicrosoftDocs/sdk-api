@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>LINEAGENTACTIVITYENTRY</b> structure describes a single ACD agent activity. The 
-<a href="https://msdn.microsoft.com/61e46717-8a14-440f-bb61-991c3dadd778">LINEAGENTACTIVITYLIST</a> structure can contain an array of 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentactivitylist_tag">LINEAGENTACTIVITYLIST</a> structure can contain an array of 
 <b>LINEAGENTACTIVITYENTRY</b> structures.
 
 
@@ -73,7 +73,7 @@ Size of the activity name including the <b>null</b> terminator, in bytes.
 ### -field dwNameOffset
 
 Offset from the beginning of this structure to a <b>null</b>-terminated string specifying the name and other identifying information of an activity that can be selected by calling the 
-<a href="https://msdn.microsoft.com/2c46e1cb-e2d7-4cb5-b937-55011058fd15">lineSetAgentActivity</a> function. The size of the string is specified by <b>dwNameSize</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetagentactivity">lineSetAgentActivity</a> function. The size of the string is specified by <b>dwNameSize</b>.
 
 
 ## -see-also
@@ -81,19 +81,19 @@ Offset from the beginning of this structure to a <b>null</b>-terminated string s
 
 
 
-<a href="https://msdn.microsoft.com/61e46717-8a14-440f-bb61-991c3dadd778">LINEAGENTACTIVITYLIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentactivitylist_tag">LINEAGENTACTIVITYLIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/52c9b96e-4c59-46bf-ad37-78bcfc5e8dc3">LINEPROXYREQUEST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproxyrequest_tag">LINEPROXYREQUEST</a>
 
 
 
-<a href="https://msdn.microsoft.com/8f0be375-2891-45bd-a2cb-246ea5c4b9bb">lineGetAgentActivityList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetagentactivitylista">lineGetAgentActivityList</a>
 
 
 
-<a href="https://msdn.microsoft.com/2c46e1cb-e2d7-4cb5-b937-55011058fd15">lineSetAgentActivity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetagentactivity">lineSetAgentActivity</a>
  
 
  

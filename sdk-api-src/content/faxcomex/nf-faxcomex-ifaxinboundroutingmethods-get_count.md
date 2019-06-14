@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IFaxInboundRoutingMethods::get_Count</b> property represents the number of objects in the <a href="https://msdn.microsoft.com/en-us/library/ms686682(v=VS.85).aspx">IFaxInboundRoutingMethods</a> collection. This is the total number of inbound routing methods associated with the fax server.
+The <b>IFaxInboundRoutingMethods::get_Count</b> property represents the number of objects in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxinboundroutingmethods">IFaxInboundRoutingMethods</a> collection. This is the total number of inbound routing methods associated with the fax server.
 
 This property is read-only.
 
@@ -63,15 +63,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686674(v=VS.85).aspx">FaxInboundRoutingMethods</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingmethods">FaxInboundRoutingMethods</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686682(v=VS.85).aspx">IFaxInboundRoutingMethods</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxinboundroutingmethods">IFaxInboundRoutingMethods</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693492(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-managing-routing-extensions-and-routing-methods">Visual Basic Example</a>
  
 
  

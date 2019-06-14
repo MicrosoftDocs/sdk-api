@@ -97,7 +97,7 @@ No quarantine.
 
 
 
-The <b>QuarantineStatus</b> enumeration is used in the <a href="https://msdn.microsoft.com/71b36ce1-e3de-4904-bbf2-8d305bae06b0">DHCP_CLIENT_FILTER_STATUS_INFO</a>, <a href="https://msdn.microsoft.com/f7bd832d-b4a4-404c-8959-e9653b62d434">DHCP_CLIENT_INFO_VQ</a>, <a href="https://msdn.microsoft.com/3ee224fb-650f-4468-848b-960424202ac3">DHCP_CLIENT_INFO_PB</a>, and <a href="https://msdn.microsoft.com/46e4fb62-5b8e-44f8-b3a0-92535ca690f0">DHCPV4_FAILOVER_CLIENT_INFO</a> structures.
+The <b>QuarantineStatus</b> enumeration is used in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_filter_status_info">DHCP_CLIENT_FILTER_STATUS_INFO</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info_vq">DHCP_CLIENT_INFO_VQ</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info_pb">DHCP_CLIENT_INFO_PB</a>, and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcpv4_failover_client_info">DHCPV4_FAILOVER_CLIENT_INFO</a> structures.
 
 
 
@@ -107,19 +107,19 @@ The <b>QuarantineStatus</b> enumeration is used in the <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/46e4fb62-5b8e-44f8-b3a0-92535ca690f0">DHCPV4_FAILOVER_CLIENT_INFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcpv4_failover_client_info">DHCPV4_FAILOVER_CLIENT_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/71b36ce1-e3de-4904-bbf2-8d305bae06b0">DHCP_CLIENT_FILTER_STATUS_INFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_filter_status_info">DHCP_CLIENT_FILTER_STATUS_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/3ee224fb-650f-4468-848b-960424202ac3">DHCP_CLIENT_INFO_PB</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info_pb">DHCP_CLIENT_INFO_PB</a>
 
 
 
-<a href="https://msdn.microsoft.com/f7bd832d-b4a4-404c-8959-e9653b62d434">DHCP_CLIENT_INFO_VQ</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info_vq">DHCP_CLIENT_INFO_VQ</a>
  
 
  

@@ -370,7 +370,7 @@ Value: 0xC0AA0402
 
 
 
-<a href="https://msdn.microsoft.com/da226f8f-7ae9-4013-a0d4-c76a7b5dae64">IMultisessionSequential2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisessionsequential2">IMultisessionSequential2</a>
  
 
  

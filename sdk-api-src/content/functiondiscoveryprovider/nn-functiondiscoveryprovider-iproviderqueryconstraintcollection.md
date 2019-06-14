@@ -51,13 +51,13 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-This interface is  accessible to the provider through the <a href="https://msdn.microsoft.com/a8329732-79dd-4606-96c3-40534cde5fc4">IFunctionDiscoveryProviderQuery::GetQueryConstraints</a> method.
+This interface is  accessible to the provider through the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-ifunctiondiscoveryproviderquery-getqueryconstraints">IFunctionDiscoveryProviderQuery::GetQueryConstraints</a> method.
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProviderQueryConstraintCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IProviderQueryConstraintCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProviderQueryConstraintCollection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProviderQueryConstraintCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IProviderQueryConstraintCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/30b66ed6-ef02-4a47-baa0-dc48b6d84187">Get</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-iproviderqueryconstraintcollection-get">Get</a>
 </td>
 <td align="left" width="63%">
 Gets the value of the specified query constraint, by name.
@@ -81,7 +81,7 @@ Gets the value of the specified query constraint, by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/401e1723-751a-490b-bcb6-d1e0f2f73dfb">GetCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-iproviderqueryconstraintcollection-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of items in the collection.
@@ -90,7 +90,7 @@ Gets the number of items in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/db8840db-365a-485d-9097-ef98a9d875bc">Item</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-iproviderqueryconstraintcollection-item">Item</a>
 </td>
 <td align="left" width="63%">
 Gets the name and value of the specified query constraint, by index.
@@ -99,7 +99,7 @@ Gets the name and value of the specified query constraint, by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5dd03e98-5367-4434-aa68-be36cb7aaf24">Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-iproviderqueryconstraintcollection-next">Next</a>
 </td>
 <td align="left" width="63%">
 Gets the name and value of the next query  constraint in the collection.
@@ -108,7 +108,7 @@ Gets the name and value of the next query  constraint in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/56bd143b-b3eb-4273-854b-4d6876ad5e4d">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-iproviderqueryconstraintcollection-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the current index to the start of the collection.
@@ -117,7 +117,7 @@ Resets the current index to the start of the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/18c25f6d-387e-46bf-97b6-6bcf195b15e8">Skip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-iproviderqueryconstraintcollection-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips the next item in the collection.

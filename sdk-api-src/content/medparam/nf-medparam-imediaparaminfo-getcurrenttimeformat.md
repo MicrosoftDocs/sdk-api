@@ -114,7 +114,7 @@ Success.
 
 
 
-The meaning of the value returned in the <i>pTimeData</i> parameter depends on the time format GUID. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd406976(v=VS.85).aspx">IMediaParams::SetTimeFormat</a>.
+The meaning of the value returned in the <i>pTimeData</i> parameter depends on the time format GUID. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/medparam/nf-medparam-imediaparams-settimeformat">IMediaParams::SetTimeFormat</a>.
 
 
 
@@ -124,7 +124,7 @@ The meaning of the value returned in the <i>pTimeData</i> parameter depends on t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406964(v=VS.85).aspx">IMediaParamInfo Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/medparam/nn-medparam-imediaparaminfo">IMediaParamInfo Interface</a>
  
 
  

@@ -81,7 +81,7 @@ The value is supported on Windows 7, Windows Server 2008 R2, and later.
 
 ### -field TraceSystemTraceEnableFlagsInfo
 
-Query the setting for the <b>EnableFlags</b> for the system trace provider. For more information, see the <a href="https://msdn.microsoft.com/0c967971-8df1-4679-a8a9-a783f5b35860">EVENT_TRACE_PROPERTIES</a> structure. 
+Query the setting for the <b>EnableFlags</b> for the system trace provider. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure. 
 
 The value is supported on Windows 8, Windows Server 2012, and later. 
 
@@ -123,7 +123,7 @@ The value is supported on Windows 8, Windows Server 2012, and later.
 
 ### -field TraceSetDisallowList
 
-Set the list of providers that are disabled for a provider group enable on this session. For more information, see <a href="https://msdn.microsoft.com/97755D64-BF57-4C0D-8ED4-040FC375C4AF">Provider Traits</a>
+Set the list of providers that are disabled for a provider group enable on this session. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ETW/provider-traits">Provider Traits</a>
 
 
 The value is supported on Windows 10. 
@@ -181,7 +181,7 @@ The value is supported on Windows 10, version 1709 and later.
 
 ### -field TraceMaxLoggersQuery
 
-Queries the currently-configured maximum number of system loggers allowed by the operating system.  Returns a ULONG.  Used with <a href="https://msdn.microsoft.com/9d70fe21-1750-4d60-a825-2004f7d666c7">EnumerateTraceGuidsEx</a>.
+Queries the currently-configured maximum number of system loggers allowed by the operating system.  Returns a ULONG.  Used with <a href="https://docs.microsoft.com/windows/desktop/ETW/enumeratetraceguidsex">EnumerateTraceGuidsEx</a>.
 
 The value is supported on Windows 10, version 1709 and later.
 
@@ -195,7 +195,7 @@ Marks the last value in the enumeration. Do not use.
 
 
 
-The <b>TRACE_INFO_CLASS</b> and <b>TRACE_QUERY_INFO_CLASS</b> enumerations both define the same values. Use both enumerations with the <a href="https://msdn.microsoft.com/9d70fe21-1750-4d60-a825-2004f7d666c7">EnumerateTraceGuidsEx</a> function or the <a href="https://msdn.microsoft.com/f4cdbe32-6885-4844-add5-560961c3dd1d">TraceSetInformation</a> function. 
+The <b>TRACE_INFO_CLASS</b> and <b>TRACE_QUERY_INFO_CLASS</b> enumerations both define the same values. Use both enumerations with the <a href="https://docs.microsoft.com/windows/desktop/ETW/enumeratetraceguidsex">EnumerateTraceGuidsEx</a> function or the <a href="https://docs.microsoft.com/windows/desktop/ETW/tracesetinformation">TraceSetInformation</a> function. 
 
 
 
@@ -205,11 +205,11 @@ The <b>TRACE_INFO_CLASS</b> and <b>TRACE_QUERY_INFO_CLASS</b> enumerations both 
 
 
 
-<a href="https://msdn.microsoft.com/9d70fe21-1750-4d60-a825-2004f7d666c7">EnumerateTraceGuidsEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/enumeratetraceguidsex">EnumerateTraceGuidsEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/f4cdbe32-6885-4844-add5-560961c3dd1d">TraceSetInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/tracesetinformation">TraceSetInformation</a>
  
 
  

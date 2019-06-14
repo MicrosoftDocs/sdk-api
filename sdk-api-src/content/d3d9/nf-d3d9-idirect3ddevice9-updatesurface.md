@@ -60,9 +60,9 @@ Copies rectangular subsets of pixels from one surface to another.
 
 ### -param pSourceSurface [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a> interface, representing the source surface. This parameter must point to a different surface than pDestinationSurface. 
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a> interface, representing the source surface. This parameter must point to a different surface than pDestinationSurface. 
 
 
 ### -param pSourceRect [in]
@@ -74,14 +74,14 @@ Pointer to a rectangle on the source surface. Specifying <b>NULL</b> for this pa
 
 ### -param pDestinationSurface [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a> interface, representing the destination surface.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a> interface, representing the destination surface.
 
 
 ### -param pDestPoint [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">POINT</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">POINT</a>*</b>
 
 Pointer to the upper left corner of the destination rectangle. Specifying <b>NULL</b> for this parameter causes the entire surface to be copied. 
 
@@ -90,7 +90,7 @@ Pointer to the upper left corner of the destination rectangle. Specifying <b>NUL
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be one of the following: D3DERR_INVALIDCALL.
 
@@ -171,7 +171,7 @@ The following table shows the supported combinations.
 
 * If the driver does not support the requested copy, it will be emulated using lock and copy.
 
-If the application needs to copy data from a D3DPOOL_DEFAULT render target to a D3DPOOL_SYSTEMMEM surface, it can use <a href="https://msdn.microsoft.com/en-us/library/Bb174405(v=VS.85).aspx">GetRenderTargetData</a>.
+If the application needs to copy data from a D3DPOOL_DEFAULT render target to a D3DPOOL_SYSTEMMEM surface, it can use <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getrendertargetdata">GetRenderTargetData</a>.
 
 
 
@@ -181,7 +181,7 @@ If the application needs to copy data from a D3DPOOL_DEFAULT render target to a 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
  
 
  

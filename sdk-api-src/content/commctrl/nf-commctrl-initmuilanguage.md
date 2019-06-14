@@ -59,9 +59,9 @@ Enables an application to specify a language to be used with the common controls
 
 ### -param uiLang
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LANGID</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LANGID</a></b>
 
-The  <a href="https://msdn.microsoft.com/076e2a43-256a-4646-a5c8-1d48ab08ce1a">language identifier</a> of the language to be used by the common controls. 
+The  <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">language identifier</a> of the language to be used by the common controls. 
 
 
 ## -returns
@@ -77,7 +77,7 @@ None
 
 
 
-This function enables an application to override the system language setting, and specify a different language for the common controls. The selected language only applies to the process that <b>InitMUILanguage</b> is called from. See <a href="https://msdn.microsoft.com/90dbbd70-3609-4c12-bdc1-7fa222c96f67">Internationalization for Windows Applications</a> for further discussion of localization.
+This function enables an application to override the system language setting, and specify a different language for the common controls. The selected language only applies to the process that <b>InitMUILanguage</b> is called from. See <a href="https://docs.microsoft.com/windows/desktop/Intl/international-support">Internationalization for Windows Applications</a> for further discussion of localization.
 
 
 
@@ -87,7 +87,7 @@ This function enables an application to override the system language setting, an
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775676(v=VS.85).aspx">GetMUILanguage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-getmuilanguage">GetMUILanguage</a>
  
 
  

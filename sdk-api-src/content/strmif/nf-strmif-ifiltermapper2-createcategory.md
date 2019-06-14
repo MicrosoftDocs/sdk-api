@@ -69,7 +69,7 @@ Class identifier (CLSID) of the new filter category.
 ### -param dwCategoryMerit [in]
 
 
-<a href="https://msdn.microsoft.com/9e026675-e0a9-4c82-9b57-ab0e7d9592ea">Merit</a> of the category. Categories with higher merit are enumerated first.
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/merit">Merit</a> of the category. Categories with higher merit are enumerated first.
 
 
 ### -param Description [in]
@@ -102,11 +102,11 @@ A filter can appear in one or more categories (for example, Video Compressors) t
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a3db838-cee3-4a9f-a924-fb55931acc83">IFilterMapper2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltermapper2">IFilterMapper2 Interface</a>
  
 
  

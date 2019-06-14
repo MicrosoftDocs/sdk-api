@@ -162,19 +162,19 @@ On the Windows SDK released for Windows Vista and later, the organization of he
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365866(v=VS.85).aspx">CreateIpNetEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createipnetentry">CreateIpNetEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365882(v=VS.85).aspx">DeleteIpNetEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-deleteipnetentry">DeleteIpNetEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/1cac1c19-bc42-4aee-b9d0-d007b8798eeb">MIB_IPNETTABLE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipnettable">MIB_IPNETTABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa366365(v=VS.85).aspx">SetIpNetEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-setipnetentry">SetIpNetEntry</a>
  
 
  

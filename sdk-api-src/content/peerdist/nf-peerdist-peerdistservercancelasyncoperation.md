@@ -59,7 +59,7 @@ The <b>PeerDistServerCancelAsyncOperation</b> function cancels the asynchronous 
 
 ### -param hPeerDist [in]
 
-A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="https://msdn.microsoft.com/62d4f139-ab18-4d65-bda5-1cf09d7ddab9">PeerDistStartup</a>.
+A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
 
 
 ### -param cbContentIdentifier
@@ -169,11 +169,11 @@ Additionally, calling <a href="http://go.microsoft.com/fwlink/p/?linkid=131013">
 
 
 
-<a href="https://msdn.microsoft.com/51100a8f-6652-46db-820a-8d16456d4c9a">PeerDistClientCancelAsyncOperation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientcancelasyncoperation">PeerDistClientCancelAsyncOperation</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf9d4eb2-e939-42c6-8d71-669a949ca77a">PeerDistClientOpenContent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a>
  
 
  

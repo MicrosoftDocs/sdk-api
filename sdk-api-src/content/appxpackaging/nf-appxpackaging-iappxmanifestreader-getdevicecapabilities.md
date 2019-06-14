@@ -59,7 +59,7 @@ Gets an enumerator that iterates through the device capabilities defined in the 
 
 ### -param deviceCapabilities [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/6A544E15-BB92-48C3-963D-789B04464277">IAppxManifestDeviceCapabilitiesEnumerator</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestdevicecapabilitiesenumerator">IAppxManifestDeviceCapabilitiesEnumerator</a>**</b>
 
 The enumerator that iterates through the device capabilities.
 
@@ -79,11 +79,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Device capabilities are specified using the <a href="https://msdn.microsoft.com/4353c4fd-f038-4986-81ed-d2ec0c6235ef">DeviceCapability</a> element in the package manifest.
+Device capabilities are specified using the <a href="https://docs.microsoft.com/uwp/schemas/appxpackage/appxmanifestschema/element-devicecapability">DeviceCapability</a> element in the package manifest.
 
 If no package device capabilities are defined in the manifest, this method returns <b>S_OK</b> with an  empty enumerator.
 
-Call the <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a> method when you have finished using the <i>deviceCapabilities</i> object.
+Call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method when you have finished using the <i>deviceCapabilities</i> object.
 
 
 
@@ -93,7 +93,7 @@ Call the <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7
 
 
 
-<a href="https://msdn.microsoft.com/3DA45F2F-7088-4A9B-968C-91E402CAA412">IAppxManifestReader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestreader">IAppxManifestReader</a>
  
 
  

@@ -59,7 +59,7 @@ Initializes an ATL thunk.
 
 ### -param Thunk
 
-A non-null return value from <a href="https://msdn.microsoft.com/D306E6CB-72D4-4820-885E-175FC8500954">AtlThunk_AllocateData</a>.
+A non-null return value from <a href="https://docs.microsoft.com/windows/desktop/api/atlthunk/nf-atlthunk-atlthunk_allocatedata">AtlThunk_AllocateData</a>.
 
 
 ### -param Proc

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Notifies the client's connection sink whenever a user's SID has been asynchronously resolved. If 
-<a href="https://msdn.microsoft.com/d4027660-beb1-45eb-9dd3-f4c12df28051">IDiskQuotaUser::GetAccountStatus</a> returns DISKQUOTA_USER_ACCOUNT_RESOLVED, the user's account container name, logon name, and display name strings are available in the quota user object. 
+<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getaccountstatus">IDiskQuotaUser::GetAccountStatus</a> returns DISKQUOTA_USER_ACCOUNT_RESOLVED, the user's account container name, logon name, and display name strings are available in the quota user object. 
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Notifies the client's connection sink whenever a user's SID has been asynchronou
 ### -param pUser [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/27edbebc-35b4-4f6a-87cc-d8a99782f405">IDiskQuotaUser</a> interface for the quota user object. Do not  call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on this pointer. The <b>DiskQuotaControl</b> object controls the lifetime of the user object.
+<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> interface for the quota user object. Do not  call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on this pointer. The <b>DiskQuotaControl</b> object controls the lifetime of the user object.
 
 
 ## -returns
@@ -78,15 +78,15 @@ The return value is ignored.
 
 
 
-<a href="https://msdn.microsoft.com/c1f79e2e-834b-41dc-a15f-6dd1034d021b">Disk Management Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/42efbd5b-6455-4319-a76e-cdb666fc36b8">Disk Quotas</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
 
 
 
-<a href="https://msdn.microsoft.com/4b5dcb1f-8edb-4fcb-94ea-2a627667071e">IDiskQuotaEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotaevents">IDiskQuotaEvents</a>
  
 
  

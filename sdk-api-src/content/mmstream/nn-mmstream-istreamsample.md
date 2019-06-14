@@ -56,7 +56,7 @@ The <code>IStreamSample</code> interface provides control over the behavior of s
 
 Implement this interface when you implement a media stream for a new media type. The interface is exposed on sample objects created by media streams.
 
-Use this interface when you want to control data samples created by <a href="https://msdn.microsoft.com/en-us/library/Dd407041(v=VS.85).aspx">IMediaStream</a> or its derived interfaces.
+Use this interface when you want to control data samples created by <a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream</a> or its derived interfaces.
 
 In addition to the methods inherited from <b>IUnknown</b>, the <code>IStreamSample</code> interface exposes the following methods.
 
@@ -65,7 +65,7 @@ In addition to the methods inherited from <b>IUnknown</b>, the <code>IStreamSamp
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamSample</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IStreamSample</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamSample</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStreamSample</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -80,7 +80,7 @@ The <b>IStreamSample</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377144(v=VS.85).aspx">CompletionStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nf-mmstream-istreamsample-completionstatus">CompletionStatus</a>
 </td>
 <td align="left" width="63%">
 Retrieves the status of the current sample's latest asynchronous update. If the update isn't complete, you can force it to complete.
@@ -89,7 +89,7 @@ Retrieves the status of the current sample's latest asynchronous update. If the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377145(v=VS.85).aspx">GetMediaStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nf-mmstream-istreamsample-getmediastream">GetMediaStream</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the media stream object that created the current sample.
@@ -98,7 +98,7 @@ Retrieves a pointer to the media stream object that created the current sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377146(v=VS.85).aspx">GetSampleTimes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nf-mmstream-istreamsample-getsampletimes">GetSampleTimes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current sample's start and end times.
@@ -107,7 +107,7 @@ Retrieves the current sample's start and end times.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377147(v=VS.85).aspx">SetSampleTimes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nf-mmstream-istreamsample-setsampletimes">SetSampleTimes</a>
 </td>
 <td align="left" width="63%">
 Sets the current sample's start and end times.
@@ -116,7 +116,7 @@ Sets the current sample's start and end times.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377148(v=VS.85).aspx">Update</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nf-mmstream-istreamsample-update">Update</a>
 </td>
 <td align="left" width="63%">
 Performs a synchronous or an asynchronous update on the current sample.

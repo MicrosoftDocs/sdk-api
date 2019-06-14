@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The MFCARD_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes resource usage by <i>one</i> of the hardware functions provided by an instance of a multifunction device. For more information about resource lists and resource requirements lists, see <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">Hardware Resources</a>.
+The MFCARD_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes resource usage by <i>one</i> of the hardware functions provided by an instance of a multifunction device. For more information about resource lists and resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ The MFCARD_RESOURCE structure is used for specifying either a resource list or a
 
 ### -field MfCard_Header
 
-A <a href="https://msdn.microsoft.com/75a6857c-d5b7-4bb6-8035-e6317d4ea146">MFCARD_DES</a> structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mfcard_des_s">MFCARD_DES</a> structure.
 
 
 ## -see-also
@@ -67,7 +67,7 @@ A <a href="https://msdn.microsoft.com/75a6857c-d5b7-4bb6-8035-e6317d4ea146">MFCA
 
 
 
-<a href="https://msdn.microsoft.com/75a6857c-d5b7-4bb6-8035-e6317d4ea146">MFCARD_DES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mfcard_des_s">MFCARD_DES</a>
  
 
  

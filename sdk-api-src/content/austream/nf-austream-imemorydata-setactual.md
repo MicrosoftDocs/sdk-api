@@ -80,7 +80,7 @@ Returns S_OK if successful or E_POINTER if the required parameter is <b>NULL</b>
 
 
 
-This method is usually called by the <a href="https://msdn.microsoft.com/en-us/library/Dd389516(v=VS.85).aspx">IAudioMediaStream</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd389520(v=VS.85).aspx">IAudioStreamSample</a> object, rather than by the application.
+This method is usually called by the <a href="https://docs.microsoft.com/windows/desktop/api/austream/nn-austream-iaudiomediastream">IAudioMediaStream</a> or <a href="https://docs.microsoft.com/windows/desktop/api/austream/nn-austream-iaudiostreamsample">IAudioStreamSample</a> object, rather than by the application.
 
 
 
@@ -90,7 +90,7 @@ This method is usually called by the <a href="https://msdn.microsoft.com/en-us/l
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd407080(v=VS.85).aspx">IMemoryData Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/austream/nn-austream-imemorydata">IMemoryData Interface</a>
  
 
  

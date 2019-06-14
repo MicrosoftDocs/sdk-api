@@ -66,7 +66,7 @@ Name of the shader resource.
 
 ### -field Type
 
-A <a href="https://msdn.microsoft.com/c6106f9e-420d-43e1-92ba-bc3a6e544e7d">D3D_SHADER_INPUT_TYPE</a>-typed value that identifies the type of data in the resource.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_shader_input_type">D3D_SHADER_INPUT_TYPE</a>-typed value that identifies the type of data in the resource.
           
 
 
@@ -84,19 +84,19 @@ Number of contiguous bind points for arrays.
 
 ### -field uFlags
 
-A combination of <a href="https://msdn.microsoft.com/3c79331e-73c0-42d7-9948-6ac2671a4ab5">D3D_SHADER_INPUT_FLAGS</a>-typed values for shader input-parameter options.
+A combination of <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_shader_input_flags">D3D_SHADER_INPUT_FLAGS</a>-typed values for shader input-parameter options.
           
 
 
 ### -field ReturnType
 
-If the input is a texture, the <a href="https://msdn.microsoft.com/3da3f315-9f92-4557-93b8-94aff42a91fe">D3D_RESOURCE_RETURN_TYPE</a>-typed value that identifies the return type.
+If the input is a texture, the <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_resource_return_type">D3D_RESOURCE_RETURN_TYPE</a>-typed value that identifies the return type.
           
 
 
 ### -field Dimension
 
-A <a href="https://msdn.microsoft.com/6f3c2429-83be-44cd-89bb-b074bfa084e3">D3D_SRV_DIMENSION</a>-typed value that identifies the dimensions of the bound resource.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_srv_dimension">D3D_SRV_DIMENSION</a>-typed value that identifies the dimensions of the bound resource.
           
 
 
@@ -123,7 +123,7 @@ The range ID in the bytecode.
 
 
 
-Get a shader-input-signature description by calling <a href="https://msdn.microsoft.com/3E9A168D-CD9E-4256-9E0B-19B9295E511E">ID3D12ShaderReflection::GetResourceBindingDesc</a> or <a href="https://msdn.microsoft.com/AA0FD49A-C5A2-4734-BDD6-FD739E4F5D59">ID3D12ShaderReflection::GetResourceBindingDescByName</a>.
+Get a shader-input-signature description by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getresourcebindingdesc">ID3D12ShaderReflection::GetResourceBindingDesc</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getresourcebindingdescbyname">ID3D12ShaderReflection::GetResourceBindingDescByName</a>.
       
 
 
@@ -134,7 +134,7 @@ Get a shader-input-signature description by calling <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/b8ece5c3-5065-4711-b12c-6cf7ea0e1ba0">Shader Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-shader-structures">Shader Structures</a>
  
 
  

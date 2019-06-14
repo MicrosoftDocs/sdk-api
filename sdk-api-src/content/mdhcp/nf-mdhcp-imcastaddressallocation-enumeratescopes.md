@@ -54,7 +54,7 @@ provides similar functionality.]
 
 The 
 <b>EnumerateScopes</b> method creates an enumeration of multicast scopes available. This method is primarily for C++ programmers. Visual Basic and other scripting languages use 
-<a href="https://msdn.microsoft.com/4fe824fa-2fcb-4f6b-b3de-15dcfc79575c">get_Scopes</a> instead.
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastaddressallocation-get_scopes">get_Scopes</a> instead.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ The
 ### -param ppEnumMcastScope [out]
 
 Returns a pointer to a new 
-<a href="https://msdn.microsoft.com/edc8be8e-635b-43f3-a4c1-7566e354cc3e">IEnumMcastScope</a> object.
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-ienummcastscope">IEnumMcastScope</a> object.
 
 
 ## -returns
@@ -134,7 +134,7 @@ Not enough memory exists to create the required objects.
 
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://msdn.microsoft.com/edc8be8e-635b-43f3-a4c1-7566e354cc3e">IEnumMcastScope</a> interface returned by <b>IMcastAddressAllocation::EnumerateScopes</b>. The application must call <b>Release</b> on the 
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-ienummcastscope">IEnumMcastScope</a> interface returned by <b>IMcastAddressAllocation::EnumerateScopes</b>. The application must call <b>Release</b> on the 
 <b>IEnumMcastScope</b> interface to free resources associated with it.
 
 
@@ -145,7 +145,7 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 
-<a href="https://msdn.microsoft.com/359e67bb-9a5b-4caa-8d3b-eb0739b0828f">IMcastAddressAllocation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-imcastaddressallocation">IMcastAddressAllocation</a>
  
 
  

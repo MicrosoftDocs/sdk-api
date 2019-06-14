@@ -66,7 +66,7 @@ IPv6 address.
 
 
 
-When working with IPv4 addresses, use <a href="https://msdn.microsoft.com/7e10cc9c-7ed4-449d-aeb9-21e3d75d0224">IN_ADDR_IPV4</a>.
+When working with IPv4 addresses, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_in_addr_ipv4">IN_ADDR_IPV4</a>.
 
 
 
@@ -76,7 +76,7 @@ When working with IPv4 addresses, use <a href="https://msdn.microsoft.com/7e10cc
 
 
 
-<a href="https://msdn.microsoft.com/7e10cc9c-7ed4-449d-aeb9-21e3d75d0224">IN_ADDR_IPV4</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_in_addr_ipv4">IN_ADDR_IPV4</a>
  
 
  

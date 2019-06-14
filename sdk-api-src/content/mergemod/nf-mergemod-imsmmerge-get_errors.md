@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>get_Errors</b> method retrieves the 
-<a href="https://msdn.microsoft.com/619f17cc-131a-4262-ad48-9ab1318142aa">Errors</a> property of the 
-<a href="https://msdn.microsoft.com/3f76ee8a-d195-4a69-99a3-31ef2c1c72d5">Merge</a> object. This retrieves the current collection of errors.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-errors">Errors</a> property of the 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-object">Merge</a> object. This retrieves the current collection of errors.
 
 <b>IMsmMerge2::get_Errors</b>    Mergemod.dll version 2.0 or later.<div> </div><b>IMsmMerge::get_Errors</b>      All Mergemod.dll versions.
 			
@@ -136,7 +136,7 @@ The client is responsible for releasing the interface returned by this function.
 
 
 
-<a href="https://msdn.microsoft.com/877d3691-948f-4aea-89d8-0ff008126ccc">Merge Module Automation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
  
 
  

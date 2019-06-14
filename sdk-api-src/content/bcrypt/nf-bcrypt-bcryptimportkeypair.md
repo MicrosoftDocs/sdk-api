@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>BCryptImportKeyPair</b> function imports a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public/private key pair</a> from a key <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a>. The <a href="https://msdn.microsoft.com/6b9683f4-10f2-40e4-9757-a1f01991bef7">BCryptImportKey</a> function is used to import a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">symmetric key</a> pair.
+The <b>BCryptImportKeyPair</b> function imports a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public/private key pair</a> from a key <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a>. The <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptimportkey">BCryptImportKey</a> function is used to import a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">symmetric key</a> pair.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>BCryptImportKeyPair</b> function imports a <a href="https://msdn.microsof
 
 ### -param hAlgorithm [in]
 
-The handle of the algorithm provider to import the key. This handle is obtained by calling the <a href="https://msdn.microsoft.com/aceba9c0-19e6-4f3c-972a-752feed4a9f8">BCryptOpenAlgorithmProvider</a> function.
+The handle of the algorithm provider to import the key. This handle is obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptopenalgorithmprovider">BCryptOpenAlgorithmProvider</a> function.
 
 
 ### -param hImportKey [in, out]
@@ -83,7 +83,7 @@ A null-terminated Unicode string that contains an identifier that specifies the 
 </dl>
 </td>
 <td width="60%">
-The BLOB is a Diffie-Hellman public/private key pair BLOB. The <i>pbInput</i> buffer must contain a <a href="https://msdn.microsoft.com/6004b2e5-7e06-4108-a0da-472b9b6d5fea">BCRYPT_DH_KEY_BLOB</a> structure immediately followed by the key data.
+The BLOB is a Diffie-Hellman public/private key pair BLOB. The <i>pbInput</i> buffer must contain a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_dh_key_blob">BCRYPT_DH_KEY_BLOB</a> structure immediately followed by the key data.
 
 </td>
 </tr>
@@ -93,7 +93,7 @@ The BLOB is a Diffie-Hellman public/private key pair BLOB. The <i>pbInput</i> bu
 </dl>
 </td>
 <td width="60%">
-The BLOB is a Diffie-Hellman <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key BLOB</a>. The <i>pbInput</i> buffer must contain a <a href="https://msdn.microsoft.com/6004b2e5-7e06-4108-a0da-472b9b6d5fea">BCRYPT_DH_KEY_BLOB</a> structure immediately followed by the key data.
+The BLOB is a Diffie-Hellman <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key BLOB</a>. The <i>pbInput</i> buffer must contain a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_dh_key_blob">BCRYPT_DH_KEY_BLOB</a> structure immediately followed by the key data.
 
 </td>
 </tr>
@@ -103,9 +103,9 @@ The BLOB is a Diffie-Hellman <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4
 </dl>
 </td>
 <td width="60%">
-The BLOB is a DSA public/private key pair BLOB. The <i>pbInput</i> buffer must contain a <a href="https://msdn.microsoft.com/3db36170-106e-49c8-9866-e25759bdd7f9">BCRYPT_DSA_KEY_BLOB</a> or <a href="https://msdn.microsoft.com/E8240DE1-B65F-4DAC-92C9-45725435A0F7">BCRYPT_DSA_KEY_BLOB_V2</a> structure immediately followed by the key data. <b>BCRYPT_DSA_KEY_BLOB</b> is used for key lengths from 512 to 1024 bits. <b>BCRYPT_DSA_KEY_BLOB_V2</b> is used for key lengths that exceed 1024 bits but are less than or equal to 3072 bits.
+The BLOB is a DSA public/private key pair BLOB. The <i>pbInput</i> buffer must contain a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_dsa_key_blob">BCRYPT_DSA_KEY_BLOB</a> or <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_dsa_key_blob_v2">BCRYPT_DSA_KEY_BLOB_V2</a> structure immediately followed by the key data. <b>BCRYPT_DSA_KEY_BLOB</b> is used for key lengths from 512 to 1024 bits. <b>BCRYPT_DSA_KEY_BLOB_V2</b> is used for key lengths that exceed 1024 bits but are less than or equal to 3072 bits.
 
-<b>Windows 8:  </b>Support for <a href="https://msdn.microsoft.com/E8240DE1-B65F-4DAC-92C9-45725435A0F7">BCRYPT_DSA_KEY_BLOB_V2</a> begins.
+<b>Windows 8:  </b>Support for <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_dsa_key_blob_v2">BCRYPT_DSA_KEY_BLOB_V2</a> begins.
 
 </td>
 </tr>
@@ -115,9 +115,9 @@ The BLOB is a DSA public/private key pair BLOB. The <i>pbInput</i> buffer must c
 </dl>
 </td>
 <td width="60%">
-The BLOB is a DSA public key BLOB. The <i>pbInput</i> buffer must contain a <a href="https://msdn.microsoft.com/3db36170-106e-49c8-9866-e25759bdd7f9">BCRYPT_DSA_KEY_BLOB</a> or <a href="https://msdn.microsoft.com/E8240DE1-B65F-4DAC-92C9-45725435A0F7">BCRYPT_DSA_KEY_BLOB_V2</a> structure immediately followed by the key data. <b>BCRYPT_DSA_KEY_BLOB</b> is used for key lengths from 512 to 1024 bits. <b>BCRYPT_DSA_KEY_BLOB_V2</b> is used for key lengths that exceed 1024 bits but are less than or equal to 3072 bits.
+The BLOB is a DSA public key BLOB. The <i>pbInput</i> buffer must contain a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_dsa_key_blob">BCRYPT_DSA_KEY_BLOB</a> or <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_dsa_key_blob_v2">BCRYPT_DSA_KEY_BLOB_V2</a> structure immediately followed by the key data. <b>BCRYPT_DSA_KEY_BLOB</b> is used for key lengths from 512 to 1024 bits. <b>BCRYPT_DSA_KEY_BLOB_V2</b> is used for key lengths that exceed 1024 bits but are less than or equal to 3072 bits.
 
-<b>Windows 8:  </b>Support for <a href="https://msdn.microsoft.com/E8240DE1-B65F-4DAC-92C9-45725435A0F7">BCRYPT_DSA_KEY_BLOB_V2</a> begins.
+<b>Windows 8:  </b>Support for <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_dsa_key_blob_v2">BCRYPT_DSA_KEY_BLOB_V2</a> begins.
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ The BLOB is a DSA public key BLOB. The <i>pbInput</i> buffer must contain a <a h
 </dl>
 </td>
 <td width="60%">
-The BLOB is an <a href="https://msdn.microsoft.com/f1caccd2-3453-448e-b194-bf899eff8091">elliptic curve cryptography</a> (ECC) <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a>. The <i>pbInput</i> buffer must contain a <a href="https://msdn.microsoft.com/e60f6630-e4b0-4f35-a3cf-95dbcb007124">BCRYPT_ECCKEY_BLOB</a> structure immediately followed by the key data. 
+The BLOB is an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">elliptic curve cryptography</a> (ECC) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a>. The <i>pbInput</i> buffer must contain a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_ecckey_blob">BCRYPT_ECCKEY_BLOB</a> structure immediately followed by the key data. 
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ The BLOB is an <a href="https://msdn.microsoft.com/f1caccd2-3453-448e-b194-bf899
 </dl>
 </td>
 <td width="60%">
-The BLOB is an ECC public key. The <i>pbInput</i> buffer must contain a <a href="https://msdn.microsoft.com/e60f6630-e4b0-4f35-a3cf-95dbcb007124">BCRYPT_ECCKEY_BLOB</a> structure immediately followed by the key data.
+The BLOB is an ECC public key. The <i>pbInput</i> buffer must contain a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_ecckey_blob">BCRYPT_ECCKEY_BLOB</a> structure immediately followed by the key data.
 
 </td>
 </tr>
@@ -147,7 +147,7 @@ The BLOB is an ECC public key. The <i>pbInput</i> buffer must contain a <a href=
 </dl>
 </td>
 <td width="60%">
-The BLOB is a generic <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> of any type. The type of key in this BLOB is determined by the <b>Magic</b> member of the <a href="https://msdn.microsoft.com/ae7e8db3-858d-4573-afe1-c9bc14d76480">BCRYPT_KEY_BLOB</a> structure.
+The BLOB is a generic <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> of any type. The type of key in this BLOB is determined by the <b>Magic</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_key_blob">BCRYPT_KEY_BLOB</a> structure.
 
 </td>
 </tr>
@@ -157,7 +157,7 @@ The BLOB is a generic <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb
 </dl>
 </td>
 <td width="60%">
-The BLOB is a generic private key of any type. The private key does not necessarily contain the public key. The type of key in this BLOB is determined by the <b>Magic</b> member of the <a href="https://msdn.microsoft.com/ae7e8db3-858d-4573-afe1-c9bc14d76480">BCRYPT_KEY_BLOB</a> structure.
+The BLOB is a generic private key of any type. The private key does not necessarily contain the public key. The type of key in this BLOB is determined by the <b>Magic</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_key_blob">BCRYPT_KEY_BLOB</a> structure.
 
 </td>
 </tr>
@@ -167,7 +167,7 @@ The BLOB is a generic private key of any type. The private key does not necessar
 </dl>
 </td>
 <td width="60%">
-The BLOB is an RSA public/private key pair BLOB. The <i>pbInput</i> buffer must contain a <a href="https://msdn.microsoft.com/bbf3f4b9-5c69-4212-bb23-34bb2c84185c">BCRYPT_RSAKEY_BLOB</a> structure immediately followed by the key data.
+The BLOB is an RSA public/private key pair BLOB. The <i>pbInput</i> buffer must contain a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_rsakey_blob">BCRYPT_RSAKEY_BLOB</a> structure immediately followed by the key data.
 
 </td>
 </tr>
@@ -177,7 +177,7 @@ The BLOB is an RSA public/private key pair BLOB. The <i>pbInput</i> buffer must 
 </dl>
 </td>
 <td width="60%">
-The BLOB is an RSA public key BLOB. The <i>pbInput</i> buffer must contain a <a href="https://msdn.microsoft.com/bbf3f4b9-5c69-4212-bb23-34bb2c84185c">BCRYPT_RSAKEY_BLOB</a> structure immediately followed by the key data.
+The BLOB is an RSA public key BLOB. The <i>pbInput</i> buffer must contain a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_rsakey_blob">BCRYPT_RSAKEY_BLOB</a> structure immediately followed by the key data.
 
 </td>
 </tr>
@@ -187,7 +187,7 @@ The BLOB is an RSA public key BLOB. The <i>pbInput</i> buffer must contain a <a 
 </dl>
 </td>
 <td width="60%">
-The BLOB is a Diffie-Hellman public key BLOB that was exported by using <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">CryptoAPI</a>. The Microsoft primitive provider does not support importing this BLOB type.
+The BLOB is a Diffie-Hellman public key BLOB that was exported by using <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CryptoAPI</a>. The Microsoft primitive provider does not support importing this BLOB type.
 
 </td>
 </tr>
@@ -197,7 +197,7 @@ The BLOB is a Diffie-Hellman public key BLOB that was exported by using <a href=
 </dl>
 </td>
 <td width="60%">
-The BLOB is a legacy <a href="https://msdn.microsoft.com/c759e6e1-f7af-4cd6-a67e-ff0da1e91eb1">Diffie-Hellman Version 3 Private Key BLOB</a> that contains a Diffie-Hellman public/private key pair that was exported by using CryptoAPI.
+The BLOB is a legacy <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/diffie-hellman-version-3-private-key-blobs">Diffie-Hellman Version 3 Private Key BLOB</a> that contains a Diffie-Hellman public/private key pair that was exported by using CryptoAPI.
 
 </td>
 </tr>
@@ -257,12 +257,12 @@ The BLOB is an RSA public key BLOB that was exported by using CryptoAPI. The Mic
 
 ### -param phKey [out]
 
-A pointer to a <b>BCRYPT_KEY_HANDLE</b> that receives the handle of the imported key. This handle is used in subsequent functions that require a key, such as <a href="https://msdn.microsoft.com/f402ea9e-89ae-4ccc-9591-aa2328287c0e">BCryptSignHash</a>. This handle must be released when it is no longer needed by passing it to the <a href="https://msdn.microsoft.com/98c02e55-6489-4901-8a7a-021baac41965">BCryptDestroyKey</a> function.
+A pointer to a <b>BCRYPT_KEY_HANDLE</b> that receives the handle of the imported key. This handle is used in subsequent functions that require a key, such as <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptsignhash">BCryptSignHash</a>. This handle must be released when it is no longer needed by passing it to the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptdestroykey">BCryptDestroyKey</a> function.
 
 
 ### -param pbInput [in]
 
-The address of a buffer that contains the <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33">key BLOB</a> to import. The <i>cbInput</i> parameter contains the size of this buffer. The <i>pszBlobType</i> parameter specifies the type of key BLOB this buffer contains.
+The address of a buffer that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key BLOB</a> to import. The <i>cbInput</i> parameter contains the size of this buffer. The <i>pszBlobType</i> parameter specifies the type of key BLOB this buffer contains.
 
 
 ### -param cbInput [in]
@@ -363,7 +363,7 @@ The algorithm provider specified by the <i>hAlgorithm</i> parameter does not sup
 
 
 
-Depending on what processor modes a provider supports, <b>BCryptImportKeyPair</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hAlgorithm</i> parameter must have been opened by using the <b>BCRYPT_PROV_DISPATCH</b> flag, and any pointers passed to the <b>BCryptImportKeyPair</b> function must refer to nonpaged (or locked) memory.
+Depending on what processor modes a provider supports, <b>BCryptImportKeyPair</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hAlgorithm</i> parameter must have been opened by using the <b>BCRYPT_PROV_DISPATCH</b> flag, and any pointers passed to the <b>BCryptImportKeyPair</b> function must refer to nonpaged (or locked) memory.
 
 To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). <b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
 
@@ -377,15 +377,15 @@ To call this function in kernel mode, use Cng.lib, which is part of the Driver D
 
 
 
-<a href="https://msdn.microsoft.com/98c02e55-6489-4901-8a7a-021baac41965">BCryptDestroyKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptdestroykey">BCryptDestroyKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/a5d73143-c1d6-43b3-a724-7e27c68a5ade">BCryptExportKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptexportkey">BCryptExportKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/6b9683f4-10f2-40e4-9757-a1f01991bef7">BCryptImportKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptimportkey">BCryptImportKey</a>
  
 
  

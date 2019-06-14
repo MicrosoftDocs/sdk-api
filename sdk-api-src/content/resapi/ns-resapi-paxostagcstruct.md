@@ -126,23 +126,23 @@ TBD
 
 
 
-<a href="https://msdn.microsoft.com/01CBFC67-02D0-439D-BE4E-EA0A2448FDEE">ResUtilLeftPaxosIsLessThanRight</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nf-resapi-resutilleftpaxosislessthanright">ResUtilLeftPaxosIsLessThanRight</a>
 
 
 
-<a href="https://msdn.microsoft.com/414F9BB0-2490-43A9-BE38-877B283573E1">ResUtilPaxosComparer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nf-resapi-resutilpaxoscomparer">ResUtilPaxosComparer</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ab4b974-28b5-4f33-a7c4-b9b2472059aa">Resource DLL Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-structures">Resource DLL Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/FFE7EF63-4025-4CC5-B3F8-FF07FA67AFD1">WitnessTagHelper</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-_witnesstaghelper">WitnessTagHelper</a>
 
 
 
-<a href="https://msdn.microsoft.com/4737A2B0-E295-49B6-8A84-D38BC317011B">WitnessTagUpdateHelper</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-_witnesstagupdatehelper">WitnessTagUpdateHelper</a>
  
 
  

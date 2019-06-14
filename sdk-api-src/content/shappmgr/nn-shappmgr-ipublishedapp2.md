@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Extends the <a href="https://msdn.microsoft.com/a5a44e74-494a-4c9b-8bf3-85c6093b2c0e">IPublishedApp</a> interface by providing an additional installation method.
+Extends the <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-ipublishedapp">IPublishedApp</a> interface by providing an additional installation method.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPublishedApp2</b> interface inherits from <a href="https://msdn.microsoft.com/a5a44e74-494a-4c9b-8bf3-85c6093b2c0e">IPublishedApp</a>. <b>IPublishedApp2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPublishedApp2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-ipublishedapp">IPublishedApp</a>. <b>IPublishedApp2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IPublishedApp2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ce2319d0-e4e8-49a8-9803-ef386c6969a9">Install2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nf-shappmgr-ipublishedapp2-install2">Install2</a>
 </td>
 <td align="left" width="63%">
 Installs an application published by an application publisher, while preventing multiple windows from being active on the same thread.
@@ -83,7 +83,7 @@ Installs an application published by an application publisher, while preventing 
 
 
 
-This interface also provides the methods of the <a href="https://msdn.microsoft.com/a5a44e74-494a-4c9b-8bf3-85c6093b2c0e">IPublishedApp</a> interface, from which it inherits.
+This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-ipublishedapp">IPublishedApp</a> interface, from which it inherits.
 
 
 

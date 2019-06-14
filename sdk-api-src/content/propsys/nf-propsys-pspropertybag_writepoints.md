@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
- Stores the property coordinates in a<a href="https://msdn.microsoft.com/d36bc846-c538-4a37-bb5d-c75d41a3c7cc">POINTS</a> structure of a specified property bag.
+ Stores the property coordinates in a<a href="https://docs.microsoft.com/previous-versions//dd162808(v=vs.85)">POINTS</a> structure of a specified property bag.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ ms.custom: 19H1
 
 ### -param propBag [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa768196(v=VS.85).aspx">IPropertyBag</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/Aa768196(v=VS.85).aspx">IPropertyBag</a> object that represents the property bag in which the property is stored.
+A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a> object that represents the property bag in which the property is stored.
 
 
 ### -param propName [in]
@@ -73,9 +73,9 @@ A null-terminated property name string.
 
 ### -param value [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/d36bc846-c538-4a37-bb5d-c75d41a3c7cc">POINTS</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/previous-versions//dd162808(v=vs.85)">POINTS</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/d36bc846-c538-4a37-bb5d-c75d41a3c7cc">POINTS</a> structure that specifies the coordinates to store in the property.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd162808(v=vs.85)">POINTS</a> structure that specifies the coordinates to store in the property.
 
 
 ## -returns
@@ -103,7 +103,7 @@ The property bag property function API converts between window types and the <b>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee845057(v=VS.85).aspx">PSPropertyBag_ReadPOINTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-pspropertybag_readpoints">PSPropertyBag_ReadPOINTS</a>
  
 
  

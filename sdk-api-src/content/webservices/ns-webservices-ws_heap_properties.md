@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-A structure that is used to specify a set of <a href="https://msdn.microsoft.com/e55122e4-fc18-4e1a-b34e-c661b555a062">WS_HEAP_PROPERTY</a>s.
+A structure that is used to specify a set of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_heap_property">WS_HEAP_PROPERTY</a>s.
             
 
 

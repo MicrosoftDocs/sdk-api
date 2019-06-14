@@ -107,7 +107,7 @@ A pointer to optional user information that can be passed to the callback functi
 
 ### -param phTransfer [out]
 
-A pointer to a transfer handle that can be used with the <a href="https://msdn.microsoft.com/2328ce69-5a2d-4c4e-bf24-95a379fb7faa">WdsCliWaitForTransfer</a> or <a href="https://msdn.microsoft.com/8d138b95-4be1-4f53-ac15-21503408954b">WdsCliCancelTransfer</a> functions to wait for the transfer to complete or to cancel the transfer.
+A pointer to a transfer handle that can be used with the <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdscliwaitfortransfer">WdsCliWaitForTransfer</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclicanceltransfer">WdsCliCancelTransfer</a> functions to wait for the transfer to complete or to cancel the transfer.
 
 
 ## -returns
@@ -123,7 +123,7 @@ If the function succeeds, the return is <b>S_OK</b>.
 
 
 
-Call the <a href="https://msdn.microsoft.com/6a833209-b7a0-40d8-8eca-43c08287d67e">WdsCliClose</a> function to close the handle returned by this function.
+Call the <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdscliclose">WdsCliClose</a> function to close the handle returned by this function.
 
 
 

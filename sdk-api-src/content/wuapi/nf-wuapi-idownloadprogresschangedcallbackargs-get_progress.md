@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/014bb208-1241-4022-b37a-cd16da48174c">IDownloadProgressChangedCallbackArgs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-idownloadprogresschangedcallbackargs">IDownloadProgressChangedCallbackArgs</a>
  
 
  

@@ -168,7 +168,7 @@ If the document window is minimized, or if the specified text is not currently v
 
 
 
-<a href="https://msdn.microsoft.com/c256f1c2-6b67-4417-8707-3490a2c5cb55">ITextStoreACP2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp2">ITextStoreACP2</a>
  
 
  

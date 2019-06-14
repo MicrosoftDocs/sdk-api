@@ -52,7 +52,7 @@ ms.custom: 19H1
 The 
 <b>FindConsumer</b> function locates and returns sink objects to which WMI can send events. WMI passes in a pointer to a logical consumer object, then 
 <b>FindConsumer</b> locates the physical consumer associated with the logical consumer. Finally, 
-<b>FindConsumer</b> returns to WMI a pointer to the sink belonging to the physical consumer. WMI calls <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> on the sink and begins to deliver the appropriate events to the sink. WMI releases the sink after a configurable period of time with no deliveries. If necessary, WMI can call 
+<b>FindConsumer</b> returns to WMI a pointer to the sink belonging to the physical consumer. WMI calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on the sink and begins to deliver the appropriate events to the sink. WMI releases the sink after a configurable period of time with no deliveries. If necessary, WMI can call 
 <b>FindConsumer</b> again to load the sink again.
 
 
@@ -68,7 +68,7 @@ Pointer to the logical consumer object to which the event objects are to be deli
 
 ### -param ppConsumer [out]
 
-Returns an event object sink to Windows Management. Windows Management calls <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> for this pointer and deliver the events associated with the logical consumer to this sink. Eventually, after a suitable time-out, Windows Management calls <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> for the pointer.
+Returns an event object sink to Windows Management. Windows Management calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> for this pointer and deliver the events associated with the logical consumer to this sink. Eventually, after a suitable time-out, Windows Management calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> for the pointer.
 
 
 ## -returns
@@ -85,15 +85,15 @@ This method returns an <b>HRESULT</b> that indicates the status of the method ca
 
 
 Windows Management delivers events in the form of 
-<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> to logical consumers registered within the schema. A consumer provider implements 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> to logical consumers registered within the schema. A consumer provider implements 
 <b>FindConsumer</b> to provide an event sink to Windows Management whenever events must be delivered to the logical consumer.
 
 Windows Management recognizes the logical consumer object and has the event objects ready for delivery. To deliver an event object, WMI then calls 
 <b>FindConsumer</b>. The consumer provider must create an event sink object (a pointer to 
-<a href="https://msdn.microsoft.com/a890aefe-e35e-4635-874d-953194f99a82">IWbemUnboundObjectSink</a>), and return the pointer to Windows Management so that the events can be delivered.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbemunboundobjectsink">IWbemUnboundObjectSink</a>), and return the pointer to Windows Management so that the events can be delivered.
 
 Using this technique, a single event consumer provider can handle delivery of events to many different logical consumers by returning different 
-<a href="https://msdn.microsoft.com/a890aefe-e35e-4635-874d-953194f99a82">IWbemUnboundObjectSink</a> pointers for each.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbemunboundobjectsink">IWbemUnboundObjectSink</a> pointers for each.
 
 You may implement 
 <b>FindConsumer</b> in several ways:
@@ -115,7 +115,7 @@ This approach optimizes performance by having a dedicated sink ready to receive 
 Divide logical consumers into groups and provide a different sink for each group.
 
 This approach compromises between performance and efficiency. The hybrid approach can involve having a few different log files, possibly with each tied to the type of message to be logged. Multiple COM objects handle multiple open files. An event consumer provider taking this approach reads the log file name during the 
-<b>FindConsumer</b> call, opens the file, and returns the sink that logs all messages into this file. The provider closes the file on the last call to the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> method. With this approach, the consumer preserves efficiency because it has information on exactly which file to use; the consumer is not required to search for or open a new file. Also, the consumer can save memory by combining sinks that log different messages to the same file.
+<b>FindConsumer</b> call, opens the file, and returns the sink that logs all messages into this file. The provider closes the file on the last call to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> method. With this approach, the consumer preserves efficiency because it has information on exactly which file to use; the consumer is not required to search for or open a new file. Also, the consumer can save memory by combining sinks that log different messages to the same file.
 
 </li>
 </ul>
@@ -181,15 +181,15 @@ HRESULT MyEventConsumerClass::FindConsumer(
 
 
 
-<a href="https://msdn.microsoft.com/793bbc22-4a8b-4ab3-8cfe-7d81f42a6b7f">IWbemEventConsumerProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbemeventconsumerprovider">IWbemEventConsumerProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/475dca47-b1e5-4362-ab00-9ab9383e92f9">Receiving Events at All Times</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/receiving-events-at-all-times">Receiving Events at All Times</a>
 
 
 
-<a href="https://msdn.microsoft.com/380ac556-ba0a-4fae-8b76-0645d99e8583">Receiving Events for the Duration of your Application</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/receiving-events-for-the-duration-of-your-application">Receiving Events for the Duration of your Application</a>
  
 
  

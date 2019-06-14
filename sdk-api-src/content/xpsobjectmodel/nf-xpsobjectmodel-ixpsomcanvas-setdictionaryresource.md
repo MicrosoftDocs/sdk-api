@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the <a href="https://msdn.microsoft.com/dd757856-f16e-46ad-b865-8203c3428372">IXpsOMRemoteDictionaryResource</a> interface pointer of the remote dictionary resource.
+Sets the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomremotedictionaryresource">IXpsOMRemoteDictionaryResource</a> interface pointer of the remote dictionary resource.
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Sets the <a href="https://msdn.microsoft.com/dd757856-f16e-46ad-b865-8203c342837
 
 ### -param remoteDictionaryResource [in]
 
-The <a href="https://msdn.microsoft.com/dd757856-f16e-46ad-b865-8203c3428372">IXpsOMRemoteDictionaryResource</a> interface of the remote dictionary resource. A <b>NULL</b> pointer releases any previously assigned dictionary resource.
+The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomremotedictionaryresource">IXpsOMRemoteDictionaryResource</a> interface of the remote dictionary resource. A <b>NULL</b> pointer releases any previously assigned dictionary resource.
 
 
 ## -returns
 
 
 
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -105,31 +105,31 @@ The method succeeded.
 
 
 
-After calling this method,  <a href="https://msdn.microsoft.com/5578ae0f-4da7-4d9f-9133-fbe501ff66a1">GetDictionaryLocal</a>  returns a <b>NULL</b> pointer in the <i>resourceDictionary</i> parameter.
+After calling this method,  <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcanvas-getdictionarylocal">GetDictionaryLocal</a>  returns a <b>NULL</b> pointer in the <i>resourceDictionary</i> parameter.
 
 <table>
 <tr>
 <th>Most recent method called</th>
-<th>Object that is returned in <i>resourceDictionary</i> by <a href="https://msdn.microsoft.com/f32b534e-92bf-4e80-9ac1-b2577e076bed">GetDictionary</a>
+<th>Object that is returned in <i>resourceDictionary</i> by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcanvas-getdictionary">GetDictionary</a>
 </th>
-<th>Object that is returned in <i>resourceDictionary</i>     by <a href="https://msdn.microsoft.com/5578ae0f-4da7-4d9f-9133-fbe501ff66a1">GetDictionaryLocal</a>
+<th>Object that is returned in <i>resourceDictionary</i>     by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcanvas-getdictionarylocal">GetDictionaryLocal</a>
 </th>
-<th>Object that is returned in  <i>remoteDictionaryResource</i> by <a href="https://msdn.microsoft.com/96fa8c03-ce00-4d10-8a88-228600fdcae7">GetDictionaryResource</a>
+<th>Object that is returned in  <i>remoteDictionaryResource</i> by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcanvas-getdictionaryresource">GetDictionaryResource</a>
 </th>
 </tr>
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/f6cd655f-8850-4fce-95af-50edbdd38cb1">SetDictionaryLocal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcanvas-setdictionarylocal">SetDictionaryLocal</a>
 
 
 </td>
 <td>
-The local dictionary that is set by <a href="https://msdn.microsoft.com/f6cd655f-8850-4fce-95af-50edbdd38cb1">SetDictionaryLocal</a>.
+The local dictionary that is set by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcanvas-setdictionarylocal">SetDictionaryLocal</a>.
 
 </td>
 <td>
-The local dictionary that is set by <a href="https://msdn.microsoft.com/f6cd655f-8850-4fce-95af-50edbdd38cb1">SetDictionaryLocal</a>.
+The local dictionary that is set by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcanvas-setdictionarylocal">SetDictionaryLocal</a>.
 
 </td>
 <td>
@@ -157,7 +157,7 @@ The remote dictionary resource that is set by <b>SetDictionaryResource</b>.
 </tr>
 <tr>
 <td>
-Neither <a href="https://msdn.microsoft.com/f6cd655f-8850-4fce-95af-50edbdd38cb1">SetDictionaryLocal</a> nor <b>SetDictionaryResource</b> has been called yet.
+Neither <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcanvas-setdictionarylocal">SetDictionaryLocal</a> nor <b>SetDictionaryResource</b> has been called yet.
 
 </td>
 <td>
@@ -184,11 +184,11 @@ Neither <a href="https://msdn.microsoft.com/f6cd655f-8850-4fce-95af-50edbdd38cb1
 
 
 
-<a href="https://msdn.microsoft.com/3cb0e1b3-88a8-4724-a3c5-0df416294e62">IXpsOMCanvas</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcanvas">IXpsOMCanvas</a>
 
 
 
-<a href="https://msdn.microsoft.com/f887e3d3-973c-4267-a785-6bc190c13082">IXpsOMDictionary</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdictionary">IXpsOMDictionary</a>
 
 
 
@@ -196,7 +196,7 @@ Neither <a href="https://msdn.microsoft.com/f6cd655f-8850-4fce-95af-50edbdd38cb1
 
 
 
-<a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
  
 
  

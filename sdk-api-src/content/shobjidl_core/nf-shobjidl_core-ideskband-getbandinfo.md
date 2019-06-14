@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Gets state information for a band object.
-<div class="alert"><b>Important</b>  You should use <a href="https://msdn.microsoft.com/cbf2b07d-d67c-4755-888c-d40692d13cae">thumbnail toolbars</a> in new development in place of desk bands, which are not supported as of Windows 7.</div><div> </div>
+<div class="alert"><b>Important</b>  You should use <a href="https://docs.microsoft.com/windows/desktop/shell/taskbar-extensions">thumbnail toolbars</a> in new development in place of desk bands, which are not supported as of Windows 7.</div><div> </div>
 
 ## -parameters
 
@@ -97,9 +97,9 @@ The band object is being displayed in a transparent band.
 
 ### -param pdbi
 
-Type: <b><a href="https://msdn.microsoft.com/f44ef8a7-b05d-4908-95eb-b07d085e0c29">DESKBANDINFO</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-deskbandinfo">DESKBANDINFO</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/f44ef8a7-b05d-4908-95eb-b07d085e0c29">DESKBANDINFO</a> structure that receives the band information for the object. The <b>dwMask</b> member of this structure indicates the specific information that is being requested.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-deskbandinfo">DESKBANDINFO</a> structure that receives the band information for the object. The <b>dwMask</b> member of this structure indicates the specific information that is being requested.
 
 
 ## -returns

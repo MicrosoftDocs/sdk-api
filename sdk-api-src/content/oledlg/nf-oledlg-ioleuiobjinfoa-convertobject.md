@@ -135,7 +135,7 @@ There is insufficient memory available for this operation.
 
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-Your implementation of <b>IOleUIObjInfo::ConvertObject</b> needs to convert the object to the CLSID specified. The actions taken by the convert operation are similar to the actions taken after calling <a href="https://msdn.microsoft.com/3af4b321-cea2-4f88-ae22-2dcefbb2c2ad">OleUIConvert</a>.
+Your implementation of <b>IOleUIObjInfo::ConvertObject</b> needs to convert the object to the CLSID specified. The actions taken by the convert operation are similar to the actions taken after calling <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiconverta">OleUIConvert</a>.
 
 
 
@@ -145,11 +145,11 @@ Your implementation of <b>IOleUIObjInfo::ConvertObject</b> needs to convert the 
 
 
 
-<a href="https://msdn.microsoft.com/508dccb3-e98b-4f62-8bc3-98ca2b0d1349">IOleUIObjInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nn-oledlg-ioleuiobjinfoa">IOleUIObjInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/3af4b321-cea2-4f88-ae22-2dcefbb2c2ad">OleUIConvert</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiconverta">OleUIConvert</a>
  
 
  

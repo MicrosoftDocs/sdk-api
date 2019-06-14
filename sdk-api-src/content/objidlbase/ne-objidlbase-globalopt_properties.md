@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifies process-global options that you can set or query by using the <a href="https://msdn.microsoft.com/c5e823be-521d-4eb4-8836-fdd2cac6f15d">IGlobalOptions</a> interface.
+Identifies process-global options that you can set or query by using the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iglobaloptions">IGlobalOptions</a> interface.
 
 
 ## -enum-fields
@@ -79,7 +79,7 @@ Used for miscellaneous settings.
 
 ### -field COMGLB_UNMARSHALING_POLICY
 
-Defines the policy that's applied in the <a href="https://msdn.microsoft.com/d0eac0da-2f41-40c4-b756-31bc22752c17">CoUnmarshalInterface</a> function.
+Defines the policy that's applied in the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-counmarshalinterface">CoUnmarshalInterface</a> function.
 
 
 ### -field COMGLB_PROPERTIES_RESERVED1
@@ -97,7 +97,7 @@ Defines the policy that's applied in the <a href="https://msdn.microsoft.com/d0e
 
 
 
-The unmarshaling policy option <b>COMGLB_UNMARSHALING_POLICY</b> takes values from the <a href="https://msdn.microsoft.com/en-us/library/JJ247567(v=VS.85).aspx">GLOBALOPT_UNMARSHALING_POLICY_VALUES</a> enumeration.
+The unmarshaling policy option <b>COMGLB_UNMARSHALING_POLICY</b> takes values from the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tagglobalopt_unmarshaling_policy_values">GLOBALOPT_UNMARSHALING_POLICY_VALUES</a> enumeration.
 
 
 
@@ -107,15 +107,15 @@ The unmarshaling policy option <b>COMGLB_UNMARSHALING_POLICY</b> takes values fr
 
 
 
-<a href="https://msdn.microsoft.com/d0eac0da-2f41-40c4-b756-31bc22752c17">CoUnmarshalInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-counmarshalinterface">CoUnmarshalInterface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/JJ247567(v=VS.85).aspx">GLOBALOPT_UNMARSHALING_POLICY_VALUES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tagglobalopt_unmarshaling_policy_values">GLOBALOPT_UNMARSHALING_POLICY_VALUES</a>
 
 
 
-<a href="https://msdn.microsoft.com/c5e823be-521d-4eb4-8836-fdd2cac6f15d">IGlobalOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iglobaloptions">IGlobalOptions</a>
  
 
  

@@ -63,14 +63,14 @@ Adds toolbar items to Windows Explorer's toolbar.
 
 Type: <b>LPTBBUTTONSB</b>
 
-The address of an array of <a href="https://msdn.microsoft.com/en-us/library/Bb760476(v=VS.85).aspx">TBBUTTON</a> structures.
+The address of an array of <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-_tbbutton">TBBUTTON</a> structures.
 
 
 ### -param nButtons
 
 Type: <b>UINT</b>
 
-The number of <a href="https://msdn.microsoft.com/en-us/library/Bb760476(v=VS.85).aspx">TBBUTTON</a> structures in the <i>lpButtons</i> array.
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-_tbbutton">TBBUTTON</a> structures in the <i>lpButtons</i> array.
 
 
 ### -param uFlags
@@ -114,7 +114,7 @@ Returns S_OK if successful, or a COM-defined error value otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/138d90e3-a1f0-4faf-88ca-16c7a46df0ca">IShellBrowser</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser">IShellBrowser</a>
  
 
  

@@ -64,14 +64,14 @@ A fax client application calls the <b>FaxSetPort</b> function to change the conf
 
 Type: <b>HANDLE</b>
 
-Specifies a fax port handle returned by a call to the <a href="https://msdn.microsoft.com/en-us/library/ms690875(v=VS.85).aspx">FaxOpenPort</a> function.
+Specifies a fax port handle returned by a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxopenport">FaxOpenPort</a> function.
 
 
 ### -param PortInfo [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms692359(v=VS.85).aspx">FAX_PORT_INFO</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_port_infoa">FAX_PORT_INFO</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms692359(v=VS.85).aspx">FAX_PORT_INFO</a> structure. The structure contains data to modify the configuration of the specified fax port.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_port_infoa">FAX_PORT_INFO</a> structure. The structure contains data to modify the configuration of the specified fax port.
 
 
 ## -returns
@@ -82,7 +82,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. GetLastError can return one of the following errors.
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. GetLastError can return one of the following errors.
 
 <table>
 <tr>
@@ -96,7 +96,7 @@ If the function fails, the return value is zero. To get extended error informati
 </dl>
 </td>
 <td width="60%">
-Access is denied. <a href="https://msdn.microsoft.com/en-us/library/ms692302(v=VS.85).aspx">FAX_PORT_SET</a> access is required.
+Access is denied. <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-specific-fax-access-rights">FAX_PORT_SET</a> access is required.
 
 </td>
 </tr>
@@ -132,13 +132,13 @@ One or both of the <i>FaxPortHandle</i> or <i>PortInfo</i> parameters are <b>NUL
 
 
 
-The application must call the <a href="https://msdn.microsoft.com/en-us/library/ms690875(v=VS.85).aspx">FaxOpenPort</a> function and specify the <b>PORT_OPEN_MODIFY</b> access level before calling the <b>FaxSetPort</b> function.
+The application must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxopenport">FaxOpenPort</a> function and specify the <b>PORT_OPEN_MODIFY</b> access level before calling the <b>FaxSetPort</b> function.
 
-Only the following members of the <a href="https://msdn.microsoft.com/en-us/library/ms692359(v=VS.85).aspx">FAX_PORT_INFO</a> structure can be set using this function: Flags, Rings, Priority, Tsid, and Csid
+Only the following members of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_port_infoa">FAX_PORT_INFO</a> structure can be set using this function: Flags, Rings, Priority, Tsid, and Csid
 
-A fax administration application typically calls the <b>FaxSetPort</b> function to administer the fax devices associated with the fax server. To query the devices, call the <a href="https://msdn.microsoft.com/en-us/library/ms691388(v=VS.85).aspx">FaxGetPort</a> function.
+A fax administration application typically calls the <b>FaxSetPort</b> function to administer the fax devices associated with the fax server. To query the devices, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxgetporta">FaxGetPort</a> function.
 
-To obtain a valid port handle to specify in the <i>FaxPortHandle</i> parameter of the <b>FaxSetPort</b> function, call the <a href="https://msdn.microsoft.com/en-us/library/ms690875(v=VS.85).aspx">FaxOpenPort</a> function. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms691489(v=VS.85).aspx">Fax Device Management</a>.
+To obtain a valid port handle to specify in the <i>FaxPortHandle</i> parameter of the <b>FaxSetPort</b> function, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxopenport">FaxOpenPort</a> function. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-device-management">Fax Device Management</a>.
 
 
 
@@ -148,27 +148,27 @@ To obtain a valid port handle to specify in the <i>FaxPortHandle</i> parameter o
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692359(v=VS.85).aspx">FAX_PORT_INFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_port_infoa">FAX_PORT_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691947(v=VS.85).aspx">Fax Service Client API Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-functions">Fax Service Client API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-for-windows-2000">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690826(v=VS.85).aspx">FaxEnumPorts</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxenumportsa">FaxEnumPorts</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691388(v=VS.85).aspx">FaxGetPort</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxgetporta">FaxGetPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690875(v=VS.85).aspx">FaxOpenPort</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxopenport">FaxOpenPort</a>
  
 
  

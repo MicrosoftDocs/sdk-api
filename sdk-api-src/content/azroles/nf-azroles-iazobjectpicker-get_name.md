@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Name</b> property gets the name of the <a href="https://msdn.microsoft.com/767f30c9-6071-4f04-876d-b8b2392e650c">IAzObjectPicker</a> object.
+The <b>Name</b> property gets the name of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazobjectpicker">IAzObjectPicker</a> object.
 
 This property is read-only.
 

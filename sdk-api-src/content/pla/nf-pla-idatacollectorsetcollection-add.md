@@ -59,7 +59,7 @@ Adds a data collector set to the collection.
 
 ### -param set [in]
 
-An <a href="https://msdn.microsoft.com/a4ae0874-4ee6-46a1-9811-8cd4be26859c">IDataCollectorSet</a> interface of the data collector set to add to this collection.
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a> interface of the data collector set to add to this collection.
 
 
 ## -returns
@@ -76,15 +76,15 @@ Returns S_OK if successful.
 
 
 
-<a href="https://msdn.microsoft.com/5f4cc411-1efb-4f70-a677-3c20d95f0c53">IDataCollectorSetCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorsetcollection">IDataCollectorSetCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/52a7d9ba-9bff-428e-a43c-cc354157fd24">IDataCollectorSetCollection::AddRange</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorsetcollection-addrange">IDataCollectorSetCollection::AddRange</a>
 
 
 
-<a href="https://msdn.microsoft.com/6200dac0-8817-4d59-9456-67921bcf15ae">IDataCollectorSetCollection::Remove</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorsetcollection-remove">IDataCollectorSetCollection::Remove</a>
  
 
  

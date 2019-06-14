@@ -50,8 +50,8 @@ ms.custom: 19H1
 
 
 Contains module information for the 
-<a href="https://msdn.microsoft.com/8dc95b0a-6aee-4c38-ab25-a800153bbe91">MiniDumpCallback</a> function when the callback type is 
-<a href="https://msdn.microsoft.com/en-us/library/ms680364(v=VS.85).aspx">ModuleCallback</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a> function when the callback type is 
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_callback_type">ModuleCallback</a>.
 
 
 ## -struct-fields
@@ -87,7 +87,7 @@ The timestamp value of the module executable image, in <b>time_t</b> format.
 ### -field VersionInfo
 
 A 
-<a href="https://msdn.microsoft.com/en-us/library/ms646997(v=VS.85).aspx">VS_FIXEDFILEINFO</a> structure that specifies the version of the module.
+<a href="https://docs.microsoft.com/windows/desktop/api/verrsrc/ns-verrsrc-tagvs_fixedfileinfo">VS_FIXEDFILEINFO</a> structure that specifies the version of the module.
 
 
 ### -field CvRecord
@@ -115,15 +115,15 @@ The size of the miscellaneous record of the module in the <b>MiscRecord</b> memb
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680362(v=VS.85).aspx">MINIDUMP_CALLBACK_INPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_callback_input">MINIDUMP_CALLBACK_INPUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/8dc95b0a-6aee-4c38-ab25-a800153bbe91">MiniDumpCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646997(v=VS.85).aspx">VS_FIXEDFILEINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/verrsrc/ns-verrsrc-tagvs_fixedfileinfo">VS_FIXEDFILEINFO</a>
  
 
  

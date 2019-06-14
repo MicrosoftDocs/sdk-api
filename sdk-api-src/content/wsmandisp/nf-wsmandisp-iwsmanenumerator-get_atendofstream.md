@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 
 Indicates that the end of items in the 
-    <a href="https://msdn.microsoft.com/c7afac5d-946f-49ec-a7d0-de558ed2144b">IWSManEnumerator</a> object has been reached by calls to 
-    <a href="https://msdn.microsoft.com/6b181a4b-347c-4874-969c-9ca7d36ec788">IWSManEnumerator::ReadItem</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanenumerator">IWSManEnumerator</a> object has been reached by calls to 
+    <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanenumerator-readitem">IWSManEnumerator::ReadItem</a>.
 
 This property is read-only.
 
@@ -65,15 +65,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/c7afac5d-946f-49ec-a7d0-de558ed2144b">IWSManEnumerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanenumerator">IWSManEnumerator</a>
 
 
 
-<a href="https://msdn.microsoft.com/ed8ad3ad-d033-45cb-b681-995c5f73b12e">Session.Enumerate</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinRM/session-enumerate">Session.Enumerate</a>
 
 
 
-<a href="https://msdn.microsoft.com/c996f074-f14b-4edd-80b7-8f4de4cbabb0">Windows Remote Management Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-reference">Windows Remote Management Reference</a>
  
 
  

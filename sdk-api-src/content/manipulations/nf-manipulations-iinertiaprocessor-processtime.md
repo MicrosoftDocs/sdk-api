@@ -81,15 +81,15 @@ Returns <b>S_OK</b> on success, otherwise returns an error code such as <b>E_FAI
 
 
 
-<a href="https://msdn.microsoft.com/8dc171eb-0c6e-41dd-b506-5f91ea703a53">IInertiaProcessor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a>
 
 
 
-<a href="https://msdn.microsoft.com/e4acfcac-06c1-42a5-9722-4534a4492ab8">Methods</a>
+<a href="https://docs.microsoft.com/windows/desktop/wintouch/imanipulationprocessor-methods">Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/f63cafa0-0da6-46ba-91d3-956dc804dd79">Process</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-process">Process</a>
  
 
  

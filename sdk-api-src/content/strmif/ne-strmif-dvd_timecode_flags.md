@@ -77,7 +77,7 @@ Disc is authored to play at 29.97 frames per second.
 
 ### -field DVD_TC_FLAG_Interpolated
 
-Value representing the <a href="https://msdn.microsoft.com/3b2c01a2-d52c-4497-8fc9-d1113e8507e8">DVD Navigator Filter</a> filter's best estimate of the disc's frame rate.
+Value representing the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator Filter</a> filter's best estimate of the disc's frame rate.
 
 
 ## -see-also
@@ -85,11 +85,11 @@ Value representing the <a href="https://msdn.microsoft.com/3b2c01a2-d52c-4497-8f
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/90768da1-592a-49ec-99b0-56f463c322e8">IDvdInfo2::GetTotalTitleTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-gettotaltitletime">IDvdInfo2::GetTotalTitleTime</a>
  
 
  

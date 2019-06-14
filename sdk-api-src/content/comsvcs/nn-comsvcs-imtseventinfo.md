@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Describes user-defined events. The events are published to the subscriber using the <a href="https://msdn.microsoft.com/1e0570ae-9099-465a-9133-72aa7d574932">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
+Describes user-defined events. The events are published to the subscriber using the <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--events">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMtsEventInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IMtsEventInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMtsEventInfo</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMtsEventInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMtsEventInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f92c93eb-841a-4bc8-9c02-644c30daccad">get_Count</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-imtseventinfo-get_count">get_Count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of data values from the object.
@@ -78,7 +78,7 @@ Retrieves the number of data values from the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d3d8ed52-0ad3-4073-877b-071bac90c71f">get_DisplayName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-imtseventinfo-get_displayname">get_DisplayName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the display name of the object.
@@ -87,7 +87,7 @@ Retrieves the display name of the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/20695360-ed0d-4d8b-8c3b-42adc42e87b3">get_EventID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-imtseventinfo-get_eventid">get_EventID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the event identifier of the object.
@@ -96,7 +96,7 @@ Retrieves the event identifier of the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/83ce3935-2c9a-4ebe-8758-9ac349d4a73b">get_Names</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-imtseventinfo-get_names">get_Names</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the names of the data values.
@@ -105,7 +105,7 @@ Retrieves an enumerator for the names of the data values.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/61757e85-28b2-4599-9be4-69a3531e5ac2">get_Value</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-imtseventinfo-get_value">get_Value</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of the specified user-defined event.
@@ -120,11 +120,11 @@ Retrieves the value of the specified user-defined event.
 
 
 
-<a href="https://msdn.microsoft.com/1e0570ae-9099-465a-9133-72aa7d574932">COM+ Events</a>
+<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--events">COM+ Events</a>
 
 
 
-<a href="https://msdn.microsoft.com/07f68734-a382-4fe5-86af-90805f61c68d">COM+ Instrumentation</a>
+<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--instrumentation-concepts">COM+ Instrumentation</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the character position in the source range's story that has desired character formatting attributes.  The <a href="https://msdn.microsoft.com/f22bb343-4fcc-4473-84cc-807011b5a7b0">ITextStrings::EncodeFunction</a> method applies those character formatting attributes to the operators specified by the <i>Char</i>, <i>Char1</i>, and <i>Char2</i> parameters.
+Sets the character position in the source range's story that has desired character formatting attributes.  The <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextstrings-encodefunction">ITextStrings::EncodeFunction</a> method applies those character formatting attributes to the operators specified by the <i>Char</i>, <i>Char1</i>, and <i>Char2</i> parameters.
 
 
 ## -parameters
@@ -75,9 +75,9 @@ The character position in source range's story that has the desired character fo
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -106,7 +106,7 @@ Invalid argument.
 
 
 
-<a href="https://msdn.microsoft.com/c878d0db-ac13-4ac9-8601-d1c1ba76cd85">ITextStrings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextstrings">ITextStrings</a>
  
 
  

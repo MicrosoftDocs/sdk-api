@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Initializes an <a href="https://msdn.microsoft.com/BBC11C4A-AECF-4D6D-8275-3E852E309908">IXMLHTTPRequest2</a> request and specifies the method, URL, and authentication information for the request.  After calling this method, you must call the <a href="https://msdn.microsoft.com/E46DB550-8346-41F2-9B35-4DFD9732B0D8">Send</a>  method to send the request and data, if any, to the server.
+Initializes an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2</a> request and specifies the method, URL, and authentication information for the request.  After calling this method, you must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-send">Send</a>  method to send the request and data, if any, to the server.
 
 
 ## -parameters
@@ -71,12 +71,12 @@ The requested URL. This must be an absolute URL, such as "http://Myserver/Mypath
 
 A callback interface implemented by the app that is to receive callback events. 
 
-When the <a href="https://msdn.microsoft.com/E46DB550-8346-41F2-9B35-4DFD9732B0D8">Send Method</a> is successful, the methods on this interface are called to process the response or other events. 
+When the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-send">Send Method</a> is successful, the methods on this interface are called to process the response or other events. 
 
 
 ### -param pwszUserName [in, optional]
 
-The name of the user for authentication. If this parameter is a Null and the site requires authentication, credentials will be managed by Windows, including displaying a logon UI, unless disabled by <a href="https://msdn.microsoft.com/4BBA4E21-29ED-413D-90D6-161D31CC13C9">SetProperty</a>.
+The name of the user for authentication. If this parameter is a Null and the site requires authentication, credentials will be managed by Windows, including displaying a logon UI, unless disabled by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-setproperty">SetProperty</a>.
 
 
 ### -param pwszPassword [in, optional]
@@ -86,7 +86,7 @@ The password for authentication. This parameter is ignored if the <i>pwszUserNam
 
 ### -param pwszProxyUserName [in, optional]
 
-The name of the user for authentication on the proxy server. If this parameter is a Null or empty string and the site requires authentication, credentials will be managed by Windows, including displaying a logon UI, unless disabled by <a href="https://msdn.microsoft.com/4BBA4E21-29ED-413D-90D6-161D31CC13C9">SetProperty</a>.
+The name of the user for authentication on the proxy server. If this parameter is a Null or empty string and the site requires authentication, credentials will be managed by Windows, including displaying a logon UI, unless disabled by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-setproperty">SetProperty</a>.
 
 
 ### -param pwszProxyPassword [in, optional]
@@ -149,15 +149,15 @@ For the complete examples download the <a href="http://go.microsoft.com/fwlink/p
 
 
 
-<a href="https://msdn.microsoft.com/BBC11C4A-AECF-4D6D-8275-3E852E309908">IXMLHTTPRequest2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2</a>
 
 
 
-<a href="https://msdn.microsoft.com/AA4B3F4C-6E28-458B-BE25-6CCE8865FC71">IXMLHTTPRequest2Callback Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2callback">IXMLHTTPRequest2Callback Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/E46DB550-8346-41F2-9B35-4DFD9732B0D8">Send Method</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-send">Send Method</a>
  
 
  

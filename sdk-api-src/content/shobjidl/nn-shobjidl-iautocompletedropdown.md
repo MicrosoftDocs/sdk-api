@@ -54,7 +54,7 @@ Exposes methods that allow clients to reset or query the display state of the au
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAutoCompleteDropDown</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAutoCompleteDropDown</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAutoCompleteDropDown</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAutoCompleteDropDown</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAutoCompleteDropDown</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/824c435c-e8ee-4435-a779-bae3ef721613">GetDropDownStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iautocompletedropdown-getdropdownstatus">GetDropDownStatus</a>
 </td>
 <td align="left" width="63%">
 Gets the current display status of the autocomplete drop-down list.
@@ -78,7 +78,7 @@ Gets the current display status of the autocomplete drop-down list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9a880b2a-190a-45ea-8672-f2d0247987ed">ResetEnumerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iautocompletedropdown-resetenumerator">ResetEnumerator</a>
 </td>
 <td align="left" width="63%">
 Forces the autocomplete object to refresh its list of suggestions when the list is visible.

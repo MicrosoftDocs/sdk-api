@@ -89,7 +89,7 @@ The size of the <i>Indices</i> buffer, in <b>DWORDs</b>. This parameter will be 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -102,7 +102,7 @@ The
 <b>ImageEnumerateCertificates</b> function returns information about the certificates currently contained in an image file. It has filtering capabilities which allow certificates containing sections of any single type (or of any type) to be returned.
 
 After the indices of interesting certificates are discovered, they can be passed to the 
-<a href="https://msdn.microsoft.com/ca4cf3a3-9324-4784-a6d8-44692f4840eb">ImageGetCertificateData</a> function to obtain the actual bodies of the certificates.
+<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-imagegetcertificatedata">ImageGetCertificateData</a> function to obtain the actual bodies of the certificates.
 
 All ImageHlp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
@@ -114,11 +114,11 @@ All ImageHlp functions, such as this one, are single threaded. Therefore, calls 
 
 
 
-<a href="https://msdn.microsoft.com/ca4cf3a3-9324-4784-a6d8-44692f4840eb">ImageGetCertificateData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-imagegetcertificatedata">ImageGetCertificateData</a>
 
 
 
-<a href="https://msdn.microsoft.com/926f412e-25ba-4f9c-a118-b5a1bc723379">ImageHlp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Indicates whether the <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> can be converted to an <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp</a> object.
+Indicates whether the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> can be converted to an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
 
 
 
@@ -63,12 +63,12 @@ Indicates whether the <a href="https://msdn.microsoft.com/8a002deb-2727-456c-807
 
 ### -param DataObject [in, optional]
 
-Optional. Specifies the <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> to inspect. The default value is <b>NULL</b>, which means the data object on the Clipboard is used.
+Optional. Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> to inspect. The default value is <b>NULL</b>, which means the data object on the Clipboard is used.
 
 
 ### -param CanPaste [out, retval]
 
-<b>VARIANT_TRUE</b> if the data object can be converted to an <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp</a> object; otherwise, <b>VARIANT_FALSE</b>.
+<b>VARIANT_TRUE</b> if the data object can be converted to an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object; otherwise, <b>VARIANT_FALSE</b>.
 
 
 ## -returns
@@ -125,7 +125,7 @@ An exception occurred inside the method.
 
 
 
-If the supplied <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> is <b>NULL</b>, then the data object on the Clipboard is used.
+If the supplied <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> is <b>NULL</b>, then the data object on the Clipboard is used.
 
 
 
@@ -139,7 +139,7 @@ If the supplied <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0
 
 
 
-<a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
  
 
  

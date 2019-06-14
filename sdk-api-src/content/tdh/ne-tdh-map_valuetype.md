@@ -59,12 +59,12 @@ Defines if the value map value is in a ULONG data type or a string.
 
 ### -field EVENTMAP_ENTRY_VALUETYPE_ULONG
 
-Use the <b>Value</b> member of <a href="https://msdn.microsoft.com/e5b12f7a-4a00-41a0-90df-7d1317d63a4a">EVENT_MAP_ENTRY</a> to access the map value. 
+Use the <b>Value</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_event_map_entry">EVENT_MAP_ENTRY</a> to access the map value. 
 
 
 ### -field EVENTMAP_ENTRY_VALUETYPE_STRING
 
-Use the <b>InputOffset</b> member of <a href="https://msdn.microsoft.com/e5b12f7a-4a00-41a0-90df-7d1317d63a4a">EVENT_MAP_ENTRY</a> to access the map value.
+Use the <b>InputOffset</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_event_map_entry">EVENT_MAP_ENTRY</a> to access the map value.
 
 
 ## -see-also
@@ -72,7 +72,7 @@ Use the <b>InputOffset</b> member of <a href="https://msdn.microsoft.com/e5b12f7
 
 
 
-<a href="https://msdn.microsoft.com/dc7f14e7-16d7-4dfc-8c1a-5db6fa999d98">EVENT_MAP_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_event_map_info">EVENT_MAP_INFO</a>
  
 
  

@@ -68,12 +68,12 @@ The zero-based index of the scan for which data is retrieved.
 
 Type: <b>UINT</b>
 
-The index of the DC Huffman table to retrieve. Valid indices for a given scan can be determined by retrieving the scan header with <a href="https://msdn.microsoft.com/FD434498-CC04-4702-ACD3-EDD1DDE0B3AA">IWICJpegFrameDecode::GetScanHeader</a>.
+The index of the DC Huffman table to retrieve. Valid indices for a given scan can be determined by retrieving the scan header with <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-getscanheader">IWICJpegFrameDecode::GetScanHeader</a>.
 
 
 ### -param pDcHuffmanTable [out]
 
-Type: <b><a href="https://msdn.microsoft.com/E1923FFA-E7E5-4158-9793-3E7F5A6EA7FA">DXGI_JPEG_AC_HUFFMAN_TABLE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-jpeg-ac-huffman-table">DXGI_JPEG_AC_HUFFMAN_TABLE</a>*</b>
 
 A pointer that receives the table data. This parameter must not be NULL.
 
@@ -82,7 +82,7 @@ A pointer that receives the table data. This parameter must not be NULL.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 This method can return one of these values.
 
@@ -135,7 +135,7 @@ Can occur if <i>pTable</i> is NULL or if <i>tableIndex</i> does not point to a v
 
 
 
-<a href="https://msdn.microsoft.com/E6310320-53A8-40F1-8964-D21D8054E1B8">IWICJpegFrameDecode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicjpegframedecode">IWICJpegFrameDecode</a>
  
 
  

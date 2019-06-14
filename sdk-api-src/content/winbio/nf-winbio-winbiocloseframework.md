@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Closes a framework handle previously opened with <a href="https://msdn.microsoft.com/D9557A6F-32C4-464F-8800-6E546808F100">WinBioAsyncOpenFramework</a>. Starting with Windows 10, build 1607, this  function is available to use with a mobile image.
+Closes a framework handle previously opened with <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncopenframework">WinBioAsyncOpenFramework</a>. Starting with Windows 10, build 1607, this  function is available to use with a mobile image.
 
 
 ## -parameters

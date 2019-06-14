@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The CONFLICT_DETAILS structure is used as a parameter to the <a href="https://msdn.microsoft.com/ce4691e2-4a0e-48bf-b085-ac0cb7665725">CM_Get_Resource_Conflict_Details</a> function.
+The CONFLICT_DETAILS structure is used as a parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_resource_conflict_detailsw">CM_Get_Resource_Conflict_Details</a> function.
 
 
 ## -struct-fields
@@ -178,7 +178,7 @@ If CM_CDMASK_DESCRIPTION is set in <b>CD_ulMask</b>, this member will receive a 
 
 
 
-<a href="https://msdn.microsoft.com/ce4691e2-4a0e-48bf-b085-ac0cb7665725">CM_Get_Resource_Conflict_Details</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_resource_conflict_detailsw">CM_Get_Resource_Conflict_Details</a>
  
 
  

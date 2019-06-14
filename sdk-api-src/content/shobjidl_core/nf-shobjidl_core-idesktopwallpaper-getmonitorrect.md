@@ -59,7 +59,7 @@ Retrieves the display rectangle of the specified monitor.
 
 ### -param monitorID [in]
 
-The ID of the monitor to query. You can get this value through <a href="https://msdn.microsoft.com/CE0C6B07-F9D1-4221-9D9D-8D17CF6780E6">GetMonitorDevicePathAt</a>.
+The ID of the monitor to query. You can get this value through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getmonitordevicepathat">GetMonitorDevicePathAt</a>.
 
 
 ### -param displayRect [out]
@@ -122,7 +122,7 @@ The ID supplied in <i>monitorID</i> cannot be found.
 
 
 
-<a href="https://msdn.microsoft.com/A83903B5-314B-4a8b-8D37-F8A8995DE0CB">IDesktopWallpaper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idesktopwallpaper">IDesktopWallpaper</a>
  
 
  

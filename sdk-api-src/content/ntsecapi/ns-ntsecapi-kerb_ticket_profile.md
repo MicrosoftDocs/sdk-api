@@ -53,7 +53,7 @@ The <b>KERB_TICKET_PROFILE</b> structure contains information about an interacti
 			
 
 This structure is returned by 
-<a href="https://msdn.microsoft.com/75968d53-5af2-4d77-9486-26403b73c954">LsaLogonUser</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a>.
 
 
 ## -struct-fields
@@ -64,11 +64,11 @@ This structure is returned by
 ### -field Profile
 
 
-<a href="https://msdn.microsoft.com/8e9dd04b-8155-4f85-be00-ff9d8297deaa">KERB_INTERACTIVE_PROFILE</a> structure containing logon information.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_interactive_profile">KERB_INTERACTIVE_PROFILE</a> structure containing logon information.
 
 
 ### -field SessionKey
 
 
-<a href="https://msdn.microsoft.com/ac7ea61c-b1e0-4dc0-931e-81bb6fd74888">KERB_CRYPTO_KEY</a> structure containing the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">session key</a> for the Kerberos ticket.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_crypto_key">KERB_CRYPTO_KEY</a> structure containing the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">session key</a> for the Kerberos ticket.
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CryptSIPCreateIndirectData</b> function returns a <a href="https://msdn.microsoft.com/d34b599b-fe49-47c4-bb52-73ee14d73253">SIP_INDIRECT_DATA</a> structure that contains  a <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> of  the supplied <a href="https://msdn.microsoft.com/6274cd08-d67f-410d-9303-3a42b7f1edc6">SIP_SUBJECTINFO</a> structure, the digest algorithm, and  an encoding attribute. The hash can be used as an indirect reference to the data.
+The <b>CryptSIPCreateIndirectData</b> function returns a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_indirect_data_">SIP_INDIRECT_DATA</a> structure that contains  a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> of  the supplied <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo_">SIP_SUBJECTINFO</a> structure, the digest algorithm, and  an encoding attribute. The hash can be used as an indirect reference to the data.
 
 
 ## -parameters
@@ -59,17 +59,17 @@ The <b>CryptSIPCreateIndirectData</b> function returns a <a href="https://msdn.m
 
 ### -param pSubjectInfo [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/6274cd08-d67f-410d-9303-3a42b7f1edc6">SIP_SUBJECTINFO</a> structure that contains the subject to which the indirect data reference will point.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo_">SIP_SUBJECTINFO</a> structure that contains the subject to which the indirect data reference will point.
 
 
 ### -param pcbIndirectData [in, out]
 
-A pointer to a <b>DWORD</b> value to receive the size of the returned  <a href="https://msdn.microsoft.com/d34b599b-fe49-47c4-bb52-73ee14d73253">SIP_INDIRECT_DATA</a> structure.
+A pointer to a <b>DWORD</b> value to receive the size of the returned  <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_indirect_data_">SIP_INDIRECT_DATA</a> structure.
 
 
 ### -param pIndirectData [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/d34b599b-fe49-47c4-bb52-73ee14d73253">SIP_INDIRECT_DATA</a> structure to receive the catalog item.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_indirect_data_">SIP_INDIRECT_DATA</a> structure to receive the catalog item.
 
 
 ## -returns
@@ -79,7 +79,7 @@ A pointer to a <a href="https://msdn.microsoft.com/d34b599b-fe49-47c4-bb52-73ee1
 The return value is <b>TRUE</b> if the function succeeds; otherwise, <b>FALSE</b>.
 
 
-If this function returns <b>FALSE</b>, additional error information can be obtained by calling the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function. <b>GetLastError</b> will return one of the following error codes.
+If this function returns <b>FALSE</b>, additional error information can be obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. <b>GetLastError</b> will return one of the following error codes.
 
 
 
@@ -95,7 +95,7 @@ If this function returns <b>FALSE</b>, additional error information can be obtai
 </dl>
 </td>
 <td width="60%">
-The file or data format is not correct for the specified <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">subject interface package</a> (SIP) type.
+The file or data format is not correct for the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">subject interface package</a> (SIP) type.
 
 </td>
 </tr>

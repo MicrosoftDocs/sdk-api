@@ -76,19 +76,19 @@ The time interval, in 100-nanosecond units.
 
 
 
-<a href="https://msdn.microsoft.com/eae11d63-c909-45fc-a38f-d9599b873b6f">CreateTimeSpan</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createtimespan">CreateTimeSpan</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f663acc-5ced-4fd2-a0d5-3e462fe60251">CreateTimeSpanArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createtimespanarray">CreateTimeSpanArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/c78d584f-e2ef-4623-b45a-e26d2ec1518b">IPropertyValue::GetTimeSpan</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-gettimespan">IPropertyValue::GetTimeSpan</a>
 
 
 
-<a href="https://msdn.microsoft.com/a52a665c-4c3a-4489-bd7b-e8ecb8dfe9cc">IPropertyValue::GetTimeSpanArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-gettimespanarray">IPropertyValue::GetTimeSpanArray</a>
  
 
  

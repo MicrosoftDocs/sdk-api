@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CreateScope</b> method creates an <a href="https://msdn.microsoft.com/f7abe7cb-8827-46f6-85fe-99282582a3d4">IAzScope</a> object with the specified name.
+The <b>CreateScope</b> method creates an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazscope">IAzScope</a> object with the specified name.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>CreateScope</b> method creates an <a href="https://msdn.microsoft.com/f7a
 
 ### -param bstrScopeName [in]
 
-Name for the new <a href="https://msdn.microsoft.com/f7abe7cb-8827-46f6-85fe-99282582a3d4">IAzScope</a> object.
+Name for the new <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazscope">IAzScope</a> object.
 
 
 ### -param varReserved [in, optional]
@@ -70,7 +70,7 @@ Reserved for future use.
 
 ### -param ppScope [out]
 
-A pointer to a pointer to the created <a href="https://msdn.microsoft.com/f7abe7cb-8827-46f6-85fe-99282582a3d4">IAzScope</a> object.
+A pointer to a pointer to the created <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazscope">IAzScope</a> object.
 
 
 ## -returns
@@ -88,9 +88,9 @@ Any other <b>HRESULT</b> value indicates that the operation failed.
 
 
 
-You must call the <a href="https://msdn.microsoft.com/c06f1994-71d9-4867-a5ed-8fa90206994f">IAzScope::Submit</a> method to persist any changes made to the returned object.
+You must call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazscope-submit">IAzScope::Submit</a> method to persist any changes made to the returned object.
 
-The returned <a href="https://msdn.microsoft.com/f7abe7cb-8827-46f6-85fe-99282582a3d4">IAzScope</a> object is an immediate child object of the <a href="https://msdn.microsoft.com/ea4a8a84-5003-44da-b75e-34da6bd898dd">IAzApplication</a> object.
+The returned <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazscope">IAzScope</a> object is an immediate child object of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object.
 
 
 

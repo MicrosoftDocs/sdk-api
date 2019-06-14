@@ -52,8 +52,8 @@ ms.custom: 19H1
 
 
 <p class="CCE_Message">[This property is supported for compatibility but it's recommended to use the 
-    <a href="https://msdn.microsoft.com/1CE772FA-CE33-4900-A499-058175A7C37E">FSRM WMI Classes</a> to manage FSRM. Please see the 
-    <a href="https://msdn.microsoft.com/1ce33602-0ada-4d82-aebb-9dee7dc8b2f3">MSFT_FSRMFileManagementJob</a> class.]
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a> class.]
 
 The root directory that will contain the expired files.
 
@@ -83,9 +83,9 @@ If the expiration directory does not exist, FSRM creates the directory (with adm
      only).
 
 Do not specify an expiration directory that is in the 
-    <a href="https://msdn.microsoft.com/1f48ac40-eace-49f2-b77d-2456a1a5fa34">NamespaceRoots</a> path.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_namespaceroots">NamespaceRoots</a> path.
 
-Specify only if <a href="https://msdn.microsoft.com/98816ea0-7651-42ef-8893-13c568ed859a">OperationType</a> 
+Specify only if <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_operationtype">OperationType</a> 
     is <b>FsrmFileManagementType_Expiration</b>.
 
 
@@ -96,11 +96,11 @@ Specify only if <a href="https://msdn.microsoft.com/98816ea0-7651-42ef-8893-13c5
 
 
 
-<a href="https://msdn.microsoft.com/e9ae697d-4f7c-47d9-8d2a-c46c2e5f838f">IFsrmFileManagementJob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmfilemanagementjob">IFsrmFileManagementJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/1ce33602-0ada-4d82-aebb-9dee7dc8b2f3">MSFT_FSRMFileManagementJob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a>
  
 
  

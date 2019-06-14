@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The table of <a href="https://msdn.microsoft.com/en-us/library/Mt162305(v=VS.85).aspx">NET_INTERFACE_CONTEXT</a> structures.
+The table of <a href="https://docs.microsoft.com/windows/desktop/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-_net_interface_context">NET_INTERFACE_CONTEXT</a> structures.
 
 
 ## -struct-fields
@@ -69,7 +69,7 @@ The number of entries in the table.
 
 ### -field InterfaceContextArray
 
-An array of <a href="https://msdn.microsoft.com/en-us/library/Mt162305(v=VS.85).aspx">NET_INTERFACE_CONTEXT</a> structures.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-_net_interface_context">NET_INTERFACE_CONTEXT</a> structures.
 
 
 ## -see-also
@@ -77,11 +77,11 @@ An array of <a href="https://msdn.microsoft.com/en-us/library/Mt162305(v=VS.85).
 
 
 
-<a href="https://msdn.microsoft.com/BD687853-6242-4A72-BACE-13B681FD4674">GetInterfaceContextTableForHostName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ondemandconnroutehelper/nf-ondemandconnroutehelper-getinterfacecontexttableforhostname">GetInterfaceContextTableForHostName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt162305(v=VS.85).aspx">NET_INTERFACE_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-_net_interface_context">NET_INTERFACE_CONTEXT</a>
  
 
  

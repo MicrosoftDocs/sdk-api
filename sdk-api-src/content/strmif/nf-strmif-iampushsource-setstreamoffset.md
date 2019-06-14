@@ -81,7 +81,7 @@ Returns S_FALSE if the specified offset is larger than the filter's maximum pref
 
 The filter graph calls this method to adjust a filter's stream offset, in order to synchronize streams with different latency values.
 
-If the return value is S_FALSE, the filter might not support a buffer large enough for the requested offset. Unless there is another buffer downstream, data might be lost. To retrieve the filter's maximum preferred offset, call the <a href="https://msdn.microsoft.com/503ec642-0a86-47b9-b453-08ab90346630">IAMPushSource::GetMaxStreamOffset</a> method.
+If the return value is S_FALSE, the filter might not support a buffer large enough for the requested offset. Unless there is another buffer downstream, data might be lost. To retrieve the filter's maximum preferred offset, call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iampushsource-getmaxstreamoffset">IAMPushSource::GetMaxStreamOffset</a> method.
 
 
 
@@ -91,11 +91,11 @@ If the return value is S_FALSE, the filter might not support a buffer large enou
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/5ab294a8-f250-405c-a589-68998bc04cdf">IAMPushSource Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iampushsource">IAMPushSource Interface</a>
  
 
  

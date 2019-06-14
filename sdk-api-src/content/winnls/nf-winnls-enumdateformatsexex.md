@@ -51,9 +51,9 @@ ms.custom: 19H1
 ## -description
 
 
-Enumerates the long date, short date, or year/month formats that are available for a locale specified by name.<div class="alert"><b>Note</b>  The application should call this function in preference to <a href="https://msdn.microsoft.com/77b5e753-aee9-42d8-a0fa-27b065fc3b20">EnumDateFormats</a> or <a href="https://msdn.microsoft.com/523ef50f-722a-48b9-a2ce-20786b7c79e1">EnumDateFormatsEx</a> if designed to run only on Windows Vista and later.</div>
+Enumerates the long date, short date, or year/month formats that are available for a locale specified by name.<div class="alert"><b>Note</b>  The application should call this function in preference to <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumdateformatsa">EnumDateFormats</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumdateformatsexa">EnumDateFormatsEx</a> if designed to run only on Windows Vista and later.</div>
 <div> </div>
-<div class="alert"><b>Note</b>  This function can enumerate data that changes between releases, for example, due to a custom locale. If your application must persist or transmit data, see <a href="https://msdn.microsoft.com/f62402d6-31de-4ff7-9538-7925a007a089">Using Persistent Locale Data</a>.</div>
+<div class="alert"><b>Note</b>  This function can enumerate data that changes between releases, for example, due to a custom locale. If your application must persist or transmit data, see <a href="https://docs.microsoft.com/windows/desktop/Intl/using-persistent-locale-data">Using Persistent Locale Data</a>.</div>
 <div> </div>
 
 
@@ -65,28 +65,28 @@ Enumerates the long date, short date, or year/month formats that are available f
 
 ### -param lpDateFmtEnumProcExEx [in]
 
-Pointer to an application-defined callback function. For more information, see <a href="https://msdn.microsoft.com/ae50e777-4860-4c64-b7c1-debd2048694c">EnumDateFormatsProcExEx</a>.
+Pointer to an application-defined callback function. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd317815(v=vs.85)">EnumDateFormatsProcExEx</a>.
 
 
 ### -param lpLocaleName [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/221aae7b-3a7c-4995-ae78-50d97de436d8">locale name</a>, or one of the following predefined values. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-names">locale name</a>, or one of the following predefined values. 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/63e2e368-af2f-4af0-bbea-2b27d1939394">LOCALE_NAME_INVARIANT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_INVARIANT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/63e2e368-af2f-4af0-bbea-2b27d1939394">LOCALE_NAME_SYSTEM_DEFAULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_SYSTEM_DEFAULT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/63e2e368-af2f-4af0-bbea-2b27d1939394">LOCALE_NAME_USER_DEFAULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_USER_DEFAULT</a>
 </li>
 </ul>
 
 ### -param dwFlags [in]
 
-Flag specifying date formats. The application can supply one of the following values or the <a href="https://msdn.microsoft.com/686ca9f2-515d-449f-8871-77c78ab5c31a">LOCALE_USE_CP_ACP</a> constant.
+Flag specifying date formats. The application can supply one of the following values or the <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-use-cp-acp">LOCALE_USE_CP_ACP</a> constant.
 
 <table>
 <tr>
@@ -146,7 +146,7 @@ An application-provided parameter to pass to the callback function. This value i
 
 
 
-Returns a nonzero value if successful, or 0 otherwise. To get extended error information, the application can call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>, which can return one of the following error codes:
+Returns a nonzero value if successful, or 0 otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <ul>
 <li>ERROR_BADDB. The function could not access the data. This situation should not normally occur, and typically indicates a bad installation, a disk problem, or the like.</li>
@@ -164,7 +164,7 @@ Returns a nonzero value if successful, or 0 otherwise. To get extended error inf
 <div> </div>
 The function enumerates the date formats by passing date format string pointers, one at a time, to the specified application-defined callback function, along with an application-defined constant that is useful for multi-threaded applications. This process continues until <b>EnumDateFormatsExEx</b> finds the last date format or the callback function returns <b>FALSE</b>.
 
-<b>Beginning in Windows 8:</b> If your app passes language tags to this function from the <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Globalization">Windows.Globalization</a> namespace, it must first convert the tags by calling <a href="https://msdn.microsoft.com/99264b22-3fb5-47e2-b0b9-42a6768e67c1">ResolveLocaleName</a>.
+<b>Beginning in Windows 8:</b> If your app passes language tags to this function from the <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Globalization">Windows.Globalization</a> namespace, it must first convert the tags by calling <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-resolvelocalename">ResolveLocaleName</a>.
 
 
 
@@ -174,23 +174,23 @@ The function enumerates the date formats by passing date format string pointers,
 
 
 
-<a href="https://msdn.microsoft.com/77b5e753-aee9-42d8-a0fa-27b065fc3b20">EnumDateFormats</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumdateformatsa">EnumDateFormats</a>
 
 
 
-<a href="https://msdn.microsoft.com/523ef50f-722a-48b9-a2ce-20786b7c79e1">EnumDateFormatsEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumdateformatsexa">EnumDateFormatsEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/ae50e777-4860-4c64-b7c1-debd2048694c">EnumDateFormatsProcExEx</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd317815(v=vs.85)">EnumDateFormatsProcExEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a548074-0782-45e1-8051-80c3b9d81885">National Language Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c72c4de-83be-4b7e-9ed8-b0236c1df8a4">National Language Support Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
  
 
  

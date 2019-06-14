@@ -72,7 +72,7 @@ The number of entries in the logical palette.
 
 ### -field palPalEntry
 
-Specifies an array of <a href="https://msdn.microsoft.com/6430e7cf-c9f2-4376-8b17-28c10d9d0f00">PALETTEENTRY</a> structures that define the color and usage of each entry in the logical palette.
+Specifies an array of <a href="https://docs.microsoft.com/previous-versions//dd162769(v=vs.85)">PALETTEENTRY</a> structures that define the color and usage of each entry in the logical palette.
 
 
 ## -remarks
@@ -89,19 +89,19 @@ The colors in the palette-entry table should appear in order of importance becau
 
 
 
-<a href="https://msdn.microsoft.com/342ba106-e87a-43ae-88f9-bb42bb34006a">Color Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/color-structures">Color Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/d1a25f13-6b47-4be7-927b-814dd6ae81f8">Colors Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/colors">Colors Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/f3462198-9360-4b77-ac62-9fe21ec666be">CreatePalette</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpalette">CreatePalette</a>
 
 
 
-<a href="https://msdn.microsoft.com/6430e7cf-c9f2-4376-8b17-28c10d9d0f00">PALETTEENTRY</a>
+<a href="https://docs.microsoft.com/previous-versions//dd162769(v=vs.85)">PALETTEENTRY</a>
  
 
  

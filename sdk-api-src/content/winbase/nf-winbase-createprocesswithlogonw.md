@@ -54,7 +54,7 @@ ms.custom: 19H1
 Creates a new process and its primary thread. Then the new process runs the specified executable file in the security context of the specified credentials (user, domain, and password). It can optionally load the user profile for a specified user.
 
 This function is similar to the 
-<a href="https://msdn.microsoft.com/6b3f4dd9-500b-420e-804a-401a9e188be8">CreateProcessAsUser</a> and <a href="https://msdn.microsoft.com/b329866a-0c0d-4cb3-838c-36aac17c87ed">CreateProcessWithTokenW</a> functions, except that the caller does not need to call the <a href="https://msdn.microsoft.com/a6d880a0-0aed-4bdb-89c9-4f667ecb510e">LogonUser</a> function to authenticate the user and get a token.
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createprocesswithtokenw">CreateProcessWithTokenW</a> functions, except that the caller does not need to call the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a> function to authenticate the user and get a token.
 
 
 ## -parameters
@@ -172,18 +172,18 @@ The function can modify the contents of this string. Therefore, this parameter c
 The <i>lpCommandLine</i> parameter can be <b>NULL</b>, and the function uses the string pointed to by <i>lpApplicationName</i> as the command line.
 
 If both <i>lpApplicationName</i> and <i>lpCommandLine</i> are non-<b>NULL</b>, *<i>lpApplicationName</i> specifies the module to execute, and *<i>lpCommandLine</i> specifies the command line. The new process can use 
-<a href="https://msdn.microsoft.com/08dfcab2-eb6e-49a4-80eb-87d4076c98c6">GetCommandLine</a> to retrieve the entire command line. Console processes written in C can use the <i>argc</i> and <i>argv</i> arguments to parse the command line. Because <i>argv[0]</i> is the module name, C programmers typically repeat the module name as the first token in the command line.
+<a href="https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-getcommandlinea">GetCommandLine</a> to retrieve the entire command line. Console processes written in C can use the <i>argc</i> and <i>argv</i> arguments to parse the command line. Because <i>argv[0]</i> is the module name, C programmers typically repeat the module name as the first token in the command line.
 
 If <i>lpApplicationName</i> is <b>NULL</b>, the first white space–delimited token of the command line specifies the module name. If you are using a long file name that contains a space, use quoted strings to indicate where the file name ends and the arguments begin (see the explanation for the <i>lpApplicationName</i> parameter). If the file name does not contain an extension, .exe is appended. Therefore, if the file name extension is .com, this parameter must include the .com extension. If the file name ends in a period  with no extension, or if the file name contains a path, .exe is not appended. If the file name does not contain a directory path, the system searches for the executable file in the following sequence:
 
 <ol>
 <li>The directory from which the application loaded.</li>
 <li>The current directory for the parent process.</li>
-<li>The 32-bit Windows system directory. Use the <a href="https://msdn.microsoft.com/79f045b2-40d9-498a-b720-e729c92bf50b">GetSystemDirectory</a> function to get the path of this directory.</li>
+<li>The 32-bit Windows system directory. Use the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya">GetSystemDirectory</a> function to get the path of this directory.</li>
 <li>The 16-bit Windows system directory. There is no function that obtains the path of this directory, but it is searched.</li>
 <li>The Windows directory. Use the 
-<a href="https://msdn.microsoft.com/8c9b55e1-121a-4405-9f83-043752dd48ed">GetWindowsDirectory</a> function to get the path of this directory.</li>
-<li>The directories that are listed in the PATH environment variable. Note that this function does not search the per-application path specified by the <b>App Paths</b> registry key. To include this per-application path in the search sequence, use the <a href="https://msdn.microsoft.com/en-us/library/Hh449546(v=VS.85).aspx">ShellExecute</a> function.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya">GetWindowsDirectory</a> function to get the path of this directory.</li>
+<li>The directories that are listed in the PATH environment variable. Note that this function does not search the per-application path specified by the <b>App Paths</b> registry key. To include this per-application path in the search sequence, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/axe/shellexecute">ShellExecute</a> function.</li>
 </ol>
 The system adds a null character to the command line string to separate the file name from the arguments. This divides the original string into two strings for internal processing.
 
@@ -208,7 +208,7 @@ The flags that control how the process is created. The <b>CREATE_DEFAULT_ERROR_M
 <td width="60%">
 The new process does not inherit the error mode of the calling process. Instead, 
 <b>CreateProcessWithLogonW</b> gives the new process the current default error mode. An application sets the current default error mode by calling 
-<a href="https://msdn.microsoft.com/b88f5577-9124-433c-a7e8-a7f713b7b27d">SetErrorMode</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a>. 
 
 
 
@@ -241,7 +241,7 @@ This flag is enabled by default.
 </td>
 <td width="60%">
 The new process is the root process of a new process group. The process group includes all processes that are descendants of this root process. The process identifier of the new process group is the same as the process identifier, which is returned in the <i>lpProcessInfo</i> parameter. Process groups are used by the 
-<a href="https://msdn.microsoft.com/library/ms683155(v=VS.85).aspx">GenerateConsoleCtrlEvent</a> function to enable sending a CTRL+C or CTRL+BREAK signal to a group of console processes. 
+<a href="https://docs.microsoft.com/windows/console/generateconsolectrlevent">GenerateConsoleCtrlEvent</a> function to enable sending a CTRL+C or CTRL+BREAK signal to a group of console processes. 
 
 
 
@@ -269,7 +269,7 @@ This flag is only valid starting a 16-bit Windows-based application. If set, the
 </td>
 <td width="60%">
 The primary thread of the new process is created in a suspended state, and does not run until the 
-<a href="https://msdn.microsoft.com/ffc4e474-635b-4bf7-a68f-073899fb3fde">ResumeThread</a> function is called.
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-resumethread">ResumeThread</a> function is called.
 
 </td>
 </tr>
@@ -288,7 +288,7 @@ Indicates the format of the <i>lpEnvironment</i> parameter. If this flag is set,
  
 
 This parameter also controls the new process's priority class, which is used to determine the scheduling priorities of the process's threads. For a list of values, see 
-<a href="https://msdn.microsoft.com/2a16b18f-8efa-43f0-9f7d-d38cc8a153d3">GetPriorityClass</a>. If none of the priority class flags is specified, the priority class defaults to <b>NORMAL_PRIORITY_CLASS</b> unless the priority class of the creating process is <b>IDLE_PRIORITY_CLASS</b> or <b>BELOW_NORMAL_PRIORITY_CLASS</b>. In this case, the child process receives the default priority class of the calling process.
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getpriorityclass">GetPriorityClass</a>. If none of the priority class flags is specified, the priority class defaults to <b>NORMAL_PRIORITY_CLASS</b> unless the priority class of the creating process is <b>IDLE_PRIORITY_CLASS</b> or <b>BELOW_NORMAL_PRIORITY_CLASS</b>. In this case, the child process receives the default priority class of the calling process.
 
 
 ### -param lpEnvironment [in, optional]
@@ -309,7 +309,7 @@ An environment block can contain Unicode or ANSI characters. If the environment 
 An ANSI environment block is terminated by two 0 (zero) bytes: one for the last string and one more to terminate the block. A Unicode environment block is terminated by four zero bytes: two for the last string and two more to terminate the block.
 
 To retrieve a copy of the environment block for a specific user, use the 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762270(v=VS.85).aspx">CreateEnvironmentBlock</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-createenvironmentblock">CreateEnvironmentBlock</a> function.
 
 
 ### -param lpCurrentDirectory [in, optional]
@@ -322,7 +322,7 @@ If this parameter is <b>NULL</b>, the new process has the same current drive and
 ### -param lpStartupInfo [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3">STARTUPINFO</a> structure. 
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_startupinfoa">STARTUPINFO</a> structure. 
 
 
 The application must add permission for the specified user account to the specified window station and desktop, even for WinSta0\Default.
@@ -333,23 +333,23 @@ The application must add permission for the specified user account to the inheri
 <b>Windows XP:  </b><b>CreateProcessWithLogonW</b> adds permission for the specified user account to the inherited window station and desktop. 
 
 Handles in 
-<a href="https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3">STARTUPINFO</a> must be closed with 
-<a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> when they are no longer needed.
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_startupinfoa">STARTUPINFO</a> must be closed with 
+<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> when they are no longer needed.
 
-<div class="alert"><b>Important</b>  If the <b>dwFlags</b> member of the  <a href="https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3">STARTUPINFO</a> structure specifies <b>STARTF_USESTDHANDLES</b>, the standard handle fields are copied unchanged to the child process without validation. The caller is responsible for ensuring that these fields contain valid handle values.  Incorrect values can cause the child process to misbehave or crash. Use the <a href="http://go.microsoft.com/fwlink/p/?linkid=234779">Application Verifier</a> runtime verification tool to detect invalid handles. </div>
+<div class="alert"><b>Important</b>  If the <b>dwFlags</b> member of the  <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_startupinfoa">STARTUPINFO</a> structure specifies <b>STARTF_USESTDHANDLES</b>, the standard handle fields are copied unchanged to the child process without validation. The caller is responsible for ensuring that these fields contain valid handle values.  Incorrect values can cause the child process to misbehave or crash. Use the <a href="http://go.microsoft.com/fwlink/p/?linkid=234779">Application Verifier</a> runtime verification tool to detect invalid handles. </div>
 <div> </div>
 
 ### -param lpProcessInformation [out]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/en-us/library/ms684873(v=VS.85).aspx">PROCESS_INFORMATION</a> structure that receives identification information for the new process, including a handle to the process. 
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_process_information">PROCESS_INFORMATION</a> structure that receives identification information for the new process, including a handle to the process. 
 
 
 
 
 Handles in 
-<a href="https://msdn.microsoft.com/en-us/library/ms684873(v=VS.85).aspx">PROCESS_INFORMATION</a> must be closed with the 
-<a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function when they are not needed.
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_process_information">PROCESS_INFORMATION</a> must be closed with the 
+<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function when they are not needed.
 
 
 ## -returns
@@ -359,9 +359,9 @@ Handles in
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is 0 (zero). To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-Note that the function returns before the process has finished initialization. If a required DLL cannot be located or fails to initialize, the process is terminated. To get the termination status of a process, call <a href="https://msdn.microsoft.com/210f7595-ac12-4bb2-bd77-819649ebec10">GetExitCodeProcess</a>. 
+Note that the function returns before the process has finished initialization. If a required DLL cannot be located or fails to initialize, the process is terminated. To get the termination status of a process, call <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getexitcodeprocess">GetExitCodeProcess</a>. 
 
 
 
@@ -373,39 +373,39 @@ Note that the function returns before the process has finished initialization. I
 By default, 
 <b>CreateProcessWithLogonW</b> does not load the specified user profile into the <b>HKEY_USERS</b> registry key. This means that access to information in the <b>HKEY_CURRENT_USER</b> registry key may not produce results that are consistent with a normal interactive logon. It is your responsibility to load the user registry hive into <b>HKEY_USERS</b> before calling 
 <b>CreateProcessWithLogonW</b>, by using <b>LOGON_WITH_PROFILE</b>, or by calling the 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762281(v=VS.85).aspx">LoadUserProfile</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-loaduserprofilea">LoadUserProfile</a> function.
 
 If the <i>lpEnvironment</i> parameter is NULL, the new process uses an environment block created from the profile of the user specified by <i>lpUserName</i>. If the HOMEDRIVE and HOMEPATH variables are not set, <b>CreateProcessWithLogonW</b> modifies the environment block to use the drive and path of the user's working directory.
 
 When created, the new process and thread handles receive full access rights (<b>PROCESS_ALL_ACCESS</b> and <b>THREAD_ALL_ACCESS</b>). For either handle, if a security descriptor is not provided, the handle can be used in any function that requires an object handle of that type. When a security descriptor is provided, an access check is performed on all subsequent uses of the handle before access is granted. If access is denied, the requesting process cannot use the handle to gain access to the process or thread.
 
 To retrieve a security token, pass the process handle in the 
-<a href="https://msdn.microsoft.com/en-us/library/ms684873(v=VS.85).aspx">PROCESS_INFORMATION</a> structure to the 
-<a href="https://msdn.microsoft.com/1e760ad8-7e46-4748-8c45-36ad8efe936a">OpenProcessToken</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_process_information">PROCESS_INFORMATION</a> structure to the 
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocesstoken">OpenProcessToken</a> function.
 
 The process is assigned a process identifier. The identifier is valid until the process terminates. It can be used to identify the process, or it can be specified in the 
-<a href="https://msdn.microsoft.com/8f695c38-19c4-49e4-97de-8b64ea536cb1">OpenProcess</a> function to open a handle to the process. The initial thread in the process is also assigned a thread identifier. It can be specified in the 
-<a href="https://msdn.microsoft.com/d020ecc5-89d1-4a0d-a197-15a66e269e86">OpenThread</a> function to open a handle to the thread. The identifier is valid until the thread terminates and can be used to uniquely identify the thread within the system. These identifiers are returned in 
-<a href="https://msdn.microsoft.com/en-us/library/ms684873(v=VS.85).aspx">PROCESS_INFORMATION</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocess">OpenProcess</a> function to open a handle to the process. The initial thread in the process is also assigned a thread identifier. It can be specified in the 
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthread">OpenThread</a> function to open a handle to the thread. The identifier is valid until the thread terminates and can be used to uniquely identify the thread within the system. These identifiers are returned in 
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_process_information">PROCESS_INFORMATION</a>.
 
 The calling thread can use the 
-<a href="https://msdn.microsoft.com/2a684921-36f1-438c-895c-5bebc242635a">WaitForInputIdle</a> function to wait until the new process has completed its initialization and is waiting for user input with no input pending. This can be useful for synchronization between parent and child processes, because 
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-waitforinputidle">WaitForInputIdle</a> function to wait until the new process has completed its initialization and is waiting for user input with no input pending. This can be useful for synchronization between parent and child processes, because 
 <b>CreateProcessWithLogonW</b> returns without waiting for the new process to finish its initialization. For example, the creating process would use 
 <b>WaitForInputIdle</b> before trying to find a window that is associated with the new process.
 
 The preferred way to shut down a process is by using the 
-<a href="https://msdn.microsoft.com/c26dbf15-62e8-4892-b7c5-2e6c085e4cd5">ExitProcess</a> function, because this function sends notification of approaching termination to all DLLs attached to the process. Other means of shutting down a process do not notify the attached DLLs. Note that when a thread calls 
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitprocess">ExitProcess</a> function, because this function sends notification of approaching termination to all DLLs attached to the process. Other means of shutting down a process do not notify the attached DLLs. Note that when a thread calls 
 <b>ExitProcess</b>, other threads of the process are terminated without an opportunity to execute any additional code (including the thread termination code of attached DLLs). For more information, see 
-<a href="https://msdn.microsoft.com/af24d157-2719-4052-8029-1eb8010047cc">Terminating a Process</a>.
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/terminating-a-process">Terminating a Process</a>.
 
 <b>CreateProcessWithLogonW</b> accesses the specified directory and executable image in the security context of the target user. If the executable image is on a network and a network drive letter is specified in the path, the network drive letter is not available to the target user, as network drive letters can be assigned for each logon. If a network drive letter is specified, this function fails. If the executable image is on a network, use the UNC path.
 
 There is a limit to the number of child processes that can be created by this function and run simultaneously. For example, on Windows XP, this limit is <b>MAXIMUM_WAIT_OBJECTS</b>*4. However, you may not be able to create this many processes due to system-wide quota limits.
 
-<b>Windows XP with SP2,Windows Server 2003, or later:  </b>You cannot call <b>CreateProcessWithLogonW</b> from a process that is running under the "LocalSystem" account,  because the function uses the logon SID in the caller token, and the token for the "LocalSystem" account does not contain this SID. As an alternative, use the <a href="https://msdn.microsoft.com/6b3f4dd9-500b-420e-804a-401a9e188be8">CreateProcessAsUser</a> and <a href="https://msdn.microsoft.com/a6d880a0-0aed-4bdb-89c9-4f667ecb510e">LogonUser</a> functions.
+<b>Windows XP with SP2,Windows Server 2003, or later:  </b>You cannot call <b>CreateProcessWithLogonW</b> from a process that is running under the "LocalSystem" account,  because the function uses the logon SID in the caller token, and the token for the "LocalSystem" account does not contain this SID. As an alternative, use the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a> functions.
 
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0500 or later. For more information, see 
-<a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 <h3><a id="Security_Remarks"></a><a id="security_remarks"></a><a id="SECURITY_REMARKS"></a>Security Remarks</h3>
 The <i>lpApplicationName</i> parameter can be <b>NULL</b>, and  the executable name must be the first white space–delimited string in <i>lpCommandLine</i>. If the executable or path name has a space in it, there is a risk that a different executable could be run because of the way the function parses spaces. Avoid the following example, because the function attempts to run "Program.exe", if it exists, instead of "MyApp.exe".
@@ -517,55 +517,55 @@ void wmain(int argc, WCHAR *argv[])
 
 
 
-<a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762270(v=VS.85).aspx">CreateEnvironmentBlock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-createenvironmentblock">CreateEnvironmentBlock</a>
 
 
 
-<a href="https://msdn.microsoft.com/6b3f4dd9-500b-420e-804a-401a9e188be8">CreateProcessAsUser</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a>
 
 
 
-<a href="https://msdn.microsoft.com/c26dbf15-62e8-4892-b7c5-2e6c085e4cd5">ExitProcess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitprocess">ExitProcess</a>
 
 
 
-<a href="https://msdn.microsoft.com/fb431d83-f3e7-4f2a-bad9-81259681c1f4">GetEnvironmentStrings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nf-rrascfg-ieapproviderconfig-initialize">GetEnvironmentStrings</a>
 
 
 
-<a href="https://msdn.microsoft.com/210f7595-ac12-4bb2-bd77-819649ebec10">GetExitCodeProcess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getexitcodeprocess">GetExitCodeProcess</a>
 
 
 
-<a href="https://msdn.microsoft.com/8f695c38-19c4-49e4-97de-8b64ea536cb1">OpenProcess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocess">OpenProcess</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684873(v=VS.85).aspx">PROCESS_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_process_information">PROCESS_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c8e8af0-bf50-4a4b-945c-83bae1eff7dd">Process and Thread Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/4bdec0f5-7276-422e-9935-0e231b0fc17d">Processes</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/child-processes">Processes</a>
 
 
 
-<a href="https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3">STARTUPINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_startupinfoa">STARTUPINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/b88f5577-9124-433c-a7e8-a7f713b7b27d">SetErrorMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a684921-36f1-438c-895c-5bebc242635a">WaitForInputIdle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-waitforinputidle">WaitForInputIdle</a>
  
 
  

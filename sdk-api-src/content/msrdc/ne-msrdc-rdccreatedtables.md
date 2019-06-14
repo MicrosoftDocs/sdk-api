@@ -77,15 +77,15 @@ The table is a new table.
 
 
 
-<a href="https://msdn.microsoft.com/808c20f9-054d-475d-8ca3-ee2dde871426">ISimilarity::CreateTable</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilarity-createtable">ISimilarity::CreateTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/bc683c53-5491-4cc6-abe1-c82e69aaa7f4">ISimilarityFileIdTable::CreateTable</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilarityfileidtable-createtable">ISimilarityFileIdTable::CreateTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/35fd9ea1-85bf-424c-b0e2-dcdfbb6940fb">ISimilarityTraitsTable::CreateTable</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-createtable">ISimilarityTraitsTable::CreateTable</a>
  
 
  

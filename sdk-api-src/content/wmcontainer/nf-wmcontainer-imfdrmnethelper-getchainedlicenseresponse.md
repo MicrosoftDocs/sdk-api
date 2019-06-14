@@ -59,7 +59,7 @@ Not implemented in this release.
 
 ### -param ppLicenseResponse [out]
 
-Receives a pointer to a byte array that contains the license response. The caller must free the array by calling <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
+Receives a pointer to a byte array that contains the license response. The caller must free the array by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 
 ### -param pcbLicenseResponse [out]
@@ -81,7 +81,7 @@ The method returns <b>E_NOTIMPL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/6f4ac19a-0972-4152-a64c-6c719efb396c">IMFDRMNetHelper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfdrmnethelper">IMFDRMNetHelper</a>
  
 
  

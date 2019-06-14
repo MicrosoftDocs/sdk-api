@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>QOS_NOTIFY_FLOW</b> enumeration specifies the circumstances that must be present for the <a href="https://msdn.microsoft.com/e6d541fe-2aeb-4969-b138-869754dbdaa3">QOSNotifyFlow</a> function to send a notification.
+The <b>QOS_NOTIFY_FLOW</b> enumeration specifies the circumstances that must be present for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosnotifyflow">QOSNotifyFlow</a> function to send a notification.
 
 
 ## -enum-fields
@@ -77,11 +77,11 @@ Notifications will be sent when the flow's available capacity is sufficient  to 
 
 
 
-<a href="https://msdn.microsoft.com/e6d541fe-2aeb-4969-b138-869754dbdaa3">QOSNotifyFlow</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosnotifyflow">QOSNotifyFlow</a>
 
 
 
-<a href="https://msdn.microsoft.com/022fde13-415e-49aa-8df4-472c4eadd6a0">Quality Windows Audio/Video Experience (qWAVE)</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
  
 
  

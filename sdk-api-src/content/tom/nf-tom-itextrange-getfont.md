@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an <a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a> object with the character attributes of the specified range.
+Gets an <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a> object with the character attributes of the specified range.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ Gets an <a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx
 
 ### -param ppFont
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>**</b>
 
-The pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a> object. 
+The pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a> object. 
 
 
 ## -returns
@@ -79,7 +79,7 @@ The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <
 
 
 
-For plain-text controls, these objects do not vary from range to range, but in rich-text solutions, they do. See the section on <a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a> for further details.
+For plain-text controls, these objects do not vary from range to range, but in rich-text solutions, they do. See the section on <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a> for further details.
 
 
 
@@ -93,11 +93,11 @@ For plain-text controls, these objects do not vary from range to range, but in r
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
@@ -105,7 +105,7 @@ For plain-text controls, these objects do not vary from range to range, but in r
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
  
 
  

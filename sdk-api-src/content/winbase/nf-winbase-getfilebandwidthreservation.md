@@ -104,7 +104,7 @@ The number of <i>TransferSize</i> chunks  allowed to be outstanding with the ope
 Returns nonzero if successful or zero otherwise.
 
 To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -181,11 +181,11 @@ Yes
 
 
 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/a22bd8f3-4fbf-4f77-b8b6-7e786942615a">SetFileBandwidthReservation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setfilebandwidthreservation">SetFileBandwidthReservation</a>
  
 
  

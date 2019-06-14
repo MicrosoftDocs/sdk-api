@@ -54,7 +54,7 @@ The <b>INetFwProducts</b> interface allows an application or service to access t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwProducts</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>INetFwProducts</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwProducts</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetFwProducts</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>INetFwProducts</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/091d53bc-3c5e-4960-9bc9-34343fd352ce">Item</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwproducts-item">Item</a>
 </td>
 <td align="left" width="63%">
 Gets a product with a specified index in the product collection.
@@ -79,7 +79,7 @@ Gets a product with a specified index in the product collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/eea30680-f1c7-454d-896c-5116209fdc2c">Register</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwproducts-register">Register</a>
 </td>
 <td align="left" width="63%">
 Registers a third-party firewall product.
@@ -97,7 +97,7 @@ Registers a third-party firewall product.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/67e723a9-7b24-493f-a3d5-a63d002e6bf3">_NewEnum</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwproducts-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -113,7 +113,7 @@ Returns an object supporting <a href="http://go.microsoft.com/fwlink/p/?linkid=1
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/2090603e-33c8-4b2a-86d4-efc1c5665af8">Count</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwproducts-get_count">Count</a>
 
 
 </td>
@@ -134,7 +134,7 @@ Accesses the count of registered third-party firewall products
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

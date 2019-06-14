@@ -68,7 +68,7 @@ The <i>CreateD3DBuffer</i> callback function is used to create a driver-level co
 
 #### - lpCreateD3DBuffer
 
-Points to a <a href="https://msdn.microsoft.com/5a3b4267-43b4-44dc-abad-cb3f3d07f30e">DD_CREATESURFACEDATA</a> structure that contains the information required to create the buffer.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_createsurfacedata">DD_CREATESURFACEDATA</a> structure that contains the information required to create the buffer.
 
 
 ## -returns
@@ -86,11 +86,11 @@ Points to a <a href="https://msdn.microsoft.com/5a3b4267-43b4-44dc-abad-cb3f3d07
 
 This callback is used only if the driver manages driver-level command and vertex buffers.
 
-By default, the driver is not notified when a primary surface is created on Windows 2000 and later versions. However, if the driver supports the GUID_NTPrivateDriverCaps GUID in a <a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a> call and the DDHAL_PRIVATECAP_NOTIFYPRIMARYCREATION flag is set in the <b>dwPrivateCaps</b> member of the <a href="https://msdn.microsoft.com/d802b080-cf94-400a-96c4-e765008dfc8a">DD_NTPRIVATEDRIVERCAPS</a> structure, then the driver is notified.
+By default, the driver is not notified when a primary surface is created on Windows 2000 and later versions. However, if the driver supports the GUID_NTPrivateDriverCaps GUID in a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a> call and the DDHAL_PRIVATECAP_NOTIFYPRIMARYCREATION flag is set in the <b>dwPrivateCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_ntprivatedrivercaps">DD_NTPRIVATEDRIVERCAPS</a> structure, then the driver is notified.
 
-The pitch must be returned in the <b>lPitch</b> member of both the <a href="https://msdn.microsoft.com/11e0a6b9-16b9-4fc3-8e17-776f56c12196">DD_SURFACE_GLOBAL</a> and <a href="https://msdn.microsoft.com/d6656bae-9f90-497b-82d5-be4be3213687">DDSURFACEDESC</a> structures. For linear memory, the driver should set <b>dwBlockSizeX</b> to the size, in bytes, of the memory region and set <b>dwBlockSizeY</b> to 1. Both are members of the DD_SURFACE_GLOBAL structure.
+The pitch must be returned in the <b>lPitch</b> member of both the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_global">DD_SURFACE_GLOBAL</a> and <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550339(v=vs.85)">DDSURFACEDESC</a> structures. For linear memory, the driver should set <b>dwBlockSizeX</b> to the size, in bytes, of the memory region and set <b>dwBlockSizeY</b> to 1. Both are members of the DD_SURFACE_GLOBAL structure.
 
-This call has the same prototype as <a href="https://msdn.microsoft.com/45c793ed-34e8-4a15-91f4-9a258c1842fd">DdCreateSurface</a>. The <i>CreateD3DBuffer</i> callback is used instead when the surface in question has the DDSCAPS_EXECUTEBUFFER flag set in the <b>ddsCaps</b> member of the <a href="https://msdn.microsoft.com/45a41cec-0257-4e26-809d-c2fc4c247328">DD_SURFACE_LOCAL</a> structure. The buffer creation flags are DDSCAPS_WRITEONLY, DDSCAPS2_VERTEXBUFFER and DDSCAPS2_COMMANDBUFFER. 
+This call has the same prototype as <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff549263(v=vs.85)">DdCreateSurface</a>. The <i>CreateD3DBuffer</i> callback is used instead when the surface in question has the DDSCAPS_EXECUTEBUFFER flag set in the <b>ddsCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_local">DD_SURFACE_LOCAL</a> structure. The buffer creation flags are DDSCAPS_WRITEONLY, DDSCAPS2_VERTEXBUFFER and DDSCAPS2_COMMANDBUFFER. 
 
 The driver determines the type of buffer being requested by checking the <b>ddsCaps</b> member of the DD_SURFACE_LOCAL structure for the following flags:
 
@@ -124,7 +124,7 @@ The driver should allocate an explicit vertex buffer.
 
 <div class="alert"><b>Note</b>    If neither flag is set, the driver should allocate an implicit vertex buffer. Implicit vertex buffers should not be placed in video memory because they are expected to be read/write. Only explicit vertex buffers with the DDSCAPS_WRITEONLY flag set can be safely placed in video memory.</div>
 <div> </div>
-The driver can allocate the buffer memory itself or it can request that Microsoft DirectDraw perform the memory management. If the driver performs the allocation, it must write a valid pointer to the memory in the <b>fpVidMem</b> member of the <a href="https://msdn.microsoft.com/11e0a6b9-16b9-4fc3-8e17-776f56c12196">DD_SURFACE_GLOBAL</a>  structure.
+The driver can allocate the buffer memory itself or it can request that Microsoft DirectDraw perform the memory management. If the driver performs the allocation, it must write a valid pointer to the memory in the <b>fpVidMem</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_global">DD_SURFACE_GLOBAL</a>  structure.
 
 Alternatively, the driver can request that DirectDraw allocate the buffer by returning one of the following values in <b>fpVidMem</b>:
 
@@ -164,31 +164,31 @@ DirectDraw should allocate the buffer memory from user memory. The driver must a
 
 
 
-<a href="https://msdn.microsoft.com/d6656bae-9f90-497b-82d5-be4be3213687">DDSURFACEDESC</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550339(v=vs.85)">DDSURFACEDESC</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a3b4267-43b4-44dc-abad-cb3f3d07f30e">DD_CREATESURFACEDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_createsurfacedata">DD_CREATESURFACEDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/d802b080-cf94-400a-96c4-e765008dfc8a">DD_NTPRIVATEDRIVERCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_ntprivatedrivercaps">DD_NTPRIVATEDRIVERCAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/11e0a6b9-16b9-4fc3-8e17-776f56c12196">DD_SURFACE_GLOBAL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_global">DD_SURFACE_GLOBAL</a>
 
 
 
-<a href="https://msdn.microsoft.com/45a41cec-0257-4e26-809d-c2fc4c247328">DD_SURFACE_LOCAL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_local">DD_SURFACE_LOCAL</a>
 
 
 
-<a href="https://msdn.microsoft.com/45c793ed-34e8-4a15-91f4-9a258c1842fd">DdCreateSurface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff549263(v=vs.85)">DdCreateSurface</a>
 
 
 
-<a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>
  
 
  

@@ -83,8 +83,8 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> or a 
-<a href="https://msdn.microsoft.com/ea67d798-81db-44ad-b0fb-24e0c3be7388">PDH error code</a>. The following is a possible value.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following is a possible value.
 
 <table>
 <tr>
@@ -113,7 +113,7 @@ A parameter is not valid or is incorrectly formatted.
 
 
 
-<a href="https://msdn.microsoft.com/6d5e1465-296b-4d8c-b0cb-aefdffb8539e">PdhLookupPerfNameByIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhlookupperfnamebyindexa">PdhLookupPerfNameByIndex</a>
  
 
  

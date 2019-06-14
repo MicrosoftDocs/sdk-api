@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SetProperty</b> method specifies a <a href="https://msdn.microsoft.com/en-us/library/Ff808361(v=VS.85).aspx">CESSetupProperty</a> enumeration value for the Certificate Enrollment Web Service (CES) configuration.
+The <b>SetProperty</b> method specifies a <a href="https://docs.microsoft.com/windows/desktop/api/casetup/ne-casetup-__midl___midl_itf_casetup_0000_0004_0001">CESSetupProperty</a> enumeration value for the Certificate Enrollment Web Service (CES) configuration.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>SetProperty</b> method specifies a <a href="https://msdn.microsoft.com/en
 
 ### -param propertyId [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Ff808361(v=VS.85).aspx">CESSetupProperty</a> enumeration value that specifies the property value to retrieve.
+A <a href="https://docs.microsoft.com/windows/desktop/api/casetup/ne-casetup-__midl___midl_itf_casetup_0000_0004_0001">CESSetupProperty</a> enumeration value that specifies the property value to retrieve.
 
 
 ### -param pPropertyValue [in]
@@ -83,7 +83,7 @@ A pointer to a <b>VARIANT</b> variable that contains the property value.
 </dl>
 </td>
 <td width="60%">
-The <i>propertyId</i> argument is not a member of the <a href="https://msdn.microsoft.com/en-us/library/Ff808361(v=VS.85).aspx">CESSetupProperty</a> enumeration type.
+The <i>propertyId</i> argument is not a member of the <a href="https://docs.microsoft.com/windows/desktop/api/casetup/ne-casetup-__midl___midl_itf_casetup_0000_0004_0001">CESSetupProperty</a> enumeration type.
 
 Also, if you are setting the <b>ENUM_CESSETUPPROP_AUTHENTICATION</b> property, you must specify one of the following values in the <i>pPropertyValue</i> argument:<ul>
 <li><b>X509AuthKerberos</b></li>
@@ -112,9 +112,9 @@ The <i>pPropertyValue</i> parameter cannot be <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/B25DA7C4-0503-4E3B-BABC-6EFBD9EBDDAE">ICertificateEnrollmentServerSetup</a> object has not been initialized.
+The <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a> object has not been initialized.
 
-The <a href="https://msdn.microsoft.com/D4322BE8-1CED-47D0-98C2-D5D7C151DEAB">ErrorString</a> property value is set to "The setup object has not been initialized. Please initialize the setup object with the InitializeInstallDefaults method."
+The <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-get_errorstring">ErrorString</a> property value is set to "The setup object has not been initialized. Please initialize the setup object with the InitializeInstallDefaults method."
 
 </td>
 </tr>
@@ -139,7 +139,7 @@ If you are setting the <b>ENUM_CESSETUPPROP_AUTHENTICATION</b> property, the <b>
 
 
 
-You must call  <a href="https://msdn.microsoft.com/2C6E8F84-56AC-4541-A778-839D5F2C764F">InitializeInstallDefaults</a> before calling <b>SetProperty</b>.
+You must call  <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-initializeinstalldefaults">InitializeInstallDefaults</a> before calling <b>SetProperty</b>.
 
 You cannot set the <b>ENUM_CESSETUPPROP_URL</b> property.
 
@@ -152,7 +152,7 @@ If you are setting the <b>ENUM_CESSETUPPROP_AUTHENTICATION</b> property, the  <b
 </ul>
 
 
-You cannot set the ENUM_CESSETUPPROP_CACONFIG property if the target server is a standalone certification authority. The <a href="https://msdn.microsoft.com/D4322BE8-1CED-47D0-98C2-D5D7C151DEAB">ErrorString</a> property will be set to "The Certificate Enrollment Web Service cannot be used with a standalone certification authority (CA). It can only be used with an enterprise CA."
+You cannot set the ENUM_CESSETUPPROP_CACONFIG property if the target server is a standalone certification authority. The <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-get_errorstring">ErrorString</a> property will be set to "The Certificate Enrollment Web Service cannot be used with a standalone certification authority (CA). It can only be used with an enterprise CA."
 
 .
 
@@ -164,7 +164,7 @@ You cannot set the ENUM_CESSETUPPROP_CACONFIG property if the target server is a
 
 
 
-<a href="https://msdn.microsoft.com/B25DA7C4-0503-4E3B-BABC-6EFBD9EBDDAE">ICertificateEnrollmentServerSetup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a>
  
 
  

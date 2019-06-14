@@ -90,7 +90,7 @@ It is possible at any given time that multiple instances of Windows Media Player
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563582(v=VS.85).aspx">IWMPPlugin Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nn-wmpservices-iwmpplugin">IWMPPlugin Interface</a>
  
 
  

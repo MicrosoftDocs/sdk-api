@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a new <a href="https://msdn.microsoft.com/447625BA-F982-4155-9B05-E478E1229443">IPropertyValue</a> object that contains  the specified signed 64-bit integer value.
+Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object that contains  the specified signed 64-bit integer value.
 
 
 ## -parameters
@@ -66,9 +66,9 @@ The signed 64-bit integer value to store.
 
 ### -param propertyValue [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>**</b>
 
-A pointer to a new object that contains <i>value</i>. Use the <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">IUnknown::QueryInterface</a> method to get the <a href="https://msdn.microsoft.com/447625BA-F982-4155-9B05-E478E1229443">IPropertyValue</a> interface for the object.
+A pointer to a new object that contains <i>value</i>. Use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> method to get the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> interface for the object.
 
 
 ## -returns
@@ -113,7 +113,7 @@ The  property value was created successfully.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/447625BA-F982-4155-9B05-E478E1229443">IPropertyValue</a> object could not be created.
+The <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object could not be created.
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ The <a href="https://msdn.microsoft.com/447625BA-F982-4155-9B05-E478E1229443">IP
 
 
 
-Use the <b>CreateInt64</b> method to  store a value in an <a href="https://msdn.microsoft.com/447625BA-F982-4155-9B05-E478E1229443">IPropertyValue</a> object. You can add the  <b>IPropertyValue</b> object to a property store. Use the <a href="https://msdn.microsoft.com/FA3EB6F4-8D5A-4DBE-9A49-D21BC5A57EF3">GetInt64</a> method to retrieve the value from the  <b>IPropertyValue</b> object.
+Use the <b>CreateInt64</b> method to  store a value in an <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object. You can add the  <b>IPropertyValue</b> object to a property store. Use the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getint64">GetInt64</a> method to retrieve the value from the  <b>IPropertyValue</b> object.
 
 
 
@@ -137,11 +137,11 @@ Use the <b>CreateInt64</b> method to  store a value in an <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/FA3EB6F4-8D5A-4DBE-9A49-D21BC5A57EF3">IPropertyValue::GetInt64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getint64">IPropertyValue::GetInt64</a>
 
 
 
-<a href="https://msdn.microsoft.com/946BD4F9-318C-4452-AEDB-DF2212A2D3CA">IPropertyValueStatics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvaluestatics">IPropertyValueStatics</a>
  
 
  

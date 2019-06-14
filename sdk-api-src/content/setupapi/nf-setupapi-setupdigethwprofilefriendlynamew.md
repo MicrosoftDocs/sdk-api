@@ -91,7 +91,7 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
 
 
 
-Call <a href="https://msdn.microsoft.com/839c1e4c-cfa6-4f59-979c-24623a040d5c">SetupDiGetHwProfileFriendlyNameEx</a> to get the friendly name of a hardware profile ID on a remote computer.
+Call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigethwprofilefriendlynameexa">SetupDiGetHwProfileFriendlyNameEx</a> to get the friendly name of a hardware profile ID on a remote computer.
 
 
 
@@ -101,11 +101,11 @@ Call <a href="https://msdn.microsoft.com/839c1e4c-cfa6-4f59-979c-24623a040d5c">S
 
 
 
-<a href="https://msdn.microsoft.com/839c1e4c-cfa6-4f59-979c-24623a040d5c">SetupDiGetHwProfileFriendlyNameEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigethwprofilefriendlynameexa">SetupDiGetHwProfileFriendlyNameEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/59fc7202-0e03-4eaa-b3ca-7d55be767b1a">SetupDiGetHwProfileList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigethwprofilelist">SetupDiGetHwProfileList</a>
  
 
  

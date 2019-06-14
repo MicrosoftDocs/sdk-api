@@ -74,7 +74,7 @@ The last-modified time is used by FSRM to determine whether the rule needs to be
 
 
 
-<a href="https://msdn.microsoft.com/e1de871f-a2c9-4787-a3e8-8c3428e9249e">IFsrmRule</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmrule">IFsrmRule</a>
  
 
  

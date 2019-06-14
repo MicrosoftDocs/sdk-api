@@ -59,7 +59,7 @@ This method streams the contents of the command  to the given metafile  sink.
 
 ### -param sink
 
-Type: <b><a href="https://msdn.microsoft.com/1E9866C3-2A07-48C2-A4C5-F9AE3C7B2272">ID2D1GdiMetafileSink</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1gdimetafilesink">ID2D1GdiMetafileSink</a></b>
 
 The sink into which Direct2D  will call back.
 
@@ -100,7 +100,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 
-<a href="https://msdn.microsoft.com/36A454EC-7DE0-4610-B49C-7FBBD21C425C">ID2D1GdiMetafile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1gdimetafile">ID2D1GdiMetafile</a>
  
 
  

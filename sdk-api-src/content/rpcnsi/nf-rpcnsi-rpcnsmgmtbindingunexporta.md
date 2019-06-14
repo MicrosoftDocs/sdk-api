@@ -267,7 +267,7 @@ Not all objects unexported.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -294,11 +294,11 @@ If one or more binding handles for the specified interface are found and unexpor
 
 In addition to calling 
 <b>RpcNsMgmtBindingUnexport</b>, a management application should also call the 
-<a href="https://msdn.microsoft.com/b825a79d-7f9e-45f1-88d0-a3b733a7df78">RpcMgmtEpUnregister</a> function to unregister the servers that have registered with the endpoint-map database.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtepunregister">RpcMgmtEpUnregister</a> function to unregister the servers that have registered with the endpoint-map database.
 
 <div class="alert"><b>Note</b>  Name-service databases are designed to be relatively stable. In replicated name services, frequent use of the 
-<a href="https://msdn.microsoft.com/c89d04d7-f607-48cc-8cb6-b6aebab41671">RpcNsBindingExport</a> and 
-<a href="https://msdn.microsoft.com/70662e7e-7a81-4953-9814-e29b46422c5b">RpcNsBindingUnexport</a> functions causes the name service to repeatedly remove and replace the same entry, which can cause performance problems.</div>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingexporta">RpcNsBindingExport</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingunexporta">RpcNsBindingUnexport</a> functions causes the name service to repeatedly remove and replace the same entry, which can cause performance problems.</div>
 <div> </div>
 
 
@@ -308,15 +308,15 @@ In addition to calling
 
 
 
-<a href="https://msdn.microsoft.com/b825a79d-7f9e-45f1-88d0-a3b733a7df78">RpcMgmtEpUnregister</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtepunregister">RpcMgmtEpUnregister</a>
 
 
 
-<a href="https://msdn.microsoft.com/c89d04d7-f607-48cc-8cb6-b6aebab41671">RpcNsBindingExport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingexporta">RpcNsBindingExport</a>
 
 
 
-<a href="https://msdn.microsoft.com/70662e7e-7a81-4953-9814-e29b46422c5b">RpcNsBindingUnexport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingunexporta">RpcNsBindingUnexport</a>
  
 
  

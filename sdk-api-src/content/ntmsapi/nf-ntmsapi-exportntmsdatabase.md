@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<a href="https://msdn.microsoft.com/af7186f8-7921-48e3-a4fd-23259a6e9018">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>ExportNtmsDatabase</b> function creates a consistent set of database files in the RSM database directory.
@@ -63,7 +63,7 @@ The
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://msdn.microsoft.com/5a323911-e99c-4f81-9580-0feac2f0a54e">OpenNtmsSession</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 
 ## -returns
@@ -170,11 +170,11 @@ This function creates a subdirectory called Export and places the consistent fil
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Database Backup and Recovery Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Database Backup and Recovery Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9bb41109-6548-4d22-92c8-0d8ed960f119">ImportNtmsDatabase</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-importntmsdatabase">ImportNtmsDatabase</a>
  
 
  

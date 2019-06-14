@@ -69,7 +69,7 @@ This property is read/write.
 
 
 
-For further details about this property, refer to the <a href="https://msdn.microsoft.com/61191ab3-075e-458b-9e0f-4bc255687b3c">InkOverlay</a> object's <a href="https://msdn.microsoft.com/a8837657-6eb0-44d3-8c39-11a5524fe9db">SupportHighContrastSelectionUI</a> property, which has the same functionality.
+For further details about this property, refer to the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object's <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_supporthighcontrastselectionui">SupportHighContrastSelectionUI</a> property, which has the same functionality.
 
 
 
@@ -83,7 +83,7 @@ For further details about this property, refer to the <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/e9fa6807-6e2a-44ec-9b8f-a560185e4367">InkPicture</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a>
  
 
  

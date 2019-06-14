@@ -63,12 +63,12 @@ Specifies the number of items to obtain the status for.
 
 ### -param prgguid [in]
 
-Pointer to an array of <b>GUID</b>s that identify the items obtain the status for. These are the item <b>GUID</b>s that the item supplies in <a href="https://msdn.microsoft.com/b32e433a-c0d6-418e-bf11-2291c85373c2">ITfLangBarItem::GetInfo</a>. This array must be at least <i>ulCount</i> elements in length.
+Pointer to an array of <b>GUID</b>s that identify the items obtain the status for. These are the item <b>GUID</b>s that the item supplies in <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritem-getinfo">ITfLangBarItem::GetInfo</a>. This array must be at least <i>ulCount</i> elements in length.
 
 
 ### -param pdwStatus [out]
 
-Pointer to an array of <b>DWORD</b> values that receive the status of each item. Each element in this array receives zero or a combination of one or more of the <a href="https://msdn.microsoft.com/5f2c0e61-f7e5-4dcc-86a3-7bd1c994b8bc">TF_LBI_STATUS_*</a> values. This array must be at least <i>ulCount</i> elements in length.
+Pointer to an array of <b>DWORD</b> values that receive the status of each item. Each element in this array receives zero or a combination of one or more of the <a href="https://docs.microsoft.com/windows/desktop/TSF/tf-lbi-status--constants">TF_LBI_STATUS_*</a> values. This array must be at least <i>ulCount</i> elements in length.
 
 The index of each status value cooresponds to the index of the item identifier in <i>prgguid</i>. For example, the element 0 in <i>pdwStatus</i> receives the for the item identified by element 0 of <i>prgguid</i>.
 
@@ -116,7 +116,7 @@ An unspecified error occurred.
 
 
 
-This method causes the <a href="https://msdn.microsoft.com/2f850553-ec79-4e2f-a4d5-c40dbaca0f01">ITfLangBarItem::GetStatus</a> method of each language bar item identified by <i>prgguid</i> to be called.
+This method causes the <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritem-getstatus">ITfLangBarItem::GetStatus</a> method of each language bar item identified by <i>prgguid</i> to be called.
 
 
 
@@ -126,16 +126,16 @@ This method causes the <a href="https://msdn.microsoft.com/2f850553-ec79-4e2f-a4
 
 
 
-<a href="https://msdn.microsoft.com/2f850553-ec79-4e2f-a4d5-c40dbaca0f01">ITfLangBarItem::GetStatus
+<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritem-getstatus">ITfLangBarItem::GetStatus
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/a7fa257f-e600-4554-8b23-f73323f37e69">ITfLangBarItemMgr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritemmgr">ITfLangBarItemMgr</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f2c0e61-f7e5-4dcc-86a3-7bd1c994b8bc">TF_LBI_STATUS_* Constants
+<a href="https://docs.microsoft.com/windows/desktop/TSF/tf-lbi-status--constants">TF_LBI_STATUS_* Constants
       </a>
  
 

@@ -61,7 +61,7 @@ Specifies the typography options for the document.
 
 Type: <b>long</b>
 
-The typography options to set. For a list of possible options, see <a href="https://msdn.microsoft.com/3433954c-818b-4811-9e38-4bc8ab3ee7f9">GetTypographyOptions</a>.
+The typography options to set. For a list of possible options, see <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-gettypographyoptions">GetTypographyOptions</a>.
 
 
 ### -param Mask [in]
@@ -75,7 +75,7 @@ A mask identifying the options to set. For example, to turn on <b>TO_ADVANCEDTYP
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -87,11 +87,11 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-<a href="https://msdn.microsoft.com/0b0a54d7-7606-41f6-b8be-6367d9180ef4">ITextDocument2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument2">ITextDocument2</a>
 
 
 
-<a href="https://msdn.microsoft.com/3433954c-818b-4811-9e38-4bc8ab3ee7f9">ITextDocument2::GetTypographyOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-gettypographyoptions">ITextDocument2::GetTypographyOptions</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The custom-scripting DLL calls 
 <i>RasFreeBuffer</i> to release a memory buffer that was allocated by a previous call to 
-<a href="https://msdn.microsoft.com/655f2dfa-a6cf-43db-8d2e-bf9a10163c75">RasGetBuffer</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-pfnrasgetbuffer">RasGetBuffer</a>. 
 
 
 ## -parameters
@@ -71,7 +71,7 @@ The custom-scripting DLL calls
 #### - pBuffer
 
 Pointer to the memory buffer to free. This memory must have been obtained by a previous call to 
-<a href="https://msdn.microsoft.com/655f2dfa-a6cf-43db-8d2e-bf9a10163c75">RasGetBuffer</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-pfnrasgetbuffer">RasGetBuffer</a>.
 
 
 ## -returns
@@ -121,7 +121,7 @@ The handle specified by the <i>hPort</i> parameter is invalid.
 
 The custom-scripting DLL calls 
 <i>RasFreeBuffer</i> through a function pointer. The function pointer is passed to the custom-scripting DLL as a parameter when RAS calls the DLL's implementation of 
-<a href="https://msdn.microsoft.com/e31ab530-cb60-4bb0-be44-3ba90fdf71f1">RasCustomScriptExecute</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rascustomscriptexecutefn">RasCustomScriptExecute</a>.
 
 
 
@@ -131,15 +131,15 @@ The custom-scripting DLL calls
 
 
 
-<a href="https://msdn.microsoft.com/c27b8b02-6018-4441-a355-1fb890b9001c">RAS Custom-Scripting</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-custom-scripting">RAS Custom-Scripting</a>
 
 
 
-<a href="https://msdn.microsoft.com/e31ab530-cb60-4bb0-be44-3ba90fdf71f1">RasCustomScriptExecute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rascustomscriptexecutefn">RasCustomScriptExecute</a>
 
 
 
-<a href="https://msdn.microsoft.com/655f2dfa-a6cf-43db-8d2e-bf9a10163c75">RasGetBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-pfnrasgetbuffer">RasGetBuffer</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> around a Windows Runtime <a href="https://msdn.microsoft.com/D2ECEB3D-D13E-44C1-BFE2-1AA57F7432C6">IRandomAccessStream</a> object.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> around a Windows Runtime <a href="https://docs.microsoft.com/previous-versions//hh438400(v=vs.85)">IRandomAccessStream</a> object.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Creates an <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613
 
 ### -param randomAccessStream [in]
 
-The source <a href="https://msdn.microsoft.com/D2ECEB3D-D13E-44C1-BFE2-1AA57F7432C6">IRandomAccessStream</a>.
+The source <a href="https://docs.microsoft.com/previous-versions//hh438400(v=vs.85)">IRandomAccessStream</a>.
 
 
 ### -param riid [in]
@@ -70,7 +70,7 @@ A reference to the IID of the interface to retrieve through <i>ppv</i>, typicall
 
 ### -param ppv [out]
 
-When this method returns successfully, contains the interface pointer requested in <i>riid</i>, typically <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>.
+When this method returns successfully, contains the interface pointer requested in <i>riid</i>, typically <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>.
 
 
 ## -returns
@@ -86,7 +86,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-We recommend that you use the <a href="https://msdn.microsoft.com/268B59FA-44EB-4777-8162-C50981CBDD09">IID_PPV_ARGS</a> macro, defined in Objbase.h, to package the <i>riid</i> and <i>ppv</i> parameters. This macro provides the correct IID based on the interface pointed to by the value in <i>ppv</i>, which eliminates the possibility of a coding error in <i>riid</i> that could lead to unexpected results.
+We recommend that you use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-iid_ppv_args">IID_PPV_ARGS</a> macro, defined in Objbase.h, to package the <i>riid</i> and <i>ppv</i> parameters. This macro provides the correct IID based on the interface pointed to by the value in <i>ppv</i>, which eliminates the possibility of a coding error in <i>riid</i> that could lead to unexpected results.
 
 
 
@@ -96,11 +96,11 @@ We recommend that you use the <a href="https://msdn.microsoft.com/268B59FA-44EB-
 
 
 
-<a href="https://msdn.microsoft.com/6D3D2B25-7373-4BA5-BF6B-FB461C2DE982">CreateRandomAccessStreamOnFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shcore/nf-shcore-createrandomaccessstreamonfile">CreateRandomAccessStreamOnFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/7A4BA702-0E2E-4FA9-8BEB-313D2D29762E">CreateRandomAccessStreamOverStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shcore/nf-shcore-createrandomaccessstreamoverstream">CreateRandomAccessStreamOverStream</a>
 
 
 

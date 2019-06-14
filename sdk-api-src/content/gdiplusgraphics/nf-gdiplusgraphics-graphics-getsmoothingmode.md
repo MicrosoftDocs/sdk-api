@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>Graphics::GetSmoothingMode</b> method determines whether smoothing (antialiasing) is applied to the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object.
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object.
 
 
 ## -parameters
@@ -65,13 +65,13 @@ The <b>Graphics::GetSmoothingMode</b> method determines whether smoothing (antia
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534173(v=VS.85).aspx">SmoothingMode</a></b>
+Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-smoothingmode">SmoothingMode</a></b>
 </strong>
 
 If smoothing (antialiasing) is applied to this 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object, this method returns SmoothingModeAntiAlias. If smoothing (antialiasing) is not applied to this 
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object, this method returns SmoothingModeAntiAlias. If smoothing (antialiasing) is not applied to this 
 						<b>Graphics</b> object, this method returns SmoothingModeNone. SmoothingModeAntiAlias and SmoothingModeNone are elements of the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534173(v=VS.85).aspx">SmoothingMode</a> enumeration.
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-smoothingmode">SmoothingMode</a> enumeration.
 
 
 
@@ -81,7 +81,7 @@ If smoothing (antialiasing) is applied to this
 
 
 To get the rendering quality level for text, use the 
-				<a href="https://msdn.microsoft.com/en-us/library/ms535728(v=VS.85).aspx">Graphics::GetTextRenderingHint</a> method.
+				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-gettextrenderinghint">Graphics::GetTextRenderingHint</a> method.
 
 
 #### Examples
@@ -126,19 +126,19 @@ VOID Example_GetSmoothingMode(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536351(v=VS.85).aspx">Antialiasing with Lines and Curves</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-antialiasing-with-lines-and-curves-about">Antialiasing with Lines and Curves</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533830(v=VS.85).aspx">Loading and Displaying Bitmaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-loading-and-displaying-bitmaps-use">Loading and Displaying Bitmaps</a>
  
 
  

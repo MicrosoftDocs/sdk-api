@@ -62,7 +62,7 @@ An <b>IWMDRMReader2</b> interface exists for every instance of the reader object
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDRMReader2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd798339(v=VS.85).aspx">IWMDRMReader</a>. <b>IWMDRMReader2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDRMReader2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader">IWMDRMReader</a>. <b>IWMDRMReader2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IWMDRMReader2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798341(v=VS.85).aspx">GetCopyOutputLevels</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader2-getcopyoutputlevels">GetCopyOutputLevels</a>
 </td>
 <td align="left" width="63%">
 Retrieves the output protection levels that apply to the copy action in the license of the file loaded in the reader.
@@ -86,7 +86,7 @@ Retrieves the output protection levels that apply to the copy action in the lice
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798342(v=VS.85).aspx">GetPlayOutputLevels</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader2-getplayoutputlevels">GetPlayOutputLevels</a>
 </td>
 <td align="left" width="63%">
 Retrieves the output protection levels that apply to the play action in the license of the file loaded in the reader.
@@ -95,7 +95,7 @@ Retrieves the output protection levels that apply to the play action in the lice
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798343(v=VS.85).aspx">SetEvaluateOutputLevelLicenses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader2-setevaluateoutputlevellicenses">SetEvaluateOutputLevelLicenses</a>
 </td>
 <td align="left" width="63%">
 Sets the reader to evaluate licenses that use output protection levels.
@@ -104,7 +104,7 @@ Sets the reader to evaluate licenses that use output protection levels.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798344(v=VS.85).aspx">TryNextLicense</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader2-trynextlicense">TryNextLicense</a>
 </td>
 <td align="left" width="63%">
 Sets the reader to evaluate the next applicable license for the file loaded in the player.
@@ -119,15 +119,15 @@ Sets the reader to evaluate the next applicable license for the file loaded in t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798339(v=VS.85).aspx">IWMDRMReader Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader">IWMDRMReader Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798345(v=VS.85).aspx">IWMDRMReader3 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader3">IWMDRMReader3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/c61a0739-09f2-497f-a2cd-d3f2472738e3">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
  
 
  

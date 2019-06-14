@@ -82,11 +82,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693425(v=VS.85).aspx">IBDA_SignalProperties Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_signalproperties">IBDA_SignalProperties Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693431(v=VS.85).aspx">PutTuningSpace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_signalproperties-puttuningspace">PutTuningSpace</a>
  
 
  

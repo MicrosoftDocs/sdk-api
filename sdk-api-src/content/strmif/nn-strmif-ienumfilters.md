@@ -51,18 +51,18 @@ ms.custom: 19H1
 
 
 
-The <code>IEnumFilters</code> interface enumerates the filters in a filter graph. To obtain this interface, call the <a href="https://msdn.microsoft.com/3a6dcd1a-3ec3-4f0f-8e82-2d33ad775eec">IFilterGraph::EnumFilters</a> method on the Filter Graph Manager. For more information, see <a href="https://msdn.microsoft.com/04a3dbc8-33c4-4b70-930e-686be2f8301f">Enumerating Objects in a Filter Graph</a>.
+The <code>IEnumFilters</code> interface enumerates the filters in a filter graph. To obtain this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltergraph-enumfilters">IFilterGraph::EnumFilters</a> method on the Filter Graph Manager. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/enumerating-objects-in-a-filter-graph">Enumerating Objects in a Filter Graph</a>.
 
 This interface implements a standard Component Object Model (COM) collection object.
 
-If the set of filters in the graph changes, some methods on this interface return VFW_E_ENUM_OUT_OF_SYNC. Call the <a href="https://msdn.microsoft.com/997a6e56-cd11-42bf-b12c-a4418a4dc644">IEnumFilters::Reset</a> method to resynchronize the enumerator.
+If the set of filters in the graph changes, some methods on this interface return VFW_E_ENUM_OUT_OF_SYNC. Call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ienumfilters-reset">IEnumFilters::Reset</a> method to resynchronize the enumerator.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumFilters</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnumFilters</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumFilters</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumFilters</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IEnumFilters</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ed8380af-8467-447a-a595-38fe29f9f9e6">Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ienumfilters-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Makes a copy of the enumerator object.
@@ -86,7 +86,7 @@ Makes a copy of the enumerator object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0e376a01-d353-434c-864a-8001c8022679">Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ienumfilters-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified number of filters in the enumeration sequence.
@@ -95,7 +95,7 @@ Retrieves the specified number of filters in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/997a6e56-cd11-42bf-b12c-a4418a4dc644">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ienumfilters-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning.
@@ -104,7 +104,7 @@ Resets the enumeration sequence to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/594e25b1-03a8-4b6c-965c-f34dae9f3d3b">Skip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ienumfilters-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over a specified number of filters.

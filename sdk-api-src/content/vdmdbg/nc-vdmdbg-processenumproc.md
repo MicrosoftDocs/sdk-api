@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[This function is not supported and may be altered or unavailable in the future.]
 
-Implement this function to receive information for each virtual DOS machine (VDM) that <a href="https://msdn.microsoft.com/fd79ff50-cac2-40e0-86ad-2d6af97c99a9">VDMEnumProcessWOW</a> enumerates. 
+Implement this function to receive information for each virtual DOS machine (VDM) that <a href="https://docs.microsoft.com/windows/desktop/api/vdmdbg/nf-vdmdbg-vdmenumprocesswow">VDMEnumProcessWOW</a> enumerates. 
 			
 
 The <b>PROCESSENUMPROC</b> type defines a pointer to this callback function. <b>ProcessVDMs</b> is a placeholder for the application-defined function name.
@@ -74,7 +74,7 @@ The process attributes.
 
 ### -param lpUserDefined [out]
 
-The user-defined data that was passed to the <a href="https://msdn.microsoft.com/fd79ff50-cac2-40e0-86ad-2d6af97c99a9">VDMEnumProcessWOW</a> function.
+The user-defined data that was passed to the <a href="https://docs.microsoft.com/windows/desktop/api/vdmdbg/nf-vdmdbg-vdmenumprocesswow">VDMEnumProcessWOW</a> function.
 
 
 ## -returns

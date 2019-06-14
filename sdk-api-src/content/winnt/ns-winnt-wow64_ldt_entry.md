@@ -162,13 +162,13 @@ The high bits (24â€“31) of the base address of the segment.
 
 
 The 
-<a href="https://msdn.microsoft.com/68393913-6725-4cc6-90b9-57da2a96c91e">Wow64GetThreadSelectorEntry</a> function fills this structure with information from an entry in the descriptor table. You can use this information to convert a segment-relative address to a linear virtual address.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-wow64getthreadselectorentry">Wow64GetThreadSelectorEntry</a> function fills this structure with information from an entry in the descriptor table. You can use this information to convert a segment-relative address to a linear virtual address.
 
 The base address of a segment is the address of offset 0 in the segment. To calculate this value, combine the <b>BaseLow</b>, <b>BaseMid</b>, and <b>BaseHi</b> members.
 
 The limit of a segment is the address of the last byte that can be addressed in the segment. To calculate this value, combine the <b>LimitLow</b> and <b>LimitHi</b> members.
 
-The <b>WOW64_LDT_ENTRY</b> structure has the same layout for a 64-bit process as the <a href="https://msdn.microsoft.com/e4c470ee-63e5-4a00-8c69-76cadd490439">LDT_ENTRY</a> structure has for a 32-bit process.
+The <b>WOW64_LDT_ENTRY</b> structure has the same layout for a 64-bit process as the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ldt_entry">LDT_ENTRY</a> structure has for a 32-bit process.
 
 
 
@@ -178,11 +178,11 @@ The <b>WOW64_LDT_ENTRY</b> structure has the same layout for a 64-bit process as
 
 
 
-<a href="https://msdn.microsoft.com/bf1294cd-1836-49d3-9cc4-4532429a301f">Debugging Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/debugging-structures">Debugging Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/68393913-6725-4cc6-90b9-57da2a96c91e">Wow64GetThreadSelectorEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-wow64getthreadselectorentry">Wow64GetThreadSelectorEntry</a>
  
 
  

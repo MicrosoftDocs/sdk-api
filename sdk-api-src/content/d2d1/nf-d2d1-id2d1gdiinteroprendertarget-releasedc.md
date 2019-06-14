@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates that drawing with the device context retrieved using the <a href="https://msdn.microsoft.com/40797258-84a0-44ee-8b64-04ceb3eb1998">GetDC</a> method is finished. 
+Indicates that drawing with the device context retrieved using the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1gdiinteroprendertarget-getdc">GetDC</a> method is finished. 
 
 
 ## -parameters
@@ -68,7 +68,7 @@ The modified region of the device context, or <b>NULL</b> to specify the entire 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -79,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<b>ReleaseDC</b> must be called once for each call to <a href="https://msdn.microsoft.com/40797258-84a0-44ee-8b64-04ceb3eb1998">GetDC</a>.
+<b>ReleaseDC</b> must be called once for each call to <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1gdiinteroprendertarget-getdc">GetDC</a>.
 
 
 
@@ -89,7 +89,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/cb992ddd-21b2-4eba-b7c4-e391bdd23a9d">ID2D1GdiInteropRenderTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1gdiinteroprendertarget">ID2D1GdiInteropRenderTarget</a>
  
 
  

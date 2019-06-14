@@ -109,7 +109,7 @@ The following table shows the mapping of the bitwise mask used by this property.
 
 
 
-When reading or writing your own XML for a task, the days of the week are specified using the <a href="https://msdn.microsoft.com/86555681-2324-4095-9eab-fdef40e0acba">DaysOfWeek</a> element of the Task Scheduler schema.
+When reading or writing your own XML for a task, the days of the week are specified using the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-daysofweek-weeklyscheduletype-element">DaysOfWeek</a> element of the Task Scheduler schema.
 
 
 
@@ -119,11 +119,11 @@ When reading or writing your own XML for a task, the days of the week are specif
 
 
 
-<a href="https://msdn.microsoft.com/c10b050a-8319-4e21-85aa-0bceb76abaaf">IWeeklyTrigger</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iweeklytrigger">IWeeklyTrigger</a>
 
 
 
-<a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
  
 
  

@@ -54,7 +54,7 @@ Exposes a method that allows the programmatic addition of an installed gadget to
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDesktopGadget</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDesktopGadget</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDesktopGadget</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDesktopGadget</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDesktopGadget</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9243fd88-122f-40be-ab71-66c52fa99168">RunGadget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-idesktopgadget-rungadget">RunGadget</a>
 </td>
 <td align="left" width="63%">
 Adds an installed gadget to the desktop.
@@ -97,7 +97,7 @@ Use this interface to run a gadget. A running gadget is displayed on the desktop
 
 
 
-<a href="https://msdn.microsoft.com/7e466847-5504-4676-8b44-7667285043cd">Introduction to the Gadget Platform</a>
+<a href="https://docs.microsoft.com/windows/desktop/gadgetplatform/introduction-to-the-gadget-platform">Introduction to the Gadget Platform</a>
  
 
  

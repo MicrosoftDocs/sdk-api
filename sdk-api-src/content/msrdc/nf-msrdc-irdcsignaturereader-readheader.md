@@ -62,7 +62,7 @@ The
 
 ### -param rdc_ErrorCode [out]
 
-Address of a <a href="https://msdn.microsoft.com/32e9eab0-dc6e-4e04-af8a-bc2ed4adf0be">RDC_ErrorCode</a> enumeration that will 
+Address of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ne-msrdc-__midl___midl_itf_msrdc_0000_0000_0001">RDC_ErrorCode</a> enumeration that will 
       receive any RDC-specific error code.
 
 
@@ -80,11 +80,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/dec6eb10-1243-4888-9ccc-ab1f4cfb11e7">IRdcSignatureReader</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcsignaturereader">IRdcSignatureReader</a>
 
 
 
-<a href="https://msdn.microsoft.com/32e9eab0-dc6e-4e04-af8a-bc2ed4adf0be">RDC_ErrorCode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ne-msrdc-__midl___midl_itf_msrdc_0000_0000_0001">RDC_ErrorCode</a>
  
 
  

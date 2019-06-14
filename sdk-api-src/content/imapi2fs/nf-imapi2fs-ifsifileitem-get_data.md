@@ -119,11 +119,11 @@ The contents of the file becomes read-only once the file item is added to file s
 
 
 
-<a href="https://msdn.microsoft.com/13085b1f-4ff9-48ff-a9ae-9a1c5cb9a108">IFsiFileItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsifileitem">IFsiFileItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/5fe00500-615c-48fe-a4a3-b3291e61db1f">IFsiFileItem::put_Data</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem-put_data">IFsiFileItem::put_Data</a>
  
 
  

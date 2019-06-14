@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves information about a specified <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a>. This information includes the bounds on sizes of authentication information, <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">credentials</a>, and contexts.
+Retrieves information about a specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>. This information includes the bounds on sizes of authentication information, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">credentials</a>, and contexts.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ TBD
 ### -param ppPackageInfo [out]
 
 Pointer to a variable that receives a pointer to a 
-<a href="https://msdn.microsoft.com/d0bff3d8-63f1-4a4e-851f-177040af6bd2">SecPkgInfo</a> structure containing information about the specified security package.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkginfoa">SecPkgInfo</a> structure containing information about the specified security package.
 
 
 #### - pszPackageName [in]
@@ -91,7 +91,7 @@ If the function fails, the return value is a nonzero error code.
 
 
 The caller must call the 
-<a href="https://msdn.microsoft.com/3c3d27bb-4f9a-4979-b679-1e10fa1ff221">FreeContextBuffer</a> function to free the buffer returned in <i>ppPackageInfo</i>.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a> function to free the buffer returned in <i>ppPackageInfo</i>.
 
 
 
@@ -101,15 +101,15 @@ The caller must call the
 
 
 
-<a href="https://msdn.microsoft.com/3c3d27bb-4f9a-4979-b679-1e10fa1ff221">FreeContextBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d0bff3d8-63f1-4a4e-851f-177040af6bd2">SecPkgInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkginfoa">SecPkgInfo</a>
  
 
  

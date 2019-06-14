@@ -54,7 +54,7 @@ Used to dynamically filter credential providers based on information available a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICredentialProviderFilter</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ICredentialProviderFilter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICredentialProviderFilter</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICredentialProviderFilter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ICredentialProviderFilter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3ba60965-6f18-427f-851d-b92c71eb03d2">Filter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialproviderfilter-filter">Filter</a>
 </td>
 <td align="left" width="63%">
 Evaluates whether a list of credential providers should be allowed to provide credential tiles.
@@ -78,7 +78,7 @@ Evaluates whether a list of credential providers should be allowed to provide cr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d0730f67-e4f1-42b2-823a-75b08a5c952e">UpdateRemoteCredential</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialproviderfilter-updateremotecredential">UpdateRemoteCredential</a>
 </td>
 <td align="left" width="63%">
 Updates a credential from a remote session.

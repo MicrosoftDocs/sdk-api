@@ -52,7 +52,7 @@ ms.custom: 19H1
 The custom-scripting DLL calls the 
 <i>RasSendBuffer</i> function to send data to the server over the specified port.
 
-The <a href="https://msdn.microsoft.com/e31ab530-cb60-4bb0-be44-3ba90fdf71f1">PFNRASSENDBUFFER</a> type of the <b>RasCustomScriptExecute</b> callback defines a pointer to this function. <i>RasSendBuffer</i> is a placeholder for the application-defined function name.
+The <a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rascustomscriptexecutefn">PFNRASSENDBUFFER</a> type of the <b>RasCustomScriptExecute</b> callback defines a pointer to this function. <i>RasSendBuffer</i> is a placeholder for the application-defined function name.
 
 
 ## -parameters
@@ -63,13 +63,13 @@ The <a href="https://msdn.microsoft.com/e31ab530-cb60-4bb0-be44-3ba90fdf71f1">PF
 ### -param hPort
 
 Handle to the port on which to send the data in the buffer. This handle should be the handle passed in by RAS as the first parameter of the 
-<a href="https://msdn.microsoft.com/e31ab530-cb60-4bb0-be44-3ba90fdf71f1">RasCustomScriptExecute</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rascustomscriptexecutefn">RasCustomScriptExecute</a> function.
 
 
 ### -param pBuffer
 
 Pointer to a buffer of data to send over the port specified by the <i>hPort</i> parameter. Obtain this buffer using 
-<a href="https://msdn.microsoft.com/655f2dfa-a6cf-43db-8d2e-bf9a10163c75">RasGetBuffer</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-pfnrasgetbuffer">RasGetBuffer</a> function.
 
 
 ### -param dwSize
@@ -124,7 +124,7 @@ The handle specified by the <i>hPort</i> parameter is invalid.
 
 The custom-scripting DLL calls 
 <i>RasSendBuffer</i> through a function pointer. The function pointer is passed to the custom-scripting DLL as a parameter when RAS calls the DLL's implementation of 
-<a href="https://msdn.microsoft.com/e31ab530-cb60-4bb0-be44-3ba90fdf71f1">RasCustomScriptExecute</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rascustomscriptexecutefn">RasCustomScriptExecute</a>.
 
 
 
@@ -134,19 +134,19 @@ The custom-scripting DLL calls
 
 
 
-<a href="https://msdn.microsoft.com/c27b8b02-6018-4441-a355-1fb890b9001c">RAS Custom-Scripting</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-custom-scripting">RAS Custom-Scripting</a>
 
 
 
-<a href="https://msdn.microsoft.com/e31ab530-cb60-4bb0-be44-3ba90fdf71f1">RasCustomScriptExecute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rascustomscriptexecutefn">RasCustomScriptExecute</a>
 
 
 
-<a href="https://msdn.microsoft.com/cc5523df-748d-4f96-8d54-bf0a2f9ecde4">RasReceiveBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-pfnrasreceivebuffer">RasReceiveBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/5dc8a034-f1cb-47c5-8d60-06f314a85f11">RasRetrieveBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-pfnrasretrievebuffer">RasRetrieveBuffer</a>
  
 
  

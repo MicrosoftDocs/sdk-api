@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets information on a specified group. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774933(v=VS.85).aspx">LVM_GETGROUPINFOBYINDEX</a> message explicitly.
+Gets information on a specified group. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/controls/lvm-getgroupinfobyindex">LVM_GETGROUPINFOBYINDEX</a> message explicitly.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets information on a specified group. Use this macro or send the <a href="https
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
@@ -75,7 +75,7 @@ The index of the group.
 
 Type: <b>PLVGROUP</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb774769(v=VS.85).aspx">LVGROUP</a> structure to receive information on the group specified by <i>iIndex</i>. The calling application is responsible for allocating memory for the structure and any buffers in the structure, such as, the one pointed to by <b>pszHeader</b>. Set any contingent members of the structure, such as, <b>cchHeader</b>—the size of the buffer pointed to by <b>pszHeader</b> in <b>WCHAR</b><b>s</b>, including the terminating <b>NULL</b>. Set <b>cbSize</b> to the size of <b>LVGROUP</b> in bytes.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvgroup">LVGROUP</a> structure to receive information on the group specified by <i>iIndex</i>. The calling application is responsible for allocating memory for the structure and any buffers in the structure, such as, the one pointed to by <b>pszHeader</b>. Set any contingent members of the structure, such as, <b>cchHeader</b>—the size of the buffer pointed to by <b>pszHeader</b> in <b>WCHAR</b><b>s</b>, including the terminating <b>NULL</b>. Set <b>cbSize</b> to the size of <b>LVGROUP</b> in bytes.
 
 The message receiver is responsible for setting the structure members with information for the group specified by <i>iIndex</i>.
 

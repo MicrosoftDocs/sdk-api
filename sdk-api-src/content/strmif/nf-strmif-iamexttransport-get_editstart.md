@@ -100,15 +100,15 @@ When this method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ce48038-bfcf-4b1f-8053-3446929a5f06">IAMExtTransport Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/1fd9c788-2ccb-47e5-bed8-fece9cfdf2a6">IAMExtTransport::put_EditStart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamexttransport-put_editstart">IAMExtTransport::put_EditStart</a>
  
 
  

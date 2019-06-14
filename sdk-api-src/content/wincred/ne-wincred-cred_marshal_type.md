@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CRED_MARSHAL_TYPE</b> enumeration specifies the types of credential to be marshaled by <a href="https://msdn.microsoft.com/20a1d54b-04a7-4b0a-88e4-1970d1f71502">CredMarshalCredential</a> or unmarshaled by <a href="https://msdn.microsoft.com/65757235-d92c-479f-8e2b-1f8d8564792b">CredUnmarshalCredential</a>.
+The <b>CRED_MARSHAL_TYPE</b> enumeration specifies the types of credential to be marshaled by <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credmarshalcredentiala">CredMarshalCredential</a> or unmarshaled by <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credunmarshalcredentiala">CredUnmarshalCredential</a>.
 
 
 ## -enum-fields
@@ -59,12 +59,12 @@ The <b>CRED_MARSHAL_TYPE</b> enumeration specifies the types of credential to be
 
 ### -field CertCredential
 
-Specifies that the credential is a certificate reference described by a <a href="https://msdn.microsoft.com/acaa94c3-0562-420a-95c7-44a71374d5ea">CERT_CREDENTIAL_INFO</a> structure.
+Specifies that the credential is a certificate reference described by a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_cert_credential_info">CERT_CREDENTIAL_INFO</a> structure.
 
 
 ### -field UsernameTargetCredential
 
-Specifies that the credential is a reference to a CRED_FLAGS_USERNAME_TARGET credential described by a <a href="https://msdn.microsoft.com/1cb56a85-fafd-4471-b0e9-660ac0dc0219">USERNAME_TARGET_CREDENTIAL_INFO</a> structure.
+Specifies that the credential is a reference to a CRED_FLAGS_USERNAME_TARGET credential described by a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_username_target_credential_info">USERNAME_TARGET_CREDENTIAL_INFO</a> structure.
 
 
 ### -field BinaryBlobCredential

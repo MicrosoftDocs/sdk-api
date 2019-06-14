@@ -59,14 +59,14 @@ Starts a new figure at the specified point.
 
 ### -param startPoint
 
-Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 
 The point at which to begin the new figure.
 
 
 ### -param figureBegin
 
-Type: <b><a href="https://msdn.microsoft.com/c29aa79e-b978-4318-a8e1-5a321cd66327">D2D1_FIGURE_BEGIN</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_figure_begin">D2D1_FIGURE_BEGIN</a></b>
 
 Whether the new figure should be hollow or filled.
 
@@ -89,7 +89,7 @@ If this method is called while a figure is currently in progress, the interface 
 
 #### Examples
 
-The following example creates an <a href="https://msdn.microsoft.com/d200563c-d78e-4fa0-a8f2-242b24480e99">ID2D1PathGeometry</a>, retrieves a sink, and uses it to define an hourglass shape. 
+The following example creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1pathgeometry">ID2D1PathGeometry</a>, retrieves a sink, and uses it to define an hourglass shape. 
 
 
 ```cpp
@@ -153,11 +153,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/cf877a25-7b9f-4db0-ac53-b4a350795a86">ID2D1SimplifiedGeometrySink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a>
 
 
 
-<a href="https://msdn.microsoft.com/38a290be-b915-4317-b9b1-0e49e40dc8ec">Path Geometries Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/path-geometries-overview">Path Geometries Overview</a>
  
 
  

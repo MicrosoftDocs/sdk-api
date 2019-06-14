@@ -55,7 +55,7 @@ The <b>IRdcLibrary</b> interface is the primary interface
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRdcLibrary</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IRdcLibrary</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRdcLibrary</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRdcLibrary</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,14 +70,14 @@ The <b>IRdcLibrary</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b42c7b46-9f3c-46d2-a6a7-b5176fc40645">ComputeDefaultRecursionDepth</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-computedefaultrecursiondepth">ComputeDefaultRecursionDepth</a>
 </td>
 <td align="left" width="63%">
 Computes the maximum level of recursion for the specified file size.</p> (Inherited from <b>IRdcLibrary</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/21e83ed0-974a-470f-8a7f-1776f1575100">CreateComparator</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-createcomparator">CreateComparator</a>
 </td>
 <td align="left" width="63%">
 Creates a signature comparator. The caller must create a separate signature comparator for each 
@@ -85,7 +85,7 @@ Creates a signature comparator. The caller must create a separate signature comp
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9cd64c3f-acd7-4e59-916f-90e90f452e12">CreateGenerator</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-creategenerator">CreateGenerator</a>
 </td>
 <td align="left" width="63%">
 Creates a signature generator that will generate the specified levels of 
@@ -93,15 +93,15 @@ Creates a signature generator that will generate the specified levels of
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a39e26bc-7493-4def-af6d-cf3620ec8a9f">CreateGeneratorParameters</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-creategeneratorparameters">CreateGeneratorParameters</a>
 </td>
 <td align="left" width="63%">
-Returns an <a href="https://msdn.microsoft.com/1b2db5c5-79eb-490a-ae03-36b0e926725d">IRdcGeneratorParameters</a> 
+Returns an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgeneratorparameters">IRdcGeneratorParameters</a> 
      interface pointer initialized with the  parameters necessary for a signature generator.</p> (Inherited from <b>IRdcLibrary</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/08627c9d-7470-47ab-9209-32734082c393">CreateSignatureReader</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-createsignaturereader">CreateSignatureReader</a>
 </td>
 <td align="left" width="63%">
 Creates a signature reader to allow an application to decode the contents of a signature 
@@ -109,7 +109,7 @@ Creates a signature reader to allow an application to decode the contents of a s
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3eef00e8-62d9-49bc-8340-fb56f5a4573d">GetRDCVersion</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-getrdcversion">GetRDCVersion</a>
 </td>
 <td align="left" width="63%">
 Returns the version of the installed RDC runtime and the oldest version of the RDC interfaces 
@@ -117,11 +117,11 @@ Returns the version of the installed RDC runtime and the oldest version of the R
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6fbced31-a230-44d4-a9ee-bb3e15df2563">OpenGeneratorParameters</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-opengeneratorparameters">OpenGeneratorParameters</a>
 </td>
 <td align="left" width="63%">
 Opens an existing serialized parameter block and returns an 
-     <a href="https://msdn.microsoft.com/1b2db5c5-79eb-490a-ae03-36b0e926725d">IRdcGeneratorParameters</a> interface pointer 
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgeneratorparameters">IRdcGeneratorParameters</a> interface pointer 
      initialized with the data.</p> (Inherited from <b>IRdcLibrary</b>)</td>
 </tr>
 </table> 
@@ -132,11 +132,11 @@ Opens an existing serialized parameter block and returns an
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3131654-e849-4a88-acec-c49a61653bad">Remote Differential Compression Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdc/remote-differential-compression-interfaces">Remote Differential Compression Interfaces</a>
  
 
  

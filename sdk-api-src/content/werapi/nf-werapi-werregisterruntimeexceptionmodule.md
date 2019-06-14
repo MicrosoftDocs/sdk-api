@@ -87,7 +87,7 @@ This function returns <b>S_OK</b> on success or an error code on failure, includ
 </dl>
 </td>
 <td width="60%">
-The process state is not valid. For example, the process is in <a href="https://msdn.microsoft.com/9357786c-1992-4e28-ac75-c2dfda1df7f1">application recovery mode</a>.
+The process state is not valid. For example, the process is in <a href="https://docs.microsoft.com/windows/desktop/wsw/portal">application recovery mode</a>.
 
 </td>
 </tr>
@@ -116,26 +116,26 @@ The exception handler is an out-of-process DLL that the WER service loads when a
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/22033278-2be3-4621-b618-3ccd21fb4cdd">OutOfProcessExceptionEventCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nc-werapi-pfn_wer_runtime_exception_event">OutOfProcessExceptionEventCallback</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/892498db-0265-4276-9735-63a8104ecaa9">OutOfProcessExceptionEventSignatureCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nc-werapi-pfn_wer_runtime_exception_event_signature">OutOfProcessExceptionEventSignatureCallback</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/ecf36951-cdb5-425d-a9b1-83b7ce8aebc4">OutOfProcessExceptionEventDebuggerLaunchCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nc-werapi-pfn_wer_runtime_exception_debugger_launch">OutOfProcessExceptionEventDebuggerLaunchCallback</a>
 </li>
 </ul>
-(The DLL must also include the <a href="https://msdn.microsoft.com/0c3e3083-9297-4626-b2a7-0062d1c2cf9e">DllMain</a> entry point.)
+(The DLL must also include the <a href="https://docs.microsoft.com/windows/desktop/Dlls/dllmain">DllMain</a> entry point.)
 
 Using an exception handler is more secure and reliable for reporting crash information than the current, in-process event reporting feature. Also, the current generic event reporting feature is suited only for reporting non-fatal errors.
 
-This function requires that the <i>pwszOutOfProcessCallbackDll</i> DLL be included in the <a href="https://msdn.microsoft.com/031c5591-31b0-42f1-9a98-ecf10a5d5571">WER exception handler module list</a> in the registry. After registering an exception handler, if the process crashes or raises an unhandled exception, the WER service loads your exception handler and calls the <a href="https://msdn.microsoft.com/22033278-2be3-4621-b618-3ccd21fb4cdd">OutOfProcessExceptionEventCallback</a> callback function., which you use to state your claim on the crash and provide the event name and report parameters count. Note that if the process registers more than one exception handler, the service calls each handler until one of the handlers claims the crash. If no handlers claim the crash, WER defaults to native crash reporting.
+This function requires that the <i>pwszOutOfProcessCallbackDll</i> DLL be included in the <a href="https://docs.microsoft.com/windows/desktop/wer/wer-settings">WER exception handler module list</a> in the registry. After registering an exception handler, if the process crashes or raises an unhandled exception, the WER service loads your exception handler and calls the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nc-werapi-pfn_wer_runtime_exception_event">OutOfProcessExceptionEventCallback</a> callback function., which you use to state your claim on the crash and provide the event name and report parameters count. Note that if the process registers more than one exception handler, the service calls each handler until one of the handlers claims the crash. If no handlers claim the crash, WER defaults to native crash reporting.
 
-If an exception handler claims the exception, the WER service calls the <a href="https://msdn.microsoft.com/892498db-0265-4276-9735-63a8104ecaa9">OutOfProcessExceptionEventSignatureCallback</a> callback function, which provides the reporting parameters that uniquely define the problem. Then, the WER service calls the <a href="https://msdn.microsoft.com/ecf36951-cdb5-425d-a9b1-83b7ce8aebc4">OutOfProcessExceptionEventDebuggerLaunchCallback</a> callback to determine whether to offer the user the option of launching  a debugger or launching the debugger automatically. The handler can also specify a custom debugger launch string, which will override the default string (the default is the debugger specified in the AeDebug registry key).
+If an exception handler claims the exception, the WER service calls the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nc-werapi-pfn_wer_runtime_exception_event_signature">OutOfProcessExceptionEventSignatureCallback</a> callback function, which provides the reporting parameters that uniquely define the problem. Then, the WER service calls the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nc-werapi-pfn_wer_runtime_exception_debugger_launch">OutOfProcessExceptionEventDebuggerLaunchCallback</a> callback to determine whether to offer the user the option of launching  a debugger or launching the debugger automatically. The handler can also specify a custom debugger launch string, which will override the default string (the default is the debugger specified in the AeDebug registry key).
 
 After the handler has provided the event name, reporting parameters and debugger launch settings, the rest of the error reporting flow continues in the usual way.
 
-You must call the <a href="https://msdn.microsoft.com/1a315923-b554-4363-a607-076690fc76a1">WerUnregisterRuntimeExceptionModule</a> function to remove the registration before your process exits. A process can register up to WER_MAX_REGISTERED_RUNTIME_EXCEPTION_MODULES handlers.
+You must call the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werunregisterruntimeexceptionmodule">WerUnregisterRuntimeExceptionModule</a> function to remove the registration before your process exits. A process can register up to WER_MAX_REGISTERED_RUNTIME_EXCEPTION_MODULES handlers.
 
 
 

@@ -103,7 +103,7 @@ Remove the service from the registry. For SAP, this means stop sending out the p
 </td>
 <td width="60%">
 Delete the service from dynamic name and persistent spaces. For services represented by multiple 
-<a href="https://msdn.microsoft.com/9cad3586-e315-4f6f-9045-7c95502bb768">CSADDR_INFO</a> structures (using the SERVICE_MULTIPLE flag), only the specified address will be deleted, and this must match exactly the corresponding 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a> structures (using the SERVICE_MULTIPLE flag), only the specified address will be deleted, and this must match exactly the corresponding 
 <b>CSADDR_INFO</b> structure that was specified when the service was registered.
 
 </td>
@@ -141,7 +141,7 @@ Controls scope of operation. When this flag is not set, service addresses are ma
 
 The return value for 
 <b>WSASetService</b> is zero if the operation was successful. Otherwise, the value SOCKET_ERROR is returned, and a specific error number can be retrieved by calling 
-<a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
 
 <table>
 <tr>
@@ -151,7 +151,7 @@ The return value for
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEACCES</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEACCES</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -162,7 +162,7 @@ The calling routine does not have sufficient privileges to install the Service.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -173,19 +173,19 @@ One or more required parameters were invalid or missing.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 The <i>Ws2_32.dll</i> has not been initialized. The application must first call 
-<a href="https://msdn.microsoft.com/08299592-867c-491d-9769-d16602133659">WSAStartup</a> before calling any Windows Sockets functions.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> before calling any Windows Sockets functions.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -253,17 +253,17 @@ The available values for <i>essOperation</i> and <i>dwControlFlags</i> combine t
 </table>
  
 
-Publishing services to directories, such as Active Directory Services, is restricted based on access control lists (ACLs). For more information, see <a href="https://msdn.microsoft.com/38e20a47-738d-4951-ad74-249039afeb52">Security Issues for Service Publication</a>.
+Publishing services to directories, such as Active Directory Services, is restricted based on access control lists (ACLs). For more information, see <a href="https://docs.microsoft.com/windows/desktop/AD/security-issues-for-service-publication">Security Issues for Service Publication</a>.
 
 When the <i>dwControlFlags</i> parameter is set to <b>SERVICE_MULTIPLE</b>, an application can manage its addresses independently. This is useful when the application wants to manage its protocols individually or when the service resides on more than one computer. For instance, when a service uses more than one protocol, it may find that one listening socket aborts but the other sockets remain operational. In this case, the service could remove the aborted address from the registry without affecting the other addresses.
 
 When the <i>dwControlFlags</i> parameter is set to <b>SERVICE_MULTIPLE</b>, an application must not let stale addresses remain in the object. This can happen if the application aborts without issuing a DEREGISTER request. When a service registers, it should store its addresses. On its next invocation, the service should explicitly remove these old stale addresses from the registry before registering new addresses.
 
-<div class="alert"><b>Note</b>  If ANSI character strings are used, there is a chance that the <a href="https://msdn.microsoft.com/6c81fbba-aaf4-49ca-ab79-b6fe5dfb0076">WSAQUERYSET</a> data in <i>lpqsRegInfo</i> may not contain any results after this function returns. This is because the ANSI version of this method, <b>WSASetServiceA</b>, converts the ANSI data in <b>WSAQUERYSET</b> to Unicode internally, but does not convert the results back to ANSI. This primarily impacts transports that return a "service record handle" used to uniquely identify a record. To work around this issue, applications should use Unicode string data in <b>WSAQUERYSET</b> when calling this function.</div>
+<div class="alert"><b>Note</b>  If ANSI character strings are used, there is a chance that the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a> data in <i>lpqsRegInfo</i> may not contain any results after this function returns. This is because the ANSI version of this method, <b>WSASetServiceA</b>, converts the ANSI data in <b>WSAQUERYSET</b> to Unicode internally, but does not convert the results back to ANSI. This primarily impacts transports that return a "service record handle" used to uniquely identify a record. To work around this issue, applications should use Unicode string data in <b>WSAQUERYSET</b> when calling this function.</div>
 <div> </div>
 <h3><a id="Service_Properties"></a><a id="service_properties"></a><a id="SERVICE_PROPERTIES"></a>Service Properties</h3>
 The following table describes how service property data is represented in a 
-<a href="https://msdn.microsoft.com/6c81fbba-aaf4-49ca-ab79-b6fe5dfb0076">WSAQUERYSET</a> structure. Fields labeled as (Optional) can contain a null pointer.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a> structure. Fields labeled as (Optional) can contain a null pointer.
 
 <table>
 <tr>
@@ -272,7 +272,7 @@ The following table describes how service property data is represented in a
 </tr>
 <tr>
 <td><b>dwSize</b></td>
-<td>Must be set to sizeof (<a href="https://msdn.microsoft.com/6c81fbba-aaf4-49ca-ab79-b6fe5dfb0076">WSAQUERYSET</a>). This is a versioning mechanism.</td>
+<td>Must be set to sizeof (<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a>). This is a versioning mechanism.</td>
 </tr>
 <tr>
 <td><b>dwOutputFlags</b></td>
@@ -321,12 +321,12 @@ The following table describes how service property data is represented in a
 <tr>
 <td><b>dwNumberOfCsAddrs</b></td>
 <td>The number of elements in the array of 
-<a href="https://msdn.microsoft.com/9cad3586-e315-4f6f-9045-7c95502bb768">CSADDR_INFO</a> structures referenced by <b>lpcsaBuffer</b>.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a> structures referenced by <b>lpcsaBuffer</b>.</td>
 </tr>
 <tr>
 <td><b>lpcsaBuffer</b></td>
 <td>A pointer to an array of 
-<a href="https://msdn.microsoft.com/9cad3586-e315-4f6f-9045-7c95502bb768">CSADDR_INFO</a> structures that contain the address(es) that the service is listening on.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a> structures that contain the address(es) that the service is listening on.</td>
 </tr>
 <tr>
 <td><b>lpBlob</b></td>
@@ -373,23 +373,23 @@ As illustrated in the following, the combination of the <b>dwNameSpace</b> and <
 
 
 
-<a href="https://msdn.microsoft.com/71c5ed9c-fade-4d15-848e-eb810ad4cbb2">Bluetooth and WSASetService</a>
+<a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-wsasetservice">Bluetooth and WSASetService</a>
 
 
 
-<a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>
 
 
 
-<a href="https://msdn.microsoft.com/08299592-867c-491d-9769-d16602133659">WSAStartup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a>
 
 
 
-<a href="https://msdn.microsoft.com/edafb5f9-09fe-4f8e-9651-4002b6f622f4">Winsock Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/baae2bf9-f505-4365-b60e-e3247a0218c8">Winsock Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
  
 
  

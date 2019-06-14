@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>SECPKG_CALL_INFO</b> structure contains information about a currently executing call. This structure is used by the 
-<a href="https://msdn.microsoft.com/3e59ee6a-f7ba-4886-98f7-74ffbfaadea7">GetCallInfo</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_get_call_info">GetCallInfo</a> function.
 
 
 ## -struct-fields
@@ -203,7 +203,7 @@ Call asks for network logon only and not any cached logons.
 </dl>
 </td>
 <td width="60%">
-Call of <a href="https://msdn.microsoft.com/75968d53-5af2-4d77-9486-26403b73c954">LsaLogonUser</a> is from Winlogon.
+Call of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> is from Winlogon.
 
 <b>Windows Server 2003 and Windows XP:  </b>This value is not supported.
 

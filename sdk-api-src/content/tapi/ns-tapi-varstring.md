@@ -76,7 +76,7 @@ Size of the portion of this data structure that contains useful information, in 
 ### -field dwStringFormat
 
 Format of the string. This member uses one of the 
-<a href="https://msdn.microsoft.com/ca67c9d1-d3e0-4a55-9be7-6760edea96ee">STRINGFORMAT_ Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/stringformat--constants">STRINGFORMAT_ Constants</a>.
 
 
 ### -field dwStringSize

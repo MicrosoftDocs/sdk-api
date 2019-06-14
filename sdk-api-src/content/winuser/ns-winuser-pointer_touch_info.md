@@ -59,23 +59,23 @@ Defines basic touch information common to all pointer types.
 
 ### -field pointerInfo
 
-Type: <b><a href="https://msdn.microsoft.com/fee176ba-ad07-4145-0b4d-1b8c335fd102">POINTER_INFO</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_info">POINTER_INFO</a></b>
 
-An embedded <a href="https://msdn.microsoft.com/fee176ba-ad07-4145-0b4d-1b8c335fd102">POINTER_INFO</a> header structure.
+An embedded <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_info">POINTER_INFO</a> header structure.
 
 
 ### -field touchFlags
 
-Type: <b><a href="https://msdn.microsoft.com/87CE2BF4-BD33-4D45-B001-065048702064">Touch Flags</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/touch-flags-constants">Touch Flags</a></b>
 
 Currently none.
 
 
 ### -field touchMask
 
-Type: <b><a href="https://msdn.microsoft.com/23AD50C8-C769-48D6-9F27-DB2755C03D5C">Touch Mask</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/touch-mask-constants">Touch Mask</a></b>
 
-Indicates which of the optional fields contain valid values. The member can be zero or any combination of the values from the <a href="https://msdn.microsoft.com/23AD50C8-C769-48D6-9F27-DB2755C03D5C">Touch Mask</a> constants.
+Indicates which of the optional fields contain valid values. The member can be zero or any combination of the values from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/touch-mask-constants">Touch Mask</a> constants.
 
 
 ### -field rcContact
@@ -86,7 +86,7 @@ Type: <b>RECT</b>
 By default, if the device does not report a contact area, this field defaults to a 0-by-0 rectangle centered around the pointer location.
 
 
-The predicted value is based on the pointer position reported by the digitizer and the motion of the pointer. This correction can compensate for visual lag due to inherent delays in sensing and processing the pointer location on the digitizer. This is applicable to  pointers of type <a href="https://msdn.microsoft.com/3334DCD0-DAE1-4AC2-AB36-23D114803100">PT_TOUCH</a>. 
+The predicted value is based on the pointer position reported by the digitizer and the motion of the pointer. This correction can compensate for visual lag due to inherent delays in sensing and processing the pointer location on the digitizer. This is applicable to  pointers of type <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-tagpointer_input_type">PT_TOUCH</a>. 
 
 
 ### -field rcContactRaw
@@ -117,7 +117,7 @@ Type: <b>UINT32</b>
 
 
 
-<a href="https://msdn.microsoft.com/2224DCD0-DAE1-4AC2-AB36-23D114801138">Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/structures">Structures</a>
  
 
  

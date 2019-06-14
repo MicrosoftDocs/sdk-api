@@ -54,7 +54,7 @@ Exposes methods that get item info and item count.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrConflictResolutionItems</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISyncMgrConflictResolutionItems</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrConflictResolutionItems</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrConflictResolutionItems</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISyncMgrConflictResolutionItems</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6842d091-210c-46de-b768-e9a145b0565d">GetCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolutionitems-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
 Gets item count.
@@ -78,7 +78,7 @@ Gets item count.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c98ec4fa-bbca-4213-95c3-b50ccafbbfdb">GetItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolutionitems-getitem">GetItem</a>
 </td>
 <td align="left" width="63%">
 Gets result information for a specified item, when successful.

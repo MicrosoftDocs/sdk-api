@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>LSA_STRING</b> structure is used by <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">Local Security Authority</a> (LSA) functions to specify an ANSI string.
+The <b>LSA_STRING</b> structure is used by <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) functions to specify an ANSI string.
 
 
 ## -struct-fields

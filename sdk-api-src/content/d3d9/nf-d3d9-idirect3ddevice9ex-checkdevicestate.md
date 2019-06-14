@@ -60,7 +60,7 @@ Reports the current cooperative-level status of the Direct3D device for a window
 
 ### -param hDestinationWindow [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 The destination window handle to check for occlusion. When this parameter is <b>NULL</b>, S_PRESENT_OCCLUDED is returned when another device has fullscreen ownership. When the window handle is not <b>NULL</b>, window's client area is checked for occlusion. A window is occluded if any part of it is obscured by another application.
 
@@ -69,9 +69,9 @@ The destination window handle to check for occlusion. When this parameter is <b>
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-Possible return values include: D3D_OK, D3DERR_DEVICELOST, D3DERR_DEVICEHUNG, D3DERR_DEVICEREMOVED, or D3DERR_OUTOFVIDEOMEMORY (see <a href="https://msdn.microsoft.com/en-us/library/Bb172554(v=VS.85).aspx">D3DERR</a>), or S_PRESENT_MODE_CHANGED, or S_PRESENT_OCCLUDED (see <a href="https://msdn.microsoft.com/en-us/library/Bb219624(v=VS.85).aspx">S_PRESENT</a>).
+Possible return values include: D3D_OK, D3DERR_DEVICELOST, D3DERR_DEVICEHUNG, D3DERR_DEVICEREMOVED, or D3DERR_OUTOFVIDEOMEMORY (see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3derr">D3DERR</a>), or S_PRESENT_MODE_CHANGED, or S_PRESENT_OCCLUDED (see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/device-state-return-codes">S_PRESENT</a>).
 
 
 
@@ -80,11 +80,11 @@ Possible return values include: D3D_OK, D3DERR_DEVICELOST, D3DERR_DEVICEHUNG, D3
 
 
 
-This method replaces <a href="https://msdn.microsoft.com/en-us/library/Bb174472(v=VS.85).aspx">IDirect3DDevice9::TestCooperativeLevel</a>, which always returns S_OK in Direct3D 9Ex applications.
+This method replaces <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-testcooperativelevel">IDirect3DDevice9::TestCooperativeLevel</a>, which always returns S_OK in Direct3D 9Ex applications.
 
-We recommend not to call <b>CheckDeviceState</b> every frame. Instead, call <b>CheckDeviceState</b> only if the <a href="https://msdn.microsoft.com/en-us/library/Bb174343(v=VS.85).aspx">IDirect3DDevice9Ex::PresentEx</a> method returns a failure code.
+We recommend not to call <b>CheckDeviceState</b> every frame. Instead, call <b>CheckDeviceState</b> only if the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-presentex">IDirect3DDevice9Ex::PresentEx</a> method returns a failure code.
 
-See <a href="https://msdn.microsoft.com/en-us/library/Bb219800(v=VS.85).aspx">Lost Device Behavior Changes</a> for more information about lost, hung, and removed devices.
+See <a href="https://docs.microsoft.com/windows/desktop/direct3d9/dx9lh">Lost Device Behavior Changes</a> for more information about lost, hung, and removed devices.
 
 
 
@@ -94,7 +94,7 @@ See <a href="https://msdn.microsoft.com/en-us/library/Bb219800(v=VS.85).aspx">Lo
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174337(v=VS.85).aspx">IDirect3DDevice9Ex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nn-d3d9-idirect3ddevice9ex">IDirect3DDevice9Ex</a>
  
 
  

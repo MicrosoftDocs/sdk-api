@@ -49,11 +49,11 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SECPKG_SUPPLEMENTAL_CRED</b> structure contains <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">supplemental credentials</a> recognized by the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a>.
+The <b>SECPKG_SUPPLEMENTAL_CRED</b> structure contains <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">supplemental credentials</a> recognized by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>.
 
 The structure is used by the 
-<a href="https://msdn.microsoft.com/bb382937-e5d6-452b-b166-505d0c80412c">SpAcceptCredentials</a> function and the 
-<a href="https://msdn.microsoft.com/b9514e26-29a5-4ba8-a375-1723c0a1ce39">SECPKG_SUPPLEMENTAL_CRED_ARRAY</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spacceptcredentialsfn">SpAcceptCredentials</a> function and the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_supplemental_cred_array">SECPKG_SUPPLEMENTAL_CRED_ARRAY</a> structure.
 
 
 ## -struct-fields
@@ -63,7 +63,7 @@ The structure is used by the
 
 ### -field PackageName
 
-The name of the <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">authentication package</a> that authenticated the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">credentials</a>.
+The name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">authentication package</a> that authenticated the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">credentials</a>.
 
 
 ### -field CredentialSize

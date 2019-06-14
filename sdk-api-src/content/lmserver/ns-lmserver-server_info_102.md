@@ -514,7 +514,7 @@ A primary domain.
 </table>
  
 
-The <b>SV_TYPE_ALL</b> constant is defined to 0xFFFFFFFF in the <i>Lmserver.h</i> header file. This constant can be used to check for all server types when used with the <a href="https://msdn.microsoft.com/10012a87-805e-4817-9f09-9e5632b1fa09">NetServerEnum</a>function. 
+The <b>SV_TYPE_ALL</b> constant is defined to 0xFFFFFFFF in the <i>Lmserver.h</i> header file. This constant can be used to check for all server types when used with the <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netserverenum">NetServerEnum</a>function. 
 
 
 ### -field sv102_comment
@@ -578,7 +578,7 @@ The server is not visible.
 Type: <b>DWORD</b>
 
 The network announce rate, in seconds. This rate determines how often the server is announced to other computers on the network. For more information about how much the announce rate can vary from the period of time specified by this member, see 
-<a href="https://msdn.microsoft.com/0a87d88c-af70-41ce-9d92-6e642d284819">SERVER_INFO_1018</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_1018">SERVER_INFO_1018</a>.
 
 
 ### -field sv102_anndelta
@@ -609,7 +609,7 @@ A pointer to a Unicode string specifying the path to user directories.
 
 
 To retrieve a value that indicates whether a share is the root volume in a Dfs tree structure, you must call the 
-<a href="https://msdn.microsoft.com/672ea208-4048-4d2f-9606-ee3e2133765b">NetShareGetInfo</a> function and specify information level 1005.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a> function and specify information level 1005.
 
 
 
@@ -619,31 +619,31 @@ To retrieve a value that indicates whether a share is the root volume in a Dfs t
 
 
 
-<a href="https://msdn.microsoft.com/ed15e1b5-3fdc-4841-85d1-89269684df0e">NetServerGetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservergetinfo">NetServerGetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/1a04a43d-34f9-4a08-ac66-750120792af0">NetServerSetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netserversetinfo">NetServerSetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/672ea208-4048-4d2f-9606-ee3e2133765b">NetShareGetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4b05054-bef2-4cab-89f6-725d92ee75b8">Network Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/0a87d88c-af70-41ce-9d92-6e642d284819">SERVER_INFO_1018</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_1018">SERVER_INFO_1018</a>
 
 
 
-<a href="https://msdn.microsoft.com/43e1285b-8c86-4af4-9834-fcd5ee8aceb8">Server Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/server-functions">Server Functions</a>
  
 
  

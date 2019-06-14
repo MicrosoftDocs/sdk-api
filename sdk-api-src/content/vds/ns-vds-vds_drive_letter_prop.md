@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the properties of a drive letter.
 
@@ -71,7 +71,7 @@ The GUID of the volume object represented by the drive letter.
 
 ### -field ulFlags
 
-The drive letter flags enumerated by <a href="https://msdn.microsoft.com/f6eebe08-ebc9-45d3-a752-9cdc13f9bcf1">VDS_DRIVE_LETTER_FLAG</a>.
+The drive letter flags enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_drive_letter_flag">VDS_DRIVE_LETTER_FLAG</a>.
 
 
 ### -field bUsed
@@ -83,7 +83,7 @@ If true, the drive letter is already in use; otherwise, the drive letter is avai
 
 
 
-The <a href="https://msdn.microsoft.com/e9e9f8b0-963f-4c57-9553-8b9241317b55">IVdsService::QueryDriveLetters</a> method returns this structure to report the property details of a drive letter.
+The <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-querydriveletters">IVdsService::QueryDriveLetters</a> method returns this structure to report the property details of a drive letter.
 
 
 
@@ -93,15 +93,15 @@ The <a href="https://msdn.microsoft.com/e9e9f8b0-963f-4c57-9553-8b9241317b55">IV
 
 
 
-<a href="https://msdn.microsoft.com/e9e9f8b0-963f-4c57-9553-8b9241317b55">IVdsService::QueryDriveLetters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-querydriveletters">IVdsService::QueryDriveLetters</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a13f5eb-0fa1-48e2-a112-b2254ca28423">VDS Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-structures">VDS Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/f6eebe08-ebc9-45d3-a752-9cdc13f9bcf1">VDS_DRIVE_LETTER_FLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_drive_letter_flag">VDS_DRIVE_LETTER_FLAG</a>
  
 
  

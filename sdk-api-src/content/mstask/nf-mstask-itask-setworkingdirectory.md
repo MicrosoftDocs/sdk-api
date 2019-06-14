@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-This method sets the <a href="https://msdn.microsoft.com/en-us/library/Aa384011(v=VS.85).aspx">working directory</a> for the <a href="https://msdn.microsoft.com/en-us/library/Aa382533(v=VS.85).aspx">task</a>.
+This method sets the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/w">working directory</a> for the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/t">task</a>.
 
 
 ## -parameters
@@ -129,7 +129,7 @@ After setting the working directory of a task, be sure to call <b>IPersistFile::
 
 #### Examples
 
-For an example of how to set the working directory of a task, see <a href="https://msdn.microsoft.com/bcfcd6af-a3aa-45a8-bde6-0c90aec3e27a">C/C++ Code Example: Setting Working Directory</a>.
+For an example of how to set the working directory of a task, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/c-c-code-example-setting-working-directory">C/C++ Code Example: Setting Working Directory</a>.
 
 <div class="code"></div>
 
@@ -140,11 +140,11 @@ For an example of how to set the working directory of a task, see <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/737259f6-63d3-43f1-83a7-a10c95aff0e1">GetWorkingDirectory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itask-getworkingdirectory">GetWorkingDirectory</a>
 
 
 
-<a href="https://msdn.microsoft.com/84a70dd0-43cb-42be-8360-35263bf1afb8">ITask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
  
 
  

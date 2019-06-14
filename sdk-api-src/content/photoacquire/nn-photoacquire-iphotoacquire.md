@@ -57,7 +57,7 @@ The <code>IPhotoAcquire</code> interface provides methods for acquiring photos f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPhotoAcquire</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPhotoAcquire</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPhotoAcquire</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPhotoAcquire</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IPhotoAcquire</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1000511f-40a6-4d5e-a55f-97e25f6c1e11">Acquire</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquire-acquire">Acquire</a>
 </td>
 <td align="left" width="63%">
 Acquires photos from a device.
@@ -81,7 +81,7 @@ Acquires photos from a device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/03dc14d4-03e8-4281-ae70-c9f2c5646694">CreatePhotoSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquire-createphotosource">CreatePhotoSource</a>
 </td>
 <td align="left" width="63%">
 Initializes the source from which to acquire photos.
@@ -90,7 +90,7 @@ Initializes the source from which to acquire photos.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2f3bd36c-3daf-4738-8240-ce622d988861">EnumResults</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquire-enumresults">EnumResults</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumeration of the acquired files.
@@ -105,7 +105,7 @@ Retrieves an enumeration of the acquired files.
 
 
 
-<a href="https://msdn.microsoft.com/f58529da-f419-445a-879a-2c087b770f0f">Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/acquisition/interfaces">Interfaces</a>
  
 
  

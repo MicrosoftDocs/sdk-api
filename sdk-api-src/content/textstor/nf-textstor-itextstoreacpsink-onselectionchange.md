@@ -101,9 +101,9 @@ The manager holds a lock on the document.
 
 
 
-<b>ITextStoreACPSink::OnSelectionChange</b> is never called when the selection is modified by one of the <a href="https://msdn.microsoft.com/21e011f7-6791-4eb9-85c9-18bd10107119">ITextStoreACP</a> interface methods, such as <a href="https://msdn.microsoft.com/e9151b63-2ca7-4995-a36b-b919ab2d491a">ITextStoreACP::SetSelection</a> or <a href="https://msdn.microsoft.com/b57ad8da-6f79-4d27-96e0-608cbcaae826">ITextStoreACP::InsertTextAtSelection</a>.
+<b>ITextStoreACPSink::OnSelectionChange</b> is never called when the selection is modified by one of the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a> interface methods, such as <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-setselection">ITextStoreACP::SetSelection</a> or <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-inserttextatselection">ITextStoreACP::InsertTextAtSelection</a>.
 
-When calling this method, the application must be able to grant a <a href="https://msdn.microsoft.com/3c623c44-b0d3-4b03-8de9-25f1062b5726">document lock</a>.
+When calling this method, the application must be able to grant a <a href="https://docs.microsoft.com/windows/desktop/TSF/document-locks">document lock</a>.
 
 
 
@@ -113,26 +113,26 @@ When calling this method, the application must be able to grant a <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/3c623c44-b0d3-4b03-8de9-25f1062b5726">Document Locks</a>
+<a href="https://docs.microsoft.com/windows/desktop/TSF/document-locks">Document Locks</a>
 
 
 
-<a href="https://msdn.microsoft.com/21e011f7-6791-4eb9-85c9-18bd10107119">ITextStoreACP
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/b57ad8da-6f79-4d27-96e0-608cbcaae826">ITextStoreACP::InsertTextAtSelection
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-inserttextatselection">ITextStoreACP::InsertTextAtSelection
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/e9151b63-2ca7-4995-a36b-b919ab2d491a">ITextStoreACP::SetSelection
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-setselection">ITextStoreACP::SetSelection
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/d7e5a04f-7159-436e-a522-4cb63063aeef">ITextStoreACPSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacpsink">ITextStoreACPSink</a>
  
 
  

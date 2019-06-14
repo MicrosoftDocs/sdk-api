@@ -59,7 +59,7 @@ Specifies the antialiasing mode, transform, and tags portion of the drawing stat
 
 ### -param stateDescription [in]
 
-Type: <b><a href="https://msdn.microsoft.com/ba4adc4b-4d86-40c4-8911-1c800d3c6f3e">D2D1_DRAWING_STATE_DESCRIPTION</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_drawing_state_description">D2D1_DRAWING_STATE_DESCRIPTION</a>*</b>
 
 The antialiasing mode, transform, and tags portion of the drawing state.
 
@@ -78,7 +78,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/9a3d9146-0e1b-4642-ad5d-ff1d09a93d2b">ID2D1DrawingStateBlock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1drawingstateblock">ID2D1DrawingStateBlock</a>
  
 
  

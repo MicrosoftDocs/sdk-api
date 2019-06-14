@@ -59,17 +59,17 @@ Called by the sensor adapter on the biometric unit to determine the input data f
 
 ### -param Pipeline [in, out]
 
-Pointer to a <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae41c3e12a">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 
 ### -param StandardFormat [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/a178840e-81cc-4dd3-9d80-a181fa7fa888">WINBIO_REGISTERED_FORMAT</a> structure that specifies the format of the data in the <b>StandardDataBlock</b> member of the <a href="https://msdn.microsoft.com/39cfab34-0416-4897-bf95-a1b3c3a6a7a1">WINBIO_BIR</a> object. The format is an IBIA-registered name/value pair.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-registered-format">WINBIO_REGISTERED_FORMAT</a> structure that specifies the format of the data in the <b>StandardDataBlock</b> member of the <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> object. The format is an IBIA-registered name/value pair.
 
 
 ### -param VendorFormat [out]
 
-Pointer to a GUID that receives the vendor-defined format of the data in the <b>VendorDataBlock</b> member of the <a href="https://msdn.microsoft.com/39cfab34-0416-4897-bf95-a1b3c3a6a7a1">WINBIO_BIR</a> object.
+Pointer to a GUID that receives the vendor-defined format of the data in the <b>VendorDataBlock</b> member of the <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> object.
 
 
 ## -returns
@@ -171,7 +171,7 @@ cleanup:
 
 
 
-<a href="https://msdn.microsoft.com/5f04d912-f9bc-41d4-aa9e-b843e4b5a994">Plug-in Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
  
 
  

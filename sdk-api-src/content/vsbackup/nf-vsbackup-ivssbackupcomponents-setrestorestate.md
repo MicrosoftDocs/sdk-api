@@ -62,7 +62,7 @@ The
 ### -param restoreType [in]
 
 A 
-<a href="https://msdn.microsoft.com/4649aee5-da45-4602-a768-eff228a8d726">VSS_RESTORE_TYPE</a> enumeration value indicating the type of restore to be performed.
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_restore_type">VSS_RESTORE_TYPE</a> enumeration value indicating the type of restore to be performed.
 
 
 ## -returns
@@ -128,7 +128,7 @@ The backup components object is not initialized, this method has been called dur
 </td>
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more information, see 
-<a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+<a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -140,7 +140,7 @@ The XML document is not valid. Check the event log for details. For more informa
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -160,10 +160,10 @@ Typically, most restore operations will not need to override the default restore
 
 If applications need to call 
 <b>SetRestoreState</b>, it should be called prior to calling 
-<a href="https://msdn.microsoft.com/7a4c8869-9655-49a7-818b-98a08103f4b4">IVssBackupComponents::PreRestore</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">IVssBackupComponents::PreRestore</a>.
 
 If 
-<b>SetRestoreState</b> is not called prior to <a href="https://msdn.microsoft.com/7a4c8869-9655-49a7-818b-98a08103f4b4">IVssBackupComponents::PreRestore</a>, the default restore state () is used.
+<b>SetRestoreState</b> is not called prior to <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">IVssBackupComponents::PreRestore</a>, the default restore state () is used.
 
 
 
@@ -173,19 +173,19 @@ If
 
 
 
-<a href="https://msdn.microsoft.com/fe1220c7-11e5-4872-b7a9-61558f7c75c0">IVssBackupComponents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
 
 
-<a href="https://msdn.microsoft.com/18a1295d-b763-477b-bda2-baf8a878bf46">IVssBackupComponents::SetBackupState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupstate">IVssBackupComponents::SetBackupState</a>
 
 
 
-<a href="https://msdn.microsoft.com/82934737-0d80-4b5d-a1fa-1ba38e446504">VSS_BACKUP_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_backup_type">VSS_BACKUP_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/4649aee5-da45-4602-a768-eff228a8d726">VSS_RESTORE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_restore_type">VSS_RESTORE_TYPE</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Converts a string to a <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structure.
+Converts a string to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structure.
 
 
 ## -parameters
@@ -66,9 +66,9 @@ Pointer to a null-terminated, Unicode string to be converted.
 
 ### -param pkey [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a>*</b>
 
-When this function returns, contains a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structure.
+When this function returns, contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structure.
 
 
 ## -returns
@@ -86,14 +86,14 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-The string to be converted must be formatted as <code>"{fmtid} pid"</code>. For instance, the string that corresponds to <code>PKEY_Title</code> is: <code>"{F29F85E0-4FF9-1068-AB91-08002B27B3D9} 2"</code>. <a href="https://msdn.microsoft.com/en-us/library/Bb762089(v=VS.85).aspx">PSStringFromPropertyKey</a> outputs strings in this format.
+The string to be converted must be formatted as <code>"{fmtid} pid"</code>. For instance, the string that corresponds to <code>PKEY_Title</code> is: <code>"{F29F85E0-4FF9-1068-AB91-08002B27B3D9} 2"</code>. <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psstringfrompropertykey">PSStringFromPropertyKey</a> outputs strings in this format.
 
 This function succeeds for any valid property key string, even if the property does not exist in the property schema.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762085(v=VS.85).aspx">PSPropertyKeyFromString</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-pspropertykeyfromstring">PSPropertyKeyFromString</a>.
 
 
 ```cpp
@@ -116,11 +116,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762081(v=VS.85).aspx">PSGetPropertyKeyFromName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psgetpropertykeyfromname">PSGetPropertyKeyFromName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762089(v=VS.85).aspx">PSStringFromPropertyKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psstringfrompropertykey">PSStringFromPropertyKey</a>
  
 
  

@@ -59,7 +59,7 @@ Retrieves the requested data sector to use during write of the stream.
 
 ### -param value [out]
 
-Requested data sector type. For possible values, see <a href="https://msdn.microsoft.com/en-us/library/Aa366213(v=VS.85).aspx">IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE</a>. 
+Requested data sector type. For possible values, see <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_format2_raw_cd_data_sector_type">IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE</a>. 
 
 
 ## -returns
@@ -110,15 +110,15 @@ Value: 0xC0AA0602
 
 
 
-<a href="https://msdn.microsoft.com/58d9b83c-a528-4b39-b08d-a0fb8c1aece8">IDiscFormat2RawCD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
 
 
 
-<a href="https://msdn.microsoft.com/d217e585-3ff4-4f02-8a13-7cfca767f201">IDiscFormat2RawCD::get_SupportedSectorTypes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_supportedsectortypes">IDiscFormat2RawCD::get_SupportedSectorTypes</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd9d7e1d-5672-482f-ac83-efcab3adbac4">IDiscFormat2RawCD::put_RequestedSectorType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-put_requestedsectortype">IDiscFormat2RawCD::put_RequestedSectorType</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Extends <a href="https://msdn.microsoft.com/30d06e87-93a2-4a9c-8843-4c42d7d9e3c8">IMetaDataTables</a> to include methods for working with metadata streams.
+Extends <a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadatatables">IMetaDataTables</a> to include methods for working with metadata streams.
 
 
 ## -inheritance
@@ -69,7 +69,7 @@ The <b>IMetaDataTables2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7de4fccb-9cd6-443d-bbd3-ba545e040ca6">GetMetaDataStorage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables2-getmetadatastorage">GetMetaDataStorage</a>
 </td>
 <td align="left" width="63%">
 Gets the size and contents of the metadata stored in the specified section.
@@ -78,7 +78,7 @@ Gets the size and contents of the metadata stored in the specified section.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a292a32a-b9c2-46b5-a2c4-074e616d7675">GetMetaDataStreamInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables2-getmetadatastreaminfo">GetMetaDataStreamInfo</a>
 </td>
 <td align="left" width="63%">
 Gets the name, size, and contents of the metadata stream at the specified index.

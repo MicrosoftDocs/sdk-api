@@ -54,7 +54,7 @@ Defines task variables that can be passed as parameters to task handlers and ext
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskVariables</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITaskVariables</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskVariables</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITaskVariables</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITaskVariables</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/090d24ac-18eb-4a76-887f-30d3b99e7ad0">GetContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskvariables-getcontext">GetContext</a>
 </td>
 <td align="left" width="63%">
 Used to share the context between different steps and tasks that are in the same job instance.
@@ -78,7 +78,7 @@ Used to share the context between different steps and tasks that are in the same
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7c38a633-b3f1-4894-9152-e01a083a54fc">GetInput</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskvariables-getinput">GetInput</a>
 </td>
 <td align="left" width="63%">
 Gets the input variables for a task.
@@ -87,7 +87,7 @@ Gets the input variables for a task.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/989e61c8-f15e-42c6-ab90-c00cc90eb464">SetOutput</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskvariables-setoutput">SetOutput</a>
 </td>
 <td align="left" width="63%">
 Sets the output variables for a task.

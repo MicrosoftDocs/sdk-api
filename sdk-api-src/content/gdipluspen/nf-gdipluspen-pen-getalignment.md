@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>Pen::GetAlignment</b> method gets the alignment currently set for this 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object.
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object.
 
 
 ## -parameters
@@ -65,10 +65,10 @@ The <b>Pen::GetAlignment</b> method gets the alignment currently set for this
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534164(v=VS.85).aspx">PenAlignment</a></b>
+Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-penalignment">PenAlignment</a></b>
 </strong>
 
-This method returns an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534164(v=VS.85).aspx">PenAlignment</a> enumeration that indicates the current alignment setting for this <a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object.
+This method returns an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-penalignment">PenAlignment</a> enumeration that indicates the current alignment setting for this <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object.
 
 
 
@@ -77,7 +77,7 @@ This method returns an element of the <a href="https://msdn.microsoft.com/en-us/
 
 
 
-The default value of <a href="https://msdn.microsoft.com/en-us/library/ms534164(v=VS.85).aspx">PenAlignment</a> is PenAlignmentCenter. 
+The default value of <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-penalignment">PenAlignment</a> is PenAlignmentCenter. 
 
 
 #### Examples
@@ -85,7 +85,7 @@ The default value of <a href="https://msdn.microsoft.com/en-us/library/ms534164(
 
 
 The following example creates a 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object, sets the alignment, draws a line, and then gets the pen alignment settings.
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object, sets the alignment, draws a line, and then gets the pen alignment settings.
 
 
 ```cpp
@@ -120,23 +120,23 @@ VOID Example_GetAlignment(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535041(v=VS.85).aspx">Pen::SetAlignment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-setalignment">Pen::SetAlignment</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534164(v=VS.85).aspx">PenAlignment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-penalignment">PenAlignment</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533854(v=VS.85).aspx">Setting Pen Width and Alignment</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-setting-pen-width-and-alignment-use">Setting Pen Width and Alignment</a>
  
 
  

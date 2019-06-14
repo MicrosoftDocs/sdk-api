@@ -76,7 +76,7 @@ Reserved. Use the <b>DnsServerList</b> member to obtain the DNS servers for the 
 ### -field DnsServerList
 
 A linked list of 
-<a href="https://msdn.microsoft.com/783c383d-7fd3-45bc-90f6-2e8ce01db3c3">IP_ADDR_STRING</a> structures that specify the set of DNS servers used by the local computer.
+<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-_ip_addr_string">IP_ADDR_STRING</a> structures that specify the set of DNS servers used by the local computer.
 
 
 ## -remarks
@@ -93,19 +93,19 @@ APIPA enables automatic IP address configuration on networks without DHCP server
 
 
 
-<a href="https://msdn.microsoft.com/fc1ae7e4-f856-4b48-8ab4-56cd511ed161">GetPerAdapterInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getperadapterinfo">GetPerAdapterInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/4896a9f8-0486-4380-bf49-d1c9ef114acc">IP Helper Start Page</a>
+<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
 
 
 
-<a href="https://msdn.microsoft.com/d53c3821-00a0-4eaa-9a06-69ec7aa98d84">IP Helper Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-structures">IP Helper Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/783c383d-7fd3-45bc-90f6-2e8ce01db3c3">IP_ADDR_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-_ip_addr_string">IP_ADDR_STRING</a>
  
 
  

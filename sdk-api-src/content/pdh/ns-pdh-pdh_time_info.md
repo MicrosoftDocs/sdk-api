@@ -61,13 +61,13 @@ The
 
 ### -field StartTime
 
-Starting time of the sample interval, in local <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> format.
+Starting time of the sample interval, in local <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> format.
 					
 
 
 ### -field EndTime
 
-Ending time of the sample interval, in local <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> format.
+Ending time of the sample interval, in local <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> format.
 
 
 ### -field SampleCount
@@ -80,7 +80,7 @@ Number of samples collected during the interval.
 
 
 
-<a href="https://msdn.microsoft.com/ed0e100e-9f82-48c0-b4bb-72820c5eeaa8">PdhSetQueryTimeRange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhsetquerytimerange">PdhSetQueryTimeRange</a>
  
 
  

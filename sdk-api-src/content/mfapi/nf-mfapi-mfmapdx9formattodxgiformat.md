@@ -59,14 +59,14 @@ Converts a Microsoft Direct3D 9 format identifier to a Microsoft DirectX Graphi
 
 ### -param dx9 [in]
 
-The <a href="https://msdn.microsoft.com/a1ba825b-0574-4657-8a10-447a3caf8149">D3DFORMAT</a> value or FOURCC code to convert.
+The <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_stream_state_d3dformat_data">D3DFORMAT</a> value or FOURCC code to convert.
 
 
 ## -returns
 
 
 
-Returns a <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> value.
+Returns a <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> value.
 
 
 
@@ -76,11 +76,11 @@ Returns a <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).as
 
 
 
-<a href="https://msdn.microsoft.com/D3DF4739-31CC-4D0E-9EF2-6FCCAB8969EF">MFMapDXGIFormatToDX9Format</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfmapdxgiformattodx9format">MFMapDXGIFormatToDX9Format</a>
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

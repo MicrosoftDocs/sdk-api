@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>IWTSProtocolLogonErrorRedirector::RedirectLogonError</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://msdn.microsoft.com/86c919e9-2c45-45dd-8eee-7b50efb00cbb">IWRdsProtocolLogonErrorRedirector::RedirectLogonError</a>.]
+<p class="CCE_Message">[<b>IWTSProtocolLogonErrorRedirector::RedirectLogonError</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollogonerrorredirector-redirectlogonerror">IWRdsProtocolLogonErrorRedirector::RedirectLogonError</a>.]
 
- Queries the protocol for the action to take in response to a logon error. The <a href="https://msdn.microsoft.com/a333db5a-3564-4d33-bfd6-244975cc3c4f">RedirectStatus</a> method is called by the Remote Desktop Services service  to query the protocol for the action to take in response to a logon error.
+ Queries the protocol for the action to take in response to a logon error. The <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocollogonerrorredirector-redirectstatus">RedirectStatus</a> method is called by the Remote Desktop Services service  to query the protocol for the action to take in response to a logon error.
 
 
 ## -parameters
@@ -146,14 +146,14 @@ An integer that contains the message box type. For more information, see the <b>
 
 ### -param pResponse [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd920059(v=VS.85).aspx">WTS_LOGON_ERROR_REDIRECTOR_RESPONSE</a> enumeration that specifies to the Remote Desktop Services service the preferred response to the logon error.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ne-wtsdefs-_wts_logon_error_redirector_response">WTS_LOGON_ERROR_REDIRECTOR_RESPONSE</a> enumeration that specifies to the Remote Desktop Services service the preferred response to the logon error.
 
 
 ## -returns
 
 
 
-When you are implementing this method, return <b>S_OK</b> if the function succeeds. If it fails, return an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+When you are implementing this method, return <b>S_OK</b> if the function succeeds. If it fails, return an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -163,7 +163,7 @@ When you are implementing this method, return <b>S_OK</b> if the function succee
 
 
 
-<a href="https://msdn.microsoft.com/1ff30217-9091-47df-a38f-30784538f0b9">IWTSProtocolLogonErrorRedirector</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocollogonerrorredirector">IWTSProtocolLogonErrorRedirector</a>
  
 
  

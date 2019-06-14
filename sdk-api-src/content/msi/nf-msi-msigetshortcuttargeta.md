@@ -68,7 +68,7 @@ A null-terminated string specifying the full path to a shortcut.
 ### -param szProductCode [out]
 
 A GUID for the product code of the shortcut. This string buffer must be 39 characters long. The first 38 characters are for the 
-<a href="https://msdn.microsoft.com/9e5e2a49-ecf5-43e8-ba6d-42ceaf0beba8">GUID</a>, and the last character is for the terminating null character. This parameter can be null.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/guid">GUID</a>, and the last character is for the terminating null character. This parameter can be null.
 
 
 ### -param szFeatureId [out]
@@ -79,7 +79,7 @@ The feature name of the shortcut. The string buffer must be MAX_FEATURE_CHARS+1 
 ### -param szComponentCode [out]
 
 A GUID of the component code. This string buffer must be 39 characters long. The first 38 characters are for the 
-<a href="https://msdn.microsoft.com/9e5e2a49-ecf5-43e8-ba6d-42ceaf0beba8">GUID</a>, and the last character is for the terminating null character. This parameter can be null.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/guid">GUID</a>, and the last character is for the terminating null character. This parameter can be null.
 
 
 ## -returns
@@ -96,10 +96,10 @@ This function returns UINT.
 
 
 If the function fails, and the shortcut exists, the regular contents of the shortcut may be accessed through the 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774950(v=VS.85).aspx">IShellLink</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a> interface.
 
 Otherwise, the state of the target may be determined by using the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer Selection Functions</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Installer Selection Functions</a>.
 
 
 

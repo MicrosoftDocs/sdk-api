@@ -49,15 +49,15 @@ ms.custom: 19H1
 ## -description
 
 
-Manages how compositor updates are sent to <a href="https://msdn.microsoft.com/26358bc5-71e9-40f0-9243-9bddd961a0e5">Direct Manipulation</a>.
+Manages how compositor updates are sent to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-portal">Direct Manipulation</a>.
 
-This interface enables the compositor to trigger an update on <a href="https://msdn.microsoft.com/26358bc5-71e9-40f0-9243-9bddd961a0e5">Direct Manipulation</a> whenever there is a compositor update. The application should not call the methods of this interface directly.
+This interface enables the compositor to trigger an update on <a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-portal">Direct Manipulation</a> whenever there is a compositor update. The application should not call the methods of this interface directly.
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectManipulationUpdateManager</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDirectManipulationUpdateManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectManipulationUpdateManager</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectManipulationUpdateManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IDirectManipulationUpdateManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bc0e22b8-ec27-478f-9c4b-ca192d8d52d0">RegisterWaitHandleCallback</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationupdatemanager-registerwaithandlecallback">RegisterWaitHandleCallback</a>
 </td>
 <td align="left" width="63%">
 Registers a callback that is triggered by a handle.
@@ -81,7 +81,7 @@ Registers a callback that is triggered by a handle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d932a4a9-827f-4e23-b30a-3a4b85a60c6e">UnregisterWaitHandleCallback</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationupdatemanager-unregisterwaithandlecallback">UnregisterWaitHandleCallback</a>
 </td>
 <td align="left" width="63%">
 Deregisters a callback.
@@ -90,10 +90,10 @@ Deregisters a callback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dffa747c-933a-4b61-9f15-e175d9338774">Update</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationupdatemanager-update">Update</a>
 </td>
 <td align="left" width="63%">
-Updates <a href="https://msdn.microsoft.com/26358bc5-71e9-40f0-9243-9bddd961a0e5">Direct Manipulation</a> at the current time.
+Updates <a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-portal">Direct Manipulation</a> at the current time.
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ Updates <a href="https://msdn.microsoft.com/26358bc5-71e9-40f0-9243-9bddd961a0e5
 
 
 
-<a href="https://msdn.microsoft.com/03680CE5-A858-4876-B41C-6F2E08C02C22">Direct Manipulation Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-interfaces">Direct Manipulation Interfaces</a>
  
 
  

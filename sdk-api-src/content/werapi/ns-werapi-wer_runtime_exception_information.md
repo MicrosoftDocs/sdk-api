@@ -74,12 +74,12 @@ The handle to the thread that crashed.
 
 ### -field exceptionRecord
 
-An <a href="https://msdn.microsoft.com/85a64178-bdcb-4293-9363-289c654730a2">EXCEPTION_RECORD</a> structure that contains the exception information.
+An <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_exception_record">EXCEPTION_RECORD</a> structure that contains the exception information.
 
 
 ### -field context
 
-A <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a> structure that contains the context information.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a> structure that contains the context information.
 
 
 ### -field pwszReportId
@@ -92,7 +92,7 @@ A pointer to a constant, null-terminated string that contains the size of the ex
 
 
 
-<a href="https://msdn.microsoft.com/22033278-2be3-4621-b618-3ccd21fb4cdd">OutOfProcessExceptionEventCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nc-werapi-pfn_wer_runtime_exception_event">OutOfProcessExceptionEventCallback</a>
  
 
  

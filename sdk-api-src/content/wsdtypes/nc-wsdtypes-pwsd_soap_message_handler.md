@@ -64,7 +64,7 @@ Pointer to the object calling this function.
 
 ### -param *event
 
-A <a href="https://msdn.microsoft.com/d8697474-bfe5-4704-b1ac-15cf96f2ca92">WSD_EVENT</a> structure containing the message to be handled.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_event">WSD_EVENT</a> structure containing the message to be handled.
 
 
 ## -returns

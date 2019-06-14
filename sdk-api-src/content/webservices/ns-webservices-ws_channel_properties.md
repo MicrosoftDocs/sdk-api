@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies a set of <a href="https://msdn.microsoft.com/0298e8ae-67ad-4881-885f-2ed713316e76">WS_CHANNEL_PROPERTY</a> structures.
+Specifies a set of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_channel_property">WS_CHANNEL_PROPERTY</a> structures.
             
 
 

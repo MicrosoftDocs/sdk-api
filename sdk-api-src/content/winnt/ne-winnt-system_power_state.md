@@ -102,31 +102,31 @@ Specifies the maximum enumeration value.
 
 
 
-<a href="https://msdn.microsoft.com/abd2e2c5-1056-4985-ae07-a40d53bb17b1">ADMINISTRATOR_POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_administrator_power_policy">ADMINISTRATOR_POWER_POLICY</a>
 
 
 
-<a href="https://msdn.microsoft.com/79b57da4-0125-427b-aec7-7ca4c9bfb870">GLOBAL_MACHINE_POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_global_machine_power_policy">GLOBAL_MACHINE_POWER_POLICY</a>
 
 
 
-<a href="https://msdn.microsoft.com/41dca573-a73d-430c-9bd3-083e72aecbdc">MACHINE_POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_machine_power_policy">MACHINE_POWER_POLICY</a>
 
 
 
-<a href="https://msdn.microsoft.com/f78cd97f-586f-4091-ab4a-5f109a0f679a">Power Management Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-enumeration-types">Power Management Enumeration Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa0af56e-59b3-4d0d-b356-a4046d8754ef">SYSTEM_POWER_CAPABILITIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_power_capabilities">SYSTEM_POWER_CAPABILITIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/0e73e94d-e529-46fb-b3e5-a79ba2c05713">SYSTEM_POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_power_policy">SYSTEM_POWER_POLICY</a>
 
 
 
-<a href="https://msdn.microsoft.com/616c45f6-ec80-42d9-a485-e9e778f2b971">USER_POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_user_power_policy">USER_POWER_POLICY</a>
  
 
  

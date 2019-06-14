@@ -91,21 +91,21 @@ The following table lists the available GUIDs that the <i>optionId</i> parameter
 <tr>
 <td>MetaDataCheckDuplicatesFor</td>
 <td>Controls which items are checked for duplicates.</td>
-<td>Must be a variant of type UI4, and must contain a combination of the values of the <a href="http://msdn.microsoft.com/en-us/library/ms233002.aspx">CorCheckDuplicatesFor</a> enumeration.</td>
+<td>Must be a variant of type UI4, and must contain a combination of the values of the <a href="https://docs.microsoft.com/dotnet/framework/unmanaged-api/metadata/corcheckduplicatesfor-enumeration">CorCheckDuplicatesFor</a> enumeration.</td>
 </tr>
 <tr>
 <td>MetaDataRefToDefCheck
 </td>
 <td>Controls which referenced items are converted to definitions. By default, the metadata engine will optimize the code by converting a referenced item to its definition if the referenced item is actually defined in the current scope.
 </td>
-<td>Must be a variant of type UI4, and must contain a combination of the values of the <a href="http://msdn.microsoft.com/en-us/library/ms404525.aspx">CorRefToDefCheck</a> enumeration.
+<td>Must be a variant of type UI4, and must contain a combination of the values of the <a href="https://docs.microsoft.com/dotnet/framework/unmanaged-api/metadata/correftodefcheck-enumeration">CorRefToDefCheck</a> enumeration.
 </td>
 </tr>
 <tr>
 <td>MetaDataNotificationForTokenMovement
 </td>
 <td>Controls which token remaps occurring during a metadata merge generate callbacks. </td>
-<td>Must be a variant of type UI4, and must contain a combination of the values of the <a href="http://msdn.microsoft.com/en-us/library/ms230211.aspx">CorNotificationForTokenMovement</a> enumeration.
+<td>Must be a variant of type UI4, and must contain a combination of the values of the <a href="https://docs.microsoft.com/dotnet/framework/unmanaged-api/metadata/cornotificationfortokenmovement-enumeration">CorNotificationForTokenMovement</a> enumeration.
 </td>
 </tr>
 <tr>
@@ -113,14 +113,14 @@ The following table lists the available GUIDs that the <i>optionId</i> parameter
 </td>
 <td>Controls the behavior of edit-and-continue (ENC). Only one mode of behavior can be set at a time.
 </td>
-<td>Must be a variant of type UI4, and must contain a value of the <a href="http://msdn.microsoft.com/en-us/library/ms233434.aspx">CorSetENC</a> enumeration. The value is not a bitmask.
+<td>Must be a variant of type UI4, and must contain a value of the <a href="https://docs.microsoft.com/dotnet/framework/unmanaged-api/metadata/corsetenc-enumeration">CorSetENC</a> enumeration. The value is not a bitmask.
 </td>
 </tr>
 <tr>
 <td>MetaDataErrorIfEmitOutOfOrder
 </td>
 <td>Controls which emitted-out-of-order errors generate callbacks. Emitting metadata out of order is not fatal; however, if you emit metadata in an order that is favored by the metadata engine, the metadata is more compact and therefore can be more efficiently searched.</td>
-<td>Must be a variant of type UI4, and must contain a combination of the values of the <a href="http://msdn.microsoft.com/en-us/library/ms231243.aspx">CorErrorIfEmitOutOfOrder</a> enumeration.
+<td>Must be a variant of type UI4, and must contain a combination of the values of the <a href="https://docs.microsoft.com/dotnet/framework/unmanaged-api/metadata/corerrorifemitoutoforder-enumeration">CorErrorIfEmitOutOfOrder</a> enumeration.
 </td>
 </tr>
 <tr>
@@ -128,7 +128,7 @@ The following table lists the available GUIDs that the <i>optionId</i> parameter
 </td>
 <td>Controls which kinds of items that were deleted during an ENC are retrieved by an enumerator.
 </td>
-<td>Must be a variant of type UI4, and must contain a combination of the values of the <a href="http://msdn.microsoft.com/en-us/library/ms231066.aspx">CorImportOptions</a> enumeration.
+<td>Must be a variant of type UI4, and must contain a combination of the values of the <a href="https://docs.microsoft.com/dotnet/framework/unmanaged-api/metadata/corimportoptions-enumeration">CorImportOptions</a> enumeration.
 </td>
 </tr>
 <tr>
@@ -136,7 +136,7 @@ The following table lists the available GUIDs that the <i>optionId</i> parameter
 </td>
 <td>Controls whether the metadata engine obtains reader/writer locks, thereby ensuring thread safety. By default, the engine assumes that access is single-threaded by the caller, so no locks are obtained. Clients are responsible for maintaining proper thread synchronization when using the metadata API.
 </td>
-<td>Must be a variant of type UI4, and must contain a value of the <a href="http://msdn.microsoft.com/en-us/library/ms404514.aspx">CorThreadSafetyOptions</a> enumeration. The value is not a bitmask.
+<td>Must be a variant of type UI4, and must contain a value of the <a href="https://docs.microsoft.com/dotnet/framework/unmanaged-api/metadata/corthreadsafetyoptions-enumeration">CorThreadSafetyOptions</a> enumeration. The value is not a bitmask.
 </td>
 </tr>
 <tr>
@@ -160,7 +160,7 @@ The following table lists the available GUIDs that the <i>optionId</i> parameter
 </td>
 <td>Controls whether the linker should generate an assembly or a .NET Framework module file.
 </td>
-<td>Must be a variant of type UI4, and must contain a combination of the values of the <a href="http://msdn.microsoft.com/en-us/library/ms404476.aspx">CorLinkerOptions</a> enumeration.
+<td>Must be a variant of type UI4, and must contain a combination of the values of the <a href="https://docs.microsoft.com/dotnet/framework/unmanaged-api/metadata/corlinkeroptions-enumeration">CorLinkerOptions</a> enumeration.
 </td>
 </tr>
 <tr>
@@ -192,7 +192,7 @@ The following table lists the available GUIDs that the <i>optionId</i> parameter
 
 
 
-<a href="https://msdn.microsoft.com/b61c8d05-6d73-4f84-95b2-2a892f3de77c">IMetaDataDispenserEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadatadispenserex">IMetaDataDispenserEx</a>
  
 
  

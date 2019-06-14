@@ -73,7 +73,7 @@ The data length of the storage adapter in the storage node,  in units of kilobyt
 
 ### -field AdapterDataOffset
 
-The data offset from the beginning of the data structure. The buffer contains an array of <a href="https://msdn.microsoft.com/8CC7CF43-61C8-4561-BA9C-473878818858">STORAGE_PHYSICAL_ADAPTER_DATA</a>.
+The data offset from the beginning of the data structure. The buffer contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_physical_adapter_data">STORAGE_PHYSICAL_ADAPTER_DATA</a>.
 
 
 ### -field DeviceCount
@@ -88,7 +88,7 @@ The data length of the storage device in the storage node,  in units of kilobyte
 
 ### -field DeviceDataOffset
 
-The data offset from the beginning of the data structure. The buffer contains an array of <a href="https://msdn.microsoft.com/4B484F79-DDC8-4671-90EA-D793EA0A05C7">STORAGE_PHYSICAL_DEVICE_DATA</a>.
+The data offset from the beginning of the data structure. The buffer contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_physical_device_data">STORAGE_PHYSICAL_DEVICE_DATA</a>.
 
 
 ### -field Reserved

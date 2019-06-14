@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndPlayFromTo</b> macro plays a portion of content between specified starting and ending locations. This macro seeks to the specified point to begin playback, then plays the content to the specified ending location. This macro is defined using the <a href="https://msdn.microsoft.com/96d42e1a-03d5-4007-95d8-0e4b8d2018d5">MCIWndSeek</a> and <a href="https://msdn.microsoft.com/49048776-85bd-43ac-a5a0-414a26a6a533">MCIWndPlayTo</a> macros, which in turn use the <a href="https://msdn.microsoft.com/5ffab964-a28d-4dc2-ac04-da501cd34d24">MCI_SEEK</a> command and the <a href="https://msdn.microsoft.com/ed940ee7-7b96-47da-99d3-6697f8a2e3d5">MCIWNDM_PLAYTO</a> message.
+The <b>MCIWndPlayFromTo</b> macro plays a portion of content between specified starting and ending locations. This macro seeks to the specified point to begin playback, then plays the content to the specified ending location. This macro is defined using the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-mciwndseek">MCIWndSeek</a> and <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-mciwndplayto">MCIWndPlayTo</a> macros, which in turn use the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-seek">MCI_SEEK</a> command and the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-playto">MCIWNDM_PLAYTO</a> message.
 
 
 

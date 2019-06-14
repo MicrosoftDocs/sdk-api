@@ -54,7 +54,7 @@ Provides a method that allows content protection systems to get the procedure ad
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSignedLibrary</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFSignedLibrary</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSignedLibrary</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSignedLibrary</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFSignedLibrary</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d32678b0-422d-4fe8-9bbc-fc203a39fdd5">GetProcedureAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsignedlibrary-getprocedureaddress">GetProcedureAddress</a>
 </td>
 <td align="left" width="63%">
 Gets the procedure address of the specified function in the signed library.
@@ -83,7 +83,7 @@ Gets the procedure address of the specified function in the signed library.
 
 
 
-See  <a href="https://msdn.microsoft.com/979A5FE5-0DED-4C5A-A27D-CDD10A4A8D5C">MFLoadSignedLibrary</a> for an example of how to create and use an <b>IMFSignedLibrary</b> object.
+See  <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfloadsignedlibrary">MFLoadSignedLibrary</a> for an example of how to create and use an <b>IMFSignedLibrary</b> object.
 
 
 
@@ -93,11 +93,11 @@ See  <a href="https://msdn.microsoft.com/979A5FE5-0DED-4C5A-A27D-CDD10A4A8D5C">M
 
 
 
-<a href="https://msdn.microsoft.com/979A5FE5-0DED-4C5A-A27D-CDD10A4A8D5C">MFLoadSignedLibrary</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfloadsignedlibrary">MFLoadSignedLibrary</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

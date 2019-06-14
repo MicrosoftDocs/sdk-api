@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>BCryptDuplicateHash</b> function duplicates an existing hash or <a href="https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1">Message Authentication Code</a> (MAC) object. The duplicate object contains all state and data contained in the original object at the point of duplication.
+The <b>BCryptDuplicateHash</b> function duplicates an existing hash or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">Message Authentication Code</a> (MAC) object. The duplicate object contains all state and data contained in the original object at the point of duplication.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A pointer to a <b>BCRYPT_HASH_HANDLE</b> value that receives the handle that rep
 
 ### -param pbHashObject [out]
 
-A pointer to a buffer that receives the duplicate hash or MAC object. The <i>cbHashObject</i> parameter contains the size of this buffer. The required size of this buffer can be obtained by calling the <a href="https://msdn.microsoft.com/5c62ca3a-843e-41a7-9340-41785fbb15f4">BCryptGetProperty</a> function to get the <b>BCRYPT_OBJECT_LENGTH</b> property. This will provide the size of the hash object for the specified algorithm.
+A pointer to a buffer that receives the duplicate hash or MAC object. The <i>cbHashObject</i> parameter contains the size of this buffer. The required size of this buffer can be obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptgetproperty">BCryptGetProperty</a> function to get the <b>BCRYPT_OBJECT_LENGTH</b> property. This will provide the size of the hash object for the specified algorithm.
 
 When the duplicate hash handle is released, free this memory.
 
@@ -157,7 +157,7 @@ One or more parameters are not valid.
 
 This function is useful when computing a hash or MAC over a block of common data. After the common data has been processed, the hash or MAC object can be duplicated, and then the unique data can be added to the individual objects.
 
-Depending on what processor modes a provider supports, <b>BCryptDuplicateHash</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hHash</i> parameter must be derived from an algorithm handle returned by a provider that was opened by using the <b>BCRYPT_PROV_DISPATCH</b> flag, and any pointers passed to the <a href="https://msdn.microsoft.com/98c02e55-6489-4901-8a7a-021baac41965">BCryptDestroyKey</a> function must refer to nonpaged (or locked) memory.
+Depending on what processor modes a provider supports, <b>BCryptDuplicateHash</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hHash</i> parameter must be derived from an algorithm handle returned by a provider that was opened by using the <b>BCRYPT_PROV_DISPATCH</b> flag, and any pointers passed to the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptdestroykey">BCryptDestroyKey</a> function must refer to nonpaged (or locked) memory.
 
 To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). <b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
 

@@ -73,9 +73,9 @@ Query string to be parsed, relative to that property.
 
 ### -param ppSolution [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231346(v=VS.85).aspx">IQuerySolution</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iquerysolution">IQuerySolution</a>**</b>
 
-Receives an <a href="https://msdn.microsoft.com/en-us/library/Bb231346(v=VS.85).aspx">IQuerySolution</a> object. The calling application must release it by calling its <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
+Receives an <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iquerysolution">IQuerySolution</a> object. The calling application must release it by calling its <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method.
 
 
 ## -returns

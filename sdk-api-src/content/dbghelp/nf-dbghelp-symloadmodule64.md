@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 Loads the symbol table.
 
-This function has been superseded by the <a href="https://msdn.microsoft.com/4a880090-f063-4d03-8fd5-a57ccba262c8">SymLoadModuleEx</a> function.
+This function has been superseded by the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symloadmoduleex">SymLoadModuleEx</a> function.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ This function has been superseded by the <a href="https://msdn.microsoft.com/4a8
 ### -param hProcess [in]
 
 A handle to the process. This handle must have been previously passed to the 
-<a href="https://msdn.microsoft.com/fb1c98cb-6cd0-4218-aea4-384c24c66395">SymInitialize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 
 ### -param hFile [in, optional]
@@ -102,9 +102,9 @@ If the image is a .pdb file, this parameter cannot be zero.
 If the function succeeds, the return value is the base address of the loaded module.
 
 If the function fails, the return value is zero. To retrieve extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-If the module is already loaded, the return value is zero and <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns <b>ERROR_SUCCESS</b>.
+If the module is already loaded, the return value is zero and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_SUCCESS</b>.
 
 
 
@@ -116,12 +116,12 @@ If the module is already loaded, the return value is zero and <a href="https://m
 The symbol handler creates an entry for the module and if the deferred symbol loading option is turned off, an attempt is made to load the symbols. If deferred symbol loading is enabled, the module is marked as deferred and the symbols are not loaded until a reference is made to a symbol in the module.
 
 To unload the symbol table, use the 
-<a href="https://msdn.microsoft.com/f4801039-eba2-4ec3-8c23-706ab89bb442">SymUnloadModule64</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symunloadmodule">SymUnloadModule64</a> function.
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
 This function supersedes the <b>SymLoadModule</b> function. For more information, see 
-<a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>SymLoadModule</b> is defined as follows in DbgHelp.h. 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <b>SymLoadModule</b> is defined as follows in DbgHelp.h. 
 
 
 ```cpp
@@ -150,15 +150,15 @@ SymLoadModule(
 
 
 
-<a href="https://msdn.microsoft.com/7b28f70b-2d97-4cc2-8064-dfb806f9cffa">DbgHelp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/fb1c98cb-6cd0-4218-aea4-384c24c66395">SymInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/f4801039-eba2-4ec3-8c23-706ab89bb442">SymUnloadModule64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symunloadmodule">SymUnloadModule64</a>
  
 
  

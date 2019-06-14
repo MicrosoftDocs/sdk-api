@@ -85,19 +85,19 @@ Do not confuse the international country/region code with the LCID. The country/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375950(v=VS.85).aspx">IAMTuner::get_CountryCode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtuner-get_countrycode">IAMTuner::get_CountryCode</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694420(v=VS.85).aspx">IMSVidAnalogTuner Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidanalogtuner">IMSVidAnalogTuner Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694433(v=VS.85).aspx">IMSVidAnalogTuner::put_CountryCode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidanalogtuner-put_countrycode">IMSVidAnalogTuner::put_CountryCode</a>
 
 
 
-<a href="https://msdn.microsoft.com/9a0e8c77-05f6-496a-bd7c-8c73953fe7c2">International Analog TV Tuning</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/international-analog-tv-tuning">International Analog TV Tuning</a>
  
 
  

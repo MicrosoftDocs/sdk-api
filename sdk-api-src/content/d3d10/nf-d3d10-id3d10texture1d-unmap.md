@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Invalidate the pointer to a resource that was retrieved by <a href="https://msdn.microsoft.com/en-us/library/Bb173865(v=VS.85).aspx">ID3D10Texture1D::Map</a>, and re-enable the GPU's access to that resource.
+Invalidate the pointer to a resource that was retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10texture1d-map">ID3D10Texture1D::Map</a>, and re-enable the GPU's access to that resource.
 
 
 ## -parameters
@@ -60,10 +60,10 @@ Invalidate the pointer to a resource that was retrieved by <a href="https://msdn
 
 ### -param Subresource [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">Subresource</a> to be unmapped. See <a href="https://msdn.microsoft.com/en-us/library/Bb694525(v=VS.85).aspx">D3D10CalcSubresource</a> for more details.
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">Subresource</a> to be unmapped. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-d3d10calcsubresource">D3D10CalcSubresource</a> for more details.
 
 
 ## -returns
@@ -101,7 +101,7 @@ Unmap in Direct3D 10 is analogous to resource Unlock in Direct3D 9.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173863(v=VS.85).aspx">ID3D10Texture1D Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10texture1d">ID3D10Texture1D Interface</a>
  
 
  

@@ -78,7 +78,7 @@ Returns a vector whose components are two raised to the power of the correspondi
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8.1. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
-<b>XMVectorExp2</b> is new for DirectXMath version 3.05, but it's just a renamed version of the existing <a href="https://msdn.microsoft.com/en-us/library/Ee421017(v=VS.85).aspx">XMVectorExp</a> function for Windows 8. 
+<b>XMVectorExp2</b> is new for DirectXMath version 3.05, but it's just a renamed version of the existing <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorexp">XMVectorExp</a> function for Windows 8. 
 
 
 
@@ -102,15 +102,15 @@ return Result;
 
 
 
-<a href="https://msdn.microsoft.com/aae12d4a-7758-83df-5376-99d5d94a28c4">Transcendental Vector Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-transcendental">Transcendental Vector Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/C4A5E4E0-56CC-46E3-87C5-CA99EF512B11">XMVectorExpE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorexpe">XMVectorExpE</a>
 
 
 
-<a href="https://msdn.microsoft.com/92C911B4-5BC7-443D-BCBB-F4838E24E607">XMVectorLog2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorlog2">XMVectorLog2</a>
  
 
  

@@ -60,9 +60,9 @@ Get the vertex shader currently set on the device.
 
 ### -param ppVertexShader [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173875(v=VS.85).aspx">ID3D10VertexShader</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10vertexshader">ID3D10VertexShader</a>**</b>
 
-Address of a pointer to a vertex shader (see <a href="https://msdn.microsoft.com/en-us/library/Bb173875(v=VS.85).aspx">ID3D10VertexShader</a>) to be returned by the method.
+Address of a pointer to a vertex shader (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10vertexshader">ID3D10VertexShader</a>) to be returned by the method.
 
 
 ## -returns
@@ -78,7 +78,7 @@ Returns nothing.
 
 
 
-Any returned interfaces will have their reference count incremented by one. Applications should call <a href="http://msdn.microsoft.com/en-us/library/ms682317(VS.85).aspx">IUnknown::Release</a> on the returned interfaces when they are no longer needed to avoid memory leaks.
+Any returned interfaces will have their reference count incremented by one. Applications should call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> on the returned interfaces when they are no longer needed to avoid memory leaks.
 
 
 
@@ -88,7 +88,7 @@ Any returned interfaces will have their reference count incremented by one. Appl
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
  
 
  

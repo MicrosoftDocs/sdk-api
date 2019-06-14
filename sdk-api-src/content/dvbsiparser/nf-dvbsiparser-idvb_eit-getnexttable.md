@@ -132,7 +132,7 @@ This method applies only to current tables. Otherwise, the method returns E_ACCE
 
 
 
-<a href="https://msdn.microsoft.com/86280e1e-09c3-45a4-bdfb-53eda8e5700e">IDVB_EIT Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_eit">IDVB_EIT Interface</a>
  
 
  

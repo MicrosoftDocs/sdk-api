@@ -78,7 +78,7 @@ Reserved.
 
 ### -field peNew
 
-Specifies an array of <a href="https://msdn.microsoft.com/6430e7cf-c9f2-4376-8b17-28c10d9d0f00">PALETTEENTRY</a> structures, of size <b>bNumEntries</b>.
+Specifies an array of <a href="https://docs.microsoft.com/previous-versions//dd162769(v=vs.85)">PALETTEENTRY</a> structures, of size <b>bNumEntries</b>.
           
 
 
@@ -87,11 +87,11 @@ Specifies an array of <a href="https://msdn.microsoft.com/6430e7cf-c9f2-4376-8b1
 
 
 
-<a href="https://msdn.microsoft.com/2d8cf5be-1252-4b58-89b1-f5c53ea17d0e">AVI RIFF File Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/avi-riff-file-reference">AVI RIFF File Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
  
 
  

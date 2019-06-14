@@ -76,7 +76,7 @@ This method returns  S_OK on success.
 
 
 
-<a href="https://msdn.microsoft.com/ABFE73E5-CB9E-4077-81D2-DD0FB39F4EC5">INetworkConnectionCostEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkconnectioncostevents">INetworkConnectionCostEvents</a>
  
 
  

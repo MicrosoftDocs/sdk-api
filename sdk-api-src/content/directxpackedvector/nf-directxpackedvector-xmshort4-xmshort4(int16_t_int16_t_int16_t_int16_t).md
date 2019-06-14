@@ -52,7 +52,7 @@ ms.custom: 19H1
 Initializes a new instance of <code>XMSHORT4</code> from four <code>int16_t</code> arguments.
     
 
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420202(v=VS.85).aspx">XMSHORT4</a> from four
+This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshort4">XMSHORT4</a> from four
 	<code>int16_t</code> arguments.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
@@ -123,11 +123,11 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420202(v=VS.85).aspx">XMSHORT4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshort4">XMSHORT4</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415428(v=VS.85).aspx">XMSHORT4 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmshort4-ctor">XMSHORT4 Constructors</a>
  
 
  

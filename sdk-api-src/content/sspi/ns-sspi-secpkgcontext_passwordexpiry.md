@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SecPkgContext_PasswordExpiry</b> structure contains information about the expiration of a password or other credential used for the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a>. This structure is returned by <a href="https://msdn.microsoft.com/67bc087f-7519-4c8a-9b34-b3ecd306a334">QueryContextAttributes (General)</a>.
+The <b>SecPkgContext_PasswordExpiry</b> structure contains information about the expiration of a password or other credential used for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>. This structure is returned by <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a>.
 
 
 ## -struct-fields
@@ -59,5 +59,5 @@ The <b>SecPkgContext_PasswordExpiry</b> structure contains information about the
 
 ### -field tsPasswordExpires
 
-A <a href="https://msdn.microsoft.com/0a609b32-dbd7-4905-8990-65ebabcd0668">TimeStamp</a> variable that indicates when the credentials for the security context expire. For password-based packages, this variable indicates when the password expires. For <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33">Kerberos</a>, this variable indicates when the ticket expires.
+A <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/timestamp">TimeStamp</a> variable that indicates when the credentials for the security context expire. For password-based packages, this variable indicates when the password expires. For <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">Kerberos</a>, this variable indicates when the ticket expires.
 

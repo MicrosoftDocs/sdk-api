@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCI_DGV_UPDATE_PARMS</b> structure contains parameters for the <a href="https://msdn.microsoft.com/90a8c10f-61b9-49a1-bbcc-e0729aa8c454">MCI_UPDATE</a> command.
+The <b>MCI_DGV_UPDATE_PARMS</b> structure contains parameters for the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-update">MCI_UPDATE</a> command.
 
 
 
@@ -96,7 +96,7 @@ Handle to display context.
 
 
 
-When assigning data to the members of this structure, set the corresponding flags in the <i>fdwCommand</i> parameter of the <a href="https://msdn.microsoft.com/e25820e9-2caf-423e-8588-f842e670e0c3">mciSendCommand</a> function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the <i>fdwCommand</i> parameter of the <a href="https://docs.microsoft.com/previous-versions//dd757160(v=vs.85)">mciSendCommand</a> function to validate the members.
 
 
 
@@ -106,15 +106,15 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 
-<a href="https://msdn.microsoft.com/b414dffb-3701-4dfd-aa8c-cd8e8918027d">MCI</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci">MCI</a>
 
 
 
-<a href="https://msdn.microsoft.com/e86740e5-633e-465d-94ef-8065a8c05b31">MCI Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-structures">MCI Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/90a8c10f-61b9-49a1-bbcc-e0729aa8c454">MCI_UPDATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-update">MCI_UPDATE</a>
 
 
 
@@ -122,7 +122,7 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 
-<a href="https://msdn.microsoft.com/e25820e9-2caf-423e-8588-f842e670e0c3">mciSendCommand</a>
+<a href="https://docs.microsoft.com/previous-versions//dd757160(v=vs.85)">mciSendCommand</a>
  
 
  

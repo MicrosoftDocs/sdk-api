@@ -190,7 +190,7 @@ Contains the number of elements in the <b>rgpszFunctions</b> array.
 
 ### -field rgpszFunctions
 
-An array of null-terminated Unicode strings that contains the identifiers of the algorithms that are supported by this interface. These identifiers can be the standard <a href="https://msdn.microsoft.com/a05ae7e6-d882-4287-9990-23e4cd340b05">CNG Algorithm Identifiers</a> or the identifiers for other registered algorithms.
+An array of null-terminated Unicode strings that contains the identifiers of the algorithms that are supported by this interface. These identifiers can be the standard <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a> or the identifiers for other registered algorithms.
 
 
 ## -see-also
@@ -198,7 +198,7 @@ An array of null-terminated Unicode strings that contains the identifiers of the
 
 
 
-<a href="https://msdn.microsoft.com/d7dc3bd8-3957-4a4c-9959-dc22505e129a">CRYPT_IMAGE_REG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_crypt_image_reg">CRYPT_IMAGE_REG</a>
  
 
  

@@ -60,7 +60,7 @@ Contains snapshot parameters, indicating information about the new snapshot to b
 
 ### -field Version
 
-An <a href="https://msdn.microsoft.com/en-us/library/Mt638037(v=VS.85).aspx">APPLY_SNAPSHOT_VHDSET_VERSION</a> 
+An <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_apply_snapshot_vhdset_version">APPLY_SNAPSHOT_VHDSET_VERSION</a> 
      enumeration that specifies the version of the 
      <b>APPLY_SNAPSHOT_VHDSET_PARAMETERS</b> structure being passed to or from the VHD functions.
 

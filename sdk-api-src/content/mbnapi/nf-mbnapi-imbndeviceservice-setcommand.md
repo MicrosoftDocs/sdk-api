@@ -128,9 +128,9 @@ An error was encountered when executing this method.
 
 <b>SetCommand</b> exists to implement vendor-specific device service functionality which is not otherwise covered in the Mobile Broadband API. A command session on a device service must be opened before the application can call <b>SetCommand</b>.
 
-The Mobile Broadband service will issue a <b>SET</b> request to the device. <i>deviceServiceData</i> will be copied byte-by-byte into the data buffer passed in to the request. This data buffer must be less than <a href="https://msdn.microsoft.com/FCCE3CA1-ECD2-4964-952F-D4A077959519">MaxCommandSize</a> bytes.
+The Mobile Broadband service will issue a <b>SET</b> request to the device. <i>deviceServiceData</i> will be copied byte-by-byte into the data buffer passed in to the request. This data buffer must be less than <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicescontext-get_maxcommandsize">MaxCommandSize</a> bytes.
 
-This is an asynchronous operation and <b>SetCommand</b> will return immediately. On completion of the operation, the Mobile Broadband service will call the <a href="https://msdn.microsoft.com/A388F548-453B-4DAB-8AD8-ABC26B22F20E">OnSetCommandComplete</a> method of the <a href="https://msdn.microsoft.com/66A388D0-C704-45D2-AD56-4F81E1928774">IMbnDeviceServicesEvents</a> interface.
+This is an asynchronous operation and <b>SetCommand</b> will return immediately. On completion of the operation, the Mobile Broadband service will call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onsetcommandcomplete">OnSetCommandComplete</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesevents">IMbnDeviceServicesEvents</a> interface.
 
 
 
@@ -140,7 +140,7 @@ This is an asynchronous operation and <b>SetCommand</b> will return immediately.
 
 
 
-<a href="https://msdn.microsoft.com/5C587408-DF03-4123-BA5A-C2CCC378F60A">IMbnDeviceService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a>
  
 
  

@@ -60,9 +60,9 @@ Called by the fax service when it shuts down.
 
 ### -param pFaxServer
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa359058(v=VS.85).aspx">IFaxAccount</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccount">IFaxAccount</a>*</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Aa359058(v=VS.85).aspx">IFaxAccount</a> object.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccount">IFaxAccount</a> object.
 
 
 ## -returns
@@ -90,11 +90,11 @@ To implement this functionality in Visual Basic, select and implement the approp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358971(v=VS.85).aspx">IFaxServerNotify2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/faxcomex/nn-faxcomex-_ifaxservernotify2">IFaxServerNotify2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa359031(v=VS.85).aspx">_IFaxAccountNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/faxcomex/nn-faxcomex-_ifaxaccountnotify">_IFaxAccountNotify</a>
  
 
  

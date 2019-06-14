@@ -109,15 +109,15 @@ Digital media files and streams can contain URL script commands. When a URL scri
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563361(v=VS.85).aspx">IWMPEvents::ScriptCommand</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-scriptcommand">IWMPEvents::ScriptCommand</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563676(v=VS.85).aspx">IWMPSettigns::put_invokeURLs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_invokeurls">IWMPSettigns::put_invokeURLs</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563648(v=VS.85).aspx">IWMPSettings Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsettings">IWMPSettings Interface</a>
  
 
  

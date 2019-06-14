@@ -62,7 +62,7 @@ Serializes a presentation descriptor to a byte array.
 
 ### -param pPD
 
-Pointer to the <a href="https://msdn.microsoft.com/db03e212-7021-433e-84dc-410b2cf7af87">IMFPresentationDescriptor</a> interface of the presentation descriptor to serialize.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor">IMFPresentationDescriptor</a> interface of the presentation descriptor to serialize.
 
 
 ### -param pcbData
@@ -72,7 +72,7 @@ Receives the size of the <i>ppbData</i> array, in bytes.
 
 ### -param ppbData
 
-Receives a pointer to an array of bytes containing the serialized presentation descriptor. The caller must free the memory for the array by calling <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
+Receives a pointer to an array of bytes containing the serialized presentation descriptor. The caller must free the memory for the array by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 
 ## -returns
@@ -107,7 +107,7 @@ The function succeeded.
 
 
 
-To deserialize the presentation descriptor, pass the byte array to the <a href="https://msdn.microsoft.com/4f567b86-bce2-49fe-9d43-d1dfa57a86cb">MFDeserializePresentationDescriptor</a> function.
+To deserialize the presentation descriptor, pass the byte array to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfdeserializepresentationdescriptor">MFDeserializePresentationDescriptor</a> function.
 
 
 
@@ -117,11 +117,11 @@ To deserialize the presentation descriptor, pass the byte array to the <a href="
 
 
 
-<a href="https://msdn.microsoft.com/db03e212-7021-433e-84dc-410b2cf7af87">IMFPresentationDescriptor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor">IMFPresentationDescriptor</a>
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

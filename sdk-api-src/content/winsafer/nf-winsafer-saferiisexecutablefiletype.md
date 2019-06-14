@@ -60,7 +60,7 @@ The <b>SaferiIsExecutableFileType</b> function determines whether a specified fi
 
 ### -param szFullPathname [in]
 
-Pointer to a <b>null</b>-terminated <a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">Unicode</a> character string for the name of the file. The path is optional because only the file name extension is evaluated. The evaluation of the file name extension is not case-sensitive. This parameter cannot be <b>NULL</b> or an empty string, and the specified file must include a file name extension.
+Pointer to a <b>null</b>-terminated <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> character string for the name of the file. The path is optional because only the file name extension is evaluated. The evaluation of the file name extension is not case-sensitive. This parameter cannot be <b>NULL</b> or an empty string, and the specified file must include a file name extension.
 
 
 ### -param bFromShellExecute [in]

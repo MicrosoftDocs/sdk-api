@@ -63,7 +63,7 @@ ms.custom: 19H1
 
 Type: <b>const WCHAR*</b>
 
-An array of characters that contains the string to create a new <a href="https://msdn.microsoft.com/0d687337-8623-4014-967c-f533072e31cc">IDWriteTextLayout</a> object from. This array must be of length <i>stringLength</i> and can contain embedded <b>NULL</b> characters.
+An array of characters that contains the string to create a new <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a> object from. This array must be of length <i>stringLength</i> and can contain embedded <b>NULL</b> characters.
 
 
 ### -param stringLength
@@ -75,7 +75,7 @@ The length of the string, in character count.
 
 ### -param textFormat
 
-Type: <b><a href="https://msdn.microsoft.com/64b2cac3-c4cb-4213-b808-7b279d296939">IDWriteTextFormat</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a>*</b>
 
 The text formatting object to apply to the string.
 
@@ -103,7 +103,7 @@ The number of physical pixels per DIP (device independent pixel). For example, i
 
 ### -param transform [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/fe4bd8ba-fc3b-4a04-8a72-9983d52f4404">DWRITE_MATRIX</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_matrix">DWRITE_MATRIX</a>*</b>
 
 An optional transform applied to the glyphs and their positions. This transform is applied after the
      scaling specifies the font size and pixels per DIP.
@@ -120,7 +120,7 @@ Type: <b>BOOL</b>
 
 ### -param textLayout [out]
 
-Type: <b><a href="https://msdn.microsoft.com/0d687337-8623-4014-967c-f533072e31cc">IDWriteTextLayout</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a>**</b>
 
 When this method returns, contains an address to the pointer of the resultant text layout object.
 
@@ -141,7 +141,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 The resulting text layout should only be used for the intended resolution,
-     and for cases where text scalability is desired <a href="https://msdn.microsoft.com/f76f85df-112f-4bc3-b922-a0d7940d2954">CreateTextLayout</a> should be used instead.
+     and for cases where text scalability is desired <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-createtextlayout">CreateTextLayout</a> should be used instead.
 
 
 
@@ -151,7 +151,7 @@ The resulting text layout should only be used for the intended resolution,
 
 
 
-<a href="https://msdn.microsoft.com/73a85977-5c24-4abc-ad8c-1d0d6474bd7e">IDWriteFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>
  
 
  

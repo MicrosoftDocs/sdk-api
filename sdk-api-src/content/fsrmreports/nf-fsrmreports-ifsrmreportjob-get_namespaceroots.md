@@ -67,11 +67,11 @@ This property is read/write.
 All subdirectories under the specified path are also scanned (recursively).
 
 If you schedule this job, specify the same namespaces when calling the 
-    <a href="https://msdn.microsoft.com/983a6d05-417f-4aea-9652-955fd96e78f0">IFsrmReportScheduler::CreateScheduleTask</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportscheduler-createscheduletask">IFsrmReportScheduler::CreateScheduleTask</a> 
     method.
 
 This property calls the 
-    <a href="https://msdn.microsoft.com/bb5139c8-e01f-48cf-a8a9-d3a3e5b86238">IFsrmReportScheduler::VerifyNamespaces</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportscheduler-verifynamespaces">IFsrmReportScheduler::VerifyNamespaces</a> 
     method to validate the paths. For validation details, see the Remarks section of 
     <b>VerifyNamespaces</b>.
 
@@ -81,7 +81,7 @@ Note that FSRM supports only NTFS file systems—you cannot specify paths on ReF
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/a91c4fe7-ec8c-4d2b-b565-559e16668c87">Defining a Report Job</a>.
+For an example, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/defining-a-report-job">Defining a Report Job</a>.
 
 <div class="code"></div>
 
@@ -92,7 +92,7 @@ For an example, see <a href="https://msdn.microsoft.com/a91c4fe7-ec8c-4d2b-b565-
 
 
 
-<a href="https://msdn.microsoft.com/ea8a3f6b-326b-4c8f-a6fc-7b7525c5543f">IFsrmReportJob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportjob">IFsrmReportJob</a>
  
 
  

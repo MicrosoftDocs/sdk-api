@@ -70,7 +70,7 @@ A pointer to the name of the cluster shared volume.
 
 ### -param state [in]
 
-A <a href="https://msdn.microsoft.com/FE8F2117-7D23-42FF-B6BD-CA42224570EF">CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE</a> enumeration value that specifies the state of the snapshot.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_shared_volume_snapshot_state">CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE</a> enumeration value that specifies the state of the snapshot.
 
 
 ## -returns
@@ -80,7 +80,7 @@ A <a href="https://msdn.microsoft.com/FE8F2117-7D23-42FF-B6BD-CA42224570EF">CLUS
 If the operation succeeds, the function returns a resource handle.
 
 If the operation fails, the function returns <b>NULL</b>. For more information about the 
-       error, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       error, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -90,7 +90,7 @@ If the operation fails, the function returns <b>NULL</b>. For more information a
 
 
 
-<a href="https://msdn.microsoft.com/d1f7360d-f592-49fb-b3b4-60d93afd7c6f">Failover Cluster Resource Management Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-management-functions">Failover Cluster Resource Management Functions</a>
  
 
  

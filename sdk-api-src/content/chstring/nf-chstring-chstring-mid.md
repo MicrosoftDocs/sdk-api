@@ -43,8 +43,8 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries.
-The <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new development.]
+<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new development.]
 
 The **Mid** method extracts a substring of length *nCount* characters from a **CHString** string, starting at position *nFirst* (zero-based).
 The method returns a copy of the extracted substring.
@@ -80,8 +80,8 @@ assert( s.Mid( 2, 3 ) == L"cde" );
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a>
 
-<a href="https://msdn.microsoft.com/52219bbb-0a88-47b3-ac6c-ba54d15e8157">CHString::Left</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-left">CHString::Left</a>
 
-<a href="https://msdn.microsoft.com/eccf928f-75ac-4442-90f9-0e0578c5798f">CHString::Right</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-right">CHString::Right</a>

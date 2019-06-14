@@ -61,12 +61,12 @@ Draws text using the color and font defined by the visual style.
 
 Type: <b>HTHEME</b>
 
-Handle to a window's theme data. Use <a href="https://msdn.microsoft.com/en-us/library/Bb759821(v=VS.85).aspx">OpenThemeData</a> to create an HTHEME.
+Handle to a window's theme data. Use <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-openthemedata">OpenThemeData</a> to create an HTHEME.
 
 
 ### -param hdc [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HDC</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
 HDC to use for drawing.
 
@@ -75,19 +75,19 @@ HDC to use for drawing.
 
 Type: <b>int</b>
 
-The control part that has the desired text appearance. See <a href="https://msdn.microsoft.com/en-us/library/Bb773210(v=VS.85).aspx">Parts and States</a>. If this value is 0, the text is drawn in the default font, or a font selected into the device context.
+The control part that has the desired text appearance. See <a href="https://docs.microsoft.com/windows/desktop/Controls/parts-and-states">Parts and States</a>. If this value is 0, the text is drawn in the default font, or a font selected into the device context.
 
 
 ### -param iStateId [in]
 
 Type: <b>int</b>
 
-The control state that has the desired text appearance. See <a href="https://msdn.microsoft.com/en-us/library/Bb773210(v=VS.85).aspx">Parts and States</a>.
+The control state that has the desired text appearance. See <a href="https://docs.microsoft.com/windows/desktop/Controls/parts-and-states">Parts and States</a>.
 
 
 ### -param pszText [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCWSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
 
 Pointer to a string that contains the text to draw.
 
@@ -101,16 +101,16 @@ Value of type <b>int</b> that contains the number of characters to draw. If the 
 
 ### -param dwTextFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-<b>DWORD</b> that contains one or more values that specify the string's formatting. See <a href="https://msdn.microsoft.com/en-us/library/Bb773199(v=VS.85).aspx">Format Values</a> for possible parameter values. 
+<b>DWORD</b> that contains one or more values that specify the string's formatting. See <a href="https://docs.microsoft.com/windows/desktop/Controls/theme-format-values">Format Values</a> for possible parameter values. 
 
-<div class="alert"><b>Note</b>  DrawThemeText does not support DT_CALCRECT.  However, <a href="https://msdn.microsoft.com/en-us/library/Bb773317(v=VS.85).aspx">DrawThemeTextEx</a> does support DT_CALCRECT.</div>
+<div class="alert"><b>Note</b>  DrawThemeText does not support DT_CALCRECT.  However, <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-drawthemetextex">DrawThemeTextEx</a> does support DT_CALCRECT.</div>
 <div> </div>
 
 ### -param dwTextFlags2 [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Not used. Set to zero.
 
@@ -119,14 +119,14 @@ Not used. Set to zero.
 
 Type: <b>LPCRECT</b>
 
-Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the rectangle, in logical coordinates, in which the text is to be drawn.  It is recommended to use <b>pExtentRect</b> from <a href="https://msdn.microsoft.com/en-us/library/Bb759798(v=VS.85).aspx">GetThemeTextExtent</a> to retrieve the correct coordinates.
+Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the rectangle, in logical coordinates, in which the text is to be drawn.  It is recommended to use <b>pExtentRect</b> from <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-getthemetextextent">GetThemeTextExtent</a> to retrieve the correct coordinates.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -137,16 +137,16 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-The function always uses the themed font for the specified part and state if one is defined. Otherwise it uses the font currently selected into the device context. To find out if a themed font is defined, you can call <a href="https://msdn.microsoft.com/en-us/library/Bb759745(v=VS.85).aspx">GetThemeFont</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb759764(v=VS.85).aspx">GetThemePropertyOrigin</a> with TMT_FONT as the property identifier.
+The function always uses the themed font for the specified part and state if one is defined. Otherwise it uses the font currently selected into the device context. To find out if a themed font is defined, you can call <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-getthemefont">GetThemeFont</a> or <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-getthemepropertyorigin">GetThemePropertyOrigin</a> with TMT_FONT as the property identifier.
 
 
 #### Examples
 
-<b>DrawThemeText</b> uses parameters similar to the Win32 <a href="https://msdn.microsoft.com/fe412280-d797-4abd-8a29-107a9cd96145">DrawText</a> function, but with a few differences. One of the most notable is support for wide-character strings. Therefore, non-wide strings must be converted to wide strings, as in the following example. 
+<b>DrawThemeText</b> uses parameters similar to the Win32 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawtext">DrawText</a> function, but with a few differences. One of the most notable is support for wide-character strings. Therefore, non-wide strings must be converted to wide strings, as in the following example. 
 
                     
 
-<b>Security Warning:  </b>Using <a href="https://msdn.microsoft.com/a117fdfe-b52b-466f-9300-6455e91ea2a8">MultiByteToWideChar</a> incorrectly can compromise the security of your application. Ensure that when creating wide-character buffers they are large enough to accommodate the size of the string in wide characters, not in bytes.
+<b>Security Warning:  </b>Using <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a> incorrectly can compromise the security of your application. Ensure that when creating wide-character buffers they are large enough to accommodate the size of the string in wide characters, not in bytes.
 
 
 ```cpp
@@ -193,7 +193,7 @@ if (cchText > 0)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773213(v=VS.85).aspx">Property Identifiers</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/property-typedefs">Property Identifiers</a>
  
 
  

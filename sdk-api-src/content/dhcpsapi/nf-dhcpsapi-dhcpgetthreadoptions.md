@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DhcpGetThreadOptions</b> function  retrieves the current thread options as set by <a href="https://msdn.microsoft.com/aadca143-6fdd-4b25-9bd5-1ba177be148e">DhcpSetThreadOptions</a>. 
+The <b>DhcpGetThreadOptions</b> function  retrieves the current thread options as set by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpsetthreadoptions">DhcpSetThreadOptions</a>. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>DhcpGetThreadOptions</b> function  retrieves the current thread options a
 
 ### -param pFlags [out]
 
-Set of bit flags as set by a previous call to <a href="https://msdn.microsoft.com/aadca143-6fdd-4b25-9bd5-1ba177be148e">DhcpSetThreadOptions</a>. If no thread options are  set, the return value is 0. Currently, the only bit flag that can be set is as follows.
+Set of bit flags as set by a previous call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpsetthreadoptions">DhcpSetThreadOptions</a>. If no thread options are  set, the return value is 0. Currently, the only bit flag that can be set is as follows.
 
 <table>
 <tr>
@@ -76,13 +76,13 @@ Do not access the directory service while the DHCP thread is executing. After th
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/c8b4d241-19d4-4a97-9129-c2954d63b6ac">DhcpEnumServers</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpenumservers">DhcpEnumServers</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/bdf5d239-478a-47af-9240-19d1b6933f7e">DhcpAddServer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpaddserver">DhcpAddServer</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/88b6c29b-7b01-40c7-b4f5-4920845f1eb9">DhcpDeleteServer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpdeleteserver">DhcpDeleteServer</a>
 </li>
 </ul>
 </td>
@@ -100,7 +100,7 @@ Reserved. This parameter must be set to null.
 
 
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://msdn.microsoft.com/6370313f-d7db-4ff1-b0e0-7fa47474facb">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 
 
@@ -110,7 +110,7 @@ This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it
 
 
 
-<a href="https://msdn.microsoft.com/aadca143-6fdd-4b25-9bd5-1ba177be148e">DhcpSetThreadOptions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpsetthreadoptions">DhcpSetThreadOptions</a>
  
 
  

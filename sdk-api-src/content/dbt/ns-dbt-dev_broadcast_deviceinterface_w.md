@@ -84,7 +84,7 @@ The GUID for the interface device class.
 A null-terminated string that specifies the name of the device.
 
 When this structure is returned to a window through the 
-       <a href="https://msdn.microsoft.com/b64a3983-ee75-4199-9778-1e5b7cec59e4">WM_DEVICECHANGE</a> message, the 
+       <a href="https://docs.microsoft.com/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a> message, the 
        <b>dbcc_name</b> string is converted to ANSI as appropriate. Services always receive a 
        Unicode string, whether they call 
        <b>RegisterDeviceNotificationW</b> 
@@ -97,19 +97,19 @@ When this structure is returned to a window through the
 
 
 
-<a href="https://msdn.microsoft.com/4fc81fcb-b9fe-4016-b639-a43845af2c5f">DEV_BROADCAST_HDR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-_dev_broadcast_hdr">DEV_BROADCAST_HDR</a>
 
 
 
-<a href="https://msdn.microsoft.com/85ebbdca-94a0-4467-8d15-ee3a850e1cd9">Device Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/device-management-structures">Device Management Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/82094d95-9af3-4222-9c5e-ce2df9bab5e3">RegisterDeviceNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa">RegisterDeviceNotification</a>
 
 
 
-<a href="https://msdn.microsoft.com/b64a3983-ee75-4199-9778-1e5b7cec59e4">WM_DEVICECHANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a>
  
 
  

@@ -59,16 +59,16 @@ Searches for and retrieves file or protocol association-related binary data from
 
 ### -param flags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e67d0282-9090-43e6-aedf-bb1fc0443221">ASSOCF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-__unnamed_enum_0">ASSOCF</a></b>
 
-The <a href="https://msdn.microsoft.com/e67d0282-9090-43e6-aedf-bb1fc0443221">ASSOCF</a> value that can be used to control the search.
+The <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-__unnamed_enum_0">ASSOCF</a> value that can be used to control the search.
 
 
 ### -param data [in]
 
-Type: <b><a href="https://msdn.microsoft.com/0ae5c8db-81fd-4d00-8e54-0c474f1bfd06">ASSOCDATA</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-assocdata">ASSOCDATA</a></b>
 
-The <a href="https://msdn.microsoft.com/0ae5c8db-81fd-4d00-8e54-0c474f1bfd06">ASSOCDATA</a> value that specifies the type of data that is to be returned.
+The <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-assocdata">ASSOCDATA</a> value that specifies the type of data that is to be returned.
 
 
 ### -param pszExtra [in, optional]
@@ -108,7 +108,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/8edb99d3-5860-4d78-a750-1df34cdfc313">IQueryAssociations</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a>
  
 
  

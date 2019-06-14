@@ -79,19 +79,19 @@ Indicates that the relative distinguished name has been mangled due to a naming 
 
 
 
-<a href="https://msdn.microsoft.com/30711d2d-f541-46b4-a301-a0f9fc7d6676">DsCrackUnquotedMangledRdn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsparse/nf-dsparse-dscrackunquotedmangledrdna">DsCrackUnquotedMangledRdn</a>
 
 
 
-<a href="https://msdn.microsoft.com/e4aaa83c-3bd6-48db-9d34-367b76ba629c">DsIsMangledDn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsparse/nf-dsparse-dsismangleddna">DsIsMangledDn</a>
 
 
 
-<a href="https://msdn.microsoft.com/adf5e133-9e48-4e97-af0c-4f8ea9b8bf8f">DsIsMangledRdnValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsparse/nf-dsparse-dsismangledrdnvaluea">DsIsMangledRdnValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/eafa3285-4474-4077-a6ad-b37f8211e7e6">Enumerations in Active Directory Domain Services</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/enumerations-in-active-directory-domain-services">Enumerations in Active Directory Domain Services</a>
  
 
  

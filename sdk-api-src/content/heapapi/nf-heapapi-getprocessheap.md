@@ -71,7 +71,7 @@ Retrieves a handle to the default heap of the calling process. This handle can t
 If the function succeeds, the return value is a handle to the calling process's heap.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -82,15 +82,15 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 The 
 <b>GetProcessHeap</b> function obtains a handle to the default heap for the calling process. A process can use this handle to allocate memory from the process heap without having to first create a private heap using the 
-<a href="https://msdn.microsoft.com/8c0a77a2-37e6-41f7-bdc6-1f3768d61c9b">HeapCreate</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> function.
 
 <b>Windows Server 2003 and Windows XP:  </b>To enable the low-fragmentation heap for the default heap of the process, call the 
-<a href="https://msdn.microsoft.com/33c262ca-5093-4f44-a8c6-09045bc90f60">HeapSetInformation</a> function with the handle returned by <b>GetProcessHeap</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapsetinformation">HeapSetInformation</a> function with the handle returned by <b>GetProcessHeap</b>.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/00f69593-f03b-4f30-aeec-db3fda0ac356">Getting Process Heaps</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/Memory/getting-process-heaps">Getting Process Heaps</a>.
 
 <div class="code"></div>
 
@@ -101,15 +101,15 @@ For an example, see <a href="https://msdn.microsoft.com/00f69593-f03b-4f30-aeec-
 
 
 
-<a href="https://msdn.microsoft.com/cfb683fa-4f46-48b5-9a28-f4625a9cb8cd">Heap Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">Heap Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c0a77a2-37e6-41f7-bdc6-1f3768d61c9b">HeapCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a2a7a62-0bda-4a0d-93d2-25b4898871fd">Memory
+<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
 		  Management Functions</a>
  
 

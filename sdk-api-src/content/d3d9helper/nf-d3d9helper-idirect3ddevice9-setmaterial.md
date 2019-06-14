@@ -60,16 +60,16 @@ Sets the material properties for the device.
 
 ### -param pMaterial [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb172571(v=VS.85).aspx">D3DMATERIAL9</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dmaterial9">D3DMATERIAL9</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb172571(v=VS.85).aspx">D3DMATERIAL9</a> structure, describing the material properties to set. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dmaterial9">D3DMATERIAL9</a> structure, describing the material properties to set. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL if the pMaterial parameter is invalid.
 
@@ -81,11 +81,11 @@ If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL if the pM
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174394(v=VS.85).aspx">IDirect3DDevice9::GetMaterial</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getmaterial">IDirect3DDevice9::GetMaterial</a>
  
 
  

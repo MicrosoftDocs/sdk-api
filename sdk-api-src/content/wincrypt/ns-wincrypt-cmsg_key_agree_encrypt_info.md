@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CMSG_KEY_AGREE_ENCRYPT_INFO</b> structure contains encryption information applicable to all key agreement recipients of an enveloped message. The <a href="https://msdn.microsoft.com/5283f3be-7451-4896-82a5-bcfe63db9344">PFN_CMSG_EXPORT_KEY_AGREE</a> function updates this structure.
+The <b>CMSG_KEY_AGREE_ENCRYPT_INFO</b> structure contains encryption information applicable to all key agreement recipients of an enveloped message. The <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cmsg_export_key_agree">PFN_CMSG_EXPORT_KEY_AGREE</a> function updates this structure.
 
 
 ## -struct-fields
@@ -64,17 +64,17 @@ The size, in bytes, of this structure.
 
 ### -field dwRecipientIndex
 
-A value that specifies the ordinal number of a recipient in the recipient list specified by the <i>pContentEncryptInfo</i> parameter of the <a href="https://msdn.microsoft.com/5283f3be-7451-4896-82a5-bcfe63db9344">PFN_CMSG_EXPORT_KEY_AGREE</a> function.
+A value that specifies the ordinal number of a recipient in the recipient list specified by the <i>pContentEncryptInfo</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cmsg_export_key_agree">PFN_CMSG_EXPORT_KEY_AGREE</a> function.
 
 
 ### -field KeyEncryptionAlgorithm
 
-A <a href="https://msdn.microsoft.com/ef0d3aa6-6b36-426f-a14c-2fdf7543deb9">CRYPT_ALGORITHM_IDENTIFIER</a> structure that specifies the algorithm used to encrypt the content encryption key. The <a href="https://msdn.microsoft.com/b0d2610b-05ba-4fb6-8f38-10f970a52091">CryptMsgOpenToEncode</a> function uses the <b>pszObjId</b> member of the <b>CRYPT_ALGORITHM_IDENTIFIER</b> structure to get the address of the function used to export the key. The function can be installed by using a Cryptography API: Next Generation (CNG) <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID).
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that specifies the algorithm used to encrypt the content encryption key. The <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a> function uses the <b>pszObjId</b> member of the <b>CRYPT_ALGORITHM_IDENTIFIER</b> structure to get the address of the function used to export the key. The function can be installed by using a Cryptography API: Next Generation (CNG) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID).
 
 
 ### -field UserKeyingMaterial
 
-A <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_DATA_BLOB</a> structure that contains user keying material provided by the sender to ensure that a different key is generated each time the same two parties generate a pair-wise key.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that contains user keying material provided by the sender to ensure that a different key is generated each time the same two parties generate a pair-wise key.
 
 
 ### -field dwOriginatorChoice
@@ -117,12 +117,12 @@ OriginatorPublicKeyInfo
 
 ### -field DUMMYUNIONNAME.OriginatorCertId
 
-A <a href="https://msdn.microsoft.com/9e33f661-c365-4725-8c3f-27b6cdd9a84e">CERT_ID</a> structure that identifies the public key of the message originator.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_id">CERT_ID</a> structure that identifies the public key of the message originator.
 
 
 ### -field DUMMYUNIONNAME.OriginatorPublicKeyInfo
 
-A <a href="https://msdn.microsoft.com/bab6c147-b7cd-408a-acac-90f05921e065">CERT_PUBLIC_KEY_INFO</a> structure that contains the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> of the message originator.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> of the message originator.
 
 
 ### -field cKeyAgreeKeyEncryptInfo
@@ -132,12 +132,12 @@ A value that specifies the number of recipients in the <i>rgpKeyAgreeKeyEncryptI
 
 ### -field rgpKeyAgreeKeyEncryptInfo
 
-An array of <a href="https://msdn.microsoft.com/586d40cc-8ef6-475b-8b7b-cc1a0bdddfcb">CMSG_KEY_AGREE_KEY_ENCRYPT_INFO</a> structures that contain the encrypted key for each recipient.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_key_agree_key_encrypt_info">CMSG_KEY_AGREE_KEY_ENCRYPT_INFO</a> structures that contain the encrypted key for each recipient.
 
 
 ### -field dwFlags
 
-A value that specifies what members have been updated, and whose memory allocation must be freed by using the <a href="https://msdn.microsoft.com/b0d2610b-05ba-4fb6-8f38-10f970a52091">CryptMsgOpenToEncode</a> function.
+A value that specifies what members have been updated, and whose memory allocation must be freed by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a> function.
 
 <table>
 <tr>
@@ -162,7 +162,7 @@ The <b>UserKeyingMaterial</b> member was updated.
 </dl>
 </td>
 <td width="60%">
-The <b>pszObjId</b> member of the <a href="https://msdn.microsoft.com/ef0d3aa6-6b36-426f-a14c-2fdf7543deb9">CRYPT_ALGORITHM_IDENTIFIER</a> structure referred to by the <b>KeyEncryptionAlgorithm</b> member was updated.
+The <b>pszObjId</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure referred to by the <b>KeyEncryptionAlgorithm</b> member was updated.
 
 </td>
 </tr>
@@ -173,7 +173,7 @@ The <b>pszObjId</b> member of the <a href="https://msdn.microsoft.com/ef0d3aa6-6
 </dl>
 </td>
 <td width="60%">
-The <b>Parameters</b> member of the <a href="https://msdn.microsoft.com/ef0d3aa6-6b36-426f-a14c-2fdf7543deb9">CRYPT_ALGORITHM_IDENTIFIER</a> structure referred to by <b>KeyEncryptionAlgorithm</b> member was updated.
+The <b>Parameters</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure referred to by <b>KeyEncryptionAlgorithm</b> member was updated.
 
 </td>
 </tr>
@@ -184,7 +184,7 @@ The <b>Parameters</b> member of the <a href="https://msdn.microsoft.com/ef0d3aa6
 </dl>
 </td>
 <td width="60%">
-The <b>Algorithm.pszObjId</b> member of the <a href="https://msdn.microsoft.com/bab6c147-b7cd-408a-acac-90f05921e065">CERT_PUBLIC_KEY_INFO</a> structure referred to by the <b>OriginatorPublicKeyInfo</b> member was updated.
+The <b>Algorithm.pszObjId</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure referred to by the <b>OriginatorPublicKeyInfo</b> member was updated.
 
 </td>
 </tr>
@@ -195,7 +195,7 @@ The <b>Algorithm.pszObjId</b> member of the <a href="https://msdn.microsoft.com/
 </dl>
 </td>
 <td width="60%">
-The <b>PublicKey</b> member of the <a href="https://msdn.microsoft.com/bab6c147-b7cd-408a-acac-90f05921e065">CERT_PUBLIC_KEY_INFO</a> structure referred to by the <b>OriginatorPublicKeyInfo</b> member was updated.
+The <b>PublicKey</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure referred to by the <b>OriginatorPublicKeyInfo</b> member was updated.
 
 </td>
 </tr>
@@ -206,7 +206,7 @@ The <b>PublicKey</b> member of the <a href="https://msdn.microsoft.com/bab6c147-
 </dl>
 </td>
 <td width="60%">
-The <b>Algorithm.Parameters</b> member of the <a href="https://msdn.microsoft.com/bab6c147-b7cd-408a-acac-90f05921e065">CERT_PUBLIC_KEY_INFO</a> structure referred to by the <b>OriginatorPublicKeyInfo</b> member was updated.
+The <b>Algorithm.Parameters</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure referred to by the <b>OriginatorPublicKeyInfo</b> member was updated.
 
 </td>
 </tr>
@@ -218,7 +218,7 @@ The <b>Algorithm.Parameters</b> member of the <a href="https://msdn.microsoft.co
 
 
 
- When called with the <i>dwMsgType</i> parameter set to <b>CMSG_ENVELOPED</b>, the <a href="https://msdn.microsoft.com/b0d2610b-05ba-4fb6-8f38-10f970a52091">CryptMsgOpenToEncode</a> function initializes the <b>CMSG_KEY_AGREE_ENCRYPT_INFO</b> structure from the  <a href="https://msdn.microsoft.com/en-us/library/Aa377945(v=VS.85).aspx">CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO</a> structure. The <b>CryptMsgOpenToEncode</b> function calls the <a href="https://msdn.microsoft.com/5283f3be-7451-4896-82a5-bcfe63db9344">PFN_CMSG_EXPORT_KEY_AGREE</a> function to update the <b>CMSG_KEY_AGREE_ENCRYPT_INFO</b> structure. If the callback function cannot be found, the <b>CryptMsgOpenToEncode</b> function fills this structure with default key information from the <a href="https://msdn.microsoft.com/c53014a0-049c-42ef-b612-8a1e03fb0dfd">CMSG_CONTENT_ENCRYPT_INFO</a> structure.
+ When called with the <i>dwMsgType</i> parameter set to <b>CMSG_ENVELOPED</b>, the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a> function initializes the <b>CMSG_KEY_AGREE_ENCRYPT_INFO</b> structure from the  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_key_agree_recipient_encode_info">CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO</a> structure. The <b>CryptMsgOpenToEncode</b> function calls the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cmsg_export_key_agree">PFN_CMSG_EXPORT_KEY_AGREE</a> function to update the <b>CMSG_KEY_AGREE_ENCRYPT_INFO</b> structure. If the callback function cannot be found, the <b>CryptMsgOpenToEncode</b> function fills this structure with default key information from the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_content_encrypt_info">CMSG_CONTENT_ENCRYPT_INFO</a> structure.
 
 The following members of the <b>CMSG_KEY_AGREE_ENCRYPT_INFO</b> structure can be updated by the callback function:<dl>
 <dd><b>UserKeyingMaterial</b></dd>

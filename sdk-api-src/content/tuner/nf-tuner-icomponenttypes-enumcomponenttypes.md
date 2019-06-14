@@ -62,7 +62,7 @@ The <b>EnumComponentTypes</b> method returns an <b>IEnumComponentTypes</b> enume
 
 ### -param ppNewEnum [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/ad7fb66d-6592-47ae-9a2f-4432d8aaaebb">IEnumComponentTypes</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ienumcomponenttypes">IEnumComponentTypes</a> interface. The caller must release the interface.
 
 
 ## -returns
@@ -79,7 +79,7 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="https://msdn.microsoft.com/47c3837b-1348-4359-ad3d-3d82c5fe3781">IComponentTypes Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttypes">IComponentTypes Interface</a>
  
 
  

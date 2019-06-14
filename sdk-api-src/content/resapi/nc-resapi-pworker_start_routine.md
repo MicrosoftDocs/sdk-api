@@ -59,7 +59,7 @@ Initializes a worker thread with the specified callback routine. The <b>PWORKER_
 
 ### -param pWorker [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/559b147f-8e8a-4bc7-94ea-e2042f288b6d">CLUS_WORKER</a> structure that represents the worker thread.
+A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-clus_worker">CLUS_WORKER</a> structure that represents the worker thread.
 
 
 ### -param lpThreadParameter [in]
@@ -80,7 +80,7 @@ Returns <b>ERROR_SUCCESS</b> (0), if the operation succeeds; otherwise returns a
 
 
 
-The pointer to this  callback function is used as an input parameter for the <a href="https://msdn.microsoft.com/a7e8f8ad-c9de-4c6b-8926-b9a46d85924d">ClusWorkerCreate</a> function.
+The pointer to this  callback function is used as an input parameter for the <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-clusworkercreate">ClusWorkerCreate</a> function.
 
 
 
@@ -90,11 +90,11 @@ The pointer to this  callback function is used as an input parameter for the <a 
 
 
 
-<a href="https://msdn.microsoft.com/a7e8f8ad-c9de-4c6b-8926-b9a46d85924d">ClusWorkerCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-clusworkercreate">ClusWorkerCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c7de7e6-a0f5-4308-8cf3-21968bd339a4">Resource DLL Callback Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-callback-functions">Resource DLL Callback Functions</a>
  
 
  

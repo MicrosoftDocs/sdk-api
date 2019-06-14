@@ -164,15 +164,15 @@ TSS frame
 
 
 
-<a href="https://msdn.microsoft.com/387c20b0-ed16-463c-8b11-3ac9a43548a1">FunctionTableAccessProc64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-pfunction_table_access_routine">FunctionTableAccessProc64</a>
 
 
 
-<a href="https://msdn.microsoft.com/2809e3f1-c64a-4753-9fca-f78e89a878b2">STACKFRAME64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagstackframe">STACKFRAME64</a>
 
 
 
-<a href="https://msdn.microsoft.com/f79e6af9-9931-4bd7-ae12-29d890267a89">SymFunctionTableAccess64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symfunctiontableaccess">SymFunctionTableAccess64</a>
  
 
  

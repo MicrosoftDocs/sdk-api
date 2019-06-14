@@ -67,17 +67,17 @@ Turns on the control of the network traffic. You must set this value if you also
 
 ### -field JOB_OBJECT_NET_RATE_CONTROL_DSCP_TAG
 
-Sets the DSCP field in the packet header to the value of the <b>DscpTag</b> member of the <a href="https://msdn.microsoft.com/CE55BC2A-B27C-490A-9D5A-C18FEC09638C">JOBOBJECT_NET_RATE_CONTROL_INFORMATION</a> structure. For information about DSCP, see <a href="https://msdn.microsoft.com/0b4afa74-0198-482d-af72-9ddf135a8e2f">Differentiated Services</a>.
+Sets the DSCP field in the packet header to the value of the <b>DscpTag</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_net_rate_control_information">JOBOBJECT_NET_RATE_CONTROL_INFORMATION</a> structure. For information about DSCP, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/differentiated-services">Differentiated Services</a>.
 
 
 ### -field JOB_OBJECT_NET_RATE_CONTROL_VALID_FLAGS
 
-The combination of all of the valid flags for the <a href="https://msdn.microsoft.com/D1AD3722-1A15-4BCA-8F0A-6E32A078959A">JOB_OBJECT_NET_RATE_CONTROL_FLAGS</a> enumeration.
+The combination of all of the valid flags for the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-job_object_net_rate_control_flags">JOB_OBJECT_NET_RATE_CONTROL_FLAGS</a> enumeration.
 
 
 #### - JOB_OBJECT_NET_RATE_CONTROL_MAX_BANDWITH
 
-Uses the value of the <b>MaxBandwidth</b> member of the <a href="https://msdn.microsoft.com/CE55BC2A-B27C-490A-9D5A-C18FEC09638C">JOBOBJECT_NET_RATE_CONTROL_INFORMATION</a> structure to set the maximum bandwidth for outgoing network traffic for the job, in bytes.
+Uses the value of the <b>MaxBandwidth</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_net_rate_control_information">JOBOBJECT_NET_RATE_CONTROL_INFORMATION</a> structure to set the maximum bandwidth for outgoing network traffic for the job, in bytes.
 
 
 ## -see-also
@@ -85,7 +85,7 @@ Uses the value of the <b>MaxBandwidth</b> member of the <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/CE55BC2A-B27C-490A-9D5A-C18FEC09638C">JOBOBJECT_NET_RATE_CONTROL_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_net_rate_control_information">JOBOBJECT_NET_RATE_CONTROL_INFORMATION</a>
  
 
  

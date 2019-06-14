@@ -64,7 +64,7 @@ This property is read/write.
 
 
 
-This property must be set before the <a href="https://msdn.microsoft.com/cf3d87af-5320-4fe0-b513-e242f8a1dd1b">BizRule</a> property is set.
+This property must be set before the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-get_bizrule">BizRule</a> property is set.
 
 
 
@@ -74,15 +74,15 @@ This property must be set before the <a href="https://msdn.microsoft.com/cf3d87a
 
 
 
-<a href="https://msdn.microsoft.com/cf3d87af-5320-4fe0-b513-e242f8a1dd1b">BizRule</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-get_bizrule">BizRule</a>
 
 
 
-<a href="https://msdn.microsoft.com/52422e14-4a96-455d-ad35-b8816871ee10">BizRuleImportedPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-get_bizruleimportedpath">BizRuleImportedPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/90eb19c9-1490-43f4-ab4b-393e825aeb2f">IAzTask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a>
  
 
  

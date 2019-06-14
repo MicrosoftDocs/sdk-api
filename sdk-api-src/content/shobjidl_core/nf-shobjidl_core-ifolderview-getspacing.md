@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets a <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure containing the width (x) and height (y) dimensions, including the surrounding white space, of an item.
+Gets a <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure containing the width (x) and height (y) dimensions, including the surrounding white space, of an item.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets a <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c"
 
 ### -param ppt [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>*</b>
 
 A pointer to an existing structure to be filled with the current sizing dimensions of the items in the folder's view.
 
@@ -89,11 +89,11 @@ As an example, consider an icon measuring 75 pixels by 70 pixels, with its upper
 
 
 
-<a href="https://msdn.microsoft.com/3bc2615e-f07c-4959-b89e-bbbd2bf45a94">IFolderView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview">IFolderView</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb5f2dd6-1257-4cfc-a222-88e6c3b524ce">IFolderView::GetDefaultSpacing</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-getdefaultspacing">IFolderView::GetDefaultSpacing</a>
  
 
  

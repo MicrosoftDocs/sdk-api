@@ -78,15 +78,15 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365953(v=VS.85).aspx">GetIpForwardTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipforwardtable">GetIpForwardTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/ff451481-3e9d-4add-94e2-846d67002a38">MIB_IPFORWARDROW</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipforwardrow">MIB_IPFORWARDROW</a>
 
 
 
-<a href="https://msdn.microsoft.com/bdecf944-fe19-4033-8778-362523984b03">MIB_IPFORWARDTABLE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipforwardtable">MIB_IPFORWARDTABLE</a>
  
 
  

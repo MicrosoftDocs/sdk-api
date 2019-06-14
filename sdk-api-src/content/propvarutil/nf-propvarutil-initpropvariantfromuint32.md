@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Initializes a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure based on a 32-bit unsigned integer value.
+Initializes a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure based on a 32-bit unsigned integer value.
 
 
 ## -parameters
@@ -66,9 +66,9 @@ Source <b>ULONG</b> value.
 
 ### -param ppropvar [out]
 
-Type: <b><a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>*</b>
 
-When this function returns, contains the initialized <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure.
+When this function returns, contains the initialized <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure.
 
 
 ## -returns
@@ -93,7 +93,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762311(v=VS.85).aspx">InitPropVariantFromUInt32</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromuint32">InitPropVariantFromUInt32</a>.
 
 
 ```cpp
@@ -117,15 +117,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762340(v=VS.85).aspx">InitVariantFromUInt32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfromuint32">InitVariantFromUInt32</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776569(v=VS.85).aspx">PropVariantToUInt32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttouint32">PropVariantToUInt32</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776572(v=VS.85).aspx">PropVariantToUInt32WithDefault</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttouint32withdefault">PropVariantToUInt32WithDefault</a>
  
 
  

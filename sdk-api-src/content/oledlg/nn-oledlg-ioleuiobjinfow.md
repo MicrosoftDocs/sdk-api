@@ -56,7 +56,7 @@ Implemented by containers and used by the container's <b>Object Properties</b> d
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleUIObjInfo</b> interface inherits from <a href="https://msdn.microsoft.com/7fc0aab3-7476-49ec-8a1d-3f4851f9f31c">IOleUILinkContainer</a>. <b>IOleUIObjInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleUIObjInfo</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a>. <b>IOleUIObjInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IOleUIObjInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/44611ed3-35de-4b20-adae-d3a28aa11944">ConvertObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-ioleuiobjinfoa-convertobject">ConvertObject</a>
 </td>
 <td align="left" width="63%">
 Converts the object to the type of the specified CLSID.
@@ -80,7 +80,7 @@ Converts the object to the type of the specified CLSID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/45416493-7f0b-4bef-b785-513d4f404541">GetConvertInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-ioleuiobjinfoa-getconvertinfo">GetConvertInfo</a>
 </td>
 <td align="left" width="63%">
 Gets the conversion information associated with the specified object.
@@ -89,7 +89,7 @@ Gets the conversion information associated with the specified object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d09aafd0-0f4b-42c4-b1e6-0656cf0bd02d">GetObjectInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-ioleuiobjinfoa-getobjectinfo">GetObjectInfo</a>
 </td>
 <td align="left" width="63%">
 Gets the size, type, name, and location information about an object.
@@ -98,7 +98,7 @@ Gets the size, type, name, and location information about an object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8e9774b6-1264-48d4-b5fb-c43b67e29f6e">GetViewInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-ioleuiobjinfoa-getviewinfo">GetViewInfo</a>
 </td>
 <td align="left" width="63%">
 Gets the view information associated with the object.
@@ -107,7 +107,7 @@ Gets the view information associated with the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/83d88f33-448f-4b8f-9c82-b6aaa4e8ff4a">SetViewInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-ioleuiobjinfoa-setviewinfo">SetViewInfo</a>
 </td>
 <td align="left" width="63%">
 Sets the view information associated with the object.
@@ -122,11 +122,11 @@ Sets the view information associated with the object.
 
 
 
-<a href="https://msdn.microsoft.com/7fc0aab3-7476-49ec-8a1d-3f4851f9f31c">IOleUILinkContainer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a>
 
 
 
-<a href="https://msdn.microsoft.com/591f6056-2e5f-4e58-8806-9a0093de2463">OleUIObjectProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiobjectpropertiesa">OleUIObjectProperties</a>
  
 
  

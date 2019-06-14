@@ -55,43 +55,43 @@ The <code>IAudioProcessingObject</code> interface supports the following methods
 <dl>
 <dd>
 
-<a href="https://msdn.microsoft.com/6DB8B945-DCED-4129-A457-E90E083E6394">IAudioProcessingObject::GetInputChannelCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobject-getinputchannelcount">IAudioProcessingObject::GetInputChannelCount</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/7ac982cd-7fb7-4427-ac17-508bcc72391d">IAudioProcessingObject::GetLatency</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobject-getlatency">IAudioProcessingObject::GetLatency</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/A0D0BAA9-7942-4952-AC9D-087EE7FE6DD0">IAudioProcessingObject::GetRegistrationProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobject-getregistrationproperties">IAudioProcessingObject::GetRegistrationProperties</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/b73c2e18-ab7b-4e34-9440-f38891f99bf7">IAudioProcessingObject::Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobject-initialize">IAudioProcessingObject::Initialize</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/11eebb5d-21fd-48f7-8929-cd2612a3f451">IAudioProcessingObject::IsInputFormatSupported</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobject-isinputformatsupported">IAudioProcessingObject::IsInputFormatSupported</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/19609332-9fc2-4a21-b947-f103a1cf2675">IAudioProcessingObject::IsOutputFormatSupported</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobject-isoutputformatsupported">IAudioProcessingObject::IsOutputFormatSupported</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/9d8c13cb-012e-4b5e-a1fd-1c2e5b9200b8">IAudioProcessingObject::Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobject-reset">IAudioProcessingObject::Reset</a>
 
 
 </dd>

@@ -64,7 +64,7 @@ Specifies the handle that the client uses to reference the device. This handle i
 
 ### -field dwCallback
 
-Specifies either the address of a callback function, a window handle, or a task handle, depending on the flags that are specified in the dwParam2 parameter of the <a href="https://msdn.microsoft.com/9a0b4bb8-15fd-48d4-8840-c0c7b4a5a460">MODM_OPEN</a> message. If this field contains a handle, it is contained in the low-order word.
+Specifies either the address of a callback function, a window handle, or a task handle, depending on the flags that are specified in the dwParam2 parameter of the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff537541(v=vs.85)">MODM_OPEN</a> message. If this field contains a handle, it is contained in the low-order word.
 
 
 ### -field dwInstance

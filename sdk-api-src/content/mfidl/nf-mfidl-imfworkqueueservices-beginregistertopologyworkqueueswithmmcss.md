@@ -63,7 +63,7 @@ Registers the topology work queues with the Multimedia Class Scheduler Service (
 
 ### -param pCallback [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/7edff985-da59-4cc0-96de-1a92e03a7d41">IMFAsyncCallback</a> interface of a callback object. The caller must implement this interface.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface of a callback object. The caller must implement this interface.
           
 
 
@@ -94,23 +94,23 @@ To use this method, perform the following steps.
 <li>Create the topology.</li>
 <li>Set the following attributes on the source nodes in the topology.<ul>
 <li>
-<a href="https://msdn.microsoft.com/5bc7e2db-cfd2-4b94-b4d6-fe2b9ea9daf8">MF_TOPONODE_WORKQUEUE_ID</a>. Specifies an identifier for the work queue.
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-toponode-workqueue-id-attribute">MF_TOPONODE_WORKQUEUE_ID</a>. Specifies an identifier for the work queue.
           The Media Session will allocate a new work queue.</li>
 <li>
-<a href="https://msdn.microsoft.com/8668d0f1-9d54-4c56-bb19-09498252bec4">MF_TOPONODE_WORKQUEUE_MMCSS_CLASS</a>. Specifies the MMCSS class.
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-toponode-workqueue-mmcss-class-attribute">MF_TOPONODE_WORKQUEUE_MMCSS_CLASS</a>. Specifies the MMCSS class.
           </li>
 <li>
-<a href="https://msdn.microsoft.com/ccecc1e6-2d30-4e89-849f-c3acad97f312">MF_TOPONODE_WORKQUEUE_MMCSS_TASKID</a>. Specifies the MMCSS task identifier (optional). If this attribute is not set, MMCSS assigns a new task identifier.
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-toponode-workqueue-mmcss-taskid-attribute">MF_TOPONODE_WORKQUEUE_MMCSS_TASKID</a>. Specifies the MMCSS task identifier (optional). If this attribute is not set, MMCSS assigns a new task identifier.
           </li>
 </ul>
 </li>
-<li>Queue the topology by calling <a href="https://msdn.microsoft.com/ea5313f0-b0fd-4945-97a2-b3f17937294f">IMFMediaSession::SetTopology</a>.</li>
-<li>Wait for the <a href="https://msdn.microsoft.com/b45fd598-ab1e-4b12-8d82-c88c96d1f770">MESessionTopologyStatus</a> event with the <b>MF_TOPOSTATUS_READY</b>  status.</li>
+<li>Queue the topology by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-settopology">IMFMediaSession::SetTopology</a>.</li>
+<li>Wait for the <a href="https://docs.microsoft.com/windows/desktop/medfound/mesessiontopologystatus">MESessionTopologyStatus</a> event with the <b>MF_TOPOSTATUS_READY</b>  status.</li>
 <li>Call <b>BeginRegisterTopologyWorkQueuesWithMMCSS</b>. This method registers all of the topology work queues with MMCSS.</li>
 </ol>
-The <b>BeginRegisterTopologyWorkQueuesWithMMCSS</b> method is asynchronous. When the operation completes, the callback object's <a href="https://msdn.microsoft.com/22473605-637e-4783-a8cb-98248b0a0327">IMFAsyncCallback::Invoke</a> method is called. Within the callback method, call <a href="https://msdn.microsoft.com/42eb1a1c-3287-4dee-ab95-fd047a16e345">IMFWorkQueueServices::EndRegisterTopologyWorkQueuesWithMMCSS</a> to complete the asynchronous request. After this operation completes, the Media Session automatically registers the work queues for every new topology that is queued on the Media Session. The application does not need to call the method again for new topologies.
+The <b>BeginRegisterTopologyWorkQueuesWithMMCSS</b> method is asynchronous. When the operation completes, the callback object's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method is called. Within the callback method, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-endregistertopologyworkqueueswithmmcss">IMFWorkQueueServices::EndRegisterTopologyWorkQueuesWithMMCSS</a> to complete the asynchronous request. After this operation completes, the Media Session automatically registers the work queues for every new topology that is queued on the Media Session. The application does not need to call the method again for new topologies.
 
-To unregister the topology work queues from MMCSS, call <a href="https://msdn.microsoft.com/af68b792-6e00-4ed1-91f8-f275288dc680">IMFWorkQueueServices::BeginUnregisterTopologyWorkQueuesWithMMCSS</a>.
+To unregister the topology work queues from MMCSS, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-beginunregistertopologyworkqueueswithmmcss">IMFWorkQueueServices::BeginUnregisterTopologyWorkQueuesWithMMCSS</a>.
 
 
 
@@ -120,7 +120,7 @@ To unregister the topology work queues from MMCSS, call <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/7a6ddb67-9a8c-408c-b750-4f3fd3ba0d7d">IMFWorkQueueServices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservices">IMFWorkQueueServices</a>
  
 
  

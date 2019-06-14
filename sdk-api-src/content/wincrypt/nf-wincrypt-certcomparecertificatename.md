@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>CertCompareCertificateName</b> function compares two certificate 
-<a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CERT_NAME_BLOB</a> structures to determine whether they are identical. The <b>CERT_NAME_BLOB</b> structures are used for the subject and the issuer of certificates.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_NAME_BLOB</a> structures to determine whether they are identical. The <b>CERT_NAME_BLOB</b> structures are used for the subject and the issuer of certificates.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>CertCompareCertificateName</b> function compares two certificate
 
 ### -param dwCertEncodingType [in]
 
-Specifies the encoding type used. It is always acceptable to specify both the certificate and <a href="https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
+Specifies the encoding type used. It is always acceptable to specify both the certificate and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
 
 X509_ASN_ENCODING | PKCS_7_ASN_ENCODING Currently defined encoding types are:
 
@@ -73,13 +73,13 @@ X509_ASN_ENCODING | PKCS_7_ASN_ENCODING Currently defined encoding types are:
 
 ### -param pCertName1 [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CERT_NAME_BLOB</a> for the first name in the comparison. For more information, see 
-<a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_INTEGER_BLOB</a>.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_NAME_BLOB</a> for the first name in the comparison. For more information, see 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>.
 
 
 ### -param pCertName2 [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CERT_NAME_BLOB</a> for the second name in the comparison.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_NAME_BLOB</a> for the second name in the comparison.
 
 
 ## -returns
@@ -98,15 +98,15 @@ If the function fails, it returns zero (<b>FALSE</b>).
 
 
 
-<a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CERT_NAME_BLOB</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_NAME_BLOB</a>
 
 
 
-<a href="https://msdn.microsoft.com/b485fa81-b927-4f0c-bde1-075f36c76d9a">CertCompareCertificate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcomparecertificate">CertCompareCertificate</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>
  
 
  

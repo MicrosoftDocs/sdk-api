@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SID_AND_ATTRIBUTES_HASH</b> structure specifies a hash values for the specified array of <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifiers</a> (SIDs).
+The <b>SID_AND_ATTRIBUTES_HASH</b> structure specifies a hash values for the specified array of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifiers</a> (SIDs).
 
 
 ## -struct-fields
@@ -64,12 +64,12 @@ The number of SIDs pointed to by the <i>SidAttr</i> parameter.
 
 ### -field SidAttr
 
-A pointer to an array of <a href="https://msdn.microsoft.com/d15d5a3f-6b38-4b92-b59c-ff0d27d111d9">SID_AND_ATTRIBUTES</a> structures that represent SIDs and their attributes.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid_and_attributes">SID_AND_ATTRIBUTES</a> structures that represent SIDs and their attributes.
 
 
 ### -field Hash
 
-An array of pointers to hash values. These values correspond to the <a href="https://msdn.microsoft.com/d15d5a3f-6b38-4b92-b59c-ff0d27d111d9">SID_AND_ATTRIBUTES</a> structures pointed to by the <i>SidAttr</i> parameter.
+An array of pointers to hash values. These values correspond to the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid_and_attributes">SID_AND_ATTRIBUTES</a> structures pointed to by the <i>SidAttr</i> parameter.
 
 The <b>SID_HASH_ENTRY</b> data type is defined in Winnt.h as a <b>ULONG_PTR</b>.
 
@@ -81,11 +81,11 @@ The <b>SID_HASH_SIZE</b> array dimension is defined in Winnt.h as 32.
 
 
 
-<a href="https://msdn.microsoft.com/cb727b91-c88f-48f3-8329-020d3f727dc7">TOKEN_ACCESS_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_access_information">TOKEN_ACCESS_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb606665-1266-4e71-a145-9b04bf157cdc">TOKEN_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_token_information_class">TOKEN_INFORMATION_CLASS</a>
  
 
  

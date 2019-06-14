@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/3f391265-20b4-4897-aa0b-d14b71cd5f0a">D2D1_ARC_SEGMENT</a> structure.
+Creates a <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_arc_segment">D2D1_ARC_SEGMENT</a> structure.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Creates a <a href="https://msdn.microsoft.com/3f391265-20b4-4897-aa0b-d14b71cd5f
 
 ### -param point [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 
 The end point of the arc.
 
@@ -68,7 +68,7 @@ The end point of the arc.
 
 ### -param size [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/c2fd41fb-72b3-418b-ad87-65549b04657d">D2D1_SIZE_F</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-size-f">D2D1_SIZE_F</a></b>
 
 The x-radius and y-radius of the arc.
 
@@ -84,7 +84,7 @@ The number of degrees that the ellipse is rotated relative to the current coordi
 
 ### -param sweepDirection [in]
 
-Type: <b><a href="https://msdn.microsoft.com/97e6f384-7a42-4852-b948-66010bffed22">D2D1_SWEEP_DIRECTION</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_sweep_direction">D2D1_SWEEP_DIRECTION</a></b>
 
 A value that specifies whether the arc sweep is clockwise or counterclockwise.
 
@@ -93,7 +93,7 @@ A value that specifies whether the arc sweep is clockwise or counterclockwise.
 
 ### -param arcSize [in]
 
-Type: <b><a href="https://msdn.microsoft.com/c471716d-c2cc-4f79-8011-46690812b848">D2D1_ARC_SIZE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_arc_size">D2D1_ARC_SIZE</a></b>
 
 A value  that specifies whether the arc is larger than 180 degrees.
 
@@ -102,7 +102,7 @@ A value  that specifies whether the arc is larger than 180 degrees.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/3f391265-20b4-4897-aa0b-d14b71cd5f0a">D2D1_ARC_SEGMENT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_arc_segment">D2D1_ARC_SEGMENT</a></b>
 
 The new arc segment.
 
@@ -116,7 +116,7 @@ The new arc segment.
 
 
 
-<a href="https://msdn.microsoft.com/6d2c1959-1309-45d8-8204-19ffea03375b">ID2D1GeometrySink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometrysink">ID2D1GeometrySink</a>
  
 
  

@@ -91,7 +91,7 @@ Specifies the size of the data pointed to by the <i>pbEapData</i> parameter.
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is one of the following error codes or a value from <a href="https://msdn.microsoft.com/1fa41438-7c93-4e9c-851c-652fba23da4f">Routing and Remote Access Error Codes</a> or Winerror.h.
+If the function fails, the return value is one of the following error codes or a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 <table>
 <tr>
@@ -139,7 +139,7 @@ The <i>dwSizeofEapData</i> parameter is zero, or the <i>pbEapData</i> parameter 
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -154,19 +154,19 @@ Use
 
 
 
-<a href="https://msdn.microsoft.com/6b1a1c73-28af-43ff-b79c-c796ddae219c">RasGetEapUserData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgeteapuserdataa">RasGetEapUserData</a>
 
 
 
-<a href="https://msdn.microsoft.com/60661c23-3d6a-4b0c-9cc9-bf04ecea2425">RasInvokeEapUI</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasinvokeeapui">RasInvokeEapUI</a>
 
 
 
-<a href="https://msdn.microsoft.com/5016fa0b-72eb-484e-b8d7-af9de2e25689">Remote Access Service (RAS) Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/5883a77a-6af8-47a8-bb28-6ef60a5aa2f1">Remote Access Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
  
 
  

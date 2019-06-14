@@ -64,7 +64,7 @@ Specifies the highest version of the Peer Infrastructure that a caller can suppo
 
 ### -param pVersionData [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/b212101f-8c34-41d1-92b9-4daf3591200e">PEER_VERSION_DATA</a> structure that contains the specific level of support provided by the Peer Infrastructure. This parameter is required.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_version_data_tag">PEER_VERSION_DATA</a> structure that contains the specific level of support provided by the Peer Infrastructure. This parameter is required.
 
 
 ## -returns
@@ -85,7 +85,7 @@ Returns <b>S_OK</b> if the function succeeds. Otherwise, the function returns on
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/6bf2cb09-c03a-4f6b-ba6c-670cf7219cc8">Peer Name Resolution Protocol (PNRP)</a> service must be started before calling <a href="https://msdn.microsoft.com/c07e200d-9578-4367-a0f8-699ae300fc1f">PeerGroupStartup</a>.
+The <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/pnrp-namespace-provider-api">Peer Name Resolution Protocol (PNRP)</a> service must be started before calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupstartup">PeerGroupStartup</a>.
 
 </td>
 </tr>
@@ -125,7 +125,7 @@ The requested version is not supported by the installed Peer subsystem.
 </table>
  
 
-Cryptography-specific errors can be returned from the <a href="https://msdn.microsoft.com/c36025c5-a407-4a05-8780-23f8107730df">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
+Cryptography-specific errors can be returned from the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
 
 
 
@@ -134,13 +134,13 @@ Cryptography-specific errors can be returned from the <a href="https://msdn.micr
 
 
 
-The   <a href="https://msdn.microsoft.com/6bf2cb09-c03a-4f6b-ba6c-670cf7219cc8">Peer Name Resolution Protocol (PNRP)</a> service must be started before calling this function.
+The   <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/pnrp-namespace-provider-api">Peer Name Resolution Protocol (PNRP)</a> service must be started before calling this function.
 
 This function is called by the application before calling any other Peer Grouping function.
 
 For this release, applications should use <b>PEER_GROUP_VERSION</b>as the requested version.
 
-A peer group started with this function is closed by calling <a href="https://msdn.microsoft.com/61678a50-71cd-4717-b490-2755c605c2d5">PeerGroupShutdown</a> when the application terminates.
+A peer group started with this function is closed by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupshutdown">PeerGroupShutdown</a> when the application terminates.
 
 
 
@@ -150,15 +150,15 @@ A peer group started with this function is closed by calling <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/56ea2880-b468-4816-b6c9-5780c807b3f1">Grouping API Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/grouping-api-functions">Grouping API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/b212101f-8c34-41d1-92b9-4daf3591200e">PEER_VERSION_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_version_data_tag">PEER_VERSION_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/61678a50-71cd-4717-b490-2755c605c2d5">PeerGroupShutdown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupshutdown">PeerGroupShutdown</a>
  
 
  

@@ -59,7 +59,7 @@ Gets the connection status of the network.
 
 ### -param eStatus [in, out]
 
-A pointer to a  <a href="https://msdn.microsoft.com/en-us/library/ms705987(v=VS.85).aspx">DOT11_ADHOC_NETWORK_CONNECTION_STATUS</a> value that specifies the connection state.
+A pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/ne-adhoc-tagdot11_adhoc_network_connection_status">DOT11_ADHOC_NETWORK_CONNECTION_STATUS</a> value that specifies the connection state.
 
 
 ## -returns
@@ -139,7 +139,7 @@ A pointer passed as a parameter is not valid.
 
 
 
-<a href="https://msdn.microsoft.com/2736bb81-b66f-4c09-8c76-ca16f3eab192">IDot11AdHocNetwork</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>
  
 
  

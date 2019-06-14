@@ -73,7 +73,7 @@ Property ID of the  list to which to add the entity specified by the <i>varProp<
 </dl>
 </td>
 <td width="60%">
-Can also be added using the <a href="https://msdn.microsoft.com/35b6c928-0c11-420d-8ba7-f28b0c67f55d">AddAppMember</a> method
+Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-addappmember">AddAppMember</a> method
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ Can also be added using the <a href="https://msdn.microsoft.com/35b6c928-0c11-42
 </dl>
 </td>
 <td width="60%">
-Can also be added using the <a href="https://msdn.microsoft.com/31b8538f-afe1-4fd3-bf6f-6f3f0641fc2a">AddAppNonMember</a> method
+Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-addappnonmember">AddAppNonMember</a> method
 
 </td>
 </tr>
@@ -93,7 +93,7 @@ Can also be added using the <a href="https://msdn.microsoft.com/31b8538f-afe1-4f
 </dl>
 </td>
 <td width="60%">
-Can also be added using the <a href="https://msdn.microsoft.com/934ca397-2067-451a-bccd-103ab4db3b1f">AddMember</a> method
+Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-addmember">AddMember</a> method
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ Can also be added using the <a href="https://msdn.microsoft.com/934ca397-2067-45
 </dl>
 </td>
 <td width="60%">
-Can also be added using the <a href="https://msdn.microsoft.com/148be96b-be8d-4ad7-a5ad-f22599114cfa">AddMemberName</a> method
+Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-addmembername">AddMemberName</a> method
 
 </td>
 </tr>
@@ -113,7 +113,7 @@ Can also be added using the <a href="https://msdn.microsoft.com/148be96b-be8d-4a
 </dl>
 </td>
 <td width="60%">
-Can also be added using the <a href="https://msdn.microsoft.com/a61f0b97-cd8a-40e5-b2ef-8eb48359fead">AddNonMember</a> method
+Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-addnonmember">AddNonMember</a> method
 
 </td>
 </tr>
@@ -123,7 +123,7 @@ Can also be added using the <a href="https://msdn.microsoft.com/a61f0b97-cd8a-40
 </dl>
 </td>
 <td width="60%">
-Can also be added using the <a href="https://msdn.microsoft.com/56bde3d9-f4f7-449d-a080-5215dda940a0">AddNonMemberName</a> method
+Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-addnonmembername">AddNonMemberName</a> method
 
 </td>
 </tr>
@@ -145,7 +145,7 @@ Reserved for future use.
 
 
 
-You must call the <a href="https://msdn.microsoft.com/51a855dd-4a90-4f7a-b32f-f91e3941655b">Submit</a> method to persist any changes made by this method.
+You must call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-submit">Submit</a> method to persist any changes made by this method.
 
 
 

@@ -54,7 +54,7 @@ Callback interface for receiving events from the camera user interface control.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICameraUIControlEventCallback</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ICameraUIControlEventCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICameraUIControlEventCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICameraUIControlEventCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ICameraUIControlEventCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh802719(v=VS.85).aspx">OnClosed</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevNotes/icamerauicontroleventcallback-onclosed">OnClosed</a>
 </td>
 <td align="left" width="63%">
 Occurs when the camera UI control is closed.
@@ -78,7 +78,7 @@ Occurs when the camera UI control is closed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4f202b68-48e2-4ae7-ade6-2180c05eec4a">OnItemCaptured</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontroleventcallback-onitemcaptured">OnItemCaptured</a>
 </td>
 <td align="left" width="63%">
 Occurs when an item is captured.
@@ -87,7 +87,7 @@ Occurs when an item is captured.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh802721(v=VS.85).aspx">OnItemDeleted</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevNotes/icamerauicontroleventcallback-onitemdeleted">OnItemDeleted</a>
 </td>
 <td align="left" width="63%">
 Occurs when an item is deleted.
@@ -96,7 +96,7 @@ Occurs when an item is deleted.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/beb50d34-ff68-43e6-8deb-b1ba2c02d70d">OnStartupComplete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontroleventcallback-onstartupcomplete">OnStartupComplete</a>
 </td>
 <td align="left" width="63%">
 Occurs when startup for the camera UI control has completed.
@@ -105,7 +105,7 @@ Occurs when startup for the camera UI control has completed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4ec41f09-8278-48ad-838f-9f796617a683">OnSuspendComplete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontroleventcallback-onsuspendcomplete">OnSuspendComplete</a>
 </td>
 <td align="left" width="63%">
 Occurs when the camera UI control has completed being suspended.

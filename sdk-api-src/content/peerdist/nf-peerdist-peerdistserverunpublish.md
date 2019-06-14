@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PeerDistServerUnpublish</b> function removes a publication created via <a href="https://msdn.microsoft.com/2133e578-f89d-4cfd-a522-12c2531babaa">PeerDistServerPublishStream</a>.
+The <b>PeerDistServerUnpublish</b> function removes a publication created via <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverpublishstream">PeerDistServerPublishStream</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>PeerDistServerUnpublish</b> function removes a publication created via <a
 
 ### -param hPeerDist [in]
 
-A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="https://msdn.microsoft.com/62d4f139-ab18-4d65-bda5-1cf09d7ddab9">PeerDistStartup</a>.
+A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
 
 
 ### -param cbContentIdentifier
@@ -137,7 +137,7 @@ The service is unavailable.
 
 
 
-The <b>PeerDistServerUnpublish</b> function cancels all pending operations on unpublished content within the Peer Distribution session that is associated with the specified <i>hPeerDist</i>. The client is still required  to close previously opened handles on that content with a call to <a href="https://msdn.microsoft.com/c55300b7-13b6-42bf-b673-56a5e077416d">PeerDistClientCloseContent</a>.
+The <b>PeerDistServerUnpublish</b> function cancels all pending operations on unpublished content within the Peer Distribution session that is associated with the specified <i>hPeerDist</i>. The client is still required  to close previously opened handles on that content with a call to <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientclosecontent">PeerDistClientCloseContent</a>.
 
 A publication is accessible only to the User Account that originally published the content.
 
@@ -149,7 +149,7 @@ A publication is accessible only to the User Account that originally published t
 
 
 
-<a href="https://msdn.microsoft.com/2133e578-f89d-4cfd-a522-12c2531babaa">PeerDistServerPublishStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverpublishstream">PeerDistServerPublishStream</a>
  
 
  

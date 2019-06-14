@@ -64,12 +64,12 @@ A pointer to the name of the file to be created in the cache.
 
 ### -param pfnCallBack [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/86e0d47e-469b-4c1d-9e39-f4f6d9e58ba0">FCACHE_RICHCREATE_CALLBACK</a> function that was used to create the file.
+A pointer to the <a href="https://docs.microsoft.com/previous-versions//bb432263(v=vs.85)">FCACHE_RICHCREATE_CALLBACK</a> function that was used to create the file.
 
 
 ### -param lpv [in]
 
- If the file is not in the cache, the call calls <i>pfnCallBack</i> with <i>lpv</i> to do the actual work of calling <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>.
+ If the file is not in the cache, the call calls <i>pfnCallBack</i> with <i>lpv</i> to do the actual work of calling <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>.
 
 
 ### -param fAsyncContext [in]
@@ -91,11 +91,11 @@ Returns the address of the <a href="Http://go.microsoft.com/fwlink/p/?linkid=853
 
 
 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/86e0d47e-469b-4c1d-9e39-f4f6d9e58ba0">FCACHE_RICHCREATE_CALLBACK</a>
+<a href="https://docs.microsoft.com/previous-versions//bb432263(v=vs.85)">FCACHE_RICHCREATE_CALLBACK</a>
 
 
 

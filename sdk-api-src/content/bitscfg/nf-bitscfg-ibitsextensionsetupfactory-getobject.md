@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 Use the 
 <b>GetObject</b> method to retrieve a pointer to the 
-<a href="https://msdn.microsoft.com/840608ef-9c07-43f7-9cfd-20996a18bb50">IBITSExtensionSetup</a> interface. This method performs the same binding that the 
-<a href="https://msdn.microsoft.com/595b2c7f-584c-4343-a75c-327d8ed4ceb1">ADsGetObject</a> ADSI function performs.
+<a href="https://docs.microsoft.com/windows/desktop/api/bitscfg/nn-bitscfg-ibitsextensionsetup">IBITSExtensionSetup</a> interface. This method performs the same binding that the 
+<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsgetobject">ADsGetObject</a> ADSI function performs.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ Null-terminated string containing the path to the directory service. For example
 ### -param ppExtensionSetup [out]
 
 Use the 
-<a href="https://msdn.microsoft.com/840608ef-9c07-43f7-9cfd-20996a18bb50">IBITSExtensionSetup</a> interface to enable and disable BITS upload for the given virtual directory.
+<a href="https://docs.microsoft.com/windows/desktop/api/bitscfg/nn-bitscfg-ibitsextensionsetup">IBITSExtensionSetup</a> interface to enable and disable BITS upload for the given virtual directory.
 
 
 ## -returns
@@ -85,7 +85,7 @@ This method returns <b>S_OK</b> for success. Otherwise, the method failed.
 
 
 
-<a href="https://msdn.microsoft.com/840608ef-9c07-43f7-9cfd-20996a18bb50">IBITSExtensionSetup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bitscfg/nn-bitscfg-ibitsextensionsetup">IBITSExtensionSetup</a>
  
 
  

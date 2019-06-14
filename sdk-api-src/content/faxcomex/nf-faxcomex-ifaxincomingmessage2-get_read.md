@@ -68,7 +68,7 @@ A flag that indicates if the fax has been read.
 
 Possible values are VARIANT_TRUE and VARIANT_FALSE.
 
-A change to this value is not committed to the server until <a href="https://msdn.microsoft.com/en-us/library/Aa359003(v=VS.85).aspx">IFaxIncomingMessage2::Save</a> is called.
+A change to this value is not committed to the server until <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage-save-vb">IFaxIncomingMessage2::Save</a> is called.
 
 
 
@@ -78,11 +78,11 @@ A change to this value is not committed to the server until <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686126(v=VS.85).aspx">FaxIncomingMessage</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage">FaxIncomingMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358995(v=VS.85).aspx">IFaxIncomingMessage2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingmessage2">IFaxIncomingMessage2</a>
  
 
  

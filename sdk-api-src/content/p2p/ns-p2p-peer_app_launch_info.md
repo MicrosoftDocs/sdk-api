@@ -59,17 +59,17 @@ The <b>PEER_APP_LAUNCH_INFO</b> structure contains the peer application applicat
 
 ### -field pContact
 
-Pointer to a <a href="https://msdn.microsoft.com/b84a17fc-35d6-4098-9bb3-18e708541a80">PEER_CONTACT</a> structure that contains information about the contact that sent the request to the local peer to launch the application referenced by the application.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_contact_tag">PEER_CONTACT</a> structure that contains information about the contact that sent the request to the local peer to launch the application referenced by the application.
 
 
 ### -field pEndpoint
 
-Pointer to a <a href="https://msdn.microsoft.com/9687b332-14ed-4023-b8c2-437d75fd0298">PEER_ENDPOINT</a> structure that contains information about the specific endpoint of the contact that sent the request to the local peer to launch the application referenced by the application
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_endpoint_tag">PEER_ENDPOINT</a> structure that contains information about the specific endpoint of the contact that sent the request to the local peer to launch the application referenced by the application
 
 
 ### -field pInvitation
 
-Pointer to the <a href="https://msdn.microsoft.com/b74b45c0-760f-4008-87dd-9fdea0d4be05">PEER_INVITATION</a> structure that contains the invitation to launch a specific peer application application on the local peer.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_invitation_tag">PEER_INVITATION</a> structure that contains the invitation to launch a specific peer application application on the local peer.
 
 
 ## -see-also
@@ -77,19 +77,19 @@ Pointer to the <a href="https://msdn.microsoft.com/b74b45c0-760f-4008-87dd-9fdea
 
 
 
-<a href="https://msdn.microsoft.com/b84a17fc-35d6-4098-9bb3-18e708541a80">PEER_CONTACT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_contact_tag">PEER_CONTACT</a>
 
 
 
-<a href="https://msdn.microsoft.com/9687b332-14ed-4023-b8c2-437d75fd0298">PEER_ENDPOINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_endpoint_tag">PEER_ENDPOINT</a>
 
 
 
-<a href="https://msdn.microsoft.com/b74b45c0-760f-4008-87dd-9fdea0d4be05">PEER_INVITATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_invitation_tag">PEER_INVITATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/2634899c-3263-45ce-9fac-407e11e42cd4">Peer Collaboration API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-structures">Peer Collaboration API Structures</a>
  
 
  

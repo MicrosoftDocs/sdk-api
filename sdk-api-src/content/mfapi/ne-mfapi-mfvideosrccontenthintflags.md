@@ -79,7 +79,7 @@ The source is 2.35:1 content encoded within a 16×9 or 4×3 area.
 
 
 
-Use these flags with the <a href="https://msdn.microsoft.com/6b32e257-c523-4859-8c8f-661c33810624">MF_MT_SOURCE_CONTENT_HINT</a> attribute.
+Use these flags with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-source-content-hint-attribute">MF_MT_SOURCE_CONTENT_HINT</a> attribute.
 
 
 
@@ -89,7 +89,7 @@ Use these flags with the <a href="https://msdn.microsoft.com/6b32e257-c523-4859-
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

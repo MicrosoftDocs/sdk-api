@@ -59,7 +59,7 @@ Gets the type information for the item.
 
 ### -param Type [out]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Aa378603(v=VS.85).aspx">WcmDataType</a> value that indicates the data type of the item.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/ne-wcmconfig-__midl___midl_itf_wcmconfig_0000_0000_0003">WcmDataType</a> value that indicates the data type of the item.
 
 
 ## -returns
@@ -76,7 +76,7 @@ This method returns an HRESULT value. <b>S_OK</b> indicates success.
 
 
 
-<a href="https://msdn.microsoft.com/a743d942-69f9-426b-be88-adf88b9bb1e0">ISettingsItem</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>
  
 
  

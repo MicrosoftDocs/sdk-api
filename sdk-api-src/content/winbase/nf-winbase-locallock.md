@@ -57,7 +57,7 @@ ms.custom: 19H1
 
 
 Locks a local memory object and returns a pointer to the first byte of the object's memory block.
-<div class="alert"><b>Note</b>  The local functions have greater overhead and provide fewer features than other memory management functions. New applications should use the <a href="https://msdn.microsoft.com/cfb683fa-4f46-48b5-9a28-f4625a9cb8cd">heap functions</a> unless documentation states that a local function should be used. For more information, see <a href="https://msdn.microsoft.com/97707ce7-4c65-4d0e-ba69-47fdaee73a9b">Global and Local Functions</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  The local functions have greater overhead and provide fewer features than other memory management functions. New applications should use the <a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">heap functions</a> unless documentation states that a local function should be used. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>.</div><div> </div>
 
 ## -parameters
 
@@ -67,8 +67,8 @@ Locks a local memory object and returns a pointer to the first byte of the objec
 ### -param hMem [in]
 
 A handle to the local memory object. This handle is returned by either the 
-<a href="https://msdn.microsoft.com/da8cd2be-ff4c-4da5-813c-8759a58228c9">LocalAlloc</a> or 
-<a href="https://msdn.microsoft.com/88527ddd-e0c2-4a41-825e-d3a6df77fd2a">LocalReAlloc</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localrealloc">LocalReAlloc</a> function.
 
 
 ## -returns
@@ -78,7 +78,7 @@ A handle to the local memory object. This handle is returned by either the
 If the function succeeds, the return value is a pointer to the first byte of the memory block.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -89,10 +89,10 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 The internal data structures for each memory object include a lock count that is initially zero. For movable memory objects, 
 <b>LocalLock</b> increments the count by one, and the 
-<a href="https://msdn.microsoft.com/eac40b69-5fb6-4523-826d-a012f6f4e5ce">LocalUnlock</a> function decrements the count by one. Each successful call that a process makes to 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localunlock">LocalUnlock</a> function decrements the count by one. Each successful call that a process makes to 
 <b>LocalLock</b> for an object must be matched by a corresponding call to 
 <b>LocalUnlock</b>. Locked memory will not be moved or discarded unless the memory object is reallocated by using the 
-<a href="https://msdn.microsoft.com/88527ddd-e0c2-4a41-825e-d3a6df77fd2a">LocalReAlloc</a> function. The memory block of a locked memory object remains locked in memory until its lock count is decremented to zero, at which time it can be moved or discarded.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localrealloc">LocalReAlloc</a> function. The memory block of a locked memory object remains locked in memory until its lock count is decremented to zero, at which time it can be moved or discarded.
 
 Memory objects allocated with <b>LMEM_FIXED</b> always have a lock count of zero. For these objects, the value of the returned pointer is equal to the value of the specified handle.
 
@@ -108,27 +108,27 @@ Discarded objects always have a lock count of zero.
 
 
 
-<a href="https://msdn.microsoft.com/97707ce7-4c65-4d0e-ba69-47fdaee73a9b">Global and Local Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/da8cd2be-ff4c-4da5-813c-8759a58228c9">LocalAlloc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/4804c8c3-6c0b-4f62-87ab-f64b23fff8b9">LocalFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localflags">LocalFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/88527ddd-e0c2-4a41-825e-d3a6df77fd2a">LocalReAlloc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localrealloc">LocalReAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/eac40b69-5fb6-4523-826d-a012f6f4e5ce">LocalUnlock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localunlock">LocalUnlock</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a2a7a62-0bda-4a0d-93d2-25b4898871fd">Memory
+<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
     Management Functions</a>
  
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Initializes an object that gets data from an event information table (EIT) in a Protected Broadcast  Device Architecture (PBDA) transport stream.  This method is called internally by the <a href="https://msdn.microsoft.com/ab7df40a-6a1c-4017-bece-618fb75797cf">IPBDASiParser::GetEIT</a> method, so applications typically should not call it.
+Initializes an object that gets data from an event information table (EIT) in a Protected Broadcast  Device Architecture (PBDA) transport stream.  This method is called internally by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbdasiparser-geteit">IPBDASiParser::GetEIT</a> method, so applications typically should not call it.
 
 
 ## -parameters
@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/cb8cd2cc-e498-43c2-ae1e-3543b4ea3b56">IPBDA_EIT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-ipbda_eit">IPBDA_EIT</a>
  
 
  

@@ -86,20 +86,20 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-For information on how to register your handler, see <a href="https://msdn.microsoft.com/en-us/library/Cc144131(v=VS.85).aspx">Initializing Property Handlers</a>.
+For information on how to register your handler, see <a href="https://docs.microsoft.com/windows/desktop/properties/building-property-handlers-property-handlers">Initializing Property Handlers</a>.
 
 This function returns only those handlers registered under <b>HKEY_LOCAL_MACHINE</b>.
 
-Most calling applications should not need to call this method or use <a href="https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a> to create a property handler directly. Instead, calling applications should use <a href="https://msdn.microsoft.com/706b2551-a9b0-4368-babb-e54cea6d297e">IShellItem2::GetPropertyStore</a> to create a property store for a Shell item on Windows Vista. <b>IShellItem2::GetPropertyStore</b> provides the largest set of available properties for a Shell item, and the most options for customizing exactly which properties to return.
+Most calling applications should not need to call this method or use <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> to create a property handler directly. Instead, calling applications should use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem2-getpropertystore">IShellItem2::GetPropertyStore</a> to create a property store for a Shell item on Windows Vista. <b>IShellItem2::GetPropertyStore</b> provides the largest set of available properties for a Shell item, and the most options for customizing exactly which properties to return.
 
-If no property handler is registered for the specified file, this function returns an error code. When this happens, it might still be possible to read certain file system properties from the property store returned from <a href="https://msdn.microsoft.com/706b2551-a9b0-4368-babb-e54cea6d297e">IShellItem2::GetPropertyStore</a>.
+If no property handler is registered for the specified file, this function returns an error code. When this happens, it might still be possible to read certain file system properties from the property store returned from <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem2-getpropertystore">IShellItem2::GetPropertyStore</a>.
 
-Applications that need to create a property handler from code and that must run both on Windows Vista and on Windows XP can call <a href="https://msdn.microsoft.com/en-us/library/Bb776499(v=VS.85).aspx">PSGetItemPropertyHandler</a> to create a property store for a Shell item through the Microsoft Windows Desktop Search (WDS) redistributable.
+Applications that need to create a property handler from code and that must run both on Windows Vista and on Windows XP can call <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psgetitempropertyhandler">PSGetItemPropertyHandler</a> to create a property store for a Shell item through the Microsoft Windows Desktop Search (WDS) redistributable.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762084(v=VS.85).aspx">PSLookupPropertyHandlerCLSID</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-pslookuppropertyhandlerclsid">PSLookupPropertyHandlerCLSID</a>.
 
 
 ```cpp
@@ -123,11 +123,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/706b2551-a9b0-4368-babb-e54cea6d297e">IShellItem2::GetPropertyStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem2-getpropertystore">IShellItem2::GetPropertyStore</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776499(v=VS.85).aspx">PSGetItemPropertyHandler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psgetitempropertyhandler">PSGetItemPropertyHandler</a>
  
 
  

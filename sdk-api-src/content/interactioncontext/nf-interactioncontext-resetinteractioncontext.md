@@ -51,8 +51,8 @@ ms.custom: 19H1
 ## -description
 
 
-Resets the <a href="https://msdn.microsoft.com/ab44d530-da26-4b40-99d8-f75dd32c3182">interaction state</a>, interaction configuration settings, and all parameters to their initial state.  Current interactions are cancelled without notifications. 
-<a href="https://msdn.microsoft.com/60BFDCD7-D277-4B4A-94DA-7ADB1412252A">Interaction Context</a> must be reconfigured before next use.
+Resets the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-interaction_state">interaction state</a>, interaction configuration settings, and all parameters to their initial state.  Current interactions are cancelled without notifications. 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> must be reconfigured before next use.
 
 
 
@@ -64,7 +64,7 @@ Resets the <a href="https://msdn.microsoft.com/ab44d530-da26-4b40-99d8-f75dd32c3
 
 ### -param interactionContext [in]
 
-Pointer to a handle for the <a href="https://msdn.microsoft.com/60BFDCD7-D277-4B4A-94DA-7ADB1412252A">Interaction Context</a>.
+Pointer to a handle for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a>.
 
 
 ## -returns
@@ -82,7 +82,7 @@ Otherwise, it returns an HRESULT error code.
 
 
 
-Useful for managing a pool of <a href="https://msdn.microsoft.com/60BFDCD7-D277-4B4A-94DA-7ADB1412252A">Interaction Context</a> objects.
+Useful for managing a pool of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> objects.
 
 Current interactions are cancelled without notifications.
 
@@ -94,23 +94,23 @@ Current interactions are cancelled without notifications.
 
 
 
-<a href="https://msdn.microsoft.com/90b81d1c-c1c0-442b-a534-f6e39e707230">CreateInteractionContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-createinteractioncontext">CreateInteractionContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/871b35be-ccda-4a74-b516-e1e7f852782d">DestroyInteractionContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-destroyinteractioncontext">DestroyInteractionContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/3E3DE99D-B457-4202-8CC2-A6F5C019EFF8">HINTERACTIONCONTEXT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/0F34F181-D92C-4B08-9F1D-62379D4A2B15">Interaction Context Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/52fb6054-c8f3-4dbe-af1f-0b8d39ebcf5b">StopInteractionContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-stopinteractioncontext">StopInteractionContext</a>
  
 
  

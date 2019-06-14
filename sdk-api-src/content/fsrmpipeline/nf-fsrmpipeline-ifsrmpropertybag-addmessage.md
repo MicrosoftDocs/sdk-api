@@ -81,16 +81,16 @@ If any of the following implementations returns an error code, FSRM automaticall
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/ab42430c-1e30-4576-b6f8-c0488b6230dd">IFsrmClassifierModuleImplementation::DoesPropertyValueApply</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-doespropertyvalueapply">IFsrmClassifierModuleImplementation::DoesPropertyValueApply</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/70277473-de96-40e1-980b-4eec6e7b035d">IFsrmClassifierModuleImplementation::GetPropertyValueToApply</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-getpropertyvaluetoapply">IFsrmClassifierModuleImplementation::GetPropertyValueToApply</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/05de6dfe-0f90-4866-bedc-72b8fea9dfac">IFsrmStorageModuleImplementation::LoadProperties</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmstoragemoduleimplementation-loadproperties">IFsrmStorageModuleImplementation::LoadProperties</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/4d31db26-9d03-46f3-a902-401f9e0d9767">IFsrmStorageModuleImplementation::SaveProperties</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmstoragemoduleimplementation-saveproperties">IFsrmStorageModuleImplementation::SaveProperties</a>
 </li>
 </ul>
 
@@ -101,11 +101,11 @@ If any of the following implementations returns an error code, FSRM automaticall
 
 
 
-<a href="https://msdn.microsoft.com/237f024d-2b1d-45d5-a63d-c530426278e6">IFsrmPropertyBag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertybag">IFsrmPropertyBag</a>
 
 
 
-<a href="https://msdn.microsoft.com/3aa6bc28-03bb-40ea-8c56-94133c8eeb54">IFsrmPropertyBag::Messages</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_messages">IFsrmPropertyBag::Messages</a>
  
 
  

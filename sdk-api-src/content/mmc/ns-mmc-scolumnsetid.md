@@ -54,7 +54,7 @@ The
 
 The 
 <b>SColumnSetID</b> structure is used by the 
-<a href="https://msdn.microsoft.com/e4fc2b5f-2736-4a5b-adaa-f1c87d55f0b8">CCF_COLUMN_SET_ID</a> clipboard format.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/ccf-column-set-id">CCF_COLUMN_SET_ID</a> clipboard format.
 
 The 
 <b>SColumnSetID</b> structure contains an array of bytes that represent the node ID.
@@ -86,7 +86,7 @@ The bytes that contains the column set ID.
 
 For details on using the 
 <b>SColumnSetID</b> structure with the CCF_COLUMN_SET_ID clipboard format, see 
-<a href="https://msdn.microsoft.com/e4fc2b5f-2736-4a5b-adaa-f1c87d55f0b8">CCF_COLUMN_SET_ID</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/ccf-column-set-id">CCF_COLUMN_SET_ID</a>.
 
 
 
@@ -96,7 +96,7 @@ For details on using the
 
 
 
-<a href="https://msdn.microsoft.com/e4fc2b5f-2736-4a5b-adaa-f1c87d55f0b8">CCF_COLUMN_SET_ID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/ccf-column-set-id">CCF_COLUMN_SET_ID</a>
  
 
  

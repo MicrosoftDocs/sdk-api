@@ -97,7 +97,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/7ac51909-fa0e-4f97-8da0-0ab4c5de7d60">ILoadFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/filtereg/nn-filtereg-iloadfilter">ILoadFilter</a>
  
 
  

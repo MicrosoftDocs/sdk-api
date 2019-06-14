@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Describes the strategy that the <a href="https://msdn.microsoft.com/e80938b7-31f0-467b-a3fa-c4511d14758d">Overlay Mixer Filter</a> filter uses to scale the video image down to a smaller size.
+Describes the strategy that the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer Filter</a> filter uses to scale the video image down to a smaller size.
 
 
 
@@ -103,11 +103,11 @@ This mode is the default decimation strategy.
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd435eff-a4bc-40b3-8aa7-50d78d17e4ce">IAMVideoDecimationProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamvideodecimationproperties">IAMVideoDecimationProperties</a>
  
 
  

@@ -62,7 +62,7 @@ The <b>TS_SELECTIONSTYLE</b> structure represents the style of a selection.
 
 ### -field ase
 
-Specifies the active end of the selection. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms629196(v=VS.85).aspx">TsActiveSelEnd</a>.
+Specifies the active end of the selection. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ne-textstor-__midl___midl_itf_textstor_0000_0000_0001">TsActiveSelEnd</a>.
 
 
 ### -field fInterimChar
@@ -84,17 +84,17 @@ An interim character selection is the length of one character and is visually re
 
 
 
-<a href="https://msdn.microsoft.com/739c87c5-3e9c-41f3-ad79-0b417347604b">TS_SELECTION_ACP
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_selection_acp">TS_SELECTION_ACP
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/56fbe145-1972-4b44-a730-17860e428dd0">TS_SELECTION_ANCHOR
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_selection_anchor">TS_SELECTION_ANCHOR
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/95695f10-2296-41fe-b2b4-efae548292bb">TsActiveSelEnd
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ne-textstor-__midl___midl_itf_textstor_0000_0000_0001">TsActiveSelEnd
       </a>
  
 

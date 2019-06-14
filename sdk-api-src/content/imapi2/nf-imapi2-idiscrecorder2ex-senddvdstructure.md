@@ -402,11 +402,11 @@ For details on specifying the fields of  the structure, see the SEND DISC STRUCT
 
 
 
-<a href="https://msdn.microsoft.com/37e65b57-ec53-405c-a7bd-34c2df15d5d7">IDiscRecorder2Ex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/6842573a-68e5-47ea-8441-953ab85b9482">IDiscRecorder2Ex::ReadDvdStructure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-readdvdstructure">IDiscRecorder2Ex::ReadDvdStructure</a>
  
 
  

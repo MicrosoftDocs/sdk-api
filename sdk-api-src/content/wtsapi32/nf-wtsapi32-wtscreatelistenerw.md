@@ -81,7 +81,7 @@ A pointer to a null-terminated string that contains the name of the listener to 
 
 ### -param pBuffer [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/051cab0b-701c-4bb9-8728-6b383cdb8e6a">WTSLISTENERCONFIG</a> structure that contains configuration information for the listener.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wtslistenerconfiga">WTSLISTENERCONFIG</a> structure that contains configuration information for the listener.
 
 
 ### -param flag [in]
@@ -118,7 +118,7 @@ Update the settings of an existing listener.
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 
 
@@ -127,9 +127,9 @@ the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">Ge
 
 
 
-This function creates or configures a listener that uses   <a href="https://msdn.microsoft.com/442c3c7f-d04b-4dcd-945d-f6e0168c59d5">Remote Desktop Protocol</a> (RDP). Always set the <b>version</b> member of the <a href="https://msdn.microsoft.com/051cab0b-701c-4bb9-8728-6b383cdb8e6a">WTSLISTENERCONFIG</a> structure that is pointed to by the <i>pBuffer</i> parameter to one.
+This function creates or configures a listener that uses   <a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-protocol">Remote Desktop Protocol</a> (RDP). Always set the <b>version</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wtslistenerconfiga">WTSLISTENERCONFIG</a> structure that is pointed to by the <i>pBuffer</i> parameter to one.
 
-This function does not create or configure the security descriptor of the listener. When you call this function to create a new listener, the function assigns the default security descriptor to the new listener. To modify the security descriptor, call the <a href="https://msdn.microsoft.com/bc90d526-e252-4506-b781-66da5bd66ced">WTSSetListenerSecurity</a> function. For more information about security descriptors, see  <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a>.
+This function does not create or configure the security descriptor of the listener. When you call this function to create a new listener, the function assigns the default security descriptor to the new listener. To modify the security descriptor, call the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetlistenersecuritya">WTSSetListenerSecurity</a> function. For more information about security descriptors, see  <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a>.
 
 This function does not validate the settings for the new listener. Be sure that the settings are valid before calling this function.
 
@@ -141,19 +141,19 @@ This function does not validate the settings for the new listener. Be sure that 
 
 
 
-<a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3e8b35d-9d18-4611-a898-72ca13e40d33">SECURITY_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/051cab0b-701c-4bb9-8728-6b383cdb8e6a">WTSLISTENERCONFIG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wtslistenerconfiga">WTSLISTENERCONFIG</a>
 
 
 
-<a href="https://msdn.microsoft.com/bc90d526-e252-4506-b781-66da5bd66ced">WTSSetListenerSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetlistenersecuritya">WTSSetListenerSecurity</a>
  
 
  

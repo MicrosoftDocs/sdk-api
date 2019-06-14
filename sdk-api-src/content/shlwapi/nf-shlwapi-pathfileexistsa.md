@@ -76,7 +76,7 @@ A pointer to a null-terminated string of maximum length MAX_PATH that contains t
 
 Type: <b>BOOL</b>
 
-<b>TRUE</b> if the file exists; otherwise, <b>FALSE</b>. Call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> for extended error information.
+<b>TRUE</b> if the file exists; otherwise, <b>FALSE</b>. Call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for extended error information.
 
 
 

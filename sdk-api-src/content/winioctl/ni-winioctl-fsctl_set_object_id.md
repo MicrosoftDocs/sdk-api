@@ -51,7 +51,7 @@ req.redist:
 Sets the object identifier for the specified file or directory.
 
 To perform this operation, call the 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -148,7 +148,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 Object identifiers are used  to track files and directories. They are invisible to most applications and should never be modified by applications. Modifying an object identifier can result in the loss of data from portions of a file, up to and including entire volumes of data. 
 
 Use this operation to explicitly set an object identifier to a value you provide. Attempting to set an object identifier on an object that already has an object identifier will fail. An attempt to use an object identifier that is already in use on the volume will also fail. Use the 
-<a href="https://msdn.microsoft.com/78a2dfa0-a095-4ca3-bfbb-4535086dee4a">FSCTL_CREATE_OR_GET_OBJECT_ID</a> operation to have the NTFS file system generate an object identifier if the object does not already have one.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_create_or_get_object_id">FSCTL_CREATE_OR_GET_OBJECT_ID</a> operation to have the NTFS file system generate an object identifier if the object does not already have one.
 
 Note that the time stamps may not be updated correctly for a remote file. To ensure consistent results, use unbuffered I/O.
 
@@ -220,35 +220,35 @@ No
 
 
 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/4d58921c-a3ec-44f3-b077-528db6b1211c">FILE_OBJECTID_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_file_objectid_buffer">FILE_OBJECTID_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/78a2dfa0-a095-4ca3-bfbb-4535086dee4a">FSCTL_CREATE_OR_GET_OBJECT_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_create_or_get_object_id">FSCTL_CREATE_OR_GET_OBJECT_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/6698ca1d-d603-4f8d-9737-6dcb9be24e3a">FSCTL_DELETE_OBJECT_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_delete_object_id">FSCTL_DELETE_OBJECT_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/60eb4218-424e-4101-a012-3fde66f4f4fe">FSCTL_GET_OBJECT_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_object_id">FSCTL_GET_OBJECT_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/e17dc58f-3fa7-4069-b8ec-16331438b832">FSCTL_SET_OBJECT_ID_EXTENDED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_object_id_extended">FSCTL_SET_OBJECT_ID_EXTENDED</a>
 
 
 
-<a href="https://msdn.microsoft.com/6f438c72-f23d-4ca4-83bd-fe3bc433ceeb">Object Identifiers</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/distributed-link-tracking-and-object-identifiers">Object Identifiers</a>
  
 
  

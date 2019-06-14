@@ -50,10 +50,10 @@ ms.custom: 19H1
 ## -description
 
 
-Obtains the metadata that the writer's <a href="https://msdn.microsoft.com/542d479a-695a-4b1f-94e7-f2ffa08440b7">OnIdentify</a> or <a href="https://msdn.microsoft.com/4cb3b8f6-f702-4fba-a3cc-af84897cfd82">OnIdentifyEx</a> method previously reported.
+Obtains the metadata that the writer's <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onidentify">OnIdentify</a> or <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex-onidentifyex">OnIdentifyEx</a> method previously reported.
 
 <b>GetIdentifyInformation</b> is a protected method that is implemented by the 
-<a href="https://msdn.microsoft.com/29820c1d-2add-402d-a9ca-9e8674d85f7f">CVssWriterEx</a> base class.
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex">CVssWriterEx</a> base class.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ Obtains the metadata that the writer's <a href="https://msdn.microsoft.com/542d4
 ### -param ppMetadata [out]
 
 A doubly indirect pointer to an 
-<a href="https://msdn.microsoft.com/b3aa04d9-7299-4e3a-b092-d07f2de6eefe">IVssExamineWriterMetadata</a> object that contains the returned metadata. Writers must not set the returned pointer to <b>NULL</b> or call <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a> on it, because the VSS service holds a reference to the object.
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a> object that contains the returned metadata. Writers must not set the returned pointer to <b>NULL</b> or call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> on it, because the VSS service holds a reference to the object.
 
 
 ## -returns
@@ -86,7 +86,7 @@ The following are the valid return codes for this method.
 </td>
 <td width="60%">
 Successfully returned a pointer to an 
-<a href="https://msdn.microsoft.com/b3aa04d9-7299-4e3a-b092-d07f2de6eefe">IVssExamineWriterMetadata</a> object.
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a> object.
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ There was an internal error in the writer.
 
 
 
-The <b>GetIdentifyInformation</b> method can only be called in a writer's <a href="https://msdn.microsoft.com/4e88d92b-48f3-42f9-bf66-61337a745902">OnPrepareBackup</a>, <a href="https://msdn.microsoft.com/a077323e-d04c-4bf7-8aa6-5028fa1c6e6b">OnPrepareSnapshot</a>, or <a href="https://msdn.microsoft.com/d97d4246-882e-49c3-a214-d8d3887c1508">OnPostSnapshot</a> method.
+The <b>GetIdentifyInformation</b> method can only be called in a writer's <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpreparebackup">OnPrepareBackup</a>, <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpreparesnapshot">OnPrepareSnapshot</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostsnapshot">OnPostSnapshot</a> method.
 
 
 
@@ -121,7 +121,7 @@ The <b>GetIdentifyInformation</b> method can only be called in a writer's <a hre
 
 
 
-<a href="https://msdn.microsoft.com/29820c1d-2add-402d-a9ca-9e8674d85f7f">CVssWriterEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex">CVssWriterEx</a>
  
 
  

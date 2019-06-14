@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SCardEstablishContext</b> function establishes the <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">resource manager context</a> (the scope) within which database operations are performed.
+The <b>SCardEstablishContext</b> function establishes the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager context</a> (the scope) within which database operations are performed.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>SCardEstablishContext</b> function establishes the <a href="https://msdn.
 
 ### -param dwScope [in]
 
-Scope of the <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">resource manager context</a>. This parameter can be one of the following values.
+Scope of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager context</a>. This parameter can be one of the following values.
 
 <table>
 <tr>
@@ -104,7 +104,7 @@ Reserved for future use and must be <b>NULL</b>.
 
 ### -param phContext [out]
 
-A handle to the established <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">resource manager context</a>. This handle can now be supplied to other functions attempting to do work within this context.
+A handle to the established <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager context</a>. This handle can now be supplied to other functions attempting to do work within this context.
 
 
 ## -returns
@@ -113,7 +113,7 @@ A handle to the established <a href="https://msdn.microsoft.com/ce589e18-02ac-42
 
 If the function succeeds, the function returns SCARD_S_SUCCESS. 
 
-If the function fails, it returns an error code. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>. 
+If the function fails, it returns an error code. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>. 
 
 
 
@@ -123,11 +123,11 @@ If the function fails, it returns an error code. For more information, see <a hr
 
 
 The context handle returned by <b>SCardEstablishContext</b> can be used by database query and management functions. For more information, see 
-<a href="https://msdn.microsoft.com/a30cbb99-522c-4752-bfcd-75be608785f1">Smart Card Database Query Functions</a> and 
-<a href="https://msdn.microsoft.com/a2f457e1-c042-42e7-9071-cf0edd68e27a">Smart Card Database Management Functions</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/smart-card-database-query-functions">Smart Card Database Query Functions</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/smart-card-database-management-functions">Smart Card Database Management Functions</a>.
 
 To release an established resource manager context, use 
-<a href="https://msdn.microsoft.com/aa17cf94-ca66-4b5e-b1cd-00319f496b09">SCardReleaseContext</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardreleasecontext">SCardReleaseContext</a>.
 
 If the client attempts a smart card operation in a remote session, such as a client session running on a terminal server, and the operating system in use does not support smart card redirection, this function returns ERROR_BROKEN_PIPE.
 
@@ -165,7 +165,7 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/aa17cf94-ca66-4b5e-b1cd-00319f496b09">SCardReleaseContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardreleasecontext">SCardReleaseContext</a>
  
 
  

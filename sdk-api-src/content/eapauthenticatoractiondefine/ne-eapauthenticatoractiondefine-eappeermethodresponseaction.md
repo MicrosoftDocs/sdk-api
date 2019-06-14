@@ -97,7 +97,7 @@ The supplicant should generate no  response to the EAP authenticator request.
 
 
 
-<a href="https://msdn.microsoft.com/e57e8c74-b224-4c01-913b-e41af651acc3">EAPHost Peer Method Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-peer-method-enumerations">EAPHost Peer Method Enumerations</a>
  
 
  

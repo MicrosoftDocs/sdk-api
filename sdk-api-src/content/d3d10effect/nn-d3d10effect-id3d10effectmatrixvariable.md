@@ -55,7 +55,7 @@ A matrix-variable interface accesses a matrix.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10EffectMatrixVariable</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable</a>. <b>ID3D10EffectMatrixVariable</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10EffectMatrixVariable</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectvariable">ID3D10EffectVariable</a>. <b>ID3D10EffectMatrixVariable</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID3D10EffectMatrixVariable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173648(v=VS.85).aspx">GetMatrix</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectmatrixvariable-getmatrix">GetMatrix</a>
 </td>
 <td align="left" width="63%">
 Get a matrix.
@@ -79,7 +79,7 @@ Get a matrix.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173649(v=VS.85).aspx">GetMatrixArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectmatrixvariable-getmatrixarray">GetMatrixArray</a>
 </td>
 <td align="left" width="63%">
 Get an array of matrices.
@@ -88,7 +88,7 @@ Get an array of matrices.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173650(v=VS.85).aspx">GetMatrixTranspose</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectmatrixvariable-getmatrixtranspose">GetMatrixTranspose</a>
 </td>
 <td align="left" width="63%">
 Transpose and get a floating-point matrix.
@@ -97,7 +97,7 @@ Transpose and get a floating-point matrix.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173651(v=VS.85).aspx">GetMatrixTransposeArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectmatrixvariable-getmatrixtransposearray">GetMatrixTransposeArray</a>
 </td>
 <td align="left" width="63%">
 Transpose and get an array of floating-point matrices.
@@ -106,7 +106,7 @@ Transpose and get an array of floating-point matrices.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173652(v=VS.85).aspx">SetMatrix</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectmatrixvariable-setmatrix">SetMatrix</a>
 </td>
 <td align="left" width="63%">
 Set a floating-point matrix.
@@ -115,7 +115,7 @@ Set a floating-point matrix.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173653(v=VS.85).aspx">SetMatrixArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectmatrixvariable-setmatrixarray">SetMatrixArray</a>
 </td>
 <td align="left" width="63%">
 Set an array of floating-point matrices.
@@ -124,7 +124,7 @@ Set an array of floating-point matrices.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173654(v=VS.85).aspx">SetMatrixTranspose</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectmatrixvariable-setmatrixtranspose">SetMatrixTranspose</a>
 </td>
 <td align="left" width="63%">
 Transpose and set a floating-point matrix.
@@ -133,7 +133,7 @@ Transpose and set a floating-point matrix.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173655(v=VS.85).aspx">SetMatrixTransposeArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectmatrixvariable-setmatrixtransposearray">SetMatrixTransposeArray</a>
 </td>
 <td align="left" width="63%">
 Transpose and set an array of floating-point matrices.
@@ -148,11 +148,11 @@ Transpose and set an array of floating-point matrices.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205178(v=VS.85).aspx">Effect Interfaces (Direct3D 10)</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-effect-interfaces">Effect Interfaces (Direct3D 10)</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectvariable">ID3D10EffectVariable</a>
  
 
  

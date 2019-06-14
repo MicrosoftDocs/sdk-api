@@ -73,7 +73,7 @@ The size in bytes of the constant buffer.
 
 
 
-This structure is used by <a href="https://msdn.microsoft.com/13251F82-4AE9-4234-A0C8-0E666F8A1856">CreateConstantBufferView</a>.
+This structure is used by <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createconstantbufferview">CreateConstantBufferView</a>.
 
 
 
@@ -83,7 +83,7 @@ This structure is used by <a href="https://msdn.microsoft.com/13251F82-4AE9-4234
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
  
 
  

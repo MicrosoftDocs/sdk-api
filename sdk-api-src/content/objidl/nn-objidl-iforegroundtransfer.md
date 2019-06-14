@@ -56,7 +56,7 @@ Transfers the foreground window to the process hosting the COM server.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IForegroundTransfer</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IForegroundTransfer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IForegroundTransfer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IForegroundTransfer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IForegroundTransfer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/54d138f5-5f16-4eb8-bbac-2d057b7dab2f">AllowForegroundTransfer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iforegroundtransfer-allowforegroundtransfer">AllowForegroundTransfer</a>
 </td>
 <td align="left" width="63%">
 Yields the foreground window to the COM server process.

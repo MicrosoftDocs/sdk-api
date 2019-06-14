@@ -68,7 +68,7 @@ Retrieves the Remote Desktop Services session
 ### -param dwProcessId [in]
 
 Specifies a process identifier. Use the 
-      <a href="https://msdn.microsoft.com/a442e147-0db0-4911-94de-91728a4b277a">GetCurrentProcessId</a> function to retrieve the 
+      <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocessid">GetCurrentProcessId</a> function to retrieve the 
       process identifier for the current process.
 
 
@@ -76,7 +76,7 @@ Specifies a process identifier. Use the
 
 Pointer to a variable that receives the identifier of the Remote Desktop Services session under which the 
       specified process is running. To retrieve the identifier of the session currently attached to the console, use 
-  the <a href="https://msdn.microsoft.com/9aa43cfa-9518-428b-95a1-004fa23df90b">WTSGetActiveConsoleSessionId</a> 
+  the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-wtsgetactiveconsolesessionid">WTSGetActiveConsoleSessionId</a> 
   function.
 
 
@@ -87,7 +87,7 @@ Pointer to a variable that receives the identifier of the Remote Desktop Service
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -98,7 +98,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 Callers must hold the <b>PROCESS_QUERY_INFORMATION</b> access right for the specified 
     process. For more information, see 
-  <a href="https://msdn.microsoft.com/508a17c4-88cd-431a-a102-00180a7f7ab5">Process Security and Access Rights</a>.
+  <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
 
 
@@ -108,11 +108,11 @@ Callers must hold the <b>PROCESS_QUERY_INFORMATION</b> access right for the spec
 
 
 
-<a href="https://msdn.microsoft.com/4ab07a72-404d-459b-b061-b3b06b5db37e">OSVERSIONINFOEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_osversioninfoexa">OSVERSIONINFOEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/d52345a4-0408-4ea9-ba71-349910143752">WTSQuerySessionInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsquerysessioninformationa">WTSQuerySessionInformation</a>
  
 
  

@@ -78,15 +78,15 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://msdn.microsoft.com/59bc8df1-3999-4acb-b556-e765a9faef79">MIB_IPMCAST_IF_ENTRY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_if_entry">MIB_IPMCAST_IF_ENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/731e2c88-5c4f-4165-a9f2-287b4c10c76b">MIB_IPMCAST_MFE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_mfe">MIB_IPMCAST_MFE</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ad35cc0-50e2-47b9-8ce3-9bf8e7032c40">MIB_IPMCAST_OIF</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_oif_w2k">MIB_IPMCAST_OIF</a>
  
 
  

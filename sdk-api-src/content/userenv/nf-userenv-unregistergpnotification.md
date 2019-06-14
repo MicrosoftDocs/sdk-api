@@ -61,7 +61,7 @@ The
 ### -param hEvent [in]
 
 Policy-notification handle passed to the 
-<a href="https://msdn.microsoft.com/0a758da3-73a8-4d9b-8663-e6cab1a1bd3f">RegisterGPNotification</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-registergpnotification">RegisterGPNotification</a> function.
 
 
 ## -returns
@@ -71,7 +71,7 @@ Policy-notification handle passed to the
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -81,7 +81,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 The caller must call the 
-<a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function to close the handle when it is no longer needed.
+<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close the handle when it is no longer needed.
 
 
 
@@ -91,17 +91,17 @@ The caller must call the
 
 
 
-<a href="https://msdn.microsoft.com/7c45666e-d7c7-4989-ad19-b1b230757a88">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
     Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/1285ab5a-ea68-4c16-bc34-8ab2f3cfad35">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/0a758da3-73a8-4d9b-8663-e6cab1a1bd3f">RegisterGPNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-registergpnotification">RegisterGPNotification</a>
  
 
  

@@ -49,16 +49,16 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/6429e748-e0bf-431a-8989-db5b211665d5">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The
 				<b>SnmpCreateSession</b> function requests the Microsoft WinSNMP implementation to open a session for the WinSNMP application. The application can specify how the implementation should inform the WinSNMP session of available SNMP messages and asynchronous events. The application can specify a window notification message or an 
-<a href="https://msdn.microsoft.com/9871b4a8-c96c-48a7-9e7e-7fe1c259545e">SNMPAPI_CALLBACK</a> function to notify the session.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nc-winsnmp-snmpapi_callback">SNMPAPI_CALLBACK</a> function to notify the session.
 
 The 
 <b>SnmpCreateSession</b> function is an element of the WinSNMP API, version 2.0. When developing new WinSNMP applications, it is recommended that you call 
 <b>SnmpCreateSession</b> to open a WinSNMP session instead of calling the 
-<a href="https://msdn.microsoft.com/45085cad-2bfb-4f6c-9e42-6041fed681b8">SnmpOpen</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpopen">SnmpOpen</a> function.
 
 
 ## -parameters
@@ -79,7 +79,7 @@ Specifies an unsigned integer that identifies the notification message to send t
 ### -param fCallBack [in]
 
 Specifies the address of an application-defined, session-specific 
-<a href="https://msdn.microsoft.com/9871b4a8-c96c-48a7-9e7e-7fe1c259545e">SNMPAPI_CALLBACK</a> function. The implementation will call this function to inform the WinSNMP session when notifications are available. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nc-winsnmp-snmpapi_callback">SNMPAPI_CALLBACK</a> function. The implementation will call this function to inform the WinSNMP session when notifications are available. 
 
 
 
@@ -99,7 +99,7 @@ Pointer to application-defined data to pass to the callback function specified b
 If the function succeeds, the return value is a handle that identifies the WinSNMP session that the implementation opens for the calling application.
 
 If the function fails, the return value is SNMPAPI_FAILURE. To get extended error information, call 
-<a href="https://msdn.microsoft.com/0cfb2bc3-cfa5-4806-9dcf-119541463e7b">SnmpGetLastError</a>. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpgetlasterror">SnmpGetLastError</a>. The 
 <b>SnmpGetLastError</b> function can return one of the following errors.
 
 <table>
@@ -115,7 +115,7 @@ If the function fails, the return value is SNMPAPI_FAILURE. To get extended erro
 </td>
 <td width="60%">
 The 
-<a href="https://msdn.microsoft.com/7b8a4a1e-871f-424b-8bcb-c0b3bfaae9ce">SnmpStartup</a> function did not complete successfully.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstartup">SnmpStartup</a> function did not complete successfully.
 
 </td>
 </tr>
@@ -200,9 +200,9 @@ The
 <b>SnmpCreateSession</b> returns in other WinSNMP function calls to facilitate allocation and deallocation of resources by the implementation.
 
 It is recommended that a WinSNMP application call the 
-<a href="https://msdn.microsoft.com/eac678f4-c77c-46b5-9c45-62b5822079da">SnmpClose</a> function once for each session that the implementation opens as a result of a call to the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpclose">SnmpClose</a> function once for each session that the implementation opens as a result of a call to the 
 <b>SnmpCreateSession</b> function. If a WinSNMP application terminates unexpectedly, it must call 
-<a href="https://msdn.microsoft.com/348f06e6-b408-4962-a0bc-8ff3e2ee21fa">SnmpCleanup</a> before it terminates to enable the implementation to deallocate all resources.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcleanup">SnmpCleanup</a> before it terminates to enable the implementation to deallocate all resources.
 
 <h3><a id="Callback_Notifications"></a><a id="callback_notifications"></a><a id="CALLBACK_NOTIFICATIONS"></a>Callback Notifications</h3>
 If the <i>fCallback</i> parameter is not <b>NULL</b> on a successful call to the 
@@ -216,7 +216,7 @@ Following is an example of a call to the
 <h3><a id="Window_Notification_Messages"></a><a id="window_notification_messages"></a><a id="WINDOW_NOTIFICATION_MESSAGES"></a>Window Notification Messages</h3>
 The 
 <b>SnmpCreateSession</b> function passes to the implementation the handle to an application window and a notification message identifier. When the application window receives the notification message specified by the <i>wMsg</i> parameter, the WinSNMP application must retrieve the incoming protocol data unit (PDU). The application does this by calling the 
-<a href="https://msdn.microsoft.com/0e306e40-cccc-4083-b3ba-97b8ece0ae35">SnmpRecvMsg</a> function with the session handle returned by 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmprecvmsg">SnmpRecvMsg</a> function with the session handle returned by 
 <b>SnmpCreateSession</b>.
 
 One WinSNMP application can open multiple WinSNMP sessions. If an application opens multiple sessions using the same window handle, it is recommended that the WinSNMP application specify a unique <i>wMsg</i> parameter for each session.
@@ -234,28 +234,28 @@ Following is an example of a call to the
 
 
 
-<a href="https://msdn.microsoft.com/9871b4a8-c96c-48a7-9e7e-7fe1c259545e">SNMPAPI_CALLBACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nc-winsnmp-snmpapi_callback">SNMPAPI_CALLBACK</a>
 
 
 
-<a href="https://msdn.microsoft.com/348f06e6-b408-4962-a0bc-8ff3e2ee21fa">SnmpCleanup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcleanup">SnmpCleanup</a>
 
 
 
-<a href="https://msdn.microsoft.com/eac678f4-c77c-46b5-9c45-62b5822079da">SnmpClose</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpclose">SnmpClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/0e306e40-cccc-4083-b3ba-97b8ece0ae35">SnmpRecvMsg</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmprecvmsg">SnmpRecvMsg</a>
 
 
 
-<a href="https://msdn.microsoft.com/ae95ac47-81ff-4715-b3e9-e19c07223712">WinSNMP
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-functions">WinSNMP
 		  Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/54d9b61a-815a-41c3-9365-ec4478acc3f2">WinSNMP API Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>
  
 
  

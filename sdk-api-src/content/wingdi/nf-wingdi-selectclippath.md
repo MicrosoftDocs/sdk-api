@@ -148,7 +148,7 @@ The device context identified by the <i>hdc</i> parameter must contain a closed 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/c71727aa-f4a3-409e-b50f-709eb4dbdaab">Using Clipping</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/using-clipping">Using Clipping</a>.
 
 <div class="code"></div>
 
@@ -159,19 +159,19 @@ For an example, see <a href="https://msdn.microsoft.com/c71727aa-f4a3-409e-b50f-
 
 
 
-<a href="https://msdn.microsoft.com/88be3405-a420-4eb1-935b-099dc3067530">BeginPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-beginpath">BeginPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/de9e5786-63d8-47be-8522-e96d7c0f8634">Clipping Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/clipping-functions">Clipping Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e966369-9988-4bfa-af37-b1bbb3488880">Clipping Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/clipping">Clipping Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/0b4daf81-d1d6-45c1-b081-855b7cd8527a">EndPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-endpath">EndPath</a>
  
 
  

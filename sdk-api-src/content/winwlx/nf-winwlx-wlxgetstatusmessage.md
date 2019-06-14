@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The WlxGetStatusMessage function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>WlxGetStatusMessage</b> function must be implemented by a replacement <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> DLL. <a href="https://msdn.microsoft.com/031c898b-3b4d-4b29-811a-112da37b5e3d">Winlogon</a> calls this function to get the status message being displayed by the GINA DLL.
+The <b>WlxGetStatusMessage</b> function must be implemented by a replacement <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> DLL. <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> calls this function to get the status message being displayed by the GINA DLL.
 <div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>
 
 ## -parameters
@@ -62,7 +62,7 @@ The <b>WlxGetStatusMessage</b> function must be implemented by a replacement <a 
 ### -param pWlxContext [in]
 
 Pointer to the GINA context associated with this window station. The GINA returns this context value when Winlogon calls 
-<a href="https://msdn.microsoft.com/db03f2b3-0719-40be-8a42-04ab7110f711">WlxInitialize</a> for this station.
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> for this station.
 
 
 ### -param pdwOptions [out]
@@ -122,15 +122,15 @@ Returns <b>FALSE</b> if the message was not retrieved.
 
 
 
-<a href="https://msdn.microsoft.com/07df61ff-f5fa-44ab-b3ca-ed7f4338e471">WlxDisplayStatusMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxdisplaystatusmessage">WlxDisplayStatusMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/db03f2b3-0719-40be-8a42-04ab7110f711">WlxInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/b8e64f7b-04fc-4dbe-8670-314ff8838ba4">WlxRemoveStatusMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxremovestatusmessage">WlxRemoveStatusMessage</a>
  
 
  

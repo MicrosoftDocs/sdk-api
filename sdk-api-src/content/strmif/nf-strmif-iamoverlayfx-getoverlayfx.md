@@ -63,7 +63,7 @@ The <code>GetOverlayFX</code> method retrieves the effects currently applied to 
 
 ### -param lpdwOverlayFX [out]
 
-Pointer a variable that receives a value indicating which effects, if any, are currently applied to the overlay surface. The value is a logical combination of flags from the <a href="https://msdn.microsoft.com/fa984504-5175-4b94-8a75-d294cd9546a4">AMOVERLAYFX</a> enumeration.
+Pointer a variable that receives a value indicating which effects, if any, are currently applied to the overlay surface. The value is a logical combination of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-amoverlayfx">AMOVERLAYFX</a> enumeration.
 
 
 ## -returns
@@ -80,11 +80,11 @@ Returns an <b>HRESULT</b> value that depends on the implementation of the interf
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/6bc78464-8c9e-4016-b9aa-6589d53d45bf">IAMOverlayFX Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamoverlayfx">IAMOverlayFX Interface</a>
  
 
  

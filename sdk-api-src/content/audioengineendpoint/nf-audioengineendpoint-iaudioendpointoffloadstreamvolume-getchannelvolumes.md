@@ -81,7 +81,7 @@ The <b>GetChannelVolumes</b> method returns <b>S_OK</b> to indicate that it has 
 
 
 
-<a href="https://msdn.microsoft.com/73FD2289-8414-4A63-A518-634D6F2DF48D">IAudioEndpointOffloadStreamVolume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioendpointoffloadstreamvolume">IAudioEndpointOffloadStreamVolume</a>
  
 
  

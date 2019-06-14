@@ -66,7 +66,7 @@ A handle to the device context.
 
 ### -param lpca [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/9a080f60-0bce-46b6-b8a8-f534ff83a0a8">COLORADJUSTMENT</a> structure containing the color adjustment values.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagcoloradjustment">COLORADJUSTMENT</a> structure containing the color adjustment values.
 
 
 ## -returns
@@ -84,7 +84,7 @@ If the function fails, the return value is zero.
 
 
 
-The color adjustment values are used to adjust the input color of the source bitmap for calls to the <a href="https://msdn.microsoft.com/5130c88e-08e8-4faa-a1cb-a8106c86cea0">StretchBlt</a> and <a href="https://msdn.microsoft.com/3d57a79a-338d-48ab-8161-3ce17739bf20">StretchDIBits</a> functions when HALFTONE mode is set.
+The color adjustment values are used to adjust the input color of the source bitmap for calls to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchblt">StretchBlt</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a> functions when HALFTONE mode is set.
 
 
 
@@ -94,31 +94,31 @@ The color adjustment values are used to adjust the input color of the source bit
 
 
 
-<a href="https://msdn.microsoft.com/9a080f60-0bce-46b6-b8a8-f534ff83a0a8">COLORADJUSTMENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagcoloradjustment">COLORADJUSTMENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/9dd32d4a-30bd-406f-a934-bb71ad4ca2cb">Color Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/color-functions">Color Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d1a25f13-6b47-4be7-927b-814dd6ae81f8">Colors Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/colors">Colors Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/405c0d0d-9433-4f4a-9957-5c42a0fb3a07">GetColorAdjustment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcoloradjustment">GetColorAdjustment</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e5a48dc-ccd5-41ea-a24b-5c40213abf38">SetStretchBltMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setstretchbltmode">SetStretchBltMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/5130c88e-08e8-4faa-a1cb-a8106c86cea0">StretchBlt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchblt">StretchBlt</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d57a79a-338d-48ab-8161-3ce17739bf20">StretchDIBits</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>
  
 
  

@@ -67,16 +67,16 @@ Specifies the device context that the function examines to determine the best ma
 
 ### -param ppfd
 
-Pointer to a <a href="https://msdn.microsoft.com/1480dea3-ae74-4e8b-b4de-fca8de5d8395">PIXELFORMATDESCRIPTOR</a> structure that specifies the requested pixel format. In this context, the members of the <b>PIXELFORMATDESCRIPTOR</b> structure that <i>ppfd</i> points to are used as follows:
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagpixelformatdescriptor">PIXELFORMATDESCRIPTOR</a> structure that specifies the requested pixel format. In this context, the members of the <b>PIXELFORMATDESCRIPTOR</b> structure that <i>ppfd</i> points to are used as follows:
 
 <table>
 <tr>
 <td><i>nSize</i></td>
-<td>Specifies the size of the <a href="https://msdn.microsoft.com/1480dea3-ae74-4e8b-b4de-fca8de5d8395">PIXELFORMATDESCRIPTOR</a> data structure. Set this member to <code>sizeof(PIXELFORMATDESCRIPTOR)</code>.</td>
+<td>Specifies the size of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagpixelformatdescriptor">PIXELFORMATDESCRIPTOR</a> data structure. Set this member to <code>sizeof(PIXELFORMATDESCRIPTOR)</code>.</td>
 </tr>
 <tr>
 <td><i>nVersion</i></td>
-<td>Specifies the version number of the <a href="https://msdn.microsoft.com/1480dea3-ae74-4e8b-b4de-fca8de5d8395">PIXELFORMATDESCRIPTOR</a> data structure. Set this member to 1.</td>
+<td>Specifies the version number of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagpixelformatdescriptor">PIXELFORMATDESCRIPTOR</a> data structure. Set this member to 1.</td>
 </tr>
 <tr>
 <td><i>dwFlags</i></td>
@@ -186,7 +186,7 @@ Pointer to a <a href="https://msdn.microsoft.com/1480dea3-ae74-4e8b-b4de-fca8de5
 
 If the function succeeds, the return value is a pixel format index (one-based) that is the closest match to the given pixel format descriptor.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -239,23 +239,23 @@ iPixelFormat = ChoosePixelFormat(hdc, &pfd);
 
 
 
-<a href="https://msdn.microsoft.com/9692a30d-c7d4-40c7-a265-72c4ebabd5f2">DescribePixelFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-describepixelformat">DescribePixelFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9a65f3a-6932-462f-b342-a993d222fae8">GetPixelFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getpixelformat">GetPixelFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/589a86f1-598d-4175-97fc-27ca0b254935">OpenGL on Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows</a>
 
 
 
-<a href="https://msdn.microsoft.com/f8d74078-a7e7-4d95-857a-f51d5d70598e">SetPixelFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setpixelformat">SetPixelFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/866841db-b137-4f65-856d-b9df5bde12fb">Windows Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/OpenGL/win32-functions">Windows Functions</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Opens an 
-    enumerator for iterating through the installed <a href="https://msdn.microsoft.com/cc0cbbc3-e342-483e-9c94-4ee43f4d588d">network interfaces</a>.
+    enumerator for iterating through the installed <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-interfaces">network interfaces</a>.
 
 
 ## -parameters
@@ -81,7 +81,7 @@ If the operation succeeds, returns a handle to an
        enumerator.
 
 If the operation fails, the function returns <b>NULL</b>. For more information about the 
-       error, call the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+       error, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 
 

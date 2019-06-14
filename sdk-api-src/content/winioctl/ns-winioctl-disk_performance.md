@@ -49,7 +49,7 @@ req.redist:
 
 
 Provides disk performance information. It is used by the 
-<a href="https://msdn.microsoft.com/e182282c-17e9-442a-8742-437052cfed03">IOCTL_DISK_PERFORMANCE</a> control code.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_performance">IOCTL_DISK_PERFORMANCE</a> control code.
 
 
 ## -struct-fields
@@ -128,7 +128,7 @@ Examples of storage managers are "PhysDisk," "FTDISK," and "DMIO".
 
 
 
-<a href="https://msdn.microsoft.com/e182282c-17e9-442a-8742-437052cfed03">IOCTL_DISK_PERFORMANCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_performance">IOCTL_DISK_PERFORMANCE</a>
  
 
  

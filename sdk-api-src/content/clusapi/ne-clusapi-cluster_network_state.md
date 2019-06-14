@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 Enumerates the possible values of the state of a 
-    <a href="https://msdn.microsoft.com/57d16e1f-e774-4ffb-b26b-7e72d6d589aa">network</a>.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/networks">network</a>.
 
 
 ## -enum-fields
@@ -62,7 +62,7 @@ Enumerates the possible values of the state of a
 ### -field ClusterNetworkStateUnknown
 
 The operation was not successful. For more information about the error, call the function 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 ### -field ClusterNetworkUnavailable
@@ -73,7 +73,7 @@ All of the network interfaces on the network are unavailable, which means that t
 
 ### -field ClusterNetworkDown
 
-The network is not operational; none of the <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a> on the network 
+The network is not operational; none of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">nodes</a> on the network 
        can communicate.
 
 
@@ -93,15 +93,15 @@ The network is operational; all of the nodes in the cluster can communicate.
 
 
 
-<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/7fdbc0cf-fa7b-4b48-bd3c-46f174fc514a">GetClusterNetworkState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusternetworkstate">GetClusterNetworkState</a>
 
 
 
-<a href="https://msdn.microsoft.com/abf1f90f-8044-40cf-b360-f80accb9cc58">State Property of the ClusNetwork Object</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusnetwork-state">State Property of the ClusNetwork Object</a>
  
 
  

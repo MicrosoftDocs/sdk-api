@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The  <b>CRYPT_PROVIDER_PRIVDATA</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CRYPT_PROVIDER_PRIVDATA</b> structure contains private data to be used by a provider. The structure is used by the <a href="https://msdn.microsoft.com/93ea2ad5-65da-4daa-bfd4-e3d1307829b2">CRYPT_PROVIDER_DATA</a> structure.
+The <b>CRYPT_PROVIDER_PRIVDATA</b> structure contains private data to be used by a provider. The structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_provider_data">CRYPT_PROVIDER_DATA</a> structure.
 
 
 ## -struct-fields
@@ -84,7 +84,7 @@ A pointer to a <b>void</b> that contains the private data.
 
 
 
-<a href="https://msdn.microsoft.com/93ea2ad5-65da-4daa-bfd4-e3d1307829b2">CRYPT_PROVIDER_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_provider_data">CRYPT_PROVIDER_DATA</a>
  
 
  

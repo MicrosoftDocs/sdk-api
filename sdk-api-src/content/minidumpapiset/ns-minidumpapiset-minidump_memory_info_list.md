@@ -69,7 +69,7 @@ The size of each entry following the header, in bytes. This is generally <code>s
 
 ### -field NumberOfEntries
 
-The number of entries in the stream. These are generally  <a href="https://msdn.microsoft.com/e9a797b9-5cad-48c0-bb33-ca9c13de8239">MINIDUMP_MEMORY_INFO</a> structures. The entries follow the header.
+The number of entries in the stream. These are generally  <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_memory_info">MINIDUMP_MEMORY_INFO</a> structures. The entries follow the header.
 
 
 ## -see-also
@@ -77,11 +77,11 @@ The number of entries in the stream. These are generally  <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/e9a797b9-5cad-48c0-bb33-ca9c13de8239">MINIDUMP_MEMORY_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_memory_info">MINIDUMP_MEMORY_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/495136a0-2fed-47ca-8233-7e813b43b82f">MINIDUMP_STREAM_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
  
 
  

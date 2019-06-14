@@ -61,7 +61,7 @@ Sets the docking position of this element.
 
 #### - dockPosition [in]
 
-Type: <b><a href="https://msdn.microsoft.com/36ed98c2-f111-4192-8ce2-b8dd7da47de5">DockPosition</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-dockposition">DockPosition</a></b>
 
 The new docking position. 
 
@@ -71,7 +71,7 @@ The new docking position.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -92,11 +92,11 @@ A docking container is a control that allows the arrangement of child elements, 
 
 
 
-<a href="https://msdn.microsoft.com/106ca4b4-1304-4942-88a4-79a3895b552f">IDockProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-idockprovider">IDockProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/8928c889-0e0a-439f-87e8-a9d121fcf73f">UI Automation Providers Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
  
 
  

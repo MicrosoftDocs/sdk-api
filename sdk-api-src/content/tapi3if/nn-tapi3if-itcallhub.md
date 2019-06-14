@@ -51,14 +51,14 @@ ms.custom: 19H1
 
 The 
 <b>ITCallHub</b> interface provides methods to retrieve information concerning a CallHub object. The 
-<a href="https://msdn.microsoft.com/16469c1c-f12f-4941-9fd4-1413620c89bd">IEnumCallHub::Next</a> and 
-<a href="https://msdn.microsoft.com/57177526-1351-4f59-8f24-74d8b87d27c0">ITTapi::get_CallHubs</a> methods create the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ienumcallhub-next">IEnumCallHub::Next</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-get_callhubs">ITTapi::get_CallHubs</a> methods create the 
 <b>ITCallHub</b> interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITCallHub</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITCallHub</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITCallHub</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITCallHub</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>ITCallHub</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/87799da3-73c3-469a-badf-884dcfe774e0">Clear</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallhub-clear">Clear</a>
 </td>
 <td align="left" width="63%">
 Attempts to remove all calls and participants from Call Hub.
@@ -82,7 +82,7 @@ Attempts to remove all calls and participants from Call Hub.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/becacf70-0ae7-419c-a53f-c6172278d29f">EnumerateCalls</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallhub-enumeratecalls">EnumerateCalls</a>
 </td>
 <td align="left" width="63%">
 Enumerates calls currently associated with the call hub.
@@ -91,7 +91,7 @@ Enumerates calls currently associated with the call hub.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/56634ab6-b905-48bb-a4d1-7ca1f0c4c0cf">get_Calls</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallhub-get_calls">get_Calls</a>
 </td>
 <td align="left" width="63%">
 Creates a collection of calls associated with the current call hub. This method is provided for Automation client applications, such as those written in Microsoft Visual Basic.
@@ -100,7 +100,7 @@ Creates a collection of calls associated with the current call hub. This method 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/52313969-ce8e-43da-8844-b4d0834dd446">get_NumCalls</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallhub-get_numcalls">get_NumCalls</a>
 </td>
 <td align="left" width="63%">
 Gets the number of calls currently in the CallHub.
@@ -109,7 +109,7 @@ Gets the number of calls currently in the CallHub.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0ca4bbad-6822-4a8b-8df4-da6e630752f0">get_State</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallhub-get_state">get_State</a>
 </td>
 <td align="left" width="63%">
 Gets the current state of the CallHub.
@@ -124,11 +124,11 @@ Gets the current state of the CallHub.
 
 
 
-<a href="https://msdn.microsoft.com/ea23ae25-2fbb-4060-8273-cd7921d49e52">CallHub Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/callhub-object">CallHub Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

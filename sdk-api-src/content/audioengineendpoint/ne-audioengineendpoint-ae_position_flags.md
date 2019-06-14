@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines constants for the <a href="https://msdn.microsoft.com/2e239114-1af7-455a-a60f-2054b05e1414">AE_CURRENT_POSITION</a> structure. These constants describe the degree of validity of the current position.
+Defines constants for the <a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/ns-audioengineendpoint-ae_current_position">AE_CURRENT_POSITION</a> structure. These constants describe the degree of validity of the current position.
 
 
 ## -enum-fields

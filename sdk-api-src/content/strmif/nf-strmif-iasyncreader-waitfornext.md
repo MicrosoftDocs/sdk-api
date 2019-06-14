@@ -68,12 +68,12 @@ Specifies a time-out in milliseconds. Use the value INFINITE to wait indefinitel
 
 ### -param ppSample [out]
 
-Address of a variable that receives an <a href="https://msdn.microsoft.com/883e5e3b-db91-4806-96cc-c6f8cddfcca6">IMediaSample</a> interface pointer.
+Address of a variable that receives an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample</a> interface pointer.
 
 
 ### -param pdwUser [out]
 
-Pointer to a variable that receives the value of the <i>dwUser</i> parameter specified in the <a href="https://msdn.microsoft.com/d0eab370-bb17-48fa-9926-6a6eeaba5603">IAsyncReader::Request</a> method.
+Pointer to a variable that receives the value of the <i>dwUser</i> parameter specified in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iasyncreader-request">IAsyncReader::Request</a> method.
 
 
 ## -returns
@@ -152,9 +152,9 @@ Reached the end of the file; retrieved fewer bytes than requested.
 
 
 
-If the method succeeds, the <i>ppSample</i> parameter contains a pointer to a media sample, whose buffer holds the requested data. Call the <a href="https://msdn.microsoft.com/f5e95ef3-a101-41c4-8947-f099fcd2490e">IMediaSample::GetTime</a> method and divide the results by 10,000,000 to determine the start and stop bytes. Samples may be returned out of order. Release the sample when you are finished processing the data.
+If the method succeeds, the <i>ppSample</i> parameter contains a pointer to a media sample, whose buffer holds the requested data. Call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediasample-gettime">IMediaSample::GetTime</a> method and divide the results by 10,000,000 to determine the start and stop bytes. Samples may be returned out of order. Release the sample when you are finished processing the data.
 
-The method fails if the pin is flushing. However, it may return an empty sample in <i>ppSample</i>. If <i>*ppSample</i> is non-<b>NULL</b>, release the sample and discard it. For more information, see <a href="https://msdn.microsoft.com/29153592-dbc1-42b4-bd4e-2f1aef8d4c19">IAsyncReader::BeginFlush</a>.
+The method fails if the pin is flushing. However, it may return an empty sample in <i>ppSample</i>. If <i>*ppSample</i> is non-<b>NULL</b>, release the sample and discard it. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iasyncreader-beginflush">IAsyncReader::BeginFlush</a>.
 
 If a read error occurs, the source filter sends an error event to the Filter Graph Manager; the caller does not have to signal an error.
 
@@ -166,11 +166,11 @@ If a read error occurs, the source filter sends an error event to the Filter Gra
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/54a18567-e9d4-4b12-b486-cdd70d719184">IAsyncReader Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iasyncreader">IAsyncReader Interface</a>
  
 
  

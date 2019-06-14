@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndOpen</b> macro opens an MCI device and associates it with an MCIWnd window. For MCI devices that use data files, this macro can also open a specified data file, name a new file to be created, or display a dialog box to let the user select a file to open. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/ad1dfe0f-015b-45a9-ab88-cc0bdf0aa057">MCIWNDM_OPEN</a> message.
+The <b>MCIWndOpen</b> macro opens an MCI device and associates it with an MCIWnd window. For MCI devices that use data files, this macro can also open a specified data file, name a new file to be created, or display a dialog box to let the user select a file to open. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-open">MCIWNDM_OPEN</a> message.
 
 
 

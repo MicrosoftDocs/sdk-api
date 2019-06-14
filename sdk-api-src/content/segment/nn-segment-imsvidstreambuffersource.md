@@ -57,7 +57,7 @@ The <b>IMSVidStreamBufferSource</b> interface represents the Stream Buffer Sourc
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSource</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd694551(v=VS.85).aspx">IMSVidFilePlayback</a>. <b>IMSVidStreamBufferSource</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSource</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidfileplayback">IMSVidFilePlayback</a>. <b>IMSVidStreamBufferSource</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMSVidStreamBufferSource</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694687(v=VS.85).aspx">CurrentRatings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-currentratings">CurrentRatings</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current ratings information from the data source.
@@ -81,7 +81,7 @@ Retrieves the current ratings information from the data source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694688(v=VS.85).aspx">get_RecordingAttribute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-get_recordingattribute">get_RecordingAttribute</a>
 </td>
 <td align="left" width="63%">
 Retrieves the Stream Buffer Source filter that this object manages.
@@ -90,7 +90,7 @@ Retrieves the Stream Buffer Source filter that this object manages.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694689(v=VS.85).aspx">get_SBESource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-get_sbesource">get_SBESource</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the Stream Buffer Source filter.
@@ -99,7 +99,7 @@ Retrieves a pointer to the Stream Buffer Source filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694690(v=VS.85).aspx">get_Start</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-get_start">get_Start</a>
 </td>
 <td align="left" width="63%">
 Retrieves the start time.
@@ -108,7 +108,7 @@ Retrieves the start time.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694691(v=VS.85).aspx">MaxRatingsLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-maxratingslevel">MaxRatingsLevel</a>
 </td>
 <td align="left" width="63%">
 Specifies the maximum ratings level the object is permitted to play.
@@ -117,7 +117,7 @@ Specifies the maximum ratings level the object is permitted to play.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694692(v=VS.85).aspx">put_BlockUnrated</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-put_blockunrated">put_BlockUnrated</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to block unrated content.
@@ -126,7 +126,7 @@ Specifies whether to block unrated content.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694693(v=VS.85).aspx">put_UnratedDelay</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-put_unrateddelay">put_UnratedDelay</a>
 </td>
 <td align="left" width="63%">
 Specifies the amount of time to play unrated content before blocking it.
@@ -150,11 +150,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694551(v=VS.85).aspx">IMSVidFilePlayback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidfileplayback">IMSVidFilePlayback</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf6c3ce9-1e56-4109-93f1-5b313e6ca19b">Video Control Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
  
 
  

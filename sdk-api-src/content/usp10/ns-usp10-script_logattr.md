@@ -194,7 +194,7 @@ The character is not a valid position for showing the caret upon a word movement
 
 ### -field fInvalid
 
-Value used to mark characters that form an invalid or undisplayable combination. Possible values are defined in the following table. A script that can set this member has the <b>fInvalidLogAttr</b> member set in its <a href="https://msdn.microsoft.com/473c1265-1c2c-48f3-a852-c701bebcf9eb">SCRIPT_PROPERTIES</a> structure.
+Value used to mark characters that form an invalid or undisplayable combination. Possible values are defined in the following table. A script that can set this member has the <b>fInvalidLogAttr</b> member set in its <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-script_properties">SCRIPT_PROPERTIES</a> structure.
 
 <table>
 <tr>
@@ -235,19 +235,19 @@ Reserved.
 
 
 
-<a href="https://msdn.microsoft.com/473c1265-1c2c-48f3-a852-c701bebcf9eb">SCRIPT_PROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-script_properties">SCRIPT_PROPERTIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/1613819f-9473-4d9f-8a65-a109c9ef3f43">ScriptBreak</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptbreak">ScriptBreak</a>
 
 
 
-<a href="https://msdn.microsoft.com/de7a882f-ed74-4be2-b66d-59c2e50dc07a">Uniscribe</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://msdn.microsoft.com/243438fd-5bb2-4b2a-8b33-803029085adb">Uniscribe Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>
  
 
  

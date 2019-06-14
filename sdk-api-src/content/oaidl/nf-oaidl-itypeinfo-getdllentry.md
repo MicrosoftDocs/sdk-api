@@ -150,7 +150,7 @@ If the type description inherits from another type description, this function is
 
 
 
-The caller should use <a href="https://msdn.microsoft.com/8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the BSTRs referenced by <i>pBstrName</i> and <i>pBstrDllName</i>.
+The caller should use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the BSTRs referenced by <i>pBstrName</i> and <i>pBstrDllName</i>.
 
 
 
@@ -161,7 +161,7 @@ The caller should use <a href="https://msdn.microsoft.com/8f230ee3-5f6e-4cb9-a91
 
 
 
-<a href="https://msdn.microsoft.com/f3356463-3373-4279-bae1-953378aa2680">ITypeInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
  
 
  

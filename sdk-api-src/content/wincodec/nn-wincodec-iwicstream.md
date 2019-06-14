@@ -54,7 +54,7 @@ Represents a Windows Imaging Component (WIC) stream for referencing imaging and 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICStream</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream</a>. <b>IWICStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICStream</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>. <b>IWICStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWICStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b0942d23-9c49-4726-9d84-bf0d448124b3">InitializeFromFilename</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicstream-initializefromfilename">InitializeFromFilename</a>
 </td>
 <td align="left" width="63%">
 Initializes a stream from a particular file.
@@ -78,7 +78,7 @@ Initializes a stream from a particular file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bfe413e1-f579-4c9c-9e88-3b369235c529">InitializeFromIStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicstream-initializefromistream">InitializeFromIStream</a>
 </td>
 <td align="left" width="63%">
 Initializes a stream from another stream. Access rights are inherited from the underlying stream.
@@ -87,7 +87,7 @@ Initializes a stream from another stream. Access rights are inherited from the u
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/508e1972-22ef-4211-adcf-03f8138624c9">InitializeFromIStreamRegion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicstream-initializefromistreamregion">InitializeFromIStreamRegion</a>
 </td>
 <td align="left" width="63%">
 Initializes the stream as a substream of another stream.
@@ -96,7 +96,7 @@ Initializes the stream as a substream of another stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7e226759-61aa-4f06-b20f-d5853faf4e4b">InitializeFromMemory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicstream-initializefrommemory">InitializeFromMemory</a>
 </td>
 <td align="left" width="63%">
 Initializes a stream to treat a block of memory as a stream. The stream cannot grow beyond the buffer size.
@@ -113,8 +113,8 @@ Initializes a stream to treat a block of memory as a stream. The stream cannot g
 Decoders and metadata handlers are expected to create sub streams of whatever stream they hold when handing off control for embedded metadata to another metadata handler.  If the stream is not restricted then use MAXLONGLONG as the max size and offset 0.
 
 The <b>IWICStream</b> interface methods do not enable you to provide a file sharing option.
-            To create a file stream for an image, use the <a href="https://msdn.microsoft.com/en-us/library/Bb759866(v=VS.85).aspx">SHCreateStreamOnFileEx</a> function.
-            This stream can then be used to create an <a href="https://msdn.microsoft.com/91dafd5e-e4fb-4691-a3d0-ca8b6ff0aaf7">IWICBitmapDecoder</a> using the <a href="https://msdn.microsoft.com/b9328715-54a0-4c9a-9977-3252068b7e4b">CreateDecoderFromStream</a> method.
+            To create a file stream for an image, use the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shcreatestreamonfileex">SHCreateStreamOnFileEx</a> function.
+            This stream can then be used to create an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapdecoder">IWICBitmapDecoder</a> using the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicimagingfactory-createdecoderfromstream">CreateDecoderFromStream</a> method.
          
 
 

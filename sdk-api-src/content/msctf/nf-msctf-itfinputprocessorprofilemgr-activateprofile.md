@@ -236,11 +236,11 @@ One or more parameters are invalid.
 
 
 
-<a href="https://msdn.microsoft.com/d60bb748-3c61-466d-9c17-df7bc4904994">ITfInputProcessorProfileMgr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofilemgr">ITfInputProcessorProfileMgr</a>
 
 
 
-<a href="https://msdn.microsoft.com/8d2bd329-1b17-4b03-8c75-74d99ccc0f08">ITfInputProcessorProfileMgr::DeactivateProfile
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofilemgr-deactivateprofile">ITfInputProcessorProfileMgr::DeactivateProfile
       </a>
  
 

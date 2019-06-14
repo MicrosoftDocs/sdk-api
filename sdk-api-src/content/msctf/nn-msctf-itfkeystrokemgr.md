@@ -54,7 +54,7 @@ The <b>ITfKeystrokeMgr</b> interface is implemented by the TSF manager and used 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfKeystrokeMgr</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfKeystrokeMgr</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfKeystrokeMgr</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfKeystrokeMgr</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfKeystrokeMgr</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dfda786a-09f5-412c-878d-0ba0cbbdafe0">AdviseKeyEventSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-advisekeyeventsink">AdviseKeyEventSink</a>
 </td>
 <td align="left" width="63%">
 Installs a key event sink to receive keyboard events.
@@ -78,7 +78,7 @@ Installs a key event sink to receive keyboard events.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c447c4cb-47e3-4bc7-8eba-6e102762c69b">GetForeground</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-getforeground">GetForeground</a>
 </td>
 <td align="left" width="63%">
 Obtains the class identifier of the foreground TSF text service.
@@ -87,7 +87,7 @@ Obtains the class identifier of the foreground TSF text service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d87b3b1c-0e51-4e89-b837-79ed2fe78bbb">GetPreservedKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-getpreservedkey">GetPreservedKey</a>
 </td>
 <td align="left" width="63%">
 Obtains the command GUID for a preserved key.
@@ -96,7 +96,7 @@ Obtains the command GUID for a preserved key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5ae2b56f-0dd9-4f37-a677-20b53c7200c7">GetPreservedKeyDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-getpreservedkeydescription">GetPreservedKeyDescription</a>
 </td>
 <td align="left" width="63%">
 Obtains the description string of an existing preserved key.
@@ -105,7 +105,7 @@ Obtains the description string of an existing preserved key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/50deac9c-b659-494b-9cda-d6109fa39363">IsPreservedKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-ispreservedkey">IsPreservedKey</a>
 </td>
 <td align="left" width="63%">
 Determines if a command GUID and key combination is a preserved key.
@@ -114,7 +114,7 @@ Determines if a command GUID and key combination is a preserved key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6eb4ad91-9431-4dec-b6cb-e58707318095">KeyDown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-keydown">KeyDown</a>
 </td>
 <td align="left" width="63%">
 Passes a key down event to the keystroke manager.
@@ -123,7 +123,7 @@ Passes a key down event to the keystroke manager.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/14415de3-f397-4866-b7d1-167c0931a80c">KeyUp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-keyup">KeyUp</a>
 </td>
 <td align="left" width="63%">
 Passes a key up event to the keystroke manager.
@@ -132,7 +132,7 @@ Passes a key up event to the keystroke manager.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ad5cd485-9231-4c29-8977-754dbf25c979">PreserveKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-preservekey">PreserveKey</a>
 </td>
 <td align="left" width="63%">
 Registers a preserved key.
@@ -141,7 +141,7 @@ Registers a preserved key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/feb83f22-652c-4fec-b35d-a0cc41eab533">SetPreservedKeyDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-setpreservedkeydescription">SetPreservedKeyDescription</a>
 </td>
 <td align="left" width="63%">
 Modifies the description string of an existing preserved key.
@@ -150,7 +150,7 @@ Modifies the description string of an existing preserved key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/09ad2203-a254-4afd-bdee-b8c51daa6e95">SimulatePreservedKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-simulatepreservedkey">SimulatePreservedKey</a>
 </td>
 <td align="left" width="63%">
 Simulates the execution of a preserved key sequence.
@@ -159,7 +159,7 @@ Simulates the execution of a preserved key sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e1f03aff-ce6e-4bb6-ad08-666e04cf6c13">TestKeyDown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-testkeydown">TestKeyDown</a>
 </td>
 <td align="left" width="63%">
 Determines if the keystroke manager will handle a key down event.
@@ -168,7 +168,7 @@ Determines if the keystroke manager will handle a key down event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/34a2b34b-3c3d-4609-a9e1-9b01ab349ae7">TestKeyUp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-testkeyup">TestKeyUp</a>
 </td>
 <td align="left" width="63%">
 Determines if the keystroke manager will handle a key up event.
@@ -177,7 +177,7 @@ Determines if the keystroke manager will handle a key up event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/72250972-0a0b-4e83-8603-0fb5adc9a2c9">UnadviseKeyEventSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-unadvisekeyeventsink">UnadviseKeyEventSink</a>
 </td>
 <td align="left" width="63%">
 Removes a key event sink.
@@ -186,7 +186,7 @@ Removes a key event sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/05975fce-04c3-4316-a9b2-ed015e7aa8fe">UnpreserveKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-unpreservekey">UnpreserveKey</a>
 </td>
 <td align="left" width="63%">
 Unregisters a preserved key.

@@ -104,7 +104,7 @@ There is no active sink object.
 
 
 
-Every call to the <a href="https://msdn.microsoft.com/a2196d1c-b03e-44b4-b695-970feddb8ce5">ITextStoreAnchor::AdviseSink</a> method, which registers a new sink object, should be matched by a call to this method. If AdviseSink has only updated the <i>dwMask</i> parameter of a sink which was previously registered, a call to <b>UnadviseSink</b> is not required.
+Every call to the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-advisesink">ITextStoreAnchor::AdviseSink</a> method, which registers a new sink object, should be matched by a call to this method. If AdviseSink has only updated the <i>dwMask</i> parameter of a sink which was previously registered, a call to <b>UnadviseSink</b> is not required.
 
 For example, to register a sink object, an application calls the <b>AdviseSink</b> method the first time. The application can then call the <b>AdviseSink</b> method again with the same sink object to change the <i>dwMask</i> parameter. To unregister the sink object, an application calls the <b>UnadviseSink</b> method.
 
@@ -118,11 +118,11 @@ The <i>punk</i> parameter must have the same COM identity as the pointer origina
 
 
 
-<a href="https://msdn.microsoft.com/62730a6d-4dc8-4207-9818-ab95e6537854">ITextStoreAnchor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
 
 
 
-<a href="https://msdn.microsoft.com/a2196d1c-b03e-44b4-b695-970feddb8ce5">ITextStoreAnchor::AdviseSink
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-advisesink">ITextStoreAnchor::AdviseSink
       </a>
  
 

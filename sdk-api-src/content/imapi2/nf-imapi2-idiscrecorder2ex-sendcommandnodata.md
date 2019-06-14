@@ -487,15 +487,15 @@ Some very early devices used vendor-unique opcodes and therefore some opcodes ca
 
 
 
-<a href="https://msdn.microsoft.com/37e65b57-ec53-405c-a7bd-34c2df15d5d7">IDiscRecorder2Ex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/d3142b79-4e46-4cb8-ab4a-3bf5823cd26e">IDiscRecorder2Ex::SendCommandGetDataFromDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-sendcommandgetdatafromdevice">IDiscRecorder2Ex::SendCommandGetDataFromDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/e893c3d8-1bf8-461e-9792-3b7d6d3beebb">IDiscRecorder2Ex::SendCommandSendDataToDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-sendcommandsenddatatodevice">IDiscRecorder2Ex::SendCommandSendDataToDevice</a>
  
 
  

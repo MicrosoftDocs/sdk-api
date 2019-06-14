@@ -78,7 +78,7 @@ The method returns an <b>HRESULT</b>. You should return S_OK.
 
 
 
-To assign an implementation of the <b>IWMPlayerHook</b> interface to an output in the reader object, call <a href="https://msdn.microsoft.com/en-us/library/Dd757461(v=VS.85).aspx">IWMReaderAdvanced5::SetPlayerHook</a>.
+To assign an implementation of the <b>IWMPlayerHook</b> interface to an output in the reader object, call <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced5-setplayerhook">IWMReaderAdvanced5::SetPlayerHook</a>.
 
 
 
@@ -88,11 +88,11 @@ To assign an implementation of the <b>IWMPlayerHook</b> interface to an output i
 
 
 
-<a href="https://msdn.microsoft.com/5cb2f564-88e3-4b60-bde3-6ccf69c97c48">Enabling DirectX Video Acceleration</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/enabling-directx-video-acceleration">Enabling DirectX Video Acceleration</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757261(v=VS.85).aspx">IWMPlayerHook Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmplayerhook">IWMPlayerHook Interface</a>
  
 
  

@@ -59,7 +59,7 @@ ms.custom: 19H1
 
 Retrieves a handle to the current cursor.
 
-To get information on the global cursor, even if it is not owned by the current thread, use <a href="https://msdn.microsoft.com/en-us/library/ms648389(v=VS.85).aspx">GetCursorInfo</a>.
+To get information on the global cursor, even if it is not owned by the current thread, use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcursorinfo">GetCursorInfo</a>.
 
 
 ## -parameters
@@ -89,11 +89,11 @@ The return value is the handle to the current cursor. If there is no cursor, the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646970(v=VS.85).aspx">Cursors</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/cursors">Cursors</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648389(v=VS.85).aspx">GetCursorInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcursorinfo">GetCursorInfo</a>
 
 
 
@@ -101,7 +101,7 @@ The return value is the handle to the current cursor. If there is no cursor, the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648393(v=VS.85).aspx">SetCursor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setcursor">SetCursor</a>
  
 
  

@@ -63,7 +63,7 @@ Retrieves the properties of the clock.
 
 ### -param pClockProperties [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/1efc6602-9851-40e5-85aa-0335d4e899a2">MFCLOCK_PROPERTIES</a> structure that receives the properties.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-_mfclock_properties">MFCLOCK_PROPERTIES</a> structure that receives the properties.
 
 
 ## -returns
@@ -99,7 +99,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/3a60bfec-8511-4a84-a833-e0c73c593970">IMFClock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfclock">IMFClock</a>
  
 
  

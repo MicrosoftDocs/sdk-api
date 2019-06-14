@@ -72,15 +72,15 @@ Include with the event the SID of the principal that logged the event.
 
 
 
-<a href="https://msdn.microsoft.com/4b3980f4-8652-4070-97c0-99cd1a9fc85a">ChannelPublishingType Complex Type</a>
+<a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-channelpublishingtype-complextype">ChannelPublishingType Complex Type</a>
 
 
 
-<a href="https://msdn.microsoft.com/ea17cbf8-ab60-4bf9-b0a2-998814a50bd0">EVT_CHANNEL_CONFIG_PROPERTY_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_channel_config_property_id">EVT_CHANNEL_CONFIG_PROPERTY_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/0f84f51c-716e-4a70-b31c-2b4f40b3fd83">EvtGetChannelConfigProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtgetchannelconfigproperty">EvtGetChannelConfigProperty</a>
  
 
  

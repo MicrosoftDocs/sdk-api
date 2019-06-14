@@ -50,14 +50,14 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides methods for maintaining volume plexes.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsVolumePlex</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IVdsVolumePlex</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsVolumePlex</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsVolumePlex</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IVdsVolumePlex</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b5b6c141-3e9d-4e1a-9d3c-3c5063b3ab73">GetProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumeplex-getproperties">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Returns the property information of the current volume plex.
@@ -81,7 +81,7 @@ Returns the property information of the current volume plex.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ddf6102b-81d4-4604-942e-ffb1c2c4730f">GetVolume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumeplex-getvolume">GetVolume</a>
 </td>
 <td align="left" width="63%">
 Returns the volume to which the current plex is a member.
@@ -90,7 +90,7 @@ Returns the volume to which the current plex is a member.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/09548bcc-29b9-498f-a4c0-99428f26343a">QueryExtents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumeplex-queryextents">QueryExtents</a>
 </td>
 <td align="left" width="63%">
 Returns all extents for the current plex.
@@ -99,7 +99,7 @@ Returns all extents for the current plex.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/21c91e85-8a49-4e74-9191-37aeb03b299e">Repair</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumeplex-repair">Repair</a>
 </td>
 <td align="left" width="63%">
 Repairs a fault-tolerant volume plex by moving bad members to good disks.
@@ -114,19 +114,19 @@ Repairs a fault-tolerant volume plex by moving bad members to good disks.
 
 
 
-<a href="https://msdn.microsoft.com/33fc5b7c-4d05-4ec7-8d03-631c6d9f2f34">IVdsVolume::QueryPlexes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolume-queryplexes">IVdsVolume::QueryPlexes</a>
 
 
 
-<a href="https://msdn.microsoft.com/0bddfd62-881d-4fda-b303-ed38d434af55">VDS Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/225cdc5e-045b-407f-b383-8f92025fbbd6">VDS_VOLUME_PLEX_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_volume_plex_prop">VDS_VOLUME_PLEX_PROP</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e770bfc-2bcb-45f0-a7fc-ba526349839e">Volume Plex Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/volume-plex-object">Volume Plex Object</a>
  
 
  

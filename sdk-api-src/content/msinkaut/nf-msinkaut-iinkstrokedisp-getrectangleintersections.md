@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Finds the points where a <a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp</a> object intersects a given rectangle.
+Finds the points where a <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object intersects a given rectangle.
 
 
 
@@ -70,7 +70,7 @@ The rectangle in <b>ink space</b> coordinates, that describes the hit test area.
 
 When this method returns, contains a VARIANT array that indicates where the stroke intersects the <i>rectangle</i>. The beginning floating point indices are stored in the even indices. The ending floating point indices are stored in the odd indices. The first pair of indices represents the first intersection.
 
-For more information about the VARIANT structure, see <a href="https://msdn.microsoft.com/fa43fad9-804c-42d9-9717-6686d5f98ed8">Using the COM Library</a>.
+For more information about the VARIANT structure, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
 
 ## -returns
@@ -161,15 +161,15 @@ If the stroke begins within the test rectangle, the first index is set to -1. If
 
 
 
-<a href="https://msdn.microsoft.com/d3733613-fc8e-41f2-9172-07b61fc133dd">Clip Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-clip">Clip Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/a070fc87-608c-47be-b9b2-e2a41a31226f">FindIntersections Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-findintersections">FindIntersections Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
  
 
  

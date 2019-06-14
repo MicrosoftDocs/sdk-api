@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <code>CreatePhotoSource</code> method initializes an <a href="https://msdn.microsoft.com/6671d550-8c12-40e3-bf6f-33203e69cff0">IPhotoAcquireSource</a> object to pass to <a href="https://msdn.microsoft.com/1000511f-40a6-4d5e-a55f-97e25f6c1e11">IPhotoAcquire::Acquire</a>.
+The <code>CreatePhotoSource</code> method initializes an <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresource">IPhotoAcquireSource</a> object to pass to <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquire-acquire">IPhotoAcquire::Acquire</a>.
 
 
 
@@ -114,7 +114,7 @@ A non-<b>NULL</b> pointer was expected.
 
 
 
-The <a href="https://msdn.microsoft.com/6671d550-8c12-40e3-bf6f-33203e69cff0">IPhotoAcquireSource</a> object created is used as the parameter for the <a href="https://msdn.microsoft.com/1000511f-40a6-4d5e-a55f-97e25f6c1e11">Acquire</a> method.
+The <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresource">IPhotoAcquireSource</a> object created is used as the parameter for the <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquire-acquire">Acquire</a> method.
 
 If an error occurs in <code>CreatePhotoSource</code>, <i>ppPhotoAcquireSource</i> is initialized to <b>NULL</b>.
 
@@ -126,11 +126,11 @@ If an error occurs in <code>CreatePhotoSource</code>, <i>ppPhotoAcquireSource</i
 
 
 
-<a href="https://msdn.microsoft.com/94f41290-bbc4-4a2f-9787-831004bde3c7">IPhotoAcquire Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquire">IPhotoAcquire Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/1000511f-40a6-4d5e-a55f-97e25f6c1e11">IPhotoAcquire::Acquire</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquire-acquire">IPhotoAcquire::Acquire</a>
  
 
  

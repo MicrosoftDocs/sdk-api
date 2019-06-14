@@ -64,7 +64,7 @@ Retrieves information about the memory usage of the specified process.
 
 ### -param Process [in]
 
-A handle to the process. The handle must have the <b>PROCESS_QUERY_INFORMATION</b> or <b>PROCESS_QUERY_LIMITED_INFORMATION</b> access right and the <b>PROCESS_VM_READ</b> access right. For more information, see <a href="https://msdn.microsoft.com/508a17c4-88cd-431a-a102-00180a7f7ab5">Process Security and Access Rights</a>.
+A handle to the process. The handle must have the <b>PROCESS_QUERY_INFORMATION</b> or <b>PROCESS_QUERY_LIMITED_INFORMATION</b> access right and the <b>PROCESS_VM_READ</b> access right. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
 <b>Windows Server 2003 and Windows XP:  </b>The handle must have the <b>PROCESS_QUERY_INFORMATION</b> and <b>PROCESS_VM_READ</b> access rights.
 
@@ -72,7 +72,7 @@ A handle to the process. The handle must have the <b>PROCESS_QUERY_INFORMATION</
 ### -param ppsmemCounters [out]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/288b5865-28a3-478b-ad32-c710fe4f3a81">PROCESS_MEMORY_COUNTERS</a> or <a href="https://msdn.microsoft.com/cf06445d-b71a-4320-afc8-4bd88ebfb284">PROCESS_MEMORY_COUNTERS_EX</a> structure that receives information about the memory usage of the process.
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_process_memory_counters">PROCESS_MEMORY_COUNTERS</a> or <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_process_memory_counters_ex">PROCESS_MEMORY_COUNTERS_EX</a> structure that receives information about the memory usage of the process.
 
 
 ### -param cb [in]
@@ -88,7 +88,7 @@ The size of the
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -118,7 +118,7 @@ Programs that must run on earlier versions of Windows as
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/23641bf8-3653-4cb9-8008-cd99137ca268">Collecting Memory Usage Information for a Process</a>.
+<a href="https://docs.microsoft.com/windows/desktop/psapi/collecting-memory-usage-information-for-a-process">Collecting Memory Usage Information for a Process</a>.
 
 <div class="code"></div>
 
@@ -129,27 +129,27 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/0c0445cb-27d2-4857-a4a5-7a4c180b068b">EnumProcesses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-enumprocesses">EnumProcesses</a>
 
 
 
-<a href="https://msdn.microsoft.com/b27ca747-8fd2-4267-9979-4e2e14a5a19f">Memory Performance Information</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa965225(v=vs.85)">Memory Performance Information</a>
 
 
 
-<a href="https://msdn.microsoft.com/288b5865-28a3-478b-ad32-c710fe4f3a81">PROCESS_MEMORY_COUNTERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_process_memory_counters">PROCESS_MEMORY_COUNTERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/cf06445d-b71a-4320-afc8-4bd88ebfb284">PROCESS_MEMORY_COUNTERS_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_process_memory_counters_ex">PROCESS_MEMORY_COUNTERS_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/e158792b-fec2-498d-aae3-d5679fa55783">PSAPI Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/683c899e-a7e8-4440-8f13-2a713c1618bf">Process Memory Usage Information</a>
+<a href="https://docs.microsoft.com/windows/desktop/psapi/process-memory-usage-information">Process Memory Usage Information</a>
  
 
  

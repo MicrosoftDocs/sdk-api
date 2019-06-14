@@ -57,7 +57,7 @@ The <b>IWMPMediaCollection2</b> interface provides methods that supplement the <
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPMediaCollection2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd563405(v=VS.85).aspx">IWMPMediaCollection</a>. <b>IWMPMediaCollection2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPMediaCollection2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpmediacollection">IWMPMediaCollection</a>. <b>IWMPMediaCollection2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IWMPMediaCollection2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563407(v=VS.85).aspx">createQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection2-createquery">createQuery</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an <b>IWMPQuery</b> interface that represents a new query.
@@ -81,7 +81,7 @@ Retrieves a pointer to an <b>IWMPQuery</b> interface that represents a new query
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563408(v=VS.85).aspx">getByAttributeAndMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection2-getbyattributeandmediatype">getByAttributeAndMediaType</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an <b>IWMPPlaylist</b> interface that contains media items that have a specified attribute and media type.
@@ -90,7 +90,7 @@ Retrieves a pointer to an <b>IWMPPlaylist</b> interface that contains media item
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563409(v=VS.85).aspx">getPlaylistByQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection2-getplaylistbyquery">getPlaylistByQuery</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an <b>IWMPPlaylist</b> interface that contains media items that match the query conditions.
@@ -99,7 +99,7 @@ Retrieves a pointer to an <b>IWMPPlaylist</b> interface that contains media item
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563410(v=VS.85).aspx">getStringCollectionByQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection2-getstringcollectionbyquery">getStringCollectionByQuery</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an <b>IWMPStringCollection</b> interface that contains the set of all string values for a specified attribute that match the query conditions.
@@ -114,11 +114,11 @@ Retrieves a pointer to an <b>IWMPStringCollection</b> interface that contains th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563405(v=VS.85).aspx">IWMPMediaCollection Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpmediacollection">IWMPMediaCollection Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/68a0bdaf-ae1b-4ba1-817b-a31c68b9fddd">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
  
 
  

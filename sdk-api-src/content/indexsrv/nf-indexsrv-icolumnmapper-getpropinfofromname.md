@@ -91,7 +91,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 
 
-<a href="https://msdn.microsoft.com/CBC7EE6C-299D-4B9D-839A-0A2755CA8112">IColumnMapper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-icolumnmapper">IColumnMapper</a>
  
 
  

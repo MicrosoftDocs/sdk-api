@@ -74,7 +74,7 @@ Address of a <b>BOOL</b> that is set to <b>TRUE</b> when the
 
 ### -param inputBuffer [in, out]
 
-Address of an <a href="https://msdn.microsoft.com/1792e40b-c363-4732-9613-301c3e6e4da7">RdcBufferPointer</a> structure that 
+Address of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0005">RdcBufferPointer</a> structure that 
       contains the input buffer. On successful return, the <b>m_Used</b> member of this structure 
       will be filled with the number of bytes by this call.
 
@@ -87,13 +87,13 @@ The number of levels of signatures to generate. This must match the number of le
 
 ### -param outputBuffers [out]
 
-The address of an array of <a href="https://msdn.microsoft.com/1792e40b-c363-4732-9613-301c3e6e4da7">RdcBufferPointer</a> structures that 
+The address of an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0005">RdcBufferPointer</a> structures that 
       will receive the output buffers. The <b>m_Used</b> member of these structures will be filled with the number of bytes returned in the buffer.
 
 
 ### -param rdc_ErrorCode [out]
 
-The address of an <a href="https://msdn.microsoft.com/32e9eab0-dc6e-4e04-af8a-bc2ed4adf0be">RDC_ErrorCode</a> enumeration that is 
+The address of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ne-msrdc-__midl___midl_itf_msrdc_0000_0000_0001">RDC_ErrorCode</a> enumeration that is 
       filled with an RDC specific error code if the return value from the 
       <b>Process</b> method is 
       <b>E_FAIL</b>. If this value is <b>RDC_Win32ErrorCode</b>, then the 
@@ -115,15 +115,15 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/0288318a-0974-4870-b423-87c52090eb33">IRdcGenerator</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgenerator">IRdcGenerator</a>
 
 
 
-<a href="https://msdn.microsoft.com/32e9eab0-dc6e-4e04-af8a-bc2ed4adf0be">RDC_ErrorCode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ne-msrdc-__midl___midl_itf_msrdc_0000_0000_0001">RDC_ErrorCode</a>
 
 
 
-<a href="https://msdn.microsoft.com/1792e40b-c363-4732-9613-301c3e6e4da7">RdcBufferPointer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0005">RdcBufferPointer</a>
  
 
  

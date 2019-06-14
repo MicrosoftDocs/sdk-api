@@ -70,7 +70,7 @@ This URI may include a fragment component; however, the fragment will be ignored
 
 ### -param combinedUri [out, retval]
 
-A pointer to the <a href="https://msdn.microsoft.com/81123212-7a32-4833-b81f-8454a544327d">IOpcPartUri</a> interface of the part URI object that represents the part name.
+A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a> interface of the part URI object that represents the part name.
             
 
 The part URI object is formed by resolving the relative URI in <i>relativeUri</i> against the URI represented by the current OPC URI object.
@@ -106,7 +106,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/library/ms775085(v=VS.85).aspx">CoInternetCombineUrl</a> function returned an invalid size.
+The <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775085(v=vs.85)">CoInternetCombineUrl</a> function returned an invalid size.
               
 
 </td>
@@ -130,7 +130,7 @@ At least one of the <i>relativeUri</i>, and <i>combinedUri</i> parameters is <b>
 </dl>
 </td>
 <td width="60%">
-The size of the buffer required by the <a href="https://msdn.microsoft.com/library/ms775085(v=VS.85).aspx">CoInternetCombineUrl</a> function changed unexpectedly.
+The size of the buffer required by the <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775085(v=vs.85)">CoInternetCombineUrl</a> function changed unexpectedly.
               
 
 </td>
@@ -168,7 +168,7 @@ A part name cannot be an absolute URI. An absolute URI begins with a schema comp
 </dl>
 </td>
 <td width="60%">
-An <b>HRESULT</b> error code from the <a href="https://msdn.microsoft.com/library/ms775085(v=VS.85).aspx">CoInternetCombineUrl</a> function.
+An <b>HRESULT</b> error code from the <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775085(v=vs.85)">CoInternetCombineUrl</a> function.
               
 
 </td>
@@ -181,7 +181,7 @@ An <b>HRESULT</b> error code from the <a href="https://msdn.microsoft.com/librar
 </dl>
 </td>
 <td width="60%">
-An <b>HRESULT</b> error code from the <a href="https://msdn.microsoft.com/library/ms775098(v=VS.85).aspx">CreateUri</a> function.
+An <b>HRESULT</b> error code from the <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775098(v=vs.85)">CreateUri</a> function.
               
 
 </td>
@@ -194,7 +194,7 @@ An <b>HRESULT</b> error code from the <a href="https://msdn.microsoft.com/librar
 </dl>
 </td>
 <td width="60%">
-An <b>HRESULT</b> error code from a  <a href="https://msdn.microsoft.com/dd2f8246-ea82-49cb-973f-157fb77c8c08">WinINet</a> API.
+An <b>HRESULT</b> error code from a  <a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-reference">WinINet</a> API.
               
 
 </td>
@@ -215,9 +215,9 @@ Example input and output:
 <table>
 <tr>
 <th>Input relative <a href="http://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a></th>
-<th>Current <a href="https://msdn.microsoft.com/35ce7946-f7e7-4ac3-852f-e3fcca23d6d4">IOpcUri</a>
+<th>Current <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcuri">IOpcUri</a>
 </th>
-<th>Formed <a href="https://msdn.microsoft.com/81123212-7a32-4833-b81f-8454a544327d">IOpcPartUri</a>
+<th>Formed <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a>
 </th>
 </tr>
 <tr>
@@ -240,17 +240,17 @@ Example input and output:
 
 
 
-For information about how to use this method to help resolve a part name, see <a href="https://msdn.microsoft.com/e95db16f-ac25-4936-babb-20f2afdd2f06">Resolving a Part Name from a Target URI</a>.
+For information about how to use this method to help resolve a part name, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/resolving-a-part-name-from-a-relationship-s-target-uri">Resolving a Part Name from a Target URI</a>.
 
 <h3><a id="Support_on__Previous_Windows_Versions"></a><a id="support_on__previous_windows_versions"></a><a id="SUPPORT_ON__PREVIOUS_WINDOWS_VERSIONS"></a>Support on  Previous Windows Versions</h3>
-The behavior and performance of this method is the same on all supported Windows versions. For more information, see <a href="https://msdn.microsoft.com/ef392c88-49cd-4ffa-b1fb-1501c6448264">Getting Started with the Packaging API</a>, and <a href="https://msdn.microsoft.com/661f88f9-e5ba-412d-8cb4-f3f186568b74">Platform Update for Windows Vista</a>.
+The behavior and performance of this method is the same on all supported Windows versions. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>, and <a href="https://docs.microsoft.com/windows/desktop/win7ip/platform-update-for-windows-vista-portal">Platform Update for Windows Vista</a>.
 
 
 #### Thread Safety
 
 Packaging objects are not thread-safe.
 
-For more information, see the <a href="https://msdn.microsoft.com/ef392c88-49cd-4ffa-b1fb-1501c6448264">Getting Started with the Packaging API</a>.
+For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
 
 
@@ -268,11 +268,11 @@ For more information, see the <a href="https://msdn.microsoft.com/ef392c88-49cd-
 
 
 
-<a href="https://msdn.microsoft.com/ef392c88-49cd-4ffa-b1fb-1501c6448264">Getting Started with the Packaging API</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
 
 
 
-<a href="https://msdn.microsoft.com/35ce7946-f7e7-4ac3-852f-e3fcca23d6d4">IOpcUri</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcuri">IOpcUri</a>
 
 
 
@@ -280,19 +280,19 @@ For more information, see the <a href="https://msdn.microsoft.com/ef392c88-49cd-
 
 
 
-<a href="https://msdn.microsoft.com/7ab1cc09-ce81-4f56-8adf-d8c95bf2c4cd">Packaging API Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-reference">Packaging API Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/885137be-35d5-4ec5-bbcc-16c95adf55ab">Packaging API Samples</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-samples">Packaging API Samples</a>
 
 
 
-<a href="https://msdn.microsoft.com/b4cd8f69-3559-46a0-95ec-6fcaab21959c">Packaging Errors</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-errors">Packaging Errors</a>
 
 
 
-<a href="https://msdn.microsoft.com/661f88f9-e5ba-412d-8cb4-f3f186568b74">Platform Update for Windows Vista</a>
+<a href="https://docs.microsoft.com/windows/desktop/win7ip/platform-update-for-windows-vista-portal">Platform Update for Windows Vista</a>
 
 
 
@@ -304,7 +304,7 @@ For more information, see the <a href="https://msdn.microsoft.com/ef392c88-49cd-
 
 
 
-<a href="https://msdn.microsoft.com/e95db16f-ac25-4936-babb-20f2afdd2f06">Resolving a Part Name from a Target URI</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/resolving-a-part-name-from-a-relationship-s-target-uri">Resolving a Part Name from a Target URI</a>
  
 
  

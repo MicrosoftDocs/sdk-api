@@ -103,11 +103,11 @@ The method failed.
 
 
 
-<a href="https://msdn.microsoft.com/2736bb81-b66f-4c09-8c76-ca16f3eab192">IDot11AdHocNetwork</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>
 
 
 
-<a href="https://msdn.microsoft.com/3272e0fe-0844-4e02-bd5f-a1e1c656074d">IDot11AdHocNetwork::Connect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-connect">IDot11AdHocNetwork::Connect</a>
  
 
  

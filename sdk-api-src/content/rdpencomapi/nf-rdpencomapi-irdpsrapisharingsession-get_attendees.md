@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns an object implementing the <a href="https://msdn.microsoft.com/202b539c-b7a0-4cf3-ba64-f60cc062575a">IRDPSRAPIAttendeeManager</a>  interface.
+Returns an object implementing the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendeemanager">IRDPSRAPIAttendeeManager</a>  interface.
 
 This property is read-only.
 
@@ -66,11 +66,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/531382ec-d94f-411e-bd43-86cd3066ac26">IRDPSRAPISharingSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapisharingsession">IRDPSRAPISharingSession</a>
 
 
 
-<a href="https://msdn.microsoft.com/3ac68be7-e6fd-42c7-b2f3-b90bb5097b07">IRDPSRAPISharingSession2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapisharingsession2">IRDPSRAPISharingSession2</a>
  
 
  

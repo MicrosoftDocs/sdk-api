@@ -86,7 +86,7 @@ Specify language identifiers when you search for an installed recognizer if the 
 
 
 
-The <i>awcFriendlyName</i> parameter may be empty (that is, having the first element set to the null character) when you use this structure as a return value from the <a href="https://msdn.microsoft.com/45683203-1886-4542-8b66-84861862cb6a">GetRecoAttributes Function</a>. Because this is not an error, the return code for <i>awcFriendlyName</i> in <b>GetRecoAttributes Function</b> will be S_OK, and the other fields will contain data.
+The <i>awcFriendlyName</i> parameter may be empty (that is, having the first element set to the null character) when you use this structure as a return value from the <a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-getrecoattributes">GetRecoAttributes Function</a>. Because this is not an error, the return code for <i>awcFriendlyName</i> in <b>GetRecoAttributes Function</b> will be S_OK, and the other fields will contain data.
 
 
 
@@ -96,7 +96,7 @@ The <i>awcFriendlyName</i> parameter may be empty (that is, having the first ele
 
 
 
-<a href="https://msdn.microsoft.com/45683203-1886-4542-8b66-84861862cb6a">GetRecoAttributes Function</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-getrecoattributes">GetRecoAttributes Function</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>lineProxyMessage</b> function is used by a registered proxy request handler to generate TAPI messages related to its role. For example, an ACD agent handler can use this function to generate 
-<a href="https://msdn.microsoft.com/48f5d9bc-f20d-4364-8ec1-0b4bdc9cfcb4">LINE_AGENTSTATUS</a> messages that are received by all applications that have the specified line open. TAPI suppresses generation of the message on the <i>hLine</i> specified in the function parameters.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-agentstatus">LINE_AGENTSTATUS</a> messages that are received by all applications that have the specified line open. TAPI suppresses generation of the message on the <i>hLine</i> specified in the function parameters.
 
 
 ## -parameters
@@ -105,15 +105,15 @@ LINEERR_INVALLINEHANDLE, LINEERR_INVALCALLHANDLE, LINEERR_INVALPARAM, LINEERR_NO
 
 
 
-<a href="https://msdn.microsoft.com/48f5d9bc-f20d-4364-8ec1-0b4bdc9cfcb4">LINE_AGENTSTATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-agentstatus">LINE_AGENTSTATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/d4338b3c-cd84-4abb-b74e-9df895c8355b">Supplementary Line Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d703b414-1389-416c-8e94-c1931979f0c9">TAPI 2.2 Reference Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
  
 
  

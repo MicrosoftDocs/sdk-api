@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves an enumeration of <a href="https://msdn.microsoft.com/en-us/library/Bb231339(v=VS.85).aspx">IRelationship</a> objects, one for each relationship this entity has.
+Retrieves an enumeration of <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-irelationship">IRelationship</a> objects, one for each relationship this entity has.
         
 
 
@@ -70,7 +70,7 @@ The desired IID of the result, either IID_IEnumUnknown or IID_IEnumVARIANT.
 
 Type: <b>void**</b>
 
-Receives the address of a pointer to the enumeration of the <a href="https://msdn.microsoft.com/en-us/library/Bb231339(v=VS.85).aspx">IRelationship</a> objects.
+Receives the address of a pointer to the enumeration of the <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-irelationship">IRelationship</a> objects.
             
 
 

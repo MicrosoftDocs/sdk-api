@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The <b>PCRYPT_RESOLVE_HCRYPTPROV_FUNC</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>PCRYPT_RESOLVE_HCRYPTPROV_FUNC</b> function returns a handle to a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) by using the <i>phCryptProv</i> parameter to receive the key being imported.  It is a callback function called from the context of  the <a href="https://msdn.microsoft.com/fa3deff9-b4c1-4b63-a59f-738f87e1a409">CryptImportPKCS8</a> function.  The function must be implemented by the developer to suit each application.
+The <b>PCRYPT_RESOLVE_HCRYPTPROV_FUNC</b> function returns a handle to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) by using the <i>phCryptProv</i> parameter to receive the key being imported.  It is a callback function called from the context of  the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportpkcs8">CryptImportPKCS8</a> function.  The function must be implemented by the developer to suit each application.
 
 
 ## -parameters
@@ -61,17 +61,17 @@ The <b>PCRYPT_RESOLVE_HCRYPTPROV_FUNC</b> function returns a handle to a <a href
 
 ### -param *pPrivateKeyInfo [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/63a5d1c2-88b3-45fa-94d3-2179cb8802c9">CRYPT_PRIVATE_KEY_INFO</a> structure that describes the key being imported.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_private_key_info">CRYPT_PRIVATE_KEY_INFO</a> structure that describes the key being imported.
 
 
 ### -param *phCryptProv [out]
 
-A pointer to the  <a href="https://msdn.microsoft.com/8ec6b392-06bc-4717-8657-7ea9a43d03fb">HCRYPTPROV</a>   to receive the CSP.
+A pointer to the  <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a>   to receive the CSP.
 
 
 ### -param pVoidResolveFunc [in]
 
-The <b>pVoidResolveFunc</b> member passed in by the caller in the <a href="https://msdn.microsoft.com/a016e807-60d3-4ae4-829b-43acea2ee8c1">CRYPT_PKCS8_IMPORT_PARAMS</a>  structure.
+The <b>pVoidResolveFunc</b> member passed in by the caller in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_pkcs8_import_params">CRYPT_PKCS8_IMPORT_PARAMS</a>  structure.
 
 
 ## -returns
@@ -90,19 +90,19 @@ If the function fails, it returns zero (<b>FALSE</b>).
 
 
 
-<a href="https://msdn.microsoft.com/a016e807-60d3-4ae4-829b-43acea2ee8c1">CRYPT_PKCS8_IMPORT_PARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_pkcs8_import_params">CRYPT_PKCS8_IMPORT_PARAMS</a>
 
 
 
-<a href="https://msdn.microsoft.com/63a5d1c2-88b3-45fa-94d3-2179cb8802c9">CRYPT_PRIVATE_KEY_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_private_key_info">CRYPT_PRIVATE_KEY_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/fa3deff9-b4c1-4b63-a59f-738f87e1a409">CryptImportPKCS8</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportpkcs8">CryptImportPKCS8</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ec6b392-06bc-4717-8657-7ea9a43d03fb">HCRYPTPROV</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a>
  
 
  

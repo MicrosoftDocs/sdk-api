@@ -103,7 +103,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/67dc6290-00e8-457a-97be-efe8e731619d">IProviderConverter Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-iproviderconverter">IProviderConverter Interface</a>
  
 
  

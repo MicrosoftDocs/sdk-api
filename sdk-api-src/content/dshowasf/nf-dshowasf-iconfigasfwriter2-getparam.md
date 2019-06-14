@@ -62,7 +62,7 @@ The <code>GetParam</code> method retrieves the current value of the specified fi
 
 ### -param dwParam [in]
 
-Specifies the parameter to retrieve, as a member of the <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd758054(v=vs.85).aspx">_AM_ASFWRITERCONFIG_PARAM</a> enumeration.
+Specifies the parameter to retrieve, as a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd758054(v=vs.85)">_AM_ASFWRITERCONFIG_PARAM</a> enumeration.
 
 
 ### -param pdwParam1 [out]
@@ -89,11 +89,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/dffda43a-5831-4889-864f-81351b9e2bb3">Creating ASF Files in DirectShow</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/creating-asf-files-in-directshow">Creating ASF Files in DirectShow</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd312018(v=VS.85).aspx">IConfigAsfWriter2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter2">IConfigAsfWriter2 Interface</a>
  
 
  

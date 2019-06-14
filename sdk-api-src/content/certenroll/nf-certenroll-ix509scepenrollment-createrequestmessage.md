@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-You must call the <a href="https://msdn.microsoft.com/dcb887ab-c8b7-42e7-8b49-93755d24ba70">Initialize</a> method before calling this method.
+You must call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-initialize">Initialize</a> method before calling this method.
 
 
 
@@ -86,7 +86,7 @@ You must call the <a href="https://msdn.microsoft.com/dcb887ab-c8b7-42e7-8b49-93
 
 
 
-<a href="https://msdn.microsoft.com/fcbac911-9e37-4994-bbb6-544b19a92749">IX509SCEPEnrollment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509scepenrollment">IX509SCEPEnrollment</a>
  
 
  

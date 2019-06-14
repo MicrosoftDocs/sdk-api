@@ -51,12 +51,12 @@ ms.custom: 19H1
 
 Use this interface to add items to or remove items from the file-system image. 
 
-To get this interface, call the <a href="https://msdn.microsoft.com/27eadc99-46b6-40e1-91e0-b5c532536491">IFileSystemImage::CreateDirectoryItem</a> method.
+To get this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-createdirectoryitem">IFileSystemImage::CreateDirectoryItem</a> method.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsiDirectoryItem</b> interface inherits from <a href="https://msdn.microsoft.com/44494e66-e6b4-4acb-a2a6-0a3e5cc4a2a0">IFsiItem</a>. <b>IFsiDirectoryItem</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsiDirectoryItem</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem</a>. <b>IFsiDirectoryItem</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IFsiDirectoryItem</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f4855907-89e5-4127-9307-35970046a236">Add</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-add">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a file or directory described by the FsiItem object to the file system image.
@@ -80,7 +80,7 @@ Adds a file or directory described by the FsiItem object to the file system imag
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bb716e60-163c-45e7-bdbb-373666cbdc93">AddDirectory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-adddirectory">AddDirectory</a>
 </td>
 <td align="left" width="63%">
 Adds a directory to the file system image.
@@ -89,7 +89,7 @@ Adds a directory to the file system image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/82f62372-3c79-4bf5-a723-cd09a5444ffc">AddFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-addfile">AddFile</a>
 </td>
 <td align="left" width="63%">
 Adds a file to the file system image.
@@ -98,7 +98,7 @@ Adds a file to the file system image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4f36538c-fba7-4a0c-a2e9-443b7dc2fdab">AddTree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-addtree">AddTree</a>
 </td>
 <td align="left" width="63%">
 Adds the contents of a directory tree to the file system image.
@@ -107,7 +107,7 @@ Adds the contents of a directory tree to the file system image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/08ffc4dd-7001-4a89-a58e-a12e21600172">get__NewEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-get__newenum">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of child items contained within the directory in the file system image.
@@ -116,7 +116,7 @@ Retrieves a list of child items contained within the directory in the file syste
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/66553025-35c9-4902-a184-01c07a478977">get_Count</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-get_count">get_Count</a>
 </td>
 <td align="left" width="63%">
 Number of  child items in the enumeration.
@@ -125,7 +125,7 @@ Number of  child items in the enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/723f28ad-f77d-494f-9ae6-ba6120675cfd">get_EnumFsiItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-get_enumfsiitems">get_EnumFsiItems</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of child items contained within the directory in the file system image.
@@ -134,7 +134,7 @@ Retrieves a list of child items contained within the directory in the file syste
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8ea5219c-a12f-43a3-a67b-16cd0e6d2bac">get_Item</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-get_item">get_Item</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified directory or file item from file system image.
@@ -143,7 +143,7 @@ Retrieves the specified directory or file item from file system image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bbd45185-439a-4847-8481-7139e81b34fd">Remove</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes the specified item from the file system image.
@@ -152,7 +152,7 @@ Removes the specified item from the file system image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d0aad985-306c-41a2-9711-9265a4f492c5">RemoveTree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-removetree">RemoveTree</a>
 </td>
 <td align="left" width="63%">
 Remove the specified directory tree from the file system image.
@@ -181,11 +181,11 @@ This is an <b>FsiDirectoryItem</b> object in script.
 
 
 
-<a href="https://msdn.microsoft.com/27eadc99-46b6-40e1-91e0-b5c532536491">IFileSystemImage::CreateDirectoryItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-createdirectoryitem">IFileSystemImage::CreateDirectoryItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/44494e66-e6b4-4acb-a2a6-0a3e5cc4a2a0">IFsiItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem</a>
  
 
  

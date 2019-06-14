@@ -57,7 +57,7 @@ The <b>GetCredentials</b> method retrieves a cached password.
 
 
 
-This method has been superseded by <a href="https://msdn.microsoft.com/en-us/library/Dd743724(v=VS.85).aspx">IWMSInternalAdminNetSource3::GetCredentialsEx2</a>. The methods of <b>IWMSInternalAdminNetSource3</b> are much more secure than the password caching methods in <b>IWMSInternalAdminNetSource</b> and should be used if available.
+This method has been superseded by <a href="https://docs.microsoft.com/windows/desktop/api/wmsinternaladminnetsource/nf-wmsinternaladminnetsource-iwmsinternaladminnetsource3-getcredentialsex2">IWMSInternalAdminNetSource3::GetCredentialsEx2</a>. The methods of <b>IWMSInternalAdminNetSource3</b> are much more secure than the password caching methods in <b>IWMSInternalAdminNetSource</b> and should be used if available.
 
 
 ## -parameters
@@ -99,15 +99,15 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743717(v=VS.85).aspx">IWMSInternalAdminNetSource Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsinternaladminnetsource/nn-wmsinternaladminnetsource-iwmsinternaladminnetsource">IWMSInternalAdminNetSource Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798538(v=VS.85).aspx">IWMSInternalAdminNetSource::GetCredentialFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsinternaladminnetsource/nf-wmsinternaladminnetsource-iwmsinternaladminnetsource-getcredentialflags">IWMSInternalAdminNetSource::GetCredentialFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798542(v=VS.85).aspx">IWMSInternalAdminNetSource::SetCredentials</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsinternaladminnetsource/nf-wmsinternaladminnetsource-iwmsinternaladminnetsource-setcredentials">IWMSInternalAdminNetSource::SetCredentials</a>
  
 
  

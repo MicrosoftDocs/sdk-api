@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines the header to the list of sessions that enabled the provider specified in the <i>InBuffer</i> parameter of <a href="https://msdn.microsoft.com/9d70fe21-1750-4d60-a825-2004f7d666c7">EnumerateTraceGuidsEx</a>.
+Defines the header to the list of sessions that enabled the provider specified in the <i>InBuffer</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/ETW/enumeratetraceguidsex">EnumerateTraceGuidsEx</a>.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ Defines the header to the list of sessions that enabled the provider specified i
 
 ### -field InstanceCount
 
-The number of <a href="https://msdn.microsoft.com/49c11cd5-2cb1-474a-8b51-2d86b4501da1">TRACE_PROVIDER_INSTANCE_INFO</a> blocks contained in the list. You can have multiple instances of the same provider if the provider lives in a DLL that is loaded by multiple processes.
+The number of <a href="https://docs.microsoft.com/windows/desktop/ETW/trace-provider-instance-info">TRACE_PROVIDER_INSTANCE_INFO</a> blocks contained in the list. You can have multiple instances of the same provider if the provider lives in a DLL that is loaded by multiple processes.
 
 
 ### -field Reserved
@@ -71,7 +71,7 @@ Reserved.
 
 
 
-Use the size of this structure to access the first <a href="https://msdn.microsoft.com/49c11cd5-2cb1-474a-8b51-2d86b4501da1">TRACE_PROVIDER_INSTANCE_INFO</a> block in the list.
+Use the size of this structure to access the first <a href="https://docs.microsoft.com/windows/desktop/ETW/trace-provider-instance-info">TRACE_PROVIDER_INSTANCE_INFO</a> block in the list.
 
 
 
@@ -81,7 +81,7 @@ Use the size of this structure to access the first <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/49c11cd5-2cb1-474a-8b51-2d86b4501da1">TRACE_PROVIDER_INSTANCE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/trace-provider-instance-info">TRACE_PROVIDER_INSTANCE_INFO</a>
  
 
  

@@ -59,7 +59,7 @@ Specifies the interface through which to receive sensor manager event notificati
 
 ### -param pEvents [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/b111a717-00c0-47cb-be6a-3050d54cd2ec">ISensorManagerEvents</a> callback interface that receives the event notifications. Set to <b>NULL</b> to stop receiving event notifications.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanagerevents">ISensorManagerEvents</a> callback interface that receives the event notifications. Set to <b>NULL</b> to stop receiving event notifications.
 
 
 ## -returns
@@ -95,7 +95,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/313742c9-58a7-4ddd-9582-a6ee276e97d0">ISensorManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanager">ISensorManager</a>
  
 
  

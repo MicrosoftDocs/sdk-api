@@ -56,7 +56,7 @@ The
 A writer can call this method only during a backup operation.
 
 This method cannot be called while handling a 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384652(v=VS.85).aspx">BackupComplete</a> (<a href="https://msdn.microsoft.com/77d0621d-81bd-4d53-8e5d-f5d3bfd86013">CVssWriter::OnBackupComplete</a>) or <a href="https://msdn.microsoft.com/en-us/library/Aa384652(v=VS.85).aspx">BackupShutdown</a> (<a href="https://msdn.microsoft.com/4b6d5efe-703b-4245-81d8-e2fc7f650d4b">CVssWriter::OnBackupShutdown</a>) event.
+<a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-b">BackupComplete</a> (<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onbackupcomplete">CVssWriter::OnBackupComplete</a>) or <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-b">BackupShutdown</a> (<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onbackupshutdown">CVssWriter::OnBackupShutdown</a>) event.
 
 
 ## -parameters
@@ -134,19 +134,19 @@ This method was not called by a writer or, if called by a writer, it either was 
 
 
 
-For more information about backup stamps, see <a href="https://msdn.microsoft.com/3cf5dd1f-dc58-42bc-925f-fee7d34053c5">Writer Role in Backing Up Complex Stores</a>.
+For more information about backup stamps, see <a href="https://docs.microsoft.com/windows/desktop/VSS/writer-role-in-backing-up-complex-stores">Writer Role in Backing Up Complex Stores</a>.
 
 The backup stamp set by 
 <b>SetBackupStamp</b> applies to all files in the component and any nonselectable subcomponents it has.
 
 Writers typically call 
-<b>SetBackupStamp</b> while handling a <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PostSnapshot</a> event in 
-<a href="https://msdn.microsoft.com/d97d4246-882e-49c3-a214-d8d3887c1508">CVssWriter::OnPostSnapshot</a>.
+<b>SetBackupStamp</b> while handling a <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PostSnapshot</a> event in 
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostsnapshot">CVssWriter::OnPostSnapshot</a>.
 
 Requesters merely store the backup stamp in the Backup Components Document. They do not make direct use of the backup stamp or have to know how to interpret it.
 
 The only use of the backup stamp that a requester makes, during a restore operation, is to make the stored time-stamp string available to a writer by using the 
-<a href="https://msdn.microsoft.com/cc1c75bf-b281-4741-9273-f7264532860f">IVssBackupComponents::SetPreviousBackupStamp</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setpreviousbackupstamp">IVssBackupComponents::SetPreviousBackupStamp</a> method.
 
 For this reason, there are no format restrictions on the content of the backup stamp. It may contain time and date information, logical sequence numbers, or any other information that will allow a writer of the same class to determine when the last backup has taken place.
 
@@ -158,11 +158,11 @@ For this reason, there are no format restrictions on the content of the backup s
 
 
 
-<a href="https://msdn.microsoft.com/c686a424-b0b9-4efc-8dc6-b92193de2a5d">IVssComponent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
 
 
-<a href="https://msdn.microsoft.com/a8f272d8-4024-46bf-a0e6-77d870615fc0">IVssComponent::GetBackupStamp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getbackupstamp">IVssComponent::GetBackupStamp</a>
  
 
  

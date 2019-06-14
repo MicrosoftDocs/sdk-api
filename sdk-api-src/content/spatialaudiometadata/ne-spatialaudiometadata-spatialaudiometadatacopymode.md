@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the copy mode used when calling <a href="https://msdn.microsoft.com/12ABAD23-7EDF-4F74-AE2E-26C75FA6AB37">ISpatialAudioMetadataCopier::CopyMetadataForFrames</a>.
+Specifies the copy mode used when calling <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadatacopier-copymetadataforframes">ISpatialAudioMetadataCopier::CopyMetadataForFrames</a>.
 
 
 ## -enum-fields
@@ -64,7 +64,7 @@ Creates a direct copy of the number of metadata items  specified with the <i>cop
 
 ### -field SpatialAudioMetadataCopy_Append
 
-Performs an append operation which will fail if the  resulting <a href="https://msdn.microsoft.com/5DDD468E-0C46-4C00-BCFF-1FF7353ADB8B">ISpatialAudioMetadataItemsBuffer</a> has too many items.
+Performs an append operation which will fail if the  resulting <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitemsbuffer">ISpatialAudioMetadataItemsBuffer</a> has too many items.
 
 
 ### -field SpatialAudioMetadataCopy_AppendMergeWithLast

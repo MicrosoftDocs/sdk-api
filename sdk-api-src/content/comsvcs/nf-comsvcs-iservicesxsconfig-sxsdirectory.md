@@ -75,7 +75,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-This method must be called if a new side-by-side assembly domain is created using the call to <a href="https://msdn.microsoft.com/ce067aca-8bb4-48ac-b466-9080d2166bdd">SxsConfig</a>.
+This method must be called if a new side-by-side assembly domain is created using the call to <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iservicesxsconfig-sxsconfig">SxsConfig</a>.
 
 
 
@@ -86,7 +86,7 @@ This method must be called if a new side-by-side assembly domain is created usin
 
 
 
-<a href="https://msdn.microsoft.com/24d4a22b-0a01-4bf2-9cc6-4a1b31897d05">IServiceSxsConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicesxsconfig">IServiceSxsConfig</a>
  
 
  

@@ -62,7 +62,7 @@ This property is read-only.
 
 
 
-You must call the <a href="https://msdn.microsoft.com/3e935718-a59a-443e-bff2-a010a41e7756">Initialize</a> method before calling this property.
+You must call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509namevaluepair-initialize">Initialize</a> method before calling this property.
 
 
 
@@ -72,7 +72,7 @@ You must call the <a href="https://msdn.microsoft.com/3e935718-a59a-443e-bff2-a0
 
 
 
-<a href="https://msdn.microsoft.com/e3b87c45-44c2-4fc6-ac75-0bf125f3c4b3">IX509NameValuePair</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509namevaluepair">IX509NameValuePair</a>
  
 
  

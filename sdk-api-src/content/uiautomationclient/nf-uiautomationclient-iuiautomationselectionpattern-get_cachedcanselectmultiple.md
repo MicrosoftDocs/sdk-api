@@ -63,11 +63,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/10e0c9c3-ed42-4ffa-b0a8-25a1c760a583">IUIAutomationSelectionPattern</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationselectionpattern">IUIAutomationSelectionPattern</a>
 
 
 
-<a href="https://msdn.microsoft.com/74846653-bf18-4289-9ad8-aedc20a56f29">IUIAutomationSelectionPattern::CachedIsSelectionRequired</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationselectionpattern-get_cachedisselectionrequired">IUIAutomationSelectionPattern::CachedIsSelectionRequired</a>
  
 
  

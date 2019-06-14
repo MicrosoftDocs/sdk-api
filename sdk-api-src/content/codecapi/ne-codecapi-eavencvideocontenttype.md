@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the type of video content. This enumeration is used with the <a href="https://msdn.microsoft.com/2BCAA6F3-E08A-4387-BD48-038A7A3B1ADB">CODECAPI_AVEncVideoContentType</a> property.
+Specifies the type of video content. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/medfound/codecapi-avencvideocontenttype">CODECAPI_AVEncVideoContentType</a> property.
 
 
 
@@ -73,7 +73,7 @@ The content was captured with a fixed camera, such as a webcam.
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

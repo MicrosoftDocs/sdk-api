@@ -67,7 +67,7 @@ Pointer to a null-terminated, wide-character string that specifies the path and 
 
 ### -param EventContext [in]
 
-Pointer to the event-context GUID. If a call to this method generates an icon-change event, the session manager sends notifications to all clients that have registered <a href="https://msdn.microsoft.com/fd287ef7-8a37-4342-b4c2-79b84a56c30e">IAudioSessionEvents</a> interfaces with the session manager. The session manager includes the <i>EventContext</i> pointer value with each notification. Upon receiving a notification, a client can determine whether it or another client is the source of the event by inspecting the <i>EventContext</i> value. This scheme depends on the client selecting a value for this parameter that is unique among all clients in the session. If the caller supplies a <b>NULL</b> pointer for this parameter, the client's notification method receives a <b>NULL</b> context pointer.
+Pointer to the event-context GUID. If a call to this method generates an icon-change event, the session manager sends notifications to all clients that have registered <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionevents">IAudioSessionEvents</a> interfaces with the session manager. The session manager includes the <i>EventContext</i> pointer value with each notification. Upon receiving a notification, a client can determine whether it or another client is the source of the event by inspecting the <i>EventContext</i> value. This scheme depends on the client selecting a value for this parameter that is unique among all clients in the session. If the caller supplies a <b>NULL</b> pointer for this parameter, the client's notification method receives a <b>NULL</b> context pointer.
 
 
 ## -returns
@@ -128,9 +128,9 @@ In Windows Vista, the system-supplied program, Sndvol.exe, uses the display icon
 
 In the case of a cross-process session, the session is not associated with a single application process. Thus, Sndvol has no application-specific icon to use by default, and the client must call <b>SetIconPath</b> to avoid displaying a meaningless icon.
 
-The display icon does not persist beyond the lifetime of the <a href="https://msdn.microsoft.com/4446140e-2e61-40ed-b0f9-4c1b90e7c2de">IAudioSessionControl</a> object. Thus, after all references to the object are released, a subsequently created version of the object (with the same application, same session GUID, and same endpoint device) will once again have a default icon until the client calls <b>SetIconPath</b>.
+The display icon does not persist beyond the lifetime of the <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol">IAudioSessionControl</a> object. Thus, after all references to the object are released, a subsequently created version of the object (with the same application, same session GUID, and same endpoint device) will once again have a default icon until the client calls <b>SetIconPath</b>.
 
-The client can retrieve the display icon for the session by calling the <a href="https://msdn.microsoft.com/e5b2721a-fd0a-483d-a94c-6e1520f5764c">IAudioSessionControl::GetIconPath</a> method.
+The client can retrieve the display icon for the session by calling the <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol-geticonpath">IAudioSessionControl::GetIconPath</a> method.
 
 
 
@@ -140,11 +140,11 @@ The client can retrieve the display icon for the session by calling the <a href=
 
 
 
-<a href="https://msdn.microsoft.com/4446140e-2e61-40ed-b0f9-4c1b90e7c2de">IAudioSessionControl Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol">IAudioSessionControl Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5b2721a-fd0a-483d-a94c-6e1520f5764c">IAudioSessionControl::GetIconPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol-geticonpath">IAudioSessionControl::GetIconPath</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>MS_ADDINFO_BLOB</b> structure provides additional information for in-memory <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a> subject types.
+The <b>MS_ADDINFO_BLOB</b> structure provides additional information for in-memory <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> subject types.
 
 
 ## -struct-fields

@@ -62,7 +62,7 @@ This property is read-only.
 
 
 
-The rule's type is specified when you call the <a href="https://msdn.microsoft.com/ca9a97b7-eadd-4f57-8f3a-afa439222f21">IFsrmClassificationManager::CreateRule</a> method to create the rule.
+The rule's type is specified when you call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-createrule">IFsrmClassificationManager::CreateRule</a> method to create the rule.
 
 The name and rule type properties define a unique rule.
 
@@ -74,7 +74,7 @@ The name and rule type properties define a unique rule.
 
 
 
-<a href="https://msdn.microsoft.com/e1de871f-a2c9-4787-a3e8-8c3428e9249e">IFsrmRule</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmrule">IFsrmRule</a>
  
 
  

@@ -80,19 +80,19 @@ The recognizer is not confident that the result is in the list of alternates.
 
 
 
-<a href="https://msdn.microsoft.com/4a27163b-e55a-4ced-8943-9a8ac161794c">Confidence Property [IInkGesture Interface]</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkgesture-get_confidence">Confidence Property [IInkGesture Interface]</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd7ee250-6f76-419b-8164-0d2717ea288c">IInkRecognitionResult Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult">IInkRecognitionResult Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/97f982b6-f330-4053-91a9-2a4edc13b4b0">IInkRecognizer Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/286283ca-a8ad-4fc5-ae46-09a3e6382e2a">TopConfidence Property [IInkRecognitionResult Interface]</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionresult-get_topconfidence">TopConfidence Property [IInkRecognitionResult Interface]</a>
  
 
  

@@ -59,7 +59,7 @@ Called by the Windows Biometric Framework to begin an asynchronous biometric cap
 
 ### -param Pipeline [in, out]
 
-Pointer to the <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae41c3e12a">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 
 ### -param Purpose [in]
@@ -155,7 +155,7 @@ There was a device failure.
 </dl>
 </td>
 <td width="60%">
-The <b>SensorContext</b> member of the <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae41c3e12a">WINBIO_PIPELINE</a> structure pointed to by the <i>Pipeline</i> argument is <b>NULL</b> or the <b>SensorHandle</b> member is set to <b>INVALID_HANDLE_VALUE</b>.
+The <b>SensorContext</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_pipeline">WINBIO_PIPELINE</a> structure pointed to by the <i>Pipeline</i> argument is <b>NULL</b> or the <b>SensorHandle</b> member is set to <b>INVALID_HANDLE_VALUE</b>.
 
 </td>
 </tr>
@@ -171,20 +171,20 @@ The <b>SensorContext</b> member of the <a href="https://msdn.microsoft.com/b5fc2
 
 This function does not block. If the adapter issues multiple commands to the sensor to prepare for a capture operation, all but the final command can be synchronous. The final command, issued immediately before <i>SensorAdapterStartCapture</i> returns control to the Windows Biometric Framework, must be asynchronous and must use overlapped I/O.
 
-To use overlapped I/O, begin by adding an <b>OVERLAPPED</b> object to the definition of the private sensor adapter context structure. This structure is available to the adapter through the <b>SensorContext</b> field of the <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae41c3e12a">WINBIO_PIPELINE</a> object.
+To use overlapped I/O, begin by adding an <b>OVERLAPPED</b> object to the definition of the private sensor adapter context structure. This structure is available to the adapter through the <b>SensorContext</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_pipeline">WINBIO_PIPELINE</a> object.
 
-When you implement <a href="https://msdn.microsoft.com/91243128-0543-4df9-bde8-74ef5ae46914">SensorAdapterAttach</a>, you must perform the following actions to initialize the <b>OVERLAPPED</b> structure:
+When you implement <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_attach_fn">SensorAdapterAttach</a>, you must perform the following actions to initialize the <b>OVERLAPPED</b> structure:
 
 <ul>
-<li>Clear the <b>OVERLAPPED</b> structure by calling the <a href="https://msdn.microsoft.com/b9d67559-c94f-4c94-bc36-0d03893df450">ZeroMemory</a> function.</li>
-<li>Create a manual reset event object by using the <a href="https://msdn.microsoft.com/1f6d946e-c74c-4599-ac3d-b709216a0900">CreateEvent</a> function. It is critical that the event object be manual rather than  auto-reset. The use of auto-reset events in overlapped I/O can lead to an unrecoverable lack of response in the I/O processing operation.</li>
+<li>Clear the <b>OVERLAPPED</b> structure by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366920(v=vs.85)">ZeroMemory</a> function.</li>
+<li>Create a manual reset event object by using the <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> function. It is critical that the event object be manual rather than  auto-reset. The use of auto-reset events in overlapped I/O can lead to an unrecoverable lack of response in the I/O processing operation.</li>
 <li>Save the handle of this event in the <b>hEvent</b> member of the <b>OVERLAPPED</b> structure.</li>
 </ul>
-When you implement <a href="https://msdn.microsoft.com/58124c44-4343-44c1-84a2-c03455d68199">SensorAdapterDetach</a>, you must release the event object by calling the <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function. It is important not to release this handle until after all input and output operations related to the capture have been completed or canceled.
+When you implement <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_detach_fn">SensorAdapterDetach</a>, you must release the event object by calling the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function. It is important not to release this handle until after all input and output operations related to the capture have been completed or canceled.
 
-The Windows Biometric Framework uses the <b>OVERLAPPED</b> object when it calls operating system functions such as <a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a> and <a href="https://msdn.microsoft.com/51afb13c-ea7a-407a-9f21-345d84f3b96b">WaitForMultipleObjects</a> to determine when the capture operation has completed.
+The Windows Biometric Framework uses the <b>OVERLAPPED</b> object when it calls operating system functions such as <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> and <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjects">WaitForMultipleObjects</a> to determine when the capture operation has completed.
 
-The event handle in the <b>OVERLAPPED</b> structure must be in the non-signaled state when <i>SensorAdapterStartCapture</i> returns. Calling <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> to start an overlapped I/O operation automatically resets the event. If your adapter uses some other mechanism to start an I/O operation, you must reset the event yourself.
+The event handle in the <b>OVERLAPPED</b> structure must be in the non-signaled state when <i>SensorAdapterStartCapture</i> returns. Calling <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> to start an overlapped I/O operation automatically resets the event. If your adapter uses some other mechanism to start an I/O operation, you must reset the event yourself.
 
 The Windows Biometric Framework guarantees that only one asynchronous I/O operation is outstanding at any time for each biometric unit. Consequently, the sensor adapter only needs one <b>OVERLAPPED</b> structure for each processing pipeline.
 
@@ -446,11 +446,11 @@ SensorAdapterStartCapture(
 
 
 
-<a href="https://msdn.microsoft.com/5f04d912-f9bc-41d4-aa9e-b843e4b5a994">Plug-in Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/f9ede590-5208-40ed-ac62-604a2d13a5a6">SensorAdapterFinishCapture</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_finish_capture_fn">SensorAdapterFinishCapture</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Default constructor for <code>XMU565</code>
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee420413(v=VS.85).aspx">XMU565</a>
+Default constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565">XMU565</a>
 
 <div class="alert"><b>Note</b>  This is only available for C++ based development.
     </div><div> </div>
@@ -82,11 +82,11 @@ Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee4204
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420413(v=VS.85).aspx">XMU565</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565">XMU565</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415440(v=VS.85).aspx">XMU565 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmu565-ctor">XMU565 Constructors</a>
  
 
  

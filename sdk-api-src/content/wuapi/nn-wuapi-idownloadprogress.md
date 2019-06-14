@@ -54,7 +54,7 @@ Represents the progress of an asynchronous download operation.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDownloadProgress</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IDownloadProgress</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDownloadProgress</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IDownloadProgress</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IDownloadProgress</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e7474a0a-98dc-4dd6-b5b8-8f88f0539f9a">GetUpdateResult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-idownloadprogress-getupdateresult">GetUpdateResult</a>
 </td>
 <td align="left" width="63%">
 Returns the result of the download of a specified update.
@@ -88,7 +88,7 @@ Returns the result of the download of a specified update.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/48ba3ab9-405d-474b-a85b-fe70db343433">CurrentUpdateBytesDownloaded</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-idownloadprogress-get_currentupdatebytesdownloaded">CurrentUpdateBytesDownloaded</a>
 
 
 </td>
@@ -104,7 +104,7 @@ Gets a string that specifies how much data has been transferred for the content 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/6e3ac04f-b827-4369-981e-af7a437f5e5c">CurrentUpdateBytesToDownload</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-idownloadprogress-get_currentupdatebytestodownload">CurrentUpdateBytesToDownload</a>
 
 
 </td>
@@ -120,7 +120,7 @@ Gets a string that estimates how much data should be transferred for the content
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/5c94b0e9-c137-4677-a014-b8467a8049e5">CurrentUpdateDownloadPhase</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-idownloadprogress-get_currentupdatedownloadphase">CurrentUpdateDownloadPhase</a>
 
 
 </td>
@@ -129,14 +129,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets a <a href="https://msdn.microsoft.com/a7e930dd-1dfa-42cc-9761-d4252c9a92ae">DownloadPhase</a> enumeration value that specifies the phase of the download that is currently in progress.
+Gets a <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-tagdownloadphase">DownloadPhase</a> enumeration value that specifies the phase of the download that is currently in progress.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/e357229d-cfb3-4ed6-b5b4-2e830fbda1ba">CurrentUpdateIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/aa385880(v=vs.85)">CurrentUpdateIndex</a>
 
 
 </td>
@@ -152,7 +152,7 @@ Gets a zero-based index value that specifies the update that is currently being 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/7dad425f-721a-4c4a-938b-d4de51f38dee">CurrentUpdatePercentComplete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-idownloadprogress-get_currentupdatepercentcomplete">CurrentUpdatePercentComplete</a>
 
 
 </td>
@@ -168,7 +168,7 @@ Gets an estimate of the percentage of the current update that has been downloade
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/af6a4424-eaf4-438b-b879-a9f3da3044ca">PercentComplete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-idownloadprogress-get_percentcomplete">PercentComplete</a>
 
 
 </td>
@@ -184,7 +184,7 @@ Gets an estimate of the percentage of all the updates that have been downloaded.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/83d8f7d2-e06d-461a-be45-ebbb448b2480">TotalBytesDownloaded</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-idownloadprogress-get_totalbytesdownloaded">TotalBytesDownloaded</a>
 
 
 </td>
@@ -200,7 +200,7 @@ Gets a string that specifies the total amount of data that has been downloaded, 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/607e1d18-1df3-40c1-9104-de902561ede0">TotalBytesToDownload</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-idownloadprogress-get_totalbytestodownload">TotalBytesToDownload</a>
 
 
 </td>

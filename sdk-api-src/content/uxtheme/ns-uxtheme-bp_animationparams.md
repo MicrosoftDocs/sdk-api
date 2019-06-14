@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines animation parameters for the <a href="https://msdn.microsoft.com/en-us/library/Bb773228(v=VS.85).aspx">BP_PAINTPARAMS</a> structure used by <a href="https://msdn.microsoft.com/en-us/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a>.
+Defines animation parameters for the <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-_bp_paintparams">BP_PAINTPARAMS</a> structure used by <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedpaint">BeginBufferedPaint</a>.
 
 
 ## -struct-fields
@@ -59,28 +59,28 @@ Defines animation parameters for the <a href="https://msdn.microsoft.com/en-us/l
 
 ### -field cbSize
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 The size, in bytes, of this structure.
 
 
 ### -field dwFlags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Reserved. 
 
 
 ### -field style
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb759833(v=VS.85).aspx">BP_ANIMATIONSTYLE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ne-uxtheme-_bp_animationstyle">BP_ANIMATIONSTYLE</a></b>
 
 Animation style.
 
 
 ### -field dwDuration
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Length of the animation, in milliseconds.
 

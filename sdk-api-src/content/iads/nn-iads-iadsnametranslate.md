@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 The <b>IADsNameTranslate</b>interface translates distinguished names (DNs) among various
   formats as defined in the 
-   <a href="https://msdn.microsoft.com/8c5e8f2a-e805-463e-9583-96732d70b209">ADS_NAME_TYPE_ENUM</a> enumeration.
+   <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0050_0001">ADS_NAME_TYPE_ENUM</a> enumeration.
   The feature is available to objects in Active Directory.
 
 Name
@@ -63,25 +63,25 @@ Name
 First, create an instance of the <b>IADsNameTranslate</b> object.
 
 Second, initialize the <b>IADsNameTranslate</b>object by specifying the directory server using the  
-     <a href="https://msdn.microsoft.com/dad31301-b18b-44ec-b32f-93d0bb5b6189">IADsNameTranslate::Init</a>or 
-     <a href="https://msdn.microsoft.com/169e1e0d-26c0-484d-b461-8817d37d17b8">IADsNameTranslate::InitEx</a> methods.
+     <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-init">IADsNameTranslate::Init</a>or 
+     <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-initex">IADsNameTranslate::InitEx</a> methods.
 
-Third, set the directory object on the server by specifying the name with the <a href="https://msdn.microsoft.com/1c126333-3d5c-4ba3-8c66-de778e26488f">IADsNameTranslate::Set</a> method and the format with the <a href="https://msdn.microsoft.com/e8a5014e-d848-46b7-a336-7801ff1f6b08">IADsNameTranslate::SetEx</a> method.
+Third, set the directory object on the server by specifying the name with the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-set">IADsNameTranslate::Set</a> method and the format with the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-setex">IADsNameTranslate::SetEx</a> method.
 
-Fourth, retrieve the object name in the specified format with the <a href="https://msdn.microsoft.com/6c8246a9-657e-4db1-ae8f-d9c0a2d41397">IADsNameTranslate::Get</a>or 
-     <a href="https://msdn.microsoft.com/01c4fc79-ed5b-4a24-9b97-25b4095a9c8f">IADsNameTranslate::GetEx</a> method.
+Fourth, retrieve the object name in the specified format with the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-get">IADsNameTranslate::Get</a>or 
+     <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-getex">IADsNameTranslate::GetEx</a> method.
 
 The following code example shows how to create an <b>IADsNameTranslate</b> object in Visual C++, Visual Basic, and
   VBScript/Active Server Pages.
-<div class="alert"><b>Note</b>  The format elements as defined in the <a href="https://msdn.microsoft.com/8c5e8f2a-e805-463e-9583-96732d70b209">ADS_NAME_TYPE_ENUM</a> enumeration and used
+<div class="alert"><b>Note</b>  The format elements as defined in the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0050_0001">ADS_NAME_TYPE_ENUM</a> enumeration and used
   by <b>IADsNameTranslate</b> are not equivalent and are 
   non-interchangeable with the format elements used by the
-  <a href="https://msdn.microsoft.com/f812a001-5aab-4c62-87bd-54f95792e271">DsCrackName</a> function. Do not confuse the proper use of these similarly named but non-interchangeable element
+  <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dscracknamesa">DsCrackName</a> function. Do not confuse the proper use of these similarly named but non-interchangeable element
   formats.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsNameTranslate</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IADsNameTranslate</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsNameTranslate</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IADsNameTranslate</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -97,25 +97,25 @@ The <b>IADsNameTranslate</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6c8246a9-657e-4db1-ae8f-d9c0a2d41397">Get</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-get">Get</a>
 </td>
 <td align="left" width="63%">
-Gets the object name, set by <a href="https://msdn.microsoft.com/1c126333-3d5c-4ba3-8c66-de778e26488f">Set</a>, in a specified format.
+Gets the object name, set by <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-set">Set</a>, in a specified format.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/01c4fc79-ed5b-4a24-9b97-25b4095a9c8f">GetEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-getex">GetEx</a>
 </td>
 <td align="left" width="63%">
-Gets the names of the objects, set by <a href="https://msdn.microsoft.com/e8a5014e-d848-46b7-a336-7801ff1f6b08">SetEx</a>, in a specified format.
+Gets the names of the objects, set by <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-setex">SetEx</a>, in a specified format.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dad31301-b18b-44ec-b32f-93d0bb5b6189">Init</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-init">Init</a>
 </td>
 <td align="left" width="63%">
 Initializes the <b>IADsNameTranslate</b>object with default credentials.
@@ -124,7 +124,7 @@ Initializes the <b>IADsNameTranslate</b>object with default credentials.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/169e1e0d-26c0-484d-b461-8817d37d17b8">InitEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-initex">InitEx</a>
 </td>
 <td align="left" width="63%">
 Initializes the <b>IADsNameTranslate</b>object with specified credentials.
@@ -133,7 +133,7 @@ Initializes the <b>IADsNameTranslate</b>object with specified credentials.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1c126333-3d5c-4ba3-8c66-de778e26488f">Set</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-set">Set</a>
 </td>
 <td align="left" width="63%">
 Specifies the object name to translate.
@@ -142,7 +142,7 @@ Specifies the object name to translate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e8a5014e-d848-46b7-a336-7801ff1f6b08">SetEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-setex">SetEx</a>
 </td>
 <td align="left" width="63%">
 Sets the names of multiple objects at the same time.
@@ -160,7 +160,7 @@ Sets the names of multiple objects at the same time.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/7c44fe9b-16a5-4bd5-a80b-8f3dcfec20cc">ChaseReferral</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsnametranslate-property-methods">ChaseReferral</a>
 
 
 </td>
@@ -181,48 +181,48 @@ Toggles referral chasing ON or OFF.
 
 
 
-<a href="https://msdn.microsoft.com/8c5e8f2a-e805-463e-9583-96732d70b209">ADS_NAME_TYPE_ENUM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0050_0001">ADS_NAME_TYPE_ENUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c44fe9b-16a5-4bd5-a80b-8f3dcfec20cc">IADsNameTranslate
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsnametranslate-property-methods">IADsNameTranslate
     Property Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/c5c6e821-f19b-4269-81de-34c79dd2731f">IADsNameTranslate Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsnametranslate-interface">IADsNameTranslate Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c8246a9-657e-4db1-ae8f-d9c0a2d41397">IADsNameTranslate::Get</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-get">IADsNameTranslate::Get</a>
 
 
 
-<a href="https://msdn.microsoft.com/01c4fc79-ed5b-4a24-9b97-25b4095a9c8f">IADsNameTranslate::GetEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-getex">IADsNameTranslate::GetEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/dad31301-b18b-44ec-b32f-93d0bb5b6189">IADsNameTranslate::Init</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-init">IADsNameTranslate::Init</a>
 
 
 
-<a href="https://msdn.microsoft.com/169e1e0d-26c0-484d-b461-8817d37d17b8">IADsNameTranslate::InitEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-initex">IADsNameTranslate::InitEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/1c126333-3d5c-4ba3-8c66-de778e26488f">IADsNameTranslate::Set</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-set">IADsNameTranslate::Set</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8a5014e-d848-46b7-a336-7801ff1f6b08">IADsNameTranslate::SetEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-setex">IADsNameTranslate::SetEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

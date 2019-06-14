@@ -65,7 +65,7 @@ The <b>GetLoggingUrl</b> method retrieves a URL from the list of servers that re
 
 ### -param dwIndex [in]
 
-Specifies which URL to retrieve, indexed from zero. To get the number of URLs, call the <a href="https://msdn.microsoft.com/en-us/library/Dd743528(v=VS.85).aspx">IWMReaderNetworkConfig::GetLoggingUrlCount</a> method.
+Specifies which URL to retrieve, indexed from zero. To get the number of URLs, call the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getloggingurlcount">IWMReaderNetworkConfig::GetLoggingUrlCount</a> method.
 
 
 ### -param pwszUrl [out]
@@ -142,11 +142,11 @@ You should make two calls to <b>GetLoggingUrl</b>. On the first call, pass <b>NU
 
 
 
-<a href="https://msdn.microsoft.com/3e0d0fea-4370-41f8-b461-73a37de8d8bc">Client Logging</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/client">Client Logging</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
  
 
  

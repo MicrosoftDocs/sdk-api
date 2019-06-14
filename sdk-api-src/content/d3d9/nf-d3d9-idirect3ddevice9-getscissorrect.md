@@ -69,7 +69,7 @@ Returns a pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be the following:
      D3DERR_INVALIDCALL.
@@ -83,7 +83,7 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 The scissor rectangle is used as a rectangular clipping region.
 
-See <a href="https://msdn.microsoft.com/en-us/library/Bb147318(v=VS.85).aspx">Rectangles (Direct3D 9)</a> for further information on the use of rectangles in DirectX.
+See <a href="https://docs.microsoft.com/windows/desktop/direct3d9/rectangles">Rectangles (Direct3D 9)</a> for further information on the use of rectangles in DirectX.
 
 
 
@@ -93,7 +93,7 @@ See <a href="https://msdn.microsoft.com/en-us/library/Bb147318(v=VS.85).aspx">Re
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
  
 
  

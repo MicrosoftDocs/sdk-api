@@ -60,7 +60,7 @@ The <b>WinHttpGetDefaultProxyConfiguration</b> function retrieves the default Wi
 ### -param pProxyInfo [in, out]
 
 A pointer to a variable of type 
-<a href="https://msdn.microsoft.com/acb51bc5-43e2-4657-96eb-8e3d3e82e018">WINHTTP_PROXY_INFO</a> that receives the default proxy configuration.
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-__unnamed_struct_3">WINHTTP_PROXY_INFO</a> that receives the default proxy configuration.
 
 
 ## -returns
@@ -68,7 +68,7 @@ A pointer to a variable of type
 
 
 Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To retrieve a specific error message, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. Error codes returned include the following.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Error codes returned include the following.
 
 <table>
 <tr>
@@ -108,12 +108,12 @@ Not enough memory was available to complete the requested operation. (Windows er
 
 
 <b>WinHttpGetDefaultProxyConfiguration</b> retrieves the proxy configuration set by 
-<a href="https://msdn.microsoft.com/df95703b-8fa0-4ea4-b9e6-7f19aa8c1941">WinHttpSetDefaultProxyConfiguration</a> or 
-<a href="https://msdn.microsoft.com/f96adf59-59be-414e-ad6f-9eac05f4b975">ProxyCfg.exe</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsetdefaultproxyconfiguration">WinHttpSetDefaultProxyConfiguration</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/WinHttp/proxycfg-exe--a-proxy-configuration-tool">ProxyCfg.exe</a>.
 
 The default proxy configuration can be overridden for a WinHTTP session by calling 
-<a href="https://msdn.microsoft.com/bcf1da09-5787-4d2a-82ae-6965e27fa477">WinHttpSetOption</a> and specifying the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384066(v=VS.85).aspx">WINHTTP_OPTION_PROXY</a> flag.  
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsetoption">WinHttpSetOption</a> and specifying the 
+<a href="https://docs.microsoft.com/windows/desktop/WinHttp/option-flags">WINHTTP_OPTION_PROXY</a> flag.  
 <b>WinHttpGetDefaultProxyConfiguration</b> does not retrieve the configuration for the current session.  It retrieves the configuration specified in the registry.
 
 If the registry contains a list of proxy servers, the 
@@ -123,12 +123,12 @@ If the registry contains a list of proxy servers, the
 <b>WINHTTP_ACCESS_TYPE_NO_PROXY</b>.
 
 <b>WinHttpGetDefaultProxyConfiguration</b> allocates memory for the string members of 
-<i>pProxyInfo</i>.  To free this memory, call <a href="https://msdn.microsoft.com/5fe910ac-f857-45ca-9c0f-4f9ba3c5e61b">GlobalFree</a>.
+<i>pProxyInfo</i>.  To free this memory, call <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalfree">GlobalFree</a>.
 
-Even when  WinHTTP is used in asynchronous mode (that is, when <b>WINHTTP_FLAG_ASYNC</b> has been set in <a href="https://msdn.microsoft.com/34ce8f7d-7cc3-4b38-ba6a-1247f50ebd33">WinHttpOpen</a>), this function operates synchronously. The return value indicates success or failure.  To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+Even when  WinHTTP is used in asynchronous mode (that is, when <b>WINHTTP_FLAG_ASYNC</b> has been set in <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>), this function operates synchronously. The return value indicates success or failure.  To get extended error information, call 
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-<div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Run-Time Requirements</a> section of the WinHTTP Start Page.</div>
+<div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Run-Time Requirements</a> section of the WinHTTP Start Page.</div>
 <div> </div>
 
 #### Examples
@@ -169,15 +169,15 @@ The following code example shows how to retrieve the default proxy configuration
 
 
 
-<a href="https://msdn.microsoft.com/f96adf59-59be-414e-ad6f-9eac05f4b975">ProxyCfg.exe, a Proxy Configuration Tool</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinHttp/proxycfg-exe--a-proxy-configuration-tool">ProxyCfg.exe, a Proxy Configuration Tool</a>
 
 
 
-<a href="https://msdn.microsoft.com/b69e5087-7849-4cbc-a97b-204a26fdd044">WinHTTP Versions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP Versions</a>
 
 
 
-<a href="https://msdn.microsoft.com/df95703b-8fa0-4ea4-b9e6-7f19aa8c1941">WinHttpSetDefaultProxyConfiguration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsetdefaultproxyconfiguration">WinHttpSetDefaultProxyConfiguration</a>
  
 
  

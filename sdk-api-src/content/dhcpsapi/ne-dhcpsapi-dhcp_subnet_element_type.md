@@ -100,7 +100,7 @@ The subnet element contains the IP addresses served by BOOTP to the subnet (spec
 
 
 
-<a href="https://msdn.microsoft.com/ea6df1bc-2d15-4a09-8100-ee17d3de34d9">DHCP_SUBNET_ELEMENT_DATA_V5</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_subnet_element_data_v5">DHCP_SUBNET_ELEMENT_DATA_V5</a>
  
 
  

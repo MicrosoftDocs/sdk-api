@@ -61,29 +61,29 @@ Creates or modifies a function instance.
 
 ### -param enumSystemVisibility [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Aa364818(v=VS.85).aspx">SystemVisibilityFlags</a> value that specifies whether the created function instance is visible system wide or only to the current user. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/ne-functiondiscoveryapi-tagsystemvisibilityflags">SystemVisibilityFlags</a> value that specifies whether the created function instance is visible system wide or only to the current user. 
 
 <div class="alert"><b>Note</b>  The function instance is stored in HKEY_LOCAL_MACHINE regardless  of the <i>enumSystemVisibility</i> value. The user must have Administrator access to add a function instance.</div>
 <div> </div>
 
 ### -param pszCategory [in]
 
-The category of the created function instance. See <a href="https://msdn.microsoft.com/84633d91-d193-437c-b1cf-9bc491ad416c">Category Definitions</a>.
+The category of the created function instance. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/category-definitions">Category Definitions</a>.
 
 
 ### -param pszSubCategory [in]
 
-The subcategory of the created function instance. See <a href="https://msdn.microsoft.com/9793e37d-6c12-431f-95d6-fd5350f11029">Subcategory Definitions</a>. The maximum length of this string is MAX_PATH.
+The subcategory of the created function instance. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/subcategory-definitions">Subcategory Definitions</a>. The maximum length of this string is MAX_PATH.
 
 
 ### -param pszCategoryIdentity [in]
 
-The provider instance identifier string. This string is returned from <a href="https://msdn.microsoft.com/fad5e3f0-a440-4b09-ba8c-04bae2d14a2a">GetProviderInstanceID</a>.
+The provider instance identifier string. This string is returned from <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstance-getproviderinstanceid">GetProviderInstanceID</a>.
 
 
 ### -param ppIFunctionInstance [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/cc421719-73a6-4d4d-9bf8-171e46c4e275">IFunctionInstance</a>  interface pointer that receives the function instance.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a>  interface pointer that receives the function instance.
 
 
 ## -returns
@@ -148,7 +148,7 @@ The user has insufficient access permission to perform the requested action.
 </dl>
 </td>
 <td width="60%">
-The provider does not support adding function instances directly using the <a href="https://msdn.microsoft.com/a99213b5-b310-4ce2-99ca-07b343f08c4d">AddInstance</a> method.
+The provider does not support adding function instances directly using the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscovery-addinstance">AddInstance</a> method.
 
 </td>
 </tr>
@@ -185,13 +185,13 @@ An invalid parameter was specified. This error is returned when the length of th
 
 
 
-This method temporarily creates a new function instance for the specified category and subcategory.  The provider that implements the category is responsible for persisting the metadata associated with the newly created function instance using the <a href="https://msdn.microsoft.com/143a4f62-7093-4127-b89e-e7d0985a92bb">IFunctionDiscoveryProviderFactory::CreateInstance</a> method.
+This method temporarily creates a new function instance for the specified category and subcategory.  The provider that implements the category is responsible for persisting the metadata associated with the newly created function instance using the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-ifunctiondiscoveryproviderfactory-createinstance">IFunctionDiscoveryProviderFactory::CreateInstance</a> method.
 
-The function instance is not written to the registry if its associated property store does not have any values. Use the <a href="https://msdn.microsoft.com/3e03567b-7bac-4bef-ae62-a040f0c33cfb">IFunctionInstance::OpenPropertyStore</a> method to check the property store values.
+The function instance is not written to the registry if its associated property store does not have any values. Use the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstance-openpropertystore">IFunctionInstance::OpenPropertyStore</a> method to check the property store values.
 
-If a function instance already exists for the specified category and subcategory, the existing registry entry is overwritten. The <b>AddInstance</b> method returns S_OK. The Function Discovery change notification process invokes the calling application's <a href="https://msdn.microsoft.com/ab4d0fc6-de3f-49cf-b53c-573222a8bc89">IFunctionDiscoveryNotification::OnUpdate</a> method with <i>enumQueryUpdateAction</i> set to <b>QUA_CHANGE</b>.  
+If a function instance already exists for the specified category and subcategory, the existing registry entry is overwritten. The <b>AddInstance</b> method returns S_OK. The Function Discovery change notification process invokes the calling application's <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscoverynotification-onupdate">IFunctionDiscoveryNotification::OnUpdate</a> method with <i>enumQueryUpdateAction</i> set to <b>QUA_CHANGE</b>.  
 
-<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/ab4d0fc6-de3f-49cf-b53c-573222a8bc89">IFunctionDiscoveryNotification::OnUpdate</a> method is not supported by any current provider.</div>
+<div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscoverynotification-onupdate">IFunctionDiscoveryNotification::OnUpdate</a> method is not supported by any current provider.</div>
 <div> </div>
 Whether the new function instance is capable of being visible system-wide or only to the user depends on the provider. The registry provider initially sets its default function instance visibility to system wide.
 
@@ -205,7 +205,7 @@ Access permission to change HKEY_LOCAL_MACHINE\SYSTEM registry keys is required 
 
 
 
-<a href="https://msdn.microsoft.com/352a8d61-7d3a-423d-8b7e-1163d4fa1e00">IFunctionDiscovery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscovery">IFunctionDiscovery</a>
  
 
  

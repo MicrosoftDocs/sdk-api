@@ -79,11 +79,11 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="https://msdn.microsoft.com/1d6c18f0-e7f1-4a1c-9edb-e4b66297becf">ILocator</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator">ILocator</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd693589(v=VS.85).aspx">put_SymbolRate</a>
+<a href="https://docs.microsoft.com/previous-versions//dd693589(v=vs.85)">put_SymbolRate</a>
  
 
  

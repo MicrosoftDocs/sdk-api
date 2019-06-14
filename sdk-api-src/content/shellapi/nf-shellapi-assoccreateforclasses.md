@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves an object that implements an <a href="https://msdn.microsoft.com/8edb99d3-5860-4d78-a750-1df34cdfc313">IQueryAssociations</a> interface.
+Retrieves an object that implements an <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a> interface.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ Retrieves an object that implements an <a href="https://msdn.microsoft.com/8edb9
 
 ### -param rgClasses [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/1d1a963f-7ebb-4ba6-9a97-795c8ef11ae4">ASSOCIATIONELEMENT</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-associationelement">ASSOCIATIONELEMENT</a>*</b>
 
-A pointer to an array of <a href="https://msdn.microsoft.com/1d1a963f-7ebb-4ba6-9a97-795c8ef11ae4">ASSOCIATIONELEMENT</a> structures.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-associationelement">ASSOCIATIONELEMENT</a> structures.
 
 
 ### -param cClasses [in]
@@ -84,7 +84,7 @@ Reference to the desired IID, normally IID_IQueryAssociations.
 
 Type: <b>void**</b>
 
-When this method returns, contains the interface pointer requested in <i>riid</i>. This is normally <a href="https://msdn.microsoft.com/8edb99d3-5860-4d78-a750-1df34cdfc313">IQueryAssociations</a>.
+When this method returns, contains the interface pointer requested in <i>riid</i>. This is normally <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a>.
 
 
 ## -returns
@@ -102,7 +102,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-For systems earlier than Windows Vista, use the <a href="https://msdn.microsoft.com/33099e0e-73e3-4047-804f-765a59e42e3f">AssocCreate</a> function.
+For systems earlier than Windows Vista, use the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-assoccreate">AssocCreate</a> function.
 
 
 

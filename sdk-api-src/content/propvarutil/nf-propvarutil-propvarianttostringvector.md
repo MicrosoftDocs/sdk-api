@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Extracts a vector of strings from a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure.
+Extracts a vector of strings from a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure.
 
 
 ## -parameters
@@ -61,14 +61,14 @@ Extracts a vector of strings from a <a href="https://msdn.microsoft.com/e86cc279
 
 Type: <b>REFPROPVARIANT</b>
 
-Reference to a source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure.
+Reference to a source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure.
 
 
 ### -param prgsz [out]
 
 Type: <b>PWSTR*</b>
 
-Pointer to a vector of string pointers. When this function returns, the buffer has been initialized with <i>pcElem</i> elements pointing to newly allocated strings containing the data extracted from the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+Pointer to a vector of string pointers. When this function returns, the buffer has been initialized with <i>pcElem</i> elements pointing to newly allocated strings containing the data extracted from the source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>.
 
 
 ### -param crgsz [in]
@@ -82,7 +82,7 @@ Size of the buffer pointed to by <i>prgsz</i>, in elements.
 
 Type: <b>ULONG*</b>
 
- When this function returns, contains the count of strings extracted from source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure.
+ When this function returns, contains the count of strings extracted from source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure.
 
 
 ## -returns
@@ -116,7 +116,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 </dl>
 </td>
 <td width="60%">
-The source<a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>contained more than <i>crgsz</i> values. The buffer pointed to by <i>prgsz</i>.
+The source<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>contained more than <i>crgsz</i> values. The buffer pointed to by <i>prgsz</i>.
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ The source<a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060e
 </dl>
 </td>
 <td width="60%">
-The<a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>was not of the appropriate type.
+The<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>was not of the appropriate type.
 
 </td>
 </tr>
@@ -141,9 +141,9 @@ The<a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PRO
 
 
 
-This helper function is used in places where the calling application expects a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> to hold an vector of string values with a fixed number of elements.
+This helper function is used in places where the calling application expects a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> to hold an vector of string values with a fixed number of elements.
 
-This function works for the following <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> types:
+This function works for the following <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> types:
             
 
 <ul>
@@ -151,11 +151,11 @@ This function works for the following <a href="https://msdn.microsoft.com/e86cc2
 <li>VT_VECTOR | VT_BSTR</li>
 <li>VT_ARRAY | VT_BSTR</li>
 </ul>
-If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> has a supported type, this helper function extracts up to <i>crgsz</i> string values and places an allocated copy of each into the buffer pointed to by prgsz. If the<b>PROPVARIANT</b>contains more elements than will fit into the <i>prgsz</i> buffer, this function returns an error and sets <i>pcElem</i> to 0.
+If the source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> has a supported type, this helper function extracts up to <i>crgsz</i> string values and places an allocated copy of each into the buffer pointed to by prgsz. If the<b>PROPVARIANT</b>contains more elements than will fit into the <i>prgsz</i> buffer, this function returns an error and sets <i>pcElem</i> to 0.
 
-Since each string in pointed to by the output buffer has been newly allocated, the calling application is responsible for using <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> to free each string in the output buffer when they are no longer needed.
+Since each string in pointed to by the output buffer has been newly allocated, the calling application is responsible for using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to free each string in the output buffer when they are no longer needed.
 
-If a <b>BSTR</b> in the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> is <b>NULL</b>, it is converted to a newly allocated string containing "" in the output.
+If a <b>BSTR</b> in the source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> is <b>NULL</b>, it is converted to a newly allocated string containing "" in the output.
 
 
 #### Examples
@@ -195,23 +195,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762307(v=VS.85).aspx">InitPropVariantFromStringVector</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromstringvector">InitPropVariantFromStringVector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776527(v=VS.85).aspx">PropVariantGetStringElem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantgetstringelem">PropVariantGetStringElem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776559(v=VS.85).aspx">PropVariantToString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttostring">PropVariantToString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776562(v=VS.85).aspx">PropVariantToStringVectorAlloc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttostringvectoralloc">PropVariantToStringVectorAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776619(v=VS.85).aspx">VariantToStringArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttostringarray">VariantToStringArray</a>
  
 
  

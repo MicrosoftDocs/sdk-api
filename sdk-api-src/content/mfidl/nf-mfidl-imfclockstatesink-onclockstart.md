@@ -84,9 +84,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method is called whe the presentation clock's <a href="https://msdn.microsoft.com/ba5986d1-9c94-4747-a221-43d0583f1fed">IMFPresentationClock::Start</a> method is called, with the following exception: If the clock is paused and <b>Start</b> is called with the value <b>PRESENTATION_CURRENT_POSITION</b>, <a href="https://msdn.microsoft.com/55973dfa-59b9-4105-9706-5d5497ad2818">IMFClockStateSink::OnClockRestart</a> is called instead of <b>OnClockStart</b>.
+This method is called whe the presentation clock's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpresentationclock-start">IMFPresentationClock::Start</a> method is called, with the following exception: If the clock is paused and <b>Start</b> is called with the value <b>PRESENTATION_CURRENT_POSITION</b>, <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockrestart">IMFClockStateSink::OnClockRestart</a> is called instead of <b>OnClockStart</b>.
 
-The clock notifies the presentation time source by calling the time source's <b>OnClockStart</b> method. This call occurs synchronously within the <a href="https://msdn.microsoft.com/ba5986d1-9c94-4747-a221-43d0583f1fed">Start</a> method. If the time source returns an error from <b>OnClockStart</b>, the presentation clock's <b>Start</b> method returns an error and the state change does not take place.
+The clock notifies the presentation time source by calling the time source's <b>OnClockStart</b> method. This call occurs synchronously within the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpresentationclock-start">Start</a> method. If the time source returns an error from <b>OnClockStart</b>, the presentation clock's <b>Start</b> method returns an error and the state change does not take place.
 
 For any object that is not the presentation time source, the <b>OnClockStart</b> method is called asynchronously, after the state change is completed. In that case, the return value from this method is ignored.
 
@@ -100,15 +100,15 @@ The value given in <i>llClockStartOffset</i> is the presentation time when the c
 
 
 
-<a href="https://msdn.microsoft.com/9aa0d2cd-a687-4b3a-834d-ccc8d3a03196">IMFClockStateSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfclockstatesink">IMFClockStateSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/9273ff1f-382e-4c58-b571-4852545915b3">MFTIME</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mftime">MFTIME</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb8bb62a-ef80-4de0-9a44-3bb77edc9dd5">Presentation Clock</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/presentation-clock">Presentation Clock</a>
  
 
  

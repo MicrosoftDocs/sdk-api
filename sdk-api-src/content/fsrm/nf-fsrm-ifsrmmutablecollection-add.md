@@ -59,7 +59,7 @@ Adds an object to the collection.
 
 ### -param item [in]
 
-A <b>VARIANT</b> that contains the <a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface of the object to add to the collection. Set the variant type to <b>VT_DISPATCH</b> and the <b>pdispVal</b> member to the <b>IDispatch</b> interface of the object.
+A <b>VARIANT</b> that contains the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface of the object to add to the collection. Set the variant type to <b>VT_DISPATCH</b> and the <b>pdispVal</b> member to the <b>IDispatch</b> interface of the object.
 
 
 ## -returns
@@ -80,7 +80,7 @@ All items in the collection must be of the same type.
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/c76c0cc5-1109-46ec-be4d-c6c5f14a6df7">Using Templates to Define File Screens</a>.
+For an example, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/using-templates-to-define-file-screens">Using Templates to Define File Screens</a>.
 
 <div class="code"></div>
 
@@ -91,7 +91,7 @@ For an example, see <a href="https://msdn.microsoft.com/c76c0cc5-1109-46ec-be4d-
 
 
 
-<a href="https://msdn.microsoft.com/e41f01ef-5dd2-4066-82cd-45b57578c9bb">IFsrmMutableCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmmutablecollection">IFsrmMutableCollection</a>
  
 
  

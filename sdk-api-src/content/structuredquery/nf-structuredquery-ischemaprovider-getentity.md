@@ -67,9 +67,9 @@ The name of the entity being requested.
 
 ### -param pEntity [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231373(v=VS.85).aspx">IEntity</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-ientity">IEntity</a>**</b>
 
-Receives the address of a pointer to the requested entity. The calling application must release the entity by calling its <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method. If there is no entity with the specified name, this parameter is set to <b>NULL</b>.
+Receives the address of a pointer to the requested entity. The calling application must release the entity by calling its <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method. If there is no entity with the specified name, this parameter is set to <b>NULL</b>.
         
 
 

@@ -54,14 +54,14 @@ ms.custom: 19H1
 
 Converts a path string into a canonical form.
 
-This function differs from <a href="https://msdn.microsoft.com/fd7b8ce0-3c67-48fb-8e7e-521a6b438676">PathCchCanonicalizeEx</a> in that you are restricted to a final path of length MAX_PATH.
+This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcanonicalizeex">PathCchCanonicalizeEx</a> in that you are restricted to a final path of length MAX_PATH.
 
-This function differs from <a href="https://msdn.microsoft.com/3179fe78-a969-4ee2-a50b-5f4f7d4dad71">PathAllocCanonicalize</a> in that the caller must declare the size of the returned string, which is stored on the stack.
+This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathalloccanonicalize">PathAllocCanonicalize</a> in that the caller must declare the size of the returned string, which is stored on the stack.
 
-This function differs from <a href="https://msdn.microsoft.com/e9b1e877-2cd6-4dd9-a15b-676cb940daed">PathCanonicalize</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
+This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathcanonicalizea">PathCanonicalize</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
 
-<div class="alert"><b>Note</b>  This function, <a href="https://msdn.microsoft.com/fd7b8ce0-3c67-48fb-8e7e-521a6b438676">PathCchCanonicalizeEx</a>, or <a href="https://msdn.microsoft.com/3179fe78-a969-4ee2-a50b-5f4f7d4dad71">PathAllocCanonicalize</a> should be used in place of <a href="https://msdn.microsoft.com/e9b1e877-2cd6-4dd9-a15b-676cb940daed">PathCanonicalize</a> to prevent the possibility of a buffer overrun.</div><div> </div>
+<div class="alert"><b>Note</b>  This function, <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcanonicalizeex">PathCchCanonicalizeEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathalloccanonicalize">PathAllocCanonicalize</a> should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathcanonicalizea">PathCanonicalize</a> to prevent the possibility of a buffer overrun.</div><div> </div>
 
 ## -parameters
 
@@ -185,7 +185,7 @@ The following examples show the effect of these strings.
 
 
 
-<a href="https://msdn.microsoft.com/fd7b8ce0-3c67-48fb-8e7e-521a6b438676">PathCchCanonicalizeEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcanonicalizeex">PathCchCanonicalizeEx</a>
  
 
  

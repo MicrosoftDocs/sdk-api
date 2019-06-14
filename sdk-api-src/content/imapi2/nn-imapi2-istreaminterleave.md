@@ -71,7 +71,7 @@ The <b>IStreamInterleave</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/889db097-3a16-4c35-9a79-e4a9d8060832">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-istreaminterleave-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes this interleaved stream from an array of input streams and interleave sizes.
@@ -95,11 +95,11 @@ To create the <b>MsftStreamInterleave</b> object in a script, use IMAPI2.MsftStr
 
 
 
-<a href="https://msdn.microsoft.com/48b786ef-a1b6-4dcf-9329-c659f15185e1">IStreamConcatenate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-istreamconcatenate">IStreamConcatenate</a>
 
 
 
-<a href="https://msdn.microsoft.com/7630b8ac-41f9-4cc7-95e7-4172a876673f">IStreamPseudoRandomBased</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-istreampseudorandombased">IStreamPseudoRandomBased</a>
  
 
  

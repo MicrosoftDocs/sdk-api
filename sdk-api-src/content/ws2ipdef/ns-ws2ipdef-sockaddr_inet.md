@@ -61,18 +61,18 @@ The <b>SOCKADDR_INET</b> union contains an IPv4, an IPv6 address, or an address 
 
 Type: <b>SOCKADDR_IN</b>
 
-An IPv4 address represented as a <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">SOCKADDR_IN</a> structure containing the address family and the IPv4 address. The address family is in host byte order and the IPv4 address is  in network byte order.
+An IPv4 address represented as a <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">SOCKADDR_IN</a> structure containing the address family and the IPv4 address. The address family is in host byte order and the IPv4 address is  in network byte order.
 
-On the Windows SDK released for Windows Vista and later, the organization of header files has changed and the <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">SOCKADDR_IN</a> structure is defined in the <i>Ws2def.h</i> header file. Note that the <i>Ws2def.h</i> header file is automatically included in <i>Winsock2.h</i>, and should never be used directly.
+On the Windows SDK released for Windows Vista and later, the organization of header files has changed and the <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">SOCKADDR_IN</a> structure is defined in the <i>Ws2def.h</i> header file. Note that the <i>Ws2def.h</i> header file is automatically included in <i>Winsock2.h</i>, and should never be used directly.
 
 
 ### -field Ipv6
 
 Type: <b>SOCKADDR_IN6</b>
 
-An IPv6 address represented as a <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">SOCKADDR_IN6</a> structure containing the address family and the IPv6 address. The address family is in host byte order and the IPv6 address is  in network byte order.
+An IPv6 address represented as a <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">SOCKADDR_IN6</a> structure containing the address family and the IPv6 address. The address family is in host byte order and the IPv6 address is  in network byte order.
 
-On the Windows SDK released for Windows Vista and later, the organization of header files has changed and the <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">SOCKADDR_IN6</a> structure is defined in the <i>Ws2def.h</i> header file. Note that the <i>Ws2def.h</i> header file is automatically included in <i>Winsock2.h</i>, and should never be used directly.
+On the Windows SDK released for Windows Vista and later, the organization of header files has changed and the <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">SOCKADDR_IN6</a> structure is defined in the <i>Ws2def.h</i> header file. Note that the <i>Ws2def.h</i> header file is automatically included in <i>Winsock2.h</i>, and should never be used directly.
 
 
 ### -field si_family
@@ -133,9 +133,9 @@ The Internet Protocol version 6 (IPv6) address family.
 
 The <b>SOCKADDR_INET</b> union is defined on Windows Vista and later. 
 
-The <b>SOCKADDR_INET</b> union is a convenience structure for accessing an IPv4 address, an IPv6 address, or the IP address family without having to cast  the <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure.
+The <b>SOCKADDR_INET</b> union is a convenience structure for accessing an IPv4 address, an IPv6 address, or the IP address family without having to cast  the <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure.
 
-The <b>SOCKADDR_INET</b> union is the data type of the <b>Prefix</b> member in the <a href="https://msdn.microsoft.com/3a6598d8-77e4-46f7-9397-124157508207">IP_ADDRESS_PREFIX</a> structure  
+The <b>SOCKADDR_INET</b> union is the data type of the <b>Prefix</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_ip_address_prefix">IP_ADDRESS_PREFIX</a> structure  
 
 Note that the <i>Ws2ipdef.h</i> header file is automatically included in <i>Ws2tcpip.h</i> header file, and should never be used directly.
 
@@ -148,11 +148,11 @@ Note that the <i>Ws2ipdef.h</i> header file is automatically included in <i>Ws2t
 
 
 
-<a href="https://msdn.microsoft.com/3a6598d8-77e4-46f7-9397-124157508207">IP_ADDRESS_PREFIX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_ip_address_prefix">IP_ADDRESS_PREFIX</a>
 
 
 
-<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
  
 
  

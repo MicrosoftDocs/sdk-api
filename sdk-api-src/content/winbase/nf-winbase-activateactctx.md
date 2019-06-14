@@ -63,7 +63,7 @@ The
 ### -param hActCtx [in]
 
 Handle to an 
-<a href="https://msdn.microsoft.com/b6f97f25-1834-44f7-86b7-33339481ba60">ACTCTX</a> structure that contains information on the activation context that is to be made active.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-tagactctxa">ACTCTX</a> structure that contains information on the activation context that is to be made active.
 
 
 ### -param lpCookie [out]
@@ -78,9 +78,9 @@ Pointer to a <b>ULONG_PTR</b> that functions as a cookie, uniquely identifying a
 If the function succeeds, it returns <b>TRUE</b>. Otherwise, it returns <b>FALSE</b>.
 
 This function sets errors that can be retrieved by calling 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. For an example, see 
-<a href="https://msdn.microsoft.com/4cc626ac-7574-44ce-8377-e0bdd8e74b7e">Retrieving the Last-Error Code</a>. For a complete list of error codes, see 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. For an example, see 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/retrieving-the-last-error-code">Retrieving the Last-Error Code</a>. For a complete list of error codes, see 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -90,7 +90,7 @@ This function sets errors that can be retrieved by calling
 
 
 The <i>lpCookie</i> parameter is later passed to 
-<a href="https://msdn.microsoft.com/2a53eb1a-ce0b-4b20-a346-1ff9636a74d6">DeactivateActCtx</a>, which verifies the pairing of calls to 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-deactivateactctx">DeactivateActCtx</a>, which verifies the pairing of calls to 
 <b>ActivateActCtx</b> and 
 <b>DeactivateActCtx</b> and ensures that the appropriate activation context is being deactivated. This is done because the deactivation of activation contexts must occur in the reverse order of activation.
 
@@ -106,11 +106,11 @@ The top item of an activation context stack is the active, default-activation co
 
 
 
-<a href="https://msdn.microsoft.com/b6f97f25-1834-44f7-86b7-33339481ba60">ACTCTX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-tagactctxa">ACTCTX</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a53eb1a-ce0b-4b20-a346-1ff9636a74d6">DeactivateActCtx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-deactivateactctx">DeactivateActCtx</a>
  
 
  

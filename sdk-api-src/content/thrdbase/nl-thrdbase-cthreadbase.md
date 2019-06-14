@@ -54,7 +54,7 @@ ms.custom: 19H1
 <p class="CCE_Message">[The <b>CThreadBase</b> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>CThreadBase</b> class is a base class that supplies the internal thread safety mechanisms for the WMI Provider Framework. This class is called internally.
@@ -71,10 +71,10 @@ The <b>CThreadBase</b> class is a base class that supplies the internal thread s
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B5F1F8DD-9769-40A6-B743-4F4DF4B8C363">FlagDefs</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt432263(v=vs.85)">FlagDefs</a>
 </td>
 <td align="left" width="63%">
-Specifies which flags are valid for the specified type of operation. This enumeration is used by the <a href="https://msdn.microsoft.com/1d6d1006-99b9-4646-a5c4-835940ce3ac0">Provider::ValidateFlags</a> method.
+Specifies which flags are valid for the specified type of operation. This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-validateflags">Provider::ValidateFlags</a> method.
 
 </td>
 </tr>
@@ -87,7 +87,7 @@ Specifies which flags are valid for the specified type of operation. This enumer
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b5c4f714-b411-4a5f-af2b-0bf7ce3c9e70">BeginRead</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/thrdbase/nf-thrdbase-cthreadbase-beginread">BeginRead</a>
 </td>
 <td align="left" width="63%">
 Provides thread safety for WMI provider data access when the provider is built on the WMI Provider Framework.
@@ -96,7 +96,7 @@ Provides thread safety for WMI provider data access when the provider is built o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/51ae6b39-b524-4bf9-ac71-45c812ad1680">BeginWrite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/thrdbase/nf-thrdbase-cthreadbase-beginwrite">BeginWrite</a>
 </td>
 <td align="left" width="63%">
 Provides thread safety for WMI provider operations that write data when the provider is built on the WMI Provider Framework.
@@ -105,7 +105,7 @@ Provides thread safety for WMI provider operations that write data when the prov
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/43909501-0a65-4728-9a26-30b8391a33c5">CThreadBase</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/thrdbase/nf-thrdbase-cthreadbase-cthreadbase">CThreadBase</a>
 </td>
 <td align="left" width="63%">
 Initializes a new instance of <b>CThreadBase</b>.
@@ -114,7 +114,7 @@ Initializes a new instance of <b>CThreadBase</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e34fa8bc-f667-4fca-9282-9ca8038f3e75">EndRead</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/thrdbase/nf-thrdbase-cthreadbase-endread">EndRead</a>
 </td>
 <td align="left" width="63%">
 Provides thread safety by indicating the end of a data read operation when the provider is built on the WMI Provider Framework.
@@ -123,7 +123,7 @@ Provides thread safety by indicating the end of a data read operation when the p
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8b57bcc0-f8ca-412a-87d9-9afeb5ac8446">EndWrite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/thrdbase/nf-thrdbase-cthreadbase-endwrite">EndWrite</a>
 </td>
 <td align="left" width="63%">
 Provides thread safety by indicating the end of a data write operation when the provider is built on the WMI Provider Framework.
@@ -132,10 +132,10 @@ Provides thread safety by indicating the end of a data write operation when the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a17a379d-60ba-4a76-8900-58fabadad5ea">OnFinalRelease</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/thrdbase/nf-thrdbase-cthreadbase-onfinalrelease">OnFinalRelease</a>
 </td>
 <td align="left" width="63%">
-Virtual function called by <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> when the reference count reaches zero.
+Virtual function called by <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> when the reference count reaches zero.
 
 </td>
 </tr>

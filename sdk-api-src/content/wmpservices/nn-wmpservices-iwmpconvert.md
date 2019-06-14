@@ -57,7 +57,7 @@ The <b>IWMPConvert</b> interface provides methods to enable Windows Media Player
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPConvert</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMPConvert</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPConvert</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPConvert</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IWMPConvert</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563214(v=VS.85).aspx">ConvertFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nf-wmpservices-iwmpconvert-convertfile">ConvertFile</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to enable a conversion plug-in to convert a digital media file into ASF.
@@ -81,7 +81,7 @@ Called by Windows Media Player to enable a conversion plug-in to convert a digit
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563215(v=VS.85).aspx">GetErrorURL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nf-wmpservices-iwmpconvert-geterrorurl">GetErrorURL</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to retrieve the URL of a webpage that displays error information about a file conversion.
@@ -106,7 +106,7 @@ These methods are implemented by a conversion plug-in and called by Windows Medi
 
 
 
-<a href="https://msdn.microsoft.com/68a0bdaf-ae1b-4ba1-817b-a31c68b9fddd">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
  
 
  

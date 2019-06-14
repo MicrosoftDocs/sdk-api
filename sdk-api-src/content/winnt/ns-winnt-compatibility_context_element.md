@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>COMPATIBILITY_CONTEXT_ELEMENT</b> structure is used by the <a href="https://msdn.microsoft.com/7d45f63f-0baf-4236-b245-d36f9eb32e8c">QueryActCtxW</a> function as part of the <a href="https://msdn.microsoft.com/en-us/library/Dd765160(v=VS.85).aspx">ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION</a> structure.
+The <b>COMPATIBILITY_CONTEXT_ELEMENT</b> structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-queryactctxw">QueryActCtxW</a> function as part of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_activation_context_compatibility_information">ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION</a> structure.
 
 
 
@@ -95,5 +95,5 @@ Windows 7
 
 ### -field Type
 
-A value of the <a href="https://msdn.microsoft.com/3a3c99e5-9a73-4688-8192-baee0078c17c">ACTCTX_COMPATIBILITY_ELEMENT_TYPE</a> enumeration that describes the compatibility elements in the application manifest.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-actctx_compatibility_element_type">ACTCTX_COMPATIBILITY_ELEMENT_TYPE</a> enumeration that describes the compatibility elements in the application manifest.
 

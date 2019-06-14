@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 
 
-The <b>GetMaxPacketSize</b> method retrieves the maximum size of a <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">packet</a> in an ASF file. 
+The <b>GetMaxPacketSize</b> method retrieves the maximum size of a <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">packet</a> in an ASF file. 
 
 
 
@@ -113,7 +113,7 @@ The <i>pdwMaxPacketSize</i> parameter is <b>NULL</b>.
 
 
 
-For more information, see the Remarks section of <a href="https://msdn.microsoft.com/en-us/library/Dd757260(v=VS.85).aspx">SetMaxPacketSize</a>.
+For more information, see the Remarks section of <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmpacketsize-setmaxpacketsize">SetMaxPacketSize</a>.
 
 
 
@@ -123,11 +123,11 @@ For more information, see the Remarks section of <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757255(v=VS.85).aspx">IWMPacketSize Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpacketsize">IWMPacketSize Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757256(v=VS.85).aspx">IWMPacketSize2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpacketsize2">IWMPacketSize2</a>
  
 
  

@@ -113,7 +113,7 @@ The height, in logical units, of the source rectangle.
 
 ### -param ftn [in]
 
-The alpha-blending function for source and destination bitmaps, a global alpha value to be applied to the entire source bitmap, and format information for the source bitmap. The source and destination blend functions are currently limited to AC_SRC_OVER. See the <a href="https://msdn.microsoft.com/d1371d72-c408-4484-845e-d4ea2bc3115d">BLENDFUNCTION</a> and <a href="https://msdn.microsoft.com/3270d8ed-a174-4d77-a9a7-3e3f0cab2a23">EMRALPHABLEND</a> structures.
+The alpha-blending function for source and destination bitmaps, a global alpha value to be applied to the entire source bitmap, and format information for the source bitmap. The source and destination blend functions are currently limited to AC_SRC_OVER. See the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_blendfunction">BLENDFUNCTION</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagemralphablend">EMRALPHABLEND</a> structures.
 
 
 ## -returns
@@ -152,9 +152,9 @@ One or more of the input parameters is invalid.
 
 
 
-<div class="alert"><b>Note</b>  This function is the same as <a href="https://msdn.microsoft.com/4624aa31-7e19-4506-ac70-9b3c98a8215d">AlphaBlend</a>.</div>
+<div class="alert"><b>Note</b>  This function is the same as <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-alphablend">AlphaBlend</a>.</div>
 <div> </div>
-If the source rectangle and destination rectangle are not the same size, the source bitmap is stretched to match the destination rectangle. If the <a href="https://msdn.microsoft.com/3e5a48dc-ccd5-41ea-a24b-5c40213abf38">SetStretchBltMode</a> function is used, the <i>iStretchMode</i> value is automatically converted to COLORONCOLOR for this function (that is, BLACKONWHITE, WHITEONBLACK, and HALFTONE are changed to COLORONCOLOR).
+If the source rectangle and destination rectangle are not the same size, the source bitmap is stretched to match the destination rectangle. If the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setstretchbltmode">SetStretchBltMode</a> function is used, the <i>iStretchMode</i> value is automatically converted to COLORONCOLOR for this function (that is, BLACKONWHITE, WHITEONBLACK, and HALFTONE are changed to COLORONCOLOR).
 
 The destination coordinates are transformed by using the transformation currently specified for the destination device context. The source coordinates are transformed by using the transformation currently specified for the source device context.
 
@@ -164,7 +164,7 @@ If destination and source bitmaps do not have the same color format, <b>GdiAlpha
 
 <b>GdiAlphaBlend</b> does not support mirroring. If either the width or height of the source or destination is negative, this call will fail.
 
-When rendering to a printer, first call <a href="https://msdn.microsoft.com/d524c4c7-22af-495d-aecc-b9921e53ca7b">GetDeviceCaps</a> with SHADEBLENDCAPS to determine if the printer supports blending with <b>GdiAlphaBlend</b>. Note that, for a display DC, all blending operations are supported and these flags represent whether the operations are accelerated.
+When rendering to a printer, first call <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> with SHADEBLENDCAPS to determine if the printer supports blending with <b>GdiAlphaBlend</b>. Note that, for a display DC, all blending operations are supported and these flags represent whether the operations are accelerated.
 
 If the source and destination are the same surface, that is, they are both the screen or the same memory bitmap and the source and destination rectangles overlap, an error occurs and the function returns <b>FALSE</b>.
 
@@ -172,7 +172,7 @@ The source rectangle must lie completely within the source surface, otherwise an
 
 <b>GdiAlphaBlend</b> fails if the width or height of the source or destination is negative.
 
-The <b>SourceConstantAlpha</b> member of <a href="https://msdn.microsoft.com/d1371d72-c408-4484-845e-d4ea2bc3115d">BLENDFUNCTION</a> specifies an alpha transparency value to be used on the entire source bitmap. The <b>SourceConstantAlpha</b> value is combined with any per-pixel alpha values. If <b>SourceConstantAlpha</b> is 0, it is assumed that the image is transparent. Set the <b>SourceConstantAlpha</b> value to 255 (which indicates that the image is opaque) when you only want to use per-pixel alpha values.
+The <b>SourceConstantAlpha</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_blendfunction">BLENDFUNCTION</a> specifies an alpha transparency value to be used on the entire source bitmap. The <b>SourceConstantAlpha</b> value is combined with any per-pixel alpha values. If <b>SourceConstantAlpha</b> is 0, it is assumed that the image is transparent. Set the <b>SourceConstantAlpha</b> value to 255 (which indicates that the image is opaque) when you only want to use per-pixel alpha values.
 
 
 
@@ -182,27 +182,27 @@ The <b>SourceConstantAlpha</b> member of <a href="https://msdn.microsoft.com/d13
 
 
 
-<a href="https://msdn.microsoft.com/d1371d72-c408-4484-845e-d4ea2bc3115d">BLENDFUNCTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_blendfunction">BLENDFUNCTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/ef3abc8a-5d95-41d0-8eb6-47719d472414">Bitmap Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/ff0a5ae3-ae2e-4417-b5e5-0f9871c03964">Bitmaps Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/3270d8ed-a174-4d77-a9a7-3e3f0cab2a23">EMRALPHABLEND</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagemralphablend">EMRALPHABLEND</a>
 
 
 
-<a href="https://msdn.microsoft.com/d524c4c7-22af-495d-aecc-b9921e53ca7b">GetDeviceCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e5a48dc-ccd5-41ea-a24b-5c40213abf38">SetStretchBltMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setstretchbltmode">SetStretchBltMode</a>
  
 
  

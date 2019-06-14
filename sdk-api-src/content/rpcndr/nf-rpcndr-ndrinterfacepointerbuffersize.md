@@ -59,7 +59,7 @@ The <b>NdrInterfacePointerBufferSize</b> function calculates the size of the buf
 
 ### -param pStubMsg [in, out]
 
-Pointer to a <a href="https://msdn.microsoft.com/9bd021f6-10c9-4e77-be75-9a89a3a016e0">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. The <b>BufferLength</b> member contains the size of the buffer. This structure is for internal use only and should not be modified.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-_midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. The <b>BufferLength</b> member contains the size of the buffer. This structure is for internal use only and should not be modified.
 
 
 ### -param pMemory [in]
@@ -76,7 +76,7 @@ Pointer to the format string description.
 
 
 
-This function has no return values. If an error occurs, the function throws  one of the following exception codes. In addition, the function can throw exception codes from <a href="https://msdn.microsoft.com/en-us/library/ms692640(v=VS.85).aspx">CoGetMarshalSizeMax</a>.
+This function has no return values. If an error occurs, the function throws  one of the following exception codes. In addition, the function can throw exception codes from <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetmarshalsizemax">CoGetMarshalSizeMax</a>.
 
 <table>
 <tr>

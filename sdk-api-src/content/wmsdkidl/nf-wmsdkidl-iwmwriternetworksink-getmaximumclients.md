@@ -112,11 +112,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798761(v=VS.85).aspx">IWMWriterNetworkSink Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriternetworksink">IWMWriterNetworkSink Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798768(v=VS.85).aspx">IWMWriterNetworkSink::SetMaximumClients</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriternetworksink-setmaximumclients">IWMWriterNetworkSink::SetMaximumClients</a>
  
 
  

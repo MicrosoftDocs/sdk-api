@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Sets the <a href="https://msdn.microsoft.com/79abff2e-d1d3-4a32-9ac2-f46c1b21f742">InkTransform</a> object that represents the view transform that is used to render ink.
+Sets the <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> object that represents the view transform that is used to render ink.
 
 
 
@@ -63,7 +63,7 @@ Sets the <a href="https://msdn.microsoft.com/79abff2e-d1d3-4a32-9ac2-f46c1b21f74
 
 ### -param ViewTransform [in]
 
-The <a href="https://msdn.microsoft.com/79abff2e-d1d3-4a32-9ac2-f46c1b21f742">InkTransform</a> object that represents the geometric transformation - rotation, scaling, shear, and reflection - values to use to transform the stroke coordinates within the ink space.
+The <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> object that represents the geometric transformation - rotation, scaling, shear, and reflection - values to use to transform the stroke coordinates within the ink space.
 
 A <b>NULL</b> value for the <i>viewTransform</i> parameter correlates to the identity transform.
 
@@ -108,7 +108,7 @@ A parameter contained an invalid pointer.
 </dl>
 </td>
 <td width="60%">
-<i>viewTransform</i> does not point to a compatible <a href="https://msdn.microsoft.com/79abff2e-d1d3-4a32-9ac2-f46c1b21f742">InkTransform</a> object.
+<i>viewTransform</i> does not point to a compatible <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> object.
 
 </td>
 </tr>
@@ -140,7 +140,7 @@ View transformation occurs after object transformation.
 The pen width is calculated by multiplying the specified pen width (or default of 53, if unspecified) by the square root of the determinant of the view transform.
 
 It is problematic to call this method in response to SENT message.  Test whether you are processing a SENT message
-			  by calling <a href="https://msdn.microsoft.com/en-us/library/ms644942(v=VS.85).aspx">InSendMesssageEx</a> and then POST the message to yourself if the message was SENT.
+			  by calling <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insendmessageex">InSendMesssageEx</a> and then POST the message to yourself if the message was SENT.
 
 
 
@@ -150,11 +150,11 @@ It is problematic to call this method in response to SENT message.  Test whether
 
 
 
-<a href="https://msdn.microsoft.com/11195fa1-ca59-4da6-8454-6209c75ccc67">GetObjectTransform Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-getobjecttransform">GetObjectTransform Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a4d768d-09b6-45e1-b412-e267d92cc3ef">GetViewTransform Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-getviewtransform">GetViewTransform Method</a>
 
 
 
@@ -162,7 +162,7 @@ It is problematic to call this method in response to SENT message.  Test whether
 
 
 
-<a href="https://msdn.microsoft.com/66ec7cab-bfc2-4934-93a4-0ab9cb8c96e7">InkRenderer Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrenderer-class">InkRenderer Class</a>
  
 
  

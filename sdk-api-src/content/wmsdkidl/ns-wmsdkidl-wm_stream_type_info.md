@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>WM_STREAM_TYPE_INFO</b> structure is used as the data item for the <a href="https://msdn.microsoft.com/4d7f18d4-d76d-4e2e-b8a9-eb96844a2fa1">WM/StreamTypeInfo</a> complex metadata attribute. It stores the major type and the size of the associated format data.
+The <b>WM_STREAM_TYPE_INFO</b> structure is used as the data item for the <a href="https://docs.microsoft.com/windows/desktop/wmformat/wm-streamtypeinfo">WM/StreamTypeInfo</a> complex metadata attribute. It stores the major type and the size of the associated format data.
 
 
 
@@ -84,7 +84,7 @@ None.
 
 
 
-<a href="https://msdn.microsoft.com/118ef278-ca4f-4c30-9633-a2d851f5c758">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
  
 
  

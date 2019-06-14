@@ -82,15 +82,15 @@ Pointer to a byte buffer than contains the data value of an EAP method property.
 
 
 
-<a href="https://msdn.microsoft.com/77595f36-140d-4d8e-af8e-63e9de0031c4">EAPHost Supplicant Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-supplicant-structures">EAPHost Supplicant Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/298b59d3-245f-4a29-b8a1-2265d65d30e6">EAP_METHOD_PROPERTY_VALUE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_property_value">EAP_METHOD_PROPERTY_VALUE</a>
 
 
 
-<a href="https://msdn.microsoft.com/b553c022-c9a2-4cf7-8c09-e629b49cd929">EapHostPeerGetMethodProperties</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeergetmethodproperties">EapHostPeerGetMethodProperties</a>
  
 
  

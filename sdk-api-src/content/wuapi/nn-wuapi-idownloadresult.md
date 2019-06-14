@@ -54,7 +54,7 @@ The <b>IDownloadResult</b> interface represents the result of a download operati
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDownloadResult</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IDownloadResult</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDownloadResult</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IDownloadResult</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,10 +70,10 @@ The <b>IDownloadResult</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d95ce8ad-74d7-4144-9a4b-75d69d5a9442">GetUpdateResult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-idownloadresult-getupdateresult">GetUpdateResult</a>
 </td>
 <td align="left" width="63%">
-Returns an <a href="https://msdn.microsoft.com/d2a800c9-c23a-4aab-a9c6-e408349818dd">IUpdateDownloadResult</a> interface that contains download information for the specified update.
+Returns an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloadresult">IUpdateDownloadResult</a> interface that contains download information for the specified update.
 
 </td>
 </tr>
@@ -88,7 +88,7 @@ Returns an <a href="https://msdn.microsoft.com/d2a800c9-c23a-4aab-a9c6-e40834981
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/3f1aa4d9-0e34-4456-bac0-2c8b08519cdc">HResult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-idownloadresult-get_hresult">HResult</a>
 
 
 </td>
@@ -104,7 +104,7 @@ Gets the exception code number if an exception code number is raised during a do
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/5c3756b1-ad1a-47c8-98ff-e8e602302662">ResultCode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-idownloadresult-get_resultcode">ResultCode</a>
 
 
 </td>
@@ -113,7 +113,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets an <a href="https://msdn.microsoft.com/02d3442e-d098-42b6-b1b1-cc2d1a815fa4">OperationResultCode</a> enumeration that specifies the result of a download.
+Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-tagoperationresultcode">OperationResultCode</a> enumeration that specifies the result of a download.
 
 </td>
 </tr>

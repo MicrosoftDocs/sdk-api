@@ -68,7 +68,7 @@ A handle to a device context into which a font has been selected. It is assumed 
 
 ### -param fontFace [out]
 
-Type: <b><a href="https://msdn.microsoft.com/1b6bb9e2-cf01-413c-9ee8-42bb0f703ce8">IDWriteFontFace</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontface">IDWriteFontFace</a>**</b>
 
 Contains an address of a pointer to  the newly created font face object, or <b>NULL</b> in case of failure. The font face returned is guaranteed to reference the same physical typeface that would be used for drawing glyphs (but not necessarily characters) using ExtTextOut.
 
@@ -98,7 +98,7 @@ This function is intended for scenarios in which an application wants to use GDI
 
 
 
-<a href="https://msdn.microsoft.com/79472021-ee12-45dd-a943-3908c9e06cde">IDWriteGdiInterop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritegdiinterop">IDWriteGdiInterop</a>
  
 
  

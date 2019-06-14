@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/B6E24036-1548-4B9E-A8FE-8B87D4DBF97A">Spot-specular lighting effect</a>.
+Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/specular-lighting">Spot-specular lighting effect</a>.
         
 
 
@@ -60,22 +60,22 @@ Identifiers for properties of the <a href="https://msdn.microsoft.com/B6E24036-1
 
 ### -field D2D1_SPOTSPECULAR_PROP_LIGHT_POSITION
 
-The light position of the point light source. The property is a <a href="https://msdn.microsoft.com/469A4FFC-6B5B-4C88-B6A5-23AFD41B885A">D2D1_VECTOR_3F</a> defined as (x, y, z). 
+The light position of the point light source. The property is a <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_3f">D2D1_VECTOR_3F</a> defined as (x, y, z). 
             The units are in device-independent pixels (DIPs) and are unbounded.
             
 
-The type is <a href="https://msdn.microsoft.com/469A4FFC-6B5B-4C88-B6A5-23AFD41B885A">D2D1_VECTOR_3F</a>.
+The type is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_3f">D2D1_VECTOR_3F</a>.
 
 The default value is {0.0f, 0.0f, 0.0f}.
 
 
 ### -field D2D1_SPOTSPECULAR_PROP_POINTS_AT
 
-Where the spot light is focused. The property is exposed as a <a href="https://msdn.microsoft.com/469A4FFC-6B5B-4C88-B6A5-23AFD41B885A">D2D1_VECTOR_3F</a> with – (x, y, z). 
+Where the spot light is focused. The property is exposed as a <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_3f">D2D1_VECTOR_3F</a> with – (x, y, z). 
             The units are in DIPs and the values are unbounded.
             
 
-The type is <a href="https://msdn.microsoft.com/469A4FFC-6B5B-4C88-B6A5-23AFD41B885A">D2D1_VECTOR_3F</a>.
+The type is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_3f">D2D1_VECTOR_3F</a>.
 
 The default value is {0.0f, 0.0f, 0.0f}.
 
@@ -137,7 +137,7 @@ The default value is 1.0f.
 The color of the incoming light. This property is exposed as a Vector 3 – (R, G, B) and used to compute LR, LG, LB.
             
 
-The type is <a href="https://msdn.microsoft.com/469A4FFC-6B5B-4C88-B6A5-23AFD41B885A">D2D1_VECTOR_3F</a>.
+The type is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_3f">D2D1_VECTOR_3F</a>.
 
 The default value is {1.0f, 1.0f, 1.0f}.
 
@@ -149,7 +149,7 @@ The size of an element in the Sobel kernel used to generate the surface normal i
             The effect uses bilinear interpolation to scale the bitmap to match size of kernel elements.
             
 
-The type is <a href="https://msdn.microsoft.com/DD180090-D2F4-4DF3-8652-101713C01AE4">D2D1_VECTOR_2F</a>.
+The type is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f">D2D1_VECTOR_2F</a>.
 
 The default value is {1.0f, 1.0f}.
 
@@ -159,7 +159,7 @@ The default value is {1.0f, 1.0f}.
 The interpolation mode the effect uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed.
             
 
-The type is <a href="https://msdn.microsoft.com/6E99B62F-CDEE-4612-824E-94FE232490DF">D2D1_SPOTSPECULAR_SCALE_MODE</a>.
+The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_spotspecular_scale_mode">D2D1_SPOTSPECULAR_SCALE_MODE</a>.
 
 The default value is D2D1_SPOTSPECULAR_SCALE_MODE_LINEAR.
 

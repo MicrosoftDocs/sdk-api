@@ -63,7 +63,7 @@ Contains the class identifier of the text service.
 
 ### -param langid [in]
 
-Specifies the language of the profile. See <a href="https://msdn.microsoft.com/076e2a43-256a-4646-a5c8-1d48ab08ce1a">Language Identifiers</a>.
+Specifies the language of the profile. See <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">Language Identifiers</a>.
 
 
 ### -param guidProfile [in]
@@ -109,19 +109,19 @@ The method was successful.
 
 
 
-<a href="https://msdn.microsoft.com/e801ca27-4581-4369-886c-04b824d55013">ITfInputProcessorProfileSubstituteLayout</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofilesubstitutelayout">ITfInputProcessorProfileSubstituteLayout</a>
 
 
 
-<a href="https://msdn.microsoft.com/076e2a43-256a-4646-a5c8-1d48ab08ce1a">Language Identifiers</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">Language Identifiers</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646305(v=VS.85).aspx">LoadKeyboardLayout</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta">LoadKeyboardLayout</a>
 
 
 
-<a href="https://msdn.microsoft.com/95676067-ab5c-470b-a4be-117ab6810d48">Text Service Registration</a>
+<a href="https://docs.microsoft.com/windows/desktop/TSF/text-service-registration">Text Service Registration</a>
  
 
  

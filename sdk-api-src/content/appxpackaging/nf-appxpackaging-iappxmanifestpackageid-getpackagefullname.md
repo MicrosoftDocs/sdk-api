@@ -59,7 +59,7 @@ Gets the package full name.
 
 ### -param packageFullName [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPWSTR</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPWSTR</a>*</b>
 
 The package full name.
 
@@ -83,12 +83,12 @@ The package full name string is a case-insensitive string, which can be used to 
 
 This string  is a serialized form of the package ID, and it is suitable for naming objects such as files and directories.
 
-The caller must free the memory allocated for <i>packageFullName</i> using the <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> function.
+The caller must free the memory allocated for <i>packageFullName</i> using the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/A29986F9-C620-48CD-87F8-525DFA076AAB">Quickstart: Read app package manifest info</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/appxpkg/how-to-query-package-identity-information">Quickstart: Read app package manifest info</a>.
 
 <div class="code"></div>
 
@@ -99,7 +99,7 @@ For an example, see <a href="https://msdn.microsoft.com/A29986F9-C620-48CD-87F8-
 
 
 
-<a href="https://msdn.microsoft.com/8665AC2B-4D06-4684-99B1-E22533CA04AA">IAppxManifestPackageId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestpackageid">IAppxManifestPackageId</a>
  
 
  

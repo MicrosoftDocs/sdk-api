@@ -90,7 +90,7 @@ The <b>GetFormatSupport2</b> method gets the formats supported by a device, incl
 
 ### -param ppAudioFormatEx [out]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/2128f07a-4858-49b7-b031-16d4a84c9d32">_WAVEFORMATEX</a> structures containing information about audio codecs and bit rates supported by the device.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/WMDM/-waveformatex">_WAVEFORMATEX</a> structures containing information about audio codecs and bit rates supported by the device.
 
 
 ### -param pnAudioFormatCount [out]
@@ -100,7 +100,7 @@ Pointer to an integer containing the audio format count.
 
 ### -param ppVideoFormatEx [out]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/5a39d66e-8dbc-4572-8370-14f722b6c906">_VIDEOINFOHEADER</a> structures containing information about video codecs and formats supported by the device.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/WMDM/-videoinfoheader">_VIDEOINFOHEADER</a> structures containing information about video codecs and formats supported by the device.
 
 
 ### -param pnVideoFormatCount [out]
@@ -110,7 +110,7 @@ Pointer to an integer containing the video format count.
 
 ### -param ppFileType [out]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/30307343-f55e-4695-9ae8-b938617d749d">WMFILECAPABILITIES</a> structures containing information about file types supported by the device.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/WMDM/wmfilecapabilities">WMFILECAPABILITIES</a> structures containing information about file types supported by the device.
 
 
 ### -param pnFileTypeCount [out]
@@ -129,7 +129,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 
 
@@ -138,7 +138,7 @@ For an extensive list of possible error codes, see <a href="https://msdn.microso
 
 
 
-This method must be implemented. It must not return WMDM_E_NOTSUPPORTED or E_NOTIMPL. For more information, see <a href="https://msdn.microsoft.com/582c9dd5-f8ab-48df-afb3-fba931ee0dea">Mandatory and Optional Interfaces</a>.
+This method must be implemented. It must not return WMDM_E_NOTSUPPORTED or E_NOTIMPL. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/mandatory-and-optional-interfaces">Mandatory and Optional Interfaces</a>.
 
 
 
@@ -148,7 +148,7 @@ This method must be implemented. It must not return WMDM_E_NOTSUPPORTED or E_NOT
 
 
 
-<a href="https://msdn.microsoft.com/a53052a1-89f4-4571-9eee-031e0049a92e">IMDSPDevice2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice2">IMDSPDevice2 Interface</a>
  
 
  

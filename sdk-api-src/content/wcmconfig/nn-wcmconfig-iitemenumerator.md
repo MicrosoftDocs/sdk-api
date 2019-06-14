@@ -54,7 +54,7 @@ Enumerates the items of a collection of settings and attributes.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IItemEnumerator</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IItemEnumerator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IItemEnumerator</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IItemEnumerator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IItemEnumerator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0f117274-672f-40da-a4c6-88dd6aa01cf7">Current</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-iitemenumerator-current">Current</a>
 </td>
 <td align="left" width="63%">
 Retrieves the item from the current position of the enumerator.
@@ -78,7 +78,7 @@ Retrieves the item from the current position of the enumerator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bdec3ee4-e66a-4e93-9109-c5721d06eb63">MoveNext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-iitemenumerator-movenext">MoveNext</a>
 </td>
 <td align="left" width="63%">
 Moves the current position to the next item in the enumerator.
@@ -87,7 +87,7 @@ Moves the current position to the next item in the enumerator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6da5d581-7f8c-48fa-8522-1e51a805ad9b">Reset</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-iitemenumerator-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the current item pointer to an undetermined position.

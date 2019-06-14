@@ -125,11 +125,11 @@ Input values are not normalized. The following pseudocode demonstrates the opera
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419284(v=VS.85).aspx">XMBYTEN4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyten4">XMBYTEN4</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415261(v=VS.85).aspx">XMBYTEN4 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmbyten4-ctor">XMBYTEN4 Constructors</a>
  
 
  

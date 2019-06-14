@@ -114,11 +114,11 @@ The method could not allocate the memory required to perform this operation.
 
 
 
-<a href="https://msdn.microsoft.com/2736bb81-b66f-4c09-8c76-ca16f3eab192">IDot11AdHocNetwork</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>
 
 
 
-<a href="https://msdn.microsoft.com/252f32ef-0a54-445f-94ca-113a67a3e6dd">IDot11AdHocNetwork::HasProfile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-hasprofile">IDot11AdHocNetwork::HasProfile</a>
  
 
  

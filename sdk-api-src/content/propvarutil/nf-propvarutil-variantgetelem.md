@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Initializes a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure from a specified variant element.
+Initializes a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> structure from a specified variant element.
 
 
 ## -parameters

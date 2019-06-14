@@ -59,7 +59,7 @@ Decrements the lock count of an array so it can be freed or resized.
 
 ### -param psa [in]
 
-An array descriptor created by <a href="https://msdn.microsoft.com/5b94f1a2-a558-473f-85dd-9545c0464cc7">SafeArrayCreate</a>.
+An array descriptor created by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraycreate">SafeArrayCreate</a>.
 
 
 ## -returns
@@ -121,9 +121,9 @@ This function is called after access to the data in an array is finished.
 
 #### Thread Safety
 
-All public static members of the <a href="https://msdn.microsoft.com/9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY data type</a> are thread safe. Instance members are not guaranteed to be thread safe.
+All public static members of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY data type</a> are thread safe. Instance members are not guaranteed to be thread safe.
 
-For example, consider an application that uses the <a href="https://msdn.microsoft.com/cb29d862-c7c5-4852-b017-c29e88d5f1c4">SafeArrayLock</a> and SafeArrayUnlock functions. If these functions are called concurrently from different threads on the same <a href="https://msdn.microsoft.com/9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY data type</a> instance, an inconsistent lock count may be created. This will eventually cause the SafeArrayUnlock function to return E_UNEXPECTED. You can prevent this by providing your own synchronization code.
+For example, consider an application that uses the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraylock">SafeArrayLock</a> and SafeArrayUnlock functions. If these functions are called concurrently from different threads on the same <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY data type</a> instance, an inconsistent lock count may be created. This will eventually cause the SafeArrayUnlock function to return E_UNEXPECTED. You can prevent this by providing your own synchronization code.
 
 
 

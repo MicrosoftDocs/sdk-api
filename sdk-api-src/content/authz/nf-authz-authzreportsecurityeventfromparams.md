@@ -74,7 +74,7 @@ The identifier of the audit.
 
 ### -param pUserSid [in, optional]
 
-A pointer to the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) that will be listed as the source of the audit in the event log.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) that will be listed as the source of the audit in the event log.
 
 
 ### -param pParams [in]
@@ -88,7 +88,7 @@ An array of audit parameters.
 
 If the function succeeds, the function returns <b>TRUE</b>.
 
-If the function fails, it returns <b>FALSE</b>. For extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, it returns <b>FALSE</b>. For extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -98,11 +98,11 @@ If the function fails, it returns <b>FALSE</b>. For extended error information, 
 
 
 
-<a href="https://msdn.microsoft.com/726e480d-1a34-4fd6-ac2d-876fa08f4eae">AuthzRegisterSecurityEventSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzregistersecurityeventsource">AuthzRegisterSecurityEventSource</a>
 
 
 
-<a href="https://msdn.microsoft.com/95d561ef-3233-433a-a1e7-b914df1dd211">AuthzReportSecurityEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzreportsecurityevent">AuthzReportSecurityEvent</a>
  
 
  

@@ -113,9 +113,9 @@ When a filter is running, it can receive, process, and deliver samples. Source f
 
 The state transition might be asynchronous. If the method returns before the transition completes, the return value is S_FALSE.
 
-Stream time is calculated as the current reference time minus <i>tStart</i>. To calculate when a media sample should be rendered, the renderer compares the time stamp with the current stream time. Thus, a media sample with a time stamp of zero should be rendered at time <i>tStart</i>. For more information, see <a href="https://msdn.microsoft.com/7d883638-5ddb-48b9-9d0b-104944a151e9">Time and Clocks in DirectShow</a>.
+Stream time is calculated as the current reference time minus <i>tStart</i>. To calculate when a media sample should be rendered, the renderer compares the time stamp with the current stream time. Thus, a media sample with a time stamp of zero should be rendered at time <i>tStart</i>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/time-and-clocks-in-directshow">Time and Clocks in DirectShow</a>.
 
-When an application calls the <a href="https://msdn.microsoft.com/b52a5fa7-96f8-4949-9cf0-2d526f23bee1">IMediaControl::Run</a> method, the Filter Graph Manager calls <code>IMediaFilter::Run</code> on each filter. It sets the value of <i>tStart</i> slightly in the future, to account for graph latency.
+When an application calls the <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-run">IMediaControl::Run</a> method, the Filter Graph Manager calls <code>IMediaFilter::Run</code> on each filter. It sets the value of <i>tStart</i> slightly in the future, to account for graph latency.
 
 
 
@@ -125,11 +125,11 @@ When an application calls the <a href="https://msdn.microsoft.com/b52a5fa7-96f8-
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/5c0060e8-a9e5-4141-a38d-9a1bc55cc91b">IMediaFilter Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediafilter">IMediaFilter Interface</a>
  
 
  

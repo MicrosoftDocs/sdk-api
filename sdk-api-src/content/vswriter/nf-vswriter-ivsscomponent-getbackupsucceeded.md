@@ -52,8 +52,8 @@ ms.custom: 19H1
 
 The 
 <b>GetBackupSucceeded</b> method returns the status of a complete attempt at backing up all the files of a selected component or component set as a 
-<a href="https://msdn.microsoft.com/e1754fad-8da1-4a3e-a70a-ada37dde1c5d">VSS_FILE_RESTORE_STATUS</a> enumeration. (See 
-<a href="https://msdn.microsoft.com/e8920cca-d944-437f-bf6a-7ce8d518746a">Working with Selectability and Logical Paths</a> for information on selecting components.)
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_file_restore_status">VSS_FILE_RESTORE_STATUS</a> enumeration. (See 
+<a href="https://docs.microsoft.com/windows/desktop/VSS/working-with-selectability-and-logical-paths">Working with Selectability and Logical Paths</a> for information on selecting components.)
 
 Either a writer or a requester can call this method.
 
@@ -98,7 +98,7 @@ Successfully returned the attribute value.
 </td>
 <td width="60%">
 The backup success state is undefined because the method was called prior to a 
-<a href="https://msdn.microsoft.com/ee49d4b1-f3f4-4c85-a3a2-f4452d066f21">BackupComplete</a> event.
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-backupcomplete">BackupComplete</a> event.
 
 </td>
 </tr>
@@ -132,7 +132,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more information, see 
-<a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+<a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -147,8 +147,8 @@ The XML document is not valid. Check the event log for details. For more informa
 
 
 This method should not be called prior to a 
-<a href="https://msdn.microsoft.com/ee49d4b1-f3f4-4c85-a3a2-f4452d066f21">BackupComplete</a> event, and is designed for use in an implementation of the event handler 
-<a href="https://msdn.microsoft.com/77d0621d-81bd-4d53-8e5d-f5d3bfd86013">CVssWriter::OnBackupComplete</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-backupcomplete">BackupComplete</a> event, and is designed for use in an implementation of the event handler 
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onbackupcomplete">CVssWriter::OnBackupComplete</a>.
 
 
 
@@ -158,11 +158,11 @@ This method should not be called prior to a
 
 
 
-<a href="https://msdn.microsoft.com/77d0621d-81bd-4d53-8e5d-f5d3bfd86013">CVssWriter::OnBackupComplete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onbackupcomplete">CVssWriter::OnBackupComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/c686a424-b0b9-4efc-8dc6-b92193de2a5d">IVssComponent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
  
 
  

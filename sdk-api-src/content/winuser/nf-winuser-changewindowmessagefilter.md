@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[Using the 
 		<b>ChangeWindowMessageFilter</b> function is not recommended, as it has process-wide scope. 
-		Instead, use the <a href="https://msdn.microsoft.com/en-us/library/Dd388202(v=VS.85).aspx">ChangeWindowMessageFilterEx</a> function to 
+		Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changewindowmessagefilterex">ChangeWindowMessageFilterEx</a> function to 
 		control access to specific windows as needed.
 		<b>ChangeWindowMessageFilter</b> may not be supported in future versions of Windows.]
 
@@ -114,7 +114,7 @@ Removes the <i>message</i> from the filter. This has the effect of blocking the 
 Type: <strong>Type: <b>BOOL</b>
 </strong>
 
-<b>TRUE</b> if successful; otherwise, <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<b>TRUE</b> if successful; otherwise, <b>FALSE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
                     
 

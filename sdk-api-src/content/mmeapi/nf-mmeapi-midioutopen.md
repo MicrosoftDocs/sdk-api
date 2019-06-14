@@ -76,7 +76,7 @@ Identifier of the MIDI output device that is to be opened.
 
 ### -param dwCallback
 
-Pointer to a callback function, an event handle, a thread identifier, or a handle of a window or thread called during MIDI playback to process messages related to the progress of the playback. If no callback is desired, specify <b>NULL</b> for this parameter. For more information on the callback function, see <a href="https://msdn.microsoft.com/7ea59a98-1e3a-4ffc-8368-21ae5c6118e7">MidiOutProc</a>.
+Pointer to a callback function, an event handle, a thread identifier, or a handle of a window or thread called during MIDI playback to process messages related to the progress of the playback. If no callback is desired, specify <b>NULL</b> for this parameter. For more information on the callback function, see <a href="https://docs.microsoft.com/previous-versions//dd798478(v=vs.85)">MidiOutProc</a>.
           
 
 
@@ -197,11 +197,11 @@ The system is unable to allocate or lock memory.
 
 
 
-To determine the number of MIDI output devices present in the system, use the <a href="https://msdn.microsoft.com/f7abf545-3072-478e-9f6e-28b5fb6ab6e5">midiOutGetNumDevs</a> function. The device identifier specified by <i>wDeviceID</i> varies from zero to one less than the number of devices present. MIDI_MAPPER can also be used as the device identifier.
+To determine the number of MIDI output devices present in the system, use the <a href="https://docs.microsoft.com/previous-versions//dd798472(v=vs.85)">midiOutGetNumDevs</a> function. The device identifier specified by <i>wDeviceID</i> varies from zero to one less than the number of devices present. MIDI_MAPPER can also be used as the device identifier.
 
-If a window or thread is chosen to receive callback information, the following messages are sent to the window procedure or thread to indicate the progress of MIDI output: <a href="https://msdn.microsoft.com/1374a07c-02fa-4b43-82df-cbd96302aec5">MM_MOM_OPEN</a>, <a href="https://msdn.microsoft.com/4829bbe5-5103-4354-88a7-37def22e926e">MM_MOM_CLOSE</a>, and <a href="https://msdn.microsoft.com/4651d5b4-3c98-4fa7-b761-dafb30e0d31e">MM_MOM_DONE</a>.
+If a window or thread is chosen to receive callback information, the following messages are sent to the window procedure or thread to indicate the progress of MIDI output: <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-mom-open">MM_MOM_OPEN</a>, <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-mom-close">MM_MOM_CLOSE</a>, and <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-mom-done">MM_MOM_DONE</a>.
 
-If a function is chosen to receive callback information, the following messages are sent to the function to indicate the progress of MIDI output: <a href="https://msdn.microsoft.com/f3360482-7d16-419c-b5d1-0dd3a6e3c690">MOM_OPEN</a>, <a href="https://msdn.microsoft.com/229b3701-16f1-4ec8-920e-cd8231561541">MOM_CLOSE</a>, and <a href="https://msdn.microsoft.com/0b9bd0e1-c87d-4f21-912e-5ac9f5c04192">MOM_DONE</a>.
+If a function is chosen to receive callback information, the following messages are sent to the function to indicate the progress of MIDI output: <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mom-open">MOM_OPEN</a>, <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mom-close">MOM_CLOSE</a>, and <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mom-done">MOM_DONE</a>.
 
 
 
@@ -211,7 +211,7 @@ If a function is chosen to receive callback information, the following messages 
 
 
 
-<a href="https://msdn.microsoft.com/9aa9fd79-cd9e-4443-8715-142ea72b82c0">MIDI Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>
  
 
  

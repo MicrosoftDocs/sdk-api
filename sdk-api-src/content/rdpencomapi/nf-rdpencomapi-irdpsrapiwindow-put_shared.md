@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 Gets or sets the sharing property for a window.
 
-Whether a window is  shared or not also depends on the state of the parent application object and on the enabled state of the sharing filter. For more information about the enabled state of the sharing filter, see  <a href="https://msdn.microsoft.com/91d8fdea-3fe0-4623-ab83-ce3927321bbc">Enabled Property of IRDPSRAPIApplicationFilter</a>.
+Whether a window is  shared or not also depends on the state of the parent application object and on the enabled state of the sharing filter. For more information about the enabled state of the sharing filter, see  <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiapplicationfilter-get_enabled">Enabled Property of IRDPSRAPIApplicationFilter</a>.
 
 This property is read/write.
 
@@ -67,7 +67,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/85c8263b-e796-4748-b8e5-6315e5937861">IRDPSRAPIWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiwindow">IRDPSRAPIWindow</a>
  
 
  

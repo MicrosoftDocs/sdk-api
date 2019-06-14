@@ -117,7 +117,7 @@ This function draws lines by using the current pen. The figure is not filled.
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/788d3bc2-1010-436c-a95f-6fe55daac88e">Drawing a Pie Chart</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/drawing-a-pie-chart">Drawing a Pie Chart</a>.
 
 <div class="code"></div>
 
@@ -128,23 +128,23 @@ For an example, see <a href="https://msdn.microsoft.com/788d3bc2-1010-436c-a95f-
 
 
 
-<a href="https://msdn.microsoft.com/c15a2173-0fad-4a8a-b0f9-cd39fe4e7bac">Arc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-arc">Arc</a>
 
 
 
-<a href="https://msdn.microsoft.com/5e358a14-9f39-4267-9a44-c8bf05b5dfbb">ArcTo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-arcto">ArcTo</a>
 
 
 
-<a href="https://msdn.microsoft.com/90f123e2-c3c7-4ba1-a42b-7d6bc0074d5b">Line and Curve Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/line-and-curve-functions">Line and Curve Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c65c185-8346-459e-bdf7-1cf3f7419736">Lines and Curves Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/lines-and-curves">Lines and Curves Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/af11eeb7-4036-4a90-8685-9b5719f79e01">MoveToEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-movetoex">MoveToEx</a>
  
 
  

@@ -54,7 +54,7 @@ Represents content being transmitted under a namespace over one or more sessions
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWdsTransportContent</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IWdsTransportContent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWdsTransportContent</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWdsTransportContent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IWdsTransportContent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8901f9c5-931e-40d5-8a5c-d3a814556400">RetrieveSessions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportcontent-retrievesessions">RetrieveSessions</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of active transport sessions associated with this content.
@@ -79,7 +79,7 @@ Retrieves a collection of active transport sessions associated with this content
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bcc4359f-0536-4cd4-a937-37d4e69ab497">Terminate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportcontent-terminate">Terminate</a>
 </td>
 <td align="left" width="63%">
 Terminates the transmission of this content by terminating all active sessions under the content and disconnecting any clients that are joined to them.
@@ -97,7 +97,7 @@ Terminates the transmission of this content by terminating all active sessions u
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/16164368-7c46-4d6e-8259-f98ae7f65244">Id</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportcontent-get_id">Id</a>
 
 
 </td>
@@ -113,7 +113,7 @@ Receives the unique content ID that identifies this content object on the server
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/24178dca-58b6-463a-adf0-40b5aa0446fc">Name</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportcontent-get_name">Name</a>
 
 
 </td>
@@ -129,7 +129,7 @@ Receives a pointer to a string value that contains the name of the data object r
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8b116f8d-bcbc-4313-9527-07f871e00842">Namespace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportcontent-get_namespace">Namespace</a>
 
 
 </td>
@@ -138,7 +138,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Receives a pointer to an object of an  <a href="https://msdn.microsoft.com/eadb7b1b-aaef-4a4e-a2de-c641a4e10173">IWdsTransportNamespace</a> interface that represents the namespace associated with this content.
+Receives a pointer to an object of an  <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a> interface that represents the namespace associated with this content.
 
 </td>
 </tr>

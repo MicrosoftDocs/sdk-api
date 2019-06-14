@@ -158,11 +158,11 @@ The settings  for this context include the recognition guide, character Autocomp
 
 
 
-<a href="https://msdn.microsoft.com/92446aca-e611-42b2-8b55-2d1c47ccaa5c">ResetContext Function</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-resetcontext">ResetContext Function</a>
 
 
 
-<a href="https://msdn.microsoft.com/f5461326-3def-4564-81ea-32a63b889da0">SetTextContext Function</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-settextcontext">SetTextContext Function</a>
  
 
  

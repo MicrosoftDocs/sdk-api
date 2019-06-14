@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>get_EventFilter</b> method gets the current event filter mask. The mask is a series of ORed members of the 
-<a href="https://msdn.microsoft.com/94faa4a1-7d86-48bc-9e94-f2b8f83f5280">TAPI_EVENT</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event">TAPI_EVENT</a> enumeration.
 
 
 ## -parameters
@@ -108,27 +108,27 @@ Insufficient memory exists to perform the operation.
 
 
 
-<a href="https://msdn.microsoft.com/db43f4e0-f2f5-49b1-a03d-3df3de0e5611">Events overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/events">Events overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/75d641c7-dbf8-4ae2-b16b-2757e890d32b">ITTAPI</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapi">ITTAPI</a>
 
 
 
-<a href="https://msdn.microsoft.com/06cfe56c-907f-49ed-8a7a-db31383a06f9">ITTAPIEventNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapieventnotification">ITTAPIEventNotification</a>
 
 
 
-<a href="https://msdn.microsoft.com/e7662a26-d7b2-4bff-aa72-e38b58bc15df">Register Events code snippet</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/register-events">Register Events code snippet</a>
 
 
 
-<a href="https://msdn.microsoft.com/94faa4a1-7d86-48bc-9e94-f2b8f83f5280">TAPI_EVENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event">TAPI_EVENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/126ec551-aade-47d8-987f-1f735f10bd28">put_EventFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-put_eventfilter">put_EventFilter</a>
  
 
  

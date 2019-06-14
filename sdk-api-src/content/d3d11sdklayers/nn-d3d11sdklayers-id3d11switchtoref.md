@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11SwitchToRef</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID3D11SwitchToRef</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11SwitchToRef</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D11SwitchToRef</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID3D11SwitchToRef</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7dc2dc8a-eff6-49b6-a557-88a9d0e5acbf">GetUseRef</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11switchtoref-getuseref">GetUseRef</a>
 </td>
 <td align="left" width="63%">
 <div class="alert"><b>Note</b>  The <b>ID3D11SwitchToRef</b> interface and its methods are not supported in Direct3D 11.</div>
@@ -78,7 +78,7 @@ The <b>ID3D11SwitchToRef</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ae687f2c-0db2-41f1-8f6c-4d9f5ee31984">SetUseRef</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11switchtoref-setuseref">SetUseRef</a>
 </td>
 <td align="left" width="63%">
 <div class="alert"><b>Note</b>  The <b>ID3D11SwitchToRef</b> interface and its methods are not supported in Direct3D 11.</div>
@@ -93,11 +93,11 @@ The <b>ID3D11SwitchToRef</b> interface has these methods.
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/100cb66a-9bf5-4d0b-9f03-ad7c00e76d9d">Layer Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-layer-interfaces">Layer Interfaces</a>
  
 
  

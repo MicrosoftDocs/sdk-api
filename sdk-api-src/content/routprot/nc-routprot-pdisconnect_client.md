@@ -52,7 +52,7 @@ ms.custom: 19H1
 The router manager calls the 
 <b>DisconnectClient</b> function when a client disconnects from an interface on which the routing protocol is running.
 
-The <a href="https://msdn.microsoft.com/7046c4c2-b0bd-4459-b361-e46ce876823f">PDISCONNECT_CLIENT</a> type defines a pointer to this callback function. <i>DisconnectClient</i> is a placeholder for the application-defined function name.
+The <a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-_mpr50_routing_characteristics">PDISCONNECT_CLIENT</a> type defines a pointer to this callback function. <i>DisconnectClient</i> is a placeholder for the application-defined function name.
 
 
 ## -parameters
@@ -114,7 +114,7 @@ The <i>InterfaceIndex</i> parameter is invalid, for example, no interface exists
 
 
 
-<a href="https://msdn.microsoft.com/548d8411-ca03-4316-9adb-3b4b48a740d9">ConnectClient</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pconnect_client">ConnectClient</a>
  
 
  

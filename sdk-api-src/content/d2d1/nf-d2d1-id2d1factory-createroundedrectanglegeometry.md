@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<span>Creates an <a href="https://msdn.microsoft.com/e49e9be7-155a-4487-9931-035f18771c04">ID2D1RoundedRectangleGeometry</a>. 
+<span>Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1roundedrectanglegeometry">ID2D1RoundedRectangleGeometry</a>. 
 </span><h3>Overload list</h3><table>
 <tr>
 <th align="left" width="37%">Method</th>
@@ -57,19 +57,19 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a779a6ad-2d86-416f-8f3f-1ccc90c13572">CreateRoundedRectangleGeometry(D2D1_ROUNDED_RECT&,ID2D1RoundedRectangleGeometry**)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-createroundedrectanglegeometry(constd2d1_rounded_rect__id2d1roundedrectanglegeometry)">CreateRoundedRectangleGeometry(D2D1_ROUNDED_RECT&,ID2D1RoundedRectangleGeometry**)</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/e49e9be7-155a-4487-9931-035f18771c04">ID2D1RoundedRectangleGeometry</a>. 
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1roundedrectanglegeometry">ID2D1RoundedRectangleGeometry</a>. 
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6bf58508-a987-449e-91c4-93bd444a376f">CreateRoundedRectangleGeometry(D2D1_ROUNDED_RECT*,ID2D1RoundedRectangleGeometry**)</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd371292(v=vs.85)">CreateRoundedRectangleGeometry(D2D1_ROUNDED_RECT*,ID2D1RoundedRectangleGeometry**)</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/e49e9be7-155a-4487-9931-035f18771c04">ID2D1RoundedRectangleGeometry</a>. 
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1roundedrectanglegeometry">ID2D1RoundedRectangleGeometry</a>. 
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ Creates an <a href="https://msdn.microsoft.com/e49e9be7-155a-4487-9931-035f18771
 
 
 
-<a href="https://msdn.microsoft.com/cef6115c-98e8-49e6-b419-271b43ce2938">ID2D1Factory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>
  
 
  

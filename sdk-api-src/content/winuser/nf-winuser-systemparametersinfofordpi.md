@@ -64,7 +64,7 @@ Retrieves the value of one of the system-wide parameters, taking into account th
 
 ### -param uiAction [in]
 
-The system-wide parameter to be retrieved. This function is only intended for use with <b>SPI_GETICONTITLELOGFONT</b>, <b>SPI_GETICONMETRICS</b>, or <b>SPI_GETNONCLIENTMETRICS</b>. See <a href="https://msdn.microsoft.com/9b99465c-e12d-413c-8e69-b46b52f2f11f">SystemParametersInfo</a> for more information on these values.
+The system-wide parameter to be retrieved. This function is only intended for use with <b>SPI_GETICONTITLELOGFONT</b>, <b>SPI_GETICONMETRICS</b>, or <b>SPI_GETNONCLIENTMETRICS</b>. See <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> for more information on these values.
 
 
 ### -param uiParam [in]
@@ -74,7 +74,7 @@ A parameter whose usage and format depends on the system parameter being queried
 
 ### -param pvParam [in, out]
 
-A parameter whose usage and format depends on the system parameter being queried. For more information about system-wide parameters, see the <i>uiAction</i> parameter. If not otherwise indicated, you must specify <b>NULL</b> for this parameter. For information on the <b>PVOID</b> datatype, see <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">Windows Data Types</a>.
+A parameter whose usage and format depends on the system parameter being queried. For more information about system-wide parameters, see the <i>uiAction</i> parameter. If not otherwise indicated, you must specify <b>NULL</b> for this parameter. For information on the <b>PVOID</b> datatype, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">Windows Data Types</a>.
 
 
 ### -param fWinIni [in]
@@ -93,7 +93,7 @@ The DPI to use for scaling the metric.
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -102,9 +102,9 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-This function returns a similar result as <a href="https://msdn.microsoft.com/9b99465c-e12d-413c-8e69-b46b52f2f11f">SystemParametersInfo</a>, but scales it according to an arbitrary DPI you provide (if appropriate). It only scales with the following possible values for <i>uiAction</i>: <b>SPI_GETICONTITLELOGFONT</b>, <b>SPI_GETICONMETRICS</b>, <b>SPI_GETNONCLIENTMETRICS</b>. Other possible <i>uiAction</i> values do not provide ForDPI behavior, and therefore this function returns 0 if called with them.
+This function returns a similar result as <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>, but scales it according to an arbitrary DPI you provide (if appropriate). It only scales with the following possible values for <i>uiAction</i>: <b>SPI_GETICONTITLELOGFONT</b>, <b>SPI_GETICONMETRICS</b>, <b>SPI_GETNONCLIENTMETRICS</b>. Other possible <i>uiAction</i> values do not provide ForDPI behavior, and therefore this function returns 0 if called with them.
 
-For <i>uiAction</i> values that contain strings within their associated structures, only Unicode (<a href="https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec145beb4">LOGFONTW</a>) strings are supported in this function.
+For <i>uiAction</i> values that contain strings within their associated structures, only Unicode (<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONTW</a>) strings are supported in this function.
 
 
 

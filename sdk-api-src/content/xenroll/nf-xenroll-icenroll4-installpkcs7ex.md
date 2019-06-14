@@ -52,8 +52,8 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>InstallPKCS7Ex</b> method processes a certificate or chain of certificates, placing them into the appropriate <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate stores</a>. The <b>InstallPKCS7Ex</b> method is the same as 
-<a href="https://msdn.microsoft.com/63482360-0d8a-4e23-8942-8276630778a3">InstallPKCS7</a> except that it returns the number of certificates actually installed in local stores. This method was first defined in the <a href="https://msdn.microsoft.com/4e3e3792-aa41-46fe-bf75-26c2b8959f7a">ICEnroll4</a> interface.
+The <b>InstallPKCS7Ex</b> method processes a certificate or chain of certificates, placing them into the appropriate <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate stores</a>. The <b>InstallPKCS7Ex</b> method is the same as 
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll3-installpkcs7">InstallPKCS7</a> except that it returns the number of certificates actually installed in local stores. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a> interface.
 
 
 ## -parameters
@@ -78,7 +78,7 @@ Returns the number of certificates installed into local stores.
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  A <b>Long</b> that contains the number of certificates installed into local stores.
@@ -100,19 +100,19 @@ When this method is called from script, the method displays a user interface tha
 
 
 
-<a href="https://msdn.microsoft.com/7f13549d-811b-496b-abdd-7e52cbc2ed54">CEnroll</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376007(v=vs.85)">CEnroll</a>
 
 
 
-<a href="https://msdn.microsoft.com/4e3e3792-aa41-46fe-bf75-26c2b8959f7a">ICEnroll4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>
 
 
 
-<a href="https://msdn.microsoft.com/63482360-0d8a-4e23-8942-8276630778a3">InstallPKCS7</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll3-installpkcs7">InstallPKCS7</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a428d83-c846-4f44-a682-58c3e025c353">acceptPKCS7</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptpkcs7">acceptPKCS7</a>
  
 
  

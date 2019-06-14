@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 
-The <b>IComponentTypes</b> interface is implemented on <a href="https://msdn.microsoft.com/b0a468fd-6294-4148-a727-3a4bd51df6dc">ComponentTypes</a> objects and contains methods that enable applications to enumerate, add, remove and retrieve individual <a href="https://msdn.microsoft.com/d5d8af25-4d39-4327-bd6d-8984ae9e6a78">ComponentType</a> objects. All ComponentTypes objects also support <b>IPersistPropertyBag</b>.
+The <b>IComponentTypes</b> interface is implemented on <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/componenttypes-object">ComponentTypes</a> objects and contains methods that enable applications to enumerate, add, remove and retrieve individual <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd693036(v=vs.85)">ComponentType</a> objects. All ComponentTypes objects also support <b>IPersistPropertyBag</b>.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComponentTypes</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IComponentTypes</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComponentTypes</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IComponentTypes</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,16 +72,16 @@ The <b>IComponentTypes</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/157f8d81-dbbf-44a7-9786-0758d3c89634">Add</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponenttypes-add">Add</a>
 </td>
 <td align="left" width="63%">
-Adds a new <a href="https://msdn.microsoft.com/d5d8af25-4d39-4327-bd6d-8984ae9e6a78">ComponentType</a> object to the collection.
+Adds a new <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd693036(v=vs.85)">ComponentType</a> object to the collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4cc842fa-90bd-4618-8e67-36b15db50cd1">Clone</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponenttypes-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a new copy of the collection.
@@ -90,16 +90,16 @@ Creates a new copy of the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c070998c-4350-4630-80c0-e3db46154845">EnumComponentTypes</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponenttypes-enumcomponenttypes">EnumComponentTypes</a>
 </td>
 <td align="left" width="63%">
-Returns an <a href="https://msdn.microsoft.com/ad7fb66d-6592-47ae-9a2f-4432d8aaaebb">IEnumComponentTypes</a> enumerator for all component types in the collection.
+Returns an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ienumcomponenttypes">IEnumComponentTypes</a> enumerator for all component types in the collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/32ff7c56-3173-4aba-9884-6e388a41192d">get__NewEnum</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponenttypes-get__newenum">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
 Enumeration method to support For...Each loops in Automation clients.
@@ -108,7 +108,7 @@ Enumeration method to support For...Each loops in Automation clients.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9f353702-1be1-4fa0-9312-f76f23f63a2b">get_Count</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponenttypes-get_count">get_Count</a>
 </td>
 <td align="left" width="63%">
 Returns the number of Component Types in the collection.
@@ -117,28 +117,28 @@ Returns the number of Component Types in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/be2e6f1b-a9af-4c19-ae25-a096ceee96fc">get_Item</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponenttypes-get_item">get_Item</a>
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://msdn.microsoft.com/e83bbbbe-64a9-4ed3-9c32-925ca80c2c38">IComponentType</a> interface pointer at the specified index number.
+Retrieves the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttype">IComponentType</a> interface pointer at the specified index number.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1f38e844-d197-40c1-8715-ffe406274b3c">put_Item</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponenttypes-put_item">put_Item</a>
 </td>
 <td align="left" width="63%">
-Replaces the <a href="https://msdn.microsoft.com/d5d8af25-4d39-4327-bd6d-8984ae9e6a78">ComponentType</a> object at the specified index with a new ComponentType object.
+Replaces the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd693036(v=vs.85)">ComponentType</a> object at the specified index with a new ComponentType object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7344851a-51ba-41c0-b368-e5eecfb5fb08">Remove</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponenttypes-remove">Remove</a>
 </td>
 <td align="left" width="63%">
-Removes the <a href="https://msdn.microsoft.com/d5d8af25-4d39-4327-bd6d-8984ae9e6a78">ComponentType</a> object at the specified index number.
+Removes the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd693036(v=vs.85)">ComponentType</a> object at the specified index number.
 
 </td>
 </tr>
@@ -159,11 +159,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d956e1d-88b3-4236-9987-f37f674645de">Tuning Model Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
  
 
  

@@ -54,7 +54,7 @@ Provides a method to get the limits of an interval.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInterval</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IInterval</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInterval</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInterval</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,14 +69,14 @@ The <b>IInterval</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231367(v=VS.85).aspx">GetLimits</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iinterval-getlimits">GetLimits</a>
 </td>
 <td align="left" width="63%">
 Specifies the lower and upper limits of an interval, each of which may be infinite or a specific value.
         
 
 
-When a condition tree expresses that the value of a property must fall in a certain range, the property can be expressed as a leaf node. The node must be a <a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a> containing a <b>vt</b> value type tag of VT_UNKNOWN and an IUnknown* <b>punkVal</b> that is a pointer to an object that implements <b>IInterval</b>.
+When a condition tree expresses that the value of a property must fall in a certain range, the property can be expressed as a leaf node. The node must be a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> containing a <b>vt</b> value type tag of VT_UNKNOWN and an IUnknown* <b>punkVal</b> that is a pointer to an object that implements <b>IInterval</b>.
 
 </td>
 </tr>

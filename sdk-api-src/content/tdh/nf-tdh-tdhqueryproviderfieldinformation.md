@@ -71,12 +71,12 @@ Retrieve information about the field if the field's value matches this value. If
 
 ### -param EventFieldType [in]
 
-Specify the type of field for which you want to retrieve information. For possible values, see the <a href="https://msdn.microsoft.com/da525556-e42b-41cb-b954-300f378477e5">EVENT_FIELD_TYPE</a> enumeration. 
+Specify the type of field for which you want to retrieve information. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-_event_field_type">EVENT_FIELD_TYPE</a> enumeration. 
 
 
 ### -param pBuffer [out]
 
-User-allocated buffer to receive the field information. For details, see the <a href="https://msdn.microsoft.com/c3755ca2-7b17-4f86-9ae8-34621f8b8c1b">PROVIDER_FIELD_INFOARRAY</a> structure.
+User-allocated buffer to receive the field information. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_provider_field_infoarray">PROVIDER_FIELD_INFOARRAY</a> structure.
 
 
 ### -param pBufferSize [in, out]
@@ -288,7 +288,7 @@ cleanup:
 
 
 
-<a href="https://msdn.microsoft.com/ab34a433-b641-4408-81d5-c93609204d24">TdhEnumerateProviderFieldInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhenumerateproviderfieldinformation">TdhEnumerateProviderFieldInformation</a>
  
 
  

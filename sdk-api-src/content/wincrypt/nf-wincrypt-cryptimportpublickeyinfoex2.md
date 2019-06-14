@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CryptImportPublicKeyInfoEx2</b> function imports a public key into the CNG asymmetric provider that corresponds to the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) and returns a CNG handle to the key.
+The <b>CryptImportPublicKeyInfoEx2</b> function imports a public key into the CNG asymmetric provider that corresponds to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and returns a CNG handle to the key.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>CryptImportPublicKeyInfoEx2</b> function imports a public key into the CN
 
 ### -param dwCertEncodingType [in]
 
-The <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate encoding type</a> that was used to encrypt the subject. The <a href="https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1">message encoding type</a> identifier, contained in the high <b>WORD</b> of this value, is ignored by this function.
+The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate encoding type</a> that was used to encrypt the subject. The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding type</a> identifier, contained in the high <b>WORD</b> of this value, is ignored by this function.
 
 
 This parameter can be the following currently defined certificate encoding type.
@@ -78,7 +78,7 @@ This parameter can be the following currently defined certificate encoding type.
 </dl>
 </td>
 <td width="60%">
-Specifies <a href="https://msdn.microsoft.com/28dba6ef-939f-4789-9789-ee6e0fef0177">X.509</a> certificate encoding.
+Specifies <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.509</a> certificate encoding.
 
 </td>
 </tr>
@@ -88,7 +88,7 @@ Specifies <a href="https://msdn.microsoft.com/28dba6ef-939f-4789-9789-ee6e0fef01
 
 ### -param pInfo [in]
 
-The address of a <a href="https://msdn.microsoft.com/bab6c147-b7cd-408a-acac-90f05921e065">CERT_PUBLIC_KEY_INFO</a> structure that contains the public key information to import into the provider.
+The address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure that contains the public key information to import into the provider.
 
 
 ### -param dwFlags [in]
@@ -123,7 +123,7 @@ Skips public keys in the CRYPT_PUBKEY_ALG_OID_GROUP_ID group that are explicitly
 </table>
  
 
-These flags are passed in the <i>dwKeyType</i> parameter of the <a href="https://msdn.microsoft.com/87acf207-d109-4173-9530-8cbbebb473b2">CryptFindOIDInfo</a> function when mapping the public key object identifier to the corresponding CNG public key algorithm identifier.
+These flags are passed in the <i>dwKeyType</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptfindoidinfo">CryptFindOIDInfo</a> function when mapping the public key object identifier to the corresponding CNG public key algorithm identifier.
 
 
 ### -param pvAuxInfo [in]
@@ -135,7 +135,7 @@ This parameter is reserved for future use and must be set to <b>NULL</b>.
 
 The address of a <b>BCRYPT_KEY_HANDLE</b> variable that receives the handle of the imported key.
 
-When this handle is no longer needed, you must release it by calling the <a href="https://msdn.microsoft.com/98c02e55-6489-4901-8a7a-021baac41965">BCryptDestroyKey</a> function.
+When this handle is no longer needed, you must release it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptdestroykey">BCryptDestroyKey</a> function.
 
 
 ## -returns
@@ -145,7 +145,7 @@ When this handle is no longer needed, you must release it by calling the <a href
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. Possible error codes include, but are not limited to, the following.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible error codes include, but are not limited to, the following.
 
 <table>
 <tr>
@@ -185,7 +185,7 @@ One or more parameters are not valid.
 
 
 
-<a href="https://msdn.microsoft.com/bab6c147-b7cd-408a-acac-90f05921e065">CERT_PUBLIC_KEY_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_public_key_info">CERT_PUBLIC_KEY_INFO</a>
  
 
  

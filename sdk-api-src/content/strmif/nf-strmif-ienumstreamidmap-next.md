@@ -68,7 +68,7 @@ The number of elements to retrieve.
 
 ### -param pStreamIdMap [in, out]
 
-Address of a user-allocated array containing <i>cRequest</i> elements that will receive the retrieved <a href="https://msdn.microsoft.com/75f41d9f-00a1-47e1-8b42-64de1e6abbdb">STREAM_ID_MAP</a> structures.
+Address of a user-allocated array containing <i>cRequest</i> elements that will receive the retrieved <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-stream_id_map">STREAM_ID_MAP</a> structures.
 
 
 ### -param pcReceived [out]
@@ -99,11 +99,11 @@ If <i>cRequest</i> &gt;= 0 and <i>pcReceived</i> is not <b>NULL</b>, upon return
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/8bca9255-2bc8-408b-9127-e3fe050fcf01">IEnumStreamIdMap Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ienumstreamidmap">IEnumStreamIdMap Interface</a>
  
 
  

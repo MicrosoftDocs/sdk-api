@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CustomLineCap::GetBaseCap</b> method gets the style of the base cap. The base cap is a <a href="https://msdn.microsoft.com/en-us/library/ms534146(v=VS.85).aspx">LineCap</a> object used as a cap at the end of a line along with this <a href="https://msdn.microsoft.com/en-us/library/ms534432(v=VS.85).aspx">CustomLineCap</a> object.
+The <b>CustomLineCap::GetBaseCap</b> method gets the style of the base cap. The base cap is a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a> object used as a cap at the end of a line along with this <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-customlinecap">CustomLineCap</a> object.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ The <b>CustomLineCap::GetBaseCap</b> method gets the style of the base cap. The 
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534146(v=VS.85).aspx">LineCap</a></b>
+Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a></b>
 </strong>
 
 This method returns the value of the line cap used at the base of the line.
@@ -77,11 +77,11 @@ This method returns the value of the line cap used at the base of the line.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534432(v=VS.85).aspx">CustomLineCap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-customlinecap">CustomLineCap</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534146(v=VS.85).aspx">LineCap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a>
  
 
  

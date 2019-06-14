@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Destroys an instance of a <a href="https://msdn.microsoft.com/EC45CD9E-FD2E-4D1D-9D35-1CD7C5B8085D">CD3D11_BLEND_DESC</a> structure.
+Destroys an instance of a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-cd3d11_blend_desc">CD3D11_BLEND_DESC</a> structure.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Destroys an instance of a <a href="https://msdn.microsoft.com/EC45CD9E-FD2E-4D1D
 
 
 
-<a href="https://msdn.microsoft.com/EC45CD9E-FD2E-4D1D-9D35-1CD7C5B8085D">CD3D11_BLEND_DESC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-cd3d11_blend_desc">CD3D11_BLEND_DESC</a>
  
 
  

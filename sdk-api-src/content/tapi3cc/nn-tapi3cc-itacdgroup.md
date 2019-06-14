@@ -53,24 +53,24 @@ Automatic Call Distribution (ACD) is a mechanism that queues and distributes cal
 <b>ITACDGroup</b> interface:
 
 
-<a href="https://msdn.microsoft.com/20cad3aa-2c8c-4ef8-bb3a-b7662b125475">IEnumACDGroup::Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ienumacdgroup-next">IEnumACDGroup::Next</a>
 
 
 
-<a href="https://msdn.microsoft.com/72dcc4c8-fac6-4635-995e-18a5693da99b">ITAgentHandler::get_ACDGroups</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagenthandler-get_acdgroups">ITAgentHandler::get_ACDGroups</a>
 
 
 
-<a href="https://msdn.microsoft.com/68cc2ffe-3c63-4723-8652-0e28da2b17b6">ITAgent::CreateSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-createsession">ITAgent::CreateSession</a>
 
 
 See 
-<a href="https://msdn.microsoft.com/6b24e8aa-fef4-44aa-8d2b-33b9be3d6ea7">About Call Center Controls</a> for additional information.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a> for additional information.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITACDGroup</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITACDGroup</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITACDGroup</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITACDGroup</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -85,7 +85,7 @@ The <b>ITACDGroup</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1d9e0dcf-ce43-494f-8adc-845d2856bdd1">EnumerateQueues</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itacdgroup-enumeratequeues">EnumerateQueues</a>
 </td>
 <td align="left" width="63%">
 Enumerates queues currently on the ACD group.
@@ -94,7 +94,7 @@ Enumerates queues currently on the ACD group.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/93e61a42-3e60-4d52-bb19-68842f6947da">get_Name</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itacdgroup-get_name">get_Name</a>
 </td>
 <td align="left" width="63%">
 Gets the ACD group name.
@@ -103,7 +103,7 @@ Gets the ACD group name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f285fea5-4c08-4d30-8378-0b0aeeea8226">get_Queues</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itacdgroup-get_queues">get_Queues</a>
 </td>
 <td align="left" width="63%">
 Creates a collection of queues associated with the current ACD group. Provided for Automation client applications, such as those written in Visual Basic.

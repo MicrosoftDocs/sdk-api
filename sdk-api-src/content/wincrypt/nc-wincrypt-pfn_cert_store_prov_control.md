@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>CertStoreProvControl</b> callback function supports the <b>CertControlStore</b> API. All of the API's parameters are passed straight through to the callback. For details, see 
-<a href="https://msdn.microsoft.com/04cd9349-50c1-44b4-b080-631a24a80d70">CertControlStore</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcontrolstore">CertControlStore</a>.
 
 
 ## -parameters
@@ -60,22 +60,22 @@ The <b>CertStoreProvControl</b> callback function supports the <b>CertControlSto
 
 ### -param hStoreProv [in, out]
 
-<b>HCERTSTOREPROV</b> handle to a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a> passed from the call to <a href="https://msdn.microsoft.com/04cd9349-50c1-44b4-b080-631a24a80d70">CertControlStore</a>.
+<b>HCERTSTOREPROV</b> handle to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> passed from the call to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcontrolstore">CertControlStore</a>.
 
 
 ### -param dwFlags [in]
 
-Passed from the call to <a href="https://msdn.microsoft.com/04cd9349-50c1-44b4-b080-631a24a80d70">CertControlStore</a>.
+Passed from the call to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcontrolstore">CertControlStore</a>.
 
 
 ### -param dwCtrlType [in]
 
-Control action to be taken. Passed from the call to <a href="https://msdn.microsoft.com/04cd9349-50c1-44b4-b080-631a24a80d70">CertControlStore</a>.
+Control action to be taken. Passed from the call to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcontrolstore">CertControlStore</a>.
 
 
 ### -param *pvCtrlPara [in, optional]
 
-A pointer to a buffer whose structure and content is determined by the values of <i>dwFlags</i> and <i>dwCtrlType</i>. Passed from the call to <a href="https://msdn.microsoft.com/04cd9349-50c1-44b4-b080-631a24a80d70">CertControlStore</a>.
+A pointer to a buffer whose structure and content is determined by the values of <i>dwFlags</i> and <i>dwCtrlType</i>. Passed from the call to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcontrolstore">CertControlStore</a>.
 
 
 ## -returns

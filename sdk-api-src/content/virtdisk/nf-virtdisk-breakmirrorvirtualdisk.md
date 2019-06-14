@@ -61,8 +61,8 @@ Breaks a previously initiated mirror operation and sets the mirror to be the act
 ### -param VirtualDiskHandle [in]
 
 A handle to the open mirrored virtual disk. For information on how to open a virtual disk, see the 
-      <a href="https://msdn.microsoft.com/en-us/library/Dd323680(v=VS.85).aspx">OpenVirtualDisk</a> function. For information on how to 
-      mirror a virtual disk, see the <a href="https://msdn.microsoft.com/en-us/library/Hh448678(v=VS.85).aspx">MirrorVirtualDisk</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-openvirtualdisk">OpenVirtualDisk</a> function. For information on how to 
+      mirror a virtual disk, see the <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-mirrorvirtualdisk">MirrorVirtualDisk</a> 
       function.
 
 
@@ -75,7 +75,7 @@ Status of the request.
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 If the function fails, the return value is an error code. For more information, see 
-       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -85,15 +85,15 @@ If the function fails, the return value is an error code. For more information, 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh448678(v=VS.85).aspx">MirrorVirtualDisk</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-mirrorvirtualdisk">MirrorVirtualDisk</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd323680(v=VS.85).aspx">OpenVirtualDisk</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-openvirtualdisk">OpenVirtualDisk</a>
 
 
 
-<a href="https://msdn.microsoft.com/79c3b3ad-4eaf-49ce-a8ee-b26faf6c2cba">VHD Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323699(v=vs.85)">VHD Functions</a>
  
 
  

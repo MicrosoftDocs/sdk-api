@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves a set of  <a href="https://msdn.microsoft.com/1a4cc421-48b0-4dbe-8a1d-778f40cb77be">unknown properties</a> from the  <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">cluster database</a> and appends them to the end of a  <a href="https://msdn.microsoft.com/57312b32-01cf-48e8-b61f-6095e23bb580">property list</a>.
+Retrieves a set of  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/unknown-properties">unknown properties</a> from the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> and appends them to the end of a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-lists">property list</a>.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ Pointer to the cluster database key that identifies the location for the propert
 
 ### -param pPropertyTable [in]
 
-Pointer to a  <a href="https://msdn.microsoft.com/48591d73-606b-42b4-9711-4f7a84e9e971">property table</a> describing the common and private properties of an object. Any properties found in the cluster database that are not in this property table are added to the property list.
+Pointer to a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-tables">property table</a> describing the common and private properties of an object. Any properties found in the cluster database that are not in this property table are added to the property list.
 
 
 ### -param pOutPropertyList [in, out]
@@ -94,7 +94,7 @@ On output, points to the total number of bytes required to hold the returned pro
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following is a possible error code.
+the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following is a possible error code.
 
 <table>
 <tr>
@@ -135,11 +135,11 @@ The  <b>ResUtilAddUnknownProperties</b> utility function enumerates the properti
 
 
 
-<a href="https://msdn.microsoft.com/f65ee50f-59f7-44db-ad69-b29b3e693c7e">RESUTIL_PROPERTY_ITEM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a>
 
 
 
-<a href="https://msdn.microsoft.com/ee729a3d-9d10-459c-b57d-de17f29d8ae8">ResUtilSetUnknownProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilsetunknownproperties">ResUtilSetUnknownProperties</a>
  
 
  

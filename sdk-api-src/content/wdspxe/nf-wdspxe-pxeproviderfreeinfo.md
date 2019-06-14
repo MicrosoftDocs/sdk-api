@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Frees memory allocated by the 
-    <a href="https://msdn.microsoft.com/a76f2d7a-daf4-4258-9c6d-fd0d562f7efe">PxeProviderEnumNext</a> function.
+    <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxeproviderenumnext">PxeProviderEnumNext</a> function.
 
 
 ## -parameters
@@ -60,8 +60,8 @@ Frees memory allocated by the
 
 ### -param pProvider [in]
 
-Address of a <a href="https://msdn.microsoft.com/a07afefd-7a97-42bb-8d70-2bc7c51ddef3">PXE_PROVIDER</a> structure returned from the 
-      <a href="https://msdn.microsoft.com/a76f2d7a-daf4-4258-9c6d-fd0d562f7efe">PxeProviderEnumNext</a> function.
+Address of a <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/ns-wdspxe-tagpxe_provider">PXE_PROVIDER</a> structure returned from the 
+      <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxeproviderenumnext">PxeProviderEnumNext</a> function.
 
 
 ## -returns
@@ -78,15 +78,15 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 
 
-<a href="https://msdn.microsoft.com/a07afefd-7a97-42bb-8d70-2bc7c51ddef3">PXE_PROVIDER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/ns-wdspxe-tagpxe_provider">PXE_PROVIDER</a>
 
 
 
-<a href="https://msdn.microsoft.com/a76f2d7a-daf4-4258-9c6d-fd0d562f7efe">PxeProviderEnumNext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxeproviderenumnext">PxeProviderEnumNext</a>
 
 
 
-<a href="https://msdn.microsoft.com/b6089ff9-4d74-4f5d-957f-4a741c09f4b9">Windows Deployment Services Server Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>
  
 
  

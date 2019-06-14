@@ -50,12 +50,12 @@ ms.custom: 19H1
 ## -description
 
 
-A multithread interface accesses multithread settings and can only be used if the <a href="https://msdn.microsoft.com/en-us/library/Bb205068(v=VS.85).aspx">thread-safe layer</a> is turned on. 
+A multithread interface accesses multithread settings and can only be used if the <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-api-features-layers">thread-safe layer</a> is turned on. 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Multithread</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID3D10Multithread</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Multithread</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D10Multithread</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID3D10Multithread</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173817(v=VS.85).aspx">Enter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10multithread-enter">Enter</a>
 </td>
 <td align="left" width="63%">
 Enter a device's critical section.
@@ -79,7 +79,7 @@ Enter a device's critical section.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173818(v=VS.85).aspx">GetMultithreadProtected</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10multithread-getmultithreadprotected">GetMultithreadProtected</a>
 </td>
 <td align="left" width="63%">
 Find out if multithreading is turned on or not.
@@ -88,7 +88,7 @@ Find out if multithreading is turned on or not.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173819(v=VS.85).aspx">Leave</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10multithread-leave">Leave</a>
 </td>
 <td align="left" width="63%">
 Leave a device's critical section.
@@ -97,7 +97,7 @@ Leave a device's critical section.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173820(v=VS.85).aspx">SetMultithreadProtected</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10multithread-setmultithreadprotected">SetMultithreadProtected</a>
 </td>
 <td align="left" width="63%">
 Turn multithreading on or off.
@@ -111,7 +111,7 @@ Turn multithreading on or off.
 
 
 
-This interface is obtained by querying it from the <a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a> using <a href="http://msdn.microsoft.com/en-us/library/ms682521(VS.85).aspx">IUnknown::QueryInterface</a>.
+This interface is obtained by querying it from the <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a> using <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a>.
 
 
 
@@ -121,7 +121,7 @@ This interface is obtained by querying it from the <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205152(v=VS.85).aspx">Core Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-interfaces">Core Interfaces</a>
  
 
  

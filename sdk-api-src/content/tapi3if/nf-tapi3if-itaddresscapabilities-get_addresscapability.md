@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>get_AddressCapability</b> method gets the capability value for a given 
-<a href="https://msdn.microsoft.com/47ddd1fb-dc47-4822-87b8-9944491f8b3e">ADDRESS_CAPABILITY</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-address_capability">ADDRESS_CAPABILITY</a>.
 
 
 ## -parameters
@@ -135,15 +135,15 @@ Insufficient memory exists to perform the operation.
 
 
 
-<a href="https://msdn.microsoft.com/47ddd1fb-dc47-4822-87b8-9944491f8b3e">ADDRESS_CAPABILITY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-address_capability">ADDRESS_CAPABILITY</a>
 
 
 
-<a href="https://msdn.microsoft.com/ab6db262-f99e-4027-9525-7597fcf02e72">Address Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/36f452ce-9171-41da-b003-4c7df17790da">ITAddressCapabilities</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddresscapabilities">ITAddressCapabilities</a>
  
 
  

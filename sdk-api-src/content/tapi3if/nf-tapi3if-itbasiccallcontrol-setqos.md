@@ -61,13 +61,13 @@ The
 ### -param lMediaType [in]
 
 
-<a href="https://msdn.microsoft.com/3e418c9a-a008-4b94-b5d2-7c2eccb3bf87">Media type</a> of call.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">Media type</a> of call.
 
 
 ### -param ServiceLevel [in]
 
 
-<a href="https://msdn.microsoft.com/8b0a93ab-6445-4c60-9d27-552c355c1355">QOS_SERVICE_LEVEL</a> indicator of desired QOS level for call.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-qos_service_level">QOS_SERVICE_LEVEL</a> indicator of desired QOS level for call.
 
 
 ## -returns
@@ -125,15 +125,15 @@ Insufficient memory exists to perform the operation.
 
 
 
-<a href="https://msdn.microsoft.com/67c063ba-8b12-40d6-9011-923bdee8b214">Call Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0b4c496-5ee8-4810-8170-8ea505c99f18">ITBasicCallControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/8b0a93ab-6445-4c60-9d27-552c355c1355">QOS_SERVICE_LEVEL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-qos_service_level">QOS_SERVICE_LEVEL</a>
  
 
  

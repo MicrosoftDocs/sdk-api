@@ -67,9 +67,9 @@ A pointer to a buffer that contains the file's extension. This should include th
 
 ### -param ptype [out]
 
-Type: <b><a href="https://msdn.microsoft.com/dbaf5894-1ed6-446f-ac15-12ba4c7326e7">PERCEIVED</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ne-shtypes-tagperceived">PERCEIVED</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/dbaf5894-1ed6-446f-ac15-12ba4c7326e7">PERCEIVED</a> value that indicates the perceived type.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ne-shtypes-tagperceived">PERCEIVED</a> value that indicates the perceived type.
 
 
 ### -param pflag [out]
@@ -82,7 +82,7 @@ A pointer to a value that indicates the source of the perceived type information
 
 #### PERCEIVEDFLAG_UNDEFINED (0x0000)
 
-No perceived type was found (<a href="https://msdn.microsoft.com/dbaf5894-1ed6-446f-ac15-12ba4c7326e7">PERCEIVED_TYPE_UNSPECIFIED</a>).
+No perceived type was found (<a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ne-shtypes-tagperceived">PERCEIVED_TYPE_UNSPECIFIED</a>).
 
 
 

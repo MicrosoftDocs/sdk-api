@@ -59,7 +59,7 @@ The <b>WCM_DATAPLAN_STATUS</b> structure specifies subscription information for 
 
 ### -field UsageData
 
-Type: <b><a href="https://msdn.microsoft.com/c6a483cf-d392-495f-854d-ccc782b30aa5">WCM_USAGE_DATA</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-_wcm_usage_data">WCM_USAGE_DATA</a></b>
 
 Contains usage data.
 
@@ -87,7 +87,7 @@ Specifies the outbound bandwidth, in kilobits per second.
 
 ### -field BillingCycle
 
-Type: <b><a href="https://msdn.microsoft.com/5cfcdfb7-aa33-4582-ba17-e1a305b830f5">WCM_BILLING_CYCLE_INFO</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-wcm_billing_cycle_info">WCM_BILLING_CYCLE_INFO</a></b>
 
 Contains information about the billing cycle.
 
@@ -111,11 +111,11 @@ Reserved.
 
 
 
-<a href="https://msdn.microsoft.com/5cfcdfb7-aa33-4582-ba17-e1a305b830f5">WCM_BILLING_CYCLE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-wcm_billing_cycle_info">WCM_BILLING_CYCLE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/c6a483cf-d392-495f-854d-ccc782b30aa5">WCM_USAGE_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-_wcm_usage_data">WCM_USAGE_DATA</a>
  
 
  

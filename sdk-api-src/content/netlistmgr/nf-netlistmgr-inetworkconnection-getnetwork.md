@@ -59,7 +59,7 @@ The <b>GetNetwork</b> method returns the network associated with the connection.
 
 ### -param ppNetwork [out]
 
-Pointer to a pointer that receives an <a href="https://msdn.microsoft.com/6d483058-f7c4-4a6c-a1a8-816c2fab9994">INetwork</a> interface instance that specifies the network associated with the connection.
+Pointer to a pointer that receives an <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a> interface instance that specifies the network associated with the connection.
 
 
 ## -returns
@@ -76,7 +76,7 @@ Returns S_OK if the method succeeds.
 
 
 
-<a href="https://msdn.microsoft.com/666761b5-0146-438d-9986-ecce3b45b5ff">INetworkConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkconnection">INetworkConnection</a>
  
 
  

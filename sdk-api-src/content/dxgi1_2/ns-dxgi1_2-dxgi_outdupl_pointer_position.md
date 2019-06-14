@@ -81,11 +81,11 @@ The <b>Position</b> member is valid only if the <b>Visible</b> member’s value 
 
 
 
-<a href="https://msdn.microsoft.com/22e98880-bcd1-448a-9223-604fff9173fe">DXGI Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-structures">DXGI Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/2A5C6F99-0610-457D-9850-867DCDA8F293">DXGI_OUTDUPL_FRAME_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/ns-dxgi1_2-dxgi_outdupl_frame_info">DXGI_OUTDUPL_FRAME_INFO</a>
  
 
  

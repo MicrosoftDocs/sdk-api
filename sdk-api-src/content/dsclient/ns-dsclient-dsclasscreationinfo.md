@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DSCLASSCREATIONINFO</b> structure is used with the <a href="https://msdn.microsoft.com/23b88707-c4c3-47dd-a5bc-e325142602f5">IDsDisplaySpecifier::GetClassCreationInfo</a> method to hold data about the class creation wizard objects for an object class.
+The <b>DSCLASSCREATIONINFO</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getclasscreationinfo">IDsDisplaySpecifier::GetClassCreationInfo</a> method to hold data about the class creation wizard objects for an object class.
 
 
 ## -struct-fields
@@ -99,11 +99,11 @@ Contains an array of the class identifiers of the  property page extensions. <b>
 
 
 
-<a href="https://msdn.microsoft.com/bf6aa066-ee7e-4b13-9a4b-1e097632ec5a">Display Structures in Active Directory Domain Services</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/display-structures-in-active-directory-domain-services">Display Structures in Active Directory Domain Services</a>
 
 
 
-<a href="https://msdn.microsoft.com/23b88707-c4c3-47dd-a5bc-e325142602f5">IDsDisplaySpecifier::GetClassCreationInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getclasscreationinfo">IDsDisplaySpecifier::GetClassCreationInfo</a>
  
 
  

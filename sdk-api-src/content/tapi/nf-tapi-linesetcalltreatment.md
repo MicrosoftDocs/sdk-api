@@ -66,7 +66,7 @@ Handle to the call. The application must have OWNER privilege.
 ### -param dwTreatment
 
 One of the call treatments supported on the address on which the call appears, as indicated by 
-<a href="https://msdn.microsoft.com/c1fe1aaf-2f50-4423-bacf-6a3cf218a809">LINEADDRESSCAPS</a>. LINEERR_INVALPARAM is returned if the specified treatment is not supported.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps_tag">LINEADDRESSCAPS</a>. LINEERR_INVALPARAM is returned if the specified treatment is not supported.
 
 
 ## -returns
@@ -94,15 +94,15 @@ The use of call treatment functionality should be limited to controlling of lega
 
 
 
-<a href="https://msdn.microsoft.com/c1fe1aaf-2f50-4423-bacf-6a3cf218a809">LINEADDRESSCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps_tag">LINEADDRESSCAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/d4338b3c-cd84-4abb-b74e-9df895c8355b">Supplementary Line Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d703b414-1389-416c-8e94-c1931979f0c9">TAPI 2.2 Reference Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
  
 
  

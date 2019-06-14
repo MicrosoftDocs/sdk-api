@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DeleteCAConfiguration</b> method removes a named <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) configuration from the configuration set.
+The <b>DeleteCAConfiguration</b> method removes a named <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) configuration from the configuration set.
 
 
 ## -parameters
@@ -59,14 +59,14 @@ The <b>DeleteCAConfiguration</b> method removes a named <a href="https://msdn.mi
 
 ### -param bstrIdentifier [in]
 
-A string that contains the name for the <a href="https://msdn.microsoft.com/57900e1e-9c51-4c1b-aa42-634b6c3a9999">IOCSPCAConfiguration</a> object.
+A string that contains the name for the <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a> object.
 
 
 ## -remarks
 
 
 
-The <i>bstrIdentifier</i> value must be one previously set by the <a href="https://msdn.microsoft.com/d1c47402-77b1-4c43-8d57-20b9dd2682f7">CreateCAConfiguration</a> method.
+The <i>bstrIdentifier</i> value must be one previously set by the <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspcaconfigurationcollection-createcaconfiguration">CreateCAConfiguration</a> method.
 
 
 
@@ -76,7 +76,7 @@ The <i>bstrIdentifier</i> value must be one previously set by the <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/4e232c34-b5ab-4269-903b-189aac5a8ddc">IOCSPCAConfigurationCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfigurationcollection">IOCSPCAConfigurationCollection</a>
  
 
  

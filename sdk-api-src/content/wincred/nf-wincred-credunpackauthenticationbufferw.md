@@ -54,7 +54,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CredUnPackAuthenticationBuffer</b> function converts an authentication buffer returned by a call to the <a href="https://msdn.microsoft.com/946ac279-d30a-4a6c-a76d-d93597121427">CredUIPromptForWindowsCredentials</a> function into a string user name and password.
+The <b>CredUnPackAuthenticationBuffer</b> function converts an authentication buffer returned by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduipromptforwindowscredentialsa">CredUIPromptForWindowsCredentials</a> function into a string user name and password.
 
 
 ## -parameters
@@ -64,11 +64,11 @@ The <b>CredUnPackAuthenticationBuffer</b> function converts an authentication bu
 
 ### -param dwFlags [in]
 
-Setting the value of this parameter to <b>CRED_PACK_PROTECTED_CREDENTIALS</b> specifies that the function attempts to decrypt the credentials in the authentication buffer. If the credential  cannot be decrypted, the function returns <b>FALSE</b>, and a call to the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function will return the value <b>ERROR_NOT_CAPABLE</b>.
+Setting the value of this parameter to <b>CRED_PACK_PROTECTED_CREDENTIALS</b> specifies that the function attempts to decrypt the credentials in the authentication buffer. If the credential  cannot be decrypted, the function returns <b>FALSE</b>, and a call to the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function will return the value <b>ERROR_NOT_CAPABLE</b>.
 
 How the decryption is done depends on the format of the authentication buffer.
 
-If the authentication buffer is a <a href="https://msdn.microsoft.com/a6083d76-1774-428c-85ca-fea817827d6a">SEC_WINNT_AUTH_IDENTITY_EX2</a> structure, the function can decrypt the buffer if it is encrypted by using <a href="https://msdn.microsoft.com/9290BEF8-24C9-47F0-B258-56ED7D67620B">SspiEncryptAuthIdentityEx</a> with the SEC_WINNT_AUTH_IDENTITY_ENCRYPT_SAME_LOGON option.
+If the authentication buffer is a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_winnt_auth_identity_ex2">SEC_WINNT_AUTH_IDENTITY_EX2</a> structure, the function can decrypt the buffer if it is encrypted by using <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspiencryptauthidentityex">SspiEncryptAuthIdentityEx</a> with the SEC_WINNT_AUTH_IDENTITY_ENCRYPT_SAME_LOGON option.
 
 If the authentication buffer is one of the marshaled KERB_*_LOGON structures, the function decrypts the password before returning it in the <i>pszPassword</i> buffer.
 
@@ -77,10 +77,10 @@ If the authentication buffer is one of the marshaled KERB_*_LOGON structures, th
 
 A pointer to the authentication buffer to be converted.
 
-This buffer is typically the output of the <a href="https://msdn.microsoft.com/946ac279-d30a-4a6c-a76d-d93597121427">CredUIPromptForWindowsCredentials</a> or <a href="https://msdn.microsoft.com/48ffdd7a-1969-4f6a-bbc7-2826e21ea052">CredPackAuthenticationBuffer</a> function. This must be one of the following types:<ul>
-<li>A <a href="https://msdn.microsoft.com/a6083d76-1774-428c-85ca-fea817827d6a">SEC_WINNT_AUTH_IDENTITY_EX2</a> structure for identity credentials. The function does not accept other <a href="https://msdn.microsoft.com/a9c9471b-2134-4173-af86-18b277627d2a">SEC_WINNT_AUTH_IDENTITY</a> structures.</li>
-<li>A <a href="https://msdn.microsoft.com/96aec0cc-b3e1-4b4b-aa0e-ecf05b9fabbe">KERB_INTERACTIVE_LOGON</a> or <a href="https://msdn.microsoft.com/211d89e9-36a6-4177-8eea-d01eca320718">KERB_INTERACTIVE_UNLOCK_LOGON</a>  structure for password credentials.</li>
-<li>A <a href="https://msdn.microsoft.com/e6aa0042-edb5-4e9b-b545-5159d3bfb8fc">KERB_CERTIFICATE_LOGON</a> or <a href="https://msdn.microsoft.com/04e058b0-9a05-4ed7-9d4a-1c8c003d8077">KERB_CERTIFICATE_UNLOCK_LOGON</a>  structure for smart card certificate credentials.</li>
+This buffer is typically the output of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduipromptforwindowscredentialsa">CredUIPromptForWindowsCredentials</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credpackauthenticationbuffera">CredPackAuthenticationBuffer</a> function. This must be one of the following types:<ul>
+<li>A <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_winnt_auth_identity_ex2">SEC_WINNT_AUTH_IDENTITY_EX2</a> structure for identity credentials. The function does not accept other <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structures.</li>
+<li>A <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_interactive_logon">KERB_INTERACTIVE_LOGON</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_interactive_unlock_logon">KERB_INTERACTIVE_UNLOCK_LOGON</a>  structure for password credentials.</li>
+<li>A <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_certificate_logon">KERB_CERTIFICATE_LOGON</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_certificate_unlock_logon">KERB_CERTIFICATE_UNLOCK_LOGON</a>  structure for smart card certificate credentials.</li>
 <li>GENERIC_CRED for generic credentials.</li>
 </ul>
 
@@ -137,7 +137,7 @@ A pointer to a <b>DWORD</b> value that specifies the size, in characters, of the
 <b>TRUE</b> if the function succeeds; otherwise, <b>FALSE</b>.
 
 For extended error information, call the 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function. The following table shows common values for the <b>GetLastError</b> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. The following table shows common values for the <b>GetLastError</b> function.
 
 <table>
 <tr>
@@ -190,8 +190,8 @@ The authentication buffer is not of a supported type.
 
 
 
-Beginning with  Windows 8 and Windows Server 2012, the authentication buffer can be a <a href="https://msdn.microsoft.com/a6083d76-1774-428c-85ca-fea817827d6a">SEC_WINNT_AUTH_IDENTITY_EX2</a> structure, which can be optionally encrypted by using the <a href="https://msdn.microsoft.com/9290BEF8-24C9-47F0-B258-56ED7D67620B">SspiEncryptAuthIdentityEx</a> function with the SEC_WINNT_AUTH_IDENTITY_ENCRYPT_SAME_LOGON option. This credential format is returned by a Credential Provider of an Identity Provider by using the <a href="https://msdn.microsoft.com/946ac279-d30a-4a6c-a76d-d93597121427">CredUIPromptForWindowsCredentials</a> or <a href="https://msdn.microsoft.com/2af2ac00-0e91-4384-9ffa-3e100df218c1">SspiPromptForCredentials</a> function. This structure can also be constructed by using the <a href="https://msdn.microsoft.com/48ffdd7a-1969-4f6a-bbc7-2826e21ea052">CredPackAuthenticationBuffer</a> function. 
-If the authentication buffer <i>pAuthBuffer</i> represents a nonpassword credential, such as <a href="https://msdn.microsoft.com/e6aa0042-edb5-4e9b-b545-5159d3bfb8fc">KERB_CERTIFICATE_LOGON</a> or <b>SEC_WINNT_AUTH_IDENTITY_EX2</b>, the function must marshal the credential as character strings, returned as user name, domain name, and password strings. The marshaling is done by using a specific procedure. When <i>dwFlags</i> contains the CRED_PACK_PROTECTED_CREDENTIALS flag, the caller must run in the same logon session in which the credential was encrypted.
+Beginning with  Windows 8 and Windows Server 2012, the authentication buffer can be a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_winnt_auth_identity_ex2">SEC_WINNT_AUTH_IDENTITY_EX2</a> structure, which can be optionally encrypted by using the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspiencryptauthidentityex">SspiEncryptAuthIdentityEx</a> function with the SEC_WINNT_AUTH_IDENTITY_ENCRYPT_SAME_LOGON option. This credential format is returned by a Credential Provider of an Identity Provider by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduipromptforwindowscredentialsa">CredUIPromptForWindowsCredentials</a> or <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspipromptforcredentialsa">SspiPromptForCredentials</a> function. This structure can also be constructed by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credpackauthenticationbuffera">CredPackAuthenticationBuffer</a> function. 
+If the authentication buffer <i>pAuthBuffer</i> represents a nonpassword credential, such as <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_certificate_logon">KERB_CERTIFICATE_LOGON</a> or <b>SEC_WINNT_AUTH_IDENTITY_EX2</b>, the function must marshal the credential as character strings, returned as user name, domain name, and password strings. The marshaling is done by using a specific procedure. When <i>dwFlags</i> contains the CRED_PACK_PROTECTED_CREDENTIALS flag, the caller must run in the same logon session in which the credential was encrypted.
 
 
 

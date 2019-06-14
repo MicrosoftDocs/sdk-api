@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the automagic hints for a 
    LUN or LUN plex.
@@ -182,7 +182,7 @@ The provider configures LUN so that the drives that contribute to it can be phys
 
 The maximum size to which the LUN is expected to grow, in bytes. The value can be equal to, greater than, or 
       less than the value specified in <i>ullSizeInBytes</i> when the 
-      <a href="https://msdn.microsoft.com/e8097364-1f23-4cda-8f12-a750bbb4eb4c">IVdsSubSystem::CreateLun</a> method is called.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-createlun">IVdsSubSystem::CreateLun</a> method is called.
       Some providers use this value to reserve space for the LUN. Providers that are unable to reserve space 
       typically ignore this parameter.
 
@@ -298,11 +298,11 @@ The rebuild priority for the LUN. The value can range from 0 (lowest priority) t
 
 
 
-The <a href="https://msdn.microsoft.com/e8097364-1f23-4cda-8f12-a750bbb4eb4c">IVdsSubSystem::CreateLun</a> method passes 
+The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-createlun">IVdsSubSystem::CreateLun</a> method passes 
     this structure as a parameter to provide hints for creating a LUN. It is passed as a parameter in the 
     <b>ApplyHints</b> method on both the 
-    <a href="https://msdn.microsoft.com/e2fbebc0-593e-437c-a401-80e35a43da94">IVdsLun</a> and 
-    <a href="https://msdn.microsoft.com/de795ae2-784c-43d7-a34c-546af31d2747">IVdsLunPlex</a> interfaces to apply a new set of hints to a 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdslun">IVdsLun</a> and 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdslunplex">IVdsLunPlex</a> interfaces to apply a new set of hints to a 
     LUN or LUN plex, respectively. Further, it is returned by the <b>QueryHints</b> method on both 
     the <b>IVdsLun</b> and 
     <b>IVdsLunPlex</b> interfaces to report hints currently applied 
@@ -321,27 +321,27 @@ Hints are not directives to implementers. While implementers are in general expe
 
 
 
-<a href="https://msdn.microsoft.com/2582913a-bc13-45dc-b0c8-9429945014da">IVdsLun::ApplyHints</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-applyhints">IVdsLun::ApplyHints</a>
 
 
 
-<a href="https://msdn.microsoft.com/6cdbbf17-fcee-4cd4-bf5c-d994886262da">IVdsLun::QueryHints</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-queryhints">IVdsLun::QueryHints</a>
 
 
 
-<a href="https://msdn.microsoft.com/66299644-4b70-4cd3-ae99-4d4084c3c3c5">IVdsLunPlex::ApplyHints</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunplex-applyhints">IVdsLunPlex::ApplyHints</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ecb0840-8eaf-47c9-b8a9-98c738ed7daf">IVdsLunPlex::QueryHints</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunplex-queryhints">IVdsLunPlex::QueryHints</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8097364-1f23-4cda-8f12-a750bbb4eb4c">IVdsSubSystem::CreateLun</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-createlun">IVdsSubSystem::CreateLun</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a13f5eb-0fa1-48e2-a112-b2254ca28423">VDS Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-structures">VDS Structures</a>
  
 
  

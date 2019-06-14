@@ -64,7 +64,7 @@ The <b>auxSetVolume</b> function sets the volume of the specified auxiliary outp
 
 ### -param uDeviceID
 
-Identifier of the auxiliary output device to be queried. Device identifiers are determined implicitly from the number of devices present in the system. Device identifier values range from zero to one less than the number of devices present. Use the <a href="https://msdn.microsoft.com/6e36d549-83ba-4a67-b9d7-047e7d3a5613">auxGetNumDevs</a> function to determine the number of auxiliary devices in the system.
+Identifier of the auxiliary output device to be queried. Device identifiers are determined implicitly from the number of devices present in the system. Device identifier values range from zero to one less than the number of devices present. Use the <a href="https://docs.microsoft.com/previous-versions//dd756713(v=vs.85)">auxGetNumDevs</a> function to determine the number of auxiliary devices in the system.
 
 
 ### -param dwVolume
@@ -106,11 +106,11 @@ Specified device identifier is out of range.
 
 
 
-Not all devices support volume control. To determine whether the device supports volume control, use the AUXCAPS_VOLUME flag to test the <b>dwSupport</b> member of the <a href="https://msdn.microsoft.com/5b94a468-88b2-40a4-b28d-49f262e62749">AUXCAPS</a> structure (filled by the <a href="https://msdn.microsoft.com/c0920425-fb42-4112-b0c1-f4b607b9e794">auxGetDevCaps</a> function).
+Not all devices support volume control. To determine whether the device supports volume control, use the AUXCAPS_VOLUME flag to test the <b>dwSupport</b> member of the <a href="https://docs.microsoft.com/previous-versions//dd756711(v=vs.85)">AUXCAPS</a> structure (filled by the <a href="https://docs.microsoft.com/previous-versions//dd756712(v=vs.85)">auxGetDevCaps</a> function).
 
-To determine whether the device supports volume control on both the left and right channels, use the AUXCAPS_LRVOLUME flag to test the <b>dwSupport</b> member of the <a href="https://msdn.microsoft.com/5b94a468-88b2-40a4-b28d-49f262e62749">AUXCAPS</a> structure (filled by <a href="https://msdn.microsoft.com/c0920425-fb42-4112-b0c1-f4b607b9e794">auxGetDevCaps</a>).
+To determine whether the device supports volume control on both the left and right channels, use the AUXCAPS_LRVOLUME flag to test the <b>dwSupport</b> member of the <a href="https://docs.microsoft.com/previous-versions//dd756711(v=vs.85)">AUXCAPS</a> structure (filled by <a href="https://docs.microsoft.com/previous-versions//dd756712(v=vs.85)">auxGetDevCaps</a>).
 
-Most devices do not support the full 16 bits of volume-level control and will use only the high-order bits of the requested volume setting. For example, for a device that supports 4 bits of volume control, requested volume level values of 0x4000, 0x4FFF, and 0x43BE will produce the same physical volume setting, 0x4000. The <a href="https://msdn.microsoft.com/a427cdb5-83ec-4529-847d-1494118ef926">auxGetVolume</a> function will return the full 16-bit setting set with <b>auxSetVolume</b>.
+Most devices do not support the full 16 bits of volume-level control and will use only the high-order bits of the requested volume setting. For example, for a device that supports 4 bits of volume control, requested volume level values of 0x4000, 0x4FFF, and 0x43BE will produce the same physical volume setting, 0x4000. The <a href="https://docs.microsoft.com/previous-versions//dd756714(v=vs.85)">auxGetVolume</a> function will return the full 16-bit setting set with <b>auxSetVolume</b>.
 
 Volume settings are interpreted logarithmically. This means the perceived volume increase is the same when increasing the volume level from 0x5000 to 0x6000 as it is from 0x4000 to 0x5000.
 
@@ -122,11 +122,11 @@ Volume settings are interpreted logarithmically. This means the perceived volume
 
 
 
-<a href="https://msdn.microsoft.com/3188355c-65be-4372-8e87-e7f755982592">Waveform Audio</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c8aaa54-0477-484f-91e1-d2152aa9c185">Waveform Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>
  
 
  

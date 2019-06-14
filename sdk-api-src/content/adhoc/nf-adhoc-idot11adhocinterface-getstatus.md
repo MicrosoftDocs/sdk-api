@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the connection status of the active network associated with this NIC. You can determine the active network by calling <a href="https://msdn.microsoft.com/aefe605a-720d-40da-8d0f-b1d5dd5b306e">IDot11AdHocInterface::GetActiveNetwork</a>.
+Gets the connection status of the active network associated with this NIC. You can determine the active network by calling <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocinterface-getactivenetwork">IDot11AdHocInterface::GetActiveNetwork</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets the connection status of the active network associated with this NIC. You c
 
 ### -param pState [in, out]
 
-A pointer to a  <a href="https://msdn.microsoft.com/en-us/library/ms705987(v=VS.85).aspx">DOT11_ADHOC_NETWORK_CONNECTION_STATUS</a> value that specifies the connection state.
+A pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/ne-adhoc-tagdot11_adhoc_network_connection_status">DOT11_ADHOC_NETWORK_CONNECTION_STATUS</a> value that specifies the connection state.
 
 
 ## -returns
@@ -139,11 +139,11 @@ A pointer passed as a parameter is not valid.
 
 
 
-<a href="https://msdn.microsoft.com/a4a73ff8-e24a-4f44-9205-c60699d1c27d">IDot11AdHocInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocinterface">IDot11AdHocInterface</a>
 
 
 
-<a href="https://msdn.microsoft.com/aefe605a-720d-40da-8d0f-b1d5dd5b306e">IDot11AdHocInterface::GetActiveNetwork</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocinterface-getactivenetwork">IDot11AdHocInterface::GetActiveNetwork</a>
  
 
  

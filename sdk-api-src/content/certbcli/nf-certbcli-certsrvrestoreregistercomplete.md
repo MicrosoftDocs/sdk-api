@@ -60,7 +60,7 @@ The <b>CertSrvRestoreRegisterComplete</b>  function completes a registered Certi
 ### -param hbc [in]
 
 A handle to a Certificate Services restore context. You must set this handle by calling 
-<a href="https://msdn.microsoft.com/4549ba26-d52c-4779-b27d-126cef6ef15d">CertSrvRestoreRegister</a> before using it in <b>CertSrvRestoreRegisterComplete</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/certbcli/nf-certbcli-certsrvrestoreregisterw">CertSrvRestoreRegister</a> before using it in <b>CertSrvRestoreRegisterComplete</b>.
 
 
 ### -param hrRestoreState [in]
@@ -124,11 +124,11 @@ if (FAILED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/4549ba26-d52c-4779-b27d-126cef6ef15d">CertSrvRestoreRegister</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certbcli/nf-certbcli-certsrvrestoreregisterw">CertSrvRestoreRegister</a>
 
 
 
-<a href="https://msdn.microsoft.com/47e8f490-ecb2-4c41-8bf0-b673e173ddc6">Using the Certificate Services Backup and Restore Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/using-the-certificate-services-backup-and-restore-functions">Using the Certificate Services Backup and Restore Functions</a>
  
 
  

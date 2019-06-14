@@ -60,8 +60,8 @@ The <b>WinHttpResetAutoProxy</b> function resets the auto-proxy.
 ### -param hSession [in]
 
 A valid 
-<a href="https://msdn.microsoft.com/0bd82860-1347-40c8-ae77-c4d865c109be">HINTERNET</a> WinHTTP session handle returned by a previous call to 
-the <a href="https://msdn.microsoft.com/34ce8f7d-7cc3-4b38-ba6a-1247f50ebd33">WinHttpOpen</a> function. 
+<a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> WinHTTP session handle returned by a previous call to 
+the <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a> function. 
 
 
 ### -param dwFlags [in]
@@ -155,7 +155,7 @@ Act on the autoproxy service instead of the current process.  <div class="alert"
 <div> </div>
 
 
-Applications that use the  <a href="https://msdn.microsoft.com/d01b101e-a496-4e84-9aec-61afe3920fbb">WinHttpGetProxyForUrl</a> function to purge in-process caching should close the <i>hInternet</i> handle and open a new handle for future calls.
+Applications that use the  <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurl">WinHttpGetProxyForUrl</a> function to purge in-process caching should close the <i>hInternet</i> handle and open a new handle for future calls.
 
 </td>
 </tr>
@@ -206,7 +206,7 @@ The <i>hSession</i> parameter is not a valid handle.
 </dl>
 </td>
 <td width="60%">
-The <i>hSession</i> parameter is not the product of a call to <a href="https://msdn.microsoft.com/34ce8f7d-7cc3-4b38-ba6a-1247f50ebd33">WinHttpOpen</a>.
+The <i>hSession</i> parameter is not the product of a call to <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>.
 
 </td>
 </tr>

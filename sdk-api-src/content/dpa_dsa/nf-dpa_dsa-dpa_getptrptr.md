@@ -66,7 +66,7 @@ A handle to an existing DPA.
 
 
 
-Applications can use the return value to manipulate the contents of the DPA directly instead of using functions such as <a href="https://msdn.microsoft.com/en-us/library/Bb775635(v=VS.85).aspx">DPA_SetPtr</a>. The return value is invalidated by any operation that changes the number of elements in the DPA or destroys the DPA. For example, after calling function <a href="https://msdn.microsoft.com/en-us/library/Bb775625(v=VS.85).aspx">DPA_InsertPtr</a> on a DPA, any internal pointers retrieved by calling the macro <b>DPA_GetPtrPtr</b> on the same DPA are no longer valid.
+Applications can use the return value to manipulate the contents of the DPA directly instead of using functions such as <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_setptr">DPA_SetPtr</a>. The return value is invalidated by any operation that changes the number of elements in the DPA or destroys the DPA. For example, after calling function <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_insertptr">DPA_InsertPtr</a> on a DPA, any internal pointers retrieved by calling the macro <b>DPA_GetPtrPtr</b> on the same DPA are no longer valid.
 
 
 

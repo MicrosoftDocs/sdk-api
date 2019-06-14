@@ -86,10 +86,10 @@ Returns a standard <b>HRESULT</b> value including the following.
 
 
 This method uses the 
-<a href="https://msdn.microsoft.com/c4b85d8e-b33b-47a4-b7d7-5f901f80dce9">ADsOpenObject</a> function to bind to the display specifier object of the given class. If that fails, it attempts to bind to the display specifier in the user locale. If this fails again, it binds to the display specifier in the default locale.
+<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a> function to bind to the display specifier object of the given class. If that fails, it attempts to bind to the display specifier in the user locale. If this fails again, it binds to the display specifier in the default locale.
 
 This method uses the server and user credentials set by a previous call to 
-<a href="https://msdn.microsoft.com/f72cc711-7dec-4f5a-9cf1-57612240b435">IDsDisplaySpecifier::SetServer</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-setserver">IDsDisplaySpecifier::SetServer</a>.
 
 
 #### Examples
@@ -131,19 +131,19 @@ if(SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/c4b85d8e-b33b-47a4-b7d7-5f901f80dce9">ADsOpenObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/f53d4425-5496-45f8-a09b-f163b63a29c8">Display Interfaces in Active Directory Domain Services</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/display-interfaces-in-active-directory-domain-services">Display Interfaces in Active Directory Domain Services</a>
 
 
 
-<a href="https://msdn.microsoft.com/a6ac7006-73b8-4673-89d6-8285453481d3">IDsDisplaySpecifier</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a>
 
 
 
-<a href="https://msdn.microsoft.com/f72cc711-7dec-4f5a-9cf1-57612240b435">IDsDisplaySpecifier::SetServer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-setserver">IDsDisplaySpecifier::SetServer</a>
  
 
  

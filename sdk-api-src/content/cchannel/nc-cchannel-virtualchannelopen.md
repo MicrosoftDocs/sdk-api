@@ -53,8 +53,8 @@ Opens the client end of a virtual channel.
 
 Remote Desktop Services provides a pointer to a 
 <b>VirtualChannelOpen</b> function in the 
-<a href="https://msdn.microsoft.com/f64471b0-1f2e-48cb-9f9c-1bb536afc248">CHANNEL_ENTRY_POINTS</a> structure passed to your 
-<a href="https://msdn.microsoft.com/1fd185fb-6dc9-4b32-9fa7-15ef76776305">VirtualChannelEntry</a> entry point.
+<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/ns-cchannel-tagchannel_entry_points">CHANNEL_ENTRY_POINTS</a> structure passed to your 
+<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelentry">VirtualChannelEntry</a> entry point.
 
 
 ## -parameters
@@ -65,14 +65,14 @@ Remote Desktop Services provides a pointer to a
 ### -param pInitHandle [in]
 
 Handle to the client connection. This is the handle returned in the <i>ppInitHandle</i> parameter of the 
-<a href="https://msdn.microsoft.com/3dae59dc-e70f-450e-a324-a4d68341a72e">VirtualChannelInit</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelinit">VirtualChannelInit</a> function.
 
 
 ### -param pOpenHandle [out]
 
 Pointer to a variable that receives a handle that identifies the open virtual channel in subsequent calls to the 
-<a href="https://msdn.microsoft.com/bd7bc65e-403c-4e29-bdb4-f2f5a957d6ab">VirtualChannelWrite</a> and 
-<a href="https://msdn.microsoft.com/96fd8910-6cc7-460c-9f63-3363fbbae0b1">VirtualChannelClose</a> functions.
+<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelwrite">VirtualChannelWrite</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelclose">VirtualChannelClose</a> functions.
 
 
 ### -param pChannelName [in]
@@ -84,7 +84,7 @@ Pointer to a null-terminated ANSI character string containing the name of the vi
 ### -param pChannelOpenEventProc [in]
 
 Pointer to an application-defined 
-<a href="https://msdn.microsoft.com/7412d125-1a3c-4e9a-9804-b612030682da">VirtualChannelOpenEvent</a> function that Remote Desktop Services calls to notify the client DLL of events for this virtual channel.
+<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-channel_open_event_fn">VirtualChannelOpenEvent</a> function that Remote Desktop Services calls to notify the client DLL of events for this virtual channel.
 
 
 ## -returns
@@ -103,7 +103,7 @@ If an error occurs, the function returns one of the following values.
 
 
 The client DLL cannot call this function until the client has established a connection with an RD Session Host 
-    server. Your <a href="https://msdn.microsoft.com/8a074b6c-7fc1-411f-a50c-64f40c0c4dd6">VirtualChannelInitEvent</a> 
+    server. Your <a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-channel_init_event_fn">VirtualChannelInitEvent</a> 
     function receives a CHANNEL_EVENT_CONNECTED notification when an RD Session Host server connection is established.
 
 
@@ -114,23 +114,23 @@ The client DLL cannot call this function until the client has established a conn
 
 
 
-<a href="https://msdn.microsoft.com/96fd8910-6cc7-460c-9f63-3363fbbae0b1">VirtualChannelClose</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelclose">VirtualChannelClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/3dae59dc-e70f-450e-a324-a4d68341a72e">VirtualChannelInit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelinit">VirtualChannelInit</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a074b6c-7fc1-411f-a50c-64f40c0c4dd6">VirtualChannelInitEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-channel_init_event_fn">VirtualChannelInitEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/7412d125-1a3c-4e9a-9804-b612030682da">VirtualChannelOpenEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-channel_open_event_fn">VirtualChannelOpenEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/bd7bc65e-403c-4e29-bdb4-f2f5a957d6ab">VirtualChannelWrite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelwrite">VirtualChannelWrite</a>
  
 
  

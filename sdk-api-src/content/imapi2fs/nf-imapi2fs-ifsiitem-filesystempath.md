@@ -59,12 +59,12 @@ Retrieves the full path of the item as modified to conform to the specified file
 
 ### -param fileSystem [in]
 
-File system to which the path should conform. For possible values, see the <a href="https://msdn.microsoft.com/afb27235-a9b4-4629-aac0-9c43e5b2cf3f">FsiFileSystems</a> enumeration type.
+File system to which the path should conform. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/ne-imapi2fs-fsifilesystems">FsiFileSystems</a> enumeration type.
 
 
 ### -param pVal [out]
 
-String that contains the full path of the item as it conforms to the specified file system. The path in the <a href="https://msdn.microsoft.com/fb2d6f13-a833-42a3-abbd-39f86b95082d">IFsiItem::get_FullPath</a> property is modified if the characters used and its length do not meet the requirements of the specified file system type.
+String that contains the full path of the item as it conforms to the specified file system. The path in the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-get_fullpath">IFsiItem::get_FullPath</a> property is modified if the characters used and its length do not meet the requirements of the specified file system type.
 
 
 ## -returns
@@ -115,7 +115,7 @@ Value: 0xC0AAB101
 
 
 
-<a href="https://msdn.microsoft.com/44494e66-e6b4-4acb-a2a6-0a3e5cc4a2a0">IFsiItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem</a>
  
 
  

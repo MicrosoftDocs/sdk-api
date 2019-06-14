@@ -70,9 +70,9 @@ The zero-based index of the function parameter reflector to retrieve.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/9AB312BE-E174-46D2-BF24-32309BD88AC4">ID3D12FunctionParameterReflection</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12functionparameterreflection">ID3D12FunctionParameterReflection</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/9AB312BE-E174-46D2-BF24-32309BD88AC4">ID3D12FunctionParameterReflection</a> interface that represents the function parameter reflector.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12functionparameterreflection">ID3D12FunctionParameterReflection</a> interface that represents the function parameter reflector.
           
 
 
@@ -83,7 +83,7 @@ A pointer to a <a href="https://msdn.microsoft.com/9AB312BE-E174-46D2-BF24-32309
 
 
 
-<a href="https://msdn.microsoft.com/F0BF4AA9-66D7-4A33-A51C-B03C1D61F537">ID3D12FunctionReflection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12functionreflection">ID3D12FunctionReflection</a>
  
 
  

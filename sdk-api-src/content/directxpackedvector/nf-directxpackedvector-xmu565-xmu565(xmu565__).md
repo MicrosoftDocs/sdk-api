@@ -49,7 +49,7 @@ ms.custom: 19H1
 
 A constructor for <code>XMU565</code>.
 
-A constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee420413(v=VS.85).aspx">XMU565</a>.
+A constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565">XMU565</a>.
 
 <div class="alert"><b>Note</b>  This is only available for C++ based development.</div>
 
@@ -63,6 +63,6 @@ A value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420413(v=VS.85).aspx">XMU565</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565">XMU565</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415440(v=VS.85).aspx">XMU565 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmu565-ctor">XMU565 Constructors</a>

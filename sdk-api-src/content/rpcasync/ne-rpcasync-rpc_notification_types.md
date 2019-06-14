@@ -66,7 +66,7 @@ The client does not require notification of the completion of an asynchronous re
 ### -field RpcNotificationTypeEvent
 
 Notify the client program by signaling an event object. See 
-<a href="https://msdn.microsoft.com/63dc2991-e070-4981-9e2d-90b4fdaaee7a">Event Objects</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Sync/event-objects">Event Objects</a>.
 
 
 ### -field RpcNotificationTypeApc
@@ -94,7 +94,7 @@ Invoke a callback function provided by the client program.
 
 
 
-<a href="https://msdn.microsoft.com/b40308ef-88ae-4c80-9118-29c5ffee77ad">Making the Asynchronous Call</a>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/making-the-asynchronous-call">Making the Asynchronous Call</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Specifies when the data collector set runs.
 
-To get this interface, call the <a href="https://msdn.microsoft.com/8fa10cd9-d1ae-47c7-80e2-416165164491">IScheduleCollection::CreateSchedule</a> method.
+To get this interface, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ischedulecollection-createschedule">IScheduleCollection::CreateSchedule</a> method.
 
 
 ## -remarks
@@ -60,9 +60,9 @@ To get this interface, call the <a href="https://msdn.microsoft.com/8fa10cd9-d1a
 
 To create the object from a script, use the Pla.Schedule program identifier.
 
-PLA uses the schedule when the <a href="https://msdn.microsoft.com/75ebe328-1494-464c-9491-e8a39e1d8ee1">IDataCollectorSet::SchedulesEnabled</a> property is VARIANT_TRUE.
+PLA uses the schedule when the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_schedulesenabled">IDataCollectorSet::SchedulesEnabled</a> property is VARIANT_TRUE.
 
-For an example that shows the XML that you can use to initialize this object if you call the <a href="https://msdn.microsoft.com/10bffd54-990f-412f-baae-b8ab621b02b8">IDataCollectorSet::SetXml</a> method, see the Remarks section of <a href="https://msdn.microsoft.com/a4ae0874-4ee6-46a1-9811-8cd4be26859c">IDataCollectorSet</a>.  When you specify the XML to create the object, you can specify only the elements for the properties that you want to set. If you do not specify a property, PLA provides a default value. When you retrieve the XML for the set, the XML includes all elements. 
+For an example that shows the XML that you can use to initialize this object if you call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-setxml">IDataCollectorSet::SetXml</a> method, see the Remarks section of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>.  When you specify the XML to create the object, you can specify only the elements for the properties that you want to set. If you do not specify a property, PLA provides a default value. When you retrieve the XML for the set, the XML includes all elements. 
 
 
 

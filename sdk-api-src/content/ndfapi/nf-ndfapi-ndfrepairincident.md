@@ -61,14 +61,14 @@ The <b>NdfRepairIncident</b> function repairs an incident without displaying a u
 
 Type: <b>NDFHANDLE</b>
 
-Handle to the Network Diagnostics Framework incident. This handle should match the handle passed to <a href="https://msdn.microsoft.com/69ae5624-7c3b-44a2-8468-d587739fc666">NdfDiagnoseIncident</a>.
+Handle to the Network Diagnostics Framework incident. This handle should match the handle passed to <a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfdiagnoseincident">NdfDiagnoseIncident</a>.
 
 
 ### -param RepairEx [in]
 
-Type: <b><a href="https://msdn.microsoft.com/9357f463-946c-47ad-bb8d-ff9de210e7e1">RepairInfoEx</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-tagrepairinfoex">RepairInfoEx</a>*</b>
 
-A structure (obtained from <a href="https://msdn.microsoft.com/69ae5624-7c3b-44a2-8468-d587739fc666">NdfDiagnoseIncident</a>) which indicates the particular repair to be performed.
+A structure (obtained from <a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfdiagnoseincident">NdfDiagnoseIncident</a>) which indicates the particular repair to be performed.
 
 Memory allocated to these structures should later be freed.  For an example of how to do this, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=158047">Microsoft Windows Network Diagnostics Samples</a>.
 
@@ -109,7 +109,7 @@ Repair succeeded.
 </dl>
 </td>
 <td width="60%">
-The repair executed successfully, but NDF validation still found a connectivity problem. If this value is returned, the session should be closed by calling <a href="https://msdn.microsoft.com/5e5caf41-ca24-42e0-ac22-3b569400c383">NdfCloseIncident</a> and another session should be created to continue the diagnosis.
+The repair executed successfully, but NDF validation still found a connectivity problem. If this value is returned, the session should be closed by calling <a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfcloseincident">NdfCloseIncident</a> and another session should be created to continue the diagnosis.
 
 </td>
 </tr>
@@ -147,9 +147,9 @@ Other failure codes are returned if the repair failed to execute. In that case, 
 
 
 
-<b>NdfRepairIncident</b> can only be called when <a href="https://msdn.microsoft.com/69ae5624-7c3b-44a2-8468-d587739fc666">NdfDiagnoseIncident</a> is used for diagnostics. This is typically the case in scenarios where no user interface is shown, or where the standard Windows experience is not being used (as with Media Center and embedded applications). <b>NdfRepairIncident</b> should not be called when <a href="https://msdn.microsoft.com/b65f30c3-53d5-4282-8d38-5723772f15fc">NdfExecuteDiagnosis</a> is used.
+<b>NdfRepairIncident</b> can only be called when <a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfdiagnoseincident">NdfDiagnoseIncident</a> is used for diagnostics. This is typically the case in scenarios where no user interface is shown, or where the standard Windows experience is not being used (as with Media Center and embedded applications). <b>NdfRepairIncident</b> should not be called when <a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfexecutediagnosis">NdfExecuteDiagnosis</a> is used.
 
-Before using this API, an application must call an incident creation function such as <a href="https://msdn.microsoft.com/28ca2949-6867-4c9a-aebc-bf2a57627c04">NdfCreateWebIncident</a> to begin the NDF diagnostics process. The application then calls <a href="https://msdn.microsoft.com/69ae5624-7c3b-44a2-8468-d587739fc666">NdfDiagnoseIncident</a> to diagnose the issue. If the diagnostics process identifies some possible repairs, the application can call <b>NdfRepairIncident</b> to repair the problem without displaying a user interface. <a href="https://msdn.microsoft.com/dc0cbfc0-fcaa-44b2-a753-8df9f184b8ca">NdfCancelIncident</a> can optionally be called from a separate thread if the application wants to cancel an ongoing <b>NdfRepairIncident</b> call. Finally, the application calls <a href="https://msdn.microsoft.com/5e5caf41-ca24-42e0-ac22-3b569400c383">NdfCloseIncident</a>.
+Before using this API, an application must call an incident creation function such as <a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfcreatewebincident">NdfCreateWebIncident</a> to begin the NDF diagnostics process. The application then calls <a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfdiagnoseincident">NdfDiagnoseIncident</a> to diagnose the issue. If the diagnostics process identifies some possible repairs, the application can call <b>NdfRepairIncident</b> to repair the problem without displaying a user interface. <a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfcancelincident">NdfCancelIncident</a> can optionally be called from a separate thread if the application wants to cancel an ongoing <b>NdfRepairIncident</b> call. Finally, the application calls <a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfcloseincident">NdfCloseIncident</a>.
 
 
 
@@ -159,11 +159,11 @@ Before using this API, an application must call an incident creation function su
 
 
 
-<a href="https://msdn.microsoft.com/69ae5624-7c3b-44a2-8468-d587739fc666">NdfDiagnoseIncident</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfdiagnoseincident">NdfDiagnoseIncident</a>
 
 
 
-<a href="https://msdn.microsoft.com/9357f463-946c-47ad-bb8d-ff9de210e7e1">RepairInfoEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-tagrepairinfoex">RepairInfoEx</a>
  
 
  

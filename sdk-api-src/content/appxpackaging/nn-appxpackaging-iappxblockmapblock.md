@@ -49,13 +49,13 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IAppxBlockMapBlock</b> interface provides a read-only object that represents an individual block within a file contained in the block map file (AppxBlockMap.xml) for the App package. The <a href="https://msdn.microsoft.com/CE8FB813-B125-4FD6-A7C3-CA3ECA72ECE7">IAppxBlockMapFile::GetBlocks</a> method is used to return an enumerator for traversing and retrieving the individual blocks of a file listed in the package block map.
+The <b>IAppxBlockMapBlock</b> interface provides a read-only object that represents an individual block within a file contained in the block map file (AppxBlockMap.xml) for the App package. The <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxblockmapfile-getblocks">IAppxBlockMapFile::GetBlocks</a> method is used to return an enumerator for traversing and retrieving the individual blocks of a file listed in the package block map.
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBlockMapBlock</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAppxBlockMapBlock</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBlockMapBlock</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxBlockMapBlock</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IAppxBlockMapBlock</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/02B5F96E-EA8B-407F-98D8-BF6BFF72B346">GetCompressedSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxblockmapblock-getcompressedsize">GetCompressedSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves compressed size of the block.
@@ -79,7 +79,7 @@ Retrieves compressed size of the block.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9A8460C2-2BEE-4CEC-BAF4-779E6F58664D">GetHash</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxblockmapblock-gethash">GetHash</a>
 </td>
 <td align="left" width="63%">
 Retrieves the hash value of the block.
@@ -109,19 +109,19 @@ For a example code, see <a href="http://go.microsoft.com/fwlink/p/?linkid=236966
 
 
 
-<a href="https://msdn.microsoft.com/E7678755-4779-4A64-A666-C5FFC4A7F37A">IAppxBlockMapBlocksEnumerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxblockmapblocksenumerator">IAppxBlockMapBlocksEnumerator</a>
 
 
 
-<a href="https://msdn.microsoft.com/4C380E2F-8125-4147-97F5-BEDF5BEFB81D">IAppxBlockMapFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxblockmapfile">IAppxBlockMapFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/AC2E55C3-1EEF-4867-BECC-37F6269029D6">IAppxBlockMapFilesEnumerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxblockmapfilesenumerator">IAppxBlockMapFilesEnumerator</a>
 
 
 
-<a href="https://msdn.microsoft.com/233539FD-E3BE-4783-9F23-B34F6397FBBE">IAppxBlockMapReader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxblockmapreader">IAppxBlockMapReader</a>
 
 
 

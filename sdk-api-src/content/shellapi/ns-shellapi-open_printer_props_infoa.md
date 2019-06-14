@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifies a particular property sheet in a printer's property pages and whether that property sheet should be modal. Optionally used with the <a href="https://msdn.microsoft.com/32a5802f-cef7-4dbd-affd-82285fe97a8c">SHInvokePrinterCommand</a> function.
+Identifies a particular property sheet in a printer's property pages and whether that property sheet should be modal. Optionally used with the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shinvokeprintercommanda">SHInvokePrinterCommand</a> function.
 
 
 ## -struct-fields
@@ -98,7 +98,7 @@ Type: <b>BOOL</b>
 
 
 
-This structure can be passed in the <i>lpBuf2</i> parameter of the <a href="https://msdn.microsoft.com/32a5802f-cef7-4dbd-affd-82285fe97a8c">SHInvokePrinterCommand</a> function when that function's <i>uAction</i> parameter is set to PRINTACTION_PROPERTIES.
+This structure can be passed in the <i>lpBuf2</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shinvokeprintercommanda">SHInvokePrinterCommand</a> function when that function's <i>uAction</i> parameter is set to PRINTACTION_PROPERTIES.
 
 
 

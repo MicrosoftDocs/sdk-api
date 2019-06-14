@@ -85,15 +85,15 @@ The
 
 If the currently running fiber calls 
 <b>DeleteFiber</b>, its thread calls 
-<a href="https://msdn.microsoft.com/e7f6d054-c535-4521-a3b4-800a9174732f">ExitThread</a> and terminates. However, if a currently running fiber is deleted by another fiber, the thread running the deleted fiber is likely to terminate abnormally because the fiber stack has been freed.
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitthread">ExitThread</a> and terminates. However, if a currently running fiber is deleted by another fiber, the thread running the deleted fiber is likely to terminate abnormally because the fiber stack has been freed.
 
 To compile an application that uses this function, define _WIN32_WINNT as 0x0400 or later. For more information, see 
-<a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/b09c00ae-a498-499b-ba2b-735028e9fd8f">Using Fibers</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/using-fibers">Using Fibers</a>.
 
 <div class="code"></div>
 
@@ -104,15 +104,15 @@ For an example, see <a href="https://msdn.microsoft.com/b09c00ae-a498-499b-ba2b-
 
 
 
-<a href="https://msdn.microsoft.com/e7f6d054-c535-4521-a3b4-800a9174732f">ExitThread</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitthread">ExitThread</a>
 
 
 
-<a href="https://msdn.microsoft.com/6283f56b-23ae-4840-abd0-2478a50c670c">Fibers</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/fibers">Fibers</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c8e8af0-bf50-4a4b-945c-83bae1eff7dd">Process and Thread Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
  
 
  

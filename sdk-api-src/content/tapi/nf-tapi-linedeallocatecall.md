@@ -81,12 +81,12 @@ LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONFAILED, LINEERR_INVALCALLSTATE, LINEER
 The deallocation does not affect the call state of the physical call. It does, however, release internal resources related to the call.
 
 In API versions, earlier than 2.0, if the application is the sole owner of a call and the call is not in the <i>idle</i> state, LINEERR_INVALCALLSTATE is returned. In this case, the application can first drop the call using 
-<a href="https://msdn.microsoft.com/ce1f1dbb-287b-483a-9e7e-87af0d07e4e4">lineDrop</a> and deallocate its call handle afterward. An application that has monitor privilege for a call can always deallocate its handle for the call.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedrop">lineDrop</a> and deallocate its call handle afterward. An application that has monitor privilege for a call can always deallocate its handle for the call.
 
 In API versions 2.0 or later, the sole owner of the call can deallocate its handle even though the call is not in the <i>idle</i> state. This enables distributed control of the call in a client/server environment.
 
 <div class="alert"><b>Note</b>  Leaving the call without an owner can result in the user being unable to terminate the call if there are monitoring applications open preventing TAPI from calling 
-<a href="https://msdn.microsoft.com/86f5490c-8401-4235-8ddd-313794bd5bf1">TSPI_lineCloseCall</a>. Use this feature only if the application can determine that the call can be controlled externally by the user. For more information, see LINEADDRCAPFLAGS_CLOSEDROP.</div>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineclosecall">TSPI_lineCloseCall</a>. Use this feature only if the application can determine that the call can be controlled externally by the user. For more information, see LINEADDRCAPFLAGS_CLOSEDROP.</div>
 <div> </div>
 In API versions earlier than 2.0, when the 
 <b>lineDeallocateCall</b> function deallocates a call handle, it also suspends further processing of any outstanding LINE_REPLY messages for the call. An application must be designed not to wait indefinitely for LINE_REPLY messages for each corresponding call to an asynchronous function if it also uses the 
@@ -94,7 +94,7 @@ In API versions earlier than 2.0, when the
 
 In API versions 2.0 or later, 
 <b>lineDeallocateCall</b> does not suspend outstanding LINE_REPLY messages; every asynchronous function that returns a <i>dwRequestID</i> to the application always results in the delivery of the associated LINE_REPLY message unless the application calls 
-<a href="https://msdn.microsoft.com/d512508a-fb6a-41ec-a80d-f625abfdd184">lineShutdown</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineshutdown">lineShutdown</a>.
 
 
 
@@ -104,27 +104,27 @@ In API versions 2.0 or later,
 
 
 
-<a href="https://msdn.microsoft.com/09d10789-bc36-47c7-b77d-8698ae75541a">Basic Telephony Services Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d98ed8b-b75e-49f8-aba3-c6eee89e91c1">LINE_REPLY</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-reply">LINE_REPLY</a>
 
 
 
-<a href="https://msdn.microsoft.com/d703b414-1389-416c-8e94-c1931979f0c9">TAPI 2.2 Reference Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/69ed2e2c-f1c7-4f69-86a0-3cfdd80e423d">Terminate a Session Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminate-a-session-ovr">Terminate a Session Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/ce1f1dbb-287b-483a-9e7e-87af0d07e4e4">lineDrop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedrop">lineDrop</a>
 
 
 
-<a href="https://msdn.microsoft.com/d512508a-fb6a-41ec-a80d-f625abfdd184">lineShutdown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineshutdown">lineShutdown</a>
  
 
  

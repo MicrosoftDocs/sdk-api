@@ -54,7 +54,7 @@ Provides access to the underlying object model implemented by a control or appli
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectModelProvider</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IObjectModelProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectModelProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectModelProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IObjectModelProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/305758A1-D584-45A3-B118-B46B3731820D">GetUnderlyingObjectModel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iobjectmodelprovider-getunderlyingobjectmodel">GetUnderlyingObjectModel</a>
 </td>
 <td align="left" width="63%">
 Retrieves an interface used to access the underlying object model of the provider.
@@ -84,7 +84,7 @@ Retrieves an interface used to access the underlying object model of the provide
 
 
 
-<a href="https://msdn.microsoft.com/08d0226d-845c-4564-a059-539b62fc7909">Control Pattern Interfaces for Providers</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-cpinterfaces">Control Pattern Interfaces for Providers</a>
  
 
  

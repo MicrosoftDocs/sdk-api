@@ -78,7 +78,7 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-This property must be set before calling <a href="https://msdn.microsoft.com/71ae8be2-8e80-49ff-9d1b-be42a620c20c">put_MinMinorChannel</a> to avoid the case where the minimum minor channel is greater than the maximum minor channel. Both properties default to -1 (not set).
+This property must be set before calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iatsctuningspace-put_minminorchannel">put_MinMinorChannel</a> to avoid the case where the minimum minor channel is greater than the maximum minor channel. Both properties default to -1 (not set).
 
 
 
@@ -88,7 +88,7 @@ This property must be set before calling <a href="https://msdn.microsoft.com/71a
 
 
 
-<a href="https://msdn.microsoft.com/313508e5-a9b2-42b8-bb2f-d191944d0939">IATSCTuningSpace Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iatsctuningspace">IATSCTuningSpace Interface</a>
  
 
  

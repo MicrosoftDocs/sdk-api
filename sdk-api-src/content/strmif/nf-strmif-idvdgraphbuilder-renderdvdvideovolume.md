@@ -68,12 +68,12 @@ Pointer to the path for the DVD-Video volume to play. Can be <b>NULL</b>.
 
 ### -param dwFlags [in]
 
-Bitwise OR of flags from <a href="https://msdn.microsoft.com/2a0ec036-d34c-407e-9b6d-c3bd3881a0af">AM_DVD_GRAPH_FLAGS</a> enumeration, specifying how to build the DVD playback graph.
+Bitwise OR of flags from <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-_am_dvd_graph_flags">AM_DVD_GRAPH_FLAGS</a> enumeration, specifying how to build the DVD playback graph.
 
 
 ### -param pStatus [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/6d11332e-86db-4649-af77-2906c6cbba7a">AM_DVD_RENDERSTATUS</a> structure. When the method returns, the structure indicates any rendering failures.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-__midl___midl_itf_strmif_0000_0138_0001">AM_DVD_RENDERSTATUS</a> structure. When the method returns, the structure indicates any rendering failures.
 
 
 ## -returns
@@ -176,7 +176,7 @@ The filter graph contains more than one video renderer.
 
 
 
-The <a href="https://msdn.microsoft.com/6d11332e-86db-4649-af77-2906c6cbba7a">AM_DVD_RENDERSTATUS</a> structure reflects failure codes for this method. Reasons for this method returning S_FALSE include the following:
+The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-__midl___midl_itf_strmif_0000_0138_0001">AM_DVD_RENDERSTATUS</a> structure reflects failure codes for this method. Reasons for this method returning S_FALSE include the following:
 
 <ul>
 <li>The graph has been completely built, but one of the following is true.<ul>
@@ -197,15 +197,15 @@ This method builds the graph without any knowledge of the DVD-Video file or volu
 
 
 
-<a href="https://msdn.microsoft.com/6f41e0f1-e550-4ca6-9a80-ce4d498289e2">DVD Applications</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/2179e54a-c6e2-4837-9f89-be210bde9180">IDvdGraphBuilder Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdgraphbuilder">IDvdGraphBuilder Interface</a>
  
 
  

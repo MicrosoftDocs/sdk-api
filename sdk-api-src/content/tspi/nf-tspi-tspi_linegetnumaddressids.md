@@ -84,9 +84,9 @@ LINEERR_NOMEM, LINEERR_OPERATIONFAILED, LINEERR_OPERATIONUNAVAIL, LINEERR_RESOUR
 
 
 This function is called by TAPI in response to an application calling 
-<a href="https://msdn.microsoft.com/d600fd39-4e58-421c-81bf-1555f5745f5e">lineSetNumRings</a>, 
-<a href="https://msdn.microsoft.com/7aee6396-6045-4e7b-9df9-3729159ea4b2">lineGetNumRings</a>, or 
-<a href="https://msdn.microsoft.com/179af1a1-078f-401c-8c15-12fc8ca06e3c">lineGetNewCalls</a>. TAPI uses the retrieved value to determine if the specified address identifier is within the range supported by the service provider.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetnumrings">lineSetNumRings</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetnumrings">lineGetNumRings</a>, or 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetnewcalls">lineGetNewCalls</a>. TAPI uses the retrieved value to determine if the specified address identifier is within the range supported by the service provider.
 
 
 
@@ -96,15 +96,15 @@ This function is called by TAPI in response to an application calling
 
 
 
-<a href="https://msdn.microsoft.com/179af1a1-078f-401c-8c15-12fc8ca06e3c">lineGetNewCalls</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetnewcalls">lineGetNewCalls</a>
 
 
 
-<a href="https://msdn.microsoft.com/7aee6396-6045-4e7b-9df9-3729159ea4b2">lineGetNumRings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetnumrings">lineGetNumRings</a>
 
 
 
-<a href="https://msdn.microsoft.com/d600fd39-4e58-421c-81bf-1555f5745f5e">lineSetNumRings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetnumrings">lineSetNumRings</a>
  
 
  

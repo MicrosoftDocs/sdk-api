@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 
-The <b>IComponent</b> interface a base class for all derived interfaces such as <a href="https://msdn.microsoft.com/63d1ae17-8e38-457e-98d7-e81e7576f1c1">IMPEG2Component</a> and it describes the general characteristics of a component, which is an elementary stream within the program stream. The derived interfaces describe the properties of a component that are specific to a given network type. Component objects are created and attached to the tune request by the BDA Transport Information Filter (TIF) after reception has begun. All component objects also support <b>IPersistPropertyBag</b>.
+The <b>IComponent</b> interface a base class for all derived interfaces such as <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-impeg2component">IMPEG2Component</a> and it describes the general characteristics of a component, which is an elementary stream within the program stream. The derived interfaces describe the properties of a component that are specific to a given network type. Component objects are created and attached to the tune request by the BDA Transport Information Filter (TIF) after reception has begun. All component objects also support <b>IPersistPropertyBag</b>.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComponent</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IComponent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComponent</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IComponent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IComponent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8d643a76-c0aa-4ded-9534-0ff7c4e8402d">Clone</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponent-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the component.
@@ -81,7 +81,7 @@ Creates a copy of the component.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1c041173-0c78-486e-93b5-a46c9dc0afb1">get_DescLangID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponent-get_desclangid">get_DescLangID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the language for presentation of the description.
@@ -90,7 +90,7 @@ Retrieves the language for presentation of the description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ef7d1308-27ff-4d4d-b88d-58a9f89abc7f">get_Description</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponent-get_description">get_Description</a>
 </td>
 <td align="left" width="63%">
 Retrieves the description of the component.
@@ -99,7 +99,7 @@ Retrieves the description of the component.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3f517db8-a207-472e-8c6c-7cb2cac91f62">get_Status</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponent-get_status">get_Status</a>
 </td>
 <td align="left" width="63%">
 Retrieves the requested or actual status of the component.
@@ -108,16 +108,16 @@ Retrieves the requested or actual status of the component.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/19eb345f-24a2-4522-87cc-fc4953faf343">get_Type</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponent-get_type">get_Type</a>
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://msdn.microsoft.com/e83bbbbe-64a9-4ed3-9c32-925ca80c2c38">IComponentType</a> interface describing the general characteristics of the component.
+Retrieves an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttype">IComponentType</a> interface describing the general characteristics of the component.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0f914835-e097-4a02-80fe-371154c9d95a">put_DescLangID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponent-put_desclangid">put_DescLangID</a>
 </td>
 <td align="left" width="63%">
 Sets the language for presentation of the description.
@@ -126,7 +126,7 @@ Sets the language for presentation of the description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e45ea3ea-e9e2-41f9-b171-bc95aa5cc590">put_Description</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponent-put_description">put_Description</a>
 </td>
 <td align="left" width="63%">
 Sets the description of the component.
@@ -135,7 +135,7 @@ Sets the description of the component.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f1f9cf98-69fd-4c54-8023-742f86413220">put_Status</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponent-put_status">put_Status</a>
 </td>
 <td align="left" width="63%">
 Sets the requested or actual status of the component.
@@ -144,10 +144,10 @@ Sets the requested or actual status of the component.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/07d8cc28-d34e-4332-8648-d69a471ca8ac">put_Type</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponent-put_type">put_Type</a>
 </td>
 <td align="left" width="63%">
-Sets an <a href="https://msdn.microsoft.com/e83bbbbe-64a9-4ed3-9c32-925ca80c2c38">IComponentType</a> object describing the general characteristics of the Component.
+Sets an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttype">IComponentType</a> object describing the general characteristics of the Component.
 
 </td>
 </tr>
@@ -168,11 +168,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d956e1d-88b3-4236-9987-f37f674645de">Tuning Model Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
  
 
  

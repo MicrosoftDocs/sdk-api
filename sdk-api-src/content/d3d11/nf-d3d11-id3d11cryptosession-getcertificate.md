@@ -59,7 +59,7 @@ Gets the driver's certificate chain.
 
 ### -param CertificateSize [in]
 
-The size of the <i>pCertificate</i> array, in bytes. To get the size of the certificate chain, call <a href="https://msdn.microsoft.com/C5FE51B8-A681-4B8C-BFC0-9D0B625292F1">ID3D11CryptoSession::GetCertificateSize</a>.
+The size of the <i>pCertificate</i> array, in bytes. To get the size of the certificate chain, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11cryptosession-getcertificatesize">ID3D11CryptoSession::GetCertificateSize</a>.
 
 
 ### -param pCertificate [out]
@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/E17F39CB-61E3-44EF-805D-AD386743744E">ID3D11CryptoSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11cryptosession">ID3D11CryptoSession</a>
  
 
  

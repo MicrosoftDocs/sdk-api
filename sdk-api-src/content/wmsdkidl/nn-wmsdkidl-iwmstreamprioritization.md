@@ -54,16 +54,16 @@ The <b>IWMStreamPrioritization</b> interface provides methods to set and read pr
 
 Stream prioritization allows content creators to specify the priority of the streams in an ASF file. The streams assigned the lowest priority will be dropped first in the case of insufficient bit rate during playback.
 
-Only one stream prioritization object can exist for a profile. You can check to see if one is present with a call to <a href="https://msdn.microsoft.com/en-us/library/Dd757380(v=VS.85).aspx">IWMProfile3::GetStreamPrioritization</a>, which will retrieve a pointer to one if it exists.
+Only one stream prioritization object can exist for a profile. You can check to see if one is present with a call to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-getstreamprioritization">IWMProfile3::GetStreamPrioritization</a>, which will retrieve a pointer to one if it exists.
 
-You can create a new stream prioritization object with a call to <a href="https://msdn.microsoft.com/en-us/library/Dd757271(v=VS.85).aspx">IWMProfile3::CreateNewStreamPrioritization</a>. You will then receive a pointer to <b>IWMStreamPrioritization</b> for the new object. This will erase the existing stream prioritization, if there is one.
+You can create a new stream prioritization object with a call to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-createnewstreamprioritization">IWMProfile3::CreateNewStreamPrioritization</a>. You will then receive a pointer to <b>IWMStreamPrioritization</b> for the new object. This will erase the existing stream prioritization, if there is one.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMStreamPrioritization</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMStreamPrioritization</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMStreamPrioritization</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMStreamPrioritization</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,7 +78,7 @@ The <b>IWMStreamPrioritization</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798574(v=VS.85).aspx">GetPriorityRecords</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamprioritization-getpriorityrecords">GetPriorityRecords</a>
 </td>
 <td align="left" width="63%">
 Retrieves the list of streams and their priorities from the profile.
@@ -87,7 +87,7 @@ Retrieves the list of streams and their priorities from the profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798575(v=VS.85).aspx">SetPriorityRecords</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamprioritization-setpriorityrecords">SetPriorityRecords</a>
 </td>
 <td align="left" width="63%">
 Set the list of streams and their priorities for the profile.
@@ -102,15 +102,15 @@ Set the list of streams and their priorities for the profile.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3">IWMProfile3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/c61a0739-09f2-497f-a2cd-d3f2472738e3">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb0345ce-6847-435b-8cbb-f8b93856af9f">Stream Prioritization Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/stream-prioritization-object">Stream Prioritization Object</a>
  
 
  

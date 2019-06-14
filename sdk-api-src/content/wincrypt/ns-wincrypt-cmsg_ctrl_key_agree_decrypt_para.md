@@ -70,13 +70,13 @@ The size, in bytes,  of this data structure.
 
 ### -field DUMMYUNIONNAME.hCryptProv
 
-A handle to the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) used to do the recipient key encryption and export. If <b>NULL</b>, the provider specified in <a href="https://msdn.microsoft.com/87712541-2806-4709-a7cf-c9ba966c96fd">CMSG_ENVELOPED_ENCODE_INFO</a> is used.
-					The CNG function <a href="https://msdn.microsoft.com/ad841c2e-8097-4b07-914e-8e7240d55585">NCryptIsKeyHandle</a> is called to determine the union choice.
+A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) used to do the recipient key encryption and export. If <b>NULL</b>, the provider specified in <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_enveloped_encode_info">CMSG_ENVELOPED_ENCODE_INFO</a> is used.
+					The CNG function <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptiskeyhandle">NCryptIsKeyHandle</a> is called to determine the union choice.
 
 
 ### -field DUMMYUNIONNAME.hNCryptKey
 
-A handle to the CNG CSP used to do the recipient key encryption and export. The CNG function <a href="https://msdn.microsoft.com/ad841c2e-8097-4b07-914e-8e7240d55585">NCryptIsKeyHandle</a> is called to determine the union choice. New encrypt algorithms are only supported in CNG functions. The CNG function <a href="https://msdn.microsoft.com/0c339864-b598-430c-a597-09d3571fdbb2">NCryptTranslateHandle</a> will be called to convert the CryptoAPI CSP <i>hCryptProv</i> choice where necessary. We recommend that applications pass, to the <i>hNCryptKey</i> member, the CNG CSP handle that is returned from the <a href="https://msdn.microsoft.com/581c5d89-730d-4d8c-b3bb-a28edec25910">NCryptOpenKey</a> function.
+A handle to the CNG CSP used to do the recipient key encryption and export. The CNG function <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptiskeyhandle">NCryptIsKeyHandle</a> is called to determine the union choice. New encrypt algorithms are only supported in CNG functions. The CNG function <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncrypttranslatehandle">NCryptTranslateHandle</a> will be called to convert the CryptoAPI CSP <i>hCryptProv</i> choice where necessary. We recommend that applications pass, to the <i>hNCryptKey</i> member, the CNG CSP handle that is returned from the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenkey">NCryptOpenKey</a> function.
 
 
 ### -field dwKeySpec
@@ -86,7 +86,7 @@ Specifies the encrypted key. The encrypted key is the result of encrypting the c
 
 ### -field pKeyAgree
 
-A pointer to a <a href="https://msdn.microsoft.com/d29d04d6-065e-4bb7-843b-f563643eeb4c">CMSG_KEY_AGREE_RECIPIENT_INFO</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_key_agree_recipient_info">CMSG_KEY_AGREE_RECIPIENT_INFO</a> structure.
 
 
 ### -field dwRecipientIndex
@@ -101,5 +101,5 @@ Indicates a specific encrypted key in an array of encrypted keys.
 
 ### -field OriginatorPublicKey
 
-A <a href="https://msdn.microsoft.com/6f102ff3-bfff-4415-a5d8-ca2c226074b3">CRYPT_BIT_BLOB</a> structure that contains the sender's public key information.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_bit_blob">CRYPT_BIT_BLOB</a> structure that contains the sender's public key information.
 

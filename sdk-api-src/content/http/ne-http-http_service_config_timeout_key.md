@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>HTTP_SERVICE_CONFIG_TIMEOUT_KEY</b> enumeration defines the type of timer that is queried or configured through the <a href="https://msdn.microsoft.com/928cb09d-9f63-4334-b034-ee27e950ce0a">HTTP_SERVICE_CONFIG_TIMEOUT_SET</a> structure.
+The <b>HTTP_SERVICE_CONFIG_TIMEOUT_KEY</b> enumeration defines the type of timer that is queried or configured through the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_timeout_set">HTTP_SERVICE_CONFIG_TIMEOUT_SET</a> structure.
 
 
 ## -enum-fields
@@ -71,8 +71,8 @@ The maximum time allowed to parse all the request headers, including the request
 
 
 
- The <b>HTTP_SERVICE_CONFIG_TIMEOUT_KEY</b> enumeration is used in the <a href="https://msdn.microsoft.com/928cb09d-9f63-4334-b034-ee27e950ce0a">HTTP_SERVICE_CONFIG_TIMEOUT_SET</a> structure to define the type of timer that is configured. The <b>HTTP_SERVICE_CONFIG_TIMEOUT_SET</b> structure passes data to  the <a href="https://msdn.microsoft.com/b0a6d442-2ff4-4e00-8301-696fb0864d8c">HTTPSetServiceConfiguration</a> function through  the <i>pConfigInformation</i> parameter or retrieves data from the 
-<a href="https://msdn.microsoft.com/bbd2c3c4-d2d0-4590-9b5c-6916b91600cd">HTTPQueryServiceConfiguration</a> function through the <i>pOutputConfigInformation</i> parameter when the <i>ConfigId</i> parameter of either function is equal to <b>HttpServiceConfigTimeout</b>.
+ The <b>HTTP_SERVICE_CONFIG_TIMEOUT_KEY</b> enumeration is used in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_timeout_set">HTTP_SERVICE_CONFIG_TIMEOUT_SET</a> structure to define the type of timer that is configured. The <b>HTTP_SERVICE_CONFIG_TIMEOUT_SET</b> structure passes data to  the <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HTTPSetServiceConfiguration</a> function through  the <i>pConfigInformation</i> parameter or retrieves data from the 
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HTTPQueryServiceConfiguration</a> function through the <i>pOutputConfigInformation</i> parameter when the <i>ConfigId</i> parameter of either function is equal to <b>HttpServiceConfigTimeout</b>.
 
 
 
@@ -82,11 +82,11 @@ The maximum time allowed to parse all the request headers, including the request
 
 
 
-<a href="https://msdn.microsoft.com/849b88a1-e60b-4a1d-a660-cc3fe429d39f">HTTP Server API Version 2.0 Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-enumeration-types">HTTP Server API Version 2.0 Enumeration Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/928cb09d-9f63-4334-b034-ee27e950ce0a">HTTP_SERVICE_CONFIG_TIMEOUT_SET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_timeout_set">HTTP_SERVICE_CONFIG_TIMEOUT_SET</a>
  
 
  

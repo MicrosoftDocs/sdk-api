@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>CloseLog</b> function method closes the current log. For more information, see the 
-<a href="https://msdn.microsoft.com/09a40de4-d92f-4fc8-8556-a50f5dbe856b">CloseLog</a> method of the 
-<a href="https://msdn.microsoft.com/3f76ee8a-d195-4a69-99a3-31ef2c1c72d5">Merge</a> object. 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-closelog">CloseLog</a> method of the 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-object">Merge</a> object. 
 
 <b>IMsmMerge2::CloseLog</b>    Mergemod.dll version 2.0 or later.
 			<div> </div><b>IMsmMerge::CloseLog</b>      All Mergemod.dll versions.
@@ -122,7 +122,7 @@ The function succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/877d3691-948f-4aea-89d8-0ff008126ccc">Merge Module Automation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
  
 
  

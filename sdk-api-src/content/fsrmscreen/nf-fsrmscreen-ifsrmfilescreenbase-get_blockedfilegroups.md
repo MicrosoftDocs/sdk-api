@@ -68,7 +68,7 @@ To specify the blocked group names on a new screen, access this property to get 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/c76c0cc5-1109-46ec-be4d-c6c5f14a6df7">Using Templates to Define File Screens</a>.
+For an example, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/using-templates-to-define-file-screens">Using Templates to Define File Screens</a>.
 
 <div class="code"></div>
 
@@ -79,7 +79,7 @@ For an example, see <a href="https://msdn.microsoft.com/c76c0cc5-1109-46ec-be4d-
 
 
 
-<a href="https://msdn.microsoft.com/9e52af8c-e03b-4b44-83bd-541fe1419d6c">IFsrmFileScreenBase</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreenbase">IFsrmFileScreenBase</a>
  
 
  

@@ -81,11 +81,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 The handler name is accessed as the System.DisplayName (PKEY_DisplayName) property in the Sync Center folder.
 
-Sync Center calls this method any time that <a href="https://msdn.microsoft.com/d961aef7-c559-4caa-894e-e86836b142c0">UpdateHandler</a> or <a href="https://msdn.microsoft.com/752f197e-0dad-4b3d-9f70-352f5f50e9ee">UpdateHandlerCollection</a> is called. If <b>ISyncMgrHandler::GetName</b> fails or returns an empty string, the handler is not shown in the Sync Center folder and Sync Center will not attempt to invoke it.
+Sync Center calls this method any time that <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updatehandler">UpdateHandler</a> or <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updatehandlercollection">UpdateHandlerCollection</a> is called. If <b>ISyncMgrHandler::GetName</b> fails or returns an empty string, the handler is not shown in the Sync Center folder and Sync Center will not attempt to invoke it.
 
-It is the responsibility of the handler to allocate the string buffer using <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>. Sync Center deallocates the buffer through <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
+It is the responsibility of the handler to allocate the string buffer using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>. Sync Center deallocates the buffer through <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
-<b>ISyncMgrHandler::GetName</b> replaces the use of <a href="https://msdn.microsoft.com/bae3ead8-632c-45bf-a24e-bf07922039bd">GetHandlerInfo</a> to retrieve the handler name.
+<b>ISyncMgrHandler::GetName</b> replaces the use of <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-gethandlerinfo">GetHandlerInfo</a> to retrieve the handler name.
 
 
 

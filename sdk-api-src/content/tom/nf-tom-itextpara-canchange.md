@@ -70,7 +70,7 @@ A variable that is <b>tomTrue</b> if the paragraph formatting can be changed or 
 
 Type: <b>HRESULT</b>
 
-If paragraph formatting can change, <b>ITextPara::CanChange</b> succeeds and returns <b>S_OK</b>. If paragraph formatting cannot change, the method fails and returns S_FALSE. For more information about COM error codes, see <a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling in COM</a>.
+If paragraph formatting can change, <b>ITextPara::CanChange</b> succeeds and returns <b>S_OK</b>. If paragraph formatting cannot change, the method fails and returns S_FALSE. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 
 
@@ -79,7 +79,7 @@ If paragraph formatting can change, <b>ITextPara::CanChange</b> succeeds and ret
 
 
 
-The *<i>pbCanChange</i>  parameter returns <b>tomTrue</b> only if the paragraph formatting can be changed (that is, if no part of an associated range is protected and an associated document is not read-only). If this <a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a> object is a duplicate, no protection rules apply.
+The *<i>pbCanChange</i>  parameter returns <b>tomTrue</b> only if the paragraph formatting can be changed (that is, if no part of an associated range is protected and an associated document is not read-only). If this <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a> object is a duplicate, no protection rules apply.
 
 
 
@@ -93,7 +93,7 @@ The *<i>pbCanChange</i>  parameter returns <b>tomTrue</b> only if the paragraph 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
 
 
 
@@ -101,7 +101,7 @@ The *<i>pbCanChange</i>  parameter returns <b>tomTrue</b> only if the paragraph 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
  
 
  

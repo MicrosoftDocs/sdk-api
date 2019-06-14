@@ -58,7 +58,7 @@ Represents the factory that creates the WinML runtime for model loading and eval
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWinMLRuntimeFactory</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWinMLRuntimeFactory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWinMLRuntimeFactory</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWinMLRuntimeFactory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IWinMLRuntimeFactory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/06EE4008-597D-4DA8-A7CD-E70784A2ADC3">CreateRuntime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winml/nf-winml-iwinmlruntimefactory-createruntime">CreateRuntime</a>
 </td>
 <td align="left" width="63%">
 Creates a WinML runtime.

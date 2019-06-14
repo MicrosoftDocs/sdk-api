@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines the general pen tip shape and the transform used in an <a href="https://msdn.microsoft.com/03853FA5-1377-42FB-A4C2-50069DDF6E2D">ID2D1InkStyle</a> object.
+Defines the general pen tip shape and the transform used in an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1inkstyle">ID2D1InkStyle</a> object.
         
 
 

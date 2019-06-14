@@ -67,8 +67,8 @@ Specifies the number of days between task runs.
 
 
  The 
-<a href="https://msdn.microsoft.com/de50fe74-8091-4a9e-a5b9-9a8c2c684895">TRIGGER_TYPE_UNION</a> union uses an instance of this structure as part of the <b>Type</b> member of the 
-<a href="https://msdn.microsoft.com/b4716e32-7c7a-40ab-baa1-4c7ebafc3d71">TASK_TRIGGER</a> structure definition.
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-_trigger_type_union">TRIGGER_TYPE_UNION</a> union uses an instance of this structure as part of the <b>Type</b> member of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-_task_trigger">TASK_TRIGGER</a> structure definition.
 
 
 
@@ -78,11 +78,11 @@ Specifies the number of days between task runs.
 
 
 
-<a href="https://msdn.microsoft.com/b4716e32-7c7a-40ab-baa1-4c7ebafc3d71">TASK_TRIGGER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-_task_trigger">TASK_TRIGGER</a>
 
 
 
-<a href="https://msdn.microsoft.com/de50fe74-8091-4a9e-a5b9-9a8c2c684895">TRIGGER_TYPE_UNION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-_trigger_type_union">TRIGGER_TYPE_UNION</a>
  
 
  

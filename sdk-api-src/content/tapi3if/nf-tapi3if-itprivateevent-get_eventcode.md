@@ -118,7 +118,7 @@ The <i>plEventCode</i> parameter is not a valid pointer.
 
 
 
-<a href="https://msdn.microsoft.com/75a711e4-21b2-40a4-81f0-a210829178b9">ITPrivateEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itprivateevent">ITPrivateEvent</a>
  
 
  

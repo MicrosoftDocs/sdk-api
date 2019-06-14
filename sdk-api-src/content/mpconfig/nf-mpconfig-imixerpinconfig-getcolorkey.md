@@ -63,12 +63,12 @@ The <code>GetColorKey</code> method retrieves the color key being used by a vide
 
 ### -param pColorKey [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd387889(v=VS.85).aspx">COLORKEY</a> structure that contains the key type and a palette index.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagcolorkey">COLORKEY</a> structure that contains the key type and a palette index.
 
 
 ### -param pColor [out]
 
-Pointer to a value indicating the 8-bit palette index of the <a href="https://msdn.microsoft.com/en-us/library/Dd387889(v=VS.85).aspx">COLORKEY</a> returned if the current display mode is 8-bit palettized. Otherwise it is a value representing the color key in the pixel format of the current display mode.
+Pointer to a value indicating the 8-bit palette index of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagcolorkey">COLORKEY</a> returned if the current display mode is 8-bit palettized. Otherwise it is a value representing the color key in the pixel format of the current display mode.
 
 
 ## -returns
@@ -139,15 +139,15 @@ Current DirectShow implementation of this interface can return <b>NULL</b> for e
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a4f3462-4596-4f02-a41f-47161f8aa4db">IMixerPinConfig Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nn-mpconfig-imixerpinconfig">IMixerPinConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/b2d4ffa2-0b10-4bc5-9af1-83f4ee68b35f">IMixerPinConfig::SetColorKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-setcolorkey">IMixerPinConfig::SetColorKey</a>
  
 
  

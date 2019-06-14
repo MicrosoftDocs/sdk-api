@@ -61,7 +61,7 @@ Gets a reference to the first report in the report store.
 
 ### -param hReportStore
 
-The error report store (previously retrieved with <a href="https://msdn.microsoft.com/FA7E0EC6-00F1-45E2-BE34-D732965FBA15">WerStoreOpen</a>).
+The error report store (previously retrieved with <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werstoreopen">WerStoreOpen</a>).
 
 
 ### -param ppszReportKey
@@ -113,19 +113,19 @@ There are no error reports in the store.
 
 
 
-<a href="https://msdn.microsoft.com/4e28f379-5793-4d76-898e-d87a0291c034">WER Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/781D54A9-6F51-445E-89A8-A0C944081B81">WerStoreGetNextReportKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werstoregetnextreportkey">WerStoreGetNextReportKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/FA7E0EC6-00F1-45E2-BE34-D732965FBA15">WerStoreOpen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werstoreopen">WerStoreOpen</a>
 
 
 
-<a href="https://msdn.microsoft.com/5c076588-779c-4cd2-9fd9-1db3039e37a2">Windows Error Reporting</a>
+<a href="https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
  
 
  

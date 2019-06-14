@@ -59,7 +59,7 @@ This interface is required only if the plug-in is a trusted component, designed 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEVRTrustedVideoPlugin</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEVRTrustedVideoPlugin</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEVRTrustedVideoPlugin</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEVRTrustedVideoPlugin</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IEVRTrustedVideoPlugin</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/16bb31c3-51f7-4d9b-946c-f366fb6e5dee">CanConstrict</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-ievrtrustedvideoplugin-canconstrict">CanConstrict</a>
 </td>
 <td align="left" width="63%">
 Queries whether the plug-in can limit the effective video resolution.
@@ -83,7 +83,7 @@ Queries whether the plug-in can limit the effective video resolution.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dd9811f7-7a9f-4b7e-8425-cb25efe0a71d">DisableImageExport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-ievrtrustedvideoplugin-disableimageexport">DisableImageExport</a>
 </td>
 <td align="left" width="63%">
 Enables or disables the ability of the plug-in to export the video image.
@@ -92,7 +92,7 @@ Enables or disables the ability of the plug-in to export the video image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/43242898-4812-4faa-8e0a-6e60455c9f3b">IsInTrustedVideoMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-ievrtrustedvideoplugin-isintrustedvideomode">IsInTrustedVideoMode</a>
 </td>
 <td align="left" width="63%">
 Queries whether the plug-in has any transient vulnerabilities at this time.
@@ -101,7 +101,7 @@ Queries whether the plug-in has any transient vulnerabilities at this time.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f2e9b199-969f-453c-8714-fa85c89a191a">SetConstriction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-ievrtrustedvideoplugin-setconstriction">SetConstriction</a>
 </td>
 <td align="left" width="63%">
 Limits the effective video resolution.
@@ -116,15 +116,15 @@ Limits the effective video resolution.
 
 
 
-<a href="https://msdn.microsoft.com/1c985558-d25d-4f51-978a-58c05943dab9">Enhanced Video Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/e88806ae-0041-4b4a-a8df-69718a651e82">Protected Media Path</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/protected-media-path">Protected Media Path</a>
  
 
  

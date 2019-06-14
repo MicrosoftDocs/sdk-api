@@ -52,9 +52,9 @@ ms.custom: 19H1
 The <b>IAudioSessionManager2</b> interface enables an application to manage submixes for the audio device.
 
 To a get a reference to an <b>IAudioSessionManager2</b> interface, the application must activate it on the audio device by following these steps:<ol>
-<li>Use one of the techniques described on the <a href="https://msdn.microsoft.com/12b05e7e-81b2-49fd-bb9f-d5ad3315c580">IMMDevice</a> interface page to obtain a reference to the <b>IMMDevice</b> interface for an audio endpoint device. 
+<li>Use one of the techniques described on the <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice</a> interface page to obtain a reference to the <b>IMMDevice</b> interface for an audio endpoint device. 
 </li>
-<li>Call the <a href="https://msdn.microsoft.com/12e4a117-1fa3-49c8-949b-8973edf7e12e">IMMDevice::Activate</a> method with parameter <i>iid</i> set to IID_IAudioSessionManager2. </li>
+<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-activate">IMMDevice::Activate</a> method with parameter <i>iid</i> set to IID_IAudioSessionManager2. </li>
 </ol>
 
 
@@ -67,7 +67,7 @@ The application thread that uses this interface must be initialized for COM. For
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioSessionManager2</b> interface inherits from <a href="https://msdn.microsoft.com/606b0a42-d1d1-4196-911f-5b095bf56c4e">IAudioSessionManager</a>. <b>IAudioSessionManager2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioSessionManager2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionmanager">IAudioSessionManager</a>. <b>IAudioSessionManager2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -82,7 +82,7 @@ The <b>IAudioSessionManager2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/68166fc1-af27-4251-8e18-be23d205b567">GetSessionEnumerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager2-getsessionenumerator">GetSessionEnumerator</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the audio session enumerator object used to enumerate sessions.
@@ -91,7 +91,7 @@ Gets a pointer to the audio session enumerator object used to enumerate sessions
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bed27f3f-6293-4a25-baa0-39562d45bddc">RegisterDuckNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager2-registerducknotification">RegisterDuckNotification</a>
 </td>
 <td align="left" width="63%">
 Registers the application to receive ducking notifications.
@@ -100,7 +100,7 @@ Registers the application to receive ducking notifications.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cff43da7-70b2-4887-8a6c-6100cf7d696e">RegisterSessionNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager2-registersessionnotification">RegisterSessionNotification</a>
 </td>
 <td align="left" width="63%">
 Registers the application to receive a notification when a session is created.
@@ -109,7 +109,7 @@ Registers the application to receive a notification when a session is created.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0ab0f5d0-8831-41a2-bfee-3e88a3d92156">UnregisterDuckNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager2-unregisterducknotification">UnregisterDuckNotification</a>
 </td>
 <td align="left" width="63%">
 Deletes the registration to  receive ducking notifications.
@@ -118,7 +118,7 @@ Deletes the registration to  receive ducking notifications.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0c334963-2b60-4eb1-b8a2-c9ed0d21bd5e">UnregisterSessionNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager2-unregistersessionnotification">UnregisterSessionNotification</a>
 </td>
 <td align="left" width="63%">
 Deletes the registration to  receive a notification when a session is created.
@@ -142,9 +142,9 @@ An application can use this interface to perform the following tasks:
 </ul>
 
 
-This interface supports  custom implementations for <i>stream attenuation</i> or <i>ducking</i>, a new feature in Windows 7. An application playing a media stream can make the it behave differently when a new communication stream is opened on the default communication device. For example, the original media stream can be paused while the new communication stream is open. For more information about this feature, see <a href="https://msdn.microsoft.com/bec2127d-fb82-436d-beee-d43e8fef5c35">Using a Communication Device</a>.
+This interface supports  custom implementations for <i>stream attenuation</i> or <i>ducking</i>, a new feature in Windows 7. An application playing a media stream can make the it behave differently when a new communication stream is opened on the default communication device. For example, the original media stream can be paused while the new communication stream is open. For more information about this feature, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/using-the-communication-device">Using a Communication Device</a>.
 
-An application that manages the media streams and wants to provide a custom ducking implementation, must register to receive notifications when session events occur. For stream attenuation, a session event is raised by the system when a communication stream is opened or closed on the default communication device. For more information, see <a href="https://msdn.microsoft.com/18290d05-b114-476b-8365-6bbb5fe6cffc">Providing a Custom Ducking Behavior</a>.
+An application that manages the media streams and wants to provide a custom ducking implementation, must register to receive notifications when session events occur. For stream attenuation, a session event is raised by the system when a communication stream is opened or closed on the default communication device. For more information, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/providing-a-custom-ducking-experience">Providing a Custom Ducking Behavior</a>.
 
 
 #### Examples
@@ -203,11 +203,11 @@ done:
 
 
 
-<a href="https://msdn.microsoft.com/b18e2094-e974-4c23-b70b-ace5a168132d">Core Audio Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/606b0a42-d1d1-4196-911f-5b095bf56c4e">IAudioSessionManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionmanager">IAudioSessionManager</a>
  
 
  

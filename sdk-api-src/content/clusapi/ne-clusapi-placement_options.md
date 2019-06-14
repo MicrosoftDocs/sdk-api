@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Defines options for placing the cluster.
 
-This enumeration contains the values for the <a href="https://msdn.microsoft.com/704DD1EB-5763-46B0-9B53-5B37A2AE2299">PlacementOptions</a> property.
+This enumeration contains the values for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusters-placementoptions">PlacementOptions</a> property.
 
 
 ## -enum-fields
@@ -117,7 +117,7 @@ Maximum value
 
 
 
-<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
  
 
  

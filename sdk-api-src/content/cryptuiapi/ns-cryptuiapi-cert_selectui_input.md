@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CERT_SELECTUI_INPUT</b> structure is used by the <a href="https://msdn.microsoft.com/6c3240f7-5121-401d-a4d4-df3055cb301a">CertSelectionGetSerializedBlob</a> function to serialize the certificates contained in a store or an array of certificate chains. The returned serialized <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a> can be passed to the <a href="https://msdn.microsoft.com/946ac279-d30a-4a6c-a76d-d93597121427">CredUIPromptForWindowsCredentials</a> function.
+The <b>CERT_SELECTUI_INPUT</b> structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-certselectiongetserializedblob">CertSelectionGetSerializedBlob</a> function to serialize the certificates contained in a store or an array of certificate chains. The returned serialized <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> can be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduipromptforwindowscredentialsa">CredUIPromptForWindowsCredentials</a> function.
 
 
 ## -struct-fields
@@ -64,10 +64,10 @@ The  handle of a certificate store created by the caller. The store contains the
 
 ### -field prgpChain
 
-An array of pointers to <a href="https://msdn.microsoft.com/609311f4-9cd6-4945-9f93-7266b3fc4a74">CERT_CHAIN_CONTEXT</a> structures. Applications provision this array by preselecting certificate chains using the <a href="https://msdn.microsoft.com/b740772b-d25b-4b3d-9acb-03f7018750d6">CertSelectCertificateChains</a> function.
+An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_context">CERT_CHAIN_CONTEXT</a> structures. Applications provision this array by preselecting certificate chains using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certselectcertificatechains">CertSelectCertificateChains</a> function.
 
 
 ### -field cChain
 
-The number of <a href="https://msdn.microsoft.com/609311f4-9cd6-4945-9f93-7266b3fc4a74">CERT_CHAIN_CONTEXT</a> structures that are in the array pointed to by the <b>prgpChain</b> member.
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_context">CERT_CHAIN_CONTEXT</a> structures that are in the array pointed to by the <b>prgpChain</b> member.
 

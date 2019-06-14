@@ -53,15 +53,15 @@ Use the
 <b>IBITSExtensionSetup</b> interface to enable or disable BITS uploads to a virtual directory.
 
 This interface is an ADSI extension. To get a pointer to this interface, call the 
-<a href="https://msdn.microsoft.com/595b2c7f-584c-4343-a75c-327d8ed4ceb1">ADsGetObject</a> ADSI function as shown in Example Code.
+<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsgetobject">ADsGetObject</a> ADSI function as shown in Example Code.
 
 If you use this interface from a setup program that also installs the BITS server, you must call the 
-<a href="https://msdn.microsoft.com/ac0bb9d5-3f1f-4c9b-bd7d-905e0451bf70">IBITSExtensionSetupFactory::GetObject</a> method to get a pointer to this interface instead of calling the <a href="https://msdn.microsoft.com/595b2c7f-584c-4343-a75c-327d8ed4ceb1">ADsGetObject</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/bitscfg/nf-bitscfg-ibitsextensionsetupfactory-getobject">IBITSExtensionSetupFactory::GetObject</a> method to get a pointer to this interface instead of calling the <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsgetobject">ADsGetObject</a> function.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBITSExtensionSetup</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBITSExtensionSetup</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBITSExtensionSetup</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBITSExtensionSetup</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>IBITSExtensionSetup</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3d439054-a751-4f63-9e82-223d1ce9c551">DisableBITSUploads</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bitscfg/nf-bitscfg-ibitsextensionsetup-disablebitsuploads">DisableBITSUploads</a>
 </td>
 <td align="left" width="63%">
 Disables BITS uploads on the virtual directory to which the ADSI object points.
@@ -85,7 +85,7 @@ Disables BITS uploads on the virtual directory to which the ADSI object points.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5b68dea2-f9a7-4a99-93d3-62c4f24b769f">EnableBITSUploads</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bitscfg/nf-bitscfg-ibitsextensionsetup-enablebitsuploads">EnableBITSUploads</a>
 </td>
 <td align="left" width="63%">
 Enables BITS uploads on the virtual directory to which the ADSI object points.
@@ -94,7 +94,7 @@ Enables BITS uploads on the virtual directory to which the ADSI object points.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ffa89d5b-7ba1-433b-a93d-032012906258">GetCleanupTask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bitscfg/nf-bitscfg-ibitsextensionsetup-getcleanuptask">GetCleanupTask</a>
 </td>
 <td align="left" width="63%">
 Returns an interface to the cleanup task associated with the virtual directory. The cleanup task removes orphaned files from the virtual directory.
@@ -103,7 +103,7 @@ Returns an interface to the cleanup task associated with the virtual directory. 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/edca833f-16ec-40c7-a3d8-f893a635b8e2">GetCleanupTaskName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bitscfg/nf-bitscfg-ibitsextensionsetup-getcleanuptaskname">GetCleanupTaskName</a>
 </td>
 <td align="left" width="63%">
 Returns the cleanup task name associated with the virtual directory.
@@ -166,7 +166,7 @@ HRESULT SetBITSUploadEnabledSetting(LPWSTR pszPath, bool Enable)
 
 
 
-<a href="https://msdn.microsoft.com/0105d525-c841-4e0e-bd4a-2a1bcdb0dc4a">IBITSExtensionSetupFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bitscfg/nn-bitscfg-ibitsextensionsetupfactory">IBITSExtensionSetupFactory</a>
  
 
  

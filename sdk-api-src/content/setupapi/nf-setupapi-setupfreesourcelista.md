@@ -65,7 +65,7 @@ The
 ### -param List [in, out]
 
 Pointer to an array of sources from 
-<a href="https://msdn.microsoft.com/8d1de1d5-5b82-45ae-b29c-4f9a93d28c6e">SetupQuerySourceList</a>. The <b>null</b>-terminated string should not exceed the size of the destination buffer. When the function returns, this pointer is set to <b>NULL</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupquerysourcelista">SetupQuerySourceList</a>. The <b>null</b>-terminated string should not exceed the size of the destination buffer. When the function returns, this pointer is set to <b>NULL</b>.
 
 
 ### -param Count [in]
@@ -80,7 +80,7 @@ Number of sources in the list.
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -90,19 +90,19 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/0a9518b7-f231-48f2-ba50-5b802f8ccaed">Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/58201596-cb8c-480a-abef-896c1f9ef098">Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/87ef9425-5dab-442b-a487-3a4789005411">SetupCancelTemporarySourceList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupcanceltemporarysourcelist">SetupCancelTemporarySourceList</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a37a56c-ae44-4a57-9307-90efcf025d1a">SetupSetSourceList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupsetsourcelista">SetupSetSourceList</a>
  
 
  

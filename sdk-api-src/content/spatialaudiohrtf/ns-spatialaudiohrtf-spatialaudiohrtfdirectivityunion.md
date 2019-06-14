@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines a spatial audio directivity model for an <a href="https://msdn.microsoft.com/E69F1D09-B937-4BCC-A040-18EF8A838289">ISpatialAudioObjectForHrtf</a>.
+Defines a spatial audio directivity model for an <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a>.
 
 
 ## -struct-fields

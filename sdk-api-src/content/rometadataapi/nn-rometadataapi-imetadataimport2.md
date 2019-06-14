@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Extends the <a href="https://msdn.microsoft.com/5457d9d3-9a43-4e89-a52f-1254662ed92a">IMetaDataImport</a> interface to provide the capability of working with generic types.
+Extends the <a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a> interface to provide the capability of working with generic types.
 
 
 ## -inheritance
@@ -69,7 +69,7 @@ The <b>IMetaDataImport2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5e8ba48d-7c94-4fc6-8def-db296065fdce">EnumGenericParamConstraints</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport2-enumgenericparamconstraints">EnumGenericParamConstraints</a>
 </td>
 <td align="left" width="63%">
 Gets an enumerator for an array of generic parameter constraints associated with the generic parameter represented by the specified token.
@@ -78,7 +78,7 @@ Gets an enumerator for an array of generic parameter constraints associated with
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7ad0d834-7b77-4c90-b28f-fc9e54e9deb7">EnumGenericParams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport2-enumgenericparams">EnumGenericParams</a>
 </td>
 <td align="left" width="63%">
 Gets an enumerator for an array of generic parameter tokens associated with the specified TypeDef or MethodDef token.
@@ -87,7 +87,7 @@ Gets an enumerator for an array of generic parameter tokens associated with the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b4327a57-8a19-44f9-90b6-df2b089f63e4">EnumMethodSpecs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport2-enummethodspecs">EnumMethodSpecs</a>
 </td>
 <td align="left" width="63%">
 Gets an enumerator for an array of MethodSpec tokens associated with the specified MethodDef or MemberRef token.
@@ -96,7 +96,7 @@ Gets an enumerator for an array of MethodSpec tokens associated with the specifi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/307b4ab5-733d-4340-a400-3a13039099b0">GetGenericParamConstraintProps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport2-getgenericparamconstraintprops">GetGenericParamConstraintProps</a>
 </td>
 <td align="left" width="63%">
 Gets the metadata associated with the generic parameter constraint represented by the specified constraint token.
@@ -105,7 +105,7 @@ Gets the metadata associated with the generic parameter constraint represented b
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3967e82c-64e3-4d05-b10a-e4e86f9f60ab">GetGenericParamProps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport2-getgenericparamprops">GetGenericParamProps</a>
 </td>
 <td align="left" width="63%">
 Gets the metadata associated with the generic parameter represented by the specified token.
@@ -114,7 +114,7 @@ Gets the metadata associated with the generic parameter represented by the speci
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/498ee212-000d-4204-ae7a-de553bf3ea45">GetMethodSpecProps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport2-getmethodspecprops">GetMethodSpecProps</a>
 </td>
 <td align="left" width="63%">
 Gets the metadata signature of the method referenced by the specified MethodSpec token.
@@ -123,7 +123,7 @@ Gets the metadata signature of the method referenced by the specified MethodSpec
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ece40ffa-f92f-4f27-b03c-75204e0c6ee1">GetPEKind</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport2-getpekind">GetPEKind</a>
 </td>
 <td align="left" width="63%">
 Gets a value identifying the nature of the code in the portable executable (PE) file, typically a DLL or EXE file, that is defined in the current metadata scope.
@@ -132,7 +132,7 @@ Gets a value identifying the nature of the code in the portable executable (PE) 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9f04ee6f-4a7d-4cdb-868e-eec2e9f41678">GetVersionString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport2-getversionstring">GetVersionString</a>
 </td>
 <td align="left" width="63%">
 Gets the version number of the runtime that was used to build the assembly.

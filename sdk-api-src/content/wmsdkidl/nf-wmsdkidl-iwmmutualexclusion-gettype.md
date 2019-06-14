@@ -139,7 +139,7 @@ The following constants represent the GUIDs supported by this SDK.
 </table>
  
 
-<div class="alert"><b>Note</b>  If you create a multiple bit rate audio file, you may encounter problems streaming the file from Windows Media Services 4.1. To avoid problems, disable auto indexing with a call to <a href="https://msdn.microsoft.com/en-us/library/Dd798757(v=VS.85).aspx">IWMWriterFileSink3::SetAutoIndexing</a> before writing the file.</div>
+<div class="alert"><b>Note</b>  If you create a multiple bit rate audio file, you may encounter problems streaming the file from Windows Media Services 4.1. To avoid problems, disable auto indexing with a call to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterfilesink3-setautoindexing">IWMWriterFileSink3::SetAutoIndexing</a> before writing the file.</div>
 <div> </div>
 
 
@@ -149,11 +149,11 @@ The following constants represent the GUIDs supported by this SDK.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757238(v=VS.85).aspx">IWMMutualExclusion Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion">IWMMutualExclusion Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757251(v=VS.85).aspx">IWMMutualExclusion::SetType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion-settype">IWMMutualExclusion::SetType</a>
  
 
  

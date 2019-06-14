@@ -105,7 +105,7 @@ The information is specific to process objects.
 
 
 
-The information represented by each of these values can vary by operating system and procesor architecture. Per-handle object-specific information is automatically gathered when minidump type is MiniDumpWithHandleData. For more information, see <a href="https://msdn.microsoft.com/89ae3a75-5f02-4c5e-9d72-95fb8ef94985">MINIDUMP_TYPE</a>.
+The information represented by each of these values can vary by operating system and procesor architecture. Per-handle object-specific information is automatically gathered when minidump type is MiniDumpWithHandleData. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_type">MINIDUMP_TYPE</a>.
 
 
 
@@ -115,7 +115,7 @@ The information represented by each of these values can vary by operating system
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680375(v=VS.85).aspx">MINIDUMP_HANDLE_OBJECT_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_handle_object_information">MINIDUMP_HANDLE_OBJECT_INFORMATION</a>
  
 
  

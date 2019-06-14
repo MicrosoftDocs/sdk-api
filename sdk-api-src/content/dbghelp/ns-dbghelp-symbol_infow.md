@@ -289,7 +289,7 @@ The <b>Value</b> member is used.
 </td>
 <td width="60%">
 The symbol is a virtual symbol created by the 
-<a href="https://msdn.microsoft.com/28405993-035f-4946-91c3-0e3e34fd8824">SymAddSymbol</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symaddsymbol">SymAddSymbol</a> function.
 							
 
 </td>
@@ -338,7 +338,7 @@ The size of the <b>Name</b> buffer, in characters. If this member is 0, the <b>N
 ### -field Name
 
 The name of the symbol. The name can be undecorated if the SYMOPT_UNDNAME option is used with the 
-<a href="https://msdn.microsoft.com/15d72415-829f-4ba3-af80-1f3762cbebda">SymSetOptions</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetoptions">SymSetOptions</a> function.
 
 
 ## -see-also
@@ -346,19 +346,19 @@ The name of the symbol. The name can be undecorated if the SYMOPT_UNDNAME option
 
 
 
-<a href="https://msdn.microsoft.com/c9f9aad8-754d-4ec8-92a3-8cf1929b9d8a">SymEnumSymbolsProc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-psym_enumeratesymbols_callback">SymEnumSymbolsProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/20338631-19ab-4ad8-9ba2-56fa4812b33e">SymFromAddr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symfromaddr">SymFromAddr</a>
 
 
 
-<a href="https://msdn.microsoft.com/26b9eba7-2038-4640-aeb2-3052889b14ea">SymFromName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symfromname">SymFromName</a>
 
 
 
-<a href="https://msdn.microsoft.com/3a48365f-3b8a-493d-9fd9-dde77be9ced2">SymGetTypeFromName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgettypefromname">SymGetTypeFromName</a>
  
 
  

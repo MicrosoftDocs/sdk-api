@@ -61,7 +61,7 @@ The
 ### -param CallInfoString [in]
 
 
-<a href="https://msdn.microsoft.com/28482ba8-c536-48ef-bca6-eba5b801c06e">CALLINFO_STRING</a> indicator of information type needed, such as CIS_DISPLAYABLEADDRESS.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-callinfo_string">CALLINFO_STRING</a> indicator of information type needed, such as CIS_DISPLAYABLEADDRESS.
 
 
 ### -param ppCallInfoString [out]
@@ -132,7 +132,7 @@ The <i>CallInfoString</i> parameter is not a valid value.
 </td>
 <td width="60%">
 The current 
-<a href="https://msdn.microsoft.com/d4ed5e99-3abe-4434-9f99-5e98d8c6f3f1">call state</a> is not valid for this operation.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-call_state">call state</a> is not valid for this operation.
 
 </td>
 </tr>
@@ -147,7 +147,7 @@ The current
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>ppCallInfoString</i> parameter.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory allocated for the <i>ppCallInfoString</i> parameter.
 			
 
 
@@ -158,19 +158,19 @@ The application must use
 
 
 
-<a href="https://msdn.microsoft.com/28482ba8-c536-48ef-bca6-eba5b801c06e">CALLINFO_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-callinfo_string">CALLINFO_STRING</a>
 
 
 
-<a href="https://msdn.microsoft.com/67c063ba-8b12-40d6-9011-923bdee8b214">Call Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/5209d4a1-e05b-453e-8896-2dc71f0b9af0">ITCallInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/d22f1afb-e036-40d0-9a7f-61d8d24d2376">put_CallInfoString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-put_callinfostring">put_CallInfoString</a>
  
 
  

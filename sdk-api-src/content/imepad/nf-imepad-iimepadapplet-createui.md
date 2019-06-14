@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Called from <a href="https://msdn.microsoft.com/6604112A-5BD5-4B2C-AECC-D09180B04D7F">IImePad</a> to get the applet's window handle, style, and size.
+Called from <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> to get the applet's window handle, style, and size.
 
 The applet can set its window style and  sizing policy.
 
@@ -61,12 +61,12 @@ The applet can set its window style and  sizing policy.
 
 ### -param hwndParent [in]
 
-Window handle of the <a href="https://msdn.microsoft.com/6604112A-5BD5-4B2C-AECC-D09180B04D7F">IImePad</a> GUI. The applet can create the window as its child window.
+Window handle of the <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> GUI. The applet can create the window as its child window.
 
 
 ### -param lpImeAppletUI [in]
 
-Pointer to <a href="https://msdn.microsoft.com/9C44287B-77A9-48FB-8A17-6CB0FA234EE2">IMEAPPLETUI</a> structure. The applet can set its window style.
+Pointer to <a href="https://docs.microsoft.com/windows/desktop/api/imepad/ns-imepad-tagimeappletui">IMEAPPLETUI</a> structure. The applet can set its window style.
 
 
 ## -returns
@@ -83,7 +83,7 @@ Pointer to <a href="https://msdn.microsoft.com/9C44287B-77A9-48FB-8A17-6CB0FA234
 
 
 
-<a href="https://msdn.microsoft.com/F3BC7176-9659-47B6-AFCA-049807394961">IImePadApplet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CryptMsgCountersign</b> function countersigns an existing signature in a message. <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">Countersignatures</a> are used to sign an existing signature's encrypted <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> of the message. Countersignatures can be used for various purposes including time stamping a message.
+The <b>CryptMsgCountersign</b> function countersigns an existing signature in a message. <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Countersignatures</a> are used to sign an existing signature's encrypted <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> of the message. Countersignatures can be used for various purposes including time stamping a message.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ Number of countersigners in the <i>rgCountersigners</i> array.
 ### -param rgCountersigners [in]
 
 Array of countersigners' 
-<a href="https://msdn.microsoft.com/f599226d-ddd7-455f-b650-74b91674d8f9">CMSG_SIGNER_ENCODE_INFO</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_signer_encode_info">CMSG_SIGNER_ENCODE_INFO</a> structures.
 
 
 ## -returns
@@ -85,10 +85,10 @@ Array of countersigners'
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 An error can be propagated from
-								<a href="https://msdn.microsoft.com/d9fd734b-e14d-4392-ac88-5565aefbedb4">CryptMsgCountersignEncoded</a>.
+								<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcountersignencoded">CryptMsgCountersignEncoded</a>.
 
 The following error codes are returned most often.
 
@@ -135,8 +135,8 @@ The specified area is not large enough to hold the returned data.
 </table>
  
 
-If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> may return an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
-<a href="https://msdn.microsoft.com/cb1f34dd-dab4-4ffb-a73b-79a214290509">ASN.1 Encoding/Decoding Return Values</a>. 
+If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>. 
 
 
 
@@ -146,19 +146,19 @@ If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5
 
 
 
-<a href="https://msdn.microsoft.com/d9fd734b-e14d-4392-ac88-5565aefbedb4">CryptMsgCountersignEncoded</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcountersignencoded">CryptMsgCountersignEncoded</a>
 
 
 
-<a href="https://msdn.microsoft.com/b0332360-a737-4b48-b592-0c55d493a02d">CryptMsgVerifyCountersignatureEncoded</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgverifycountersignatureencoded">CryptMsgVerifyCountersignatureEncoded</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Low-level Message Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Low-level Message Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>
  
 
  

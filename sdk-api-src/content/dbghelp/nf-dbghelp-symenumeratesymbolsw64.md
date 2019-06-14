@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 Enumerates all the symbols for a specified module.
 <div class="alert"><b>Note</b>  This function is provided only for compatibility. Applications should use 
-<a href="https://msdn.microsoft.com/e1232657-baf6-4e5b-9995-a382aa1391c2">SymEnumSymbols</a>, which is faster and more powerful.</div><div> </div>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumsymbols">SymEnumSymbols</a>, which is faster and more powerful.</div><div> </div>
 
 ## -parameters
 
@@ -65,7 +65,7 @@ Enumerates all the symbols for a specified module.
 ### -param hProcess [in]
 
 A handle to the process. This handle must have been previously passed to the 
-<a href="https://msdn.microsoft.com/fb1c98cb-6cd0-4218-aea4-384c24c66395">SymInitialize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 
 ### -param BaseOfDll [in]
@@ -76,7 +76,7 @@ The base address of the module for which symbols are to be enumerated.
 ### -param EnumSymbolsCallback [in]
 
 The callback function that receives the symbol information. For more information, see 
-<a href="https://msdn.microsoft.com/e1430398-041f-4edd-b7b0-de3a60a42b37">SymEnumerateSymbolsProc64</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-psym_enumsymbols_callback">SymEnumerateSymbolsProc64</a>.
 
 
 ### -param UserContext [in, optional]
@@ -91,7 +91,7 @@ A user-defined value or <b>NULL</b>. This value is passed to the callback functi
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -122,7 +122,7 @@ SymEnumerateSymbolsW64(
 
 
 This function supersedes the <b>SymEnumerateSymbols</b> function. For more information, see 
-<a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>SymEnumerateSymbols</b> is defined as follows in Dbghelp.h. 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <b>SymEnumerateSymbols</b> is defined as follows in Dbghelp.h. 
 
 
 ```cpp
@@ -159,19 +159,19 @@ SymEnumerateSymbolsW(
 
 
 
-<a href="https://msdn.microsoft.com/7b28f70b-2d97-4cc2-8064-dfb806f9cffa">DbgHelp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/e1232657-baf6-4e5b-9995-a382aa1391c2">SymEnumSymbols</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumsymbols">SymEnumSymbols</a>
 
 
 
-<a href="https://msdn.microsoft.com/e1430398-041f-4edd-b7b0-de3a60a42b37">SymEnumerateSymbolsProc64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-psym_enumsymbols_callback">SymEnumerateSymbolsProc64</a>
 
 
 
-<a href="https://msdn.microsoft.com/fb1c98cb-6cd0-4218-aea4-384c24c66395">SymInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a>
  
 
  

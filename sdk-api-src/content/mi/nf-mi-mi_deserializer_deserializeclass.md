@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deserializes a serialized buffer into an <a href="https://msdn.microsoft.com/7f02e0fa-9e58-455d-9cf4-1d1244c44422">MI_Class</a> object.
+Deserializes a serialized buffer into an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_class">MI_Class</a> object.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Deserializes a serialized buffer into an <a href="https://msdn.microsoft.com/7f0
 
 ### -param deserializer [in, out]
 
-A pointer to a deserializer object returned from a call to <a href="https://msdn.microsoft.com/e58c69ce-032a-4024-9023-53cd1776b7f3">MI_Application_NewDeserializer</a>.  The deserializer must match the serializer that created the buffer.
+A pointer to a deserializer object returned from a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newdeserializer">MI_Application_NewDeserializer</a>.  The deserializer must match the serializer that created the buffer.
 
 
 ### -param flags
@@ -69,17 +69,17 @@ This parameter must be 0.
 
 ### -param serializedBuffer
 
-A serialized buffer that was filled via a call from <a href="https://msdn.microsoft.com/3417731d-8727-4dcb-8ce4-2b07b6addd19">MI_Serializer_SerializeClass</a>.
+A serialized buffer that was filled via a call from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_serializer_serializeclass">MI_Serializer_SerializeClass</a>.
 
 
 ### -param serializedBufferLength
 
-The length of the buffer that was reported via a call to <a href="https://msdn.microsoft.com/3417731d-8727-4dcb-8ce4-2b07b6addd19">MI_Serializer_SerializeClass</a>.
+The length of the buffer that was reported via a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_serializer_serializeclass">MI_Serializer_SerializeClass</a>.
 
 
 ### -param parentClass [in, optional]
 
-The parent class. If the class was not serialized with the class's parent class then this parameter needs to contain the <a href="https://msdn.microsoft.com/7f02e0fa-9e58-455d-9cf4-1d1244c44422">MI_Class</a> for the parent class.  The parent class needs to contain all parent classes in the hierarchy.  If the class was serialized with <b>MI_SERIALIZER_FLAGS_CLASS_DEEP</b> specified as a flag, then the parent class is not needed as it is a self-contained buffer, and <b>NULL</b> can be passed for this parameter.
+The parent class. If the class was not serialized with the class's parent class then this parameter needs to contain the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_class">MI_Class</a> for the parent class.  The parent class needs to contain all parent classes in the hierarchy.  If the class was serialized with <b>MI_SERIALIZER_FLAGS_CLASS_DEEP</b> specified as a flag, then the parent class is not needed as it is a self-contained buffer, and <b>NULL</b> can be passed for this parameter.
 
 
 ### -param serverName
@@ -109,12 +109,12 @@ The amount of the serialized buffer that was read (deserialized).
 
 ### -param classObject
 
-The returned deserialized class.  This class needs to be deleted via <a href="https://msdn.microsoft.com/a2794f8f-a69a-49f3-8d7e-512c80ea782b">MI_Class_Delete</a>.
+The returned deserialized class.  This class needs to be deleted via <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_class_delete">MI_Class_Delete</a>.
 
 
 ### -param cimErrorDetails
 
-If the call fails, this value will contain information useful in debugging. This value must be deleted via <a href="https://msdn.microsoft.com/6370e464-b262-4c91-a3c8-889911df7965">MI_Instance_Delete</a>.
+If the call fails, this value will contain information useful in debugging. This value must be deleted via <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_delete">MI_Instance_Delete</a>.
 
 
 ## -returns
@@ -131,7 +131,7 @@ This function returns MI_INLINE MI_Result.
 
 
 
-<a href="https://msdn.microsoft.com/0C813AAF-99B4-4DA7-9C2F-CD9FA146D7D2">MI_Deserializer_ClassObjectNeeded</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nc-mi-mi_deserializer_classobjectneeded">MI_Deserializer_ClassObjectNeeded</a>
  
 
  

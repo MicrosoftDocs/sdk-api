@@ -109,7 +109,7 @@ Invalid pointer.
 <div> </div>
 A knowledge object that has a version of <b>SYNC_SERIALIZATION_VERSION_V2</b> supports components that are compatible with Sync Framework 1.0 when the knowledge object contains only elements that are compatible with Sync Framework 1.0. In this situation, <b>GetMinSupportedVersion</b> returns a version of <b>SYNC_SERIALIZATION_VERSION_V1</b>.
 
-For an overview of what is involved in building synchronization providers using  <a href="http://go.microsoft.com/fwlink/p/?linkid=134798">Microsoft Sync Framework</a>, see <a href="https://msdn.microsoft.com/acf9a557-da4f-4688-9fea-9456947c17b4">Options for Building a Synchronization Provider</a>.
+For an overview of what is involved in building synchronization providers using  <a href="http://go.microsoft.com/fwlink/p/?linkid=134798">Microsoft Sync Framework</a>, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/options-for-building-a-synchronization-provider">Options for Building a Synchronization Provider</a>.
 
 
 
@@ -119,19 +119,19 @@ For an overview of what is involved in building synchronization providers using 
 
 
 
-<a href="https://msdn.microsoft.com/cfb08476-7b5d-4953-b723-5160330e57be">ISyncKnowledge Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/1acbae32-8fa6-4c1e-95f6-30aca483c966">ISyncKnowledge2 Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge2">ISyncKnowledge2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/acf9a557-da4f-4688-9fea-9456947c17b4">Options for Building a Synchronization Provider</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/options-for-building-a-synchronization-provider">Options for Building a Synchronization Provider</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd317256(v=VS.85).aspx">SYNC_SERIALIZATION_VERSION Enumeration</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ne-winsync-__midl___midl_itf_winsync_0000_0000_0004">SYNC_SERIALIZATION_VERSION Enumeration</a>
  
 
  

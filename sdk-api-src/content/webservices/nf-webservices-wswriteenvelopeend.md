@@ -53,7 +53,7 @@ Writes the closing elements of a message.
             This function writes the end of the message including the element that closes the body
                 tag and the envelope tag.
             Use this function when writing messages to destinations other  than channels.  With
-                channels use <a href="https://msdn.microsoft.com/329193a7-932a-46d0-8e46-eef6bbdb8fa2">WsWriteMessageEnd</a>
+                channels use <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritemessageend">WsWriteMessageEnd</a>
 
 
 
@@ -64,14 +64,14 @@ Writes the closing elements of a message.
 
 ### -param message [in]
 
-A pointer to the <b>Message</b> object to write.  The pointer must reference a valid <a href="https://msdn.microsoft.com/22cc39a9-a3a7-4b4d-bdee-0ccac5dc03ee">WS_MESSAGE</a> object.
+A pointer to the <b>Message</b> object to write.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-message">WS_MESSAGE</a> object.
                 
                 
 
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 

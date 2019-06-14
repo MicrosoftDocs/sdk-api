@@ -160,7 +160,7 @@ The product is to be installed with all features installed to run from source.
 </dl>
 </td>
 <td width="60%">
-The product is to be installed with all features installed to the default states specified in the <a href="https://msdn.microsoft.com/1faee1d5-6e39-43ea-bf92-a0b3986a13a1">Feature Table</a>.
+The product is to be installed with all features installed to the default states specified in the <a href="https://docs.microsoft.com/windows/desktop/Msi/feature-table">Feature Table</a>.
 
 </td>
 </tr>
@@ -217,14 +217,14 @@ The function succeeds.
 </td>
 <td width="60%">
 For more information, see 
-<a href="https://msdn.microsoft.com/9ea81ef3-a5b5-4d13-b0b8-3da6e919315e">Error Codes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/error-codes">Error Codes</a>.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/5cce27ff-1143-4fe6-b4bd-727581431c07">Initialization Error</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/Msi/initialization-errors">Initialization Error</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -244,10 +244,10 @@ An error that relates to initialization.
 
 The 
 <b>MsiConfigureProduct</b> function displays the user interface (UI) using the current settings. User interface settings can be changed by using 
-<a href="https://msdn.microsoft.com/303c2ea9-4c8f-46d3-b587-7c50e2810c28">MsiSetInternalUI</a>, <a href="https://msdn.microsoft.com/fcbf0607-d048-486f-bec2-f6e9d03e4194">MsiSetExternalUI</a> or <a href="https://msdn.microsoft.com/f2cd2bb7-0e4f-4d3b-9e6c-6f15661064df">MsiSetExternalUIRecord</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisetinternalui">MsiSetInternalUI</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisetexternaluia">MsiSetExternalUI</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisetexternaluirecord">MsiSetExternalUIRecord</a>.
 
 The <i>iInstallLevel</i> parameter is ignored, and all features of the product are installed, if the <i>eInstallState</i> parameter is set to any other value than INSTALLSTATE_DEFAULT. To control the installation of individual features when the <i>eInstallState</i> parameter is not set to INSTALLSTATE_DEFAULT, use 
-<a href="https://msdn.microsoft.com/067d6fbb-833f-4e0e-bfdb-18d1b8608f58">MsiConfigureFeature</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiconfigurefeaturea">MsiConfigureFeature</a>.
 
 
 
@@ -257,7 +257,7 @@ The <i>iInstallLevel</i> parameter is ignored, and all features of the product a
 
 
 
-<a href="https://msdn.microsoft.com/c4a0f4d8-818d-4e60-908b-adaa2a54de95">Multiple-Package Installations</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>
  
 
  

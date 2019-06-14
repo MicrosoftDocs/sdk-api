@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Creates a cache container in the specified cache path to hold cache entries based on the specified name, cache prefix, and container type.
-<div class="alert"><b>Note</b>  Note: This API is deprecated. Please use the <a href="https://msdn.microsoft.com/library/gg269259">Extensible Storage Engine</a> instead.</div><div> </div>
+<div class="alert"><b>Note</b>  Note: This API is deprecated. Please use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/Gg269259(v=EXCHG.10)">Extensible Storage Engine</a> instead.</div><div> </div>
 
 ## -parameters
 
@@ -102,7 +102,7 @@ This parameter is reserved and must be <b>NULL</b>.
 
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -112,15 +112,15 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get extended er
 
 
 
-<a href="https://msdn.microsoft.com/44c268c9-a745-432a-8540-60d7e7d2cb2d">Caching</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinInet/caching">Caching</a>
 
 
 
-<a href="https://msdn.microsoft.com/0124e664-85a3-4637-9d91-7ec23025a87b">CommitUrlCacheEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-commiturlcacheentryw">CommitUrlCacheEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/2e0da5c6-29e4-47b5-8ed2-8712c9ca2c97">WinINet Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
  
 
  

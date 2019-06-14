@@ -61,14 +61,14 @@ The <b>IPsecSaContextUpdate0</b> function updates an IPsec security association 
 
 Type: <b>HANDLE</b>
 
-Handle for an open session to the filter engine. Call <a href="https://msdn.microsoft.com/5165f219-f3e0-4e84-915b-75912aab02b7">FwpmEngineOpen0</a> to open a session to the filter engine.
+Handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
 
 ### -param flags [in]
 
 Type: <b>UINT32</b>
 
-Flags indicating the specific field in the <a href="https://msdn.microsoft.com/a3e210a7-cd3a-42fc-b3a0-7df9ad6778af">IPSEC_SA_CONTEXT1</a> structure that is being updated.
+Flags indicating the specific field in the <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context1_">IPSEC_SA_CONTEXT1</a> structure that is being updated.
 
 Possible values:
 
@@ -83,7 +83,7 @@ Possible values:
 </dl>
 </td>
 <td width="60%">
-Updates the <b>traffic</b> member of the <a href="https://msdn.microsoft.com/257e7ac0-9cb4-45aa-b7e5-107bb3483ab9">IPSEC_SA_DETAILS1</a> structure.
+Updates the <b>traffic</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details1_">IPSEC_SA_DETAILS1</a> structure.
 
 </td>
 </tr>
@@ -93,7 +93,7 @@ Updates the <b>traffic</b> member of the <a href="https://msdn.microsoft.com/257
 </dl>
 </td>
 <td width="60%">
-Updates the <b>udpEncapsulation</b> member of the <a href="https://msdn.microsoft.com/257e7ac0-9cb4-45aa-b7e5-107bb3483ab9">IPSEC_SA_DETAILS1</a> structure.
+Updates the <b>udpEncapsulation</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details1_">IPSEC_SA_DETAILS1</a> structure.
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ Updates the <b>udpEncapsulation</b> member of the <a href="https://msdn.microsof
 </dl>
 </td>
 <td width="60%">
-Updates the <b>flags</b> member of the <a href="https://msdn.microsoft.com/491f43ca-07ce-460f-8c20-e5eb0f7bcac4">IPSEC_SA_BUNDLE1</a> structure.
+Updates the <b>flags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1_">IPSEC_SA_BUNDLE1</a> structure.
 
 </td>
 </tr>
@@ -113,7 +113,7 @@ Updates the <b>flags</b> member of the <a href="https://msdn.microsoft.com/491f4
 </dl>
 </td>
 <td width="60%">
-Updates the <b>napContext</b> member of the <a href="https://msdn.microsoft.com/491f43ca-07ce-460f-8c20-e5eb0f7bcac4">IPSEC_SA_BUNDLE1</a> structure.
+Updates the <b>napContext</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1_">IPSEC_SA_BUNDLE1</a> structure.
 
 </td>
 </tr>
@@ -123,7 +123,7 @@ Updates the <b>napContext</b> member of the <a href="https://msdn.microsoft.com/
 </dl>
 </td>
 <td width="60%">
-Updates the <b>keyModuleState</b> member of the <a href="https://msdn.microsoft.com/491f43ca-07ce-460f-8c20-e5eb0f7bcac4">IPSEC_SA_BUNDLE1</a> structure.
+Updates the <b>keyModuleState</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1_">IPSEC_SA_BUNDLE1</a> structure.
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ Updates the <b>keyModuleState</b> member of the <a href="https://msdn.microsoft.
 </dl>
 </td>
 <td width="60%">
-Updates the <b>peerV4PrivateAddress</b> member of the <a href="https://msdn.microsoft.com/491f43ca-07ce-460f-8c20-e5eb0f7bcac4">IPSEC_SA_BUNDLE1</a> structure.
+Updates the <b>peerV4PrivateAddress</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1_">IPSEC_SA_BUNDLE1</a> structure.
 
 </td>
 </tr>
@@ -143,7 +143,7 @@ Updates the <b>peerV4PrivateAddress</b> member of the <a href="https://msdn.micr
 </dl>
 </td>
 <td width="60%">
-Updates the <b>mmSaId</b> member of the <a href="https://msdn.microsoft.com/491f43ca-07ce-460f-8c20-e5eb0f7bcac4">IPSEC_SA_BUNDLE1</a> structure.
+Updates the <b>mmSaId</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1_">IPSEC_SA_BUNDLE1</a> structure.
 
 </td>
 </tr>
@@ -153,7 +153,7 @@ Updates the <b>mmSaId</b> member of the <a href="https://msdn.microsoft.com/491f
 
 ### -param newValues [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/a3e210a7-cd3a-42fc-b3a0-7df9ad6778af">IPSEC_SA_CONTEXT1</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context1_">IPSEC_SA_CONTEXT1</a>*</b>
 
 An inbound and outbound SA pair.
 
@@ -189,7 +189,7 @@ The IPsec SA context was updated successfully.
 </dl>
 </td>
 <td width="60%">
-A Windows Filtering Platform (WFP) specific error. See <a href="https://msdn.microsoft.com/11f3085a-f044-4a78-b47a-59b9086562bf">WFP Error Codes</a> for details.
+A Windows Filtering Platform (WFP) specific error. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
 
 </td>
 </tr>
@@ -215,7 +215,7 @@ Failure to communicate with the remote or local firewall engine.
 
 
 
-<b>IPsecSaContextUpdate0</b> is a specific implementation of IPsecSaContextUpdate. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>IPsecSaContextUpdate0</b> is a specific implementation of IPsecSaContextUpdate. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -225,7 +225,7 @@ Failure to communicate with the remote or local firewall engine.
 
 
 
-<a href="https://msdn.microsoft.com/a3e210a7-cd3a-42fc-b3a0-7df9ad6778af">IPSEC_SA_CONTEXT1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context1_">IPSEC_SA_CONTEXT1</a>
  
 
  

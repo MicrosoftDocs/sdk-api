@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[Intended for internal use; not recommended for use in applications. This macro may not be supported in future versions of Windows.]
 
-Sets the size of the border for the items in a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Ee663567(v=VS.85).aspx">TVM_SETBORDER</a> message explicitly.
+Sets the size of the border for the items in a tree-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-setborder">TVM_SETBORDER</a> message explicitly.
 
 
 ## -parameters
@@ -61,14 +61,14 @@ Sets the size of the border for the items in a tree-view control. You can use th
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control. 
 
 
 ### -param dwFlags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Action flags. This parameter can be one or more of the following values: 
 
@@ -103,14 +103,14 @@ Applies the specified border size to the top of the items in the tree-view contr
 
 ### -param xBorder
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SHORT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SHORT</a></b>
 
 Size of the left border, in pixels. 
 
 
 ### -param yBorder
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SHORT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SHORT</a></b>
 
 Size of the top border, in pixels. 
 
@@ -129,7 +129,7 @@ The item border is set just for spacing purposes. A successful setting triggers 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee663567(v=VS.85).aspx">TVM_SETBORDER</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-setborder">TVM_SETBORDER</a>
  
 
  

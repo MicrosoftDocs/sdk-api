@@ -52,7 +52,7 @@ ms.custom: 19H1
 <p class="CCE_Message">[This method is available for use in the operating systems specified in the Requirements 
     section. Support for this method was removed in Windows Server 2008.]
 
-Returns a handle to a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a>.
+Returns a handle to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a>.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ Returns a handle to a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe
 
 A number representing the zero-based index of the target resource. <i>lObjIndex</i> is 
        restricted to the number that can be retrieved by calling 
-       <a href="https://msdn.microsoft.com/20ef63e2-bcec-48bc-86e8-ab746fb72cc5">IGetClusterDataInfo::GetObjectCount</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusterdatainfo-getobjectcount">IGetClusterDataInfo::GetObjectCount</a>.
 
 
 ## -returns
@@ -76,7 +76,7 @@ If <b>GetResourceHandle</b> is
 
 If <b>GetResourceHandle</b> is 
        not successful, it returns <b>NULL</b>. For more information about the error, call the 
-       function <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       function <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -86,11 +86,11 @@ If <b>GetResourceHandle</b> is
 
 
 
-<a href="https://msdn.microsoft.com/20ef63e2-bcec-48bc-86e8-ab746fb72cc5">IGetClusterDataInfo::GetObjectCount</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusterdatainfo-getobjectcount">IGetClusterDataInfo::GetObjectCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a3a9e9d-4666-4d9a-83e3-10d667b42d66">IGetClusterResourceInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclusterresourceinfo">IGetClusterResourceInfo</a>
  
 
  

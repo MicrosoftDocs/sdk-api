@@ -63,9 +63,9 @@ Gets the kind of timed-text track.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/FB064449-56D5-48D4-849F-717767F352F5">MF_TIMED_TEXT_TRACK_KIND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_timed_text_track_kind">MF_TIMED_TEXT_TRACK_KIND</a></b>
 
-Returns a <a href="https://msdn.microsoft.com/FB064449-56D5-48D4-849F-717767F352F5">MF_TIMED_TEXT_TRACK_KIND</a>-typed value that specifies the kind of timed-text track.
+Returns a <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_timed_text_track_kind">MF_TIMED_TEXT_TRACK_KIND</a>-typed value that specifies the kind of timed-text track.
 
 
 
@@ -75,7 +75,7 @@ Returns a <a href="https://msdn.microsoft.com/FB064449-56D5-48D4-849F-717767F352
 
 
 
-<a href="https://msdn.microsoft.com/55232D19-F3D0-42C7-8B24-C2A7768B2C7E">IMFTimedTextTrack</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtexttrack">IMFTimedTextTrack</a>
  
 
  

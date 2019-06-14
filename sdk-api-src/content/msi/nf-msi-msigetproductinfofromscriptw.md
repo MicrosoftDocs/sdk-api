@@ -62,13 +62,13 @@ The
 
 ### -param szScriptFile [in]
 
-A null-terminated string specifying the full path to the script file. The script file is the advertise script that was created by calling <a href="https://msdn.microsoft.com/b28736cb-7097-4f6e-a158-a525a32d9b58">MsiAdvertiseProduct</a> or <a href="https://msdn.microsoft.com/27e8deb6-912f-4103-97a6-ec505340dccc">MsiAdvertiseProductEx</a>.
+A null-terminated string specifying the full path to the script file. The script file is the advertise script that was created by calling <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiadvertiseproducta">MsiAdvertiseProduct</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiadvertiseproductexa">MsiAdvertiseProductEx</a>.
 
 
 ### -param lpProductBuf39 [out]
 
 Points to a buffer that receives the product code. The buffer must be 39 characters long. The first 38 characters are for the product code 
-<a href="https://msdn.microsoft.com/9e5e2a49-ecf5-43e8-ba6d-42ceaf0beba8">GUID</a>, and the last character is for the terminating null character.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/guid">GUID</a>, and the last character is for the terminating null character.
 
 
 ### -param plgidLanguage [out]

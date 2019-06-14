@@ -52,14 +52,14 @@ ms.custom: 19H1
 Defines methods that allow applications to use the shadow copy protection feature of VSS.
 
 To obtain an instance of the <b>IVssDifferentialSoftwareSnapshotMgmt3</b> 
-   interface, call the <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> method of the 
-   <a href="https://msdn.microsoft.com/d322981f-1916-4d38-9d05-bc3db2cd596d">IVssDifferentialSoftwareSnapshotMgmt</a> interface and pass 
+   interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method of the 
+   <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt">IVssDifferentialSoftwareSnapshotMgmt</a> interface and pass 
    the <b>IID_IVssDifferentialSoftwareSnapshotMgmt3</b> constant as the interface identifier (IID) parameter.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssDifferentialSoftwareSnapshotMgmt3</b> interface inherits from <a href="https://msdn.microsoft.com/b11d53cb-5b08-4798-acca-45237fc3e170">IVssDifferentialSoftwareSnapshotMgmt2</a> and <a href="https://msdn.microsoft.com/d322981f-1916-4d38-9d05-bc3db2cd596d">IVssDifferentialSoftwareSnapshotMgmt</a>. <b>IVssDifferentialSoftwareSnapshotMgmt3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssDifferentialSoftwareSnapshotMgmt3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt2">IVssDifferentialSoftwareSnapshotMgmt2</a> and <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt">IVssDifferentialSoftwareSnapshotMgmt</a>. <b>IVssDifferentialSoftwareSnapshotMgmt3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IVssDifferentialSoftwareSnapshotMgmt3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/07257d34-23b1-47bf-b613-f65f5d2a977e">ClearVolumeProtectFault</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3-clearvolumeprotectfault">ClearVolumeProtectFault</a>
 </td>
 <td align="left" width="63%">
 Clears the protection fault state for the specified volume.
@@ -83,7 +83,7 @@ Clears the protection fault state for the specified volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/daa23f2c-8342-4387-800a-def5951896ee">DeleteUnusedDiffAreas</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3-deleteunuseddiffareas">DeleteUnusedDiffAreas</a>
 </td>
 <td align="left" width="63%">
 Deletes all shadow copy storage areas (also called diff areas) on the specified  volume that are not in use.
@@ -92,7 +92,7 @@ Deletes all shadow copy storage areas (also called diff areas) on the specified 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a67bf9f1-135b-4881-acd1-6392f27d58e5">GetVolumeProtectLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3-getvolumeprotectlevel">GetVolumeProtectLevel</a>
 </td>
 <td align="left" width="63%">
 Gets the shadow copy protection level for the specified volume.
@@ -101,7 +101,7 @@ Gets the shadow copy protection level for the specified volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cfa4420f-dc11-48c1-b177-1c58a4515550">QuerySnapshotDeltaBitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3-querysnapshotdeltabitmap">QuerySnapshotDeltaBitmap</a>
 </td>
 <td align="left" width="63%">
 This method is reserved for future use.
@@ -110,7 +110,7 @@ This method is reserved for future use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3f8f3a0c-5076-4ce3-aa8b-5c66ac5fa47a">SetVolumeProtectLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3-setvolumeprotectlevel">SetVolumeProtectLevel</a>
 </td>
 <td align="left" width="63%">
 Sets the shadow copy protection level for a volume.
@@ -124,9 +124,9 @@ Sets the shadow copy protection level for a volume.
 
 
 
-An application with administrator privilege can use the <a href="https://msdn.microsoft.com/3f8f3a0c-5076-4ce3-aa8b-5c66ac5fa47a">SetVolumeProtectLevel</a> method to specify a shadow copy protection level for a volume and the separate volume that contains its shadow copy storage area. The same protection level should be set for both volumes. The possible protection levels are defined by the <a href="https://msdn.microsoft.com/f4c036ac-13fb-47be-8ad8-32c65caf0a2a">VSS_PROTECTION_LEVEL</a> enumeration.
+An application with administrator privilege can use the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3-setvolumeprotectlevel">SetVolumeProtectLevel</a> method to specify a shadow copy protection level for a volume and the separate volume that contains its shadow copy storage area. The same protection level should be set for both volumes. The possible protection levels are defined by the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ne-vsmgmt-_vss_protection_level">VSS_PROTECTION_LEVEL</a> enumeration.
 
-When a volume protection fault occurs, the application must call the <a href="https://msdn.microsoft.com/a67bf9f1-135b-4881-acd1-6392f27d58e5">GetVolumeProtectLevel</a> method for the volume to identify the cause of the fault.
+When a volume protection fault occurs, the application must call the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3-getvolumeprotectlevel">GetVolumeProtectLevel</a> method for the volume to identify the cause of the fault.
 
 
 
@@ -136,11 +136,11 @@ When a volume protection fault occurs, the application must call the <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/d322981f-1916-4d38-9d05-bc3db2cd596d">IVssDifferentialSoftwareSnapshotMgmt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt">IVssDifferentialSoftwareSnapshotMgmt</a>
 
 
 
-<a href="https://msdn.microsoft.com/b11d53cb-5b08-4798-acca-45237fc3e170">IVssDifferentialSoftwareSnapshotMgmt2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt2">IVssDifferentialSoftwareSnapshotMgmt2</a>
  
 
  

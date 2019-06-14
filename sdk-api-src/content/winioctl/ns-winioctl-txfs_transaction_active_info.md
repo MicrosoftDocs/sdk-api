@@ -52,7 +52,7 @@ req.redist:
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
     available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
     information, and alternatives to TxF, please see 
-    <a href="https://msdn.microsoft.com/9ee26e7e-990e-4cd3-8180-f0fcaac2b752">Alternatives to using Transactional NTFS</a>.]
+    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
 Contains the flag that indicates whether transactions were active or not when a snapshot was taken.
 
@@ -72,7 +72,7 @@ This member is <b>TRUE</b> if the mounted snapshot volume had active transaction
 
 
 
-<a href="https://msdn.microsoft.com/c55802b7-9c56-48ee-9d0b-777f06fbeff1">FSCTL_TXFS_TRANSACTION_ACTIVE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_transaction_active">FSCTL_TXFS_TRANSACTION_ACTIVE</a>
  
 
  

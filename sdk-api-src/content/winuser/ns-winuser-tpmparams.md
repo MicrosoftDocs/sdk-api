@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains extended parameters for the <a href="https://msdn.microsoft.com/en-us/library/ms648003(v=VS.85).aspx">TrackPopupMenuEx</a> function.
+Contains extended parameters for the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackpopupmenuex">TrackPopupMenuEx</a> function.
 
 
 ## -struct-fields
@@ -80,7 +80,7 @@ The rectangle to be excluded when positioning the window, in screen coordinates.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
 
 
 
@@ -88,7 +88,7 @@ The rectangle to be excluded when positioning the window, in screen coordinates.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648003(v=VS.85).aspx">TrackPopupMenuEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackpopupmenuex">TrackPopupMenuEx</a>
  
 
  

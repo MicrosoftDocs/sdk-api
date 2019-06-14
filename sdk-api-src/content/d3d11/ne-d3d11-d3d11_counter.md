@@ -68,7 +68,7 @@ Define a performance counter that is dependent on the hardware device.
 
 Independent hardware vendors may define their own set of performance counters for their devices, by giving the enumeration value a number that is greater than the value for D3D11_COUNTER_DEVICE_DEPENDENT_0.
 
-This enumeration is used by <a href="https://msdn.microsoft.com/a0816409-fbe1-4b45-9b69-6f85b20008cb">D3D11_COUNTER_DESC</a> and <a href="https://msdn.microsoft.com/64730e19-1a9e-4494-a3aa-314fd72281e1">D3D11_COUNTER_INFO</a>.
+This enumeration is used by <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_counter_desc">D3D11_COUNTER_DESC</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_counter_info">D3D11_COUNTER_INFO</a>.
 
 
 
@@ -78,7 +78,7 @@ This enumeration is used by <a href="https://msdn.microsoft.com/a0816409-fbe1-4b
 
 
 
-<a href="https://msdn.microsoft.com/1641713a-5ac8-4597-900b-1bba54f9f522">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-enums">Core Enumerations</a>
  
 
  

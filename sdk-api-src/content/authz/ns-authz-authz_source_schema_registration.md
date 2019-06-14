@@ -73,7 +73,7 @@ Flags that control the behavior of the operation. The following table shows a po
 </dl>
 </td>
 <td width="60%">
-Allows registration of  multiple sources with the same name.  Use of this flag  means that   more than one source can call the <a href="https://msdn.microsoft.com/726e480d-1a34-4fd6-ac2d-876fa08f4eae">AuthzRegisterSecurityEventSource</a> function with the same <i>szEventSourceName</i> at runtime.
+Allows registration of  multiple sources with the same name.  Use of this flag  means that   more than one source can call the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzregistersecurityeventsource">AuthzRegisterSecurityEventSource</a> function with the same <i>szEventSourceName</i> at runtime.
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ Allows registration of  multiple sources with the same name.  Use of this flag  
 </dl>
 </td>
 <td width="60%">
-The caller is a migrated publisher that has registered a manifest with WEvtUtil.exe. The <a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a> of the provider specified by the <b>pProviderGuid</b> member is stored in the registry.
+The caller is a migrated publisher that has registered a manifest with WEvtUtil.exe. The <a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> of the provider specified by the <b>pProviderGuid</b> member is stored in the registry.
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ This member is reserved and must be set to <b>NULL</b>.
 
 ### -field DUMMYUNIONNAME.pProviderGuid
 
-The <a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a> of a migrated publisher. The value of this member is converted to a string and stored in the registry if the caller is a migrated publisher.
+The <a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> of a migrated publisher. The value of this member is converted to a string and stored in the registry if the caller is a migrated publisher.
 
 
 ### -field dwObjectTypeNameCount
@@ -139,7 +139,7 @@ The number of objects in the <i>ObjectTypeNames</i> array.
 
 ### -field ObjectTypeNames
 
-An array of <a href="https://msdn.microsoft.com/en-us/library/Aa376324(v=VS.85).aspx">AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET</a> structures that represents the object types for the events.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_registration_object_type_name_offset">AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET</a> structures that represents the object types for the events.
 
 
 ## -see-also
@@ -147,11 +147,11 @@ An array of <a href="https://msdn.microsoft.com/en-us/library/Aa376324(v=VS.85).
 
 
 
-<a href="https://msdn.microsoft.com/2a20ccc9-f2ac-41e4-9d86-745004775e67">AuthzEnumerateSecurityEventSources</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzenumeratesecurityeventsources">AuthzEnumerateSecurityEventSources</a>
 
 
 
-<a href="https://msdn.microsoft.com/77cb5c6c-1634-4449-8d05-ce6357ad4e4b">AuthzInstallSecurityEventSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzinstallsecurityeventsource">AuthzInstallSecurityEventSource</a>
  
 
  

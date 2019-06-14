@@ -49,7 +49,7 @@ req.redist:
 
 
 Contains the opportunistic lock (oplock) information returned by the 
-    <a href="https://msdn.microsoft.com/9df94089-137a-4540-9f46-119408b362ba">FSCTL_REQUEST_OPLOCK</a> control code.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock">FSCTL_REQUEST_OPLOCK</a> control code.
 
 
 ## -struct-fields
@@ -75,7 +75,7 @@ One or more <b>OPLOCK_LEVEL_CACHE_</b><i>XXX</i> values that indicate
        the level of the oplock that was broken.
 
 For possible values, see the <b>RequestedOplockLevel</b> member of the 
-       <a href="https://msdn.microsoft.com/ac19fbd3-a967-4ac8-9260-93e07b5008ac">REQUEST_OPLOCK_INPUT_BUFFER</a> structure.
+       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_request_oplock_input_buffer">REQUEST_OPLOCK_INPUT_BUFFER</a> structure.
 
 
 ### -field NewOplockLevel
@@ -85,7 +85,7 @@ One or more <b>OPLOCK_LEVEL_CACHE_</b><i>XXX</i> values that indicate
        on the operation returning this buffer.
 
 For possible values, see the <b>RequestedOplockLevel</b> member of the 
-       <a href="https://msdn.microsoft.com/ac19fbd3-a967-4ac8-9260-93e07b5008ac">REQUEST_OPLOCK_INPUT_BUFFER</a> structure.
+       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_request_oplock_input_buffer">REQUEST_OPLOCK_INPUT_BUFFER</a> structure.
 
 
 ### -field Flags
@@ -162,7 +162,7 @@ The <b>REQUEST_OPLOCK_OUTPUT_FLAG_MODES_PROVIDED</b> flag indicates that the
 
 
 
-<a href="https://msdn.microsoft.com/9df94089-137a-4540-9f46-119408b362ba">FSCTL_REQUEST_OPLOCK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock">FSCTL_REQUEST_OPLOCK</a>
 
 
 
@@ -170,7 +170,7 @@ The <b>REQUEST_OPLOCK_OUTPUT_FLAG_MODES_PROVIDED</b> flag indicates that the
 
 
 
-<a href="https://msdn.microsoft.com/ac19fbd3-a967-4ac8-9260-93e07b5008ac">REQUEST_OPLOCK_INPUT_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_request_oplock_input_buffer">REQUEST_OPLOCK_INPUT_BUFFER</a>
  
 
  

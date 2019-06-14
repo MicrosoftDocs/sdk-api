@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Describes an exception that occurred during <a href="https://msdn.microsoft.com/964ade8e-9d8a-4d32-bd47-aa678912a54d">IDispatch::Invoke</a>.
+Describes an exception that occurred during <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">IDispatch::Invoke</a>.
 
 
 ## -struct-fields
@@ -69,7 +69,7 @@ Reserved. Should be 0.
 
 ### -field bstrSource
 
-The name of the exception source. Typically, this is an application name. This field should be filled in by the implementor of <a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>.
+The name of the exception source. Typically, this is an application name. This field should be filled in by the implementor of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>.
 
 
 ### -field bstrDescription

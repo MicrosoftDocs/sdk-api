@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-Gets or sets the <a href="https://msdn.microsoft.com/2b39fd32-831d-4606-8600-b52aaa7ed882">InkRecognizerContext</a> object that the <a href="https://msdn.microsoft.com/2c8e67fb-1032-4fcc-b419-82bae978daf8">InkDivider</a> object uses for layout analysis.
+Gets or sets the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext</a> object that the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdivider-class">InkDivider</a> object uses for layout analysis.
 
 
 
@@ -67,7 +67,7 @@ This property is read/write.
 
 
 
-If you set the <b>RecognizerContext</b> property, it should be the first thing you do after constructing the <a href="https://msdn.microsoft.com/2c8e67fb-1032-4fcc-b419-82bae978daf8">InkDivider</a> object. An error is generated if you attempt to set the <b>RecognizerContext</b> property after the <a href="https://msdn.microsoft.com/611ccce9-7acb-4138-9655-938efcaa4c75">Divider.Strokes</a> property has been set, after a <a href="https://msdn.microsoft.com/be42ac65-2bde-4439-a82b-3453c0737717">Divider.Divide</a> call has been made, or if you attempt to set it more than one time.
+If you set the <b>RecognizerContext</b> property, it should be the first thing you do after constructing the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdivider-class">InkDivider</a> object. An error is generated if you attempt to set the <b>RecognizerContext</b> property after the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivider-get_strokes">Divider.Strokes</a> property has been set, after a <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivider-divide">Divider.Divide</a> call has been made, or if you attempt to set it more than one time.
 
 In addition, this property generates an error if you assign a recognizer context to it that:
 
@@ -75,9 +75,9 @@ In addition, this property generates an error if you assign a recognizer context
 <li>Is not a text recognizer.</li>
 <li>Does not free support.</li>
 </ul>
-If the value of this property is <b>NULL</b> when strokes are assigned to the <a href="https://msdn.microsoft.com/2c8e67fb-1032-4fcc-b419-82bae978daf8">InkDivider</a> object, then the <b>InkDivider</b> object uses no recognizer context.
+If the value of this property is <b>NULL</b> when strokes are assigned to the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdivider-class">InkDivider</a> object, then the <b>InkDivider</b> object uses no recognizer context.
 
-<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/2c8e67fb-1032-4fcc-b419-82bae978daf8">InkDivider</a> object uses the default property settings of the <a href="https://msdn.microsoft.com/2b39fd32-831d-4606-8600-b52aaa7ed882">InkRecognizerContext</a> object, and ignores any strokes assigned to the <b>InkRecognizerContext</b> object.</div>
+<div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdivider-class">InkDivider</a> object uses the default property settings of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext</a> object, and ignores any strokes assigned to the <b>InkRecognizerContext</b> object.</div>
 <div> </div>
 
 
@@ -91,11 +91,11 @@ If the value of this property is <b>NULL</b> when strokes are assigned to the <a
 
 
 
-<a href="https://msdn.microsoft.com/2c8e67fb-1032-4fcc-b419-82bae978daf8">InkDivider Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdivider-class">InkDivider Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/2b39fd32-831d-4606-8600-b52aaa7ed882">InkRecognizerContext Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>
  
 
  

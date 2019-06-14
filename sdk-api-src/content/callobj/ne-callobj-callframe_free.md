@@ -102,11 +102,11 @@ All [in], [out], and [in, out] parameters are freed. This includes both top-leve
 
 
 
-<a href="https://msdn.microsoft.com/97261d93-40cf-4a27-9bee-677600c04699">ICallFrame::Free</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframe-free">ICallFrame::Free</a>
 
 
 
-<a href="https://msdn.microsoft.com/b141bfc4-de1b-4251-b88f-551d0805e9b6">ICallFrame::FreeParam</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframe-freeparam">ICallFrame::FreeParam</a>
  
 
  

@@ -96,32 +96,32 @@ Whether the glyphs in the run are sideways or not.
 
 ### -param outlineThreshold
 
-Type: <b><a href="https://msdn.microsoft.com/F0159E05-A47F-444E-BB07-99AA97DAC0A3">DWRITE_OUTLINE_THRESHOLD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ne-dwrite_1-dwrite_outline_threshold">DWRITE_OUTLINE_THRESHOLD</a></b>
 
-A <a href="https://msdn.microsoft.com/F0159E05-A47F-444E-BB07-99AA97DAC0A3">DWRITE_OUTLINE_THRESHOLD</a>-typed value that specifies the quality of the graphics system's outline rendering,
+A <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ne-dwrite_1-dwrite_outline_threshold">DWRITE_OUTLINE_THRESHOLD</a>-typed value that specifies the quality of the graphics system's outline rendering,
     affects the size threshold above which outline rendering is used.
 
 
 ### -param measuringMode
 
-Type: <b><a href="https://msdn.microsoft.com/99e89754-8bc2-457d-bfdb-a3c9ccfe00c1">DWRITE_MEASURING_MODE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-dwrite_measuring_mode">DWRITE_MEASURING_MODE</a></b>
 
 The measuring method that will be used for glyphs in the font.
      Renderer implementations may choose different rendering modes for different measuring methods, for example:
      
 
 <ul>
-<li>DWRITE_RENDERING_MODE_CLEARTYPE_NATURAL for <a href="https://msdn.microsoft.com/99e89754-8bc2-457d-bfdb-a3c9ccfe00c1">DWRITE_MEASURING_MODE_NATURAL</a>
+<li>DWRITE_RENDERING_MODE_CLEARTYPE_NATURAL for <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-dwrite_measuring_mode">DWRITE_MEASURING_MODE_NATURAL</a>
 </li>
-<li>DWRITE_RENDERING_MODE_CLEARTYPE_GDI_CLASSIC for <a href="https://msdn.microsoft.com/99e89754-8bc2-457d-bfdb-a3c9ccfe00c1">DWRITE_MEASURING_MODE_GDI_CLASSIC</a>
+<li>DWRITE_RENDERING_MODE_CLEARTYPE_GDI_CLASSIC for <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-dwrite_measuring_mode">DWRITE_MEASURING_MODE_GDI_CLASSIC</a>
 </li>
-<li>DWRITE_RENDERING_MODE_CLEARTYPE_GDI_NATURAL for <a href="https://msdn.microsoft.com/99e89754-8bc2-457d-bfdb-a3c9ccfe00c1">DWRITE_MEASURING_MODE_GDI_NATURAL</a>
+<li>DWRITE_RENDERING_MODE_CLEARTYPE_GDI_NATURAL for <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-dwrite_measuring_mode">DWRITE_MEASURING_MODE_GDI_NATURAL</a>
 </li>
 </ul>
 
 ### -param renderingMode [out]
 
-Type: <b><a href="https://msdn.microsoft.com/c6b2c15a-be22-49ce-affd-1369e23f4d6b">DWRITE_RENDERING_MODE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_rendering_mode">DWRITE_RENDERING_MODE</a>*</b>
 
 When this method returns, contains a value that indicates the recommended rendering mode to use.
 
@@ -152,7 +152,7 @@ This method should be used to determine the actual rendering mode in cases where
 
 
 
-<a href="https://msdn.microsoft.com/1DB7156F-0578-46A0-8C96-E1E34FF4E49E">IDWriteFontFace1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritefontface1">IDWriteFontFace1</a>
  
 
  

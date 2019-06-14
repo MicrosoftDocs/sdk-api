@@ -68,7 +68,7 @@ The save target. This parameter is a <b>VARIANT</b>, which can be a file name, o
 
 Type: <b>long</b>
 
-File creation, open, share, and conversion flags. For a list of possible values, see <a href="https://msdn.microsoft.com/en-us/library/Bb774093(v=VS.85).aspx">ITextDocument::Open</a>. 
+File creation, open, share, and conversion flags. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-open">ITextDocument::Open</a>. 
 
 
 ### -param CodePage [in]
@@ -155,8 +155,8 @@ If
 				<i>pVar</i> specifies a file name, that name should replace the current Name property. Similarly, the 
 				<i>Flags</i> and 
 				<i>CodePage</i> arguments can overrule those supplied in the 
-				<a href="https://msdn.microsoft.com/en-us/library/Bb774093(v=VS.85).aspx">ITextDocument::Open</a> method and define the values to use for files created with the 
-				<a href="https://msdn.microsoft.com/en-us/library/Bb774091(v=VS.85).aspx">ITextDocument::New</a> method.
+				<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-open">ITextDocument::Open</a> method and define the values to use for files created with the 
+				<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-new">ITextDocument::New</a> method.
 
 Unicode plain-text files should be saved with the Unicode byte-order mark (0xFEFF) as the first character. This character should be removed when the file is read in; that is, it is only used for import/export to identify the plain text as Unicode and to identify the byte order of that text. Microsoft Notepad adopted this convention, which is now recommended by the Unicode standard.
 
@@ -172,15 +172,15 @@ Unicode plain-text files should be saved with the Unicode byte-order mark (0xFEF
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774052(v=VS.85).aspx">ITextDocument</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774091(v=VS.85).aspx">New</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-new">New</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774093(v=VS.85).aspx">Open</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-open">Open</a>
 
 
 
@@ -188,7 +188,7 @@ Unicode plain-text files should be saved with the Unicode byte-order mark (0xFEF
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
  
 
  

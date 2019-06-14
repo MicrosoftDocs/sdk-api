@@ -48,7 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-Instantiates a new instance of a <a href="https://msdn.microsoft.com/511AF313-C692-423B-AD5A-A0A36018572B">CD3D11_DEPTH_STENCIL_DESC</a> structure that is initialized with a **D3D11_DEPTH_STENCIL_DESC** structure.
+Instantiates a new instance of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151632(v=vs.85)">CD3D11_DEPTH_STENCIL_DESC</a> structure that is initialized with a **D3D11_DEPTH_STENCIL_DESC** structure.
 
 ## -parameters
 
@@ -58,4 +58,4 @@ Address of the **D3D11_DEPTH_STENCIL_DESC** structure that initializes the **D3D
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/511AF313-C692-423B-AD5A-A0A36018572B">CD3D11_DEPTH_STENCIL_DESC</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151632(v=vs.85)">CD3D11_DEPTH_STENCIL_DESC</a>

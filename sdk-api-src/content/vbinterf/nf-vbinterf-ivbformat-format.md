@@ -263,7 +263,7 @@ When migrating a VBX control to an OLE control,
 
 
 
-<a href="https://msdn.microsoft.com/6b05c0c7-6f38-42cf-bf7b-2a54a4302b68">IVBFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vbinterf/nn-vbinterf-ivbformat">IVBFormat</a>
  
 
  

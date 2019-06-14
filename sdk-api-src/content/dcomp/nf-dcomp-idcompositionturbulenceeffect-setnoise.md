@@ -59,7 +59,7 @@ Sets the turbulence noise mode.
 
 ### -param noise [in]
 
-Type: <b><a href="https://msdn.microsoft.com/86C1990E-958C-46D7-840A-E4A17F1D1740">D2D1_TURBULENCE_NOISE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/turbulence">D2D1_TURBULENCE_NOISE</a></b>
 
 The turbulence noise mode. Indicates whether to generate a bitmap based on Fractal Noise or the Turbulence function.
 
@@ -68,7 +68,7 @@ The turbulence noise mode. Indicates whether to generate a bitmap based on Fract
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/6A0100DE-DB63-475C-BF7D-3B2D436704A5">IDCompositionTurbulenceEffect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionturbulenceeffect">IDCompositionTurbulenceEffect</a>
  
 
  

@@ -57,7 +57,7 @@ ms.custom: 19H1
 
 
 The <b>GetSidIdentifierAuthority</b> function returns a pointer to the 
-<a href="https://msdn.microsoft.com/450a6d2d-d2e4-4098-90af-a8024ddcfcb5">SID_IDENTIFIER_AUTHORITY</a> structure in a specified <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID).
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid_identifier_authority">SID_IDENTIFIER_AUTHORITY</a> structure in a specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).
 
 
 ## -parameters
@@ -68,21 +68,21 @@ The <b>GetSidIdentifierAuthority</b> function returns a pointer to the
 ### -param pSid [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure for which a pointer to the 
-<a href="https://msdn.microsoft.com/450a6d2d-d2e4-4098-90af-a8024ddcfcb5">SID_IDENTIFIER_AUTHORITY</a> structure is returned.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure for which a pointer to the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid_identifier_authority">SID_IDENTIFIER_AUTHORITY</a> structure is returned.
 
-This function does not handle <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structures that are not valid. Call the <a href="https://msdn.microsoft.com/0fb08512-90a1-4a5c-9b4c-121bf7701bba">IsValidSid</a> function to verify that the <b>SID</b> structure is valid before you call this function.
+This function does not handle <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structures that are not valid. Call the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-isvalidsid">IsValidSid</a> function to verify that the <b>SID</b> structure is valid before you call this function.
 
 
 ## -returns
 
 
 
-If the function succeeds, the return value is a pointer to the <a href="https://msdn.microsoft.com/450a6d2d-d2e4-4098-90af-a8024ddcfcb5">SID_IDENTIFIER_AUTHORITY</a> structure for the specified 
-<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure.
+If the function succeeds, the return value is a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid_identifier_authority">SID_IDENTIFIER_AUTHORITY</a> structure for the specified 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure.
 
-If the function fails, the return value is undefined. The function fails if the <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure pointed to by the <i>pSid</i> parameter is not valid. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is undefined. The function fails if the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure pointed to by the <i>pSid</i> parameter is not valid. To get extended error information, call 
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -92,7 +92,7 @@ If the function fails, the return value is undefined. The function fails if the 
 
 
 This function uses a 32-bit RID value. For applications that require a larger RID value, use 
-<a href="https://msdn.microsoft.com/00e75bae-fbce-41a3-a0bc-c345c36f2c84">CreateWellKnownSid</a> and related functions.
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createwellknownsid">CreateWellKnownSid</a> and related functions.
 
 
 
@@ -102,43 +102,43 @@ This function uses a 32-bit RID value. For applications that require a larger RI
 
 
 
-<a href="https://msdn.microsoft.com/d9ce4ec5-5c09-4b33-93a1-39638a925986">Access Control Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/00e75bae-fbce-41a3-a0bc-c345c36f2c84">CreateWellKnownSid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createwellknownsid">CreateWellKnownSid</a>
 
 
 
-<a href="https://msdn.microsoft.com/0acaa804-494c-4d69-b1f7-8d167b494761">GetLengthSid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getlengthsid">GetLengthSid</a>
 
 
 
-<a href="https://msdn.microsoft.com/a481fb4f-20bd-4f44-a3d5-d8b8d6228339">GetSidLengthRequired</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsidlengthrequired">GetSidLengthRequired</a>
 
 
 
-<a href="https://msdn.microsoft.com/3a2d07f3-f1da-477d-b93f-525e3459dc61">GetSidSubAuthority</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsidsubauthority">GetSidSubAuthority</a>
 
 
 
-<a href="https://msdn.microsoft.com/ca81fb91-f5a1-4dc6-83ec-eadb62a37805">GetSidSubAuthorityCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsidsubauthoritycount">GetSidSubAuthorityCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/0fb08512-90a1-4a5c-9b4c-121bf7701bba">IsValidSid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-isvalidsid">IsValidSid</a>
 
 
 
-<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
 
 
 
-<a href="https://msdn.microsoft.com/450a6d2d-d2e4-4098-90af-a8024ddcfcb5">SID_IDENTIFIER_AUTHORITY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid_identifier_authority">SID_IDENTIFIER_AUTHORITY</a>
  
 
  

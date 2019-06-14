@@ -62,12 +62,12 @@ The <b>FWPM_CALLOUT0</b> structure stores the state associated with a callout.
 Uniquely identifies the session. 
 
 If the GUID is initialized to zero in the
-   call to <a href="https://msdn.microsoft.com/e4f79262-6345-49e9-a50c-9f8a82f2df0e">FwpmCalloutAdd0</a>, the base filtering engine (BFE) will generate one.
+   call to <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmcalloutadd0">FwpmCalloutAdd0</a>, the base filtering engine (BFE) will generate one.
 
 
 ### -field displayData
 
-A <a href="https://msdn.microsoft.com/b86ca572-b4f4-4d40-adfd-fb0e9d32fcd5">FWPM_DISPLAY_DATA0</a> structure that contains human-readable annotations associated with the callout.  The <b>name</b> member of the <b>FWPM_DISPLAY_DATA0</b> structure is required.
+A <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0_">FWPM_DISPLAY_DATA0</a> structure that contains human-readable annotations associated with the callout.  The <b>name</b> member of the <b>FWPM_DISPLAY_DATA0</b> structure is required.
 
 
 ### -field flags
@@ -93,7 +93,7 @@ The callout is persistent across reboots. As a result, it can be referenced by b
 </dl>
 </td>
 <td width="60%">
-The callout needs access to the provider context stored in the filter invoking the callout.  If this flag is set, the provider context will be copied from the <a href="https://msdn.microsoft.com/e1925824-01c2-426a-a8f0-4d5882812a9e">FWPM_FILTER0</a> structure to the <b>FWPS_FILTER0</b> 
+The callout needs access to the provider context stored in the filter invoking the callout.  If this flag is set, the provider context will be copied from the <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter0_">FWPM_FILTER0</a> structure to the <b>FWPS_FILTER0</b> 
 structure. The <b>FWPS_FILTER0</b> structure is documented in the WDK.
 
 </td>
@@ -119,12 +119,12 @@ Uniquely identifies the provider associated with the callout. If the member is n
 
 ### -field providerData
 
-A <a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a> structure that contains optional provider-specific data that allows providers to store additional context information with the object.
+A <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a> structure that contains optional provider-specific data that allows providers to store additional context information with the object.
 
 
 ### -field applicableLayer
 
-Specifies the layer in which the callout can be used. Only filters in this layer can invoke the callout. For more information, see <a href="https://msdn.microsoft.com/3b2daef1-558b-4e3a-a98a-f4dfa80a29c0">Filtering Layer Identifiers</a>.
+Specifies the layer in which the callout can be used. Only filters in this layer can invoke the callout. For more information, see <a href="https://docs.microsoft.com/windows/desktop/FWP/management-filtering-layer-identifiers-">Filtering Layer Identifiers</a>.
 
 
 ### -field calloutId
@@ -141,7 +141,7 @@ The first six members of this structure contain data supplied when adding object
 
 The last member, <b>calloutId</b>, provides additional information returned when getting/enumerating objects.
 
-<b>FWPM_CALLOUT0</b> is a specific implementation of FWPM_CALLOUT. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FWPM_CALLOUT0</b> is a specific implementation of FWPM_CALLOUT. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -151,7 +151,7 @@ The last member, <b>calloutId</b>, provides additional information returned when
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

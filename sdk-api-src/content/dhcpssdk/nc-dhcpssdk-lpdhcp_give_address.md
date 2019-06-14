@@ -133,7 +133,7 @@ Reserve for future use.
 ### -param PktContext [in]
 
 Context identifying the packet, as provided in the <i>PktContext</i> parameter of a previous 
-<a href="https://msdn.microsoft.com/2bff8750-aeb2-4164-9a6e-4239a6736beb">DhcpNewPktHook</a> function call.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpssdk/nc-dhcpssdk-lpdhcp_newpkt">DhcpNewPktHook</a> function call.
 
 
 ## -returns
@@ -160,11 +160,11 @@ Implementations of the
 
 
 
-<a href="https://msdn.microsoft.com/fa57e5c5-2335-44ba-8642-61dcb8b33ffe">DHCP_CALLOUT_TABLE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpssdk/ns-dhcpssdk-_dhcp_callout_table">DHCP_CALLOUT_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/2bff8750-aeb2-4164-9a6e-4239a6736beb">DhcpNewPktHook</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpssdk/nc-dhcpssdk-lpdhcp_newpkt">DhcpNewPktHook</a>
  
 
  

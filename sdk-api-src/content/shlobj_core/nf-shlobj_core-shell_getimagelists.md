@@ -90,7 +90,7 @@ Returns <b>TRUE</b> on success. On failure, returns <b>FALSE</b> and the image l
 
 
 
-<div class="alert"><b>Important</b>  The image lists retrieved through this function are global system image lists; do not call <a href="https://msdn.microsoft.com/en-us/library/Bb761524(v=VS.85).aspx">ImageList_Destroy</a> using them.</div>
+<div class="alert"><b>Important</b>  The image lists retrieved through this function are global system image lists; do not call <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_destroy">ImageList_Destroy</a> using them.</div>
 <div> </div>
 
 
@@ -100,15 +100,15 @@ Returns <b>TRUE</b> on success. On failure, returns <b>FALSE</b> and the image l
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761391(v=VS.85).aspx">Image Lists</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/image-list-reference">Image Lists</a>
 
 
 
-<a href="https://msdn.microsoft.com/d662bedf-4be0-4528-8121-e7923a42bc67">SHGetFileInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shgetfileinfoa">SHGetFileInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/6ae80c1f-f2b7-4da9-b588-30391c8aef0e">SHGetImageList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shgetimagelist">SHGetImageList</a>
  
 
  

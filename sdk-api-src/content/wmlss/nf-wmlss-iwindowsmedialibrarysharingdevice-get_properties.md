@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>get_Properties</b> method retrieves an <a href="https://msdn.microsoft.com/b975428c-e518-4bc8-a621-193d510661b0">IWindowsMediaLibrarySharingDeviceProperties</a> interface that represents the collection of all properties for the device.
+The <b>get_Properties</b> method retrieves an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nn-wmlss-iwindowsmedialibrarysharingdeviceproperties">IWindowsMediaLibrarySharingDeviceProperties</a> interface that represents the collection of all properties for the device.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>get_Properties</b> method retrieves an <a href="https://msdn.microsoft.co
 
 ### -param deviceProperties [out]
 
-A pointer to a variable that receives a pointer to the <a href="https://msdn.microsoft.com/b975428c-e518-4bc8-a621-193d510661b0">IWindowsMediaLibrarySharingDeviceProperties</a> interface.
+A pointer to a variable that receives a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nn-wmlss-iwindowsmedialibrarysharingdeviceproperties">IWindowsMediaLibrarySharingDeviceProperties</a> interface.
 
 
 ## -returns

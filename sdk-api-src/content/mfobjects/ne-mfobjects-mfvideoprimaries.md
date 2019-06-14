@@ -155,9 +155,9 @@ Reserved. This member forces the enumeration type to compile as a <b>DWORD</b> v
 
 
 
-This enumeration is used with the <a href="https://msdn.microsoft.com/56f31c1a-b610-4da0-9df4-76e15add672c">MF_MT_VIDEO_PRIMARIES</a> attribute.
+This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-video-primaries-attribute">MF_MT_VIDEO_PRIMARIES</a> attribute.
 
-For more information about these values, see the remarks for the <a href="https://msdn.microsoft.com/4534a198-cf6c-4689-9fe4-0e5cdc7ce26a">DXVA2_VideoPrimaries</a> enumeration, which is the DirectX Video Acceleration (DXVA) equivalent of this enumeration.
+For more information about these values, see the remarks for the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ne-dxva2api-_dxva2_videoprimaries">DXVA2_VideoPrimaries</a> enumeration, which is the DirectX Video Acceleration (DXVA) equivalent of this enumeration.
 
 
 
@@ -167,15 +167,15 @@ For more information about these values, see the remarks for the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/05ca73c6-d105-47bc-96bc-b784f669febe">Extended Color Information</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/extended-color-information">Extended Color Information</a>
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/b8cfe0d1-013d-4706-bb76-6d426836ab6a">Video Media Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/video-media-types">Video Media Types</a>
  
 
  

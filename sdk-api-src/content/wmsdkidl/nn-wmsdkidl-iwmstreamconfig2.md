@@ -52,14 +52,14 @@ ms.custom: 19H1
 
 The <b>IWMStreamConfig2</b> interface manages the data unit extensions associated with a stream.
 
-<b>IWMStreamConfig2</b> inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig</a>. To obtain a pointer to <b>IWMStreamConfig2</b>, call the <b>QueryInterface</b> method of the <b>IWMStreamConfig</b> interface.
+<b>IWMStreamConfig2</b> inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig">IWMStreamConfig</a>. To obtain a pointer to <b>IWMStreamConfig2</b>, call the <b>QueryInterface</b> method of the <b>IWMStreamConfig</b> interface.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMStreamConfig2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig</a>. <b>IWMStreamConfig2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMStreamConfig2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig">IWMStreamConfig</a>. <b>IWMStreamConfig2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IWMStreamConfig2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798548(v=VS.85).aspx">AddDataUnitExtension</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-adddataunitextension">AddDataUnitExtension</a>
 </td>
 <td align="left" width="63%">
 Adds a data unit extension to the stream.
@@ -83,7 +83,7 @@ Adds a data unit extension to the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798558(v=VS.85).aspx">GetBitrate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig-getbitrate">GetBitrate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the bit rate for the stream.
@@ -92,7 +92,7 @@ Retrieves the bit rate for the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798559(v=VS.85).aspx">GetBufferWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig-getbufferwindow">GetBufferWindow</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum latency between when a stream is received and when it begins to be displayed.
@@ -101,7 +101,7 @@ Retrieves the maximum latency between when a stream is received and when it begi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798560(v=VS.85).aspx">GetConnectionName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig-getconnectionname">GetConnectionName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the connection name given to the stream.
@@ -110,7 +110,7 @@ Retrieves the connection name given to the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798549(v=VS.85).aspx">GetDataUnitExtension</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-getdataunitextension">GetDataUnitExtension</a>
 </td>
 <td align="left" width="63%">
 Retrieves a data unit extension from the stream.
@@ -119,7 +119,7 @@ Retrieves a data unit extension from the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798550(v=VS.85).aspx">GetDataUnitExtensionCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-getdataunitextensioncount">GetDataUnitExtensionCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves a count of all the data unit extensions in the stream.
@@ -128,7 +128,7 @@ Retrieves a count of all the data unit extensions in the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798561(v=VS.85).aspx">GetStreamName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig-getstreamname">GetStreamName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the stream name.
@@ -137,7 +137,7 @@ Retrieves the stream name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798562(v=VS.85).aspx">GetStreamNumber</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig-getstreamnumber">GetStreamNumber</a>
 </td>
 <td align="left" width="63%">
 Retrieves the stream number.
@@ -146,7 +146,7 @@ Retrieves the stream number.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798563(v=VS.85).aspx">GetStreamType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig-getstreamtype">GetStreamType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the major type of the stream (audio, video, or script).
@@ -155,7 +155,7 @@ Retrieves the major type of the stream (audio, video, or script).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798551(v=VS.85).aspx">GetTransportType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-gettransporttype">GetTransportType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of communication protocol.
@@ -164,7 +164,7 @@ Retrieves the type of communication protocol.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798552(v=VS.85).aspx">RemoveAllDataUnitExtensions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-removealldataunitextensions">RemoveAllDataUnitExtensions</a>
 </td>
 <td align="left" width="63%">
 Removes all previously added data unit extensions.
@@ -173,7 +173,7 @@ Removes all previously added data unit extensions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798564(v=VS.85).aspx">SetBitrate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig-setbitrate">SetBitrate</a>
 </td>
 <td align="left" width="63%">
 Specifies the bit rate for the stream.
@@ -182,7 +182,7 @@ Specifies the bit rate for the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798565(v=VS.85).aspx">SetBufferWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig-setbufferwindow">SetBufferWindow</a>
 </td>
 <td align="left" width="63%">
 Specifies the maximum latency between when a stream is received and when it begins to be displayed.
@@ -191,7 +191,7 @@ Specifies the maximum latency between when a stream is received and when it begi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798566(v=VS.85).aspx">SetConnectionName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig-setconnectionname">SetConnectionName</a>
 </td>
 <td align="left" width="63%">
 Specifies the connection name given to a stream.
@@ -200,7 +200,7 @@ Specifies the connection name given to a stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798567(v=VS.85).aspx">SetStreamName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig-setstreamname">SetStreamName</a>
 </td>
 <td align="left" width="63%">
 Specifies the stream name.
@@ -209,7 +209,7 @@ Specifies the stream name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798568(v=VS.85).aspx">SetStreamNumber</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig-setstreamnumber">SetStreamNumber</a>
 </td>
 <td align="left" width="63%">
 Specifies the stream number.
@@ -218,7 +218,7 @@ Specifies the stream number.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798553(v=VS.85).aspx">SetTransportType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-settransporttype">SetTransportType</a>
 </td>
 <td align="left" width="63%">
 Sets the type of communication protocol.
@@ -235,31 +235,31 @@ The following interfaces can be obtained by using the QueryInterface method of t
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd757228(v=VS.85).aspx">IWMMediaProps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops">IWMMediaProps</a>
 </td>
 <td>IID_IWMMediaProps</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd757416(v=VS.85).aspx">IWMPropertyVault</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpropertyvault">IWMPropertyVault</a>
 </td>
 <td>IID_IWMPropertyVault</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig">IWMStreamConfig</a>
 </td>
 <td>IID_IWMStreamConfig</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd798554(v=VS.85).aspx">IWMStreamConfig3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig3">IWMStreamConfig3</a>
 </td>
 <td>IID_IWMStreamConfig3</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd798711(v=VS.85).aspx">IWMVideoMediaProps</a> (on video streams only)</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmvideomediaprops">IWMVideoMediaProps</a> (on video streams only)</td>
 <td>IID_IWMVideoMediaProps</td>
 </tr>
 </table> 
@@ -270,15 +270,15 @@ The following interfaces can be obtained by using the QueryInterface method of t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig">IWMStreamConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798554(v=VS.85).aspx">IWMStreamConfig3 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig3">IWMStreamConfig3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/c61a0739-09f2-497f-a2cd-d3f2472738e3">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
  
 
  

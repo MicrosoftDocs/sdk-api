@@ -67,11 +67,11 @@ Use Remote Procedure Call (RPC) login.
 
 
 
-<a href="https://msdn.microsoft.com/f3001756-7c2d-4a96-bbdf-e707debb5374">EVT_RPC_LOGIN_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_rpc_login_flags">EVT_RPC_LOGIN_FLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/26f1745c-dcca-4452-872e-1fffe20f049c">EvtOpenSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtopensession">EvtOpenSession</a>
  
 
  

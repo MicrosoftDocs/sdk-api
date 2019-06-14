@@ -57,7 +57,7 @@ The <b>IMSVidRect</b> interface represents a rectangle with an associated window
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidRect</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IMSVidRect</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidRect</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMSVidRect</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMSVidRect</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694604(v=VS.85).aspx">get_Height</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidrect-get_height">get_Height</a>
 </td>
 <td align="left" width="63%">
 Retrieves the height of the rectangle.
@@ -81,7 +81,7 @@ Retrieves the height of the rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694605(v=VS.85).aspx">get_HWnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidrect-get_hwnd">get_HWnd</a>
 </td>
 <td align="left" width="63%">
 Retrieves the window associated with the rectangle.
@@ -90,7 +90,7 @@ Retrieves the window associated with the rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694606(v=VS.85).aspx">get_Left</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidrect-get_left">get_Left</a>
 </td>
 <td align="left" width="63%">
 Retrieves the left x-coordinate of the rectangle.
@@ -99,7 +99,7 @@ Retrieves the left x-coordinate of the rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694607(v=VS.85).aspx">get_Top</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidrect-get_top">get_Top</a>
 </td>
 <td align="left" width="63%">
 Retrieves the top y-coordinate of the rectangle.
@@ -108,7 +108,7 @@ Retrieves the top y-coordinate of the rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694608(v=VS.85).aspx">get_Width</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidrect-get_width">get_Width</a>
 </td>
 <td align="left" width="63%">
 Retrieves the width of the rectangle.
@@ -117,7 +117,7 @@ Retrieves the width of the rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694609(v=VS.85).aspx">put_Height</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidrect-put_height">put_Height</a>
 </td>
 <td align="left" width="63%">
 Specifies the height of the rectangle
@@ -126,7 +126,7 @@ Specifies the height of the rectangle
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694610(v=VS.85).aspx">put_HWnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidrect-put_hwnd">put_HWnd</a>
 </td>
 <td align="left" width="63%">
 Specifies the window associated with the rectangle.
@@ -135,7 +135,7 @@ Specifies the window associated with the rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694611(v=VS.85).aspx">put_Left</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidrect-put_left">put_Left</a>
 </td>
 <td align="left" width="63%">
 Specifies the left x-coordinate of the rectangle.
@@ -144,7 +144,7 @@ Specifies the left x-coordinate of the rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694612(v=VS.85).aspx">put_Rect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidrect-put_rect">put_Rect</a>
 </td>
 <td align="left" width="63%">
 Copies the values of another rectangle to this rectangle.
@@ -153,7 +153,7 @@ Copies the values of another rectangle to this rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694613(v=VS.85).aspx">put_Top</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidrect-put_top">put_Top</a>
 </td>
 <td align="left" width="63%">
 Specifies the top y-coordinate of the rectangle.
@@ -162,7 +162,7 @@ Specifies the top y-coordinate of the rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694614(v=VS.85).aspx">put_Width</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidrect-put_width">put_Width</a>
 </td>
 <td align="left" width="63%">
 Specifies the width of the rectangle.
@@ -186,11 +186,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf6c3ce9-1e56-4109-93f1-5b313e6ca19b">Video Control Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
  
 
  

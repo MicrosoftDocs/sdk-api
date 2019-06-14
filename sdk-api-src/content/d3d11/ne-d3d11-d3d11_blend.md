@@ -116,12 +116,12 @@ The blend factor is (f, f, f, 1); where f = min(Aₛ, 1
 
 ### -field D3D11_BLEND_BLEND_FACTOR
 
-The blend factor is the blend factor set with <a href="https://msdn.microsoft.com/fabcae1d-2ad8-4f4d-8eef-18945e369225">ID3D11DeviceContext::OMSetBlendState</a>. No pre-blend operation.
+The blend factor is the blend factor set with <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-omsetblendstate">ID3D11DeviceContext::OMSetBlendState</a>. No pre-blend operation.
 
 
 ### -field D3D11_BLEND_INV_BLEND_FACTOR
 
-The blend factor is the blend factor set with <a href="https://msdn.microsoft.com/fabcae1d-2ad8-4f4d-8eef-18945e369225">ID3D11DeviceContext::OMSetBlendState</a>. The pre-blend operation inverts the blend factor, generating 1 - blend_factor.
+The blend factor is the blend factor set with <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-omsetblendstate">ID3D11DeviceContext::OMSetBlendState</a>. The pre-blend operation inverts the blend factor, generating 1 - blend_factor.
 
 
 ### -field D3D11_BLEND_SRC1_COLOR
@@ -148,7 +148,7 @@ The blend factor is data sources as alpha data output by a pixel shader. The pre
 
 
 
-Blend operations are specified in a <a href="https://msdn.microsoft.com/388f862c-58b0-48a8-a865-ba7568484ef5">blend description</a>.
+Blend operations are specified in a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_blend_desc">blend description</a>.
 
 
 
@@ -158,7 +158,7 @@ Blend operations are specified in a <a href="https://msdn.microsoft.com/388f862c
 
 
 
-<a href="https://msdn.microsoft.com/1641713a-5ac8-4597-900b-1bba54f9f522">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-enums">Core Enumerations</a>
  
 
  

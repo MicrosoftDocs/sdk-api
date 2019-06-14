@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>UnAdvise</b> method deletes a connection created by calling the <a href="https://msdn.microsoft.com/fcac9d30-64ed-4746-aacc-ee659c2b2642">Advise</a> method.
+The <b>UnAdvise</b> method deletes a connection created by calling the <a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nf-identityprovider-iidentityprovider-advise">Advise</a> method.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ A value that identifies the connection to delete.
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an error code. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -78,11 +78,11 @@ If the method fails, it returns an error code. For a list of common error codes,
 
 
 
-<a href="https://msdn.microsoft.com/fcac9d30-64ed-4746-aacc-ee659c2b2642">Advise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nf-identityprovider-iidentityprovider-advise">Advise</a>
 
 
 
-<a href="https://msdn.microsoft.com/0f23e369-1501-4e72-94d1-dadb9dac5be6">IIdentityProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nn-identityprovider-iidentityprovider">IIdentityProvider</a>
  
 
  

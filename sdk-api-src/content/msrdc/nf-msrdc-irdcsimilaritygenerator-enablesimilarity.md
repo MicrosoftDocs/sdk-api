@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Enables the signature generator to generate similarity data.
 
-The <b>EnableSimilarity</b> method must be called before the <a href="https://msdn.microsoft.com/34d19eee-0fa9-4ac3-a33b-9f01cfa06371">IRdcGenerator::Process</a> method is called to begin generating signatures. Otherwise, this method will return an error.
+The <b>EnableSimilarity</b> method must be called before the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgenerator-process">IRdcGenerator::Process</a> method is called to begin generating signatures. Otherwise, this method will return an error.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/60133763-9678-4927-9d3a-3e431310b601">IRdcSimilarityGenerator</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcsimilaritygenerator">IRdcSimilarityGenerator</a>
  
 
  

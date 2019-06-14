@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information about a <a href="https://msdn.microsoft.com/en-us/library/ms646862(v=VS.85).aspx">CDN_INCLUDEITEM</a> notification message. 
+Contains information about a <a href="https://docs.microsoft.com/windows/desktop/dlgbox/cdn-includeitem">CDN_INCLUDEITEM</a> notification message. 
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ Contains information about a <a href="https://msdn.microsoft.com/en-us/library/m
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
 
 The <b>code</b> member of this structure identifies the notification message being sent. 
 
@@ -70,7 +70,7 @@ The <b>code</b> member of this structure identifies the notification message bei
 
 Type: <b>LPOPENFILENAME</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms646839(v=VS.85).aspx">OPENFILENAME</a> structure containing the values specified when the <b>Open</b> or <b>Save As</b> dialog box was created. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagofna">OPENFILENAME</a> structure containing the values specified when the <b>Open</b> or <b>Save As</b> dialog box was created. 
 
 
 ### -field psf
@@ -92,11 +92,11 @@ A pointer to an item identifier list that identifies an item in the container id
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646862(v=VS.85).aspx">CDN_INCLUDEITEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/dlgbox/cdn-includeitem">CDN_INCLUDEITEM</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645524(v=VS.85).aspx">Common Dialog Box Library</a>
+<a href="https://docs.microsoft.com/windows/desktop/dlgbox/common-dialog-box-library">Common Dialog Box Library</a>
 
 
 
@@ -104,15 +104,15 @@ A pointer to an item identifier list that identifies an item in the container id
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646931(v=VS.85).aspx">OFNHookProc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nc-commdlg-lpofnhookproc">OFNHookProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646836(v=VS.85).aspx">OFNOTIFY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-_ofnotifya">OFNOTIFY</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646839(v=VS.85).aspx">OPENFILENAME</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagofna">OPENFILENAME</a>
 
 
 

@@ -56,7 +56,7 @@ Exposed by some Media Foundation objects that must be explicitly shut down.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFShutdown</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFShutdown</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFShutdown</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFShutdown</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,17 +71,17 @@ The <b>IMFShutdown</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8cf5f5f3-a3ad-4745-87e8-764ed118477a">GetShutdownStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-getshutdownstatus">GetShutdownStatus</a>
 </td>
 <td align="left" width="63%">
-Queries the status of a prior call to the <a href="https://msdn.microsoft.com/9e7824d2-0f76-4c4c-98c5-ba51cd297de7">Shutdown</a> method.
+Queries the status of a prior call to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-shutdown">Shutdown</a> method.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9e7824d2-0f76-4c4c-98c5-ba51cd297de7">Shutdown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-shutdown">Shutdown</a>
 </td>
 <td align="left" width="63%">
 Shuts down a Media Foundation object and releases all resources associated with the object.
@@ -99,31 +99,31 @@ Shuts down a Media Foundation object and releases all resources associated with 
 The following types of object expose <b>IMFShutdown</b>:
 
 <ul>
-<li>Content enablers (<a href="https://msdn.microsoft.com/45d02bd0-1104-47ec-8559-8cc51590fc62">IMFContentEnabler</a> interface)
+<li>Content enablers (<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfcontentenabler">IMFContentEnabler</a> interface)
           </li>
-<li>Input trust authorities (<a href="https://msdn.microsoft.com/637e0225-6fd8-4b83-b4fb-119e7a5ef5d2">IMFInputTrustAuthority</a> interface)
+<li>Input trust authorities (<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfinputtrustauthority">IMFInputTrustAuthority</a> interface)
           </li>
-<li>Presentation clocks (<a href="https://msdn.microsoft.com/979c4f77-cbee-468c-8f6b-e68442d89025">IMFPresentationClock</a> interface)
+<li>Presentation clocks (<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a> interface)
           </li>
 <li>
-<a href="https://msdn.microsoft.com/d438ffae-fc50-454f-8ce4-2d6676500fff">Asynchronous MFTs</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/asynchronous-mfts">Asynchronous MFTs</a>
 </li>
 </ul>
-Any component that creates one of these objects is responsible for calling <a href="https://msdn.microsoft.com/9e7824d2-0f76-4c4c-98c5-ba51cd297de7">Shutdown</a> on the object before releasing the object. Typically, applications do not create any of these objects directly, so it is not usually necessary to use this interface in an application.
+Any component that creates one of these objects is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-shutdown">Shutdown</a> on the object before releasing the object. Typically, applications do not create any of these objects directly, so it is not usually necessary to use this interface in an application.
       
 
 To obtain a pointer to this interface, call <b>QueryInterface</b> on the object.
       
 
-If you are implementing a custom object, your object can expose this interface, but only if you can guarantee that your application will call <a href="https://msdn.microsoft.com/9e7824d2-0f76-4c4c-98c5-ba51cd297de7">Shutdown</a>. 
+If you are implementing a custom object, your object can expose this interface, but only if you can guarantee that your application will call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-shutdown">Shutdown</a>. 
 
-Media sources, media sinks, and <i>synchronous</i> MFTs should not implement this interface, because the Media Foundation pipeline will not call <a href="https://msdn.microsoft.com/9e7824d2-0f76-4c4c-98c5-ba51cd297de7">Shutdown</a> on these objects.
+Media sources, media sinks, and <i>synchronous</i> MFTs should not implement this interface, because the Media Foundation pipeline will not call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-shutdown">Shutdown</a> on these objects.
       Asynchronous MFTs must implement this interface.
 
-This interface is not related to the <a href="https://msdn.microsoft.com/10be2361-b5b4-4c10-92a1-527ca22c74e4">MFShutdown</a> function, which shuts down the Media Foundation platform, as described in <a href="https://msdn.microsoft.com/e4db81d3-7a9e-47d7-8611-6dac8026259c">Initializing Media Foundation</a>.
+This interface is not related to the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfshutdown">MFShutdown</a> function, which shuts down the Media Foundation platform, as described in <a href="https://docs.microsoft.com/windows/desktop/medfound/initializing-media-foundation">Initializing Media Foundation</a>.
       
 
-Some Media Foundation interfaces define a <b>Shutdown</b> method, which serves the same purpose as <a href="https://msdn.microsoft.com/9e7824d2-0f76-4c4c-98c5-ba51cd297de7">IMFShutdown::Shutdown</a> but is not directly related to it.
+Some Media Foundation interfaces define a <b>Shutdown</b> method, which serves the same purpose as <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-shutdown">IMFShutdown::Shutdown</a> but is not directly related to it.
       
 
 
@@ -134,11 +134,11 @@ Some Media Foundation interfaces define a <b>Shutdown</b> method, which serves t
 
 
 
-<a href="https://msdn.microsoft.com/a7dc3d4a-f21e-4af8-bee0-2d5f2cf28587">MFShutdownObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfshutdownobject">MFShutdownObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

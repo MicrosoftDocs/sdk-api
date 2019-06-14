@@ -68,7 +68,7 @@ A handle to the parent <b>HWND</b> that a registered application should use to d
 
 Type: <b>REFGUID</b>
 
-An error identifier that is associated with this error message. This value is passed in the <a href="https://msdn.microsoft.com/7c25ef21-9815-41ad-bcc0-b41a62dc0fe5">LogError</a> method.
+An error identifier that is associated with this error message. This value is passed in the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-logerror">LogError</a> method.
 
 
 ## -returns
@@ -105,13 +105,13 @@ The call is completed successfully.
 
 
 
-Handlers should return as soon as possible from this method, and call the <a href="https://msdn.microsoft.com/7441f8d3-1b9b-400f-a2c4-ec67f7677a32">ShowErrorCompleted</a> method. A handler can make a call to 
+Handlers should return as soon as possible from this method, and call the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-showerrorcompleted">ShowErrorCompleted</a> method. A handler can make a call to 
 <b>ShowErrorCompleted</b> before returning from this method. If a handler returns a failure code from this method, it should not call the 
 <b>ShowErrorCompleted</b> method.
 
 Applications can display user interface elements in this method even if the 
-<a href="https://msdn.microsoft.com/b1a60a6b-b4f8-4c89-853b-5a5584c415e9">SYNCMGRFLAG_MAYBOTHERUSER</a> flag is not set in the <i>dwSyncFlags</i> parameter of the 
-<a href="https://msdn.microsoft.com/4357d66e-b1f5-4a3c-b1a9-3a40aa6d8e10">ISyncMgrSynchronize::Initialize</a> method. Applications must still call <a href="https://msdn.microsoft.com/00102220-3734-40f2-ae6c-2807e44e17a1">EnableModeless</a>, and check the return code before showing a user interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-_tagsyncmgrflag">SYNCMGRFLAG_MAYBOTHERUSER</a> flag is not set in the <i>dwSyncFlags</i> parameter of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-initialize">ISyncMgrSynchronize::Initialize</a> method. Applications must still call <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-enablemodeless">EnableModeless</a>, and check the return code before showing a user interface.
 
 
 
@@ -121,27 +121,27 @@ Applications can display user interface elements in this method even if the
 
 
 
-<a href="https://msdn.microsoft.com/00102220-3734-40f2-ae6c-2807e44e17a1">EnableModeless</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-enablemodeless">EnableModeless</a>
 
 
 
-<a href="https://msdn.microsoft.com/bb821672-10b1-4fe6-a752-6cd1ccd1e49e">ISyncMgrSynchronize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronize">ISyncMgrSynchronize</a>
 
 
 
-<a href="https://msdn.microsoft.com/4357d66e-b1f5-4a3c-b1a9-3a40aa6d8e10">ISyncMgrSynchronize::Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-initialize">ISyncMgrSynchronize::Initialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c25ef21-9815-41ad-bcc0-b41a62dc0fe5">LogError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-logerror">LogError</a>
 
 
 
-<a href="https://msdn.microsoft.com/b1a60a6b-b4f8-4c89-853b-5a5584c415e9">SYNCMGRFLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-_tagsyncmgrflag">SYNCMGRFLAG</a>
 
 
 
-<a href="https://msdn.microsoft.com/7441f8d3-1b9b-400f-a2c4-ec67f7677a32">ShowErrorCompleted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-showerrorcompleted">ShowErrorCompleted</a>
  
 
  

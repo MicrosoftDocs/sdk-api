@@ -73,7 +73,7 @@ The number of elements in the <i>glyphIndices</i> array.
 
 ### -param glyphMetrics [out]
 
-Type: <b><a href="https://msdn.microsoft.com/d2a4ac9f-f510-4235-93bb-e7bdecc65873">DWRITE_GLYPH_METRICS</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_glyph_metrics">DWRITE_GLYPH_METRICS</a>*</b>
 
 When this method returns, contains an array of DWRITE_GLYPH_METRICS structures.  <i>glyphMetrics</i> must be initialized with an empty buffer that contains at least as many elements as <i>glyphCount</i>.
      The metrics returned by this function are in font design units.
@@ -112,7 +112,7 @@ Design glyph metrics are used for glyph positioning.
 
 
 
-<a href="https://msdn.microsoft.com/1b6bb9e2-cf01-413c-9ee8-42bb0f703ce8">IDWriteFontFace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontface">IDWriteFontFace</a>
  
 
  

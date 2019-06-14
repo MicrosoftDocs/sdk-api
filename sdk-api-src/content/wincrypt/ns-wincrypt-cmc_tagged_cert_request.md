@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>CMC_TAGGED_CERT_REQUEST</b> structure is used in the 
-<a href="https://msdn.microsoft.com/425a3f14-8bc9-471d-b11c-1608db473cce">CMC_TAGGED_REQUEST</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmc_tagged_request">CMC_TAGGED_REQUEST</a> structure.
 
 
 ## -struct-fields
@@ -60,10 +60,10 @@ The <b>CMC_TAGGED_CERT_REQUEST</b> structure is used in the
 
 ### -field dwBodyPartID
 
-<b>DWORD</b> identifying the tagged <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate request</a>.
+<b>DWORD</b> identifying the tagged <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>.
 
 
 ### -field SignedCertRequest
 
-A <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_DER_BLOB</a> structure that contains a signed request for a certificate.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DER_BLOB</a> structure that contains a signed request for a certificate.
 

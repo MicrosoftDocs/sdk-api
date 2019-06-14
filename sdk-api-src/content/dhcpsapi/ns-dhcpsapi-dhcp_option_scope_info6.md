@@ -60,7 +60,7 @@ The DHCP_OPTION_SCOPE_INFO6 structure defines the data associated with a DHCP op
 ### -field ScopeType
 
 
-<a href="https://msdn.microsoft.com/dc6811ca-571e-4d63-ac30-8a9038cb28af">DHCP_OPTION_SCOPE_TYPE6</a> enumeration value that indicates the type of the DHCP option. This value is used as the selector for the union arms listed in the following fields.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-_dhcp_option_scope_type6">DHCP_OPTION_SCOPE_TYPE6</a> enumeration value that indicates the type of the DHCP option. This value is used as the selector for the union arms listed in the following fields.
 
 
 ### -field ScopeInfo.SubnetScopeInfo.case
@@ -133,7 +133,7 @@ DHCP_RESERVED_SCOPE6 structure that contains the reserved DHCP scope information
 
 
 
-<a href="https://msdn.microsoft.com/dc6811ca-571e-4d63-ac30-8a9038cb28af">DHCP_OPTION_SCOPE_TYPE6</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-_dhcp_option_scope_type6">DHCP_OPTION_SCOPE_TYPE6</a>
  
 
  

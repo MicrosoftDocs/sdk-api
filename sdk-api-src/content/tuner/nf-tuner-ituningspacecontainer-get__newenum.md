@@ -78,7 +78,7 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-This method is provided to enable scripting and Visual Basic  applications to iterate through the collection in a <code>For...Each</code> loop. C++ applications should use the <a href="https://msdn.microsoft.com/7cd6a691-8c47-4c26-8afd-57f6965246ff">ITuningSpaceContainer::get_EnumTuningSpaces</a> method.
+This method is provided to enable scripting and Visual Basic  applications to iterate through the collection in a <code>For...Each</code> loop. C++ applications should use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-get_enumtuningspaces">ITuningSpaceContainer::get_EnumTuningSpaces</a> method.
 
 The returned <b>IEnumVARIANT</b> interface is not thread safe, because it is intended primarily for use by Automation clients. Clients should not call methods on the interface from more than one thread.
 
@@ -90,7 +90,7 @@ The returned <b>IEnumVARIANT</b> interface is not thread safe, because it is int
 
 
 
-<a href="https://msdn.microsoft.com/8f053c53-2a2b-4d98-a510-c516faa21611">ITuningSpaceContainer Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspacecontainer">ITuningSpaceContainer Interface</a>
  
 
  

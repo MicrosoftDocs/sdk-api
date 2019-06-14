@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 An application-defined function previously registered with the 
-    <a href="https://msdn.microsoft.com/6c89d6f3-182e-4b10-931c-8d55d603c9dc">AddSecureMemoryCacheCallback</a> function 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-addsecurememorycachecallback">AddSecureMemoryCacheCallback</a> function 
     that is called when a secured memory range is freed or its protections are changed.
 
 The <b>PSECURE_MEMORY_CACHE_CALLBACK</b> type defines a pointer to this callback 
@@ -105,20 +105,20 @@ The application secures and unsecures a memory range by sending requests to a de
     trigger this callback.
 
 Examples of function calls that trigger the callback function include calls to the 
-    <a href="https://msdn.microsoft.com/d6f27be8-8929-4a4d-b52c-fa99044ca243">VirtualFree</a>, 
-    <a href="https://msdn.microsoft.com/2e5c862c-1251-49da-9c3a-90b09e488d89">VirtualFreeEx</a>, 
-    <a href="https://msdn.microsoft.com/a0018bba-226b-4c18-8ea4-15e69524db11">VirtualProtect</a>, 
-    <a href="https://msdn.microsoft.com/6afd7ae6-e4c5-483c-a638-c85781674c7b">VirtualProtectEx</a>, and 
-    <a href="https://msdn.microsoft.com/2e9c3174-af48-4fa3-9f6a-fb62b23ed994">UnmapViewOfFile</a> functions.
+    <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfree">VirtualFree</a>, 
+    <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfreeex">VirtualFreeEx</a>, 
+    <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualprotect">VirtualProtect</a>, 
+    <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualprotectex">VirtualProtectEx</a>, and 
+    <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffile">UnmapViewOfFile</a> functions.
 
 The callback function can also be triggered by a heap operation. In this case, the function must not perform 
     any further operations on the heap that triggered the callback. This includes calling 
-    <a href="https://msdn.microsoft.com/cfb683fa-4f46-48b5-9a28-f4625a9cb8cd">heap functions</a> on a private heap or the process's default 
+    <a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">heap functions</a> on a private heap or the process's default 
     heap, or calling standard library functions such as <b>malloc</b> and 
     <b>free</b>, which implicitly use the process's default heap.
 
 To unregister the callback function, use the 
-    <a href="https://msdn.microsoft.com/8be6ff04-34c7-4942-a38c-507584c8bbeb">RemoveSecureMemoryCacheCallback</a> 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-removesecurememorycachecallback">RemoveSecureMemoryCacheCallback</a> 
     function.
 
 
@@ -129,11 +129,11 @@ To unregister the callback function, use the
 
 
 
-<a href="https://msdn.microsoft.com/6c89d6f3-182e-4b10-931c-8d55d603c9dc">AddSecureMemoryCacheCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-addsecurememorycachecallback">AddSecureMemoryCacheCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/8be6ff04-34c7-4942-a38c-507584c8bbeb">RemoveSecureMemoryCacheCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-removesecurememorycachecallback">RemoveSecureMemoryCacheCallback</a>
  
 
  

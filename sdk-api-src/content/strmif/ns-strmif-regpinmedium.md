@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <code>REGPINMEDIUM</code> structure describes a pin medium for registration through the <a href="https://msdn.microsoft.com/6a3db838-cee3-4a9f-a924-fb55931acc83">IFilterMapper2</a> interface.
+The <code>REGPINMEDIUM</code> structure describes a pin medium for registration through the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltermapper2">IFilterMapper2</a> interface.
 
 
 
@@ -81,7 +81,7 @@ Not used.
 
 A <i>medium</i> identifies a hardware path of communication that exists within a single hardware device or between two devices. Register mediums if your filter is built on kernel streaming pins and needs to connect to other such filters.
 
-This structure is equivalent to the <a href="https://msdn.microsoft.com/25349836-0948-42ba-9388-82c0ad6d28da">KSPIN_MEDIUM</a> structure, which is used by kernel streaming drivers.
+This structure is equivalent to the <a href="https://docs.microsoft.com/previous-versions//ff563538(v=vs.85)">KSPIN_MEDIUM</a> structure, which is used by kernel streaming drivers.
 
 
 
@@ -91,11 +91,11 @@ This structure is equivalent to the <a href="https://msdn.microsoft.com/25349836
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/aedbf7bc-393d-4ab5-afcd-d8822b925f07">KSMULTIPLE_ITEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/ksmultiple-item">KSMULTIPLE_ITEM</a>
  
 
  

@@ -96,15 +96,15 @@ The current clipping region of a device context is defined by the intersection o
 
 
 
-<a href="https://msdn.microsoft.com/de9e5786-63d8-47be-8522-e96d7c0f8634">Clipping Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/clipping-functions">Clipping Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e966369-9988-4bfa-af37-b1bbb3488880">Clipping Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/clipping">Clipping Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/79f5dc01-bdec-4844-be94-1f9cf5bfd712">SetMetaRgn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setmetargn">SetMetaRgn</a>
  
 
  

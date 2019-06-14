@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an instance of the <a href="https://msdn.microsoft.com/7CED3EF6-E844-4B3A-8181-CA44FC4675EC">IMFSensorGroup</a> interface based on the provided symbolic link name.
+Creates an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a> interface based on the provided symbolic link name.
 
 
 ## -parameters
@@ -59,12 +59,12 @@ Creates an instance of the <a href="https://msdn.microsoft.com/7CED3EF6-E844-4B3
 
 ### -param SensorGroupSymbolicLink
 
-The symbolic link for the new <a href="https://msdn.microsoft.com/7CED3EF6-E844-4B3A-8181-CA44FC4675EC">IMFSensorGroup</a>. This name can be obtained through device enumeration APIs such as <a href="https://msdn.microsoft.com/31bb0fc8-0fb8-4122-b9e8-5ff8fbbd903b">SetupDiGetClassDevs</a> or <a href="https://msdn.microsoft.com/da4d96ce-e22b-4e1c-aa2e-df46416a5f0b">MFEnumDeviceSources</a> or by getting the  <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Devices.Enumeration.DeviceInformation">Id</a> property of the <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Devices.Enumeration.DeviceInformation">DeviceInformation</a> class.
+The symbolic link for the new <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a>. This name can be obtained through device enumeration APIs such as <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdevsw">SetupDiGetClassDevs</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfenumdevicesources">MFEnumDeviceSources</a> or by getting the  <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Devices.Enumeration.DeviceInformation">Id</a> property of the <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Devices.Enumeration.DeviceInformation">DeviceInformation</a> class.
 
 
 ### -param ppSensorGroup [out]
 
-The symbolic link for the new <a href="https://msdn.microsoft.com/7CED3EF6-E844-4B3A-8181-CA44FC4675EC">IMFSensorGroup</a>.
+The symbolic link for the new <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a>.
 
 
 ## -returns
@@ -96,7 +96,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The supplied <a href="https://msdn.microsoft.com/7CED3EF6-E844-4B3A-8181-CA44FC4675EC">IMFSensorGroup</a> is null.
+The supplied <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a> is null.
 
 </td>
 </tr>
@@ -121,9 +121,9 @@ The supplied <b>LPCWSTR</b> is null.
 
 
 
-If the function succeeds, <i>ppSensorGroup</i> will point to a valid <a href="https://msdn.microsoft.com/7CED3EF6-E844-4B3A-8181-CA44FC4675EC">IMFSensorGroup</a> object.  The caller must release this interface.
+If the function succeeds, <i>ppSensorGroup</i> will point to a valid <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a> object.  The caller must release this interface.
 
-<div class="alert"><b>Note</b>  When this API is used with a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548567(v=vs.85).aspx">KSCATEGORY_SENSOR_CAMERA</a> or <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548567(v=vs.85).aspx">KSCATEGORY_VIDEO_CAMERA</a> symbolic name, the resulting <a href="https://msdn.microsoft.com/7CED3EF6-E844-4B3A-8181-CA44FC4675EC">IMFSensorGroup</a> object will only contain one sensor device but behaves as a virtualized sensor group.  The caller  may use the resulting object in the same manner as a sensor group obtained from a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548567(v=vs.85).aspx">KSCATEGORY_SENSOR_GROUP</a>.</div>
+<div class="alert"><b>Note</b>  When this API is used with a <a href="https://docs.microsoft.com/previous-versions//ff548567(v=vs.85)">KSCATEGORY_SENSOR_CAMERA</a> or <a href="https://docs.microsoft.com/previous-versions//ff548567(v=vs.85)">KSCATEGORY_VIDEO_CAMERA</a> symbolic name, the resulting <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a> object will only contain one sensor device but behaves as a virtualized sensor group.  The caller  may use the resulting object in the same manner as a sensor group obtained from a <a href="https://docs.microsoft.com/previous-versions//ff548567(v=vs.85)">KSCATEGORY_SENSOR_GROUP</a>.</div>
 <div> </div>
 
 

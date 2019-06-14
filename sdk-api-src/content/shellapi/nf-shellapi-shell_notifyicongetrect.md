@@ -59,9 +59,9 @@ Gets the screen coordinates of the bounding rectangle of a notification icon.
 
 ### -param identifier [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/2fe4ffba-6fe5-4d34-9cb1-f266e4594b8e">NOTIFYICONIDENTIFIER</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_notifyiconidentifier">NOTIFYICONIDENTIFIER</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/2fe4ffba-6fe5-4d34-9cb1-f266e4594b8e">NOTIFYICONIDENTIFIER</a> structure that identifies the icon.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_notifyiconidentifier">NOTIFYICONIDENTIFIER</a> structure that identifies the icon.
 
 
 ### -param iconLocation [out]
@@ -87,7 +87,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/D37E2BF7-1887-4780-81AD-85B2117321E4">Notifications and the Notification Area</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/notification-area">Notifications and the Notification Area</a>
  
 
  

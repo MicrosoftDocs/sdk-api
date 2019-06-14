@@ -56,7 +56,7 @@ ms.custom: 19H1
 
 
 
-The <b>GetAttributeCount</b> method returns the number of attributes defined in the header section of the ASF file. This method is replaced by <a href="https://msdn.microsoft.com/en-us/library/Dd798513(v=VS.85).aspx">IWMHeaderInfo3::GetAttributeCountEx</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd798514(v=VS.85).aspx">IWMHeaderInfo3::GetAttributeIndices</a>, and should no longer be used.
+The <b>GetAttributeCount</b> method returns the number of attributes defined in the header section of the ASF file. This method is replaced by <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-getattributecountex">IWMHeaderInfo3::GetAttributeCountEx</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-getattributeindices">IWMHeaderInfo3::GetAttributeIndices</a>, and should no longer be used.
 
 
 
@@ -162,23 +162,23 @@ Attributes in MP3 files cannot be specific to a particular stream. For MP3 files
 
 
 
-<a href="https://msdn.microsoft.com/1e9392b4-4fff-41ad-9d80-23c1c7f9e9a4">Attributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/attributes">Attributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798504(v=VS.85).aspx">IWMHeaderInfo Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo">IWMHeaderInfo Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798505(v=VS.85).aspx">IWMHeaderInfo2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2">IWMHeaderInfo2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798508(v=VS.85).aspx">IWMHeaderInfo3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3">IWMHeaderInfo3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798527(v=VS.85).aspx">IWMHeaderInfo::SetAttribute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-setattribute">IWMHeaderInfo::SetAttribute</a>
  
 
  

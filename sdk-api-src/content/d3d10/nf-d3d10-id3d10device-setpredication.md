@@ -60,14 +60,14 @@ Set a rendering predicate.
 
 ### -param pPredicate [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173822(v=VS.85).aspx">ID3D10Predicate</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10predicate">ID3D10Predicate</a>*</b>
 
-Pointer to a predicate (see <a href="https://msdn.microsoft.com/en-us/library/Bb173822(v=VS.85).aspx">ID3D10Predicate</a>). A <b>NULL</b> value indicates "no" predication; in this case, the value of PredicateValue is irrelevent but will be preserved for <a href="https://msdn.microsoft.com/en-us/library/Bb173573(v=VS.85).aspx">ID3D10Device::GetPredication</a>.
+Pointer to a predicate (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10predicate">ID3D10Predicate</a>). A <b>NULL</b> value indicates "no" predication; in this case, the value of PredicateValue is irrelevent but will be preserved for <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-getpredication">ID3D10Device::GetPredication</a>.
 
 
 ### -param PredicateValue [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 If <b>TRUE</b>, rendering will be affected by when the predicate's conditions are met. If <b>FALSE</b>, rendering will be affected when the conditions are not met.
 
@@ -85,11 +85,11 @@ Returns nothing.
 
 
 
-The predicate must be in the "issued" or "signaled" state to be used for predication. While the predicate is set for predication, calls to <a href="https://msdn.microsoft.com/en-us/library/Bb173501(v=VS.85).aspx">ID3D10Asynchronous::Begin</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb173502(v=VS.85).aspx">ID3D10Asynchronous::End</a> are invalid.
+The predicate must be in the "issued" or "signaled" state to be used for predication. While the predicate is set for predication, calls to <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-begin">ID3D10Asynchronous::Begin</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-end">ID3D10Asynchronous::End</a> are invalid.
 
 This method is used to denote that subsequent rendering and resource manipulation commands are not actually performed if the resulting Predicate data of the Predicate is equal to the PredicateValue. However, some Predicates are only hints, so they may not actually prevent operations from being performed. 
 
-The primary usefulness of Predication is to allow an application to issue graphics commands without taking the performance hit of spinning, waiting for <a href="https://msdn.microsoft.com/en-us/library/Bb173503(v=VS.85).aspx">ID3D10Asynchronous::GetData</a> to return. So, Predication can occur while <b>ID3D10Asynchronous::GetData</b> returns S_FALSE. Another way to think of it: an application can also use Predication as a fallback, if it is possible that <b>ID3D10Asynchronous::GetData</b> returns S_FALSE. If <b>ID3D10Asynchronous::GetData</b> returns S_OK, the application can skip calling the graphics commands manually with it's own application logic.
+The primary usefulness of Predication is to allow an application to issue graphics commands without taking the performance hit of spinning, waiting for <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-getdata">ID3D10Asynchronous::GetData</a> to return. So, Predication can occur while <b>ID3D10Asynchronous::GetData</b> returns S_FALSE. Another way to think of it: an application can also use Predication as a fallback, if it is possible that <b>ID3D10Asynchronous::GetData</b> returns S_FALSE. If <b>ID3D10Asynchronous::GetData</b> returns S_OK, the application can skip calling the graphics commands manually with it's own application logic.
 
 
 
@@ -99,7 +99,7 @@ The primary usefulness of Predication is to allow an application to issue graphi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
  
 
  

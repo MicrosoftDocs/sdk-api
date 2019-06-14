@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the item in a header control that has the focus. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775330(v=VS.85).aspx">HDM_GETFOCUSEDITEM</a> message explicitly.
+Gets the item in a header control that has the focus. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-getfocuseditem">HDM_GETFOCUSEDITEM</a> message explicitly.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets the item in a header control that has the focus. Use this macro or send the
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the header control.
 
@@ -69,7 +69,7 @@ A handle to the header control.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775238(v=VS.85).aspx">About Header Controls</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/header-controls">About Header Controls</a>
  
 
  

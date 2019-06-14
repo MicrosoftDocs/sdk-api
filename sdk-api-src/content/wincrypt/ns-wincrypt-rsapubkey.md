@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>RSAPUBKEY</b> structure contains information specific to the particular public key contained in the <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33">key BLOB</a>.
+The <b>RSAPUBKEY</b> structure contains information specific to the particular public key contained in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key BLOB</a>.
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ Set to RSA1 (0x31415352) for public keys and to RSA2 (0x32415352) for private ke
 
 
 
-<div class="alert"><b>Note</b>  The hexadecimal values are the <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">ASCII</a> encoding of RSA1 and RSA2.</div>
+<div class="alert"><b>Note</b>  The hexadecimal values are the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">ASCII</a> encoding of RSA1 and RSA2.</div>
 <div> </div>
 
 ### -field bitlen
@@ -82,15 +82,15 @@ The public exponent.
 
 
 
-<a href="https://msdn.microsoft.com/f0ebab5b-fe86-4604-a7a1-42c6176ac5f3">DSSPUBKEY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381982(v=vs.85)">DSSPUBKEY</a>
 
 
 
-<a href="https://msdn.microsoft.com/fbf2b5e4-b572-4b2c-907d-281570a0f26b">DSSSEED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_dssseed">DSSSEED</a>
 
 
 
-<a href="https://msdn.microsoft.com/99d41222-b4ca-40f3-a240-52b0a9b3a9aa">PUBLICKEYSTRUC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_publickeystruc">PUBLICKEYSTRUC</a>
  
 
  

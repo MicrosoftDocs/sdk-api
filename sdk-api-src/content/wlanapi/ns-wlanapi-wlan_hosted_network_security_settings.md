@@ -81,15 +81,15 @@ The <b>WLAN_HOSTED_NETWORK_SECURITY_SETTINGS</b>  structure is an extension to n
 
 
 
-<a href="https://msdn.microsoft.com/ac4097df-46dc-4c64-b72a-7cb9dce8b418">DOT11_AUTH_ALGORITHM</a>
+<a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-auth-algorithm">DOT11_AUTH_ALGORITHM</a>
 
 
 
-<a href="https://msdn.microsoft.com/6b634d76-a159-438e-8fc6-5f05b326ed68">DOT11_CIPHER_ALGORITHM</a>
+<a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-cipher-algorithm">DOT11_CIPHER_ALGORITHM</a>
 
 
 
-<a href="https://msdn.microsoft.com/bab05629-c921-4639-94db-25f77742dbd3">WlanHostedNetworkQueryProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanhostednetworkqueryproperty">WlanHostedNetworkQueryProperty</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>HashAlgorithm</b> property gets or sets the name of the <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hashing algorithm</a> used to  sign or verify the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) certificate for the key.
+The <b>HashAlgorithm</b> property gets or sets the name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hashing algorithm</a> used to  sign or verify the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) certificate for the key.
 
 This property is read/write.
 
@@ -63,12 +63,12 @@ This property is read/write.
 
 
 
-The hashing algorithm must be supported by the <a href="https://msdn.microsoft.com/a8f50b34-0403-40c0-9ecb-f663ccbd622a">ProviderName</a> provider. For <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service providers</a> (CSPs), get supported algorithms by calling the <a href="https://msdn.microsoft.com/c0b7c1c8-aa42-4d40-a7f7-99c0821c8977">CryptGetProvParam</a> function for the given provider. For <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33">key storage providers</a> (KSPs), get supported algorithms by calling the <a href="https://msdn.microsoft.com/7fa227c0-2b80-49ab-8a19-72f8444d5507">BCryptEnumAlgorithms</a> function with the <i>dwAlgOperations</i> parameter set to <b>BCRYPT_HASH_OPERATION</b>. For information about algorithm identifiers, see <a href="https://msdn.microsoft.com/a05ae7e6-d882-4287-9990-23e4cd340b05">CNG Algorithm Identifiers</a>.
+The hashing algorithm must be supported by the <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetupkeyinformation-get_providername">ProviderName</a> provider. For <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service providers</a> (CSPs), get supported algorithms by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetprovparam">CryptGetProvParam</a> function for the given provider. For <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key storage providers</a> (KSPs), get supported algorithms by calling the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptenumalgorithms">BCryptEnumAlgorithms</a> function with the <i>dwAlgOperations</i> parameter set to <b>BCRYPT_HASH_OPERATION</b>. For information about algorithm identifiers, see <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a>.
 
 
 #### Examples
 
-For an example of enumerating supported algorithms by using <a href="https://msdn.microsoft.com/c0b7c1c8-aa42-4d40-a7f7-99c0821c8977">CryptGetProvParam</a>, see <a href="https://msdn.microsoft.com/10a5210d-7992-4832-9435-67ac2b851a97">Example C Program: Enumerating CSP Providers and Provider Types</a>.
+For an example of enumerating supported algorithms by using <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetprovparam">CryptGetProvParam</a>, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-enumerating-csp-providers-and-provider-types">Example C Program: Enumerating CSP Providers and Provider Types</a>.
 
 <div class="code"></div>
 
@@ -79,7 +79,7 @@ For an example of enumerating supported algorithms by using <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/d27c9ba5-ddee-4c9c-b812-e61b974b515a">ICertSrvSetupKeyInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a>
  
 
  

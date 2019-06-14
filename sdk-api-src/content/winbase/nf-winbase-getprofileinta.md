@@ -130,11 +130,11 @@ When looking at values in the registry that specify other registry locations, th
 
 
 
-<a href="https://msdn.microsoft.com/dcb48ec3-7172-4bcc-a833-23e34a73d70b">GetPrivateProfileInt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprivateprofileint">GetPrivateProfileInt</a>
 
 
 
-<a href="https://msdn.microsoft.com/d3fb74bb-7ce9-4669-8f00-02ac8a95ddd5">WriteProfileString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeprofilestringa">WriteProfileString</a>
  
 
  

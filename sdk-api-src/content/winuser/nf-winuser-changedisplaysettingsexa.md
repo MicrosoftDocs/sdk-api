@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 
 The <b>ChangeDisplaySettingsEx</b> function changes the settings of the specified display device to the specified graphics mode.
-<div class="alert"><b>Note</b>  Apps that you design to target Windows 8 and later can no longer query or set display modes that are less than 32 bits per pixel (bpp); these operations will fail. These apps have a <a href="https://msdn.microsoft.com/f022374d-ea3f-477f-9b59-3188b775ed64">compatibility manifest</a> that targets Windows 8. Windows 8 still supports 8-bit and 16-bit color modes for desktop apps that were built without a Windows 8 manifest; Windows 8 emulates these modes but still runs in 32-bit color mode.</div><div> </div>
+<div class="alert"><b>Note</b>  Apps that you design to target Windows 8 and later can no longer query or set display modes that are less than 32 bits per pixel (bpp); these operations will fail. These apps have a <a href="https://docs.microsoft.com/windows/desktop/Win7AppQual/compatibility---application-manifest">compatibility manifest</a> that targets Windows 8. Windows 8 still supports 8-bit and 16-bit color modes for desktop apps that were built without a Windows 8 manifest; Windows 8 emulates these modes but still runs in 32-bit color mode.</div><div> </div>
 
 ## -parameters
 
@@ -64,16 +64,16 @@ The <b>ChangeDisplaySettingsEx</b> function changes the settings of the specifie
 
 ### -param lpszDeviceName [in]
 
-A pointer to a null-terminated string that specifies the display device whose graphics mode will change. Only display device names as returned by <a href="https://msdn.microsoft.com/df3b493c-23d2-4996-9b79-86009efe3078">EnumDisplayDevices</a> are valid. See <b>EnumDisplayDevices</b> for further information on the names associated with these display devices.
+A pointer to a null-terminated string that specifies the display device whose graphics mode will change. Only display device names as returned by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaydevicesa">EnumDisplayDevices</a> are valid. See <b>EnumDisplayDevices</b> for further information on the names associated with these display devices.
 
-The <i>lpszDeviceName</i> parameter can be <b>NULL</b>. A <b>NULL</b> value specifies the default display device. The default device can be determined by calling <a href="https://msdn.microsoft.com/df3b493c-23d2-4996-9b79-86009efe3078">EnumDisplayDevices</a> and checking for the DISPLAY_DEVICE_PRIMARY_DEVICE flag.
+The <i>lpszDeviceName</i> parameter can be <b>NULL</b>. A <b>NULL</b> value specifies the default display device. The default device can be determined by calling <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaydevicesa">EnumDisplayDevices</a> and checking for the DISPLAY_DEVICE_PRIMARY_DEVICE flag.
 
 
 ### -param lpDevMode [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structure that describes the new graphics mode. If <i>lpDevMode</i> is <b>NULL</b>, all the values currently in the registry will be used for the display setting. Passing <b>NULL</b> for the <i>lpDevMode</i> parameter and 0 for the <i>dwFlags</i> parameter is the easiest way to return to the default mode after a dynamic mode change.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> structure that describes the new graphics mode. If <i>lpDevMode</i> is <b>NULL</b>, all the values currently in the registry will be used for the display setting. Passing <b>NULL</b> for the <i>lpDevMode</i> parameter and 0 for the <i>dwFlags</i> parameter is the easiest way to return to the default mode after a dynamic mode change.
 
-The <b>dmSize</b> member must be initialized to the size, in bytes, of the <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structure. The <b>dmDriverExtra</b> member must be initialized to indicate the number of bytes of private driver data following the <b>DEVMODE</b> structure. In addition, you can use any of the following members of the <b>DEVMODE</b> structure.
+The <b>dmSize</b> member must be initialized to the size, in bytes, of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> structure. The <b>dmDriverExtra</b> member must be initialized to indicate the number of bytes of private driver data following the <b>DEVMODE</b> structure. In addition, you can use any of the following members of the <b>DEVMODE</b> structure.
 
 <table>
 <tr>
@@ -107,7 +107,7 @@ The <b>dmSize</b> member must be initialized to the size, in bytes, of the <a hr
 </table>
  
 
-In addition to using one or more of the preceding <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> members, you must also set one or more of the following values in the <b>dmFields</b> member to change the display settings.
+In addition to using one or more of the preceding <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> members, you must also set one or more of the following values in the <b>dmFields</b> member to change the display settings.
 
 <table>
 <tr>
@@ -245,7 +245,7 @@ The graphics mode for the current screen will be changed dynamically and the gra
 </dl>
 </td>
 <td width="60%">
-When set, the <i>lParam</i> parameter is a pointer to a <a href="https://msdn.microsoft.com/ca5368ac-adf6-4f1d-abfd-4615dd0c6a68">VIDEOPARAMETERS</a> structure.
+When set, the <i>lParam</i> parameter is a pointer to a <a href="https://docs.microsoft.com/previous-versions//dd145196(v=vs.85)">VIDEOPARAMETERS</a> structure.
 
 </td>
 </tr>
@@ -281,7 +281,7 @@ If CDS_UPDATEREGISTRY is specified and the information could not be stored in th
 
 ### -param lParam [in]
 
-If <i>dwFlags</i> is <b>CDS_VIDEOPARAMETERS</b>, <i>lParam</i> is a pointer to a <a href="https://msdn.microsoft.com/ca5368ac-adf6-4f1d-abfd-4615dd0c6a68">VIDEOPARAMETERS</a> structure. Otherwise <i>lParam</i> must be <b>NULL</b>.
+If <i>dwFlags</i> is <b>CDS_VIDEOPARAMETERS</b>, <i>lParam</i> is a pointer to a <a href="https://docs.microsoft.com/previous-versions//dd145196(v=vs.85)">VIDEOPARAMETERS</a> structure. Otherwise <i>lParam</i> must be <b>NULL</b>.
 
 
 ## -returns
@@ -393,11 +393,11 @@ The computer must be restarted for the graphics mode to work.
 
 
 
-To ensure that the <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structure passed to <b>ChangeDisplaySettingsEx</b> is valid and contains only values supported by the display driver, use the <b>DEVMODE</b> returned by the <a href="https://msdn.microsoft.com/af73610b-bcd8-4660-800e-84fa0cc5b4eb">EnumDisplaySettings</a> function.
+To ensure that the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> structure passed to <b>ChangeDisplaySettingsEx</b> is valid and contains only values supported by the display driver, use the <b>DEVMODE</b> returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaysettingsa">EnumDisplaySettings</a> function.
 
-When adding a display monitor to a multiple-monitor system programmatically, set <b>DEVMODE.dmFields</b> to DM_POSITION and specify a position (in <b>DEVMODE.dmPosition</b>) for the monitor you are adding that is adjacent to at least one pixel of the display area of an existing monitor. To detach the monitor, set <b>DEVMODE.dmFields</b> to DM_POSITION but set <b>DEVMODE.dmPelsWidth</b> and <b>DEVMODE.dmPelsHeight</b> to zero. For more information, see <a href="https://msdn.microsoft.com/901c8fbe-a29c-4382-80d4-5e3667a031da">Multiple Display Monitors</a>.
+When adding a display monitor to a multiple-monitor system programmatically, set <b>DEVMODE.dmFields</b> to DM_POSITION and specify a position (in <b>DEVMODE.dmPosition</b>) for the monitor you are adding that is adjacent to at least one pixel of the display area of an existing monitor. To detach the monitor, set <b>DEVMODE.dmFields</b> to DM_POSITION but set <b>DEVMODE.dmPelsWidth</b> and <b>DEVMODE.dmPelsHeight</b> to zero. For more information, see <a href="https://docs.microsoft.com/windows/desktop/gdi/multiple-display-monitors">Multiple Display Monitors</a>.
 
-When the display mode is changed dynamically, the <a href="https://msdn.microsoft.com/5a6111fd-648e-41a9-aaf8-e5d93f5d54cd">WM_DISPLAYCHANGE</a> message is sent to all running applications with the following message parameters.
+When the display mode is changed dynamically, the <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-displaychange">WM_DISPLAYCHANGE</a> message is sent to all running applications with the following message parameters.
 
 <table>
 <tr>
@@ -442,35 +442,35 @@ This API does not participate in DPI virtualization. The input given is always i
 
 
 
-<a href="https://msdn.microsoft.com/6fc443c8-da97-4196-a9ed-179a4e583849">CreateDC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca">CreateDC</a>
 
 
 
-<a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ff68d16-0f27-4cc8-932a-b2063cfed135">Device Context Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/1fa97368-8931-4687-b37f-ed4db949a150">Device Contexts Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/df3b493c-23d2-4996-9b79-86009efe3078">EnumDisplayDevices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaydevicesa">EnumDisplayDevices</a>
 
 
 
-<a href="https://msdn.microsoft.com/af73610b-bcd8-4660-800e-84fa0cc5b4eb">EnumDisplaySettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaysettingsa">EnumDisplaySettings</a>
 
 
 
-<a href="https://msdn.microsoft.com/ca5368ac-adf6-4f1d-abfd-4615dd0c6a68">VIDEOPARAMETERS</a>
+<a href="https://docs.microsoft.com/previous-versions//dd145196(v=vs.85)">VIDEOPARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a6111fd-648e-41a9-aaf8-e5d93f5d54cd">WM_DISPLAYCHANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/wm-displaychange">WM_DISPLAYCHANGE</a>
  
 
  

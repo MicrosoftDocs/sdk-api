@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Registers the surrogate process through its <a href="https://msdn.microsoft.com/fbed0514-3646-4744-aa7a-4a98f1a12cc0">ISurrogate</a> interface pointer.
+Registers the surrogate process through its <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isurrogate">ISurrogate</a> interface pointer.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Registers the surrogate process through its <a href="https://msdn.microsoft.com/
 
 ### -param pSurrogate [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/fbed0514-3646-4744-aa7a-4a98f1a12cc0">ISurrogate</a> interface on the surrogate process to be registered.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isurrogate">ISurrogate</a> interface on the surrogate process to be registered.
 
 
 ## -returns
@@ -79,7 +79,7 @@ This function returns S_OK to indicate that the surrogate process was registered
 
 
 
-The <b>CoRegisterSurrogate</b> function sets a global interface pointer to the <a href="https://msdn.microsoft.com/fbed0514-3646-4744-aa7a-4a98f1a12cc0">ISurrogate</a> interface implemented on the surrogate process. This pointer is set in the ole32 DLL loaded in the surrogate process. COM uses this global pointer in ole32 to call the methods of <b>ISurrogate</b>. This function is usually called by the surrogate implementation when it is launched.
+The <b>CoRegisterSurrogate</b> function sets a global interface pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isurrogate">ISurrogate</a> interface implemented on the surrogate process. This pointer is set in the ole32 DLL loaded in the surrogate process. COM uses this global pointer in ole32 to call the methods of <b>ISurrogate</b>. This function is usually called by the surrogate implementation when it is launched.
 
 
 
@@ -93,11 +93,11 @@ As of Windows Server 2003, if a COM object application is registered as a servi
 
 
 
-<a href="https://msdn.microsoft.com/fbed0514-3646-4744-aa7a-4a98f1a12cc0">ISurrogate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isurrogate">ISurrogate</a>
 
 
 
-<a href="https://msdn.microsoft.com/510e38e5-1965-46f4-b09c-6fa585cff993">Writing a Custom Surrogate</a>
+<a href="https://docs.microsoft.com/windows/desktop/com/writing-a-custom-surrogate">Writing a Custom Surrogate</a>
  
 
  

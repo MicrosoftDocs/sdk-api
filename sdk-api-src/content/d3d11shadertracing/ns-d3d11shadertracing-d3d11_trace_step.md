@@ -71,12 +71,12 @@ A value that specifies whether the instruction is active. This value is TRUE if 
 
 ### -field NumRegistersWritten
 
-The number of registers for the instruction that are written to. The range of registers is [0...NumRegistersWritten-1]. You can pass a register number to the <i>writtenRegisterIndex</i> parameter of  <a href="https://msdn.microsoft.com/360BB797-D5A9-486A-94ED-AF1CD3A4E118">ID3D11ShaderTrace::GetWrittenRegister</a> to retrieve individual write-register information.
+The number of registers for the instruction that are written to. The range of registers is [0...NumRegistersWritten-1]. You can pass a register number to the <i>writtenRegisterIndex</i> parameter of  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shadertracing/nf-d3d11shadertracing-id3d11shadertrace-getwrittenregister">ID3D11ShaderTrace::GetWrittenRegister</a> to retrieve individual write-register information.
 
 
 ### -field NumRegistersRead
 
-The number of registers for the instruction that are read from. The range of registers is [0...NumRegistersRead-1]. You can pass a register number to the <i>readRegisterIndex</i> parameter of  <a href="https://msdn.microsoft.com/2BDA0C25-B5D7-4A8D-A762-2C3FDF113433">ID3D11ShaderTrace::GetReadRegister</a> to retrieve individual read-register information.
+The number of registers for the instruction that are read from. The range of registers is [0...NumRegistersRead-1]. You can pass a register number to the <i>readRegisterIndex</i> parameter of  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shadertracing/nf-d3d11shadertracing-id3d11shadertrace-getreadregister">ID3D11ShaderTrace::GetReadRegister</a> to retrieve individual read-register information.
 
 
 ### -field MiscOperations
@@ -102,19 +102,19 @@ A combination of the following values that are combined by using a bitwise <b>OR
 </tr>
 <tr>
 <td>D3D11_TRACE_MISC_GS_EMIT_STREAM (0x8)</td>
-<td>Same as D3D11_TRACE_MISC_GS_EMIT, except in <a href="https://msdn.microsoft.com/072c1ff2-ca1b-427c-9969-aa24ebb4ee38">shader model 5</a> where you can specify a particular stream to emit to.</td>
+<td>Same as D3D11_TRACE_MISC_GS_EMIT, except in <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/overviews-direct3d-11-hlsl">shader model 5</a> where you can specify a particular stream to emit to.</td>
 </tr>
 <tr>
 <td>D3D11_TRACE_MISC_GS_CUT_STREAM (0x10)</td>
-<td>Same as D3D11_TRACE_MISC_GS_CUT, except in <a href="https://msdn.microsoft.com/072c1ff2-ca1b-427c-9969-aa24ebb4ee38">shader model 5</a> where you can specify a particular stream to strip cut.</td>
+<td>Same as D3D11_TRACE_MISC_GS_CUT, except in <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/overviews-direct3d-11-hlsl">shader model 5</a> where you can specify a particular stream to strip cut.</td>
 </tr>
 <tr>
 <td>D3D11_TRACE_MISC_HALT (0x20)</td>
-<td>The operation was a shader halt instruction, which stops shader execution. The HLSL <a href="https://msdn.microsoft.com/b8ce153b-0d1c-4294-b88e-b7e50e708ab9">abort</a> intrinsic function causes a halt.</td>
+<td>The operation was a shader halt instruction, which stops shader execution. The HLSL <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/abort">abort</a> intrinsic function causes a halt.</td>
 </tr>
 <tr>
 <td>D3D11_TRACE_MISC_MESSAGE (0x40)</td>
-<td>The operation was a shader message output, which can be logged to the information queue. The HLSL <a href="https://msdn.microsoft.com/0c6c15fc-1da5-4a26-ade0-5a0489e4f564">printf</a> and <a href="https://msdn.microsoft.com/bf4dc6dc-b36e-4b71-ad61-b7a5ba332879">errorf</a> intrinsic functions cause messages.</td>
+<td>The operation was a shader message output, which can be logged to the information queue. The HLSL <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/printf">printf</a> and <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/errorf">errorf</a> intrinsic functions cause messages.</td>
 </tr>
 </table>
  
@@ -124,7 +124,7 @@ If the <b>NumRegistersWritten</b> member is 0, examine this member although this
 
 ### -field OpcodeType
 
-A number that specifies the type of instruction (for example, <a href="https://msdn.microsoft.com/en-us/library/Bb172243(v=VS.85).aspx">add</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb509628(v=VS.85).aspx">mul</a>, and so on). You can ignore this member if you do not know the number for the instruction type. This member offers a minor convenience at the cost of bloating the trace slightly.  You can use the <b>ID</b> member and map back to the original shader code to retrieve the full information about the instruction.
+A number that specifies the type of instruction (for example, <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/add---vs">add</a>, <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-mul">mul</a>, and so on). You can ignore this member if you do not know the number for the instruction type. This member offers a minor convenience at the cost of bloating the trace slightly.  You can use the <b>ID</b> member and map back to the original shader code to retrieve the full information about the instruction.
 
 
 ### -field CurrentGlobalCycle
@@ -150,7 +150,7 @@ This API requires the Windows Software Development Kit (SDK) for Windows 8.
 
 
 
-<a href="https://msdn.microsoft.com/3b8ece5c-5065-4711-b12c-06cf7ea0e1ba">Shader Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-shader-structures">Shader Structures</a>
  
 
  

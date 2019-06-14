@@ -97,11 +97,11 @@ Value: 0x80004003
 
 
 
-<a href="https://msdn.microsoft.com/44494e66-e6b4-4acb-a2a6-0a3e5cc4a2a0">IFsiItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/a437daea-af30-43e5-bb88-e59de8ba37c9">IFsiItem::put_IsHidden</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-put_ishidden">IFsiItem::put_IsHidden</a>
  
 
  

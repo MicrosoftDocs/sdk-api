@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>VMRSurfaceAllocationFlags</b> enumeration is used with the <a href="https://msdn.microsoft.com/6783df91-c92f-45d0-b299-16cdbc4bb630">IVMRSurfaceAllocator::AllocateSurface</a> method to specify surface creation parameters.
+The <b>VMRSurfaceAllocationFlags</b> enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrsurfaceallocator-allocatesurface">IVMRSurfaceAllocator::AllocateSurface</a> method to specify surface creation parameters.
 
 
 
@@ -84,7 +84,7 @@ Force the surface to be created in system memory. Specify this if you will use G
 
 ### -field AMAP_DIRECTED_FLIP
 
-Means that when Flip is called you should Flip to the specified DirectDraw Surface passed as a parameter to the <a href="https://msdn.microsoft.com/df6bf45d-df92-4655-862c-704a12a62ff9">PresentImage</a> method in the <a href="https://msdn.microsoft.com/cb9b1e29-45c3-4208-8343-c2924505a9f3">IVMRImagePresenter</a> interface. Correct support for this flag is crucial in order to keep DXVA buffers seen by a video decoder in sync with the DXVA buffers seen by the graphics driver.
+Means that when Flip is called you should Flip to the specified DirectDraw Surface passed as a parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrimagepresenter-presentimage">PresentImage</a> method in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrimagepresenter">IVMRImagePresenter</a> interface. Correct support for this flag is crucial in order to keep DXVA buffers seen by a video decoder in sync with the DXVA buffers seen by the graphics driver.
 
 
 ### -field AMAP_DXVA_TARGET
@@ -106,11 +106,11 @@ AMAP_3D_TARGET cannot be combined with AMAP_FORCE_SYSMEM or AMAP_ALLOW_SYSMEM be
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/6783df91-c92f-45d0-b299-16cdbc4bb630">IVMRSurfaceAllocator::AllocateSurface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrsurfaceallocator-allocatesurface">IVMRSurfaceAllocator::AllocateSurface</a>
  
 
  

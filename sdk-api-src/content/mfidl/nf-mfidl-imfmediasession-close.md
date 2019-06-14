@@ -106,32 +106,32 @@ The Media Session has been shut down.
 
 
 
-This method is asynchronous. When the operation completes, the Media Session sends an <a href="https://msdn.microsoft.com/d1056ce7-5527-428a-8ace-e1c10a2124a5">MESessionClosed</a> event.
+This method is asynchronous. When the operation completes, the Media Session sends an <a href="https://docs.microsoft.com/windows/desktop/medfound/mesessionclosed">MESessionClosed</a> event.
 
 After the <b>Close</b> method is called, the only valid methods on the Media Session are the following:
 
 <ul>
 <li>
 
-<a href="https://msdn.microsoft.com/16444da2-68f2-4d94-8c6f-9e512d51e5e9">IMFMediaSession::GetClock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-getclock">IMFMediaSession::GetClock</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/6899dbe2-a684-487f-ab56-8631b3d5a033">IMFMediaSession::GetFullTopology</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-getfulltopology">IMFMediaSession::GetFullTopology</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/3534cfb9-23ff-42a6-a3db-b5032d427cf2">IMFMediaSession::GetSessionCapabilities</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-getsessioncapabilities">IMFMediaSession::GetSessionCapabilities</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/5b9663c2-e32e-4075-b397-59ae01558e15">IMFMediaSession::Shutdown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-shutdown">IMFMediaSession::Shutdown</a>
 
 
 </li>
@@ -146,7 +146,7 @@ All other methods return MF_E_INVALIDREQUEST, or else queue an event with that e
 
 
 
-<a href="https://msdn.microsoft.com/feebf891-73fa-4fe6-94ca-3594986fc92d">IMFMediaSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a>
  
 
  

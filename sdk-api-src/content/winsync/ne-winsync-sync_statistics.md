@@ -59,7 +59,7 @@ Represents types of statistics that convey information about a component.
 
 ### -field SYNC_STATISTICS_RANGE_COUNT
 
-Indicates that the statistic represents the number of ranges that are contained in an <a href="https://msdn.microsoft.com/cfb08476-7b5d-4953-b723-5160330e57be">ISyncKnowledge</a> object.
+Indicates that the statistic represents the number of ranges that are contained in an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge</a> object.
 
 
 ## -see-also
@@ -67,7 +67,7 @@ Indicates that the statistic represents the number of ranges that are contained 
 
 
 
-<a href="https://msdn.microsoft.com/139266e9-cd22-4548-a2b6-927328e7ce82">Windows Sync Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-enumerations">Windows Sync Enumerations</a>
  
 
  

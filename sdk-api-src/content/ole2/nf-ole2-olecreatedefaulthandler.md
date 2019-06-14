@@ -66,7 +66,7 @@ CLSID identifying the OLE server to be loaded when the embedded object enters th
 
 ### -param pUnkOuter [in]
 
- Pointer to the controlling <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface if the handler is to be aggregated; <b>NULL</b> if it is not to be aggregated.
+ Pointer to the controlling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface if the handler is to be aggregated; <b>NULL</b> if it is not to be aggregated.
 
 
 ### -param riid [in]
@@ -96,7 +96,7 @@ This function returns NOERROR on success and supports the standard return value 
 
 
 
-If the given class does not have a special handler, a call to <b>OleCreateDefaultHandler</b> produces the same results as a call to the <a href="https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a> function with the class context parameter assigned the value CLSCTX_INPROC_HANDLER.
+If the given class does not have a special handler, a call to <b>OleCreateDefaultHandler</b> produces the same results as a call to the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function with the class context parameter assigned the value CLSCTX_INPROC_HANDLER.
 
 
 
@@ -107,11 +107,11 @@ If the given class does not have a special handler, a call to <b>OleCreateDefaul
 
 
 
-<a href="https://msdn.microsoft.com/dcb82ff2-56e4-4c7e-a621-7ffd0f1a9d8e">CLSCTX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagclsctx">CLSCTX</a>
 
 
 
-<a href="https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Determines the location of the specified point relative to the client area of a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773732(v=VS.85).aspx">TVM_HITTEST</a> message explicitly. 
+Determines the location of the specified point relative to the client area of a tree-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-hittest">TVM_HITTEST</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Determines the location of the specified point relative to the client area of a 
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control. 
 
@@ -68,5 +68,5 @@ Handle to the tree-view control.
 
 Type: <b>LPTVHITTESTINFO</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb773448(v=VS.85).aspx">TVHITTESTINFO</a> structure. When the message is sent, the <b>pt</b> member specifies the coordinates of the point to test. When the message returns, the <b>hItem</b> member is the handle to the item at the specified point or <b>NULL</b> if no item occupies the point. Also, when the message returns, the <b>flags</b> member is a hit test value that indicates the location of the specified point. For a list of hit test values, see the description of the <b>TVHITTESTINFO</b> structure. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvhittestinfo">TVHITTESTINFO</a> structure. When the message is sent, the <b>pt</b> member specifies the coordinates of the point to test. When the message returns, the <b>hItem</b> member is the handle to the item at the specified point or <b>NULL</b> if no item occupies the point. Also, when the message returns, the <b>flags</b> member is a hit test value that indicates the location of the specified point. For a list of hit test values, see the description of the <b>TVHITTESTINFO</b> structure. 
 

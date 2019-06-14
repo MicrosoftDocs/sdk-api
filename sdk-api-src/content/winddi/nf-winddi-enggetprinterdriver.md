@@ -138,7 +138,7 @@ Pointer to a memory location in which GDI places the number of bytes copied into
 
 
 
-A printer driver DLL can work with multiple data files to support different printer models. The printer driver calls <b>EngGetPrinterDriver</b> to determine which data file to use. For example, the Unidrv renderer calls this function to determine the name of a <a href="https://msdn.microsoft.com/f67c673d-c6f0-49f0-850a-d8b00e99ddd4">GPD</a> file, and the postscript driver calls this function to determine the name of a <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PPD</a> file. The DRIVER_INFO_2 and DRIVER_INFO_3 structures contain a full path and file name specifying the location of the data file. The printer driver can then use the returned path and file name to load the data file by calling <a href="https://msdn.microsoft.com/0327d3f0-f9ee-4715-aa0e-ad1d0544a1ff">EngLoadModule</a> with the path and file name as a single argument.
+A printer driver DLL can work with multiple data files to support different printer models. The printer driver calls <b>EngGetPrinterDriver</b> to determine which data file to use. For example, the Unidrv renderer calls this function to determine the name of a <a href="https://docs.microsoft.com/windows-hardware/drivers/">GPD</a> file, and the postscript driver calls this function to determine the name of a <a href="https://docs.microsoft.com/windows-hardware/drivers/">PPD</a> file. The DRIVER_INFO_2 and DRIVER_INFO_3 structures contain a full path and file name specifying the location of the data file. The printer driver can then use the returned path and file name to load the data file by calling <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadmodule">EngLoadModule</a> with the path and file name as a single argument.
 
 The DRIVER_INFO_<i>X</i> structures are described in the Microsoft Windows SDK documentation.
 
@@ -150,7 +150,7 @@ The DRIVER_INFO_<i>X</i> structures are described in the Microsoft Windows SDK d
 
 
 
-<a href="https://msdn.microsoft.com/0327d3f0-f9ee-4715-aa0e-ad1d0544a1ff">EngLoadModule</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadmodule">EngLoadModule</a>
  
 
  

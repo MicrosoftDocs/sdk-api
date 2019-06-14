@@ -59,11 +59,11 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>GetVersionEx</b> may be altered or unavailable for releases after Windows 8.1. Instead, use the <a href="https://msdn.microsoft.com/2FAF67CD-CEEA-4096-B482-F5E2DF8D6C34">Version Helper functions</a>]
+<p class="CCE_Message">[<b>GetVersionEx</b> may be altered or unavailable for releases after Windows 8.1. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/SysInfo/version-helper-apis">Version Helper functions</a>]
 
 With the release of Windows 8.1, the behavior of the <b>GetVersionEx</b> API has changed in the value it will return for the operating system version. The value returned by the <b>GetVersionEx</b> function now depends on how the application is manifested. 
 
-Applications not manifested for Windows 8.1 or Windows 10 will return the Windows 8 OS version value (6.2).  Once an application is manifested for a given operating system version, <b>GetVersionEx</b> will always return the version that the application is manifested for in future releases.  To manifest your applications for Windows 8.1 or Windows 10, refer to <a href="https://msdn.microsoft.com/E7A1A16A-95B3-4B45-81AD-A19E33F15AE4">Targeting your application for Windows</a>.
+Applications not manifested for Windows 8.1 or Windows 10 will return the Windows 8 OS version value (6.2).  Once an application is manifested for a given operating system version, <b>GetVersionEx</b> will always return the version that the application is manifested for in future releases.  To manifest your applications for Windows 8.1 or Windows 10, refer to <a href="https://docs.microsoft.com/windows/desktop/SysInfo/targeting-your-application-at-windows-8-1">Targeting your application for Windows</a>.
 
 
 ## -parameters
@@ -74,7 +74,7 @@ Applications not manifested for Windows 8.1 or Windows 10 will return the Wind
 ### -param lpVersionInformation [in, out]
 
 An 
-<a href="https://msdn.microsoft.com/a173df17-dad2-4330-aa66-4ff789fd7cc2">OSVERSIONINFO</a> or <a href="https://msdn.microsoft.com/4ab07a72-404d-459b-b061-b3b06b5db37e">OSVERSIONINFOEX</a> structure that receives the operating system information. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_osversioninfoa">OSVERSIONINFO</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_osversioninfoexa">OSVERSIONINFOEX</a> structure that receives the operating system information. 
 
 
 
@@ -90,9 +90,9 @@ Before calling the
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. The function fails if you specify an invalid value for the <b>dwOSVersionInfoSize</b> member of the 
-<a href="https://msdn.microsoft.com/a173df17-dad2-4330-aa66-4ff789fd7cc2">OSVERSIONINFO</a> or 
-<a href="https://msdn.microsoft.com/4ab07a72-404d-459b-b061-b3b06b5db37e">OSVERSIONINFOEX</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The function fails if you specify an invalid value for the <b>dwOSVersionInfoSize</b> member of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_osversioninfoa">OSVERSIONINFO</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_osversioninfoexa">OSVERSIONINFOEX</a> structure.
 
 
 
@@ -103,9 +103,9 @@ If the function fails, the return value is zero. To get extended error informati
 
 Identifying the current operating system is usually not the best way to determine whether a particular operating system feature is present. This is because the operating system may have had new features added in a redistributable DLL. Rather than using 
 <b>GetVersionEx</b> to determine the operating system platform or version number, test for the presence of the feature itself. For more information, see 
-<a href="https://msdn.microsoft.com/1a70b1d9-ed66-4201-9921-4e26e4001020">Operating System Version</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/operating-system-version">Operating System Version</a>.
 
-The <a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a> function provides additional information about the current operating system. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> function provides additional information about the current operating system. 
 
 <table>
 <tr>
@@ -131,12 +131,12 @@ The <a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">Ge
 </table>
  
 
-To check for specific operating systems or operating system features, use the <a href="https://msdn.microsoft.com/827a76bc-3581-4f1c-8095-8e2fd30dfdbc">IsOS</a> function. The <a href="https://msdn.microsoft.com/711e6010-2068-4c97-9009-6ecdf54797b6">GetProductInfo</a> function retrieves the product type.
+To check for specific operating systems or operating system features, use the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-isos">IsOS</a> function. The <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getproductinfo">GetProductInfo</a> function retrieves the product type.
 
-To retrieve information for the operating system on a remote computer, use the <a href="https://msdn.microsoft.com/08777069-1afd-4482-8090-c65ef0bec1ea">NetWkstaGetInfo</a> function, the <a href="https://msdn.microsoft.com/eb6a8cff-20a0-4211-b46a-3084e9c39246">Win32_OperatingSystem</a> WMI class, or the <a href="https://msdn.microsoft.com/c990b6bb-6256-4216-9435-c85c67db4d13">OperatingSystem</a> property of the <b>IADsComputer</b> interface.
+To retrieve information for the operating system on a remote computer, use the <a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/nf-lmwksta-netwkstagetinfo">NetWkstaGetInfo</a> function, the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-operatingsystem">Win32_OperatingSystem</a> WMI class, or the <a href="https://docs.microsoft.com/windows/desktop/ADSI/iadscomputer-property-methods">OperatingSystem</a> property of the <b>IADsComputer</b> interface.
 
 To compare the current system version to a required version, use the 
-<a href="https://msdn.microsoft.com/791bc6bf-f486-4110-b6ea-30a0935040b2">VerifyVersionInfo</a> function instead of using 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a> function instead of using 
 <b>GetVersionEx</b> to perform the comparison yourself.
 
 If compatibility mode is in effect, the <b>GetVersionEx</b> function reports the operating system as it identifies itself, which may not be the operating system that is installed. For example, if compatibility mode is in effect, <b>GetVersionEx</b> reports the operating system that is selected for <a href="http://go.microsoft.com/fwlink/p/?linkid=115300">application compatibility</a>.
@@ -175,7 +175,7 @@ void main()
 
 
 For an example that identifies the current operating system, see 
-<a href="https://msdn.microsoft.com/ae851aef-27d5-4eb7-aeb2-ccdfbf040e5a">Getting the System Version</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/getting-the-system-version">Getting the System Version</a>.
 
 <div class="code"></div>
 
@@ -186,31 +186,31 @@ For an example that identifies the current operating system, see
 
 
 
-<a href="https://msdn.microsoft.com/25cb87c6-e4a5-447e-8153-f12638859d00">GetVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getversion">GetVersion</a>
 
 
 
-<a href="https://msdn.microsoft.com/a173df17-dad2-4330-aa66-4ff789fd7cc2">OSVERSIONINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_osversioninfoa">OSVERSIONINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ab07a72-404d-459b-b061-b3b06b5db37e">OSVERSIONINFOEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_osversioninfoexa">OSVERSIONINFOEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/1a70b1d9-ed66-4201-9921-4e26e4001020">Operating System Version</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/operating-system-version">Operating System Version</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa7deebf-7dce-4147-8a15-1d7411aea0fa">System Information Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/791bc6bf-f486-4110-b6ea-30a0935040b2">VerifyVersionInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/2FAF67CD-CEEA-4096-B482-F5E2DF8D6C34">Version Helper functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/version-helper-apis">Version Helper functions</a>
  
 
  

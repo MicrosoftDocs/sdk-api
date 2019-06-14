@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Creates the <a href="https://msdn.microsoft.com/383b1cc6-4a77-4e0e-a766-6213c64b025c">ASF Splitter</a>.
+Creates the <a href="https://docs.microsoft.com/windows/desktop/medfound/asf-splitter">ASF Splitter</a>.
 
 
 
@@ -62,7 +62,7 @@ Creates the <a href="https://msdn.microsoft.com/383b1cc6-4a77-4e0e-a766-6213c64b
 
 ### -param ppISplitter
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/75d8b2a3-7c50-4dd5-8927-b11eb9f12602">IMFASFSplitter</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfsplitter">IMFASFSplitter</a> interface. The caller must release the interface.
 
 
 ## -returns
@@ -98,7 +98,7 @@ The function succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

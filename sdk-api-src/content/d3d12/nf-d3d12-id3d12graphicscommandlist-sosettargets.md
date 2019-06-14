@@ -77,9 +77,9 @@ The number of entries in the <i>pViews</i> array.
 
 ### -param pViews [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/EFA4FBD7-3063-4B6A-B3B1-45418C6682FC">D3D12_STREAM_OUTPUT_BUFFER_VIEW</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_stream_output_buffer_view">D3D12_STREAM_OUTPUT_BUFFER_VIEW</a>*</b>
 
-Specifies an array of  <a href="https://msdn.microsoft.com/EFA4FBD7-3063-4B6A-B3B1-45418C6682FC">D3D12_STREAM_OUTPUT_BUFFER_VIEW</a> structures.
+Specifies an array of  <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_stream_output_buffer_view">D3D12_STREAM_OUTPUT_BUFFER_VIEW</a> structures.
           
 
 
@@ -98,7 +98,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/1BF282A7-F6D4-43A9-BDAD-D877564A1C6B">ID3D12GraphicsCommandList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
  
 
  

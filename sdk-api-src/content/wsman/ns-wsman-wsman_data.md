@@ -87,13 +87,13 @@ Contains the data.
 
 #### text
 
-If <b>type</b> is <b>WSMAN_DATA_TYPE_TEXT</b>,  <b>text</b> contains a <a href="https://msdn.microsoft.com/463dcc6a-2a56-42a9-a778-7a634e5f977c">WSMAN_DATA_TEXT</a> structure.
+If <b>type</b> is <b>WSMAN_DATA_TYPE_TEXT</b>,  <b>text</b> contains a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_data_text">WSMAN_DATA_TEXT</a> structure.
 
 
 
 #### binaryData
 
-If <b>type</b> is <b>WSMAN_DATA_TYPE_XML_BINARY</b>, <b>binaryData</b> contains a <a href="https://msdn.microsoft.com/35beedc3-30c6-4e04-bc27-bb9eb21256fe">WSMAN_DATA_BINARY</a> structure.
+If <b>type</b> is <b>WSMAN_DATA_TYPE_XML_BINARY</b>, <b>binaryData</b> contains a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_data_binary">WSMAN_DATA_BINARY</a> structure.
 
 
 

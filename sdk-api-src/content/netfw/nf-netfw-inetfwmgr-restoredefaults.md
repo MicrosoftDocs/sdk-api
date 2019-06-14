@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="https://msdn.microsoft.com/8F33B96B-AA9A-46d5-8808-0F2D0723935B">Windows Firewall with Advanced Security</a> API is recommended.]
+<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
 
 Restores the local configuration to its default, installed state.
 
@@ -149,15 +149,15 @@ This method deletes all user and application-added applications and ports that r
 
 
 
-<a href="https://msdn.microsoft.com/7534ea10-7553-4ec2-af68-0b0393ffc003">INetFwMgr</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwmgr">INetFwMgr</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ff5ef3b-581e-4ce5-9424-dafb08cfe067">INetFwMgr::IsIcmpTypeAllowed</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwmgr-isicmptypeallowed">INetFwMgr::IsIcmpTypeAllowed</a>
 
 
 
-<a href="https://msdn.microsoft.com/39e68271-8046-470a-af90-17bed770716d">INetFwMgr::IsPortAllowed</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwmgr-isportallowed">INetFwMgr::IsPortAllowed</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information specific to an <a href="https://msdn.microsoft.com/en-us/library/Bb760264(v=VS.85).aspx">NM_CUSTOMDRAW</a> notification code sent by a tooltip control. 
+Contains information specific to an <a href="https://docs.microsoft.com/windows/desktop/Controls/nm-customdraw-tooltip">NM_CUSTOMDRAW</a> notification code sent by a tooltip control. 
 
 
 ## -struct-fields
@@ -59,15 +59,15 @@ Contains information specific to an <a href="https://msdn.microsoft.com/en-us/li
 
 ### -field nmcd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775483(v=VS.85).aspx">NMCUSTOMDRAW</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagnmcustomdrawinfo">NMCUSTOMDRAW</a></b>
 
 Contains general custom draw information. 
 
 
 ### -field uDrawFlags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Specifies how tooltip text will be formatted when it is displayed. An application may change this field to alter the way text is drawn. This value is passed to the <a href="https://msdn.microsoft.com/fe412280-d797-4abd-8a29-107a9cd96145">DrawText</a> function internally. All values for the 
+Specifies how tooltip text will be formatted when it is displayed. An application may change this field to alter the way text is drawn. This value is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawtext">DrawText</a> function internally. All values for the 
 					<i>uFormat</i> parameter of <b>DrawText</b> are valid. 
 

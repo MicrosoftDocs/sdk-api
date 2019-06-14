@@ -76,7 +76,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/8fccc4f9-17fe-4927-b00d-2815f47857e5">IBlockingLock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iblockinglock">IBlockingLock</a>
  
 
  

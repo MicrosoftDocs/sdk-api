@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The creation properties for a <a href="https://msdn.microsoft.com/0E8D8218-0671-44A2-AD6E-13BB0B4EB66C">ID2D1PrintControl</a> object.
+The creation properties for a <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1printcontrol">ID2D1PrintControl</a> object.
 
 
 ## -struct-fields
@@ -59,9 +59,9 @@ The creation properties for a <a href="https://msdn.microsoft.com/0E8D8218-0671-
 
 ### -field fontSubset
 
-Type: <b><a href="https://msdn.microsoft.com/B8361117-6018-48EE-AD3D-2A37F6B71293">D2D1_PRINT_FONT_SUBSET_MODE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_print_font_subset_mode">D2D1_PRINT_FONT_SUBSET_MODE</a></b>
 
-The mode to use for subsetting fonts for printing, defaults to <a href="https://msdn.microsoft.com/B8361117-6018-48EE-AD3D-2A37F6B71293">D2D1_PRINT_FONT_SUBSET_MODE_DEFAULT</a>.
+The mode to use for subsetting fonts for printing, defaults to <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_print_font_subset_mode">D2D1_PRINT_FONT_SUBSET_MODE_DEFAULT</a>.
 
 
 ### -field rasterDPI
@@ -73,7 +73,7 @@ DPI for rasterization of all unsupported Direct2D commands or options, defaults 
 
 ### -field colorSpace
 
-Type: <b><a href="https://msdn.microsoft.com/2c90978b-8a5a-4e5d-9ced-e0ec917271ff">D2D1_COLOR_SPACE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_color_space">D2D1_COLOR_SPACE</a></b>
 
-Color space for vector graphics, defaults to <a href="https://msdn.microsoft.com/2c90978b-8a5a-4e5d-9ced-e0ec917271ff">D2D1_COLOR_SPACE_SRGB</a>.
+Color space for vector graphics, defaults to <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_color_space">D2D1_COLOR_SPACE_SRGB</a>.
 

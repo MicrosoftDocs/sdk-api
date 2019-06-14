@@ -108,7 +108,7 @@ The <b>get_attributeCount</b> method retrieves the number of attributes availabl
 
 Before using this method, use the <b>isReadOnlyItem</b> method to determine whether a particular attribute can be set.
 
-Before calling this method, you must have full access to the library. For more information, see <a href="https://msdn.microsoft.com/9f722531-a551-4ca9-be5f-01a291a180b0">Library Access</a>.
+Before calling this method, you must have full access to the library. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMP/library-access">Library Access</a>.
 
 Note
         
@@ -125,19 +125,19 @@ If you embed the Windows Media Player control in your application, file attribut
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563397(v=VS.85).aspx">IWMPMedia Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpmedia">IWMPMedia Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563430(v=VS.85).aspx">IWMPMedia::getAttributeName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmedia-getattributename">IWMPMedia::getAttributeName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563435(v=VS.85).aspx">IWMPMedia::get_attributeCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmedia-get_attributecount">IWMPMedia::get_attributeCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563447(v=VS.85).aspx">IWMPMedia::isReadOnlyItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmedia-isreadonlyitem">IWMPMedia::isReadOnlyItem</a>
  
 
  

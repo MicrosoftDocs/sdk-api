@@ -59,7 +59,7 @@ Sets the rendering controls for the given device context.
 
 ### -param renderingControls [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/e563cbb0-2ee0-43d8-978c-0bde1950a926">D2D1_RENDERING_CONTROLS</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_rendering_controls">D2D1_RENDERING_CONTROLS</a>*</b>
 
 The rendering controls to be applied.
 
@@ -87,11 +87,11 @@ The rendering controls allow the  application to tune the precision, performance
 
 
 
-<a href="https://msdn.microsoft.com/e563cbb0-2ee0-43d8-978c-0bde1950a926">D2D1_RENDERING_CONTROLS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_rendering_controls">D2D1_RENDERING_CONTROLS</a>
 
 
 
-<a href="https://msdn.microsoft.com/a54dd628-c2a2-4b04-9ced-7749a395f187">ID2D1DeviceContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>
  
 
  

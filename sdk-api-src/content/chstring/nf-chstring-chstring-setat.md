@@ -50,10 +50,10 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> class 
+<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>SetAt</b> method overwrites one character specified by an index number. If the index exceeds the bounds of the existing string,  <b>SetAt</b> does not enlarge the string.
@@ -66,9 +66,9 @@ The <b>SetAt</b> method overwrites one character specified by an index number. I
 
 ### -param nIndex
 
-Zero-based index of the character in the <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> string.
+Zero-based index of the character in the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> string.
 
-<div class="alert"><b>Note</b>  The <i>nIndex</i> parameter must be greater than or equal to zero (0), and less than the value returned by <a href="https://msdn.microsoft.com/b898f9d1-b9a2-4c7b-a7c0-1b6b51ae565f">GetLength</a>. The debug version of the <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> library validates the bounds of <i>nIndex</i>; the release version does not.</div>
+<div class="alert"><b>Note</b>  The <i>nIndex</i> parameter must be greater than or equal to zero (0), and less than the value returned by <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-getlength">GetLength</a>. The debug version of the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> library validates the bounds of <i>nIndex</i>; the release version does not.</div>
 <div> </div>
 
 ### -param ch
@@ -90,11 +90,11 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a>
 
 
 
-<a href="https://msdn.microsoft.com/ed038b41-211c-4483-99cd-0bc43b241761">CHString::GetAt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-getat(int)">CHString::GetAt</a>
  
 
  

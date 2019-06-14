@@ -61,7 +61,7 @@ Changes the protection on a region of committed pages in the virtual address spa
     process.
 
 To change the access protection of any process, use the 
-    <a href="https://msdn.microsoft.com/6afd7ae6-e4c5-483c-a638-c85781674c7b">VirtualProtectEx</a> function.
+    <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualprotectex">VirtualProtectEx</a> function.
 
 
 ## -parameters
@@ -75,8 +75,8 @@ A pointer an address that describes the starting page of the region of pages who
        attributes are to be changed.
 
 All pages in the specified region must be within the same reserved region allocated when calling the 
-       <a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a> or 
-       <a href="https://msdn.microsoft.com/ff0b6b79-40f5-499c-b797-b66797654164">VirtualAllocEx</a> function using 
+       <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> or 
+       <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualallocex">VirtualAllocEx</a> function using 
        <b>MEM_RESERVE</b>. The pages cannot span adjacent reserved regions that were allocated by 
        separate calls to <b>VirtualAlloc</b> or 
        <b>VirtualAllocEx</b> using 
@@ -95,12 +95,12 @@ The size of the region whose access protection attributes are to be changed, in 
 ### -param flNewProtect [in]
 
 The memory protection option. This parameter can be one of the 
-       <a href="https://msdn.microsoft.com/09839db7-2118-4a7d-a707-a08c92bd600c">memory protection constants</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/Memory/memory-protection-constants">memory protection constants</a>.
 
 For mapped views, this value must be compatible with the access protection specified when the view was 
-       mapped (see <a href="https://msdn.microsoft.com/df9f54cd-b2de-4107-a1c5-d5a07045851e">MapViewOfFile</a>, 
-       <a href="https://msdn.microsoft.com/2ac8a7d6-5c52-41de-acb9-d7f975fd2a94">MapViewOfFileEx</a>, and 
-       <a href="https://msdn.microsoft.com/1e28c8db-112d-481d-b470-8ca618e125ce">MapViewOfFileExNuma</a>).
+       mapped (see <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>, 
+       <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffileex">MapViewOfFileEx</a>, and 
+       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-mapviewoffileexnuma">MapViewOfFileExNuma</a>).
 
 
 ### -param lpflOldProtect [out]
@@ -117,7 +117,7 @@ A pointer to a variable that receives the previous access protection value of th
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -132,17 +132,17 @@ You can set the access protection value on committed pages only. If the state of
 
 The <b>PAGE_GUARD</b> protection modifier establishes guard pages. Guard pages act as 
    one-shot access alarms. For more information, see 
-   <a href="https://msdn.microsoft.com/763bc763-e178-481e-a81a-c15715e56901">Creating Guard Pages</a>.
+   <a href="https://docs.microsoft.com/windows/desktop/Memory/creating-guard-pages">Creating Guard Pages</a>.
 
 It is best to avoid using <b>VirtualProtect</b> to change 
-   page protections on memory blocks allocated by <a href="https://msdn.microsoft.com/06886545-bd5c-4d81-b1c3-dfa7e146e43a">GlobalAlloc</a>, 
-   <a href="https://msdn.microsoft.com/9a176312-0312-4cc1-baf5-949b346d983e">HeapAlloc</a>, or 
-   <a href="https://msdn.microsoft.com/da8cd2be-ff4c-4da5-813c-8759a58228c9">LocalAlloc</a>, because multiple memory blocks can exist on a 
+   page protections on memory blocks allocated by <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a>, 
+   <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a>, or 
+   <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a>, because multiple memory blocks can exist on a 
    single page. The heap manager assumes that all pages in the heap grant at least read and write access.
 
 When protecting a region that will be executable, the calling program bears responsibility for ensuring cache 
    coherency via an appropriate call to 
-   <a href="https://msdn.microsoft.com/6267adde-8169-4673-97ec-78c66e2135c1">FlushInstructionCache</a> once the code has been set 
+   <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-flushinstructioncache">FlushInstructionCache</a> once the code has been set 
    in place.  Otherwise attempts to execute code out of the newly executable region may produce unpredictable 
    results.
 
@@ -154,19 +154,19 @@ When protecting a region that will be executable, the calling program bears resp
 
 
 
-<a href="https://msdn.microsoft.com/5a2a7a62-0bda-4a0d-93d2-25b4898871fd">Memory Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9488a854-1ef0-488f-b3d1-57c1acb82a88">Virtual Memory Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/virtual-memory-functions">Virtual Memory Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/6afd7ae6-e4c5-483c-a638-c85781674c7b">VirtualProtectEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualprotectex">VirtualProtectEx</a>
  
 
  

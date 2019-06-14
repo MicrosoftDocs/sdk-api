@@ -60,9 +60,9 @@ Gets the description of a shader-reflection-variable type.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/B0AF7987-B25B-4496-9B8F-1D9C16DF5E50">D3D12_SHADER_TYPE_DESC</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/ns-d3d12shader-_d3d12_shader_type_desc">D3D12_SHADER_TYPE_DESC</a>*</b>
 
-A pointer to a shader-type description (see <a href="https://msdn.microsoft.com/B0AF7987-B25B-4496-9B8F-1D9C16DF5E50">D3D12_SHADER_TYPE_DESC</a>).
+A pointer to a shader-type description (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/ns-d3d12shader-_d3d12_shader_type_desc">D3D12_SHADER_TYPE_DESC</a>).
           
 
 
@@ -70,9 +70,9 @@ A pointer to a shader-type description (see <a href="https://msdn.microsoft.com/
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-Returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
+Returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a>.
           
 
 
@@ -93,7 +93,7 @@ This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
 
 
 
-<a href="https://msdn.microsoft.com/78FF30C5-7F23-489D-9E9D-916F6CE09C0E">ID3D12ShaderReflectionType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12shaderreflectiontype">ID3D12ShaderReflectionType</a>
  
 
  

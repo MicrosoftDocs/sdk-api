@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 This function returns a property of the specified XML Reader.
 <div class="alert"><b>Note</b>  Obtaining the Property <b>WS_XML_READER_PROPERTY_CHARSET</b> will require inspecting up to the first
-        four bytes of the XML data.  Consequently if the Reader is using <a href="https://msdn.microsoft.com/53537eb2-6b8d-443e-9453-4b39dfef1dd7">WS_XML_READER_STREAM_INPUT</a> the
-        <a href="https://msdn.microsoft.com/1f4138a2-acc5-4f1d-8e35-544859d2fa49">WsFillReader</a> function must be called first to ensure that this data has been read.</div><div> </div>
+        four bytes of the XML data.  Consequently if the Reader is using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_stream_input">WS_XML_READER_STREAM_INPUT</a> the
+        <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfillreader">WsFillReader</a> function must be called first to ensure that this data has been read.</div><div> </div>
 
 ## -parameters
 
@@ -86,7 +86,7 @@ A byte count of the buffer that the caller has allocated for the retrieved value
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 

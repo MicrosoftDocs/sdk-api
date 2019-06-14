@@ -132,11 +132,11 @@ When the reader streams content from a server, it automatically sends logging in
 
 
 
-<a href="https://msdn.microsoft.com/3e0d0fea-4370-41f8-b461-73a37de8d8bc">Client Logging</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/client">Client Logging</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
  
 
  

@@ -54,7 +54,7 @@ Provides interoperability with GDI, such as methods to convert a font face to a 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteGdiInterop</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDWriteGdiInterop</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteGdiInterop</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteGdiInterop</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDWriteGdiInterop</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1f863d1b-fdf5-4c2b-97ff-682b22c61a81">ConvertFontFaceToLOGFONT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritegdiinterop-convertfontfacetologfont">ConvertFontFaceToLOGFONT</a>
 </td>
 <td align="left" width="63%">
  Initializes a LOGFONT structure based on the GDI-compatible properties of the specified font.
@@ -78,7 +78,7 @@ The <b>IDWriteGdiInterop</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7b6e65a6-a3cd-438b-8116-7f9614e420df">ConvertFontToLOGFONT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritegdiinterop-convertfonttologfont">ConvertFontToLOGFONT</a>
 </td>
 <td align="left" width="63%">
  Initializes a <b>LOGFONT</b> structure based on the GDI-compatible properties of the specified font.
@@ -87,7 +87,7 @@ The <b>IDWriteGdiInterop</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1a1bd200-6da6-4e4d-83d3-1f6a4a5e7152">CreateBitmapRenderTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritegdiinterop-createbitmaprendertarget">CreateBitmapRenderTarget</a>
 </td>
 <td align="left" width="63%">
  Creates an object that encapsulates a bitmap and memory DC (device context) which can be used for rendering glyphs.
@@ -96,7 +96,7 @@ The <b>IDWriteGdiInterop</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/583acf9a-2982-4491-bc57-8cf6bfc98598">CreateFontFaceFromHdc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritegdiinterop-createfontfacefromhdc">CreateFontFaceFromHdc</a>
 </td>
 <td align="left" width="63%">
  Creates an <b>IDWriteFontFace</b> object that corresponds to the currently selected <b>HFONT</b> of the specified <b>HDC</b>.
@@ -105,7 +105,7 @@ The <b>IDWriteGdiInterop</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d083123a-1b45-4c18-9490-6ce038bb6b22">CreateFontFromLOGFONT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritegdiinterop-createfontfromlogfont">CreateFontFromLOGFONT</a>
 </td>
 <td align="left" width="63%">
  Creates a font object that matches the properties specified by the <b>LOGFONT</b> structure.
@@ -120,7 +120,7 @@ The <b>IDWriteGdiInterop</b> interface has these methods.
 
 
 
-<a href="https://msdn.microsoft.com/fb73e07b-60fb-4726-bd5b-c14d61ace186">Interoperating with GDI</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/interoperating-with-gdi">Interoperating with GDI</a>
  
 
  

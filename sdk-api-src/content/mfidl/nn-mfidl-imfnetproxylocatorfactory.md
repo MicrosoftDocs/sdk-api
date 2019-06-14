@@ -52,12 +52,12 @@ ms.custom: 19H1
 
 Creates a proxy locator object, which determines the proxy to use.
 
-The network source uses this interface to create the proxy locator object. Applications can provide their own implementation of this interface by setting the <a href="https://msdn.microsoft.com/455325c0-5116-4e81-9729-fab9c6a367c7">MFNETSOURCE_PROXYLOCATORFACTORY</a> property. on the source resolver. If the application does not set this property, the network source uses the default proxy locator provided by Media Foundation.
+The network source uses this interface to create the proxy locator object. Applications can provide their own implementation of this interface by setting the <a href="https://docs.microsoft.com/windows/desktop/medfound/mfnetsource-proxylocatorfactory-property">MFNETSOURCE_PROXYLOCATORFACTORY</a> property. on the source resolver. If the application does not set this property, the network source uses the default proxy locator provided by Media Foundation.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFNetProxyLocatorFactory</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFNetProxyLocatorFactory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFNetProxyLocatorFactory</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFNetProxyLocatorFactory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMFNetProxyLocatorFactory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0bdc03a8-a01d-453b-92b9-b39d8028b314">CreateProxyLocator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfnetproxylocatorfactory-createproxylocator">CreateProxyLocator</a>
 </td>
 <td align="left" width="63%">
 Creates a proxy locator object based on the protocol name.
@@ -87,11 +87,11 @@ Creates a proxy locator object based on the protocol name.
 
 
 
-<a href="https://msdn.microsoft.com/ddc28add-ebf5-4a68-bdf4-dc5f33ab74da">How to Configure the Proxy Locator</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-configure-the-proxy-locator">How to Configure the Proxy Locator</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

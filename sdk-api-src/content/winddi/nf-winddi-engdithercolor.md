@@ -59,7 +59,7 @@ The <b>EngDitherColor</b> function returns a standard 8x8 dither that approximat
 
 ### -param hdev
 
-Handle to the device. This is the handle that GDI passed to <a href="https://msdn.microsoft.com/6343c6cc-f2f3-4776-a747-7a5b5cebef5f">DrvCompletePDEV</a>.
+Handle to the device. This is the handle that GDI passed to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvcompletepdev">DrvCompletePDEV</a>.
 
 
 ### -param iMode
@@ -102,7 +102,7 @@ Specifies the RGB color that is to be dithered. GDI ignores the high byte of thi
 
 ### -param pul
 
-Pointer to the memory location in which GDI returns the dithering information. The driver must have allocated memory for a standard-format bitmap with dithered brush dimensions of 8x8. The driver must also set the <b>cxDither</b> and <b>cyDither</b> members of the <a href="https://msdn.microsoft.com/5ba3e521-2e70-4a5b-979d-30a061275d42">DEVINFO</a> structure to 8.
+Pointer to the memory location in which GDI returns the dithering information. The driver must have allocated memory for a standard-format bitmap with dithered brush dimensions of 8x8. The driver must also set the <b>cxDither</b> and <b>cyDither</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-tagdevinfo">DEVINFO</a> structure to 8.
 
 
 ## -returns
@@ -128,7 +128,7 @@ The return value is DCR_DRIVER if the dither values have been calculated by the 
 
 
 
-<a href="https://msdn.microsoft.com/2948f274-cef2-4fcf-9607-79540b6e5a5f">DrvRealizeBrush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvrealizebrush">DrvRealizeBrush</a>
  
 
  

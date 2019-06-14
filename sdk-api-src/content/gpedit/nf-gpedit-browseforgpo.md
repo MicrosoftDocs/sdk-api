@@ -61,7 +61,7 @@ The
 ### -param lpBrowseInfo [in, out]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/a0d038f2-66f1-4a79-b9e7-189cb57b80a9">GPOBROWSEINFO</a> structure that contains information used to initialize the dialog box. When 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/ns-gpedit-tag_gpobrowseinfo">GPOBROWSEINFO</a> structure that contains information used to initialize the dialog box. When 
 the <b>BrowseForGPO</b> function returns, this structure contains information about the user's actions.
 
 
@@ -79,16 +79,16 @@ If the function succeeds, the return value is <b>S_OK</b>. If the user cancels o
 
 
 
-<a href="https://msdn.microsoft.com/a0d038f2-66f1-4a79-b9e7-189cb57b80a9">GPOBROWSEINFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/ns-gpedit-tag_gpobrowseinfo">GPOBROWSEINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c45666e-d7c7-4989-ad19-b1b230757a88">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
     Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/1285ab5a-ea68-4c16-bc34-8ab2f3cfad35">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
  
 

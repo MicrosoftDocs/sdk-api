@@ -87,7 +87,7 @@ A driver should call this routine sparingly. Frequent calls to <b>EngQueryPerfor
 
 
 
-<a href="https://msdn.microsoft.com/d4194278-eb49-43e4-b4bf-576e65d9e5ad">EngQueryPerformanceFrequency</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engqueryperformancefrequency">EngQueryPerformanceFrequency</a>
  
 
  

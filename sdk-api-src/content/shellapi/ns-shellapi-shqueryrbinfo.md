@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains the size and item count information retrieved by the <a href="https://msdn.microsoft.com/a9a80486-2c99-4916-af25-10b00573456b">SHQueryRecycleBin</a> function.
+Contains the size and item count information retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shqueryrecyclebina">SHQueryRecycleBin</a> function.
 
 
 ## -struct-fields

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information used in handling the <a href="https://msdn.microsoft.com/en-us/library/Bb774409(v=VS.85).aspx">RBN_CHEVRONPUSHED</a> notification code. 
+Contains information used in handling the <a href="https://docs.microsoft.com/windows/desktop/Controls/rbn-chevronpushed">RBN_CHEVRONPUSHED</a> notification code. 
 
 
 ## -struct-fields
@@ -59,29 +59,29 @@ Contains information used in handling the <a href="https://msdn.microsoft.com/en
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about the notification. 
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that contains additional information about the notification. 
 
 
 ### -field uBand
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Index of the band sending the notification. 
 
 
 ### -field wID
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Application-defined identifier for the band. 
 
 
 ### -field lParam
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 Application-defined value associated with the band. 
 
@@ -96,8 +96,8 @@ Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
 ### -field lParamNM
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
-An application-defined value. If the <a href="https://msdn.microsoft.com/en-us/library/Bb774409(v=VS.85).aspx">RBN_CHEVRONPUSHED</a> notification was sent as a result of an <a href="https://msdn.microsoft.com/en-us/library/Bb774506(v=VS.85).aspx">RB_PUSHCHEVRON</a> message, this member contains the message's 
+An application-defined value. If the <a href="https://docs.microsoft.com/windows/desktop/Controls/rbn-chevronpushed">RBN_CHEVRONPUSHED</a> notification was sent as a result of an <a href="https://docs.microsoft.com/windows/desktop/Controls/rb-pushchevron">RB_PUSHCHEVRON</a> message, this member contains the message's 
 					<i>lAppValue</i> value. Otherwise, it is set to zero. 
 

@@ -62,7 +62,7 @@ The <b>CryptUIDlgCertMgr</b> function displays a dialog box that allows the user
 
 ### -param pCryptUICertMgr [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/e6c24d16-0ae2-443c-8971-2d7da3aae963">CRYPTUI_CERT_MGR_STRUCT</a> structure that contains information about how to create the dialog box.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/ns-cryptuiapi-_cryptui_cert_mgr_struct">CRYPTUI_CERT_MGR_STRUCT</a> structure that contains information about how to create the dialog box.
 
 
 ## -returns

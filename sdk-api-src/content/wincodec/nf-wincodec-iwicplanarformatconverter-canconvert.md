@@ -104,7 +104,7 @@ To specify an interleaved input pixel format, provide a length 1 array to <i>pSr
 
 
 
-<a href="https://msdn.microsoft.com/07258A07-84AA-4DC2-B2E3-14A43AED5617">IWICPlanarFormatConverter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicplanarformatconverter">IWICPlanarFormatConverter</a>
  
 
  

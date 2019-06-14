@@ -52,13 +52,13 @@ ms.custom: 19H1
 Contains the classification properties for a file.
 
 FSRM passes this interface to your 
-    <a href="https://msdn.microsoft.com/a4420b1e-e2e5-460c-948c-3c5f97d7a0e7">IFsrmPipelineModuleImplementation</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpipelinemoduleimplementation">IFsrmPipelineModuleImplementation</a> 
     implementation. For more information, see the Remarks section.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmPropertyBag</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFsrmPropertyBag</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmPropertyBag</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsrmPropertyBag</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -74,7 +74,7 @@ The <b>IFsrmPropertyBag</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2d9166fd-5211-4114-843f-2c6563941715">AddMessage</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-addmessage">AddMessage</a>
 </td>
 <td align="left" width="63%">
 Adds a message about the file.
@@ -83,7 +83,7 @@ Adds a message about the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/09fc3287-f2a2-4ba7-9626-65c6634b7f2d">GetFileProperty</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-getfileproperty">GetFileProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified metadata property of the file.
@@ -92,7 +92,7 @@ Retrieves the specified metadata property of the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e5250f0f-c8b4-4579-a4c2-b4f6ee48acdc">GetFileStreamInterface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-getfilestreaminterface">GetFileStreamInterface</a>
 </td>
 <td align="left" width="63%">
 Retrieves a file stream interface that you can use to access the contents of the file.
@@ -101,7 +101,7 @@ Retrieves a file stream interface that you can use to access the contents of the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d3322907-c832-49ef-bf21-2e4581251a88">SetFileProperty</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-setfileproperty">SetFileProperty</a>
 </td>
 <td align="left" width="63%">
 Sets the specified metadata property of the file.
@@ -119,7 +119,7 @@ Sets the specified metadata property of the file.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/9d84b68f-1db8-43d5-964b-c961ec9c250b">Attributes</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_attributes">Attributes</a>
 
 
 </td>
@@ -135,7 +135,7 @@ The attributes of the file.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/85953042-eeb6-49bd-bde0-f18d4edf108a">CreationTime</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_creationtime">CreationTime</a>
 
 
 </td>
@@ -151,7 +151,7 @@ The date and time that the file was created.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/dc5df8d8-4998-4a4e-814b-f3119a156e14">FileId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_fileid">FileId</a>
 
 
 </td>
@@ -167,7 +167,7 @@ The file identifier of the file.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/5dfbf1a8-99a4-4348-8fc4-9d582330be57">FilePropertyNames</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_filepropertynames">FilePropertyNames</a>
 
 
 </td>
@@ -183,7 +183,7 @@ A list of the names of the file's metadata properties.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/b17da883-7f8c-4df0-9ee2-7e75b5852aa9">LastAccessTime</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_lastaccesstime">LastAccessTime</a>
 
 
 </td>
@@ -199,7 +199,7 @@ The date and time of when the file was last accessed.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/0afba4f9-b716-49dc-bbeb-6245e5c7a386">LastModificationTime</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_lastmodificationtime">LastModificationTime</a>
 
 
 </td>
@@ -215,7 +215,7 @@ The date and time of when the file was last modified.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/3aa6bc28-03bb-40ea-8c56-94133c8eeb54">Messages</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_messages">Messages</a>
 
 
 </td>
@@ -231,7 +231,7 @@ A list of the classification messages.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/b500b16f-402d-475f-9de3-a54da1afb203">Name</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_name">Name</a>
 
 
 </td>
@@ -247,7 +247,7 @@ The name of the file.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/bb2b0872-9553-40d3-a9b0-7602266c28da">OwnerSid</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_ownersid">OwnerSid</a>
 
 
 </td>
@@ -263,7 +263,7 @@ The SID of the owner of the file.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/a62f9562-06ba-41bc-8450-300dd50ee728">ParentDirectoryId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_parentdirectoryid">ParentDirectoryId</a>
 
 
 </td>
@@ -279,7 +279,7 @@ The identifier of the file's parent directory.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/b7e5885e-c716-4fa8-afc0-bfe258e5f421">PropertyBagFlags</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_propertybagflags">PropertyBagFlags</a>
 
 
 </td>
@@ -295,7 +295,7 @@ A set of flags that provide additional information about the property bag.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/31e0baad-286a-42f3-bd30-84fc40c935f6">RelativeNamespaceRoot</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_relativenamespaceroot">RelativeNamespaceRoot</a>
 
 
 </td>
@@ -311,7 +311,7 @@ The relative path of the namespace root under which the file is being evaluated.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/4304228a-5e8e-4e2d-9fc9-48777cb23251">RelativePath</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_relativepath">RelativePath</a>
 
 
 </td>
@@ -327,7 +327,7 @@ The relative path to the file.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/6dade17c-1252-4f11-81a2-7e278da290e8">Size</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_size">Size</a>
 
 
 </td>
@@ -343,7 +343,7 @@ The size of the file.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d1ec946b-2769-4e0d-b01c-08ef6032df16">SizeAllocated</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_sizeallocated">SizeAllocated</a>
 
 
 </td>
@@ -359,7 +359,7 @@ The allocation size of the file.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/08d4e052-710b-4f41-86b1-473760a6e9c6">VolumeIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_volumeindex">VolumeIndex</a>
 
 
 </td>
@@ -375,7 +375,7 @@ The index that the scanner uses to refer to the volume on which the file exists.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/65b47ad3-eb81-468e-a4fb-8a52d6b99998">VolumeName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_volumename">VolumeName</a>
 
 
 </td>
@@ -400,13 +400,13 @@ A property bag contains an in-memory copy of all the properties for a file. The 
     metadata in the file.
 
 This interface can be sent to 
-    <a href="https://msdn.microsoft.com/ab42430c-1e30-4576-b6f8-c0488b6230dd">IFsrmClassifierModuleImplementation::DoesPropertyValueApply</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-doespropertyvalueapply">IFsrmClassifierModuleImplementation::DoesPropertyValueApply</a> 
     and 
-    <a href="https://msdn.microsoft.com/70277473-de96-40e1-980b-4eec6e7b035d">IFsrmClassifierModuleImplementation::GetPropertyValueToApply</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-getpropertyvaluetoapply">IFsrmClassifierModuleImplementation::GetPropertyValueToApply</a> 
     if a classifier module is implemented, or to 
-    <a href="https://msdn.microsoft.com/05de6dfe-0f90-4866-bedc-72b8fea9dfac">IFsrmStorageModuleImplementation::LoadProperties</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmstoragemoduleimplementation-loadproperties">IFsrmStorageModuleImplementation::LoadProperties</a> 
     and 
-    <a href="https://msdn.microsoft.com/4d31db26-9d03-46f3-a902-401f9e0d9767">IFsrmStorageModuleImplementation::SaveProperties</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmstoragemoduleimplementation-saveproperties">IFsrmStorageModuleImplementation::SaveProperties</a> 
     if a storage module is implemented.
 
 
@@ -417,15 +417,15 @@ This interface can be sent to
 
 
 
-<a href="https://msdn.microsoft.com/f238c446-b268-4600-b6e3-ec772a5f7575">IFsrmClassifierModuleImplementation</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmclassifiermoduleimplementation">IFsrmClassifierModuleImplementation</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4420b1e-e2e5-460c-948c-3c5f97d7a0e7">IFsrmPipelineModuleImplementation</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpipelinemoduleimplementation">IFsrmPipelineModuleImplementation</a>
 
 
 
-<a href="https://msdn.microsoft.com/8540f1f4-8ed1-4e4d-b940-3e232eb8c2d6">IFsrmStorageModuleImplementation</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmstoragemoduleimplementation">IFsrmStorageModuleImplementation</a>
  
 
  

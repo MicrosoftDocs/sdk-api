@@ -69,7 +69,7 @@ A pointer to a null-terminated string value that contains the fully-specified st
 
 ### -param pRefData [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/daa2b625-1522-4239-9c62-65f09b50f74c">FUSION_INSTALL_REFERENCE</a> structure that describes the application that holds the reference to the assembly being removed. If this value is null, no  references to the assembly by applications  are left in the side-by-side store and the assembly's files are removed.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/ns-winsxs-_fusion_install_reference_">FUSION_INSTALL_REFERENCE</a> structure that describes the application that holds the reference to the assembly being removed. If this value is null, no  references to the assembly by applications  are left in the side-by-side store and the assembly's files are removed.
 
 <div class="alert"><b>Note</b>  The characters \, /, :, ;, *, &lt;, &gt;, and | are invalid in the reference ID.</div>
 <div> </div>
@@ -196,7 +196,7 @@ The operation succeeded and the reference to the assembly was removed. The assem
 
 
 
-<a href="https://msdn.microsoft.com/6c411ae7-5a8f-47ca-a9c1-e23000f64620">IAssemblyCache</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nn-winsxs-iassemblycache">IAssemblyCache</a>
  
 
  

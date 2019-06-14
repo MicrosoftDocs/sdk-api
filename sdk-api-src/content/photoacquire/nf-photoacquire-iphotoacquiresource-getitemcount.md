@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <code>GetItemCount</code> method retrieves the number of items found by the <a href="https://msdn.microsoft.com/1e0ebbc7-888d-4044-8257-47c1719cf7fc">InitializeItemList</a> method.
+The <code>GetItemCount</code> method retrieves the number of items found by the <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresource-initializeitemlist">InitializeItemList</a> method.
 
 
 
@@ -109,7 +109,7 @@ NULL was passed where a non-NULL pointer was expected.
 
 
 
-Before calling this method, call <a href="https://msdn.microsoft.com/1e0ebbc7-888d-4044-8257-47c1719cf7fc">InitializeItemList</a> to initialize the item list.
+Before calling this method, call <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresource-initializeitemlist">InitializeItemList</a> to initialize the item list.
 
 
 
@@ -119,11 +119,11 @@ Before calling this method, call <a href="https://msdn.microsoft.com/1e0ebbc7-88
 
 
 
-<a href="https://msdn.microsoft.com/6671d550-8c12-40e3-bf6f-33203e69cff0">IPhotoAcquireSource Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresource">IPhotoAcquireSource Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/1e0ebbc7-888d-4044-8257-47c1719cf7fc">IPhotoAcquireSource::InitializeItemList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresource-initializeitemlist">IPhotoAcquireSource::InitializeItemList</a>
  
 
  

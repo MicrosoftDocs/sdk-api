@@ -66,12 +66,12 @@ Creates a private namespace.
 
 ### -param lpPrivateNamespaceAttributes [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> structure that specifies the security attributes of the namespace object.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that specifies the security attributes of the namespace object.
 
 
 ### -param lpBoundaryDescriptor [in]
 
-A descriptor that defines how the namespace is to be isolated. The caller must be within this boundary. The <a href="https://msdn.microsoft.com/c7789e90-8dfb-47ee-a0b2-906520982d84">CreateBoundaryDescriptor</a> function creates a boundary descriptor.
+A descriptor that defines how the namespace is to be isolated. The caller must be within this boundary. The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createboundarydescriptora">CreateBoundaryDescriptor</a> function creates a boundary descriptor.
 
 
 ### -param lpAliasPrefix [in]
@@ -88,7 +88,7 @@ The system supports multiple private namespaces with the same name, as long as t
 If the function succeeds, it returns a handle to the new namespace. 
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
      
 
 
@@ -98,9 +98,9 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-Other applications can access the namespace using the <a href="https://msdn.microsoft.com/268b4932-2553-4883-8a26-002997fbc59e">OpenPrivateNamespace</a> function.
+Other applications can access the namespace using the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openprivatenamespacea">OpenPrivateNamespace</a> function.
 
-The application that created the namespace can use the <a href="https://msdn.microsoft.com/b9b74cf2-bf13-4ceb-9242-bc6a884ac6f1">ClosePrivateNamespace</a> function to close the handle to the namespace. The handle is also closed when the creating process terminates. After the namespace handle is closed, subsequent calls to <a href="https://msdn.microsoft.com/268b4932-2553-4883-8a26-002997fbc59e">OpenPrivateNamespace</a> fail, but all operations on objects in the namespace succeed.
+The application that created the namespace can use the <a href="https://docs.microsoft.com/windows/desktop/api/namespaceapi/nf-namespaceapi-closeprivatenamespace">ClosePrivateNamespace</a> function to close the handle to the namespace. The handle is also closed when the creating process terminates. After the namespace handle is closed, subsequent calls to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openprivatenamespacea">OpenPrivateNamespace</a> fail, but all operations on objects in the namespace succeed.
 
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0600 or later.
 
@@ -112,15 +112,15 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 
 
-<a href="https://msdn.microsoft.com/b9b74cf2-bf13-4ceb-9242-bc6a884ac6f1">ClosePrivateNamespace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/namespaceapi/nf-namespaceapi-closeprivatenamespace">ClosePrivateNamespace</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a84ec16-fa65-4cdd-861a-eccf5d0eee2b">Object Namespaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/object-namespaces">Object Namespaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/268b4932-2553-4883-8a26-002997fbc59e">OpenPrivateNamespace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openprivatenamespacea">OpenPrivateNamespace</a>
  
 
  

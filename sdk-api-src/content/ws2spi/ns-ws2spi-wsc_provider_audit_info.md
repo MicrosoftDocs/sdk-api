@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<div class="alert"><b>Note</b>  Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use <a href="https://msdn.microsoft.com/0436f559-20e6-4199-8391-10eb7d85df23">Windows Filtering Platform</a>.</div><div> </div>The 
+<div class="alert"><b>Note</b>  Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use <a href="https://docs.microsoft.com/windows/desktop/FWP/windows-filtering-platform-start-page">Windows Filtering Platform</a>.</div><div> </div>The 
 <b>WSC_PROVIDER_AUDIT_INFO</b> structure contains audit information for a layered service provider (LSP) entry in Windows Sockets 2.
 
 
@@ -83,23 +83,23 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/5880f3dd-2a74-4af8-b0d8-2a8eedccc1e6">WSCGetProviderInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscgetproviderinfo">WSCGetProviderInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/91686b38-3cde-4979-8bf6-45e805dd37ff">WSCGetProviderInfo32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscgetproviderinfo32">WSCGetProviderInfo32</a>
 
 
 
-<a href="https://msdn.microsoft.com/10eed3e6-d5a0-4ba4-964e-3d924a231afb">WSCSetProviderInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscsetproviderinfo">WSCSetProviderInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/adb2737f-5327-4306-bd57-f165f339f911">WSCSetProviderInfo32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscsetproviderinfo32">WSCSetProviderInfo32</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f93a660-6f53-4e3c-a938-54a13b34258d">WSC_PROVIDER_INFO_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ne-ws2spi-_wsc_provider_info_type">WSC_PROVIDER_INFO_TYPE</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Causes the list-view control to allocate memory for the specified number of items. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761188(v=VS.85).aspx">LVM_SETITEMCOUNT</a> message explicitly. 
+Causes the list-view control to allocate memory for the specified number of items. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setitemcount">LVM_SETITEMCOUNT</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Causes the list-view control to allocate memory for the specified number of item
 
 ### -param hwndLV
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a list-view control. 
 
@@ -75,9 +75,9 @@ The number of items for which the list-view control should allocate memory.
 
 
 
-If the list-view control was created without the <a href="https://msdn.microsoft.com/en-us/library/Bb774739(v=VS.85).aspx">LVS_OWNERDATA</a> style, this macro causes the control to allocate its internal data structures for the specified number of items. This prevents the control from having to allocate the data structures every time an item is added. 
+If the list-view control was created without the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-window-styles">LVS_OWNERDATA</a> style, this macro causes the control to allocate its internal data structures for the specified number of items. This prevents the control from having to allocate the data structures every time an item is added. 
 
-If the list-view control was created with the <a href="https://msdn.microsoft.com/en-us/library/Bb774739(v=VS.85).aspx">LVS_OWNERDATA</a> style (a <a href="https://msdn.microsoft.com/en-us/library/Bb774735(v=VS.85).aspx">virtual list view</a>), the <a href="https://msdn.microsoft.com/en-us/library/Bb775095(v=VS.85).aspx">ListView_SetItemCountEx</a> macro should be used. 
+If the list-view control was created with the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-window-styles">LVS_OWNERDATA</a> style (a <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-controls-overview">virtual list view</a>), the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-listview_setitemcountex">ListView_SetItemCountEx</a> macro should be used. 
 
 
 

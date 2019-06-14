@@ -65,14 +65,14 @@ The number of IPv4 addresses pointed to by the <b>Address</b> member.
 
 ### -field Address
 
-An array of variables of type <a href="https://msdn.microsoft.com/00d4823d-114d-4cc7-afdf-54c7fed3fe45">IPAddr</a>. Each element of the array specifies an IPv4 address associated with this unidirectional adapter.
+An array of variables of type <a href="https://docs.microsoft.com/windows/desktop/api/inaddr/ns-inaddr-in_addr">IPAddr</a>. Each element of the array specifies an IPv4 address associated with this unidirectional adapter.
 
 
 ## -remarks
 
 
 
-The <b>IP_UNIDIRECTIONAL_ADAPTER_ADDRESS</b> structure is retrieved by the <a href="https://msdn.microsoft.com/32aa3a8e-ae74-4da9-bc8d-b28e270d9702">GetUnidirectionalAdapterInfo</a>function. A unidirectional adapter is an adapter that can receive
+The <b>IP_UNIDIRECTIONAL_ADAPTER_ADDRESS</b> structure is retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getunidirectionaladapterinfo">GetUnidirectionalAdapterInfo</a>function. A unidirectional adapter is an adapter that can receive
     IPv4 datagrams, but can't transmit them.
 
 
@@ -84,19 +84,19 @@ The <b>IP_UNIDIRECTIONAL_ADAPTER_ADDRESS</b> structure is retrieved by the <a hr
 
 
 
-<a href="https://msdn.microsoft.com/32aa3a8e-ae74-4da9-bc8d-b28e270d9702">GetUnidirectionalAdapterInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getunidirectionaladapterinfo">GetUnidirectionalAdapterInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/4896a9f8-0486-4380-bf49-d1c9ef114acc">IP Helper Start Page</a>
+<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
 
 
 
-<a href="https://msdn.microsoft.com/d53c3821-00a0-4eaa-9a06-69ec7aa98d84">IP Helper Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-structures">IP Helper Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/00d4823d-114d-4cc7-afdf-54c7fed3fe45">IPAddr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inaddr/ns-inaddr-in_addr">IPAddr</a>
  
 
  

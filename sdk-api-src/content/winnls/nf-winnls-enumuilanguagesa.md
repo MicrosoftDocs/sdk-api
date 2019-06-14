@@ -69,7 +69,7 @@ Enumerates the user interface languages that are available on the operating syst
 
 ### -param lpUILanguageEnumProc [in]
 
-Pointer to an application-defined <a href="https://msdn.microsoft.com/5890bde9-7089-4440-a9cf-04b502183770">EnumUILanguagesProc</a> callback function. <b>EnumUILanguages</b> calls this function repeatedly to enumerate the languages in the list.
+Pointer to an application-defined <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nc-winnls-uilanguage_enumproca">EnumUILanguagesProc</a> callback function. <b>EnumUILanguages</b> calls this function repeatedly to enumerate the languages in the list.
 
 
 ### -param dwFlags [in]
@@ -87,7 +87,7 @@ Flags identifying language format and filtering. The following flags specify the
 </dl>
 </td>
 <td width="60%">
-Pass the <a href="https://msdn.microsoft.com/076e2a43-256a-4646-a5c8-1d48ab08ce1a">language identifier</a> in the language string to the callback function.
+Pass the <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">language identifier</a> in the language string to the callback function.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ Pass the <a href="https://msdn.microsoft.com/076e2a43-256a-4646-a5c8-1d48ab08ce1
 </dl>
 </td>
 <td width="60%">
-Pass the <a href="https://msdn.microsoft.com/e8c54168-22b3-435e-b19a-9b34adcdb018">language name</a> in the language string to the callback function.
+Pass the <a href="https://docs.microsoft.com/windows/desktop/Intl/language-names">language name</a> in the language string to the callback function.
 
 </td>
 </tr>
@@ -160,7 +160,7 @@ Application-defined value.
 
 
 
-Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended error information, the application can call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>, which can return one of the following error codes:
+Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <ul>
 <li>ERROR_INVALID_FLAGS. The values supplied for flags were not valid.</li>
@@ -173,15 +173,15 @@ Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended err
 
 
 
-This function enumerates the user interface languages that are available and, depending on the flag specified, licensed for use on the operating system. It passes language identifiers or language names, one at a time, to the <a href="https://msdn.microsoft.com/5890bde9-7089-4440-a9cf-04b502183770">EnumUILanguagesProc</a> callback function. The <b>EnumUILanguages</b> function continues to pass language identifiers or names to the callback function until the last language is found or the callback function returns <b>FALSE</b>.
+This function enumerates the user interface languages that are available and, depending on the flag specified, licensed for use on the operating system. It passes language identifiers or language names, one at a time, to the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nc-winnls-uilanguage_enumproca">EnumUILanguagesProc</a> callback function. The <b>EnumUILanguages</b> function continues to pass language identifiers or names to the callback function until the last language is found or the callback function returns <b>FALSE</b>.
 
-For applications that run only on Windows Vista and later, MUI_LANGUAGE_NAME is recommended over MUI_LANGUAGE_ID. MUI_LANGUAGE_NAME allows differentiation between languages that are associated with a <a href="https://msdn.microsoft.com/110efeab-c02f-4244-8950-a975cfc91e8a">supplemental locale</a>.
+For applications that run only on Windows Vista and later, MUI_LANGUAGE_NAME is recommended over MUI_LANGUAGE_ID. MUI_LANGUAGE_NAME allows differentiation between languages that are associated with a <a href="https://docs.microsoft.com/windows/desktop/Intl/custom-locales">supplemental locale</a>.
 
 If the MUI_LANGUAGE_ID flag is specified in the call to this function, the strings passed to the callback 
 
 function will be hexadecimal language identifiers that do not include the leading 0x, and will be 4 
 
-characters in length. For example, en-US will be passed as "0409" and en as "0009". The value "1000" is passed to the callback function for any language associated with a supplemental locale. This value corresponds to the hexadecimal value of <a href="https://msdn.microsoft.com/a41a7f55-8905-47a1-86c3-74ed40b3834c">LOCALE_CUSTOM_UNSPECIFIED</a>. It does not distinguish among supplemental locales, even if the selected language is in the user preferred UI languages list or the system preferred UI languages list.
+characters in length. For example, en-US will be passed as "0409" and en as "0009". The value "1000" is passed to the callback function for any language associated with a supplemental locale. This value corresponds to the hexadecimal value of <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UNSPECIFIED</a>. It does not distinguish among supplemental locales, even if the selected language is in the user preferred UI languages list or the system preferred UI languages list.
 
 <h3><a id="C__Signature"></a><a id="c__signature"></a><a id="C__SIGNATURE"></a>C# Signature</h3>
 
@@ -204,23 +204,23 @@ characters in length. For example, en-US will be passed as "0409" and en as "000
 
 
 
-<a href="https://msdn.microsoft.com/5890bde9-7089-4440-a9cf-04b502183770">EnumUILanguagesProc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nc-winnls-uilanguage_enumproca">EnumUILanguagesProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/34fc125d-0f0b-43d0-aa2b-91501bd6cd26">GetSystemDefaultUILanguage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getsystemdefaultuilanguage">GetSystemDefaultUILanguage</a>
 
 
 
-<a href="https://msdn.microsoft.com/0de3a2d8-e595-4068-805c-b9bcba7ada91">GetUserDefaultUILanguage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getuserdefaultuilanguage">GetUserDefaultUILanguage</a>
 
 
 
-<a href="https://msdn.microsoft.com/2980365c-5a83-4c0f-aa37-e212ec9f0408">Multilingual User Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface">Multilingual User Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/918d1f04-78fe-4b60-bee7-08d2f131437e">Multilingual User Interface Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface-functions">Multilingual User Interface Functions</a>
  
 
  

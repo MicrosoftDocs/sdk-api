@@ -99,5 +99,5 @@ The size, in bytes, of the buffer pointed to by the <b>pbEncoded</b> member.
 
 ### -field pbEncoded
 
-A pointer to a buffer that contains a certificate or a <a href="https://msdn.microsoft.com/a06e71b4-63c7-4d4a-820c-e5901015aaa6">CERT_OR_CRL_BUNDLE</a> structure that contains an array of certificates as specified by the <b>dwChoice</b> member. 
+A pointer to a buffer that contains a certificate or a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_or_crl_bundle">CERT_OR_CRL_BUNDLE</a> structure that contains an array of certificates as specified by the <b>dwChoice</b> member. 
 

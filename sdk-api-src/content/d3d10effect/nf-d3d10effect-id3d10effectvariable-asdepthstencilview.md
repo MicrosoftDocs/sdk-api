@@ -63,9 +63,9 @@ Get a depth-stencil-view variable.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173642(v=VS.85).aspx">ID3D10EffectDepthStencilViewVariable</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectdepthstencilviewvariable">ID3D10EffectDepthStencilViewVariable</a>*</b>
 
-A pointer to a depth-stencil-view variable. See <a href="https://msdn.microsoft.com/en-us/library/Bb173642(v=VS.85).aspx">ID3D10EffectDepthStencilViewVariable Interface</a>.
+A pointer to a depth-stencil-view variable. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectdepthstencilviewvariable">ID3D10EffectDepthStencilViewVariable Interface</a>.
 
 
 
@@ -76,7 +76,7 @@ A pointer to a depth-stencil-view variable. See <a href="https://msdn.microsoft.
 
 This method returns a version of the effect variable that has been specialized to a depth-stencil-view variable. Similar to a cast, this specialization will return an invalid object if the effect variable does not contain depth-stencil-view data.
 
-Applications can test the returned object for validity by calling <a href="https://msdn.microsoft.com/en-us/library/Bb173746(v=VS.85).aspx">IsValid</a>.
+Applications can test the returned object for validity by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-isvalid">IsValid</a>.
 
 
 
@@ -86,7 +86,7 @@ Applications can test the returned object for validity by calling <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectvariable">ID3D10EffectVariable Interface</a>
  
 
  

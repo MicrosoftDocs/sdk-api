@@ -54,7 +54,7 @@ Moves messages from one queue to another queue.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMessageMover</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IMessageMover</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMessageMover</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMessageMover</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMessageMover</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7c0b5ebb-00dc-4c9a-9c0c-6d92cd13f534">get_CommitBatchSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-imessagemover-get_commitbatchsize">get_CommitBatchSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the commit batch size.
@@ -78,7 +78,7 @@ Retrieves the commit batch size.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3adb24d5-b56d-4740-838b-d5b7571950e2">get_DestPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-imessagemover-get_destpath">get_DestPath</a>
 </td>
 <td align="left" width="63%">
 Retrieves the path of the destination (output) queue.
@@ -87,7 +87,7 @@ Retrieves the path of the destination (output) queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/41fd8a17-1c9d-484c-b0f4-69f232214e48">get_SourcePath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-imessagemover-get_sourcepath">get_SourcePath</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current path of the source (input) queue.
@@ -96,7 +96,7 @@ Retrieves the current path of the source (input) queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ebe06730-710b-42ce-b905-be87971b19c3">MoveMessages</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-imessagemover-movemessages">MoveMessages</a>
 </td>
 <td align="left" width="63%">
 Moves all messages from the source queue to the destination queue.
@@ -105,7 +105,7 @@ Moves all messages from the source queue to the destination queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/107a934b-565e-444d-a042-2325b8f18754">put_CommitBatchSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-imessagemover-put_commitbatchsize">put_CommitBatchSize</a>
 </td>
 <td align="left" width="63%">
 Sets the commit batch size.
@@ -114,7 +114,7 @@ Sets the commit batch size.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/79ed8030-097d-4017-be8e-e812f4b14a46">put_DestPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-imessagemover-put_destpath">put_DestPath</a>
 </td>
 <td align="left" width="63%">
 Sets the path of the destination (output) queue.
@@ -123,7 +123,7 @@ Sets the path of the destination (output) queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b9807fa0-905d-452c-ba26-e59463a7fe7b">put_SourcePath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-imessagemover-put_sourcepath">put_SourcePath</a>
 </td>
 <td align="left" width="63%">
 Sets the path of the source (input) queue.
@@ -138,7 +138,7 @@ Sets the path of the source (input) queue.
 
 
 
-<a href="https://msdn.microsoft.com/3a528e92-37ac-4108-b52a-557a90da4a47">IPlaybackControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iplaybackcontrol">IPlaybackControl</a>
  
 
  

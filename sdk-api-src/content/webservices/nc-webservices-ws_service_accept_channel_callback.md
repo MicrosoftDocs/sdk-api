@@ -72,8 +72,8 @@ The operation context.
 #### - **channelState
 
 The callback may provide channel state through this parameter. This channel state is
-                    made available to the service operation as part of <a href="https://msdn.microsoft.com/5c9b5906-15f0-4339-a4ad-39977d28ce5b">WS_OPERATION_CONTEXT</a> through
-                    the <a href="https://msdn.microsoft.com/71f7d0fe-c120-4667-93de-a0dfb94fccc1">WS_OPERATION_CONTEXT_PROPERTY_CHANNEL_USER_STATE</a>.
+                    made available to the service operation as part of <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-operation-context">WS_OPERATION_CONTEXT</a> through
+                    the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_operation_context_property_id">WS_OPERATION_CONTEXT_PROPERTY_CHANNEL_USER_STATE</a>.
                 
 
 
@@ -91,8 +91,8 @@ Specifies where additional error information should be stored if the function fa
 #### - channelState
 
 The callback may provide channel state through this parameter. This channel state is
-                    made available to the service operation as part of <a href="https://msdn.microsoft.com/5c9b5906-15f0-4339-a4ad-39977d28ce5b">WS_OPERATION_CONTEXT</a> through
-                    the <a href="https://msdn.microsoft.com/71f7d0fe-c120-4667-93de-a0dfb94fccc1">WS_OPERATION_CONTEXT_PROPERTY_CHANNEL_USER_STATE</a>.
+                    made available to the service operation as part of <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-operation-context">WS_OPERATION_CONTEXT</a> through
+                    the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_operation_context_property_id">WS_OPERATION_CONTEXT_PROPERTY_CHANNEL_USER_STATE</a>.
                 
 
 
@@ -109,7 +109,7 @@ This callback function does not return a value.
 
 
 
-See also <a href="https://msdn.microsoft.com/e2860015-219b-46be-921d-7ced0d95fc60">WS_SERVICE_CLOSE_CHANNEL_CALLBACK</a> which can be used by the application to disassociate state,
+See also <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_service_close_channel_callback">WS_SERVICE_CLOSE_CHANNEL_CALLBACK</a> which can be used by the application to disassociate state,
                 and gets called on channel closure.
             
 
@@ -119,7 +119,7 @@ This callback is cancellable.
 
 #### Examples
 
-For an example implementation on how to use this callback for associating session state, see the session based calculator <a href="https://msdn.microsoft.com/7501025b-5692-4f89-ad74-c60694c29163">sample</a>.
+For an example implementation on how to use this callback for associating session state, see the session based calculator <a href="https://docs.microsoft.com/windows/desktop/wsw/sessionfullcalculatorserviceexample">sample</a>.
             
 
 <div class="code"></div>

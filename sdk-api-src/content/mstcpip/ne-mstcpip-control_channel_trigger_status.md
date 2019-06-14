@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/F60DC5AD-9114-46FA-BCFF-981D637B3683">CONTROL_CHANNEL_TRIGGER_STATUS</a> enumeration specifies the status from a query for the <b>REAL_TIME_NOTIFICATION_CAPABILITY</b> transport setting for a TCP socket that is used with <a href="https://docs.microsoft.com/en-us/uwp/api/windows.networking.sockets.controlchanneltrigger">ControlChannelTrigger</a> to receive background network notifications in a Windows Store app. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/mswsock/ne-mswsock-_rio_notification_completion_type">CONTROL_CHANNEL_TRIGGER_STATUS</a> enumeration specifies the status from a query for the <b>REAL_TIME_NOTIFICATION_CAPABILITY</b> transport setting for a TCP socket that is used with <a href="https://docs.microsoft.com/en-us/uwp/api/windows.networking.sockets.controlchanneltrigger">ControlChannelTrigger</a> to receive background network notifications in a Windows Store app. 
 
 
 ## -enum-fields
@@ -96,9 +96,9 @@ Service is unavailable.
 
 
 
-The <a href="https://msdn.microsoft.com/F60DC5AD-9114-46FA-BCFF-981D637B3683">CONTROL_CHANNEL_TRIGGER_STATUS</a>  structure is supported on Windows 8,   and Windows Server 2012, and later versions of the operating system.
+The <a href="https://docs.microsoft.com/windows/desktop/api/mswsock/ne-mswsock-_rio_notification_completion_type">CONTROL_CHANNEL_TRIGGER_STATUS</a>  structure is supported on Windows 8,   and Windows Server 2012, and later versions of the operating system.
 
-A <a href="https://msdn.microsoft.com/F60DC5AD-9114-46FA-BCFF-981D637B3683">CONTROL_CHANNEL_TRIGGER_STATUS</a> enumeration value is returned as output from the <a href="https://msdn.microsoft.com/3845BE07-A414-4118-96E8-8BEF1DEDB1D3">SIO_QUERY_TRANSPORT_SETTING</a> 
+A <a href="https://docs.microsoft.com/windows/desktop/api/mswsock/ne-mswsock-_rio_notification_completion_type">CONTROL_CHANNEL_TRIGGER_STATUS</a> enumeration value is returned as output from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj553483(v=vs.85)">SIO_QUERY_TRANSPORT_SETTING</a> 
         IOCTL to a query the <b>REAL_TIME_NOTIFICATION_CAPABILITY</b> transport setting for a TCP socket that is used with <a href="https://docs.microsoft.com/en-us/uwp/api/windows.networking.sockets.controlchanneltrigger">ControlChannelTrigger</a> to receive background network notifications in a Windows Store app.
 
 
@@ -113,15 +113,15 @@ A <a href="https://msdn.microsoft.com/F60DC5AD-9114-46FA-BCFF-981D637B3683">CONT
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/JJ553479(v=VS.85).aspx">REAL_TIME_NOTIFICATION_SETTING_OUTPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-_real_time_notification_setting_input">REAL_TIME_NOTIFICATION_SETTING_OUTPUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/FA0657EE-B65E-4EFA-AF1E-CA0EA7B27715">SIO_APPLY_TRANSPORT_SETTING</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj553481(v=vs.85)">SIO_APPLY_TRANSPORT_SETTING</a>
 
 
 
-<a href="https://msdn.microsoft.com/3845BE07-A414-4118-96E8-8BEF1DEDB1D3">SIO_QUERY_TRANSPORT_SETTING</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj553483(v=vs.85)">SIO_QUERY_TRANSPORT_SETTING</a>
  
 
  

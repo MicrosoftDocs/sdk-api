@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DS_NAME_ERROR</b> enumeration defines the errors returned by the <b>status</b> member of the <a href="https://msdn.microsoft.com/50a4488f-e2d4-4671-b0e7-fb8cb4096c5c">DS_NAME_RESULT_ITEM</a> structure. These are potential errors that may be encountered while a name is converted by the <a href="https://msdn.microsoft.com/f812a001-5aab-4c62-87bd-54f95792e271">DsCrackNames</a> function.
+The <b>DS_NAME_ERROR</b> enumeration defines the errors returned by the <b>status</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_name_result_itema">DS_NAME_RESULT_ITEM</a> structure. These are potential errors that may be encountered while a name is converted by the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dscracknamesa">DsCrackNames</a> function.
 
 
 ## -enum-fields
@@ -84,7 +84,7 @@ The input name was found, but the associated output format cannot be found. This
 
 ### -field DS_NAME_ERROR_DOMAIN_ONLY
 
-Unable to resolve entire name, but was able to determine in which domain object resides. The caller is expected to retry the call at a domain controller for the specified domain. The entire name cannot be resolved, but the domain that the object resides in could be determined. The <b>pDomain</b> member of the <a href="https://msdn.microsoft.com/50a4488f-e2d4-4671-b0e7-fb8cb4096c5c">DS_NAME_RESULT_ITEM</a> contains valid data when this error is specified.
+Unable to resolve entire name, but was able to determine in which domain object resides. The caller is expected to retry the call at a domain controller for the specified domain. The entire name cannot be resolved, but the domain that the object resides in could be determined. The <b>pDomain</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_name_result_itema">DS_NAME_RESULT_ITEM</a> contains valid data when this error is specified.
 
 
 ### -field DS_NAME_ERROR_NO_SYNTACTICAL_MAPPING
@@ -102,15 +102,15 @@ The name is from an external trusted forest.
 
 
 
-<a href="https://msdn.microsoft.com/50a4488f-e2d4-4671-b0e7-fb8cb4096c5c">DS_NAME_RESULT_ITEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_name_result_itema">DS_NAME_RESULT_ITEM</a>
 
 
 
-<a href="https://msdn.microsoft.com/f812a001-5aab-4c62-87bd-54f95792e271">DsCrackNames</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dscracknamesa">DsCrackNames</a>
 
 
 
-<a href="https://msdn.microsoft.com/eafa3285-4474-4077-a6ad-b37f8211e7e6">Enumerations in Active Directory Domain Services</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/enumerations-in-active-directory-domain-services">Enumerations in Active Directory Domain Services</a>
  
 
  

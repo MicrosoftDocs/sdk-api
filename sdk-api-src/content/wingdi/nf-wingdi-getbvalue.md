@@ -79,31 +79,31 @@ The intensity value is in the range 0 through 255.
 
 
 
-<a href="https://msdn.microsoft.com/f5bded0f-5f55-4512-9c00-9a9eb08c39f0">Color Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/color-macros">Color Macros</a>
 
 
 
-<a href="https://msdn.microsoft.com/d1a25f13-6b47-4be7-927b-814dd6ae81f8">Colors Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/colors">Colors Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/be989b36-8acb-435b-8d71-1c388c7884f0">GetGValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getgvalue">GetGValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/c183b671-20f8-468c-af0d-9f03cbc4b170">GetRValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getrvalue">GetRValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/76d859fa-11a5-451f-9d7a-9cf0740eca36">PALETTEINDEX</a>
+<a href="https://docs.microsoft.com/previous-versions//dd162770(v=vs.85)">PALETTEINDEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/affe6d0f-2827-4de1-a21e-8fdcdad85fc5">PALETTERGB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-palettergb">PALETTERGB</a>
 
 
 
-<a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">RGB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
  
 
  

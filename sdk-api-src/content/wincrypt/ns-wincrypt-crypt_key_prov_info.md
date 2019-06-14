@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CRYPT_KEY_PROV_INFO</b> structure contains information about a <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33">key container</a> within a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP).
+The <b>CRYPT_KEY_PROV_INFO</b> structure contains information about a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key container</a> within a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP).
 
 
 ## -struct-fields
@@ -61,19 +61,19 @@ The <b>CRYPT_KEY_PROV_INFO</b> structure contains information about a <a href="h
 
 A pointer to a null-terminated Unicode string that contains the name of the key container.
 
-When the <b>dwProvType</b> member is zero, this string contains the name of a key within a CNG key storage provider. This string is passed as the <i>pwszKeyName</i> parameter to the <a href="https://msdn.microsoft.com/581c5d89-730d-4d8c-b3bb-a28edec25910">NCryptOpenKey</a> function.
+When the <b>dwProvType</b> member is zero, this string contains the name of a key within a CNG key storage provider. This string is passed as the <i>pwszKeyName</i> parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenkey">NCryptOpenKey</a> function.
 
 
 ### -field pwszProvName
 
 A pointer to a null-terminated Unicode string that contains the name of the CSP.
 
-When the <b>dwProvType</b> member is zero, this string contains the name of a CNG key storage provider. This string is passed as the <i>pwszProviderName</i> parameter to the <a href="https://msdn.microsoft.com/febcf440-78b3-420b-b13d-030e8071cd50">NCryptOpenStorageProvider</a> function.
+When the <b>dwProvType</b> member is zero, this string contains the name of a CNG key storage provider. This string is passed as the <i>pwszProviderName</i> parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenstorageprovider">NCryptOpenStorageProvider</a> function.
 
 
 ### -field dwProvType
 
-Specifies the CSP type. This can be zero or one of the <a href="https://msdn.microsoft.com/ec50d6f1-999d-4ce9-85b4-816afb17550e">Cryptographic Provider Types</a>. 
+Specifies the CSP type. This can be zero or one of the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptographic-provider-types">Cryptographic Provider Types</a>. 
 
 
 If this member is zero, the key container is one of the CNG key storage providers.
@@ -122,15 +122,15 @@ The key container will attempt to open any keys silently without any user interf
  
 
 The cryptographic functions 
-<a href="https://msdn.microsoft.com/e540b816-64e1-4c78-9020-2b221e813acc">CryptDecryptMessage</a>, 
-<a href="https://msdn.microsoft.com/f14f7c7b-14ac-40a7-9a49-d1a899ecc52a">CryptSignMessage</a>, 
-<a href="https://msdn.microsoft.com/0864a187-617f-4a21-9809-d2dbbc54ab9c">CryptDecryptAndVerifyMessageSignature</a>, and 
-<a href="https://msdn.microsoft.com/0ab234f2-a681-463f-8ba8-b23b05cf2626">CryptSignAndEncryptMessage</a> internally perform <a href="https://msdn.microsoft.com/57e13662-3189-4f8d-b90a-d1fbdc09b63c">CryptAcquireContext</a> operations using the <b>CRYPT_KEY_PROV_INFO</b> from a certificate. When the <b>CERT_SET_KEY_CONTEXT_PROP_ID</b> or <b>CERT_SET_KEY_PROV_HANDLE_PROP_ID</b> flag is set, these cryptographic functions then can call 
-<a href="https://msdn.microsoft.com/b4a0c66d-997f-49cb-935a-9187320037f1">CertSetCertificateContextProperty</a> with <b>CERT_KEY_CONTEXT_PROP_ID</b>. This call enables the handle to the key provider to be kept open for subsequent calls to the cryptographic functions mentioned that use that same certificate, which eliminates the need to perform additional calls to <b>CryptAcquireContext</b>, improving efficiency. Also, because some providers can require that a password be entered for calls to <b>CryptAcquireContext</b>, it is desirable for applications to minimize the number of <b>CryptAcquireContext</b> calls made. Handles to key providers that were kept open are automatically released when the store is closed.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecryptmessage">CryptDecryptMessage</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignmessage">CryptSignMessage</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecryptandverifymessagesignature">CryptDecryptAndVerifyMessageSignature</a>, and 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignandencryptmessage">CryptSignAndEncryptMessage</a> internally perform <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> operations using the <b>CRYPT_KEY_PROV_INFO</b> from a certificate. When the <b>CERT_SET_KEY_CONTEXT_PROP_ID</b> or <b>CERT_SET_KEY_PROV_HANDLE_PROP_ID</b> flag is set, these cryptographic functions then can call 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsetcertificatecontextproperty">CertSetCertificateContextProperty</a> with <b>CERT_KEY_CONTEXT_PROP_ID</b>. This call enables the handle to the key provider to be kept open for subsequent calls to the cryptographic functions mentioned that use that same certificate, which eliminates the need to perform additional calls to <b>CryptAcquireContext</b>, improving efficiency. Also, because some providers can require that a password be entered for calls to <b>CryptAcquireContext</b>, it is desirable for applications to minimize the number of <b>CryptAcquireContext</b> calls made. Handles to key providers that were kept open are automatically released when the store is closed.
 						
 
 For example, consider an email application where five encrypted messages have been received, all encrypted with the public key from the same certificate. If the handle to the key provider is kept open after the first message is processed, calls to 
-<a href="https://msdn.microsoft.com/57e13662-3189-4f8d-b90a-d1fbdc09b63c">CryptAcquireContext</a> are not required for the four remaining messages.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> are not required for the four remaining messages.
 
 
 ### -field cProvParam
@@ -142,7 +142,7 @@ When the <b>dwProvType</b> member is zero, this member is not used and must be z
 
 ### -field rgProvParam
 
-An array of <a href="https://msdn.microsoft.com/3731708f-0ce9-42bf-ace9-5ed671be113a">CRYPT_KEY_PROV_PARAM</a> structures that contain the parameters for the key container. The <b>cProvParam</b> member contains the number of elements in this array.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_key_prov_param">CRYPT_KEY_PROV_PARAM</a> structures that contain the parameters for the key container. The <b>cProvParam</b> member contains the number of elements in this array.
 
 When the <b>dwProvType</b> member is zero, this member is not used and must be <b>NULL</b>.
 
@@ -155,7 +155,7 @@ The specification of the private key to retrieve.
 The following values are defined for the default provider.
 						
 
-When the <b>dwProvType</b> member is zero, this value is passed as the <i>dwLegacyKeySpec</i> parameter to the <a href="https://msdn.microsoft.com/581c5d89-730d-4d8c-b3bb-a28edec25910">NCryptOpenKey</a> function.
+When the <b>dwProvType</b> member is zero, this value is passed as the <i>dwLegacyKeySpec</i> parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenkey">NCryptOpenKey</a> function.
 
 <table>
 <tr>
@@ -191,15 +191,15 @@ Keys used to create and verify digital signatures.
 
 
 
-<a href="https://msdn.microsoft.com/3731708f-0ce9-42bf-ace9-5ed671be113a">CRYPT_KEY_PROV_PARAM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_key_prov_param">CRYPT_KEY_PROV_PARAM</a>
 
 
 
-<a href="https://msdn.microsoft.com/f766db64-3121-4f70-ac83-ce25ee634efa">CertGetCertificateContextProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatecontextproperty">CertGetCertificateContextProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/b4a0c66d-997f-49cb-935a-9187320037f1">CertSetCertificateContextProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsetcertificatecontextproperty">CertSetCertificateContextProperty</a>
  
 
  

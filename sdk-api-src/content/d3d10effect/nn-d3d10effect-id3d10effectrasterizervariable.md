@@ -55,7 +55,7 @@ A rasterizer-variable interface accesses rasterizer state.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10EffectRasterizerVariable</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable</a>. <b>ID3D10EffectRasterizerVariable</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10EffectRasterizerVariable</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectvariable">ID3D10EffectVariable</a>. <b>ID3D10EffectRasterizerVariable</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID3D10EffectRasterizerVariable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173670(v=VS.85).aspx">GetBackingStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectrasterizervariable-getbackingstore">GetBackingStore</a>
 </td>
 <td align="left" width="63%">
 Get a pointer to a variable that contains rasteriser state.
@@ -79,7 +79,7 @@ Get a pointer to a variable that contains rasteriser state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173671(v=VS.85).aspx">GetRasterizerState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectrasterizervariable-getrasterizerstate">GetRasterizerState</a>
 </td>
 <td align="left" width="63%">
 Get a pointer to a rasterizer interface.
@@ -96,7 +96,7 @@ Get a pointer to a rasterizer interface.
 An <b>ID3D10EffectRasterizerVariable Interface</b> is created when an effect is read into memory.
 
 Effect variables are saved in memory in the backing store; when a technique is applied, the values in the backing store are copied to the device. You
- can use either of these methods to return state. For examples, see <a href="https://msdn.microsoft.com/en-us/library/Bb205115(v=VS.85).aspx">Two Ways to Get the State in an Effect Variable</a>.
+ can use either of these methods to return state. For examples, see <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-effects-set-state">Two Ways to Get the State in an Effect Variable</a>.
 
 
 
@@ -106,11 +106,11 @@ Effect variables are saved in memory in the backing store; when a technique is a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205178(v=VS.85).aspx">Effect Interfaces (Direct3D 10)</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-effect-interfaces">Effect Interfaces (Direct3D 10)</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectvariable">ID3D10EffectVariable</a>
  
 
  

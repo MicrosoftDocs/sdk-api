@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>ICertServerPolicy</b> interface allows the policy module to communicate with Certificate Services.
-<div class="alert"><b>Note</b>  Certificate Services communicates with the policy module through the <a href="https://msdn.microsoft.com/2e48b096-e23a-4106-bfaf-f089d2291fba">ICertPolicy2</a> interface.</div><div> </div>The <b>ICertServerPolicy</b> interface is exported by the server engine and is called by the policy module to perform the following tasks:<ul>
+<div class="alert"><b>Note</b>  Certificate Services communicates with the policy module through the <a href="https://docs.microsoft.com/windows/desktop/api/certpol/nn-certpol-icertpolicy2">ICertPolicy2</a> interface.</div><div> </div>The <b>ICertServerPolicy</b> interface is exported by the server engine and is called by the policy module to perform the following tasks:<ul>
 <li>Specify which certificate request  is used as the current context for subsequent operations.</li>
 <li>Enumerate and  retrieve the extensions (including extension flags) of a certificate request, and set the extensions of the issued certificate.</li>
 <li>Enumerate and retrieve request attributes.</li>
@@ -60,8 +60,8 @@ The <b>ICertServerPolicy</b> interface allows the policy module to communicate w
 
 
 From the time the 
-<a href="https://msdn.microsoft.com/860f0eb0-5b23-44bd-8416-687a94962f1b">ICertPolicy::VerifyRequest</a> method is called until it returns, the unresolved request and certificate under construction can be accessed through a Context data object. Because the policy module can add to or override request properties by calling 
-<a href="https://msdn.microsoft.com/1230aa79-d8b0-4f2b-ab10-412b8c530b0b">ICertServerPolicy::SetCertificateProperty</a>, certificate properties can differ from request properties.
+<a href="https://docs.microsoft.com/windows/desktop/api/certpol/nf-certpol-icertpolicy-verifyrequest">ICertPolicy::VerifyRequest</a> method is called until it returns, the unresolved request and certificate under construction can be accessed through a Context data object. Because the policy module can add to or override request properties by calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcertificateproperty">ICertServerPolicy::SetCertificateProperty</a>, certificate properties can differ from request properties.
 
 <b>ICertServerPolicy</b> is defined in Certif.h. When you create your program, however, use Certsrv.h as the include file. Certcli.dll provides the <b>ICertServerPolicy</b> interface. The type information for this interface is also in Certclil.dll, which is shipped with the Platform Software Development Kit (SDK).
 
@@ -70,7 +70,7 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertServerPolicy</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICertServerPolicy</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertServerPolicy</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertServerPolicy</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -85,7 +85,7 @@ The <b>ICertServerPolicy</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5db05ed9-ab17-462b-9a76-34458489771a">EnumerateAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-enumerateattributes">EnumerateAttributes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the current attribute and moves the internal enumeration pointer to the next  attribute.
@@ -94,7 +94,7 @@ Retrieves the name of the current attribute and moves the internal enumeration p
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/91cb8edd-7735-44c5-b2c5-d46fa1e33e41">EnumerateAttributesClose</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-enumerateattributesclose">EnumerateAttributesClose</a>
 </td>
 <td align="left" width="63%">
 Frees the  resources connected with attribute enumeration.
@@ -103,16 +103,16 @@ Frees the  resources connected with attribute enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/14b81b88-36db-4b01-96e6-eafed22ae02e">EnumerateAttributesSetup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-enumerateattributessetup">EnumerateAttributesSetup</a>
 </td>
 <td align="left" width="63%">
-Initializes the internal enumeration pointer to the first request  <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">attribute</a> associated with the current <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a>.
+Initializes the internal enumeration pointer to the first request  <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attribute</a> associated with the current <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/565ff4d5-0d22-466d-8458-f98b992a1868">EnumerateExtensions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-enumerateextensions">EnumerateExtensions</a>
 </td>
 <td align="left" width="63%">
 Retrieves the OID of the current extension and moves the internal enumeration pointer to the next  extension.
@@ -121,7 +121,7 @@ Retrieves the OID of the current extension and moves the internal enumeration po
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b1755fc5-f18f-45b5-a89a-44c6598c0e2c">EnumerateExtensionsClose</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-enumerateextensionsclose">EnumerateExtensionsClose</a>
 </td>
 <td align="left" width="63%">
 Frees the resources connected with extension enumeration.
@@ -130,7 +130,7 @@ Frees the resources connected with extension enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e7ad32a5-d7df-407f-8efe-c9931610c2d2">EnumerateExtensionsSetup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-enumerateextensionssetup">EnumerateExtensionsSetup</a>
 </td>
 <td align="left" width="63%">
 Initializes the internal enumeration pointer to the first certificate extension associated with the current context.
@@ -139,7 +139,7 @@ Initializes the internal enumeration pointer to the first certificate extension 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e2c8e1d5-6ddb-4c8f-8052-f45cd52e2bef">GetCertificateExtension</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-getcertificateextension">GetCertificateExtension</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specific certificate extension.
@@ -148,17 +148,17 @@ Retrieves a specific certificate extension.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6266e96d-81da-478f-99da-86936b4cfc6b">GetCertificateExtensionFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-getcertificateextensionflags">GetCertificateExtensionFlags</a>
 </td>
 <td align="left" width="63%">
 Retrieves the  flags associated with the extension acquired by the most recent call to 
-<a href="https://msdn.microsoft.com/e2c8e1d5-6ddb-4c8f-8052-f45cd52e2bef">GetCertificateExtension</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-getcertificateextension">GetCertificateExtension</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e7ece535-31c7-4468-a9ef-84f4dbf16d76">GetCertificateProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-getcertificateproperty">GetCertificateProperty</a>
 </td>
 <td align="left" width="63%">
 Returns a named certificate property.
@@ -167,7 +167,7 @@ Returns a named certificate property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/344cb710-4824-455c-9599-3036a2b36905">GetRequestAttribute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-getrequestattribute">GetRequestAttribute</a>
 </td>
 <td align="left" width="63%">
 Returns a named request attribute.
@@ -176,7 +176,7 @@ Returns a named request attribute.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4055008a-7034-47f3-bbae-c870165ab3ef">GetRequestProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-getrequestproperty">GetRequestProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specific property from a request.
@@ -185,7 +185,7 @@ Retrieves a specific property from a request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/aed8b621-3881-41fe-b7a3-657fecdab351">SetCertificateExtension</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcertificateextension">SetCertificateExtension</a>
 </td>
 <td align="left" width="63%">
 Adds a new extension to the certificate to be issued for the current context.
@@ -194,7 +194,7 @@ Adds a new extension to the certificate to be issued for the current context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1230aa79-d8b0-4f2b-ab10-412b8c530b0b">SetCertificateProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcertificateproperty">SetCertificateProperty</a>
 </td>
 <td align="left" width="63%">
 Causes the server engine to add a named property to a certificate.
@@ -203,10 +203,10 @@ Causes the server engine to add a named property to a certificate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ba45cda8-49a5-4bd6-af68-90b4b56aff7d">SetContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">SetContext</a>
 </td>
 <td align="left" width="63%">
-Specifies the certificate request  to be used as the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a> for subsequent calls to Certificate Services.
+Specifies the certificate request  to be used as the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> for subsequent calls to Certificate Services.
 
 </td>
 </tr>
@@ -218,27 +218,27 @@ Specifies the certificate request  to be used as the <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/610712d9-3661-42ba-9d2f-27862ba8dbd4">ICertAdmin::ResubmitRequest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin-resubmitrequest">ICertAdmin::ResubmitRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/309c53f9-50cf-4c50-bc48-a4f15a8ced18">ICertAdmin::SetRequestAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin-setrequestattributes">ICertAdmin::SetRequestAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/860f0eb0-5b23-44bd-8416-687a94962f1b">ICertPolicy::VerifyRequest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certpol/nf-certpol-icertpolicy-verifyrequest">ICertPolicy::VerifyRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f371aa6-492e-41ba-8455-66e9d5f5da44">ICertRequest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest">ICertRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/22ae8d39-3f16-4f7d-94a0-aa68b03aaa0b">ICertRequest::Submit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest-submit">ICertRequest::Submit</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

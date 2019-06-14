@@ -104,15 +104,15 @@ The returned HRESULT is only used to see if the function is completing asynchron
                 
             
 
-Irrespective of whether <a href="https://msdn.microsoft.com/473af4be-d193-42a5-82ff-359b50a7bc58">WS_SERVICE_ACCEPT_CHANNEL_CALLBACK</a> competed successfully or not. This function 
+Irrespective of whether <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_service_accept_channel_callback">WS_SERVICE_ACCEPT_CHANNEL_CALLBACK</a> competed successfully or not. This function 
                 will always be fired.
             
 
-See also <a href="https://msdn.microsoft.com/473af4be-d193-42a5-82ff-359b50a7bc58">WS_SERVICE_ACCEPT_CHANNEL_CALLBACK</a> which can be used by the application to associate state,
+See also <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_service_accept_channel_callback">WS_SERVICE_ACCEPT_CHANNEL_CALLBACK</a> which can be used by the application to associate state,
                 and gets called when a channel gets accepted.
             
 
-For an example implementation on how to use this callback for disassociating session state, see the session based calculator <a href="https://msdn.microsoft.com/7501025b-5692-4f89-ad74-c60694c29163">sample</a>.
+For an example implementation on how to use this callback for disassociating session state, see the session based calculator <a href="https://docs.microsoft.com/windows/desktop/wsw/sessionfullcalculatorserviceexample">sample</a>.
             
 
 This callback is cancellable.

@@ -50,10 +50,10 @@ ms.custom: 19H1
 
 
 Provides a set of flags to be used with the following methods to indicate the type of condition tree node: 
-        <a href="https://msdn.microsoft.com/en-us/library/Bb231390(v=VS.85).aspx">ICondition::GetConditionType</a>, 
-        <a href="https://msdn.microsoft.com/en-us/library/Bb231384(v=VS.85).aspx">IConditionFactory::MakeAndOr</a>, 
-        <a href="https://msdn.microsoft.com/en-us/library/Dd742801(v=VS.85).aspx">IConditionFactory2::CreateCompoundFromArray</a>, and 
-        <a href="https://msdn.microsoft.com/en-us/library/Dd742793(v=VS.85).aspx">IConditionFactory2::CreateCompoundFromObjectArray</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nf-structuredquerycondition-icondition-getconditiontype">ICondition::GetConditionType</a>, 
+        <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory-makeandor">IConditionFactory::MakeAndOr</a>, 
+        <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-createcompoundfromarray">IConditionFactory2::CreateCompoundFromArray</a>, and 
+        <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-createcompoundfromobjectarray">IConditionFactory2::CreateCompoundFromObjectArray</a>.
 
 
 ## -enum-fields
@@ -78,7 +78,7 @@ Indicates a "NOT" comparison of subterms.
 
 ### -field CT_LEAF_CONDITION
 
-Indicates that the node is a comparison between a property and a constant value using a <a href="https://msdn.microsoft.com/en-us/library/Aa965691(v=VS.85).aspx">CONDITION_OPERATION</a>.
+Indicates that the node is a comparison between a property and a constant value using a <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/ne-structuredquerycondition-tagcondition_operation">CONDITION_OPERATION</a>.
 
 
 ## -remarks
@@ -97,31 +97,31 @@ The StructuredQuerySample code sample, available on <a href="http://go.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd797838(v=VS.85).aspx">CONDITION_CREATION_OPTIONS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-condition_creation_options">CONDITION_CREATION_OPTIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa965691(v=VS.85).aspx">CONDITION_OPERATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/ne-structuredquerycondition-tagcondition_operation">CONDITION_OPERATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb231395(v=VS.85).aspx">ICondition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd742811(v=VS.85).aspx">ICondition2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition2">ICondition2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb231383(v=VS.85).aspx">IConditionFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iconditionfactory">IConditionFactory</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd742799(v=VS.85).aspx">IConditionFactory2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iconditionfactory2">IConditionFactory2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb231380(v=VS.85).aspx">IConditionGenerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iconditiongenerator">IConditionGenerator</a>
 
 
 

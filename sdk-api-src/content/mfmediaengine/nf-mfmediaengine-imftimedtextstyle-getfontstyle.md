@@ -59,9 +59,9 @@ Gets the font style of the timed-text style.
 
 ### -param fontStyle [out]
 
-Type: <b><a href="https://msdn.microsoft.com/29D8CCBD-B69A-46B5-8320-06C0E2EA81AE">MF_TIMED_TEXT_FONT_STYLE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_timed_text_font_style">MF_TIMED_TEXT_FONT_STYLE</a>*</b>
 
-A pointer to a variable that receives a <a href="https://msdn.microsoft.com/29D8CCBD-B69A-46B5-8320-06C0E2EA81AE">MF_TIMED_TEXT_FONT_STYLE</a>-typed value that specifies the font style.
+A pointer to a variable that receives a <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_timed_text_font_style">MF_TIMED_TEXT_FONT_STYLE</a>-typed value that specifies the font style.
 
 
 ## -returns
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/ED358A36-BEEF-491E-8984-938F71472F26">IMFTimedTextStyle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextstyle">IMFTimedTextStyle</a>
  
 
  

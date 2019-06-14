@@ -49,11 +49,11 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>GetTargetLuns</b> method prompts the hardware provider to initialize the <a href="https://msdn.microsoft.com/6ad7ec27-add1-4f1e-aa01-6f43c75b7ad9">VDS_LUN_INFORMATION</a> structures for the newly created shadow copy LUNs. The <b>GetTargetLuns</b> method 
+The <b>GetTargetLuns</b> method prompts the hardware provider to initialize the <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a> structures for the newly created shadow copy LUNs. The <b>GetTargetLuns</b> method 
     is called after 
-    the <a href="https://msdn.microsoft.com/191b263b-1bcf-4617-95d4-5b4c1ed714ee">IVssProviderCreateSnapshotSet::PostCommitSnapshots</a> method. 
+    the <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivssprovidercreatesnapshotset-postcommitsnapshots">IVssProviderCreateSnapshotSet::PostCommitSnapshots</a> method. 
     Identifying information for each newly created LUN is returned to VSS through 
-    <a href="https://msdn.microsoft.com/6ad7ec27-add1-4f1e-aa01-6f43c75b7ad9">VDS_LUN_INFORMATION</a> structures.
+    <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a> structures.
 <div class="alert"><b>Note</b>  Hardware providers are only supported on Windows Server operating systems.</div><div> </div>
 
 ## -parameters
@@ -74,13 +74,13 @@ Pointer to an array of <i>lLunCount</i> pointers to strings. Each string contain
 
 ### -param rgSourceLuns [in]
 
-Pointer to an array of <i>lLunCount</i><a href="https://msdn.microsoft.com/6ad7ec27-add1-4f1e-aa01-6f43c75b7ad9">VDS_LUN_INFORMATION</a> structures, one for each LUN 
+Pointer to an array of <i>lLunCount</i><a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a> structures, one for each LUN 
       that contributes to the original volume.
 
 
 ### -param rgDestinationLuns [in, out]
 
-Pointer to an array of <i>lLunCount</i><a href="https://msdn.microsoft.com/6ad7ec27-add1-4f1e-aa01-6f43c75b7ad9">VDS_LUN_INFORMATION</a> structures, one for each new 
+Pointer to an array of <i>lLunCount</i><a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a> structures, one for each new 
       shadow copy LUN created during shadow copy processing. There should be a one-to-one correspondence between the elements of 
       the <i>rgSourceLuns</i> and <i>rgDestinationLuns</i> arrays.
 
@@ -155,7 +155,7 @@ An unexpected provider error occurred. The provider must report an event in the 
 
 
 
-In the <i>rgDestinationLuns</i> parameter, VSS supplies an empty <a href="https://msdn.microsoft.com/6ad7ec27-add1-4f1e-aa01-6f43c75b7ad9">VDS_LUN_INFORMATION</a> 
+In the <i>rgDestinationLuns</i> parameter, VSS supplies an empty <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a> 
     structure for each newly created shadow copy LUN. The shadow copy LUNs are not surfaced or visible to the system. 
     The provider should initialize the members of the 
     <b>VDS_LUN_INFORMATION</b> structure with the appropriate SCSI 
@@ -163,24 +163,24 @@ In the <i>rgDestinationLuns</i> parameter, VSS supplies an empty <a href="https:
     structure should contain correct member values such that the shadow copy LUNs can be located by Windows from the 
     original computer or any other computer connected to the SAN.
 
-The members of the <a href="https://msdn.microsoft.com/6ad7ec27-add1-4f1e-aa01-6f43c75b7ad9">VDS_LUN_INFORMATION</a> structure correspond to the page 80 information, with the following exceptions:
+The members of the <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a> structure correspond to the page 80 information, with the following exceptions:
 
 <ul>
 <li>The <b>m_version</b> member must be set to <b>VER_VDS_LUN_INFORMATION</b>.</li>
 <li>The <b>m_BusType</b> member is ignored in comparisons during import. This value depends on the PnP storage stack on the corresponding disk device. Usually this is <b>VDSBusTypeScsi</b>.</li>
 <li>The <b>m_diskSignature</b> member is ignored in comparisons during import. The provider must set this member to GUID_NULL.</li>
 </ul>
-The members of the <a href="https://msdn.microsoft.com/88fe83cb-6d3c-40bd-a5ce-71771d2e7511">VDS_STORAGE_DEVICE_ID_DESCRIPTOR</a> 
-      structure (in the <b>m_deviceIdDescriptor</b> member of the <a href="https://msdn.microsoft.com/6ad7ec27-add1-4f1e-aa01-6f43c75b7ad9">VDS_LUN_INFORMATION</a> 
-    structure) correspond to the page 83 information. In this structure, each <a href="https://msdn.microsoft.com/8cc8b6d9-e189-44af-9f2b-2222b2eb0749">VDS_STORAGE_IDENTIFIER</a> 
+The members of the <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_storage_device_id_descriptor">VDS_STORAGE_DEVICE_ID_DESCRIPTOR</a> 
+      structure (in the <b>m_deviceIdDescriptor</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a> 
+    structure) correspond to the page 83 information. In this structure, each <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_storage_identifier">VDS_STORAGE_IDENTIFIER</a> 
       structure corresponds to the STORAGE_IDENTIFIER structure for a device identifier (that is, a storage identifier with an association type of zero). For more information about the STORAGE_IDENTIFIER structure, see the Windows Driver Kit (WDK) documentation.
 
-The <a href="https://msdn.microsoft.com/6ad7ec27-add1-4f1e-aa01-6f43c75b7ad9">VDS_LUN_INFORMATION</a> structures returned here 
+The <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a> structures returned here 
     must be the same as the structures provided in 
-    the <a href="https://msdn.microsoft.com/4e4e5942-5bc8-4b5e-a651-5bb354514994">IVssHardwareSnapshotProvider::FillInLunInfo</a> method during import so 
+    the <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-fillinluninfo">IVssHardwareSnapshotProvider::FillInLunInfo</a> method during import so 
     that VSS can use this information to identify the newly arriving shadow copy LUNs at import. These same structures 
     will be passed to the provider in the 
-    <a href="https://msdn.microsoft.com/9a996875-a495-43c1-987e-67c31d0651c7">IVssHardwareSnapshotProvider::LocateLuns</a> method.
+    <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-locateluns">IVssHardwareSnapshotProvider::LocateLuns</a> method.
 
 
 
@@ -190,11 +190,11 @@ The <a href="https://msdn.microsoft.com/6ad7ec27-add1-4f1e-aa01-6f43c75b7ad9">VD
 
 
 
-<a href="https://msdn.microsoft.com/97fbb6bf-110e-4393-bf25-1ec378b91bdc">IVssHardwareSnapshotProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivsshardwaresnapshotprovider">IVssHardwareSnapshotProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/6ad7ec27-add1-4f1e-aa01-6f43c75b7ad9">VDS_LUN_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a>
  
 
  

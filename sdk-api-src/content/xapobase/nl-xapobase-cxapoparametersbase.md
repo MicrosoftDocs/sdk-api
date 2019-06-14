@@ -50,16 +50,16 @@ ms.custom: 19H1
 ## -description
 
 
-Default implementation of the <a href="https://msdn.microsoft.com/en-us/library/Ee415896(v=VS.85).aspx">IXAPOParameters</a> interface.
+Default implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nn-xapo-ixapoparameters">IXAPOParameters</a> interface.
 
-For a list of all members of this class, see <a href="https://msdn.microsoft.com/en-us/library/Ee415239(v=VS.85).aspx">CXAPOParametersBase Members</a>.
+For a list of all members of this class, see <a href="https://docs.microsoft.com/windows/desktop/xaudio2/cxapoparametersbase-members">CXAPOParametersBase Members</a>.
 
 
 ## -remarks
 
 
 
-<b>CXAPOParametersBase</b> provides thread-safe, overridable implementations for all <a href="https://msdn.microsoft.com/en-us/library/Ee415896(v=VS.85).aspx">IXAPOParameters</a> methods.
+<b>CXAPOParametersBase</b> provides thread-safe, overridable implementations for all <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nn-xapo-ixapoparameters">IXAPOParameters</a> methods.
 
 
 
@@ -76,19 +76,19 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415236(v=VS.85).aspx">CXAPOBase</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xapobase/nl-xapobase-cxapobase">CXAPOBase</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415239(v=VS.85).aspx">CXAPOParametersBase Members</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/cxapoparametersbase-members">CXAPOParametersBase Members</a>
 
 
 
-<a href="https://msdn.microsoft.com/4349f03a-54a0-2780-0138-a893e1568a26">Classes</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/classes">Classes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415896(v=VS.85).aspx">IXAPOParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nn-xapo-ixapoparameters">IXAPOParameters</a>
  
 
  

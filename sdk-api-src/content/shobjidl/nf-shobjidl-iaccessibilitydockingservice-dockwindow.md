@@ -74,12 +74,12 @@ TBD
 
 ### -param pCallback [in]
 
-The callback pointer on which the accessibility application will receive the <a href="https://msdn.microsoft.com/8A88D02C-E542-49F0-B423-771E755D506D">Undock</a> notification.
+The callback pointer on which the accessibility application will receive the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iaccessibilitydockingservice-undockwindow">Undock</a> notification.
 
 
 #### - uHeight [in]
 
-The height at which the window will be docked, in pixels, if this function is successful. Must be less than or equal to the <i>puMaxHeight</i> variable retrieved from a call to the <a href="https://msdn.microsoft.com/1C838B01-EF26-4FCC-878F-A36DEFBA3142">GetAvailableSize</a> method.
+The height at which the window will be docked, in pixels, if this function is successful. Must be less than or equal to the <i>puMaxHeight</i> variable retrieved from a call to the <a href="https://docs.microsoft.com/windows/desktop/com/iaccessibilitydockingservice-getavailablesize">GetAvailableSize</a> method.
 
 
 ## -returns
@@ -144,7 +144,7 @@ There is already another window occupying the docking space. Only one window can
 </dl>
 </td>
 <td width="60%">
-The requested <i>uHeight</i> is larger than the maximum allowed docking height for the specified monitor. However, if this error code is being returned, it means that this monitor does support docking, though at a height indicated by a call to the <a href="https://msdn.microsoft.com/1C838B01-EF26-4FCC-878F-A36DEFBA3142">GetAvailableSize</a> method.
+The requested <i>uHeight</i> is larger than the maximum allowed docking height for the specified monitor. However, if this error code is being returned, it means that this monitor does support docking, though at a height indicated by a call to the <a href="https://docs.microsoft.com/windows/desktop/com/iaccessibilitydockingservice-getavailablesize">GetAvailableSize</a> method.
 
 </td>
 </tr>
@@ -170,7 +170,7 @@ The monitor specified by the monitor handle does not support docking.
 
 
 
-<a href="https://msdn.microsoft.com/DBAFE260-0AC6-4801-8590-DE058667C9A6">IAccessibilityDockingService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iaccessibilitydockingservice">IAccessibilityDockingService</a>
  
 
  

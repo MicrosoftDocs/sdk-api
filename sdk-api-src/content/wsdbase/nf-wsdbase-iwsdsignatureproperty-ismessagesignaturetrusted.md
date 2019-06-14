@@ -94,7 +94,7 @@ Method succeeded.
 
 
 
-A message is trusted if the signing certificate is among one of the certificates or in the certificate store passed down by the calling application in the <a href="https://msdn.microsoft.com/dc757897-032c-4ea3-8f4e-cf00d4ec385b">WSDCreateDiscoveryProvider2</a> call.
+A message is trusted if the signing certificate is among one of the certificates or in the certificate store passed down by the calling application in the <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-wsdcreatediscoveryprovider2">WSDCreateDiscoveryProvider2</a> call.
 
 
 
@@ -104,7 +104,7 @@ A message is trusted if the signing certificate is among one of the certificates
 
 
 
-<a href="https://msdn.microsoft.com/10e95100-4890-4c00-b231-bb7125fed197">IWSDSignatureProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdsignatureproperty">IWSDSignatureProperty</a>
  
 
  

@@ -59,7 +59,7 @@ Defines the provider information to retrieve.
 
 ### -field EventKeywordInformation
 
-Keyword information defined in the manifest. For providers that define themselves using MOF classes, this type returns the enable flags values if the provider class includes the Flags property. For details, see the "Specifying level and enable flags values for a provider" section of <a href="https://msdn.microsoft.com/3bc82074-05a7-411f-884f-5da1fd08112b">Event Tracing MOF Qualifiers</a>. 
+Keyword information defined in the manifest. For providers that define themselves using MOF classes, this type returns the enable flags values if the provider class includes the Flags property. For details, see the "Specifying level and enable flags values for a provider" section of <a href="https://docs.microsoft.com/windows/desktop/ETW/event-tracing-mof-qualifiers">Event Tracing MOF Qualifiers</a>. 
 
 
 ### -field EventLevelInformation
@@ -91,13 +91,13 @@ Reserved.
 
 
 
-If you specify <b>EventOpcodeInformation</b> when calling <a href="https://msdn.microsoft.com/ca3c1519-0b86-4bdb-b027-9c662df5466e">TdhQueryProviderFieldInformation</a>, you must specify the  <i>EventFieldValue</i> parameter as follows:
+If you specify <b>EventOpcodeInformation</b> when calling <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhqueryproviderfieldinformation">TdhQueryProviderFieldInformation</a>, you must specify the  <i>EventFieldValue</i> parameter as follows:
 
 <ul>
 <li>Bits 0 - 15 must contain the task value</li>
 <li>Bits 16 - 23 must contain the opcode value</li>
 </ul>
-You can get the task and opcode values from <a href="https://msdn.microsoft.com/907e6c38-5eaa-49da-9dc0-d055dcc69d1a">EVENT_RECORD.EventHeader.EventDescriptor</a>.
+You can get the task and opcode values from <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_descriptor">EVENT_RECORD.EventHeader.EventDescriptor</a>.
 
 WMI MOF class supports retrieving keyword and level information only.
 
@@ -109,15 +109,15 @@ WMI MOF class supports retrieving keyword and level information only.
 
 
 
-<a href="https://msdn.microsoft.com/c3755ca2-7b17-4f86-9ae8-34621f8b8c1b">PROVIDER_FIELD_INFOARRAY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_provider_field_infoarray">PROVIDER_FIELD_INFOARRAY</a>
 
 
 
-<a href="https://msdn.microsoft.com/ab34a433-b641-4408-81d5-c93609204d24">TdhEnumerateProviderFieldInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhenumerateproviderfieldinformation">TdhEnumerateProviderFieldInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/ca3c1519-0b86-4bdb-b027-9c662df5466e">TdhQueryProviderFieldInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhqueryproviderfieldinformation">TdhQueryProviderFieldInformation</a>
  
 
  

@@ -68,7 +68,7 @@ The output number for which to retrieve stream numbers.
 
 ### -param rgwStreamNumbers [out]
 
-Address of an array that receives the stream numbers associated with the output. The caller allocates the array. The array size must be at least as large as the value returned by the <a href="https://msdn.microsoft.com/928e958b-55dc-4939-8ac3-282389f0077a">IMFASFStreamSelector::GetOutputStreamCount</a> method.
+Address of an array that receives the stream numbers associated with the output. The caller allocates the array. The array size must be at least as large as the value returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getoutputstreamcount">IMFASFStreamSelector::GetOutputStreamCount</a> method.
 
 
 ## -returns
@@ -124,7 +124,7 @@ An output is a stream in an ASF data section that will be parsed. If mutual excl
 
 
 
-<a href="https://msdn.microsoft.com/d2e1fc15-2e12-4698-a4b1-ca8046d228de">IMFASFStreamSelector</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamselector">IMFASFStreamSelector</a>
  
 
  

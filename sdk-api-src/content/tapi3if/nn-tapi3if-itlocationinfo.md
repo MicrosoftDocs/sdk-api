@@ -54,20 +54,20 @@ The
 
 An 
 <b>ITLocationInfo</b> interface pointer is obtained by using 
-<a href="https://msdn.microsoft.com/b286c738-1037-4a11-8c71-192b050d1502">ITAddressTranslation::EnumerateLocations</a> or 
-<a href="https://msdn.microsoft.com/b18f7cb1-fcec-41eb-ac57-bf2d47f958e0">ITAddressTranslation::get_Locations</a>. There can be more than one location entries in the Telephony applet. If so, 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslation-enumeratelocations">ITAddressTranslation::EnumerateLocations</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslation-get_locations">ITAddressTranslation::get_Locations</a>. There can be more than one location entries in the Telephony applet. If so, 
 <b>EnumerateLocations</b> and 
 <b>get_Locations</b> will return them all. However, only one of them is the current location, and TAPI uses that one as the address translation context when 
-<a href="https://msdn.microsoft.com/14e51de8-33fd-4de0-bc1c-5f8085ea095c">ITAddressTranslation::TranslateAddress</a> is called.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslation-translateaddress">ITAddressTranslation::TranslateAddress</a> is called.
 
 The 
 <b>ITLocationInfo</b> interface is a COM wrapper for the TAPI 2.<i>x</i>
-<a href="https://msdn.microsoft.com/8b4357d8-6dc9-4fc8-b164-79675ac71870">LINELOCATIONENTRY</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linelocationentry_tag">LINELOCATIONENTRY</a> structure.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITLocationInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITLocationInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITLocationInfo</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITLocationInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -82,7 +82,7 @@ The <b>ITLocationInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/49137921-7354-4080-8684-148beb919f01">get_CancelCallWaitingCode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlocationinfo-get_cancelcallwaitingcode">get_CancelCallWaitingCode</a>
 </td>
 <td align="left" width="63%">
 Gets the dial digits and modifier characters required to cancel call waiting.
@@ -91,7 +91,7 @@ Gets the dial digits and modifier characters required to cancel call waiting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ab8aee25-84b8-4913-876f-dd01bca5e3b0">get_CityCode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlocationinfo-get_citycode">get_CityCode</a>
 </td>
 <td align="left" width="63%">
 Gets code for city or area.
@@ -100,7 +100,7 @@ Gets code for city or area.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3ddd2e25-39ac-419b-9f99-85c6086f0377">get_CountryCode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlocationinfo-get_countrycode">get_CountryCode</a>
 </td>
 <td align="left" width="63%">
 Gets country or region code.
@@ -109,7 +109,7 @@ Gets country or region code.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c60e384b-ad0a-4e48-a337-b4ffad1b4891">get_CountryID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlocationinfo-get_countryid">get_CountryID</a>
 </td>
 <td align="left" width="63%">
 Gets identifier for country or region.
@@ -118,7 +118,7 @@ Gets identifier for country or region.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/15e13c34-911f-4e4f-b7d9-f044bfb6c6d0">get_LocalAccessCode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlocationinfo-get_localaccesscode">get_LocalAccessCode</a>
 </td>
 <td align="left" width="63%">
 Gets local access code.
@@ -127,7 +127,7 @@ Gets local access code.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2bd86295-8240-477d-90aa-f3061666c5e6">get_LocationName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlocationinfo-get_locationname">get_LocationName</a>
 </td>
 <td align="left" width="63%">
 Gets location name.
@@ -136,7 +136,7 @@ Gets location name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c35e6a6a-3740-4595-90cd-709b4c9a42d1">get_LongDistanceAccessCode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlocationinfo-get_longdistanceaccesscode">get_LongDistanceAccessCode</a>
 </td>
 <td align="left" width="63%">
 Gets code to access long distance.
@@ -145,7 +145,7 @@ Gets code to access long distance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a53d7029-25a0-460c-97dd-c49355cc2ddc">get_Options</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlocationinfo-get_options">get_Options</a>
 </td>
 <td align="left" width="63%">
 Gets indicator of whether the current location supports pulse or tone dialing.
@@ -154,7 +154,7 @@ Gets indicator of whether the current location supports pulse or tone dialing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5dab6a20-6113-46ef-a5d2-855ac1befc1a">get_PermanentLocationID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlocationinfo-get_permanentlocationid">get_PermanentLocationID</a>
 </td>
 <td align="left" width="63%">
 Gets permanent location identifier.
@@ -163,7 +163,7 @@ Gets permanent location identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7881a005-1bab-47a1-a657-31584d3f2713">get_PreferredCardID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlocationinfo-get_preferredcardid">get_PreferredCardID</a>
 </td>
 <td align="left" width="63%">
 Gets preferred calling card identifier.
@@ -172,7 +172,7 @@ Gets preferred calling card identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/45297e46-b1c8-45b0-bb16-8c5d5666bbd0">get_TollPrefixList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlocationinfo-get_tollprefixlist">get_TollPrefixList</a>
 </td>
 <td align="left" width="63%">
 Gets toll prefix list.
@@ -187,27 +187,27 @@ Gets toll prefix list.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/b286c738-1037-4a11-8c71-192b050d1502">ITAddressTranslation::EnumerateLocations</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslation-enumeratelocations">ITAddressTranslation::EnumerateLocations</a>
 
 
 
-<a href="https://msdn.microsoft.com/14e51de8-33fd-4de0-bc1c-5f8085ea095c">ITAddressTranslation::TranslateAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslation-translateaddress">ITAddressTranslation::TranslateAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/b18f7cb1-fcec-41eb-ac57-bf2d47f958e0">ITAddressTranslation::get_Locations</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslation-get_locations">ITAddressTranslation::get_Locations</a>
 
 
 
-<a href="https://msdn.microsoft.com/8b4357d8-6dc9-4fc8-b164-79675ac71870">LINELOCATIONENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linelocationentry_tag">LINELOCATIONENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/77437b06-fb02-44b5-8642-b3de700853ef">lineGetTranslateCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegettranslatecaps">lineGetTranslateCaps</a>
  
 
  

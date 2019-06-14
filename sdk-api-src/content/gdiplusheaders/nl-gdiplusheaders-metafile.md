@@ -56,7 +56,7 @@ The <b>Metafile</b> class defines a graphic metafile. A metafile contains record
 
 
 
-Some <a href="https://msdn.microsoft.com/en-us/library/ms535267(v=VS.85).aspx">Metafile</a> constructors (those that receive a device context handle) create <b>Metafile</b> objects that are used to record metafiles. Other Metafile constructors (those that do not receive a device context handle) create <b>Metafile</b> objects that are used to display (play back) metafiles. 
+Some <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-metafile-metafile(constmetafile_)">Metafile</a> constructors (those that receive a device context handle) create <b>Metafile</b> objects that are used to record metafiles. Other Metafile constructors (those that do not receive a device context handle) create <b>Metafile</b> objects that are used to display (play back) metafiles. 
 
 
 

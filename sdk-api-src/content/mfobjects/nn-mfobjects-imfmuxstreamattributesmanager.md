@@ -52,5 +52,5 @@ ms.custom: 19H1
 ## -description
 
 
-Provides access to the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> of the substreams of a multiplexed media source.
+Provides access to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> of the substreams of a multiplexed media source.
 

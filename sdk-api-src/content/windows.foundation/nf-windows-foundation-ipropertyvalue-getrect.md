@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the <a href="https://msdn.microsoft.com/420daab1-71e7-4610-b454-a49a64061f97">Rect</a> value that is stored in the current <a href="https://msdn.microsoft.com/447625BA-F982-4155-9B05-E478E1229443">IPropertyValue</a> object.
+Gets the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/ns-windows-foundation-rect">Rect</a> value that is stored in the current <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets the <a href="https://msdn.microsoft.com/420daab1-71e7-4610-b454-a49a64061f9
 
 ### -param value [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/420daab1-71e7-4610-b454-a49a64061f97">Rect</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/ns-windows-foundation-rect">Rect</a>*</b>
 
 The value.
 
@@ -80,11 +80,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/447625BA-F982-4155-9B05-E478E1229443">IPropertyValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/2938c3e0-6383-4136-99a6-c47a04c331f7">IPropertyValueStatics::CreateRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createrect">IPropertyValueStatics::CreateRect</a>
  
 
  

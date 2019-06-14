@@ -89,15 +89,15 @@ Use this method on a multi-monitor system to specify to the Video Port Manager w
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/9064daa7-5868-49a5-9fd6-9a332ab3b470">IVPManager Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivpmanager">IVPManager Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/1e30c2d7-b986-47f5-94c8-53937d1e1501">IVPManager::GetVideoPortIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/nf-strmif-ivpmanager-getvideoportindex">IVPManager::GetVideoPortIndex</a>
  
 
  

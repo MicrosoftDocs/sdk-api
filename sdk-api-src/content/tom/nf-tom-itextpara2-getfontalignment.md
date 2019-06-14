@@ -68,19 +68,19 @@ The paragraph font alignment state. It can be one of the following values.
 <th>Font Alignment States</th>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomFontAlignmentAuto</a> (default)</td>
+<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomFontAlignmentAuto</a> (default)</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomFontAlignmentTop</a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomFontAlignmentTop</a></td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomFontAlignmentBaseline</a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomFontAlignmentBaseline</a></td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomFontAlignmentBottom</a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomFontAlignmentBottom</a></td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomFontAlignmentCenter</a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomFontAlignmentCenter</a></td>
 </tr>
 </table>
  
@@ -90,7 +90,7 @@ The paragraph font alignment state. It can be one of the following values.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -102,11 +102,11 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-<a href="https://msdn.microsoft.com/31a0849f-c651-4178-b1ff-a4333bcde5d9">ITextPara2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara2">ITextPara2</a>
 
 
 
-<a href="https://msdn.microsoft.com/2ed1f7f2-9523-4dda-bac0-c1eb3d217102">ITextPara2::SetFontAlignment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara2-setfontalignment">ITextPara2::SetFontAlignment</a>
  
 
  

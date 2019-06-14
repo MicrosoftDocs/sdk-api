@@ -73,7 +73,7 @@ This method does not return a value.
 
 
 This function is typically used in multithreaded applications when there is a series of graphics commands 
-		  that must happen in order. <a href="https://msdn.microsoft.com/A742D03A-0A47-4B08-952A-836A272D1519">Enter</a> is typically called at the beginning of a series of graphics commands, and this function is typically 
+		  that must happen in order. <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11multithread-enter">Enter</a> is typically called at the beginning of a series of graphics commands, and this function is typically 
 		  called after those graphics commands.
 
 
@@ -84,7 +84,7 @@ This function is typically used in multithreaded applications when there is a se
 
 
 
-<a href="https://msdn.microsoft.com/1A07694E-7D61-4A59-82E3-048F04C8D57A">ID3D11Multithread</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_4/nn-d3d11_4-id3d11multithread">ID3D11Multithread</a>
  
 
  

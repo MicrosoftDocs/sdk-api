@@ -62,7 +62,7 @@ Sets a group column, as specified. If no group column is specified, no grouping 
 
 Type: <b>REFPROPERTYKEY</b>
 
-A reference to a group column <a href="https://msdn.microsoft.com/3f5f31af-f040-443b-9045-9761055381ea">PROPERTYKEY</a>.
+A reference to a group column <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a>.
 
 
 ## -returns

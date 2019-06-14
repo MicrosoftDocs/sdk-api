@@ -65,9 +65,9 @@ This property is read/write.
 
 This property is optional.
 
-Also see the restrictions on changing properties described in the Remarks section of the <a href="https://msdn.microsoft.com/59e2a140-bf55-4f0e-bf4b-1a39d3dc0457">INetFwRule</a> interface page.
+Also see the restrictions on changing properties described in the Remarks section of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a> interface page.
 
-The <b>Protocol</b> property must be set before the <a href="https://msdn.microsoft.com/72c4f00c-d5c4-4d93-892b-ec9a63f8df09">LocalPorts</a> or <a href="https://msdn.microsoft.com/e6791258-4669-42d9-9551-5c861bfb2b52">RemotePorts</a> properties or an error will be returned.
+The <b>Protocol</b> property must be set before the <a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_localports">LocalPorts</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_remoteports">RemotePorts</a> properties or an error will be returned.
 
 A list of protocol numbers is available at the  <a href="http://go.microsoft.com/fwlink/p/?linkid=89889">IANA website</a>.
 
@@ -79,7 +79,7 @@ A list of protocol numbers is available at the  <a href="http://go.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/59e2a140-bf55-4f0e-bf4b-1a39d3dc0457">INetFwRule</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a>
  
 
  

@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 Contains a method to  return the deserialized 
-          <a href="https://msdn.microsoft.com/D74D9D3B-96AB-489A-A91C-4F68AC3D05EE">D3D12_ROOT_SIGNATURE_DESC</a> 
+          <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_signature_desc">D3D12_ROOT_SIGNATURE_DESC</a> 
           data structure, of a serialized root signature version 1.0.
         
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12RootSignatureDeserializer</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID3D12RootSignatureDeserializer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12RootSignatureDeserializer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D12RootSignatureDeserializer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>ID3D12RootSignatureDeserializer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A13FB848-A5C1-4B9B-9009-B0166A3A1C8D">GetRootSignatureDesc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12rootsignaturedeserializer-getrootsignaturedesc">GetRootSignatureDesc</a>
 </td>
 <td align="left" width="63%">
 Gets the layout of the root signature.
@@ -87,7 +87,7 @@ Gets the layout of the root signature.
 
 
 
-This interface has been superceded by <a href="https://msdn.microsoft.com/3B1E9837-72CA-4C44-B06C-C77E32480958">ID3D12VersionedRootSignatureDeserializer</a>.
+This interface has been superceded by <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12versionedrootsignaturedeserializer">ID3D12VersionedRootSignatureDeserializer</a>.
 
 
 
@@ -97,15 +97,15 @@ This interface has been superceded by <a href="https://msdn.microsoft.com/3B1E98
 
 
 
-<a href="https://msdn.microsoft.com/A9BD5910-8FF2-4540-BB8E-E8EA5C10528C">Core Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/EE32A222-8469-4AF5-B688-AFA70CF77C6A">Root Signatures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/root-signatures">Root Signatures</a>
  
 
  

@@ -147,7 +147,7 @@ Use the default behavior.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -158,7 +158,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 The <b>EnumProcessModulesEx</b> function is primarily designed for use by debuggers and similar applications that must extract module information from another process. If the module list in the target process is corrupted or not yet initialized, or if the module list changes during the function call as a result of DLLs being loaded or unloaded, <b>EnumProcessModulesEx</b> may fail or return incorrect information.
 
-This function is intended primarily for 64-bit applications. If the function is called by a 32-bit application running under WOW64, the <i>dwFilterFlag</i> option is ignored and the function provides the same results as the <a href="https://msdn.microsoft.com/b4088506-2f69-4cf0-9bab-3e6a7185f5b2">EnumProcessModules</a> function.
+This function is intended primarily for 64-bit applications. If the function is called by a 32-bit application running under WOW64, the <i>dwFilterFlag</i> option is ignored and the function provides the same results as the <a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-enumprocessmodules">EnumProcessModules</a> function.
 
 It is a good idea to specify a large array of <b>HMODULE</b> values, because it is hard to predict how many modules there will be in the process at the time you call 
 <b>EnumProcessModulesEx</b>. To determine if the <i>lphModule</i> array is too small to hold all module handles for the process, compare the value returned in <i>lpcbNeeded</i> with the value specified in <i>cb</i>. If <i>lpcbNeeded</i> is greater than <i>cb</i>, increase the size of the array and call 
@@ -167,11 +167,11 @@ It is a good idea to specify a large array of <b>HMODULE</b> values, because it 
 To determine how many modules were enumerated by the call to 
 <b>EnumProcessModulesEx</b>, divide the resulting value in the <i>lpcbNeeded</i> parameter by <code>sizeof(HMODULE)</code>.
 
-The <b>EnumProcessModulesEx</b> function does not retrieve handles for modules that were loaded with the <b>LOAD_LIBRARY_AS_DATAFILE</b> flag. For more information, see <a href="https://msdn.microsoft.com/4fc699ca-6ffb-4954-9b72-1b827d558563">LoadLibraryEx</a>.
+The <b>EnumProcessModulesEx</b> function does not retrieve handles for modules that were loaded with the <b>LOAD_LIBRARY_AS_DATAFILE</b> flag. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>.
 
-Do not call <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> on any of the handles returned by this function. The information comes from a snapshot, so there are no resources to be freed.
+Do not call <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> on any of the handles returned by this function. The information comes from a snapshot, so there are no resources to be freed.
 
-To take a snapshot of specified processes and the heaps, modules, and threads used by these processes, use the <a href="https://msdn.microsoft.com/df643c25-7558-424c-b187-b3f86ba51358">CreateToolhelp32Snapshot</a> function.
+To take a snapshot of specified processes and the heaps, modules, and threads used by these processes, use the <a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-createtoolhelp32snapshot">CreateToolhelp32Snapshot</a> function.
 
 Starting with Windows 7 and Windows Server 2008 R2, Psapi.h establishes version numbers for the PSAPI functions. The PSAPI version number affects  the name used to call the function and the library that a program must load. 
 
@@ -187,19 +187,19 @@ Programs that must run on earlier versions of Windows as well as Windows 7 and 
 
 
 
-<a href="https://msdn.microsoft.com/df643c25-7558-424c-b187-b3f86ba51358">CreateToolhelp32Snapshot</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-createtoolhelp32snapshot">CreateToolhelp32Snapshot</a>
 
 
 
-<a href="https://msdn.microsoft.com/0c0445cb-27d2-4857-a4a5-7a4c180b068b">EnumProcesses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-enumprocesses">EnumProcesses</a>
 
 
 
-<a href="https://msdn.microsoft.com/e15b5e15-ca06-4733-bd0a-705058ba2db8">Module Information</a>
+<a href="https://docs.microsoft.com/windows/desktop/psapi/module-information">Module Information</a>
 
 
 
-<a href="https://msdn.microsoft.com/e158792b-fec2-498d-aae3-d5679fa55783">PSAPI Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>
  
 
  

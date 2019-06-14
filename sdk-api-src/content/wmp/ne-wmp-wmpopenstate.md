@@ -175,7 +175,7 @@ Opening a URL whose type is unknown.
 
 
 
-<a href="https://msdn.microsoft.com/90689fb7-656d-4c06-a0a9-02bbe0e5b5dd">Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/enumeration-types">Enumeration Types</a>
  
 
  

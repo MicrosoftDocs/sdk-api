@@ -49,16 +49,16 @@ ms.custom: 19H1
 ## -description
 
 
-An extension to the <a href="https://msdn.microsoft.com/4310c987-3542-4a59-a6fb-951143001741">IViewObject</a> interface which returns the size of the drawing for a given view of an object. You can prevent the object from being run if it isn't already running by calling this method instead of <a href="https://msdn.microsoft.com/babaf55e-6c43-48d8-ad13-1333e29a3e1d">IOleObject::GetExtent</a>.
+An extension to the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iviewobject">IViewObject</a> interface which returns the size of the drawing for a given view of an object. You can prevent the object from being run if it isn't already running by calling this method instead of <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getextent">IOleObject::GetExtent</a>.
 
-Like the <a href="https://msdn.microsoft.com/4310c987-3542-4a59-a6fb-951143001741">IViewObject</a> interface, <b>IViewObject2</b> cannot be marshaled to another process. This is because device contexts are only effective in the context of one process.
+Like the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iviewobject">IViewObject</a> interface, <b>IViewObject2</b> cannot be marshaled to another process. This is because device contexts are only effective in the context of one process.
 
 The OLE-provided default implementation provides the size of the object in the cache.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IViewObject2</b> interface inherits from <a href="https://msdn.microsoft.com/4310c987-3542-4a59-a6fb-951143001741">IViewObject</a>. <b>IViewObject2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IViewObject2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iviewobject">IViewObject</a>. <b>IViewObject2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IViewObject2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/66eedee0-58b5-4676-93db-599ed19a02b6">GetExtent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject2-getextent">GetExtent</a>
 </td>
 <td align="left" width="63%">
 Retrieves the size of the view object from the cache.
@@ -88,7 +88,7 @@ Retrieves the size of the view object from the cache.
 
 
 
-<a href="https://msdn.microsoft.com/4310c987-3542-4a59-a6fb-951143001741">IViewObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iviewobject">IViewObject</a>
  
 
  

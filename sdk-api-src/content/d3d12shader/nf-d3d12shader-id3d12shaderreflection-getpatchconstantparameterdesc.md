@@ -60,7 +60,7 @@ Gets a patch-constant parameter description for a shader.
 
 ### -param ParameterIndex [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A zero-based parameter index.
           
@@ -68,9 +68,9 @@ A zero-based parameter index.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn960205(v=VS.85).aspx">D3D12_SIGNATURE_PARAMETER_DESC</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/ns-d3d12shader-_d3d12_signature_parameter_desc">D3D12_SIGNATURE_PARAMETER_DESC</a>*</b>
 
-A pointer to a shader-input-signature description. See <a href="https://msdn.microsoft.com/en-us/library/Dn960205(v=VS.85).aspx">D3D12_SIGNATURE_PARAMETER_DESC</a>.
+A pointer to a shader-input-signature description. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/ns-d3d12shader-_d3d12_signature_parameter_desc">D3D12_SIGNATURE_PARAMETER_DESC</a>.
           
 
 
@@ -78,9 +78,9 @@ A pointer to a shader-input-signature description. See <a href="https://msdn.mic
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-Returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
+Returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a>.
           
 
 
@@ -101,7 +101,7 @@ This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
 
 
 
-<a href="https://msdn.microsoft.com/145F2CCB-C076-42BE-8AF4-74349CDF6B02">ID3D12ShaderReflection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12shaderreflection">ID3D12ShaderReflection</a>
  
 
  

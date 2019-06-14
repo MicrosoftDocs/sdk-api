@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>HueSaturationLightness::SetParameters</b> method sets the parameters of this <a href="https://msdn.microsoft.com/en-us/library/ms534461(v=VS.85).aspx">HueSaturationLightness</a> object. 
+The <b>HueSaturationLightness::SetParameters</b> method sets the parameters of this <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-huesaturationlightness">HueSaturationLightness</a> object. 
 
 
 ## -parameters
@@ -60,23 +60,23 @@ The <b>HueSaturationLightness::SetParameters</b> method sets the parameters of t
 
 ### -param parameters [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534069(v=VS.85).aspx">HueSaturationLightnessParams</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ns-gdipluseffects-huesaturationlightnessparams">HueSaturationLightnessParams</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534069(v=VS.85).aspx">HueSaturationLightnessParams</a> structure that specifies the parameters.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ns-gdipluseffects-huesaturationlightnessparams">HueSaturationLightnessParams</a> structure that specifies the parameters.
 
 
 ## -returns
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 </strong>
 
 If the method succeeds, it returns <b>Ok</b>, which is an element of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 
 
@@ -86,11 +86,11 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534461(v=VS.85).aspx">HueSaturationLightness</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-huesaturationlightness">HueSaturationLightness</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535441(v=VS.85).aspx">HueSaturationLightness::GetParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gdipluseffects-huesaturationlightness-getparameters">HueSaturationLightness::GetParameters</a>
  
 
  

@@ -50,9 +50,9 @@ ms.custom: 19H1
 
 
 The <b>SID_INFO</b> structure contains the list of common names corresponding to the 
-<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structures returned by 
-<a href="https://msdn.microsoft.com/9a4056c6-6a21-4051-b4a6-c77351fce983">ISecurityInformation2::LookupSids</a>. It is a member of the 
-<a href="https://msdn.microsoft.com/e9be644c-ec56-4a49-9aa8-6b3f62d6cf0d">SID_INFO_LIST</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structures returned by 
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation2-lookupsids">ISecurityInformation2::LookupSids</a>. It is a member of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-_sid_info_list">SID_INFO_LIST</a> structure.
 
 
 ## -struct-fields
@@ -62,19 +62,19 @@ The <b>SID_INFO</b> structure contains the list of common names corresponding to
 
 ### -field pSid
 
-A pointer to a <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure that identifies one of the SIDs passed into 
-<a href="https://msdn.microsoft.com/9a4056c6-6a21-4051-b4a6-c77351fce983">ISecurityInformation2::LookupSids</a>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure that identifies one of the SIDs passed into 
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation2-lookupsids">ISecurityInformation2::LookupSids</a>.
 
 
 ### -field pwzCommonName
 
 A pointer to a string containing the common name corresponding to the 
-<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure specified in <b>pSid</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure specified in <b>pSid</b>.
 
 
 ### -field pwzClass
 
-A pointer to a string describing the <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure as either a user or a group. The possible values of this string are as follows:
+A pointer to a string describing the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure as either a user or a group. The possible values of this string are as follows:
 
 <p class="indent">"Computer"
 
@@ -86,7 +86,7 @@ A pointer to a string describing the <a href="https://msdn.microsoft.com/328fba4
 ### -field pwzUPN
 
 A pointer to the user principal name (UPN) corresponding to the 
-<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure specified in <b>pSid</b>. If a UPN has not been designated for the <b>SID</b> structure, the value of this parameter is <b>NULL</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure specified in <b>pSid</b>. If a UPN has not been designated for the <b>SID</b> structure, the value of this parameter is <b>NULL</b>.
 
 
 ## -see-also
@@ -94,11 +94,11 @@ A pointer to the user principal name (UPN) corresponding to the
 
 
 
-<a href="https://msdn.microsoft.com/9a4056c6-6a21-4051-b4a6-c77351fce983">ISecurityInformation2::LookupSids</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation2-lookupsids">ISecurityInformation2::LookupSids</a>
 
 
 
-<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
  
 
  

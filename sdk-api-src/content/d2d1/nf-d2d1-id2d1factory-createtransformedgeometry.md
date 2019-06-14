@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<span>Transforms the specified geometry and stores the result as an <a href="https://msdn.microsoft.com/5d48eab6-1229-4e54-bfab-602b471b23a4">ID2D1TransformedGeometry</a> object. 
+<span>Transforms the specified geometry and stores the result as an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1transformedgeometry">ID2D1TransformedGeometry</a> object. 
 </span><h3>Overload list</h3><table>
 <tr>
 <th align="left" width="37%">Method</th>
@@ -57,19 +57,19 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b2e9f578-cf4c-4002-832d-9cf19287ec77">CreateTransformedGeometry(ID2D1Geometry*,D2D_MATRIX_3X2_F*,ID2D1TransformedGeometry**)</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd371304(v=vs.85)">CreateTransformedGeometry(ID2D1Geometry*,D2D_MATRIX_3X2_F*,ID2D1TransformedGeometry**)</a>
 </td>
 <td align="left" width="63%">
-Transforms the specified geometry and stores the result as an <a href="https://msdn.microsoft.com/5d48eab6-1229-4e54-bfab-602b471b23a4">ID2D1TransformedGeometry</a> object. 
+Transforms the specified geometry and stores the result as an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1transformedgeometry">ID2D1TransformedGeometry</a> object. 
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/14ffec4f-3ea1-4dd1-85ea-f6b9d439226e">CreateTransformedGeometry(ID2D1Geometry*,D2D_MATRIX_3X2_F&,ID2D1TransformedGeometry**)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-createtransformedgeometry(id2d1geometry_constd2d1_matrix_3x2_f__id2d1transformedgeometry)">CreateTransformedGeometry(ID2D1Geometry*,D2D_MATRIX_3X2_F&,ID2D1TransformedGeometry**)</a>
 </td>
 <td align="left" width="63%">
-Transforms the specified geometry and stores the result as an <a href="https://msdn.microsoft.com/5d48eab6-1229-4e54-bfab-602b471b23a4">ID2D1TransformedGeometry</a> object. 
+Transforms the specified geometry and stores the result as an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1transformedgeometry">ID2D1TransformedGeometry</a> object. 
 
 </td>
 </tr>
@@ -84,12 +84,12 @@ Transforms the specified geometry and stores the result as an <a href="https://m
 
 Like other resources, a transformed geometry inherits the resource space and threading policy of the factory that created it. This object is immutable.
 
-When stroking a transformed geometry with the <a href="https://msdn.microsoft.com/319b2680-34f8-4e00-985e-47ff87115794">DrawGeometry</a> method, the stroke width is not affected by the transform applied to the geometry.  The stroke width is only affected by the world transform.
+When stroking a transformed geometry with the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawgeometry">DrawGeometry</a> method, the stroke width is not affected by the transform applied to the geometry.  The stroke width is only affected by the world transform.
 
 
 #### Examples
 
-The following example creates an <a href="https://msdn.microsoft.com/bb5f65ba-34d4-418b-863c-2431046bce8e">ID2D1RectangleGeometry</a>, then draws it without transforming it. It produces the output shown in the following illustration.
+The following example creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rectanglegeometry">ID2D1RectangleGeometry</a>, then draws it without transforming it. It produces the output shown in the following illustration.
 
 <img alt="Illustration of a rectangle" src="images/transformedgeometry2_step1.png"/>
 
@@ -157,7 +157,7 @@ m_pRenderTarget->DrawGeometry(m_pTransformedGeometry, m_pBlackBrush, 1);
 
 
 
-<a href="https://msdn.microsoft.com/cef6115c-98e8-49e6-b419-271b43ce2938">ID2D1Factory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>
  
 
  

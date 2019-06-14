@@ -382,9 +382,9 @@ Value: 0xC0AA0301
 
 
 
-To retrieve the requested write speed, call the <a href="https://msdn.microsoft.com/7db85ce1-ff93-4bda-8245-3ffe85e835d3">IDiscFormat2Data::get_RequestedWriteSpeed</a> method.
+To retrieve the requested write speed, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_requestedwritespeed">IDiscFormat2Data::get_RequestedWriteSpeed</a> method.
 
-To retrieve a list of the write speeds that the recorder and current media supports, call the <a href="https://msdn.microsoft.com/09d8019d-b3d5-47e1-8fda-58c542d5829d">IDiscFormat2Data::get_SupportedWriteSpeeds</a> method.
+To retrieve a list of the write speeds that the recorder and current media supports, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_supportedwritespeeds">IDiscFormat2Data::get_SupportedWriteSpeeds</a> method.
 
 Note that the write speed is based on the media write speeds. The value of this property can change when a media change occurs.
 
@@ -396,19 +396,19 @@ Note that the write speed is based on the media write speeds. The value of this 
 
 
 
-<a href="https://msdn.microsoft.com/6bb871c2-1a6e-4cf6-94e1-7a566ce7a88e">IDiscFormat2Data</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3e03af5-bda2-49a3-80d9-52acfe390708">IDiscFormat2Data::SetWriteSpeed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-setwritespeed">IDiscFormat2Data::SetWriteSpeed</a>
 
 
 
-<a href="https://msdn.microsoft.com/7db85ce1-ff93-4bda-8245-3ffe85e835d3">IDiscFormat2Data::get_RequestedWriteSpeed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_requestedwritespeed">IDiscFormat2Data::get_RequestedWriteSpeed</a>
 
 
 
-<a href="https://msdn.microsoft.com/09d8019d-b3d5-47e1-8fda-58c542d5829d">IDiscFormat2Data::get_SupportedWriteSpeeds</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_supportedwritespeeds">IDiscFormat2Data::get_SupportedWriteSpeeds</a>
  
 
  

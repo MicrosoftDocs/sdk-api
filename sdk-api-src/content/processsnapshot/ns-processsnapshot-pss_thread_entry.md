@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Holds thread information  returned by <a href="https://msdn.microsoft.com/C6AC38B5-0A1C-44D7-A1F6-8196AE9B8FB0">PssWalkSnapshot</a><b>PssWalkSnapshot</b>.
+Holds thread information  returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psswalksnapshot">PssWalkSnapshot</a><b>PssWalkSnapshot</b>.
 
 
 ## -struct-fields
@@ -104,22 +104,22 @@ Reserved for use by the operating system.
 
 ### -field CreateTime
 
-The time the thread was created. For more information, see <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a>.
+The time the thread was created. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>.
 
 
 ### -field ExitTime
 
-If the thread exited, the time of the exit. For more information, see <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a>.
+If the thread exited, the time of the exit. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>.
 
 
 ### -field KernelTime
 
-The amount of time the thread spent executing in kernel mode. For more information, see <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a>.
+The amount of time the thread spent executing in kernel mode. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>.
 
 
 ### -field UserTime
 
-The amount of time the thread spent executing in user mode. For more information, see <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a>.
+The amount of time the thread spent executing in user mode. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>.
 
 
 ### -field Win32StartAddress
@@ -129,12 +129,12 @@ A pointer to the thread procedure for thread.
 
 ### -field CaptureTime
 
-The capture time of this thread. For more information, see <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a>.
+The capture time of this thread. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>.
 
 
 ### -field Flags
 
-Flags about the thread. For more information, see <a href="https://msdn.microsoft.com/8E90F0EA-D50A-431D-9507-B882EB673629">PSS_THREAD_FLAGS</a>.
+Flags about the thread. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/ne-processsnapshot-pss_thread_flags">PSS_THREAD_FLAGS</a>.
 
 
 ### -field SuspendCount
@@ -149,7 +149,7 @@ The size of <i>ContextRecord</i>, in bytes.
 
 ### -field ContextRecord
 
-A pointer to the context record if thread context information was captured. The pointer is valid for the lifetime of the walk marker passed to <a href="https://msdn.microsoft.com/C6AC38B5-0A1C-44D7-A1F6-8196AE9B8FB0">PssWalkSnapshot</a>.
+A pointer to the context record if thread context information was captured. The pointer is valid for the lifetime of the walk marker passed to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psswalksnapshot">PssWalkSnapshot</a>.
 
 
 ## -remarks
@@ -157,7 +157,7 @@ A pointer to the context record if thread context information was captured. The 
 
 
 
-<a href="https://msdn.microsoft.com/C6AC38B5-0A1C-44D7-A1F6-8196AE9B8FB0">PssWalkSnapshot</a> returns a <b>PSS_THREAD_ENTRY</b> structure when the  <a href="https://msdn.microsoft.com/93A79F7F-2164-4F7A-ADE7-C1655EEFC9BF">PSS_WALK_INFORMATION_CLASS</a> member that the caller provides it is <b>PSS_WALK_THREADS</b>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psswalksnapshot">PssWalkSnapshot</a> returns a <b>PSS_THREAD_ENTRY</b> structure when the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/ne-processsnapshot-pss_walk_information_class">PSS_WALK_INFORMATION_CLASS</a> member that the caller provides it is <b>PSS_WALK_THREADS</b>.
 
 
 
@@ -167,7 +167,7 @@ A pointer to the context record if thread context information was captured. The 
 
 
 
-<a href="https://msdn.microsoft.com/1dc6fe86-3f5a-4810-8e93-a0fe309c54ee">Process Snapshotting</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
  
 
  

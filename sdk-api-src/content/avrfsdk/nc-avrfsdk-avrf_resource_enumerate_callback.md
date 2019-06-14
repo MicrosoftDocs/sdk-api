@@ -59,7 +59,7 @@ Provides access to one of the specialized callback functions for enumeration of 
 
 ### -param ResourceDescription
 
-A pointer to either an <a href="https://msdn.microsoft.com/9268d24d-5000-4ac5-a3c5-895613ccbb9a">AVRF_HANDLE_OPERATION</a> structure or an <a href="https://msdn.microsoft.com/238c7de7-4bf1-4974-8a6f-09e4d5f756ab">AVRF_HEAP_ALLOCATION</a> structure. Be sure to  cast this parameter to the correct structure type.
+A pointer to either an <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/ns-avrfsdk-_avrf_handle_operation">AVRF_HANDLE_OPERATION</a> structure or an <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/ns-avrfsdk-_avrf_heap_allocation">AVRF_HEAP_ALLOCATION</a> structure. Be sure to  cast this parameter to the correct structure type.
 
 
 ### -param EnumerationContext
@@ -69,7 +69,7 @@ A pointer to be passed to the resource-specific callback function.
 
 ### -param EnumerationLevel
 
-Specifies whether the enumeration operation should continue. This must be one of the values in the <a href="https://msdn.microsoft.com/f8260ae8-eb1e-45f4-babc-905f4af7e3b1">eHeapEnumerationLevel</a> enum.
+Specifies whether the enumeration operation should continue. This must be one of the values in the <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/ne-avrfsdk-eheapenumerationlevel">eHeapEnumerationLevel</a> enum.
 
 
 ## -returns
@@ -86,11 +86,11 @@ This function returns error codes or other values defined by the application.
 
 
 
-<a href="https://msdn.microsoft.com/99cb9005-9cfc-44fb-b09f-fed0541cda37">Resource Enumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevNotes/resource-enumeration">Resource Enumeration</a>
 
 
 
-<a href="https://msdn.microsoft.com/e1715f2a-5928-44e6-afbf-f2f0ab0ba3dd">VerifierEnumerateResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/nf-avrfsdk-verifierenumerateresource">VerifierEnumerateResource</a>
  
 
  

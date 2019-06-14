@@ -53,7 +53,7 @@ Brings a volume online.
 <b>Windows Server 2003 and Windows XP:  </b>This control code is not supported for dynamic disks.
 
 To perform this operation, call the 
-   <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
+   <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
    function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -152,7 +152,7 @@ When a volume is online, all requests sent to the volume are honored.
 
 When a volume that is online is dismounted, the next call to open the volume causes it to be mounted. Taking the volume offline prevents the dismounted volume from being mounted again.
 
-To take a volume offline, use the <a href="https://msdn.microsoft.com/7c9b97eb-c167-41cd-b235-7a9d7830915e">IOCTL_VOLUME_OFFLINE</a> control code.
+To take a volume offline, use the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_volume_offline">IOCTL_VOLUME_OFFLINE</a> control code.
 
 In Windows 8 and Windows Server 2012, this code is supported by the following technologies.
 
@@ -212,15 +212,15 @@ No
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c9b97eb-c167-41cd-b235-7a9d7830915e">IOCTL_VOLUME_OFFLINE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_volume_offline">IOCTL_VOLUME_OFFLINE</a>
 
 
 
-<a href="https://msdn.microsoft.com/87f39e1c-3ebf-4c6f-a842-699ec3c45e76">Volume Management Control Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes">Volume Management Control Codes</a>
  
 
  

@@ -92,9 +92,9 @@ All media sources support this time format.
 </dl>
 </td>
 <td width="60%">
-Segment offset. This time format is supported by the <a href="https://msdn.microsoft.com/788ede68-2fd7-45f6-90cb-2426c40f7d4c">Sequencer Source</a>. The starting time is an offset within a segment.
+Segment offset. This time format is supported by the <a href="https://docs.microsoft.com/windows/desktop/medfound/sequencer-source">Sequencer Source</a>. The starting time is an offset within a segment.
 
-Call the <a href="https://msdn.microsoft.com/5999af23-03a6-4fd9-8a56-23179164ff32">MFCreateSequencerSegmentOffset</a> function to create the <b>PROPVARIANT</b> value for the 
+Call the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatesequencersegmentoffset">MFCreateSequencerSegmentOffset</a> function to create the <b>PROPVARIANT</b> value for the 
 <i>pvarStartPosition</i> parameter.
 
 </td>
@@ -109,7 +109,7 @@ Call the <a href="https://msdn.microsoft.com/5999af23-03a6-4fd9-8a56-23179164ff3
 <div> </div>
 Skip to a playlist entry. The <i>pvarStartPosition</i> parameter specifies the index of the playlist entry, relative to the current entry. For example, the value 2 skips forward two entries. To skip backward, pass a negative value. The <b>PROPVARIANT</b> type is <b>VT_I4</b>.
 
-If a media source supports this time format, the <a href="https://msdn.microsoft.com/cb5d54cd-58a3-4903-b22e-8207f90dbbc0">IMFMediaSource::GetCharacteristics</a> method returns one or both of the following flags:
+If a media source supports this time format, the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-getcharacteristics">IMFMediaSource::GetCharacteristics</a> method returns one or both of the following flags:
 
 <ul>
 <li><b>MFMEDIASOURCE_CAN_SKIPFORWARD</b></li>
@@ -187,7 +187,7 @@ The Media Session has been shut down.
 
 When this method is called, the Media Session starts the presentation clock and begins to process media samples.
 
-This method is asynchronous. When the method completes, the Media Session sends an <a href="https://msdn.microsoft.com/28ed32f0-9b23-4da1-9587-15f490da7bf9">MESessionStarted</a> event.
+This method is asynchronous. When the method completes, the Media Session sends an <a href="https://docs.microsoft.com/windows/desktop/medfound/mesessionstarted">MESessionStarted</a> event.
 
 
 
@@ -197,7 +197,7 @@ This method is asynchronous. When the method completes, the Media Session sends 
 
 
 
-<a href="https://msdn.microsoft.com/feebf891-73fa-4fe6-94ca-3594986fc92d">IMFMediaSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a>
  
 
  

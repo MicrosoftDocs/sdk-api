@@ -63,7 +63,7 @@ The <b>GetRenderingPrefs</b> method retrieves the current set of rendering prefe
 
 ### -param pdwRenderFlags [out]
 
-Receives a <a href="https://msdn.microsoft.com/en-us/library/Dd407375(v=VS.85).aspx">VMR9RenderPrefs</a> value indicating the current rendering preferences.
+Receives a <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ne-vmr9-__midl___midl_itf_vmr9_0000_0008_0001">VMR9RenderPrefs</a> value indicating the current rendering preferences.
 
 
 ## -returns
@@ -95,7 +95,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The VMR has not created an allocator-presenter, or the allocator-presenter does not implement the <a href="https://msdn.microsoft.com/en-us/library/Dd377396(v=VS.85).aspx">IVMRImagePresenterConfig9</a> interface.
+The VMR has not created an allocator-presenter, or the allocator-presenter does not implement the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrimagepresenterconfig9">IVMRImagePresenterConfig9</a> interface.
 
 </td>
 </tr>
@@ -109,11 +109,11 @@ The VMR has not created an allocator-presenter, or the allocator-presenter does 
 
 
 
-If  the allocator-presenter implements the <a href="https://msdn.microsoft.com/en-us/library/Dd377396(v=VS.85).aspx">IVMRImagePresenterConfig9</a> interface, this method calls the <a href="https://msdn.microsoft.com/en-us/library/Dd377397(v=VS.85).aspx">IVMRImagePresenterConfig9::GetRenderingPrefs</a> method on the allocator-presenter. 
+If  the allocator-presenter implements the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrimagepresenterconfig9">IVMRImagePresenterConfig9</a> interface, this method calls the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrimagepresenterconfig9-getrenderingprefs">IVMRImagePresenterConfig9::GetRenderingPrefs</a> method on the allocator-presenter. 
 
-The default allocator-presenter implements <a href="https://msdn.microsoft.com/en-us/library/Dd377396(v=VS.85).aspx">IVMRImagePresenterConfig9</a>. Custom allocator-presenters can also implements this interface if desired.
+The default allocator-presenter implements <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrimagepresenterconfig9">IVMRImagePresenterConfig9</a>. Custom allocator-presenters can also implements this interface if desired.
 
-If the VMR-9 has not yet created the allocator-presenter, or if a custom allocator-presenter does not support <a href="https://msdn.microsoft.com/en-us/library/Dd377396(v=VS.85).aspx">IVMRImagePresenterConfig9</a>, this method returns <b>VFW_E_WRONG_STATE</b>. To create the default allocator-presenter, call <a href="https://msdn.microsoft.com/en-us/library/Dd377371(v=VS.85).aspx">IVMRFilterConfig9::SetRenderingMode</a> with the value <b>VMR9Mode_Windowed</b> or <b>VMR9Mode_Windowless</b>.
+If the VMR-9 has not yet created the allocator-presenter, or if a custom allocator-presenter does not support <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrimagepresenterconfig9">IVMRImagePresenterConfig9</a>, this method returns <b>VFW_E_WRONG_STATE</b>. To create the default allocator-presenter, call <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-setrenderingmode">IVMRFilterConfig9::SetRenderingMode</a> with the value <b>VMR9Mode_Windowed</b> or <b>VMR9Mode_Windowless</b>.
 
 
 
@@ -123,11 +123,11 @@ If the VMR-9 has not yet created the allocator-presenter, or if a custom allocat
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377365(v=VS.85).aspx">IVMRFilterConfig9 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrfilterconfig9">IVMRFilterConfig9 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d0fdfac-ec7e-4e02-886b-2039c607dac7">Using the Video Mixing Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
  
 
  

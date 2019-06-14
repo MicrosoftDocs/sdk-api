@@ -55,7 +55,7 @@ Enumerator for an ordered collection of color glyph runs.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteColorGlyphRunEnumerator1</b> interface inherits from <a href="https://msdn.microsoft.com/649AD648-32BB-4BF4-A82F-075E93505E33">IDWriteColorGlyphRunEnumerator</a>. <b>IDWriteColorGlyphRunEnumerator1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteColorGlyphRunEnumerator1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritecolorglyphrunenumerator">IDWriteColorGlyphRunEnumerator</a>. <b>IDWriteColorGlyphRunEnumerator1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IDWriteColorGlyphRunEnumerator1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0FEFD8EB-20E7-4E04-9C31-1A763D2FB816">GetCurrentRun</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritecolorglyphrunenumerator1-getcurrentrun">GetCurrentRun</a>
 </td>
 <td align="left" width="63%">
 Gets the current color glyph run.

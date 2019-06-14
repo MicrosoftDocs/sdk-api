@@ -102,7 +102,7 @@ If your comparison data is longer than the value specified by the <i>cbMax</i> p
 
 
 
-<a href="https://msdn.microsoft.com/44ae8377-c375-4dc3-9f54-a5674e24763f">IROTData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irotdata">IROTData</a>
  
 
  

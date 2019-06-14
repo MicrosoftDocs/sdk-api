@@ -59,7 +59,7 @@ Sets a context object property.
 
 ### -param name [in]
 
-The name of the context object property to be set. See <a href="https://msdn.microsoft.com/dc7748b4-5cf4-41c6-af7d-82b2478b084c">GetProperty</a> for a list of valid property names.
+The name of the context object property to be set. See <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icontextproperties-getproperty">GetProperty</a> for a list of valid property names.
 
 
 ### -param property [in]
@@ -81,7 +81,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/95a5cfda-7587-496e-ba16-0dd2e8a4db32">IContextProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icontextproperties">IContextProperties</a>
  
 
  

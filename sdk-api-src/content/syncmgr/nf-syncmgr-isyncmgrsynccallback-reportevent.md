@@ -66,14 +66,14 @@ A pointer to a buffer that contains the unique ID of the item currently being sy
 
 ### -param nLevel [in]
 
-Type: <b><a href="https://msdn.microsoft.com/9a961cd2-c05f-47cf-a50a-40af18eac0cd">SYNCMGR_EVENT_LEVEL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_event_level">SYNCMGR_EVENT_LEVEL</a></b>
 
-A value from the <a href="https://msdn.microsoft.com/9a961cd2-c05f-47cf-a50a-40af18eac0cd">SYNCMGR_EVENT_LEVEL</a> enumeration declaring the type of event involved.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_event_level">SYNCMGR_EVENT_LEVEL</a> enumeration declaring the type of event involved.
 
 
 ### -param nFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/bb901a85-8f54-4030-81d5-40af66e490bf">SYNCMGR_EVENT_FLAGS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_event_flags">SYNCMGR_EVENT_FLAGS</a></b>
 
 Not used.
 
@@ -137,16 +137,16 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 For the handler to provide more details to the user about the sync result, the property sheet for individual sync results reported by the handler can be extended.
 
-This method replaces <a href="https://msdn.microsoft.com/7c25ef21-9815-41ad-bcc0-b41a62dc0fe5">LogError</a>.
+This method replaces <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-logerror">LogError</a>.
 
-The event is stored only in memory, so all events are cleared when the user logs off or shuts down. This is one reason to implement a custom <a href="https://msdn.microsoft.com/218875bf-be6b-4ca5-8904-81c81c7fbf70">ISyncMgrEventStore</a>, which can provide its events from anywhere, including a file, over the network, or the registry. The sync results folder, however, shows events provided both by the internal event store and by custom event stores provided by sync handlers.
+The event is stored only in memory, so all events are cleared when the user logs off or shuts down. This is one reason to implement a custom <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgreventstore">ISyncMgrEventStore</a>, which can provide its events from anywhere, including a file, over the network, or the registry. The sync results folder, however, shows events provided both by the internal event store and by custom event stores provided by sync handlers.
 
 
 #### Examples
 
 
 
-The following example shows the usage of <a href="https://msdn.microsoft.com/fd7ed6f4-49c6-44c7-86f9-0b2c04d19de8">ISyncMgrSyncCallback::ReportProgress</a> by the <a href="https://msdn.microsoft.com/6742f6a8-eda8-4ef0-8a11-dc70baefcc83">Synchronize</a> method.
+The following example shows the usage of <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-reportprogress">ISyncMgrSyncCallback::ReportProgress</a> by the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-synchronize">Synchronize</a> method.
 
 
 ```cpp

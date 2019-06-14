@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Determines the types of items included in an enumeration. These values are used with the <a href="https://msdn.microsoft.com/248bec8b-0bf4-47d5-adb3-31a685a2c359">IShellFolder::EnumObjects</a> method.
+Determines the types of items included in an enumeration. These values are used with the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-enumobjects">IShellFolder::EnumObjects</a> method.
 
 
 ## -enum-fields
@@ -79,7 +79,7 @@ Determines the types of items included in an enumeration. These values are used 
 
 ### -field SHCONTF_INIT_ON_FIRST_NEXT
 
-0x00100. No longer used; always assumed. <a href="https://msdn.microsoft.com/248bec8b-0bf4-47d5-adb3-31a685a2c359">IShellFolder::EnumObjects</a> can return without validating the enumeration object. Validation can be postponed until the first call to <a href="https://msdn.microsoft.com/4b2cd7a3-687c-4a51-b9af-a01576463f0b">IEnumIDList::Next</a>. Use this flag when a user interface might be displayed prior to the first <b>IEnumIDList::Next</b> call. For a user interface to be presented, <i>hwnd</i> must be set to a valid window handle.
+0x00100. No longer used; always assumed. <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-enumobjects">IShellFolder::EnumObjects</a> can return without validating the enumeration object. Validation can be postponed until the first call to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumidlist-next">IEnumIDList::Next</a>. Use this flag when a user interface might be displayed prior to the first <b>IEnumIDList::Next</b> call. For a user interface to be presented, <i>hwnd</i> must be set to a valid window handle.
 
 
 ### -field SHCONTF_NETPRINTERSRCH
@@ -126,7 +126,7 @@ Determines the types of items included in an enumeration. These values are used 
 
 
 
-By setting the <b><b>SHCONTF_INIT_ON_FIRST_NEXT</b></b> flag, the calling application suggests that the <a href="https://msdn.microsoft.com/248bec8b-0bf4-47d5-adb3-31a685a2c359">IShellFolder::EnumObjects</a> method can expedite the enumeration process by returning an uninitialized enumeration object. Initialization can be deferred until the enumeration process starts. If initializing the enumeration object is a lengthy process, the method implementation should immediately return an uninitialized object. Defer initialization until the first time the <a href="https://msdn.microsoft.com/4b2cd7a3-687c-4a51-b9af-a01576463f0b">IEnumIDList::Next</a> method is called. If initialization requires user input, the method implementation should use <i>hwnd</i> as the parent window for the user interface. For an explanation of what to do when <i>hwnd</i> is set to <b>NULL</b>, see the <b>IShellFolder::EnumObjects</b> reference.
+By setting the <b><b>SHCONTF_INIT_ON_FIRST_NEXT</b></b> flag, the calling application suggests that the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-enumobjects">IShellFolder::EnumObjects</a> method can expedite the enumeration process by returning an uninitialized enumeration object. Initialization can be deferred until the enumeration process starts. If initializing the enumeration object is a lengthy process, the method implementation should immediately return an uninitialized object. Defer initialization until the first time the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumidlist-next">IEnumIDList::Next</a> method is called. If initialization requires user input, the method implementation should use <i>hwnd</i> as the parent window for the user interface. For an explanation of what to do when <i>hwnd</i> is set to <b>NULL</b>, see the <b>IShellFolder::EnumObjects</b> reference.
 
 <div class="alert"><b>Note</b>  The name of this enumeration was changed to <b>SHCONTF</b> in Windows Vista. Earlier, it was named <b>SHCONTF</b>. The name <b>SHCONTF</b> is still defined through a typedef statement, however, so it can continue to be used by legacy code.</div>
 <div> </div>

@@ -64,17 +64,17 @@ No open file flags.
 
 ### -field CF_OPEN_FILE_FLAG_EXCLUSIVE
 
-When specified, <a href="https://msdn.microsoft.com/AFC48080-3B4A-4F6B-9122-25C2A025EA95">CfOpenFileWithOplock</a> returns a share-none handle and requests an RH (OPLOCK_LEVEL_CACHE_READ|OPLOCK_LEVEL_CACHE_HANDLE) oplock on the file.
+When specified, <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfopenfilewithoplock">CfOpenFileWithOplock</a> returns a share-none handle and requests an RH (OPLOCK_LEVEL_CACHE_READ|OPLOCK_LEVEL_CACHE_HANDLE) oplock on the file.
 
 
 ### -field CF_OPEN_FILE_FLAG_WRITE_ACCESS
 
-When specified, <a href="https://msdn.microsoft.com/AFC48080-3B4A-4F6B-9122-25C2A025EA95">CfOpenFileWithOplock</a> attempts to open the file or directory with FILE_READ_DATA/FILE_LIST_DIRECTORY and FILE_WRITE_DATA/FILE_ADD_FILE access; otherwise it attempts to open the file or directory with FILE_READ_DATA/ FILE_LIST_DIRECTORY.
+When specified, <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfopenfilewithoplock">CfOpenFileWithOplock</a> attempts to open the file or directory with FILE_READ_DATA/FILE_LIST_DIRECTORY and FILE_WRITE_DATA/FILE_ADD_FILE access; otherwise it attempts to open the file or directory with FILE_READ_DATA/ FILE_LIST_DIRECTORY.
 
 
 ### -field CF_OPEN_FILE_FLAG_DELETE_ACCESS
 
-When specified, <a href="https://msdn.microsoft.com/AFC48080-3B4A-4F6B-9122-25C2A025EA95">CfOpenFileWithOplock</a> attempts to open the file or directory with DELETE access; otherwise it opens the file normally.
+When specified, <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfopenfilewithoplock">CfOpenFileWithOplock</a> attempts to open the file or directory with DELETE access; otherwise it opens the file normally.
 
 
 ### -field CF_OPEN_FILE_FLAG_FOREGROUND

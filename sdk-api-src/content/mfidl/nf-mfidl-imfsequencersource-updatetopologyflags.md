@@ -68,7 +68,7 @@ Sequencer element identifier of the topology to update.
 
 ### -param dwFlags [in]
 
-Bitwise <b>OR</b> of flags from the <a href="https://msdn.microsoft.com/d52bac8c-e490-417c-ac00-e4cf57fd151c">MFSequencerTopologyFlags</a> enumeration.
+Bitwise <b>OR</b> of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-_mfsequencertopologyflags">MFSequencerTopologyFlags</a> enumeration.
 
 
 ## -returns
@@ -104,11 +104,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/ba5e8e7b-5b0e-4807-a459-75bd5727d1e2">IMFSequencerSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsequencersource">IMFSequencerSource</a>
 
 
 
-<a href="https://msdn.microsoft.com/788ede68-2fd7-45f6-90cb-2426c40f7d4c">Sequencer Source</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/sequencer-source">Sequencer Source</a>
  
 
  

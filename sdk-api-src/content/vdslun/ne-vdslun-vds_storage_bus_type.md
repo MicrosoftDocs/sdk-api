@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines 
    the set of valid bus types of a storage device.
@@ -172,7 +172,7 @@ The maximum value of the storage bus type range.
 
 
 
-The <a href="https://msdn.microsoft.com/6ad7ec27-add1-4f1e-aa01-6f43c75b7ad9">VDS_LUN_INFORMATION</a>, <a href="https://msdn.microsoft.com/c7c09f95-9489-46fd-8b03-cabdee4521cf">VDS_DISK_PROP</a>,  <a href="https://msdn.microsoft.com/f51c2937-4b70-44fb-b626-1df072e2622a">VDS_DISK_PROP2</a>, and <a href="https://msdn.microsoft.com/af932865-abb3-4dee-a7dc-3aa06fd167f6">VDS_DRIVE_PROP2</a> structures include a <b>VDS_STORAGE_BUS_TYPE</b> value as a member to specify the bus type of a LUN, disk, or drive.
+The <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a>, <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_disk_prop">VDS_DISK_PROP</a>,  <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_disk_prop2">VDS_DISK_PROP2</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_drive_prop2">VDS_DRIVE_PROP2</a> structures include a <b>VDS_STORAGE_BUS_TYPE</b> value as a member to specify the bus type of a LUN, disk, or drive.
 
 <div class="alert"><b>Note</b>  The type specified in these structures matches the type that the driver or drivers reported and may not exactly match the hardware.</div>
 <div> </div>
@@ -190,15 +190,15 @@ The <a href="https://msdn.microsoft.com/6ad7ec27-add1-4f1e-aa01-6f43c75b7ad9">VD
 
 
 
-<a href="https://msdn.microsoft.com/30ee6e39-c1e5-4173-a3dd-5644632140d1">VDS Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-enumerations">VDS Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/c7c09f95-9489-46fd-8b03-cabdee4521cf">VDS_DISK_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_disk_prop">VDS_DISK_PROP</a>
 
 
 
-<a href="https://msdn.microsoft.com/6ad7ec27-add1-4f1e-aa01-6f43c75b7ad9">VDS_LUN_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a>
  
 
  

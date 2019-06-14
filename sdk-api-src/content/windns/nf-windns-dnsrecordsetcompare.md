@@ -60,22 +60,22 @@ The
 
 ### -param pRR1 [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a> structure that contains the first DNS RR set of the comparison pair.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a> structure that contains the first DNS RR set of the comparison pair.
 
 
 ### -param pRR2 [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a> structure that contains the second DNS resource record set of the comparison pair.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a> structure that contains the second DNS resource record set of the comparison pair.
 
 
 ### -param ppDiff1 [out, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a> pointer that contains the list of resource records built as a result of the arithmetic performed on them: <b>pRRSet1</b> minus <b>pRRSet2</b>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a> pointer that contains the list of resource records built as a result of the arithmetic performed on them: <b>pRRSet1</b> minus <b>pRRSet2</b>.
 
 
 ### -param ppDiff2 [out, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a> pointer that contains the list of resource records built as a result of the arithmetic performed on them: <b>pRRSet2</b> minus <b>pRRSet1</b>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a> pointer that contains the list of resource records built as a result of the arithmetic performed on them: <b>pRRSet2</b> minus <b>pRRSet1</b>.
 
 
 ## -returns
@@ -93,7 +93,7 @@ Returns <b>TRUE</b> if the compared record sets are equivalent, <b>FALSE</b> if 
 
 When comparing record sets, DNS resource records that are stored using different character encoding are treated by the 
 <b>DnsRecordSetCompare</b> function as equivalent. Contrast this to the 
-<a href="https://msdn.microsoft.com/c4449a23-d6d3-4f27-a963-a84144983e5e">DnsRecordCompare</a> function, in which equivalent records with different encoding are not returned as equivalent records.
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsrecordcompare">DnsRecordCompare</a> function, in which equivalent records with different encoding are not returned as equivalent records.
 
 
 
@@ -103,11 +103,11 @@ When comparing record sets, DNS resource records that are stored using different
 
 
 
-<a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4449a23-d6d3-4f27-a963-a84144983e5e">DnsRecordCompare</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsrecordcompare">DnsRecordCompare</a>
  
 
  

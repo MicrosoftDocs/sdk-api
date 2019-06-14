@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-An application-defined callback function that processes enumerated geographical location information provided by the <a href="https://msdn.microsoft.com/0CB7AE4E-F48A-49A6-A5E8-F151D38CE11E">EnumSystemGeoNames</a> function. The <b>GEO_ENUMNAMEPROC</b> type defines a pointer to this callback function. <i>Geo_EnumNameProc</i> is a placeholder for the application-defined function name.
+An application-defined callback function that processes enumerated geographical location information provided by the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemgeonames">EnumSystemGeoNames</a> function. The <b>GEO_ENUMNAMEPROC</b> type defines a pointer to this callback function. <i>Geo_EnumNameProc</i> is a placeholder for the application-defined function name.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ A two-letter International Organization for Standardization (ISO) 3166-1 code or
 
 #### - data
 
-Application-specific information that was specified by the data parameter when the application called the <a href="https://msdn.microsoft.com/0CB7AE4E-F48A-49A6-A5E8-F151D38CE11E">EnumSystemGeoNames</a> function.
+Application-specific information that was specified by the data parameter when the application called the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemgeonames">EnumSystemGeoNames</a> function.
 
 
 ## -returns
@@ -92,7 +92,7 @@ Returns <b>TRUE</b> to continue enumeration or <b>FALSE</b> otherwise.
 
 
 
-An <i>Geo_EnumNameProc</i> function can carry out any desired task, and can use the information passed to it in the <i>data</i> parameter for any desired purpose. The application registers this function by passing its address to the <a href="https://msdn.microsoft.com/0CB7AE4E-F48A-49A6-A5E8-F151D38CE11E">EnumSystemGeoNames</a> function.
+An <i>Geo_EnumNameProc</i> function can carry out any desired task, and can use the information passed to it in the <i>data</i> parameter for any desired purpose. The application registers this function by passing its address to the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemgeonames">EnumSystemGeoNames</a> function.
 
 For information about two-letter ISO 3166-1 codes, see <a href="https://go.microsoft.com/fwlink/p/?linkid=859039">Country Codes - ISO 3166</a>.  For information about numeric UN M.49 codes, see <a href="https://go.microsoft.com/fwlink/p/?linkid=859018">Standard country or area codes for statistical use (M49)</a>.
 
@@ -104,15 +104,15 @@ For information about two-letter ISO 3166-1 codes, see <a href="https://go.micro
 
 
 
-<a href="https://msdn.microsoft.com/0CB7AE4E-F48A-49A6-A5E8-F151D38CE11E">EnumSystemGeoNames</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemgeonames">EnumSystemGeoNames</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a548074-0782-45e1-8051-80c3b9d81885">National Language Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c72c4de-83be-4b7e-9ed8-b0236c1df8a4">National Language Support Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
  
 
  

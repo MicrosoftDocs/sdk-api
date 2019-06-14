@@ -60,12 +60,12 @@ This method negotiates with the Windows Vista audio engine to establish a data f
 
 ### -param pOppositeFormat [in, optional]
 
-A pointer to an <a href="https://msdn.microsoft.com/bf3ee44b-79f3-441a-91f9-a340dc146d67">IAudioMediaType</a> interface. This parameter is used to indicate the output format of the data. The value of pOppositeFormat must be set to <b>NULL</b> to indicate that the output format can be any type.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/nn-audiomediatype-iaudiomediatype">IAudioMediaType</a> interface. This parameter is used to indicate the output format of the data. The value of pOppositeFormat must be set to <b>NULL</b> to indicate that the output format can be any type.
 
 
 ### -param pRequestedInputFormat [in, optional]
 
-A pointer to an <a href="https://msdn.microsoft.com/bf3ee44b-79f3-441a-91f9-a340dc146d67">IAudioMediaType</a> interface. This parameter is used to indicate the input format that is to be verified.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/nn-audiomediatype-iaudiomediatype">IAudioMediaType</a> interface. This parameter is used to indicate the input format that is to be verified.
 
 
 ### -param ppSupportedInputFormat [out, optional]

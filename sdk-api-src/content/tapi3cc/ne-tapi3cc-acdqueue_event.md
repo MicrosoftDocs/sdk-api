@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>ACDQUEUE_EVENT</b> enum describes ACD queue events. The 
-<a href="https://msdn.microsoft.com/704a9601-e8c3-42d4-86bc-be59c44a05b3">ITQueueEvent::get_Event</a> method returns a member of this enum to indicate the type of ACD queue event that occurred.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itqueueevent-get_event">ITQueueEvent::get_Event</a> method returns a member of this enum to indicate the type of ACD queue event that occurred.
 
 
 ## -enum-fields
@@ -74,15 +74,15 @@ An ACD queue has been removed.
 
 
 
-<a href="https://msdn.microsoft.com/d0ea4f7a-7b50-4610-ae17-957c0c1891e1">ITCallNotificationEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallnotificationevent">ITCallNotificationEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/08a3925c-e14e-442e-952e-483fc41d049c">ITCallNotificationEvent::get_Event</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallnotificationevent-get_event">ITCallNotificationEvent::get_Event</a>
 
 
 
-<a href="https://msdn.microsoft.com/704a9601-e8c3-42d4-86bc-be59c44a05b3">ITQueueEvent::get_Event</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itqueueevent-get_event">ITQueueEvent::get_Event</a>
  
 
  

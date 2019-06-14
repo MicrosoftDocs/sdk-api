@@ -103,7 +103,7 @@ If the function succeeds, it returns a pointer to the allocated memory block. If
 
 In the current version of Media Foundation, this function is equivalent to calling the <b>HeapAlloc</b> function and specifying the heap of the calling process.
 
-To free the allocated memory, call <a href="https://msdn.microsoft.com/c4a03a20-5398-4fe0-9a1f-3bc162c624cd">MFHeapFree</a>.
+To free the allocated memory, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfheapfree">MFHeapFree</a>.
 
 
 
@@ -113,7 +113,7 @@ To free the allocated memory, call <a href="https://msdn.microsoft.com/c4a03a20-
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

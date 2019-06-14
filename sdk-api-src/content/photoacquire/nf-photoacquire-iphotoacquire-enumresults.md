@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <code>EnumResults</code> method retrieves an enumeration containing the paths of all files successfully transferred during the most recent call to <a href="https://msdn.microsoft.com/1000511f-40a6-4d5e-a55f-97e25f6c1e11">Acquire</a>.
+The <code>EnumResults</code> method retrieves an enumeration containing the paths of all files successfully transferred during the most recent call to <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquire-acquire">Acquire</a>.
 
 
 
@@ -119,11 +119,11 @@ If the file transfer is aborted before any files are transferred, <i>ppEnumFileP
 
 
 
-<a href="https://msdn.microsoft.com/94f41290-bbc4-4a2f-9787-831004bde3c7">IPhotoAcquire Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquire">IPhotoAcquire Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/1000511f-40a6-4d5e-a55f-97e25f6c1e11">IPhotoAcquire::Acquire</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquire-acquire">IPhotoAcquire::Acquire</a>
  
 
  

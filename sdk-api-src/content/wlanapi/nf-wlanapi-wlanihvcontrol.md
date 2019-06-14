@@ -59,7 +59,7 @@ The <b>WlanIhvControl</b> function provides a mechanism for independent hardware
 
 ### -param hClientHandle [in]
 
-The client's session handle, obtained by a previous call to the <a href="https://msdn.microsoft.com/27bfa0c1-4443-47a4-a374-326f553fa3bb">WlanOpenHandle</a> function.
+The client's session handle, obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
 
 
 ### -param pInterfaceGuid [in]
@@ -70,7 +70,7 @@ The GUID of the interface.
 
 ### -param Type [in]
 
- A <a href="https://msdn.microsoft.com/a2f147e7-3008-448a-8f79-bb4428b6a678">WLAN_IHV_CONTROL_TYPE</a> structure that specifies the type of software bypassed by the IHV control function. 
+ A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_ihv_control_type">WLAN_IHV_CONTROL_TYPE</a> structure that specifies the type of software bypassed by the IHV control function. 
 
 
 ### -param dwInBufferSize [in]
@@ -118,7 +118,7 @@ If the function fails, the return value may be one of the following return codes
 </dl>
 </td>
 <td width="60%">
-The caller does not have sufficient permissions to perform this operation. When called, <a href="https://msdn.microsoft.com/3fc32119-0f92-4939-8125-812f45584d45">WlanIhvControl</a>  retrieves the discretionary access control list (DACL) stored with the  <b>wlan_secure_ihv_control</b> object. If the DACL does not contain an access control entry (ACE) that grants WLAN_WRITE_ACCESS permission to the access token of the calling thread, then <b>WlanIhvControl</b>    returns <b>ERROR_ACCESS_DENIED</b>.
+The caller does not have sufficient permissions to perform this operation. When called, <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanihvcontrol">WlanIhvControl</a>  retrieves the discretionary access control list (DACL) stored with the  <b>wlan_secure_ihv_control</b> object. If the DACL does not contain an access control entry (ACE) that grants WLAN_WRITE_ACCESS permission to the access token of the calling thread, then <b>WlanIhvControl</b>    returns <b>ERROR_ACCESS_DENIED</b>.
 
 </td>
 </tr>
@@ -177,7 +177,7 @@ Various error codes.
 
 
 
-<a href="https://msdn.microsoft.com/a2f147e7-3008-448a-8f79-bb4428b6a678">WLAN_IHV_CONTROL_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_ihv_control_type">WLAN_IHV_CONTROL_TYPE</a>
  
 
  

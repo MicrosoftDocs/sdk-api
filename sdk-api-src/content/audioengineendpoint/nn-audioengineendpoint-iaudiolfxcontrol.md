@@ -54,7 +54,7 @@ The <b>IAudioLfxControl</b> interface allows the client to apply or remove local
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioLfxControl</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAudioLfxControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioLfxControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioLfxControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAudioLfxControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/33426EAC-13E6-4AF2-9D01-7C3057EB8104">GetLocalEffectsState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiolfxcontrol-getlocaleffectsstate">GetLocalEffectsState</a>
 </td>
 <td align="left" width="63%">
 Retrieves the local effects state that is currently applied to the offloaded audio stream.
@@ -78,7 +78,7 @@ Retrieves the local effects state that is currently applied to the offloaded aud
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F89C2610-BC71-4309-BCDA-5529B16A3FA7">SetLocalEffectsState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiolfxcontrol-setlocaleffectsstate">SetLocalEffectsState</a>
 </td>
 <td align="left" width="63%">
 Sets the local effects state that is applied to the offloaded audio stream.
@@ -93,7 +93,7 @@ Sets the local effects state that is applied to the offloaded audio stream.
 
 
 
-<a href="https://msdn.microsoft.com/b18e2094-e974-4c23-b70b-ace5a168132d">Core Audio Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
  
 
  

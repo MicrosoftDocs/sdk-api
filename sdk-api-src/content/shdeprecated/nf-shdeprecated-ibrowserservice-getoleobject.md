@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deprecated. Retrieves an <a href="https://msdn.microsoft.com/58b32c87-39b6-4d64-9174-cf798ed302c2">IOleObject</a> for the browser.
+Deprecated. Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a> for the browser.
 
 
 ## -parameters
@@ -60,9 +60,9 @@ Deprecated. Retrieves an <a href="https://msdn.microsoft.com/58b32c87-39b6-4d64-
 
 ### -param ppobjv [out]
 
-Type: <b><a href="https://msdn.microsoft.com/58b32c87-39b6-4d64-9174-cf798ed302c2">IOleObject</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>**</b>
 
-The address that receives a pointer to the retrieved <a href="https://msdn.microsoft.com/58b32c87-39b6-4d64-9174-cf798ed302c2">IOleObject</a>.
+The address that receives a pointer to the retrieved <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>.
 
 
 ## -returns

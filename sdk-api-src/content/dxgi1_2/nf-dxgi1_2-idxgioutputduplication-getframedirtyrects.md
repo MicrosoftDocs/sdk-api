@@ -96,7 +96,7 @@ For more information about returning the required buffer size, see Remarks.
 <li>Mode change</li>
 <li>Switch from DWM on, DWM off, or other full-screen application</li>
 </ul>In this situation, the application must release the 
-          <a href="https://msdn.microsoft.com/02C4EC3D-D97F-4CFC-ABF5-03B44CE6A658">IDXGIOutputDuplication</a> interface and 
+          <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgioutputduplication">IDXGIOutputDuplication</a> interface and 
           create a new 
           <b>IDXGIOutputDuplication</b> for the new 
           content.</li>
@@ -107,7 +107,7 @@ For more information about returning the required buffer size, see Remarks.
 <li>E_INVALIDARG if one of the parameters to 
           <b>GetFrameDirtyRects</b> 
           is incorrect; for example, if <i>pDirtyRectsBuffer</i> is NULL.</li>
-<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.</li>
+<li>Possibly other error codes that are described in the <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a> topic.</li>
 </ul>
 
 
@@ -146,7 +146,7 @@ The buffer contains the list of dirty <a href="/windows/desktop/api/windef/ns-wi
 
 
 
-<a href="https://msdn.microsoft.com/02C4EC3D-D97F-4CFC-ABF5-03B44CE6A658">IDXGIOutputDuplication</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgioutputduplication">IDXGIOutputDuplication</a>
  
 
  

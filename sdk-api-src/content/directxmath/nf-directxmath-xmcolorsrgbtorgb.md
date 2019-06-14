@@ -76,11 +76,11 @@ Returns an <b>XMVECTOR</b> describing the converted RGBA color vector. The x ele
 
 
 
-<a href="https://msdn.microsoft.com/857e2aed-d082-d990-1c67-e22ce3d07310">DirectXMath Library Color Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-color">DirectXMath Library Color Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/ADD40A97-6BE1-4EDA-BBBB-6B186694F3E6">XMColorRGBToSRGB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmcolorrgbtosrgb">XMColorRGBToSRGB</a>
  
 
  

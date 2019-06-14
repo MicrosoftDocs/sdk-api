@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ### -param pdwStatus [out]
 
-Pointer to a <b>DWORD</b> that receives zero or a combination of one or more of the <a href="https://msdn.microsoft.com/5f2c0e61-f7e5-4dcc-86a3-7bd1c994b8bc">TF_LBI_STATUS_*</a> values that indicate the current status of the item.
+Pointer to a <b>DWORD</b> that receives zero or a combination of one or more of the <a href="https://docs.microsoft.com/windows/desktop/TSF/tf-lbi-status--constants">TF_LBI_STATUS_*</a> values that indicate the current status of the item.
 
 
 ## -returns
@@ -105,11 +105,11 @@ The method was successful.
 
 
 
-<a href="https://msdn.microsoft.com/16612641-2bff-4e6f-a955-85793021a20b">ITfLangBarItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f2c0e61-f7e5-4dcc-86a3-7bd1c994b8bc">TF_LBI_STATUS_*
+<a href="https://docs.microsoft.com/windows/desktop/TSF/tf-lbi-status--constants">TF_LBI_STATUS_*
       </a>
  
 

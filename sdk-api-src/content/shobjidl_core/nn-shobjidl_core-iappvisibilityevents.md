@@ -55,7 +55,7 @@ Enables applications to receive notifications of state changes in a display and 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppVisibilityEvents</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAppVisibilityEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppVisibilityEvents</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppVisibilityEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IAppVisibilityEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a3fe5a6b-bb8b-4a9d-9ae2-529cce1291ad">AppVisibilityOnMonitorChanged</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iappvisibilityevents-appvisibilityonmonitorchanged">AppVisibilityOnMonitorChanged</a>
 </td>
 <td align="left" width="63%">
 Notifies a client that the mode of a display has changed.
@@ -79,7 +79,7 @@ Notifies a client that the mode of a display has changed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/26789ef4-015a-4dfd-8265-e27b50c565c4">LauncherVisibilityChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iappvisibilityevents-launchervisibilitychange">LauncherVisibilityChange</a>
 </td>
 <td align="left" width="63%">
 Notifies a client that visibility of the Start screen has changed.
@@ -94,11 +94,11 @@ Notifies a client that visibility of the Start screen has changed.
 
 
 
-<a href="https://msdn.microsoft.com/89E26D36-3536-45F5-9396-83CCFB26890B">IAppVisibility</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibility">IAppVisibility</a>
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

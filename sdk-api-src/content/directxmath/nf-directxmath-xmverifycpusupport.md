@@ -76,7 +76,7 @@ This is a run-time check of processor support and should be called at startup of
    functions or types are used.
 
 On Windows, this function is implemented using
-   <a href="http://msdn.microsoft.com/en-us/library/ms724482(VS.85).aspx">IsProcessorFeaturePresent</a>.
+   <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-isprocessorfeaturepresent">IsProcessorFeaturePresent</a>.
 
 Therefore, when executed on windows, <code>XMVerifyCPUSupport</code> shares platform support requirements of
    <code>IsProcessorFeaturePresent</code>.
@@ -95,7 +95,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/4d46fd96-55ca-cb66-f878-caf7894535ae">DirectXMath Library Utility Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-utilities">DirectXMath Library Utility Functions</a>
  
 
  

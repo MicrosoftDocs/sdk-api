@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 Retrieves the current configuration of a communications device.
 
-To retrieve the default configuration settings from the device manager, use the <a href="https://msdn.microsoft.com/04bf5033-17c3-4403-8386-f3144e11423f">GetDefaultCommConfig</a> function.
+To retrieve the default configuration settings from the device manager, use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getdefaultcommconfiga">GetDefaultCommConfig</a> function.
 
 
 ## -parameters
@@ -66,13 +66,13 @@ To retrieve the default configuration settings from the device manager, use the 
 ### -param hCommDev [in]
 
 A handle to the open communications device. The 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function returns this handle.
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function returns this handle.
 
 
 ### -param lpCC [out]
 
 A pointer to a buffer that receives a 
-<a href="https://msdn.microsoft.com/9fd66f39-06a2-4159-9d1e-4ba84570c510">COMMCONFIG</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_commconfig">COMMCONFIG</a> structure.
 
 
 ### -param lpdwSize [in, out]
@@ -87,7 +87,7 @@ The size, in bytes, of the buffer pointed to by <i>lpCC</i>. When the function r
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, use the 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 
 
@@ -97,27 +97,27 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/9fd66f39-06a2-4159-9d1e-4ba84570c510">COMMCONFIG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_commconfig">COMMCONFIG</a>
 
 
 
-<a href="https://msdn.microsoft.com/ba7d1a9e-6906-4923-a8eb-db58050ba699">Communications Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-functions">Communications Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/7faf7d55-e30f-4be2-917b-e057265b81b2">Communications Resources</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-resources">Communications Resources</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/04bf5033-17c3-4403-8386-f3144e11423f">GetDefaultCommConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getdefaultcommconfiga">GetDefaultCommConfig</a>
 
 
 
-<a href="https://msdn.microsoft.com/e38be757-81c6-49ae-8d90-4387893e8ec5">SetCommConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcommconfig">SetCommConfig</a>
  
 
  

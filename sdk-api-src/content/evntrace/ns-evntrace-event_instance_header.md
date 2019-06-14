@@ -210,7 +210,7 @@ If your event trace class GUID supports multiple event types, consumers will use
 
 ### -field DUMMYUNIONNAME2.Class.Level
 
-Provider-defined value that defines the severity level used to generate the event. The value ranges from 0 to 255. The controller specifies the severity level when it calls the <a href="https://msdn.microsoft.com/d75f18e1-e5fa-4039-bb74-76dea334b0fd">EnableTrace</a> function. The provider retrieves the severity level by calling the <a href="https://msdn.microsoft.com/22326fd9-c428-4430-8a92-978d005f6705">GetTraceEnableLevel</a> function from its <a href="https://msdn.microsoft.com/e9f70ae6-906f-4e55-bca7-4355f1ca6091">ControlCallback</a> implementation. The provider uses the value to set this member.
+Provider-defined value that defines the severity level used to generate the event. The value ranges from 0 to 255. The controller specifies the severity level when it calls the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletrace">EnableTrace</a> function. The provider retrieves the severity level by calling the <a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceenablelevel">GetTraceEnableLevel</a> function from its <a href="https://docs.microsoft.com/windows/desktop/ETW/controlcallback">ControlCallback</a> implementation. The provider uses the value to set this member.
 
 ETW defines the following severity levels. Selecting a level higher than 1 will also include events for lower levels. For example, if the controller specifies TRACE_LEVEL_WARNING (3), the provider also generates  TRACE_LEVEL_FATAL (1) and TRACE_LEVEL_ERROR (2) events.
 
@@ -307,10 +307,10 @@ On output, contains the time the event occurred, in 100-nanosecond intervals sin
 
 ### -field RegHandle
 
-Handle to a registered event trace class. Set this property before calling the <a href="https://msdn.microsoft.com/e8361bdc-21dd-47a0-bdbf-56f4d6195689">TraceEventInstance</a> function.
+Handle to a registered event trace class. Set this property before calling the <a href="https://docs.microsoft.com/windows/desktop/ETW/traceeventinstance">TraceEventInstance</a> function.
 
 The 
-<a href="https://msdn.microsoft.com/c9158292-281b-4a02-b280-956e340d225c">RegisterTraceGuids</a> function creates this handle (see the <i>TraceGuidReg</i> parameter).
+<a href="https://docs.microsoft.com/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a> function creates this handle (see the <i>TraceGuidReg</i> parameter).
 
 
 ### -field InstanceId
@@ -384,7 +384,7 @@ Specify if the <b>GuidPtr</b> member contains the class GUID.
 </td>
 <td width="60%">
 Specify if an array of 
-<a href="https://msdn.microsoft.com/64ff1191-2177-4d51-afcd-b58d510e9ae8">MOF_FIELD</a> structures contains the event data appended to this structure. The number of elements in the array is limited to <b>MAX_MOF_FIELDS</b>.
+<a href="https://docs.microsoft.com/windows/desktop/ETW/mof-field">MOF_FIELD</a> structures contains the event data appended to this structure. The number of elements in the array is limited to <b>MAX_MOF_FIELDS</b>.
 
 </td>
 </tr>
@@ -394,10 +394,10 @@ Specify if an array of
 
 ### -field ParentRegHandle
 
-Handle to a registered event trace class of a parent event. Set this property before calling the <a href="https://msdn.microsoft.com/e8361bdc-21dd-47a0-bdbf-56f4d6195689">TraceEventInstance</a> function if you want to trace a hierarchical relationship (parent element/child element) between related events.
+Handle to a registered event trace class of a parent event. Set this property before calling the <a href="https://docs.microsoft.com/windows/desktop/ETW/traceeventinstance">TraceEventInstance</a> function if you want to trace a hierarchical relationship (parent element/child element) between related events.
 
 The 
-<a href="https://msdn.microsoft.com/c9158292-281b-4a02-b280-956e340d225c">RegisterTraceGuids</a> function creates this handle (see the <i>TraceGuidReg</i> parameter).
+<a href="https://docs.microsoft.com/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a> function creates this handle (see the <i>TraceGuidReg</i> parameter).
 
 
 #### - ClientContext
@@ -419,7 +419,7 @@ Be sure to initialize the memory for this structure to zero before setting any m
 
 
 
-<a href="https://msdn.microsoft.com/e8361bdc-21dd-47a0-bdbf-56f4d6195689">TraceEventInstance</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/traceeventinstance">TraceEventInstance</a>
  
 
  

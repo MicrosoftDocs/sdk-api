@@ -57,7 +57,7 @@ The <b>IWMPLibraryServices</b> interface provides methods to enumerate libraries
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPLibraryServices</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMPLibraryServices</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPLibraryServices</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPLibraryServices</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IWMPLibraryServices</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563385(v=VS.85).aspx">getCountByType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmplibraryservices-getcountbytype">getCountByType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the count of available libraries of a specified type.
@@ -81,7 +81,7 @@ Retrieves the count of available libraries of a specified type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563386(v=VS.85).aspx">getLibraryByType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmplibraryservices-getlibrarybytype">getLibraryByType</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an <b>IWMPLibrary</b> interface that represents the library that has the specified type and index.
@@ -90,7 +90,7 @@ Retrieves a pointer to an <b>IWMPLibrary</b> interface that represents the libra
 </tr>
 </table> 
 
-Retrieve a pointer to <b>IWMPLibraryServices</b> by calling <b>QueryInterface</b> through <a href="https://msdn.microsoft.com/en-us/library/Dd563514(v=VS.85).aspx">IWMPPlayer</a> from a local or remoted Windows Media Player ActiveX control.
+Retrieve a pointer to <b>IWMPLibraryServices</b> by calling <b>QueryInterface</b> through <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplayer">IWMPPlayer</a> from a local or remoted Windows Media Player ActiveX control.
 	
 	
 
@@ -100,15 +100,15 @@ Retrieve a pointer to <b>IWMPLibraryServices</b> by calling <b>QueryInterface</b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563383(v=VS.85).aspx">IWMPLibrary Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmplibrary">IWMPLibrary Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563514(v=VS.85).aspx">IWMPPlayer Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplayer">IWMPPlayer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/68a0bdaf-ae1b-4ba1-817b-a31c68b9fddd">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
  
 
  

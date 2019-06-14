@@ -59,7 +59,7 @@ Initiates a multicast file transfer.
 
 ### -param hSessionKey [in]
 
-The handle returned by the <a href="https://msdn.microsoft.com/0ece4ac8-372c-46ec-a6a1-ff1b547a85ef">WdsTransportClientInitializeSession</a> session.
+The handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nf-wdstci-wdstransportclientinitializesession">WdsTransportClientInitializeSession</a> session.
 
 
 ## -returns

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines the prototype for the merge function used by <a href="https://msdn.microsoft.com/en-us/library/Bb775629(v=VS.85).aspx">DPA_Merge</a>.
+Defines the prototype for the merge function used by <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_merge">DPA_Merge</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Defines the prototype for the merge function used by <a href="https://msdn.micro
 
 ### -param uMsg [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A message that instructs this function how to handle the merge. One of the following values.
 
@@ -121,7 +121,7 @@ A pointer to the second item in the merge.
 
 ### -param lParam [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 Additional data that can be used by the merge callback.
 
@@ -149,7 +149,7 @@ The callback function might not modify the dynamic pointer arrays (DPAs) involve
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775723(v=VS.85).aspx">PFNDPAMERGECONST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndpamergeconst">PFNDPAMERGECONST</a>
  
 
  

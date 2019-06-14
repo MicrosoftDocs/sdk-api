@@ -59,13 +59,13 @@ Provides a notification that a sensor state has changed.
 
 ### -param pSensor [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/3216afbb-d524-486d-99ad-0ee0cfb884e0">ISensor</a> interface of the sensor that raised the event.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a> interface of the sensor that raised the event.
 
 
 ### -param state [in]
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd318905(v=VS.85).aspx">SensorState</a> containing the new state.
+<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/ne-sensorsapi-__midl___midl_itf_sensorsapi_0000_0000_0001">SensorState</a> containing the new state.
 
 
 ## -returns
@@ -101,7 +101,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/41acbb4f-b4f8-4573-a993-ed93ec9494f0">ISensorEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorevents">ISensorEvents</a>
  
 
  

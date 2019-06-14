@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the properties of a file system.
 
@@ -61,7 +61,7 @@ Defines the properties of a file system.
 
 ### -field type
 
-The file-system type enumerated by  <a href="https://msdn.microsoft.com/56f2d969-eb1c-44c2-8a12-077a02ae40dc">VDS_FILE_SYSTEM_TYPE</a>.
+The file-system type enumerated by  <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_file_system_type">VDS_FILE_SYSTEM_TYPE</a>.
 
 
 ### -field volumeId
@@ -71,7 +71,7 @@ The GUID of the volume object containing the file system.
 
 ### -field ulFlags
 
-The file-system flags enumerated by <a href="https://msdn.microsoft.com/f2776ee9-4809-4f99-b464-80b5b53f8675">VDS_FILE_SYSTEM_PROP_FLAG</a>.
+The file-system flags enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_file_system_prop_flag">VDS_FILE_SYSTEM_PROP_FLAG</a>.
 
 
 ### -field ullTotalAllocationUnits
@@ -99,7 +99,7 @@ A string containing the file-system label.
 
 
 
-The <a href="https://msdn.microsoft.com/43f5495c-5a60-44fd-b217-16464c4693a4">IVdsVolumeMF::GetFileSystemProperties</a>method returns this structure to report the property details of a file system.
+The <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumemf-getfilesystemproperties">IVdsVolumeMF::GetFileSystemProperties</a>method returns this structure to report the property details of a file system.
 
 
 
@@ -109,19 +109,19 @@ The <a href="https://msdn.microsoft.com/43f5495c-5a60-44fd-b217-16464c4693a4">IV
 
 
 
-<a href="https://msdn.microsoft.com/43f5495c-5a60-44fd-b217-16464c4693a4">IVdsVolumeMF::GetFileSystemProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumemf-getfilesystemproperties">IVdsVolumeMF::GetFileSystemProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a13f5eb-0fa1-48e2-a112-b2254ca28423">VDS Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-structures">VDS Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/f2776ee9-4809-4f99-b464-80b5b53f8675">VDS_FILE_SYSTEM_PROP_FLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_file_system_prop_flag">VDS_FILE_SYSTEM_PROP_FLAG</a>
 
 
 
-<a href="https://msdn.microsoft.com/56f2d969-eb1c-44c2-8a12-077a02ae40dc">VDS_FILE_SYSTEM_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_file_system_type">VDS_FILE_SYSTEM_TYPE</a>
  
 
  

@@ -68,7 +68,7 @@ The <i>D3dGetDriverState</i> function is used by both the Microsoft DirectDraw a
 
 #### - pgdsd
 
-Points to a <a href="https://msdn.microsoft.com/a8b02b56-1733-467b-bd11-0185e6778d34">DD_GETDRIVERSTATEDATA</a> structure that describes the state of the driver.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_getdriverstatedata">DD_GETDRIVERSTATEDATA</a> structure that describes the state of the driver.
 
 
 ## -returns
@@ -94,7 +94,7 @@ All Direct3D drivers must support <i>D3dGetDriverState</i>.
 
 
 
-<a href="https://msdn.microsoft.com/a8b02b56-1733-467b-bd11-0185e6778d34">DD_GETDRIVERSTATEDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_getdriverstatedata">DD_GETDRIVERSTATEDATA</a>
  
 
  

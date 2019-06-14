@@ -55,8 +55,8 @@ The
 <b>MsiEnumComponentCosts</b> function enumerates the disk-space per drive required to install a component. This information is needed to display the disk-space cost required for all drives in the user interface. The returned disk-space costs are expressed in multiples of 512 bytes.
 
 <b>MsiEnumComponentCosts</b> should only be run after the installer has completed file costing and after the 
-<a href="https://msdn.microsoft.com/ae69ad03-5acc-4a62-ba71-3a4e477d34ab">CostFinalize action</a>. For more information, see 
-<a href="https://msdn.microsoft.com/53ebb532-9eb3-46b7-9dcc-f593bfd25c60">File Costing</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/costfinalize-action">CostFinalize action</a>. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/file-costing">File Costing</a>.
 
 
 ## -parameters
@@ -66,13 +66,13 @@ The
 
 ### -param hInstall [in]
 
-Handle to the installation provided to a DLL custom action or obtained through <a href="https://msdn.microsoft.com/1227493a-58dc-4e41-b6d7-9ecce0b3df40">MsiOpenPackage</a>, <a href="https://msdn.microsoft.com/9e9550e9-9c10-4ef1-a172-dfacaaa37fd0">MsiOpenPackageEx</a>, or <a href="https://msdn.microsoft.com/fdc5a2f5-c44a-4cb3-b206-a598bd60024b">MsiOpenProduct</a>.
+Handle to the installation provided to a DLL custom action or obtained through <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
 
 
 ### -param szComponent [in]
 
 A null-terminated string specifying the component's name as it is listed in the Component column of the 
-<a href="https://msdn.microsoft.com/069d64e9-106a-42b7-8dea-a44fc0c6e0cd">Component table</a>. This parameter can be null. If <i>szComponent</i> is null or an empty string, 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/component-table">Component table</a>. This parameter can be null. If <i>szComponent</i> is null or an empty string, 
 <b>MsiEnumComponentCosts</b> enumerates the total disk-space per drive used during the installation. In this case, <i>iState</i> is ignored. The costs of the installer include those costs for caching the database in the secure folder as well as the cost to create the installation script. Note that the total disk-space used during the installation may be larger than the space used after the component is installed.
 
 

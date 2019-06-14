@@ -60,7 +60,7 @@ Retrieves justification opportunity information for each of the glyphs
 
 ### -param fontFace
 
-Type: <b><a href="https://msdn.microsoft.com/1DB7156F-0578-46A0-8C96-E1E34FF4E49E">IDWriteFontFace</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritefontface1">IDWriteFontFace</a>*</b>
 
 Font face that was used for shaping. This is
     mainly important for returning correct results of the kashida
@@ -78,7 +78,7 @@ Font em size used for the glyph run.
 
 ### -param scriptAnalysis
 
-Type: <b><a href="https://msdn.microsoft.com/dafda5f6-39aa-4577-9213-898bdeddc7c2">DWRITE_SCRIPT_ANALYSIS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_script_analysis">DWRITE_SCRIPT_ANALYSIS</a></b>
 
 Script of the text from the itemizer.
 
@@ -113,16 +113,16 @@ Clustermap produced from shaping.
 
 ### -param glyphProperties [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/debaa84f-8883-4117-9be0-962857b55020">DWRITE_SHAPING_GLYPH_PROPERTIES</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_shaping_glyph_properties">DWRITE_SHAPING_GLYPH_PROPERTIES</a>*</b>
 
 Glyph properties produced from shaping.
 
 
 ### -param justificationOpportunities [out]
 
-Type: <b><a href="https://msdn.microsoft.com/D7D18462-A0A4-4064-B04D-CA8ACED7E34D">DWRITE_JUSTIFICATION_OPPORTUNITY</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ns-dwrite_1-dwrite_justification_opportunity">DWRITE_JUSTIFICATION_OPPORTUNITY</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/D7D18462-A0A4-4064-B04D-CA8ACED7E34D">DWRITE_JUSTIFICATION_OPPORTUNITY</a> structure that receives info for the
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ns-dwrite_1-dwrite_justification_opportunity">DWRITE_JUSTIFICATION_OPPORTUNITY</a> structure that receives info for the
     allowed justification expansion/compression for each glyph.
 
 
@@ -141,8 +141,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This function is called per-run, after shaping is done via the <a href="https://msdn.microsoft.com/9bc373b6-9161-4ffc-a942-50d97d6509c3">IDWriteTextAnalyzer::GetGlyphs</a> method.
-    <div class="alert"><b>Note</b>  this function only supports natural metrics (<a href="https://msdn.microsoft.com/99e89754-8bc2-457d-bfdb-a3c9ccfe00c1">DWRITE_MEASURING_MODE_NATURAL</a>).</div>
+This function is called per-run, after shaping is done via the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalyzer-getglyphs">IDWriteTextAnalyzer::GetGlyphs</a> method.
+    <div class="alert"><b>Note</b>  this function only supports natural metrics (<a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-dwrite_measuring_mode">DWRITE_MEASURING_MODE_NATURAL</a>).</div>
 <div> </div>
 
 
@@ -154,7 +154,7 @@ This function is called per-run, after shaping is done via the <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/7F79BA25-5D79-4491-82E3-F9B96DD0C37D">IDWriteTextAnalyzer1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritetextanalyzer1">IDWriteTextAnalyzer1</a>
  
 
  

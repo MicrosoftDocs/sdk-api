@@ -59,7 +59,7 @@ The <b>IRQCallback</b> function performs operations related to the IRQ that occu
 
 ### -param pIrqData
 
-Points to the <a href="https://msdn.microsoft.com/258cfaa3-8de2-45d9-b61b-683cf41c127f">DX_IRQDATA</a> structure that is filled in with the video miniport driver's IRQ information.
+Points to the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_dx_irqdata">DX_IRQDATA</a> structure that is filled in with the video miniport driver's IRQ information.
 
 
 ## -returns
@@ -75,7 +75,7 @@ None
 
 
 
-The <a href="https://msdn.microsoft.com/3a540bfe-f340-4f12-acee-323b97683074">video miniport driver</a> calls the <i>IRQCallback</i> function when an IRQ occurs.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/display/video-miniport-drivers-in-the-windows-2000-display-driver-model">video miniport driver</a> calls the <i>IRQCallback</i> function when an IRQ occurs.
 
 
 
@@ -85,15 +85,15 @@ The <a href="https://msdn.microsoft.com/3a540bfe-f340-4f12-acee-323b97683074">vi
 
 
 
-<a href="https://msdn.microsoft.com/f6ac3ef8-1afc-4c0f-b24f-34d3d56d62a8">DDENABLEIRQINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddenableirqinfo">DDENABLEIRQINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/258cfaa3-8de2-45d9-b61b-683cf41c127f">DX_IRQDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_dx_irqdata">DX_IRQDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/31762a21-e604-4c95-b46c-224b39ab5ac8">DxEnableIRQ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_enableirq">DxEnableIRQ</a>
  
 
  

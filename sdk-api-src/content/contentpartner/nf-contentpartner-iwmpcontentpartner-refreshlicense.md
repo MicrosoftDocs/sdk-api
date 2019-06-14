@@ -64,7 +64,7 @@ The <b>RefreshLicense</b> method initiates the update of a license for the speci
 
 ### -param dwCookie [in]
 
-A cookie that identifies the update request. When the online store has finished updating the license, it passes this cookie to <a href="https://msdn.microsoft.com/en-us/library/Dd563151(v=VS.85).aspx">IWMPContentPartnerCallback::RefreshLicenseComplete</a>.
+A cookie that identifies the update request. When the online store has finished updating the license, it passes this cookie to <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-refreshlicensecomplete">IWMPContentPartnerCallback::RefreshLicenseComplete</a>.
 
 
 ### -param fLocal [in]
@@ -79,7 +79,7 @@ A cookie that identifies the update request. When the online store has finished 
 
 ### -param type [in]
 
-A member of the <a href="https://msdn.microsoft.com/en-us/library/Dd564887(v=VS.85).aspx">WMPStreamingType</a> enumeration that specifies the type (music, video, or radio) of the media file.
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/ne-contentpartner-wmpstreamingtype">WMPStreamingType</a> enumeration that specifies the type (music, video, or radio) of the media file.
 
 
 ### -param contentID [in]
@@ -147,11 +147,11 @@ This method initiates the license update and then returns immediately. When the 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563141(v=VS.85).aspx">IWMPContentPartner Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563151(v=VS.85).aspx">IWMPContentPartnerCallback::RefreshLicenseComplete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-refreshlicensecomplete">IWMPContentPartnerCallback::RefreshLicenseComplete</a>
  
 
  

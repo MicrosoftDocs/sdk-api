@@ -68,7 +68,7 @@ Zero-based index of an output stream on the DMO.
 
 ### -param pdwRequestedCapabilities
 
-Pointer to a variable that receives the DMO's requested features. The returned value is a bitwise combination of zero or more flags from the <a href="https://msdn.microsoft.com/en-us/library/Dd375517(v=VS.85).aspx">DMO_VIDEO_OUTPUT_STREAM_FLAGS</a> enumeration.
+Pointer to a variable that receives the DMO's requested features. The returned value is a bitwise combination of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/ne-mediaobj-_dmo_video_output_stream_flags">DMO_VIDEO_OUTPUT_STREAM_FLAGS</a> enumeration.
 
 
 ## -returns
@@ -126,7 +126,7 @@ Success
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406843(v=VS.85).aspx">IDMOVideoOutputOptimizations Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-idmovideooutputoptimizations">IDMOVideoOutputOptimizations Interface</a>
  
 
  

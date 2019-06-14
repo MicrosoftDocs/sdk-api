@@ -69,7 +69,7 @@ Set the stencil data to 0.
 
 ### -field D3D12_STENCIL_OP_REPLACE
 
-Set the stencil data to the reference value set by calling <a href="https://msdn.microsoft.com/cd5642c4-8bbe-4b5d-9f04-87de82ee9601">ID3D11DeviceContext::OMSetDepthStencilState</a>.
+Set the stencil data to the reference value set by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-omsetdepthstencilstate">ID3D11DeviceContext::OMSetDepthStencilState</a>.
 
 
 ### -field D3D12_STENCIL_OP_INCR_SAT
@@ -101,7 +101,7 @@ Decrement the stencil value by 1, and wrap the result if necessary.
 
 
 
-This enum is used by the <a href="https://msdn.microsoft.com/1E72B486-98E1-4140-80E3-6DF95ECA82DB">D3D12_DEPTH_STENCILOP_DESC</a> structure.
+This enum is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_depth_stencilop_desc">D3D12_DEPTH_STENCILOP_DESC</a> structure.
 
 
 
@@ -111,11 +111,11 @@ This enum is used by the <a href="https://msdn.microsoft.com/1E72B486-98E1-4140-
 
 
 
-<a href="https://msdn.microsoft.com/D3DB04C3-4564-45A4-830A-E63B8D308B33">CD3DX12_DEPTH_STENCIL_DESC</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/cd3dx12-depth-stencil-desc">CD3DX12_DEPTH_STENCIL_DESC</a>
 
 
 
-<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
  
 
  

@@ -69,5 +69,5 @@ The vertical dimension, in pixels, of the client's display.
 
 ### -field ColorDepth
 
-The color depth of the client's display. For possible values, see the <b>ColorDepth</b> member of the <a href="https://msdn.microsoft.com/0d5e0a9d-23b0-4302-ade3-eb9fbd7f787d">WTS_CLIENT_DISPLAY</a> structure.
+The color depth of the client's display. For possible values, see the <b>ColorDepth</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_client_display">WTS_CLIENT_DISPLAY</a> structure.
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains values that specify a type of <a href="https://msdn.microsoft.com/82b5db01-08c9-4518-9d33-15d7813d0c80">UiaCondition</a>.
+Contains values that specify a type of <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/ns-uiautomationcoreapi-uiacondition">UiaCondition</a>.
 
 
 ## -enum-fields

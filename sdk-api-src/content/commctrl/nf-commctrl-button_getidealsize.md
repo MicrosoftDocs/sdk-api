@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the size of the button that best fits the text and image, if an image list is present. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775961(v=VS.85).aspx">BCM_GETIDEALSIZE</a> message explicitly. 
+Gets the size of the button that best fits the text and image, if an image list is present. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/bcm-getidealsize">BCM_GETIDEALSIZE</a> message explicitly. 
 
 
 ## -parameters
@@ -59,16 +59,16 @@ Gets the size of the button that best fits the text and image, if an image list 
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the button control. 
 
 
 ### -param psize
 
-Type: <b><a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a> structure that receives the desired size of the button including the text and image list if present. 
+A pointer to a <a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a> structure that receives the desired size of the button including the text and image list if present. 
 
 
 ## -remarks
@@ -79,7 +79,7 @@ This macro is most applicable to PushButtons. When sent to a PushButton, the mac
 
 When sent to a button of any other type, the size of the control's window rectangle is retrieved.
 
-<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.</div>
+<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.</div>
 <div> </div>
 
 
@@ -89,7 +89,7 @@ When sent to a button of any other type, the size of the control's window rectan
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775961(v=VS.85).aspx">BCM_GETIDEALSIZE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/bcm-getidealsize">BCM_GETIDEALSIZE</a>
 
 
 
@@ -101,7 +101,7 @@ When sent to a button of any other type, the size of the control's window rectan
 
 
 
-<a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a>
+<a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a>
  
 
  

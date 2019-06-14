@@ -85,7 +85,7 @@ The <b>InheritedObjectType</b> field is present in the ACE.
 
 
 
-<a href="https://msdn.microsoft.com/f0ad5ce5-742d-40dc-ac5a-31d779e40bfd">ADSI Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
  
 
  

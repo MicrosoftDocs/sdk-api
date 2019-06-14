@@ -60,22 +60,22 @@ Handles creating an decoder instance.
 
 ### -param *createContext [in]
 
-The createContext that was specified in the <a href="https://msdn.microsoft.com/d634f203-cf98-4f4e-85ce-5df23653a3ad">WS_CHANNEL_DECODER</a>used during channel creation.
+The createContext that was specified in the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_channel_decoder">WS_CHANNEL_DECODER</a>used during channel creation.
                 
 
 
 ### -param readCallback [in]
 
 The function that should be used to read the message data.  This callback
-                    should only be used in response to the <a href="https://msdn.microsoft.com/e607b5a2-4d4a-4e23-854d-b5168556bb69">WS_DECODER_START_CALLBACK</a>,
-                    <a href="https://msdn.microsoft.com/04ba9b13-8145-4956-85b2-2330c792665a">WS_DECODER_DECODE_CALLBACK</a> and <a href="https://msdn.microsoft.com/7cf93467-84f6-4ffb-8329-bc1df119087a">WS_DECODER_END_CALLBACK</a> 
+                    should only be used in response to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_decoder_start_callback">WS_DECODER_START_CALLBACK</a>,
+                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_decoder_decode_callback">WS_DECODER_DECODE_CALLBACK</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_decoder_end_callback">WS_DECODER_END_CALLBACK</a> 
                     callbacks.
                 
 
 
 ### -param *readContext [in]
 
-The read context that should be passed to the provided <a href="https://msdn.microsoft.com/2a5ebe4a-e97d-4744-9ec9-da6da892e4c5">WS_READ_CALLBACK</a>.
+The read context that should be passed to the provided <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_read_callback">WS_READ_CALLBACK</a>.
                 
 
 

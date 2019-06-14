@@ -59,17 +59,17 @@ Creates an instance of the <b>PlayToController</b> object.
 
 ### -param dwFlags [in]
 
-A bitwise <b>OR</b> of flags from the <a href="https://msdn.microsoft.com/15B632DD-586B-40E4-9B63-05CCC6AFB93A">PLAYTO_SOURCE_CREATEFLAGS</a> enumeration.
+A bitwise <b>OR</b> of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/ne-mfsharingengine-playto_source_createflags">PLAYTO_SOURCE_CREATEFLAGS</a> enumeration.
 
 
 ### -param pControl [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/53355EEA-559B-4803-89F6-D454E15F9254">IPlayToControl</a> interface.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nn-mfsharingengine-iplaytocontrol">IPlayToControl</a> interface.
 
 
 ### -param ppSource [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> interface. The caller must release the interface.
 
 
 ## -returns
@@ -86,7 +86,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/F8F9FEC6-836C-429A-BADD-5CD1E550AED0">IPlayToSourceClassFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nn-mfsharingengine-iplaytosourceclassfactory">IPlayToSourceClassFactory</a>
  
 
  

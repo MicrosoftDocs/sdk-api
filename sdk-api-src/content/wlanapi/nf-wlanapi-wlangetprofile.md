@@ -60,14 +60,14 @@ The <b>WlanGetProfile</b> function retrieves all information about a  specified 
 
 ### -param hClientHandle [in]
 
-The client's session handle, obtained by a previous call to the <a href="https://msdn.microsoft.com/27bfa0c1-4443-47a4-a374-326f553fa3bb">WlanOpenHandle</a> function.
+The client's session handle, obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
 
 
 ### -param pInterfaceGuid [in]
 
 The GUID of the wireless interface. 
 
-A list of the GUIDs for wireless interfaces on the local computer can be retrieved using the <a href="https://msdn.microsoft.com/7f817edf-1b1d-495c-afd9-d97e3ae0caab">WlanEnumInterfaces</a> function.
+A list of the GUIDs for wireless interfaces on the local computer can be retrieved using the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanenuminterfaces">WlanEnumInterfaces</a> function.
 
 
 ### -param strProfileName [in]
@@ -109,13 +109,13 @@ The <i>pdwFlags</i> parameter can point to an address location that contains the
 </dl>
 </td>
 <td width="60%">
-On input, this flag indicates that the caller wants to retrieve the plain text key from a wireless profile. If the calling thread has the required permissions, the  <b>WlanGetProfile</b> function returns the plain text key in the <a href="https://msdn.microsoft.com/d2ed407e-5eaa-477b-8c4d-a47795048e0b">keyMaterial</a> element of the profile returned in the buffer pointed to by the   <i>pstrProfileXml</i> parameter.
+On input, this flag indicates that the caller wants to retrieve the plain text key from a wireless profile. If the calling thread has the required permissions, the  <b>WlanGetProfile</b> function returns the plain text key in the <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/wlan-profileschema-keymaterial-sharedkey-element">keyMaterial</a> element of the profile returned in the buffer pointed to by the   <i>pstrProfileXml</i> parameter.
 
-For the <b>WlanGetProfile</b> call to return the plain text key, the <b>wlan_secure_get_plaintext_key</b> permissions from the <a href="https://msdn.microsoft.com/1f6e1460-d27f-4800-8a32-6f9f509753cf">WLAN_SECURABLE_OBJECT</a> enumerated type must be set on the calling thread. The DACL must also contain an ACE that grants <b>WLAN_READ_ACCESS</b> permission to the access token of the calling thread. By default,  the permissions for retrieving the plain text key is allowed only to the members of the Administrators group on a local machine.
+For the <b>WlanGetProfile</b> call to return the plain text key, the <b>wlan_secure_get_plaintext_key</b> permissions from the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_securable_object">WLAN_SECURABLE_OBJECT</a> enumerated type must be set on the calling thread. The DACL must also contain an ACE that grants <b>WLAN_READ_ACCESS</b> permission to the access token of the calling thread. By default,  the permissions for retrieving the plain text key is allowed only to the members of the Administrators group on a local machine.
 
 
 
-If the calling thread lacks the required permissions, the <b>WlanGetProfile</b> function returns the encrypted key in the <a href="https://msdn.microsoft.com/d2ed407e-5eaa-477b-8c4d-a47795048e0b">keyMaterial</a> element of the profile returned in the buffer pointed to by the   <i>pstrProfileXml</i> parameter. No error is returned if the calling thread lacks the required permissions. 
+If the calling thread lacks the required permissions, the <b>WlanGetProfile</b> function returns the encrypted key in the <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/wlan-profileschema-keymaterial-sharedkey-element">keyMaterial</a> element of the profile returned in the buffer pointed to by the   <i>pstrProfileXml</i> parameter. No error is returned if the calling thread lacks the required permissions. 
 
 <b>Windows 7:  </b>This flag passed on input is an extension to native wireless APIs added on Windows 7 and  later.  The <i>pdwFlags</i> parameter is an __inout_opt parameter on Windows 7 and  later.  
 
@@ -273,7 +273,7 @@ The profile specified by <i>strProfileName</i> was not found.
 </td>
 <td width="60%">
 Various RPC and other error codes. Use 
-<a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> to obtain the message string for the returned error.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 
 </td>
@@ -288,28 +288,28 @@ Various RPC and other error codes. Use
 
 
 
-If the <b>WlanGetProfile</b> function succeeds, the wireless profile is returned in the buffer pointed to by the <i>pstrProfileXml</i> parameter. The buffer contains a string that is the XML representation of the queried profile. For a description of the XML representation of the wireless profile, see <a href="https://msdn.microsoft.com/b983df2e-95cf-41ce-929e-2bc560854f21">WLAN_profile Schema</a>. 
+If the <b>WlanGetProfile</b> function succeeds, the wireless profile is returned in the buffer pointed to by the <i>pstrProfileXml</i> parameter. The buffer contains a string that is the XML representation of the queried profile. For a description of the XML representation of the wireless profile, see <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/wlan-policyschema-schema">WLAN_profile Schema</a>. 
 
-The caller is responsible for calling the <a href="https://msdn.microsoft.com/241afb9d-8b16-4d76-b311-302b5492853e">WlanFreeMemory</a> function to free the memory allocated for the buffer pointer to by the <i>pstrProfileXml</i> parameter when the buffer is no longer needed.
+The caller is responsible for calling the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a> function to free the memory allocated for the buffer pointer to by the <i>pstrProfileXml</i> parameter when the buffer is no longer needed.
 
-If <i>pstrProfileXml</i> specifies an all-user profile, the <b>WlanGetProfile</b>  caller must have read access on the profile. Otherwise, the <b>WlanGetProfile</b> call will fail with a return value of <b>ERROR_ACCESS_DENIED</b>. The permissions on an all-user profile are established when the profile is created or saved using <a href="https://msdn.microsoft.com/3f8dca2e-6fe5-4c7d-a135-a33c61ba3dd5">WlanSetProfile</a> or <a href="https://msdn.microsoft.com/e409fd30-eddd-4cc7-acb7-35af6ef51a10">WlanSaveTemporaryProfile</a>.
+If <i>pstrProfileXml</i> specifies an all-user profile, the <b>WlanGetProfile</b>  caller must have read access on the profile. Otherwise, the <b>WlanGetProfile</b> call will fail with a return value of <b>ERROR_ACCESS_DENIED</b>. The permissions on an all-user profile are established when the profile is created or saved using <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofile">WlanSetProfile</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansavetemporaryprofile">WlanSaveTemporaryProfile</a>.
 
-<b>Windows 7:  </b><p class="note">The <a href="https://msdn.microsoft.com/d2ed407e-5eaa-477b-8c4d-a47795048e0b">keyMaterial</a> element returned in the profile schema pointed to by the <i>pstrProfileXml</i> may be requested as plaintext if the <b>WlanGetProfile</b> function is called with the <b>WLAN_PROFILE_GET_PLAINTEXT_KEY</b>  flag set in the value pointed to by the <i>pdwFlags</i> parameter on input.   
+<b>Windows 7:  </b><p class="note">The <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/wlan-profileschema-keymaterial-sharedkey-element">keyMaterial</a> element returned in the profile schema pointed to by the <i>pstrProfileXml</i> may be requested as plaintext if the <b>WlanGetProfile</b> function is called with the <b>WLAN_PROFILE_GET_PLAINTEXT_KEY</b>  flag set in the value pointed to by the <i>pdwFlags</i> parameter on input.   
 
 <p class="note">For a WEP key, both 5 ASCII characters or 10 hexadecimal characters can be used to set the plaintext key when the profile is created or updated. However, a WEP profile will be saved with  10 hexadecimal characters in the key no matter what the original input was used to create the profile. So in the profile returned by the  <b>WlanGetProfile</b> function, the plaintext WEP key  is always returned as 10 hexadecimal characters.
 
 
-<p class="note">For the <b>WlanGetProfile</b> call to return the plain text key, the <b>wlan_secure_get_plaintext_key</b> permissions from the <a href="https://msdn.microsoft.com/1f6e1460-d27f-4800-8a32-6f9f509753cf">WLAN_SECURABLE_OBJECT</a> enumerated type must be set on the calling thread. The DACL must also contain an ACE that grants <b>WLAN_READ_ACCESS</b> permission to the access token of the calling thread. By default,  the permissions for retrieving the plain text key is allowed only to the members of the Administrators group on a local machine.
+<p class="note">For the <b>WlanGetProfile</b> call to return the plain text key, the <b>wlan_secure_get_plaintext_key</b> permissions from the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_securable_object">WLAN_SECURABLE_OBJECT</a> enumerated type must be set on the calling thread. The DACL must also contain an ACE that grants <b>WLAN_READ_ACCESS</b> permission to the access token of the calling thread. By default,  the permissions for retrieving the plain text key is allowed only to the members of the Administrators group on a local machine.
 
 
 
-<p class="note">If the calling thread lacks the required permissions, the <b>WlanGetProfile</b> function returns the encrypted key in the <a href="https://msdn.microsoft.com/d2ed407e-5eaa-477b-8c4d-a47795048e0b">keyMaterial</a> element of the profile returned in the buffer pointed to by the   <i>pstrProfileXml</i> parameter. No error is returned if the calling thread lacks the required permissions. 
+<p class="note">If the calling thread lacks the required permissions, the <b>WlanGetProfile</b> function returns the encrypted key in the <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/wlan-profileschema-keymaterial-sharedkey-element">keyMaterial</a> element of the profile returned in the buffer pointed to by the   <i>pstrProfileXml</i> parameter. No error is returned if the calling thread lacks the required permissions. 
 
-<p class="note">By default, the <a href="https://msdn.microsoft.com/d2ed407e-5eaa-477b-8c4d-a47795048e0b">keyMaterial</a> element returned in the profile pointed to by the <i>pstrProfileXml</i> is encrypted.   If your process runs in the context of the LocalSystem account on the same computer, then you can unencrypt key material by calling the <a href="https://msdn.microsoft.com/54eab3b0-d341-47c6-9c32-79328d7a7155">CryptUnprotectData</a> function. 
+<p class="note">By default, the <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/wlan-profileschema-keymaterial-sharedkey-element">keyMaterial</a> element returned in the profile pointed to by the <i>pstrProfileXml</i> is encrypted.   If your process runs in the context of the LocalSystem account on the same computer, then you can unencrypt key material by calling the <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata">CryptUnprotectData</a> function. 
 
 
 
-<b>Windows Server 2008 and Windows Vista:  </b>The <a href="https://msdn.microsoft.com/d2ed407e-5eaa-477b-8c4d-a47795048e0b">keyMaterial</a> element returned in the profile schema pointed to by the <i>pstrProfileXml</i> is always encrypted.  If your process runs in the context of the LocalSystem account, then you can unencrypt key material by calling the <a href="https://msdn.microsoft.com/54eab3b0-d341-47c6-9c32-79328d7a7155">CryptUnprotectData</a> function.
+<b>Windows Server 2008 and Windows Vista:  </b>The <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/wlan-profileschema-keymaterial-sharedkey-element">keyMaterial</a> element returned in the profile schema pointed to by the <i>pstrProfileXml</i> is always encrypted.  If your process runs in the context of the LocalSystem account, then you can unencrypt key material by calling the <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata">CryptUnprotectData</a> function.
 
 <b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>The key material is never encrypted.
 
@@ -508,75 +508,75 @@ int _cdecl wmain(int argc, WCHAR **argv)
 
 
 
-<a href="https://msdn.microsoft.com/ca45278c-2e1e-4080-825a-d6a05e463858">WLAN_PROFILE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_profile_info">WLAN_PROFILE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/d5a3d475-0ae0-4860-a433-dd916c586f50">WLAN_PROFILE_INFO_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_profile_info_list">WLAN_PROFILE_INFO_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f6e1460-d27f-4800-8a32-6f9f509753cf">WLAN_SECURABLE_OBJECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_securable_object">WLAN_SECURABLE_OBJECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/b983df2e-95cf-41ce-929e-2bc560854f21">WLAN_profile Schema</a>
+<a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/wlan-policyschema-schema">WLAN_profile Schema</a>
 
 
 
-<a href="https://msdn.microsoft.com/2d1152ad-8106-4b8f-9856-9e6e36daa063">WlanDeleteProfile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlandeleteprofile">WlanDeleteProfile</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f817edf-1b1d-495c-afd9-d97e3ae0caab">WlanEnumInterfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanenuminterfaces">WlanEnumInterfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/241afb9d-8b16-4d76-b311-302b5492853e">WlanFreeMemory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a>
 
 
 
-<a href="https://msdn.microsoft.com/5973be2f-8267-496b-827b-778f705accdc">WlanGetProfileCustomUserData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofilecustomuserdata">WlanGetProfileCustomUserData</a>
 
 
 
-<a href="https://msdn.microsoft.com/f4336113-538f-4161-a71f-64a432e31f1c">WlanGetProfileList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofilelist">WlanGetProfileList</a>
 
 
 
-<a href="https://msdn.microsoft.com/27bfa0c1-4443-47a4-a374-326f553fa3bb">WlanOpenHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/488e9f87-8b98-48c6-81d5-d7237cdf5bd5">WlanRenameProfile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanrenameprofile">WlanRenameProfile</a>
 
 
 
-<a href="https://msdn.microsoft.com/e409fd30-eddd-4cc7-acb7-35af6ef51a10">WlanSaveTemporaryProfile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansavetemporaryprofile">WlanSaveTemporaryProfile</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f8dca2e-6fe5-4c7d-a135-a33c61ba3dd5">WlanSetProfile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofile">WlanSetProfile</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b37ff29-4c9b-42c8-b00a-a9dfca1d3fed">WlanSetProfileCustomUserData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofilecustomuserdata">WlanSetProfileCustomUserData</a>
 
 
 
-<a href="https://msdn.microsoft.com/2bef0f2f-165d-446a-afa8-735658048152">WlanSetProfileEapUserData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofileeapuserdata">WlanSetProfileEapUserData</a>
 
 
 
-<a href="https://msdn.microsoft.com/c34c39c0-8200-438a-8353-238225aea5cb">WlanSetProfileEapXmlUserData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofileeapxmluserdata">WlanSetProfileEapXmlUserData</a>
 
 
 
-<a href="https://msdn.microsoft.com/980c7920-a25e-4e05-a742-77178a7f000a">WlanSetProfileList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofilelist">WlanSetProfileList</a>
 
 
 
-<a href="https://msdn.microsoft.com/06ef9f55-b425-4f61-9b9e-3c27cc3796f6">WlanSetProfilePosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofileposition">WlanSetProfilePosition</a>
  
 
  

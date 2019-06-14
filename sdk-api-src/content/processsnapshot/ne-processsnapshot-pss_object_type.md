@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the object type in a <a href="https://msdn.microsoft.com/F56E8C35-949A-4DEE-973F-CF24F6596036">PSS_HANDLE_ENTRY</a> structure.
+Specifies the object type in a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/ns-processsnapshot-pss_handle_entry">PSS_HANDLE_ENTRY</a> structure.
 
 
 ## -enum-fields
@@ -97,7 +97,7 @@ The object is a file-mapping object.
 
 
 
-<a href="https://msdn.microsoft.com/1dc6fe86-3f5a-4810-8e93-a0fe309c54ee">Process Snapshotting</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
  
 
  

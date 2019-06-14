@@ -61,7 +61,7 @@ The fax service calls the <b>FaxDevInitialize</b> function each time the service
 
 Type: <b>HLINEAPP</b>
 
-Specifies a handle to the fax service's registration with TAPI. For more information, see the TAPI 2.x <a href="https://msdn.microsoft.com/en-us/library/ms735983(v=VS.85).aspx">lineInitializeEx</a> function.
+Specifies a handle to the fax service's registration with TAPI. For more information, see the TAPI 2.x <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a> function.
 
 
 ### -param HeapHandle [in]
@@ -93,7 +93,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is a nonzero value.
 
-If the function fails, the return value is zero. In this case, the current instance of the fax service does not use this FSP. All devices that this FSP supports are unable to send or receive faxes. To get extended error information, the fax service calls <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is zero. In this case, the current instance of the fax service does not use this FSP. All devices that this FSP supports are unable to send or receive faxes. To get extended error information, the fax service calls <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -104,7 +104,7 @@ If the function fails, the return value is zero. In this case, the current insta
 
 The FSP must respond to the <b>FaxDevInitialize</b> function by performing any necessary initialization.
 
-The FSP must supply the <a href="https://msdn.microsoft.com/en-us/library/ms684548(v=VS.85).aspx">FaxLineCallback</a> function specified by the <i>LineCallbackFunction</i> parameter. The fax service calls this function when it needs to deliver a TAPI event to the FSP. 
+The FSP must supply the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nc-faxdev-pfax_linecallback">FaxLineCallback</a> function specified by the <i>LineCallbackFunction</i> parameter. The fax service calls this function when it needs to deliver a TAPI event to the FSP. 
 
 
 
@@ -114,27 +114,27 @@ The FSP must supply the <a href="https://msdn.microsoft.com/en-us/library/ms6845
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684546(v=VS.85).aspx">Fax Service Provider Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-provider-functions">Fax Service Provider Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684541(v=VS.85).aspx">FaxDevStartJob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevstartjob">FaxDevStartJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684538(v=VS.85).aspx">FaxDevVirtualDeviceCreation</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevvirtualdevicecreation">FaxDevVirtualDeviceCreation</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684548(v=VS.85).aspx">FaxLineCallback</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nc-faxdev-pfax_linecallback">FaxLineCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693428(v=VS.85).aspx">Using the Fax Service Provider API</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-using-the-fax-service-provider-api">Using the Fax Service Provider API</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms735983(v=VS.85).aspx">lineInitializeEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>
  
 
  

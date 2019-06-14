@@ -67,9 +67,9 @@ A value of type <b>DWORD</b> that indicates the index of the browser.
 
 ### -param ppunk [out]
 
-Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>**</b>
 
-The address of a pointer to an <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> that indicates the browser with the given index. The calling application must release this resource when it is no longer needed.
+The address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> that indicates the browser with the given index. The calling application must release this resource when it is no longer needed.
 
 
 ## -returns

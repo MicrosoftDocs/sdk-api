@@ -59,7 +59,7 @@ Contains information about the punctuation used in a rich edit control.
 
 ### -field iSize
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Size of buffer pointed to by the 
 					<b>szPunctuation</b> member, in bytes. 
@@ -67,7 +67,7 @@ Size of buffer pointed to by the
 
 ### -field szPunctuation
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPSTR</a></b>
 
 The buffer containing the punctuation characters. 
 

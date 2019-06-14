@@ -64,12 +64,12 @@ A pointer to a null-terminated Unicode string that contains the identifier of th
 
 ### -param dwInterface [in, optional]
 
-The identifier of an interface that the provider must support. This must be one of the <a href="https://msdn.microsoft.com/509c89ff-0c73-4e57-9c39-400522f2086e">CNG Interface Identifiers</a>. If the <i>pszFunction</i> parameter is not <b>NULL</b> or an empty string, you can set <i>dwInterface</i> to zero to force the function to infer the interface.
+The identifier of an interface that the provider must support. This must be one of the <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-interface-identifiers">CNG Interface Identifiers</a>. If the <i>pszFunction</i> parameter is not <b>NULL</b> or an empty string, you can set <i>dwInterface</i> to zero to force the function to infer the interface.
 
 
 ### -param pszFunction [in, optional]
 
-A pointer to a null-terminated Unicode string that contains the algorithm or function identifier that the provider must support. This can be one of the standard <a href="https://msdn.microsoft.com/a05ae7e6-d882-4287-9990-23e4cd340b05">CNG Algorithm Identifiers</a> or the identifier for another registered algorithm.  If <i>dwInterface</i> is set to a nonzero value, then <i>pszFunction</i> can be <b>NULL</b> to include all algorithms and functions.
+A pointer to a null-terminated Unicode string that contains the algorithm or function identifier that the provider must support. This can be one of the standard <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a> or the identifier for another registered algorithm.  If <i>dwInterface</i> is set to a nonzero value, then <i>pszFunction</i> can be <b>NULL</b> to include all algorithms and functions.
 
 
 
@@ -170,11 +170,11 @@ A pointer to a <b>DWORD</b> value that, on entry, contains the size, in bytes, o
 
 ### -param ppBuffer [in, out]
 
-The address of a <a href="https://msdn.microsoft.com/e2aaaa02-96e3-4447-b19b-b9db07b49135">CRYPT_PROVIDER_REFS</a> pointer that receives the collection of providers that meet the specified criteria.
+The address of a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_crypt_provider_refs">CRYPT_PROVIDER_REFS</a> pointer that receives the collection of providers that meet the specified criteria.
 
 If this parameter is <b>NULL</b>, this function will return <b>STATUS_SUCCESS</b> and place in the value pointed to by the <i>pcbBuffer</i> parameter, the required size, in bytes, of all the data.
 
-If this parameter is the address of a <b>NULL</b> pointer, this function will allocate the required memory, fill the memory with the information about the providers, and place the pointer to this memory in this parameter. When you have finished using this memory,  free it by passing this pointer to the <a href="https://msdn.microsoft.com/0ee83ca1-2fe6-4ff2-823e-888b3e66f310">BCryptFreeBuffer</a> function.
+If this parameter is the address of a <b>NULL</b> pointer, this function will allocate the required memory, fill the memory with the information about the providers, and place the pointer to this memory in this parameter. When you have finished using this memory,  free it by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfreebuffer">BCryptFreeBuffer</a> function.
 
 If this parameter is the address of a non-<b>NULL</b> pointer, this function will copy the provider information into this buffer. The <i>pcbBuffer</i> parameter must contain the size, in bytes, of the entire buffer. If the buffer is not large enough to hold all of the provider information, this function will return <b>STATUS_BUFFER_TOO_SMALL</b>.
 
@@ -249,7 +249,7 @@ No provider could be found that meets all of the specified criteria.
 
 
 
-<b>BCryptResolveProviders</b> can be called either from user mode or kernel mode. Kernel mode callers must be executing at <b>PASSIVE_LEVEL</b> <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">IRQL</a>.
+<b>BCryptResolveProviders</b> can be called either from user mode or kernel mode. Kernel mode callers must be executing at <b>PASSIVE_LEVEL</b> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">IRQL</a>.
 
 
 

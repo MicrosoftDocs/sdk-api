@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<a href="https://msdn.microsoft.com/af7186f8-7921-48e3-a4fd-23259a6e9018">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>CleanNtmsDrive</b> function queues a cleaning request for the specified drive for cleaning.
@@ -63,7 +63,7 @@ The
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://msdn.microsoft.com/5a323911-e99c-4f81-9580-0feac2f0a54e">OpenNtmsSession</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 
 ### -param lpDriveId [in]
@@ -204,7 +204,7 @@ The cleaning was queued successfully.
 
 If the drive you selected in the 
 <b>CleanNtmsDrive</b> function is a stand-alone drive, the drive is marked as cleaned and the time is noted in the 
-<a href="https://msdn.microsoft.com/bc6683a0-4ba0-4092-bf7b-de37baf76b02">RSM Database</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/rsm-database">RSM Database</a>.
 
 Queued cleaning requests are deleted when the service is restarted.
 
@@ -216,23 +216,23 @@ Queued cleaning requests are deleted when the service is restarted.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Cleaner Management Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Cleaner Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/a55a8f17-1a14-4267-ae39-1585e1090f21">EjectNtmsCleaner</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-ejectntmscleaner">EjectNtmsCleaner</a>
 
 
 
-<a href="https://msdn.microsoft.com/973441cb-2ec4-4a8d-8e75-3c6d01552a59">InjectNtmsCleaner</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-injectntmscleaner">InjectNtmsCleaner</a>
 
 
 
-<a href="https://msdn.microsoft.com/c3530534-c502-4168-8039-b5ce4f0a5816">ReleaseNtmsCleanerSlot</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-releasentmscleanerslot">ReleaseNtmsCleanerSlot</a>
 
 
 
-<a href="https://msdn.microsoft.com/17e5acf8-c6b3-42a8-a9fe-fdda53779b67">ReserveNtmsCleanerSlot</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-reserventmscleanerslot">ReserveNtmsCleanerSlot</a>
  
 
  

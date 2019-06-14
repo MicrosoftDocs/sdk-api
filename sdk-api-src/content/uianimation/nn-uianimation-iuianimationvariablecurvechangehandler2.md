@@ -54,7 +54,7 @@ Defines a method for handling animation curve update events.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAnimationVariableCurveChangeHandler2</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUIAnimationVariableCurveChangeHandler2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAnimationVariableCurveChangeHandler2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAnimationVariableCurveChangeHandler2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IUIAnimationVariableCurveChangeHandler2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/CD0F59F7-9383-4602-8A97-356AEAB0FD82">OnCurveChanged</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariablecurvechangehandler2-oncurvechanged">OnCurveChanged</a>
 </td>
 <td align="left" width="63%">
 Handles events that occur when the animation curve of an animation variable changes.
@@ -84,23 +84,23 @@ Handles events that occur when the animation curve of an animation variable chan
 
 
 
-<a href="https://msdn.microsoft.com/59E7C7A1-2461-487C-A263-A9DFC851B720">IUIAnimationVariable2::GetCurve</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable2-getcurve">IUIAnimationVariable2::GetCurve</a>
 
 
 
-<a href="https://msdn.microsoft.com/CAC7D415-5B0F-4587-8F1C-65399D2A5A58">IUIAnimationVariable2::GetVectorCurve</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable2-getvectorcurve">IUIAnimationVariable2::GetVectorCurve</a>
 
 
 
-<a href="https://msdn.microsoft.com/98C95C85-30C9-4E3E-82FE-E3D4C7ECAE0B">IUIAnimationVariable2::SetVariableCurveChangeHandler </a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable2-setvariablecurvechangehandler">IUIAnimationVariable2::SetVariableCurveChangeHandler </a>
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/b54e319c-e140-4fd9-8045-5eb6f4a31326">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/UIAnimation/-interfaces-main">Interfaces</a>
  
 
  

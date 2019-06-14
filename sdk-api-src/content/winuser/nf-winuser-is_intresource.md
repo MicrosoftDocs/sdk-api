@@ -76,7 +76,7 @@ This macro checks whether all bits except the least 16 bits are zero. When true,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632583(v=VS.85).aspx">Resources Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/resources">Resources Overview</a>
  
 
  

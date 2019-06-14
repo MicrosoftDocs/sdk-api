@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CRL_ISSUING_DIST_POINT</b> structure contains information about the kinds of certificates listed in a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL).
+The <b>CRL_ISSUING_DIST_POINT</b> structure contains information about the kinds of certificates listed in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL).
 
 
 ## -struct-fields
@@ -60,7 +60,7 @@ The <b>CRL_ISSUING_DIST_POINT</b> structure contains information about the kinds
 ### -field DistPointName
 
 Optional 
-<a href="https://msdn.microsoft.com/f47283c3-34f5-4611-b041-456d28d85dbe">CRL_DIST_POINT_NAME</a> member.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_dist_point_name">CRL_DIST_POINT_NAME</a> member.
 
 
 ### -field fOnlyContainsUserCerts
@@ -76,7 +76,7 @@ Optional
 ### -field OnlySomeReasonFlags
 
 Optional 
-<a href="https://msdn.microsoft.com/6f102ff3-bfff-4415-a5d8-ca2c226074b3">CRYPT_BIT_BLOB</a> with bits indicating some reasons for certificate revocation.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_bit_blob">CRYPT_BIT_BLOB</a> with bits indicating some reasons for certificate revocation.
 
 
 ### -field fIndirectCRL

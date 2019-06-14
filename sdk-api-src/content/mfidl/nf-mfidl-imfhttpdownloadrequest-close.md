@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Invoked by Microsoft Media Foundation to allow <a href="https://msdn.microsoft.com/A8A37C2F-A662-4FDA-95F6-43D96A8471A8">IMFHttpDownloadRequest</a> to free any internal resources. It will also cancel the current request if it is still in progress.
+Invoked by Microsoft Media Foundation to allow <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a> to free any internal resources. It will also cancel the current request if it is still in progress.
 
 
 ## -parameters
@@ -95,7 +95,7 @@ Successfully closed the request object.
 
 
 
-Microsoft Media Foundation will not invoke any other methods on the <a href="https://msdn.microsoft.com/A8A37C2F-A662-4FDA-95F6-43D96A8471A8">IMFHttpDownloadRequest</a> interface after having invoked <b>Close</b>.
+Microsoft Media Foundation will not invoke any other methods on the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a> interface after having invoked <b>Close</b>.
 
 
 
@@ -105,7 +105,7 @@ Microsoft Media Foundation will not invoke any other methods on the <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/A8A37C2F-A662-4FDA-95F6-43D96A8471A8">IMFHttpDownloadRequest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>
  
 
  

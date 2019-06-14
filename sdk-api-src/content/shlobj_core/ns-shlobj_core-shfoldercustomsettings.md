@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Holds custom folder settings. This structure is used with the <a href="https://msdn.microsoft.com/38b78a4b-ba68-4dff-812d-d4c7421eb202">SHGetSetFolderCustomSettings</a> function.
+Holds custom folder settings. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsetfoldercustomsettings">SHGetSetFolderCustomSettings</a> function.
 
 
 ## -struct-fields
@@ -126,14 +126,14 @@ The folder's GUID.
 
 Type: <b>LPTSTR</b>
 
-A pointer to a null-terminated string containing the path to the folder's <a href="https://msdn.microsoft.com/a894df21-bcc6-4760-b7d7-9bf95a0dba7f">WebView template</a>.
+A pointer to a null-terminated string containing the path to the folder's <a href="https://docs.microsoft.com/windows/desktop/lwef/web-view">WebView template</a>.
 
 
 ### -field cchWebViewTemplate
 
 Type: <b>DWORD</b>
 
-If the <a href="https://msdn.microsoft.com/38b78a4b-ba68-4dff-812d-d4c7421eb202">SHGetSetFolderCustomSettings</a> parameter <i>dwReadWrite</i> is <b>FCS_READ</b>, this is the size of the <b>pszWebViewTemplate</b> buffer, in characters. If not, this is the number of characters to write from that buffer. Set this parameter to 0 to write the entire string.
+If the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsetfoldercustomsettings">SHGetSetFolderCustomSettings</a> parameter <i>dwReadWrite</i> is <b>FCS_READ</b>, this is the size of the <b>pszWebViewTemplate</b> buffer, in characters. If not, this is the number of characters to write from that buffer. Set this parameter to 0 to write the entire string.
 
 
 ### -field pszWebViewTemplateVersion
@@ -154,7 +154,7 @@ A pointer to a null-terminated buffer containing the text of the folder's infoti
 
 Type: <b>DWORD</b>
 
-If the <a href="https://msdn.microsoft.com/38b78a4b-ba68-4dff-812d-d4c7421eb202">SHGetSetFolderCustomSettings</a> parameter <i>dwReadWrite</i> is <b>FCS_READ</b>, this is the size of the <b>pszInfoTip</b> buffer, in characters. If not, this is the number of characters to write from that buffer. Set this parameter to 0 to write the entire string.
+If the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsetfoldercustomsettings">SHGetSetFolderCustomSettings</a> parameter <i>dwReadWrite</i> is <b>FCS_READ</b>, this is the size of the <b>pszInfoTip</b> buffer, in characters. If not, this is the number of characters to write from that buffer. Set this parameter to 0 to write the entire string.
 
 
 ### -field pclsid
@@ -182,7 +182,7 @@ A pointer to a null-terminated buffer containing the path to file containing the
 
 Type: <b>DWORD</b>
 
-If the <a href="https://msdn.microsoft.com/38b78a4b-ba68-4dff-812d-d4c7421eb202">SHGetSetFolderCustomSettings</a> parameter <i>dwReadWrite</i> is <b>FCS_READ</b>, this is the size of the <b>pszIconFile</b> buffer, in characters. If not, this is the number of characters to write from that buffer. Set this parameter to 0 to write the entire string.
+If the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsetfoldercustomsettings">SHGetSetFolderCustomSettings</a> parameter <i>dwReadWrite</i> is <b>FCS_READ</b>, this is the size of the <b>pszIconFile</b> buffer, in characters. If not, this is the number of characters to write from that buffer. Set this parameter to 0 to write the entire string.
 
 
 ### -field iIconIndex
@@ -203,7 +203,7 @@ A pointer to a null-terminated buffer containing the path to the file containing
 
 Type: <b>DWORD</b>
 
-If the <a href="https://msdn.microsoft.com/38b78a4b-ba68-4dff-812d-d4c7421eb202">SHGetSetFolderCustomSettings</a> parameter <i>dwReadWrite</i> is <b>FCS_READ</b>, this is the size of the <b>pszLogo</b> buffer, in characters. If not, this is the number of characters to write from that buffer. Set this parameter to 0 to write the entire string.
+If the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsetfoldercustomsettings">SHGetSetFolderCustomSettings</a> parameter <i>dwReadWrite</i> is <b>FCS_READ</b>, this is the size of the <b>pszLogo</b> buffer, in characters. If not, this is the number of characters to write from that buffer. Set this parameter to 0 to write the entire string.
 
 
 ## -remarks

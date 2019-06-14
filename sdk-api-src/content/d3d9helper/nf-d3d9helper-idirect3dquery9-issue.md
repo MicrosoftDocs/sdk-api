@@ -60,16 +60,16 @@ Issue a query.
 
 ### -param dwIssueFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Query flags specify the type of state change for the query. See <a href="https://msdn.microsoft.com/en-us/library/Bb172564(v=VS.85).aspx">D3DISSUE_BEGIN</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb172565(v=VS.85).aspx">D3DISSUE_END</a>.
+Query flags specify the type of state change for the query. See <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dissue-begin">D3DISSUE_BEGIN</a> and <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dissue-end">D3DISSUE_END</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 
@@ -80,7 +80,7 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-A signaled query means the query has completed, the data is available, and <a href="https://msdn.microsoft.com/en-us/library/Bb205873(v=VS.85).aspx">IDirect3DQuery9::GetData</a> will return S_OK. 
+A signaled query means the query has completed, the data is available, and <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dquery9-getdata">IDirect3DQuery9::GetData</a> will return S_OK. 
 
 
 
@@ -90,7 +90,7 @@ A signaled query means the query has completed, the data is available, and <a hr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205872(v=VS.85).aspx">IDirect3DQuery9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dquery9">IDirect3DQuery9</a>
  
 
  

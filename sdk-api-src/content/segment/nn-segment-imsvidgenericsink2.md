@@ -55,14 +55,14 @@ ms.custom: 19H1
 <div> </div>
 
 
-The <b>IMSVidGenericSink2</b> interface represents a generic output device that supports streaming output. It is implemented by the <a href="https://msdn.microsoft.com/0a5d0550-6587-4c9b-830e-e998e7678e77">MSVidGenericSink</a> object.
+The <b>IMSVidGenericSink2</b> interface represents a generic output device that supports streaming output. It is implemented by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd695128(v=vs.85)">MSVidGenericSink</a> object.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidGenericSink2</b> interface inherits from <a href="https://msdn.microsoft.com/15181a89-aa64-4ecf-aaf5-4aac36753ddf">IMSVidGenericSink</a>. <b>IMSVidGenericSink2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidGenericSink2</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidgenericsink">IMSVidGenericSink</a>. <b>IMSVidGenericSink2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IMSVidGenericSink2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694561(v=VS.85).aspx">AddFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidgenericsink2-addfilter">AddFilter</a>
 </td>
 <td align="left" width="63%">
 Specifies a DirectShow filter that is added to the graph when this segment is built.
@@ -86,10 +86,10 @@ Specifies a DirectShow filter that is added to the graph when this segment is bu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694562(v=VS.85).aspx">ResetFilterList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidgenericsink2-resetfilterlist">ResetFilterList</a>
 </td>
 <td align="left" width="63%">
-Clears the list of filters that were added using <a href="https://msdn.microsoft.com/en-us/library/Dd694561(v=VS.85).aspx">AddFilter</a>.
+Clears the list of filters that were added using <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidgenericsink2-addfilter">AddFilter</a>.
 
 </td>
 </tr>
@@ -110,11 +110,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/15181a89-aa64-4ecf-aaf5-4aac36753ddf">IMSVidGenericSink</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidgenericsink">IMSVidGenericSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf6c3ce9-1e56-4109-93f1-5b313e6ca19b">Video Control Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
  
 
  

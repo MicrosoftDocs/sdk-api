@@ -105,7 +105,7 @@ The property list was successfully saved.
 
 
 
-Make sure to pass a buffer large enough to hold the property list. Use <a href="https://msdn.microsoft.com/73206149-cbc3-475d-8dc8-bb7547f41173">IITPropList::GetHeaderSize</a> to determine the buffer size to pass.
+Make sure to pass a buffer large enough to hold the property list. Use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nf-infotech-iitproplist-getheadersize">IITPropList::GetHeaderSize</a> to determine the buffer size to pass.
 
 
 
@@ -117,7 +117,7 @@ Make sure to pass a buffer large enough to hold the property list. Use <a href="
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms670040(v=VS.85).aspx">IITPropList</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nn-infotech-iitproplist">IITPropList</a>
  
 
  

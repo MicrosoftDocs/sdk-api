@@ -75,7 +75,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Messages are moved one at a time unless both the source and destination queue are transacted. In this case, <a href="https://msdn.microsoft.com/7c0b5ebb-00dc-4c9a-9c0c-6d92cd13f534">CommitBatchSize</a> specifies the number of messages that are moved before <a href="https://msdn.microsoft.com/3945fdf1-6361-413e-9621-18871ded47a4">Commit</a> is invoked. There is no provision for moving fewer than all of the messages on the queue.
+Messages are moved one at a time unless both the source and destination queue are transacted. In this case, <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-imessagemover-get_commitbatchsize">CommitBatchSize</a> specifies the number of messages that are moved before <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-itransactioncontext-commit">Commit</a> is invoked. There is no provision for moving fewer than all of the messages on the queue.
 
 
 
@@ -86,7 +86,7 @@ Messages are moved one at a time unless both the source and destination queue ar
 
 
 
-<a href="https://msdn.microsoft.com/aa7c57a2-0dee-4f18-bce4-4fcc47d4d7a7">IMessageMover</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imessagemover">IMessageMover</a>
  
 
  

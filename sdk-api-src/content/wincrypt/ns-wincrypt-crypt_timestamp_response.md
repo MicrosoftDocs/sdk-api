@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CRYPT_TIMESTAMP_RESPONSE</b> structure is used internally to encapsulate  an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1) <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Distinguished Encoding Rules</a> (DER) encoded response.
+The <b>CRYPT_TIMESTAMP_RESPONSE</b> structure is used internally to encapsulate  an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) encoded response.
 
 
 ## -struct-fields
@@ -157,7 +157,7 @@ Optional. A pointer to a string that contains the text information about request
 
 ### -field FailureInfo
 
-A <a href="https://msdn.microsoft.com/6f102ff3-bfff-4415-a5d8-ca2c226074b3">CRYPT_BIT_BLOB</a> structure that contains the reason why the time stamp request was rejected. Each flag is encoded as a bit in the structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_bit_blob">CRYPT_BIT_BLOB</a> structure that contains the reason why the time stamp request was rejected. Each flag is encoded as a bit in the structure.
 
 <table>
 <tr>
@@ -258,5 +258,5 @@ The request cannot be handled due to a system failure.
 
 ### -field ContentInfo
 
-A <a href="https://msdn.microsoft.com/1c2a07b8-f702-47f3-8d4c-6ac0cbc63f0f">CRYPT_DER_BLOB</a> structure that encapsulates a signed data content type in Cryptographic Message Syntax (CMS) format.
+A <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/ns-dpapi-_cryptoapi_blob">CRYPT_DER_BLOB</a> structure that encapsulates a signed data content type in Cryptographic Message Syntax (CMS) format.
 

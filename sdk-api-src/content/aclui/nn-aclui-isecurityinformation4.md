@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ISecurityInformation4</b> interface enables the resource manager to provide additional information when computing effective permissions using the <a href="https://msdn.microsoft.com/2FDCA205-6880-4526-B8D7-6F9B107B218B">IEffectivePermission2</a> interface. 
+The <b>ISecurityInformation4</b> interface enables the resource manager to provide additional information when computing effective permissions using the <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-ieffectivepermission2">IEffectivePermission2</a> interface. 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISecurityInformation4</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISecurityInformation4</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISecurityInformation4</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISecurityInformation4</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISecurityInformation4</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/20BD7D3B-1097-45CF-8237-0FBAD6BD6E3E">GetSecondarySecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation4-getsecondarysecurity">GetSecondarySecurity</a>
 </td>
 <td align="left" width="63%">
 Returns additional security contexts that may impact access to the resource.

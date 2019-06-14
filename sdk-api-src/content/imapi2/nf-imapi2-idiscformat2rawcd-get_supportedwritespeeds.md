@@ -384,9 +384,9 @@ Value: 0xC0AA0301
 
 
 
-You can use a speed from the list to set the write speed when calling the <a href="https://msdn.microsoft.com/93021007-6ed8-4322-93bb-c52796a4ab66">IDiscFormat2RawCD::SetWriteSpeed</a> method.
+You can use a speed from the list to set the write speed when calling the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-setwritespeed">IDiscFormat2RawCD::SetWriteSpeed</a> method.
 
-To retrieve a list of the write configurations that the recorder and current media supports, call the <a href="https://msdn.microsoft.com/00a7c10a-7790-4193-928c-d3211047dbbe">IDiscFormat2RawCD::get_SupportedWriteSpeedDescriptors</a> method.
+To retrieve a list of the write configurations that the recorder and current media supports, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_supportedwritespeeddescriptors">IDiscFormat2RawCD::get_SupportedWriteSpeedDescriptors</a> method.
 
 
 
@@ -396,23 +396,23 @@ To retrieve a list of the write configurations that the recorder and current med
 
 
 
-<a href="https://msdn.microsoft.com/58d9b83c-a528-4b39-b08d-a0fb8c1aece8">IDiscFormat2RawCD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
 
 
 
-<a href="https://msdn.microsoft.com/93021007-6ed8-4322-93bb-c52796a4ab66">IDiscFormat2RawCD::SetWriteSpeed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-setwritespeed">IDiscFormat2RawCD::SetWriteSpeed</a>
 
 
 
-<a href="https://msdn.microsoft.com/f369f719-7db6-4a79-a5fa-d174bf12acbc">IDiscFormat2RawCD::get_CurrentWriteSpeed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_currentwritespeed">IDiscFormat2RawCD::get_CurrentWriteSpeed</a>
 
 
 
-<a href="https://msdn.microsoft.com/0b718fe5-197e-4dc7-a8df-f2febf76aaab">IDiscFormat2RawCD::get_RequestedWriteSpeed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_requestedwritespeed">IDiscFormat2RawCD::get_RequestedWriteSpeed</a>
 
 
 
-<a href="https://msdn.microsoft.com/00a7c10a-7790-4193-928c-d3211047dbbe">IDiscFormat2RawCD::get_SupportedWriteSpeedDescriptors</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_supportedwritespeeddescriptors">IDiscFormat2RawCD::get_SupportedWriteSpeedDescriptors</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains error information that is returned by a Windows Remote Management (WinRM) client. The <a href="https://msdn.microsoft.com/72d05ef9-672c-4693-b7c9-6d689858acd4">WSMAN_ERROR</a> structure is used by all callbacks to return error information and is valid only for the callback.
+Contains error information that is returned by a Windows Remote Management (WinRM) client. The <a href="https://docs.microsoft.com/windows/desktop/WinRM/wsman-error">WSMAN_ERROR</a> structure is used by all callbacks to return error information and is valid only for the callback.
 
 
 ## -struct-fields

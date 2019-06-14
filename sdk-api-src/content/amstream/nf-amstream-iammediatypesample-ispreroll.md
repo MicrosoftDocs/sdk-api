@@ -78,7 +78,7 @@ Returns S_OK if the sample is a preroll sample, or S_FALSE otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319663(v=VS.85).aspx">IAMMediaTypeSample Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-iammediatypesample">IAMMediaTypeSample Interface</a>
  
 
  

@@ -65,7 +65,7 @@ Repositions the file pointer for the specified file.
 
 ### -param hFile
 
-A handle to an open file. This handle is created by <a href="https://msdn.microsoft.com/89e19823-c720-4bfc-95d5-18942573dd94">_lcreat</a>.
+A handle to an open file. This handle is created by <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-_lcreat">_lcreat</a>.
 
 
 ### -param lOffset
@@ -128,7 +128,7 @@ Moves the pointer from the end of the file.
 
 
 
-If the function succeeds, the return value specifies the new offset. Otherwise, the return value is HFILE_ERROR. To get extended error information, use the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+If the function succeeds, the return value specifies the new offset. Otherwise, the return value is HFILE_ERROR. To get extended error information, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 
 
@@ -147,7 +147,7 @@ When a file is initially opened, the file pointer is set to the beginning of the
 
 
 
-<a href="https://msdn.microsoft.com/a0a0081b-9132-4dea-967b-1ee1d1fdfa13">SetFilePointer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfilepointer">SetFilePointer</a>
  
 
  

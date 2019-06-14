@@ -52,9 +52,9 @@ ms.custom: 19H1
 
 
 Contains operating system version information. The information includes major and minor version numbers, a build number, a platform identifier, and descriptive text about the operating system. This structure is used with the 
-<a href="https://msdn.microsoft.com/8e3ab4d6-bacd-4bc5-b8f6-dd49289354de">GetVersionEx</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getversionexa">GetVersionEx</a> function.
 
-To obtain additional version information, use the <a href="https://msdn.microsoft.com/4ab07a72-404d-459b-b061-b3b06b5db37e">OSVERSIONINFOEX</a> structure with <a href="https://msdn.microsoft.com/8e3ab4d6-bacd-4bc5-b8f6-dd49289354de">GetVersionEx</a> instead.
+To obtain additional version information, use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_osversioninfoexa">OSVERSIONINFOEX</a> structure with <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getversionexa">GetVersionEx</a> instead.
 
 
 ## -struct-fields
@@ -118,7 +118,7 @@ A null-terminated string, such as "Service Pack 3", that indicates the latest Se
 
 
 Relying on version information is not the best way to test for a feature. Instead, refer to the documentation for the feature of interest. For more information on common techniques for feature detection, see 
-<a href="https://msdn.microsoft.com/1a70b1d9-ed66-4201-9921-4e26e4001020">Operating System Version</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/operating-system-version">Operating System Version</a>.
 
 If you must require a particular operating system, be sure to use it as a minimum supported version, rather than design the test for the one operating system. This way, your detection code will continue to work on future versions of Windows.
 
@@ -232,7 +232,7 @@ The following table summarizes the values returned by supported versions of Wind
 </tr>
 <tr>
 <td colspan="5">
-<b>*</b> For applications that have been manifested for Windows 8.1 or Windows 10. Applications not manifested for Windows 8.1 or Windows 10 will return the Windows 8 OS version value (6.2). To manifest your applications for Windows 8.1 or Windows 10, refer to <a href="https://msdn.microsoft.com/E7A1A16A-95B3-4B45-81AD-A19E33F15AE4">Targeting your application for Windows</a>.
+<b>*</b> For applications that have been manifested for Windows 8.1 or Windows 10. Applications not manifested for Windows 8.1 or Windows 10 will return the Windows 8 OS version value (6.2). To manifest your applications for Windows 8.1 or Windows 10, refer to <a href="https://docs.microsoft.com/windows/desktop/SysInfo/targeting-your-application-at-windows-8-1">Targeting your application for Windows</a>.
 
 </td>
 </tr>
@@ -243,7 +243,7 @@ The following table summarizes the values returned by supported versions of Wind
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/ae851aef-27d5-4eb7-aeb2-ccdfbf040e5a">Getting the System Version</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/getting-the-system-version">Getting the System Version</a>.
 
 <div class="code"></div>
 
@@ -254,11 +254,11 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/4ab07a72-404d-459b-b061-b3b06b5db37e">OSVERSIONINFOEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_osversioninfoexa">OSVERSIONINFOEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/2FAF67CD-CEEA-4096-B482-F5E2DF8D6C34">Version Helper APIs</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/version-helper-apis">Version Helper APIs</a>
  
 
  

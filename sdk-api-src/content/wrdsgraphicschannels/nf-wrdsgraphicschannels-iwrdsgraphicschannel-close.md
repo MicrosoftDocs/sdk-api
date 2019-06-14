@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Called to close the channel. The <a href="https://msdn.microsoft.com/fd195c0e-68bf-4361-9795-0e436c1abc90">IWRdsGraphicsChannelEvents::OnClose</a> method will be called when the channel is completely closed.
+Called to close the channel. The <a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/nf-wrdsgraphicschannels-iwrdsgraphicschannelevents-onclose">IWRdsGraphicsChannelEvents::OnClose</a> method will be called when the channel is completely closed.
 
 
 ## -parameters
@@ -73,11 +73,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/5d1e88b4-3dff-4f88-a6de-abc02da57ece">IWRdsGraphicsChannel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/nn-wrdsgraphicschannels-iwrdsgraphicschannel">IWRdsGraphicsChannel</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd195c0e-68bf-4361-9795-0e436c1abc90">IWRdsGraphicsChannelEvents::OnClose</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/nf-wrdsgraphicschannels-iwrdsgraphicschannelevents-onclose">IWRdsGraphicsChannelEvents::OnClose</a>
  
 
  

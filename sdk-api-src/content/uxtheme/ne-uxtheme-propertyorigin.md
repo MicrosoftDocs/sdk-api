@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returned by <a href="https://msdn.microsoft.com/en-us/library/Bb759764(v=VS.85).aspx">GetThemePropertyOrigin</a> to specify where a property was found.
+Returned by <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-getthemepropertyorigin">GetThemePropertyOrigin</a> to specify where a property was found.
 
 
 ## -enum-fields
@@ -87,7 +87,7 @@ Property was not found.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb759764(v=VS.85).aspx">GetThemePropertyOrigin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-getthemepropertyorigin">GetThemePropertyOrigin</a>
  
 
  

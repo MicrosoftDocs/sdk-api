@@ -106,7 +106,7 @@ Indicates that the filter's video pin has been created.
 
 
 
-See <a href="https://msdn.microsoft.com/en-us/library/Dd389336(v=VS.85).aspx">IAMExtendedSeeking::get_ExSeekCapabilities</a> for descriptions of how the <a href="https://msdn.microsoft.com/e59b3086-4f62-4541-8bef-b0581f01906f">Windows Media Source</a> filter sets these flags.
+See <a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamextendedseeking-get_exseekcapabilities">IAMExtendedSeeking::get_ExSeekCapabilities</a> for descriptions of how the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/windows-media-source-filter">Windows Media Source</a> filter sets these flags.
 
 
 
@@ -116,7 +116,7 @@ See <a href="https://msdn.microsoft.com/en-us/library/Dd389336(v=VS.85).aspx">IA
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
  
 
  

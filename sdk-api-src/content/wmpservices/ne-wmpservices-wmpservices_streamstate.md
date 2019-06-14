@@ -80,11 +80,11 @@ The stream is playing.
 
 
 
-<a href="https://msdn.microsoft.com/7b1b74e6-19de-450a-be89-41277c1cb823">DSP Plug-in Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/dsp-plug-in-enumeration-types">DSP Plug-in Enumeration Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563643(v=VS.85).aspx">IWMPServices::GetStreamState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nf-wmpservices-iwmpservices-getstreamstate">IWMPServices::GetStreamState</a>
  
 
  

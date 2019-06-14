@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC</b> callback function is called by <a href="https://msdn.microsoft.com/c73f2499-75e9-4146-ae4c-0e949206ea37">CryptImportPublicKeyInfoEx2</a> to decode the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key algorithm</a> identifier, load the algorithm provider, and import the <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33">key pair</a>.
+The <b>PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC</b> callback function is called by <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportpublickeyinfoex2">CryptImportPublicKeyInfoEx2</a> to decode the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key algorithm</a> identifier, load the algorithm provider, and import the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key pair</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC</b> callback function is called by <a
 
 ### -param dwCertEncodingType [in]
 
-The <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate encoding type</a> that was used to encrypt the subject. The <a href="https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1">message encoding type</a> identifier, contained in the high <b>WORD</b> of this value, is ignored by this function.
+The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate encoding type</a> that was used to encrypt the subject. The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding type</a> identifier, contained in the high <b>WORD</b> of this value, is ignored by this function.
 
 
 This parameter can be the following currently defined certificate encoding type.
@@ -78,7 +78,7 @@ This parameter can be the following currently defined certificate encoding type.
 </dl>
 </td>
 <td width="60%">
-Specifies <a href="https://msdn.microsoft.com/28dba6ef-939f-4789-9789-ee6e0fef0177">X.509</a> certificate encoding.
+Specifies <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.509</a> certificate encoding.
 
 </td>
 </tr>
@@ -88,7 +88,7 @@ Specifies <a href="https://msdn.microsoft.com/28dba6ef-939f-4789-9789-ee6e0fef01
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/bab6c147-b7cd-408a-acac-90f05921e065">CERT_PUBLIC_KEY_INFO</a> structure that contains the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> information to import into the provider.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> information to import into the provider.
 
 
 ### -param dwFlags [in]
@@ -113,7 +113,7 @@ A pointer to a <b>BCRYPT_KEY_HANDLE</b> variable that receives the handle of the
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -122,7 +122,7 @@ If the function fails, it returns zero (<b>FALSE</b>). For extended error inform
 
 
 
-You can use <a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a> to deploy this callback function. Wincrypt.h defines the following constant for this purpose.
+You can use <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a> to deploy this callback function. Wincrypt.h defines the following constant for this purpose.
 
 <table>
 <tr>

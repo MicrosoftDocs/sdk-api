@@ -64,13 +64,13 @@ The type of GATT event.
 
 ### -param EventOutParameter [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Mt188598(v=VS.85).aspx">BLUETOOTH_GATT_VALUE_CHANGED_EVENT</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-_bluetooth_gatt_value_changed_event">BLUETOOTH_GATT_VALUE_CHANGED_EVENT</a> structure.
 
 
 ### -param Context [in, optional]
 
 The context specified by the profile driver in the <i>CallbackContext</i> parameter of 
-      the <a href="https://msdn.microsoft.com/8C1477F8-8342-4405-8FE1-8109E6147EE9">BluetoothGATTRegisterEvent</a> function 
+      the <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattregisterevent">BluetoothGATTRegisterEvent</a> function 
       when the profile driver registered the GATT callback function.
 
 
@@ -88,15 +88,15 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt188598(v=VS.85).aspx">BLUETOOTH_GATT_VALUE_CHANGED_EVENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-_bluetooth_gatt_value_changed_event">BLUETOOTH_GATT_VALUE_CHANGED_EVENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/6AF30DEA-2018-4AA2-B13A-BD31BD641F9F">BTH_LE_GATT_EVENT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ne-bthledef-_bth_le_gatt_event_type">BTH_LE_GATT_EVENT_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/8C1477F8-8342-4405-8FE1-8109E6147EE9">BluetoothGATTRegisterEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattregisterevent">BluetoothGATTRegisterEvent</a>
  
 
  

@@ -59,14 +59,14 @@ Notifies the protocol to start listening for client connection requests.
 
 ### -param pCallback [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/33f583a4-8311-4db1-9646-bed1cd06e479">IWRdsProtocolListenerCallback</a> object 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocollistenercallback">IWRdsProtocolListenerCallback</a> object 
 implemented by the Remote Desktop Servicesservice. The protocol uses the 
 <b>IWRdsProtocolListenerCallback</b> object to notify 
 the 
 
 Remote Desktop Services 
 service about incoming connection requests. The protocol must add a reference to this object and release it when 
-<a href="https://msdn.microsoft.com/bfb758e8-3d71-47b9-bf7d-075c0c401177">StopListen</a> is called.
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollistener-stoplisten">StopListen</a> is called.
 
 
 ## -returns
@@ -75,7 +75,7 @@ service about incoming connection requests. The protocol must add a reference to
 
 When you are implementing this method, return <b>S_OK</b> if the function succeeds. If it fails, 
 return an <b>HRESULT</b> value that indicates the error. For a list of common error codes, 
-see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -87,9 +87,9 @@ see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Co
 The <b>StartListen</b> method is called when the Remote Desktop Services service starts.
 
 <ol>
-<li>The Remote Desktop Services service calls <a href="https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a> to create an  <a href="https://msdn.microsoft.com/626d579a-88a2-4f72-9d91-b27e517b4806">IWRdsProtocolManager</a> object.</li>
-<li>The Remote Desktop Services service calls <a href="https://msdn.microsoft.com/df91dc10-77af-4b5a-8033-1b1ff614bb17">CreateListener</a> on the <a href="https://msdn.microsoft.com/626d579a-88a2-4f72-9d91-b27e517b4806">IWRdsProtocolManager</a> interface. The protocol creates an <a href="https://msdn.microsoft.com/19d3176a-3f47-46c1-8bee-8e0f1d9b466e">IWRdsProtocolListener</a> object and passes it back to the Remote Desktop Services service.</li>
-<li>The Remote Desktop Services service calls <b>StartListen</b> on the <a href="https://msdn.microsoft.com/19d3176a-3f47-46c1-8bee-8e0f1d9b466e">IWRdsProtocolListener</a> object.</li>
+<li>The Remote Desktop Services service calls <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> to create an  <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolmanager">IWRdsProtocolManager</a> object.</li>
+<li>The Remote Desktop Services service calls <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolmanager-createlistener">CreateListener</a> on the <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolmanager">IWRdsProtocolManager</a> interface. The protocol creates an <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocollistener">IWRdsProtocolListener</a> object and passes it back to the Remote Desktop Services service.</li>
+<li>The Remote Desktop Services service calls <b>StartListen</b> on the <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocollistener">IWRdsProtocolListener</a> object.</li>
 </ol>
 
 
@@ -99,7 +99,7 @@ The <b>StartListen</b> method is called when the Remote Desktop Services service
 
 
 
-<a href="https://msdn.microsoft.com/19d3176a-3f47-46c1-8bee-8e0f1d9b466e">IWRdsProtocolListener</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocollistener">IWRdsProtocolListener</a>
  
 
  

@@ -59,7 +59,7 @@ Sets search scope, as specified.
 
 ### -param psiaScope [in]
 
-Type: <b><a href="https://msdn.microsoft.com/348213d1-c03f-4c38-9d13-3b1009d94e07">IShellItemArray</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a>*</b>
 
 A pointer to the list of locations to search. The search will include this location and all its subcontainers. The default is <b>FOLDERID_Profile</b>
 

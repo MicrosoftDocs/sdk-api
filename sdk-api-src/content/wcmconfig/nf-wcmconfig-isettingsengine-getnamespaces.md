@@ -59,7 +59,7 @@ Returns an enumerator to the installed namespaces.
 
 ### -param Flags [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Aa378605(v=VS.85).aspx">WcmNamespaceEnumerationFlags</a> value that specifies the context to include in the collection of namespaces.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/ne-wcmconfig-__midl___midl_itf_wcmconfig_0000_0000_0002">WcmNamespaceEnumerationFlags</a> value that specifies the context to include in the collection of namespaces.
 
 
 ### -param Reserved [in]
@@ -69,7 +69,7 @@ Reserved. Must be <b>NULL</b>.
 
 ### -param Namespaces [out]
 
-An <a href="https://msdn.microsoft.com/f43245f1-81d9-4b06-8f0c-d490618a99fa">IItemEnumerator</a> interface pointer whose methods can be used to access members of the collection.
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-iitemenumerator">IItemEnumerator</a> interface pointer whose methods can be used to access members of the collection.
 
 
 ## -returns
@@ -86,7 +86,7 @@ This method returns an HRESULT value. <b>S_OK</b> indicates success. It returns 
 
 
 
-<a href="https://msdn.microsoft.com/ba816a00-e238-4dbd-a09a-ad4e191d9c4e">ISettingsEngine</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsengine">ISettingsEngine</a>
  
 
  

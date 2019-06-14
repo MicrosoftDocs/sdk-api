@@ -60,7 +60,7 @@ Creates a texture resource.
 
 ### -param Width [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Width of the top-level of the texture, in pixels. The pixel dimensions of subsequent levels will be the truncated value of half of the previous level's 
         pixel dimension (independently). Each dimension clamps at a size of 1 pixel. Thus, if the division by 2 results in 0, 1 will be taken instead. 
@@ -68,7 +68,7 @@ Width of the top-level of the texture, in pixels. The pixel dimensions of subseq
 
 ### -param Height [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Height of the top-level of the texture, in pixels. The pixel dimensions of subsequent levels will be the truncated value of half of the previous level's 
         pixel dimension (independently). Each dimension clamps at a size of 1 pixel. Thus, if the division by 2 results in 0, 1 will be taken instead. 
@@ -76,54 +76,54 @@ Height of the top-level of the texture, in pixels. The pixel dimensions of subse
 
 ### -param Levels [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of levels in the texture. If this is zero, Direct3D will generate all texture sublevels down to 1 by 1 pixels for hardware that supports 
-        mipmapped textures. Call <a href="https://msdn.microsoft.com/en-us/library/Bb174325(v=VS.85).aspx">IDirect3DBaseTexture9::GetLevelCount</a> to see the number of levels generated. 
+        mipmapped textures. Call <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dbasetexture9-getlevelcount">IDirect3DBaseTexture9::GetLevelCount</a> to see the number of levels generated. 
 
 
 ### -param Usage [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Usage can be 0, which indicates no usage value. However, if usage is desired, use a combination of one or more <a href="https://msdn.microsoft.com/en-us/library/Bb172625(v=VS.85).aspx">D3DUSAGE</a> constants. It is 
-        good practice to match the usage parameter with the behavior flags in <a href="https://msdn.microsoft.com/en-us/library/Bb174313(v=VS.85).aspx">IDirect3D9::CreateDevice</a>. 
+Usage can be 0, which indicates no usage value. However, if usage is desired, use a combination of one or more <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dusage">D3DUSAGE</a> constants. It is 
+        good practice to match the usage parameter with the behavior flags in <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-createdevice">IDirect3D9::CreateDevice</a>. 
 
 
 ### -param Format [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a></b>
 
-Member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a> enumerated type, describing the format of all levels in the texture. 
+Member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a> enumerated type, describing the format of all levels in the texture. 
 
 
 ### -param Pool [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172584(v=VS.85).aspx">D3DPOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dpool">D3DPOOL</a></b>
 
-Member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172584(v=VS.85).aspx">D3DPOOL</a> enumerated type, describing the memory class into which the texture should be placed. 
+Member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dpool">D3DPOOL</a> enumerated type, describing the memory class into which the texture should be placed. 
 
 
 ### -param ppTexture [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205909(v=VS.85).aspx">IDirect3DTexture9</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dtexture9">IDirect3DTexture9</a>**</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb205909(v=VS.85).aspx">IDirect3DTexture9</a> interface, representing the created texture resource. 
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dtexture9">IDirect3DTexture9</a> interface, representing the created texture resource. 
 
 
 ### -param pSharedHandle [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HANDLE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HANDLE</a>*</b>
 
 Reserved. Set this parameter to <b>NULL</b>. This parameter can be used in Direct3D 9 for Windows Vista to 
-        <a href="https://msdn.microsoft.com/en-us/library/Bb219800(v=VS.85).aspx">share resources</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/direct3d9/dx9lh">share resources</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be one of the following: D3DERR_INVALIDCALL, 
       D3DERR_OUTOFVIDEOMEMORY, E_OUTOFMEMORY.
@@ -135,8 +135,8 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-An application can discover support for <a href="https://msdn.microsoft.com/en-us/library/Bb172340(v=VS.85).aspx">Automatic Generation of Mipmaps (Direct3D 9)</a> in a particular format by calling 
-      <a href="https://msdn.microsoft.com/en-us/library/Bb174309(v=VS.85).aspx">IDirect3D9::CheckDeviceFormat</a> with D3DUSAGE_AUTOGENMIPMAP. If <b>IDirect3D9::CheckDeviceFormat</b> returns D3DOK_NOAUTOGEN, 
+An application can discover support for <a href="https://docs.microsoft.com/windows/desktop/direct3d9/automatic-generation-of-mipmaps">Automatic Generation of Mipmaps (Direct3D 9)</a> in a particular format by calling 
+      <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-checkdeviceformat">IDirect3D9::CheckDeviceFormat</a> with D3DUSAGE_AUTOGENMIPMAP. If <b>IDirect3D9::CheckDeviceFormat</b> returns D3DOK_NOAUTOGEN, 
       <b>IDirect3DDevice9::CreateTexture</b> will succeed but it will return a one-level texture.
 
 In Windows Vista CreateTexture can create a texture from a system memory pointer allowing the application more flexibility over the use, allocation and deletion of 
@@ -158,35 +158,35 @@ In Windows Vista CreateTexture can create a texture from a system memory pointer
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb172800(v=VS.85).aspx">D3DXCreateTexture</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dxcreatetexture">D3DXCreateTexture</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb172801(v=VS.85).aspx">D3DXCreateTextureFromFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dxcreatetexturefromfile">D3DXCreateTextureFromFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb172802(v=VS.85).aspx">D3DXCreateTextureFromFileEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dxcreatetexturefromfileex">D3DXCreateTextureFromFileEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb172803(v=VS.85).aspx">D3DXCreateTextureFromFileInMemory</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dxcreatetexturefromfileinmemory">D3DXCreateTextureFromFileInMemory</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb172804(v=VS.85).aspx">D3DXCreateTextureFromFileInMemoryEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dxcreatetexturefromfileinmemoryex">D3DXCreateTextureFromFileInMemoryEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb172805(v=VS.85).aspx">D3DXCreateTextureFromResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dxcreatetexturefromresource">D3DXCreateTextureFromResource</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb172806(v=VS.85).aspx">D3DXCreateTextureFromResourceEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dxcreatetexturefromresourceex">D3DXCreateTextureFromResourceEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
  
 
  

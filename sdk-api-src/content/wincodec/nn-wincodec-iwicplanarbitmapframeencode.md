@@ -53,13 +53,13 @@ Allows planar component image pixels to be written to an encoder.   When support
 
 You can use
 
-QueryInterface to obtain this interface from the Windows provided implementation of <a href="https://msdn.microsoft.com/a8de774b-3783-46be-9a21-c9fec2f10ffd">IWICBitmapFrameEncode</a> for the JPEG encoder.  
+QueryInterface to obtain this interface from the Windows provided implementation of <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframeencode">IWICBitmapFrameEncode</a> for the JPEG encoder.  
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICPlanarBitmapFrameEncode</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWICPlanarBitmapFrameEncode</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICPlanarBitmapFrameEncode</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICPlanarBitmapFrameEncode</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IWICPlanarBitmapFrameEncode</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/57DB1340-9BE4-46ED-9ADE-9B91657F09B7">WritePixels</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicplanarbitmapframeencode-writepixels">WritePixels</a>
 </td>
 <td align="left" width="63%">
 Writes lines from the source planes to the encoded format.
@@ -83,7 +83,7 @@ Writes lines from the source planes to the encoded format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/220D9216-1053-48E1-B7FD-5E3E46001562">WriteSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicplanarbitmapframeencode-writesource">WriteSource</a>
 </td>
 <td align="left" width="63%">
 Writes lines from the source planes to the encoded format.
@@ -97,7 +97,7 @@ Writes lines from the source planes to the encoded format.
 
 
 
-Encoding YCbCr data using <b>IWICPlanarBitmapFrameEncode</b> is similar but not identical to encoding interleaved data using <a href="https://msdn.microsoft.com/509fa49c-c90d-4270-a338-6ce638ccd89a">IWICBitmapFrameEncode</a>. The planar interface only exposes the ability to write planar frame image data, and you should continue to use the frame encode interface to set metadata or a thumbnail and to commit at the end of the operation.
+Encoding YCbCr data using <b>IWICPlanarBitmapFrameEncode</b> is similar but not identical to encoding interleaved data using <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-imp-iwicbitmapframeencode">IWICBitmapFrameEncode</a>. The planar interface only exposes the ability to write planar frame image data, and you should continue to use the frame encode interface to set metadata or a thumbnail and to commit at the end of the operation.
 
 
 
@@ -108,7 +108,7 @@ Encoding YCbCr data using <b>IWICPlanarBitmapFrameEncode</b> is similar but not 
 
 
 
-<a href="https://msdn.microsoft.com/50B89A96-72E8-4771-9109-207F4CDD06CB">JPEG YCbCr Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/wic/jpeg-ycbcr-support">JPEG YCbCr Support</a>
  
 
  

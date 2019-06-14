@@ -65,20 +65,20 @@ Unicode string that specifies the IP address of the subnet to delete.
 ### -param SubnetAddress [in]
 
 
-<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_ADDRESS</a> value that contains the IP address of the subnet gateway used to identify the subnet.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that contains the IP address of the subnet gateway used to identify the subnet.
 
 
 ### -param ForceFlag [in]
 
 
-<a href="https://msdn.microsoft.com/2ec45a99-432d-4218-9048-81714ceff36b">DHCP_FORCE_FLAG</a> enumeration value that indicates the type of delete operation to perform (full force, failover force, or no force).
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-_dhcp_force_flag">DHCP_FORCE_FLAG</a> enumeration value that indicates the type of delete operation to perform (full force, failover force, or no force).
 
 
 ## -returns
 
 
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://msdn.microsoft.com/6370313f-d7db-4ff1-b0e0-7fa47474facb">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 
 
@@ -97,15 +97,15 @@ Usually, you will use either <b>DhcpFullForce</b> or <b>DhcpNoForce</b> as the v
 
 
 
-<a href="https://msdn.microsoft.com/2ec45a99-432d-4218-9048-81714ceff36b"> DHCP_FORCE_FLAG</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-_dhcp_force_flag"> DHCP_FORCE_FLAG</a>
 
 
 
-<a href="https://msdn.microsoft.com/acae01cf-cbd9-4461-a1cc-5fcb745b9c8f">DhcpCreateSubnet</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpcreatesubnet">DhcpCreateSubnet</a>
 
 
 
-<a href="https://msdn.microsoft.com/333381c9-66d1-44ef-911b-d543c79abefb">DhcpEnumSubnets</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpenumsubnets">DhcpEnumSubnets</a>
  
 
  

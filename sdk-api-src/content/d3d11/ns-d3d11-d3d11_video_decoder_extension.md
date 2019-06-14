@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains driver-specific data for the <a href="https://msdn.microsoft.com/B96FD793-C82A-4752-8F59-3CC9B86D1C2D">ID3D11VideoContext::DecoderExtension</a> method.
+Contains driver-specific data for the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-decoderextension">ID3D11VideoContext::DecoderExtension</a> method.
 
 
 ## -struct-fields
@@ -91,7 +91,7 @@ The number of elements in the <b>ppResourceList</b> array. If <b>ppResourceList<
 
 ### -field ppResourceList
 
-The address of an array of <a href="https://msdn.microsoft.com/3823ec00-cb3c-43ce-9f1a-be4e1e99d587">ID3D11Resource</a> pointers. Use this member to pass Direct3D resources to the driver.
+The address of an array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a> pointers. Use this member to pass Direct3D resources to the driver.
 
 
 ## -remarks
@@ -108,7 +108,7 @@ The exact meaning of each structure member depends on the value of <b>Function</
 
 
 
-<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>
  
 
  

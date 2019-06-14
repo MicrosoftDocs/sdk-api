@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines values for the file system item that was found using the <a href="https://msdn.microsoft.com/c3a86e85-1ffd-47c1-9dba-0fc207d76a1a">IFileSystemImage::Exists</a> method.
+Defines values for the file system item that was found using the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-exists">IFileSystemImage::Exists</a> method.
 
 
 ## -enum-fields
@@ -77,7 +77,7 @@ The specified item is a file.
 
 
 
-<a href="https://msdn.microsoft.com/c3a86e85-1ffd-47c1-9dba-0fc207d76a1a">IFileSystemImage::Exists</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-exists">IFileSystemImage::Exists</a>
  
 
  

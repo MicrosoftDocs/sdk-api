@@ -65,7 +65,7 @@ The <b>GetRecordServiceId</b> method returns the service identifier for a record
 
 ### -param dwRecordIndex [in]
 
-Specifies the record number, indexed from zero. Call <a href="https://msdn.microsoft.com/93d04770-9ec5-411c-8892-4b9a7944d681">IDVB_SIT::GetCountOfRecords</a> to get the number of records in the SIT.
+Specifies the record number, indexed from zero. Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sit-getcountofrecords">IDVB_SIT::GetCountOfRecords</a> to get the number of records in the SIT.
 
 
 ### -param pwVal [out]
@@ -128,7 +128,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/f278d942-a450-4a01-998d-4dac1c8a1fcc">IDVB_SIT Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_sit">IDVB_SIT Interface</a>
  
 
  

@@ -61,7 +61,7 @@ The <b>CreatePenIndirect</b> function creates a logical cosmetic pen that has th
 
 ### -param plpen [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/0e098b5a-e249-43ad-a6d8-2509b6562453">LOGPEN</a> structure that specifies the pen's style, width, and color.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogpen">LOGPEN</a> structure that specifies the pen's style, width, and color.
 
 
 ## -returns
@@ -79,9 +79,9 @@ If the function fails, the return value is <b>NULL</b>.
 
 
 
-After an application creates a logical pen, it can select that pen into a device context by calling the <a href="https://msdn.microsoft.com/a89b875e-923d-4048-bc61-8dea132cc56d">SelectObject</a> function. After a pen is selected into a device context, it can be used to draw lines and curves.
+After an application creates a logical pen, it can select that pen into a device context by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a> function. After a pen is selected into a device context, it can be used to draw lines and curves.
 
-When you no longer need the pen, call the <a href="https://msdn.microsoft.com/cc679af0-6839-4c83-9c42-39d7ededda40">DeleteObject</a> function to delete it.
+When you no longer need the pen, call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete it.
 
 
 
@@ -91,39 +91,39 @@ When you no longer need the pen, call the <a href="https://msdn.microsoft.com/cc
 
 
 
-<a href="https://msdn.microsoft.com/882facd2-7e06-48f6-82e4-f20e4d5adc92">CreatePen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpen">CreatePen</a>
 
 
 
-<a href="https://msdn.microsoft.com/cc679af0-6839-4c83-9c42-39d7ededda40">DeleteObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/a1e81314-4fe6-481f-af96-24ebf56332cf">ExtCreatePen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extcreatepen">ExtCreatePen</a>
 
 
 
-<a href="https://msdn.microsoft.com/555ab876-d990-426d-915c-f98df82a10aa">GetObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/0e098b5a-e249-43ad-a6d8-2509b6562453">LOGPEN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogpen">LOGPEN</a>
 
 
 
-<a href="https://msdn.microsoft.com/d5cc81b5-0df4-4ec2-8941-d63819a8d5ff">Pen Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/pen-functions">Pen Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/624c3ea6-6e42-4577-9228-961501633937">Pens Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/pens">Pens Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">RGB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
 
 
 
-<a href="https://msdn.microsoft.com/a89b875e-923d-4048-bc61-8dea132cc56d">SelectObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
  
 
  

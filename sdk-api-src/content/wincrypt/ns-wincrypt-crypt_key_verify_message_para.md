@@ -64,7 +64,7 @@ The size, in bytes, of this structure.
 
 ### -field dwMsgEncodingType
 
-Type of encoding used. It is always acceptable to specify both the certificate and <a href="https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
+Type of encoding used. It is always acceptable to specify both the certificate and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
 
 X509_ASN_ENCODING | PKCS_7_ASN_ENCODING
 
@@ -79,7 +79,7 @@ Currently defined encoding types are:
 
 This member is not used and should be set to <b>NULL</b>.
 
-<b>Windows Server 2003 and Windows XP:  </b>A handle to the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) to be used to verify a signed message. The CSP identified by this handle is used for <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hashing</a> and for signature verification.Unless there is a strong reason for using a specific cryptographic provider, set this member to  zero to use the default RSA or DSS provider.
+<b>Windows Server 2003 and Windows XP:  </b>A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) to be used to verify a signed message. The CSP identified by this handle is used for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hashing</a> and for signature verification.Unless there is a strong reason for using a specific cryptographic provider, set this member to  zero to use the default RSA or DSS provider.
 
 This member's data type is <b>HCRYPTPROV</b>.
 

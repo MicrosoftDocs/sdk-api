@@ -61,14 +61,14 @@ Adds a desktop item to the Active Desktop after  displaying user interfaces that
 
 Type: <b>HWND</b>
 
-The handle of the parent window. If <b>NULL</b>, the desktop item is added without displaying any user interface, in accordance with the corresponding security zone permissions. For more information, see <a href="https://msdn.microsoft.com/library/ms537183(v=VS.85).aspx">About URL Security Zones</a>.
+The handle of the parent window. If <b>NULL</b>, the desktop item is added without displaying any user interface, in accordance with the corresponding security zone permissions. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537183(v=vs.85)">About URL Security Zones</a>.
 
 
 ### -param pcomp [in]
 
 Type: <b>LPCOMPONENT</b>
 
-Address of the <a href="https://msdn.microsoft.com/2692a2d6-1d33-410f-987c-8388c636cae6">COMPONENT</a> structure containing the details of the desktop item to be added. 
+Address of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcomponent">COMPONENT</a> structure containing the details of the desktop item to be added. 
 
 
 ### -param dwReserved
@@ -93,7 +93,7 @@ Activate the subscription wizard to allow the user to subscribe to this desktop 
 
 #### DTI_ADDUI_POSITIONITEM
 
-Instruct the system to look at the <a href="https://msdn.microsoft.com/622bdf51-d605-4eb9-a692-09be028bbff8">COMPPOS</a> structure passed to the <b>cpPos</b> member of the <a href="https://msdn.microsoft.com/2692a2d6-1d33-410f-987c-8388c636cae6">COMPONENT</a> structure to ensure that the values are within reasonable limits. This value was added for Internet Explorer 5.
+Instruct the system to look at the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcomppos">COMPPOS</a> structure passed to the <b>cpPos</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcomponent">COMPONENT</a> structure to ensure that the values are within reasonable limits. This value was added for Internet Explorer 5.
 
 
 ## -returns
@@ -152,7 +152,7 @@ If the <b>ADDURL_SILENT</b> flag has been set, the desktop item has either been 
 
 
 
-This method creates a second instance of the <a href="https://msdn.microsoft.com/68d72b0f-f5e9-4fff-bb13-4c60d1dd7009">Active Desktop</a> to add the desktop item, so the desktop item does not appear in the current instance. The application must call the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method on this <a href="https://msdn.microsoft.com/4d572b86-36e8-417b-857c-eb477c04c691">IActiveDesktop</a> interface and then use the <a href="http://msdn.microsoft.com/en-us/library/ms686615(VS.85).aspx">CoCreateInstance</a> function to retrieve the Active Desktop object with the newly added component.
+This method creates a second instance of the <a href="https://docs.microsoft.com/windows/desktop/lwef/active-desktop-interface">Active Desktop</a> to add the desktop item, so the desktop item does not appear in the current instance. The application must call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on this <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a> interface and then use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function to retrieve the Active Desktop object with the newly added component.
 
 
 
@@ -162,11 +162,11 @@ This method creates a second instance of the <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/4d572b86-36e8-417b-857c-eb477c04c691">IActiveDesktop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>
 
 
 
-<a href="https://msdn.microsoft.com/68d72b0f-f5e9-4fff-bb13-4c60d1dd7009">Using the Active Desktop Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/lwef/active-desktop-interface">Using the Active Desktop Object</a>
  
 
  

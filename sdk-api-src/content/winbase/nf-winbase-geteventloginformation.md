@@ -62,8 +62,8 @@ Retrieves information about the specified event log.
 ### -param hEventLog [in]
 
 A handle to the event log. The 
-<a href="https://msdn.microsoft.com/6cd8797a-aeaf-4603-b43c-b1ff45b6200a">OpenEventLog</a> or 
-<a href="https://msdn.microsoft.com/53706f83-6bc9-45d6-981c-bd0680d7bc08">RegisterEventSource</a> function returns this handle.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openeventloga">OpenEventLog</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registereventsourcea">RegisterEventSource</a> function returns this handle.
 
 
 ### -param dwInfoLevel [in]
@@ -88,7 +88,7 @@ The level of event log information to return.
 </td>
 <td width="60%">
 Indicate whether the specified log is full. The <i>lpBuffer</i> parameter will contain an 
-<a href="https://msdn.microsoft.com/3ca41d6b-51a6-4226-89be-ab2c37628289">EVENTLOG_FULL_INFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_eventlog_full_information">EVENTLOG_FULL_INFORMATION</a> structure.
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -129,19 +129,19 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/3ca41d6b-51a6-4226-89be-ab2c37628289">EVENTLOG_FULL_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_eventlog_full_information">EVENTLOG_FULL_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd5c12ec-3a3d-4b75-a573-0b27ae7a890b">Event Logging Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/EventLog/event-logging-functions">Event Logging Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/6cd8797a-aeaf-4603-b43c-b1ff45b6200a">OpenEventLog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openeventloga">OpenEventLog</a>
 
 
 
-<a href="https://msdn.microsoft.com/53706f83-6bc9-45d6-981c-bd0680d7bc08">RegisterEventSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registereventsourcea">RegisterEventSource</a>
  
 
  

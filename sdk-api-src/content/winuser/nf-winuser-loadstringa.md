@@ -74,7 +74,7 @@ Loads a string resource from the executable file associated with a specified mod
 
 Type: <b>HINSTANCE</b>
 
-A handle to an instance of the module whose executable file contains the string resource. To get the handle to the application itself, call the <a href="https://msdn.microsoft.com/29514410-89fe-4888-8b34-0c30d5af237f">GetModuleHandle</a> function with <b>NULL</b>.
+A handle to an instance of the module whose executable file contains the string resource. To get the handle to the application itself, call the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a> function with <b>NULL</b>.
 
 
 ### -param uID [in]
@@ -110,7 +110,7 @@ If the function succeeds, the return value is one of the following:
 - The number of characters in the string resource that *lpBuffer* points to (if *cchBufferMax* is zero). The string resource is not guaranteed to be null-terminated in the module's resource table, and you can use this value to determine where the string resource ends.
 - Zero if the string resource does not exist. 
  
-To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 ## -remarks
@@ -123,7 +123,7 @@ Using this function incorrectly can compromise the security of your application.
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644909(v=VS.85).aspx">Creating a Child Window</a>
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/using-the-multiple-document-interface">Creating a Child Window</a>
 
 <div class="code"></div>
 
@@ -138,31 +138,31 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644909(v
 
 
 
-<a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646370(v=VS.85).aspx">LoadAccelerators</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadacceleratorsa">LoadAccelerators</a>
 
 
 
-<a href="https://msdn.microsoft.com/5eed5f78-deaf-4b23-986e-4802dc05936c">LoadBitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadbitmapa">LoadBitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648391(v=VS.85).aspx">LoadCursor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadcursora">LoadCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648072(v=VS.85).aspx">LoadIcon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647990(v=VS.85).aspx">LoadMenu</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadmenua">LoadMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647991(v=VS.85).aspx">LoadMenuIndirect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadmenuindirecta">LoadMenuIndirect</a>
 
 
 
@@ -174,7 +174,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644909(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/strings">Strings</a>
  
 
  

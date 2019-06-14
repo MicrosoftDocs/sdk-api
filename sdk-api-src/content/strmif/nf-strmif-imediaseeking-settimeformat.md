@@ -63,7 +63,7 @@ The <code>SetTimeFormat</code> method sets the time format for subsequent seek o
 
 ### -param pFormat [in]
 
-Pointer to a GUID that specifies the time format. See <a href="https://msdn.microsoft.com/510c7146-ff3c-4812-a7ad-b4051aa82ef3">Time Format GUIDs</a>.
+Pointer to a GUID that specifies the time format. See <a href="https://docs.microsoft.com/windows/desktop/DirectShow/time-format-guids">Time Format GUIDs</a>.
 
 
 ## -returns
@@ -142,9 +142,9 @@ Filter graph is not stopped.
 
 
 
-This method specifies the time units used by other <b>IMediaSeeking</b> methods, such as <a href="https://msdn.microsoft.com/1b267c02-ec2d-4251-aac7-f2f711b16062">IMediaSeeking::GetPositions</a> and <a href="https://msdn.microsoft.com/aa1369fd-a57a-4246-bb23-969f6ce3cad8">IMediaSeeking::SetPositions</a>. Whenever you call one of these other methods, any parameters that express time values are given in units of the current time format.
+This method specifies the time units used by other <b>IMediaSeeking</b> methods, such as <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediaseeking-getpositions">IMediaSeeking::GetPositions</a> and <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediaseeking-setpositions">IMediaSeeking::SetPositions</a>. Whenever you call one of these other methods, any parameters that express time values are given in units of the current time format.
 
-The default time format is <a href="https://msdn.microsoft.com/862c95bc-2e0a-42c0-b907-45f64f27bd41">REFERENCE_TIME</a> units (100 nanoseconds). Other time formats include frames, samples, and bytes. To determine if a given format is supported, call the <a href="https://msdn.microsoft.com/443a8dbc-c12a-4d50-9005-1fedf701f6fd">IMediaSeeking::IsFormatSupported</a> method. If a format is supported, you can switch to that format by calling <code>SetTimeFormat</code>. Only one time format is active at any one time.
+The default time format is <a href="https://docs.microsoft.com/windows/desktop/DirectShow/reference-time">REFERENCE_TIME</a> units (100 nanoseconds). Other time formats include frames, samples, and bytes. To determine if a given format is supported, call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediaseeking-isformatsupported">IMediaSeeking::IsFormatSupported</a> method. If a format is supported, you can switch to that format by calling <code>SetTimeFormat</code>. Only one time format is active at any one time.
 
 
 
@@ -154,19 +154,19 @@ The default time format is <a href="https://msdn.microsoft.com/862c95bc-2e0a-42c
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/32adad53-d1ac-495f-9347-7bdd4ae4b78d">IMediaSeeking Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa6dc75e-f124-4404-b8fd-ef227d8cada0">IMediaSeeking::GetTimeFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediaseeking-gettimeformat">IMediaSeeking::GetTimeFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/16fd71d6-c162-493c-9bca-479d59da5031">IMediaSeeking::QueryPreferredFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediaseeking-querypreferredformat">IMediaSeeking::QueryPreferredFormat</a>
  
 
  

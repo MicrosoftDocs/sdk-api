@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Specifies the requirements for compressed surfaces for DirectX Video Acceleration (DXVA).
 
-To get this information, call <a href="https://msdn.microsoft.com/5a9fb077-fd79-4faa-a0f8-b3ac987adf36">IDirect3DVideoDevice9::GetDXVACompressedBufferInfo</a>. Each <b>DXVACompBufferInfo</b> structure gives the requirements for a specific  DXVA surface type. The surface type is defined implicitly by the index of the array that is passed into the <i>pBufferInfo</i>  parameter.
+To get this information, call <a href="https://docs.microsoft.com/windows/desktop/medfound/idirect3dvideodevice9-getdxvacompressedbufferinfo">IDirect3DVideoDevice9::GetDXVACompressedBufferInfo</a>. Each <b>DXVACompBufferInfo</b> structure gives the requirements for a specific  DXVA surface type. The surface type is defined implicitly by the index of the array that is passed into the <i>pBufferInfo</i>  parameter.
 
 
 ## -struct-fields
@@ -98,7 +98,7 @@ The pixel format, specified as a <b>D3DFORMAT</b> value.
 
 
 
-To create the compressed surfaces, call <a href="https://msdn.microsoft.com/2bb8c99d-1151-4f6d-869f-2c1a592e76af">IDirect3DVideoDevice9::CreateSurface</a>.
+To create the compressed surfaces, call <a href="https://docs.microsoft.com/windows/desktop/medfound/idirect3dvideodevice9-createsurface">IDirect3DVideoDevice9::CreateSurface</a>.
 
 
 
@@ -108,11 +108,11 @@ To create the compressed surfaces, call <a href="https://msdn.microsoft.com/2bb8
 
 
 
-<a href="https://msdn.microsoft.com/584c087e-53f0-42d8-99ed-a0d013379363">Direct3D Video Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-video-structures">Direct3D Video Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a9fb077-fd79-4faa-a0f8-b3ac987adf36">IDirect3DVideoDevice9::GetDXVACompressedBufferInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/idirect3dvideodevice9-getdxvacompressedbufferinfo">IDirect3DVideoDevice9::GetDXVACompressedBufferInfo</a>
  
 
  

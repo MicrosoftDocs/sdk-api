@@ -62,7 +62,7 @@ This property is read-only.
 
 
 
- Call the <a href="https://msdn.microsoft.com/bc317b7b-c4d8-480b-9de7-3324e30898b8">Initialize</a> method to create a description.
+ Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertykeyprovinfo-initialize">Initialize</a> method to create a description.
 
 
 
@@ -72,11 +72,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/947c2f09-993d-4ced-8b76-66b79d96e3bc">ICertProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/1c35c2f0-8e79-4031-bae2-2be081f3c8dd">ICertPropertyKeyProvInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertykeyprovinfo">ICertPropertyKeyProvInfo</a>
  
 
  

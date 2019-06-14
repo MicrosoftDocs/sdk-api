@@ -59,7 +59,7 @@ The DD_GETMOCOMPCOMPBUFFDATA structure contains the compressed buffer informatio
 
 ### -field lpDD
 
-Points to a <a href="https://msdn.microsoft.com/58e378b7-863a-46d4-91cb-904ed4e892a3">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
 
 
 ### -field lpGuid
@@ -79,7 +79,7 @@ Indicates the height in pixels of the uncompressed output frame.
 
 ### -field ddPixelFormat
 
-Points to a <a href="https://msdn.microsoft.com/bbc26c03-c154-4b1e-883e-2942b59ded02">DDPIXELFORMAT</a> structure that contains the pixel format of the uncompressed output frame.
+Points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a> structure that contains the pixel format of the uncompressed output frame.
 
 
 ### -field dwNumTypesCompBuffs
@@ -89,12 +89,12 @@ Indicates how many different types of surfaces the driver requires to perform mo
 
 ### -field lpCompBuffInfo
 
-Points to a <a href="https://msdn.microsoft.com/73dad759-499f-45b2-9345-4577deb01492">DDCOMPBUFFERINFO</a> structure that contains the driver-supplied information for each type of required surface. 
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_ddcompbufferinfo">DDCOMPBUFFERINFO</a> structure that contains the driver-supplied information for each type of required surface. 
 
 
 ### -field ddRVal
 
-Specifies the location in which the driver writes the return value of the <a href="https://msdn.microsoft.com/7303f80d-1b6e-401f-a9ef-cf646b716c70">DdMoCompGetBuffInfo</a> callback. A return code of DD_OK indicates success. For more information, see <a href="https://msdn.microsoft.com/da4cc7d7-6826-48aa-96c6-004e31fc3e3e">Return Values for DirectDraw</a>.
+Specifies the location in which the driver writes the return value of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_mocompcb_getcompbuffinfo">DdMoCompGetBuffInfo</a> callback. A return code of DD_OK indicates success. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/return-values-for-directdraw">Return Values for DirectDraw</a>.
 
 
 ## -see-also
@@ -102,7 +102,7 @@ Specifies the location in which the driver writes the return value of the <a hre
 
 
 
-<a href="https://msdn.microsoft.com/7303f80d-1b6e-401f-a9ef-cf646b716c70">DdMoCompGetBuffInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_mocompcb_getcompbuffinfo">DdMoCompGetBuffInfo</a>
  
 
  

@@ -124,11 +124,11 @@ NULL pointer argument.
 
 
 
-<a href="https://msdn.microsoft.com/e3ea10ea-bfb4-4c35-9933-5ad0367fd9ee">IMSVidCtl Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidctl">IMSVidCtl Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f0943b1-3cb9-46dc-8aaf-be22e2464092">IMSVidCtl::put_MaintainAspectRatio</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_maintainaspectratio">IMSVidCtl::put_MaintainAspectRatio</a>
  
 
  

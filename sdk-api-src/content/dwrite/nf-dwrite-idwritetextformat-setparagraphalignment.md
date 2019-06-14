@@ -59,9 +59,9 @@ ms.custom: 19H1
 
 ### -param paragraphAlignment
 
-Type: <b><a href="https://msdn.microsoft.com/fcd11308-741a-47cb-aa7a-0ae2c7a9e769">DWRITE_PARAGRAPH_ALIGNMENT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_paragraph_alignment">DWRITE_PARAGRAPH_ALIGNMENT</a></b>
 
-The paragraph alignment option being set for a paragraph; see <a href="https://msdn.microsoft.com/fcd11308-741a-47cb-aa7a-0ae2c7a9e769">DWRITE_PARAGRAPH_ALIGNMENT</a> for more information.
+The paragraph alignment option being set for a paragraph; see <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_paragraph_alignment">DWRITE_PARAGRAPH_ALIGNMENT</a> for more information.
 
 
 ## -returns
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/64b2cac3-c4cb-4213-b808-7b279d296939">IDWriteTextFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a>
  
 
  

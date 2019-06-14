@@ -99,7 +99,7 @@ You can use the <b>GetForWindow</b> method to get the <a href="https://docs.micr
 
 
 
-<a href="https://msdn.microsoft.com/1786fda1-37e4-4ec5-94de-a1fc5b6732a2">IPrintManagerInterop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/printmanagerinterop/nn-printmanagerinterop-iprintmanagerinterop">IPrintManagerInterop</a>
 
 
 

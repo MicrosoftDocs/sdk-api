@@ -76,7 +76,7 @@ Number of requested objects.
 ### -param apObjects [out]
 
 Pointer to enough storage to hold the number of 
-      <a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> interface pointers specified by 
+      <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> interface pointers specified by 
       <i>uCount</i>. This storage must be supplied by the caller. This parameter cannot be 
       <b>NULL</b>. The caller must call <b>Release</b> on each of the received 
       interface pointers when they are no longer needed.
@@ -119,7 +119,7 @@ If more than one object is requested, and if the number of requested objects is 
 
 If the enumeration has not completed, the call waits for objects to be available up to the specified time-out. If the enumeration times out before the objects are available, the function returns <b>WBEM_S_TIMEDOUT</b>.
 
-<div class="alert"><b>Note</b>  Because the call-back to the sink might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication.  For more information, see <a href="https://msdn.microsoft.com/7a1eda93-014e-4067-b6d0-361a3d2fd1df">Calling a Method</a>.</div>
+<div class="alert"><b>Note</b>  Because the call-back to the sink might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication.  For more information, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.</div>
 <div> </div>
 
 #### Examples
@@ -169,11 +169,11 @@ HRESULT ProcessEnum( IEnumWbemClassObject*    pEnum )
 
 
 
-<a href="https://msdn.microsoft.com/fe7e3259-9a7c-4f73-af30-192bbbace1b3">Enumerating WMI</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/enumerating-wmi">Enumerating WMI</a>
 
 
 
-<a href="https://msdn.microsoft.com/142ea48d-d47b-4b7b-ab84-049a54955488">IEnumWbemClassObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-ienumwbemclassobject">IEnumWbemClassObject</a>
  
 
  

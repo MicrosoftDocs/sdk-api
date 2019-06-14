@@ -75,7 +75,7 @@ The updated entry.
 
 #### - destination [in, optional]
 
-This parameter specifies the destination  as a string or as a destination option. Passing a string for the destination implicitly sets the entry's <a href="https://msdn.microsoft.com/93221fe3-bce8-4a36-8e6d-a43d37872295">DestinationOptionSet</a> equal to the DestinationOptionSet property of the <a href="https://msdn.microsoft.com/e9137167-4a2d-4cc4-940e-20f9991c4187">GPMConstants</a> object.  The destination can also be specified by passing the DestinationSameAsSource, DestinationNone, or DestinationByRelativeName properties of the GPMConstants object.
+This parameter specifies the destination  as a string or as a destination option. Passing a string for the destination implicitly sets the entry's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">DestinationOptionSet</a> equal to the DestinationOptionSet property of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmconstants">GPMConstants</a> object.  The destination can also be specified by passing the DestinationSameAsSource, DestinationNone, or DestinationByRelativeName properties of the GPMConstants object.
 
 
 ## -returns
@@ -99,7 +99,7 @@ Returns a reference to a <b>GPMMapEntry</b> object.
 
 
 
-<a href="https://msdn.microsoft.com/c3639f07-7c8c-4440-ade4-b58abd2586d6">IGPMMigrationTable</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain">IGPMMigrationTable</a>
  
 
  

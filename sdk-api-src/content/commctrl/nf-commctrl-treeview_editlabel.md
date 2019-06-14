@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Begins in-place editing of the specified item's text, replacing the text of the item with a single-line edit control containing the text. This macro implicitly selects and focuses the specified item. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773562(v=VS.85).aspx">TVM_EDITLABEL</a> message explicitly. 
+Begins in-place editing of the specified item's text, replacing the text of the item with a single-line edit control containing the text. This macro implicitly selects and focuses the specified item. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-editlabel">TVM_EDITLABEL</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Begins in-place editing of the specified item's text, replacing the text of the 
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control. 
 
@@ -75,11 +75,11 @@ Handle to the item to edit.
 
 
 
-This macro sends a <a href="https://msdn.microsoft.com/en-us/library/Bb773506(v=VS.85).aspx">TVN_BEGINLABELEDIT</a> notification code to the parent of the tree-view control. 
+This macro sends a <a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-beginlabeledit">TVN_BEGINLABELEDIT</a> notification code to the parent of the tree-view control. 
 
 When the user completes or cancels editing, the edit control is destroyed and the handle is no longer valid. You can subclass the edit control, but do not destroy it. 
 
-The control must have the focus before you call this macro. Focus can be set using the <a href="https://msdn.microsoft.com/en-us/library/ms646312(v=VS.85).aspx">SetFocus</a> function. 
+The control must have the focus before you call this macro. Focus can be set using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setfocus">SetFocus</a> function. 
 
 
 

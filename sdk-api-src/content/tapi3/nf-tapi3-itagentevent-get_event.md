@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Gets an 
-<a href="https://msdn.microsoft.com/9dec832a-98da-436a-89c8-d5c69053082a">AGENT_EVENT</a> descriptor of the event that occurred.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/ne-tapi3-agent_event">AGENT_EVENT</a> descriptor of the event that occurred.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Gets an
 ### -param pEvent [out]
 
 Pointer to 
-<a href="https://msdn.microsoft.com/9dec832a-98da-436a-89c8-d5c69053082a">AGENT_EVENT</a> descriptor of event.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/ne-tapi3-agent_event">AGENT_EVENT</a> descriptor of event.
 
 
 ## -returns
@@ -119,11 +119,11 @@ The <i>pEvent</i> parameter is not a valid pointer.
 
 
 
-<a href="https://msdn.microsoft.com/9dec832a-98da-436a-89c8-d5c69053082a">AGENT_EVENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/ne-tapi3-agent_event">AGENT_EVENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/adfb58f7-b02c-4a64-92c1-a1b29c9f7143">ITAgentEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagentevent">ITAgentEvent</a>
  
 
  

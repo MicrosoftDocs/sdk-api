@@ -73,7 +73,7 @@ Returns the volume level. Volume is expressed as an attenuation level, where 0.0
 
 
 
-<a href="https://msdn.microsoft.com/A0023F18-2D28-4F0D-9B00-B8FB11567034">IMFMediaEngine</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
  
 
  

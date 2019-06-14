@@ -104,7 +104,7 @@ The handler was successfully removed from the registry with SyncMgr.
 
 
 
-<a href="https://msdn.microsoft.com/1feed230-5a50-4ff5-a8a9-e0ce15ba8f1c">ISyncMgrRegister</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrregister">ISyncMgrRegister</a>
  
 
  

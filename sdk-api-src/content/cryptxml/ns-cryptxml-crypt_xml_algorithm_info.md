@@ -129,17 +129,17 @@ A pointer to a null-terminated Unicode string that contains an extra algorithm s
 
 ### -field dwSignFlags
 
-A <b>DWORD</b> value that contains flag values to be  passed to the <a href="https://msdn.microsoft.com/7404e37a-d7c6-49ed-b951-6081dd2b921a">NCryptSignHash</a> function.
+A <b>DWORD</b> value that contains flag values to be  passed to the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptsignhash">NCryptSignHash</a> function.
 
 
 ### -field dwVerifyFlags
 
-A <b>DWORD</b> value that is passed to the <a href="https://msdn.microsoft.com/95c32056-e444-441c-bbc1-c5ae82aba964">BCryptVerifySignature</a> function.
+A <b>DWORD</b> value that is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptverifysignature">BCryptVerifySignature</a> function.
 
 
 ### -field pvPaddingInfo
 
-A pointer to a structure that contains padding information to be passed to the <a href="https://msdn.microsoft.com/7404e37a-d7c6-49ed-b951-6081dd2b921a">NCryptSignHash</a> or <a href="https://msdn.microsoft.com/95c32056-e444-441c-bbc1-c5ae82aba964">BCryptVerifySignature</a> function. The actual type of structure this member points to depends on the value of the <b>dwGroupId</b> member.
+A pointer to a structure that contains padding information to be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptsignhash">NCryptSignHash</a> or <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptverifysignature">BCryptVerifySignature</a> function. The actual type of structure this member points to depends on the value of the <b>dwGroupId</b> member.
 
 
 ### -field pvExtraInfo
@@ -161,7 +161,7 @@ Optional. A pointer to a structure that contains extra information that can be p
 
 
 
-<a href="https://msdn.microsoft.com/012bad01-228a-4bb0-b883-0c2c7abd9271">Digital Signature Cryptographic Algorithms</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/xml-digital-signature-cryptographic-algorithms">Digital Signature Cryptographic Algorithms</a>
  
 
  

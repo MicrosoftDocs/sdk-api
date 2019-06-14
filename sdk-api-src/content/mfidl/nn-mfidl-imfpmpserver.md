@@ -50,13 +50,13 @@ ms.custom: 19H1
 ## -description
 
 
-Enables two instances of the <a href="https://msdn.microsoft.com/dac99908-be90-415d-8837-2f97d573feb5">Media Session</a> to share the same protected media path (PMP) process.
+Enables two instances of the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> to share the same protected media path (PMP) process.
         
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFPMPServer</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFPMPServer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFPMPServer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFPMPServer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IMFPMPServer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ece956bb-ee83-42c7-9410-90f34956fdde">CreateObjectByCLSID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpmpserver-createobjectbyclsid">CreateObjectByCLSID</a>
 </td>
 <td align="left" width="63%">
 Creates an object in the PMP process.
@@ -80,7 +80,7 @@ Creates an object in the PMP process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9a25abfb-5038-4869-ad70-1ae52e8cf599">LockProcess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpmpserver-lockprocess">LockProcess</a>
 </td>
 <td align="left" width="63%">
 Blocks the PMP process from ending.
@@ -89,7 +89,7 @@ Blocks the PMP process from ending.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2f64252f-c08b-4624-8df6-db922a630891">UnlockProcess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpmpserver-unlockprocess">UnlockProcess</a>
 </td>
 <td align="left" width="63%">
 Decrements the lock count on the PMP process.
@@ -108,11 +108,11 @@ If your application creates more than one instance of the Media Session, you can
 Use this interface as follows:
 
 <ol>
-<li>Create the first instance of the PMP Media Session by calling <a href="https://msdn.microsoft.com/cb492e68-3d8a-49b2-8c0b-bee8065b53a8">MFCreatePMPMediaSession</a>.
+<li>Create the first instance of the PMP Media Session by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatepmpmediasession">MFCreatePMPMediaSession</a>.
           </li>
-<li>Retrieve an <b>IMFPMPServer</b> pointer from the first Media Session by calling <a href="https://msdn.microsoft.com/4287dd1f-1718-4231-bc62-b58e0e61d688">IMFGetService::GetService</a> with the service identifier <b>MF_PMP_SERVER_CONTEXT</b>.
+<li>Retrieve an <b>IMFPMPServer</b> pointer from the first Media Session by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> with the service identifier <b>MF_PMP_SERVER_CONTEXT</b>.
           </li>
-<li>Create the second instance of the PMP Media Session. Set the <a href="https://msdn.microsoft.com/a922c79b-d6c1-447d-b6fa-993970169a3f">MF_SESSION_SERVER_CONTEXT</a> attribute on the <i>pConfiguration</i> parameter of the <a href="https://msdn.microsoft.com/cb492e68-3d8a-49b2-8c0b-bee8065b53a8">MFCreatePMPMediaSession</a> function. The attribute value is the <b>IMFPMPServer</b> pointer retrieved in step 2.
+<li>Create the second instance of the PMP Media Session. Set the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-session-server-context-attribute">MF_SESSION_SERVER_CONTEXT</a> attribute on the <i>pConfiguration</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatepmpmediasession">MFCreatePMPMediaSession</a> function. The attribute value is the <b>IMFPMPServer</b> pointer retrieved in step 2.
           </li>
 </ol>
 
@@ -123,11 +123,11 @@ Use this interface as follows:
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/CF3A427D-31D2-45FF-BE87-F192B758204E">PMP Media Session</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/pmp-media-session">PMP Media Session</a>
  
 
  

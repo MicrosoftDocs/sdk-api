@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Requests the creation of a new Shell view window. The view can be either the right pane of Windows Explorer or the client window of a folder window. This method replaces <a href="https://msdn.microsoft.com/3b829f5f-26ea-4987-be05-6725eeff5fed">CreateViewWindow2</a>.
+Requests the creation of a new Shell view window. The view can be either the right pane of Windows Explorer or the client window of a folder window. This method replaces <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview2-createviewwindow2">CreateViewWindow2</a>.
 
 
 ## -parameters
@@ -59,16 +59,16 @@ Requests the creation of a new Shell view window. The view can be either the rig
 
 ### -param psbOwner [in]
 
-Type: <b><a href="https://msdn.microsoft.com/138d90e3-a1f0-4faf-88ca-16c7a46df0ca">IShellBrowser</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser">IShellBrowser</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/138d90e3-a1f0-4faf-88ca-16c7a46df0ca">IShellBrowser</a> interface to provide namespace extension services.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser">IShellBrowser</a> interface to provide namespace extension services.
 
 
 ### -param psvPrev [in]
 
-Type: <b><a href="https://msdn.microsoft.com/91438583-e4f1-456f-a130-2a45846fd725">IShellView</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/91438583-e4f1-456f-a130-2a45846fd725">IShellView</a> interface that represents the previous view in the Windows Explorer or folder window.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> interface that represents the previous view in the Windows Explorer or folder window.
 
 
 ### -param dwViewFlags [in]
@@ -104,23 +104,23 @@ Folder flags set by <b>IShellView3::CreateViewWindow3</b> override the saved vie
 
 ### -param dwMask [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e471b81a-da4d-48c0-8c7f-996b507d27a1">FOLDERFLAGS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderflags">FOLDERFLAGS</a></b>
 
 A bitwise mask that specifies which folder options specified in <i>dwFlags</i> are to be used.
 
 
 ### -param dwFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e471b81a-da4d-48c0-8c7f-996b507d27a1">FOLDERFLAGS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderflags">FOLDERFLAGS</a></b>
 
-A bitwise value that contains the folder options, as <a href="https://msdn.microsoft.com/e471b81a-da4d-48c0-8c7f-996b507d27a1">FOLDERFLAGS</a>, to use in the new view.
+A bitwise value that contains the folder options, as <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderflags">FOLDERFLAGS</a>, to use in the new view.
 
 
 ### -param fvMode [in]
 
-Type: <b><a href="https://msdn.microsoft.com/16b92115-6e7d-41d3-960d-6783d779224c">FOLDERVIEWMODE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderviewmode">FOLDERVIEWMODE</a></b>
 
-A bitwise value that contains the folder view mode options, as <a href="https://msdn.microsoft.com/16b92115-6e7d-41d3-960d-6783d779224c">FOLDERVIEWMODE</a>, to use in the new view.
+A bitwise value that contains the folder view mode options, as <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderviewmode">FOLDERVIEWMODE</a>, to use in the new view.
 
 
 ### -param pvid [in]

@@ -63,7 +63,7 @@ This property is read/write.
 
 
 
-Use this property if the <a href="https://msdn.microsoft.com/f9e6eb88-ac38-4b99-ab64-a408f75f7969">IDataCollectorSet::SubdirectoryFormat</a> property is set to <b>plaSerialNumber</b>.
+Use this property if the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_subdirectoryformat">IDataCollectorSet::SubdirectoryFormat</a> property is set to <b>plaSerialNumber</b>.
 
 PLA increments the serial number after using it.
 
@@ -75,7 +75,7 @@ PLA increments the serial number after using it.
 
 
 
-<a href="https://msdn.microsoft.com/a4ae0874-4ee6-46a1-9811-8cd4be26859c">IDataCollectorSet</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
  
 
  

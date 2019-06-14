@@ -59,7 +59,7 @@ The <b>WinUsb_RegisterIsochBuffer</b> function registers a buffer to be used for
 
 ### -param InterfaceHandle [in]
 
-An opaque handle to an interface in the selected configuration. That handle must be created by a previous call to  <a href="https://msdn.microsoft.com/258cf508-036a-4ade-95b2-4b36d1149ffd">WinUsb_Initialize</a> or <a href="https://msdn.microsoft.com/1afc7b2f-4fb6-4ab4-8415-aaee9cd6ee0c">WinUsb_GetAssociatedInterface</a>.
+An opaque handle to an interface in the selected configuration. That handle must be created by a previous call to  <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_getassociatedinterface">WinUsb_GetAssociatedInterface</a>.
 
 
 ### -param PipeID [in]
@@ -79,7 +79,7 @@ Length, in bytes, of the transfer buffer pointed to by <i>Buffer</i>.
 
 ### -param IsochBufferHandle [out]
 
-Receives an opaque handle to the registered buffer. This handle is required by other WinUSB functions that perform isochronous transfers. To release the handle, call the <a href="https://msdn.microsoft.com/1BAD13F5-A29E-4BA8-B924-85ACE7C8E34D">WinUsb_UnregisterIsochBuffer</a> function.
+Receives an opaque handle to the registered buffer. This handle is required by other WinUSB functions that perform isochronous transfers. To release the handle, call the <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_unregisterisochbuffer">WinUsb_UnregisterIsochBuffer</a> function.
 
 
 ## -returns
@@ -107,7 +107,7 @@ Prior to initiating isochronous transfers to or from a buffer, the caller must r
 
 
 
-<a href="https://msdn.microsoft.com/E850ACF2-7FF7-42A2-B3FA-3CFE3A3968E3">Send USB isochronous transfers from a WinUSB desktop app</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Send USB isochronous transfers from a WinUSB desktop app</a>
 
 
 
@@ -115,7 +115,7 @@ Prior to initiating isochronous transfers to or from a buffer, the caller must r
 
 
 
-<a href="https://msdn.microsoft.com/1BAD13F5-A29E-4BA8-B924-85ACE7C8E34D">WinUsb_UnregisterIsochBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_unregisterisochbuffer">WinUsb_UnregisterIsochBuffer</a>
  
 
  

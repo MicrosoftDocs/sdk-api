@@ -63,7 +63,7 @@ The <b>AVIStreamGetFrameClose</b> function releases resources used to decompress
 
 ### -param pg
 
-Handle returned from the <a href="https://msdn.microsoft.com/467560b2-f79f-49ab-b019-d6315f0c2030">AVIStreamGetFrameOpen</a> function. After calling this function, the handle is invalid.
+Handle returned from the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avistreamgetframeopen">AVIStreamGetFrameOpen</a> function. After calling this function, the handle is invalid.
 
 
 ## -returns
@@ -80,11 +80,11 @@ Returns zero if successful or an error otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/89abf60a-1714-4836-93ae-a8a6bf2c24b6">AVIFile Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions">AVIFile Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/573e24fa-876d-4ce9-be23-d5e448a53e20">AVIFile Functions and Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
  
 
  

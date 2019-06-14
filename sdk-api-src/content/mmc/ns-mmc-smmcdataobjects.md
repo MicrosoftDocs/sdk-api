@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>SMMCDataObjects</b> structure defines the format of the data for the 
-<a href="https://msdn.microsoft.com/56419e7c-6583-4307-9b47-779914a05813">CCF_MULTI_SELECT_SNAPINS</a> clipboard format. The structure contains the array of pointers to the multiselection data object of each snap-in represented in the set of selected items in the result pane.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/ccf-multi-select-snapins">CCF_MULTI_SELECT_SNAPINS</a> clipboard format. The structure contains the array of pointers to the multiselection data object of each snap-in represented in the set of selected items in the result pane.
 
 
 ## -struct-fields
@@ -74,10 +74,10 @@ Array of pointers to the multiselection data objects for each snap-in selected i
 
 
 Each data object consists of the node types associated with a given snap-in. Data objects are passed using 
-<a href="https://msdn.microsoft.com/06886545-bd5c-4d81-b1c3-dfa7e146e43a">GlobalAlloc</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a>.
 
 The multiselection data objects hold a list that contains each node type represented in the set of selected items for that particular snap-in in the result pane. The list of node types from a particular multiselection data object can be retrieved as an array of node type GUIDs by calling <b>IDataObject::GetData</b> on that data object with the 
-<a href="https://msdn.microsoft.com/135b3526-e725-47b8-9676-b60a9456846c">CCF_OBJECT_TYPES_IN_MULTI_SELECT</a> clipboard format.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/ccf-object-types-in-multi-select">CCF_OBJECT_TYPES_IN_MULTI_SELECT</a> clipboard format.
 
 Each multiselection data object also holds a list that contains the selected items owned by a particular snap-in. Each snap-in is responsible for defining the format and method of retrieval of the list of its selected items.
 
@@ -89,15 +89,15 @@ Each multiselection data object also holds a list that contains the selected ite
 
 
 
-<a href="https://msdn.microsoft.com/56419e7c-6583-4307-9b47-779914a05813">CCF_MULTI_SELECT_SNAPINS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/ccf-multi-select-snapins">CCF_MULTI_SELECT_SNAPINS</a>
 
 
 
-<a href="https://msdn.microsoft.com/9fe5db82-d3b7-4050-b653-6c19cdc21525">Multiselection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/multiselection">Multiselection</a>
 
 
 
-<a href="https://msdn.microsoft.com/e17574ea-a6a9-440e-97cf-7b87f13bf21e">SMMCObjectTypes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-smmcobjecttypes">SMMCObjectTypes</a>
  
 
  

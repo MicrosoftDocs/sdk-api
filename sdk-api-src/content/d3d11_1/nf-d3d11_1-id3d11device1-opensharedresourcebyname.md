@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gives a device access to a shared resource that is referenced by name and that was created on a different device. You must have previously created the resource as shared and specified that it uses NT handles (that is, you set the <a href="https://msdn.microsoft.com/en-us/library/Ff476203(v=VS.85).aspx">D3D11_RESOURCE_MISC_SHARED_NTHANDLE</a> flag).
+Gives a device access to a shared resource that is referenced by name and that was created on a different device. You must have previously created the resource as shared and specified that it uses NT handles (that is, you set the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_resource_misc_flag">D3D11_RESOURCE_MISC_SHARED_NTHANDLE</a> flag).
 
 
 ## -parameters
@@ -65,7 +65,7 @@ The name of the resource to open. This parameter cannot be <b>NULL</b>.
 
 ### -param dwDesiredAccess [in]
 
-The requested access rights to the resource.  In addition to the <a href="https://msdn.microsoft.com/e18cede9-9bf7-4866-850b-5d7fa43a5b0f">generic access rights</a>, DXGI defines the following values:
+The requested access rights to the resource.  In addition to the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/generic-access-rights">generic access rights</a>, DXGI defines the following values:
 
 <ul>
 <li><b>DXGI_SHARED_RESOURCE_READ</b> ( 0x80000000L ) - specifies read access to the resource.</li>
@@ -88,9 +88,9 @@ A pointer to a variable that receives a pointer to the interface for the shared 
 
 
 
-This method returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 return codes</a>. This method also returns E_ACCESSDENIED if the permissions to access the resource aren't valid.
+This method returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 return codes</a>. This method also returns E_ACCESSDENIED if the permissions to access the resource aren't valid.
 
-<b>Platform Update for Windows 7:  </b>On Windows 7 or Windows Server 2008 R2 with the <a href="http://support.microsoft.com/kb/2670838">Platform Update for Windows 7</a> installed, <b>OpenSharedResourceByName</b> fails with E_NOTIMPL because NTHANDLES are used. For more info about the Platform Update for Windows 7, see <a href="https://msdn.microsoft.com/C6DC0D38-E17C-4924-AF7C-6AE74C6C50D1">Platform Update for Windows 7</a>. 
+<b>Platform Update for Windows 7:  </b>On Windows 7 or Windows Server 2008 R2 with the <a href="http://support.microsoft.com/kb/2670838">Platform Update for Windows 7</a> installed, <b>OpenSharedResourceByName</b> fails with E_NOTIMPL because NTHANDLES are used. For more info about the Platform Update for Windows 7, see <a href="https://docs.microsoft.com/windows/desktop/direct3darticles/platform-update-for-windows-7">Platform Update for Windows 7</a>. 
 
 
 
@@ -99,15 +99,15 @@ This method returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760
 
 
 
-The behavior of <b>OpenSharedResourceByName</b> is similar to the behavior of the <a href="https://msdn.microsoft.com/4751B49E-01DB-467B-879C-743C8B43DDA5">ID3D11Device1::OpenSharedResource1</a> method; each call to <b>OpenSharedResourceByName</b> to access a resource creates a new resource object.  In other words, if you call <b>OpenSharedResourceByName</b> twice and pass the same resource name to <i>lpName</i>, you receive two resource  objects with different <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> pointers.
+The behavior of <b>OpenSharedResourceByName</b> is similar to the behavior of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11device1-opensharedresource1">ID3D11Device1::OpenSharedResource1</a> method; each call to <b>OpenSharedResourceByName</b> to access a resource creates a new resource object.  In other words, if you call <b>OpenSharedResourceByName</b> twice and pass the same resource name to <i>lpName</i>, you receive two resource  objects with different <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointers.
 
 <p class="proch"><img alt="" src="../common/wedge.gif"/><b>To share a resource between two devices</b>
 
 <ol>
-<li>Create the resource as shared and specify that it uses NT handles, by setting the <a href="https://msdn.microsoft.com/en-us/library/Ff476203(v=VS.85).aspx">D3D11_RESOURCE_MISC_SHARED_NTHANDLE</a> flag.</li>
-<li>Obtain the REFIID, or GUID, of the interface to the resource by using the __uuidof() macro. For example, __uuidof(<a href="https://msdn.microsoft.com/49cd6e21-6cb1-45ea-b83a-3c93f0560915">ID3D11Texture2D</a>) retrieves the GUID of the interface to a 2D texture.</li>
-<li>Query the resource for the <a href="https://msdn.microsoft.com/0ABA9B8D-BEA4-4455-A312-7CFEDEBBF19A">IDXGIResource1</a> interface.</li>
-<li>Call the <a href="https://msdn.microsoft.com/7A53616A-E7AB-4EB7-9B8F-ED43A70B691C">IDXGIResource1::CreateSharedHandle</a> method to obtain the unique handle to the resource. In this <b>IDXGIResource1::CreateSharedHandle</b> call, you must pass a name for the resource if you want to subsequently call <b>OpenSharedResourceByName</b> to access the resource by name. </li>
+<li>Create the resource as shared and specify that it uses NT handles, by setting the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_resource_misc_flag">D3D11_RESOURCE_MISC_SHARED_NTHANDLE</a> flag.</li>
+<li>Obtain the REFIID, or GUID, of the interface to the resource by using the __uuidof() macro. For example, __uuidof(<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11texture2d">ID3D11Texture2D</a>) retrieves the GUID of the interface to a 2D texture.</li>
+<li>Query the resource for the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgiresource1">IDXGIResource1</a> interface.</li>
+<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiresource1-createsharedhandle">IDXGIResource1::CreateSharedHandle</a> method to obtain the unique handle to the resource. In this <b>IDXGIResource1::CreateSharedHandle</b> call, you must pass a name for the resource if you want to subsequently call <b>OpenSharedResourceByName</b> to access the resource by name. </li>
 </ol>
 
 #### Examples
@@ -129,7 +129,7 @@ pDevice-&gt;OpenSharedResourceByName(
 
 
 
-<a href="https://msdn.microsoft.com/DB4DAD13-3CD7-4362-950B-6403328CB071">ID3D11Device1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11device1">ID3D11Device1</a>
  
 
  

@@ -103,7 +103,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/7ffc228f-c4f2-4451-9b23-ec78bf6c8318">IFeedClockVectorElement Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ifeedclockvectorelement">IFeedClockVectorElement Interface</a>
  
 
  

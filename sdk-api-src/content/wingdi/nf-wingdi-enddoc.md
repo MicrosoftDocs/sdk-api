@@ -86,7 +86,7 @@ Applications should call <b>EndDoc</b> immediately after finishing a print job.
 
 #### Examples
 
-For a sample program that uses this function, see <a href="https://msdn.microsoft.com/C212DD92-2B90-45BC-8746-29C193FBDF69">How To: Print Using the GDI Print API</a>.
+For a sample program that uses this function, see <a href="https://docs.microsoft.com/windows/desktop/printdocs/how-to--print-using-the-gdi-print-api">How To: Print Using the GDI Print API</a>.
 
 <div class="code"></div>
 
@@ -97,15 +97,15 @@ For a sample program that uses this function, see <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/d859f84d-af0e-4b8b-b7fa-d7b1fc35ed39">Print Spooler API Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/printdocs/printing-and-print-spooler-functions">Print Spooler API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5c115b0-9c1e-46e7-8fb5-eddbc2c75298">Printing</a>
+<a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
 
 
 
-<a href="https://msdn.microsoft.com/53143463-b9fc-4378-aea9-da6c73a7cd03">StartDoc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-startdoca">StartDoc</a>
  
 
  

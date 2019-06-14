@@ -71,7 +71,7 @@ An info class so the function knows how to interpret the <i>InfoBuffer</i>.
 
 
 
-Can include <a href="https://msdn.microsoft.com/5E814458-2045-4CFD-90AC-F1F53DEB4FD0">CF_PLACEHOLDER_STATE</a>; The placeholder state.
+Can include <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/ne-cfapi-cf_placeholder_state">CF_PLACEHOLDER_STATE</a>; The placeholder state.
 
 
 
@@ -80,10 +80,10 @@ Can include <a href="https://msdn.microsoft.com/5E814458-2045-4CFD-90AC-F1F53DEB
 
 
 
-The input is a buffer containing information returned by <a href="https://msdn.microsoft.com/e261ea45-d084-490e-94b4-129bd76f6a04">GetFileInformationByHandleEx</a>, and the corresponding <i>InfoClass</i> so the API knows how to interpret the buffer.
+The input is a buffer containing information returned by <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>, and the corresponding <i>InfoClass</i> so the API knows how to interpret the buffer.
 
 
-Not all information classes supported by <a href="https://msdn.microsoft.com/e261ea45-d084-490e-94b4-129bd76f6a04">GetFileInformationByHandleEx</a> are supported by this API.  If the <i>FileAttributes</i> and <i>ReparseTag</i> can’t be extracted from a given information class, this API will return CF_PLACEHOLDER_STATE_INVALID and set last error properly.
+Not all information classes supported by <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a> are supported by this API.  If the <i>FileAttributes</i> and <i>ReparseTag</i> can’t be extracted from a given information class, this API will return CF_PLACEHOLDER_STATE_INVALID and set last error properly.
 
 
 

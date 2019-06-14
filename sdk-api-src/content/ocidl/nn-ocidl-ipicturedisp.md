@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Exposes the picture object's properties through Automation. It provides a subset of the functionality available through <a href="https://msdn.microsoft.com/42e3cd0e-2413-494a-8be8-2952089e02d2">IPicture</a> methods.
+Exposes the picture object's properties through Automation. It provides a subset of the functionality available through <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a> methods.
 
 
 ## -remarks
@@ -125,7 +125,7 @@ Each property in the <b>IPictureDisp</b> interface includes a <b>get_PropertyNam
 <td>Type</td>
 <td><b>short</b></td>
 <td>R</td>
-<td>The type of picture (see <a href="https://msdn.microsoft.com/79f10687-f0eb-4b5e-a1a9-9186dbd0b51f">PICTYPE</a>).
+<td>The type of picture (see <a href="https://docs.microsoft.com/windows/desktop/com/pictype-constants">PICTYPE</a>).
 </td>
 </tr>
 <tr>
@@ -148,9 +148,9 @@ Each property in the <b>IPictureDisp</b> interface includes a <b>get_PropertyNam
  
 
 <h3><a id="OLE_Implementation"></a><a id="ole_implementation"></a><a id="OLE_IMPLEMENTATION"></a>OLE Implementation</h3>
-Picture objects provide a language-neutral abstraction for bitmaps, icons, and metafiles. As with the standard font object, the system provides a standard implementation of the picture object. Its primary interfaces are <a href="https://msdn.microsoft.com/42e3cd0e-2413-494a-8be8-2952089e02d2">IPicture</a> and <b>IPictureDisp</b>. A picture object is created with <a href="https://msdn.microsoft.com/fb021348-07d4-4974-a71e-abb1b8d760c4">OleCreatePictureIndirect</a> and supports both the <b>IPicture</b> and the <b>IPictureDisp</b> interfaces.
+Picture objects provide a language-neutral abstraction for bitmaps, icons, and metafiles. As with the standard font object, the system provides a standard implementation of the picture object. Its primary interfaces are <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a> and <b>IPictureDisp</b>. A picture object is created with <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatepictureindirect">OleCreatePictureIndirect</a> and supports both the <b>IPicture</b> and the <b>IPictureDisp</b> interfaces.
 
-The OLE-provided picture object implements the complete semantics of the <a href="https://msdn.microsoft.com/42e3cd0e-2413-494a-8be8-2952089e02d2">IPicture</a> and <b>IPictureDisp</b> interfaces.
+The OLE-provided picture object implements the complete semantics of the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a> and <b>IPictureDisp</b> interfaces.
 
 
 
@@ -160,7 +160,7 @@ The OLE-provided picture object implements the complete semantics of the <a href
 
 
 
-<a href="https://msdn.microsoft.com/42e3cd0e-2413-494a-8be8-2952089e02d2">IPicture</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a>
  
 
  

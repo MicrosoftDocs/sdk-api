@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>EC_SUBSCRIPTION_DELIVERY_MODE</b> enumeration defines values that indicate how events are delivered in a  subscription. Events are delivered through subscriptions using either the push or pull model. For more information, see <a href="https://msdn.microsoft.com/1e86deeb-fc59-4658-9353-e4ced7ace89a">Subscribing to Events</a>.
+The <b>EC_SUBSCRIPTION_DELIVERY_MODE</b> enumeration defines values that indicate how events are delivered in a  subscription. Events are delivered through subscriptions using either the push or pull model. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WES/subscribing-to-events">Subscribing to Events</a>.
 
 
 ## -enum-fields

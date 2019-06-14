@@ -59,7 +59,7 @@ Indicates that the asynchronous operation has completed.
 
 ### -param pAsyncResult [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/49c5ad02-f24b-4ef9-b943-483728c0bbcd">IWSDAsyncResult</a> object that contains the user-defined state information passed to <a href="https://msdn.microsoft.com/39fc05f8-4b09-4305-b9a4-b4ef65788efc">IWSDAsyncResult::SetCallback</a>.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a> object that contains the user-defined state information passed to <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdasyncresult-setcallback">IWSDAsyncResult::SetCallback</a>.
 
 
 ### -param pAsyncState [in]
@@ -109,7 +109,7 @@ The value returned by <b>AsyncOperationComplete</b> is ignored.
 
 
 
-<a href="https://msdn.microsoft.com/24108143-55b7-4098-a4cc-025dfdfd054a">IWSDAsyncCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasynccallback">IWSDAsyncCallback</a>
  
 
  

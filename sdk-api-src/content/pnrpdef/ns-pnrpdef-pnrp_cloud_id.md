@@ -101,7 +101,7 @@ Specifies the ID for this scope.
 
 
 
-<a href="https://msdn.microsoft.com/82af5a4f-1b29-405a-a200-1d723ea7693b">PNRPCLOUDINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pnrpns/ns-pnrpns-_pnrpcloudinfo">PNRPCLOUDINFO</a>
  
 
  

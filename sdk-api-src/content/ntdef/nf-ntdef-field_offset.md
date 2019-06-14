@@ -81,7 +81,7 @@ Used by device driver writers to symbolically determine the offset of a known fi
 
 
 
-<a href="https://msdn.microsoft.com/library/Ff542043(v=VS.85).aspx">CONTAINING_RECORD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">CONTAINING_RECORD</a>
  
 
  

@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>get_Version</b> method retrieves the 
-<a href="https://msdn.microsoft.com/784fb75c-2ed2-411a-b441-9c81297b487d">Version</a> property of the 
-<a href="https://msdn.microsoft.com/3157f07d-99de-4628-9b03-eb86eb4896a4">Dependency</a> object. This method returns the version of the required module in the form of a <b>BSTR</b>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/dependency-version">Version</a> property of the 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/dependency-object">Dependency</a> object. This method returns the version of the required module in the form of a <b>BSTR</b>.
 
 
 ## -parameters
@@ -118,11 +118,11 @@ The client is responsible for freeing the resulting string using <b>SysFreeStrin
 
 
 
-<a href="https://msdn.microsoft.com/517cf174-418a-4717-a25f-1736225016a1">IMsmDependency</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nn-mergemod-imsmdependency">IMsmDependency</a>
 
 
 
-<a href="https://msdn.microsoft.com/877d3691-948f-4aea-89d8-0ff008126ccc">Merge Module Automation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
  
 
  

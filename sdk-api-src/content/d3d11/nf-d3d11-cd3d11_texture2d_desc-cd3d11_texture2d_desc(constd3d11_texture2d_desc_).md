@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Instantiates a new instance of a <a href="https://msdn.microsoft.com/BD0FB68A-17DF-412C-9CAD-26D95AF2E16F">CD3D11_TEXTURE2D_DESC</a> structure that is initialized with a <a href="https://msdn.microsoft.com/90c0f877-daf5-4b3d-9846-5bb414c55461">D3D11_TEXTURE2D_DESC</a> structure.
+Instantiates a new instance of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151700(v=vs.85)">CD3D11_TEXTURE2D_DESC</a> structure that is initialized with a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_texture2d_desc">D3D11_TEXTURE2D_DESC</a> structure.
 
 
 ## -parameters
@@ -60,9 +60,9 @@ Instantiates a new instance of a <a href="https://msdn.microsoft.com/BD0FB68A-17
 
 ### -param o [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/90c0f877-daf5-4b3d-9846-5bb414c55461">D3D11_TEXTURE2D_DESC</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_texture2d_desc">D3D11_TEXTURE2D_DESC</a></b>
 
-Address of the <a href="https://msdn.microsoft.com/90c0f877-daf5-4b3d-9846-5bb414c55461">D3D11_TEXTURE2D_DESC</a> structure that initializes the <a href="https://msdn.microsoft.com/BD0FB68A-17DF-412C-9CAD-26D95AF2E16F">CD3D11_TEXTURE2D_DESC</a> structure.
+Address of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_texture2d_desc">D3D11_TEXTURE2D_DESC</a> structure that initializes the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151700(v=vs.85)">CD3D11_TEXTURE2D_DESC</a> structure.
 
 
 ## -returns
@@ -79,7 +79,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/BD0FB68A-17DF-412C-9CAD-26D95AF2E16F">CD3D11_TEXTURE2D_DESC</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151700(v=vs.85)">CD3D11_TEXTURE2D_DESC</a>
  
 
  

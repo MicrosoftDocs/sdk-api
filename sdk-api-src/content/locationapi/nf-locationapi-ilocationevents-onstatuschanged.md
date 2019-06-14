@@ -67,7 +67,7 @@ Called when a report status changes.
 
 ### -param newStatus [in]
 
-A constant from the <a href="https://msdn.microsoft.com/440e64cb-d09c-47cd-9434-8d4479fa52e2">LOCATION_REPORT_STATUS</a> enumeration that contains the new status.
+A constant from the <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/ne-locationapi-location_report_status">LOCATION_REPORT_STATUS</a> enumeration that contains the new status.
 
 
 ## -returns
@@ -83,7 +83,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This event provides report status for new reports. The most recent reports remain available through <a href="https://msdn.microsoft.com/69d0fed5-7f02-4d74-bdbd-3a0fd85e76ed">ILocation::GetReport</a>, regardless of the status reported by this event.
+This event provides report status for new reports. The most recent reports remain available through <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocation-getreport">ILocation::GetReport</a>, regardless of the status reported by this event.
 
 
 #### Examples
@@ -135,7 +135,7 @@ STDMETHODIMP CLocationEvents::OnStatusChanged(REFIID reportType, LOCATION_REPORT
 
 
 
-<a href="https://msdn.microsoft.com/5281ae0f-8599-4f84-a3f3-cde8c69e893d">ILocationEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilocationevents">ILocationEvents</a>
  
 
  

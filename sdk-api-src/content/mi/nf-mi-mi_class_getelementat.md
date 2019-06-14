@@ -69,7 +69,7 @@ Zero-based index of the element to retrieve.
 
 ### -param name
 
-A pointer to the pointer to the variable to receive the returned name of the element.  The memory associated with the name is valid until the class object is deleted. When you have finished using the class object, delete it by calling the <a href="https://msdn.microsoft.com/a2794f8f-a69a-49f3-8d7e-512c80ea782b">MI_Class_Delete</a> function. If this information is not needed, pass <b>NULL</b> for this parameter.
+A pointer to the pointer to the variable to receive the returned name of the element.  The memory associated with the name is valid until the class object is deleted. When you have finished using the class object, delete it by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_class_delete">MI_Class_Delete</a> function. If this information is not needed, pass <b>NULL</b> for this parameter.
 
 
 ### -param value [out, optional]
@@ -84,7 +84,7 @@ A pointer to the variable to receive the returned Boolean value that indicates w
 
 ### -param type [out, optional]
 
-A pointer to the variable to receive the returned value of the <a href="https://msdn.microsoft.com/21015eb7-9630-458e-acd8-923ee86ac2b8">MI_Type</a> enumeration that specifies the data type. This parameter is optional. If this information is not needed, pass <b>NULL</b> for this parameter.
+A pointer to the variable to receive the returned value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_type">MI_Type</a> enumeration that specifies the data type. This parameter is optional. If this information is not needed, pass <b>NULL</b> for this parameter.
 
 
 ### -param referenceClass
@@ -111,7 +111,7 @@ A class flag that indicates that the class is abstract. This flag is applicable 
 
 #### MI_FLAG_ADOPT (2147483648 (0x80000000))
 
-A property flag used while adding and setting properties on an <a href="https://msdn.microsoft.com/3dce1817-7995-49e5-8cc0-ee9496665e5c">MI_Instance</a> structure to indicate that the instance will adopt the pointer and will be responsible for deleting it. This flag is mutually exclusive with the <b>MI_FLAG_BORROW</b> flag.
+A property flag used while adding and setting properties on an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a> structure to indicate that the instance will adopt the pointer and will be responsible for deleting it. This flag is mutually exclusive with the <b>MI_FLAG_BORROW</b> flag.
 
 
 
@@ -132,19 +132,19 @@ A bitmask used to filter out these CIM meta-type (qualifier scope) flags.
 
 #### MI_FLAG_ASSOCIATION (16 (0x10))
 
-A CIM meta-type used in the <a href="https://msdn.microsoft.com/8e2e2838-5d08-4e51-be96-0928042ccb9f">MI_ClassDecl</a> structure to indicate that a class structure is also an association class structure. This flag is mutually exclusive with other CIM meta-type (qualifier scope) flags.
+A CIM meta-type used in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_classdecl">MI_ClassDecl</a> structure to indicate that a class structure is also an association class structure. This flag is mutually exclusive with other CIM meta-type (qualifier scope) flags.
 
 
 
 #### MI_FLAG_BORROW (1073741824 (0x40000000))
 
-A property flag used while adding and setting properties on an <a href="https://msdn.microsoft.com/3dce1817-7995-49e5-8cc0-ee9496665e5c">MI_Instance</a> structure to indicate that the instance will not copy the value. The value must stay valid until the instance is deleted. This flag is mutually exclusive with the <b>MI_FLAG_ADOPT</b> flag.
+A property flag used while adding and setting properties on an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a> structure to indicate that the instance will not copy the value. The value must stay valid until the instance is deleted. This flag is mutually exclusive with the <b>MI_FLAG_ADOPT</b> flag.
 
 
 
 #### MI_FLAG_CLASS (1 (0x1))
 
-A CIM meta-type used in the <a href="https://msdn.microsoft.com/8e2e2838-5d08-4e51-be96-0928042ccb9f">MI_ClassDecl</a> structure to indicate a structure describing a class. This flag is mutually exclusive with other CIM meta-type (qualifier scope) flags.
+A CIM meta-type used in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_classdecl">MI_ClassDecl</a> structure to indicate a structure describing a class. This flag is mutually exclusive with other CIM meta-type (qualifier scope) flags.
 
 
 
@@ -174,7 +174,7 @@ A parameter flag that indicates that the parameter is of type In and is passed i
 
 #### MI_FLAG_INDICATION (32 (0x20))
 
-A CIM meta-type used in the <a href="https://msdn.microsoft.com/8e2e2838-5d08-4e51-be96-0928042ccb9f">MI_ClassDecl</a> structure to indicate that a class structure is also an indication class structure. This flag is mutually exclusive with other CIM meta-type (qualifier scope) flags.
+A CIM meta-type used in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_classdecl">MI_ClassDecl</a> structure to indicate that a class structure is also an indication class structure. This flag is mutually exclusive with other CIM meta-type (qualifier scope) flags.
 
 
 
@@ -210,13 +210,13 @@ A parameter flag that indicates that the parameter is of type Out and is returne
 
 #### MI_FLAG_PARAMETER (8 (0x8))
 
-A CIM meta-type used in the <a href="https://msdn.microsoft.com/09ad6ea4-09ae-428b-9df9-414043044d6a">MI_ParameterDecl</a> structure to indicate a structure describing a parameter. This flag is mutually exclusive with other CIM meta-type (qualifier scope) flags.
+A CIM meta-type used in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_parameterdecl">MI_ParameterDecl</a> structure to indicate a structure describing a parameter. This flag is mutually exclusive with other CIM meta-type (qualifier scope) flags.
 
 
 
 #### MI_FLAG_PROPERTY (4 (0x4))
 
-A CIM meta-type used in the <a href="https://msdn.microsoft.com/bc5e5c1e-3483-4762-8063-047308dc3652">MI_PropertyDecl</a> structure to indicate a structure describing a property. This flag is mutually exclusive with other CIM meta-type (qualifier scope) flags.
+A CIM meta-type used in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_propertydecl">MI_PropertyDecl</a> structure to indicate a structure describing a property. This flag is mutually exclusive with other CIM meta-type (qualifier scope) flags.
 
 
 
@@ -228,7 +228,7 @@ A property flag that indicates that the property can only be read and cannot be 
 
 #### MI_FLAG_REFERENCE (64 (0x40))
 
-A CIM meta-type used in the <a href="https://msdn.microsoft.com/88d167f5-3cb0-41ed-9355-ea31ff263a03">MI_QualifierDecl</a> structure in the <b>scope</b> field to indicate a structure describing a pointer to other instances. This flag is mutually exclusive with other CIM meta-type (qualifier scope) flags.
+A CIM meta-type used in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_qualifierdecl">MI_QualifierDecl</a> structure in the <b>scope</b> field to indicate a structure describing a pointer to other instances. This flag is mutually exclusive with other CIM meta-type (qualifier scope) flags.
 
 
 

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Clears the time stamps previously set by a call to <a href="https://msdn.microsoft.com/12877b24-83ec-4156-b411-f07202fdfd62">IMFDesiredSample::SetDesiredSampleTimeAndDuration</a>.
+Clears the time stamps previously set by a call to <a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfdesiredsample-setdesiredsampletimeandduration">IMFDesiredSample::SetDesiredSampleTimeAndDuration</a>.
 
 
 
@@ -76,7 +76,7 @@ This method does not return a value.
 
 
 
-After this method is called, the <a href="https://msdn.microsoft.com/095202ed-0272-4bda-a268-6a407ef74a94">IMFDesiredSample::GetDesiredSampleTimeAndDuration</a> method returns MF_E_NOT_AVAILABLE.
+After this method is called, the <a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfdesiredsample-getdesiredsampletimeandduration">IMFDesiredSample::GetDesiredSampleTimeAndDuration</a> method returns MF_E_NOT_AVAILABLE.
 
 This method also clears the time stamp and duration and removes all attributes from the sample.
 
@@ -88,11 +88,11 @@ This method also clears the time stamp and duration and removes all attributes f
 
 
 
-<a href="https://msdn.microsoft.com/1135b309-b158-4b70-9f76-5c93d0ad3250">How to Write an EVR Presenter</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-write-an-evr-presenter">How to Write an EVR Presenter</a>
 
 
 
-<a href="https://msdn.microsoft.com/373c076c-6329-4332-9f07-f18a01197659">IMFDesiredSample</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfdesiredsample">IMFDesiredSample</a>
  
 
  

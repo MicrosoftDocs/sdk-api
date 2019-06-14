@@ -59,9 +59,9 @@ Reads the property key of a property in a specified property bag.
 
 ### -param propBag [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa768196(v=VS.85).aspx">IPropertyBag</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/Aa768196(v=VS.85).aspx">IPropertyBag</a> object that represents the property bag in which the property is stored.
+A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a> object that represents the property bag in which the property is stored.
 
 
 ### -param propName [in]
@@ -73,7 +73,7 @@ A null-terminated property name string.
 
 ### -param value [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a>*</b>
 
 When this function returns, contains a pointer to a property key value.
 
@@ -103,7 +103,7 @@ The property bag property function API converts between window types and the <b>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee845075(v=VS.85).aspx">PSPropertyBag_WritePropertyKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-pspropertybag_writepropertykey">PSPropertyBag_WritePropertyKey</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Initializes a new instance of <code>XMFLOAT3</code> from three <code>float</code> arguments.
 
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee419475(v=VS.85).aspx">XMFLOAT3</a> from a three <code>float</code> arguments.
+This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat3">XMFLOAT3</a> from a three <code>float</code> arguments.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
 ## -parameters
@@ -109,11 +109,11 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419475(v=VS.85).aspx">XMFLOAT3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat3">XMFLOAT3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415292(v=VS.85).aspx">XMFLOAT3 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmfloat3-xmfloat3(constfloat)">XMFLOAT3 Constructors</a>
  
 
  

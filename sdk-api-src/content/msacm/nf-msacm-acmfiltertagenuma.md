@@ -70,7 +70,7 @@ Handle to the ACM driver to query for waveform-audio filter tag details. If this
 
 ### -param paftd
 
-Pointer to the <a href="https://msdn.microsoft.com/94b31090-74ed-42ac-b904-0a90f055e03a">ACMFILTERTAGDETAILS</a> structure that contains the filter tag details when it is passed to the <b>fnCallback</b> function. When your application calls <b>acmFilterTagEnum</b>, the <b>cbStruct</b> member of this structure must be initialized.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmfiltertagdetails">ACMFILTERTAGDETAILS</a> structure that contains the filter tag details when it is passed to the <b>fnCallback</b> function. When your application calls <b>acmFilterTagEnum</b>, the <b>cbStruct</b> member of this structure must be initialized.
 
 
 ### -param fnCallback
@@ -152,11 +152,11 @@ This function will return MMSYSERR_NOERROR (zero) if no suitable ACM drivers are
 
 
 
-<a href="https://msdn.microsoft.com/da207a50-9c67-4cf3-920b-5878637060db">Audio Compression Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f9a4540-86c0-40e6-b4da-24a9d31b56bf">Audio Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
  
 
  

@@ -64,7 +64,7 @@ The name of the payload file. The file name path must be relative to the root of
 
 ### -param inputStream [in]
 
-An <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> that provides the contents of <i>fileName</i>.
+An <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> that provides the contents of <i>fileName</i>.
 
 
 ## -returns
@@ -90,7 +90,7 @@ By adding a reference to a payload file or optional app package to an app bundle
 
 
 
-<a href="https://msdn.microsoft.com/2596E2DA-D9B6-4BBE-AC05-5CE253CE6DDC">IAppxBundleWriter3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlewriter3">IAppxBundleWriter3</a>
  
 
  

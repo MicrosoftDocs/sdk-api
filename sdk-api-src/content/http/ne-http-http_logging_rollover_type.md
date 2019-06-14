@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>HTTP_LOGGING_ROLLOVER_TYPE</b> enumeration defines the log file rollover types.
 
-This enumeration is used  in the <a href="https://msdn.microsoft.com/12e12f83-c36a-4b4e-8890-50566cf00c2b">HTTP_LOGGING_INFO</a> structure.
+This enumeration is used  in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_logging_info">HTTP_LOGGING_INFO</a> structure.
 
 
 ## -enum-fields
@@ -220,11 +220,11 @@ The following table lists time element characters and what they represent. <tabl
 
 
 
-<a href="https://msdn.microsoft.com/849b88a1-e60b-4a1d-a660-cc3fe429d39f">HTTP Server API Version 2.0 Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-enumeration-types">HTTP Server API Version 2.0 Enumeration Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/12e12f83-c36a-4b4e-8890-50566cf00c2b">HTTP_LOGGING_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_logging_info">HTTP_LOGGING_INFO</a>
  
 
  

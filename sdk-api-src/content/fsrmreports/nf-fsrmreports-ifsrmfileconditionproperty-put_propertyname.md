@@ -52,8 +52,8 @@ ms.custom: 19H1
 
 
 <p class="CCE_Message">[This property is supported for compatibility but it's recommended to use the 
-    <a href="https://msdn.microsoft.com/1CE772FA-CE33-4900-A499-058175A7C37E">FSRM WMI Classes</a> to manage FSRM. Please see the 
-    <a href="https://msdn.microsoft.com/deb5be80-4255-4d56-8db5-31239e2872ef">MSFT_FSRMFMJCondition</a> class.]
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfmjcondition">MSFT_FSRMFMJCondition</a> class.]
 
 Specifies the name of the file condition property.
 
@@ -68,11 +68,11 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/460819db-0ac2-4008-8dfb-f0edc69bb478">IFsrmFileConditionProperty</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmfileconditionproperty">IFsrmFileConditionProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/deb5be80-4255-4d56-8db5-31239e2872ef">MSFT_FSRMFMJCondition</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfmjcondition">MSFT_FSRMFMJCondition</a>
  
 
  

@@ -73,8 +73,8 @@ If the function succeeds, the return value is <b>NO_ERROR</b>.
 
 
 
-RAS supports multiple Administration DLLs. RAS calls the multiple implementations of <a href="https://msdn.microsoft.com/0a53d84e-d9be-4d18-a619-7d92c17b76bb">MprAdminInitializeDll</a> in the order in which the DLLs are listed in the 
-<a href="https://msdn.microsoft.com/e83a5e37-a39d-4465-abc9-653cdd56893b">registry</a>.
+RAS supports multiple Administration DLLs. RAS calls the multiple implementations of <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininitializedll">MprAdminInitializeDll</a> in the order in which the DLLs are listed in the 
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-dll-registry-setup">registry</a>.
 
 
 
@@ -84,19 +84,19 @@ RAS supports multiple Administration DLLs. RAS calls the multiple implementation
 
 
 
-<a href="https://msdn.microsoft.com/0a53d84e-d9be-4d18-a619-7d92c17b76bb">MprAdminInitializeDll</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininitializedll">MprAdminInitializeDll</a>
 
 
 
-<a href="https://msdn.microsoft.com/c15c6e2d-3bb6-4583-9ac3-19528feb863f">RAS Administration DLL</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-dll">RAS Administration DLL</a>
 
 
 
-<a href="https://msdn.microsoft.com/27cf63e2-9dd3-4bc1-98af-e93055d89492">RAS Administration Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-functions">RAS Administration Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/6170fcf2-26d5-4418-bddb-2afd99510520">Remote Access Service Administration Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
  
 
  

@@ -80,7 +80,7 @@ None
 
 
 
-<b>DrvFree</b> is an optional function that should be supported only if the driver must be informed when memory associated with structures can be freed. For example, if a <a href="https://msdn.microsoft.com/09af2006-51f1-433e-9227-3c99b9860e75">FONTOBJ</a> structure is in use, deletion can be deferred until <a href="https://msdn.microsoft.com/aee3efbc-715d-42f2-a718-00057720175a">DrvDestroyFont</a> has been called, eliminating the need for the driver to implement <b>DrvFree</b>.
+<b>DrvFree</b> is an optional function that should be supported only if the driver must be informed when memory associated with structures can be freed. For example, if a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontobj">FONTOBJ</a> structure is in use, deletion can be deferred until <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvdestroyfont">DrvDestroyFont</a> has been called, eliminating the need for the driver to implement <b>DrvFree</b>.
 
 A driver can use <i>id</i> in different ways. It can specify an object handle or it can indicate the way the structure is allocated. For example, it can differentiate between loaded resources and memory allocated from a heap. The driver can ignore this parameter if the structure pointed to by <i>pv</i> contains enough information.
 
@@ -92,15 +92,15 @@ A driver can use <i>id</i> in different ways. It can specify an object handle or
 
 
 
-<a href="https://msdn.microsoft.com/aee3efbc-715d-42f2-a718-00057720175a">DrvDestroyFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvdestroyfont">DrvDestroyFont</a>
 
 
 
-<a href="https://msdn.microsoft.com/2ba6c8e3-9707-48dd-98d9-072f3eee8cd0">DrvQueryFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvqueryfont">DrvQueryFont</a>
 
 
 
-<a href="https://msdn.microsoft.com/29601ea6-9b68-4cdc-a7a1-b6a922524760">DrvQueryFontTree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvqueryfonttree">DrvQueryFontTree</a>
  
 
  

@@ -68,7 +68,7 @@ GUID that identifies which value to retrieve. The attribute type must be <b>MF_A
 
 ### -param pwszValue [out]
 
-Pointer to a wide-character array allocated by the caller. The array must be large enough to hold the string, including the terminating <b>NULL</b> character. If the key is found and the value is a string type, the method copies the string into this buffer. To find the length of the string, call <a href="https://msdn.microsoft.com/6ccc753f-e147-47f4-ab95-17687729404a">IMFAttributes::GetStringLength</a>.
+Pointer to a wide-character array allocated by the caller. The array must be large enough to hold the string, including the terminating <b>NULL</b> character. If the key is found and the value is a string type, the method copies the string into this buffer. To find the length of the string, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getstringlength">IMFAttributes::GetStringLength</a>.
 
 
 ### -param cchBufSize [in]
@@ -157,7 +157,7 @@ The attribute value is not a string.
 
 
 
-You can also use the <a href="https://msdn.microsoft.com/550a3035-ea16-4784-8f69-9522259bb338">IMFAttributes::GetAllocatedString</a> method, which allocates the buffer to hold the string.
+You can also use the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getallocatedstring">IMFAttributes::GetAllocatedString</a> method, which allocates the buffer to hold the string.
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -212,15 +212,15 @@ HRESULT AttributeGetString(IMFAttributes *pAttributes)
 
 
 
-<a href="https://msdn.microsoft.com/44af5e03-5f0a-4564-b9d6-b8c935df35b2">Attributes and Properties</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
 
 
 
-<a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/1844fbe2-0a07-4c0c-9ffe-4c59fc01f793">MF_ATTRIBUTE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-_mf_attribute_type">MF_ATTRIBUTE_TYPE</a>
  
 
  

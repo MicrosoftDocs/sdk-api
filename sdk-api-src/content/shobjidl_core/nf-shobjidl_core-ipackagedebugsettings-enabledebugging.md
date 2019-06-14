@@ -94,7 +94,7 @@ Enabling debug mode has the following effects:
 <li>Disables automatic process termination.</li>
 <li>Disables automatic process resumption.</li>
 </ul>
-To restore normal operation, call the <a href="https://msdn.microsoft.com/ad7efefb-aacd-48fa-bfe6-26271bd03b86">DisableDebugging</a> method.
+To restore normal operation, call the <a href="https://docs.microsoft.com/previous-versions//hh438394(v=vs.85)">DisableDebugging</a> method.
 
 
 
@@ -104,11 +104,11 @@ To restore normal operation, call the <a href="https://msdn.microsoft.com/ad7efe
 
 
 
-<a href="https://msdn.microsoft.com/102e57be-296e-44ec-8211-f2c2d5eae1e6">DisableDebugging</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-disabledebugging">DisableDebugging</a>
 
 
 
-<a href="https://msdn.microsoft.com/e407c4ca-0de1-4b17-bb83-5c4128952d48">IPackageDebugSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipackagedebugsettings">IPackageDebugSettings</a>
  
 
  

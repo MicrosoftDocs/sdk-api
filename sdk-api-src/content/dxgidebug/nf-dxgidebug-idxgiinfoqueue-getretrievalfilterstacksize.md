@@ -59,7 +59,7 @@ Gets the size of the retrieval-filter stack in bytes.
 
 ### -param Producer [in]
 
- A <a href="https://msdn.microsoft.com/85946D30-5E49-4E4B-AC25-394ABFF0DB11">DXGI_DEBUG_ID</a> value that identifies the entity that gets the size.
+ A <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-debug-id">DXGI_DEBUG_ID</a> value that identifies the entity that gets the size.
 
 
 ## -returns
@@ -85,7 +85,7 @@ Returns the size of the retrieval-filter stack in bytes.
 
 
 
-<a href="https://msdn.microsoft.com/F1BC6752-F334-4E8C-BE42-B731635A799D">IDXGIInfoQueue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgiinfoqueue">IDXGIInfoQueue</a>
  
 
  

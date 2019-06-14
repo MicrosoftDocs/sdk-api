@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>IBackgroundCopyJob1</b> is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/72668c9b-e6f3-4f3f-9d4b-50d930d1889d">BITS interfaces</a>.]
+<p class="CCE_Message">[<b>IBackgroundCopyJob1</b> is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/Bits/bits-interfaces">BITS interfaces</a>.]
 
 Use the <b>AddFiles</b> method to add one or more files to download to the job.
 
@@ -66,7 +66,7 @@ Number of files in <i>pFileInfo</i> to add to the job.
 
 ### -param ppFileSet [in]
 
-Array of <a href="https://msdn.microsoft.com/1a1d6683-5317-4a34-828d-55142f64f19f">FILESETINFO</a> structures that contain the remote and local names of the files to download.
+Array of <a href="https://docs.microsoft.com/windows/desktop/api/qmgr/ns-qmgr-_filesetinfo">FILESETINFO</a> structures that contain the remote and local names of the files to download.
 
 
 ## -returns
@@ -124,7 +124,7 @@ User does not have permission to write to the specified directory on the client.
 
 
 
-<a href="https://msdn.microsoft.com/ccf1b355-c1af-4b5e-b613-181c426ed777">IBackgroundCopyJob1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopyjob1">IBackgroundCopyJob1</a>
  
 
  

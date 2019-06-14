@@ -86,7 +86,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Use <b>GetStringLength</b> to get the string length before calling the <a href="https://msdn.microsoft.com/adb7358b-044b-440b-8429-be715d22cd83">IDWriteLocalizedStrings::GetString</a> method, as shown in the following code.
+Use <b>GetStringLength</b> to get the string length before calling the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritelocalizedstrings-getstring">IDWriteLocalizedStrings::GetString</a> method, as shown in the following code.
 
 
 ```cpp
@@ -122,7 +122,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/37bfc613-4128-45aa-b6b2-6163d44378e4">IDWriteLocalizedStrings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritelocalizedstrings">IDWriteLocalizedStrings</a>
  
 
  

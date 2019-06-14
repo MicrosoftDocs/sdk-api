@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Contains information about system battery drain policy settings. This structure is part of the 
-<a href="https://msdn.microsoft.com/0e89ae66-a889-4929-b028-125fcef5c89c">GLOBAL_USER_POWER_POLICY</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_global_user_power_policy">GLOBAL_USER_POWER_POLICY</a> structure.
 
 
 ## -struct-fields
@@ -76,13 +76,13 @@ The battery capacity for this battery discharge policy, expressed as a percentag
 ### -field PowerPolicy
 
 A 
-<a href="https://msdn.microsoft.com/70739f46-54be-4748-8993-ffee3b2a8b6c">POWER_ACTION_POLICY</a> structure that defines the action to take for this battery discharge policy.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-power_action_policy">POWER_ACTION_POLICY</a> structure that defines the action to take for this battery discharge policy.
 
 
 ### -field MinSystemState
 
 The minimum system sleep state to enter when the battery discharges below the value set in <b>BatteryLevel</b>. This member must be one of the 
-<a href="https://msdn.microsoft.com/57436a4b-0d18-4f7e-8dc0-fc5e68b44e7d">SYSTEM_POWER_STATE</a> enumeration type values.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_system_power_state">SYSTEM_POWER_STATE</a> enumeration type values.
 
 
 ## -see-also
@@ -90,11 +90,11 @@ The minimum system sleep state to enter when the battery discharges below the va
 
 
 
-<a href="https://msdn.microsoft.com/0e89ae66-a889-4929-b028-125fcef5c89c">GLOBAL_USER_POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_global_user_power_policy">GLOBAL_USER_POWER_POLICY</a>
 
 
 
-<a href="https://msdn.microsoft.com/70739f46-54be-4748-8993-ffee3b2a8b6c">POWER_ACTION_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-power_action_policy">POWER_ACTION_POLICY</a>
  
 
  

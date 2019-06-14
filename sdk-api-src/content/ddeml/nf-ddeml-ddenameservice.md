@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Registers or unregisters the service names a Dynamic Data Exchange (DDE) server supports. This function causes the system to send <a href="https://msdn.microsoft.com/en-us/library/ms648725(v=VS.85).aspx">XTYP_REGISTER</a> or <a href="https://msdn.microsoft.com/en-us/library/ms648727(v=VS.85).aspx">XTYP_UNREGISTER</a> transactions to other running <a href="https://msdn.microsoft.com/en-us/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a> (DDEML) client applications. 
+Registers or unregisters the service names a Dynamic Data Exchange (DDE) server supports. This function causes the system to send <a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-register">XTYP_REGISTER</a> or <a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-unregister">XTYP_UNREGISTER</a> transactions to other running <a href="https://docs.microsoft.com/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a> (DDEML) client applications. 
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Registers or unregisters the service names a Dynamic Data Exchange (DDE) server 
 
 Type: <b>DWORD</b>
 
-The application instance identifier obtained by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/ms648757(v=VS.85).aspx">DdeInitialize</a> function. 
+The application instance identifier obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a> function. 
 
 
 ### -param hsz1 [in, optional]
@@ -119,9 +119,9 @@ Unregisters the error code service name. If the
 </dl>
 </td>
 <td width="60%">
-Turns on service name initiation filtering. The filter prevents a server from receiving <a href="https://msdn.microsoft.com/en-us/library/ms648718(v=VS.85).aspx">XTYP_CONNECT</a> transactions for service names it has not registered. This is the default setting for this filter. 
+Turns on service name initiation filtering. The filter prevents a server from receiving <a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-connect">XTYP_CONNECT</a> transactions for service names it has not registered. This is the default setting for this filter. 
 
-If a server application does not register any service names, the application cannot receive <a href="https://msdn.microsoft.com/en-us/library/ms648728(v=VS.85).aspx">XTYP_WILDCONNECT</a> transactions.
+If a server application does not register any service names, the application cannot receive <a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-wildconnect">XTYP_WILDCONNECT</a> transactions.
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ If a server application does not register any service names, the application can
 </td>
 <td width="60%">
 Turns off service name initiation filtering. If this flag is specified, the server receives an 
-						<a href="https://msdn.microsoft.com/en-us/library/ms648718(v=VS.85).aspx">XTYP_CONNECT</a> transaction whenever another DDE application calls the <a href="https://msdn.microsoft.com/en-us/library/ms648745(v=VS.85).aspx">DdeConnect</a> function, regardless of the service name.
+						<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-connect">XTYP_CONNECT</a> transaction whenever another DDE application calls the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeconnect">DdeConnect</a> function, regardless of the service name.
 
 </td>
 </tr>
@@ -151,7 +151,7 @@ If the function succeeds, it returns a nonzero value. That value is not a true <
 
 If the function fails, the return value is 0L. 
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms648755(v=VS.85).aspx">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values: 
+The <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddegetlasterror">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values: 
 
 
 
@@ -162,8 +162,8 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms648755(v=VS.85).aspx">Dd
 
 The service name identified by the 
 				<i>hsz1</i> parameter should be a base name (that is, the name should contain no instance-specific information). The system generates an instance-specific name and sends it along with the base name during the 
-				<a href="https://msdn.microsoft.com/en-us/library/ms648725(v=VS.85).aspx">XTYP_REGISTER</a> and 
-				<a href="https://msdn.microsoft.com/en-us/library/ms648727(v=VS.85).aspx">XTYP_UNREGISTER</a> transactions. The receiving applications can then connect to the specific application instance. 
+				<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-register">XTYP_REGISTER</a> and 
+				<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-unregister">XTYP_UNREGISTER</a> transactions. The receiving applications can then connect to the specific application instance. 
 
 
 
@@ -177,19 +177,19 @@ The service name identified by the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648745(v=VS.85).aspx">DdeConnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeconnect">DdeConnect</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648746(v=VS.85).aspx">DdeConnectList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeconnectlist">DdeConnectList</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648757(v=VS.85).aspx">DdeInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a>
 
 
 
@@ -197,11 +197,11 @@ The service name identified by the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648725(v=VS.85).aspx">XTYP_REGISTER</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-register">XTYP_REGISTER</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648727(v=VS.85).aspx">XTYP_UNREGISTER</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-unregister">XTYP_UNREGISTER</a>
  
 
  

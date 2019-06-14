@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Unlocks the attribute store after a call to the <a href="https://msdn.microsoft.com/6ec7aed3-7dbc-4aa4-92d5-646aee757db7">IMFAttributes::LockStore</a> method. While the object is unlocked, multiple threads can access the object's attributes.
+Unlocks the attribute store after a call to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-lockstore">IMFAttributes::LockStore</a> method. While the object is unlocked, multiple threads can access the object's attributes.
 
 
 
@@ -109,11 +109,11 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 
-<a href="https://msdn.microsoft.com/44af5e03-5f0a-4564-b9d6-b8c935df35b2">Attributes and Properties</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
 
 
 
-<a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
  
 
  

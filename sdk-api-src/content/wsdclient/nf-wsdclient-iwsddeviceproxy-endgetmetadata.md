@@ -59,7 +59,7 @@ Ends an asynchronous request for metadata and returns the metadata related to a 
 
 ### -param pResult [in]
 
-The <a href="https://msdn.microsoft.com/49c5ad02-f24b-4ef9-b943-483728c0bbcd">IWSDAsyncResult</a> object returned by <a href="https://msdn.microsoft.com/8aa71ef1-61b9-411b-9e8c-75470c638469">BeginGetMetadata</a>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a> object returned by <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-begingetmetadata">BeginGetMetadata</a>.
 
 
 ## -returns
@@ -138,7 +138,7 @@ Insufficient memory to complete the operation.
 
 
 
-EndGetMetadata must only be called after the <a href="https://msdn.microsoft.com/49c5ad02-f24b-4ef9-b943-483728c0bbcd">IWSDAsyncResult</a> object returned by <a href="https://msdn.microsoft.com/8aa71ef1-61b9-411b-9e8c-75470c638469">BeginGetMetadata</a> has indicated that the operation is complete.  Once EndGetMetadata has been called, the results of the latest metadata retrieval are accessible through the <a href="https://msdn.microsoft.com/3a0a3954-348f-4a9d-9e52-f72d29ec0425">GetAllMetadata</a>, <a href="https://msdn.microsoft.com/e1e81f75-baeb-4406-8de0-f575db573fe8">GetHostMetadata</a>, <a href="https://msdn.microsoft.com/95a87bb1-8e62-4ece-a7bc-2483ea282ede">GetThisDeviceMetadata</a>, and <a href="https://msdn.microsoft.com/8a9343b8-34f3-41f9-8b02-853ae724ec75">GetThisModelMetadata</a> methods.
+EndGetMetadata must only be called after the <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a> object returned by <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-begingetmetadata">BeginGetMetadata</a> has indicated that the operation is complete.  Once EndGetMetadata has been called, the results of the latest metadata retrieval are accessible through the <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-getallmetadata">GetAllMetadata</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-gethostmetadata">GetHostMetadata</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-getthisdevicemetadata">GetThisDeviceMetadata</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-getthismodelmetadata">GetThisModelMetadata</a> methods.
 
 
 
@@ -148,7 +148,7 @@ EndGetMetadata must only be called after the <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/a1a54ba0-241a-4c3d-8113-89c0f8171c40">IWSDDeviceProxy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a>
  
 
  

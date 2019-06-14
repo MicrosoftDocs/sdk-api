@@ -138,7 +138,7 @@ The SCM adds the specified service SIDs to the process token, plus the following
 
 This enables developers to control access to the objects a service uses, instead of relying on the use of the LocalSystem account to obtain access.
 
-Use the <a href="https://msdn.microsoft.com/72855539-469a-4289-99cc-eae2ed89901f">LookupAccountName</a> and <a href="https://msdn.microsoft.com/b8a44ffc-86e1-4f79-ad51-8340da9eaefd">LookupAccountSid</a> functions to convert between a service name and a service SID. The account name is of the following form:
+Use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea">LookupAccountName</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupaccountsida">LookupAccountSid</a> functions to convert between a service name and a service SID. The account name is of the following form:
 
 NT SERVICE\<i>SvcName</i>
 
@@ -152,11 +152,11 @@ Note that NT SERVICE is the domain name.
 
 
 
-<a href="https://msdn.microsoft.com/6e5b79ed-52e1-460e-b076-01afbd08775c">ChangeServiceConfig2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb090e59-aeff-4420-bb7c-912a4911006f">QueryServiceConfig2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfig2a">QueryServiceConfig2</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>Apply</b> method writes to persistent storage the changes made by calls to the 
-<a href="https://msdn.microsoft.com/c2e440a7-d58c-4542-bd0b-a06b810edd34">ISdo::PutProperty</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-putproperty">ISdo::PutProperty</a> method.
 
 
 ## -parameters
@@ -77,8 +77,8 @@ If the method fails, the return value is one of the following error codes.
 
 
 To cancel changes made by 
-<a href="https://msdn.microsoft.com/c2e440a7-d58c-4542-bd0b-a06b810edd34">ISdo::PutProperty</a>, call 
-<a href="https://msdn.microsoft.com/446b1234-9b65-45dc-bb67-c315c26205dc">ISdo::Restore</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-putproperty">ISdo::PutProperty</a>, call 
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-restore">ISdo::Restore</a>.
 
 
 
@@ -88,15 +88,15 @@ To cancel changes made by
 
 
 
-<a href="https://msdn.microsoft.com/f8f49bf2-d8cc-40ad-ac52-05d74bcd931c">ISdo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdo">ISdo</a>
 
 
 
-<a href="https://msdn.microsoft.com/c2e440a7-d58c-4542-bd0b-a06b810edd34">ISdo::PutProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-putproperty">ISdo::PutProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/446b1234-9b65-45dc-bb67-c315c26205dc">ISdo::Restore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-restore">ISdo::Restore</a>
  
 
  

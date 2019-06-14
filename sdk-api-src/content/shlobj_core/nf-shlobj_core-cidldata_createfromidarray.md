@@ -84,9 +84,9 @@ The array of item IDs relative to <i>pidlFolder</i>. Typically, <i>apidl</i> is 
 
 ### -param ppdtobj [out]
 
-Type: <b><a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>**</b>
 
-The address to a pointer to the object that implements <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a>.
+The address to a pointer to the object that implements <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>.
 
 
 ## -returns
@@ -104,7 +104,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-The data object created by this function offers the Shell clipboard format identifier <a href="https://msdn.microsoft.com/fb8ce5d3-3215-4e05-a916-4d4a803464d2">CFSTR_SHELLIDLIST</a>. This data object also supports <a href="https://msdn.microsoft.com/7430d12c-ab07-4a9c-a845-4743818afbc7">IDataObject::SetData</a> calls to pick up other clipboard formats.
+The data object created by this function offers the Shell clipboard format identifier <a href="https://docs.microsoft.com/windows/desktop/shell/clipboard">CFSTR_SHELLIDLIST</a>. This data object also supports <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-setdata">IDataObject::SetData</a> calls to pick up other clipboard formats.
 
 
 
@@ -114,7 +114,7 @@ The data object created by this function offers the Shell clipboard format ident
 
 
 
-<a href="https://msdn.microsoft.com/d56cdafe-9463-43a5-8ef0-6cfaf0c524a8">SHCreateDataObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatedataobject">SHCreateDataObject</a>
  
 
  

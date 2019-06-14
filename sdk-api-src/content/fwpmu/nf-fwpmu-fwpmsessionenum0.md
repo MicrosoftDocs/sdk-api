@@ -61,14 +61,14 @@ The <b>FwpmSessionEnum0</b> function returns the next page of results from the s
 
 Type: <b>HANDLE</b>
 
-Handle for an open session to the filter engine. Call <a href="https://msdn.microsoft.com/5165f219-f3e0-4e84-915b-75912aab02b7">FwpmEngineOpen0</a> to open a session to the filter engine.
+Handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
 
 ### -param enumHandle [in]
 
 Type: <b>HANDLE</b>
 
-Handle for a session enumeration created by a call to <a href="https://msdn.microsoft.com/018944eb-698b-4d3e-a9ba-253b8bbebea7">FwpmSessionCreateEnumHandle0</a>.
+Handle for a session enumeration created by a call to <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmsessioncreateenumhandle0">FwpmSessionCreateEnumHandle0</a>.
 
 
 ### -param numEntriesRequested [in]
@@ -80,7 +80,7 @@ The number of session entries requested.
 
 ### -param entries [out]
 
-Type: <b><a href="https://msdn.microsoft.com/9f259ab7-cec9-44c1-8914-2850235470b3">FWPM_SESSION0</a>***</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_session0_">FWPM_SESSION0</a>***</b>
 
 Addresses of the enumeration entries.
 
@@ -123,7 +123,7 @@ The sessions were enumerated successfully.
 </dl>
 </td>
 <td width="60%">
-A Windows Filtering Platform (WFP) specific error. See <a href="https://msdn.microsoft.com/11f3085a-f044-4a78-b47a-59b9086562bf">WFP Error Codes</a> for details.
+A Windows Filtering Platform (WFP) specific error. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
 
 </td>
 </tr>
@@ -151,13 +151,13 @@ Failure to communicate with the remote or local firewall engine.
 
 If the <i>numEntriesReturned</i> is less than the <i>numEntriesRequested</i>, the enumeration is exhausted. 
 
-The returned array of entries (but not the individual entries themselves) must be freed by a call to <a href="https://msdn.microsoft.com/ba9f8c1e-f75c-4bf0-b68b-e21a358575fc">FwpmFreeMemory0</a>.
+The returned array of entries (but not the individual entries themselves) must be freed by a call to <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmfreememory0">FwpmFreeMemory0</a>.
 
 A subsequent call using the same enumeration handle will return the next set of items following those in the last output buffer.
 
 <b>FwpmSessionEnum0</b> works on a snapshot of the sessions taken at the time the enumeration handle was created.
 
-<b>FwpmSessionEnum0</b> is a specific implementation of FwpmSessionEnum. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FwpmSessionEnum0</b> is a specific implementation of FwpmSessionEnum. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -167,11 +167,11 @@ A subsequent call using the same enumeration handle will return the next set of 
 
 
 
-<a href="https://msdn.microsoft.com/9f259ab7-cec9-44c1-8914-2850235470b3">FWPM_SESSION0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_session0_">FWPM_SESSION0</a>
 
 
 
-<a href="https://msdn.microsoft.com/018944eb-698b-4d3e-a9ba-253b8bbebea7">FwpmSessionCreateEnumHandle0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmsessioncreateenumhandle0">FwpmSessionCreateEnumHandle0</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PFN_CERT_CREATE_CONTEXT_SORT_FUNC</b> callback function is called for each sorted context entry when a context is created. This function pointer is passed in the <b>pfnSort</b> member of the <a href="https://msdn.microsoft.com/1486cb60-56f0-4ce4-b283-6f92dcbbea26">CERT_CREATE_CONTEXT_PARA</a> structure.
+The <b>PFN_CERT_CREATE_CONTEXT_SORT_FUNC</b> callback function is called for each sorted context entry when a context is created. This function pointer is passed in the <b>pfnSort</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_create_context_para">CERT_CREATE_CONTEXT_PARA</a> structure.
 
 
 ## -parameters
@@ -74,14 +74,14 @@ The current number of sorted entries.
 
 ### -param *pvSort [in, out]
 
-An application-defined value that is passed in the <b>pvSort</b> member of the <a href="https://msdn.microsoft.com/1486cb60-56f0-4ce4-b283-6f92dcbbea26">CERT_CREATE_CONTEXT_PARA</a> structure.
+An application-defined value that is passed in the <b>pvSort</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_create_context_para">CERT_CREATE_CONTEXT_PARA</a> structure.
 
 
 ## -returns
 
 
 
-Return <b>TRUE</b> to continue the sort or <b>FALSE</b> to stop the sort. If <b>FALSE</b> is returned, <a href="https://msdn.microsoft.com/0911054b-a47a-4046-b121-a236fc4b018b">CertCreateContext</a> will fail and set the last error code to <b>ERROR_CANCELLED</b>.
+Return <b>TRUE</b> to continue the sort or <b>FALSE</b> to stop the sort. If <b>FALSE</b> is returned, <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecontext">CertCreateContext</a> will fail and set the last error code to <b>ERROR_CANCELLED</b>.
 
 
 
@@ -91,11 +91,11 @@ Return <b>TRUE</b> to continue the sort or <b>FALSE</b> to stop the sort. If <b>
 
 
 
-<a href="https://msdn.microsoft.com/1486cb60-56f0-4ce4-b283-6f92dcbbea26">CERT_CREATE_CONTEXT_PARA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_create_context_para">CERT_CREATE_CONTEXT_PARA</a>
 
 
 
-<a href="https://msdn.microsoft.com/0911054b-a47a-4046-b121-a236fc4b018b">CertCreateContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecontext">CertCreateContext</a>
  
 
  

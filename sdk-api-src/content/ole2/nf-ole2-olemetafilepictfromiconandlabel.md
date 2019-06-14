@@ -81,9 +81,9 @@ The location of the icon within the file named by <i>lpszSourceFile</i>, express
 
 
 
-A global handle to a <a href="https://msdn.microsoft.com/en-us/library/ms649017(v=VS.85).aspx">METAFILEPICT</a> structure containing the icon and label. The metafile uses the MM_ANISOTROPIC mapping mode.
+A global handle to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagmetafilepict">METAFILEPICT</a> structure containing the icon and label. The metafile uses the MM_ANISOTROPIC mapping mode.
 
-If an error occurs, the returned handle is <b>NULL</b>. In this case, the caller can call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> to obtain further information. 
+If an error occurs, the returned handle is <b>NULL</b>. In this case, the caller can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to obtain further information. 
 
 
 
@@ -93,7 +93,7 @@ If an error occurs, the returned handle is <b>NULL</b>. In this case, the caller
 
 
 
-This function is called by <a href="https://msdn.microsoft.com/2fa9cd75-4dc6-45a3-aa62-e82bd28289a5">OleGetIconOfFile</a> and <a href="https://msdn.microsoft.com/88ac1c14-b5a8-4100-9fa5-d7af35052b48">OleGetIconOfClass</a>.
+This function is called by <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olegeticonoffile">OleGetIconOfFile</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olegeticonofclass">OleGetIconOfClass</a>.
 
 If <i>lpszSourceFile</i> is not <b>NULL</b> and <i>iIconIndex</i> is not 0, the name of the source file passed in <i>lpszSourceFile</i> and the index passed by <i>iIconIndex</i> are added to the created metafile as a comment record.
 
@@ -105,11 +105,11 @@ If <i>lpszSourceFile</i> is not <b>NULL</b> and <i>iIconIndex</i> is not 0, the 
 
 
 
-<a href="https://msdn.microsoft.com/88ac1c14-b5a8-4100-9fa5-d7af35052b48">OleGetIconOfClass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olegeticonofclass">OleGetIconOfClass</a>
 
 
 
-<a href="https://msdn.microsoft.com/2fa9cd75-4dc6-45a3-aa62-e82bd28289a5">OleGetIconOfFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olegeticonoffile">OleGetIconOfFile</a>
  
 
  

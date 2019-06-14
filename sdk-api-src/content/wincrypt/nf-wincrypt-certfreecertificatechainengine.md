@@ -76,11 +76,11 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/e173016a-d3d7-42e0-aad8-e738abaf1df9">CertCreateCertificateChainEngine</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatechainengine">CertCreateCertificateChainEngine</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Chain Verification Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Chain Verification Functions</a>
  
 
  

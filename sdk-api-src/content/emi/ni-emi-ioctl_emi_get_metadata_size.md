@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>IOCTL_EMI_GET_METADATA_SIZE</b> 
-   control code retrieves the size of the  EMI metadata object that can be obtained from the device by issuing an <a href="https://msdn.microsoft.com/3A1A76B0-2A46-4C15-84BC-CE75701C30B7">IOCTL_EMI_GET_METADATA</a> request.
+   control code retrieves the size of the  EMI metadata object that can be obtained from the device by issuing an <a href="https://docs.microsoft.com/windows/desktop/api/emi/ni-emi-ioctl_emi_get_metadata">IOCTL_EMI_GET_METADATA</a> request.
 
 
 ## -ioctlparameters
@@ -130,7 +130,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-<a href="https://msdn.microsoft.com/D11C97E8-8E7F-41D7-A8A9-0B5426B20818">Energy Metering Interface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/powermeter/energy-meter-interface">Energy Metering Interface</a>
  
 
  

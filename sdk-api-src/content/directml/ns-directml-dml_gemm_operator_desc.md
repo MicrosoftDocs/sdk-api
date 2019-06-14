@@ -106,14 +106,14 @@ The transform to be applied to <i>BTensor</i>; either a transpose, or no transfo
 
 ### -field Alpha
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 The value of the scalar multiplier for the product of inputs <i>ATensor</i> and <i>BTensor</i>.
 
 
 ### -field Beta
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 The value of the scalar multiplier for the optional input <i>CTensor</i>.
 

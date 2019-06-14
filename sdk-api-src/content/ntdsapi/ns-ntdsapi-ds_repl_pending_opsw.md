@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DS_REPL_PENDING_OPS</b> structure contains an array of <a href="https://msdn.microsoft.com/9ea783b3-1529-4424-a582-f46f2a239a60">DS_REPL_OP</a> structures, which in turn describe the replication tasks currently executing and queued to execute, as returned by the 
-<a href="https://msdn.microsoft.com/b7ab22fe-ed92-4213-9b66-2dd5526286fa">DsReplicaGetInfo</a> and <a href="https://msdn.microsoft.com/5735d91d-1b7d-4dc6-b6c6-61ba38ebe50d">DsReplicaGetInfo2</a> functions. The entries in the queue are processed in priority order, and the first entry is the one currently being executed.
+The <b>DS_REPL_PENDING_OPS</b> structure contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_opw">DS_REPL_OP</a> structures, which in turn describe the replication tasks currently executing and queued to execute, as returned by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfow">DsReplicaGetInfo</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a> functions. The entries in the queue are processed in priority order, and the first entry is the one currently being executed.
 
 
 ## -struct-fields
@@ -60,7 +60,7 @@ The <b>DS_REPL_PENDING_OPS</b> structure contains an array of <a href="https://m
 
 ### -field ftimeCurrentOpStarted
 
-Contains a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that contains the date and time at which the first operation in the queue began executing.
+Contains a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date and time at which the first operation in the queue began executing.
 
 
 ### -field cNumPendingOps
@@ -80,7 +80,7 @@ Contains the number of elements in the <b>rgPendingOps</b> array.
 
 ### -field rgPendingOp
 
-Contains an array of <a href="https://msdn.microsoft.com/9ea783b3-1529-4424-a582-f46f2a239a60">DS_REPL_OP</a> structures that contain the replication tasks currently executing and queued to execute.
+Contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_opw">DS_REPL_OP</a> structures that contain the replication tasks currently executing and queued to execute.
 
 
 ## -see-also
@@ -88,15 +88,15 @@ Contains an array of <a href="https://msdn.microsoft.com/9ea783b3-1529-4424-a582
 
 
 
-<a href="https://msdn.microsoft.com/9ea783b3-1529-4424-a582-f46f2a239a60">DS_REPL_OP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_opw">DS_REPL_OP</a>
 
 
 
-<a href="https://msdn.microsoft.com/b7ab22fe-ed92-4213-9b66-2dd5526286fa">DsReplicaGetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfow">DsReplicaGetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/5735d91d-1b7d-4dc6-b6c6-61ba38ebe50d">DsReplicaGetInfo2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a>
  
 
  

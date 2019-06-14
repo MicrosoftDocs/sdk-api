@@ -64,7 +64,7 @@ Render specific properties from the event.
 
 ### -field EvtRenderContextSystem
 
-Render the system properties under the <b>System</b> element. The properties are returned in the order defined in the <a href="https://msdn.microsoft.com/a77cfbac-9abd-41e1-8ce6-ba92de97eb64">EVT_SYSTEM_PROPERTY_ID</a> enumeration.
+Render the system properties under the <b>System</b> element. The properties are returned in the order defined in the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_system_property_id">EVT_SYSTEM_PROPERTY_ID</a> enumeration.
 
 
 ### -field EvtRenderContextUser
@@ -86,7 +86,7 @@ You cannot specify the EvtRenderContextValues flag with the EvtRenderContextSyst
 
 
 
-<a href="https://msdn.microsoft.com/729cfd74-c158-463d-9247-ee2c75b259d4">EvtCreateRenderContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtcreaterendercontext">EvtCreateRenderContext</a>
  
 
  

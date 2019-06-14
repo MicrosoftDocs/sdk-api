@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 The <b>CAPDRIVERCAPS</b> structure defines the capabilities of the capture driver.
 
-An application should use the <a href="https://msdn.microsoft.com/898a800c-1109-47cd-bcc9-cb61d86a4a2e">WM_CAP_DRIVER_GET_CAPS</a> message or <a href="https://msdn.microsoft.com/2ca3a1b1-1d88-480f-b079-82da111c4565">capDriverGetCaps</a> macro to place a copy of the driver capabilities in a <b>CAPDRIVERCAPS</b> structure whenever the application connects a capture window to a capture driver.
+An application should use the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-driver-get-caps">WM_CAP_DRIVER_GET_CAPS</a> message or <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capdrivergetcaps">capDriverGetCaps</a> macro to place a copy of the driver capabilities in a <b>CAPDRIVERCAPS</b> structure whenever the application connects a capture window to a capture driver.
 
 
 
@@ -126,7 +126,7 @@ Video Capture
 
 
 
-<a href="https://msdn.microsoft.com/180010d2-240e-433d-b306-341b9b1e0b57">Video Capture Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-structures">Video Capture Structures</a>
  
 
  

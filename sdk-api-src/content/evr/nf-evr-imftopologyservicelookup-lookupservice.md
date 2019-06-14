@@ -83,7 +83,7 @@ Interface identifier of the requested interface.
 
 ### -param ppvObjects [out]
 
-Array of interface pointers. If the method succeeds, each member of the array contains either a valid interface pointer or <b>NULL</b>. The caller must release the interface pointers when the EVR calls <a href="https://msdn.microsoft.com/03ed29b4-89c1-4702-a23f-d013eeef5d44">IMFTopologyServiceLookupClient::ReleaseServicePointers</a> (or earlier). If the method fails, every member of the array is <b>NULL</b>.
+Array of interface pointers. If the method succeeds, each member of the array contains either a valid interface pointer or <b>NULL</b>. The caller must release the interface pointers when the EVR calls <a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imftopologyservicelookupclient-releaseservicepointers">IMFTopologyServiceLookupClient::ReleaseServicePointers</a> (or earlier). If the method fails, every member of the array is <b>NULL</b>.
 
 
 ### -param pnObjects [in, out]
@@ -142,7 +142,7 @@ The requested interface is not available.
 </dl>
 </td>
 <td width="60%">
-The method was not called from inside the <a href="https://msdn.microsoft.com/b89f5a47-154c-455a-b5a2-db55e4972b21">IMFTopologyServiceLookupClient::InitServicePointers</a> method. See Remarks.
+The method was not called from inside the <a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imftopologyservicelookupclient-initservicepointers">IMFTopologyServiceLookupClient::InitServicePointers</a> method. See Remarks.
 
 </td>
 </tr>
@@ -167,7 +167,7 @@ The object does not support the specified service GUID.
 
 
 
-This method can be called only from inside the <a href="https://msdn.microsoft.com/b89f5a47-154c-455a-b5a2-db55e4972b21">IMFTopologyServiceLookupClient::InitServicePointers</a> method. At any other time, the method returns MF_E_NOTACCEPTING.
+This method can be called only from inside the <a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imftopologyservicelookupclient-initservicepointers">IMFTopologyServiceLookupClient::InitServicePointers</a> method. At any other time, the method returns MF_E_NOTACCEPTING.
 
 The presenter can use this method to query the EVR and the mixer. The mixer can use it to query the EVR and the presenter. Which objects are queried depends on the caller and the service GUID, as shown in the following table.
 
@@ -204,18 +204,18 @@ The following interfaces are available from the EVR:
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/3a60bfec-8511-4a84-a833-e0c73c593970">IMFClock</a> interface. This interface is available if the EVR has access to a clock (reference clock in DirectShow or presentation clock in Media Foundation). This interface might not be available. Presenter and mixers must be able to process data without a clock. If the <b>IMFClock</b> interface is available, you can also get these related interfaces:
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfclock">IMFClock</a> interface. This interface is available if the EVR has access to a clock (reference clock in DirectShow or presentation clock in Media Foundation). This interface might not be available. Presenter and mixers must be able to process data without a clock. If the <b>IMFClock</b> interface is available, you can also get these related interfaces:
 
 <ul>
 <li>
 
-<a href="https://msdn.microsoft.com/152594df-de3d-4f6f-9277-dba95ab3533a">IMFTimer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftimer">IMFTimer</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/979c4f77-cbee-468c-8f6b-e68442d89025">IMFPresentationClock</a> (Media Foundation EVR only)
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a> (Media Foundation EVR only)
 
 </li>
 </ul>
@@ -226,13 +226,13 @@ The following interfaces are available from the mixer:
 <ul>
 <li>
 
-<a href="https://msdn.microsoft.com/3cc502d8-d364-43b9-b0b6-d9474c002b20">IMFTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/c42b75f9-6b72-4aab-92f2-3361ab475ce9">IMFVideoDeviceID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideodeviceid">IMFVideoDeviceID</a>
 
 
 </li>
@@ -245,11 +245,11 @@ The following interfaces are available from the mixer:
 
 
 
-<a href="https://msdn.microsoft.com/1135b309-b158-4b70-9f76-5c93d0ad3250">How to Write an EVR Presenter</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-write-an-evr-presenter">How to Write an EVR Presenter</a>
 
 
 
-<a href="https://msdn.microsoft.com/a912c17a-40ef-441c-bfc9-7ef49d22070f">IMFTopologyServiceLookup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imftopologyservicelookup">IMFTopologyServiceLookup</a>
  
 
  

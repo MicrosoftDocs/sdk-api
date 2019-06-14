@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Requests that an <a href="https://msdn.microsoft.com/0061387d-516d-44c5-b511-3236593382a9">active</a> handler be enabled or disabled. An enabled handler can be synchronized and a disabled handler cannot.
+Requests that an <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-activate">active</a> handler be enabled or disabled. An enabled handler can be synchronized and a disabled handler cannot.
 
 
 ## -parameters
@@ -79,15 +79,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-A handler must set the <a href="https://msdn.microsoft.com/99b0bebf-8131-49d0-bc9d-18fdf41c1371">SYNCMGR_HCM_CAN_ENABLE</a> and <a href="https://msdn.microsoft.com/99b0bebf-8131-49d0-bc9d-18fdf41c1371">SYNCMGR_HCM_CAN_DISABLE</a> flags for the <b>Enable</b> and <b>Disable</b> entries to appear on the handler's shortcut menu when the handler is shown in the Sync Center folder. Choosing to enable a handler means that it can be synchronized; choosing to disable a handler means that it cannot.
+A handler must set the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_handler_capabilities">SYNCMGR_HCM_CAN_ENABLE</a> and <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_handler_capabilities">SYNCMGR_HCM_CAN_DISABLE</a> flags for the <b>Enable</b> and <b>Disable</b> entries to appear on the handler's shortcut menu when the handler is shown in the Sync Center folder. Choosing to enable a handler means that it can be synchronized; choosing to disable a handler means that it cannot.
 
 Sync Center calls this method in the following two instances.
             
                 
 
 <ul>
-<li>When the user selects the handler in the Sync Center folder and launches its <b>Enable</b> task. If the handler supports the <a href="https://msdn.microsoft.com/91441b28-a2d8-4114-86dd-9a3e826deef4">SYNCMGR_OBJECTID_QueryBeforeEnable</a> object, this method is only called if the UI operation was successful.</li>
-<li>When the user selects the handler in the Sync Center folder and launches its <b>Disable</b> task. If the handler supports the <a href="https://msdn.microsoft.com/91441b28-a2d8-4114-86dd-9a3e826deef4">SYNCMGR_OBJECTID_QueryBeforeDisable</a> object, this method is only called if the UI operation was successful.</li>
+<li>When the user selects the handler in the Sync Center folder and launches its <b>Enable</b> task. If the handler supports the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getobject">SYNCMGR_OBJECTID_QueryBeforeEnable</a> object, this method is only called if the UI operation was successful.</li>
+<li>When the user selects the handler in the Sync Center folder and launches its <b>Disable</b> task. If the handler supports the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getobject">SYNCMGR_OBJECTID_QueryBeforeDisable</a> object, this method is only called if the UI operation was successful.</li>
 </ul>
 If the handler does not need to perform any actions when it is activated, it can return either S_OK or E_NOTIMPL as shown in the example below.
 
@@ -116,15 +116,15 @@ STDMETHODIMP CMyDeviceHandler::Enable(__in BOOL fEnable)
 
 
 
-<a href="https://msdn.microsoft.com/39579030-1cf5-4e82-a5e7-cb3415903d02">ISyncMgrHandler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrhandler">ISyncMgrHandler</a>
 
 
 
-<a href="https://msdn.microsoft.com/91441b28-a2d8-4114-86dd-9a3e826deef4">ISyncMgrHandler::GetObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getobject">ISyncMgrHandler::GetObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/1485ae25-20b8-4ee9-a30d-247f719047cd">IsEnabled</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandlerinfo-isenabled">IsEnabled</a>
  
 
  

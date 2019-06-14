@@ -70,7 +70,7 @@ New default tab setting, in floating-point points. Default value is 36.0 points,
 
 Type: <b>HRESULT</b>
 
-If the method succeeds it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information on COM error codes, see <a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling in COM</a>.
+If the method succeeds it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information on COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -110,11 +110,11 @@ Insufficient memory.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787728(v=VS.85).aspx">AddTab</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-addtab">AddTab</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787738(v=VS.85).aspx">ClearAllTabs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-clearalltabs">ClearAllTabs</a>
 
 
 
@@ -122,27 +122,27 @@ Insufficient memory.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787748(v=VS.85).aspx">DeleteTab</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-deletetab">DeleteTab</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773941(v=VS.85).aspx">GetDefaultTabStop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-getdefaulttabstop">GetDefaultTabStop</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773989(v=VS.85).aspx">GetListTab</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-getlisttab">GetListTab</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774034(v=VS.85).aspx">GetTab</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-gettab">GetTab</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774035(v=VS.85).aspx">GetTabCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-gettabcount">GetTabCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774052(v=VS.85).aspx">ITextDocument</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>
 
 
 
@@ -150,11 +150,11 @@ Insufficient memory.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774177(v=VS.85).aspx">SetListTab</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-setlisttab">SetListTab</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
  
 
  

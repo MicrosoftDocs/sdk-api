@@ -54,7 +54,7 @@ Represents a registered an out-of-process server.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExeServerRegistration</b> interface inherits from <a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a>. <b>IExeServerRegistration</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExeServerRegistration</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IExeServerRegistration</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IExeServerRegistration</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/DC0E3542-662F-43B8-968B-9F565D9D9278">get_AppUserModelId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iexeserverregistration-get_appusermodelid">get_AppUserModelId</a>
 </td>
 <td align="left" width="63%">
 Gets the identifier for the app's user model.
@@ -78,7 +78,7 @@ Gets the identifier for the app's user model.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2A4B80B9-3590-411C-8834-6850A44AF46C">get_CommandLine</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iexeserverregistration-get_commandline">get_CommandLine</a>
 </td>
 <td align="left" width="63%">
 Gets the command line used to launch the out-of-process server.
@@ -87,7 +87,7 @@ Gets the command line used to launch the out-of-process server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/69E8D576-B842-4CD4-8D93-87E4E08D11CA">get_ExePath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iexeserverregistration-get_exepath">get_ExePath</a>
 </td>
 <td align="left" width="63%">
 Gets the file path to the out-of-process server.
@@ -96,7 +96,7 @@ Gets the file path to the out-of-process server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/DA667D7C-323B-412D-AF9E-03402223292A">get_Identity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iexeserverregistration-get_identity">get_Identity</a>
 </td>
 <td align="left" width="63%">
 Gets the identity of the out-of-process server.
@@ -105,7 +105,7 @@ Gets the identity of the out-of-process server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/DF0A20D8-5028-4A7B-B8E6-CAF5C3716407">get_IdentityType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iexeserverregistration-get_identitytype">get_IdentityType</a>
 </td>
 <td align="left" width="63%">
 Gets the activation type for the out-of-process server.
@@ -114,7 +114,7 @@ Gets the activation type for the out-of-process server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/23618FBC-2404-4AB7-9842-7FD439F677B1">get_Instancing</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iexeserverregistration-get_instancing">get_Instancing</a>
 </td>
 <td align="left" width="63%">
 Gets the instancing behavior for the out-of-process server.
@@ -123,7 +123,7 @@ Gets the instancing behavior for the out-of-process server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/06267C33-11B4-4B55-8D2C-A20926EE89DF">get_Permissions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iexeserverregistration-get_permissions">get_Permissions</a>
 </td>
 <td align="left" width="63%">
 Gets the permissions for the out-of-process server.
@@ -132,7 +132,7 @@ Gets the permissions for the out-of-process server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/CB7CAA65-4DA9-4948-AEB4-150A45629947">get_ServerName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iexeserverregistration-get_servername">get_ServerName</a>
 </td>
 <td align="left" width="63%">
 Gets the name of the current out-of-process server.
@@ -147,11 +147,11 @@ Gets the name of the current out-of-process server.
 
 
 
-<a href="https://msdn.microsoft.com/1D8F7B12-2883-478D-B83D-84AC47D512E4">IExeServerActivatableClassRegistration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nn-activationregistration-iexeserveractivatableclassregistration">IExeServerActivatableClassRegistration</a>
 
 
 
-<a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
  
 
  

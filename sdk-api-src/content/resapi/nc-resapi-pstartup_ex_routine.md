@@ -48,7 +48,7 @@ ms.custom: 19H1
 ## -description
 
 
-Loads a <a href="https://msdn.microsoft.com/e1434102-afaf-4a35-887e-a434c628bd90">resource DLL</a>, returning a structure 
+Loads a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dlls">resource DLL</a>, returning a structure 
     that contains a function table and a version number. The <b>PSTARTUP_EX_ROUTINE</b> 
     type defines a pointer to this function.
 
@@ -65,8 +65,8 @@ The type of resource to start.
 
 ### -param MinVersionSupported [in]
 
-The minimum version of the <a href="https://msdn.microsoft.com/764a35dd-a681-4af0-8e2c-281a254a3a30">Resource API</a> supported by the 
-       <a href="https://msdn.microsoft.com/90717d6e-f2a4-49a0-86b6-17de1c4bcfe4">Cluster service</a>.
+The minimum version of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-api">Resource API</a> supported by the 
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a>.
 
 
 ### -param MaxVersionSupported [in]
@@ -130,7 +130,7 @@ The resource DLL does not support a version that falls in the range identified b
 
 
 
-<a href="https://msdn.microsoft.com/933d7b97-b5be-4c84-a983-41d1fd935c19">Resource DLL Entry-Point Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>
  
 
  

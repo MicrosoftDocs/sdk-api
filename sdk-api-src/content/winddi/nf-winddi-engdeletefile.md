@@ -76,7 +76,7 @@ Pointer to a null-terminated string that contains the fully qualified name of th
 
 
 
-<a href="https://msdn.microsoft.com/6887f7e1-f94f-421c-be7a-14a41d621ce1">EngMapFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmapfile">EngMapFile</a>
  
 
  

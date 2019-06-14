@@ -72,7 +72,7 @@ On input, the size, in bytes, the <i>pPropertyGUIDS</i> buffer can be. On output
 
 ### -param pPropertyGUIDS
 
-The user-allocated buffer to contain a list of properties the recognizer supports. To determine the size of the buffer, set <i>pPropertyGUIDS</i> to <b>NULL</b>; use the size (<i>pcProperties</i>) to allocate <i>pPropertyGUIDS</i>. For a list of predefined properties, see the recognition <a href="https://msdn.microsoft.com/dcf6bc5a-1b61-48f7-bc7a-f74ae6e2e57e">Property GUIDs</a>.
+The user-allocated buffer to contain a list of properties the recognizer supports. To determine the size of the buffer, set <i>pPropertyGUIDS</i> to <b>NULL</b>; use the size (<i>pcProperties</i>) to allocate <i>pPropertyGUIDS</i>. For a list of predefined properties, see the recognition <a href="https://docs.microsoft.com/windows/desktop/tablet/property-guids">Property GUIDs</a>.
 
 
 ## -returns
@@ -163,11 +163,11 @@ When Microsoft recognition engines are called with the <i>pcProperties</i> param
 
 
 
-<a href="https://msdn.microsoft.com/e3f154ce-b4bf-4520-a4de-03cfe27ef9b0">GetContextPropertyValue Function</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-getcontextpropertyvalue">GetContextPropertyValue Function</a>
 
 
 
-<a href="https://msdn.microsoft.com/42b1857d-92ee-456f-aafc-b8780526a137">SetContextPropertyValue Function</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-setcontextpropertyvalue">SetContextPropertyValue Function</a>
  
 
  

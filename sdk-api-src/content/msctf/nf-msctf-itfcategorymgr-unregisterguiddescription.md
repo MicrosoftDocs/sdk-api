@@ -110,17 +110,17 @@ The GUID cannot be found.
 
 
 
-<a href="https://msdn.microsoft.com/26139c8c-e1d9-4d7a-a0c0-ef73e572fbe4">ITfCategoryMgr
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcategorymgr">ITfCategoryMgr
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/e0c4f64e-7e20-4dff-b597-acc280aebf32">ITfCategoryMgr::GetGUIDDescription
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-getguiddescription">ITfCategoryMgr::GetGUIDDescription
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/cb42e583-af5b-42ba-9637-889c7d4bdc82">ITfCategoryMgr::RegisterGUIDDescription
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registerguiddescription">ITfCategoryMgr::RegisterGUIDDescription
       </a>
  
 

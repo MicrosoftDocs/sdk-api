@@ -54,7 +54,7 @@ Connects to the dispenser manager.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDispenserManager</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDispenserManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDispenserManager</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDispenserManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDispenserManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cc3095a3-df4c-4112-a3cb-308e8962b51f">GetContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-idispensermanager-getcontext">GetContext</a>
 </td>
 <td align="left" width="63%">
 Determines the current context.
@@ -78,7 +78,7 @@ Determines the current context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/18633c7f-d589-4e38-82e7-7cdae3fbf1ba">RegisterDispenser</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-idispensermanager-registerdispenser">RegisterDispenser</a>
 </td>
 <td align="left" width="63%">
 Registers the resource dispenser with the dispenser manager.
@@ -93,7 +93,7 @@ Registers the resource dispenser with the dispenser manager.
 
 
 
-<a href="https://msdn.microsoft.com/dba9c616-031d-48a7-b3e3-eb28b95a573a">IDispenserDriver</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a>
  
 
  

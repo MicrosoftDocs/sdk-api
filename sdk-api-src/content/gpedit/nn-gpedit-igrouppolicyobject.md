@@ -57,7 +57,7 @@ Note that this interface does not support multithreaded object concurrency.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGroupPolicyObject</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IGroupPolicyObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGroupPolicyObject</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGroupPolicyObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IGroupPolicyObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/34afb04e-47f9-4d7c-9fa6-9d76188d7e05">Delete</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-delete">Delete</a>
 </td>
 <td align="left" width="63%">
 Deletes the GPO.
@@ -81,7 +81,7 @@ Deletes the GPO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a16592c3-8fa1-4859-b379-ef31999a3fdd">GetDisplayName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-getdisplayname">GetDisplayName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the display name for the GPO.
@@ -90,7 +90,7 @@ Retrieves the display name for the GPO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0d6d0b3d-5ad4-4363-a123-f074193b75e2">GetDSPath</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-getdspath">GetDSPath</a>
 </td>
 <td align="left" width="63%">
 Retrieves the Active Directory path to the root of the specified GPO section.
@@ -99,7 +99,7 @@ Retrieves the Active Directory path to the root of the specified GPO section.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9f0837ff-31bb-4eaa-82e4-ef127f8e605a">GetFileSysPath</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-getfilesyspath">GetFileSysPath</a>
 </td>
 <td align="left" width="63%">
 Retrieves the file system path (UNC format) to the root of the specified GPO section.
@@ -108,7 +108,7 @@ Retrieves the file system path (UNC format) to the root of the specified GPO sec
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6ac20718-45d4-4a45-a95e-d159e4d6dacc">GetMachineName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-getmachinename">GetMachineName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the computer name of the remote GPO.
@@ -117,7 +117,7 @@ Retrieves the computer name of the remote GPO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1374c01c-aba3-48f5-8a42-7139873d8f7c">GetName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-getname">GetName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the unique name for the GPO.
@@ -126,7 +126,7 @@ Retrieves the unique name for the GPO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a4b86196-04c8-4ec1-bf26-2a33e44020d2">GetOptions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-getoptions">GetOptions</a>
 </td>
 <td align="left" width="63%">
 Retrieves the options for the GPO.
@@ -135,7 +135,7 @@ Retrieves the options for the GPO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ecfecaa4-eb6e-4de6-a5fe-ecd0e9df886c">GetPath</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-getpath">GetPath</a>
 </td>
 <td align="left" width="63%">
 Retrieves the path to the GPO.
@@ -144,7 +144,7 @@ Retrieves the path to the GPO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d464d5fc-64f0-4f34-bcc0-35d92e65f79b">GetPropertySheetPages</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-getpropertysheetpages">GetPropertySheetPages</a>
 </td>
 <td align="left" width="63%">
 Retrieves the property sheet pages associated with the GPO.
@@ -153,7 +153,7 @@ Retrieves the property sheet pages associated with the GPO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6d46aeb4-8675-4746-9b80-46a0def184b8">GetRegistryKey</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-getregistrykey">GetRegistryKey</a>
 </td>
 <td align="left" width="63%">
 Retrieves a handle to the root of the registry key for the specified GPO section.
@@ -162,7 +162,7 @@ Retrieves a handle to the root of the registry key for the specified GPO section
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e64314aa-340f-496c-aa6b-4744573565f6">GetType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-gettype">GetType</a>
 </td>
 <td align="left" width="63%">
 Retrieves type information for the GPO being edited.
@@ -171,7 +171,7 @@ Retrieves type information for the GPO being edited.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e251cac2-8fc8-4ed0-b940-4a9f47eca26b">New</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-new">New</a>
 </td>
 <td align="left" width="63%">
 Creates a new GPO in the Active Directory with the specified display name.
@@ -180,7 +180,7 @@ Creates a new GPO in the Active Directory with the specified display name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/362b6229-d73f-424f-b906-05ed43e5e034">OpenDSGPO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-opendsgpo">OpenDSGPO</a>
 </td>
 <td align="left" width="63%">
 Opens the specified GPO and optionally loads the registry information.
@@ -189,7 +189,7 @@ Opens the specified GPO and optionally loads the registry information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c986152b-59cd-4733-bcdd-ee7f0b6907ad">OpenLocalMachineGPO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-openlocalmachinegpo">OpenLocalMachineGPO</a>
 </td>
 <td align="left" width="63%">
 Opens the default GPO for the computer and optionally loads the registry information.
@@ -198,7 +198,7 @@ Opens the default GPO for the computer and optionally loads the registry informa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ac124b48-7eb6-473b-a96b-de9b1a903f28">OpenRemoteMachineGPO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-openremotemachinegpo">OpenRemoteMachineGPO</a>
 </td>
 <td align="left" width="63%">
 Opens the default GPO for the specified remote computer and optionally loads the registry information.
@@ -207,7 +207,7 @@ Opens the default GPO for the specified remote computer and optionally loads the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e3713e5f-c710-48f7-8081-f2669c77449d">Save</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-save">Save</a>
 </td>
 <td align="left" width="63%">
 Saves the specified registry policy settings to disk and updates the revision number of the GPO.
@@ -216,7 +216,7 @@ Saves the specified registry policy settings to disk and updates the revision nu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/979e8399-83e1-421e-8f32-813464ac97aa">SetDisplayName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-setdisplayname">SetDisplayName</a>
 </td>
 <td align="left" width="63%">
 Sets the display name for the GPO.
@@ -225,7 +225,7 @@ Sets the display name for the GPO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4caed430-2861-49cb-9418-b12bf1c46707">SetOptions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-setoptions">SetOptions</a>
 </td>
 <td align="left" width="63%">
 Sets the options for the GPO.
@@ -240,7 +240,7 @@ Sets the options for the GPO.
 
 
 For methods that Microsoft Management Console (MMC) extension snap-ins can use to communicate with the Group Policy Object Editor, see the 
-<a href="https://msdn.microsoft.com/3b3e7793-fc69-43a3-a2b1-0aa36748a19b">IGPEInformation</a> interface.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igpeinformation">IGPEInformation</a> interface.
 
 
 
@@ -250,11 +250,11 @@ For methods that Microsoft Management Console (MMC) extension snap-ins can use t
 
 
 
-<a href="https://msdn.microsoft.com/dc15a69d-a44d-4731-a9e5-6165abd581c4">Group Policy Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-interfaces">Group Policy Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/1285ab5a-ea68-4c16-bc34-8ab2f3cfad35">Group Policy Overview</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy Overview</a>
  
 
  

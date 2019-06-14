@@ -59,7 +59,7 @@ MprConfigXGetInfo
 			
 
 where X stands for Server, 
-<a href="https://msdn.microsoft.com/761a033c-b95e-46f0-948b-d0a60337390f">Interface</a>, Transport, or InterfaceTransport.
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/interface">Interface</a>, Transport, or InterfaceTransport.
 
 
 ## -parameters
@@ -81,7 +81,7 @@ MprConfigXGetInfo
 						
 
 where X stands for Server, 
-<a href="https://msdn.microsoft.com/761a033c-b95e-46f0-948b-d0a60337390f">Interface</a>, Transport, or InterfaceTransport.
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/interface">Interface</a>, Transport, or InterfaceTransport.
 
 
 ## -returns
@@ -98,39 +98,39 @@ If the function succeeds, the return value is NO_ERROR.
 
 
 
-<a href="https://msdn.microsoft.com/fce40bcc-df75-49cd-af02-5fea3a65aaac">MprConfigInterfaceEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfaceenum">MprConfigInterfaceEnum</a>
 
 
 
-<a href="https://msdn.microsoft.com/f33f9e66-1668-4839-9c98-5945104110bc">MprConfigInterfaceGetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfacegetinfo">MprConfigInterfaceGetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/ae395eb8-8019-432c-bf96-b602c8e34f12">MprConfigInterfaceTransportEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfacetransportenum">MprConfigInterfaceTransportEnum</a>
 
 
 
-<a href="https://msdn.microsoft.com/2b0bb412-a480-43ff-b29a-cf4e7674d2c4">MprConfigInterfaceTransportGetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfacetransportgetinfo">MprConfigInterfaceTransportGetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/6d3cd97a-96ef-4ecd-b2fd-2743ba79aa5b">MprConfigServerGetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigservergetinfo">MprConfigServerGetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/2abe30f4-564b-499f-a6d3-13da305a783c">MprConfigTransportEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigtransportenum">MprConfigTransportEnum</a>
 
 
 
-<a href="https://msdn.microsoft.com/84054313-f923-47d6-8019-c68a042d2d73">MprConfigTransportGetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigtransportgetinfo">MprConfigTransportGetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/fb65885c-7c3b-4c90-9516-388f09703c90">Router Configuration Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-configuration-functions">Router Configuration Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/352505a9-616a-4d47-9857-f88d345333fd">Router Management Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
  
 
  

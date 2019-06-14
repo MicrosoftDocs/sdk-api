@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<a href="https://msdn.microsoft.com/9144e283-0e5f-43d7-8cd2-e746f94c6f14">Netbios</a> is not supported on Windows Vista,  Windows Server 2008, and subsequent versions of the operating system]
+<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/portal">Netbios</a> is not supported on Windows Vista,  Windows Server 2008, and subsequent versions of the operating system]
 
 The <b>Netbios</b> function interprets and executes the specified network control block (NCB).
 
@@ -63,7 +63,7 @@ The <b>Netbios</b> function is provided primarily for applications that were wri
 
 ### -param pncb
 
-A  pointer to an <a href="https://msdn.microsoft.com/e3fcca1c-8057-41c4-80a5-d1e67920d88c">NCB</a> structure that describes the network control block. 
+A  pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_ncb">NCB</a> structure that describes the network control block. 
 
 
 
@@ -71,17 +71,17 @@ A  pointer to an <a href="https://msdn.microsoft.com/e3fcca1c-8057-41c4-80a5-d1e
 
 
 
-For synchronous requests, the return value is the return code in the <a href="https://msdn.microsoft.com/e3fcca1c-8057-41c4-80a5-d1e67920d88c">NCB</a> structure. That value is also returned in the <b>ncb_retcode</b> member of the <b>NCB</b> structure.
+For synchronous requests, the return value is the return code in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_ncb">NCB</a> structure. That value is also returned in the <b>ncb_retcode</b> member of the <b>NCB</b> structure.
 
 For asynchronous requests, there are the following possibilities:
 
 <ul>
-<li>If the asynchronous command has already completed when <b>Netbios</b> returns to its caller, the return value is the return code of the NCB structure, just as if it were a synchronous <a href="https://msdn.microsoft.com/e3fcca1c-8057-41c4-80a5-d1e67920d88c">NCB</a> structure.</li>
+<li>If the asynchronous command has already completed when <b>Netbios</b> returns to its caller, the return value is the return code of the NCB structure, just as if it were a synchronous <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_ncb">NCB</a> structure.</li>
 <li>If the asynchronous command is still pending when <b>Netbios</b> returns to its caller, the return value is zero.</li>
 </ul>
 If the address specified by the pncb parameter is invalid, the return value is <b>NRC_BADNCB</b>.
 
-If the buffer length specified in the <b>ncb_length</b> member of the <a href="https://msdn.microsoft.com/e3fcca1c-8057-41c4-80a5-d1e67920d88c">NCB</a> structure is incorrect, or if the buffer specified by the <b>ncb_retcode</b> member is protected from write operations, the return value is <b>NRC_BUFLEN</b>.
+If the buffer length specified in the <b>ncb_length</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_ncb">NCB</a> structure is incorrect, or if the buffer specified by the <b>ncb_retcode</b> member is protected from write operations, the return value is <b>NRC_BUFLEN</b>.
 
 
 
@@ -90,9 +90,9 @@ If the buffer length specified in the <b>ncb_length</b> member of the <a href="h
 
 
 
-When an asynchronous network control block finishes and the <b>ncb_post</b> member is nonzero, the routine specified in <b>ncb_post</b> is called with a single parameter. This parameter contains a pointer to an <a href="https://msdn.microsoft.com/e3fcca1c-8057-41c4-80a5-d1e67920d88c">NCB</a> structure, the network control block.
+When an asynchronous network control block finishes and the <b>ncb_post</b> member is nonzero, the routine specified in <b>ncb_post</b> is called with a single parameter. This parameter contains a pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_ncb">NCB</a> structure, the network control block.
 
-The <a href="https://msdn.microsoft.com/e3fcca1c-8057-41c4-80a5-d1e67920d88c">NCB</a> structure contains a handle of an event (the <b>ncb_event</b> member). The system sets the event to the nonsignaled state when an asynchronous NetBIOS command is accepted, and sets the event to the signaled state when the asynchronous NetBIOS command is completed. Only manual reset events should be used for synchronization. A specified event should not be associated with more than one active asynchronous NetBIOS command.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_ncb">NCB</a> structure contains a handle of an event (the <b>ncb_event</b> member). The system sets the event to the nonsignaled state when an asynchronous NetBIOS command is accepted, and sets the event to the signaled state when the asynchronous NetBIOS command is completed. Only manual reset events should be used for synchronization. A specified event should not be associated with more than one active asynchronous NetBIOS command.
 
 Using <b>ncb_event</b> to submit asynchronous requests requires fewer system resources than using <b>ncb_post</b>. Also, when <b>ncb_event</b> is nonzero, the pending request is canceled if the thread terminates before the request is processed. This is not true for requests sent by using <b>ncb_post</b>.
 
@@ -104,7 +104,7 @@ Using <b>ncb_event</b> to submit asynchronous requests requires fewer system res
 
 
 
-<a href="https://msdn.microsoft.com/e3fcca1c-8057-41c4-80a5-d1e67920d88c">NCB</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_ncb">NCB</a>
  
 
  

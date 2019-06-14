@@ -51,16 +51,16 @@ ms.custom: 19H1
 
 The 
 <b>ITQOSEvent</b> interface contains methods that retrieve the description of quality of service (QOS) events. When the application's implementation of the 
-<a href="https://msdn.microsoft.com/8cd57c81-cd71-4fe5-a176-805c96c06c31">ITTAPIEventNotification::Event</a> method indicates a 
-<a href="https://msdn.microsoft.com/94faa4a1-7d86-48bc-9e94-f2b8f83f5280">TAPI_EVENT</a> equal to <b>TE_QOSEVENT</b>, the method's <i>pEvent</i> parameter is an <b>IDispatch</b> pointer for the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapieventnotification-event">ITTAPIEventNotification::Event</a> method indicates a 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event">TAPI_EVENT</a> equal to <b>TE_QOSEVENT</b>, the method's <i>pEvent</i> parameter is an <b>IDispatch</b> pointer for the 
 <b>ITQOSEvent</b> interface. The methods of this interface can be used to retrieve information concerning a QOS event that has occurred.
 <div class="alert"><b>Note</b>  You must call the 
-<a href="https://msdn.microsoft.com/126ec551-aade-47d8-987f-1f735f10bd28">ITTAPI::put_EventFilter</a> method and set an event filter mask that includes the <b>TE_QOSEVENT</b> to enable reception of QOS events. If you do not call <b>ITTAPI::put_EventFilter</b>, your application will not receive any events. For more information, see the 
-<a href="https://msdn.microsoft.com/db43f4e0-f2f5-49b1-a03d-3df3de0e5611">Events</a> overview.</div><div> </div>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-put_eventfilter">ITTAPI::put_EventFilter</a> method and set an event filter mask that includes the <b>TE_QOSEVENT</b> to enable reception of QOS events. If you do not call <b>ITTAPI::put_EventFilter</b>, your application will not receive any events. For more information, see the 
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/events">Events</a> overview.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITQOSEvent</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITQOSEvent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITQOSEvent</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITQOSEvent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,31 +75,31 @@ The <b>ITQOSEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e91772da-948a-4d0a-999e-cdd51951fca2">get_Call</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itqosevent-get_call">get_Call</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the 
-<a href="https://msdn.microsoft.com/5209d4a1-e05b-453e-8896-2dc71f0b9af0">ITCallInfo</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a> interface.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8e0f4705-6614-4973-85bd-21abd17bd7fe">get_Event</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itqosevent-get_event">get_Event</a>
 </td>
 <td align="left" width="63%">
 Gets the 
-<a href="https://msdn.microsoft.com/8bf4bfdc-6327-497d-9d19-4771d47982bb">QOS_EVENT</a> descriptor of the event.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-qos_event">QOS_EVENT</a> descriptor of the event.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0f062eea-386d-4f25-8d51-88adbce1aefe">get_MediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itqosevent-get_mediatype">get_MediaType</a>
 </td>
 <td align="left" width="63%">
 Gets the 
-<a href="https://msdn.microsoft.com/3e418c9a-a008-4b94-b5d2-7c2eccb3bf87">media type</a> description.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">media type</a> description.
 
 </td>
 </tr>
@@ -111,31 +111,31 @@ Gets the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/5209d4a1-e05b-453e-8896-2dc71f0b9af0">ITCallInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/8cd57c81-cd71-4fe5-a176-805c96c06c31">ITTAPIEventNotification::Event</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapieventnotification-event">ITTAPIEventNotification::Event</a>
 
 
 
-<a href="https://msdn.microsoft.com/8bf4bfdc-6327-497d-9d19-4771d47982bb">QOS_EVENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-qos_event">QOS_EVENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/e7662a26-d7b2-4bff-aa72-e38b58bc15df">Register Events code snippet</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/register-events">Register Events code snippet</a>
 
 
 
-<a href="https://msdn.microsoft.com/94faa4a1-7d86-48bc-9e94-f2b8f83f5280">TAPI_EVENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event">TAPI_EVENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e418c9a-a008-4b94-b5d2-7c2eccb3bf87">media type</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">media type</a>
  
 
  

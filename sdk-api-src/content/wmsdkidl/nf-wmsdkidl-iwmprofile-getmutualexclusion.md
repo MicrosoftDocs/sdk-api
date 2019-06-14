@@ -73,7 +73,7 @@ The <b>GetMutualExclusion</b> method retrieves a mutual exclusion object from th
 
 ### -param ppME [out]
 
-Pointer to a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd757238(v=VS.85).aspx">IWMMutualExclusion</a> interface of the mutual exclusion object specified by the index passed as <i>dwMEIndex</i>.
+Pointer to a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion">IWMMutualExclusion</a> interface of the mutual exclusion object specified by the index passed as <i>dwMEIndex</i>.
 
 
 ## -returns
@@ -130,7 +130,7 @@ Not enough memory for this operation.
 
 
 
-You can use this method in conjunction with <a href="https://msdn.microsoft.com/en-us/library/Dd757404(v=VS.85).aspx">GetMutualExclusionCount</a> to step through all of the mutual exclusion objects in the profile.
+You can use this method in conjunction with <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-getmutualexclusioncount">GetMutualExclusionCount</a> to step through all of the mutual exclusion objects in the profile.
 
 
 
@@ -140,27 +140,27 @@ You can use this method in conjunction with <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/00f28d6b-d27d-4268-960e-c8ea25e5359e">IWMProfile Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmprofile">IWMProfile Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757266(v=VS.85).aspx">IWMProfile2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile2">IWMProfile2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3">IWMProfile3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757398(v=VS.85).aspx">IWMProfile::AddMutualExclusion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-addmutualexclusion">IWMProfile::AddMutualExclusion</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757411(v=VS.85).aspx">IWMProfile::RemoveMutualExclusion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-removemutualexclusion">IWMProfile::RemoveMutualExclusion</a>
 
 
 
-<a href="https://msdn.microsoft.com/3a3f6763-a241-4bbd-a6e8-62041b05622d">Mutual Exclusion</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/mutual-exclusion">Mutual Exclusion</a>
  
 
  

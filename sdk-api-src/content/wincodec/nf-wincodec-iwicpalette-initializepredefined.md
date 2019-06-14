@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Initializes the palette to one of the pre-defined palettes specified by <a href="https://msdn.microsoft.com/a8192905-2bae-4760-bf2d-64640c46e168">WICBitmapPaletteType</a> and optionally adds a transparent color.
+Initializes the palette to one of the pre-defined palettes specified by <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicbitmappalettetype">WICBitmapPaletteType</a> and optionally adds a transparent color.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Initializes the palette to one of the pre-defined palettes specified by <a href=
 
 ### -param ePaletteType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/a8192905-2bae-4760-bf2d-64640c46e168">WICBitmapPaletteType</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicbitmappalettetype">WICBitmapPaletteType</a></b>
 
 The desired pre-defined palette type.
 
@@ -87,7 +87,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-If a transparent color is added to a palette, the palette is no longer predefined and is returned as <a href="https://msdn.microsoft.com/en-us/library/Ee719812(v=VS.85).aspx">WICBitmapPaletteTypeCustom</a>. For palettes with less than 256 entries, the transparent entry is added to the end of the palette (that is, a 16-color palette becomes a 17-color palette). For palettes with 256 colors, the transparent palette entry will replace the last entry in the pre-defined palette.
+If a transparent color is added to a palette, the palette is no longer predefined and is returned as <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicbitmappalettetype">WICBitmapPaletteTypeCustom</a>. For palettes with less than 256 entries, the transparent entry is added to the end of the palette (that is, a 16-color palette becomes a 17-color palette). For palettes with 256 colors, the transparent palette entry will replace the last entry in the pre-defined palette.
 
 
 

@@ -59,7 +59,7 @@ Makes the surface memory that is associated with the DDSCAPS_BACKBUFFER surface 
 
 ### -param arg1 [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f764ad29756">IDirectDrawSurface7</a> interface for an arbitrary surface in the flipping chain. The default for this parameter is NULL, in which case DirectDraw cycles through the buffers in the order that they are attached to each other. If this parameter is not NULL, DirectDraw flips to the specified surface, instead of the next surface in the flipping chain. <b>Flip</b> fails if the specified surface is not a member of the flipping chain. 
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a> interface for an arbitrary surface in the flipping chain. The default for this parameter is NULL, in which case DirectDraw cycles through the buffers in the order that they are attached to each other. If this parameter is not NULL, DirectDraw flips to the specified surface, instead of the next surface in the flipping chain. <b>Flip</b> fails if the specified surface is not a member of the flipping chain. 
 
 
 
@@ -71,7 +71,7 @@ A combination of flags that specify flip options. The following flags are define
 
 #### DDFLIP_DONOTWAIT
 
-On <a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f764ad29756">IDirectDrawSurface7</a> interfaces, the default is DDFLIP_WAIT. If you want to override the default and use time when the accelerator is busy (as denoted by the DDERR_WASSTILLDRAWING return value), use DDFLIP_DONOTWAIT.
+On <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a> interfaces, the default is DDFLIP_WAIT. If you want to override the default and use time when the accelerator is busy (as denoted by the DDERR_WASSTILLDRAWING return value), use DDFLIP_DONOTWAIT.
 
 
 
@@ -99,7 +99,7 @@ DirectDraw flips and displays a main stereo surface. When this flag is set, ster
 
 The DDFLIP_INTERVAL2, DDFLIP_INTERVAL3, and DDFLIP_INTERVAL4 flags indicate how many vertical retraces to wait between each flip. The default is 1. DirectDraw returns DERR_WASSTILLDRAWING for each surface involved in the flip until the specified number of vertical retraces has occurred. If DDFLIP_INTERVAL2 is set, DirectDraw flips on every second vertical sync; if DDFLIP_INTERVAL3, on every third sync; and if DDFLIP_INTERVAL4, on every fourth sync.
 
-These flags are effective only if DDCAPS2_FLIPINTERVAL bit is set in the  <b>dwCaps2</b> member of the <a href="https://msdn.microsoft.com/4ddda0a7-c0db-47cf-a908-959aabb530c6">DDCAPS</a> structure that is returned for the display hardware.
+These flags are effective only if DDCAPS2_FLIPINTERVAL bit is set in the  <b>dwCaps2</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-_ddcaps_dx3">DDCAPS</a> structure that is returned for the display hardware.
 
 
 
@@ -107,7 +107,7 @@ These flags are effective only if DDCAPS2_FLIPINTERVAL bit is set in the  <b>dwC
 
 Causes DirectDraw to perform the physical flip as close as possible to the next scan line. Subsequent operations that involve the two flipped surfaces do not check whether the physical flip has finished—that is, they do not return DDERR_WASSTILLDRAWING for that reason (but might for other reasons). This allows an application to perform flips at a higher frequency than the monitor refresh rate, but might introduce visible artifacts.
 
-If DDCAPS2_FLIPNOVSYNC is not set in the <b>dwCaps2</b> member of the <a href="https://msdn.microsoft.com/4ddda0a7-c0db-47cf-a908-959aabb530c6">DDCAPS</a> structure that is returned for the display hardware, DDFLIP_NOVSYNC has no effect.
+If DDCAPS2_FLIPNOVSYNC is not set in the <b>dwCaps2</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-_ddcaps_dx3">DDCAPS</a> structure that is returned for the display hardware, DDFLIP_NOVSYNC has no effect.
 
 
 
@@ -150,7 +150,7 @@ If it fails, the method can return one of the following error values:
 
 
 
-With <a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f764ad29756">IDirectDrawSurface7</a>, the default behavior of <b>Flip</b> is to wait for the accelerator to finish. Therefore, under default conditions, <b>Flip</b> never returns DDERR_WASSTILLDRAWING. If you want to see the error codes and not wait until the flip operation succeeds, use the DDFLIP_DONOTWAIT flag.
+With <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>, the default behavior of <b>Flip</b> is to wait for the accelerator to finish. Therefore, under default conditions, <b>Flip</b> never returns DDERR_WASSTILLDRAWING. If you want to see the error codes and not wait until the flip operation succeeds, use the DDFLIP_DONOTWAIT flag.
 
 
 
@@ -164,7 +164,7 @@ The <i>lpDDSurfaceTargetOverride</i> parameter is used in rare cases in which th
 
 
 
-You must use <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> to access the <b>Flip</b> method.
+You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>Flip</b> method.
 
 
 
@@ -174,7 +174,7 @@ You must use <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d
 
 
 
-<a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f764ad29756">IDirectDrawSurface7</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
  
 
  

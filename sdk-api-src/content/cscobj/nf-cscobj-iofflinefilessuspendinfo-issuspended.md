@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 Determines whether an item is suspended.
 
-If an item is suspended and is a suspended root, it was suspended by using the <a href="https://msdn.microsoft.com/5307bc8c-e6e9-4ae7-b2da-036fc9c5c08d">IOfflineFilesSuspend::SuspendRoot</a> method.  If an item is suspended but is not a suspended root, its suspension was inherited from a suspended root.
+If an item is suspended and is a suspended root, it was suspended by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessuspend-suspendroot">IOfflineFilesSuspend::SuspendRoot</a> method.  If an item is suspended but is not a suspended root, its suspension was inherited from a suspended root.
 
 
 ## -parameters
@@ -84,7 +84,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/b9f9e30e-df37-467e-ac59-7955e0eae3c0">IOfflineFilesSuspendInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessuspendinfo">IOfflineFilesSuspendInfo</a>
  
 
  

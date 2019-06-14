@@ -63,7 +63,7 @@ Provides an adapter which can be provided to D3D12CreateDevice to use the WARP r
 
 Type: <b>REFIID</b>
 
-The globally unique identifier (GUID) of the <a href="https://msdn.microsoft.com/en-us/library/Bb174523(v=VS.85).aspx">IDXGIAdapter</a> object referenced by the <i>ppvAdapter</i> parameter.
+The globally unique identifier (GUID) of the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter">IDXGIAdapter</a> object referenced by the <i>ppvAdapter</i> parameter.
           
 
 
@@ -71,7 +71,7 @@ The globally unique identifier (GUID) of the <a href="https://msdn.microsoft.com
 
 Type: <b>void**</b>
 
-The address of an <a href="https://msdn.microsoft.com/en-us/library/Bb174523(v=VS.85).aspx">IDXGIAdapter</a> interface pointer to the adapter.
+The address of an <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter">IDXGIAdapter</a> interface pointer to the adapter.
             This parameter must not be NULL.
           
 
@@ -80,10 +80,10 @@ The address of an <a href="https://msdn.microsoft.com/en-us/library/Bb174523(v=V
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 Returns S_OK if successful; an error code otherwise.
-            For a list of error codes, see <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
+            For a list of error codes, see <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a>.
             See also Direct3D 12 Return Codes.
           
 
@@ -94,7 +94,7 @@ Returns S_OK if successful; an error code otherwise.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/DEA901EA-B0F9-41D9-802C-ED1D6A7888E0">DXGI 1.4 Improvements</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-1-4-improvements">DXGI 1.4 Improvements</a>.
         
 
 
@@ -105,11 +105,11 @@ For more information, see <a href="https://msdn.microsoft.com/DEA901EA-B0F9-41D9
 
 
 
-<a href="https://msdn.microsoft.com/b561b26b-961c-4d5e-8483-56b51b989bf7">DXGI Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/248CF7CF-BC7D-430F-9EA1-638A42AAC021">IDXGIFactory4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nn-dxgi1_4-idxgifactory4">IDXGIFactory4</a>
  
 
  

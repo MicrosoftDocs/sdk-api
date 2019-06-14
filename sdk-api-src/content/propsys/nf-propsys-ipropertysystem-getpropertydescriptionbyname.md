@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an instance of the subsystem object that implements <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>, to obtain the property description for a given canonical name.
+Gets an instance of the subsystem object that implements <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>, to obtain the property description for a given canonical name.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ A reference to the desired IID.
 
 Type: <b>void**</b>
 
-The address of an <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a> interface pointer.
+The address of an <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a> interface pointer.
 
 
 ## -returns
@@ -144,7 +144,7 @@ It is recommended that you use the IID_PPV_ARGS macro, defined in objbase.h, to 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761437(v=VS.85).aspx">IPropertySystem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertysystem">IPropertySystem</a>
  
 
  

@@ -75,12 +75,12 @@ Each hardware component receives an individual subscore. Your computer's base sc
 You can use the base score to confidently buy programs and other software that are matched to your computer's base score. For example, if your computer has a base score of 3.3, then you can confidently purchase any software designed for this version of Windows that requires a computer with a base score of 3 or lower.
 
 
-To get the score for a subcomponent of the assessment, such as the CPU, call the <a href="https://msdn.microsoft.com/a1fbeb60-10dd-4082-8d2e-76c4baf35152">IProvideWinSATAssessmentInfo::get_Score</a> method.
+To get the score for a subcomponent of the assessment, such as the CPU, call the <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatassessmentinfo-get_score">IProvideWinSATAssessmentInfo::get_Score</a> method.
 
 
 #### Examples
 
-For an example, see the <a href="https://msdn.microsoft.com/11697416-aa4d-4724-bd63-8d123e2b32cb">IQueryRecentWinSATAssessment::Info</a> property.
+For an example, see the <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iqueryrecentwinsatassessment-get_info">IQueryRecentWinSATAssessment::Info</a> property.
 
 <div class="code"></div>
 
@@ -91,11 +91,11 @@ For an example, see the <a href="https://msdn.microsoft.com/11697416-aa4d-4724-b
 
 
 
-<a href="https://msdn.microsoft.com/bd15bc63-a918-43a7-9864-4206a0b6af84">IProvideWinSATResultsInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iprovidewinsatresultsinfo">IProvideWinSATResultsInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/adf4de42-9dfd-46a7-ae75-3bbcfd15dd68">Win32_WinSAT</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSAT/win32-winsat">Win32_WinSAT</a>
  
 
  

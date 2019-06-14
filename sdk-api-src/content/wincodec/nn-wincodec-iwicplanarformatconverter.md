@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Allows a format converter to be initialized with a planar source. You can use QueryInterface to obtain this interface from the Windows provided implementation of <a href="https://msdn.microsoft.com/d558aaa7-5962-424c-9e83-363fba09ad50">IWICFormatConverter</a>.
+Allows a format converter to be initialized with a planar source. You can use QueryInterface to obtain this interface from the Windows provided implementation of <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicformatconverter">IWICFormatConverter</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICPlanarFormatConverter</b> interface inherits from <a href="https://msdn.microsoft.com/abcc84af-6067-4856-8618-fb66aff4255a">IWICBitmapSource</a>. <b>IWICPlanarFormatConverter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICPlanarFormatConverter</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>. <b>IWICPlanarFormatConverter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWICPlanarFormatConverter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/24E68425-3758-4E8E-B3F4-46EE8488E3E1">CanConvert</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicplanarformatconverter-canconvert">CanConvert</a>
 </td>
 <td align="left" width="63%">
 Query if the format converter can convert from one format to another.
@@ -78,7 +78,7 @@ Query if the format converter can convert from one format to another.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0EEF6940-627A-4615-90C0-196AAB36843E">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicplanarformatconverter-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes a format converter with a planar source, and specifies the interleaved output pixel format.
@@ -93,7 +93,7 @@ Initializes a format converter with a planar source, and specifies the interleav
 
 
 
-<a href="https://msdn.microsoft.com/abcc84af-6067-4856-8618-fb66aff4255a">IWICBitmapSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>
  
 
  

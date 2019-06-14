@@ -89,5 +89,5 @@ The length of the buffer pointed to by the <i>CAPEs</i> field.
 
 ### -field CAPEs
 
-Pointer to a buffer of <a href="https://msdn.microsoft.com/8667848D-096C-422E-B4A6-38CC406F0F4A">CENTRAL_ACCESS_POLICY_ENTRY</a> pointers.
+Pointer to a buffer of <a href="https://docs.microsoft.com/windows/desktop/api/ntlsa/ns-ntlsa-_central_access_policy_entry">CENTRAL_ACCESS_POLICY_ENTRY</a> pointers.
 

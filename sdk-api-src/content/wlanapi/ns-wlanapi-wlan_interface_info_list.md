@@ -88,7 +88,7 @@ This member is not used by the wireless service. Applications can use this membe
 
 ### -field InterfaceInfo
 
-An array of <a href="https://msdn.microsoft.com/906e7d59-ebd0-47e7-985e-f5d313f19ecb">WLAN_INTERFACE_INFO</a> structures containing interface information.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_interface_info">WLAN_INTERFACE_INFO</a> structures containing interface information.
 
 
 ## -see-also
@@ -96,7 +96,7 @@ An array of <a href="https://msdn.microsoft.com/906e7d59-ebd0-47e7-985e-f5d313f1
 
 
 
-<a href="https://msdn.microsoft.com/7f817edf-1b1d-495c-afd9-d97e3ae0caab">WlanEnumInterfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanenuminterfaces">WlanEnumInterfaces</a>
  
 
  

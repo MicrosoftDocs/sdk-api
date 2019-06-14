@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-A replacement for <a href="https://msdn.microsoft.com/3eeecd34-aa94-4a48-8b41-167a71b52860">CoWaitForMultipleHandles</a>. This replacement API hides the options for <b>CoWaitForMultipleHandles</b> that are not supported in ASTA.
+A replacement for <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cowaitformultiplehandles">CoWaitForMultipleHandles</a>. This replacement API hides the options for <b>CoWaitForMultipleHandles</b> that are not supported in ASTA.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ A replacement for <a href="https://msdn.microsoft.com/3eeecd34-aa94-4a48-8b41-16
 ### -param dwFlags [in]
 
 
-<a href="https://msdn.microsoft.com/5FE605A9-DE92-4CD9-9390-6C9F5189A7CB">CWMO_FLAGS</a> flag controlling whether call/window message reentrancy is enabled from this wait. By default, neither COM calls nor window messages are dispatched from <b>CoWaitForMultipleObjects</b> in ASTA.
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/ne-combaseapi-cwmo_flags">CWMO_FLAGS</a> flag controlling whether call/window message reentrancy is enabled from this wait. By default, neither COM calls nor window messages are dispatched from <b>CoWaitForMultipleObjects</b> in ASTA.
 
 
 ### -param dwTimeout [in]
@@ -90,7 +90,7 @@ Receives the index of the handle that satisfied the wait.
 
 
 
-Same return values as <a href="https://msdn.microsoft.com/3eeecd34-aa94-4a48-8b41-167a71b52860">CoWaitForMultipleHandles</a>, except the ASTA-specific CO_E_NOTSUPPORTED cases instead return E_INVALIDARG from all apartment types.
+Same return values as <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cowaitformultiplehandles">CoWaitForMultipleHandles</a>, except the ASTA-specific CO_E_NOTSUPPORTED cases instead return E_INVALIDARG from all apartment types.
 
 
 

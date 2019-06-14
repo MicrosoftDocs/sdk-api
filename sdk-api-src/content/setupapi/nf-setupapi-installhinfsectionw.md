@@ -60,7 +60,7 @@ The prototype for the
 <b>InstallHinfSection</b> function follows the form of all entry-point functions used with Rundll32.exe.
 
 If a file is copied or modified, the caller of this function is required have privileges to write into the target directory. If there are any services being installed, the caller of this function is required have access to the 
-<a href="https://msdn.microsoft.com/56ad011d-17c4-4410-b598-6ef47fb3638f">Service Control Manager</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Services/service-control-manager">Service Control Manager</a>.
 
 
 ## -parameters

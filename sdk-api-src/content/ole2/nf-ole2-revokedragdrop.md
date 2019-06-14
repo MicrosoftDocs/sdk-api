@@ -123,7 +123,7 @@ There is insufficient memory for the operation.
 
 When your application window is no longer available as a potential target for an OLE drag-and-drop operation, you must call <b>RevokeDragDrop</b>.
 
-This function calls the <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a> method for your drop target interface.
+This function calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method for your drop target interface.
 
 
 
@@ -133,7 +133,7 @@ This function calls the <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-a
 
 
 
-<a href="https://msdn.microsoft.com/00726271-4436-41f5-b7cc-666cd77216bc">RegisterDragDrop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-registerdragdrop">RegisterDragDrop</a>
  
 
  

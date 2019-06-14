@@ -80,15 +80,15 @@ Blue drive.
 
 
 
-<a href="https://msdn.microsoft.com/4c590d1c-be28-401a-a0e9-dacf6b86a569">GetMonitorRedGreenOrBlueDrive</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-getmonitorredgreenorbluedrive">GetMonitorRedGreenOrBlueDrive</a>
 
 
 
-<a href="https://msdn.microsoft.com/d6ab74af-0ac4-4dfe-bbf8-21b8339d2826">Monitor Configuration Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/Monitor/monitor-configuration-enumeration-types">Monitor Configuration Enumeration Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/9d000d86-02f8-442f-954c-c039c9dcc0cd">SetMonitorRedGreenOrBlueDrive</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-setmonitorredgreenorbluedrive">SetMonitorRedGreenOrBlueDrive</a>
  
 
  

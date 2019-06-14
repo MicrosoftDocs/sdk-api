@@ -86,7 +86,7 @@ Returns a void pointer to the shared memory. Returns <b>NULL</b> if unsuccessful
 
 
 
-Call <a href="https://msdn.microsoft.com/8ecbf62b-fd0d-4a8d-bd55-42c0c3f64390">SHUnlockShared</a> to unlock the memory that this function maps. Call <a href="https://msdn.microsoft.com/5a86ae5d-8caa-4126-a22e-bc3cc7df2381">SHFreeShared</a> to release the memory.
+Call <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shunlockshared">SHUnlockShared</a> to unlock the memory that this function maps. Call <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shfreeshared">SHFreeShared</a> to release the memory.
 
 
 

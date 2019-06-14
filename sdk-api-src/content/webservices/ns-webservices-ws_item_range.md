@@ -50,10 +50,10 @@ ms.custom: 19H1
 
 
 Defines the minimum and maximum number of items that may appear
-                when using <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>, 
+                when using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>, 
                 <b>WS_REPEATING_ELEMENT_CHOICE_FIELD_MAPPING</b>,
                 or <b>WS_REPEATING_ANY_ELEMENT_FIELD_MAPPING</b> within
-                a <a href="https://msdn.microsoft.com/8b562fab-f3c5-4732-b993-f7f61ca14ab6">WS_FIELD_DESCRIPTION</a>.  The constraint is only
+                a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_field_description">WS_FIELD_DESCRIPTION</a>.  The constraint is only
                 enforced during deserialization.
             
 

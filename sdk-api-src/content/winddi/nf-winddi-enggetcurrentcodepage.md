@@ -93,7 +93,7 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/b28e5854-1ac0-4b76-87a9-ec943228e2ed">STROBJ_dwGetCodePage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-strobj_dwgetcodepage">STROBJ_dwGetCodePage</a>
  
 
  

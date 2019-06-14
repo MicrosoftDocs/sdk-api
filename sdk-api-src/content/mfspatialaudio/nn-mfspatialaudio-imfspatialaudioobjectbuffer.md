@@ -51,13 +51,13 @@ ms.custom: 19H1
 
 
 Represents a section of audio data with
-associated positional and rendering metadata.  Spatial audio objects are stored in <a href="https://msdn.microsoft.com/EA0277BF-C9C8-42FE-9206-A87FC3C50A9F">IMFSpatialAudioSample</a> instances, and allow passing of 
+associated positional and rendering metadata.  Spatial audio objects are stored in <a href="https://docs.microsoft.com/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudiosample">IMFSpatialAudioSample</a> instances, and allow passing of 
 spatial audio information between Media Foundation components.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSpatialAudioObjectBuffer</b> interface inherits from <a href="https://msdn.microsoft.com/3ccc7089-d0d0-4eb1-b763-0d4e348af685">IMFMediaBuffer</a>. <b>IMFSpatialAudioObjectBuffer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSpatialAudioObjectBuffer</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a>. <b>IMFSpatialAudioObjectBuffer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,11 +72,11 @@ The <b>IMFSpatialAudioObjectBuffer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5BB0DEB2-B3B9-4723-973D-A9296D94DDE6">GetID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfspatialaudio/nf-mfspatialaudio-imfspatialaudioobjectbuffer-getid">GetID</a>
 </td>
 <td align="left" width="63%">
 Returns the unique, unsigned 32-bit ID of the spatial audio object represented by the buffer.
-    If <a href="https://msdn.microsoft.com/01979492-2CA1-4DAA-8B03-720B521C2D9A">SetID</a> method was not previously called, this method returns the invalid object ID, -1 
+    If <a href="https://docs.microsoft.com/windows/desktop/api/mfspatialaudio/nf-mfspatialaudio-imfspatialaudioobjectbuffer-setid">SetID</a> method was not previously called, this method returns the invalid object ID, -1 
     (0xffffffff).  The invalid ID indicates that the object buffer is unused and
     contains invalid data.
 
@@ -84,7 +84,7 @@ Returns the unique, unsigned 32-bit ID of the spatial audio object represented b
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/19BF7AC6-B21F-47D1-8573-48C5E4869574">GetMetadataItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfspatialaudio/nf-mfspatialaudio-imfspatialaudioobjectbuffer-getmetadataitems">GetMetadataItems</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to a buffer that may 
@@ -94,16 +94,16 @@ Retrieves a pointer to a buffer that may
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/CF0285D2-E56B-44A5-B7E0-3227213D9523">GetType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfspatialaudio/nf-mfspatialaudio-imfspatialaudioobjectbuffer-gettype">GetType</a>
 </td>
 <td align="left" width="63%">
-Gets the type of the spatial audio object represented by the buffer. If <a href="https://msdn.microsoft.com/3D21D093-FDCE-4ECA-B8B2-56D6E5D5D9C6">SetType</a> has not been called previously, this method returns the default value of <b>AudioObjectType_None</b>.
+Gets the type of the spatial audio object represented by the buffer. If <a href="https://docs.microsoft.com/windows/desktop/api/mfspatialaudio/nf-mfspatialaudio-imfspatialaudioobjectbuffer-settype">SetType</a> has not been called previously, this method returns the default value of <b>AudioObjectType_None</b>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/01979492-2CA1-4DAA-8B03-720B521C2D9A">SetID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfspatialaudio/nf-mfspatialaudio-imfspatialaudioobjectbuffer-setid">SetID</a>
 </td>
 <td align="left" width="63%">
 Sets the ID of the spatial audio object represented by the buffer.
@@ -112,7 +112,7 @@ Sets the ID of the spatial audio object represented by the buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3D21D093-FDCE-4ECA-B8B2-56D6E5D5D9C6">SetType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfspatialaudio/nf-mfspatialaudio-imfspatialaudioobjectbuffer-settype">SetType</a>
 </td>
 <td align="left" width="63%">
 Sets the type of the spatial audio object represented by the buffer.
@@ -126,7 +126,7 @@ Sets the type of the spatial audio object represented by the buffer.
 
 
 
-To get the audio data contained in the spatial audio object, use the    <a href="https://msdn.microsoft.com/28ac372a-6e73-4e66-bf69-bcc244821b71">IMFMediaBuffer::Lock</a> and <a href="https://msdn.microsoft.com/3ca53321-5533-45f0-b415-6a16f780ec54">IMFMediaBuffer::Unlock</a> methods.
+To get the audio data contained in the spatial audio object, use the    <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-lock">IMFMediaBuffer::Lock</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-unlock">IMFMediaBuffer::Unlock</a> methods.
 
 
 
@@ -136,7 +136,7 @@ To get the audio data contained in the spatial audio object, use the    <a href=
 
 
 
-<a href="https://msdn.microsoft.com/3ccc7089-d0d0-4eb1-b763-0d4e348af685">IMFMediaBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a>
  
 
  

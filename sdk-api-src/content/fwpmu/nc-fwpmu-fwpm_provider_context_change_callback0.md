@@ -61,12 +61,12 @@ The <b>FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0</b> function is used to add custom
 
 Type: <b>void*</b>
 
-Optional context pointer. It contains the value of the <i>context</i> parameter passed to the <a href="https://msdn.microsoft.com/cd8c9ec5-c93c-45e5-8a91-88bd89e465d7">FwpmProviderContextSubscribeChanges0</a> function.
+Optional context pointer. It contains the value of the <i>context</i> parameter passed to the <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercontextsubscribechanges0">FwpmProviderContextSubscribeChanges0</a> function.
 
 
 ### -param *change [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/78786d91-1e2f-4846-9636-8d5d6acf5a7d">FWPM_PROVIDER_CONTEXT_CHANGE0</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context_change0_">FWPM_PROVIDER_CONTEXT_CHANGE0</a>*</b>
 
 The change notification information.
 
@@ -84,9 +84,9 @@ This callback function does not return a value.
 
 
 
-Call <a href="https://msdn.microsoft.com/cd8c9ec5-c93c-45e5-8a91-88bd89e465d7">FwpmProviderContextSubscribeChanges0</a> to register this callback function.
+Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercontextsubscribechanges0">FwpmProviderContextSubscribeChanges0</a> to register this callback function.
 
-<b>FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0</b> is a specific implementation of FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0</b> is a specific implementation of FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -96,11 +96,11 @@ Call <a href="https://msdn.microsoft.com/cd8c9ec5-c93c-45e5-8a91-88bd89e465d7">F
 
 
 
-<a href="https://msdn.microsoft.com/78786d91-1e2f-4846-9636-8d5d6acf5a7d">FWPM_PROVIDER_CONTEXT_CHANGE0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context_change0_">FWPM_PROVIDER_CONTEXT_CHANGE0</a>
 
 
 
-<a href="https://msdn.microsoft.com/cd8c9ec5-c93c-45e5-8a91-88bd89e465d7">FwpmProviderContextSubscribeChanges0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercontextsubscribechanges0">FwpmProviderContextSubscribeChanges0</a>
  
 
  

@@ -49,7 +49,7 @@ A pointer to an [MDNS_QUERY_REQUEST](ns-windns-mdns_query_request.md) structure 
 A pointer to an [MDNS_QUERY_HANDLE](ns-windns-mdns_query_handle.md) structure that will be populated with the necessary data. This structure is to be passed later to [DnsStopMulticastQuery](nf-windns-dnsstopmulticastquery.md) to stop the query.
 
 ## -returns
-If successful, returns **ERROR_SUCCESS**; otherwise, returns the appropriate DNS-specific error code as defined in `Winerror.h`. For extended error information, call [GetLastError](https://msdn.microsoft.com/library/ms679360).
+If successful, returns **ERROR_SUCCESS**; otherwise, returns the appropriate DNS-specific error code as defined in `Winerror.h`. For extended error information, call [GetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## -remarks
 This function is asynchronous. The query runs indefinitely, until [DnsStopMulticastQuery](nf-windns-dnsstopmulticastquery.md) is called. For each response from the network, the query callback will be invoked with the appropriate status and results.

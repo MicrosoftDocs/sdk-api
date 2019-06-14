@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>HttpAddUrlToUrlGroup</b> function adds the specified URL to  the URL Group identified by the URL Group ID.
 
- This function replaces the HTTP version 1.0 <a href="https://msdn.microsoft.com/76b228a0-6792-4184-bf0e-8638f3ab6b98">HttpAddUrl</a> function.
+ This function replaces the HTTP version 1.0 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpaddurl">HttpAddUrl</a> function.
 
 
 ## -parameters
@@ -61,17 +61,17 @@ The <b>HttpAddUrlToUrlGroup</b> function adds the specified URL to  the URL Grou
 
 ### -param UrlGroupId [in]
 
-The group ID for the URL group to which requests for the specified URL are routed. The URL group is created by the <a href="https://msdn.microsoft.com/6f2b14bb-ecb9-4a63-9bef-e2ceaf09f97a">HttpCreateUrlGroup</a> function.
+The group ID for the URL group to which requests for the specified URL are routed. The URL group is created by the <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreateurlgroup">HttpCreateUrlGroup</a> function.
 
 
 ### -param pFullyQualifiedUrl [in]
 
-A pointer to a Unicode string that contains a properly formed <a href="https://msdn.microsoft.com/4f317bf6-ee6a-47a8-a531-78534217109d">UrlPrefix String</a> that identifies the URL to be registered.
+A pointer to a Unicode string that contains a properly formed <a href="https://docs.microsoft.com/windows/desktop/Http/urlprefix-strings">UrlPrefix String</a> that identifies the URL to be registered.
 
 
 ### -param UrlContext [in, optional]
 
-The context that is associated with the URL registered in this call. The URL context is returned in the <a href="https://msdn.microsoft.com/e592cf54-df6d-472b-a736-c44a5ccdd3d2">HTTP_REQUEST</a> structure with every request received on the URL specified in the <i>pFullyQualifiedUrl</i> parameter.
+The context that is associated with the URL registered in this call. The URL context is returned in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a> structure with every request received on the URL specified in the <i>pFullyQualifiedUrl</i> parameter.
 
 
 ### -param Reserved [in]
@@ -139,9 +139,9 @@ The specified URL conflicts with an existing registration.
 
 
 
-The HTTP Server API supports existing applications using version 1.0 URL registrations, however, new development with the HTTP Server API should use <b>HttpAddUrlToUrlGroup</b>; <a href="https://msdn.microsoft.com/76b228a0-6792-4184-bf0e-8638f3ab6b98">HttpAddUrl</a> should not be used.
+The HTTP Server API supports existing applications using version 1.0 URL registrations, however, new development with the HTTP Server API should use <b>HttpAddUrlToUrlGroup</b>; <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpaddurl">HttpAddUrl</a> should not be used.
 
-An application can add multiple URLs to a URL group using repeated calls to <b>HttpAddUrlToUrlGroup</b>. Requests that match the specified  URL are routed to the request queue associated with the URL group. For more information about how the HTTP Server API matches request URLs to registered URLs, see <a href="https://msdn.microsoft.com/4f317bf6-ee6a-47a8-a531-78534217109d">UrlPrefix Strings</a>.
+An application can add multiple URLs to a URL group using repeated calls to <b>HttpAddUrlToUrlGroup</b>. Requests that match the specified  URL are routed to the request queue associated with the URL group. For more information about how the HTTP Server API matches request URLs to registered URLs, see <a href="https://docs.microsoft.com/windows/desktop/Http/urlprefix-strings">UrlPrefix Strings</a>.
 
 
 
@@ -151,35 +151,35 @@ An application can add multiple URLs to a URL group using repeated calls to <b>H
 
 
 
-<a href="https://msdn.microsoft.com/12daffca-b403-4f06-8037-206f90e33252">HTTP Server API Version 2.0 Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/76b228a0-6792-4184-bf0e-8638f3ab6b98">HttpAddUrl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpaddurl">HttpAddUrl</a>
 
 
 
-<a href="https://msdn.microsoft.com/8b8e4ec9-3d85-4d64-98dc-86e5fd093e93">HttpCloseUrlGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcloseurlgroup">HttpCloseUrlGroup</a>
 
 
 
-<a href="https://msdn.microsoft.com/6f2b14bb-ecb9-4a63-9bef-e2ceaf09f97a">HttpCreateUrlGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreateurlgroup">HttpCreateUrlGroup</a>
 
 
 
-<a href="https://msdn.microsoft.com/f3e8fde0-5a78-46aa-8c6c-cea957d12356">HttpQueryUrlGroupProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryurlgroupproperty">HttpQueryUrlGroupProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/9c5c1fec-f3b4-414f-a841-e360f5f4e4db">HttpRemoveUrlFromUrlGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpremoveurlfromurlgroup">HttpRemoveUrlFromUrlGroup</a>
 
 
 
-<a href="https://msdn.microsoft.com/e0826a25-1c50-4757-9355-69eb4946e8dd">HttpSetUrlGroupProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpseturlgroupproperty">HttpSetUrlGroupProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/4f317bf6-ee6a-47a8-a531-78534217109d">UrlPrefix Strings</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/urlprefix-strings">UrlPrefix Strings</a>
  
 
  

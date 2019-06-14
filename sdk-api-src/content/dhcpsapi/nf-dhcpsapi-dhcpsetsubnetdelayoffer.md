@@ -76,7 +76,7 @@ Unsigned 16-bit integer value that specifies the time to delay an OFFER message 
 
 
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://msdn.microsoft.com/6370313f-d7db-4ff1-b0e0-7fa47474facb">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -138,7 +138,7 @@ One of the parameters provides an invalid value.
 
 
 
-<a href="https://msdn.microsoft.com/fce1b0e8-d41c-45f7-99df-4233e76b2597">DhcpGetSubnetDelayOffer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpgetsubnetdelayoffer">DhcpGetSubnetDelayOffer</a>
  
 
  

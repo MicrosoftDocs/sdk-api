@@ -49,7 +49,7 @@ req.redist:
 
 
 Contains information that the 
-<a href="https://msdn.microsoft.com/67c440e1-cef8-459d-b811-0b483ff51e7e">IOCTL_CHANGER_QUERY_VOLUME_TAGS</a> control code uses to determine the volume information to be retrieved.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_query_volume_tags">IOCTL_CHANGER_QUERY_VOLUME_TAGS</a> control code uses to determine the volume information to be retrieved.
 
 
 ## -struct-fields
@@ -60,7 +60,7 @@ Contains information that the
 ### -field StartingElement
 
 A 
-<a href="https://msdn.microsoft.com/96e9803b-16c4-415c-940a-f5df3edff3b3">CHANGER_ELEMENT</a> structure that represents the starting element for which information is to be retrieved.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_changer_element">CHANGER_ELEMENT</a> structure that represents the starting element for which information is to be retrieved.
 
 
 ### -field ActionCode
@@ -278,11 +278,11 @@ The template that the device uses to search for volume IDs. For search operation
 
 
 
-<a href="https://msdn.microsoft.com/96e9803b-16c4-415c-940a-f5df3edff3b3">CHANGER_ELEMENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_changer_element">CHANGER_ELEMENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/67c440e1-cef8-459d-b811-0b483ff51e7e">IOCTL_CHANGER_QUERY_VOLUME_TAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_query_volume_tags">IOCTL_CHANGER_QUERY_VOLUME_TAGS</a>
  
 
  

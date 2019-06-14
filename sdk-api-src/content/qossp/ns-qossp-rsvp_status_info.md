@@ -85,9 +85,9 @@ Additional mechanism for storing or returning provider-specific status informati
 
 
 When applications register their interest in FD_QOS events (see 
-<a href="https://msdn.microsoft.com/68c6eff4-d4c0-4b78-858f-e8f8fd4d40b9">QOS Events</a>), event and error information is associated with the event in the form of the 
-<a href="https://msdn.microsoft.com/859faa13-bd66-46ee-8452-6ff5d53d66c9">QOS</a> structure that is associated with the event. For more detailed information associated with that event, applications can investigate the <b>RSVP_STATUS_INFO</b> object that is provided in 
-<a href="https://msdn.microsoft.com/16c99de7-be29-4e58-b648-b6719385dc1c">the ProviderSpecific buffer</a> of the event-associated 
+<a href="https://docs.microsoft.com/previous-versions/aa374065(v=vs.80)">QOS Events</a>), event and error information is associated with the event in the form of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_qualityofservice">QOS</a> structure that is associated with the event. For more detailed information associated with that event, applications can investigate the <b>RSVP_STATUS_INFO</b> object that is provided in 
+<a href="https://docs.microsoft.com/previous-versions/aa374467(v=vs.80)">the ProviderSpecific buffer</a> of the event-associated 
 <b>QOS</b> structure.
 
 
@@ -98,15 +98,15 @@ When applications register their interest in FD_QOS events (see
 
 
 
-<a href="https://msdn.microsoft.com/16c99de7-be29-4e58-b648-b6719385dc1c">ProviderSpecific Buffer</a>
+<a href="https://docs.microsoft.com/previous-versions/aa374467(v=vs.80)">ProviderSpecific Buffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/859faa13-bd66-46ee-8452-6ff5d53d66c9">QOS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_qualityofservice">QOS</a>
 
 
 
-<a href="https://msdn.microsoft.com/a2021d70-e7ef-4c2a-8800-1a1d7540ce02">QOS_OBJECT_HDR</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>
  
 
  

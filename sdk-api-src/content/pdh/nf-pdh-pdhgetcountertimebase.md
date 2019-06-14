@@ -61,7 +61,7 @@ Returns the time base of the specified counter.
 ### -param hCounter [in]
 
 Handle to the counter. The 
-<a href="https://msdn.microsoft.com/b8b9a332-ce28-46d4-92e2-91f9f6c24da5">PdhAddCounter</a> function returns this handle.
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhaddcountera">PdhAddCounter</a> function returns this handle.
 
 
 ### -param pTimeBase [out]
@@ -77,8 +77,8 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> or a 
-<a href="https://msdn.microsoft.com/ea67d798-81db-44ad-b0fb-24e0c3be7388">PDH error code</a>. The following are possible values.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
 
 <table>
 <tr>
@@ -119,7 +119,7 @@ The counter handle is not valid.
 
 If you use 
 			the 
-<a href="https://msdn.microsoft.com/13027af4-2e76-4c2f-88e8-a2554a16fae3">PdhFormatFromRawValue</a> function to calculate a displayable value instead of calling the <a href="https://msdn.microsoft.com/fd50b1fd-29b7-49a8-bbcc-4d7f0cbd7079">PdhCalculateCounterFromRawValue</a> function, you must call the 
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhformatfromrawvalue">PdhFormatFromRawValue</a> function to calculate a displayable value instead of calling the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhcalculatecounterfromrawvalue">PdhCalculateCounterFromRawValue</a> function, you must call the 
 <b>PdhGetCounterTimeBase</b> function to retrieve the time base.
 		
 
@@ -133,7 +133,7 @@ Each counter that returns time-based performance data has a time base defined fo
 
 
 
-<a href="https://msdn.microsoft.com/13027af4-2e76-4c2f-88e8-a2554a16fae3">PdhFormatFromRawValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhformatfromrawvalue">PdhFormatFromRawValue</a>
  
 
  

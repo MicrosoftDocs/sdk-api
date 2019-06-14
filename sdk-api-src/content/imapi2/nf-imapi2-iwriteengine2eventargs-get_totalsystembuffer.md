@@ -97,15 +97,15 @@ Value: 0x80004003
 
 
 
-<a href="https://msdn.microsoft.com/1922410a-5871-477f-b778-36b12ad95168">IWriteEngine2EventArgs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2eventargs">IWriteEngine2EventArgs</a>
 
 
 
-<a href="https://msdn.microsoft.com/d62eeb31-cf47-4456-832c-9a29c045b11c">IWriteEngine2EventArgs::get_FreeSystemBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2eventargs-get_freesystembuffer">IWriteEngine2EventArgs::get_FreeSystemBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/905c476f-33cd-4eda-a342-c7a20479d63c">IWriteEngine2EventArgs::get_UsedSystemBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2eventargs-get_usedsystembuffer">IWriteEngine2EventArgs::get_UsedSystemBuffer</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Stores position information for an item. Used with message <a href="https://msdn.microsoft.com/b89f2d62-095b-4cad-a47e-2d41e122cb3e">SFVM_SETITEMPOS</a>.
+Stores position information for an item. Used with message <a href="https://docs.microsoft.com/windows/desktop/shell/sfvm-setitempos">SFVM_SETITEMPOS</a>.
 
 
 ## -struct-fields
@@ -61,12 +61,12 @@ Stores position information for an item. Used with message <a href="https://msdn
 
 Type: <b>PCUITEMID_CHILD</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> for the item.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> for the item.
 
 
 ### -field pt
 
-Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
 
-A <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure indicating the position of the item.
+A <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure indicating the position of the item.
 

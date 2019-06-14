@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-A client application passes the  <b>NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG</b> structure to the <a href="https://msdn.microsoft.com/be5ce51b-6568-49c8-954d-7b0d4bcb8611">NetValidatePasswordPolicy</a> function when the application requests a password change validation.
+A client application passes the  <b>NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG</b> structure to the <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netvalidatepasswordpolicy">NetValidatePasswordPolicy</a> function when the application requests a password change validation.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ A client application passes the  <b>NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG</b> s
 
 ### -field InputPersistedFields
 
-Specifies a <a href="https://msdn.microsoft.com/1e6ea28a-a007-4cd1-b5d6-686bcf019fa1">NET_VALIDATE_PERSISTED_FIELDS</a> structure that contains persistent password-related information about the account being logged on.
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_net_validate_persisted_fields">NET_VALIDATE_PERSISTED_FIELDS</a> structure that contains persistent password-related information about the account being logged on.
 
 
 ### -field ClearPassword
@@ -74,7 +74,7 @@ Pointer to a Unicode string specifying the name of the user account.
 
 ### -field HashedPassword
 
-Specifies a <a href="https://msdn.microsoft.com/884e5b8c-1288-454e-862d-323d79123356">NET_VALIDATE_PASSWORD_HASH</a> structure that contains a hash of the new password.
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_net_validate_password_hash">NET_VALIDATE_PASSWORD_HASH</a> structure that contains a hash of the new password.
 
 
 ### -field PasswordMatch
@@ -94,15 +94,15 @@ BOOLEAN value that indicates the result of the application's attempt to validate
 
 
 
-<a href="https://msdn.microsoft.com/be5ce51b-6568-49c8-954d-7b0d4bcb8611">NetValidatePasswordPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netvalidatepasswordpolicy">NetValidatePasswordPolicy</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4b05054-bef2-4cab-89f6-725d92ee75b8">Network Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
  
 
  

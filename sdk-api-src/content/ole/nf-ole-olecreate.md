@@ -103,17 +103,17 @@ TBD
 
 #### - pClientSite [in]
 
-If you want <b>OleCreate</b> to call <a href="https://msdn.microsoft.com/6690b5a3-bada-496c-89cb-a9ae1fc9dfb0">IOleObject::SetClientSite</a>, pointer to the <a href="https://msdn.microsoft.com/dafee149-926a-4d08-a43d-5847682db645">IOleClientSite</a> interface on the container. The value may be <b>NULL</b>, in which case you must specifically call <b>IOleObject::SetClientSite</b> before attempting operations.
+If you want <b>OleCreate</b> to call <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setclientsite">IOleObject::SetClientSite</a>, pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a> interface on the container. The value may be <b>NULL</b>, in which case you must specifically call <b>IOleObject::SetClientSite</b> before attempting operations.
 
 
 #### - pFormatEtc [in]
 
-Depending on which of the <a href="https://msdn.microsoft.com/bab871ba-4ec4-49fd-854a-585732b91290">OLERENDER</a> flags is used as the value of renderopt, pointer to one of the <a href="https://msdn.microsoft.com/4478eb9a-84a1-4f3a-8290-94b8dd20c081">FORMATETC</a> enumeration values. Refer to the <b>OLERENDER</b> enumeration for restrictions. This parameter, along with the <i>renderopt</i> parameter, specifies what the new object can cache initially.
+Depending on which of the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-tagolerender">OLERENDER</a> flags is used as the value of renderopt, pointer to one of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a> enumeration values. Refer to the <b>OLERENDER</b> enumeration for restrictions. This parameter, along with the <i>renderopt</i> parameter, specifies what the new object can cache initially.
 
 
 #### - pStg [in]
 
-Pointer to an instance of the <a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> interface on the storage object. This parameter may not be <b>NULL</b>.
+Pointer to an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface on the storage object. This parameter may not be <b>NULL</b>.
 
 
 #### - ppvObj [out]
@@ -128,12 +128,12 @@ CLSID of the embedded object that is to be created.
 
 #### - renderopt [in]
 
-A value from the enumeration <a href="https://msdn.microsoft.com/bab871ba-4ec4-49fd-854a-585732b91290">OLERENDER</a>, indicating the locally cached drawing capabilities the newly created object is to have. The <b>OLERENDER</b> value chosen affects the possible values for the <i>pFormatEtc</i> parameter.
+A value from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-tagolerender">OLERENDER</a>, indicating the locally cached drawing capabilities the newly created object is to have. The <b>OLERENDER</b> value chosen affects the possible values for the <i>pFormatEtc</i> parameter.
 
 
 #### - riid [in]
 
-Reference to the identifier of the interface, usually IID_IOleObject (defined in the OLE headers as the interface identifier for <a href="https://msdn.microsoft.com/58b32c87-39b6-4d64-9174-cf798ed302c2">IOleObject</a>), through which the caller will communicate with the new object.
+Reference to the identifier of the interface, usually IID_IOleObject (defined in the OLE headers as the interface identifier for <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>), through which the caller will communicate with the new object.
 
 
 ## -returns
@@ -168,7 +168,7 @@ Insufficient memory for the operation.
 
 
 
-The <b>OleCreate</b> function creates a new embedded object, and is typically called to implement the menu item Insert New Object. When <b>OleCreate</b> returns, the object it has created is blank (contains no data), unless <i>renderopt</i> is OLERENDER_DRAW or OLERENDER_FORMAT, and is loaded. Containers typically then call the <a href="https://msdn.microsoft.com/9035f996-b163-4855-aa9d-184b77072ead">OleRun</a> function or <a href="https://msdn.microsoft.com/fabd6a0a-7b0c-4c99-af22-8b117addd5f7">IOleObject::DoVerb</a> to show the object for initial editing.
+The <b>OleCreate</b> function creates a new embedded object, and is typically called to implement the menu item Insert New Object. When <b>OleCreate</b> returns, the object it has created is blank (contains no data), unless <i>renderopt</i> is OLERENDER_DRAW or OLERENDER_FORMAT, and is loaded. Containers typically then call the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olerun">OleRun</a> function or <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-doverb">IOleObject::DoVerb</a> to show the object for initial editing.
 
 
 
@@ -180,9 +180,9 @@ The <i>riid</i> parameter specifies the interface the client will use to communi
 
 
 
-The created object's cache contains information that allows a presentation of a contained object when the container is opened. Information about what should be cached is passed in the <i>renderopt</i> and <i>pFormatetc</i> values. When <b>OleCreate</b> returns, the created object's cache is not necessarily filled. Instead, the cache is filled the first time the object enters the running state. The caller can add additional cache control with a call to <a href="https://msdn.microsoft.com/2a86063a-3ee6-4fc2-a6e0-6e9ffa658348">IOleCache::Cache</a> after the return of <b>OleCreate</b> and before the object is run. If renderopt is OLERENDER_DRAW or OLERENDER_FORMAT, <b>OleCreate</b> requires that the object support the <a href="https://msdn.microsoft.com/b5ef85d0-b54e-4831-87f1-ac6763179181">IOleCache</a> interface. There is no such requirement for any other value of renderopt.
+The created object's cache contains information that allows a presentation of a contained object when the container is opened. Information about what should be cached is passed in the <i>renderopt</i> and <i>pFormatetc</i> values. When <b>OleCreate</b> returns, the created object's cache is not necessarily filled. Instead, the cache is filled the first time the object enters the running state. The caller can add additional cache control with a call to <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a> after the return of <b>OleCreate</b> and before the object is run. If renderopt is OLERENDER_DRAW or OLERENDER_FORMAT, <b>OleCreate</b> requires that the object support the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecache">IOleCache</a> interface. There is no such requirement for any other value of renderopt.
 
-If <i>pClientSite</i> is non-<b>NULL</b>, <b>OleCreate</b> calls <a href="https://msdn.microsoft.com/6690b5a3-bada-496c-89cb-a9ae1fc9dfb0">IOleObject::SetClientSite</a> through the <i>pClientSite</i> pointer. <a href="https://msdn.microsoft.com/dafee149-926a-4d08-a43d-5847682db645">IOleClientSite</a> is the primary interface by which an object requests services from its container. If <i>pClientSite</i> is <b>NULL</b>, you must make a specific call to <b>IOleObject::SetClientSite</b> before attempting any operations. 
+If <i>pClientSite</i> is non-<b>NULL</b>, <b>OleCreate</b> calls <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setclientsite">IOleObject::SetClientSite</a> through the <i>pClientSite</i> pointer. <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a> is the primary interface by which an object requests services from its container. If <i>pClientSite</i> is <b>NULL</b>, you must make a specific call to <b>IOleObject::SetClientSite</b> before attempting any operations. 
 
 
 
@@ -193,19 +193,19 @@ If <i>pClientSite</i> is non-<b>NULL</b>, <b>OleCreate</b> calls <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/4478eb9a-84a1-4f3a-8290-94b8dd20c081">FORMATETC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a>
 
 
 
-<a href="https://msdn.microsoft.com/dafee149-926a-4d08-a43d-5847682db645">IOleClientSite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a>
 
 
 
-<a href="https://msdn.microsoft.com/58b32c87-39b6-4d64-9174-cf798ed302c2">IOleObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/bab871ba-4ec4-49fd-854a-585732b91290">OLERENDER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-tagolerender">OLERENDER</a>
  
 
  

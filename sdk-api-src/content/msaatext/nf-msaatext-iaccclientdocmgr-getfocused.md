@@ -77,7 +77,7 @@ Interface pointer to the document being requested.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If successful, returns S_OK.
 
@@ -88,7 +88,7 @@ If successful, returns S_OK.
 
 
 
-If the window that has focus is not a document that implements the <a href="https://msdn.microsoft.com/21e011f7-6791-4eb9-85c9-18bd10107119">ITextStoreACP</a> interface, <i>ppunk</i> will be <b>NULL</b>.
+If the window that has focus is not a document that implements the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a> interface, <i>ppunk</i> will be <b>NULL</b>.
 
 Servers might need to poll this method more than once before they receive a document. There can be a limited time lapse (approximately second) between when a document appears in the system and when it is registered with document services.
 

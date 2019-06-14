@@ -83,11 +83,11 @@ COM+ services without components.
 
 
 
-<a href="https://msdn.microsoft.com/2402aca6-4992-4c6e-a6ff-b4cc50c57dde">ApplicationProcessSummary</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-_applicationprocesssummary">ApplicationProcessSummary</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd198156(v=VS.85).aspx">ApplicationSummary</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-_applicationsummary">ApplicationSummary</a>
  
 
  

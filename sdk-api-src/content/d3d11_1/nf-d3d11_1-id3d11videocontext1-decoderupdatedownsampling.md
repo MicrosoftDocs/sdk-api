@@ -61,12 +61,12 @@ Updates the decoder downsampling parameters.
 
 Type: <b>ID3D11VideoDecoder*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/F25AFA0B-7413-40F0-AFF8-C9B4549305D2">ID3D11VideoDecoder</a> interface.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videodecoder">ID3D11VideoDecoder</a> interface.
 
 
 ### -param pOutputDesc [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/3B6BF76A-6566-4C58-AD26-5B13E6D040CA">D3D11_VIDEO_SAMPLE_DESC</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_video_sample_desc">D3D11_VIDEO_SAMPLE_DESC</a>*</b>
 
 The resolution, format, and colorspace of the output/display frames.  This is the destination resolution and format of the downsample operation.
 
@@ -75,7 +75,7 @@ The resolution, format, and colorspace of the output/display frames.  This is th
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 This method returns one of the following error codes.
 
@@ -102,7 +102,7 @@ This method returns one of the following error codes.
 
 
 
-This method can only be called after decode downsampling is enabled by calling <a href="https://msdn.microsoft.com/0BE7E6EC-E090-4A13-9D18-108BDBBC211A">DecoderEnableDownsampling</a>. This method is only supported if the <a href="https://msdn.microsoft.com/8E3C86A4-5F73-4E6F-8F93-5564EA0BC113">D3D11_VIDEO_DECODER_CAPS_DOWNSAMPLE_DYNAMIC</a> capability is reported.
+This method can only be called after decode downsampling is enabled by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-decoderenabledownsampling">DecoderEnableDownsampling</a>. This method is only supported if the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/ne-d3d11_1-d3d11_video_decoder_caps">D3D11_VIDEO_DECODER_CAPS_DOWNSAMPLE_DYNAMIC</a> capability is reported.
 
 
 
@@ -112,7 +112,7 @@ This method can only be called after decode downsampling is enabled by calling <
 
 
 
-<a href="https://msdn.microsoft.com/64D12F68-C2AA-4C1D-9608-5F97CF7AD430">ID3D11VideoContext1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11videocontext1">ID3D11VideoContext1</a>
  
 
  

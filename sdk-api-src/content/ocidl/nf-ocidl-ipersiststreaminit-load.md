@@ -59,7 +59,7 @@ Initializes an object from the stream where it was saved previously.
 
 ### -param pStm [in]
 
-An <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> pointer to the stream from which the object should be loaded.
+An <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> pointer to the stream from which the object should be loaded.
 
 
 ## -returns
@@ -116,9 +116,9 @@ The object was not loaded due to some reason other than a lack of memory.
 
 
 
-If the object has already been initialized with <a href="https://msdn.microsoft.com/9e318698-0c3c-41c2-bb9e-04e8c9746c4d">IPersistStreamInit::InitNew</a>, then this method must return E_UNEXPECTED.
+If the object has already been initialized with <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipersiststreaminit-initnew">IPersistStreamInit::InitNew</a>, then this method must return E_UNEXPECTED.
 
-This method loads an object from its associated stream. The seek pointer is set as it was in the most recent <a href="https://msdn.microsoft.com/f88b61d0-dd85-4e8e-b445-dfced6521981">IPersistStreamInit::Save</a> method. This method can seek and read from the stream, but cannot write to it.
+This method loads an object from its associated stream. The seek pointer is set as it was in the most recent <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipersiststreaminit-save">IPersistStreamInit::Save</a> method. This method can seek and read from the stream, but cannot write to it.
 
 
 
@@ -128,7 +128,7 @@ This method loads an object from its associated stream. The seek pointer is set 
 
 
 
-<a href="https://msdn.microsoft.com/49c413b3-3523-4602-9ec1-19f4e0fe5651">IPersistStreamInit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipersiststreaminit">IPersistStreamInit</a>
  
 
  

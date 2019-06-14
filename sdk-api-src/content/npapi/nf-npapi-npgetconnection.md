@@ -127,7 +127,7 @@ The network is not present.
 
 
 The <b>NPGetConnection</b> function can return information only about a network connection that is currently connected. To retrieve information about a network connection that is currently disconnected, use 
-<a href="https://msdn.microsoft.com/6beb0a9e-4f32-4e83-be78-858185b30521">NPGetConnection3</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npgetconnection3">NPGetConnection3</a>.
 
 
 

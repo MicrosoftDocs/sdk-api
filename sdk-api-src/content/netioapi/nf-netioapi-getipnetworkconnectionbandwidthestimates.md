@@ -164,7 +164,7 @@ Element not found. This error is returned if the  network interface specified by
 </td>
 <td width="60%">
 Use 
-the <a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> function to obtain the message string for the returned error.
+the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function to obtain the message string for the returned error.
 
 </td>
 </tr>
@@ -184,7 +184,7 @@ On input, the <i>AddressFamily</i> parameter must be initialized to either <b>AF
 
     A value must be set for the  <i>InterfaceIndex</i> parameter (the value of this parameter must not be set to zero). 
 
-On output, the <a href="https://msdn.microsoft.com/en-us/library/Hh769033(v=VS.85).aspx">MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES</a>  structure pointed to by the <i>BandwidthEstimates</i> parameter is filled in if the <i>AddressFamily</i> and <i>InterfaceIndex</i> parameters were specified. 
+On output, the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ip_network_connection_bandwidth_estimates">MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES</a>  structure pointed to by the <i>BandwidthEstimates</i> parameter is filled in if the <i>AddressFamily</i> and <i>InterfaceIndex</i> parameters were specified. 
 
 The <b>GetIpNetworkConnectionBandwidthEstimates</b> function returns historical estimates of available bandwidth at the point of attachment (the first hop) for use by an application. The estimates are intended as a guide to tune performance parameters and the application should maintain thresholds and differentiate behavior for low and high bandwidth situations. 
 
@@ -203,23 +203,23 @@ The <i>Netioapi.h</i> header file is automatically included by the <i>Iphlpapi.h
 
 
 
-<a href="https://msdn.microsoft.com/291aabe7-a4e7-4cc7-9cf3-4a4bc021e15e">GetPerTcp6ConnectionEStats</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcp6connectionestats">GetPerTcp6ConnectionEStats</a>
 
 
 
-<a href="https://msdn.microsoft.com/71b9d795-6050-4a1a-9949-2c970801f52c">GetPerTcpConnectionEStats</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcpconnectionestats">GetPerTcpConnectionEStats</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh769033(v=VS.85).aspx">MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ip_network_connection_bandwidth_estimates">MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES</a>
 
 
 
-<a href="https://msdn.microsoft.com/F5D7238A-EAE0-4D60-A0A4-D839F738EF48">NL_BANDWIDTH_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nldef/ns-nldef-_nl_bandwidth_information">NL_BANDWIDTH_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/330d06a2-9966-4e2b-b1bd-44c0f1b9416d">TCP_ESTATS_BANDWIDTH_ROD_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_bandwidth_rod_v0">TCP_ESTATS_BANDWIDTH_ROD_v0</a>
  
 
  

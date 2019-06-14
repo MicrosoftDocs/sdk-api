@@ -67,7 +67,7 @@ The <b>GetRecordLogicalChannelNumber</b> method returns the logical channel numb
 
 ### -param bRecordIndex [in]
 
-Zero-based index of the logical channel number to return. To get the number of logical channel numbers in the descriptor, call <a href="https://msdn.microsoft.com/97cadf6c-2549-4a7f-9ecb-c16298769a21">IDvbLogicalChannelDescriptor::GetCountOfRecords</a>.
+Zero-based index of the logical channel number to return. To get the number of logical channel numbers in the descriptor, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvblogicalchanneldescriptor-getcountofrecords">IDvbLogicalChannelDescriptor::GetCountOfRecords</a>.
           
 
 
@@ -91,7 +91,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/6e0a99e9-088f-420c-bb60-2d324aa28227">IDvbLogicalChannelDescriptor</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvblogicalchanneldescriptor">IDvbLogicalChannelDescriptor</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Contains the parameters for a 
-    <a href="https://msdn.microsoft.com/d000c03e-c0ad-4054-b2eb-1aca34a95816">ResizeVirtualDisk</a> function.
+    <a href="https://docs.microsoft.com/windows/desktop/api/virtdisk/nf-virtdisk-resizevirtualdisk">ResizeVirtualDisk</a> function.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ Contains the parameters for a
 ### -field Version
 
 Discriminant for the union containing a value enumerated from the 
-      <a href="https://msdn.microsoft.com/779381fb-4433-46c5-8caf-b830cd015c95">RESIZE_VIRTUAL_DISK_VERSION</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/virtdisk/ne-virtdisk-_resize_virtual_disk_version">RESIZE_VIRTUAL_DISK_VERSION</a> 
       enumeration.
 
 
@@ -81,15 +81,15 @@ Contains the new size of the virtual disk.
 
 
 
-<a href="https://msdn.microsoft.com/779381fb-4433-46c5-8caf-b830cd015c95">RESIZE_VIRTUAL_DISK_VERSION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/virtdisk/ne-virtdisk-_resize_virtual_disk_version">RESIZE_VIRTUAL_DISK_VERSION</a>
 
 
 
-<a href="https://msdn.microsoft.com/d000c03e-c0ad-4054-b2eb-1aca34a95816">ResizeVirtualDisk</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/virtdisk/nf-virtdisk-resizevirtualdisk">ResizeVirtualDisk</a>
 
 
 
-<a href="https://msdn.microsoft.com/79c3b3ad-4eaf-49ce-a8ee-b26faf6c2cba">VHD Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323699(v=vs.85)">VHD Functions</a>
  
 
  

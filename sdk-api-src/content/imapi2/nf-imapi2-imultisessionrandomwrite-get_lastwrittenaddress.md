@@ -387,7 +387,7 @@ This property can be used for wear-out leveling on the media. The property is re
 
 
 
-<a href="https://msdn.microsoft.com/1843254d-7947-4197-9c1b-6dc01abe9354">IMultisessionRandomWrite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisessionrandomwrite">IMultisessionRandomWrite</a>
  
 
  

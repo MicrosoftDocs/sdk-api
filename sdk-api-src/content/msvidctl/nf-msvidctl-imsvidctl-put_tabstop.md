@@ -94,11 +94,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/e3ea10ea-bfb4-4c35-9933-5ad0367fd9ee">IMSVidCtl Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidctl">IMSVidCtl Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/9579144d-22b6-4d97-a52c-0d8bbc9066e4">IMSVidCtl::get_TabStop</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_tabstop">IMSVidCtl::get_TabStop</a>
  
 
  

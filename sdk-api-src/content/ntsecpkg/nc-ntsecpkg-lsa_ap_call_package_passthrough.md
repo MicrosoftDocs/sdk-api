@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The dispatch function for pass-through logon requests sent to the 
-<a href="https://msdn.microsoft.com/b891fa60-28b3-4819-9a92-e4524677fa4f">LsaCallAuthenticationPackage</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> function.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The dispatch function for pass-through logon requests sent to the
 ### -param ClientRequest [in]
 
 Pointer to an opaque 
-<a href="https://msdn.microsoft.com/384dd6e0-726f-4100-a036-1cca6a332a64">LSA_CLIENT_REQUEST</a> buffer representing the LSA client's request.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/plsa-client-request">LSA_CLIENT_REQUEST</a> buffer representing the LSA client's request.
 
 
 ### -param ProtocolSubmitBuffer [in]
@@ -82,7 +82,7 @@ Specifies the length of the <i>ProtocolSubmitBuffer</i> buffer, in bytes.
 ### -param *ProtocolReturnBuffer [out]
 
 Returns the address of the output buffer in the client process. The authentication package is responsible for calling the 
-<a href="https://msdn.microsoft.com/2a7dfc11-a8ab-4677-ad5c-b2f4b5998efe">AllocateClientBuffer</a> function to allocate the buffer in the client process. The contents of this buffer are specific to the authentication package.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_client_buffer">AllocateClientBuffer</a> function to allocate the buffer in the client process. The contents of this buffer are specific to the authentication package.
 
 
 ### -param ReturnBufferLength [out]
@@ -107,7 +107,7 @@ More information about NTSTATUS codes can be found in the Subauth.h file shipped
 If the function succeeds, return STATUS_SUCCESS. This return value indicates that the authentication package attempted to provide the requested service. Use the <i>ProtocolStatus</i> parameter to return the completion status of the service request.
 
 If the authentication package could not process the request and therefore did not attempt to provide the requested service, return an NTSTATUS code indicating the problem. This code can be the following value or one of the 
-<a href="https://msdn.microsoft.com/ee55364e-8ffe-4a78-a49a-250756561770">LSA Policy Function Return Values</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>
@@ -145,11 +145,11 @@ This function must be implemented by authentication packages.
 
 
 
-<a href="https://msdn.microsoft.com/2a7dfc11-a8ab-4677-ad5c-b2f4b5998efe">AllocateClientBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_client_buffer">AllocateClientBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/b891fa60-28b3-4819-9a92-e4524677fa4f">LsaCallAuthenticationPackage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a>
  
 
  

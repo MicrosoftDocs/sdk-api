@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>AddApplicationGroups</b> method adds the specified array of existing <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b7e4-82d4e54012b1">IAzApplicationGroup</a> objects to the client context object.
+The <b>AddApplicationGroups</b> method adds the specified array of existing <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> objects to the client context object.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>AddApplicationGroups</b> method adds the specified array of existing <a h
 
 ### -param varApplicationGroups [in]
 
-The array of <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b7e4-82d4e54012b1">IAzApplicationGroup</a> objects to add.
+The array of <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> objects to add.
 
 
 ## -returns
@@ -68,7 +68,7 @@ The array of <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b7e4-82d4e54
 
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -77,9 +77,9 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-The <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b7e4-82d4e54012b1">IAzApplicationGroup</a> objects in the <i>varApplicationGroups</i> array must already exist in the authorization store.
+The <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> objects in the <i>varApplicationGroups</i> array must already exist in the authorization store.
 
-The added roles are used in subsequent calls to the <a href="https://msdn.microsoft.com/0bd16cdb-3dba-4656-b264-32e622732155">AccessCheck</a> and <a href="https://msdn.microsoft.com/753506cc-ed44-4795-90e5-c76010181d8a">GetRoles</a> methods.
+The added roles are used in subsequent calls to the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-accesscheck">AccessCheck</a> and <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-getroles">GetRoles</a> methods.
 
 
 
@@ -89,15 +89,15 @@ The added roles are used in subsequent calls to the <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/0bd16cdb-3dba-4656-b264-32e622732155">AccessCheck</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-accesscheck">AccessCheck</a>
 
 
 
-<a href="https://msdn.microsoft.com/753506cc-ed44-4795-90e5-c76010181d8a">GetRoles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-getroles">GetRoles</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e922370-18e3-481c-93f2-9a56d7898ba7">IAzClientContext2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazclientcontext2">IAzClientContext2</a>
  
 
  

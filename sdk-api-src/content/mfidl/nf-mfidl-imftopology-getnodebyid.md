@@ -60,13 +60,13 @@ Gets a node in the topology, specified by node identifier.
 
 ### -param qwTopoNodeID [in]
 
-The identifier of the node to retrieve. To get a node's identifier, call <a href="https://msdn.microsoft.com/9c0e5be9-6481-4132-ad5b-9db13fb07391">IMFTopologyNode::GetTopoNodeID</a>.
+The identifier of the node to retrieve. To get a node's identifier, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-gettoponodeid">IMFTopologyNode::GetTopoNodeID</a>.
           
 
 
 ### -param ppNode [out]
 
-Receives a pointer to the node's <a href="https://msdn.microsoft.com/01d7eb7c-a3d3-4924-a8ec-a67e9dc17424">IMFTopologyNode</a> interface. The caller must release the interface.
+Receives a pointer to the node's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a> interface. The caller must release the interface.
           
 
 
@@ -117,15 +117,15 @@ The topology does not contain a node with this identifier.
 
 
 
-<a href="https://msdn.microsoft.com/f293e9ee-9bd2-4b3e-a4ff-53457ee910f6">IMFTopology</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a>
 
 
 
-<a href="https://msdn.microsoft.com/a6d9246a-0cc6-4dbd-affa-e7d0bbddb008">TOPOID</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/topoid">TOPOID</a>
 
 
 
-<a href="https://msdn.microsoft.com/6fc19244-0f42-4d23-899d-c79e97018855">Topologies</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/topologies">Topologies</a>
  
 
  

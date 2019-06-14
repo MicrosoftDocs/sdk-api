@@ -51,7 +51,7 @@ req.redist:
 Disables the performance counters that provide disk performance information.
 
 To perform this operation, call the 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -143,7 +143,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-To enable these performance counters, use the <a href="https://msdn.microsoft.com/e182282c-17e9-442a-8742-437052cfed03">IOCTL_DISK_PERFORMANCE</a> control code.
+To enable these performance counters, use the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_performance">IOCTL_DISK_PERFORMANCE</a> control code.
 
 
 
@@ -153,16 +153,16 @@ To enable these performance counters, use the <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/488a7d32-cbb5-4f32-9655-0aca8ac69640">Disk
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes">Disk
 		  Management Control Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/e182282c-17e9-442a-8742-437052cfed03">IOCTL_DISK_PERFORMANCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_performance">IOCTL_DISK_PERFORMANCE</a>
  
 
  

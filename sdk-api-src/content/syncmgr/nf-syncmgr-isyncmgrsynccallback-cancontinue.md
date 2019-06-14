@@ -81,7 +81,7 @@ Type: <b>HRESULT</b>
 </tr>
 <tr>
 <td>S_FALSE</td>
-<td>A cancellation has been requested. The handler should call <a href="https://msdn.microsoft.com/fd7ed6f4-49c6-44c7-86f9-0b2c04d19de8">ISyncMgrSyncCallback::ReportProgress</a>, specifying SYNCMGR_PS_CANCELED in the <i>nStatus</i> parameter.</td>
+<td>A cancellation has been requested. The handler should call <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-reportprogress">ISyncMgrSyncCallback::ReportProgress</a>, specifying SYNCMGR_PS_CANCELED in the <i>nStatus</i> parameter.</td>
 </tr>
 <tr>
 <td>E_INVALIDARG</td>
@@ -99,7 +99,7 @@ If <i>pszItemID</i> is <b>NULL</b> or an empty string, the return value depends 
 
 
 
-A synchronization can be canceled by the user by clicking the <b>Stop</b> or <b>Stop All</b> task on the context menu or the command module. It can also be canceled when an application calls one of the stop methods of the <a href="https://msdn.microsoft.com/197c4e6f-ffc4-4f19-a5bd-6859eef953c2">ISyncMgrControl</a> interface.
+A synchronization can be canceled by the user by clicking the <b>Stop</b> or <b>Stop All</b> task on the context menu or the command module. It can also be canceled when an application calls one of the stop methods of the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrcontrol">ISyncMgrControl</a> interface.
 
 By implementing this functionality as a separate method, the handler can check for a cancellation without reporting progress.
 
@@ -108,7 +108,7 @@ By implementing this functionality as a separate method, the handler can check f
 
 
 
-The following example shows the usage of <b>ISyncMgrSyncCallback::CanContinue</b> by the <a href="https://msdn.microsoft.com/6742f6a8-eda8-4ef0-8a11-dc70baefcc83">Synchronize</a> method.
+The following example shows the usage of <b>ISyncMgrSyncCallback::CanContinue</b> by the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-synchronize">Synchronize</a> method.
 
 
 ```cpp

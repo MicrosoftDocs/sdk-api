@@ -50,14 +50,14 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>IEncoderAPI</b> is no longer available for use. Instead, use <a href="https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073">ICodecAPI</a>.]
+<p class="CCE_Message">[<b>IEncoderAPI</b> is no longer available for use. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a>.]
 
-The <b>IEncoderAPI</b> interface defines a standard way for applications and drivers to communicate with third-party hardware or software encoders that implement the interface. For more information on this interface, see <a href="https://msdn.microsoft.com/3d19152f-17a3-4576-a2a2-5b827d9ca8d1">Encoder API</a>.
+The <b>IEncoderAPI</b> interface defines a standard way for applications and drivers to communicate with third-party hardware or software encoders that implement the interface. For more information on this interface, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/encoder-api">Encoder API</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEncoderAPI</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEncoderAPI</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEncoderAPI</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEncoderAPI</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IEncoderAPI</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/86eb8008-6d1c-4de7-8a88-b42f33ca24d3">GetDefaultValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iencoderapi-getdefaultvalue">GetDefaultValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the default value for a parameter, if one exists.
@@ -81,7 +81,7 @@ Retrieves the default value for a parameter, if one exists.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fb48a460-c891-4fbe-8fe2-f900f8b405b7">GetParameterRange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iencoderapi-getparameterrange">GetParameterRange</a>
 </td>
 <td align="left" width="63%">
 Retrieves the valid range of values that the parameter supports, in cases where the parameter supports a stepped range as opposed to a list of specific values.
@@ -90,7 +90,7 @@ Retrieves the valid range of values that the parameter supports, in cases where 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/406316b5-1de0-4a89-b1bc-2f3b63ab0739">GetParameterValues</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iencoderapi-getparametervalues">GetParameterValues</a>
 </td>
 <td align="left" width="63%">
 Retrieves the list of values supported by the given parameter.
@@ -99,7 +99,7 @@ Retrieves the list of values supported by the given parameter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/62f69677-05cd-46ab-8b77-96e10f8fbb1d">GetValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iencoderapi-getvalue">GetValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current value of a specified parameter.
@@ -108,7 +108,7 @@ Retrieves the current value of a specified parameter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ad94b70f-fd35-44b4-8322-9891cd7f17cc">IsAvailable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iencoderapi-isavailable">IsAvailable</a>
 </td>
 <td align="left" width="63%">
 Queries whether a given parameter is available.
@@ -117,7 +117,7 @@ Queries whether a given parameter is available.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bbcbde18-2b2d-48b0-9f52-185648f502ce">IsSupported</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iencoderapi-issupported">IsSupported</a>
 </td>
 <td align="left" width="63%">
 Queries whether a given parameter is supported.
@@ -126,7 +126,7 @@ Queries whether a given parameter is supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a7dc0964-64b9-4ea3-8948-19ec100d64f5">SetValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iencoderapi-setvalue">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets the current value of a parameter.
@@ -159,12 +159,12 @@ In the various interface methods, the following GUIDs, defined in uuids.h, are u
 </tr>
 <tr>
 <td>ENCAPIPARAM_BITRATE_MODE</td>
-<td>Specifies the bit-rate mode, as a <a href="https://msdn.microsoft.com/ccceae9a-6d1d-4453-bd84-88cefc20320e">VIDEOENCODER_BITRATE_MODE</a> enumeration value (32-bit signed long).</td>
+<td>Specifies the bit-rate mode, as a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-videoencoder_bitrate_mode">VIDEOENCODER_BITRATE_MODE</a> enumeration value (32-bit signed long).</td>
 </tr>
 </table>
  
 
-The following table describes the expected behavior of an encoder under extremely high or low bitrate conditions in the two variable bitrate modes defined in <a href="https://msdn.microsoft.com/ccceae9a-6d1d-4453-bd84-88cefc20320e">VIDEOENCODER_BITRATE_MODE</a>.
+The following table describes the expected behavior of an encoder under extremely high or low bitrate conditions in the two variable bitrate modes defined in <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-videoencoder_bitrate_mode">VIDEOENCODER_BITRATE_MODE</a>.
 
 <table>
 <tr>
@@ -199,7 +199,7 @@ The following table describes the expected behavior of an encoder under extremel
  
 
 <h3><a id="OCUR_Devices"></a><a id="ocur_devices"></a><a id="OCUR_DEVICES"></a>OCUR Devices</h3>
-This interface supports OpenCable Unidirectional Cable Receiver (OCUR) devices. See <a href="https://msdn.microsoft.com/7b641b94-9854-4ca8-8362-a9e1e49bbdd2">OCUR Devices</a>.
+This interface supports OpenCable Unidirectional Cable Receiver (OCUR) devices. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/ocur-devices">OCUR Devices</a>.
 
 
 

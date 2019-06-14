@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains I/O callback information. This structure is used by the <a href="https://msdn.microsoft.com/8dc95b0a-6aee-4c38-ab25-a800153bbe91">MiniDumpCallback</a>function when the callback type is <b>IoStartCallback</b>, <b>IoWriteAllCallback</b>, or <b>IoFinishCallback</b>.
+Contains I/O callback information. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a>function when the callback type is <b>IoStartCallback</b>, <b>IoWriteAllCallback</b>, or <b>IoFinishCallback</b>.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ Contains I/O callback information. This structure is used by the <a href="https:
 
 ### -field Handle
 
-The file handle passed to the <a href="https://msdn.microsoft.com/b476023d-0e93-4d76-9ba8-ce5766c9ac51">MiniDumpWriteDump</a> function.
+The file handle passed to the <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump">MiniDumpWriteDump</a> function.
 
 
 ### -field Offset
@@ -82,11 +82,11 @@ The size of the data buffer, in bytes. This member is used only with <b>IoWriteA
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680362(v=VS.85).aspx">MINIDUMP_CALLBACK_INPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_callback_input">MINIDUMP_CALLBACK_INPUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/8dc95b0a-6aee-4c38-ab25-a800153bbe91">MiniDumpCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a>
  
 
  

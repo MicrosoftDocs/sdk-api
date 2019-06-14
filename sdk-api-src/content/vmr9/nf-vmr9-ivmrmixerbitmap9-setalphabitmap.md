@@ -63,7 +63,7 @@ The <code>SetAlphaBitmap</code> method specifies a new bitmap image and the sour
 
 ### -param pBmpParms [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd407359(v=VS.85).aspx">VMR9AlphaBitmap</a> structure that contains information about the bitmap.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ns-vmr9-_vmr9alphabitmap">VMR9AlphaBitmap</a> structure that contains information about the bitmap.
 
 
 ## -returns
@@ -144,9 +144,9 @@ BitBlt to bitmap surface failed.
 
 To remove the bitmap, set the VMR9AlphaBitmap_Disable flag in the <b>VMR9AlphaBitmap</b> structure and call <code>SetAlphaBitmap</code> again.
 
-The application can provide the bitmap either as a Direct3D surface or as a GDI bitmap. To use a Direct3D surface, set the <b>pDDS</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Dd407359(v=VS.85).aspx">VMR9AlphaBitmap</a> structure. To use a GDI bitmap, set the <b>hdc</b> member of the structure.
+The application can provide the bitmap either as a Direct3D surface or as a GDI bitmap. To use a Direct3D surface, set the <b>pDDS</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ns-vmr9-_vmr9alphabitmap">VMR9AlphaBitmap</a> structure. To use a GDI bitmap, set the <b>hdc</b> member of the structure.
 
-The bitmap is mixed onto the video frame by the VMR's mixer component. The mixer draws the bitmap once per frame. If you change the bitmap while the filter graph is paused or stopped, the mixer does not use the new bitmap until the graph restarts. You can work around this limitation by calling <a href="https://msdn.microsoft.com/en-us/library/Dd390179(v=VS.85).aspx">IMediaControl::StopWhenReady</a>, although a better solution is to write a custom allocator-presenter to draw the bitmap. For more information, see <a href="https://msdn.microsoft.com/61bb6b0d-25b5-481b-a241-74c6e421f109">Supplying a Custom Allocator-Presenter for VMR-9</a>.
+The bitmap is mixed onto the video frame by the VMR's mixer component. The mixer draws the bitmap once per frame. If you change the bitmap while the filter graph is paused or stopped, the mixer does not use the new bitmap until the graph restarts. You can work around this limitation by calling <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-stopwhenready">IMediaControl::StopWhenReady</a>, although a better solution is to write a custom allocator-presenter to draw the bitmap. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/supplying-a-custom-allocator-presenter-for-vmr-9">Supplying a Custom Allocator-Presenter for VMR-9</a>.
 
 If the method returns E_INVALIDARG, possible reasons include the following:
 
@@ -168,15 +168,15 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390450(v=VS.85).aspx">GetAlphaBitmapParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmixerbitmap9-getalphabitmapparameters">GetAlphaBitmapParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390449(v=VS.85).aspx">IVMRMixerBitmap9 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrmixerbitmap9">IVMRMixerBitmap9 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d0fdfac-ec7e-4e02-886b-2039c607dac7">Using the Video Mixing Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
  
 
  

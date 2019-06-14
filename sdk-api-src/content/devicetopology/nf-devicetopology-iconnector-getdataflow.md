@@ -62,7 +62,7 @@ The <b>GetDataFlow</b> method gets the direction of data flow through this conne
 
 ### -param pFlow [out]
 
-Pointer to a variable into which the method writes the data-flow direction. The direction is one of the following <a href="https://msdn.microsoft.com/en-us/library/Dd370808(v=VS.85).aspx">DataFlow</a> enumeration values:
+Pointer to a variable into which the method writes the data-flow direction. The direction is one of the following <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/ne-devicetopology-__midl___midl_itf_devicetopology_0000_0000_0011">DataFlow</a> enumeration values:
 
 In
 
@@ -103,7 +103,7 @@ Pointer <i>pFlow</i> is <b>NULL</b>.
 
 
 
-For a code example that calls this method, see the implementation of the SelectCaptureDevice function in <a href="https://msdn.microsoft.com/5ac421e5-74a4-40e8-af6f-a99a05ebc3e0">Device Topologies</a>.
+For a code example that calls this method, see the implementation of the SelectCaptureDevice function in <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-topologies">Device Topologies</a>.
 
 
 
@@ -113,7 +113,7 @@ For a code example that calls this method, see the implementation of the SelectC
 
 
 
-<a href="https://msdn.microsoft.com/6eb5b439-3ac7-4c0b-84e2-b246c1b946a5">IConnector Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iconnector">IConnector Interface</a>
  
 
  

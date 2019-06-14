@@ -54,7 +54,7 @@ Exposes methods and properties that enable Microsoft UI Automation clients to re
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationLegacyIAccessiblePattern</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUIAutomationLegacyIAccessiblePattern</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationLegacyIAccessiblePattern</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationLegacyIAccessiblePattern</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IUIAutomationLegacyIAccessiblePattern</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b518a835-02f5-48ce-a70b-792abf8b4306">DoDefaultAction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationlegacyiaccessiblepattern-dodefaultaction">DoDefaultAction</a>
 </td>
 <td align="left" width="63%">
 Performs the Microsoft Active Accessibility default action for the element.
@@ -79,7 +79,7 @@ Performs the Microsoft Active Accessibility default action for the element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/923c3f64-7205-4d41-b726-90324e65661e">GetCachedSelection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationlegacyiaccessiblepattern-getcachedselection">GetCachedSelection</a>
 </td>
 <td align="left" width="63%">
 Retrieves the cached Microsoft Active Accessibility property that identifies the selected children of this element.
@@ -88,7 +88,7 @@ Retrieves the cached Microsoft Active Accessibility property that identifies the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7fe666dc-2168-44a0-87f2-f444fd2a70f2">GetCurrentSelection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationlegacyiaccessiblepattern-getcurrentselection">GetCurrentSelection</a>
 </td>
 <td align="left" width="63%">
 Retrieves the Microsoft Active Accessibility property that identifies the selected children of this element.
@@ -97,16 +97,16 @@ Retrieves the Microsoft Active Accessibility property that identifies the select
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/58ce3005-dfac-4ffe-b874-69a2f994e7a6">GetIAccessible</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationlegacyiaccessiblepattern-getiaccessible">GetIAccessible</a>
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a> object that corresponds to the UI Automation element.
+Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> object that corresponds to the UI Automation element.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d311a10d-4762-47c9-a0bd-299da43827f7">Select</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationlegacyiaccessiblepattern-select">Select</a>
 </td>
 <td align="left" width="63%">
 Performs a Microsoft Active Accessibility selection.
@@ -115,7 +115,7 @@ Performs a Microsoft Active Accessibility selection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c5891bb3-e727-430c-a4d4-5c59750b01ce">SetValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationlegacyiaccessiblepattern-setvalue">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets the Microsoft Active Accessibility value property for the element.
@@ -133,7 +133,7 @@ Sets the Microsoft Active Accessibility value property for the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/31b64e45-51dc-485a-8318-2e8db690f3c0">CachedChildId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationlegacyiaccessiblepattern-get_cachedchildid">CachedChildId</a>
 
 
 </td>
@@ -149,7 +149,7 @@ Retrieves the cached Microsoft Active Accessibility child identifier for the ele
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/acd43075-4f53-48d3-a039-0882a4833d9e">CachedDefaultAction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationlegacyiaccessiblepattern-get_cacheddefaultaction">CachedDefaultAction</a>
 
 
 </td>
@@ -165,7 +165,7 @@ Retrieves the Microsoft Active Accessibility cached default action for the eleme
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/707cf9d2-5c29-4eb2-aba2-5c5199e7292c">CachedDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationlegacyiaccessiblepattern-get_cacheddescription">CachedDescription</a>
 
 
 </td>
@@ -181,7 +181,7 @@ Retrieves the cached Microsoft Active Accessibility description of the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/66ce70ed-e76e-4a31-8dae-0ab4abd6c982">CachedHelp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationlegacyiaccessiblepattern-get_cachedhelp">CachedHelp</a>
 
 
 </td>
@@ -197,7 +197,7 @@ Retrieves the cached Microsoft Active Accessibility help string for the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/3ebe588d-19ab-4df2-be01-4abd0a62a2f8">CachedKeyboardShortcut</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationlegacyiaccessiblepattern-get_cachedkeyboardshortcut">CachedKeyboardShortcut</a>
 
 
 </td>
@@ -213,7 +213,7 @@ Retrieves the cached Microsoft Active Accessibility keyboard shortcut property f
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/eda01409-fdb7-4dc8-844a-699120db8771">CachedName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationlegacyiaccessiblepattern-get_cachedname">CachedName</a>
 
 
 </td>
@@ -229,7 +229,7 @@ Retrieves the cached Microsoft Active Accessibility name property of the element
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/efa5ff74-1322-49ab-a7b9-f4394b3c6e64">CachedRole</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationlegacyiaccessiblepattern-get_cachedrole">CachedRole</a>
 
 
 </td>
@@ -245,7 +245,7 @@ Retrieves the cached Microsoft Active Accessibility role of the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/0429138e-e218-4384-be21-666fe5ca5542">CachedState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationlegacyiaccessiblepattern-get_cachedstate">CachedState</a>
 
 
 </td>
@@ -261,7 +261,7 @@ Retrieves the cached Microsoft Active Accessibility state identifier for the ele
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/864c99b5-a5ab-486d-ac0d-1471698a8de4">CachedValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationlegacyiaccessiblepattern-get_cachedvalue">CachedValue</a>
 
 
 </td>
@@ -277,7 +277,7 @@ Retrieves the cached Microsoft Active Accessibility value property.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/63277b76-bd3f-4255-82be-24797cafd175">CurrentChildId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationlegacyiaccessiblepattern-get_currentchildid">CurrentChildId</a>
 
 
 </td>
@@ -293,7 +293,7 @@ Retrieves the Microsoft Active Accessibility child identifier for the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d9fe2161-db5a-4e41-9f07-17cb3e4ce78a">CurrentDefaultAction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationlegacyiaccessiblepattern-get_currentdefaultaction">CurrentDefaultAction</a>
 
 
 </td>
@@ -309,7 +309,7 @@ Retrieves the Microsoft Active Accessibility current default action for the elem
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/bdadeb0f-4739-4d0c-bd41-17ac9addf933">CurrentDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationlegacyiaccessiblepattern-get_currentdescription">CurrentDescription</a>
 
 
 </td>
@@ -325,7 +325,7 @@ Retrieves the Microsoft Active Accessibility description of the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/fb4d8ca3-2263-46f6-875f-78973bd355d5">CurrentHelp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationlegacyiaccessiblepattern-get_currenthelp">CurrentHelp</a>
 
 
 </td>
@@ -341,7 +341,7 @@ Retrieves the Microsoft Active Accessibility help string for the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c0b205d3-b36a-4ad5-9d4a-f9d8a1ab7701">CurrentKeyboardShortcut</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationlegacyiaccessiblepattern-get_currentkeyboardshortcut">CurrentKeyboardShortcut</a>
 
 
 </td>
@@ -357,7 +357,7 @@ Retrieves the Microsoft Active Accessibility keyboard shortcut property for the 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8e1138dc-212d-409e-8c69-8f94320c3dd6">CurrentName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationlegacyiaccessiblepattern-get_currentname">CurrentName</a>
 
 
 </td>
@@ -373,7 +373,7 @@ Retrieves the Microsoft Active Accessibility name property of the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/9159e114-edc6-4dfa-b32f-a5a786dabe99">CurrentRole</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationlegacyiaccessiblepattern-get_currentrole">CurrentRole</a>
 
 
 </td>
@@ -389,7 +389,7 @@ Retrieves the Microsoft Active Accessibility role identifier of the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/255e8900-e25a-43e4-b943-60a1814d342d">CurrentState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationlegacyiaccessiblepattern-get_currentstate">CurrentState</a>
 
 
 </td>
@@ -405,7 +405,7 @@ Retrieves the Microsoft Active Accessibility state identifier for the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/48f960f1-113a-4ab8-809d-e83a7a66c28c">CurrentValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationlegacyiaccessiblepattern-get_currentvalue">CurrentValue</a>
 
 
 </td>
@@ -435,7 +435,7 @@ This interface is obtained just like any other control pattern. It enables UI Au
 
 
 
-<a href="https://msdn.microsoft.com/14358ef0-aa54-42c1-a3da-0f835f5f5ef6">Control Pattern Interfaces for Clients</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>
  
 
  

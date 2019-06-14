@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>InitializeFromValues</b> method initializes a cryptographic attribute by using an <a href="https://msdn.microsoft.com/dd891506-f25b-4aa5-b739-0d66d5a5f395">IX509Attributes</a> object.
+The <b>InitializeFromValues</b> method initializes a cryptographic attribute by using an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributes">IX509Attributes</a> object.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>InitializeFromValues</b> method initializes a cryptographic attribute by 
 
 ### -param pAttributes [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/dd891506-f25b-4aa5-b739-0d66d5a5f395">IX509Attributes</a> interface that contains the attribute collection.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributes">IX509Attributes</a> interface that contains the attribute collection.
 
 
 ## -returns
@@ -68,7 +68,7 @@ Pointer to an <a href="https://msdn.microsoft.com/dd891506-f25b-4aa5-b739-0d66d5
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -77,7 +77,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 
-The <b>InitializeFromValues</b> method uses the first <a href="https://msdn.microsoft.com/20965768-2c6b-488a-ab7c-5e0f6f28ac9b">IX509Attribute</a> object in the collection.
+The <b>InitializeFromValues</b> method uses the first <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attribute">IX509Attribute</a> object in the collection.
 
 
 
@@ -87,19 +87,19 @@ The <b>InitializeFromValues</b> method uses the first <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/2aefde1b-0f77-4a88-8851-5bacd363900b">ICryptAttribute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icryptattribute">ICryptAttribute</a>
 
 
 
-<a href="https://msdn.microsoft.com/beedb57c-1c89-4d16-8514-046e3071fd1e">ICryptAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icryptattributes">ICryptAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/20965768-2c6b-488a-ab7c-5e0f6f28ac9b">IX509Attribute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attribute">IX509Attribute</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd891506-f25b-4aa5-b739-0d66d5a5f395">IX509Attributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributes">IX509Attributes</a>
  
 
  

@@ -51,14 +51,14 @@ ms.custom: 19H1
 
 The <b>IFaxLoggingOptions</b> interface is used by a fax client application to access and configure the event logging categories and the activity logging options that the fax service is using.
 
-The <b>IFaxLoggingOptions</b> interface is accessed through an <a href="https://msdn.microsoft.com/en-us/library/ms689110(v=VS.85).aspx">IFaxServer</a> interface. It provides access to the <a href="https://msdn.microsoft.com/en-us/library/ms684576(v=VS.85).aspx">FaxActivityLogging</a> and <a href="https://msdn.microsoft.com/en-us/library/ms684912(v=VS.85).aspx">FaxEventLogging</a> methods. 
+The <b>IFaxLoggingOptions</b> interface is accessed through an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxserver">IFaxServer</a> interface. It provides access to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxactivitylogging">FaxActivityLogging</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxeventlogging">FaxEventLogging</a> methods. 
 
 
 ## -remarks
 
 
 
-To create a <b>FaxLoggingOptions</b> object in C++, call the <a href="https://msdn.microsoft.com/en-us/library/ms690044(v=VS.85).aspx">LoggingOptions</a> method.
+To create a <b>FaxLoggingOptions</b> object in C++, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxserver-loggingoptions">LoggingOptions</a> method.
 
 
 
@@ -68,15 +68,15 @@ To create a <b>FaxLoggingOptions</b> object in C++, call the <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686863(v=VS.85).aspx">FaxLoggingOptions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxloggingoptions">FaxLoggingOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689110(v=VS.85).aspx">IFaxServer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxserver">IFaxServer</a>
  
 
  

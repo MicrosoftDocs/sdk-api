@@ -66,29 +66,29 @@ The implementer-defined structure version.
 
 ### -field pEapType
 
-A pointer to an <a href="https://msdn.microsoft.com/383f1e11-2e40-45e6-8c55-a23d1b8eb71f">EAP_TYPE</a> structure that contains the vendor information on the implementer of the APIs pointed to by the members of this structure.
+A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_type">EAP_TYPE</a> structure that contains the vendor information on the implementer of the APIs pointed to by the members of this structure.
 
 
 ### -field EapPeerInitialize
 
-A function pointer for <a href="https://msdn.microsoft.com/7c040f9c-1a70-4882-bea1-7e641f5b1d3f">EapPeerInitialize</a>.
+A function pointer for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerinitialize">EapPeerInitialize</a>.
 
 
 
 #### pEapError
 
-A pointer to the <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to <a href="https://msdn.microsoft.com/85b4197c-5caf-4e2b-94fd-e651712dd39d">EapPeerFreeErrorMemory</a>.
+A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
 
 
 ### -field EapPeerGetIdentity
 
-A function pointer for <a href="https://msdn.microsoft.com/24ae093f-5ddf-4b09-934f-d0e945335cde">EapPeerGetIdentity</a>.
+A function pointer for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetidentity">EapPeerGetIdentity</a>.
 
 
 
 #### dwflags
 
-A combination of <a href="https://msdn.microsoft.com/b6305349-3418-475e-8a37-2c06b399556e">EAP flags</a> that describe the  EAP authentication session behavior.
+A combination of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-method-flags">EAP flags</a> that describe the  EAP authentication session behavior.
 
 
 
@@ -138,7 +138,7 @@ Specifies the size, in bytes, of the <i>ppUserDataOut</i>buffer.
 
 #### ppUserDataOut
 
-A pointer to a pointer to the returned user data. The data is passed to <a href="https://msdn.microsoft.com/770a548c-c227-4708-bc40-08bf2681c90f">EapPeerBeginSession</a>   as input <i>pUserData</i>.
+A pointer to a pointer to the returned user data. The data is passed to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerbeginsession">EapPeerBeginSession</a>   as input <i>pUserData</i>.
 
 
 
@@ -150,24 +150,24 @@ A pointer to a pointer to the returned user data. The data is passed to <a href=
 
 #### ppEapError
 
-A pointer to the pointer to an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://msdn.microsoft.com/85b4197c-5caf-4e2b-94fd-e651712dd39d">EapPeerFreeErrorMemory</a>.
+A pointer to the pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
 
 
 ### -field EapPeerBeginSession
 
-A function pointer for <a href="https://msdn.microsoft.com/770a548c-c227-4708-bc40-08bf2681c90f">EapPeerBeginSession</a>.
+A function pointer for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerbeginsession">EapPeerBeginSession</a>.
 
 
 
 #### dwFlags
 
-A combination of <a href="https://msdn.microsoft.com/b6305349-3418-475e-8a37-2c06b399556e">EAP flags</a> that describe the  new EAP authentication session behavior.
+A combination of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-method-flags">EAP flags</a> that describe the  new EAP authentication session behavior.
 
 
 
 #### pAttributeArray
 
-Pointer to an <a href="https://msdn.microsoft.com/2f88b475-a4ae-4c40-b0f8-2dd05c676619">EAP_ATTRIBUTES</a> array structure that specifies the EAP attributes of the entity to authenticate.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attributes">EAP_ATTRIBUTES</a> array structure that specifies the EAP attributes of the entity to authenticate.
 
 
 
@@ -216,24 +216,24 @@ Pointer to a  <b>EAP_SESSION_HANDLE</b> structure that contains the unique ID fo
 
 #### ppEapError
 
-Pointer to the address of an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains any errors raised by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://msdn.microsoft.com/85b4197c-5caf-4e2b-94fd-e651712dd39d">EapPeerFreeErrorMemory</a>.
+Pointer to the address of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structure that contains any errors raised by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
 
 
 ### -field EapPeerSetCredentials
 
-A function pointer for <a href="https://msdn.microsoft.com/d50a72bd-0b3f-4b68-be96-5debb3fd99f8">EapPeerSetCredentials</a>.
+A function pointer for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeersetcredentials">EapPeerSetCredentials</a>.
 
 
 
 #### sessionHandle
 
-A pointer to an <b>EAP_SESSION_HANDLE</b> structure that contains the unique handle for this EAP authentication session on the EAPHost server. This handle is returned in the <i>pSessionHandle</i> parameter in a previous call to <a href="https://msdn.microsoft.com/770a548c-c227-4708-bc40-08bf2681c90f">EapPeerBeginSession</a>.
+A pointer to an <b>EAP_SESSION_HANDLE</b> structure that contains the unique handle for this EAP authentication session on the EAPHost server. This handle is returned in the <i>pSessionHandle</i> parameter in a previous call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerbeginsession">EapPeerBeginSession</a>.
 
 
 
 #### pwszIdentity
 
-Pointer that specifies the user identity for which to set the credentials. This user identity string is obtained by calling the <a href="https://msdn.microsoft.com/24ae093f-5ddf-4b09-934f-d0e945335cde">EapPeerGetIdentity</a> function.
+Pointer that specifies the user identity for which to set the credentials. This user identity string is obtained by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetidentity">EapPeerGetIdentity</a> function.
 
 
 
@@ -245,18 +245,18 @@ A pointer that contains the clear text password for the user identity.
 
 #### ppEapError
 
-Pointer to the address of an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://msdn.microsoft.com/85b4197c-5caf-4e2b-94fd-e651712dd39d">EapPeerFreeErrorMemory</a>.
+Pointer to the address of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
 
 
 ### -field EapPeerProcessRequestPacket
 
-A function pointer for <a href="https://msdn.microsoft.com/7054b6e5-68df-4d76-9941-99ee00178926">EapPeerProcessRequestPacket</a>.
+A function pointer for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerprocessrequestpacket">EapPeerProcessRequestPacket</a>.
 
 
 
 #### sessionHandle
 
-<b>EAP_SESSION_HANDLE</b> value that contains the specific handle for the EAP authentication session on EAPHost. This handle is obtained by a previous call to <a href="https://msdn.microsoft.com/770a548c-c227-4708-bc40-08bf2681c90f">EapPeerBeginSession</a>.
+<b>EAP_SESSION_HANDLE</b> value that contains the specific handle for the EAP authentication session on EAPHost. This handle is obtained by a previous call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerbeginsession">EapPeerBeginSession</a>.
 
 
 
@@ -268,30 +268,30 @@ The size in bytes of the request packet specified in <i>pReceivePacket</i>.
 
 #### pReceivePacket
 
-Pointer to an <a href="https://msdn.microsoft.com/a5d78db0-990f-4318-8f1a-4e903221845f">EapPacket</a> structure that contains the request packet to process.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodtypes/ns-eapmethodtypes-tageappacket">EapPacket</a> structure that contains the request packet to process.
 
 
 
 #### pEapOutput
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa363617(v=VS.85).aspx">EapPeerMethodOutput</a> structure that contains the output of the packet process operation.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapauthenticatoractiondefine/ns-eapauthenticatoractiondefine-tageappeermethodouput">EapPeerMethodOutput</a> structure that contains the output of the packet process operation.
 
 
 
 #### ppEapError
 
-Pointer to the address of an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://msdn.microsoft.com/85b4197c-5caf-4e2b-94fd-e651712dd39d">EapPeerFreeErrorMemory</a>.
+Pointer to the address of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
 
 
 ### -field EapPeerGetResponsePacket
 
-A function pointer for <a href="https://msdn.microsoft.com/4e1deaab-53fe-4c8f-9018-d7b148131231">EapPeerGetResponsePacket</a>.
+A function pointer for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetresponsepacket">EapPeerGetResponsePacket</a>.
 
 
 
 #### sessionHandle
 
-<b>EAP_SESSION_HANDLE</b> value that contains the specific handle for the EAP authentication session on EAPHost. This handle is obtained by a previous call to <a href="https://msdn.microsoft.com/770a548c-c227-4708-bc40-08bf2681c90f">EapPeerBeginSession</a>.
+<b>EAP_SESSION_HANDLE</b> value that contains the specific handle for the EAP authentication session on EAPHost. This handle is obtained by a previous call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerbeginsession">EapPeerBeginSession</a>.
 
 
 
@@ -303,24 +303,24 @@ Pointer to a value that contains the size in bytes of the buffer allocated for t
 
 #### pSendPacket
 
-Pointer to an <a href="https://msdn.microsoft.com/a5d78db0-990f-4318-8f1a-4e903221845f">EapPacket</a> structure that contains the response packet.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodtypes/ns-eapmethodtypes-tageappacket">EapPacket</a> structure that contains the response packet.
 
 
 
 #### ppEapError
 
-Pointer to the address of an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by calling<a href="https://msdn.microsoft.com/85b4197c-5caf-4e2b-94fd-e651712dd39d">EapPeerFreeErrorMemory</a>.
+Pointer to the address of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by calling<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
 
 
 ### -field EapPeerGetResult
 
- A function pointer for <a href="https://msdn.microsoft.com/fc73cf5f-68c5-403b-8bf1-6befa2c4f5d8">EapPeerGetResult</a>.
+ A function pointer for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetresult">EapPeerGetResult</a>.
 
 
 
 #### sessionHandle
 
-<b>EAP_SESSION_HANDLE</b> value that contains the specific handle for the EAP authentication session on EAPHost. This handle is obtained by a previous call to <a href="https://msdn.microsoft.com/770a548c-c227-4708-bc40-08bf2681c90f">EapPeerBeginSession</a>.
+<b>EAP_SESSION_HANDLE</b> value that contains the specific handle for the EAP authentication session on EAPHost. This handle is obtained by a previous call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerbeginsession">EapPeerBeginSession</a>.
 
 
 
@@ -338,18 +338,18 @@ Pointer to a <b>EapHostPeerMethodResult</b> structure that contains the authenti
 
 #### ppEapError
 
-Pointer to the address of an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to <a href="https://msdn.microsoft.com/85b4197c-5caf-4e2b-94fd-e651712dd39d">EapPeerFreeErrorMemory</a>.
+Pointer to the address of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
 
 
 ### -field EapPeerGetUIContext
 
-A function pointer for <a href="https://msdn.microsoft.com/14bbffde-da24-4632-bd73-2f96dc983117">EapPeerGetUIContext</a>.
+A function pointer for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetuicontext">EapPeerGetUIContext</a>.
 
 
 
 #### sessionHandle
 
-<b>EAP_SESSION_HANDLE</b> value that contains the specific handle for the EAP authentication session on EAPHost. This handle is obtained by a previous call to <a href="https://msdn.microsoft.com/770a548c-c227-4708-bc40-08bf2681c90f">EapPeerBeginSession</a>.
+<b>EAP_SESSION_HANDLE</b> value that contains the specific handle for the EAP authentication session on EAPHost. This handle is obtained by a previous call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerbeginsession">EapPeerBeginSession</a>.
 
 
 
@@ -367,18 +367,18 @@ Pointer to an address that contains a byte buffer with the supplicant user inter
 
 #### ppEapError
 
-Pointer to the address of an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to the error data to <a href="https://msdn.microsoft.com/85b4197c-5caf-4e2b-94fd-e651712dd39d">EapPeerFreeErrorMemory</a>.
+Pointer to the address of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to the error data to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
 
 
 ### -field EapPeerSetUIContext
 
-A function pointer for <a href="https://msdn.microsoft.com/90a3844b-5fe9-44ad-981a-0aae643b2390">EapPeerSetUIContext</a>.
+A function pointer for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeersetuicontext">EapPeerSetUIContext</a>.
 
 
 
 #### sessionHandle
 
-<b>EAP_SESSION_HANDLE</b> value that contains the specific handle for the EAP authentication session on EAPHost. This handle is obtained by a previous call to <a href="https://msdn.microsoft.com/770a548c-c227-4708-bc40-08bf2681c90f">EapPeerBeginSession</a>.
+<b>EAP_SESSION_HANDLE</b> value that contains the specific handle for the EAP authentication session on EAPHost. This handle is obtained by a previous call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerbeginsession">EapPeerBeginSession</a>.
 
 
 
@@ -396,93 +396,93 @@ Pointer to an address that contains a byte buffer with the new supplicant UI con
 
 #### pEapOutput
 
- A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa363617(v=VS.85).aspx">EapPeerMethodOutput</a> structure that contains the output of the packet process operation.
+ A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapauthenticatoractiondefine/ns-eapauthenticatoractiondefine-tageappeermethodouput">EapPeerMethodOutput</a> structure that contains the output of the packet process operation.
 
 
 
 #### ppEapError
 
-Pointer to the address of an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to <a href="https://msdn.microsoft.com/85b4197c-5caf-4e2b-94fd-e651712dd39d">EapPeerFreeErrorMemory</a>.
+Pointer to the address of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
 
 
 ### -field EapPeerGetResponseAttributes
 
-A function pointer for <a href="https://msdn.microsoft.com/68610a3b-7d9e-41fe-bf3b-7b188949b1c0">EapPeerGetResponseAttributes</a>.
+A function pointer for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetresponseattributes">EapPeerGetResponseAttributes</a>.
 
 
 
 #### sessionHandle
 
-<b>EAP_SESSION_HANDLE</b> value that contains the specific handle for the EAP authentication session on EAPHost. This handle is obtained by a previous call to <a href="https://msdn.microsoft.com/770a548c-c227-4708-bc40-08bf2681c90f">EapPeerBeginSession</a>.
+<b>EAP_SESSION_HANDLE</b> value that contains the specific handle for the EAP authentication session on EAPHost. This handle is obtained by a previous call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerbeginsession">EapPeerBeginSession</a>.
 
 
 
 #### pAttribs
 
-Receives a pointer to an <a href="https://msdn.microsoft.com/2f88b475-a4ae-4c40-b0f8-2dd05c676619">EAP_ATTRIBUTES</a> structure that contains an array of EAP authentication response attributes for the supplicant.
+Receives a pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attributes">EAP_ATTRIBUTES</a> structure that contains an array of EAP authentication response attributes for the supplicant.
 
 
 
 #### ppEapError
 
-Pointer to the address of an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by calling<a href="https://msdn.microsoft.com/85b4197c-5caf-4e2b-94fd-e651712dd39d">EapPeerFreeErrorMemory</a>.
+Pointer to the address of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by calling<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
 
 
 ### -field EapPeerSetResponseAttributes
 
-A function pointer for <a href="https://msdn.microsoft.com/340f5284-53cb-4e1d-9df5-2b9c75774c0d">EapPeerSetResponseAttributes</a>.
+A function pointer for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeersetresponseattributes">EapPeerSetResponseAttributes</a>.
 
 
 
 #### sessionHandle
 
-<b>EAP_SESSION_HANDLE</b> value that contains the specific handle for the EAP authentication session on EAPHost. This handle is obtained by a previous call to <a href="https://msdn.microsoft.com/770a548c-c227-4708-bc40-08bf2681c90f">EapPeerBeginSession</a>.
+<b>EAP_SESSION_HANDLE</b> value that contains the specific handle for the EAP authentication session on EAPHost. This handle is obtained by a previous call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerbeginsession">EapPeerBeginSession</a>.
 
 
 
 #### pAttribs
 
-Pointer to an <a href="https://msdn.microsoft.com/2f88b475-a4ae-4c40-b0f8-2dd05c676619">EAP_ATTRIBUTES</a> structure that contains an array of new EAP authentication response attributes to set for the supplicant on EAPHost.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attributes">EAP_ATTRIBUTES</a> structure that contains an array of new EAP authentication response attributes to set for the supplicant on EAPHost.
 
 
 
 #### pEapOutput
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa363617(v=VS.85).aspx">EapPeerMethodOutput</a> structure that specifies the suggested action the supplicant should take as a response to the updated attributes.
+A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapauthenticatoractiondefine/ns-eapauthenticatoractiondefine-tageappeermethodouput">EapPeerMethodOutput</a> structure that specifies the suggested action the supplicant should take as a response to the updated attributes.
 
 
 
 #### ppEapError
 
-Pointer to the address of an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://msdn.microsoft.com/85b4197c-5caf-4e2b-94fd-e651712dd39d">EapPeerFreeErrorMemory</a>.
+Pointer to the address of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
 
 
 ### -field EapPeerEndSession
 
-A function pointer for <a href="https://msdn.microsoft.com/e4740a71-bf80-41ae-b9c1-91b9769854e7">EapPeerEndSession</a>.
+A function pointer for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerendsession">EapPeerEndSession</a>.
 
 
 
 #### sessionHandle
 
-<b>EAP_SESSION_HANDLE</b> value that contains the specific handle for the EAP authentication session to close on EAPHost. This handle is obtained by a previous call to <a href="https://msdn.microsoft.com/770a548c-c227-4708-bc40-08bf2681c90f">EapPeerBeginSession</a>.
+<b>EAP_SESSION_HANDLE</b> value that contains the specific handle for the EAP authentication session to close on EAPHost. This handle is obtained by a previous call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerbeginsession">EapPeerBeginSession</a>.
 
 
 
 #### ppEapError
 
-Pointer to the address of an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://msdn.microsoft.com/85b4197c-5caf-4e2b-94fd-e651712dd39d">EapPeerFreeErrorMemory</a>.
+Pointer to the address of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
 
 
 ### -field EapPeerShutdown
 
-A function pointer for <a href="https://msdn.microsoft.com/7d08a349-fdfc-40bc-97f4-4429ff6ade7e">EapPeerShutdown</a>.
+A function pointer for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeershutdown">EapPeerShutdown</a>.
 
 
 
 #### ppEapError
 
-Pointer to the address of an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to <a href="https://msdn.microsoft.com/85b4197c-5caf-4e2b-94fd-e651712dd39d">EapPeerFreeErrorMemory</a>.
+Pointer to the address of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
 
 
 ## -remarks
@@ -493,40 +493,40 @@ Each EAP method DLL must implement the following APIs:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/7c040f9c-1a70-4882-bea1-7e641f5b1d3f">EapPeerInitialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerinitialize">EapPeerInitialize</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/770a548c-c227-4708-bc40-08bf2681c90f">EapPeerBeginSession</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerbeginsession">EapPeerBeginSession</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/24ae093f-5ddf-4b09-934f-d0e945335cde">EapPeerGetIdentity</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetidentity">EapPeerGetIdentity</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/d50a72bd-0b3f-4b68-be96-5debb3fd99f8">EapPeerSetCredentials</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeersetcredentials">EapPeerSetCredentials</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/7054b6e5-68df-4d76-9941-99ee00178926">EapPeerProcessRequestPacket</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerprocessrequestpacket">EapPeerProcessRequestPacket</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/4e1deaab-53fe-4c8f-9018-d7b148131231">EapPeerGetResponsePacket</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetresponsepacket">EapPeerGetResponsePacket</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/fc73cf5f-68c5-403b-8bf1-6befa2c4f5d8">EapPeerGetResult</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetresult">EapPeerGetResult</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14bbffde-da24-4632-bd73-2f96dc983117">EapPeerGetUIContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetuicontext">EapPeerGetUIContext</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/90a3844b-5fe9-44ad-981a-0aae643b2390">EapPeerSetUIContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeersetuicontext">EapPeerSetUIContext</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/68610a3b-7d9e-41fe-bf3b-7b188949b1c0">EapPeerGetResponseAttributes</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetresponseattributes">EapPeerGetResponseAttributes</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/340f5284-53cb-4e1d-9df5-2b9c75774c0d">EapPeerSetResponseAttributes</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeersetresponseattributes">EapPeerSetResponseAttributes</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/e4740a71-bf80-41ae-b9c1-91b9769854e7">EapPeerEndSession</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerendsession">EapPeerEndSession</a>
 </li>
 <li><b>EapPeerShutdown</b></li>
 </ul>
@@ -542,11 +542,11 @@ The other functions in the EAP Peer Method API set are called by a peer-based EA
 
 
 
-<a href="https://msdn.microsoft.com/546ef715-8f51-4f5a-a569-8bf64d52de85">EAPHost Peer Method Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-peer-method-structures">EAPHost Peer Method Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/99b7e136-b502-435b-9c62-a0e106ec8ec5">EapPeerGetInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetinfo">EapPeerGetInfo</a>
  
 
  

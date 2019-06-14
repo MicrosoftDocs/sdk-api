@@ -69,7 +69,7 @@ Specifies the opacity of the bitmap, as an integer from 0 (transparent) to 100 (
 
 ### -param rDest [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/0b3cf31b-e0cc-4208-a128-b77460fc0f1b">IMSVidRect</a> interface that specifies the position of the bitmap, relative to the video window.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidrect">IMSVidRect</a> interface that specifies the position of the bitmap, relative to the video window.
 
 
 ## -returns
@@ -86,19 +86,19 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/27eb53f8-ece8-43eb-8f94-b3d2d91548ad">IMSVidVideoRenderer Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694751(v=VS.85).aspx">IMSVidVideoRenderer::put_MixerBitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_mixerbitmap">IMSVidVideoRenderer::put_MixerBitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694752(v=VS.85).aspx">IMSVidVideoRenderer::put_MixerBitmapOpacity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_mixerbitmapopacity">IMSVidVideoRenderer::put_MixerBitmapOpacity</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694753(v=VS.85).aspx">IMSVidVideoRenderer::put_MixerBitmapPositionRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_mixerbitmappositionrect">IMSVidVideoRenderer::put_MixerBitmapPositionRect</a>
  
 
  

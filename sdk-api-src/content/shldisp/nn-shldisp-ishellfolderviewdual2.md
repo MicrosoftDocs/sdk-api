@@ -54,7 +54,7 @@ Exposes methods that modify the view and select items in the current folder.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellFolderViewDual2</b> interface inherits from <a href="https://msdn.microsoft.com/48135f9d-ee80-4dec-87dc-83f407c25777">IShellFolderViewDual</a>. <b>IShellFolderViewDual2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellFolderViewDual2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual">IShellFolderViewDual</a>. <b>IShellFolderViewDual2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IShellFolderViewDual2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/aa4bcb25-98f9-49c3-be25-abc6a5ecdcca">get_CurrentViewMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual2-get_currentviewmode">get_CurrentViewMode</a>
 </td>
 <td align="left" width="63%">
 Gets the current view mode of the current folder.
@@ -78,7 +78,7 @@ Gets the current view mode of the current folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/80f0e24e-8104-472e-b1d9-58d42f3925fe">put_CurrentViewMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual2-put_currentviewmode">put_CurrentViewMode</a>
 </td>
 <td align="left" width="63%">
 Sets the current view mode of the current folder.
@@ -87,7 +87,7 @@ Sets the current view mode of the current folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/421a039e-49d6-4a93-958a-48c7e847fa6b">SelectItemRelative</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual2-selectitemrelative">SelectItemRelative</a>
 </td>
 <td align="left" width="63%">
 Selects an item relative to the current item.
@@ -101,7 +101,7 @@ Selects an item relative to the current item.
 
 
 
-This interface also provides the methods of the <a href="https://msdn.microsoft.com/48135f9d-ee80-4dec-87dc-83f407c25777">IShellFolderViewDual</a> interface, from which it inherits.
+This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual">IShellFolderViewDual</a> interface, from which it inherits.
 
 
 
@@ -111,7 +111,7 @@ This interface also provides the methods of the <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/48135f9d-ee80-4dec-87dc-83f407c25777">IShellFolderViewDual</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual">IShellFolderViewDual</a>
  
 
  

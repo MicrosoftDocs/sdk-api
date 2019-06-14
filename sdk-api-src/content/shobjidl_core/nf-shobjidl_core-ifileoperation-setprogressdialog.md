@@ -59,9 +59,9 @@ Specifies a dialog box used to display the progress of the operation.
 
 ### -param popd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/0d95f407-0e09-441d-b9e2-665995ea1362">IOperationsProgressDialog</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ioperationsprogressdialog">IOperationsProgressDialog</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/0d95f407-0e09-441d-b9e2-665995ea1362">IOperationsProgressDialog</a> object that represents the dialog box.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ioperationsprogressdialog">IOperationsProgressDialog</a> object that represents the dialog box.
 
 
 ## -returns

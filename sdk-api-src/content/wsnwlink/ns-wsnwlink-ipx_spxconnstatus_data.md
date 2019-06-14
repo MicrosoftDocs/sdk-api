@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>IPX_SPXCONNSTATUS_DATA</b> structure provides information about a connected SPX socket. Used in conjunction with 
-<a href="https://msdn.microsoft.com/25bc511d-7a9f-41c1-8983-1af1e3f8bf2d">getsockopt</a> function calls that specify IPX_SPXGETCONNECTIONSTATUS in the <i>optname</i> parameter. All numbers in 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a> function calls that specify IPX_SPXGETCONNECTIONSTATUS in the <i>optname</i> parameter. All numbers in 
 <b>IPX_SPXCONNSTATUS_DATA</b> are in Novell (high-low) order.
 
 
@@ -155,7 +155,7 @@ Specifies the number of suppressed packets on the socket.
 
 
 
-<a href="https://msdn.microsoft.com/25bc511d-7a9f-41c1-8983-1af1e3f8bf2d">getsockopt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a>
  
 
  

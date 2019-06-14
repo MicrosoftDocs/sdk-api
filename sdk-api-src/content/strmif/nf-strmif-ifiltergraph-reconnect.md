@@ -65,7 +65,7 @@ Applications should not call this method. It is called by filters during the gra
 
 ### -param ppin [in]
 
-Pointer to <a href="https://msdn.microsoft.com/ad0ead4e-9f8e-4935-b220-306d665e50f4">IPin</a> interface of the pin to reconnect.
+Pointer to <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface of the pin to reconnect.
 
 
 ## -returns
@@ -144,9 +144,9 @@ Filter is not stopped.
 
 
 
-This method is obsolete; use the <a href="https://msdn.microsoft.com/a72cf427-056b-4751-9c4a-665251e549f8">IFilterGraph2::ReconnectEx</a> method instead.
+This method is obsolete; use the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltergraph2-reconnectex">IFilterGraph2::ReconnectEx</a> method instead.
 
-Filters can call this method in order to renegotiate a pin connection. The method executes on a separate thread. Before calling this method, call <a href="https://msdn.microsoft.com/ed11eeef-464b-4a75-958b-2bc6dbc7af04">IPin::QueryAccept</a> on the other pin to ensure that the reconnnection attempt will succeed. Do not call this method unless <b>QueryAccept</b> returns S_OK. Otherwise, because the reconnection is performed asynchronously, the reconnection might fail even though the <code>Reconnect</code> method succeeds, leaving the filter graph in an inconsistent state.
+Filters can call this method in order to renegotiate a pin connection. The method executes on a separate thread. Before calling this method, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-queryaccept">IPin::QueryAccept</a> on the other pin to ensure that the reconnnection attempt will succeed. Do not call this method unless <b>QueryAccept</b> returns S_OK. Otherwise, because the reconnection is performed asynchronously, the reconnection might fail even though the <code>Reconnect</code> method succeeds, leaving the filter graph in an inconsistent state.
 
 
 
@@ -156,15 +156,15 @@ Filters can call this method in order to renegotiate a pin connection. The metho
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/73a92f44-03c6-47e3-98d1-a20100ed8fa1">IFilterGraph Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltergraph">IFilterGraph Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/34b3e4de-e4eb-48c5-aaef-fc99b63e8691">Reconnecting Pins</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/reconnecting-pins">Reconnecting Pins</a>
  
 
  

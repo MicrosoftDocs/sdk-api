@@ -59,7 +59,7 @@ The <b>FWPM_VSWITCH_EVENT0</b> structure contains information about a vSwitch ev
 
 ### -field eventType
 
-Type: <b><a href="https://msdn.microsoft.com/1c421152-1085-4cf4-ab8c-631a2b800ec8">FWPM_VSWITCH_EVENT_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_vswitch_event_type_">FWPM_VSWITCH_EVENT_TYPE</a></b>
 
  The type of vSwitch event.
 
@@ -173,7 +173,7 @@ Array of strings identifying other vSwitch extensions.
 
 
 
-<b>FWPM_VSWITCH_EVENT0</b> is a specific implementation of FWPM_VSWITCH_EVENT. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FWPM_VSWITCH_EVENT0</b> is a specific implementation of FWPM_VSWITCH_EVENT. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -183,7 +183,7 @@ Array of strings identifying other vSwitch extensions.
 
 
 
-<a href="https://msdn.microsoft.com/1c421152-1085-4cf4-ab8c-631a2b800ec8">FWPM_VSWITCH_EVENT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_vswitch_event_type_">FWPM_VSWITCH_EVENT_TYPE</a>
  
 
  

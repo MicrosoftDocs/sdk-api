@@ -59,12 +59,12 @@ Called by the Windows Biometric Framework to determine the capabilities and limi
 
 ### -param Pipeline [in, out]
 
-Pointer to the <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae41c3e12a">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 
 ### -param EngineInfo [out]
 
-Pointer to the the <a href="https://msdn.microsoft.com/83586E04-24CA-4A39-836F-C80DB1508C71">WINBIO_EXTENDED_ENGINE_INFO</a> structure that contains the engine information returned by this function.
+Pointer to the the <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-extended-engine-info">WINBIO_EXTENDED_ENGINE_INFO</a> structure that contains the engine information returned by this function.
 
 
 ### -param EngineInfoSize [in]
@@ -117,7 +117,7 @@ The <i>EngineInfoSize</i> value is less than the size needed to return the engin
 
 This method is called once during configuration of the biometric unit. 
 
-It will also be called if a client application uses the <a href="https://msdn.microsoft.com/63e38e74-3d46-4474-a31c-eaf724156bc6">WinBioGetProperty</a> function to query the value of the <b>WINBIO_PROPERTY_EXTENDED_ENGINE_INFO</b> property.
+It will also be called if a client application uses the <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiogetproperty">WinBioGetProperty</a> function to query the value of the <b>WINBIO_PROPERTY_EXTENDED_ENGINE_INFO</b> property.
 
 
 

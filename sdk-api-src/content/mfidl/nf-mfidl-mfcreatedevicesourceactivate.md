@@ -59,21 +59,21 @@ Creates an activation object that represents a hardware capture device.
 
 ### -param pAttributes [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> interface of an attribute store, which is used to select the device. See Remarks.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of an attribute store, which is used to select the device. See Remarks.
 
 
 ### -param ppActivate [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/c0936e3c-3cd1-4c1e-a336-2dee7d943963">IMFActivate</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface. The caller must release the interface.
 
 
 ## -remarks
 
 
 
-This function creates an activation object that can be used to create a media source for a hardware device. To create the media source itself, call <a href="https://msdn.microsoft.com/120b8070-6732-450d-8334-b3910f7bb4d2">IMFActivate::ActivateObject</a>.
+This function creates an activation object that can be used to create a media source for a hardware device. To create the media source itself, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject">IMFActivate::ActivateObject</a>.
 
-The <i>pAttributes</i> parameter specifies an attribute store. To create the attribute store, call the <a href="https://msdn.microsoft.com/a79b1edd-5ca1-4550-a6ce-58073155affd">MFCreateAttributes</a> function.  You must set the <a href="https://msdn.microsoft.com/c6c05267-1c93-48e2-b463-b5a1514f1b7b">MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE</a> attribute, which specifies the type of device (audio or video).
+The <i>pAttributes</i> parameter specifies an attribute store. To create the attribute store, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreateattributes">MFCreateAttributes</a> function.  You must set the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-devsource-attribute-source-type">MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE</a> attribute, which specifies the type of device (audio or video).
 
 For audio capture devices, optionally set one of the following attributes:
 
@@ -86,7 +86,7 @@ For audio capture devices, optionally set one of the following attributes:
 </tr>
 <tr>
 <td width="40%">
-<a id="MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_AUDCAP_ENDPOINT_ID"></a><a id="mf_devsource_attribute_source_type_audcap_endpoint_id"></a><a href="https://msdn.microsoft.com/a0d8b54b-7a05-4307-a756-a34bb22f1afd">MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_AUDCAP_ENDPOINT_ID</a>
+<a id="MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_AUDCAP_ENDPOINT_ID"></a><a id="mf_devsource_attribute_source_type_audcap_endpoint_id"></a><a href="https://docs.microsoft.com/windows/desktop/medfound/mf-devsource-attribute-source-type-audcap-endpoint-id">MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_AUDCAP_ENDPOINT_ID</a>
 
 
 </td>
@@ -97,14 +97,14 @@ Specifies the audio endpoint ID of the audio capture device.
 </tr>
 <tr>
 <td width="40%">
-<a id="MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_AUDCAP_ROLE"></a><a id="mf_devsource_attribute_source_type_audcap_role"></a><a href="https://msdn.microsoft.com/4f2885b6-c771-4577-880d-5feea671432e">MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_AUDCAP_ROLE</a>
+<a id="MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_AUDCAP_ROLE"></a><a id="mf_devsource_attribute_source_type_audcap_role"></a><a href="https://docs.microsoft.com/windows/desktop/medfound/mf-devsource-attribute-source-type-audcap-role">MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_AUDCAP_ROLE</a>
 
 
 </td>
 <td width="60%">
 Specifies the device role. If this attribute is set, the function uses the default audio capture device for that device role.
 
-Do not combine this attribute with the <a href="https://msdn.microsoft.com/a0d8b54b-7a05-4307-a756-a34bb22f1afd">MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_AUDCAP_ENDPOINT_ID</a> attribute.
+Do not combine this attribute with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-devsource-attribute-source-type-audcap-endpoint-id">MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_AUDCAP_ENDPOINT_ID</a> attribute.
 
 </td>
 </tr>
@@ -124,7 +124,7 @@ For video capture devices, you must set the following attribute:
 </tr>
 <tr>
 <td width="40%">
-<a id="MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_SYMBOLIC_LINK"></a><a id="mf_devsource_attribute_source_type_vidcap_symbolic_link"></a><a href="https://msdn.microsoft.com/3d256dec-ec8c-4c62-883b-e2c292fd90eb">MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_SYMBOLIC_LINK</a>
+<a id="MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_SYMBOLIC_LINK"></a><a id="mf_devsource_attribute_source_type_vidcap_symbolic_link"></a><a href="https://docs.microsoft.com/windows/desktop/medfound/mf-devsource-attribute-source-type-vidcap-symbolic-link">MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_SYMBOLIC_LINK</a>
 
 
 </td>
@@ -144,23 +144,23 @@ Specifies the symbolic link to the device.
 
 
 
-<a href="https://msdn.microsoft.com/767d5f1c-2b8d-43b6-916b-035129e93204">Activation Objects</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/activation-objects">Activation Objects</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a9d96f8-1096-4b66-a2ec-8a95d754ea72">Audio/Video Capture in Media Foundation</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/audio-video-capture-in-media-foundation">Audio/Video Capture in Media Foundation</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd24671a-0689-4490-8d18-2a33ed461e9d">Capture Device Attributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/capture-device-attributes">Capture Device Attributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/9f80b604-1cc2-4d0d-b94e-a2b9dab1fdde">MFCreateDeviceSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatedevicesource">MFCreateDeviceSource</a>
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

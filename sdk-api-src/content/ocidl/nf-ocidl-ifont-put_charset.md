@@ -76,11 +76,11 @@ The method supports the standard return value <b>E_INVALIDARG</b> and S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/3a04d2b7-b2eb-4c6c-8863-1e88321fa382">IFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
 
 
 
-<a href="https://msdn.microsoft.com/3a784453-db29-4917-90ee-8893f787646a">IFont::get_Charset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_charset">IFont::get_Charset</a>
  
 
  

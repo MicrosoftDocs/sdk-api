@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>IQualProp</b> interface provides methods for retrieving performance information from video renderers. The values returned through the interface are reset each time the filter is stopped. The <a href="https://msdn.microsoft.com/7719ed9d-e3b9-4c84-b587-4e120b5cabf8">Video Renderer</a> filter and the <a href="https://msdn.microsoft.com/59332096-bdfe-4208-b99a-1f434652f287">Full Screen Renderer</a> filter expose this interface.
+The <b>IQualProp</b> interface provides methods for retrieving performance information from video renderers. The values returned through the interface are reset each time the filter is stopped. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-renderer-filter">Video Renderer</a> filter and the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/full-screen-renderer-filter">Full Screen Renderer</a> filter expose this interface.
 
 Applications can use this interface to retrieve video performance information. 
 
@@ -60,7 +60,7 @@ Applications can use this interface to retrieve video performance information.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQualProp</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IQualProp</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQualProp</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IQualProp</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IQualProp</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd376916(v=VS.85).aspx">get_AvgFrameRate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-iqualprop-get_avgframerate">get_AvgFrameRate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the average frame rate achieved.
@@ -84,7 +84,7 @@ Retrieves the average frame rate achieved.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd376917(v=VS.85).aspx">get_AvgSyncOffset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-iqualprop-get_avgsyncoffset">get_AvgSyncOffset</a>
 </td>
 <td align="left" width="63%">
 Retrieves the average time difference between when a frame was due for rendering and when rendering actually began (this is returned as a value in milliseconds).
@@ -93,7 +93,7 @@ Retrieves the average time difference between when a frame was due for rendering
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd376918(v=VS.85).aspx">get_DevSyncOffset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-iqualprop-get_devsyncoffset">get_DevSyncOffset</a>
 </td>
 <td align="left" width="63%">
 Retrieves the average time difference between when a frame was due for rendering and when rendering actually began (this is returned as a standard deviation).
@@ -102,7 +102,7 @@ Retrieves the average time difference between when a frame was due for rendering
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd376919(v=VS.85).aspx">get_FramesDrawn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-iqualprop-get_framesdrawn">get_FramesDrawn</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of frames drawn since streaming started.
@@ -111,7 +111,7 @@ Retrieves the number of frames drawn since streaming started.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd376920(v=VS.85).aspx">get_FramesDroppedInRenderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-iqualprop-get_framesdroppedinrenderer">get_FramesDroppedInRenderer</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of frames dropped by the renderer.
@@ -120,7 +120,7 @@ Retrieves the number of frames dropped by the renderer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd376921(v=VS.85).aspx">get_Jitter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-iqualprop-get_jitter">get_Jitter</a>
 </td>
 <td align="left" width="63%">
 Gets the jitter (variation in time) between successive frames delivered to the video renderer
@@ -135,7 +135,7 @@ Gets the jitter (variation in time) between successive frames delivered to the v
 
 
 
-<a href="https://msdn.microsoft.com/5efd174f-2eb1-44e6-97e3-b73c7c52fef1">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
  
 
  

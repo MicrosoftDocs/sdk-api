@@ -59,17 +59,17 @@ The DISPLAYCONFIG_TARGET_DEVICE_NAME structure contains information about the ta
 
 ### -field header
 
-A <a href="https://msdn.microsoft.com/2fdfa54e-2a5f-448f-98e3-e51ce0acaeaf">DISPLAYCONFIG_DEVICE_INFO_HEADER</a> structure that contains information about the request for the target device name. The caller should set the <b>type</b> member of DISPLAYCONFIG_DEVICE_INFO_HEADER to DISPLAYCONFIG_DEVICE_INFO_GET_TARGET_NAME and the <b>adapterId</b> and <b>id</b> members of DISPLAYCONFIG_DEVICE_INFO_HEADER to the target for which the caller wants the target device name. The caller should set the <b>size</b> member of DISPLAYCONFIG_DEVICE_INFO_HEADER to at least the size of the DISPLAYCONFIG_TARGET_DEVICE_NAME structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_device_info_header">DISPLAYCONFIG_DEVICE_INFO_HEADER</a> structure that contains information about the request for the target device name. The caller should set the <b>type</b> member of DISPLAYCONFIG_DEVICE_INFO_HEADER to DISPLAYCONFIG_DEVICE_INFO_GET_TARGET_NAME and the <b>adapterId</b> and <b>id</b> members of DISPLAYCONFIG_DEVICE_INFO_HEADER to the target for which the caller wants the target device name. The caller should set the <b>size</b> member of DISPLAYCONFIG_DEVICE_INFO_HEADER to at least the size of the DISPLAYCONFIG_TARGET_DEVICE_NAME structure.
 
 
 ### -field flags
 
-A <a href="https://msdn.microsoft.com/f0318dd3-4350-4de3-84c8-2c998254c68c">DISPLAYCONFIG_TARGET_DEVICE_NAME_FLAGS</a> structure that identifies, in bit-field flags, information about the target. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_target_device_name_flags">DISPLAYCONFIG_TARGET_DEVICE_NAME_FLAGS</a> structure that identifies, in bit-field flags, information about the target. 
 
 
 ### -field outputTechnology
 
-A value from the <a href="https://msdn.microsoft.com/f8c2095a-d67e-42ed-b615-b5e0e0e0d507">DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY</a> enumeration that specifies the target's connector type. 
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ne-wingdi-displayconfig_video_output_technology">DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY</a> enumeration that specifies the target's connector type. 
 
 
 ### -field edidManufactureId
@@ -105,7 +105,7 @@ Extended display identification data (EDID) is a set of data that is provided by
 
 A named device object has a path and name of the form <i>\Device\DeviceName</i>. This is known as the <i>device name</i> of the device object.
 
-If an application calls the <a href="https://msdn.microsoft.com/249dcb1a-4ce3-4478-8331-fb81e91313b0">DisplayConfigGetDeviceInfo</a> function to obtain the monitor name and <b>DisplayConfigGetDeviceInfo</b> either cannot get the monitor name or the target is forced without a monitor connected, the string in the <b>monitorFriendlyDeviceName</b> member of the DISPLAYCONFIG_TARGET_DEVICE_NAME structure is a <b>NULL</b> string and none of the bit-field flags in the <a href="https://msdn.microsoft.com/f0318dd3-4350-4de3-84c8-2c998254c68c">DISPLAYCONFIG_TARGET_DEVICE_NAME_FLAGS</a> structure are set.
+If an application calls the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-displayconfiggetdeviceinfo">DisplayConfigGetDeviceInfo</a> function to obtain the monitor name and <b>DisplayConfigGetDeviceInfo</b> either cannot get the monitor name or the target is forced without a monitor connected, the string in the <b>monitorFriendlyDeviceName</b> member of the DISPLAYCONFIG_TARGET_DEVICE_NAME structure is a <b>NULL</b> string and none of the bit-field flags in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_target_device_name_flags">DISPLAYCONFIG_TARGET_DEVICE_NAME_FLAGS</a> structure are set.
 
 
 
@@ -115,19 +115,19 @@ If an application calls the <a href="https://msdn.microsoft.com/249dcb1a-4ce3-44
 
 
 
-<a href="https://msdn.microsoft.com/2fdfa54e-2a5f-448f-98e3-e51ce0acaeaf">DISPLAYCONFIG_DEVICE_INFO_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_device_info_header">DISPLAYCONFIG_DEVICE_INFO_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/f0318dd3-4350-4de3-84c8-2c998254c68c">DISPLAYCONFIG_TARGET_DEVICE_NAME_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_target_device_name_flags">DISPLAYCONFIG_TARGET_DEVICE_NAME_FLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/f8c2095a-d67e-42ed-b615-b5e0e0e0d507">DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ne-wingdi-displayconfig_video_output_technology">DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY</a>
 
 
 
-<a href="https://msdn.microsoft.com/249dcb1a-4ce3-4478-8331-fb81e91313b0">DisplayConfigGetDeviceInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-displayconfiggetdeviceinfo">DisplayConfigGetDeviceInfo</a>
  
 
  

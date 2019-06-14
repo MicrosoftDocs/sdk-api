@@ -103,7 +103,7 @@ A successful code or error code to stop analysis.
 
 
 
-<a href="https://msdn.microsoft.com/1fd2ca46-006c-4b01-8258-6c24f4be1641">IDWriteTextAnalysisSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextanalysissink">IDWriteTextAnalysisSink</a>
  
 
  

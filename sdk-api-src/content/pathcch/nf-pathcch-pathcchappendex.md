@@ -54,12 +54,12 @@ ms.custom: 19H1
 
 Appends one path to the end of another.
 
-This function differs from <a href="https://msdn.microsoft.com/b64884ad-15c7-495e-8037-34daf68f8cf7">PathCchAppend</a> in that it allows for a longer final path to be constructed.
+This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchappend">PathCchAppend</a> in that it allows for a longer final path to be constructed.
 
-This function differs from <a href="https://msdn.microsoft.com/896737ef-a05c-4f0f-b8b0-56355ae9c2d9">PathAppend</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
+This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathappenda">PathAppend</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
 
-<div class="alert"><b>Note</b>  This function, or <a href="https://msdn.microsoft.com/b64884ad-15c7-495e-8037-34daf68f8cf7">PathCchAppend</a>, should be used in place of <a href="https://msdn.microsoft.com/896737ef-a05c-4f0f-b8b0-56355ae9c2d9">PathAppend</a> to prevent the possibility of a buffer overrun.</div><div> </div>
+<div class="alert"><b>Note</b>  This function, or <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchappend">PathCchAppend</a>, should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathappenda">PathAppend</a> to prevent the possibility of a buffer overrun.</div><div> </div>
 
 ## -parameters
 
@@ -248,7 +248,7 @@ This function inserts a backslash between the two strings, if one is not already
 
 
 
-<a href="https://msdn.microsoft.com/b64884ad-15c7-495e-8037-34daf68f8cf7">PathCchAppend</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchappend">PathCchAppend</a>
  
 
  

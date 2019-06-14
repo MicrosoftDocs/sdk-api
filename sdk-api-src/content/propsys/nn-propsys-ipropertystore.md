@@ -54,7 +54,7 @@ This interface exposes methods used to enumerate and manipulate property values.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyStore</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPropertyStore</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyStore</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPropertyStore</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IPropertyStore</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a3cc6815-a16f-45e7-a2d5-8f354f712170">IPropertyStore::Commit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertystore-commit">IPropertyStore::Commit</a>
 </td>
 <td align="left" width="63%">
 After a change has been made, this method saves the changes.
@@ -78,7 +78,7 @@ After a change has been made, this method saves the changes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4f93949a-d5d5-4fbf-8538-6171861e5884">IPropertyStore::GetAt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertystore-getat">IPropertyStore::GetAt</a>
 </td>
 <td align="left" width="63%">
 Gets a property key from the property array of an item.
@@ -87,7 +87,7 @@ Gets a property key from the property array of an item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/23f7b982-29db-4960-9a1d-2f9e033ebf61">IPropertyStore::GetCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertystore-getcount">IPropertyStore::GetCount</a>
 </td>
 <td align="left" width="63%">
 This method returns a count of the number of properties that are attached to the file.
@@ -96,7 +96,7 @@ This method returns a count of the number of properties that are attached to the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/11204335-0f00-4af8-8787-93e91248e5bd">IPropertyStore::GetValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertystore-getvalue">IPropertyStore::GetValue</a>
 </td>
 <td align="left" width="63%">
 This method retrieves the data for a specific property.
@@ -105,7 +105,7 @@ This method retrieves the data for a specific property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/be21bcb2-6875-4559-abd7-a496f0fcddd6">IPropertyStore::SetValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertystore-setvalue">IPropertyStore::SetValue</a>
 </td>
 <td align="left" width="63%">
 This method sets a property value or replaces or removes an existing value.
@@ -120,11 +120,11 @@ This method sets a property value or replaces or removes an existing value.
 
 
 
-<a href="https://msdn.microsoft.com/E33B1F94-4E3A-4EC1-AFB5-FD803FA391BC">APOInitSystemEffects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/ns-audioenginebaseapo-apoinitsystemeffects">APOInitSystemEffects</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/JJ151547(v=VS.85).aspx">AudioFXExtensionParams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/ns-audioenginebaseapo-__midl___midl_itf_audioenginebaseapo_0000_0007_0001">AudioFXExtensionParams</a>
  
 
  

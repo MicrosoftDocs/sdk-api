@@ -60,7 +60,7 @@ Contains the priority class and rank of a specific DFS target.
 ### -field TargetPriorityClass
 
 
-<a href="https://msdn.microsoft.com/4aac4575-630f-4cb6-8312-edd1fad8f128">DFS_TARGET_PRIORITY_CLASS</a> enumeration 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ne-lmdfs-_dfs_target_priority_class">DFS_TARGET_PRIORITY_CLASS</a> enumeration 
       value that specifies the priority class of the target.
 
 
@@ -80,9 +80,9 @@ This member is reserved and must be zero.
 
 
 This structure is used as the <b>TargetPriority</b> member of the 
-    <a href="https://msdn.microsoft.com/95b2cd36-4933-440d-889d-ebf36d7b9cc7">DFS_INFO_104</a>, 
-    <a href="https://msdn.microsoft.com/12c114e4-f978-4423-85a8-ec0cf9c9e8c5">DFS_INFO_106</a>, and 
-    <a href="https://msdn.microsoft.com/777b9688-9e34-48dd-bc8c-df17bef396d0">DFS_STORAGE_INFO_1</a> structures. There are no functions 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_104">DFS_INFO_104</a>, 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_106">DFS_INFO_106</a>, and 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_storage_info_1">DFS_STORAGE_INFO_1</a> structures. There are no functions 
     that use this structure directly.
 
 The order of priority classes from highest to lowest is as follows:
@@ -110,7 +110,7 @@ Note that the value for a "normal priority class" is set to 0 even though it is 
     granularity.
 
 For more information about how server target priority is determined, see 
-    <a href="https://msdn.microsoft.com/0aacebf7-49cc-4287-a5c4-0d25a416d227">DFS Server Target Prioritization</a>.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dfs/dfs-server-target-prioritization">DFS Server Target Prioritization</a>.
 
 
 
@@ -120,39 +120,39 @@ For more information about how server target priority is determined, see
 
 
 
-<a href="https://msdn.microsoft.com/0aacebf7-49cc-4287-a5c4-0d25a416d227">DFS Server Target Prioritization</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dfs/dfs-server-target-prioritization">DFS Server Target Prioritization</a>
 
 
 
-<a href="https://msdn.microsoft.com/95b2cd36-4933-440d-889d-ebf36d7b9cc7">DFS_INFO_104</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_104">DFS_INFO_104</a>
 
 
 
-<a href="https://msdn.microsoft.com/12c114e4-f978-4423-85a8-ec0cf9c9e8c5">DFS_INFO_106</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_106">DFS_INFO_106</a>
 
 
 
-<a href="https://msdn.microsoft.com/777b9688-9e34-48dd-bc8c-df17bef396d0">DFS_STORAGE_INFO_1</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_storage_info_1">DFS_STORAGE_INFO_1</a>
 
 
 
-<a href="https://msdn.microsoft.com/4aac4575-630f-4cb6-8312-edd1fad8f128">DFS_TARGET_PRIORITY_CLASS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ne-lmdfs-_dfs_target_priority_class">DFS_TARGET_PRIORITY_CLASS</a>
 
 
 
-<a href="https://msdn.microsoft.com/a29cde3e-483a-4658-94d4-27398f66abfb">Distributed File System (DFS) Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dfs/distributed-file-system-dfs-functions">Distributed File System (DFS) Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/5526afa7-82bc-47c7-99d6-44e41ef772b1">NetDfsSetInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfssetinfo">NetDfsSetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4b05054-bef2-4cab-89f6-725d92ee75b8">Network Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
  
 
  

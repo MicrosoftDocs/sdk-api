@@ -60,28 +60,28 @@ Sets a vertex buffer, a corresponding vertex shader, and options to control how 
 
 ### -param vertexBuffer [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/1DBCDF93-83C6-4B02-9E94-8024D7849DF7">ID2D1VertexBuffer</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1vertexbuffer">ID2D1VertexBuffer</a>*</b>
 
 The vertex buffer, if this is cleared, the default vertex shader and mapping to the transform rectangles will be used.
 
 
 ### -param vertexOptions
 
-Type: <b><a href="https://msdn.microsoft.com/b308aaf4-edf0-49a8-8fbf-04bb38c00605">D2D1_VERTEX_OPTIONS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/ne-d2d1effectauthor-d2d1_vertex_options">D2D1_VERTEX_OPTIONS</a></b>
 
 Options that influence how the renderer will interact with the vertex shader.
 
 
 ### -param blendDescription [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/5f4c7248-9303-4451-92f1-4b230efd627a">D2D1_BLEND_DESCRIPTION</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/ns-d2d1effectauthor-d2d1_blend_description">D2D1_BLEND_DESCRIPTION</a>*</b>
 
 How the vertices will be blended with the output texture.
 
 
 ### -param vertexRange [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/a5c93541-86dd-48d3-b731-50e9f66f401d">D2D1_VERTEX_RANGE</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/ns-d2d1effectauthor-d2d1_vertex_range">D2D1_VERTEX_RANGE</a>*</b>
 
 The set of vertices to use from the buffer.
 
@@ -109,9 +109,9 @@ If the method succeeds, it returns <b>S_OK</b>. If it fails, it returns an <b>HR
 
 
 
-The vertex shaders associated with the vertex buffer through the vertex shader GUID must have been loaded through the <a href="https://msdn.microsoft.com/60D3DB1B-D347-44FC-98F9-545D4213F1F0">ID2D1EffectContext::LoadVertexShader</a> method before this call is made.
+The vertex shaders associated with the vertex buffer through the vertex shader GUID must have been loaded through the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-loadvertexshader">ID2D1EffectContext::LoadVertexShader</a> method before this call is made.
 
-If you pass the vertex option <a href="https://msdn.microsoft.com/b308aaf4-edf0-49a8-8fbf-04bb38c00605">D2D1_VERTEX_OPTIONS_DO_NOT_CLEAR</a>, then the method fails unless the blend description is exactly this:
+If you pass the vertex option <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/ne-d2d1effectauthor-d2d1_vertex_options">D2D1_VERTEX_OPTIONS_DO_NOT_CLEAR</a>, then the method fails unless the blend description is exactly this:
 
 
 
@@ -132,7 +132,7 @@ D2D1_BLEND_DESCRIPTION blendDesc =
 ```
 
 
-If this call fails, the corresponding <a href="https://msdn.microsoft.com/e90d1830-c356-48f1-ac7b-1d94c8c26569">ID2D1Effect</a> instance is placed into an error state and fails to draw.
+If this call fails, the corresponding <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect">ID2D1Effect</a> instance is placed into an error state and fails to draw.
 
   If blendDescription is NULL, a foreground-over blend mode is used.
 
@@ -144,15 +144,15 @@ If this call fails, the corresponding <a href="https://msdn.microsoft.com/e90d18
 
 
 
-<a href="https://msdn.microsoft.com/9C7B8CE0-0D2D-4383-9BE1-25F86BCEF253">ID2D1DrawInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1drawinfo">ID2D1DrawInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/8E59527F-B6CE-4E25-B7F7-2D03BC1ACAFD">ID2D1EffectContext::CreateVertexBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-createvertexbuffer">ID2D1EffectContext::CreateVertexBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/60D3DB1B-D347-44FC-98F9-545D4213F1F0">ID2D1EffectContext::LoadVertexShader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-loadvertexshader">ID2D1EffectContext::LoadVertexShader</a>
  
 
  

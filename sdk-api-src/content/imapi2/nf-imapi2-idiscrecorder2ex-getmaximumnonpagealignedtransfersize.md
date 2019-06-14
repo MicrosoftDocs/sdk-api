@@ -119,11 +119,11 @@ This is the maximum buffer size that a device can accept for a single command. B
 
 
 
-<a href="https://msdn.microsoft.com/37e65b57-ec53-405c-a7bd-34c2df15d5d7">IDiscRecorder2Ex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/6bf25c61-e87c-4ccf-a989-1c2715709d4a">IDiscRecorder2Ex::GetMaximumPageAlignedTransferSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getmaximumpagealignedtransfersize">IDiscRecorder2Ex::GetMaximumPageAlignedTransferSize</a>
  
 
  

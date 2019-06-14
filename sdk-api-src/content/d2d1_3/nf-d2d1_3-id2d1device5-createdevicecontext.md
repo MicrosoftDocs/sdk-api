@@ -59,7 +59,7 @@ Creates a new device context with no initially assigned target.
 
 ### -param options
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh446998(v=VS.85).aspx">D2D1_DEVICE_CONTEXT_OPTIONS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_device_context_options">D2D1_DEVICE_CONTEXT_OPTIONS</a></b>
 
 Options for creating the device context.
 
@@ -75,7 +75,7 @@ The created device context.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 
@@ -87,7 +87,7 @@ This method returns an HRESULT success or error code.
 
 
 
-<a href="https://msdn.microsoft.com/3C436C9F-461B-4B18-B537-6724609D825F">ID2D1Device5</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1device5">ID2D1Device5</a>
  
 
  

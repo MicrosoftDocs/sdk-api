@@ -64,7 +64,7 @@ Creates an audio stream sample for use with the specified stream.
 
 ### -param pAudioData [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd389513(v=VS.85).aspx">IAudioData</a> container. <b>IAudioData</b> objects can be referenced by samples in more than one stream.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/austream/nn-austream-iaudiodata">IAudioData</a> container. <b>IAudioData</b> objects can be referenced by samples in more than one stream.
 
 
 ### -param dwFlags [in]
@@ -74,7 +74,7 @@ Reserved for flag data. Must be zero.
 
 ### -param ppSample [out]
 
-Address of a pointer to the new <a href="https://msdn.microsoft.com/en-us/library/Dd389520(v=VS.85).aspx">IAudioStreamSample</a> interface.
+Address of a pointer to the new <a href="https://docs.microsoft.com/windows/desktop/api/austream/nn-austream-iaudiostreamsample">IAudioStreamSample</a> interface.
 
 
 ## -returns
@@ -100,7 +100,7 @@ The <i>pAudioData</i> object defines the data's format.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389516(v=VS.85).aspx">IAudioMediaStream Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/austream/nn-austream-iaudiomediastream">IAudioMediaStream Interface</a>
  
 
  

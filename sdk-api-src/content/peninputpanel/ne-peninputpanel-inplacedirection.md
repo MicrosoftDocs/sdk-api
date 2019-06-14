@@ -79,7 +79,7 @@ The preferred direction is below the text entry field.
 
 
 
-An application can specify whether the In-Place Input Panel defaults appear above or below a text entry field by setting the <a href="https://msdn.microsoft.com/5d05e315-4e6d-4591-83d8-9cc98f2c2e2b">ITextInputPanel::PreferredInPlaceDirection Property</a> to <b>InPlaceDirection_Bottom</b> or <b>InPlaceDirection_Top</b>. <b>ITextInputPanel::PreferredInPlaceDirection Property</b> is a preference because the In-Place Input Panel overrides the preference set by the application when necessary to keep Input Panel on the screen. The system default is to position the In-Place Input Panel below a text field when possible; otherwise it is positioned above. Setting the <b>ITextInputPanel::PreferredInPlaceDirection Property</b> to <b>InPlaceDirection_Auto</b> restores the system default.
+An application can specify whether the In-Place Input Panel defaults appear above or below a text entry field by setting the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_preferredinplacedirection">ITextInputPanel::PreferredInPlaceDirection Property</a> to <b>InPlaceDirection_Bottom</b> or <b>InPlaceDirection_Top</b>. <b>ITextInputPanel::PreferredInPlaceDirection Property</b> is a preference because the In-Place Input Panel overrides the preference set by the application when necessary to keep Input Panel on the screen. The system default is to position the In-Place Input Panel below a text field when possible; otherwise it is positioned above. Setting the <b>ITextInputPanel::PreferredInPlaceDirection Property</b> to <b>InPlaceDirection_Auto</b> restores the system default.
 
 
 
@@ -89,7 +89,7 @@ An application can specify whether the In-Place Input Panel defaults appear abov
 
 
 
-<a href="https://msdn.microsoft.com/5d05e315-4e6d-4591-83d8-9cc98f2c2e2b">ITextInputPanel::PreferredInPlaceDirection Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_preferredinplacedirection">ITextInputPanel::PreferredInPlaceDirection Property</a>
  
 
  

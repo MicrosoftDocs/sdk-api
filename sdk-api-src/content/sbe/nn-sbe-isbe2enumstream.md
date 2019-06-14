@@ -49,17 +49,17 @@ ms.custom: 19H1
 ## -description
 
 
-Enumerates a collection of streams. This is a utility interface, which you can use to enumerate the streams discovered in a WTV file. The <a href="https://msdn.microsoft.com/435081e9-8a3f-42ab-9091-30c7c3dd59c6">Stream Buffer Source</a> filter implements this interface.
+Enumerates a collection of streams. This is a utility interface, which you can use to enumerate the streams discovered in a WTV file. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter implements this interface.
 
  To get a pointer to this interface,
 <ol>
-<li>Query the filter to get a pointer to the <a href="https://msdn.microsoft.com/299816e7-2dad-44a5-a44d-9c3efe405d9b">ISBE2Crossbar</a> interface.</li>
-<li>Call the  <a href="https://msdn.microsoft.com/891dc676-8930-41bc-a0ae-4a080c6d4cd6">ISBE2Crossbar::EnumStreams</a> method, and take the value returned in the <i>ppstreams</i> output parameter.</li>
+<li>Query the filter to get a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2crossbar">ISBE2Crossbar</a> interface.</li>
+<li>Call the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-enumstreams">ISBE2Crossbar::EnumStreams</a> method, and take the value returned in the <i>ppstreams</i> output parameter.</li>
 </ol>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISBE2EnumStream</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISBE2EnumStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISBE2EnumStream</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISBE2EnumStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>ISBE2EnumStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d68daae6-2aef-4405-883b-a0e7ee6e5eb3">Clone</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2enumstream-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the enumerator object.
@@ -83,7 +83,7 @@ Creates a copy of the enumerator object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c6445927-d7a7-4f45-a7ff-14484161b731">Next</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2enumstream-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the next <i>n</i> streams in the collection.
@@ -92,7 +92,7 @@ Retrieves the next <i>n</i> streams in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/db74d4b5-6564-4fbe-9ea3-0c373be4af44">Reset</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2enumstream-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning.
@@ -101,7 +101,7 @@ Resets the enumeration sequence to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/52979cbc-203b-49ae-9892-db1abfeae94b">Skip</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2enumstream-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips a specified number of streams in the enumeration sequence.

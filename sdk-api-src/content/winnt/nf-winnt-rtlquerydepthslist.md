@@ -61,7 +61,7 @@ Retrieves the number of entries in the specified singly linked list.
 
 A pointer to an <b>SLIST_HEADER</b> structure that represents the head of a singly linked list. This structure is for system use only. 
 
-The list must  be previously initialized with the <a href="https://msdn.microsoft.com/4e34f947-1687-4ea9-aaa1-8d8dc11dad70">InitializeSListHead</a> function.
+The list must  be previously initialized with the <a href="https://docs.microsoft.com/windows/desktop/api/interlockedapi/nf-interlockedapi-initializeslisthead">InitializeSListHead</a> function.
 
 
 ## -returns
@@ -77,7 +77,7 @@ The function returns the number of entries in the list.
 
 
 
-Calls to the <a href="https://msdn.microsoft.com/3f9b4481-647f-457f-bdfb-62e6ae4198e5">QueryDepthSList</a> function are forwarded to the <b>RtlQueryDepthSList</b> function. Applications should call <b>QueryDepthSList</b> instead of calling this function directly.
+Calls to the <a href="https://docs.microsoft.com/windows/desktop/api/interlockedapi/nf-interlockedapi-querydepthslist">QueryDepthSList</a> function are forwarded to the <b>RtlQueryDepthSList</b> function. Applications should call <b>QueryDepthSList</b> instead of calling this function directly.
 
 
 
@@ -87,7 +87,7 @@ Calls to the <a href="https://msdn.microsoft.com/3f9b4481-647f-457f-bdfb-62e6ae4
 
 
 
-<a href="https://msdn.microsoft.com/35463ace-33ab-4eb9-9901-2504a92456e2">Interlocked Singly Linked Lists</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/interlocked-singly-linked-lists">Interlocked Singly Linked Lists</a>
  
 
  

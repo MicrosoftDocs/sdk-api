@@ -279,7 +279,7 @@ The PID of the process that issued a context bind for this TCP connection.
 
 Type: <b>TCP_CONNECTION_OFFLOAD_STATE</b>
 
-The offload state for this TCP connection. This parameter can be one of the enumeration values for the <a href="https://msdn.microsoft.com/cef633e7-1577-4f10-bd14-8d8e85aa78e6">TCP_CONNECTION_OFFLOAD_STATE</a> defined in the <i>Tcpmib.h</i> header.
+The offload state for this TCP connection. This parameter can be one of the enumeration values for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ne-tcpmib-tcp_connection_offload_state">TCP_CONNECTION_OFFLOAD_STATE</a> defined in the <i>Tcpmib.h</i> header.
 
 
 ## -remarks
@@ -288,7 +288,7 @@ The offload state for this TCP connection. This parameter can be one of the enum
 
 The <b>MIB_TCP6ROW2</b> structure is defined on Windows Vista and later. 
 
-The <a href="https://msdn.microsoft.com/435b9198-b921-407c-9441-31cfe77c03f1">GetTcp6Table2</a>function retrieves the IPv6 TCP connection table on the local computer and returns this information in a <a href="https://msdn.microsoft.com/3cb8568e-ce31-4ed1-aa9e-abcb826c0cea">MIB_TCP6TABLE2</a> structure. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcp6table2">GetTcp6Table2</a>function retrieves the IPv6 TCP connection table on the local computer and returns this information in a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6table2">MIB_TCP6TABLE2</a> structure. 
 
 An array of <b>MIB_TCP6ROW2</b> structures are contained in the <b>MIB_TCP6TABLE2</b> structure.  
 
@@ -300,11 +300,11 @@ An array of <b>MIB_TCP6ROW2</b> structures are contained in the <b>MIB_TCP6TABLE
   no connection.  The TCP protocol is described in RFC 793. For more information, see 
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84069">http://www.ietf.org/rfc/rfc793.txt</a>. 
 
-The <b>dwLocalPort</b>, and <b>dwRemotePort</b> members are in network byte order. In order to use the <b>dwLocalPort</b> or <b>dwRemotePort</b> members, the <a href="https://msdn.microsoft.com/9946df13-3b40-4bcb-91ca-10684b3fc9a5">ntohs</a> or <a href="https://msdn.microsoft.com/01cd32e7-a01d-40e8-afb5-69223d643a0e">inet_ntoa</a> functions in Windows Sockets or similar functions may be needed. 
+The <b>dwLocalPort</b>, and <b>dwRemotePort</b> members are in network byte order. In order to use the <b>dwLocalPort</b> or <b>dwRemotePort</b> members, the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-ntohs">ntohs</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa">inet_ntoa</a> functions in Windows Sockets or similar functions may be needed. 
 
-The <b>dwLocalScopeId</b>, and <b>dwRemoteScopeId</b> members are in network byte order. In order to use the <b>dwLocalScopeId</b> or <b>dwRemoteScopeId</b> members, the <a href="https://msdn.microsoft.com/04673bef-22c6-424f-a5ae-689fb648b54e">ntohl</a> or <a href="https://msdn.microsoft.com/01cd32e7-a01d-40e8-afb5-69223d643a0e">inet_ntoa</a> functions in Windows Sockets or similar functions may be needed. 
+The <b>dwLocalScopeId</b>, and <b>dwRemoteScopeId</b> members are in network byte order. In order to use the <b>dwLocalScopeId</b> or <b>dwRemoteScopeId</b> members, the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-ntohl">ntohl</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa">inet_ntoa</a> functions in Windows Sockets or similar functions may be needed. 
 
-The <b>LocalAddr</b> and <b>RemoteAddr</b> members are stored in  <a href="https://msdn.microsoft.com/fc41a2d1-ea6e-41bb-b2c8-531ac8b5434c">in6_addr</a> structures. The <a href="https://msdn.microsoft.com/a891adb0-6c2d-4b69-a0de-4a615be938e3">RtlIpv6AddressToString</a> or <a href="https://msdn.microsoft.com/a7de2da3-21ea-42fa-9474-f33252838632">RtlIpv6AddressToStringEx</a> functions may be used to convert the IPv6 address in the <b>LocalAddr</b> or <b>RemoteAddr</b> members to a string without loading the Windows Sockets DLL. 
+The <b>LocalAddr</b> and <b>RemoteAddr</b> members are stored in  <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-in_addr">in6_addr</a> structures. The <a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlipv6addresstostringa">RtlIpv6AddressToString</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlipv6addresstostringexw">RtlIpv6AddressToStringEx</a> functions may be used to convert the IPv6 address in the <b>LocalAddr</b> or <b>RemoteAddr</b> members to a string without loading the Windows Sockets DLL. 
 
 
 
@@ -314,55 +314,55 @@ The <b>LocalAddr</b> and <b>RemoteAddr</b> members are stored in  <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/77150609-d06d-4492-bbd7-21eecd825bde">GetTcp6Table</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcp6table">GetTcp6Table</a>
 
 
 
-<a href="https://msdn.microsoft.com/435b9198-b921-407c-9441-31cfe77c03f1">GetTcp6Table2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcp6table2">GetTcp6Table2</a>
 
 
 
-<a href="https://msdn.microsoft.com/62bb8544-0a0a-40b5-92cf-9631c9a9987c">MIB_TCP6TABLE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6table">MIB_TCP6TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/3cb8568e-ce31-4ed1-aa9e-abcb826c0cea">MIB_TCP6TABLE2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6table2">MIB_TCP6TABLE2</a>
 
 
 
-<a href="https://msdn.microsoft.com/36364854-caa8-4652-be8e-f741b36d9fd7">MIB_TCPROW</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcprow_lh">MIB_TCPROW</a>
 
 
 
-<a href="https://msdn.microsoft.com/a8ed8ac2-a72f-4099-ac99-a8b0b77b7b84">MIB_TCPTABLE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcptable">MIB_TCPTABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/a891adb0-6c2d-4b69-a0de-4a615be938e3">RtlIpv6AddressToString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlipv6addresstostringa">RtlIpv6AddressToString</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7de2da3-21ea-42fa-9474-f33252838632">RtlIpv6AddressToStringEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlipv6addresstostringexw">RtlIpv6AddressToStringEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/cef633e7-1577-4f10-bd14-8d8e85aa78e6">TCP_CONNECTION_OFFLOAD_STATE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ne-tcpmib-tcp_connection_offload_state">TCP_CONNECTION_OFFLOAD_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/fc41a2d1-ea6e-41bb-b2c8-531ac8b5434c">in6_addr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-in_addr">in6_addr</a>
 
 
 
-<a href="https://msdn.microsoft.com/01cd32e7-a01d-40e8-afb5-69223d643a0e">inet_ntoa</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa">inet_ntoa</a>
 
 
 
-<a href="https://msdn.microsoft.com/04673bef-22c6-424f-a5ae-689fb648b54e">ntohl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-ntohl">ntohl</a>
 
 
 
-<a href="https://msdn.microsoft.com/9946df13-3b40-4bcb-91ca-10684b3fc9a5">ntohs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-ntohs">ntohs</a>
  
 
  

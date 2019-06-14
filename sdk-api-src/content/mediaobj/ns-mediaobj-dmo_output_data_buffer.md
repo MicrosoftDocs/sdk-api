@@ -62,12 +62,12 @@ The <code>DMO_OUTPUT_DATA_BUFFER</code> structure describes an output buffer use
 
 ### -field pBuffer
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd390166(v=VS.85).aspx">IMediaBuffer</a> interface of a buffer allocated by the application.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediabuffer">IMediaBuffer</a> interface of a buffer allocated by the application.
 
 
 ### -field dwStatus
 
-Status flags. After processing output, the DMO sets this member to a bitwise combination of zero or more <a href="https://msdn.microsoft.com/en-us/library/Dd375508(v=VS.85).aspx">DMO_OUTPUT_DATA_BUFFER_FLAGS</a> flags.
+Status flags. After processing output, the DMO sets this member to a bitwise combination of zero or more <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/ne-mediaobj-_dmo_output_data_buffer_flags">DMO_OUTPUT_DATA_BUFFER_FLAGS</a> flags.
 
 
 ### -field rtTimestamp
@@ -85,11 +85,11 @@ Reference time specifying the length of the data in the buffer. If the DMO sets 
 
 
 
-<a href="https://msdn.microsoft.com/82c8ea74-1c5e-4370-9075-6db2ed6b2c91">DMO Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dmo-structures">DMO Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406960(v=VS.85).aspx">IMediaObject::ProcessOutput</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processoutput">IMediaObject::ProcessOutput</a>
  
 
  

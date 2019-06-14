@@ -54,7 +54,7 @@ Provides a mechanism for notifying the app about information regarding the media
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaKeySessionNotify</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFMediaKeySessionNotify</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaKeySessionNotify</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaKeySessionNotify</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFMediaKeySessionNotify</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e61e2a0d-59a5-4776-ba07-d323f1c944a4">KeyAdded</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediakeysessionnotify-keyadded">KeyAdded</a>
 </td>
 <td align="left" width="63%">
 Notifies the application that the key has been added.  
@@ -78,7 +78,7 @@ Notifies the application that the key has been added.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e437b46a-8b25-42c4-b307-b6962b60b452">KeyError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediakeysessionnotify-keyerror">KeyError</a>
 </td>
 <td align="left" width="63%">
 Notifies the application that an error occurred while processing the key.
@@ -87,7 +87,7 @@ Notifies the application that an error occurred while processing the key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/50b0eb38-a212-4c89-80e8-83472b3d45ee">KeyMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediakeysessionnotify-keymessage">KeyMessage</a>
 </td>
 <td align="left" width="63%">
 Passes information to the application so it can initiate a key acquisition.
@@ -102,7 +102,7 @@ Passes information to the application so it can initiate a key acquisition.
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

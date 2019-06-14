@@ -206,9 +206,9 @@ A local interface.
 A static route. This value is used to identify route information for IP routing set through
      network management such as the Dynamic Host Configuration Protocol (DCHP) or the Simple Network
      Management Protocol (SNMP), or by calls to the 
-     <a href="https://msdn.microsoft.com/0afd5568-ef9d-44b6-8601-96f3e87dfe52">CreateIpForwardEntry2</a>, 
-     <a href="https://msdn.microsoft.com/8dce0f55-b017-4a3c-96fa-ce4b3d056831">DeleteIpForwardEntry2</a>, or 
-     <a href="https://msdn.microsoft.com/b1eacbbd-9754-4ee1-a458-3bcdfd69bba1">SetIpForwardEntry2</a> functions.
+     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff546209(v=vs.85)">CreateIpForwardEntry2</a>, 
+     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff546365(v=vs.85)">DeleteIpForwardEntry2</a>, or 
+     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff570773(v=vs.85)">SetIpForwardEntry2</a> functions.
 
 
 #### - MIB_IPPROTO_NT_AUTOSTATIC

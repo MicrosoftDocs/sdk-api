@@ -51,7 +51,7 @@ req.redist:
 Retrieves the volume tag information for the specified elements.
 
 To perform this operation, call the 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -148,19 +148,19 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-<a href="https://msdn.microsoft.com/96148983-48be-466d-be7f-c1dbf6910c20">CHANGER_SEND_VOLUME_TAG_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_changer_send_volume_tag_information">CHANGER_SEND_VOLUME_TAG_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/b3a3ffa1-e710-4d96-aff8-5b6876ab032b">Device Management Control Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/device-management-control-codes">Device Management Control Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/2b7e611b-7db6-4ba6-ae1f-4269a96dbb16">READ_ELEMENT_ADDRESS_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_read_element_address_info">READ_ELEMENT_ADDRESS_INFO</a>
  
 
  

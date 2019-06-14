@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Extends the <a href="https://msdn.microsoft.com/276b44d9-a335-4d4e-8fe9-de03584dadb4">IUIAutomationTransformPattern</a> interface to enable Microsoft UI Automation clients to programmatically access the viewport zooming functionality of a control.
+Extends the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtransformpattern">IUIAutomationTransformPattern</a> interface to enable Microsoft UI Automation clients to programmatically access the viewport zooming functionality of a control.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationTransformPattern2</b> interface inherits from <a href="https://msdn.microsoft.com/276b44d9-a335-4d4e-8fe9-de03584dadb4">IUIAutomationTransformPattern</a>. <b>IUIAutomationTransformPattern2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationTransformPattern2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtransformpattern">IUIAutomationTransformPattern</a>. <b>IUIAutomationTransformPattern2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IUIAutomationTransformPattern2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7CCDDF69-32FA-486C-B319-4D2F7A2407B4">Zoom</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern2-zoom">Zoom</a>
 </td>
 <td align="left" width="63%">
 Zooms the viewport of the control.
@@ -79,7 +79,7 @@ Zooms the viewport of the control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F46358F0-991B-45E1-AEEF-F6EB43B50202">ZoomByUnit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern2-zoombyunit">ZoomByUnit</a>
 </td>
 <td align="left" width="63%">
 Zooms the viewport of the control by the specified unit.
@@ -97,7 +97,7 @@ Zooms the viewport of the control by the specified unit.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/36C0CEFE-8035-42CF-B480-7C9BA02F7BB3">CachedCanZoom</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern2-get_cachedcanzoom">CachedCanZoom</a>
 
 
 </td>
@@ -113,7 +113,7 @@ Retrieves a cached value that indicates whether the control supports zooming of 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/9A0F0459-97F7-44C0-B7F8-11593A69DEBA">CachedZoomLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern2-get_cachedzoomlevel">CachedZoomLevel</a>
 
 
 </td>
@@ -129,7 +129,7 @@ Retrieves the cached zoom level of the control's viewport.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/482C482F-299D-4948-A794-79F3F7465F8D">CachedZoomMaximum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern2-get_cachedzoommaximum">CachedZoomMaximum</a>
 
 
 </td>
@@ -145,7 +145,7 @@ Retrieves the cached maximum zoom level of the control's viewport.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/26C56849-204A-47B3-8734-7A16F5577357">CachedZoomMinimum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern2-get_cachedzoomminimum">CachedZoomMinimum</a>
 
 
 </td>
@@ -161,7 +161,7 @@ Retrieves the cached minimum zoom level of the control's viewport.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/9807080C-2E62-4B3E-AED5-7847748737E3">CurrentCanZoom</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern2-get_currentcanzoom">CurrentCanZoom</a>
 
 
 </td>
@@ -177,7 +177,7 @@ Indicates whether the control supports zooming of its viewport.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/AE4A83CF-FB24-4649-BB8C-88A03B96E8D9">CurrentZoomLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern2-get_currentzoomlevel">CurrentZoomLevel</a>
 
 
 </td>
@@ -193,7 +193,7 @@ Retrieves the zoom level of the control's viewport.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/600A6FCC-7B67-435A-B162-BC0EC8D609B0">CurrentZoomMaximum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern2-get_currentzoommaximum">CurrentZoomMaximum</a>
 
 
 </td>
@@ -209,7 +209,7 @@ Retrieves the maximum zoom level of the control's viewport.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/9393D635-016D-4A31-BCB2-DC4100D7D1CB">CurrentZoomMinimum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern2-get_currentzoomminimum">CurrentZoomMinimum</a>
 
 
 </td>
@@ -230,11 +230,11 @@ Retrieves the minimum zoom level of the control's viewport.
 
 
 
-<a href="https://msdn.microsoft.com/14358ef0-aa54-42c1-a3da-0f835f5f5ef6">Control Pattern Interfaces for Clients</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>
 
 
 
-<a href="https://msdn.microsoft.com/276b44d9-a335-4d4e-8fe9-de03584dadb4">IUIAutomationTransformPattern</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtransformpattern">IUIAutomationTransformPattern</a>
  
 
  

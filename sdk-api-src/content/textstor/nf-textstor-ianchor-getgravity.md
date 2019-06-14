@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IAnchor::GetGravity</b> method retrieves the gravity of the anchor in an <a href="https://msdn.microsoft.com/a7d52959-8386-464f-958d-c870f286b265">IAnchor</a> object.
+The <b>IAnchor::GetGravity</b> method retrieves the gravity of the anchor in an <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a> object.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>IAnchor::GetGravity</b> method retrieves the gravity of the anchor in an 
 
 ### -param pgravity [out]
 
-Pointer that receives a <a href="https://msdn.microsoft.com/12ec85b9-e65f-485d-8e42-164d2a988356">TsGravity</a> value that specifies the anchor gravity.
+Pointer that receives a <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ne-textstor-__midl_ianchor_0001">TsGravity</a> value that specifies the anchor gravity.
 
 
 ## -returns
@@ -106,19 +106,19 @@ The <i>pgravity</i> pointer is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629023(v=VS.85).aspx">Anchor Gravity</a>
+<a href="https://docs.microsoft.com/windows/desktop/TSF/ranges">Anchor Gravity</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7d52959-8386-464f-958d-c870f286b265">IAnchor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a>
 
 
 
-<a href="https://msdn.microsoft.com/c532abcf-9ae0-4566-80f7-0bb4ae908fce">IAnchor::SetGravity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-setgravity">IAnchor::SetGravity</a>
 
 
 
-<a href="https://msdn.microsoft.com/12ec85b9-e65f-485d-8e42-164d2a988356">TsGravity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ne-textstor-__midl_ianchor_0001">TsGravity</a>
  
 
  

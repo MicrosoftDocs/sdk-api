@@ -65,7 +65,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/414492d0-33d5-4b39-9884-36ed44e530cd">ITunerCapEx</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunercapex">ITunerCapEx</a>
  
 
  

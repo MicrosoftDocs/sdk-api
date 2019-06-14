@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Categories of debug messages. This will identify the category of a message when retrieving a message with <a href="https://msdn.microsoft.com/en-us/library/Bb173790(v=VS.85).aspx">ID3D10InfoQueue::GetMessage</a> and when adding a message with <a href="https://msdn.microsoft.com/en-us/library/Bb173781(v=VS.85).aspx">ID3D10InfoQueue::AddMessage</a>. When creating an <a href="https://msdn.microsoft.com/en-us/library/Bb205313(v=VS.85).aspx">info queue filter</a>, these values can be used to allow or deny any categories of messages to pass through the storage and retrieval filters.
+Categories of debug messages. This will identify the category of a message when retrieving a message with <a href="https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/nf-d3d10sdklayers-id3d10infoqueue-getmessage">ID3D10InfoQueue::GetMessage</a> and when adding a message with <a href="https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/nf-d3d10sdklayers-id3d10infoqueue-addmessage">ID3D10InfoQueue::AddMessage</a>. When creating an <a href="https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/ns-d3d10sdklayers-d3d10_info_queue_filter">info queue filter</a>, these values can be used to allow or deny any categories of messages to pass through the storage and retrieval filters.
 
 
 ## -enum-fields
@@ -59,7 +59,7 @@ Categories of debug messages. This will identify the category of a message when 
 
 ### -field D3D10_MESSAGE_CATEGORY_APPLICATION_DEFINED
 
-User defined message. See <a href="https://msdn.microsoft.com/en-us/library/Bb173781(v=VS.85).aspx">ID3D10InfoQueue::AddMessage</a>.
+User defined message. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/nf-d3d10sdklayers-id3d10infoqueue-addmessage">ID3D10InfoQueue::AddMessage</a>.
 
 
 ### -field D3D10_MESSAGE_CATEGORY_MISCELLANEOUS
@@ -98,7 +98,7 @@ User defined message. See <a href="https://msdn.microsoft.com/en-us/library/Bb17
 
 
 
-This is part of the Information Queue feature. See <a href="https://msdn.microsoft.com/en-us/library/Bb173779(v=VS.85).aspx">ID3D10InfoQueue Interface</a>.
+This is part of the Information Queue feature. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/nn-d3d10sdklayers-id3d10infoqueue">ID3D10InfoQueue Interface</a>.
 
 
 
@@ -108,7 +108,7 @@ This is part of the Information Queue feature. See <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-enums">Core Enumerations</a>
  
 
  

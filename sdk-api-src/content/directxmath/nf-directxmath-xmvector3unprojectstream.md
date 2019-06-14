@@ -59,7 +59,7 @@ Transforms a stream of 3D vectors from screen space to object space.
 
 ### -param pOutputStream [out]
 
-Address of the first <a href="https://msdn.microsoft.com/en-us/library/Ee419475(v=VS.85).aspx">XMFLOAT3</a> in the destination stream.
+Address of the first <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat3">XMFLOAT3</a> in the destination stream.
 
 
 ### -param OutputStride [in]
@@ -69,7 +69,7 @@ Stride, in bytes, between vectors in the destination stream.
 
 ### -param pInputStream [in]
 
-Address of the first <a href="https://msdn.microsoft.com/en-us/library/Ee419475(v=VS.85).aspx">XMFLOAT3</a> in the stream to be transformed. X,Y are in pixels, while Z is 0.0 (at <i>ViewportMinZ</i>) to 1.0 (at <i>ViewportMaxZ</i>).
+Address of the first <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat3">XMFLOAT3</a> in the stream to be transformed. X,Y are in pixels, while Z is 0.0 (at <i>ViewportMinZ</i>) to 1.0 (at <i>ViewportMaxZ</i>).
 
 
 ### -param InputStride [in]
@@ -139,7 +139,7 @@ World matrix.
 
 
 
-Returns the address of the first <a href="https://msdn.microsoft.com/en-us/library/Ee419475(v=VS.85).aspx">XMFLOAT3</a> in the destination stream.
+Returns the address of the first <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat3">XMFLOAT3</a> in the destination stream.
 
 
 
@@ -165,7 +165,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/148972da-e460-63b9-6b01-10201f63d157">DirectXMath Library 3D Vector Transformation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector3-transformation">DirectXMath Library 3D Vector Transformation Functions</a>
 
 
 

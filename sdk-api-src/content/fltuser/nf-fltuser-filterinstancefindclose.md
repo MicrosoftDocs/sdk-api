@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>FilterInstanceFindClose</b> function closes the specified minifilter instance search handle. The <a href="https://msdn.microsoft.com/4d397383-eb65-4646-80cd-203495513285">FilterInstanceFindFirst</a> and <a href="https://msdn.microsoft.com/c7305378-1de8-4db0-89a2-2ac342a17620">FilterInstanceFindNext</a> functions use this search handle to locate instances of a minifilter. 
+The <b>FilterInstanceFindClose</b> function closes the specified minifilter instance search handle. The <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindfirst">FilterInstanceFindFirst</a> and <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindnext">FilterInstanceFindNext</a> functions use this search handle to locate instances of a minifilter. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>FilterInstanceFindClose</b> function closes the specified minifilter inst
 
 ### -param hFilterInstanceFind [in]
 
-Minifilter instance search handle to close. This handle must have been opened by a previous call to <a href="https://msdn.microsoft.com/4d397383-eb65-4646-80cd-203495513285">FilterInstanceFindFirst</a>. 
+Minifilter instance search handle to close. This handle must have been opened by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindfirst">FilterInstanceFindFirst</a>. 
 
 
 ## -returns
@@ -75,9 +75,9 @@ Minifilter instance search handle to close. This handle must have been opened by
 
 
 
-After the <b>FilterInstanceFindClose</b> function is called, the minifilter instance search handle specified by the <i>hFilterInstanceFind</i> parameter cannot be used in subsequent calls to <a href="https://msdn.microsoft.com/4d397383-eb65-4646-80cd-203495513285">FilterInstanceFindFirst</a> or <b>FilterInstanceFindClose</b>. 
+After the <b>FilterInstanceFindClose</b> function is called, the minifilter instance search handle specified by the <i>hFilterInstanceFind</i> parameter cannot be used in subsequent calls to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindfirst">FilterInstanceFindFirst</a> or <b>FilterInstanceFindClose</b>. 
 
-Use <b>FilterInstanceFindClose</b> to close handles returned by calls to <a href="https://msdn.microsoft.com/4d397383-eb65-4646-80cd-203495513285">FilterInstanceFindFirst</a>. Use <a href="https://msdn.microsoft.com/a0605b02-a5eb-4e7f-9659-0f0f538ea153">FilterInstanceClose</a> to close handles returned by calls to <a href="https://msdn.microsoft.com/eb29fefc-285a-4a77-b1f6-1d42d029b7b7">FilterInstanceCreate</a>. 
+Use <b>FilterInstanceFindClose</b> to close handles returned by calls to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindfirst">FilterInstanceFindFirst</a>. Use <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstanceclose">FilterInstanceClose</a> to close handles returned by calls to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancecreate">FilterInstanceCreate</a>. 
 
 
 
@@ -87,19 +87,19 @@ Use <b>FilterInstanceFindClose</b> to close handles returned by calls to <a href
 
 
 
-<a href="https://msdn.microsoft.com/a0605b02-a5eb-4e7f-9659-0f0f538ea153">FilterInstanceClose</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstanceclose">FilterInstanceClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb29fefc-285a-4a77-b1f6-1d42d029b7b7">FilterInstanceCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancecreate">FilterInstanceCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/4d397383-eb65-4646-80cd-203495513285">FilterInstanceFindFirst</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindfirst">FilterInstanceFindFirst</a>
 
 
 
-<a href="https://msdn.microsoft.com/c7305378-1de8-4db0-89a2-2ac342a17620">FilterInstanceFindNext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindnext">FilterInstanceFindNext</a>
  
 
  

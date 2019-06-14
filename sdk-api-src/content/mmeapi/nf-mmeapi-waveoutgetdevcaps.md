@@ -67,7 +67,7 @@ Identifier of the waveform-audio output device. It can be either a device identi
 
 ### -param pwoc
 
-Pointer to a <a href="https://msdn.microsoft.com/756f47fa-c0d1-4729-a0f6-096a1212d0a2">WAVEOUTCAPS</a> structure to be filled with information about the capabilities of the device.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd743855(v=vs.85)">WAVEOUTCAPS</a> structure to be filled with information about the capabilities of the device.
 
 
 ### -param cbwoc
@@ -139,11 +139,11 @@ Use the <b>waveOutGetNumDevs</b> function to determine the number of waveform-au
 
 
 
-<a href="https://msdn.microsoft.com/3188355c-65be-4372-8e87-e7f755982592">Waveform Audio</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c8aaa54-0477-484f-91e1-d2152aa9c185">Waveform Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>
  
 
  

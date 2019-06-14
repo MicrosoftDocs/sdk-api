@@ -73,7 +73,7 @@ The number of UTF16 units of the reported range.
 
 ### -param lineBreakpoints [in]
 
-Type: <b><a href="https://msdn.microsoft.com/6f2b26e9-95b3-4ac5-ba8e-7055f873d1da">DWRITE_LINE_BREAKPOINT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_line_breakpoint">DWRITE_LINE_BREAKPOINT</a>*</b>
 
 A pointer to a structure that contains breaking conditions set for each character from the starting position to the end of the specified range.
 
@@ -94,7 +94,7 @@ A successful code or error code to stop analysis.
 
 
 
-<a href="https://msdn.microsoft.com/1fd2ca46-006c-4b01-8258-6c24f4be1641">IDWriteTextAnalysisSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextanalysissink">IDWriteTextAnalysisSink</a>
  
 
  

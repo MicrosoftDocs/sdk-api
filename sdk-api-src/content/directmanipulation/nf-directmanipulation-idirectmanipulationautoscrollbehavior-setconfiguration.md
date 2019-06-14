@@ -59,12 +59,12 @@ Performs the auto-scroll animation for the viewport this behavior is attached to
 
 ### -param motionTypes [in]
 
-A combination of <b>DIRECTMANIPULATION_MOTION_TRANSLATEX</b> and <b>DIRECTMANIPULATION_MOTION_TRANSLATEY</b> from <a href="https://msdn.microsoft.com/a0b4da55-3ebb-4281-a372-4bc6b91e6789">DIRECTMANIPULATION_MOTION_TYPES</a>. <b>DIRECTMANIPULATION_MOTION_NONE</b> cannot be specified.
+A combination of <b>DIRECTMANIPULATION_MOTION_TRANSLATEX</b> and <b>DIRECTMANIPULATION_MOTION_TRANSLATEY</b> from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_motion_types">DIRECTMANIPULATION_MOTION_TYPES</a>. <b>DIRECTMANIPULATION_MOTION_NONE</b> cannot be specified.
 
 
 ### -param scrollMotion [in]
 
-One of the values from <a href="https://msdn.microsoft.com/1184DD40-D615-440F-8B87-D53A475F8313">DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION</a>. 
+One of the values from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_autoscroll_configuration">DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION</a>. 
 
 
 ## -returns
@@ -99,7 +99,7 @@ spAutoScrollBehavior->SetConfiguration(DIRECTMANIPULATION_MOTION_TRANSLATEX, DIR
 
 
 
-<a href="https://msdn.microsoft.com/6E847EE2-231C-4B09-955A-F546CC790E3C">IDirectManipulationAutoScrollBehavior</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationautoscrollbehavior">IDirectManipulationAutoScrollBehavior</a>
  
 
  

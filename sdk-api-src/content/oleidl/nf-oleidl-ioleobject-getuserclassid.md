@@ -59,7 +59,7 @@ Retrieves an object's class identifier, the CLSID corresponding to the string id
 
 ### -param pClsid [out]
 
-Pointer to the class identifier (CLSID) to be returned. An object's CLSID is the binary equivalent of the user-type name returned by <a href="https://msdn.microsoft.com/8ffffa01-d118-4955-84d1-a4659ba9ddc9">IOleObject::GetUserType</a>.
+Pointer to the class identifier (CLSID) to be returned. An object's CLSID is the binary equivalent of the user-type name returned by <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getusertype">IOleObject::GetUserType</a>.
 
 
 ## -returns
@@ -94,7 +94,7 @@ The operation failed.
 
 
 
-<b>IOleObject::GetUserClassID</b> returns the CLSID associated with the object in the registration database. Normally, this value is identical to the CLSID stored with the object, which is returned by <a href="https://msdn.microsoft.com/921a3b86-a240-454e-9411-8d653e02b90e">IPersist::GetClassID</a>. For linked objects, this is the CLSID of the last bound link source. If the object is running in an application different from the one in which it was created and for the purpose of being edited is emulating a class that the container application recognizes, the CLSID returned will be that of the class being emulated rather than that of the object's own class.
+<b>IOleObject::GetUserClassID</b> returns the CLSID associated with the object in the registration database. Normally, this value is identical to the CLSID stored with the object, which is returned by <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersist-getclassid">IPersist::GetClassID</a>. For linked objects, this is the CLSID of the last bound link source. If the object is running in an application different from the one in which it was created and for the purpose of being edited is emulating a class that the container application recognizes, the CLSID returned will be that of the class being emulated rather than that of the object's own class.
 
 
 
@@ -104,31 +104,31 @@ The operation failed.
 
 
 
-<a href="https://msdn.microsoft.com/748649a2-cf75-4ffa-ac1f-4a148b845d21">GetConvertStg</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-getconvertstg">GetConvertStg</a>
 
 
 
-<a href="https://msdn.microsoft.com/58b32c87-39b6-4d64-9174-cf798ed302c2">IOleObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ffffa01-d118-4955-84d1-a4659ba9ddc9">IOleObject::GetUserType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getusertype">IOleObject::GetUserType</a>
 
 
 
-<a href="https://msdn.microsoft.com/921a3b86-a240-454e-9411-8d653e02b90e">IPersist::GetClassID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersist-getclassid">IPersist::GetClassID</a>
 
 
 
-<a href="https://msdn.microsoft.com/fe470f8a-b2f0-48a4-a270-77420bd1472a">OleDoAutoConvert</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oledoautoconvert">OleDoAutoConvert</a>
 
 
 
-<a href="https://msdn.microsoft.com/39abf385-962a-4b20-b319-501c8130e050">OleSetAutoConvert</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olesetautoconvert">OleSetAutoConvert</a>
 
 
 
-<a href="https://msdn.microsoft.com/98c8fd20-6384-4656-941c-1f24d9a4d4a9">SetConvertStg</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-setconvertstg">SetConvertStg</a>
  
 
  

@@ -52,9 +52,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>RegisterPointerInputTargetEx</b> is not supported and may be altered or unavailable in the future. Instead, use <a href="https://msdn.microsoft.com/75faea24-91cd-448b-b67a-09fe530f1830">RegisterPointerInputTarget</a>.]
+<p class="CCE_Message">[<b>RegisterPointerInputTargetEx</b> is not supported and may be altered or unavailable in the future. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerpointerinputtarget">RegisterPointerInputTarget</a>.]
 
-<b>RegisterPointerInputTargetEx</b> may be altered or unavailable. Instead, use <a href="https://msdn.microsoft.com/75faea24-91cd-448b-b67a-09fe530f1830">RegisterPointerInputTarget</a>.
+<b>RegisterPointerInputTargetEx</b> may be altered or unavailable. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerpointerinputtarget">RegisterPointerInputTarget</a>.
 
 
 ## -parameters
@@ -91,7 +91,7 @@ Not supported.
 
 
 
-<a href="https://msdn.microsoft.com/75faea24-91cd-448b-b67a-09fe530f1830">RegisterPointerInputTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerpointerinputtarget">RegisterPointerInputTarget</a>
  
 
  

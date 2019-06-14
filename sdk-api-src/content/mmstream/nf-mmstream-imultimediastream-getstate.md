@@ -64,7 +64,7 @@ The <code>GetState</code> method retrieves the current state of the multimedia s
 
 ### -param pCurrentState [out]
 
-Pointer to a variable that receives a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd407156(v=VS.85).aspx">STREAM_STATE</a> enumeration.
+Pointer to a variable that receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mmstream/ne-mmstream-__midl___midl_itf_mmstream_0000_0000_0002">STREAM_STATE</a> enumeration.
 
 
 ## -returns
@@ -111,7 +111,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390325(v=VS.85).aspx">IMultiMediaStream Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-imultimediastream">IMultiMediaStream Interface</a>
  
 
  

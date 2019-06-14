@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies how a geometry is simplified to an <a href="https://msdn.microsoft.com/cf877a25-7b9f-4db0-ac53-b4a350795a86">ID2D1SimplifiedGeometrySink</a>.
+Specifies how a geometry is simplified to an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a>.
 
 
 ## -enum-fields
@@ -77,7 +77,7 @@ The output is flattened so that it contains only line segments.
 
 
 
-<a href="https://msdn.microsoft.com/49f73c2d-9f86-482f-8289-fef28a461e01">ID2D1Geometry::Simplify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-simplify(d2d1_geometry_simplification_option_constd2d1_matrix_3x2_f_id2d1simplifiedgeometrysink)">ID2D1Geometry::Simplify</a>
  
 
  

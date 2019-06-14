@@ -52,7 +52,7 @@ ms.custom: 19H1
 The 
 <b>FILEPATHS</b> structure stores source and target path information. The setup functions send the 
 <b>FILEPATHS</b> structure as a parameter in several of the notifications sent to callback routines. For more information, see 
-<a href="https://msdn.microsoft.com/93434558-ae83-4ea2-9324-659e5873a8c3">Notifications</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/notifications">Notifications</a>.
 
 
 ## -struct-fields
@@ -73,7 +73,7 @@ Path to the source file. This member is not used when the
 
 ### -field Win32Error
 
-If an error occurs, this member is the <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. If no error has occurred, it is  NO_ERROR.
+If an error occurs, this member is the <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. If no error has occurred, it is  NO_ERROR.
 
 
 ### -field Flags
@@ -85,7 +85,7 @@ Additional information that depends on the notification sent with the
 
 
 For 
-<a href="https://msdn.microsoft.com/d6096954-c6a5-44d4-a358-c1320c50730a">SPFILENOTIFY_COPYERROR</a> notifications, <b>Flags</b> specifies dialog box behavior and can be one of the following values.
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/spfilenotify-copyerror">SPFILENOTIFY_COPYERROR</a> notifications, <b>Flags</b> specifies dialog box behavior and can be one of the following values.
 
 <table>
 <tr>
@@ -126,7 +126,7 @@ Inform the user that skipping the file may affect the installation.
  
 
 For 
-<a href="https://msdn.microsoft.com/a0b38e2b-2390-49e5-b288-77c31636e696">SPFILENOTIFY_FILEOPDELAYED</a> notifications, <b>Flags</b> specifies the type of file operation delayed and can be one of the following values.
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/spfilenotify-fileopdelayed">SPFILENOTIFY_FILEOPDELAYED</a> notifications, <b>Flags</b> specifies the type of file operation delayed and can be one of the following values.
 
 <table>
 <tr>
@@ -162,11 +162,11 @@ A file delete operation was delayed.
 
 
 
-<a href="https://msdn.microsoft.com/58201596-cb8c-480a-abef-896c1f9ef098">Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/837F1864-CE2F-4A9A-A7D9-18EB8622541E">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/structures--setup-api-">Structures</a>
  
 
  

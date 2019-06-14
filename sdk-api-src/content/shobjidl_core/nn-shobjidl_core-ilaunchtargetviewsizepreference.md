@@ -54,7 +54,7 @@ Provides a method for retrieving the preferred view size for a new application w
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILaunchTargetViewSizePreference</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ILaunchTargetViewSizePreference</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILaunchTargetViewSizePreference</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILaunchTargetViewSizePreference</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ILaunchTargetViewSizePreference</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2C852FD1-09FD-45B6-A493-07DEE72BEA4C">GetTargetViewSizePreference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ilaunchtargetviewsizepreference-gettargetviewsizepreference">GetTargetViewSizePreference</a>
 </td>
 <td align="left" width="63%">
 Retrieves the preferred view size of the application being launched.
@@ -84,11 +84,11 @@ Retrieves the preferred view size of the application being launched.
 
 
 
-<a href="https://msdn.microsoft.com/94436BC1-658E-4D33-866D-9C05282291A8">ILaunchSourceViewSizePreference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ilaunchsourceviewsizepreference">ILaunchSourceViewSizePreference</a>
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>ExtractFilesEx</b> method extracts the embedded .cab file from a module and then writes those files to the destination directory. For more information, see the 
-<a href="https://msdn.microsoft.com/8b063052-4f92-466a-9c52-bda26ed13d5c">ExtractFilesEx</a> method of the 
-<a href="https://msdn.microsoft.com/3f76ee8a-d195-4a69-99a3-31ef2c1c72d5">Merge</a> object. 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-extractfilesex">ExtractFilesEx</a> method of the 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-object">Merge</a> object. 
 
 
 ## -parameters
@@ -172,7 +172,7 @@ Any files in the destination directory with the same name are overwritten. The p
 
 
 
-<a href="https://msdn.microsoft.com/877d3691-948f-4aea-89d8-0ff008126ccc">Merge Module Automation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
  
 
  

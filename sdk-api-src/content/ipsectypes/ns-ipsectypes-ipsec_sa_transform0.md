@@ -61,42 +61,42 @@ The <b>IPSEC_SA_TRANSFORM0</b> structure is used to store an IPsec security asso
 
 Type of the SA transform.
 
-See <a href="https://msdn.microsoft.com/068f17f2-8696-4419-9daa-d8f6486e39a3">IPSEC_TRANSFORM_TYPE</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_transform_type_">IPSEC_TRANSFORM_TYPE</a> for more information.
 
 
 ### -field ahTransform
 
 SA transform data. Available when <b>ipsecTransformType</b> is <b>IPSEC_TRANSFORM_AH</b>.
 
-See <a href="https://msdn.microsoft.com/26464393-7dc4-4a94-af46-25148c61bdb5">IPSEC_AUTH_TRANSFORM0</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_auth_transform0_">IPSEC_AUTH_TRANSFORM0</a> for more information.
 
 
 ### -field espAuthTransform
 
 SA transform data. Available when <b>ipsecTransformType</b> is <b>IPSEC_TRANSFORM_ESP_AUTH</b>.
 
-See <a href="https://msdn.microsoft.com/26464393-7dc4-4a94-af46-25148c61bdb5">IPSEC_AUTH_TRANSFORM0</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_auth_transform0_">IPSEC_AUTH_TRANSFORM0</a> for more information.
 
 
 ### -field espCipherTransform
 
 SA transform data. Available when <b>ipsecTransformType</b> is <b>IPSEC_TRANSFORM_ESP_CIPHER</b>.
 
-See <a href="https://msdn.microsoft.com/d8a9515a-943b-4f00-bfa9-948a9da9c060">IPSEC_CIPHER_TRANSFORM0</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_cipher_transform0_">IPSEC_CIPHER_TRANSFORM0</a> for more information.
 
 
 ### -field espAuthAndCipherTransform
 
 SA transform data. Available when <b>ipsecTransformType</b> is <b>IPSEC_TRANSFORM_ESP_AUTH_AND_CIPHER</b>.
 
-See <a href="https://msdn.microsoft.com/en-us/library/Aa366268(v=VS.85).aspx">IPSEC_AUTH_AND_CIPHER_TRANSFORM0</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_auth_and_cipher_transform0_">IPSEC_AUTH_AND_CIPHER_TRANSFORM0</a> for more information.
 
 
 ### -field espAuthFwTransform
 
 SA transform data. Available when <b>ipsecTransformType</b> is <b>IPSEC_TRANSFORM_ESP_AUTH_FW</b>.
 
-See <a href="https://msdn.microsoft.com/26464393-7dc4-4a94-af46-25148c61bdb5">IPSEC_AUTH_TRANSFORM0</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_auth_transform0_">IPSEC_AUTH_TRANSFORM0</a> for more information.
 
 
 <div class="alert"><b>Note</b>  Available only on Windows Server 2008 R2, Windows 7, or later.</div>
@@ -108,7 +108,7 @@ See <a href="https://msdn.microsoft.com/26464393-7dc4-4a94-af46-25148c61bdb5">IP
 
 
 
-<b>IPSEC_SA_TRANSFORM0</b> is a specific implementation of IPSEC_SA_TRANSFORM. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>IPSEC_SA_TRANSFORM0</b> is a specific implementation of IPSEC_SA_TRANSFORM. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -118,23 +118,23 @@ See <a href="https://msdn.microsoft.com/26464393-7dc4-4a94-af46-25148c61bdb5">IP
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa366268(v=VS.85).aspx">IPSEC_AUTH_AND_CIPHER_TRANSFORM0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_auth_and_cipher_transform0_">IPSEC_AUTH_AND_CIPHER_TRANSFORM0</a>
 
 
 
-<a href="https://msdn.microsoft.com/26464393-7dc4-4a94-af46-25148c61bdb5">IPSEC_AUTH_TRANSFORM0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_auth_transform0_">IPSEC_AUTH_TRANSFORM0</a>
 
 
 
-<a href="https://msdn.microsoft.com/d8a9515a-943b-4f00-bfa9-948a9da9c060">IPSEC_CIPHER_TRANSFORM0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_cipher_transform0_">IPSEC_CIPHER_TRANSFORM0</a>
 
 
 
-<a href="https://msdn.microsoft.com/068f17f2-8696-4419-9daa-d8f6486e39a3">IPSEC_TRANSFORM_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_transform_type_">IPSEC_TRANSFORM_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

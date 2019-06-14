@@ -63,7 +63,7 @@ Removes this element from the selection.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -85,19 +85,19 @@ An error code is returned if this element is the only one in the selection and t
 
 
 
-<a href="https://msdn.microsoft.com/e3d90861-1926-4294-b14b-f4c61a4f9176">AddToSelection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationselectionitempattern-addtoselection">AddToSelection</a>
 
 
 
-<a href="https://msdn.microsoft.com/608c9b6d-bc53-4d6d-8747-897ac9a24571">CurrentIsSelectionRequired</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationselectionpattern-get_currentisselectionrequired">CurrentIsSelectionRequired</a>
 
 
 
-<a href="https://msdn.microsoft.com/b76d5003-b9af-4a48-91d3-8075f45cf131">IUIAutomationSelectionItemPattern</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationselectionitempattern">IUIAutomationSelectionItemPattern</a>
 
 
 
-<a href="https://msdn.microsoft.com/676d3fef-77b8-4f02-9a89-a7471898598f">Select</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationselectionitempattern-select">Select</a>
  
 
  

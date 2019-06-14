@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the first visible item in a tree-view control window. You can use this macro, or you can explicitly send the <a href="https://msdn.microsoft.com/en-us/library/Bb773622(v=VS.85).aspx">TVM_GETNEXTITEM</a> message with the TVGN_FIRSTVISIBLE flag. 
+Retrieves the first visible item in a tree-view control window. You can use this macro, or you can explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getnextitem">TVM_GETNEXTITEM</a> message with the TVGN_FIRSTVISIBLE flag. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Retrieves the first visible item in a tree-view control window. You can use this
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control. 
 
@@ -73,19 +73,19 @@ Handle to the tree-view control.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773610(v=VS.85).aspx">TVM_GETITEMRECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getitemrect">TVM_GETITEMRECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773855(v=VS.85).aspx">TreeView_GetLastVisible</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_getlastvisible">TreeView_GetLastVisible</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773870(v=VS.85).aspx">TreeView_GetNextVisible</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_getnextvisible">TreeView_GetNextVisible</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773878(v=VS.85).aspx">TreeView_GetPrevVisible</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_getprevvisible">TreeView_GetPrevVisible</a>
  
 
  

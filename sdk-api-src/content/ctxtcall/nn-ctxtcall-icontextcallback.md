@@ -55,7 +55,7 @@ Provides a mechanism to execute a function inside a specific COM+ object context
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContextCallback</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IContextCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContextCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IContextCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IContextCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7446792e-7f29-4ad4-8245-b86f63f2df18">ContextCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctxtcall/nf-ctxtcall-icontextcallback-contextcallback">ContextCallback</a>
 </td>
 <td align="left" width="63%">
 Enters the object context, executes the specified function, and returns.
@@ -84,7 +84,7 @@ Enters the object context, executes the specified function, and returns.
 
 
 
- An instance of this interface for the current context can be obtained using <a href="https://msdn.microsoft.com/97a0c6c3-a011-44dc-b428-aabdad7d4364">CoGetObjectContext</a>.
+ An instance of this interface for the current context can be obtained using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetobjectcontext">CoGetObjectContext</a>.
 
 
 

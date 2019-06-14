@@ -59,7 +59,7 @@ ms.custom: 19H1
 
 ### -param HComDB [in]
 
-Handle to the COM port database that is returned by <a href="https://msdn.microsoft.com/6ae22de0-b71e-441d-af12-8518a3f474e3">ComDBOpen</a>.
+Handle to the COM port database that is returned by <a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-comdbopen">ComDBOpen</a>.
 
 
 ### -param ComNumber [out]
@@ -158,7 +158,7 @@ An internal error occurred; call <b>GetLastError</b> to get extended error infor
 
 <b>ComDBClaimNextFreePort</b> runs in user mode.
 
-For more information, see <a href="https://msdn.microsoft.com/c9baf147-6e33-4ed2-b682-c141938eb0da">Obtaining and Releasing a COM Port Number</a>.
+For more information, see <a href="https://docs.microsoft.com/previous-versions//ff546481(v=vs.85)">Obtaining and Releasing a COM Port Number</a>.
 
 
 
@@ -168,11 +168,11 @@ For more information, see <a href="https://msdn.microsoft.com/c9baf147-6e33-4ed2
 
 
 
-<a href="https://msdn.microsoft.com/d0baa783-1039-41a4-8bb1-78c977ed62b6">ComDBClaimPort</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-comdbclaimport">ComDBClaimPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/bece99c5-75de-4ab4-be26-14dc8cc1819c">ComDBReleasePort</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-comdbreleaseport">ComDBReleasePort</a>
  
 
  

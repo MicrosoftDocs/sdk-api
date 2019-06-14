@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>ICDRAWSUGGEST</b> structure contains compression parameters used with the <a href="https://msdn.microsoft.com/e3e97790-dbd1-4436-9830-5218ae1f949b">ICM_DRAW_SUGGESTFORMAT</a> message to suggest an appropriate input format.
+The <b>ICDRAWSUGGEST</b> structure contains compression parameters used with the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-suggestformat">ICM_DRAW_SUGGESTFORMAT</a> message to suggest an appropriate input format.
 
 
 
@@ -100,7 +100,7 @@ Handle to a decompressor that supports the format of data described in <b>lpbiIn
 
 
 
-<a href="https://msdn.microsoft.com/e3e97790-dbd1-4436-9830-5218ae1f949b">ICM_DRAW_SUGGESTFORMAT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-suggestformat">ICM_DRAW_SUGGESTFORMAT</a>
 
 
 
@@ -108,7 +108,7 @@ Video Compression Manager
 
 
 
-<a href="https://msdn.microsoft.com/129a65a7-cac3-47e0-9e9c-6e5a4a260c73">Video Compression Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>
  
 
  

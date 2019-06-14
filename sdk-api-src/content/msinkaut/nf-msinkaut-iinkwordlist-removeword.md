@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 
-Removes a single word from an <a href="https://msdn.microsoft.com/d189fd13-ec69-45dc-8be4-fea48f337636">InkWordList</a>.
+Removes a single word from an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList</a>.
 
 
 
@@ -64,9 +64,9 @@ Removes a single word from an <a href="https://msdn.microsoft.com/d189fd13-ec69-
 
 ### -param RemoveWord [in]
 
-The word to remove from the <a href="https://msdn.microsoft.com/d189fd13-ec69-45dc-8be4-fea48f337636">InkWordList</a>.
+The word to remove from the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList</a>.
 
-For more information about the BSTR data type, see <a href="https://msdn.microsoft.com/fa43fad9-804c-42d9-9717-6686d5f98ed8">Using the COM Library</a>.
+For more information about the BSTR data type, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
 
 ## -returns
@@ -155,7 +155,7 @@ If a string is added to a word list, its capitalized versions are also implicitl
 
 
 
-<a href="https://msdn.microsoft.com/bc1a5901-9a31-4f1b-bdbb-47316d0ab9e4">AddWord Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist-addword">AddWord Method</a>
 
 
 
@@ -163,7 +163,7 @@ If a string is added to a word list, its capitalized versions are also implicitl
 
 
 
-<a href="https://msdn.microsoft.com/d189fd13-ec69-45dc-8be4-fea48f337636">InkWordList Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList Class</a>
  
 
  

@@ -59,7 +59,7 @@ Gets a specific connection profile associated with the given Mobile Broadband de
 
 ### -param mbnInterface [in]
 
-An <a href="https://msdn.microsoft.com/958bce42-4772-4706-8900-1f83c5d3d52b">IMbnInterface</a> that represents the device for which the profile request applies.  If <i>mbnInterface</i> is <b>NULL</b>, then this function will return the profile of the given name associated with any device in the system.
+An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a> that represents the device for which the profile request applies.  If <i>mbnInterface</i> is <b>NULL</b>, then this function will return the profile of the given name associated with any device in the system.
 
 
 ### -param profileName [in]
@@ -69,7 +69,7 @@ A null-terminated string that contains the name of the connection profile.
 
 ### -param connectionProfile [out, retval]
 
-An <a href="https://msdn.microsoft.com/f7730efe-e367-4642-8482-2a23052bab0c">IMbnConnectionProfile</a> interface that represents the desired connection profile.  If this method returns anything other than <b>S_OK</b>, this is <b>NULL</b>.
+An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofile">IMbnConnectionProfile</a> interface that represents the desired connection profile.  If this method returns anything other than <b>S_OK</b>, this is <b>NULL</b>.
 
 
 ## -returns
@@ -150,7 +150,7 @@ A profile with the given name does not exist.
 
 A connection profile is associated with the subscriber ID of the device. For GSM devices the subscriber ID is the International Mobile Subscriber Identity (IMSI) of the SIM.  For CDMA devices it is the Mobile Identification Number (MIN) string or the International Roaming MIN (IRM) string. 
 
-If a new profile has been created using <a href="https://msdn.microsoft.com/b9c191cc-aa6f-4548-ad4a-f2b9808c5f23">CreateConnectionProfile</a>, then the caller must wait for the <a href="https://msdn.microsoft.com/94338c8c-2a89-412f-811e-5c50ecd9be70">OnConnectionProfileArrival</a> event to be received before calling <b>GetConnectionProfile</b> with the new profile's name; otherwise, the <b>GetConnectionProfile</b> API call may fail with <b>HRESULT_FROM_WIN32(ERROR_NOT_FOUND)</b>.
+If a new profile has been created using <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanager-createconnectionprofile">CreateConnectionProfile</a>, then the caller must wait for the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanagerevents-onconnectionprofilearrival">OnConnectionProfileArrival</a> event to be received before calling <b>GetConnectionProfile</b> with the new profile's name; otherwise, the <b>GetConnectionProfile</b> API call may fail with <b>HRESULT_FROM_WIN32(ERROR_NOT_FOUND)</b>.
 
 
 
@@ -161,7 +161,7 @@ If a new profile has been created using <a href="https://msdn.microsoft.com/b9c1
 
 
 
-<a href="https://msdn.microsoft.com/a55e4183-f914-4064-a391-3bd31ca59160">IMbnConnectionProfileManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofilemanager">IMbnConnectionProfileManager</a>
  
 
  

@@ -113,7 +113,7 @@ The attribute is an IPv6 address.
 
 
 
-<a href="https://msdn.microsoft.com/84ed435c-c6e8-41e7-9a5f-acd78fce4a10">ATTRIBUTEINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_attributeinfo">ATTRIBUTEINFO</a>
  
 
  

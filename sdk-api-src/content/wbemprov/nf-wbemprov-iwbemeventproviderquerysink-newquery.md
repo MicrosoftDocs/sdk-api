@@ -63,7 +63,7 @@ Call the
 ### -param dwId [in]
 
 Windows Management-generated identifier for the query. The provider can track this so that during a later call to 
-<a href="https://msdn.microsoft.com/fdb56ea9-bd1a-436e-aaa7-3ae11e10f38e">CancelQuery</a> so that the provider will know which query was canceled.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventproviderquerysink-cancelquery">CancelQuery</a> so that the provider will know which query was canceled.
 
 
 ### -param wszQueryLanguage [in]
@@ -94,19 +94,19 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 If a consumer registers an event filter query with Windows Management and the query contains references to events provided by the current event provider, Windows Management can notify the event provider of the query.
 
 If the provider implements the 
-<a href="https://msdn.microsoft.com/76a29d81-33c2-489f-a71d-2e85ba2617bf">IWbemEventProviderQuerySink</a> interface, Windows Management will provide a copy of the query text to the provider. The provider should parse the query, and determine if it can perform any internal optimization.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbemeventproviderquerysink">IWbemEventProviderQuerySink</a> interface, Windows Management will provide a copy of the query text to the provider. The provider should parse the query, and determine if it can perform any internal optimization.
 
 Windows Management does not expect a provider to alter its behavior in any way. Rather, this is an advisory call to assist the provider with internal optimization.
 
 For example, if the provider is capable of providing many hundreds of events, but the required overhead for providing all of them is great, the provider can achieve substantial savings if it knows that most of these events are not required by the current set of event consumers. If the provider implements 
-<a href="https://msdn.microsoft.com/76a29d81-33c2-489f-a71d-2e85ba2617bf">IWbemEventProviderQuerySink</a>, it will know about the current set of events requested by all consumers. It may be able to avoid setting up the mechanisms for delivering most of the event types that it supports until consumers actually begin requesting such events.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbemeventproviderquerysink">IWbemEventProviderQuerySink</a>, it will know about the current set of events requested by all consumers. It may be able to avoid setting up the mechanisms for delivering most of the event types that it supports until consumers actually begin requesting such events.
 
 For each new consumer query filter, a separate call to this method with a unique dwId will be made. Be aware that Windows Management reserves the right to call 
 <b>NewQuery</b> more than one time for the same dwId value; for example, if there is a schema change elsewhere in the system. For this version of WMI, the query language is always "WQL".
 
 The 
 <b>IWbemEventProviderQuerySink::NewQuery</b> method can be called before the 
-<a href="https://msdn.microsoft.com/0ebabdaf-fd91-49f8-8454-38ff77952662">IWbemEventProvider::ProvideEvents</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventprovider-provideevents">IWbemEventProvider::ProvideEvents</a> method.
 
 
 
@@ -116,11 +116,11 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/76a29d81-33c2-489f-a71d-2e85ba2617bf">IWbemEventProviderQuerySink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbemeventproviderquerysink">IWbemEventProviderQuerySink</a>
 
 
 
-<a href="https://msdn.microsoft.com/fdb56ea9-bd1a-436e-aaa7-3ae11e10f38e">IWbemEventProviderQuerySink::CancelQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventproviderquerysink-cancelquery">IWbemEventProviderQuerySink::CancelQuery</a>
  
 
  

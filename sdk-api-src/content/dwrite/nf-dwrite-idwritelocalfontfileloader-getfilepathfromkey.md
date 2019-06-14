@@ -102,7 +102,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/acb777c8-24c6-452e-8f58-8fb2ad8c0b6c">IDWriteLocalFontFileLoader</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritelocalfontfileloader">IDWriteLocalFontFileLoader</a>
  
 
  

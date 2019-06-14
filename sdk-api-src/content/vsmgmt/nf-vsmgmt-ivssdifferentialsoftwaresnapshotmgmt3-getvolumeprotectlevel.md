@@ -74,7 +74,7 @@ The name must be in one of the following formats and must include a trailing bac
 
 ### -param protectionLevel [out]
 
-The address of a caller-allocated buffer that receives a <a href="https://msdn.microsoft.com/46cdc46e-fc44-452a-8aae-e47c12deedb4">VSS_VOLUME_PROTECTION_INFO</a> structure containing information about the volume's shadow copy protection level.
+The address of a caller-allocated buffer that receives a <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-_vss_volume_protection_info">VSS_VOLUME_PROTECTION_INFO</a> structure containing information about the volume's shadow copy protection level.
 
 
 ## -returns
@@ -143,7 +143,7 @@ The provider for the volume does not support shadow copy protection.
 </dl>
 </td>
 <td width="60%">
-An expected provider error has occurred. The error code is logged in the event log. For more information, see <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+An expected provider error has occurred. The error code is logged in the event log. For more information, see <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -169,9 +169,9 @@ The specified volume was not found.
 
 
 
-The <b>GetVolumeProtectLevel</b> method gets information about the volume's current protection level. If the volume is in a faulted state, the <b>m_protectionFault</b> member of the <a href="https://msdn.microsoft.com/46cdc46e-fc44-452a-8aae-e47c12deedb4">VSS_VOLUME_PROTECTION_INFO</a> structure contains the current protection fault, and the <b>m_failureStatus</b> member contains  the reason why the volume is in a faulted state. If the volume is not in a faulted state, the <b>m_protectionFault</b> and <b>m_failureStatus</b> members will be zero.
+The <b>GetVolumeProtectLevel</b> method gets information about the volume's current protection level. If the volume is in a faulted state, the <b>m_protectionFault</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-_vss_volume_protection_info">VSS_VOLUME_PROTECTION_INFO</a> structure contains the current protection fault, and the <b>m_failureStatus</b> member contains  the reason why the volume is in a faulted state. If the volume is not in a faulted state, the <b>m_protectionFault</b> and <b>m_failureStatus</b> members will be zero.
 
-If the value of the <i>protectionLevel</i> parameter is <b>VSS_PROTECTION_LEVEL_SNAPSHOT</b>, requesters must set shadow copy storage area (diff area) associations using the <a href="https://msdn.microsoft.com/7b58331c-b8a2-4333-a05d-563395d5f0c2">IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea</a> method.
+If the value of the <i>protectionLevel</i> parameter is <b>VSS_PROTECTION_LEVEL_SNAPSHOT</b>, requesters must set shadow copy storage area (diff area) associations using the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-adddiffarea">IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea</a> method.
 
 
 
@@ -181,11 +181,11 @@ If the value of the <i>protectionLevel</i> parameter is <b>VSS_PROTECTION_LEVEL_
 
 
 
-<a href="https://msdn.microsoft.com/e5abcf69-748a-4ed6-973d-8ba49ec22ef2">IVssDifferentialSoftwareSnapshotMgmt3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3">IVssDifferentialSoftwareSnapshotMgmt3</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f8f3a0c-5076-4ce3-aa8b-5c66ac5fa47a">IVssDifferentialSoftwareSnapshotMgmt3::SetVolumeProtectLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3-setvolumeprotectlevel">IVssDifferentialSoftwareSnapshotMgmt3::SetVolumeProtectLevel</a>
  
 
  

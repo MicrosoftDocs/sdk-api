@@ -61,8 +61,8 @@ The
 ### -param pCallback [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/d02d265c-f3fa-4332-910e-f0d9d4f0687a">ISnapinPropertiesCallback</a> interface; the snap-in can call 
-<a href="https://msdn.microsoft.com/44f2536b-c224-4704-b99a-6e7ef21961bc">ISnapinPropertiesCallback::AddPropertyName</a> to add the properties.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/nn-mmcobj-isnapinpropertiescallback">ISnapinPropertiesCallback</a> interface; the snap-in can call 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/nf-mmcobj-isnapinpropertiescallback-addpropertyname">ISnapinPropertiesCallback::AddPropertyName</a> to add the properties.
 
 
 ## -returns

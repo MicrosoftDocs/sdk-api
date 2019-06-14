@@ -95,7 +95,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/88e42006-c387-41b5-a013-e968da0d918b">IDTFilter3 Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nn-encdec-idtfilter3">IDTFilter3 Interface</a>
  
 
  

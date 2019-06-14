@@ -81,7 +81,7 @@ If the window is already registered, do nothing.
 
 Type: <b>int</b>
 
-One of the <a href="https://msdn.microsoft.com/79d4fcf3-5256-4e21-ab9a-94605e1d742f">ShellWindowTypeConstants</a> values to indicate the nature of the window. Note that these values are defined in Expdisp.h.
+One of the <a href="https://docs.microsoft.com/windows/desktop/api/exdisp/ne-exdisp-shellwindowtypeconstants">ShellWindowTypeConstants</a> values to indicate the nature of the window. Note that these values are defined in Expdisp.h.
 
 
 ## -returns

@@ -62,7 +62,7 @@ Initializes a DirectShow <b>AM_MEDIA_TYPE</b> structure from a Media Foundation 
 
 ### -param pMFType
 
-Pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface of the media type to convert.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of the media type to convert.
 
 
 ### -param guidFormatBlockType
@@ -72,7 +72,7 @@ Format type GUID. This value corresponds to the <b>formattype</b> member of the 
 
 ### -param pAMType
 
-Pointer to an <b>AM_MEDIA_TYPE</b> structure. The function allocates memory for the format block. The caller must release the format block by calling <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> on the <b>pbFormat</b> member.
+Pointer to an <b>AM_MEDIA_TYPE</b> structure. The function allocates memory for the format block. The caller must release the format block by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> on the <b>pbFormat</b> member.
 
 
 ## -returns
@@ -132,7 +132,7 @@ This function can also be used with the following format structures that are equ
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

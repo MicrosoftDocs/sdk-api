@@ -62,7 +62,7 @@ The <b>put_VideoStandard</b> method specifies the format of the analog televisio
 
 ### -param AVS [in]
 
-Specifies the format of the analog television signal. This parameter is of type <a href="https://msdn.microsoft.com/en-us/library/Dd373515(v=VS.85).aspx">AnalogVideoStandard</a>.
+Specifies the format of the analog television signal. This parameter is of type <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-taganalogvideostandard">AnalogVideoStandard</a>.
 
 
 ## -returns
@@ -79,11 +79,11 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="https://msdn.microsoft.com/d5ed0dcc-347d-4196-a551-88775cb1b253">IAnalogLocator Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ianaloglocator">IAnalogLocator Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/8530f436-8067-43bd-8f64-45e042ccb466">get_VideoStandard</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ianaloglocator-get_videostandard">get_VideoStandard</a>
  
 
  

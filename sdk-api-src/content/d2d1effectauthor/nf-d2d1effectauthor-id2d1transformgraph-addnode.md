@@ -60,7 +60,7 @@ Adds the provided node to the transform graph.
 
 ### -param node [in]
 
-Type: <b><a href="https://msdn.microsoft.com/2ACF65DA-A812-4983-B044-71103A9AA450">ID2D1TransformNode</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transformnode">ID2D1TransformNode</a>*</b>
 
 The node that will be added to the transform graph.
 
@@ -100,7 +100,7 @@ This adds a transform node to the transform graph. A node must be added to the t
 
 
 A transform graph cannot be directly added to another transform graph. 
-Only interfaces derived from <a href="https://msdn.microsoft.com/2ACF65DA-A812-4983-B044-71103A9AA450">ID2D1TransformNode</a> can be added to the transform graph.
+Only interfaces derived from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transformnode">ID2D1TransformNode</a> can be added to the transform graph.
 
 
 
@@ -111,7 +111,7 @@ Only interfaces derived from <a href="https://msdn.microsoft.com/2ACF65DA-A812-4
 
 
 
-<a href="https://msdn.microsoft.com/6CA29200-9834-4A5B-99E8-434CD6E9B243">ID2D1TransformGraph</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transformgraph">ID2D1TransformGraph</a>
  
 
  

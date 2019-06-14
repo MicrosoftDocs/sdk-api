@@ -53,14 +53,14 @@ ms.custom: 19H1
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
         
 
-The <b>IMSVidVMR9</b> interface represents the <a href="https://msdn.microsoft.com/3885cca2-74b1-4066-8ecb-84c9841f9e66">Video Mixing Renderer Filter 9</a> (VMR-9) within the Video Control filter graph. The <a href="https://msdn.microsoft.com/b8c07511-2665-43d6-b7ce-d478ee1af69c">MSVidVMR9</a> object exposes this interface.
+The <b>IMSVidVMR9</b> interface represents the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-9">Video Mixing Renderer Filter 9</a> (VMR-9) within the Video Control filter graph. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd695140(v=vs.85)">MSVidVMR9</a> object exposes this interface.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidVMR9</b> interface inherits from <a href="https://msdn.microsoft.com/27eb53f8-ece8-43eb-8f94-b3d2d91548ad">IMSVidVideoRenderer</a>. <b>IMSVidVMR9</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidVMR9</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer</a>. <b>IMSVidVMR9</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IMSVidVMR9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694762(v=VS.85).aspx">get_Allocator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvmr9-get_allocator">get_Allocator</a>
 </td>
 <td align="left" width="63%">
 Retrieves the application's custom allocator-presenter.
@@ -84,7 +84,7 @@ Retrieves the application's custom allocator-presenter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694763(v=VS.85).aspx">get_Allocator_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvmr9-get_allocator_id">get_Allocator_ID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the identifier of the application's custom allocator-presenter.
@@ -93,7 +93,7 @@ Retrieves the identifier of the application's custom allocator-presenter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694764(v=VS.85).aspx">get_SuppressEffects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvmr9-get_suppresseffects">get_SuppressEffects</a>
 </td>
 <td align="left" width="63%">
 Queries whether the Video Control configures the system for optimal video playback.
@@ -102,7 +102,7 @@ Queries whether the Video Control configures the system for optimal video playba
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694765(v=VS.85).aspx">put_SuppressEffects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvmr9-put_suppresseffects">put_SuppressEffects</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the Video Control configures the system for optimal video playback.
@@ -111,7 +111,7 @@ Specifies whether the Video Control configures the system for optimal video play
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694766(v=VS.85).aspx">SetAllocator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvmr9-setallocator">SetAllocator</a>
 </td>
 <td align="left" width="63%">
 Sets a custom allocator-presenter for the VMR-9.
@@ -135,11 +135,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/27eb53f8-ece8-43eb-8f94-b3d2d91548ad">IMSVidVideoRenderer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf6c3ce9-1e56-4109-93f1-5b313e6ca19b">Video Control Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
  
 
  

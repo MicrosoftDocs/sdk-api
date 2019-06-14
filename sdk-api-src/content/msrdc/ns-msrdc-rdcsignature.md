@@ -73,11 +73,11 @@ Length of the chunk represented by this signature.
 
 
 
-<a href="https://msdn.microsoft.com/ece0fddf-1c06-493d-aed9-6bc86bb014f3">RdcSignaturePointer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0008">RdcSignaturePointer</a>
 
 
 
-<a href="https://msdn.microsoft.com/5144a94b-4af8-4ac2-b5b3-f0674a51c03b">Remote Differential Compression Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdc/remote-differential-compression-structures">Remote Differential Compression Structures</a>
  
 
  

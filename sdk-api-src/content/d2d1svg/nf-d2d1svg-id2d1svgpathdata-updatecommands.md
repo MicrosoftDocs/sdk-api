@@ -60,7 +60,7 @@ Updates the commands array. Existing commands not updated by this method are pre
 
 ### -param commands [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/E0A5F435-F4FB-4CD3-84B3-962CB7B96446">D2D1_SVG_PATH_COMMAND</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_path_command">D2D1_SVG_PATH_COMMAND</a>*</b>
 
 The commands array.
 
@@ -83,7 +83,7 @@ The index at which to begin updating commands. Must be less than or equal to the
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 
@@ -95,7 +95,7 @@ This method returns an HRESULT success or error code.
 
 
 
-<a href="https://msdn.microsoft.com/14879B17-0CAA-42E7-8643-7D385EABFD37">ID2D1SvgPathData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgpathdata">ID2D1SvgPathData</a>
  
 
  

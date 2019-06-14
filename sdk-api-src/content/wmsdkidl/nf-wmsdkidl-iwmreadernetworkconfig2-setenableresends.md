@@ -110,11 +110,11 @@ This feature is available only for content streamed from a server running Window
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743505(v=VS.85).aspx">IWMReaderNetworkConfig2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig2">IWMReaderNetworkConfig2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743510(v=VS.85).aspx">IWMReaderNetworkConfig2::GetEnableResends</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-getenableresends">IWMReaderNetworkConfig2::GetEnableResends</a>
  
 
  

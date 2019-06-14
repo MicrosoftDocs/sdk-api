@@ -65,7 +65,7 @@ Retrieves detailed information about touch inputs associated with a particular t
 
 ### -param hTouchInput [in]
 
-The touch input handle received in the <b>LPARAM</b> of a touch message. The function fails with <b>ERROR_INVALID_HANDLE</b> if this handle is not valid. Note that the handle is not valid after it has been used in a successful call to <a href="https://msdn.microsoft.com/bdc8bb94-3126-4183-9dfd-ba4844d98f29">CloseTouchInputHandle</a> or after it has been passed to <a href="https://msdn.microsoft.com/9fba2013-17a3-499c-80dc-627e89c0edaf">DefWindowProc, PostMessage, SendMessage</a> or one of their variants.
+The touch input handle received in the <b>LPARAM</b> of a touch message. The function fails with <b>ERROR_INVALID_HANDLE</b> if this handle is not valid. Note that the handle is not valid after it has been used in a successful call to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-closetouchinputhandle">CloseTouchInputHandle</a> or after it has been passed to <a href="https://docs.microsoft.com/windows/desktop/wintouch/sendmessage--postmessage--and-related-functions">DefWindowProc, PostMessage, SendMessage</a> or one of their variants.
 
 
 ### -param cInputs [in]
@@ -75,12 +75,12 @@ The number of structures in the <i>pInputs</i> array. This should ideally be at 
 
 ### -param pInputs [out]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/fc382759-3a1e-401e-a6a7-1bf209a5434b">TOUCHINPUT</a> structures to receive information about the touch points associated with the specified touch input handle.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagtouchinput">TOUCHINPUT</a> structures to receive information about the touch points associated with the specified touch input handle.
 
 
 ### -param cbSize [in]
 
-The size, in bytes, of a single <a href="https://msdn.microsoft.com/fc382759-3a1e-401e-a6a7-1bf209a5434b">TOUCHINPUT</a> structure. If <i>cbSize</i> is not the size of a single <b>TOUCHINPUT</b> structure, the function fails with <b>ERROR_INVALID_PARAMETER</b>.
+The size, in bytes, of a single <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagtouchinput">TOUCHINPUT</a> structure. If <i>cbSize</i> is not the size of a single <b>TOUCHINPUT</b> structure, the function fails with <b>ERROR_INVALID_PARAMETER</b>.
 
 
 ## -returns
@@ -88,7 +88,7 @@ The size, in bytes, of a single <a href="https://msdn.microsoft.com/fc382759-3a1
 
 
 If the function succeeds, the return value is nonzero.
-If the function fails, the return value is zero. To get extended error information, use the <a href="http://msdn.microsoft.com/en-us/library/ms679360.aspx">GetLastError</a> function.
+If the function fails, the return value is zero. To get extended error information, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 
 
@@ -97,7 +97,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-Calling <a href="https://msdn.microsoft.com/bdc8bb94-3126-4183-9dfd-ba4844d98f29">CloseTouchInputHandle</a> will not free memory associated with values retrieved in a call to <b>GetTouchInputInfo</b>.  Values in structures passed to <b>GetTouchInputInfo</b>  will be valid until you delete them.
+Calling <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-closetouchinputhandle">CloseTouchInputHandle</a> will not free memory associated with values retrieved in a call to <b>GetTouchInputInfo</b>.  Values in structures passed to <b>GetTouchInputInfo</b>  will be valid until you delete them.
 
 
 
@@ -107,15 +107,15 @@ Calling <a href="https://msdn.microsoft.com/bdc8bb94-3126-4183-9dfd-ba4844d98f29
 
 
 
-<a href="https://msdn.microsoft.com/bdc8bb94-3126-4183-9dfd-ba4844d98f29">CloseTouchInputHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-closetouchinputhandle">CloseTouchInputHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c64ed75-37ac-47ae-b39e-bdf10d2b5211">Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/wintouch/mtfunctions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/fc382759-3a1e-401e-a6a7-1bf209a5434b">TOUCHINPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagtouchinput">TOUCHINPUT</a>
  
 
  

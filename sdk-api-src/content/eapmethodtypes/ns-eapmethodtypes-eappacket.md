@@ -59,7 +59,7 @@ ms.custom: 19H1
 
 ### -field Code
 
-An <a href="https://msdn.microsoft.com/19d424a1-91d6-4ebd-acb8-912b4900a4cd">EapCode</a> enumeration value that identifies the packet type.
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodtypes/ne-eapmethodtypes-tageapcode">EapCode</a> enumeration value that identifies the packet type.
 
 
 ### -field Id
@@ -82,11 +82,11 @@ The packet message data. This opaque data block continues after the first byte f
 
 
 
-<a href="https://msdn.microsoft.com/f6f3b909-1e89-47f8-853c-c0f3f2414817">Common EAPHost API Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/common-eap-host-api-structures">Common EAPHost API Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/19d424a1-91d6-4ebd-acb8-912b4900a4cd">EapCode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodtypes/ne-eapmethodtypes-tageapcode">EapCode</a>
  
 
  

@@ -92,11 +92,11 @@ If you do not specify the credentials, PLA tries to run the set as LocalSystem i
 
 
 
-<a href="https://msdn.microsoft.com/a4ae0874-4ee6-46a1-9811-8cd4be26859c">IDataCollectorSet</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
 
 
 
-<a href="https://msdn.microsoft.com/32fe1dcf-9682-40fd-b301-45385fa33cbe">IDataCollectorSet::UserAccount</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_useraccount">IDataCollectorSet::UserAccount</a>
  
 
  

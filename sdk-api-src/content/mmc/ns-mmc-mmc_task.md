@@ -54,7 +54,7 @@ The
 
 The 
 <b>MMC_TASK</b> structure is filled in by the 
-<a href="https://msdn.microsoft.com/cb568307-7172-4941-a888-ff059f5256b6">IEnumTASK::Next</a> method to specify all the data required to set up an individual task on a taskpad.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ienumtask-next">IEnumTASK::Next</a> method to specify all the data required to set up an individual task on a taskpad.
 
 
 ## -struct-fields
@@ -65,7 +65,7 @@ The
 ### -field sDisplayObject
 
 
-<a href="https://msdn.microsoft.com/ff43f0ea-2f33-4ed9-b5a5-484db2ffe3ad">MMC_TASK_DISPLAY_OBJECT</a> structure that the snap-in must fill in to specify the image to be displayed as the image for the task in the taskpad specified by <b>pszGroup</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task_display_object">MMC_TASK_DISPLAY_OBJECT</a> structure that the snap-in must fill in to specify the image to be displayed as the image for the task in the taskpad specified by <b>pszGroup</b>.
 
 
 ### -field szText
@@ -81,7 +81,7 @@ A pointer to a null-terminated string that contains the descriptive text placed 
 ### -field eActionType
 
 Value of type 
-<a href="https://msdn.microsoft.com/08d9929a-ca55-4f71-8e9f-411e01e363d6">MMC_ACTION_TYPE</a> that specifies the type of action triggered when a user clicks a task on a taskpad.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-_mmc_action_type">MMC_ACTION_TYPE</a> that specifies the type of action triggered when a user clicks a task on a taskpad.
 
 There are three types of actions:
 
@@ -90,7 +90,7 @@ There are three types of actions:
 #### MMC_ACTION_ID
 
 When the user clicks the task, MMC calls 
-<a href="https://msdn.microsoft.com/c20d87f9-a5a0-41b9-b343-a11e8b41ed71">IExtendTaskPad::TaskNotify</a> and returns the command ID specified in the <b>nCommandID</b> member. If you specify this value, the <b>nCommandID</b> member is required.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-tasknotify">IExtendTaskPad::TaskNotify</a> and returns the command ID specified in the <b>nCommandID</b> member. If you specify this value, the <b>nCommandID</b> member is required.
 
 
 
@@ -111,7 +111,7 @@ Used only if <b>eActionType</b> is <b>MMC_ACTION_ID</b>.
 
 A value that specifies the command ID returned to the snap-in when the user clicks the task.
 
-When MMC calls <a href="https://msdn.microsoft.com/c20d87f9-a5a0-41b9-b343-a11e8b41ed71">IExtendTaskPad::TaskNotify</a>, it passes in the <i>arg</i> parameter a <a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure that contains the command ID for the task that was clicked on the taskpad. The <b>vt</b> field is <b>VT_I4</b> and the <b>lVal</b> field contains the command ID.
+When MMC calls <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-tasknotify">IExtendTaskPad::TaskNotify</a>, it passes in the <i>arg</i> parameter a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> structure that contains the command ID for the task that was clicked on the taskpad. The <b>vt</b> field is <b>VT_I4</b> and the <b>lVal</b> field contains the command ID.
 
 
 ### -field szActionURL
@@ -139,11 +139,11 @@ If no script language is specified, the default language is JavaScript.
 
 
 
-Allocate the <b>szText</b>, <b>szHelpString</b>, <b>szActionURL</b>,and <b>szScript</b> strings used in the structure with the COM API function <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a> (or the equivalent) and MMC will release them.
+Allocate the <b>szText</b>, <b>szHelpString</b>, <b>szActionURL</b>,and <b>szScript</b> strings used in the structure with the COM API function <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> (or the equivalent) and MMC will release them.
 
 You should also allocate the strings in the 
-<a href="https://msdn.microsoft.com/9895eef1-7870-4092-8bf9-c13f38b74173">MMC_TASK_DISPLAY_BITMAP</a> or 
-<a href="https://msdn.microsoft.com/a46f1b86-883e-4eca-a3f8-d18c6a4d64e5">MMC_TASK_DISPLAY_SYMBOL</a> structure specified in the <b>sDisplayObject</b> member with <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a> (or the equivalent) and MMC will release them.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task_display_bitmap">MMC_TASK_DISPLAY_BITMAP</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task_display_symbol">MMC_TASK_DISPLAY_SYMBOL</a> structure specified in the <b>sDisplayObject</b> member with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> (or the equivalent) and MMC will release them.
 
 
 
@@ -153,27 +153,27 @@ You should also allocate the strings in the
 
 
 
-<a href="https://msdn.microsoft.com/cb568307-7172-4941-a888-ff059f5256b6">IEnumTASK::Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ienumtask-next">IEnumTASK::Next</a>
 
 
 
-<a href="https://msdn.microsoft.com/c20d87f9-a5a0-41b9-b343-a11e8b41ed71">IExtendTaskPad::TaskNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-tasknotify">IExtendTaskPad::TaskNotify</a>
 
 
 
-<a href="https://msdn.microsoft.com/08d9929a-ca55-4f71-8e9f-411e01e363d6">MMC_ACTION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-_mmc_action_type">MMC_ACTION_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/9895eef1-7870-4092-8bf9-c13f38b74173">MMC_TASK_DISPLAY_BITMAP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task_display_bitmap">MMC_TASK_DISPLAY_BITMAP</a>
 
 
 
-<a href="https://msdn.microsoft.com/ff43f0ea-2f33-4ed9-b5a5-484db2ffe3ad">MMC_TASK_DISPLAY_OBJECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task_display_object">MMC_TASK_DISPLAY_OBJECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/a46f1b86-883e-4eca-a3f8-d18c6a4d64e5">MMC_TASK_DISPLAY_SYMBOL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task_display_symbol">MMC_TASK_DISPLAY_SYMBOL</a>
  
 
  

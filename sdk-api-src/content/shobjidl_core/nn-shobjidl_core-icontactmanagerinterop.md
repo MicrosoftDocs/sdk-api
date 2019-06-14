@@ -54,7 +54,7 @@ Enables access to <b>ContactManager</b> methods in an app that manages multiple 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContactManagerInterop</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IContactManagerInterop</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContactManagerInterop</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IContactManagerInterop</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IContactManagerInterop</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2B32B3DB-A423-4BDF-9ED1-9C1BB5B0533D">ShowContactCardForWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontactmanagerinterop-showcontactcardforwindow">ShowContactCardForWindow</a>
 </td>
 <td align="left" width="63%">
 Displays the UI for a contact on the specified window.

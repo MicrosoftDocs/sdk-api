@@ -59,9 +59,9 @@ ms.custom: 19H1
 
 ### -param fontFile [out]
 
-Type: <b><a href="https://msdn.microsoft.com/d4be5466-0b6c-4cc5-9f16-aa00c6037eb9">IDWriteFontFile</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontfile">IDWriteFontFile</a>**</b>
 
-When this method returns, the address of a pointer to the newly created <a href="https://msdn.microsoft.com/d4be5466-0b6c-4cc5-9f16-aa00c6037eb9">IDWriteFontFile</a>  object.
+When this method returns, the address of a pointer to the newly created <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontfile">IDWriteFontFile</a>  object.
 
 
 ## -returns
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/d89efffd-ccda-4d55-8419-de142b0f9652">IDWriteFontFileEnumerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontfileenumerator">IDWriteFontFileEnumerator</a>
  
 
  

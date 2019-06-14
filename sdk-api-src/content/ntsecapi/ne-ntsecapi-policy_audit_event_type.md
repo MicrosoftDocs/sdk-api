@@ -50,8 +50,8 @@ ms.custom: 19H1
 
 
 The <b>POLICY_AUDIT_EVENT_TYPE</b> enumeration defines values that indicate the types of events the system can audit. The 
-<a href="https://msdn.microsoft.com/2d543500-f639-4ef7-91f4-cdc5060dd567">LsaQueryInformationPolicy</a> and 
-<a href="https://msdn.microsoft.com/2aa3b09e-2cd9-4a09-bfd6-b37c97266dcb">LsaSetInformationPolicy</a> functions use this enumeration when their <i>InformationClass</i> parameters are set to PolicyAuditEventsInformation.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaqueryinformationpolicy">LsaQueryInformationPolicy</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsasetinformationpolicy">LsaSetInformationPolicy</a> functions use this enumeration when their <i>InformationClass</i> parameters are set to PolicyAuditEventsInformation.
 
 
 ## -enum-fields
@@ -83,7 +83,7 @@ Determines whether the operating system must audit each instance of user attempt
 
 ### -field AuditCategoryPrivilegeUse
 
-Determines whether the operating system must audit each instance of user attempts to use  <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">privileges</a>.
+Determines whether the operating system must audit each instance of user attempts to use  <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">privileges</a>.
 
 
 ### -field AuditCategoryDetailedTracking
@@ -93,7 +93,7 @@ Determines whether the operating system must audit specific events, such as prog
 
 ### -field AuditCategoryPolicyChange
 
-Determines whether the operating system must audit attempts to change <a href="https://msdn.microsoft.com/ba8c4f61-8cbc-4a36-8336-8a84d84b46e4">Policy</a> object rules, such as user rights assignment policy, audit policy, account policy, or trust policy.
+Determines whether the operating system must audit attempts to change <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/the-policy-object-type">Policy</a> object rules, such as user rights assignment policy, audit policy, account policy, or trust policy.
 
 
 ### -field AuditCategoryAccountManagement
@@ -108,7 +108,7 @@ Determines whether the operating system must audit attempts to access the direct
 
 ### -field AuditCategoryAccountLogon
 
-Determines whether the operating system must audit each instance of a user attempt to log on or log off this computer. Also audits logon attempts by privileged accounts that log on to the domain controller. These audit events are generated when the Kerberos <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33">Key Distribution Center</a> (KDC) logs on to the domain controller. Logoff attempts are generated whenever the logon session of a logged-on user account is terminated.
+Determines whether the operating system must audit each instance of a user attempt to log on or log off this computer. Also audits logon attempts by privileged accounts that log on to the domain controller. These audit events are generated when the Kerberos <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">Key Distribution Center</a> (KDC) logs on to the domain controller. Logoff attempts are generated whenever the logon session of a logged-on user account is terminated.
 
 
 ## -remarks
@@ -116,8 +116,8 @@ Determines whether the operating system must audit each instance of a user attem
 
 
 The <b>POLICY_AUDIT_EVENT_TYPE</b> enumeration may expand in future versions of Windows. Because of this, you should not compute the number of values in this enumeration directly. Instead, you should obtain the count of values by calling 
-<a href="https://msdn.microsoft.com/2d543500-f639-4ef7-91f4-cdc5060dd567">LsaQueryInformationPolicy</a> with the <i>InformationClass</i> parameter set to PolicyAuditEventsInformation and extract the count from the <b>MaximumAuditEventCount</b> member of the returned 
-<a href="https://msdn.microsoft.com/3442e5e5-78cf-4bda-ba11-0f51ee40df16">POLICY_AUDIT_EVENTS_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaqueryinformationpolicy">LsaQueryInformationPolicy</a> with the <i>InformationClass</i> parameter set to PolicyAuditEventsInformation and extract the count from the <b>MaximumAuditEventCount</b> member of the returned 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_policy_audit_events_info">POLICY_AUDIT_EVENTS_INFO</a> structure.
 
 
 
@@ -127,15 +127,15 @@ The <b>POLICY_AUDIT_EVENT_TYPE</b> enumeration may expand in future versions of 
 
 
 
-<a href="https://msdn.microsoft.com/2d543500-f639-4ef7-91f4-cdc5060dd567">LsaQueryInformationPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaqueryinformationpolicy">LsaQueryInformationPolicy</a>
 
 
 
-<a href="https://msdn.microsoft.com/2aa3b09e-2cd9-4a09-bfd6-b37c97266dcb">LsaSetInformationPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsasetinformationpolicy">LsaSetInformationPolicy</a>
 
 
 
-<a href="https://msdn.microsoft.com/b734b5e8-1ee9-436b-b2a9-210ae79fbaf5">POLICY_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_policy_information_class">POLICY_INFORMATION_CLASS</a>
  
 
  

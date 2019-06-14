@@ -72,7 +72,7 @@ Indicates that the <i>Event</i> parameter contains an event that matches the sub
 
 
 
-<a href="https://msdn.microsoft.com/935a787c-fd71-492d-a803-80cb2c9019ea">EVT_SUBSCRIBE_CALLBACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nc-winevt-evt_subscribe_callback">EVT_SUBSCRIBE_CALLBACK</a>
  
 
  

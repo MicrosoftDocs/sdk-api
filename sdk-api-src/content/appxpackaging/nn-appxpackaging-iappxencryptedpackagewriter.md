@@ -54,7 +54,7 @@ Provides a write-only object model for encrypted app packages.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxEncryptedPackageWriter</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAppxEncryptedPackageWriter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxEncryptedPackageWriter</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxEncryptedPackageWriter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAppxEncryptedPackageWriter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4F5823D3-7039-4CA1-BEEA-DF2A13BC54BD">AddPayloadFileEncrypted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxencryptedpackagewriter-addpayloadfileencrypted">AddPayloadFileEncrypted</a>
 </td>
 <td align="left" width="63%">
 Adds a new encrypted payload file to the appx package.
@@ -78,7 +78,7 @@ Adds a new encrypted payload file to the appx package.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/364F643B-23A2-4E5D-8239-54C8C2052C49">Close</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxencryptedpackagewriter-close">Close</a>
 </td>
 <td align="left" width="63%">
 Closes and finalizes the written package stream.

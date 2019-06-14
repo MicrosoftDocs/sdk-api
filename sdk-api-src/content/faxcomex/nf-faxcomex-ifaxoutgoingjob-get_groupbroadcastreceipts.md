@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-Set the <b>IFaxOutgoingJob::get_GroupBroadcastReceipts</b> property for a document using the <a href="https://msdn.microsoft.com/en-us/library/ms685135(v=VS.85).aspx">IFaxDocument::put_GroupBroadcastReceipts</a> method.
+Set the <b>IFaxOutgoingJob::get_GroupBroadcastReceipts</b> property for a document using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument-groupbroadcastreceipts-vb">IFaxDocument::put_GroupBroadcastReceipts</a> method.
 
 
 
@@ -73,15 +73,15 @@ Set the <b>IFaxOutgoingJob::get_GroupBroadcastReceipts</b> property for a docume
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689115(v=VS.85).aspx">FaxOutgoingJob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingjob">FaxOutgoingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689116(v=VS.85).aspx">IFaxOutgoingJob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutgoingjob">IFaxOutgoingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693393(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-managing-outgoing-jobs">Visual Basic Example</a>
  
 
  

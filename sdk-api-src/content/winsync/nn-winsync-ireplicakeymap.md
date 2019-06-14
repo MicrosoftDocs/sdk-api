@@ -55,7 +55,7 @@ Represents a mapping between replica keys and replica IDs.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IReplicaKeyMap</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IReplicaKeyMap</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IReplicaKeyMap</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IReplicaKeyMap</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IReplicaKeyMap</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d76b5dbc-9ca1-4ba4-bdc2-99d31f1c9c8e">LookupReplicaId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ireplicakeymap-lookupreplicaid">LookupReplicaId</a>
 </td>
 <td align="left" width="63%">
 Gets the replica ID that corresponds to the specified replica key.
@@ -80,7 +80,7 @@ Gets the replica ID that corresponds to the specified replica key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/92bae64f-67a5-4029-9d24-eee92a3fc55f">LookupReplicaKey</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ireplicakeymap-lookupreplicakey">LookupReplicaKey</a>
 </td>
 <td align="left" width="63%">
 Gets the replica key that corresponds to the specified replica ID.
@@ -90,7 +90,7 @@ Gets the replica key that corresponds to the specified replica ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0ed19406-82b8-428f-bed2-796e287dd4cb">Serialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ireplicakeymap-serialize">Serialize</a>
 </td>
 <td align="left" width="63%">
 Serializes the replica key map data to a byte array.
@@ -115,7 +115,7 @@ Because replica IDs repeatedly occur in the metadata for a replica and are sugge
 
 
 
-<a href="https://msdn.microsoft.com/2c185fe2-1bbe-4409-aea0-6e138430b304">Windows Sync Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
  
 
  

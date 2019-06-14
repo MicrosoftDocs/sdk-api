@@ -61,12 +61,12 @@ The <b>AuditSetPerUserPolicy</b> function sets per-user audit policy in one or m
 
 ### -param pSid [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure associated with the principal for which to set  audit policy. Per-user policy for group SIDs is not currently supported.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure associated with the principal for which to set  audit policy. Per-user policy for group SIDs is not currently supported.
 
 
 ### -param pAuditPolicy [in]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/3fafeec9-a028-4a65-933e-fb973eb257b0">AUDIT_POLICY_INFORMATION</a> structures. Each structure specifies per-user audit policy for one audit subcategory.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_audit_policy_information">AUDIT_POLICY_INFORMATION</a> structures. Each structure specifies per-user audit policy for one audit subcategory.
 
 The <b>AuditCategoryGuid</b> member of these structures is ignored.
 
@@ -83,7 +83,7 @@ The number of elements in the <i>pAuditPolicy</i> array.
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. <b>GetLastError</b> may return one of the following error codes defined in WinError.h.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. <b>GetLastError</b> may return one of the following error codes defined in WinError.h.
 
 <table>
 <tr>
@@ -122,7 +122,7 @@ One or more parameters are invalid.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure specified by the <i>pSID</i> parameter is not associated with an existing user.
+The <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure specified by the <i>pSID</i> parameter is not associated with an existing user.
 
 </td>
 </tr>
@@ -136,7 +136,7 @@ The <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SI
 
 
 
-To successfully call this function, the caller must have <b>SeSecurityPrivilege</b> or have <b>AUDIT_SET_USER_POLICY</b> access on the <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Audit security object</a>.
+To successfully call this function, the caller must have <b>SeSecurityPrivilege</b> or have <b>AUDIT_SET_USER_POLICY</b> access on the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Audit security object</a>.
 
 
 
@@ -146,15 +146,15 @@ To successfully call this function, the caller must have <b>SeSecurityPrivilege<
 
 
 
-<a href="https://msdn.microsoft.com/7d4790de-ebd6-4840-b532-7158b8d80db2">AuditQueryPerUserPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditqueryperuserpolicy">AuditQueryPerUserPolicy</a>
 
 
 
-<a href="https://msdn.microsoft.com/5c268033-65fd-4a74-90a1-4b9e1e18daf1">AuditQuerySystemPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditquerysystempolicy">AuditQuerySystemPolicy</a>
 
 
 
-<a href="https://msdn.microsoft.com/9692ebe3-a676-45bb-a58d-b3fdbb1bbc2a">AuditSetSystemPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditsetsystempolicy">AuditSetSystemPolicy</a>
  
 
  

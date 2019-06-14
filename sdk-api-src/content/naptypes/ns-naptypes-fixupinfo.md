@@ -59,24 +59,24 @@ ms.custom: 19H1
 
 ### -field state
 
-A <a href="https://msdn.microsoft.com/cde1f9df-f4d9-4601-a513-e00639ee9b6e">FixupState</a> value that defines the fix-up state of the SHA.
+A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ne-naptypes-tagfixupstate">FixupState</a> value that defines the fix-up state of the SHA.
 
 
 ### -field percentage
 
-A <a href="https://msdn.microsoft.com/54f2866b-4333-4fc8-bb25-b7d4ae72b7dc">Percentage</a> data type that contains the percentage of remediation that is complete. This member is a nonzero value between 0 (zero) and 100 when <b>state</b> is equal to <a href="https://msdn.microsoft.com/cde1f9df-f4d9-4601-a513-e00639ee9b6e">FixupStateInProgress</a>; otherwise, it is 0 (zero).
+A <a href="https://docs.microsoft.com/windows/desktop/NAP/nap-datatypes">Percentage</a> data type that contains the percentage of remediation that is complete. This member is a nonzero value between 0 (zero) and 100 when <b>state</b> is equal to <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ne-naptypes-tagfixupstate">FixupStateInProgress</a>; otherwise, it is 0 (zero).
 
 <div class="alert"><b>Note</b>  If the SHA does not support percentages, this value is either 0, which indicates the SHA update has not started; or 101, which indicates the SHA is in the process of updating.</div>
 <div> </div>
 
 ### -field resultCodes
 
-A <a href="https://msdn.microsoft.com/9d608f0a-9841-48e6-8856-2d8c1afc3e5d">ResultCodes</a> structure that contains the SHA defined HRESULT values returned to the NAP Agent in a call to <a href="https://msdn.microsoft.com/cf919b56-3d40-4c49-9c91-25c20ae5ccda">GetFixupInfo</a>.
+A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-tagresultcodes">ResultCodes</a> structure that contains the SHA defined HRESULT values returned to the NAP Agent in a call to <a href="https://docs.microsoft.com/windows/desktop/NAP/inapsystemhealthagentcallback-getfixupinfo-method">GetFixupInfo</a>.
 
 
 ### -field fixupMsgId
 
-A <a href="https://msdn.microsoft.com/54f2866b-4333-4fc8-bb25-b7d4ae72b7dc">MessageID</a> value that contains the SHA defined resource ID of a fix-up status structure.
+A <a href="https://docs.microsoft.com/windows/desktop/NAP/nap-datatypes">MessageID</a> value that contains the SHA defined resource ID of a fix-up status structure.
 
 
 ## -remarks
@@ -97,19 +97,19 @@ If the SHA cannot update the fix-up information, then <b>state</b> must be set t
 
 
 
-<a href="https://msdn.microsoft.com/cde1f9df-f4d9-4601-a513-e00639ee9b6e">FixupState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ne-naptypes-tagfixupstate">FixupState</a>
 
 
 
-<a href="https://msdn.microsoft.com/e391be3c-95ab-4c80-a5d8-8a8fef28e56b">NAP Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/NAP/nap-reference">NAP Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/68048587-0f7e-48d4-9326-768a977ea3ee">NAP Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/NAP/nap-structures">NAP Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/9d608f0a-9841-48e6-8856-2d8c1afc3e5d">ResultCodes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-tagresultcodes">ResultCodes</a>
  
 
  

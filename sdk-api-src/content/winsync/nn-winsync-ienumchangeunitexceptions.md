@@ -55,7 +55,7 @@ Enumerates change unit exceptions that are stored in a knowledge object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumChangeUnitExceptions</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnumChangeUnitExceptions</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumChangeUnitExceptions</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumChangeUnitExceptions</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IEnumChangeUnitExceptions</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8039d175-f0d9-44af-9571-e4f97b6cd43f">Clone</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ienumchangeunitexceptions-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Clones the enumerator and returns a new enumerator that is in the same state as the current one.
@@ -80,7 +80,7 @@ Clones the enumerator and returns a new enumerator that is in the same state as 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/97bf473d-4e63-4192-a5d8-b802d5887a55">Next</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ienumchangeunitexceptions-next">Next</a>
 </td>
 <td align="left" width="63%">
 Returns the next elements in the change unit exception set, if they are available.
@@ -90,7 +90,7 @@ Returns the next elements in the change unit exception set, if they are availabl
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7c9a98e2-c976-42cb-ada3-ee33c11adae8">Reset</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ienumchangeunitexceptions-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumerator to the beginning of the change unit exception set.
@@ -100,7 +100,7 @@ Resets the enumerator to the beginning of the change unit exception set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/71e325cc-b686-4db5-988f-abf08af48d1c">Skip</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ienumchangeunitexceptions-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips the specified number of change unit exceptions.
@@ -116,7 +116,7 @@ Skips the specified number of change unit exceptions.
 
 
 
-<a href="https://msdn.microsoft.com/2c185fe2-1bbe-4409-aea0-6e138430b304">Windows Sync Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
  
 
  

@@ -66,7 +66,7 @@ This property is read-only.
 
 The weight of a pending session relative to an active session can be changed by setting the value of the <i>LB_ConnectionEstablishmentPenalty</i> parameter for the Connection Broker. This parameter is located under the<b>HKLM\System\CurrentControlSet\Services\Tssdis\Parameters</b> registry key. The default value of 1 specifies that pending sessions have the same weight as active sessions.
 
-This property is available on Windows Server 2012 R2 with <a href="https://support.microsoft.com/en-us/kb/3091411">KB3091411</a> installed in the <a href="https://msdn.microsoft.com/3f0f26fb-e8bc-47eb-8038-e51792ad4376">ITsSbTargetEx</a> interface.
+This property is available on Windows Server 2012 R2 with <a href="https://support.microsoft.com/en-us/kb/3091411">KB3091411</a> installed in the <a href="https://docs.microsoft.com/windows/desktop/TermServ/itssbtargetex">ITsSbTargetEx</a> interface.
 
 
 
@@ -76,11 +76,11 @@ This property is available on Windows Server 2012 R2 with <a href="https://sup
 
 
 
-<a href="https://msdn.microsoft.com/bcb26b43-ec6e-4cc8-9d40-15a7a3a62582">ITsSbTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbtarget">ITsSbTarget</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f0f26fb-e8bc-47eb-8038-e51792ad4376">ITsSbTargetEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/TermServ/itssbtargetex">ITsSbTargetEx</a>
  
 
  

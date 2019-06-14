@@ -49,11 +49,11 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies how the picture behaves inside the <a href="https://msdn.microsoft.com/e9fa6807-6e2a-44ec-9b8f-a560185e4367">InkPicture</a> control.
+Specifies how the picture behaves inside the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control.
           
         
 
-The mode is set by using the <a href="https://msdn.microsoft.com/3ce10b92-80d4-4517-92cb-eff10fc8c0ba">SizeMode</a> property and is applied to the picture set with the <a href="https://msdn.microsoft.com/c07433f2-d32c-4b6f-ad15-6b49dc6f4efa">Picture</a> property.
+The mode is set by using the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_sizemode">SizeMode</a> property and is applied to the picture set with the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_picture">Picture</a> property.
 
 
 ## -enum-fields
@@ -86,7 +86,7 @@ The picture appears at its regular size within the control.
 
 
 
-<a href="https://msdn.microsoft.com/e9fa6807-6e2a-44ec-9b8f-a560185e4367">InkPicture</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a>
  
 
  

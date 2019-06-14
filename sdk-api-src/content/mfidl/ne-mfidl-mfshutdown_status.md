@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Describes the current status of a call to the <a href="https://msdn.microsoft.com/9e7824d2-0f76-4c4c-98c5-ba51cd297de7">IMFShutdown::Shutdown</a> method.
+Describes the current status of a call to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-shutdown">IMFShutdown::Shutdown</a> method.
 
 
 ## -enum-fields
@@ -72,15 +72,15 @@ Shutdown is complete.
 
 
 
-<a href="https://msdn.microsoft.com/c3052658-51bb-401b-8db9-3428868899d6">IMFShutdown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfshutdown">IMFShutdown</a>
 
 
 
-<a href="https://msdn.microsoft.com/8cf5f5f3-a3ad-4745-87e8-764ed118477a">IMFShutdown::GetShutdownStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-getshutdownstatus">IMFShutdown::GetShutdownStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

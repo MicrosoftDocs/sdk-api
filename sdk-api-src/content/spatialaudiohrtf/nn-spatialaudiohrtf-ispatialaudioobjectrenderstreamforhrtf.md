@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Provides methods for controlling an Hrtf spatial audio object render stream, including starting, stopping, and resetting the stream. Also provides methods for activating new <a href="https://msdn.microsoft.com/E69F1D09-B937-4BCC-A040-18EF8A838289">ISpatialAudioObjectForHrtf</a> instances and notifying the system when you are beginning and ending the process of updating activated spatial audio objects and data.
+Provides methods for controlling an Hrtf spatial audio object render stream, including starting, stopping, and resetting the stream. Also provides methods for activating new <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a> instances and notifying the system when you are beginning and ending the process of updating activated spatial audio objects and data.
 
 This interface is a part of  Windows Sonic, Microsoft’s audio platform for more immersive audio which includes integrated spatial sound on Xbox and Windows.
 
@@ -71,10 +71,10 @@ The <b>ISpatialAudioObjectRenderStreamForHrtf</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3E26D14B-5F69-4EBD-A48D-D63E24520D59">ActivateSpatialAudioObjectForHrtf</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nf-spatialaudiohrtf-ispatialaudioobjectrenderstreamforhrtf-activatespatialaudioobjectforhrtf">ActivateSpatialAudioObjectForHrtf</a>
 </td>
 <td align="left" width="63%">
-Activates an <a href="https://msdn.microsoft.com/E69F1D09-B937-4BCC-A040-18EF8A838289">ISpatialAudioObjectForHrtf</a> for audio rendering.
+Activates an <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a> for audio rendering.
 
 </td>
 </tr>

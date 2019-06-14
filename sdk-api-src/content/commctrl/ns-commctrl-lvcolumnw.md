@@ -61,7 +61,7 @@ Contains information about a column in report view. This structure is used both 
 
 ### -field mask
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Variable specifying which members contain valid information. This member can be zero, or one or more of the following values:
 
@@ -117,7 +117,7 @@ The <b>iSubItem</b> member is valid.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 4.70</a>. The <b>iImage</b> member is valid.
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.70</a>. The <b>iImage</b> member is valid.
 
 </td>
 </tr>
@@ -128,7 +128,7 @@ The <b>iSubItem</b> member is valid.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 4.70</a>. The <b>iOrder</b> member is valid.
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.70</a>. The <b>iOrder</b> member is valid.
 
 </td>
 </tr>
@@ -139,7 +139,7 @@ The <b>iSubItem</b> member is valid.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.00</a> and <b>Windows Vista.</b>The <b>cxMin</b> member is valid.
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 6.00</a> and <b>Windows Vista.</b>The <b>cxMin</b> member is valid.
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ The <b>iSubItem</b> member is valid.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.00</a> and <b>Windows Vista.</b>The <b>cxDefault</b> member is valid.
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 6.00</a> and <b>Windows Vista.</b>The <b>cxDefault</b> member is valid.
 
 </td>
 </tr>
@@ -161,7 +161,7 @@ The <b>iSubItem</b> member is valid.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.00</a> and <b>Windows Vista.</b>The <b>cxIdeal</b> member is valid.
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 6.00</a> and <b>Windows Vista.</b>The <b>cxIdeal</b> member is valid.
 
 </td>
 </tr>
@@ -227,7 +227,7 @@ A bitmask used to select those bits of <b>fmt</b> that control field justificati
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 4.70</a>. The item displays an image from an image list. 
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.70</a>. The item displays an image from an image list. 
 
 </td>
 </tr>
@@ -238,7 +238,7 @@ A bitmask used to select those bits of <b>fmt</b> that control field justificati
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 4.70</a>. The bitmap appears to the right of text. This does not affect an image from an image list assigned to the header item.
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.70</a>. The bitmap appears to the right of text. This does not affect an image from an image list assigned to the header item.
 
 </td>
 </tr>
@@ -249,7 +249,7 @@ A bitmask used to select those bits of <b>fmt</b> that control field justificati
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 4.70</a>. The header item contains an image in the image list.
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.70</a>. The header item contains an image in the image list.
 
 </td>
 </tr>
@@ -260,7 +260,7 @@ A bitmask used to select those bits of <b>fmt</b> that control field justificati
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.00</a> and <b>Windows Vista.</b> Can't resize the column; same as HDF_FIXEDWIDTH.
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 6.00</a> and <b>Windows Vista.</b> Can't resize the column; same as HDF_FIXEDWIDTH.
 
 </td>
 </tr>
@@ -271,7 +271,7 @@ A bitmask used to select those bits of <b>fmt</b> that control field justificati
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.00</a> and <b>Windows Vista.</b> If not set, CCM_DPISCALE will govern scaling up fixed width.
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 6.00</a> and <b>Windows Vista.</b> If not set, CCM_DPISCALE will govern scaling up fixed width.
 
 </td>
 </tr>
@@ -282,7 +282,7 @@ A bitmask used to select those bits of <b>fmt</b> that control field justificati
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.00</a> and <b>Windows Vista.</b> Width will augment with the row height.
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 6.00</a> and <b>Windows Vista.</b> Width will augment with the row height.
 
 </td>
 </tr>
@@ -293,7 +293,7 @@ A bitmask used to select those bits of <b>fmt</b> that control field justificati
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.00</a> and <b>Windows Vista.</b> Column is a split button (same as HDF_SPLITBUTTON). The header of the column displays a split button (same as HDF_SPLITBUTTON).
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 6.00</a> and <b>Windows Vista.</b> Column is a split button (same as HDF_SPLITBUTTON). The header of the column displays a split button (same as HDF_SPLITBUTTON).
 
 </td>
 </tr>
@@ -310,7 +310,7 @@ Width of the column, in pixels.
 
 ### -field pszText
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPTSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
 If column information is being set, this member is the address of a null-terminated string that contains the column header text. If the structure is receiving information about a column, this member specifies the address of the buffer that receives the column header text.
 
@@ -334,7 +334,7 @@ Index of subitem associated with the column.
 Type: <b>int</b>
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 4.70</a>. Zero-based index of an image within the image list. The specified image will appear within the column.
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.70</a>. Zero-based index of an image within the image list. The specified image will appear within the column.
 
 
 ### -field iOrder
@@ -342,7 +342,7 @@ Type: <b>int</b>
 Type: <b>int</b>
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 4.70</a>. Zero-based column offset. Column offset is in left-to-right order. For example, zero indicates the leftmost column.
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.70</a>. Zero-based column offset. Column offset is in left-to-right order. For example, zero indicates the leftmost column.
 
 
 ### -field cxMin
@@ -380,19 +380,19 @@ If a column is added to a list-view control with index 0 (the leftmost column), 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774894(v=VS.85).aspx">LVM_DELETECOLUMN</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-deletecolumn">LVM_DELETECOLUMN</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774911(v=VS.85).aspx">LVM_GETCOLUMN</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getcolumn">LVM_GETCOLUMN</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761101(v=VS.85).aspx">LVM_INSERTCOLUMN</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-insertcolumn">LVM_INSERTCOLUMN</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761159(v=VS.85).aspx">LVM_SETCOLUMN</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setcolumn">LVM_SETCOLUMN</a>
 
 
 

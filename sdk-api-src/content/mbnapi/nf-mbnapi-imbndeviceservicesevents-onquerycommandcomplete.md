@@ -59,7 +59,7 @@ Notification method indicating that a device service <b>QUERY</b> request has co
 
 ### -param deviceService [in]
 
-The <a href="https://msdn.microsoft.com/en-us/library/Hh780509(v=VS.85).aspx">IMbnDeviceService</a> object on which the operation was requested.
+The <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a> object on which the operation was requested.
 
 
 ### -param responseID [in]
@@ -124,7 +124,7 @@ The <i>deviceServiceData</i> byte array contains the byte-by-byte copy of data r
 
 
 
-<a href="https://msdn.microsoft.com/66A388D0-C704-45D2-AD56-4F81E1928774">IMbnDeviceServicesEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesevents">IMbnDeviceServicesEvents</a>
  
 
  

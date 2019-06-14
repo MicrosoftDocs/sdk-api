@@ -66,15 +66,15 @@ Specifies the resource which will be used for the copy operation.<div> </div>Wh
 ### -field Type
 
 Specifies which type of resource location this is: a subresource of a texture, or a description of a texture layout which can be applied to a buffer.
-            This <a href="https://msdn.microsoft.com/CF296200-55A7-46B2-BF2C-58806A6A3BBC">D3D12_TEXTURE_COPY_TYPE</a> enum indicates which union member to use.
+            This <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_texture_copy_type">D3D12_TEXTURE_COPY_TYPE</a> enum indicates which union member to use.
           
 
 
 ### -field PlacedFootprint
 
 Specifies a texture layout, with offset, dimensions, and pitches, for the hardware to understand how to treat a section of a buffer resource as a multi-dimensional texture.
-              To fill-in the correct data for a <a href="https://msdn.microsoft.com/2EAFC6B9-376C-4801-8E53-BF0DB08943AA">CopyTextureRegion</a> call, 
-              see <a href="https://msdn.microsoft.com/74740A52-C2A5-4AF6-92CC-85B5C214423F">D3D12_PLACED_SUBRESOURCE_FOOTPRINT</a>.
+              To fill-in the correct data for a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copytextureregion">CopyTextureRegion</a> call, 
+              see <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_placed_subresource_footprint">D3D12_PLACED_SUBRESOURCE_FOOTPRINT</a>.
             
 
 
@@ -88,7 +88,7 @@ Specifies the index of the subresource of an arrayed, mip-mapped, or planar text
 
 
 
-Use this structure with <a href="https://msdn.microsoft.com/2EAFC6B9-376C-4801-8E53-BF0DB08943AA">CopyTextureRegion</a>.
+Use this structure with <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copytextureregion">CopyTextureRegion</a>.
         
 
 
@@ -99,15 +99,15 @@ Use this structure with <a href="https://msdn.microsoft.com/2EAFC6B9-376C-4801-8
 
 
 
-<a href="https://msdn.microsoft.com/8BA93729-2FFB-4C09-88B0-779049BAF385">CD3DX12_TEXTURE_COPY_LOCATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/cd3dx12-texture-copy-location">CD3DX12_TEXTURE_COPY_LOCATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/74740A52-C2A5-4AF6-92CC-85B5C214423F">D3D12_PLACED_SUBRESOURCE_FOOTPRINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_placed_subresource_footprint">D3D12_PLACED_SUBRESOURCE_FOOTPRINT</a>
  
 
  

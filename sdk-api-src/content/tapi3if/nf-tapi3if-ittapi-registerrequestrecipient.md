@@ -128,23 +128,23 @@ Insufficient memory exists to perform the operation.
 
 
 
-<a href="https://msdn.microsoft.com/2b6d4f99-3ffe-44ce-9cb5-3fdd565085db">ITRequest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itrequest">ITRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/69f9b504-be01-4167-8002-32a8e86bab0f">ITRequestEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itrequestevent">ITRequestEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/75d641c7-dbf8-4ae2-b16b-2757e890d32b">ITTAPI</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapi">ITTAPI</a>
 
 
 
-<a href="https://msdn.microsoft.com/6896a18a-75ff-4f43-81e2-7b828bb16ff6">MakeCall</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itrequest-makecall">MakeCall</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4cf358f-2dc8-432a-92ed-68282ddc8a97">TAPI Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-object">TAPI Object</a>
  
 
  

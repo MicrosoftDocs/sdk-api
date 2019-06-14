@@ -91,7 +91,7 @@ Size of the buffer pointed to by <i>ReturnBuffer</i>, in characters. This includ
 
 ### -param RequiredSize [in, out]
 
-Optional pointer to a  variable that receives the required size for the buffer pointed to by <i>ReturnBuffer</i>, in characters. This includes the <b>null</b> terminator.  If the actual size needed is larger than the value specified by <i>ReturnBufferSize</i>, the function fails and a call to <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns ERROR_INSUFFICIENT_BUFFER. 
+Optional pointer to a  variable that receives the required size for the buffer pointed to by <i>ReturnBuffer</i>, in characters. This includes the <b>null</b> terminator.  If the actual size needed is larger than the value specified by <i>ReturnBufferSize</i>, the function fails and a call to <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_INSUFFICIENT_BUFFER. 
 
 
 
@@ -102,7 +102,7 @@ Optional pointer to a  variable that receives the required size for the buffer p
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -111,7 +111,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-If this function is called with a <i>ReturnBuffer</i> of <b>NULL</b> and a <i>ReturnBufferSize</i> of zero, the function puts the buffer size needed to hold the specified data into the variable pointed to by <i>RequiredSize</i>. If the function succeeds in this, the return value is a nonzero value. Otherwise, the return value is zero and extended error information can be obtained by calling <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If this function is called with a <i>ReturnBuffer</i> of <b>NULL</b> and a <i>ReturnBufferSize</i> of zero, the function puts the buffer size needed to hold the specified data into the variable pointed to by <i>RequiredSize</i>. If the function succeeds in this, the return value is a nonzero value. Otherwise, the return value is zero and extended error information can be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -121,23 +121,23 @@ If this function is called with a <i>ReturnBuffer</i> of <b>NULL</b> and a <i>Re
 
 
 
-<a href="https://msdn.microsoft.com/0a9518b7-f231-48f2-ba50-5b802f8ccaed">Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/58201596-cb8c-480a-abef-896c1f9ef098">Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/00245cb9-99de-464a-a0b4-d1efb1f1331b">SetupGetSourceFileLocation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetsourcefilelocationa">SetupGetSourceFileLocation</a>
 
 
 
-<a href="https://msdn.microsoft.com/f1db8ad5-b133-410e-9843-38b09e2ef5e7">SetupGetSourceFileSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetsourcefilesizea">SetupGetSourceFileSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/15bedd7f-7079-4623-a797-db308a51093f">SetupGetSourceInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetsourceinfoa">SetupGetSourceInfo</a>
  
 
  

@@ -64,14 +64,14 @@ Pointer to a Unicode string that specifies the IP address or hostname of the DHC
 
 ### -param GlobalFilterInfo [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/babf9cdb-bd43-41ea-9cb4-209ff129b0f2">DHCP_FILTER_GLOBAL_INFO</a> structure that contains information used to enable or disable allow and deny lists.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_filter_global_info">DHCP_FILTER_GLOBAL_INFO</a> structure that contains information used to enable or disable allow and deny lists.
 
 
 ## -returns
 
 
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://msdn.microsoft.com/6370313f-d7db-4ff1-b0e0-7fa47474facb">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -131,7 +131,7 @@ When filtering is enabled, the DHCP server allows the DHCP clients associated wi
 
 
 
-<a href="https://msdn.microsoft.com/babf9cdb-bd43-41ea-9cb4-209ff129b0f2">DHCP_FILTER_GLOBAL_INFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_filter_global_info">DHCP_FILTER_GLOBAL_INFO</a>
  
 
  

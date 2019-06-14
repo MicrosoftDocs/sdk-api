@@ -48,7 +48,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents context parameters that are used as input for the <a href="https://msdn.microsoft.com/BCB58D8A-5FF6-46BD-8144-919C6DB44593">CLUSCTL_RESOURCE_GET_OPERATION_CONTEXT</a> control code.
+Represents context parameters that are used as input for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-get-operation-context">CLUSCTL_RESOURCE_GET_OPERATION_CONTEXT</a> control code.
 
 
 ## -struct-fields
@@ -68,7 +68,7 @@ The version of this structure.
 
 ### -field Type
 
-A  <a href="https://msdn.microsoft.com/8C074E15-4060-4AC7-BB59-959854102EE0">RESDLL_CONTEXT_OPERATION_TYPE</a> enumeration value that specifies the context operation type.
+A  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ne-resapi-resdll_context_operation_type">RESDLL_CONTEXT_OPERATION_TYPE</a> enumeration value that specifies the context operation type.
 
 
 ### -field Priority
@@ -81,7 +81,7 @@ TBD
 
 
 
-<a href="https://msdn.microsoft.com/9ab4b974-28b5-4f33-a7c4-b9b2472059aa">Resource DLL Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-structures">Resource DLL Structures</a>
  
 
  

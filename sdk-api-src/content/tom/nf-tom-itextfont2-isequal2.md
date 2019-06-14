@@ -59,7 +59,7 @@ Determines whether this text font object has the same properties as the specifie
 
 ### -param pFont [in]
 
-Type: <b><a href="https://msdn.microsoft.com/d2d43bfd-7cdf-458a-822d-e3965bfe2284">ITextFont2</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a>*</b>
 
 The text font object to compare against.
 
@@ -68,14 +68,14 @@ The text font object to compare against.
 
 Type: <b>long*</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb787873(v=VS.85).aspx">tomBool</a> value that is <b>tomTrue</b> if the font objects have the same properties, or <b>tomFalse</b> if they don't. This parameter can be <b>NULL</b>. 
+A <a href="https://docs.microsoft.com/windows/desktop/Controls/about-rich-edit-controls">tomBool</a> value that is <b>tomTrue</b> if the font objects have the same properties, or <b>tomFalse</b> if they don't. This parameter can be <b>NULL</b>. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -88,7 +88,7 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
  For two text font objects to be equal, both must belong to the same Text Object Model (TOM) object. 
 
-The <b>ITextFont::IsEqual2</b> method ignores entries for which either font object has a <a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomUndefined</a> value.
+The <b>ITextFont::IsEqual2</b> method ignores entries for which either font object has a <a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomUndefined</a> value.
 
 
 
@@ -98,11 +98,11 @@ The <b>ITextFont::IsEqual2</b> method ignores entries for which either font obje
 
 
 
-<a href="https://msdn.microsoft.com/d2d43bfd-7cdf-458a-822d-e3965bfe2284">ITextFont2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787863(v=VS.85).aspx">ITextFont::IsEqual</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-isequal">ITextFont::IsEqual</a>
  
 
  

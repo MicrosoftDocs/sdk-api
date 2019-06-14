@@ -59,7 +59,7 @@ Increments the count of an object's strong external connections.
 
 ### -param extconn [in]
 
-The type of external connection to the object. The only type of external connection currently supported by this interface is strong, which means that the object must remain alive as long as this external connection exists. Strong external connections are represented by the value EXTCONN_STRONG, which is defined in the enumeration <a href="https://msdn.microsoft.com/95c7de47-9f81-4316-99b8-0f5f0aa54d65">EXTCONN</a>.
+The type of external connection to the object. The only type of external connection currently supported by this interface is strong, which means that the object must remain alive as long as this external connection exists. Strong external connections are represented by the value EXTCONN_STRONG, which is defined in the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tagextconn">EXTCONN</a>.
 
 
 ### -param reserved [in]
@@ -80,9 +80,9 @@ The method returns the count of connections. This value is intended to be used o
 
 
 
-An object created by a EXE object server relies on its stub manager to call <b>AddConnection</b> whenever a link client activates and therefore creates an external lock on the object. When the link client breaks the connection, the stub manager calls <a href="https://msdn.microsoft.com/7ed598b2-9603-454a-99cf-849715e43ca1">IExternalConnection::ReleaseConnection</a> to release the lock.
+An object created by a EXE object server relies on its stub manager to call <b>AddConnection</b> whenever a link client activates and therefore creates an external lock on the object. When the link client breaks the connection, the stub manager calls <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iexternalconnection-releaseconnection">IExternalConnection::ReleaseConnection</a> to release the lock.
 
-DLL object applications exist in the same process space as their objects, so they do not use RPC (remote procedure calls) and do not have stub managers to keep track of external connections. Therefore, DLL servers that support external links to their objects must implement <a href="https://msdn.microsoft.com/28afc305-d5b0-4ac9-9412-5876e575c2c2">IExternalConnection</a> so that link clients can directly call the interface to inform them when connections are added or released.
+DLL object applications exist in the same process space as their objects, so they do not use RPC (remote procedure calls) and do not have stub managers to keep track of external connections. Therefore, DLL servers that support external links to their objects must implement <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iexternalconnection">IExternalConnection</a> so that link clients can directly call the interface to inform them when connections are added or released.
 
 The following is a typical implementation for the <b>AddConnection</b> method.
 
@@ -99,15 +99,15 @@ The following is a typical implementation for the <b>AddConnection</b> method.
 
 
 
-<a href="https://msdn.microsoft.com/28afc305-d5b0-4ac9-9412-5876e575c2c2">IExternalConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iexternalconnection">IExternalConnection</a>
 
 
 
-<a href="https://msdn.microsoft.com/ce501785-16ad-4120-abea-41e2d6ca67df">IRunnableObject::LockRunning</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunnableobject-lockrunning">IRunnableObject::LockRunning</a>
 
 
 
-<a href="https://msdn.microsoft.com/84941a59-6880-4824-b4b9-cd1b52d2bffb">OleLockRunning</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olelockrunning">OleLockRunning</a>
  
 
  

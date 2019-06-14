@@ -59,9 +59,9 @@ Gets the handler type for Sync Center.
 
 ### -param pnType [out]
 
-Type: <b><a href="https://msdn.microsoft.com/993a1d55-32ee-4ea7-823f-a533e9646f1f">SYNCMGR_HANDLER_TYPE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_handler_type">SYNCMGR_HANDLER_TYPE</a>*</b>
 
-When this method returns, points to a value from the <a href="https://msdn.microsoft.com/993a1d55-32ee-4ea7-823f-a533e9646f1f">SYNCMGR_HANDLER_TYPE</a> enumeration that specifies the handler type. If the method fails, this parameter points to <a href="https://msdn.microsoft.com/993a1d55-32ee-4ea7-823f-a533e9646f1f">SYNCMGR_HT_UNSPECIFIED</a>.
+When this method returns, points to a value from the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_handler_type">SYNCMGR_HANDLER_TYPE</a> enumeration that specifies the handler type. If the method fails, this parameter points to <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_handler_type">SYNCMGR_HT_UNSPECIFIED</a>.
 
 
 ## -returns
@@ -70,7 +70,7 @@ When this method returns, points to a value from the <a href="https://msdn.micro
 
 Type: <b>HRESULT</b>
 
-Returns S_OK if successful, or an error value otherwise. If the method fails, <i>pnType</i> is set to <a href="https://msdn.microsoft.com/993a1d55-32ee-4ea7-823f-a533e9646f1f">SYNCMGR_HT_UNSPECIFIED</a>.
+Returns S_OK if successful, or an error value otherwise. If the method fails, <i>pnType</i> is set to <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_handler_type">SYNCMGR_HT_UNSPECIFIED</a>.
 
 
 
@@ -79,7 +79,7 @@ Returns S_OK if successful, or an error value otherwise. If the method fails, <i
 
 
 
-Typically, this value does not change. However, Sync Center calls this method whenever the <a href="https://msdn.microsoft.com/d961aef7-c559-4caa-894e-e86836b142c0">UpdateHandler</a> method is called.
+Typically, this value does not change. However, Sync Center calls this method whenever the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updatehandler">UpdateHandler</a> method is called.
 
 
 #### Examples

@@ -50,9 +50,9 @@ ms.custom: 19H1
 
 
 The <b>ACCESS_MODE</b> enumeration contains values that indicate how the access rights in an 
-<a href="https://msdn.microsoft.com/6fe09542-10dd-439c-adf8-a4e06943ddb2">EXPLICIT_ACCESS</a> structure apply to the trustee. Functions such as 
-<a href="https://msdn.microsoft.com/05960fc1-1ad2-4c19-a65c-62259af5e18c">SetEntriesInAcl</a> and 
-<a href="https://msdn.microsoft.com/186aa6aa-efc3-4f8a-acad-e257da3dac0b">GetExplicitEntriesFromAcl</a> use these values to set or retrieve information in an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entry</a> (ACE).
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_explicit_access_a">EXPLICIT_ACCESS</a> structure apply to the trustee. Functions such as 
+<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setentriesinacla">SetEntriesInAcl</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getexplicitentriesfromacla">GetExplicitEntriesFromAcl</a> use these values to set or retrieve information in an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE).
 
 
 ## -enum-fields
@@ -68,12 +68,12 @@ Value not used.
 ### -field GRANT_ACCESS
 
 Indicates an 
-<a href="https://msdn.microsoft.com/002a3fa7-02a3-4832-948e-b048f5f5818f">ACCESS_ALLOWED_ACE</a> structure. The new ACE combines the specified rights with any existing allowed or denied rights of the trustee.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_access_allowed_ace">ACCESS_ALLOWED_ACE</a> structure. The new ACE combines the specified rights with any existing allowed or denied rights of the trustee.
 
 
 ### -field SET_ACCESS
 
-Indicates an <a href="https://msdn.microsoft.com/002a3fa7-02a3-4832-948e-b048f5f5818f">ACCESS_ALLOWED_ACE</a>structure that allows the specified rights. 
+Indicates an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_access_allowed_ace">ACCESS_ALLOWED_ACE</a>structure that allows the specified rights. 
 
 
 
@@ -84,7 +84,7 @@ On input, this value discards any existing access control information for the tr
 ### -field DENY_ACCESS
 
 Indicates an 
-<a href="https://msdn.microsoft.com/d76a92d0-ccd0-4e73-98b6-43bcd661134d">ACCESS_DENIED_ACE</a>structure that denies the specified rights. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_access_denied_ace">ACCESS_DENIED_ACE</a>structure that denies the specified rights. 
 
 
 
@@ -94,13 +94,13 @@ On input, this value denies the specified rights in addition to any currently de
 
 ### -field REVOKE_ACCESS
 
-Indicates that all existing <a href="https://msdn.microsoft.com/002a3fa7-02a3-4832-948e-b048f5f5818f">ACCESS_ALLOWED_ACE</a> or 
-<a href="https://msdn.microsoft.com/c26b5856-5447-4606-8110-f24a4d235c64">SYSTEM_AUDIT_ACE</a> structures for the specified trustee are removed.
+Indicates that all existing <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_access_allowed_ace">ACCESS_ALLOWED_ACE</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_audit_ace">SYSTEM_AUDIT_ACE</a> structures for the specified trustee are removed.
 
 
 ### -field SET_AUDIT_SUCCESS
 
-Indicates a <a href="https://msdn.microsoft.com/c26b5856-5447-4606-8110-f24a4d235c64">SYSTEM_AUDIT_ACE</a>structure that generates audit messages for successful attempts to use the specified access rights. 
+Indicates a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_audit_ace">SYSTEM_AUDIT_ACE</a>structure that generates audit messages for successful attempts to use the specified access rights. 
 						
 
 On input, this value combines the specified rights with any existing audited access rights for the trustee.
@@ -109,7 +109,7 @@ On input, this value combines the specified rights with any existing audited acc
 ### -field SET_AUDIT_FAILURE
 
 Indicates a 
-<a href="https://msdn.microsoft.com/c26b5856-5447-4606-8110-f24a4d235c64">SYSTEM_AUDIT_ACE</a>structure that generates audit messages for failed attempts to use the specified access rights.  
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_audit_ace">SYSTEM_AUDIT_ACE</a>structure that generates audit messages for failed attempts to use the specified access rights.  
 
 On input, this value combines the specified rights with any existing audited access rights for the trustee.
 
@@ -119,39 +119,39 @@ On input, this value combines the specified rights with any existing audited acc
 
 
 
-<a href="https://msdn.microsoft.com/002a3fa7-02a3-4832-948e-b048f5f5818f">ACCESS_ALLOWED_ACE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_access_allowed_ace">ACCESS_ALLOWED_ACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/d76a92d0-ccd0-4e73-98b6-43bcd661134d">ACCESS_DENIED_ACE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_access_denied_ace">ACCESS_DENIED_ACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/980b8242-2ba2-469f-b834-da7d3fb22e14">ACE</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/ace">ACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/d9ce4ec5-5c09-4b33-93a1-39638a925986">Access Control</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2f22838-102e-432c-9c82-06a3e0741374">Authorization Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-enumerations">Authorization Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/6fe09542-10dd-439c-adf8-a4e06943ddb2">EXPLICIT_ACCESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_explicit_access_a">EXPLICIT_ACCESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/186aa6aa-efc3-4f8a-acad-e257da3dac0b">GetExplicitEntriesFromAcl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getexplicitentriesfromacla">GetExplicitEntriesFromAcl</a>
 
 
 
-<a href="https://msdn.microsoft.com/c26b5856-5447-4606-8110-f24a4d235c64">SYSTEM_AUDIT_ACE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_audit_ace">SYSTEM_AUDIT_ACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/05960fc1-1ad2-4c19-a65c-62259af5e18c">SetEntriesInAcl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setentriesinacla">SetEntriesInAcl</a>
  
 
  

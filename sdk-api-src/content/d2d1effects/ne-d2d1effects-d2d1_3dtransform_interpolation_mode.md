@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The interpolation mode the <a href="https://msdn.microsoft.com/BC2F2837-40F0-4293-A190-8B5F81BB01B6">3D transform effect</a> uses on the image. There are 5 scale modes that range in quality and speed.
+The interpolation mode the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/3d-transform">3D transform effect</a> uses on the image. There are 5 scale modes that range in quality and speed.
         
 
 

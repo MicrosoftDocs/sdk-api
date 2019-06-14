@@ -139,11 +139,11 @@ A pointer passed as a parameter is not valid.
 
 
 
-<a href="https://msdn.microsoft.com/a4a73ff8-e24a-4f44-9205-c60699d1c27d">IDot11AdHocInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocinterface">IDot11AdHocInterface</a>
 
 
 
-<a href="https://msdn.microsoft.com/54e271dc-b710-4229-9682-2919af6cd998">IDot11AdHocInterface::GetStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocinterface-getstatus">IDot11AdHocInterface::GetStatus</a>
  
 
  

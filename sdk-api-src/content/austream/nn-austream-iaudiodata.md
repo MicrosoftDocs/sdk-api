@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
-The <code>IAudioData</code> interface provides methods that enable applications to set and get the underlying audio data that audio streams will reference. The audio data format is set in the <a href="https://msdn.microsoft.com/4f3bf6fb-b15f-43b3-82f1-e7a8a3007057">WAVEFORMATEX</a> structure.
+The <code>IAudioData</code> interface provides methods that enable applications to set and get the underlying audio data that audio streams will reference. The audio data format is set in the <a href="https://docs.microsoft.com/previous-versions/dd757713(v%3dvs.85)">WAVEFORMATEX</a> structure.
 
 Implement this interface on underlying audio data objects that audio stream sample objects will access.
 
@@ -63,7 +63,7 @@ Applications use this interface to set and retrieve information on underlying da
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioData</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd407080(v=VS.85).aspx">IMemoryData</a>. <b>IAudioData</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioData</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/austream/nn-austream-imemorydata">IMemoryData</a>. <b>IAudioData</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,7 +78,7 @@ The <b>IAudioData</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd389514(v=VS.85).aspx">GetFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/austream/nf-austream-iaudiodata-getformat">GetFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current data format.
@@ -87,7 +87,7 @@ Retrieves the current data format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd389515(v=VS.85).aspx">SetFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/austream/nf-austream-iaudiodata-setformat">SetFormat</a>
 </td>
 <td align="left" width="63%">
 Sets the current data format.
@@ -102,7 +102,7 @@ Sets the current data format.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd407080(v=VS.85).aspx">IMemoryData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/austream/nn-austream-imemorydata">IMemoryData</a>
  
 
  

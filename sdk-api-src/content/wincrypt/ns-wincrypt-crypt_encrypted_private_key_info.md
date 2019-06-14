@@ -62,12 +62,12 @@ EncryptedPrivateKeyInfo ASN.1 type found in the PKCS #8 standard.
 
 ### -field EncryptionAlgorithm
 
-A <a href="https://msdn.microsoft.com/ef0d3aa6-6b36-426f-a14c-2fdf7543deb9">CRYPT_ALGORITHM_IDENTIFIER</a> structure that indicates the algorithm used for encryption.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that indicates the algorithm used for encryption.
 
 
 ### -field EncryptedPrivateKey
 
-A <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_DATA_BLOB</a> structure that contains the encrypted private key data.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that contains the encrypted private key data.
 
 
 ## -see-also
@@ -75,19 +75,19 @@ A <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYP
 
 
 
-<a href="https://msdn.microsoft.com/ef0d3aa6-6b36-426f-a14c-2fdf7543deb9">CRYPT_ALGORITHM_IDENTIFIER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
 
 
 
-<a href="https://msdn.microsoft.com/82fee86a-8704-4f22-8f11-f89509c5a0aa">CryptExportPKCS8Ex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptexportpkcs8ex">CryptExportPKCS8Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/f59fd46b-5430-4aa2-85ba-961b416dbaac">PCRYPT_DECRYPT_PRIVATE_KEY_FUNC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pcrypt_decrypt_private_key_func">PCRYPT_DECRYPT_PRIVATE_KEY_FUNC</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa6b8bca-4f0d-491e-ab38-5c273a01ca05">PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pcrypt_encrypt_private_key_func">PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC</a>
  
 
  

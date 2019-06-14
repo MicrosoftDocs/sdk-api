@@ -109,11 +109,11 @@ You can use this method to associate any information with the table of contents.
 
 
 
-<a href="https://msdn.microsoft.com/b4c65f1b-7465-4229-8fac-92d6b1be50da">GetContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itoc-getcontext">GetContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/b12d38c7-b80e-4ca8-9ac5-a116100911d0">IToc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a>
  
 
  

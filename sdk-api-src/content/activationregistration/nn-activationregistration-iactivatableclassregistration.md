@@ -54,7 +54,7 @@ Enables getting  the registration info for a class.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IActivatableClassRegistration</b> interface inherits from <a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a>. <b>IActivatableClassRegistration</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IActivatableClassRegistration</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IActivatableClassRegistration</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IActivatableClassRegistration</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8AE55B74-8AC3-4F13-8FEE-7C3C52DEE96F">get_ActivatableClassId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iactivatableclassregistration-get_activatableclassid">get_ActivatableClassId</a>
 </td>
 <td align="left" width="63%">
 Gets the class identifier for the current activatable class.
@@ -78,7 +78,7 @@ Gets the class identifier for the current activatable class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/145DF7F2-839A-4B94-B4DC-BA2103A04D2F">get_ActivationType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iactivatableclassregistration-get_activationtype">get_ActivationType</a>
 </td>
 <td align="left" width="63%">
 Gets the kind of activation for the current activatable class.
@@ -87,7 +87,7 @@ Gets the kind of activation for the current activatable class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E058C71F-5F37-4089-89BD-28D8FF7E0711">get_Attributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iactivatableclassregistration-get_attributes">get_Attributes</a>
 </td>
 <td align="left" width="63%">
 Gets the attributes associated with the current activatable class.
@@ -96,7 +96,7 @@ Gets the attributes associated with the current activatable class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3DFE773C-CF63-489A-988B-2FFF4215C8BF">get_RegisteredTrustLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iactivatableclassregistration-get_registeredtrustlevel">get_RegisteredTrustLevel</a>
 </td>
 <td align="left" width="63%">
 Gets the trust level of the current activatable class.
@@ -105,7 +105,7 @@ Gets the trust level of the current activatable class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ACA72E3B-E559-4BE8-894F-A4D5F1FF3742">get_RegistrationScope</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iactivatableclassregistration-get_registrationscope">get_RegistrationScope</a>
 </td>
 <td align="left" width="63%">
 Gets the deployment scope of the current activatable class.
@@ -120,15 +120,15 @@ Gets the deployment scope of the current activatable class.
 
 
 
-<a href="https://msdn.microsoft.com/00E9476E-45E0-4D97-9DA4-FD293674BED4">IDllServerActivatableClassRegistration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nn-activationregistration-idllserveractivatableclassregistration">IDllServerActivatableClassRegistration</a>
 
 
 
-<a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
 
 
 
-<a href="https://msdn.microsoft.com/9D9B74C9-9D9A-4E10-A222-C8F3658F2C48">RoGetActivatableClassRegistration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/roregistrationapi/nf-roregistrationapi-rogetactivatableclassregistration">RoGetActivatableClassRegistration</a>
  
 
  

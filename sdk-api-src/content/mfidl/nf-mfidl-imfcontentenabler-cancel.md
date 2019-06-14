@@ -95,7 +95,7 @@ The method succeeded.
 
 
 
-The content enabler sends an <a href="https://msdn.microsoft.com/5162800c-9c55-40de-be66-a98765324f76">MEEnablerCompleted</a> event with a status code of E_CANCEL.
+The content enabler sends an <a href="https://docs.microsoft.com/windows/desktop/medfound/meenablercompleted">MEEnablerCompleted</a> event with a status code of E_CANCEL.
 
 
 
@@ -105,11 +105,11 @@ The content enabler sends an <a href="https://msdn.microsoft.com/5162800c-9c55-4
 
 
 
-<a href="https://msdn.microsoft.com/85d98f49-8af2-42ce-9b36-a025aee93f73">How to Play Protected Media Files</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-play-protected-media-files">How to Play Protected Media Files</a>
 
 
 
-<a href="https://msdn.microsoft.com/45d02bd0-1104-47ec-8559-8cc51590fc62">IMFContentEnabler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfcontentenabler">IMFContentEnabler</a>
  
 
  

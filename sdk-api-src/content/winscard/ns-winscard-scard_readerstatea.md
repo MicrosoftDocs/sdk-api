@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SCARD_READERSTATE</b> structure is used by functions for tracking <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">smart cards</a> within <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">readers</a>.
+The <b>SCARD_READERSTATE</b> structure is used by functions for tracking <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart cards</a> within <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">readers</a>.
 
 
 ## -struct-fields
@@ -68,12 +68,12 @@ Set the value of this member to "\\\\?PnP?\\Notification" and the values of all 
 
 ### -field pvUserData
 
-Not used by the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">smart card subsystem</a>. This member is used by the application.
+Not used by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card subsystem</a>. This member is used by the application.
 
 
 ### -field dwCurrentState
 
-Current <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">state</a> of the reader, as seen by the application. This field can take on any of the following values, in combination, as a bitmask. 
+Current <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">state</a> of the reader, as seen by the application. This field can take on any of the following values, in combination, as a bitmask. 
 
 
 
@@ -91,7 +91,7 @@ Current <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50
 </dl>
 </td>
 <td width="60%">
-The application is unaware of the current <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">state</a>, and would like to know. The use of this value results in an immediate return from state transition monitoring services. This is represented by all bits set to zero.
+The application is unaware of the current <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">state</a>, and would like to know. The use of this value results in an immediate return from state transition monitoring services. This is represented by all bits set to zero.
 
 </td>
 </tr>
@@ -141,7 +141,7 @@ The application expects that there is a card in the reader.
 </dl>
 </td>
 <td width="60%">
-The application expects that there is a card in the reader with an ATR that matches one of the target cards. If this bit is set, SCARD_STATE_PRESENT is assumed. This bit has no meaning to <a href="https://msdn.microsoft.com/94776f3d-e8f0-4062-a766-2cf28cbfd050">SCardGetStatusChange</a> beyond SCARD_STATE_PRESENT.
+The application expects that there is a card in the reader with an ATR that matches one of the target cards. If this bit is set, SCARD_STATE_PRESENT is assumed. This bit has no meaning to <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardgetstatuschangea">SCardGetStatusChange</a> beyond SCARD_STATE_PRESENT.
 
 </td>
 </tr>
@@ -181,7 +181,7 @@ The application expects that there is an unresponsive card in the reader.
 
 ### -field dwEventState
 
-Current <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">state</a> of the <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">reader</a>, as known by the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">smart card </a><a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">resource manager</a>. This field can take on any of the following values, in combination, as a bitmask. 
+Current <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">state</a> of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader</a>, as known by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card </a><a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager</a>. This field can take on any of the following values, in combination, as a bitmask. 
 
 
 
@@ -259,7 +259,7 @@ There is a card in the reader.
 </dl>
 </td>
 <td width="60%">
-There is a card in the reader with an ATR matching one of the target cards. If this bit is set, SCARD_STATE_PRESENT will also be set. This bit is only returned on the <a href="https://msdn.microsoft.com/7ee90188-6fe5-417b-a7c7-9c29d9cdd4d0">SCardLocateCards</a> function.
+There is a card in the reader with an ATR matching one of the target cards. If this bit is set, SCARD_STATE_PRESENT will also be set. This bit is only returned on the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardlocatecardsa">SCardLocateCards</a> function.
 
 </td>
 </tr>
@@ -312,11 +312,11 @@ ATR of the inserted card, with extra alignment bytes.
 
 
 
-<a href="https://msdn.microsoft.com/94776f3d-e8f0-4062-a766-2cf28cbfd050">SCardGetStatusChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardgetstatuschangea">SCardGetStatusChange</a>
 
 
 
-<a href="https://msdn.microsoft.com/7ee90188-6fe5-417b-a7c7-9c29d9cdd4d0">SCardLocateCards</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardlocatecardsa">SCardLocateCards</a>
  
 
  

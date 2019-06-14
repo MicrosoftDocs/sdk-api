@@ -62,7 +62,7 @@ The <b>EngGetDriverName</b> function returns the name of the driver's DLL.
 
 ### -param hdev [in]
 
-Handle to the device. This is the GDI handle received by the driver as the <i>hdev</i> parameter for <a href="https://msdn.microsoft.com/6343c6cc-f2f3-4776-a747-7a5b5cebef5f">DrvCompletePDEV</a>.
+Handle to the device. This is the GDI handle received by the driver as the <i>hdev</i> parameter for <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvcompletepdev">DrvCompletePDEV</a>.
 
 
 ## -returns
@@ -79,7 +79,7 @@ Handle to the device. This is the GDI handle received by the driver as the <i>hd
 
 
 
-<a href="https://msdn.microsoft.com/bfc698d9-a340-49a5-97fb-0dae92ab6f2d">EngGetPrinterDataFileName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-enggetprinterdatafilename">EngGetPrinterDataFileName</a>
  
 
  

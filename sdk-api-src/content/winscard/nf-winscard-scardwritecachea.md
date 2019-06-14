@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SCardWriteCache</b> function writes a name-value pair from a smart card to the global cache maintained by the <a href="https://msdn.microsoft.com/96434996-88fa-47d3-bb44-3ebb23610b27">Smart Card Resource Manager</a>.
+The <b>SCardWriteCache</b> function writes a name-value pair from a smart card to the global cache maintained by the <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/smart-card-resource-manager">Smart Card Resource Manager</a>.
 
 
 ## -parameters
@@ -61,8 +61,8 @@ The <b>SCardWriteCache</b> function writes a name-value pair from a smart card t
 
 ### -param hContext [in]
 
-A handle that identifies the <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">resource manager context</a>. The resource manager context is set by a previous call to 
-<a href="https://msdn.microsoft.com/1cf9b005-b76c-4fc9-b4bd-a1ad8552535f">SCardEstablishContext</a>.
+A handle that identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager context</a>. The resource manager context is set by a previous call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>.
 
 
 ### -param CardIdentifier [in]
@@ -96,7 +96,7 @@ The size, in bytes, of the <i>Data</i> buffer.
 
 If the function succeeds, it returns <b>SCARD_S_SUCCESS</b>. 
 
-If the function fails, it returns one of the following error codes. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+If the function fails, it returns one of the following error codes. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
 
 <table>
 <tr>
@@ -126,7 +126,7 @@ The size of the specified name-value pair exceeds the maximum size defined for t
 
 
 
-<a href="https://msdn.microsoft.com/ffa15036-b6d6-4c0a-8f04-e1900484eb8d">SCardReadCache</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardreadcachea">SCardReadCache</a>
  
 
  

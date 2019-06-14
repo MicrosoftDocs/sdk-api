@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Debug messages for setting up an info-queue filter (see <a href="https://msdn.microsoft.com/en-us/library/Bb205313(v=VS.85).aspx">D3D10_INFO_QUEUE_FILTER</a>); use these messages to allow or deny message categories to pass through the storage and retrieval filters. These IDs are used by methods such as <a href="https://msdn.microsoft.com/en-us/library/Bb173790(v=VS.85).aspx">ID3D10InfoQueue::GetMessage</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb173781(v=VS.85).aspx">ID3D10InfoQueue::AddMessage</a>. 
+Debug messages for setting up an info-queue filter (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/ns-d3d10sdklayers-d3d10_info_queue_filter">D3D10_INFO_QUEUE_FILTER</a>); use these messages to allow or deny message categories to pass through the storage and retrieval filters. These IDs are used by methods such as <a href="https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/nf-d3d10sdklayers-id3d10infoqueue-getmessage">ID3D10InfoQueue::GetMessage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/nf-d3d10sdklayers-id3d10infoqueue-addmessage">ID3D10InfoQueue::AddMessage</a>. 
 
 
 ## -enum-fields
@@ -1583,7 +1583,7 @@ Debug messages for setting up an info-queue filter (see <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-enums">Core Enumerations</a>
  
 
  

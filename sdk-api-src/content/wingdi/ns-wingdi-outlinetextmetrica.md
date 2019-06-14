@@ -69,7 +69,7 @@ The size, in bytes, of the <b>OUTLINETEXTMETRIC</b> structure.
 
 ### -field otmTextMetrics
 
-A <a href="https://msdn.microsoft.com/0a46da58-5d0f-4db4-bba6-9e1b6c1f892c">TEXTMETRIC</a> structure containing further information about the font.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagtextmetrica">TEXTMETRIC</a> structure containing further information about the font.
 
 
 ### -field otmFiller
@@ -241,7 +241,7 @@ The offset from the beginning of the structure to a string specifying the family
 
 ### -field otmpFaceName
 
-The offset from the beginning of the structure to a string specifying the typeface name for the font. (This typeface name corresponds to the name specified in the <a href="https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec145beb4">LOGFONT</a> structure.)
+The offset from the beginning of the structure to a string specifying the typeface name for the font. (This typeface name corresponds to the name specified in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure.)
 
 
 ### -field otmpStyleName
@@ -270,23 +270,23 @@ Note, <b>OUTLINETEXTMETRIC</b> is defined using the current pack setting. To avo
 
 
 
-<a href="https://msdn.microsoft.com/93726d5c-d4ed-4681-bf45-cb899f195b5d">Font and Text Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/9944baa9-8e50-40b9-9650-78b0b1d7643a">Fonts and Text Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/b8c7a557-ca35-41a4-9043-8496e5b01564">GetOutlineTextMetrics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getoutlinetextmetricsa">GetOutlineTextMetrics</a>
 
 
 
-<a href="https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec145beb4">LOGFONT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a>
 
 
 
-<a href="https://msdn.microsoft.com/0a46da58-5d0f-4db4-bba6-9e1b6c1f892c">TEXTMETRIC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagtextmetrica">TEXTMETRIC</a>
  
 
  

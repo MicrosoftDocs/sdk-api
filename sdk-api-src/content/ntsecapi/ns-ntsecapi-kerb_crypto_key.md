@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>KERB_CRYPTO_KEY</b> structure contains information about a <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33">Kerberos</a> cryptographic <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">session key</a>.
+The <b>KERB_CRYPTO_KEY</b> structure contains information about a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">Kerberos</a> cryptographic <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">session key</a>.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ The <b>KERB_CRYPTO_KEY</b> structure contains information about a <a href="https
 
 ### -field KeyType
 
-Indicates the type of <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">session key</a> stored in the structure. It can be one of the following values.
+Indicates the type of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">session key</a> stored in the structure. It can be one of the following values.
 
 <table>
 <tr>
@@ -72,7 +72,7 @@ Indicates the type of <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-817
 </dl>
 </td>
 <td width="60%">
-Use <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">DES</a> encryption in <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cipher-block-chaining</a> mode with a CRC-32 checksum.
+Use <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">DES</a> encryption in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cipher-block-chaining</a> mode with a CRC-32 checksum.
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ Use no encryption.
 </dl>
 </td>
 <td width="60%">
-Use the RC4 <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">stream cipher</a> with a <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a>-based <a href="https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1">Message Authentication Code</a> (MAC).
+Use the RC4 <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">stream cipher</a> with a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a>-based <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">Message Authentication Code</a> (MAC).
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ Values greater than 127 are reserved for local values and may change without not
 
 ### -field Length
 
-Specifies the length, in bytes, of the cryptographic <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">session key</a>.
+Specifies the length, in bytes, of the cryptographic <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">session key</a>.
 
 
 ### -field Value

@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 
 Revokes the registration of a window, preventing it from receiving callbacks when scaling information changes.
-<div class="alert"><b>Note</b>  This function is not supported as of Windows 8.1. Use <a href="https://msdn.microsoft.com/4BF2F912-857A-4122-A9E1-6704F92240E6">UnregisterScaleChangeEvent</a> instead.</div><div> </div>
+<div class="alert"><b>Note</b>  This function is not supported as of Windows 8.1. Use <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-unregisterscalechangeevent">UnregisterScaleChangeEvent</a> instead.</div><div> </div>
 
 ## -parameters
 
@@ -63,7 +63,7 @@ Revokes the registration of a window, preventing it from receiving callbacks whe
 
 ### -param displayDevice [in]
 
-Type: <b><a href="https://msdn.microsoft.com/C8964494-339B-4198-A544-3BBCCFEB9596">DISPLAY_DEVICE_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-display_device_type">DISPLAY_DEVICE_TYPE</a></b>
 
 The enum value that indicates which display device to receive notifications about.
 
@@ -72,7 +72,7 @@ The enum value that indicates which display device to receive notifications abou
 
 Type: <b>DWORD</b>
 
-The registration token returned by a previous call to <a href="https://msdn.microsoft.com/79FB0A54-EBF0-4aab-B631-B4D3EA54D20B">RegisterScaleChangeNotifications</a>.
+The registration token returned by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-registerscalechangenotifications">RegisterScaleChangeNotifications</a>.
 
 
 ## -returns
@@ -91,15 +91,15 @@ If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>H
 
 
 
-<a href="https://msdn.microsoft.com/2F214512-704D-41A2-86A6-1EF880CD3DB4">GetScaleFactorForMonitor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-getscalefactorformonitor">GetScaleFactorForMonitor</a>
 
 
 
-<a href="https://msdn.microsoft.com/05FAFC9B-DCB7-464A-9933-7166C7E53D40">RegisterScaleChangeEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-registerscalechangeevent">RegisterScaleChangeEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/4BF2F912-857A-4122-A9E1-6704F92240E6">UnregisterScaleChangeEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-unregisterscalechangeevent">UnregisterScaleChangeEvent</a>
  
 
  

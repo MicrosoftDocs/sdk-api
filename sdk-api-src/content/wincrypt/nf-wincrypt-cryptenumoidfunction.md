@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CryptEnumOIDFunction</b> function enumerates the registered <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) functions. OID functions that are enumerated can be screened to include those identified by their encoding type, function name, OID, or any combination of encoding type, function name, and OID. For each OID function that matches the selection criteria, an application-provided callback function, <b>pfnEnumOIDFunc</b>, is called.
+The <b>CryptEnumOIDFunction</b> function enumerates the registered <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) functions. OID functions that are enumerated can be screened to include those identified by their encoding type, function name, OID, or any combination of encoding type, function name, and OID. For each OID function that matches the selection criteria, an application-provided callback function, <b>pfnEnumOIDFunc</b>, is called.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>CryptEnumOIDFunction</b> function enumerates the registered <a href="http
 
 ### -param dwEncodingType [in]
 
-Specifies the encoding type to match. Setting this parameter to CRYPT_MATCH_ANY_ENCODING_TYPE matches any encoding type. Note that if CRYPT_MATCH_ANY_ENCODING_TYPE is not specified, either a certificate or <a href="https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1">message encoding type</a> is required. If the low-order word that contains the certificate encoding type is nonzero, it is used; otherwise, the high-order word that contains the message encoding type is used. If both are specified, the certificate encoding type in the low-order word is used. 
+Specifies the encoding type to match. Setting this parameter to CRYPT_MATCH_ANY_ENCODING_TYPE matches any encoding type. Note that if CRYPT_MATCH_ANY_ENCODING_TYPE is not specified, either a certificate or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding type</a> is required. If the low-order word that contains the certificate encoding type is nonzero, it is used; otherwise, the high-order word that contains the message encoding type is used. If both are specified, the certificate encoding type in the low-order word is used. 
 
 
 
@@ -90,12 +90,12 @@ Reserved for future use and must be zero.
 
 ### -param pvArg [in]
 
-A pointer to arguments to be passed through to the <a href="https://msdn.microsoft.com/f29a3454-fa64-4305-ba4e-027d45014024">CRYPT_ENUM_OID_FUNCTION</a> callback function.
+A pointer to arguments to be passed through to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_enum_oid_func">CRYPT_ENUM_OID_FUNCTION</a> callback function.
 
 
 ### -param pfnEnumOIDFunc [in]
 
-A pointer to the callback function that is executed for each OID function that matches the input parameters. For details, see <a href="https://msdn.microsoft.com/f29a3454-fa64-4305-ba4e-027d45014024">CRYPT_ENUM_OID_FUNCTION</a>.
+A pointer to the callback function that is executed for each OID function that matches the input parameters. For details, see <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_enum_oid_func">CRYPT_ENUM_OID_FUNCTION</a>.
 
 
 ## -returns
@@ -105,7 +105,7 @@ A pointer to the callback function that is executed for each OID function that m
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -115,7 +115,7 @@ If the function fails, it returns zero (<b>FALSE</b>). For extended error inform
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a>
  
 
  

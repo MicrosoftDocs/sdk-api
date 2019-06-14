@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/6429e748-e0bf-431a-8989-db5b211665d5">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The
 				<b>SnmpMgrRequest</b> function requests the specified operation be performed with the specified agent. This function is an element of the SNMP Management API.
@@ -68,7 +68,7 @@ Pointer to an internal structure that specifies the session that will perform th
 
 
 Applications should not specify the <b>LPSNMP_MGR_SESSION</b> pointer returned by this function in a different thread. You can specify a pointer returned by 
-<a href="https://msdn.microsoft.com/e2827352-f1aa-477e-933c-942c73cea487">SnmpMgrOpen</a>, but only if the calls to 
+<a href="https://docs.microsoft.com/windows/desktop/api/mgmtapi/nf-mgmtapi-snmpmgropen">SnmpMgrOpen</a>, but only if the calls to 
 <b>SnmpMgrOpen</b> and 
 <b>SnmpMgrRequest</b> originate in the context of the same thread.
 
@@ -118,14 +118,14 @@ Write a value within a specific variable.
  
 
 Note that PDU request types have been renamed. For additional information, see 
-<a href="https://msdn.microsoft.com/2d87aeee-6fcb-4837-b091-6a9def8a9acb">SNMP Variable Types and Request PDU Types</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/snmp-variable-types-and-request-pdu-types">SNMP Variable Types and Request PDU Types</a>.
 
 
 ### -param variableBindings [in, out]
 
 Pointer to the variable bindings list. 
 
-<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/40f9930d-93d1-45eb-aa3a-499947004fcf">SnmpVarBind</a> array pointed to by the <a href="https://msdn.microsoft.com/73e33a64-39fb-4e36-8267-88c78ec27e26">SnmpVarBindList</a> structure must be allocated using the <a href="https://msdn.microsoft.com/85e293da-4c5b-4b32-9b86-e63074d37274">SnmpUtilMemAlloc</a> function.</div>
+<div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-snmpvarbind">SnmpVarBind</a> array pointed to by the <a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-snmpvarbindlist">SnmpVarBindList</a> structure must be allocated using the <a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputilmemalloc">SnmpUtilMemAlloc</a> function.</div>
 <div> </div>
 
 ### -param errorStatus [out]
@@ -215,7 +215,7 @@ Pointer to a variable in which the error index result will be returned.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>, which may return one of the following error codes.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which may return one of the following error codes.
 
 <table>
 <tr>
@@ -241,7 +241,7 @@ The request timed-out.
 </td>
 <td width="60%">
 Unexpected error file descriptors indicated by the Windows Sockets 
-<a href="https://msdn.microsoft.com/f9f1092d-7e15-41cd-a42f-abe8a4f33e15">select</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-select">select</a> function.
 
 </td>
 </tr>
@@ -256,7 +256,7 @@ Unexpected error file descriptors indicated by the Windows Sockets
 
 
 Retries and time-outs are supplied to the 
-<a href="https://msdn.microsoft.com/e2827352-f1aa-477e-933c-942c73cea487">SnmpMgrOpen</a> function. Each variable in the variable bindings list must be initialized to type ASN_NULL for Get and Get Next requests.
+<a href="https://docs.microsoft.com/windows/desktop/api/mgmtapi/nf-mgmtapi-snmpmgropen">SnmpMgrOpen</a> function. Each variable in the variable bindings list must be initialized to type ASN_NULL for Get and Get Next requests.
 
 
 
@@ -266,19 +266,19 @@ Retries and time-outs are supplied to the
 
 
 
-<a href="https://msdn.microsoft.com/8913caa9-6b2c-424c-a778-bd54d6584dac">SNMP Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/499e912b-0821-452e-81f6-8a8250875979">Simple Network Management Protocol (SNMP) Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/d8e7cc61-e313-4e36-88e7-686b4f9282b5">SnmpMgrClose</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgmtapi/nf-mgmtapi-snmpmgrclose">SnmpMgrClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2827352-f1aa-477e-933c-942c73cea487">SnmpMgrOpen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgmtapi/nf-mgmtapi-snmpmgropen">SnmpMgrOpen</a>
  
 
  

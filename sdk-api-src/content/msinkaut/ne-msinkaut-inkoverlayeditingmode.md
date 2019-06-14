@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Specifies the behavior mode of the <a href="https://msdn.microsoft.com/61191ab3-075e-458b-9e0f-4bc255687b3c">InkOverlay</a> object and the <a href="https://msdn.microsoft.com/e9fa6807-6e2a-44ec-9b8f-a560185e4367">InkPicture</a> control.
+Specifies the behavior mode of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object and the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control.
 
 
 
@@ -80,27 +80,27 @@ The object or control is in selection and editing mode.
 
 
 
-<a href="https://msdn.microsoft.com/5767f768-d59c-404e-9098-ab5e0c427c7d">EditingMode Property [InkPicture Control</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_editingmode">EditingMode Property [InkPicture Control</a>
 
 
 
-<a href="https://msdn.microsoft.com/f6471163-8209-4dd0-887c-0edd54ebb50e">EraserMode Property [InkPicture Control]</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_erasermode">EraserMode Property [InkPicture Control]</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a880a9a-acd4-4cb1-aea7-4d834ecd9490">EraserWidth Property [InkPicture Control]</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_eraserwidth">EraserWidth Property [InkPicture Control]</a>
 
 
 
-<a href="https://msdn.microsoft.com/61191ab3-075e-458b-9e0f-4bc255687b3c">InkOverlay Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/e7400a40-9b82-4750-8e92-a39c6f25b7cd">InkOverlayEraserMode Enumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayerasermode">InkOverlayEraserMode Enumeration</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9fa6807-6e2a-44ec-9b8f-a560185e4367">InkPicture Control Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture Control Reference</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Provides a certificate to the security runtime.  This
-callback is specified as part of the <a href="https://msdn.microsoft.com/822dd067-803c-4e72-bfd0-fd9f9f36d390">WS_CUSTOM_CERT_CREDENTIAL</a>, 
+callback is specified as part of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_custom_cert_credential">WS_CUSTOM_CERT_CREDENTIAL</a>, 
 which in turn may be specified as part of a security binding that requires a 
 certificate credential. The runtime will invoke this callback when the channel 
 (client-side) or the listener (server-side) is opened.

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CRYPTNET_URL_CACHE_RESPONSE_INFO</b> structure contains response information used by the Cryptnet URL Cache (CUC) service to maintain a URL cache entry. This structure composes the <b>pResponseInfo</b> member of the <a href="https://msdn.microsoft.com/33ea51e7-c3e3-4cf8-ade0-099cb8b2e651">CRYPT_RETRIEVE_AUX_INFO</a> structure, which is passed to <a href="https://msdn.microsoft.com/2e205f97-be9b-4358-ba22-d475b6a250b7">CryptRetrieveObjectByUrl</a> as the <i>pAuxInfo</i> parameter.
+The <b>CRYPTNET_URL_CACHE_RESPONSE_INFO</b> structure contains response information used by the Cryptnet URL Cache (CUC) service to maintain a URL cache entry. This structure composes the <b>pResponseInfo</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_retrieve_aux_info">CRYPT_RETRIEVE_AUX_INFO</a> structure, which is passed to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrieveobjectbyurla">CryptRetrieveObjectByUrl</a> as the <i>pAuxInfo</i> parameter.
 
 
 ## -struct-fields

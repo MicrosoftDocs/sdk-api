@@ -165,7 +165,7 @@ Make the item unselectable. It will be displayed in gray and will not respond to
 
 #### SMIF_TRACKPOPUP
 
-Use <a href="https://msdn.microsoft.com/en-us/library/ms648002(v=VS.85).aspx">TrackPopupMenu</a> to create the pop-up menu.
+Use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackpopupmenu">TrackPopupMenu</a> to create the pop-up menu.
 
 
 

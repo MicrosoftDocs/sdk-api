@@ -79,7 +79,7 @@ A pointer to a variable that receives the index of the newly added certificate.
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -100,11 +100,11 @@ All ImageHlp functions, such as this one, are single threaded. Therefore, calls 
 
 
 
-<a href="https://msdn.microsoft.com/926f412e-25ba-4f9c-a118-b5a1bc723379">ImageHlp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/e06da4c5-6641-47f8-9dd9-4a1593e11f7b">ImageRemoveCertificate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-imageremovecertificate">ImageRemoveCertificate</a>
  
 
  

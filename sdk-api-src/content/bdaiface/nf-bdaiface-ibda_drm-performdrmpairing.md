@@ -75,7 +75,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-If you call this method asynchronously (<i>fSync</i> equal to <b>FALSE</b>), you can poll the status of the operation by calling <a href="https://msdn.microsoft.com/en-us/library/Dd693319(v=VS.85).aspx">IBDA_DRM::GetDRMPairingStatus</a>. While the operation is in progress, <b>GetDRMPairingStatus</b> returns S_FALSE.
+If you call this method asynchronously (<i>fSync</i> equal to <b>FALSE</b>), you can poll the status of the operation by calling <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_drm-getdrmpairingstatus">IBDA_DRM::GetDRMPairingStatus</a>. While the operation is in progress, <b>GetDRMPairingStatus</b> returns S_FALSE.
 
 
 
@@ -85,7 +85,7 @@ If you call this method asynchronously (<i>fSync</i> equal to <b>FALSE</b>), you
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693315(v=VS.85).aspx">IBDA_DRM Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_drm">IBDA_DRM Interface</a>
  
 
  

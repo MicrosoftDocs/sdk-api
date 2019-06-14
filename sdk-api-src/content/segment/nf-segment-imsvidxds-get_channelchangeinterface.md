@@ -115,7 +115,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/ddd172fe-2f93-4b1b-b325-81be024bf74c">IMSVidXDS Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidxds">IMSVidXDS Interface</a>
  
 
  

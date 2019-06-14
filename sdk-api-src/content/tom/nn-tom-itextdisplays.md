@@ -66,7 +66,7 @@ This interface is currently undefined.
 
 
 
-<a href="https://msdn.microsoft.com/8f610b45-9c17-4b20-82e0-fa78169360cc">ITextDocument2::GetDisplays</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-getdisplays">ITextDocument2::GetDisplays</a>
  
 
  

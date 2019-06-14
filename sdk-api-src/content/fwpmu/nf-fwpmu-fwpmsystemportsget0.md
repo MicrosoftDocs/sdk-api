@@ -61,12 +61,12 @@ The <b>FwpmSystemPortsGet0</b> function  retrieves an array of all of the system
 
 Type: <b>HANDLE</b>
 
-Optional handle for an open session to the filter engine. Call <a href="https://msdn.microsoft.com/5165f219-f3e0-4e84-915b-75912aab02b7">FwpmEngineOpen0</a> to open a session to the filter engine.
+Optional handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
 
 ### -param sysPorts [out]
 
-Type: <b><a href="https://msdn.microsoft.com/cf6fbd43-f603-417d-925d-418d9aec5a03">FWPM_SYSTEM_PORTS0</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_system_ports0_">FWPM_SYSTEM_PORTS0</a>**</b>
 
 The array of system port types.
 
@@ -102,7 +102,7 @@ The subscriptions were retrieved successfully.
 </dl>
 </td>
 <td width="60%">
-A Windows Filtering Platform (WFP) specific error. See <a href="https://msdn.microsoft.com/11f3085a-f044-4a78-b47a-59b9086562bf">WFP Error Codes</a> for details.
+A Windows Filtering Platform (WFP) specific error. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
 
 </td>
 </tr>
@@ -128,9 +128,9 @@ Failure to communicate with the remote or local firewall engine.
 
 
 
-The returned array (but not the individual entries in the array) must be freed through a call to <a href="https://msdn.microsoft.com/ba9f8c1e-f75c-4bf0-b68b-e21a358575fc">FwpmFreeMemory0</a>.
+The returned array (but not the individual entries in the array) must be freed through a call to <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmfreememory0">FwpmFreeMemory0</a>.
 
-<b>FwpmSystemPortsGet0</b> is a specific implementation of FwpmSystemPortsGet. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FwpmSystemPortsGet0</b> is a specific implementation of FwpmSystemPortsGet. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -140,7 +140,7 @@ The returned array (but not the individual entries in the array) must be freed t
 
 
 
-<a href="https://msdn.microsoft.com/cf6fbd43-f603-417d-925d-418d9aec5a03">FWPM_SYSTEM_PORTS0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_system_ports0_">FWPM_SYSTEM_PORTS0</a>
  
 
  

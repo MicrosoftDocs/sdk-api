@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used with the <a href="https://msdn.microsoft.com/en-us/library/ms648422(v=VS.85).aspx">RtlUnicodeStringToOemString</a> function. 
+Used with the <a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-rtlunicodestringtooemstring">RtlUnicodeStringToOemString</a> function. 
 
 
 ## -struct-fields
@@ -76,7 +76,7 @@ The address of the buffer.
 
 
 
-The data type used in the <b>DestinationString</b> parameter of the <a href="https://msdn.microsoft.com/en-us/library/ms648422(v=VS.85).aspx">RtlUnicodeStringToOemString</a> function, <code> POEM_STRING</code>, is defined as:
+The data type used in the <b>DestinationString</b> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-rtlunicodestringtooemstring">RtlUnicodeStringToOemString</a> function, <code> POEM_STRING</code>, is defined as:
 		
                 
 

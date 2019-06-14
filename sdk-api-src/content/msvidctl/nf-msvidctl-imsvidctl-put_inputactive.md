@@ -59,7 +59,7 @@ The <b>put_InputActive</b> method specifies the input device to use in the filte
 
 ### -param pVal [in]
 
-Specifies a pointer to the input device's <a href="https://msdn.microsoft.com/5b413ade-4ab2-45fa-98b2-fd93c8f89a43">IMSVidInputDevice</a> interface.
+Specifies a pointer to the input device's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidinputdevice">IMSVidInputDevice</a> interface.
 
 
 ## -returns
@@ -75,7 +75,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-If the Video Control's state is not <b>STATE_UNBUILT</b>, call the <a href="https://msdn.microsoft.com/e67bf380-dc2c-42c9-a995-17951c65fbda">IMSVidCtl::Decompose</a> to tear down the filter graph before calling this method.
+If the Video Control's state is not <b>STATE_UNBUILT</b>, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-decompose">IMSVidCtl::Decompose</a> to tear down the filter graph before calling this method.
 
 
 
@@ -85,15 +85,15 @@ If the Video Control's state is not <b>STATE_UNBUILT</b>, call the <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/e3ea10ea-bfb4-4c35-9933-5ad0367fd9ee">IMSVidCtl Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidctl">IMSVidCtl Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3451002b-5339-4b43-aefd-d66c48f7ae57">IMSVidCtl::get_InputActive</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_inputactive">IMSVidCtl::get_InputActive</a>
 
 
 
-<a href="https://msdn.microsoft.com/45f35832-709c-4f78-9e1a-a6ad489fc81f">IMSVidCtl::get_State</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_state">IMSVidCtl::get_State</a>
  
 
  

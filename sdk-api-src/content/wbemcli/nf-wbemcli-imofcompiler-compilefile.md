@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The <b>IMofCompiler::CompileFile</b> method compiles a MOF file (including 
     binary MOFs) and stores the information in the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa390843(v=VS.85).aspx">WMI repository</a>. 
-    This method performs the same operation as the <a href="https://msdn.microsoft.com/9858da09-fb91-43a4-9817-83b10e2ee08f">Mofcomp</a> 
+    <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/gloss-w">WMI repository</a>. 
+    This method performs the same operation as the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/mofcomp">Mofcomp</a> 
     command.
 
 
@@ -189,7 +189,7 @@ Allow only new instances.
 
 ### -param pInfo [in, out]
 
-Pointer to a <a href="https://msdn.microsoft.com/94B3516F-2DDA-4C93-B48E-67D7FE357F4E">WBEM_COMPILE_STATUS_INFO</a> that describes an error.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/ns-wbemcli-tag_compilestatusinfo">WBEM_COMPILE_STATUS_INFO</a> that describes an error.
 
 If the parameter value is not <b>NULL</b>, an error has occurred, and the structure is filled  with error information.
 
@@ -202,7 +202,7 @@ This method can return one of these values.
 
 2
 
-Warning that <a href="https://msdn.microsoft.com/8901c04e-f8c1-45b0-b69d-e2ebc948f088">#pragma autorecover</a> statement is not present. This statement should be one the first line of the MOF file.
+Warning that <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/pragma-autorecover">#pragma autorecover</a> statement is not present. This statement should be one the first line of the MOF file.
 
 
 
@@ -221,19 +221,19 @@ If the <i>User</i> parameter is in the form of &lt;<i>domain\user</i>&gt;, the <
 
 
 
-<a href="https://msdn.microsoft.com/5e01c7ac-7090-4cde-b836-01fa9d3f27f5">IMofCompiler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-imofcompiler">IMofCompiler</a>
 
 
 
-<a href="https://msdn.microsoft.com/B36B7D62-13C9-401F-A6C0-7C498A139AEC">WBEM_CHANGE_FLAG_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/ne-wbemcli-tag_wbem_change_flag_type">WBEM_CHANGE_FLAG_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/49F1518B-A487-458F-BFDD-BCF75A0E4306">WBEM_COMPILER_OPTIONS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/ne-wbemcli-tag_wbem_compiler_options">WBEM_COMPILER_OPTIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/9858da09-fb91-43a4-9817-83b10e2ee08f">mofcomp</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/mofcomp">mofcomp</a>
  
 
  

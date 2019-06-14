@@ -73,11 +73,11 @@ The attributes associated with the profile.
 
 
 
-<a href="https://msdn.microsoft.com/4290621c-7fc7-416b-89a2-11f2254f0d70">IASPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iasproperties">IASPROPERTIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/1e43524c-1c6a-49fc-a962-e804e98454c5">NAPPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_napproperties">NAPPROPERTIES</a>
  
 
  

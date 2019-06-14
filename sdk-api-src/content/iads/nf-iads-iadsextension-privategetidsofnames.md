@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IADsExtension::PrivateGetIDsOfNames</b> method is called by the aggregator, ADSI, after ADSI determines that the extension is used to support a dual or dispatch interface. The method can use the type data to get DISPID using  <a href="https://msdn.microsoft.com/en-us/library/ms221306(v=VS.85).aspx">IDispatch::GetIDsOfNames</a>.
+The <b>IADsExtension::PrivateGetIDsOfNames</b> method is called by the aggregator, ADSI, after ADSI determines that the extension is used to support a dual or dispatch interface. The method can use the type data to get DISPID using  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-getidsofnames">IDispatch::GetIDsOfNames</a>.
 
 
 ## -parameters
@@ -86,7 +86,7 @@ Caller-allocated array, each element of which contains an identifier that corres
 
 
 
-The return values are the same as those of the standard <a href="https://msdn.microsoft.com/en-us/library/ms221306(v=VS.85).aspx">IDispatch::GetIDsOfNames</a> method. For more information about other return values, see  <a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>.
+The return values are the same as those of the standard <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-getidsofnames">IDispatch::GetIDsOfNames</a> method. For more information about other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 
 
@@ -95,7 +95,7 @@ The return values are the same as those of the standard <a href="https://msdn.mi
 
 
 
-All the parameters have the same meaning as the corresponding ones in the standard <a href="https://msdn.microsoft.com/en-us/library/ms221306(v=VS.85).aspx">IDispatch::GetIDsOfNames</a>(). The extension component returns a unique identifier (<i>rgDispID</i>) for each method or property defined in the supported dual interfaces. The uniqueness is enforced within the extension component. The ADSI provider must ensure the uniqueness of the DISPIDs of all extension objects and the aggregator (ADSI) itself. The <i>rgDispID</i> parameter must be between 1 and 16777215 (2^24-1), or -1 (DISPID_UNKNOWN).
+All the parameters have the same meaning as the corresponding ones in the standard <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-getidsofnames">IDispatch::GetIDsOfNames</a>(). The extension component returns a unique identifier (<i>rgDispID</i>) for each method or property defined in the supported dual interfaces. The uniqueness is enforced within the extension component. The ADSI provider must ensure the uniqueness of the DISPIDs of all extension objects and the aggregator (ADSI) itself. The <i>rgDispID</i> parameter must be between 1 and 16777215 (2^24-1), or -1 (DISPID_UNKNOWN).
 
 
 #### Examples
@@ -123,19 +123,19 @@ STDMETHOD(PrivateGetIDsOfNames)(REFIID riid, OLECHAR ** rgszNames, unsigned int 
 
 
 
-<a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/05681526-2232-4341-859d-6773f7a58431">IADsExtension</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsextension">IADsExtension</a>
 
 
 
-<a href="https://msdn.microsoft.com/5af74a05-df64-4679-890b-a5a031633fd8">IADsExtension::PrivateInvoke</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsextension-privateinvoke">IADsExtension::PrivateInvoke</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221306(v=VS.85).aspx">IDispatch::GetIDsOfNames</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-getidsofnames">IDispatch::GetIDsOfNames</a>
  
 
  

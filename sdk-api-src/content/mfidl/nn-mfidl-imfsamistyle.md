@@ -50,13 +50,13 @@ ms.custom: 19H1
 ## -description
 
 
-Sets and retrieves Synchronized Accessible Media Interchange (SAMI) styles on the <a href="https://msdn.microsoft.com/007c8181-089e-4e56-a31d-9d1942f90b07">SAMI Media Source</a>.
+Sets and retrieves Synchronized Accessible Media Interchange (SAMI) styles on the <a href="https://docs.microsoft.com/windows/desktop/medfound/sami-media-source">SAMI Media Source</a>.
         
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSAMIStyle</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFSAMIStyle</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSAMIStyle</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSAMIStyle</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IMFSAMIStyle</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7501a4d5-eb5f-4f62-ae55-96ee999e561c">GetSelectedStyle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsamistyle-getselectedstyle">GetSelectedStyle</a>
 </td>
 <td align="left" width="63%">
 Gets the current style from the SAMI media source.
@@ -81,7 +81,7 @@ Gets the current style from the SAMI media source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/161cd457-9fab-4ebb-b8b8-f87326d67c66">GetStyleCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsamistyle-getstylecount">GetStyleCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of styles defined in the SAMI file.
@@ -91,7 +91,7 @@ Gets the number of styles defined in the SAMI file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e0b183f0-8781-4fc5-97dd-e42b0e7bd5e5">GetStyles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsamistyle-getstyles">GetStyles</a>
 </td>
 <td align="left" width="63%">
 Gets a list of the style names defined in the SAMI file.
@@ -100,7 +100,7 @@ Gets a list of the style names defined in the SAMI file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f7179756-517b-400b-8676-fd9ab5bbe74c">SetSelectedStyle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsamistyle-setselectedstyle">SetSelectedStyle</a>
 </td>
 <td align="left" width="63%">
 Sets the current style on the SAMI media source.
@@ -115,7 +115,7 @@ Sets the current style on the SAMI media source.
 
 
 
-To get a pointer to this interface, call <a href="https://msdn.microsoft.com/4287dd1f-1718-4231-bc62-b58e0e61d688">IMFGetService::GetService</a>. The service identifier is <b>MF_SAMI_SERVICE</b>. Call <b>GetService</b> either directly on the SAMI media source, or on the Media Session (if you are using the SAMI source with the Media Session).
+To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a>. The service identifier is <b>MF_SAMI_SERVICE</b>. Call <b>GetService</b> either directly on the SAMI media source, or on the Media Session (if you are using the SAMI source with the Media Session).
 
 
 
@@ -125,11 +125,11 @@ To get a pointer to this interface, call <a href="https://msdn.microsoft.com/428
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/007c8181-089e-4e56-a31d-9d1942f90b07">SAMI Media Source</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/sami-media-source">SAMI Media Source</a>
  
 
  

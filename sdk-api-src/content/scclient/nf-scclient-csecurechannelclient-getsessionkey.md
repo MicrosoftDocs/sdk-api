@@ -63,7 +63,7 @@ The <b>GetSessionKey</b> method retrieves the current session key. This method i
 
 ### -param pbSPSessionKey [out]
 
-Pointer to the first byte of a buffer specifying the session key. The session key is used for encryption and decryption by the <a href="https://msdn.microsoft.com/7c71c2d4-b337-487f-a04a-87536f84f03e">EncryptParam</a> and <a href="https://msdn.microsoft.com/4e19b86c-9efc-4c20-bac9-8cd6b944f69e">DecryptParam</a> methods.
+Pointer to the first byte of a buffer specifying the session key. The session key is used for encryption and decryption by the <a href="https://docs.microsoft.com/previous-versions/bb231587(v%3dvs.85)">EncryptParam</a> and <a href="https://docs.microsoft.com/previous-versions/bb231586(v%3dvs.85)">DecryptParam</a> methods.
 
 
 ## -returns
@@ -77,7 +77,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 Possible values include, but are not limited to, those in the following table.
 
@@ -109,11 +109,11 @@ Possible values include, but are not limited to, those in the following table.
 
 
 
-<a href="https://msdn.microsoft.com/f02220b8-0d1c-416c-97ea-e5e7455fcbba">CSecureChannelClient Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/a57ffca0-3098-415c-bea5-a3ea9efbd591">CSecureChannelClient::SetSessionKey</a>
+<a href="/previous-versions/ms868506(v=msdn.10)">CSecureChannelClient::SetSessionKey</a>
  
 
  

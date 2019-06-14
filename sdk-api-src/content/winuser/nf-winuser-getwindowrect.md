@@ -90,7 +90,7 @@ Type: <strong>Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -104,7 +104,7 @@ In conformance with conventions for the <a href="/windows/desktop/api/windef/ns-
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644996(v=VS.85).aspx">Initializing a Dialog Box</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/using-dialog-boxes">Initializing a Dialog Box</a>.
 
 <div class="code"></div>
 
@@ -119,7 +119,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644996(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633503(v=VS.85).aspx">GetClientRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclientrect">GetClientRect</a>
 
 
 
@@ -127,15 +127,15 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644996(v
 
 
 
-<a href="https://msdn.microsoft.com/5d3e65d1-e0c8-4063-b2e8-dd9f482d3378">ScreenToClient</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-screentoclient">ScreenToClient</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633545(v=VS.85).aspx">SetWindowPos</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowpos">SetWindowPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
  
 
  

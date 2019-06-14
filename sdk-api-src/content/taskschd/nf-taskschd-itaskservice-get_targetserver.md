@@ -72,7 +72,7 @@ This property returns an empty string when the user passes an IP address, Localh
 
 
 
-<a href="https://msdn.microsoft.com/2459aaae-4c3a-458a-ad2c-bfff3a0322d3">ITaskService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskservice">ITaskService</a>
  
 
  

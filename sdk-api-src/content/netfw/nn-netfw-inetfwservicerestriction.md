@@ -54,7 +54,7 @@ The <b>INetFwServiceRestriction</b> interface provides access to the Windows Ser
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwServiceRestriction</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>INetFwServiceRestriction</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwServiceRestriction</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetFwServiceRestriction</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>INetFwServiceRestriction</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/12846607-daf7-43ce-8278-89db15b95a81">get_Rules</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwservicerestriction-get_rules">get_Rules</a>
 </td>
 <td align="left" width="63%">
 Retrieves the collection of Windows Service Hardening network rules.
@@ -79,7 +79,7 @@ Retrieves the collection of Windows Service Hardening network rules.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5695bcb7-a83a-4581-8f46-00e85273b160">RestrictService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwservicerestriction-restrictservice">RestrictService</a>
 </td>
 <td align="left" width="63%">
 Turns service restriction on or off for a given service.
@@ -88,7 +88,7 @@ Turns service restriction on or off for a given service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/38fe5a68-44ab-4bcb-8673-ebb1e87e446f">ServiceRestricted</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwservicerestriction-servicerestricted">ServiceRestricted</a>
 </td>
 <td align="left" width="63%">
 Queries the service restriction state of a given service.
@@ -105,7 +105,7 @@ Queries the service restriction state of a given service.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/12846607-daf7-43ce-8278-89db15b95a81">Rules</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwservicerestriction-get_rules">Rules</a>
 
 
 </td>
@@ -131,11 +131,11 @@ When adding rules, note that there may be a small time lag before the newly-adde
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

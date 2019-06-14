@@ -54,7 +54,7 @@ Exposes methods that present a view in the Windows Explorer or folder windows.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellView</b> interface inherits from <a href="https://msdn.microsoft.com/2d0efbae-4a1c-43b1-9021-8d89377f7282">IOleWindow</a>. <b>IShellView</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellView</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>. <b>IShellView</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IShellView</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6f05ddf7-190e-41f5-b24a-d18112b34600">AddPropertySheetPages</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview-addpropertysheetpages">AddPropertySheetPages</a>
 </td>
 <td align="left" width="63%">
 Allows the view to add pages to the <b>Options</b> property sheet from the <b>View</b> menu.
@@ -78,7 +78,7 @@ Allows the view to add pages to the <b>Options</b> property sheet from the <b>Vi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/62d71bca-d2cb-4668-b0bf-2e53756f2cd9">CreateViewWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview-createviewwindow">CreateViewWindow</a>
 </td>
 <td align="left" width="63%">
 Creates a view window. This can be either the right pane of Windows Explorer or the client window of a folder window.
@@ -87,7 +87,7 @@ Creates a view window. This can be either the right pane of Windows Explorer or 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b0dfc200-4438-4f11-a426-c82eeb9cc745">DestroyViewWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview-destroyviewwindow">DestroyViewWindow</a>
 </td>
 <td align="left" width="63%">
 Destroys the view window.
@@ -96,7 +96,7 @@ Destroys the view window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5467f524-fa61-4919-bf64-268f9387b2f2">EnableModeless</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview-enablemodeless">EnableModeless</a>
 </td>
 <td align="left" width="63%">
 Enables or disables modeless dialog boxes. This method is not currently implemented.
@@ -105,7 +105,7 @@ Enables or disables modeless dialog boxes. This method is not currently implemen
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8d90cbe0-1795-4c13-9087-6b4268fefdd4">EnableModelessSV</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb774830(v=vs.85)">EnableModelessSV</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -114,7 +114,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/69d18b4f-3a68-420c-a184-05c2f69a5ec6">GetCurrentInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview-getcurrentinfo">GetCurrentInfo</a>
 </td>
 <td align="left" width="63%">
 Gets the current folder settings.
@@ -123,7 +123,7 @@ Gets the current folder settings.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/249ce8cc-6820-4f0a-a83a-2035e88d0d9c">GetItemObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview-getitemobject">GetItemObject</a>
 </td>
 <td align="left" width="63%">
 Gets an interface that refers to data presented in the view.
@@ -132,7 +132,7 @@ Gets an interface that refers to data presented in the view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/510aea71-5885-4d23-8fe9-1fef4881cb18">Refresh</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview-refresh">Refresh</a>
 </td>
 <td align="left" width="63%">
 Refreshes the view's contents in response to user input.
@@ -141,7 +141,7 @@ Refreshes the view's contents in response to user input.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4bc36340-1e52-48cf-8b9a-e32115cda88b">SaveViewState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview-saveviewstate">SaveViewState</a>
 </td>
 <td align="left" width="63%">
 Saves the Shell's view settings so the current state can be restored during a subsequent browsing session.
@@ -150,7 +150,7 @@ Saves the Shell's view settings so the current state can be restored during a su
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5c34c05e-175c-43cb-9fbb-2eb3e2b39f6f">SelectItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview-selectitem">SelectItem</a>
 </td>
 <td align="left" width="63%">
 Changes the selection state of one or more items within the Shell view window.
@@ -159,7 +159,7 @@ Changes the selection state of one or more items within the Shell view window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/425a281e-2d34-4bb3-92b9-05ae4cf70a9f">TranslateAccelerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview-translateaccelerator">TranslateAccelerator</a>
 </td>
 <td align="left" width="63%">
 Translates keyboard shortcut (accelerator) key strokes when a namespace extension's view has the focus.
@@ -168,7 +168,7 @@ Translates keyboard shortcut (accelerator) key strokes when a namespace extensio
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/169881de-d073-4864-beb2-4e030b855e8f">UIActivate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview-uiactivate">UIActivate</a>
 </td>
 <td align="left" width="63%">
 Called when the activation state of the view window is changed by an event that is not caused by the Shell view itself. For example, if the TAB key is pressed when the tree has the focus, the view should be given the focus.
@@ -182,15 +182,15 @@ Called when the activation state of the view window is changed by an event that 
 
 
 
-The object that exposes <b>IShellView</b> is typically created by a call to the <a href="https://msdn.microsoft.com/8a1b73ad-6719-403a-a8aa-27bef537b7a9">IShellFolder::CreateViewObject</a> method. This provides the channel of communication between a view object and Windows Explorer's outermost frame window. The communication involves the translation of messages, the state of the frame window (activated or deactivated), the state of the document window (activated or deactivated), and the merging of menus and toolbar items.
+The object that exposes <b>IShellView</b> is typically created by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-createviewobject">IShellFolder::CreateViewObject</a> method. This provides the channel of communication between a view object and Windows Explorer's outermost frame window. The communication involves the translation of messages, the state of the frame window (activated or deactivated), the state of the document window (activated or deactivated), and the merging of menus and toolbar items.
 
-This interface is implemented by namespace extensions that display themselves in Windows Explorer's namespace. This object is created by the <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a> object that hosts the view.
+This interface is implemented by namespace extensions that display themselves in Windows Explorer's namespace. This object is created by the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> object that hosts the view.
 
 These methods are used by the Shell view's Windows Explorer window to manipulate objects while they are active.
 
-<b>IShellView</b> is derived from <a href="https://msdn.microsoft.com/2d0efbae-4a1c-43b1-9021-8d89377f7282">IOleWindow</a>. The listed methods are specific to <b>IShellView</b>.
+<b>IShellView</b> is derived from <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>. The listed methods are specific to <b>IShellView</b>.
 
-A special instance of <b>IShellView</b> known as the default Shell folder view object can be created by calling <a href="https://msdn.microsoft.com/f2948a6d-84a5-456b-b328-ba76dba46e9d">SHCreateShellFolderView</a> or <a href="https://msdn.microsoft.com/7edd6786-7d74-4065-8cf1-cbb489007a46">SHCreateShellFolderViewEx</a>. This instance can be differentiated from standard implementations by calling <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> on an <b>IShellView</b> object using the IID_CDefView IID. This call succeeds only when made on the default Shell folder view object.
+A special instance of <b>IShellView</b> known as the default Shell folder view object can be created by calling <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderview">SHCreateShellFolderView</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderviewex">SHCreateShellFolderViewEx</a>. This instance can be differentiated from standard implementations by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on an <b>IShellView</b> object using the IID_CDefView IID. This call succeeds only when made on the default Shell folder view object.
 
 
 

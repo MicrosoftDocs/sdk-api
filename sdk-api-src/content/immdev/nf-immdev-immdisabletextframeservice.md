@@ -49,10 +49,10 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>ImmDisableTextFrameService</b> is no longer available for use as of Windows Vista. Instead, use <a href="https://msdn.microsoft.com/c563fc24-3c56-40ac-8539-8336d5231537">ImmDisableIME</a>.
+<p class="CCE_Message">[<b>ImmDisableTextFrameService</b> is no longer available for use as of Windows Vista. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immdisableime">ImmDisableIME</a>.
 ]
 
-Disables the text service for the specified thread. For details, see <a href="https://msdn.microsoft.com/ecc34b2e-89e8-48a8-8a8e-442d2145fe24">Text Services Framework</a> (TSF).
+Disables the text service for the specified thread. For details, see <a href="https://docs.microsoft.com/windows/desktop/TSF/text-services-framework">Text Services Framework</a> (TSF).
 		
 
 
@@ -91,11 +91,11 @@ Note that TSF functionality is provided to applications that are not specificall
 
 
 
-<a href="https://msdn.microsoft.com/3e23e004-514a-4021-bd20-5ac55547258f">Input Method Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://msdn.microsoft.com/833c07eb-0ecf-41e2-9e01-8d83e51ffcef">Input Method Manager Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
  
 
  

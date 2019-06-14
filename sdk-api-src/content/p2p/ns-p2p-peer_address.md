@@ -72,27 +72,27 @@ Specifies the IP address of the node in the Peer Infrastructure.
 
 
 
-<a href="https://msdn.microsoft.com/039fa00e-c193-46fd-b7e6-41eb7baeab3e">PEER_CONNECTION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_connection_info_tag">PEER_CONNECTION_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/b8bd0e17-6af7-426d-ba38-11ff4948cf67">PEER_MEMBER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_member_tag">PEER_MEMBER</a>
 
 
 
-<a href="https://msdn.microsoft.com/51cc6c27-91ca-4d02-95d6-207827450fd5">PEER_NODE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_node_info_tag">PEER_NODE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/76a2c54d-4424-4aa3-9b62-3ebe88b63c9f">PeerGraphConnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphconnect">PeerGraphConnect</a>
 
 
 
-<a href="https://msdn.microsoft.com/0625a2f6-7e16-43c7-8c03-1f0ddeda426f">PeerGraphOpenDirectConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphopendirectconnection">PeerGraphOpenDirectConnection</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3c52754-91b0-4722-a459-87c70b3ab9ad">PeerGroupOpenDirectConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupopendirectconnection">PeerGroupOpenDirectConnection</a>
  
 
  

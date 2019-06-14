@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Type of user comment in a <a href="https://msdn.microsoft.com/BC0D039A-7EB4-4A8D-B063-479CF4294FF0">IMEWRD</a> structure.
+Type of user comment in a <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_imewrd">IMEWRD</a> structure.
 
 
 ## -enum-fields
@@ -87,7 +87,7 @@ The comment is in a user-defined format.
 
 
 
-<a href="https://msdn.microsoft.com/BC0D039A-7EB4-4A8D-B063-479CF4294FF0">IMEWRD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_imewrd">IMEWRD</a>
  
 
  

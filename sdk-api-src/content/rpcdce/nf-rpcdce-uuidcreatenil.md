@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The 
-<b>UuidCreateNil</b> function creates a nil-valued <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a>.
+<b>UuidCreateNil</b> function creates a nil-valued <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The
 ### -param NilUuid
 
 Returns a nil-valued 
-<a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a>.
+<a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>.
 
 
 ## -returns
@@ -71,7 +71,7 @@ Returns a nil-valued
 Returns RPC_S_OK.
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -81,15 +81,15 @@ Returns RPC_S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/4008fb54-7770-4f1a-8e1c-4b20bef884f9">UuidCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidcreate">UuidCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/90b3cf6b-a15b-4f91-9ba2-0e43fe3374df">UuidFromString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidfromstring">UuidFromString</a>
 
 
 
-<a href="https://msdn.microsoft.com/49235b28-a0c5-4f69-9932-85350d7bcbb8">UuidToString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidtostring">UuidToString</a>
  
 
  

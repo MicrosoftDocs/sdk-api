@@ -50,10 +50,10 @@ ms.custom: 19H1
 
 
 The <b>CryptMsgControl</b> function performs a control operation after a message has been decoded by a final 
-call to the <a href="https://msdn.microsoft.com/d27d75f0-1646-4926-b375-59e52b00326c">CryptMsgUpdate</a>  function. The control operations provided by this function are used for decryption, signature and hash verification, and the addition and deletion of certificates, <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation lists</a> (CRLs), signers, and unauthenticated attributes.
+call to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgupdate">CryptMsgUpdate</a>  function. The control operations provided by this function are used for decryption, signature and hash verification, and the addition and deletion of certificates, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation lists</a> (CRLs), signers, and unauthenticated attributes.
 
-Important changes that affect the handling of enveloped messages have been made to CryptoAPI to support <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">Secure/Multipurpose Internet Mail Extensions</a> (S/MIME) email interoperability. For more information, see the Remarks for 
-the <a href="https://msdn.microsoft.com/b0d2610b-05ba-4fb6-8f38-10f970a52091">CryptMsgOpenToEncode</a> function.
+Important changes that affect the handling of enveloped messages have been made to CryptoAPI to support <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Secure/Multipurpose Internet Mail Extensions</a> (S/MIME) email interoperability. For more information, see the Remarks for 
+the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a> function.
 
 
 ## -parameters
@@ -88,7 +88,7 @@ The following value is defined when the <i>dwCtrlType</i> parameter is one of th
 </dl>
 </td>
 <td width="60%">
-The handle to the cryptographic provider is released on the final call to the  <a href="https://msdn.microsoft.com/2478dd60-233a-4ef3-86e9-62d2a59ab28a">CryptMsgClose</a> function. This handle is not released if the  <b>CryptMsgControl</b> function  fails.
+The handle to the cryptographic provider is released on the final call to the  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgclose">CryptMsgClose</a> function. This handle is not released if the  <b>CryptMsgControl</b> function  fails.
 
 </td>
 </tr>
@@ -114,7 +114,7 @@ The type of operation to be performed. Currently defined message control types a
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a>  that contains the encoded bytes of attribute certificate.
+A <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a>  that contains the encoded bytes of attribute certificate.
 
 </td>
 </tr>
@@ -126,7 +126,7 @@ A <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB
 </td>
 <td width="60%">
 A
-								<a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_INTEGER_BLOB</a>   structure that contains the encoded bytes of the certificate to be added to the message.
+								<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>   structure that contains the encoded bytes of the certificate to be added to the message.
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ A
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/177323ef-4e26-4681-a474-1a99fb6900af">CMSG_CMS_SIGNER_INFO</a> structure that contains signer information. This operation differs from <b>CMSG_CTRL_ADD_SIGNER</b> because the signer information contains the signature.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_cms_signer_info">CMSG_CMS_SIGNER_INFO</a> structure that contains signer information. This operation differs from <b>CMSG_CTRL_ADD_SIGNER</b> because the signer information contains the signature.
 
 </td>
 </tr>
@@ -159,7 +159,7 @@ A BLOB  that contains the encoded bytes of the CRL to be added to the message.
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/f599226d-ddd7-455f-b650-74b91674d8f9">CMSG_SIGNER_ENCODE_INFO</a>   structure that contains the signer information to be added to the message.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_signer_encode_info">CMSG_SIGNER_ENCODE_INFO</a>   structure that contains the signer information to be added to the message.
 
 </td>
 </tr>
@@ -170,7 +170,7 @@ A <a href="https://msdn.microsoft.com/f599226d-ddd7-455f-b650-74b91674d8f9">CMSG
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/en-us/library/Aa377807(v=VS.85).aspx">CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA</a>   structure that contains the index of the signer and a BLOB  that contains the unauthenticated attribute information to be added to the message.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_ctrl_add_signer_unauth_attr_para">CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA</a>   structure that contains the index of the signer and a BLOB  that contains the unauthenticated attribute information to be added to the message.
 
 </td>
 </tr>
@@ -182,7 +182,7 @@ A <a href="https://msdn.microsoft.com/en-us/library/Aa377807(v=VS.85).aspx">CMSG
 </td>
 <td width="60%">
 A 
-								<a href="https://msdn.microsoft.com/eb9b1daa-b04f-419a-88e3-7c772f9e62eb">CMSG_CTRL_DECRYPT_PARA</a>  structure used to decrypt the message for the specified key transport recipient. This value is applicable to RSA recipients.  This operation specifies that the <b>CryptMsgControl</b> function search the recipient index to obtain the key transport recipient information.  If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> will return  <b>CRYPT_E_INVALID_INDEX</b> if no key transport recipient is found.
+								<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_ctrl_decrypt_para">CMSG_CTRL_DECRYPT_PARA</a>  structure used to decrypt the message for the specified key transport recipient. This value is applicable to RSA recipients.  This operation specifies that the <b>CryptMsgControl</b> function search the recipient index to obtain the key transport recipient information.  If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return  <b>CRYPT_E_INVALID_INDEX</b> if no key transport recipient is found.
 
 </td>
 </tr>
@@ -237,7 +237,7 @@ The index of the signer to be deleted.
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/en-us/library/Aa377812(v=VS.85).aspx">CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA</a>   structure that contains an index  that specifies the signer and the index  that specifies the signer's unauthenticated attribute to be deleted.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_ctrl_del_signer_unauth_attr_para">CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA</a>   structure that contains an index  that specifies the signer and the index  that specifies the signer's unauthenticated attribute to be deleted.
 
 </td>
 </tr>
@@ -248,15 +248,15 @@ A <a href="https://msdn.microsoft.com/en-us/library/Aa377812(v=VS.85).aspx">CMSG
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/12D9F82C-F484-43B0-BD55-F07321058671">CERT_STRONG_SIGN_PARA</a> structure used to perform strong signature checking.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a> structure used to perform strong signature checking.
 
-To check for a strong signature, specify this control type before calling <a href="https://msdn.microsoft.com/380c9cf3-27a2-4354-b1c8-97cec33f4e44">CryptMsgGetAndVerifySigner</a> or before calling <b>CryptMsgControl</b> with the following control types set:
+To check for a strong signature, specify this control type before calling <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsggetandverifysigner">CryptMsgGetAndVerifySigner</a> or before calling <b>CryptMsgControl</b> with the following control types set:
 
 <ul>
 <li><b>CMSG_CTRL_VERIFY_SIGNATURE</b></li>
 <li><b>CMSG_CTRL_VERIFY_SIGNATURE_EX</b></li>
 </ul>
-After the signature is successfully verified, this function checks for a strong signature. If the signature is not strong, the operation will fail and the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> value will be set to <b>NTE_BAD_ALGID</b>.
+After the signature is successfully verified, this function checks for a strong signature. If the signature is not strong, the operation will fail and the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> value will be set to <b>NTE_BAD_ALGID</b>.
 
 </td>
 </tr>
@@ -267,7 +267,7 @@ After the signature is successfully verified, this function checks for a strong 
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/14e58281-4315-4ece-8ea8-92765cffd212">CMSG_CTRL_KEY_AGREE_DECRYPT_PARA</a> structure used to decrypt the message for the specified key agreement session key. Key agreement is used with Diffie-Hellman encryption/decryption.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_ctrl_key_agree_decrypt_para">CMSG_CTRL_KEY_AGREE_DECRYPT_PARA</a> structure used to decrypt the message for the specified key agreement session key. Key agreement is used with Diffie-Hellman encryption/decryption.
 
 </td>
 </tr>
@@ -278,7 +278,7 @@ A <a href="https://msdn.microsoft.com/14e58281-4315-4ece-8ea8-92765cffd212">CMSG
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/5f3387c9-4ff0-42a0-8fc7-67d3bb8b6bef">CMSG_CTRL_KEY_TRANS_DECRYPT_PARA</a> structure used to decrypt the message for the specified key transport recipient. Key transport is used with RSA encryption/decryption.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_ctrl_key_trans_decrypt_para">CMSG_CTRL_KEY_TRANS_DECRYPT_PARA</a> structure used to decrypt the message for the specified key transport recipient. Key transport is used with RSA encryption/decryption.
 
 </td>
 </tr>
@@ -290,7 +290,7 @@ A <a href="https://msdn.microsoft.com/5f3387c9-4ff0-42a0-8fc7-67d3bb8b6bef">CMSG
 </td>
 <td width="60%">
 A 
-								<a href="https://msdn.microsoft.com/30735e01-db6b-40fc-b4c8-cdc24e73defa">CMSG_CTRL_MAIL_LIST_DECRYPT_PARA</a> structure used to decrypt the message for the specified recipient using a previously distributed key-encryption key (KEK).
+								<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_ctrl_mail_list_decrypt_para">CMSG_CTRL_MAIL_LIST_DECRYPT_PARA</a> structure used to decrypt the message for the specified recipient using a previously distributed key-encryption key (KEK).
 
 </td>
 </tr>
@@ -313,7 +313,7 @@ This value is not used.
 </td>
 <td width="60%">
 A 
-								<a href="https://msdn.microsoft.com/8d0a3053-52d4-437a-bf55-6724b5825cdc">CERT_INFO</a>  structure that identifies the signer of the message whose signature is to be verified.
+								<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info">CERT_INFO</a>  structure that identifies the signer of the message whose signature is to be verified.
 
 </td>
 </tr>
@@ -324,8 +324,8 @@ A
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/en-us/library/Aa377824(v=VS.85).aspx">CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA</a>   structure that specifies the signer index and public key to verify the message signature. The signer public key can be a 
-<a href="https://msdn.microsoft.com/bab6c147-b7cd-408a-acac-90f05921e065">CERT_PUBLIC_KEY_INFO</a> structure, a certificate context, or a certificate chain context.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_ctrl_verify_signature_ex_para">CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA</a>   structure that specifies the signer index and public key to verify the message signature. The signer public key can be a 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure, a certificate context, or a certificate chain context.
 
 </td>
 </tr>
@@ -348,11 +348,11 @@ A pointer to a structure determined by the value of <i>dwCtrlType</i>.
 </dl>
 </td>
 <td width="60%">
-Decoding will be done as if the streamed content were being decrypted. If any encrypted streamed content has accumulated prior to this call, some or all of the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">plaintext</a>  that results from the decryption of the cipher text is passed back to the application through the callback function specified in the call to 
-the <a href="https://msdn.microsoft.com/b3df6312-c866-4faa-8b89-bda67c697631">CryptMsgOpenToDecode</a> function.
+Decoding will be done as if the streamed content were being decrypted. If any encrypted streamed content has accumulated prior to this call, some or all of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">plaintext</a>  that results from the decryption of the cipher text is passed back to the application through the callback function specified in the call to 
+the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentodecode">CryptMsgOpenToDecode</a> function.
 
 <div class="alert"><b>Note</b>  When streaming an enveloped message, the <b>CryptMsgControl</b>  function is not called until the polling for the availability of the CMSG_ENVELOPE_ALGORITHM_PARAM succeeds. If the polling does not succeed, an error results. For a description of that polling, see 
-the <a href="https://msdn.microsoft.com/b3df6312-c866-4faa-8b89-bda67c697631">CryptMsgOpenToDecode</a> function.</div>
+the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentodecode">CryptMsgOpenToDecode</a> function.</div>
 <div> </div>
 </td>
 </tr>
@@ -362,7 +362,7 @@ the <a href="https://msdn.microsoft.com/b3df6312-c866-4faa-8b89-bda67c697631">Cr
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> computed from the content of the message is compared against the hash contained in the message.
+The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> computed from the content of the message is compared against the hash contained in the message.
 
 </td>
 </tr>
@@ -373,7 +373,7 @@ The <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">ha
 </td>
 <td width="60%">
 <i>pvCtrlPara</i> points to a 
-<a href="https://msdn.microsoft.com/f599226d-ddd7-455f-b650-74b91674d8f9">CMSG_SIGNER_ENCODE_INFO</a> structure that contains the signer information to be added to the message.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_signer_encode_info">CMSG_SIGNER_ENCODE_INFO</a> structure that contains the signer information to be added to the message.
 
 </td>
 </tr>
@@ -384,7 +384,7 @@ The <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">ha
 </td>
 <td width="60%">
 After a deletion is made, any other signer indices in use for this message are no longer valid and must be reacquired by calling 
-the <a href="https://msdn.microsoft.com/5a05eb09-208f-4e94-abfa-c2f14c0a3164">CryptMsgGetParam</a> function.
+the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsggetparam">CryptMsgGetParam</a> function.
 
 </td>
 </tr>
@@ -394,7 +394,7 @@ the <a href="https://msdn.microsoft.com/5a05eb09-208f-4e94-abfa-c2f14c0a3164">Cr
 </dl>
 </td>
 <td width="60%">
-After a deletion is made, any other unauthenticated attribute indices in use for this signer are no longer valid and must be reacquired by calling the <a href="https://msdn.microsoft.com/5a05eb09-208f-4e94-abfa-c2f14c0a3164">CryptMsgGetParam</a> function.
+After a deletion is made, any other unauthenticated attribute indices in use for this signer are no longer valid and must be reacquired by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsggetparam">CryptMsgGetParam</a> function.
 
 </td>
 </tr>
@@ -405,7 +405,7 @@ After a deletion is made, any other unauthenticated attribute indices in use for
 </td>
 <td width="60%">
 After a deletion is made, any other certificate indices in use for this message are no longer valid and must be reacquired by calling 
-the <a href="https://msdn.microsoft.com/5a05eb09-208f-4e94-abfa-c2f14c0a3164">CryptMsgGetParam</a> function.
+the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsggetparam">CryptMsgGetParam</a> function.
 
 </td>
 </tr>
@@ -415,7 +415,7 @@ the <a href="https://msdn.microsoft.com/5a05eb09-208f-4e94-abfa-c2f14c0a3164">Cr
 </dl>
 </td>
 <td width="60%">
-After a deletion is made, any other CRL indices in use for this message are no longer valid and will need to be reacquired by calling the <a href="https://msdn.microsoft.com/5a05eb09-208f-4e94-abfa-c2f14c0a3164">CryptMsgGetParam</a> function.
+After a deletion is made, any other CRL indices in use for this message are no longer valid and will need to be reacquired by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsggetparam">CryptMsgGetParam</a> function.
 
 </td>
 </tr>
@@ -429,36 +429,36 @@ After a deletion is made, any other CRL indices in use for this message are no l
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero and the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function   returns an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
-<a href="https://msdn.microsoft.com/cb1f34dd-dab4-4ffb-a73b-79a214290509">ASN.1 Encoding/Decoding Return Values</a>. 
+If the function fails, the return value is zero and the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function   returns an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>. 
 
 When a streamed, enveloped message is being decoded, errors encountered in the application-defined callback function specified by the <i>pStreamInfo</i>  parameter of the  
-<a href="https://msdn.microsoft.com/b3df6312-c866-4faa-8b89-bda67c697631">CryptMsgOpenToDecode</a> function might be propagated to the <b>CryptMsgControl</b> function. If this happens, the <a href="https://msdn.microsoft.com/d9da833f-36ca-4046-8d2f-cd4449dd3c63">SetLastError</a> function is not called by the <b>CryptMsgControl</b> function after the callback function returns. This preserves any errors encountered under the control of the application. It is the responsibility of the callback function (or one of the APIs that it calls) to call the <b>SetLastError</b> function if an error occurs while the application is processing the streamed data.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentodecode">CryptMsgOpenToDecode</a> function might be propagated to the <b>CryptMsgControl</b> function. If this happens, the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> function is not called by the <b>CryptMsgControl</b> function after the callback function returns. This preserves any errors encountered under the control of the application. It is the responsibility of the callback function (or one of the APIs that it calls) to call the <b>SetLastError</b> function if an error occurs while the application is processing the streamed data.
 
 Propagated errors might be encountered from the following functions:<ul>
 <li>
-<a href="https://msdn.microsoft.com/05e3db57-8d83-48e2-8590-68039ea27253">CryptCreateHash</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/7c3d2838-6fd1-4f6c-9586-8b94b459a31a">CryptDecrypt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecrypt">CryptDecrypt</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/ed008c07-1a40-4075-bdaa-eb7f7e12d9c3">CryptGetHashParam</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgethashparam">CryptGetHashParam</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/d9166b98-e5f1-4e5c-b6f1-2a086b102e0f">CryptGetUserKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetuserkey">CryptGetUserKey</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/ec1482a2-c2cb-4c5f-af9c-d493134413d6">CryptHashData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashdata">CryptHashData</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/f48b6ec9-e03b-43b0-9f22-120ae93d934c">CryptImportKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportkey">CryptImportKey</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/9cf0de04-fdad-457d-8137-16d98f915cd5">CryptSignHash</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignhasha">CryptSignHash</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/3119eabc-90ff-42c6-b3fa-e8be625f6d1e">CryptVerifySignature</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifysignaturea">CryptVerifySignature</a>
 </li>
 </ul>
 
@@ -635,11 +635,11 @@ Not enough memory was available to complete the operation.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Low-level Message Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Low-level Message Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>
  
 
  

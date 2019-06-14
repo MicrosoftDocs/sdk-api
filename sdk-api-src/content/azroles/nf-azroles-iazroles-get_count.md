@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Count</b> property retrieves the number of <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> objects in the collection.
+The <b>Count</b> property retrieves the number of <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> objects in the collection.
 
 This property is read-only.
 
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-The <b>Count</b> property can be used to specify the last <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> object in a collection when retrieving a specific <b>IAzRole</b> object using the  <a href="https://msdn.microsoft.com/a1c8b474-aae9-401b-b6d7-de17cdf8fce9">IAzRoles.Item</a> property.
+The <b>Count</b> property can be used to specify the last <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> object in a collection when retrieving a specific <b>IAzRole</b> object using the  <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazroles-get_item">IAzRoles.Item</a> property.
 
 
 

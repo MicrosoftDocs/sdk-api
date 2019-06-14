@@ -60,17 +60,17 @@ The <b>SetupDiGetDeviceInterfaceDetail</b> function returns details about a devi
 
 ### -param DeviceInfoSet [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains the interface for which to retrieve details. This handle is typically returned by <a href="https://msdn.microsoft.com/31bb0fc8-0fb8-4122-b9e8-5ff8fbbd903b">SetupDiGetClassDevs</a>.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains the interface for which to retrieve details. This handle is typically returned by <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdevsw">SetupDiGetClassDevs</a>.
 
 
 ### -param DeviceInterfaceData [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/df142e95-aa1c-4d3e-90c6-bac86effbd5d">SP_DEVICE_INTERFACE_DATA</a> structure that specifies the interface in <i>DeviceInfoSet</i> for which to retrieve details. A pointer of this type is typically returned by <a href="https://msdn.microsoft.com/5095404d-2447-407e-99e2-dd3ef3c3b905">SetupDiEnumDeviceInterfaces</a>.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_device_interface_data">SP_DEVICE_INTERFACE_DATA</a> structure that specifies the interface in <i>DeviceInfoSet</i> for which to retrieve details. A pointer of this type is typically returned by <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdienumdeviceinterfaces">SetupDiEnumDeviceInterfaces</a>.
 
 
 ### -param DeviceInterfaceDetailData [out, optional]
 
-A pointer to an <a href="https://msdn.microsoft.com/9dd44297-6e51-425d-a355-f2ea78757bf7">SP_DEVICE_INTERFACE_DETAIL_DATA</a> structure to receive information about the specified interface. This parameter is optional and can be <b>NULL</b>. This parameter must be <b>NULL</b> if <i>DeviceInterfaceDetailSize</i> is zero. If this parameter is specified, the caller must set <i>DeviceInterfaceDetailData</i><b>.cbSize</b> to <b>sizeof</b>(SP_DEVICE_INTERFACE_DETAIL_DATA) before calling this function. The <b>cbSize</b> member always contains the size of the fixed part of the data structure, not a size reflecting the variable-length string at the end.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_device_interface_detail_data_a">SP_DEVICE_INTERFACE_DETAIL_DATA</a> structure to receive information about the specified interface. This parameter is optional and can be <b>NULL</b>. This parameter must be <b>NULL</b> if <i>DeviceInterfaceDetailSize</i> is zero. If this parameter is specified, the caller must set <i>DeviceInterfaceDetailData</i><b>.cbSize</b> to <b>sizeof</b>(SP_DEVICE_INTERFACE_DETAIL_DATA) before calling this function. The <b>cbSize</b> member always contains the size of the fixed part of the data structure, not a size reflecting the variable-length string at the end.
 
 
 ### -param DeviceInterfaceDetailDataSize [in]
@@ -115,7 +115,7 @@ Allocate an appropriately sized buffer and call the function again to get the in
 
 </li>
 </ol>
-The interface detail returned by this function consists of a device path that can be passed to Win32 functions such as <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>. Do not attempt to parse the device path symbolic name. The device path can be reused across system starts.
+The interface detail returned by this function consists of a device path that can be passed to Win32 functions such as <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>. Do not attempt to parse the device path symbolic name. The device path can be reused across system starts.
 
 <b>SetupDiGetDeviceInterfaceDetail</b> can be used to get just the <i>DeviceInfoData</i>. If the interface exists but <i>DeviceInterfaceDetailData</i> is <b>NULL</b>, this function fails, <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returns ERROR_INSUFFICIENT_BUFFER, and the <i>DeviceInfoData</i> structure is filled with information about the device that exposes the interface.
 
@@ -127,11 +127,11 @@ The interface detail returned by this function consists of a device path that ca
 
 
 
-<a href="https://msdn.microsoft.com/5095404d-2447-407e-99e2-dd3ef3c3b905">SetupDiEnumDeviceInterfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdienumdeviceinterfaces">SetupDiEnumDeviceInterfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/31bb0fc8-0fb8-4122-b9e8-5ff8fbbd903b">SetupDiGetClassDevs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdevsw">SetupDiGetClassDevs</a>
  
 
  

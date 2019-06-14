@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-A list of Server Principal Names (SPNs) that are used to validate <a href="https://msdn.microsoft.com/35e48846-05e5-4db9-a3b5-098b62815b66">Extended Protection</a>. 
+A list of Server Principal Names (SPNs) that are used to validate <a href="https://docs.microsoft.com/windows/desktop/wsw/extended-protection">Extended Protection</a>. 
             
 
 Only available on the server.

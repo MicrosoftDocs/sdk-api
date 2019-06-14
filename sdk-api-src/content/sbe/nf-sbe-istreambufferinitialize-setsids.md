@@ -141,7 +141,7 @@ Note that this method does not apply to content recording files, which are prote
 
 
 
-<a href="https://msdn.microsoft.com/357b2979-78de-4a99-bf52-4117af7dfaad">IStreamBufferInitialize Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferinitialize">IStreamBufferInitialize Interface</a>
  
 
  

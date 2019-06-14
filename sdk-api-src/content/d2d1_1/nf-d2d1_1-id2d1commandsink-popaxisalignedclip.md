@@ -76,15 +76,15 @@ If the method succeeds, it returns <b>S_OK</b>. If it fails, it returns an <b>HR
 
 
 
-<a href="https://msdn.microsoft.com/52e6da86-c7c6-48e7-b0ff-a54770663f14">ID2D1CommandList::Stream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1commandlist-stream">ID2D1CommandList::Stream</a>
 
 
 
-<a href="https://msdn.microsoft.com/4e0ce837-7f4e-4b93-8dd7-68f60cfb1105">ID2D1CommandSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandsink">ID2D1CommandSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd742855(v=VS.85).aspx">ID2D1RenderTarget::PushAxisAlignedClip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-pushaxisalignedclip">ID2D1RenderTarget::PushAxisAlignedClip</a>
  
 
  

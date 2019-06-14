@@ -54,7 +54,7 @@ This interface accesses connection parameters and preferences stored in Mobile B
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMbnConnectionProfile</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMbnConnectionProfile</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMbnConnectionProfile</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnConnectionProfile</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMbnConnectionProfile</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4de7da76-c873-4a57-a021-17436d1a64a4">Delete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofile-delete">Delete</a>
 </td>
 <td align="left" width="63%">
 Deletes the profile.
@@ -78,7 +78,7 @@ Deletes the profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4a94dd33-1dad-4d0a-98e8-1ccce83f345e">GetProfileXmlData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofile-getprofilexmldata">GetProfileXmlData</a>
 </td>
 <td align="left" width="63%">
 Gets the XML data of the current profile.
@@ -87,7 +87,7 @@ Gets the XML data of the current profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3243ffec-1897-4f26-853d-81a7198a892d">UpdateProfile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofile-updateprofile">UpdateProfile</a>
 </td>
 <td align="left" width="63%">
 Updates the contents of the profile.
@@ -101,7 +101,7 @@ Updates the contents of the profile.
 
 
 
-<b>IMbnConnectionProfile</b> objects are provided by calls to the <a href="https://msdn.microsoft.com/24658f8b-a34f-4821-9fac-bd5c8810725f">GetConnectionProfile</a> and <a href="https://msdn.microsoft.com/96752181-1135-4dcf-9c07-056dfbf2ca5f">GetConnectionProfiles</a> methods of the <a href="https://msdn.microsoft.com/a55e4183-f914-4064-a391-3bd31ca59160">IMbnConnectionProfileManager</a> interface.
+<b>IMbnConnectionProfile</b> objects are provided by calls to the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanager-getconnectionprofile">GetConnectionProfile</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanager-getconnectionprofiles">GetConnectionProfiles</a> methods of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofilemanager">IMbnConnectionProfileManager</a> interface.
 
 
 

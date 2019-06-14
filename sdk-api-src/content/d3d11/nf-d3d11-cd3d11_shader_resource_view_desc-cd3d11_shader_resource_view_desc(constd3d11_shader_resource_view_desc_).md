@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Instantiates a new instance of a <a href="https://msdn.microsoft.com/A6604A04-2D05-4CEB-8D47-C59789EE047E">CD3D11_SHADER_RESOURCE_VIEW_DESC</a> structure that is initialized with a <a href="https://msdn.microsoft.com/7ce09172-8a01-4718-b0ef-0ae118a9be16">D3D11_SHADER_RESOURCE_VIEW_DESC</a> structure.
+Instantiates a new instance of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151684(v=vs.85)">CD3D11_SHADER_RESOURCE_VIEW_DESC</a> structure that is initialized with a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_shader_resource_view_desc">D3D11_SHADER_RESOURCE_VIEW_DESC</a> structure.
 
 
 ## -parameters
@@ -60,9 +60,9 @@ Instantiates a new instance of a <a href="https://msdn.microsoft.com/A6604A04-2D
 
 ### -param o [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/7ce09172-8a01-4718-b0ef-0ae118a9be16">D3D11_SHADER_RESOURCE_VIEW_DESC</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_shader_resource_view_desc">D3D11_SHADER_RESOURCE_VIEW_DESC</a></b>
 
-Address of the <a href="https://msdn.microsoft.com/7ce09172-8a01-4718-b0ef-0ae118a9be16">D3D11_SHADER_RESOURCE_VIEW_DESC</a> structure that initializes the <a href="https://msdn.microsoft.com/A6604A04-2D05-4CEB-8D47-C59789EE047E">CD3D11_SHADER_RESOURCE_VIEW_DESC</a> structure.
+Address of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_shader_resource_view_desc">D3D11_SHADER_RESOURCE_VIEW_DESC</a> structure that initializes the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151684(v=vs.85)">CD3D11_SHADER_RESOURCE_VIEW_DESC</a> structure.
 
 
 ## -returns
@@ -79,7 +79,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/A6604A04-2D05-4CEB-8D47-C59789EE047E">CD3D11_SHADER_RESOURCE_VIEW_DESC</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151684(v=vs.85)">CD3D11_SHADER_RESOURCE_VIEW_DESC</a>
  
 
  

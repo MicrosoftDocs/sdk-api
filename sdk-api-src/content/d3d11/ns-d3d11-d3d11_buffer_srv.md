@@ -59,7 +59,7 @@ Specifies the elements in a buffer resource to use in a shader-resource view.
 
 ### -field FirstElement
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of bytes between the beginning of the buffer and the first element to access.
             
@@ -67,7 +67,7 @@ Number of bytes between the beginning of the buffer and the first element to acc
 
 ### -field ElementOffset
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The offset of the first element in the view to access, relative to element 0.
             
@@ -75,7 +75,7 @@ The offset of the first element in the view to access, relative to element 0.
 
 ### -field NumElements
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The total number of elements in the view.
             
@@ -83,7 +83,7 @@ The total number of elements in the view.
 
 ### -field ElementWidth
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The width of each element (in bytes).
               This can be determined from the format stored in the shader-resource-view description.
@@ -94,7 +94,7 @@ The width of each element (in bytes).
 
 
 
-The <b>D3D11_BUFFER_SRV</b> structure is a member of the  <a href="https://msdn.microsoft.com/7ce09172-8a01-4718-b0ef-0ae118a9be16">D3D11_SHADER_RESOURCE_VIEW_DESC</a> structure, which represents a shader-resource view description. You can create a shader-resource view by calling the <a href="https://msdn.microsoft.com/a8e3cda3-76f9-48c3-9e0c-e530f95fe8b8">ID3D11Device::CreateShaderResourceView</a> method.
+The <b>D3D11_BUFFER_SRV</b> structure is a member of the  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_shader_resource_view_desc">D3D11_SHADER_RESOURCE_VIEW_DESC</a> structure, which represents a shader-resource view description. You can create a shader-resource view by calling the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createshaderresourceview">ID3D11Device::CreateShaderResourceView</a> method.
         
 
 
@@ -105,7 +105,7 @@ The <b>D3D11_BUFFER_SRV</b> structure is a member of the  <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/a29e01ac-8aa1-4a40-ad4d-3b738e129436">Resource Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-resource-structures">Resource Structures</a>
  
 
  

@@ -133,7 +133,7 @@ If <b>NULL</b> is passed to <i>pbSignedInfoHash</i>, then <b>GetSignedInfoHash</
 
 
 
-<a href="https://msdn.microsoft.com/10e95100-4890-4c00-b231-bb7125fed197">IWSDSignatureProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdsignatureproperty">IWSDSignatureProperty</a>
  
 
  

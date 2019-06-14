@@ -59,49 +59,49 @@ Describes a shader output register.
 
 ### -field OutputRegisterSet
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172425(v=VS.85).aspx">D3D10_SHADER_DEBUG_REGTYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1shader/ne-d3d10_1shader-_d3d10_shader_debug_regtype">D3D10_SHADER_DEBUG_REGTYPE</a></b>
 
 Must be D3D10_SHADER_DEBUG_REG_TEMP, D3D10_SHADER_DEBUG_REG_TEMPARRAY or D3D10_SHADER_DEBUG_REG_OUTPUT.
 
 
 ### -field OutputReg
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A value of -1 indicates no output.
 
 
 ### -field TempArrayReg
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 If <b>OutputRegisterSet</b> is D3D10_SHADER_DEBUG_REG_TEMPARRAY this indicates which temp array.
 
 
 ### -field OutputComponents
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A value of -1 means the component is masked out.
 
 
 ### -field OutputVars
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172424(v=VS.85).aspx">D3D10_SHADER_DEBUG_OUTPUTVAR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1shader/ns-d3d10_1shader-_d3d10_shader_debug_outputvar">D3D10_SHADER_DEBUG_OUTPUTVAR</a></b>
 
 Indicates which variable the instruction is writing per-component.
 
 
 ### -field IndexReg
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Offset from OutputReg of the element being written to. Used when writing to an indexable temp array or an output.
 
 
 ### -field IndexComp
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Offset from OutputReg of the element being written to. Used when writing to an indexable temp array or an output.
 
@@ -111,7 +111,7 @@ Offset from OutputReg of the element being written to. Used when writing to an i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205159(v=VS.85).aspx">Shader Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-shader-structures">Shader Structures</a>
  
 
  

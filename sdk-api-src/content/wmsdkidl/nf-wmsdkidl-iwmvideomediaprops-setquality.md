@@ -63,7 +63,7 @@ The <b>SetQuality</b> method specifies the quality setting for the video stream.
 
 ### -param dwQuality [in]
 
-<b>DWORD</b> specifying the quality setting, in the range from zero (maximum <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">frame rate</a>) to 100 (maximum image quality).
+<b>DWORD</b> specifying the quality setting, in the range from zero (maximum <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">frame rate</a>) to 100 (maximum image quality).
 
 
 ## -returns
@@ -80,11 +80,11 @@ This method always returns S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798711(v=VS.85).aspx">IWMVideoMediaProps Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmvideomediaprops">IWMVideoMediaProps Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798713(v=VS.85).aspx">IWMVideoMediaProps::GetQuality</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmvideomediaprops-getquality">IWMVideoMediaProps::GetQuality</a>
  
 
  

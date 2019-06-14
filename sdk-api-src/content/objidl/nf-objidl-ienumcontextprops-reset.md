@@ -82,7 +82,7 @@ There is no guarantee that the same set of objects will be enumerated after the 
 
 
 
-<a href="https://msdn.microsoft.com/64591e45-5478-4360-8c1f-08b09b5aef8e">IEnumContextProps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumcontextprops">IEnumContextProps</a>
  
 
  

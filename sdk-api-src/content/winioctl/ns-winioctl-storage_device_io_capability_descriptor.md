@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-The output buffer for the StorageDeviceIoCapabilityProperty as defined in <a href="https://msdn.microsoft.com/9747be01-7c70-4697-97f7-e3830b54ba0a">STORAGE_PROPERTY_ID</a>.
+The output buffer for the StorageDeviceIoCapabilityProperty as defined in <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_property_id">STORAGE_PROPERTY_ID</a>.
 
 
 ## -struct-fields

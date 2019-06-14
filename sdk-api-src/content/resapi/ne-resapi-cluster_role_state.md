@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines the potential return values for the <a href="https://msdn.microsoft.com/582992ca-9381-4673-8fe8-835b50047f51">ResUtilGetClusterRoleState</a> function.
+Defines the potential return values for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nf-resapi-resutilgetclusterrolestate">ResUtilGetClusterRoleState</a> function.
 
 
 ## -enum-fields
@@ -77,11 +77,11 @@ The role is not clustered.
 
 
 
-<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/582992ca-9381-4673-8fe8-835b50047f51">ResUtilGetClusterRoleState</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nf-resapi-resutilgetclusterrolestate">ResUtilGetClusterRoleState</a>
  
 
  

@@ -52,7 +52,7 @@ ms.custom: 19H1
 The 
 <b>HttpCreateHttpHandle</b> function creates an HTTP request queue for the calling application and returns a handle to it.
 
-Starting with HTTP Server API Version 2.0,  applications should call <a href="https://msdn.microsoft.com/a0f4112e-db81-4eda-afeb-d00117f7240c">HttpCreateRequestQueue</a> to create the request queue; <b>HttpCreateHttpHandle</b> should not be used.
+Starting with HTTP Server API Version 2.0,  applications should call <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a> to create the request queue; <b>HttpCreateHttpHandle</b> should not be used.
 
 
 ## -parameters
@@ -91,7 +91,7 @@ If the function fails, the return value is one of the following error codes.
 </td>
 <td width="60%">
 The calling application did not call 
-<a href="https://msdn.microsoft.com/bc0648a9-bacf-4b09-aa4e-66aecbbdca3d">HttpInitialize</a> before calling this function.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpinitialize">HttpInitialize</a> before calling this function.
 
 </td>
 </tr>
@@ -102,7 +102,7 @@ The calling application did not call
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> defined in WinError.h.
+A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> defined in WinError.h.
 
 </td>
 </tr>
@@ -117,12 +117,12 @@ A <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">syst
 
 
 The request queue enables the calling application to receive requests for particular URLs. The calling application uses the 
-<a href="https://msdn.microsoft.com/76b228a0-6792-4184-bf0e-8638f3ab6b98">HttpAddUrl</a> function to specify the URL for which it should receive requests.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpaddurl">HttpAddUrl</a> function to specify the URL for which it should receive requests.
 
 An application should use a single request queue to receive requests. Using multiple request queues from a single process does not increase response time or throughput.
 
 When an application has finished receiving requests, it should call the 
-<a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function to close the handle.
+<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close the handle.
 
 
 
@@ -132,15 +132,15 @@ When an application has finished receiving requests, it should call the
 
 
 
-<a href="https://msdn.microsoft.com/1da9907d-a09d-41e1-aca1-9a8e2b91296f">HTTP Server API Version 1.0 Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-functions">HTTP Server API Version 1.0 Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/76b228a0-6792-4184-bf0e-8638f3ab6b98">HttpAddUrl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpaddurl">HttpAddUrl</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0f4112e-db81-4eda-afeb-d00117f7240c">HttpCreateRequestQueue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a>
  
 
  

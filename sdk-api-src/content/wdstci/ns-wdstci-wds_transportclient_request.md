@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/aa89899f-8f50-4617-84a1-4013412f0292">WdsTransportClientStartSession</a> function.
+This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nf-wdstci-wdstransportclientstartsession">WdsTransportClientStartSession</a> function.
 
 
 ## -struct-fields

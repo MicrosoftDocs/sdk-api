@@ -55,7 +55,7 @@ Performs initialization or cleanup when entering or exiting a COM apartment.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInitializeSpy</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IInitializeSpy</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInitializeSpy</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInitializeSpy</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,37 +70,37 @@ The <b>IInitializeSpy</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bdef4089-93e6-4845-8dcc-1150d7a0d033">PostInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iinitializespy-postinitialize">PostInitialize</a>
 </td>
 <td align="left" width="63%">
-Performs initialization steps required after calling the <a href="https://msdn.microsoft.com/ffb79c0f-aeda-4ea1-aea8-afb79109837f">CoInitializeEx</a> function.
+Performs initialization steps required after calling the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> function.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f91a1a4a-4d0b-491e-a7c6-01596b5b9712">PostUninitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iinitializespy-postuninitialize">PostUninitialize</a>
 </td>
 <td align="left" width="63%">
-Performs cleanup steps required after calling the <a href="https://msdn.microsoft.com/9411cbed-fa3b-46f7-b677-6ada53324edc">CoUninitialize</a> function.
+Performs cleanup steps required after calling the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a> function.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f5b345d1-ab37-401a-9cb4-b01ef7254fc8">PreInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iinitializespy-preinitialize">PreInitialize</a>
 </td>
 <td align="left" width="63%">
-Performs initialization steps required before calling the <a href="https://msdn.microsoft.com/ffb79c0f-aeda-4ea1-aea8-afb79109837f">CoInitializeEx</a> function.
+Performs initialization steps required before calling the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> function.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/22f9c663-0c6e-4413-a3a3-21cbb5ce62c9">PreUninitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iinitializespy-preuninitialize">PreUninitialize</a>
 </td>
 <td align="left" width="63%">
-Performs cleanup steps required before calling the <a href="https://msdn.microsoft.com/9411cbed-fa3b-46f7-b677-6ada53324edc">CoUninitialize</a> function.
+Performs cleanup steps required before calling the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a> function.
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ Performs cleanup steps required before calling the <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/1fd5606e-0a15-429a-b656-4620b873bec5">CoRegisterInitializeSpy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coregisterinitializespy">CoRegisterInitializeSpy</a>
  
 
  

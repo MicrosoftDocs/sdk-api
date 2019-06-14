@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>CALLINFO_STRING</b> enum is used by 
-<a href="https://msdn.microsoft.com/5209d4a1-e05b-453e-8896-2dc71f0b9af0">ITCallInfo</a> methods that set and get call information involving the use of strings.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a> methods that set and get call information involving the use of strings.
 
 
 ## -enum-fields
@@ -134,11 +134,11 @@ The identifier of the calling party.
 
 
 
-<a href="https://msdn.microsoft.com/248022e7-c6cf-4c46-be94-ee1b79b9f39a">ITCallInfo::get_CallInfoString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_callinfostring">ITCallInfo::get_CallInfoString</a>
 
 
 
-<a href="https://msdn.microsoft.com/d22f1afb-e036-40d0-9a7f-61d8d24d2376">ITCallInfo::put_CallInfoString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-put_callinfostring">ITCallInfo::put_CallInfoString</a>
  
 
  

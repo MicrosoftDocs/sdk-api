@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>GetObjectCount</b> is no longer available for use as of Windows Vista. Instead, use <a href="https://msdn.microsoft.com/dadf91c5-7d27-4b1b-875b-6f0615440f47">ItemCount</a>.]
+<p class="CCE_Message">[<b>GetObjectCount</b> is no longer available for use as of Windows Vista. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-itemcount">ItemCount</a>.]
 
 Gets the number of items in the folder view.
 

@@ -67,7 +67,7 @@ Retrieves version information for the specified file.
 
 Type: <b>LPCTSTR</b>
 
-The name of the file. If a full path is not specified, the function uses the search sequence specified by the  <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> function.
+The name of the file. If a full path is not specified, the function uses the search sequence specified by the  <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function.
 				
 
 
@@ -85,7 +85,7 @@ Type: <b>DWORD</b>
 The size, in bytes, of the buffer pointed to by the 
 					<i>lpData</i> parameter. 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/ms647005(v=VS.85).aspx">GetFileVersionInfoSize</a> function first to determine the size, in bytes, of a file's version information. The 
+Call the <a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-getfileversioninfosizea">GetFileVersionInfoSize</a> function first to determine the size, in bytes, of a file's version information. The 
 						<i>dwLen</i> member should be equal to or greater than that value. 
 
 If the buffer pointed to by 
@@ -98,7 +98,7 @@ Type: <b>LPVOID</b>
 
 Pointer to a buffer that receives the file-version information.
 
-You can use this value in a subsequent call to the <a href="https://msdn.microsoft.com/en-us/library/ms647464(v=VS.85).aspx">VerQueryValue</a> function to retrieve data from the buffer.
+You can use this value in a subsequent call to the <a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-verqueryvaluea">VerQueryValue</a> function to retrieve data from the buffer.
 
 
 ## -returns
@@ -109,7 +109,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -121,7 +121,7 @@ If the function fails, the return value is zero. To get extended error informati
  File version info has fixed and non-fixed part. The fixed part contains information like version number. The non-fixed part contains things like strings. In the past <b>GetFileVersionInfo</b> was taking version information from the binary (exe/dll). Currently, it is querying fixed version from language neutral file (exe/dll) and the non-fixed part from mui file, merges them and returns to the user.
 If the given binary does not have a mui file then behavior is as in previous version.
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/ms647005(v=VS.85).aspx">GetFileVersionInfoSize</a> function before calling the <b>GetFileVersionInfo</b> function. To retrieve information from the file-version information buffer, use the <a href="https://msdn.microsoft.com/en-us/library/ms647464(v=VS.85).aspx">VerQueryValue</a> function.
+Call the <a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-getfileversioninfosizea">GetFileVersionInfoSize</a> function before calling the <b>GetFileVersionInfo</b> function. To retrieve information from the file-version information buffer, use the <a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-verqueryvaluea">VerQueryValue</a> function.
 
 
 
@@ -135,7 +135,7 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/ms647005(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647005(v=VS.85).aspx">GetFileVersionInfoSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-getfileversioninfosizea">GetFileVersionInfoSize</a>
 
 
 
@@ -143,15 +143,15 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/ms647005(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647001(v=VS.85).aspx">VS_VERSIONINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/vs-versioninfo">VS_VERSIONINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647464(v=VS.85).aspx">VerQueryValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-verqueryvaluea">VerQueryValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646981(v=VS.85).aspx">Version Information</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/version-information">Version Information</a>
  
 
  

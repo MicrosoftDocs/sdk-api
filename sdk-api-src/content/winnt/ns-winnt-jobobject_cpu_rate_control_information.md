@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains CPU rate control information for a job object. This structure is used by the <a href="https://msdn.microsoft.com/46f7c579-e8d3-4434-a6ce-56573cd84387">SetInformationJobObject</a> and <a href="https://msdn.microsoft.com/d843d578-fd67-4708-959f-00245ff70ec6">QueryInformationJobObject</a> functions with the <b>JobObjectCpuRateControlInformation</b> information class.
+Contains CPU rate control information for a job object. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a> and <a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject">QueryInformationJobObject</a> functions with the <b>JobObjectCpuRateControlInformation</b> information class.
 
 
 ## -struct-fields
@@ -142,7 +142,7 @@ Specifies the portion of processor cycles that the threads in a job object can u
 
 Set <b>CpuRate</b> to a percentage times 100. For example, to let the job use 20% of the CPU, set <b>CpuRate</b> to 20 times 100, or 2,000.
 
-Do not set <b>CpuRate</b> to 0. If <b>CpuRate</b> is 0,  <a href="https://msdn.microsoft.com/46f7c579-e8d3-4434-a6ce-56573cd84387">SetInformationJobObject</a> returns <b>INVALID_ARGS</b>.
+Do not set <b>CpuRate</b> to 0. If <b>CpuRate</b> is 0,  <a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a> returns <b>INVALID_ARGS</b>.
 
 
 ### -field DUMMYUNIONNAME.Weight
@@ -179,7 +179,7 @@ After the job reaches this limit for a scheduling interval, no threads associate
 
 You can set CPU rate control for multiple jobs in a  hierarchy of nested jobs. When you set CPU rate control for a job object, the settings apply to the job and its child jobs in the hierarchy. When you set CPU rate control for a job in a nested hierarchy, the system calculates the corresponding quotas with respect to the CPU rate control of the immediate parent job for the job. In other words, the rates set for the job represent its portion of the CPU rate that is allocated to its parent job.  If a job object does not have a parent with CPU rate control turned on in the chain of its parent jobs, the rate control for the job represents the portion of the CPU for the entire system.
 
-CPU rate control cannot be used by job objects in applications running under <a href="https://msdn.microsoft.com/90c40b7a-e324-43fc-a1e6-f29997ed9436">Remote Desktop Services</a> (formerly Terminal Services)  if Dynamic Fair Share Scheduling (DFSS) is in effect. 
+CPU rate control cannot be used by job objects in applications running under <a href="https://docs.microsoft.com/windows/desktop/TermServ/terminal-services-portal">Remote Desktop Services</a> (formerly Terminal Services)  if Dynamic Fair Share Scheduling (DFSS) is in effect. 
 
 
 
@@ -189,15 +189,15 @@ CPU rate control cannot be used by job objects in applications running under <a 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh448386(v=VS.85).aspx">JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_jobobject_notification_limit_information">JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/d843d578-fd67-4708-959f-00245ff70ec6">QueryInformationJobObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject">QueryInformationJobObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/46f7c579-e8d3-4434-a6ce-56573cd84387">SetInformationJobObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>
  
 
  

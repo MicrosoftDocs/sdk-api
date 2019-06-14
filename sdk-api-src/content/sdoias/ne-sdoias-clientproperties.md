@@ -110,11 +110,11 @@ This value must be set before a client SDO object can be saved.
 
 
 
-<a href="https://msdn.microsoft.com/9c7ee4d7-987f-45ae-810f-fc310955f36d">IASCOMMONPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iascommonproperties">IASCOMMONPROPERTIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/adf73b6d-963d-4a06-b958-8301e4fdf292">RADIUSPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_radiusproperties">RADIUSPROPERTIES</a>
  
 
  

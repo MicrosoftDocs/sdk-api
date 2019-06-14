@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the certificate credentials. The <a href="https://msdn.microsoft.com/a8ba6f73-8469-431b-b185-183b45b2c533">QueryCredentialsAttributes</a> function uses this structure.
+Specifies the certificate credentials. The <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycredentialsattributesa">QueryCredentialsAttributes</a> function uses this structure.
 
 
 ## -struct-fields

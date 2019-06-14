@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>AutoProxyHelperFunctions</b> structure is used to create a v-table of Proxy Auto-Config (PAC) functions that can be passed to <a href="https://msdn.microsoft.com/d55d64cb-ee92-4366-a1bb-f5d421ed81c8">InternetInitializeAutoProxyDll</a>.
+The <b>AutoProxyHelperFunctions</b> structure is used to create a v-table of Proxy Auto-Config (PAC) functions that can be passed to <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetinitializeautoproxydll">InternetInitializeAutoProxyDll</a>.
 
 See the   <a href="Http://go.microsoft.com/fwlink/p/?linkid=84541">Navigator Proxy Auto-Config (PAC) File Format</a>  documentation for a specification of the form and use of Proxy Auto-Config helper functions.
 
@@ -61,7 +61,7 @@ See the   <a href="Http://go.microsoft.com/fwlink/p/?linkid=84541">Navigator Pro
 
 ### -field lpVtbl
 
-Pointer to an <a href="https://msdn.microsoft.com/df482b8d-38e1-4d0d-a12c-8ba0f2e6423a">AutoProxyHelperVtbl</a> structure that contains an array of pointers to autoproxy helper functions. 
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-autoproxyhelpervtbl">AutoProxyHelperVtbl</a> structure that contains an array of pointers to autoproxy helper functions. 
 
 
 ### -field AutoProxyHelperVtbl
@@ -75,9 +75,9 @@ Pointer to an <a href="https://msdn.microsoft.com/df482b8d-38e1-4d0d-a12c-8ba0f2
 
 
 
-Together with the <a href="https://msdn.microsoft.com/df482b8d-38e1-4d0d-a12c-8ba0f2e6423a">AutoProxyHelperVtbl</a> structure, <b>AutoProxyHelperFunctions</b> serves to create a standard v-table that can be declared and populated using C rather than requiring the use of C++.
+Together with the <a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-autoproxyhelpervtbl">AutoProxyHelperVtbl</a> structure, <b>AutoProxyHelperFunctions</b> serves to create a standard v-table that can be declared and populated using C rather than requiring the use of C++.
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
@@ -87,11 +87,11 @@ Together with the <a href="https://msdn.microsoft.com/df482b8d-38e1-4d0d-a12c-8b
 
 
 
-<a href="https://msdn.microsoft.com/df482b8d-38e1-4d0d-a12c-8ba0f2e6423a">AutoProxyHelperVtbl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-autoproxyhelpervtbl">AutoProxyHelperVtbl</a>
 
 
 
-<a href="https://msdn.microsoft.com/d55d64cb-ee92-4366-a1bb-f5d421ed81c8">InternetInitializeAutoProxyDll</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetinitializeautoproxydll">InternetInitializeAutoProxyDll</a>
  
 
  

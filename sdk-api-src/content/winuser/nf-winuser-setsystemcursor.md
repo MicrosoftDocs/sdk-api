@@ -63,7 +63,7 @@ Type: <b>HCURSOR</b>
 
 A handle to the cursor. The function replaces the contents of the system cursor specified by <i>id</i> with the contents of the cursor handled by <i>hcur</i>.
 
-The system destroys <i>hcur</i> by calling the <a href="https://msdn.microsoft.com/en-us/library/ms648386(v=VS.85).aspx">DestroyCursor</a> function. Therefore, <i>hcur</i> cannot be a cursor loaded using the <a href="https://msdn.microsoft.com/en-us/library/ms648391(v=VS.85).aspx">LoadCursor</a> function. To specify a cursor loaded from a resource, copy the cursor using the <a href="https://msdn.microsoft.com/en-us/library/ms648384(v=VS.85).aspx">CopyCursor</a> function, then pass the copy to <b>SetSystemCursor</b>.
+The system destroys <i>hcur</i> by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroycursor">DestroyCursor</a> function. Therefore, <i>hcur</i> cannot be a cursor loaded using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadcursora">LoadCursor</a> function. To specify a cursor loaded from a resource, copy the cursor using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-copycursor">CopyCursor</a> function, then pass the copy to <b>SetSystemCursor</b>.
 
 
 ### -param id [in]
@@ -243,7 +243,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -266,19 +266,19 @@ For an application to use any of the OCR_ constants, the constant <b>OEMRESOURCE
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646970(v=VS.85).aspx">Cursors</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/cursors">Cursors</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648386(v=VS.85).aspx">DestroyCursor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroycursor">DestroyCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648391(v=VS.85).aspx">LoadCursor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadcursora">LoadCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648392(v=VS.85).aspx">LoadCursorFromFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadcursorfromfilea">LoadCursorFromFile</a>
 
 
 
@@ -286,7 +286,7 @@ For an application to use any of the OCR_ constants, the constant <b>OEMRESOURCE
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648393(v=VS.85).aspx">SetCursor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setcursor">SetCursor</a>
  
 
  

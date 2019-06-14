@@ -71,7 +71,7 @@ A <b>BSTR</b> that contains the new password.
 
 
 
-This method supports the standard return values, including S_OK. For more information and other return values, see  <a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>.
+This method supports the standard return values, including S_OK. For more information and other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 
 
@@ -80,9 +80,9 @@ This method supports the standard return values, including S_OK. For more inform
 
 
 
-<b>IADsUser::ChangePassword</b> functions similarly to <a href="https://msdn.microsoft.com/cad38632-9f0a-4707-9086-b1248d6f31a6">IADsUser::SetPassword</a> in that it will use one of three methods to try to change the password. Initially, the LDAP provider will attempt an LDAP change password operation, if a secure SSL connection to the server is established.  If this attempt fails, the LDAP provider will next try to use Kerberos (see <b>IADsUser::SetPassword</b> for some problems that may result on  Windows with cross-forest authentication), and if this also fails, it will finally call the Active Directory specific network management API, <a href="https://msdn.microsoft.com/e3791756-3bd4-490b-983a-9687373d846b">NetUserChangePassword</a>.
+<b>IADsUser::ChangePassword</b> functions similarly to <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsuser-setpassword">IADsUser::SetPassword</a> in that it will use one of three methods to try to change the password. Initially, the LDAP provider will attempt an LDAP change password operation, if a secure SSL connection to the server is established.  If this attempt fails, the LDAP provider will next try to use Kerberos (see <b>IADsUser::SetPassword</b> for some problems that may result on  Windows with cross-forest authentication), and if this also fails, it will finally call the Active Directory specific network management API, <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netuserchangepassword">NetUserChangePassword</a>.
 
-In Active Directory, the caller must have the <a href="https://msdn.microsoft.com/15d2c52f-f626-4c6e-995d-19bbbbb38b6b">Change Password</a> extended control access right to change the password with this method.
+In Active Directory, the caller must have the <a href="https://docs.microsoft.com/windows/desktop/ADSchema/r-user-change-password">Change Password</a> extended control access right to change the password with this method.
 
 
 #### Examples
@@ -137,15 +137,15 @@ HRESULT ChangePassword(
 
 
 
-<a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/6eea74c2-2d6d-4dfd-9a22-3da2d5ce49bf">IADsUser</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsuser">IADsUser</a>
 
 
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">IADsUser
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">IADsUser
   Property Methods</a>
  
 

@@ -50,9 +50,9 @@ ms.custom: 19H1
 ## -description
 
 
-Sets a <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PrepareForBackup</a> failure message string for a component.
+Sets a <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PrepareForBackup</a> failure message string for a component.
 
-This method can only be called by a writer's <a href="https://msdn.microsoft.com/4e88d92b-48f3-42f9-bf66-61337a745902">CVssWriter::OnPrepareBackup</a> method.
+This method can only be called by a writer's <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpreparebackup">CVssWriter::OnPrepareBackup</a> method.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ This method can only be called by a writer's <a href="https://msdn.microsoft.com
 ### -param wszFailureMsg [in]
 
 The address of a caller-allocated <b>NULL</b>-terminated wide character string containing the failure message that describes an error that occurred 
-      while processing a <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PrepareForBackup</a> 
+      while processing a <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PrepareForBackup</a> 
       event.
 
 
@@ -118,7 +118,7 @@ The caller is out of memory or other system resources.
 </dl>
 </td>
 <td width="60%">
-This method was not called by a writer's <a href="https://msdn.microsoft.com/4e88d92b-48f3-42f9-bf66-61337a745902">CVssWriter::OnPrepareBackup</a> method.
+This method was not called by a writer's <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpreparebackup">CVssWriter::OnPrepareBackup</a> method.
 
 </td>
 </tr>
@@ -143,15 +143,15 @@ The failure message that is set by
 
 
 
-<a href="https://msdn.microsoft.com/4e88d92b-48f3-42f9-bf66-61337a745902">CVssWriter::OnPrepareBackup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpreparebackup">CVssWriter::OnPrepareBackup</a>
 
 
 
-<a href="https://msdn.microsoft.com/b11f65b0-2de2-478b-88b6-4696a8da2419">IVssComponentEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponentex">IVssComponentEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/b086ff8d-ff51-4550-887d-e7741e2469f2">IVssComponentEx::GetPrepareForBackupFailureMsg</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex-getprepareforbackupfailuremsg">IVssComponentEx::GetPrepareForBackupFailureMsg</a>
  
 
  

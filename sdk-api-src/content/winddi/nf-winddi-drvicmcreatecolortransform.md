@@ -59,7 +59,7 @@ The <b>DrvIcmCreateColorTransform</b> function creates an ICM color transform.
 
 ### -param dhpdev [in]
 
-Handle to the physical device's <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDEV</a>.
+Handle to the physical device's <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a>.
 
 
 ### -param pLogColorSpace [in]
@@ -137,7 +137,7 @@ The provided profiles adhere to version 2.10 of the ICC profile format. If the d
 
 The driver can safely access the entire memory map of each profile. The <i>pvSourceProfile</i>, <i>pvDestProfile</i>, and <i>pvTargetProfile</i> pointers are valid only during the scope of the call to <b>DrvIcmCreateTransform</b>.
 
-Drivers that report ICM support should implement this function. A driver indicates support for ICM by setting the GCAPS_ICM flag in the <b>flGraphicsCaps</b> member of the <a href="https://msdn.microsoft.com/5ba3e521-2e70-4a5b-979d-30a061275d42">DEVINFO</a> structure.
+Drivers that report ICM support should implement this function. A driver indicates support for ICM by setting the GCAPS_ICM flag in the <b>flGraphicsCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-tagdevinfo">DEVINFO</a> structure.
 
 
 
@@ -147,7 +147,7 @@ Drivers that report ICM support should implement this function. A driver indicat
 
 
 
-<a href="https://msdn.microsoft.com/aa1226d3-7b2a-4911-b785-eea9f72016f5">DrvIcmDeleteColorTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvicmdeletecolortransform">DrvIcmDeleteColorTransform</a>
  
 
  

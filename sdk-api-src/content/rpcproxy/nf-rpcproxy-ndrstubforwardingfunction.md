@@ -59,17 +59,17 @@ The <b>NdrStubForwardingFunction</b> function is the entry point for server-side
 
 ### -param This [in]
 
-Pointer to an instance of the CStdStubBuffer object, implementing <a href="https://msdn.microsoft.com/en-us/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a>, for the DCOM interface.  
+Pointer to an instance of the CStdStubBuffer object, implementing <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a>, for the DCOM interface.  
 
 
 ### -param pChannel [in]
 
-Pointer to <a href="https://msdn.microsoft.com/en-us/library/ms679738(v=VS.85).aspx">IRpcChannelBuffer</a> for the DCOM interface, often provided by OLE. 
+Pointer to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcchannelbuffer">IRpcChannelBuffer</a> for the DCOM interface, often provided by OLE. 
 
 
 ### -param pmsg [in, out]
 
-Pointer to an <a href="https://msdn.microsoft.com/fd014622-97b3-4f76-8bc3-10821aa3c46e">RPC_MESSAGE</a> structure that  contains information about the RPC request.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/rpcdcep/ns-rpcdcep-_rpc_message">RPC_MESSAGE</a> structure that  contains information about the RPC request.
 
 
 ### -param pdwStubPhase [out]

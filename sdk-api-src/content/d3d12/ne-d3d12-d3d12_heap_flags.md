@@ -66,7 +66,7 @@ No options are specified.
 
 ### -field D3D12_HEAP_FLAG_SHARED
 
-The heap is shared. Refer to <a href="https://msdn.microsoft.com/67C6B1D4-BF76-45A9-BADC-7C9520C900EB">Shared Heaps</a>.
+The heap is shared. Refer to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/shared-heaps">Shared Heaps</a>.
 
 
 ### -field D3D12_HEAP_FLAG_DENY_BUFFERS
@@ -83,7 +83,7 @@ The heap is allowed to contain swap-chain surfaces.
 
 ### -field D3D12_HEAP_FLAG_SHARED_CROSS_ADAPTER
 
-The heap is allowed to share resources across adapters. Refer to <a href="https://msdn.microsoft.com/67C6B1D4-BF76-45A9-BADC-7C9520C900EB">Shared Heaps</a>.
+The heap is allowed to share resources across adapters. Refer to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/shared-heaps">Shared Heaps</a>.
           
 
 
@@ -95,7 +95,7 @@ The heap is not allowed to store Render Target (RT) and/or Depth-Stencil (DS) te
 
 ### -field D3D12_HEAP_FLAG_DENY_NON_RT_DS_TEXTURES
 
-The heap is not allowed to contain resources with D3D12_RESOURCE_DIMENSION_TEXTURE1D, D3D12_RESOURCE_DIMENSION_TEXTURE2D, or D3D12_RESOURCE_DIMENSION_TEXTURE3D  unless either D3D12_RESOURCE_FLAG_ALLOW_RENDER_TARGET or D3D12_RESOURCE_FLAG_ALLOW_DEPTH_STENCIL are present. Refer to <a href="https://msdn.microsoft.com/E04F3124-01FB-4EE7-BDF8-4821F2F1FCEB">D3D12_RESOURCE_DIMENSION</a> and <a href="https://msdn.microsoft.com/EC9DA05A-D0C0-4642-8E49-9ED98B4F19B4">D3D12_RESOURCE_FLAGS</a>.
+The heap is not allowed to contain resources with D3D12_RESOURCE_DIMENSION_TEXTURE1D, D3D12_RESOURCE_DIMENSION_TEXTURE2D, or D3D12_RESOURCE_DIMENSION_TEXTURE3D  unless either D3D12_RESOURCE_FLAG_ALLOW_RENDER_TARGET or D3D12_RESOURCE_FLAG_ALLOW_DEPTH_STENCIL are present. Refer to <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_dimension">D3D12_RESOURCE_DIMENSION</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_flags">D3D12_RESOURCE_FLAGS</a>.
 
 
 ### -field D3D12_HEAP_FLAG_HARDWARE_PROTECTED
@@ -149,20 +149,20 @@ This enum is used by the following API items:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/DB5DF4B2-4673-4B8D-BDED-9F672A41E7F6">ID3D12Device::CreateHeap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createheap">ID3D12Device::CreateHeap</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/FF9E8F11-F2C5-4A96-8E25-140870D15DA9">ID3D12Device::CreateCommittedResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommittedresource">ID3D12Device::CreateCommittedResource</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/3A473476-F37E-4F01-B121-87E998EE9411">D3D12_HEAP_DESC</a> structure
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_heap_desc">D3D12_HEAP_DESC</a> structure
           </li>
 </ul>
-The following heap flags must be used with <a href="https://msdn.microsoft.com/DB5DF4B2-4673-4B8D-BDED-9F672A41E7F6">ID3D12Device::CreateHeap</a>,
-          but will be set automatically for implicit heaps created by <a href="https://msdn.microsoft.com/FF9E8F11-F2C5-4A96-8E25-140870D15DA9">ID3D12Device::CreateCommittedResource</a>.
+The following heap flags must be used with <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createheap">ID3D12Device::CreateHeap</a>,
+          but will be set automatically for implicit heaps created by <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommittedresource">ID3D12Device::CreateCommittedResource</a>.
         
 
-Adapters that only support <a href="https://msdn.microsoft.com/47C5B30C-BFFE-437A-878B-FE49F8EFFD02">heap tier 1</a> must set two out of the three following flags.
+Adapters that only support <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_heap_tier">heap tier 1</a> must set two out of the three following flags.
         
 
 <table>
@@ -173,7 +173,7 @@ Adapters that only support <a href="https://msdn.microsoft.com/47C5B30C-BFFE-437
 <tr>
 <td>D3D12_HEAP_FLAG_DENY_BUFFERS</td>
 <td>The heap isn't allowed to contain resources with
-              D3D12_RESOURCE_DIMENSION_BUFFER (which is a <a href="https://msdn.microsoft.com/E04F3124-01FB-4EE7-BDF8-4821F2F1FCEB">D3D12_RESOURCE_DIMENSION</a> enumeration constant).
+              D3D12_RESOURCE_DIMENSION_BUFFER (which is a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_dimension">D3D12_RESOURCE_DIMENSION</a> enumeration constant).
             </td>
 </tr>
 <tr>
@@ -185,7 +185,7 @@ Adapters that only support <a href="https://msdn.microsoft.com/47C5B30C-BFFE-437
               together with either
               D3D12_RESOURCE_FLAG_ALLOW_RENDER_TARGET or
               D3D12_RESOURCE_FLAG_ALLOW_DEPTH_STENCIL.
-              (The latter two items are <a href="https://msdn.microsoft.com/EC9DA05A-D0C0-4642-8E49-9ED98B4F19B4">D3D12_RESOURCE_FLAGS</a> enumeration constants.)
+              (The latter two items are <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_flags">D3D12_RESOURCE_FLAGS</a> enumeration constants.)
             </td>
 </tr>
 <tr>
@@ -203,7 +203,7 @@ Adapters that only support <a href="https://msdn.microsoft.com/47C5B30C-BFFE-437
  
 
 <h3><a id="Aliases"></a><a id="aliases"></a><a id="ALIASES"></a>Aliases</h3>
-Adapters that support <a href="https://msdn.microsoft.com/47C5B30C-BFFE-437A-878B-FE49F8EFFD02">heap tier 2</a> or greater are additionally allowed to set none of the above flags.
+Adapters that support <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_heap_tier">heap tier 2</a> or greater are additionally allowed to set none of the above flags.
           Aliases for these flags are available for applications that prefer thinking only of which resources are supported.
         
 
@@ -211,7 +211,7 @@ The following aliases exist, so be careful when doing bit-manipulations:
         
 
 <ul>
-<li>D3D12_HEAP_FLAG_ALLOW_ALL_BUFFERS_AND_TEXTURES = 0 and is only supported on <a href="https://msdn.microsoft.com/47C5B30C-BFFE-437A-878B-FE49F8EFFD02">heap tier 2</a> and greater.
+<li>D3D12_HEAP_FLAG_ALLOW_ALL_BUFFERS_AND_TEXTURES = 0 and is only supported on <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_heap_tier">heap tier 2</a> and greater.
           </li>
 <li>D3D12_HEAP_FLAG_ALLOW_ONLY_BUFFERS = D3D12_HEAP_FLAG_DENY_RT_DS_TEXTURES | D3D12_HEAP_FLAG_DENY_NON_RT_DS_TEXTURES
           </li>
@@ -226,12 +226,12 @@ Displayable heaps are most commonly created by the swapchain for presentation, t
 Displayable heaps are specified with the D3D12_HEAP_FLAG_ALLOW_DISPLAY member of the <b>D3D12_HEAP_FLAGS</b> enum.
 
 Applications may create displayable heaps outside of a swapchain; but cannot actually present with them.
- This flag is not supported by <a href="https://msdn.microsoft.com/DB5DF4B2-4673-4B8D-BDED-9F672A41E7F6">CreateHeap</a> and can only be used with <a href="https://msdn.microsoft.com/FF9E8F11-F2C5-4A96-8E25-140870D15DA9">CreateCommittedResource</a> with D3D12_HEAP_TYPE_DEFAULT. 
+ This flag is not supported by <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createheap">CreateHeap</a> and can only be used with <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommittedresource">CreateCommittedResource</a> with D3D12_HEAP_TYPE_DEFAULT. 
 
-Additional restrictions to the  <a href="https://msdn.microsoft.com/908BCB65-A7C6-473D-81AB-CCCA029AB6F9">D3D12_RESOURCE_DESC</a> apply to the resource created with displayable heaps.
+Additional restrictions to the  <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_resource_desc">D3D12_RESOURCE_DESC</a> apply to the resource created with displayable heaps.
 
 <ul>
-<li>The format must not only be supported by the device, but must be supported for scan-out. Refer to the use of the   D3D12_FORMAT_SUPPORT1_DISPLAY member of <a href="https://msdn.microsoft.com/D987B228-4BC9-4A07-96A0-A518F8F52B06">D3D12_FORMAT_SUPPORT1</a>.</li>
+<li>The format must not only be supported by the device, but must be supported for scan-out. Refer to the use of the   D3D12_FORMAT_SUPPORT1_DISPLAY member of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support1">D3D12_FORMAT_SUPPORT1</a>.</li>
 <li><i>Dimension</i> must be D3D12_RESOURCE_DIMENSION_TEXTURE2D.</li>
 <li><i>Alignment</i> must be 0.</li>
 <li><i>ArraySize</i> may be either 1 or 2.</li>
@@ -249,15 +249,15 @@ flags.</li>
 
 
 
-<a href="https://msdn.microsoft.com/38E0BA60-2BB0-4AC1-870A-10AB16E4C6E6">CD3DX12_HEAP_DESC</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/cd3dx12-heap-desc">CD3DX12_HEAP_DESC</a>
 
 
 
-<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/04D3FACF-21EC-45CA-AD9B-78FDCDDC7136">Descriptor Heaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/descriptor-heaps">Descriptor Heaps</a>
  
 
  

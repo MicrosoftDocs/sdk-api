@@ -119,7 +119,7 @@ The method failed.
 
 
 
-When the filter's profile is locked, the number of streams and their media types are fixed. For more information, see <a href="https://msdn.microsoft.com/9e694cc2-090e-43b1-88c7-77175a930bf1">IStreamBufferSink::LockProfile</a>.
+When the filter's profile is locked, the number of streams and their media types are fixed. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambuffersink-lockprofile">IStreamBufferSink::LockProfile</a>.
 
 
 
@@ -129,7 +129,7 @@ When the filter's profile is locked, the number of streams and their media types
 
 
 
-<a href="https://msdn.microsoft.com/4ae5a9e9-da51-4034-9a2c-22b57374deac">IStreamBufferSink Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambuffersink">IStreamBufferSink Interface</a>
  
 
  

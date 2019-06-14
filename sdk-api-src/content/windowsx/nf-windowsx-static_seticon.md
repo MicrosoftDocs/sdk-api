@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the icon for a static control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760780(v=VS.85).aspx">STM_SETICON</a> message explicitly. 
+Sets the icon for a static control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/stm-seticon">STM_SETICON</a> message explicitly. 
 
 
 
@@ -60,14 +60,14 @@ Sets the icon for a static control. You can use this macro or send the <a href="
 
 ### -param hwndCtl
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
 
 ### -param hIcon
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HICON</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HICON</a></b>
 
 a handle to the icon.
 

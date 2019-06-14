@@ -89,7 +89,7 @@ Error code to map.
 
 
 
-An <a href="https://msdn.microsoft.com/afcc85a1-5aaf-41df-8cd7-b88739b73cf9">MI_ErrorCategory</a> structure that indicates the category of error.
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_errorcategory">MI_ErrorCategory</a> structure that indicates the category of error.
 
 
 
@@ -99,7 +99,7 @@ An <a href="https://msdn.microsoft.com/afcc85a1-5aaf-41df-8cd7-b88739b73cf9">MI_
 
 
 
-<a href="https://msdn.microsoft.com/afcc85a1-5aaf-41df-8cd7-b88739b73cf9">MI_ErrorCategory</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_errorcategory">MI_ErrorCategory</a>
  
 
  

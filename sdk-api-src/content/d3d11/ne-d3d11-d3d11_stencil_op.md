@@ -69,7 +69,7 @@ Set the stencil data to 0.
 
 ### -field D3D11_STENCIL_OP_REPLACE
 
-Set the stencil data to the reference value set by calling <a href="https://msdn.microsoft.com/cd5642c4-8bbe-4b5d-9f04-87de82ee9601">ID3D11DeviceContext::OMSetDepthStencilState</a>.
+Set the stencil data to the reference value set by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-omsetdepthstencilstate">ID3D11DeviceContext::OMSetDepthStencilState</a>.
 
 
 ### -field D3D11_STENCIL_OP_INCR_SAT
@@ -102,7 +102,7 @@ Decrement the stencil value by 1, and wrap the result if necessary.
 
 
 
-<a href="https://msdn.microsoft.com/1641713a-5ac8-4597-900b-1bba54f9f522">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-enums">Core Enumerations</a>
  
 
  

@@ -60,7 +60,7 @@ Gets the trust level of the current Windows Runtime object.
 
 ### -param trustLevel [out]
 
-Type: <b><a href="https://msdn.microsoft.com/75E30E4B-EE5F-41C4-AC22-91D542E920EB">TrustLevel</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/inspectable/ne-inspectable-trustlevel">TrustLevel</a>*</b>
 
 The trust level of the current Windows Runtime object. The default is <b>BaseLevel</b>.
 
@@ -81,11 +81,11 @@ This method always returns <b>S_OK</b>.
 
 
 
-<a href="https://msdn.microsoft.com/DAE4705C-B786-44D4-8B03-1523EFC4C190">IInputPaneInterop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inputpaneinterop/nn-inputpaneinterop-iinputpaneinterop">IInputPaneInterop</a>
 
 
 
-<a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
  
 
  

@@ -94,12 +94,12 @@ The color information at the point of x, y.
 
 
 
-In the <b>TRIVERTEX</b> structure, x and y indicate position in the same manner as in the <a href="https://msdn.microsoft.com/587d36c8-e81c-4256-af25-af2a82727e8d">POINTL</a> structure contained in the wtypes.h header file. <b>Red</b>, <b>Green</b>, <b>Blue</b>, and <b>Alpha</b> members indicate color information at the point x, y. The color information of each channel is specified as a value from 0x0000 to 0xff00. This allows higher color resolution for an object that has been split into small triangles for display. The <b>TRIVERTEX</b> structure contains information needed by the <i>pVertex</i> parameter of <a href="https://msdn.microsoft.com/2f3e23e4-0105-4dcf-89ea-702ec2cf9e21">GradientFill</a>.
+In the <b>TRIVERTEX</b> structure, x and y indicate position in the same manner as in the <a href="https://docs.microsoft.com/previous-versions//dd162807(v=vs.85)">POINTL</a> structure contained in the wtypes.h header file. <b>Red</b>, <b>Green</b>, <b>Blue</b>, and <b>Alpha</b> members indicate color information at the point x, y. The color information of each channel is specified as a value from 0x0000 to 0xff00. This allows higher color resolution for an object that has been split into small triangles for display. The <b>TRIVERTEX</b> structure contains information needed by the <i>pVertex</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gradientfill">GradientFill</a>.
 
 
 #### Examples
 
-For an example of the use of this structure, see <a href="https://msdn.microsoft.com/78834f92-00cb-4899-851a-1de5e3c1f4fa">Drawing a Shaded Triangle</a> or <a href="https://msdn.microsoft.com/a4277e22-03f8-470f-87e9-5aeab258b6d2">Drawing a Shaded Rectangle</a>.
+For an example of the use of this structure, see <a href="https://docs.microsoft.com/windows/desktop/gdi/drawing-a-shaded-triangle">Drawing a Shaded Triangle</a> or <a href="https://docs.microsoft.com/windows/desktop/gdi/drawing-a-shaded-rectangle">Drawing a Shaded Rectangle</a>.
 
 <div class="code"></div>
 
@@ -110,19 +110,19 @@ For an example of the use of this structure, see <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/29f8237f-9c7e-41a7-90b1-5f048fcc74a6">Bitmap Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-structures">Bitmap Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/ff0a5ae3-ae2e-4417-b5e5-0f9871c03964">Bitmaps Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f3e23e4-0105-4dcf-89ea-702ec2cf9e21">GradientFill</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gradientfill">GradientFill</a>
 
 
 
-<a href="https://msdn.microsoft.com/587d36c8-e81c-4256-af25-af2a82727e8d">POINTL</a>
+<a href="https://docs.microsoft.com/previous-versions//dd162807(v=vs.85)">POINTL</a>
  
 
  

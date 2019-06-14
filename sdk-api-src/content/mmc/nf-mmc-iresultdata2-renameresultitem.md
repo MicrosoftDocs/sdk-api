@@ -67,7 +67,7 @@ The result item being placed into rename mode. When applied to virtual lists, pa
 
 
 
-If successful, the return value is S_OK; otherwise, the return value is an error code.  The <a href="https://msdn.microsoft.com/en-us/library/ms687197(v=VS.85).aspx">SUCCEEDED</a> and/or <a href="https://msdn.microsoft.com/en-us/library/ms693474(v=VS.85).aspx">FAILED</a> macros can be used to evaluate the return value. If the Rename verb is not enabled, this method returns E_FAIL.
+If successful, the return value is S_OK; otherwise, the return value is an error code.  The <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and/or <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros can be used to evaluate the return value. If the Rename verb is not enabled, this method returns E_FAIL.
 
 
 
@@ -86,7 +86,7 @@ The item being placed into rename mode must have the Rename verb enabled for thi
 
 
 
-<a href="https://msdn.microsoft.com/ebbdc395-e94f-4e86-965c-59bf7a49bbeb">IConsole3::RenameScopeItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsole3-renamescopeitem">IConsole3::RenameScopeItem</a>
  
 
  

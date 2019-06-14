@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Extends the methods and properties of the <a href="https://msdn.microsoft.com/23fdd9d9-4a78-4c01-8e5d-c8007f39d5d6">IWSManEx</a> interface to include a method that returns a session flag value related to authentication using the Credential Security Support Provider (CredSSP).
+Extends the methods and properties of the <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex">IWSManEx</a> interface to include a method that returns a session flag value related to authentication using the Credential Security Support Provider (CredSSP).
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSManEx3</b> interface inherits from <a href="https://msdn.microsoft.com/23fdd9d9-4a78-4c01-8e5d-c8007f39d5d6">IWSManEx</a>. <b>IWSManEx3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSManEx3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex">IWSManEx</a>. <b>IWSManEx3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWSManEx3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/69c62ad1-319e-4716-a2c7-61b931567244">IWSManEx3::SessionFlagUseCredSsp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex3-sessionflagusecredssp">IWSManEx3::SessionFlagUseCredSsp</a>
 </td>
 <td align="left" width="63%">
 Returns the value of the authentication flag <b>WSManFlagUseCredSsp</b>.
@@ -84,7 +84,7 @@ Returns the value of the authentication flag <b>WSManFlagUseCredSsp</b>.
 
 
 
-<a href="https://msdn.microsoft.com/23fdd9d9-4a78-4c01-8e5d-c8007f39d5d6">IWSManEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex">IWSManEx</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <code>VMR9PresentationFlags</code> enumeration type contains flags that describe the status of a video sample. These flags are used in the <a href="https://msdn.microsoft.com/en-us/library/Dd407371(v=VS.85).aspx">VMR9PresentationInfo</a> structure.
+The <code>VMR9PresentationFlags</code> enumeration type contains flags that describe the status of a video sample. These flags are used in the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ns-vmr9-_vmr9presentationinfo">VMR9PresentationInfo</a> structure.
 
 
 
@@ -90,7 +90,7 @@ Indicates that the time stamp on the sample is valid.
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
  
 
  

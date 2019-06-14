@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>ICSETSTATUSPROC</b> structure contains status information used with the <a href="https://msdn.microsoft.com/a1bcd840-b94b-487e-91d6-67411a8a3a2d">ICM_SET_STATUS_PROC</a> message.
+The <b>ICSETSTATUSPROC</b> structure contains status information used with the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-set-status-proc">ICM_SET_STATUS_PROC</a> message.
 
 
 
@@ -79,7 +79,7 @@ Parameter that contains a constant to pass to the status procedure.
 
 #### - fpfnStatus
 
-Pointer to the status function. Specify <b>NULL</b> if status messages should not be sent. For more information about the callback function, see the <a href="https://msdn.microsoft.com/a24b8a05-71f3-488b-a521-5c43955c5ed2">MyStatusProc</a> function.
+Pointer to the status function. Specify <b>NULL</b> if status messages should not be sent. For more information about the callback function, see the <a href="https://docs.microsoft.com/previous-versions//dd743620(v=vs.85)">MyStatusProc</a> function.
 
 
 ## -see-also
@@ -87,19 +87,19 @@ Pointer to the status function. Specify <b>NULL</b> if status messages should no
 
 
 
-<a href="https://msdn.microsoft.com/a1bcd840-b94b-487e-91d6-67411a8a3a2d">ICM_SET_STATUS_PROC</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-set-status-proc">ICM_SET_STATUS_PROC</a>
 
 
 
-<a href="https://msdn.microsoft.com/a24b8a05-71f3-488b-a521-5c43955c5ed2">MyStatusProc</a>
+<a href="https://docs.microsoft.com/previous-versions//dd743620(v=vs.85)">MyStatusProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/df876309-68d3-43a3-9d83-6fdb8f345fdc">Video Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
 
 
 
-<a href="https://msdn.microsoft.com/129a65a7-cac3-47e0-9e9c-6e5a4a260c73">Video Compression Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>
  
 
  

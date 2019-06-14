@@ -69,7 +69,7 @@ A view identifier.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-View identifiers can be retrieved by using <a href="https://msdn.microsoft.com/fd4d5616-c126-455e-84e7-e62e24daf8f9">IMultipleViewProvider::GetSupportedViews</a>.
+View identifiers can be retrieved by using <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-imultipleviewprovider-getsupportedviews">IMultipleViewProvider::GetSupportedViews</a>.
         
 
 The collection of view identifiers must be identical for all instances of a control.
@@ -94,11 +94,11 @@ The collection of view identifiers must be identical for all instances of a cont
 
 
 
-<a href="https://msdn.microsoft.com/84d370a6-05bd-4efb-a6ca-99e9392f95dc">IMultipleViewProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-imultipleviewprovider">IMultipleViewProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/8928c889-0e0a-439f-87e8-a9d121fcf73f">UI Automation Providers Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns a pointer to an <a href="https://msdn.microsoft.com/8edb99d3-5860-4d78-a750-1df34cdfc313">IQueryAssociations</a> object.
+Returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a> object.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ Reference to the IID IID_IQueryAssociations, which is defined in Shlguid.h.
 
 Type: <b>void*</b>
 
-When this method returns, contains the <a href="https://msdn.microsoft.com/8edb99d3-5860-4d78-a750-1df34cdfc313">IQueryAssociations</a> interface pointer requested in <i>riid</i>.
+When this method returns, contains the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a> interface pointer requested in <i>riid</i>.
 
 
 ## -returns
@@ -95,7 +95,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-As of Windows Vista, <a href="https://msdn.microsoft.com/43257507-dd5e-4622-8445-c132187fd1e5">AssocCreateForClasses</a> is preferred to <b>AssocCreate</b>.
+As of Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-assoccreateforclasses">AssocCreateForClasses</a> is preferred to <b>AssocCreate</b>.
 
 
 

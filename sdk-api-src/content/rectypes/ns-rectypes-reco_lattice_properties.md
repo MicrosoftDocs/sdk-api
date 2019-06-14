@@ -84,19 +84,19 @@ The <i>apProps</i> element contains an array of pointers to properties rather th
 
 
 
-<a href="https://msdn.microsoft.com/5695cae1-2bbf-48d4-a044-b2bd81c362d0">RECO_LATTICE_COLUMN Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-tagreco_lattice_column">RECO_LATTICE_COLUMN Structure</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4100cb9-d666-4e74-ac12-7f242b3c60d4">RECO_LATTICE_ELEMENT Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-tagreco_lattice_element">RECO_LATTICE_ELEMENT Structure</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbf35f4e-cc13-4d5e-886f-22a6f0e26411">RECO_LATTICE_PROPERTY Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-tagreco_lattice_property">RECO_LATTICE_PROPERTY Structure</a>
 
 
 
-<a href="https://msdn.microsoft.com/628ca677-31eb-47d9-bcc6-d7777f8aaf7c">Recognizer Lattice Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/recognizer-lattice-structure">Recognizer Lattice Structure</a>
  
 
  

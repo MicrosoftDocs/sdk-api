@@ -71,9 +71,9 @@ This property is read/write.
 
 The <b>LineHeight</b> property must be in the range of 100 to 50,000 HIMETRIC units.
 
-The <a href="https://msdn.microsoft.com/2c8e67fb-1032-4fcc-b419-82bae978daf8">InkDivider</a> object uses the <b>LineHeight</b> property to help distinguish between drawing and handwriting.
+The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdivider-class">InkDivider</a> object uses the <b>LineHeight</b> property to help distinguish between drawing and handwriting.
 
-Setting the <b>LineHeight</b> property after strokes have been assigned to the <a href="https://msdn.microsoft.com/2c8e67fb-1032-4fcc-b419-82bae978daf8">InkDivider</a> object generates an error.
+Setting the <b>LineHeight</b> property after strokes have been assigned to the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdivider-class">InkDivider</a> object generates an error.
 
 
 
@@ -87,11 +87,11 @@ Setting the <b>LineHeight</b> property after strokes have been assigned to the <
 
 
 
-<a href="https://msdn.microsoft.com/2c8e67fb-1032-4fcc-b419-82bae978daf8">InkDivider Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdivider-class">InkDivider Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/611ccce9-7acb-4138-9655-938efcaa4c75">Strokes Property [InkDivider Class]</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivider-get_strokes">Strokes Property [InkDivider Class]</a>
  
 
  

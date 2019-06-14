@@ -86,7 +86,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The string retrieved by this method is determined by flags set in the <i>sortDescription</i> attribute of the <a href="https://msdn.microsoft.com/en-us/library/Bb773876(v=VS.85).aspx">labelInfo</a> element in the property's .propdesc file.
+The string retrieved by this method is determined by flags set in the <i>sortDescription</i> attribute of the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-labelinfo">labelInfo</a> element in the property's .propdesc file.
 
 It is the responsibility of the calling application to release <i>ppszDescription</i> when it is no longer needed.
 
@@ -98,11 +98,11 @@ It is the responsibility of the calling application to release <i>ppszDescriptio
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
 
 
 
-<a href="https://msdn.microsoft.com/cac93c31-d90d-4116-b846-0cf593d1d56e">Property Description Schema</a>
+<a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
  
 
  

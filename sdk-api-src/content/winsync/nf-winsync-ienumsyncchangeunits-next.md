@@ -130,7 +130,7 @@ This method currently only supports retrieval of a single change unit. Therefore
 
 
 
-<a href="https://msdn.microsoft.com/77c1ef9a-9b76-433d-9654-fefb195a0f59">IEnumSyncChangeUnits Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumsyncchangeunits">IEnumSyncChangeUnits Interface</a>
  
 
  

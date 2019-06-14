@@ -61,7 +61,7 @@ The system calls the
 ### -param bstrNewExternalIPAddress [in]
 
 Specifies a 
-<a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a> variable that contains the new external IP address.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a> variable that contains the new external IP address.
 
 
 ## -returns
@@ -185,19 +185,19 @@ One reason why the external IP address of the NAT computer could change would be
 
 
 
-<a href="https://msdn.microsoft.com/5bc3e19c-3015-44fb-87a9-645e11283643">INATEventManager::put_ExternalIPAddressCallback</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nf-natupnp-inateventmanager-put_externalipaddresscallback">INATEventManager::put_ExternalIPAddressCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/f180f597-680b-47ce-b437-3395069a8c77">INATExternalIPAddressCallback</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nn-natupnp-inatexternalipaddresscallback">INATExternalIPAddressCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf14d633-4b91-4570-b4c9-fd524923914a">Network Address Translation Traversal Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-interfaces">Network Address Translation Traversal Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/49c5642e-346f-488d-92fb-ae214eb41b4f">Network Address Translation Traversal Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>
  
 
  

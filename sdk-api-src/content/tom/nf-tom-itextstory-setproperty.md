@@ -75,7 +75,7 @@ The new property value.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -87,11 +87,11 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-<a href="https://msdn.microsoft.com/8b52c6e8-c250-4cfb-979e-770df9f94010">ITextStory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextstory">ITextStory</a>
 
 
 
-<a href="https://msdn.microsoft.com/1c24e9d8-c737-42f8-87d9-585b0054b6df">ITextStory::GetProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextstory-getproperty">ITextStory::GetProperty</a>
  
 
  

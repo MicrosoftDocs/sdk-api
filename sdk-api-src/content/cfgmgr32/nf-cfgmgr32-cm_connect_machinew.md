@@ -88,9 +88,9 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-Callers of <b>CM_Connect_Machine</b> must call <a href="https://msdn.microsoft.com/8318eb7e-f0fa-4b2a-b82d-e8f830665c9d">CM_Disconnect_Machine</a> to deallocate the machine handle, after it is no longer needed.
+Callers of <b>CM_Connect_Machine</b> must call <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_disconnect_machine">CM_Disconnect_Machine</a> to deallocate the machine handle, after it is no longer needed.
 
-Use machine handles obtained with this function only with the <a href="https://msdn.microsoft.com/07e4b970-3105-440a-811a-8863ff21f9b6">PnP configuration manager functions</a>.
+Use machine handles obtained with this function only with the <a href="https://docs.microsoft.com/previous-versions//ff549713(v=vs.85)">PnP configuration manager functions</a>.
 
  Functionality to access remote machines has been removed in Windows 8 and Windows Server 2012 and later operating systems thus you cannot access remote machines when running on these versions of Windows.
 
@@ -102,7 +102,7 @@ Use machine handles obtained with this function only with the <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/8318eb7e-f0fa-4b2a-b82d-e8f830665c9d">CM_Disconnect_Machine</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_disconnect_machine">CM_Disconnect_Machine</a>
  
 
  

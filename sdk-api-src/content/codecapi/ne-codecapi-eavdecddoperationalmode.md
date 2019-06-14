@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Specifies the compression control mode for a Dolby AC-3 audio stream. This enumeration is used with the <a href="https://msdn.microsoft.com/c235f28e-94b2-44ec-9915-c4161b40a71c">AVDecDDOperationalMode</a> property.
+Specifies the compression control mode for a Dolby AC-3 audio stream. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avdecddoperationalmode-property">AVDecDDOperationalMode</a> property.
 
 
 
@@ -67,7 +67,7 @@ No dynamic range control or dialogue normalization (dialnorm). This mode should 
 
 ### -field eAVDecDDOperationalMode_LINE
 
-Line mode. Dialnorm is enabled with a reference level of -31 decibels full scale (dBFS). Dynamic range control is applied, and high-level/low-level scaling is enabled. To set the high-level scaling factor, set the <a href="https://msdn.microsoft.com/8771a5f9-878b-43fd-8eaa-0bfc276194aa">AVDecDDDynamicRangeScaleHigh</a> property. To set the low-level scaling factor, set the <a href="https://msdn.microsoft.com/d723c825-f2f1-4ba0-a667-8285009764fd">AVDecDDDynamicRangeScaleLow</a> property.
+Line mode. Dialnorm is enabled with a reference level of -31 decibels full scale (dBFS). Dynamic range control is applied, and high-level/low-level scaling is enabled. To set the high-level scaling factor, set the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avdecdddynamicrangescalehigh-property">AVDecDDDynamicRangeScaleHigh</a> property. To set the low-level scaling factor, set the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avdecdddynamicrangescalelow-property">AVDecDDDynamicRangeScaleLow</a> property.
 
 
 ### -field eAVDecDDOperationalMode_RF
@@ -105,11 +105,11 @@ Dialnorm enabled, dialogue at -14dBFS. Dynamic range and compression used. High-
 
 
 
-<a href="https://msdn.microsoft.com/5d6e48cb-d181-448e-a96e-e5ab500427d7">Codec API Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
  
 
  

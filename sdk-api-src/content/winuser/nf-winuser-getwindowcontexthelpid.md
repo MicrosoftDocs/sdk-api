@@ -80,7 +80,7 @@ Returns the Help context identifier if the window has one, or zero otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/7e0963d1-5807-4db5-9abf-cdb21a03b525">SetWindowContextHelpId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowcontexthelpid">SetWindowContextHelpId</a>
  
 
  

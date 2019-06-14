@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>AuthzCachedAccessCheck</b> function performs a fast access check based on a cached handle containing the static granted bits from a previous 
-<a href="https://msdn.microsoft.com/633c2a73-169c-4e0c-abb6-96c360bd63cf">AuthzAccessCheck</a> call.
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzaccesscheck">AuthzAccessCheck</a> call.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A handle to the cached access check results.
 
 ### -param pRequest [in]
 
-Access request handle specifying the desired <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access mask</a>, principal self <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">SID</a>, and the object type list structure (if any).
+Access request handle specifying the desired <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access mask</a>, principal self <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">SID</a>, and the object type list structure (if any).
 
 
 ### -param hAuditEvent [in]
@@ -81,7 +81,7 @@ A structure that contains object-specific audit information. When the value of t
 ### -param pReply [out]
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/7162bf80-3730-46d7-a603-2a55b969c9ba">AUTHZ_ACCESS_REPLY</a> handle that returns the results of access check as an array of GrantedAccessMask/ErrorValue pairs. The number of pairs returned is supplied by the caller in the <b>ResultListLength</b> member of the <b>AUTHZ_ACCESS_REPLY</b> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_access_reply">AUTHZ_ACCESS_REPLY</a> handle that returns the results of access check as an array of GrantedAccessMask/ErrorValue pairs. The number of pairs returned is supplied by the caller in the <b>ResultListLength</b> member of the <b>AUTHZ_ACCESS_REPLY</b> structure.
 
 
 ## -returns
@@ -91,7 +91,7 @@ A pointer to an
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 Expected values of the Error members of array elements returned are shown in the following table.
 
@@ -158,11 +158,11 @@ The client context pointer is stored in the <i>AuthzHandle</i> parameter. The st
 <li>RestrictedSids</li>
 <li>Privileges</li>
 </ul>
-Pointers to the primary <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security descriptor</a> and the optional security descriptor array are stored in <i>AuthzHandle</i> at the time of handle creation. These pointers must still be valid. 
+Pointers to the primary <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> and the optional security descriptor array are stored in <i>AuthzHandle</i> at the time of handle creation. These pointers must still be valid. 
 
-The <b>AuthzCachedAccessCheck</b> function maintains a cache as a result of evaluating Central Access Policies (CAP) on objects unless CAPs are ignored, for example when the AUTHZ_RM_FLAG_NO_CENTRAL_ACCESS_POLICIES flag is used. The client may call the <a href="https://msdn.microsoft.com/0F972A95-3CD7-4C86-99DE-5B3D50CE9A34">AuthzFreeCentralAccessPolicyCache</a> function to free up this cache. Note that this requires a subsequent call to <b>AuthzCachedAccessCheck</b> to rebuild the cache if necessary. 
+The <b>AuthzCachedAccessCheck</b> function maintains a cache as a result of evaluating Central Access Policies (CAP) on objects unless CAPs are ignored, for example when the AUTHZ_RM_FLAG_NO_CENTRAL_ACCESS_POLICIES flag is used. The client may call the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzfreecentralaccesspolicycache">AuthzFreeCentralAccessPolicyCache</a> function to free up this cache. Note that this requires a subsequent call to <b>AuthzCachedAccessCheck</b> to rebuild the cache if necessary. 
 
-For more information, see the <a href="https://msdn.microsoft.com/dc98b23e-ce42-4d4a-a285-c0b7b5e2a478">How AccessCheck Works</a> and <a href="https://msdn.microsoft.com/5A06B8D8-F14B-4D9E-9ED6-4246A26BF945">Centralized Authorization Policy</a> overviews.
+For more information, see the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/how-dacls-control-access-to-an-object">How AccessCheck Works</a> and <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/centralized-authorization-policy">Centralized Authorization Policy</a> overviews.
 
 
 
@@ -172,31 +172,31 @@ For more information, see the <a href="https://msdn.microsoft.com/dc98b23e-ce42-
 
 
 
-<a href="https://msdn.microsoft.com/7162bf80-3730-46d7-a603-2a55b969c9ba">AUTHZ_ACCESS_REPLY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_access_reply">AUTHZ_ACCESS_REPLY</a>
 
 
 
-<a href="https://msdn.microsoft.com/633c2a73-169c-4e0c-abb6-96c360bd63cf">AuthzAccessCheck</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzaccesscheck">AuthzAccessCheck</a>
 
 
 
-<a href="https://msdn.microsoft.com/0F972A95-3CD7-4C86-99DE-5B3D50CE9A34">AuthzFreeCentralAccessPolicyCache</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzfreecentralaccesspolicycache">AuthzFreeCentralAccessPolicyCache</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3f6b37d-2c33-4b17-97b4-762bf55561c5">AuthzInitializeResourceManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzinitializeresourcemanager">AuthzInitializeResourceManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/5A06B8D8-F14B-4D9E-9ED6-4246A26BF945">Centralized Authorization Policy</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/centralized-authorization-policy">Centralized Authorization Policy</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc98b23e-ce42-4d4a-a285-c0b7b5e2a478">How AccessCheck Works</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/how-dacls-control-access-to-an-object">How AccessCheck Works</a>
  
 
  

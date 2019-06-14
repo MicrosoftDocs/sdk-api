@@ -65,7 +65,7 @@ This property is read/write.
 
 
 
-This property has meaning only if the <a href="https://msdn.microsoft.com/en-us/library/ms686899(v=VS.85).aspx">ReceiptType</a> property for the document is set to <a href="https://msdn.microsoft.com/en-us/library/ms688004(v=VS.85).aspx">frtMail</a>, indicating that the delivery receipt will be sent by email.
+This property has meaning only if the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument-receipttype-vb">ReceiptType</a> property for the document is set to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_receipt_type_enum">frtMail</a>, indicating that the delivery receipt will be sent by email.
 
 
 
@@ -75,15 +75,15 @@ This property has meaning only if the <a href="https://msdn.microsoft.com/en-us/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685958(v=VS.85).aspx">FaxDocument</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument">FaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685960(v=VS.85).aspx">IFaxDocument</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdocument">IFaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692936(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>
  
 
  

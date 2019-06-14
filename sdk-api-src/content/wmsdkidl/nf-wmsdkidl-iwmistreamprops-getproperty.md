@@ -108,7 +108,7 @@ Pointer to a <b>null</b>-terminated string containing the name of the property t
 
 ### -param pType [out]
 
-Pointer to a variable that will receive one member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757834(v=VS.85).aspx">WMT_ATTR_DATATYPE</a> enumeration type. This value indicates the type of data in the buffer at <i>pValue</i>.
+Pointer to a variable that will receive one member of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a> enumeration type. This value indicates the type of data in the buffer at <i>pValue</i>.
 
 
 ### -param pValue [out]
@@ -189,7 +189,7 @@ You should make two calls to <b>GetProperty</b> for each property you want to re
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757212(v=VS.85).aspx">IWMIStreamProps Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmistreamprops">IWMIStreamProps Interface</a>
  
 
  

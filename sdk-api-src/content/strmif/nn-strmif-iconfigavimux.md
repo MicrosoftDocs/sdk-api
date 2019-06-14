@@ -51,16 +51,16 @@ ms.custom: 19H1
 
 
 
-The <code>IConfigAviMux</code> interface configures the <a href="https://msdn.microsoft.com/31d30c91-fc6a-45ec-a2e0-34e6a1e902a4">AVI Mux</a> filter. Applications can use this interface to set the master stream and to create an AVI 1.0 index.
+The <code>IConfigAviMux</code> interface configures the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avi-mux-filter">AVI Mux</a> filter. Applications can use this interface to set the master stream and to create an AVI 1.0 index.
 
-<code>IConfigAviMux</code> provides backward compatibility with older Video for Windows (VFW) Audio-Video Interleaved (AVI) index formats (idx1) as well as extended AVI 2.0 index formats (indx) to allow for file sizes greater than 1 gigabyte (GB). Set and retrieve the compatibility indexes by using the <a href="https://msdn.microsoft.com/3b9793e6-e5f4-432f-95f6-62053b955348">IConfigAviMux::SetOutputCompatibilityIndex</a> and <a href="https://msdn.microsoft.com/723f1662-4f1a-408b-a737-9095e7c14c4f">IConfigAviMux::GetOutputCompatibilityIndex</a> methods.
+<code>IConfigAviMux</code> provides backward compatibility with older Video for Windows (VFW) Audio-Video Interleaved (AVI) index formats (idx1) as well as extended AVI 2.0 index formats (indx) to allow for file sizes greater than 1 gigabyte (GB). Set and retrieve the compatibility indexes by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/nf-strmif-iconfigavimux-setoutputcompatibilityindex">IConfigAviMux::SetOutputCompatibilityIndex</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/nf-strmif-iconfigavimux-getoutputcompatibilityindex">IConfigAviMux::GetOutputCompatibilityIndex</a> methods.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConfigAviMux</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IConfigAviMux</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConfigAviMux</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IConfigAviMux</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IConfigAviMux</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2085a510-16d5-4a82-b372-824026203ef6">GetMasterStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iconfigavimux-getmasterstream">GetMasterStream</a>
 </td>
 <td align="left" width="63%">
 Queries which stream will be used to synchronize the other streams in the file.
@@ -84,7 +84,7 @@ Queries which stream will be used to synchronize the other streams in the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/723f1662-4f1a-408b-a737-9095e7c14c4f">GetOutputCompatibilityIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/nf-strmif-iconfigavimux-getoutputcompatibilityindex">GetOutputCompatibilityIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves the setting for the AVI index format.
@@ -93,7 +93,7 @@ Retrieves the setting for the AVI index format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1f255498-8bbb-48a0-ae97-0cf2698e609b">SetMasterStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iconfigavimux-setmasterstream">SetMasterStream</a>
 </td>
 <td align="left" width="63%">
 Specifies a stream that will be used to synchronize the other streams in the file.
@@ -102,7 +102,7 @@ Specifies a stream that will be used to synchronize the other streams in the fil
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3b9793e6-e5f4-432f-95f6-62053b955348">SetOutputCompatibilityIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/nf-strmif-iconfigavimux-setoutputcompatibilityindex">SetOutputCompatibilityIndex</a>
 </td>
 <td align="left" width="63%">
 Sets the AVI index format.

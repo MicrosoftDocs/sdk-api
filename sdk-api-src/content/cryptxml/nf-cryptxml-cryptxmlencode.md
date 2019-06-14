@@ -64,14 +64,14 @@ The handle of the object to be serialized. The handle can be of <b>Signature</b>
 
 ### -param dwCharset
 
-A value of the <a href="https://msdn.microsoft.com/3f115ac1-a8ed-4151-b3f3-7ddb695802a0">CRYPT_XML_CHARSET</a> enumeration that specifies the character set of the encoded XML.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ne-cryptxml-crypt_xml_charset">CRYPT_XML_CHARSET</a> enumeration that specifies the character set of the encoded XML.
 
 
 
 
 ### -param rgProperty [in]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/287c205a-56ba-40ae-a664-9bccef2e9655">CRYPT_XML_PROPERTY</a> structures that contain additional properties.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_property">CRYPT_XML_PROPERTY</a> structures that contain additional properties.
 
 
 ### -param cProperty [in]

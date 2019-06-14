@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Closes a notification port established through  <a href="https://msdn.microsoft.com/90e85f5d-54b4-48a5-bb5b-e46eb14781bb">CreateClusterNotifyPort</a>. The <b>PCLUSAPI_CLOSE_CLUSTER_NOTIFY_PORT</b> type defines a pointer to this function.
+Closes a notification port established through  <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createclusternotifyport">CreateClusterNotifyPort</a>. The <b>PCLUSAPI_CLOSE_CLUSTER_NOTIFY_PORT</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -78,15 +78,15 @@ This function always returns <b>TRUE</b>.
 
 
 
-<a href="https://msdn.microsoft.com/90e85f5d-54b4-48a5-bb5b-e46eb14781bb">CreateClusterNotifyPort</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createclusternotifyport">CreateClusterNotifyPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/9f650e2e-0651-4d1c-9314-b83f4f805f04">GetClusterNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusternotify">GetClusterNotify</a>
 
 
 
-<a href="https://msdn.microsoft.com/ddf0e01c-08e9-4e32-b012-76c8a41037a7">RegisterClusterNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-registerclusternotify">RegisterClusterNotify</a>
  
 
  

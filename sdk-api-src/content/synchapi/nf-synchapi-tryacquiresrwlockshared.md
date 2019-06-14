@@ -84,15 +84,15 @@ if the current thread could not acquire the lock, the return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/86e6d915-c25d-4aee-9ec6-acb970da7069">AcquireSRWLockShared</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-acquiresrwlockshared">AcquireSRWLockShared</a>
 
 
 
-<a href="https://msdn.microsoft.com/2d439b21-291f-4ff0-910a-c1c27e800019">Slim Reader/Writer (SRW) Locks</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/slim-reader-writer--srw--locks">Slim Reader/Writer (SRW) Locks</a>
 
 
 
-<a href="https://msdn.microsoft.com/0de41cb0-5b37-4ac7-9ba2-e9e3d69e34af">TryAcquireSRWLockExclusive</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-tryacquiresrwlockexclusive">TryAcquireSRWLockExclusive</a>
  
 
  

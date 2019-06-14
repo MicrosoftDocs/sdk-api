@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ICategoryCollection</b> interface represents an ordered read-only list of <a href="https://msdn.microsoft.com/1ae4ab27-97f3-494b-acd2-991dccf56011">ICategory</a> interfaces.
+The <b>ICategoryCollection</b> interface represents an ordered read-only list of <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-icategory">ICategory</a> interfaces.
 
 
 ## -see-also
@@ -57,7 +57,7 @@ The <b>ICategoryCollection</b> interface represents an ordered read-only list of
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

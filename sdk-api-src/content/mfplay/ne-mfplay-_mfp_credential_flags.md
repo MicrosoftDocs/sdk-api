@@ -50,13 +50,13 @@ ms.custom: 19H1
 
 
 
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://msdn.microsoft.com/dac99908-be90-415d-8837-2f97d573feb5">Media Session</a> for playback.</div>
+<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
 <div> </div>
 
 
-Contains flags for the <a href="https://msdn.microsoft.com/61767b81-8641-43d5-b272-148d52517727">MFP_ACQUIRE_USER_CREDENTIAL_EVENT</a> structure.
+Contains flags for the <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/ns-mfplay-mfp_acquire_user_credential_event">MFP_ACQUIRE_USER_CREDENTIAL_EVENT</a> structure.
 
-Some of these flags, marked [out], convey information back to the MFPlay player object. The application should set or clear these flags as appropriate, before returning from the <a href="https://msdn.microsoft.com/2a80a9d0-83ee-4bb0-ab2c-0f68367f3bf8">IMFPMediaPlayerCallback::OnMediaPlayerEvent</a> callback method.
+Some of these flags, marked [out], convey information back to the MFPlay player object. The application should set or clear these flags as appropriate, before returning from the <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayercallback-onmediaplayerevent">IMFPMediaPlayerCallback::OnMediaPlayerEvent</a> callback method.
 
 
 ## -enum-fields
@@ -109,7 +109,7 @@ The authentication scheme supports authentication of the user who is currently l
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

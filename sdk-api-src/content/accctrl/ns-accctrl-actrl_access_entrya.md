@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
- Contains access-control information for a specified trustee. This structure stores information equivalent to the access-control information stored in an <a href="https://msdn.microsoft.com/980b8242-2ba2-469f-b834-da7d3fb22e14">ACE</a>.
+ Contains access-control information for a specified trustee. This structure stores information equivalent to the access-control information stored in an <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/ace">ACE</a>.
 
 
 
@@ -62,12 +62,12 @@ ms.custom: 19H1
 
 ### -field Trustee
 
-A <a href="https://msdn.microsoft.com/120e93eb-680f-4f86-879d-bc2de10d4641">TRUSTEE</a> structure that identifies the user, group, or program (such as a service) to which the access-control entry applies.
+A <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a> structure that identifies the user, group, or program (such as a service) to which the access-control entry applies.
 
 
 ### -field fAccessFlags
 
-Indicates how the access rights specified by the <b>Access</b> and <b>ProvSpecificAccess</b> members apply to the trustee. This member can be one of the following values. If you are using this structure with the COM implementation of <a href="https://msdn.microsoft.com/f7f19a9d-27ed-479f-b5d4-562cab5be12a">IAccessControl</a>, this member must be ACTRL_ACCESS_ALLOWED or ACTRL_ACCESS_DENIED. 
+Indicates how the access rights specified by the <b>Access</b> and <b>ProvSpecificAccess</b> members apply to the trustee. This member can be one of the following values. If you are using this structure with the COM implementation of <a href="https://docs.microsoft.com/windows/desktop/api/iaccess/nn-iaccess-iaccesscontrol">IAccessControl</a>, this member must be ACTRL_ACCESS_ALLOWED or ACTRL_ACCESS_DENIED. 
 
 <table>
 <tr>
@@ -128,7 +128,7 @@ A bitmask that specifies the access rights that the entry allows, denies, or aud
 
 This member must use the provider-independent access flags, such as ACTRL_READ_CONTROL, rather than access flags such as READ_CONTROL. The provider for the object type converts these provider-independent flags to the corresponding provider-specific flags.
 
-If you are using this structure with the COM implementation of <a href="https://msdn.microsoft.com/f7f19a9d-27ed-479f-b5d4-562cab5be12a">IAccessControl</a>, this member must be COM_RIGHTS_EXECUTE.
+If you are using this structure with the COM implementation of <a href="https://docs.microsoft.com/windows/desktop/api/iaccess/nn-iaccess-iaccesscontrol">IAccessControl</a>, this member must be COM_RIGHTS_EXECUTE.
 
 <a id="ACTRL_SYSTEM_ACCESS"></a>
 <a id="actrl_system_access"></a>
@@ -216,7 +216,7 @@ A bitmask that specifies access rights specific to the provider type. The functi
 
 ### -field Inheritance
 
-A set of bit flags that determines whether other containers or objects can inherit the access-control entry from the primary object to which the access list is attached. If you are using this structure with the COM implementation of <a href="https://msdn.microsoft.com/f7f19a9d-27ed-479f-b5d4-562cab5be12a">IAccessControl</a>, this value must be NO_INHERITANCE, which indicates that the access-control entry is not inheritable. Otherwise, this value can be NO_INHERITANCE or it can be a combination of the following values.
+A set of bit flags that determines whether other containers or objects can inherit the access-control entry from the primary object to which the access list is attached. If you are using this structure with the COM implementation of <a href="https://docs.microsoft.com/windows/desktop/api/iaccess/nn-iaccess-iaccesscontrol">IAccessControl</a>, this value must be NO_INHERITANCE, which indicates that the access-control entry is not inheritable. Otherwise, this value can be NO_INHERITANCE or it can be a combination of the following values.
 
 <table>
 <tr>
@@ -312,7 +312,7 @@ Noncontainer objects contained by the primary object inherit the entry. This fla
 
 ### -field lpInheritProperty
 
-A pointer to a null-terminated string that identifies the object types that can inherit the entry. If you are using this structure with the COM implementation of <a href="https://msdn.microsoft.com/f7f19a9d-27ed-479f-b5d4-562cab5be12a">IAccessControl</a>, this member must be <b>NULL</b>. 
+A pointer to a null-terminated string that identifies the object types that can inherit the entry. If you are using this structure with the COM implementation of <a href="https://docs.microsoft.com/windows/desktop/api/iaccess/nn-iaccess-iaccesscontrol">IAccessControl</a>, this member must be <b>NULL</b>. 
 
 
 
@@ -321,11 +321,11 @@ A pointer to a null-terminated string that identifies the object types that can 
 
 
 
-<a href="https://msdn.microsoft.com/d0e71756-0247-4c6b-b8b5-a343121b7406">ACTRL_ACCESS_ENTRY_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_actrl_access_entry_lista">ACTRL_ACCESS_ENTRY_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/120e93eb-680f-4f86-879d-bc2de10d4641">TRUSTEE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a>
  
 
  

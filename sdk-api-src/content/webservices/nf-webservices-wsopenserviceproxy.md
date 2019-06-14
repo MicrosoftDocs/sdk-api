@@ -53,7 +53,7 @@ Opens a Service Proxy to a Service endpoint.
             
 
 On success client applications can make calls using the Service Proxy. 
-            The behavior of WsOpenServiceProxy is governed by the  <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">channel binding</a> used. 
+            The behavior of WsOpenServiceProxy is governed by the  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">channel binding</a> used. 
 
 
 ## -parameters
@@ -63,7 +63,7 @@ On success client applications can make calls using the Service Proxy.
 
 ### -param serviceProxy [in]
 
-A pointer to the <b>Service Proxy</b> to open.  The pointer must reference a valid <a href="https://msdn.microsoft.com/623766ae-fe82-40f9-93c8-e78fe48bc6d1">WS_SERVICE_PROXY</a> object
+A pointer to the <b>Service Proxy</b> to open.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-service-proxy">WS_SERVICE_PROXY</a> object
                     and the referenced value may not be <b>NULL</b>.
                 
 
@@ -80,7 +80,7 @@ A pointer  to A WS_ASYNC_CONTEXT object that has information about how to invoke
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 

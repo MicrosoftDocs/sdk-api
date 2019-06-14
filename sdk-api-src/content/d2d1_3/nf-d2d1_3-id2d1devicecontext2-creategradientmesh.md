@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a new <a href="https://msdn.microsoft.com/0c51da97-7b70-d828-2a4d-cb62ff378a56">ID2D1GradientMesh</a> instance using the given array of patches.
+Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1gradientmesh">ID2D1GradientMesh</a> instance using the given array of patches.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Creates a new <a href="https://msdn.microsoft.com/0c51da97-7b70-d828-2a4d-cb62ff
 
 ### -param patches [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/16d1ef03-f0c9-7414-d54d-9513199272aa">D2D1_GRADIENT_MESH_PATCH</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/ns-d2d1_3-d2d1_gradient_mesh_patch">D2D1_GRADIENT_MESH_PATCH</a>*</b>
 
 A pointer to the array containing the patches to be used in this mesh.
 
@@ -73,7 +73,7 @@ The number of patches in the patches argument to read.
 
 ### -param gradientMesh [out]
 
-Type: <b><a href="https://msdn.microsoft.com/0c51da97-7b70-d828-2a4d-cb62ff378a56">ID2D1GradientMesh</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1gradientmesh">ID2D1GradientMesh</a>**</b>
 
 When this method returns, contains the address of a pointer to the new gradient mesh.
 
@@ -82,7 +82,7 @@ When this method returns, contains the address of a pointer to the new gradient 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 S_OK if successful, otherwise a failure HRESULT.
 
@@ -94,7 +94,7 @@ S_OK if successful, otherwise a failure HRESULT.
 
 
 
-<a href="https://msdn.microsoft.com/25c11cfc-75af-20a1-8f54-6b370942b841">ID2D1DeviceContext2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext2">ID2D1DeviceContext2</a>
  
 
  

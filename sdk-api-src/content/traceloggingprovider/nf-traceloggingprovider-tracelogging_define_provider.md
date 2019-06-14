@@ -59,7 +59,7 @@ Allocates storage for a TraceLogging provider and creates a handle to the provid
 
 ### -param handleVariable [in]
 
-A handle to a TraceLogging provider (TraceLoggingHProvider) created using <a href="https://msdn.microsoft.com/E9C0B622-77A5-498F-BB28-C6C181271276">TRACELOGGING_DECLARE_PROVIDER</a>.
+A handle to a TraceLogging provider (TraceLoggingHProvider) created using <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-tracelogging_declare_provider">TRACELOGGING_DECLARE_PROVIDER</a>.
 
 
 ### -param providerName [in]
@@ -81,9 +81,9 @@ The GUID of the provider group that this provider is a member of.
 
 
 
-Before using this macro, you need to declare your TraceLogging provider using <a href="https://msdn.microsoft.com/E9C0B622-77A5-498F-BB28-C6C181271276">TRACELOGGING_DECLARE_PROVIDER</a>. Once the provider is created, it is in the unregistered state. Before it can respond to any write calls, you need to register the provider using  <a href="https://msdn.microsoft.com/en-us/library/Dn904610(v=VS.85).aspx">TraceLoggingRegister</a>.
+Before using this macro, you need to declare your TraceLogging provider using <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-tracelogging_declare_provider">TRACELOGGING_DECLARE_PROVIDER</a>. Once the provider is created, it is in the unregistered state. Before it can respond to any write calls, you need to register the provider using  <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-traceloggingregister">TraceLoggingRegister</a>.
 
-Use the <a href="https://msdn.microsoft.com/5D794C46-95B2-4111-AFB8-CE488B4D1A42">TraceLoggingOptionGroup</a> macro to  specify the GUID of the provider group that the provider belongs to. A provider can be a member of no
+Use the <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-traceloggingoptiongroup">TraceLoggingOptionGroup</a> macro to  specify the GUID of the provider group that the provider belongs to. A provider can be a member of no
 more than one group. The semantics of group membership are determined by
 the ETW controllers that subscribe a session to a group.
 

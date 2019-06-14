@@ -85,7 +85,7 @@ Specifies the apartment type of the thread to be initialized.
 
 
 <b>Windows::Foundation::Initialize</b> is changed to create 
-    ASTAs instead of classic STAs for the <a href="https://msdn.microsoft.com/961ABFEB-E11F-4405-A021-F3756A79AF18">RO_INIT_TYPE</a> 
+    ASTAs instead of classic STAs for the <a href="https://docs.microsoft.com/windows/desktop/api/roapi/ne-roapi-ro_init_type">RO_INIT_TYPE</a> 
     value <b>RO_INIT_SINGLETHREADED</b>. 
     <b>Windows::Foundation::Initialize</b>(<b>RO_INIT_SINGLETHREADED</b>) 
     is not supported for desktop applications and will return <b>CO_E_NOTSUPPORTED</b> if called 
@@ -105,7 +105,7 @@ For an out-of-process EXE server,  you must initialize the initial thread of the
 
 
 
-<a href="https://msdn.microsoft.com/961ABFEB-E11F-4405-A021-F3756A79AF18">RO_INIT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/roapi/ne-roapi-ro_init_type">RO_INIT_TYPE</a>
  
 
  

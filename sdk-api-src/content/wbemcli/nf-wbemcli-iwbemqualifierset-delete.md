@@ -80,7 +80,7 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 
 
 
-<a href="https://msdn.microsoft.com/6a0769ac-e16c-45e1-92b6-26e4969bf23d">Qualifier Flavors</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a>
  
 
  

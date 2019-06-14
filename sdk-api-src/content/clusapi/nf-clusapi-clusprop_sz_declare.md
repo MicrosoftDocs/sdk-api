@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Creates a 
-    <a href="https://msdn.microsoft.com/f991ac6f-5272-44ee-a035-c9501bf7d866">CLUSPROP_SZ</a> structure with the <b>sz</b> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa368390(v=vs.85)">CLUSPROP_SZ</a> structure with the <b>sz</b> 
     member set to a size determined by the caller.
 
 
@@ -61,7 +61,7 @@ Creates a
 
 ### -param name
 
-Name of the <a href="https://msdn.microsoft.com/f991ac6f-5272-44ee-a035-c9501bf7d866">CLUSPROP_SZ</a> structure to be 
+Name of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa368390(v=vs.85)">CLUSPROP_SZ</a> structure to be 
       created.
 
 
@@ -108,7 +108,7 @@ StringCbCopy( NameValue.sz, NameValue.cbLength, szNameData );
 
 
 
-<a href="https://msdn.microsoft.com/f991ac6f-5272-44ee-a035-c9501bf7d866">CLUSPROP_SZ</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa368390(v=vs.85)">CLUSPROP_SZ</a>
  
 
  

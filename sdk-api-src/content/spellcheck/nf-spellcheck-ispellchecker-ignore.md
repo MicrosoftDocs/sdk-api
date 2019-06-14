@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Ignores the provided word for the rest of this session.
 
-Until this <a href="https://msdn.microsoft.com/3cc5f675-048d-4ef3-9b66-5f081ee17a18">ISpellChecker</a> interface is released, the word  will no longer be considered misspelled, but it will not be considered as a candidate for suggestions.
+Until this <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker">ISpellChecker</a> interface is released, the word  will no longer be considered misspelled, but it will not be considered as a candidate for suggestions.
 
 
 ## -parameters
@@ -119,7 +119,7 @@ Successful.
 
 
 
-<a href="https://msdn.microsoft.com/3cc5f675-048d-4ef3-9b66-5f081ee17a18">ISpellChecker</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker">ISpellChecker</a>
  
 
  

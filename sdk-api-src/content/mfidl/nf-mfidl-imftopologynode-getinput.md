@@ -68,7 +68,7 @@ Zero-based index of an input stream on this node.
 
 ### -param ppUpstreamNode [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/01d7eb7c-a3d3-4924-a8ec-a67e9dc17424">IMFTopologyNode</a> interface of the node that is connected to the specified input stream. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a> interface of the node that is connected to the specified input stream. The caller must release the interface.
 
 
 ### -param pdwOutputIndexOnUpstreamNode [out]
@@ -131,11 +131,11 @@ The specified input stream is not connected to another node.
 
 
 
-<a href="https://msdn.microsoft.com/01d7eb7c-a3d3-4924-a8ec-a67e9dc17424">IMFTopologyNode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a>
 
 
 
-<a href="https://msdn.microsoft.com/6fc19244-0f42-4d23-899d-c79e97018855">Topologies</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/topologies">Topologies</a>
  
 
  

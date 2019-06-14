@@ -63,7 +63,7 @@ Evaluates a WinML model.
 
 ### -param pContext [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/D4C9B16A-B351-41E4-AD42-20C25F3CC404">WinMLEvaluationContext</a> to evaluate.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winml/nn-winml-iwinmlevaluationcontext">WinMLEvaluationContext</a> to evaluate.
 
 
 ## -returns
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/C2FD74A1-EE38-46B1-98A8-43557485F92E">IWinMLRuntime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winml/nn-winml-iwinmlruntime">IWinMLRuntime</a>
  
 
  

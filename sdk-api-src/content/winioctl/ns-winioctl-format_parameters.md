@@ -49,7 +49,7 @@ req.redist:
 
 
 Contains information used in formatting a contiguous set of disk tracks. It is used by the 
-<a href="https://msdn.microsoft.com/9d6e0865-4b4d-4334-855b-3fbd26832591">IOCTL_DISK_FORMAT_TRACKS</a> control code. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_format_tracks">IOCTL_DISK_FORMAT_TRACKS</a> control code. 
 
 
 ## -struct-fields
@@ -60,7 +60,7 @@ Contains information used in formatting a contiguous set of disk tracks. It is u
 ### -field MediaType
 
 The media type. For a list of values, see 
-<a href="https://msdn.microsoft.com/183cf8fc-c17b-4def-b590-0aa4b67488f6">MEDIA_TYPE</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_media_type">MEDIA_TYPE</a>.
 
 
 ### -field StartCylinderNumber
@@ -88,11 +88,11 @@ The ending head location.
 
 
 
-<a href="https://msdn.microsoft.com/9d6e0865-4b4d-4334-855b-3fbd26832591">IOCTL_DISK_FORMAT_TRACKS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_format_tracks">IOCTL_DISK_FORMAT_TRACKS</a>
 
 
 
-<a href="https://msdn.microsoft.com/183cf8fc-c17b-4def-b590-0aa4b67488f6">MEDIA_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_media_type">MEDIA_TYPE</a>
  
 
  

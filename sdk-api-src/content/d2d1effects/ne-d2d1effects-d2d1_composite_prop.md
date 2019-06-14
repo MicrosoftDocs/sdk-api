@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/60B878E9-1BC6-40D4-ADE3-4BBD5C822C55">Composite effect</a>.
+Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/composite">Composite effect</a>.
         
 
 

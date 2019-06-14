@@ -59,7 +59,7 @@ Scans the network to get a list of visible providers for a multi-carrier device.
 
 ### -param requestID [out]
 
-Pointer to the request ID set by the operating system for this request.  The asynchronous response from <a href="https://msdn.microsoft.com/EF1A39DB-351F-4105-BE56-C59477A67EC6">OnScanNetworkComplete</a> will contain this same <i>requestID</i>.
+Pointer to the request ID set by the operating system for this request.  The asynchronous response from <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrierevents-onscannetworkcomplete">OnScanNetworkComplete</a> will contain this same <i>requestID</i>.
 
 
 ## -returns
@@ -138,11 +138,11 @@ The operation is not supported by the device. This may be returned by devices wh
 
 
 
-This method initiates a network scan operation. When completed successfully, it populates the operating system's cache of visible providers and applications can call the <a href="https://msdn.microsoft.com/AC11D275-C6E3-48EE-B3DA-C9BC8648D49D">GetVisibleProviders</a> method of <a href="https://msdn.microsoft.com/E40517CE-3169-4F20-A572-EDBC8FEC2862">IMbnMultiCarrier</a> to get a list of visible networks.
+This method initiates a network scan operation. When completed successfully, it populates the operating system's cache of visible providers and applications can call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-getvisibleproviders">GetVisibleProviders</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrier">IMbnMultiCarrier</a> to get a list of visible networks.
 
-This is a time consuming operation. Therefore, applications should first call <a href="https://msdn.microsoft.com/AC11D275-C6E3-48EE-B3DA-C9BC8648D49D">GetVisibleProviders</a> and should call <b>ScanNetwork</b> only when the cached information is old.
+This is a time consuming operation. Therefore, applications should first call <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-getvisibleproviders">GetVisibleProviders</a> and should call <b>ScanNetwork</b> only when the cached information is old.
 
-This is an asynchronous operation and <b>ScanNetwork</b> will return immediately. If this method returns successfully (with <b>S_OK</b>),  then upon completion of the scan operation, the operating system will call the <a href="https://msdn.microsoft.com/EF1A39DB-351F-4105-BE56-C59477A67EC6">OnScanNetworkComplete</a> method of <a href="https://msdn.microsoft.com/F7CAF21B-F487-4F35-806B-312B5246C1B2">IMbnMultiCarrierEvents</a> to notify the application of operation completion.
+This is an asynchronous operation and <b>ScanNetwork</b> will return immediately. If this method returns successfully (with <b>S_OK</b>),  then upon completion of the scan operation, the operating system will call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrierevents-onscannetworkcomplete">OnScanNetworkComplete</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrierevents">IMbnMultiCarrierEvents</a> to notify the application of operation completion.
 
 If the device is removed from the system before this operation is complete, there is no guarantee that the completion notification will be received by the application.
 
@@ -154,7 +154,7 @@ If the device is removed from the system before this operation is complete, ther
 
 
 
-<a href="https://msdn.microsoft.com/E40517CE-3169-4F20-A572-EDBC8FEC2862">IMbnMultiCarrier</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrier">IMbnMultiCarrier</a>
  
 
  

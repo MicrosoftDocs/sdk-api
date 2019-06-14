@@ -49,7 +49,7 @@ req.redist:
 
 
 Contains parameters for the <b>DeviceDsmAction_Notification</b> action for the 
-    <a href="https://msdn.microsoft.com/48e797ec-dad2-4a9e-9ccd-aaa65ece8da4">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
     control code.
 
 
@@ -81,8 +81,8 @@ Flags specific to the notify operation
 </td>
 <td width="60%">
 The ranges specified in the 
-        <a href="https://msdn.microsoft.com/5eea412e-ea16-4f47-ac69-46b543069eae">DEVICE_DATA_SET_RANGE</a> structures following the 
-        <a href="https://msdn.microsoft.com/328902b7-97e3-40dc-9771-f5e64ccf3364">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+        <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_data_set_range">DEVICE_DATA_SET_RANGE</a> structures following the 
+        <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> 
         structure are currently being used by the file types that are specified in the 
         <b>FileTypeIDs</b> member.
 
@@ -161,15 +161,15 @@ Specifies a notification operation for a system crash dump file.
 
 
 
-<a href="https://msdn.microsoft.com/328902b7-97e3-40dc-9771-f5e64ccf3364">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/85ebbdca-94a0-4467-8d15-ee3a850e1cd9">Device Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/device-management-structures">Device Management Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/48e797ec-dad2-4a9e-9ccd-aaa65ece8da4">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
  
 
  

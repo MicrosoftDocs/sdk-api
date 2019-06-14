@@ -54,7 +54,7 @@ Exposes methods that retrieve information about a specific input or output conne
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMILBitmapEffectConnectorInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMILBitmapEffectConnectorInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMILBitmapEffectConnectorInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMILBitmapEffectConnectorInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMILBitmapEffectConnectorInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735299(v=VS.85).aspx">GetFormat</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectconnectorinfo-getformat">GetFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the pixel format for the given pin.
@@ -78,7 +78,7 @@ Retrieves the pixel format for the given pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735300(v=VS.85).aspx">GetIndex</a>
+<a href="https://docs.microsoft.com/previous-versions//ms735300(v=vs.85)">GetIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves the zero based index value for the pin.
@@ -87,7 +87,7 @@ Retrieves the zero based index value for the pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735301(v=VS.85).aspx">GetNumberFormats</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectconnectorinfo-getnumberformats">GetNumberFormats</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of pixel formats supported by the pin.
@@ -96,7 +96,7 @@ Retrieves the number of pixel formats supported by the pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735302(v=VS.85).aspx">GetOptimalFormat</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectconnectorinfo-getoptimalformat">GetOptimalFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the optimal pixel format for the pin.

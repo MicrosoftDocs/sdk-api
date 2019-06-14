@@ -65,8 +65,8 @@ Retrieves information about the specified heap.
 ### -param HeapHandle [in, optional]
 
 A handle to the heap whose information is to be retrieved. This handle is returned by either the 
-<a href="https://msdn.microsoft.com/8c0a77a2-37e6-41f7-bdc6-1f3768d61c9b">HeapCreate</a> or 
-<a href="https://msdn.microsoft.com/ecd716b2-df48-4914-9de4-47d8ad8ff9a2">GetProcessHeap</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.
 
 
 ### -param HeapInformationClass [in]
@@ -96,7 +96,7 @@ If <i>HeapInformation</i> is 0, the heap is a standard heap that does not suppor
 
 If <i>HeapInformation</i> is 1, the heap supports look-aside lists. For more information, see Remarks.
 
-If <i>HeapInformation</i> is 2, the <a href="https://msdn.microsoft.com/d10abf82-423c-4942-b05e-55de3a5c4219">low-fragmentation heap</a> (LFH) has been enabled for the heap. Enabling the LFH disables look-aside lists.
+If <i>HeapInformation</i> is 2, the <a href="https://docs.microsoft.com/windows/desktop/Memory/low-fragmentation-heap">low-fragmentation heap</a> (LFH) has been enabled for the heap. Enabling the LFH disables look-aside lists.
 
 </td>
 </tr>
@@ -131,7 +131,7 @@ If you do not want to receive this information, specify <b>NULL</b>.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -142,7 +142,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 To enable the 
 LFH or the terminate-on-corruption feature, use the 
-<a href="https://msdn.microsoft.com/33c262ca-5093-4f44-a8c6-09045bc90f60">HeapSetInformation</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapsetinformation">HeapSetInformation</a> function.
 
 <b>Windows XP and Windows Server 2003:  </b> A look-aside list is a fast memory allocation mechanism that contains only fixed-sized blocks. Look-aside lists are enabled by default for heaps that support them. Starting with Windows Vista, look-aside lists are not used and the LFH is enabled by default.
 
@@ -155,7 +155,7 @@ Look-aside lists are faster than general pool allocations that vary in size, bec
 
 #### Examples
 
-The following example uses <a href="https://msdn.microsoft.com/ecd716b2-df48-4914-9de4-47d8ad8ff9a2">GetProcessHeap</a> to 
+The following example uses <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> to 
      obtain a handle to the default process heap and 
      <b>HeapQueryInformation</b> to retrieve information 
      about the heap.
@@ -236,23 +236,23 @@ int __cdecl _tmain()
 
 
 
-<a href="https://msdn.microsoft.com/ecd716b2-df48-4914-9de4-47d8ad8ff9a2">GetProcessHeap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a>
 
 
 
-<a href="https://msdn.microsoft.com/cfb683fa-4f46-48b5-9a28-f4625a9cb8cd">Heap Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">Heap Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c0a77a2-37e6-41f7-bdc6-1f3768d61c9b">HeapCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/33c262ca-5093-4f44-a8c6-09045bc90f60">HeapSetInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapsetinformation">HeapSetInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a2a7a62-0bda-4a0d-93d2-25b4898871fd">Memory Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
  
 
  

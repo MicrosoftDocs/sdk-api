@@ -68,7 +68,7 @@ Optional. For explicit binding within a server routine, <i>ClientBinding</i> is 
 ### -param RpcCallAttributes [in, out]
 
 
-<a href="https://msdn.microsoft.com/eccc4b78-19f8-415f-bd0f-b1f9f454435e">RPC_CALL_ATTRIBUTES_V2</a> structure that receives call attributes.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-tagrpc_call_attributes_v2_a">RPC_CALL_ATTRIBUTES_V2</a> structure that receives call attributes.
 
 
 ## -returns
@@ -76,12 +76,12 @@ Optional. For explicit binding within a server routine, <i>ClientBinding</i> is 
 
 
 Returns RPC_S_OK upon success, and <i>RpcCallAttributes</i> is filled. If ERROR_MORE_DATA is returned, one or more fields in <i>RpcCallAttributes</i> was of insufficient length and could not be filled. See Remarks in 
-<a href="https://msdn.microsoft.com/eccc4b78-19f8-415f-bd0f-b1f9f454435e">RPC_CALL_ATTRIBUTES_V2</a> for details on handling ERROR_MORE_DATA.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-tagrpc_call_attributes_v2_a">RPC_CALL_ATTRIBUTES_V2</a> for details on handling ERROR_MORE_DATA.
 
 Upon failure, the contents of <i>RpcCallAttributes</i> is undefined and may be partially modified by RPC.
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -92,12 +92,12 @@ Upon failure, the contents of <i>RpcCallAttributes</i> is undefined and may be p
 
 The 
 <b>RpcServerInqCallAttributes</b> function uses a versioning scheme to incorporate new capabilities without having to introduce new functions with suffix identifiers. For example, a second version of the 
-<a href="https://msdn.microsoft.com/eccc4b78-19f8-415f-bd0f-b1f9f454435e">RPC_CALL_ATTRIBUTES_V2</a>, identified with a simple #define in the header, can add new members to facilitate new functionality built into future versions of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-tagrpc_call_attributes_v2_a">RPC_CALL_ATTRIBUTES_V2</a>, identified with a simple #define in the header, can add new members to facilitate new functionality built into future versions of the 
 <b>RpcServerInqCallAttributes</b> function, without having to release a function called RpcServerInqCallAttributesEx.
 
 If the 
 <b>RpcServerInqCallAttributes</b> function is called outside a server routine, and if the function call queries the security context attributes for an asynchronous RPC call, <i>ClientBinding</i> can be retrieved by calling the 
-<a href="https://msdn.microsoft.com/5a218d25-187e-4899-8a27-a955f77af8c2">RpcAsyncGetCallHandle</a> function from the asynchronous handle.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcasyncgetcallhandle">RpcAsyncGetCallHandle</a> function from the asynchronous handle.
 
 The 
 <b>RpcServerInqCallAttributes</b> function is not supported for datagram protocol sequences, such as ncadg_*. If invoked on a call that executes on a datagram protocol sequence, RPC_S_CANNOT_SUPPORT is returned.
@@ -128,11 +128,11 @@ Status = RpcServerInqCallAttributes(0, &ClientContextAttributes);
 
 
 
-<a href="https://msdn.microsoft.com/eccc4b78-19f8-415f-bd0f-b1f9f454435e">RPC_CALL_ATTRIBUTES_V2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-tagrpc_call_attributes_v2_a">RPC_CALL_ATTRIBUTES_V2</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a218d25-187e-4899-8a27-a955f77af8c2">RpcAsyncGetCallHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcasyncgetcallhandle">RpcAsyncGetCallHandle</a>
  
 
  

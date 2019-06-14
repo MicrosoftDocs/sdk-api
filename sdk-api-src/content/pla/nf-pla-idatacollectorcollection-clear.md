@@ -82,11 +82,11 @@ Note that by removing the collectors from the collection, you are also removing 
 
 
 
-<a href="https://msdn.microsoft.com/6b47fb9d-6ca4-4e6b-b117-027ef1e963ac">IDataCollectorCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorcollection">IDataCollectorCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f5a6d20-d65a-477b-8886-8536315bc36e">IDataCollectorCollection::Remove</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorcollection-remove">IDataCollectorCollection::Remove</a>
  
 
  

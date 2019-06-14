@@ -65,7 +65,7 @@ The
     an INF file.
 
 A caller of this function is required to have access to the 
-    <a href="https://msdn.microsoft.com/56ad011d-17c4-4410-b598-6ef47fb3638f">Service Control Manager</a>, and privileges to modify 
+    <a href="https://docs.microsoft.com/windows/desktop/Services/service-control-manager">Service Control Manager</a>, and privileges to modify 
     services.
 
 
@@ -250,7 +250,7 @@ If the function succeeds, the return value is nonzero. The function calls
        required.
 
 If the function fails, the return value is 0 (zero). To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -260,23 +260,23 @@ If the function fails, the return value is 0 (zero). To get extended error infor
 
 
 
-<a href="https://msdn.microsoft.com/0a9518b7-f231-48f2-ba50-5b802f8ccaed">Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/58201596-cb8c-480a-abef-896c1f9ef098">Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/9834a3b0-f8f5-4e4d-92b2-d3c5a4939a41">SetupInstallFilesFromInfSection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinstallfilesfrominfsectiona">SetupInstallFilesFromInfSection</a>
 
 
 
-<a href="https://msdn.microsoft.com/bd1ee91a-b58b-4f08-9181-42fbe9d763f9">SetupInstallFromInfSection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinstallfrominfsectiona">SetupInstallFromInfSection</a>
 
 
 
-<a href="https://msdn.microsoft.com/c0bf6442-56dc-41f1-8a21-ff7b92b1ef0f">SetupInstallServicesFromInfSectionEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinstallservicesfrominfsectionexa">SetupInstallServicesFromInfSectionEx</a>
  
 
  

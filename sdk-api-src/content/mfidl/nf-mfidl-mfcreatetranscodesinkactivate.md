@@ -56,7 +56,7 @@ The transcode sink activation object can be used to create any of the following 
 <li>3GP file sink</li>
 <li>MP3 file sink</li>
 <li>MP4 file sink</li>
-</ul>The transcode sink activation object exposes the <a href="https://msdn.microsoft.com/c5eb0c30-559a-44dd-80d4-4b11933dc7ce">IMFTranscodeSinkInfoProvider</a> interface.
+</ul>The transcode sink activation object exposes the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftranscodesinkinfoprovider">IMFTranscodeSinkInfoProvider</a> interface.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ The transcode sink activation object can be used to create any of the following 
 
 ### -param ppActivate [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/c0936e3c-3cd1-4c1e-a336-2dee7d943963">IMFActivate</a> interface. This interface is used to create the file sink instance from the activation object. Before doing so, query the returned pointer for the <a href="https://msdn.microsoft.com/c5eb0c30-559a-44dd-80d4-4b11933dc7ce">IMFTranscodeSinkInfoProvider</a> interface and use that interface to initialize the object.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface. This interface is used to create the file sink instance from the activation object. Before doing so, query the returned pointer for the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftranscodesinkinfoprovider">IMFTranscodeSinkInfoProvider</a> interface and use that interface to initialize the object.
 
 
 ## -returns
@@ -83,11 +83,11 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/c5eb0c30-559a-44dd-80d4-4b11933dc7ce">IMFTranscodeSinkInfoProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftranscodesinkinfoprovider">IMFTranscodeSinkInfoProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

@@ -59,7 +59,7 @@ Retrieves the value that specifies the type of image file that will be generated
 
 ### -param value [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa366213(v=VS.85).aspx">IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE</a> enumeration that defines the current type set for the  image file.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_format2_raw_cd_data_sector_type">IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE</a> enumeration that defines the current type set for the  image file.
 
 
 ## -returns
@@ -85,11 +85,11 @@ This method is supported in Windows Server 2003 with Service Pack 1 (SP1), Win
 
 
 
-<a href="https://msdn.microsoft.com/b5fe1a32-545e-417d-9996-34d12862a0ea">IRawCDImageCreator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-irawcdimagecreator">IRawCDImageCreator</a>
 
 
 
-<a href="https://msdn.microsoft.com/1800717a-3b8a-45b2-849b-55c37d3b1b32">IRawCDImageCreator::put_ResultingImageType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-irawcdimagecreator-put_resultingimagetype">IRawCDImageCreator::put_ResultingImageType</a>
  
 
  

@@ -96,7 +96,7 @@ The index refers to an 8-bit color index. This flag is valid only when used with
 
 #### DDPCAPS_ALPHA
 
-The <b>peFlags</b> member of the associated <a href="https://msdn.microsoft.com/6430e7cf-c9f2-4376-8b17-28c10d9d0f00">PALETTEENTRY</a> structure is to be interpreted as a single 8-bit alpha value (in addition to the <b>peRed</b>, <b>peGreen</b>, and <b>peBlue</b> members). A palette created by using this flag can be attached only to a texture: a surface created with the DDSCAPS_TEXTURE capability flag.
+The <b>peFlags</b> member of the associated <a href="https://docs.microsoft.com/previous-versions//dd162769(v=vs.85)">PALETTEENTRY</a> structure is to be interpreted as a single 8-bit alpha value (in addition to the <b>peRed</b>, <b>peGreen</b>, and <b>peBlue</b> members). A palette created by using this flag can be attached only to a texture: a surface created with the DDSCAPS_TEXTURE capability flag.
 
 
 
@@ -131,12 +131,12 @@ This palette can have modifications to it synchronized with the monitor's refres
 
 ### -param arg2 [in]
 
-Address of an array of 2, 4, 16, or 256 <a href="https://msdn.microsoft.com/6430e7cf-c9f2-4376-8b17-28c10d9d0f00">PALETTEENTRY</a> structures to initialize the DirectDrawPalette object.
+Address of an array of 2, 4, 16, or 256 <a href="https://docs.microsoft.com/previous-versions//dd162769(v=vs.85)">PALETTEENTRY</a> structures to initialize the DirectDrawPalette object.
 
 
 ### -param arg3 [out]
 
-Address of a variable to be set to a valid <a href="https://msdn.microsoft.com/82dad1d4-2368-4cb0-a45c-0de894b016b7">IDirectDrawPalette</a> interface pointer if the call succeeds.
+Address of a variable to be set to a valid <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawpalette">IDirectDrawPalette</a> interface pointer if the call succeeds.
 
 
 ### -param arg4 [in]
@@ -168,7 +168,7 @@ If it fails, the method can return one of the following error values:
 
 
 
-You must use <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> to access the <b>CreatePalette</b> method.
+You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>CreatePalette</b> method.
 
 
 
@@ -178,7 +178,7 @@ You must use <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d
 
 
 
-<a href="https://msdn.microsoft.com/1a1164fe-00c2-4469-8346-f86f7f48781e">IDirectDraw7</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a>
  
 
  

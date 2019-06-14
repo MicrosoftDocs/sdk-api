@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines 
    the set of the valid transition state values for a VDS object.
@@ -153,10 +153,10 @@ Transition state enumeration values apply to the VDS objects as shown in the fol
 </table>
  
 
-The <a href="https://msdn.microsoft.com/4ef0f4d8-7c63-4d8e-bf46-e6958661bd6a">VDS_LUN_PROP</a>, 
-    <a href="https://msdn.microsoft.com/d79ce5a9-af5a-4691-b853-c18d4a4d04c7">VDS_LUN_PLEX_PROP</a>, 
-    <a href="https://msdn.microsoft.com/3628b312-f830-4a1c-beb7-ad002a94313c">VDS_VOLUME_PROP</a>, <a href="https://msdn.microsoft.com/e99aaead-f5ad-4181-9208-9158e9fac38f">VDS_VOLUME_PROP2</a>, and 
-    <a href="https://msdn.microsoft.com/225cdc5e-045b-407f-b383-8f92025fbbd6">VDS_VOLUME_PLEX_PROP</a> structures include a <b>VDS_TRANSITION_STATE</b> 
+The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_lun_prop">VDS_LUN_PROP</a>, 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_lun_plex_prop">VDS_LUN_PLEX_PROP</a>, 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_volume_prop">VDS_VOLUME_PROP</a>, <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_volume_prop2">VDS_VOLUME_PROP2</a>, and 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_volume_plex_prop">VDS_VOLUME_PLEX_PROP</a> structures include a <b>VDS_TRANSITION_STATE</b> 
     value as a member to report the transition state of each object.
 
 If your application encounters a <b>VDS_TRANSITION_STATE</b> value that it does not recognize, it should display the transition state as unknown. It should not attempt to map the unrecognized transition state to another transition state.
@@ -171,27 +171,27 @@ If your application encounters a <b>VDS_TRANSITION_STATE</b> value that it does 
 
 
 
-<a href="https://msdn.microsoft.com/30ee6e39-c1e5-4173-a3dd-5644632140d1">VDS Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-enumerations">VDS Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/d79ce5a9-af5a-4691-b853-c18d4a4d04c7">VDS_LUN_PLEX_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_lun_plex_prop">VDS_LUN_PLEX_PROP</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ef0f4d8-7c63-4d8e-bf46-e6958661bd6a">VDS_LUN_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_lun_prop">VDS_LUN_PROP</a>
 
 
 
-<a href="https://msdn.microsoft.com/225cdc5e-045b-407f-b383-8f92025fbbd6">VDS_VOLUME_PLEX_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_volume_plex_prop">VDS_VOLUME_PLEX_PROP</a>
 
 
 
-<a href="https://msdn.microsoft.com/3628b312-f830-4a1c-beb7-ad002a94313c">VDS_VOLUME_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_volume_prop">VDS_VOLUME_PROP</a>
 
 
 
-<a href="https://msdn.microsoft.com/e99aaead-f5ad-4181-9208-9158e9fac38f">VDS_VOLUME_PROP2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_volume_prop2">VDS_VOLUME_PROP2</a>
  
 
  

@@ -73,22 +73,22 @@ This can be HTREE\ROOT\0, but we recommend to keep children of the root device t
 
 ### -param pCreateInfo [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/9519FD17-AB43-4C9E-BE77-9DFAC3263447">SW_DEVICE_CREATE_INFO</a> structure that describes info that PnP uses to create the device. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/swdevicedef/ns-swdevicedef-sw_device_create_info">SW_DEVICE_CREATE_INFO</a> structure that describes info that PnP uses to create the device. 
 
 
 ### -param cPropertyCount [in]
 
-The number of <a href="https://msdn.microsoft.com/B2B640BC-5DA3-4D9A-95D8-C2EDA09C18FA">DEVPROPERTY</a> structures in the <i>pProperties</i> array.
+The number of <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn315030(v=vs.85)">DEVPROPERTY</a> structures in the <i>pProperties</i> array.
 
 
 ### -param pProperties [in, optional]
 
-An optional array of <a href="https://msdn.microsoft.com/B2B640BC-5DA3-4D9A-95D8-C2EDA09C18FA">DEVPROPERTY</a> structures.  These properties are set on the device after it is created but before a notification that the device has been created are sent.  For more info, see Remarks.  This pointer can be <b>NULL</b>.
+An optional array of <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn315030(v=vs.85)">DEVPROPERTY</a> structures.  These properties are set on the device after it is created but before a notification that the device has been created are sent.  For more info, see Remarks.  This pointer can be <b>NULL</b>.
 
 
 ### -param pCallback [in]
 
-The <a href="https://msdn.microsoft.com/3955FA66-EBE2-4710-A873-C5FC8B7DBE2E">SW_DEVICE_CREATE_CALLBACK</a> callback function that the operating system calls after PnP enumerates the device.
+The <a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nc-swdevice-sw_device_create_callback">SW_DEVICE_CREATE_CALLBACK</a> callback function that the operating system calls after PnP enumerates the device.
 
 
 ### -param pContext [in, optional]
@@ -98,7 +98,7 @@ An optional client context that the operating system passes to the callback func
 
 ### -param phSwDevice [out]
 
-A pointer to a variable that receives the <b>HSWDEVICE</b> handle that represents the device.  Call <a href="https://msdn.microsoft.com/C5E659CD-203A-4021-AB3F-3AFEE2B31E7C">SwDeviceClose</a> to close this handle after the client app wants PnP to remove the device.
+A pointer to a variable that receives the <b>HSWDEVICE</b> handle that represents the device.  Call <a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nf-swdevice-swdeviceclose">SwDeviceClose</a> to close this handle after the client app wants PnP to remove the device.
 
 <pre class="syntax" xml:space="preserve"><code>
 DECLARE_HANDLE(HSWDEVICE);
@@ -109,7 +109,7 @@ typedef HSWDEVICE *PHSWDEVICE;
 
 
 
-S_OK is returned if device enumeration was successfully initiated.  This does not mean that the device has been successfully enumerated.  Check the <i>CreateResult</i> parameter of the <a href="https://msdn.microsoft.com/3955FA66-EBE2-4710-A873-C5FC8B7DBE2E">SW_DEVICE_CREATE_CALLBACK</a> callback function to determine if the device was successfully enumerated.
+S_OK is returned if device enumeration was successfully initiated.  This does not mean that the device has been successfully enumerated.  Check the <i>CreateResult</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nc-swdevice-sw_device_create_callback">SW_DEVICE_CREATE_CALLBACK</a> callback function to determine if the device was successfully enumerated.
 
 
 
@@ -124,11 +124,11 @@ The calling process must have Administrator access in order to initiate the enum
 
 PnP forms the device instance ID of a software device as "SWD\&lt;pszEnumeratorName&gt;\&lt;pszInstanceId&gt;," but this string might change or PnP might decorate the name.  Always get the device instance ID from the callback function.
 
-There is a subtle difference between properties that are set as part of a <b>SwDeviceCreate</b> call and properties that are later set by calling <a href="https://msdn.microsoft.com/6EA107FE-F1FD-4D19-82C8-00FE0D98A9EA">SwDevicePropertySet</a>.  Properties that are set as part of <b>SwDeviceCreate</b> are stored in memory; if the device is uninstalled or a null driver wipes out the property stores, these properties are written out again by the Software Device API feature when PnP re-enumerates the devices.  This is all transparent to the client.  Properties that are set using <b>SwDevicePropertySet</b> after the enumeration don't persist in memory.  But, if you set a property by using <b>SwDeviceCreate</b>, you can update the value with <b>SwDevicePropertySet</b>, and this update is applied to the in-memory value as well as the persisted store.
+There is a subtle difference between properties that are set as part of a <b>SwDeviceCreate</b> call and properties that are later set by calling <a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nf-swdevice-swdevicepropertyset">SwDevicePropertySet</a>.  Properties that are set as part of <b>SwDeviceCreate</b> are stored in memory; if the device is uninstalled or a null driver wipes out the property stores, these properties are written out again by the Software Device API feature when PnP re-enumerates the devices.  This is all transparent to the client.  Properties that are set using <b>SwDevicePropertySet</b> after the enumeration don't persist in memory.  But, if you set a property by using <b>SwDeviceCreate</b>, you can update the value with <b>SwDevicePropertySet</b>, and this update is applied to the in-memory value as well as the persisted store.
 
 We recommend that all properties be specified as part of the call to <b>SwDeviceCreate</b> when possible and that these properties be specified for every call to <b>SwDeviceCreate</b>.
 
-<div class="alert"><b>Note</b>  The operating system might possibly call <a href="https://msdn.microsoft.com/3955FA66-EBE2-4710-A873-C5FC8B7DBE2E">SW_DEVICE_CREATE_CALLBACK</a> before the call to <b>SwDeviceCreate</b> returns.  For this reason, the software device handle for the device is supplied as a parameter to the callback function.</div>
+<div class="alert"><b>Note</b>  The operating system might possibly call <a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nc-swdevice-sw_device_create_callback">SW_DEVICE_CREATE_CALLBACK</a> before the call to <b>SwDeviceCreate</b> returns.  For this reason, the software device handle for the device is supplied as a parameter to the callback function.</div>
 <div> </div>
 You can create a software device as the child of a parent that is not present at the time.  PnP will enumerate the software device after the parent becomes present.
 
@@ -140,7 +140,7 @@ You can create a software device as the child of a parent that is not present at
 
 
 
-<a href="https://msdn.microsoft.com/3955FA66-EBE2-4710-A873-C5FC8B7DBE2E">SW_DEVICE_CREATE_CALLBACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nc-swdevice-sw_device_create_callback">SW_DEVICE_CREATE_CALLBACK</a>
  
 
  

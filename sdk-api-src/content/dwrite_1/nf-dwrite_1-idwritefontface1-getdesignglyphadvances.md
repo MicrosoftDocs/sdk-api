@@ -113,7 +113,7 @@ This is equivalent to calling GetGlyphMetrics and using only the
 
 
 
-<a href="https://msdn.microsoft.com/1DB7156F-0578-46A0-8C96-E1E34FF4E49E">IDWriteFontFace1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritefontface1">IDWriteFontFace1</a>
  
 
  

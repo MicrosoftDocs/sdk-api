@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 
-The <b>IDTFilter3</b> interface extends the <a href="https://msdn.microsoft.com/351c77ec-fb0c-4780-ad43-8ca6716b208f">IDTFilter2</a> interface and is exposed by the Decrypter/Detagger filter.
+The <b>IDTFilter3</b> interface extends the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nn-encdec-idtfilter2">IDTFilter2</a> interface and is exposed by the Decrypter/Detagger filter.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDTFilter3</b> interface inherits from <a href="https://msdn.microsoft.com/351c77ec-fb0c-4780-ad43-8ca6716b208f">IDTFilter2</a>. <b>IDTFilter3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDTFilter3</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nn-encdec-idtfilter2">IDTFilter2</a>. <b>IDTFilter3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IDTFilter3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6b1e4186-de85-4de8-b309-82644c8b1269">GetProtectionType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nf-encdec-idtfilter3-getprotectiontype">GetProtectionType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of content protection that is currently in effect.
@@ -81,7 +81,7 @@ Retrieves the type of content protection that is currently in effect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/712be51a-27ed-4ede-bef6-9223c57f446f">LicenseHasExpirationDate</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nf-encdec-idtfilter3-licensehasexpirationdate">LicenseHasExpirationDate</a>
 </td>
 <td align="left" width="63%">
 Queries whether the license for the content has an expiration date.
@@ -90,7 +90,7 @@ Queries whether the license for the content has an expiration date.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d5c93f87-6988-4ca8-b50a-b6c7bdf3e76c">SetRights</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nf-encdec-idtfilter3-setrights">SetRights</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -114,11 +114,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/351c77ec-fb0c-4780-ad43-8ca6716b208f">IDTFilter2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nn-encdec-idtfilter2">IDTFilter2</a>
 
 
 
-<a href="https://msdn.microsoft.com/abe939a3-5f43-4fdf-9d4d-34b7be8893eb">TV Ratings Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tv-ratings-interfaces">TV Ratings Interfaces</a>
  
 
  

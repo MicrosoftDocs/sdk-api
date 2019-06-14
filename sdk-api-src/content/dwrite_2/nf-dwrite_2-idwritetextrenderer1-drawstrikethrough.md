@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
- IDWriteTextLayout::<a href="https://msdn.microsoft.com/cbaa3341-e43a-4d3f-89c7-dda758a63e7d">Draw</a> calls this function to instruct the client to draw
+ IDWriteTextLayout::<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwriteinlineobject-draw">Draw</a> calls this function to instruct the client to draw
      a strikethrough.
 
 
@@ -63,7 +63,7 @@ ms.custom: 19H1
 Type: <b>void*</b>
 
 The application-defined drawing context passed to 
-     IDWriteTextLayout::<a href="https://msdn.microsoft.com/cbaa3341-e43a-4d3f-89c7-dda758a63e7d">Draw</a>.
+     IDWriteTextLayout::<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwriteinlineobject-draw">Draw</a>.
 
 
 ### -param baselineOriginX
@@ -82,14 +82,14 @@ The pixel location (Y-coordinate) at the baseline origin of the run where strike
 
 ### -param orientationAngle
 
-Type: <b><a href="https://msdn.microsoft.com/BD9D0C11-B286-4E4A-B641-1DB9F75803B0">DWRITE_GLYPH_ORIENTATION_ANGLE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ne-dwrite_1-dwrite_glyph_orientation_angle">DWRITE_GLYPH_ORIENTATION_ANGLE</a></b>
 
 Orientation of the strikethrough.
 
 
 ### -param strikethrough [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/05d86485-2c34-4e3b-99e8-ca54a3b1e5f6">DWRITE_STRIKETHROUGH</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_strikethrough">DWRITE_STRIKETHROUGH</a>*</b>
 
 Pointer to  a structure containing strikethrough logical information.
 
@@ -132,7 +132,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/A8C39C54-AF98-4A27-9BCF-9C132F4CD3B1">IDWriteTextRenderer1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nn-dwrite_2-idwritetextrenderer1">IDWriteTextRenderer1</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains data used by <a href="https://msdn.microsoft.com/84e065e6-b68d-4303-b98b-3f8507539468">SHAddToRecentDocs</a> to identify both an item, in this case through an <a href="https://msdn.microsoft.com/67982d28-27ce-4482-b588-10fec8143750">IShellLink</a>, and the process that it is associated with.
+Contains data used by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs">SHAddToRecentDocs</a> to identify both an item, in this case through an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a>, and the process that it is associated with.
 
 
 ## -struct-fields
@@ -59,9 +59,9 @@ Contains data used by <a href="https://msdn.microsoft.com/84e065e6-b68d-4303-b98
 
 ### -field psl
 
-Type: <b><a href="https://msdn.microsoft.com/67982d28-27ce-4482-b588-10fec8143750">IShellLink</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/67982d28-27ce-4482-b588-10fec8143750">IShellLink</a> instance that, when launched, opens the item. The shortcut is not added by <a href="https://msdn.microsoft.com/84e065e6-b68d-4303-b98b-3f8507539468">SHAddToRecentDocs</a> to the user's <b>Recent</b> folder (<a href="https://msdn.microsoft.com/33d92271-2865-4ebd-b96c-bf293deb4310">CSIDL_RECENT</a>, <a href="https://msdn.microsoft.com/f2c08ade-3083-44e4-82b0-dde45f0e3094">FOLDERID_Recent</a>), but it is added to the <b>Recent</b> category in the specified application's Jump List.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a> instance that, when launched, opens the item. The shortcut is not added by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs">SHAddToRecentDocs</a> to the user's <b>Recent</b> folder (<a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL_RECENT</a>, <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">FOLDERID_Recent</a>), but it is added to the <b>Recent</b> category in the specified application's Jump List.
 
 
 ### -field pszAppID
@@ -75,18 +75,18 @@ The application-defined AppUserModelID associated with the item.
 
 
 
-The <a href="https://msdn.microsoft.com/67982d28-27ce-4482-b588-10fec8143750">IShellLink</a> instance pointed to by <b>psl</b> must provide the following:
+The <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a> instance pointed to by <b>psl</b> must provide the following:
 
                 
 
 <ul>
-<li>Either a pointer to an item identifier list (PIDL) (<a href="https://msdn.microsoft.com/4c0571a5-1615-4c3f-b9a6-0667df07165b">IShellLink::SetIDList</a>) or the target path (<a href="https://msdn.microsoft.com/032610ba-d6ff-4200-8fd3-455460587dec">IShellLink::SetPath</a> or <a href="https://msdn.microsoft.com/f9cbd1db-253b-4ce8-a8ea-cfc48759c9d3">IShellLink::SetRelativePath</a>)</li>
-<li>Command-line arguments (<a href="https://msdn.microsoft.com/5ad5fabd-be12-40bc-a6b3-498bcde7223a">IShellLink::SetArguments</a>)</li>
-<li>Icon location  (<a href="https://msdn.microsoft.com/1ba267f2-ae05-4a6d-be3c-382a89e17d92">IShellLink::SetIconLocation</a>)</li>
+<li>Either a pointer to an item identifier list (PIDL) (<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setidlist">IShellLink::SetIDList</a>) or the target path (<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setpath">IShellLink::SetPath</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setrelativepath">IShellLink::SetRelativePath</a>)</li>
+<li>Command-line arguments (<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setarguments">IShellLink::SetArguments</a>)</li>
+<li>Icon location  (<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-seticonlocation">IShellLink::SetIconLocation</a>)</li>
 </ul>
-The display name must be set through the item's <a href="https://msdn.microsoft.com/8fb948d6-2677-4e5d-b283-8757c3df574d">System.Title (PKEY_Title)</a> property. The property can directly hold the display name or it can be an indirect string representation, such as "@shell32.dll,-1324", to use a stored string. An indirect string enables the item name to be displayed in the user's selected language.
+The display name must be set through the item's <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-title">System.Title (PKEY_Title)</a> property. The property can directly hold the display name or it can be an indirect string representation, such as "@shell32.dll,-1324", to use a stored string. An indirect string enables the item name to be displayed in the user's selected language.
 
-Optionally, the description field (<a href="https://msdn.microsoft.com/4bec482e-04e6-4cde-ab8e-23c5a1463bdf">IShellLink::SetDescription</a>) can be set to provide a custom tooltip for the item in the Jump List.
+Optionally, the description field (<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setdescription">IShellLink::SetDescription</a>) can be set to provide a custom tooltip for the item in the Jump List.
 
 
 
@@ -96,19 +96,19 @@ Optionally, the description field (<a href="https://msdn.microsoft.com/4bec482e-
 
 
 
-<a href="https://msdn.microsoft.com/ebce2d99-6f20-4545-9f12-d79cd8d0828f">Application User Model IDs (AppUserModelIDs)</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/appids">Application User Model IDs (AppUserModelIDs)</a>
 
 
 
-<a href="https://msdn.microsoft.com/bb2b7e86-04ca-4dd0-944b-a95e8a0be1e0">SHARDAPPIDINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-shardappidinfo">SHARDAPPIDINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/11c69ff9-b8a0-4168-8036-f45a9f7813ba">SHARDAPPIDINFOIDLIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-shardappidinfoidlist">SHARDAPPIDINFOIDLIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/84e065e6-b68d-4303-b98b-3f8507539468">SHAddToRecentDocs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs">SHAddToRecentDocs</a>
  
 
  

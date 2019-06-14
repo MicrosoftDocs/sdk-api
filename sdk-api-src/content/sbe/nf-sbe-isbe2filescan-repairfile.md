@@ -122,7 +122,7 @@ Invalid .WTV file.
 
 
 
-<a href="https://msdn.microsoft.com/95d59004-b182-42b8-b05e-920bfc5ea6a0">ISBE2FileScan</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2filescan">ISBE2FileScan</a>
  
 
  

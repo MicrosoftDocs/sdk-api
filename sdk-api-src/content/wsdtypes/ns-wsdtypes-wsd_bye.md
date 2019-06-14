@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a <a href="https://msdn.microsoft.com/7b9abfcc-28ab-4f29-af69-6dc68e3f51b6">Bye</a> message.
+Represents a <a href="https://docs.microsoft.com/windows/desktop/WsdApi/bye-message">Bye</a> message.
 
 
 ## -struct-fields
@@ -59,12 +59,12 @@ Represents a <a href="https://msdn.microsoft.com/7b9abfcc-28ab-4f29-af69-6dc68e3
 
 ### -field EndpointReference
 
-Reference to a <a href="https://msdn.microsoft.com/97d6870e-3633-4bea-9a50-984e6b0ba3a1">WSD_ENDPOINT_REFERENCE</a> structure that specifies either the sending or receiving endpoint of the Bye message. 
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_endpoint_reference">WSD_ENDPOINT_REFERENCE</a> structure that specifies either the sending or receiving endpoint of the Bye message. 
 
 
 ### -field Any
 
-Reference to a <a href="https://msdn.microsoft.com/727149b4-31b0-4fd8-b0fa-eb773edb171e">WSDXML_ELEMENT</a> structure that specifies content allowed by the XML <b>ANY</b> keyword.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_element">WSDXML_ELEMENT</a> structure that specifies content allowed by the XML <b>ANY</b> keyword.
 
 
 ## -see-also
@@ -72,7 +72,7 @@ Reference to a <a href="https://msdn.microsoft.com/727149b4-31b0-4fd8-b0fa-eb773
 
 
 
-<a href="https://msdn.microsoft.com/7b9abfcc-28ab-4f29-af69-6dc68e3f51b6">Bye Message</a>
+<a href="https://docs.microsoft.com/windows/desktop/WsdApi/bye-message">Bye Message</a>
  
 
  

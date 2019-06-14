@@ -88,15 +88,15 @@ Otherwise, <b>ReportIsnsServerList</b> returns the appropriate Win32 or iSCSI er
 
 
 
-<a href="https://msdn.microsoft.com/c01f00f9-2929-4745-a60b-89ab1143a084">AddIsnsServer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-addisnsservera">AddIsnsServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/c954126a-6bad-49cf-889e-81746fe175a4">RefreshIsnsServer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-refreshisnsservera">RefreshIsnsServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/702a86e3-eeac-40cd-9203-ee865e2b710a">RemoveIsnsServer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-removeisnsservera">RemoveIsnsServer</a>
  
 
  

@@ -56,7 +56,7 @@ Use a source voice to submit audio data to the XAudio2 processing pipeline.You m
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXAudio2SourceVoice</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Ee415917(v=VS.85).aspx">IXAudio2Voice</a>. <b>IXAudio2SourceVoice</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXAudio2SourceVoice</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voice">IXAudio2Voice</a>. <b>IXAudio2SourceVoice</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IXAudio2SourceVoice</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418464(v=VS.85).aspx">Discontinuity </a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-discontinuity">Discontinuity </a>
 </td>
 <td align="left" width="63%">
 Notifies an XAudio2 voice that no more buffers are coming after the last one that is currently in its queue.
@@ -80,7 +80,7 @@ Notifies an XAudio2 voice that no more buffers are coming after the last one tha
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418465(v=VS.85).aspx">ExitLoop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-exitloop">ExitLoop</a>
 </td>
 <td align="left" width="63%">
 Stops looping the voice when it reaches the end of the current loop region. 
@@ -89,7 +89,7 @@ Stops looping the voice when it reaches the end of the current loop region.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418466(v=VS.85).aspx">FlushSourceBuffers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-flushsourcebuffers">FlushSourceBuffers</a>
 </td>
 <td align="left" width="63%">
 Removes all pending audio buffers from the voice queue.
@@ -98,7 +98,7 @@ Removes all pending audio buffers from the voice queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418467(v=VS.85).aspx">GetFrequencyRatio</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-getfrequencyratio">GetFrequencyRatio</a>
 </td>
 <td align="left" width="63%">
 Returns the frequency adjustment ratio of the voice.
@@ -107,7 +107,7 @@ Returns the frequency adjustment ratio of the voice.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh405047(v=VS.85).aspx">GetState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-getstate">GetState</a>
 </td>
 <td align="left" width="63%">
 Returns the voice's current cursor position data.
@@ -116,7 +116,7 @@ Returns the voice's current cursor position data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418469(v=VS.85).aspx">SetFrequencyRatio</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-setfrequencyratio">SetFrequencyRatio</a>
 </td>
 <td align="left" width="63%">
 Sets the frequency adjustment ratio of the voice.
@@ -125,7 +125,7 @@ Sets the frequency adjustment ratio of the voice.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418470(v=VS.85).aspx">SetSourceSampleRate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-setsourcesamplerate">SetSourceSampleRate</a>
 </td>
 <td align="left" width="63%">
 Reconfigures the voice to consume source data at a different sample rate than the rate specified when the voice was created.
@@ -134,7 +134,7 @@ Reconfigures the voice to consume source data at a different sample rate than th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418471(v=VS.85).aspx">Start</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-start">Start</a>
 </td>
 <td align="left" width="63%">
 Starts consumption and processing of audio by the voice. Delivers the result to any connected submix or mastering voices, or to the output device.
@@ -143,7 +143,7 @@ Starts consumption and processing of audio by the voice. Delivers the result to 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418472(v=VS.85).aspx">Stop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-stop">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops consumption of audio by the current voice.
@@ -152,7 +152,7 @@ Stops consumption of audio by the current voice.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418473(v=VS.85).aspx">SubmitSourceBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-submitsourcebuffer">SubmitSourceBuffer</a>
 </td>
 <td align="left" width="63%">
 Adds a new audio buffer to the voice queue.
@@ -177,23 +177,23 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/93408116-1c1f-307f-7e1f-090f2663ff0b">How to: Change Voice Pitch</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/how-to--change-voice-pitch">How to: Change Voice Pitch</a>
 
 
 
-<a href="https://msdn.microsoft.com/48b80a66-91c1-973f-069b-6f63422d7154">How to: Stream a Sound from Disk</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/how-to--stream-a-sound-from-disk">How to: Stream a Sound from Disk</a>
 
 
 
-<a href="https://msdn.microsoft.com/0bace0c5-9171-efd8-9a38-2c2b3452f73f">How to: Use Source Voice Callbacks</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/how-to--use-source-voice-callbacks">How to: Use Source Voice Callbacks</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415917(v=VS.85).aspx">IXAudio2Voice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voice">IXAudio2Voice</a>
 
 
 
-<a href="https://msdn.microsoft.com/96691e00-9ed0-b31c-fbe9-4daaba0daf98">XAudio2 Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/interfaces">XAudio2 Interfaces</a>
  
 
  

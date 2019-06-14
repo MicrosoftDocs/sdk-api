@@ -54,7 +54,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets or sets the currently selected Rich Text Format (RTF) formatted text in the <a href="https://msdn.microsoft.com/a1dfa254-cade-44c5-8fdd-74bb40849063">InkEdit</a> control (run time only).
+Gets or sets the currently selected Rich Text Format (RTF) formatted text in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control">InkEdit</a> control (run time only).
 
 This property is read/write.
 
@@ -66,7 +66,7 @@ This property is read/write.
 
 
 
-Setting the SelRTF property replaces any selected text in the <a href="https://msdn.microsoft.com/a1dfa254-cade-44c5-8fdd-74bb40849063">InkEdit</a> control with the new string. This property returns a zero-length string ("") if no text is selected in the control.
+Setting the SelRTF property replaces any selected text in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control">InkEdit</a> control with the new string. This property returns a zero-length string ("") if no text is selected in the control.
 
 
 
@@ -80,7 +80,7 @@ Setting the SelRTF property replaces any selected text in the <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
  
 
  

@@ -63,7 +63,7 @@ Completes an asynchronous finalize operation.
 
 ### -param pResult [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/8c95b1de-8974-445c-8070-41552ea83e53">IMFAsyncResult</a> interface. Pass in the same pointer that your callback object received in the <a href="https://msdn.microsoft.com/22473605-637e-4783-a8cb-98248b0a0327">IMFAsyncCallback::Invoke</a> method.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncresult">IMFAsyncResult</a> interface. Pass in the same pointer that your callback object received in the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method.
 
 
 ## -returns
@@ -98,7 +98,7 @@ The method succeeded.
 
 
 
-Call this method after the <a href="https://msdn.microsoft.com/fbcb7722-ba64-40a6-9c43-26a6b8dce7f6">IMFFinalizableMediaSink::BeginFinalize</a> method completes asynchronously.
+Call this method after the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imffinalizablemediasink-beginfinalize">IMFFinalizableMediaSink::BeginFinalize</a> method completes asynchronously.
 
 
 
@@ -108,7 +108,7 @@ Call this method after the <a href="https://msdn.microsoft.com/fbcb7722-ba64-40a
 
 
 
-<a href="https://msdn.microsoft.com/e60c2773-f2fc-469e-a698-036390cbed16">IMFFinalizableMediaSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imffinalizablemediasink">IMFFinalizableMediaSink</a>
  
 
  

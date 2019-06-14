@@ -96,16 +96,16 @@ On monochrome screens, <b>InvertRect</b> makes white pixels black and black pixe
 
 
 
-<a href="https://msdn.microsoft.com/98ab34da-ea07-4446-a62e-509c849d95f9">FillRect
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-fillrect">FillRect
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/8909e85d-fa5b-4058-9e58-e027160ec381">Filled Shape Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/filled-shape-functions">Filled Shape Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/78439288-a769-4aab-aee7-7a03396ccebc">Filled Shapes Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/filled-shapes">Filled Shapes Overview</a>
 
 
 

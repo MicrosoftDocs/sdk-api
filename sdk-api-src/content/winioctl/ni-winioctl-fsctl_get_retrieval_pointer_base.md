@@ -51,7 +51,7 @@ req.redist:
 Returns the sector offset to the first logical cluster number (LCN) of the file system relative to the start of the volume.
 
 To perform this operation, call the 
-   <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
+   <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
    function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -148,7 +148,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-Adding the value retrieved by <b>FSCTL_GET_RETRIEVAL_POINTER_BASE</b> to the value retrieved by the <a href="https://msdn.microsoft.com/002f6703-8db3-4034-a79f-3fa9c4159115">FSCTL_GET_RETRIEVAL_POINTERS</a> control code results in a volume-relative file extent offset. 
+Adding the value retrieved by <b>FSCTL_GET_RETRIEVAL_POINTER_BASE</b> to the value retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_retrieval_pointers">FSCTL_GET_RETRIEVAL_POINTERS</a> control code results in a volume-relative file extent offset. 
 
 In Windows 8 and Windows Server 2012, this code is supported by the following technologies.
 
@@ -208,15 +208,15 @@ Yes
 
 
 
-<a href="https://msdn.microsoft.com/8e999524-4fe9-49b0-8b59-081fa7a42c72">Clusters and Extents</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/clusters-and-extents">Clusters and Extents</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/488a7d32-cbb5-4f32-9655-0aca8ac69640">Disk Management Control Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes">Disk Management Control Codes</a>
  
 
  

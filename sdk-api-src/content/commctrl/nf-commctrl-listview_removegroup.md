@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Removes a group from a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761149(v=VS.85).aspx">LVM_REMOVEGROUP</a> message explicitly. 
+Removes a group from a list-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-removegroup">LVM_REMOVEGROUP</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Removes a group from a list-view control. You can use this macro or send the <a 
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control. 
 
@@ -73,7 +73,7 @@ Type: <b>int</b>
 
 
 
-To use <b>ListView_RemoveGroup</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_RemoveGroup</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>. 
 
 
 

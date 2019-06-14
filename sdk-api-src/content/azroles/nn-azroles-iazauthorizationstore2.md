@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IAzAuthorizationStore2</b> interface inherits from the <a href="https://msdn.microsoft.com/f848cca6-3838-46bc-b1f4-d6eab5096046">AzAuthorizationStore</a> object and implements methods to create and open <a href="https://msdn.microsoft.com/58f0627e-fa92-4b3b-a0cd-7e437d451606">IAzApplication2</a> objects.
+The <b>IAzAuthorizationStore2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore">AzAuthorizationStore</a> object and implements methods to create and open <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication2">IAzApplication2</a> objects.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzAuthorizationStore2</b> interface inherits from <a href="https://msdn.microsoft.com/f848cca6-3838-46bc-b1f4-d6eab5096046">AzAuthorizationStore</a> and <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>. <b>IAzAuthorizationStore2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzAuthorizationStore2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore">AzAuthorizationStore</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>. <b>IAzAuthorizationStore2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,19 +69,19 @@ The <b>IAzAuthorizationStore2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d9af40e4-9ed9-4b81-b808-315eef07a96d">CreateApplication2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore2-createapplication2">CreateApplication2</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/58f0627e-fa92-4b3b-a0cd-7e437d451606">IAzApplication2</a> object by using the specified name.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication2">IAzApplication2</a> object by using the specified name.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8705ea59-2419-4af5-9cc2-591221e09073">OpenApplication2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore2-openapplication2">OpenApplication2</a>
 </td>
 <td align="left" width="63%">
-Opens the <a href="https://msdn.microsoft.com/58f0627e-fa92-4b3b-a0cd-7e437d451606">IAzApplication2</a> object by using the specified name.
+Opens the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication2">IAzApplication2</a> object by using the specified name.
 
 </td>
 </tr>

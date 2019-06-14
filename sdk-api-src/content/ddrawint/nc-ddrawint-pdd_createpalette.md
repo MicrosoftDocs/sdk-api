@@ -68,7 +68,7 @@ The <b>DdCreatePalette</b> callback function creates a DirectDrawPalette object 
 
 #### - lpCreatePalette
 
-Points to a <a href="https://msdn.microsoft.com/e43ad510-b44b-4a4d-abb2-10062ce69140">DD_CREATEPALETTEDATA</a> structure that contains the information necessary to create the DirectDrawPalette object.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_createpalettedata">DD_CREATEPALETTEDATA</a> structure that contains the information necessary to create the DirectDrawPalette object.
 
 
 ## -returns
@@ -85,7 +85,7 @@ Points to a <a href="https://msdn.microsoft.com/e43ad510-b44b-4a4d-abb2-10062ce6
 
 
 
-<a href="https://msdn.microsoft.com/e43ad510-b44b-4a4d-abb2-10062ce69140">DD_CREATEPALETTEDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_createpalettedata">DD_CREATEPALETTEDATA</a>
  
 
  

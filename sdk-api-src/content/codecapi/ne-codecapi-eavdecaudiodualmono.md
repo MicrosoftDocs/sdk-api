@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Specifies whether the input audio stream is stereo or dual mono. This enumeration is used with the <a href="https://msdn.microsoft.com/96cb9e17-588c-4a1a-a7ba-7f8439d5b79a">AVDecAudioDualMono</a> property.
+Specifies whether the input audio stream is stereo or dual mono. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avdecaudiodualmono-property">AVDecAudioDualMono</a> property.
 
 
 
@@ -89,11 +89,11 @@ In dual mono encoding, each channel is encoded separately. In stereo encoding, b
 
 
 
-<a href="https://msdn.microsoft.com/5d6e48cb-d181-448e-a96e-e5ab500427d7">Codec API Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
  
 
  

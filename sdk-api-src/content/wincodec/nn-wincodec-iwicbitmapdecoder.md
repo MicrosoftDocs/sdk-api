@@ -56,7 +56,7 @@ The interface provides access to the decoder's properties such as global thumbna
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICBitmapDecoder</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWICBitmapDecoder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICBitmapDecoder</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICBitmapDecoder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,25 +71,25 @@ The <b>IWICBitmapDecoder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4a387936-b045-42c7-b57c-1ac470640a14">CopyPalette</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoder-copypalette">CopyPalette</a>
 </td>
 <td align="left" width="63%">
-Copies the decoder's <a href="https://msdn.microsoft.com/cb0e4f92-4aff-48c7-af62-5f7154539289">IWICPalette</a> .
+Copies the decoder's <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicpalette">IWICPalette</a> .
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/55fdf9c0-5fa4-46e2-b4d2-42b8d4c90887">GetColorContexts</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoder-getcolorcontexts">GetColorContexts</a>
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://msdn.microsoft.com/b6817676-affb-4bb3-adba-e24e0b75ad10">IWICColorContext</a> objects of the image.
+Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwiccolorcontext">IWICColorContext</a> objects of the image.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ba7b64cf-28de-40d9-80f1-f4b5b1909b77">GetContainerFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoder-getcontainerformat">GetContainerFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the image's container format.
@@ -98,16 +98,16 @@ Retrieves the image's container format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/45bcdcda-c45a-4646-a511-3a16d3fda262">GetDecoderInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoder-getdecoderinfo">GetDecoderInfo</a>
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://msdn.microsoft.com/7edc6d1a-7eda-45ef-bf1d-c5835b37a90f">IWICBitmapDecoderInfo</a> for the image.
+Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapdecoderinfo">IWICBitmapDecoderInfo</a> for the image.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5e8c1cfd-50f3-431c-aedb-6e57d1368695">GetFrame</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoder-getframe">GetFrame</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified frame of the image.
@@ -116,7 +116,7 @@ Retrieves the specified frame of the image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/16eb613d-f649-436d-a121-e6468cd2581a">GetFrameCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoder-getframecount">GetFrameCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total number of frames in the image.
@@ -125,7 +125,7 @@ Retrieves the total number of frames in the image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/353ce6d8-ef33-44b6-ab8a-7c5903a024f6">GetMetadataQueryReader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoder-getmetadataqueryreader">GetMetadataQueryReader</a>
 </td>
 <td align="left" width="63%">
 Retrieves the metadata query reader from the decoder.
@@ -134,7 +134,7 @@ Retrieves the metadata query reader from the decoder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8e726eba-bb74-45b8-be6b-63d9ce00c272">GetPreview</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoder-getpreview">GetPreview</a>
 </td>
 <td align="left" width="63%">
 Retrieves a preview image, if supported.
@@ -143,7 +143,7 @@ Retrieves a preview image, if supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dbfe61d9-50ca-4d44-a8a3-2acae3413985">GetThumbnail</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoder-getthumbnail">GetThumbnail</a>
 </td>
 <td align="left" width="63%">
 Retrieves a bitmap thumbnail of the image, if one exists
@@ -152,7 +152,7 @@ Retrieves a bitmap thumbnail of the image, if one exists
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/60a7e0b8-202c-4fed-b105-f8c4fa9817a9">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoder-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the decoder with the provided stream.
@@ -161,7 +161,7 @@ Initializes the decoder with the provided stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/eeff3d5d-ed7f-41f7-b529-aeeeb8503a50">QueryCapability</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoder-querycapability">QueryCapability</a>
 </td>
 <td align="left" width="63%">
 Retrieves the capabilities of the decoder based on the specified stream.
@@ -222,7 +222,7 @@ There are a number of concrete implemenations of this interface representing eac
 </table>
  
 
-This interface may be sub-classed to provide support for third party codecs as part of the extensibility model. See the <a href="http://msdn.microsoft.com/en-us/library/ms771770.aspx">AITCodec Sample CODEC</a>.
+This interface may be sub-classed to provide support for third party codecs as part of the extensibility model. See the <a href="https://docs.microsoft.com/previous-versions/ms771770(v=vs.100)">AITCodec Sample CODEC</a>.
 
 Codecs written as TIFF container formats that are not register will decode as a TIFF image. Client applications should check for a zero frame count to determine if the codec is valid.
 
@@ -236,7 +236,7 @@ CLSID_WICHeifDecoder operates on HEIF (High Efficiency Image Format) images.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms771770(v=VS.85).aspx">AITCodec Sample CODEC</a>
+<a href="https://docs.microsoft.com/previous-versions/dotnet/netframework-3.0/ms771770(v=vs.85)">AITCodec Sample CODEC</a>
 
 
 
@@ -244,7 +244,7 @@ CLSID_WICHeifDecoder operates on HEIF (High Efficiency Image Format) images.
 
 
 
-<a href="https://msdn.microsoft.com/58f03dc2-cc31-4d76-b75a-f332da1f900f">How to Write a WIC-Enabled CODEC</a>
+<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-howtowriteacodec">How to Write a WIC-Enabled CODEC</a>
 
 
 
@@ -252,11 +252,11 @@ CLSID_WICHeifDecoder operates on HEIF (High Efficiency Image Format) images.
 
 
 
-<a href="https://msdn.microsoft.com/2be5cfeb-2dd3-4486-b639-35ee28a7dd7b">WIC GUIDs and CLSIDs</a>
+<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-guids-clsids">WIC GUIDs and CLSIDs</a>
 
 
 
-<a href="https://msdn.microsoft.com/a05b496a-bd4c-4065-8060-df0f8930cde7">Windows Imaging Component Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-about-windows-imaging-codec">Windows Imaging Component Overview</a>
  
 
  

@@ -73,7 +73,7 @@ The number of vertices to use.
 
 
 
-<a href="https://msdn.microsoft.com/23DB679B-33E4-4FB1-B356-BBB1BA95E0EB">ID2D1DrawInfo::SetVertexProcessing</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1drawinfo-setvertexprocessing">ID2D1DrawInfo::SetVertexProcessing</a>
  
 
  

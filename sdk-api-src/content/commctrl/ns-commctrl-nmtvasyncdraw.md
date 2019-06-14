@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains an explanation of why the draw of an icon or overlay tree item failed. This structure is sent on a <a href="https://msdn.microsoft.com/en-us/library/Bb773500(v=VS.85).aspx">TVN_ASYNCDRAW</a> notification. Set the <b>dwRetFlags</b> member to indicate what action the control should take. Note that a draw can fail if there is no image; in other words, when the icon image has not been extracted.
+Contains an explanation of why the draw of an icon or overlay tree item failed. This structure is sent on a <a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-asyncdraw">TVN_ASYNCDRAW</a> notification. Set the <b>dwRetFlags</b> member to indicate what action the control should take. Note that a draw can fail if there is no image; in other words, when the icon image has not been extracted.
 
 
 ## -struct-fields
@@ -59,23 +59,23 @@ Contains an explanation of why the draw of an icon or overlay tree item failed. 
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure.
 
 
 ### -field pimldp
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb761395(v=VS.85).aspx">IMAGELISTDRAWPARAMS</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/ns-commoncontrols-_imagelistdrawparams">IMAGELISTDRAWPARAMS</a>*</b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761395(v=VS.85).aspx">IMAGELISTDRAWPARAMS</a> structure describing the image that failed to draw.
+<a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/ns-commoncontrols-_imagelistdrawparams">IMAGELISTDRAWPARAMS</a> structure describing the image that failed to draw.
 
 
 ### -field hr
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Result code indicating why the draw failed, either ILDRF_IMAGELOWQUALITY, ILDRF_OVERLAYLOWQUALITY, E_PENDING, or S_OK. A code of S_OK indicates that the image is present but not at the required image quality.
 
@@ -89,15 +89,15 @@ Handle of the tree item that failed to draw.
 
 ### -field lParam
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
-Data for <b>hItem</b>. This is the same data for the item that is retrieved with the message <a href="https://msdn.microsoft.com/en-us/library/Bb773596(v=VS.85).aspx">TVM_GETITEM</a> using the appropriate <b>mask</b> in structure <a href="https://msdn.microsoft.com/en-us/library/Bb773456(v=VS.85).aspx">TVITEM</a>. This data is parent specific; the parent can store information that helps it identify the tree item or other information. Data is provided in <b>lParam</b> for convenience, so that the parent does not need to send message <b>TVM_GETITEM</b>.
+Data for <b>hItem</b>. This is the same data for the item that is retrieved with the message <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getitem">TVM_GETITEM</a> using the appropriate <b>mask</b> in structure <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvitema">TVITEM</a>. This data is parent specific; the parent can store information that helps it identify the tree item or other information. Data is provided in <b>lParam</b> for convenience, so that the parent does not need to send message <b>TVM_GETITEM</b>.
 
 
 
 ### -field dwRetFlags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Action that the sender (the tree-view control) should execute on return. Value must be one of the following flags:
 

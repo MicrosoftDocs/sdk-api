@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>InitializeClientContextFromToken2</b> method retrieves an <a href="https://msdn.microsoft.com/8e922370-18e3-481c-93f2-9a56d7898ba7">IAzClientContext2</a> object pointer from the specified client token.
+The <b>InitializeClientContextFromToken2</b> method retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazclientcontext2">IAzClientContext2</a> object pointer from the specified client token.
 
 
 ## -parameters
@@ -74,7 +74,7 @@ Reserved for future use.
 
 ### -param ppClientContext [out]
 
-A pointer to a pointer to the returned <a href="https://msdn.microsoft.com/8e922370-18e3-481c-93f2-9a56d7898ba7">IAzClientContext2</a> object.
+A pointer to a pointer to the returned <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazclientcontext2">IAzClientContext2</a> object.
 
 
 ## -returns
@@ -83,7 +83,7 @@ A pointer to a pointer to the returned <a href="https://msdn.microsoft.com/8e922
 
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 

@@ -129,15 +129,15 @@ This method works even if the filter is stopped.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/54a18567-e9d4-4b12-b486-cdd70d719184">IAsyncReader Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iasyncreader">IAsyncReader Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/862511f1-7580-44db-aed5-3dd8279dcc33">IAsyncReader::SyncReadAligned</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iasyncreader-syncreadaligned">IAsyncReader::SyncReadAligned</a>
  
 
  

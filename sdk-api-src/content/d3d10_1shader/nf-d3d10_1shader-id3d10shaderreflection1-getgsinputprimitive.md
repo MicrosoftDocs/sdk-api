@@ -59,18 +59,18 @@ Gets the geometry-shader input-primitive description.
 
 ### -param pPrim [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Cc308053(v=VS.85).aspx">D3D10_PRIMITIVE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_primitive">D3D10_PRIMITIVE</a>*</b>
 
-A pointer to the input-primitive type (see <a href="https://msdn.microsoft.com/en-us/library/Cc308053(v=VS.85).aspx">D3D10_PRIMITIVE</a>).
+A pointer to the input-primitive type (see <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_primitive">D3D10_PRIMITIVE</a>).
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-returnvalues">Direct3D 10 Return Codes</a>.
 
 
 
@@ -89,7 +89,7 @@ This method requires Windows Vista Service Pack 1.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb694550(v=VS.85).aspx">ID3D10ShaderReflection1 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1shader/nn-d3d10_1shader-id3d10shaderreflection1">ID3D10ShaderReflection1 Interface</a>
  
 
  

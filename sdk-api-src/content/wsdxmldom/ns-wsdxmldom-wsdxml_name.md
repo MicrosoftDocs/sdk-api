@@ -59,7 +59,7 @@ Specifies an XML qualified name.
 
 ### -field Space
 
-Reference to a <a href="https://msdn.microsoft.com/dcf27f38-e628-4b0c-859c-ad12d3ed0924">WSDXML_NAMESPACE</a> structure that specifies the namespace of the qualified name.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_namespace">WSDXML_NAMESPACE</a> structure that specifies the namespace of the qualified name.
 
 
 ### -field LocalName

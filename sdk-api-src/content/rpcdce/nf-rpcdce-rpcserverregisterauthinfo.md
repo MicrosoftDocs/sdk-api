@@ -63,7 +63,7 @@ The
 ### -param ServerPrincName
 
 Pointer to the principal name to use for the server when authenticating remote procedure calls using the service specified by the <i>AuthnSvc</i> parameter. The content of the name and its syntax are defined by the authentication service in use. For more information, see 
-<a href="https://msdn.microsoft.com/4d9977f8-0efb-4559-977e-3eba4e277bc0">Principal Names</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/principal-names">Principal Names</a>.
 
 
 ### -param AuthnSvc
@@ -74,7 +74,7 @@ Authentication service to use when the server receives a request for a remote pr
 ### -param GetKeyFn
 
 Address of a server-application-provided routine that returns encryption keys. See 
-<a href="https://msdn.microsoft.com/643ce467-5df9-4b1a-a149-cf301865d47a">RPC_AUTH_KEY_RETRIEVAL_FN</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nc-rpcdce-rpc_auth_key_retrieval_fn">RPC_AUTH_KEY_RETRIEVAL_FN</a>. 
 
 
 
@@ -171,7 +171,7 @@ If the acquisition function called from
 ### -param Arg
 
 Pointer to a parameter to pass to the <i>GetKeyFn</i> routine, if specified. This parameter can also be used to pass a pointer to an 
-<a href="https://msdn.microsoft.com/8398e029-473e-488f-a861-c7ceae07e678">SCHANNEL_CRED</a> structure to specify explicit credentials if the authentication service is set to SCHANNEL. 
+<a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-_schannel_cred">SCHANNEL_CRED</a> structure to specify explicit credentials if the authentication service is set to SCHANNEL. 
 
 
 
@@ -214,7 +214,7 @@ The authentication service is unknown.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -227,7 +227,7 @@ A server application calls
 <b>RpcServerRegisterAuthInfo</b> to register an authentication service to use for authenticating remote procedure calls. A server calls this routine once for each authentication service the server wants to register. If the server calls this function more than once for a given authentication service, the results are undefined.
 
 The authentication service that a client application specifies (using 
-<a href="https://msdn.microsoft.com/2db946b6-6a0d-402c-89ef-68c7489aa7ee">RpcBindingSetAuthInfo</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfo">RpcBindingSetAuthInfo</a> or 
 <b>RpcServerRegisterAuthInfo</b>) must be one of the authentication services specified by the server application. Otherwise, the client's remote procedure call fails and an RPC_S_UNKNOWN_AUTHN_SERVICE status code is returned.
 
 
@@ -238,7 +238,7 @@ The authentication service that a client application specifies (using
 
 
 
-<a href="https://msdn.microsoft.com/2db946b6-6a0d-402c-89ef-68c7489aa7ee">RpcBindingSetAuthInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfo">RpcBindingSetAuthInfo</a>
  
 
  

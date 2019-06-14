@@ -62,7 +62,7 @@ The <b>get_Polarity</b> method retrieves the polarity.
 
 ### -param pPolarity [out]
 
-Pointer that receives a <a href="https://msdn.microsoft.com/19303d43-913f-4719-b1f8-e0e785ac0483">Polarisation</a> variable.
+Pointer that receives a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/polarisation">Polarisation</a> variable.
 
 
 ## -returns
@@ -79,15 +79,15 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693355(v=VS.85).aspx">IBDA_FrequencyFilter Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_frequencyfilter">IBDA_FrequencyFilter Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693366(v=VS.85).aspx">IBDA_FrequencyFilter::put_Polarity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_frequencyfilter-put_polarity">IBDA_FrequencyFilter::put_Polarity</a>
  
 
  

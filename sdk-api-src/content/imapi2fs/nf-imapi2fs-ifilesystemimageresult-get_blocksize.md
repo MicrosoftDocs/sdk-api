@@ -97,11 +97,11 @@ Value: 0x80004003
 
 
 
-<a href="https://msdn.microsoft.com/30ec514c-97b8-41fc-b814-11f50cacaa25">IFileSystemImageResult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimageresult">IFileSystemImageResult</a>
 
 
 
-<a href="https://msdn.microsoft.com/e895ed4f-67cb-43c2-aeb2-9a3ddb79c4fd">IFileSystemImageResult::get_TotalBlocks</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimageresult-get_totalblocks">IFileSystemImageResult::get_TotalBlocks</a>
  
 
  

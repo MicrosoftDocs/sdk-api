@@ -95,7 +95,7 @@ Set of bit flags that specifies properties of the object handle. This parameter 
 </td>
 <td width="60%">
 If this flag is set, a child process created with the <i>bInheritHandles</i> parameter of 
-<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> set to <b>TRUE</b> will inherit the object handle.
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> set to <b>TRUE</b> will inherit the object handle.
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ If this flag is set, a child process created with the <i>bInheritHandles</i> par
 </td>
 <td width="60%">
 If this flag is set, calling the 
-<a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function will not close the object handle.
+<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function will not close the object handle.
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ If this flag is set, calling the
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -141,19 +141,19 @@ To set or clear the associated bit flag in <i>dwFlags</i>, you must set a change
 
 
 
-<a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0f50a0d-739d-411b-8144-77b775476d26">GetHandleInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-gethandleinformation">GetHandleInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/b4769e19-7478-4919-a9d2-8086ece6da70">Handle and Object Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/handle-and-object-functions">Handle and Object Functions</a>
  
 
  

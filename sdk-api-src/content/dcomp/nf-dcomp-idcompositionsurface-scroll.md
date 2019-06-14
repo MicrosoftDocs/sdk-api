@@ -82,7 +82,7 @@ The amount of vertical scrolling, in pixels. Use positive values to scroll down,
 
 
 
-If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/8DFBFC34-DBD0-4731-8305-B33E90C96C54">DirectComposition Error Codes</a>  for a list of error codes.
+If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/directcomp/directcomposition-error-codes">DirectComposition Error Codes</a>  for a list of error codes.
 
 
 
@@ -105,13 +105,13 @@ The bits shown on the screen (destination) are defined by the intersection of th
 
 
 
-Scroll operations can only be called before calling <a href="https://msdn.microsoft.com/0D7E90A1-90E4-44BE-A4DA-8DA300C81A35">BeginDraw</a> or after calling <a href="https://msdn.microsoft.com/127195F7-6000-4D8C-B850-3E4D40BC4082">EndDraw</a>.  Suspended or resumed surfaces are not candidates for scrolling because they are still being updated.
+Scroll operations can only be called before calling <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionsurface-begindraw">BeginDraw</a> or after calling <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionsurface-enddraw">EndDraw</a>.  Suspended or resumed surfaces are not candidates for scrolling because they are still being updated.
 
 
 
-The application is responsible for ensuring that the scrollable area for an <a href="https://msdn.microsoft.com/51E8D52C-2446-46B6-A5C1-0DC7FA9DF4CC">IDCompositionVirtualSurface</a> is limited to valid pixels. The behavior for invalid pixels in the <i>scrollRect</i> is undefined.  
+The application is responsible for ensuring that the scrollable area for an <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionvirtualsurface">IDCompositionVirtualSurface</a> is limited to valid pixels. The behavior for invalid pixels in the <i>scrollRect</i> is undefined.  
 
-Virtual surface sub-rectangular areas that were discarded by a trim or a resize operation can't be scrolled even if the trim or resize is applied in the same batch.  <a href="https://msdn.microsoft.com/5A4F516F-B031-47E6-9A3D-068CF2C3D53A">Trim</a> and <a href="https://msdn.microsoft.com/BB86CDA8-1DF0-436D-9FA3-95293E2B8C0E">Resize</a> are applied immediately.
+Virtual surface sub-rectangular areas that were discarded by a trim or a resize operation can't be scrolled even if the trim or resize is applied in the same batch.  <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvirtualsurface-trim">Trim</a> and <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvirtualsurface-resize">Resize</a> are applied immediately.
 
 
 
@@ -123,7 +123,7 @@ Virtual surface sub-rectangular areas that were discarded by a trim or a resize 
 
 
 
-<a href="https://msdn.microsoft.com/E271B4DC-5F09-426A-A5D3-43A48F30CB24">IDCompositionSurface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionsurface">IDCompositionSurface</a>
  
 
  

@@ -58,7 +58,7 @@ NIT points to a service that provides additional information on the network, whi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbLinkageDescriptor</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDvbLinkageDescriptor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbLinkageDescriptor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvbLinkageDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IDvbLinkageDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b6a4e072-3abe-4305-811d-2bdb846ce028">GetLength</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvblinkagedescriptor-getlength">GetLength</a>
 </td>
 <td align="left" width="63%">
 Gets the body length of a DVB linkage descriptor.
@@ -82,7 +82,7 @@ Gets the body length of a DVB linkage descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/54e17da4-df93-40a5-a359-274da77f585d">GetLinkageType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvblinkagedescriptor-getlinkagetype">GetLinkageType</a>
 </td>
 <td align="left" width="63%">
 Gets a code that uniquely identifies the linkage type from a DVB linkage descriptor.
@@ -91,7 +91,7 @@ Gets a code that uniquely identifies the linkage type from a DVB linkage descrip
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e7c27f45-032a-46d5-b5ae-8a4ef2ee2ebc">GetONId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvblinkagedescriptor-getonid">GetONId</a>
 </td>
 <td align="left" width="63%">
 Gets the network identifier of the  broadcast system that originates the information service from a DVB linkage descriptor.
@@ -100,7 +100,7 @@ Gets the network identifier of the  broadcast system that originates the informa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/959aeb87-b661-4567-a6fd-2d28be6b0a02">GetPrivateData</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvblinkagedescriptor-getprivatedata">GetPrivateData</a>
 </td>
 <td align="left" width="63%">
 Gets the private data from a DVB linkage descriptor.
@@ -109,7 +109,7 @@ Gets the private data from a DVB linkage descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6c37a877-5a0e-49ed-bf75-bb8ad73fa783">GetPrivateDataLength</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvblinkagedescriptor-getprivatedatalength">GetPrivateDataLength</a>
 </td>
 <td align="left" width="63%">
 Gets the length of the private data field from a DVB linkage descriptor.
@@ -118,7 +118,7 @@ Gets the length of the private data field from a DVB linkage descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/977c284d-b995-4879-b90a-2bc42b60d1a3">GetServiceId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvblinkagedescriptor-getserviceid">GetServiceId</a>
 </td>
 <td align="left" width="63%">
 Gets the identifier that identifies an information service a DVB linkage descriptor.
@@ -127,7 +127,7 @@ Gets the identifier that identifies an information service a DVB linkage descrip
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4a01430f-13b2-40ff-a47e-98e1bcdbf4fc">GetTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvblinkagedescriptor-gettag">GetTag</a>
 </td>
 <td align="left" width="63%">
 Gets the tag that identifies a DVB linkage descriptor.
@@ -136,7 +136,7 @@ Gets the tag that identifies a DVB linkage descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/263f3ff1-33a6-4c40-bcdf-049c4dbaf2ef">GetTSId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvblinkagedescriptor-gettsid">GetTSId</a>
 </td>
 <td align="left" width="63%">
 Gets the identifier of the  transport stream that contains the information service from a DVB linkage descriptor.

@@ -54,7 +54,7 @@ Exposes methods that either create or merge a shortcut menu associated with a Sh
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContextMenu</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IContextMenu</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContextMenu</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IContextMenu</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IContextMenu</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/efa60153-7635-4aef-bd9e-f51fe4ecc234">GetCommandString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-getcommandstring">GetCommandString</a>
 </td>
 <td align="left" width="63%">
 Gets information about a shortcut menu command, including the help string and the language-independent, or <i>canonical</i>, name for the command.
@@ -78,7 +78,7 @@ Gets information about a shortcut menu command, including the help string and th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f3aaa84c-3b33-4288-a46a-cd80d3fa89cf">InvokeCommand</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand">InvokeCommand</a>
 </td>
 <td align="left" width="63%">
 Carries out the command associated with a shortcut menu item.
@@ -87,7 +87,7 @@ Carries out the command associated with a shortcut menu item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/329fe15b-c1c1-4ffd-812e-9e74451bad6e">QueryContextMenu</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu">QueryContextMenu</a>
 </td>
 <td align="left" width="63%">
 Adds commands to a shortcut menu.
@@ -107,16 +107,16 @@ Implement <b>IContextMenu</b> in the following situations.
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/74a81e4f-7357-4901-a118-ba44e8892f25">Shell extension handlers</a> implement this interface to dynamically add items to a Shell object's shortcut menu.</li>
+<a href="https://docs.microsoft.com/windows/desktop/shell/handlers">Shell extension handlers</a> implement this interface to dynamically add items to a Shell object's shortcut menu.</li>
 <li>
-<a href="https://msdn.microsoft.com/cc387338-15fa-4350-b039-61a0f1c5030a">Namespace extensions</a> implement this interface to specify their object's shortcut menus.</li>
+<a href="https://docs.microsoft.com/windows/desktop/shell/nse-works">Namespace extensions</a> implement this interface to specify their object's shortcut menus.</li>
 </ul>
-For a detailed discussion of how to implement <b>IContextMenu</b>, see <a href="https://msdn.microsoft.com/cff79cdc-8a01-4575-9af7-2a485c6a8e46">Creating Context Menu Handlers</a>.
+For a detailed discussion of how to implement <b>IContextMenu</b>, see <a href="https://docs.microsoft.com/windows/desktop/shell/context-menu-handlers">Creating Context Menu Handlers</a>.
 
 <h3><a id="When_to_Use"></a><a id="when_to_use"></a><a id="WHEN_TO_USE"></a>When to Use</h3>
-Applications use <b>IContextMenu</b> to retrieve information about the items in an object's shortcut menu and to invoke the associated commands. To retrieve an object's <b>IContextMenu</b> interface, an application must call the object's <a href="https://msdn.microsoft.com/ec863dbf-8ec9-4952-8912-575125e6dd09">IShellFolder::GetUIObjectOf</a> method.
+Applications use <b>IContextMenu</b> to retrieve information about the items in an object's shortcut menu and to invoke the associated commands. To retrieve an object's <b>IContextMenu</b> interface, an application must call the object's <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getuiobjectof">IShellFolder::GetUIObjectOf</a> method.
 
-Shell extension handlers that export this interface must also export <a href="https://msdn.microsoft.com/5f7e7f71-4cd6-4ce4-946c-9a1f7ec72fbe">IShellExtInit</a>. For details, see <a href="https://msdn.microsoft.com/74a81e4f-7357-4901-a118-ba44e8892f25">Creating Shell Extension Handlers</a>.
+Shell extension handlers that export this interface must also export <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellextinit">IShellExtInit</a>. For details, see <a href="https://docs.microsoft.com/windows/desktop/shell/handlers">Creating Shell Extension Handlers</a>.
 
 <div class="alert"><b>Note</b>  <b>Windows Vista and later:</b> Prior to Windows Vista this interface was declared in Shlobj.h.</div>
 <div> </div>

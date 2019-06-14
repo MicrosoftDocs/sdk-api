@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an <a href="https://msdn.microsoft.com/905f0967-8b99-45ed-a1cc-19d49e919a65">ITextRange2</a> object for a selected index in a string collection.
+Gets an <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a> object for a selected index in a string collection.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ The index of the string to retrieve. The default value is 1.
 
 ### -param ppRange [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/905f0967-8b99-45ed-a1cc-19d49e919a65">ITextRange2</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>**</b>
 
 The object to receive the range.
 
@@ -75,7 +75,7 @@ The object to receive the range.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -86,7 +86,7 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-The first string corresponds to Index = 1 and the last to Count which is given by <a href="https://msdn.microsoft.com/6bbe53ab-bd03-4445-8d36-0186a43da451">ITextStrings_GetCount</a>.
+The first string corresponds to Index = 1 and the last to Count which is given by <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextstrings-getcount">ITextStrings_GetCount</a>.
 
 
 
@@ -96,7 +96,7 @@ The first string corresponds to Index = 1 and the last to Count which is given b
 
 
 
-<a href="https://msdn.microsoft.com/c878d0db-ac13-4ac9-8601-d1c1ba76cd85">ITextStrings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextstrings">ITextStrings</a>
  
 
  

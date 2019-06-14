@@ -86,7 +86,7 @@ Resource is a 3D texture.
 
 
 
-This enum is used by the <a href="https://msdn.microsoft.com/908BCB65-A7C6-473D-81AB-CCCA029AB6F9">D3D12_RESOURCE_DESC</a> structure.
+This enum is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_resource_desc">D3D12_RESOURCE_DESC</a> structure.
       
 
 
@@ -97,11 +97,11 @@ This enum is used by the <a href="https://msdn.microsoft.com/908BCB65-A7C6-473D-
 
 
 
-<a href="https://msdn.microsoft.com/F18D41BE-8AEF-444E-AC8B-EC57C63BF083">CD3DX12_RESOURCE_DESC</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/cd3dx12-resource-desc">CD3DX12_RESOURCE_DESC</a>
 
 
 
-<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
  
 
  

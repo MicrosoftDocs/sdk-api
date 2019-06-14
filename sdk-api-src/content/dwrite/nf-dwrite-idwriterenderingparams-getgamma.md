@@ -86,7 +86,7 @@ The gamma value is used for gamma correction, which compensates for the non-line
 
 
 
-<a href="https://msdn.microsoft.com/28b118e4-9a63-46cf-8ab7-e1039126405b">IDWriteRenderingParams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwriterenderingparams">IDWriteRenderingParams</a>
  
 
  

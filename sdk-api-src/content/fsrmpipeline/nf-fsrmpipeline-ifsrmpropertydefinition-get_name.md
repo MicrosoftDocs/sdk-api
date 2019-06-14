@@ -73,15 +73,15 @@ You cannot change the name after you commit the definition.
 
 
 
-<a href="https://msdn.microsoft.com/0e41ac2b-c48a-4bb8-a363-8a64c856b8f9">IFsrmClassificationRule.PropertyAffected</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationrule-get_propertyaffected">IFsrmClassificationRule.PropertyAffected</a>
 
 
 
-<a href="https://msdn.microsoft.com/86e21634-1cb9-42b2-ac50-d17535a4bf40">IFsrmProperty.Name</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmproperty-get_name">IFsrmProperty.Name</a>
 
 
 
-<a href="https://msdn.microsoft.com/b85d5df0-a99a-48d2-9bad-3b8c86abea91">IFsrmPropertyDefinition</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertydefinition">IFsrmPropertyDefinition</a>
  
 
  

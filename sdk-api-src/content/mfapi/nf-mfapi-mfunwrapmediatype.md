@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves a media type that was wrapped in another media type by the <a href="https://msdn.microsoft.com/a3dd74bc-1f1c-40b9-a43e-d45ff621248f">MFWrapMediaType</a> function.
+Retrieves a media type that was wrapped in another media type by the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfwrapmediatype">MFWrapMediaType</a> function.
         
 
 
@@ -60,13 +60,13 @@ Retrieves a media type that was wrapped in another media type by the <a href="ht
 
 ### -param pWrap
 
-Pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface of the media type that was retrieved by <a href="https://msdn.microsoft.com/a3dd74bc-1f1c-40b9-a43e-d45ff621248f">MFWrapMediaType</a>.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of the media type that was retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfwrapmediatype">MFWrapMediaType</a>.
           
 
 
 ### -param ppOrig
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface of the original media type. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of the original media type. The caller must release the interface.
           
 
 
@@ -97,7 +97,7 @@ This function is available on the following platforms if the Windows Media Forma
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

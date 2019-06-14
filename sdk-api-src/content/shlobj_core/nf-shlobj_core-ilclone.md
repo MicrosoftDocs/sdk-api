@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Clones an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure.
+Clones an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Clones an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db0
 
 Type: <b>PCUIDLIST_RELATIVE</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure to be cloned.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure to be cloned.
 
 
 ## -returns
@@ -74,7 +74,7 @@ A pointer to the <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894
 
 Type: <b>PIDLIST_RELATIVE</b>
 
-Returns a pointer to a copy of the <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure pointed to by <i>pidl</i>.
+Returns a pointer to a copy of the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure pointed to by <i>pidl</i>.
 
 
 
@@ -83,7 +83,7 @@ Returns a pointer to a copy of the <a href="https://msdn.microsoft.com/60daf071-
 
 
 
-When you are finished with the cloned <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure, release it with <a href="https://msdn.microsoft.com/3457f36e-fdfd-44a4-90ca-a86f00bc9f36">ILFree</a> to avoid memory leaks.
+When you are finished with the cloned <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure, release it with <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ilfree">ILFree</a> to avoid memory leaks.
 
 
 

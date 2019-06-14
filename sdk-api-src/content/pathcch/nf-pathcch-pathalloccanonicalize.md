@@ -54,12 +54,12 @@ ms.custom: 19H1
 
 Converts a path string into a canonical form.
 
-This function differs from <a href="https://msdn.microsoft.com/25ff08b2-5978-4d44-9877-ba4230ef7d12">PathCchCanonicalize</a> and <a href="https://msdn.microsoft.com/fd7b8ce0-3c67-48fb-8e7e-521a6b438676">PathCchCanonicalizeEx</a> in that it returns the result on the heap. This means that the caller does not have to declare the size of the returned string and reduces stack use.
+This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcanonicalize">PathCchCanonicalize</a> and <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcanonicalizeex">PathCchCanonicalizeEx</a> in that it returns the result on the heap. This means that the caller does not have to declare the size of the returned string and reduces stack use.
 
-This function differs from <a href="https://msdn.microsoft.com/e9b1e877-2cd6-4dd9-a15b-676cb940daed">PathCanonicalize</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
+This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathcanonicalizea">PathCanonicalize</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
 
-<div class="alert"><b>Note</b>  This function, <a href="https://msdn.microsoft.com/25ff08b2-5978-4d44-9877-ba4230ef7d12">PathCchCanonicalize</a>, or <a href="https://msdn.microsoft.com/fd7b8ce0-3c67-48fb-8e7e-521a6b438676">PathCchCanonicalizeEx</a>, should be used in place of <a href="https://msdn.microsoft.com/e9b1e877-2cd6-4dd9-a15b-676cb940daed">PathCanonicalize</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  This function, <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcanonicalize">PathCchCanonicalize</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcanonicalizeex">PathCchCanonicalizeEx</a>, should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathcanonicalizea">PathCanonicalize</a>.</div><div> </div>
 
 ## -parameters
 
@@ -190,7 +190,7 @@ Disables the normalization of path segments that includes removing trailing dots
 
 ### -param ppszPathOut [out]
 
-The address of a pointer to a buffer that, when this function returns successfully, receives the canonicalized path string. It is the responsibility of the caller to free this resource, when it is no longer needed, by calling the <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a> function. This value cannot be <b>NULL</b>.
+The address of a pointer to a buffer that, when this function returns successfully, receives the canonicalized path string. It is the responsibility of the caller to free this resource, when it is no longer needed, by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function. This value cannot be <b>NULL</b>.
 
 
 ## -returns

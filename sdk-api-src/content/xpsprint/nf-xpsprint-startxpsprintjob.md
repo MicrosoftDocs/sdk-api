@@ -208,17 +208,17 @@ The number of elements in the array that is referenced by <i>printablePagesOn</i
 
 ### -param xpsPrintJob [out]
 
-A pointer to the <a href="https://msdn.microsoft.com/aa17e059-6208-4348-87f3-556a3818f2b9">IXpsPrintJob</a> interface that represents the print job that is created by <b>StartXpsPrintJob</b>.  To get the status of the print job or to cancel it, use the <b>IXpsPrintJob</b> interface. If an <b>IXpsPrintJob</b> is not required, this parameter can be set to <b>NULL</b>.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nn-xpsprint-ixpsprintjob">IXpsPrintJob</a> interface that represents the print job that is created by <b>StartXpsPrintJob</b>.  To get the status of the print job or to cancel it, use the <b>IXpsPrintJob</b> interface. If an <b>IXpsPrintJob</b> is not required, this parameter can be set to <b>NULL</b>.
 
 
 ### -param documentStream [out]
 
-A pointer to the <a href="https://msdn.microsoft.com/a7855015-32db-48ff-8f8d-3d84d2843fde">IXpsPrintJobStream</a> interface into which the caller  writes the XPS document to be printed by this print job.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nn-xpsprint-ixpsprintjobstream">IXpsPrintJobStream</a> interface into which the caller  writes the XPS document to be printed by this print job.
 
 
 ### -param printTicketStream [out]
 
-A pointer to the <a href="https://msdn.microsoft.com/a7855015-32db-48ff-8f8d-3d84d2843fde">IXpsPrintJobStream</a> interface that is  used by  the caller to write the job-level print ticket that will be associated with this job.  If this parameter is set to <b>NULL</b>, the print tickets (if any exist) from the XPS document that is written to <i>documentStream</i> will be used.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nn-xpsprint-ixpsprintjobstream">IXpsPrintJobStream</a> interface that is  used by  the caller to write the job-level print ticket that will be associated with this job.  If this parameter is set to <b>NULL</b>, the print tickets (if any exist) from the XPS document that is written to <i>documentStream</i> will be used.
 
 
 ## -returns
@@ -261,7 +261,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-Not enough memory to create a new <a href="https://msdn.microsoft.com/aa17e059-6208-4348-87f3-556a3818f2b9">IXpsPrintJob</a> object.
+Not enough memory to create a new <a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nn-xpsprint-ixpsprintjob">IXpsPrintJob</a> object.
 
 
 </td>
@@ -280,17 +280,17 @@ Not enough memory to create a new <a href="https://msdn.microsoft.com/aa17e059-6
 
 The interfaces that are returned in <i>xpsPrintJob</i>, <i>documentStream</i>, and <i>printTicketStream</i> must not be used until <b>StartXpsPrintJob</b> has returned successfully.
 
-  After the caller starts sending data, it should monitor the progress events that are signaled to the event that is passed in <i>progressEvent</i>. When the event is signaled, the caller must  call <a href="https://msdn.microsoft.com/e2a55aec-f8a5-40b4-8c26-1488df49eed0">IXpsPrintJob::GetJobStatus</a> to get the current status of the print job.
+  After the caller starts sending data, it should monitor the progress events that are signaled to the event that is passed in <i>progressEvent</i>. When the event is signaled, the caller must  call <a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nf-xpsprint-ixpsprintjob-getjobstatus">IXpsPrintJob::GetJobStatus</a> to get the current status of the print job.
 
 When the print job finishes, whether successfully or not, the event that is passed in <i>completionEvent</i> is signaled once and only once. To prevent data loss, the caller should monitor this event and the thread or the application of the caller should not be terminated until the event  has been signaled.
 
-Job states are neither stored nor queued by the print spooler. Because job processing does not wait for the status to be read after events are signaled,  the caller might miss some state changes, depending on the delay between the time the application received the change notification and the time it called <a href="https://msdn.microsoft.com/e2a55aec-f8a5-40b4-8c26-1488df49eed0">IXpsPrintJob::GetJobStatus</a>. To receive subsequent notifications, the application must reset the progress event after it has received the notification.
+Job states are neither stored nor queued by the print spooler. Because job processing does not wait for the status to be read after events are signaled,  the caller might miss some state changes, depending on the delay between the time the application received the change notification and the time it called <a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nf-xpsprint-ixpsprintjob-getjobstatus">IXpsPrintJob::GetJobStatus</a>. To receive subsequent notifications, the application must reset the progress event after it has received the notification.
 
-If a call to <b>StartXpsPrintJob</b> fails,  the job status will be updated, the  completion and progress events will be signaled, and an error code will be returned. To get the status of the failed print job, call <a href="https://msdn.microsoft.com/e2a55aec-f8a5-40b4-8c26-1488df49eed0">IXpsPrintJob::GetJobStatus</a>.
+If a call to <b>StartXpsPrintJob</b> fails,  the job status will be updated, the  completion and progress events will be signaled, and an error code will be returned. To get the status of the failed print job, call <a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nf-xpsprint-ixpsprintjob-getjobstatus">IXpsPrintJob::GetJobStatus</a>.
 
 <b>StartXpsPrintJob</b> calls <b>DuplicateHandle</b> on <i>completionEvent</i> and <i>progressEvent</i> to ensure that they remain valid for the lifetime of the job.  Because the print spooler is using a duplicate handle for the events,  it is possible for the caller to close these handles at any point without affecting job execution.  The recommended procedure, however,  is for the caller to close these handles only after the <i>completionEvent</i> event has been signaled and observed by the caller.
 
-The <a href="https://msdn.microsoft.com/a7855015-32db-48ff-8f8d-3d84d2843fde">IXpsPrintJobStream</a> interfaces that are returned in <i>documentStream</i>  and <i>printTicketStream</i> are write-only streams that do not permit seeking but that can be closed. The caller writes the  XPS document and print ticket content into these streams, and then calls <a href="https://msdn.microsoft.com/259d0224-4e6e-43c8-905d-3529c781986a">Close</a> after all data has been written.  Calls to the streams' <b>Write</b>   method    are thread-safe; however, if such calls  are made from different threads, they are not guaranteed to be committed to the stream in the expected order.
+The <a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nn-xpsprint-ixpsprintjobstream">IXpsPrintJobStream</a> interfaces that are returned in <i>documentStream</i>  and <i>printTicketStream</i> are write-only streams that do not permit seeking but that can be closed. The caller writes the  XPS document and print ticket content into these streams, and then calls <a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nf-xpsprint-ixpsprintjobstream-close">Close</a> after all data has been written.  Calls to the streams' <b>Write</b>   method    are thread-safe; however, if such calls  are made from different threads, they are not guaranteed to be committed to the stream in the expected order.
 
 <div class="alert"><b>Note</b>   When printing to a file, the application is responsible for providing the value that will be passed in the <i>outputFileName</i> parameter for print-to-file operations.  To print to a printer which uses a  driver that outputs to the FILE: port, the caller must retrieve the file name from the user by displaying the common file dialog.
 </div>
@@ -303,11 +303,11 @@ The <a href="https://msdn.microsoft.com/a7855015-32db-48ff-8f8d-3d84d2843fde">IX
 
 
 
-<a href="https://msdn.microsoft.com/14ae2c97-8596-46db-a55c-ef706d2cd00b">Documents</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316975(v=vs.85)">Documents</a>
 
 
 
-<a href="https://msdn.microsoft.com/91D0BA4D-60A6-43F8-8BD3-9183DC6CD50D">StartXpsPrintJob1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nf-xpsprint-startxpsprintjob1">StartXpsPrintJob1</a>
 
 
 

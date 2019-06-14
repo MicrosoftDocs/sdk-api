@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>ReceiveTSPCallData</b> method is called by the MSP address object's 
-<a href="https://msdn.microsoft.com/80b8e0aa-3361-4593-bec0-cbe9186c6c41">ReceiveTSPData</a> method to dispatch TSP data to the correct call. The call object should override this method to handle the TSP data according to whatever semantics have been defined for communication between this particular MSP and its corresponding TSP. The default implementation simply returns S_OK, which is sufficient for an MSP that does not handle any per-call TSP data.
+<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-receivetspdata">ReceiveTSPData</a> method to dispatch TSP data to the correct call. The call object should override this method to handle the TSP data according to whatever semantics have been defined for communication between this particular MSP and its corresponding TSP. The default implementation simply returns S_OK, which is sufficient for an MSP that does not handle any per-call TSP data.
 
 
 ## -parameters
@@ -74,7 +74,7 @@ Size of the buffer, in bytes.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms726496(v=VS.85).aspx">CMSPCallBase</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nl-mspcall-cmspcallbase">CMSPCallBase</a>
  
 
  

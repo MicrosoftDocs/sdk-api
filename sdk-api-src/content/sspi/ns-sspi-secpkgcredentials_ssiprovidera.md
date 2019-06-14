@@ -51,8 +51,8 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SecPkgCredentials_SSIProvider</b> structure holds the SSI provider information associated with a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a>. The 
-<a href="https://msdn.microsoft.com/a8ba6f73-8469-431b-b185-183b45b2c533">QueryCredentialsAttributes</a> function uses this structure.
+The <b>SecPkgCredentials_SSIProvider</b> structure holds the SSI provider information associated with a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a>. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycredentialsattributesa">QueryCredentialsAttributes</a> function uses this structure.
 
 
 ## -struct-fields

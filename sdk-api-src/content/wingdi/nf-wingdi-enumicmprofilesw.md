@@ -68,7 +68,7 @@ Specifies the device context.
 
 ### -param proc
 
-Specifies the procedure instance address of a callback function defined by the application. (See <a href="https://msdn.microsoft.com/6e8f4ce5-c546-4e6a-8f35-4a22d60b6754">EnumICMProfilesProcCallback</a>.)
+Specifies the procedure instance address of a callback function defined by the application. (See <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nc-wingdi-icmenumproca">EnumICMProfilesProcCallback</a>.)
 
 
 ### -param param
@@ -89,9 +89,9 @@ This function returns zero if the application interrupted the enumeration. The r
 
 
 
-The <b>EnumICMProfiles</b> function returns a list of profiles that are associated with a device context (DC), and whose settings match those of the DC. It is possible for a device context to contain device profiles that are not associated with particular hardware devices, or device profiles that do not match the settings of the DC. The sRGB profile is an example. The <a href="https://msdn.microsoft.com/c95f6536-9377-4766-9eb6-004a41bcf6c5">SetICMProfile</a> function is used to associate these types of profiles with a DC. The <a href="https://msdn.microsoft.com/1e16771a-80c5-47bb-9c98-14169d4dd773">GetICMProfile</a> function can be used to retrieve a profile that is not enumerated by the <b>EnumICMProfiles</b> function.
+The <b>EnumICMProfiles</b> function returns a list of profiles that are associated with a device context (DC), and whose settings match those of the DC. It is possible for a device context to contain device profiles that are not associated with particular hardware devices, or device profiles that do not match the settings of the DC. The sRGB profile is an example. The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-seticmprofilea">SetICMProfile</a> function is used to associate these types of profiles with a DC. The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-geticmprofilea">GetICMProfile</a> function can be used to retrieve a profile that is not enumerated by the <b>EnumICMProfiles</b> function.
 
-<b>Windows 95/98/Me:</b><b>EnumICMProfilesW</b> is supported by the Microsoft Layer for Unicode. To use this, you must add certain files to your application, as outlined in <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/mslu/winprog/microsoft_layer_for_unicode_on_windows_95_98_me_systems.asp">Microsoft Layer for Unicode on Windows 95/98/Me Systems</a>.
+<b>Windows 95/98/Me:</b><b>EnumICMProfilesW</b> is supported by the Microsoft Layer for Unicode. To use this, you must add certain files to your application, as outlined in <a href="https://msdn.microsoft.com/library?url=/library/mslu/winprog/microsoft_layer_for_unicode_on_windows_95_98_me_systems.asp">Microsoft Layer for Unicode on Windows 95/98/Me Systems</a>.
 
 
 
@@ -101,23 +101,23 @@ The <b>EnumICMProfiles</b> function returns a list of profiles that are associat
 
 
 
-<a href="https://msdn.microsoft.com/a0623917-0b63-4546-a71a-1e9efa9fe8e5">Basic Color Management Concepts</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
 
 
 
-<a href="https://msdn.microsoft.com/6e8f4ce5-c546-4e6a-8f35-4a22d60b6754">EnumICMProfilesProcCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nc-wingdi-icmenumproca">EnumICMProfilesProcCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/ee9e9502-5514-4070-95fa-265674a1dde7">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions//dd316902(v=vs.85)">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/1e16771a-80c5-47bb-9c98-14169d4dd773">GetICMProfile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-geticmprofilea">GetICMProfile</a>
 
 
 
-<a href="https://msdn.microsoft.com/c95f6536-9377-4766-9eb6-004a41bcf6c5">SetICMProfile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-seticmprofilea">SetICMProfile</a>
  
 
  

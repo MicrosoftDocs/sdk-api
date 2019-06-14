@@ -70,7 +70,7 @@ The item to be redrawn.
 
 Type: <b>UINT*</b>
 
-A pointer to a value that, when this method returns successfully, receives the index of the item that was redrawn. You can use this value to call <a href="https://msdn.microsoft.com/a231e92f-b467-4fd7-929d-92259272a734">IShellFolderView::GetObject</a> to retrieve the PITEMID_CHILD that you just redrew.
+A pointer to a value that, when this method returns successfully, receives the index of the item that was redrawn. You can use this value to call <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-getobject">IShellFolderView::GetObject</a> to retrieve the PITEMID_CHILD that you just redrew.
 
 
 ## -returns
@@ -88,7 +88,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-If you immediately call <a href="https://msdn.microsoft.com/a231e92f-b467-4fd7-929d-92259272a734">IShellFolderView::GetObject</a> with the index returned by <i>puItem</i>, you will get a copy of the ITEMID_CHILD that you redrew.  However, the index position of an item may change over time, so code cannot trust that any specific index always returns the same ITEMID_CHILD.
+If you immediately call <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-getobject">IShellFolderView::GetObject</a> with the index returned by <i>puItem</i>, you will get a copy of the ITEMID_CHILD that you redrew.  However, the index position of an item may change over time, so code cannot trust that any specific index always returns the same ITEMID_CHILD.
 
 
 

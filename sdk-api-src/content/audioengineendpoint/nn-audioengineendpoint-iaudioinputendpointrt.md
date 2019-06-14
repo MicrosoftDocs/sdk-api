@@ -56,7 +56,7 @@ Gets the input buffer for each processing pass.The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioInputEndpointRT</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAudioInputEndpointRT</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioInputEndpointRT</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioInputEndpointRT</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IAudioInputEndpointRT</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1da81a49-d421-4643-9be6-b13d45d678f0">GetInputDataPointer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioinputendpointrt-getinputdatapointer">GetInputDataPointer</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the buffer from which data will be read by the audio engine.
@@ -80,7 +80,7 @@ Gets a pointer to the buffer from which data will be read by the audio engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2b23eac3-48e2-4d58-be6c-878967e7fa5c">PulseEndpoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioinputendpointrt-pulseendpoint">PulseEndpoint</a>
 </td>
 <td align="left" width="63%">
 This method is  reserved.
@@ -89,7 +89,7 @@ This method is  reserved.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9dd3f72a-79fe-4d07-a301-d0960e30a2d1">ReleaseInputDataPointer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioinputendpointrt-releaseinputdatapointer">ReleaseInputDataPointer</a>
 </td>
 <td align="left" width="63%">
 Releases the acquired data pointer.

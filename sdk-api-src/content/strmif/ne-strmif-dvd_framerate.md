@@ -84,11 +84,11 @@ You must know the frame rate to interpret the frame count as time.
 
 
 
-<a href="https://msdn.microsoft.com/7ad0b11e-5bb7-426f-9a2c-fbc34b2f45b4">DVD_TIMECODE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_timecode">DVD_TIMECODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
  
 
  

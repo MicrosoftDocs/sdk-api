@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains flags that indicate the status of the <a href="https://msdn.microsoft.com/99bd9bd7-d8d1-433a-bc5a-4b9761de5048">IMFSourceReader::ReadSample</a> method.
+Contains flags that indicate the status of the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample">IMFSourceReader::ReadSample</a> method.
 
 
 ## -enum-fields
@@ -59,7 +59,7 @@ Contains flags that indicate the status of the <a href="https://msdn.microsoft.c
 
 ### -field MF_SOURCE_READERF_ERROR
 
-An error occurred. If you receive this flag, do not make any further calls to <a href="https://msdn.microsoft.com/7d3cc314-6b9e-437c-afda-ee1965a12721">IMFSourceReader</a> methods.
+An error occurred. If you receive this flag, do not make any further calls to <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a> methods.
 
 
 ### -field MF_SOURCE_READERF_ENDOFSTREAM
@@ -83,12 +83,12 @@ The <i>native format</i> has changed for one or more streams. The native format 
 
 ### -field MF_SOURCE_READERF_CURRENTMEDIATYPECHANGED
 
-The current media has type changed for one or more streams. To get the current media type, call the <a href="https://msdn.microsoft.com/c0fe3b34-42ad-45e4-812d-679bbe01a200">IMFSourceReader::GetCurrentMediaType</a> method.
+The current media has type changed for one or more streams. To get the current media type, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-getcurrentmediatype">IMFSourceReader::GetCurrentMediaType</a> method.
 
 
 ### -field MF_SOURCE_READERF_STREAMTICK
 
-There is a gap in the stream. This flag corresponds to an <a href="https://msdn.microsoft.com/1a00fff1-c3ab-4965-a663-3c15bb48ea98">MEStreamTick</a> event from the media source.
+There is a gap in the stream. This flag corresponds to an <a href="https://docs.microsoft.com/windows/desktop/medfound/mestreamtick">MEStreamTick</a> event from the media source.
 
 
 ### -field MF_SOURCE_READERF_ALLEFFECTSREMOVED
@@ -101,11 +101,11 @@ All transforms inserted by the application have been removed for a particular st
 
 
 
-<a href="https://msdn.microsoft.com/7d3cc314-6b9e-437c-afda-ee1965a12721">IMFSourceReader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a>
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

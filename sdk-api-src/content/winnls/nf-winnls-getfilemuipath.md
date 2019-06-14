@@ -79,7 +79,7 @@ Flags identifying language format and filtering. The following flags specify the
 </dl>
 </td>
 <td width="60%">
-Retrieve the language string in <a href="https://msdn.microsoft.com/076e2a43-256a-4646-a5c8-1d48ab08ce1a">language identifier</a> format.
+Retrieve the language string in <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">language identifier</a> format.
 
 </td>
 </tr>
@@ -89,7 +89,7 @@ Retrieve the language string in <a href="https://msdn.microsoft.com/076e2a43-256
 </dl>
 </td>
 <td width="60%">
-Retrieve the language string in <a href="https://msdn.microsoft.com/e8c54168-22b3-435e-b19a-9b34adcdb018">language name</a> format.
+Retrieve the language string in <a href="https://docs.microsoft.com/windows/desktop/Intl/language-names">language name</a> format.
 
 </td>
 </tr>
@@ -183,7 +183,7 @@ Alternatively, the application can set this parameter to <b>NULL</b>, with the v
 
 ### -param pcchLanguage [in, out]
 
-Pointer to the buffer size, in characters, for the language string indicated by <i>pwszLanguage</i>. If the application sets the value referenced by this parameter to 0 and  passes <b>NULL</b> for <i>pwszLanguage</i>, then the required buffer size will be returned in <i>pcchLanguage</i> and the returned buffer size is always <a href="https://msdn.microsoft.com/63e2e368-af2f-4af0-bbea-2b27d1939394">LOCALE_NAME_MAX_LENGTH</a>, because the function is typically called multiple times in succession. The function cannot determine the exact size of the language name for all successive calls, and cannot extend the buffer on subsequent calls. Thus LOCALE_NAME_MAX_LENGTH is the only safe maximum.
+Pointer to the buffer size, in characters, for the language string indicated by <i>pwszLanguage</i>. If the application sets the value referenced by this parameter to 0 and  passes <b>NULL</b> for <i>pwszLanguage</i>, then the required buffer size will be returned in <i>pcchLanguage</i> and the returned buffer size is always <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_MAX_LENGTH</a>, because the function is typically called multiple times in succession. The function cannot determine the exact size of the language name for all successive calls, and cannot extend the buffer on subsequent calls. Thus LOCALE_NAME_MAX_LENGTH is the only safe maximum.
 
 
 ### -param pwszFileMUIPath [out, optional]
@@ -209,7 +209,7 @@ Pointer to an enumeration variable. The first time this function is called, the 
 
 Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. If the function fails, the output parameters do not change.
 
-To get extended error information, the application can call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>, which can return the following error codes:
+To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return the following error codes:
 
 <ul>
 <li>ERROR_INSUFFICIENT_BUFFER. A supplied buffer size was not large enough, or it was incorrectly set to <b>NULL</b>.</li>
@@ -222,7 +222,7 @@ To get extended error information, the application can call <a href="https://msd
 
 
 
-This function verifies that language-specific resource files exist, but it does not verify that they are correct. It requires the resource files to be stored according to the storage convention explained in <a href="https://msdn.microsoft.com/6c10b355-9bdd-4dba-8446-91034d4fe9b8">Application Deployment</a>.
+This function verifies that language-specific resource files exist, but it does not verify that they are correct. It requires the resource files to be stored according to the storage convention explained in <a href="https://docs.microsoft.com/windows/desktop/Intl/application-deployment">Application Deployment</a>.
 
 If the call to this function specifies the MUI_LANGUAGE_ID flag, the supplied language string must 
 
@@ -237,19 +237,19 @@ When MUI_LANGUAGE_ID is specified, each hexadecimal value in the supplied langua
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/9ccb489b-24d0-42e5-a01a-2cdb7c3267eb">LOCALE_USER_DEFAULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-user-default">LOCALE_USER_DEFAULT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/57de328c-3afc-4fbb-882c-fa35d3552c13">LOCALE_SYSTEM_DEFAULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-system-default">LOCALE_SYSTEM_DEFAULT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/a41a7f55-8905-47a1-86c3-74ed40b3834c">LOCALE_CUSTOM_DEFAULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_DEFAULT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/a41a7f55-8905-47a1-86c3-74ed40b3834c">LOCALE_CUSTOM_UI_DEFAULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UI_DEFAULT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/a41a7f55-8905-47a1-86c3-74ed40b3834c">LOCALE_CUSTOM_UNSPECIFIED</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UNSPECIFIED</a>
 </li>
 </ul>
 To receive enumerated information, the application should call this function repeatedly until it returns <b>FALSE</b>, leaving the contents of <i>pululEnumerator</i> unchanged between calls. Since each call retrieves the path to a different language-specific resource file, the application must clear the language buffer to an empty string between calls. If the application does not do this, the input value of <i>pwszLanguage</i> takes precedence over the setting of <i>dwFlags</i>.
@@ -265,7 +265,7 @@ For example, the function retrieves the following files when the application pas
 </ul>
 </li>
 </ul>
-The first call to the function sets <i>pwszFileMUIPath</i>  to "C:\mydir\en-US\Example1.dll.mui". The second call sets the file path to "C:\mydir\ja-JP\Example1.dll.mui". The function returns <b>FALSE</b> when called a third time and <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns ERROR_NO_MORE_FILES.
+The first call to the function sets <i>pwszFileMUIPath</i>  to "C:\mydir\en-US\Example1.dll.mui". The second call sets the file path to "C:\mydir\ja-JP\Example1.dll.mui". The function returns <b>FALSE</b> when called a third time and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_NO_MORE_FILES.
 
 If the file indicated by <i>pcwszFilePath</i> does not have resource configuration data, or if the file does not exist, the function leaves the file name as it is when looking for the corresponding language-specific resource files.
 
@@ -284,7 +284,7 @@ For example, the application passes the string "C:\mydir\Example2.txt" in <i>pcw
 </ul>
 The first call to the function determines that there are no resources for "ca-ES" or for the neutral language "ca". The function then tries the next option, "es-ES", for which it succeeds in finding a match. Before returning, the function sets <i>pwszFileMUIPath</i>  to "C:\mydir\es-ES\Example2.txt". A second application call to the function continues the enumeration by setting <i>pwszFileMUIPath</i> to "C:\mydir\es\Example2.txt".
 
-If the target file and its associated resource files are actually <a href="https://msdn.microsoft.com/2f841eb6-9a6c-4c9b-b057-a3da6cd6b0b0">Side-by-side enabled assemblies</a>, GetFileMUIPath cannot be used to retrieve the path to the resource file. Please refer to <a href="https://msdn.microsoft.com/fcadd7e8-cab8-43cb-9c67-af8ebe0e3a5b">Using Assemblies with a Multilanguage User Interface</a> for details on how to use Side-by-side assemblies with MUI support.
+If the target file and its associated resource files are actually <a href="https://docs.microsoft.com/windows/desktop/SbsCs/isolated-applications-and-side-by-side-assemblies-portal">Side-by-side enabled assemblies</a>, GetFileMUIPath cannot be used to retrieve the path to the resource file. Please refer to <a href="https://docs.microsoft.com/windows/desktop/SbsCs/using-assemblies-with-a-multilanguage-user-interface">Using Assemblies with a Multilanguage User Interface</a> for details on how to use Side-by-side assemblies with MUI support.
 
 <h3><a id="C__Signature"></a><a id="c__signature"></a><a id="C__SIGNATURE"></a>C# Signature</h3>
 
@@ -311,23 +311,23 @@ If the target file and its associated resource files are actually <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/c10cbf84-8aaf-46c7-8b2f-e719e30f2556">GetThreadUILanguage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getthreaduilanguage">GetThreadUILanguage</a>
 
 
 
-<a href="https://msdn.microsoft.com/2980365c-5a83-4c0f-aa37-e212ec9f0408">Multilingual User Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface">Multilingual User Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/918d1f04-78fe-4b60-bee7-08d2f131437e">Multilingual User Interface Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface-functions">Multilingual User Interface Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/32a8117c-2cb2-4559-8e86-9fad5b28aa5b">SetThreadPreferredUILanguages</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-setthreadpreferreduilanguages">SetThreadPreferredUILanguages</a>
 
 
 
-<a href="https://msdn.microsoft.com/30a0cecf-0ed1-4c03-bd5e-da07b1828c75">SetThreadUILanguage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-setthreaduilanguage">SetThreadUILanguage</a>
  
 
  

@@ -64,7 +64,7 @@ A reference to the identifier for the asynchronous interface.
 
 ### -param pCtrlUnk [in]
 
-A pointer to the controlling <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> of the call object. If this parameter is not <b>NULL</b>, the call object is aggregated in the specified object.
+A pointer to the controlling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> of the call object. If this parameter is not <b>NULL</b>, the call object is aggregated in the specified object.
 If this parameter is <b>NULL</b>, the call object is not aggregated.
 
 
@@ -122,7 +122,7 @@ The <i>riid</i> parameter does not reference the identifier for the asynchronous
 
 
 
-<a href="https://msdn.microsoft.com/323dc627-3867-4170-b278-0bce46077729">ICallFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-icallfactory">ICallFactory</a>
  
 
  

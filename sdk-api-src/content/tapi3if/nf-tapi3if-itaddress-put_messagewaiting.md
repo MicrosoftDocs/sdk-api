@@ -129,8 +129,8 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 
 
 For programmers familiar with TAPI 2.<i>x:</i> This method turns on and off the flag LINEDEVSTATUSFLAGS_MSGWAIT in the <b>dwDevStatusFlags</b> member of the 
-<a href="https://msdn.microsoft.com/3d565e99-eb90-47ca-9fb9-295236f566fb">LINEDEVSTATUS</a> structure by calling 
-<a href="https://msdn.microsoft.com/c8eb142d-5160-49f3-81c1-61094c180df8">lineSetLineDevStatus</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevstatus_tag">LINEDEVSTATUS</a> structure by calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetlinedevstatus">lineSetLineDevStatus</a>.
 
 
 
@@ -140,23 +140,23 @@ For programmers familiar with TAPI 2.<i>x:</i> This method turns on and off the 
 
 
 
-<a href="https://msdn.microsoft.com/ab6db262-f99e-4027-9525-7597fcf02e72">Address Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/93f2e4cf-013e-4064-88d5-69fddd458274">ITAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d565e99-eb90-47ca-9fb9-295236f566fb">LINEDEVSTATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevstatus_tag">LINEDEVSTATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ddb49d9-dde7-498b-a243-f8c5b1294a87">get_MessageWaiting</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_messagewaiting">get_MessageWaiting</a>
 
 
 
-<a href="https://msdn.microsoft.com/c8eb142d-5160-49f3-81c1-61094c180df8">lineSetLineDevStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetlinedevstatus">lineSetLineDevStatus</a>
  
 
  

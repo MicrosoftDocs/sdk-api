@@ -86,7 +86,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/862a1a83-2371-9885-20d4-184aae52fd10">Vector Initialization Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-initialization">Vector Initialization Functions</a>
 
 
 
@@ -94,11 +94,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404803(v=VS.85).aspx">XMVectorReplicateInt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorreplicateint">XMVectorReplicateInt</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404804(v=VS.85).aspx">XMVectorReplicateIntPtr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorreplicateintptr">XMVectorReplicateIntPtr</a>
  
 
  

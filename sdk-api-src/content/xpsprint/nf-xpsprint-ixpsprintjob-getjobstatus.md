@@ -61,7 +61,7 @@ Gets the current status of the print job.
 
 ### -param jobStatus [out, retval]
 
-The current status of the print job. For information about the data that is returned in this structure, see <a href="https://msdn.microsoft.com/en-us/library/Dd374577(v=VS.85).aspx">XPS_JOB_STATUS</a>.
+The current status of the print job. For information about the data that is returned in this structure, see <a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/ns-xpsprint-__midl___midl_itf_xpsprint_0000_0000_0002">XPS_JOB_STATUS</a>.
 
 
 ## -returns
@@ -77,7 +77,7 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 
-<b>GetJobStatus</b> may be called during the print job processing or after the print job has completed. The values returned in <a href="https://msdn.microsoft.com/en-us/library/Dd374577(v=VS.85).aspx">XPS_JOB_STATUS</a> represent   the current state of the print job at the time <b>GetJobStatus</b> is called, so it is possible to miss intermediate states between calls to this method.
+<b>GetJobStatus</b> may be called during the print job processing or after the print job has completed. The values returned in <a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/ns-xpsprint-__midl___midl_itf_xpsprint_0000_0000_0002">XPS_JOB_STATUS</a> represent   the current state of the print job at the time <b>GetJobStatus</b> is called, so it is possible to miss intermediate states between calls to this method.
 
 The values of <i>jobStatus.currentDocument</i> and <i>jobStatus.currentPage</i> are guaranteed to progress sequentially: from the first document to the last,  and  from the first page to the last within each document.
 
@@ -93,11 +93,11 @@ If no job ID has been assigned to the print job, or the print job is printed wit
 
 
 
-<a href="https://msdn.microsoft.com/14ae2c97-8596-46db-a55c-ef706d2cd00b">Documents</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316975(v=vs.85)">Documents</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa17e059-6208-4348-87f3-556a3818f2b9">IXpsPrintJob</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nn-xpsprint-ixpsprintjob">IXpsPrintJob</a>
 
 
 
@@ -105,11 +105,11 @@ If no job ID has been assigned to the print job, or the print job is printed wit
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd374575(v=VS.85).aspx">XPS_JOB_COMPLETION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/ne-xpsprint-__midl___midl_itf_xpsprint_0000_0000_0001">XPS_JOB_COMPLETION</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd374577(v=VS.85).aspx">XPS_JOB_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/ns-xpsprint-__midl___midl_itf_xpsprint_0000_0000_0002">XPS_JOB_STATUS</a>
  
 
  

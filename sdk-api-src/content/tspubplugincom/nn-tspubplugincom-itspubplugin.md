@@ -56,7 +56,7 @@ Resources that can be exposed through <b>ItsPubPlugin</b> typically include Remo
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ItsPubPlugin</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ItsPubPlugin</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ItsPubPlugin</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ItsPubPlugin</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,7 +72,7 @@ The <b>ItsPubPlugin</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/66b18c7f-2623-44ed-8cb9-3cceaa9bab34">GetCacheLastUpdateTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspubplugincom/nf-tspubplugincom-itspubplugin-getcachelastupdatetime">GetCacheLastUpdateTime</a>
 </td>
 <td align="left" width="63%">
 Returns the time that the cache was last updated.
@@ -81,7 +81,7 @@ Returns the time that the cache was last updated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/eceadfef-6980-452a-b983-3813f6e7ade8">GetResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspubplugincom/nf-tspubplugincom-itspubplugin-getresource">GetResource</a>
 </td>
 <td align="left" width="63%">
 This method is reserved and should always return <b>E_NOTIMPL</b>.
@@ -90,7 +90,7 @@ This method is reserved and should always return <b>E_NOTIMPL</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c8f255fe-6f31-4cbb-a600-a27e977a84a0">GetResourceList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspubplugincom/nf-tspubplugincom-itspubplugin-getresourcelist">GetResourceList</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of resources assigned to the specified user.
@@ -99,7 +99,7 @@ Retrieves a list of resources assigned to the specified user.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/035b9d13-b64e-4e1c-8623-b4456f36c4ee">ResolveResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspubplugincom/nf-tspubplugincom-itspubplugin-resolveresource">ResolveResource</a>
 </td>
 <td align="left" width="63%">
  Provides information about how to connect to a user's assigned personal virtual desktop. 
@@ -117,7 +117,7 @@ Retrieves a list of resources assigned to the specified user.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c1ea46b6-fac6-4140-a278-cb04ee9af739">pluginName</a>
+<a href="https://docs.microsoft.com/windows/desktop/TermServ/itspubplugin-pluginname">pluginName</a>
 
 
 </td>
@@ -133,7 +133,7 @@ Retrieves the  name of the plug-in.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/39e5cc01-3945-4e78-bbce-bff5d5a5f22d">pluginVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspubplugincom/nf-tspubplugincom-itspubplugin-get_pluginversion">pluginVersion</a>
 
 
 </td>
@@ -176,11 +176,11 @@ Retrieves the version of the plug-in.
 
 
 
-<a href="https://msdn.microsoft.com/bd928bdc-e4b4-4b5a-a782-0881ed6d08bd">RemoteApp and Desktop Connection Management Service Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/TermServ/remoteapp-and-desktop-connection-management-service-interfaces">RemoteApp and Desktop Connection Management Service Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/4295bd3c-0fc9-4135-b9cc-cafbc8381797">RemoteApp and Desktop Connection Management Service Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/TermServ/remoteapp-and-desktop-connection-management-service-structures">RemoteApp and Desktop Connection Management Service Structures</a>
  
 
  

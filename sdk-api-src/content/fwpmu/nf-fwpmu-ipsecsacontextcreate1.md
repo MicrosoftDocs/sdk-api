@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>IPsecSaContextCreate1</b> function creates an IPsec security association (SA) context.
-<div class="alert"><b>Note</b>  <b>IPsecSaContextCreate1</b> is the specific implementation of IPsecSaContextCreate used in Windows 7 and later. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <a href="https://msdn.microsoft.com/50b85c07-2e21-4c89-928b-8954348b9aba">IPsecSaContextCreate0</a> is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>IPsecSaContextCreate1</b> is the specific implementation of IPsecSaContextCreate used in Windows 7 and later. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ipsecsacontextcreate0">IPsecSaContextCreate0</a> is available.</div><div> </div>
 
 ## -parameters
 
@@ -61,19 +61,19 @@ The <b>IPsecSaContextCreate1</b> function creates an IPsec security association 
 
 Type: <b>HANDLE</b>
 
-Handle for an open session to the filter engine. Call <a href="https://msdn.microsoft.com/5165f219-f3e0-4e84-915b-75912aab02b7">FwpmEngineOpen0</a> to open a session to the filter engine.
+Handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
 
 ### -param outboundTraffic [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/5be2da29-73d6-4381-8bde-3a3945ea7b5a">IPSEC_TRAFFIC1</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic0_">IPSEC_TRAFFIC1</a>*</b>
 
 The outbound traffic of the SA.
 
 
 ### -param virtualIfTunnelInfo [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/91af0790-865f-44f5-b6c8-fd048bf99125">IPSEC_VIRTUAL_IF_TUNNEL_INFO0</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-ipsec_virtual_if_tunnel_info0_">IPSEC_VIRTUAL_IF_TUNNEL_INFO0</a>*</b>
 
 Details related to virtual interface tunneling.
 
@@ -123,7 +123,7 @@ The IPsec SA context was created successfully.
 </dl>
 </td>
 <td width="60%">
-A Windows Filtering Platform (WFP) specific error. See <a href="https://msdn.microsoft.com/11f3085a-f044-4a78-b47a-59b9086562bf">WFP Error Codes</a> for details.
+A Windows Filtering Platform (WFP) specific error. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
 
 </td>
 </tr>
@@ -150,11 +150,11 @@ Failure to communicate with the remote or local firewall engine.
 
 
 This function cannot be called from within a transaction. It will fail with
-<b>FWP_E_TXN_IN_PROGRESS</b>. See <a href="https://msdn.microsoft.com/2625ef9a-0e62-4e21-ba93-047965d0d782">Object Management</a> for more information about transactions.
+<b>FWP_E_TXN_IN_PROGRESS</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/object-management">Object Management</a> for more information about transactions.
 
-This function cannot be called from within a dynamic session. The call will fail with <b>FWP_E_DYNAMIC_SESSION_IN_PROGRESS</b>. See <a href="https://msdn.microsoft.com/2625ef9a-0e62-4e21-ba93-047965d0d782">Object Management</a> for more information about dynamic sessions.
+This function cannot be called from within a dynamic session. The call will fail with <b>FWP_E_DYNAMIC_SESSION_IN_PROGRESS</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/object-management">Object Management</a> for more information about dynamic sessions.
 
-The caller needs <a href="https://msdn.microsoft.com/77f0a1ac-3e99-4cba-a7c6-b8747f35cd0c">FWPM_ACTRL_ADD</a> access to the IPsec security associations database. See <a href="https://msdn.microsoft.com/936ad5f0-d5cd-47ed-b9e5-a7d82a4da603">Access Control</a> for more information.
+The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-right-identifiers">FWPM_ACTRL_ADD</a> access to the IPsec security associations database. See <a href="https://docs.microsoft.com/windows/desktop/FWP/access-control">Access Control</a> for more information.
 
 
 
@@ -164,11 +164,11 @@ The caller needs <a href="https://msdn.microsoft.com/77f0a1ac-3e99-4cba-a7c6-b87
 
 
 
-<a href="https://msdn.microsoft.com/5be2da29-73d6-4381-8bde-3a3945ea7b5a">IPSEC_TRAFFIC1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic0_">IPSEC_TRAFFIC1</a>
 
 
 
-<a href="https://msdn.microsoft.com/91af0790-865f-44f5-b6c8-fd048bf99125">IPSEC_VIRTUAL_IF_TUNNEL_INFO0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-ipsec_virtual_if_tunnel_info0_">IPSEC_VIRTUAL_IF_TUNNEL_INFO0</a>
  
 
  

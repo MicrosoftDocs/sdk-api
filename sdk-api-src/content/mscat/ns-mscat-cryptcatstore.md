@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The  <b>CRYPTCATSTORE</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
- The <b>CRYPTCATSTORE</b> structure represents a catalog file. The <a href="https://msdn.microsoft.com/ce4fe972-0ed5-4b18-8ec5-9883af326335">CryptCATStoreFromHandle</a> function populates this structure by using the handle returned by <a href="https://msdn.microsoft.com/e81f3a3d-d5b7-4266-838d-b83e331c8594">CryptCATOpen</a>.
+ The <b>CRYPTCATSTORE</b> structure represents a catalog file. The <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatstorefromhandle">CryptCATStoreFromHandle</a> function populates this structure by using the handle returned by <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatopen">CryptCATOpen</a>.
 
 
 ## -struct-fields
@@ -71,12 +71,12 @@ A value that specifies the "PublicVersion" of the catalog file.
 
 ### -field pwszP7File
 
-A pointer to a null-terminated string that contains the name of the catalog file. This member must be initialized before a call to the <a href="https://msdn.microsoft.com/2a564b0e-fcc6-4702-8173-d18df7064e53">CryptCATPersistStore</a> function.
+A pointer to a null-terminated string that contains the name of the catalog file. This member must be initialized before a call to the <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatpersiststore">CryptCATPersistStore</a> function.
 
 
 ### -field hProv
 
-A handle to the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP).
+A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP).
 
 
 ### -field dwEncodingType

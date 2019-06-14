@@ -60,8 +60,8 @@ Specifies the individual documents that make up the service metadata.
 
 ### -field content
 
-A <a href="https://msdn.microsoft.com/3daa656f-7f97-4e29-a556-7ff72206f01c">WS_XML_STRING</a>* representing the specific  XML Schema, WSDL or a Policy document.
-                    The service model expects this to be valid for the lifetime of the <a href="https://msdn.microsoft.com/1186e3ae-87d0-4d0b-a7cc-cce63dc091e2">WS_SERVICE_HOST</a>.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_string">WS_XML_STRING</a>* representing the specific  XML Schema, WSDL or a Policy document.
+                    The service model expects this to be valid for the lifetime of the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-service-host">WS_SERVICE_HOST</a>.
                 
 
 
@@ -72,7 +72,7 @@ The name of the document which will be suffixed to the URL path on which this do
                     metadata request.
                 
 
-See <a href="https://msdn.microsoft.com/f6b33fe5-a9e9-4733-8b6c-4b01009d3277">WS_SERVICE_ENDPOINT_PROPERTY_METADATA_EXCHANGE_TYPE</a> service endpoint property to see how to enable HTTP GET support or
+See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_service_endpoint_property_id">WS_SERVICE_ENDPOINT_PROPERTY_METADATA_EXCHANGE_TYPE</a> service endpoint property to see how to enable HTTP GET support or
                     WS-MetadataExchange 1.1 for servicing metadata request.
                 
 

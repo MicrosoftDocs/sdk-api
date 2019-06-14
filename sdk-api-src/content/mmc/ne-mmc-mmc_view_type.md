@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>MMC_VIEW_TYPE</b> enumeration specifies a result view type and is used in the 
-<a href="https://msdn.microsoft.com/50357902-6999-4d65-8e12-81277b66d5ee">RESULT_VIEW_TYPE_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_result_view_type_info">RESULT_VIEW_TYPE_INFO</a> structure.
 
 
 ## -enum-fields
@@ -79,7 +79,7 @@ The view type is a control view.
 
 
 
-<a href="https://msdn.microsoft.com/50357902-6999-4d65-8e12-81277b66d5ee">RESULT_VIEW_TYPE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_result_view_type_info">RESULT_VIEW_TYPE_INFO</a>
  
 
  

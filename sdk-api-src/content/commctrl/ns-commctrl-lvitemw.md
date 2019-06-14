@@ -61,7 +61,7 @@ Specifies or receives the attributes of a list-view item. This structure has bee
 
 ### -field mask
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Set of flags that specify which members of this structure contain data to be set or which members are being requested. This member can have one or more of the following flags set: 
 
@@ -96,7 +96,7 @@ The <b>cColumns</b> member is valid or must be set.
 </dl>
 </td>
 <td width="60%">
-The operating system should store the requested list item information and not ask for it again. This flag is used only with the <a href="https://msdn.microsoft.com/en-us/library/Bb774818(v=VS.85).aspx">LVN_GETDISPINFO</a> notification code.
+The operating system should store the requested list item information and not ask for it again. This flag is used only with the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvn-getdispinfo">LVN_GETDISPINFO</a> notification code.
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ The operating system should store the requested list item information and not as
 </td>
 <td width="60%">
 The 
-						<b>iGroupId</b> member is valid or must be set. If this flag is not set when an <a href="https://msdn.microsoft.com/en-us/library/Bb761107(v=VS.85).aspx">LVM_INSERTITEM</a> message is sent, the value of <b>iGroupId</b> is assumed to be I_GROUPIDCALLBACK.
+						<b>iGroupId</b> member is valid or must be set. If this flag is not set when an <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-insertitem">LVM_INSERTITEM</a> message is sent, the value of <b>iGroupId</b> is assumed to be I_GROUPIDCALLBACK.
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ The <b>iIndent</b> member is valid or must be set.
 </dl>
 </td>
 <td width="60%">
-The control will not generate <a href="https://msdn.microsoft.com/en-us/library/Bb774818(v=VS.85).aspx">LVN_GETDISPINFO</a> to retrieve text information if it receives an <a href="https://msdn.microsoft.com/en-us/library/Bb774953(v=VS.85).aspx">LVM_GETITEM</a> message. Instead, the <b>pszText</b> member will contain LPSTR_TEXTCALLBACK.
+The control will not generate <a href="https://docs.microsoft.com/windows/desktop/Controls/lvn-getdispinfo">LVN_GETDISPINFO</a> to retrieve text information if it receives an <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getitem">LVM_GETITEM</a> message. Instead, the <b>pszText</b> member will contain LPSTR_TEXTCALLBACK.
 
 </td>
 </tr>
@@ -192,30 +192,30 @@ One-based index of the subitem to which this structure refers, or zero if this s
 
 ### -field state
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Indicates the item's state, state image, and overlay image. The 
 					<b>stateMask</b> member indicates the valid bits of this member. 
 
 
 
-Bits 0 through 7 of this member contain the item state flags. This can be one or more of the <a href="https://msdn.microsoft.com/en-us/library/Bb774733(v=VS.85).aspx">item state</a> values.
+Bits 0 through 7 of this member contain the item state flags. This can be one or more of the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-item-states">item state</a> values.
 
 
 
-Bits 8 through 11 of this member specify the one-based overlay image index. Both the full-sized icon image list and the small icon image list can have overlay images. The overlay image is superimposed over the item's icon image. If these bits are zero, the item has no overlay image. To isolate these bits, use the <a href="https://msdn.microsoft.com/en-us/library/Bb774733(v=VS.85).aspx">LVIS_OVERLAYMASK</a> mask. To set the overlay image index in this member, you should use the <a href="https://msdn.microsoft.com/en-us/library/Bb761408(v=VS.85).aspx">INDEXTOOVERLAYMASK</a> macro. The image list's overlay images are set with the <a href="https://msdn.microsoft.com/en-us/library/Bb775227(v=VS.85).aspx">ImageList_SetOverlayImage</a> function.
+Bits 8 through 11 of this member specify the one-based overlay image index. Both the full-sized icon image list and the small icon image list can have overlay images. The overlay image is superimposed over the item's icon image. If these bits are zero, the item has no overlay image. To isolate these bits, use the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-item-states">LVIS_OVERLAYMASK</a> mask. To set the overlay image index in this member, you should use the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-indextooverlaymask">INDEXTOOVERLAYMASK</a> macro. The image list's overlay images are set with the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_setoverlayimage">ImageList_SetOverlayImage</a> function.
 
 
 
-Bits 12 through 15 of this member specify the state image index. The state image is displayed next to an item's icon to indicate an application-defined state. If these bits are zero, the item has no state image. To isolate these bits, use the <a href="https://msdn.microsoft.com/en-us/library/Bb774733(v=VS.85).aspx">LVIS_STATEIMAGEMASK</a> mask. To set the state image index, use the <a href="https://msdn.microsoft.com/en-us/library/Bb775597(v=VS.85).aspx">INDEXTOSTATEIMAGEMASK</a> macro. The state image index specifies the index of the image in the state image list that should be drawn. The state image list is specified with the <a href="https://msdn.microsoft.com/en-us/library/Bb761178(v=VS.85).aspx">LVM_SETIMAGELIST</a> message.
+Bits 12 through 15 of this member specify the state image index. The state image is displayed next to an item's icon to indicate an application-defined state. If these bits are zero, the item has no state image. To isolate these bits, use the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-item-states">LVIS_STATEIMAGEMASK</a> mask. To set the state image index, use the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-indextostateimagemask">INDEXTOSTATEIMAGEMASK</a> macro. The state image index specifies the index of the image in the state image list that should be drawn. The state image list is specified with the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setimagelist">LVM_SETIMAGELIST</a> message.
 
 
 ### -field stateMask
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Value specifying which bits of the 
-					<b>state</b> member will be retrieved or modified. For example, setting this member to <a href="https://msdn.microsoft.com/en-us/library/Bb774733(v=VS.85).aspx">LVIS_SELECTED</a> will cause only the item's selection state to be retrieved. 
+					<b>state</b> member will be retrieved or modified. For example, setting this member to <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-item-states">LVIS_SELECTED</a> will cause only the item's selection state to be retrieved. 
 
 
 
@@ -227,14 +227,14 @@ To retrieve or modify all of the states, set this member to (<b>UINT</b>)-1.
 
 
 
-You can use the macro <a href="https://msdn.microsoft.com/en-us/library/Bb775102(v=VS.85).aspx">ListView_SetItemState</a> both to set and to clear bits.
+You can use the macro <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-listview_setitemstate">ListView_SetItemState</a> both to set and to clear bits.
 
 
 ### -field pszText
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPTSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
-If the structure specifies item attributes, <b>pszText</b> is a pointer to a null-terminated string containing the item text. When responding to an <a href="https://msdn.microsoft.com/en-us/library/Bb774818(v=VS.85).aspx">LVN_GETDISPINFO</a> notification, be sure that this pointer remains valid until after the next notification has been received.
+If the structure specifies item attributes, <b>pszText</b> is a pointer to a null-terminated string containing the item text. When responding to an <a href="https://docs.microsoft.com/windows/desktop/Controls/lvn-getdispinfo">LVN_GETDISPINFO</a> notification, be sure that this pointer remains valid until after the next notification has been received.
 
 
 
@@ -242,11 +242,11 @@ If the structure receives item attributes, <b>pszText</b> is a pointer to a buff
 
 
 
-If the value of  <b>pszText</b> is LPSTR_TEXTCALLBACK, the item is a <a href="https://msdn.microsoft.com/en-us/library/Bb774735(v=VS.85).aspx">callback item</a>. If the callback text changes, you must explicitly set <b>pszText</b> to LPSTR_TEXTCALLBACK and notify the list-view control of the change by sending an <a href="https://msdn.microsoft.com/en-us/library/Bb761186(v=VS.85).aspx">LVM_SETITEM</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb761198(v=VS.85).aspx">LVM_SETITEMTEXT</a> message.
+If the value of  <b>pszText</b> is LPSTR_TEXTCALLBACK, the item is a <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-controls-overview">callback item</a>. If the callback text changes, you must explicitly set <b>pszText</b> to LPSTR_TEXTCALLBACK and notify the list-view control of the change by sending an <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setitem">LVM_SETITEM</a> or <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setitemtext">LVM_SETITEMTEXT</a> message.
 
 
 
-Do not set <b>pszText</b> to LPSTR_TEXTCALLBACK if the list-view control has the <a href="https://msdn.microsoft.com/en-us/library/Bb774739(v=VS.85).aspx">LVS_SORTASCENDING</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb774739(v=VS.85).aspx">LVS_SORTDESCENDING</a> style.
+Do not set <b>pszText</b> to LPSTR_TEXTCALLBACK if the list-view control has the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-window-styles">LVS_SORTASCENDING</a> or <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-window-styles">LVS_SORTDESCENDING</a> style.
 
 
 ### -field cchTextMax
@@ -257,7 +257,7 @@ Number of <b>TCHAR</b><b>s</b> in the buffer pointed to by <b>pszText</b>,  incl
 
 
 
-This member is only used when the structure receives item attributes. It is ignored when the structure specifies item attributes. For example, <b>cchTextMax</b> is ignored during <a href="https://msdn.microsoft.com/en-us/library/Bb761186(v=VS.85).aspx">LVM_SETITEM</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb761107(v=VS.85).aspx">LVM_INSERTITEM</a>. It is read-only during <a href="https://msdn.microsoft.com/en-us/library/Bb774818(v=VS.85).aspx">LVN_GETDISPINFO</a> and other LVN_ notifications.
+This member is only used when the structure receives item attributes. It is ignored when the structure specifies item attributes. For example, <b>cchTextMax</b> is ignored during <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setitem">LVM_SETITEM</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-insertitem">LVM_INSERTITEM</a>. It is read-only during <a href="https://docs.microsoft.com/windows/desktop/Controls/lvn-getdispinfo">LVN_GETDISPINFO</a> and other LVN_ notifications.
 
 
 
@@ -270,14 +270,14 @@ This member is only used when the structure receives item attributes. It is igno
 
 Type: <b>int</b>
 
-Index of the item's icon in the control's image list. This applies to both the large and small image list. If this member is the I_IMAGECALLBACK value, the parent window is responsible for storing the index. In this case, the list-view control sends the parent an <a href="https://msdn.microsoft.com/en-us/library/Bb774818(v=VS.85).aspx">LVN_GETDISPINFO</a> notification code to retrieve the index when it needs to display the image.
+Index of the item's icon in the control's image list. This applies to both the large and small image list. If this member is the I_IMAGECALLBACK value, the parent window is responsible for storing the index. In this case, the list-view control sends the parent an <a href="https://docs.microsoft.com/windows/desktop/Controls/lvn-getdispinfo">LVN_GETDISPINFO</a> notification code to retrieve the index when it needs to display the image.
 
 
 ### -field lParam
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
-Value specific to the item. If you use the <a href="https://msdn.microsoft.com/en-us/library/Bb761227(v=VS.85).aspx">LVM_SORTITEMS</a> message, the list-view control passes this value to the application-defined comparison function. You can also use the <a href="https://msdn.microsoft.com/en-us/library/Bb774903(v=VS.85).aspx">LVM_FINDITEM</a> message to search a list-view control for an item with a specified <b>lParam</b> value. 
+Value specific to the item. If you use the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-sortitems">LVM_SORTITEMS</a> message, the list-view control passes this value to the application-defined comparison function. You can also use the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-finditem">LVM_FINDITEM</a> message to search a list-view control for an item with a specified <b>lParam</b> value. 
 
 
 ### -field iIndent
@@ -285,7 +285,7 @@ Value specific to the item. If you use the <a href="https://msdn.microsoft.com/e
 Type: <b>int</b>
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 4.70</a>. Number of image widths to indent the item. A single indentation equals the width of an item image. Therefore, the value 1 indents the item by the width of one image, the value 2 indents by two images, and so on. Note that this field is supported only for items. Attempting to set subitem indentation will cause the calling function to fail. 
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.70</a>. Number of image widths to indent the item. A single indentation equals the width of an item image. Therefore, the value 1 indents the item by the width of one image, the value 2 indents by two images, and so on. Note that this field is supported only for items. Attempting to set subitem indentation will cause the calling function to fail. 
 
 
 ### -field iGroupId
@@ -293,7 +293,7 @@ Type: <b>int</b>
 Type: <b>int</b>
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.0</a> Identifier of the group that the item belongs to, or one of the following values.
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 6.0</a> Identifier of the group that the item belongs to, or one of the following values.
                 
 
 <table>
@@ -307,7 +307,7 @@ Type: <b>int</b>
 </dl>
 </td>
 <td width="60%">
-The listview control sends the parent an <a href="https://msdn.microsoft.com/en-us/library/Bb774818(v=VS.85).aspx">LVN_GETDISPINFO</a> notification code to retrieve the index of the group.
+The listview control sends the parent an <a href="https://docs.microsoft.com/windows/desktop/Controls/lvn-getdispinfo">LVN_GETDISPINFO</a> notification code to retrieve the index of the group.
 
 </td>
 </tr>
@@ -327,18 +327,18 @@ The item does not belong to a group.
 
 ### -field cColumns
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.0 </a> Number of data columns (subitems) to display for this item in tile view. The maximum value is 20. If this value is I_COLUMNSCALLBACK, the size of the column array and the array itself (<b>puColumns</b>) are obtained by sending a <a href="https://msdn.microsoft.com/en-us/library/Bb774818(v=VS.85).aspx">LVN_GETDISPINFO</a> notification.
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 6.0 </a> Number of data columns (subitems) to display for this item in tile view. The maximum value is 20. If this value is I_COLUMNSCALLBACK, the size of the column array and the array itself (<b>puColumns</b>) are obtained by sending a <a href="https://docs.microsoft.com/windows/desktop/Controls/lvn-getdispinfo">LVN_GETDISPINFO</a> notification.
 
 
 ### -field puColumns
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">PUINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">PUINT</a></b>
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.0 </a> A pointer to an array of column indices, specifying which columns are displayed for this item, and the order of those columns.
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 6.0 </a> A pointer to an array of column indices, specifying which columns are displayed for this item, and the order of those columns.
 
 
 ### -field piColFmt
@@ -411,7 +411,7 @@ Equivalent to a combination of LVCFMT_LINE_BREAK and LVCFMT_FILL.
 Type: <b>int</b>
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Windows Vista</a>: Group index of the item. Valid only for owner data/callback (single item in multiple groups).
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Windows Vista</a>: Group index of the item. Valid only for owner data/callback (single item in multiple groups).
                 
 
 
@@ -419,13 +419,13 @@ Type: <b>int</b>
 
 
 
-The <b>LVITEM</b> structure is used with several messages, including <a href="https://msdn.microsoft.com/en-us/library/Bb774953(v=VS.85).aspx">LVM_GETITEM</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb761186(v=VS.85).aspx">LVM_SETITEM</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb761107(v=VS.85).aspx">LVM_INSERTITEM</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb774895(v=VS.85).aspx">LVM_DELETEITEM</a>.
+The <b>LVITEM</b> structure is used with several messages, including <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getitem">LVM_GETITEM</a>, <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setitem">LVM_SETITEM</a>, <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-insertitem">LVM_INSERTITEM</a>, and <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-deleteitem">LVM_DELETEITEM</a>.
 
-In tile view, the item name is displayed to the right of the icon. You can specify additional subitems (corresponding to columns in the details view), to be displayed on lines below the item name. The <b>puColumns</b> array contains the indices of subitems to be displayed. Indices should be greater than 0, because subitem 0, the item name, is already displayed. Column information can also be set in the <a href="https://msdn.microsoft.com/en-us/library/Bb774766(v=VS.85).aspx">LVTILEINFO</a> structure when modifying the list item.
+In tile view, the item name is displayed to the right of the icon. You can specify additional subitems (corresponding to columns in the details view), to be displayed on lines below the item name. The <b>puColumns</b> array contains the indices of subitems to be displayed. Indices should be greater than 0, because subitem 0, the item name, is already displayed. Column information can also be set in the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvtileinfo">LVTILEINFO</a> structure when modifying the list item.
 
-For example code, see <a href="https://msdn.microsoft.com/en-us/library/Bb774736(v=VS.85).aspx">Using List-View Controls</a>.
+For example code, see <a href="https://docs.microsoft.com/windows/desktop/Controls/using-list-view-controls">Using List-View Controls</a>.
 
-<div class="alert"><b>Note</b>  Comctl32.dll version 6 is not redistributable but it is included in Windows or later. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.</div>
+<div class="alert"><b>Note</b>  Comctl32.dll version 6 is not redistributable but it is included in Windows or later. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.</div>
 <div> </div>
 
 

@@ -55,13 +55,13 @@ The <code>IAudioProcessingObjectConfiguration</code> interface supports the foll
 <dl>
 <dd>
 
-<a href="https://msdn.microsoft.com/e76c9fc5-15ed-497e-a7da-42b8e3642903">IAudioProcessingObjectConfiguration::LockForProcess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobjectconfiguration-lockforprocess">IAudioProcessingObjectConfiguration::LockForProcess</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/54221040-71b8-4b31-81df-46435f7b2b80">IAudioProcessingObjectConfiguration::UnlockForProcess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobjectconfiguration-unlockforprocess">IAudioProcessingObjectConfiguration::UnlockForProcess</a>
 
 
 </dd>

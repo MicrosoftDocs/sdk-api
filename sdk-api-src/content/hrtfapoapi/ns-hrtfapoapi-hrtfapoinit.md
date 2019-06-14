@@ -72,11 +72,11 @@ The directivity type. If you pass in nullptr, the default value is used. The def
 
 
 
-<a href="https://msdn.microsoft.com/24E3CD0D-FC0D-4B1B-961F-BE48935F7B71">CreateHrtfApo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/hrtfapoapi/nf-hrtfapoapi-createhrtfapo">CreateHrtfApo</a>
 
 
 
-<a href="https://msdn.microsoft.com/3656aaf9-7a3a-2a5b-50f5-d279ce8a9e6c">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/structures">Structures</a>
  
 
  

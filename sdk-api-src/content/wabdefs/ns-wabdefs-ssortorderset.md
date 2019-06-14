@@ -62,7 +62,7 @@ Do not use. Defines a collection of  keys for a table to be used for standard or
 
 Type: <b>ULONG</b>
 
-Variable of type <b>ULONG</b> that specifes the number of <a href="https://msdn.microsoft.com/en-us/library/ms629454(v=VS.85).aspx">SSortOrder</a> structures that are included in the <b>aSort</b> member. 
+Variable of type <b>ULONG</b> that specifes the number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabdefs/ns-wabdefs-_ssortorder">SSortOrder</a> structures that are included in the <b>aSort</b> member. 
 
 
 
@@ -83,7 +83,7 @@ Variable of type <b>ULONG</b> that specifies the number of categories that start
 
 ### -field aSort
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms629454(v=VS.85).aspx">SSortOrder</a>[MAPI_DIM]</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabdefs/ns-wabdefs-_ssortorder">SSortOrder</a>[MAPI_DIM]</b>
 
-Array of variables of type <a href="https://msdn.microsoft.com/en-us/library/ms629454(v=VS.85).aspx">SSortOrder</a> that specifies the structures that define a sort order.
+Array of variables of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabdefs/ns-wabdefs-_ssortorder">SSortOrder</a> that specifies the structures that define a sort order.
 

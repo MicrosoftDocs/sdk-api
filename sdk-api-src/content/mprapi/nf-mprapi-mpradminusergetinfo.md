@@ -61,7 +61,7 @@ The
 ### -param lpszServer [in]
 
 Pointer to a Unicode string that specifies the name of the server  with the master User Accounts Subsystem (UAS). If the remote access server is part of a domain, the computer with the UAS is either the primary domain controller or the backup domain controller. If the remote access server is not part of a domain, then the server itself  stores the UAS. In either case, call the 
-<a href="https://msdn.microsoft.com/96bd5e88-5b13-41b2-ab3a-f9995cae36f8">MprAdminGetPDCServer</a> function to obtain the value for this parameter. 
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmingetpdcserver">MprAdminGetPDCServer</a> function to obtain the value for this parameter. 
 
 
 
@@ -87,13 +87,13 @@ This parameter may be zero or one.
 ### -param lpbBuffer [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/f034c6c2-2dac-40bf-b810-9bf6f3eb3c41">RAS_USER_0</a> or <a href="https://msdn.microsoft.com/4699346e-0ed0-4091-a8d5-8a12cd6bfbcf">RAS_USER_1</a> structure. The caller must allocate (and free) the memory for this structure. Upon successful return, this structure contains the RAS data for the specified user. 
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_user_0">RAS_USER_0</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_user_1">RAS_USER_1</a> structure. The caller must allocate (and free) the memory for this structure. Upon successful return, this structure contains the RAS data for the specified user. 
 
 
 
 
 <b>Windows NT Server 4.0 with SP3 and later:  </b>If the <i>dwLevel</i> parameter specifies zero, <i>lpbBuffer</i> should point to a 
-<a href="https://msdn.microsoft.com/f034c6c2-2dac-40bf-b810-9bf6f3eb3c41">RAS_USER_0</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_user_0">RAS_USER_0</a> structure.
 
 
 ## -returns
@@ -164,10 +164,10 @@ The user specified by <i>lpwsUserName</i> does not exist on the server specified
 
 
 This function is available on Windows NT 4.0 if the RRAS redistributable is installed. However, the version of Mprapi.dll that ships with the RRAS redistributable exports the function as 
-<a href="https://msdn.microsoft.com/178ff775-9cd2-43f0-9a9a-dbae337c5fe8">RasAdminUserGetInfo</a> rather than 
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/rasadminusergetinfo">RasAdminUserGetInfo</a> rather than 
 <b>MprAdminUserGetInfo</b>. Therefore, when using the RRAS redistributable, use 
-<a href="https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx">LoadLibrary</a> and 
-<a href="https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx">GetProcAddress</a> to access this function.
+<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access this function.
 
 
 
@@ -177,23 +177,23 @@ This function is available on Windows NT 4.0 if the RRAS redistributable is ins
 
 
 
-<a href="https://msdn.microsoft.com/96bd5e88-5b13-41b2-ab3a-f9995cae36f8">MprAdminGetPDCServer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmingetpdcserver">MprAdminGetPDCServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f4d5213-56b4-43d2-93c8-ee5ca50b2a19">MprAdminUserSetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminusersetinfo">MprAdminUserSetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/27cf63e2-9dd3-4bc1-98af-e93055d89492">RAS Administration Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-functions">RAS Administration Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/f034c6c2-2dac-40bf-b810-9bf6f3eb3c41">RAS_USER_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_user_0">RAS_USER_0</a>
 
 
 
-<a href="https://msdn.microsoft.com/6170fcf2-26d5-4418-bddb-2afd99510520">Remote Access Service Administration Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
  
 
  

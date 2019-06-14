@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves a weak reference from an <a href="https://msdn.microsoft.com/f4b85374-192b-4024-80c2-a46bfebb16c1">IWeakReferenceSource</a>.
+Retrieves a weak reference from an <a href="https://docs.microsoft.com/windows/desktop/api/weakreference/nn-weakreference-iweakreferencesource">IWeakReferenceSource</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Retrieves a weak reference from an <a href="https://msdn.microsoft.com/f4b85374-
 
 ### -param weakReference [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/fae8bf21-2a38-4e98-9a11-89c548da9e95">IWeakReference</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/weakreference/nn-weakreference-iweakreference">IWeakReference</a>**</b>
 
 The weak reference.
 
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/f4b85374-192b-4024-80c2-a46bfebb16c1">IWeakReferenceSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/weakreference/nn-weakreference-iweakreferencesource">IWeakReferenceSource</a>
  
 
  

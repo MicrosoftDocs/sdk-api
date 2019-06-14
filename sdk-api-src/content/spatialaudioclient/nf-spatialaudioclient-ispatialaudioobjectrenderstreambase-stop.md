@@ -73,8 +73,8 @@ If the method succeeds, it returns S_OK. If the stream is not running when this 
 
 
  Stopping stream causes data to stop flowing between the endpoint buffer and the audio engine.  
-    You can consider this operation to pause the stream because it leaves the stream's audio clock at its current stream position and does not reset it to 0. A subsequent call to <a href="https://msdn.microsoft.com/25D968AC-F5D2-4CAB-87ED-29FC63E5A5A4">Start</a> causes the stream to resume running from the current position.  
-    Call <a href="https://msdn.microsoft.com/F6F096C0-3384-4463-B25F-99C6A7B3263B">Reset</a> to  reset the clock position to 0 and cause all active <a href="https://msdn.microsoft.com/EE83AF5F-4342-4CF2-81A7-1123F8DAFA6F">ISpatialAudioObject</a> instances to be revoked.  
+    You can consider this operation to pause the stream because it leaves the stream's audio clock at its current stream position and does not reset it to 0. A subsequent call to <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-start">Start</a> causes the stream to resume running from the current position.  
+    Call <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-reset">Reset</a> to  reset the clock position to 0 and cause all active <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobject">ISpatialAudioObject</a> instances to be revoked.  
 
 
 
@@ -85,7 +85,7 @@ If the method succeeds, it returns S_OK. If the stream is not running when this 
 
 
 
-<a href="https://msdn.microsoft.com/B4D10CC6-62BF-4D20-910F-E39DF812010D">ISpatialAudioObjectRenderStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstream">ISpatialAudioObjectRenderStream</a>
 
 
 

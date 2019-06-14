@@ -68,7 +68,7 @@ The element that implements the pattern.
 
 Type: <b>PATTERNID</b>
 
-The identifier of the control pattern being requested. For a list of control pattern IDs, see <a href="https://msdn.microsoft.com/0192e840-96e6-4b12-a570-0d33a36ed885">Control Pattern Identifiers</a>.
+The identifier of the control pattern being requested. For a list of control pattern IDs, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-controlpattern-ids">Control Pattern Identifiers</a>.
 
 
 ### -param phobj [out]
@@ -83,7 +83,7 @@ The address of a variable that receives a handle to the control pattern.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK if successful or an error value otherwise.
 

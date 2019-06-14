@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/43deb1b7-dfcb-46cc-b12d-0f8bfb18dd74">IInstallationBehavior</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iinstallationbehavior">IInstallationBehavior</a>
  
 
  

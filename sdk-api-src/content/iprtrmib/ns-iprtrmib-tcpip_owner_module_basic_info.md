@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>TCPIP_OWNER_MODULE_BASIC_INFO</b> structure contains pointers to the module name and module path values associated with a TCP connection. The <b>TCPIP_OWNER_MODULE_BASIC_INFO</b> structure is returned by the <a href="https://msdn.microsoft.com/12162f0a-56c1-4f81-a1f5-3cd5ad975d0d">GetOwnerModuleFromTcpEntry</a> and <a href="https://msdn.microsoft.com/021679fc-91de-4e3b-956d-bb00b1856f20">GetOwnerModuleFromTcp6Entry</a> functions.
+The <b>TCPIP_OWNER_MODULE_BASIC_INFO</b> structure contains pointers to the module name and module path values associated with a TCP connection. The <b>TCPIP_OWNER_MODULE_BASIC_INFO</b> structure is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getownermodulefromtcpentry">GetOwnerModuleFromTcpEntry</a> and <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getownermodulefromtcp6entry">GetOwnerModuleFromTcp6Entry</a> functions.
 
 
 ## -struct-fields
@@ -60,12 +60,12 @@ The <b>TCPIP_OWNER_MODULE_BASIC_INFO</b> structure contains pointers to the modu
 
 ### -field pModuleName
 
-A pointer to the name of the module. This field should be a <b>NULL</b> pointer when passed to <a href="https://msdn.microsoft.com/12162f0a-56c1-4f81-a1f5-3cd5ad975d0d">GetOwnerModuleFromTcpEntry</a> or <a href="https://msdn.microsoft.com/021679fc-91de-4e3b-956d-bb00b1856f20">GetOwnerModuleFromTcp6Entry</a> function.
+A pointer to the name of the module. This field should be a <b>NULL</b> pointer when passed to <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getownermodulefromtcpentry">GetOwnerModuleFromTcpEntry</a> or <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getownermodulefromtcp6entry">GetOwnerModuleFromTcp6Entry</a> function.
 
 
 ### -field pModulePath
 
-A pointer to the full path of the module, including the module name. This field should be a <b>NULL</b> pointer when passed to <a href="https://msdn.microsoft.com/12162f0a-56c1-4f81-a1f5-3cd5ad975d0d">GetOwnerModuleFromTcpEntry</a> or <a href="https://msdn.microsoft.com/021679fc-91de-4e3b-956d-bb00b1856f20">GetOwnerModuleFromTcp6Entry</a> function.
+A pointer to the full path of the module, including the module name. This field should be a <b>NULL</b> pointer when passed to <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getownermodulefromtcpentry">GetOwnerModuleFromTcpEntry</a> or <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getownermodulefromtcp6entry">GetOwnerModuleFromTcp6Entry</a> function.
 
 
 ## -remarks

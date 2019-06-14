@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Reset</b> method resets the enumeration sequence to the beginning of the <a href="https://msdn.microsoft.com/54e1df08-de8f-430a-bf76-e66594df4839">STATSTG</a> structure array.
+The <b>Reset</b> method resets the enumeration sequence to the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structure array.
 
 
 ## -parameters
@@ -92,7 +92,7 @@ The enumeration sequence was successfully reset to the beginning of the enumerat
 
 
 
-<a href="https://msdn.microsoft.com/93b8b14e-94e4-460b-9846-413affad8e4f">IEnumSTATSTG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstatstg">IEnumSTATSTG</a>
  
 
  

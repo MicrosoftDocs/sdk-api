@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>DS_SCHEMA_GUID_MAP</b> structure contains the results of a call to 
-<a href="https://msdn.microsoft.com/439fff20-51eb-490d-a330-61d07f79c436">DsMapSchemaGuids</a>. If <a href="https://msdn.microsoft.com/439fff20-51eb-490d-a330-61d07f79c436">DsMapSchemaGuids</a> succeeds in mapping a GUID, <b>DS_SCHEMA_GUID_MAP</b> contains both the GUID and a display name for the object to which the GUID refers.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsmapschemaguidsa">DsMapSchemaGuids</a>. If <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsmapschemaguidsa">DsMapSchemaGuids</a> succeeds in mapping a GUID, <b>DS_SCHEMA_GUID_MAP</b> contains both the GUID and a display name for the object to which the GUID refers.
 
 
 ## -struct-fields
@@ -63,12 +63,12 @@ The <b>DS_SCHEMA_GUID_MAP</b> structure contains the results of a call to
 ### -field guid
 
 
-<a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a> structure that specifies the object GUID.
+<a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structure that specifies the object GUID.
 
 
 ### -field guidType
 
-Indicates the type of GUID mapped by <a href="https://msdn.microsoft.com/439fff20-51eb-490d-a330-61d07f79c436">DsMapSchemaGuids</a>.
+Indicates the type of GUID mapped by <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsmapschemaguidsa">DsMapSchemaGuids</a>.
 
 
 
@@ -113,7 +113,7 @@ The GUID cannot be found in the directory service schema.
 
 ### -field pName
 
-Pointer to a null-terminated string value that specifies the display name associated with the GUID. This value may be <b>NULL</b> if <a href="https://msdn.microsoft.com/439fff20-51eb-490d-a330-61d07f79c436">DsMapSchemaGuids</a> was unable to map the GUID to a display name.
+Pointer to a null-terminated string value that specifies the display name associated with the GUID. This value may be <b>NULL</b> if <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsmapschemaguidsa">DsMapSchemaGuids</a> was unable to map the GUID to a display name.
 
 
 ##### - guidType.DS_SCHEMA_GUID_ATTR
@@ -146,19 +146,19 @@ The GUID cannot be found in the directory service schema.
 
 
 
-<a href="https://msdn.microsoft.com/42b20d3b-1799-4f5f-b74e-fe9284dd8ac3">Domain Controller and Replication Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/domain-controller-and-replication-management-structures">Domain Controller and Replication Management Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/54d6acb9-5602-4996-a483-08534143bc0a">DsFreeSchemaGuidMap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsfreeschemaguidmapa">DsFreeSchemaGuidMap</a>
 
 
 
-<a href="https://msdn.microsoft.com/439fff20-51eb-490d-a330-61d07f79c436">DsMapSchemaGuids</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsmapschemaguidsa">DsMapSchemaGuids</a>
 
 
 
-<a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a>
+<a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a>
  
 
  

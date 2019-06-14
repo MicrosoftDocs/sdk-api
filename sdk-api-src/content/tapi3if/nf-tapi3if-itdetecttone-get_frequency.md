@@ -121,11 +121,11 @@ You can set up to three frequencies that make up the components of a tone. If fe
 
 
 
-<a href="https://msdn.microsoft.com/c03db3e2-3dc9-443f-8acf-66c06940e0b9">ITDetectTone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itdetecttone">ITDetectTone</a>
 
 
 
-<a href="https://msdn.microsoft.com/83895e55-61ab-464b-bb85-e81d15dd96e1">put_Frequency</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itdetecttone-put_frequency">put_Frequency</a>
  
 
  

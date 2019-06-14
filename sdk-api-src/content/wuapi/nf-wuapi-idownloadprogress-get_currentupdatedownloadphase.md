@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets a <a href="https://msdn.microsoft.com/a7e930dd-1dfa-42cc-9761-d4252c9a92ae">DownloadPhase</a> enumeration value that specifies the phase of the download that is currently in progress.
+Gets a <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-tagdownloadphase">DownloadPhase</a> enumeration value that specifies the phase of the download that is currently in progress.
 
 This property is read-only.
 
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/773de760-5fde-4975-ba8d-d20b3affb4a7">IDownloadProgress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-idownloadprogress">IDownloadProgress</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>BCRYPT_OID</b> structure contains information about a <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">DER</a>-encoded <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID). CNG uses  hash OIDs in functions that sign or verify data in <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">PKCS #1</a> format.
+The <b>BCRYPT_OID</b> structure contains information about a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">DER</a>-encoded <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID). CNG uses  hash OIDs in functions that sign or verify data in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">PKCS #1</a> format.
 
 
 ## -struct-fields
@@ -72,11 +72,11 @@ The address of a buffer that contains the OID.
 
 
 
-<a href="https://msdn.microsoft.com/ebcc8202-94b4-47ad-9918-e5bc843a258f">BCRYPT_HASH_OID_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-property-identifiers">BCRYPT_HASH_OID_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/5e07d4a9-88eb-4644-a9be-e39c52b97ea7">BCRYPT_OID_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_oid_list">BCRYPT_OID_LIST</a>
  
 
  

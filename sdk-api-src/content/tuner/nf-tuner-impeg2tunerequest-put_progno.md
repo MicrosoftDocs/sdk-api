@@ -76,7 +76,7 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="https://msdn.microsoft.com/a9e37b8b-9272-43c6-b36e-1e82b0d1b0db">IMPEG2TuneRequest Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-impeg2tunerequest">IMPEG2TuneRequest Interface</a>
  
 
  

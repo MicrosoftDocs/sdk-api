@@ -61,7 +61,7 @@ The
 ### -param LookupContext
 
 Pointer to the name-service handle to free. The name-service handle <i>LookupContext</i> points to is created by calling the 
-<a href="https://msdn.microsoft.com/75b7e901-706a-4e3d-b958-d04a0709b993">RpcNsBindingLookupBegin</a> function. 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupbegina">RpcNsBindingLookupBegin</a> function. 
 
 
 
@@ -93,7 +93,7 @@ The call succeeded.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -104,11 +104,11 @@ The call succeeded.
 
 The 
 <b>RpcNsBindingLookupDone</b> function frees a lookup context created by calling the 
-<a href="https://msdn.microsoft.com/75b7e901-706a-4e3d-b958-d04a0709b993">RpcNsBindingLookupBegin</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupbegina">RpcNsBindingLookupBegin</a> function.
 
 Typically, a client application calls 
 <b>RpcNsBindingLookupDone</b> after completing remote procedure calls to a server using a binding handle returned from the 
-<a href="https://msdn.microsoft.com/068913fb-f9ca-4e03-93d7-3484ba43472e">RpcNsBindingLookupNext</a> function. However, a client application is responsible for calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupnext">RpcNsBindingLookupNext</a> function. However, a client application is responsible for calling 
 <b>RpcNsBindingLookupDone</b> for each created lookup context, regardless of the status returned from the 
 <b>RpcNsBindingLookupNext</b> function or the success in making remote procedure calls.
 
@@ -120,11 +120,11 @@ Typically, a client application calls
 
 
 
-<a href="https://msdn.microsoft.com/75b7e901-706a-4e3d-b958-d04a0709b993">RpcNsBindingLookupBegin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupbegina">RpcNsBindingLookupBegin</a>
 
 
 
-<a href="https://msdn.microsoft.com/068913fb-f9ca-4e03-93d7-3484ba43472e">RpcNsBindingLookupNext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupnext">RpcNsBindingLookupNext</a>
  
 
  

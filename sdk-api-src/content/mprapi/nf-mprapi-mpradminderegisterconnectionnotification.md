@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>MprAdminDeregisterConnectionNotification</b> function deregisters an event object that was previously registered using 
-<a href="https://msdn.microsoft.com/ba70154b-a2d1-4121-bea6-4572446bf9ee">MprAdminRegisterConnectionNotification</a>. Once deregistered, this event is no longer signaled when an interface connects or disconnects.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminregisterconnectionnotification">MprAdminRegisterConnectionNotification</a>. Once deregistered, this event is no longer signaled when an interface connects or disconnects.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param hMprServer [in]
 
 Handle to the router on which to execute this call. Obtain this handle by calling 
-<a href="https://msdn.microsoft.com/f93b37bc-d3d1-40f0-aef6-839bb43c88e2">MprAdminServerConnect</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
 
 
 ### -param hEventNotification [in]
@@ -124,7 +124,7 @@ The <i>hEventNotification</i> parameter is <b>NULL</b> or is an invalid handle.
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -143,19 +143,19 @@ Use
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/ba70154b-a2d1-4121-bea6-4572446bf9ee">MprAdminRegisterConnectionNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminregisterconnectionnotification">MprAdminRegisterConnectionNotification</a>
 
 
 
-<a href="https://msdn.microsoft.com/a61734a7-b171-4e38-8dec-46be9a9c08ee">Router Administration Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/352505a9-616a-4d47-9857-f88d345333fd">Router Management Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
  
 
  

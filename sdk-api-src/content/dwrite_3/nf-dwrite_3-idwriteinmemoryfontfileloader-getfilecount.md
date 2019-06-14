@@ -76,7 +76,7 @@ Returns the number of font file references that have been created using this loa
 
 
 
-<a href="https://msdn.microsoft.com/E4B2ADAD-E4B8-4655-BABD-F3FC6A3D4F58">IDWriteInMemoryFontFileLoader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwriteinmemoryfontfileloader">IDWriteInMemoryFontFileLoader</a>
  
 
  

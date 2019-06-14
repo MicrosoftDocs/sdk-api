@@ -58,7 +58,7 @@ Represents a Windows Machine Learning model with corresponding metadata; include
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWinMLModel</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWinMLModel</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWinMLModel</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWinMLModel</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IWinMLModel</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ABB51498-44CE-4B98-89FB-ED8B9B8159ED">EnumerateMetadata</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winml/nf-winml-iwinmlmodel-enumeratemetadata">EnumerateMetadata</a>
 </td>
 <td align="left" width="63%">
 Gets the metadata of the model.
@@ -82,7 +82,7 @@ Gets the metadata of the model.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A87B24B0-9463-4022-9054-08F3D7BA5034">EnumerateModelInputs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winml/nf-winml-iwinmlmodel-enumeratemodelinputs">EnumerateModelInputs</a>
 </td>
 <td align="left" width="63%">
 Enumerates the WinML model inputs.
@@ -91,7 +91,7 @@ Enumerates the WinML model inputs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F946AF8E-67BE-4F4B-9BE3-2142CE646B0B">EnumerateModelOutputs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winml/nf-winml-iwinmlmodel-enumeratemodeloutputs">EnumerateModelOutputs</a>
 </td>
 <td align="left" width="63%">
 Enumerates the WinML model outputs.
@@ -100,7 +100,7 @@ Enumerates the WinML model outputs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/57B05316-8E6B-4490-B181-EB1717B15E31">GetDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winml/nf-winml-iwinmlmodel-getdescription">GetDescription</a>
 </td>
 <td align="left" width="63%">
 Retrieves the WinML model description.

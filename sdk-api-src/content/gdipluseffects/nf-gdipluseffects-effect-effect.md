@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/en-us/library/ms534433(v=VS.85).aspx">Effect</a> object. 
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-effect">Effect</a> object. 
 
 
 ## -parameters

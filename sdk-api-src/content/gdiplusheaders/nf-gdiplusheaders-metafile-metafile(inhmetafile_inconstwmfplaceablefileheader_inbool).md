@@ -67,9 +67,9 @@ Windows handle to a metafile.
 
 ### -param wmfPlaceableFileHeader [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534075(v=VS.85).aspx">WmfPlaceableFileHeader</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmetaheader/ns-gdiplusmetaheader-wmfplaceablefileheader">WmfPlaceableFileHeader</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534075(v=VS.85).aspx">WmfPlaceableFileHeader</a> structure that specifies a preheader preceding the metafile header. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmetaheader/ns-gdiplusmetaheader-wmfplaceablefileheader">WmfPlaceableFileHeader</a> structure that specifies a preheader preceding the metafile header. 
 
 
 ### -param deleteWmf [in]
@@ -93,11 +93,11 @@ Placeable metafiles are WMF files that contain a preheader preceding the metafil
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534477(v=VS.85).aspx">Metafile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534071(v=VS.85).aspx">PWMFRect16</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmetaheader/ns-gdiplusmetaheader-pwmfrect16">PWMFRect16</a>
  
 
  

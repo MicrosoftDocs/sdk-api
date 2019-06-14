@@ -79,7 +79,7 @@ Type: <b>BOOL</b>
 
 Returns nonzero if successful, or zero otherwise.
 
-To retrieve extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+To retrieve extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -98,7 +98,7 @@ All items in the menu share this identifier. Help context identifiers can't be a
 
 
 
-<a href="https://msdn.microsoft.com/2b8d3e94-6860-4a75-8373-38afb641eb3b">GetMenuContextHelpId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmenucontexthelpid">GetMenuContextHelpId</a>
  
 
  

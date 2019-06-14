@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains a stream item used by the <a href="https://msdn.microsoft.com/en-us/library/Bb775725(v=VS.85).aspx">PFNDPASTREAM</a> callback function. 
+Contains a stream item used by the <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndpastream">PFNDPASTREAM</a> callback function. 
 
 
 ## -struct-fields

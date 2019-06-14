@@ -65,7 +65,7 @@ Pointer to the local name or remote name for a connected resource.
 ### -param lpNetConnectInfo [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/0309667e-cb6c-406f-bb48-ed16602d38b2">NETCONNECTINFOSTRUCT</a> structure, which is filled in by the network provider if the provider has a connection to the network resource. All other fields of this structure, except the <b>cbStructure</b> field, are filled with zeros before the MPR passes the request on to the network providers. As a result, the provider has to write only to fields for which it has information available. Also, for rate values, a value of 1 means that the performance is better than can be represented in the unit.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-_netconnectinfostruct">NETCONNECTINFOSTRUCT</a> structure, which is filled in by the network provider if the provider has a connection to the network resource. All other fields of this structure, except the <b>cbStructure</b> field, are filled with zeros before the MPR passes the request on to the network providers. As a result, the provider has to write only to fields for which it has information available. Also, for rate values, a value of 1 means that the performance is better than can be represented in the unit.
 
 The information returned may be an estimate. If the network cannot obtain information about the resource on the network, it can return information about the network adapter and its associated performance and then set the <b>dwFlags</b> field accordingly.
 

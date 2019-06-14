@@ -60,23 +60,23 @@ Retrieves a set of lighting properties that this device uses.
 
 ### -param Index [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Zero-based index of the lighting property set to retrieve. This method will fail if a lighting property has not been set for this index by calling the <a href="https://msdn.microsoft.com/en-us/library/Bb174436(v=VS.85).aspx">IDirect3DDevice9::SetLight</a> method. 
+Zero-based index of the lighting property set to retrieve. This method will fail if a lighting property has not been set for this index by calling the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setlight">IDirect3DDevice9::SetLight</a> method. 
 
 
 ### -param arg2 [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172566(v=VS.85).aspx">D3DLight9</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dlight9">D3DLight9</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb172566(v=VS.85).aspx">D3DLIGHT9</a> structure that is filled with the retrieved lighting-parameter set. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dlight9">D3DLIGHT9</a> structure that is filled with the retrieved lighting-parameter set. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 
@@ -87,9 +87,9 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-This method will not return device state for a device that is created using D3DCREATE_PUREDEVICE. If you want to use this method, you must create your device with any of the other values in <a href="https://msdn.microsoft.com/en-us/library/Bb172527(v=VS.85).aspx">D3DCREATE</a>.
+This method will not return device state for a device that is created using D3DCREATE_PUREDEVICE. If you want to use this method, you must create your device with any of the other values in <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dcreate">D3DCREATE</a>.
 
-Retrieve all the properties for an existing light source by calling the <b>IDirect3DDevice9::GetLight</b> method for the device. When calling the <b>IDirect3DDevice9::GetLight</b> method, pass the zero-based index of the light source for which the properties will be retrieved as the first parameter, and supply the address of a <a href="https://msdn.microsoft.com/en-us/library/Bb172566(v=VS.85).aspx">D3DLIGHT9</a> structure as the second parameter. The device fills the <b>D3DLIGHT9</b> structure to describe the lighting properties it uses for the light source at that index.
+Retrieve all the properties for an existing light source by calling the <b>IDirect3DDevice9::GetLight</b> method for the device. When calling the <b>IDirect3DDevice9::GetLight</b> method, pass the zero-based index of the light source for which the properties will be retrieved as the first parameter, and supply the address of a <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dlight9">D3DLIGHT9</a> structure as the second parameter. The device fills the <b>D3DLIGHT9</b> structure to describe the lighting properties it uses for the light source at that index.
 
 
 ```
@@ -110,7 +110,7 @@ else
 
 If you supply an index outside the range of the light sources assigned in the device, the <b>IDirect3DDevice9::GetLight</b> method fails, returning D3DERR_INVALIDCALL.
 
-When you assign a set of light properties for a light source in a scene, the light source can be activated by calling the <a href="https://msdn.microsoft.com/en-us/library/Bb174421(v=VS.85).aspx">IDirect3DDevice9::LightEnable</a> method for the device. New light sources are disabled by default. The <b>IDirect3DDevice9::LightEnable</b> method accepts two parameters. Set the first parameter to the zero-based index of the light source to be affected by the method, and set the second parameter to <b>TRUE</b> to enable the light or <b>FALSE</b> to disable it. The following code example illustrates the use of this method by enabling the first light source in the device's list of light source properties.
+When you assign a set of light properties for a light source in a scene, the light source can be activated by calling the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-lightenable">IDirect3DDevice9::LightEnable</a> method for the device. New light sources are disabled by default. The <b>IDirect3DDevice9::LightEnable</b> method accepts two parameters. Set the first parameter to the zero-based index of the light source to be affected by the method, and set the second parameter to <b>TRUE</b> to enable the light or <b>FALSE</b> to disable it. The following code example illustrates the use of this method by enabling the first light source in the device's list of light source properties.
 
 
 ```
@@ -127,9 +127,9 @@ else
 ```
 
 
-Check the MaxActiveLights member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172513(v=VS.85).aspx">D3DCAPS9</a> structure when you retrieve device capabilities to determine the maximum number of active lights supported by that device.
+Check the MaxActiveLights member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3dcaps9">D3DCAPS9</a> structure when you retrieve device capabilities to determine the maximum number of active lights supported by that device.
 
-If you enable or disable a light that has no properties that are set with <a href="https://msdn.microsoft.com/en-us/library/Bb174436(v=VS.85).aspx">IDirect3DDevice9::SetLight</a>, the <a href="https://msdn.microsoft.com/en-us/library/Bb174421(v=VS.85).aspx">IDirect3DDevice9::LightEnable</a> method creates a light source with the properties listed in following table and enables or disables it.
+If you enable or disable a light that has no properties that are set with <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setlight">IDirect3DDevice9::SetLight</a>, the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-lightenable">IDirect3DDevice9::LightEnable</a> method creates a light source with the properties listed in following table and enables or disables it.
 
 
 
@@ -139,19 +139,19 @@ If you enable or disable a light that has no properties that are set with <a hre
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174393(v=VS.85).aspx">IDirect3DDevice9::GetLightEnable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getlightenable">IDirect3DDevice9::GetLightEnable</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174421(v=VS.85).aspx">IDirect3DDevice9::LightEnable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-lightenable">IDirect3DDevice9::LightEnable</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174436(v=VS.85).aspx">IDirect3DDevice9::SetLight</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setlight">IDirect3DDevice9::SetLight</a>
  
 
  

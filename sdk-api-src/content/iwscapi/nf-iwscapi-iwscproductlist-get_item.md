@@ -64,7 +64,7 @@ The list of the providers.
 
 ### -param pVal [out]
 
-A pointer to the <a href="https://msdn.microsoft.com/C637E67A-CED7-4235-AAF3-22730E9C7E91">IWscProduct</a> product information.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/iwscapi/nn-iwscapi-iwscproduct">IWscProduct</a> product information.
 
 
 ## -returns
@@ -82,7 +82,7 @@ If the method  fails, returns a Win32 error code.
 
 
 
-A provider is obtained by calling the <b>Item</b> method, which returns an interface pointer to an initialized <a href="https://msdn.microsoft.com/C637E67A-CED7-4235-AAF3-22730E9C7E91">IWscProduct</a> object.  The user is then able to retrieve the name, product state, and signature status through the methods of the <b>IWscProduct</b> interface.   
+A provider is obtained by calling the <b>Item</b> method, which returns an interface pointer to an initialized <a href="https://docs.microsoft.com/windows/desktop/api/iwscapi/nn-iwscapi-iwscproduct">IWscProduct</a> object.  The user is then able to retrieve the name, product state, and signature status through the methods of the <b>IWscProduct</b> interface.   
 
 
 
@@ -92,7 +92,7 @@ A provider is obtained by calling the <b>Item</b> method, which returns an inter
 
 
 
-<a href="https://msdn.microsoft.com/81BC78F1-6F95-49D3-8EDD-EB7E13119A86">IWSCProductList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iwscapi/nn-iwscapi-iwscproductlist">IWSCProductList</a>
  
 
  

@@ -61,12 +61,12 @@ Establishes a connection to a remote computer that you can use when calling the 
 
 ### -param LoginClass [in]
 
-The connection method to use to connect to the remote computer. For possible values, see the <a href="https://msdn.microsoft.com/8d53402b-2d2c-4f93-8e98-4449701052b0">EVT_LOGIN_CLASS</a> enumeration.
+The connection method to use to connect to the remote computer. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_login_class">EVT_LOGIN_CLASS</a> enumeration.
 
 
 ### -param Login [in]
 
-A <a href="https://msdn.microsoft.com/38f74619-1643-461f-b04b-c15567c06ca8">EVT_RPC_LOGIN</a> structure that identifies the remote computer that you want to connect to, the user's credentials, and the type of authentication to use when connecting.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ns-winevt-_evt_rpc_login">EVT_RPC_LOGIN</a> structure that identifies the remote computer that you want to connect to, the user's credentials, and the type of authentication to use when connecting.
 
 
 ### -param Timeout [in]
@@ -83,7 +83,7 @@ Reserved. Must be zero.
 
 
 
-If successful, the function returns a session handle that you can use to access event log information on the remote computer; otherwise, <b>NULL</b>. If <b>NULL</b>, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function to get the error code.
+If successful, the function returns a session handle that you can use to access event log information on the remote computer; otherwise, <b>NULL</b>. If <b>NULL</b>, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to get the error code.
 
 
 
@@ -92,7 +92,7 @@ If successful, the function returns a session handle that you can use to access 
 
 
 
-When you are finished with the session handle, call the <a href="https://msdn.microsoft.com/c4b82d7b-508d-45bf-b990-04e90e846525">EvtClose</a> function. Closing the session handle will also close all open handles created in the session (closing the open handles cancels any current activity on those handles).
+When you are finished with the session handle, call the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtclose">EvtClose</a> function. Closing the session handle will also close all open handles created in the session (closing the open handles cancels any current activity on those handles).
 
 To connect to the remote computer, the remote computer must enable the "Remote Event Log Management" Windows Firewall exception; otherwise, when you try to use the session handle, the call will error with RPC_S_SERVER_UNAVAILABLE. The computer to which you are connecting must be running Windows Vista or later.
 
@@ -101,7 +101,7 @@ This function does not validate the credentials; the credentials are validated t
 
 #### Examples
 
-For an example that shows how to use this function, see <a href="https://msdn.microsoft.com/df789981-0e1c-4d68-9bd5-5d054f1724d4">Accessing Remote Computers</a>.
+For an example that shows how to use this function, see <a href="https://docs.microsoft.com/windows/desktop/WES/accessing-remote-computers">Accessing Remote Computers</a>.
 
 <div class="code"></div>
 
@@ -112,11 +112,11 @@ For an example that shows how to use this function, see <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/8d53402b-2d2c-4f93-8e98-4449701052b0">EVT_LOGIN_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_login_class">EVT_LOGIN_CLASS</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4b82d7b-508d-45bf-b990-04e90e846525">EvtClose</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtclose">EvtClose</a>
  
 
  

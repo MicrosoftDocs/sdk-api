@@ -147,11 +147,11 @@ The call was already canceled.
 
 
 
-<b>CoCancelCall</b> calls <a href="https://msdn.microsoft.com/d38161af-d662-4430-99b7-6563efda6f4e">CoGetCancelObject</a> and then <a href="https://msdn.microsoft.com/3c3fdcec-10f1-4fbf-af93-582e7390decf">ICancelMethodCalls::Cancel</a> on the cancel object for the call being executed.
+<b>CoCancelCall</b> calls <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetcancelobject">CoGetCancelObject</a> and then <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-icancelmethodcalls-cancel">ICancelMethodCalls::Cancel</a> on the cancel object for the call being executed.
 
 This function does not locate cancel objects for asynchronous calls.
 
-The object server can determine if the call has been canceled by periodically calling <a href="https://msdn.microsoft.com/9432621a-be31-4b8b-83b6-069539ba06b4">CoTestCancel</a>. If the call has been canceled, the object server should clean up and return control to the client.
+The object server can determine if the call has been canceled by periodically calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotestcancel">CoTestCancel</a>. If the call has been canceled, the object server should clean up and return control to the client.
 
 
 
@@ -161,7 +161,7 @@ The object server can determine if the call has been canceled by periodically ca
 
 
 
-<a href="https://msdn.microsoft.com/9432621a-be31-4b8b-83b6-069539ba06b4">CoTestCancel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotestcancel">CoTestCancel</a>
  
 
  

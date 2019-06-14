@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information passed to the <a href="https://msdn.microsoft.com/en-us/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a> object about the current item; for example, the application name and catalog name.
+Contains information passed to the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a> object about the current item; for example, the application name and catalog name.
 
 
 ## -struct-fields

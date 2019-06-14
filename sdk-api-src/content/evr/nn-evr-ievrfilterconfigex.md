@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Configures the DirectShow <a href="https://msdn.microsoft.com/ead99cb3-2be2-42c6-ac22-be0c2ddf28d5">Enhanced Video Renderer</a> (EVR) filter.  To get a pointer to this interface, call <b>QueryInterface</b> on the  EVR filter.
+Configures the DirectShow <a href="https://docs.microsoft.com/windows/desktop/DirectShow/enhanced-video-renderer-filter">Enhanced Video Renderer</a> (EVR) filter.  To get a pointer to this interface, call <b>QueryInterface</b> on the  EVR filter.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEVRFilterConfigEx</b> interface inherits from <a href="https://msdn.microsoft.com/13086d85-3dbf-4e9f-b065-d95e16412832">IEVRFilterConfig</a>. <b>IEVRFilterConfigEx</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEVRFilterConfigEx</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-ievrfilterconfig">IEVRFilterConfig</a>. <b>IEVRFilterConfigEx</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IEVRFilterConfigEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8b286b77-de5f-44ce-82f4-d11a76fe2c4d">GetConfigPrefs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-ievrfilterconfigex-getconfigprefs">GetConfigPrefs</a>
 </td>
 <td align="left" width="63%">
 Gets the configuration parameters for the  DirectShow EVR filter.
@@ -78,7 +78,7 @@ Gets the configuration parameters for the  DirectShow EVR filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6a565c7a-a8d7-433b-b454-262661c2c084">SetConfigPrefs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-ievrfilterconfigex-setconfigprefs">SetConfigPrefs</a>
 </td>
 <td align="left" width="63%">
 Sets the configuration parameters for the DirectShow EVR filter.
@@ -93,19 +93,19 @@ Sets the configuration parameters for the DirectShow EVR filter.
 
 
 
-<a href="https://msdn.microsoft.com/ead99cb3-2be2-42c6-ac22-be0c2ddf28d5">Enhanced Video Renderer Filter</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/enhanced-video-renderer-filter">Enhanced Video Renderer Filter</a>
 
 
 
-<a href="https://msdn.microsoft.com/13086d85-3dbf-4e9f-b065-d95e16412832">IEVRFilterConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-ievrfilterconfig">IEVRFilterConfig</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/3617adf2-ed7b-4788-abce-58bc22a14511">Video Quality Management</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/video-quality-management">Video Quality Management</a>
  
 
  

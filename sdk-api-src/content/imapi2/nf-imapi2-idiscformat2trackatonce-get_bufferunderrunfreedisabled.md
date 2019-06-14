@@ -97,11 +97,11 @@ Value: 0x80004003
 
 
 
-<a href="https://msdn.microsoft.com/27f2d248-1c83-4784-82f9-75ce0a038b87">IDiscFormat2TrackAtOnce</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonce">IDiscFormat2TrackAtOnce</a>
 
 
 
-<a href="https://msdn.microsoft.com/93a19bd7-9302-49f5-a5e5-573bf72725a3">IDiscFormat2TrackAtOnce::put_BufferUnderrunFreeDisabled</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-put_bufferunderrunfreedisabled">IDiscFormat2TrackAtOnce::put_BufferUnderrunFreeDisabled</a>
  
 
  

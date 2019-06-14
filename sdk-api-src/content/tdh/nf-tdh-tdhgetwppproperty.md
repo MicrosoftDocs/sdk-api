@@ -67,9 +67,9 @@ A valid decoding handle.
 
 ### -param EventRecord [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e352c1a7-39a2-43e3-a723-5fc6a3921ee8">PEVENT_RECORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_record">PEVENT_RECORD</a></b>
 
-The event record passed to your <a href="https://msdn.microsoft.com/80a30faf-af1f-4440-8a17-9df44bdb2291">EventRecordCallback</a> callback.
+The event record passed to your <a href="https://docs.microsoft.com/windows/desktop/ETW/eventrecordcallback">EventRecordCallback</a> callback.
 
 
 ### -param PropertyName [in]
@@ -78,7 +78,7 @@ Type: <b>PWSTR</b>
 
 The name of the property to retrieve.
 
-For a list of  possible values, see <a href="https://msdn.microsoft.com/38e6f5b1-fce5-45e4-ac7a-09ba40d29837">PROPERTY_DATA_DESCRIPTOR</a>.
+For a list of  possible values, see <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_property_data_descriptor">PROPERTY_DATA_DESCRIPTOR</a>.
 
 
 ### -param BufferSize [in, out]
@@ -126,7 +126,7 @@ The specified property was not found.
 </dl>
 </td>
 <td width="60%">
-<i>BufferSize</i> is too small. To get the required buffer size, call <a href="https://msdn.microsoft.com/en-us/library/Hh447283(v=VS.85).aspx">TdhGetWppProperty</a> twice, once with a null buffer and a pointer to retrieve the buffer size and then again with the correctly sized buffer.
+<i>BufferSize</i> is too small. To get the required buffer size, call <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgetwppproperty">TdhGetWppProperty</a> twice, once with a null buffer and a pointer to retrieve the buffer size and then again with the correctly sized buffer.
 
 </td>
 </tr>
@@ -151,7 +151,7 @@ One or more of the parameters is incorrect. This error is returned if the <i>Han
 
 
 
-To retrieve only the decoded event message without specifying a property name, call <a href="https://msdn.microsoft.com/e4daf7fb-4512-41bd-b7b9-3f9f1cd15037">TdhGetWppMessage</a>.
+To retrieve only the decoded event message without specifying a property name, call <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgetwppmessage">TdhGetWppMessage</a>.
 
 
 
@@ -161,19 +161,19 @@ To retrieve only the decoded event message without specifying a property name, c
 
 
 
-<a href="https://msdn.microsoft.com/e352c1a7-39a2-43e3-a723-5fc6a3921ee8">EVENT_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_record">EVENT_RECORD</a>
 
 
 
-<a href="https://msdn.microsoft.com/80a30faf-af1f-4440-8a17-9df44bdb2291">EventRecordCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/eventrecordcallback">EventRecordCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/52b034db-b08b-4c79-973f-33800ca866f5">TdhGetPropertySize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgetpropertysize">TdhGetPropertySize</a>
 
 
 
-<a href="https://msdn.microsoft.com/e4daf7fb-4512-41bd-b7b9-3f9f1cd15037">TdhGetWppMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgetwppmessage">TdhGetWppMessage</a>
  
 
  

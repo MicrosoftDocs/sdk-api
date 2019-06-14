@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The contents of the <a href="https://msdn.microsoft.com/710f3ef1-bbc3-416d-9faf-aa4a716007c2">XPS_COLOR</a> structure when the <i>colorType</i> is <b>XPS_COLOR_TYPE_CONTEXT</b>.
+The contents of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372939(v=vs.85)">XPS_COLOR</a> structure when the <i>colorType</i> is <b>XPS_COLOR_TYPE_CONTEXT</b>.
 
 
 ## -struct-fields

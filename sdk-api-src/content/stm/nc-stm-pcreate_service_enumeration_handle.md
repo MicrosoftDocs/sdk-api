@@ -107,7 +107,7 @@ Enumerate only those services that have the same type as those in the <b>Service
 ### -param CriteriaService [in]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/37da1071-b665-405c-a4ce-f1a484aeb19b">IPX_SERVICE</a> structure with member values that correspond to those specified in <i>ExclusionFlags</i>.
+<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-_ipx_service">IPX_SERVICE</a> structure with member values that correspond to those specified in <i>ExclusionFlags</i>.
 					
 
 
@@ -118,7 +118,7 @@ Pointer to an
 If the function succeeds, the return value is a handle for use with the service enumeration function.
 
 A <b>NULL</b> handle indicates no services exists with the specified criteria, or that the operation failed. For more information, call 
-<a href="https://msdn.microsoft.com/en-us/library/ms629690(v=VS.85).aspx">GetLastError</a> and check the error code against the table below.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iabcontainer-getlasterror">GetLastError</a> and check the error code against the table below.
 
 <table>
 <tr>
@@ -162,27 +162,27 @@ One of the  parameters is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/c127f914-b655-4b6a-bb13-daeb5e82e343">CloseServiceEnumerationHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-pclose_service_enumeration_handle">CloseServiceEnumerationHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/45d0ccaa-97d5-4a14-9983-dc0ca268ed4b">EnumerateGetNextService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-penumerate_get_next_service">EnumerateGetNextService</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629690(v=VS.85).aspx">GetLastError</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iabcontainer-getlasterror">GetLastError</a>
 
 
 
-<a href="https://msdn.microsoft.com/e93e3bf2-80a2-44ec-a067-58220cdd31b4">IPX Service Table Management</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/ipx-service-table-management">IPX Service Table Management</a>
 
 
 
-<a href="https://msdn.microsoft.com/37da1071-b665-405c-a4ce-f1a484aeb19b">IPX_SERVICE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-_ipx_service">IPX_SERVICE</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb31f1ad-5761-4112-8c05-51a627b9e0b7">Service Table Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/service-table-management-functions">Service Table Management Functions</a>
  
 
  

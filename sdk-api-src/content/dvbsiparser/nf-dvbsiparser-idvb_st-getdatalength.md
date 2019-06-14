@@ -112,7 +112,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/56d77564-4de3-4252-9218-a1188f363437">IDVB_ST Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_st">IDVB_ST Interface</a>
  
 
  

@@ -64,15 +64,15 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/a153d88f-4c7e-45fd-9cd8-497160711de4">IDataManager</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatamanager">IDataManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/71368635-e8c3-44fd-9d8a-f225b10225ba">IDataManager::MaxFolderCount</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_maxfoldercount">IDataManager::MaxFolderCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5f4f752-ae96-4a1b-99a4-ff3b73fe3743">IDataManager::MinFreeDisk</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_minfreedisk">IDataManager::MinFreeDisk</a>
  
 
  

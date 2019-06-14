@@ -59,7 +59,7 @@ Flush all device contexts that reference a given bitmap.
 
 ### -param bitmap [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e58216ea-e6b5-450f-a0ea-b879aa5dff38">ID2D1Bitmap</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>*</b>
 
 The bitmap, created on this device, for which all referencing device contexts will be flushed. 
 
@@ -78,7 +78,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/1B34AEFD-BBA7-4759-B80A-89D9BFC1933D">ID2D1Device2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1device2">ID2D1Device2</a>
  
 
  

@@ -125,7 +125,7 @@ In case of an error, this method does not ensure that the registry is restored t
 
 
 
-<a href="https://msdn.microsoft.com/3f4f9beb-51db-407f-91ea-6e32ff5796ce">ICatRegister</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comcat/nn-comcat-icatregister">ICatRegister</a>
  
 
  

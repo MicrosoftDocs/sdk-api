@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ITfInputProcessorProfileMgr::GetProfile</b> method returns the information of the specified text service's profile or keyboard layout in <a href="https://msdn.microsoft.com/fecaf8f5-1323-4a2e-94ee-26b5712ed643">TF_INPUTPROCESSORPROFILE</a> structure.
+The <b>ITfInputProcessorProfileMgr::GetProfile</b> method returns the information of the specified text service's profile or keyboard layout in <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_inputprocessorprofile">TF_INPUTPROCESSORPROFILE</a> structure.
 
 
 ## -parameters
@@ -112,7 +112,7 @@ This is a keyboard layout.
 
 ### -param pProfile [out]
 
-[out] The buffer to receive <a href="https://msdn.microsoft.com/fecaf8f5-1323-4a2e-94ee-26b5712ed643">TF_INPUTPROCESSORPROFILE</a>.
+[out] The buffer to receive <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_inputprocessorprofile">TF_INPUTPROCESSORPROFILE</a>.
 
 
 ## -returns

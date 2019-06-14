@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>MsiOpenPackageEx</b> function opens a package to use with functions that access the product database. The 
-<a href="https://msdn.microsoft.com/b9e90ed4-fda8-4628-a713-67c651e1b572">MsiCloseHandle</a> function must be called with the handle when the handle is no longer needed.<div class="alert"><b>Note</b>  Initialize COM on the same thread before calling the <a href="https://msdn.microsoft.com/1227493a-58dc-4e41-b6d7-9ecce0b3df40">MsiOpenPackage</a>, <b>MsiOpenPackageEx</b>, or <a href="https://msdn.microsoft.com/fdc5a2f5-c44a-4cb3-b206-a598bd60024b">MsiOpenProduct</a> function.</div>
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a> function must be called with the handle when the handle is no longer needed.<div class="alert"><b>Note</b>  Initialize COM on the same thread before calling the <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <b>MsiOpenPackageEx</b>, or <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a> function.</div>
 <div> </div>
 
 
@@ -71,7 +71,7 @@ The path to the package.
 ### -param dwOptions [in]
 
 The bit flags to indicate whether or not to ignore the computer state. Pass in 0 (zero) to use 
-<a href="https://msdn.microsoft.com/1227493a-58dc-4e41-b6d7-9ecce0b3df40">MsiOpenPackage</a> behavior. 
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a> behavior. 
 
 
 
@@ -168,7 +168,7 @@ The function completes successfully.
  
 
 If this function fails, it may return a system error code. For more information, see 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -183,72 +183,72 @@ To create a restricted product handle that is independent of the current machine
 Note that if <i>dwOptions</i> is MSIOPENPACKAGEFLAGS_IGNOREMACHINESTATE or 1, 
 <b>MsiOpenPackageEx</b> ignores the current machine state when creating the product handle. If the value of <i>dwOptions</i> is 0, 
 <b>MsiOpenPackageEx</b> is the same as 
-<a href="https://msdn.microsoft.com/1227493a-58dc-4e41-b6d7-9ecce0b3df40">MsiOpenPackage</a> and creates a product handle that is dependent upon whether the package specified by <i>szPackagePath</i> is already installed on the computer.
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a> and creates a product handle that is dependent upon whether the package specified by <i>szPackagePath</i> is already installed on the computer.
 
 The restricted handle created by using 
 <b>MsiOpenPackageEx</b> with MSIOPENPACKAGEFLAGS_IGNOREMACHINESTATE only permits execution of dialogs, a subset of the standard actions, and custom actions that set properties (
-<a href="https://msdn.microsoft.com/b88b5f48-5353-4876-9dda-2eeda288fa4b">Custom Action Type 35</a>, 
-<a href="https://msdn.microsoft.com/cdad16ad-426c-4e04-8003-b32c67be7329">Custom Action Type 51</a>, and 
-<a href="https://msdn.microsoft.com/c6df5462-e20e-4486-8480-8c747193c5d9">Custom Action Type 19</a>). The restricted handle prevents the use of custom actions that run 
-<a href="https://msdn.microsoft.com/605c7b97-70bd-467a-9438-47b05d8b6b5d">Dynamic-Link Libraries</a>, 
-<a href="https://msdn.microsoft.com/28416230-d0c2-4f6a-9908-45851a5664c5">Executable Files</a> or 
-<a href="https://msdn.microsoft.com/d859713f-b8b8-4eb0-b678-52b5d880bd20">Scripts</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/custom-action-type-35">Custom Action Type 35</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/custom-action-type-51">Custom Action Type 51</a>, and 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/custom-action-type-19">Custom Action Type 19</a>). The restricted handle prevents the use of custom actions that run 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/dynamic-link-libraries">Dynamic-Link Libraries</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/executable-files">Executable Files</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/scripts">Scripts</a>.
 
 You can call 
-<a href="https://msdn.microsoft.com/33f2de47-71ab-4da8-bd56-ee58cde86e2b">MsiDoAction</a> on the following standard actions using the restricted handle. All other actions return ERROR_FUNCTION_NOT_CALLED if called with the restricted handle.
+<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msidoactiona">MsiDoAction</a> on the following standard actions using the restricted handle. All other actions return ERROR_FUNCTION_NOT_CALLED if called with the restricted handle.
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/9925a645-5909-42c7-9de8-f908a5e42be9">ADMIN</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/admin-action">ADMIN</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/d9c843e4-fcd9-4d47-9ca9-ffa83ed80574">ADVERTISE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/advertise-action">ADVERTISE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/bf290b59-1ecb-410f-b1f6-fdbeebebe3d3">INSTALL</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/install-action">INSTALL</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/1393bfaa-8649-40d3-9ff8-5e119c34aed3">SEQUENCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/sequence-action">SEQUENCE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/56665876-2c74-476b-aa1a-158c6e86418d">AppSearch action</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/appsearch-action">AppSearch action</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/0aa7bf8b-de76-464d-8e7b-3aa4f609fe19">CCPSearch</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/ccpsearch-action">CCPSearch</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/ae69ad03-5acc-4a62-ba71-3a4e477d34ab">CostFinalize</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/costfinalize-action">CostFinalize</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/be9a8382-c892-44ae-8b59-c665b5cca2d2">CostInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/costinitialize-action">CostInitialize</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/1b3f2baf-6191-452e-955d-8ac903edc1b7">FileCost</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/filecost-action">FileCost</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/7efcb767-9bdf-43a4-83b8-61b6fc84adf6">FindRelatedProducts</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/findrelatedproducts-action">FindRelatedProducts</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/3f39ad5d-5539-48cc-8369-bd4d3127fbdd">IsolateComponents action</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/isolatecomponents-action">IsolateComponents action</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/b356987d-3efe-4a57-a745-91a1b34222e9">LaunchConditions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/launchconditions-action">LaunchConditions</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/3f53c555-02a9-4249-9f1a-98cd655fc79f">MigrateFeatureStates</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/migratefeaturestates-action">MigrateFeatureStates</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/6d6205a0-a870-4df2-922b-befea7e28a1a">ResolveSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/resolvesource-action">ResolveSource</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/d37b2434-86eb-4c6e-b817-77c75dcebbf5">RMCCPSearch</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/rmccpsearch-action">RMCCPSearch</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31b2f9d2-98d5-4cf3-af02-f12de2740bb8">ValidateProductID</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/validateproductid-action">ValidateProductID</a>
 </li>
 </ul>
 The 
-<a href="https://msdn.microsoft.com/b9e90ed4-fda8-4628-a713-67c651e1b572">MsiCloseHandle</a> function must be called when the handle is not needed.
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a> function must be called when the handle is not needed.
 
 
 

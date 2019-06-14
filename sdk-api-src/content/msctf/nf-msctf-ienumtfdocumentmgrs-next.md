@@ -63,7 +63,7 @@ Specifies the number of elements to obtain.
 
 ### -param rgDocumentMgr [out]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/e99e9bdb-6a3a-438d-8fac-92ef96c8dfdd">ITfDocumentMgr</a> interface pointers that receives the requested objects. This array must be at least <i>ulCount</i> elements in size.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdocumentmgr">ITfDocumentMgr</a> interface pointers that receives the requested objects. This array must be at least <i>ulCount</i> elements in size.
 
 
 ### -param pcFetched [out]
@@ -126,11 +126,11 @@ The method reached the end of the enumeration before the specified number of ele
 
 
 
-<a href="https://msdn.microsoft.com/5b276752-715b-4426-ad37-8658bae4c1a6">IEnumTfDocumentMgrs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfdocumentmgrs">IEnumTfDocumentMgrs</a>
 
 
 
-<a href="https://msdn.microsoft.com/e99e9bdb-6a3a-438d-8fac-92ef96c8dfdd">ITfDocumentMgr
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdocumentmgr">ITfDocumentMgr
       </a>
  
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Releases the device context obtained by the <a href="https://msdn.microsoft.com/en-us/library/Bb787660(v=VS.85).aspx">ITextHost::TxGetDC</a> method.
+Releases the device context obtained by the <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-txgetdc">ITextHost::TxGetDC</a> method.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Releases the device context obtained by the <a href="https://msdn.microsoft.com/
 
 ### -param hdc [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HDC</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
 Handle to the device context to release. 
 
@@ -68,12 +68,12 @@ Handle to the device context to release.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 Returns 1 if <i>hdc</i> was released; otherwise 0.
                     
 
-For more information on COM error codes, see <a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling in COM</a>.
+For more information on COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 
 
@@ -92,11 +92,11 @@ This method is only valid when the control is in-place active; calls while the c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls Overview</a>
  
 
  

@@ -59,7 +59,7 @@ Notifies the client that a new wireless ad hoc network destination is in range a
 
 ### -param pIAdHocNetwork [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/2736bb81-b66f-4c09-8c76-ca16f3eab192">IDot11AdHocNetwork</a> interface that represents the new network.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a> interface that represents the new network.
 
 
 ## -returns
@@ -106,7 +106,7 @@ The method failed.
 
 
 
-<a href="https://msdn.microsoft.com/a79931ad-deeb-4e46-a051-80a57fe5935c">IDot11AdHocManagerNotificationSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocmanagernotificationsink">IDot11AdHocManagerNotificationSink</a>
  
 
  

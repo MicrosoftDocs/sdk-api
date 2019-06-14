@@ -125,7 +125,7 @@ Device technology. It can be any one of the following values.
 </table>
  
 
-If the <i>hdc</i> parameter is a handle to the DC of an enhanced metafile, the device technology is that of the referenced device as specified to the <a href="https://msdn.microsoft.com/647f83ca-dca3-44af-a594-5f9ba2bd7607">CreateEnhMetaFile</a> function. To determine whether it is an enhanced metafile DC, use the <a href="https://msdn.microsoft.com/334a2c95-3bf4-44dc-abce-df3a3a2d37a8">GetObjectType</a> function.
+If the <i>hdc</i> parameter is a handle to the DC of an enhanced metafile, the device technology is that of the referenced device as specified to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createenhmetafilea">CreateEnhMetaFile</a> function. To determine whether it is an enhanced metafile DC, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getobjecttype">GetObjectType</a> function.
 
 </td>
 </tr>
@@ -377,7 +377,7 @@ For printing devices: the distance from the top edge of the physical page to the
 <td width="60%">
 For display devices: the current vertical refresh rate of the device, in cycles per second (Hz).
 
-A vertical refresh rate value of 0 or 1 represents the display hardware's default refresh rate. This default rate is typically set by switches on a display card or computer motherboard, or by a configuration program that does not use display functions such as <a href="https://msdn.microsoft.com/208bf1cc-c03c-4d03-92e4-32fcf856b4d8">ChangeDisplaySettings</a>.
+A vertical refresh rate value of 0 or 1 represents the display hardware's default refresh rate. This default rate is typically set by switches on a display card or computer motherboard, or by a configuration program that does not use display functions such as <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a>.
 
 </td>
 </tr>
@@ -422,15 +422,15 @@ Value that indicates the shading and blending capabilities of the device. See Re
 <table>
 <tr>
 <td>SB_CONST_ALPHA</td>
-<td>Handles the <b>SourceConstantAlpha</b> member of the <a href="https://msdn.microsoft.com/d1371d72-c408-4484-845e-d4ea2bc3115d">BLENDFUNCTION</a> structure, which is referenced by the blendFunction parameter of the <a href="https://msdn.microsoft.com/4624aa31-7e19-4506-ac70-9b3c98a8215d">AlphaBlend</a> function.</td>
+<td>Handles the <b>SourceConstantAlpha</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_blendfunction">BLENDFUNCTION</a> structure, which is referenced by the blendFunction parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-alphablend">AlphaBlend</a> function.</td>
 </tr>
 <tr>
 <td>SB_GRAD_RECT</td>
-<td>Capable of doing <a href="https://msdn.microsoft.com/2f3e23e4-0105-4dcf-89ea-702ec2cf9e21">GradientFill</a> rectangles.</td>
+<td>Capable of doing <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gradientfill">GradientFill</a> rectangles.</td>
 </tr>
 <tr>
 <td>SB_GRAD_TRI</td>
-<td>Capable of doing <a href="https://msdn.microsoft.com/2f3e23e4-0105-4dcf-89ea-702ec2cf9e21">GradientFill</a> triangles.</td>
+<td>Capable of doing <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gradientfill">GradientFill</a> triangles.</td>
 </tr>
 <tr>
 <td>SB_NONE</td>
@@ -438,11 +438,11 @@ Value that indicates the shading and blending capabilities of the device. See Re
 </tr>
 <tr>
 <td>SB_PIXEL_ALPHA</td>
-<td>Capable of handling per-pixel alpha in <a href="https://msdn.microsoft.com/4624aa31-7e19-4506-ac70-9b3c98a8215d">AlphaBlend</a>.</td>
+<td>Capable of handling per-pixel alpha in <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-alphablend">AlphaBlend</a>.</td>
 </tr>
 <tr>
 <td>SB_PREMULT_ALPHA</td>
-<td>Capable of handling premultiplied alpha in <a href="https://msdn.microsoft.com/4624aa31-7e19-4506-ac70-9b3c98a8215d">AlphaBlend</a>.</td>
+<td>Capable of handling premultiplied alpha in <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-alphablend">AlphaBlend</a>.</td>
 </tr>
 </table>
  
@@ -472,11 +472,11 @@ Value that indicates the raster capabilities of the device, as shown in the foll
 </tr>
 <tr>
 <td>RC_DI_BITMAP</td>
-<td>Capable of supporting the <a href="https://msdn.microsoft.com/706f4532-4073-4d5c-ae2d-e33aea9163e9">SetDIBits</a> and <a href="https://msdn.microsoft.com/be3ffa3f-b343-4e38-8b1e-aeccf35d92b8">GetDIBits</a> functions.</td>
+<td>Capable of supporting the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdibits">GetDIBits</a> functions.</td>
 </tr>
 <tr>
 <td>RC_DIBTODEV</td>
-<td>Capable of supporting the <a href="https://msdn.microsoft.com/41225400-12e3-47ba-8b88-ac1d5b0fa90f">SetDIBitsToDevice</a> function.</td>
+<td>Capable of supporting the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdibitstodevice">SetDIBitsToDevice</a> function.</td>
 </tr>
 <tr>
 <td>RC_FLOODFILL</td>
@@ -492,11 +492,11 @@ Value that indicates the raster capabilities of the device, as shown in the foll
 </tr>
 <tr>
 <td>RC_STRETCHBLT</td>
-<td>Capable of performing the <a href="https://msdn.microsoft.com/5130c88e-08e8-4faa-a1cb-a8106c86cea0">StretchBlt</a> function.</td>
+<td>Capable of performing the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchblt">StretchBlt</a> function.</td>
 </tr>
 <tr>
 <td>RC_STRETCHDIB</td>
-<td>Capable of performing the <a href="https://msdn.microsoft.com/3d57a79a-338d-48ab-8161-3ce17739bf20">StretchDIBits</a> function.</td>
+<td>Capable of performing the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a> function.</td>
 </tr>
 </table>
  
@@ -754,7 +754,7 @@ Value that indicates the color management capabilities of the device.
 </tr>
 <tr>
 <td>CM_GAMMA_RAMP</td>
-<td>Device supports <a href="https://msdn.microsoft.com/c32600a9-545e-4bbf-a3c1-21878f5106b0">GetDeviceGammaRamp</a> and <a href="https://msdn.microsoft.com/8e4cc9a4-f292-47a1-a12a-43a479326ca7">SetDeviceGammaRamp</a>
+<td>Device supports <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicegammaramp">GetDeviceGammaRamp</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdevicegammaramp">SetDeviceGammaRamp</a>
 </td>
 </tr>
 <tr>
@@ -791,7 +791,7 @@ When <i>nIndex</i> is SHADEBLENDCAPS:
 <li>For a printer, <b>GetDeviceCaps</b> returns whatever the printer reports.</li>
 <li>For a display device, all blending operations are available; besides SB_NONE, the only return values are SB_CONST_ALPHA and SB_PIXEL_ALPHA, which indicate whether these operations are accelerated.</li>
 </ul>
-On a multiple monitor system, if <i>hdc</i> is the desktop, <b>GetDeviceCaps</b> returns the capabilities of the primary monitor. If you want info for other monitors, you must use the <a href="https://msdn.microsoft.com/713f3ec9-fce3-42f3-ba08-0b2430aef8a4">multi-monitor APIs</a> or <a href="https://msdn.microsoft.com/6fc443c8-da97-4196-a9ed-179a4e583849">CreateDC</a> to get a HDC for the device context (DC) of a specific monitor.  
+On a multiple monitor system, if <i>hdc</i> is the desktop, <b>GetDeviceCaps</b> returns the capabilities of the primary monitor. If you want info for other monitors, you must use the <a href="https://docs.microsoft.com/windows/desktop/gdi/multiple-display-monitors-reference">multi-monitor APIs</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca">CreateDC</a> to get a HDC for the device context (DC) of a specific monitor.  
 
 <div class="alert"><b>Note</b>  Display1 is typically the primary monitor, but not always.</div>
 <div> </div>
@@ -834,7 +834,7 @@ On a multiple monitor system, if <i>hdc</i> is the desktop, <b>GetDeviceCaps</b>
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/98ae97e2-25c1-455c-8283-45bb07fb8251">Preparing to Print</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/printdocs/preparing-to-print">Preparing to Print</a>.
 
 <div class="code"></div>
 
@@ -845,47 +845,47 @@ For an example, see <a href="https://msdn.microsoft.com/98ae97e2-25c1-455c-8283-
 
 
 
-<a href="https://msdn.microsoft.com/647f83ca-dca3-44af-a594-5f9ba2bd7607">CreateEnhMetaFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createenhmetafilea">CreateEnhMetaFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/dcb08ce7-9ded-497c-936c-48d3026a0004">CreateIC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createica">CreateIC</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ff68d16-0f27-4cc8-932a-b2063cfed135">Device Context Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/1fa97368-8931-4687-b37f-ed4db949a150">Device Contexts Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/d7f63ef7-0a2e-47c3-9e81-6e8a6dffe9af">DeviceCapabilities</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-devicecapabilitiesa">DeviceCapabilities</a>
 
 
 
-<a href="https://msdn.microsoft.com/be3ffa3f-b343-4e38-8b1e-aeccf35d92b8">GetDIBits</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdibits">GetDIBits</a>
 
 
 
-<a href="https://msdn.microsoft.com/334a2c95-3bf4-44dc-abce-df3a3a2d37a8">GetObjectType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getobjecttype">GetObjectType</a>
 
 
 
-<a href="https://msdn.microsoft.com/706f4532-4073-4d5c-ae2d-e33aea9163e9">SetDIBits</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a>
 
 
 
-<a href="https://msdn.microsoft.com/41225400-12e3-47ba-8b88-ac1d5b0fa90f">SetDIBitsToDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdibitstodevice">SetDIBitsToDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/5130c88e-08e8-4faa-a1cb-a8106c86cea0">StretchBlt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchblt">StretchBlt</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d57a79a-338d-48ab-8161-3ce17739bf20">StretchDIBits</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>
  
 
  

@@ -68,7 +68,7 @@ A <b>BSTR</b> variable that contains the Prog ID. The following table shows the 
 </tr>
 <tr>
 <td width="40%"><a id="ICertProperties"></a><a id="icertproperties"></a><a id="ICERTPROPERTIES"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/b830c0af-0a38-419d-8a33-8e3626c4e8f1">ICertProperties</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertproperties">ICertProperties</a></b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -79,7 +79,7 @@ A <b>BSTR</b> variable that contains the Prog ID. The following table shows the 
 </tr>
 <tr>
 <td width="40%"><a id="ICertPropertyDescription"></a><a id="icertpropertydescription"></a><a id="ICERTPROPERTYDESCRIPTION"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/229e8ce9-fe18-45f4-8f91-cd741052a134">ICertPropertyDescription</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertydescription">ICertPropertyDescription</a></b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -90,7 +90,7 @@ A <b>BSTR</b> variable that contains the Prog ID. The following table shows the 
 </tr>
 <tr>
 <td width="40%"><a id="ICertPropertyFriendlyName"></a><a id="icertpropertyfriendlyname"></a><a id="ICERTPROPERTYFRIENDLYNAME"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/d2bfe2f2-423e-4620-8933-bbae4f98c62a">ICertPropertyFriendlyName</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyfriendlyname">ICertPropertyFriendlyName</a></b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -101,7 +101,7 @@ A <b>BSTR</b> variable that contains the Prog ID. The following table shows the 
 </tr>
 <tr>
 <td width="40%"><a id="ICspInformation"></a><a id="icspinformation"></a><a id="ICSPINFORMATION"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a></b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -112,7 +112,7 @@ A <b>BSTR</b> variable that contains the Prog ID. The following table shows the 
 </tr>
 <tr>
 <td width="40%"><a id="ICspInformations"></a><a id="icspinformations"></a><a id="ICSPINFORMATIONS"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/8141023c-c162-46d6-9c37-e227ce1c8761">ICspInformations</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformations">ICspInformations</a></b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -123,7 +123,7 @@ A <b>BSTR</b> variable that contains the Prog ID. The following table shows the 
 </tr>
 <tr>
 <td width="40%"><a id="ICspStatus"></a><a id="icspstatus"></a><a id="ICSPSTATUS"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/30cc43c8-6ef3-49ad-8cff-9a5b7389ff68">ICspStatus</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatus">ICspStatus</a></b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -134,7 +134,7 @@ A <b>BSTR</b> variable that contains the Prog ID. The following table shows the 
 </tr>
 <tr>
 <td width="40%"><a id="IObjectId"></a><a id="iobjectid"></a><a id="IOBJECTID"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/bc6608e3-cae7-4992-b599-06bc04cc8ad7">IObjectId</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a></b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -145,7 +145,7 @@ A <b>BSTR</b> variable that contains the Prog ID. The following table shows the 
 </tr>
 <tr>
 <td width="40%"><a id="IObjectIds"></a><a id="iobjectids"></a><a id="IOBJECTIDS"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/f376a33e-005b-4810-9a26-b642236ff7af">IObjectIds</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectids">IObjectIds</a></b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -156,7 +156,7 @@ A <b>BSTR</b> variable that contains the Prog ID. The following table shows the 
 </tr>
 <tr>
 <td width="40%"><a id="ISignerCertificate"></a><a id="isignercertificate"></a><a id="ISIGNERCERTIFICATE"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/146a1925-4de6-492c-8014-612c65bd7270">ISignerCertificate</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a></b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -167,7 +167,7 @@ A <b>BSTR</b> variable that contains the Prog ID. The following table shows the 
 </tr>
 <tr>
 <td width="40%"><a id="IX500DistinguishedName"></a><a id="ix500distinguishedname"></a><a id="IX500DISTINGUISHEDNAME"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/49f176d9-33f6-4bc1-992c-c613279b0969">IX500DistinguishedName</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix500distinguishedname">IX500DistinguishedName</a></b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -178,7 +178,7 @@ A <b>BSTR</b> variable that contains the Prog ID. The following table shows the 
 </tr>
 <tr>
 <td width="40%"><a id="IX509CertificateRequestCmc"></a><a id="ix509certificaterequestcmc"></a><a id="IX509CERTIFICATEREQUESTCMC"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/77059388-c442-4db5-ab27-1db25e2f63b9">IX509CertificateRequestCmc</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a></b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -189,7 +189,7 @@ A <b>BSTR</b> variable that contains the Prog ID. The following table shows the 
 </tr>
 <tr>
 <td width="40%"><a id="IX509CertificateRequestPkcs10"></a><a id="ix509certificaterequestpkcs10"></a><a id="IX509CERTIFICATEREQUESTPKCS10"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/5b3764dc-fc63-45cc-8c35-65539c461e81">IX509CertificateRequestPkcs10</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a></b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -200,7 +200,7 @@ A <b>BSTR</b> variable that contains the Prog ID. The following table shows the 
 </tr>
 <tr>
 <td width="40%"><a id="IX509CertificateRequestPkcs7"></a><a id="ix509certificaterequestpkcs7"></a><a id="IX509CERTIFICATEREQUESTPKCS7"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/ae869557-6523-4387-835e-c9631898d864">IX509CertificateRequestPkcs7</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs7">IX509CertificateRequestPkcs7</a></b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -211,7 +211,7 @@ A <b>BSTR</b> variable that contains the Prog ID. The following table shows the 
 </tr>
 <tr>
 <td width="40%"><a id="IX509Enrollment"></a><a id="ix509enrollment"></a><a id="IX509ENROLLMENT"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/37f1dd3b-bbe9-40ab-87c9-2405d97f5541">IX509Enrollment</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a></b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -222,7 +222,7 @@ A <b>BSTR</b> variable that contains the Prog ID. The following table shows the 
 </tr>
 <tr>
 <td width="40%"><a id="IX509EnrollmentHelper"></a><a id="ix509enrollmenthelper"></a><a id="IX509ENROLLMENTHELPER"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/19124591-be1a-401e-9b83-c640d00de34a">IX509EnrollmentHelper</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmenthelper">IX509EnrollmentHelper</a></b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -233,7 +233,7 @@ A <b>BSTR</b> variable that contains the Prog ID. The following table shows the 
 </tr>
 <tr>
 <td width="40%"><a id="IX509Extension"></a><a id="ix509extension"></a><a id="IX509EXTENSION"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/f04e3f63-c826-4401-a1c8-b2614e0dc374">IX509Extension</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a></b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -244,7 +244,7 @@ A <b>BSTR</b> variable that contains the Prog ID. The following table shows the 
 </tr>
 <tr>
 <td width="40%"><a id="IX509ExtensionEnhancedKeyUsage"></a><a id="ix509extensionenhancedkeyusage"></a><a id="IX509EXTENSIONENHANCEDKEYUSAGE"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/0b9606d0-351c-4d2d-b876-545a9c2cf916">IX509ExtensionEnhancedKeyUsage</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensionenhancedkeyusage">IX509ExtensionEnhancedKeyUsage</a></b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -255,7 +255,7 @@ A <b>BSTR</b> variable that contains the Prog ID. The following table shows the 
 </tr>
 <tr>
 <td width="40%"><a id="IX509ExtensionKeyUsage"></a><a id="ix509extensionkeyusage"></a><a id="IX509EXTENSIONKEYUSAGE"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/4325e6aa-99bb-4c9a-9b19-c5352ebf27b9">IX509ExtensionKeyUsage</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensionkeyusage">IX509ExtensionKeyUsage</a></b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -266,7 +266,7 @@ A <b>BSTR</b> variable that contains the Prog ID. The following table shows the 
 </tr>
 <tr>
 <td width="40%"><a id="IX509Extensions"></a><a id="ix509extensions"></a><a id="IX509EXTENSIONS"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/d6bdbcff-1d6b-4813-8269-b75061a42de8">IX509Extensions</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensions">IX509Extensions</a></b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -277,7 +277,7 @@ A <b>BSTR</b> variable that contains the Prog ID. The following table shows the 
 </tr>
 <tr>
 <td width="40%"><a id="IX509ExtensionTemplate"></a><a id="ix509extensiontemplate"></a><a id="IX509EXTENSIONTEMPLATE"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/2ac24ee9-f31f-4501-a4f0-321580ec2fa9">IX509ExtensionTemplate</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensiontemplate">IX509ExtensionTemplate</a></b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -288,7 +288,7 @@ A <b>BSTR</b> variable that contains the Prog ID. The following table shows the 
 </tr>
 <tr>
 <td width="40%"><a id="IX509ExtensionTemplateName"></a><a id="ix509extensiontemplatename"></a><a id="IX509EXTENSIONTEMPLATENAME"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/9a2d0219-6fe3-4a75-8d28-281c0b863a35">IX509ExtensionTemplateName</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensiontemplatename">IX509ExtensionTemplateName</a></b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -299,7 +299,7 @@ A <b>BSTR</b> variable that contains the Prog ID. The following table shows the 
 </tr>
 <tr>
 <td width="40%"><a id="IX509PrivateKey"></a><a id="ix509privatekey"></a><a id="IX509PRIVATEKEY"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a></b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -323,7 +323,7 @@ Address of a variable that receives a pointer to an  <b>IUnknown</b> interface t
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -352,7 +352,7 @@ The Prog ID specified represents an object that cannot be created by using this 
 
 
 
-<a href="https://msdn.microsoft.com/f779c197-8467-481a-abf5-d3fd3ac90ba7">IX509EnrollmentWebClassFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentwebclassfactory">IX509EnrollmentWebClassFactory</a>
  
 
  

@@ -121,13 +121,13 @@ Searches the endpoint map for elements that contain the interface identifier and
 ### -param IfId
 
 Interface identifier of the endpoint-map elements to be returned by 
-<a href="https://msdn.microsoft.com/e1f79435-6868-453b-8237-da52e57ec96f">RpcMgmtEpEltInqNext</a>. This parameter is only used when <i>InquiryType</i> is either RPC_C_EP_MATCH_BY_IF or RPC_C_EP_MATCH_BY_BOTH. Otherwise, it is ignored.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtepeltinqnext">RpcMgmtEpEltInqNext</a>. This parameter is only used when <i>InquiryType</i> is either RPC_C_EP_MATCH_BY_IF or RPC_C_EP_MATCH_BY_BOTH. Otherwise, it is ignored.
 
 
 ### -param VersOption
 
 Specifies how 
-<a href="https://msdn.microsoft.com/e1f79435-6868-453b-8237-da52e57ec96f">RpcMgmtEpEltInqNext</a> uses the <i>IfId</i> parameter. This parameter is only used when <i>InquiryType</i> is either RPC_C_EP_MATCH_BY_IF or RPC_C_EP_MATCH_BY_BOTH. Otherwise, it is ignored. The following are valid values for this parameter. 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtepeltinqnext">RpcMgmtEpEltInqNext</a> uses the <i>IfId</i> parameter. This parameter is only used when <i>InquiryType</i> is either RPC_C_EP_MATCH_BY_IF or RPC_C_EP_MATCH_BY_BOTH. Otherwise, it is ignored. The following are valid values for this parameter. 
 
 
 
@@ -143,7 +143,7 @@ Specifies how
 </td>
 <td width="60%">
 Returns endpoint-map elements that offer the specified interface 
-<a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a>, regardless of the version numbers.
+<a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>, regardless of the version numbers.
 
 </td>
 </tr>
@@ -154,7 +154,7 @@ Returns endpoint-map elements that offer the specified interface
 </td>
 <td width="60%">
 Returns endpoint-map elements that offer the same major version of the specified interface 
-<a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a> and a minor version greater than or equal to the minor version of the specified interface 
+<a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> and a minor version greater than or equal to the minor version of the specified interface 
 <b>UUID</b>.
 
 </td>
@@ -166,7 +166,7 @@ Returns endpoint-map elements that offer the same major version of the specified
 </td>
 <td width="60%">
 Returns endpoint-map elements that offer the specified version of the specified interface 
-<a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a>.
+<a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>.
 
 </td>
 </tr>
@@ -177,7 +177,7 @@ Returns endpoint-map elements that offer the specified version of the specified 
 </td>
 <td width="60%">
 Returns endpoint-map elements that offer the same major version of the specified interface 
-<a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a> and ignores the minor version.
+<a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> and ignores the minor version.
 
 </td>
 </tr>
@@ -188,7 +188,7 @@ Returns endpoint-map elements that offer the same major version of the specified
 </td>
 <td width="60%">
 Returns endpoint-map elements that offer a version of the specified interface 
-<a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a> less than or equal to the specified major and minor version.
+<a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> less than or equal to the specified major and minor version.
 
 </td>
 </tr>
@@ -199,15 +199,15 @@ Returns endpoint-map elements that offer a version of the specified interface
 ### -param ObjectUuid
 
 The object UUID that 
-<a href="https://msdn.microsoft.com/e1f79435-6868-453b-8237-da52e57ec96f">RpcMgmtEpEltInqNext</a> looks for in endpoint-map elements. This parameter is used only when <i>InquiryType</i> is either RPC_C_EP_MATCH_BY_OBJ or RPC_C_EP_MATCH_BY_BOTH.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtepeltinqnext">RpcMgmtEpEltInqNext</a> looks for in endpoint-map elements. This parameter is used only when <i>InquiryType</i> is either RPC_C_EP_MATCH_BY_OBJ or RPC_C_EP_MATCH_BY_BOTH.
 
 
 ### -param InquiryContext
 
 Returns an inquiry context for use with 
-<a href="https://msdn.microsoft.com/e1f79435-6868-453b-8237-da52e57ec96f">RpcMgmtEpEltInqNext</a> and 
-<a href="https://msdn.microsoft.com/7a0aac99-8829-4720-a388-da88d015d596">RpcMgmtEpEltInqDone</a>. See 
-<a href="https://msdn.microsoft.com/e18ce800-0110-4450-9a1b-a3f777d00f2d">RPC_EP_INQ_HANDLE</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtepeltinqnext">RpcMgmtEpEltInqNext</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtepeltinqdone">RpcMgmtEpEltInqDone</a>. See 
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-ep-inq-handle">RPC_EP_INQ_HANDLE</a>.
 
 
 ## -returns
@@ -234,7 +234,7 @@ The call succeeded.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -245,7 +245,7 @@ The call succeeded.
 
 The 
 <b>RpcMgmtEpEltInqBegin</b> function creates an inquiry context for viewing server-address information stored in the endpoint map. Using <i>InquiryType</i> and <i>VersOption</i>, an application specifies which of the following endpoint-map elements are to be returned from calls to 
-<a href="https://msdn.microsoft.com/e1f79435-6868-453b-8237-da52e57ec96f">RpcMgmtEpEltInqNext</a>:
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtepeltinqnext">RpcMgmtEpEltInqNext</a>:
 
 <ul>
 <li>All elements</li>
@@ -254,8 +254,8 @@ The
 <li>Those elements with both the specified interface identifier and object UUID</li>
 </ul>
 Before calling 
-<a href="https://msdn.microsoft.com/e1f79435-6868-453b-8237-da52e57ec96f">RpcMgmtEpEltInqNext</a>, the application must first call this function to create an inquiry context. After viewing the endpoint-map elements, the application calls 
-<a href="https://msdn.microsoft.com/7a0aac99-8829-4720-a388-da88d015d596">RpcMgmtEpEltInqDone</a> to delete the inquiry context.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtepeltinqnext">RpcMgmtEpEltInqNext</a>, the application must first call this function to create an inquiry context. After viewing the endpoint-map elements, the application calls 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtepeltinqdone">RpcMgmtEpEltInqDone</a> to delete the inquiry context.
 
 
 
@@ -265,15 +265,15 @@ Before calling
 
 
 
-<a href="https://msdn.microsoft.com/35656cdd-b1ae-43d3-a5c7-92bdb7726d5b">RpcEpRegister</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcepregister">RpcEpRegister</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a0aac99-8829-4720-a388-da88d015d596">RpcMgmtEpEltInqDone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtepeltinqdone">RpcMgmtEpEltInqDone</a>
 
 
 
-<a href="https://msdn.microsoft.com/e1f79435-6868-453b-8237-da52e57ec96f">RpcMgmtEpEltInqNext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtepeltinqnext">RpcMgmtEpEltInqNext</a>
  
 
  

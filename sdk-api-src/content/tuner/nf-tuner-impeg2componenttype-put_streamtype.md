@@ -62,7 +62,7 @@ The <b>put_StreamType</b> method sets the MPEG2 stream type.
 
 ### -param MP2StreamType [in]
 
-Variable of type <a href="https://msdn.microsoft.com/10df5a9e-965c-4118-8ece-2d8ee353cd10">MPEG2StreamType</a> that specifies the stream type.
+Variable of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/mpeg2streamtype">MPEG2StreamType</a> that specifies the stream type.
 
 
 ## -returns
@@ -79,7 +79,7 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="https://msdn.microsoft.com/10bf35e0-d5bf-41ed-b514-7c1bfaf774a0">IMPEG2ComponentType Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-impeg2componenttype">IMPEG2ComponentType Interface</a>
  
 
  

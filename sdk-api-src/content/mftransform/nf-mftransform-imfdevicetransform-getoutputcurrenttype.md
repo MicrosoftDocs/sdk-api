@@ -59,12 +59,12 @@ The <b>GetOutputCurrentType</b> method gets the current media type for an output
 
 ### -param dwOutputStreamID [in]
 
-Output stream identifier. To get the list of stream identifiers, call <a href="https://msdn.microsoft.com/378A8E3F-8B1E-4C0B-9C30-FE78E1939422">IMFDeviceTransform::GetStreamIDs</a>.
+Output stream identifier. To get the list of stream identifiers, call <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-getstreamids">IMFDeviceTransform::GetStreamIDs</a>.
 
 
 ### -param pMediaType [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface that represents the current type used by that stream.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface that represents the current type used by that stream.
 
 
 ## -returns
@@ -156,7 +156,7 @@ The MFT should return a clone of the media type, not a pointer to the original t
 
 
 
-<a href="https://msdn.microsoft.com/375293FA-8017-4F74-A93C-C15FED8F19AF">IMFDeviceTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransform">IMFDeviceTransform</a>
  
 
  

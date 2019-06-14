@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>GetDescriptor</b> method retrieves the descriptor, previously set by <a href="https://msdn.microsoft.com/55208226-fd2d-48e5-887b-34e95309a770">SetDescriptor</a>, of the table of contents.
+The <b>GetDescriptor</b> method retrieves the descriptor, previously set by <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itoc-setdescriptor">SetDescriptor</a>, of the table of contents.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>GetDescriptor</b> method retrieves the descriptor, previously set by <a h
 
 ### -param pDescriptor [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/a79f75c5-be98-4120-85be-71bedbcc0ea2">TOC_DESCRIPTOR</a> structure that receives the descriptor.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/ns-wmcodecdsp-_toc_descriptor">TOC_DESCRIPTOR</a> structure that receives the descriptor.
 
 
 ## -returns
@@ -95,7 +95,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/b12d38c7-b80e-4ca8-9ac5-a116100911d0">IToc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a>
  
 
  

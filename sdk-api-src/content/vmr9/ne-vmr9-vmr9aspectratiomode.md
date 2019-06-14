@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <code>VMR9AspectRatioMode</code> enumeration type is used with the <a href="https://msdn.microsoft.com/en-us/library/Dd390539(v=VS.85).aspx">IVMRWindowlessControl9::GetAspectRatioMode</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd390547(v=VS.85).aspx">IVMRWindowlessControl9::SetAspectRatioMode</a> methods to set and retrieve the aspect ratio mode (VMR-9 only).
+The <code>VMR9AspectRatioMode</code> enumeration type is used with the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrwindowlesscontrol9-getaspectratiomode">IVMRWindowlessControl9::GetAspectRatioMode</a> and <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrwindowlesscontrol9-setaspectratiomode">IVMRWindowlessControl9::SetAspectRatioMode</a> methods to set and retrieve the aspect ratio mode (VMR-9 only).
 
 
 
@@ -75,7 +75,7 @@ Indicates that the VMR will maintain the aspect ratio of the source video by let
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
  
 
  

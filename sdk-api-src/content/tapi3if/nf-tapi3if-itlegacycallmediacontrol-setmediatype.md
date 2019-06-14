@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>SetMediaType</b> method sets the media type(s) for the current call in its 
-<a href="https://msdn.microsoft.com/b077546b-cc95-44ce-99ee-f0007fd916b2">LINECALLINFO</a> structure. For more information, see 
-<a href="https://msdn.microsoft.com/4a0e3fd7-9483-4d21-9b6f-bb6c04aa8226">lineSetMediaMode</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a> structure. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetmediamode">lineSetMediaMode</a>.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The
 ### -param lMediaType [in]
 
 Indicator of 
-<a href="https://msdn.microsoft.com/3e418c9a-a008-4b94-b5d2-7c2eccb3bf87">media type</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">media type</a>.
 
 
 ## -returns
@@ -132,11 +132,11 @@ Insufficient memory exists to perform the operation.
 
 
 
-<a href="https://msdn.microsoft.com/5f3d0189-fc9d-4fa5-bc8e-a0abf1f607f8">ITLegacyAddressMediaControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itlegacyaddressmediacontrol">ITLegacyAddressMediaControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/73288c46-6c6d-4938-9bb7-4d94acfc67f6">ITLegacyCallMediaControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itlegacycallmediacontrol">ITLegacyCallMediaControl</a>
  
 
  

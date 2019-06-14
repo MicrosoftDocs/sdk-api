@@ -64,7 +64,7 @@ A pointer to a user context.
 
 ### -param pQueryResults [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/03EB1DC2-FAB0-45C5-B438-E8FFDD218F09">DNS_QUERY_RESULT</a> structure that contains the DNS query results from a call to <a href="https://msdn.microsoft.com/22664B9A-5010-42E7-880B-8D5B16A9F2DC">DnsQueryEx</a>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dns_query_result">DNS_QUERY_RESULT</a> structure that contains the DNS query results from a call to <a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsqueryex">DnsQueryEx</a>.
 
 
 ## -returns
@@ -81,23 +81,23 @@ This callback function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/543C6F9B-3200-44F6-A2B7-A5C7F5A927DB">DNS_QUERY_CANCEL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dns_query_cancel">DNS_QUERY_CANCEL</a>
 
 
 
-<a href="https://msdn.microsoft.com/9C382800-DE71-4481-AC8D-9F89D6F59EE6">DNS_QUERY_REQUEST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dns_query_request">DNS_QUERY_REQUEST</a>
 
 
 
-<a href="https://msdn.microsoft.com/03EB1DC2-FAB0-45C5-B438-E8FFDD218F09">DNS_QUERY_RESULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dns_query_result">DNS_QUERY_RESULT</a>
 
 
 
-<a href="https://msdn.microsoft.com/E5F422AA-D4E6-4F9F-A57C-608CE9317658">DnsCancelQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnscancelquery">DnsCancelQuery</a>
 
 
 
-<a href="https://msdn.microsoft.com/22664B9A-5010-42E7-880B-8D5B16A9F2DC">DnsQueryEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsqueryex">DnsQueryEx</a>
  
 
  

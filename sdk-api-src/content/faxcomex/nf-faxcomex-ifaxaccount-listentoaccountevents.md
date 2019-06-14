@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the flags of a <a href="https://msdn.microsoft.com/en-us/library/Aa359063(v=VS.85).aspx">FAX_ACCOUNT_EVENTS_TYPE_ENUM</a> variable that represents the events for which the account is listening.
+Sets the flags of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_account_events_type_enum">FAX_ACCOUNT_EVENTS_TYPE_ENUM</a> variable that represents the events for which the account is listening.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Sets the flags of a <a href="https://msdn.microsoft.com/en-us/library/Aa359063(v
 
 ### -param EventTypes [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa359063(v=VS.85).aspx">FAX_ACCOUNT_EVENTS_TYPE_ENUM</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_account_events_type_enum">FAX_ACCOUNT_EVENTS_TYPE_ENUM</a></b>
 
 A variable that specifies the types of events for which the account is listening.
 
@@ -81,11 +81,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358967(v=VS.85).aspx">FaxAccount</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccount">FaxAccount</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa359058(v=VS.85).aspx">IFaxAccount</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccount">IFaxAccount</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The WLX_NOTIFICATION_INFO structure is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-This structure stores information about a <a href="https://msdn.microsoft.com/031c898b-3b4d-4b29-811a-112da37b5e3d">Winlogon</a> event.
+This structure stores information about a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> event.
 
 
 ## -struct-fields
@@ -82,7 +82,7 @@ String that specifies the name of the domain the user is currently logged on to.
 ### -field WindowStation
 
 Specifies the name of the window station the user is currently logged on to. If the event occurs before a user logs on, this value is <b>NULL</b>. Note that most configurations use a single, default window station. Some applications, such as 
-<a href="https://msdn.microsoft.com/5b5b0f97-f973-4f52-a965-c9c2390e6c8d">About Terminal Services</a>, use multiple window stations.
+<a href="https://docs.microsoft.com/windows/desktop/TermServ/about-terminal-services">About Terminal Services</a>, use multiple window stations.
 
 
 ### -field hToken

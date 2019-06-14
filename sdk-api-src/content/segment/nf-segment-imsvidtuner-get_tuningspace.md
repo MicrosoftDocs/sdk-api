@@ -59,7 +59,7 @@ The <b>get_TuningSpace</b> method retrieves the current tuning space.
 
 ### -param plTS [out]
 
-Pointer to a variable that receives an <a href="https://msdn.microsoft.com/51850105-b3b1-4758-acde-05ca2f3439f2">ITuningSpace</a> interface pointer.
+Pointer to a variable that receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a> interface pointer.
 
 
 ## -returns
@@ -75,7 +75,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-The returned <a href="https://msdn.microsoft.com/51850105-b3b1-4758-acde-05ca2f3439f2">ITuningSpace</a> interface has an outstanding reference count. The caller must release the interface.
+The returned <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a> interface has an outstanding reference count. The caller must release the interface.
 
 
 
@@ -85,15 +85,15 @@ The returned <a href="https://msdn.microsoft.com/51850105-b3b1-4758-acde-05ca2f3
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694704(v=VS.85).aspx">IMSVidTuner Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidtuner">IMSVidTuner Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694710(v=VS.85).aspx">IMSVidTuner::put_TuningSpace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidtuner-put_tuningspace">IMSVidTuner::put_TuningSpace</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0f36580-522f-48d6-989d-11e8d175ffdb">The Microsoft Unified Tuning Model</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/the-microsoft-unified-tuning-model">The Microsoft Unified Tuning Model</a>
  
 
  

@@ -93,7 +93,7 @@ No shader code paths that are dependent on SV_ViewID are executed at any shader 
 
 
 
-<a href="https://msdn.microsoft.com/E156C26B-0E51-4F43-9AB2-373E4C67A496">ID3D12GraphicsCommandList1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist1">ID3D12GraphicsCommandList1</a>
  
 
  

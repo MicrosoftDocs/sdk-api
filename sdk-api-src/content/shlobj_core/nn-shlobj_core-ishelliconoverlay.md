@@ -54,7 +54,7 @@ Exposes methods that are used by a namespace extension to specify icon overlays 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellIconOverlay</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IShellIconOverlay</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellIconOverlay</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellIconOverlay</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IShellIconOverlay</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ae7c55a1-8540-44d3-9793-2d6ac849ef60">GetOverlayIconIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishelliconoverlay-getoverlayiconindex">GetOverlayIconIndex</a>
 </td>
 <td align="left" width="63%">
 Gets the index of the icon overlay in the system image list.
@@ -78,7 +78,7 @@ Gets the index of the icon overlay in the system image list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e5bde311-8b5f-4a8b-9fff-5d062c650b95">GetOverlayIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishelliconoverlay-getoverlayindex">GetOverlayIndex</a>
 </td>
 <td align="left" width="63%">
 Gets the overlay index in the system image list.
@@ -94,11 +94,11 @@ Gets the overlay index in the system image list.
 
 Icon overlays are small images placed at the lower-left corner of the icon that represents a Shell object. They are typically used to add some extra information to the icon. A commonly used icon overlay is the small arrow that indicates that a file or folder icon represents a shortcut.
 
-Icon overlays are part of the system image list. They have two identifiers. One is a one-based overlay index that identifies the overlay relative to other overlays in the image list. The other is an image index that identifies the actual image. These two indexes are equivalent to the values that you assign to the <i>iOverlay</i> and <i>iImage</i> parameters, respectively, when you add an icon overlay to a private image list with <a href="https://msdn.microsoft.com/en-us/library/Bb775227(v=VS.85).aspx">ImageList::SetOverlayImage</a>.
+Icon overlays are part of the system image list. They have two identifiers. One is a one-based overlay index that identifies the overlay relative to other overlays in the image list. The other is an image index that identifies the actual image. These two indexes are equivalent to the values that you assign to the <i>iOverlay</i> and <i>iImage</i> parameters, respectively, when you add an icon overlay to a private image list with <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_setoverlayimage">ImageList::SetOverlayImage</a>.
 
-Before displaying the icon for an object, the Shell calls the associated folder's <b>IShellIconOverlay</b> interface to query whether the object's icon should have an overlay. Typically it calls <a href="https://msdn.microsoft.com/e5bde311-8b5f-4a8b-9fff-5d062c650b95">IShellIconOverlay::GetOverlayIndex</a> to request the overlay's overlay index. In some cases, the Shell might call <a href="https://msdn.microsoft.com/ae7c55a1-8540-44d3-9793-2d6ac849ef60">IShellIconOverlay::GetOverlayIconIndex</a> to request the overlay's image index. To specify an icon overlay, the methods must return the requested index. Otherwise, they return S_FALSE.
+Before displaying the icon for an object, the Shell calls the associated folder's <b>IShellIconOverlay</b> interface to query whether the object's icon should have an overlay. Typically it calls <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishelliconoverlay-getoverlayindex">IShellIconOverlay::GetOverlayIndex</a> to request the overlay's overlay index. In some cases, the Shell might call <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishelliconoverlay-getoverlayiconindex">IShellIconOverlay::GetOverlayIconIndex</a> to request the overlay's image index. To specify an icon overlay, the methods must return the requested index. Otherwise, they return S_FALSE.
 
-To specify an icon overlay, both methods must first retrieve the overlay's overlay index in the system image list by calling <a href="https://msdn.microsoft.com/20001ae0-05d0-46a7-8bb8-9bb722f5d795">SHGetIconOverlayIndex</a>. When <b>SHGetIconOverlayIndex</b> is called for the first time, the Shell uses the overlay's file name and index within the file to add the image to the system image list. Once an overlay is in the system image list, the Shell simply uses the file name and index as an identifier. You can also use <b>SHGetIconOverlayIndex</b> to retrieve the overlay index of several standard system overlays. <a href="https://msdn.microsoft.com/e5bde311-8b5f-4a8b-9fff-5d062c650b95">IShellIconOverlay::GetOverlayIndex</a> simply returns the overlay index to the Shell. <a href="https://msdn.microsoft.com/ae7c55a1-8540-44d3-9793-2d6ac849ef60">IShellIconOverlay::GetOverlayIconIndex</a> must use the <a href="https://msdn.microsoft.com/en-us/library/Bb761408(v=VS.85).aspx">INDEXTOOVERLAYMASK</a> macro to convert the overlay index to the equivalent image index.
+To specify an icon overlay, both methods must first retrieve the overlay's overlay index in the system image list by calling <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgeticonoverlayindexa">SHGetIconOverlayIndex</a>. When <b>SHGetIconOverlayIndex</b> is called for the first time, the Shell uses the overlay's file name and index within the file to add the image to the system image list. Once an overlay is in the system image list, the Shell simply uses the file name and index as an identifier. You can also use <b>SHGetIconOverlayIndex</b> to retrieve the overlay index of several standard system overlays. <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishelliconoverlay-getoverlayindex">IShellIconOverlay::GetOverlayIndex</a> simply returns the overlay index to the Shell. <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishelliconoverlay-getoverlayiconindex">IShellIconOverlay::GetOverlayIconIndex</a> must use the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-indextooverlaymask">INDEXTOOVERLAYMASK</a> macro to convert the overlay index to the equivalent image index.
 
  The number of different icon overlay handlers that the system can support is limited by the amount of space available for icon overlays in the system image list. There are currently fifteen slots allotted for icon overlays, some of which are reserved by the system. For this reason, icon overlays should be specified only if there are no satisfactory alternatives.
 

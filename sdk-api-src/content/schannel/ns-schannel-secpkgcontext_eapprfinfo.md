@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SecPkgContext_EapPrfInfo</b> structure specifies the pseudorandom function (PRF) and extracts key data used by the Extensible Authentication Protocol (EAP) <a href="https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f">Transport Layer Security protocol</a> (TLS) Authentication Protocol. For information about the EAP TLS Authentication Protocol, see <a href="http://go.microsoft.com/fwlink/p/?linkid=84050">http://www.ietf.org/rfc/rfc2716.txt</a>.
+The <b>SecPkgContext_EapPrfInfo</b> structure specifies the pseudorandom function (PRF) and extracts key data used by the Extensible Authentication Protocol (EAP) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">Transport Layer Security protocol</a> (TLS) Authentication Protocol. For information about the EAP TLS Authentication Protocol, see <a href="http://go.microsoft.com/fwlink/p/?linkid=84050">http://www.ietf.org/rfc/rfc2716.txt</a>.
 
 
 ## -struct-fields

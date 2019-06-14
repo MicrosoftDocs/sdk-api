@@ -62,7 +62,7 @@ Closes an open namespace handle.
 
 ### -param Handle [in]
 
-The namespace handle. This handle is created by <a href="https://msdn.microsoft.com/bb6331b0-88cb-4695-b159-6e8750440a69">CreatePrivateNamespace</a> or <a href="https://msdn.microsoft.com/268b4932-2553-4883-8a26-002997fbc59e">OpenPrivateNamespace</a>.
+The namespace handle. This handle is created by <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createprivatenamespacea">CreatePrivateNamespace</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openprivatenamespacea">OpenPrivateNamespace</a>.
 
 
 ### -param Flags [in]
@@ -77,7 +77,7 @@ If this parameter is <b>PRIVATE_NAMESPACE_FLAG_DESTROY</b> (0x00000001), the nam
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -96,15 +96,15 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 
 
-<a href="https://msdn.microsoft.com/bb6331b0-88cb-4695-b159-6e8750440a69">CreatePrivateNamespace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createprivatenamespacea">CreatePrivateNamespace</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a84ec16-fa65-4cdd-861a-eccf5d0eee2b">Object Namespaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/object-namespaces">Object Namespaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/268b4932-2553-4883-8a26-002997fbc59e">OpenPrivateNamespace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openprivatenamespacea">OpenPrivateNamespace</a>
  
 
  

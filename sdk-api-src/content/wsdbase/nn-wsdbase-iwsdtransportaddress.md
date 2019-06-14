@@ -51,12 +51,12 @@ ms.custom: 19H1
 
 Represents an IP-based transport address.
 
-You should not create an instance of the <b>IWSDTransportAddress</b> interface. Instead, create an instance of either the <a href="https://msdn.microsoft.com/79d3570a-56b2-40ad-b3c6-cddc3239da7e">IWSDHttpAddress</a> or <a href="https://msdn.microsoft.com/b666002f-2cd6-4e96-b055-34d801c1982e">IWSDUdpAddress</a> interface if an address object is required.
+You should not create an instance of the <b>IWSDTransportAddress</b> interface. Instead, create an instance of either the <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpaddress">IWSDHttpAddress</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpaddress">IWSDUdpAddress</a> interface if an address object is required.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDTransportAddress</b> interface inherits from <a href="https://msdn.microsoft.com/b19938b2-2fba-42fe-8c4e-5696c40acd58">IWSDAddress</a>. <b>IWSDTransportAddress</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDTransportAddress</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a>. <b>IWSDTransportAddress</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IWSDTransportAddress</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cc2e623f-e6b6-42ad-b0de-7960de0142d0">GetPort</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdtransportaddress-getport">GetPort</a>
 </td>
 <td align="left" width="63%">
 Gets the IP port number associated with this transport address.
@@ -80,7 +80,7 @@ Gets the IP port number associated with this transport address.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/090b009d-0cca-4925-bf90-cb3d0975d271">GetTransportAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdtransportaddress-gettransportaddress">GetTransportAddress</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to a string representation of the address object.
@@ -89,7 +89,7 @@ Gets a pointer to a string representation of the address object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4b6f8e97-6387-4f2b-8388-775cc84e92f0">GetTransportAddressEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdtransportaddress-gettransportaddressex">GetTransportAddressEx</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to a string representation of the address object.
@@ -98,7 +98,7 @@ Gets a pointer to a string representation of the address object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0959e6f9-82cf-4634-9547-682df1965efa">SetPort</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdtransportaddress-setport">SetPort</a>
 </td>
 <td align="left" width="63%">
 Sets the IP port number for this transport address.
@@ -107,7 +107,7 @@ Sets the IP port number for this transport address.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ea87b7d8-71c0-4cb6-b28b-7ac8f2417886">SetTransportAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdtransportaddress-settransportaddress">SetTransportAddress</a>
 </td>
 <td align="left" width="63%">
 Sets the string representation of the transport address. 
@@ -122,7 +122,7 @@ Sets the string representation of the transport address.
 
 
 
-<a href="https://msdn.microsoft.com/b19938b2-2fba-42fe-8c4e-5696c40acd58">IWSDAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a>
  
 
  

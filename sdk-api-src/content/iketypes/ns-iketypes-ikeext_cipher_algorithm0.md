@@ -61,7 +61,7 @@ The <b>IKEEXT_CIPHER_ALGORITHM0</b> structure stores information about the IKE/A
 
 The type of encryption algorithm.
 
-See <a href="https://msdn.microsoft.com/00d5def0-5c8c-4d84-b929-aec76a1a7110">IKEEXT_CIPHER_TYPE</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_cipher_type_">IKEEXT_CIPHER_TYPE</a> for more information.
 
 
 ### -field keyLen
@@ -78,7 +78,7 @@ Unused parameter, always set it to 0.
 
 
 
-<b>IKEEXT_CIPHER_ALGORITHM0</b> is a specific implementation of IKEEXT_CIPHER_ALGORITHM. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>IKEEXT_CIPHER_ALGORITHM0</b> is a specific implementation of IKEEXT_CIPHER_ALGORITHM. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -88,11 +88,11 @@ Unused parameter, always set it to 0.
 
 
 
-<a href="https://msdn.microsoft.com/00d5def0-5c8c-4d84-b929-aec76a1a7110">IKEEXT_CIPHER_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_cipher_type_">IKEEXT_CIPHER_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

@@ -77,7 +77,7 @@ if <b>TRUE</b>, this device service supports read on bulk data sessions. Otherwi
 
 
 
-<a href="https://msdn.microsoft.com/90CB9B2E-16CA-48A0-AF16-937D816718D6">EnumerateDeviceServices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicescontext-enumeratedeviceservices">EnumerateDeviceServices</a>
  
 
  

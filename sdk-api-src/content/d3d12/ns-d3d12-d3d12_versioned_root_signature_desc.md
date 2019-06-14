@@ -64,12 +64,12 @@ Specifies one member of D3D_ROOT_SIGNATURE_VERSION that determines the contents 
 
 ### -field Desc_1_0
 
-Specifies a <a href="https://msdn.microsoft.com/D74D9D3B-96AB-489A-A91C-4F68AC3D05EE">D3D12_ROOT_SIGNATURE_DESC</a> (version 1.0).
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_signature_desc">D3D12_ROOT_SIGNATURE_DESC</a> (version 1.0).
 
 
 ### -field Desc_1_1
 
-Specifies a <a href="https://msdn.microsoft.com/F085D077-1DA8-41A1-9FA3-4423EA003345">D3D12_ROOT_SIGNATURE_DESC1</a> (version 1.1).
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_signature_desc1">D3D12_ROOT_SIGNATURE_DESC1</a> (version 1.1).
 
 
 ## -remarks
@@ -80,16 +80,16 @@ Use this structure with the following methods.
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/50EB9AC8-D13D-41D3-9E16-AC9871095A72">GetRootSignatureDescAtVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12versionedrootsignaturedeserializer-getrootsignaturedescatversion">GetRootSignatureDescAtVersion</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/7E21B598-C13B-4418-B5B1-4ADDAA18F9B9">GetUnconvertedRootSignatureDesc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12versionedrootsignaturedeserializer-getunconvertedrootsignaturedesc">GetUnconvertedRootSignatureDesc</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/D8A15561-4911-4067-B25E-8BF2B079FD81">D3D12SerializeVersionedRootSignature</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-d3d12serializeversionedrootsignature">D3D12SerializeVersionedRootSignature</a>
 </li>
 </ul>
-Refer to the helper structure <a href="https://msdn.microsoft.com/4505C1CE-CAA5-4092-B990-75740A2B194C">CD3DX12_VERSIONED_ROOT_SIGNATURE_DESC</a>. 
+Refer to the helper structure <a href="https://docs.microsoft.com/windows/desktop/direct3d12/cd3dx12-versioned-root-signature-desc">CD3DX12_VERSIONED_ROOT_SIGNATURE_DESC</a>. 
 
 
 
@@ -99,11 +99,11 @@ Refer to the helper structure <a href="https://msdn.microsoft.com/4505C1CE-CAA5-
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/8FE42C1C-7F1D-4E70-A7EE-D5EC67237327">Root Signature Version 1.1</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/root-signature-version-1-1">Root Signature Version 1.1</a>
  
 
  

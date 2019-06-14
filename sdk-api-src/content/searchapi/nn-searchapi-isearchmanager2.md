@@ -54,7 +54,7 @@ Enabled applications to create and delete custom catalogs in the Windows Search 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchManager2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb231485(v=VS.85).aspx">ISearchManager</a>. <b>ISearchManager2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchManager2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchmanager">ISearchManager</a>. <b>ISearchManager2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISearchManager2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2ADC48B8-87A2-4527-9AA8-9B0BA3A12462">CreateCatalog</a>
+<a href="https://docs.microsoft.com/windows/desktop/search/isearchmanager2-createcatalog">CreateCatalog</a>
 </td>
 <td align="left" width="63%">
 Creates a new custom catalog in the Windows Search indexer and returns a reference to it.
@@ -78,7 +78,7 @@ Creates a new custom catalog in the Windows Search indexer and returns a referen
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E9515AEE-6854-4FF8-9A83-10E6BC247D4D">DeleteCatalog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchmanager2-deletecatalog">DeleteCatalog</a>
 </td>
 <td align="left" width="63%">
 Deletes an existing catalog and all associated indexed data from the Windows Search indexer.
@@ -109,7 +109,7 @@ These methods can be called in any COM apartment, and the behavior will not be i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb231485(v=VS.85).aspx">ISearchManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchmanager">ISearchManager</a>
  
 
  

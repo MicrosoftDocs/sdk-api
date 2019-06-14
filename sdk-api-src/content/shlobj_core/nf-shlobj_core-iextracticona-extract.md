@@ -109,7 +109,7 @@ Returns S_OK if the function extracted the icon, or S_FALSE if the calling appli
 
 
 
-The icon location and index are the same values returned by the <a href="https://msdn.microsoft.com/56138982-c062-4b07-aea7-6023037451fe">IExtractIcon::GetIconLocation</a> method. If <b>IExtractIcon::Extract</b> function returns S_FALSE, these values must specify an icon file name and index that form legal parameters for a call to <a href="https://msdn.microsoft.com/a0314423-79d6-416e-8be0-be946477da3e">ExtractIcon</a>. If <b>IExtractIcon::Extract</b> does not return S_FALSE, no assumptions should be made about the meanings of the <i>pszFile</i> and <i>nIconIndex</i> parameters.
+The icon location and index are the same values returned by the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iextracticona-geticonlocation">IExtractIcon::GetIconLocation</a> method. If <b>IExtractIcon::Extract</b> function returns S_FALSE, these values must specify an icon file name and index that form legal parameters for a call to <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extracticona">ExtractIcon</a>. If <b>IExtractIcon::Extract</b> does not return S_FALSE, no assumptions should be made about the meanings of the <i>pszFile</i> and <i>nIconIndex</i> parameters.
 
 
 
@@ -119,7 +119,7 @@ The icon location and index are the same values returned by the <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/f8e0ab98-c225-4cc1-93f8-b7ab6b2f706f">IExtractIcon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iextracticona">IExtractIcon</a>
  
 
  

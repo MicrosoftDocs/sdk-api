@@ -105,7 +105,7 @@ If <i>SourceCount</i> is zero on input, a <b>NULL</b> pointer
 
 
 On success,  <b>getipv4sourcefilter</b> returns NO_ERROR (0). Any nonzero return value indicates failure and a specific error code can be retrieved by calling 
-<a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
 
 <table>
 <tr>
@@ -115,7 +115,7 @@ On success,  <b>getipv4sourcefilter</b> returns NO_ERROR (0). Any nonzero return
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -126,7 +126,7 @@ Insufficient buffer space is available.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -175,23 +175,23 @@ This function is part of socket interface extensions for multicast source filter
 
 
 
-<a href="https://msdn.microsoft.com/7ca9cb9b-618a-4e73-9e2a-18e55e5c00c0">MULTICAST_MODE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ne-ws2ipdef-multicast_mode_type">MULTICAST_MODE_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/2CA84000-F114-439D-BEDE-9990044C7785">getsourcefilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getsourcefilter">getsourcefilter</a>
 
 
 
-<a href="https://msdn.microsoft.com/fc41a2d1-ea6e-41bb-b2c8-531ac8b5434c">in_addr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a>
 
 
 
-<a href="https://msdn.microsoft.com/C296D050-9195-42B5-8EBE-C6004F2DA855">setipv4sourcefilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-setipv4sourcefilter">setipv4sourcefilter</a>
 
 
 
-<a href="https://msdn.microsoft.com/320455F3-FDFB-46C6-9F26-3C60064A2CB0">setsourcefilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-setsourcefilter">setsourcefilter</a>
  
 
  

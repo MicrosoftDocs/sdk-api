@@ -60,7 +60,7 @@ Describes an indirect argument (an indirect parameter), for use with a command s
 
 ### -field Type
 
-A single <a href="https://msdn.microsoft.com/03324A50-BE16-4FC0-BFE7-9EE97C738165">D3D12_INDIRECT_ARGUMENT_TYPE</a> enumeration constant.
+A single <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_indirect_argument_type">D3D12_INDIRECT_ARGUMENT_TYPE</a> enumeration constant.
           
 
 
@@ -128,7 +128,7 @@ Specifies the root index of the UAV.
 
 
 
-Use this structure with the <a href="https://msdn.microsoft.com/3ACB1582-7A93-4D8D-A463-A828EF0C7F92">D3D12_COMMAND_SIGNATURE_DESC</a> structure.
+Use this structure with the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_command_signature_desc">D3D12_COMMAND_SIGNATURE_DESC</a> structure.
         
 
 
@@ -139,11 +139,11 @@ Use this structure with the <a href="https://msdn.microsoft.com/3ACB1582-7A93-4D
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/493D35C9-2A90-4688-BD7E-74B9EB2B4E72">Example Root Signatures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/example-root-signatures">Example Root Signatures</a>
  
 
  

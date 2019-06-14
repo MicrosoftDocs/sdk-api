@@ -60,12 +60,12 @@ The <code>get_Zoom</code> method returns the camera's optical zoom level.
 
 ### -param pValue [out]
 
-Receives the zoom level. The units for this setting are not defined. For information about calculating magnification from zoom level, see <a href="https://msdn.microsoft.com/en-us/library/Dd376315(v=VS.85).aspx">ICameraControl::get_FocalLengths</a>.
+Receives the zoom level. The units for this setting are not defined. For information about calculating magnification from zoom level, see <a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-icameracontrol-get_focallengths">ICameraControl::get_FocalLengths</a>.
 
 
 ### -param pFlags [out]
 
-Receives one or more flags. See <a href="https://msdn.microsoft.com/en-us/library/Dd318251(v=VS.85).aspx">CameraControlFlags</a>.
+Receives one or more flags. See <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagcameracontrolflags">CameraControlFlags</a>.
 
 
 ## -returns
@@ -81,7 +81,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-This method returns the optical zoom level only. To get the digital zoom level, call <a href="https://msdn.microsoft.com/en-us/library/Dd377254(v=VS.85).aspx">IVideoProcAmp::get_DigitalMultiplier</a>.
+This method returns the optical zoom level only. To get the digital zoom level, call <a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-get_digitalmultiplier">IVideoProcAmp::get_DigitalMultiplier</a>.
 
 
 
@@ -91,11 +91,11 @@ This method returns the optical zoom level only. To get the digital zoom level, 
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd376298(v=VS.85).aspx">ICameraControl Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nn-vidcap-icameracontrol">ICameraControl Interface</a>
  
 
  

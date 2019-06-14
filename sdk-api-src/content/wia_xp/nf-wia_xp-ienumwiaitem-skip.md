@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IEnumWiaItem::Skip</b> method skips the specified number of items during an enumeration of available <a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a> objects.
+The <b>IEnumWiaItem::Skip</b> method skips the specified number of items during an enumeration of available <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> objects.
 
 
 ## -parameters

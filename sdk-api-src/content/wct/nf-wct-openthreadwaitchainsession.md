@@ -95,7 +95,7 @@ An asynchronous session.
 
 ### -param callback [in, optional]
 
-If the session is asynchronous, this parameter can be a pointer to a <a href="https://msdn.microsoft.com/07d987b4-3ee4-4957-a6e8-542c427b94dd">WaitChainCallback</a> callback function.
+If the session is asynchronous, this parameter can be a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wct/nc-wct-pwaitchaincallback">WaitChainCallback</a> callback function.
 
 
 ## -returns
@@ -104,7 +104,7 @@ If the session is asynchronous, this parameter can be a pointer to a <a href="ht
 
 If the function succeeds, the return value is a handle to the newly created session.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -113,13 +113,13 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-When you have finished using the session, call the <a href="https://msdn.microsoft.com/dc288418-01e4-4737-9c63-e6e6b73b5d13">CloseThreadWaitChainSession</a> function.
+When you have finished using the session, call the <a href="https://docs.microsoft.com/windows/desktop/api/wct/nf-wct-closethreadwaitchainsession">CloseThreadWaitChainSession</a> function.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/7c5fa606-6e9b-41da-bfa9-1f066449d813">Using WCT</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/using-wct">Using WCT</a>.
 
 <div class="code"></div>
 
@@ -130,19 +130,19 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/dc288418-01e4-4737-9c63-e6e6b73b5d13">CloseThreadWaitChainSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wct/nf-wct-closethreadwaitchainsession">CloseThreadWaitChainSession</a>
 
 
 
-<a href="https://msdn.microsoft.com/5b418fa6-1d07-465e-85ea-b7127264eebf">GetThreadWaitChain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wct/nf-wct-getthreadwaitchain">GetThreadWaitChain</a>
 
 
 
-<a href="https://msdn.microsoft.com/d266a663-b101-4936-9574-f6ce223419ae">Wait Chain Traversal</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/wait-chain-traversal">Wait Chain Traversal</a>
 
 
 
-<a href="https://msdn.microsoft.com/07d987b4-3ee4-4957-a6e8-542c427b94dd">WaitChainCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wct/nc-wct-pwaitchaincallback">WaitChainCallback</a>
  
 
  

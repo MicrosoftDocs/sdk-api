@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptSetKeyIdentifierProperty</b> function sets the property of a specified key identifier. This function can set the property on the computer identified in <i>pwszComputerName</i>.
+<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptSetKeyIdentifierProperty</b> function sets the property of a specified key identifier. This function can set the property on the computer identified in <i>pwszComputerName</i>.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ ms.custom: 19H1
 ### -param pKeyIdentifier [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_HASH_BLOB</a> containing the key identifier.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> containing the key identifier.
 
 
 ### -param dwPropId [in]
@@ -124,12 +124,12 @@ Reserved for future use and must be <b>NULL</b>.
 ### -param pvData [out]
 
 If <i>dwPropId</i> is CERT_KEY_PROV_INFO_PROP_ID, <i>pvData</i> points to a 
-<a href="https://msdn.microsoft.com/6aea2f47-9d4a-4069-ac6d-f28907df00be">CRYPT_KEY_PROV_INFO</a> structure containing the property of the key identifier. 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure containing the property of the key identifier. 
 
 
 
 
-If <i>dwPropId</i> is not CERT_KEY_PROV_INFO_PROP_ID, <i>pvData</i> points to a <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_DATA_BLOB</a> structure containing the property of the key identifier.
+If <i>dwPropId</i> is not CERT_KEY_PROV_INFO_PROP_ID, <i>pvData</i> points to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure containing the property of the key identifier.
 
 Setting <i>pvData</i> to <b>NULL</b> deletes the property.
 
@@ -141,7 +141,7 @@ Setting <i>pvData</i> to <b>NULL</b> deletes the property.
 If the function succeeds, the return value is nonzero (TRUE).
 
 If the function fails, the return value is zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 <div class="alert"><b>Note</b>  If CRYPT_KEYID_SET_NEW_FLAG is set and the property already exists, <b>FALSE</b> is returned with the last error code set to CRYPT_E_EXISTS.</div>
 <div> </div>
@@ -153,15 +153,15 @@ If the function fails, the return value is zero (<b>FALSE</b>). For extended err
 
 
 
-<a href="https://msdn.microsoft.com/6e57d935-4cfb-44af-b1c6-6c399c959452">CryptEnumKeyIdentifierProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumkeyidentifierproperties">CryptEnumKeyIdentifierProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/bc0511c1-0699-4959-afd7-a838c91c77d5">CryptGetKeyIdentifierProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetkeyidentifierproperty">CryptGetKeyIdentifierProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Key Identifier Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Key Identifier Functions</a>
  
 
  

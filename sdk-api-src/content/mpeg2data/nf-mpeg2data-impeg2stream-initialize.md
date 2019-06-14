@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>Initialize</b> method initializes the <b>MPEG2Stream</b> object. This method should be called once, immediately after creating the object. The <a href="https://msdn.microsoft.com/896080ff-cdf0-40b1-ba4e-d94de527d86e">IMpeg2Data::GetStreamOfSections</a> method calls this method internally, so typically an application will not call it.
+The <b>Initialize</b> method initializes the <b>MPEG2Stream</b> object. This method should be called once, immediately after creating the object. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2data-getstreamofsections">IMpeg2Data::GetStreamOfSections</a> method calls this method internally, so typically an application will not call it.
 
 
 
@@ -62,17 +62,17 @@ The <b>Initialize</b> method initializes the <b>MPEG2Stream</b> object. This met
 
 ### -param requestType [in]
 
-Specifies the request type, as an <a href="https://msdn.microsoft.com/d1811cd5-3dda-48d1-a3b3-e4189e2622bb">MPEG_REQUEST_TYPE</a> value.
+Specifies the request type, as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ne-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0032">MPEG_REQUEST_TYPE</a> value.
 
 
 ### -param pMpeg2Data [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/82af47a2-cac4-4d4f-ba20-d4f6b5485a65">IMpeg2Data</a> interface of the MPEG-2 Sections and Tables filter.
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-impeg2data">IMpeg2Data</a> interface of the MPEG-2 Sections and Tables filter.
 
 
 ### -param pContext [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/7a92e545-805b-4ce6-bbf1-397f7a5f6524">MPEG_CONTEXT</a> structure. This structure indicates the MPEG-2 source.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0030">MPEG_CONTEXT</a> structure. This structure indicates the MPEG-2 source.
 
 
 ### -param pid [in]
@@ -87,7 +87,7 @@ Specifies a table identifier (TID), indicating which table sections to retrieve.
 
 ### -param pFilter [in]
 
-Optional pointer to an <a href="https://msdn.microsoft.com/a7e66de7-d67b-4814-9849-076c3dd5afb1">MPEG2_FILTER</a> structure. The caller can use this parameter to exclude packets based on additional MPEG-2 header fields. This parameter can be <b>NULL</b>.
+Optional pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0019">MPEG2_FILTER</a> structure. The caller can use this parameter to exclude packets based on additional MPEG-2 header fields. This parameter can be <b>NULL</b>.
 
 
 ### -param hDataReadyEvent [in]
@@ -161,7 +161,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/189c921a-ec49-48dc-8c60-3d3ec2a648ca">IMpeg2Stream Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-impeg2stream">IMpeg2Stream Interface</a>
  
 
  

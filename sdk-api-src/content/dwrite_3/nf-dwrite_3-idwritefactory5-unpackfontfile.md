@@ -60,7 +60,7 @@ The UnpackFontFile method unpacks font data from a container file (WOFF or WOFF2
 
 ### -param containerType
 
-Type: <b><a href="https://msdn.microsoft.com/93275F1D-A25C-4BDD-B278-DA56ADB3436D">DWRITE_CONTAINER_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/ne-dwrite_3-dwrite_container_type">DWRITE_CONTAINER_TYPE</a></b>
 
 Container type returned by AnalyzeContainerType.
 
@@ -81,7 +81,7 @@ Size of the compressed data, in bytes.
 
 ### -param unpackedFontStream [out]
 
-Type: <b><a href="https://msdn.microsoft.com/792ab9be-853f-427d-a762-2da8e81423f8">IDWriteFontFileStream</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontfilestream">IDWriteFontFileStream</a>**</b>
 
 Receives a pointer to a newly created font file stream containing the uncompressed data.
 
@@ -90,7 +90,7 @@ Receives a pointer to a newly created font file stream containing the uncompress
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 Standard HRESULT error code. The return value is E_INVALIDARG if the container type is DWRITE_CONTAINER_TYPE_UNKNOWN.
 
@@ -102,7 +102,7 @@ Standard HRESULT error code. The return value is E_INVALIDARG if the container t
 
 
 
-<a href="https://msdn.microsoft.com/2F3E30DC-A965-4C68-A337-73F338CF2563">IDWriteFactory5</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefactory5">IDWriteFactory5</a>
  
 
  

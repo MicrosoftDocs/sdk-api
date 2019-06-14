@@ -226,7 +226,7 @@ A pointer to the number of the SKU's status.
 
 ### -param ppLicensingStatus [out]
 
-Type: <b><a href="https://msdn.microsoft.com/e7c857d9-6f63-4b1c-a562-abb158914a7d">SL_LICENSING_STATUS</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ns-slpublic-_tagsl_licensing_status">SL_LICENSING_STATUS</a>**</b>
 
 A pointer to the licensing status of the SKU.
 

@@ -76,7 +76,7 @@ Number of elements in the <b>pasCertChain</b> array.
 
 ### -field pasCertChain
 
-Array of <a href="https://msdn.microsoft.com/622e7a72-445a-4820-b236-1c90dad08351">CRYPT_PROVIDER_CERT</a> structures.
+Array of <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_provider_cert">CRYPT_PROVIDER_CERT</a> structures.
 
 
 ### -field dwSignerType
@@ -105,7 +105,7 @@ Time stamp signer.
 
 ### -field psSigner
 
-A pointer to a <a href="https://msdn.microsoft.com/eae631d2-5e5f-4964-b079-9692831b34fc">CMSG_SIGNER_INFO</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_signer_info">CMSG_SIGNER_INFO</a> structure.
 
 
 ### -field dwError
@@ -125,5 +125,5 @@ A pointer to an array of <b>CRYPT_PROVIDER_SGNR</b> structures that represent th
 
 ### -field pChainContext
 
-A pointer to a <a href="https://msdn.microsoft.com/609311f4-9cd6-4945-9f93-7266b3fc4a74">CERT_CHAIN_CONTEXT</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_context">CERT_CHAIN_CONTEXT</a> structure.
 

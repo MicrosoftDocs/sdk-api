@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The callback interface for receiving sensor manager events.
 
-To receive event notifications, first call <a href="https://msdn.microsoft.com/270f0943-dc6a-47df-b1bd-ecfbfcafc4c8">ISensorManager::SetEventSink</a>.
+To receive event notifications, first call <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-isensormanager-seteventsink">ISensorManager::SetEventSink</a>.
 
 
 ## -see-also
@@ -59,7 +59,7 @@ To receive event notifications, first call <a href="https://msdn.microsoft.com/2
 
 
 
-<a href="https://msdn.microsoft.com/872de1e9-20f9-409b-9917-24b13a8cc08a">COM Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/windows-sensors-com-interfaces">COM Interfaces</a>
  
 
  

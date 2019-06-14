@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents information about the bitmap stored in <a href="https://msdn.microsoft.com/5B833E2A-D150-4ECA-88C8-CEEDBF2E23C6">IBitmapData</a>.
+Represents information about the bitmap stored in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ibitmapdata">IBitmapData</a>.
 
 
 ## -struct-fields

@@ -68,8 +68,8 @@ Disables the DLL_THREAD_ATTACH and DLL_THREAD_DETACH notifications for the speci
 ### -param hLibModule [in]
 
 A handle to the DLL module for which the DLL_THREAD_ATTACH and DLL_THREAD_DETACH notifications are to be disabled. The 
-<a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a>, <a href="https://msdn.microsoft.com/4fc699ca-6ffb-4954-9b72-1b827d558563">LoadLibraryEx</a>,  or 
-<a href="https://msdn.microsoft.com/29514410-89fe-4888-8b34-0c30d5af237f">GetModuleHandle</a> function returns this handle. Note that you cannot call <b>GetModuleHandle</b> with NULL because this returns the base address of the executable image, not the DLL image.
+<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>, <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>,  or 
+<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a> function returns this handle. Note that you cannot call <b>GetModuleHandle</b> with NULL because this returns the base address of the executable image, not the DLL image.
 
 
 ## -returns
@@ -80,7 +80,7 @@ If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. The 
 <b>DisableThreadLibraryCalls</b> function fails if the DLL specified by <i>hModule</i> has active static thread local storage, or if <i>hModule</i> is an invalid module handle. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -103,15 +103,15 @@ Do not call this function from a DLL that is linked to the static C run-time lib
 
 
 
-<a href="https://msdn.microsoft.com/ec035fc6-0a6f-4e52-a4cc-8d7a25a94366">Dynamic-Link Library Entry-Point Function</a>
+<a href="https://docs.microsoft.com/windows/desktop/Dlls/dynamic-link-library-entry-point-function">Dynamic-Link Library Entry-Point Function</a>
 
 
 
-<a href="https://msdn.microsoft.com/29e50bd5-1712-407f-bcb3-50a0a22ab8b5">Dynamic-Link Library Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Dlls/dynamic-link-library-functions">Dynamic-Link Library Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/be63fdbf-b3a4-44a8-99b4-b41e159952a7">FreeLibraryAndExitThread</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-freelibraryandexitthread">FreeLibraryAndExitThread</a>
  
 
  

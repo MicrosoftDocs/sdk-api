@@ -59,14 +59,14 @@ Determines if the current media in a supported recorder supports the given forma
 
 ### -param recorder [in]
 
-An <a href="https://msdn.microsoft.com/34f858b8-74eb-4725-8815-7954cb98cff0">IDiscRecorder2</a> interface of the recorder to test.
+An <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a> interface of the recorder to test.
 
 
 ### -param value [out]
 
 Is VARIANT_TRUE if the media in the recorder supports the given format; otherwise, VARIANT_FALSE.
 
-<div class="alert"><b>Note</b>  VARIANT_TRUE also implies that the result from <a href="https://msdn.microsoft.com/1a96283a-a5a3-434a-834a-d539160cfc5c">IsDiscRecorderSupported</a> is VARIANT_TRUE. </div>
+<div class="alert"><b>Note</b>  VARIANT_TRUE also implies that the result from <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2-isrecordersupported">IsDiscRecorderSupported</a> is VARIANT_TRUE. </div>
 <div> </div>
 
 ## -returns
@@ -119,11 +119,11 @@ There is no media in the device.
 
 
 
-<a href="https://msdn.microsoft.com/c0bc2e8b-bd60-4c97-bd86-41963b20b1a3">IDiscFormat2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2">IDiscFormat2</a>
 
 
 
-<a href="https://msdn.microsoft.com/1a96283a-a5a3-434a-834a-d539160cfc5c">IDiscFormat2::IsDiscRecorderSupported</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2-isrecordersupported">IDiscFormat2::IsDiscRecorderSupported</a>
  
 
  

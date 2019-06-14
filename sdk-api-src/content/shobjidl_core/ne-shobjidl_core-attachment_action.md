@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Provides a set of flags to be used with <a href="https://msdn.microsoft.com/01c01abf-df7a-411b-979b-ddd8da569f91">IAttachmentExecute::Prompt</a> to indicate the action to be performed upon user confirmation.
+Provides a set of flags to be used with <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-prompt">IAttachmentExecute::Prompt</a> to indicate the action to be performed upon user confirmation.
 
 
 ## -enum-fields

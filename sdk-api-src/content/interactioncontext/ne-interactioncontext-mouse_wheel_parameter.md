@@ -97,15 +97,15 @@ Maximum number of interactions exceeded.
 
 
 
-<a href="https://msdn.microsoft.com/2edb742d-a5a1-4c3b-bc0f-c119a2f1c221">GetMouseWheelParameterInteractionContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-getmousewheelparameterinteractioncontext">GetMouseWheelParameterInteractionContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/0B8D9A5F-F7CF-42B0-A320-77D44445CC24">Interaction Context Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/enumerations">Interaction Context Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/fbc47bd4-f78a-4b03-8adc-9b2c4620ea55">SetMouseWheelParameterInteractionContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-setmousewheelparameterinteractioncontext">SetMouseWheelParameterInteractionContext</a>
  
 
  

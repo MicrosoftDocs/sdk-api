@@ -66,7 +66,7 @@ Button identifier.
 ### -param ButtonMode [in]
 
 The 
-<a href="https://msdn.microsoft.com/ae410224-bb01-4d56-95e8-1c2ead544cf1">PHONE_BUTTON_MODE</a> descriptor for the button's mode.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-phone_button_mode">PHONE_BUTTON_MODE</a> descriptor for the button's mode.
 
 
 ## -returns
@@ -83,11 +83,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/94dff33c-67a1-4df8-9ef5-2b6524438f6f">ITPhone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a>
 
 
 
-<a href="https://msdn.microsoft.com/5b3173bf-1c79-4c5d-a2bc-3b3ae4f0ae8a">get_ButtonMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_buttonmode">get_ButtonMode</a>
  
 
  

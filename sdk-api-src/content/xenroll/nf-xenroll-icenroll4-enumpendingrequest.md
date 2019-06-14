@@ -52,9 +52,9 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>enumPendingRequest</b> method enumerates pending <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate requests</a> and retrieves a specified property from each.
+The <b>enumPendingRequest</b> method enumerates pending <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate requests</a> and retrieves a specified property from each.
 			
-		This method was first defined in the <a href="https://msdn.microsoft.com/4e3e3792-aa41-46fe-bf75-26c2b8959f7a">ICEnroll4</a> interface.
+		This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a> interface.
 
 
 ## -parameters
@@ -86,7 +86,7 @@ The identifier for the property being retrieved. This parameter can be one of th
 </dl>
 </td>
 <td width="60%">
-The DNS name for the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA).
+The DNS name for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA).
 
 </td>
 </tr>
@@ -141,7 +141,7 @@ A pointer to a <b>VARIANT</b> that receives the value of the retrieved property.
 
 
 
-When you have finished using the <b>VARIANT</b>, free it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221165(v=VS.85).aspx">VariantClear</a> function.
+When you have finished using the <b>VARIANT</b>, free it by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a> function.
 
 
 ## -returns
@@ -152,7 +152,7 @@ When you have finished using the <b>VARIANT</b>, free it by calling the <a href=
  If the method succeeds, the method returns S_OK.
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see 
-<a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 If the following values are specified for <i>lDesiredProperty</i>, this method returns E_NOTIMPL:<ul>
 <li>XEPR_DATE</li>

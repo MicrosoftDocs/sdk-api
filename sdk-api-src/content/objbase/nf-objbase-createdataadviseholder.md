@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves a pointer to the OLE implementation of <a href="https://msdn.microsoft.com/740a6366-6ab1-4a20-82df-1efdd62211eb">IDataAdviseHolder</a> on the data advise holder object.
+Retrieves a pointer to the OLE implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataadviseholder">IDataAdviseHolder</a> on the data advise holder object.
 
 
 
@@ -63,7 +63,7 @@ Retrieves a pointer to the OLE implementation of <a href="https://msdn.microsoft
 
 ### -param ppDAHolder [out]
 
-Address of an <a href="https://msdn.microsoft.com/740a6366-6ab1-4a20-82df-1efdd62211eb">IDataAdviseHolder</a> pointer variable that receives the interface pointer to the new advise holder object.
+Address of an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataadviseholder">IDataAdviseHolder</a> pointer variable that receives the interface pointer to the new advise holder object.
 
 
 ## -returns
@@ -98,7 +98,7 @@ Insufficient memory for the operation.
 
 
 
-Call <b>CreateDataAdviseHolder</b> in your implementation of <a href="https://msdn.microsoft.com/be9891d4-aad3-42a0-8c8e-4b86091ff03b">IDataObject::DAdvise</a> to get a pointer to the OLE implementation of <a href="https://msdn.microsoft.com/740a6366-6ab1-4a20-82df-1efdd62211eb">IDataAdviseHolder</a> interface. With this pointer, you can then complete the implementation of <b>IDataObject::DAdvise</b> by calling the <a href="https://msdn.microsoft.com/3b72a50b-a18f-4ec0-9d1d-52b07eb84faf">IDataAdviseHolder::Advise</a> method, which creates an advisory connection between the calling object and the data object.
+Call <b>CreateDataAdviseHolder</b> in your implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">IDataObject::DAdvise</a> to get a pointer to the OLE implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataadviseholder">IDataAdviseHolder</a> interface. With this pointer, you can then complete the implementation of <b>IDataObject::DAdvise</b> by calling the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataadviseholder-advise">IDataAdviseHolder::Advise</a> method, which creates an advisory connection between the calling object and the data object.
 
 
 
@@ -109,7 +109,7 @@ Call <b>CreateDataAdviseHolder</b> in your implementation of <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/740a6366-6ab1-4a20-82df-1efdd62211eb">IDataAdviseHolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataadviseholder">IDataAdviseHolder</a>
  
 
  

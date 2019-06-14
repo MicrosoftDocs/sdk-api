@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an immediate context, which can play back <a href="https://msdn.microsoft.com/4f581bc7-6c5e-4e56-b768-7f3cc5dbcb3e">command lists</a>.
+Gets an immediate context, which can play back <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-render-multi-thread-command-list">command lists</a>.
         
 
 
@@ -61,9 +61,9 @@ Gets an immediate context, which can play back <a href="https://msdn.microsoft.c
 
 ### -param ppImmediateContext [out]
 
-Type: <b><a href="https://msdn.microsoft.com/65F462DB-5546-4B23-B438-60067FD60103">ID3D11DeviceContext3</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11devicecontext3">ID3D11DeviceContext3</a>**</b>
 
-Upon completion of the method, the passed pointer to an <a href="https://msdn.microsoft.com/65F462DB-5546-4B23-B438-60067FD60103">ID3D11DeviceContext3</a> interface pointer is initialized.
+Upon completion of the method, the passed pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11devicecontext3">ID3D11DeviceContext3</a> interface pointer is initialized.
           
 
 
@@ -82,12 +82,12 @@ This method does not return a value.
 
 The
           <b>GetImmediateContext3</b>method outputs an
-          <a href="https://msdn.microsoft.com/65F462DB-5546-4B23-B438-60067FD60103">ID3D11DeviceContext3</a>object that represents an immediate context, which is used to perform rendering that you want immediately submitted to a device.
+          <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11devicecontext3">ID3D11DeviceContext3</a>object that represents an immediate context, which is used to perform rendering that you want immediately submitted to a device.
           For most apps, an immediate context is the primary object that is used to draw your scene.
         
 
 The <b>GetImmediateContext3</b> method increments the reference count of the immediate context by one.
-          Therefore, you must call <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a> on the returned interface pointer when you are done with it to avoid a memory leak.
+          Therefore, you must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the returned interface pointer when you are done with it to avoid a memory leak.
         
 
 
@@ -98,19 +98,19 @@ The <b>GetImmediateContext3</b> method increments the reference count of the imm
 
 
 
-<a href="https://msdn.microsoft.com/E66CDC7E-21B5-4675-A7A1-6F94940A4C13">ID3D11Device1::GetImmediateContext1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11device1-getimmediatecontext1">ID3D11Device1::GetImmediateContext1</a>
 
 
 
-<a href="https://msdn.microsoft.com/3DCA642D-7992-4C1E-8AD2-CA0099188A46">ID3D11Device2::GetImmediateContext2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/nf-d3d11_2-id3d11device2-getimmediatecontext2">ID3D11Device2::GetImmediateContext2</a>
 
 
 
-<a href="https://msdn.microsoft.com/0AA10851-0077-4075-BD41-72FCD7BC0556">ID3D11Device3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11device3">ID3D11Device3</a>
 
 
 
-<a href="https://msdn.microsoft.com/0349f0b8-7696-4d72-bed4-d39b9ac90f6c">ID3D11Device::GetImmediateContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-getimmediatecontext">ID3D11Device::GetImmediateContext</a>
  
 
  

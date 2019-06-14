@@ -109,9 +109,9 @@ Windows Media Device Manager should cancel the current operation without waiting
 
 
 
-This operation is called by various methods to indicate that an operation is beginning. The number of ticks passed in <i>dwEstimatedTicks</i> is an estimate of how many ticks are needed for the operation to complete. During the course of the operation, the <a href="https://msdn.microsoft.com/e85b6b46-2c42-461f-90b5-71b48bc4a111">Progress</a> method is called to indicate how many ticks have transpired. Applications can use the estimate to configure display mechanisms that show progress.
+This operation is called by various methods to indicate that an operation is beginning. The number of ticks passed in <i>dwEstimatedTicks</i> is an estimate of how many ticks are needed for the operation to complete. During the course of the operation, the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress-progress">Progress</a> method is called to indicate how many ticks have transpired. Applications can use the estimate to configure display mechanisms that show progress.
 
-The <a href="https://msdn.microsoft.com/8c794aff-9800-405e-853a-56dd5bd84665">IWMDMProgress3::Begin3</a> method provides more information about what action is occurring.
+The <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress3-begin3">IWMDMProgress3::Begin3</a> method provides more information about what action is occurring.
 
 
 #### Examples
@@ -139,15 +139,15 @@ HRESULT Begin(DWORD  dwEstimatedTicks)
 
 
 
-<a href="https://msdn.microsoft.com/b4fc7714-a7d0-409f-a47c-4903bab883cc">Enabling Notifications</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/enabling-notifications">Enabling Notifications</a>
 
 
 
-<a href="https://msdn.microsoft.com/9af022a6-19b4-41b7-b951-0acad6aab4a2">IWMDMProgress Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress">IWMDMProgress Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c794aff-9800-405e-853a-56dd5bd84665">IWMDMProgress3::Begin3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress3-begin3">IWMDMProgress3::Begin3</a>
  
 
  

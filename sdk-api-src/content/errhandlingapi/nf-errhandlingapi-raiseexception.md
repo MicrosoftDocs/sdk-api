@@ -67,7 +67,7 @@ Raises an exception in the calling thread.
 ### -param dwExceptionCode [in]
 
 An application-defined exception code of the exception being raised. The filter expression and exception-handler block of an exception handler can use the 
-<a href="https://msdn.microsoft.com/f3c4a9f3-c9ae-4d20-85a7-787cb32278d1">GetExceptionCode</a> function to retrieve this value. 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/getexceptioncode">GetExceptionCode</a> function to retrieve this value. 
 
 
 
@@ -113,17 +113,17 @@ Raising an exception causes the exception dispatcher to go through the following
 <li>If the process is not being debugged, or if the associated debugger does not handle the exception, the system attempts to locate a frame-based exception handler by searching the stack frames of the thread in which the exception occurred. The system searches the current stack frame first, then proceeds backward through preceding stack frames.</li>
 <li>If no frame-based handler can be found, or no frame-based handler handles the exception, the system makes a second attempt to notify the process's debugger.</li>
 <li>If the process is not being debugged, or if the associated debugger does not handle the exception, the system provides default handling based on the exception type. For most exceptions, the default action is to call the 
-<a href="https://msdn.microsoft.com/c26dbf15-62e8-4892-b7c5-2e6c085e4cd5">ExitProcess</a> function.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitprocess">ExitProcess</a> function.</li>
 </ol>
 The values specified in the <i>dwExceptionCode</i>, <i>dwExceptionFlags</i>, <i>nNumberOfArguments</i>, and <i>lpArguments</i> parameters can be retrieved in the filter expression of a frame-based exception handler by calling the 
-<a href="https://msdn.microsoft.com/e982794a-d5f1-4fb4-a2b9-aa8da18cb8ae">GetExceptionInformation</a> function. A debugger can retrieve these values by calling the 
-<a href="https://msdn.microsoft.com/0d81a4ac-dd66-4648-9f3f-1f54aca84243">WaitForDebugEvent</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/getexceptioninformation">GetExceptionInformation</a> function. A debugger can retrieve these values by calling the 
+<a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-waitfordebugevent">WaitForDebugEvent</a> function.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/c3b4e696-9f45-4616-ac6b-07ba29750bb2">Using an Exception Handler</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/using-an-exception-handler">Using an Exception Handler</a>.
 
 <div class="code"></div>
 
@@ -134,27 +134,27 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/c26dbf15-62e8-4892-b7c5-2e6c085e4cd5">ExitProcess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitprocess">ExitProcess</a>
 
 
 
-<a href="https://msdn.microsoft.com/f3c4a9f3-c9ae-4d20-85a7-787cb32278d1">GetExceptionCode</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/getexceptioncode">GetExceptionCode</a>
 
 
 
-<a href="https://msdn.microsoft.com/e982794a-d5f1-4fb4-a2b9-aa8da18cb8ae">GetExceptionInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/getexceptioninformation">GetExceptionInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/61cf055b-eb9a-4e56-9d36-21fc95adea77">Structured Exception Handling Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/structured-exception-handling-functions">Structured Exception Handling Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/6b6326d8-6875-4146-a4e3-7873f4e400cb">Structured Exception Handling Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/structured-exception-handling">Structured Exception Handling Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d81a4ac-dd66-4648-9f3f-1f54aca84243">WaitForDebugEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-waitfordebugevent">WaitForDebugEvent</a>
  
 
  

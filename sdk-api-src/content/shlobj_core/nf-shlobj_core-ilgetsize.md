@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns the size, in bytes, of an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure.
+Returns the size, in bytes, of an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Returns the size, in bytes, of an <a href="https://msdn.microsoft.com/60daf071-4
 
 Type: <b>PCUIDLIST_RELATIVE</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure.
 
 
 ## -returns
@@ -74,7 +74,7 @@ A pointer to an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f
 
 Type: <b>UINT</b>
 
-The size of the <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure specified by <i>pidl</i>, in bytes.
+The size of the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure specified by <i>pidl</i>, in bytes.
 
 
 

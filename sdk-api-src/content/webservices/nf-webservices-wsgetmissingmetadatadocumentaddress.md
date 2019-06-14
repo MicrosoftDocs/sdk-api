@@ -60,9 +60,9 @@ Each document that is added to the metadata object may contain references to
                 being returned cannot be verified as being one of the host names expected.
                 The expected host names are a union of the following:
             <ul>
-<li>The host name of any URL previously passed to <a href="https://msdn.microsoft.com/0b824948-e06d-482d-8d53-c4e27d1ecf0f">WsReadMetadata</a>.
+<li>The host name of any URL previously passed to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadmetadata">WsReadMetadata</a>.
                 </li>
-<li>The list of host names specified using the <a href="https://msdn.microsoft.com/d3baa961-4701-4f2f-9263-5ac0266f6056">WS_METADATA_PROPERTY_HOST_NAMES</a> property.
+<li>The list of host names specified using the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_metadata_property_id">WS_METADATA_PROPERTY_HOST_NAMES</a> property.
             </li>
 </ul>
 </div><div> </div>
@@ -95,7 +95,7 @@ On success this parameter is populated with either a pointer to the
 
 ### -param error [in, optional]
 
-This parameter is a  <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> pointer to where additional information about the error should be stored if the function fails.
+This parameter is a  <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> pointer to where additional information about the error should be stored if the function fails.
                 
 
 

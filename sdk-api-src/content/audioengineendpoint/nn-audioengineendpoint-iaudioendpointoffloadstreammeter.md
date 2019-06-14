@@ -54,7 +54,7 @@ The <b>IAudioEndpointOffloadStreamMeter</b> interface retrieves general informat
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioEndpointOffloadStreamMeter</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAudioEndpointOffloadStreamMeter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioEndpointOffloadStreamMeter</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioEndpointOffloadStreamMeter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAudioEndpointOffloadStreamMeter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/52C34D08-8ACD-4E3A-80F4-4FA823E11D9C">GetMeterChannelCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointoffloadstreammeter-getmeterchannelcount">GetMeterChannelCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of audio channels in the offloaded stream that can be metered.
@@ -78,7 +78,7 @@ Retrieves the number of audio channels in the offloaded stream that can be meter
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/31F76D5B-D047-4D0E-AA22-DCC1E2E36561">GetMeteringData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointoffloadstreammeter-getmeteringdata">GetMeteringData</a>
 </td>
 <td align="left" width="63%">
 Retrieves general information about the available audio channels in the offloaded stream.
@@ -93,7 +93,7 @@ Retrieves general information about the available audio channels in the offloade
 
 
 
-<a href="https://msdn.microsoft.com/b18e2094-e974-4c23-b70b-ace5a168132d">Core Audio Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
  
 
  

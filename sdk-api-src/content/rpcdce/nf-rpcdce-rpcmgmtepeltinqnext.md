@@ -63,7 +63,7 @@ The
 ### -param InquiryContext
 
 Specifies an inquiry context. The inquiry context is returned from 
-<a href="https://msdn.microsoft.com/659ab657-e17f-46a9-942e-aa2631c1716d">RpcMgmtEpEltInqBegin</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtepeltinqbegin">RpcMgmtEpEltInqBegin</a>.
 
 
 ### -param IfId
@@ -110,7 +110,7 @@ The call succeeded.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -121,17 +121,17 @@ The call succeeded.
 
 The 
 <b>RpcMgmtEpEltInqNext</b> function returns one element from the endpoint map. Elements selected depend on the inquiry context. The selection criteria are determined by <i>InquiryType</i> of the 
-<a href="https://msdn.microsoft.com/659ab657-e17f-46a9-942e-aa2631c1716d">RpcMgmtEpEltInqBegin</a> function that returned <i>InquiryContext</i>.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtepeltinqbegin">RpcMgmtEpEltInqBegin</a> function that returned <i>InquiryContext</i>.
 
 An application can view all the selected endpoint-map elements by repeatedly calling 
 <b>RpcMgmtEpEltInqNext</b>. When all the elements have been viewed, this function returns an RPC_X_NO_MORE_ENTRIES status. The returned elements are unordered.
 
 When the respective arguments are non-NULL, the RPC run-time function library allocates memory for <i>Binding</i> and <i>Annotation</i> on each call to this function. The application is responsible for calling 
-<a href="https://msdn.microsoft.com/0f85e64f-b4a6-4982-8df5-88caa0a312f6">RpcBindingFree</a> for each returned <i>Binding</i> and 
-<a href="https://msdn.microsoft.com/07226282-1091-4479-adc8-b2f604c645e7">RpcStringFree</a> for each returned <i>Annotation</i>.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfree">RpcBindingFree</a> for each returned <i>Binding</i> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a> for each returned <i>Annotation</i>.
 
 After viewing the endpoint-map elements, the application must call 
-<a href="https://msdn.microsoft.com/7a0aac99-8829-4720-a388-da88d015d596">RpcMgmtEpEltInqDone</a> to delete the inquiry context.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtepeltinqdone">RpcMgmtEpEltInqDone</a> to delete the inquiry context.
 
 
 
@@ -141,15 +141,15 @@ After viewing the endpoint-map elements, the application must call
 
 
 
-<a href="https://msdn.microsoft.com/35656cdd-b1ae-43d3-a5c7-92bdb7726d5b">RpcEpRegister</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcepregister">RpcEpRegister</a>
 
 
 
-<a href="https://msdn.microsoft.com/659ab657-e17f-46a9-942e-aa2631c1716d">RpcMgmtEpEltInqBegin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtepeltinqbegin">RpcMgmtEpEltInqBegin</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a0aac99-8829-4720-a388-da88d015d596">RpcMgmtEpEltInqDone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtepeltinqdone">RpcMgmtEpEltInqDone</a>
  
 
  

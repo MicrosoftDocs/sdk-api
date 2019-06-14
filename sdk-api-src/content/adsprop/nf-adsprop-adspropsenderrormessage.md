@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>ADsPropSendErrorMessage</b> function adds an error message to a list of error messages displayed by calling 
-the <a href="https://msdn.microsoft.com/c7ed3d36-474e-4cb1-82aa-1e2c1ebd4b83">ADsPropShowErrorDialog</a> function.
+the <a href="https://docs.microsoft.com/windows/desktop/api/adsprop/nf-adsprop-adspropshowerrordialog">ADsPropShowErrorDialog</a> function.
 
 
 ## -parameters
@@ -60,12 +60,12 @@ the <a href="https://msdn.microsoft.com/c7ed3d36-474e-4cb1-82aa-1e2c1ebd4b83">AD
 
 ### -param hNotifyObj [in]
 
-The handle of the notification object. To obtain this handle, call <a href="https://msdn.microsoft.com/bfca3801-0d24-4177-8173-b6bf4b854fae">ADsPropCreateNotifyObj</a>.
+The handle of the notification object. To obtain this handle, call <a href="https://docs.microsoft.com/windows/desktop/api/adsprop/nf-adsprop-adspropcreatenotifyobj">ADsPropCreateNotifyObj</a>.
 
 
 ### -param pError [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/584cb3e7-3b26-4346-9162-b3e3064ded1a">ADSPROPERROR</a> structure which contains data about the error message.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/adsprop/ns-adsprop-_adsproperror">ADSPROPERROR</a> structure which contains data about the error message.
 
 
 ## -returns
@@ -81,7 +81,7 @@ Returns nonzero if successful or zero otherwise.
 
 
 
-The error messages added by the <b>ADsPropSendErrorMessage</b> function are accumulated until  <a href="https://msdn.microsoft.com/c7ed3d36-474e-4cb1-82aa-1e2c1ebd4b83">ADsPropShowErrorDialog</a> is called.  <b>ADsPropShowErrorDialog</b> combines and displays the accumulated  error messages. When the error dialog is dismissed, the accumulated error messages are deleted.
+The error messages added by the <b>ADsPropSendErrorMessage</b> function are accumulated until  <a href="https://docs.microsoft.com/windows/desktop/api/adsprop/nf-adsprop-adspropshowerrordialog">ADsPropShowErrorDialog</a> is called.  <b>ADsPropShowErrorDialog</b> combines and displays the accumulated  error messages. When the error dialog is dismissed, the accumulated error messages are deleted.
 
 
 
@@ -91,19 +91,19 @@ The error messages added by the <b>ADsPropSendErrorMessage</b> function are accu
 
 
 
-<a href="https://msdn.microsoft.com/584cb3e7-3b26-4346-9162-b3e3064ded1a">ADSPROPERROR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adsprop/ns-adsprop-_adsproperror">ADSPROPERROR</a>
 
 
 
-<a href="https://msdn.microsoft.com/c7ed3d36-474e-4cb1-82aa-1e2c1ebd4b83">ADsPropShowErrorDialog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adsprop/nf-adsprop-adspropshowerrordialog">ADsPropShowErrorDialog</a>
 
 
 
-<a href="https://msdn.microsoft.com/32a4724b-3182-4521-975c-cef33afee0b2">Messages in Active Directory Domain Services</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/messages-in-active-directory-domain-services">Messages in Active Directory Domain Services</a>
 
 
 
-<a href="https://msdn.microsoft.com/7abf1b3d-5abe-42cd-baeb-1bf863c7f04d">WM_ADSPROP_NOTIFY_ERROR</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/wm-adsprop-notify-error">WM_ADSPROP_NOTIFY_ERROR</a>
  
 
  

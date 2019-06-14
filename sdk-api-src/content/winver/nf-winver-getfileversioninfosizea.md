@@ -67,7 +67,7 @@ Determines whether the operating system can retrieve version information for a s
 
 Type: <b>LPCTSTR</b>
 
-The name of the file of interest. The function uses the search sequence specified by the  <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> function.
+The name of the file of interest. The function uses the search sequence specified by the  <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function.
 				
 
 
@@ -86,7 +86,7 @@ Type: <b>DWORD</b>
 
 If the function succeeds, the return value is the size, in bytes, of the file's version information.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -96,7 +96,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 Call the 
-				<b>GetFileVersionInfoSize</b> function before calling the <a href="https://msdn.microsoft.com/en-us/library/ms647003(v=VS.85).aspx">GetFileVersionInfo</a> function. The size returned by <b>GetFileVersionInfoSize</b> indicates the buffer size required for the version information returned by <b>GetFileVersionInfo</b>. 
+				<b>GetFileVersionInfoSize</b> function before calling the <a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-getfileversioninfoa">GetFileVersionInfo</a> function. The size returned by <b>GetFileVersionInfoSize</b> indicates the buffer size required for the version information returned by <b>GetFileVersionInfo</b>. 
 
 
 
@@ -110,7 +110,7 @@ Call the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647003(v=VS.85).aspx">GetFileVersionInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-getfileversioninfoa">GetFileVersionInfo</a>
 
 
 
@@ -118,15 +118,15 @@ Call the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647001(v=VS.85).aspx">VS_VERSIONINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/vs-versioninfo">VS_VERSIONINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647464(v=VS.85).aspx">VerQueryValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-verqueryvaluea">VerQueryValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646981(v=VS.85).aspx">Version Information</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/version-information">Version Information</a>
  
 
  

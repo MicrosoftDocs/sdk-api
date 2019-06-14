@@ -63,7 +63,7 @@ The <b>QueryByIndex</b> method retrieves the value of a property specified by in
 
 ### -param iIndex [in]
 
-Integer specifying the zero-based index of the property. The number of items is obtained through the <a href="https://msdn.microsoft.com/9f7f9661-d632-4502-940b-6d83fc32cdad">GetItemCount</a> call.
+Integer specifying the zero-based index of the property. The number of items is obtained through the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmmetadata-getitemcount">GetItemCount</a> call.
 
 
 ### -param ppwszName [out]
@@ -73,7 +73,7 @@ Name of the property. Windows Media Device Manager allocates this memory, and th
 
 ### -param pType [out]
 
-An <a href="https://msdn.microsoft.com/9c300814-5610-4e46-b441-e7f2fc78a47b">WMDM_TAG_DATATYPE</a> enumerated value describing the type of data returned in <i>ppValue</i>.
+An <a href="https://docs.microsoft.com/windows/desktop/WMDM/wmdm-tag-datatype">WMDM_TAG_DATATYPE</a> enumerated value describing the type of data returned in <i>ppValue</i>.
 
 
 ### -param ppValue [out]
@@ -97,7 +97,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 
 
@@ -107,19 +107,19 @@ For an extensive list of possible error codes, see <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/9f7f9661-d632-4502-940b-6d83fc32cdad">GetItemCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmmetadata-getitemcount">GetItemCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/ea57a851-0b9f-444c-9819-a278f2ece2b0">IWMDMMetaData Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/e793954b-6aef-4088-97cb-eb1f050cc64b">QueryByName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmmetadata-querybyname">QueryByName</a>
 
 
 
-<a href="https://msdn.microsoft.com/478a5412-e8b4-41c8-802f-9c2748dbaeae">Setting Metadata on a File</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/setting-metadata-on-a-file">Setting Metadata on a File</a>
  
 
  

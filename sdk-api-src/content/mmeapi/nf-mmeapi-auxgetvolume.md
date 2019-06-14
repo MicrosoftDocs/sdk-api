@@ -73,7 +73,7 @@ Pointer to a variable to be filled with the current volume setting. The low-orde
 
 If a device does not support both left and right volume control, the low-order word of the specified location contains the volume level.
 
-The full 16-bit setting(s) set with the <a href="https://msdn.microsoft.com/886acacd-f2ac-4e75-aa3d-668e6d4fbbf2">auxSetVolume</a> function are returned, regardless of whether the device supports the full 16 bits of volume-level control.
+The full 16-bit setting(s) set with the <a href="https://docs.microsoft.com/previous-versions//dd756717(v=vs.85)">auxSetVolume</a> function are returned, regardless of whether the device supports the full 16 bits of volume-level control.
 
 
 ## -returns
@@ -108,9 +108,9 @@ Specified device identifier is out of range.
 
 
 
-Not all devices support volume control. To determine whether a device supports volume control, use the AUXCAPS_VOLUME flag to test the <b>dwSupport</b> member of the <a href="https://msdn.microsoft.com/5b94a468-88b2-40a4-b28d-49f262e62749">AUXCAPS</a> structure (filled by the <a href="https://msdn.microsoft.com/c0920425-fb42-4112-b0c1-f4b607b9e794">auxGetDevCaps</a> function).
+Not all devices support volume control. To determine whether a device supports volume control, use the AUXCAPS_VOLUME flag to test the <b>dwSupport</b> member of the <a href="https://docs.microsoft.com/previous-versions//dd756711(v=vs.85)">AUXCAPS</a> structure (filled by the <a href="https://docs.microsoft.com/previous-versions//dd756712(v=vs.85)">auxGetDevCaps</a> function).
 
-To determine whether a device supports volume control on both the left and right channels, use the AUXCAPS_LRVOLUME flag to test the <b>dwSupport</b> member of the <a href="https://msdn.microsoft.com/5b94a468-88b2-40a4-b28d-49f262e62749">AUXCAPS</a> structure (filled by <a href="https://msdn.microsoft.com/c0920425-fb42-4112-b0c1-f4b607b9e794">auxGetDevCaps</a>).
+To determine whether a device supports volume control on both the left and right channels, use the AUXCAPS_LRVOLUME flag to test the <b>dwSupport</b> member of the <a href="https://docs.microsoft.com/previous-versions//dd756711(v=vs.85)">AUXCAPS</a> structure (filled by <a href="https://docs.microsoft.com/previous-versions//dd756712(v=vs.85)">auxGetDevCaps</a>).
 
 
 
@@ -120,11 +120,11 @@ To determine whether a device supports volume control on both the left and right
 
 
 
-<a href="https://msdn.microsoft.com/3188355c-65be-4372-8e87-e7f755982592">Waveform Audio</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c8aaa54-0477-484f-91e1-d2152aa9c185">Waveform Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>
  
 
  

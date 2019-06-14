@@ -54,7 +54,7 @@ The <b>ITfProperty</b> interface is implemented by the TSF manager and used by a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfProperty</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfProperty</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfProperty</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfProperty</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfProperty</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bbfbbe0d-bea7-4c46-8b9c-6b607a761f48">Clear</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfproperty-clear">Clear</a>
 </td>
 <td align="left" width="63%">
 Empties the property value over the specified range.
@@ -78,7 +78,7 @@ Empties the property value over the specified range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/08e9c9c1-768b-406c-96ae-e0776b59344d">FindRange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfproperty-findrange">FindRange</a>
 </td>
 <td align="left" width="63%">
 Obtains a range that covers the text that contains a non-empty value for the property.
@@ -87,7 +87,7 @@ Obtains a range that covers the text that contains a non-empty value for the pro
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/72064f9f-311e-4d7b-9ead-4fe2b7f528a8">SetValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfproperty-setvalue">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets the value of the property for a range.
@@ -96,7 +96,7 @@ Sets the value of the property for a range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/146af429-54a8-41b6-b44e-b5d35f933435">SetValueStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfproperty-setvaluestore">SetValueStore</a>
 </td>
 <td align="left" width="63%">
 Sets the value of the property for a range of text using a property store object.
@@ -110,7 +110,7 @@ Sets the value of the property for a range of text using a property store object
 
 
 
-An instance of this interface is obtained in various ways, such as <a href="https://msdn.microsoft.com/e5d76443-f767-47fb-be3a-8cbac224d299">ITfContext::GetProperty</a> or <a href="https://msdn.microsoft.com/a8357166-bfc3-4740-a5b9-91c6c1825ab9">IEnumTfProperties::Next</a>.
+An instance of this interface is obtained in various ways, such as <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getproperty">ITfContext::GetProperty</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtfproperties-next">IEnumTfProperties::Next</a>.
 
 
 
@@ -120,22 +120,22 @@ An instance of this interface is obtained in various ways, such as <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/a8357166-bfc3-4740-a5b9-91c6c1825ab9">IEnumTfProperties::Next
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtfproperties-next">IEnumTfProperties::Next
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/e5d76443-f767-47fb-be3a-8cbac224d299">ITfContext::GetProperty
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getproperty">ITfContext::GetProperty
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/f4021a3d-6b86-469f-8943-770e7ef0cf99">ITfReadOnlyProperty
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfreadonlyproperty">ITfReadOnlyProperty
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

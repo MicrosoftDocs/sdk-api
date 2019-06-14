@@ -64,7 +64,7 @@ The size of the array pointed to by <b>pElems</b>.
 
 ### -field pElems
 
-A pointer to an array of values, each of which specifies a CLSID of a particular property page. This array is allocated by the callee using <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a> and is freed by the caller using <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
+A pointer to an array of values, each of which specifies a CLSID of a particular property page. This array is allocated by the callee using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> and is freed by the caller using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 
 ## -see-also
@@ -72,7 +72,7 @@ A pointer to an array of values, each of which specifies a CLSID of a particular
 
 
 
-<a href="https://msdn.microsoft.com/82b652da-b49a-47a7-a959-522b051bfd59">ISpecifyPropertyPages::GetPages</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ispecifypropertypages-getpages">ISpecifyPropertyPages::GetPages</a>
  
 
  

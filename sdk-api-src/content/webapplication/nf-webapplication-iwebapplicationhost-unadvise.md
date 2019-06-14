@@ -61,7 +61,7 @@ Removes a previously established connection.
 
 Type: <b>DWORD</b>
 
-A connection token previously returned from the <a href="https://msdn.microsoft.com/94c016cb-f043-4ea6-a5d1-f3486b55c97f">Advise</a> method.
+A connection token previously returned from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/debug_wwahost/iwebapplicationhost-advise">Advise</a> method.
 
 
 ## -returns
@@ -80,11 +80,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/ac0ace8e-3f83-44be-baee-560c5472aa08">IWebApplicationHost</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/webapplication/nn-webapplication-iwebapplicationhost">IWebApplicationHost</a>
 
 
 
-<a href="https://msdn.microsoft.com/94c016cb-f043-4ea6-a5d1-f3486b55c97f">IWebApplicationHost::Advise</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/debug_wwahost/iwebapplicationhost-advise">IWebApplicationHost::Advise</a>
  
 
  

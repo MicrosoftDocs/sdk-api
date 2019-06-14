@@ -54,7 +54,7 @@ The <b>ITfQueryEmbedded</b> interface is implemented by the TSF manager and used
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfQueryEmbedded</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfQueryEmbedded</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfQueryEmbedded</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfQueryEmbedded</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfQueryEmbedded</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/52f9465f-725e-493b-89ee-1b3db3cef696">QueryInsertEmbedded</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfqueryembedded-queryinsertembedded">QueryInsertEmbedded</a>
 </td>
 <td align="left" width="63%">
 Determines if the active context can accept an embedded object.
@@ -89,7 +89,7 @@ To obtain an instance of this interface, call the <b>ITfContext::QueryInterface<
 #### Examples
 
 
-<a href="https://msdn.microsoft.com/ca98c7bb-7348-405d-976a-18012b0886c6">ITfContext
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
           </a>
 
 
@@ -119,12 +119,12 @@ if(SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/ca98c7bb-7348-405d-976a-18012b0886c6">ITfContext
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

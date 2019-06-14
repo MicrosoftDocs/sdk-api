@@ -59,14 +59,14 @@ Push a layer onto the clip and layer stack of the device context.
 
 ### -param layerParameters [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/D7CC93F8-D871-4DFC-84A3-CA60EB52FF0A">D2D1_LAYER_PARAMETERS1</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_layer_parameters1">D2D1_LAYER_PARAMETERS1</a>*</b>
 
 The parameters that defines the layer.
 
 
 ### -param layer [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/ce7b2345-f0e5-4e44-9146-b1f140bb00ca">ID2D1Layer</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1layer">ID2D1Layer</a>*</b>
 
 The layer resource to push on the device context that receives subsequent drawing operations. 
 
@@ -87,7 +87,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/a54dd628-c2a2-4b04-9ced-7749a395f187">ID2D1DeviceContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>
  
 
  

@@ -56,7 +56,7 @@ Native interoperation interface that allows drawing on a surface object using a 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICompositionDrawingSurfaceInterop</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ICompositionDrawingSurfaceInterop</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICompositionDrawingSurfaceInterop</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICompositionDrawingSurfaceInterop</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ICompositionDrawingSurfaceInterop</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/01273B2A-0305-4F1E-8461-7956EDD651A7">BeginDraw</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.composition.interop/nf-windows-ui-composition-interop-icompositiondrawingsurfaceinterop-begindraw">BeginDraw</a>
 </td>
 <td align="left" width="63%">
 Initiates drawing on the surface.
@@ -80,7 +80,7 @@ Initiates drawing on the surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C8592A6E-8D54-49DE-B520-51F947BDDFAD">EndDraw</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.composition.interop/nf-windows-ui-composition-interop-icompositiondrawingsurfaceinterop-enddraw">EndDraw</a>
 </td>
 <td align="left" width="63%">
 Marks the end of drawing on the surface object.
@@ -89,7 +89,7 @@ Marks the end of drawing on the surface object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/DFD0812F-3AD2-4E33-BD23-9D392BFAB467">Resize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.composition.interop/nf-windows-ui-composition-interop-icompositiondrawingsurfaceinterop-resize">Resize</a>
 </td>
 <td align="left" width="63%">
 Changes the size of the surface.
@@ -98,7 +98,7 @@ Changes the size of the surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/083B2EDB-2C0D-4AEB-B955-A73C47960B09">ResumeDraw</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.composition.interop/nf-windows-ui-composition-interop-icompositiondrawingsurfaceinterop-resumedraw">ResumeDraw</a>
 </td>
 <td align="left" width="63%">
 Resumes drawing on the surface object.
@@ -107,7 +107,7 @@ Resumes drawing on the surface object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0FC12E3E-B104-4E61-817A-3F56C8DAC755">Scroll</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.composition.interop/nf-windows-ui-composition-interop-icompositiondrawingsurfaceinterop-scroll">Scroll</a>
 </td>
 <td align="left" width="63%">
 Scrolls a rectangular area of the logical surface.
@@ -116,7 +116,7 @@ Scrolls a rectangular area of the logical surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F8FEA76A-C271-44D6-9314-88E4AE535953">SuspendDraw</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.composition.interop/nf-windows-ui-composition-interop-icompositiondrawingsurfaceinterop-suspenddraw">SuspendDraw</a>
 </td>
 <td align="left" width="63%">
 Suspends drawing on the surface object.
@@ -135,7 +135,7 @@ Suspends drawing on the surface object.
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

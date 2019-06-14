@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>NameResolver</b> method gets a pointer to the <a href="https://msdn.microsoft.com/9426a623-cefc-43ed-9987-77802fce1a78">IAzNameResolver</a> interface associated with this <a href="https://msdn.microsoft.com/7ae3f0a3-9eeb-44d9-954a-a6526bb4eb3f">IAzPrincipalLocator</a> object.
+The <b>NameResolver</b> method gets a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iaznameresolver">IAzNameResolver</a> interface associated with this <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazprincipallocator">IAzPrincipalLocator</a> object.
 
 This property is read-only.
 

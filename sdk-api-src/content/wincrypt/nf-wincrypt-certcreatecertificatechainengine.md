@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CertCreateCertificateChainEngine</b> function creates a new, nondefault chain engine for an application. A chain engine restricts the certificates in the root store that can be used for verification, restricts the certificate stores to be searched for certificates and <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate trust lists</a> (CTLs), sets a time-out limit for searches that involve URLs, and limits the number of certificates checked between checking for a certificate cycle.
+The <b>CertCreateCertificateChainEngine</b> function creates a new, nondefault chain engine for an application. A chain engine restricts the certificates in the root store that can be used for verification, restricts the certificate stores to be searched for certificates and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust lists</a> (CTLs), sets a time-out limit for searches that involve URLs, and limits the number of certificates checked between checking for a certificate cycle.
 
 
 ## -parameters
@@ -60,12 +60,12 @@ The <b>CertCreateCertificateChainEngine</b> function creates a new, nondefault c
 ### -param pConfig [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/9e010eb9-2cbb-4fca-ba5c-4a5a50f23786">CERT_CHAIN_ENGINE_CONFIG</a> data structure that specifies the parameters for the chain engine.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_engine_config">CERT_CHAIN_ENGINE_CONFIG</a> data structure that specifies the parameters for the chain engine.
 
 
 ### -param phChainEngine [out]
 
-A pointer to the handle of the chain engine created. When you have finished using the chain engine, release the chain engine by calling the <a href="https://msdn.microsoft.com/5aebc09d-342d-4938-8a1a-0cbfdc147bb5">CertFreeCertificateChainEngine</a> function.
+A pointer to the handle of the chain engine created. When you have finished using the chain engine, release the chain engine by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatechainengine">CertFreeCertificateChainEngine</a> function.
 
 
 ## -returns
@@ -75,7 +75,7 @@ A pointer to the handle of the chain engine created. When you have finished usin
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The <i>phChainEngine</i> parameter returns the chain engine handle.
 
@@ -87,19 +87,19 @@ The <i>phChainEngine</i> parameter returns the chain engine handle.
 
 
 
-<a href="https://msdn.microsoft.com/9e010eb9-2cbb-4fca-ba5c-4a5a50f23786">CERT_CHAIN_ENGINE_CONFIG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_engine_config">CERT_CHAIN_ENGINE_CONFIG</a>
 
 
 
-<a href="https://msdn.microsoft.com/5aebc09d-342d-4938-8a1a-0cbfdc147bb5">CertFreeCertificateChainEngine</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatechainengine">CertFreeCertificateChainEngine</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Chain Verification Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Chain Verification Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>
  
 
  

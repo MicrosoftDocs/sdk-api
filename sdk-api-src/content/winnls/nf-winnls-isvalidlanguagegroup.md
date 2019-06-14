@@ -56,7 +56,7 @@ ms.custom: 19H1
 ## -description
 
 
-Determines if a language group is installed or supported on the operating system. For more information, see <a href="https://msdn.microsoft.com/daf929b2-8ff9-4a17-b294-f2c0eaef5848">NLS Terminology</a>.
+Determines if a language group is installed or supported on the operating system. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/nls-terminology">NLS Terminology</a>.
 
 
 ## -parameters
@@ -151,19 +151,19 @@ If the LGRPID_SUPPORTED flag is specified and this function returns <b>TRUE</b>,
 
 
 
-<a href="https://msdn.microsoft.com/5a85c6bd-0362-46ff-80be-a198b1259482">EnumLanguageGroupLocales</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumlanguagegrouplocalesa">EnumLanguageGroupLocales</a>
 
 
 
-<a href="https://msdn.microsoft.com/8cc2335e-b222-44d9-a966-4b6803639071">EnumSystemLanguageGroups</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemlanguagegroupsa">EnumSystemLanguageGroups</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a548074-0782-45e1-8051-80c3b9d81885">National Language Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c72c4de-83be-4b7e-9ed8-b0236c1df8a4">National Language Support Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
  
 
  

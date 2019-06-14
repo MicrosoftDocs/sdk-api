@@ -81,7 +81,7 @@ The hotfix number that identifies the service pack.
 
 
 
-This macro is used in conjunction with <a href="https://msdn.microsoft.com/d7ec0f7d-ba2f-4aa4-b867-a2615244a580">DllGetVersion</a> to pack version information into a form that can easily be compared to the <b>ullVersion</b> member of a <a href="https://msdn.microsoft.com/1648924d-0727-4cee-80d3-f97550f235cd">DLLVERSIONINFO2</a> structure. It is defined as follows.
+This macro is used in conjunction with <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nc-shlwapi-dllgetversionproc">DllGetVersion</a> to pack version information into a form that can easily be compared to the <b>ullVersion</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-_dllversioninfo2">DLLVERSIONINFO2</a> structure. It is defined as follows.
 
 				
 
@@ -96,7 +96,7 @@ This macro is used in conjunction with <a href="https://msdn.microsoft.com/d7ec0
 ```
 
 
-For most purposes, you only need to assign values to the major and minor version numbers. The remaining two parameters can be set to zero. The following code fragment illustrates how to use <b>MAKEDLLVERULL</b> to determine whether a DLL is <a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">version 4.71</a> or later. The <b>VersionInfo</b> structure is the <a href="https://msdn.microsoft.com/1648924d-0727-4cee-80d3-f97550f235cd">DLLVERSIONINFO2</a> structure returned by <a href="https://msdn.microsoft.com/d7ec0f7d-ba2f-4aa4-b867-a2615244a580">DllGetVersion</a>.
+For most purposes, you only need to assign values to the major and minor version numbers. The remaining two parameters can be set to zero. The following code fragment illustrates how to use <b>MAKEDLLVERULL</b> to determine whether a DLL is <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">version 4.71</a> or later. The <b>VersionInfo</b> structure is the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-_dllversioninfo2">DLLVERSIONINFO2</a> structure returned by <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nc-shlwapi-dllgetversionproc">DllGetVersion</a>.
 
 				
 

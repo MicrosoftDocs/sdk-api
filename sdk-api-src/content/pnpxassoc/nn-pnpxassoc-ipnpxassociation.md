@@ -56,7 +56,7 @@ Defines methods to manage the association database entries for  PnP-X devices. .
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPNPXAssociation</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPNPXAssociation</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPNPXAssociation</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPNPXAssociation</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IPNPXAssociation</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/74d2ed38-9362-4664-9384-e773e4ec76f3">IPNPXAssociation::Associate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pnpxassoc/nf-pnpxassoc-ipnpxassociation-associate">IPNPXAssociation::Associate</a>
 </td>
 <td align="left" width="63%">
 Marks an association database entry as associated.
@@ -80,7 +80,7 @@ Marks an association database entry as associated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cc00c135-140d-4e05-9180-779917d88688">IPNPXAssociation::Delete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pnpxassoc/nf-pnpxassoc-ipnpxassociation-delete">IPNPXAssociation::Delete</a>
 </td>
 <td align="left" width="63%">
 Removes an entry from the association database.
@@ -89,7 +89,7 @@ Removes an entry from the association database.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/92f0cc10-03a0-498f-acd1-4b03302aa33b">IPNPXAssociation::Unassociate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pnpxassoc/nf-pnpxassoc-ipnpxassociation-unassociate">IPNPXAssociation::Unassociate</a>
 </td>
 <td align="left" width="63%">
 Marks an association database entry as unassociated. 
@@ -103,12 +103,12 @@ Marks an association database entry as unassociated.
 
 
 
-This interface is obtained by calling <a href="https://msdn.microsoft.com/04d29632-81b3-47d6-8630-a65677d78b6f">QueryService</a> on a function instance returned by a Function Discovery query. The following pseudocode shows the parameters to use for the  <b>QueryService</b> call.
+This interface is obtained by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364381(v=vs.85)">QueryService</a> on a function instance returned by a Function Discovery query. The following pseudocode shows the parameters to use for the  <b>QueryService</b> call.
 
 <pre class="syntax" xml:space="preserve"><code>QueryService( SID_PNPXAssociation, __uuidof( IPNPXAssociation ) )</code></pre>
-The <b>IPNPXAssociation</b> methods modify the association database entry for the function instance upon which <a href="https://msdn.microsoft.com/04d29632-81b3-47d6-8630-a65677d78b6f">QueryService</a>  was called.
+The <b>IPNPXAssociation</b> methods modify the association database entry for the function instance upon which <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364381(v=vs.85)">QueryService</a>  was called.
 
-Not all function instances can be associated using the <b>IPNPXAssociation</b> methods. The function instance must have its  PKEY_PNPX_GlobalIdentity key populated with the UUID supplied by the Function Discovery provider used to discover the device. For more information about property keys, see <a href="https://msdn.microsoft.com/d297705b-d825-4aa5-8269-ef44bc5875d7">PnP-X Provider PKEYs</a>.
+Not all function instances can be associated using the <b>IPNPXAssociation</b> methods. The function instance must have its  PKEY_PNPX_GlobalIdentity key populated with the UUID supplied by the Function Discovery provider used to discover the device. For more information about property keys, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/pnp-x-provider-pkeys">PnP-X Provider PKEYs</a>.
 
 
 
@@ -118,7 +118,7 @@ Not all function instances can be associated using the <b>IPNPXAssociation</b> m
 
 
 
-<a href="https://msdn.microsoft.com/52669dec-2fd7-4f3e-b322-e93d9da5984d">IPNPXDeviceAssociation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pnpxassoc/nn-pnpxassoc-ipnpxdeviceassociation">IPNPXDeviceAssociation</a>
  
 
  

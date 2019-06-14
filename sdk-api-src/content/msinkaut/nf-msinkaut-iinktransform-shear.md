@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Adjusts the shear of the <a href="https://msdn.microsoft.com/79abff2e-d1d3-4a32-9ac2-f46c1b21f742">InkTransform</a> by the specified horizontal and vertical factors.
+Adjusts the shear of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> by the specified horizontal and vertical factors.
 
 
 
@@ -130,7 +130,7 @@ The transformation applied in this method is a pure shear only if one of the par
 
 
 
-<a href="https://msdn.microsoft.com/79abff2e-d1d3-4a32-9ac2-f46c1b21f742">InkTransform Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform Class</a>
  
 
  

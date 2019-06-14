@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Replaces an edit control's default Wordwrap function with an application-defined Wordwrap function. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761665(v=VS.85).aspx">EM_SETWORDBREAKPROC</a> message explicitly.
+Replaces an edit control's default Wordwrap function with an application-defined Wordwrap function. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-setwordbreakproc">EM_SETWORDBREAKPROC</a> message explicitly.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Replaces an edit control's default Wordwrap function with an application-defined
 
 ### -param hwndCtl
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -68,7 +68,7 @@ A handle to the control.
 
 Type: <b>EDITWORDBREAKPROC</b>
 
-The address of the application-defined Wordwrap function. For more information about breaking lines, see the description of the <a href="https://msdn.microsoft.com/en-us/library/Bb761709(v=VS.85).aspx">EditWordBreakProc</a> callback function. 
+The address of the application-defined Wordwrap function. For more information about breaking lines, see the description of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-editwordbreakproca">EditWordBreakProc</a> callback function. 
 
 
 
@@ -76,7 +76,7 @@ The address of the application-defined Wordwrap function. For more information a
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761665(v=VS.85).aspx">EM_SETWORDBREAKPROC</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/em-setwordbreakproc">EM_SETWORDBREAKPROC</a>.
 
 
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Called by <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> to read the credentials transferred from the Winlogon of the temporary session to the Winlogon of the destination session.
+Called by <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> to read the credentials transferred from the Winlogon of the temporary session to the Winlogon of the destination session.
 <div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>
 
 ## -parameters
@@ -60,7 +60,7 @@ Called by <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a684
 ### -param pCred [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/f72f3dd3-42a3-4f2b-be36-13c496c396fd">WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0</a> structure to be filled with credentials information.
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_consoleswitch_credentials_info">WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0</a> structure to be filled with credentials information.
 
 
 ## -returns
@@ -77,7 +77,7 @@ Returns <b>TRUE</b> if credentials were transferred and <b>FALSE</b> if the tran
 
 
 In order to access this function, the GINA DLL must use the 
-<a href="https://msdn.microsoft.com/b2d0c936-5430-48ed-b808-92209b909406">WLX_DISPATCH_VERSION_1_4</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_dispatch_version_1_4">WLX_DISPATCH_VERSION_1_4</a> structure.
 
 
 

@@ -59,12 +59,12 @@ The <b>WinUsb_StartTrackingForTimeSync</b> function starts the time synchronizat
 
 ### -param InterfaceHandle [in]
 
-An opaque handle retrieved in the previous call to <a href="https://msdn.microsoft.com/258cf508-036a-4ade-95b2-4b36d1149ffd">WinUsb_Initialize</a>. 
+An opaque handle retrieved in the previous call to <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>. 
 
 
 ### -param StartTrackingInfo [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/2C82743C-2675-4196-839D-885EE17B2A7A">USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION</a> structure. Set <b>TimeTrackingHandle</b> to INAVLID_HANDLE.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ns-usbioctl-_usb_start_tracking_for_time_sync_information">USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION</a> structure. Set <b>TimeTrackingHandle</b> to INAVLID_HANDLE.
 Set <b>IsStartupDelayTolerable</b> to TRUE if the initial startup latency of up to 2.048 seconds is tolerable. FALSE, the registration is delayed until the USB driver stack is able to detect a valid frame or microframe boundary. 
 
 
@@ -108,7 +108,7 @@ The caller passed <b>NULL</b> in the  <i>InterfaceHandle</i> or <i>StartTracking
 
 
 
-<a href="https://msdn.microsoft.com/8234d0b4-2c73-45fa-a8bf-566c64cc2858">WinUSB</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WinUSB</a>
 
 
 
@@ -116,7 +116,7 @@ The caller passed <b>NULL</b> in the  <i>InterfaceHandle</i> or <i>StartTracking
 
 
 
-<a href="https://msdn.microsoft.com/258cf508-036a-4ade-95b2-4b36d1149ffd">WinUsb_Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>
  
 
  

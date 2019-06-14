@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies values used by <a href="https://msdn.microsoft.com/00c2aa5f-eebc-479c-ac33-6efb3acb1051">IAutoComplete2::GetOptions</a> and <a href="https://msdn.microsoft.com/d3562845-fc28-4726-a520-29720f9924fc">IAutoComplete2::SetOptions</a> for options surrounding autocomplete.
+Specifies values used by <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-iautocomplete2-getoptions">IAutoComplete2::GetOptions</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-iautocomplete2-setoptions">IAutoComplete2::SetOptions</a> for options surrounding autocomplete.
 
 
 ## -enum-fields
@@ -94,7 +94,7 @@ Specifies values used by <a href="https://msdn.microsoft.com/00c2aa5f-eebc-479c-
 
 ### -field ACO_RTLREADING
 
-0x0040. Normal windows display text left-to-right (LTR). Windows can be mirrored to display languages such as Hebrew or Arabic that read right-to-left (RTL). Typically, control text is displayed in the same direction as the text in its parent window. If <a href="https://msdn.microsoft.com/e0a583da-c2bd-4757-868d-a63e697142e2">ACO_RTLREADING</a> is set, the text reads in the opposite direction from the text in the parent window.
+0x0040. Normal windows display text left-to-right (LTR). Windows can be mirrored to display languages such as Hebrew or Arabic that read right-to-left (RTL). Typically, control text is displayed in the same direction as the text in its parent window. If <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/ne-shldisp-_tagautocompleteoptions">ACO_RTLREADING</a> is set, the text reads in the opposite direction from the text in the parent window.
 
 
 ### -field ACO_WORD_FILTER

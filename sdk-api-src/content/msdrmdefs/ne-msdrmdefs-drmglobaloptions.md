@@ -54,11 +54,11 @@ ms.custom: 19H1
 
 the client in Msdrm.dll is available for use in Windows Server 2008, Windows Vista, Windows Server 2008 R2, Windows 7, Windows Server 2012, and Windows 8. It may be altered or 
 
-unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/a7900f40-4c53-4760-8e5a-9c88149f86d0">Active Directory Rights Management Services SDK 2.1</a>, 
+unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
 
 which leverages functionality exposed by the client in Msipc.dll.]
 
-The <b>DRMGLOBALOPTIONS</b> enumeration defines values for specifying which protocol is used for the transport protocol and whether the server lockbox is used. This enumeration is used by the <a href="https://msdn.microsoft.com/fff0d503-e342-4f50-810c-bda4e9e14ad7">DRMSetGlobalOptions</a> function.
+The <b>DRMGLOBALOPTIONS</b> enumeration defines values for specifying which protocol is used for the transport protocol and whether the server lockbox is used. This enumeration is used by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmsetglobaloptions">DRMSetGlobalOptions</a> function.
 
 
 ## -enum-fields
@@ -73,7 +73,7 @@ The WinHTTP protocol is used for the transport protocol. By default, the WinINet
 
 ### -field DRMGLOBALOPTIONS_USE_SERVERSECURITYPROCESSOR
 
-The server lockbox is used. For more information, see <a href="https://msdn.microsoft.com/d67b7326-e447-4bfa-b015-1b546b68d7e2">Lockboxes</a>.
+The server lockbox is used. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/lockboxes">Lockboxes</a>.
 
 
 ## -remarks
@@ -92,11 +92,11 @@ WinINet cannot be used under the network service account. If an application will
 
 
 
-<a href="https://msdn.microsoft.com/bc3a8ab3-9f89-442b-9910-85820b2b2653">AD RMS Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-enumerations">AD RMS Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/fff0d503-e342-4f50-810c-bda4e9e14ad7">DRMSetGlobalOptions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmsetglobaloptions">DRMSetGlobalOptions</a>
  
 
  

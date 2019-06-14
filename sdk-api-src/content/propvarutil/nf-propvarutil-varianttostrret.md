@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-If the source variant is a VT_BSTR, extracts string and places it into a <a href="https://msdn.microsoft.com/7868ef9b-07db-455b-b0be-ef0db7891447">STRRET</a> structure.
+If the source variant is a VT_BSTR, extracts string and places it into a <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_strret">STRRET</a> structure.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ Reference to a source variant structure.
 
 ### -param pstrret [out]
 
-Type: <b><a href="https://msdn.microsoft.com/7868ef9b-07db-455b-b0be-ef0db7891447">STRRET</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_strret">STRRET</a>*</b>
 
 Pointer to the extracted string if one exists.
 

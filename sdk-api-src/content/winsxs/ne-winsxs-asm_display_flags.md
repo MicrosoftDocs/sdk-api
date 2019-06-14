@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The values of the  <b>ASM_DISPLAY_FLAGS</b> enumeration are used by the <a href="https://msdn.microsoft.com/d2d74d67-a893-4f2f-8161-80bf3d5cbedb">GetDisplayName</a> method to specify which portions of the assembly's full name to include in the string representation of the assembly name.
+The values of the  <b>ASM_DISPLAY_FLAGS</b> enumeration are used by the <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-iassemblyname-getdisplayname">GetDisplayName</a> method to specify which portions of the assembly's full name to include in the string representation of the assembly name.
 
 
 ## -enum-fields

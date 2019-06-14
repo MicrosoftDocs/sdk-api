@@ -54,7 +54,7 @@ Transfers data of the byte type (which is 8 bits wide).
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPipeByte</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IPipeByte</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPipeByte</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPipeByte</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IPipeByte</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/07d4d4cd-de41-41bc-af71-ff12affcbbbe">Pull</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipipebyte-pull">Pull</a>
 </td>
 <td align="left" width="63%">
 Retrieves data of the byte type from the pipe source.
@@ -78,7 +78,7 @@ Retrieves data of the byte type from the pipe source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7dd672d3-22ef-4786-85e0-d5c2ebabaea2">Push</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipipebyte-push">Push</a>
 </td>
 <td align="left" width="63%">
 Sends data of the byte type to the pipe source.
@@ -92,14 +92,14 @@ Sends data of the byte type to the pipe source.
 
 
 
-The <b>IPipeByte</b>, <a href="https://msdn.microsoft.com/434d0e0e-55a0-4a08-bc63-ebca4b2bdcca">IPipeDouble</a>, and <a href="https://msdn.microsoft.com/c1b4d3b3-e1bf-4441-8cea-b667b82c4c27">IPipeLong</a> interfaces are similar to the standard DCE/RPC pipes. However, the COM implementation of pipes offers more flexibility. With the COM implementation, the basic idea is that the pipe is simply another interface with two methods: <a href="https://msdn.microsoft.com/07d4d4cd-de41-41bc-af71-ff12affcbbbe">Pull</a> and <a href="https://msdn.microsoft.com/7dd672d3-22ef-4786-85e0-d5c2ebabaea2">Push</a>. This results in three main benefits:
+The <b>IPipeByte</b>, <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipipedouble">IPipeDouble</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipipelong">IPipeLong</a> interfaces are similar to the standard DCE/RPC pipes. However, the COM implementation of pipes offers more flexibility. With the COM implementation, the basic idea is that the pipe is simply another interface with two methods: <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipipebyte-pull">Pull</a> and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipipebyte-push">Push</a>. This results in three main benefits:
 
 <ul>
-<li>A COM pipe is another interface, so it can be received as an out parameter from a method call and then either <a href="https://msdn.microsoft.com/07d4d4cd-de41-41bc-af71-ff12affcbbbe">Pull</a> or <a href="https://msdn.microsoft.com/7dd672d3-22ef-4786-85e0-d5c2ebabaea2">Push</a> can be called. </li>
-<li>There are no restrictions on when to call the <a href="https://msdn.microsoft.com/07d4d4cd-de41-41bc-af71-ff12affcbbbe">Pull</a> and <a href="https://msdn.microsoft.com/7dd672d3-22ef-4786-85e0-d5c2ebabaea2">Push</a> methods, so a pipe is in reality bidirectional.</li>
+<li>A COM pipe is another interface, so it can be received as an out parameter from a method call and then either <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipipebyte-pull">Pull</a> or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipipebyte-push">Push</a> can be called. </li>
+<li>There are no restrictions on when to call the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipipebyte-pull">Pull</a> and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipipebyte-push">Push</a> methods, so a pipe is in reality bidirectional.</li>
 <li>Pipes are interfaces, so the method calls can be asynchronous and follow those rules.</li>
 </ul>
-For more information, see <a href="https://msdn.microsoft.com/913d5e2a-00ad-4060-9274-a6db23fb2817">Pipes</a> in the RPC documentation.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/Rpc/pipes">Pipes</a> in the RPC documentation.
 
 
 
@@ -109,11 +109,11 @@ For more information, see <a href="https://msdn.microsoft.com/913d5e2a-00ad-4060
 
 
 
-<a href="https://msdn.microsoft.com/434d0e0e-55a0-4a08-bc63-ebca4b2bdcca">IPipeDouble</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipipedouble">IPipeDouble</a>
 
 
 
-<a href="https://msdn.microsoft.com/c1b4d3b3-e1bf-4441-8cea-b667b82c4c27">IPipeLong</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipipelong">IPipeLong</a>
  
 
  

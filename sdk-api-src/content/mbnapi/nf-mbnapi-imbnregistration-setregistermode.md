@@ -59,7 +59,7 @@ Sets the registration mode for the device.
 
 ### -param registerMode [in]
 
-An <a href="https://msdn.microsoft.com/be64aa55-5a31-4909-9f34-634f7b14fc30">MBN_REGISTER_MODE</a> value that specifies the new registration mode.
+An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_register_mode">MBN_REGISTER_MODE</a> value that specifies the new registration mode.
 
 
 ### -param providerID [in]
@@ -69,7 +69,7 @@ A string that specifies the provider ID of the network provider to which to regi
 
 ### -param dataClass [in]
 
-A bitwise combination of OR <a href="https://msdn.microsoft.com/798d5d72-9267-433f-b890-9302a0a600f2">MBN_DATA_CLASS</a> values that specify the preferred data access technologies for the connection.  The Mobile Broadband service will register the highest available data class technology from this list.  If no data class from this list can be registered to, then the Mobile Broadband service will register to the best available data class.
+A bitwise combination of OR <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_data_class">MBN_DATA_CLASS</a> values that specify the preferred data access technologies for the connection.  The Mobile Broadband service will register the highest available data class technology from this list.  If no data class from this list can be registered to, then the Mobile Broadband service will register to the best available data class.
 
 
 ### -param requestID [out]
@@ -155,10 +155,10 @@ There is already an active network connection. The registration mode cannot be c
 
 The <b>SetRegisterMode</b> method can be used to set a device into automatic or manual network selection mode. For manual registration mode the network ID to which the device should register is supplied in <i>providerID</i>.
 
-Support for manual registration mode is optional and the application should verify that the device supports manual registration by checking for <b>MBN_CTRL_CAPS_REG_MANUAL</b> in the <i>interfaceCaps</i> parameter filled by the <a href="https://msdn.microsoft.com/cfe8f638-ad17-4118-9c79-b7ebc81c726a">GetInterfaceCapability</a> method of <a href="https://msdn.microsoft.com/958bce42-4772-4706-8900-1f83c5d3d52b">IMbnInterface</a>. If an application sets the manual registration mode and it is not supported by the device, then this call will return <b>HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED)</b>.
+Support for manual registration mode is optional and the application should verify that the device supports manual registration by checking for <b>MBN_CTRL_CAPS_REG_MANUAL</b> in the <i>interfaceCaps</i> parameter filled by the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getinterfacecapability">GetInterfaceCapability</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>. If an application sets the manual registration mode and it is not supported by the device, then this call will return <b>HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED)</b>.
 
 
-<b>SetRegisterMode</b> is asynchronous and will return immediately. If there is no error, on completion of the operation, the Mobile Broadband service will call the <a href="https://msdn.microsoft.com/a5ca0776-bd1d-48a0-970a-39c8da69b394">OnSetRegisterModeComplete</a> method of <a href="https://msdn.microsoft.com/f3b60a93-3b57-4c2c-9114-912ca47f16b2">IMbnRegistrationEvents</a>.
+<b>SetRegisterMode</b> is asynchronous and will return immediately. If there is no error, on completion of the operation, the Mobile Broadband service will call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnregistrationevents-onsetregistermodecomplete">OnSetRegisterModeComplete</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnregistrationevents">IMbnRegistrationEvents</a>.
 
 
 
@@ -168,7 +168,7 @@ Support for manual registration mode is optional and the application should veri
 
 
 
-<a href="https://msdn.microsoft.com/da5413b7-adf4-4a3d-893f-f51441460541">IMbnRegistration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnregistration">IMbnRegistration</a>
  
 
  

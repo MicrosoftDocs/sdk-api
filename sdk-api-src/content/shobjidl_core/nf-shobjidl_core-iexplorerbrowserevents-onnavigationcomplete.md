@@ -79,9 +79,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method is called after method <a href="https://msdn.microsoft.com/801d59f5-6e92-4e3c-938a-e94b43b7c6f1">IExplorerBrowserEvents::OnViewCreated</a>, assuming a successful view creation.
+This method is called after method <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowserevents-onviewcreated">IExplorerBrowserEvents::OnViewCreated</a>, assuming a successful view creation.
 
-After a navigation and view creation, either <b>IExplorerBrowserEvents::OnNavigationComplete</b> or <a href="https://msdn.microsoft.com/d4de3b81-4482-47c8-bb47-593aba484952">IExplorerBrowserEvents::OnNavigationFailed</a> is called depending on whether the destination could be navigated to. For example, a failure to navigate includes a destination that is not reached either because there is no route to the path or the user has canceled.
+After a navigation and view creation, either <b>IExplorerBrowserEvents::OnNavigationComplete</b> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowserevents-onnavigationfailed">IExplorerBrowserEvents::OnNavigationFailed</a> is called depending on whether the destination could be navigated to. For example, a failure to navigate includes a destination that is not reached either because there is no route to the path or the user has canceled.
             
 
 

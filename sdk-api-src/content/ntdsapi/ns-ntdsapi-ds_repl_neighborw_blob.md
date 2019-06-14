@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DS_REPL_NEIGHBORW_BLOB</b> structure contains  inbound replication state data for a particular naming context and source server pair. This structure is similar to the <a href="https://msdn.microsoft.com/acab74f4-5739-4310-895b-081062c0360b">DS_REPL_NEIGHBOR</a> structure, but is obtained from the <a href="https://msdn.microsoft.com/32bc9909-e476-423c-bbb5-3978234457fd">Lightweight Directory Access Protocol API</a> functions when obtaining binary data for the <b>msDS-NCReplInboundNeighbors</b> attribute.
+The <b>DS_REPL_NEIGHBORW_BLOB</b> structure contains  inbound replication state data for a particular naming context and source server pair. This structure is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_neighborw">DS_REPL_NEIGHBOR</a> structure, but is obtained from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api">Lightweight Directory Access Protocol API</a> functions when obtaining binary data for the <b>msDS-NCReplInboundNeighbors</b> attribute.
 
 
 ## -struct-fields
@@ -115,7 +115,7 @@ If set, indicates that when inbound replication is complete, the destination ser
 
 #### DS_REPL_NBR_FULL_SYNC_IN_PROGRESS
 
-The destination server is performing a full synchronization from the source server. Full synchronizations do not use vectors that create updates (<a href="https://msdn.microsoft.com/0fe5ad72-d3f3-42a8-a36f-ca1fc9c55c50">DS_REPL_CURSORS</a>) for filtering updates. Full synchronizations are not used as a part of the normal replication protocol.
+The destination server is performing a full synchronization from the source server. Full synchronizations do not use vectors that create updates (<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_cursors">DS_REPL_CURSORS</a>) for filtering updates. Full synchronizations are not used as a part of the normal replication protocol.
 
 
 
@@ -179,12 +179,12 @@ Contains the <b>usnLastObjChangeSynced</b> value at the end of the last complete
 
 ### -field ftimeLastSyncSuccess
 
-Contains a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that contains the date and time the last successful replication cycle was completed from this source. All members of this structure are zero if the replication cycle has never been completed.
+Contains a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date and time the last successful replication cycle was completed from this source. All members of this structure are zero if the replication cycle has never been completed.
 
 
 ### -field ftimeLastSyncAttempt
 
-Contains a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that contains the date and time of the last replication attempt from this source. All members of this structure are zero if the replication  has never been attempted.
+Contains a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date and time of the last replication attempt from this source. All members of this structure are zero if the replication  has never been attempted.
 
 
 ### -field dwLastSyncResult
@@ -202,15 +202,15 @@ Contains the number of failed replication attempts that have been made from this
 
 
 
-<a href="https://msdn.microsoft.com/acab74f4-5739-4310-895b-081062c0360b">DS_REPL_NEIGHBOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_neighborw">DS_REPL_NEIGHBOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
 
 
 
-<a href="https://msdn.microsoft.com/32bc9909-e476-423c-bbb5-3978234457fd">Lightweight Directory Access Protocol API</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api">Lightweight Directory Access Protocol API</a>
  
 
  

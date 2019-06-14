@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SetupDiGetClassPropertyKeysEx</b> function retrieves an array of the device property keys that represent the device properties that are set for a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552344">device setup class</a> or a <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a> on a local or a remote computer.
+The <b>SetupDiGetClassPropertyKeysEx</b> function retrieves an array of the device property keys that represent the device properties that are set for a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">device setup class</a> or a <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a> on a local or a remote computer.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ A pointer to a GUID that represents a device setup class or a device interface c
 
 ### -param PropertyKeyArray [out, optional]
 
-A pointer to a buffer that receives an array of <a href="https://msdn.microsoft.com/98986d43-84c0-44e6-83f9-08e872ea5e6d">DEVPROPKEY</a>-typed values, where each value is a device property key that represents a device property that is set for the device setup class. The pointer is optional and can be <b>NULL</b>. For more information, see the <b>Remarks</b> section later in this topic.
+A pointer to a buffer that receives an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/install/devpropkey">DEVPROPKEY</a>-typed values, where each value is a device property key that represents a device property that is set for the device setup class. The pointer is optional and can be <b>NULL</b>. For more information, see the <b>Remarks</b> section later in this topic.
 
 
 ### -param PropertyKeyCount [in]
@@ -252,15 +252,15 @@ The caller does not have Administrator privileges.
 
 
 
-<b>SetupDiGetClassPropertyKeysEx</b> is part of the <a href="https://msdn.microsoft.com/library/Ff553515(v=VS.85).aspx">unified device property model</a>.
+<b>SetupDiGetClassPropertyKeysEx</b> is part of the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/unified-device-property-model--windows-vista-and-later-">unified device property model</a>.
 
 A caller of <b>SetupDiGetClassPropertyKeysEx</b> must be a member of the Administrators group to retrieve device property keys for a device class. 
 
 If the <i>PropertyKeyArray</i> buffer is not large enough to hold all the requested property keys, <b>SetupDiGetClassPropertyKeysEx</b> does not retrieve any property keys and returns ERROR_INSUFFICIENT_BUFFER. If the caller supplied a <i>RequiredPropertyKeyCount</i> pointer, <b>SetupDiGetClassPropertyKeysEx</b> sets the value of *<i>RequiredPropertyKeyCount</i> to the required size, in DEVPROPKEY-typed values, of the <i>PropertyKeyArray </i>buffer<i>.</i>
 
-To retrieve a device class property on a remote computer, call <a href="https://msdn.microsoft.com/74b6cd23-5741-4f0c-b5e1-6cdea2074c28">SetupDiGetClassPropertyEx</a>, and to set a device class property on a remote computer, call <a href="https://msdn.microsoft.com/99b58da2-0398-4dc1-8c9e-0eefaf03bf91">SetupDiSetClassPropertyEx</a>.
+To retrieve a device class property on a remote computer, call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclasspropertyexw">SetupDiGetClassPropertyEx</a>, and to set a device class property on a remote computer, call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetclasspropertyexw">SetupDiSetClassPropertyEx</a>.
 
-To retrieve the property keys for a device setup class or device interface class on a local computer, call <a href="https://msdn.microsoft.com/9b595fc5-f517-41f9-b7a8-a7811f658d57">SetupDiGetClassPropertyKeys</a>.
+To retrieve the property keys for a device setup class or device interface class on a local computer, call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclasspropertykeys">SetupDiGetClassPropertyKeys</a>.
 
 
 
@@ -270,15 +270,15 @@ To retrieve the property keys for a device setup class or device interface class
 
 
 
-<a href="https://msdn.microsoft.com/74b6cd23-5741-4f0c-b5e1-6cdea2074c28">SetupDiGetClassPropertyEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclasspropertyexw">SetupDiGetClassPropertyEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b595fc5-f517-41f9-b7a8-a7811f658d57">SetupDiGetClassPropertyKeys</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclasspropertykeys">SetupDiGetClassPropertyKeys</a>
 
 
 
-<a href="https://msdn.microsoft.com/99b58da2-0398-4dc1-8c9e-0eefaf03bf91">SetupDiSetClassPropertyEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetclasspropertyexw">SetupDiSetClassPropertyEx</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CLIPOBJ_cEnumStart</b> function sets parameters for enumerating rectangles in a specified <a href="https://msdn.microsoft.com/ac439eb8-b491-4215-877d-5ee177fbdb39">clip region</a>.
+The <b>CLIPOBJ_cEnumStart</b> function sets parameters for enumerating rectangles in a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/">clip region</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>CLIPOBJ_cEnumStart</b> function sets parameters for enumerating rectangle
 
 ### -param pco [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/c3f632ed-f8d1-44bb-b2fb-6f7f2c71fd63">CLIPOBJ</a> structure that defines the clip region to be enumerated.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_clipobj">CLIPOBJ</a> structure that defines the clip region to be enumerated.
 
 
 ### -param bAll [in]
@@ -71,12 +71,12 @@ A driver that caches clip regions must enumerate the entire region.
 
 ### -param iType [in]
 
-Specifies the data structures that are to be written by <a href="https://msdn.microsoft.com/d54e6e2a-4869-45d6-9ad1-4e9aca5f5e77">CLIPOBJ_bEnum</a>. This parameter currently must be CT_RECTANGLES, indicating that the region is to be enumerated as a list of rectangles.
+Specifies the data structures that are to be written by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-clipobj_benum">CLIPOBJ_bEnum</a>. This parameter currently must be CT_RECTANGLES, indicating that the region is to be enumerated as a list of rectangles.
 
 
 ### -param iDirection [in]
 
-Determines the order in which the rectangles are to be enumerated. This order can be essential if a <a href="https://msdn.microsoft.com/d7b4e25c-b9a1-4200-b449-b7c7ed059db4">DrvBitBlt</a> operation is executing concurrently on the same surface. If the order is not relevant to the device driver, CD_ANY should be specified for complex regions, allowing GDI to optimize the enumeration. This value can be one of the following:
+Determines the order in which the rectangles are to be enumerated. This order can be essential if a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvbitblt">DrvBitBlt</a> operation is executing concurrently on the same surface. If the order is not relevant to the device driver, CD_ANY should be specified for complex regions, allowing GDI to optimize the enumeration. This value can be one of the following:
 
 <table>
 <tr>
@@ -167,15 +167,15 @@ The driver can restart enumeration by calling this function again.
 
 
 
-<a href="https://msdn.microsoft.com/c3f632ed-f8d1-44bb-b2fb-6f7f2c71fd63">CLIPOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_clipobj">CLIPOBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/d54e6e2a-4869-45d6-9ad1-4e9aca5f5e77">CLIPOBJ_bEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-clipobj_benum">CLIPOBJ_bEnum</a>
 
 
 
-<a href="https://msdn.microsoft.com/d7b4e25c-b9a1-4200-b449-b7c7ed059db4">DrvBitBlt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvbitblt">DrvBitBlt</a>
  
 
  

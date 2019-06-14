@@ -69,7 +69,7 @@ The number of events to retrieve.
 
 ### -param retval [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/c3bc764b-c9cc-4567-963e-2e481bdda611">IUpdateHistoryEntryCollection</a> interface that contains matching event records on the computer in descending chronological order.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatehistoryentrycollection">IUpdateHistoryEntryCollection</a> interface that contains matching event records on the computer in descending chronological order.
 
 
 ## -returns
@@ -127,7 +127,7 @@ This method returns <b>WU_E_INVALIDINDEX</b> if  the <i>startIndex</i> parameter
 
 
 
-<a href="https://msdn.microsoft.com/f41b1689-d9fe-4697-91e9-a176d3b592c7">IUpdateSearcher</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a>
  
 
  

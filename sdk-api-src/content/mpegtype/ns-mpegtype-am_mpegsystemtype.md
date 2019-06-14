@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>AM_MPEGSYSTEMTYPE</b> structure defines the format block for an MPEG-1 system stream. This structure is used when the <b>formattype</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Dd373477(v=VS.85).aspx">AM_MEDIA_TYPE</a> structure is FORMAT_MPEG1System.
+The <b>AM_MPEGSYSTEMTYPE</b> structure defines the format block for an MPEG-1 system stream. This structure is used when the <b>formattype</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_ammediatype">AM_MEDIA_TYPE</a> structure is FORMAT_MPEG1System.
         
 
 
@@ -70,14 +70,14 @@ Number of streams.
 
 ### -field Streams
 
-List <a href="https://msdn.microsoft.com/en-us/library/Dd373480(v=VS.85).aspx">AM_MPEGSTREAMTYPE</a> structures that describe the elementary streams. The number of elements in the list is given by the <b>cStream</b> member. The size of each <b>AM_MPEGSTREAMTYPE</b> structure is variable. Use the <b>AM_MPEGSTREAMTYPE_ELEMENTLENGTH</b> macro to calculate the size of each structure.
+List <a href="https://docs.microsoft.com/windows/desktop/api/mpegtype/ns-mpegtype-tagam_mpegstreamtype">AM_MPEGSTREAMTYPE</a> structures that describe the elementary streams. The number of elements in the list is given by the <b>cStream</b> member. The size of each <b>AM_MPEGSTREAMTYPE</b> structure is variable. Use the <b>AM_MPEGSTREAMTYPE_ELEMENTLENGTH</b> macro to calculate the size of each structure.
 
 
 ## -remarks
 
 
 
-The <b>Streams</b> member contains a list of <a href="https://msdn.microsoft.com/en-us/library/Dd373480(v=VS.85).aspx">AM_MPEGSTREAMTYPE</a> structures. The size of each <b>AM_MPEGSTREAMTYPE</b> structure is aligned to an 8-byte boundary. Given a pointer to an <b>AM_MPEGSTREAMTYPE</b> structure in list, use the <b>AM_MPEGSTREAMTYPE_NEXT</b> macro to get a pointer to the next structure.
+The <b>Streams</b> member contains a list of <a href="https://docs.microsoft.com/windows/desktop/api/mpegtype/ns-mpegtype-tagam_mpegstreamtype">AM_MPEGSTREAMTYPE</a> structures. The size of each <b>AM_MPEGSTREAMTYPE</b> structure is aligned to an 8-byte boundary. Given a pointer to an <b>AM_MPEGSTREAMTYPE</b> structure in list, use the <b>AM_MPEGSTREAMTYPE_NEXT</b> macro to get a pointer to the next structure.
 
 
 
@@ -87,11 +87,11 @@ The <b>Streams</b> member contains a list of <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ea1cb84-0558-4c4a-9483-1b0f2a8f76f8">MEPG-1 Media Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/mpeg-1-media-types">MEPG-1 Media Types</a>
  
 
  

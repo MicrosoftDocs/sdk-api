@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a  Windows Runtime random access stream around an <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> base implementation.
+Creates a  Windows Runtime random access stream around an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> base implementation.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ The COM stream to encapsulate.
 
 ### -param options [in]
 
-One of the <a href="https://msdn.microsoft.com/C51D945B-37C6-44CB-BF80-5FA62EE1F477">BSOS_OPTIONS</a> options that specify the behavior of the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.storage.streams.randomaccessstream">RandomAccessStream</a> that encapsulates <i>stream</i>.
+One of the <a href="https://docs.microsoft.com/windows/desktop/api/shcore/ne-shcore-bsos_options">BSOS_OPTIONS</a> options that specify the behavior of the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.storage.streams.randomaccessstream">RandomAccessStream</a> that encapsulates <i>stream</i>.
 
 
 ### -param riid [in]
@@ -91,11 +91,11 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-Use the <b>CreateRandomAccessStreamOverStream</b> function to create a <a href="https://docs.microsoft.com/en-us/uwp/api/windows.storage.streams.randomaccessstream">RandomAccessStream</a> that encapsulates a COM <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>.
+Use the <b>CreateRandomAccessStreamOverStream</b> function to create a <a href="https://docs.microsoft.com/en-us/uwp/api/windows.storage.streams.randomaccessstream">RandomAccessStream</a> that encapsulates a COM <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>.
 
 For info on utility classes that help with interoperation between Windows Runtime and COM streams, see the Remarks at <b>RandomAccessStreamOverStream</b>.
 
-We recommend that you use the <a href="https://msdn.microsoft.com/268B59FA-44EB-4777-8162-C50981CBDD09">IID_PPV_ARGS</a> macro, defined in Objbase.h, to package the <i>riid</i> and <i>ppv</i> parameters. This macro provides the correct IID based on the interface pointed to by the value in <i>ppv</i>, which eliminates the possibility of a coding error in <i>riid</i> that could lead to unexpected results.
+We recommend that you use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-iid_ppv_args">IID_PPV_ARGS</a> macro, defined in Objbase.h, to package the <i>riid</i> and <i>ppv</i> parameters. This macro provides the correct IID based on the interface pointed to by the value in <i>ppv</i>, which eliminates the possibility of a coding error in <i>riid</i> that could lead to unexpected results.
 
 
 
@@ -105,11 +105,11 @@ We recommend that you use the <a href="https://msdn.microsoft.com/268B59FA-44EB-
 
 
 
-<a href="https://msdn.microsoft.com/6D3D2B25-7373-4BA5-BF6B-FB461C2DE982">CreateRandomAccessStreamOnFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shcore/nf-shcore-createrandomaccessstreamonfile">CreateRandomAccessStreamOnFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/F9AB8A34-8AB1-4EF1-8659-DAD5713A89BF">CreateStreamOverRandomAccessStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shcore/nf-shcore-createstreamoverrandomaccessstream">CreateStreamOverRandomAccessStream</a>
 
 
 

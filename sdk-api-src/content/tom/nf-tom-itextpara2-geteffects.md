@@ -168,7 +168,7 @@ The differences in the flags over the range. A value of 1 indicates that the cor
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -179,7 +179,7 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-If the <b>tomTable</b> flag is set, you can use the  <a href="https://msdn.microsoft.com/ade77edf-6a9e-4c8d-a522-3158c802b6dd">ITextRange2::GetTable</a> method to get more table properties.
+If the <b>tomTable</b> flag is set, you can use the  <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-gettable">ITextRange2::GetTable</a> method to get more table properties.
 
 
 
@@ -189,11 +189,11 @@ If the <b>tomTable</b> flag is set, you can use the  <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/31a0849f-c651-4178-b1ff-a4333bcde5d9">ITextPara2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara2">ITextPara2</a>
 
 
 
-<a href="https://msdn.microsoft.com/e7184de4-b416-4f28-8f10-c89ffcccf1a1">ITextPara2::SetEffects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara2-seteffects">ITextPara2::SetEffects</a>
  
 
  

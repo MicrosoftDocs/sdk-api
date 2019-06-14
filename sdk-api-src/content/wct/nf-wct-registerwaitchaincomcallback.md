@@ -88,7 +88,7 @@ If a thread is blocked on a COM call, WCT can retrieve COM ownership information
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/7c5fa606-6e9b-41da-bfa9-1f066449d813">Using WCT</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/using-wct">Using WCT</a>.
 
 <div class="code"></div>
 
@@ -99,7 +99,7 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/d266a663-b101-4936-9574-f6ce223419ae">Wait Chain Traversal</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/wait-chain-traversal">Wait Chain Traversal</a>
  
 
  

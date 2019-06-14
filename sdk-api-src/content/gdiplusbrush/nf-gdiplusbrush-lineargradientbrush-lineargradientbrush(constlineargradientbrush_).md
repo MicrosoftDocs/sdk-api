@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 <span>This topic lists the constructors of the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534473(v=VS.85).aspx">LinearGradientBrush</a> class. For a complete class listing, see <b>LinearGradientBrush Class</b>. 
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush">LinearGradientBrush</a> class. For a complete class listing, see <b>LinearGradientBrush Class</b>. 
 </span><h3>Overload list</h3><table>
 <tr>
 <th align="left" width="37%">Constructor</th>
@@ -58,46 +58,46 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535356(v=VS.85).aspx">LinearGradientBrush(Point&,Point&,Color&,Color&)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-lineargradientbrush(inconstpoint__inconstpoint__inconstcolor__inconstcolor_)">LinearGradientBrush(Point&,Point&,Color&,Color&)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms535356(v=VS.85).aspx">LinearGradientBrush::LinearGradientBrush</a> object from a set of boundary points and boundary colors.
+Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-lineargradientbrush(inconstpoint__inconstpoint__inconstcolor__inconstcolor_)">LinearGradientBrush::LinearGradientBrush</a> object from a set of boundary points and boundary colors.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535353(v=VS.85).aspx">LinearGradientBrush(PointF&,PointF&,Color&,Color&)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-lineargradientbrush(inconstpointf__inconstpointf__inconstcolor__inconstcolor_)">LinearGradientBrush(PointF&,PointF&,Color&,Color&)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms535353(v=VS.85).aspx">LinearGradientBrush::LinearGradientBrush</a> object from a set of boundary points and boundary colors.
+Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-lineargradientbrush(inconstpointf__inconstpointf__inconstcolor__inconstcolor_)">LinearGradientBrush::LinearGradientBrush</a> object from a set of boundary points and boundary colors.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535357(v=VS.85).aspx">LinearGradientBrush(Rect&,Color&,Color&,REAL,BOOL)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-lineargradientbrush(inconstrect__inconstcolor__inconstcolor__inreal_inbool)">LinearGradientBrush(Rect&,Color&,Color&,REAL,BOOL)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms535357(v=VS.85).aspx">LinearGradientBrush::LinearGradientBrush</a> object from a rectangle and angle of direction.
+Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-lineargradientbrush(inconstrect__inconstcolor__inconstcolor__inreal_inbool)">LinearGradientBrush::LinearGradientBrush</a> object from a rectangle and angle of direction.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535358(v=VS.85).aspx">LinearGradientBrush(Rect&,Color&,Color&,LinearGradientMode)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-lineargradientbrush(inconstrect__inconstcolor__inconstcolor__inlineargradientmode)">LinearGradientBrush(Rect&,Color&,Color&,LinearGradientMode)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms535358(v=VS.85).aspx">LinearGradientBrush::LinearGradientBrush</a> object based on a rectangle and mode of direction.
+Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-lineargradientbrush(inconstrect__inconstcolor__inconstcolor__inlineargradientmode)">LinearGradientBrush::LinearGradientBrush</a> object based on a rectangle and mode of direction.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535355(v=VS.85).aspx">LinearGradientBrush(RectF&,Color&,Color&,LinearGradientMode)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-lineargradientbrush(inconstrectf__inconstcolor__inconstcolor__inlineargradientmode)">LinearGradientBrush(RectF&,Color&,Color&,LinearGradientMode)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms535355(v=VS.85).aspx">LinearGradientBrush::LinearGradientBrush</a> object based on a rectangle and mode of direction.
+Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-lineargradientbrush(inconstrectf__inconstcolor__inconstcolor__inlineargradientmode)">LinearGradientBrush::LinearGradientBrush</a> object based on a rectangle and mode of direction.
 
 </td>
 </tr>

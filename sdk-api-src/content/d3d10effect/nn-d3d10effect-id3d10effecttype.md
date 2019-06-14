@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 The <b>ID3D10EffectType</b> interface accesses effect variables by type.
 
-The lifetime of an <b>ID3D10EffectType</b> object is equal to the lifetime of its parent <a href="https://msdn.microsoft.com/en-us/library/Bb173630(v=VS.85).aspx">ID3D10Effect</a> object.
+The lifetime of an <b>ID3D10EffectType</b> object is equal to the lifetime of its parent <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effect">ID3D10Effect</a> object.
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul><h3><a id="methods"></a>Methods</h3>The <b>ID3D10EffectType</b> interface has these methods.
@@ -63,7 +63,7 @@ The lifetime of an <b>ID3D10EffectType</b> object is equal to the lifetime of it
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173717(v=VS.85).aspx">GetDesc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttype-getdesc">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Get an effect-type description.
@@ -72,7 +72,7 @@ Get an effect-type description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173718(v=VS.85).aspx">GetMemberName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttype-getmembername">GetMemberName</a>
 </td>
 <td align="left" width="63%">
 Get the name of a member.
@@ -81,7 +81,7 @@ Get the name of a member.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173719(v=VS.85).aspx">GetMemberSemantic</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttype-getmembersemantic">GetMemberSemantic</a>
 </td>
 <td align="left" width="63%">
 Get the semantic attached to a member.
@@ -90,7 +90,7 @@ Get the semantic attached to a member.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173720(v=VS.85).aspx">GetMemberTypeByIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttype-getmembertypebyindex">GetMemberTypeByIndex</a>
 </td>
 <td align="left" width="63%">
 Get a member type by index.
@@ -99,7 +99,7 @@ Get a member type by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173721(v=VS.85).aspx">GetMemberTypeByName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttype-getmembertypebyname">GetMemberTypeByName</a>
 </td>
 <td align="left" width="63%">
 Get an member type by name.
@@ -108,7 +108,7 @@ Get an member type by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173722(v=VS.85).aspx">GetMemberTypeBySemantic</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttype-getmembertypebysemantic">GetMemberTypeBySemantic</a>
 </td>
 <td align="left" width="63%">
 Get a member type by semantic.
@@ -117,7 +117,7 @@ Get a member type by semantic.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173723(v=VS.85).aspx">IsValid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttype-isvalid">IsValid</a>
 </td>
 <td align="left" width="63%">
 Tests that the effect type is valid.
@@ -137,7 +137,7 @@ The <b>ID3D10EffectType</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173717(v=VS.85).aspx">GetDesc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttype-getdesc">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Get an effect-type description.
@@ -146,7 +146,7 @@ Get an effect-type description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173718(v=VS.85).aspx">GetMemberName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttype-getmembername">GetMemberName</a>
 </td>
 <td align="left" width="63%">
 Get the name of a member.
@@ -155,7 +155,7 @@ Get the name of a member.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173719(v=VS.85).aspx">GetMemberSemantic</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttype-getmembersemantic">GetMemberSemantic</a>
 </td>
 <td align="left" width="63%">
 Get the semantic attached to a member.
@@ -164,7 +164,7 @@ Get the semantic attached to a member.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173720(v=VS.85).aspx">GetMemberTypeByIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttype-getmembertypebyindex">GetMemberTypeByIndex</a>
 </td>
 <td align="left" width="63%">
 Get a member type by index.
@@ -173,7 +173,7 @@ Get a member type by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173721(v=VS.85).aspx">GetMemberTypeByName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttype-getmembertypebyname">GetMemberTypeByName</a>
 </td>
 <td align="left" width="63%">
 Get an member type by name.
@@ -182,7 +182,7 @@ Get an member type by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173722(v=VS.85).aspx">GetMemberTypeBySemantic</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttype-getmembertypebysemantic">GetMemberTypeBySemantic</a>
 </td>
 <td align="left" width="63%">
 Get a member type by semantic.
@@ -191,7 +191,7 @@ Get a member type by semantic.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173723(v=VS.85).aspx">IsValid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttype-isvalid">IsValid</a>
 </td>
 <td align="left" width="63%">
 Tests that the effect type is valid.
@@ -219,7 +219,7 @@ Tests that the effect type is valid.
 
 
 
-To get information about an effect type from an effect variable, call <a href="https://msdn.microsoft.com/en-us/library/Bb173745(v=VS.85).aspx">ID3D10EffectVariable::GetType</a>.
+To get information about an effect type from an effect variable, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-gettype">ID3D10EffectVariable::GetType</a>.
 
 
 
@@ -229,7 +229,7 @@ To get information about an effect type from an effect variable, call <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205178(v=VS.85).aspx">Effect Interfaces (Direct3D 10)</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-effect-interfaces">Effect Interfaces (Direct3D 10)</a>
  
 
  

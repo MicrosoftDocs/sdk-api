@@ -60,9 +60,9 @@ Called by the search service to notify the client when the status of a particula
 
 ### -param sipStatus [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965701(v=VS.85).aspx">SEARCH_INDEXING_PHASE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-_search_indexing_phase">SEARCH_INDEXING_PHASE</a></b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/Aa965701(v=VS.85).aspx">SEARCH_INDEXING_PHASE</a> status of each document in the array being sent.
+The <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-_search_indexing_phase">SEARCH_INDEXING_PHASE</a> status of each document in the array being sent.
                 
 
 
@@ -76,9 +76,9 @@ The number of entries in <i>rgItemStatusEntries</i>.
 
 ### -param rgItemStatusEntries [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965372(v=VS.85).aspx">SEARCH_ITEM_INDEXING_STATUS</a>[]</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-_search_item_indexing_status">SEARCH_ITEM_INDEXING_STATUS</a>[]</b>
 
-An array of <a href="https://msdn.microsoft.com/en-us/library/Aa965372(v=VS.85).aspx">SEARCH_ITEM_INDEXING_STATUS</a> structures containing status update information.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-_search_item_indexing_status">SEARCH_ITEM_INDEXING_STATUS</a> structures containing status update information.
                 
 
 
@@ -98,11 +98,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb231458(v=VS.85).aspx">ISearchNotifyInlineSite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchnotifyinlinesite">ISearchNotifyInlineSite</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb266528(v=VS.85).aspx">Notifying the Index of Changes</a>
+<a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-notifyingofchanges">Notifying the Index of Changes</a>
  
 
  

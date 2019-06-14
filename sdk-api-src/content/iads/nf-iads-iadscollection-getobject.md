@@ -59,19 +59,19 @@ The <b>IADsCollection::GetObject</b> method retrieves an item of the collection.
 
 ### -param bstrName [in]
 
-The null-terminated Unicode string that specifies the name of the item. This is the same name passed to  <a href="https://msdn.microsoft.com/c4f0dc3e-238c-4fd3-adb7-9d467efc8c3d">IADsCollection::Add</a> when the item is added to the collection.
+The null-terminated Unicode string that specifies the name of the item. This is the same name passed to  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscollection-add">IADsCollection::Add</a> when the item is added to the collection.
 
 
 ### -param pvItem [in]
 
-Current value of the item. For an object, this corresponds to the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface pointer on the object.
+Current value of the item. For an object, this corresponds to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface pointer on the object.
 
 
 ## -returns
 
 
 
-This method supports the standard return values, including S_OK. For more information and other return values, see  <a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>.
+This method supports the standard return values, including S_OK. For more information and other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 
 
@@ -154,24 +154,24 @@ Cleanup:
 
 
 
-<a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error
   Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/4552552b-c008-439a-95bf-eaf9ffd28b5f">IADsCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscollection">IADsCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4f0dc3e-238c-4fd3-adb7-9d467efc8c3d">IADsCollection::Add</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscollection-add">IADsCollection::Add</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>
  
 
  

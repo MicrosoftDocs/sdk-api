@@ -122,7 +122,7 @@ Successful.
 
 
 
-<a href="https://msdn.microsoft.com/eb21850d-d490-4055-8910-70f9c0090f59">ISpellCheckerFactory::IsSupported</a> can be called to determine if <i>languageTag</i> is supported.
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellcheckerfactory-issupported">ISpellCheckerFactory::IsSupported</a> can be called to determine if <i>languageTag</i> is supported.
 This will create the preferred spell checker (according to user ranking) for the given language.
 
 
@@ -137,15 +137,15 @@ This will create the preferred spell checker (according to user ranking) for the
 
 
 
-<a href="https://msdn.microsoft.com/3cc5f675-048d-4ef3-9b66-5f081ee17a18">ISpellChecker</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker">ISpellChecker</a>
 
 
 
-<a href="https://msdn.microsoft.com/7febbb7e-c557-4698-bf58-6e6e7f61b071">ISpellCheckerFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellcheckerfactory">ISpellCheckerFactory</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb21850d-d490-4055-8910-70f9c0090f59">ISpellCheckerFactory::IsSupported</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellcheckerfactory-issupported">ISpellCheckerFactory::IsSupported</a>
  
 
  

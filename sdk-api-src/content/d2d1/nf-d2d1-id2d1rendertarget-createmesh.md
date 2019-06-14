@@ -59,7 +59,7 @@ Create a mesh that uses triangles to describe a shape.
 
 ### -param mesh [out]
 
-Type: <b><a href="https://msdn.microsoft.com/2a58fb5f-2281-4f73-a689-cc1350d13c8b">ID2D1Mesh</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1mesh">ID2D1Mesh</a>**</b>
 
 When this method returns, contains a pointer to a pointer to the new mesh.
 
@@ -68,7 +68,7 @@ When this method returns, contains a pointer to a pointer to the new mesh.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -79,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To populate a mesh, use its <a href="https://msdn.microsoft.com/7cd0d637-7fcd-45a5-932f-5aa8fb476f68">Open</a> method to obtain an <a href="https://msdn.microsoft.com/967c702f-d16f-4a8e-ac77-a8bb35afe0a1">ID2D1TessellationSink</a>. To draw the mesh, use the render target's <a href="https://msdn.microsoft.com/e22c9169-e770-4f3d-819b-b9363b6e6542">FillMesh</a> method.
+To populate a mesh, use its <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1mesh-open">Open</a> method to obtain an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1tessellationsink">ID2D1TessellationSink</a>. To draw the mesh, use the render target's <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-fillmesh">FillMesh</a> method.
 
 
 
@@ -89,7 +89,7 @@ To populate a mesh, use its <a href="https://msdn.microsoft.com/7cd0d637-7fcd-45
 
 
 
-<a href="https://msdn.microsoft.com/40629be9-5840-4bde-b369-56bbfd791775">ID2D1RenderTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
  
 
  

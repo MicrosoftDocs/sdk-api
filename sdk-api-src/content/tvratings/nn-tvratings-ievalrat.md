@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>IEvalRat</b> interface is used to evaluate content ratings carried by a broadcast stream. This interface is exposed by the <a href="https://msdn.microsoft.com/6a67cdb1-9a5c-4130-a29c-05c584702fd9">EvalRat</a> (ratings evaluator) object. The EvalRat object is implemented by third parties.
+The <b>IEvalRat</b> interface is used to evaluate content ratings carried by a broadcast stream. This interface is exposed by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/evalrat-object">EvalRat</a> (ratings evaluator) object. The EvalRat object is implemented by third parties.
 
 The Encrypter/Tagger filter and the Decrypter/Detagger filter use this interface. Applications use the interfaces exposed by those filters, but typically do not use the <b>IEvalRat</b> interface.
 
@@ -59,7 +59,7 @@ The Encrypter/Tagger filter and the Decrypter/Detagger filter use this interface
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEvalRat</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IEvalRat</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEvalRat</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IEvalRat</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IEvalRat</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d07b6462-958c-4e97-9be1-41941aa6b747">get_BlockedRatingAttributes</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/nf-tvratings-ievalrat-get_blockedratingattributes">get_BlockedRatingAttributes</a>
 </td>
 <td align="left" width="63%">
 Determines whether content is blocked for a given rating system and rating level.
@@ -83,7 +83,7 @@ Determines whether content is blocked for a given rating system and rating level
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f558c87e-59ac-40d3-bfab-2835d59a730b">get_BlockUnRated</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/nf-tvratings-ievalrat-get_blockunrated">get_BlockUnRated</a>
 </td>
 <td align="left" width="63%">
 Indicates whether a program without rating information is blocked.
@@ -92,7 +92,7 @@ Indicates whether a program without rating information is blocked.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b744715f-53a8-4011-9657-d2962f0e7f6e">MostRestrictiveRating</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/nf-tvratings-ievalrat-mostrestrictiverating">MostRestrictiveRating</a>
 </td>
 <td align="left" width="63%">
 Compares two ratings and returns the more restrictive of the two.
@@ -101,7 +101,7 @@ Compares two ratings and returns the more restrictive of the two.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7c6919f0-1270-4dcd-8180-a9af4763c580">put_BlockedRatingAttributes</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/nf-tvratings-ievalrat-put_blockedratingattributes">put_BlockedRatingAttributes</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to block content that has a specified rating.
@@ -110,7 +110,7 @@ Specifies whether to block content that has a specified rating.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/22f6bc32-3f41-45d4-83e5-f501cbeb772e">put_BlockUnRated</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/nf-tvratings-ievalrat-put_blockunrated">put_BlockUnRated</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to block a program for which rating information has not been obtained.
@@ -119,7 +119,7 @@ Specifies whether to block a program for which rating information has not been o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/26144496-200c-49b8-9f5e-23a39fea20bc">TestRating</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/nf-tvratings-ievalrat-testrating">TestRating</a>
 </td>
 <td align="left" width="63%">
 Determines whether a program with the specified rating should be blocked.
@@ -143,11 +143,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/abe939a3-5f43-4fdf-9d4d-34b7be8893eb">TV Ratings Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tv-ratings-interfaces">TV Ratings Interfaces</a>
  
 
  

@@ -93,18 +93,18 @@ When an application calls the <b>PlayEnhMetaFile</b> function, the system uses t
 
 An enhanced-metafile picture can be clipped by defining the clipping region in the output device before playing the enhanced metafile.
 
-If an enhanced metafile contains an optional palette, an application can achieve consistent colors by setting up a color palette on the output device before calling <b>PlayEnhMetaFile</b>. To retrieve the optional palette, use the <a href="https://msdn.microsoft.com/2d61fd6a-cebd-457e-ad00-d3e8bd15584a">GetEnhMetaFilePaletteEntries</a> function.
+If an enhanced metafile contains an optional palette, an application can achieve consistent colors by setting up a color palette on the output device before calling <b>PlayEnhMetaFile</b>. To retrieve the optional palette, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getenhmetafilepaletteentries">GetEnhMetaFilePaletteEntries</a> function.
 
 An enhanced metafile can be embedded in a newly created enhanced metafile by calling <b>PlayEnhMetaFile</b> and playing the source enhanced metafile into the device context for the new enhanced metafile.
 
 The states of the output device context are preserved by this function. Any object created but not deleted in the enhanced metafile is deleted by this function.
 
-To stop this function, an application can call the <a href="https://msdn.microsoft.com/1dcb3dfe-0ab0-4bf5-ac2f-7a9c11712eef">CancelDC</a> function from another thread to terminate the operation. In this case, the function returns <b>FALSE</b>.
+To stop this function, an application can call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-canceldc">CancelDC</a> function from another thread to terminate the operation. In this case, the function returns <b>FALSE</b>.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/e4e5ef5c-d5ea-4931-bbec-1635e8f08c91">Opening an Enhanced Metafile and Displaying Its Contents</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/opening-an-enhanced-metafile-and-displaying-its-contents">Opening an Enhanced Metafile and Displaying Its Contents</a>.
 
 <div class="code"></div>
 
@@ -115,23 +115,23 @@ For an example, see <a href="https://msdn.microsoft.com/e4e5ef5c-d5ea-4931-bbec-
 
 
 
-<a href="https://msdn.microsoft.com/1dcb3dfe-0ab0-4bf5-ac2f-7a9c11712eef">CancelDC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-canceldc">CancelDC</a>
 
 
 
-<a href="https://msdn.microsoft.com/c42bcbe2-2e8f-42bd-a8e3-2827c6563300">GetEnhMetaFileHeader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getenhmetafileheader">GetEnhMetaFileHeader</a>
 
 
 
-<a href="https://msdn.microsoft.com/2d61fd6a-cebd-457e-ad00-d3e8bd15584a">GetEnhMetaFilePaletteEntries</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getenhmetafilepaletteentries">GetEnhMetaFilePaletteEntries</a>
 
 
 
-<a href="https://msdn.microsoft.com/93a17a8c-308b-4442-933e-fedc8b9a84b0">Metafile Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-functions">Metafile Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/309ee4cf-111b-4f09-a722-4823cb3d26b0">Metafiles Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
 
 
 

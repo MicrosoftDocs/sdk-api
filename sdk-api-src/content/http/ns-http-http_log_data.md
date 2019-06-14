@@ -59,7 +59,7 @@ The <b>HTTP_LOG_DATA</b> structure contains a value that specifies the type of t
 
 ### -field Type
 
-An <a href="https://msdn.microsoft.com/8c53a3e6-5001-4e72-bff4-a6eab007aa9c">HTTP_LOG_DATA_TYPE</a> enumeration value that specifies the type.
+An <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_log_data_type">HTTP_LOG_DATA_TYPE</a> enumeration value that specifies the type.
 
 
 ## -see-also
@@ -67,7 +67,7 @@ An <a href="https://msdn.microsoft.com/8c53a3e6-5001-4e72-bff4-a6eab007aa9c">HTT
 
 
 
-<a href="https://msdn.microsoft.com/8c53a3e6-5001-4e72-bff4-a6eab007aa9c">HTTP_LOG_DATA_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_log_data_type">HTTP_LOG_DATA_TYPE</a>
  
 
  

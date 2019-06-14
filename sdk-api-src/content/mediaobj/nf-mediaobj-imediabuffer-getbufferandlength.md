@@ -116,7 +116,7 @@ Success
 
 Either parameter can be <b>NULL</b>, in which case it does not receive a value. At least one parameter must be non-<b>NULL</b>. If both parameters are <b>NULL</b>, the method returns E_POINTER.
 
-The value returned in the <i>pcbLength</i> parameter is the size of the valid data in the buffer, not the buffer's allocated size. To obtain the buffer's allocated size, call the <a href="https://msdn.microsoft.com/en-us/library/Dd390168(v=VS.85).aspx">IMediaBuffer::GetMaxLength</a> method.
+The value returned in the <i>pcbLength</i> parameter is the size of the valid data in the buffer, not the buffer's allocated size. To obtain the buffer's allocated size, call the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediabuffer-getmaxlength">IMediaBuffer::GetMaxLength</a> method.
 
 
 
@@ -126,11 +126,11 @@ The value returned in the <i>pcbLength</i> parameter is the size of the valid da
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390166(v=VS.85).aspx">IMediaBuffer Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediabuffer">IMediaBuffer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/bde7cef8-f43e-4a11-8b77-fed5585d390a">Implementing IMediaBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/implementing-imediabuffer">Implementing IMediaBuffer</a>
  
 
  

@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Exposes methods that enable clients to access items in a collection of objects that support <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>.
+Exposes methods that enable clients to access items in a collection of objects that support <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectArray</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IObjectArray</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectArray</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectArray</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IObjectArray</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/168d2f09-60c9-457a-b4dd-7678f97eda1b">GetAt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objectarray/nf-objectarray-iobjectarray-getat">GetAt</a>
 </td>
 <td align="left" width="63%">
 Provides a pointer to a specified object's interface. The object and interface are specified by index and interface ID.
@@ -78,7 +78,7 @@ Provides a pointer to a specified object's interface. The object and interface a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2803d8b1-7fc2-499b-a16b-b82b420cba66">GetCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objectarray/nf-objectarray-iobjectarray-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
 Provides a count of the objects in the collection.

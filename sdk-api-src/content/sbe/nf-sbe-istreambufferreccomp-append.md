@@ -107,7 +107,7 @@ The file specified in <i>pszSBRecording</i> must be completed. If the file is li
 
 
 
-<a href="https://msdn.microsoft.com/2998d606-d5ee-4dc3-a4da-57c597c6b594">IStreamBufferRecComp Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferreccomp">IStreamBufferRecComp Interface</a>
  
 
  

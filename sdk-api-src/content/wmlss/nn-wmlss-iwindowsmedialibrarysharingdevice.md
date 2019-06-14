@@ -54,7 +54,7 @@ The <b>IWindowsMediaLibrarySharingDevice</b> interface defines methods that prov
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWindowsMediaLibrarySharingDevice</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IWindowsMediaLibrarySharingDevice</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWindowsMediaLibrarySharingDevice</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWindowsMediaLibrarySharingDevice</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWindowsMediaLibrarySharingDevice</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0bdf06c4-f611-48c8-8289-e51351b234ee">get_Authorization</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nf-wmlss-iwindowsmedialibrarysharingdevice-get_authorization">get_Authorization</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that indicates whether the device is  authorized to have access to the current user's media library.
@@ -78,7 +78,7 @@ Retrieves a value that indicates whether the device is  authorized to have acces
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cdf12bcd-3b41-42a6-818b-26294389d4b3">get_DeviceID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nf-wmlss-iwindowsmedialibrarysharingdevice-get_deviceid">get_DeviceID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device ID.
@@ -87,16 +87,16 @@ Retrieves the device ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/771c102e-fa23-44bb-aa93-95f7ae9f5e36">get_Properties</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nf-wmlss-iwindowsmedialibrarysharingdevice-get_properties">get_Properties</a>
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://msdn.microsoft.com/b975428c-e518-4bc8-a621-193d510661b0">IWindowsMediaLibrarySharingDeviceProperties</a> interface that represents the collection of all properties for the device.
+Retrieves an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nn-wmlss-iwindowsmedialibrarysharingdeviceproperties">IWindowsMediaLibrarySharingDeviceProperties</a> interface that represents the collection of all properties for the device.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/26ac8f24-d212-4558-a66e-ffe5e90bd73b">put_Authorization</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nf-wmlss-iwindowsmedialibrarysharingdevice-put_authorization">put_Authorization</a>
 </td>
 <td align="left" width="63%">
 Authorizes or unauthorizes the device to have access to the current user's media library.
@@ -110,7 +110,7 @@ Authorizes or unauthorizes the device to have access to the current user's media
 
 
 
-To obtain an <b>IWindowsMediaLibrarySharingDevice</b> interface, call the <a href="https://msdn.microsoft.com/38a1f5d2-0347-4564-9403-2bf726198aa6">GetDevice</a> method or the <a href="https://msdn.microsoft.com/1ab420b7-ee40-405f-9125-0f9b3c074ef0">get_Item</a> method of the <a href="https://msdn.microsoft.com/62e1f4d6-5b33-45d7-85d5-bc2c333c63e4">IWindowsMediaLibrarySharingDevices</a> interface.
+To obtain an <b>IWindowsMediaLibrarySharingDevice</b> interface, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nf-wmlss-iwindowsmedialibrarysharingdevices-getdevice">GetDevice</a> method or the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nf-wmlss-iwindowsmedialibrarysharingdevices-get_item">get_Item</a> method of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nn-wmlss-iwindowsmedialibrarysharingdevices">IWindowsMediaLibrarySharingDevices</a> interface.
 
 
 
@@ -120,11 +120,11 @@ To obtain an <b>IWindowsMediaLibrarySharingDevice</b> interface, call the <a hre
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/b1508671-fc81-4fcf-a57b-ffbb86b89e73">Windows Media Library Sharing Services</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmlss/windowsmedialibrarysharingservicesportal">Windows Media Library Sharing Services</a>
  
 
  

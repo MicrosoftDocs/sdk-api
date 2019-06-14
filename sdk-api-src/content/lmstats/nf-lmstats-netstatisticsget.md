@@ -85,8 +85,8 @@ Specifies the information level of the data. This parameter can be the following
 </td>
 <td width="60%">
 Return statistics about a workstation or a server. The <i>bufptr</i> parameter points to a 
-<a href="https://msdn.microsoft.com/7a29fe54-fd15-499d-b255-f49025421861">STAT_WORKSTATION_0</a> or a 
-<a href="https://msdn.microsoft.com/7eb4e4a9-f4db-4702-a4ad-2d8bfac9f9ce">STAT_SERVER_0</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmstats/ns-lmstats-_stat_workstation_0">STAT_WORKSTATION_0</a> or a 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmstats/ns-lmstats-_stat_server_0">STAT_SERVER_0</a> structure.
 
 </td>
 </tr>
@@ -102,9 +102,9 @@ This parameter must be zero.
 ### -param Buffer [out]
 
 Pointer to the buffer that receives the data. The format of this data depends on the value of the <i>level</i> parameter. This buffer is allocated by the system and must be freed using the 
-<a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a> function. For more information, see 
-<a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a> and 
-<a href="https://msdn.microsoft.com/08599966-68a1-420b-bbc7-6daac833d08f">Network Management Function Buffer Lengths</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
 
 ## -returns
@@ -114,7 +114,7 @@ Pointer to the buffer that receives the data. The format of this data depends on
 If the function succeeds, the return value is <b>NERR_Success</b>.
 
 If the function fails, the return value is a system error code. For a list of error codes, see 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -134,29 +134,29 @@ No special group membership is required to obtain workstation statistics. Only m
 
 
 
-<a href="https://msdn.microsoft.com/ed15e1b5-3fdc-4841-85d1-89269684df0e">NetServerGetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservergetinfo">NetServerGetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd159e2e-f37e-46b2-b980-008b73d40b39">Network
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/7eb4e4a9-f4db-4702-a4ad-2d8bfac9f9ce">STAT_SERVER_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmstats/ns-lmstats-_stat_server_0">STAT_SERVER_0</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a29fe54-fd15-499d-b255-f49025421861">STAT_WORKSTATION_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmstats/ns-lmstats-_stat_workstation_0">STAT_WORKSTATION_0</a>
 
 
 
-<a href="https://msdn.microsoft.com/4e0217bf-7550-40a2-b47c-8e898a586005">Statistics
+<a href="https://docs.microsoft.com/windows/desktop/NetShare/statistics-functions">Statistics
 		  Functions</a>
  
 

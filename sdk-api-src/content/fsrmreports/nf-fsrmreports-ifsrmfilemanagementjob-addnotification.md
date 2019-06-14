@@ -50,8 +50,8 @@ ms.custom: 19H1
 
 
 <p class="CCE_Message">[This method is supported for compatibility but it's recommended to use the 
-    <a href="https://msdn.microsoft.com/1CE772FA-CE33-4900-A499-058175A7C37E">FSRM WMI Classes</a> to manage FSRM. Please see the 
-    <a href="https://msdn.microsoft.com/0c1bafe2-db1a-4325-8ce9-24b22b30a2d4">MSFT_FSRMFMJNotification::CreateFMJNotification</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfmjnotification-createfmjnotification">MSFT_FSRMFMJNotification::CreateFMJNotification</a> 
     method.]
 
 Adds a new notification value (period) to the file management job's list of 
@@ -96,30 +96,30 @@ Note that it is possible for the user to receive duplicate notifications. For ex
     duplicate notifications if the job is run manually after the notification is sent but on or before the day when 
     the notification should occur.
 
-The <a href="https://msdn.microsoft.com/f891679d-3d94-4fbe-99b1-9445666b7694">FromDate</a> determines when the 
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_fromdate">FromDate</a> determines when the 
     notification window begins. The following properties determine when the file is to expire:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/f897321f-3e32-4965-b6c0-33d156601481">DaysSinceFileCreated</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_dayssincefilecreated">DaysSinceFileCreated</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/0892f31d-e2e4-4aeb-9496-f0ff10c2c0af">DaysSinceFileLastAccessed</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_dayssincefilelastaccessed">DaysSinceFileLastAccessed</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/3ee02d60-50c7-4643-9604-b72ca1da01f6">DaysSinceFileLastModified</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_dayssincefilelastmodified">DaysSinceFileLastModified</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/49435c4b-211e-4aae-a6b3-ad40de811526">PropertyConditions</a> (use 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_propertyconditions">PropertyConditions</a> (use 
       the 
-      <a href="https://msdn.microsoft.com/1b264e9c-4ba0-4de2-acdc-94338519c5af">CreatePropertyCondition</a> 
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-createpropertycondition">CreatePropertyCondition</a> 
       method to create the property condition)</li>
 <li>
-<a href="https://msdn.microsoft.com/6a51dbc2-8e60-4575-9e97-c798e73c02a4">FileNamePattern</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_filenamepattern">FileNamePattern</a>
 </li>
 </ul>
 To associate an action with the notification value, call the 
-    <a href="https://msdn.microsoft.com/d0cb2ac1-842c-4ebb-adac-8298a0e0beed">IFsrmFileManagementJob::CreateNotificationAction</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-createnotificationaction">IFsrmFileManagementJob::CreateNotificationAction</a> 
     method.
 
 
@@ -130,23 +130,23 @@ To associate an action with the notification value, call the
 
 
 
-<a href="https://msdn.microsoft.com/e9ae697d-4f7c-47d9-8d2a-c46c2e5f838f">IFsrmFileManagementJob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmfilemanagementjob">IFsrmFileManagementJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/d21e289a-5062-4897-9479-3408589db11f">IFsrmFileManagementJob::DeleteNotification</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-deletenotification">IFsrmFileManagementJob::DeleteNotification</a>
 
 
 
-<a href="https://msdn.microsoft.com/f2b26ed7-5bbc-4b34-ae11-7fcdb621a55b">IFsrmFileManagementJob::ModifyNotification</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-modifynotification">IFsrmFileManagementJob::ModifyNotification</a>
 
 
 
-<a href="https://msdn.microsoft.com/f0aee951-12f3-40d0-bbf4-c72af117952f">IFsrmFileManagementJob::Notifications</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_notifications">IFsrmFileManagementJob::Notifications</a>
 
 
 
-<a href="https://msdn.microsoft.com/0c1bafe2-db1a-4325-8ce9-24b22b30a2d4">MSFT_FSRMFMJNotification::CreateFMJNotification</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfmjnotification-createfmjnotification">MSFT_FSRMFMJNotification::CreateFMJNotification</a>
  
 
  

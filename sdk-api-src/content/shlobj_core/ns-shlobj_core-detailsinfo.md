@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains detail information for a Shell folder item. Used with the <a href="https://msdn.microsoft.com/46a81a7b-527c-4d41-8d25-ce65fd87416e">SFVM_GETDETAILSOF</a> notification.
+Contains detail information for a Shell folder item. Used with the <a href="https://docs.microsoft.com/windows/desktop/shell/sfvm-getdetailsof">SFVM_GETDETAILSOF</a> notification.
 
 
 ## -struct-fields
@@ -104,9 +104,9 @@ The number of average-sized characters in the heading.
 
 ### -field str
 
-Type: <b><a href="https://msdn.microsoft.com/7868ef9b-07db-455b-b0be-ef0db7891447">STRRET</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_strret">STRRET</a></b>
 
-An <a href="https://msdn.microsoft.com/7868ef9b-07db-455b-b0be-ef0db7891447">STRRET</a> structure that includes a string containing the requested detail. To convert this structure to a string, use <a href="https://msdn.microsoft.com/89dab3ee-e9f8-499a-97ec-6fe732315891">StrRetToBuf</a> or <a href="https://msdn.microsoft.com/03b0dffb-8ef7-41da-9773-81ed55275802">StrRetToStr</a>.
+An <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_strret">STRRET</a> structure that includes a string containing the requested detail. To convert this structure to a string, use <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strrettobufa">StrRetToBuf</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strrettostra">StrRetToStr</a>.
 
 
 ### -field iImage

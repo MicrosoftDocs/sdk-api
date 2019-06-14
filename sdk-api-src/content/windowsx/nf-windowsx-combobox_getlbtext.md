@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets a string from a list in a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775862(v=VS.85).aspx">CB_GETLBTEXT</a> message explicitly.
+Gets a string from a list in a combo box. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-getlbtext">CB_GETLBTEXT</a> message explicitly.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets a string from a list in a combo box. You can use this macro or send the <a 
 
 ### -param hwndCtl
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -73,9 +73,9 @@ The zero-based index of the item.
 
 ### -param lpszBuffer
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCTSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
 
-A pointer to the buffer that will receive the string. The buffer must have sufficient space for the string and a terminating null character. Before allocating the buffer, you can call <a href="https://msdn.microsoft.com/en-us/library/Bb856478(v=VS.85).aspx">ComboBox_GetLBTextLen</a> to retrieve the length of the string. 
+A pointer to the buffer that will receive the string. The buffer must have sufficient space for the string and a terminating null character. Before allocating the buffer, you can call <a href="https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-combobox_getlbtextlen">ComboBox_GetLBTextLen</a> to retrieve the length of the string. 
 
 
 
@@ -83,7 +83,7 @@ A pointer to the buffer that will receive the string. The buffer must have suffi
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775862(v=VS.85).aspx">CB_GETLBTEXT</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-getlbtext">CB_GETLBTEXT</a>.
 	
 
 

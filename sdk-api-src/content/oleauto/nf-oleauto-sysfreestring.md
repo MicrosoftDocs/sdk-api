@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deallocates a string allocated previously by <a href="https://msdn.microsoft.com/9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a>, <a href="https://msdn.microsoft.com/e7f49441-eff1-4c00-b61f-8522c4e250ef">SysAllocStringByteLen</a>, <a href="https://msdn.microsoft.com/0207c33b-c065-42bb-8d70-ccdc3fddb338">SysReAllocString</a>, <a href="https://msdn.microsoft.com/f98bff39-bc5f-4a81-85d7-d5228e20fbc8">SysAllocStringLen</a>, or <a href="https://msdn.microsoft.com/d134cff1-7cc8-4284-a216-3819615e3017">SysReAllocStringLen</a>.
+Deallocates a string allocated previously by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstringbytelen">SysAllocStringByteLen</a>, <a href="https://docs.microsoft.com/windows/desktop/api/oleauto/nf-oleauto-sysreallocstring">SysReAllocString</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstringlen">SysAllocStringLen</a>, or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysreallocstringlen">SysReAllocStringLen</a>.
 
 
 ## -parameters

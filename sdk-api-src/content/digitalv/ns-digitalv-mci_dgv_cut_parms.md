@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCI_DGV_CUT_PARMS</b> structure contains parameters for the <a href="https://msdn.microsoft.com/09bb505b-715a-4393-80f0-e9ba270a8ac1">MCI_CUT</a> command for digital-video devices.
+The <b>MCI_DGV_CUT_PARMS</b> structure contains parameters for the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-cut">MCI_CUT</a> command for digital-video devices.
 
 
 
@@ -104,7 +104,7 @@ Video stream.
 
 
 
-When assigning data to the members of this structure, set the corresponding flags in the <i>fdwCommand</i> parameter of the <a href="https://msdn.microsoft.com/e25820e9-2caf-423e-8588-f842e670e0c3">mciSendCommand</a> function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the <i>fdwCommand</i> parameter of the <a href="https://docs.microsoft.com/previous-versions//dd757160(v=vs.85)">mciSendCommand</a> function to validate the members.
 
 
 
@@ -114,15 +114,15 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 
-<a href="https://msdn.microsoft.com/b414dffb-3701-4dfd-aa8c-cd8e8918027d">MCI</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci">MCI</a>
 
 
 
-<a href="https://msdn.microsoft.com/e86740e5-633e-465d-94ef-8065a8c05b31">MCI Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-structures">MCI Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/09bb505b-715a-4393-80f0-e9ba270a8ac1">MCI_CUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-cut">MCI_CUT</a>
 
 
 
@@ -130,7 +130,7 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 
-<a href="https://msdn.microsoft.com/e25820e9-2caf-423e-8588-f842e670e0c3">mciSendCommand</a>
+<a href="https://docs.microsoft.com/previous-versions//dd757160(v=vs.85)">mciSendCommand</a>
  
 
  

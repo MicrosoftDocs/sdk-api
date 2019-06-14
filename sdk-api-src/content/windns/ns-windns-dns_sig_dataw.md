@@ -60,7 +60,7 @@ The <b>DNS_RRSIG_DATA</b> structure represents a DNS
 
 ### -field wTypeCovered
 
-The <a href="https://msdn.microsoft.com/95bc9193-7962-498a-9abd-c4718ac35f0f">DNS Record Type</a> of the signed RRs.
+The <a href="https://docs.microsoft.com/windows/desktop/DNS/dns-constants">DNS Record Type</a> of the signed RRs.
 
 
 ### -field chAlgorithm
@@ -187,7 +187,7 @@ Reserved for padding. Do not use.
 
 The 
 <b>DNS_RRSIG_DATA</b> structure is used in conjunction with the 
-<a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a> structure to programmatically manage DNS entries.
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 
 
@@ -197,11 +197,11 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/636399be-43a5-4ddf-b652-f8efb81fbf42">DNS Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DNS/dns-structures">DNS Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a>
  
 
  

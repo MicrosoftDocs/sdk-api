@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>Reset</b> method resets the enumerator 
-    so that <a href="https://msdn.microsoft.com/c2067822-1824-4676-8376-7d83fcbbaea3">IVssEnumMgmtObject</a> starts at the first 
+    so that <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssenummgmtobject">IVssEnumMgmtObject</a> starts at the first 
     enumerated object.
 
 
@@ -75,11 +75,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/c2067822-1824-4676-8376-7d83fcbbaea3">IVssEnumMgmtObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssenummgmtobject">IVssEnumMgmtObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/57f984da-6c20-405b-883b-6e54e4ac9546">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssenummgmtobject-reset">Reset</a>
  
 
  

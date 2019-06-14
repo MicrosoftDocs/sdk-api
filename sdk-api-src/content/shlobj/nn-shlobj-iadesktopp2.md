@@ -54,7 +54,7 @@ Provides methods to manage the Windows Desktop.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADesktopP2</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IADesktopP2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADesktopP2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IADesktopP2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,10 +69,10 @@ The <b>IADesktopP2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9028beee-295a-422a-904a-cbb73332dc81">UpdateAllDesktopSubscriptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-iadesktopp2-updatealldesktopsubscriptions">UpdateAllDesktopSubscriptions</a>
 </td>
 <td align="left" width="63%">
-Calls the <a href="https://msdn.microsoft.com/en-us/library/Bb762263(v=VS.85).aspx">UpdateAllDesktopSubscriptions</a> function to update desktop subscriptions.
+Calls the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-updatealldesktopsubscriptions">UpdateAllDesktopSubscriptions</a> function to update desktop subscriptions.
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ Calls the <a href="https://msdn.microsoft.com/en-us/library/Bb762263(v=VS.85).as
 
 
 
-Despite its name, this interface does not inherit from <a href="https://msdn.microsoft.com/04d2e14a-374b-405d-803b-0bd6f57c077a">IActiveDesktopP</a>.
+Despite its name, this interface does not inherit from <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-iactivedesktopp">IActiveDesktopP</a>.
 
 
 
@@ -93,7 +93,7 @@ Despite its name, this interface does not inherit from <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/68d72b0f-f5e9-4fff-bb13-4c60d1dd7009">Using the Active Desktop Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/lwef/active-desktop-interface">Using the Active Desktop Object</a>
  
 
  

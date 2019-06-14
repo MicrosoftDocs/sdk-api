@@ -59,7 +59,7 @@ Replaces the existing access rights on an object with the specified list.
 
 ### -param pAccessList [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/d7fb10c1-ebb8-44cf-b61c-a70a787b324f">ACTRL_ACCESS</a> list that contains an array of access lists to be written to the object.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_actrl_alista">ACTRL_ACCESS</a> list that contains an array of access lists to be written to the object.
 
 
 ## -returns
@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/f7f19a9d-27ed-479f-b5d4-562cab5be12a">IAccessControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iaccess/nn-iaccess-iaccesscontrol">IAccessControl</a>
  
 
  

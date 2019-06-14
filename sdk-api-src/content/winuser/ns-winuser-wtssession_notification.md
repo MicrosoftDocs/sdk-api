@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Provides information about the session change notification. A service receives this structure in its 
-    <a href="https://msdn.microsoft.com/bb1b863f-e29f-496f-a50e-9ea524fe8603">HandlerEx</a> function in response to a session change event.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex">HandlerEx</a> function in response to a session change event.
 
 
 ## -struct-fields
@@ -73,7 +73,7 @@ Session identifier that triggered the session change event.
 
 
 
-<a href="https://msdn.microsoft.com/bb1b863f-e29f-496f-a50e-9ea524fe8603">HandlerEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex">HandlerEx</a>
  
 
  

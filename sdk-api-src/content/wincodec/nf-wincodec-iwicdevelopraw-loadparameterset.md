@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the desired <a href="https://msdn.microsoft.com/0c39b769-9523-42ce-942f-761e6d39ec5b">WICRawParameterSet</a> option.
+Sets the desired <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicrawparameterset">WICRawParameterSet</a> option.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ Sets the desired <a href="https://msdn.microsoft.com/0c39b769-9523-42ce-942f-761
 
 ### -param ParameterSet [in]
 
-Type: <b><a href="https://msdn.microsoft.com/0c39b769-9523-42ce-942f-761e6d39ec5b">WICRawParameterSet</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicrawparameterset">WICRawParameterSet</a></b>
 
-The desired <a href="https://msdn.microsoft.com/0c39b769-9523-42ce-942f-761e6d39ec5b">WICRawParameterSet</a> option.
+The desired <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicrawparameterset">WICRawParameterSet</a> option.
 
 
 ## -returns

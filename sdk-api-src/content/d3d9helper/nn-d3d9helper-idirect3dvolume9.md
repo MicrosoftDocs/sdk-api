@@ -55,7 +55,7 @@ Applications use the methods of the <b>IDirect3DVolume9</b> interface to manipul
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DVolume9</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDirect3DVolume9</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DVolume9</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirect3DVolume9</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IDirect3DVolume9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205933(v=VS.85).aspx">FreePrivateData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvolume9-freeprivatedata">FreePrivateData</a>
 </td>
 <td align="left" width="63%">
 Frees the specified private data associated with this volume.
@@ -79,7 +79,7 @@ Frees the specified private data associated with this volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205934(v=VS.85).aspx">GetContainer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvolume9-getcontainer">GetContainer</a>
 </td>
 <td align="left" width="63%">
 Provides access to the parent volume texture object, if this surface is a child level of a volume texture.
@@ -88,7 +88,7 @@ Provides access to the parent volume texture object, if this surface is a child 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205935(v=VS.85).aspx">GetDesc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvolume9-getdesc">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Retrieves a description of the volume.
@@ -97,7 +97,7 @@ Retrieves a description of the volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205936(v=VS.85).aspx">GetDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvolume9-getdevice">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device associated with a volume.
@@ -106,7 +106,7 @@ Retrieves the device associated with a volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205937(v=VS.85).aspx">GetPrivateData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvolume9-getprivatedata">GetPrivateData</a>
 </td>
 <td align="left" width="63%">
 Copies the private data associated with the volume to a provided buffer.
@@ -115,7 +115,7 @@ Copies the private data associated with the volume to a provided buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205938(v=VS.85).aspx">LockBox</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvolume9-lockbox">LockBox</a>
 </td>
 <td align="left" width="63%">
 Locks a box on a volume resource.
@@ -124,7 +124,7 @@ Locks a box on a volume resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205939(v=VS.85).aspx">SetPrivateData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvolume9-setprivatedata">SetPrivateData</a>
 </td>
 <td align="left" width="63%">
 Associates data with the volume that is intended for use by the application, not by Direct3D.
@@ -133,7 +133,7 @@ Associates data with the volume that is intended for use by the application, not
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205940(v=VS.85).aspx">UnlockBox</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvolume9-unlockbox">UnlockBox</a>
 </td>
 <td align="left" width="63%">
 Unlocks a box on a volume resource.
@@ -147,9 +147,9 @@ Unlocks a box on a volume resource.
 
 
 
-The <b>IDirect3DVolume9</b> interface is obtained by calling the <a href="https://msdn.microsoft.com/en-us/library/Bb205944(v=VS.85).aspx">IDirect3DVolumeTexture9::GetVolumeLevel</a> method.
+The <b>IDirect3DVolume9</b> interface is obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvolumetexture9-getvolumelevel">IDirect3DVolumeTexture9::GetVolumeLevel</a> method.
 
-This interface, like all COM interfaces, inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface.
+This interface, like all COM interfaces, inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface.
 
 The LPDIRECT3DVOLUME9 and PDIRECT3DVOLUME9 types are defined as pointers to the <b>IDirect3DVolume9</b> interface.
     
@@ -172,7 +172,7 @@ typedef struct IDirect3DVolume9 *LPDIRECT3DVOLUME9, *PDIRECT3DVOLUME9;
 
 
 
-<a href="https://msdn.microsoft.com/f12facdc-5a3f-4f89-8ae3-a322ef3389b2">Direct3D Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d9/dx9-graphics-reference-d3d-interfaces">Direct3D Interfaces</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies flags for the <a href="https://msdn.microsoft.com/7F6782F3-7779-4DBD-AD5A-AE0FB136FC70">OfferResources1</a> method.
+Specifies flags for the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/nf-dxgi1_5-idxgidevice4-offerresources1">OfferResources1</a> method.
 
 
 ## -enum-fields
@@ -68,7 +68,7 @@ Indicates the ability to allow memory de-commit by the DirectX Graphics Kernel.
 
 
 
-<a href="https://msdn.microsoft.com/c4574c89-dee2-4841-9318-5383cf417111">DXGI Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-enums">DXGI Enumerations</a>
  
 
  

@@ -85,7 +85,7 @@ If the method succeeds, the caller must release the <b>IUnknown</b> interface.
 
 
 
-<a href="https://msdn.microsoft.com/1f6d7969-3207-48f8-8972-0a95287ccc71">IDTFilterConfig Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nn-encdec-idtfilterconfig">IDTFilterConfig Interface</a>
  
 
  

@@ -54,7 +54,7 @@ The <b>IFaxInboundRoutingMethod</b> interface defines a configuration object use
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxInboundRoutingMethod</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxInboundRoutingMethod</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxInboundRoutingMethod</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxInboundRoutingMethod</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,19 +70,19 @@ The <b>IFaxInboundRoutingMethod</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms686042(v=VS.85).aspx">Refresh</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingmethod-refresh-vb">Refresh</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms686042(v=VS.85).aspx">IFaxInboundRoutingMethod::Refresh</a> method refreshes <b>IFaxInboundRoutingMethod</b> interface information from the fax server.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingmethod-refresh-vb">IFaxInboundRoutingMethod::Refresh</a> method refreshes <b>IFaxInboundRoutingMethod</b> interface information from the fax server.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms684815(v=VS.85).aspx">Save</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingmethod-save-vb">Save</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms684815(v=VS.85).aspx">IFaxInboundRoutingMethod::Save</a> method saves the <b>IFaxInboundRoutingMethod</b> interface's data.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingmethod-save-vb">IFaxInboundRoutingMethod::Save</a> method saves the <b>IFaxInboundRoutingMethod</b> interface's data.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms684815(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686194(v=VS.85).aspx">ExtensionFriendlyName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingmethod-extensionfriendlyname-vb">ExtensionFriendlyName</a>
 
 
 </td>
@@ -106,14 +106,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms686194(v=VS.85).aspx">IFaxInboundRoutingMethod::get_ExtensionFriendlyName</a> property is the user-friendly name for the fax routing extension that exports the inbound fax routing method.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingmethod-extensionfriendlyname-vb">IFaxInboundRoutingMethod::get_ExtensionFriendlyName</a> property is the user-friendly name for the fax routing extension that exports the inbound fax routing method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686486(v=VS.85).aspx">ExtensionImageName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingmethod-extensionimagename-vb">ExtensionImageName</a>
 
 
 </td>
@@ -122,14 +122,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms686486(v=VS.85).aspx">IFaxInboundRoutingMethod::get_ExtensionImageName</a> property is a null-terminated string that contains the executable image name (DLL path and file name) of the fax routing extension that exports the fax routing method.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingmethod-extensionimagename-vb">IFaxInboundRoutingMethod::get_ExtensionImageName</a> property is a null-terminated string that contains the executable image name (DLL path and file name) of the fax routing extension that exports the fax routing method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686911(v=VS.85).aspx">FunctionName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingmethod-functionname-vb">FunctionName</a>
 
 
 </td>
@@ -138,14 +138,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms686911(v=VS.85).aspx">IFaxInboundRoutingMethod::get_FunctionName</a> property is a null-terminated string that contains the name of the function that executes a specific fax routing procedure.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingmethod-functionname-vb">IFaxInboundRoutingMethod::get_FunctionName</a> property is a null-terminated string that contains the name of the function that executes a specific fax routing procedure.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686469(v=VS.85).aspx">GUID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingmethod-guid-vb">GUID</a>
 
 
 </td>
@@ -154,14 +154,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms686469(v=VS.85).aspx">IFaxInboundRoutingMethod::get_GUID</a> property is a null-terminated string that specifies the GUID that uniquely identifies the fax routing method.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingmethod-guid-vb">IFaxInboundRoutingMethod::get_GUID</a> property is a null-terminated string that specifies the GUID that uniquely identifies the fax routing method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685341(v=VS.85).aspx">Name</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingmethod-name-vb">Name</a>
 
 
 </td>
@@ -170,14 +170,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms685341(v=VS.85).aspx">IFaxInboundRoutingMethod::get_Name</a> property is a null-terminated string that contains the user-friendly name associated with the inbound fax routing method. The string is suitable for display to users.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingmethod-name-vb">IFaxInboundRoutingMethod::get_Name</a> property is a null-terminated string that contains the user-friendly name associated with the inbound fax routing method. The string is suitable for display to users.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686151(v=VS.85).aspx">Priority</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxinboundroutingmethod-get_priority">Priority</a>
 
 
 </td>
@@ -186,7 +186,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms686150(v=VS.85).aspx">Priority</a> property is a value associated with the order in which the fax service calls the routing method when the service receives a fax job.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingmethod-priority">Priority</a> property is a value associated with the order in which the fax service calls the routing method when the service receives a fax job.
 
 </td>
 </tr>
@@ -197,7 +197,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms686150(v=VS.85).aspx">Pr
 
 
 
-A default implementation of <b>IFaxInboundRoutingMethod</b> is provided as the <a href="https://msdn.microsoft.com/en-us/library/ms687469(v=VS.85).aspx">FaxInboundRoutingMethod</a> object.
+A default implementation of <b>IFaxInboundRoutingMethod</b> is provided as the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingmethod">FaxInboundRoutingMethod</a> object.
 
 
 

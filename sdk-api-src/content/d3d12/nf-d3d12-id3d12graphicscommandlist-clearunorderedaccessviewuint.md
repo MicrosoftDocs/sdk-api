@@ -60,17 +60,17 @@ Sets all the elements in a unordered-access view to the specified integer values
 
 ### -param ViewGPUHandleInCurrentHeap [in]
 
-Type: <b><a href="https://msdn.microsoft.com/16D09788-D527-4D9F-A6EF-648F42A426B5">D3D12_GPU_DESCRIPTOR_HANDLE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_gpu_descriptor_handle">D3D12_GPU_DESCRIPTOR_HANDLE</a></b>
 
-A <a href="https://msdn.microsoft.com/16D09788-D527-4D9F-A6EF-648F42A426B5">D3D12_GPU_DESCRIPTOR_HANDLE</a> structure that describes the GPU descriptor handle that represents the start of the heap for the unordered-access view to clear.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_gpu_descriptor_handle">D3D12_GPU_DESCRIPTOR_HANDLE</a> structure that describes the GPU descriptor handle that represents the start of the heap for the unordered-access view to clear.
           
 
 
 ### -param ViewCPUHandle [in]
 
-Type: <b><a href="https://msdn.microsoft.com/92451E4C-5E70-4015-8760-3F75066A44FD">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
 
-A <a href="https://msdn.microsoft.com/92451E4C-5E70-4015-8760-3F75066A44FD">D3D12_CPU_DESCRIPTOR_HANDLE</a> structure that describes the CPU descriptor handle that represents the start of the heap for the render target to clear.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle">D3D12_CPU_DESCRIPTOR_HANDLE</a> structure that describes the CPU descriptor handle that represents the start of the heap for the render target to clear.
           
 
 
@@ -78,7 +78,7 @@ A <a href="https://msdn.microsoft.com/92451E4C-5E70-4015-8760-3F75066A44FD">D3D1
 
 Type: <b>ID3D12Resource*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a> interface that represents the unordered-access-view resource to clear.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a> interface that represents the unordered-access-view resource to clear.
           
 
 
@@ -121,14 +121,14 @@ This method does not return a value.
 
 
 <h3><a id="Runtime_validation"></a><a id="runtime_validation"></a><a id="RUNTIME_VALIDATION"></a>Runtime validation</h3>
-Validation failure will result in the call to <a href="https://msdn.microsoft.com/EA9F00AD-8506-4F3C-871E-A51ED69005BB">ID3D12GraphicsCommandList::Close</a> returning <b>E_INVALIDARG</b>.
+Validation failure will result in the call to <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close">ID3D12GraphicsCommandList::Close</a> returning <b>E_INVALIDARG</b>.
           
 
 <h3><a id="Debug_layer"></a><a id="debug_layer"></a><a id="DEBUG_LAYER"></a>Debug layer</h3>
 The debug layer will issue errors if the input values are outside of a normalized range.
           
 
-The debug layer will issue an error if the subresources referenced by the view are not in the appropriate state. For <b>ClearUnorderedAccessViewUint</b>, the state must be <a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATE_UNORDERED_ACCESS</a>.
+The debug layer will issue an error if the subresources referenced by the view are not in the appropriate state. For <b>ClearUnorderedAccessViewUint</b>, the state must be <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_UNORDERED_ACCESS</a>.
           
 
 
@@ -139,7 +139,7 @@ The debug layer will issue an error if the subresources referenced by the view a
 
 
 
-<a href="https://msdn.microsoft.com/1BF282A7-F6D4-43A9-BDAD-D877564A1C6B">ID3D12GraphicsCommandList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
  
 
  

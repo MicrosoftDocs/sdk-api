@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Converts a numeric value into a string that represents the number in bytes, kilobytes, megabytes, or gigabytes, depending on the size. Extends <a href="https://msdn.microsoft.com/00192755-9135-4193-90bc-6e312b294007">StrFormatByteSizeW</a> by offering the option to round to the nearest displayed digit or to discard undisplayed digits.
+Converts a numeric value into a string that represents the number in bytes, kilobytes, megabytes, or gigabytes, depending on the size. Extends <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizew">StrFormatByteSizeW</a> by offering the option to round to the nearest displayed digit or to discard undisplayed digits.
 
 
 ## -parameters
@@ -68,9 +68,9 @@ The numeric value to be converted.
 
 ### -param flags
 
-Type: <b><a href="https://msdn.microsoft.com/9b26734b-bda4-4b60-92a3-fe5b3d360dd0">SFBS_FLAGS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-tagsfbs_flags">SFBS_FLAGS</a></b>
 
-One of the <a href="https://msdn.microsoft.com/9b26734b-bda4-4b60-92a3-fe5b3d360dd0">SFBS_FLAGS</a> enumeration values that specifies whether to round or truncate undisplayed digits. This value cannot be NULL.
+One of the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-tagsfbs_flags">SFBS_FLAGS</a> enumeration values that specifies whether to round or truncate undisplayed digits. This value cannot be NULL.
 
 
 ### -param pszBuf [out]
@@ -133,15 +133,15 @@ In Windows 10, size is reported in base 10 rather than  base 2. For example, 1 
 
 
 
-<a href="https://msdn.microsoft.com/b56dd90a-7033-409b-a8ea-e81a7a8a2342">StrFormatByteSize64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesize64a">StrFormatByteSize64</a>
 
 
 
-<a href="https://msdn.microsoft.com/244f93cb-0976-4a31-958c-ae0ed81c1dcf">StrFormatByteSizeA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizea">StrFormatByteSizeA</a>
 
 
 
-<a href="https://msdn.microsoft.com/00192755-9135-4193-90bc-6e312b294007">StrFormatByteSizeW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizew">StrFormatByteSizeW</a>
  
 
  

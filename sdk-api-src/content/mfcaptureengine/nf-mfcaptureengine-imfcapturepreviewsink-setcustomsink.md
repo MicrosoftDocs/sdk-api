@@ -59,7 +59,7 @@ Sets a custom media sink for preview.
 
 ### -param pMediaSink [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/103e6fd8-a18f-480a-8261-099623014659">IMFMediaSink</a> interface of the media sink.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasink">IMFMediaSink</a> interface of the media sink.
 
 
 ## -returns
@@ -85,7 +85,7 @@ This method overrides the default selection of the media sink for preview.
 
 
 
-<a href="https://msdn.microsoft.com/5E64C24D-D6EC-419B-9DC8-309EBCE0077E">IMFCapturePreviewSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturepreviewsink">IMFCapturePreviewSink</a>
  
 
  

@@ -114,7 +114,7 @@ The age of the .pdb file.
 
 
 
-<a href="https://msdn.microsoft.com/ee5b0821-2746-467e-9d95-90776882ac95">SymSrvGetFileIndexInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsrvgetfileindexinfo">SymSrvGetFileIndexInfo</a>
  
 
  

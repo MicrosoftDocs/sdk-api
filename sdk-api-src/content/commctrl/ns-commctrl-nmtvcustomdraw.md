@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information specific to an <a href="https://msdn.microsoft.com/en-us/library/Bb773470(v=VS.85).aspx">NM_CUSTOMDRAW (tree view)</a> notification code sent by a tree-view control. 
+Contains information specific to an <a href="https://docs.microsoft.com/windows/desktop/Controls/nm-customdraw-tree-view">NM_CUSTOMDRAW (tree view)</a> notification code sent by a tree-view control. 
 
 
 ## -struct-fields
@@ -59,26 +59,26 @@ Contains information specific to an <a href="https://msdn.microsoft.com/en-us/li
 
 ### -field nmcd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775483(v=VS.85).aspx">NMCUSTOMDRAW</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagnmcustomdrawinfo">NMCUSTOMDRAW</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775483(v=VS.85).aspx">NMCUSTOMDRAW</a> structure that contains general custom draw information. 
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagnmcustomdrawinfo">NMCUSTOMDRAW</a> structure that contains general custom draw information. 
 
 
 ### -field clrText
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 
-<a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> value representing the color that will be used to display text foreground in the tree-view control. 
+<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> value representing the color that will be used to display text foreground in the tree-view control. 
 
 
 ### -field clrTextBk
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 
-<a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> value representing the color that will be used to display text background in the tree-view control. 
+<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> value representing the color that will be used to display text background in the tree-view control. 
 
 
 ### -field iLevel
@@ -86,5 +86,5 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Type: <b>int</b>
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 4.71</a>. Zero-based level of the item being drawn. The root item is at level zero, a child of the root item is at level one, and so on. 
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.71</a>. Zero-based level of the item being drawn. The root item is at level zero, a child of the root item is at level one, and so on. 
 

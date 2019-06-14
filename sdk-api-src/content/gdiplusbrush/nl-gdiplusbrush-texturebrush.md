@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>TextureBrush</b> class defines a <a href="https://msdn.microsoft.com/en-us/library/ms534424(v=VS.85).aspx">Brush</a> object that contains an 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object that is used for the fill. The fill image can be transformed by using the local 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a> object contained in the <b>Brush</b> object.
+The <b>TextureBrush</b> class defines a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a> object that contains an 
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object that is used for the fill. The fill image can be transformed by using the local 
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a> object contained in the <b>Brush</b> object.
 

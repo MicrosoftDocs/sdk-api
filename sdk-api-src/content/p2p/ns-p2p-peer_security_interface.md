@@ -64,7 +64,7 @@ Specifies the size of the structure. Set the value to   sizeof(<b>PEER_SECURITY_
 
 ### -field pwzSspFilename
 
-Specifies the full path and file name of a .DLL that  implements the SSP interface. See the <a href="https://msdn.microsoft.com/2d72b1bc-4687-4672-9644-85ad9b197a72">SSPI documentation</a> for further information on the SSP interface.
+Specifies the full path and file name of a .DLL that  implements the SSP interface. See the <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/graphing-reference-links">SSPI documentation</a> for further information on the SSP interface.
 
 
 ### -field pwzPackageName
@@ -81,12 +81,12 @@ Specifies the byte count of the <b>pbSecurityInfo</b> member.	This member is not
 
 Pointer to a buffer that contains the information  used to create or open a peer graph. This member is optional and can be <b>NULL</b>.
 
-The security data blob pointed to by <b>pbSecurityInfo</b> is  copied and then passed to the SSPI function call of <a href="https://msdn.microsoft.com/2d72b1bc-4687-4672-9644-85ad9b197a72">AcquireCredentialsHandle</a>. 
+The security data blob pointed to by <b>pbSecurityInfo</b> is  copied and then passed to the SSPI function call of <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/graphing-reference-links">AcquireCredentialsHandle</a>. 
 
 
 ### -field pvContext
 
-Pointer to the security context. This security context is then passed as the first parameter to <a href="https://msdn.microsoft.com/5d81f09b-e46b-43e6-b0a8-ed7c236f2968">PFNPEER_VALIDATE_RECORD</a>, <a href="https://msdn.microsoft.com/aa340e32-6d7f-4218-b120-8c352fdbda0f">PFNPEER_FREE_SECURITY_DATA</a>, and <a href="https://msdn.microsoft.com/454b40f6-a7de-4b59-ae35-a809c4510133">PFNPEER_SECURE_RECORD</a>. This member is optional and can be <b>NULL</b>.
+Pointer to the security context. This security context is then passed as the first parameter to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nc-p2p-pfnpeer_validate_record">PFNPEER_VALIDATE_RECORD</a>, <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nc-p2p-pfnpeer_free_security_data">PFNPEER_FREE_SECURITY_DATA</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nc-p2p-pfnpeer_secure_record">PFNPEER_SECURE_RECORD</a>. This member is optional and can be <b>NULL</b>.
 
 
 ### -field pfnValidateRecord
@@ -125,27 +125,27 @@ If you have developed your own SSP, your application must not call the Peer Grap
 
 
 
-<a href="https://msdn.microsoft.com/2d72b1bc-4687-4672-9644-85ad9b197a72">AcquireCredentialsHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/graphing-reference-links">AcquireCredentialsHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa340e32-6d7f-4218-b120-8c352fdbda0f">PFNPEER_FREE_SECURITY_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nc-p2p-pfnpeer_free_security_data">PFNPEER_FREE_SECURITY_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/454b40f6-a7de-4b59-ae35-a809c4510133">PFNPEER_SECURE_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nc-p2p-pfnpeer_secure_record">PFNPEER_SECURE_RECORD</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d81f09b-e46b-43e6-b0a8-ed7c236f2968">PFNPEER_VALIDATE_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nc-p2p-pfnpeer_validate_record">PFNPEER_VALIDATE_RECORD</a>
 
 
 
-<a href="https://msdn.microsoft.com/62e3ec57-378c-4322-9ad4-a40d98e03dab">PeerGraphCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphcreate">PeerGraphCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/a34656f1-3e29-4bcb-a8a7-0eed19368184">PeerGraphOpen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphopen">PeerGraphOpen</a>
  
 
  

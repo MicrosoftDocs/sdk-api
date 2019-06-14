@@ -59,12 +59,12 @@ Copies the current video frame to a DXGI surface or WIC bitmap.
 
 ### -param pDstSurf [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface of the destination surface. 
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the destination surface. 
 
 
 ### -param pSrc [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/c1dd42ca-64a0-4f30-82e1-eda3f4721526">MFVideoNormalizedRect</a> structure that specifies the source rectangle.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/evr/ns-evr-mfvideonormalizedrect">MFVideoNormalizedRect</a> structure that specifies the source rectangle.
 
 
 ### -param pDst [in]
@@ -74,7 +74,7 @@ A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> str
 
 ### -param pBorderClr [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/ce7ac174-9f00-42a4-9b48-ed86b406d83e">MFARGB</a> structure that specifies the border color. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfargb">MFARGB</a> structure that specifies the border color. 
 
 
 ## -returns
@@ -90,11 +90,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-In frame-server mode, call this method to blit the video frame to a DXGI or WIC surface. The application can call this method at any time after the Media Engine loads a video resource. Typically, however, the application calls <a href="https://msdn.microsoft.com/EC06D3D6-F103-4932-96C1-B55A59CD5E34">IMFMediaEngine::OnVideoStreamTick</a> first, to determine whether a new frame is available. If <b>OnVideoStreamTick</b> returns <b>S_OK</b>, the application then calls <b>TransferVideoFrame</b>.
+In frame-server mode, call this method to blit the video frame to a DXGI or WIC surface. The application can call this method at any time after the Media Engine loads a video resource. Typically, however, the application calls <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-onvideostreamtick">IMFMediaEngine::OnVideoStreamTick</a> first, to determine whether a new frame is available. If <b>OnVideoStreamTick</b> returns <b>S_OK</b>, the application then calls <b>TransferVideoFrame</b>.
 
 The Media Engine scales and letterboxes the video to fit the destination rectangle. It fills the letterbox area with the border color.
 
-For protected content, call the <a href="https://msdn.microsoft.com/3A5C6908-65F4-4E7A-AD71-BBD1C2A4ACE3">IMFMediaEngineProtectedContent::TransferVideoFrame</a> method instead of this method.
+For protected content, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineprotectedcontent-transfervideoframe">IMFMediaEngineProtectedContent::TransferVideoFrame</a> method instead of this method.
 
 
 
@@ -104,7 +104,7 @@ For protected content, call the <a href="https://msdn.microsoft.com/3A5C6908-65F
 
 
 
-<a href="https://msdn.microsoft.com/A0023F18-2D28-4F0D-9B00-B8FB11567034">IMFMediaEngine</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
  
 
  

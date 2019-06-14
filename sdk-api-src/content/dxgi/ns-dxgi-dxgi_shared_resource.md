@@ -59,7 +59,7 @@ Represents a handle to a shared resource.
 
 ### -field Handle
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HANDLE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HANDLE</a></b>
 
 A handle to a shared resource.
 
@@ -68,7 +68,7 @@ A handle to a shared resource.
 
 
 
-To create a shared surface, pass a shared-resource handle into the <a href="https://msdn.microsoft.com/en-us/library/Bb174530(v=VS.85).aspx">IDXGIDevice::CreateSurface</a> method.
+To create a shared surface, pass a shared-resource handle into the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgidevice-createsurface">IDXGIDevice::CreateSurface</a> method.
 
 
 
@@ -78,7 +78,7 @@ To create a shared surface, pass a shared-resource handle into the <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/22e98880-bcd1-448a-9223-604fff9173fe">DXGI Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-structures">DXGI Structures</a>
  
 
  

@@ -59,7 +59,7 @@ A <b>DNS_ADDR</b> structure stores an IPv4 or IPv6 address.
 
 ### -field MaxSa
 
-A value that contains the socket IP address. It is a <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr_in</a> structure if the address is IPv4 and a sockaddr_in6 structure if the address is IPv6.
+A value that contains the socket IP address. It is a <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr_in</a> structure if the address is IPv4 and a sockaddr_in6 structure if the address is IPv6.
 
 
 ### -field DnsAddrUserDword
@@ -72,11 +72,11 @@ Reserved. Must be 0.
 
 
 
-<a href="https://msdn.microsoft.com/5FD7F28B-D1A6-4731-ACB9-A7BB23CC1FB4">DNS_ADDR_ARRAY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsaddrarray">DNS_ADDR_ARRAY</a>
 
 
 
-<a href="https://msdn.microsoft.com/03EB1DC2-FAB0-45C5-B438-E8FFDD218F09">DNS_QUERY_RESULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dns_query_result">DNS_QUERY_RESULT</a>
  
 
  

@@ -63,7 +63,7 @@ This property is read/write.
 
 
 
-PLA uses the file name only if you include the <b>plaCreateReport</b> value of the <a href="https://msdn.microsoft.com/e647987d-e524-475e-a355-539cb3f04635">DataManagerSteps</a> enumeration in the <i>Steps</i> parameter of the <a href="https://msdn.microsoft.com/a1016784-8841-485f-885e-3719bdb0ae05">IDataManager::Run</a> method and if the data collection set contains trace data collectors.
+PLA uses the file name only if you include the <b>plaCreateReport</b> value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/ne-pla-__midl___midl_itf_pla_0001_0043_0011">DataManagerSteps</a> enumeration in the <i>Steps</i> parameter of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-run">IDataManager::Run</a> method and if the data collection set contains trace data collectors.
 
 
 
@@ -73,7 +73,7 @@ PLA uses the file name only if you include the <b>plaCreateReport</b> value of t
 
 
 
-<a href="https://msdn.microsoft.com/a153d88f-4c7e-45fd-9cd8-497160711de4">IDataManager</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatamanager">IDataManager</a>
  
 
  

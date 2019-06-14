@@ -122,7 +122,7 @@ Returns S_OK if successful, or a COM error value otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/b765c9dd-20e9-428f-877a-aff4fac44664">IACList2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iaclist2">IACList2</a>
  
 
  

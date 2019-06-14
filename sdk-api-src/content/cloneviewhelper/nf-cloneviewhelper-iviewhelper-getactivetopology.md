@@ -161,7 +161,7 @@ The array that was passed in the <i>pulTargetID</i> parameter cannot hold all of
 
 
 
-<b>GetActiveTopology</b> is used to record the configuration that TMM will subsequently use in a call to the <a href="https://msdn.microsoft.com/a4a9d98c-834b-4578-9ba3-7c7295989a84">IViewHelper::SetActiveTopology</a> method to restore the configuration. 
+<b>GetActiveTopology</b> is used to record the configuration that TMM will subsequently use in a call to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff568174(v=vs.85)">IViewHelper::SetActiveTopology</a> method to restore the configuration. 
 
 For a given source identifier and adapter name, TMM calls <b>GetActiveTopology</b> twice. In the first call to <b>GetActiveTopology</b> , the <i>pulTargetID</i> parameter is set to <b>NULL</b>, and the number of entries in the array of active target identifiers is retrieved in the variable that the <i>pulCount</i> parameter points to. In the second call to <b>GetActiveTopology</b>, the number of entries that was retrieved in the first call is passed in the variable that <i>pulCount</i> points to, and an allocated array is passed to <i>pulTargetID</i>. This allocated array receives the identifiers of the active targets. 
 
@@ -175,7 +175,7 @@ TMM calls <b>GetActiveTopology</b> to record the display configuration that TMM 
 
 
 
-<a href="https://msdn.microsoft.com/a4a9d98c-834b-4578-9ba3-7c7295989a84">IViewHelper::SetActiveTopology</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff568174(v=vs.85)">IViewHelper::SetActiveTopology</a>
  
 
  

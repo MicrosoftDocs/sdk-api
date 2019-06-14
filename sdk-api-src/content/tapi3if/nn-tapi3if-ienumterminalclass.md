@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>IEnumTerminalClass</b> interface provides COM-standard enumeration methods to discover and use the dynamic terminal classes that are available. The 
-<a href="https://msdn.microsoft.com/1dcb9163-306b-42fc-afb4-41b33d7e2d40">ITTerminalSupport::EnumerateDynamicTerminalClasses</a> method returns a pointer to this interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-enumeratedynamicterminalclasses">ITTerminalSupport::EnumerateDynamicTerminalClasses</a> method returns a pointer to this interface.
 
 The 
 <b>IEnumTerminalClass</b> interface is hidden from Visual Basic and scripting languages.
@@ -59,7 +59,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumTerminalClass</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnumTerminalClass</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumTerminalClass</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumTerminalClass</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IEnumTerminalClass</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/60b4005f-25a8-4544-b2c9-0c12c3f93618">Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ienumterminalclass-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates another enumerator that contains the same enumeration state as the current one.
@@ -83,7 +83,7 @@ Creates another enumerator that contains the same enumeration state as the curre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/67ed4017-9cd2-4694-9853-c07bd4f81e0a">Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ienumterminalclass-next">Next</a>
 </td>
 <td align="left" width="63%">
 Gets the next specified number of elements in the enumeration sequence.
@@ -92,7 +92,7 @@ Gets the next specified number of elements in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dd61649e-d684-4774-bd23-91990e20729a">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ienumterminalclass-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets to the beginning of the enumeration sequence.
@@ -101,7 +101,7 @@ Resets to the beginning of the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5aebbc0d-212e-4789-bb8e-d180589235ec">Skip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ienumterminalclass-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over the next specified number of elements in the enumeration sequence.
@@ -116,7 +116,7 @@ Skips over the next specified number of elements in the enumeration sequence.
 
 
 
-<a href="https://msdn.microsoft.com/0d96f229-76c0-46a3-bc4b-6f558b9956c6">Terminal Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object">Terminal Object</a>
  
 
  

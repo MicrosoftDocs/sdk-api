@@ -62,7 +62,7 @@ Use the
 <b>IWbemClassObject::BeginMethodEnumeration</b> method call to begin an enumeration of the methods available for the object.
 
 This call is only supported if the current object is a CIM class definition. Method manipulation is not available from 
-<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> pointers which point to CIM instances. The order in which methods are enumerated is guaranteed to be invariant for a given instance of 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> pointers which point to CIM instances. The order in which methods are enumerated is guaranteed to be invariant for a given instance of 
 <b>IWbemClassObject</b>.
 
 
@@ -97,7 +97,7 @@ Only include methods that are inherited from parent classes.
 
 
 
-This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>. For general <b>HRESULT</b> values, see <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>. For general <b>HRESULT</b> values, see <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -107,11 +107,11 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 
 
 
-<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/4c11e043-518b-46f6-bb39-e80354ef2c8a">IWbemClassObject::NextMethod</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-nextmethod">IWbemClassObject::NextMethod</a>
  
 
  

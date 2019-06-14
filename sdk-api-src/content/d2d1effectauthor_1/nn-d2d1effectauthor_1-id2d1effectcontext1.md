@@ -54,7 +54,7 @@ Provides factory methods and other state management for effect and transform aut
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1EffectContext1</b> interface inherits from <a href="https://msdn.microsoft.com/6BE6DF90-C5B7-4377-9DBF-804AB1C91FEE">ID2D1EffectContext</a>. <b>ID2D1EffectContext1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1EffectContext1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectcontext">ID2D1EffectContext</a>. <b>ID2D1EffectContext1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1EffectContext1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/410D6785-944D-4A64-887A-0BD4511127DF">CreateLookupTable3D</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor_1/nf-d2d1effectauthor_1-id2d1effectcontext1-createlookuptable3d">CreateLookupTable3D</a>
 </td>
 <td align="left" width="63%">
 Creates a 3D lookup table for mapping a 3-channel input to a 3-channel output.
@@ -85,7 +85,7 @@ Creates a 3D lookup table for mapping a 3-channel input to a 3-channel output.
 
 
 
-<a href="https://msdn.microsoft.com/6BE6DF90-C5B7-4377-9DBF-804AB1C91FEE">ID2D1EffectContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectcontext">ID2D1EffectContext</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CM_Add_Res_Des</b> function adds a <a href="https://msdn.microsoft.com/004698f5-cb0e-4995-a19c-7075aa226000">resource descriptor</a> to a <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">logical configuration</a>.
+The <b>CM_Add_Res_Des</b> function adds a <a href="https://docs.microsoft.com/windows-hardware/drivers/">resource descriptor</a> to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a>.
 
 
 ## -parameters
@@ -67,27 +67,27 @@ Pointer to a location to receive a handle to the new resource descriptor.
 Caller-supplied handle to the logical configuration to which the resource descriptor should be added. This handle must have been previously obtained by calling one of the following functions:
 
 
-<a href="https://msdn.microsoft.com/9de0b04d-96be-4c93-b7af-09200fdcf807">CM_Add_Empty_Log_Conf</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_add_empty_log_conf">CM_Add_Empty_Log_Conf</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb34e5ec-4257-4c30-890a-40f669f1dfeb">CM_Add_Empty_Log_Conf_Ex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_add_empty_log_conf_ex">CM_Add_Empty_Log_Conf_Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/7ef14797-ea67-40cb-ad8d-e8c846ae1fd4">CM_Get_First_Log_Conf</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_first_log_conf">CM_Get_First_Log_Conf</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb562b5c-eb40-4be4-89a3-0e69a78ae6ea">CM_Get_First_Log_Conf_Ex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_first_log_conf_ex">CM_Get_First_Log_Conf_Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/fa256bda-a7ee-4583-a91b-e7c2ef39b3f2">CM_Get_Next_Log_Conf</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_next_log_conf">CM_Get_Next_Log_Conf</a>
 
 
 
-<a href="https://msdn.microsoft.com/590baeb8-9234-4895-a05b-1917b2ee0155">CM_Get_Next_Log_Conf_Ex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_next_log_conf_ex">CM_Get_Next_Log_Conf_Ex</a>
 
 
 
@@ -112,7 +112,7 @@ Caller-supplied pointer to one of the resource structures listed in the followin
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/8dbf5499-8e43-4db9-b0ec-6536f1c6121c">BUSNUMBER_RESOURCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource_s">BUSNUMBER_RESOURCE</a>
 
 
 </td>
@@ -124,7 +124,7 @@ Caller-supplied pointer to one of the resource structures listed in the followin
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/471112ab-8f3b-4bfe-b456-68fea933a31f">CS_RESOURCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-cs_resource_s">CS_RESOURCE</a>
 
 
 </td>
@@ -136,7 +136,7 @@ Caller-supplied pointer to one of the resource structures listed in the followin
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/842d9092-f7b6-4111-88d9-64a580007295">DEVPRIVATE_RESOURCE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/install/devprivate-resource">DEVPRIVATE_RESOURCE</a>
 
 
 </td>
@@ -148,7 +148,7 @@ Caller-supplied pointer to one of the resource structures listed in the followin
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/226a5ca1-10e1-47a7-8bd9-b153a0784ccb">DMA_RESOURCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_resource_s">DMA_RESOURCE</a>
 
 
 </td>
@@ -160,7 +160,7 @@ Caller-supplied pointer to one of the resource structures listed in the followin
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/d18a1f92-b76c-4240-9a0e-7474c258436c">IO_RESOURCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_resource_s">IO_RESOURCE</a>
 
 
 </td>
@@ -172,7 +172,7 @@ Caller-supplied pointer to one of the resource structures listed in the followin
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/448298d1-2583-47d5-b393-e6c8e59da64e">IRQ_RESOURCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_resource_32_s">IRQ_RESOURCE</a>
 
 
 </td>
@@ -184,7 +184,7 @@ Caller-supplied pointer to one of the resource structures listed in the followin
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/42ecd736-abd3-4ac8-82bb-6bb69af1d96d">MEM_RESOURCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_resource_s">MEM_RESOURCE</a>
 
 
 </td>
@@ -196,7 +196,7 @@ Caller-supplied pointer to one of the resource structures listed in the followin
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/26dbefb6-bc5c-4060-902d-3fd1adf833cb">MFCARD_RESOURCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mfcard_resource_s">MFCARD_RESOURCE</a>
 
 
 </td>
@@ -208,7 +208,7 @@ Caller-supplied pointer to one of the resource structures listed in the followin
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/41f88d8f-2e1d-447d-90e2-6a2a5f7bef6f">PCCARD_RESOURCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-pccard_resource_s">PCCARD_RESOURCE</a>
 
 
 </td>
@@ -242,7 +242,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-Callers of <b>CM_Add_Res_Des</b> must call <a href="https://msdn.microsoft.com/4a585d64-fd00-47a8-8ada-7e343beb829d">CM_Free_Res_Des_Handle</a> to deallocate the resource descriptor handle, after it is no longer needed.
+Callers of <b>CM_Add_Res_Des</b> must call <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_free_res_des_handle">CM_Free_Res_Des_Handle</a> to deallocate the resource descriptor handle, after it is no longer needed.
 
 Callers of this function must have <b>SeLoadDriverPrivilege</b>. (Privileges are described in the Microsoft Windows SDK documentation.)
 
@@ -254,11 +254,11 @@ Callers of this function must have <b>SeLoadDriverPrivilege</b>. (Privileges are
 
 
 
-<a href="https://msdn.microsoft.com/f19996ae-f243-4e8c-b200-7d11c06490c9">CM_Add_Res_Des_Ex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_add_res_des_ex">CM_Add_Res_Des_Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/4a585d64-fd00-47a8-8ada-7e343beb829d">CM_Free_Res_Des_Handle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_free_res_des_handle">CM_Free_Res_Des_Handle</a>
  
 
  

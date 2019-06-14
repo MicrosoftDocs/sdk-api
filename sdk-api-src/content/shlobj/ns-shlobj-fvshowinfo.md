@@ -75,7 +75,7 @@ A window handle to the owner of the window where the file will be displayed.
 
 Type: <b>int</b>
 
-The show command for the window. This parameter is one of the <b>SW_</b> values detailed in <a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a>.
+The show command for the window. This parameter is one of the <b>SW_</b> values detailed in <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a>.
 
 
 ### -field dwFlags
@@ -124,9 +124,9 @@ The <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that
 
 ### -field punkRel
 
-Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-The address of an interface that has its <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a> method called by a new file viewer to release the previous file viewer. This member is used when a drag-and-drop operation drops a file on the file viewer's window.
+The address of an interface that has its <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> method called by a new file viewer to release the previous file viewer. This member is used when a drag-and-drop operation drops a file on the file viewer's window.
 
 
 ### -field strNewFile

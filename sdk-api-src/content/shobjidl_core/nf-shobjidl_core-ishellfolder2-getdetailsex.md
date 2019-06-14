@@ -61,21 +61,21 @@ Gets detailed information, identified by a property set identifier (FMTID) and a
 
 Type: <b>PCUITEMID_CHILD</b>
 
-A PIDL of the item, relative to the parent folder. This method accepts only single-level PIDLs. The structure must contain exactly one <a href="https://msdn.microsoft.com/794c8425-2319-4339-881c-c5083ab05638">SHITEMID</a> structure followed by a terminating zero. This value cannot be <b>NULL</b>.
+A PIDL of the item, relative to the parent folder. This method accepts only single-level PIDLs. The structure must contain exactly one <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a> structure followed by a terminating zero. This value cannot be <b>NULL</b>.
 
 
 ### -param pscid [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/bf7b0e3b-527a-4ef5-894a-a7e1b7750e72">SHCOLUMNID</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/shell/objects">SHCOLUMNID</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/bf7b0e3b-527a-4ef5-894a-a7e1b7750e72">SHCOLUMNID</a> structure that identifies the column.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/shell/objects">SHCOLUMNID</a> structure that identifies the column.
 
 
 ### -param pv [out]
 
 Type: <b>VARIANT*</b>
 
-A pointer to a <b>VARIANT</b> with the requested information. The value is fully typed. The value returned for properties from the property system must conform to the type specified in that property definition's <a href="https://msdn.microsoft.com/ae1f8835-ef6c-42bb-b44f-ad374337a012">typeInfo</a> as the <i>legacyType</i> attribute.
+A pointer to a <b>VARIANT</b> with the requested information. The value is fully typed. The value returned for properties from the property system must conform to the type specified in that property definition's <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> as the <i>legacyType</i> attribute.
 
 
 ## -returns
@@ -93,7 +93,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This function is a more robust version of <a href="https://msdn.microsoft.com/bd9e8b6c-ed70-455e-8316-ac0868493802">IShellFolder2::GetDetailsOf</a>. It provides access to the information that is displayed in the Windows Explorer Details view of a Shell folder. The primary difference is that <b>GetDetailsEx</b> allows you to identify the column with an <a href="https://msdn.microsoft.com/bf7b0e3b-527a-4ef5-894a-a7e1b7750e72">FMTID</a> and PID structure instead of having to first determine the column index.
+This function is a more robust version of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder2-getdetailsof">IShellFolder2::GetDetailsOf</a>. It provides access to the information that is displayed in the Windows Explorer Details view of a Shell folder. The primary difference is that <b>GetDetailsEx</b> allows you to identify the column with an <a href="https://docs.microsoft.com/windows/desktop/shell/objects">FMTID</a> and PID structure instead of having to first determine the column index.
 
 
 

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>VMR9SurfaceAllocationFlags</b> enumeration type is used with the <a href="https://msdn.microsoft.com/en-us/library/Dd390503(v=VS.85).aspx">IVMRSurfaceAllocator9::InitializeDevice</a> method to specify surface creation parameters (VMR-9 only).
+The <b>VMR9SurfaceAllocationFlags</b> enumeration type is used with the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrsurfaceallocator9-initializedevice">IVMRSurfaceAllocator9::InitializeDevice</a> method to specify surface creation parameters (VMR-9 only).
 
 
 
@@ -109,7 +109,7 @@ The VMR9AllocFlag_TextureSurface flag can be combined with the VMR9AllocFlag_DXV
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
  
 
  

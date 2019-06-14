@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 A security binding constraint that corresponds to the
-                <a href="https://msdn.microsoft.com/en-us/library/Dd323497(v=VS.85).aspx">WS_USERNAME_MESSAGE_SECURITY_BINDING</a>.
+                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_username_message_security_binding">WS_USERNAME_MESSAGE_SECURITY_BINDING</a>.
             
 
 

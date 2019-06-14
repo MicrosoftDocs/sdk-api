@@ -59,7 +59,7 @@ Gets the minimum quality level that is supported by the component.
 
 ### -param peQualityLevel [out]
 
-Receives the minimum quality level, specified as a member of the <a href="https://msdn.microsoft.com/6fe5abbb-c079-4d74-9c75-6fb502054546">MF_QUALITY_LEVEL</a> enumeration.
+Receives the minimum quality level, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-_mf_quality_level">MF_QUALITY_LEVEL</a> enumeration.
 
 
 ## -returns
@@ -75,7 +75,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To get the current quality level, call the <a href="https://msdn.microsoft.com/9a2b501e-543d-4ba0-86a1-a55e7d136685">IMFQualityAdvise::GetQualityLevel</a> method. To set the quality level, call the <a href="https://msdn.microsoft.com/f788fd7d-65fc-4917-8d5d-cfaf35a013e7">IMFQualityAdvise::SetQualityLevel</a> method.
+To get the current quality level, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfqualityadvise-getqualitylevel">IMFQualityAdvise::GetQualityLevel</a> method. To set the quality level, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfqualityadvise-setqualitylevel">IMFQualityAdvise::SetQualityLevel</a> method.
 
 
 
@@ -85,7 +85,7 @@ To get the current quality level, call the <a href="https://msdn.microsoft.com/9
 
 
 
-<a href="https://msdn.microsoft.com/8ef7088c-2f49-4be9-b719-481616e1737d">IMFQualityAdviseLimits</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfqualityadviselimits">IMFQualityAdviseLimits</a>
  
 
  

@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-Contains pointers to all <a href="https://msdn.microsoft.com/764a35dd-a681-4af0-8e2c-281a254a3a30">Resource API</a> version 4.0 entry 
-    points, except <a href="https://msdn.microsoft.com/7C669EDC-B7A1-4623-91A9-5D8C5949B50A">StartupEx</a>.
+Contains pointers to all <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-api">Resource API</a> version 4.0 entry 
+    points, except <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pstartup_ex_routine">StartupEx</a>.
 
 
 ## -struct-fields
@@ -60,74 +60,74 @@ Contains pointers to all <a href="https://msdn.microsoft.com/764a35dd-a681-4af0-
 
 ### -field Open
 
-Pointer to the <a href="https://msdn.microsoft.com/EA798D15-9458-4F66-8D0E-13DA383552F7">OpenV2</a> entry point.
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-popen_v2_routine">OpenV2</a> entry point.
 
 
 ### -field Close
 
-Pointer to the <a href="https://msdn.microsoft.com/c7c74440-c98a-4440-8bf4-10ebd1a68608">Close</a> entry point.
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pclose_routine">Close</a> entry point.
 
 
 ### -field Online
 
-Pointer to the <a href="https://msdn.microsoft.com/0462CDFD-6499-4FF8-8B5C-4DC15AC30169">OnlineV2</a> entry point.
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_v2_routine">OnlineV2</a> entry point.
 
 
 ### -field Offline
 
-Pointer to the <a href="https://msdn.microsoft.com/2983B328-08ED-4DA6-8DC2-79D44C710888">OfflineV2</a> entry point.
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_v2_routine">OfflineV2</a> entry point.
 
 
 ### -field Terminate
 
-Pointer to the <a href="https://msdn.microsoft.com/b53ab7db-ed17-4386-8a5f-5d0b0d1cb1b3">Terminate</a> entry point.
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pterminate_routine">Terminate</a> entry point.
 
 
 ### -field LooksAlive
 
-Pointer to the <a href="https://msdn.microsoft.com/cfc57325-847d-4f59-bee8-6a02b0a2ef32">LooksAlive</a> entry point.
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-plooks_alive_routine">LooksAlive</a> entry point.
 
 
 ### -field IsAlive
 
-Pointer to the <a href="https://msdn.microsoft.com/ff7661af-0a24-4a2e-bb31-c967845a4ff4">IsAlive</a> entry point.
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pis_alive_routine">IsAlive</a> entry point.
 
 
 ### -field Arbitrate
 
-Pointer to the <a href="https://msdn.microsoft.com/dc16b785-bbb1-4917-a826-e49445a86c26">Arbitrate</a> entry point.
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-parbitrate_routine">Arbitrate</a> entry point.
 
 
 ### -field Release
 
-Pointer to the <a href="https://msdn.microsoft.com/9e8e4557-b223-4f8f-9393-67f589181754">Release</a> entry point.
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-prelease_routine">Release</a> entry point.
 
 
 ### -field BeginResourceControl
 
-Pointer to the <a href="https://msdn.microsoft.com/1B95607F-658A-469D-8935-DF7E537D1509">BeginResourceControl</a> entry 
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pbegin_rescall_routine">BeginResourceControl</a> entry 
       point.
 
 
 ### -field BeginResourceTypeControl
 
-Pointer to the <a href="https://msdn.microsoft.com/9D5D5ADB-9707-4690-9B91-CC99F68DE2A8">BeginResourceTypeControl</a> entry 
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pbegin_restypecall_routine">BeginResourceTypeControl</a> entry 
       point.
 
 
 ### -field Cancel
 
-Pointer to the <a href="https://msdn.microsoft.com/F2A22C00-5B25-48F7-BB25-9C351A47B770">Cancel</a> entry point.
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pcancel_routine">Cancel</a> entry point.
 
 
 ### -field BeginResourceControlAsUser
 
-Pointer to the <a href="https://msdn.microsoft.com/58F065C6-0AE1-481D-ADA0-CF2907CB45DC">BeginResourceControlAsUser</a> entry point.
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pbegin_rescall_as_user_routine">BeginResourceControlAsUser</a> entry point.
 
 
 ### -field BeginResourceTypeControlAsUser
 
-Pointer to the <a href="https://msdn.microsoft.com/0A95F509-0B07-4E6C-B200-FCF11A0A95F0">BeginResourceTypeControlAsUser</a> entry point.
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pbegin_restypecall_as_user_routine">BeginResourceTypeControlAsUser</a> entry point.
 
 
 ## -see-also
@@ -135,7 +135,7 @@ Pointer to the <a href="https://msdn.microsoft.com/0A95F509-0B07-4E6C-B200-FCF11
 
 
 
-<a href="https://msdn.microsoft.com/9ab4b974-28b5-4f33-a7c4-b9b2472059aa">Resource DLL Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-structures">Resource DLL Structures</a>
  
 
  

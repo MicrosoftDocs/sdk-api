@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-The <b>mmioSeek</b> function changes the current file position in a file opened by using the <a href="https://msdn.microsoft.com/7361f0f2-1c3c-49f1-aec1-2927e05ef0f0">mmioOpen</a> function.
+The <b>mmioSeek</b> function changes the current file position in a file opened by using the <a href="https://docs.microsoft.com/previous-versions//dd757331(v=vs.85)">mmioOpen</a> function.
 
 
 

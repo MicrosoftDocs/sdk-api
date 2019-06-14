@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 The <b>ImageLockMode</b> enumeration specifies flags that are passed to the 
 			<i>flags</i> parameter of the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms536298(v=VS.85).aspx">Bitmap::LockBits</a> method. The <b>Bitmap::LockBits</b> method locks a portion of an image so that you can read or write the pixel data.
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-lockbits">Bitmap::LockBits</a> method. The <b>Bitmap::LockBits</b> method locks a portion of an image so that you can read or write the pixel data.
 
 
 ## -enum-fields
@@ -74,7 +74,7 @@ Specifies that a portion of the image is locked for writing.
 
 Specifies that the buffer used for reading or writing pixel data is allocated by the user. If this flag is set, then the 
 				<i>lockedBitmapData</i> parameter of the 
-				<a href="https://msdn.microsoft.com/en-us/library/ms536298(v=VS.85).aspx">Bitmap::LockBits</a> method serves as an input parameter (and possibly as an output parameter). If this flag is cleared, then the 
+				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-lockbits">Bitmap::LockBits</a> method serves as an input parameter (and possibly as an output parameter). If this flag is cleared, then the 
 				<i>lockedBitmapData</i> parameter serves only as an output parameter. 
 
 
@@ -83,7 +83,7 @@ Specifies that the buffer used for reading or writing pixel data is allocated by
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536298(v=VS.85).aspx">Bitmap::LockBits</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-lockbits">Bitmap::LockBits</a>
  
 
  

@@ -54,7 +54,7 @@ Manages the configuration of a WDS transport server.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWdsTransportConfigurationManager</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IWdsTransportConfigurationManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWdsTransportConfigurationManager</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWdsTransportConfigurationManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IWdsTransportConfigurationManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/46ded55b-f371-405a-bfcd-c361ac6fb5bd">DisableWdsTransportServices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportconfigurationmanager-disablewdstransportservices">DisableWdsTransportServices</a>
 </td>
 <td align="left" width="63%">
 Sets all WDS transport services to Disabled mode.
@@ -79,7 +79,7 @@ Sets all WDS transport services to Disabled mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/30f4ff61-8e92-4d1b-8243-e5cc9d64da40">EnableWdsTransportServices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportconfigurationmanager-enablewdstransportservices">EnableWdsTransportServices</a>
 </td>
 <td align="left" width="63%">
 Sets all WDS transport services to Auto-Start mode.
@@ -88,7 +88,7 @@ Sets all WDS transport services to Auto-Start mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0ca38fe9-fc18-41f1-bd4b-5e3e84e496d0">NotifyWdsTransportServices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportconfigurationmanager-notifywdstransportservices">NotifyWdsTransportServices</a>
 </td>
 <td align="left" width="63%">
 Sends a notification to WDS transport services.
@@ -97,7 +97,7 @@ Sends a notification to WDS transport services.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f0aa84fa-f2a6-4494-8994-89854565fd7b">RestartWdsTransportServices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportconfigurationmanager-restartwdstransportservices">RestartWdsTransportServices</a>
 </td>
 <td align="left" width="63%">
 Stops and then restarts any WDS transport services that are running.
@@ -106,7 +106,7 @@ Stops and then restarts any WDS transport services that are running.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7612335a-4d81-4ec5-a348-93adefb0cced">StartWdsTransportServices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportconfigurationmanager-startwdstransportservices">StartWdsTransportServices</a>
 </td>
 <td align="left" width="63%">
 Starts all WDS transport services.
@@ -115,7 +115,7 @@ Starts all WDS transport services.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/510dff2a-a459-4694-9c68-802d703ff716">StopWdsTransportServices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportconfigurationmanager-stopwdstransportservices">StopWdsTransportServices</a>
 </td>
 <td align="left" width="63%">
 Stops all WDS transport services.
@@ -133,7 +133,7 @@ Stops all WDS transport services.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/80a84495-724c-4198-8262-dcf8cabce3f0">DiagnosticsPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportconfigurationmanager-get_diagnosticspolicy">DiagnosticsPolicy</a>
 
 
 </td>
@@ -149,7 +149,7 @@ Receives an interface pointer to the Configuration Manager's Diagnostics Policy 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/3ee3abe8-3ac4-409c-b994-023b0c4c6f72">ServicePolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportconfigurationmanager-get_servicepolicy">ServicePolicy</a>
 
 
 </td>
@@ -165,7 +165,7 @@ Receives an interface pointer to the Configuration Manager's Service Policy obje
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/0296a818-1a5f-494c-869a-a124fc75cb85">WdsTransportServicesRunning</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportconfigurationmanager-get_wdstransportservicesrunning">WdsTransportServicesRunning</a>
 
 
 </td>

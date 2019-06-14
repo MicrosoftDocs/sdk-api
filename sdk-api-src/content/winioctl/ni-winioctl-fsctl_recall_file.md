@@ -51,7 +51,7 @@ req.redist:
 Recalls a file from storage media that Remote Storage manages, which is the hierarchical storage management software.
 
 To recall a file, call the 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -145,21 +145,21 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 <b>FSCTL_RECALL_FILE</b> recovers a file from storage, for example,  a tape that is managed by Remote Storage. If the file is already cached locally, this operation does nothing. Similarly, if the file has not been moved to remote storage, this operation does nothing.
 
-<b>FSCTL_RECALL_FILE</b> operates only on systems where Remote Storage is installed. If Remote Storage is not installed, the operation fails and <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns the error code <b>ERROR_INVALID_FUNCTION</b>.
+<b>FSCTL_RECALL_FILE</b> operates only on systems where Remote Storage is installed. If Remote Storage is not installed, the operation fails and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns the error code <b>ERROR_INVALID_FUNCTION</b>.
 
 Directories cannot be moved to remote storage. Calling 
-<b>FSCTL_RECALL_FILE</b> for a directory fails, and <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns the error code <b>ERROR_INVALID_HANDLE</b>.
+<b>FSCTL_RECALL_FILE</b> for a directory fails, and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns the error code <b>ERROR_INVALID_HANDLE</b>.
 
 Typically, files that are stored on media that is managed by Remote Storage are recalled when an application attempts to make the first access to data. An application that opens a file without immediately accessing the data can speed up the first access by using 
 <b>FSCTL_RECALL_FILE</b> immediately after opening the file. However, avoid indiscriminate recall of files that an application does not touch.
 
 Before you call 
 <b>FSCTL_RECALL_FILE</b> you do not need to test a file's attributes for the flag <b>FILE_ATTRIBUTE_OFFLINE</b> with the function 
-<a href="https://msdn.microsoft.com/9f9bcdbb-1ffd-49c2-92f4-181fdcc9c690">GetFileAttributes</a>. The test is unnecessary because an online file is not affected by this operation. However, any operating system call takes processor time. To conserve processor time, call 
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>. The test is unnecessary because an online file is not affected by this operation. However, any operating system call takes processor time. To conserve processor time, call 
 <b>GetFileAttributes</b> to check file attributes to determine if 
 <b>FSCTL_RECALL_FILE</b> is necessary.
 
-For the implications of overlapped I/O on this operation, see the Remarks section of the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> topic.
+For the implications of overlapped I/O on this operation, see the Remarks section of the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> topic.
 
 In Windows 8 and Windows Server 2012, this code is supported by the following technologies.
 
@@ -315,23 +315,23 @@ Return Value
 
 
 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/e27ded4b-d104-4244-b38e-5fed10d32e1e">File Management Control Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-control-codes">File Management Control Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/9f9bcdbb-1ffd-49c2-92f4-181fdcc9c690">GetFileAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
  
 
  

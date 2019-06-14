@@ -60,12 +60,12 @@ The <b>HttpQueryRequestQueueProperty</b> function queries a property of the requ
 ### -param RequestQueueProperty [in]
 
 The handle to the request queue for which the property setting is returned. A request queue is created and its handle returned by a call to the 
-<a href="https://msdn.microsoft.com/a0f4112e-db81-4eda-afeb-d00117f7240c">HttpCreateRequestQueue</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a> function.
 
 
 ### -param Property [in]
 
-A member of the  <a href="https://msdn.microsoft.com/14865796-135c-43c2-955a-fdeae05a8278">HTTP_SERVER_PROPERTY</a> enumeration that describes the property type that is set. This can be one of the following:
+A member of the  <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_server_property">HTTP_SERVER_PROPERTY</a> enumeration that describes the property type that is set. This can be one of the following:
 
 <table>
 <tr>
@@ -118,7 +118,7 @@ A pointer to the buffer that receives the property information.
 <tr>
 <td>HttpServerStateProperty</td>
 <td>
-<a href="https://msdn.microsoft.com/15e27788-2d1a-4818-b31f-2faf649e15b2">HTTP_ENABLED_STATE</a> (enumeration member)</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_enabled_state">HTTP_ENABLED_STATE</a> (enumeration member)</td>
 </tr>
 <tr>
 <td>HttpServerQueueLengthProperty</td>
@@ -127,7 +127,7 @@ A pointer to the buffer that receives the property information.
 <tr>
 <td>HttpServer503VerbosityProperty</td>
 <td>
-<a href="https://msdn.microsoft.com/e103bdf4-dc48-45ba-84dc-4161310ee3ff">HTTP_503_RESPONSE_VERBOSITY</a> (enumeration member)</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_503_response_verbosity">HTTP_503_RESPONSE_VERBOSITY</a> (enumeration member)</td>
 </tr>
 </table>
  
@@ -222,23 +222,23 @@ The handle to the request queue is an HTTP version 1.0 handle. Property manageme
 
 
 
-<a href="https://msdn.microsoft.com/12daffca-b403-4f06-8037-206f90e33252">HTTP Server API Version 2.0 Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/dfbc2d32-c1f6-41b1-8f4f-9e5e9f6dd9e1">HttpCloseRequestQueue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcloserequestqueue">HttpCloseRequestQueue</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0f4112e-db81-4eda-afeb-d00117f7240c">HttpCreateRequestQueue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a>
 
 
 
-<a href="https://msdn.microsoft.com/56111cc0-94c8-47dc-a3bb-ffc5dae772fe">HttpSetRequestQueueProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetrequestqueueproperty">HttpSetRequestQueueProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/f6640565-a5a1-4a71-938c-1adf54beb40a">HttpShutdownRequestQueue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpshutdownrequestqueue">HttpShutdownRequestQueue</a>
  
 
  

@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/a7741740-9524-caf0-650b-56808abcf328">IDWriteTextLayout3</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritetextlayout3">IDWriteTextLayout3</a>
  
 
  

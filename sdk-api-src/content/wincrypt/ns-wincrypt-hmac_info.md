@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>HMAC_INFO</b> structure specifies the <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> algorithm and the inner and outer strings that are to be used to calculate the <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">HMAC</a> hash.
+The <b>HMAC_INFO</b> structure specifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> algorithm and the inner and outer strings that are to be used to calculate the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">HMAC</a> hash.
 
 
 ## -struct-fields
@@ -87,15 +87,15 @@ The count of bytes in <b>pbOuterString</b>. The CSP uses the default outer strin
 
 
 
-<a href="https://msdn.microsoft.com/557436b4-f7f1-4708-acc7-c6b47e6322ad">ALG_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/05e3db57-8d83-48e2-8590-68039ea27253">CryptCreateHash</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>
 
 
 
-<a href="https://msdn.microsoft.com/0c8d3ef9-e7b5-4e49-a2f8-9c85b16549da">CryptSetHashParam</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsethashparam">CryptSetHashParam</a>
  
 
  

@@ -51,18 +51,18 @@ ms.custom: 19H1
 
 
 
-The <b>IMediaEventEx</b> interface inherits the <a href="https://msdn.microsoft.com/en-us/library/Dd406896(v=VS.85).aspx">IMediaEvent</a> interface, which contains methods for retrieving event notifications and for overriding the filter graph's default handling of events. <b>IMediaEventEx</b> adds methods that enable an application window to receive messages when events occur. 
+The <b>IMediaEventEx</b> interface inherits the <a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediaevent">IMediaEvent</a> interface, which contains methods for retrieving event notifications and for overriding the filter graph's default handling of events. <b>IMediaEventEx</b> adds methods that enable an application window to receive messages when events occur. 
 
 The Filter Graph Manager implements this interface.
 
-For more information about event notification, see <a href="https://msdn.microsoft.com/301116a5-24e3-4c6d-8c80-bec77c7d62d7">Event Notification in DirectShow</a>. For a list of system-defined event notifications, see <a href="https://msdn.microsoft.com/339ffcd9-7724-4c92-b241-afbed81d9380">Event Notification Codes</a>.
+For more information about event notification, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/event-notification-in-directshow">Event Notification in DirectShow</a>. For a list of system-defined event notifications, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/event-notification-codes">Event Notification Codes</a>.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaEventEx</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd406896(v=VS.85).aspx">IMediaEvent</a>. <b>IMediaEventEx</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaEventEx</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediaevent">IMediaEvent</a>. <b>IMediaEventEx</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IMediaEventEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406898(v=VS.85).aspx">GetNotifyFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediaeventex-getnotifyflags">GetNotifyFlags</a>
 </td>
 <td align="left" width="63%">
 Determines whether event notifications are enabled.
@@ -86,7 +86,7 @@ Determines whether event notifications are enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406899(v=VS.85).aspx">SetNotifyFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediaeventex-setnotifyflags">SetNotifyFlags</a>
 </td>
 <td align="left" width="63%">
 Enables or disables event notifications.
@@ -95,7 +95,7 @@ Enables or disables event notifications.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406900(v=VS.85).aspx">SetNotifyWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediaeventex-setnotifywindow">SetNotifyWindow</a>
 </td>
 <td align="left" width="63%">
 Registers a window to process event notifications.
@@ -110,7 +110,7 @@ Registers a window to process event notifications.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406896(v=VS.85).aspx">IMediaEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediaevent">IMediaEvent</a>
  
 
  

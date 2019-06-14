@@ -66,7 +66,7 @@ ms.custom: 19H1
 
 Determines the location of a resource with the specified type and name in the specified module.
 
-To specify a language, use the <a href="https://msdn.microsoft.com/en-us/library/ms648043(v=VS.85).aspx">FindResourceEx</a> function.
+To specify a language, use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findresourceexa">FindResourceEx</a> function.
 
 
 ## -parameters
@@ -85,14 +85,14 @@ A handle to the module whose portable executable file or an accompanying MUI fil
 
 Type: <b>LPCTSTR</b>
 
-The name of the resource. Alternately, rather than a pointer, this parameter can be <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a>(ID), where ID is the integer identifier of the resource. For more information, see the Remarks section below.
+The name of the resource. Alternately, rather than a pointer, this parameter can be <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>(ID), where ID is the integer identifier of the resource. For more information, see the Remarks section below.
 
 
 ### -param lpType [in]
 
 Type: <b>LPCTSTR</b>
 
-The resource type. Alternately, rather than a pointer, this parameter can be <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a>(ID), where ID is the integer identifier of the given 
+The resource type. Alternately, rather than a pointer, this parameter can be <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>(ID), where ID is the integer identifier of the given 
 
 resource type. For standard resource types, see <a href="/windows/desktop/menurc/resource-types">Resource Types</a>. For more information, see the Remarks section below.
 
@@ -103,9 +103,9 @@ resource type. For standard resource types, see <a href="/windows/desktop/menurc
 
 Type: <b>HRSRC</b>
 
-If the function succeeds, the return value is a handle to the specified resource's information block. To obtain a handle to the resource, pass this handle to the <a href="https://msdn.microsoft.com/en-us/library/ms648046(v=VS.85).aspx">LoadResource</a> function.
+If the function succeeds, the return value is a handle to the specified resource's information block. To obtain a handle to the resource, pass this handle to the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a> function.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -114,11 +114,11 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-If <a href="https://msdn.microsoft.com/en-us/library/ms648028(v=VS.85).aspx">IS_INTRESOURCE</a> is <b>TRUE</b> for x = <i>lpName</i> or <i>lpType</i>, x specifies the integer identifier of the name or type of the given resource. Otherwise, those parameters are long pointers to null-terminated strings. If the first character of the string is a pound sign (#), the remaining characters represent a decimal number that specifies the integer identifier of the resource's name or type. For example, the string "#258" represents the integer identifier 258. 
+If <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-is_intresource">IS_INTRESOURCE</a> is <b>TRUE</b> for x = <i>lpName</i> or <i>lpType</i>, x specifies the integer identifier of the name or type of the given resource. Otherwise, those parameters are long pointers to null-terminated strings. If the first character of the string is a pound sign (#), the remaining characters represent a decimal number that specifies the integer identifier of the resource's name or type. For example, the string "#258" represents the integer identifier 258. 
 
 To reduce the amount of memory required for a resource, an application should refer to it by integer identifier instead of by name. 
 
-An application can use <b>FindResource</b> to find any type of resource, but this function should be used only if the application must access the binary resource data by making subsequent calls to <a href="https://msdn.microsoft.com/en-us/library/ms648046(v=VS.85).aspx">LoadResource</a> and then to <a href="https://msdn.microsoft.com/en-us/library/ms648047(v=VS.85).aspx">LockResource</a>. 
+An application can use <b>FindResource</b> to find any type of resource, but this function should be used only if the application must access the binary resource data by making subsequent calls to <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a> and then to <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-lockresource">LockResource</a>. 
 
 To use a resource immediately, an application should use one of the following resource-specific functions to find the resource and convert the data into a more usable form. 
 
@@ -129,57 +129,57 @@ To use a resource immediately, an application should use one of the following re
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 </td>
 <td>Loads and formats a message-table entry.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms646370(v=VS.85).aspx">LoadAccelerators</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadacceleratorsa">LoadAccelerators</a>
 </td>
 <td>Loads an accelerator table.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/5eed5f78-deaf-4b23-986e-4802dc05936c">LoadBitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadbitmapa">LoadBitmap</a>
 </td>
 <td>Loads a bitmap resource.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms648391(v=VS.85).aspx">LoadCursor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadcursora">LoadCursor</a>
 </td>
 <td>Loads a cursor resource.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms648072(v=VS.85).aspx">LoadIcon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a>
 </td>
 <td>Loads an icon resource.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms647990(v=VS.85).aspx">LoadMenu</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadmenua">LoadMenu</a>
 </td>
 <td>Loads a menu resource.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms647486(v=VS.85).aspx">LoadString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadstringa">LoadString</a>
 </td>
 <td>Loads a string-table entry.</td>
 </tr>
 </table>
  
 
-For example, an application can use the <a href="https://msdn.microsoft.com/en-us/library/ms648072(v=VS.85).aspx">LoadIcon</a> function to load an icon for display on the screen. However, the application should use <b>FindResource</b> and <a href="https://msdn.microsoft.com/en-us/library/ms648046(v=VS.85).aspx">LoadResource</a> if it is loading the icon to copy its data to another application. 
+For example, an application can use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a> function to load an icon for display on the screen. However, the application should use <b>FindResource</b> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a> if it is loading the icon to copy its data to another application. 
 
-String resources are stored in sections of up to 16 strings per section. The strings in each section are stored as a sequence of counted (not necessarily null-terminated) Unicode strings. The <a href="https://msdn.microsoft.com/en-us/library/ms647486(v=VS.85).aspx">LoadString</a> function will extract the string resource from its corresponding section. 
+String resources are stored in sections of up to 16 strings per section. The strings in each section are stored as a sequence of counted (not necessarily null-terminated) Unicode strings. The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadstringa">LoadString</a> function will extract the string resource from its corresponding section. 
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648008(v=VS.85).aspx">Updating Resources</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-resources">Updating Resources</a>.
 
 <div class="code"></div>
 
@@ -194,47 +194,47 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648008(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648043(v=VS.85).aspx">FindResourceEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findresourceexa">FindResourceEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648028(v=VS.85).aspx">IS_INTRESOURCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-is_intresource">IS_INTRESOURCE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646370(v=VS.85).aspx">LoadAccelerators</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadacceleratorsa">LoadAccelerators</a>
 
 
 
-<a href="https://msdn.microsoft.com/5eed5f78-deaf-4b23-986e-4802dc05936c">LoadBitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadbitmapa">LoadBitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648391(v=VS.85).aspx">LoadCursor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadcursora">LoadCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648072(v=VS.85).aspx">LoadIcon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647990(v=VS.85).aspx">LoadMenu</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadmenua">LoadMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648046(v=VS.85).aspx">LoadResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647486(v=VS.85).aspx">LoadString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadstringa">LoadString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648047(v=VS.85).aspx">LockResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-lockresource">LockResource</a>
 
 
 
@@ -246,11 +246,11 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648008(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632583(v=VS.85).aspx">Resources</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/resources">Resources</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648048(v=VS.85).aspx">SizeofResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-sizeofresource">SizeofResource</a>
  
 
  

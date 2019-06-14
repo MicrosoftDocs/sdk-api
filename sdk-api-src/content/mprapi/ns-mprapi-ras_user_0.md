@@ -135,24 +135,24 @@ Pointer to a Unicode string containing the phone number at which the RAS user sh
 
 
 
-<a href="https://msdn.microsoft.com/d04f6925-ac38-4adf-ac2e-701db5435c90">MprAdminUserGetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminusergetinfo">MprAdminUserGetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f4d5213-56b4-43d2-93c8-ee5ca50b2a19">MprAdminUserSetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminusersetinfo">MprAdminUserSetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/858fcdd8-6587-41c4-a2d7-c871722562e7">RAS
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-structures">RAS
 		  Administration Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/4699346e-0ed0-4091-a8d5-8a12cd6bfbcf">RAS_USER_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_user_1">RAS_USER_1</a>
 
 
 
-<a href="https://msdn.microsoft.com/6170fcf2-26d5-4418-bddb-2afd99510520">Remote Access Service Administration Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
  
 
  

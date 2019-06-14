@@ -110,15 +110,15 @@ If home media sharing is allowed for the computer and home media sharing is enab
 
 
 
-<a href="https://msdn.microsoft.com/bbec5687-3c77-4385-a9be-74c6d84db962">IWindowsMediaLibrarySharingServices</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nn-wmlss-iwindowsmedialibrarysharingservices">IWindowsMediaLibrarySharingServices</a>
 
 
 
-<a href="https://msdn.microsoft.com/6f56c825-0fdc-4414-aefa-83f8efee2150">IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingState</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nf-wmlss-iwindowsmedialibrarysharingservices-get_userhomemediasharingstate">IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingState</a>
 
 
 
-<a href="https://msdn.microsoft.com/f844f79e-ae6f-4f57-abec-2b6d5951961f">IWindowsMediaLibrarySharingServices::put_computerHomeMediaSharingStateAllowed</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nf-wmlss-iwindowsmedialibrarysharingservices-put_computerhomemediasharingallowedstate">IWindowsMediaLibrarySharingServices::put_computerHomeMediaSharingStateAllowed</a>
  
 
  

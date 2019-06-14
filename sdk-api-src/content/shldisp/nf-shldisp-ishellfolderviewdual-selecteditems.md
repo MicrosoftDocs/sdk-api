@@ -59,7 +59,7 @@ Gets a FolderItems object that represents all of the selected items in the view.
 
 ### -param ppid [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb787800(v=VS.85).aspx">FolderItems</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-folderitems">FolderItems</a>**</b>
 
 The FolderItems object.
 
@@ -80,15 +80,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/48135f9d-ee80-4dec-87dc-83f407c25777">IShellFolderViewDual</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual">IShellFolderViewDual</a>
 
 
 
-<a href="https://msdn.microsoft.com/f53b779e-a015-4b17-b04d-e0739cba8168">IShellFolderViewDual2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual2">IShellFolderViewDual2</a>
 
 
 
-<a href="https://msdn.microsoft.com/1aa70db8-4225-49de-8b8f-ec86b1aafa22">IShellFolderViewDual3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual3">IShellFolderViewDual3</a>
  
 
  

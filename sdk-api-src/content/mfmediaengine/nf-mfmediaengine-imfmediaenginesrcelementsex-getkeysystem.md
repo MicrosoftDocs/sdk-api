@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/f15cb527-0f46-4887-9e02-835f0115bc5b">IMFMediaEngineSrcElementsEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaenginesrcelementsex">IMFMediaEngineSrcElementsEx</a>
  
 
  

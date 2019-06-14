@@ -92,7 +92,7 @@ Ignored Words &gt; AutoCorrected Words &gt; Excluded Words &gt; Added Words &gt;
 
 
 
-<a href="https://msdn.microsoft.com/B1E3D0F9-8A6B-431F-A8AF-46D783E23FEF">ISpellCheckProvider::InitializeWordlist</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nf-spellcheckprovider-ispellcheckprovider-initializewordlist">ISpellCheckProvider::InitializeWordlist</a>
  
 
  

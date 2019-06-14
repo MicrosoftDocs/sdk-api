@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndGetPalette</b> macro retrieves a handle of the palette used by an MCI device. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/f8426344-0fee-4419-9d8a-dcee26cb4c28">MCIWNDM_GETPALETTE</a> message.
+The <b>MCIWndGetPalette</b> macro retrieves a handle of the palette used by an MCI device. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getpalette">MCIWNDM_GETPALETTE</a> message.
 
 
 
@@ -70,11 +70,11 @@ Handle of the MCIWnd window.
 
 
 
-<a href="https://msdn.microsoft.com/f8426344-0fee-4419-9d8a-dcee26cb4c28">MCIWNDM_GETPALETTE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getpalette">MCIWNDM_GETPALETTE</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb42fdcc-35c0-4099-97bf-a3c8c1e53047">MCIWndGetPalette</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-mciwndgetpalette">MCIWndGetPalette</a>
  
 
  

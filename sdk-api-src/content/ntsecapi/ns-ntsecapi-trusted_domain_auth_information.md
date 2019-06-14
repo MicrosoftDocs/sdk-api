@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>TRUSTED_DOMAIN_AUTH_INFORMATION</b> structure is used to retrieve authentication information for a trusted domain. The 
-<a href="https://msdn.microsoft.com/62925515-a6f3-4b5f-bf97-edb968af19a3">LsaQueryTrustedDomainInfo</a> function uses this structure when its <i>InformationClass</i> parameter is set to <b>TrustedDomainAuthInformation</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaquerytrusteddomaininfo">LsaQueryTrustedDomainInfo</a> function uses this structure when its <i>InformationClass</i> parameter is set to <b>TrustedDomainAuthInformation</b>.
 
 
 ## -struct-fields
@@ -66,12 +66,12 @@ Specifies the number of entries in the <b>IncomingAuthenticationInformation</b> 
 ### -field IncomingAuthenticationInformation
 
 Pointer to an array of 
-<a href="https://msdn.microsoft.com/61c17831-4a82-4766-b5af-e97a6d467462">LSA_AUTH_INFORMATION</a> structures containing the authentication information for the incoming side of a trust relationship.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_lsa_auth_information">LSA_AUTH_INFORMATION</a> structures containing the authentication information for the incoming side of a trust relationship.
 
 
 ### -field IncomingPreviousAuthenticationInformation
 
-Pointer to an array of <a href="https://msdn.microsoft.com/61c17831-4a82-4766-b5af-e97a6d467462">LSA_AUTH_INFORMATION</a> structures containing the previous authentication information (or old password) for the incoming side of a trust relationship. There must be one of these for every entry in the <b>IncomingAuthenticationInformation</b> array.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_lsa_auth_information">LSA_AUTH_INFORMATION</a> structures containing the previous authentication information (or old password) for the incoming side of a trust relationship. There must be one of these for every entry in the <b>IncomingAuthenticationInformation</b> array.
 
 
 ### -field OutgoingAuthInfos
@@ -81,12 +81,12 @@ Specifies the number of entries in the <b>OutgoingAuthenticationInformation</b> 
 
 ### -field OutgoingAuthenticationInformation
 
-Pointer to an array of <a href="https://msdn.microsoft.com/61c17831-4a82-4766-b5af-e97a6d467462">LSA_AUTH_INFORMATION</a> structures containing the authentication information for the outgoing side of a trust relationship.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_lsa_auth_information">LSA_AUTH_INFORMATION</a> structures containing the authentication information for the outgoing side of a trust relationship.
 
 
 ### -field OutgoingPreviousAuthenticationInformation
 
-Pointer to an array of <a href="https://msdn.microsoft.com/61c17831-4a82-4766-b5af-e97a6d467462">LSA_AUTH_INFORMATION</a> structures containing the previous authentication information (or old password) for the outgoing side of a trust relationship. There must be one of these for every entry in the <b>OutgoingAuthenticationInformation</b> array.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_lsa_auth_information">LSA_AUTH_INFORMATION</a> structures containing the previous authentication information (or old password) for the outgoing side of a trust relationship. There must be one of these for every entry in the <b>OutgoingAuthenticationInformation</b> array.
 
 
 ## -see-also
@@ -94,27 +94,27 @@ Pointer to an array of <a href="https://msdn.microsoft.com/61c17831-4a82-4766-b5
 
 
 
-<a href="https://msdn.microsoft.com/61c17831-4a82-4766-b5af-e97a6d467462">LSA_AUTH_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_lsa_auth_information">LSA_AUTH_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f458098-9498-4f08-bd13-ac572678d734">LsaCreateTrustedDomainEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacreatetrusteddomainex">LsaCreateTrustedDomainEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/62925515-a6f3-4b5f-bf97-edb968af19a3">LsaQueryTrustedDomainInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaquerytrusteddomaininfo">LsaQueryTrustedDomainInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/d33d6cee-bd8b-49f4-8e65-07cdc65bec7c">LsaQueryTrustedDomainInfoByName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaquerytrusteddomaininfobyname">LsaQueryTrustedDomainInfoByName</a>
 
 
 
-<a href="https://msdn.microsoft.com/263e1025-1010-463d-8bc7-cdf916ce9872">LsaSetTrustedDomainInfoByName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsasettrusteddomaininfobyname">LsaSetTrustedDomainInfoByName</a>
 
 
 
-<a href="https://msdn.microsoft.com/442a0944-b498-4d9f-b338-d5aed1663d8d">TRUSTED_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_trusted_information_class">TRUSTED_INFORMATION_CLASS</a>
  
 
  

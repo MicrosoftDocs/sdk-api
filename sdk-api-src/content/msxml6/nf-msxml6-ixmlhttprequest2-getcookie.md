@@ -69,7 +69,7 @@ A null-terminated string that specifies the name in the cookie.
 
 ### -param dwFlags
 
-A set of bit flags that specifies how this method retrieves the cookies. This parameter can be a set values from the <a href="https://msdn.microsoft.com/185a75cb-3901-4850-a987-803da50e14fd">XHR_COOKIE_FLAG</a> enumeration type defined in the <i>Msxml6.h</i> header file. 
+A set of bit flags that specifies how this method retrieves the cookies. This parameter can be a set values from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/ne-msxml6-_xhr_cookie_flag">XHR_COOKIE_FLAG</a> enumeration type defined in the <i>Msxml6.h</i> header file. 
 
  
 
@@ -98,23 +98,23 @@ Returns <b>S_OK</b> on success; <b>E_FAIL</b> indicates an error.
 
 
 
-<a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree Function</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree Function</a>
 
 
 
-<a href="https://msdn.microsoft.com/BBC11C4A-AECF-4D6D-8275-3E852E309908">IXMLHTTPRequest2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2</a>
 
 
 
-<a href="https://msdn.microsoft.com/E150B7CA-A881-4CD5-896F-7E3B6770E105">SetCookie Method</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-setcookie">SetCookie Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/208829B0-DBCC-4C22-910D-D6826283F8A0">XHR_COOKIE Structure</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/ns-msxml6-tagxhr_cookie">XHR_COOKIE Structure</a>
 
 
 
-<a href="https://msdn.microsoft.com/185a75cb-3901-4850-a987-803da50e14fd">XHR_COOKIE_FLAG</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/ne-msxml6-_xhr_cookie_flag">XHR_COOKIE_FLAG</a>
  
 
  

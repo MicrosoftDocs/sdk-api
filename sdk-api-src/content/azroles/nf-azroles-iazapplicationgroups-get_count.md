@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Count</b> property retrieves the number of <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b7e4-82d4e54012b1">IAzApplicationGroup</a> objects in the collection.
+The <b>Count</b> property retrieves the number of <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> objects in the collection.
 
 This property is read-only.
 
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-The <b>Count</b> property can be used to specify the last <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b7e4-82d4e54012b1">IAzApplicationGroup</a> object in a collection when retrieving a specific <b>IAzApplicationGroup</b> object using the  <a href="https://msdn.microsoft.com/9b895379-9b2f-45f5-997e-b589f08d7d6e">IAzApplicationGroups.Item</a> property.
+The <b>Count</b> property can be used to specify the last <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object in a collection when retrieving a specific <b>IAzApplicationGroup</b> object using the  <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroups-get_item">IAzApplicationGroups.Item</a> property.
 
 
 

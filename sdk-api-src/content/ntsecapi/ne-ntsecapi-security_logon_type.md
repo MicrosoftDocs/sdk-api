@@ -62,7 +62,7 @@ The <b>SECURITY_LOGON_TYPE</b> enumeration indicates the type of logon requested
 
 ### -field Interactive
 
-The <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security principal</a> is logging on interactively.
+The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security principal</a> is logging on interactively.
 
 
 ### -field Network

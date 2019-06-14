@@ -76,7 +76,7 @@ If no error occurs,
 <b>WSAProviderCompleteAsyncCall</b> returns zero.
 
 If the function fails, the return value is SOCKET_ERROR. To get extended error information, call 
-<a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a>, which returns one of the following extended error values.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>, which returns one of the following extended error values.
 
 <table>
 <tr>
@@ -86,7 +86,7 @@ If the function fails, the return value is SOCKET_ERROR. To get extended error i
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -97,7 +97,7 @@ There was insufficient memory to perform the operation.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -108,7 +108,7 @@ An internal error occurred.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -119,12 +119,12 @@ A parameter was not valid. This error is returned if the <i>hAsyncCall</i> param
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 The <i>Ws2_32.dll</i> has not been initialized. The application must first call 
-<a href="https://msdn.microsoft.com/08299592-867c-491d-9769-d16602133659">WSAStartup</a> before calling any Windows Sockets functions.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> before calling any Windows Sockets functions.
 
 </td>
 </tr>
@@ -141,9 +141,9 @@ The <i>Ws2_32.dll</i> has not been initialized. The application must first call
 The 
 <b>WSAProviderCompleteAsyncCall</b> function is used as part of the namespace service provider version-2 (NSPv2) architecture available on Windows Vista and later. 
 
-On Windows Vista and Windows Server 2008, the <a href="https://msdn.microsoft.com/5975b496-53a7-4f8a-8efc-27ef447596c2">WSAUnadvertiseProvider</a> function can only be used for operations on NS_EMAIL namespace providers. Asynchronous calls to NSPv2 providers are not supported on Windows Vista and Windows Server 2008. So the <b>WSAProviderCompleteAsyncCall</b> is not currently applicable. This function is planned for use in later versions of Windows when asynchronous calls to namespace providers are supported. 
+On Windows Vista and Windows Server 2008, the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wsaunadvertiseprovider">WSAUnadvertiseProvider</a> function can only be used for operations on NS_EMAIL namespace providers. Asynchronous calls to NSPv2 providers are not supported on Windows Vista and Windows Server 2008. So the <b>WSAProviderCompleteAsyncCall</b> is not currently applicable. This function is planned for use in later versions of Windows when asynchronous calls to namespace providers are supported. 
 
-In general, NSPv2 providers are implemented in processes other than the calling applications. NSPv2 providers are not activated as result of client activity. Each provider hosting application decides when to make a specific provider available or unavailable by calling the <a href="https://msdn.microsoft.com/574ebfa4-d7f2-43c2-b1ec-35ce3db9151f">WSAAdvertiseProvider</a> and <a href="https://msdn.microsoft.com/5975b496-53a7-4f8a-8efc-27ef447596c2">WSAUnadvertiseProvider</a> functions. The client activity only results in attempts to contact the provider, when available (when the namespace provider is advertised).
+In general, NSPv2 providers are implemented in processes other than the calling applications. NSPv2 providers are not activated as result of client activity. Each provider hosting application decides when to make a specific provider available or unavailable by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wsaadvertiseprovider">WSAAdvertiseProvider</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wsaunadvertiseprovider">WSAUnadvertiseProvider</a> functions. The client activity only results in attempts to contact the provider, when available (when the namespace provider is advertised).
 
 
 
@@ -153,19 +153,19 @@ In general, NSPv2 providers are implemented in processes other than the calling 
 
 
 
-<a href="https://msdn.microsoft.com/22a4ee47-030b-4aee-b9b1-c9e33b3e4fce">NSPV2_ROUTINE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-_nspv2_routine">NSPV2_ROUTINE</a>
 
 
 
-<a href="https://msdn.microsoft.com/574ebfa4-d7f2-43c2-b1ec-35ce3db9151f">WSAAdvertiseProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wsaadvertiseprovider">WSAAdvertiseProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>
 
 
 
-<a href="https://msdn.microsoft.com/5975b496-53a7-4f8a-8efc-27ef447596c2">WSAUnadvertiseProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wsaunadvertiseprovider">WSAUnadvertiseProvider</a>
  
 
  

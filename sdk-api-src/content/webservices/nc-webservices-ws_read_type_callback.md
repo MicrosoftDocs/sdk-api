@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Reads a value when <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_TYPE</a>has been specified.  This allows reading of XML constructs which do not easily
+Reads a value when <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a>has been specified.  This allows reading of XML constructs which do not easily
                 map to the core serialization model.
             
 
@@ -61,7 +61,7 @@ Reads a value when <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9
 
 ### -param *reader [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/7acbe407-e91b-435a-82bc-acbbc13cfcfd">WS_XML_READER</a> handle that contains the type value.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> handle that contains the type value.
                 
 
 
@@ -70,7 +70,7 @@ A pointer to a <a href="https://msdn.microsoft.com/7acbe407-e91b-435a-82bc-acbbc
 Indicates how the XML is being mapped to this type.  
 
 If a mapping does not make sense for this particular type, then the callback
-                    should return <b>WS_E_INVALID_OPERATION</b>.  (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.) A callback implementation
+                    should return <b>WS_E_INVALID_OPERATION</b>.  (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.) A callback implementation
                     should be prepared to be passed new mapping types in future versions and should return
                     <b>WS_E_INVALID_OPERATION</b> for those cases.
                 
@@ -78,7 +78,7 @@ If a mapping does not make sense for this particular type, then the callback
 
 ### -param *descriptionData [in]
 
- A pointer to the value of the <b>descriptionData</b> field of a  <a href="https://msdn.microsoft.com/7ae3d16c-0755-4226-844e-52cf96fa84fb">WS_CUSTOM_TYPE_DESCRIPTION</a> structure.
+ A pointer to the value of the <b>descriptionData</b> field of a  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_custom_type_description">WS_CUSTOM_TYPE_DESCRIPTION</a> structure.
                     The callback can use this to gain access to any additional information about the type.
                 
 
@@ -89,7 +89,7 @@ A pointer to the heap for use in allocating any additional data associated with 
                 
 
 Note that this parameter may be <b>NULL</b>,
-                    if the caller did not specify a <a href="https://msdn.microsoft.com/1866f54f-26fc-4889-a88f-0d298a418bdc">WS_HEAP</a> object when deserializing
+                    if the caller did not specify a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-heap">WS_HEAP</a> object when deserializing
                     the type.
                 
 
@@ -108,13 +108,13 @@ A pointer to a buffer that holds the value that is being deserialized.
 
 The buffer size that is being deserialized.
                     The buffer is allocated according to the size specified in the
-                    <a href="https://msdn.microsoft.com/7ae3d16c-0755-4226-844e-52cf96fa84fb">WS_CUSTOM_TYPE_DESCRIPTION</a>. 
+                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_custom_type_description">WS_CUSTOM_TYPE_DESCRIPTION</a>. 
                 
 
 
 ### -param *error [in, optional]
 
-A pointer to <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> data structure where additional error information should be stored if the function fails.
+A pointer to <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> data structure where additional error information should be stored if the function fails.
         
 
 
@@ -132,7 +132,7 @@ This callback function does not return a value.
 
 
 The callback will be invoked with the same calling sequence as
-                <a href="https://msdn.microsoft.com/6d026b2e-f2c2-4990-9178-152585a7749a">WsReadType</a> in the documentation for <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a>.
+                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadtype">WsReadType</a> in the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type_mapping">WS_TYPE_MAPPING</a>.
                 This defines what parts of the XML that the callback should read.
             
 

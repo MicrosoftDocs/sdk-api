@@ -49,7 +49,7 @@ req.redist:
 
 
 Represents a physical location on a disk. It is the output buffer for the 
-    <a href="https://msdn.microsoft.com/8faff037-d815-48f8-8b59-d63f4ff4a746">IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS</a> 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_volume_get_volume_disk_extents">IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS</a> 
     control code.
 
 
@@ -64,14 +64,14 @@ The number of disks in the volume (a volume can span multiple disks).
 
 An extent is a contiguous run of sectors on one disk. When the number of extents returned is greater than 
        one (1), the error code  <b>ERROR_MORE_DATA</b> is returned. You should call 
-       <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> again, allocating enough buffer 
+       <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> again, allocating enough buffer 
        space based on the value of <b>NumberOfDiskExtents</b> after the first 
        <b>DeviceIoControl</b> call.
 
 
 ### -field Extents
 
-An array of <a href="https://msdn.microsoft.com/1b8dc6fa-e60b-4490-b439-44c93b6f4ce5">DISK_EXTENT</a> structures.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_disk_extent">DISK_EXTENT</a> structures.
 
 
 ## -see-also
@@ -79,11 +79,11 @@ An array of <a href="https://msdn.microsoft.com/1b8dc6fa-e60b-4490-b439-44c93b6f
 
 
 
-<a href="https://msdn.microsoft.com/1b8dc6fa-e60b-4490-b439-44c93b6f4ce5">DISK_EXTENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_disk_extent">DISK_EXTENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/8faff037-d815-48f8-8b59-d63f4ff4a746">IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_volume_get_volume_disk_extents">IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS</a>
  
 
  

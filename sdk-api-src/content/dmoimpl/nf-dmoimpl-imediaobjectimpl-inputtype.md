@@ -72,7 +72,7 @@ Index of an input stream.
 
 
 
-Returns a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd375504(v=VS.85).aspx">DMO_MEDIA_TYPE</a> structure, or <b>NULL</b> if the media type is not set for this stream.
+Returns a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/ns-mediaobj-_dmomediatype">DMO_MEDIA_TYPE</a> structure, or <b>NULL</b> if the media type is not set for this stream.
 
 
 
@@ -82,7 +82,7 @@ Returns a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd37550
 
 
 
-<a href="https://msdn.microsoft.com/81d45b8d-8373-4e42-b768-f6126feb935d">IMediaObjectImpl Class Template</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/imediaobjectimpl-class-template">IMediaObjectImpl Class Template</a>
  
 
  

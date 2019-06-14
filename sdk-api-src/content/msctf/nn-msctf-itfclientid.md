@@ -54,7 +54,7 @@ The <b>ITfClientId</b> interface is implemented by the TSF manager. This interfa
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfClientId</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfClientId</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfClientId</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfClientId</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfClientId</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/422cff3c-1be5-4b86-bc64-cded6ab64da4">GetClientId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfclientid-getclientid">GetClientId</a>
 </td>
 <td align="left" width="63%">
 Obtains a client identifier for a CLSID.

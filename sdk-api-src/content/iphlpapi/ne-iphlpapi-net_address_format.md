@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>NET_ADDRESS_FORMAT</b> enumeration specifies the format of a network address returned by the <a href="https://msdn.microsoft.com/43bc866f-7776-4f59-9ed6-4c6fc4da7f83">ParseNetworkString</a> function.
+The <b>NET_ADDRESS_FORMAT</b> enumeration specifies the format of a network address returned by the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-parsenetworkstring">ParseNetworkString</a> function.
 
 
 ## -enum-fields
@@ -85,7 +85,7 @@ The format of the network address is a string in Internet standard hexadecimal e
 
 The <b>NET_ADDRESS_FORMAT</b> enumeration is defined on Windows Vista and later. 
 
-The <b>NET_ADDRESS_FORMAT</b> enumeration is used in the <a href="https://msdn.microsoft.com/1a59cc13-a3fc-4489-aafd-444a96d9a339">NET_ADDRESS_INFO</a> structure returned by the <a href="https://msdn.microsoft.com/43bc866f-7776-4f59-9ed6-4c6fc4da7f83">ParseNetworkString</a> function. 
+The <b>NET_ADDRESS_FORMAT</b> enumeration is used in the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/ns-iphlpapi-net_address_info_">NET_ADDRESS_INFO</a> structure returned by the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-parsenetworkstring">ParseNetworkString</a> function. 
 
 
 
@@ -95,11 +95,11 @@ The <b>NET_ADDRESS_FORMAT</b> enumeration is used in the <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/1a59cc13-a3fc-4489-aafd-444a96d9a339">NET_ADDRESS_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/ns-iphlpapi-net_address_info_">NET_ADDRESS_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/43bc866f-7776-4f59-9ed6-4c6fc4da7f83">ParseNetworkString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-parsenetworkstring">ParseNetworkString</a>
  
 
  

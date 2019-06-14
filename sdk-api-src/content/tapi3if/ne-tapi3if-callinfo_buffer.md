@@ -51,12 +51,12 @@ ms.custom: 19H1
 
 The 
 <b>CALLINFO_BUFFER</b> enum indicates the type of buffer accessed by the 
-<a href="https://msdn.microsoft.com/00f5dde6-e9df-4b61-8122-2183e047f9ba">ITCallInfo::GetCallInfoBuffer</a> method or the 
-<a href="https://msdn.microsoft.com/fafe3c99-4584-43eb-b446-a9f2b9308097">ITCallInfo::SetCallInfoBuffer</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-getcallinfobuffer">ITCallInfo::GetCallInfoBuffer</a> method or the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-setcallinfobuffer">ITCallInfo::SetCallInfoBuffer</a> method.
 
 The 
-<a href="https://msdn.microsoft.com/cda9d577-7230-42d9-8063-5ca94e0400dc">ITCallInfo::get_CallInfoBuffer</a> and 
-<a href="https://msdn.microsoft.com/4404ec08-2443-4d1a-8f94-5eb1b3315169">ITCallInfo::put_CallInfoBuffer</a> methods are provided for Automation client applications, such as those written in Visual Basic.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_callinfobuffer">ITCallInfo::get_CallInfoBuffer</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-put_callinfobuffer">ITCallInfo::put_CallInfoBuffer</a> methods are provided for Automation client applications, such as those written in Visual Basic.
 
 
 ## -enum-fields
@@ -99,19 +99,19 @@ The low-level compatibility buffer's format is specified by other standards (ISD
 
 
 
-<a href="https://msdn.microsoft.com/00f5dde6-e9df-4b61-8122-2183e047f9ba">ITCallInfo::GetCallInfoBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-getcallinfobuffer">ITCallInfo::GetCallInfoBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/fafe3c99-4584-43eb-b446-a9f2b9308097">ITCallInfo::SetCallInfoBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-setcallinfobuffer">ITCallInfo::SetCallInfoBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/cda9d577-7230-42d9-8063-5ca94e0400dc">ITCallInfo::get_CallInfoBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_callinfobuffer">ITCallInfo::get_CallInfoBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/4404ec08-2443-4d1a-8f94-5eb1b3315169">ITCallInfo::put_CallInfoBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-put_callinfobuffer">ITCallInfo::put_CallInfoBuffer</a>
  
 
  

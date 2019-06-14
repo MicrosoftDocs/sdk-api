@@ -96,7 +96,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-The cache space limits may be adjusted by an administrator using <a href="https://msdn.microsoft.com/cdbfd5af-000a-4724-8a44-5641b2f75896">IOfflineFilesCache::SetDiskSpaceLimits</a>.
+The cache space limits may be adjusted by an administrator using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilescache-setdiskspacelimits">IOfflineFilesCache::SetDiskSpaceLimits</a>.
 
 
 
@@ -106,7 +106,7 @@ The cache space limits may be adjusted by an administrator using <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/7b1b5ef6-355a-4760-9d54-ec73cc66fb8a">IOfflineFilesCache</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilescache">IOfflineFilesCache</a>
  
 
  

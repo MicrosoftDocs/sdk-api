@@ -64,7 +64,7 @@ The CLSID that identifies the class whose class object is to be retrieved.
 
 ### -param dwClassContext [in]
 
-The context in which the class is expected to run. For a list of values, see the <a href="https://msdn.microsoft.com/dcb82ff2-56e4-4c7e-a621-7ffd0f1a9d8e">CLSCTX</a> enumeration.
+The context in which the class is expected to run. For a list of values, see the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagclsctx">CLSCTX</a> enumeration.
 
 
 ### -param locale [in]
@@ -96,11 +96,11 @@ If the method succeeds, the return value is S_OK. Otherwise, it is E_FAIL.
 
 
 
-<a href="https://msdn.microsoft.com/65e758ce-50a4-49e8-b3b2-0cd148d2781a">CoGetClassObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject">CoGetClassObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/4f34c5a4-46c0-4391-9c64-cbb6a366e2dc">IClassActivator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iclassactivator">IClassActivator</a>
  
 
  

@@ -84,5 +84,5 @@ The <b>KERB_CHANGEPASSWORD_REQUEST</b> structure contains information used to ch
 
 ### -field Impersonating
 
-TRUE if the client is impersonating another <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security principal</a>. Otherwise, false.
+TRUE if the client is impersonating another <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security principal</a>. Otherwise, false.
 

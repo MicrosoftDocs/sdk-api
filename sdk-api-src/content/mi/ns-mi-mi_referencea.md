@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents an array of pointers to <a href="https://msdn.microsoft.com/3dce1817-7995-49e5-8cc0-ee9496665e5c">MI_Instance</a> types.
+Represents an array of pointers to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a> types.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ Represents an array of pointers to <a href="https://msdn.microsoft.com/3dce1817-
 
 ### -field data
 
-Pointer to an array of <a href="https://msdn.microsoft.com/3dce1817-7995-49e5-8cc0-ee9496665e5c">MI_Instance</a> structures.
+Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a> structures.
 
 
 ### -field _MI_Instance

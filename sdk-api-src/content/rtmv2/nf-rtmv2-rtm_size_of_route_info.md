@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>RTM_SIZE_OF_ROUTE_INFO</b> macro returns the size of the route information structure, 
-<a href="https://msdn.microsoft.com/7d9bf8c0-dc09-440a-b60d-97463c70a745">RTM_ROUTE_INFO</a>. The size of this structure is variable, and is based on the number of next hops associated with the route. Use this macro when allocating memory for route structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_route_info">RTM_ROUTE_INFO</a>. The size of this structure is variable, and is based on the number of next hops associated with the route. Use this macro when allocating memory for route structures.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ Specifies the number of next hops in the route structure.
 
 
 If the client  only allocates one next hop per route, the client can allocate an 
-<a href="https://msdn.microsoft.com/7d9bf8c0-dc09-440a-b60d-97463c70a745">RTM_ROUTE_INFO</a> structure statically.
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_route_info">RTM_ROUTE_INFO</a> structure statically.
 
 The macro is defined as follows:
 

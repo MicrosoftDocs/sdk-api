@@ -71,7 +71,7 @@ Enumerates language-specific resources, of the specified type and name, associat
 
 Type: <b>HMODULE</b>
 
-The handle to a module to search. Typically this is a <a href="https://msdn.microsoft.com/4d8b769d-0830-4e4e-b284-ce0b21dfe5d4">language-neutral Portable Executable</a> (LN file), and if flag <b>RESOURCE_ENUM_MUI</b> is set, then appropriate .mui files are included in the search. Alternately, this can be a handle to an .mui file or other LN file. If this is a specific .mui file, only that file is searched for resources.
+The handle to a module to search. Typically this is a <a href="https://docs.microsoft.com/windows/desktop/Intl/mui-resource-management">language-neutral Portable Executable</a> (LN file), and if flag <b>RESOURCE_ENUM_MUI</b> is set, then appropriate .mui files are included in the search. Alternately, this can be a handle to an .mui file or other LN file. If this is a specific .mui file, only that file is searched for resources.
     
                     
 
@@ -180,7 +180,7 @@ The localization language used to filter the search in the .mui file. This param
 
 Type: <b>BOOL</b>
 
-Returns <b>TRUE</b> if the function succeeds or <b>FALSE</b> if the function does not find a resource of the type specified, or if the function fails for another reason. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+Returns <b>TRUE</b> if the function succeeds or <b>FALSE</b> if the function does not find a resource of the type specified, or if the function fails for another reason. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -199,7 +199,7 @@ integer identifier of the resource.
 
 Starting with Windows Vista, the binary module is typically an LN file, and the enumeration will also include resources from the corresponding language-specific resource files (.mui files) that contain localizable language resources.
 
-For each such resource found, <b>EnumResourceLanguagesEx</b> calls an application-defined callback function <i>lpEnumFunc</i>, passing to the callback function the language identifier (see <a href="https://msdn.microsoft.com/076e2a43-256a-4646-a5c8-1d48ab08ce1a">Language Identifiers</a>) of the language for which a resource was found (as well as the various other parameters that were passed to <b>EnumResourceLanguagesEx</b>).
+For each such resource found, <b>EnumResourceLanguagesEx</b> calls an application-defined callback function <i>lpEnumFunc</i>, passing to the callback function the language identifier (see <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">Language Identifiers</a>) of the language for which a resource was found (as well as the various other parameters that were passed to <b>EnumResourceLanguagesEx</b>).
 
 The search can include both an LN file and its associated .mui files, or it can be limited either to a single binary module of any type, or to the .mui files associated with a single LN file. Also, by specifying an LN file for the <i>hModule</i> parameter and a nonzero <i>LangId</i> parameter, the search can be limited to the unique .mui file associated with that LN file and language.
 
@@ -207,7 +207,7 @@ The <b>EnumResourceLanguagesEx</b> function continues to enumerate resource lang
 
 If <i>hModule</i> specifies an LN file, and both flags are selected, the languages enumerated include all languages whose resources reside either in the LN file or in any .mui files associated with it. If no .mui files are found, only languages from the LN file are returned.
 
-If <i>dwFlags</i> contains <b>RESOURCE_ENUM_MUI</b> or <b>NULL</b> and <i>LangId</i> is 0, then the enumeration first includes the languages associated with all system-installed .mui files, using languages retrieved from <a href="https://msdn.microsoft.com/f97df853-fc40-4529-b8a5-27069863a9b9">EnumUILanguages</a>.. Finally, if the <b>RESOURCE_ENUM_LN</b> flag is also set, the file designated by <i>hModule</i> is also searched.
+If <i>dwFlags</i> contains <b>RESOURCE_ENUM_MUI</b> or <b>NULL</b> and <i>LangId</i> is 0, then the enumeration first includes the languages associated with all system-installed .mui files, using languages retrieved from <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumuilanguagesa">EnumUILanguages</a>.. Finally, if the <b>RESOURCE_ENUM_LN</b> flag is also set, the file designated by <i>hModule</i> is also searched.
 
 If the <i>LangId</i> is nonzero, then only the .mui file corresponding to that language identifier will be searched. Language fallbacks will not be used. If an .mui file for that language does not exist, the enumeration will be empty (unless resources for that language exist in the LN file, and the flag is set to search the LN file as well).
 

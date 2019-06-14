@@ -149,7 +149,7 @@ This callback function does not return a value.
 The PCM will call the 
 <i>LPM_DeleteState</i> function for each LPM; LPMs should be prepared to handle 
 <i>LPM_DeleteState</i> for a nonexistent state, as described further in the Remarks section of the 
-<a href="https://msdn.microsoft.com/9040155b-6c6d-4deb-a63a-74e5fc8123ba">cbAdmitResult</a> function.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-cbadmitresult">cbAdmitResult</a> function.
 
 
 
@@ -159,7 +159,7 @@ The PCM will call the
 
 
 
-<a href="https://msdn.microsoft.com/9040155b-6c6d-4deb-a63a-74e5fc8123ba">cbAdmitResult</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-cbadmitresult">cbAdmitResult</a>
  
 
  

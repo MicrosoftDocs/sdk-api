@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IDirectorySearch::AbandonSearch</b> method abandons a search initiated by an earlier call to the  <a href="https://msdn.microsoft.com/7514b372-1a7a-4a42-a814-af70a727c477">ExecuteSearch</a> method.
+The <b>IDirectorySearch::AbandonSearch</b> method abandons a search initiated by an earlier call to the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-executesearch">ExecuteSearch</a> method.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ Provides a handle to the search context.
 
 This method returns the standard return values, including S_OK if the first row is obtained successfully.
 
-For other return values, see  <a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>.
+For other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 
 
@@ -79,7 +79,7 @@ For other return values, see  <a href="https://msdn.microsoft.com/573889e4-37af-
 
 
 
-<b>IDirectorySearch::AbandonSearch</b> may be used if the Page_Size or Asynchronous options can be specified through  <a href="https://msdn.microsoft.com/1c5b3f72-6165-41ad-99d4-d68bc12ac10b">IDirectorySearch::SetSearchPreference</a> before the search is executed.
+<b>IDirectorySearch::AbandonSearch</b> may be used if the Page_Size or Asynchronous options can be specified through  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference">IDirectorySearch::SetSearchPreference</a> before the search is executed.
 
 
 #### Examples
@@ -126,19 +126,19 @@ m_pSearch->CloseSearchHandle( hSearch );
 
 
 
-<a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8989795-8f72-476a-a69e-c0e8800289ab">IDirectorySearch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectorysearch">IDirectorySearch</a>
 
 
 
-<a href="https://msdn.microsoft.com/7514b372-1a7a-4a42-a814-af70a727c477">IDirectorySearch::ExecuteSearch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-executesearch">IDirectorySearch::ExecuteSearch</a>
 
 
 
-<a href="https://msdn.microsoft.com/1c5b3f72-6165-41ad-99d4-d68bc12ac10b">IDirectorySearch::SetSearchPreference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference">IDirectorySearch::SetSearchPreference</a>
  
 
  

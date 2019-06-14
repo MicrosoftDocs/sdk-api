@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information that is used by the <a href="https://msdn.microsoft.com/913593ff-07fe-44bd-88dc-8e58da82089b">IViewObject::Draw</a> method to optimize rendering of an inactive object by making more efficient use of the GDI.
+Contains information that is used by the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject::Draw</a> method to optimize rendering of an inactive object by making more efficient use of the GDI.
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ The size of the structure, in bytes.
 
 ### -field dwFlags
 
-A value taken from the <a href="https://msdn.microsoft.com/639871a6-85ab-41e2-92fa-7f1e72e9cb38">DVASPECTINFOFLAG</a> enumeration.
+A value taken from the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-tagaspectinfoflag">DVASPECTINFOFLAG</a> enumeration.
 
 
 
@@ -73,11 +73,11 @@ A value taken from the <a href="https://msdn.microsoft.com/639871a6-85ab-41e2-92
 
 
 
-<a href="https://msdn.microsoft.com/639871a6-85ab-41e2-92fa-7f1e72e9cb38">DVASPECTINFOFLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-tagaspectinfoflag">DVASPECTINFOFLAG</a>
 
 
 
-<a href="https://msdn.microsoft.com/913593ff-07fe-44bd-88dc-8e58da82089b">IViewObject::Draw</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject::Draw</a>
  
 
  

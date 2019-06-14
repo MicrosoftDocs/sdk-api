@@ -63,18 +63,18 @@ Registration is the first action a client should take.
 ### -param RtmEntityInfo [in]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/b2a1e6b9-0cac-4316-98a0-ff1d44c5a15a">RTM_ENTITY_INFO</a> structure. This structure contains information that identifies the client to the routing table manager, such as the routing table manager instance and address family with which to register.
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_entity_info">RTM_ENTITY_INFO</a> structure. This structure contains information that identifies the client to the routing table manager, such as the routing table manager instance and address family with which to register.
 
 
 ### -param ExportMethods [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/8198cfad-9188-4f49-92ab-1750ec16aec4">RTM_ENTITY_EXPORT_METHODS</a> structure that contains a list of methods exported by the client. This parameter is optional and can be set to <b>NULL</b> if the calling client has no methods to export.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_entity_export_methods">RTM_ENTITY_EXPORT_METHODS</a> structure that contains a list of methods exported by the client. This parameter is optional and can be set to <b>NULL</b> if the calling client has no methods to export.
 
 
 ### -param EventCallback [in]
 
 A <b>RTM_EVENT_CALLBACK</b> structure that specifies the callback the routing table manager  uses to notify the client of events. The events are when a client registers and unregisters, when routes expire, and when changes to the best route to a destination have occurred. Only those changes specified when the client called 
-<a href="https://msdn.microsoft.com/b6e04984-ac92-44a2-a18c-018c6b1b49a9">RtmRegisterForChangeNotification</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterforchangenotification">RtmRegisterForChangeNotification</a>.
 
 
 ### -param ReserveOpaquePointer [in]
@@ -85,7 +85,7 @@ Specifies whether to reserve an opaque pointer in each destination for this inst
 ### -param RtmRegProfile [out]
 
 On input, <i>RtmRegProfile</i> is a pointer to an 
-<a href="https://msdn.microsoft.com/26644a09-8d49-4c9f-a7cd-5edbf93e83d0">RTM_REGN_PROFILE</a> structure. 
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_regn_profile">RTM_REGN_PROFILE</a> structure. 
 
 
 
@@ -199,7 +199,7 @@ There is not enough memory to complete this operation.
 
 
 For sample code using this function, see 
-<a href="https://msdn.microsoft.com/320cc97f-2875-4d26-b2f4-5611a43d5839">Register With the Routing Table Manager</a>.
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/register-with-the-routing-table-manager">Register With the Routing Table Manager</a>.
 
 
 
@@ -209,31 +209,31 @@ For sample code using this function, see
 
 
 
-<a href="https://msdn.microsoft.com/8198cfad-9188-4f49-92ab-1750ec16aec4">RTM_ENTITY_EXPORT_METHODS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_entity_export_methods">RTM_ENTITY_EXPORT_METHODS</a>
 
 
 
-<a href="https://msdn.microsoft.com/b2a1e6b9-0cac-4316-98a0-ff1d44c5a15a">RTM_ENTITY_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_entity_info">RTM_ENTITY_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/57179cea-d92b-4199-bb61-b34d980532cf">RTM_EVENT_CALLBACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nc-rtmv2-_event_callback">RTM_EVENT_CALLBACK</a>
 
 
 
-<a href="https://msdn.microsoft.com/26644a09-8d49-4c9f-a7cd-5edbf93e83d0">RTM_REGN_PROFILE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_regn_profile">RTM_REGN_PROFILE</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc13022b-e474-4442-a19c-856ee130c383">RtmDeregisterEntity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmderegisterentity">RtmDeregisterEntity</a>
 
 
 
-<a href="https://msdn.microsoft.com/411e15bc-7f47-4ef7-9400-292203b581af">RtmGetRegisteredEntities</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetregisteredentities">RtmGetRegisteredEntities</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f6c4275-0129-4f27-b9b2-bfda33d34d21">RtmReleaseEntities</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleaseentities">RtmReleaseEntities</a>
  
 
  

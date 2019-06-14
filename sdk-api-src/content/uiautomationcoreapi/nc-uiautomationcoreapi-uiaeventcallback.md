@@ -60,9 +60,9 @@ ms.custom: 19H1
 
 ### -param *pArgs [in]
 
-Type: <b><a href="https://msdn.microsoft.com/7598936c-85da-40bc-8e94-94543371d915">UiaEventArgs</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/ns-uiautomationcoreapi-uiaeventargs">UiaEventArgs</a>*</b>
 
-The address of a <a href="https://msdn.microsoft.com/7598936c-85da-40bc-8e94-94543371d915">UiaEventArgs</a> structure that contains the event arguments.
+The address of a <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/ns-uiautomationcoreapi-uiaeventargs">UiaEventArgs</a> structure that contains the event arguments.
 
 
 ### -param *pRequestedData [in]
@@ -84,7 +84,7 @@ A string that contains the structure of the tree associated with the event, if t
 
 
 
- This function is passed to <a href="https://msdn.microsoft.com/6d53c864-2791-4693-84dd-c7c1d8262b1f">UiaAddEvent</a> and <a href="https://msdn.microsoft.com/c98b3e0f-c3d3-45a5-b1a1-80da1b5673f3">UiaRemoveEvent</a>.
+ This function is passed to <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaaddevent">UiaAddEvent</a> and <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaremoveevent">UiaRemoveEvent</a>.
 
 	The tree structure is described by a string where every character is either "p" or ")". 
 			The first character in the string always represents the root node. The string is <b>NULL</b> if 

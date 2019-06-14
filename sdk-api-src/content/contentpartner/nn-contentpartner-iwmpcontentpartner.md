@@ -59,7 +59,7 @@ The <b>IWMPContentPartner</b> interface provides methods that Windows Media Play
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPContentPartner</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMPContentPartner</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPContentPartner</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPContentPartner</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IWMPContentPartner</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563156(v=VS.85).aspx">Authenticate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-authenticate">Authenticate</a>
 </td>
 <td align="left" width="63%">
 Initiates an attempt to authenticate the user.
@@ -83,7 +83,7 @@ Initiates an attempt to authenticate the user.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563157(v=VS.85).aspx">Buy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-buy">Buy</a>
 </td>
 <td align="left" width="63%">
 Initiates the purchase of digital media content.
@@ -92,7 +92,7 @@ Initiates the purchase of digital media content.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563158(v=VS.85).aspx">CanBuySilent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-canbuysilent">CanBuySilent</a>
 </td>
 <td align="left" width="63%">
 Calculates the total price of a purchase and determines whether the purchase can proceed without displaying a dialog box.
@@ -101,7 +101,7 @@ Calculates the total price of a purchase and determines whether the purchase can
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563159(v=VS.85).aspx">CompareContainerListPrices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-comparecontainerlistprices">CompareContainerListPrices</a>
 </td>
 <td align="left" width="63%">
 Compares the price of two content container lists.
@@ -110,7 +110,7 @@ Compares the price of two content container lists.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563160(v=VS.85).aspx">Download</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-download">Download</a>
 </td>
 <td align="left" width="63%">
 Initiates the download of a set of media items.
@@ -119,7 +119,7 @@ Initiates the download of a set of media items.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563161(v=VS.85).aspx">DownloadTrackComplete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-downloadtrackcomplete">DownloadTrackComplete</a>
 </td>
 <td align="left" width="63%">
 Notifies the content partner plug-in that Windows Media Player has finished downloading a track or that the download attempt failed.
@@ -128,7 +128,7 @@ Notifies the content partner plug-in that Windows Media Player has finished down
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563162(v=VS.85).aspx">GetCatalogURL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getcatalogurl">GetCatalogURL</a>
 </td>
 <td align="left" width="63%">
 Retrieves the URL from which to retrieve an update to the online store's current catalog.
@@ -137,7 +137,7 @@ Retrieves the URL from which to retrieve an update to the online store's current
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563163(v=VS.85).aspx">GetCommands</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getcommands">GetCommands</a>
 </td>
 <td align="left" width="63%">
 Retrieves context menu commands.
@@ -146,7 +146,7 @@ Retrieves context menu commands.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563164(v=VS.85).aspx">GetContentPartnerInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getcontentpartnerinfo">GetContentPartnerInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves specific information about the online store.
@@ -155,7 +155,7 @@ Retrieves specific information about the online store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563165(v=VS.85).aspx">GetItemInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getiteminfo">GetItemInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves information (for example, a URL or a caption) related to an item owned by an online store.
@@ -164,7 +164,7 @@ Retrieves information (for example, a URL or a caption) related to an item owned
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563166(v=VS.85).aspx">GetListContents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getlistcontents">GetListContents</a>
 </td>
 <td align="left" width="63%">
 Initiates the retrieval of a dynamic list.
@@ -173,7 +173,7 @@ Initiates the retrieval of a dynamic list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563167(v=VS.85).aspx">GetStreamingURL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getstreamingurl">GetStreamingURL</a>
 </td>
 <td align="left" width="63%">
 Retrieves the streaming URL of a track.
@@ -182,7 +182,7 @@ Retrieves the streaming URL of a track.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563168(v=VS.85).aspx">GetTemplate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-gettemplate">GetTemplate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the URL of the discovery page to be displayed when the library view changes in Windows Media Player.
@@ -191,7 +191,7 @@ Retrieves the URL of the discovery page to be displayed when the library view ch
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563169(v=VS.85).aspx">InvokeCommand</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-invokecommand">InvokeCommand</a>
 </td>
 <td align="left" width="63%">
 Invokes a context menu command.
@@ -200,7 +200,7 @@ Invokes a context menu command.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563170(v=VS.85).aspx">Login</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-login">Login</a>
 </td>
 <td align="left" width="63%">
 Logs the user in to the online store.
@@ -209,7 +209,7 @@ Logs the user in to the online store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563171(v=VS.85).aspx">Logout</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-logout">Logout</a>
 </td>
 <td align="left" width="63%">
 Ends the user's online store session.
@@ -218,7 +218,7 @@ Ends the user's online store session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563172(v=VS.85).aspx">Notify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-notify">Notify</a>
 </td>
 <td align="left" width="63%">
 Provides the content partner plug-in with event notifications from Windows Media Player.
@@ -227,7 +227,7 @@ Provides the content partner plug-in with event notifications from Windows Media
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563173(v=VS.85).aspx">RefreshLicense</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-refreshlicense">RefreshLicense</a>
 </td>
 <td align="left" width="63%">
 Initiates the update of a license for the specified media file.
@@ -236,7 +236,7 @@ Initiates the update of a license for the specified media file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563174(v=VS.85).aspx">SendMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-sendmessage">SendMessage</a>
 </td>
 <td align="left" width="63%">
 Enables discovery pages to send messages to the plug-in.
@@ -245,7 +245,7 @@ Enables discovery pages to send messages to the plug-in.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563175(v=VS.85).aspx">SetCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-setcallback">SetCallback</a>
 </td>
 <td align="left" width="63%">
 Provides the plug-in with a pointer for calling Windows Media Player methods.
@@ -254,7 +254,7 @@ Provides the plug-in with a pointer for calling Windows Media Player methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563176(v=VS.85).aspx">StationEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-stationevent">StationEvent</a>
 </td>
 <td align="left" width="63%">
 Notifies the plug-in of events during playback of a Windows Media metafile playlist (ASX).
@@ -263,7 +263,7 @@ Notifies the plug-in of events during playback of a Windows Media metafile playl
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563177(v=VS.85).aspx">UpdateDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-updatedevice">UpdateDevice</a>
 </td>
 <td align="left" width="63%">
 Notifies the content-partner plug-in that a portable device is being synchronized.
@@ -272,7 +272,7 @@ Notifies the content-partner plug-in that a portable device is being synchronize
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563178(v=VS.85).aspx">VerifyPermission</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-verifypermission">VerifyPermission</a>
 </td>
 <td align="left" width="63%">
 Initiates the process of verifying permission for Windows Media Player to perform an action.
@@ -287,7 +287,7 @@ Initiates the process of verifying permission for Windows Media Player to perfor
 
 
 
-<a href="https://msdn.microsoft.com/e6f45a50-029e-4347-9b25-10e9e32a56eb">Reference for Type 1 Online Stores</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/reference-for-type-1-online-stores">Reference for Type 1 Online Stores</a>
  
 
  

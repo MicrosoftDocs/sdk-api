@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Notifies the subscriber if a single-threaded apartment (STA) is created or terminated, and when an apartment thread is allocated. The subscriber is also notified if an activity is assigned or unassigned to an apartment thread. The events are published to the subscriber using the <a href="https://msdn.microsoft.com/1e0570ae-9099-465a-9133-72aa7d574932">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
+Notifies the subscriber if a single-threaded apartment (STA) is created or terminated, and when an apartment thread is allocated. The subscriber is also notified if an activity is assigned or unassigned to an apartment thread. The events are published to the subscriber using the <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--events">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComThreadEvents</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IComThreadEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComThreadEvents</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComThreadEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IComThreadEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2711b4b9-f27c-42c4-8f78-f31ffba2cfcf">OnThreadAssignApartment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icomthreadevents-onthreadassignapartment">OnThreadAssignApartment</a>
 </td>
 <td align="left" width="63%">
 Generated when an activity is assigned to an apartment thread.
@@ -78,7 +78,7 @@ Generated when an activity is assigned to an apartment thread.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d05c784a-5dcd-4155-baa0-775c499bd936">OnThreadBindToApartment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icomthreadevents-onthreadbindtoapartment">OnThreadBindToApartment</a>
 </td>
 <td align="left" width="63%">
 Generated when an apartment thread is allocated for a single-thread apartment (STA) thread that does not have an apartment thread to run in.
@@ -87,7 +87,7 @@ Generated when an apartment thread is allocated for a single-thread apartment (S
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9316965e-13e8-4e3a-9404-8e49334773bc">OnThreadStart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icomthreadevents-onthreadstart">OnThreadStart</a>
 </td>
 <td align="left" width="63%">
 Generated when a single-threaded apartment (STA) thread is started.
@@ -96,7 +96,7 @@ Generated when a single-threaded apartment (STA) thread is started.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8483962c-46c9-4ef1-8c7e-391a04334293">OnThreadTerminate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icomthreadevents-onthreadterminate">OnThreadTerminate</a>
 </td>
 <td align="left" width="63%">
 Generated when a single-threaded apartment (STA) thread is terminated.
@@ -105,7 +105,7 @@ Generated when a single-threaded apartment (STA) thread is terminated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c57b2427-9c39-4068-b531-9f18264746a1">OnThreadUnassignApartment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icomthreadevents-onthreadunassignapartment">OnThreadUnassignApartment</a>
 </td>
 <td align="left" width="63%">
 Generated when an activity is unassigned from an apartment thread.
@@ -114,7 +114,7 @@ Generated when an activity is unassigned from an apartment thread.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/21ce95a4-0e87-4e2d-a3fa-b21a079058e2">OnThreadUnBind</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icomthreadevents-onthreadunbind">OnThreadUnBind</a>
 </td>
 <td align="left" width="63%">
 Generated when the lifetime of the configured component is over and the activity count on the apartment thread can be decremented.
@@ -129,15 +129,15 @@ Generated when the lifetime of the configured component is over and the activity
 
 
 
-<a href="https://msdn.microsoft.com/50ccf75e-2652-4254-a771-af83cc9248b3">COM+ Contexts and Threading Models</a>
+<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--contexts-and-threading-models">COM+ Contexts and Threading Models</a>
 
 
 
-<a href="https://msdn.microsoft.com/1e0570ae-9099-465a-9133-72aa7d574932">COM+ Events</a>
+<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--events">COM+ Events</a>
 
 
 
-<a href="https://msdn.microsoft.com/07f68734-a382-4fe5-86af-90805f61c68d">COM+ Instrumentation</a>
+<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--instrumentation-concepts">COM+ Instrumentation</a>
  
 
  

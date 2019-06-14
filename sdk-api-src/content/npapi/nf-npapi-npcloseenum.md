@@ -60,7 +60,7 @@ The <b>NPCloseEnum</b> function closes an enumeration.
 ### -param hEnum [in]
 
 Handle obtained from an 
-<a href="https://msdn.microsoft.com/d8fa7336-3ede-4445-b2e8-1a3efcae22ff">NPOpenEnum</a> call.
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npopenenum">NPOpenEnum</a> call.
 
 
 ## -returns

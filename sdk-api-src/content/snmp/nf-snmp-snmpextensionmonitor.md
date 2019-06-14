@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/6429e748-e0bf-431a-8989-db5b211665d5">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The Microsoft SNMP service calls the 
 <b>SnmpExtensionMonitor</b> function to provide the SNMP extension agent with a view to the service's internal counters and parameters. This function is an element of the SNMP Extension Agent API.
@@ -66,7 +66,7 @@ The
 ### -param pAgentMgmtData [in]
 
 Pointer to an array of 
-<a href="https://msdn.microsoft.com/ce8d002e-f357-499c-b976-f8ebaf1e7142">AsnAny</a> objects (structures). The number of objects, and the type and description of each object, are in accordance with RFC 1213. For more information, see the following Remarks section.
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-asnany">AsnAny</a> objects (structures). The number of objects, and the type and description of each object, are in accordance with RFC 1213. For more information, see the following Remarks section.
 
 
 ## -returns
@@ -84,8 +84,8 @@ Unless an unexpected error occurs while the SNMP extension agent is processing t
 
 If the extension agent exports the 
 <b>SnmpExtensionMonitor</b> function, the SNMP service calls the function during initialization of the extension agent, immediately after the service calls the 
-<a href="https://msdn.microsoft.com/015f2be2-8e10-4abd-afd0-f76834856733">SnmpExtensionInit</a> and the 
-<a href="https://msdn.microsoft.com/f4e090ca-3f15-4f50-8ea7-92a06868268f">SnmpExtensionInitEx</a> functions.
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmpextensioninit">SnmpExtensionInit</a> and the 
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmpextensioninitex">SnmpExtensionInitEx</a> functions.
 
 The SNMP service dynamically updates the SNMP counters (for example, the snmpInPkts and the snmpOutNoSuchNames counters) in the array pointed to by the <i>pAgentMgmtData</i> parameter. In order to be able to read these values while the SNMP service is running, the extension agent must store the pointer to <i>pAgentMgmtData</i>.
 
@@ -99,27 +99,27 @@ Note that an SNMP extension agent should not update the memory pointed to by the
 
 
 
-<a href="https://msdn.microsoft.com/ce8d002e-f357-499c-b976-f8ebaf1e7142">AsnAny</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-asnany">AsnAny</a>
 
 
 
-<a href="https://msdn.microsoft.com/8913caa9-6b2c-424c-a778-bd54d6584dac">SNMP Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/499e912b-0821-452e-81f6-8a8250875979">Simple Network Management Protocol (SNMP) Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/19fcac27-daa1-40e2-9038-7f03279381f0">SnmpExtensionClose</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmpextensionclose">SnmpExtensionClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/015f2be2-8e10-4abd-afd0-f76834856733">SnmpExtensionInit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmpextensioninit">SnmpExtensionInit</a>
 
 
 
-<a href="https://msdn.microsoft.com/f4e090ca-3f15-4f50-8ea7-92a06868268f">SnmpExtensionInitEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmpextensioninitex">SnmpExtensionInitEx</a>
  
 
  

@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Contains methods that configure an event service that implements the <a href="https://msdn.microsoft.com/2720d616-18a6-488e-98ef-565768c22c2a">IESEventService</a> interface. This interface allows you to create your own event service and set it up to receive events from a Protected Broadcast Driver Architecture (PBDA) event service, then pass those events to your event service's clients. 
+Contains methods that configure an event service that implements the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ieseventservice">IESEventService</a> interface. This interface allows you to create your own event service and set it up to receive events from a Protected Broadcast Driver Architecture (PBDA) event service, then pass those events to your event service's clients. 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IESEventServiceConfiguration</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IESEventServiceConfiguration</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IESEventServiceConfiguration</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IESEventServiceConfiguration</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IESEventServiceConfiguration</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ba3d9748-5d3b-49ec-ac69-287a253caa12">RemoveGraph</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieseventserviceconfiguration-removegraph">RemoveGraph</a>
 </td>
 <td align="left" width="63%">
 Removes a PBDA event service from a filter  graph.
@@ -79,27 +79,27 @@ Removes a PBDA event service from a filter  graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c55b732e-960c-4a0c-939b-2f3628b5c9b6">RemoveOwner</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieseventserviceconfiguration-removeowner">RemoveOwner</a>
 </td>
 <td align="left" width="63%">
-Removes the owner of an <a href="https://msdn.microsoft.com/2720d616-18a6-488e-98ef-565768c22c2a">IESEventService</a> event service.
+Removes the owner of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ieseventservice">IESEventService</a> event service.
           
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/74d92e84-9819-49ed-bd56-26d6768f3ed0">RemoveParent</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieseventserviceconfiguration-removeparent">RemoveParent</a>
 </td>
 <td align="left" width="63%">
-Removes the parent of an <a href="https://msdn.microsoft.com/2720d616-18a6-488e-98ef-565768c22c2a">IESEventService</a> event service so that the event service can no longer pass events to the parent.
+Removes the parent of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ieseventservice">IESEventService</a> event service so that the event service can no longer pass events to the parent.
           
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0aee92b4-740a-4c5a-a64e-9de08d1c35c2">SetGraph</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieseventserviceconfiguration-setgraph">SetGraph</a>
 </td>
 <td align="left" width="63%">
 Attaches a PBDA event service to a filter  graph.
@@ -109,19 +109,19 @@ Attaches a PBDA event service to a filter  graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7d8e1be1-b363-41ac-b60b-98415f0f44b6">SetOwner</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieseventserviceconfiguration-setowner">SetOwner</a>
 </td>
 <td align="left" width="63%">
-Specifies the <a href="https://msdn.microsoft.com/1921f632-bb3b-4833-aa25-9caa3d65363f">IESEvents</a> object that an <a href="https://msdn.microsoft.com/2720d616-18a6-488e-98ef-565768c22c2a">IESEventService</a> event service uses to pass advise events to its parent (the owner).
+Specifies the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevents">IESEvents</a> object that an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ieseventservice">IESEventService</a> event service uses to pass advise events to its parent (the owner).
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cfb931e9-f20f-4812-9d6b-cf8b651b7e7a">SetParent</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieseventserviceconfiguration-setparent">SetParent</a>
 </td>
 <td align="left" width="63%">
-Specifies an event service (the parent) that another <a href="https://msdn.microsoft.com/2720d616-18a6-488e-98ef-565768c22c2a">IESEventService</a> event service can pass its events to.
+Specifies an event service (the parent) that another <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ieseventservice">IESEventService</a> event service can pass its events to.
           
 
 </td>
@@ -143,11 +143,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/2720d616-18a6-488e-98ef-565768c22c2a">IESEventService</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ieseventservice">IESEventService</a>
 
 
 
-<a href="https://msdn.microsoft.com/1921f632-bb3b-4833-aa25-9caa3d65363f">IESEvents</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevents">IESEvents</a>
  
 
  

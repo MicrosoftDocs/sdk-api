@@ -148,7 +148,7 @@ Pointer to a buffer that contains the IP header of the packet, including the IP 
 ### -param pbRoute [in, out]
 
 On input, <i>pbRoute</i> points to a buffer that contains the route towards the source. The buffer contains an 
-<a href="https://msdn.microsoft.com/6712ed2f-c5b4-416b-b345-a3d0c5d26820">RTM_DEST_INFO</a> structure. 
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_dest_info">RTM_DEST_INFO</a> structure. 
 
 
 

@@ -60,7 +60,7 @@ Starts the decoding operation.
 
 ### -param pRenderTarget [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a> interface of the render target where the decoded frame will be written.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a> interface of the render target where the decoded frame will be written.
 
 
 ### -param pvPVPData [in]
@@ -111,13 +111,13 @@ Invalid surface type. See Remarks.
 
 
 
-After this method is called, call <a href="https://msdn.microsoft.com/3c957b2f-4bba-4c39-84de-719c08e1bf78">IDirectXVideoDecoder::Execute</a> to perform decoding operations. When all decoding operations have been executed, call <a href="https://msdn.microsoft.com/4b8d391e-b679-4adb-8b01-2899996ede46">IDirectXVideoDecoder::EndFrame</a>.
+After this method is called, call <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-execute">IDirectXVideoDecoder::Execute</a> to perform decoding operations. When all decoding operations have been executed, call <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-endframe">IDirectXVideoDecoder::EndFrame</a>.
 
-Each call to <b>BeginFrame</b> must have a matching call to <a href="https://msdn.microsoft.com/4b8d391e-b679-4adb-8b01-2899996ede46">EndFrame</a>, and <b>BeginFrame</b> calls cannot be nested.
+Each call to <b>BeginFrame</b> must have a matching call to <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-endframe">EndFrame</a>, and <b>BeginFrame</b> calls cannot be nested.
 
 DXVA 1.0 migration note: Unlike the <b>IAMVideoAccelerator::BeginFrame</b> method, which specifies the buffer as an index, this method takes a pointer directly to the uncompressed buffer.
 
-The surface pointed to by <i>pRenderTarget</i> must be created by calling <a href="https://msdn.microsoft.com/34ed2029-7c79-45ce-962d-df4970babb23">IDirectXVideoAccelerationService::CreateSurface</a> with the value DXVA2_VideoDecoderRenderTarget for <i>DxvaType</i>.
+The surface pointed to by <i>pRenderTarget</i> must be created by calling <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoaccelerationservice-createsurface">IDirectXVideoAccelerationService::CreateSurface</a> with the value DXVA2_VideoDecoderRenderTarget for <i>DxvaType</i>.
 
 
 
@@ -127,11 +127,11 @@ The surface pointed to by <i>pRenderTarget</i> must be created by calling <a hre
 
 
 
-<a href="https://msdn.microsoft.com/acb73b20-89fa-4a48-be4a-846715a239b0">DirectX Video Acceleration 2.0</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/directx-video-acceleration-2-0">DirectX Video Acceleration 2.0</a>
 
 
 
-<a href="https://msdn.microsoft.com/116c19a3-39be-4f96-969f-f3d62ed33a70">IDirectXVideoDecoder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideodecoder">IDirectXVideoDecoder</a>
  
 
  

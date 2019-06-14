@@ -64,12 +64,12 @@ A pointer to the element that raised the event.
 
 ### -param uiaChanges [in]
 
-A collection of pointers to <a href="https://msdn.microsoft.com/28C0C0DE-7ED2-4D01-B532-E56AD81AE8D0">UiaChangeInfo</a> structures.
+A collection of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ns-uiautomationcore-uiachangeinfo">UiaChangeInfo</a> structures.
 
 
 ### -param changesCount [in]
 
-The number of changes that occurred. This is the number of <a href="https://msdn.microsoft.com/28C0C0DE-7ED2-4D01-B532-E56AD81AE8D0">UiaChangeInfo</a> structures pointed to by the <i>uiaChanges</i> parameter.
+The number of changes that occurred. This is the number of <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ns-uiautomationcore-uiachangeinfo">UiaChangeInfo</a> structures pointed to by the <i>uiaChanges</i> parameter.
 
 
 ## -returns
@@ -85,7 +85,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method is implemented by the application to handle events that it has subscribed to by calling <a href="https://msdn.microsoft.com/E479ACCA-9372-463F-A992-8030E33A2341">AddChangesEventHandler</a>.
+This method is implemented by the application to handle events that it has subscribed to by calling <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation4-addchangeseventhandler">AddChangesEventHandler</a>.
 
 
 
@@ -95,7 +95,7 @@ This method is implemented by the application to handle events that it has subsc
 
 
 
-<a href="https://msdn.microsoft.com/8DCF8826-B688-416C-9195-34E0290054AA">IUIAutomationChangesEventHandler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationchangeseventhandler">IUIAutomationChangesEventHandler</a>
  
 
  

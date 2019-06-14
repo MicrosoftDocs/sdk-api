@@ -59,12 +59,12 @@ The <b>WINBIO_ASYNC_RESULT</b> structure contains the results of an asynchronous
 
 ### -field SessionHandle
 
-Handle of an asynchronous session started by calling the <a href="https://msdn.microsoft.com/711EDE14-A2EE-415D-8FB6-562D71D68146">WinBioAsyncOpenSession</a> function or the <a href="https://msdn.microsoft.com/D9557A6F-32C4-464F-8800-6E546808F100">WinBioAsyncOpenFramework</a> function.
+Handle of an asynchronous session started by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncopensession">WinBioAsyncOpenSession</a> function or the <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncopenframework">WinBioAsyncOpenFramework</a> function.
 
 
 ### -field Operation
 
-Type of the asynchronous operation. For more information, see <a href="https://msdn.microsoft.com/D4ECEF91-BEC7-4A42-8808-F09F5C141180">WINBIO_OPERATION_TYPE Constants</a>.
+Type of the asynchronous operation. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-operation-type-constants">WINBIO_OPERATION_TYPE Constants</a>.
 
 
 ### -field SequenceNumber
@@ -99,7 +99,7 @@ Union that encloses nested structures that contain additional information about 
 
 ### -field Parameters.Verify
 
-Contains the results of an asynchronous call to <a href="https://msdn.microsoft.com/7266ca33-d3f9-421f-8265-e23a3ec3a77e">WinBioVerify</a>.
+Contains the results of an asynchronous call to <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioverify">WinBioVerify</a>.
 
 
 ### -field Parameters.Verify.Match
@@ -114,7 +114,7 @@ Additional information about verification failure. For more information, see Rem
 
 ### -field Parameters.Identify
 
-Contains the results of an asynchronous call to <a href="https://msdn.microsoft.com/aaa9b4cd-81d4-4fee-a40a-5563997c42e8">WinBioIdentify</a>.
+Contains the results of an asynchronous call to <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioidentify">WinBioIdentify</a>.
 
 
 ### -field Parameters.Identify.Identity
@@ -134,7 +134,7 @@ Additional information about the failure, if any, to capture and identify a biom
 
 ### -field Parameters.EnrollBegin
 
-Contains the results of an asynchronous call to <a href="https://msdn.microsoft.com/ee706f2a-f544-4f53-b776-064d32e8acc8">WinBioEnrollBegin</a>.
+Contains the results of an asynchronous call to <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenrollbegin">WinBioEnrollBegin</a>.
 
 
 ### -field Parameters.EnrollBegin.SubFactor
@@ -144,7 +144,7 @@ Additional information about the enrollment. For more information, see Remarks.
 
 ### -field Parameters.EnrollCapture
 
-Contains the results of an asynchronous call to  <a href="https://msdn.microsoft.com/a50f0c9f-7b9c-4d80-b8fc-8b83bc333578">WinBioEnrollCapture</a>.
+Contains the results of an asynchronous call to  <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenrollcapture">WinBioEnrollCapture</a>.
 
 
 ### -field Parameters.EnrollCapture.RejectDetail
@@ -154,7 +154,7 @@ Additional information about the failure to capture a biometric sample. For more
 
 ### -field Parameters.EnrollCommit
 
-Contains the results of an asynchronous call to  <a href="https://msdn.microsoft.com/ed9242e5-fee7-46ca-b42c-cda1b5dcdc78">WinBioEnrollCommit</a>.
+Contains the results of an asynchronous call to  <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenrollcommit">WinBioEnrollCommit</a>.
 
 
 ### -field Parameters.EnrollCommit.Identity
@@ -169,7 +169,7 @@ Specifies whether the template being added to the database is new.
 
 ### -field Parameters.EnumEnrollments
 
-Contains the results of an asynchronous call to <a href="https://msdn.microsoft.com/bd5fd36a-ed90-4dd0-8a84-0412544493dd">WinBioEnumEnrollments</a>.
+Contains the results of an asynchronous call to <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenumenrollments">WinBioEnumEnrollments</a>.
 
 
 ### -field Parameters.EnumEnrollments.Identity
@@ -189,17 +189,17 @@ Pointer to an array of sub-factors. For more information, see Remarks.
 
 ### -field Parameters.CaptureSample
 
-Contains the results of an asynchronous call to <a href="https://msdn.microsoft.com/365dcefb-3382-4b62-b47d-919e2d3f56f1">WinBioCaptureSample</a>.
+Contains the results of an asynchronous call to <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiocapturesample">WinBioCaptureSample</a>.
 
 
 ### -field Parameters.CaptureSample.Sample
 
-Pointer to a <a href="https://msdn.microsoft.com/39cfab34-0416-4897-bf95-a1b3c3a6a7a1">WINBIO_BIR</a> structure that contains the sample. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> structure that contains the sample. 
 
 
 ### -field Parameters.CaptureSample.SampleSize
 
-Size, in bytes, of the <a href="https://msdn.microsoft.com/39cfab34-0416-4897-bf95-a1b3c3a6a7a1">WINBIO_BIR</a> structure returned in the <b>Sample</b> member.
+Size, in bytes, of the <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> structure returned in the <b>Sample</b> member.
 
 
 ### -field Parameters.CaptureSample.RejectDetail
@@ -209,7 +209,7 @@ Additional information about the failure to capture a biometric sample. For more
 
 ### -field Parameters.DeleteTemplate
 
-Contains the results of an asynchronous call to <a href="https://msdn.microsoft.com/aad22c42-d306-42b5-8415-0b561c8bcecf">WinBioDeleteTemplate</a>.
+Contains the results of an asynchronous call to <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiodeletetemplate">WinBioDeleteTemplate</a>.
 
 
 ### -field Parameters.DeleteTemplate.Identity
@@ -224,7 +224,7 @@ Additional information about the template.
 
 ### -field Parameters.GetProperty
 
-Contains the results of an asynchronous call to <a href="https://msdn.microsoft.com/63e38e74-3d46-4474-a31c-eaf724156bc6">WinBioGetProperty</a>.
+Contains the results of an asynchronous call to <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiogetproperty">WinBioGetProperty</a>.
 
 
 ### -field Parameters.GetProperty.PropertyType
@@ -259,7 +259,7 @@ Pointer to  the property value.
 
 ### -field Parameters.SetProperty
 
-Contains the results of an asynchronous call to <a href="https://msdn.microsoft.com/569AAEF0-DA06-4005-9874-2762BE96539F">WinBioSetProperty</a>. This member is supported starting in Windows 10.
+Contains the results of an asynchronous call to <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiosetproperty">WinBioSetProperty</a>. This member is supported starting in Windows 10.
 
 
 
@@ -280,7 +280,7 @@ A <b>WINBIO_PROPERTY_ID</b> value that specifies the property that was set. Curr
 
 ### -field Parameters.SetProperty.Identity
 
-A <a href="https://msdn.microsoft.com/58a5f4ba-2f58-466c-90fd-9480c3c095db">WINBIO_IDENTITY</a> structure that specifies the account for which the property was set.
+A <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-identity">WINBIO_IDENTITY</a> structure that specifies the account for which the property was set.
 
 
 ### -field Parameters.SetProperty.SubFactor
@@ -295,7 +295,7 @@ Reserved. Currently, this value will always be <b>WINBIO_SUBTYPE_NO_INFORMATION<
 
 ### -field Parameters.SetProperty.PropertyBuffer
 
-A pointer to a structure that specifies the value to which the property was set.  For the <b>WINBIO_PROPERTY_ANTI_SPOOF_POLICY</b> property, the structure is  a <a href="https://msdn.microsoft.com/2B433AE8-21A0-4AF1-853C-9074527DB2E4">WINBIO_ANTI_SPOOF_POLICY</a> structure.
+A pointer to a structure that specifies the value to which the property was set.  For the <b>WINBIO_PROPERTY_ANTI_SPOOF_POLICY</b> property, the structure is  a <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-anti-spoof-policy">WINBIO_ANTI_SPOOF_POLICY</a> structure.
 
 
 ### -field Parameters.GetEvent
@@ -310,7 +310,7 @@ Contains event information.
 
 ### -field Parameters.ControlUnit
 
-Contains the results of an asynchronous call to <a href="https://msdn.microsoft.com/5d11f72a-3392-4089-a563-1771f8c2c8f7">WinBioControlUnit</a> or <a href="https://msdn.microsoft.com/102299e9-3276-4802-bd65-c3dd593f07b8">WinBioControlUnitPrivileged</a>.
+Contains the results of an asynchronous call to <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiocontrolunit">WinBioControlUnit</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiocontrolunitprivileged">WinBioControlUnitPrivileged</a>.
 
 
 ### -field Parameters.ControlUnit.Component
@@ -320,7 +320,7 @@ The component within the biometric unit that performed the operation.
 
 ### -field Parameters.ControlUnit.ControlCode
 
-Vendor-defined code recognized by the biometric unit specified by the <i>UnitId</i> parameter of the <a href="https://msdn.microsoft.com/5d11f72a-3392-4089-a563-1771f8c2c8f7">WinBioControlUnit</a> or  <a href="https://msdn.microsoft.com/102299e9-3276-4802-bd65-c3dd593f07b8">WinBioControlUnitPrivileged</a> function and the adapter specified by the <i>Component</i> parameter.
+Vendor-defined code recognized by the biometric unit specified by the <i>UnitId</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiocontrolunit">WinBioControlUnit</a> or  <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiocontrolunitprivileged">WinBioControlUnitPrivileged</a> function and the adapter specified by the <i>Component</i> parameter.
 
 
 ### -field Parameters.ControlUnit.OperationStatus
@@ -355,7 +355,7 @@ Size, in bytes, of the data written to the buffer specified by the <b>ReceiveBuf
 
 ### -field Parameters.EnumServiceProviders
 
-Contains the results of an asynchronous call to <a href="https://msdn.microsoft.com/2424eae8-4fc6-43f4-97a1-3340870396cc">WinBioEnumServiceProviders</a> or <a href="https://msdn.microsoft.com/5B194DE3-2809-4C32-8D5F-EDF23B6CD87E">WinBioAsyncEnumServiceProviders</a>.
+Contains the results of an asynchronous call to <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenumserviceproviders">WinBioEnumServiceProviders</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncenumserviceproviders">WinBioAsyncEnumServiceProviders</a>.
 
 
 ### -field Parameters.EnumServiceProviders.BspCount
@@ -365,12 +365,12 @@ The number of structures pointed to by the <b>BspSchemaArray</b> member.
 
 ### -field Parameters.EnumServiceProviders.BspSchemaArray
 
-Pointer to an array of <a href="https://msdn.microsoft.com/d690c735-55a1-4e2c-8b39-d52a1972bf93">WINBIO_BSP_SCHEMA</a> structures that contain information about each of the available service providers.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-bsp-schema">WINBIO_BSP_SCHEMA</a> structures that contain information about each of the available service providers.
 
 
 ### -field Parameters.EnumBiometricUnits
 
-Contains the results of an asynchronous call to <a href="https://msdn.microsoft.com/e1ca5712-978e-4e31-a941-eb462c670eac">WinBioEnumBiometricUnits</a> or <a href="https://msdn.microsoft.com/3A7CEC71-7352-43B7-83D3-447D487C4703">WinBioAsyncEnumBiometricUnits</a>.
+Contains the results of an asynchronous call to <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenumbiometricunits">WinBioEnumBiometricUnits</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncenumbiometricunits">WinBioAsyncEnumBiometricUnits</a>.
 
 
 ### -field Parameters.EnumBiometricUnits.UnitCount
@@ -380,12 +380,12 @@ Number of structures pointed to by the <b>UnitSchemaArray</b> member.
 
 ### -field Parameters.EnumBiometricUnits.UnitSchemaArray
 
-An array of <a href="https://msdn.microsoft.com/b20adf18-2948-481f-9d12-8da17aa152f7">WINBIO_UNIT_SCHEMA</a> structures that contain information about each enumerated biometric unit.
+An array of <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-unit-schema">WINBIO_UNIT_SCHEMA</a> structures that contain information about each enumerated biometric unit.
 
 
 ### -field Parameters.EnumDatabases
 
-Contains the results of an asynchronous call to <a href="https://msdn.microsoft.com/163c669d-765f-4f8d-83c4-ff8bd064e44d">WinBioEnumDatabases</a> or <a href="https://msdn.microsoft.com/405AB590-B579-4B61-9CE7-BF21D9E56600">WinBioAsyncEnumDatabases</a>.
+Contains the results of an asynchronous call to <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenumdatabases">WinBioEnumDatabases</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncenumdatabases">WinBioAsyncEnumDatabases</a>.
 
 
 ### -field Parameters.EnumDatabases.StorageCount
@@ -395,7 +395,7 @@ Number of structures pointed to by the <b>StorageSchemaArray</b> member.
 
 ### -field Parameters.EnumDatabases.StorageSchemaArray
 
-Array of <a href="https://msdn.microsoft.com/e4924803-5a1b-4e0a-b2cb-01d018d27ba1">WINBIO_STORAGE_SCHEMA</a> structures that contain information about each database.
+Array of <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-storage-schema">WINBIO_STORAGE_SCHEMA</a> structures that contain information about each database.
 
 
 ### -field Parameters.VerifyAndReleaseTicket
@@ -445,7 +445,7 @@ Reserved.
 
 ### -field Parameters.EnrollSelect
 
-Contains the results of an asynchronous call to <a href="https://msdn.microsoft.com/9C06B976-9B60-43B6-B68B-255A6882912B">WinBioEnrollSelect</a>. This member is supported starting in Windows 10.
+Contains the results of an asynchronous call to <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenrollselect">WinBioEnrollSelect</a>. This member is supported starting in Windows 10.
 
 
 ### -field Parameters.EnrollSelect.SelectorValue
@@ -455,7 +455,7 @@ A value that identifies that individual that was  selected for enrollment.
 
 ### -field Parameters.MonitorPresence
 
-Contains the results of an asynchronous call to <a href="https://msdn.microsoft.com/973DA92D-7319-43A9-B4FF-3CAF8A644C50">WinBioMonitorPresence</a>. This member is supported starting in Windows 10.
+Contains the results of an asynchronous call to <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiomonitorpresence">WinBioMonitorPresence</a>. This member is supported starting in Windows 10.
 
 
 ### -field Parameters.MonitorPresence.ChangeType
@@ -470,7 +470,7 @@ The size of the array that the <b>MonitorPresence.PresenceArray</b> member point
 
 ### -field Parameters.MonitorPresence.PresenceArray
 
-Address of the array of <a href="https://msdn.microsoft.com/810D452E-DDFA-4AB2-AEFB-0C170C0C18D4">WINBIO_PRESENCE</a> structures, one for each individual monitored.
+Address of the array of <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-presence">WINBIO_PRESENCE</a> structures, one for each individual monitored.
 
 
 ### -field Parameters.GetProtectionPolicy
@@ -504,104 +504,104 @@ Address of the array of <a href="https://msdn.microsoft.com/810D452E-DDFA-4AB2-A
 
 
 
-Asynchronous operations are begun by opening a biometric session  or a framework session. Call <a href="https://msdn.microsoft.com/711EDE14-A2EE-415D-8FB6-562D71D68146">WinBioAsyncOpenSession</a> to open a biometric session. Call <a href="https://msdn.microsoft.com/D9557A6F-32C4-464F-8800-6E546808F100">WinBioAsyncOpenFramework</a> to open a framework session.
+Asynchronous operations are begun by opening a biometric session  or a framework session. Call <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncopensession">WinBioAsyncOpenSession</a> to open a biometric session. Call <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncopenframework">WinBioAsyncOpenFramework</a> to open a framework session.
 
 You can use an asynchronous biometric session handle to call any of the following operations asynchronously:<ul>
 <li>
-<a href="https://msdn.microsoft.com/62176608-1545-47d2-b4be-37bb2a4a064b">WinBioCancel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiocancel">WinBioCancel</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/365dcefb-3382-4b62-b47d-919e2d3f56f1">WinBioCaptureSample</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiocapturesample">WinBioCaptureSample</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/b0adcf87-2f99-4154-a4fb-fb2f07181cd0">WinBioCloseSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioclosesession">WinBioCloseSession</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/5d11f72a-3392-4089-a563-1771f8c2c8f7">WinBioControlUnit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiocontrolunit">WinBioControlUnit</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/102299e9-3276-4802-bd65-c3dd593f07b8">WinBioControlUnitPrivileged</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiocontrolunitprivileged">WinBioControlUnitPrivileged</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/aad22c42-d306-42b5-8415-0b561c8bcecf">WinBioDeleteTemplate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiodeletetemplate">WinBioDeleteTemplate</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/ee706f2a-f544-4f53-b776-064d32e8acc8">WinBioEnrollBegin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenrollbegin">WinBioEnrollBegin</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/a50f0c9f-7b9c-4d80-b8fc-8b83bc333578">WinBioEnrollCapture</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenrollcapture">WinBioEnrollCapture</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/ed9242e5-fee7-46ca-b42c-cda1b5dcdc78">WinBioEnrollCommit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenrollcommit">WinBioEnrollCommit</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/0b029ace-1f5d-4cb2-9f09-51e5a11d2e5a">WinBioEnrollDiscard</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenrolldiscard">WinBioEnrollDiscard</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/bd5fd36a-ed90-4dd0-8a84-0412544493dd">WinBioEnumEnrollments</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenumenrollments">WinBioEnumEnrollments</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/63e38e74-3d46-4474-a31c-eaf724156bc6">WinBioGetProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiogetproperty">WinBioGetProperty</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/aaa9b4cd-81d4-4fee-a40a-5563997c42e8">WinBioIdentify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioidentify">WinBioIdentify</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/61110f24-aa3b-4c51-9205-acac92e03554">WinBioLocateSensor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiolocatesensor">WinBioLocateSensor</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/421520eb-ae67-4ead-8202-ffa468a20bdd">WinBioLockUnit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiolockunit">WinBioLockUnit</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/0df6da19-e23b-445f-82d9-bd51cda3ae15">WinBioLogonIdentifiedUser</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiologonidentifieduser">WinBioLogonIdentifiedUser</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/408291ca-66fe-4f4a-8f6e-3a1b60eb2d15">WinBioRegisterEventMonitor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioregistereventmonitor">WinBioRegisterEventMonitor</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/689adf39-da62-4e83-94e9-e2daa7bd4753">WinBioUnlockUnit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiounlockunit">WinBioUnlockUnit</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/41a018be-2c7e-4700-8447-4fd5f919e5ba">WinBioUnregisterEventMonitor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiounregistereventmonitor">WinBioUnregisterEventMonitor</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/7266ca33-d3f9-421f-8265-e23a3ec3a77e">WinBioVerify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioverify">WinBioVerify</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/3cf8b02b-5009-4244-b954-e82d47ed4735">WinBioWait</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiowait">WinBioWait</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/569AAEF0-DA06-4005-9874-2762BE96539F">WinBioSetProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiosetproperty">WinBioSetProperty</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/9C06B976-9B60-43B6-B68B-255A6882912B">WinBioEnrollSelect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenrollselect">WinBioEnrollSelect</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/973DA92D-7319-43A9-B4FF-3CAF8A644C50">WinBioMonitorPresence</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiomonitorpresence">WinBioMonitorPresence</a>
 </li>
 </ul>
 
 
 You can use an asynchronous framework handle to call the following operations asynchronously:<ul>
 <li>
-<a href="https://msdn.microsoft.com/3A7CEC71-7352-43B7-83D3-447D487C4703">WinBioAsyncEnumBiometricUnits</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncenumbiometricunits">WinBioAsyncEnumBiometricUnits</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/405AB590-B579-4B61-9CE7-BF21D9E56600">WinBioAsyncEnumDatabases</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncenumdatabases">WinBioAsyncEnumDatabases</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/D9557A6F-32C4-464F-8800-6E546808F100">WinBioAsyncOpenFramework</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncopenframework">WinBioAsyncOpenFramework</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/5B194DE3-2809-4C32-8D5F-EDF23B6CD87E">WinBioAsyncEnumServiceProviders</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncenumserviceproviders">WinBioAsyncEnumServiceProviders</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/4BA91B17-DA7D-456C-A815-ED25A3C5D74A">WinBioAsyncMonitorFrameworkChanges</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncmonitorframeworkchanges">WinBioAsyncMonitorFrameworkChanges</a>
 </li>
 </ul>
 
 
-The <b>WINBIO_ASYNC_RESULT</b> structure is allocated internally by the Windows Biometric Framework. Therefore, when you are through using it, call <a href="https://msdn.microsoft.com/b570fc6c-a08e-4485-a621-20f59bd63d40">WinBioFree</a> to release the allocated memory and avoid leaks. Because this also releases all nested data structures, you should not keep a copy of any pointers returned in the <b>WINBIO_ASYNC_RESULT</b> structure. If you want to save any data returned in a nested structure, make a private copy of that data before calling <b>WinBioFree</b>.
+The <b>WINBIO_ASYNC_RESULT</b> structure is allocated internally by the Windows Biometric Framework. Therefore, when you are through using it, call <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiofree">WinBioFree</a> to release the allocated memory and avoid leaks. Because this also releases all nested data structures, you should not keep a copy of any pointers returned in the <b>WINBIO_ASYNC_RESULT</b> structure. If you want to save any data returned in a nested structure, make a private copy of that data before calling <b>WinBioFree</b>.
 
 <b>Windows 8, Windows Server 2012, Windows 8.1 and Windows Server 2012 R2:  </b>The Windows Biometric Framework supports only fingerprint readers. Therefore, if an operation fails and returns additional information in a <b>WINBIO_REJECT_DETAIL</b> constant, it will be one of the following values:<ul>
 <li>WINBIO_FP_TOO_HIGH</li>
@@ -645,15 +645,15 @@ Further, if an operation uses a <b>WINBIO_BIOMETRIC_SUBTYPE</b> data type, it wi
 
 
 
-<a href="https://msdn.microsoft.com/b1ae4e65-9e53-42dd-99ba-1910b72688dd">WINBIO_REJECT_DETAIL Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-reject-detail-constants">WINBIO_REJECT_DETAIL Constants</a>
 
 
 
-<a href="https://msdn.microsoft.com/D9557A6F-32C4-464F-8800-6E546808F100">WinBioAsyncOpenFramework</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncopenframework">WinBioAsyncOpenFramework</a>
 
 
 
-<a href="https://msdn.microsoft.com/711EDE14-A2EE-415D-8FB6-562D71D68146">WinBioAsyncOpenSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncopensession">WinBioAsyncOpenSession</a>
  
 
  

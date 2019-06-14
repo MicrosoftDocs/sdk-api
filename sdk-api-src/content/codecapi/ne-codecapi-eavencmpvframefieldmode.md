@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Specifies whether the encoder produces encoded fields or encoded frames. This enumeration is used with the <a href="https://msdn.microsoft.com/bf21ea55-662f-4a69-8528-67592b8b8645">AVEncMPVFrameFieldMode</a> property.
+Specifies whether the encoder produces encoded fields or encoded frames. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencmpvframefieldmode-property">AVEncMPVFrameFieldMode</a> property.
 
 
 
@@ -75,11 +75,11 @@ The encoder produces an MPEG picture for each frame (or pair of fields) in the s
 
 
 
-<a href="https://msdn.microsoft.com/5d6e48cb-d181-448e-a96e-e5ab500427d7">Codec API Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
  
 
  

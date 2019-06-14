@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-The  <b>ICertificationAuthorities</b> interface defines the following methods and properties that manage a collection of <a href="https://msdn.microsoft.com/ffd64396-a258-4cf5-aca1-a61102ecf313">ICertificationAuthority</a> objects.
+The  <b>ICertificationAuthorities</b> interface defines the following methods and properties that manage a collection of <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertificationauthority">ICertificationAuthority</a> objects.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertificationAuthorities</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICertificationAuthorities</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertificationAuthorities</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertificationAuthorities</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,10 +70,10 @@ The <b>ICertificationAuthorities</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8a618b8b-9089-4f35-afd4-b11255a26ac9">Add</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertificationauthorities-add">Add</a>
 </td>
 <td align="left" width="63%">
-Adds an <a href="https://msdn.microsoft.com/ffd64396-a258-4cf5-aca1-a61102ecf313">ICertificationAuthority</a> object to the collection.
+Adds an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertificationauthority">ICertificationAuthority</a> object to the collection.
 
 [WebEnabled]
 
@@ -81,16 +81,16 @@ Adds an <a href="https://msdn.microsoft.com/ffd64396-a258-4cf5-aca1-a61102ecf313
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/191f5abd-515d-4a84-8031-466c9de977cb">Clear</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertificationauthorities-clear">Clear</a>
 </td>
 <td align="left" width="63%">
-Removes all <a href="https://msdn.microsoft.com/ffd64396-a258-4cf5-aca1-a61102ecf313">ICertificationAuthority</a> objects from the collection.
+Removes all <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertificationauthority">ICertificationAuthority</a> objects from the collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8dae92da-e4b9-4512-b4f4-463b5a92a0d1">ComputeSiteCosts</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertificationauthorities-computesitecosts">ComputeSiteCosts</a>
 </td>
 <td align="left" width="63%">
 Not currently used.
@@ -99,10 +99,10 @@ Not currently used.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/97fb196f-eba0-4d73-b89b-f2eb477747fe">Remove</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertificationauthorities-remove">Remove</a>
 </td>
 <td align="left" width="63%">
-Removes an <a href="https://msdn.microsoft.com/ffd64396-a258-4cf5-aca1-a61102ecf313">ICertificationAuthority</a> object from the collection by index number.
+Removes an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertificationauthority">ICertificationAuthority</a> object from the collection by index number.
 
 </td>
 </tr>
@@ -117,7 +117,7 @@ Removes an <a href="https://msdn.microsoft.com/ffd64396-a258-4cf5-aca1-a61102ecf
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8e83859c-8f61-4864-8b4d-5056c604d219">_NewEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertificationauthorities-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -133,7 +133,7 @@ Retrieves the enumerator for the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/6b8d5c73-1df5-47b6-9cc1-afe94ff5ceb6">Count</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertificationauthorities-get_count">Count</a>
 
 
 </td>
@@ -142,7 +142,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves the number of <a href="https://msdn.microsoft.com/ffd64396-a258-4cf5-aca1-a61102ecf313">ICertificationAuthority</a> objects in the collection.
+Retrieves the number of <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertificationauthority">ICertificationAuthority</a> objects in the collection.
 
 [WebEnabled]
 
@@ -151,7 +151,7 @@ Retrieves the number of <a href="https://msdn.microsoft.com/ffd64396-a258-4cf5-a
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/cc03b30c-0b61-4bf1-a688-c088e8420736">ItemByIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertificationauthorities-get_itembyindex">ItemByIndex</a>
 
 
 </td>
@@ -160,7 +160,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://msdn.microsoft.com/ffd64396-a258-4cf5-aca1-a61102ecf313">ICertificationAuthority</a> object from the collection by index number.
+Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertificationauthority">ICertificationAuthority</a> object from the collection by index number.
 
 [WebEnabled]
 
@@ -169,7 +169,7 @@ Retrieves an <a href="https://msdn.microsoft.com/ffd64396-a258-4cf5-aca1-a61102e
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/90d620d6-1060-46fc-b593-9cb819b4eac8">ItemByName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertificationauthorities-get_itembyname">ItemByName</a>
 
 
 </td>
@@ -178,7 +178,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://msdn.microsoft.com/ffd64396-a258-4cf5-aca1-a61102ecf313">ICertificationAuthority</a> object from the collection by certification authority name.
+Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertificationauthority">ICertificationAuthority</a> object from the collection by certification authority name.
 
 [WebEnabled]
 
@@ -192,11 +192,11 @@ Retrieves an <a href="https://msdn.microsoft.com/ffd64396-a258-4cf5-aca1-a61102e
 
 
 
-<a href="https://msdn.microsoft.com/ffd64396-a258-4cf5-aca1-a61102ecf313">ICertificationAuthority</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertificationauthority">ICertificationAuthority</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

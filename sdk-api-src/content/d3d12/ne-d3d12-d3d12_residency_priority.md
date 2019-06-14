@@ -76,12 +76,12 @@ Indicates a normal, medium, priority.
 
 ### -field D3D12_RESIDENCY_PRIORITY_HIGH
 
-Indicates a high priority. Applications are discouraged from using priories greater than this. For more information see <a href="https://msdn.microsoft.com/C489AA41-B2FC-418D-8268-9C02E5E10E0D">ID3D12Device1::SetResidencyPriority</a>.
+Indicates a high priority. Applications are discouraged from using priories greater than this. For more information see <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device1-setresidencypriority">ID3D12Device1::SetResidencyPriority</a>.
 
 
 ### -field D3D12_RESIDENCY_PRIORITY_MAXIMUM
 
-Indicates a maximum priority. Applications are discouraged from using priorities greater than this; <b>D3D12_RESIDENCY_PRIORITY_MAXIMUM</b> is not guaranteed to be available. For more information see <a href="https://msdn.microsoft.com/C489AA41-B2FC-418D-8268-9C02E5E10E0D">ID3D12Device1::SetResidencyPriority</a>
+Indicates a maximum priority. Applications are discouraged from using priorities greater than this; <b>D3D12_RESIDENCY_PRIORITY_MAXIMUM</b> is not guaranteed to be available. For more information see <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device1-setresidencypriority">ID3D12Device1::SetResidencyPriority</a>
 
 
 
@@ -89,7 +89,7 @@ Indicates a maximum priority. Applications are discouraged from using priorities
 
 
 
-This enum is used by the <a href="https://msdn.microsoft.com/C489AA41-B2FC-418D-8268-9C02E5E10E0D">SetResidencyPriority</a> method.
+This enum is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device1-setresidencypriority">SetResidencyPriority</a> method.
 
 
 
@@ -99,7 +99,7 @@ This enum is used by the <a href="https://msdn.microsoft.com/C489AA41-B2FC-418D-
 
 
 
-<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
  
 
  

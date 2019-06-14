@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[This method has been deprecated. Use <a href="https://msdn.microsoft.com/1263bba8-63c8-4630-ab59-bb4ae10061fc">IFolderView::SelectAndPositionItems</a> instead.]
+<p class="CCE_Message">[This method has been deprecated. Use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-selectandpositionitems">IFolderView::SelectAndPositionItems</a> instead.]
 
 Sets the position of the given item.
 
@@ -68,7 +68,7 @@ A PIDL that corresponds to the item for which the position is being set.
 
 ### -param ppt [in]
 
-Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>*</b>
 
 A pointer to a structure that contains the new coordinates of the item relative to the ListView contained in the view.
 

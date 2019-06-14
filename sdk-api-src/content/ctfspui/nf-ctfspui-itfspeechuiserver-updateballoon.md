@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ### -param style [in]
 
-Contains a <a href="https://msdn.microsoft.com/c79eb490-b950-4d49-bdf9-821f3706446d">TfLBBalloonStyle</a> element that specifies the balloon style.
+Contains a <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/ne-ctfutb-__midl_itflangbaritemballoon_0001">TfLBBalloonStyle</a> element that specifies the balloon style.
 
 
 ### -param pch [in]
@@ -104,12 +104,12 @@ The method was successful.
 
 
 
-<a href="https://msdn.microsoft.com/40961001-b659-4ddb-ae7d-5342957770be">ITfSpeechUIServer
+<a href="https://docs.microsoft.com/windows/desktop/api/ctfspui/nn-ctfspui-itfspeechuiserver">ITfSpeechUIServer
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/c79eb490-b950-4d49-bdf9-821f3706446d">TfLBBalloonStyle
+<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/ne-ctfutb-__midl_itflangbaritemballoon_0001">TfLBBalloonStyle
       </a>
  
 

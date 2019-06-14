@@ -60,7 +60,7 @@ The <b>IDvbSatelliteDeliverySystemDescriptor</b> interface enables the client to
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbSatelliteDeliverySystemDescriptor</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDvbSatelliteDeliverySystemDescriptor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbSatelliteDeliverySystemDescriptor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvbSatelliteDeliverySystemDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IDvbSatelliteDeliverySystemDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fe90fcd7-e77b-42c8-935f-4cf02957400f">GetFECInner</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsatellitedeliverysystemdescriptor-getfecinner">GetFECInner</a>
 </td>
 <td align="left" width="63%">
 Returns the inner forward error correction (FEC) scheme.
@@ -84,7 +84,7 @@ Returns the inner forward error correction (FEC) scheme.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dc298f61-f7f1-42dc-a585-bfe9f58b1629">GetFrequency</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsatellitedeliverysystemdescriptor-getfrequency">GetFrequency</a>
 </td>
 <td align="left" width="63%">
 Returns the frequency.
@@ -93,7 +93,7 @@ Returns the frequency.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dd3ce6ba-e9a7-495d-80e7-532e5cf5e94c">GetLength</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsatellitedeliverysystemdescriptor-getlength">GetLength</a>
 </td>
 <td align="left" width="63%">
 Returns the length of the descriptor body.
@@ -102,7 +102,7 @@ Returns the length of the descriptor body.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/66578df9-35f7-4a2b-91ce-3f60cab16dd3">GetModulation</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsatellitedeliverysystemdescriptor-getmodulation">GetModulation</a>
 </td>
 <td align="left" width="63%">
 Returns the modulation scheme.
@@ -111,7 +111,7 @@ Returns the modulation scheme.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1fc3f934-5a9f-4e76-ae1c-e74ea332e8e6">GetOrbitalPosition</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsatellitedeliverysystemdescriptor-getorbitalposition">GetOrbitalPosition</a>
 </td>
 <td align="left" width="63%">
 Returns the orbital position.
@@ -120,7 +120,7 @@ Returns the orbital position.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fe063a08-74bd-40c4-a185-3cc932a0a06d">GetPolarization</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsatellitedeliverysystemdescriptor-getpolarization">GetPolarization</a>
 </td>
 <td align="left" width="63%">
 Returns the polarization of the transmitted signal.
@@ -129,7 +129,7 @@ Returns the polarization of the transmitted signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/184b1cb6-432a-4227-b711-e05201f80bf1">GetSymbolRate</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsatellitedeliverysystemdescriptor-getsymbolrate">GetSymbolRate</a>
 </td>
 <td align="left" width="63%">
 Returns the symbol rate.
@@ -138,7 +138,7 @@ Returns the symbol rate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/217b49b8-8e98-4784-837d-67471fda2ea5">GetTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsatellitedeliverysystemdescriptor-gettag">GetTag</a>
 </td>
 <td align="left" width="63%">
 Returns the descriptor tag.
@@ -147,7 +147,7 @@ Returns the descriptor tag.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/533a2ed4-f5ac-4f41-a03b-0b274f327436">GetWestEastFlag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsatellitedeliverysystemdescriptor-getwesteastflag">GetWestEastFlag</a>
 </td>
 <td align="left" width="63%">
 Returns a flag that specifies whether the satellite is in the western or eastern part of the orbit.
@@ -164,8 +164,8 @@ Returns a flag that specifies whether the satellite is in the western or eastern
 To obtain a pointer to this interface, do the following:
 
 <ol>
-<li>Call <a href="https://msdn.microsoft.com/a7c802ad-908f-4778-b8db-02fff4f3a13e">IDvbSiParser::GetNIT</a> to get the <a href="https://msdn.microsoft.com/70b638ae-0152-4a44-aeb1-f3ac382c19ce">IDVB_NIT</a> interface.</li>
-<li>Call <a href="https://msdn.microsoft.com/e4d3da3c-3631-41c2-b463-a90cd54e42f9">IDVB_NIT::GetRecordDescriptorByTag</a> and pass in the satellite delivery system descriptor tag (0x43). If the descriptor is present, the method returns an <a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor</a> pointer.</li>
+<li>Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-getnit">IDvbSiParser::GetNIT</a> to get the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_nit">IDVB_NIT</a> interface.</li>
+<li>Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_nit-getrecorddescriptorbytag">IDVB_NIT::GetRecordDescriptorByTag</a> and pass in the satellite delivery system descriptor tag (0x43). If the descriptor is present, the method returns an <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-igenericdescriptor">IGenericDescriptor</a> pointer.</li>
 <li>Query the returned <b>IGenericDescriptor</b> pointer for the <b>IDvbSatelliteDeliverySystemDescriptor</b> interface.</li>
 </ol>
 
@@ -176,7 +176,7 @@ To obtain a pointer to this interface, do the following:
 
 
 
-<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
  
 
  

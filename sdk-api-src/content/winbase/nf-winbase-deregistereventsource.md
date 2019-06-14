@@ -64,7 +64,7 @@ Closes the specified event log.
 ### -param hEventLog [in, out]
 
 A handle to the event log. The 
-<a href="https://msdn.microsoft.com/53706f83-6bc9-45d6-981c-bd0680d7bc08">RegisterEventSource</a> function returns this handle.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registereventsourcea">RegisterEventSource</a> function returns this handle.
 
 
 ## -returns
@@ -75,7 +75,7 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -85,15 +85,15 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/fd5c12ec-3a3d-4b75-a573-0b27ae7a890b">Event Logging Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/EventLog/event-logging-functions">Event Logging Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/bc7fdc74-be41-4d17-997c-27171ef73f0f">Event Sources</a>
+<a href="https://docs.microsoft.com/windows/desktop/EventLog/event-sources">Event Sources</a>
 
 
 
-<a href="https://msdn.microsoft.com/53706f83-6bc9-45d6-981c-bd0680d7bc08">RegisterEventSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registereventsourcea">RegisterEventSource</a>
  
 
  

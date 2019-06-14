@@ -144,15 +144,15 @@ The following are the manifest constants associated with the
 
 
 
-<a href="https://msdn.microsoft.com/794d4070-45d7-41c3-8229-660ba3c5f72a">ATM_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2atm/ns-ws2atm-atm_address">ATM_ADDRESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7e09a8e-5990-4493-bd73-016363b57427">ATM_BHLI</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2atm/ns-ws2atm-atm_bhli">ATM_BHLI</a>
 
 
 
-<a href="https://msdn.microsoft.com/6cbeb19f-0aa8-48a1-a46a-691edc542d5a">sockaddr_atm</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2atm/ns-ws2atm-sockaddr_atm">sockaddr_atm</a>
  
 
  

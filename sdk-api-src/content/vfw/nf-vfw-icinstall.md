@@ -97,7 +97,7 @@ Flags defining the contents of <i>lParam</i>. The following values are defined.
 </tr>
 <tr>
 <td>ICINSTALL_FUNCTION</td>
-<td>The <i>lParam</i> parameter contains the address of a compressor function. This function should be structured like the <a href="https://msdn.microsoft.com/d9a5535f-6b80-40cc-a20b-b7a342414d7f">DriverProc</a> entry point function used by compressors.</td>
+<td>The <i>lParam</i> parameter contains the address of a compressor function. This function should be structured like the <a href="https://docs.microsoft.com/previous-versions//dd797918(v=vs.85)">DriverProc</a> entry point function used by compressors.</td>
 </tr>
 </table>
  
@@ -118,7 +118,7 @@ Returns ICERR_OK if successful or an error otherwise.
 
 Applications must open an installed compressor or decompressor before using it.
 
-If your application installs a function as a compressor or decompressor, it should remove the function with the <a href="https://msdn.microsoft.com/c5f2638a-6b75-4e30-8420-94011c73f5bd">ICRemove</a> function before it terminates. This prevents other applications from trying to access the function when it is not available.
+If your application installs a function as a compressor or decompressor, it should remove the function with the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icremove">ICRemove</a> function before it terminates. This prevents other applications from trying to access the function when it is not available.
 
 
 
@@ -128,11 +128,11 @@ If your application installs a function as a compressor or decompressor, it shou
 
 
 
-<a href="https://msdn.microsoft.com/193961a5-b882-4769-bce7-a53d625fc9dd">Video Compression Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-functions">Video Compression Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/df876309-68d3-43a3-9d83-6fdb8f345fdc">Video Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
  
 
  

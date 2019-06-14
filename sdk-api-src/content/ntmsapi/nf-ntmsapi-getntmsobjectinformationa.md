@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<a href="https://msdn.microsoft.com/af7186f8-7921-48e3-a4fd-23259a6e9018">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>GetNtmsObjectInformation</b> function returns an object's information structure for the specified object.
@@ -65,7 +65,7 @@ The
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://msdn.microsoft.com/5a323911-e99c-4f81-9580-0feac2f0a54e">OpenNtmsSession</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 
 ### -param lpObjectId [in]
@@ -76,7 +76,7 @@ Unique identifier of the RSM object.
 ### -param lpInfo [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/56e3380b-47c7-4861-bb2b-31d67ac10fe1">NTMS_OBJECTINFORMATION</a> structure that receives the object information.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure that receives the object information.
 
 
 ## -returns
@@ -173,9 +173,9 @@ The information size and type of the information structure must be set correctly
 
 To avoid unpredictable results, applications must call the 
 <b>GetNtmsObjectInformation</b> function before calling the 
-<a href="https://msdn.microsoft.com/1cdb9c72-1b34-4800-a07d-b648baec8582">SetNtmsObjectInformation</a> function. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsobjectinformation">SetNtmsObjectInformation</a> function. The 
 <b>SetNtmsObjectInformation</b> function updates all writable members of the 
-<a href="https://msdn.microsoft.com/56e3380b-47c7-4861-bb2b-31d67ac10fe1">NTMS_OBJECTINFORMATION</a> structure, therefore the application is responsible for providing a value for all writable members.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure, therefore the application is responsible for providing a value for all writable members.
 
 The following is the list of objects that require special access rights.
 
@@ -258,19 +258,19 @@ The following is the list of objects that require special access rights.
 
 
 
-<a href="https://msdn.microsoft.com/1d2168a3-077e-48fc-8a06-91952213f2cb">GetNtmsObjectSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-getntmsobjectsecurity">GetNtmsObjectSecurity</a>
 
 
 
-<a href="https://msdn.microsoft.com/56e3380b-47c7-4861-bb2b-31d67ac10fe1">NTMS_OBJECTINFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Object Management Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Object Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/1cdb9c72-1b34-4800-a07d-b648baec8582">SetNtmsObjectInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsobjectinformation">SetNtmsObjectInformation</a>
  
 
  

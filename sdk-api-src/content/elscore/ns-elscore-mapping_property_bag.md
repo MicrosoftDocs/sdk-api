@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Contains the text recognition data properties retrieved by <a href="https://msdn.microsoft.com/49f30bdd-4612-423b-9913-9c35ad8a88d5">MappingRecognizeText</a>.
+Contains the text recognition data properties retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingrecognizetext">MappingRecognizeText</a>.
 
 
 
@@ -67,22 +67,22 @@ Size of the structure, used to verify the structure version. This value is requi
 
 ### -field prgResultRanges
 
-Pointer to an array of <a href="https://msdn.microsoft.com/adff7901-1903-45dd-888f-1b8c5bb05de1">MAPPING_DATA_RANGE</a> structures containing all recognized text range results. This member is populated by <a href="https://msdn.microsoft.com/49f30bdd-4612-423b-9913-9c35ad8a88d5">MappingRecognizeText</a>.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-_mapping_data_range">MAPPING_DATA_RANGE</a> structures containing all recognized text range results. This member is populated by <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingrecognizetext">MappingRecognizeText</a>.
 
 
 ### -field dwRangesCount
 
-Number of items in the array indicated by <b>prgResultRanges</b>. This member is populated by <a href="https://msdn.microsoft.com/49f30bdd-4612-423b-9913-9c35ad8a88d5">MappingRecognizeText</a>.
+Number of items in the array indicated by <b>prgResultRanges</b>. This member is populated by <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingrecognizetext">MappingRecognizeText</a>.
 
 
 ### -field pServiceData
 
-Pointer to private service data. The service can document the format of this data so that the application can use it. The service also manages the memory for this data. This member is populated by <a href="https://msdn.microsoft.com/49f30bdd-4612-423b-9913-9c35ad8a88d5">MappingRecognizeText</a>.
+Pointer to private service data. The service can document the format of this data so that the application can use it. The service also manages the memory for this data. This member is populated by <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingrecognizetext">MappingRecognizeText</a>.
 
 
 ### -field dwServiceDataSize
 
-Size, in bytes, of the private service data specified by <b>pServiceData</b>. The size is set to 0 if there is no private data. This member is populated by <a href="https://msdn.microsoft.com/49f30bdd-4612-423b-9913-9c35ad8a88d5">MappingRecognizeText</a>.
+Size, in bytes, of the private service data specified by <b>pServiceData</b>. The size is set to 0 if there is no private data. This member is populated by <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingrecognizetext">MappingRecognizeText</a>.
 
 
 ### -field pCallerData
@@ -114,15 +114,15 @@ The memory for the property bag structure itself is managed by the application. 
 
 
 
-<a href="https://msdn.microsoft.com/58cdccf8-f052-4bb3-9391-2cc537d820dd">Extended Linguistic Services Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/extended-linguistic-services-structures">Extended Linguistic Services Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/adff7901-1903-45dd-888f-1b8c5bb05de1">MAPPING_DATA_RANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-_mapping_data_range">MAPPING_DATA_RANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/49f30bdd-4612-423b-9913-9c35ad8a88d5">MappingRecognizeText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingrecognizetext">MappingRecognizeText</a>
  
 
  

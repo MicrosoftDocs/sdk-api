@@ -106,7 +106,7 @@ Target files in the copy queue  are already present on the target with valid sig
 <td width="60%">
 Callback routine for each node of the queue. If the callback routine returns a nonzero value, the queue processing stops and 
 <b>SetupScanFileQueue</b> returns zero. Issue a 
-<a href="https://msdn.microsoft.com/8aacc6c0-b6fe-4b4a-bbe4-a0351baf1f30">SPFILENOTIFY_QUEUESCAN</a> notification code and a pass a pointer to the target path as <i>Param1</i>.
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/spfilenotify-queuescan">SPFILENOTIFY_QUEUESCAN</a> notification code and a pass a pointer to the target path as <i>Param1</i>.
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ Callback routine for each node of the queue. If the callback routine returns a n
 <td width="60%">
 Callback routine for each node of the queue. If the callback routine returns a nonzero value, the queue processing stops and 
 <b>SetupScanFileQueue</b> returns zero. Issue a SPFILENOTIFY_QUEUESCAN_EX notification and pass a pointer to a 
-<a href="https://msdn.microsoft.com/220b1485-73f0-4c31-aa40-e4c9179bfd0f">FILEPATHS</a> structure as <i>Param1</i>. SPQ_SCAN_USE_CALLBACKEX also checks that the file has a valid signature. Available starting with Windows 2000. On Windows XP only, you can turn off signature checking by combining this flag with SPQ_SCAN_FILE_PRESENCE.
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_filepaths_a">FILEPATHS</a> structure as <i>Param1</i>. SPQ_SCAN_USE_CALLBACKEX also checks that the file has a valid signature. Available starting with Windows 2000. On Windows XP only, you can turn off signature checking by combining this flag with SPQ_SCAN_FILE_PRESENCE.
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ Combined with SPQ_SCAN_FILE_PRESENCE, removes present entries from the copy queu
 </td>
 <td width="60%">
 Available starting with Windows XP. Issues SPFILENOTIFY_QUEUESCAN_SIGNERINFO notification and passes a pointer to a 
-<a href="https://msdn.microsoft.com/c651933f-cf61-4012-9d08-195336f2cb3d">FILEPATHS_SIGNERINFO</a> structure as <i>Param1</i>. Checks each file for a valid signature and reports signature information through the callback function.
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_filepaths_signerinfo_a">FILEPATHS_SIGNERINFO</a> structure as <i>Param1</i>. Checks each file for a valid signature and reports signature information through the callback function.
 
 </td>
 </tr>
@@ -175,8 +175,8 @@ Optional handle to the window to own dialog boxes that are presented. This param
 
 ### -param CallbackRoutine [in]
 
-Optional pointer to a <a href="https://msdn.microsoft.com/41eaa57a-e116-443c-93ee-397456a5c466">FileCallback</a> callback function to be called on each node of the copy queue. The notification code passed to the callback function is 
-<a href="https://msdn.microsoft.com/8aacc6c0-b6fe-4b4a-bbe4-a0351baf1f30">SPFILENOTIFY_QUEUESCAN</a>. This parameter is required if <i>Flags</i> includes SPQ_SCAN_USE_CALLBACK. 
+Optional pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nc-setupapi-psp_file_callback_a">FileCallback</a> callback function to be called on each node of the copy queue. The notification code passed to the callback function is 
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/spfilenotify-queuescan">SPFILENOTIFY_QUEUESCAN</a>. This parameter is required if <i>Flags</i> includes SPQ_SCAN_USE_CALLBACK. 
 
 
 
@@ -247,7 +247,7 @@ The queue passed the check and, if SPQ_SCAN_INFORM_USER was specified, the user 
  
 
 The function returns zero if an error occurred or the callback function returned nonzero. If <i>Result</i> is nonzero, it is the value returned by the callback function that stopped queue processing. If <i>Result</i> is zero, extended error information can be retrieved by a call to 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -257,23 +257,23 @@ The function returns zero if an error occurred or the callback function returned
 
 
 
-<a href="https://msdn.microsoft.com/41eaa57a-e116-443c-93ee-397456a5c466">FileCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nc-setupapi-psp_file_callback_a">FileCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/0a9518b7-f231-48f2-ba50-5b802f8ccaed">Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/58201596-cb8c-480a-abef-896c1f9ef098">Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/c532f435-7393-49f0-975c-4c0ecca64407">SetupCommitFileQueue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupcommitfilequeuea">SetupCommitFileQueue</a>
 
 
 
-<a href="https://msdn.microsoft.com/e03f43b9-fe34-4340-86f3-c353df6c6db0">SetupDefaultQueueCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdefaultqueuecallbacka">SetupDefaultQueueCallback</a>
  
 
  

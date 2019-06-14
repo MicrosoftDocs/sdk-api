@@ -57,15 +57,15 @@ Contains all the tasks that are registered.
 
 
 
-<a href="https://msdn.microsoft.com/2dcef962-d4b0-4fc9-845a-e33f020dba41">ITaskFolder::GetTasks</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-gettasks">ITaskFolder::GetTasks</a>
 
 
 
-<a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383606(v=VS.85).aspx">Task Scheduler Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>
  
 
  

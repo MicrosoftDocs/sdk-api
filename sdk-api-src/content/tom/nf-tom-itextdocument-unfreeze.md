@@ -72,7 +72,7 @@ Type: <b>HRESULT</b>
 
 If the
 						freeze count is zero, the method returns <b>S_OK</b>. If the method fails, it returns <b>S_FALSE</b>, indicating that the 
-						freeze count is nonzero. For more information about COM error codes, see <a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling in COM</a>.
+						freeze count is nonzero. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 
 
@@ -93,7 +93,7 @@ Note, if edit collection is active, screen updating is suppressed, even if the f
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787730(v=VS.85).aspx">BeginEditCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-begineditcollection">BeginEditCollection</a>
 
 
 
@@ -101,11 +101,11 @@ Note, if edit collection is active, screen updating is suppressed, even if the f
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773925(v=VS.85).aspx">Freeze</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-freeze">Freeze</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774052(v=VS.85).aspx">ITextDocument</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>
 
 
 
@@ -113,7 +113,7 @@ Note, if edit collection is active, screen updating is suppressed, even if the f
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
  
 
  

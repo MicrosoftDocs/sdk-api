@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a property inside an <a href="https://msdn.microsoft.com/3dce1817-7995-49e5-8cc0-ee9496665e5c">MI_Instance</a> structure.
+Represents a property inside an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a> structure.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ Represents a property inside an <a href="https://msdn.microsoft.com/3dce1817-799
 
 ### -field value
 
-A field of type <a href="https://msdn.microsoft.com/2f7d857f-5115-40a2-84d9-a4429d935de1">MI_Datetime</a>.
+A field of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_datetime">MI_Datetime</a>.
 
 
 ### -field exists

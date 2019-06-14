@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>LINETERMCAPS</b> structure describes the capabilities of a line's terminal device. The 
-<a href="https://msdn.microsoft.com/83e38453-bb93-4cc5-923f-d0cd2898350a">LINEDEVCAPS</a> structure can contain an array of 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a> structure can contain an array of 
 <b>LINETERMCAPS</b> structures.
 
 
@@ -63,19 +63,19 @@ The
 ### -field dwTermDev
 
 Device type of the terminal. This member uses one of the 
-<a href="https://msdn.microsoft.com/3444d022-8225-4956-89a1-721b4662d557">LINETERMDEV_ Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linetermdev--constants">LINETERMDEV_ Constants</a>.
 
 
 ### -field dwTermModes
 
 Terminal mode(s) the terminal device is able to deal with. This member uses one of the 
-<a href="https://msdn.microsoft.com/60af1687-8958-4918-be21-a13780c60974">LINETERMMODE_ Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linetermmode--constants">LINETERMMODE_ Constants</a>.
 
 
 ### -field dwTermSharing
 
 Sharing modes for the terminal device. This member uses one of the 
-<a href="https://msdn.microsoft.com/50a52a50-4d94-4068-9ea4-bea862400036">LINETERMSHARING_ Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linetermsharing--constants">LINETERMSHARING_ Constants</a>.
 
 
 ## -remarks
@@ -92,19 +92,19 @@ This structure may not be extended.
 
 
 
-<a href="https://msdn.microsoft.com/83e38453-bb93-4cc5-923f-d0cd2898350a">LINEDEVCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c5a668e-9a9a-4a7a-98e9-bd8ec4b819b2">TSPI_lineGetDevCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetdevcaps">TSPI_lineGetDevCaps</a>
 
 
 
-<a href="https://msdn.microsoft.com/c0900c5b-8791-4653-8bfc-d32e51d10c50">lineGetDevCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetdevcaps">lineGetDevCaps</a>
 
 
 
-<a href="https://msdn.microsoft.com/362114d9-c5b6-4b78-bb31-811eb89fe82d">lineSetTerminal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetterminal">lineSetTerminal</a>
  
 
  

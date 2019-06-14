@@ -73,10 +73,10 @@ A pointer to a <b>NSPV2_ROUTINE</b> structure with the namespace service provide
 
 
 If no error occurs, 
-<a href="https://msdn.microsoft.com/2bbc20ae-ad6d-47f6-8ca9-dd5559236fbe">WSAProviderCompleteAsyncCall</a> returns zero.
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wsaprovidercompleteasynccall">WSAProviderCompleteAsyncCall</a> returns zero.
 
 If the function fails, the return value is SOCKET_ERROR. To get extended error information, call 
-<a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a>, which returns one of the following extended error values.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>, which returns one of the following extended error values.
 
 <table>
 <tr>
@@ -86,7 +86,7 @@ If the function fails, the return value is SOCKET_ERROR. To get extended error i
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -97,7 +97,7 @@ There was insufficient memory to perform the operation.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -108,7 +108,7 @@ An internal error occurred.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -121,7 +121,7 @@ This error is also returned if the <b>NSPv2LookupServiceBegin</b>, <b>NSPv2Looku
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVALIDPROVIDER</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVALIDPROVIDER</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -132,12 +132,12 @@ The namespace provider could not be found for the specified <i>puuidProviderId</
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 The <i>Ws2_32.dll</i> has not been initialized. The application must first call 
-<a href="https://msdn.microsoft.com/08299592-867c-491d-9769-d16602133659">WSAStartup</a> before calling any Windows Sockets functions.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> before calling any Windows Sockets functions.
 
 </td>
 </tr>
@@ -157,24 +157,24 @@ The
 On Windows Vista and Windows Server 2008, the <b>WSAAdvertiseProvider</b> function can only be used for operations on NS_EMAIL namespace providers.
 
 The 
-<b>WSAAdvertiseProvider</b> function advertises an instance of a NSPv2 provider for clients to find. If the instance to be advertised is an instance of an application-type provider (a namespace provider where the <b>dwProvideType</b> member of the <a href="https://msdn.microsoft.com/3444ad63-444a-481d-8fe7-f40b2b7d5283">NAPI_PROVIDER_INSTALLATION_BLOB</a> structure is <b>ProviderType_Application</b>), the advertised provider instance will be visible to all the client processes running under the same user and in the same session as the caller of <b>WSAAdvertiseProvider</b>. 
+<b>WSAAdvertiseProvider</b> function advertises an instance of a NSPv2 provider for clients to find. If the instance to be advertised is an instance of an application-type provider (a namespace provider where the <b>dwProvideType</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ns-nsemail-napi_provider_installation_blob_tag">NAPI_PROVIDER_INSTALLATION_BLOB</a> structure is <b>ProviderType_Application</b>), the advertised provider instance will be visible to all the client processes running under the same user and in the same session as the caller of <b>WSAAdvertiseProvider</b>. 
 
-In general, NSPv2 providers are implemented in processes other than the calling applications. NSPv2 providers are not activated as a result of client activity. Each provider hosting application decides when to make a specific provider available or unavailable by calling the <b>WSAAdvertiseProvider</b> and <a href="https://msdn.microsoft.com/5975b496-53a7-4f8a-8efc-27ef447596c2">WSAUnadvertiseProvider</a> functions. The client activity only results in attempts to contact the provider, when available (when the namespace provider is advertised).
+In general, NSPv2 providers are implemented in processes other than the calling applications. NSPv2 providers are not activated as a result of client activity. Each provider hosting application decides when to make a specific provider available or unavailable by calling the <b>WSAAdvertiseProvider</b> and <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wsaunadvertiseprovider">WSAUnadvertiseProvider</a> functions. The client activity only results in attempts to contact the provider, when available (when the namespace provider is advertised).
 
 The 
 <b>WSAAdvertiseProvider</b> function is called by any application that wants to make a specific provider available for all eligible clients (currently all the applications running with the same credentials as the hosting application, and in the same user session). 
 
 
 
-A process can implement and advertise multiple providers at the same time. Windows Sockets will manage the namespace providers by dispatching calls to the correct one. It will also hide RPC interface details and translates cross-process calls into in-process calls. So that the NSPv2 provider has only to implement a table of entry point functions similar to the <a href="https://msdn.microsoft.com/8f7736d5-ea77-472a-a94f-e422398fae3f">NSP_ROUTINE</a> structure used by an NSPv1 provider. A NSPv2 provider does not have to worry about RPC specific requirements (data marshalling and serialization, for example).
+A process can implement and advertise multiple providers at the same time. Windows Sockets will manage the namespace providers by dispatching calls to the correct one. It will also hide RPC interface details and translates cross-process calls into in-process calls. So that the NSPv2 provider has only to implement a table of entry point functions similar to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-_nsp_routine">NSP_ROUTINE</a> structure used by an NSPv1 provider. A NSPv2 provider does not have to worry about RPC specific requirements (data marshalling and serialization, for example).
 
 
 
-The <b>WSAAdvertiseProvider</b> caller passes a pointer to an <a href="https://msdn.microsoft.com/22a4ee47-030b-4aee-b9b1-c9e33b3e4fce">NSPV2_ROUTINE</a>  structure in the <i>pNSPv2Routine</i> parameter with the NSPv2 entry points supported by the provider. 
+The <b>WSAAdvertiseProvider</b> caller passes a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-_nspv2_routine">NSPV2_ROUTINE</a>  structure in the <i>pNSPv2Routine</i> parameter with the NSPv2 entry points supported by the provider. 
 
 
 The 
-<a href="https://msdn.microsoft.com/5975b496-53a7-4f8a-8efc-27ef447596c2">WSAUnadvertiseProvider</a> function makes a specific namespace provider no longer available for clients.
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wsaunadvertiseprovider">WSAUnadvertiseProvider</a> function makes a specific namespace provider no longer available for clients.
 
 
 
@@ -184,39 +184,39 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/3444ad63-444a-481d-8fe7-f40b2b7d5283">NAPI_PROVIDER_INSTALLATION_BLOB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ns-nsemail-napi_provider_installation_blob_tag">NAPI_PROVIDER_INSTALLATION_BLOB</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d845cc5-a84a-43fe-b9e7-d1a9153bae73">NAPI_PROVIDER_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ne-nsemail-napi_provider_type_tag">NAPI_PROVIDER_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/22a4ee47-030b-4aee-b9b1-c9e33b3e4fce">NSPV2_ROUTINE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-_nspv2_routine">NSPV2_ROUTINE</a>
 
 
 
-<a href="https://msdn.microsoft.com/f5b6cd42-c5cb-43b6-bb96-fd260217e252">WSAEnumNameSpaceProviders</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersa">WSAEnumNameSpaceProviders</a>
 
 
 
-<a href="https://msdn.microsoft.com/34bc96aa-63f7-4ab8-9376-6f4b979225ca">WSAEnumNameSpaceProvidersEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersexa">WSAEnumNameSpaceProvidersEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/2bbc20ae-ad6d-47f6-8ca9-dd5559236fbe">WSAProviderCompleteAsyncCall</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wsaprovidercompleteasynccall">WSAProviderCompleteAsyncCall</a>
 
 
 
-<a href="https://msdn.microsoft.com/21a8ff26-4c9e-4846-a75a-1a27c746edab">WSASetService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasetservicea">WSASetService</a>
 
 
 
-<a href="https://msdn.microsoft.com/5975b496-53a7-4f8a-8efc-27ef447596c2">WSAUnadvertiseProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wsaunadvertiseprovider">WSAUnadvertiseProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/544120b2-7575-4deb-8429-2bd4582eceef">WSCEnumNameSpaceProvidersEx32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumnamespaceprovidersex32">WSCEnumNameSpaceProvidersEx32</a>
  
 
  

@@ -102,11 +102,11 @@ This method must return <b>WBEM_S_NO_ERROR</b> if the call succeeds. If the call
 
 
 
-<a href="https://msdn.microsoft.com/a1c25c5c-e0f9-461d-96ba-7d6d00d24d33">Constructing Property Providers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbempropertyprovider-putproperty">Constructing Property Providers</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a7910ae-4258-4486-80ff-82b1081083cc">IWbemPropertyProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbempropertyprovider">IWbemPropertyProvider</a>
 
 
 

@@ -57,7 +57,7 @@ The security binding template for specifying the use of an application
         security or message security binding that provides message protection.
       
 
-See also <a href="https://msdn.microsoft.com/en-us/library/Dd323497(v=VS.85).aspx">WS_USERNAME_MESSAGE_SECURITY_BINDING</a>
+See also <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_username_message_security_binding">WS_USERNAME_MESSAGE_SECURITY_BINDING</a>
 
 
 

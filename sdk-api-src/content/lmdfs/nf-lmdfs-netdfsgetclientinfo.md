@@ -105,36 +105,36 @@ Specifies the information level of the request. This parameter can be one of the
 #### 1
 
 Return the DFS root  or DFS link name. The <i>Buffer</i> parameter points to a 
-<a href="https://msdn.microsoft.com/96647570-badd-4925-ab90-054a00ba04c4">DFS_INFO_1</a> structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_1">DFS_INFO_1</a> structure.
 
 
 
 #### 2
 
 Return the DFS root or DFS link name, status, and the number of DFS targets. The <i>Buffer</i> parameter points to a 
-<a href="https://msdn.microsoft.com/c5fe27be-fd6e-4cf0-abf6-8363c78edf5b">DFS_INFO_2</a> structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_2">DFS_INFO_2</a> structure.
 
 
 
 #### 3
 
 Return the DFS root or DFS link name, status, and target information. The <i>Buffer</i> parameter points to a 
-<a href="https://msdn.microsoft.com/fd60cb52-fa17-4cac-a7e8-9803303336dc">DFS_INFO_3</a> structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_3">DFS_INFO_3</a> structure.
 
 
 
 #### 4
 
 Return the DFS root or DFS link name, status, <b>GUID</b>, time-out, and target information. The <i>Buffer</i> parameter points to a 
-<a href="https://msdn.microsoft.com/0b255be8-b719-4f40-9051-7e8a1bffa0e0">DFS_INFO_4</a> structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_4">DFS_INFO_4</a> structure.
 
 
 ### -param Buffer [out]
 
 Pointer to the address of a buffer that receives the requested information. This buffer is allocated by the system and must be freed using the 
-<a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a> function. For more information, see 
-<a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a> and 
-<a href="https://msdn.microsoft.com/08599966-68a1-420b-bbc7-6daac833d08f">Network Management Function Buffer Lengths</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
 
 ## -returns
@@ -144,7 +144,7 @@ Pointer to the address of a buffer that receives the requested information. This
 If the function succeeds, the return value is <b>NERR_Success</b>.
 
 If the function fails, the return value is a system error code. For a list of error codes, see 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -164,36 +164,36 @@ No special group membership is required for using the
 
 
 
-<a href="https://msdn.microsoft.com/96647570-badd-4925-ab90-054a00ba04c4">DFS_INFO_1</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_1">DFS_INFO_1</a>
 
 
 
-<a href="https://msdn.microsoft.com/c5fe27be-fd6e-4cf0-abf6-8363c78edf5b">DFS_INFO_2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_2">DFS_INFO_2</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd60cb52-fa17-4cac-a7e8-9803303336dc">DFS_INFO_3</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_3">DFS_INFO_3</a>
 
 
 
-<a href="https://msdn.microsoft.com/0b255be8-b719-4f40-9051-7e8a1bffa0e0">DFS_INFO_4</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_4">DFS_INFO_4</a>
 
 
 
-<a href="https://msdn.microsoft.com/a29cde3e-483a-4658-94d4-27398f66abfb">Distributed File System (DFS) Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dfs/distributed-file-system-dfs-functions">Distributed File System (DFS) Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/4c95dffb-a092-45ad-9a3f-37d3abbf4427">NetDfsSetClientInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfssetclientinfo">NetDfsSetClientInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd159e2e-f37e-46b2-b980-008b73d40b39">Network
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
     Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
     Overview</a>
  
 

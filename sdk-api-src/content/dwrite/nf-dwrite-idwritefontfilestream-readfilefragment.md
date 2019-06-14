@@ -82,7 +82,7 @@ The size of the file fragment, in bytes.
 
 Type: <b>void**</b>
 
-When this method returns, contains the address of a pointer to a pointer to the client-defined context to be passed to <a href="https://msdn.microsoft.com/8a12c28e-5595-4255-8fdd-5d546ceed90b">ReleaseFileFragment</a>.
+When this method returns, contains the address of a pointer to a pointer to the client-defined context to be passed to <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontfilestream-releasefilefragment">ReleaseFileFragment</a>.
 
 
 ## -returns
@@ -104,7 +104,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
      is within the file bounds. Otherwise, an error should be returned from <b>ReadFileFragment</b>.
 
 
-<a href="https://msdn.microsoft.com/62a8d723-ae1c-4cbc-a9da-3177e80d4a3a">DirectWrite</a> may invoke <a href="https://msdn.microsoft.com/792ab9be-853f-427d-a762-2da8e81423f8">IDWriteFontFileStream</a> methods on the same object from multiple threads simultaneously. Therefore, <b>ReadFileFragment</b> implementations that rely on internal mutable state must serialize access to such state across multiple threads. For example, an implementation that uses separate Seek and Read operations to read a file fragment must place the code block containing Seek and Read calls under a lock or a critical section.
+<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/direct-write-portal">DirectWrite</a> may invoke <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontfilestream">IDWriteFontFileStream</a> methods on the same object from multiple threads simultaneously. Therefore, <b>ReadFileFragment</b> implementations that rely on internal mutable state must serialize access to such state across multiple threads. For example, an implementation that uses separate Seek and Read operations to read a file fragment must place the code block containing Seek and Read calls under a lock or a critical section.
 
 
 
@@ -114,7 +114,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/792ab9be-853f-427d-a762-2da8e81423f8">IDWriteFontFileStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontfilestream">IDWriteFontFileStream</a>
  
 
  

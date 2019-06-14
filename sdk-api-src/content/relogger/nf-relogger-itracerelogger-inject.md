@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 This is the primary way to indicate which events should go into the output trace logfile.
 
-To preserve an existing event provided by <a href="https://msdn.microsoft.com/2099db80-89fd-4ce1-a7ca-e79abbd7b9e5">IEventCallback::OnEvent</a>, this method should be called.
+To preserve an existing event provided by <a href="https://docs.microsoft.com/windows/desktop/api/relogger/nf-relogger-itraceeventcallback-onevent">IEventCallback::OnEvent</a>, this method should be called.
 
 
 
@@ -91,11 +91,11 @@ To preserve an existing event provided by <a href="https://msdn.microsoft.com/20
 
 
 
-<a href="https://msdn.microsoft.com/2099db80-89fd-4ce1-a7ca-e79abbd7b9e5">IEventCallback::OnEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nf-relogger-itraceeventcallback-onevent">IEventCallback::OnEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/08073b9a-5ae0-4e88-a502-647567418005">ITraceRelogger</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itracerelogger">ITraceRelogger</a>
  
 
  

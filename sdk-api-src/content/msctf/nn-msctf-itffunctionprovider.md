@@ -54,7 +54,7 @@ The <b>ITfFunctionProvider</b> interface is implemented by an application or tex
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFunctionProvider</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfFunctionProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFunctionProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfFunctionProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfFunctionProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a970c93f-2a1b-44b9-9177-fd69795ae9ee">GetDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itffunctionprovider-getdescription">GetDescription</a>
 </td>
 <td align="left" width="63%">
 Obtains the description of the function provider.
@@ -78,7 +78,7 @@ Obtains the description of the function provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a8ec629a-9ac6-4f25-82f2-42af6ce52ddc">GetFunction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itffunctionprovider-getfunction">GetFunction</a>
 </td>
 <td align="left" width="63%">
 Obtains the specified function object.
@@ -87,7 +87,7 @@ Obtains the specified function object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fff9ad62-f777-423c-a59d-ebd7d99da6a9">GetType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itffunctionprovider-gettype">GetType</a>
 </td>
 <td align="left" width="63%">
 Obtains the type identifier for the function provider.
@@ -101,7 +101,7 @@ Obtains the type identifier for the function provider.
 
 
 
-A function provider is registered by calling <a href="https://msdn.microsoft.com/d9231f36-24c4-4d46-97e7-518f5fcc1ce2">ITFSourceSingle::AdviseSingleSink</a> with IID_ITfFunctionProvider when the text service is activated. The text service should unregister its function provider with <a href="https://msdn.microsoft.com/1689dedb-c168-4a05-b598-517c87d9afbd">ITFSourceSingle::UnadviseSingleSink</a> when it is deactivated.
+A function provider is registered by calling <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsourcesingle-advisesinglesink">ITFSourceSingle::AdviseSingleSink</a> with IID_ITfFunctionProvider when the text service is activated. The text service should unregister its function provider with <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsourcesingle-unadvisesinglesink">ITFSourceSingle::UnadviseSingleSink</a> when it is deactivated.
 
 
 
@@ -111,17 +111,17 @@ A function provider is registered by calling <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/d9231f36-24c4-4d46-97e7-518f5fcc1ce2">ITFSourceSingle::AdviseSingleSink
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsourcesingle-advisesinglesink">ITFSourceSingle::AdviseSingleSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/1689dedb-c168-4a05-b598-517c87d9afbd">ITFSourceSingle::UnadviseSingleSink
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsourcesingle-unadvisesinglesink">ITFSourceSingle::UnadviseSingleSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

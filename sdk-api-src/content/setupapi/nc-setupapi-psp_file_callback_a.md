@@ -55,9 +55,9 @@ The
 <i>FileCallback</i> callback function is used by a few setup functions. The <b>PSP_FILE_CALLBACK</b> type defines a pointer to this callback function. <i>FileCallback</i> is a placeholder for the application-defined function name.
 
 For more information, see 
-<a href="https://msdn.microsoft.com/93434558-ae83-4ea2-9324-659e5873a8c3">Notifications</a>, 
-<a href="https://msdn.microsoft.com/68781565-71a2-43bf-ad01-7c1cdc514f7b">Creating a Custom Queue Callback Routine</a>, and 
-<a href="https://msdn.microsoft.com/45a2690e-1db6-4a09-a141-9e68ebc2a6d8">Creating a Cabinet Callback Routine</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/notifications">Notifications</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/creating-a-custom-queue-callback-routine">Creating a Custom Queue Callback Routine</a>, and 
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/creating-a-cabinet-callback-routine">Creating a Cabinet Callback Routine</a>.
 
 
 ## -parameters
@@ -90,27 +90,27 @@ The additional notification information. The value is dependent on the notificat
 
 
 
-<a href="https://msdn.microsoft.com/58201596-cb8c-480a-abef-896c1f9ef098">Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/c532f435-7393-49f0-975c-4c0ecca64407">SetupCommitFileQueue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupcommitfilequeuea">SetupCommitFileQueue</a>
 
 
 
-<a href="https://msdn.microsoft.com/04db1553-1c9a-414e-a2b8-b087dd44ef55">SetupInstallFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinstallfilea">SetupInstallFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/56013a33-341f-4b6b-a428-ec5aa0981835">SetupInstallFileEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinstallfileexa">SetupInstallFileEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/bd1ee91a-b58b-4f08-9181-42fbe9d763f9">SetupInstallFromInfSection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinstallfrominfsectiona">SetupInstallFromInfSection</a>
 
 
 
-<a href="https://msdn.microsoft.com/2fa2d140-fa8e-41a8-9800-d10e5559fab4">SetupIterateCabinet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupiteratecabineta">SetupIterateCabinet</a>
  
 
  

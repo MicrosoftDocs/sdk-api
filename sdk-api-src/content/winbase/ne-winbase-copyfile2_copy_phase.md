@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Indicates the phase of a copy at the time of an error. This is used in the 
     <b>Error</b> structure embedded in the 
-    <a href="https://msdn.microsoft.com/ab841bee-90a0-4beb-99d3-764e608c3872">COPYFILE2_MESSAGE</a> structure.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-copyfile2_message">COPYFILE2_MESSAGE</a> structure.
 
 
 ## -enum-fields
@@ -110,7 +110,7 @@ One greater than the maximum value. Valid values for this enumeration will be le
 
 To compile an application that uses this enumeration, define the <b>_WIN32_WINNT</b> 
     macro as 0x0601 or later. For more information, see 
-    <a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 
@@ -120,15 +120,15 @@ To compile an application that uses this enumeration, define the <b>_WIN32_WINNT
 
 
 
-<a href="https://msdn.microsoft.com/ab841bee-90a0-4beb-99d3-764e608c3872">COPYFILE2_MESSAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-copyfile2_message">COPYFILE2_MESSAGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa2df686-4b61-4d90-ba0b-c78c5a0d2d59">CopyFile2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfile2">CopyFile2</a>
 
 
 
-<a href="https://msdn.microsoft.com/14b1cfff-5e47-4309-8e62-fb5c8da9ce97">File Management Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-enumerations">File Management Enumerations</a>
  
 
  

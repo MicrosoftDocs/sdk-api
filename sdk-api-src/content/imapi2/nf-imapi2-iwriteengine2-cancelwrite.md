@@ -88,7 +88,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The 'write' operation initiated by the last call to <a href="https://msdn.microsoft.com/a6158984-04d3-4919-8a67-fc860b4b3a47">IWriteEngine2::WriteSection</a> has not yet begun, and cannot be canceled.   It is recommended to call  <a href="https://msdn.microsoft.com/cd658bd3-71ab-4e63-adec-8b7405a76c12">IWriteEngine2::CancelWrite</a>  until a different success code is returned.
+The 'write' operation initiated by the last call to <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-writesection">IWriteEngine2::WriteSection</a> has not yet begun, and cannot be canceled.   It is recommended to call  <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-cancelwrite">IWriteEngine2::CancelWrite</a>  until a different success code is returned.
 
 Value: 0x00AA0302L
 
@@ -127,7 +127,7 @@ Value: 0x80004005
 
 
 
-To cancel the write operation, you must call this method from the <a href="https://msdn.microsoft.com/efee838d-aa6e-41a0-aafb-64ba6ca19f29">DWriteEngine2Events::Update</a> event handler that you implemented. 
+To cancel the write operation, you must call this method from the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-dwriteengine2events-update">DWriteEngine2Events::Update</a> event handler that you implemented. 
 
 
 
@@ -137,19 +137,19 @@ To cancel the write operation, you must call this method from the <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/697f8247-6940-4b5e-8521-df89838837be">DWriteEngine2Events</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-dwriteengine2events">DWriteEngine2Events</a>
 
 
 
-<a href="https://msdn.microsoft.com/89e7526f-2b9b-4f37-b537-5046a0ac283d">IWriteEngine2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2">IWriteEngine2</a>
 
 
 
-<a href="https://msdn.microsoft.com/a6158984-04d3-4919-8a67-fc860b4b3a47">IWriteEngine2::WriteSection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-writesection">IWriteEngine2::WriteSection</a>
 
 
 
-<a href="https://msdn.microsoft.com/88f67eab-c87b-4a15-b29f-25675d0cac22">IWriteEngine2::get_WriteInProgress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_writeinprogress">IWriteEngine2::get_WriteInProgress</a>
  
 
  

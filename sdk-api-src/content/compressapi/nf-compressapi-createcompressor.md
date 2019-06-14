@@ -62,7 +62,7 @@ Generates a new <b>COMPRESSOR_HANDLE</b>.
 The type of compression algorithm and mode to be used by this compressor.
 
 
-This parameter can have one of the following values optionally combined with the <b>COMPRESS_RAW</b> flag.  Use a "bitwise OR" operator to include <b>COMPRESS_RAW</b> and to create a  block mode compressor.  If <b>COMPRESS_RAW</b> is not included, the Compression API creates a buffer mode compressor. For more information about selecting a compression algorithm and mode, see <a href="https://msdn.microsoft.com/D603A7DE-D4A1-4515-9702-B03C81504661">Using the Compression API</a>.
+This parameter can have one of the following values optionally combined with the <b>COMPRESS_RAW</b> flag.  Use a "bitwise OR" operator to include <b>COMPRESS_RAW</b> and to create a  block mode compressor.  If <b>COMPRESS_RAW</b> is not included, the Compression API creates a buffer mode compressor. For more information about selecting a compression algorithm and mode, see <a href="https://docs.microsoft.com/windows/desktop/cmpapi/using-the-compression-api">Using the Compression API</a>.
 
 
 
@@ -121,7 +121,7 @@ LZMS compression algorithm
 
 ### -param AllocationRoutines [in, optional]
 
-Optional memory allocation and deallocation routines in a <a href="https://msdn.microsoft.com/en-us/library/Hh437563(v=VS.85).aspx">COMPRESS_ALLOCATION_ROUTINES</a> structure.
+Optional memory allocation and deallocation routines in a <a href="https://docs.microsoft.com/windows/desktop/api/compressapi/ns-compressapi-_compress_allocation_routines">COMPRESS_ALLOCATION_ROUTINES</a> structure.
 
 
 ### -param CompressorHandle [out]
@@ -133,7 +133,7 @@ If the function succeeds, the handle to the specified compressor.
 
 
 
-If the function succeeds, the return value is nonzero. If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function succeeds, the return value is nonzero. If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -142,7 +142,7 @@ If the function succeeds, the return value is nonzero. If the function fails, th
 
 
 
-If the compression algorithm fails for some internal reason, the error from <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> can be <b>ERROR_FUNCTION_FAILED</b>.  If the system can find no compression algorithm matching the specified name and version, the error  can be <b>ERROR_NOT_SUPPORTED</b>. 
+If the compression algorithm fails for some internal reason, the error from <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> can be <b>ERROR_FUNCTION_FAILED</b>.  If the system can find no compression algorithm matching the specified name and version, the error  can be <b>ERROR_NOT_SUPPORTED</b>. 
 
 
 
@@ -152,11 +152,11 @@ If the compression algorithm fails for some internal reason, the error from <a h
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437563(v=VS.85).aspx">COMPRESS_ALLOCATION_ROUTINES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/compressapi/ns-compressapi-_compress_allocation_routines">COMPRESS_ALLOCATION_ROUTINES</a>
 
 
 
-<a href="https://msdn.microsoft.com/6A617444-23E5-4920-8D6B-602BCCDCC9E0">Compression API Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/cmpapi/compression-api-functions">Compression API Functions</a>
  
 
  

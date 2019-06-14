@@ -59,7 +59,7 @@ Called by the Windows Biometric Framework to give the Sensor Adapter the chance 
 
 ### -param Pipeline [in, out]
 
-Pointer to the <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae41c3e12a">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 
 ## -returns
@@ -96,7 +96,7 @@ Any error code will cause the Biometric Service to log the error and abort the c
 
 The Sensor Adapter should return <b>S_OK</b> if it doesn’t need to perform any initialization at this point.
 
-When this routine is called, the <a href="https://msdn.microsoft.com/e797952b-c7dd-41ad-9536-97d7ce1a7a5d">EngineAdapterAttach</a>, <a href="https://msdn.microsoft.com/6abded6b-12e0-4cc6-a011-0b18e8ea747b">StorageAdapterAttach</a>, <a href="https://msdn.microsoft.com/69D4BB35-2E00-4FF6-8A69-DFCEFA5785A0">EngineAdapterPipelineInit</a>, and <a href="https://msdn.microsoft.com/F969AC5A-6760-4904-A04E-F2FEF4290F7A">StorageAdapterPipelineInit</a> routines have completed normally.
+When this routine is called, the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_attach_fn">EngineAdapterAttach</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_attach_fn">StorageAdapterAttach</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_pipeline_init_fn">EngineAdapterPipelineInit</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_pipeline_init_fn">StorageAdapterPipelineInit</a> routines have completed normally.
 
 This method executes in the context of an arbitrary RPC server thread.
 

@@ -66,9 +66,9 @@ This property is read/write.
 
 The maximum length of this property is 65,536 characters.
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/922f4fd8-f553-439c-b9ae-51a45a88adc7">BizRuleLanguage</a> property must be set before this property is set.</div>
+<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-get_bizrulelanguage">BizRuleLanguage</a> property must be set before this property is set.</div>
 <div> </div>
-An <a href="https://msdn.microsoft.com/90eb19c9-1490-43f4-ab4b-393e825aeb2f">IAzTask</a> object that is a child object of a delegated <a href="https://msdn.microsoft.com/f7abe7cb-8827-46f6-85fe-99282582a3d4">IAzScope</a> object cannot have an associated BizRule.
+An <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> object that is a child object of a delegated <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazscope">IAzScope</a> object cannot have an associated BizRule.
 
 
 
@@ -78,15 +78,15 @@ An <a href="https://msdn.microsoft.com/90eb19c9-1490-43f4-ab4b-393e825aeb2f">IAz
 
 
 
-<a href="https://msdn.microsoft.com/52422e14-4a96-455d-ad35-b8816871ee10">BizRuleImportedPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-get_bizruleimportedpath">BizRuleImportedPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/922f4fd8-f553-439c-b9ae-51a45a88adc7">BizRuleLanguage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-get_bizrulelanguage">BizRuleLanguage</a>
 
 
 
-<a href="https://msdn.microsoft.com/90eb19c9-1490-43f4-ab4b-393e825aeb2f">IAzTask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a>
  
 
  

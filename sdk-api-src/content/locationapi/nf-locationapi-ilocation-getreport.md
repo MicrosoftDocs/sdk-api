@@ -67,7 +67,7 @@ Retrieves a location report.
 
 ### -param ppLocationReport [out]
 
-Address of a pointer to <a href="https://msdn.microsoft.com/6dc78c26-36b3-4545-b5ba-7f04f6e67706">ILocationReport</a> that receives the specified location report. 
+Address of a pointer to <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a> that receives the specified location report. 
 
 
 ## -returns
@@ -180,11 +180,11 @@ Out of memory.
 
 
 
-<a href="https://msdn.microsoft.com/6dc78c26-36b3-4545-b5ba-7f04f6e67706">ILocationReport</a> is the base interface for specific location report types.   Call <b>QueryInterface</b> to retrieve a pointer to the correct report type.
+<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a> is the base interface for specific location report types.   Call <b>QueryInterface</b> to retrieve a pointer to the correct report type.
 
 When <b>GetReport</b> is called, it may result in a notification being displayed in the taskbar, and a Location Activity event being logged in Event Viewer, if it is the application's first use of location.
 
-<div class="alert"><b>Note</b>  When an application first starts, or when a new location sensor is enabled, <a href="https://msdn.microsoft.com/9b7c72cc-fa09-44b2-97be-f200fab7b31d">GetReportStatus</a> may report a status of <b>REPORT_RUNNING</b>  shortly before the new location report is available. Therefore, an initial call to <b>GetReport</b> can return an error (<b>ERROR_NO_DATA</b>) or a value that is not from the expected location sensor, even if <b>GetReportStatus</b> indicates a status of <b>REPORT_RUNNING</b>. See <a href="https://msdn.microsoft.com/9b7c72cc-fa09-44b2-97be-f200fab7b31d">GetReportStatus</a> for a description of a workaround for this issue.</div>
+<div class="alert"><b>Note</b>  When an application first starts, or when a new location sensor is enabled, <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocation-getreportstatus">GetReportStatus</a> may report a status of <b>REPORT_RUNNING</b>  shortly before the new location report is available. Therefore, an initial call to <b>GetReport</b> can return an error (<b>ERROR_NO_DATA</b>) or a value that is not from the expected location sensor, even if <b>GetReportStatus</b> indicates a status of <b>REPORT_RUNNING</b>. See <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocation-getreportstatus">GetReportStatus</a> for a description of a workaround for this issue.</div>
 <div> </div>
 
 #### Examples

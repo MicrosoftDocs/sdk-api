@@ -54,7 +54,7 @@ The <b>ITocCollection</b> represents a collection of tables of contents. It prov
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITocCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITocCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITocCollection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITocCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITocCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b4d4e40b-151b-4217-81c8-1eaa8336407d">AddEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itoccollection-addentry">AddEntry</a>
 </td>
 <td align="left" width="63%">
 Adds an individual table of contents  to the collection, and assigns an index to the added table of contents.
@@ -78,7 +78,7 @@ Adds an individual table of contents  to the collection, and assigns an index to
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/61f3103b-9b81-4729-a410-ab5ea63e072c">AddEntryByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/ee264252(v%3dvs.85)">AddEntryByIndex</a>
 </td>
 <td align="left" width="63%">
 Adds an individual table of contents to the collection, and associates a caller-supplied index with that table of contents.
@@ -87,7 +87,7 @@ Adds an individual table of contents to the collection, and associates a caller-
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/93bddd4d-8a58-46e6-9284-eaa70be2c5a4">GetEntryByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/ee264253(v%3dvs.85)">GetEntryByIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves a table of contents, specified by an index, from the collection.
@@ -96,7 +96,7 @@ Retrieves a table of contents, specified by an index, from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/494efcde-cab3-4e72-9bc6-1df61f125f62">GetEntryCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itoccollection-getentrycount">GetEntryCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of tables of contents in the collection.
@@ -105,7 +105,7 @@ Retrieves the number of tables of contents in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1fc6abad-2e9b-47f5-8b00-48ae480f3dd8">RemoveEntryByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/ee264255(v%3dvs.85)">RemoveEntryByIndex</a>
 </td>
 <td align="left" width="63%">
  Removes a table of contents, specified by an index, from  the collection.
@@ -120,11 +120,11 @@ Retrieves the number of tables of contents in the collection.
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/25039e6c-dd2a-4516-bf27-8e9d6ca0f00e">Table of Contents Parser Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/toc-parser-interfaces">Table of Contents Parser Interfaces</a>
  
 
  

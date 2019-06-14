@@ -99,7 +99,7 @@ The DMO_MEDIA_TYPE that you pass to this method is only partial in that it does 
 
 If you are setting properties on an encoder, you must finish that configuration before getting the private data. Changing properties invalidates any private data previously retrieved. If you change properties after getting the private data, retrieve it again and reset the output type.
 
-You must call this method before calling <a href="https://msdn.microsoft.com/20e61bf6-f242-4f8e-84e6-f6158a0947bc">IWMCodecPrivateData::GetPrivateData</a> to get the private data.
+You must call this method before calling <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcodecprivatedata-getprivatedata">IWMCodecPrivateData::GetPrivateData</a> to get the private data.
 
 
 
@@ -109,7 +109,7 @@ You must call this method before calling <a href="https://msdn.microsoft.com/20e
 
 
 
-<a href="https://msdn.microsoft.com/c1216fd7-7cbd-45cf-b694-a5fd9a972fcd">IWMCodecPrivateData Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecprivatedata">IWMCodecPrivateData Interface</a>
  
 
  

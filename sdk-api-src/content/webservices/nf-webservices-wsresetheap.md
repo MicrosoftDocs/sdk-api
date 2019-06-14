@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Releases all Heap allocations.  Allocations made on the Heap
-                using <a href="https://msdn.microsoft.com/633b6a11-09ba-48a7-a1ad-940846c65d79">WsAlloc</a> are no longer valid.  Allocation for the Heap object itself is not released.
+                using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsalloc">WsAlloc</a> are no longer valid.  Allocation for the Heap object itself is not released.
             
 
 
@@ -72,7 +72,7 @@ The heap object.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 
@@ -90,7 +90,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 The heap object can retain allocated memory even though it has been reset.  The amount of memory retained
-                can be specified using the <a href="https://msdn.microsoft.com/c047a3b9-27a1-464c-b9f9-0b0c6cf8eb97">WS_HEAP_PROPERTY_TRIM_SIZE</a> 
+                can be specified using the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_heap_property_id">WS_HEAP_PROPERTY_TRIM_SIZE</a> 
                 property when creating the heap.
             
 

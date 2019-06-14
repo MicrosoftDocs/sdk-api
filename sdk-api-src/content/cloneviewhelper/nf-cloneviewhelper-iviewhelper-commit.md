@@ -101,7 +101,7 @@ The <b>Commit</b> method returns one of the following values:
 
 After <b>Commit</b> succeeds, the sources and targets on all of the graphics adapters are set. 
 
-TMM calls <b>Commit</b> whenever a set of operations must be applied. For example, TMM might call <b>Commit</b> after a call to the <a href="https://msdn.microsoft.com/a4a9d98c-834b-4578-9ba3-7c7295989a84">IViewHelper::SetActiveTopology</a> method on a graphics adapter that requires for a source and targets to be mapped. TMM does not pass in the adapter name to <b>Commit</b> because the VidPN on all adapters should be invalidated. 
+TMM calls <b>Commit</b> whenever a set of operations must be applied. For example, TMM might call <b>Commit</b> after a call to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff568174(v=vs.85)">IViewHelper::SetActiveTopology</a> method on a graphics adapter that requires for a source and targets to be mapped. TMM does not pass in the adapter name to <b>Commit</b> because the VidPN on all adapters should be invalidated. 
 
 A call to <b>Commit</b> will no longer replace a call to <b>ChangeDisplaySettingsEx</b>(<b>NULL</b>, <b>NULL</b>, <b>NULL</b>, 0, <b>NULL</b>). However, TMM always ends its graphics operations with a <b>Commit</b> call. For more information about <b>ChangeDisplaySettingsEx</b>, see the Microsoft Windows SDK documentation. 
 
@@ -113,7 +113,7 @@ A call to <b>Commit</b> will no longer replace a call to <b>ChangeDisplaySetting
 
 
 
-<a href="https://msdn.microsoft.com/a4a9d98c-834b-4578-9ba3-7c7295989a84">IViewHelper::SetActiveTopology</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff568174(v=vs.85)">IViewHelper::SetActiveTopology</a>
  
 
  

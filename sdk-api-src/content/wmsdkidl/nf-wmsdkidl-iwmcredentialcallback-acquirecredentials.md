@@ -97,7 +97,7 @@ Specifies an <b>HRESULT</b> return code.
 
 ### -param pdwFlags [in, out]
 
-Pointer to a <b>DWORD</b> containing a bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/en-us/library/Dd757839(v=VS.85).aspx">WMT_CREDENTIAL_FLAGS</a> enumeration type. On input, the caller sets whichever flags are relevant. On output, the application should clear the flags that were set by the caller, and set any additional flags, as appropriate. For details, see <b>WMT_CREDENTIAL_FLAGS</b>.
+Pointer to a <b>DWORD</b> containing a bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_credential_flags">WMT_CREDENTIAL_FLAGS</a> enumeration type. On input, the caller sets whichever flags are relevant. On output, the application should clear the flags that were set by the caller, and set any additional flags, as appropriate. For details, see <b>WMT_CREDENTIAL_FLAGS</b>.
 
 
 ## -returns
@@ -125,11 +125,11 @@ The reader object calls the <b>AcquireCredentials</b> method on the application 
 
 
 
-<a href="https://msdn.microsoft.com/9c181615-e864-4588-846f-d04d73824f5f">Authentication</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/authentication">Authentication</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743355(v=VS.85).aspx">IWMCredentialCallback Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcredentialcallback">IWMCredentialCallback Interface</a>
  
 
  

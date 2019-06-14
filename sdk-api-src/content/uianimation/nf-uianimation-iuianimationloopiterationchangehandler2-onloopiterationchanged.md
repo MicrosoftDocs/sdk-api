@@ -69,19 +69,19 @@ The loop ID.
 
 ### -param newIterationCount [in]
 
-The iteration count for the latest <a href="https://msdn.microsoft.com/5735ABDB-E1AE-41C0-9F37-92084CEF6FAD">IUIAnimationManager2::Update</a>.
+The iteration count for the latest <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-update">IUIAnimationManager2::Update</a>.
 
 
 ### -param oldIterationCount [in]
 
-The iteration count for the previous <a href="https://msdn.microsoft.com/5735ABDB-E1AE-41C0-9F37-92084CEF6FAD">IUIAnimationManager2::Update</a>.
+The iteration count for the previous <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-update">IUIAnimationManager2::Update</a>.
 
 
 ## -returns
 
 
 
-If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/38f15d61-d415-4c7d-b454-5144fc7c9b1e">Windows Animation Error Codes</a> for a list of error codes.
+If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
 
 
 
@@ -91,7 +91,7 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/DB3995BA-856F-407D-AA89-247D84C3F7A1">IUIAnimationLoopIterationChangeHandler2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationloopiterationchangehandler2">IUIAnimationLoopIterationChangeHandler2</a>
  
 
  

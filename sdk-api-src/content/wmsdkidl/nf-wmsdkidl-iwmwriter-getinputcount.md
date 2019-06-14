@@ -111,7 +111,7 @@ The <i>pcInputs</i> parameter is <b>NULL</b>.
 
 
 
-This method along with <a href="https://msdn.microsoft.com/en-us/library/Dd757482(v=VS.85).aspx">GetInputProps</a> can be used to enumerate through the various inputs, and get the input format of each. These are not the output Windows Media streams specified in the profile; in a multiple bit rate scenario, one input stream can map to multiple Windows Media streams.
+This method along with <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-getinputprops">GetInputProps</a> can be used to enumerate through the various inputs, and get the input format of each. These are not the output Windows Media streams specified in the profile; in a multiple bit rate scenario, one input stream can map to multiple Windows Media streams.
 
 
 
@@ -121,11 +121,11 @@ This method along with <a href="https://msdn.microsoft.com/en-us/library/Dd75748
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798719(v=VS.85).aspx">IWMWriter Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/f468f74d-7eed-4819-957d-241903f44d2d">To Identify Inputs By Number</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/to-identify-inputs-by-number">To Identify Inputs By Number</a>
  
 
  

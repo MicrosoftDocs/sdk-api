@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>RGBTRIPLE</b> structure describes a color consisting of relative intensities of red, green, and blue. The <b>bmciColors</b> member of the <a href="https://msdn.microsoft.com/cb6cb9da-8f7f-47e9-980a-aa77fe04c80c">BITMAPCOREINFO</a> structure consists of an array of <b>RGBTRIPLE</b> structures.
+The <b>RGBTRIPLE</b> structure describes a color consisting of relative intensities of red, green, and blue. The <b>bmciColors</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapcoreinfo">BITMAPCOREINFO</a> structure consists of an array of <b>RGBTRIPLE</b> structures.
 
 
 
@@ -80,15 +80,15 @@ The intensity of red in the color.
 
 
 
-<a href="https://msdn.microsoft.com/cb6cb9da-8f7f-47e9-980a-aa77fe04c80c">BITMAPCOREINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapcoreinfo">BITMAPCOREINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/29f8237f-9c7e-41a7-90b1-5f048fcc74a6">Bitmap Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-structures">Bitmap Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/ff0a5ae3-ae2e-4417-b5e5-0f9871c03964">Bitmaps Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
  
 
  

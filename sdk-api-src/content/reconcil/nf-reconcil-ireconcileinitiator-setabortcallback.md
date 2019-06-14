@@ -59,9 +59,9 @@ Sets the object through which the initiator can asynchronously terminate a recon
 
 ### -param punkForAbort
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-The address of the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface for the object. The initiator signals a request to terminate the reconciliation by using the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method to release the object. This parameter may be <b>NULL</b> to direct the initiator to remove the previously specified object. 
+The address of the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface for the object. The initiator signals a request to terminate the reconciliation by using the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method to release the object. This parameter may be <b>NULL</b> to direct the initiator to remove the previously specified object. 
 
 
 ## -returns
@@ -111,7 +111,7 @@ Unspecified error.
 
 The initiator can accept or reject the object. If the initiator accepts the object, the briefcase reconciler must remove the object by calling this method with a <b>NULL</b> parameter when the reconciliation is complete. Because the reconciler removes the object after completing reconciliation, there may be times when the initiator releases the object after reconciliation is complete. In such cases, the reconciler ignores the request to terminate. 
 
-If the reconciliation is terminated, the <a href="https://msdn.microsoft.com/6dfeb68e-fd23-4812-8a3c-ab27fc00a4ad">Reconcile</a> method must return either the REC_E_ABORTED or REC_E_NOTCOMPLETE value. 
+If the reconciliation is terminated, the <a href="https://docs.microsoft.com/windows/desktop/api/reconcil/nf-reconcil-ireconcilableobject-reconcile">Reconcile</a> method must return either the REC_E_ABORTED or REC_E_NOTCOMPLETE value. 
 
 
 
@@ -121,7 +121,7 @@ If the reconciliation is terminated, the <a href="https://msdn.microsoft.com/6df
 
 
 
-<a href="https://msdn.microsoft.com/1a32d67f-1ddc-49dc-af88-b8c41a50ac54">IReconcileInitiator</a>
+<a href="https://docs.microsoft.com/windows/desktop/lwef/ireconcileinitiator">IReconcileInitiator</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-A collection of reason codes associated with a  <a href="https://msdn.microsoft.com/ed5e2575-203a-41a2-b656-50cb82aae088">WSD_SOAP_FAULT</a>. A reason code is a human readable explanation of the fault. 
+A collection of reason codes associated with a  <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_soap_fault">WSD_SOAP_FAULT</a>. A reason code is a human readable explanation of the fault. 
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ A collection of reason codes associated with a  <a href="https://msdn.microsoft.
 
 ### -field Text
 
-A <a href="https://msdn.microsoft.com/4941885c-d349-4e43-838f-b60c3cdc32ba">WSD_LOCALIZED_STRING_LIST</a> structure that contains a collection of localized reason codes.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_localized_string_list">WSD_LOCALIZED_STRING_LIST</a> structure that contains a collection of localized reason codes.
 
 
 ## -see-also
@@ -67,7 +67,7 @@ A <a href="https://msdn.microsoft.com/4941885c-d349-4e43-838f-b60c3cdc32ba">WSD_
 
 
 
-<a href="https://msdn.microsoft.com/ed5e2575-203a-41a2-b656-50cb82aae088">WSD_SOAP_FAULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_soap_fault">WSD_SOAP_FAULT</a>
  
 
  

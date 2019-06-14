@@ -52,12 +52,12 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a sensor device that can belong to a sensor group, which is represented by the <a href="https://msdn.microsoft.com/7CED3EF6-E844-4B3A-8181-CA44FC4675EC">IMFSensorGroup</a> interface. The term "device" in this context could refer to a physical device, a custom media source, or a frame provider.
+Represents a sensor device that can belong to a sensor group, which is represented by the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a> interface. The term "device" in this context could refer to a physical device, a custom media source, or a frame provider.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSensorDevice</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFSensorDevice</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSensorDevice</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSensorDevice</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,16 +72,16 @@ The <b>IMFSensorDevice</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4F509D34-23C3-4034-8D89-0A2E0651F235">GetDeviceAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensordevice-getdeviceattributes">GetDeviceAttributes</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> for the sensor group. 
+Gets the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> for the sensor group. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/90598DC7-A4FB-4C3F-A671-1549703AC9DB">GetDeviceId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensordevice-getdeviceid">GetDeviceId</a>
 </td>
 <td align="left" width="63%">
 Gets the unique identifier for the device. This value is currently unused.
@@ -90,7 +90,7 @@ Gets the unique identifier for the device. This value is currently unused.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6714B5A8-83F2-44CD-B061-749EA6BFBF20">GetDeviceType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensordevice-getdevicetype">GetDeviceType</a>
 </td>
 <td align="left" width="63%">
 Gets a value that specifies the type of sensor device represented by the object.
@@ -99,7 +99,7 @@ Gets a value that specifies the type of sensor device represented by the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/802649EE-7A24-429A-92DB-775A215BCD79">GetFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensordevice-getflags">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Gets the flags set for the sensor device. This method is reserved for future use.
@@ -108,7 +108,7 @@ Gets the flags set for the sensor device. This method is reserved for future use
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/21594884-DAA5-450C-855D-E800FE164C5E">GetSensorDeviceMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensordevice-getsensordevicemode">GetSensorDeviceMode</a>
 </td>
 <td align="left" width="63%">
 Gets a value that specifies the current sharing mode of the sensor device, which is either controller or shared.
@@ -117,7 +117,7 @@ Gets a value that specifies the current sharing mode of the sensor device, which
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/DDBEB335-E6E3-4185-B7EF-90FABA9CDCE5">GetStreamAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensordevice-getstreamattributes">GetStreamAttributes</a>
 </td>
 <td align="left" width="63%">
 Gets the stream attribute store with the specified index.
@@ -126,7 +126,7 @@ Gets the stream attribute store with the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C6A0C4E6-7939-42C1-A499-7C92D83CB418">GetStreamAttributesCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensordevice-getstreamattributescount">GetStreamAttributesCount</a>
 </td>
 <td align="left" width="63%">
 Gets the count of stream attribute stores for the sensor device. This number represents the number of total streams available for the device because every valid stream must have an attribute store that contains at least the stream ID and stream category.
@@ -135,7 +135,7 @@ Gets the count of stream attribute stores for the sensor device. This number rep
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F9244454-DF1D-4A3D-8A63-830A8422AFA2">GetSymbolicLink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensordevice-getsymboliclink">GetSymbolicLink</a>
 </td>
 <td align="left" width="63%">
 Gets the symbolic link name of the sensor device. 
@@ -144,7 +144,7 @@ Gets the symbolic link name of the sensor device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2B0DC098-EA3B-4061-8191-C67BA54663A3">SetSensorDeviceMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensordevice-setsensordevicemode">SetSensorDeviceMode</a>
 </td>
 <td align="left" width="63%">
 Sets a value that specifies the sharing mode of the sensor device to either controller or shared.

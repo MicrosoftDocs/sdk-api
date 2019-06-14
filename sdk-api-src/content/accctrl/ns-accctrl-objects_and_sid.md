@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>OBJECTS_AND_SID</b> structure contains a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) that identifies a trustee and GUIDs that identify the object types of an object-specific <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entry</a> (ACE).
+The <b>OBJECTS_AND_SID</b> structure contains a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) that identifies a trustee and GUIDs that identify the object types of an object-specific <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE).
 
 
 
@@ -101,16 +101,16 @@ The <b>InheritedObjectTypeGuid</b> member contains a GUID.
 ### -field ObjectTypeGuid
 
 A 
-<a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a> structure that identifies the type of object, property set, or property protected by the ACE. If this ACE is inherited, the GUID identifies the type of object, property set, or property protected by the inherited ACE. This GUID must be a valid schema identifier in the Active Directory schema.
+<a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structure that identifies the type of object, property set, or property protected by the ACE. If this ACE is inherited, the GUID identifies the type of object, property set, or property protected by the inherited ACE. This GUID must be a valid schema identifier in the Active Directory schema.
 
 If the ACE_OBJECT_TYPE_PRESENT bit is not set in the <b>ObjectsPresent</b> member, the <b>ObjectTypeGuid</b> member is ignored, and the ACE protects the object to which the ACL is assigned.
 
 
 ### -field InheritedObjectTypeGuid
 
-A <a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a> structure that identifies the type of object that can inherit the ACE. This GUID must be a valid schema identifier in the Active Directory schema.
+A <a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structure that identifies the type of object that can inherit the ACE. This GUID must be a valid schema identifier in the Active Directory schema.
 
-If the ACE_INHERITED_OBJECT_TYPE_PRESENT bit is not set in the <b>ObjectsPresent</b> member, the <b>InheritedObjectTypeGuid</b> member is ignored, and all types of child objects can inherit the ACE. Otherwise, only the specified object type can inherit the ACE. In either case, inheritance is also controlled by the inheritance flags in the <a href="https://msdn.microsoft.com/d23f15d6-0453-4aaf-a2db-7528b551a992">ACE_HEADER</a>structure as well as by any protection against inheritance placed on the child objects.
+If the ACE_INHERITED_OBJECT_TYPE_PRESENT bit is not set in the <b>ObjectsPresent</b> member, the <b>InheritedObjectTypeGuid</b> member is ignored, and all types of child objects can inherit the ACE. Otherwise, only the specified object type can inherit the ACE. In either case, inheritance is also controlled by the inheritance flags in the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a>structure as well as by any protection against inheritance placed on the child objects.
 
 
 ### -field pSid
@@ -122,9 +122,9 @@ A pointer to the SID of the trustee to whom the ACE applies.
 
 
 
-The <b>ptstrName</b> member of a <a href="https://msdn.microsoft.com/120e93eb-680f-4f86-879d-bc2de10d4641">TRUSTEE</a> structure can be a pointer to an <b>OBJECTS_AND_SID</b> structure. This enables functions such as <a href="https://msdn.microsoft.com/05960fc1-1ad2-4c19-a65c-62259af5e18c">SetEntriesInAcl</a> and <a href="https://msdn.microsoft.com/186aa6aa-efc3-4f8a-acad-e257da3dac0b">GetExplicitEntriesFromAcl</a> to store object-specific ACE information in the <b>Trustee</b> member of an <a href="https://msdn.microsoft.com/6fe09542-10dd-439c-adf8-a4e06943ddb2">EXPLICIT_ACCESS</a> structure.
+The <b>ptstrName</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a> structure can be a pointer to an <b>OBJECTS_AND_SID</b> structure. This enables functions such as <a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setentriesinacla">SetEntriesInAcl</a> and <a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getexplicitentriesfromacla">GetExplicitEntriesFromAcl</a> to store object-specific ACE information in the <b>Trustee</b> member of an <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_explicit_access_a">EXPLICIT_ACCESS</a> structure.
 
-When you use this structure in a call to <a href="https://msdn.microsoft.com/05960fc1-1ad2-4c19-a65c-62259af5e18c">SetEntriesInAcl</a>, <b>ObjectTypeGuid</b> and <b>InheritedObjectTypeGuid</b> must be valid schema identifiers in the Active Directory schema. The system does not verify the GUIDs; they are used as is.
+When you use this structure in a call to <a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setentriesinacla">SetEntriesInAcl</a>, <b>ObjectTypeGuid</b> and <b>InheritedObjectTypeGuid</b> must be valid schema identifiers in the Active Directory schema. The system does not verify the GUIDs; they are used as is.
 
 
 
@@ -134,31 +134,31 @@ When you use this structure in a call to <a href="https://msdn.microsoft.com/059
 
 
 
-<a href="https://msdn.microsoft.com/d23f15d6-0453-4aaf-a2db-7528b551a992">ACE_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/6fe09542-10dd-439c-adf8-a4e06943ddb2">EXPLICIT_ACCESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_explicit_access_a">EXPLICIT_ACCESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a>
+<a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a>
 
 
 
-<a href="https://msdn.microsoft.com/186aa6aa-efc3-4f8a-acad-e257da3dac0b">GetExplicitEntriesFromAcl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getexplicitentriesfromacla">GetExplicitEntriesFromAcl</a>
 
 
 
-<a href="https://msdn.microsoft.com/ad91a302-f693-44e9-9655-ec4488ff78c4">OBJECTS_AND_NAME</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_objects_and_name_a">OBJECTS_AND_NAME</a>
 
 
 
-<a href="https://msdn.microsoft.com/05960fc1-1ad2-4c19-a65c-62259af5e18c">SetEntriesInAcl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setentriesinacla">SetEntriesInAcl</a>
 
 
 
-<a href="https://msdn.microsoft.com/120e93eb-680f-4f86-879d-bc2de10d4641">TRUSTEE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a>
  
 
  

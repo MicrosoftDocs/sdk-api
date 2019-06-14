@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_SA_DETAILS0</b> structure is used to store information returned when enumerating IKE, AuthIP, or IKEv2 security associations (SAs).
-<div class="alert"><b>Note</b>  <b>IKEEXT_SA_DETAILS0</b> is the specific implementation of IKEEXT_SA_DETAILS used in Windows Vista. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7 and later, <a href="https://msdn.microsoft.com/b4b8767b-399a-49f0-91fd-59c2206742de">IKEEXT_SA_DETAILS1</a> is available. For Windows 8, <a href="https://msdn.microsoft.com/51b8f3a8-bccc-4d1f-871f-9a319ed5c49c">IKEEXT_SA_DETAILS2</a> is available. </div><div> </div>
+<div class="alert"><b>Note</b>  <b>IKEEXT_SA_DETAILS0</b> is the specific implementation of IKEEXT_SA_DETAILS used in Windows Vista. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7 and later, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_sa_details1_">IKEEXT_SA_DETAILS1</a> is available. For Windows 8, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_sa_details2_">IKEEXT_SA_DETAILS2</a> is available. </div><div> </div>
 
 ## -struct-fields
 
@@ -66,17 +66,17 @@ LUID identifying the security association.
 
 Key module type. 
 
-See <a href="https://msdn.microsoft.com/a9268b07-343a-4a51-bc70-3e624facf617">IKEEXT_KEY_MODULE_TYPE</a> for more information. 
+See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_key_module_type_">IKEEXT_KEY_MODULE_TYPE</a> for more information. 
 
 
 ### -field ipVersion
 
-IP version specified by <a href="https://msdn.microsoft.com/1712b83c-f32d-4981-9950-ab870a376182">FWP_IP_VERSION</a>.
+IP version specified by <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version_">FWP_IP_VERSION</a>.
 
 
 ### -field v4UdpEncapsulation
 
-Points to an  <a href="https://msdn.microsoft.com/69cddec0-7311-4833-8b24-293ad714054e">IPSEC_V4_UDP_ENCAPSULATION0</a> structure, which, if a NAT is detected,  stores the UDP ports corresponding to the 
+Points to an  <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_v4_udp_encapsulation0_">IPSEC_V4_UDP_ENCAPSULATION0</a> structure, which, if a NAT is detected,  stores the UDP ports corresponding to the 
    Main Mode.
 
 Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>. 
@@ -84,22 +84,22 @@ Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
 
 ### -field ikeTraffic
 
-The traffic corresponding to this IKE SA specified by <a href="https://msdn.microsoft.com/99cb3774-7afd-44fd-9c3e-e2d913aaeecb">IKEEXT_TRAFFIC0</a>.
+The traffic corresponding to this IKE SA specified by <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_traffic0_">IKEEXT_TRAFFIC0</a>.
 
 
 ### -field ikeProposal
 
-The main mode proposal corresponding to this IKE SA specified by <a href="https://msdn.microsoft.com/59568ef7-12bd-407a-a8ee-9bf261f49883">IKEEXT_PROPOSAL0</a>.
+The main mode proposal corresponding to this IKE SA specified by <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_proposal0_">IKEEXT_PROPOSAL0</a>.
 
 
 ### -field cookiePair
 
-SA cookies specified by <a href="https://msdn.microsoft.com/c752545b-1880-40ac-871e-e36d4b81668f">IKEEXT_COOKIE_PAIR0</a>.
+SA cookies specified by <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cookie_pair0_">IKEEXT_COOKIE_PAIR0</a>.
 
 
 ### -field ikeCredentials
 
-Credentials information for the SA specified by <a href="https://msdn.microsoft.com/048d0a56-5d9b-4a85-b42f-8505eb6a97a9">IKEEXT_CREDENTIALS0</a>.
+Credentials information for the SA specified by <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credentials0_">IKEEXT_CREDENTIALS0</a>.
 
 
 ### -field ikePolicyKey
@@ -121,7 +121,7 @@ Available only on Windows 7, Windows Server 2008 R2, and later.
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

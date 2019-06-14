@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CertAddSerializedElementToStore</b> function adds a serialized <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate</a>, <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL), or <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate trust list</a> (CTL) element to the store. The serialized element contains the encoded certificate, CRL, or CTL and its extended properties. Extended properties are associated with a certificate and are not part of a certificate as issued by a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a>. Extended properties are not available on a certificate when it is used on a non-Microsoft platform.
+The <b>CertAddSerializedElementToStore</b> function adds a serialized <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a>, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL), or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) element to the store. The serialized element contains the encoded certificate, CRL, or CTL and its extended properties. Extended properties are associated with a certificate and are not part of a certificate as issued by a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a>. Extended properties are not available on a certificate when it is used on a non-Microsoft platform.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>CertAddSerializedElementToStore</b> function adds a serialized <a href="h
 
 ### -param hCertStore [in]
 
-The handle of a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a> where the created certificate will be stored. If <i>hCertStore</i> is <b>NULL</b>, the function creates a copy of a certificate, CRL, or CTL context with its extended properties, but the certificate, CRL, or CTL is not persisted in any store.
+The handle of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> where the created certificate will be stored. If <i>hCertStore</i> is <b>NULL</b>, the function creates a copy of a certificate, CRL, or CTL context with its extended properties, but the certificate, CRL, or CTL is not persisted in any store.
 
 
 ### -param pbElement [in]
@@ -118,8 +118,8 @@ If an identical certificate, CRL, or CTL already exists in the store, the existi
 </td>
 <td width="60%">
 No check is made to determine whether an identical certificate, CRL, or CTL already exists. A new element is always created. This can lead to duplicates in the store. To determine whether the element already exists in the store, call 
-<a href="https://msdn.microsoft.com/7bd21424-4f74-4bac-ab47-00d51ebdca1c">CertGetCRLFromStore</a> or 
-<a href="https://msdn.microsoft.com/61d73501-91b1-4498-b1a3-17392360c700">CertGetSubjectCertificateFromStore</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcrlfromstore">CertGetCRLFromStore</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetsubjectcertificatefromstore">CertGetSubjectCertificateFromStore</a>.
 
 </td>
 </tr>
@@ -130,7 +130,7 @@ No check is made to determine whether an identical certificate, CRL, or CTL alre
 </td>
 <td width="60%">
 If a matching CRL or CTL or a link to a matching CRL or CTL exists, the function compares the <b>NotBefore</b> times on the CRL or CTL. If the existing CRL or CTL has a <b>NotBefore</b> time less than the <b>NotBefore</b> time on the new element, the old element or link is replaced just as with CERT_STORE_ADD_REPLACE_EXISTING. If the existing element has a <b>NotBefore</b> time greater than or equal to the <b>NotBefore</b> time on the element to be added, the function fails with 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returning the CRYPT_E_EXISTS code.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returning the CRYPT_E_EXISTS code.
 
 If a matching CRL or CTL or a link to a matching CRL or CTL is not found in the store, a new element is added to the store.
 
@@ -223,7 +223,7 @@ Adds only a CTL context.
 
 ### -param pdwContextType [out]
 
-A pointer to the context type of the added serialized element. This is an optional parameter and can be <b>NULL</b>, which indicates that the calling application does not require the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a> type.
+A pointer to the context type of the added serialized element. This is an optional parameter and can be <b>NULL</b>, which indicates that the calling application does not require the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> type.
 
 Currently defined context types are shown in the following table.
 
@@ -271,12 +271,12 @@ CTLs
 A pointer to a pointer to the decoded certificate, CRL, or CTL context. This is an optional parameter and can be <b>NULL</b>, which indicates that the calling application does not require the context of the added or existing certificate, CRL, or CTL.
 
 If <i>ppvContext</i> is not <b>NULL</b>, it must be the address of a pointer to a 
-<a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a>, 
-<a href="https://msdn.microsoft.com/cf7cabcd-b469-492a-b855-8870465ea1cc">CRL_CONTEXT</a>, or 
-<a href="https://msdn.microsoft.com/780edddf-1b44-4292-9156-4dfd5100adb8">CTL_CONTEXT</a>. When the application is finished with the context, the context must be freed by using 
-<a href="https://msdn.microsoft.com/7d2f3237-3f8b-4234-b6db-3057384cd89b">CertFreeCertificateContext</a> for a certificate, 
-<a href="https://msdn.microsoft.com/19a590a5-bd39-4bbe-ad86-4e648baa1ba8">CertFreeCRLContext</a> for a CRL, or 
-<a href="https://msdn.microsoft.com/84b1aa0c-44d9-4a2f-861c-fa7d8caac192">CertFreeCTLContext</a> for a CTL.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_context">CRL_CONTEXT</a>, or 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">CTL_CONTEXT</a>. When the application is finished with the context, the context must be freed by using 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> for a certificate, 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a> for a CRL, or 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a> for a CTL.
 
 
 ## -returns
@@ -286,7 +286,7 @@ If <i>ppvContext</i> is not <b>NULL</b>, it must be the address of a pointer to 
 If the function succeeds, the function returns nonzero.
 
 If the function fails, it returns zero. For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. Some possible error codes follow.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Some possible error codes follow.
 
 <table>
 <tr>
@@ -318,8 +318,8 @@ A disposition value that is not valid was specified in the <i>dwAddDisposition</
 </table>
  
 
-If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> may return an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
-<a href="https://msdn.microsoft.com/cb1f34dd-dab4-4ffb-a73b-79a214290509">ASN.1 Encoding/Decoding Return Values</a>.
+If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
 
 
@@ -329,15 +329,15 @@ If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5
 
 
 
-<a href="https://msdn.microsoft.com/4ab053cd-d3d4-483c-b0ff-b8de63d88707">CertSerializeCRLStoreElement</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certserializecrlstoreelement">CertSerializeCRLStoreElement</a>
 
 
 
-<a href="https://msdn.microsoft.com/104fc986-6344-41b7-8843-23c3c72405a2">CertSerializeCertificateStoreElement</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certserializecertificatestoreelement">CertSerializeCertificateStoreElement</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate and Certificate Store Maintenance Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate and Certificate Store Maintenance Functions</a>
  
 
  

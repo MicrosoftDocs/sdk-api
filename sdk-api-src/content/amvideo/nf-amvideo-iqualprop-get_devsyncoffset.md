@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <code>get_DevSyncOffset</code> method retrieves the average time difference between when the video frames should have been displayed and when they actually were. This method is the same as the <a href="https://msdn.microsoft.com/en-us/library/Dd376917(v=VS.85).aspx">IQualProp::get_AvgSyncOffset</a> method except that the value returned is calculated as a standard deviation rather than as a simple average.
+The <code>get_DevSyncOffset</code> method retrieves the average time difference between when the video frames should have been displayed and when they actually were. This method is the same as the <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-iqualprop-get_avgsyncoffset">IQualProp::get_AvgSyncOffset</a> method except that the value returned is calculated as a standard deviation rather than as a simple average.
 
 
 
@@ -89,11 +89,11 @@ When playing video from networks, the presentation can often be disrupted by net
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd376915(v=VS.85).aspx">IQualProp Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nn-amvideo-iqualprop">IQualProp Interface</a>
  
 
  

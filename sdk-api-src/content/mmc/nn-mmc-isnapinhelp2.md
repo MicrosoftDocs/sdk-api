@@ -58,13 +58,13 @@ The
 <b>ISnapinHelp2</b> is the same as <b>ISnapinHelp</b> with the addition of the following method:
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/ceed0d9f-e1bf-4692-aadf-e924095cdfc8">ISnapinHelp2::GetLinkedTopics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-isnapinhelp2-getlinkedtopics">ISnapinHelp2::GetLinkedTopics</a>
 </li>
 </ul>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISnapinHelp2</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISnapinHelp2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISnapinHelp2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISnapinHelp2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -79,7 +79,7 @@ The <b>ISnapinHelp2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a7157e34-6f38-4589-b85e-8aca2bcd6ee1">GetHelpTopic</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814944(v=vs.85)">GetHelpTopic</a>
 </td>
 <td align="left" width="63%">
 Merges the snap-in's HTML Help file into the MMC HTML Help file.
@@ -88,7 +88,7 @@ Merges the snap-in's HTML Help file into the MMC HTML Help file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ceed0d9f-e1bf-4692-aadf-e924095cdfc8">GetLinkedTopics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-isnapinhelp2-getlinkedtopics">GetLinkedTopics</a>
 </td>
 <td align="left" width="63%">
 Allows the snap-in to specify the names and locations of any HTML Help files that are linked to the snap-in's Help file.
@@ -103,7 +103,7 @@ Allows the snap-in to specify the names and locations of any HTML Help files tha
 
 
 
-<a href="https://msdn.microsoft.com/87387cf5-ff5f-4816-8c96-97a7ae25df94">Adding HTML Help Support</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/adding-html-help-support">Adding HTML Help Support</a>
  
 
  

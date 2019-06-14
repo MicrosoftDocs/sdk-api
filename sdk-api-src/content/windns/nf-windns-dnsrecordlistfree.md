@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>DnsRecordListFree</b> function frees memory allocated for DNS records obtained using the 
-<a href="https://msdn.microsoft.com/3d810b76-cea1-4904-9b5a-c2566b332c2c">DnsQuery</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a> function.
 
 
 ## -parameters
@@ -61,12 +61,12 @@ The
 
 ### -param p [in, out, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a> structure that contains the list of DNS records to be freed.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a> structure that contains the list of DNS records to be freed.
 
 
 ### -param t [in]
 
-A specifier of how the record list should be freed. The only type currently supported is a deep freeing of the entire record list. For more information and a list of values, see the <a href="https://msdn.microsoft.com/976982a1-08f1-4c67-b823-1eea34f0c643">DNS_FREE_TYPE</a> enumeration.
+A specifier of how the record list should be freed. The only type currently supported is a deep freeing of the entire record list. For more information and a list of values, see the <a href="https://docs.microsoft.com/windows/desktop/api/windns/ne-windns-__unnamed_enum_1">DNS_FREE_TYPE</a> enumeration.
 
 
 ## -remarks
@@ -75,7 +75,7 @@ A specifier of how the record list should be freed. The only type currently supp
 
 The 
 <b>DnsRecordListFree</b> function can be used to free memory allocated from query results obtained using a 
-<a href="https://msdn.microsoft.com/3d810b76-cea1-4904-9b5a-c2566b332c2c">DnsQuery</a> function call; it cannot free memory allocated for DNS record lists created manually.
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a> function call; it cannot free memory allocated for DNS record lists created manually.
 
 
 
@@ -85,7 +85,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/976982a1-08f1-4c67-b823-1eea34f0c643">DNS_FREE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ne-windns-__unnamed_enum_1">DNS_FREE_TYPE</a>
  
 
  

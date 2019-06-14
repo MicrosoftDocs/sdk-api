@@ -84,7 +84,7 @@ This enumeration indicates the type of data communication protocol (reliable or 
 
 
 
-<a href="https://msdn.microsoft.com/cd28f608-25ba-44a7-868b-b1cd4dfcfa45">Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>
  
 
  

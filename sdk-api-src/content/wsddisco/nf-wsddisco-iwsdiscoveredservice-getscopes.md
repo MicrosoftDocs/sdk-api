@@ -59,7 +59,7 @@ Retrieves a list of WS-Discovery Scopes.
 
 ### -param ppScopesList [out]
 
-List of WS-Discovery Scopes provided in the Hello, ProbeMatch, or ResolveMatch message sent by the remote device. For details, see <a href="https://msdn.microsoft.com/86d77741-39c3-44bd-b072-d2d4eb99e488">WSD_URI_LIST</a>. Do not deallocate the output structure.
+List of WS-Discovery Scopes provided in the Hello, ProbeMatch, or ResolveMatch message sent by the remote device. For details, see <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_uri_list">WSD_URI_LIST</a>. Do not deallocate the output structure.
 
 
 ## -returns
@@ -110,7 +110,7 @@ Method completed successfully.
 
 
 
-The resulting pointer value is only valid for the lifetime of the <a href="https://msdn.microsoft.com/6516098a-e440-4dec-b275-165ea3072d49">IWSDiscoveredService</a> object.
+The resulting pointer value is only valid for the lifetime of the <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a> object.
 
 
 
@@ -120,7 +120,7 @@ The resulting pointer value is only valid for the lifetime of the <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/6516098a-e440-4dec-b275-165ea3072d49">IWSDiscoveredService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a>
  
 
  

@@ -61,7 +61,7 @@ Used by an express writer to indicate in its Writer Metadata Document the types 
 ### -param dwSchemaMask [in]
 
 A bitmask of 
-<a href="https://msdn.microsoft.com/3541c8bd-2712-458b-9153-1fffe6bf5688">VSS_BACKUP_SCHEMA</a> enumeration values that specify the types of backup operations this writer supports.
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_backup_schema">VSS_BACKUP_SCHEMA</a> enumeration values that specify the types of backup operations this writer supports.
 
 
 ## -returns
@@ -116,7 +116,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more information, see 
-<a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+<a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ If no schema is explicitly set by
 <b>SetBackupSchema</b>, the express writer will be assigned the default value of <b>VSS_BS_UNDEFINED</b>. <b>VSS_BS_UNDEFINED</b> means that the writer supports only simple full backup and restoration of entire files (as defined by <b>VSS_BT_FULL</b>), there is no support for incremental or differential backups, and partial files are not supported. Only the <b>VSS_BS_UNDEFINED</b>, <b>VSS_BS_COPY</b> and <b>VSS_BS_INDEPENDENT_SYSTEM_STATE</b> backup schema types are supported by express writers.
 
 Requesters call 
-<a href="https://msdn.microsoft.com/d7099d6e-b8dd-44a5-af68-f3347c5d251b">IVssExamineWriterMetadata::GetBackupSchema</a> to retrieve a writer's backup schemas as set by 
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getbackupschema">IVssExamineWriterMetadata::GetBackupSchema</a> to retrieve a writer's backup schemas as set by 
 <b>SetBackupSchema</b>.
 
 
@@ -145,7 +145,7 @@ Requesters call
 
 
 
-<a href="https://msdn.microsoft.com/49112cff-9e61-4218-a013-5ae5eb58b534">IVssCreateExpressWriterMetadata</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreateexpresswritermetadata">IVssCreateExpressWriterMetadata</a>
  
 
  

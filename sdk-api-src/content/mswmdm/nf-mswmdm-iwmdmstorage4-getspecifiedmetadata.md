@@ -73,7 +73,7 @@ Array of property names to retrieve. The length of this array should be equal to
 
 ### -param ppMetadata [out]
 
-Pointer to the returned <a href="https://msdn.microsoft.com/ea57a851-0b9f-444c-9819-a278f2ece2b0">IWMDMMetaData</a> interface pointer, containing the retrieved values. The caller must release this interface when finished with it.
+Pointer to the returned <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData</a> interface pointer, containing the retrieved values. The caller must release this interface when finished with it.
 
 
 ## -returns
@@ -87,7 +87,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 
 
@@ -96,7 +96,7 @@ For an extensive list of possible error codes, see <a href="https://msdn.microso
 
 
 
-This method gives the client control over which properties are retrieved. This can be more efficient than <a href="https://msdn.microsoft.com/7e436742-fb19-4e8e-98a2-d961c9f0ecbf">IWMDMStorage3::GetMetadata</a>, and is recommended when the client needs only a subset of properties supported by the storage.
+This method gives the client control over which properties are retrieved. This can be more efficient than <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage3-getmetadata">IWMDMStorage3::GetMetadata</a>, and is recommended when the client needs only a subset of properties supported by the storage.
 
 If this method is used to retrieve data from a Windows Portable Devices (WPD) device, the data is returned in binary form in an <b>IPortableDeviceValues</b> object. The application should de-serialize this data in order to obtain the actual property values.
 
@@ -112,23 +112,23 @@ Requesting a single property is a special case of this method. If the client req
 
 
 
-<a href="https://msdn.microsoft.com/9f803e1a-ff33-443a-9448-e8c875d77e51">Creating a Playlist on the Device</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/creating-a-playlist-on-the-device">Creating a Playlist on the Device</a>
 
 
 
-<a href="https://msdn.microsoft.com/ea57a851-0b9f-444c-9819-a278f2ece2b0">IWMDMMetaData Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/7e436742-fb19-4e8e-98a2-d961c9f0ecbf">IWMDMStorage3::GetMetadata</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage3-getmetadata">IWMDMStorage3::GetMetadata</a>
 
 
 
-<a href="https://msdn.microsoft.com/ac80cc08-0ff0-48ee-b9c6-e094f803b751">IWMDMStorage4 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage4">IWMDMStorage4 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/870c0e36-aa26-4ab3-b47f-81346d005fa5">Metadata Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/metadata-constants">Metadata Constants</a>
  
 
  

@@ -98,7 +98,7 @@ The method succeeded.
 
 
 
-If the value passed to <code>SetSequencePaddingWidth</code> is nonzero and the format string specified in <a href="https://msdn.microsoft.com/28eaeee4-05eb-4d51-9e21-937481bc7703">SetOutputFileNameTemplate</a> contains a sequential token, this method sets the width allotted for the sequential token. For example, given the template <code>$(GroupTag)$(AcquisitionSequence).$(OriginalExtension)</code>, if padding is set to 0, a file name might appear as <pre class="syntax" xml:space="preserve"><code>"Image1.jpg"</code></pre> If padding is set to 3, the file name may appear as <pre class="syntax" xml:space="preserve"><code>"Image   1.jpg"</code></pre>
+If the value passed to <code>SetSequencePaddingWidth</code> is nonzero and the format string specified in <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setoutputfilenametemplate">SetOutputFileNameTemplate</a> contains a sequential token, this method sets the width allotted for the sequential token. For example, given the template <code>$(GroupTag)$(AcquisitionSequence).$(OriginalExtension)</code>, if padding is set to 0, a file name might appear as <pre class="syntax" xml:space="preserve"><code>"Image1.jpg"</code></pre> If padding is set to 3, the file name may appear as <pre class="syntax" xml:space="preserve"><code>"Image   1.jpg"</code></pre>
 
 
 
@@ -109,15 +109,15 @@ If the value passed to <code>SetSequencePaddingWidth</code> is nonzero and the f
 
 
 
-<a href="https://msdn.microsoft.com/d19a103e-0f5a-493d-a515-21d8730e39e3">GetSequencePaddingWidth</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-getsequencepaddingwidth">GetSequencePaddingWidth</a>
 
 
 
-<a href="https://msdn.microsoft.com/c86d0c97-f9ef-4a73-865b-8aea7972193b">IPhotoAcquireSettings Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresettings">IPhotoAcquireSettings Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/5010a61f-a01c-4dd9-850e-581a62b31ab4">SetSequenceZeroPadding</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setsequencezeropadding">SetSequenceZeroPadding</a>
  
 
  

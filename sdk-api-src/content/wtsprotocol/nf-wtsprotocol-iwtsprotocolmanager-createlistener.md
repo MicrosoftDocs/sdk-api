@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>IWTSProtocolManager::CreateListener</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://msdn.microsoft.com/df91dc10-77af-4b5a-8033-1b1ff614bb17">IWRdsProtocolManager::CreateListener</a>.]
+<p class="CCE_Message">[<b>IWTSProtocolManager::CreateListener</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolmanager-createlistener">IWRdsProtocolManager::CreateListener</a>.]
 
-Requests the creation of an <a href="https://msdn.microsoft.com/b11eb19f-ffc3-4a68-85c6-90a2412168f8">IWTSProtocolListener</a> object that listens for incoming client connection requests. The protocol provider must add a reference to the <b>IWTSProtocolListener</b> object before returning.  The Remote Desktop Services service  releases the reference when the service stops or the listener object is deleted.
+Requests the creation of an <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocollistener">IWTSProtocolListener</a> object that listens for incoming client connection requests. The protocol provider must add a reference to the <b>IWTSProtocolListener</b> object before returning.  The Remote Desktop Services service  releases the reference when the service stops or the listener object is deleted.
 
 
 ## -parameters
@@ -66,14 +66,14 @@ A pointer to a string that contains the registry GUID that specifies the listene
 
 ### -param pProtocolListener [out]
 
-The address of a pointer to the <a href="https://msdn.microsoft.com/b11eb19f-ffc3-4a68-85c6-90a2412168f8">IWTSProtocolListener</a> object.
+The address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocollistener">IWTSProtocolListener</a> object.
 
 
 ## -returns
 
 
 
-When you are implementing this method, return <b>S_OK</b> if the function succeeds. If it fails, return an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>. 
+When you are implementing this method, return <b>S_OK</b> if the function succeeds. If it fails, return an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>. 
 
 
 
@@ -103,7 +103,7 @@ The <b>CreateListener</b> method is the first call the Remote Desktop Services s
 
 
 
-<a href="https://msdn.microsoft.com/a54bdb46-b18b-4a6d-90fc-75947f6dd191">IWTSProtocolManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolmanager">IWTSProtocolManager</a>
  
 
  

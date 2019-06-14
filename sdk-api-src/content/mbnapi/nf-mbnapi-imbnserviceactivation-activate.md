@@ -141,7 +141,7 @@ The <b>VendorSpecificBufferSize</b> field of the OID request would be set to the
 Refer to the Mobile Broadband Driver Model for more information about service activation operations.
 
 
-This is an asynchronous operation that will return immediately. If the method returns without error,  then the Mobile Broadband service will call the <a href="https://msdn.microsoft.com/bc1c85b3-1b7b-4439-9358-801da8f4c79b">OnActivationComplete</a> method of the  <a href="https://msdn.microsoft.com/b3385523-f1ab-403d-9244-7683a7e9f95a">IMbnServiceActivationEvents</a> interface.
+This is an asynchronous operation that will return immediately. If the method returns without error,  then the Mobile Broadband service will call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnserviceactivationevents-onactivationcomplete">OnActivationComplete</a> method of the  <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnserviceactivationevents">IMbnServiceActivationEvents</a> interface.
 
 
 
@@ -151,7 +151,7 @@ This is an asynchronous operation that will return immediately. If the method re
 
 
 
-<a href="https://msdn.microsoft.com/cf23be24-f7a8-41b9-81f1-c267a265f85b">IMbnServiceActivation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnserviceactivation">IMbnServiceActivation</a>
  
 
  

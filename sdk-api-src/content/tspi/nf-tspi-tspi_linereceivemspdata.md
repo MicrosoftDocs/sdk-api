@@ -97,19 +97,19 @@ Returns zero if the function succeeds, or an error number if an error occurs. Po
 
 
 
-<a href="https://msdn.microsoft.com/2dd1268f-b31a-443b-a36b-05c1570e7a8a">About The Media Service Provider (MSP)</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/about-the-media-service-provider-msp-">About The Media Service Provider (MSP)</a>
 
 
 
-<a href="https://msdn.microsoft.com/700824ed-05a1-4fb5-adf1-491e1dea7bf4">TSPI_lineCloseMSPInstance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineclosemspinstance">TSPI_lineCloseMSPInstance</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d3421d8-2ef8-4f62-b6b0-5671a18ffc0b">TSPI_lineCreateMSPInstance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linecreatemspinstance">TSPI_lineCreateMSPInstance</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4fe8d2e-7257-49de-b5d1-e343cadad59a">TSPI_lineMSPIdentify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linemspidentify">TSPI_lineMSPIdentify</a>
  
 
  

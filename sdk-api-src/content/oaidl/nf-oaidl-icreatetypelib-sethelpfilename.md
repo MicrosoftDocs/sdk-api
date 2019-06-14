@@ -143,7 +143,7 @@ Each type library can reference a single Help file.
 
 
 
-The <a href="https://msdn.microsoft.com/aa65e143-47db-4241-9c66-fe3a1dcf1f0a">GetDocumentation</a> method of the created <a href="https://msdn.microsoft.com/c1e5d71f-6a4e-45f3-811d-f57024f81a55">ITypeLib</a> returns a fully qualified path for the Help file, which is formed by appending the name passed into <i>szHelpFileName</i> to the registered Help directory for the type library. The Help directory is registered under:
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib-getdocumentation">GetDocumentation</a> method of the created <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a> returns a fully qualified path for the Help file, which is formed by appending the name passed into <i>szHelpFileName</i> to the registered Help directory for the type library. The Help directory is registered under:
 
 
 
@@ -158,7 +158,7 @@ The <a href="https://msdn.microsoft.com/aa65e143-47db-4241-9c66-fe3a1dcf1f0a">Ge
 
 
 
-<a href="https://msdn.microsoft.com/d245cd25-ce31-42da-a42d-dc412d5b98e7">ICreateTypeLib</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a>
  
 
  

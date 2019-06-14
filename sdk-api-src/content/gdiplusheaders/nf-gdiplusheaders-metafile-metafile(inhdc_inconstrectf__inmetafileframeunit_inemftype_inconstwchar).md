@@ -67,7 +67,7 @@ Windows handle to a device context that contains attributes of the display devic
 
 ### -param frameRect [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a></b>
 
 Reference to a rectangle that bounds the metafile display. 
 
@@ -76,14 +76,14 @@ Reference to a rectangle that bounds the metafile display.
 
 Type: <b>MetaFileFrameUnit</b>
 
-Optional. Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534151(v=VS.85).aspx">MetafileFrameUnit</a> enumeration that specifies the unit of measure for <i>frameRect</i>. The default value is <a href="https://msdn.microsoft.com/en-us/library/ms534151(v=VS.85).aspx">MetafileFrameUnitGdi</a>. 
+Optional. Element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-metafileframeunit">MetafileFrameUnit</a> enumeration that specifies the unit of measure for <i>frameRect</i>. The default value is <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-metafileframeunit">MetafileFrameUnitGdi</a>. 
 
 
 ### -param type [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534115(v=VS.85).aspx">EmfType</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-emftype">EmfType</a></b>
 
-Optional. Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534115(v=VS.85).aspx">EmfType</a> enumeration that specifies the type of metafile that will be recorded. The default value is <a href="https://msdn.microsoft.com/en-us/library/ms534151(v=VS.85).aspx">EmfTypeEmfPlusDual</a>. 
+Optional. Element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-emftype">EmfType</a> enumeration that specifies the type of metafile that will be recorded. The default value is <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-metafileframeunit">EmfTypeEmfPlusDual</a>. 
 
 
 ### -param description [in]
@@ -107,31 +107,31 @@ When recording to a file, the file must be writable, and Windows GDI+ must be ab
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534115(v=VS.85).aspx">EmfType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-emftype">EmfType</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533831(v=VS.85).aspx">Loading and Displaying Metafiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-loading-and-displaying-metafiles-use">Loading and Displaying Metafiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534477(v=VS.85).aspx">Metafile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534151(v=VS.85).aspx">MetafileFrameUnit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-metafileframeunit">MetafileFrameUnit</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536391(v=VS.85).aspx">Metafiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-metafiles-about">Metafiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533833(v=VS.85).aspx">Recording Metafiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-recording-metafiles-use">Recording Metafiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a>
  
 
  

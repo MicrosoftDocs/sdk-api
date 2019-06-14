@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information about the properties of a column. It is used by <a href="https://msdn.microsoft.com/87196252-3835-4828-ad0a-0edcafb286b7">IColumnProvider::GetColumnInfo</a>.
+Contains information about the properties of a column. It is used by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-getcolumninfo">IColumnProvider::GetColumnInfo</a>.
 
 
 ## -struct-fields
@@ -59,16 +59,16 @@ Contains information about the properties of a column. It is used by <a href="ht
 
 ### -field scid
 
-Type: <b><a href="https://msdn.microsoft.com/bf7b0e3b-527a-4ef5-894a-a7e1b7750e72">SHCOLUMNID</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/shell/objects">SHCOLUMNID</a></b>
 
-A <a href="https://msdn.microsoft.com/bf7b0e3b-527a-4ef5-894a-a7e1b7750e72">SHCOLUMNID</a> structure that uniquely identifies the column.
+A <a href="https://docs.microsoft.com/windows/desktop/shell/objects">SHCOLUMNID</a> structure that uniquely identifies the column.
 
 
 ### -field vt
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221127(v=VS.85).aspx">VARTYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARTYPE</a></b>
 
-The native <a href="https://msdn.microsoft.com/en-us/library/ms221127(v=VS.85).aspx">VARIANT</a> type of the column's data.
+The native <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARIANT</a> type of the column's data.
 
 
 ### -field fmt
@@ -76,7 +76,7 @@ The native <a href="https://msdn.microsoft.com/en-us/library/ms221127(v=VS.85).a
 Type: <b>DWORD</b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774743(v=VS.85).aspx">List view format</a>. This member is normally set to LVCFMT_LEFT.
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvcolumna">List view format</a>. This member is normally set to LVCFMT_LEFT.
 
 
 ### -field cChars
@@ -160,7 +160,7 @@ A null-terminated Unicode string with the column's description. It must contain 
 
 
 
-<a href="https://msdn.microsoft.com/87196252-3835-4828-ad0a-0edcafb286b7">IColumnProvider::GetColumnInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-getcolumninfo">IColumnProvider::GetColumnInfo</a>
  
 
  

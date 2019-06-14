@@ -51,10 +51,10 @@ ms.custom: 19H1
 
 The 
 WbemTimeout constant defines the time-out constants. This constant is used by 
-<a href="https://msdn.microsoft.com/ff2d54d4-b8ee-4bb8-b6f7-081a1ca20489">SWbemEventSource.NextEvent</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemeventsource-nextevent">SWbemEventSource.NextEvent</a>.
 
 The WMI scripting type library, wbemdisp.tlb, defines these constants. Visual Basic applications can access this library; script languages must use the value of the constant directly, unless they use Windows Script Host (WSH) XML file format. For more information, see 
-<a href="https://msdn.microsoft.com/6ef4e210-0733-4f2a-89c1-1a7aca5a19d9">Using the WMI Scripting Type Library</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/using-the-wmi-scripting-type-library">Using the WMI Scripting Type Library</a>.
 
 
 ## -enum-fields
@@ -64,7 +64,7 @@ The WMI scripting type library, wbemdisp.tlb, defines these constants. Visual Ba
 
 ### -field wbemTimeoutInfinite
 
-Use for parameters that use a time-out value such as <i>iTimeoutMs</i> for <a href="https://msdn.microsoft.com/fe547660-4095-4a75-829d-f06599c0d9d7">ISWbemServices.ExecNotificationQuery</a> and the call will not return unless an event is received.
+Use for parameters that use a time-out value such as <i>iTimeoutMs</i> for <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execnotificationquery">ISWbemServices.ExecNotificationQuery</a> and the call will not return unless an event is received.
 
 
 ## -see-also
@@ -72,7 +72,7 @@ Use for parameters that use a time-out value such as <i>iTimeoutMs</i> for <a hr
 
 
 
-<a href="https://msdn.microsoft.com/feaab757-3167-420b-8f42-edced4cd4c53">Scripting API Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/scripting-api-constants">Scripting API Constants</a>
  
 
  

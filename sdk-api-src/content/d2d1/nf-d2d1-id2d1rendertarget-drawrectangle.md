@@ -58,7 +58,7 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bc176c12-db06-4f1e-b668-4441723a916a">DrawRectangle(D2D1_RECT_F&,ID2D1Brush*,FLOAT,ID2D1StrokeStyle*)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawrectangle(constd2d1_rect_f__id2d1brush_float_id2d1strokestyle)">DrawRectangle(D2D1_RECT_F&,ID2D1Brush*,FLOAT,ID2D1StrokeStyle*)</a>
 </td>
 <td align="left" width="63%">
 Draws the outline of a rectangle that has the specified dimensions and stroke style.
@@ -68,7 +68,7 @@ Draws the outline of a rectangle that has the specified dimensions and stroke st
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f116c1ad-6eb5-4f42-9cd5-a62cf1461f53">DrawRectangle(D2D1_RECT_F*,ID2D1Brush*,FLOAT,ID2D1StrokeStyle*)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawrectangle(constd2d1_rect_f__id2d1brush_float_id2d1strokestyle)">DrawRectangle(D2D1_RECT_F*,ID2D1Brush*,FLOAT,ID2D1StrokeStyle*)</a>
 </td>
 <td align="left" width="63%">
 Draws the outline of a rectangle that has the specified dimensions and stroke style.
@@ -84,12 +84,12 @@ Draws the outline of a rectangle that has the specified dimensions and stroke st
 
 
 
-When this method fails, it does not return an error code. To determine whether a drawing method (such as <b>DrawRectangle</b>) failed, check the result returned by the <a href="https://msdn.microsoft.com/a8f24501-4e85-4981-bb38-2bd6333a7b49">ID2D1RenderTarget::EndDraw</a> or <a href="https://msdn.microsoft.com/3ad9c966-85f5-4ddb-a8c1-aefcba533509">ID2D1RenderTarget::Flush</a> method. 
+When this method fails, it does not return an error code. To determine whether a drawing method (such as <b>DrawRectangle</b>) failed, check the result returned by the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1RenderTarget::EndDraw</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-flush">ID2D1RenderTarget::Flush</a> method. 
 
 
 #### Examples
 
-The following example uses an <a href="https://msdn.microsoft.com/860342cc-989c-4432-b879-07f3da07d50a">ID2D1HwndRenderTarget</a> to draw and fill several rectangles. This example produces the output shown in the following illustration.
+The following example uses an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a> to draw and fill several rectangles. This example produces the output shown in the following illustration.
 
 <img alt="Illustration of two rectangles on a grid background" src="images/drawrectangleexample_small.png"/>
 
@@ -175,7 +175,7 @@ HRESULT DemoApp::OnRender()
 ```
 
 
-For a related tutorial, see <a href="https://msdn.microsoft.com/a627523e-417a-40cd-82c0-4f0380a3a0b1">Creating a Simple Direct2D Application</a>. 
+For a related tutorial, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-quickstart">Creating a Simple Direct2D Application</a>. 
 
 <div class="code"></div>
 
@@ -186,15 +186,15 @@ For a related tutorial, see <a href="https://msdn.microsoft.com/a627523e-417a-40
 
 
 
-<a href="https://msdn.microsoft.com/a627523e-417a-40cd-82c0-4f0380a3a0b1">Creating a Simple Direct2D Application</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-quickstart">Creating a Simple Direct2D Application</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a68fc3f-118c-447b-856c-05417ae4ef29">How to Draw and Fill a Basic Shape</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-draw-an-ellipse">How to Draw and Fill a Basic Shape</a>
 
 
 
-<a href="https://msdn.microsoft.com/40629be9-5840-4bde-b369-56bbfd791775">ID2D1RenderTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
  
 
  

@@ -55,7 +55,7 @@ Implemented by media sink objects. This interface is the base interface for all 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaSink</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFMediaSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMFMediaSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1b05ef87-5559-4310-942c-54ab113eb42d">AddStreamSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-addstreamsink">AddStreamSink</a>
 </td>
 <td align="left" width="63%">
 Adds a new stream sink to the media sink.
@@ -80,7 +80,7 @@ Adds a new stream sink to the media sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a7e8e2af-8b10-47f5-8b09-a7147ace5ba1">GetCharacteristics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-getcharacteristics">GetCharacteristics</a>
 </td>
 <td align="left" width="63%">
 Gets the characteristics of the media sink.
@@ -90,7 +90,7 @@ Gets the characteristics of the media sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ffa6a7b5-cd79-4c45-a5e3-9d133ffc89a6">GetPresentationClock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-getpresentationclock">GetPresentationClock</a>
 </td>
 <td align="left" width="63%">
 Gets the presentation clock that was set on the media sink.
@@ -100,7 +100,7 @@ Gets the presentation clock that was set on the media sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/267a8efc-6743-48ca-a1c4-da82f3770419">GetStreamSinkById</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-getstreamsinkbyid">GetStreamSinkById</a>
 </td>
 <td align="left" width="63%">
 Gets a stream sink, specified by stream identifier.
@@ -110,7 +110,7 @@ Gets a stream sink, specified by stream identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/01604801-1566-410c-b23a-0568c7298868">GetStreamSinkByIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-getstreamsinkbyindex">GetStreamSinkByIndex</a>
 </td>
 <td align="left" width="63%">
 Gets a stream sink, specified by index.
@@ -120,7 +120,7 @@ Gets a stream sink, specified by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bf4b5713-586c-4b12-80a1-4452eec63e32">GetStreamSinkCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-getstreamsinkcount">GetStreamSinkCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of stream sinks on this media sink.
@@ -130,7 +130,7 @@ Gets the number of stream sinks on this media sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f99ee960-7fea-4867-bc24-d7e1d6fcafa5">RemoveStreamSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-removestreamsink">RemoveStreamSink</a>
 </td>
 <td align="left" width="63%">
 Removes a stream sink from the media sink.
@@ -140,7 +140,7 @@ Removes a stream sink from the media sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/844fc3b3-b56e-4048-b589-e24457bcc419">SetPresentationClock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-setpresentationclock">SetPresentationClock</a>
 </td>
 <td align="left" width="63%">
 Sets the presentation clock on the media sink.
@@ -150,7 +150,7 @@ Sets the presentation clock on the media sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/acda4e37-2dd0-4322-90fc-8f48d6842054">Shutdown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown">Shutdown</a>
 </td>
 <td align="left" width="63%">
 Shuts down the media sink and releases the resources it is using.
@@ -166,11 +166,11 @@ Shuts down the media sink and releases the resources it is using.
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0fbce1b-0a16-4449-9eca-906fd9056a1c">Media Sinks</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-sinks">Media Sinks</a>
  
 
  

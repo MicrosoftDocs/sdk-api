@@ -98,7 +98,7 @@ Indicates that the virtual disk should be opened in cached mode. By default the 
 
 Indicates the VHD file is to be opened without opening any differencing-chain parents and the parent chain is 
        to be created manually using the 
-       <a href="https://msdn.microsoft.com/1af2a21b-246e-42d0-a493-4c513e716dab">AddVirtualDiskParent</a> function.
+       <a href="https://docs.microsoft.com/windows/desktop/api/virtdisk/nf-virtdisk-addvirtualdiskparent">AddVirtualDiskParent</a> function.
 
 <b>Windows 7 and Windows Server 2008 R2:  </b>This value is not supported before Windows 8 and Windows Server 2012.
 
@@ -122,11 +122,11 @@ Indicates the VHD file is to be opened without opening any differencing-chain pa
 
 
 
-<a href="https://msdn.microsoft.com/c9531c07-ad55-42b6-8685-7f55a47e8485">About VHD</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b5d0da0-2b23-4b7c-b007-ed3fe030926c">VHD Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
  
 
  

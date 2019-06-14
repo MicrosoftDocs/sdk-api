@@ -51,12 +51,12 @@ ms.custom: 19H1
 
 Provides a communication channel with the graphics driver or the Direct3D runtime.
 
-To get a pointer to this interface, call <a href="https://msdn.microsoft.com/e0dcfc3f-ede3-4917-8806-6bd343154cf8">IDirect3DDevice9Video::CreateAuthenticatedChannel</a>.
+To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-createauthenticatedchannel">IDirect3DDevice9Video::CreateAuthenticatedChannel</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DAuthenticatedChannel9</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDirect3DAuthenticatedChannel9</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DAuthenticatedChannel9</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirect3DAuthenticatedChannel9</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDirect3DAuthenticatedChannel9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0663d3a0-256b-4c96-aca7-06c4d1853554"> GetCertificate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-getcertificate"> GetCertificate</a>
 </td>
 <td align="left" width="63%">
 Gets the driver's certificate chain.
@@ -80,7 +80,7 @@ Gets the driver's certificate chain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/35605d35-76c9-43d7-a022-6db6af179c41"> NegotiateKeyExchange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-negotiatekeyexchange"> NegotiateKeyExchange</a>
 </td>
 <td align="left" width="63%">
 Establishes a session key for the authenticated channel.
@@ -89,7 +89,7 @@ Establishes a session key for the authenticated channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/12d15872-4f35-4a6d-ae99-bc9fa69ffe06">Configure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-configure">Configure</a>
 </td>
 <td align="left" width="63%">
 Sends a configuration command to the authenticated channel.
@@ -98,7 +98,7 @@ Sends a configuration command to the authenticated channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a320a7be-6a0f-4de1-afc2-11eb2d7c24d6">GetCertificateSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-getcertificatesize">GetCertificateSize</a>
 </td>
 <td align="left" width="63%">
 Gets the size of the driver's certificate chain.
@@ -107,7 +107,7 @@ Gets the size of the driver's certificate chain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/370ed31d-5b75-4767-b8d8-33cb2ff49fee">Query</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-query">Query</a>
 </td>
 <td align="left" width="63%">
 Sends a query to the authenticated channel.
@@ -122,11 +122,11 @@ Sends a query to the authenticated channel.
 
 
 
-<a href="https://msdn.microsoft.com/adddf378-f71c-4f81-bcf1-5d729a03eb58">Direct3D Video Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-video-interfaces">Direct3D Video Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/FD0625BB-484A-43E6-8931-DB635D4F017F">GPU-Based Content Protection</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/gpu-based-content-protection">GPU-Based Content Protection</a>
  
 
  

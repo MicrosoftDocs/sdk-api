@@ -57,7 +57,7 @@ The <b>IETFilter</b> interface is exposed by the Encrypter/Tagger filter. Most a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IETFilter</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IETFilter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IETFilter</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IETFilter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IETFilter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ac76a634-af8d-4cf7-aab5-9022ce79ff31">get_EvalRatObjOK</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nf-encdec-ietfilter-get_evalratobjok">get_EvalRatObjOK</a>
 </td>
 <td align="left" width="63%">
 Queries whether the <b>EvalRat</b> object was created successfully.
@@ -81,7 +81,7 @@ Queries whether the <b>EvalRat</b> object was created successfully.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d2ec57fc-ad5b-4f7b-a6d7-68f5ee0607b6">GetCurrLicenseExpDate</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nf-encdec-ietfilter-getcurrlicenseexpdate">GetCurrLicenseExpDate</a>
 </td>
 <td align="left" width="63%">
 Not supported.
@@ -90,7 +90,7 @@ Not supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d90d0842-2dd3-4b98-b619-1b71f7870be8">GetCurrRating</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nf-encdec-ietfilter-getcurrrating">GetCurrRating</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current rating.
@@ -99,7 +99,7 @@ Retrieves the current rating.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7982c60b-9be1-49c4-8194-f5e52487275e">GetLastErrorCode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nf-encdec-ietfilter-getlasterrorcode">GetLastErrorCode</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -108,7 +108,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4579b897-8b68-4b95-8dd4-e5fd94195742">SetRecordingOn</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nf-encdec-ietfilter-setrecordingon">SetRecordingOn</a>
 </td>
 <td align="left" width="63%">
 Signals to the Encrypter/Tagger filter that the Video Control is about to start or stop recording.
@@ -132,7 +132,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/abe939a3-5f43-4fdf-9d4d-34b7be8893eb">TV Ratings Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tv-ratings-interfaces">TV Ratings Interfaces</a>
  
 
  

@@ -68,7 +68,7 @@ The cell index.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -91,19 +91,19 @@ You can get or set parameters for an active cell.
 
 
 
-<a href="https://msdn.microsoft.com/49f5ffc1-d615-4d07-9f41-1c5f0dd9045b">ITextRow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrow">ITextRow</a>
 
 
 
-<a href="https://msdn.microsoft.com/4aae4fe5-5a54-4f32-9f89-01752701c871">ITextRow::GetCellCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrow-getcellcount">ITextRow::GetCellCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/7768e073-929c-43a4-8c4f-a67f89a0e7ee">ITextRow::GetCellIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrow-getcellindex">ITextRow::GetCellIndex</a>
 
 
 
-<a href="https://msdn.microsoft.com/a2e1436a-ef36-41cd-9ea1-fb7abfad7631">ITextRow::SetCellCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrow-setcellcount">ITextRow::SetCellCount</a>
  
 
  

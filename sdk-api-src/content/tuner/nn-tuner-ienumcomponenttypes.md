@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 
-The <b>IEnumComponentTypes</b> interface is implemented on a standard COM collection of <a href="https://msdn.microsoft.com/d5d8af25-4d39-4327-bd6d-8984ae9e6a78">ComponentType</a> objects associated with a given broadcast stream, and returned through a call to <a href="https://msdn.microsoft.com/c070998c-4350-4630-80c0-e3db46154845">IComponentTypes::EnumComponentTypes</a>.
+The <b>IEnumComponentTypes</b> interface is implemented on a standard COM collection of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd693036(v=vs.85)">ComponentType</a> objects associated with a given broadcast stream, and returned through a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponenttypes-enumcomponenttypes">IComponentTypes::EnumComponentTypes</a>.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumComponentTypes</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnumComponentTypes</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumComponentTypes</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumComponentTypes</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IEnumComponentTypes</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/777c7302-5b5b-4263-ad9e-3d1bff5328fc">Clone</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ienumcomponenttypes-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a new copy of the entire collection and all its sub-objects.
@@ -81,7 +81,7 @@ Creates a new copy of the entire collection and all its sub-objects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/491e9237-38cd-4c12-b93b-eb398a49d742">Next</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ienumcomponenttypes-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the next <i>n</i> elements in the collection.
@@ -90,7 +90,7 @@ Retrieves the next <i>n</i> elements in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7eead32c-a02c-41c1-8cfb-a52180219697">Reset</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ienumcomponenttypes-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Moves the iterator to the beginning of the collection.
@@ -99,7 +99,7 @@ Moves the iterator to the beginning of the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ea6c0ff8-76ae-4783-9b99-154ecb210a17">Skip</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ienumcomponenttypes-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips the element at the specified index.
@@ -123,7 +123,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/5d956e1d-88b3-4236-9987-f37f674645de">Tuning Model Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
  
 
  

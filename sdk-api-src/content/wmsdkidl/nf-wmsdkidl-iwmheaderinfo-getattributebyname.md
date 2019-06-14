@@ -56,7 +56,7 @@ ms.custom: 19H1
 
 
 
-The <b>GetAttributeByName</b> method returns a descriptive attribute that is stored in the header section of the ASF file. Now that attribute names can be duplicated in a file, this method is obsolete. To find attributes of a particular name, use <a href="https://msdn.microsoft.com/en-us/library/Dd798514(v=VS.85).aspx">IWMHeaderInfo3::GetAttributeIndices</a>.
+The <b>GetAttributeByName</b> method returns a descriptive attribute that is stored in the header section of the ASF file. Now that attribute names can be duplicated in a file, this method is obsolete. To find attributes of a particular name, use <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-getattributeindices">IWMHeaderInfo3::GetAttributeIndices</a>.
 
 
 
@@ -78,7 +78,7 @@ Pointer to a <b>null</b>-terminated string containing the name of the attribute.
 
 ### -param pType [out]
 
-Pointer to a variable that receives a value from the <a href="https://msdn.microsoft.com/en-us/library/Dd757834(v=VS.85).aspx">WMT_ATTR_DATATYPE</a> enumeration type. The returned value specifies the data type of the attribute.
+Pointer to a variable that receives a value from the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a> enumeration type. The returned value specifies the data type of the attribute.
 
 
 ### -param pValue [out]
@@ -182,11 +182,11 @@ Typically, an application should call this method twice for each attribute that 
 
 If the file does not contain the specified attribute, the method might return ASF_E_NOTFOUND. The method can also succeed but return the value zero for <i>pcbLength</i>.
 
-The objects of the Windows Media Format SDK perform type checking on some supported metadata attributes, but not all of them. You should ensure that any attributes you use are set using the data type specified in the <a href="https://msdn.microsoft.com/1e9392b4-4fff-41ad-9d80-23c1c7f9e9a4">Attributes</a> section of this documentation. Likewise, you cannot assume that an attribute set by another application will use the correct data type.
+The objects of the Windows Media Format SDK perform type checking on some supported metadata attributes, but not all of them. You should ensure that any attributes you use are set using the data type specified in the <a href="https://docs.microsoft.com/windows/desktop/wmformat/attributes">Attributes</a> section of this documentation. Likewise, you cannot assume that an attribute set by another application will use the correct data type.
 
 Attributes in MP3 files cannot be specific to a particular stream. For MP3 files, always set the stream number to zero.
 
-For a list of all the predefined attributes, see <a href="https://msdn.microsoft.com/1e9392b4-4fff-41ad-9d80-23c1c7f9e9a4">Attributes</a>.
+For a list of all the predefined attributes, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/attributes">Attributes</a>.
 
 
 #### Examples
@@ -236,27 +236,27 @@ if( FAILED( hr ) )
 
 
 
-<a href="https://msdn.microsoft.com/1e9392b4-4fff-41ad-9d80-23c1c7f9e9a4">Attributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/attributes">Attributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798504(v=VS.85).aspx">IWMHeaderInfo Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo">IWMHeaderInfo Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798505(v=VS.85).aspx">IWMHeaderInfo2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2">IWMHeaderInfo2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798508(v=VS.85).aspx">IWMHeaderInfo3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3">IWMHeaderInfo3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798527(v=VS.85).aspx">IWMHeaderInfo::SetAttribute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-setattribute">IWMHeaderInfo::SetAttribute</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757834(v=VS.85).aspx">WMT_ATTR_DATATYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a>
  
 
  

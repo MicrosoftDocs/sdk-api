@@ -65,7 +65,7 @@ Identifier of the option to be retrieved.
 ### -param value [out, retval]
 
 
-<a href="https://msdn.microsoft.com/809d1a71-bb14-4516-9624-2f10fe19a5d9">IOptionDescription</a> interface that contains the information about <i>optionId</i>.
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ioptiondescription">IOptionDescription</a> interface that contains the information about <i>optionId</i>.
 
 
 ## -returns
@@ -123,11 +123,11 @@ Successful.
 
 
 
-<a href="https://msdn.microsoft.com/809d1a71-bb14-4516-9624-2f10fe19a5d9">IOptionDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ioptiondescription">IOptionDescription</a>
 
 
 
-<a href="https://msdn.microsoft.com/D7C8831E-6FCE-45E0-B2EB-4EB2B1F7911F">ISpellCheckProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckprovider">ISpellCheckProvider</a>
  
 
  

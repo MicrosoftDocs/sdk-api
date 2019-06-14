@@ -53,7 +53,7 @@ The
 <b>PMGM_LOCAL_JOIN_CALLBACK</b> callback is a call into a routing protocol to notify the protocol that IGMP has detected new receivers for a group on an interface that is currently owned by the routing protocol.
 
 This callback is invoked when the 
-<a href="https://msdn.microsoft.com/b767961e-0935-4662-9f54-d82dfa0e7bd0">MgmAddGroupMembershipEntry</a> function is called by IGMP.
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmaddgroupmembershipentry">MgmAddGroupMembershipEntry</a> function is called by IGMP.
 
 
 ## -parameters
@@ -141,7 +141,7 @@ This version of the Multicast Group Manager API supports only wildcard sources (
 
 
 
-<a href="https://msdn.microsoft.com/9569c0e5-f9bb-4dc9-9689-f97d107697b5">PMGM_LOCAL_LEAVE_CALLBACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nc-mgm-pmgm_local_leave_callback">PMGM_LOCAL_LEAVE_CALLBACK</a>
  
 
  

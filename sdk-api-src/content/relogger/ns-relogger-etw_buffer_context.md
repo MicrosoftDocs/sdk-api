@@ -92,7 +92,7 @@ Identifier of the session that logged the event.
 
 
 
-<a href="https://msdn.microsoft.com/e352c1a7-39a2-43e3-a723-5fc6a3921ee8">EVENT_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_record">EVENT_RECORD</a>
  
 
  

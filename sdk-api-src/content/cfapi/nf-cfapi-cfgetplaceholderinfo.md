@@ -64,7 +64,7 @@ A handle to the placeholder whose information will be queried.
 
 ### -param InfoClass [in]
 
-Placeholder information. This can be set to either <a href="https://msdn.microsoft.com/F0CDC9CD-7D31-4854-9568-8F13516C6D15">CF_PLACEHOLDER_STANDARD_INFO</a> or <a href="https://msdn.microsoft.com/77367235-342D-4BBC-B910-FE798E14B588">CF_PLACEHOLDER_BASIC_INFO</a>.
+Placeholder information. This can be set to either <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/ns-cfapi-cf_placeholder_standard_info">CF_PLACEHOLDER_STANDARD_INFO</a> or <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/ns-cfapi-cf_placeholder_basic_info">CF_PLACEHOLDER_BASIC_INFO</a>.
 
 
 ### -param InfoBuffer [out]

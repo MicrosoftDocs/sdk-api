@@ -72,11 +72,11 @@ The length of the ID when <i>fIsVariable</i> is <b>FALSE</b>. The maximum length
 
 
 
-<a href="https://msdn.microsoft.com/7391689a-5546-409a-9fff-2ceced1850fe">ID_PARAMETERS Structure</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ns-winsync-_id_parameters">ID_PARAMETERS Structure</a>
 
 
 
-<a href="https://msdn.microsoft.com/eed33384-f8bd-4a3a-8d04-b59c534f9114">Windows Sync Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-structures">Windows Sync Structures</a>
  
 
  

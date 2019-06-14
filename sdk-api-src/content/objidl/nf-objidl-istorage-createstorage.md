@@ -65,7 +65,7 @@ A pointer to a wide character null-terminated Unicode string that contains the n
 
 ### -param grfMode [in]
 
-A value that specifies the access mode to use when opening the newly created storage object. For more information and a description of possible values, see <a href="https://msdn.microsoft.com/15a35da9-332a-46e1-9190-500c95e26f59">STGM Constants</a>.
+A value that specifies the access mode to use when opening the newly created storage object. For more information and a description of possible values, see <a href="https://docs.microsoft.com/windows/desktop/Stg/stgm-constants">STGM Constants</a>.
 
 
 ### -param reserved1 [in]
@@ -81,7 +81,7 @@ Reserved for future use; must be zero.
 ### -param ppstg [out]
 
 A pointer, when successful, to the location of the 
-<a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> pointer to the newly created storage object. This parameter is set to <b>NULL</b> if an error occurs.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> pointer to the newly created storage object. This parameter is set to <b>NULL</b> if an error occurs.
 
 
 ## -returns
@@ -116,11 +116,11 @@ If a storage object with the same name already exists and <i>grfMode</i> is set 
 
 
 
-<a href="https://msdn.microsoft.com/2a2253f6-d3d3-403e-a9ba-53a541c7a31e">IStorage - Compound File Implementation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Stg/istorage-compound-file-implementation">IStorage - Compound File Implementation</a>
 
 
 
-<a href="https://msdn.microsoft.com/f1f0564e-0ecd-4b73-8863-9d6b6746fd02">IStorage::OpenStorage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-openstorage">IStorage::OpenStorage</a>
  
 
  

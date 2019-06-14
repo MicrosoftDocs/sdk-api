@@ -117,7 +117,7 @@ D3DDEVINFOID_VCACHE
 
 ### -field lpDD
 
-Points to a <a href="https://msdn.microsoft.com/a59f064b-48cf-4491-82cd-84f59467af87">DD_DIRECTDRAW_GLOBAL</a> structure describing the device.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure describing the device.
 
 
 ### -field dwhContext
@@ -137,7 +137,7 @@ Specifies the length, in bytes, of the state data to be filled in by the driver.
 
 ### -field ddRVal
 
-Specifies the location where the driver writes the return value of the <a href="https://msdn.microsoft.com/6e1b0bce-1ac5-46e7-ae25-b0d3ce8580a0">D3dGetDriverState</a> callback. A return code of D3D_OK indicates success. For more information, see <a href="https://msdn.microsoft.com/033beb6e-5872-4cb3-8f39-459e2fff82cd">Return Codes for Direct3D Driver Callbacks</a>.
+Specifies the location where the driver writes the return value of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverstate">D3dGetDriverState</a> callback. A return code of D3D_OK indicates success. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/return-codes-for-direct3d-driver-callbacks">Return Codes for Direct3D Driver Callbacks</a>.
 
 
 ## -remarks
@@ -148,7 +148,7 @@ Applications can use the <b>IDirect3DDevice7::GetInfo</b> method and specify the
 
 <b>DirectX 8.1 versions only.</b>The Direct3D runtime specifies the D3DDEVINFOID_VCACHE flag in the <b>dwFlags</b> member to retrieve vertex-cache information from the driver specified at the <b>lpDD</b> member. The driver specifies this information in a D3DDEVINFO_VCACHE structure and returns it at the <b>lpdwStates</b> member. 
 
-<b>DirectX 9.0 and later versions only.</b> The Direct3D runtime asynchronously queries the driver for vertex-cache information by using the D3DDP2OP_CREATEQUERY and D3DDP2OP_ISSUEQUERY commands and the D3DQUERYTYPE_VCACHE query type in calls to the driver's <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> callback. For more information, see <a href="https://msdn.microsoft.com/3c20b757-c27c-446c-a138-066fc57ec1bc">D3DDEVINFO_VCACHE</a>.
+<b>DirectX 9.0 and later versions only.</b> The Direct3D runtime asynchronously queries the driver for vertex-cache information by using the D3DDP2OP_CREATEQUERY and D3DDP2OP_ISSUEQUERY commands and the D3DQUERYTYPE_VCACHE query type in calls to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> callback. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d9types/ns-d3d9types-_d3ddevinfo_vcache">D3DDEVINFO_VCACHE</a>.
 
 <div class="alert"><b>Note</b>  The D3DDEVINFOID_VCACHE flag is defined in d3dhal.h; the other flags that can be set in <b>dwFlags</b> are defined in d3dtypes.h.</div>
 <div> </div>
@@ -160,7 +160,7 @@ Applications can use the <b>IDirect3DDevice7::GetInfo</b> method and specify the
 
 
 
-<a href="https://msdn.microsoft.com/3c20b757-c27c-446c-a138-066fc57ec1bc">D3DDEVINFO_VCACHE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d9types/ns-d3d9types-_d3ddevinfo_vcache">D3DDEVINFO_VCACHE</a>
 
 
 
@@ -172,15 +172,15 @@ D3DDP2OP_ISSUEQUERY
 
 
 
-<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
 
 
 
-<a href="https://msdn.microsoft.com/6e1b0bce-1ac5-46e7-ae25-b0d3ce8580a0">D3dGetDriverState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverstate">D3dGetDriverState</a>
 
 
 
-<a href="https://msdn.microsoft.com/a59f064b-48cf-4491-82cd-84f59467af87">DD_DIRECTDRAW_GLOBAL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a>
  
 
  

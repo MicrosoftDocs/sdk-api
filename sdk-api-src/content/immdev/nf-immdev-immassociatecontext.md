@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Associates the specified input context with the specified window. By default, the operating system associates the default input context with each window as it is created.
-<div class="alert"><b>Note</b>  To specify a type of association, the application should use the <a href="https://msdn.microsoft.com/7f44d274-b5e9-4feb-acd6-5c68b3f7d868">ImmAssociateContextEx</a> function.</div><div> </div>
+<div class="alert"><b>Note</b>  To specify a type of association, the application should use the <a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immassociatecontextex">ImmAssociateContextEx</a> function.</div><div> </div>
 
 ## -parameters
 
@@ -92,15 +92,15 @@ When associating an input context with a window, an application must remove the 
 
 
 
-<a href="https://msdn.microsoft.com/7f44d274-b5e9-4feb-acd6-5c68b3f7d868">ImmAssociateContextEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immassociatecontextex">ImmAssociateContextEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e23e004-514a-4021-bd20-5ac55547258f">Input Method Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://msdn.microsoft.com/833c07eb-0ecf-41e2-9e01-8d83e51ffcef">Input Method Manager Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
  
 
  

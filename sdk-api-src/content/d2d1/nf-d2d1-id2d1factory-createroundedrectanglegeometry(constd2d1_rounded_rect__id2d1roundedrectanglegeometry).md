@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/e49e9be7-155a-4487-9931-035f18771c04">ID2D1RoundedRectangleGeometry</a>. 
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1roundedrectanglegeometry">ID2D1RoundedRectangleGeometry</a>. 
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Creates an <a href="https://msdn.microsoft.com/e49e9be7-155a-4487-9931-035f18771
 
 ### -param roundedRectangle [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/7069ca65-170e-42fc-8c1a-849a2f25c36f">D2D1_ROUNDED_RECT</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_rounded_rect">D2D1_ROUNDED_RECT</a></b>
 
 The coordinates and corner radii of the rounded rectangle geometry.
 
 
 ### -param roundedRectangleGeometry [out]
 
-Type: <b><a href="https://msdn.microsoft.com/e49e9be7-155a-4487-9931-035f18771c04">ID2D1RoundedRectangleGeometry</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1roundedrectanglegeometry">ID2D1RoundedRectangleGeometry</a>**</b>
 
 When this method returns, contains the address of the pointer to the rounded rectangle geometry created by this method.
 
@@ -75,7 +75,7 @@ When this method returns, contains the address of the pointer to the rounded rec
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -87,7 +87,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/cef6115c-98e8-49e6-b419-271b43ce2938">ID2D1Factory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>
  
 
  

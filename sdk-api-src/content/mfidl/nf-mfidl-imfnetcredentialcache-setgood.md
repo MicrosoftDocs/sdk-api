@@ -63,7 +63,7 @@ Reports whether the credential object provided successfully passed the authentic
 
 ### -param pCred [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/d202e7bc-9ce0-4861-8552-5a4d599b1661">IMFNetCredential</a> interface.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfnetcredential">IMFNetCredential</a> interface.
 
 
 ### -param fGood [in]
@@ -113,7 +113,7 @@ This method is called by the network source into the credential manager.
 
 
 
-<a href="https://msdn.microsoft.com/d02e26e7-e99c-4be7-8495-830eff2f1554">IMFNetCredentialCache</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfnetcredentialcache">IMFNetCredentialCache</a>
  
 
  

@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 Retrieves the next event in the queue. This method is synchronous.
 
-Call this method inside your implementation of <a href="https://msdn.microsoft.com/e78464b5-ec6b-4739-a135-352fa297916a">IMFMediaEventGenerator::GetEvent</a>. Pass the parameters from that method directly to this method.
+Call this method inside your implementation of <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventgenerator-getevent">IMFMediaEventGenerator::GetEvent</a>. Pass the parameters from that method directly to this method.
 
 
 
@@ -65,12 +65,12 @@ Call this method inside your implementation of <a href="https://msdn.microsoft.c
 
 ### -param dwFlags [in]
 
-Specifies whether the method blocks until an event is queued. For a list of valid flags, see <a href="https://msdn.microsoft.com/e78464b5-ec6b-4739-a135-352fa297916a">IMFMediaEventGenerator::GetEvent</a>.
+Specifies whether the method blocks until an event is queued. For a list of valid flags, see <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventgenerator-getevent">IMFMediaEventGenerator::GetEvent</a>.
 
 
 ### -param ppEvent [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/b4f686be-9472-433c-b983-6c48dfd3ac76">IMFMediaEvent</a> interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaevent">IMFMediaEvent</a> interface.
 
 
 ## -returns
@@ -102,7 +102,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/6ec52973-0d90-463b-b2be-08d5d6fdcc05">Shutdown</a> method was called.
+The <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventqueue-shutdown">Shutdown</a> method was called.
 
 </td>
 </tr>
@@ -130,7 +130,7 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 
-<a href="https://msdn.microsoft.com/e1698caa-db70-436d-af6a-64c6e7247590">IMFMediaEventQueue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventqueue">IMFMediaEventQueue</a>
  
 
  

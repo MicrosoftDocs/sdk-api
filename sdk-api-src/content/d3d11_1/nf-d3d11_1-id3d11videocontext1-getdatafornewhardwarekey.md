@@ -61,7 +61,7 @@ Allows the driver to return IHV specific information used when initializing the 
 
 Type: <b>ID3D11CryptoSession*</b>
 
-A pointer to the ID3D11CryptoSession interface.  To get this pointer, call <a href="https://msdn.microsoft.com/1c0e3aa4-94d5-4398-a6c0-5466a437162d">ID3D11VideoDevice1::CreateCryptoSession</a>.
+A pointer to the ID3D11CryptoSession interface.  To get this pointer, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-createcryptosession">ID3D11VideoDevice1::CreateCryptoSession</a>.
 
 
 ### -param PrivateInputSize [in]
@@ -89,7 +89,7 @@ A pointer to the private output data. The return data is defined by the implemen
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 This method returns one of the following error codes.
 
@@ -113,7 +113,7 @@ This method returns one of the following error codes.
 
 
 
-<a href="https://msdn.microsoft.com/64D12F68-C2AA-4C1D-9608-5F97CF7AD430">ID3D11VideoContext1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11videocontext1">ID3D11VideoContext1</a>
  
 
  

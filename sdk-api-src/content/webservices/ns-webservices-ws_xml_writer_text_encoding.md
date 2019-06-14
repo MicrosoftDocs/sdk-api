@@ -60,12 +60,12 @@ Indicates that the reader should emit bytes as textual xml.
 
 ### -field encoding
 
-The base type for all types that derive from <a href="https://msdn.microsoft.com/5ca43d39-e714-4070-b343-6c8ab9484817">WS_XML_WRITER_ENCODING</a>.
+The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_writer_encoding">WS_XML_WRITER_ENCODING</a>.
         
 
 
 ### -field charSet
 
-Indicates the text encoding of the bytes.  This may not be <a href="https://msdn.microsoft.com/47dadf5d-1bc7-4f93-936c-21c936bc3fc3">WS_CHARSET_AUTO</a>.
+Indicates the text encoding of the bytes.  This may not be <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_charset">WS_CHARSET_AUTO</a>.
         
 

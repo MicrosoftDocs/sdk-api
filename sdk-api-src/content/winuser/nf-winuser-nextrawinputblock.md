@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the location of the next structure in an array of <a href="https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx">RAWINPUT</a> structures. 
+Retrieves the location of the next structure in an array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinput">RAWINPUT</a> structures. 
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Retrieves the location of the next structure in an array of <a href="https://msd
 
 ### -param ptr
 
-A pointer to a structure in an array of <a href="https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx">RAWINPUT</a> structures. 
+A pointer to a structure in an array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinput">RAWINPUT</a> structures. 
 
 
 ## -remarks
 
 
 
-This macro is called repeatedly to traverse an array of <a href="https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx">RAWINPUT</a> structures.
+This macro is called repeatedly to traverse an array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinput">RAWINPUT</a> structures.
 
 
 
@@ -80,11 +80,11 @@ This macro is called repeatedly to traverse an array of <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx">RAWINPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinput">RAWINPUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645536(v=VS.85).aspx">Raw Input</a>
+<a href="https://docs.microsoft.com/windows/desktop/inputdev/raw-input">Raw Input</a>
 
 
 

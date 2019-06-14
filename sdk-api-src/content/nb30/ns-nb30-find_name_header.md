@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<a href="https://msdn.microsoft.com/9144e283-0e5f-43d7-8cd2-e746f94c6f14">Netbios</a> is not supported on Windows Vista,  Windows Server 2008, and subsequent versions of the operating system]
+<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/portal">Netbios</a> is not supported on Windows Vista,  Windows Server 2008, and subsequent versions of the operating system]
 
-The <b>FIND_NAME_HEADER</b> structure contains information about a network name. This structure is followed by as many <a href="https://msdn.microsoft.com/d35cd375-6207-4019-bd3e-20dc302e9c45">FIND_NAME_BUFFER</a> structures as are required to describe the name.
+The <b>FIND_NAME_HEADER</b> structure contains information about a network name. This structure is followed by as many <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_find_name_buffer">FIND_NAME_BUFFER</a> structures as are required to describe the name.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ The <b>FIND_NAME_HEADER</b> structure contains information about a network name.
 
 ### -field node_count
 
-Specifies the number of nodes on which the specified name was found. This structure is followed by the number of <a href="https://msdn.microsoft.com/d35cd375-6207-4019-bd3e-20dc302e9c45">FIND_NAME_BUFFER</a> structures specified by the <b>node_count</b> member.
+Specifies the number of nodes on which the specified name was found. This structure is followed by the number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_find_name_buffer">FIND_NAME_BUFFER</a> structures specified by the <b>node_count</b> member.
 
 
 ### -field reserved
@@ -79,7 +79,7 @@ Specifies whether the name is unique. This value is 0 to specify a unique name o
 
 
 
-The <b>FIND_NAME_HEADER</b> structure is pointed to by the <b>ncb_buffer</b> member of the <a href="https://msdn.microsoft.com/e3fcca1c-8057-41c4-80a5-d1e67920d88c">NCB</a> structure when an application issues an <b>NCBFINDNAME</b> command.
+The <b>FIND_NAME_HEADER</b> structure is pointed to by the <b>ncb_buffer</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_ncb">NCB</a> structure when an application issues an <b>NCBFINDNAME</b> command.
 
 
 
@@ -93,19 +93,19 @@ The <b>FIND_NAME_HEADER</b> structure is pointed to by the <b>ncb_buffer</b> mem
 
 
 
-<a href="https://msdn.microsoft.com/d35cd375-6207-4019-bd3e-20dc302e9c45">FIND_NAME_BUFFER</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_find_name_buffer">FIND_NAME_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3fcca1c-8057-41c4-80a5-d1e67920d88c">NCB</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_ncb">NCB</a>
 
 
 
-<a href="https://msdn.microsoft.com/64ef39ec-d69a-4e33-9192-dda6d1bb84b8">NetBIOS Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/netbios-structures">NetBIOS Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/9144e283-0e5f-43d7-8cd2-e746f94c6f14">The NetBIOS Interface Overview</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/portal">The NetBIOS Interface Overview</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Retrieves the collection of styluses the <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> object has encountered.
+Retrieves the collection of styluses the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object has encountered.
 
 
 
@@ -62,14 +62,14 @@ Retrieves the collection of styluses the <a href="https://msdn.microsoft.com/fd6
 
 ### -param ppiInkCursors [out, retval]
 
-When this method returns, contains a pointer to the collection of styluses the <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> object has encountered.
+When this method returns, contains a pointer to the collection of styluses the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object has encountered.
 
 
 ## -returns
 
 
 
-For a description of the return values, see <a href="https://msdn.microsoft.com/fc0900b4-f08b-4a93-bbc0-d3db067d7917">RealTimeStylus Classes and Interfaces</a>.
+For a description of the return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
 
 
 
@@ -78,18 +78,18 @@ For a description of the return values, see <a href="https://msdn.microsoft.com/
 
 
 
-The <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> collection includes the styluses for which a tablet context has been created. The collection does not include all styluses available in the system in the stylus collection.
+The <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> collection includes the styluses for which a tablet context has been created. The collection does not include all styluses available in the system in the stylus collection.
 
-If no stylus object has been detected on the tablet objects associated with the <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> object, this method returns an empty array.
+If no stylus object has been detected on the tablet objects associated with the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object, this method returns an empty array.
 
-This method cannot be called unless it the <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> object is connected and enabled <b>RealTimeStylus Class</b>.
+This method cannot be called unless it the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object is connected and enabled <b>RealTimeStylus Class</b>.
 
-<div class="alert"><b>Note</b>  This method can be called if <a href="https://msdn.microsoft.com/e96e27d7-b453-49a7-b684-b3dd5f94c378">IRealTimeStylus::Enabled Property</a> returns false as long as the <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> object has not finished processing data in the queue. This method can be called until the last asynchronous plug-in receives <a href="https://msdn.microsoft.com/62425c21-62fb-4a29-b024-8d5dc237b430">IStylusPlugin::RealTimeStylusDisabled Method</a>.</div>
+<div class="alert"><b>Note</b>  This method can be called if <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-get_enabled">IRealTimeStylus::Enabled Property</a> returns false as long as the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object has not finished processing data in the queue. This method can be called until the last asynchronous plug-in receives <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-realtimestylusdisabled">IStylusPlugin::RealTimeStylusDisabled Method</a>.</div>
 <div> </div>
 
 #### Examples
 
-The following C++ example code gets an array of the Stylus objects that the <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> object has encountered since it was last enabled. It then iterates through the array reporting the ID of each stylus in debug output.
+The following C++ example code gets an array of the Stylus objects that the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object has encountered since it was last enabled. It then iterates through the array reporting the ID of each stylus in debug output.
 
 
 ```cpp
@@ -129,11 +129,11 @@ if (SUCCEEDED(g_pRealTimeStylus->GetStyluses(&piInkCursors)))
 
 
 
-<a href="https://msdn.microsoft.com/bfd13012-decf-423a-bc1a-39fb9b0eb64e">IRealTimeStylus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
 
 
 
-<a href="https://msdn.microsoft.com/16218bd3-9e92-407b-99b1-155d4387641e">IRealTimeStylus::GetStylusForId Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-getstylusforid">IRealTimeStylus::GetStylusForId Method</a>
 
 
 

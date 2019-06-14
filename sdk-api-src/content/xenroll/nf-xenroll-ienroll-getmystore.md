@@ -66,7 +66,7 @@ The <b>getMyStore</b> method is not implemented.
 
 
 
-This method always returns <b>NULL</b>. <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> will return <b>ERROR_CALL_NOT_IMPLEMENTED</b>.
+This method always returns <b>NULL</b>. <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return <b>ERROR_CALL_NOT_IMPLEMENTED</b>.
 
 
 
@@ -76,11 +76,11 @@ This method always returns <b>NULL</b>. <a href="https://msdn.microsoft.com/d852
 
 
 
-<a href="https://msdn.microsoft.com/5be210b8-475a-4504-9cc0-5b02384e114e">IEnroll</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll">IEnroll</a>
 
 
 
-<a href="https://msdn.microsoft.com/133529fb-e02a-41a2-83df-646cbc01dbe9">IEnroll2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll2</a>
  
 
  

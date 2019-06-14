@@ -51,7 +51,7 @@ req.redist:
 Retrieves the first file record that is in use and is of a lesser than or equal ordinal value to the 
     requested file reference number.
 
-To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
+To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
     function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -157,10 +157,10 @@ If the file records that correspond to file identifiers 10 through 14 are
      corresponding to file identifiers 1 through 9 are requested, those file records is returned.
 
 To determine the correct size of the output buffer pointed to by <i>lpOutBuffer</i>, first 
-     call the <a href="https://msdn.microsoft.com/b5690b4f-3967-41d8-bf11-70f8b1da79ad">FSCTL_GET_NTFS_VOLUME_DATA</a> control code 
+     call the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_ntfs_volume_data">FSCTL_GET_NTFS_VOLUME_DATA</a> control code 
      to get the size of one file record. This is the value of the <b>BytesPerFileRecordSegment</b> 
      member of the returned 
-     <a href="https://msdn.microsoft.com/9ca0fe72-162c-4d75-a2f3-e1c7c0b0152a">NTFS_VOLUME_DATA_BUFFER</a> structure. Then set 
+     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-ntfs_extended_volume_data">NTFS_VOLUME_DATA_BUFFER</a> structure. Then set 
      the size of the output buffer to the following expression:
 
 <code>sizeof (NTFS_FILE_RECORD_OUTPUT_BUFFER) + sizeof (one file record) - 1</code>
@@ -235,19 +235,19 @@ No
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/e27ded4b-d104-4244-b38e-5fed10d32e1e">File Management Control Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-control-codes">File Management Control Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/8b0317ca-6d0e-4a04-a05a-1627d22171e3">NTFS_FILE_RECORD_INPUT_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-ntfs_file_record_input_buffer">NTFS_FILE_RECORD_INPUT_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2597939-5159-4c35-9a1f-f3be43081d72">NTFS_FILE_RECORD_OUTPUT_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-ntfs_file_record_output_buffer">NTFS_FILE_RECORD_OUTPUT_BUFFER</a>
  
 
  

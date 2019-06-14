@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DSOP_FILTER_FLAGS</b> structure contains flags that indicate the types of objects presented to the user for a specified scope or scopes. This structure is contained in the <a href="https://msdn.microsoft.com/6262b520-1eee-48e0-b3af-636b66d78b3d">DSOP_SCOPE_INIT_INFO</a> structure when calling <a href="https://msdn.microsoft.com/bcf4d283-6709-4425-a122-8f0808502b58">IDsObjectPicker::Initialize</a>.
+The <b>DSOP_FILTER_FLAGS</b> structure contains flags that indicate the types of objects presented to the user for a specified scope or scopes. This structure is contained in the <a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-_dsop_scope_init_info">DSOP_SCOPE_INIT_INFO</a> structure when calling <a href="https://docs.microsoft.com/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-initialize">IDsObjectPicker::Initialize</a>.
 
 
 ## -struct-fields
@@ -59,8 +59,8 @@ The <b>DSOP_FILTER_FLAGS</b> structure contains flags that indicate the types of
 
 ### -field Uplevel
 
-Contains a <a href="https://msdn.microsoft.com/54a0046a-7a20-4306-a32f-93e449280574">DSOP_UPLEVEL_FILTER_FLAGS</a> structure that contains the filter flags to use for up-level scopes. An up-level scope is a scope that supports the ADSI LDAP provider. For more information, see 
-<a href="https://msdn.microsoft.com/3c13ea2f-fe40-4fd4-8540-422f277e07c1">ADSI LDAP Provider</a>.
+Contains a <a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-_dsop_uplevel_filter_flags">DSOP_UPLEVEL_FILTER_FLAGS</a> structure that contains the filter flags to use for up-level scopes. An up-level scope is a scope that supports the ADSI LDAP provider. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-ldap-provider">ADSI LDAP Provider</a>.
 
 
 ### -field flDownlevel
@@ -221,23 +221,23 @@ Includes "Service SIDs" of all installed services.
 
 
 
-<a href="https://msdn.microsoft.com/3c13ea2f-fe40-4fd4-8540-422f277e07c1">ADSI LDAP Provider</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-ldap-provider">ADSI LDAP Provider</a>
 
 
 
-<a href="https://msdn.microsoft.com/6262b520-1eee-48e0-b3af-636b66d78b3d">DSOP_SCOPE_INIT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-_dsop_scope_init_info">DSOP_SCOPE_INIT_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/54a0046a-7a20-4306-a32f-93e449280574">DSOP_UPLEVEL_FILTER_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-_dsop_uplevel_filter_flags">DSOP_UPLEVEL_FILTER_FLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/5b3e5d71-afd2-49db-b3a2-f9a49f0b2b3a">Directory Object Picker</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/directory-object-picker">Directory Object Picker</a>
 
 
 
-<a href="https://msdn.microsoft.com/bcf4d283-6709-4425-a122-8f0808502b58">IDsObjectPicker::Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-initialize">IDsObjectPicker::Initialize</a>
  
 
  

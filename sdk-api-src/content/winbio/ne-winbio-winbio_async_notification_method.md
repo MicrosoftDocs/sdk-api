@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines constants that specify how completion notifications for asynchronous operations are to be delivered to the client application. This enumeration is used by the <a href="https://msdn.microsoft.com/D9557A6F-32C4-464F-8800-6E546808F100">WinBioAsyncOpenFramework</a> and <a href="https://msdn.microsoft.com/711EDE14-A2EE-415D-8FB6-562D71D68146">WinBioAsyncOpenSession</a> functions.
+Defines constants that specify how completion notifications for asynchronous operations are to be delivered to the client application. This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncopenframework">WinBioAsyncOpenFramework</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncopensession">WinBioAsyncOpenSession</a> functions.
 
 
 ## -enum-fields
@@ -64,7 +64,7 @@ The operation is synchronous.
 
 ### -field WINBIO_ASYNC_NOTIFY_CALLBACK
 
-The client-implemented <a href="https://msdn.microsoft.com/550EA13D-18CE-4B73-9C9B-4D5C46C48A75">PWINBIO_ASYNC_COMPLETION_CALLBACK</a> function is called by the framework.
+The client-implemented <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nc-winbio-pwinbio_async_completion_callback">PWINBIO_ASYNC_COMPLETION_CALLBACK</a> function is called by the framework.
 
 
 ### -field WINBIO_ASYNC_NOTIFY_MESSAGE
@@ -74,7 +74,7 @@ The framework sends completion notices to the client application window message 
 
 ### -field WINBIO_ASYNC_NOTIFY_MAXIMUM_VALUE
 
-The maximum enumeration value. This constant is not directly used by the <a href="https://msdn.microsoft.com/D9557A6F-32C4-464F-8800-6E546808F100">WinBioAsyncOpenFramework</a> and <a href="https://msdn.microsoft.com/711EDE14-A2EE-415D-8FB6-562D71D68146">WinBioAsyncOpenSession</a>.
+The maximum enumeration value. This constant is not directly used by the <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncopenframework">WinBioAsyncOpenFramework</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncopensession">WinBioAsyncOpenSession</a>.
 
 
 ## -remarks
@@ -91,15 +91,15 @@ This enumeration was introduced in Windows 8.
 
 
 
-<a href="https://msdn.microsoft.com/fd33bc63-cc99-40de-a43b-b0bc7d4c9454">Client Application Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/client-application-enumerations">Client Application Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/D9557A6F-32C4-464F-8800-6E546808F100">WinBioAsyncOpenFramework</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncopenframework">WinBioAsyncOpenFramework</a>
 
 
 
-<a href="https://msdn.microsoft.com/711EDE14-A2EE-415D-8FB6-562D71D68146">WinBioAsyncOpenSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncopensession">WinBioAsyncOpenSession</a>
  
 
  

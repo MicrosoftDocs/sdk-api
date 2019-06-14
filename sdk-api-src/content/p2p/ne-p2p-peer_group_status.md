@@ -72,11 +72,11 @@ The peer group has at least one connection.
 
 
 
-<a href="https://msdn.microsoft.com/5cdae832-e6a7-481c-9784-1c1c07d689dd">PEER_GROUP_EVENT_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_data_tag">PEER_GROUP_EVENT_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/712e6473-bb49-460a-9761-69a5ee4a067e">PeerGroupGetStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupgetstatus">PeerGroupGetStatus</a>
  
 
  

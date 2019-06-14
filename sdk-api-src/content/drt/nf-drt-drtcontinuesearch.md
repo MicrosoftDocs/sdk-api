@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DrtContinueSearch</b> function continues an iterative search for a key.This function is used only when the <b>fIterative</b> flag is set to 'true' in the associated <a href="https://msdn.microsoft.com/a3f12d8a-95ef-4168-8d2d-c317ae2c57b4">DRT_SEARCH_INFO</a> structure. Call this after getting a <b>DRT_MATCH_INTERMEDIATE</b> search result.
+The <b>DrtContinueSearch</b> function continues an iterative search for a key.This function is used only when the <b>fIterative</b> flag is set to 'true' in the associated <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_search_info_tag">DRT_SEARCH_INFO</a> structure. Call this after getting a <b>DRT_MATCH_INTERMEDIATE</b> search result.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>DrtContinueSearch</b> function continues an iterative search for a key.Th
 
 ### -param hSearchContext [in]
 
-Handle to the search context  to close. This parameter is returned by the <a href="https://msdn.microsoft.com/d43634d5-eb0a-4f84-9248-977c544db984">DrtStartSearch</a> API.
+Handle to the search context  to close. This parameter is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtstartsearch">DrtStartSearch</a> API.
 
 
 ## -returns
@@ -106,15 +106,15 @@ This search is not an iterative search.
 
 
 
-<a href="https://msdn.microsoft.com/a3f12d8a-95ef-4168-8d2d-c317ae2c57b4">DRT_SEARCH_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_search_info_tag">DRT_SEARCH_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/1a99476f-69ee-4aeb-8c9b-e06315ec095d">DrtEndSearch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtendsearch">DrtEndSearch</a>
 
 
 
-<a href="https://msdn.microsoft.com/d43634d5-eb0a-4f84-9248-977c544db984">DrtStartSearch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtstartsearch">DrtStartSearch</a>
  
 
  

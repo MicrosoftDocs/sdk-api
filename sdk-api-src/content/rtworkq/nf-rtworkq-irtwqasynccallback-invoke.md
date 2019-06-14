@@ -62,7 +62,7 @@ Called when an asynchronous operation is completed.
 
 ### -param pAsyncResult [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/AB23282D-D731-48EE-AF55-CC5A513EBA33">IRtwqAsyncResult</a> interface. Pass this pointer to the asynchronous <b>End...</b> method to complete the asynchronous call.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nn-rtworkq-irtwqasyncresult">IRtwqAsyncResult</a> interface. Pass this pointer to the asynchronous <b>End...</b> method to complete the asynchronous call.
 
 
 ## -returns
@@ -97,7 +97,7 @@ The method succeeded.
 
 
 
-Within your implementation of <a href="https://msdn.microsoft.com/en-us/library/Dd374408(v=VS.85).aspx">Invoke</a>, call the corresponding <b>End...</b> method.
+Within your implementation of <a href="https://docs.microsoft.com/windows/desktop/DirectShow/cdeferredcommand-invoke">Invoke</a>, call the corresponding <b>End...</b> method.
 
 
 
@@ -107,7 +107,7 @@ Within your implementation of <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
-<a href="https://msdn.microsoft.com/E595C072-98F8-4231-9C8F-A8393D751DE6">IRtwqAsyncCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nn-rtworkq-irtwqasynccallback">IRtwqAsyncCallback</a>
  
 
  

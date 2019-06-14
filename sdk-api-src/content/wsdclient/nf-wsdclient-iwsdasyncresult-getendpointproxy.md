@@ -59,7 +59,7 @@ Retrieves the endpoint proxy for the asynchronous operation.
 
 ### -param ppEndpoint [out]
 
-An <a href="https://msdn.microsoft.com/58ca085f-8939-413c-8fd3-4d867b1cf490">IWSDEndpointProxy</a> interface that implements an endpoint proxy.
+An <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdendpointproxy">IWSDEndpointProxy</a> interface that implements an endpoint proxy.
 
 
 ## -returns
@@ -111,7 +111,7 @@ Method completed successfully.
 
 
 
-<a href="https://msdn.microsoft.com/49c5ad02-f24b-4ef9-b943-483728c0bbcd">IWSDAsyncResult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a>
  
 
  

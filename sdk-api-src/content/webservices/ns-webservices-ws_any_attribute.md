@@ -82,7 +82,7 @@ Specifies the value of the attribute.  This
 
 
 
-This structure is used with <a href="https://msdn.microsoft.com/6c428c99-755f-40ab-bc9e-e1a7a3d70c1d">WS_ANY_ATTRIBUTES</a>.
+This structure is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_any_attributes">WS_ANY_ATTRIBUTES</a>.
             
 
 

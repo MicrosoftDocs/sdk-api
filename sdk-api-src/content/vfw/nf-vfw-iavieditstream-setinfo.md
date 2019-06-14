@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>SetInfo</b> method changes the characteristics of a stream. Called when an application uses the <a href="https://msdn.microsoft.com/c9b33a91-b7b1-4b66-86ba-d1ea774c8743">EditStreamSetInfo</a> function.
+The <b>SetInfo</b> method changes the characteristics of a stream. Called when an application uses the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-editstreamsetinfoa">EditStreamSetInfo</a> function.
 
 
 
@@ -63,7 +63,7 @@ The <b>SetInfo</b> method changes the characteristics of a stream. Called when a
 
 ### -param lpInfo
 
-Pointer to an <a href="https://msdn.microsoft.com/dca6d9ca-a825-4bd0-a19d-0655d775fdfb">AVISTREAMINFO</a> structure containing the new stream characteristics.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-_avistreaminfoa">AVISTREAMINFO</a> structure containing the new stream characteristics.
 
 
 ### -param cbInfo
@@ -108,15 +108,15 @@ HRESULT SetInfo(AVISTREAMINFO *lpInfo, LONG cbInfo);
 
 
 
-<a href="https://msdn.microsoft.com/ced6f7d1-5f27-47f4-a912-8c17ea5fa685">Custom File and Stream Handler Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/c61e0118-d405-4c1e-9ae8-ed6a145a5d6b">Custom File and Stream Handlers</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
 
 
 
-<a href="https://msdn.microsoft.com/c9b33a91-b7b1-4b66-86ba-d1ea774c8743">EditStreamSetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-editstreamsetinfoa">EditStreamSetInfo</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CertStoreProvReadCTL</b> callback function is called to read the provider's copy of the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">CTL</a> context and, if it exists, to create a new CTL context. Currently, this callback function is not called directly by the store APIs but it can be exported to support other providers based on it.
+The <b>CertStoreProvReadCTL</b> callback function is called to read the provider's copy of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CTL</a> context and, if it exists, to create a new CTL context. Currently, this callback function is not called directly by the store APIs but it can be exported to support other providers based on it.
 
 
 ## -parameters
@@ -59,13 +59,13 @@ The <b>CertStoreProvReadCTL</b> callback function is called to read the provider
 
 ### -param hStoreProv [in]
 
-<b>HCERTSTOREPROV</b> handle to a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a>.
+<b>HCERTSTOREPROV</b> handle to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a>.
 
 
 ### -param pStoreCtlContext [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/780edddf-1b44-4292-9156-4dfd5100adb8">CTL_CONTEXT</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">CTL_CONTEXT</a> structure.
 
 
 ### -param dwFlags [in]
@@ -75,7 +75,7 @@ Any needed flag values.
 
 ### -param *ppProvCtlContext [out]
 
-A pointer to a pointer to a <a href="https://msdn.microsoft.com/780edddf-1b44-4292-9156-4dfd5100adb8">CTL_CONTEXT</a> structure to be returned by the function. The context will be freed by calling <a href="https://msdn.microsoft.com/84b1aa0c-44d9-4a2f-861c-fa7d8caac192">CertFreeCTLContext</a>.
+A pointer to a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">CTL_CONTEXT</a> structure to be returned by the function. The context will be freed by calling <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a>.
 
 
 ## -returns
@@ -92,7 +92,7 @@ Returns <b>TRUE</b> if the function succeeds or <b>FALSE</b> if it fails.
 
 
 
-<a href="https://msdn.microsoft.com/780edddf-1b44-4292-9156-4dfd5100adb8">CTL_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">CTL_CONTEXT</a>
  
 
  

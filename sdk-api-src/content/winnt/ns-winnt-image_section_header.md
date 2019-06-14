@@ -83,13 +83,13 @@ The address of the first byte of the section when loaded into memory, relative t
 ### -field SizeOfRawData
 
 The size of the initialized data on disk, in bytes. This value must be a multiple of the <b>FileAlignment</b> member of the 
-<a href="https://msdn.microsoft.com/b6a50ffc-49f8-4824-9b51-7e381eaf8852">IMAGE_OPTIONAL_HEADER</a> structure. If this value is less than the <b>VirtualSize</b> member, the remainder of the section is filled with zeroes. If the section contains only uninitialized data, the member is zero.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_optional_header">IMAGE_OPTIONAL_HEADER</a> structure. If this value is less than the <b>VirtualSize</b> member, the remainder of the section is filled with zeroes. If the section contains only uninitialized data, the member is zero.
 
 
 ### -field PointerToRawData
 
 A file pointer to the first page within the COFF file. This value must be a multiple of the <b>FileAlignment</b> member of the 
-<a href="https://msdn.microsoft.com/b6a50ffc-49f8-4824-9b51-7e381eaf8852">IMAGE_OPTIONAL_HEADER</a> structure. If a section contains only uninitialized data, set this member is zero.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_optional_header">IMAGE_OPTIONAL_HEADER</a> structure. If a section contains only uninitialized data, set this member is zero.
 
 
 ### -field PointerToRelocations
@@ -605,23 +605,23 @@ The section can be written to.
 
 
 
-<a href="https://msdn.microsoft.com/b768a89e-c3bc-43f8-b3be-7e9d99e3504c">ImageDirectoryEntryToDataEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-imagedirectoryentrytodataex">ImageDirectoryEntryToDataEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/b88c7a21-933f-450c-97e8-04cf3c5f9b11">ImageHlp Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-structures">ImageHlp Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/a11df748-242b-4dd8-bf57-7ac02548b701">ImageRvaToSection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-imagervatosection">ImageRvaToSection</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f022054-d98e-44c8-b256-5c34711ce471">ImageRvaToVa</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-imagervatova">ImageRvaToVa</a>
 
 
 
-<a href="https://msdn.microsoft.com/8bfc6b47-23d6-45e1-a733-5b938d6312da">LOADED_IMAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_loaded_image">LOADED_IMAGE</a>
  
 
  

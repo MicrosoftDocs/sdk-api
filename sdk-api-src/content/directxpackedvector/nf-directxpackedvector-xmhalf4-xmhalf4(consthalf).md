@@ -47,7 +47,7 @@ ms.custom: 19H1
 
 ## -description
 
-Initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee419664(v=VS.85).aspx">XMHALF4</a> from a four element <code>HALF</code> array argument.
+Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmhalf4">XMHALF4</a> from a four element <code>HALF</code> array argument.
 
 This constructor initializes a new instance of **XMHALF4** from a from a four element <code>XMHALF4</code> array argument.
 
@@ -73,6 +73,6 @@ instance.w = pArray[3];
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419664(v=VS.85).aspx">XMHALF4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmhalf4">XMHALF4</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415321(v=VS.85).aspx">XMHALF4 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmhalf4-ctor">XMHALF4 Constructors</a>

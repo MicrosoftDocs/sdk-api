@@ -49,13 +49,13 @@ ms.custom: 19H1
 ## -description
 
 
-Provides access to a  child element in a container that supports <a href="https://msdn.microsoft.com/a393b323-31f9-4f31-abdb-7a0fb7c8ab96">IUIAutomationTablePattern</a>. 
+Provides access to a  child element in a container that supports <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtablepattern">IUIAutomationTablePattern</a>. 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationTableItemPattern</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUIAutomationTableItemPattern</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationTableItemPattern</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationTableItemPattern</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IUIAutomationTableItemPattern</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/40d4c31b-643f-479b-859c-3458d2d17f19">GetCachedColumnHeaderItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtableitempattern-getcachedcolumnheaderitems">GetCachedColumnHeaderItems</a>
 </td>
 <td align="left" width="63%">
 Retrieves the cached column headers associated with a table item or cell.
@@ -79,7 +79,7 @@ Retrieves the cached column headers associated with a table item or cell.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/69d4a632-8e35-4569-8c14-f56e9fd84c34">GetCachedRowHeaderItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtableitempattern-getcachedrowheaderitems">GetCachedRowHeaderItems</a>
 </td>
 <td align="left" width="63%">
 Retrieves the cached row headers associated with a table item or cell.
@@ -88,7 +88,7 @@ Retrieves the cached row headers associated with a table item or cell.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ccacd62c-c3f5-46a2-9449-5eb881f213b0">GetCurrentColumnHeaderItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtableitempattern-getcurrentcolumnheaderitems">GetCurrentColumnHeaderItems</a>
 </td>
 <td align="left" width="63%">
 Retrieves the column headers associated with a table item or cell.
@@ -97,7 +97,7 @@ Retrieves the column headers associated with a table item or cell.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6ae074c6-1855-4aea-845c-284a7bbc3f3f">GetCurrentRowHeaderItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtableitempattern-getcurrentrowheaderitems">GetCurrentRowHeaderItems</a>
 </td>
 <td align="left" width="63%">
 Retrieves the row headers associated with a table item or cell.
@@ -111,7 +111,7 @@ Retrieves the row headers associated with a table item or cell.
 
 
 
-Elements that support this interface must also support <a href="https://msdn.microsoft.com/03b284de-3079-4543-ac5a-a8504da0d755">IUIAutomationGridItemPattern</a>, to provide properties that are not specific to tables.
+Elements that support this interface must also support <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationgriditempattern">IUIAutomationGridItemPattern</a>, to provide properties that are not specific to tables.
 	
 
 
@@ -122,7 +122,7 @@ Elements that support this interface must also support <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/14358ef0-aa54-42c1-a3da-0f835f5f5ef6">Control Pattern Interfaces for Clients</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>
  
 
  

@@ -54,7 +54,7 @@ The <b>IADsSecurityUtility</b> interface is used to get, set, or retrieve the se
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsSecurityUtility</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IADsSecurityUtility</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsSecurityUtility</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IADsSecurityUtility</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IADsSecurityUtility</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ea6509bd-5625-458b-be7a-abb43ba2f46e">ConvertSecurityDescriptor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadssecurityutility-convertsecuritydescriptor">ConvertSecurityDescriptor</a>
 </td>
 <td align="left" width="63%">
 Converts a security descriptor from one format to another.
@@ -79,7 +79,7 @@ Converts a security descriptor from one format to another.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/95f4fbd9-03f8-4f2f-9314-e628186e51a4">GetSecurityDescriptor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadssecurityutility-getsecuritydescriptor">GetSecurityDescriptor</a>
 </td>
 <td align="left" width="63%">
 Retrieves a security descriptor for the specified file, fileshare, or registry key.
@@ -88,7 +88,7 @@ Retrieves a security descriptor for the specified file, fileshare, or registry k
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f0f5c1fb-14fa-4d84-aa82-0d5e24ec5c2b">SetSecurityDescriptor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadssecurityutility-setsecuritydescriptor">SetSecurityDescriptor</a>
 </td>
 <td align="left" width="63%">
 Sets the security descriptor for the specified file, file share, or registry key.
@@ -106,7 +106,7 @@ Sets the security descriptor for the specified file, file share, or registry key
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/b54ebe68-f7ce-484e-9378-04662b7a1051">SecurityMask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadssecurityutility-get_securitymask">SecurityMask</a>
 
 
 </td>
@@ -126,9 +126,9 @@ Determines which elements of the security descriptor to retrieve or set.
 
 
 
-To read the system access-control list (SACL) of a file or directory, the <b>SE_SECURITY_NAME</b> privilege must be enabled for the calling process. For more information about retrieving the SACL for an object, see <a href="https://msdn.microsoft.com/b1da91a2-d9b0-48a3-9de5-1e588209032d">Retrieving an Object's SACL</a>.
+To read the system access-control list (SACL) of a file or directory, the <b>SE_SECURITY_NAME</b> privilege must be enabled for the calling process. For more information about retrieving the SACL for an object, see <a href="https://docs.microsoft.com/windows/desktop/AD/retrieving-an-objectampaposs-sacl">Retrieving an Object's SACL</a>.
 
-For more information and a code example that shows how to use the <b>IADsSecurityUtility</b> interface to add an ACE to a file, see <a href="https://msdn.microsoft.com/d47d3ebe-cc14-412d-be27-841e25b43c3a">Example Code for Adding an ACE to a File</a>.
+For more information and a code example that shows how to use the <b>IADsSecurityUtility</b> interface to add an ACE to a file, see <a href="https://docs.microsoft.com/windows/desktop/ADSI/example-code-for-adding-an-ace-to-a-file">Example Code for Adding an ACE to a File</a>.
 
 
 
@@ -138,39 +138,39 @@ For more information and a code example that shows how to use the <b>IADsSecurit
 
 
 
-<a href="https://msdn.microsoft.com/3ae0ec98-9184-4ab3-b859-39c0d677eb0d">ADS_PATHTYPE_ENUM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0088_0001">ADS_PATHTYPE_ENUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/503247b6-3119-4514-9831-c8f0ef50c0fa">ADS_SD_FORMAT_ENUM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0088_0002">ADS_SD_FORMAT_ENUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/d47d3ebe-cc14-412d-be27-841e25b43c3a">Example Code for Adding an ACE to a File</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/example-code-for-adding-an-ace-to-a-file">Example Code for Adding an ACE to a File</a>
 
 
 
-<a href="https://msdn.microsoft.com/6d2cd45b-0dc6-4bb3-9c41-014bec71f258">IADsAccessControlEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsaccesscontrolentry">IADsAccessControlEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/c77547ab-e666-4d72-b8ef-4b2f3d61ad38">IADsSecurityDescriptor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a>
 
 
 
-<a href="https://msdn.microsoft.com/de92d9cc-bc9d-4dc5-aa79-01f4d3050c35">IAccessControlList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsaccesscontrollist">IAccessControlList</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/7233a82f-fc38-4718-b674-4e6a00666184">Security Descriptors on Files and Registry Keys</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/security-descriptors-on-files-and-registry-keys">Security Descriptors on Files and Registry Keys</a>
 
 
 
-<a href="https://msdn.microsoft.com/1434f0ec-a87b-4b75-9013-a1ca27956ec4">Security Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/security-interfaces">Security Interfaces</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines the <a href="https://msdn.microsoft.com/fb8ce5d3-3215-4e05-a916-4d4a803464d2">CF_HDROP</a> clipboard format. The data that follows is a double null-terminated list of file names.
+Defines the <a href="https://docs.microsoft.com/windows/desktop/shell/clipboard">CF_HDROP</a> clipboard format. The data that follows is a double null-terminated list of file names.
 
 
 ## -struct-fields
@@ -66,7 +66,7 @@ The offset of the file list from the beginning of this structure, in bytes.
 
 ### -field pt
 
-Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
 
 The drop point. The coordinates depend on <b>fNC</b>.
 

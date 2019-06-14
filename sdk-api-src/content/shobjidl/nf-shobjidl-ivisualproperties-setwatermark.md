@@ -66,10 +66,10 @@ A handle to the bitmap.
 
 ### -param vpwf [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e54db88e-c334-442b-8ab5-6004176aab41">VPWATERMARKFLAGS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/ne-shobjidl-vpwatermarkflags">VPWATERMARKFLAGS</a></b>
 
 
-<a href="https://msdn.microsoft.com/e54db88e-c334-442b-8ab5-6004176aab41">VPWATERMARKFLAGS</a> flags that customize the watermark.
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/ne-shobjidl-vpwatermarkflags">VPWATERMARKFLAGS</a> flags that customize the watermark.
 
 
 ## -returns

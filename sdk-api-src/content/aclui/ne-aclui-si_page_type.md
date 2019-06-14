@@ -60,25 +60,25 @@ The <b>SI_PAGE_TYPE</b> enumeration contains values that indicate the types of p
 ### -field SI_PAGE_PERM
 
 The 
-<a href="https://msdn.microsoft.com/6623fe7e-e91d-49c7-9ad0-7791c178d12b">basic security property page</a> for editing the object's DACL.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/basic-security-property-page">basic security property page</a> for editing the object's DACL.
 
 
 ### -field SI_PAGE_ADVPERM
 
 The 
-<a href="https://msdn.microsoft.com/85a9fe30-871b-4909-b789-3fc257ffdbff">Permissions</a> tab for advanced editing of the object's DACL, such as editing object-specific ACEs.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/permissions-property-page">Permissions</a> tab for advanced editing of the object's DACL, such as editing object-specific ACEs.
 
 
 ### -field SI_PAGE_AUDIT
 
 The 
-<a href="https://msdn.microsoft.com/2a9152b7-c72d-4f03-bc3f-b75927fb4b6c">Auditing</a> tab for editing the object's SACL.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/auditing-property-page">Auditing</a> tab for editing the object's SACL.
 
 
 ### -field SI_PAGE_OWNER
 
 The 
-<a href="https://msdn.microsoft.com/b0c421db-450e-4030-98e9-e062202e482c">Owner</a> tab for editing the object's owner.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/owner-property-page">Owner</a> tab for editing the object's owner.
 
 
 ### -field SI_PAGE_EFFECTIVE
@@ -101,15 +101,15 @@ A dialog box for changing the owner of the object.
 
 
 
-<a href="https://msdn.microsoft.com/ca709f27-8463-4f11-92ac-2148796e640a">Access Control Editor</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-editor">Access Control Editor</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2f22838-102e-432c-9c82-06a3e0741374">Authorization Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-enumerations">Authorization Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b891e64-e648-44a4-add6-d4c214394be8">ISecurityInformation::PropertySheetPageCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-propertysheetpagecallback">ISecurityInformation::PropertySheetPageCallback</a>
  
 
  

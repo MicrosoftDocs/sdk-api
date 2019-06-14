@@ -96,7 +96,7 @@ A client can use this method to keep track of control changes made by other proc
 
 
 
-<a href="https://msdn.microsoft.com/e50e13c2-1ef3-46f6-8c53-f99cc1631a79">IControlChangeNotify Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-icontrolchangenotify">IControlChangeNotify Interface</a>
  
 
  

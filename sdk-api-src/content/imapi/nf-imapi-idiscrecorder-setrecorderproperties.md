@@ -50,8 +50,8 @@ ms.custom: 19H1
 
 
 Accepts an 
-<a href="https://msdn.microsoft.com/c021f695-db54-4861-9f30-35a81d2dccd5">IPropertyStorage</a> pointer for an object with all the properties that the application wishes to change. Sparse settings are supported. It is recommended, however, to query for a property set using 
-<a href="https://msdn.microsoft.com/24d46cbc-56fd-4c9f-933c-0207dea5ada5">GetRecorderProperties</a>, modify only those settings of interest, and then call 
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> pointer for an object with all the properties that the application wishes to change. Sparse settings are supported. It is recommended, however, to query for a property set using 
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscrecorder-getrecorderproperties">GetRecorderProperties</a>, modify only those settings of interest, and then call 
 <b>SetRecorderProperties</b> to change all values simultaneously.
 
 
@@ -63,7 +63,7 @@ Accepts an
 ### -param pPropStg [in]
 
 Pointer to the 
-<a href="https://msdn.microsoft.com/c021f695-db54-4861-9f30-35a81d2dccd5">IPropertyStorage</a> interface that the disc recorder can use to retrieve new settings on various properties.
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> interface that the disc recorder can use to retrieve new settings on various properties.
 
 
 ## -returns
@@ -83,7 +83,7 @@ Some properties are read-only, such as MaxWriteSpeed. Both read-only properties 
 
 After calling 
 <b>SetRecorderProperties</b>, an application should verify property settings by calling 
-<a href="https://msdn.microsoft.com/24d46cbc-56fd-4c9f-933c-0207dea5ada5">GetRecorderProperties</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscrecorder-getrecorderproperties">GetRecorderProperties</a>.
 
 
 
@@ -93,7 +93,7 @@ After calling
 
 
 
-<a href="https://msdn.microsoft.com/fc861cbb-a14e-499e-8b80-f5912e4f6076">IDiscRecorder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscrecorder">IDiscRecorder</a>
  
 
  

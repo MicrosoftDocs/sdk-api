@@ -59,12 +59,12 @@ The <b>Open</b> method opens a connection to the service.
 
 ### -param pszPnPServiceID [in]
 
-The Plug and Play (PnP) identifier for the service, which is the same identifier that is retrieved by the <a href="https://msdn.microsoft.com/c73261a5-1436-4706-8d8b-ff8183429ac4">GetPnPServiceId</a> method.
+The Plug and Play (PnP) identifier for the service, which is the same identifier that is retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservice-getpnpserviceid">GetPnPServiceId</a> method.
 
 
 ### -param pClientInfo [in]
 
-The <a href="https://msdn.microsoft.com/a73cbb4e-15d2-4c8d-9267-aaec9a0fd09f">IPortableDeviceValues</a> interface specifying the client information.
+The <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicevalues">IPortableDeviceValues</a> interface specifying the client information.
 
 
 ## -returns
@@ -134,11 +134,11 @@ This method has already been called for the service.
 
 
 
-<a href="https://msdn.microsoft.com/f57344d5-c978-4c27-b8a9-b42492bd9312">IPortableDeviceService Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservice">IPortableDeviceService Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/722d657d-332a-40df-ac30-bc2050deda74">Opening a Service</a>
+<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/opening-a-service">Opening a Service</a>
  
 
  

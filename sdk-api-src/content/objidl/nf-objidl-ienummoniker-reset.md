@@ -82,7 +82,7 @@ There is no guarantee that the same set of objects will be enumerated after the 
 
 
 
-<a href="https://msdn.microsoft.com/c8dec22b-946d-48ae-9315-54d353f3b853">IEnumMoniker</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienummoniker">IEnumMoniker</a>
  
 
  

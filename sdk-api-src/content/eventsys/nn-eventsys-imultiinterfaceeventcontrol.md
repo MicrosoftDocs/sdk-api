@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Controls the behavior of an event object, the object that fires an event to its subscribers. The <b>IMultiInterfaceEventControl</b> interface differs from the <a href="https://msdn.microsoft.com/8b2fba30-3ede-466f-ad3b-2de2175a088b">IEventControl</a> interface in that it supports multiple event interfaces for the event object.
+Controls the behavior of an event object, the object that fires an event to its subscribers. The <b>IMultiInterfaceEventControl</b> interface differs from the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventcontrol">IEventControl</a> interface in that it supports multiple event interfaces for the event object.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMultiInterfaceEventControl</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMultiInterfaceEventControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMultiInterfaceEventControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMultiInterfaceEventControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IMultiInterfaceEventControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/38b1d0fe-c32e-41d5-a0c1-2b4e72908fce">GetSubscriptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-imultiinterfaceeventcontrol-getsubscriptions">GetSubscriptions</a>
 </td>
 <td align="left" width="63%">
 Retrieves the collection of subscription objects associated with an event method.
@@ -79,7 +79,7 @@ Retrieves the collection of subscription objects associated with an event method
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/31d544d4-8cac-46ae-9db7-c5b366ac6b2f">SetDefaultQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-imultiinterfaceeventcontrol-setdefaultquery">SetDefaultQuery</a>
 </td>
 <td align="left" width="63%">
 Establishes a default query to be used when a publisher filter is not associated with an event method.
@@ -89,7 +89,7 @@ Establishes a default query to be used when a publisher filter is not associated
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0eb52937-3bd8-45ab-b4ba-c0264c47c909">SetMultiInterfacePublisherFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-imultiinterfaceeventcontrol-setmultiinterfacepublisherfilter">SetMultiInterfacePublisherFilter</a>
 </td>
 <td align="left" width="63%">
 Assigns a publisher filter to an event method at run time.
@@ -107,7 +107,7 @@ Assigns a publisher filter to an event method at run time.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/152f78d9-4292-45e8-a908-5d2b0368f507">AllowInprocActivation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-imultiinterfaceeventcontrol-get_allowinprocactivation">AllowInprocActivation</a>
 
 
 </td>
@@ -123,7 +123,7 @@ Indicates whether subscribers can be activated in the publisher's process.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c26cce66-e713-42f7-9716-385b59085977">FireInParallel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-imultiinterfaceeventcontrol-get_fireinparallel">FireInParallel</a>
 
 
 </td>

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Resets the state of the enumerator to its initialized state. You must immediately follow <b>IItemEnumerator::Reset</b> with a call  to  <a href="https://msdn.microsoft.com/bdec3ee4-e66a-4e93-9109-c5721d06eb63">IItemEnumerator::MoveNext</a> on the enumerator   in order to set the current pointer at the first position in the enumeration.
+Resets the state of the enumerator to its initialized state. You must immediately follow <b>IItemEnumerator::Reset</b> with a call  to  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-iitemenumerator-movenext">IItemEnumerator::MoveNext</a> on the enumerator   in order to set the current pointer at the first position in the enumeration.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ This method returns an HRESULT value. <b>S_OK</b> indicates success.
 
 
 
-<a href="https://msdn.microsoft.com/f43245f1-81d9-4b06-8f0c-d490618a99fa">IItemEnumerator</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-iitemenumerator">IItemEnumerator</a>
  
 
  

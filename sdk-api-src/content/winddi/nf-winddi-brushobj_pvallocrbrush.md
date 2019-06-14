@@ -59,7 +59,7 @@ The <b>BRUSHOBJ_pvAllocRbrush</b> function allocates memory for the driver's rea
 
 ### -param pbo
 
-Pointer to the <a href="https://msdn.microsoft.com/81216bee-d13f-4880-a839-337a247a6c82">BRUSHOBJ</a> structure for which the realization is to be allocated.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_brushobj">BRUSHOBJ</a> structure for which the realization is to be allocated.
 
 
 ### -param cj
@@ -82,7 +82,7 @@ The return value is a pointer to the allocated memory if the function is success
 
 <b>BRUSHOBJ_pvAllocRbrush</b> allocates memory for the brush realization. GDI manages the memory and discards it when the brush is no longer needed.
 
-This function should be called only by an implementation of a brush realization following a call to <a href="https://msdn.microsoft.com/2948f274-cef2-4fcf-9607-79540b6e5a5f">DrvRealizeBrush</a>.
+This function should be called only by an implementation of a brush realization following a call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvrealizebrush">DrvRealizeBrush</a>.
 
 
 
@@ -92,11 +92,11 @@ This function should be called only by an implementation of a brush realization 
 
 
 
-<a href="https://msdn.microsoft.com/81216bee-d13f-4880-a839-337a247a6c82">BRUSHOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_brushobj">BRUSHOBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/2948f274-cef2-4fcf-9607-79540b6e5a5f">DrvRealizeBrush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvrealizebrush">DrvRealizeBrush</a>
  
 
  

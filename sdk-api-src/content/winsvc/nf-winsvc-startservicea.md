@@ -67,9 +67,9 @@ Starts a service.
 ### -param hService [in]
 
 A handle to the service. This handle is returned by the 
-<a href="https://msdn.microsoft.com/e0a42613-95ad-4d0f-a464-c6df33014064">OpenService</a> or 
-<a href="https://msdn.microsoft.com/47288924-3294-4a50-b27d-7df80d5c957c">CreateService</a> function, and it must have the SERVICE_START access right. For more information, see 
-<a href="https://msdn.microsoft.com/23d1c382-6ba4-49e2-8039-c2a91471076c">Service Security and Access Rights</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> function, and it must have the SERVICE_START access right. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>.
 
 
 ### -param dwNumServiceArgs [in]
@@ -79,7 +79,7 @@ The number of strings in the <i>lpServiceArgVectors</i> array. If <i>lpServiceAr
 
 ### -param lpServiceArgVectors [in, optional]
 
-The null-terminated strings to be passed to the <a href="https://msdn.microsoft.com/d7f3235e-91bd-4107-a30c-4a8f9a6c731e">ServiceMain</a> function for the service as arguments. If there are no arguments, this parameter can be NULL. Otherwise, the first argument (lpServiceArgVectors[0]) is the name of the service, followed by any additional arguments (lpServiceArgVectors[1] through lpServiceArgVectors[dwNumServiceArgs-1]).
+The null-terminated strings to be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lpservice_main_functiona">ServiceMain</a> function for the service as arguments. If there are no arguments, this parameter can be NULL. Otherwise, the first argument (lpServiceArgVectors[0]) is the name of the service, followed by any additional arguments (lpServiceArgVectors[1] through lpServiceArgVectors[dwNumServiceArgs-1]).
 
 Driver services do not receive these arguments.
 
@@ -91,7 +91,7 @@ Driver services do not receive these arguments.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following error codes can be set by the service control manager. Others can be set by the registry functions that are called by the service control manager.
 
@@ -229,7 +229,7 @@ A thread could not be created for the service.
 </td>
 <td width="60%">
 The process for the service was started, but it did not call 
-<a href="https://msdn.microsoft.com/8e275eb7-a8af-4bd7-bb39-0eac4f3735ad">StartServiceCtrlDispatcher</a>, or the thread that called 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-startservicectrldispatchera">StartServiceCtrlDispatcher</a>, or the thread that called 
 <b>StartServiceCtrlDispatcher</b> may be blocked in a control handler function.
 
 </td>
@@ -249,7 +249,7 @@ When a driver service is started, the
 
 When a service is started, the Service Control Manager (SCM) spawns the service process, if necessary. If the specified service shares a process with other services, the required process may already exist. The 
 <b>StartService</b> function does not wait for the first status update from the new service, because it can take a while. Instead, it returns when the SCM receives notification from the service control dispatcher that the 
-<a href="https://msdn.microsoft.com/d7f3235e-91bd-4107-a30c-4a8f9a6c731e">ServiceMain</a> thread for this service was created successfully.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lpservice_main_functiona">ServiceMain</a> thread for this service was created successfully.
 
 The SCM sets the following default status values before returning from 
 <b>StartService</b>:
@@ -261,20 +261,20 @@ The SCM sets the following default status values before returning from
 <li>The WaitHint time is set to 2 seconds.</li>
 </ul>
 The calling process can determine if the new service has finished its initialization by calling the 
-<a href="https://msdn.microsoft.com/dcd2d8a1-10ef-4229-b873-b4fc3ec9293f">QueryServiceStatus</a> function periodically to query the service's status.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryservicestatus">QueryServiceStatus</a> function periodically to query the service's status.
 
 A service cannot call 
 <b>StartService</b> during initialization. The reason is that the SCM  locks the service control database during initialization, so a call to 
 <b>StartService</b> will block. After the service reports to the SCM that it has successfully started, it can call 
 <b>StartService</b>.
 
-As with   <a href="https://msdn.microsoft.com/c112b587-7455-4f15-93e1-ded73de6dbbd">ControlService</a>, <b>StartService</b> will block for 30 seconds if any service is busy handling a control code. If the busy service still has not returned from its handler function when the timeout expires,  <b>StartService</b> fails with ERROR_SERVICE_REQUEST_TIMEOUT. This is because the SCM processes only one service control notification at a time.
+As with   <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlservice">ControlService</a>, <b>StartService</b> will block for 30 seconds if any service is busy handling a control code. If the busy service still has not returned from its handler function when the timeout expires,  <b>StartService</b> fails with ERROR_SERVICE_REQUEST_TIMEOUT. This is because the SCM processes only one service control notification at a time.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/7ee5254d-b035-4888-88e9-93e3e55d737e">Starting a Service</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Services/starting-a-service">Starting a Service</a>.
 
 <div class="code"></div>
 
@@ -285,39 +285,39 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/c112b587-7455-4f15-93e1-ded73de6dbbd">ControlService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlservice">ControlService</a>
 
 
 
-<a href="https://msdn.microsoft.com/47288924-3294-4a50-b27d-7df80d5c957c">CreateService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a>
 
 
 
-<a href="https://msdn.microsoft.com/5b0fc714-60e0-4ae3-8fa8-ace36dab2fb0">DeleteService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-deleteservice">DeleteService</a>
 
 
 
-<a href="https://msdn.microsoft.com/e0a42613-95ad-4d0f-a464-c6df33014064">OpenService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a>
 
 
 
-<a href="https://msdn.microsoft.com/499b63fd-e77b-4b90-9ee7-ff4b7b12c431">QueryServiceDynamicInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryservicedynamicinformation">QueryServiceDynamicInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/3fe02245-97b1-49f3-8f35-2dcd6f221547">QueryServiceStatusEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryservicestatusex">QueryServiceStatusEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/63666848-cbac-4853-8b91-89303f9854c0">Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Services/service-functions">Service Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/7d2ee779-1554-436a-a65c-f0322745f46a">Service Startup</a>
+<a href="https://docs.microsoft.com/windows/desktop/Services/service-startup">Service Startup</a>
 
 
 
-<a href="https://msdn.microsoft.com/d7f3235e-91bd-4107-a30c-4a8f9a6c731e">ServiceMain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lpservice_main_functiona">ServiceMain</a>
  
 
  

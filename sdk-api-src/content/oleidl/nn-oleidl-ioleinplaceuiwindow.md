@@ -54,7 +54,7 @@ Implemented by container applications and used by object applications to negotia
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleInPlaceUIWindow</b> interface inherits from <a href="https://msdn.microsoft.com/2d0efbae-4a1c-43b1-9021-8d89377f7282">IOleWindow</a>. <b>IOleInPlaceUIWindow</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleInPlaceUIWindow</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>. <b>IOleInPlaceUIWindow</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IOleInPlaceUIWindow</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9ee9970a-b937-4538-b3b8-460647086db1">GetBorder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceuiwindow-getborder">GetBorder</a>
 </td>
 <td align="left" width="63%">
 Retrieves the outer rectange for toolbars and controls while the object is active in place.
@@ -78,7 +78,7 @@ Retrieves the outer rectange for toolbars and controls while the object is activ
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fd477b1d-e9a5-4b99-adf1-8e62de975730">RequestBorderSpace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceuiwindow-requestborderspace">RequestBorderSpace</a>
 </td>
 <td align="left" width="63%">
 Determines whether there is space available for tools to be installed around object's window frame while the object is active in place.
@@ -87,7 +87,7 @@ Determines whether there is space available for tools to be installed around obj
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6ed1b09a-44e4-41dc-aa35-27efb3df66d6">SetActiveObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceuiwindow-setactiveobject">SetActiveObject</a>
 </td>
 <td align="left" width="63%">
 Provides a direct channel of communication between the object and each of the frame and document windows.
@@ -96,10 +96,10 @@ Provides a direct channel of communication between the object and each of the fr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7c806a02-db6d-444e-a049-22c4ae2b19b0">SetBorderSpace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceuiwindow-setborderspace">SetBorderSpace</a>
 </td>
 <td align="left" width="63%">
-Allocates space for the border requested in the call to <a href="https://msdn.microsoft.com/fd477b1d-e9a5-4b99-adf1-8e62de975730">RequestBorderSpace</a>.
+Allocates space for the border requested in the call to <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceuiwindow-requestborderspace">RequestBorderSpace</a>.
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ Allocates space for the border requested in the call to <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/2d0efbae-4a1c-43b1-9021-8d89377f7282">IOleWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>
  
 
  

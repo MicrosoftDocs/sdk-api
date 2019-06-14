@@ -120,15 +120,15 @@ Windows 8 (XInput 1.4)
 
 
 
-<a href="https://msdn.microsoft.com/87ca9a31-1bc8-47ea-be00-40159d30e189">Core Audio APIs</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-apis-in-windows-vista">Core Audio APIs</a>
 
 
 
-<a href="https://msdn.microsoft.com/c1533555-9094-0030-f025-6f47e9002e1a">XInput Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/xinput/functions">XInput Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419265(v=VS.85).aspx">XInputGetDSoundAudioDeviceGuids</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xinput/nf-xinput-xinputgetdsoundaudiodeviceguids">XInputGetDSoundAudioDeviceGuids</a>
  
 
  

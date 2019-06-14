@@ -64,7 +64,7 @@ Handle to the peer graph.
 
 ### -param pdwStatus [out]
 
-Receives the current status of the peer graph.  Returns one or more of the <a href="https://msdn.microsoft.com/71910437-4ebd-4fcc-977c-0a56c5f26d61">PEER_GRAPH_STATUS_FLAGS</a> values.
+Receives the current status of the peer graph.  Returns one or more of the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_graph_status_flags_tag">PEER_GRAPH_STATUS_FLAGS</a> values.
 
 
 ## -returns
@@ -118,7 +118,7 @@ The handle to the peer graph is invalid.
 </dl>
 </td>
 <td width="60%">
-The peer graph must be  initialized with a call to <a href="https://msdn.microsoft.com/00ffdec7-f084-4170-a4a1-e6112bab4d61">PeerGraphStartup</a> before using this function.
+The peer graph must be  initialized with a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a> before using this function.
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ The peer graph must be  initialized with a call to <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/71910437-4ebd-4fcc-977c-0a56c5f26d61">PEER_GRAPH_STATUS_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_graph_status_flags_tag">PEER_GRAPH_STATUS_FLAGS</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Unregisters an event handler for the <a href="https://msdn.microsoft.com/DF9256CA-6C59-462C-B32F-4653546DB384">TransportParametersUpdate</a> event.
+Unregisters an event handler for the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/transportparametersupdate">TransportParametersUpdate</a> event.
 
 
 ## -parameters
@@ -95,7 +95,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/FBA5BF5A-FA5A-4E25-8F2B-9D1C0A9BCACB">IMediaRenderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a>
  
 
  

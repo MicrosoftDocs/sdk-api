@@ -52,12 +52,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>LsaLookupNames2</b> function retrieves the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifiers</a> (SIDs) for specified account names. <b>LsaLookupNames2</b> can look up the SID for any account in any domain in a Windows forest.
+The <b>LsaLookupNames2</b> function retrieves the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifiers</a> (SIDs) for specified account names. <b>LsaLookupNames2</b> can look up the SID for any account in any domain in a Windows forest.
 
-The <a href="https://msdn.microsoft.com/867604aa-7a39-4da7-b189-a9183461e9a0">LsaLookupNames</a> function is superseded by the <b>LsaLookupNames2</b> function. Applications should use the <b>LsaLookupNames2</b> function to ensure future compatibility.
+The <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupnames">LsaLookupNames</a> function is superseded by the <b>LsaLookupNames2</b> function. Applications should use the <b>LsaLookupNames2</b> function to ensure future compatibility.
 
 This function differs from the 
-<a href="https://msdn.microsoft.com/867604aa-7a39-4da7-b189-a9183461e9a0">LsaLookupNames</a> function in that <b>LsaLookupNames2</b> returns each SID as a single element, while <b>LsaLookupNames</b> divides each SID into an RID/domain pair.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupnames">LsaLookupNames</a> function in that <b>LsaLookupNames2</b> returns each SID as a single element, while <b>LsaLookupNames</b> divides each SID into an RID/domain pair.
 
 
 ## -parameters
@@ -68,8 +68,8 @@ This function differs from the
 ### -param PolicyHandle [in]
 
 A handle to a 
-<a href="https://msdn.microsoft.com/4253c7fb-85f5-441d-90bf-492e802ad0f8">Policy</a> object. The handle must have the POLICY_LOOKUP_NAMES access right. For more information, see 
-<a href="https://msdn.microsoft.com/66fdc878-d9c4-421c-b79f-9df08984611c">Opening a Policy Object Handle</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object. The handle must have the POLICY_LOOKUP_NAMES access right. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/opening-a-policy-object-handle">Opening a Policy Object Handle</a>. 
 
 
 ### -param Flags [in]
@@ -104,7 +104,7 @@ Specifies the number of names in the <i>Names</i> array. This is also the number
 ### -param Names [in]
 
 Pointer to an array of 
-<a href="https://msdn.microsoft.com/9e1cf20f-01f9-4813-bf95-e47c5d57dcdc">LSA_UNICODE_STRING</a> structures that contain the names to look up. These strings can be the names of user, group, or local group accounts, or the names of domains. Domain names can be DNS domain names or NetBIOS domain names. 
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string">LSA_UNICODE_STRING</a> structures that contain the names to look up. These strings can be the names of user, group, or local group accounts, or the names of domains. Domain names can be DNS domain names or NetBIOS domain names. 
 
 
 
@@ -115,22 +115,22 @@ For more information about the format of the name strings, see Remarks.
 ### -param ReferencedDomains [out]
 
 Receives a pointer to an 
-<a href="https://msdn.microsoft.com/ddf0afcb-7ec4-42ed-bf40-38ef33f33a0c">LSA_REFERENCED_DOMAIN_LIST</a> structure. The <b>Domains</b> member of this structure is an array that contains an entry for each domain in which a name was found. The <b>DomainIndex</b> member of each entry in the <i>Sids</i> array is the index of the <b>Domains</b> array entry for the domain in which the name was found.
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_referenced_domain_list">LSA_REFERENCED_DOMAIN_LIST</a> structure. The <b>Domains</b> member of this structure is an array that contains an entry for each domain in which a name was found. The <b>DomainIndex</b> member of each entry in the <i>Sids</i> array is the index of the <b>Domains</b> array entry for the domain in which the name was found.
 
 When you have finished using the returned pointer, free it by calling the  
-<a href="https://msdn.microsoft.com/6eb3d18f-c54c-4e51-8a4b-b7a3f930cfa9">LsaFreeMemory</a> function. This memory must be freed even when the function fails with the either of the error codes <b>STATUS_NONE_MAPPED</b> or <b>STATUS_SOME_NOT_MAPPED</b>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsafreememory">LsaFreeMemory</a> function. This memory must be freed even when the function fails with the either of the error codes <b>STATUS_NONE_MAPPED</b> or <b>STATUS_SOME_NOT_MAPPED</b>
 
 
 ### -param Sids [out]
 
 Receives a pointer to an array of 
-<a href="https://msdn.microsoft.com/792de958-8e24-46d8-b484-159435bc96e3">LSA_TRANSLATED_SID2</a> structures. Each entry in the <i>Sids</i> array contains the SID information for the corresponding entry in the <i>Names</i> array. 
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_translated_sid2">LSA_TRANSLATED_SID2</a> structures. Each entry in the <i>Sids</i> array contains the SID information for the corresponding entry in the <i>Names</i> array. 
 
 
 
 
 When you have finished using the returned pointer, free it by calling the  
-<a href="https://msdn.microsoft.com/6eb3d18f-c54c-4e51-8a4b-b7a3f930cfa9">LsaFreeMemory</a> function. This memory must be freed even when the function fails with the either of the error codes <b>STATUS_NONE_MAPPED</b> or <b>STATUS_SOME_NOT_MAPPED</b>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsafreememory">LsaFreeMemory</a> function. This memory must be freed even when the function fails with the either of the error codes <b>STATUS_NONE_MAPPED</b> or <b>STATUS_SOME_NOT_MAPPED</b>
 
 
 ## -returns
@@ -170,7 +170,7 @@ All of the names were found and successfully translated.
  
 
 If the function fails, the return value is the following <b>NTSTATUS</b> value or one of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms721859(v=VS.85).aspx">LSA Policy Function Return Values</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>
@@ -193,7 +193,7 @@ None of the names were translated.
  
 
 Use the 
-<a href="https://msdn.microsoft.com/fa91794c-c502-4b36-84cc-a8d77c8e9d9f">LsaNtStatusToWinError</a> function to convert the <b>NTSTATUS</b> code to a Windows error code.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function to convert the <b>NTSTATUS</b> code to a Windows error code.
 
 
 
@@ -202,14 +202,14 @@ Use the
 
 
 
-Use fully qualified account names (for example, <i>DomainName</i>\<i>UserName</i>) instead of isolated names (for example, <i>UserName</i>). Fully qualified names are unambiguous and provide better performance when the lookup is performed. This function also supports fully qualified DNS names (for example, <i>Example</i>.<i>Example</i>.com\<i>UserName</i>) and <a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">user principal names</a> (UPN) (for example, <i>Someone</i>@<i>Example</i>.com).
+Use fully qualified account names (for example, <i>DomainName</i>\<i>UserName</i>) instead of isolated names (for example, <i>UserName</i>). Fully qualified names are unambiguous and provide better performance when the lookup is performed. This function also supports fully qualified DNS names (for example, <i>Example</i>.<i>Example</i>.com\<i>UserName</i>) and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">user principal names</a> (UPN) (for example, <i>Someone</i>@<i>Example</i>.com).
 
 Translation of isolated names introduces the possibility of name collisions because the same name may be used in multiple domains. The <b>LsaLookupNames2</b> function uses the following algorithm to translate isolated names.
 
 <p class="proch"><img alt="" src="../common/wedge.gif"/><b>To translate isolated names</b>
 
 <ol>
-<li>If the name is a well-known name, such as Local or Interactive, the function returns the corresponding well-known <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID).</li>
+<li>If the name is a well-known name, such as Local or Interactive, the function returns the corresponding well-known <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).</li>
 <li>If the name is the name of the built-in domain, the function returns the SID of that domain.</li>
 <li>If the name is the name of the account domain, the function returns the SID of that domain.</li>
 <li>If the name is the name of the primary domain, the function returns the SID of that domain.</li>
@@ -228,19 +228,19 @@ Translation of isolated names introduces the possibility of name collisions beca
 
 
 
-<a href="https://msdn.microsoft.com/ddf0afcb-7ec4-42ed-bf40-38ef33f33a0c">LSA_REFERENCED_DOMAIN_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_referenced_domain_list">LSA_REFERENCED_DOMAIN_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/792de958-8e24-46d8-b484-159435bc96e3">LSA_TRANSLATED_SID2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_translated_sid2">LSA_TRANSLATED_SID2</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e1cf20f-01f9-4813-bf95-e47c5d57dcdc">LSA_UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string">LSA_UNICODE_STRING</a>
 
 
 
-<a href="https://msdn.microsoft.com/6eb3d18f-c54c-4e51-8a4b-b7a3f930cfa9">LsaFreeMemory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsafreememory">LsaFreeMemory</a>
  
 
  

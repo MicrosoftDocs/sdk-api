@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Exposes methods that provide additional load and save methods that take <a href="https://msdn.microsoft.com/8c17cfcc-4f09-4cb5-a3fa-4eb865123ad6">WICPersistOptions</a>.
+Exposes methods that provide additional load and save methods that take <a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/ne-wincodecsdk-wicpersistoptions">WICPersistOptions</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICPersistStream</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/ms690091(v=VS.85).aspx">IPersistStream</a>. <b>IWICPersistStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICPersistStream</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a>. <b>IWICPersistStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWICPersistStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cb200a21-6c01-469e-b70f-f787f1dae382">LoadEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicpersiststream-loadex">LoadEx</a>
 </td>
 <td align="left" width="63%">
 Loads a stream using the given parameters. 
@@ -78,7 +78,7 @@ Loads a stream using the given parameters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8820ad87-a808-48db-91d8-c76bca1c832c">SaveEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicpersiststream-saveex">SaveEx</a>
 </td>
 <td align="left" width="63%">
 Saves the stream using the given parameters.

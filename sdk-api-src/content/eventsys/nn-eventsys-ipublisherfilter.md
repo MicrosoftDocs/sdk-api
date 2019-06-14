@@ -52,12 +52,12 @@ ms.custom: 19H1
 Acts as a callback interface so that event publishers can control which subscribers receive event notifications or the order in which subscribers are notified.
 
 
-<b>IPublisherFilter</b> is supported only for backward compatibility. Instead, use the <a href="https://msdn.microsoft.com/f20f778b-fdd5-4c34-871b-d03cd1cd31cc">IMultiInterfacePublisherFilter</a> interface. 
+<b>IPublisherFilter</b> is supported only for backward compatibility. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-imultiinterfacepublisherfilter">IMultiInterfacePublisherFilter</a> interface. 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPublisherFilter</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPublisherFilter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPublisherFilter</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPublisherFilter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IPublisherFilter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/803201c7-7fa8-4db5-858f-3d5af302ee88">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ipublisherfilter-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Associates an event method with a collection of subscription objects.
@@ -81,7 +81,7 @@ Associates an event method with a collection of subscription objects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/78faa83f-ee73-4034-9be1-5576e5a909e3">PrepareToFire</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ipublisherfilter-preparetofire">PrepareToFire</a>
 </td>
 <td align="left" width="63%">
 Prepares a publisher filter to begin firing a filtered list of subscriptions using a provided firing control.
@@ -97,7 +97,7 @@ Prepares a publisher filter to begin firing a filtered list of subscriptions usi
 
 
 
-<a href="https://msdn.microsoft.com/f20f778b-fdd5-4c34-871b-d03cd1cd31cc">IMultiInterfacePublisherFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-imultiinterfacepublisherfilter">IMultiInterfacePublisherFilter</a>
  
 
  

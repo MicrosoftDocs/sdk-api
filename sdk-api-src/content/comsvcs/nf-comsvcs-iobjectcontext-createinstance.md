@@ -134,7 +134,7 @@ The argument passed in the <i>ppvObj</i> parameter is invalid.
 </dl>
 </td>
 <td width="60%">
-An unexpected error occurred. This can happen if one object passes its <a href="https://msdn.microsoft.com/9395bc9a-dfe5-428a-839f-1c4ad090f636">IObjectContext</a> pointer to another object and the other object calls <a href="https://msdn.microsoft.com/2e870191-5a34-490e-9f3a-cb646fe3f470">CreateInstance</a> using this pointer. An <b>IObjectContext</b> pointer is not valid outside the context of the object that originally obtained it.
+An unexpected error occurred. This can happen if one object passes its <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontext">IObjectContext</a> pointer to another object and the other object calls <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontext-createinstance">CreateInstance</a> using this pointer. An <b>IObjectContext</b> pointer is not valid outside the context of the object that originally obtained it.
 
 
 </td>
@@ -151,11 +151,11 @@ An unexpected error occurred. This can happen if one object passes its <a href="
 
 <b>CreateInstance</b> creates a COM object. However, the object will have context only if its component is registered with COM+.
 
-When you create an object by using <b>CreateInstance</b>, the new object's context is derived from the current object's <a href="https://msdn.microsoft.com/9395bc9a-dfe5-428a-839f-1c4ad090f636">IObjectContext</a> and the declarative properties of the new object's component. The new object always executes within the same activity as the object that created it. If the current object has a transaction, the transaction attribute of the new object's component determines whether the new object executes within the scope of that transaction.
+When you create an object by using <b>CreateInstance</b>, the new object's context is derived from the current object's <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontext">IObjectContext</a> and the declarative properties of the new object's component. The new object always executes within the same activity as the object that created it. If the current object has a transaction, the transaction attribute of the new object's component determines whether the new object executes within the scope of that transaction.
 
 If the component's transaction attribute setting either requires a transaction or supports transactions, the new object inherits its creator's transaction. If the component's transaction attribute requires a new transaction, COM+ initiates a new transaction for the new object. If the component's transaction attribute does not support transactions, the new object doesn't execute under any transaction.
 
-<b>CreateInstance</b> always returns the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface on the newly instantiated object. You should immediately cast the returned value to the interface through which you want to communicate with the new object. The interface ID you pass in the <i>riid</i> parameter does not need to be the same interface as the one to which you cast the returned value, but it must be an interface that is implemented by the object you are instantiating.
+<b>CreateInstance</b> always returns the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface on the newly instantiated object. You should immediately cast the returned value to the interface through which you want to communicate with the new object. The interface ID you pass in the <i>riid</i> parameter does not need to be the same interface as the one to which you cast the returned value, but it must be an interface that is implemented by the object you are instantiating.
 
 
 
@@ -165,7 +165,7 @@ If the component's transaction attribute setting either requires a transaction o
 
 
 
-<a href="https://msdn.microsoft.com/9395bc9a-dfe5-428a-839f-1c4ad090f636">IObjectContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontext">IObjectContext</a>
  
 
  

@@ -69,7 +69,7 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertConfig2</b> interface inherits from <a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a> and <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>. <b>ICertConfig2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertConfig2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>. <b>ICertConfig2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -84,35 +84,35 @@ The <b>ICertConfig2</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3a35b2a0-f8e4-496d-b76a-a7310842cc4c">GetConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertconfig-getconfig">GetConfig</a>
 </td>
 <td align="left" width="63%">
-Gets the default configuration string (the server name and <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) name) for a Certificate Services server.</p> (Inherited from <a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a><b>ICertConfig2</b><b>CCertConfig</b>)</td>
+Gets the default configuration string (the server name and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) name) for a Certificate Services server.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a><b>ICertConfig2</b><b>CCertConfig</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8e477fa7-d0e7-43f3-98b5-79c924a1a29c">GetField</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertconfig-getfield">GetField</a>
 </td>
 <td align="left" width="63%">
-Gets a specific field from the current record of the configuration database.</p> (Inherited from <a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a><b>ICertConfig2</b><b>CCertConfig</b>)</td>
+Gets a specific field from the current record of the configuration database.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a><b>ICertConfig2</b><b>CCertConfig</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/af81c25e-94e7-4c50-9e90-612c034e24b4">Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertconfig-next">Next</a>
 </td>
 <td align="left" width="63%">
-Points to the next available Certificate Services server configuration in the configuration point.</p> (Inherited from <a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a><b>ICertConfig2</b><b>CCertConfig</b>)</td>
+Points to the next available Certificate Services server configuration in the configuration point.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a><b>ICertConfig2</b><b>CCertConfig</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/62c24bda-463a-4238-be70-14e28bcbfb39">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertconfig-reset">Reset</a>
 </td>
 <td align="left" width="63%">
-Resets the configuration query <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">state</a>.</p> (Inherited from <a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a><b>ICertConfig2</b><b>CCertConfig</b>)</td>
+Resets the configuration query <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">state</a>.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a><b>ICertConfig2</b><b>CCertConfig</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f0fc4218-ca07-4488-bd0c-bfa8bdcd2179">SetSharedFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertconfig2-setsharedfolder">SetSharedFolder</a>
 </td>
 <td align="left" width="63%">
 Specifies a new path for the shared folder directory.</p> (Inherited from <b>ICertConfig2</b><b>CCertConfig</b>)</td>

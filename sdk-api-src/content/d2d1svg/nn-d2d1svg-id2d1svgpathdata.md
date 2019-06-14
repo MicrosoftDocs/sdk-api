@@ -63,7 +63,7 @@ The path data set is factored into two arrays. The segment data array stores all
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1SvgPathData</b> interface inherits from <a href="https://msdn.microsoft.com/7B11D05C-6CD5-4609-B76A-719B92437314">ID2D1SvgAttribute</a>. <b>ID2D1SvgPathData</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1SvgPathData</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgattribute">ID2D1SvgAttribute</a>. <b>ID2D1SvgPathData</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,7 +78,7 @@ The <b>ID2D1SvgPathData</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/BDF23A0F-EC4B-49AE-8822-9326DA2D885D">CreatePathGeometry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgpathdata-createpathgeometry">CreatePathGeometry</a>
 </td>
 <td align="left" width="63%">
 Creates a path geometry object representing the path data.
@@ -87,7 +87,7 @@ Creates a path geometry object representing the path data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D72199E5-11E5-413E-88F0-85EF17585587">GetCommands</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgpathdata-getcommands">GetCommands</a>
 </td>
 <td align="left" width="63%">
 Gets commands from the commands array.
@@ -96,7 +96,7 @@ Gets commands from the commands array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/FF5AC30D-6EEF-4963-BC1C-979F8747DABA">GetCommandsCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgpathdata-getcommandscount">GetCommandsCount</a>
 </td>
 <td align="left" width="63%">
 Gets the size of the commands array.
@@ -105,7 +105,7 @@ Gets the size of the commands array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D935BCEB-D7B8-4245-AD1C-25BAE63F8944">GetSegmentData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgpathdata-getsegmentdata">GetSegmentData</a>
 </td>
 <td align="left" width="63%">
 Gets data from the segment data array.
@@ -114,7 +114,7 @@ Gets data from the segment data array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/93D41E54-8D09-46E9-A83F-87C84F26B9C4">GetSegmentDataCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgpathdata-getsegmentdatacount">GetSegmentDataCount</a>
 </td>
 <td align="left" width="63%">
 Gets the size of the segment data array.
@@ -123,7 +123,7 @@ Gets the size of the segment data array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A1DB006D-9986-482A-A9F0-9D7C22ABC604">RemoveCommandsAtEnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgpathdata-removecommandsatend">RemoveCommandsAtEnd</a>
 </td>
 <td align="left" width="63%">
 Removes commands from the end of the commands array.
@@ -132,7 +132,7 @@ Removes commands from the end of the commands array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/549531A1-099D-477E-8D77-CF90BD75FAB8">RemoveSegmentDataAtEnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgpathdata-removesegmentdataatend">RemoveSegmentDataAtEnd</a>
 </td>
 <td align="left" width="63%">
 Removes data from the end of the segment data array.
@@ -141,7 +141,7 @@ Removes data from the end of the segment data array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B6A6BC06-01C4-47D0-BC3C-7E0CE1A926F4">UpdateCommands</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgpathdata-updatecommands">UpdateCommands</a>
 </td>
 <td align="left" width="63%">
 Updates the commands array. Existing commands not updated by this method are preserved. 
@@ -151,7 +151,7 @@ Updates the commands array. Existing commands not updated by this method are pre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3B87B002-7F1C-4531-B584-C0CFC8E46256">UpdateSegmentData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgpathdata-updatesegmentdata">UpdateSegmentData</a>
 </td>
 <td align="left" width="63%">
 Updates the segment data array. Existing segment data not updated by this method are preserved. 

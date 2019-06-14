@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ActivityLogging</b> property retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms684576(v=VS.85).aspx">FaxActivityLogging</a> configuration object.
+The <b>ActivityLogging</b> property retrieves the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxactivitylogging">FaxActivityLogging</a> configuration object.
 
 This property is read-only.
 
@@ -63,15 +63,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686863(v=VS.85).aspx">FaxLoggingOptions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxloggingoptions">FaxLoggingOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686873(v=VS.85).aspx">IFaxLoggingOptions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxloggingoptions">IFaxLoggingOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693401(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-setting-logging-options">Visual Basic Example</a>
  
 
  

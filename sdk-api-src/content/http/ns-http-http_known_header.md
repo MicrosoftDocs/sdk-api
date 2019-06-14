@@ -74,7 +74,7 @@ Pointer to the text of this HTTP header. Use <b>RawValueLength</b> to determine 
 
 
 In the HTTP Server API, known headers are defined as those that are enumerated in the 
-<a href="https://msdn.microsoft.com/6c4ccaf0-2a9f-43fe-9f35-cda1dd1fbbdc">HTTP_HEADER_ID</a> enumeration type. Be aware that there are different lists of different sizes for request and response headers.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_header_id">HTTP_HEADER_ID</a> enumeration type. Be aware that there are different lists of different sizes for request and response headers.
 
 For more information about the structure and usage of HTTP headers, see the 
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84048">RFC 2616</a>.
@@ -87,19 +87,19 @@ For more information about the structure and usage of HTTP headers, see the
 
 
 
-<a href="https://msdn.microsoft.com/e38f7a05-f966-4853-be3b-5cdbf224719e">HTTP Server API Version 1.0 Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-structures">HTTP Server API Version 1.0 Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c4ccaf0-2a9f-43fe-9f35-cda1dd1fbbdc">HTTP_HEADER_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_header_id">HTTP_HEADER_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/a87b9c9c-cba1-4453-a300-7af35da944c9">HTTP_REQUEST_HEADERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_request_headers">HTTP_REQUEST_HEADERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/e783c27e-d215-4f6d-a080-92d915a7fc33">HTTP_RESPONSE_HEADERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_response_headers">HTTP_RESPONSE_HEADERS</a>
  
 
  

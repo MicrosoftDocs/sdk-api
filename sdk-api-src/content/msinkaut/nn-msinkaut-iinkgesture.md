@@ -58,7 +58,7 @@ Represents the ability to query particular properties of a gesture returned from
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkGesture</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IInkGesture</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkGesture</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkGesture</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -74,7 +74,7 @@ The <b>IInkGesture</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6c047cf7-2162-4146-906b-47c4006daeeb">GetHotPoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkgesture-gethotpoint">GetHotPoint</a>
 </td>
 <td align="left" width="63%">
 Retrieves the hot point of the gesture in ink space coordinates.
@@ -92,7 +92,7 @@ Retrieves the hot point of the gesture in ink space coordinates.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/4a27163b-e55a-4ced-8943-9a8ac161794c">Confidence</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkgesture-get_confidence">Confidence</a>
 
 
 </td>
@@ -108,7 +108,7 @@ Gets the level of confidence (strong, intermediate, or poor) that a recognizer h
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/9ed0fcb7-57f9-43f4-95d9-dd75e9e7bd3f">Id</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkgesture-get_id">Id</a>
 
 
 </td>
@@ -128,7 +128,7 @@ Gets the value of the application gesture.
 
 
 
-Gesture support is built-in by using the Microsoft gesture recognizer. Available gestures are found in the <a href="https://msdn.microsoft.com/b429ec96-691f-4761-92bf-ef500cf0e1be">InkApplicationGesture</a> enumeration type. For more information about gestures, see <a href="https://msdn.microsoft.com/5bc80086-7acf-4f86-a9fb-a663de489f8b">Using Gestures</a> and <a href="https://msdn.microsoft.com/bfa361cd-d122-49cc-b0c9-06befd9d6866">Command Input on the Tablet PC</a>.
+Gesture support is built-in by using the Microsoft gesture recognizer. Available gestures are found in the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">InkApplicationGesture</a> enumeration type. For more information about gestures, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-gestures">Using Gestures</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms702526(v=vs.85)">Command Input on the Tablet PC</a>.
 
 If you define a class that implements this interface, the new class will not interact correctly with the Tablet PC application programming interfaces (APIs).
 
@@ -140,11 +140,11 @@ If you define a class that implements this interface, the new class will not int
 
 
 
-<a href="https://msdn.microsoft.com/b429ec96-691f-4761-92bf-ef500cf0e1be">InkApplicationGesture Enumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">InkApplicationGesture Enumeration</a>
 
 
 
-<a href="https://msdn.microsoft.com/213c8a44-1313-47cf-8703-3e9ed5e36d33">InkSystemGesture Enumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inksystemgesture">InkSystemGesture Enumeration</a>
  
 
  

@@ -105,11 +105,11 @@ The <i>pbCancelled</i> cannot be <b>NULL</b>.
 
 
 
-The application must call this function within the interval specified when calling the <a href="https://msdn.microsoft.com/4ff73c2c-a941-4626-ae40-cafbe6e50644">RegisterApplicationRecoveryCallback</a> function. If the application fails to call this function within the specified interval, WER terminates the application. The recovery process can continue as long as this function is being called.
+The application must call this function within the interval specified when calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerapplicationrecoverycallback">RegisterApplicationRecoveryCallback</a> function. If the application fails to call this function within the specified interval, WER terminates the application. The recovery process can continue as long as this function is being called.
 
 If the user cancels the recovery process, the application should terminate. 
 
-To indicate that the recovery process has been completed, call the <a href="https://msdn.microsoft.com/2c9309c5-c36d-4b68-a642-ed087024dba1">ApplicationRecoveryFinished</a> function.
+To indicate that the recovery process has been completed, call the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-applicationrecoveryfinished">ApplicationRecoveryFinished</a> function.
 
 
 
@@ -119,11 +119,11 @@ To indicate that the recovery process has been completed, call the <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/2c9309c5-c36d-4b68-a642-ed087024dba1">ApplicationRecoveryFinished</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-applicationrecoveryfinished">ApplicationRecoveryFinished</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ff73c2c-a941-4626-ae40-cafbe6e50644">RegisterApplicationRecoveryCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerapplicationrecoverycallback">RegisterApplicationRecoveryCallback</a>
  
 
  

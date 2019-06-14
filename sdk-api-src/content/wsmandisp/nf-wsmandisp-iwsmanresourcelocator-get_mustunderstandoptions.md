@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets or sets the <b>MustUnderstandOptions</b> value for the <a href="https://msdn.microsoft.com/0904b7eb-d4ce-46a7-bf58-452e7c0d41e9">ResourceLocator</a> object. You can provide an <a href="https://msdn.microsoft.com/7b3dcb53-d02c-4ba6-973d-1493ba442387">IWSManResourceLocator</a> object instead of specifying a resource URI in <a href="https://msdn.microsoft.com/3e016080-339f-4bda-bfd2-f912e090981f">IWSManSession</a> object operations such as <a href="https://msdn.microsoft.com/f6393cfb-0787-4d30-8d02-be0996885f22">Get</a>, <a href="https://msdn.microsoft.com/1224dab8-82d1-4416-8c21-e84fdda15deb">Put</a>, or <a href="https://msdn.microsoft.com/b1a4815e-93aa-4a30-a67e-c52fd06c1ee1">Enumerate</a>.
+Gets or sets the <b>MustUnderstandOptions</b> value for the <a href="https://docs.microsoft.com/windows/desktop/WinRM/resourcelocator">ResourceLocator</a> object. You can provide an <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a> object instead of specifying a resource URI in <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a> object operations such as <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-get">Get</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-put">Put</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">Enumerate</a>.
 
 This property is read/write.
 
@@ -64,11 +64,11 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/7b3dcb53-d02c-4ba6-973d-1493ba442387">IWSManResourceLocator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a>
 
 
 
-<a href="https://msdn.microsoft.com/d366696c-9128-4cbd-98d0-6c2d16c75d59">ResourceLocator.MustUnderstandOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinRM/resourcelocator-mustunderstandoptions">ResourceLocator.MustUnderstandOptions</a>
  
 
  

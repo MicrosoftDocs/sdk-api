@@ -61,17 +61,17 @@ Registers the provider.
 
 ### -param ProviderGuid [in]
 
-GUID that uniquely identifies the provider. The <b>providerGuid</b> attribute of the <a href="https://msdn.microsoft.com/10112f43-f483-4ecb-aa7d-60efaad149c6">provider</a> element specifies the GUID.
+GUID that uniquely identifies the provider. The <b>providerGuid</b> attribute of the <a href="https://docs.microsoft.com/previous-versions//aa373164(v=vs.85)">provider</a> element specifies the GUID.
 
 
 ### -param ProviderContext [in, optional]
 
-A <a href="https://msdn.microsoft.com/9bfab8aa-f44b-4515-8a2a-764583080f57">PERF_PROVIDER_CONTEXT</a> structure that contains pointers to the control callback, memory management routines, and context information.  
+A <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_provider_context">PERF_PROVIDER_CONTEXT</a> structure that contains pointers to the control callback, memory management routines, and context information.  
 
 
 ### -param Provider [out]
 
-Handle to the provider. You must call <a href="https://msdn.microsoft.com/4b31f88b-cadc-4bee-bdea-9079cc14c140">PerfStopProvider</a> to release resources associated with the handle.
+Handle to the provider. You must call <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfstopprovider">PerfStopProvider</a> to release resources associated with the handle.
 
 
 ## -returns
@@ -82,7 +82,7 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. 
 
 
 
@@ -91,11 +91,11 @@ If the function fails, the return value is a
 
 
 
-The <a href="https://msdn.microsoft.com/edcf8df3-0f6d-4849-b41d-270509499b8e">CounterInitialize</a> function calls this function; do not call this function directly.
+The <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/counterinitialize">CounterInitialize</a> function calls this function; do not call this function directly.
 
 <b>Windows Vista:  </b>The <b>PerfAutoInitialize</b> function calls this function.
 
-The CTRPP tool includes this function instead of <a href="https://msdn.microsoft.com/b417b19b-adbc-40e3-aca1-c2cd94a79232">PerfStartProvider</a> if you use the <b>-MemoryRoutines</b> argument or <b>-NotificationCallback</b> argument when calling <a href="https://msdn.microsoft.com/3939f6a1-0a94-429d-a71e-b37f045fea13">CTRPP</a>, or if the <b>callback</b> attribute of the <a href="https://msdn.microsoft.com/10112f43-f483-4ecb-aa7d-60efaad149c6">provider</a> element is set to "custom".
+The CTRPP tool includes this function instead of <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfstartprovider">PerfStartProvider</a> if you use the <b>-MemoryRoutines</b> argument or <b>-NotificationCallback</b> argument when calling <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/ctrpp">CTRPP</a>, or if the <b>callback</b> attribute of the <a href="https://docs.microsoft.com/previous-versions//aa373164(v=vs.85)">provider</a> element is set to "custom".
 
 
 
@@ -105,7 +105,7 @@ The CTRPP tool includes this function instead of <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/4b31f88b-cadc-4bee-bdea-9079cc14c140">PerfStopProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfstopprovider">PerfStopProvider</a>
  
 
  

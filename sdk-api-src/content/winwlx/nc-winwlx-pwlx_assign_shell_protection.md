@@ -51,11 +51,11 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The WlxAssignShellProtection function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-Called by <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> to assign protection to the shell program of a newly logged-on user.
+Called by <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> to assign protection to the shell program of a newly logged-on user.
 <div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>The shell process should be created in a suspended state, then the <b>WlxAssignShellProtection</b> function should be called to apply the correct protection to the shell process.
 
 This function has been superseded by the Windows API 
-<a href="https://msdn.microsoft.com/6b3f4dd9-500b-420e-804a-401a9e188be8">CreateProcessAsUser</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a> function.
 
 
 ## -parameters
@@ -65,19 +65,19 @@ This function has been superseded by the Windows API
 
 ### -param hWlx [in]
 
-Specifies the <a href="https://msdn.microsoft.com/031c898b-3b4d-4b29-811a-112da37b5e3d">Winlogon</a> handle passed to GINA in the 
-<a href="https://msdn.microsoft.com/db03f2b3-0719-40be-8a42-04ab7110f711">WlxInitialize</a> call.
+Specifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> handle passed to GINA in the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> call.
 
 
 ### -param hToken [in]
 
-Specifies the handle to a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">primary token</a>.
+Specifies the handle to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">primary token</a>.
 
 
 ### -param hProcess [in]
 
 Specifies the handle to the process to modify. The process must be created in the suspended state, and this should be the handle returned in the 
-<a href="https://msdn.microsoft.com/en-us/library/ms684873(v=VS.85).aspx">PROCESS_INFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_process_information">PROCESS_INFORMATION</a> structure.
 
 
 ### -param hThread [in]
@@ -99,8 +99,8 @@ The <b>WlxAssignShellProtection</b> function returns any errors encountered whil
 
 
 The Windows API 
-<a href="https://msdn.microsoft.com/6b3f4dd9-500b-420e-804a-401a9e188be8">CreateProcessAsUser</a> function supersedes <b>WlxAssignShellProtection</b>. Call <b>CreateProcessAsUser</b> in 
-<a href="https://msdn.microsoft.com/0db6653b-ec6f-4b2b-9371-b73d73be1f7b">WlxActivateUserShell</a> to create the shell process and set its protections in a single call.
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a> function supersedes <b>WlxAssignShellProtection</b>. Call <b>CreateProcessAsUser</b> in 
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxactivateusershell">WlxActivateUserShell</a> to create the shell process and set its protections in a single call.
 
 
 
@@ -110,15 +110,15 @@ The Windows API
 
 
 
-<a href="https://msdn.microsoft.com/6b3f4dd9-500b-420e-804a-401a9e188be8">CreateProcessAsUser</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a>
 
 
 
-<a href="https://msdn.microsoft.com/0db6653b-ec6f-4b2b-9371-b73d73be1f7b">WlxActivateUserShell</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxactivateusershell">WlxActivateUserShell</a>
 
 
 
-<a href="https://msdn.microsoft.com/db03f2b3-0719-40be-8a42-04ab7110f711">WlxInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
  
 
  

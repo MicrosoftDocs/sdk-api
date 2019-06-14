@@ -59,7 +59,7 @@ The <b>HandleLogFull</b> function is called by a managed log client when an atte
 
 ### -param hLog [in]
 
-A handle to the log on which to resolve the log full condition. The handle must have been registered with <a href="https://msdn.microsoft.com/ca7969a1-e391-4e3f-96a8-5fb23c400d7e">RegisterManageableLogClient</a>.
+A handle to the log on which to resolve the log full condition. The handle must have been registered with <a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmtw32/nf-clfsmgmtw32-registermanageablelogclient">RegisterManageableLogClient</a>.
 
 
 ## -returns
@@ -70,7 +70,7 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. Valid values include the following:
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Valid values include the following:
 
 
 
@@ -81,7 +81,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 If containers are created to resolve a log-full condition, they are created using the calling application's security context.
 
-<b>HandleLogFull</b> always results in asynchronous behavior or an error; if it returns false and <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns <b>ERROR_IO_PENDING</b>, the result is asynchronous behavior. If a request is asynchronous, a notification is sent to the client when the handler has either  resolved the log full condition or it fails.
+<b>HandleLogFull</b> always results in asynchronous behavior or an error; if it returns false and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_IO_PENDING</b>, the result is asynchronous behavior. If a request is asynchronous, a notification is sent to the client when the handler has either  resolved the log full condition or it fails.
 
 
 

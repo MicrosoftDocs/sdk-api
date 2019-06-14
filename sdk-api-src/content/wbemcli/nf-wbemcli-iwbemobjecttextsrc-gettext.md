@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>IWbemObjectTextSrc::GetText</b> method creates a textual representation of an 
-<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> object; for example, an XML representation.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> object; for example, an XML representation.
 
 
 ## -parameters
@@ -205,7 +205,7 @@ A <b>VALUE.OBJECTWITHPATH</b> element is generated.
 
 #### ExcludeSystemProperties (VT_BOOL)
 
-If <b>TRUE</b>, system properties, like <a href="https://msdn.microsoft.com/d5f0abc7-32cf-4d85-b5cd-5d60c991bcbc">__NAMESPACE</a>, are absent in the output. The default is <b>FALSE</b>.
+If <b>TRUE</b>, system properties, like <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/--namespace">__NAMESPACE</a>, are absent in the output. The default is <b>FALSE</b>.
 
 
 
@@ -216,7 +216,7 @@ If <b>TRUE</b>, the class origin attribute is set on <b>PROPERTY</b> and <b>METH
 
 ### -param strText
 
-Textual representation of the object. User must free the string using <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> when finished with <i>strText</i>.
+Textual representation of the object. User must free the string using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when finished with <i>strText</i>.
 
 
 ## -returns
@@ -233,7 +233,7 @@ This method returns an <b>HRESULT</b> that indicates the status of the method ca
 
 
 For more information, see 
-<a href="https://msdn.microsoft.com/06d2b532-7ab2-489d-9021-27b5187c8f2b">Representing Objects in XML</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/representing-objects-in-xml">Representing Objects in XML</a>.
 
 
 

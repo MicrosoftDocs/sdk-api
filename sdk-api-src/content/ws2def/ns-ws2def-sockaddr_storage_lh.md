@@ -61,7 +61,7 @@ The SOCKADDR_STORAGE structure is a generic structure that specifies a transport
 
 The address family for the transport address. For more information about supported address
      families, see 
-     <a href="https://msdn.microsoft.com/library/Ff571151(v=VS.85).aspx">WSK Address Families</a>.
+     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt808757(v=vs.85)">WSK Address Families</a>.
 
 
 ### -field __ss_pad1
@@ -98,7 +98,7 @@ A WSK application typically does not directly access any of the members of the S
 
 
 
-<a href="https://msdn.microsoft.com/af5ad9ae-3987-4f16-a8a6-14e3e3d0fa6a">SOCKADDR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
  
 
  

@@ -70,7 +70,7 @@ Handle to the driver identifier of an installed ACM driver. Disabled drivers can
 
 ### -param padd
 
-Pointer to an <a href="https://msdn.microsoft.com/b45b26e2-a9c0-4d01-9989-a071d9c73993">ACMDRIVERDETAILS</a> structure that will receive the driver details. The <b>cbStruct</b> member must be initialized to the size, in bytes, of the structure.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmdriverdetails">ACMDRIVERDETAILS</a> structure that will receive the driver details. The <b>cbStruct</b> member must be initialized to the size, in bytes, of the structure.
 
 
 ### -param fdwDetails
@@ -133,11 +133,11 @@ At least one parameter is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/da207a50-9c67-4cf3-920b-5878637060db">Audio Compression Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f9a4540-86c0-40e6-b4da-24a9d31b56bf">Audio Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
  
 
  

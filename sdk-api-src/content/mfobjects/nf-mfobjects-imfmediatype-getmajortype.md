@@ -61,7 +61,7 @@ Gets the major type of the format.
 
 ### -param pguidMajorType [out]
 
-Receives the major type <b>GUID</b>. The major type describes the broad category of the format, such as audio or video. For a list of possible values, see <a href="https://msdn.microsoft.com/1cca3539-a920-4938-93b9-ae41e1c0a287">Major Media Types</a>.
+Receives the major type <b>GUID</b>. The major type describes the broad category of the format, such as audio or video. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/medfound/media-type-guids">Major Media Types</a>.
           
 
 
@@ -111,7 +111,7 @@ The major type is not set.
 
 
 
-This method is equivalent to getting the <a href="https://msdn.microsoft.com/b88b5fcf-8025-4638-930d-9fc5cf0ec8a3">MF_MT_MAJOR_TYPE</a> attribute from the media type.
+This method is equivalent to getting the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-major-type-attribute">MF_MT_MAJOR_TYPE</a> attribute from the media type.
       
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
@@ -128,7 +128,7 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 
-<a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>
  
 
  

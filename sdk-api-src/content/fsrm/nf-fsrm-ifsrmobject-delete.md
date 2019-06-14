@@ -72,7 +72,7 @@ The method returns the following return values.
 
 
 
-You must call the <a href="https://msdn.microsoft.com/81c9b1db-7756-47b2-98e6-8e819d93cd0f">IFsrmObject::Commit</a> method to complete the delete operation.
+You must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmobject-commit">IFsrmObject::Commit</a> method to complete the delete operation.
 
 
 
@@ -82,7 +82,7 @@ You must call the <a href="https://msdn.microsoft.com/81c9b1db-7756-47b2-98e6-8e
 
 
 
-<a href="https://msdn.microsoft.com/bb08ea40-6f0e-4ad5-ad57-78f17bbbd4b7">IFsrmObject</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmobject">IFsrmObject</a>
  
 
  

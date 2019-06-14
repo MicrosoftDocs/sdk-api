@@ -55,7 +55,7 @@ Provides functionality required for all Windows Runtime classes.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInspectable</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IInspectable</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInspectable</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInspectable</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IInspectable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/560094E6-3ED2-4BF3-85C7-07736ECBACC8">GetIids</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nf-inspectable-iinspectable-getiids">GetIids</a>
 </td>
 <td align="left" width="63%">
 Gets the interfaces that are implemented by the current Windows Runtime class.
@@ -79,7 +79,7 @@ Gets the interfaces that are implemented by the current Windows Runtime class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E0A0B56D-E676-46FD-873D-11309102DFFD">GetRuntimeClassName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nf-inspectable-iinspectable-getruntimeclassname">GetRuntimeClassName</a>
 </td>
 <td align="left" width="63%">
 Gets the fully qualified name of the current Windows Runtime object.
@@ -88,7 +88,7 @@ Gets the fully qualified name of the current Windows Runtime object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E7E8AFD1-A8B7-4023-9F8B-573E0D2622F6">GetTrustLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nf-inspectable-iinspectable-gettrustlevel">GetTrustLevel</a>
 </td>
 <td align="left" width="63%">
 Gets the trust level of the current Windows Runtime object.
@@ -114,11 +114,11 @@ Gets the trust level of the current Windows Runtime object.
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/75E30E4B-EE5F-41C4-AC22-91D542E920EB">TrustLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/ne-inspectable-trustlevel">TrustLevel</a>
  
 
  

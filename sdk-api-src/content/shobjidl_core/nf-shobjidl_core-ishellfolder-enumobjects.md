@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Enables a client to determine the contents of a folder by creating an item identifier enumeration object and returning its <a href="https://msdn.microsoft.com/b6f139d3-c54c-4350-9d8b-cd534909a488">IEnumIDList</a> interface. The methods supported by that interface can then be used to enumerate the folder's contents.
+Enables a client to determine the contents of a folder by creating an item identifier enumeration object and returning its <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumidlist">IEnumIDList</a> interface. The methods supported by that interface can then be used to enumerate the folder's contents.
 
 
 ## -parameters
@@ -67,16 +67,16 @@ If user input is required to perform the enumeration, this window handle should 
 
 ### -param grfFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/a46845bf-ade6-4366-8a73-6dc960fd7722">SHCONTF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_shcontf">SHCONTF</a></b>
 
-Flags indicating which items to include in the enumeration. For a list of possible values, see the <a href="https://msdn.microsoft.com/a46845bf-ade6-4366-8a73-6dc960fd7722">SHCONTF</a> enumerated type.
+Flags indicating which items to include in the enumeration. For a list of possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_shcontf">SHCONTF</a> enumerated type.
 
 
 ### -param ppenumIDList [out]
 
-Type: <b><a href="https://msdn.microsoft.com/b6f139d3-c54c-4350-9d8b-cd534909a488">IEnumIDList</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumidlist">IEnumIDList</a>**</b>
 
-The address that receives a pointer to the <a href="https://msdn.microsoft.com/b6f139d3-c54c-4350-9d8b-cd534909a488">IEnumIDList</a> interface of the enumeration object created by this method. If an error occurs or no suitable subobjects are found, <i>ppenumIDList</i> is set to <b>NULL</b>.
+The address that receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumidlist">IEnumIDList</a> interface of the enumeration object created by this method. If an error occurs or no suitable subobjects are found, <i>ppenumIDList</i> is set to <b>NULL</b>.
 
 
 ## -returns
@@ -94,7 +94,7 @@ Returns <code>S_OK</code> if successful, or an error value otherwise. Some imple
 
 
 
-If the method returns S_OK, then <i>ppenumIDList</i> receives a pointer to an enumerator. In this case, the calling application must free the returned <a href="https://msdn.microsoft.com/b6f139d3-c54c-4350-9d8b-cd534909a488">IEnumIDList</a> object by calling its <b>Release</b> method.
+If the method returns S_OK, then <i>ppenumIDList</i> receives a pointer to an enumerator. In this case, the calling application must free the returned <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumidlist">IEnumIDList</a> object by calling its <b>Release</b> method.
 
 If the method returns S_FALSE, then the folder contains no suitable subobjects and the pointer specified in <i>ppenumIDList</i> is set to <b>NULL</b>.
 
@@ -110,15 +110,15 @@ If the folder contains no suitable subobjects, then the <b>IShellFolder::EnumObj
 
 
 
-<a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b008034-3576-429e-b67c-e2222592ca46">IShellFolder2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2">IShellFolder2</a>
 
 
 
-<a href="https://msdn.microsoft.com/121cbd41-d512-4f33-b89c-d0dd9933df87">SHGetDesktopFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetdesktopfolder">SHGetDesktopFolder</a>
  
 
  

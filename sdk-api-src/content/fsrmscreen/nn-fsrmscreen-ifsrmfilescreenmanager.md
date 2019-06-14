@@ -52,15 +52,15 @@ ms.custom: 19H1
 Used to manage file screen objects.
 
 To get this interface, call the 
-    <a href="https://msdn.microsoft.com/en-us/library/ms680701(v=VS.85).aspx">CoCreateInstanceEx</a> function. Use 
+    <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmFileScreenManager</b> as the class identifier and 
     <code>__uuidof(IFsrmFileScreenManager)</code> as the interface identifier. 
-    For an example, see <a href="https://msdn.microsoft.com/1b5227e7-4272-4e23-ba55-d6161e2987bc">Defining a File Screen</a>.
+    For an example, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/defining-a-file-screen">Defining a File Screen</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmFileScreenManager</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFsrmFileScreenManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmFileScreenManager</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsrmFileScreenManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -76,7 +76,7 @@ The <b>IFsrmFileScreenManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5e35c647-2b5a-486b-b8c5-0bc25bd313ad">CreateFileScreen</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenmanager-createfilescreen">CreateFileScreen</a>
 </td>
 <td align="left" width="63%">
 Creates a file screen object.
@@ -85,7 +85,7 @@ Creates a file screen object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4adce5d6-8be6-477b-8dab-d437163b4449">CreateFileScreenCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenmanager-createfilescreencollection">CreateFileScreenCollection</a>
 </td>
 <td align="left" width="63%">
 Creates an empty collection to which you can add file screens.
@@ -94,7 +94,7 @@ Creates an empty collection to which you can add file screens.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b2a15f69-49fb-46fd-9219-aa970c9eb042">CreateFileScreenException</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenmanager-createfilescreenexception">CreateFileScreenException</a>
 </td>
 <td align="left" width="63%">
 Creates a file screen exception object.
@@ -103,7 +103,7 @@ Creates a file screen exception object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c30377c8-d3a3-40fe-a42c-9b36d2a0b35e">EnumFileScreenExceptions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenmanager-enumfilescreenexceptions">EnumFileScreenExceptions</a>
 </td>
 <td align="left" width="63%">
 Enumerates the file screen exceptions for the specified directory and its subdirectories.
@@ -112,7 +112,7 @@ Enumerates the file screen exceptions for the specified directory and its subdir
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5826d5c3-885a-4001-aa89-0bc1c03b9338">EnumFileScreens</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenmanager-enumfilescreens">EnumFileScreens</a>
 </td>
 <td align="left" width="63%">
 Enumerates the file screens for the specified directory and its subdirectories.
@@ -121,7 +121,7 @@ Enumerates the file screens for the specified directory and its subdirectories.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9af0d9a7-80a2-4cc8-a703-c1af8ac5b7c9">GetFileScreen</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenmanager-getfilescreen">GetFileScreen</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified file screen.
@@ -130,7 +130,7 @@ Retrieves the specified file screen.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/634c54b0-2766-4248-8a27-506eaa3d6a68">GetFileScreenException</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenmanager-getfilescreenexception">GetFileScreenException</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified file screen exception.
@@ -148,7 +148,7 @@ Retrieves the specified file screen exception.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/93d7cc4d-3367-4fe2-8e4c-c12be6867d69">ActionVariableDescriptions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenmanager-get_actionvariabledescriptions">ActionVariableDescriptions</a>
 
 
 </td>
@@ -158,14 +158,14 @@ Read-only
 </td>
 <td align="left" width="63%">
 Retrieves the descriptions for the macros contained in the 
-     <a href="https://msdn.microsoft.com/70bb9e51-cd32-45cd-94b4-7018397e8f77">ActionVariables</a> property.
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenmanager-get_actionvariables">ActionVariables</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/70bb9e51-cd32-45cd-94b4-7018397e8f77">ActionVariables</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenmanager-get_actionvariables">ActionVariables</a>
 
 
 </td>
@@ -211,11 +211,11 @@ To create this object from a script, use the "Fsrm.FsrmFileScreenManager" progra
 
 
 
-<a href="https://msdn.microsoft.com/bbd888d9-1005-4173-8e82-ced13e68c09e">FSRM Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/82ff65fa-2e82-4f07-bdd4-e3b01d184c16">FsrmFileScreenManager</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmfilescreenmanager">FsrmFileScreenManager</a>
  
 
  

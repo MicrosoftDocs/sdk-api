@@ -61,14 +61,14 @@ The <b>IKEEXT_INTEGRITY_ALGORITHM0</b> structure stores the IKE/AuthIP hash algo
 
 The type of hash algorithm.
 
-See <a href="https://msdn.microsoft.com/f4a5b6b9-5cf1-48a4-811c-9150550688d8">IKEEXT_INTEGRITY_TYPE</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_integrity_type_">IKEEXT_INTEGRITY_TYPE</a> for more information.
 
 
 ## -remarks
 
 
 
-<b>IKEEXT_INTEGRITY_ALGORITHM0</b> is a specific implementation of IKEEXT_INTEGRITY_ALGORITHM. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>IKEEXT_INTEGRITY_ALGORITHM0</b> is a specific implementation of IKEEXT_INTEGRITY_ALGORITHM. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -78,11 +78,11 @@ See <a href="https://msdn.microsoft.com/f4a5b6b9-5cf1-48a4-811c-9150550688d8">IK
 
 
 
-<a href="https://msdn.microsoft.com/f4a5b6b9-5cf1-48a4-811c-9150550688d8">IKEEXT_INTEGRITY_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_integrity_type_">IKEEXT_INTEGRITY_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

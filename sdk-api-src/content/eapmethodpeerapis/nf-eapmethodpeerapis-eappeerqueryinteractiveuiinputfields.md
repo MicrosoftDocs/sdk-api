@@ -64,7 +64,7 @@ The version number of the API. Must be set to zero.
 
 ### -param dwFlags [in]
 
-A combination of <a href="https://msdn.microsoft.com/b6305349-3418-475e-8a37-2c06b399556e">EAP flags</a> that describe the  EAP authentication session behavior.
+A combination of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-method-flags">EAP flags</a> that describe the  EAP authentication session behavior.
 
 
 ### -param dwSizeofUIContextData [in]
@@ -79,12 +79,12 @@ A pointer to a BLOB that contains UI context data, represented as inner pointers
 
 ### -param pEapInteractiveUIData [out]
 
-Pointer that receives an <a href="https://msdn.microsoft.com/68141611-4a1c-409e-8ed2-3d21a76640c3">EAP_INTERACTIVE_UI_DATA</a> structure that  contains configuration information for interactive UI components raised on an EAP supplicant.
+Pointer that receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_interactive_ui_data">EAP_INTERACTIVE_UI_DATA</a> structure that  contains configuration information for interactive UI components raised on an EAP supplicant.
 
 
 ### -param ppEapError [out]
 
- A pointer to the address of an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to the error data to <a href="https://msdn.microsoft.com/85b4197c-5caf-4e2b-94fd-e651712dd39d">EapPeerFreeErrorMemory</a>.
+ A pointer to the address of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to the error data to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
 
 
 ### -param ppvReserved [in, out]
@@ -97,9 +97,9 @@ Reserved for future usage. Must be set to <b>NULL</b>
 
 
 
-<a href="https://msdn.microsoft.com/126ef6cc-aa65-4770-b81a-82d25213618c">EapPeerQueryInteractiveUIInputFields</a> can be employed to support Single-Sign-On (SSO). The <b>EAP_FLAG_PRE_LOGON</b> flag in <a href="https://msdn.microsoft.com/770a548c-c227-4708-bc40-08bf2681c90f">EapPeerBeginSession</a> indicates to EAPHost that SSO should be provided. If the <b>EapPeerResponseInvokeUI</b> action code is received after calling <b>EapPeerBeginSession</b>, EAPHost then calls <b>EapPeerQueryInteractiveUIInputFields</b>, and later calls <a href="https://msdn.microsoft.com/bfb8906e-7adb-4c69-bd13-7c5239d392af">EapPeerQueryUIBlobFromInteractiveUIInputFields</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/understanding-sso-and-plap">EapPeerQueryInteractiveUIInputFields</a> can be employed to support Single-Sign-On (SSO). The <b>EAP_FLAG_PRE_LOGON</b> flag in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerbeginsession">EapPeerBeginSession</a> indicates to EAPHost that SSO should be provided. If the <b>EapPeerResponseInvokeUI</b> action code is received after calling <b>EapPeerBeginSession</b>, EAPHost then calls <b>EapPeerQueryInteractiveUIInputFields</b>, and later calls <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerqueryuiblobfrominteractiveuiinputfields">EapPeerQueryUIBlobFromInteractiveUIInputFields</a>.
 
-The supplicant should call  always call the <b>EapPeerQueryInteractiveUIInputFields</b> function first after receiving the <b>EapPeerResponseInvokeUI</b> action code from EAPHost. If the <b>EapPeerResponseInvokeUI</b> action code  isn't returned, or if   <a href="https://msdn.microsoft.com/081b7a72-abe3-4cbb-9b6c-07bb6717fbfe">EAP_E_EAPHOST_METHOD_OPERATION_NOT_SUPPORTED</a> is returned, the supplicant should resort to the traditional model of invoking method interactive UI by calling <a href="https://msdn.microsoft.com/16301c49-4415-4ebe-abdd-a03183db5f20">EapPeerInvokeInteractiveUI</a>. If there is an error, <b>EapPeerQueryInteractiveUIInputFields</b> will return a return code other than <b>NULL</b>.
+The supplicant should call  always call the <b>EapPeerQueryInteractiveUIInputFields</b> function first after receiving the <b>EapPeerResponseInvokeUI</b> action code from EAPHost. If the <b>EapPeerResponseInvokeUI</b> action code  isn't returned, or if   <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-related-error-and-information-constants">EAP_E_EAPHOST_METHOD_OPERATION_NOT_SUPPORTED</a> is returned, the supplicant should resort to the traditional model of invoking method interactive UI by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerinvokeinteractiveui">EapPeerInvokeInteractiveUI</a>. If there is an error, <b>EapPeerQueryInteractiveUIInputFields</b> will return a return code other than <b>NULL</b>.
 
 
 
@@ -109,11 +109,11 @@ The supplicant should call  always call the <b>EapPeerQueryInteractiveUIInputFie
 
 
 
-<a href="https://msdn.microsoft.com/e8a2e934-1ded-4159-8cd8-7aeb75ce743a">EAP_CONFIG_INPUT_FIELD_ARRAY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_config_input_field_array">EAP_CONFIG_INPUT_FIELD_ARRAY</a>
 
 
 
-<a href="https://msdn.microsoft.com/126ef6cc-aa65-4770-b81a-82d25213618c">SSO and PLAP</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/understanding-sso-and-plap">SSO and PLAP</a>
  
 
  

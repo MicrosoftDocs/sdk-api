@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DrvDeleteDeviceBitmap</b> function deletes a device bitmap created by <a href="https://msdn.microsoft.com/1f5f49ef-bf08-4311-9a1b-fdc37e6c2063">DrvCreateDeviceBitmap</a>.
+The <b>DrvDeleteDeviceBitmap</b> function deletes a device bitmap created by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvcreatedevicebitmap">DrvCreateDeviceBitmap</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>DrvDeleteDeviceBitmap</b> function deletes a device bitmap created by <a 
 
 ### -param dhsurf
 
-Handle to the bitmap to be deleted. This handle identifies the bitmap created by <a href="https://msdn.microsoft.com/1f5f49ef-bf08-4311-9a1b-fdc37e6c2063">DrvCreateDeviceBitmap</a>.
+Handle to the bitmap to be deleted. This handle identifies the bitmap created by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvcreatedevicebitmap">DrvCreateDeviceBitmap</a>.
 
 
 ## -returns
@@ -75,7 +75,7 @@ None
 
 
 
-A driver must implement <b>DrvDeleteDeviceBitmap</b> if it supplies <a href="https://msdn.microsoft.com/1f5f49ef-bf08-4311-9a1b-fdc37e6c2063">DrvCreateDeviceBitmap</a>.
+A driver must implement <b>DrvDeleteDeviceBitmap</b> if it supplies <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvcreatedevicebitmap">DrvCreateDeviceBitmap</a>.
 
 The driver should free any resources associated with the device bitmap.
 
@@ -87,7 +87,7 @@ The driver should free any resources associated with the device bitmap.
 
 
 
-<a href="https://msdn.microsoft.com/1f5f49ef-bf08-4311-9a1b-fdc37e6c2063">DrvCreateDeviceBitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvcreatedevicebitmap">DrvCreateDeviceBitmap</a>
  
 
  

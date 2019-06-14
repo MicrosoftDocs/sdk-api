@@ -61,7 +61,7 @@ Reads the information in the specified binary trace log file.
 ### -param hLog [in]
 
 Handle to the log file. The 
-<a href="https://msdn.microsoft.com/a8457959-af3a-497f-91ca-0876cbb552cc">PdhOpenLog</a>  or <a href="https://msdn.microsoft.com/eaed9b28-eb09-4123-9317-5d3d50e2d77a">PdhBindInputDataSource</a> function returns this handle.
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenloga">PdhOpenLog</a>  or <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhbindinputdatasourcea">PdhBindInputDataSource</a> function returns this handle.
 
 
 ### -param ftRecord [in]
@@ -72,7 +72,7 @@ Time stamp of the record to be read. If the time stamp does not match a record i
 ### -param pRawLogRecord [out]
 
 Caller-allocated buffer that receives a 
-<a href="https://msdn.microsoft.com/ae96515f-ea3f-4578-a249-fb8f41cdfa69">PDH_RAW_LOG_RECORD</a> structure; the structure contains the log file record information. Set to <b>NULL</b> if <i>pdwBufferLength</i> is zero.
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_raw_log_record">PDH_RAW_LOG_RECORD</a> structure; the structure contains the log file record information. Set to <b>NULL</b> if <i>pdwBufferLength</i> is zero.
 
 
 ### -param pdwBufferLength [in]
@@ -88,8 +88,8 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> or a 
-<a href="https://msdn.microsoft.com/ea67d798-81db-44ad-b0fb-24e0c3be7388">PDH error code</a>. The following are possible values.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
 
 <table>
 <tr>
@@ -149,15 +149,15 @@ You should call this function twice, the first time to get the required buffer s
 
 
 
-<a href="https://msdn.microsoft.com/ae96515f-ea3f-4578-a249-fb8f41cdfa69">PDH_RAW_LOG_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_raw_log_record">PDH_RAW_LOG_RECORD</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d83325b-8deb-4731-9df4-6201da292cdc">PdhCollectQueryData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhcollectquerydata">PdhCollectQueryData</a>
 
 
 
-<a href="https://msdn.microsoft.com/13027af4-2e76-4c2f-88e8-a2554a16fae3">PdhFormatFromRawValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhformatfromrawvalue">PdhFormatFromRawValue</a>
  
 
  

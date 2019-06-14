@@ -116,11 +116,11 @@ If the method succeeds, the return value is S_OK. Otherwise, the method returns 
 
 
 
-<a href="https://msdn.microsoft.com/fad61b7f-b9da-4a1b-bb5e-ad20bc87fb5c">IUPnPAddressFamilyControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpaddressfamilycontrol">IUPnPAddressFamilyControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/2b3e5dae-68c0-431b-bef0-fa2bb5f53bdc">SetAddressFamily</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpaddressfamilycontrol-setaddressfamily">SetAddressFamily</a>
  
 
  

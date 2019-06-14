@@ -54,7 +54,7 @@ Exposes methods that allow an application to add controls to a common file dialo
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileDialogCustomize</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IFileDialogCustomize</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileDialogCustomize</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFileDialogCustomize</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IFileDialogCustomize</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/273ec875-43c1-454f-a4fc-01a513554e68">AddCheckButton</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-addcheckbutton">AddCheckButton</a>
 </td>
 <td align="left" width="63%">
 Adds a check button (check box) to the dialog.
@@ -78,7 +78,7 @@ Adds a check button (check box) to the dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fdb7d682-5182-4bc0-b256-5073bd55c96d">AddComboBox</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-addcombobox">AddComboBox</a>
 </td>
 <td align="left" width="63%">
 Adds a combo box to the dialog.
@@ -87,7 +87,7 @@ Adds a combo box to the dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/56d7d0df-0c3e-4bc3-b91e-3b191f5dad76">AddControlItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-addcontrolitem">AddControlItem</a>
 </td>
 <td align="left" width="63%">
 Adds an item to a container control in the dialog.
@@ -96,7 +96,7 @@ Adds an item to a container control in the dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7648eb7a-d7c4-4d4f-a347-52eb81135270">AddEditBox</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-addeditbox">AddEditBox</a>
 </td>
 <td align="left" width="63%">
 Adds an edit box control to the dialog.
@@ -105,7 +105,7 @@ Adds an edit box control to the dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e5e29554-e095-4164-bf67-64f9d6a3e502">AddMenu</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-addmenu">AddMenu</a>
 </td>
 <td align="left" width="63%">
 Adds a menu to the dialog.
@@ -114,7 +114,7 @@ Adds a menu to the dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cd0e4a8f-59c7-4056-8521-abb4c8c08a40">AddPushButton</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-addpushbutton">AddPushButton</a>
 </td>
 <td align="left" width="63%">
 Adds a button to the dialog.
@@ -123,7 +123,7 @@ Adds a button to the dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9f60b69d-4625-48b7-b265-ab2e9d842fc2">AddRadioButtonList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-addradiobuttonlist">AddRadioButtonList</a>
 </td>
 <td align="left" width="63%">
 Adds an option button (also known as radio button) group to the dialog.
@@ -132,7 +132,7 @@ Adds an option button (also known as radio button) group to the dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e2d0f1c7-9296-4651-8910-89dcfe5a6a68">AddSeparator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-addseparator">AddSeparator</a>
 </td>
 <td align="left" width="63%">
 Adds a separator to the dialog, allowing a visual separation of controls.
@@ -141,7 +141,7 @@ Adds a separator to the dialog, allowing a visual separation of controls.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/efea2fdb-4006-4567-b53c-faa891d18c7e">AddText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-addtext">AddText</a>
 </td>
 <td align="left" width="63%">
 Adds text content to the dialog.
@@ -150,7 +150,7 @@ Adds text content to the dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b4626030-0fc7-4329-b897-01f4ce8728a0">EnableOpenDropDown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-enableopendropdown">EnableOpenDropDown</a>
 </td>
 <td align="left" width="63%">
 Enables a drop-down list on the <b>Open</b> or <b>Save</b> button in the dialog.
@@ -159,7 +159,7 @@ Enables a drop-down list on the <b>Open</b> or <b>Save</b> button in the dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/84aef9e1-2b70-4e8b-b261-cc49f8e65ead">EndVisualGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-endvisualgroup">EndVisualGroup</a>
 </td>
 <td align="left" width="63%">
 Stops the addition of elements to a visual group in the dialog.
@@ -168,7 +168,7 @@ Stops the addition of elements to a visual group in the dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c16643e5-a711-455a-8967-2c810e28ea60">GetCheckButtonState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-getcheckbuttonstate">GetCheckButtonState</a>
 </td>
 <td align="left" width="63%">
 Gets the current state of a check button (check box) in the dialog.
@@ -177,7 +177,7 @@ Gets the current state of a check button (check box) in the dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/62fc28c4-3e6d-4141-b5c7-e7659a1a15c2">GetControlItemState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-getcontrolitemstate">GetControlItemState</a>
 </td>
 <td align="left" width="63%">
 Gets the current state of an item in a container control found in the dialog.
@@ -186,7 +186,7 @@ Gets the current state of an item in a container control found in the dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2a167050-2778-4cc2-9b05-ec81f679c6c0">GetControlState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-getcontrolstate">GetControlState</a>
 </td>
 <td align="left" width="63%">
 Gets the current visibility and enabled states of a given control.
@@ -195,7 +195,7 @@ Gets the current visibility and enabled states of a given control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7c3db511-d357-48b4-9ac3-07f6b3d23a5f">GetEditBoxText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-geteditboxtext">GetEditBoxText</a>
 </td>
 <td align="left" width="63%">
 Gets the current text in an edit box control.
@@ -204,7 +204,7 @@ Gets the current text in an edit box control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1dd33779-071f-484e-9d89-1cc64ea03293">GetSelectedControlItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-getselectedcontrolitem">GetSelectedControlItem</a>
 </td>
 <td align="left" width="63%">
 Gets a particular item from specified container controls in the dialog.
@@ -213,7 +213,7 @@ Gets a particular item from specified container controls in the dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7e7b1573-cbd7-49eb-a26d-e2aba0bb4495">MakeProminent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-makeprominent">MakeProminent</a>
 </td>
 <td align="left" width="63%">
 Places a control in the dialog so that it stands out compared to other added controls.
@@ -222,7 +222,7 @@ Places a control in the dialog so that it stands out compared to other added con
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2b706b8a-9c67-4f76-8ebe-af412fcd14cd">RemoveAllControlItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-removeallcontrolitems">RemoveAllControlItems</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -231,7 +231,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/190aaeba-817d-421c-a356-157f3ae7d2e1">RemoveControlItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-removecontrolitem">RemoveControlItem</a>
 </td>
 <td align="left" width="63%">
 Removes an item from a container control in the dialog.
@@ -240,7 +240,7 @@ Removes an item from a container control in the dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b028a811-e559-4152-9081-abaec0cab347">SetCheckButtonState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-setcheckbuttonstate">SetCheckButtonState</a>
 </td>
 <td align="left" width="63%">
 Sets the state of a check button (check box) in the dialog.
@@ -249,7 +249,7 @@ Sets the state of a check button (check box) in the dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2570b717-b886-4139-837b-5d71ec16c21e">SetControlItemState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-setcontrolitemstate">SetControlItemState</a>
 </td>
 <td align="left" width="63%">
 Sets the current state of an item in a container control found in the dialog.
@@ -258,7 +258,7 @@ Sets the current state of an item in a container control found in the dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d89f67ee-ff56-4810-9627-e8f35e653ff4">SetControlItemText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-setcontrolitemtext">SetControlItemText</a>
 </td>
 <td align="left" width="63%">
 Sets the text of a control item. For example, the text that accompanies a radio button or an item in a menu.
@@ -267,7 +267,7 @@ Sets the text of a control item. For example, the text that accompanies a radio 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/369038ad-999b-425c-bd47-b6a06e5f6939">SetControlLabel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-setcontrollabel">SetControlLabel</a>
 </td>
 <td align="left" width="63%">
 Sets the text associated with a control, such as button text or an edit box label.
@@ -276,7 +276,7 @@ Sets the text associated with a control, such as button text or an edit box labe
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/53b9a65d-2219-45d0-9367-b9ea3e87cd70">SetControlState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-setcontrolstate">SetControlState</a>
 </td>
 <td align="left" width="63%">
 Sets the current visibility and enabled states of a given control.
@@ -285,7 +285,7 @@ Sets the current visibility and enabled states of a given control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e235e82e-65db-4919-bf71-c454673d07fb">SetEditBoxText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-seteditboxtext">SetEditBoxText</a>
 </td>
 <td align="left" width="63%">
 Sets the text in an edit box control found in the dialog.
@@ -294,7 +294,7 @@ Sets the text in an edit box control found in the dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ff0287db-fdd8-415c-9c78-607ec79b5e2d">SetSelectedControlItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-setselectedcontrolitem">SetSelectedControlItem</a>
 </td>
 <td align="left" width="63%">
 Sets the selected state of a particular item in an option button group or a combo box found in the dialog.
@@ -303,7 +303,7 @@ Sets the selected state of a particular item in an option button group or a comb
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2626c820-3731-474d-9ddb-d2a8966c3d35">StartVisualGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-startvisualgroup">StartVisualGroup</a>
 </td>
 <td align="left" width="63%">
 Declares a visual group in the dialog. Subsequent calls to any "add" method add those elements to this group.
@@ -319,7 +319,7 @@ Declares a visual group in the dialog. Subsequent calls to any "add" method add 
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 
-<a href="https://msdn.microsoft.com/745ee176-53bc-4388-beaa-a0856a438ee6">IFileDialogControlEvents</a> is implemented on the file dialog object.
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-ifiledialogcontrolevents">IFileDialogControlEvents</a> is implemented on the file dialog object.
 
 Controls are added to the dialog before the dialog is shown. Their layout is implied by the order in which they are added. Once the dialog is shown, controls cannot be added or removed, but the existing controls can be hidden or disabled at any time. Their labels can also be changed at any time.
 

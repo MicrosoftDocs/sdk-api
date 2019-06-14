@@ -59,7 +59,7 @@ A geometry-shader interface manages an executable program (a geometry shader) th
 
 The geometry-shader interface has no methods; use HLSL to implement your shader functionality. All shaders are implemented from a common set of features referred to as the common-shader core..
 
-To create a geometry shader interface, call either <a href="https://msdn.microsoft.com/fb9357d7-ac63-4515-9118-24a2d775e697">ID3D11Device::CreateGeometryShader</a> or <a href="https://msdn.microsoft.com/69499121-6f35-4cf1-b115-9ffdce26e4b0">ID3D11Device::CreateGeometryShaderWithStreamOutput</a>. Before using a geometry shader you must bind it to the device by calling <a href="https://msdn.microsoft.com/6c42d028-b832-470c-ab15-1cf46a3f8414">ID3D11DeviceContext::GSSetShader</a>.
+To create a geometry shader interface, call either <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-creategeometryshader">ID3D11Device::CreateGeometryShader</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-creategeometryshaderwithstreamoutput">ID3D11Device::CreateGeometryShaderWithStreamOutput</a>. Before using a geometry shader you must bind it to the device by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-gssetshader">ID3D11DeviceContext::GSSetShader</a>.
 
 This interface is defined in D3D11.h.
 
@@ -71,11 +71,11 @@ This interface is defined in D3D11.h.
 
 
 
-<a href="https://msdn.microsoft.com/bed17239-0358-4768-8655-9a1d92f25a2e">ID3D11DeviceChild</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>
 
 
 
-<a href="https://msdn.microsoft.com/1791d2c9-3791-47fe-b887-a8117ecc798b">Shader Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-shader-interfaces">Shader Interfaces</a>
  
 
  

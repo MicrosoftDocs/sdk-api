@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the dispenser manager's <a href="https://msdn.microsoft.com/a0465d78-f8b7-4934-9dc6-c8f0ead04bf1">IDispenserManager</a> interface.
+Retrieves the dispenser manager's <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a> interface.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Retrieves the dispenser manager's <a href="https://msdn.microsoft.com/a0465d78-f
 
 ### -param Arg1 [out]
 
-A pointer to the location that receives the <a href="https://msdn.microsoft.com/a0465d78-f8b7-4934-9dc6-c8f0ead04bf1">IDispenserManager</a> interface pointer.
+A pointer to the location that receives the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a> interface pointer.
 
 
 ## -returns
@@ -76,7 +76,7 @@ If the method succeeds, the return value is S_OK. Otherwise, it is E_FAIL.
 
 
 
-<a href="https://msdn.microsoft.com/a0465d78-f8b7-4934-9dc6-c8f0ead04bf1">IDispenserManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a>
  
 
  

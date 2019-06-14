@@ -67,7 +67,7 @@ TBD
 
 Type: <b>VARIANT*</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> of type VT_VARIANT | VT_BYREF. Set the value of <i>pvarloc</i> to an absolute <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">PIDL</a> (PIDLIST_ABSOLUTE) that specifies the window to register.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> of type VT_VARIANT | VT_BYREF. Set the value of <i>pvarloc</i> to an absolute <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">PIDL</a> (PIDLIST_ABSOLUTE) that specifies the window to register.
 
 
 ### -param pvarlocRoot [in]
@@ -81,7 +81,7 @@ Must be <b>NULL</b> or of type VT_EMPTY.
 
 Type: <b>int</b>
 
-A member of <a href="https://msdn.microsoft.com/79d4fcf3-5256-4e21-ab9a-94605e1d742f">ShellWindowTypeConstants</a> that specifies the type of window.
+A member of <a href="https://docs.microsoft.com/windows/desktop/api/exdisp/ne-exdisp-shellwindowtypeconstants">ShellWindowTypeConstants</a> that specifies the type of window.
 
 
 ### -param plCookie [out]
@@ -108,7 +108,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 In the context of the Shell windows collection, a <i>cookie</i> is a token that uniquely identifies a registered Shell window.
 
-Use this method to register a window that is pending open; if the window is already open, use <a href="https://msdn.microsoft.com/4545cc34-2209-41a5-ab65-283f2985cce0">IShellWindows::Register</a> instead. Use <a href="https://msdn.microsoft.com/66ca2569-b763-445b-b5b5-98ef32c64578">IShellWindows::Revoke</a> to un-register a window.
+Use this method to register a window that is pending open; if the window is already open, use <a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-register">IShellWindows::Register</a> instead. Use <a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-revoke">IShellWindows::Revoke</a> to un-register a window.
 
 
 
@@ -118,15 +118,15 @@ Use this method to register a window that is pending open; if the window is alre
 
 
 
-<a href="https://msdn.microsoft.com/e609c8b6-2b2e-4188-894c-5c85960206ea">IShellWindows</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nn-exdisp-ishellwindows">IShellWindows</a>
 
 
 
-<a href="https://msdn.microsoft.com/4545cc34-2209-41a5-ab65-283f2985cce0">IShellWindows::Register</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-register">IShellWindows::Register</a>
 
 
 
-<a href="https://msdn.microsoft.com/66ca2569-b763-445b-b5b5-98ef32c64578">IShellWindows::Revoke</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-revoke">IShellWindows::Revoke</a>
  
 
  

@@ -61,14 +61,14 @@ Frees a string handle in the calling application.
 
 Type: <b>DWORD</b>
 
-The application instance identifier obtained by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/ms648757(v=VS.85).aspx">DdeInitialize</a> function. 
+The application instance identifier obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a> function. 
 
 
 ### -param hsz [in]
 
 Type: <b>HSZ</b>
 
-A handle to the string handle to be freed. This handle must have been created by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/ms648748(v=VS.85).aspx">DdeCreateStringHandle</a> function. 
+A handle to the string handle to be freed. This handle must have been created by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddecreatestringhandlea">DdeCreateStringHandle</a> function. 
 
 
 ## -returns
@@ -88,7 +88,7 @@ If the function fails, the return value is zero.
 
 
 
-An application can free string handles it creates with <a href="https://msdn.microsoft.com/en-us/library/ms648748(v=VS.85).aspx">DdeCreateStringHandle</a> but should not free those that the system passed to the application's Dynamic Data Exchange (DDE) callback function or those returned in the <a href="https://msdn.microsoft.com/en-us/library/ms648731(v=VS.85).aspx">CONVINFO</a> structure by the <a href="https://msdn.microsoft.com/en-us/library/ms648761(v=VS.85).aspx">DdeQueryConvInfo</a> function. 
+An application can free string handles it creates with <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddecreatestringhandlea">DdeCreateStringHandle</a> but should not free those that the system passed to the application's Dynamic Data Exchange (DDE) callback function or those returned in the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagconvinfo">CONVINFO</a> structure by the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddequeryconvinfo">DdeQueryConvInfo</a> function. 
 
 
 
@@ -98,7 +98,7 @@ An application can free string handles it creates with <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648731(v=VS.85).aspx">CONVINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagconvinfo">CONVINFO</a>
 
 
 
@@ -106,31 +106,31 @@ An application can free string handles it creates with <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648744(v=VS.85).aspx">DdeCmpStringHandles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddecmpstringhandles">DdeCmpStringHandles</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648748(v=VS.85).aspx">DdeCreateStringHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddecreatestringhandlea">DdeCreateStringHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648757(v=VS.85).aspx">DdeInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648758(v=VS.85).aspx">DdeKeepStringHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddekeepstringhandle">DdeKeepStringHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648761(v=VS.85).aspx">DdeQueryConvInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddequeryconvinfo">DdeQueryConvInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648763(v=VS.85).aspx">DdeQueryString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddequerystringa">DdeQueryString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a>
 
 
 

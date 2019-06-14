@@ -90,9 +90,9 @@ The method was successful.
 
 
 
-This method causes the <a href="https://msdn.microsoft.com/9ca9eac8-f30b-4a52-b851-3ad7a5c4dfb7">ITfEditTransactionSink::OnEndEditTransaction</a> method to be called on all installed edit transaction sinks.
+This method causes the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfedittransactionsink-onendedittransaction">ITfEditTransactionSink::OnEndEditTransaction</a> method to be called on all installed edit transaction sinks.
 
-An edit transaction is a group of text changes that should be processed at one time. Calling <a href="https://msdn.microsoft.com/1d5452a1-b2f3-42d6-a32d-95965c2af8d3">ITextStoreACPSink::OnStartEditTransaction</a> allows a text service to queue the upcoming changes until <b>ITextStoreACPSink::OnEndEditTransaction</b> is called. When <b>ITextStoreACPSink::OnEndEditTransaction</b> is called, the text service will process all of the queued changes. Use of edit transactions is optional.
+An edit transaction is a group of text changes that should be processed at one time. Calling <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacpsink-onstartedittransaction">ITextStoreACPSink::OnStartEditTransaction</a> allows a text service to queue the upcoming changes until <b>ITextStoreACPSink::OnEndEditTransaction</b> is called. When <b>ITextStoreACPSink::OnEndEditTransaction</b> is called, the text service will process all of the queued changes. Use of edit transactions is optional.
 
 
 
@@ -102,16 +102,16 @@ An edit transaction is a group of text changes that should be processed at one t
 
 
 
-<a href="https://msdn.microsoft.com/d7e5a04f-7159-436e-a522-4cb63063aeef">ITextStoreACPSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacpsink">ITextStoreACPSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d5452a1-b2f3-42d6-a32d-95965c2af8d3">ITextStoreACPSink::OnStartEditTransaction
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacpsink-onstartedittransaction">ITextStoreACPSink::OnStartEditTransaction
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/9ca9eac8-f30b-4a52-b851-3ad7a5c4dfb7">ITfEditTransactionSink::OnEndEditTransaction
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfedittransactionsink-onendedittransaction">ITfEditTransactionSink::OnEndEditTransaction
       </a>
  
 

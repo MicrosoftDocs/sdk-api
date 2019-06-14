@@ -56,7 +56,7 @@ The <b>IDXGIAdapter2</b> interface represents a display subsystem, which include
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIAdapter2</b> interface inherits from <a href="https://msdn.microsoft.com/003d5a10-e978-481f-8ca6-9e5ab69bfec0">IDXGIAdapter1</a>. <b>IDXGIAdapter2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIAdapter2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter1">IDXGIAdapter1</a>. <b>IDXGIAdapter2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDXGIAdapter2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/DC1A054D-4092-4865-A6EF-B936891AA470">GetDesc2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiadapter2-getdesc2">GetDesc2</a>
 </td>
 <td align="left" width="63%">
 Gets a DXGI 1.2 description of an adapter or video card. This description includes information about the granularity at which the GPU can be preempted from performing its current task.
@@ -88,13 +88,13 @@ Gets a DXGI 1.2 description of an adapter or video card. This description includ
 A display subsystem is often referred to as a video card; however, on some computers, the display subsystem is part of the motherboard.
         
 
-To enumerate the display subsystems, use <a href="https://msdn.microsoft.com/351b7b2d-abb7-449e-bee2-eea96fef3b9d">IDXGIFactory1::EnumAdapters1</a>.
+To enumerate the display subsystems, use <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgifactory1-enumadapters1">IDXGIFactory1::EnumAdapters1</a>.
         
 
-To get an interface to the adapter for a particular device, use <a href="https://msdn.microsoft.com/en-us/library/Bb174531(v=VS.85).aspx">IDXGIDevice::GetAdapter</a>.
+To get an interface to the adapter for a particular device, use <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgidevice-getadapter">IDXGIDevice::GetAdapter</a>.
         
 
-To create a software adapter, use <a href="https://msdn.microsoft.com/en-us/library/Bb174536(v=VS.85).aspx">IDXGIFactory::CreateSoftwareAdapter</a>.
+To create a software adapter, use <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgifactory-createsoftwareadapter">IDXGIFactory::CreateSoftwareAdapter</a>.
         
 
 
@@ -105,11 +105,11 @@ To create a software adapter, use <a href="https://msdn.microsoft.com/en-us/libr
 
 
 
-<a href="https://msdn.microsoft.com/b561b26b-961c-4d5e-8483-56b51b989bf7">DXGI Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/003d5a10-e978-481f-8ca6-9e5ab69bfec0">IDXGIAdapter1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter1">IDXGIAdapter1</a>
  
 
  

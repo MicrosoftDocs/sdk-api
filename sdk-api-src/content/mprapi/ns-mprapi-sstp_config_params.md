@@ -102,7 +102,7 @@ Windows Server 2008 Datacenterand Windows Server 2008 Enterprise
 </table>
  
 
-<div class="alert"><b>Note</b>  If <b>dwNumPorts</b> contains a value beyond the limit configured in the registry at service start time (the default is 1000 for Windows Server 2008 Standard and Windows Server 2008 Enterprise), the <a href="https://msdn.microsoft.com/654d1410-b54c-4284-bf7f-f6ae6b7ef85e">MprConfigServerGetInfoEx</a> and <a href="https://msdn.microsoft.com/8251f391-7697-4024-9a9d-c7c810129a78">MprConfigServerSetInfoEx</a> functions will return <b>ERROR_SUCCESS_REBOOT_REQUIRED</b>.</div>
+<div class="alert"><b>Note</b>  If <b>dwNumPorts</b> contains a value beyond the limit configured in the registry at service start time (the default is 1000 for Windows Server 2008 Standard and Windows Server 2008 Enterprise), the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigservergetinfoex">MprConfigServerGetInfoEx</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserversetinfoex">MprConfigServerSetInfoEx</a> functions will return <b>ERROR_SUCCESS_REBOOT_REQUIRED</b>.</div>
 <div> </div>
 
 ### -field dwPortFlags
@@ -158,7 +158,7 @@ A value that specifies the certificate hashing algorithm used. The following val
 
 ### -field sstpCertDetails
 
-An <a href="https://msdn.microsoft.com/004fce6d-c617-4356-9a8f-f7b4fbb3d4c2">SSTP_CERT_INFO</a> structure that contains the SSTP based certificate hash.
+An <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_sstp_cert_info">SSTP_CERT_INFO</a> structure that contains the SSTP based certificate hash.
 
 
 ## -see-also
@@ -166,15 +166,15 @@ An <a href="https://msdn.microsoft.com/004fce6d-c617-4356-9a8f-f7b4fbb3d4c2">SST
 
 
 
-<a href="https://msdn.microsoft.com/19ad3493-99b7-405f-9663-3886388b5640">MPRAPI_TUNNEL_CONFIG_PARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mprapi_tunnel_config_params0">MPRAPI_TUNNEL_CONFIG_PARAMS</a>
 
 
 
-<a href="https://msdn.microsoft.com/352505a9-616a-4d47-9857-f88d345333fd">Router Management Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/767733eb-1cbd-4b8d-98b7-41d1d0f2c630">Router Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>
  
 
  

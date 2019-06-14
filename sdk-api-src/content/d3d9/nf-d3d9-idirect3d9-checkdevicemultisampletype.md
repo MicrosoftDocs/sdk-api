@@ -60,42 +60,42 @@ Determines if a multisampling technique is available on this device.
 
 ### -param Adapter [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Ordinal number denoting the display adapter to query. D3DADAPTER_DEFAULT is always the primary display adapter. This method returns <b>FALSE</b> when this value equals or exceeds the number of display adapters in the system. See Remarks.
 
 
 ### -param DeviceType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172547(v=VS.85).aspx">D3DDEVTYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddevtype">D3DDEVTYPE</a></b>
 
-Member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172547(v=VS.85).aspx">D3DDEVTYPE</a> enumerated type, identifying the device type.
+Member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddevtype">D3DDEVTYPE</a> enumerated type, identifying the device type.
 
 
 ### -param SurfaceFormat [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a></b>
 
-Member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a> enumerated type that specifies the format of the surface to be multisampled. For more information, see Remarks.
+Member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a> enumerated type that specifies the format of the surface to be multisampled. For more information, see Remarks.
 
 
 ### -param Windowed [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 bool value. Specify <b>TRUE</b> to inquire about windowed multisampling, and specify <b>FALSE</b> to inquire about full-screen multisampling.
 
 
 ### -param MultiSampleType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172574(v=VS.85).aspx">D3DMULTISAMPLE_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dmultisample-type">D3DMULTISAMPLE_TYPE</a></b>
 
-Member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172574(v=VS.85).aspx">D3DMULTISAMPLE_TYPE</a> enumerated type, identifying the multisampling technique to test.
+Member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dmultisample-type">D3DMULTISAMPLE_TYPE</a> enumerated type, identifying the multisampling technique to test.
 
 
 ### -param pQualityLevels [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
 
 <b>pQualityLevels</b> returns the number of device-specific sampling variations available with the given sample type. For example, if the returned value is 3, then quality levels 0, 1 and 2 can be used when creating resources with the given sample count. The meanings of these quality levels are defined by the device manufacturer and cannot be queried through D3D. For example, for a particular device different quality levels at a fixed sample count might refer to different spatial layouts of the sample locations or different methods of resolving.  This can be <b>NULL</b> if it is not necessary to return the quality levels.
 
@@ -104,7 +104,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If the device can perform the specified multisampling method, this method returns D3D_OK.
  D3DERR_INVALIDCALL is returned if the Adapter or MultiSampleType parameters are invalid. This method returns D3DERR_NOTAVAILABLE if the queried multisampling technique is not supported by this device. D3DERR_INVALIDDEVICE is returned if DeviceType does not apply to this adapter.
@@ -136,7 +136,7 @@ if( SUCCEEDED(pD3D->CheckDeviceMultiSampleType( pCaps->AdapterOrdinal,
 
 The preceding code will return S_OK if the device supports the full-screen D3DMULTISAMPLE_3_SAMPLES multisampling method with the surface format.
 
-See the remarks in <a href="https://msdn.microsoft.com/en-us/library/Bb172574(v=VS.85).aspx">D3DMULTISAMPLE_TYPE</a> for additional information on working with and setting multisample types and quality levels.
+See the remarks in <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dmultisample-type">D3DMULTISAMPLE_TYPE</a> for additional information on working with and setting multisample types and quality levels.
 
 
 
@@ -146,7 +146,7 @@ See the remarks in <a href="https://msdn.microsoft.com/en-us/library/Bb172574(v=
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174300(v=VS.85).aspx">IDirect3D9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a>
  
 
  

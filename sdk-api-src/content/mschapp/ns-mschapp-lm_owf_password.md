@@ -59,7 +59,7 @@ The <b>LM_OWF_PASSWORD</b> stores the Lan Manage (LM) one-way function (OWF) of 
 
 ### -field data
 
-An array of <a href="https://msdn.microsoft.com/eb0e38ed-8d12-4df2-be58-7ac18447121f">CYPHER_BLOCK</a> structures that contain a LM OWF password hash. The contents of the array are calculated using the <b>LmEncryptedPasswordHash()</b> function as defined in <a href="http://go.microsoft.com/fwlink/p/?linkid=84041">RFC 2433</a>, section A.8.
+An array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mschapp/ns-mschapp-_cypher_block">CYPHER_BLOCK</a> structures that contain a LM OWF password hash. The contents of the array are calculated using the <b>LmEncryptedPasswordHash()</b> function as defined in <a href="http://go.microsoft.com/fwlink/p/?linkid=84041">RFC 2433</a>, section A.8.
 
 
 ## -remarks
@@ -67,7 +67,7 @@ An array of <a href="https://msdn.microsoft.com/eb0e38ed-8d12-4df2-be58-7ac18447
 
 
 
-<a href="https://msdn.microsoft.com/7edba7de-e3b8-4a93-b70b-19c68541da1e">NT_OWF_PASSWORD</a> is an alias for this structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc325731(v=vs.85)">NT_OWF_PASSWORD</a> is an alias for this structure.
 
 
 
@@ -77,11 +77,11 @@ An array of <a href="https://msdn.microsoft.com/eb0e38ed-8d12-4df2-be58-7ac18447
 
 
 
-<a href="https://msdn.microsoft.com/adee58bd-d2aa-4570-8c43-50240be02ed3">MS-CHAP Password Management Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mschap/ms-chap-password-management-structures">MS-CHAP Password Management Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c154675-4c82-4305-8231-577f990eaeb1">MSChapSrvChangePassword</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mschapp/nf-mschapp-mschapsrvchangepassword">MSChapSrvChangePassword</a>
  
 
  

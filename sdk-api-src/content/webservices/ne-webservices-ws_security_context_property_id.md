@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifies a property of a security context object.  This enumeration is used with <a href="https://msdn.microsoft.com/7ef32fbe-0b50-4ede-96af-075137df340d">WsGetSecurityContextProperty</a>.
+Identifies a property of a security context object.  This enumeration is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetsecuritycontextproperty">WsGetSecurityContextProperty</a>.
       
 
 
@@ -62,27 +62,27 @@ Identifies a property of a security context object.  This enumeration is used wi
 
 On the wire, a security context is identified by an absolute URI, which is unique to both sender and 
           recipient. See <a href="http://go.microsoft.com/fwlink/p/?linkid=131545">WS-SecureConversation</a>.
-          This property is a <a href="https://msdn.microsoft.com/b9fd4497-153f-45f9-8f23-0771ffc47830">WS_UNIQUE_ID</a> structure that represents that URI.
+          This property is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_unique_id">WS_UNIQUE_ID</a> structure that represents that URI.
         
 
 
 ### -field WS_SECURITY_CONTEXT_PROPERTY_USERNAME
 
-If a <a href="https://msdn.microsoft.com/en-us/library/Dd323497(v=VS.85).aspx">WS_USERNAME_MESSAGE_SECURITY_BINDING</a> is used as bootstrap security, this property
-          is a <a href="https://msdn.microsoft.com/eb6c7397-6b15-4e79-89ec-585861113edf">WS_STRING</a> that represents the username that was used during the establishment of the security context.
+If a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_username_message_security_binding">WS_USERNAME_MESSAGE_SECURITY_BINDING</a> is used as bootstrap security, this property
+          is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_string">WS_STRING</a> that represents the username that was used during the establishment of the security context.
         
 
 
 ### -field WS_SECURITY_CONTEXT_PROPERTY_MESSAGE_SECURITY_WINDOWS_TOKEN
 
-If a <a href="https://msdn.microsoft.com/en-us/library/Dd401944(v=VS.85).aspx">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a> is used as bootstrap security, this property
+If a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a> is used as bootstrap security, this property
           is a <b>HANDLE</b> that represents the token that was used during the establishment of the security context.
         
 
 
 ### -field WS_SECURITY_CONTEXT_PROPERTY_SAML_ASSERTION
 
-If a <a href="https://msdn.microsoft.com/en-us/library/Dd323373(v=VS.85).aspx">WS_SAML_MESSAGE_SECURITY_BINDING</a> is used as bootstrap security, this property
-          is a pointer to a <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a> that represents the SAML assertion that was used during the establishment of the security context.
+If a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_saml_message_security_binding">WS_SAML_MESSAGE_SECURITY_BINDING</a> is used as bootstrap security, this property
+          is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> that represents the SAML assertion that was used during the establishment of the security context.
         
 

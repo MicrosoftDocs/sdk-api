@@ -64,9 +64,9 @@ The number of PNRP clouds returned in <i>ppCloudInfo</i>.
 
 ### -param ppCloudInfo [out]
 
-Pointer to a list of <a href="https://msdn.microsoft.com/b6121bae-22b7-4f23-ac8e-08822beef559">PEER_PNRP_CLOUD_INFO</a> structures that contain information about the PNRP clouds in which the calling peer is participating.
+Pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_pnrp_cloud_info_tag">PEER_PNRP_CLOUD_INFO</a> structures that contain information about the PNRP clouds in which the calling peer is participating.
 
-This data returned by this parameter must be freed by calling <a href="https://msdn.microsoft.com/54288829-c991-42d6-a7c4-874ed28dd106">PeerFreeData</a>.
+This data returned by this parameter must be freed by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
 
 
 ## -returns
@@ -113,7 +113,7 @@ There is not enough memory to perform the specified operation.
 
 
 
-<a href="https://msdn.microsoft.com/b6121bae-22b7-4f23-ac8e-08822beef559">PEER_PNRP_CLOUD_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_pnrp_cloud_info_tag">PEER_PNRP_CLOUD_INFO</a>
  
 
  

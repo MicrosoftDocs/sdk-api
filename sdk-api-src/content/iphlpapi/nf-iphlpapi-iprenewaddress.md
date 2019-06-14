@@ -61,7 +61,7 @@ The
 ### -param AdapterInfo [in]
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/83d95ef3-13a4-4124-84cd-3016e9fb4446">IP_ADAPTER_INDEX_MAP</a> structure that specifies the adapter associated with the IP address to renew.
+<a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-_ip_adapter_index_map">IP_ADAPTER_INDEX_MAP</a> structure that specifies the adapter associated with the IP address to renew.
 
 
 ## -returns
@@ -71,7 +71,7 @@ A pointer to an
 If the function succeeds, the return value is NO_ERROR.
 
 If the function fails, use 
-<a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> to obtain the message string for the returned error.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 <table>
 <tr>
@@ -108,7 +108,7 @@ An exception occurred during the request to DHCP for the renewal of the IPv4 add
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> to obtain the message string for the returned error.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
@@ -123,11 +123,11 @@ Use
 
 
 The 
-<b>IpRenewAddress</b>function is specific to IPv4 and renews only an IPv4 address previously obtained through the Dynamic Host Configuration Protocol (DHCP). The <b>Name</b> member of the <a href="https://msdn.microsoft.com/83d95ef3-13a4-4124-84cd-3016e9fb4446">IP_ADAPTER_INDEX_MAP</a> structure pointed to by the <i>AdapterInfo</i> parameter is the only member used to determine the DHCP address to renew.
+<b>IpRenewAddress</b>function is specific to IPv4 and renews only an IPv4 address previously obtained through the Dynamic Host Configuration Protocol (DHCP). The <b>Name</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-_ip_adapter_index_map">IP_ADAPTER_INDEX_MAP</a> structure pointed to by the <i>AdapterInfo</i> parameter is the only member used to determine the DHCP address to renew.
 
-  An array of  <a href="https://msdn.microsoft.com/83d95ef3-13a4-4124-84cd-3016e9fb4446">IP_ADAPTER_INDEX_MAP</a> structures are returned in the <a href="https://msdn.microsoft.com/287a4574-0a0f-4f20-932b-22bb6f40401d">IP_INTERFACE_INFO</a> structure by the <a href="https://msdn.microsoft.com/efc0d175-2c6d-4608-b385-1623a9e0375c">GetInterfaceInfo</a> function.  The <b>IP_INTERFACE_INFO</b> structure returned by <b>GetInterfaceInfo</b> contains at least one <b>IP_ADAPTER_INDEX_MAP</b> structure even if the <b>NumAdapters</b> member of the <b>IP_INTERFACE_INFO</b> structure indicates that no network adapters with IPv4 are enabled. When the <b>NumAdapters</b> member of the <b>IP_INTERFACE_INFO</b> structure returned by <b>GetInterfaceInfo</b> is zero, the value of the members of the single  <b>IP_ADAPTER_INDEX_MAP</b> structure returned in the <b>IP_INTERFACE_INFO</b> structure is undefined. 
+  An array of  <a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-_ip_adapter_index_map">IP_ADAPTER_INDEX_MAP</a> structures are returned in the <a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-_ip_interface_info">IP_INTERFACE_INFO</a> structure by the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getinterfaceinfo">GetInterfaceInfo</a> function.  The <b>IP_INTERFACE_INFO</b> structure returned by <b>GetInterfaceInfo</b> contains at least one <b>IP_ADAPTER_INDEX_MAP</b> structure even if the <b>NumAdapters</b> member of the <b>IP_INTERFACE_INFO</b> structure indicates that no network adapters with IPv4 are enabled. When the <b>NumAdapters</b> member of the <b>IP_INTERFACE_INFO</b> structure returned by <b>GetInterfaceInfo</b> is zero, the value of the members of the single  <b>IP_ADAPTER_INDEX_MAP</b> structure returned in the <b>IP_INTERFACE_INFO</b> structure is undefined. 
 
-If the <b>Name</b> member of the <a href="https://msdn.microsoft.com/83d95ef3-13a4-4124-84cd-3016e9fb4446">IP_ADAPTER_INDEX_MAP</a> structure pointed to by the <i>AdapterInfo</i> parameter is <b>NULL</b>, the 
+If the <b>Name</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-_ip_adapter_index_map">IP_ADAPTER_INDEX_MAP</a> structure pointed to by the <i>AdapterInfo</i> parameter is <b>NULL</b>, the 
 <b>IpRenewAddress</b> function returns <b>ERROR_INVALID_PARAMETER</b>.
 
 There are no functions available for releasing or renewing an IPv6 address. This can only be done by executing the Ipconfig command:
@@ -242,27 +242,27 @@ void main()
 
 
 
-<a href="https://msdn.microsoft.com/efc0d175-2c6d-4608-b385-1623a9e0375c">GetInterfaceInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getinterfaceinfo">GetInterfaceInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/2de88e92-5fa5-4d8d-9448-67a33bf02f05">IP Helper Function Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/4896a9f8-0486-4380-bf49-d1c9ef114acc">IP Helper Start Page</a>
+<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
 
 
 
-<a href="https://msdn.microsoft.com/83d95ef3-13a4-4124-84cd-3016e9fb4446">IP_ADAPTER_INDEX_MAP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-_ip_adapter_index_map">IP_ADAPTER_INDEX_MAP</a>
 
 
 
-<a href="https://msdn.microsoft.com/287a4574-0a0f-4f20-932b-22bb6f40401d">IP_INTERFACE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-_ip_interface_info">IP_INTERFACE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/d937ea44-1ca3-49e0-913d-fb77888d05fc">IpReleaseAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-ipreleaseaddress">IpReleaseAddress</a>
  
 
  

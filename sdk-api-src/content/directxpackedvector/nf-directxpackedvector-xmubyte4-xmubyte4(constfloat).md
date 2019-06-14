@@ -47,7 +47,7 @@ ms.custom: 19H1
 
 ## -description
 
-Initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420424(v=VS.85).aspx">XMUBYTE4</a> from a four element <code>int8_t</code> array argument.
+Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyte4">XMUBYTE4</a> from a four element <code>int8_t</code> array argument.
 
 This constructor initializes a new instance of **XMUBYTE4** from a four element <code>int8_t</code> array argument.
 
@@ -73,6 +73,6 @@ instance.w = pArray[3];
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420424(v=VS.85).aspx">XMUBYTE4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyte4">XMUBYTE4</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415443(v=VS.85).aspx">XMUBYTE4 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmubyte4-ctor">XMUBYTE4 Constructors</a>

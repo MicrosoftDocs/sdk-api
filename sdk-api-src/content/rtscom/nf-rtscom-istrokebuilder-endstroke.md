@@ -84,7 +84,7 @@ The dirty, or changed, rectangle of the tablet. This value can be <b>NULL</b>.
 
 
 
-For a description of return values, see <a href="https://msdn.microsoft.com/fc0900b4-f08b-4a93-bbc0-d3db067d7917">RealTimeStylus Classes and Interfaces</a>..
+For a description of return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>..
 
 
 
@@ -98,7 +98,7 @@ A dirty region describes a tablet range which has been changed.
 
 #### Examples
 
-The following C++ example shows the implementation of a <a href="https://msdn.microsoft.com/b0f9e49c-6a16-43c5-a653-d6142e58019a">IStylusPlugin::StylusUp Method</a> method on an <a href="https://msdn.microsoft.com/bbef5cdb-4112-4733-80bb-692b7a198605">IStylusPlugin Interface</a> object. The plug-in uses a <a href="https://msdn.microsoft.com/0d699089-b913-4020-9284-a955f61fd861">StrokeBuilder</a> object to create a new ink stroke. The <b>IStrokeBuilder::EndStroke Method</b> method is called from <b>IStylusPlugin::StylusUp Method</b> to complete the construction of the stroke and add it to the <a href="https://msdn.microsoft.com/ceb8eaea-5059-4386-ad48-63d563ef9731">Ink</a> object of the <b>StrokeBuilder Class</b>.
+The following C++ example shows the implementation of a <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusup">IStylusPlugin::StylusUp Method</a> method on an <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusplugin">IStylusPlugin Interface</a> object. The plug-in uses a <a href="https://docs.microsoft.com/windows/desktop/tablet/strokebuilder-class">StrokeBuilder</a> object to create a new ink stroke. The <b>IStrokeBuilder::EndStroke Method</b> method is called from <b>IStylusPlugin::StylusUp Method</b> to complete the construction of the stroke and add it to the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istrokebuilder-get_ink">Ink</a> object of the <b>StrokeBuilder Class</b>.
 
 
 ```cpp
@@ -124,27 +124,27 @@ STDMETHODIMP CStrokeBuilderPlugin::StylusUp(
 
 
 
-<a href="https://msdn.microsoft.com/309fcc8a-6a14-4ee3-b340-5e47ff249bf8">IStrokeBuilder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istrokebuilder">IStrokeBuilder</a>
 
 
 
-<a href="https://msdn.microsoft.com/7b53a9b2-11da-4063-aac3-a85e52abeb52">IStrokeBuilder::AppendPackets Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istrokebuilder-appendpackets">IStrokeBuilder::AppendPackets Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/40b8ce05-0272-4505-8361-13bb6ca701ea">IStrokeBuilder::BeginStroke Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istrokebuilder-beginstroke">IStrokeBuilder::BeginStroke Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/f7c6f177-3d89-4f27-b2c0-937b08591305">IStrokeBuilder::CreateStroke Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istrokebuilder-createstroke">IStrokeBuilder::CreateStroke Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d699089-b913-4020-9284-a955f61fd861">StrokeBuilder Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/strokebuilder-class">StrokeBuilder Class</a>
  
 
  

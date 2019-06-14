@@ -59,7 +59,7 @@ The <b>IKEEXT_CERTIFICATE_CRITERIA0</b> structure contains a set of criteria to 
 
 ### -field certData
 
-Type: <b><a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a></b>
 
 X509/ASN.1 encoded name of the root certificate. Should be empty when
    specifying Enterprise or trusted root store config.
@@ -67,21 +67,21 @@ X509/ASN.1 encoded name of the root certificate. Should be empty when
 
 ### -field certHash
 
-Type: <b><a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a></b>
 
   16-character hexadecimal string that represents the ID, thumbprint or HASH of the end certificate.
 
 
 ### -field eku
 
-Type: <b><a href="https://msdn.microsoft.com/e9669340-a1f2-455f-a490-a94694c83531">IKEEXT_CERT_EKUS0</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_ekus0_">IKEEXT_CERT_EKUS0</a>*</b>
 
 The specific extended key usage (EKU) object identifiers (OIDs) selected for the criteria on the end certificate.
 
 
 ### -field name
 
-Type: <b><a href="https://msdn.microsoft.com/50e04e10-cae1-4fcd-990e-3e9b538627ed">IKEEXT_CERT_NAME0</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_name0_">IKEEXT_CERT_NAME0</a>*</b>
 
 The name/subject selected for the criteria on the end certificate.
 
@@ -107,15 +107,15 @@ The <b>certData</b> member refers to the encoded name of the root certificate, w
 
 
 
-<a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9669340-a1f2-455f-a490-a94694c83531">IKEEXT_CERT_EKUS0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_ekus0_">IKEEXT_CERT_EKUS0</a>
 
 
 
-<a href="https://msdn.microsoft.com/50e04e10-cae1-4fcd-990e-3e9b538627ed">IKEEXT_CERT_NAME0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_name0_">IKEEXT_CERT_NAME0</a>
  
 
  

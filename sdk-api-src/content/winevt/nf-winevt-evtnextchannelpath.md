@@ -59,7 +59,7 @@ Gets a channel name from the enumerator.
 
 ### -param ChannelEnum [in]
 
-A handle to the enumerator that the <a href="https://msdn.microsoft.com/eb077b0c-1ae6-40ae-becc-98d840302e6f">EvtOpenChannelEnum</a> function returns.
+A handle to the enumerator that the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtopenchannelenum">EvtOpenChannelEnum</a> function returns.
 
 
 ### -param ChannelPathBufferSize [in]
@@ -106,7 +106,7 @@ The function succeeded.
 </dl>
 </td>
 <td width="60%">
-The function failed. To get the error code, call the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+The function failed. To get the error code, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 </td>
 </tr>
@@ -125,7 +125,7 @@ Call this function in a loop until the function returns <b>FALSE</b> and the err
 
 #### Examples
 
-For an example that shows how to use this function, see <a href="https://msdn.microsoft.com/4ee44dae-b390-4d98-bcef-836b53b04860">Getting and Setting a Channel's Configuration Properties</a>.
+For an example that shows how to use this function, see <a href="https://docs.microsoft.com/windows/desktop/WES/getting-and-setting-a-channel-s-configuration-properties">Getting and Setting a Channel's Configuration Properties</a>.
 
 <div class="code"></div>
 
@@ -136,7 +136,7 @@ For an example that shows how to use this function, see <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/eb077b0c-1ae6-40ae-becc-98d840302e6f">EvtOpenChannelEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtopenchannelenum">EvtOpenChannelEnum</a>
  
 
  

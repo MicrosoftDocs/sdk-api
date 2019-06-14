@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>WebSocketDeleteHandle</b> function deletes a WebSocket session handle created by <a href="https://msdn.microsoft.com/c61992cc-7715-4fad-a66a-916402088ad0">WebSocketCreateClientHandle</a> or <a href="https://msdn.microsoft.com/f8c44a86-c586-48e3-b948-ed119bebf951">WebSocketCreateServerHandle</a>.
+The <b>WebSocketDeleteHandle</b> function deletes a WebSocket session handle created by <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketcreateclienthandle">WebSocketCreateClientHandle</a> or <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketcreateserverhandle">WebSocketCreateServerHandle</a>.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ The <b>WebSocketDeleteHandle</b> function deletes a WebSocket session handle cre
 
 ### -param hWebSocket [in]
 
-Type: <b><a href="https://msdn.microsoft.com/D5D42785-CFAC-4324-9194-1BA8056FBAA1">WEB_SOCKET_HANDLE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WebSock/web-socket-protocol-component-api-data-types">WEB_SOCKET_HANDLE</a></b>
 
-WebSocket session handle returned by a previous call to <a href="https://msdn.microsoft.com/c61992cc-7715-4fad-a66a-916402088ad0">WebSocketCreateClientHandle</a> or <a href="https://msdn.microsoft.com/f8c44a86-c586-48e3-b948-ed119bebf951">WebSocketCreateServerHandle</a>.
+WebSocket session handle returned by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketcreateclienthandle">WebSocketCreateClientHandle</a> or <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketcreateserverhandle">WebSocketCreateServerHandle</a>.
 
 
 ## -returns
@@ -70,7 +70,7 @@ WebSocket session handle returned by a previous call to <a href="https://msdn.mi
 
 If the function succeeds, it returns <b>S_OK</b>.
 
-If the function fails, it returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> defined in WinError.h.
+If the function fails, it returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> defined in WinError.h.
 
 
 
@@ -79,9 +79,9 @@ If the function fails, it returns a <a href="https://msdn.microsoft.com/4a3a8feb
 
 
 
-Any use of a deleted <a href="https://msdn.microsoft.com/D5D42785-CFAC-4324-9194-1BA8056FBAA1">WEB_SOCKET_HANDLE</a> session handle may result in an access violation.
+Any use of a deleted <a href="https://docs.microsoft.com/windows/desktop/WebSock/web-socket-protocol-component-api-data-types">WEB_SOCKET_HANDLE</a> session handle may result in an access violation.
 
-Before an application deletes a session handle, it must ensure that all operations have been processed. Applications may use <a href="https://msdn.microsoft.com/fcfa67cf-9121-4f65-bba9-31ebca1291bd">WebSocketAbortHandle</a> to abort any queued operations before calling <b>WebSocketDeleteHandle</b>.
+Before an application deletes a session handle, it must ensure that all operations have been processed. Applications may use <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketaborthandle">WebSocketAbortHandle</a> to abort any queued operations before calling <b>WebSocketDeleteHandle</b>.
 
 
 
@@ -91,15 +91,15 @@ Before an application deletes a session handle, it must ensure that all operatio
 
 
 
-<a href="https://msdn.microsoft.com/fcfa67cf-9121-4f65-bba9-31ebca1291bd">WebSocketAbortHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketaborthandle">WebSocketAbortHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/c61992cc-7715-4fad-a66a-916402088ad0">WebSocketCreateClientHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketcreateclienthandle">WebSocketCreateClientHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/f8c44a86-c586-48e3-b948-ed119bebf951">WebSocketCreateServerHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketcreateserverhandle">WebSocketCreateServerHandle</a>
  
 
  

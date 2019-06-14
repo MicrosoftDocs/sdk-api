@@ -52,7 +52,7 @@ Fills a specified range of a file with zeros (0). If the file is sparse or compr
     NTFS file system may deallocate disk space in the file. This sets the range of bytes to zeros (0) without 
     extending the file size.
 
-To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
+To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
     function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -148,9 +148,9 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 For the implications of overlapped I/O on this operation, see the Remarks section of the 
-    <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> topic.
+    <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> topic.
 
-If you use the <a href="https://msdn.microsoft.com/9d6fa723-fe3e-4052-b0b3-2686eee076a7">WriteFile</a> function to write zeros (0) to a 
+If you use the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a> function to write zeros (0) to a 
     sparse file, the file system allocates disk space for the data that you are writing. If you use the 
     <b>FSCTL_SET_ZERO_DATA</b> control code to write zeros (0) to 
     a sparse file and the zero (0)  region is large enough, the file system may not allocate disk space.
@@ -158,7 +158,7 @@ If you use the <a href="https://msdn.microsoft.com/9d6fa723-fe3e-4052-b0b3-2686e
 If you use the <b>FSCTL_SET_ZERO_DATA</b> control code to 
     write zeros (0) to a non-sparse file, zeros (0) are written to the file. The system allocates disk storage for all 
     of the zero (0) range, which is equivalent to using the 
-    <a href="https://msdn.microsoft.com/9d6fa723-fe3e-4052-b0b3-2686eee076a7">WriteFile</a> function to write zeros (0) to a file.
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a> function to write zeros (0) to a file.
 
 The time stamps may not be updated correctly for a remote file. To ensure consistent results, use unbuffered 
     I/O.
@@ -231,27 +231,27 @@ Yes
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/ad2c4e2d-7f41-45e8-beff-2f6d735f152e">FILE_ZERO_DATA_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_file_zero_data_information">FILE_ZERO_DATA_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/053e26ec-1529-41b3-aeb6-128b3085bafc">FSCTL_QUERY_ALLOCATED_RANGES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_allocated_ranges">FSCTL_QUERY_ALLOCATED_RANGES</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa8f5880-f831-49b6-8359-fe07c78c032f">FSCTL_SET_SPARSE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_sparse">FSCTL_SET_SPARSE</a>
 
 
 
-<a href="https://msdn.microsoft.com/e27ded4b-d104-4244-b38e-5fed10d32e1e">File Management Control Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-control-codes">File Management Control Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/7326041d-f11e-4b80-ac4e-07173e418ce7">Sparse Files</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/sparse-files">Sparse Files</a>
  
 
  

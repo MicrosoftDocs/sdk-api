@@ -51,9 +51,9 @@ ms.custom: 19H1
 
 The 
 <b>NS_OSVERSIONCHECK</b> command is the operating system check function for helpers. This function can be called on a per-function basis, and verifies whether the associated function is supported on the specified operating system. This function is registered within the 
-<a href="https://msdn.microsoft.com/dc0d6449-f635-417c-8363-51e61c417051">CMD_GROUP_ENTRY</a> or 
-<a href="https://msdn.microsoft.com/299962c8-8f93-4b22-a232-8230eb64cc12">CMD_ENTRY</a> parameter of the 
-<a href="https://msdn.microsoft.com/52cebe62-d4b6-4229-8418-c0ae9849822b">RegisterContext</a> function. The following is an example of an operating system check function. Be aware that <b>SampleOsVersionCheck</b> is a placeholder for the application-defined function name.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/ns-netsh-_cmd_group_entry">CMD_GROUP_ENTRY</a> or 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/ns-netsh-_cmd_entry">CMD_ENTRY</a> parameter of the 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-registercontext">RegisterContext</a> function. The following is an example of an operating system check function. Be aware that <b>SampleOsVersionCheck</b> is a placeholder for the application-defined function name.
 
 
 ## -parameters
@@ -102,7 +102,7 @@ Returns <b>TRUE</b> of the command or group should be available, <b>FALSE</b> if
 
 
 Parameters passed by this function are retrieved from WMI. Refer to the latest 
-<a href="https://msdn.microsoft.com/ebc2e4aa-a77d-44a3-b649-3b3748bb267e">WMI documentation</a> to obtain these parameter definitions.
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-reference">WMI documentation</a> to obtain these parameter definitions.
 
 The operating system check function is useful for commands used by administrators who manage down-level servers or computers from a more recent version of Windows.
 
@@ -114,11 +114,11 @@ The operating system check function is useful for commands used by administrator
 
 
 
-<a href="https://msdn.microsoft.com/52cebe62-d4b6-4229-8418-c0ae9849822b">RegisterContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-registercontext">RegisterContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/4804152f-2042-4c6a-83c6-75c5e1ab7a04">Windows WMI</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-start-page">Windows WMI</a>
  
 
  

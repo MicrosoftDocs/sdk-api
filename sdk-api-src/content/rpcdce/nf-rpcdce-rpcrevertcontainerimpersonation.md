@@ -75,7 +75,7 @@ Reserved.
 
 
 
-<a href="https://msdn.microsoft.com/C81E71C9-C044-487E-BFD7-859775E877F0">RpcImpersonateClientContainer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcimpersonateclientcontainer">RpcImpersonateClientContainer</a>
  
 
  

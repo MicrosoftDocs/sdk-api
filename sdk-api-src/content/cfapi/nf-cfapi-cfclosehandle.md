@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Closes the file or directory handle returned by <a href="https://msdn.microsoft.com/AFC48080-3B4A-4F6B-9122-25C2A025EA95">CfOpenFileWithOplock</a>. This should not be used with standard Win32 file handles, only on handles used within CfApi.h.
+Closes the file or directory handle returned by <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfopenfilewithoplock">CfOpenFileWithOplock</a>. This should not be used with standard Win32 file handles, only on handles used within CfApi.h.
 
 
 ## -parameters

@@ -61,7 +61,7 @@ The <b>FWPM_PROVIDER_CONTEXT_SUBSCRIPTION0</b> structure is  used to subscribe f
 
 Notifications are only dispatched for objects that match the template. If the template is <b>NULL</b>, it matches all objects.
 
-See <a href="https://msdn.microsoft.com/en-us/library/Aa364296(v=VS.85).aspx">FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0</a> for more information
+See <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context_enum_template0_">FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0</a> for more information
 
 
 ### -field flags
@@ -106,7 +106,7 @@ Uniquely identifies this session.
 
 
 
-<b>FWPM_PROVIDER_CONTEXT_SUBSCRIPTION0</b> is a specific implementation of FWPM_PROVIDER_CONTEXT_SUBSCRIPTION. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FWPM_PROVIDER_CONTEXT_SUBSCRIPTION0</b> is a specific implementation of FWPM_PROVIDER_CONTEXT_SUBSCRIPTION. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -116,11 +116,11 @@ Uniquely identifies this session.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa364296(v=VS.85).aspx">FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context_enum_template0_">FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0</a>
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

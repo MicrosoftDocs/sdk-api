@@ -90,7 +90,7 @@ The driver can refresh the session key without renegotiating the key.
 
 ### -field D3D11_CONTENT_PROTECTION_CAPS_ENCRYPTED_READ_BACK
 
-The driver can read back encrypted data from a protected surface. For more information, see <a href="https://msdn.microsoft.com/2BBD0BC2-53D9-435E-835C-20A992118329">ID3D11VideoContext::EncryptionBlt</a>.
+The driver can read back encrypted data from a protected surface. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-encryptionblt">ID3D11VideoContext::EncryptionBlt</a>.
 
 
 ### -field D3D11_CONTENT_PROTECTION_CAPS_ENCRYPTED_READ_BACK_KEY
@@ -100,7 +100,7 @@ The driver requires a separate key to read encrypted data from a protected surfa
 
 ### -field D3D11_CONTENT_PROTECTION_CAPS_SEQUENTIAL_CTR_IV
 
-If the encryption type is <b>D3DCRYPTOTYPE_AES128_CTR</b>, the application must use a sequential count in the <a href="https://msdn.microsoft.com/2D1B24CA-6386-4406-9195-40913744C9CF">D3D11_AES_CTR_IV</a>  structure.
+If the encryption type is <b>D3DCRYPTOTYPE_AES128_CTR</b>, the application must use a sequential count in the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-_d3d11_aes_ctr_iv">D3D11_AES_CTR_IV</a>  structure.
 
 
 ### -field D3D11_CONTENT_PROTECTION_CAPS_ENCRYPT_SLICEDATA_ONLY
@@ -142,7 +142,7 @@ The hardware supports an automatic teardown mechanism that could trigger hardwar
 
 ### -field D3D11_CONTENT_PROTECTION_CAPS_HARDWARE_DRM_COMMUNICATION
 
-The secure environment is tightly coupled with the GPU and an <a href="https://msdn.microsoft.com/E17F39CB-61E3-44EF-805D-AD386743744E">ID3D11CryptoSession</a> should be used for communication between the user mode DRM component and the secure execution environment.
+The secure environment is tightly coupled with the GPU and an <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11cryptosession">ID3D11CryptoSession</a> should be used for communication between the user mode DRM component and the secure execution environment.
 
 <b>Note</b>  This enumeration value is supported starting with Windows 10.
 
@@ -157,11 +157,11 @@ The secure environment is tightly coupled with the GPU and an <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/15691779-DC30-4C0C-86D0-497F2BD60614">D3D11_VIDEO_CONTENT_PROTECTION_CAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_content_protection_caps">D3D11_VIDEO_CONTENT_PROTECTION_CAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/40061AD1-BCD9-4170-A442-34B4C792BB55">Direct3D 11 Video Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-enumerations">Direct3D 11 Video Enumerations</a>
  
 
  

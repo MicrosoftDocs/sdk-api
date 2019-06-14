@@ -63,7 +63,7 @@ The <code>GetAvailableMonitors</code> method retrieves information about the mon
 
 ### -param pInfo [out]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd407368(v=VS.85).aspx">VMR9MonitorInfo</a> structures that contain information about each monitor on the system.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ns-vmr9-_vmr9monitorinfo">VMR9MonitorInfo</a> structures that contain information about each monitor on the system.
 
 
 ### -param dwMaxInfoArraySize [in]
@@ -142,11 +142,11 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390482(v=VS.85).aspx">IVMRMonitorConfig9 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrmonitorconfig9">IVMRMonitorConfig9 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d0fdfac-ec7e-4e02-886b-2039c607dac7">Using the Video Mixing Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
  
 
  

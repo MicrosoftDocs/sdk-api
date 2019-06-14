@@ -116,7 +116,7 @@ The caller must free the returned string, using the <b>SysFreeString</b> functio
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694519(v=VS.85).aspx">IMSVidDevice Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsviddevice">IMSVidDevice Interface</a>
  
 
  

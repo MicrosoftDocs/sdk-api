@@ -85,7 +85,7 @@ Pointer to a wide-character null-terminated string containing the display name.
 
 
 
-<a href="https://msdn.microsoft.com/118ef278-ca4f-4c30-9633-a2d851f5c758">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
  
 
  

@@ -64,12 +64,12 @@ For a nonobject RPC interface on the server-side, it points to an RPC server int
 
 ### -field pfnAllocate
 
-Memory allocation function to be used by the stub. Set to <a href="https://msdn.microsoft.com/">midl_user_allocate</a> for nonobject interface and <a href="https://msdn.microsoft.com/87bfc8ae-62e6-477f-98a7-caf907589b89"> NdrOleAllocate</a> for object interface.  
+Memory allocation function to be used by the stub. Set to <a href="https://msdn.microsoft.com/">midl_user_allocate</a> for nonobject interface and <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-ndroleallocate"> NdrOleAllocate</a> for object interface.  
 
 
 ### -field pfnFree
 
-Memory-free function to be used by the stub. Set to <a href="https://msdn.microsoft.com/b5d8f133-ddd9-4b92-8540-611a03835be0">midl_user_free</a> for nonobject interface and <a href="https://msdn.microsoft.com/c4289448-11bb-40d1-ae63-68521b901796"> NdrOleFree</a> for object interface.  
+Memory-free function to be used by the stub. Set to <a href="https://docs.microsoft.com/windows/desktop/Midl/midl-user-free-1">midl_user_free</a> for nonobject interface and <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-ndrolefree"> NdrOleFree</a> for object interface.  
 
 
 ### -field IMPLICIT_HANDLE_INFO
@@ -104,12 +104,12 @@ Array of function pointers to bind and unbind function pairs for the implicit ge
 
 ### -field apfnExprEval
 
-Array of function pointers to expression evaluator functions used to evaluate MIDL complex conformance and varying descriptions. For example, <a href="https://msdn.microsoft.com/1f3f3629-f668-460d-86fd-16ef22449973">size_is</a>(param1 + param2). 
+Array of function pointers to expression evaluator functions used to evaluate MIDL complex conformance and varying descriptions. For example, <a href="https://docs.microsoft.com/windows/desktop/Midl/size-is">size_is</a>(param1 + param2). 
 
 
 ### -field aXmitQuintuple
 
-Array of an array of function pointers for user-defined <a href="https://msdn.microsoft.com/3dd1a242-03ec-49b4-ac96-87ef186e41d2">transmit_as</a> and <a href="https://msdn.microsoft.com/">represent_as</a>  types.
+Array of an array of function pointers for user-defined <a href="https://docs.microsoft.com/windows/desktop/Midl/transmit-as">transmit_as</a> and <a href="https://msdn.microsoft.com/">represent_as</a>  types.
 
 
 ### -field pFormatTypes
@@ -119,7 +119,7 @@ Pointer to the type format description.
 
 ### -field fCheckBounds
 
-Flag describing the user-specified <a href="https://msdn.microsoft.com/abd3616a-2d2c-4a7d-bf3a-c84a43387894">/error</a> MIDL compiler option.
+Flag describing the user-specified <a href="https://docs.microsoft.com/windows/desktop/Midl/-error">/error</a> MIDL compiler option.
 
 
 ### -field Version
@@ -129,7 +129,7 @@ NDR version required for the stub.
 
 ### -field pMallocFreeStruct
 
-Pointer to the MALLOC_FREE_STRUCT structure which contains the allocate and free function pointers. Use if the <a href="https://msdn.microsoft.com/3a232a82-f114-4d8c-8b71-cf8860c77db3">enable_allocate</a> MIDL attribute is specified.
+Pointer to the MALLOC_FREE_STRUCT structure which contains the allocate and free function pointers. Use if the <a href="https://docs.microsoft.com/windows/desktop/Midl/enable-allocate">enable_allocate</a> MIDL attribute is specified.
 
 
 ### -field MIDLVersion
@@ -139,17 +139,17 @@ Version of the MIDL compiler used to compile the .idl file.
 
 ### -field CommFaultOffsets
 
-Array of stack offsets for parameters with <a href="https://msdn.microsoft.com/3ea9ce62-8bd4-40fe-b838-bfebd52b5a15">comm_status</a> or <a href="https://msdn.microsoft.com/">fault_status</a> attributes. 
+Array of stack offsets for parameters with <a href="https://docs.microsoft.com/windows/desktop/Midl/comm-status">comm_status</a> or <a href="https://msdn.microsoft.com/">fault_status</a> attributes. 
 
 
 ### -field aUserMarshalQuadruple
 
-Array of an array of function pointers for user-defined <a href="https://msdn.microsoft.com/a2407aa3-574d-4690-8cdf-cb1c01ca8c49">user_marshal</a> and <a href="https://msdn.microsoft.com/51969f2c-7390-42c4-8aa6-ba12fdb22d23">wire_marshal</a>  types.
+Array of an array of function pointers for user-defined <a href="https://docs.microsoft.com/windows/desktop/Midl/user-marshal">user_marshal</a> and <a href="https://docs.microsoft.com/windows/desktop/Midl/wire-marshal">wire_marshal</a>  types.
 
 
 ### -field NotifyRoutineTable
 
-Array of notification function pointers for methods with the <a href="https://msdn.microsoft.com/24f9887b-04b7-491a-ab6e-7c078b967fbc">notify</a> or <a href="https://msdn.microsoft.com/a40b7114-d2e3-40c1-a0b1-599428188611">notify_flag</a> attribute specified.
+Array of notification function pointers for methods with the <a href="https://docs.microsoft.com/windows/desktop/Midl/notify">notify</a> or <a href="https://docs.microsoft.com/windows/desktop/Midl/notify-flag">notify_flag</a> attribute specified.
 
 
 ### -field mFlags

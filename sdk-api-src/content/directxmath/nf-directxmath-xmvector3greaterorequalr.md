@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Tests whether one 3D vector is greater-than-or-equal-to another 3D vector and returns a comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/en-us/library/Hh437887(v=VS.85).aspx">XMComparisonAllTrue</a>.
+Tests whether one 3D vector is greater-than-or-equal-to another 3D vector and returns a comparison value that can be examined using functions such as <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmcomparisonalltrue">XMComparisonAllTrue</a>.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ Tests whether one 3D vector is greater-than-or-equal-to another 3D vector and re
 
 
 
-Returns a comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/en-us/library/Hh437887(v=VS.85).aspx">XMComparisonAllTrue</a>.
+Returns a comparison value that can be examined using functions such as <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmcomparisonalltrue">XMComparisonAllTrue</a>.
 
 
 
@@ -101,11 +101,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/8c5f71fd-2ef8-86db-42de-da3da3c17e41">DirectXMath Library 3D Vector Comparison Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector3-comparison">DirectXMath Library 3D Vector Comparison Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420813(v=VS.85).aspx">XMVector3GreaterOrEqual</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvector3greaterorequal">XMVector3GreaterOrEqual</a>
  
 
  

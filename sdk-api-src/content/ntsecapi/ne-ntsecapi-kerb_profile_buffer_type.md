@@ -59,7 +59,7 @@ The <b>KERB_PROFILE_BUFFER_TYPE</b> enumeration lists the type of logon profile 
 
 ### -field KerbInteractiveProfile
 
-The buffer contains information about an interactive <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">logon session</a>.
+The buffer contains information about an interactive <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a>.
 
 
 ### -field KerbSmartCardProfile

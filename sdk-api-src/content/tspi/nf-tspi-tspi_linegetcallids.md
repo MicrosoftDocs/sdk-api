@@ -101,11 +101,11 @@ In some telephony environments, the switch or service provider can assign a uniq
 
 
 
-<a href="https://msdn.microsoft.com/29b6e585-6da8-46a2-a612-f42d0f65f68e">CallHub Tracking</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/callhub-support">CallHub Tracking</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f4eaf7d-fc80-4131-af5a-30c6869c74ef">LINECALLHUBTRACKINGINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallhubtrackinginfo_tag">LINECALLHUBTRACKINGINFO</a>
  
 
  

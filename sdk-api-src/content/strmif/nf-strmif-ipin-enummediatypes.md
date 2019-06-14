@@ -63,7 +63,7 @@ The <b>EnumMediaTypes</b> method enumerates the pin's preferred media types.
 
 ### -param ppEnum [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/e0021e27-0e08-4d07-9610-08a9b945ae34">IEnumMediaTypes</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ienummediatypes">IEnumMediaTypes</a> interface. The caller must release the interface.
           
 
 
@@ -132,7 +132,7 @@ The pin is not connected. Some pins do not enumerate media types unless the pin 
 
 
 
-The <a href="https://msdn.microsoft.com/e0021e27-0e08-4d07-9610-08a9b945ae34">IEnumMediaTypes</a> interface works like a standard COM enumerator. For more information, see <a href="https://msdn.microsoft.com/04a3dbc8-33c4-4b70-930e-686be2f8301f">Enumerating Objects in a Filter Graph</a>. If the method succeeds, the <b>IEnumMediaTypes</b> interface has an outstanding reference count. Be sure to release it when you are done.
+The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ienummediatypes">IEnumMediaTypes</a> interface works like a standard COM enumerator. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/enumerating-objects-in-a-filter-graph">Enumerating Objects in a Filter Graph</a>. If the method succeeds, the <b>IEnumMediaTypes</b> interface has an outstanding reference count. Be sure to release it when you are done.
 
 
 
@@ -142,15 +142,15 @@ The <a href="https://msdn.microsoft.com/e0021e27-0e08-4d07-9610-08a9b945ae34">IE
 
 
 
-<a href="https://msdn.microsoft.com/3fcfd874-39bc-42d2-9fc9-2d8945ffa8e3">Data Flow in the Filter Graph</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/data-flow-in-the-filter-graph">Data Flow in the Filter Graph</a>
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/ad0ead4e-9f8e-4935-b220-306d665e50f4">IPin Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
  
 
  

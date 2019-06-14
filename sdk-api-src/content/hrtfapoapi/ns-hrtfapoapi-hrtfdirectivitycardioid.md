@@ -72,15 +72,15 @@ Controls the shape of the cardioid. The higher order the shape, the narrower it 
 
 
 
-<a href="https://msdn.microsoft.com/830DB9FC-B2D0-46E5-B0C1-0BBC94D37050">HrtfDirectivity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/hrtfapoapi/ns-hrtfapoapi-hrtfdirectivity">HrtfDirectivity</a>
 
 
 
-<a href="https://msdn.microsoft.com/88679E17-285A-41C1-87A5-C37AF66F327F">HrtfDirectivityCone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/hrtfapoapi/ns-hrtfapoapi-hrtfdirectivitycone">HrtfDirectivityCone</a>
 
 
 
-<a href="https://msdn.microsoft.com/3656aaf9-7a3a-2a5b-50f5-d279ce8a9e6c">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/structures">Structures</a>
  
 
  

@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-The <b>GetMaxLength</b> method retrieves the maximum size to which a buffer can be set. The maximum value is set when the sample is created. If you are using <a href="https://msdn.microsoft.com/en-us/library/Dd757473(v=VS.85).aspx">IWMWriter::AllocateSample</a>, the size you specify becomes the maximum buffer length. The actual amount of the buffer that is used can be retrieved by calling <a href="https://msdn.microsoft.com/en-us/library/Dd743261(v=VS.85).aspx">INSSBuffer::GetLength</a>.
+The <b>GetMaxLength</b> method retrieves the maximum size to which a buffer can be set. The maximum value is set when the sample is created. If you are using <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-allocatesample">IWMWriter::AllocateSample</a>, the size you specify becomes the maximum buffer length. The actual amount of the buffer that is used can be retrieved by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getlength">INSSBuffer::GetLength</a>.
 
 
 
@@ -121,15 +121,15 @@ The maximum size of the buffer as returned by this method does not affect or ref
 
 
 
-<a href="https://msdn.microsoft.com/f95de189-0449-4b88-aba3-7b19f385c8fe">Data Unit Extensions</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/data-unit-extensions">Data Unit Extensions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743261(v=VS.85).aspx">INSSBuffer::GetLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getlength">INSSBuffer::GetLength</a>
  
 
  

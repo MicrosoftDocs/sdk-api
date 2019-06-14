@@ -63,7 +63,7 @@ A multicast routing protocol calls this function when it is notified that there 
 ### -param hProtocol [in]
 
 Handle to the protocol obtained from a previous call to 
-<a href="https://msdn.microsoft.com/a9b5f5f3-6e54-4a97-b3e7-e9e026947116">MgmRegisterMProtocol</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmregistermprotocol">MgmRegisterMProtocol</a>.
 
 
 ### -param dwSourceAddr [in]
@@ -220,7 +220,7 @@ Not enough memory to complete this operation.
 This version of the MGM API supports only wildcard sources or specific sources, not a range of sources. The same restriction applies to groups, that is, no group ranges are permitted.
 
 When this function is called, the multicast group manager may invoke the 
-<a href="https://msdn.microsoft.com/6274f04c-78aa-4bce-b57d-625b0f4f6e5f">PMGM_JOIN_ALERT_CALLBACK</a> callback to notify other routing protocols that there are new receivers for the specified group.
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nc-mgm-pmgm_join_alert_callback">PMGM_JOIN_ALERT_CALLBACK</a> callback to notify other routing protocols that there are new receivers for the specified group.
 
 
 
@@ -230,11 +230,11 @@ When this function is called, the multicast group manager may invoke the
 
 
 
-<a href="https://msdn.microsoft.com/fe39d824-3154-4479-bd70-09b2b6593885">MgmDeleteGroupMembershipEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmdeletegroupmembershipentry">MgmDeleteGroupMembershipEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/6274f04c-78aa-4bce-b57d-625b0f4f6e5f">PMGM_JOIN_ALERT_CALLBACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nc-mgm-pmgm_join_alert_callback">PMGM_JOIN_ALERT_CALLBACK</a>
  
 
  

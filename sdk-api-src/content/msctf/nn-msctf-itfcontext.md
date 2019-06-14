@@ -54,7 +54,7 @@ The <b>ITfContext</b> interface is implemented by the TSF manager and used by ap
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfContext</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfContext</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfContext</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfContext</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfContext</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c3b52170-af1b-407b-9160-1265ae3c9afc">CreateRangeBackup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-createrangebackup">CreateRangeBackup</a>
 </td>
 <td align="left" width="63%">
 Creates a backup of a range.
@@ -78,7 +78,7 @@ Creates a backup of a range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b57c9fdc-320b-4d97-8af4-c75756326437">EnumProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-enumproperties">EnumProperties</a>
 </td>
 <td align="left" width="63%">
 Obtains a document property enumerator.
@@ -87,7 +87,7 @@ Obtains a document property enumerator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/baf09cb2-fa0e-470c-ad68-3e0187673aab">EnumViews</a>
+<a href="https://docs.microsoft.com/windows/desktop/TSF/itfcontext-enumviews">EnumViews</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -96,7 +96,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/41f7eb74-bca2-4d53-8a70-0b872616fd1b">GetActiveView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getactiveview">GetActiveView</a>
 </td>
 <td align="left" width="63%">
 Obtains the active view for the context.
@@ -105,7 +105,7 @@ Obtains the active view for the context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5c04ff8e-5686-4802-b312-71dddaf0155e">GetAppProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getappproperty">GetAppProperty</a>
 </td>
 <td align="left" width="63%">
 Obtains an application property.
@@ -114,7 +114,7 @@ Obtains an application property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/21fa683d-c386-4aa2-8bc5-d5170443c5cd">GetDocumentMgr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getdocumentmgr">GetDocumentMgr</a>
 </td>
 <td align="left" width="63%">
 Obtains the document manager that contains the context.
@@ -123,7 +123,7 @@ Obtains the document manager that contains the context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4fdae76d-ad02-43a4-8a39-418cae847ae8">GetEnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getend">GetEnd</a>
 </td>
 <td align="left" width="63%">
 Obtains a range of text positioned at the end of the document.
@@ -132,7 +132,7 @@ Obtains a range of text positioned at the end of the document.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e5d76443-f767-47fb-be3a-8cbac224d299">GetProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getproperty">GetProperty</a>
 </td>
 <td align="left" width="63%">
 Obtains a text property.
@@ -141,7 +141,7 @@ Obtains a text property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/08b67fd5-aebe-49f7-af78-6f49c8f47f64">GetSelection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getselection">GetSelection</a>
 </td>
 <td align="left" width="63%">
 Obtains the selection within the document.
@@ -150,7 +150,7 @@ Obtains the selection within the document.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3108da05-c38f-4f0c-a16a-1f7e5f05d475">GetStart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getstart">GetStart</a>
 </td>
 <td align="left" width="63%">
 Obtains a range of text positioned at the beginning of the document.
@@ -159,7 +159,7 @@ Obtains a range of text positioned at the beginning of the document.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a1f193b0-fcfc-4db6-90e9-61d528b08672">GetStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getstatus">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Obtains the document status.
@@ -168,7 +168,7 @@ Obtains the document status.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/88a8a2c1-bd5f-47d2-8612-c7e0cabfe254">InWriteSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-inwritesession">InWriteSession</a>
 </td>
 <td align="left" width="63%">
 Determines if a client has a read/write lock on the context.
@@ -177,7 +177,7 @@ Determines if a client has a read/write lock on the context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6c7b150c-0ca0-4aa5-8828-0c548dbfb215">RequestEditSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-requesteditsession">RequestEditSession</a>
 </td>
 <td align="left" width="63%">
 Obtains access to the document text and properties.
@@ -186,7 +186,7 @@ Obtains access to the document text and properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1cf50b5e-6ec2-4649-9acc-743a2e3d8096">SetSelection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-setselection">SetSelection</a>
 </td>
 <td align="left" width="63%">
 Sets the selection within the document.
@@ -195,7 +195,7 @@ Sets the selection within the document.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e283a45d-b585-4a26-89db-7ed706f0f593">TrackProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-trackproperties">TrackProperties</a>
 </td>
 <td align="left" width="63%">
 Obtains a special property that can enumerate multiple properties over multiple ranges.
@@ -209,7 +209,7 @@ Obtains a special property that can enumerate multiple properties over multiple 
 
 
 
-An edit context object is created by calling <a href="https://msdn.microsoft.com/1415f338-731c-44c5-b798-edf823174272">ITfDocumentMgr::CreateContext</a>. Often, a text service uses the currently active edit context. The currently active edit context is the edit context at the top of the stack of the active document manager.
+An edit context object is created by calling <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a>. Often, a text service uses the currently active edit context. The currently active edit context is the edit context at the top of the stack of the active document manager.
 
 
 #### Examples
@@ -247,16 +247,16 @@ if(SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/cf8bbe66-d2ad-49b3-9e7c-246e4ca50149">Edit Contexts</a>
+<a href="https://docs.microsoft.com/windows/desktop/TSF/edit-contexts">Edit Contexts</a>
 
 
 
-<a href="https://msdn.microsoft.com/1415f338-731c-44c5-b798-edf823174272">ITfDocumentMgr::CreateContext
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

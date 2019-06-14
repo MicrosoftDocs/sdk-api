@@ -83,12 +83,12 @@ See the Bluetooth specification at
 
 
 
-<a href="https://msdn.microsoft.com/32fa710f-8645-4cf3-a882-cc032d66d979">Bluetooth and WSALookupServiceBegin for Device
+<a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-wsalookupservicebegin-for-device-inquiry">Bluetooth and WSALookupServiceBegin for Device
 		  Inquiry</a>
 
 
 
-<a href="https://msdn.microsoft.com/0c0d26f7-b6c3-42a9-8c01-118278c381cc">Bluetooth and WSAQUERYSET for Device Inquiry</a>
+<a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-wsaqueryset-for-device-inquiry">Bluetooth and WSAQUERYSET for Device Inquiry</a>
  
 
  

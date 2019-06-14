@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Exposes a method that extends <a href="https://msdn.microsoft.com/5fbbcd26-c60a-4b6a-92cf-36b8bd429266">IInputObject</a> by handling global accelerators.
+Exposes a method that extends <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobject">IInputObject</a> by handling global accelerators.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInputObject2</b> interface inherits from <a href="https://msdn.microsoft.com/5fbbcd26-c60a-4b6a-92cf-36b8bd429266">IInputObject</a>. <b>IInputObject2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInputObject2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobject">IInputObject</a>. <b>IInputObject2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IInputObject2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f55f2671-7164-421e-9269-aa70e85180de">TranslateAcceleratorGlobal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinputobject2-translateacceleratorglobal">TranslateAcceleratorGlobal</a>
 </td>
 <td align="left" width="63%">
 Handles global accelerators so that input objects can respond to the keyboard even when they are not active in the UI.
@@ -83,7 +83,7 @@ Handles global accelerators so that input objects can respond to the keyboard ev
 
 
 
-This interface also provides the methods of the <a href="https://msdn.microsoft.com/5fbbcd26-c60a-4b6a-92cf-36b8bd429266">IInputObject</a> interface, from which it inherits.
+This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobject">IInputObject</a> interface, from which it inherits.
 
 
 

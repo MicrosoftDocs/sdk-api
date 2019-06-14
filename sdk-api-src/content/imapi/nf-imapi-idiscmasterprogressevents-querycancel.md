@@ -50,9 +50,9 @@ ms.custom: 19H1
 
 
 Checks whether an 
-<a href="https://msdn.microsoft.com/91517103-71c5-450c-9d93-584f94cd2c45">AddData</a>, 
-<a href="https://msdn.microsoft.com/d9bd4f3c-4ff5-4f6e-9520-27fef3736636">AddAudioTrackBlocks</a>, or 
-<a href="https://msdn.microsoft.com/2b234dc5-2409-49d8-83be-0ffea74f5bcf">RecordDisc</a> operation should be canceled.
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-ijolietdiscmaster-adddata">AddData</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-iredbookdiscmaster-addaudiotrackblocks">AddAudioTrackBlocks</a>, or 
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmaster-recorddisc">RecordDisc</a> operation should be canceled.
 
 
 ## -parameters
@@ -79,7 +79,7 @@ S_OK is returned on success, but other success codes may be returned as a result
 
 
 
-<a href="https://msdn.microsoft.com/68f7edbd-4a06-4e8d-a562-21a65767aff6">IDiscMasterProgressEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscmasterprogressevents">IDiscMasterProgressEvents</a>
  
 
  

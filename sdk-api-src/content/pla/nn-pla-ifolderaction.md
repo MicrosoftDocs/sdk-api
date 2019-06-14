@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the actions that the <a href="https://msdn.microsoft.com/a153d88f-4c7e-45fd-9cd8-497160711de4">data manager</a> is to take on each folder under the data collector set's <a href="https://msdn.microsoft.com/42940cec-c76a-433c-9308-f030dacb05a4">root path</a> if both conditions (age and size) are met. 
+Specifies the actions that the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatamanager">data manager</a> is to take on each folder under the data collector set's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_rootpath">root path</a> if both conditions (age and size) are met. 
 
-To get this interface, call the <a href="https://msdn.microsoft.com/caced576-cbe8-49d1-a372-70f035a6e3ed">IFolderActionCollection::CreateFolderAction</a> method.
+To get this interface, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ifolderactioncollection-createfolderaction">IFolderActionCollection::CreateFolderAction</a> method.
 
 
 ## -remarks
@@ -60,7 +60,7 @@ To get this interface, call the <a href="https://msdn.microsoft.com/caced576-cbe
 
 To create the object from a script, use the Pla.FolderAction program identifier.
 
-For an example that shows the XML that you can use to initialize this object if you call the <a href="https://msdn.microsoft.com/10bffd54-990f-412f-baae-b8ab621b02b8">IDataCollectorSet::SetXml</a> method, see the Remarks section of <a href="https://msdn.microsoft.com/a4ae0874-4ee6-46a1-9811-8cd4be26859c">IDataCollectorSet</a>.  When you specify the XML to create the object, you can specify only the elements for the properties that you want to set. If you do not specify a property, PLA provides a default value. When you retrieve the XML for the set, the XML includes all elements. 
+For an example that shows the XML that you can use to initialize this object if you call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-setxml">IDataCollectorSet::SetXml</a> method, see the Remarks section of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>.  When you specify the XML to create the object, you can specify only the elements for the properties that you want to set. If you do not specify a property, PLA provides a default value. When you retrieve the XML for the set, the XML includes all elements. 
 
 
 

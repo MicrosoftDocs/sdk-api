@@ -60,14 +60,14 @@ Creates and returns an offset transform.
 
 ### -param offset
 
-Type: <b><a href="https://msdn.microsoft.com/B782EDE3-54A2-4FCA-8E9C-C472950A5509">D2D1_POINT_2L</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh847948(v=vs.85)">D2D1_POINT_2L</a></b>
 
 The offset amount.
 
 
 ### -param transform [out]
 
-Type: <b><a href="https://msdn.microsoft.com/0809C0FC-2F7B-49D8-A695-AD451C9BD17F">ID2D1OffsetTransform</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1offsettransform">ID2D1OffsetTransform</a>**</b>
 
 When this method returns, contains the address of a pointer to an offset transform object.
 
@@ -117,11 +117,11 @@ An offset transform is used to offset an input bitmap without having to insert a
 
 
 
-<a href="https://msdn.microsoft.com/a54dd628-c2a2-4b04-9ced-7749a395f187">ID2D1DeviceContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/6BE6DF90-C5B7-4377-9DBF-804AB1C91FEE">ID2D1EffectContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectcontext">ID2D1EffectContext</a>
  
 
  

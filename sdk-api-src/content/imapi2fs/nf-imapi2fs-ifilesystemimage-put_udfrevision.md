@@ -100,7 +100,7 @@ The value is encoded according to the UDF specification, except the variable siz
 
 This property is used to specify the UDF revision in a new file system image. If the file system is imported, you cannot call this method to change the UDF revision level.
 
-To determine the supported UDF revision levels, call the <a href="https://msdn.microsoft.com/ad9b4a68-5fef-4092-9cef-4b5ebd9c5093">IFileSystemImage::get_UDFRevisionsSupported</a> method.
+To determine the supported UDF revision levels, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_udfrevisionssupported">IFileSystemImage::get_UDFRevisionsSupported</a> method.
 
 
 
@@ -110,11 +110,11 @@ To determine the supported UDF revision levels, call the <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/0256f1d2-a3fb-45b2-bd84-e2b71148e4ec">IFileSystemImage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
 
 
 
-<a href="https://msdn.microsoft.com/c854a8db-730a-42a3-b50c-fb8fec271b57">IFileSystemImage::get_UDFRevision</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_udfrevision">IFileSystemImage::get_UDFRevision</a>
  
 
  

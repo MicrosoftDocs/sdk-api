@@ -53,7 +53,7 @@ Manages the configuration information that is common to all data collector objec
     removes data collectors from the set; and starts data collection. This is the primary PLA interface that you 
     use.
 
-To get this interface, call the <a href="https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a> 
+To get this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> 
     function, passing <code>__uuidof(DataCollectorSet)</code> as the class 
     identifier and <code>__uuidof(IDataCollectorSet)</code> as the interface 
     identifier.
@@ -61,7 +61,7 @@ To get this interface, call the <a href="https://msdn.microsoft.com/7295a55b-12c
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDataCollectorSet</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IDataCollectorSet</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDataCollectorSet</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IDataCollectorSet</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -77,7 +77,7 @@ The <b>IDataCollectorSet</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7e432e1f-4b86-45dc-93d5-df603068273d">Commit</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-commit">Commit</a>
 </td>
 <td align="left" width="63%">
 Saves, updates, or validates the data collector set. You can also use this method to flush a trace 
@@ -87,7 +87,7 @@ Saves, updates, or validates the data collector set. You can also use this metho
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/35e95d41-0d6c-428a-a167-6667275d4fb7">Delete</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-delete">Delete</a>
 </td>
 <td align="left" width="63%">
 Deletes the persisted copy of the data collector set if the set is not running.
@@ -96,7 +96,7 @@ Deletes the persisted copy of the data collector set if the set is not running.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0f82e154-7d3f-44c9-8bdd-cc1522499e85">GetValue</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-getvalue">GetValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves a user-defined value.
@@ -105,7 +105,7 @@ Retrieves a user-defined value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ac07169e-710c-4267-ae08-ed18a15d866d">Query</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-query">Query</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified data collector set from the hard disk and overwrites this object with the contents 
@@ -115,7 +115,7 @@ Retrieves the specified data collector set from the hard disk and overwrites thi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/39275154-fe85-492e-9d64-79d17cb4f88d">SetCredentials</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-setcredentials">SetCredentials</a>
 </td>
 <td align="left" width="63%">
 Specifies the user account under which the data collector set runs.
@@ -124,7 +124,7 @@ Specifies the user account under which the data collector set runs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d2143de9-f189-47e0-8b28-0422d9984459">SetValue</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-setvalue">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets a user-defined value.
@@ -133,7 +133,7 @@ Sets a user-defined value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/10bffd54-990f-412f-baae-b8ab621b02b8">SetXml</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-setxml">SetXml</a>
 </td>
 <td align="left" width="63%">
 Sets the property values of those properties included in the XML.
@@ -142,7 +142,7 @@ Sets the property values of those properties included in the XML.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/63f0c7b7-0dc6-4491-a2f5-eaae9d22da61">Start</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-start">Start</a>
 </td>
 <td align="left" width="63%">
 Manually starts the data collector set.
@@ -151,7 +151,7 @@ Manually starts the data collector set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b869ea8e-4fc8-4974-9e1c-1d2c480c3b0e">Stop</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-stop">Stop</a>
 </td>
 <td align="left" width="63%">
 Manually stops the data collector set.
@@ -168,7 +168,7 @@ Manually stops the data collector set.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/1bcfc15e-bc20-4dfa-a934-d0100b8db23f">DataCollectors</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_datacollectors">DataCollectors</a>
 
 
 </td>
@@ -180,7 +180,7 @@ Retrieves the list of data collectors in this set.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/739cf386-c5fb-454c-9919-e3997944d68c">DataManager</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_datamanager">DataManager</a>
 
 
 </td>
@@ -192,7 +192,7 @@ Retrieves the data manager associated with this data collector set.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d36deb28-09fa-4efd-bfe8-055757f4273a">Description</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_description">Description</a>
 
 
 </td>
@@ -204,7 +204,7 @@ Retrieves or sets the description of the data collector set.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/153159b2-54dc-477a-92eb-18328ea3351b">DescriptionUnresolved</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_descriptionunresolved">DescriptionUnresolved</a>
 
 
 </td>
@@ -216,7 +216,7 @@ Retrieves the description of the data collector set in its original form.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/4be6d1a1-54de-45fa-8d00-36f8b95e30a5">DisplayName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_displayname">DisplayName</a>
 
 
 </td>
@@ -228,7 +228,7 @@ Retrieves or sets the display name of the data collector set.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/47941406-e05d-4a64-9a84-8aa7162e5b48">DisplayNameUnresolved</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_displaynameunresolved">DisplayNameUnresolved</a>
 
 
 </td>
@@ -240,7 +240,7 @@ Retrieves the display name of the data collector set in its original form.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/afa8f8f2-52a7-481f-ba7e-19f9b757aeb8">Duration</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_duration">Duration</a>
 
 
 </td>
@@ -252,7 +252,7 @@ Retrieves and sets the duration that the data collector set runs.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/0a1203e3-672b-47fb-9072-d3f06ba22865">Keywords</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_keywords">Keywords</a>
 
 
 </td>
@@ -264,7 +264,7 @@ Retrieves or sets keywords that describe the data collector set.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c0047144-5f99-4acd-ad96-054afcbe6eb9">LatestOutputLocation</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_latestoutputlocation">LatestOutputLocation</a>
 
 
 </td>
@@ -276,7 +276,7 @@ Retrieves or sets the fully decorated folder name that PLA used the last time lo
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/69f6af39-b614-4957-a1e5-1f381c915f17">Name</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_name">Name</a>
 
 
 </td>
@@ -288,7 +288,7 @@ Retrieves the unique name used to identify the data collector set.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d0ca2655-f65a-4bcb-8e9e-f247b4207e56">OutputLocation</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_outputlocation">OutputLocation</a>
 
 
 </td>
@@ -300,7 +300,7 @@ Retrieves the decorated folder name if PLA were to create it now.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/42940cec-c76a-433c-9308-f030dacb05a4">RootPath</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_rootpath">RootPath</a>
 
 
 </td>
@@ -312,7 +312,7 @@ Retrieves or sets the base path where the subdirectories are created.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/6654c101-5179-41db-8fd9-ae281691073f">Schedules</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_schedules">Schedules</a>
 
 
 </td>
@@ -324,7 +324,7 @@ Retrieves the list of schedules that determine when the data collector set runs.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/75ebe328-1494-464c-9491-e8a39e1d8ee1">SchedulesEnabled</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_schedulesenabled">SchedulesEnabled</a>
 
 
 </td>
@@ -336,7 +336,7 @@ Retrieves or sets a value that indicates whether the schedules are enabled.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/cd915df3-2823-4d3e-bfd0-545c24f95267">Security</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_security">Security</a>
 
 
 </td>
@@ -348,7 +348,7 @@ Retrieves or sets access control information that determines who can access this
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/5ecac3dd-0cd1-4563-a6b3-1b98e29fe769">Segment</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_segment">Segment</a>
 
 
 </td>
@@ -361,7 +361,7 @@ Retrieves or sets a value that indicates whether PLA creates new logs if the max
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d958c7a7-0258-4db6-b650-14a61d59221b">SegmentMaxDuration</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_segmentmaxduration">SegmentMaxDuration</a>
 
 
 </td>
@@ -374,7 +374,7 @@ Retrieves or sets the duration that the data collector set can run before it beg
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/7dd96822-a398-42c3-94f1-b9cd7a647575">SegmentMaxSize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_segmentmaxsize">SegmentMaxSize</a>
 
 
 </td>
@@ -386,7 +386,7 @@ Retrieves or sets the maximum size of any log file in the data collector set.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/92bfd307-362e-4d60-9a61-d2096fbb3d19">SerialNumber</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_serialnumber">SerialNumber</a>
 
 
 </td>
@@ -399,7 +399,7 @@ Retrieves or sets the number of times that this data collector set has been star
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/43098848-1b1f-4ce1-a34c-62bb493aaf0e">Server</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_server">Server</a>
 
 
 </td>
@@ -411,7 +411,7 @@ Retrieves the name of the server where the data collector set is run.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d957d34d-5455-486a-bd54-28afd7e6f979">Status</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_status">Status</a>
 
 
 </td>
@@ -423,7 +423,7 @@ Retrieves the status of the data collector set.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/bb7e18c6-e809-455e-9bee-c4bb6cf07c26">StopOnCompletion</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_stoponcompletion">StopOnCompletion</a>
 
 
 </td>
@@ -436,7 +436,7 @@ Retrieves or sets a value that determines whether the data collector set stops w
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c2c55fd9-3b29-46be-9792-acb095b1c0e4">Subdirectory</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_subdirectory">Subdirectory</a>
 
 
 </td>
@@ -449,7 +449,7 @@ Retrieves or sets a base subdirectory of the root path where the next instance o
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/f9e6eb88-ac38-4b99-ab64-a408f75f7969">SubdirectoryFormat</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_subdirectoryformat">SubdirectoryFormat</a>
 
 
 </td>
@@ -461,7 +461,7 @@ Retrieves or sets flags that describe how to decorate the subdirectory name.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/83b7df10-8b00-4d64-bf71-2c68e037ab3f">SubdirectoryFormatPattern</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_subdirectoryformatpattern">SubdirectoryFormatPattern</a>
 
 
 </td>
@@ -473,7 +473,7 @@ Retrieves or sets a format pattern to use when decorating the folder name.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8a89ebb9-2396-43f9-81ee-bfc2cdff18fa">Task</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_task">Task</a>
 
 
 </td>
@@ -486,20 +486,20 @@ Retrieves or sets the name of a Task Scheduler job to start each time the data c
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/7bd045df-379b-40fb-b309-cec531493018">TaskArguments</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_taskarguments">TaskArguments</a>
 
 
 </td>
 <td align="left" width="63%">
 Retrieves or sets the command-line arguments to pass to the Task Scheduler job specified in the 
-    <a href="https://msdn.microsoft.com/8a89ebb9-2396-43f9-81ee-bfc2cdff18fa">IDataCollectorSet::Task</a> property.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_task">IDataCollectorSet::Task</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/14a7f6db-b5aa-4462-978e-66cd58e05446">TaskRunAsSelf</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_taskrunasself">TaskRunAsSelf</a>
 
 
 </td>
@@ -512,14 +512,14 @@ Retrieves or sets a value that determines whether the task runs as the data coll
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/99fb2ed4-525b-4733-a652-b164b2c19980">TaskUserTextArguments</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_taskusertextarguments">TaskUserTextArguments</a>
 
 
 </td>
 <td align="left" width="63%">
 Retrieves or sets the command-line arguments that are substituted for the {usertext} substitution variable in
     the 
-    <a href="https://msdn.microsoft.com/7bd045df-379b-40fb-b309-cec531493018">IDataCollectorSet::TaskArguments</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_taskarguments">IDataCollectorSet::TaskArguments</a> 
     property.
 
 </td>
@@ -527,7 +527,7 @@ Retrieves or sets the command-line arguments that are substituted for the {usert
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/32fe1dcf-9682-40fd-b301-45385fa33cbe">UserAccount</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_useraccount">UserAccount</a>
 
 
 </td>
@@ -539,7 +539,7 @@ Retrieves the user account under which the data collector set will run.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/4b07bf1c-58e8-430a-a68c-c16cab954140">Xml</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_xml">Xml</a>
 
 
 </td>
@@ -559,32 +559,32 @@ Retrieves an XML string that describes the values of the data collector set prop
 To create the object from a script, use the "Pla.DataCollectorSet" program identifier.
 
 To retrieve an existing data collector set, create an instance of the data collector set object and then call 
-    the <a href="https://msdn.microsoft.com/ac07169e-710c-4267-ae08-ed18a15d866d">IDataCollectorSet::Query</a> method 
+    the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-query">IDataCollectorSet::Query</a> method 
     to query the properties of a previously 
-    <a href="https://msdn.microsoft.com/7e432e1f-4b86-45dc-93d5-df603068273d">persisted </a> data collector set.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-commit">persisted </a> data collector set.
 
 To create a set, create an instance of the data collector set object and set the properties as appropriate. 
     You
     can set the properties individually or pass XML that contains the property values to the 
-    <a href="https://msdn.microsoft.com/10bffd54-990f-412f-baae-b8ab621b02b8">IDataCollectorSet::SetXml</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-setxml">IDataCollectorSet::SetXml</a> 
     method.
 
 To add new data collector objects to the set, retrieve the collection from the 
-    <a href="https://msdn.microsoft.com/1bcfc15e-bc20-4dfa-a934-d0100b8db23f">IDataCollectorSet::DataCollectors</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_datacollectors">IDataCollectorSet::DataCollectors</a> 
     property. To persist the data collector set, call the 
-    <a href="https://msdn.microsoft.com/7e432e1f-4b86-45dc-93d5-df603068273d">IDataCollectorSet::Commit</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-commit">IDataCollectorSet::Commit</a> 
     method.
 
 You can start the data collectors manually using the 
-    <a href="https://msdn.microsoft.com/63f0c7b7-0dc6-4491-a2f5-eaae9d22da61">IDataCollectorSet::Start</a> method or automatically 
-    using the <a href="https://msdn.microsoft.com/6654c101-5179-41db-8fd9-ae281691073f">IDataCollectorSet::Schedules</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-start">IDataCollectorSet::Start</a> method or automatically 
+    using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_schedules">IDataCollectorSet::Schedules</a> 
     property. Alternatively, an alert can trigger a collection to run if the 
-    <a href="https://msdn.microsoft.com/3ba9b1c0-432e-4caf-a082-33d1c5c3b132">IAlertDataCollector::TriggerDataCollectorSet</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ialertdatacollector-get_triggerdatacollectorset">IAlertDataCollector::TriggerDataCollectorSet</a> 
     property is set.
 
 If you want to manage the collected data, retrieve an 
-    <a href="https://msdn.microsoft.com/a153d88f-4c7e-45fd-9cd8-497160711de4">IDataManager</a> interface from the 
-    <a href="https://msdn.microsoft.com/739cf386-c5fb-454c-9919-e3997944d68c">IDataCollectorSet::DataManager</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatamanager">IDataManager</a> interface from the 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_datamanager">IDataCollectorSet::DataManager</a> 
     property.
 
 The following example shows the XML elements for a data collector set. For details, see the corresponding 
@@ -647,12 +647,12 @@ The following example shows the XML elements for a data collector set. For detai
 ```
 
 
-If you call <a href="https://msdn.microsoft.com/4b07bf1c-58e8-430a-a68c-c16cab954140">IDataCollectorSet::Xml</a> to 
+If you call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_xml">IDataCollectorSet::Xml</a> to 
     retrieve the XML for a set and the set includes data collectors, the XML will also contain the XML elements for 
     each data collector in the set.
 
 To use the data collector set elements to initialize the property values of a data collector set, call the 
-    <a href="https://msdn.microsoft.com/10bffd54-990f-412f-baae-b8ab621b02b8">SetXml</a> method. The contents of the XML will 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-setxml">SetXml</a> method. The contents of the XML will 
     overwrite the existing contents of the set. The following shows how to include the elements for the alert data 
     collector. 
 
@@ -692,7 +692,7 @@ You can specify only the elements for the properties that you want to set. If yo
 
 
 
-<a href="https://msdn.microsoft.com/e1860bcf-c62d-434b-b98b-38bad7f84d89">IDataCollector</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollector">IDataCollector</a>
  
 
  

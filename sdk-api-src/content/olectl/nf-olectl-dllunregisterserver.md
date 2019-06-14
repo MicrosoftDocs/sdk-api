@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Instructs an in-process server to remove only those entries created through <a href="https://msdn.microsoft.com/4442206b-b2ad-47d7-8add-18002c44c5a2">DllRegisterServer</a>.
+Instructs an in-process server to remove only those entries created through <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-dllregisterserver">DllRegisterServer</a>.
 
 
 
@@ -126,7 +126,7 @@ The server was unable to remove the entries of all the object classes.
 
 
 
-The server must not disturb any entries that it did not create which currently exist for its object classes. For example, between registration and unregistration, the user may have specified a Treat As relationship between this class and another. In that case, unregistration can remove all entries except the <b>TreatAs</b> key and any others that were not explicitly created in <a href="https://msdn.microsoft.com/4442206b-b2ad-47d7-8add-18002c44c5a2">DllRegisterServer</a>. The <a href="https://msdn.microsoft.com/a490b748-42e8-462b-9a7f-a8b21438ea79">registry functions</a> specifically disallow the deletion of an entire populated tree in the registry. The server can attempt, as the last step, to remove the CLSID key, but if other entries still exist, the key will remain.
+The server must not disturb any entries that it did not create which currently exist for its object classes. For example, between registration and unregistration, the user may have specified a Treat As relationship between this class and another. In that case, unregistration can remove all entries except the <b>TreatAs</b> key and any others that were not explicitly created in <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-dllregisterserver">DllRegisterServer</a>. The <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-functions">registry functions</a> specifically disallow the deletion of an entire populated tree in the registry. The server can attempt, as the last step, to remove the CLSID key, but if other entries still exist, the key will remain.
 
 
 
@@ -136,7 +136,7 @@ The server must not disturb any entries that it did not create which currently e
 
 
 
-<a href="https://msdn.microsoft.com/4442206b-b2ad-47d7-8add-18002c44c5a2">DllRegisterServer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-dllregisterserver">DllRegisterServer</a>
  
 
  

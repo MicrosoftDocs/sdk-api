@@ -74,7 +74,7 @@ Reserved for flag data. Must be zero.
 
 ### -param ppNewSample [out]
 
-Address of a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd377143(v=VS.85).aspx">IStreamSample</a> interface that will point to the newly created shared sample.
+Address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-istreamsample">IStreamSample</a> interface that will point to the newly created shared sample.
 
 
 ## -returns
@@ -152,7 +152,7 @@ This method calls <b>IUnknown::QueryInterface</b> on the existing sample to retr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd407041(v=VS.85).aspx">IMediaStream Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream Interface</a>
  
 
  

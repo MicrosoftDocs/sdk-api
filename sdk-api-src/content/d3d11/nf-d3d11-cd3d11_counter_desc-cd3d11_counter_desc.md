@@ -48,7 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-Instantiates a new instance of an uninitialized <a href="https://msdn.microsoft.com/7625F9B4-B181-44B3-BA1F-46936EF151DE">CD3D11_COUNTER_DESC</a> structure.
+Instantiates a new instance of an uninitialized <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151626(v=vs.85)">CD3D11_COUNTER_DESC</a> structure.
 
 ## -parameters
 
@@ -58,4 +58,4 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/7625F9B4-B181-44B3-BA1F-46936EF151DE">CD3D11_COUNTER_DESC</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151626(v=vs.85)">CD3D11_COUNTER_DESC</a>

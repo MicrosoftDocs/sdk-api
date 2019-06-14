@@ -63,7 +63,7 @@ Retrieves the client's certificate.
 
 ### -param ppCert [out]
 
-Receives a pointer to a buffer allocated by the object. The buffer contains the client's certificate. The caller must release the buffer by calling <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
+Receives a pointer to a buffer allocated by the object. The buffer contains the client's certificate. The caller must release the buffer by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 
 ### -param pcbCert [out]
@@ -104,7 +104,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/063170b8-9483-4acd-9b42-a226e9c38f0e">IMFSecureChannel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsecurechannel">IMFSecureChannel</a>
  
 
  

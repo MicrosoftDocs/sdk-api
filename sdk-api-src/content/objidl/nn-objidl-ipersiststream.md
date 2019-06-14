@@ -69,7 +69,7 @@ The <b>IPersistStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ef9f0afe-b7e5-4b88-b59d-1371ffeaacb8">GetSizeMax</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststream-getsizemax">GetSizeMax</a>
 </td>
 <td align="left" width="63%">
 Retrieves the size of the stream needed to save the object.
@@ -78,7 +78,7 @@ Retrieves the size of the stream needed to save the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fabafc37-18f2-4def-b6bf-f7daa2bb8f37">IsDirty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststream-isdirty">IsDirty</a>
 </td>
 <td align="left" width="63%">
 Determines whether an object has changed since it was last saved to its stream.
@@ -87,7 +87,7 @@ Determines whether an object has changed since it was last saved to its stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/351e1187-9959-4542-8778-925457c3b8e3">Load</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststream-load">Load</a>
 </td>
 <td align="left" width="63%">
 Initializes an object from the stream where it was saved previously.
@@ -96,7 +96,7 @@ Initializes an object from the stream where it was saved previously.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b748b4f9-ef9c-486b-bdc4-4d23c4640ff7">Save</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststream-save">Save</a>
 </td>
 <td align="left" width="63%">
 Saves an object to the specified stream.
@@ -113,11 +113,11 @@ Saves an object to the specified stream.
 One way in which this interface is used is to support OLE moniker implementations. Each of the OLE-provided moniker interfaces provides an <b>IPersistStream</b> implementation through which the moniker saves or loads itself. An instance of the OLE generic composite moniker class calls the <b>IPersistStream</b> methods of its component monikers to load or save the components in the proper sequence in a single stream.
 
 <h3><a id="IPersistStream_URL_Moniker_Implementation"></a><a id="ipersiststream_url_moniker_implementation"></a><a id="IPERSISTSTREAM_URL_MONIKER_IMPLEMENTATION"></a>IPersistStream URL Moniker Implementation</h3>
-The URL moniker implementation of <b>IPersistStream</b> is found on an URL moniker object, which supports <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>, <b>IAsyncMoniker</b>, and <a href="https://msdn.microsoft.com/17f4c1df-7a9c-42ef-a888-70cd8d85f070">IMoniker</a>. The <b>IMoniker</b> interface inherits its definition from <b>IPersistStream</b> and thus, the URL moniker also provides an implementation of <b>IPersistStream</b> as part of its implementation of <b>IMoniker</b>.
+The URL moniker implementation of <b>IPersistStream</b> is found on an URL moniker object, which supports <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>, <b>IAsyncMoniker</b>, and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>. The <b>IMoniker</b> interface inherits its definition from <b>IPersistStream</b> and thus, the URL moniker also provides an implementation of <b>IPersistStream</b> as part of its implementation of <b>IMoniker</b>.
 
-The <a href="https://msdn.microsoft.com/library/ms775081(v=VS.85).aspx">IAsyncMoniker</a> interface on an URL moniker is simply <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> (there are no additional methods); it is used to allow clients to determine if a moniker supports asynchronous binding. To get a pointer to the <a href="https://msdn.microsoft.com/17f4c1df-7a9c-42ef-a888-70cd8d85f070">IMoniker</a> interface on this object, call the <b>CreateURLMonikerEx</b> function. Then, to get a pointer to <b>IPersistStream</b>, call the <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> method.
+The <a href="https://docs.microsoft.com/previous-versions//ms775081(v=vs.85)">IAsyncMoniker</a> interface on an URL moniker is simply <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> (there are no additional methods); it is used to allow clients to determine if a moniker supports asynchronous binding. To get a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface on this object, call the <b>CreateURLMonikerEx</b> function. Then, to get a pointer to <b>IPersistStream</b>, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method.
 
-<b>IPersistStream</b>, in addition to inheriting its definition from <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>, also inherits the single method of <a href="https://msdn.microsoft.com/932eb0e2-35a6-482e-9138-00cff30508a9">IPersist</a>, <a href="https://msdn.microsoft.com/921a3b86-a240-454e-9411-8d653e02b90e">GetClassID</a>.
+<b>IPersistStream</b>, in addition to inheriting its definition from <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>, also inherits the single method of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersist">IPersist</a>, <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersist-getclassid">GetClassID</a>.
 
 
 
@@ -127,11 +127,11 @@ The <a href="https://msdn.microsoft.com/library/ms775081(v=VS.85).aspx">IAsyncMo
 
 
 
-<a href="https://msdn.microsoft.com/17f4c1df-7a9c-42ef-a888-70cd8d85f070">IMoniker</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
 
 
 
-<a href="https://msdn.microsoft.com/49c413b3-3523-4602-9ec1-19f4e0fe5651">IPersistStreamInit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipersiststreaminit">IPersistStreamInit</a>
  
 
  

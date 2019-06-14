@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 Registers a window to process the  
 
-<a href="https://msdn.microsoft.com/741F9D67-A914-46CF-91A3-EF40447E7438">WM_TOUCHHITTESTING</a> notification.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-touchhittesting">WM_TOUCHHITTESTING</a> notification.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Registers a window to process the
 
 ### -param hwnd [in]
 
-The window that receives the <a href="https://msdn.microsoft.com/741F9D67-A914-46CF-91A3-EF40447E7438">WM_TOUCHHITTESTING</a>  notification.
+The window that receives the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-touchhittesting">WM_TOUCHHITTESTING</a>  notification.
 
 
 ### -param value [in]
@@ -72,12 +72,12 @@ One of the following values:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/D1ECCBFA-CD01-401E-A42E-4F954F5F0A32">TOUCH_HIT_TESTING_CLIENT</a>: Send <a href="https://msdn.microsoft.com/741F9D67-A914-46CF-91A3-EF40447E7438">WM_TOUCHHITTESTING</a>  messages to the target window.</li>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_touchhittest/hit-testing-behaviors">TOUCH_HIT_TESTING_CLIENT</a>: Send <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-touchhittesting">WM_TOUCHHITTESTING</a>  messages to the target window.</li>
 <li>
-<a href="https://msdn.microsoft.com/D1ECCBFA-CD01-401E-A42E-4F954F5F0A32">TOUCH_HIT_TESTING_DEFAULT</a>: Don't send <a href="https://msdn.microsoft.com/741F9D67-A914-46CF-91A3-EF40447E7438">WM_TOUCHHITTESTING</a>  messages to the target window but continue to send the messages to child windows.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_touchhittest/hit-testing-behaviors">TOUCH_HIT_TESTING_DEFAULT</a>: Don't send <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-touchhittesting">WM_TOUCHHITTESTING</a>  messages to the target window but continue to send the messages to child windows.
 </li>
 <li>
-<a href="https://msdn.microsoft.com/D1ECCBFA-CD01-401E-A42E-4F954F5F0A32">TOUCH_HIT_TESTING_NONE</a>: Don't send <a href="https://msdn.microsoft.com/741F9D67-A914-46CF-91A3-EF40447E7438">WM_TOUCHHITTESTING</a>  messages to the target window or child windows.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_touchhittest/hit-testing-behaviors">TOUCH_HIT_TESTING_NONE</a>: Don't send <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-touchhittesting">WM_TOUCHHITTESTING</a>  messages to the target window or child windows.
 </li>
 </ul>
 
@@ -87,7 +87,7 @@ One of the following values:
 
 If this function succeeds, it returns TRUE.
  
-Otherwise, it returns FALSE. To retrieve extended error information, call the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+Otherwise, it returns FALSE. To retrieve extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 
 
@@ -98,7 +98,7 @@ Otherwise, it returns FALSE. To retrieve extended error information, call the <a
 
 
 
-<a href="https://msdn.microsoft.com/C7275A12-4F76-485D-896F-3CCB8CE92F8E">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_touchhittest/functions">Functions</a>
  
 
  

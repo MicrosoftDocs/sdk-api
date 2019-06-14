@@ -64,7 +64,7 @@ The <b>GetTransactionType</b> method retrieves the type of the current transacti
 
 ### -param pwmptt [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd564894(v=VS.85).aspx">WMPTransactionType</a> that receives the transaction type value.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/ne-contentpartner-wmptransactiontype">WMPTransactionType</a> that receives the transaction type value.
 
 
 ## -returns
@@ -100,11 +100,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563131(v=VS.85).aspx">IWMPContentContainerList Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentcontainerlist">IWMPContentContainerList Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd564894(v=VS.85).aspx">WMPTransactionType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/ne-contentpartner-wmptransactiontype">WMPTransactionType</a>
  
 
  

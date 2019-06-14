@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 The 
 <b>IWbemDecoupledBasicEventProvider::GetSink</b> method retrieves an 
-<a href="https://msdn.microsoft.com/987aea1d-912a-4691-987f-181c1ef1a8a9">IWbemObjectSink</a> object for event forwarding to WMI. This method provides for fully concurrent access.
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a> object for event forwarding to WMI. This method provides for fully concurrent access.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ Reserved for future use.
 ### -param a_Sink [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/987aea1d-912a-4691-987f-181c1ef1a8a9">IWbemObjectSink</a> instance used to forward events to WMI.
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a> instance used to forward events to WMI.
 
 
 ## -returns

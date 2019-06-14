@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Delete</b> method deletes the policy store currently in use by the <a href="https://msdn.microsoft.com/f848cca6-3838-46bc-b1f4-d6eab5096046">AzAuthorizationStore</a> object.
+The <b>Delete</b> method deletes the policy store currently in use by the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore">AzAuthorizationStore</a> object.
 
 
 ## -parameters
@@ -67,9 +67,9 @@ Reserved for future use.
 
 
 
-When the <b>Delete</b> method is called, the <a href="https://msdn.microsoft.com/f848cca6-3838-46bc-b1f4-d6eab5096046">AzAuthorizationStore</a> object returns to an uninitialized state. The <a href="https://msdn.microsoft.com/c461d50a-c785-4b32-b331-fe3a1693f4de">Initialize</a> method can then be called to reinitialize the object. 
+When the <b>Delete</b> method is called, the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore">AzAuthorizationStore</a> object returns to an uninitialized state. The <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-initialize">Initialize</a> method can then be called to reinitialize the object. 
 
-<div class="alert"><b>Important</b>  All objects opened by clients on the policy store  (for example,  <a href="https://msdn.microsoft.com/ea4a8a84-5003-44da-b75e-34da6bd898dd">IAzApplication</a> objects created using <a href="https://msdn.microsoft.com/ca6feb69-15cd-454a-a2b8-c75c4c6b38cd">CreateApplication</a>) must be released before you call the <b>Delete</b> method. If the <b>Delete</b> method is called on an <a href="https://msdn.microsoft.com/f848cca6-3838-46bc-b1f4-d6eab5096046">AzAuthorizationStore</a> object whose current policy store contains child objects, HRESULT_FROM_WIN32(ERROR_SERVER_HAS_OPEN_HANDLES) is returned.</div>
+<div class="alert"><b>Important</b>  All objects opened by clients on the policy store  (for example,  <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> objects created using <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-createapplication">CreateApplication</a>) must be released before you call the <b>Delete</b> method. If the <b>Delete</b> method is called on an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore">AzAuthorizationStore</a> object whose current policy store contains child objects, HRESULT_FROM_WIN32(ERROR_SERVER_HAS_OPEN_HANDLES) is returned.</div>
 <div> </div>
 
 

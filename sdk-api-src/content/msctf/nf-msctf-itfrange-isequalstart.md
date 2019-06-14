@@ -59,7 +59,7 @@ The <b>ITfRange::IsEqualStart</b> method verifies that the start anchor of this 
 
 ### -param ec [in]
 
-Edit cookie obtained from <a href="https://msdn.microsoft.com/1415f338-731c-44c5-b798-edf823174272">ITfDocumentMgr::CreateContext</a> or <a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession</a>.
+Edit cookie obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
 
 ### -param pWith [in]
@@ -170,7 +170,7 @@ The value of the <i>ec</i> parameter is an invalid cookie, or the caller does no
 
 
 
-This method is identical to, but more efficient than, <a href="https://msdn.microsoft.com/b84375ec-e00a-4cb3-97b7-f10688814968">ITfRange::CompareStart</a>.
+This method is identical to, but more efficient than, <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-comparestart">ITfRange::CompareStart</a>.
 
 
 
@@ -180,35 +180,35 @@ This method is identical to, but more efficient than, <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/1415f338-731c-44c5-b798-edf823174272">ITfDocumentMgr::CreateContext
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>
 
 
 
-<a href="https://msdn.microsoft.com/b84375ec-e00a-4cb3-97b7-f10688814968">ITfRange::CompareStart
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-comparestart">ITfRange::CompareStart
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/03b87230-457f-4483-a183-d8a8cc7cead4">ITfRange:IsEqualEnd
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-isequalend">ITfRange:IsEqualEnd
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/c827999a-0b74-4e5d-901e-4c2fa1d74929">Text Stores</a>
+<a href="https://docs.microsoft.com/windows/desktop/TSF/text-stores">Text Stores</a>
 
 
 
-<a href="https://msdn.microsoft.com/d670666f-2915-4a23-b825-b534a015e37f">TfAnchor
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ne-msctf-__midl___midl_itf_msctf_0000_0000_0001">TfAnchor
       </a>
  
 

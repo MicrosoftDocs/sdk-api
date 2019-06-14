@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Requests the creation of an <a href="https://msdn.microsoft.com/19d3176a-3f47-46c1-8bee-8e0f1d9b466e">IWRdsProtocolListener</a> object that listens for incoming client connection requests. The protocol provider must add a reference to the <a href="https://msdn.microsoft.com/19d3176a-3f47-46c1-8bee-8e0f1d9b466e">IWRdsProtocolListener</a> object before returning.  The Remote Desktop Services service  releases the reference when the service stops or the listener object is deleted.
+Requests the creation of an <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocollistener">IWRdsProtocolListener</a> object that listens for incoming client connection requests. The protocol provider must add a reference to the <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocollistener">IWRdsProtocolListener</a> object before returning.  The Remote Desktop Services service  releases the reference when the service stops or the listener object is deleted.
 
 
 ## -parameters
@@ -64,14 +64,14 @@ A pointer to a string that contains the registry GUID that specifies the listene
 
 ### -param pProtocolListener [out]
 
-The address of a pointer to the <a href="https://msdn.microsoft.com/19d3176a-3f47-46c1-8bee-8e0f1d9b466e">IWRdsProtocolListener</a> object.
+The address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocollistener">IWRdsProtocolListener</a> object.
 
 
 ## -returns
 
 
 
-When you are implementing this method, return <b>S_OK</b> if the function succeeds. If it fails, return an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>. 
+When you are implementing this method, return <b>S_OK</b> if the function succeeds. If it fails, return an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>. 
 
 
 
@@ -101,7 +101,7 @@ The <b>CreateListener</b> method is the first call the Remote Desktop Services s
 
 
 
-<a href="https://msdn.microsoft.com/626d579a-88a2-4f72-9d91-b27e517b4806">IWRdsProtocolManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolmanager">IWRdsProtocolManager</a>
  
 
  

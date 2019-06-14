@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
- IDWriteTextLayout::<a href="https://msdn.microsoft.com/cbaa3341-e43a-4d3f-89c7-dda758a63e7d">Draw</a> calls this function to instruct the client to draw
+ IDWriteTextLayout::<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwriteinlineobject-draw">Draw</a> calls this function to instruct the client to draw
      an underline.
 
 
@@ -63,7 +63,7 @@ ms.custom: 19H1
 Type: <b>void*</b>
 
 The application-defined drawing context passed to 
-     IDWriteTextLayout::<a href="https://msdn.microsoft.com/cbaa3341-e43a-4d3f-89c7-dda758a63e7d">Draw</a>.
+     IDWriteTextLayout::<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwriteinlineobject-draw">Draw</a>.
 
 
 ### -param baselineOriginX
@@ -82,7 +82,7 @@ The pixel location (Y-coordinate) at the baseline origin of the run where underl
 
 ### -param underline [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/01f6c48e-6986-4a6e-9dd8-9f4b098db7fd">DWRITE_UNDERLINE</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_underline">DWRITE_UNDERLINE</a>*</b>
 
 Pointer to  a structure containing underline logical information.
 
@@ -129,7 +129,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/a2ac70c8-e33b-46f1-b53b-1ab07555f109">IDWriteTextRenderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextrenderer">IDWriteTextRenderer</a>
  
 
  

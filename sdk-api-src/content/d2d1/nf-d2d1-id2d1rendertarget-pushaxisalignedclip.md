@@ -57,7 +57,7 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a6a0743c-e964-41f5-807f-541f00f552b5">PushAxisAlignedClip(D2D1_RECT_F&,D2D1_ANTIALIAS_MODE)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-pushaxisalignedclip(constd2d1_rect_f__d2d1_antialias_mode)">PushAxisAlignedClip(D2D1_RECT_F&,D2D1_ANTIALIAS_MODE)</a>
 </td>
 <td align="left" width="63%">
 Specifies a rectangle to which all subsequent drawing operations are clipped.
@@ -67,7 +67,7 @@ Specifies a rectangle to which all subsequent drawing operations are clipped.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/db2e975e-e5c5-4c57-8071-ec042b9a6fb9">PushAxisAlignedClip(D2D1_RECT_F*,D2D1_ANTIALIAS_MODE)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-pushaxisalignedclip(constd2d1_rect_f__d2d1_antialias_mode)">PushAxisAlignedClip(D2D1_RECT_F*,D2D1_ANTIALIAS_MODE)</a>
 </td>
 <td align="left" width="63%">
 Specifies a rectangle to which all subsequent drawing operations are clipped.
@@ -83,14 +83,14 @@ Specifies a rectangle to which all subsequent drawing operations are clipped.
 
 
 
-A           <a href="https://msdn.microsoft.com/a6a0743c-e964-41f5-807f-541f00f552b5">PushAxisAlignedClip</a> and <a href="https://msdn.microsoft.com/0f0a2826-2356-4ced-a372-5bb59dd394ee">PopAxisAlignedClip</a> pair can occur around or within a <a href="https://msdn.microsoft.com/en-us/library/Dd742856(v=VS.85).aspx">PushLayer</a> and <a href="https://msdn.microsoft.com/6ab05160-4f42-477f-a5bf-f16863b0635c">PopLayer</a>, but cannot overlap. For example, the sequence of <b>PushAxisAlignedClip</b>, <a href="https://msdn.microsoft.com/905e9c76-d09e-4df8-8343-520d856ec6b8">PushLayer</a>, <b>PopLayer</b>, <b>PopAxisAlignedClip</b> is valid, but the sequence of <b>PushAxisAlignedClip</b>, <b>PushLayer</b>, <b>PopAxisAlignedClip</b>, <b>PopLayer</b> is invalid.
+A           <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-pushaxisalignedclip(constd2d1_rect_f__d2d1_antialias_mode)">PushAxisAlignedClip</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-popaxisalignedclip">PopAxisAlignedClip</a> pair can occur around or within a <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-pushlayer">PushLayer</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-poplayer">PopLayer</a>, but cannot overlap. For example, the sequence of <b>PushAxisAlignedClip</b>, <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-pushlayer(constd2d1_layer_parameters__id2d1layer)">PushLayer</a>, <b>PopLayer</b>, <b>PopAxisAlignedClip</b> is valid, but the sequence of <b>PushAxisAlignedClip</b>, <b>PushLayer</b>, <b>PopAxisAlignedClip</b>, <b>PopLayer</b> is invalid.
 
-This method doesn't return an error code if it fails. To determine whether a drawing operation (such as <b>PushAxisAlignedClip</b>) failed, check the result returned by the <a href="https://msdn.microsoft.com/a8f24501-4e85-4981-bb38-2bd6333a7b49">ID2D1RenderTarget::EndDraw</a> or <a href="https://msdn.microsoft.com/3ad9c966-85f5-4ddb-a8c1-aefcba533509">ID2D1RenderTarget::Flush</a> methods. 
+This method doesn't return an error code if it fails. To determine whether a drawing operation (such as <b>PushAxisAlignedClip</b>) failed, check the result returned by the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1RenderTarget::EndDraw</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-flush">ID2D1RenderTarget::Flush</a> methods. 
 
 
 #### Examples
 
-For an example, see the <a href="https://msdn.microsoft.com/4196653a-9177-4a41-9db9-4738a41313aa">How to Clip with an Axis-Aligned Clip Rectangle</a>.
+For an example, see the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-clip-with-axis-aligned-rects">How to Clip with an Axis-Aligned Clip Rectangle</a>.
 
 <div class="code"></div>
 
@@ -101,7 +101,7 @@ For an example, see the <a href="https://msdn.microsoft.com/4196653a-9177-4a41-9
 
 
 
-<a href="https://msdn.microsoft.com/40629be9-5840-4bde-b369-56bbfd791775">ID2D1RenderTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
  
 
  

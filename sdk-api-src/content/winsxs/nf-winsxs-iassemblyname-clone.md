@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Clone</b> method copies the  current side-by-side assembly name to a new instance of <a href="https://msdn.microsoft.com/304b8fb3-5d17-4af0-b070-450a40dc5cc9">IAssemblyName</a>.
+The <b>Clone</b> method copies the  current side-by-side assembly name to a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>Clone</b> method copies the  current side-by-side assembly name to a new 
 
 ### -param pName [out]
 
-Pointer to the location that contains the pointer to the new instance of <a href="https://msdn.microsoft.com/304b8fb3-5d17-4af0-b070-450a40dc5cc9">IAssemblyName</a>.
+Pointer to the location that contains the pointer to the new instance of <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a>.
 
 
 ## -returns
@@ -106,7 +106,7 @@ The method did not succeed.
 
 
 
-<a href="https://msdn.microsoft.com/304b8fb3-5d17-4af0-b070-450a40dc5cc9">IAssemblyName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a>
  
 
  

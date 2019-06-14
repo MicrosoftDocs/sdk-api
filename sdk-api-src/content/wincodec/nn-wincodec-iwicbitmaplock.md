@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Exposes methods that support the <a href="https://msdn.microsoft.com/2ab25a00-c89c-4a2c-8e12-8ce81cc21bca">Lock</a> method.
+Exposes methods that support the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmap-lock">Lock</a> method.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICBitmapLock</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWICBitmapLock</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICBitmapLock</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICBitmapLock</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWICBitmapLock</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1fae52ae-b410-48f3-be46-624792f96874">GetDataPointer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmaplock-getdatapointer">GetDataPointer</a>
 </td>
 <td align="left" width="63%">
 Gets the pointer to the top left pixel in the locked rectangle.
@@ -78,7 +78,7 @@ Gets the pointer to the top left pixel in the locked rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2dfc6b0a-eb0f-416f-8123-17e5b93da612">GetPixelFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmaplock-getpixelformat">GetPixelFormat</a>
 </td>
 <td align="left" width="63%">
 Gets the pixel format of for the locked area of pixels. This can be used to compute the number of bytes-per-pixel in the locked area.
@@ -87,7 +87,7 @@ Gets the pixel format of for the locked area of pixels. This can be used to comp
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/355e81ec-d08a-464e-9b4e-fa8828e30406">GetSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmaplock-getsize">GetSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the width and height, in pixels, of the locked rectangle.
@@ -96,7 +96,7 @@ Retrieves the width and height, in pixels, of the locked rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f4bde79d-29a1-46bf-b7e4-91c39c2f0690">GetStride</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmaplock-getstride">GetStride</a>
 </td>
 <td align="left" width="63%">
 Provides access to the <a href="https://docs.microsoft.com/">stride</a> value for the memory.
@@ -112,7 +112,7 @@ Provides access to the <a href="https://docs.microsoft.com/">stride</a> value fo
 
 The bitmap lock is simply an abstraction for a rectangular memory window into the bitmap. For the simplest case, a system memory bitmap, this is simply a pointer to the top left corner of the rectangle and a stride value.
 
-To release the exclusive lock set by <a href="https://msdn.microsoft.com/2ab25a00-c89c-4a2c-8e12-8ce81cc21bca">Lock</a> method and the associated <b>IWICBitmapLock</b> object, call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> on the <b>IWICBitmapLock</b> object.
+To release the exclusive lock set by <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmap-lock">Lock</a> method and the associated <b>IWICBitmapLock</b> object, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> on the <b>IWICBitmapLock</b> object.
 
 
 

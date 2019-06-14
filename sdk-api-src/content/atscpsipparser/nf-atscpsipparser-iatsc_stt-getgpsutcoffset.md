@@ -121,7 +121,7 @@ GPS time is measured in seconds since January 6, 1980, and is not adjusted for l
 
 
 
-<a href="https://msdn.microsoft.com/03e903e0-e722-42c6-b6b7-448fecc379b9">IATSC_STT Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsc_stt">IATSC_STT Interface</a>
  
 
  

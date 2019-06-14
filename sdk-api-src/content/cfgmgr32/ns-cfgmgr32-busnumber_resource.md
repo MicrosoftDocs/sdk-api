@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The BUSNUMBER_RESOURCE structure specifies either a resource list or a resource requirements list that describes bus number usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">Hardware Resources</a>.
+The BUSNUMBER_RESOURCE structure specifies either a resource list or a resource requirements list that describes bus number usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ The BUSNUMBER_RESOURCE structure specifies either a resource list or a resource 
 
 ### -field BusNumber_Header
 
-A <a href="https://msdn.microsoft.com/3007e271-fe78-404c-ba97-ceb0be334592">BUSNUMBER_DES</a> structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_des_s">BUSNUMBER_DES</a> structure.
 
 
 ### -field BusNumber_Data
@@ -76,7 +76,7 @@ Zero.
 
 #### For a resource requirements list:
 
-A <a href="https://msdn.microsoft.com/00b9bcd3-f1fe-4853-a6fb-0ac8b1fffa1b">BUSNUMBER_RANGE</a> array.
+A <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_range_s">BUSNUMBER_RANGE</a> array.
 
 
 ## -see-also
@@ -84,11 +84,11 @@ A <a href="https://msdn.microsoft.com/00b9bcd3-f1fe-4853-a6fb-0ac8b1fffa1b">BUSN
 
 
 
-<a href="https://msdn.microsoft.com/3007e271-fe78-404c-ba97-ceb0be334592">BUSNUMBER_DES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_des_s">BUSNUMBER_DES</a>
 
 
 
-<a href="https://msdn.microsoft.com/00b9bcd3-f1fe-4853-a6fb-0ac8b1fffa1b">BUSNUMBER_RANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_range_s">BUSNUMBER_RANGE</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>MMC_PROPERTY_ACTION</b> enumeration specifies the operations that can occur to a property contained in an 
-<a href="https://msdn.microsoft.com/0815d6a0-ddc2-43d1-aafd-5a05352557fc">MMC_SNAPIN_PROPERTY</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/ns-mmcobj-_mmc_snapin_property">MMC_SNAPIN_PROPERTY</a> structure.
 
 
 ## -enum-fields
@@ -79,11 +79,11 @@ The property is being added.
 
 
 
-<a href="https://msdn.microsoft.com/6e64a620-9c1d-4803-81a0-ec432c30fbc9">ISnapinProperties::PropertiesChanged</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/nf-mmcobj-isnapinproperties-propertieschanged">ISnapinProperties::PropertiesChanged</a>
 
 
 
-<a href="https://msdn.microsoft.com/0815d6a0-ddc2-43d1-aafd-5a05352557fc">MMC_SNAPIN_PROPERTY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/ns-mmcobj-_mmc_snapin_property">MMC_SNAPIN_PROPERTY</a>
  
 
  

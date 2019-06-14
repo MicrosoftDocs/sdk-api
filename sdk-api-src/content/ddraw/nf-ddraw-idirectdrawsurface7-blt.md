@@ -64,7 +64,7 @@ A pointer to a <b>RECT</b> structure that defines the upper-left and lower-right
 
 ### -param arg2 [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f764ad29756">IDirectDrawSurface7</a> interface for the DirectDrawSurface object that is the source of the bitblt.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a> interface for the DirectDrawSurface object that is the source of the bitblt.
 
 
 ### -param arg3 [in]
@@ -74,7 +74,7 @@ A pointer to a <b>RECT</b> structure that defines the upper-left and lower-right
 
 ### -param arg4 [in]
 
-A combination of flags that determine the valid members of the associated <a href="https://msdn.microsoft.com/a542434f-61d3-4c73-a087-ffb83a509c67">DDBLTFX</a> structure, specify color-key information, or request special behavior from the method. The following flags are defined:
+A combination of flags that determine the valid members of the associated <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-_ddbltfx">DDBLTFX</a> structure, specify color-key information, or request special behavior from the method. The following flags are defined:
 
 <b>Validation flags</b>
 
@@ -82,49 +82,49 @@ A combination of flags that determine the valid members of the associated <a hre
 
 #### DDBLT_COLORFILL
 
-Uses the <b>dwFillColor</b> member of the <a href="https://msdn.microsoft.com/a542434f-61d3-4c73-a087-ffb83a509c67">DDBLTFX</a> structure as the RGB color that fills the destination rectangle on the destination surface.
+Uses the <b>dwFillColor</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-_ddbltfx">DDBLTFX</a> structure as the RGB color that fills the destination rectangle on the destination surface.
 
 
 
 #### DDBLT_DDFX
 
-Uses the <b>dwDDFX</b> member of the <a href="https://msdn.microsoft.com/a542434f-61d3-4c73-a087-ffb83a509c67">DDBLTFX</a> structure to specify the effects to use for this bitblt.
+Uses the <b>dwDDFX</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-_ddbltfx">DDBLTFX</a> structure to specify the effects to use for this bitblt.
 
 
 
 #### DDBLT_DDROPS
 
-Uses the <b>dwDDROP</b> member of the <a href="https://msdn.microsoft.com/a542434f-61d3-4c73-a087-ffb83a509c67">DDBLTFX</a> structure to specify the raster operations (ROPS) that are not part of the Win32 API.
+Uses the <b>dwDDROP</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-_ddbltfx">DDBLTFX</a> structure to specify the raster operations (ROPS) that are not part of the Win32 API.
 
 
 
 #### DDBLT_DEPTHFILL
 
-Uses the <b>dwFillDepth</b> member of the <a href="https://msdn.microsoft.com/a542434f-61d3-4c73-a087-ffb83a509c67">DDBLTFX</a> structure as the depth value with which to fill the destination rectangle on the destination z-buffer surface.
+Uses the <b>dwFillDepth</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-_ddbltfx">DDBLTFX</a> structure as the depth value with which to fill the destination rectangle on the destination z-buffer surface.
 
 
 
 #### DDBLT_KEYDESTOVERRIDE
 
-Uses the <b>ddckDestColorkey</b> member of the <a href="https://msdn.microsoft.com/a542434f-61d3-4c73-a087-ffb83a509c67">DDBLTFX</a> structure as the color key for the destination surface.
+Uses the <b>ddckDestColorkey</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-_ddbltfx">DDBLTFX</a> structure as the color key for the destination surface.
 
 
 
 #### DDBLT_KEYSRCOVERRIDE
 
-Uses the <b>ddckSrcColorkey</b> member of the <a href="https://msdn.microsoft.com/a542434f-61d3-4c73-a087-ffb83a509c67">DDBLTFX</a> structure as the color key for the source surface.
+Uses the <b>ddckSrcColorkey</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-_ddbltfx">DDBLTFX</a> structure as the color key for the source surface.
 
 
 
 #### DDBLT_ROP
 
-Uses the <b>dwROP</b> member of the <a href="https://msdn.microsoft.com/a542434f-61d3-4c73-a087-ffb83a509c67">DDBLTFX</a> structure for the ROP for this bitblt. These ROPs are the same as those defined in the Win32 API.
+Uses the <b>dwROP</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-_ddbltfx">DDBLTFX</a> structure for the ROP for this bitblt. These ROPs are the same as those defined in the Win32 API.
 
 
 
 #### DDBLT_ROTATIONANGLE
 
-Uses the <b>dwRotationAngle</b> member of the <a href="https://msdn.microsoft.com/a542434f-61d3-4c73-a087-ffb83a509c67">DDBLTFX</a> structure as the rotation angle (specified in 1/100s of a degree) for the surface.
+Uses the <b>dwRotationAngle</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-_ddbltfx">DDBLTFX</a> structure as the rotation angle (specified in 1/100s of a degree) for the surface.
 
 <b>Color key flags</b>
 
@@ -177,7 +177,7 @@ This method does not currently support z-aware bitblt operations. None of the fl
 
 ### -param arg5 [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/a542434f-61d3-4c73-a087-ffb83a509c67">DDBLTFX</a> structure for the bitblt.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-_ddbltfx">DDBLTFX</a> structure for the bitblt.
 
 
 ## -returns
@@ -225,7 +225,7 @@ RECT structures are defined so that the right and bottom members are exclusive�
 
 
 
-You must use <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> to access the <b>Blt</b> method.
+You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>Blt</b> method.
 
 
 
@@ -235,7 +235,7 @@ You must use <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d
 
 
 
-<a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f764ad29756">IDirectDrawSurface7</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
  
 
  

@@ -54,7 +54,7 @@ Provides a write-only object model for bundle packages.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBundleWriter3</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAppxBundleWriter3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBundleWriter3</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxBundleWriter3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAppxBundleWriter3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/99969971-9153-47C9-AF9C-7BF1D56EC54D">AddPackageReference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlewriter3-addpackagereference">AddPackageReference</a>
 </td>
 <td align="left" width="63%">
 Adds a reference to an optional app package or a payload file within an app bundle.
@@ -78,7 +78,7 @@ Adds a reference to an optional app package or a payload file within an app bund
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7AD526CD-9FF2-4A2A-BD12-21A0A9E1BA6E">Close</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlewriter3-close">Close</a>
 </td>
 <td align="left" width="63%">
 Finalizes the bundle package by writing footprint files at the end of the package, and closes the writer’s output stream.

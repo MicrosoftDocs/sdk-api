@@ -69,12 +69,12 @@ Type of information to be modified. The caller can specify AuthzContextInfoGroup
 
 ### -param pSidOperations [in]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/C312BE7D-DA1B-47FE-80BA-7506B9A26E9E">AUTHZ_SID_OPERATION</a> enumeration values that specify the group modifications to make.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/authz/ne-authz-authz_sid_operation">AUTHZ_SID_OPERATION</a> enumeration values that specify the group modifications to make.
 
 
 ### -param pSids [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/387dd7f8-4177-40fa-b5fd-bb4b371a0e64">TOKEN_GROUPS</a> structure that specifies the groups to modify.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_groups">TOKEN_GROUPS</a> structure that specifies the groups to modify.
 
 
 ## -returns
@@ -84,7 +84,7 @@ A pointer to a <a href="https://msdn.microsoft.com/387dd7f8-4177-40fa-b5fd-bb4b3
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -93,7 +93,7 @@ If the function fails, it returns <b>FALSE</b>. To get extended error informatio
 
 
 
-The <a href="https://msdn.microsoft.com/C312BE7D-DA1B-47FE-80BA-7506B9A26E9E">AUTHZ_SID_OPERATION</a> enumeration must have only one element if the value of that element is AUTHZ_SID_OPERATION_REPLACE_ALL. Otherwise, the array has the same number of elements as the corresponding 
+The <a href="https://docs.microsoft.com/windows/desktop/api/authz/ne-authz-authz_sid_operation">AUTHZ_SID_OPERATION</a> enumeration must have only one element if the value of that element is AUTHZ_SID_OPERATION_REPLACE_ALL. Otherwise, the array has the same number of elements as the corresponding 
 PTOKEN_GROUPS.
 
 

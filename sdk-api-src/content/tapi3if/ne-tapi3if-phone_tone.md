@@ -173,11 +173,11 @@ No tone.
 
 
 
-<a href="https://msdn.microsoft.com/04cce8d6-ccab-4eeb-a97c-3bc24ec3fc00">ITAutomatedPhoneControl::StartTone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-starttone">ITAutomatedPhoneControl::StartTone</a>
 
 
 
-<a href="https://msdn.microsoft.com/62e7ae4d-7839-4568-b8b2-7a377601ea7c">ITAutomatedPhoneControl::get_Tone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-get_tone">ITAutomatedPhoneControl::get_Tone</a>
  
 
  

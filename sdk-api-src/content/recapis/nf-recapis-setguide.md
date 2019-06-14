@@ -67,7 +67,7 @@ Handle to the recognizer context.
 
 ### -param pGuide
 
-Guide to use for box or line input. Setting this parameter to <b>NULL</b> means that the context has no guide. This is the default and means the recognizer is in free input mode. For guide details, see the <a href="https://msdn.microsoft.com/e28347aa-08ed-4f40-b9c3-4d3b5dacbeb7">RECO_GUIDE</a> structure.
+Guide to use for box or line input. Setting this parameter to <b>NULL</b> means that the context has no guide. This is the default and means the recognizer is in free input mode. For guide details, see the <a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-tagreco_guide">RECO_GUIDE</a> structure.
 
 
 ### -param iIndex
@@ -148,7 +148,7 @@ An unspecified error occurred.
 </dl>
 </td>
 <td width="60%">
-Attempted to set guide when there was already some ink in the reco context, or, in the case of recognizers of East Asian characters, <a href="https://msdn.microsoft.com/4f51e2e1-612a-484e-acba-6f3ae268082a">SetCACMode</a> was called previously.
+Attempted to set guide when there was already some ink in the reco context, or, in the case of recognizers of East Asian characters, <a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-setcacmode">SetCACMode</a> was called previously.
 
 </td>
 </tr>
@@ -172,11 +172,11 @@ Guide boxes are numbered based on the <i>iIntex</i> value.
 
 
 
-<a href="https://msdn.microsoft.com/b86d6266-cce3-4f84-80b6-7d136172b3ca">GetGuide Function</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-getguide">GetGuide Function</a>
 
 
 
-<a href="https://msdn.microsoft.com/e28347aa-08ed-4f40-b9c3-4d3b5dacbeb7">RECO_GUIDE Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-tagreco_guide">RECO_GUIDE Structure</a>
  
 
  

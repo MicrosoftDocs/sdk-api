@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies additional options to an <a href="https://msdn.microsoft.com/AA47F10A-C90A-4DAF-973F-2669D7364CB9">IWICPlanarBitmapSourceTransform</a> implementation.  
+Specifies additional options to an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicplanarbitmapsourcetransform">IWICPlanarBitmapSourceTransform</a> implementation.  
 
 
 ## -enum-fields
@@ -85,11 +85,11 @@ WIC JPEG Decoder:  Specifying this option causes the JPEG decoder to scale luma 
 
 
 
-<a href="https://msdn.microsoft.com/0D6FB12B-B5C5-4A36-93FC-AF96BF03ED01">IWICPlanarBitmapSourceTransform::CopyPixels</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicplanarbitmapsourcetransform-copypixels">IWICPlanarBitmapSourceTransform::CopyPixels</a>
 
 
 
-<a href="https://msdn.microsoft.com/CB601454-591B-4292-A8BF-EA9D1F060AB3">IWICPlanarBitmapSourceTransform::DoesSupportTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicplanarbitmapsourcetransform-doessupporttransform">IWICPlanarBitmapSourceTransform::DoesSupportTransform</a>
  
 
  

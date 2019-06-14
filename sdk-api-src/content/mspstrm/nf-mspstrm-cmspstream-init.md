@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>Init</b> method is called by the <b>MSPCall</b> when the stream is created. It initializes the members, calls 
-<a href="https://msdn.microsoft.com/en-us/library/ms726525(v=VS.85).aspx">MSPCallAddRef</a> on the call object, and queries for various interfaces on the filter graph.
+<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nf-mspcall-cmspcallbase-mspcalladdref">MSPCallAddRef</a> on the call object, and queries for various interfaces on the filter graph.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ Handle for address associated with this call.
 ### -param pMSPCall
 
 Pointer to MSP basic calling handler class, 
-<a href="https://msdn.microsoft.com/en-us/library/ms726496(v=VS.85).aspx">CMSPCallBase</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nl-mspcall-cmspcallbase">CMSPCallBase</a>.
 
 
 ### -param pGraph
@@ -78,13 +78,13 @@ Pointer to <b>IMediaEvent</b> interface for the stream's filter graph. This Dire
 ### -param dwMediaType
 
 Descriptor of 
-<a href="https://msdn.microsoft.com/3e418c9a-a008-4b94-b5d2-7c2eccb3bf87">media type</a> for stream.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">media type</a> for stream.
 
 
 ### -param Direction
 
 Descriptor of 
-<a href="https://msdn.microsoft.com/55ef9df3-1b85-439b-8ecb-28e5069390b9">terminal direction</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-terminal_direction">terminal direction</a>.
 
 
 ## -see-also
@@ -92,7 +92,7 @@ Descriptor of
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms726913(v=VS.85).aspx">CMSPStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mspstrm/nl-mspstrm-cmspstream">CMSPStream</a>
  
 
  

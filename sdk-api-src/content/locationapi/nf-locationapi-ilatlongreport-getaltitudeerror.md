@@ -110,7 +110,7 @@ The location report does not include data for the requested field. This result i
 
 
 
-<a href="https://msdn.microsoft.com/b489959e-74c7-46df-b63f-7d37e3a244d5">ILatLongReport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilatlongreport">ILatLongReport</a>
  
 
  

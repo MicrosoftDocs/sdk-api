@@ -58,7 +58,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>AccessCheckAndAuditAlarm</b> function determines whether a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security descriptor</a> grants a specified set of access rights to the client being impersonated by the calling thread. If the security descriptor has a SACL with ACEs that apply to the client, the function generates any necessary audit messages in the security event log.
+The <b>AccessCheckAndAuditAlarm</b> function determines whether a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> grants a specified set of access rights to the client being impersonated by the calling thread. If the security descriptor has a SACL with ACEs that apply to the client, the function generates any necessary audit messages in the security event log.
 
 Alarms are not currently supported.
 
@@ -91,13 +91,13 @@ A pointer to a null-terminated string specifying the name of the object being cr
 ### -param SecurityDescriptor [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> structure against which access is checked.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> structure against which access is checked.
 
 
 ### -param DesiredAccess [in]
 
-<a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Access mask</a> that specifies the access rights to check. This mask must have been mapped by the 
-<a href="https://msdn.microsoft.com/54b5cd73-4011-4dcf-a951-7350dbd6eeab">MapGenericMask</a> function to contain no generic access rights. 
+<a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Access mask</a> that specifies the access rights to check. This mask must have been mapped by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-mapgenericmask">MapGenericMask</a> function to contain no generic access rights. 
 
 
 
@@ -108,7 +108,7 @@ If this parameter is MAXIMUM_ALLOWED, the function sets the <i>GrantedAccess</i>
 ### -param GenericMapping [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/e3c49b47-9bc7-4000-a131-449345ebb9cd">GENERIC_MAPPING</a> structure associated with the object for which access is being checked.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_generic_mapping">GENERIC_MAPPING</a> structure associated with the object for which access is being checked.
 
 
 ### -param ObjectCreation [in]
@@ -118,7 +118,7 @@ Specifies a flag that determines whether the calling application will create a n
 
 ### -param GrantedAccess [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access mask</a> that receives the granted access rights. If <i>AccessStatus</i> is set to <b>FALSE</b>, the function sets the access mask to zero. If the function fails, it does not set the access mask.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access mask</a> that receives the granted access rights. If <i>AccessStatus</i> is set to <b>FALSE</b>, the function sets the access mask to zero. If the function fails, it does not set the access mask.
 
 
 ### -param AccessStatus [out]
@@ -129,7 +129,7 @@ A pointer to a variable that receives the results of the access check. If the se
 ### -param pfGenerateOnClose [out]
 
 A pointer to a flag set by the audit-generation routine when the function returns. Pass this flag to the 
-<a href="https://msdn.microsoft.com/274f3a62-1833-402b-b362-f526b2bee14b">ObjectCloseAuditAlarm</a> function when the object handle is closed.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-objectcloseauditalarma">ObjectCloseAuditAlarm</a> function when the object handle is closed.
 
 
 ## -returns
@@ -139,7 +139,7 @@ A pointer to a flag set by the audit-generation routine when the function return
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -148,9 +148,9 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-For more information, see the <a href="https://msdn.microsoft.com/dc98b23e-ce42-4d4a-a285-c0b7b5e2a478">How AccessCheck Works</a> overview.
+For more information, see the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/how-dacls-control-access-to-an-object">How AccessCheck Works</a> overview.
 
-The <b>AccessCheckAndAuditAlarm</b> function requires the calling <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">process</a> to have the SE_AUDIT_NAME privilege enabled. The test for this privilege is performed against the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">primary token</a> of the calling process, not the <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">impersonation token</a> of the thread.
+The <b>AccessCheckAndAuditAlarm</b> function requires the calling <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">process</a> to have the SE_AUDIT_NAME privilege enabled. The test for this privilege is performed against the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">primary token</a> of the calling process, not the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">impersonation token</a> of the thread.
 
 The <b>AccessCheckAndAuditAlarm</b> function fails if the calling thread is not impersonating a client.
 
@@ -162,55 +162,55 @@ The <b>AccessCheckAndAuditAlarm</b> function fails if the calling thread is not 
 
 
 
-<a href="https://msdn.microsoft.com/d9fd2e44-5782-40c9-a1cf-1788ca7afc50">AccessCheck</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck">AccessCheck</a>
 
 
 
-<a href="https://msdn.microsoft.com/8301ed4f-9458-410b-af19-4f055656005a">Client/Server Access Control </a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/client-server-access-control">Client/Server Access Control </a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Client/Server Access Control Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Client/Server Access Control Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3c49b47-9bc7-4000-a131-449345ebb9cd">GENERIC_MAPPING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_generic_mapping">GENERIC_MAPPING</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc98b23e-ce42-4d4a-a285-c0b7b5e2a478">How AccessCheck Works</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/how-dacls-control-access-to-an-object">How AccessCheck Works</a>
 
 
 
-<a href="https://msdn.microsoft.com/47c75071-f10d-43cf-a841-2dd49fc39afa">MakeAbsoluteSD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-makeabsolutesd">MakeAbsoluteSD</a>
 
 
 
-<a href="https://msdn.microsoft.com/54b5cd73-4011-4dcf-a951-7350dbd6eeab">MapGenericMask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-mapgenericmask">MapGenericMask</a>
 
 
 
-<a href="https://msdn.microsoft.com/274f3a62-1833-402b-b362-f526b2bee14b">ObjectCloseAuditAlarm</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-objectcloseauditalarma">ObjectCloseAuditAlarm</a>
 
 
 
-<a href="https://msdn.microsoft.com/f3cb607b-a8fd-4a1b-9361-7ccd7cd8aac2">ObjectOpenAuditAlarm</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-objectopenauditalarma">ObjectOpenAuditAlarm</a>
 
 
 
-<a href="https://msdn.microsoft.com/76714ffe-be7c-4928-b7c9-e72441ada4c7">ObjectPrivilegeAuditAlarm</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-objectprivilegeauditalarma">ObjectPrivilegeAuditAlarm</a>
 
 
 
-<a href="https://msdn.microsoft.com/a73d934a-1abf-4e60-bf0a-6c4629f28f7a">PrivilegeCheck</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-privilegecheck">PrivilegeCheck</a>
 
 
 
-<a href="https://msdn.microsoft.com/a424c583-bb71-4bda-a27f-2389b89104d8">PrivilegedServiceAuditAlarm</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-privilegedserviceauditalarma">PrivilegedServiceAuditAlarm</a>
 
 
 
-<a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a>
  
 
  

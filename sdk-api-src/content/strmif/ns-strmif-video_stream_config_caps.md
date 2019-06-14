@@ -56,7 +56,7 @@ The <b>VIDEO_STREAM_CONFIG_CAPS</b> structure describes a range of video formats
 <li><b>VideoStandard</b></li>
 <li><b>MinFrameInterval</b></li>
 <li><b>MaxFrameInterval</b></li>
-</ul> Applications can use <b>MinFrameInterval</b> and <b>MaxFrameInterval</b> to get the range of supported frame rates  from a video capture device. Applications should avoid using any of the other members of this structure. Instead, use the   <a href="https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02">AM_MEDIA_TYPE</a> structure returned by the <a href="https://msdn.microsoft.com/5443141b-eb2c-412c-8bd1-7175e724b602">IAMStreamConfig::GetFormat</a> method.</div><div> </div>
+</ul> Applications can use <b>MinFrameInterval</b> and <b>MaxFrameInterval</b> to get the range of supported frame rates  from a video capture device. Applications should avoid using any of the other members of this structure. Instead, use the   <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_ammediatype">AM_MEDIA_TYPE</a> structure returned by the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-getformat">IAMStreamConfig::GetFormat</a> method.</div><div> </div>
 
 ## -struct-fields
 
@@ -65,13 +65,13 @@ The <b>VIDEO_STREAM_CONFIG_CAPS</b> structure describes a range of video formats
 
 ### -field guid
 
-<b>GUID</b> that identifies the format type. For example, <b>FORMAT_VideoInfo</b> or <b>FORMAT_VideoInfo2</b>. For more information, see the <b>formattype</b> member of the <a href="https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02">AM_MEDIA_TYPE</a> structure.
+<b>GUID</b> that identifies the format type. For example, <b>FORMAT_VideoInfo</b> or <b>FORMAT_VideoInfo2</b>. For more information, see the <b>formattype</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_ammediatype">AM_MEDIA_TYPE</a> structure.
           
 
 
 ### -field VideoStandard
 
-The analog video standard supported. The value is a bitwise combination of flags from the <a href="https://msdn.microsoft.com/6760a40c-550c-4774-a5d1-d7e2a6aa6096">AnalogVideoStandard</a> enumeration type, or zero.
+The analog video standard supported. The value is a bitwise combination of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-taganalogvideostandard">AnalogVideoStandard</a> enumeration type, or zero.
           
 
 
@@ -85,7 +85,7 @@ Native size of the incoming video signal. For a compressor, the size is taken fr
 
 ### -field MinCroppingSize
 
-Smallest source rectangle allowed. The source rectangle is defined in the <b>rcSource</b> member of the <a href="https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932">VIDEOINFOHEADER</a> or <a href="https://msdn.microsoft.com/5e3d5bf0-435f-45da-8409-a1463b56a7ae">VIDEOINFOHEADER2</a> structure.
+Smallest source rectangle allowed. The source rectangle is defined in the <b>rcSource</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader">VIDEOINFOHEADER</a> or <a href="https://docs.microsoft.com/windows/desktop/api/dvdmedia/ns-dvdmedia-tagvideoinfoheader2">VIDEOINFOHEADER2</a> structure.
           
 
 <div class="alert"><b>Note</b>  Deprecated.</div>
@@ -276,7 +276,7 @@ Maximum data rate this pin can produce.
 
 
 
-The <a href="https://msdn.microsoft.com/9dd84847-2cae-42f2-a858-7106cd2ac075">IAMStreamConfig::GetStreamCaps</a> method returns this structure. An application can use this information to modify the output format on a video compression filter or video capture filter.
+The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-getstreamcaps">IAMStreamConfig::GetStreamCaps</a> method returns this structure. An application can use this information to modify the output format on a video compression filter or video capture filter.
       
 
 For example, assume that filter returns the following values for the source rectangle:
@@ -290,7 +290,7 @@ For example, assume that filter returns the following values for the source rect
 <li>CropAlignX = 2</li>
 <li>CropAlignY = 4</li>
 </ul>
-These numbers define the set of rectangles that are valid for the <b>rcSource</b> member of the <a href="https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932">VIDEOINFOHEADER</a> or <a href="https://msdn.microsoft.com/5e3d5bf0-435f-45da-8409-a1463b56a7ae">VIDEOINFOHEADER2</a> structure. In this example, the minimum source rectangle is 160 pixels wide x 120 pixels high. The width can be increased in steps of 4 pixels, to a maximum of 320. The height can be increased in steps of 8 pixels, to a maximum of 240. In other words, the valid widths are 160, 164, 168 ... 320; and the valid heights are 120, 128, 136 ... 240.
+These numbers define the set of rectangles that are valid for the <b>rcSource</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader">VIDEOINFOHEADER</a> or <a href="https://docs.microsoft.com/windows/desktop/api/dvdmedia/ns-dvdmedia-tagvideoinfoheader2">VIDEOINFOHEADER2</a> structure. In this example, the minimum source rectangle is 160 pixels wide x 120 pixels high. The width can be increased in steps of 4 pixels, to a maximum of 320. The height can be increased in steps of 8 pixels, to a maximum of 240. In other words, the valid widths are 160, 164, 168 ... 320; and the valid heights are 120, 128, 136 ... 240.
 
 The <b>CropAlignX</b> and <b>CropAlignY</b> members define where the top-left corner of the source rectangle can sit. For example, the following rectangles are valid, given the previous values:
 
@@ -299,9 +299,9 @@ The <b>CropAlignX</b> and <b>CropAlignY</b> members define where the top-left co
 <li>(2, 0, 162, 120)</li>
 <li>(2, 8, 162, 128)</li>
 </ul>
-In a similar way, the <b>MinOutputSize</b>, <b>MaxOutputSize</b>, <b>OutputGranularityX</b>, and <b>OutputGranularityY</b> members define what values are supported for the <b>biWidth</b> and <b>biHeight</b> members of the <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure.
+In a similar way, the <b>MinOutputSize</b>, <b>MaxOutputSize</b>, <b>OutputGranularityX</b>, and <b>OutputGranularityY</b> members define what values are supported for the <b>biWidth</b> and <b>biHeight</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader">BITMAPINFOHEADER</a> structure.
 
-For capture filters, the <b>MinFrameInterval</b> and <b>MaxFrameInterval</b> members define the minimum and maximum duration of each frame, as given in the <b>AvgTimePerFrame</b> member of the <a href="https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932">VIDEOINFOHEADER</a> or <a href="https://msdn.microsoft.com/5e3d5bf0-435f-45da-8409-a1463b56a7ae">VIDEOINFOHEADER2</a> structure. The filter may not support every frame rate that falls between these two values. The <a href="https://msdn.microsoft.com/8d64e5b6-e8fa-4678-92d4-3cbf92e13ddf">IAMStreamConfig::SetFormat</a> method will set the frame rate to the closest value that the filter supports. If <b>SetFormat</b> succeeds, call <a href="https://msdn.microsoft.com/5443141b-eb2c-412c-8bd1-7175e724b602">IAMStreamConfig::GetFormat</a> to determine the actual frame rate.
+For capture filters, the <b>MinFrameInterval</b> and <b>MaxFrameInterval</b> members define the minimum and maximum duration of each frame, as given in the <b>AvgTimePerFrame</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader">VIDEOINFOHEADER</a> or <a href="https://docs.microsoft.com/windows/desktop/api/dvdmedia/ns-dvdmedia-tagvideoinfoheader2">VIDEOINFOHEADER2</a> structure. The filter may not support every frame rate that falls between these two values. The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-setformat">IAMStreamConfig::SetFormat</a> method will set the frame rate to the closest value that the filter supports. If <b>SetFormat</b> succeeds, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-getformat">IAMStreamConfig::GetFormat</a> to determine the actual frame rate.
 
 
 
@@ -311,7 +311,7 @@ For capture filters, the <b>MinFrameInterval</b> and <b>MaxFrameInterval</b> mem
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
  
 
  

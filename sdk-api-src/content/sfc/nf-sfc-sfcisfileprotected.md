@@ -85,7 +85,7 @@ If the file is not protected, the return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/6e26a539-a22a-487a-b720-fa3660c1b485">SfcIsKeyProtected</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sfc/nf-sfc-sfciskeyprotected">SfcIsKeyProtected</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>IPSEC_TUNNEL_POLICY1</b> structure stores the quick mode negotiation policy for tunnel mode IPsec.
-<div class="alert"><b>Note</b>  <b>IPSEC_TUNNEL_POLICY1</b> is the specific implementation of IPSEC_TUNNEL_POLICY used in Windows 7 and later. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <a href="https://msdn.microsoft.com/092b108c-47e1-4b2f-b7ed-184cf8abb392">IPSEC_TUNNEL_POLICY0</a> is available. For Windows 8, <a href="https://msdn.microsoft.com/a633505d-86ec-42ba-bb4c-3f61e8768eab">IPSEC_TUNNEL_POLICY2</a> is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>IPSEC_TUNNEL_POLICY1</b> is the specific implementation of IPSEC_TUNNEL_POLICY used in Windows 7 and later. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy0_">IPSEC_TUNNEL_POLICY0</a> is available. For Windows 8, <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy2_">IPSEC_TUNNEL_POLICY2</a> is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -181,26 +181,26 @@ Number of quick mode proposals in the policy.
 
 Array of quick mode proposals.
 
-See <a href="https://msdn.microsoft.com/bc551733-dbba-4d66-8054-fbf4bbfa28b5">IPSEC_PROPOSAL0</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_proposal0_">IPSEC_PROPOSAL0</a> for more information.
 
 
 ### -field tunnelEndpoints
 
 Tunnel endpoints of the IPsec security association (SA) generated from this policy.
 
-See <a href="https://msdn.microsoft.com/125392f6-fa82-4d86-b8ac-8a481a2da42d">IPSEC_TUNNEL_ENDPOINTS1</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints1_">IPSEC_TUNNEL_ENDPOINTS1</a> for more information.
 
 
 ### -field saIdleTimeout
 
-An <a href="https://msdn.microsoft.com/99113c80-1e2a-4878-9b18-502cfb1e43cc">IPSEC_SA_IDLE_TIMEOUT0</a> structure that specifies the SA idle timeout in IPsec policy.
+An <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_idle_timeout0_">IPSEC_SA_IDLE_TIMEOUT0</a> structure that specifies the SA idle timeout in IPsec policy.
 
 
 ### -field emPolicy
 
 The AuthIP extended mode authentication policy.
 
-See <a href="https://msdn.microsoft.com/dae56d71-31e0-4746-8bfb-4ade3705278f">IKEEXT_EM_POLICY1</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy1_">IKEEXT_EM_POLICY1</a> for more information.
 
 
 ## -see-also
@@ -208,23 +208,23 @@ See <a href="https://msdn.microsoft.com/dae56d71-31e0-4746-8bfb-4ade3705278f">IK
 
 
 
-<a href="https://msdn.microsoft.com/dae56d71-31e0-4746-8bfb-4ade3705278f">IKEEXT_EM_POLICY1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy1_">IKEEXT_EM_POLICY1</a>
 
 
 
-<a href="https://msdn.microsoft.com/bc551733-dbba-4d66-8054-fbf4bbfa28b5">IPSEC_PROPOSAL0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_proposal0_">IPSEC_PROPOSAL0</a>
 
 
 
-<a href="https://msdn.microsoft.com/99113c80-1e2a-4878-9b18-502cfb1e43cc">IPSEC_SA_IDLE_TIMEOUT0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_idle_timeout0_">IPSEC_SA_IDLE_TIMEOUT0</a>
 
 
 
-<a href="https://msdn.microsoft.com/a37b13c7-61e4-49be-bd21-db3e7c9bcca5">IPSEC_TUNNEL_ENDPOINTS1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints0_">IPSEC_TUNNEL_ENDPOINTS1</a>
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

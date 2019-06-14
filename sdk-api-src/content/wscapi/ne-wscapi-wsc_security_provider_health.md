@@ -82,7 +82,7 @@ The security provider category is in snooze state. Snooze indicates that WSC is 
 
 
 
-<a href="https://msdn.microsoft.com/1193eba3-a01b-4ee3-a83d-25dcdbc15de0">WscGetSecurityProviderHealth</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wscapi/nf-wscapi-wscgetsecurityproviderhealth">WscGetSecurityProviderHealth</a>
  
 
  

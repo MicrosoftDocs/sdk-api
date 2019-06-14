@@ -102,7 +102,7 @@ A combination of zero or more of the following flags that are combined by using 
 </tr>
 <tr>
 <td>D3D_DISASM_INSTRUCTION_ONLY (0x40)</td>
-<td>This flag has no effect in <b>D3DDisassembleRegion</b>. Cycle information comes from the trace; therefore, cycle information is available only in <a href="https://msdn.microsoft.com/983D5530-E220-42BE-9210-16E5A789CEE1">D3DDisassemble11Trace</a>'s trace disassembly.</td>
+<td>This flag has no effect in <b>D3DDisassembleRegion</b>. Cycle information comes from the trace; therefore, cycle information is available only in <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3ddisassemble11trace">D3DDisassemble11Trace</a>'s trace disassembly.</td>
 </tr>
 </table>
  
@@ -130,14 +130,14 @@ A pointer to a variable that receives the number of bytes offset into the compil
 
 ### -param ppDisassembly [out]
 
-A pointer to a buffer that receives the <a href="https://msdn.microsoft.com/f6a04778-1ab9-4935-98b8-f814c6b4ebac">ID3DBlob</a> interface that accesses the disassembled HLSL code.
+A pointer to a buffer that receives the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)">ID3DBlob</a> interface that accesses the disassembled HLSL code.
 
 
 ## -returns
 
 
 
-Returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 return codes</a>.
+Returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 return codes</a>.
 
 
 
@@ -156,7 +156,7 @@ Returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-1
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd607342(v=VS.85).aspx">Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference-functions">Functions</a>
  
 
  

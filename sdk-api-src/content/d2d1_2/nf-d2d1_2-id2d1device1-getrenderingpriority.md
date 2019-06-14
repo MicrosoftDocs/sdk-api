@@ -63,7 +63,7 @@ Retrieves the current rendering priority of the device.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/25DC645B-7693-468C-AE11-05F6D1B11741">D2D1_RENDERING_PRIORITY</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_2/ne-d2d1_2-d2d1_rendering_priority">D2D1_RENDERING_PRIORITY</a></b>
 
 The current rendering priority of the device.
 
@@ -75,7 +75,7 @@ The current rendering priority of the device.
 
 
 
-<a href="https://msdn.microsoft.com/D0CC0F2C-2BAA-4BD6-AE67-BF99458160F9">ID2D1Device1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_2/nn-d2d1_2-id2d1device1">ID2D1Device1</a>
  
 
  

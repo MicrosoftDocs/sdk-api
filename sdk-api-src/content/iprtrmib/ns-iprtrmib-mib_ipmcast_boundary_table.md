@@ -59,12 +59,12 @@ The <b>MIB_IPMCAST_BOUNDARY_TABLE</b> structure contains a list of  a router's s
 
 ### -field dwNumEntries
 
-The number of <a href="https://msdn.microsoft.com/a3d900be-14c9-4ad9-bc2e-382849a6d1c6">MIB_IPMCAST_BOUNDARY</a> structures listed in <b>table[]</b>.
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ns-iprtrmib-_mib_ipmcast_boundary">MIB_IPMCAST_BOUNDARY</a> structures listed in <b>table[]</b>.
 
 
 ### -field table
 
-An array of <a href="https://msdn.microsoft.com/a3d900be-14c9-4ad9-bc2e-382849a6d1c6">MIB_IPMCAST_BOUNDARY</a> structures which collectively define the set of scoped IPv4 multicast address boundaries on a router.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ns-iprtrmib-_mib_ipmcast_boundary">MIB_IPMCAST_BOUNDARY</a> structures which collectively define the set of scoped IPv4 multicast address boundaries on a router.
 
 
 ## -remarks
@@ -83,7 +83,7 @@ Note that the <i>Iprtrmib.h</i> header file is automatically included in the <i>
 
 
 
-<a href="https://msdn.microsoft.com/a3d900be-14c9-4ad9-bc2e-382849a6d1c6">MIB_IPMCAST_BOUNDARY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ns-iprtrmib-_mib_ipmcast_boundary">MIB_IPMCAST_BOUNDARY</a>
  
 
  

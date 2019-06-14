@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<a href="https://msdn.microsoft.com/1e719900-db58-430d-9059-efb3f884f6f0">ITextInputPanel</a> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/81E54703-095E-4810-A8A0-2ACBE7F3D634">IInputPanelConfiguration</a>.
+<p class="CCE_Message">[<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel</a> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelconfiguration">IInputPanelConfiguration</a>.
 
 ]
 
@@ -112,7 +112,7 @@ An unspecified error occurred.
 
 
 
-The Input Panel is shown as specified by the <a href="https://msdn.microsoft.com/3ca27156-ed34-4cac-ba26-edded586272a">ITextInputPanel::CurrentInPlaceState Property</a> property.
+The Input Panel is shown as specified by the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_currentinplacestate">ITextInputPanel::CurrentInPlaceState Property</a> property.
 
 Calling <b>ITextInputPanel::SetInPlaceVisibility Method</b> with the <i>Visible</i> parameter set to <b>TRUE</b> will fail if the Input Panel is already visible.
 
@@ -120,14 +120,14 @@ If the user has disabled in-place mode from the Input Panel options dialog, call
 
 Any ink already in the Input Panel, when visibility changes, is automatically inserted.
 
-This method does not change the value of <a href="https://msdn.microsoft.com/487ffcee-9df6-48db-8c84-e7e073b8a643">ITextInputPanel::InPlaceVisibleOnFocus Property</a>, and on the subsequent focus change, the behavior reverts to the behavior specified by the <b>ITextInputPanel::InPlaceVisibleOnFocus Property</b>.
+This method does not change the value of <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_inplacevisibleonfocus">ITextInputPanel::InPlaceVisibleOnFocus Property</a>, and on the subsequent focus change, the behavior reverts to the behavior specified by the <b>ITextInputPanel::InPlaceVisibleOnFocus Property</b>.
 
 The <b>ITextInputPanel::SetInPlaceVisibility Method</b> is a synchronous call. The Input Panel visibility will change before the call returns.
 
 
 #### Examples
 
-This C++ example implements an <code>EN_SETFOCUS</code> event handler for an Edit control, <code>IDC_EDIT1</code>. It first checks to if an <a href="https://msdn.microsoft.com/1e719900-db58-430d-9059-efb3f884f6f0">ITextInputPanel</a> object, <code>g_pTip</code>, has been created. If it exists, it prevents the Input Panel from showing by calling the <b>ITextInputPanel::SetInPlaceVisibility Method</b> with a value of <b>false</b> for the <i>Visible</i> parameter.
+This C++ example implements an <code>EN_SETFOCUS</code> event handler for an Edit control, <code>IDC_EDIT1</code>. It first checks to if an <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel</a> object, <code>g_pTip</code>, has been created. If it exists, it prevents the Input Panel from showing by calling the <b>ITextInputPanel::SetInPlaceVisibility Method</b> with a value of <b>false</b> for the <i>Visible</i> parameter.
 
 
 ```cpp
@@ -153,23 +153,23 @@ void CCOMTIPDlg::OnEnSetfocusEdit1()
 
 
 
-<a href="https://msdn.microsoft.com/1e719900-db58-430d-9059-efb3f884f6f0">ITextInputPanel Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/00778a2c-9903-46a0-a5b3-c2ac4c355462">ITextInputPanel::DefaultInPlaceState Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_defaultinplacestate">ITextInputPanel::DefaultInPlaceState Property</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f007a76-8499-4128-8525-0498ddeb7300">ITextInputPanel::SetInPlaceHoverTargetPosition Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-setinplacehovertargetposition">ITextInputPanel::SetInPlaceHoverTargetPosition Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/49bb1a89-7064-4822-866f-739434043869">ITextInputPanel::SetInPlacePosition Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-setinplaceposition">ITextInputPanel::SetInPlacePosition Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms701175(v=VS.85).aspx">InPlaceState Enumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/ne-peninputpanel-__midl___midl_itf_peninputpanel_0000_0000_0002">InPlaceState Enumeration</a>
  
 
  

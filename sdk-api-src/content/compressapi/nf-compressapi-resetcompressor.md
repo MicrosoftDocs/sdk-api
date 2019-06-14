@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Prepares the compressor for the compression of a new stream. The compressor object retains properties set with <a href="https://msdn.microsoft.com/f8c2c425-9b21-4fe3-8b81-d8bf3cd8ec5b">SetCompressorInformation</a>. The sequence of blocks generated is independent of previous blocks.
+Prepares the compressor for the compression of a new stream. The compressor object retains properties set with <a href="https://docs.microsoft.com/windows/desktop/api/compressapi/nf-compressapi-setcompressorinformation">SetCompressorInformation</a>. The sequence of blocks generated is independent of previous blocks.
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Prepares the compressor for the compression of a new stream. The compressor obje
 
 ### -param CompressorHandle [in]
 
-Handle to the compressor returned by <a href="https://msdn.microsoft.com/782b3c08-158a-4bbd-89a5-c20666cbfb94">CreateCompressor</a>.
+Handle to the compressor returned by <a href="https://docs.microsoft.com/windows/desktop/api/compressapi/nf-compressapi-createcompressor">CreateCompressor</a>.
 
 
 ## -returns
 
 
 
-If the function succeeds, the return value is nonzero. If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function succeeds, the return value is nonzero. If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -75,7 +75,7 @@ If the function succeeds, the return value is nonzero. If the function fails, th
 
 
 
-If the compression algorithm fails for some internal reason, the error from <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> can be <b>ERROR_FUNCTION_FAILED</b>.    If the  system cannot locate the compression algorithm handle, the error can be <b>ERROR_INVALID_HANDLE</b>.
+If the compression algorithm fails for some internal reason, the error from <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> can be <b>ERROR_FUNCTION_FAILED</b>.    If the  system cannot locate the compression algorithm handle, the error can be <b>ERROR_INVALID_HANDLE</b>.
 
 
 
@@ -85,7 +85,7 @@ If the compression algorithm fails for some internal reason, the error from <a h
 
 
 
-<a href="https://msdn.microsoft.com/6A617444-23E5-4920-8D6B-602BCCDCC9E0">Compression API Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/cmpapi/compression-api-functions">Compression API Functions</a>
  
 
  

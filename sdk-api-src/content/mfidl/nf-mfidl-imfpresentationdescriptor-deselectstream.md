@@ -63,7 +63,7 @@ Deselects a stream in the presentation.
 
 ### -param dwDescriptorIndex [in]
 
-The stream number to deselect, indexed from zero. To find the number of streams in the presentation, call the <a href="https://msdn.microsoft.com/a01b8f91-b42a-4910-8afb-6134f5f65759">IMFPresentationDescriptor::GetStreamDescriptorCount</a> method.
+The stream number to deselect, indexed from zero. To find the number of streams in the presentation, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpresentationdescriptor-getstreamdescriptorcount">IMFPresentationDescriptor::GetStreamDescriptorCount</a> method.
           
 
 
@@ -112,10 +112,10 @@ The method succeeded.
 
 
 
-If a stream is deselected, no data is generated for that stream. To select the stream again, call <a href="https://msdn.microsoft.com/3f0eaace-9d85-4999-bb3f-34c268dfea2c">IMFPresentationDescriptor::SelectStream</a>.
+If a stream is deselected, no data is generated for that stream. To select the stream again, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpresentationdescriptor-selectstream">IMFPresentationDescriptor::SelectStream</a>.
       
 
-To query whether a stream is selected, call <a href="https://msdn.microsoft.com/1db28049-cd62-4b1b-932b-b4d4e12fd671">IMFPresentationDescriptor::GetStreamDescriptorByIndex</a>.
+To query whether a stream is selected, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpresentationdescriptor-getstreamdescriptorbyindex">IMFPresentationDescriptor::GetStreamDescriptorByIndex</a>.
       
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
@@ -132,11 +132,11 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 
-<a href="https://msdn.microsoft.com/db03e212-7021-433e-84dc-410b2cf7af87">IMFPresentationDescriptor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor">IMFPresentationDescriptor</a>
 
 
 
-<a href="https://msdn.microsoft.com/714c8bda-5ce1-47e2-ba73-9304e26b3129">Presentation Descriptors</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/presentation-descriptors">Presentation Descriptors</a>
  
 
  

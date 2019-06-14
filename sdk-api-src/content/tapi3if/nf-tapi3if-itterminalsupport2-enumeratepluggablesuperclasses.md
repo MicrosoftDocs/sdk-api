@@ -53,7 +53,7 @@ The
 <b>EnumeratePluggableSuperclasses</b> method enumerates the pluggable terminal superclasses registered on the current system.
 
 This method is intended for Visual Basic and scripting applications. C/C++ applications must use the 
-<a href="https://msdn.microsoft.com/6d66aeca-5ac2-4019-b326-71c3bfb6d28e">get_PluggableSuperClasses</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport2-get_pluggablesuperclasses">get_PluggableSuperClasses</a> method.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ This method is intended for Visual Basic and scripting applications. C/C++ appli
 ### -param ppSuperclassEnumerator [out]
 
 Pointer to the 
-<a href="https://msdn.microsoft.com/80b84976-4256-47d2-a965-3ebe89a3821a">IEnumPluggableSuperclassInfo</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumpluggablesuperclassinfo">IEnumPluggableSuperclassInfo</a> interface.
 
 
 ## -returns
@@ -121,8 +121,8 @@ The <i>ppSuperclassEnumerator</i> parameter is not a valid pointer.
 
 
 
-TAPI calls the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/80b84976-4256-47d2-a965-3ebe89a3821a">IEnumPluggableSuperclassInfo</a> interface returned by <b>ITTerminalSupport2::EnumeratePluggableSuperclasses</b>. The application must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the 
+TAPI calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method on the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumpluggablesuperclassinfo">IEnumPluggableSuperclassInfo</a> interface returned by <b>ITTerminalSupport2::EnumeratePluggableSuperclasses</b>. The application must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the 
 <b>IEnumPluggableSuperclassInfo</b> interface to free resources associated with it.
 
 
@@ -133,11 +133,11 @@ TAPI calls the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.8
 
 
 
-<a href="https://msdn.microsoft.com/80b84976-4256-47d2-a965-3ebe89a3821a">IEnumPluggableSuperclassInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumpluggablesuperclassinfo">IEnumPluggableSuperclassInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/58611991-746c-4626-a1b1-535a2134ee27">ITTerminalSupport2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminalsupport2">ITTerminalSupport2</a>
  
 
  

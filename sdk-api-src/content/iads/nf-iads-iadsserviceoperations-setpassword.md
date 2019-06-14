@@ -66,7 +66,7 @@ The null-terminated Unicode string to be stored as the new password.
 
 
 
-This method supports the standard return values, including S_OK. For more information about other return values, see  <a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>.
+This method supports the standard return values, including S_OK. For more information about other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 
 
@@ -75,7 +75,7 @@ This method supports the standard return values, including S_OK. For more inform
 
 
 
-The property <a href="https://msdn.microsoft.com/ff05ab0c-b4fe-4c67-8894-9ac8427ce5b8">IADsService::get_ServiceAccountName</a> identifies the account for which this password is to be set.
+The property <a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsservice-property-methods">IADsService::get_ServiceAccountName</a> identifies the account for which this password is to be set.
 
 
 #### Examples
@@ -168,15 +168,15 @@ Cleanup:
 
 
 
-<a href="https://msdn.microsoft.com/b59a6594-1109-4913-8a83-4888e56e71d0">IADsService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsservice">IADsService</a>
 
 
 
-<a href="https://msdn.microsoft.com/ff05ab0c-b4fe-4c67-8894-9ac8427ce5b8">IADsService::get_ServiceAccountName</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsservice-property-methods">IADsService::get_ServiceAccountName</a>
 
 
 
-<a href="https://msdn.microsoft.com/f2459ca2-8a14-4343-bec6-ef3775dbf415">IADsServiceOperations</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsserviceoperations">IADsServiceOperations</a>
  
 
  

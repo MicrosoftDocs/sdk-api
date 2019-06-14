@@ -64,7 +64,7 @@ A reference to the IID of the interface that the current object wants to pass to
 
 ### -param pUnk [in]
 
-A reference to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface on the current object.
+A reference to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface on the current object.
 
 
 ## -returns
@@ -81,11 +81,11 @@ If the function succeds, the return value is a pointer to the specified interfac
 
 
 
-<a href="https://msdn.microsoft.com/50ccf75e-2652-4254-a771-af83cc9248b3">COM+ Contexts and Threading Models</a>
+<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--contexts-and-threading-models">COM+ Contexts and Threading Models</a>
 
 
 
-<a href="https://msdn.microsoft.com/1ecc5a8e-58d8-42e7-a543-da86ad966983">IMTxAS::SafeRef</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms679240(v=vs.85)">IMTxAS::SafeRef</a>
  
 
  

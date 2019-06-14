@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies watermark flags. Used by <a href="https://msdn.microsoft.com/14ce62f7-b464-4e52-8441-35f613b6c844">IVisualProperties::SetWatermark</a>.
+Specifies watermark flags. Used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ivisualproperties-setwatermark">IVisualProperties::SetWatermark</a>.
 
 
 ## -enum-fields

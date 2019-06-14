@@ -69,12 +69,12 @@ Specifies the number of attributes to obtain.
 
 ### -param paFilterAttrs [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/5e375609-3d3c-4c12-ae05-dcaa70779162">TS_ATTRID</a> data type that specifies the attribute to verify.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/TSF/ts-attrid">TS_ATTRID</a> data type that specifies the attribute to verify.
 
 
 ### -param dwFlags [in]
 
-Specifies attributes for the call to the <a href="https://msdn.microsoft.com/fff22304-626e-4ae6-ac8c-f4a62ee823c2">RetrieveRequestedAttrs</a> method. If this parameter is not set, the method returns the attributes that start at the specified position. Other possible values for this parameter are the following.
+Specifies attributes for the call to the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp2-retrieverequestedattrs">RetrieveRequestedAttrs</a> method. If this parameter is not set, the method returns the attributes that start at the specified position. Other possible values for this parameter are the following.
 
 <table>
 <tr>
@@ -97,7 +97,7 @@ Obtains the attributes that end at the specified application character position.
 </dl>
 </td>
 <td width="60%">
-Obtains the value of the attribute in addition to the attribute. The attribute value is put into the <b>varValue</b> member of the <a href="https://msdn.microsoft.com/9209ef60-6a1d-4aad-9f9f-775534116f37">TS_ATTRVAL</a> structure during the <a href="https://msdn.microsoft.com/fff22304-626e-4ae6-ac8c-f4a62ee823c2">RetrieveRequestedAttrs</a> method call.
+Obtains the value of the attribute in addition to the attribute. The attribute value is put into the <b>varValue</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_attrval">TS_ATTRVAL</a> structure during the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp2-retrieverequestedattrs">RetrieveRequestedAttrs</a> method call.
 
 </td>
 </tr>
@@ -149,23 +149,23 @@ If the flag <b>TS_ATTR_FIND_WANT_END</b> is set in <i>dwFlags</i>, the method wo
 
 
 
-<a href="https://msdn.microsoft.com/c256f1c2-6b67-4417-8707-3490a2c5cb55">ITextStoreACP2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp2">ITextStoreACP2</a>
 
 
 
-<a href="https://msdn.microsoft.com/fff22304-626e-4ae6-ac8c-f4a62ee823c2">RetrieveRequestedAttrs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp2-retrieverequestedattrs">RetrieveRequestedAttrs</a>
 
 
 
-<a href="https://msdn.microsoft.com/5e375609-3d3c-4c12-ae05-dcaa70779162">TS_ATTRID</a>
+<a href="https://docs.microsoft.com/windows/desktop/TSF/ts-attrid">TS_ATTRID</a>
 
 
 
-<a href="https://msdn.microsoft.com/9209ef60-6a1d-4aad-9f9f-775534116f37">TS_ATTRVAL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_attrval">TS_ATTRVAL</a>
 
 
 
-<a href="https://msdn.microsoft.com/e99a44ba-c41a-4dd7-9475-dd37159081fd">TS_ATTR_* Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/TSF/ts-attr--constants">TS_ATTR_* Constants</a>
  
 
  

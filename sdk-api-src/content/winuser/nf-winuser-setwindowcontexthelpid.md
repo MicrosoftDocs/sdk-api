@@ -79,7 +79,7 @@ Type: <b>BOOL</b>
 
 Returns nonzero if successful, or zero otherwise.
 
-To retrieve extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+To retrieve extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -98,7 +98,7 @@ If a child window does not have a Help context identifier, it inherits the ident
 
 
 
-<a href="https://msdn.microsoft.com/28e57c01-0327-4f64-9ef4-ca13c3c32b0c">GetWindowContextHelpId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowcontexthelpid">GetWindowContextHelpId</a>
  
 
  

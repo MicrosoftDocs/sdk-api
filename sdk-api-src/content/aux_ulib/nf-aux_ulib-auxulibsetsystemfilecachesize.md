@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Sets the current file system cache size.
 
-As of Windows Server 2003 with Service Pack 1 (SP1), this function has been superseded by the <a href="https://msdn.microsoft.com/bb0a65d6-d04a-4805-80d5-61fc53eb2726">SetSystemFileCacheSize</a> function.
+As of Windows Server 2003 with Service Pack 1 (SP1), this function has been superseded by the <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-setsystemfilecachesize">SetSystemFileCacheSize</a> function.
 
 
 ## -parameters
@@ -80,7 +80,7 @@ This parameter is reserved for future use and must be zero.
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
-If the function fails, the return value is <b>FALSE</b>. To retrieve extended information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is <b>FALSE</b>. To retrieve extended information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -89,7 +89,7 @@ If the function fails, the return value is <b>FALSE</b>. To retrieve extended in
 
 
 
-You must call the <a href="https://msdn.microsoft.com/2e46e323-669c-4fcd-b3e0-d1e4ec700c64">AuxUlibInitialize</a> function before calling this function.
+You must call the <a href="https://docs.microsoft.com/windows/desktop/api/aux_ulib/nf-aux_ulib-auxulibinitialize">AuxUlibInitialize</a> function before calling this function.
 
 The caller must have enabled the SE_INCREASE_QUOTA_NAME privilege in the active token.
 
@@ -101,7 +101,7 @@ The caller must have enabled the SE_INCREASE_QUOTA_NAME privilege in the active 
 
 
 
-<a href="https://msdn.microsoft.com/2e46e323-669c-4fcd-b3e0-d1e4ec700c64">AuxUlibInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aux_ulib/nf-aux_ulib-auxulibinitialize">AuxUlibInitialize</a>
  
 
  

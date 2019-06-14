@@ -67,12 +67,12 @@ Handle to the driver to use.
 
 ### -param lpbiIn
 
-Pointer to a structure containing the format of the compressed data. For bitmaps, this is a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure.
+Pointer to a structure containing the format of the compressed data. For bitmaps, this is a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader">BITMAPINFOHEADER</a> structure.
 
 
 ### -param lpbiOut
 
-Pointer to a structure to return the suggested format. The drawing handler can receive and draw data from this format. For bitmaps, this is a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure.
+Pointer to a structure to return the suggested format. The drawing handler can receive and draw data from this format. For bitmaps, this is a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader">BITMAPINFOHEADER</a> structure.
 
 
 ### -param dxSrc
@@ -116,7 +116,7 @@ Returns <b>ICERR_OK</b> if successful or an error otherwise.
 
 Applications can use this function to determine alternative input formats that a drawing handler can decompress and if the drawing handler can stretch data. If the drawing handler cannot stretch data as requested, the application might have to stretch the data.
 
-If the drawing handler cannot decompress a format provided by an application, use the <a href="https://msdn.microsoft.com/779b63db-6b1d-4eb5-9df5-bb847b35863d">ICDecompress</a>, <a href="https://msdn.microsoft.com/a7ae0409-e89d-400a-a601-edc8e6e3fbcc">ICDecompressEx</a>, j, <a href="https://msdn.microsoft.com/6a1aa686-7f3d-43be-baaa-d20ea4a33f9b">ICDecompressExQuery</a>, and <a href="https://msdn.microsoft.com/83db0e07-7e93-4c77-a017-68a30b1372ef">ICDecompressOpen</a> functions to obtain alternate formats.
+If the drawing handler cannot decompress a format provided by an application, use the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icdecompress">ICDecompress</a>, <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icdecompressex">ICDecompressEx</a>, j, <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icdecompressexquery">ICDecompressExQuery</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icdecompressopen">ICDecompressOpen</a> functions to obtain alternate formats.
 
 
 
@@ -126,23 +126,23 @@ If the drawing handler cannot decompress a format provided by an application, us
 
 
 
-<a href="https://msdn.microsoft.com/a7ae0409-e89d-400a-a601-edc8e6e3fbcc">ICDecompressEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icdecompressex">ICDecompressEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/35277938-6fae-4207-8b91-439af2b481e8">ICDecompressExBegin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icdecompressexbegin">ICDecompressExBegin</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a1aa686-7f3d-43be-baaa-d20ea4a33f9b">ICDecompressExQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icdecompressexquery">ICDecompressExQuery</a>
 
 
 
-<a href="https://msdn.microsoft.com/193961a5-b882-4769-bce7-a53d625fc9dd">Video Compression Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-functions">Video Compression Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/df876309-68d3-43a3-9d83-6fdb8f345fdc">Video Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
  
 
  

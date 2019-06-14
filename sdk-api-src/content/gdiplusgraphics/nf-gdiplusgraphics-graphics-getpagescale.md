@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>Graphics::GetPageScale</b> method gets the scaling factor currently set for the page transformation of this 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object. The page transformation converts page coordinates to device coordinates.
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object. The page transformation converts page coordinates to device coordinates.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ Type: <strong>Type: <b>REAL</b>
 </strong>
 
 This method returns the scaling factor currently set for the page transformation of this 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object.
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object.
 
 
 
@@ -79,35 +79,35 @@ This method returns the scaling factor currently set for the page transformation
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535703(v=VS.85).aspx">Graphics::GetDpiX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getdpix">Graphics::GetDpiX</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535705(v=VS.85).aspx">Graphics::GetDpiY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getdpiy">Graphics::GetDpiY</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535718(v=VS.85).aspx">Graphics::GetPageUnit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getpageunit">Graphics::GetPageUnit</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535811(v=VS.85).aspx">Graphics::SetPageScale</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setpagescale">Graphics::SetPageScale</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535812(v=VS.85).aspx">Graphics::SetPageUnit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setpageunit">Graphics::SetPageUnit</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536399(v=VS.85).aspx">Types of Coordinate Systems</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-types-of-coordinate-systems-about">Types of Coordinate Systems</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534405(v=VS.85).aspx">Unit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-unit">Unit</a>
  
 
  

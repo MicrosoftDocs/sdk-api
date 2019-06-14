@@ -99,12 +99,12 @@ A pointer to a  byte buffer that contains information on the supplicant user tha
 
 ### -field pAttribArray
 
-A pointer to an <a href="https://msdn.microsoft.com/2f88b475-a4ae-4c40-b0f8-2dd05c676619">EAP_ATTRIBUTES</a> array structure that contains the EAP attributes  returned by the authentication session.
+A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attributes">EAP_ATTRIBUTES</a> array structure that contains the EAP attributes  returned by the authentication session.
 
 
 ### -field pEapError
 
-A pointer to the <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to <a href="https://msdn.microsoft.com/85b4197c-5caf-4e2b-94fd-e651712dd39d">EapPeerFreeErrorMemory</a>.
+A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
 
 
 ### -field pNgcKerbTicket
@@ -129,7 +129,7 @@ The size, in bytes, of <b>pConnectionData</b>.
 
 
 
-<a href="https://msdn.microsoft.com/546ef715-8f51-4f5a-a569-8bf64d52de85">EAPHost Peer Method Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-peer-method-structures">EAPHost Peer Method Structures</a>
  
 
  

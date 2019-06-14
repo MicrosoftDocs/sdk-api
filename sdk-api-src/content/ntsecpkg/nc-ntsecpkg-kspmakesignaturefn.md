@@ -49,11 +49,11 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SpMakeSignature</b> function generates a <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">signature</a> based on the specified message and <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a>.
+The <b>SpMakeSignature</b> function generates a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">signature</a> based on the specified message and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>.
 
 The <b>SpMakeSignature</b> function is the dispatch function for the 
-<a href="https://msdn.microsoft.com/d17824b0-6121-48a3-b19b-d4fae3e1348e">MakeSignature</a> function of the 
-<a href="https://msdn.microsoft.com/91d2389b-1238-49d3-9fef-f1017a8072df">Security Support Provider Interface</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-makesignature">MakeSignature</a> function of the 
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi">Security Support Provider Interface</a>.
 
 
 ## -parameters
@@ -87,7 +87,7 @@ A handle to the security context to be used to generate the message signature.
 #### - MessageBuffers [in, out]
 
 Pointer to an array of 
-<a href="https://msdn.microsoft.com/75f49d9c-7d3c-4f45-a94e-44cd05773a07">SecBuffer</a> structures. On input, the structures contain the message to be signed. On output, the <b>SecBuffer</b> structure of type SECBUFFER_TOKEN contains the signature.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbuffer">SecBuffer</a> structures. On input, the structures contain the message to be signed. On output, the <b>SecBuffer</b> structure of type SECBUFFER_TOKEN contains the signature.
 
 
 #### - MessageSequenceNumber [in]
@@ -135,13 +135,13 @@ The handle is not valid.
 
 
 The counterpart to the <b>SpMakeSignature</b> function is the 
-<a href="https://msdn.microsoft.com/62a74a1d-c7e6-4722-af57-997a5ff553ee">SpVerifySignature</a> function, used to verify signatures at the receiving end.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-kspverifysignaturefn">SpVerifySignature</a> function, used to verify signatures at the receiving end.
 
 SSP/APs must implement the <b>SpMakeSignature</b> function; however, the actual name given to the implementation is up to the developer.
 
 A pointer to the <b>SpMakeSignature</b> function is available in the 
-<a href="https://msdn.microsoft.com/2b3fc6d1-2f55-4053-9271-f5cb5c318555">SECPKG_USER_FUNCTION_TABLE</a> structure received from the 
-<a href="https://msdn.microsoft.com/e260db29-995b-4f32-b389-4ef62b3b29bc">SpUserModeInitialize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a> structure received from the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a> function.
 
 
 
@@ -151,19 +151,19 @@ A pointer to the <b>SpMakeSignature</b> function is available in the
 
 
 
-<a href="https://msdn.microsoft.com/d17824b0-6121-48a3-b19b-d4fae3e1348e">MakeSignature</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-makesignature">MakeSignature</a>
 
 
 
-<a href="https://msdn.microsoft.com/2b3fc6d1-2f55-4053-9271-f5cb5c318555">SECPKG_USER_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/e260db29-995b-4f32-b389-4ef62b3b29bc">SpUserModeInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/62a74a1d-c7e6-4722-af57-997a5ff553ee">SpVerifySignature</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-kspverifysignaturefn">SpVerifySignature</a>
  
 
  

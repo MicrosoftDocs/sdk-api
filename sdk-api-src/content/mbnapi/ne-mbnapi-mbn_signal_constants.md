@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-THE <b>MBN_SIGNAL_CONSTANTS</b> enumerated type contains specific values used by <a href="https://msdn.microsoft.com/2b60d078-ccbd-4cc5-addf-e6e95832b3a1">IMbnSignal</a> interface operations. 
+THE <b>MBN_SIGNAL_CONSTANTS</b> enumerated type contains specific values used by <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsignal">IMbnSignal</a> interface operations. 
 
 
 ## -enum-fields

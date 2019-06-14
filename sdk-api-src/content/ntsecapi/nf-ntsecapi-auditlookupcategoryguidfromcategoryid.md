@@ -59,7 +59,7 @@ The <b>AuditLookupCategoryGuidFromCategoryId</b> function retrieves a <b>GUID</b
 
 ### -param AuditCategoryId [in]
 
-An element of the <a href="https://msdn.microsoft.com/e8dbd1d5-37d5-4a97-9d1c-c645871dc7a5">POLICY_AUDIT_EVENT_TYPE</a> enumeration that specifies an audit-policy category.
+An element of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_policy_audit_event_type">POLICY_AUDIT_EVENT_TYPE</a> enumeration that specifies an audit-policy category.
 
 
 ### -param pAuditCategoryGuid [out]
@@ -74,7 +74,7 @@ A pointer to a <b>GUID</b> structure that represents the audit-policy category s
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -84,7 +84,7 @@ If the function fails, it returns <b>FALSE</b>. To get extended error informatio
 
 
 
-<a href="https://msdn.microsoft.com/c50e39f0-d45f-4deb-abe5-6261775b507c">AuditLookupCategoryIdFromCategoryGuid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditlookupcategoryidfromcategoryguid">AuditLookupCategoryIdFromCategoryGuid</a>
  
 
  

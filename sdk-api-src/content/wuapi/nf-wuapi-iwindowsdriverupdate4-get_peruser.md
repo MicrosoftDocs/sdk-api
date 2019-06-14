@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/3376c93a-4705-432a-8475-89e4448e5bc3">IWindowsDriverUpdate4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate4">IWindowsDriverUpdate4</a>
  
 
  

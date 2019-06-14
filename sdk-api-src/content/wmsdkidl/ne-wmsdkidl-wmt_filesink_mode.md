@@ -62,17 +62,17 @@ The <b>WMT_FILESINK_MODE</b> enumeration type defines the types of input accepte
 
 ### -field WMT_FM_SINGLE_BUFFERS
 
-The file sink accepts normal buffers through calls to <a href="https://msdn.microsoft.com/en-us/library/Dd757470(v=VS.85).aspx">IWMWriterSink::OnDataUnit</a>. This is the default behavior.
+The file sink accepts normal buffers through calls to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwritersink-ondataunit">IWMWriterSink::OnDataUnit</a>. This is the default behavior.
 
 
 ### -field WMT_FM_FILESINK_DATA_UNITS
 
-The file sink accepts data as <a href="https://msdn.microsoft.com/en-us/library/Dd757841(v=VS.85).aspx">WMT_FILESINK_DATA_UNIT</a> structures delivered by <a href="https://msdn.microsoft.com/en-us/library/Dd798756(v=VS.85).aspx">IWMWriterFileSink3::OnDataUnitEx</a>.
+The file sink accepts data as <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmt_filesink_data_unit">WMT_FILESINK_DATA_UNIT</a> structures delivered by <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterfilesink3-ondataunitex">IWMWriterFileSink3::OnDataUnitEx</a>.
 
 
 ### -field WMT_FM_FILESINK_UNBUFFERED
 
-The file sink accepts unbuffered data. A call to <a href="https://msdn.microsoft.com/en-us/library/Dd798759(v=VS.85).aspx">IWMWriterFileSink3::SetUnbufferedIO</a> will succeed.
+The file sink accepts unbuffered data. A call to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterfilesink3-setunbufferedio">IWMWriterFileSink3::SetUnbufferedIO</a> will succeed.
 
 
 ## -see-also
@@ -80,7 +80,7 @@ The file sink accepts unbuffered data. A call to <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/cd28f608-25ba-44a7-868b-b1cd4dfcfa45">Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>
  
 
  

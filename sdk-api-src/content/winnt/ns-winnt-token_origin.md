@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>TOKEN_ORIGIN</b> structure contains information about  the origin of the logon session. This structure is used by the <a href="https://msdn.microsoft.com/e94de19c-de12-40fb-a72c-060f7ad12f75">GetTokenInformation</a> function.
+The <b>TOKEN_ORIGIN</b> structure contains information about  the origin of the logon session. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a> function.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ The <b>TOKEN_ORIGIN</b> structure contains information about  the origin of the 
 
 ### -field OriginatingLogonSession
 
-<a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">Locally unique identifier</a> (LUID) for the <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">logon session</a>. If the token  passed to <a href="https://msdn.microsoft.com/e94de19c-de12-40fb-a72c-060f7ad12f75">GetTokenInformation</a> resulted from a logon using explicit credentials, such as passing name, domain, and password to the  <a href="https://msdn.microsoft.com/a6d880a0-0aed-4bdb-89c9-4f667ecb510e">LogonUser</a> function, then this member will contain the ID of the <i>logon session</i> that created it.  If the token resulted from  network authentication, such as a call to <a href="https://msdn.microsoft.com/library/Aa374703(v=VS.85).aspx">AcceptSecurityContext</a>,  or a call to <b>LogonUser</b> with <i>dwLogonType</i> set to LOGON32_LOGON_NETWORK or LOGON32_LOGON_NETWORK_CLEARTEXT, then this member will be zero.
+<a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Locally unique identifier</a> (LUID) for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a>. If the token  passed to <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a> resulted from a logon using explicit credentials, such as passing name, domain, and password to the  <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a> function, then this member will contain the ID of the <i>logon session</i> that created it.  If the token resulted from  network authentication, such as a call to <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext</a>,  or a call to <b>LogonUser</b> with <i>dwLogonType</i> set to LOGON32_LOGON_NETWORK or LOGON32_LOGON_NETWORK_CLEARTEXT, then this member will be zero.
 
 
 ## -see-also
@@ -67,7 +67,7 @@ The <b>TOKEN_ORIGIN</b> structure contains information about  the origin of the 
 
 
 
-<a href="https://msdn.microsoft.com/e94de19c-de12-40fb-a72c-060f7ad12f75">GetTokenInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a>
  
 
  

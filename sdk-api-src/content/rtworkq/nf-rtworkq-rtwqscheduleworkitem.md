@@ -69,7 +69,7 @@ Time-out interval, in milliseconds. Set this parameter to a negative value. The 
 
 ### -param key [out, optional]
 
-Receives a key that can be used to cancel the timer. To cancel the wait, call <a href="https://msdn.microsoft.com/55d5c6d6-310e-4f73-bbf4-9ac47a3ed295">RtwqCancelWorkItem</a> and pass this key in the <i>Key</i> parameter.
+Receives a key that can be used to cancel the timer. To cancel the wait, call <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqcancelworkitem">RtwqCancelWorkItem</a> and pass this key in the <i>Key</i> parameter.
 
 
 ## -returns

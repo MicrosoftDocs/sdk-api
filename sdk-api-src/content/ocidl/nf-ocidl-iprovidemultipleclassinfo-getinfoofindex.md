@@ -121,7 +121,7 @@ Indicates a request for <i>piidSource</i> information.
 
 ### -param pptiCoClass [out]
 
-The <a href="https://msdn.microsoft.com/">coclass</a> type information for the requested contributor. See <a href="https://msdn.microsoft.com/en-us/library/ms221696(v=VS.85).aspx">ITypeInfo</a>.
+The <a href="https://msdn.microsoft.com/">coclass</a> type information for the requested contributor. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>.
 
 
 ### -param pdwTIFlags [out]
@@ -158,7 +158,7 @@ This method can return the standard return values E_INVALIDARG, E_POINTER, E_FAI
 
 
 
-<a href="https://msdn.microsoft.com/87407830-b34b-4d4e-a5cc-551f47cffb75">IProvideMultipleClassInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iprovidemultipleclassinfo">IProvideMultipleClassInfo</a>
  
 
  

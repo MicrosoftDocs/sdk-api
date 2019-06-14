@@ -59,12 +59,12 @@ The <b>SetEngineDeviceFormat</b> method sets the waveform audio format for the h
 
 ### -param pDevice [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/12b05e7e-81b2-49fd-bb9f-d5ad3315c580">IMMDevice</a> interface.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice</a> interface.
 
 
 ### -param _pwfxFormat [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/f2f050d6-afe2-4647-932b-1287f4538702">WAVEFORMATEX</a> structure that provides information about the hardware audio engine.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-twaveformatex">WAVEFORMATEX</a> structure that provides information about the hardware audio engine.
 
 
 ## -returns
@@ -81,11 +81,11 @@ The <b>SetEngineDeviceFormat</b> method returns <b>S_OK</b> to indicate that it 
 
 
 
-<a href="https://msdn.microsoft.com/6FB9BEDB-111B-4F0A-B8BB-B0BA2024EB24">IHardwareAudioEngineBase</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-ihardwareaudioenginebase">IHardwareAudioEngineBase</a>
 
 
 
-<a href="https://msdn.microsoft.com/12b05e7e-81b2-49fd-bb9f-d5ad3315c580">IMMDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice</a>
  
 
  

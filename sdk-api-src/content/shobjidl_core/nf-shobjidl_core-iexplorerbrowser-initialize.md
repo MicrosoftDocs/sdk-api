@@ -73,9 +73,9 @@ A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> tha
 
 ### -param pfs [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/be00fe39-1add-412e-b88b-4b0b1404b19d">FOLDERSETTINGS</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-foldersettings">FOLDERSETTINGS</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/be00fe39-1add-412e-b88b-4b0b1404b19d">FOLDERSETTINGS</a> structure that determines how the folder will be displayed in the view. If this parameter is <b>NULL</b>, then you must call <a href="https://msdn.microsoft.com/f24b98dd-18fc-495d-b7dd-d1491dc0a077">IExplorerBrowser::SetFolderSettings</a>; otherwise, the default view settings for the folder are used.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-foldersettings">FOLDERSETTINGS</a> structure that determines how the folder will be displayed in the view. If this parameter is <b>NULL</b>, then you must call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowser-setfoldersettings">IExplorerBrowser::SetFolderSettings</a>; otherwise, the default view settings for the folder are used.
 
 
 ## -returns
@@ -93,7 +93,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-After calling the <b>Initialize</b> method, it is the responsibility of the caller to call the <a href="https://msdn.microsoft.com/b6fc4aa6-f689-4b3e-a922-f8361d33b6dd">Destroy</a> method to destroy the browser and free any memory and windowed resources associated with the browser.
+After calling the <b>Initialize</b> method, it is the responsibility of the caller to call the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowser-destroy">Destroy</a> method to destroy the browser and free any memory and windowed resources associated with the browser.
 
 
 

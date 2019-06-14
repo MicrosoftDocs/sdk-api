@@ -57,10 +57,10 @@ ms.custom: 19H1
 
 Determines if a specified character is a lead byte for the system default Windows ANSI code page 
     (<b>CP_ACP</b>). A lead byte is the first byte of a two-byte character in a 
-    <a href="https://msdn.microsoft.com/df049d22-02e2-48b2-8b74-52f71c00c549">double-byte character set</a> (DBCS) for the code 
+    <a href="https://docs.microsoft.com/windows/desktop/Intl/double-byte-character-sets">double-byte character set</a> (DBCS) for the code 
     page.
 <div class="alert"><b>Note</b>  To use a different code page, your application should use the 
-    <a href="https://msdn.microsoft.com/1ca67e7e-a2a7-433f-b2b6-8fa5ecc50354">IsDBCSLeadByteEx</a> function.</div><div> </div>
+    <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-isdbcsleadbyteex">IsDBCSLeadByteEx</a> function.</div><div> </div>
 
 ## -parameters
 
@@ -78,7 +78,7 @@ The character to test.
 
 Returns a nonzero value if the test character is potentially a lead byte. The function returns 0 if the test 
        character is not a lead byte or if it is a single-byte character. To get extended error information, the 
-       application can call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -88,14 +88,14 @@ Returns a nonzero value if the test character is potentially a lead byte. The fu
 
 
 <div class="alert"><b>Note</b>  This function does not validate the presence or validity of a trail byte. Therefore, 
-     <a href="https://msdn.microsoft.com/a117fdfe-b52b-466f-9300-6455e91ea2a8">MultiByteToWideChar</a> might not recognize a 
+     <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a> might not recognize a 
      sequence that the application using <b>IsDBCSLeadByte</b> 
      reports as a lead byte. The application can easily become unsynchronized with the results of 
      <b>MultiByteToWideChar</b>, potentially leading to 
      unexpected errors or buffer size mismatches.</div>
 <div> </div>
 In general, instead of attempting low-level manipulation of code page data, applications should use 
-    <a href="https://msdn.microsoft.com/a117fdfe-b52b-466f-9300-6455e91ea2a8">MultiByteToWideChar</a> to convert the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a> to convert the 
     data to UTF-16 and work with it in that encoding.
 
 Lead byte values are specific to each distinct DBCS. Some byte values can appear in a single code page as both 
@@ -104,7 +104,7 @@ Lead byte values are specific to each distinct DBCS. Some byte values can appear
 To make sense of a DBCS string, an application normally starts at the beginning of a string and scans forward, 
     keeping track when it encounters a lead byte, and treating the next byte as the trailing part of the same 
     character. If the application must back up, it should use 
-    <a href="https://msdn.microsoft.com/en-us/library/ms647471(v=VS.85).aspx">CharPrev</a> instead of attempting to develop its own 
+    <a href="https://docs.microsoft.com/windows/desktop/menurc/v">CharPrev</a> instead of attempting to develop its own 
     algorithm.
 
 
@@ -115,19 +115,19 @@ To make sense of a DBCS string, an application normally starts at the beginning 
 
 
 
-<a href="https://msdn.microsoft.com/1ca67e7e-a2a7-433f-b2b6-8fa5ecc50354">IsDBCSLeadByteEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-isdbcsleadbyteex">IsDBCSLeadByteEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/a117fdfe-b52b-466f-9300-6455e91ea2a8">MultiByteToWideChar</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a>
 
 
 
-<a href="https://msdn.microsoft.com/1799f5da-1391-4b6e-ac13-718017a77557">Unicode and Character Set Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/unicode-and-character-set-functions">Unicode and Character Set Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c1c6582-b58c-4008-9ce5-208acc191d9f">Unicode and Character Sets</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/unicode-and-character-sets">Unicode and Character Sets</a>
  
 
  

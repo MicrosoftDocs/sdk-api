@@ -64,7 +64,7 @@ Retrieves the value of the event mask for a specified communications device.
 ### -param hFile [in]
 
 A handle to the communications device. The 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function returns this handle.
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function returns this handle.
 
 
 ### -param lpEvtMask [out]
@@ -207,8 +207,8 @@ A character was received and placed in the input buffer.
 </td>
 <td width="60%">
 The event character was received and placed in the input buffer. The event character is specified in the device's 
-<a href="https://msdn.microsoft.com/9dccd2c6-44b7-4609-a2b9-9815430bf3c7">DCB</a> structure, which is applied to a serial port by using the 
-<a href="https://msdn.microsoft.com/a9296514-4789-4830-ba68-84a16ac7fc47">SetCommState</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_dcb">DCB</a> structure, which is applied to a serial port by using the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcommstate">SetCommState</a> function.
 
 </td>
 </tr>
@@ -234,7 +234,7 @@ The last character in the output buffer was sent.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -245,8 +245,8 @@ If the function fails, the return value is zero. To get extended error informati
 
 The 
 <b>GetCommMask</b> function uses a mask variable to indicate the set of events that can be monitored for a particular communications resource. A handle to the communications resource can be specified in a call to the 
-<a href="https://msdn.microsoft.com/79e955c0-8756-4d6f-bce6-49e8e44d0d3f">WaitCommEvent</a> function, which waits for one of the events to occur. To modify the event mask of a communications resource, use the 
-<a href="https://msdn.microsoft.com/77c86b02-7f98-439b-9072-d5fc3ef421a1">SetCommMask</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-waitcommevent">WaitCommEvent</a> function, which waits for one of the events to occur. To modify the event mask of a communications resource, use the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcommmask">SetCommMask</a> function.
 
 
 
@@ -256,27 +256,27 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/ba7d1a9e-6906-4923-a8eb-db58050ba699">Communications Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-functions">Communications Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/7faf7d55-e30f-4be2-917b-e057265b81b2">Communications Resources</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-resources">Communications Resources</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/9dccd2c6-44b7-4609-a2b9-9815430bf3c7">DCB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_dcb">DCB</a>
 
 
 
-<a href="https://msdn.microsoft.com/77c86b02-7f98-439b-9072-d5fc3ef421a1">SetCommMask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcommmask">SetCommMask</a>
 
 
 
-<a href="https://msdn.microsoft.com/79e955c0-8756-4d6f-bce6-49e8e44d0d3f">WaitCommEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-waitcommevent">WaitCommEvent</a>
  
 
  

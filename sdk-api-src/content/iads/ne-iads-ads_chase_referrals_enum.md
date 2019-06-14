@@ -81,9 +81,9 @@ Referrals are chased for either the subordinate or external type.
 
 
 
-Use the constants of this enumeration to set up search preferences for referral chasing. The action amounts to assigning the appropriate fields of the  <a href="https://msdn.microsoft.com/5fc46271-a1be-4a9d-a340-ed801211736a">ADS_SEARCHPREF_INFO</a> structure with elements of the <b>ADS_CHASE_REFERRALS_ENUM</b> and  <a href="https://msdn.microsoft.com/f3ab3d53-e53c-459e-929f-f2a3fc95c3ff">ADS_SEARCHPREF_ENUM</a> enumerations. The values of this enumeration can also be used with  <a href="https://msdn.microsoft.com/1884efe5-86f5-4579-a25e-2ff9c9a6ec2a">IADsObjectOptions</a> to specify whether referral chasing should take place when enumerating the objects under a container object.
+Use the constants of this enumeration to set up search preferences for referral chasing. The action amounts to assigning the appropriate fields of the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_searchpref_info">ADS_SEARCHPREF_INFO</a> structure with elements of the <b>ADS_CHASE_REFERRALS_ENUM</b> and  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0025">ADS_SEARCHPREF_ENUM</a> enumerations. The values of this enumeration can also be used with  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsobjectoptions">IADsObjectOptions</a> to specify whether referral chasing should take place when enumerating the objects under a container object.
 
-The <a href="https://msdn.microsoft.com/3d8baeb1-0edc-4648-8691-6ea4dcfd8f62">IADsNameTranslate</a> interface has a partial implementation of <b>ADS_CHASE_REFERRALS_ENUM</b> through the <a href="https://msdn.microsoft.com/7c44fe9b-16a5-4bd5-a80b-8f3dcfec20cc">ChaseReferral</a> property. If the <b>ChaseReferral</b> property is set to zero (0), it is the same as specifying <b>ADS_CHASE_REFERRALS_NEVER</b> (0). If a nonzero value is used, it is the same as specifying <b>ADS_CHASE_REFERRALS_ALWAYS</b> (0x60). <b>IADsNameTranslate</b> does not implement the <b>ADS_CHASE_REFERRALS_SUBORDINATE</b> (0x20) or <b>ADS_CHASE_REFERRALS_EXTERNAL</b> (0x40) options.
+The <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a> interface has a partial implementation of <b>ADS_CHASE_REFERRALS_ENUM</b> through the <a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsnametranslate-property-methods">ChaseReferral</a> property. If the <b>ChaseReferral</b> property is set to zero (0), it is the same as specifying <b>ADS_CHASE_REFERRALS_NEVER</b> (0). If a nonzero value is used, it is the same as specifying <b>ADS_CHASE_REFERRALS_ALWAYS</b> (0x60). <b>IADsNameTranslate</b> does not implement the <b>ADS_CHASE_REFERRALS_SUBORDINATE</b> (0x20) or <b>ADS_CHASE_REFERRALS_EXTERNAL</b> (0x40) options.
 
 The ADSI LDAP provider supports external referrals for paged searches, but does not support subordinate referrals during paging.
 
@@ -97,24 +97,24 @@ The ADSI LDAP provider supports external referrals for paged searches, but does 
 
 
 
-<a href="https://msdn.microsoft.com/f0ad5ce5-742d-40dc-ac5a-31d779e40bfd">ADSI
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-enumerations">ADSI
   Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/f3ab3d53-e53c-459e-929f-f2a3fc95c3ff">ADS_SEARCHPREF_ENUM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0025">ADS_SEARCHPREF_ENUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/5fc46271-a1be-4a9d-a340-ed801211736a">ADS_SEARCHPREF_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_searchpref_info">ADS_SEARCHPREF_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d8baeb1-0edc-4648-8691-6ea4dcfd8f62">IADsNameTranslate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a>
 
 
 
-<a href="https://msdn.microsoft.com/1884efe5-86f5-4579-a25e-2ff9c9a6ec2a">IADsObjectOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsobjectoptions">IADsObjectOptions</a>
  
 
  

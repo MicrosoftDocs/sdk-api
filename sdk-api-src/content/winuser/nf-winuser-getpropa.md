@@ -61,7 +61,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves a data handle from the property list of the specified window. The character string identifies the handle to be retrieved. The string and handle must have been added to the property list by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/ms633568(v=VS.85).aspx">SetProp</a> function. 
+Retrieves a data handle from the property list of the specified window. The character string identifies the handle to be retrieved. The string and handle must have been added to the property list by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setpropa">SetProp</a> function. 
 
 
 ## -parameters
@@ -80,7 +80,7 @@ A handle to the window whose property list is to be searched.
 
 Type: <b>LPCTSTR</b>
 
-An atom that identifies a string. If this parameter is an atom, it must have been created by using the <a href="https://msdn.microsoft.com/en-us/library/ms649060(v=VS.85).aspx">GlobalAddAtom</a> function. The atom, a 16-bit value, must be placed in the low-order word of the <i>lpString</i> parameter; the high-order word must be zero. 
+An atom that identifies a string. If this parameter is an atom, it must have been created by using the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globaladdatoma">GlobalAddAtom</a> function. The atom, a 16-bit value, must be placed in the low-order word of the <i>lpString</i> parameter; the high-order word must be zero. 
 
 
 ## -returns
@@ -104,7 +104,7 @@ If the property list contains the string, the return value is the associated dat
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649060(v=VS.85).aspx">GlobalAddAtom</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globaladdatoma">GlobalAddAtom</a>
 
 
 
@@ -112,11 +112,11 @@ If the property list contains the string, the return value is the associated dat
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633568(v=VS.85).aspx">SetProp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setpropa">SetProp</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632594(v=VS.85).aspx">Window Properties</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/window-properties">Window Properties</a>
  
 
  

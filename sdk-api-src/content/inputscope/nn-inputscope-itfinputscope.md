@@ -49,13 +49,13 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ITfInputScope</b> interface is used by the text input processors to get the <a href="https://msdn.microsoft.com/en-us/library/ms538181(v=VS.85).aspx">InputScope</a> value that represents a document context associated with a window. The input scope provides rules to help speech and handwriting recognition. For instance, if a text box on a form is used to enter an address, the input scope for that text box can be set to recognize and accept only those characters that are valid for an address.
+The <b>ITfInputScope</b> interface is used by the text input processors to get the <a href="https://docs.microsoft.com/windows/desktop/api/inputscope/ne-inputscope-__midl___midl_itf_inputscope_0000_0000_0001">InputScope</a> value that represents a document context associated with a window. The input scope provides rules to help speech and handwriting recognition. For instance, if a text box on a form is used to enter an address, the input scope for that text box can be set to recognize and accept only those characters that are valid for an address.
 
 The interface ID is IID_ITfInputScope.
 
-The document context is used by the speech and handwriting recognition engine and is set by a text input processor by calling the <a href="https://msdn.microsoft.com/4098525c-8d29-419a-9484-9e70420416bc">SetInputScope</a> method. A TSF-aware application does not call <b>SetInputScope</b> directly, but rather implements either <a href="https://msdn.microsoft.com/21e011f7-6791-4eb9-85c9-18bd10107119">ITextStoreACP</a> or <a href="https://msdn.microsoft.com/630646df-dd47-4dbf-9787-f9d697ad8d7a">ITfContextOwner</a> to get a pointer to <b>ITfInputScope</b>.
+The document context is used by the speech and handwriting recognition engine and is set by a text input processor by calling the <a href="https://docs.microsoft.com/windows/desktop/api/inputscope/nf-inputscope-setinputscope">SetInputScope</a> method. A TSF-aware application does not call <b>SetInputScope</b> directly, but rather implements either <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextowner">ITfContextOwner</a> to get a pointer to <b>ITfInputScope</b>.
 
-To get the pointer to the <b>ITfInputScope</b> interface, the text input processor or TSF-aware application calls <a href="https://msdn.microsoft.com/5c04ff8e-5686-4802-b312-71dddaf0155e">ITfContext::GetAppProperty</a>, passing in <b>GUID_PROP_INPUTSCOPE</b> and a pointer to the <a href="https://msdn.microsoft.com/f4021a3d-6b86-469f-8943-770e7ef0cf99">ITFReadOnlyProperty</a> interface, as in the following example.
+To get the pointer to the <b>ITfInputScope</b> interface, the text input processor or TSF-aware application calls <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getappproperty">ITfContext::GetAppProperty</a>, passing in <b>GUID_PROP_INPUTSCOPE</b> and a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfreadonlyproperty">ITFReadOnlyProperty</a> interface, as in the following example.
 
 ```cpp
 
@@ -82,7 +82,7 @@ HRESULT GetInputScope(ITfContext *pic, ITfRange *pRange, TfEditCookie ec, ITfInu
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfInputScope</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfInputScope</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfInputScope</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfInputScope</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -97,7 +97,7 @@ The <b>ITfInputScope</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c5d54d2a-13b4-42f7-9224-4e80f0148a86">GetInputScopes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inputscope/nf-inputscope-itfinputscope-getinputscopes">GetInputScopes</a>
 </td>
 <td align="left" width="63%">
 Gets the input scopes that are associated with this context.
@@ -106,7 +106,7 @@ Gets the input scopes that are associated with this context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9a97dab0-2e3d-4921-80a6-0f2c79fbf4aa">GetPhrase</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inputscope/nf-inputscope-itfinputscope-getphrase">GetPhrase</a>
 </td>
 <td align="left" width="63%">
 Gets the phrase list set to this context.
@@ -115,7 +115,7 @@ Gets the phrase list set to this context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fa24c473-efc7-408f-86e8-905161de10f0">GetRegularExpression</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inputscope/nf-inputscope-itfinputscope-getregularexpression">GetRegularExpression</a>
 </td>
 <td align="left" width="63%">
 Gets the regular expression string to be rssecognized.
@@ -124,7 +124,7 @@ Gets the regular expression string to be rssecognized.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6514d925-b60e-4071-abb2-4c26a122089a">GetSRGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inputscope/nf-inputscope-itfinputscope-getsrgs">GetSRGS</a>
 </td>
 <td align="left" width="63%">
 Gets the Speech Recognition Grammar Specification (SRGS) string to be recognized.
@@ -133,7 +133,7 @@ Gets the Speech Recognition Grammar Specification (SRGS) string to be recognized
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7e7a2780-6080-4f9a-b036-bc8f6258bcb5">GetXML</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inputscope/nf-inputscope-itfinputscope-getxml">GetXML</a>
 </td>
 <td align="left" width="63%">
 Gets the custom XML string to be recognized.
@@ -150,9 +150,9 @@ Gets the custom XML string to be recognized.
 To use this interface with window-less controls, an application has two options.
 
 <ol>
-<li><b>Make the application TSF-aware:  </b>A TSF-aware application must implement either <a href="https://msdn.microsoft.com/21e011f7-6791-4eb9-85c9-18bd10107119">ITextStoreACP</a> or <a href="https://msdn.microsoft.com/630646df-dd47-4dbf-9787-f9d697ad8d7a">ITfContextOwner</a> to get a pointer to <b>ITfInputScope</b>.</li>
+<li><b>Make the application TSF-aware:  </b>A TSF-aware application must implement either <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextowner">ITfContextOwner</a> to get a pointer to <b>ITfInputScope</b>.</li>
 <li>
-<a href="https://msdn.microsoft.com/28c0be9b-f42c-4ab1-a3af-9c591a5192dd">SetInputScopes</a>  This is not recommended, but if the application is not TSF-aware, there is no other way to maintain the association between the input scope and the application. In this case, the application must call SetInputScopes whenever focus changes among window-less controls.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/inputscope/nf-inputscope-setinputscopes">SetInputScopes</a>  This is not recommended, but if the application is not TSF-aware, there is no other way to maintain the association between the input scope and the application. In this case, the application must call SetInputScopes whenever focus changes among window-less controls.</li>
 </ol>
 
 

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The type of the endpoint IDentity, used as a selector for subtypes of
-                    <a href="https://msdn.microsoft.com/59c851b4-6e1a-4144-9742-48d5c094d592">WS_ENDPOINT_IDENTITY</a>.
+                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_endpoint_identity">WS_ENDPOINT_IDENTITY</a>.
 
             
 
@@ -62,19 +62,19 @@ The type of the endpoint IDentity, used as a selector for subtypes of
 
 ### -field WS_DNS_ENDPOINT_IDENTITY_TYPE
 
-Type ID for <a href="https://msdn.microsoft.com/09dea451-68ae-4052-8563-30f15c1335d6">WS_DNS_ENDPOINT_IDENTITY</a>.
+Type ID for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_dns_endpoint_identity">WS_DNS_ENDPOINT_IDENTITY</a>.
                 
 
 
 ### -field WS_UPN_ENDPOINT_IDENTITY_TYPE
 
-Type ID for <a href="https://msdn.microsoft.com/dc822551-6853-456f-a115-a96f64b0e056">WS_UPN_ENDPOINT_IDENTITY</a>.
+Type ID for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_upn_endpoint_identity">WS_UPN_ENDPOINT_IDENTITY</a>.
                 
 
 
 ### -field WS_SPN_ENDPOINT_IDENTITY_TYPE
 
-Type ID for <a href="https://msdn.microsoft.com/99a484f0-4d04-4998-90d9-c39194ecf3f8">WS_SPN_ENDPOINT_IDENTITY</a>.
+Type ID for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_spn_endpoint_identity">WS_SPN_ENDPOINT_IDENTITY</a>.
                 
 
 
@@ -86,6 +86,6 @@ Type ID for <a href="https://msdn.microsoft.com/99a484f0-4d04-4998-90d9-c39194ec
 
 ### -field WS_UNKNOWN_ENDPOINT_IDENTITY_TYPE
 
-Type ID for <a href="https://msdn.microsoft.com/en-us/library/Dd323489(v=VS.85).aspx">WS_UNKNOWN_ENDPOINT_IDENTITY</a>.
+Type ID for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_unknown_endpoint_identity">WS_UNKNOWN_ENDPOINT_IDENTITY</a>.
                 
 

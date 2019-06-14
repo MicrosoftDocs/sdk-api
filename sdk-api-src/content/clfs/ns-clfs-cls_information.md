@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Describes general information about a log. The <a href="https://msdn.microsoft.com/29bb2f18-760d-4a38-8dce-85099da7f96c">GetLogFileInformation</a> function returns the <b>CLFS_INFORMATION</b> structure.
+Describes general information about a log. The <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-getlogfileinformation">GetLogFileInformation</a> function returns the <b>CLFS_INFORMATION</b> structure.
 
 
 ## -struct-fields
@@ -101,7 +101,7 @@ The number of  log streams  that are active in a physical log.
 
 ### -field Attributes
 
-The log  attributes that are set by using the <i>fFlagsAndAttributes</i> parameter of <a href="https://msdn.microsoft.com/ac104bf9-7ca7-417a-bd14-09b0e82c6a77">CreateLogFile</a> when a log is created.
+The log  attributes that are set by using the <i>fFlagsAndAttributes</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a> when a log is created.
 
 
 ### -field FlushThreshold
@@ -153,7 +153,7 @@ The unique identifier for a log.
 
 
 
-<a href="https://msdn.microsoft.com/29bb2f18-760d-4a38-8dce-85099da7f96c">GetLogFileInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-getlogfileinformation">GetLogFileInformation</a>
  
 
  

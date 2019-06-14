@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Forwards an <a href="https://msdn.microsoft.com/1b4b6a2d-411e-42d1-a44b-bb1928e1c063">MEQualityNotify</a> event from the media sink.
+Forwards an <a href="https://docs.microsoft.com/windows/desktop/medfound/mequalitynotify">MEQualityNotify</a> event from the media sink.
 
 
 ## -parameters
@@ -59,12 +59,12 @@ Forwards an <a href="https://msdn.microsoft.com/1b4b6a2d-411e-42d1-a44b-bb1928e1
 
 ### -param pEvent [in]
 
-A pointer to the event's <a href="https://msdn.microsoft.com/b4f686be-9472-433c-b983-6c48dfd3ac76">IMFMediaEvent</a> interface.
+A pointer to the event's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaevent">IMFMediaEvent</a> interface.
 
 
 ### -param pdwFlags [out]
 
-Receives a bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/93cf5585-fcb4-480a-b482-241376e8ec73">MF_QUALITY_ADVISE_FLAGS</a> enumeration.
+Receives a bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-_mf_quality_advise_flags">MF_QUALITY_ADVISE_FLAGS</a> enumeration.
 
 
 ## -returns
@@ -90,7 +90,7 @@ This interface is available on Windows Vista if Platform Update Supplement for 
 
 
 
-<a href="https://msdn.microsoft.com/c6114bbc-31d8-45eb-9bf8-745b3138dd50">IMFQualityAdvise2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise2">IMFQualityAdvise2</a>
  
 
  

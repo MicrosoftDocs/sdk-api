@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <code>VMRGUID</code> structure is a member of the <a href="https://msdn.microsoft.com/87567836-c01e-4615-a8e7-9ca590b6f7c9">VMRMONITORINFO</a> structure and is used to identify a monitor on the system (VMR-7 only).
+The <code>VMRGUID</code> structure is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagvmrmonitorinfo">VMRMONITORINFO</a> structure and is used to identify a monitor on the system (VMR-7 only).
 
 
 
@@ -84,7 +84,7 @@ In DirectX 9.0 and later, the monitor is identified by an integer index, not by 
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
  
 
  

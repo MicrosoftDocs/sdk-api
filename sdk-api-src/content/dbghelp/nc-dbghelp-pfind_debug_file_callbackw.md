@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 An application-defined callback function used with the 
-<a href="https://msdn.microsoft.com/1e89fe9a-4631-42b9-96ee-90393b4d9084">FindDebugInfoFileEx</a> function. It verifies whether the symbol file located by 
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-finddebuginfofileex">FindDebugInfoFileEx</a> function. It verifies whether the symbol file located by 
 <b>FindDebugInfoFileEx</b> is the correct symbol file.
 
 The <b>PFIND_DEBUG_FILE_CALLBACK</b> and <b>PFIND_DEBUG_FILE_CALLBACKW</b> types define a pointer to this callback function. 
@@ -91,8 +91,8 @@ If the symbol file is valid, return <b>TRUE</b>. Otherwise, return <b>FALSE</b>.
 
 
 One way to verify the symbol file is to compare its timestamp to the timestamp in the image. To retrieve the timestamp of the image, use the 
-<a href="https://msdn.microsoft.com/9ce7b211-5447-4624-b197-85730c4a7a10">GetTimestampForLoadedLibrary</a> function. To retrieve the timestamp of the symbol file, use the 
-<a href="https://msdn.microsoft.com/e8057cb5-3331-4460-b07c-4338a57024be">SymGetModuleInfo64</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-gettimestampforloadedlibrary">GetTimestampForLoadedLibrary</a> function. To retrieve the timestamp of the symbol file, use the 
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetmoduleinfo">SymGetModuleInfo64</a> function.
 
 
 
@@ -102,19 +102,19 @@ One way to verify the symbol file is to compare its timestamp to the timestamp i
 
 
 
-<a href="https://msdn.microsoft.com/7b28f70b-2d97-4cc2-8064-dfb806f9cffa">DbgHelp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/1e89fe9a-4631-42b9-96ee-90393b4d9084">FindDebugInfoFileEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-finddebuginfofileex">FindDebugInfoFileEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ce7b211-5447-4624-b197-85730c4a7a10">GetTimestampForLoadedLibrary</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-gettimestampforloadedlibrary">GetTimestampForLoadedLibrary</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8057cb5-3331-4460-b07c-4338a57024be">SymGetModuleInfo64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetmoduleinfo">SymGetModuleInfo64</a>
  
 
  

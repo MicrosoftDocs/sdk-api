@@ -124,15 +124,15 @@ This method can be used when the performance of the knowledge comparison operati
 
 
 
-<a href="https://msdn.microsoft.com/cfb08476-7b5d-4953-b723-5160330e57be">ISyncKnowledge Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/1acbae32-8fa6-4c1e-95f6-30aca483c966">ISyncKnowledge2 Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge2">ISyncKnowledge2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd744812(v=VS.85).aspx">KNOWLEDGE_COOKIE_COMPARISON_RESULT Enumeration</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ne-winsync-__midl___midl_itf_winsync_0000_0000_0011">KNOWLEDGE_COOKIE_COMPARISON_RESULT Enumeration</a>
  
 
  

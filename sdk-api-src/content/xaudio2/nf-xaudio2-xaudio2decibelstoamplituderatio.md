@@ -75,7 +75,7 @@ Returns a floating point value that represents the amplitude ratio.
 
 
 
-This function can be used to calculate the Volume parameter value passed to the <a href="https://msdn.microsoft.com/en-us/library/Ee418600(v=VS.85).aspx">IXAudio2Voice::SetVolume</a> function.
+This function can be used to calculate the Volume parameter value passed to the <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setvolume">IXAudio2Voice::SetVolume</a> function.
 
 
 
@@ -94,7 +94,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/870a0425-3226-7848-bcc0-0ba7145135cb">XAudio2 Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/functions">XAudio2 Functions</a>
  
 
  

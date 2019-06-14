@@ -54,11 +54,11 @@ Defines values that set the interest in a set of application-specific gesture.
 
 Application gestures are gestures that you can choose to have your application support. Applications that are specifically designed to work with a pen are more likely to use these gestures than applications designed for mouse and keyboard.
 
-The <b>Tap</b> and <b>DoubleTap</b> gestures are supported as application gestures and system gestures (system gestures are defined in the <a href="https://msdn.microsoft.com/213c8a44-1313-47cf-8703-3e9ed5e36d33">InkSystemGesture</a> enumeration type). This means you can incorporate an application gesture that has a component that may be construed as a <b>Tap</b> or <b>DoubleTap</b> (such as the <b>Exclamation</b> gesture). In this case, enable the <b>Tap</b> application gesture and disable the <b>Tap</b> system gesture in your application. When a user taps, the application gesture is recognized. This allows your application to listen for a single component that can both identify and distinguish a system gesture <b>Tap</b> from a <b>Tap</b> within the application gesture.
+The <b>Tap</b> and <b>DoubleTap</b> gestures are supported as application gestures and system gestures (system gestures are defined in the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inksystemgesture">InkSystemGesture</a> enumeration type). This means you can incorporate an application gesture that has a component that may be construed as a <b>Tap</b> or <b>DoubleTap</b> (such as the <b>Exclamation</b> gesture). In this case, enable the <b>Tap</b> application gesture and disable the <b>Tap</b> system gesture in your application. When a user taps, the application gesture is recognized. This allows your application to listen for a single component that can both identify and distinguish a system gesture <b>Tap</b> from a <b>Tap</b> within the application gesture.
 
-In addition to the following list of gestures, Microsoft intends to support many gesture glyphs as part of the Microsoft gesture recognizer. For more information about these unimplemented gesture glyphs, see <a href="https://msdn.microsoft.com/4d504140-ff48-4a07-9bf7-a36913e44426">Unimplemented Glyphs</a>.
+In addition to the following list of gestures, Microsoft intends to support many gesture glyphs as part of the Microsoft gesture recognizer. For more information about these unimplemented gesture glyphs, see <a href="https://docs.microsoft.com/windows/desktop/tablet/unimplemented-glyphs">Unimplemented Glyphs</a>.
 
-For more information about application gestures and system gestures, see <a href="https://msdn.microsoft.com/5bc80086-7acf-4f86-a9fb-a663de489f8b">Using Gestures</a> and <a href="https://msdn.microsoft.com/8432617a-5ae7-44cb-a5f7-f3b2d8885846">Pen Input, Ink, and Recognition</a>.
+For more information about application gestures and system gestures, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-gestures">Using Gestures</a> and <a href="https://docs.microsoft.com/windows/desktop/tablet/pen-input--ink--and-recognition">Pen Input, Ink, and Recognition</a>.
 
 
 
@@ -179,28 +179,28 @@ The arrow can be drawn in a single stroke or in two strokes in which one stroke 
 
 This gesture must be drawn as a single fast flick in the upward direction.
 
-This gesture is used by <a href="https://msdn.microsoft.com/004c7d76-90a9-4506-a70b-dbf8f9e1c616">Flicks Gestures</a>.
+This gesture is used by <a href="https://docs.microsoft.com/windows/desktop/tablet/flicks-gestures">Flicks Gestures</a>.
 
 
 ### -field IAG_Down
 
 This gesture must be drawn as a single fast flick in the downward direction.
 
-This gesture is used by <a href="https://msdn.microsoft.com/004c7d76-90a9-4506-a70b-dbf8f9e1c616">Flicks Gestures</a>.
+This gesture is used by <a href="https://docs.microsoft.com/windows/desktop/tablet/flicks-gestures">Flicks Gestures</a>.
 
 
 ### -field IAG_Left
 
 This gesture must be drawn as a single fast flick to the left.
 
-This gesture is used by <a href="https://msdn.microsoft.com/004c7d76-90a9-4506-a70b-dbf8f9e1c616">Flicks Gestures</a>.
+This gesture is used by <a href="https://docs.microsoft.com/windows/desktop/tablet/flicks-gestures">Flicks Gestures</a>.
 
 
 ### -field IAG_Right
 
 This gesture must be drawn as a single fast flick to the right.
 
-This gesture is used by <a href="https://msdn.microsoft.com/004c7d76-90a9-4506-a70b-dbf8f9e1c616">Flicks Gestures</a>.
+This gesture is used by <a href="https://docs.microsoft.com/windows/desktop/tablet/flicks-gestures">Flicks Gestures</a>.
 
 
 ### -field IAG_UpDown
@@ -312,7 +312,7 @@ For example, assume that a gesture array consists of the following values: <b>Ci
 
 The confidence level at which the gesture recognizer returns <b>NoGesture</b> cannot be changed.
 
-If <b>NoGesture</b> is the first element in the array (which means that every recognized gesture is below the suggested confidence threshold), then the platform alters the default value of the <i>Cancel</i> parameter in the <a href="https://msdn.microsoft.com/5830f7f8-2870-4194-ab3e-b63b71e97063">Gesture</a> event handler from <b>FALSE</b> to <b>TRUE</b>. This causes the ink to be considered a stroke and not be deleted from the <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp</a> object by default.
+If <b>NoGesture</b> is the first element in the array (which means that every recognized gesture is below the suggested confidence threshold), then the platform alters the default value of the <i>Cancel</i> parameter in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-gesture">Gesture</a> event handler from <b>FALSE</b> to <b>TRUE</b>. This causes the ink to be considered a stroke and not be deleted from the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object by default.
 
 
 
@@ -322,39 +322,39 @@ If <b>NoGesture</b> is the first element in the array (which means that every re
 
 
 
-<a href="https://msdn.microsoft.com/fe3d1158-b99b-4ae1-a509-c6f34b42615f">CollectionMode Property [InkPicture Class]</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_collectionmode">CollectionMode Property [InkPicture Class]</a>
 
 
 
-<a href="https://msdn.microsoft.com/a20f2d78-6cfe-4755-968e-91369021db1b">Gesture Event [InkPicture Control]</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-gesture">Gesture Event [InkPicture Control]</a>
 
 
 
-<a href="https://msdn.microsoft.com/b4ccc35d-35b5-4633-acc9-efd4c7eb05e3">GetGestureStatus Method [InkPicture Control]</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-getgesturestatus">GetGestureStatus Method [InkPicture Control]</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c047cf7-2162-4146-906b-47c4006daeeb">GetHotPoint Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkgesture-gethotpoint">GetHotPoint Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/213c8a44-1313-47cf-8703-3e9ed5e36d33">InkSystemGesture Enumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inksystemgesture">InkSystemGesture Enumeration</a>
 
 
 
-<a href="https://msdn.microsoft.com/ed6472f1-17b2-4284-8fb7-d1d0a40d2bfe">Integrating Application Gestures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms704819(v=vs.85)">Integrating Application Gestures</a>
 
 
 
-<a href="https://msdn.microsoft.com/36f3611a-c7d9-49a2-9ead-db98647f6da7">SetGestureStatus Method [InkPicture Control]</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setgesturestatus">SetGestureStatus Method [InkPicture Control]</a>
 
 
 
-<a href="https://msdn.microsoft.com/36e2ac5a-dc91-47c2-a8e5-e555437c0a5d">SystemGesture Event [InkPicture Class]</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-systemgesture">SystemGesture Event [InkPicture Class]</a>
 
 
 
-<a href="https://msdn.microsoft.com/5bc80086-7acf-4f86-a9fb-a663de489f8b">Using Gestures</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/using-gestures">Using Gestures</a>
  
 
  

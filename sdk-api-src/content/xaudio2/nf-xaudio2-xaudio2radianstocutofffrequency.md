@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Inline function that converts from the radian frequencies used in <a href="https://msdn.microsoft.com/en-us/library/Ee419237(v=VS.85).aspx">XAUDIO2_FILTER_PARAMETERS</a> back to absolute frequencies in hertz.
+Inline function that converts from the radian frequencies used in <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_filter_parameters">XAUDIO2_FILTER_PARAMETERS</a> back to absolute frequencies in hertz.
 
 
 ## -parameters
@@ -59,12 +59,12 @@ Inline function that converts from the radian frequencies used in <a href="https
 
 ### -param Radians [in]
 
-Value of the Frequency member of the <a href="https://msdn.microsoft.com/en-us/library/Ee419237(v=VS.85).aspx">XAUDIO2_FILTER_PARAMETERS</a> structure.
+Value of the Frequency member of the <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_filter_parameters">XAUDIO2_FILTER_PARAMETERS</a> structure.
 
 
 ### -param SampleRate [in]
 
-The sample rate of the audio data affected by the <a href="https://msdn.microsoft.com/en-us/library/Ee419237(v=VS.85).aspx">XAUDIO2_FILTER_PARAMETERS</a> structure.
+The sample rate of the audio data affected by the <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_filter_parameters">XAUDIO2_FILTER_PARAMETERS</a> structure.
 
 
 ## -returns
@@ -91,7 +91,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/870a0425-3226-7848-bcc0-0ba7145135cb">XAudio2 Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/functions">XAudio2 Functions</a>
  
 
  

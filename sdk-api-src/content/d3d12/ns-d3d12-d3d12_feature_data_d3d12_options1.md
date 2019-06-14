@@ -81,7 +81,7 @@ Specifies the total number of SIMD lanes on the hardware.
 
 ### -field ExpandedComputeResourceStates
 
-Indicates transitions are possible  in and out of the CBV, and indirect argument states, on compute command lists. If <a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">CheckFeatureSupport</a> succeeds this value will always be true. 
+Indicates transitions are possible  in and out of the CBV, and indirect argument states, on compute command lists. If <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport">CheckFeatureSupport</a> succeeds this value will always be true. 
 
 
 ### -field Int64ShaderOps
@@ -100,7 +100,7 @@ A "lane" is  single thread of execution. The shader models before version 6.0 ex
 A "wave" is  set of lanes (threads) executed simultaneously in the processor. No explicit barriers are required to guarantee that they execute in parallel. Similar concepts include "warp" and "wavefront". 
 
 
-This structure is used with the D3D12_FEATURE_D3D12_OPTIONS1 member of  <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE</a>.
+This structure is used with the D3D12_FEATURE_D3D12_OPTIONS1 member of  <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a>.
       
 
 
@@ -111,11 +111,11 @@ This structure is used with the D3D12_FEATURE_D3D12_OPTIONS1 member of  <a href=
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a>
  
 
  

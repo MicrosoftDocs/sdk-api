@@ -70,7 +70,7 @@ Retrieves the base name of the specified device driver.
 ### -param ImageBase [in]
 
 The load address of the device driver. This value can be retrieved using the 
-      <a href="https://msdn.microsoft.com/55925741-da23-44b1-93e8-0e9468434a61">EnumDeviceDrivers</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-enumdevicedrivers">EnumDeviceDrivers</a> 
       function.
 
 
@@ -96,7 +96,7 @@ A pointer to the buffer that receives the base name of the device driver.
 If the function succeeds, the return value specifies the length of the string copied to the buffer, not including any terminating null character.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -115,7 +115,7 @@ Programs that must run on earlier versions of Windows as well as Windows 7 and 
 #### Examples
 
 For an example, see 
-     <a href="https://msdn.microsoft.com/047d8541-e17e-4738-8453-674db69365df">Enumerating all Device Drivers in the System</a>.
+     <a href="https://docs.microsoft.com/windows/desktop/psapi/enumerating-all-device-drivers-in-the-system">Enumerating all Device Drivers in the System</a>.
 
 <div class="code"></div>
 
@@ -126,15 +126,15 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/4f4ec15b-5592-4fe3-b754-fda25ab24159">Device Driver Information</a>
+<a href="https://docs.microsoft.com/windows/desktop/psapi/device-driver-information">Device Driver Information</a>
 
 
 
-<a href="https://msdn.microsoft.com/55925741-da23-44b1-93e8-0e9468434a61">EnumDeviceDrivers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-enumdevicedrivers">EnumDeviceDrivers</a>
 
 
 
-<a href="https://msdn.microsoft.com/e158792b-fec2-498d-aae3-d5679fa55783">PSAPI Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>
  
 
  

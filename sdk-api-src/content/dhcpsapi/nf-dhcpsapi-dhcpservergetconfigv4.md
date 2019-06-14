@@ -64,9 +64,9 @@ Unicode string that specifies the IP address or hostname of the DHCP server.
 
 ### -param ConfigInfo [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/a2a78c19-3161-431a-b1af-31dac994c3f6">DHCP_SERVER_CONFIG_INFO_V4</a> structure that contains the specific configuration information for the DHCP server.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_server_config_info_v4">DHCP_SERVER_CONFIG_INFO_V4</a> structure that contains the specific configuration information for the DHCP server.
 
-<div class="alert"><b>Note</b>  <p class="note">The memory for this parameter must be free using <a href="https://msdn.microsoft.com/bf22a0a6-2ecd-4460-89c4-3f870c6275dc">DhcpRpcFreeMemory</a>.
+<div class="alert"><b>Note</b>  <p class="note">The memory for this parameter must be free using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcprpcfreememory">DhcpRpcFreeMemory</a>.
 
 </div>
 <div> </div>
@@ -75,7 +75,7 @@ Pointer to a <a href="https://msdn.microsoft.com/a2a78c19-3161-431a-b1af-31dac99
 
 
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://msdn.microsoft.com/6370313f-d7db-4ff1-b0e0-7fa47474facb">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -126,11 +126,11 @@ One of the parameters provides an invalid value.
 
 
 
-<a href="https://msdn.microsoft.com/a2a78c19-3161-431a-b1af-31dac994c3f6">DHCP_SERVER_CONFIG_INFO_V4</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_server_config_info_v4">DHCP_SERVER_CONFIG_INFO_V4</a>
 
 
 
-<a href="https://msdn.microsoft.com/b2d74c43-5c17-4988-be70-fa152e7f848a">DhcpServerSetConfigV4</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpserversetconfigv4">DhcpServerSetConfigV4</a>
  
 
  

@@ -59,7 +59,7 @@ Sets the platform identifier that identifies the operating system architecture t
 
 ### -param newVal [in]
 
-Identifies the operating system architecture that the boot image supports. For possible values, see the <a href="https://msdn.microsoft.com/296f9da1-99be-4d20-8961-f99cf220404a">PlatformId</a> enumeration type. The default value is  <b>PlatformX86</b> for Intel x86–based platforms.
+Identifies the operating system architecture that the boot image supports. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/ne-imapi2fs-platformid">PlatformId</a> enumeration type. The default value is  <b>PlatformX86</b> for Intel x86–based platforms.
 
 
 ## -returns
@@ -76,11 +76,11 @@ S_OK is returned on success, but other success codes may be returned as a result
 
 
 
-<a href="https://msdn.microsoft.com/446b535c-d576-4f96-8b74-305e34cb99d4">IBootOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ibootoptions">IBootOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/8d5ceb0e-4fd2-4146-8e15-b157c80a9d5b">IBootOptions::get_PlatformId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-get_platformid">IBootOptions::get_PlatformId</a>
  
 
  

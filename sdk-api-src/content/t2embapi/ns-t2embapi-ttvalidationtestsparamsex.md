@@ -116,11 +116,11 @@ Pointer to array of UCS-4 characters.
 
 
 
-<a href="https://msdn.microsoft.com/4b4fdd3f-c07c-407c-87eb-5bd8a1620d75">TTRunValidationTestsEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttrunvalidationtestsex">TTRunValidationTestsEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/901fd8e5-1602-4e20-9269-d0c3fe661e45">TTVALIDATIONTESTSPARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/ns-t2embapi-ttvalidationtestsparams">TTVALIDATIONTESTSPARAMS</a>
  
 
  

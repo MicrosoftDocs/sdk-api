@@ -107,15 +107,15 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563081(v=VS.85).aspx">IWMPCdromBurn Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcdromburn">IWMPCdromBurn Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563084(v=VS.85).aspx">IWMPCdromBurn::get_burnFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-get_burnformat">IWMPCdromBurn::get_burnFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd564690(v=VS.85).aspx">WMPBurnFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/ne-wmp-wmpburnformat">WMPBurnFormat</a>
  
 
  

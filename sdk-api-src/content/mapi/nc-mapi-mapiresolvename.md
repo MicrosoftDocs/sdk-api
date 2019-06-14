@@ -134,7 +134,7 @@ Reserved; must be zero.
 
 ### -param *lppRecip [out]
 
-Pointer to a recipient structure if the resolution results in a single match. The recipient structure contains the resolved name and related information. Memory for this structure must be freed using the <a href="https://msdn.microsoft.com/b67a2a42-edba-4372-b3b7-5bf3e9d3e5ed">MAPIFreeBuffer</a> function.
+Pointer to a recipient structure if the resolution results in a single match. The recipient structure contains the resolved name and related information. Memory for this structure must be freed using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nf-mapi-mapifreebuffer">MAPIFreeBuffer</a> function.
 
 
 ## -returns
@@ -246,7 +246,7 @@ The call succeeded and the name was resolved.
 
 
 
-The <b>MAPIResolveName</b> function resolves a message recipient's name (as entered by a user) to an unambiguous address list entry, optionally prompting the user to choose between possible entries, if necessary. A recipient descriptor structure containing fully resolved information about the entry is allocated and returned. The caller should free this <a href="https://msdn.microsoft.com/1457617f-de55-4875-91f5-afddee84b782">MapiRecipDesc</a> structure at some point by calling the <a href="https://msdn.microsoft.com/b67a2a42-edba-4372-b3b7-5bf3e9d3e5ed">MAPIFreeBuffer</a> function. If <b>MAPIResolveName</b> returns an error value, it is not necessary to deallocate memory with <b>MAPIFreeBuffer</b>.
+The <b>MAPIResolveName</b> function resolves a message recipient's name (as entered by a user) to an unambiguous address list entry, optionally prompting the user to choose between possible entries, if necessary. A recipient descriptor structure containing fully resolved information about the entry is allocated and returned. The caller should free this <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdesc">MapiRecipDesc</a> structure at some point by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nf-mapi-mapifreebuffer">MAPIFreeBuffer</a> function. If <b>MAPIResolveName</b> returns an error value, it is not necessary to deallocate memory with <b>MAPIFreeBuffer</b>.
 
 
 
@@ -256,19 +256,19 @@ The <b>MAPIResolveName</b> function resolves a message recipient's name (as ente
 
 
 
-<a href="https://msdn.microsoft.com/b67a2a42-edba-4372-b3b7-5bf3e9d3e5ed">MAPIFreeBuffer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nf-mapi-mapifreebuffer">MAPIFreeBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a61f0f2-347e-40fb-b7f9-6b42690cbcd8">MAPILogon</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapilogon">MAPILogon</a>
 
 
 
-<a href="https://msdn.microsoft.com/1457617f-de55-4875-91f5-afddee84b782">MapiRecipDesc</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdesc">MapiRecipDesc</a>
 
 
 
-<a href="https://msdn.microsoft.com/a8330f38-3ef0-4b36-a5e7-89837088cbef">Simple MAPI</a>
+<a href="https://docs.microsoft.com/previous-versions//dd296734(v=vs.85)">Simple MAPI</a>
  
 
  

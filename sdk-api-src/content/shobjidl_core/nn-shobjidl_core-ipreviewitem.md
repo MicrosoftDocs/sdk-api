@@ -56,7 +56,7 @@ Identifies an item that will be shown in the preview pane.
 
 
 
-This interface provides only the methods of the <a href="https://msdn.microsoft.com/f42d218c-0251-45e0-b05a-f1ccdcaf036c">IRelatedItem</a> interface, from which it inherits.
+This interface provides only the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-irelateditem">IRelatedItem</a> interface, from which it inherits.
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 An implementation of this interface for system-provided data objects is provided with Windows. Custom data sources that want to expose this information must implement the interface as part of their data object.

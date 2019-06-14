@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Performs an atomic compare-and-exchange operation on the specified values. The function compares two specified pointer values and exchanges with another pointer value based on the outcome of the comparison.
 
-To operate on non-pointer values, use the <a href="https://msdn.microsoft.com/en-us/library/ms683560(v=VS.85).aspx">InterlockedCompareExchange</a> function.
+To operate on non-pointer values, use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockedcompareexchange">InterlockedCompareExchange</a> function.
 
 
 ## -parameters
@@ -93,11 +93,11 @@ On a 64-bit system, the parameters are 64 bits and must be aligned on 64-bit bou
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://msdn.microsoft.com/library/1b4s3xf5(v=VS.85).aspx">_InterlockedCompareExchangePointer</a>.
+This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://docs.microsoft.com/previous-versions//1b4s3xf5(v=vs.85)">_InterlockedCompareExchangePointer</a>.
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 
-<b>Itanium-based systems:  </b>For performance-critical applications, use <a href="https://msdn.microsoft.com/dc57e723-3eaa-42a2-b0a6-6b55a34e77ba">InterlockedCompareExchangePointerAcquire</a> or <a href="https://msdn.microsoft.com/d2552edc-1efe-4148-890f-0e7fe71a7313">InterlockedCompareExchangePointerRelease</a> instead.
+<b>Itanium-based systems:  </b>For performance-critical applications, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683570(v=vs.85)">InterlockedCompareExchangePointerAcquire</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683571(v=vs.85)">InterlockedCompareExchangePointerRelease</a> instead.
 
 <div class="alert"><b>Note</b>  This function is supported on Windows RT-based systems.</div>
 <div> </div>
@@ -109,79 +109,79 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://msdn.microsoft.com/729c0e68-ef52-4d6c-b771-a89043a937e6">Interlocked Variable Access</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/interlocked-variable-access">Interlocked Variable Access</a>
 
 
 
-<a href="https://msdn.microsoft.com/8bd9dfe3-2d98-46a0-9212-5e3d9d7a2ac1">InterlockedCompare64Exchange128</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683553(v=vs.85)">InterlockedCompare64Exchange128</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683560(v=VS.85).aspx">InterlockedCompareExchange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockedcompareexchange">InterlockedCompareExchange</a>
 
 
 
-<a href="https://msdn.microsoft.com/55a5ec1d-9c81-479e-a630-81756bf620d1">InterlockedCompareExchange128</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-interlockedcompareexchange128">InterlockedCompareExchange128</a>
 
 
 
-<a href="https://msdn.microsoft.com/5bf2e0d7-1b64-4622-8b6f-4ac903027064">InterlockedCompareExchange16</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-interlockedcompareexchange16">InterlockedCompareExchange16</a>
 
 
 
-<a href="https://msdn.microsoft.com/d9b24d63-0544-41e3-ad4e-d90cd9bd6a03">InterlockedCompareExchange16Acquire</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh972642(v=vs.85)">InterlockedCompareExchange16Acquire</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c53a500-f5a7-45ce-921d-efa1059327b6">InterlockedCompareExchange16NoFence</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh972643(v=vs.85)">InterlockedCompareExchange16NoFence</a>
 
 
 
-<a href="https://msdn.microsoft.com/d8c69974-2828-42b8-878d-621ec696e950">InterlockedCompareExchange16Release</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh972644(v=vs.85)">InterlockedCompareExchange16Release</a>
 
 
 
-<a href="https://msdn.microsoft.com/b0799de3-49f9-4eef-9c14-d145f42ce57b">InterlockedCompareExchange64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-interlockedcompareexchange64">InterlockedCompareExchange64</a>
 
 
 
-<a href="https://msdn.microsoft.com/6cb7d17b-dfda-431e-9c74-cc42d62202ba">InterlockedCompareExchangeAcquire</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683564(v=vs.85)">InterlockedCompareExchangeAcquire</a>
 
 
 
-<a href="https://msdn.microsoft.com/15a88896-3a45-4f81-b62c-99d5f904162b">InterlockedCompareExchangeAcquire64</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683566(v=vs.85)">InterlockedCompareExchangeAcquire64</a>
 
 
 
-<a href="https://msdn.microsoft.com/2637d8a7-b0f7-467e-9939-e8a3336970f2">InterlockedCompareExchangeNoFence</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh972645(v=vs.85)">InterlockedCompareExchangeNoFence</a>
 
 
 
-<a href="https://msdn.microsoft.com/c8794b4c-2b81-4636-ac70-d9ea9f287783">InterlockedCompareExchangeNoFence64</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh972646(v=vs.85)">InterlockedCompareExchangeNoFence64</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc57e723-3eaa-42a2-b0a6-6b55a34e77ba">InterlockedCompareExchangePointerAcquire</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683570(v=vs.85)">InterlockedCompareExchangePointerAcquire</a>
 
 
 
-<a href="https://msdn.microsoft.com/f2004070-ae5d-4cfb-94ad-90490f495f5b">InterlockedCompareExchangePointerNoFence</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh972647(v=vs.85)">InterlockedCompareExchangePointerNoFence</a>
 
 
 
-<a href="https://msdn.microsoft.com/d2552edc-1efe-4148-890f-0e7fe71a7313">InterlockedCompareExchangePointerRelease</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683571(v=vs.85)">InterlockedCompareExchangePointerRelease</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e35f752-dc58-4a87-8284-bdbe5692aaa6">InterlockedCompareExchangeRelease</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683574(v=vs.85)">InterlockedCompareExchangeRelease</a>
 
 
 
-<a href="https://msdn.microsoft.com/833b0e9d-e8c8-40dd-9907-5a5f92bf6bac">InterlockedCompareExchangeRelease64</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683576(v=vs.85)">InterlockedCompareExchangeRelease64</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b6359c2-0113-49b6-83d0-316ad95aba1b">Synchronization Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
  
 
  

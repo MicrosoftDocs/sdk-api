@@ -64,7 +64,7 @@ Creates a new thread and retrieves its handle.
 
 Type: <b>LPTHREAD_START_ROUTINE</b>
 
-A pointer to an application-defined function of type <a href="https://msdn.microsoft.com/f0dc203f-200e-42f1-940c-24e3fe080175">LPTHREAD_START_ROUTINE</a>. If a new thread was successfully created, this application-defined function is called in the context of that thread. <b>SHCreateThreadWithHandle</b> does not wait for the function pointed to by <i>pfnThreadProc</i> to complete before returning to its caller. The return value for the function specified by <i>pfnThreadProc</i> is the exit code of the thread.
+A pointer to an application-defined function of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms686736(v=vs.85)">LPTHREAD_START_ROUTINE</a>. If a new thread was successfully created, this application-defined function is called in the context of that thread. <b>SHCreateThreadWithHandle</b> does not wait for the function pointed to by <i>pfnThreadProc</i> to complete before returning to its caller. The return value for the function specified by <i>pfnThreadProc</i> is the exit code of the thread.
 
 
 ### -param pData [in, optional]
@@ -78,21 +78,21 @@ A pointer to an optional application-defined data structure that contains initia
 
 Type: <b>SHCT_FLAGS</b>
 
-Flags that control the behavior of the function; one or more of the <a href="https://msdn.microsoft.com/66cda866-7a39-4c5a-a795-a4c5c64cbab7">CTF</a> constants.
+Flags that control the behavior of the function; one or more of the <a href="https://docs.microsoft.com/windows/desktop/shell/ctf">CTF</a> constants.
 
 
 ### -param pfnCallback [in, optional]
 
 Type: <b>LPTHREAD_START_ROUTINE</b>
 
-A pointer to an optional application-defined function of type <a href="https://msdn.microsoft.com/f0dc203f-200e-42f1-940c-24e3fe080175">LPTHREAD_START_ROUTINE</a>. This function is called in the context of the created thread before the function pointed to by <i>pfnThreadProc</i> is called. It will also receive <i>pData</i> as its argument. <b>SHCreateThreadWithHandle</b> waits for the function pointed to by <i>pfnCallback</i> to complete before returning to its caller. The return value for the function specified by <i>pfnCallback</i> is ignored.
+A pointer to an optional application-defined function of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms686736(v=vs.85)">LPTHREAD_START_ROUTINE</a>. This function is called in the context of the created thread before the function pointed to by <i>pfnThreadProc</i> is called. It will also receive <i>pData</i> as its argument. <b>SHCreateThreadWithHandle</b> waits for the function pointed to by <i>pfnCallback</i> to complete before returning to its caller. The return value for the function specified by <i>pfnCallback</i> is ignored.
 
 
 ### -param pHandle [out, optional]
 
 Type: <b>HANDLE*</b>
 
-A pointer to the <b>HANDLE</b> of the created thread. When it is no longer needed, this handle should be closed by calling the <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function. This value can be <b>NULL</b>.
+A pointer to the <b>HANDLE</b> of the created thread. When it is no longer needed, this handle should be closed by calling the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function. This value can be <b>NULL</b>.
 
 
 ## -returns
@@ -110,7 +110,7 @@ Type: <b>BOOL</b>
 
 
 
-Prior to Windows 7, this function did not have an associated header or library file. To use this function under those earlier operating systems, call <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> with the DLL name (Shlwapi.dll) to obtain a module handle. Then call <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> with that module handle and a function ordinal of 615 to get the address of this function.
+Prior to Windows 7, this function did not have an associated header or library file. To use this function under those earlier operating systems, call <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> with the DLL name (Shlwapi.dll) to obtain a module handle. Then call <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> with that module handle and a function ordinal of 615 to get the address of this function.
 
 The function pointed to by <i>pfnThreadProc</i> and <i>pfnCallback</i> must take the following form. 
 
@@ -198,23 +198,23 @@ BOOL CallSHCreateThreadWithHandle(LPTHREAD_START_ROUTINE pfnThreadProc,
 
 
 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/79f045b2-40d9-498a-b720-e729c92bf50b">GetSystemDirectory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya">GetSystemDirectory</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680746(v=VS.85).aspx">HRESULT_FROM_WIN32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a>
 
 
 
-<a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>
  
 
  

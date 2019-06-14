@@ -61,7 +61,7 @@ Searches a record in
 ### -param dwRecordIndex [in]
 
 Specifies the record number, indexed from zero.
-  Call the <a href="https://msdn.microsoft.com/da91deea-527c-4458-9db5-ae500cee19bb">IISDB_LDT::GetCountOfRecords</a> method to get the number of records in the LDT.
+  Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_ldt-getcountofrecords">IISDB_LDT::GetCountOfRecords</a> method to get the number of records in the LDT.
 
 
 
@@ -84,7 +84,7 @@ Pointer to a variable that specifies the start position
 
 ### -param ppDescriptor [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor</a>interface of the object that contains the LDT. Use this interface to retrieve the information
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-igenericdescriptor">IGenericDescriptor</a>interface of the object that contains the LDT. Use this interface to retrieve the information
   in the descriptor. The caller must release the interface.
 
 
@@ -103,15 +103,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-igenericdescriptor">IGenericDescriptor</a>
 
 
 
-<a href="https://msdn.microsoft.com/4fdf82f2-e931-406b-a8cb-7b24c1d0b8d3">IISDB_LDT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdb_ldt">IISDB_LDT</a>
 
 
 
-<a href="https://msdn.microsoft.com/da91deea-527c-4458-9db5-ae500cee19bb">IISDB_LDT::GetCountOfRecords</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_ldt-getcountofrecords">IISDB_LDT::GetCountOfRecords</a>
  
 
  

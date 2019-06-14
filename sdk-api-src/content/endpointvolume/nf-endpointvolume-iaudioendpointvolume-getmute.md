@@ -97,7 +97,7 @@ Parameter <i>pbMute</i> is <b>NULL</b>.
 
 
 
-For a code example that calls <b>GetMute</b>, see <a href="https://msdn.microsoft.com/667c3659-69ae-469d-9ae0-e32a189cbc71">Endpoint Volume Controls</a>.
+For a code example that calls <b>GetMute</b>, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/endpoint-volume-controls">Endpoint Volume Controls</a>.
 
 
 
@@ -107,7 +107,7 @@ For a code example that calls <b>GetMute</b>, see <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/5e3e7ffc-8822-4b1b-b9af-206ec1e767e2">IAudioEndpointVolume Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudioendpointvolume">IAudioEndpointVolume Interface</a>
  
 
  

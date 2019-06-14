@@ -92,7 +92,7 @@ This member is reserved. Do not use it.
 
 
 
-<a href="https://msdn.microsoft.com/CD27774F-0B70-4D97-96C9-B247536CC88E">Capability SID Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/capability-sid-constants">Capability SID Constants</a>
  
 
  

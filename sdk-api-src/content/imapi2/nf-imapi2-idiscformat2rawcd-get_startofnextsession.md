@@ -109,7 +109,7 @@ Value: 0xC0AA0602
 
 
 
-The client application that creates an image must provide appropriately sized lead-in and lead-out data. The application developer using the <a href="https://msdn.microsoft.com/58d9b83c-a528-4b39-b08d-a0fb8c1aece8">IDiscFormat2RawCD</a> interface must understand the formats of lead-in and lead-out for the first and subsequent sessions. Note that lead-in LBA for the first session is negative.
+The client application that creates an image must provide appropriately sized lead-in and lead-out data. The application developer using the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a> interface must understand the formats of lead-in and lead-out for the first and subsequent sessions. Note that lead-in LBA for the first session is negative.
 
 
 
@@ -119,7 +119,7 @@ The client application that creates an image must provide appropriately sized le
 
 
 
-<a href="https://msdn.microsoft.com/58d9b83c-a528-4b39-b08d-a0fb8c1aece8">IDiscFormat2RawCD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
  
 
  

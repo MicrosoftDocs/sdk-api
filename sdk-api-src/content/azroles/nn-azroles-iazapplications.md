@@ -50,12 +50,12 @@ ms.custom: 19H1
 
 
 The <b>IAzApplications</b> interface represents a collection of  
-<a href="https://msdn.microsoft.com/ea4a8a84-5003-44da-b75e-34da6bd898dd">IAzApplication</a> objects.
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> objects.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzApplications</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAzApplications</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzApplications</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAzApplications</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,28 +71,28 @@ The <b>IAzApplications</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8c01c1b4-d3e0-40c2-b0b7-524423c38c45">get__NewEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplications-get__newenum">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/8c01c1b4-d3e0-40c2-b0b7-524423c38c45">_NewEnum</a> property.
+Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplications-get__newenum">_NewEnum</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2f12fd9f-4632-4eef-8ac4-80e73a731539">get_Count</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplications-get_count">get_Count</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/2f12fd9f-4632-4eef-8ac4-80e73a731539">Count</a> property.
+Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplications-get_count">Count</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a5d6edd2-d93d-4168-89b8-6dbe60e3d4b9">get_Item</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplications-get_item">get_Item</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/a5d6edd2-d93d-4168-89b8-6dbe60e3d4b9">Item</a> property.
+Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplications-get_item">Item</a> property.
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ Retrieves the value of the <a href="https://msdn.microsoft.com/a5d6edd2-d93d-416
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8c01c1b4-d3e0-40c2-b0b7-524423c38c45">_NewEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplications-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -116,14 +116,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
+Retrieves an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/2f12fd9f-4632-4eef-8ac4-80e73a731539">Count</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplications-get_count">Count</a>
 
 
 </td>
@@ -132,14 +132,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves the number of <a href="https://msdn.microsoft.com/ea4a8a84-5003-44da-b75e-34da6bd898dd">IAzApplication</a> objects in the collection.
+Retrieves the number of <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> objects in the collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/a5d6edd2-d93d-4168-89b8-6dbe60e3d4b9">Item</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplications-get_item">Item</a>
 
 
 </td>
@@ -148,7 +148,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://msdn.microsoft.com/ea4a8a84-5003-44da-b75e-34da6bd898dd">IAzApplication</a> object at the specified index into the <b>IAzApplications</b> collection.
+Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object at the specified index into the <b>IAzApplications</b> collection.
 
 </td>
 </tr>

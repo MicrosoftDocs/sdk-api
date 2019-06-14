@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Begins a stroke on an ink object by using packet data from a <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> object.
+Begins a stroke on an ink object by using packet data from a <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object.
 
 
 
@@ -104,7 +104,7 @@ A a pointer to the new stroke. This value can be <b>NULL</b>.
 
 
 
-For a description of return values, see <a href="https://msdn.microsoft.com/fc0900b4-f08b-4a93-bbc0-d3db067d7917">RealTimeStylus Classes and Interfaces</a>.
+For a description of return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
 
 
 
@@ -113,12 +113,12 @@ For a description of return values, see <a href="https://msdn.microsoft.com/fc09
 
 
 
-Used in conjunction with the <a href="https://msdn.microsoft.com/7b53a9b2-11da-4063-aac3-a85e52abeb52">IStrokeBuilder::AppendPackets Method</a> and <a href="https://msdn.microsoft.com/a535cd20-d24a-4044-a757-fb2b593650b9">IStrokeBuilder::EndStroke Method</a> methods. <b>IStrokeBuilder::BeginStroke Method</b> starts building the stroke. As the motion continues and additional packets are received, the <b>IStrokeBuilder::AppendPackets Method</b> method adds that additional stroke data. When the tablet pen is raised from the surface and there are no more incoming packets, the <b>IStrokeBuilder::EndStroke Method</b> method is called.
+Used in conjunction with the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istrokebuilder-appendpackets">IStrokeBuilder::AppendPackets Method</a> and <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istrokebuilder-endstroke">IStrokeBuilder::EndStroke Method</a> methods. <b>IStrokeBuilder::BeginStroke Method</b> starts building the stroke. As the motion continues and additional packets are received, the <b>IStrokeBuilder::AppendPackets Method</b> method adds that additional stroke data. When the tablet pen is raised from the surface and there are no more incoming packets, the <b>IStrokeBuilder::EndStroke Method</b> method is called.
 
 
 #### Examples
 
-The following C++ example shows the implementation of a <a href="https://msdn.microsoft.com/13fb831c-e3e8-4e04-81ce-d4658be105a0">IStylusPlugin::StylusDown Method</a> method on an <a href="https://msdn.microsoft.com/bbef5cdb-4112-4733-80bb-692b7a198605">IStylusPlugin Interface</a> object. The plug-in uses a <a href="https://msdn.microsoft.com/0d699089-b913-4020-9284-a955f61fd861">StrokeBuilder</a> object to create a new ink stroke. The <b>IStrokeBuilder::BeginStroke Method</b> method is called from <b>IStylusPlugin::StylusDown Method</b> to initiate the construction of a stroke.
+The following C++ example shows the implementation of a <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusdown">IStylusPlugin::StylusDown Method</a> method on an <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusplugin">IStylusPlugin Interface</a> object. The plug-in uses a <a href="https://docs.microsoft.com/windows/desktop/tablet/strokebuilder-class">StrokeBuilder</a> object to create a new ink stroke. The <b>IStrokeBuilder::BeginStroke Method</b> method is called from <b>IStylusPlugin::StylusDown Method</b> to initiate the construction of a stroke.
 
 
 ```cpp
@@ -159,27 +159,27 @@ STDMETHODIMP CStrokeBuilderPlugin::StylusDown(
 
 
 
-<a href="https://msdn.microsoft.com/938e1eb2-3dd4-4e21-9c46-9ef840172b05">DynamicRenderer Class</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/309fcc8a-6a14-4ee3-b340-5e47ff249bf8">IStrokeBuilder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istrokebuilder">IStrokeBuilder</a>
 
 
 
-<a href="https://msdn.microsoft.com/7b53a9b2-11da-4063-aac3-a85e52abeb52">IStrokeBuilder::AppendPackets Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istrokebuilder-appendpackets">IStrokeBuilder::AppendPackets Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/f7c6f177-3d89-4f27-b2c0-937b08591305">IStrokeBuilder::CreateStroke Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istrokebuilder-createstroke">IStrokeBuilder::CreateStroke Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/a535cd20-d24a-4044-a757-fb2b593650b9">IStrokeBuilder::EndStroke Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istrokebuilder-endstroke">IStrokeBuilder::EndStroke Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d699089-b913-4020-9284-a955f61fd861">StrokeBuilder Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/strokebuilder-class">StrokeBuilder Class</a>
  
 
  

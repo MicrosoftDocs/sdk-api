@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Initializes a  <a href="https://msdn.microsoft.com/a5acd51f-714f-481b-85e2-ac82b76d21bb">RESOURCE_STATUS</a> structure.
+Initializes a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resource_status">RESOURCE_STATUS</a> structure.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Initializes a  <a href="https://msdn.microsoft.com/a5acd51f-714f-481b-85e2-ac82b
 
 ### -param _resource_status_ [in]
 
-Pointer to the  <a href="https://msdn.microsoft.com/a5acd51f-714f-481b-85e2-ac82b76d21bb">RESOURCE_STATUS</a> structure to initialize.
+Pointer to the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resource_status">RESOURCE_STATUS</a> structure to initialize.
 
 
 ## -see-also
@@ -67,7 +67,7 @@ Pointer to the  <a href="https://msdn.microsoft.com/a5acd51f-714f-481b-85e2-ac82
 
 
 
-<a href="https://msdn.microsoft.com/a5acd51f-714f-481b-85e2-ac82b76d21bb">RESOURCE_STATUS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resource_status">RESOURCE_STATUS</a>
  
 
  

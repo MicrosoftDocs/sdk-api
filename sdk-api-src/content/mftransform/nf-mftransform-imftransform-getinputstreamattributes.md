@@ -61,13 +61,13 @@ Gets the attribute store for an input stream on this Media Foundation transform 
 
 ### -param dwInputStreamID [in]
 
-Input stream identifier. To get the list of stream identifiers, call <a href="https://msdn.microsoft.com/0715c78e-de92-439d-a4f3-078e19f78a8e">IMFTransform::GetStreamIDs</a>.
+Input stream identifier. To get the list of stream identifiers, call <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-getstreamids">IMFTransform::GetStreamIDs</a>.
           
 
 
 ### -param pAttributes [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. The caller must release the interface.
           
 
 
@@ -131,7 +131,7 @@ Invalid stream identifier.
 
 Implementation of this method is optional unless the MFT needs to support a particular set of attributes. 
 
-To get the attribute store for the entire MFT, call <a href="https://msdn.microsoft.com/cb3ba2bc-550c-43b4-a69c-b546f2b92acc">IMFTransform::GetAttributes</a>.
+To get the attribute store for the entire MFT, call <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-getattributes">IMFTransform::GetAttributes</a>.
       
 
 
@@ -142,15 +142,15 @@ To get the attribute store for the entire MFT, call <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/3cc502d8-d364-43b9-b0b6-d9474c002b20">IMFTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb23fe0a-c42c-4912-a0bf-1f0b18a6f4e0">Media Foundation Transforms</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
 
 
 
-<a href="https://msdn.microsoft.com/9beb1306-1378-499c-b9e1-c768a7b4c8bc">Transform Attributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/transform-attributes">Transform Attributes</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>capSetCallbackOnYield</b> macro sets a callback function in the application. AVICap calls this procedure when the capture window yields during streaming capture. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/d978dc3b-4336-46a4-85ae-7d588a63489b">WM_CAP_SET_CALLBACK_YIELD</a> message.
+The <b>capSetCallbackOnYield</b> macro sets a callback function in the application. AVICap calls this procedure when the capture window yields during streaming capture. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-callback-yield">WM_CAP_SET_CALLBACK_YIELD</a> message.
 
 
 
@@ -67,14 +67,14 @@ Handle to a capture window.
 
 ### -param fpProc
 
-Pointer to the yield callback function, of type <a href="https://msdn.microsoft.com/4d92ab5e-5cde-4fed-a661-0458b5399c2a">capYieldCallback</a>. Specify <b>NULL</b> for this parameter to disable a previously installed yield callback function. 
+Pointer to the yield callback function, of type <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nc-vfw-capyieldcallback">capYieldCallback</a>. Specify <b>NULL</b> for this parameter to disable a previously installed yield callback function. 
 
 
 ## -remarks
 
 
 
-Applications can optionally set a yield callback function. The yield callback function is called at least once for each video frame captured during streaming capture. If a yield callback function is installed, it will be called regardless of the state of the <b>fYield</b> member of the <a href="https://msdn.microsoft.com/6bf7e374-5991-4a7b-984a-628d3e77b2d7">CAPTUREPARMS</a> structure.
+Applications can optionally set a yield callback function. The yield callback function is called at least once for each video frame captured during streaming capture. If a yield callback function is installed, it will be called regardless of the state of the <b>fYield</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-tagcaptureparms">CAPTUREPARMS</a> structure.
 
 If the yield callback function is used, it must be installed before starting the capture session and it must remain enabled for the duration of the session. It can be disabled after streaming capture ends.
 
@@ -90,11 +90,11 @@ An application typically returns <b>TRUE</b> in the yield procedure to continue 
 
 
 
-<a href="https://msdn.microsoft.com/c93ecc51-e2c5-4b69-8625-c8385d53fab2">Video Capture</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://msdn.microsoft.com/21061f06-d58b-4800-a9f5-9821494fabd6">Video Capture Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
  
 
  

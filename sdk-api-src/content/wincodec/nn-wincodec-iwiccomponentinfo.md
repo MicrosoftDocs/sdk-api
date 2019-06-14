@@ -54,7 +54,7 @@ Exposes methods that provide component information.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICComponentInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWICComponentInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICComponentInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICComponentInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWICComponentInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c92f707f-6077-4da0-9ac4-6d1f30fb5b75">GetAuthor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwiccomponentinfo-getauthor">GetAuthor</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of component's author.
@@ -78,7 +78,7 @@ Retrieves the name of component's author.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/63814933-1366-47b9-8cf4-0d8685053a30">GetCLSID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwiccomponentinfo-getclsid">GetCLSID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the component's CLSID
@@ -87,16 +87,16 @@ Retrieves the component's CLSID
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e7599299-2854-4796-8760-740a6ae7ad4f">GetComponentType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwiccomponentinfo-getcomponenttype">GetComponentType</a>
 </td>
 <td align="left" width="63%">
-Retrieves the component's <a href="https://msdn.microsoft.com/eff6b77c-ea4b-4476-8d75-dec5bb2e1745">WICComponentType</a>.
+Retrieves the component's <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wiccomponenttype">WICComponentType</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c67e7a30-8bd5-427b-8a67-c77e3cf86e78">GetFriendlyName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwiccomponentinfo-getfriendlyname">GetFriendlyName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the component's friendly name.
@@ -105,16 +105,16 @@ Retrieves the component's friendly name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a6d13240-3750-4450-8069-7e05dd89f2ab">GetSigningStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwiccomponentinfo-getsigningstatus">GetSigningStatus</a>
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://msdn.microsoft.com/64f3de6d-15da-4cc8-ad74-57759bcd4d07">WICComponentSigning</a> status of the component.
+Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wiccomponentsigning">WICComponentSigning</a> status of the component.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/18a771c7-8764-4694-be05-29c5eda27e93">GetSpecVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwiccomponentinfo-getspecversion">GetSpecVersion</a>
 </td>
 <td align="left" width="63%">
 Retrieves the component's specification version.
@@ -123,7 +123,7 @@ Retrieves the component's specification version.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e1ef7bac-6845-4e7f-8cb6-bb3270b344d6">GetVendorGUID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwiccomponentinfo-getvendorguid">GetVendorGUID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the vendor GUID.
@@ -132,7 +132,7 @@ Retrieves the vendor GUID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f65d13ae-ccec-49a8-8818-225464b3a117">GetVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwiccomponentinfo-getversion">GetVersion</a>
 </td>
 <td align="left" width="63%">
 Retrieves the component's version. 

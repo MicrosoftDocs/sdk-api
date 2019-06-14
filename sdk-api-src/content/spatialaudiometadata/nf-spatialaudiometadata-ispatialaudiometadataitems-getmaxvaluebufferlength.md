@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The size of the largest command value defined by the metadata format for the <a href="https://msdn.microsoft.com/54A6B7DE-A41E-4214-AF02-CC19250B9037">ISpatialAudioMetadataItems</a>.
+The size of the largest command value defined by the metadata format for the <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">ISpatialAudioMetadataItems</a>.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ If the method succeeds, it returns S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/54A6B7DE-A41E-4214-AF02-CC19250B9037">ISpatialAudioMetadataItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">ISpatialAudioMetadataItems</a>
  
 
  

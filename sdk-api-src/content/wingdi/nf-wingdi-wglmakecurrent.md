@@ -73,7 +73,7 @@ If <i>hglrc</i> is <b>NULL</b>, the function makes the calling thread's current 
 
 
 
-When the <b>wglMakeCurrent</b> function succeeds, the return value is <b>TRUE</b>; otherwise the return value is <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+When the <b>wglMakeCurrent</b> function succeeds, the return value is <b>TRUE</b>; otherwise the return value is <b>FALSE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -82,7 +82,7 @@ When the <b>wglMakeCurrent</b> function succeeds, the return value is <b>TRUE</b
 
 
 
-The <i>hdc</i> parameter must refer to a drawing surface supported by OpenGL. It need not be the same <i>hdc</i> that was passed to <a href="https://msdn.microsoft.com/fa9ed944-f917-4fdf-a52a-10a7ade8f2ca">wglCreateContext</a> when <i>hglrc</i> was created, but it must be on the same device and have the same pixel format. GDI transformation and clipping in <i>hdc</i> are not supported by the rendering context. The current rendering context uses the <i>hdc</i> device context until the rendering context is no longer current.
+The <i>hdc</i> parameter must refer to a drawing surface supported by OpenGL. It need not be the same <i>hdc</i> that was passed to <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wglcreatecontext">wglCreateContext</a> when <i>hglrc</i> was created, but it must be on the same device and have the same pixel format. GDI transformation and clipping in <i>hdc</i> are not supported by the rendering context. The current rendering context uses the <i>hdc</i> device context until the rendering context is no longer current.
 
 Before switching to the new rendering context, OpenGL flushes any previous rendering context that was current to the calling thread.
 
@@ -102,27 +102,27 @@ If an error occurs, the <b>wglMakeCurrent</b> function makes the thread's curren
 
 
 
-<a href="https://msdn.microsoft.com/589a86f1-598d-4175-97fc-27ca0b254935">OpenGL on Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows</a>
 
 
 
-<a href="https://msdn.microsoft.com/52053370-d88b-4faf-bdcd-4663c6d5270d">WGL Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/OpenGL/wgl-functions">WGL Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/fa9ed944-f917-4fdf-a52a-10a7ade8f2ca">wglCreateContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wglcreatecontext">wglCreateContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/51d4cce1-fd2d-436e-816b-b89d3cd66f3a">wglDeleteContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wgldeletecontext">wglDeleteContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e2a4f24-689c-48b7-a06e-fc57d65b5567">wglGetCurrentContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wglgetcurrentcontext">wglGetCurrentContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/026f6181-75a2-4781-8762-d5599ce90af2">wglGetCurrentDC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wglgetcurrentdc">wglGetCurrentDC</a>
  
 
  

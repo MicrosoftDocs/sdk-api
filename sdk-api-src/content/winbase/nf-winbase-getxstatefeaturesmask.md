@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Returns the mask of XState features set within a 
-    <a href="https://msdn.microsoft.com/b27205a2-2c33-4f45-8948-9919bcd2355a">CONTEXT</a> structure.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_wow64_context">CONTEXT</a> structure.
 
 
 ## -parameters
@@ -62,8 +62,8 @@ Returns the mask of XState features set within a
 
 ### -param Context [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/b27205a2-2c33-4f45-8948-9919bcd2355a">CONTEXT</a> structure that has been 
-      initialized with <a href="https://msdn.microsoft.com/909BF5F7-0622-4B22-A2EC-27722389700A">InitializeContext</a>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_wow64_context">CONTEXT</a> structure that has been 
+      initialized with <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-initializecontext">InitializeContext</a>.
 
 
 ### -param FeatureMask [out]
@@ -88,10 +88,10 @@ This function returns <b>TRUE</b> if successful, otherwise
 
 The <b>GetXStateFeaturesMask</b> function returns 
      the mask of valid features in the specified context.  If a 
-     <a href="https://msdn.microsoft.com/b27205a2-2c33-4f45-8948-9919bcd2355a">CONTEXT</a> is to be passed to 
-     <a href="https://msdn.microsoft.com/3b65283e-34d2-4374-87fe-fa8ae45fbbcf">GetThreadContext</a> or 
-     <a href="https://msdn.microsoft.com/1bac28e1-3558-43c4-97e4-d8bb9514c38e">Wow64GetThreadContext</a>, the application must 
-     call <a href="https://msdn.microsoft.com/64ADEA8A-DE78-437E-AE68-A68E7214C5FD">SetXStateFeaturesMask</a> to set which 
+     <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_wow64_context">CONTEXT</a> is to be passed to 
+     <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadcontext">GetThreadContext</a> or 
+     <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-wow64getthreadcontext">Wow64GetThreadContext</a>, the application must 
+     call <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setxstatefeaturesmask">SetXStateFeaturesMask</a> to set which 
      features are to be retrieved. 
      <b>GetXStateFeaturesMask</b> should then be called on 
      the <b>CONTEXT</b> returned by 
@@ -99,7 +99,7 @@ The <b>GetXStateFeaturesMask</b> function returns
      <b>Wow64GetThreadContext</b> to determine which 
      feature areas contain valid data. If a particular feature bit is not set, the corresponding state is in a 
      processor-specific <b>INITIALIZED</b> state and the contents of the feature area retrieved by 
-     <a href="https://msdn.microsoft.com/7AAEA13B-E4A4-4410-BFC7-09B81B92FF26">LocateXStateFeature</a> are undefined.
+     <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-locatexstatefeature">LocateXStateFeature</a> are undefined.
 
 The definition of XState features are processor vendor specific. Please refer to the relevant processor 
      reference manuals for additional information on a particular feature.
@@ -107,22 +107,22 @@ The definition of XState features are processor vendor specific. Please refer to
 
 <div class="alert"><b>Note</b>  The value returned by 
       <b>GetXStateFeaturesMask</b> on a 
-      <a href="https://msdn.microsoft.com/b27205a2-2c33-4f45-8948-9919bcd2355a">CONTEXT</a> after a context operation will always be a subset 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_wow64_context">CONTEXT</a> after a context operation will always be a subset 
       of the mask specified in a call to 
-      <a href="https://msdn.microsoft.com/64ADEA8A-DE78-437E-AE68-A68E7214C5FD">SetXStateFeaturesMask</a> prior to the context 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setxstatefeaturesmask">SetXStateFeaturesMask</a> prior to the context 
       operation.</div>
 <div> </div>
 
 
 
-<b>Windows 7 with SP1 and Windows Server 2008 R2 with SP1:  </b>The <a href="https://msdn.microsoft.com/76357e08-a53c-4490-b08d-1c26900a3826">AVX API</a> is first implemented on 
+<b>Windows 7 with SP1 and Windows Server 2008 R2 with SP1:  </b>The <a href="https://docs.microsoft.com/windows/desktop/Debug/avx-support-portal">AVX API</a> is first implemented on 
        Windows 7 with SP1 and Windows Server 2008 R2 with SP1 . Since there is no SDK for SP1, that means there are 
        no available headers and library files to work with. In this situation, a caller must declare the needed 
        functions from this documentation and get pointers to them using 
-       <a href="https://msdn.microsoft.com/29514410-89fe-4888-8b34-0c30d5af237f">GetModuleHandle</a> on 
+       <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a> on 
        "Kernel32.dll", followed by calls to 
-       <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a>. See 
-       <a href="https://msdn.microsoft.com/F7937402-1173-4647-B9FF-856C0925C1C3">Working with XState Context</a> for 
+       <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>. See 
+       <a href="https://docs.microsoft.com/windows/desktop/Debug/working-with-xstate-context">Working with XState Context</a> for 
        details.
 
 
@@ -135,27 +135,27 @@ The definition of XState features are processor vendor specific. Please refer to
 
 
 
-<a href="https://msdn.microsoft.com/b27205a2-2c33-4f45-8948-9919bcd2355a">CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_wow64_context">CONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b65283e-34d2-4374-87fe-fa8ae45fbbcf">GetThreadContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadcontext">GetThreadContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/76357e08-a53c-4490-b08d-1c26900a3826">Intel AVX</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/avx-support-portal">Intel AVX</a>
 
 
 
-<a href="https://msdn.microsoft.com/64ADEA8A-DE78-437E-AE68-A68E7214C5FD">SetXStateFeaturesMask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setxstatefeaturesmask">SetXStateFeaturesMask</a>
 
 
 
-<a href="https://msdn.microsoft.com/F7937402-1173-4647-B9FF-856C0925C1C3">Working with XState Context</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/working-with-xstate-context">Working with XState Context</a>
 
 
 
-<a href="https://msdn.microsoft.com/1bac28e1-3558-43c4-97e4-d8bb9514c38e">Wow64GetThreadContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-wow64getthreadcontext">Wow64GetThreadContext</a>
  
 
  

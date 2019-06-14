@@ -73,11 +73,11 @@ Returns S_OK if successful.
 
 
 
-<a href="https://msdn.microsoft.com/40b4a77c-5ab4-4443-801c-2e425b6ca1bc">IScheduleCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ischedulecollection">IScheduleCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/bb419f7e-b5fd-47ea-88e5-f86788423edf">IScheduleCollection::Remove</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ischedulecollection-remove">IScheduleCollection::Remove</a>
  
 
  

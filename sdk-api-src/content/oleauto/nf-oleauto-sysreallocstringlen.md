@@ -128,7 +128,7 @@ If this function is passed a NULL pointer, there will be an access violation and
 
 
 
-<a href="https://msdn.microsoft.com/323cefbf-836c-4c9d-bcbe-f2663a57d2b5">String Manipulation Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/string-manipulation-functions">String Manipulation Functions</a>
  
 
  

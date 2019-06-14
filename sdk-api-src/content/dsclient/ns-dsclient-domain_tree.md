@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DOMAINTREE</b> structure contains  data about a node in a domain tree obtained with the <a href="https://msdn.microsoft.com/42cd38c2-7470-49b5-9b64-d971f2a915c6">IDsBrowseDomainTree::GetDomains</a> method. Each of the domains in the tree  node are represented by a 
-<a href="https://msdn.microsoft.com/c788d106-2cc7-4d67-8568-23e858c0075f">DOMAINDESC</a> structure.
+The <b>DOMAINTREE</b> structure contains  data about a node in a domain tree obtained with the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-getdomains">IDsBrowseDomainTree::GetDomains</a> method. Each of the domains in the tree  node are represented by a 
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/ns-dsclient-_domaindesc">DOMAINDESC</a> structure.
 
 
 ## -struct-fields
@@ -60,24 +60,24 @@ The <b>DOMAINTREE</b> structure contains  data about a node in a domain tree obt
 
 ### -field dsSize
 
-Contains the size, in bytes, of the <b>DOMAINTREE</b> structure and all <a href="https://msdn.microsoft.com/c788d106-2cc7-4d67-8568-23e858c0075f">DOMAINDESC</a> structures in this <b>DOMAINTREE</b> structure.
+Contains the size, in bytes, of the <b>DOMAINTREE</b> structure and all <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/ns-dsclient-_domaindesc">DOMAINDESC</a> structures in this <b>DOMAINTREE</b> structure.
 
 
 ### -field dwCount
 
-Contains the number of  <a href="https://msdn.microsoft.com/c788d106-2cc7-4d67-8568-23e858c0075f">DOMAINDESC</a> structures in the <b>aDomains</b> array.
+Contains the number of  <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/ns-dsclient-_domaindesc">DOMAINDESC</a> structures in the <b>aDomains</b> array.
 
 
 ### -field aDomains
 
-Contains an array of <a href="https://msdn.microsoft.com/c788d106-2cc7-4d67-8568-23e858c0075f">DOMAINDESC</a> structures that represent the domains. The array does not contain any child or sibling relational data. The relational data is contained within the <b>DOMAINDESC</b> structures.
+Contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/ns-dsclient-_domaindesc">DOMAINDESC</a> structures that represent the domains. The array does not contain any child or sibling relational data. The relational data is contained within the <b>DOMAINDESC</b> structures.
 
 
 ## -remarks
 
 
 
-For more information about how to access and use the data in this structure, see <a href="https://msdn.microsoft.com/26793c61-469e-4e99-9056-b9fc04336b69">Domain Browser</a>.
+For more information about how to access and use the data in this structure, see <a href="https://docs.microsoft.com/windows/desktop/AD/domain-browser">Domain Browser</a>.
 
 
 
@@ -87,19 +87,19 @@ For more information about how to access and use the data in this structure, see
 
 
 
-<a href="https://msdn.microsoft.com/c788d106-2cc7-4d67-8568-23e858c0075f">DOMAINDESC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/ns-dsclient-_domaindesc">DOMAINDESC</a>
 
 
 
-<a href="https://msdn.microsoft.com/26793c61-469e-4e99-9056-b9fc04336b69">Domain Browser</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/domain-browser">Domain Browser</a>
 
 
 
-<a href="https://msdn.microsoft.com/d9334f4c-d5b0-445a-ad1b-8628f206b715">IDsBrowseDomainTree::FreeDomains</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-freedomains">IDsBrowseDomainTree::FreeDomains</a>
 
 
 
-<a href="https://msdn.microsoft.com/42cd38c2-7470-49b5-9b64-d971f2a915c6">IDsBrowseDomainTree::GetDomains</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-getdomains">IDsBrowseDomainTree::GetDomains</a>
  
 
  

@@ -60,8 +60,8 @@ The <b>IsDaclCanonical</b> method determines whether the ACEs contained in the s
 ### -param pDacl [in]
 
 A pointer to a discretionary 
-<a href="https://msdn.microsoft.com/0073659f-c4d5-4aaf-aaa6-ea596d3bd8b9">ACL</a> structure initialized by 
-<a href="https://msdn.microsoft.com/b990a7bd-7840-4c10-baf8-68b3862147f4">InitializeAcl</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a> structure initialized by 
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializeacl">InitializeAcl</a>.
 
 
 ## -returns
@@ -80,7 +80,7 @@ Returns <b>FALSE</b> if the ACEs are not ordered correctly.
 
 
 If the return value of this method is <b>FALSE</b>, the access control editor  displays a message box stating that the DACL is incorrectly ordered. If this method is not provided and the editor requires this information, the editor will check the  canonical ordering defined in 
-<a href="https://msdn.microsoft.com/fccf043e-e769-4f3f-b18c-252be20190d8">Order of ACEs in a DACL</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/order-of-aces-in-a-dacl">Order of ACEs in a DACL</a>.
 
 
 
@@ -90,23 +90,23 @@ If the return value of this method is <b>FALSE</b>, the access control editor  d
 
 
 
-<a href="https://msdn.microsoft.com/0073659f-c4d5-4aaf-aaa6-ea596d3bd8b9">ACL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a>
 
 
 
-<a href="https://msdn.microsoft.com/ca709f27-8463-4f11-92ac-2148796e640a">Access Control Editor</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-editor">Access Control Editor</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Access Control Editor Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Access Control Editor Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/5cb7a096-5088-424a-82d1-0351ce5bb413">ISecurityInformation2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation2">ISecurityInformation2</a>
 
 
 
-<a href="https://msdn.microsoft.com/b990a7bd-7840-4c10-baf8-68b3862147f4">InitializeAcl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializeacl">InitializeAcl</a>
  
 
  

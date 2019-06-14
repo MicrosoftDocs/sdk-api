@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>get_Item</b> method retrieves an <a href="https://msdn.microsoft.com/33fe649b-a688-435c-a019-9c308935532e">IWindowsMediaLibrarySharingDevice</a> interface that represents an individual media device.
+The <b>get_Item</b> method retrieves an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nn-wmlss-iwindowsmedialibrarysharingdevice">IWindowsMediaLibrarySharingDevice</a> interface that represents an individual media device.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ The zero-based index of the device in the collection of media devices on the hom
 
 ### -param device [out]
 
-A pointer to a variable that receives a pointer to the <a href="https://msdn.microsoft.com/33fe649b-a688-435c-a019-9c308935532e">IWindowsMediaLibrarySharingDevice</a> interface.
+A pointer to a variable that receives a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nn-wmlss-iwindowsmedialibrarysharingdevice">IWindowsMediaLibrarySharingDevice</a> interface.
 
 
 ## -returns
@@ -100,11 +100,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/62e1f4d6-5b33-45d7-85d5-bc2c333c63e4">IWindowsMediaLibrarySharingDevices</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nn-wmlss-iwindowsmedialibrarysharingdevices">IWindowsMediaLibrarySharingDevices</a>
 
 
 
-<a href="https://msdn.microsoft.com/6eb802a3-18a2-4fcf-9be0-fc251860f3ab">IWindowsMediaLibrarySharingDevices::get_Count</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nf-wmlss-iwindowsmedialibrarysharingdevices-get_count">IWindowsMediaLibrarySharingDevices::get_Count</a>
  
 
  

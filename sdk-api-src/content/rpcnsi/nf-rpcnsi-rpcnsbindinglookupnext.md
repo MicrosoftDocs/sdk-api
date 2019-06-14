@@ -61,7 +61,7 @@ The
 ### -param LookupContext
 
 Name-service handle returned from the 
-<a href="https://msdn.microsoft.com/75b7e901-706a-4e3d-b958-d04a0709b993">RpcNsBindingLookupBegin</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupbegina">RpcNsBindingLookupBegin</a> function.
 
 
 ### -param BindingVec
@@ -115,7 +115,7 @@ The name service is unavailable.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -126,8 +126,8 @@ The name service is unavailable.
 
 The 
 <b>RpcNsBindingLookupNext</b> function returns a vector of client-compatible server binding handles for a server offering the interface and object UUID specified by the <i>IfSpec</i> and <i>ObjUuid</i> parameters in the 
-<a href="https://msdn.microsoft.com/75b7e901-706a-4e3d-b958-d04a0709b993">RpcNsBindingLookupBegin</a> function. (Compare this to 
-<a href="https://msdn.microsoft.com/c437cd19-0cf8-4fc9-b6fb-cb09cde9a82e">RpcNsBindingImportNext</a>, which returns a single compatible server binding handle.)
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupbegina">RpcNsBindingLookupBegin</a> function. (Compare this to 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportnext">RpcNsBindingImportNext</a>, which returns a single compatible server binding handle.)
 
 The 
 <b>RpcNsBindingLookupNext</b> function communicates only with the name-service database, not directly with servers.
@@ -154,7 +154,7 @@ When the DCE Cell Directory Service (CDS) is the name-service database, and the 
 <b>RpcNsBindingLookupNext</b> returns the binding handles from <i>EntryName</i> before searching the group or profile. This means that the function can return a partially full vector before processing the members of the group or profile.
 
 The compatible binding handle that is returned always contains an object UUID, the value of which depends on the <i>ObjUuid</i> parameter in the 
-<a href="https://msdn.microsoft.com/8dca0490-72aa-41e0-b747-863d53a705ea">RpcNsBindingImportBegin</a> function. If a non-<b>null</b> object UUID was specified, the returned binding handle contains that object UUID. If, however, a <b>null</b> object UUID or <b>null</b> value was specified, the object UUID that is returned is a result of the following possibilities:
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina">RpcNsBindingImportBegin</a> function. If a non-<b>null</b> object UUID was specified, the returned binding handle contains that object UUID. If, however, a <b>null</b> object UUID or <b>null</b> value was specified, the object UUID that is returned is a result of the following possibilities:
 
 <ul>
 <li>If the server did not export any object UUIDs, the returned binding handle contains a nil object UUID.</li>
@@ -162,9 +162,9 @@ The compatible binding handle that is returned always contains an object UUID, t
 <li>If the server exported multiple object UUIDs, the returned binding handle contains one of the object UUIDs. The import-next operation selects the returned object UUID in a non-deterministic fashion. As a result, a different object UUID can be returned for each compatible binding handle from a single server entry.</li>
 </ul>
 From the returned vector of server binding handles, the client application can employ its own criteria for selecting individual binding handles, or the application can call the 
-<a href="https://msdn.microsoft.com/1acdd266-9ca2-43d4-b677-7c30b4dca4ee">RpcNsBindingSelect</a> function to select a binding handle. The 
-<a href="https://msdn.microsoft.com/fd4fea9a-067e-4a1b-8be5-867bbe9663c5">RpcBindingToStringBinding</a> and 
-<a href="https://msdn.microsoft.com/c55d0259-e251-42d0-8565-ce71ab3bb59c">RpcStringBindingParse</a> functions will be helpful to a client creating its own selection criteria.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingselect">RpcNsBindingSelect</a> function to select a binding handle. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingtostringbinding">RpcBindingToStringBinding</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringbindingparse">RpcStringBindingParse</a> functions will be helpful to a client creating its own selection criteria.
 
 The client application can use the selected binding handle to attempt to make a remote procedure call to the server. If the client fails to establish a relationship with the server, it can select another binding handle from the vector. When all of the binding handles in the vector have been used, the client application calls 
 <b>RpcNsBindingLookupNext</b> again.
@@ -173,19 +173,19 @@ Each time the client calls
 <b>RpcNsBindingLookupNext</b>, the function returns another vector of binding handles. The binding handles returned in each vector are unordered. The vectors returned from multiple calls to this function are also unordered.
 
 A client calls the 
-<a href="https://msdn.microsoft.com/fff87506-4c3f-47cb-8130-78e46e906bf0">RpcNsBindingInqEntryName</a> function to obtain the name-service database server entry name that the binding came from.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcnsbindinginqentryname">RpcNsBindingInqEntryName</a> function to obtain the name-service database server entry name that the binding came from.
 
 When the search reaches the end of the name-service database, 
 <b>RpcNsBindingLookupNext</b> returns a status of RPC_S_NO_MORE_BINDINGS and returns a <i>BindingVec</i> value of <b>NULL</b>.
 
 The 
 <b>RpcNsBindingLookupNext</b> function allocates storage for the data referenced by the returned <i>BindingVec</i> parameter. When a client application finishes with the vector, it must call the 
-<a href="https://msdn.microsoft.com/a8af56ae-bacc-497d-b65e-c0a56f3b09de">RpcBindingVectorFree</a> function to deallocate the storage. Each call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingvectorfree">RpcBindingVectorFree</a> function to deallocate the storage. Each call to 
 <b>RpcNsBindingLookupNext</b> requires a corresponding call to 
 <b>RpcBindingVectorFree</b>.
 
 The client is responsible for calling the 
-<a href="https://msdn.microsoft.com/bf272b29-8594-428a-947c-cc91ddfb4538">RpcNsBindingLookupDone</a> function to delete the lookup context, or if you want the application to start a new search for compatible servers.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupdone">RpcNsBindingLookupDone</a> function to delete the lookup context, or if you want the application to start a new search for compatible servers.
 
 
 
@@ -195,27 +195,27 @@ The client is responsible for calling the
 
 
 
-<a href="https://msdn.microsoft.com/fd4fea9a-067e-4a1b-8be5-867bbe9663c5">RpcBindingToStringBinding</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingtostringbinding">RpcBindingToStringBinding</a>
 
 
 
-<a href="https://msdn.microsoft.com/a8af56ae-bacc-497d-b65e-c0a56f3b09de">RpcBindingVectorFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingvectorfree">RpcBindingVectorFree</a>
 
 
 
-<a href="https://msdn.microsoft.com/fff87506-4c3f-47cb-8130-78e46e906bf0">RpcNsBindingInqEntryName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcnsbindinginqentryname">RpcNsBindingInqEntryName</a>
 
 
 
-<a href="https://msdn.microsoft.com/75b7e901-706a-4e3d-b958-d04a0709b993">RpcNsBindingLookupBegin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupbegina">RpcNsBindingLookupBegin</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf272b29-8594-428a-947c-cc91ddfb4538">RpcNsBindingLookupDone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupdone">RpcNsBindingLookupDone</a>
 
 
 
-<a href="https://msdn.microsoft.com/c55d0259-e251-42d0-8565-ce71ab3bb59c">RpcStringBindingParse</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringbindingparse">RpcStringBindingParse</a>
  
 
  

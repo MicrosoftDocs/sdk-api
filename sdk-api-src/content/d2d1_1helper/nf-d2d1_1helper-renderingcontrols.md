@@ -59,14 +59,14 @@ Returns a filled D2D1_RENDERING_CONTROLS structure.
 
 ### -param bufferPrecision
 
-Type: <b><a href="https://msdn.microsoft.com/a2a4b4fd-685d-4068-b1f5-609e6ab024e2">D2D1_BUFFER_PRECISION</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_buffer_precision">D2D1_BUFFER_PRECISION</a></b>
 
 The buffer precision used by default if the buffer precision is not otherwise specified by the effect or the transform.
 
 
 ### -param tileSize
 
-Type: <b><a href="https://msdn.microsoft.com/e28da5ee-7d68-4ec5-b477-c6ead0c725e6">D2D1_SIZE_U</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-size-u">D2D1_SIZE_U</a></b>
 
 The minimum tile allocation size to be used by the imaging effect renderer.
 
@@ -75,7 +75,7 @@ The minimum tile allocation size to be used by the imaging effect renderer.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/e563cbb0-2ee0-43d8-978c-0bde1950a926">D2D1_RENDERING_CONTROLS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_rendering_controls">D2D1_RENDERING_CONTROLS</a></b>
 
 Describes limitations to be applied to an imaging effect renderer.
 

@@ -60,9 +60,9 @@ Called by the fax service when the status of an incoming fax job for a particula
 
 ### -param pFaxAccount [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa359058(v=VS.85).aspx">IFaxAccount</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccount">IFaxAccount</a>*</b>
 
-An <a href="https://msdn.microsoft.com/en-us/library/Aa359058(v=VS.85).aspx">IFaxAccount</a> object.
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccount">IFaxAccount</a> object.
 
 
 ### -param bstrJobId [in]
@@ -74,9 +74,9 @@ A null-terminated string that contains the ID of the job for which the status ha
 
 ### -param pJobStatus [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms685966(v=VS.85).aspx">IFaxJobStatus</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxjobstatus">IFaxJobStatus</a>*</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/ms685964(v=VS.85).aspx">FaxJobStatus</a> object.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxjobstatus">FaxJobStatus</a> object.
 
 
 ## -returns
@@ -104,7 +104,7 @@ To implement this functionality in Visual Basic, select and implement the approp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa359031(v=VS.85).aspx">IFaxAccountNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/faxcomex/nn-faxcomex-_ifaxaccountnotify">IFaxAccountNotify</a>
  
 
  

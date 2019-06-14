@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets GIL_XXX flags. See <a href="https://msdn.microsoft.com/56138982-c062-4b07-aea7-6023037451fe">GetIconLocation</a>
+Sets GIL_XXX flags. See <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iextracticona-geticonlocation">GetIconLocation</a>
 
 
 

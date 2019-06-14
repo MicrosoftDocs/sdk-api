@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>Answer</b> method answers an incoming call. This method can succeed only if the 
-<a href="https://msdn.microsoft.com/d4ed5e99-3abe-4434-9f99-5e98d8c6f3f1">call state</a> is CS_OFFERING.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-call_state">call state</a> is CS_OFFERING.
 
 
 ## -parameters
@@ -127,19 +127,19 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 
 
 
-<a href="https://msdn.microsoft.com/34ac0b34-1d1b-4657-a737-27a4ed9326af">Answer Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/answer-ovr">Answer Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/67c063ba-8b12-40d6-9011-923bdee8b214">Call Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0b4c496-5ee8-4810-8170-8ea505c99f18">ITBasicCallControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd51991c-c044-4b88-8f97-9e0ae701a2a5">lineAnswer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineanswer">lineAnswer</a>
  
 
  

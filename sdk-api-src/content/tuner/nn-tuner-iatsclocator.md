@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 
-The <b>IATSCLocator</b> interface is implemented on the <a href="https://msdn.microsoft.com/5fe75e72-1feb-4e30-a7f5-cf29a6c9f201">ATSCLocator</a> object and contains methods that enable the network provider to determine the physical channel and transport stream ID of an ATSC transmission. Applications do not use Locator interfaces except possibly for debugging purposes. All Locator objects also support <b>IPersistPropertyBag</b>.
+The <b>IATSCLocator</b> interface is implemented on the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/atsclocator-object">ATSCLocator</a> object and contains methods that enable the network provider to determine the physical channel and transport stream ID of an ATSC transmission. Applications do not use Locator interfaces except possibly for debugging purposes. All Locator objects also support <b>IPersistPropertyBag</b>.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IATSCLocator</b> interface inherits from <a href="https://msdn.microsoft.com/9af4d871-c6ed-479b-ba41-2a719d3a394d">IDigitalLocator</a>. <b>IATSCLocator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IATSCLocator</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-idigitallocator~r1">IDigitalLocator</a>. <b>IATSCLocator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IATSCLocator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7550bbb9-d9f7-4565-9c63-7179c0bdffa5">get_PhysicalChannel</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iatsclocator-get_physicalchannel">get_PhysicalChannel</a>
 </td>
 <td align="left" width="63%">
 Retrieves the physical channel.
@@ -81,7 +81,7 @@ Retrieves the physical channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e7cde550-742c-426c-a350-1d05b74f824d">get_TSID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iatsclocator-get_tsid">get_TSID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the transport stream ID.
@@ -90,7 +90,7 @@ Retrieves the transport stream ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0699e4ef-7ebb-4515-9894-1592f07607ed">put_PhysicalChannel</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iatsclocator-put_physicalchannel">put_PhysicalChannel</a>
 </td>
 <td align="left" width="63%">
 Sets the physical channel.
@@ -99,7 +99,7 @@ Sets the physical channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1864d2e7-0d4a-44b6-a9db-11f6efcd6986">put_TSID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iatsclocator-put_tsid">put_TSID</a>
 </td>
 <td align="left" width="63%">
 Sets the transport stream ID.
@@ -123,11 +123,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/9af4d871-c6ed-479b-ba41-2a719d3a394d">IDigitalLocator</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-idigitallocator~r1">IDigitalLocator</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d956e1d-88b3-4236-9987-f37f674645de">Tuning Model Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
  
 
  

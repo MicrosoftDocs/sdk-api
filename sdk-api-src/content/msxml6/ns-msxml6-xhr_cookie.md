@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines a cookie that you can add to the HTTP cookie jar by calling the <a href="https://msdn.microsoft.com/E150B7CA-A881-4CD5-896F-7E3B6770E105">SetCookie</a> method or retrieve from the HTTP cookie jar by calling the <a href="https://msdn.microsoft.com/A2A9C54B-92A2-41EA-A741-797BA219BCDA">GetCookie</a> method.
+Defines a cookie that you can add to the HTTP cookie jar by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-setcookie">SetCookie</a> method or retrieve from the HTTP cookie jar by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-getcookie">GetCookie</a> method.
 
 
 ## -struct-fields
@@ -221,15 +221,15 @@ Do not use this flag if you expose a scriptable interface, because this has secu
 
 
 
-<a href="https://msdn.microsoft.com/BBC11C4A-AECF-4D6D-8275-3E852E309908">IXMLHTTPRequest2 Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/E150B7CA-A881-4CD5-896F-7E3B6770E105">SetCookie Method</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-setcookie">SetCookie Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/4BBA4E21-29ED-413D-90D6-161D31CC13C9">SetProperty Method</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-setproperty">SetProperty Method</a>
  
 
  

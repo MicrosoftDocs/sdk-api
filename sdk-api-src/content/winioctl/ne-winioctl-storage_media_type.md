@@ -50,7 +50,7 @@ req.redist:
 
 Specifies various types of storage media. Parameters and members of type 
     <b>STORAGE_MEDIA_TYPE</b> also accept values from the 
-    <a href="https://msdn.microsoft.com/183cf8fc-c17b-4def-b590-0aa4b67488f6">MEDIA_TYPE</a> enumeration type.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_media_type">MEDIA_TYPE</a> enumeration type.
 
 
 ## -enum-fields
@@ -385,11 +385,11 @@ STK 9840.
 
 
 
-<a href="https://msdn.microsoft.com/90367411-3008-4e37-9884-e586fc5162d9">DEVICE_MEDIA_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_media_info">DEVICE_MEDIA_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/183cf8fc-c17b-4def-b590-0aa4b67488f6">MEDIA_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_media_type">MEDIA_TYPE</a>
 
 
 

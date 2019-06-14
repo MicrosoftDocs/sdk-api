@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The
 				<b>CONNECTDLGSTRUCT</b> structure is used by the 
-<a href="https://msdn.microsoft.com/11390693-0ab3-4f8b-9209-bc0bceb98032">WNetConnectionDialog1</a> function to establish browsing dialog box parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetconnectiondialog1a">WNetConnectionDialog1</a> function to establish browsing dialog box parameters.
 
 
 ## -struct-fields
@@ -81,7 +81,7 @@ The handle to the owner window for the dialog box.
 Type: <b>LPNETRESOURCE</b>
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/c53d078e-188a-4371-bdb9-fc023bc0c1ba">NETRESOURCE</a> structure. 
+<a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure. 
 
 
 
@@ -129,7 +129,7 @@ Display a read-only path instead of allowing the user to type in a path.
 
 
 This flag should be set only if the <b>lpRemoteName</b> member of the 
-<a href="https://msdn.microsoft.com/c53d078e-188a-4371-bdb9-fc023bc0c1ba">NETRESOURCE</a> structure pointed to by <b>lpConnRes</b> member is not <b>NULL</b> (or an empty string), and the <b>CONNDLG_USE_MRU</b> flag is not set.
+<a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure pointed to by <b>lpConnRes</b> member is not <b>NULL</b> (or an empty string), and the <b>CONNDLG_USE_MRU</b> flag is not set.
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ Internal flag. Do not use.
 </td>
 <td width="60%">
 Enter the most recently used paths into the combination box. Set this value to simulate the 
-<a href="https://msdn.microsoft.com/2dc383bb-0a1a-4612-88f9-f92c8e2a398d">WNetConnectionDialog</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetconnectiondialog">WNetConnectionDialog</a> function.
 
 </td>
 </tr>
@@ -195,7 +195,7 @@ For more information, see the following Remarks section.
 Type: <b>DWORD</b>
 
 If the call to the 
-<a href="https://msdn.microsoft.com/11390693-0ab3-4f8b-9209-bc0bceb98032">WNetConnectionDialog1</a> function is successful, this member returns the number of the connected device. The value is 1 for A:, 2 for B:, 3 for C:, and so on. If the user made a deviceless connection, the value is –1.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetconnectiondialog1a">WNetConnectionDialog1</a> function is successful, this member returns the number of the connected device. The value is 1 for A:, 2 for B:, 3 for C:, and so on. If the user made a deviceless connection, the value is –1.
 
 
 ## -remarks
@@ -215,19 +215,19 @@ The CONNDLG_PERSIST and CONNDLG_NOT_PERSIST values cannot both be set. If neithe
 
 
 
-<a href="https://msdn.microsoft.com/c53d078e-188a-4371-bdb9-fc023bc0c1ba">NETRESOURCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>
 
 
 
-<a href="https://msdn.microsoft.com/11390693-0ab3-4f8b-9209-bc0bceb98032">WNetConnectionDialog1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetconnectiondialog1a">WNetConnectionDialog1</a>
 
 
 
-<a href="https://msdn.microsoft.com/7668ac55-7104-4ddb-88eb-920cfe4e36fd">Windows Networking (WNet) Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-wnet-">Windows Networking (WNet) Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/7969ccbb-d1ae-4a1f-8b9c-862cc6ddef1a">Windows Networking Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-structures">Windows Networking Structures</a>
  
 
  

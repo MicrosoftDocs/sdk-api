@@ -76,11 +76,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/2acabcc2-242d-4b3d-b5b4-680c7973201f">IMFMediaSourceExtension</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediasourceextension">IMFMediaSourceExtension</a>
 
 
 
-<a href="https://msdn.microsoft.com/8FD54833-F60B-49E8-A673-6130F3B06160">MF_MSE_ERROR</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mse-error">MF_MSE_ERROR</a>
  
 
  

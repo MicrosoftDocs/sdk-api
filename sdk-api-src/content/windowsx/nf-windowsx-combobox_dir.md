@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Adds names to the list displayed by a combo box. The macro adds the names of directories and files that match a specified string and set of file attributes. It can also add mapped drive letters to the list in a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775832(v=VS.85).aspx">CB_DIR</a> message explicitly.
+Adds names to the list displayed by a combo box. The macro adds the names of directories and files that match a specified string and set of file attributes. It can also add mapped drive letters to the list in a combo box. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-dir">CB_DIR</a> message explicitly.
 
 
 ## -parameters
@@ -59,21 +59,21 @@ Adds names to the list displayed by a combo box. The macro adds the names of dir
 
 ### -param hwndCtl
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
 
 ### -param attrs
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-The attributes of the files or directories to be added to the list in a combo box. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775832(v=VS.85).aspx">CB_DIR</a>.
+The attributes of the files or directories to be added to the list in a combo box. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-dir">CB_DIR</a>.
 
 
 ### -param lpszFileSpec
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCTSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
 
 A pointer to the null-terminated string that specifies an absolute path, relative path, or filename. An absolute path can begin with a drive letter (for example, d:\) or a UNC name (for example, \\ machinename\ sharename). 
 
@@ -82,7 +82,7 @@ A pointer to the null-terminated string that specifies an absolute path, relativ
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775832(v=VS.85).aspx">CB_DIR</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-dir">CB_DIR</a>.
 	
 
 

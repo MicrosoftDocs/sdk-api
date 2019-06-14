@@ -63,7 +63,7 @@ Retrieves the offset of the index object from the start of the content.
 
 ### -param pIContentInfo [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/9f490e6a-f378-45c1-a69d-985c6e884358">IMFASFContentInfo</a> interface of the ContentInfo object that describes the content.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfcontentinfo">IMFASFContentInfo</a> interface of the ContentInfo object that describes the content.
 
 
 ### -param pcbIndexOffset [out]
@@ -116,9 +116,9 @@ The method succeeded.
 
 The index continues from the offset retrieved by this method to the end of the file.
 
-You must call <a href="https://msdn.microsoft.com/c02931d3-7b43-43a9-9e4e-00945ba3c8d8">IMFASFIndexer::Initialize</a> to set up the indexer before calling this method.
+You must call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-initialize">IMFASFIndexer::Initialize</a> to set up the indexer before calling this method.
 
-If the index is retrieved by using more than one call to <a href="https://msdn.microsoft.com/aca721e8-e610-4022-a3da-8ff5a5943e3e">IMFASFIndexer::GetCompletedIndex</a>, the position of individual index portions is equal to the index offset plus the offset of the portion within the index.
+If the index is retrieved by using more than one call to <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getcompletedindex">IMFASFIndexer::GetCompletedIndex</a>, the position of individual index portions is equal to the index offset plus the offset of the portion within the index.
 
 
 
@@ -128,11 +128,11 @@ If the index is retrieved by using more than one call to <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/3f95b0ac-d70f-4bc2-8524-c7de1df34afa">ASF Index Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-index-object">ASF Index Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/93127fe4-bca9-4674-ae21-012367d7dd2f">IMFASFIndexer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>
  
 
  

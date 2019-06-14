@@ -54,7 +54,7 @@ Exposes properties and methods that Microsoft UI Automation client applications 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationAndCondition</b> interface inherits from <a href="https://msdn.microsoft.com/66515d42-2b98-4923-b326-9fec557345b7">IUIAutomationCondition</a>. <b>IUIAutomationAndCondition</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationAndCondition</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition">IUIAutomationCondition</a>. <b>IUIAutomationAndCondition</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IUIAutomationAndCondition</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6868fae6-74fb-4133-8dc5-73ce5f8a6f7b">GetChildren</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationandcondition-getchildren">GetChildren</a>
 </td>
 <td align="left" width="63%">
 Retrieves the conditions that make up this "and" condition.
@@ -79,7 +79,7 @@ Retrieves the conditions that make up this "and" condition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2543dd60-88cb-4477-9008-4ec8f9d8f287">GetChildrenAsNativeArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationandcondition-getchildrenasnativearray">GetChildrenAsNativeArray</a>
 </td>
 <td align="left" width="63%">
 Retrieves the conditions that make up this "and" condition, as an ordinary array.
@@ -97,7 +97,7 @@ Retrieves the conditions that make up this "and" condition, as an ordinary array
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/9e87bc65-5b41-4256-92c7-21b92032b83f">ChildCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationandcondition-get_childcount">ChildCount</a>
 
 
 </td>
@@ -118,11 +118,11 @@ Retrieves the number of conditions that make up this "and" condition.
 
 
 
-<a href="https://msdn.microsoft.com/66515d42-2b98-4923-b326-9fec557345b7">IUIAutomationCondition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition">IUIAutomationCondition</a>
 
 
 
-<a href="https://msdn.microsoft.com/cea34e47-03a9-4ff9-9019-427a2a3e13d6">Property Condition Interfaces for Clients</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-propconditioninterfaces">Property Condition Interfaces for Clients</a>
  
 
  

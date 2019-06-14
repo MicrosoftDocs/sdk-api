@@ -58,7 +58,7 @@ The <code>IMediaObject</code> interface provides methods for manipulating a Micr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaObject</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMediaObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaObject</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMediaObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IMediaObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406943(v=VS.85).aspx">AllocateStreamingResources</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-allocatestreamingresources">AllocateStreamingResources</a>
 </td>
 <td align="left" width="63%">
 Allocates any resources needed by the DMO.
@@ -82,7 +82,7 @@ Allocates any resources needed by the DMO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406944(v=VS.85).aspx">Discontinuity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-discontinuity">Discontinuity</a>
 </td>
 <td align="left" width="63%">
 Signals a discontinuity on the specified input stream.
@@ -91,7 +91,7 @@ Signals a discontinuity on the specified input stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406945(v=VS.85).aspx">Flush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-flush">Flush</a>
 </td>
 <td align="left" width="63%">
 Flushes all internally buffered data.
@@ -100,7 +100,7 @@ Flushes all internally buffered data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406946(v=VS.85).aspx">FreeStreamingResources</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-freestreamingresources">FreeStreamingResources</a>
 </td>
 <td align="left" width="63%">
 Frees resources allocated by the DMO.
@@ -109,7 +109,7 @@ Frees resources allocated by the DMO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406947(v=VS.85).aspx">GetInputCurrentType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-getinputcurrenttype">GetInputCurrentType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the media type that was previously set for an input stream, if any.
@@ -118,7 +118,7 @@ Retrieves the media type that was previously set for an input stream, if any.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406948(v=VS.85).aspx">GetInputMaxLatency</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-getinputmaxlatency">GetInputMaxLatency</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum latency on a specified input stream.
@@ -127,7 +127,7 @@ Retrieves the maximum latency on a specified input stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406949(v=VS.85).aspx">GetInputSizeInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-getinputsizeinfo">GetInputSizeInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves the buffer requirements for a specified input stream.
@@ -136,7 +136,7 @@ Retrieves the buffer requirements for a specified input stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406950(v=VS.85).aspx">GetInputStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-getinputstatus">GetInputStatus</a>
 </td>
 <td align="left" width="63%">
 Queries whether a specified input stream can accept more input data.
@@ -145,7 +145,7 @@ Queries whether a specified input stream can accept more input data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406951(v=VS.85).aspx">GetInputStreamInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-getinputstreaminfo">GetInputStreamInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about a specified input stream.
@@ -154,7 +154,7 @@ Retrieves information about a specified input stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406952(v=VS.85).aspx">GetInputType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-getinputtype">GetInputType</a>
 </td>
 <td align="left" width="63%">
 Retrieves a preferred media type for a specified input stream.
@@ -163,7 +163,7 @@ Retrieves a preferred media type for a specified input stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406953(v=VS.85).aspx">GetOutputCurrentType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-getoutputcurrenttype">GetOutputCurrentType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the media type that was previously set for an output stream, if any.
@@ -172,7 +172,7 @@ Retrieves the media type that was previously set for an output stream, if any.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406954(v=VS.85).aspx">GetOutputSizeInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-getoutputsizeinfo">GetOutputSizeInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves the buffer requirements for a specified output stream.
@@ -181,7 +181,7 @@ Retrieves the buffer requirements for a specified output stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406955(v=VS.85).aspx">GetOutputStreamInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-getoutputstreaminfo">GetOutputStreamInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about a specified output stream.
@@ -190,7 +190,7 @@ Retrieves information about a specified output stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406956(v=VS.85).aspx">GetOutputType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-getoutputtype">GetOutputType</a>
 </td>
 <td align="left" width="63%">
 Retrieves a preferred media type for a specified output stream.
@@ -199,7 +199,7 @@ Retrieves a preferred media type for a specified output stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406957(v=VS.85).aspx">GetStreamCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-getstreamcount">GetStreamCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of input and output streams.
@@ -208,7 +208,7 @@ Retrieves the number of input and output streams.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406958(v=VS.85).aspx">Lock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-lock">Lock</a>
 </td>
 <td align="left" width="63%">
 Acquires or releases a lock on the DMO.
@@ -217,7 +217,7 @@ Acquires or releases a lock on the DMO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406959(v=VS.85).aspx">ProcessInput</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processinput">ProcessInput</a>
 </td>
 <td align="left" width="63%">
 Delivers a buffer to the specified input stream.
@@ -226,7 +226,7 @@ Delivers a buffer to the specified input stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406960(v=VS.85).aspx">ProcessOutput</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processoutput">ProcessOutput</a>
 </td>
 <td align="left" width="63%">
 Generates output from the current input data.
@@ -235,7 +235,7 @@ Generates output from the current input data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406961(v=VS.85).aspx">SetInputMaxLatency</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-setinputmaxlatency">SetInputMaxLatency</a>
 </td>
 <td align="left" width="63%">
 Sets the maximum latency on a specified input stream.
@@ -244,7 +244,7 @@ Sets the maximum latency on a specified input stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406962(v=VS.85).aspx">SetInputType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-setinputtype">SetInputType</a>
 </td>
 <td align="left" width="63%">
 Sets the media type on an input stream, or tests whether a particular media type is acceptable.
@@ -253,7 +253,7 @@ Sets the media type on an input stream, or tests whether a particular media type
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406963(v=VS.85).aspx">SetOutputType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-setoutputtype">SetOutputType</a>
 </td>
 <td align="left" width="63%">
 Sets the media type on an output stream, or tests whether a particular media type is acceptable.

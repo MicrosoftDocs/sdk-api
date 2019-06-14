@@ -59,12 +59,12 @@ Disables digital playback for the specified CD-ROM or DVD drive.
 
 ### -param DevInfo [in]
 
-A handle to a device information set listing the devices for which information is to be returned. This handle is typically returned by the <a href="https://msdn.microsoft.com/31bb0fc8-0fb8-4122-b9e8-5ff8fbbd903b">SetupDiGetClassDevs</a> or <a href="https://msdn.microsoft.com/9f13ffe1-1a60-4d9a-942d-63312ca9bc5b">SetupDiGetClassDevsEx</a> function.
+A handle to a device information set listing the devices for which information is to be returned. This handle is typically returned by the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdevsw">SetupDiGetClassDevs</a> or <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdevsexa">SetupDiGetClassDevsEx</a> function.
 
 
 ### -param DevInfoData [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure that defines the device instance.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">SP_DEVINFO_DATA</a> structure that defines the device instance.
 
 
 ## -returns
@@ -82,9 +82,9 @@ If the function fails, the return value is an error code.
 
 
 
-To enable digital playback for the specified CD-ROM or DVD drive, use the <a href="https://msdn.microsoft.com/a50a0c9a-21f3-4d55-97c3-144f5835b6af">CdromEnableDigitalPlayback</a> function. To determine whether digital playback is enabled or disabled, use the <a href="https://msdn.microsoft.com/17d1ccc6-a552-434f-84f5-471455e97dc2">CdromIsDigitalPlaybackEnabled</a> function.
+To enable digital playback for the specified CD-ROM or DVD drive, use the <a href="https://docs.microsoft.com/windows/desktop/api/storprop/nf-storprop-cdromenabledigitalplayback">CdromEnableDigitalPlayback</a> function. To determine whether digital playback is enabled or disabled, use the <a href="https://docs.microsoft.com/windows/desktop/api/storprop/nf-storprop-cdromisdigitalplaybackenabled">CdromIsDigitalPlaybackEnabled</a> function.
 
-This function has no associated import library. You must use the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> functions to dynamically link to StorProp.dll.
+This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to StorProp.dll.
 
 
 
@@ -94,15 +94,15 @@ This function has no associated import library. You must use the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/a50a0c9a-21f3-4d55-97c3-144f5835b6af">CdromEnableDigitalPlayback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/storprop/nf-storprop-cdromenabledigitalplayback">CdromEnableDigitalPlayback</a>
 
 
 
-<a href="https://msdn.microsoft.com/17d1ccc6-a552-434f-84f5-471455e97dc2">CdromIsDigitalPlaybackEnabled</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/storprop/nf-storprop-cdromisdigitalplaybackenabled">CdromIsDigitalPlaybackEnabled</a>
 
 
 
-<a href="https://msdn.microsoft.com/3918ba49-1549-4f0c-b9fd-303ef46b810e">Device Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/device-management-functions">Device Management Functions</a>
  
 
  

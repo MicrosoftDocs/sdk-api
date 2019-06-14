@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Extends the capabilities of <a href="https://msdn.microsoft.com/28a13749-89e7-407e-89cb-95464859ce3e">IExtractImage</a>.
+Extends the capabilities of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage">IExtractImage</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExtractImage2</b> interface inherits from <a href="https://msdn.microsoft.com/28a13749-89e7-407e-89cb-95464859ce3e">IExtractImage</a>. <b>IExtractImage2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExtractImage2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage">IExtractImage</a>. <b>IExtractImage2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IExtractImage2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dca5fe16-bf83-4426-af2a-9a205f4ebd57">GetDateStamp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iextractimage2-getdatestamp">GetDateStamp</a>
 </td>
 <td align="left" width="63%">
 Requests the date the image was last modified. This method allows the Shell to determine whether cached images are out-of-date.
@@ -87,7 +87,7 @@ Implement <b>IExtractImage2</b> to provide date stamps for your thumbnail images
 
 You do not call this interface directly. <b>IExtractImage2</b> is used by the operating system only when it has confirmed that your application is aware of this interface.
 
-<b>IExtractImage2</b> implements all the <a href="https://msdn.microsoft.com/28a13749-89e7-407e-89cb-95464859ce3e">IExtractImage</a> methods as well as 
+<b>IExtractImage2</b> implements all the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage">IExtractImage</a> methods as well as 
 				<b>IUnknown</b>. The listed method is specific to <b>IExtractImage2</b>.
 
 

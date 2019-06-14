@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_CERTIFICATE_AUTHENTICATION2</b> structure is used to specify various parameters for authentication with certificates.
-<div class="alert"><b>Note</b>  <b>IKEEXT_CERTIFICATE_AUTHENTICATION2</b> is the specific implementation of IKEEXT_CERTIFICATE_AUTHENTICATION used in Windows 8. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://msdn.microsoft.com/en-us/library/Dd744964(v=VS.85).aspx">IKEEXT_CERTIFICATE_AUTHENTICATION1</a> is available. For Windows Vista, <a href="https://msdn.microsoft.com/en-us/library/Aa364979(v=VS.85).aspx">IKEEXT_CERTIFICATE_AUTHENTICATION0</a>  is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>IKEEXT_CERTIFICATE_AUTHENTICATION2</b> is the specific implementation of IKEEXT_CERTIFICATE_AUTHENTICATION used in Windows 8. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_authentication1_">IKEEXT_CERTIFICATE_AUTHENTICATION1</a> is available. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_authentication0_">IKEEXT_CERTIFICATE_AUTHENTICATION0</a>  is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -59,7 +59,7 @@ The <b>IKEEXT_CERTIFICATE_AUTHENTICATION2</b> structure is used to specify vario
 
 ### -field inboundConfigType
 
-Type: <b><a href="https://msdn.microsoft.com/b137e27b-c361-4fd2-9b3b-5c2b364576d4">IKEEXT_CERT_CONFIG_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_cert_config_type_">IKEEXT_CERT_CONFIG_TYPE</a></b>
 
 Certificate configuration type for inbound peer certificate verification.
 
@@ -75,7 +75,7 @@ Available when <b>inboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_EXPLICIT_TRUST_
 
 ### -field inboundRootCriteria
 
-Type: <b><a href="https://msdn.microsoft.com/dbcb0e25-fdde-44d9-bfad-b3605f563773">IKEEXT_CERTIFICATE_CRITERIA0</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_criteria0_">IKEEXT_CERTIFICATE_CRITERIA0</a>*</b>
 
 List of certificate criteria containing explicit trusted authorities that should be used to verify the peer certificate chain.
 
@@ -93,7 +93,7 @@ Available when <b>inboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_ENTERPRISE_STOR
 
 ### -field inboundEnterpriseStoreCriteria
 
-Type: <b><a href="https://msdn.microsoft.com/dbcb0e25-fdde-44d9-bfad-b3605f563773">IKEEXT_CERTIFICATE_CRITERIA0</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_criteria0_">IKEEXT_CERTIFICATE_CRITERIA0</a>*</b>
 
 List of enterprise store criteria that should be used to verify the peer certificate chain.
 
@@ -111,7 +111,7 @@ Available when <b>inboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_TRUSTED_ROOT_ST
 
 ### -field inboundTrustedRootStoreCriteria
 
-Type: <b><a href="https://msdn.microsoft.com/dbcb0e25-fdde-44d9-bfad-b3605f563773">IKEEXT_CERTIFICATE_CRITERIA0</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_criteria0_">IKEEXT_CERTIFICATE_CRITERIA0</a>*</b>
 
 List of trusted root store criteria that should be used to verify the peer certificate chain.
 
@@ -120,7 +120,7 @@ Available when <b>inboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_TRUSTED_ROOT_ST
 
 ### -field outboundConfigType
 
-Type: <b><a href="https://msdn.microsoft.com/b137e27b-c361-4fd2-9b3b-5c2b364576d4">IKEEXT_CERT_CONFIG_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_cert_config_type_">IKEEXT_CERT_CONFIG_TYPE</a></b>
 
 Certificate configuration type for outbound local certificate verification.
 
@@ -136,7 +136,7 @@ Available when <b>outboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_EXPLICIT_TRUST
 
 ### -field outboundRootCriteria
 
-Type: <b><a href="https://msdn.microsoft.com/dbcb0e25-fdde-44d9-bfad-b3605f563773">IKEEXT_CERTIFICATE_CRITERIA0</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_criteria0_">IKEEXT_CERTIFICATE_CRITERIA0</a>*</b>
 
 List of certificate criteria containing explicit trusted authorities that should be used to select the certificate chain that will be sent to the peer.
 
@@ -154,7 +154,7 @@ Available when <b>outboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_ENTERPRISE_STO
 
 ### -field outboundEnterpriseStoreCriteria
 
-Type: <b><a href="https://msdn.microsoft.com/dbcb0e25-fdde-44d9-bfad-b3605f563773">IKEEXT_CERTIFICATE_CRITERIA0</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_criteria0_">IKEEXT_CERTIFICATE_CRITERIA0</a>*</b>
 
 List of enterprise store criteria that should be used to select the certificate chain that will be sent to the peer.
 
@@ -172,7 +172,7 @@ Available when <b>outboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_TRUSTED_ROOT_S
 
 ### -field outboundTrustedRootStoreCriteria
 
-Type: <b><a href="https://msdn.microsoft.com/dbcb0e25-fdde-44d9-bfad-b3605f563773">IKEEXT_CERTIFICATE_CRITERIA0</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_criteria0_">IKEEXT_CERTIFICATE_CRITERIA0</a>*</b>
 
 List of trusted root store criteria that should be used to select the certificate chain that will be sent to the peer.
 
@@ -271,7 +271,7 @@ Applicable only to IKEv2.
 
 ### -field localCertLocationUrl
 
-Type: <b><a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a></b>
 
 HTTP URL pointing to an encoded certificate or certificate-bundle, that 
    will be used by IKEv2 for authenticating local machine to a peer.
@@ -284,7 +284,7 @@ Applicable only to IKEv2.
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

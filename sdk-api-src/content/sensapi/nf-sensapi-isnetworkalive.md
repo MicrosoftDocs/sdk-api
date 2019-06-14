@@ -83,7 +83,7 @@ The computer has one or more active RAS connections.
 
 
 
-Always call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> before checking the return code of this function.  If the last error is not 0, the <b>IsNetworkAlive</b> function has failed and the following <b>TRUE</b> and <b>FALSE</b> values do not apply.
+Always call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> before checking the return code of this function.  If the last error is not 0, the <b>IsNetworkAlive</b> function has failed and the following <b>TRUE</b> and <b>FALSE</b> values do not apply.
 
 <table>
 <tr>
@@ -124,7 +124,7 @@ If the last error is 0 and the function returns <b>FALSE</b>, SENS has determine
 
 
 
-Starting with applications designed for Windows Vista and Windows Server 2008, developers should consider using the <a href="https://msdn.microsoft.com/a30741ff-5d9a-4ebb-8373-97e9116fc64b">Network List Manager</a> instead of this function.
+Starting with applications designed for Windows Vista and Windows Server 2008, developers should consider using the <a href="https://docs.microsoft.com/windows/desktop/NLA/portal">Network List Manager</a> instead of this function.
 
 This function can be used by an application to determine whether or not there is network connectivity before proceeding with network operations. A directory service type of application, e-mail client, or Internet browser can adapt to various types of network connectivity. For example, a printing operation can be deferred until a network connection is available.
 
@@ -142,11 +142,11 @@ However, <b>IsNetworkAlive</b> can always identify a WAN connectivity at the mom
 
 
 
-<a href="https://msdn.microsoft.com/f313588f-6257-4a0d-b95a-aabc0bc64b53">About System Event Notification Service</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sens/about-system-event-notification-service">About System Event Notification Service</a>
 
 
 
-<a href="https://msdn.microsoft.com/377af331-8494-4a3d-b822-78c2b568239c">IsDestinationReachable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensapi/nf-sensapi-isdestinationreachablea">IsDestinationReachable</a>
  
 
  

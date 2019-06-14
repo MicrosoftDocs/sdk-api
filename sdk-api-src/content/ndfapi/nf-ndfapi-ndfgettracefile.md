@@ -109,7 +109,7 @@ The operation succeeded.
 
 This function cannot be called on an incident which has already been closed.
 
-ETL files contain information such as which components were diagnosed, component configuration information, and diagnosis results. For more information about ETL files, see <a href="https://msdn.microsoft.com/7d331362-ff26-4ca0-aa45-07cc97304c7c">Network Tracing in Windows 7</a>.
+ETL files contain information such as which components were diagnosed, component configuration information, and diagnosis results. For more information about ETL files, see <a href="https://docs.microsoft.com/windows/desktop/NDF/network-tracing-in-windows-7">Network Tracing in Windows 7</a>.
 
 
 

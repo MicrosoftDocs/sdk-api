@@ -59,7 +59,7 @@ Sets the properties of this object by copying the properties of another text fon
 
 ### -param pFont [in]
 
-Type: <b><a href="https://msdn.microsoft.com/d2d43bfd-7cdf-458a-822d-e3965bfe2284">ITextFont2</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a>*</b>
 
 The text font object to copy from.
 
@@ -70,7 +70,7 @@ The text font object to copy from.
 
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes.  For more information about COM error codes, see <a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes.  For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -111,7 +111,7 @@ Insufficient memory.
 
 Values with the <b>tomUndefined</b> attribute have no effect.
 
-For an example of how to use font duplicates, see <a href="https://msdn.microsoft.com/en-us/library/Bb774145(v=VS.85).aspx">ITextRange::SetFont</a>.
+For an example of how to use font duplicates, see <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-setfont">ITextRange::SetFont</a>.
 
 
 
@@ -121,11 +121,11 @@ For an example of how to use font duplicates, see <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/d2d43bfd-7cdf-458a-822d-e3965bfe2284">ITextFont2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc6b979b-f837-4945-a35d-c5585d703bd1">ITextFont2::GetDuplicate2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont2-getduplicate2">ITextFont2::GetDuplicate2</a>
  
 
  

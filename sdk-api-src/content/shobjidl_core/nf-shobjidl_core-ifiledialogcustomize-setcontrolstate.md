@@ -68,7 +68,7 @@ The ID of the control in question.
 
 Type: <b>CDCONTROLSTATEF</b>
 
-One or more values from the <a href="https://msdn.microsoft.com/5e556aa2-2e1b-4f71-b386-328405f4aae0">CDCONTROLSTATE</a> enumeration that indicate the current state of the control.
+One or more values from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb762483(v=vs.85)">CDCONTROLSTATE</a> enumeration that indicate the current state of the control.
                 
 
 

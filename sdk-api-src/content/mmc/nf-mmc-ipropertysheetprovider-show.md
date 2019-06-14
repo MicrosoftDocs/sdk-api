@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-If the type that has been set in <a href="https://msdn.microsoft.com/8d53083a-d578-4a88-bd3f-d43c88d697e5">IPropertySheetProvider::CreatePropertySheet</a> is a property sheet, <b>IPropertySheetProvider::Show</b> displays a property sheet frame that is parented to a hidden window. If  the type that has been set in <b>IPropertySheetProvider::CreatePropertySheet</b> is a wizard, <b>IPropertySheetProvider::Show</b> displays a property sheet frame parented to the handle that is passed to this method.
+If the type that has been set in <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ipropertysheetprovider-createpropertysheet">IPropertySheetProvider::CreatePropertySheet</a> is a property sheet, <b>IPropertySheetProvider::Show</b> displays a property sheet frame that is parented to a hidden window. If  the type that has been set in <b>IPropertySheetProvider::CreatePropertySheet</b> is a wizard, <b>IPropertySheetProvider::Show</b> displays a property sheet frame parented to the handle that is passed to this method.
 
 
 ## -parameters
@@ -83,12 +83,12 @@ This method can return one of these values.
 <b>IPropertySheetProvider::Show(
     –1, 0)</b> returns <b>E_FAIL</b>. This return code can be ignored in this case.
 
-In situations in which the snap-in creates a property sheet in a call to <a href="https://msdn.microsoft.com/8d53083a-d578-4a88-bd3f-d43c88d697e5">IPropertySheetProvider::CreatePropertySheet</a>, optionally calls <a href="https://msdn.microsoft.com/f555dfd0-8af3-422f-a339-ab79daa89b45">IPropertySheetProvider::AddPrimaryPages</a> and <a href="https://msdn.microsoft.com/3a2ce7a6-65d6-4e39-b8b8-8d9b59b32d11">IPropertySheetProvider::AddExtensionPages</a>, and then decides not to show the property sheet, it should call <b>IPropertySheetProvider::Show(
+In situations in which the snap-in creates a property sheet in a call to <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ipropertysheetprovider-createpropertysheet">IPropertySheetProvider::CreatePropertySheet</a>, optionally calls <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ipropertysheetprovider-addprimarypages">IPropertySheetProvider::AddPrimaryPages</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ipropertysheetprovider-addextensionpages">IPropertySheetProvider::AddExtensionPages</a>, and then decides not to show the property sheet, it should call <b>IPropertySheetProvider::Show(
     –1, 0)</b> to delete the property sheet and free its resources. In this case, the snap-in must delete the property page handles that it has created. This can be done before or after the snap-in calls <b>IPropertySheetProvider::Show(
     –1, 0)</b>, because MMC does not use the property page handles.
 
 <b>IPropertySheetProvider::Show(
-    –1, 0)</b> only deletes the current property sheet, that is, one that has been created, but is not yet shown. After a property sheet is shown, the snap-in cannot programmatically close it. Only the user can close a property sheet that is shown. In this case, MMC automatically deletes all associated property pages (<a href="https://msdn.microsoft.com/28cbf3df-f345-4b4f-ac34-e32e63c9b6ec">PROPSHEETPAGE</a> structures) provided by the snap-in.
+    –1, 0)</b> only deletes the current property sheet, that is, one that has been created, but is not yet shown. After a property sheet is shown, the snap-in cannot programmatically close it. Only the user can close a property sheet that is shown. In this case, MMC automatically deletes all associated property pages (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v3">PROPSHEETPAGE</a> structures) provided by the snap-in.
 
 
 
@@ -98,7 +98,7 @@ In situations in which the snap-in creates a property sheet in a call to <a href
 
 
 
-<a href="https://msdn.microsoft.com/c63d5d5f-a334-4367-8a1e-252b4eb5b50d">IPropertySheetProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-ipropertysheetprovider">IPropertySheetProvider</a>
  
 
  

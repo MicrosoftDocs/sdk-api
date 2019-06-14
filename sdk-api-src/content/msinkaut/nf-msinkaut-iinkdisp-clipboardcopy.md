@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Copies the <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes</a> collection to the Clipboard.
+Copies the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection to the Clipboard.
 
 
 
@@ -63,17 +63,17 @@ Copies the <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0
 
 ### -param strokes [in, optional]
 
-Optional. Specifies the strokes to copy. If the strokes parameter is <b>NULL</b>, the <b>ClipboardCopy</b> method copies the entire <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp</a> object. The default value is <b>NULL</b>.
+Optional. Specifies the strokes to copy. If the strokes parameter is <b>NULL</b>, the <b>ClipboardCopy</b> method copies the entire <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object. The default value is <b>NULL</b>.
 
 
 ### -param ClipboardFormats [in, optional]
 
-Optional. Specifies the <a href="https://msdn.microsoft.com/bedee31c-d957-4162-83d9-f1c8df9428cd">InkClipboardFormats</a> enumeration value of the <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp</a> object. The default value is <b>ICF_Default</b>.
+Optional. Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkclipboardformats">InkClipboardFormats</a> enumeration value of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object. The default value is <b>ICF_Default</b>.
 
 
 ### -param ClipboardModes [in, optional]
 
-Optional. Specifies the <a href="https://msdn.microsoft.com/a9718b79-8f98-4bfc-a5db-208899d1f59e">InkClipboardModes</a> enumeration value of the <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp</a> object. The default value is <b>ICB_Default</b>.
+Optional. Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkclipboardmodes">InkClipboardModes</a> enumeration value of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object. The default value is <b>ICB_Default</b>.
 
 
 ### -param DataObject [out, retval]
@@ -146,13 +146,13 @@ The strokes parameter is associated with a different Ink object.
 
 
 
-This method copies all properties of the stroke, including recognition results. Setting the <i>strokes</i> parameter to <b>NULL</b> copies the <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp</a> object to the Clipboard, including the <a href="https://msdn.microsoft.com/33425e5b-2ba0-4026-ab19-33579e7bb9f5">CustomStrokes</a> property, and recognition results for strokes in the <b>InkDisp</b> object's <a href="https://msdn.microsoft.com/0b4eb5d6-ccf0-46c1-ae02-a393e67b817e">IInkCustomStrokes</a> collection are maintained.
+This method copies all properties of the stroke, including recognition results. Setting the <i>strokes</i> parameter to <b>NULL</b> copies the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object to the Clipboard, including the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-get_customstrokes">CustomStrokes</a> property, and recognition results for strokes in the <b>InkDisp</b> object's <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkcustomstrokes">IInkCustomStrokes</a> collection are maintained.
 
-If an empty <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes</a> collection is passed, the method returns <b>NULL</b> and the contents of the Clipboard are not modified.
+If an empty <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection is passed, the method returns <b>NULL</b> and the contents of the Clipboard are not modified.
 
-<div class="alert"><b>Note</b>  <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize(NULL)</a> must be called before the clipboard APIs can work.</div>
+<div class="alert"><b>Note</b>  <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleinitialize">OleInitialize(NULL)</a> must be called before the clipboard APIs can work.</div>
 <div> </div>
-<div class="alert"><b>Caution</b>  To avoid potential memory leaks as a result of using the <a href="https://msdn.microsoft.com/a9718b79-8f98-4bfc-a5db-208899d1f59e">ICB_DelayedCopy</a> flag, you must call the <a href="https://msdn.microsoft.com/18291a91-be7d-42ec-a44a-d1bbfb017c6e">OleFlushClipboard</a> or <a href="https://msdn.microsoft.com/741def10-d2b5-4395-8049-1eba2e29b0e8">OleSetClipboard</a> method. This must be done before the application exits if the last call to the <b>ClipboardCopy</b> method used the <b>ICB_DelayedCopy</b> flag.</div>
+<div class="alert"><b>Caution</b>  To avoid potential memory leaks as a result of using the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkclipboardmodes">ICB_DelayedCopy</a> flag, you must call the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleflushclipboard">OleFlushClipboard</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olesetclipboard">OleSetClipboard</a> method. This must be done before the application exits if the last call to the <b>ClipboardCopy</b> method used the <b>ICB_DelayedCopy</b> flag.</div>
 <div> </div>
 
 
@@ -162,7 +162,7 @@ If an empty <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c
 
 
 
-<a href="https://msdn.microsoft.com/a4e6a183-242a-40af-871b-43a0b177a27a">ClipboardCopyWithRectangle Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clipboardcopywithrectangle">ClipboardCopyWithRectangle Method</a>
 
 
 
@@ -170,19 +170,19 @@ If an empty <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c
 
 
 
-<a href="https://msdn.microsoft.com/bedee31c-d957-4162-83d9-f1c8df9428cd">InkClipboardFormats Enumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkclipboardformats">InkClipboardFormats Enumeration</a>
 
 
 
-<a href="https://msdn.microsoft.com/a9718b79-8f98-4bfc-a5db-208899d1f59e">InkClipboardModes Enumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkclipboardmodes">InkClipboardModes Enumeration</a>
 
 
 
-<a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes Collection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
  
 
  

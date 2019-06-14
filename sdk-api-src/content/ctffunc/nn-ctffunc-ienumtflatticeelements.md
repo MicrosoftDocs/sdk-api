@@ -54,7 +54,7 @@ The <b>IEnumTfLatticeElements</b> interface is implemented by the TSF manager to
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumTfLatticeElements</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnumTfLatticeElements</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumTfLatticeElements</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumTfLatticeElements</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IEnumTfLatticeElements</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/867fe614-d8c0-4987-b35a-bd5b175e6850">Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-ienumtflatticeelements-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the enumerator object.
@@ -78,7 +78,7 @@ Creates a copy of the enumerator object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/066493c9-6597-43f4-9f65-51578af00a9b">Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-ienumtflatticeelements-next">Next</a>
 </td>
 <td align="left" width="63%">
 Obtains the specified number of elements in the enumeration sequence from the current position.
@@ -87,7 +87,7 @@ Obtains the specified number of elements in the enumeration sequence from the cu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9b4b7479-33e9-4bff-8e18-f4e03060dc73">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-ienumtflatticeelements-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
@@ -96,7 +96,7 @@ Resets the enumerator object by moving the current position to the beginning of 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/53dbe7f0-cc1f-4ba4-9ed5-7b328c707902">Skip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-ienumtflatticeelements-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Moves the current position forward in the enumeration sequence by the specified number of elements.

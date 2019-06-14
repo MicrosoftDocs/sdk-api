@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the power-saving level of a video decoder. This enumeration is used with the <a href="https://msdn.microsoft.com/7e2ff8be-b21f-4833-a165-0112d4220677">AVDecVideoSWPowerLevel</a> property.
+Specifies the power-saving level of a video decoder. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avdecvideoswpowerlevel-property">AVDecVideoSWPowerLevel</a> property.
 
 
 ## -enum-fields
@@ -77,11 +77,11 @@ Optimize for video quality.
 
 
 
-<a href="https://msdn.microsoft.com/5d6e48cb-d181-448e-a96e-e5ab500427d7">Codec API Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
  
 
  

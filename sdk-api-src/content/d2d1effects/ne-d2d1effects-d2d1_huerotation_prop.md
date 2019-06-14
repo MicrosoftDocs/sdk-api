@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/D322DB2C-2B8B-4101-BFB2-97E49CAC7BF6">Hue rotate effect</a>.
+Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/hue-rotate">Hue rotate effect</a>.
 
 
 ## -enum-fields

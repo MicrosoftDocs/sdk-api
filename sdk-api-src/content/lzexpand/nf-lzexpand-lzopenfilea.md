@@ -66,7 +66,7 @@ The name of the file.
 
 ### -param lpReOpenBuf [out]
 
-A pointer to the <a href="https://msdn.microsoft.com/195581e5-e962-4756-a33c-b1e898b5b0e7">OFSTRUCT</a> structure that is to receive 
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_ofstruct">OFSTRUCT</a> structure that is to receive 
        information about the file when the file is first opened. The structure can be used in subsequent calls to the 
        <b>LZOpenFile</b> function to see the open file.
 
@@ -136,7 +136,7 @@ Opens the file and then closes it to test for a file's existence.
 </dl>
 </td>
 <td width="60%">
-Fills the <a href="https://msdn.microsoft.com/195581e5-e962-4756-a33c-b1e898b5b0e7">OFSTRUCT</a> structure but carries out no 
+Fills the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_ofstruct">OFSTRUCT</a> structure but carries out no 
         other action.
 
 </td>
@@ -266,11 +266,11 @@ If the function succeeds and the value specified by the <i>wStyle</i> parameter 
 
 If the function fails, the return value is an <b>LZERROR_*</b> code. These codes have 
        values less than zero. There is no extended error information for this function; do not call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 <div class="alert"><b>Note</b>  <b>LZOpenFile</b> calls neither 
-       <a href="https://msdn.microsoft.com/d9da833f-36ca-4046-8d2f-cd4449dd3c63">SetLastError</a> nor 
-       <a href="https://msdn.microsoft.com/d97494db-868a-49d4-a613-e8beba86d4e6">SetLastErrorEx</a>; thus, its failure does not affect a 
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> nor 
+       <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setlasterrorex">SetLastErrorEx</a>; thus, its failure does not affect a 
        thread's last-error code.</div>
 <div> </div>
 The following is the list of the error codes that <b>LZOpenFile</b> can return upon 
@@ -318,7 +318,7 @@ The maximum number of open compressed files has been exceeded or local memory ca
 If the <i>wStyle</i> parameter is the <b>OF_READ</b> flag (or 
     <b>OF_READ</b> and any of the <b>OF_SHARE_*</b> flags) and the file is 
     compressed, <b>LZOpenFile</b> calls the 
-    <a href="https://msdn.microsoft.com/53e6345a-e303-4ef6-8b4d-b9a3fcacfb13">LZInit</a> function, which performs the required initialization for 
+    <a href="https://docs.microsoft.com/windows/desktop/api/lzexpand/nf-lzexpand-lzinit">LZInit</a> function, which performs the required initialization for 
     the decompression operations.
 
 The handle this function returns is compatible only with the functions in Lz32.dll; it should not be used 
@@ -332,7 +332,7 @@ If <b>LZOpenFile</b> is unable to open the file specified by
     file name extension to indicate that the file is compressed. For example, "MyProgram.exe" 
     compressed might be named "MyProgram.ex_". To determine the name of the file opened (if any), 
     examine the <b>szPathName</b> member of the 
-    <a href="https://msdn.microsoft.com/195581e5-e962-4756-a33c-b1e898b5b0e7">OFSTRUCT</a> structure in the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_ofstruct">OFSTRUCT</a> structure in the 
     <i>lpReOpenBuf</i> parameter.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
@@ -406,27 +406,27 @@ CsvFs will do redirected IO for compressed files.
 
 
 
-<a href="https://msdn.microsoft.com/35a9fb47-5a73-479c-8fe0-5a2b07705536">File Compression and Decompression</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-compression-and-decompression">File Compression and Decompression</a>
 
 
 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/ba535eb7-8d9b-4290-af1f-495e9737cd38">LZClose</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lzexpand/nf-lzexpand-lzclose">LZClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/53e6345a-e303-4ef6-8b4d-b9a3fcacfb13">LZInit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lzexpand/nf-lzexpand-lzinit">LZInit</a>
 
 
 
-<a href="https://msdn.microsoft.com/15c6829f-2e24-4299-a2fa-a5737ec73ba9">LZRead</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lzexpand/nf-lzexpand-lzread">LZRead</a>
 
 
 
-<a href="https://msdn.microsoft.com/195581e5-e962-4756-a33c-b1e898b5b0e7">OFSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_ofstruct">OFSTRUCT</a>
  
 
  

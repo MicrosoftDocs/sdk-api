@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>EVENT_FILTER_EVENT_ID</b> structure defines event IDs used in an <a href="https://msdn.microsoft.com/9318868a-29d8-4a5e-9579-c06a7c0fd78f">EVENT_FILTER_DESCRIPTOR</a> structure for an  event ID or stack walk filter. 
+The <b>EVENT_FILTER_EVENT_ID</b> structure defines event IDs used in an <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structure for an  event ID or stack walk filter. 
 
 
 ## -struct-fields
@@ -83,7 +83,7 @@ An array of event IDs.
 
 
 
-The <b>EVENT_FILTER_EVENT_ID</b> structure is used in the <a href="https://msdn.microsoft.com/9318868a-29d8-4a5e-9579-c06a7c0fd78f">EVENT_FILTER_DESCRIPTOR</a> structure when the <b>Type</b> member of the <b>EVENT_FILTER_DESCRIPTOR</b> is set to  <b>EVENT_FILTER_TYPE_EVENT_ID</b> or <b>EVENT_FILTER_TYPE_STACKWALK</b>.   This corresponds to an event ID filter (one of the possible scope filters) or a stack walk filter. The <b>EVENT_FILTER_EVENT_ID</b> structure contains an array of event IDs and a Boolean value that indicates if filtering is enabled or disabled for the specified event IDs.
+The <b>EVENT_FILTER_EVENT_ID</b> structure is used in the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structure when the <b>Type</b> member of the <b>EVENT_FILTER_DESCRIPTOR</b> is set to  <b>EVENT_FILTER_TYPE_EVENT_ID</b> or <b>EVENT_FILTER_TYPE_STACKWALK</b>.   This corresponds to an event ID filter (one of the possible scope filters) or a stack walk filter. The <b>EVENT_FILTER_EVENT_ID</b> structure contains an array of event IDs and a Boolean value that indicates if filtering is enabled or disabled for the specified event IDs.
 
 
 
@@ -93,15 +93,15 @@ The <b>EVENT_FILTER_EVENT_ID</b> structure is used in the <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/bc7cf886-f763-428a-9e75-031e8df26554">ENABLE_TRACE_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/9318868a-29d8-4a5e-9579-c06a7c0fd78f">EVENT_FILTER_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/3aceffb6-614f-4cad-bbec-f181f0cbdbff">EnableTraceEx2</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a>
  
 
  

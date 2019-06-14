@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DS_REPL_ATTR_META_DATA_BLOB</b> structure is used to contain replication state data for an object attribute. This structure is similar to the <a href="https://msdn.microsoft.com/392457b7-df69-44d0-82b2-8381d5877354">DS_REPL_ATTR_META_DATA_2</a> structure, but is obtained from the <a href="https://msdn.microsoft.com/32bc9909-e476-423c-bbb5-3978234457fd">Lightweight Directory Access Protocol API</a> functions when obtaining binary data for the <b>msDS-ReplAttributeMetaData</b> attribute.
+The <b>DS_REPL_ATTR_META_DATA_BLOB</b> structure is used to contain replication state data for an object attribute. This structure is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_attr_meta_data_2">DS_REPL_ATTR_META_DATA_2</a> structure, but is obtained from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api">Lightweight Directory Access Protocol API</a> functions when obtaining binary data for the <b>msDS-ReplAttributeMetaData</b> attribute.
 
 
 ## -struct-fields
@@ -84,7 +84,7 @@ Contains the update sequence number (USN) on the originating server at which the
 
 ### -field usnLocalChange
 
-Contains the USN on the destination server (the server from which the <a href="https://msdn.microsoft.com/b7ab22fe-ed92-4213-9b66-2dd5526286fa">DsReplicaGetInfo</a> function retrieved the metadata) at which the last change to this attribute was applied. This value typically is different on all servers.
+Contains the USN on the destination server (the server from which the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfow">DsReplicaGetInfo</a> function retrieved the metadata) at which the last change to this attribute was applied. This value typically is different on all servers.
 
 
 ### -field oszLastOriginatingDsaDN
@@ -97,11 +97,11 @@ Contains the offset, in bytes, from the address of this structure  to  a null-te
 
 
 
-<a href="https://msdn.microsoft.com/392457b7-df69-44d0-82b2-8381d5877354">DS_REPL_ATTR_META_DATA_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_attr_meta_data_2">DS_REPL_ATTR_META_DATA_2</a>
 
 
 
-<a href="https://msdn.microsoft.com/32bc9909-e476-423c-bbb5-3978234457fd">Lightweight Directory Access Protocol API</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api">Lightweight Directory Access Protocol API</a>
  
 
  

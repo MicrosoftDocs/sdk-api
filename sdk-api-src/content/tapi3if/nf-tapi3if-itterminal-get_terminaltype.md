@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>get_TerminalType</b> method gets the 
-<a href="https://msdn.microsoft.com/43d08be3-c09b-4c74-ad71-6b452850d2e0">TERMINAL_TYPE</a> of the terminal.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-terminal_type">TERMINAL_TYPE</a> of the terminal.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param pType [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/43d08be3-c09b-4c74-ad71-6b452850d2e0">TERMINAL_TYPE</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-terminal_type">TERMINAL_TYPE</a>.
 
 
 ## -returns
@@ -120,19 +120,19 @@ Insufficient memory exists to perform the operation.
 
 
 
-<a href="https://msdn.microsoft.com/38bc30fa-3e4e-417a-9d04-931ba2451fa4">ITTerminal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a>
 
 
 
-<a href="https://msdn.microsoft.com/43d08be3-c09b-4c74-ad71-6b452850d2e0">TERMINAL_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-terminal_type">TERMINAL_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d96f229-76c0-46a3-bc4b-6f558b9956c6">Terminal Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object">Terminal Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/08320d1c-1400-4746-b526-74b0789c5fc0">Terminal Object Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object-interfaces">Terminal Object Interfaces</a>
  
 
  

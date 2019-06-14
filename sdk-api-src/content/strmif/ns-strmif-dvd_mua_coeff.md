@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <code>DVD_MUA_Coeff</code> structure defines the mixing coefficients for one channel in a multichannel audio stream. The <a href="https://msdn.microsoft.com/8aba7e5a-62ec-4ef5-821f-cfef8cf7d93d">DVD_MultichannelAudioAttributes</a> structure contains an array of eight <code>DVD_MUA_Coeff</code> structures, one for each channel in the stream.
+The <code>DVD_MUA_Coeff</code> structure defines the mixing coefficients for one channel in a multichannel audio stream. The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_multichannelaudioattributes">DVD_MultichannelAudioAttributes</a> structure contains an array of eight <code>DVD_MUA_Coeff</code> structures, one for each channel in the stream.
 
 
 
@@ -76,7 +76,7 @@ The mixing coefficient for this channel to channel 1.
 
 
 
-The information contained in this structure reflects the mixing coefficients as authored on the digital video disc (DVD). An application cannot modify these values or otherwise use them unless it is also decoding the audio. In the typical DVD filter graph, the <a href="https://msdn.microsoft.com/3b2c01a2-d52c-4497-8fc9-d1113e8507e8">DVD Navigator</a> filter does not send this information to the decoder.
+The information contained in this structure reflects the mixing coefficients as authored on the digital video disc (DVD). An application cannot modify these values or otherwise use them unless it is also decoding the audio. In the typical DVD filter graph, the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> filter does not send this information to the decoder.
 
 The alpha coefficient is used to mix to audio channel 0 and the beta coefficient is used to mix to audio channel 1. In general, the following formula calculates the mixing coefficients.
 
@@ -101,15 +101,15 @@ Audio channel 1 = coeff[0].beta * value[0]  + coeff[1].beta * value[1] + ...
 
 
 
-<a href="https://msdn.microsoft.com/a4365c05-718e-4d48-bb2c-a13a609df82f">DVD_AudioAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_audioattributes">DVD_AudioAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/df830598-f484-483d-a0dc-e6bd9debbe53">DVD_MUA_MixingInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_mua_mixinginfo">DVD_MUA_MixingInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
  
 
  

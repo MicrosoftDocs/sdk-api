@@ -63,9 +63,9 @@ Check the validity of pipeline state.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-returnvalues">Direct3D 10 Return Codes</a>.
 
 
 
@@ -74,7 +74,7 @@ This method returns one of the following <a href="https://msdn.microsoft.com/en-
 
 
 
-When the <a href="https://msdn.microsoft.com/en-us/library/Bb205068(v=VS.85).aspx">debug layer</a> is turned on all draw functions will do this operation.
+When the <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-api-features-layers">debug layer</a> is turned on all draw functions will do this operation.
 
 
 
@@ -84,7 +84,7 @@ When the <a href="https://msdn.microsoft.com/en-us/library/Bb205068(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173516(v=VS.85).aspx">ID3D10Debug Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/nn-d3d10sdklayers-id3d10debug">ID3D10Debug Interface</a>
  
 
  

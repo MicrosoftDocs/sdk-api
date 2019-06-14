@@ -80,7 +80,7 @@ Optional pointer to a variable that contains a table event identifier. You can u
 
 ### -param ppETT [out]
 
-Receives an <a href="https://msdn.microsoft.com/ae52e81e-4de1-480c-82bf-c9629064970c">IATSC_ETT</a> interface pointer. The caller must release the interface.
+Receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsc_ett">IATSC_ETT</a> interface pointer. The caller must release the interface.
 
 
 ## -returns
@@ -169,7 +169,7 @@ The method fails if the filter does not receive a matching table within a predet
 
 
 
-<a href="https://msdn.microsoft.com/dbe922b3-b843-4eaa-807d-5608cfbb9686">IAtscPsipParser Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatscpsipparser">IAtscPsipParser Interface</a>
  
 
  

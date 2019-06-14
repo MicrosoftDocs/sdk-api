@@ -63,13 +63,13 @@ The <code>GetTotalTitleTime</code> method retrieves the total playback time for 
 
 ### -param pTotalTime [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/8f2990f6-a8f5-4b16-ae30-d51ea55496ea">DVD_HMSF_TIMECODE</a> structure that receives the total time in hours, minutes, seconds, and frames.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_hmsf_timecode">DVD_HMSF_TIMECODE</a> structure that receives the total time in hours, minutes, seconds, and frames.
           
 
 
 ### -param ulTimeCodeFlags [out]
 
-Receives a <a href="https://msdn.microsoft.com/2dc5ce97-12a4-43a0-b897-14fea32d8efc">DVD_TIMECODE_FLAGS</a> value indicating the frame rate at which the disc was authored to play. Specify <b>NULL</b> if you don't want to receive the timecode information.
+Receives a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagdvd_timecode_flags">DVD_TIMECODE_FLAGS</a> value indicating the frame rate at which the disc was authored to play. Specify <b>NULL</b> if you don't want to receive the timecode information.
           
 
 
@@ -113,7 +113,7 @@ Invalid argument.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/3b2c01a2-d52c-4497-8fc9-d1113e8507e8">DVD Navigator</a> is not in the title domain.
+The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> is not in the title domain.
 
 </td>
 </tr>
@@ -150,15 +150,15 @@ This method is for use only with <i>one sequential video titles</i>, which are t
 
 
 
-<a href="https://msdn.microsoft.com/6f41e0f1-e550-4ca6-9a80-ce4d498289e2">DVD Applications</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/da30d3dc-feec-4f54-b2db-a771ce404286">IDvdInfo2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
  
 
  

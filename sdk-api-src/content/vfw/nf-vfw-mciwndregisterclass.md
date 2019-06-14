@@ -80,7 +80,7 @@ Returns zero if successful.
 
 
 
-After registering the MCI window class, use the <b>CreateWindow</b> or <b>CreateWindowEx</b> functions to create an MCIWnd window. If your application uses this function, it does not need to use the <a href="https://msdn.microsoft.com/7a4a22e1-6b04-4d46-8427-738181769f5b">MCIWndCreate</a> function.
+After registering the MCI window class, use the <b>CreateWindow</b> or <b>CreateWindowEx</b> functions to create an MCIWnd window. If your application uses this function, it does not need to use the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-mciwndcreatea">MCIWndCreate</a> function.
 
 
 

@@ -80,8 +80,8 @@ The session identifier is an opaque value that uniquely identifies a backup or r
 
 As a best practice, writers and requesters should include the session ID in all diagnostics messages used for event logging and tracing.
 
-If a writer's event handler (such as <a href="https://msdn.microsoft.com/2aff5e87-4053-46a0-a7fb-7411e76166ba">CVssWriter::OnFreeze</a>) calls this method, it must do so in the same thread that called the event handler. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384993(v=VS.85).aspx">Writer Event Handling</a>.
+If a writer's event handler (such as <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onfreeze">CVssWriter::OnFreeze</a>) calls this method, it must do so in the same thread that called the event handler. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/VSS/writers">Writer Event Handling</a>.
 
 
 
@@ -91,11 +91,11 @@ If a writer's event handler (such as <a href="https://msdn.microsoft.com/2aff5e8
 
 
 
-<a href="https://msdn.microsoft.com/13cdeae3-dece-42ae-8bff-037ee3e4cec4">CVssWriterEx2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex2">CVssWriterEx2</a>
 
 
 
-<a href="https://msdn.microsoft.com/ad7e548a-9f7a-4e35-9811-edb68458a1df">IVssBackupComponentsEx3::GetSessionId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex3-getsessionid">IVssBackupComponentsEx3::GetSessionId</a>
  
 
  

@@ -81,15 +81,15 @@ Blue gain.
 
 
 
-<a href="https://msdn.microsoft.com/058d70c4-a29c-4916-a4b9-911db5863363">GetMonitorRedGreenOrBlueGain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-getmonitorredgreenorbluegain">GetMonitorRedGreenOrBlueGain</a>
 
 
 
-<a href="https://msdn.microsoft.com/d6ab74af-0ac4-4dfe-bbf8-21b8339d2826">Monitor Configuration Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/Monitor/monitor-configuration-enumeration-types">Monitor Configuration Enumeration Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8814478-1129-421e-999c-f59321db69b9">SetMonitorRedGreenOrBlueGain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-setmonitorredgreenorbluegain">SetMonitorRedGreenOrBlueGain</a>
  
 
  

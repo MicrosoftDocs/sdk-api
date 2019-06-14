@@ -68,12 +68,12 @@ Identifier for the new stream. The value is arbitrary but must be unique.
 
 ### -param pMediaType [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface, specifying the media type for the stream. This parameter can be <b>NULL</b>.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface, specifying the media type for the stream. This parameter can be <b>NULL</b>.
 
 
 ### -param ppStreamSink [out]
 
-Receives a pointer to the new stream sink's <a href="https://msdn.microsoft.com/fe403cab-b901-4c8e-a23c-788ee65c4689">IMFStreamSink</a> interface. The caller must release the interface.
+Receives a pointer to the new stream sink's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfstreamsink">IMFStreamSink</a> interface. The caller must release the interface.
 
 
 ## -returns
@@ -116,7 +116,7 @@ The specified stream identifier is not valid.
 </dl>
 </td>
 <td width="60%">
-The media sink's <a href="https://msdn.microsoft.com/acda4e37-2dd0-4322-90fc-8f48d6842054">Shutdown</a> method has been called.
+The media sink's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown">Shutdown</a> method has been called.
 
 </td>
 </tr>
@@ -152,9 +152,9 @@ This media sink has a fixed set of stream sinks. New stream sinks cannot be adde
 
 
 
-Not all media sinks support this method. If the media sink does not support this method, the <a href="https://msdn.microsoft.com/a7e8e2af-8b10-47f5-8b09-a7147ace5ba1">IMFMediaSink::GetCharacteristics</a> method returns the MEDIASINK_FIXED_STREAMS flag.
+Not all media sinks support this method. If the media sink does not support this method, the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-getcharacteristics">IMFMediaSink::GetCharacteristics</a> method returns the MEDIASINK_FIXED_STREAMS flag.
 
-If <i>pMediaType</i> is <b>NULL</b>, use the <a href="https://msdn.microsoft.com/5b937bf7-4f86-4dc1-a4d5-7e724dcf5b36">IMFMediaTypeHandler</a> interface to set the media type. Call <a href="https://msdn.microsoft.com/819d06b1-6b52-4496-bed8-a08b8f0b6153">IMFStreamSink::GetMediaTypeHandler</a> to get a pointer to the interface.
+If <i>pMediaType</i> is <b>NULL</b>, use the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediatypehandler">IMFMediaTypeHandler</a> interface to set the media type. Call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfstreamsink-getmediatypehandler">IMFStreamSink::GetMediaTypeHandler</a> to get a pointer to the interface.
 
 
 
@@ -164,11 +164,11 @@ If <i>pMediaType</i> is <b>NULL</b>, use the <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/103e6fd8-a18f-480a-8261-099623014659">IMFMediaSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasink">IMFMediaSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0fbce1b-0a16-4449-9eca-906fd9056a1c">Media Sinks</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-sinks">Media Sinks</a>
  
 
  

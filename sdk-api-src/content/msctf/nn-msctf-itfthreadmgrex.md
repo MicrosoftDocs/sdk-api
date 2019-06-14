@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ITfThreadMgrEx</b> interface is used by the application to activate the textservices with some flags. ITfThreadMgrEx can be obtained by QI from <a href="https://msdn.microsoft.com/3a2ba59c-3565-4f54-ac10-923dcb4882cb">ITfThreadMgr</a>.
+The <b>ITfThreadMgrEx</b> interface is used by the application to activate the textservices with some flags. ITfThreadMgrEx can be obtained by QI from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfThreadMgrEx</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfThreadMgrEx</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfThreadMgrEx</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfThreadMgrEx</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfThreadMgrEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a3cecc02-5228-4912-a609-f9f3334e11b7">ActivateEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgrex-activateex">ActivateEx</a>
 </td>
 <td align="left" width="63%">
 Activates TSF for the calling thread.
@@ -78,7 +78,7 @@ Activates TSF for the calling thread.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2b15ddc3-0719-48cf-95fc-9c6d1e15fd4f">GetActiveFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgrex-getactiveflags">GetActiveFlags</a>
 </td>
 <td align="left" width="63%">
 Gets the active flags of the calling thread.
@@ -93,7 +93,7 @@ Gets the active flags of the calling thread.
 
 
 
-<a href="https://msdn.microsoft.com/3a2ba59c-3565-4f54-ac10-923dcb4882cb">ITfThreadMgr
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr
       </a>
  
 

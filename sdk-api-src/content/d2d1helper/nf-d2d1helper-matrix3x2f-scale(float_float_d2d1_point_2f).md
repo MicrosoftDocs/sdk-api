@@ -73,7 +73,7 @@ The y-axis scale factor of the scale transformation.
 
 ### -param center
 
-Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 
 The point about which the scale is performed.
 
@@ -82,7 +82,7 @@ The point about which the scale is performed.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/54b9e75c-6316-44d3-b725-2039f39eeda5">Matrix3x2F</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a></b>
 
 The new scale transformation.
 
@@ -95,7 +95,7 @@ The new scale transformation.
 
 This method creates a scale transformation for the specified <i>centerPoint</i> and the 
 	 x-axis and y-axis scale factors. If you prefer to create a  
-	 <a href="https://msdn.microsoft.com/c2fd41fb-72b3-418b-ad87-65549b04657d">D2D1_SIZE_F</a> structure to store the scale factors, call the other <a href="https://msdn.microsoft.com/c2aa64eb-c69a-4938-91de-1541f1c7844f">Scale</a> method. 
+	 <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-size-f">D2D1_SIZE_F</a> structure to store the scale factors, call the other <a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-scale">Scale</a> method. 
 
 The following illustration shows the size of the square increased 
 	 to 130% in both dimensions.
@@ -103,7 +103,7 @@ The following illustration shows the size of the square increased
 
 <img alt="Illustration of a square scaled by 130% in the x-direction and y-direction" src="images/scale_ovw.png"/>
 
- For an example, see <a href="https://msdn.microsoft.com/3da749e2-50d5-4f4e-9ccd-8c230efe3436">How to Scale an Object</a>.
+ For an example, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-scale">How to Scale an Object</a>.
 
 
 
@@ -113,7 +113,7 @@ The following illustration shows the size of the square increased
 
 
 
-<a href="https://msdn.microsoft.com/54b9e75c-6316-44d3-b725-2039f39eeda5">Matrix3x2F</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a>
  
 
  

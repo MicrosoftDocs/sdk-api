@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns the required data structure sizes for the <a href="https://msdn.microsoft.com/en-us/library/Dd372127(v=VS.85).aspx">GetGamutBoundaryMesh</a> function.
+Returns the required data structure sizes for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcsplugin/nf-wcsplugin-idevicemodelplugin-getgamutboundarymesh">GetGamutBoundaryMesh</a> function.
 
 
 ## -parameters
@@ -84,7 +84,7 @@ If this function fails, the return value is E_FAIL.
 
 
 
-This function is called by the <a href="https://msdn.microsoft.com/8a40215c-6c37-4346-a669-79b7871f265e">CreateMultiProfileTransform</a> function.
+This function is called by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/createmultiprofiletransform">CreateMultiProfileTransform</a> function.
 
 
 
@@ -94,15 +94,15 @@ This function is called by the <a href="https://msdn.microsoft.com/8a40215c-6c37
 
 
 
-<a href="https://msdn.microsoft.com/a0623917-0b63-4546-a71a-1e9efa9fe8e5">Basic Color Management Concepts</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
 
 
 
-<a href="https://msdn.microsoft.com/ee9e9502-5514-4070-95fa-265674a1dde7">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions//dd316902(v=vs.85)">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/90541ec2-c0ab-4f98-906b-3e58f8f5cc03">IDeviceModelPlugIn</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcsplugin/nn-wcsplugin-idevicemodelplugin">IDeviceModelPlugIn</a>
  
 
  

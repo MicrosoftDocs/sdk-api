@@ -52,8 +52,8 @@ ms.custom: 19H1
 
 
 The following structure contains information about a network resource. It is used by several of the network provider functions, including 
-<a href="https://msdn.microsoft.com/d8fa7336-3ede-4445-b2e8-1a3efcae22ff">NPOpenEnum</a> 
-and <a href="https://msdn.microsoft.com/37a3988c-18ee-400a-85c3-cc3cbdf015ea">NPAddConnection</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npopenenum">NPOpenEnum</a> 
+and <a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npaddconnection">NPAddConnection</a>.
 
 
 ## -struct-fields
@@ -236,9 +236,9 @@ A bitmask that indicates how you can enumerate information about the resource. I
 </td>
 <td width="60%">
 You can connect to the resource by calling 
-<a href="https://msdn.microsoft.com/37a3988c-18ee-400a-85c3-cc3cbdf015ea">NPAddConnection</a>. If <b>dwType</b> is RESOURCETYPE_DISK, then, after you have connected to the resource, you can use the file system APIs, such as 
-<a href="https://msdn.microsoft.com/02fc92c4-582d-4c9f-a811-b5c839e9fffa">FindFirstFile</a>, and 
-<a href="https://msdn.microsoft.com/db7acb83-2da6-40bf-9962-5cfe54e257a5">FindNextFile</a>, to enumerate any files and directories the resource contains.
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npaddconnection">NPAddConnection</a>. If <b>dwType</b> is RESOURCETYPE_DISK, then, after you have connected to the resource, you can use the file system APIs, such as 
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFile</a>, and 
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a>, to enumerate any files and directories the resource contains.
 
 </td>
 </tr>
@@ -249,14 +249,14 @@ You can connect to the resource by calling
 </td>
 <td width="60%">
 The resource is a container for other resources that can be enumerated by means of the 
-<a href="https://msdn.microsoft.com/d8fa7336-3ede-4445-b2e8-1a3efcae22ff">NPOpenEnum</a>, 
-<a href="https://msdn.microsoft.com/286a6865-478a-41e5-a48f-42f9fc117f14">NPEnumResource</a>, and 
-<a href="https://msdn.microsoft.com/fc6d5fe1-0953-4912-bdbd-b1372597f61d">NPCloseEnum</a> functions. 
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npopenenum">NPOpenEnum</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npenumresource">NPEnumResource</a>, and 
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npcloseenum">NPCloseEnum</a> functions. 
 
 
 
 
-The container may, however, be empty at the time  the enumeration is made. In other words, the first call to <a href="https://msdn.microsoft.com/286a6865-478a-41e5-a48f-42f9fc117f14">NPEnumResource</a> may return WN_NO_MORE_ENTRIES.
+The container may, however, be empty at the time  the enumeration is made. In other words, the first call to <a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npenumresource">NPEnumResource</a> may return WN_NO_MORE_ENTRIES.
 
 </td>
 </tr>
@@ -277,7 +277,7 @@ If <b>dwScope</b> is not set to RESOURCE_CONNECTED, this field is undefined.
 ### -field lpRemoteName
 
 If the enumerated item is a network resource, this field contains a remote network name. This name may be then passed to 
-<a href="https://msdn.microsoft.com/37a3988c-18ee-400a-85c3-cc3cbdf015ea">NPAddConnection</a> to make a network connection if <b>dwUsage</b> is set to RESOURCEUSAGE_CONNECTABLE. If the enumerated item is a current connection, this field will refer to the remote network name that <b>lpLocalName</b> is connected to.
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npaddconnection">NPAddConnection</a> to make a network connection if <b>dwUsage</b> is set to RESOURCEUSAGE_CONNECTABLE. If the enumerated item is a current connection, this field will refer to the remote network name that <b>lpLocalName</b> is connected to.
 
 
 ### -field lpComment

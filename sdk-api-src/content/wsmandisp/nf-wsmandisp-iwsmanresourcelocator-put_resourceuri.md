@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">resource URI</a> of the requested resource. This property can contain only the path, not a query string for specific instances.
+The <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">resource URI</a> of the requested resource. This property can contain only the path, not a query string for specific instances.
 
 This property is read/write.
 
@@ -65,15 +65,15 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/0904b7eb-d4ce-46a7-bf58-452e7c0d41e9">ResourceLocator</a> is the corresponding scripting object for the <a href="https://msdn.microsoft.com/7b3dcb53-d02c-4ba6-973d-1493ba442387">IWSManResourceLocator</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/WinRM/resourcelocator">ResourceLocator</a> is the corresponding scripting object for the <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a> interface.
 
 The following is an example of a proper path for  <b>ResourceURI</b>.
 
 <pre class="syntax" xml:space="preserve"><code>"http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service"</code></pre>
-The following path does not work because it  contains a key for a specific instance. Use the <a href="https://msdn.microsoft.com/2f6c1169-8e2a-4919-9a1a-856dbe41a9ce">IWSManResourceLocator::AddSelector</a> method to specify a particular instance.
+The following path does not work because it  contains a key for a specific instance. Use the <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanresourcelocator-addselector">IWSManResourceLocator::AddSelector</a> method to specify a particular instance.
 
 <pre class="syntax" xml:space="preserve"><code>"http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service?Name=winmgmt"</code></pre>
-The corresponding scripting method is <a href="https://msdn.microsoft.com/adb1e08a-290f-4a23-a6e4-d7567a6b7eee">ResourceLocator.ResourceURI</a>.
+The corresponding scripting method is <a href="https://docs.microsoft.com/windows/desktop/WinRM/resourcelocator-resourceuri">ResourceLocator.ResourceURI</a>.
 
 
 
@@ -83,11 +83,11 @@ The corresponding scripting method is <a href="https://msdn.microsoft.com/adb1e0
 
 
 
-<a href="https://msdn.microsoft.com/7b3dcb53-d02c-4ba6-973d-1493ba442387">IWSManResourceLocator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a>
 
 
 
-<a href="https://msdn.microsoft.com/adb1e08a-290f-4a23-a6e4-d7567a6b7eee">ResourceLocator.ResourceURI</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinRM/resourcelocator-resourceuri">ResourceLocator.ResourceURI</a>
  
 
  

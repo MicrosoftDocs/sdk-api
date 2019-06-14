@@ -59,7 +59,7 @@ Gets the socket address information.
 
 ### -param pSockAddr [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/dfd84b91-0a94-4fe6-b8d2-18562afb9c24">SOCKADDR_STORAGE</a> structure that contains the address information.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms740504(v=vs.85)">SOCKADDR_STORAGE</a> structure that contains the address information.
 
 
 ## -returns
@@ -117,7 +117,7 @@ The method failed.
 
 
 
-<a href="https://msdn.microsoft.com/b666002f-2cd6-4e96-b055-34d801c1982e">IWSDUdpAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpaddress">IWSDUdpAddress</a>
  
 
  

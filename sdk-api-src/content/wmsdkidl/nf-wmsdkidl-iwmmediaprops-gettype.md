@@ -113,7 +113,7 @@ The <i>pguidType</i> parameter is <b>NULL</b>.
 
 These media types are used by the writer, reader, and profile objects to identify the properties of a media stream that are specific to the media type.
 
-<b>GetType</b> is provided for convenience; it returns the same value as the <b>majortype</b> member of <a href="https://msdn.microsoft.com/en-us/library/Dd757963(v=VS.85).aspx">WM_MEDIA_TYPE</a>.
+<b>GetType</b> is provided for convenience; it returns the same value as the <b>majortype</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmmediatype">WM_MEDIA_TYPE</a>.
 
 
 
@@ -123,19 +123,19 @@ These media types are used by the writer, reader, and profile objects to identif
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757228(v=VS.85).aspx">IWMMediaProps Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops">IWMMediaProps Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757229(v=VS.85).aspx">IWMMediaProps::GetMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmediaprops-getmediatype">IWMMediaProps::GetMediaType</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798711(v=VS.85).aspx">IWMVideoMediaProps Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmvideomediaprops">IWMVideoMediaProps Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/00dcbb20-09ed-44c5-992c-20f3d17ad47c">Media Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/media-types">Media Types</a>
  
 
  

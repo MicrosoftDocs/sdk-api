@@ -59,7 +59,7 @@ The <b>NCryptVerifySignature</b> function verifies that the specified signature 
 
 ### -param hKey [in]
 
-The handle of the key to use to decrypt the signature. This must be an identical key or the public key portion of the key pair used to sign the data with the <a href="https://msdn.microsoft.com/7404e37a-d7c6-49ed-b951-6081dd2b921a">NCryptSignHash</a> function.
+The handle of the key to use to decrypt the signature. This must be an identical key or the public key portion of the key pair used to sign the data with the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptsignhash">NCryptSignHash</a> function.
 
 
 ### -param pPaddingInfo [in, optional]
@@ -79,12 +79,12 @@ The size, in bytes, of the <i>pbHash</i> buffer.
 
 ### -param pbSignature [in]
 
-The address of a buffer that contains the signed hash of the data. The <a href="https://msdn.microsoft.com/7404e37a-d7c6-49ed-b951-6081dd2b921a">NCryptSignHash</a> function is used to create the signature. The <i>cbSignature</i> parameter contains the size of this buffer.
+The address of a buffer that contains the signed hash of the data. The <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptsignhash">NCryptSignHash</a> function is used to create the signature. The <i>cbSignature</i> parameter contains the size of this buffer.
 
 
 ### -param cbSignature [in]
 
-The size, in bytes, of the <i>pbSignature</i> buffer. The <a href="https://msdn.microsoft.com/7404e37a-d7c6-49ed-b951-6081dd2b921a">NCryptSignHash</a> function is used to create the signature.
+The size, in bytes, of the <i>pbSignature</i> buffer. The <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptsignhash">NCryptSignHash</a> function is used to create the signature.
 
 
 ### -param dwFlags [in]
@@ -109,7 +109,7 @@ If the key is an asymmetric key, this can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-The PKCS1 padding scheme was used when the signature was created. The <i>pPaddingInfo</i> parameter is a pointer to a <a href="https://msdn.microsoft.com/920fa461-5b7e-4429-972d-e7c83fb62c64">BCRYPT_PKCS1_PADDING_INFO</a> structure.
+The PKCS1 padding scheme was used when the signature was created. The <i>pPaddingInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_pkcs1_padding_info">BCRYPT_PKCS1_PADDING_INFO</a> structure.
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ The PKCS1 padding scheme was used when the signature was created. The <i>pPaddin
 </dl>
 </td>
 <td width="60%">
-The Probabilistic Signature Scheme (PSS) padding scheme was used when the signature was created. The <i>pPaddingInfo</i> parameter is a pointer to a <a href="https://msdn.microsoft.com/28605b34-b1e1-4460-a8f0-b0fe9f9b94d4">BCRYPT_PSS_PADDING_INFO</a> structure.
+The Probabilistic Signature Scheme (PSS) padding scheme was used when the signature was created. The <i>pPaddingInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_pss_padding_info">BCRYPT_PSS_PADDING_INFO</a> structure.
 
 </td>
 </tr>
@@ -228,7 +228,7 @@ A service must not call this function from its <a href="http://go.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/7404e37a-d7c6-49ed-b951-6081dd2b921a">NCryptSignHash</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptsignhash">NCryptSignHash</a>
  
 
  

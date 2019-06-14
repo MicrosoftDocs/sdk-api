@@ -74,7 +74,7 @@ A pointer to the LSN of the next record (the record immediately following the re
 
 ### -param ppbData [out]
 
-A pointer to a variable that will contain a pointer to the record data on return. The memory for this data is allocated by <b>ReadRecord</b> and freed by the caller (see <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>). This parameter is <b>NULL</b> if an error occurs.
+A pointer to a variable that will contain a pointer to the record data on return. The memory for this data is allocated by <b>ReadRecord</b> and freed by the caller (see <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>). This parameter is <b>NULL</b> if an error occurs.
 
 
 ### -param pcbData [out]
@@ -111,7 +111,7 @@ The record was successfully read from the log.
 </dl>
 </td>
 <td width="60%">
-<i>lsnToRead</i> is outside of the current limits of the log. See <a href="https://msdn.microsoft.com/06238436-6807-4588-9af9-03eb4c12f4e1">ILog::GetLogLimits</a>.
+<i>lsnToRead</i> is outside of the current limits of the log. See <a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nf-txlogpub-ilog-getloglimits">ILog::GetLogLimits</a>.
 
 </td>
 </tr>
@@ -147,10 +147,10 @@ The record was not returned due to a lack of memory.
 
 
 
-Although records appended to the log using <a href="https://msdn.microsoft.com/e739acb5-4d93-4871-8b35-54d45138fe0f">ILog::AppendRecord</a> may be concatenated from multiple BLOBs, <b>ReadRecord</b> returns the record as a single opaque blob of data. <a href="https://msdn.microsoft.com/93f2be99-0799-4047-ae4e-62f0e74d15c3">ILog</a> provides no method to extract individual BLOBs from the record. It is the responsibility of the caller to parse the data in records returned by <b>ReadRecord</b>.
+Although records appended to the log using <a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nf-txlogpub-ilog-appendrecord">ILog::AppendRecord</a> may be concatenated from multiple BLOBs, <b>ReadRecord</b> returns the record as a single opaque blob of data. <a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a> provides no method to extract individual BLOBs from the record. It is the responsibility of the caller to parse the data in records returned by <b>ReadRecord</b>.
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-If the log contains very large records, this method may fail because <b>ReadRecord</b> was unable to allocate sufficient memory for the record data. If the size of records is bounded or if you only need an initial part of the record, it may be more efficient to call <a href="https://msdn.microsoft.com/4a2b8529-b342-4491-a7ce-db4150223682">ILog::ReadRecordPrefix</a>.
+If the log contains very large records, this method may fail because <b>ReadRecord</b> was unable to allocate sufficient memory for the record data. If the size of records is bounded or if you only need an initial part of the record, it may be more efficient to call <a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nf-txlogpub-ilog-readrecordprefix">ILog::ReadRecordPrefix</a>.
 
 
 
@@ -160,7 +160,7 @@ If the log contains very large records, this method may fail because <b>ReadReco
 
 
 
-<a href="https://msdn.microsoft.com/93f2be99-0799-4047-ae4e-62f0e74d15c3">ILog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a>
  
 
  

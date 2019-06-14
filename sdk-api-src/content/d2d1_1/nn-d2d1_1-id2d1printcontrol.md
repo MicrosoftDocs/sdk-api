@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Converts <a href="https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b">Direct2D</a> primitives stored in an <a href="https://msdn.microsoft.com/30b89f53-d20b-4070-abcd-ef95813130d1">ID2D1CommandList</a> into a fixed page representation.  The print sub-system then consumes the primitives.
+Converts <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-portal">Direct2D</a> primitives stored in an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandlist">ID2D1CommandList</a> into a fixed page representation.  The print sub-system then consumes the primitives.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1PrintControl</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID2D1PrintControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1PrintControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1PrintControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1PrintControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6B157EE8-36C8-4054-9975-3D3B82B3D013">AddPage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1printcontrol-addpage">AddPage</a>
 </td>
 <td align="left" width="63%">
 Converts Direct2D primitives in the passed-in command list into a fixed page representation for use  by the print subsystem. 
@@ -78,7 +78,7 @@ Converts Direct2D primitives in the passed-in command list into a fixed page rep
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2ADCA373-C461-4737-A292-AF29977B148C">Close</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1printcontrol-close">Close</a>
 </td>
 <td align="left" width="63%">
 Passes all remaining resources to the print sub-system, then clean up and close the current print job. 
@@ -93,7 +93,7 @@ Passes all remaining resources to the print sub-system, then clean up and close 
 
 
 
-<a href="https://msdn.microsoft.com/C51ACCDE-B205-4F79-A2FD-D112BAAD1616">Printing and Command Lists</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/printing-and-command-lists">Printing and Command Lists</a>
  
 
  

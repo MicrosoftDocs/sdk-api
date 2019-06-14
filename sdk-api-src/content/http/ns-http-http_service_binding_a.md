@@ -59,7 +59,7 @@ The <b>HTTP_SERVICE_BINDING_A</b> structure provides  Service Principle Name (SP
 
 ### -field Base
 
-An <a href="https://msdn.microsoft.com/c9d3ed21-8987-4b98-99a1-dc1e776b0dab">HTTP_SERVICE_BINDING_BASE</a> value,  the <b>Type</b> member of which must be set to <b>HttpServiceBindingTypeA</b>. 
+An <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_binding_base">HTTP_SERVICE_BINDING_BASE</a> value,  the <b>Type</b> member of which must be set to <b>HttpServiceBindingTypeA</b>. 
 
 
 ### -field Buffer

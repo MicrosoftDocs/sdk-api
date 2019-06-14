@@ -55,7 +55,7 @@ Alternatively, you can use the
 Rebase tool. This tool is available in Visual Studio and the <a href="Http://go.microsoft.com/fwlink/p/?linkid=84091">Windows SDK</a>.
 
 Note that this function is implemented as a call to the 
-<a href="https://msdn.microsoft.com/3d60358c-8aa6-4b30-a46e-ce0e15964b5a">ReBaseImage64</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-rebaseimage64">ReBaseImage64</a> function.
 
 
 ## -parameters
@@ -127,7 +127,7 @@ If this parameter is 0, the current file header time date stamp is incremented b
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -138,7 +138,7 @@ If the function fails, the return value is <b>FALSE</b>. To retrieve extended er
 
 The 
 <b>ReBaseImage</b> function changes the desired load address for the specified image. This operation involves reading the entire image and updating all fixups, debugging information, and checksum. You can rebase an image to reduce the required load time for its DLLs. If an application can rely on a DLL being loaded at the desired load address, then the system loader does not have to relocate the image. The image is simply loaded into the application's virtual address space and the 
-<a href="https://msdn.microsoft.com/0c3e3083-9297-4626-b2a7-0062d1c2cf9e">DllMain</a> function is called, if one is present.
+<a href="https://docs.microsoft.com/windows/desktop/Dlls/dllmain">DllMain</a> function is called, if one is present.
 
 All ImageHlp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
@@ -154,11 +154,11 @@ As an alternative to using this function, see the <a href="http://go.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/0c3e3083-9297-4626-b2a7-0062d1c2cf9e">DllMain</a>
+<a href="https://docs.microsoft.com/windows/desktop/Dlls/dllmain">DllMain</a>
 
 
 
-<a href="https://msdn.microsoft.com/926f412e-25ba-4f9c-a118-b5a1bc723379">ImageHlp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
  
 
  

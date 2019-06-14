@@ -82,7 +82,7 @@ The one-based index of the overlay mask.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns nonzero if successful, or zero otherwise.
 
@@ -93,7 +93,7 @@ Returns nonzero if successful, or zero otherwise.
 
 
 
-An overlay mask is an image drawn transparently over another image. To draw an overlay mask over an image, call the <a href="https://msdn.microsoft.com/en-us/library/Bb761533(v=VS.85).aspx">ImageList_Draw</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb761536(v=VS.85).aspx">ImageList_DrawEx</a> function. The <i>fStyle</i> parameter of these functions can use the <a href="https://msdn.microsoft.com/en-us/library/Bb761408(v=VS.85).aspx">INDEXTOOVERLAYMASK</a> macro to specify an overlay mask index. 
+An overlay mask is an image drawn transparently over another image. To draw an overlay mask over an image, call the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_draw">ImageList_Draw</a> or <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_drawex">ImageList_DrawEx</a> function. The <i>fStyle</i> parameter of these functions can use the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-indextooverlaymask">INDEXTOOVERLAYMASK</a> macro to specify an overlay mask index. 
 
 A call to this method fails and returns E_INVALIDARG unless the image list is created using a mask.
 

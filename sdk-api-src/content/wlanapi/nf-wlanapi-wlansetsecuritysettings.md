@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/f4336113-538f-4161-a71f-64a432e31f1c">WlanGetProfileList</a> function sets the security settings for a configurable object.   
+The <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofilelist">WlanGetProfileList</a> function sets the security settings for a configurable object.   
 
 
 ## -parameters
@@ -59,12 +59,12 @@ The <a href="https://msdn.microsoft.com/f4336113-538f-4161-a71f-64a432e31f1c">Wl
 
 ### -param hClientHandle [in]
 
-The client's session handle, obtained by a previous call to the <a href="https://msdn.microsoft.com/27bfa0c1-4443-47a4-a374-326f553fa3bb">WlanOpenHandle</a> function.
+The client's session handle, obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
 
 
 ### -param SecurableObject [in]
 
-A <a href="https://msdn.microsoft.com/1f6e1460-d27f-4800-8a32-6f9f509753cf">WLAN_SECURABLE_OBJECT</a> value that specifies the object to which the security settings will be applied.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_securable_object">WLAN_SECURABLE_OBJECT</a> value that specifies the object to which the security settings will be applied.
 
 
 ### -param strModifiedSDDL [in]
@@ -144,24 +144,24 @@ This function was called from an unsupported platform. This value will be return
 
 
 
-A successful call to the <b>WlanSetSecuritySettings</b> function overrides the default permissions associated with an object. For more information about default permissions, see <a href="https://msdn.microsoft.com/cfea9f7d-a069-497b-8138-b3949002fa5d">Native Wifi API Permissions</a>.
+A successful call to the <b>WlanSetSecuritySettings</b> function overrides the default permissions associated with an object. For more information about default permissions, see <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/native-wifi-api-permissions">Native Wifi API Permissions</a>.
 
 The following describes the procedure for creating a security descriptor object and parsing it as a string.
 
 <ol>
-<li>Call <a href="https://msdn.microsoft.com/234fcda4-7d30-4c3f-a036-7ace58ca8a3c">InitializeSecurityDescriptor</a> to create a security descriptor in memory.</li>
-<li>Call <a href="https://msdn.microsoft.com/cb3ba617-322a-4b8c-a9d5-32910315fb56">SetSecurityDescriptorOwner</a> to set the owner information for the security descriptor.</li>
-<li>Call <a href="https://msdn.microsoft.com/b990a7bd-7840-4c10-baf8-68b3862147f4">InitializeAcl</a> to create a discretionary access control list (DACL) in memory.</li>
-<li>Call <a href="https://msdn.microsoft.com/1004353a-f907-4452-9c0f-85eba0ece813">AddAccessAllowedAce</a> or <a href="https://msdn.microsoft.com/5b4c4164-48f4-4cd5-b60e-554f2498d547">AddAccessDeniedAce</a> to add access control entries (ACEs) to the DACL. Set the <i>AccessMask</i> parameter to one of the following bitwise OR combinations as appropriate:<ul>
+<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializesecuritydescriptor">InitializeSecurityDescriptor</a> to create a security descriptor in memory.</li>
+<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorowner">SetSecurityDescriptorOwner</a> to set the owner information for the security descriptor.</li>
+<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializeacl">InitializeAcl</a> to create a discretionary access control list (DACL) in memory.</li>
+<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessallowedace">AddAccessAllowedAce</a> or <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessdeniedace">AddAccessDeniedAce</a> to add access control entries (ACEs) to the DACL. Set the <i>AccessMask</i> parameter to one of the following bitwise OR combinations as appropriate:<ul>
 <li>WLAN_READ_ACCESS</li>
 <li>WLAN_READ_ACCESS | WLAN_EXECUTE_ACCESS</li>
 <li>WLAN_READ_ACCESS | WLAN_EXECUTE_ACCESS | WLAN_WRITE_ACCESS</li>
 </ul>
 </li>
-<li>Call <a href="https://msdn.microsoft.com/a873b803-391e-47e1-af7e-6dad7195968c">SetSecurityDescriptorDacl</a> to add the DACL to the security descriptor.</li>
-<li>Call <a href="https://msdn.microsoft.com/36140833-8e30-4c32-a88a-c10751b6c223">ConvertSecurityDescriptorToStringSecurityDescriptor</a> to convert the descriptor to string.</li>
+<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptordacl">SetSecurityDescriptorDacl</a> to add the DACL to the security descriptor.</li>
+<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora">ConvertSecurityDescriptorToStringSecurityDescriptor</a> to convert the descriptor to string.</li>
 </ol>
-The string returned by <a href="https://msdn.microsoft.com/36140833-8e30-4c32-a88a-c10751b6c223">ConvertSecurityDescriptorToStringSecurityDescriptor</a> can then be used as the <i>strModifiedSDDL</i> parameter value when calling <b>WlanSetSecuritySettings</b>.
+The string returned by <a href="https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora">ConvertSecurityDescriptorToStringSecurityDescriptor</a> can then be used as the <i>strModifiedSDDL</i> parameter value when calling <b>WlanSetSecuritySettings</b>.
 
 
 
@@ -171,11 +171,11 @@ The string returned by <a href="https://msdn.microsoft.com/36140833-8e30-4c32-a8
 
 
 
-<a href="https://msdn.microsoft.com/cfea9f7d-a069-497b-8138-b3949002fa5d">Native Wifi API Permissions</a>
+<a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/native-wifi-api-permissions">Native Wifi API Permissions</a>
 
 
 
-<a href="https://msdn.microsoft.com/5e14a70c-c049-4cd1-8675-2b01ed11463f">WlanGetSecuritySettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetsecuritysettings">WlanGetSecuritySettings</a>
  
 
  

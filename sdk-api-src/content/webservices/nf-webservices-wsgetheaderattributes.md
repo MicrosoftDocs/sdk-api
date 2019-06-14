@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-This function populates a ULONG parameter with  the <a href="https://msdn.microsoft.com/2796253d-3b8d-490d-987d-5bf7cd48c8ea">WS_HEADER_ATTRIBUTES</a> from the header element on which the reader is positioned.  The
+This function populates a ULONG parameter with  the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_5">WS_HEADER_ATTRIBUTES</a> from the header element on which the reader is positioned.  The
                 envelope version of the message is used to determine which attributes to return.
             
 
@@ -61,13 +61,13 @@ This function populates a ULONG parameter with  the <a href="https://msdn.micros
 
 ### -param message [in]
 
-A  pointer to a <a href="https://msdn.microsoft.com/22cc39a9-a3a7-4b4d-bdee-0ccac5dc03ee">WS_MESSAGE</a> structure containing the message to query.  This envelope version of the message is used to determine which attributes match.
-                The message can be in any state except <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a>.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-message">WS_MESSAGE</a> structure containing the message to query.  This envelope version of the message is used to determine which attributes match.
+                The message can be in any state except <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
 
 
 ### -param reader [in]
 
-A pointer to the reader to query.  This must be valid WS_XML_READER object returned from <a href="https://msdn.microsoft.com/0d4449aa-ffcc-41d9-99b1-7352edaf3700">WsCreateReader</a>   and cannot be <b>NULL</b>.
+A pointer to the reader to query.  This must be valid WS_XML_READER object returned from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatereader">WsCreateReader</a>   and cannot be <b>NULL</b>.
         
 
 
@@ -79,7 +79,7 @@ On success the value referenced by this pointer is set to the header attributes.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 

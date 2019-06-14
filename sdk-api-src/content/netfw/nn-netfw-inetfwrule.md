@@ -54,7 +54,7 @@ The <b>INetFwRule</b> interface provides access to the properties of a rule.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwRule</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>INetFwRule</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwRule</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetFwRule</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>INetFwRule</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/95c30965-7394-42d8-9e9b-2adb4e5e2986">get_Action</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_action">get_Action</a>
 </td>
 <td align="left" width="63%">
 Retrieves the Action property for this rule.
@@ -79,7 +79,7 @@ Retrieves the Action property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2ab808fc-39ec-4d3a-9343-4d06f3faa563">get_ApplicationName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_applicationname">get_ApplicationName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the contents of the ApplicationName property.
@@ -88,7 +88,7 @@ Retrieves the contents of the ApplicationName property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/47e5a5ff-d8a7-46e6-aa42-b9e7d544954b">get_Description</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_description">get_Description</a>
 </td>
 <td align="left" width="63%">
 Retrieves the contents of the Description property for this rule.
@@ -97,7 +97,7 @@ Retrieves the contents of the Description property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4462c39a-27b8-497b-8393-ed63c7e4cc9b">get_Direction</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_direction">get_Direction</a>
 </td>
 <td align="left" width="63%">
 Retrieves the Direction property for this rule.
@@ -106,7 +106,7 @@ Retrieves the Direction property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a45a8161-3273-4d43-86bf-34d1b776dbbc">get_EdgeTraversal</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_edgetraversal">get_EdgeTraversal</a>
 </td>
 <td align="left" width="63%">
 Retrieves the EdgeTraversal property for this rule.
@@ -115,7 +115,7 @@ Retrieves the EdgeTraversal property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/42533aca-3273-46fa-a9a1-add7f9fde351">get_Enabled</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_enabled">get_Enabled</a>
 </td>
 <td align="left" width="63%">
 Retrieves the Enabled property for this rule.
@@ -124,7 +124,7 @@ Retrieves the Enabled property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/325b0c1d-3988-44ed-931c-6eed835f8c50">get_Grouping</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_grouping">get_Grouping</a>
 </td>
 <td align="left" width="63%">
 Retrieves the Grouping property for this rule.
@@ -133,7 +133,7 @@ Retrieves the Grouping property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5b1e2e50-7ca1-4a96-a1c3-1f55f51a6a4f">get_IcmpTypesAndCodes</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_icmptypesandcodes">get_IcmpTypesAndCodes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the IcmpTypesAndCodes property for this rule.
@@ -142,7 +142,7 @@ Retrieves the IcmpTypesAndCodes property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f04ac143-bbb7-4676-936e-4282ebf58f56">get_Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_interfaces">get_Interfaces</a>
 </td>
 <td align="left" width="63%">
 Retrieves the Interfaces property for this rule.
@@ -151,7 +151,7 @@ Retrieves the Interfaces property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2548875c-3c23-4076-9d3d-82bebf5e7718">get_InterfaceTypes</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_interfacetypes">get_InterfaceTypes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the InterfaceTypes property for this rule.
@@ -160,7 +160,7 @@ Retrieves the InterfaceTypes property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e95c6545-770b-430f-a1fc-32dcaac0eaa0">get_LocalAddresses</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_localaddresses">get_LocalAddresses</a>
 </td>
 <td align="left" width="63%">
 Retrieves the LocalAddresses property for this rule.
@@ -169,7 +169,7 @@ Retrieves the LocalAddresses property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/72c4f00c-d5c4-4d93-892b-ec9a63f8df09">get_LocalPorts</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_localports">get_LocalPorts</a>
 </td>
 <td align="left" width="63%">
 Retrieves the LocalPorts property for this rule.
@@ -178,7 +178,7 @@ Retrieves the LocalPorts property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/669ea684-5b00-4b60-8259-fad02cca572b">get_Name</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_name">get_Name</a>
 </td>
 <td align="left" width="63%">
 Retrieves the contents of the  Name property for this rule.
@@ -187,7 +187,7 @@ Retrieves the contents of the  Name property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/98e40140-1df2-439a-9c83-a50f82f65e24">get_Profiles</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_profiles">get_Profiles</a>
 </td>
 <td align="left" width="63%">
 Retrieves the Profiles property for this rule.
@@ -196,7 +196,7 @@ Retrieves the Profiles property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/16f61a1d-770a-4be9-a43d-10ff9fe276fb">get_Protocol</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_protocol">get_Protocol</a>
 </td>
 <td align="left" width="63%">
 Retrieves the Protocol property for this rule.
@@ -205,7 +205,7 @@ Retrieves the Protocol property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/107e8cad-a603-4ac8-aa3c-6a85d47016ef">get_RemoteAddresses</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_remoteaddresses">get_RemoteAddresses</a>
 </td>
 <td align="left" width="63%">
 Retrieves the RemoteAddresses property for this rule.
@@ -214,7 +214,7 @@ Retrieves the RemoteAddresses property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e6791258-4669-42d9-9551-5c861bfb2b52">get_RemotePorts</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_remoteports">get_RemotePorts</a>
 </td>
 <td align="left" width="63%">
 Retrieves the RemotePorts property for this rule.
@@ -223,7 +223,7 @@ Retrieves the RemotePorts property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/52bcc317-b900-44b6-8ab4-637ffbd74729">get_ServiceName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_servicename">get_ServiceName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the contents of the ServiceName property.
@@ -232,7 +232,7 @@ Retrieves the contents of the ServiceName property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/95c30965-7394-42d8-9e9b-2adb4e5e2986">put_Action</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_action">put_Action</a>
 </td>
 <td align="left" width="63%">
 Sets the Action property for this rule.
@@ -241,7 +241,7 @@ Sets the Action property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2ab808fc-39ec-4d3a-9343-4d06f3faa563">put_ApplicationName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_applicationname">put_ApplicationName</a>
 </td>
 <td align="left" width="63%">
 Sets the name of the ApplicationName property.
@@ -250,7 +250,7 @@ Sets the name of the ApplicationName property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/47e5a5ff-d8a7-46e6-aa42-b9e7d544954b">put_Description</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_description">put_Description</a>
 </td>
 <td align="left" width="63%">
 Sets the contents of the Description property for this rule.
@@ -259,7 +259,7 @@ Sets the contents of the Description property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4462c39a-27b8-497b-8393-ed63c7e4cc9b">put_Direction</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_direction">put_Direction</a>
 </td>
 <td align="left" width="63%">
 Sets the Direction property for this rule.
@@ -268,7 +268,7 @@ Sets the Direction property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a45a8161-3273-4d43-86bf-34d1b776dbbc">put_EdgeTraversal</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_edgetraversal">put_EdgeTraversal</a>
 </td>
 <td align="left" width="63%">
 Sets the EdgeTraversal property for this rule.
@@ -277,7 +277,7 @@ Sets the EdgeTraversal property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/42533aca-3273-46fa-a9a1-add7f9fde351">put_Enabled</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_enabled">put_Enabled</a>
 </td>
 <td align="left" width="63%">
 Sets the Enabled property for this rule.
@@ -286,7 +286,7 @@ Sets the Enabled property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/325b0c1d-3988-44ed-931c-6eed835f8c50">put_Grouping</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_grouping">put_Grouping</a>
 </td>
 <td align="left" width="63%">
 Sets the Grouping property for this rule.
@@ -295,7 +295,7 @@ Sets the Grouping property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5b1e2e50-7ca1-4a96-a1c3-1f55f51a6a4f">put_IcmpTypesAndCodes</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_icmptypesandcodes">put_IcmpTypesAndCodes</a>
 </td>
 <td align="left" width="63%">
 Sets the IcmpTypesAndCodes property for this rule.
@@ -304,7 +304,7 @@ Sets the IcmpTypesAndCodes property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f04ac143-bbb7-4676-936e-4282ebf58f56">put_Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_interfaces">put_Interfaces</a>
 </td>
 <td align="left" width="63%">
 Sets the Interfaces property for this rule.
@@ -313,7 +313,7 @@ Sets the Interfaces property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2548875c-3c23-4076-9d3d-82bebf5e7718">put_InterfaceTypes</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_interfacetypes">put_InterfaceTypes</a>
 </td>
 <td align="left" width="63%">
 Sets the InterfaceTypes property for this rule.
@@ -322,7 +322,7 @@ Sets the InterfaceTypes property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e95c6545-770b-430f-a1fc-32dcaac0eaa0">put_LocalAddresses</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_localaddresses">put_LocalAddresses</a>
 </td>
 <td align="left" width="63%">
 Sets the LocalAddresses property for this rule.
@@ -331,7 +331,7 @@ Sets the LocalAddresses property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/72c4f00c-d5c4-4d93-892b-ec9a63f8df09">put_LocalPorts</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_localports">put_LocalPorts</a>
 </td>
 <td align="left" width="63%">
 Sets the LocalPorts property for this rule.
@@ -340,7 +340,7 @@ Sets the LocalPorts property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/669ea684-5b00-4b60-8259-fad02cca572b">put_Name</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_name">put_Name</a>
 </td>
 <td align="left" width="63%">
 Sets the contents of the  Name property for this rule.
@@ -349,7 +349,7 @@ Sets the contents of the  Name property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/98e40140-1df2-439a-9c83-a50f82f65e24">put_Profiles</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_profiles">put_Profiles</a>
 </td>
 <td align="left" width="63%">
 Sets the Profiles property for this rule.
@@ -358,7 +358,7 @@ Sets the Profiles property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/16f61a1d-770a-4be9-a43d-10ff9fe276fb">put_Protocol</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_protocol">put_Protocol</a>
 </td>
 <td align="left" width="63%">
 Sets the Protocol property for this rule.
@@ -367,7 +367,7 @@ Sets the Protocol property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/107e8cad-a603-4ac8-aa3c-6a85d47016ef">put_RemoteAddresses</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_remoteaddresses">put_RemoteAddresses</a>
 </td>
 <td align="left" width="63%">
 Sets the RemoteAddresses property for this rule.
@@ -376,7 +376,7 @@ Sets the RemoteAddresses property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e6791258-4669-42d9-9551-5c861bfb2b52">put_RemotePorts</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_remoteports">put_RemotePorts</a>
 </td>
 <td align="left" width="63%">
 Sets the RemotePorts property for this rule.
@@ -385,7 +385,7 @@ Sets the RemotePorts property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/52bcc317-b900-44b6-8ab4-637ffbd74729">put_ServiceName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_servicename">put_ServiceName</a>
 </td>
 <td align="left" width="63%">
 Sets the contents of the ServiceName property.
@@ -402,7 +402,7 @@ Sets the contents of the ServiceName property.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/95c30965-7394-42d8-9e9b-2adb4e5e2986">Action</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_action">Action</a>
 
 
 </td>
@@ -414,7 +414,7 @@ Accesses the Action property of this rule.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/2ab808fc-39ec-4d3a-9343-4d06f3faa563">ApplicationName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_applicationname">ApplicationName</a>
 
 
 </td>
@@ -426,7 +426,7 @@ Accesses the ApplicationName property for this rule.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/47e5a5ff-d8a7-46e6-aa42-b9e7d544954b">Description</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_description">Description</a>
 
 
 </td>
@@ -438,7 +438,7 @@ Accesses the Description property for this rule.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/4462c39a-27b8-497b-8393-ed63c7e4cc9b">Direction</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_direction">Direction</a>
 
 
 </td>
@@ -450,7 +450,7 @@ Accesses the Direction property for this rule.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/a45a8161-3273-4d43-86bf-34d1b776dbbc">EdgeTraversal</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_edgetraversal">EdgeTraversal</a>
 
 
 </td>
@@ -462,7 +462,7 @@ Accesses the EdgeTraversal property for this rule.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/42533aca-3273-46fa-a9a1-add7f9fde351">Enabled</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_enabled">Enabled</a>
 
 
 </td>
@@ -474,7 +474,7 @@ Accesses the Enabled property for this rule.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/325b0c1d-3988-44ed-931c-6eed835f8c50">Grouping</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_grouping">Grouping</a>
 
 
 </td>
@@ -486,7 +486,7 @@ Accesses the Grouping property for this rule.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/5b1e2e50-7ca1-4a96-a1c3-1f55f51a6a4f">IcmpTypesAndCodes</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_icmptypesandcodes">IcmpTypesAndCodes</a>
 
 
 </td>
@@ -498,7 +498,7 @@ Accesses the IcmpTypesAndCodes property for this rule.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/f04ac143-bbb7-4676-936e-4282ebf58f56">Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_interfaces">Interfaces</a>
 
 
 </td>
@@ -510,7 +510,7 @@ Accesses the Interfaces property for this rule.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/2548875c-3c23-4076-9d3d-82bebf5e7718">InterfaceTypes</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_interfacetypes">InterfaceTypes</a>
 
 
 </td>
@@ -522,7 +522,7 @@ Accesses the InterfaceTypes property for this rule.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/e95c6545-770b-430f-a1fc-32dcaac0eaa0">LocalAddresses</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_localaddresses">LocalAddresses</a>
 
 
 </td>
@@ -534,7 +534,7 @@ Accesses the LocalAddresses property for this rule.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/72c4f00c-d5c4-4d93-892b-ec9a63f8df09">LocalPorts</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_localports">LocalPorts</a>
 
 
 </td>
@@ -546,7 +546,7 @@ Accesses the LocalPorts property of this rule.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/669ea684-5b00-4b60-8259-fad02cca572b">Name</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_name">Name</a>
 
 
 </td>
@@ -558,7 +558,7 @@ Accesses the Name property for this rule.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/98e40140-1df2-439a-9c83-a50f82f65e24">Profiles</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_profiles">Profiles</a>
 
 
 </td>
@@ -570,7 +570,7 @@ Accesses the Profiles property for this rule.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/16f61a1d-770a-4be9-a43d-10ff9fe276fb">Protocol</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_protocol">Protocol</a>
 
 
 </td>
@@ -582,7 +582,7 @@ Accesses the Protocol property for this rule.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/107e8cad-a603-4ac8-aa3c-6a85d47016ef">RemoteAddresses</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_remoteaddresses">RemoteAddresses</a>
 
 
 </td>
@@ -594,7 +594,7 @@ Accesses the RemoteAddresses property of this rule.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/e6791258-4669-42d9-9551-5c861bfb2b52">RemotePorts</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_remoteports">RemotePorts</a>
 
 
 </td>
@@ -606,7 +606,7 @@ Accesses the RemotePorts property for this rule.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/52bcc317-b900-44b6-8ab4-637ffbd74729">ServiceName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_servicename">ServiceName</a>
 
 
 </td>
@@ -626,7 +626,7 @@ Each time you change a property of a rule, Windows Firewall commits the rule and
 
 If you are editing a TCP port rule and converting it into an ICMP rule, first delete the port, change protocol from TCP to ICMP, and then add the rule.
 
-In order to  retrieve and modify existing rules, instances of this interface must be retrieved through <a href="https://msdn.microsoft.com/4908a5f2-4093-4f2d-8e68-fe4b2e552b13">INetFwRules</a>.  All configuration changes take place immediately.
+In order to  retrieve and modify existing rules, instances of this interface must be retrieved through <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrules">INetFwRules</a>.  All configuration changes take place immediately.
 
 When accessing the properties of a  	rule, keep in mind that there may be a small time lag before a newly-added rule is applied.
 
@@ -640,126 +640,126 @@ Properties are used to create firewall rules.  Many of the properties can be use
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/669ea684-5b00-4b60-8259-fad02cca572b">Name</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_name">Name</a>
 </td>
 <td>Clear text string.</td>
 <td>Required. The string must not contain a "|" and it must not be "all".</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/47e5a5ff-d8a7-46e6-aa42-b9e7d544954b">Description</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_description">Description</a>
 </td>
 <td>Clear text string.</td>
 <td>Optional. The string must not contain a "|".</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/325b0c1d-3988-44ed-931c-6eed835f8c50">Grouping</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_grouping">Grouping</a>
 </td>
 <td>String in the format "@&lt;dll name&gt;, &lt;resource string identifier&gt;".</td>
 <td>Required.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/42533aca-3273-46fa-a9a1-add7f9fde351">Enabled</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_enabled">Enabled</a>
 </td>
 <td>Boolean (<b>VARIANT_BOOLEAN</b>).</td>
 <td>Optional.  Defaults to false (<b>VARIANT_FALSE</b>) if nothing is specified.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/2ab808fc-39ec-4d3a-9343-4d06f3faa563">ApplicationName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_applicationname">ApplicationName</a>
 </td>
 <td>Clear text string.</td>
 <td>Optional.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/52bcc317-b900-44b6-8ab4-637ffbd74729">ServiceName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_servicename">ServiceName</a>
 </td>
 <td>Clear text string.</td>
 <td>Optional.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/72c4f00c-d5c4-4d93-892b-ec9a63f8df09">LocalPorts</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_localports">LocalPorts</a>
 </td>
 <td>Clear text string containing a list of port numbers.  "RPC" is an acceptable value.</td>
 <td>Optional.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/e6791258-4669-42d9-9551-5c861bfb2b52">RemotePorts</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_remoteports">RemotePorts</a>
 </td>
 <td>Clear text string containing a list of port numbers.</td>
 <td>Optional.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/e95c6545-770b-430f-a1fc-32dcaac0eaa0">LocalAddresses</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_localaddresses">LocalAddresses</a>
 </td>
 <td>Clear text string containing a list of IPv4 and IPv6 addresses separated by commas.  Range values and"*"are acceptable in this list.</td>
 <td>Optional.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/107e8cad-a603-4ac8-aa3c-6a85d47016ef">RemoteAddresses</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_remoteaddresses">RemoteAddresses</a>
 </td>
 <td>Clear text string containing a list of IPv4 and IPv6 addresses separated by commas.  Range values and"*"are acceptable in this list.</td>
 <td>Optional.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/16f61a1d-770a-4be9-a43d-10ff9fe276fb">Protocol</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_protocol">Protocol</a>
 </td>
 <td>Number.</td>
 <td>Optional.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/98e40140-1df2-439a-9c83-a50f82f65e24">put_Profiles</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_profiles">put_Profiles</a>
 </td>
 <td>String value in the format "type, code". Multiple types and codes can be included in the string by separating each pair with a ";".</td>
 <td>Optional.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/f04ac143-bbb7-4676-936e-4282ebf58f56">Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_interfaces">Interfaces</a>
 </td>
 <td>Array of strings containing the friendly names of interfaces.</td>
 <td>Optional.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/2548875c-3c23-4076-9d3d-82bebf5e7718">InterfaceTypes</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_interfacetypes">InterfaceTypes</a>
 </td>
 <td>String value. Multiple interface types can be included in the string by separating each value with a ",".  Acceptable values are "RemoteAccess", "Wireless", "Lan", and "All".</td>
 <td>Optional.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/4462c39a-27b8-497b-8393-ed63c7e4cc9b">Direction</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_direction">Direction</a>
 </td>
 <td>Enumeration.</td>
 <td>Optional.  </td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/95c30965-7394-42d8-9e9b-2adb4e5e2986">Action</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_action">Action</a>
 </td>
 <td>Enumeration.</td>
 <td>Optional.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/a45a8161-3273-4d43-86bf-34d1b776dbbc">EdgeTraversal</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_edgetraversal">EdgeTraversal</a>
 </td>
 <td>Boolean (<b>VARIANT_BOOLEAN</b>).</td>
 <td>Optional.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/98e40140-1df2-439a-9c83-a50f82f65e24">Profiles</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_profiles">Profiles</a>
 </td>
 <td>Enumeration.</td>
 <td>Optional.</td>
@@ -777,11 +777,11 @@ For additional information on each property, please see the corresponding topic.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

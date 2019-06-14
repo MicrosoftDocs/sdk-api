@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Closes an array of physical monitor handles. Call this function to close an array of monitor handles obtained from the <a href="https://msdn.microsoft.com/f2ac8a6a-3be9-4155-ad13-c256b96da792">GetPhysicalMonitorsFromHMONITOR</a> or <a href="https://msdn.microsoft.com/1e0e9749-8ee4-42d5-ab7b-182222b6c429">GetPhysicalMonitorsFromIDirect3DDevice9</a> function.
+Closes an array of physical monitor handles. Call this function to close an array of monitor handles obtained from the <a href="https://docs.microsoft.com/windows/desktop/api/physicalmonitorenumerationapi/nf-physicalmonitorenumerationapi-getphysicalmonitorsfromhmonitor">GetPhysicalMonitorsFromHMONITOR</a> or <a href="https://docs.microsoft.com/windows/desktop/api/physicalmonitorenumerationapi/nf-physicalmonitorenumerationapi-getphysicalmonitorsfromidirect3ddevice9">GetPhysicalMonitorsFromIDirect3DDevice9</a> function.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Number of elements in the <i>pPhysicalMonitorArray</i> array.
 
 ### -param pPhysicalMonitorArray [in]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd692967(v=VS.85).aspx">PHYSICAL_MONITOR</a> structures.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/physicalmonitorenumerationapi/ns-physicalmonitorenumerationapi-_physical_monitor">PHYSICAL_MONITOR</a> structures.
           
 
 
@@ -73,7 +73,7 @@ Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd69296
 
 
 
-If the function succeeds, the return value is <b>TRUE</b>. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function succeeds, the return value is <b>TRUE</b>. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -83,11 +83,11 @@ If the function succeeds, the return value is <b>TRUE</b>. If the function fails
 
 
 
-<a href="https://msdn.microsoft.com/5371cbe4-80f5-4514-88e7-38107cd1a127">DestroyPhysicalMonitor Function</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/physicalmonitorenumerationapi/nf-physicalmonitorenumerationapi-destroyphysicalmonitor">DestroyPhysicalMonitor Function</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9a00792-f471-47a4-93d7-25400e27f13f">Monitor Configuration Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Monitor/monitor-configuration-functions">Monitor Configuration Functions</a>
  
 
  

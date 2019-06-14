@@ -51,25 +51,25 @@ ms.custom: 19H1
 
 The     <b>IAudioSessionControl2</b> interface can be used by a client to get information about the audio session.
 
-To get a reference to the <b>IAudioSessionControl2</b> interface, the application must call <b>IAudioSessionControl::QueryInterface</b> to request the interface pointer from the stream object's  <a href="https://msdn.microsoft.com/4446140e-2e61-40ed-b0f9-4c1b90e7c2de">IAudioSessionControl</a> interface. There are two ways an application  can get a pointer to the <b>IAudioSessionControl</b> interface:
+To get a reference to the <b>IAudioSessionControl2</b> interface, the application must call <b>IAudioSessionControl::QueryInterface</b> to request the interface pointer from the stream object's  <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol">IAudioSessionControl</a> interface. There are two ways an application  can get a pointer to the <b>IAudioSessionControl</b> interface:
 <ul>
 <li>
-By calling  <a href="https://msdn.microsoft.com/233d4471-037f-4df9-bef6-57f2544dedb5">IAudioClient::GetService</a> on the audio client after opening a stream on the device. The audio client opens a stream for rendering or capturing, and associates it with an audio session by calling <a href="https://msdn.microsoft.com/eb778503-06f8-4705-9f8d-9a4fd886ae27">IAudioClient::Initialize</a>.
+By calling  <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getservice">IAudioClient::GetService</a> on the audio client after opening a stream on the device. The audio client opens a stream for rendering or capturing, and associates it with an audio session by calling <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>.
 
 </li>
 <li>
-By calling <a href="https://msdn.microsoft.com/42de66dd-46df-40af-9d8a-39ee9f91b468">IAudioSessionManager::GetAudioSessionControl</a> for an existing audio session without opening the stream.
+By calling <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager-getaudiosessioncontrol">IAudioSessionManager::GetAudioSessionControl</a> for an existing audio session without opening the stream.
 
 
 </li>
-</ul>When the application wants to release the <b>IAudioSessionControl2</b> interface instance, the application must call the interface's <b>Release</b> method from the same thread as the call to <a href="https://msdn.microsoft.com/233d4471-037f-4df9-bef6-57f2544dedb5">IAudioClient::GetService</a> that created the object.
+</ul>When the application wants to release the <b>IAudioSessionControl2</b> interface instance, the application must call the interface's <b>Release</b> method from the same thread as the call to <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getservice">IAudioClient::GetService</a> that created the object.
 
 The application thread that uses this interface must be initialized for COM. For more information about COM initialization, see the description of the <b>CoInitializeEx</b> function in the Windows SDK documentation.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioSessionControl2</b> interface inherits from <a href="https://msdn.microsoft.com/4446140e-2e61-40ed-b0f9-4c1b90e7c2de">IAudioSessionControl</a>. <b>IAudioSessionControl2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioSessionControl2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol">IAudioSessionControl</a>. <b>IAudioSessionControl2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -84,7 +84,7 @@ The <b>IAudioSessionControl2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/17ae85ad-e2ef-4a87-9d0f-58baa080ff98">GetProcessId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol2-getprocessid">GetProcessId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the process identifier of the session.
@@ -93,7 +93,7 @@ Retrieves the process identifier of the session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1854e7fe-9d5f-42f3-9c4c-f2a27f26ac17">GetSessionIdentifier</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol2-getsessionidentifier">GetSessionIdentifier</a>
 </td>
 <td align="left" width="63%">
 Retrieves the session identifier.
@@ -102,7 +102,7 @@ Retrieves the session identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/02350812-7f05-400e-87f7-1d912a23050d">GetSessionInstanceIdentifier</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol2-getsessioninstanceidentifier">GetSessionInstanceIdentifier</a>
 </td>
 <td align="left" width="63%">
 Retrieves the identifier of the session instance.
@@ -111,7 +111,7 @@ Retrieves the identifier of the session instance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9060f89c-83b1-433d-96e3-86ae4b1c7e7c">IsSystemSoundsSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol2-issystemsoundssession">IsSystemSoundsSession</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the session is a system sounds session.
@@ -120,7 +120,7 @@ Indicates whether the session is a system sounds session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6689d7e4-9c45-483d-9f46-14d157726b02">SetDuckingPreference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol2-setduckingpreference">SetDuckingPreference</a>
 </td>
 <td align="left" width="63%">
 Enables or disables the default stream attenuation experience (auto-ducking) provided by the system.
@@ -134,7 +134,7 @@ Enables or disables the default stream attenuation experience (auto-ducking) pro
 
 
 
-This interface supports  custom implementations for <i>stream attenuation</i> or <i>ducking</i>, a new feature in Windows 7. An application playing a media stream can make it behave differently when a new communication stream is opened on the default communication device. For example, the original media stream can be paused while the new communication stream is open. For more information about this feature, see <a href="https://msdn.microsoft.com/2ad9482f-1888-4f19-bc41-9d47a8e0ed15">Default Ducking Experience</a>. 
+This interface supports  custom implementations for <i>stream attenuation</i> or <i>ducking</i>, a new feature in Windows 7. An application playing a media stream can make it behave differently when a new communication stream is opened on the default communication device. For example, the original media stream can be paused while the new communication stream is open. For more information about this feature, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/stream-attenuation">Default Ducking Experience</a>. 
 
 An application can use this interface to perform the following tasks:
 
@@ -215,15 +215,15 @@ done:
 
 
 
-<a href="https://msdn.microsoft.com/b18e2094-e974-4c23-b70b-ace5a168132d">Core Audio Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/4446140e-2e61-40ed-b0f9-4c1b90e7c2de">IAudioSessionControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol">IAudioSessionControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/bec2127d-fb82-436d-beee-d43e8fef5c35">Using a Communication Device</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/using-the-communication-device">Using a Communication Device</a>
  
 
  

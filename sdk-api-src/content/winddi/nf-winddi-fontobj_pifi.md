@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>FONTOBJ_pifi</b> function retrieves the pointer to the <a href="https://msdn.microsoft.com/fd2606ed-ec61-430a-aaad-38a4c3a207b6">IFIMETRICS</a> structure associated with a specified font.
+The <b>FONTOBJ_pifi</b> function retrieves the pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a> structure associated with a specified font.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>FONTOBJ_pifi</b> function retrieves the pointer to the <a href="https://m
 
 ### -param pfo
 
-Pointer to the <a href="https://msdn.microsoft.com/09af2006-51f1-433e-9227-3c99b9860e75">FONTOBJ</a> structure for which the associated IFIMETRICS structure is to be retrieved.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontobj">FONTOBJ</a> structure for which the associated IFIMETRICS structure is to be retrieved.
 
 
 ## -returns
@@ -76,11 +76,11 @@ The return value is a pointer to the IFIMETRICS structure associated with the sp
 
 
 
-<a href="https://msdn.microsoft.com/09af2006-51f1-433e-9227-3c99b9860e75">FONTOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontobj">FONTOBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd2606ed-ec61-430a-aaad-38a4c3a207b6">IFIMETRICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a>
  
 
  

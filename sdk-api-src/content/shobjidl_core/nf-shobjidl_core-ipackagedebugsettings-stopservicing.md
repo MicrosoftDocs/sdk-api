@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Completes the previous servicing operation that was started by a call to the  <a href="https://msdn.microsoft.com/40f5331d-194f-4beb-9c59-f6899186b393">StartServicing</a> method.
+Completes the previous servicing operation that was started by a call to the  <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-startservicing">StartServicing</a> method.
 
 
 ## -parameters
@@ -76,11 +76,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/e407c4ca-0de1-4b17-bb83-5c4128952d48">IPackageDebugSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipackagedebugsettings">IPackageDebugSettings</a>
 
 
 
-<a href="https://msdn.microsoft.com/40f5331d-194f-4beb-9c59-f6899186b393">StartServicing</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-startservicing">StartServicing</a>
  
 
  

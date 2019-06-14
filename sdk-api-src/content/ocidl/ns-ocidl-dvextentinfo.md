@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents the sizing data used in <a href="https://msdn.microsoft.com/5759c482-2dea-4b94-956d-9560f72acbd5">IViewObjectEx::GetNaturalExtent</a>.
+Represents the sizing data used in <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getnaturalextent">IViewObjectEx::GetNaturalExtent</a>.
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ The size of the structure, in bytes.
 
 ### -field dwExtentMode
 
-Indicates whether the sizing mode is content or integral sizing. See the <a href="https://msdn.microsoft.com/5848c26d-d185-4ad9-8841-bb8b622364ee">DVEXTENTMODE</a> enumeration for possible values.
+Indicates whether the sizing mode is content or integral sizing. See the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-tagextentmode">DVEXTENTMODE</a> enumeration for possible values.
 
 
 ### -field sizelProposed
@@ -77,11 +77,11 @@ The proposed size in content sizing or the preferred size in integral sizing.
 
 
 
-<a href="https://msdn.microsoft.com/5848c26d-d185-4ad9-8841-bb8b622364ee">DVEXTENTMODE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-tagextentmode">DVEXTENTMODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/5759c482-2dea-4b94-956d-9560f72acbd5">IViewObjectEx::GetNaturalExtent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getnaturalextent">IViewObjectEx::GetNaturalExtent</a>
  
 
  

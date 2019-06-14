@@ -59,14 +59,14 @@ ms.custom: 19H1
 
 ### -param inlineObject
 
-Type: <b><a href="https://msdn.microsoft.com/cf915458-acbc-4a37-be5c-b1337153f386">IDWriteInlineObject</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwriteinlineobject">IDWriteInlineObject</a>*</b>
 
 An application-defined inline object. 
 
 
 ### -param textRange
 
-Type: <b><a href="https://msdn.microsoft.com/2e37e060-69b9-4ca2-9d95-8e9a39f6cf83">DWRITE_TEXT_RANGE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_text_range">DWRITE_TEXT_RANGE</a></b>
 
 Text range to which this change applies.
 
@@ -89,7 +89,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 The application may call this function to specify the set of properties describing an application-defined inline object for specific range.
 
  This inline object applies to the specified range and will be passed back
-     to the application by way of the <a href="https://msdn.microsoft.com/ea1c4cd0-d9b5-46af-b53e-a2d8fc442acf">DrawInlineObject</a> callback when the range is drawn.
+     to the application by way of the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextrenderer-drawinlineobject">DrawInlineObject</a> callback when the range is drawn.
      Any text in that range will be suppressed.
 
 
@@ -100,7 +100,7 @@ The application may call this function to specify the set of properties describi
 
 
 
-<a href="https://msdn.microsoft.com/0d687337-8623-4014-967c-f533072e31cc">IDWriteTextLayout</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a>
  
 
  

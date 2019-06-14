@@ -63,15 +63,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/1f57aa92-81f0-445f-baa3-274714e8291e">ITraceDataCollector</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-itracedatacollector">ITraceDataCollector</a>
 
 
 
-<a href="https://msdn.microsoft.com/84c001f7-da5c-4d79-aba1-76c11e11bdae">ITraceDataCollector::BuffersLost</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedatacollector-get_bufferslost">ITraceDataCollector::BuffersLost</a>
 
 
 
-<a href="https://msdn.microsoft.com/f11cf095-405b-4129-aaad-d1558f01606e">ITraceDataCollector::EventsLost</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedatacollector-get_eventslost">ITraceDataCollector::EventsLost</a>
  
 
  

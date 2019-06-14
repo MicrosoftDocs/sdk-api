@@ -102,19 +102,19 @@ The EAP authentication session completed successfully, but authentication failed
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363582(v=VS.85).aspx">EAPHOST_AUTH_INFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeertypes/ns-eaphostpeertypes-_eaphost_auth_info">EAPHOST_AUTH_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/ba4d5a7f-3a5d-4ca3-975e-1ffa182b9014">EAPHost Supplicant Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-supplicant-enumerations">EAPHost Supplicant Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363548(v=VS.85).aspx">EapHostPeerAuthParams</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-tageaphostpeerauthparams">EapHostPeerAuthParams</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb5ceffb-941f-48ad-9271-111f41adc65b">EapHostPeerGetAuthStatus</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetauthstatus">EapHostPeerGetAuthStatus</a>
  
 
  

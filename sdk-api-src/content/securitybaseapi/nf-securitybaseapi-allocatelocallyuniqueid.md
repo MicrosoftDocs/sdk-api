@@ -56,7 +56,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>AllocateLocallyUniqueId</b> function allocates a locally unique identifier (<a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">LUID</a>).
+The <b>AllocateLocallyUniqueId</b> function allocates a locally unique identifier (<a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">LUID</a>).
 
 
 ## -parameters
@@ -66,7 +66,7 @@ The <b>AllocateLocallyUniqueId</b> function allocates a locally unique identifie
 
 ### -param Luid [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/a812a46b-f23f-45b1-a6c6-48f931b78750">LUID</a> structure that receives the allocated LUID.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid">LUID</a> structure that receives the allocated LUID.
 
 
 ## -returns
@@ -76,7 +76,7 @@ A pointer to a <a href="https://msdn.microsoft.com/a812a46b-f23f-45b1-a6c6-48f93
 If the function succeeds, the return value is nonzero. 
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -85,9 +85,9 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-The allocated <a href="https://msdn.microsoft.com/a812a46b-f23f-45b1-a6c6-48f931b78750">LUID</a> is unique to the local system only, and uniqueness is guaranteed only until the system is next restarted.
+The allocated <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid">LUID</a> is unique to the local system only, and uniqueness is guaranteed only until the system is next restarted.
 
-The allocated <a href="https://msdn.microsoft.com/a812a46b-f23f-45b1-a6c6-48f931b78750">LUID</a> is guaranteed  to be nonzero if this function succeeds.
+The allocated <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid">LUID</a> is guaranteed  to be nonzero if this function succeeds.
 
 
 
@@ -97,15 +97,15 @@ The allocated <a href="https://msdn.microsoft.com/a812a46b-f23f-45b1-a6c6-48f931
 
 
 
-<a href="https://msdn.microsoft.com/d9ce4ec5-5c09-4b33-93a1-39638a925986">Access Control Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/334b8ba8-101d-43a1-a8bf-1c7e0448c272">LookupPrivilegeValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupprivilegevaluea">LookupPrivilegeValue</a>
  
 
  

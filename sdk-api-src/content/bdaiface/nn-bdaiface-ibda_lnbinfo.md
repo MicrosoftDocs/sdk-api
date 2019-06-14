@@ -57,7 +57,7 @@ The <b>IBDA_LNBInfo</b> interface is implemented on a BDA device filter, specifi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_LNBInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBDA_LNBInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_LNBInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_LNBInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IBDA_LNBInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693397(v=VS.85).aspx">get_HighLowSwitchFrequency</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_lnbinfo-get_highlowswitchfrequency">get_HighLowSwitchFrequency</a>
 </td>
 <td align="left" width="63%">
 Retrieves the frequency of the high-low switch.
@@ -81,7 +81,7 @@ Retrieves the frequency of the high-low switch.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693398(v=VS.85).aspx">get_LocalOscilatorFrequencyHighBand</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_lnbinfo-get_localoscilatorfrequencyhighband">get_LocalOscilatorFrequencyHighBand</a>
 </td>
 <td align="left" width="63%">
 Retrieves the high band of the local oscillator frequency.
@@ -90,7 +90,7 @@ Retrieves the high band of the local oscillator frequency.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693399(v=VS.85).aspx">get_LocalOscilatorFrequencyLowBand</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_lnbinfo-get_localoscilatorfrequencylowband">get_LocalOscilatorFrequencyLowBand</a>
 </td>
 <td align="left" width="63%">
 Retrieves the low band of the local oscillator frequency.
@@ -99,7 +99,7 @@ Retrieves the low band of the local oscillator frequency.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693400(v=VS.85).aspx">put_HighLowSwitchFrequency</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_lnbinfo-put_highlowswitchfrequency">put_HighLowSwitchFrequency</a>
 </td>
 <td align="left" width="63%">
 Specifies the frequency of the high-low switch.
@@ -108,7 +108,7 @@ Specifies the frequency of the high-low switch.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693401(v=VS.85).aspx">put_LocalOscilatorFrequencyHighBand</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_lnbinfo-put_localoscilatorfrequencyhighband">put_LocalOscilatorFrequencyHighBand</a>
 </td>
 <td align="left" width="63%">
 Specifies the frequency of the local oscillator high band.
@@ -117,7 +117,7 @@ Specifies the frequency of the local oscillator high band.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693402(v=VS.85).aspx">put_LocalOscilatorFrequencyLowBand</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_lnbinfo-put_localoscilatorfrequencylowband">put_LocalOscilatorFrequencyLowBand</a>
 </td>
 <td align="left" width="63%">
 Specifies the frequency of the local oscillator's low band.
@@ -141,7 +141,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
  
 
  

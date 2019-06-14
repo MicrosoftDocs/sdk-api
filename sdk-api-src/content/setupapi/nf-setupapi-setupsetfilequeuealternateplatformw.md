@@ -69,7 +69,7 @@ Handle to an open setup file queue.
 
 ### -param AlternatePlatformInfo [in]
 
-Optional pointer to an <a href="https://msdn.microsoft.com/33872a84-8f7f-4508-a326-2d95ac0fcfd7">SP_ALTPLATFORM_INFO</a> structure passing information about the alternate platform. On Windows 2000, the <b>cbSize</b> member of this structure must be set to sizeof(SP_ALTPLATFORM_INFO_V1). On Windows Server 2003 or Windows XP, the <b>cbSize</b> member of this structure must be set to sizeof(SP_ALTPLATFORM_INFO_V2).
+Optional pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_altplatform_info_v1">SP_ALTPLATFORM_INFO</a> structure passing information about the alternate platform. On Windows 2000, the <b>cbSize</b> member of this structure must be set to sizeof(SP_ALTPLATFORM_INFO_V1). On Windows Server 2003 or Windows XP, the <b>cbSize</b> member of this structure must be set to sizeof(SP_ALTPLATFORM_INFO_V2).
 
 
 ### -param AlternateDefaultCatalogFile [in]
@@ -84,7 +84,7 @@ Pointer to a <b>null</b>-terminated string that specifies a catalog that validat
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -94,19 +94,19 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/0a9518b7-f231-48f2-ba50-5b802f8ccaed">Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/58201596-cb8c-480a-abef-896c1f9ef098">Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/33872a84-8f7f-4508-a326-2d95ac0fcfd7">SP_ALTPLATFORM_INFO_V1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_altplatform_info_v1">SP_ALTPLATFORM_INFO_V1</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb66ef5a-212d-4224-87b5-d64e8e188139">SP_ALTPLATFORM_INFO_V2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_altplatform_info_v2">SP_ALTPLATFORM_INFO_V2</a>
  
 
  

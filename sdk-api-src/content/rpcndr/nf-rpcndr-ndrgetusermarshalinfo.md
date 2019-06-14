@@ -130,7 +130,7 @@ The
 
 For a full listing of the information returned by 
 <b>NdrGetUserMarshalInfo</b>, see 
-<a href="https://msdn.microsoft.com/3c7b4cd4-fb72-40a6-9450-4edf82cade2c">NDR_USER_MARSHAL_INFO</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-_ndr_user_marshal_info">NDR_USER_MARSHAL_INFO</a>.
 
 
 
@@ -140,11 +140,11 @@ For a full listing of the information returned by
 
 
 
-<a href="https://msdn.microsoft.com/3c7b4cd4-fb72-40a6-9450-4edf82cade2c">NDR_USER_MARSHAL_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-_ndr_user_marshal_info">NDR_USER_MARSHAL_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/a2407aa3-574d-4690-8cdf-cb1c01ca8c49">user_marshal</a>
+<a href="https://docs.microsoft.com/windows/desktop/Midl/user-marshal">user_marshal</a>
 
 
 

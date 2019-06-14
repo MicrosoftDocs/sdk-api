@@ -84,7 +84,7 @@ A variant time is stored as an 8-byte real value (<b>double</b>), representing a
 
 The variant time resolves to one second. Any milliseconds in the input date are ignored. 
 
-The <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure is useful for the following reasons:  
+The <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure is useful for the following reasons:  
 
 <ul>
 <li>
@@ -96,7 +96,7 @@ The date/time elements are all easily accessible without needing to do any bit d
 
 </li>
 <li>
-The National Data Support data and time formatting functions <a href="https://msdn.microsoft.com/546cede1-1702-403a-bba3-b5cd3b35a1bf">GetDateFormat</a> and <a href="https://msdn.microsoft.com/3db91d29-df97-4660-b3cd-0db5b42cfd01">GetTimeFormat</a> take an <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">LPSYSTEMTIME</a> value as input.
+The National Data Support data and time formatting functions <a href="https://docs.microsoft.com/windows/desktop/api/datetimeapi/nf-datetimeapi-getdateformata">GetDateFormat</a> and <a href="https://docs.microsoft.com/windows/desktop/api/datetimeapi/nf-datetimeapi-gettimeformata">GetTimeFormat</a> take an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">LPSYSTEMTIME</a> value as input.
 
 </li>
 <li>

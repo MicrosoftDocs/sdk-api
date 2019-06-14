@@ -61,7 +61,7 @@ Sets the font attributes to be used for text within the preview handler.
 
 Type: <b>const LOGFONTW*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/library/Aa741231(v=VS.85).aspx">LOGFONTW Structure</a> containing the necessary attributes for the font to use.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa741231(v=vs.85)">LOGFONTW Structure</a> containing the necessary attributes for the font to use.
 
 
 ## -returns

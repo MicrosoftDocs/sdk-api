@@ -59,23 +59,23 @@ A debug message in the Information Queue.
 
 ### -field Category
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205323(v=VS.85).aspx">D3D10_MESSAGE_CATEGORY</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/ne-d3d10sdklayers-d3d10_message_category">D3D10_MESSAGE_CATEGORY</a></b>
 
-The category of the message. See <a href="https://msdn.microsoft.com/en-us/library/Bb205323(v=VS.85).aspx">D3D10_MESSAGE_CATEGORY</a>.
+The category of the message. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/ne-d3d10sdklayers-d3d10_message_category">D3D10_MESSAGE_CATEGORY</a>.
 
 
 ### -field Severity
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205325(v=VS.85).aspx">D3D10_MESSAGE_SEVERITY</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/ne-d3d10sdklayers-d3d10_message_severity">D3D10_MESSAGE_SEVERITY</a></b>
 
-The severity of the message. See <a href="https://msdn.microsoft.com/en-us/library/Bb205325(v=VS.85).aspx">D3D10_MESSAGE_SEVERITY</a>.
+The severity of the message. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/ne-d3d10sdklayers-d3d10_message_severity">D3D10_MESSAGE_SEVERITY</a>.
 
 
 ### -field ID
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205324(v=VS.85).aspx">D3D10_MESSAGE_ID</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/ne-d3d10sdklayers-d3d10_message_id">D3D10_MESSAGE_ID</a></b>
 
-The ID of the message. See <a href="https://msdn.microsoft.com/en-us/library/Bb205324(v=VS.85).aspx">D3D10_MESSAGE_ID</a>.
+The ID of the message. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/ne-d3d10sdklayers-d3d10_message_id">D3D10_MESSAGE_ID</a>.
 
 
 ### -field pDescription
@@ -87,7 +87,7 @@ The message string.
 
 ### -field DescriptionByteLength
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SIZE_T</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SIZE_T</a></b>
 
 The length of pDescription in bytes.
 
@@ -96,7 +96,7 @@ The length of pDescription in bytes.
 
 
 
-This structure is returned from <a href="https://msdn.microsoft.com/en-us/library/Bb173790(v=VS.85).aspx">ID3D10InfoQueue::GetMessage</a> as part of the Information Queue feature (see <a href="https://msdn.microsoft.com/en-us/library/Bb173779(v=VS.85).aspx">ID3D10InfoQueue Interface</a>).
+This structure is returned from <a href="https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/nf-d3d10sdklayers-id3d10infoqueue-getmessage">ID3D10InfoQueue::GetMessage</a> as part of the Information Queue feature (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/nn-d3d10sdklayers-id3d10infoqueue">ID3D10InfoQueue Interface</a>).
 
 
 
@@ -106,7 +106,7 @@ This structure is returned from <a href="https://msdn.microsoft.com/en-us/librar
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205153(v=VS.85).aspx">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-structures">Core Structures</a>
  
 
  

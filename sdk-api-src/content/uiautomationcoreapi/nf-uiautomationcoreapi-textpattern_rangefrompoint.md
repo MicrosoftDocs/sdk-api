@@ -68,7 +68,7 @@ A control pattern object.
 
 Type: <b>HiaPoint</b>
 
-A <a href="https://msdn.microsoft.com/2969cb79-fb78-404e-bcac-edf68001fa08">UiaPoint</a> structure that contains the location in screen coordinates.
+A <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ns-uiautomationcore-uiapoint">UiaPoint</a> structure that contains the location in screen coordinates.
 
 
 
@@ -84,7 +84,7 @@ When this function returns, contains the text range that the node spans.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK if successful or an error value otherwise.
 

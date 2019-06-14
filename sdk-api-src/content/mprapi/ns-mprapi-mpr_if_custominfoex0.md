@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Gets or sets tunnel specific custom configuration for a demand dial interfaces.
 
-Do not use the <b>MPR_IF_CUSTOMINFOEX0</b> structure directly in your code; using <a href="https://msdn.microsoft.com/6CF919BD-E1E9-423F-8186-C992A5E6AB89">MPR_IF_CUSTOMINFOEX</a> instead ensures that the proper version, based on the operating system the code in compiled under, is used.
+Do not use the <b>MPR_IF_CUSTOMINFOEX0</b> structure directly in your code; using <a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-data-types">MPR_IF_CUSTOMINFOEX</a> instead ensures that the proper version, based on the operating system the code in compiled under, is used.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ Do not use the <b>MPR_IF_CUSTOMINFOEX0</b> structure directly in your code; usin
 
 ### -field Header
 
-A <a href="https://msdn.microsoft.com/2f4e1ddc-7991-4091-9889-fdd2d75e702f">MPRAPI_OBJECT_HEADER</a> structure that specifies the version of the <b>MPR_IF_CUSTOMINFOEX0</b> structure. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mprapi_object_header">MPRAPI_OBJECT_HEADER</a> structure that specifies the version of the <b>MPR_IF_CUSTOMINFOEX0</b> structure. 
 
 
 ### -field dwFlags
@@ -101,7 +101,7 @@ IKEv2 tunnel specific configuration is available.
 
 ### -field customIkev2Config
 
-A <a href="https://msdn.microsoft.com/c81611c6-3bad-4965-b4fb-b2c8074cee28">ROUTER_IKEv2_IF_CUSTOM_CONFIG0</a> structure that specifies the IKEv2 tunnel configuration parameters.  
+A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_router_ikev2_if_custom_config0">ROUTER_IKEv2_IF_CUSTOM_CONFIG0</a> structure that specifies the IKEv2 tunnel configuration parameters.  
 
 
 ## -see-also
@@ -109,19 +109,19 @@ A <a href="https://msdn.microsoft.com/c81611c6-3bad-4965-b4fb-b2c8074cee28">ROUT
 
 
 
-<a href="https://msdn.microsoft.com/01974ac8-dffc-4564-bac1-68ac0437d22b">MprAdminInterfaceGetCustomInfoEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacegetcustominfoex">MprAdminInterfaceGetCustomInfoEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/306d9d6c-6196-4a1f-8549-f8dd0fb5ab6f">MprAdminInterfaceSetCustomInfoEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacesetcustominfoex">MprAdminInterfaceSetCustomInfoEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/97fa62f4-5e1c-4634-a3c7-974425717080">MprConfigInterfaceGetCustomInfoEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfacegetcustominfoex">MprConfigInterfaceGetCustomInfoEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/fff18156-ba94-45b7-86c2-a604823a9b08">MprConfigInterfaceSetCustomInfoEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfacesetcustominfoex">MprConfigInterfaceSetCustomInfoEx</a>
  
 
  

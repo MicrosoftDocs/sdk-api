@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>Stop</b> method stops the playback device.
 
-Applications should call the <a href="https://msdn.microsoft.com/8ca43663-3726-4147-8774-2f1eecef9142">IMSVidCtl::Stop</a> method, rather than this method.
+Applications should call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-stop">IMSVidCtl::Stop</a> method, rather than this method.
 
 
 ## -parameters
@@ -104,7 +104,7 @@ The method succeeded.
 
 
 
-This method allows for direct control of the source. However, if the underlying source filter is controlled using the standard DirectShow <a href="https://msdn.microsoft.com/en-us/library/Dd390170(v=VS.85).aspx">IMediaControl</a> interface, this method returns E_NOTIMPL.
+This method allows for direct control of the source. However, if the underlying source filter is controlled using the standard DirectShow <a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediacontrol">IMediaControl</a> interface, this method returns E_NOTIMPL.
 
 
 
@@ -114,7 +114,7 @@ This method allows for direct control of the source. However, if the underlying 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694586(v=VS.85).aspx">IMSVidPlayback Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidplayback">IMSVidPlayback Interface</a>
  
 
  

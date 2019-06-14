@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IX509CertificateRequestPkcs10V2</b> interface represents a PKCS #10 certificate request. It includes all of the methods defined by the <a href="https://msdn.microsoft.com/5b3764dc-fc63-45cc-8c35-65539c461e81">IX509CertificateRequestPkcs10</a> interface and adds methods that enable initialization from certificate request templates.
+The <b>IX509CertificateRequestPkcs10V2</b> interface represents a PKCS #10 certificate request. It includes all of the methods defined by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a> interface and adds methods that enable initialization from certificate request templates.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509CertificateRequestPkcs10V2</b> interface inherits from <a href="https://msdn.microsoft.com/5b3764dc-fc63-45cc-8c35-65539c461e81">IX509CertificateRequestPkcs10</a>. <b>IX509CertificateRequestPkcs10V2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509CertificateRequestPkcs10V2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>. <b>IX509CertificateRequestPkcs10V2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,25 +70,25 @@ The <b>IX509CertificateRequestPkcs10V2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c19d9754-e96d-4093-9095-82fa0a4baf37">InitializeFromPrivateKeyTemplate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs10v2-initializefromprivatekeytemplate">InitializeFromPrivateKeyTemplate</a>
 </td>
 <td align="left" width="63%">
-Initializes the certificate request by using an <a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a> object and a certificate template.
+Initializes the certificate request by using an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a> object and a certificate template.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/20e94948-1455-46c4-bc8c-55dfde45818c">InitializeFromPublicKeyTemplate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs10v2-initializefrompublickeytemplate">InitializeFromPublicKeyTemplate</a>
 </td>
 <td align="left" width="63%">
-Initializes a null-signed certificate request by using an <a href="https://msdn.microsoft.com/cd6f28a3-9998-40d7-a3e8-dab0cf3991a8">IX509PublicKey</a> object and a template.
+Initializes a null-signed certificate request by using an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509publickey">IX509PublicKey</a> object and a template.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/599b4dfc-43a2-4be5-aa23-d3844ae442aa">InitializeFromTemplate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs10v2-initializefromtemplate">InitializeFromTemplate</a>
 </td>
 <td align="left" width="63%">
 Initializes the certificate request by using a template.
@@ -106,7 +106,7 @@ Initializes the certificate request by using a template.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/6cb17dcc-81bf-4396-a368-c974b8136e64">PolicyServer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs10v2-get_policyserver">PolicyServer</a>
 
 
 </td>
@@ -122,7 +122,7 @@ Retrieves the certificate enrollment policy (CEP) server that contains the templ
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/903288b5-c4fd-4302-8140-be84532217c1">Template</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs10v2-get_template">Template</a>
 
 
 </td>

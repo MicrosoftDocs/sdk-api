@@ -63,7 +63,7 @@ The <b>MACUpdate</b> method adds a value to a message authentication code (MAC).
 
 ### -param hMAC [in]
 
-Handle to the array specifying the MAC for the current parameter data. This handle is returned from the <a href="https://msdn.microsoft.com/d383d040-55f7-4ed7-b5b8-8e963b6cb16a">MACInit</a> method. This datatype is declared in Sac.h installed with the Windows Media Format SDK.
+Handle to the array specifying the MAC for the current parameter data. This handle is returned from the <a href="https://docs.microsoft.com/previous-versions/bb231592(v%3dvs.85)">MACInit</a> method. This datatype is declared in Sac.h installed with the Windows Media Format SDK.
 
 
 ### -param pbData [in]
@@ -87,7 +87,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 Possible values include, but are not limited to, those in the following table.
 
@@ -118,12 +118,12 @@ Possible values include, but are not limited to, those in the following table.
 
 
 
-An application calls <b>MACUpdate</b> repeatedly with each piece of data to add to the MAC. <b>MACInit</b> must always be called before <b>MACUpdate</b>, and <a href="https://msdn.microsoft.com/64dc8e36-c135-415f-a646-04919e4d031d">MACFinal</a> must always be called after <b>MACUpdate</b>. <b>MACInit</b> acquires the MAC handle, <b>phMAC</b>, to be used by the <b>MACUpdate</b> and <b>MACFinal</b> methods.
+An application calls <b>MACUpdate</b> repeatedly with each piece of data to add to the MAC. <b>MACInit</b> must always be called before <b>MACUpdate</b>, and <a href="https://docs.microsoft.com/previous-versions/bb231591(v%3dvs.85)">MACFinal</a> must always be called after <b>MACUpdate</b>. <b>MACInit</b> acquires the MAC handle, <b>phMAC</b>, to be used by the <b>MACUpdate</b> and <b>MACFinal</b> methods.
 
 
 #### Examples
 
-The following example code checks the MAC received by a call to <a href="https://msdn.microsoft.com/5b654d32-b72a-44cf-a8d9-63fc0ae76171">IWMDMStorage::GetRights</a> to verify that the data has not been tampered with.
+The following example code checks the MAC received by a call to <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getrights">IWMDMStorage::GetRights</a> to verify that the data has not been tampered with.
 
 
 ```cpp
@@ -158,11 +158,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/f02220b8-0d1c-416c-97ea-e5e7455fcbba">CSecureChannelClient Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/6cb49f6b-e303-4840-9343-9891e75e07a4">Message Authentication</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/message-authentication">Message Authentication</a>
  
 
  

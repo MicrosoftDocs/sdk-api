@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ITfUIElementMgr::EnumUIElements</b> method returns <a href="https://msdn.microsoft.com/5ee3d89c-0761-4d4b-9fd9-6b9de7ceb077">IEnumTfUIElements</a> interface pointer to enumerate the <a href="https://msdn.microsoft.com/651c3ca1-5e5b-4978-80d2-2183bd158610">ITfUIElement</a>.
+The <b>ITfUIElementMgr::EnumUIElements</b> method returns <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfuielements">IEnumTfUIElements</a> interface pointer to enumerate the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfuielement">ITfUIElement</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>ITfUIElementMgr::EnumUIElements</b> method returns <a href="https://msdn.
 
 ### -param ppEnum [in]
 
-[in] A pointer to receive the <a href="https://msdn.microsoft.com/5ee3d89c-0761-4d4b-9fd9-6b9de7ceb077">IEnumTfUIElements</a> interface.
+[in] A pointer to receive the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfuielements">IEnumTfUIElements</a> interface.
 
 
 ## -returns

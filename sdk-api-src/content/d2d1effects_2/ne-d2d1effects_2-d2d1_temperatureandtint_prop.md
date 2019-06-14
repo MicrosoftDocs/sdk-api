@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/8df72105-26ea-2dea-a4de-ef06902b7e0b">Temperature and Tint effect</a>.
+Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/temperature-and-tint-effect">Temperature and Tint effect</a>.
 
 
 ## -enum-fields

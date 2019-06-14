@@ -52,15 +52,15 @@ ms.custom: 19H1
 Used to manage report jobs.
 
 To get this interface, call the 
-    <a href="https://msdn.microsoft.com/en-us/library/ms680701(v=VS.85).aspx">CoCreateInstanceEx</a> function. Use 
+    <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmReportManager</b> as the class identifier and 
     <code>__uuidof(IFsrmReportManager)</code> as the interface identifier. For 
-    an example, see <a href="https://msdn.microsoft.com/a91c4fe7-ec8c-4d2b-b565-559e16668c87">Defining a Report Job</a>.
+    an example, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/defining-a-report-job">Defining a Report Job</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmReportManager</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFsrmReportManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmReportManager</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsrmReportManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IFsrmReportManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/30274108-a820-409e-ba7c-6971b7726b9b">CreateReportJob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-createreportjob">CreateReportJob</a>
 </td>
 <td align="left" width="63%">
 Creates a report job.
@@ -84,7 +84,7 @@ Creates a report job.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/af66beb6-e82c-47e6-8658-da9702041053">EnumReportJobs</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-enumreportjobs">EnumReportJobs</a>
 </td>
 <td align="left" width="63%">
 Enumerates the report jobs.
@@ -93,7 +93,7 @@ Enumerates the report jobs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5f3a587e-c3a8-47ee-80ac-afa0824a4585">GetDefaultFilter</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-getdefaultfilter">GetDefaultFilter</a>
 </td>
 <td align="left" width="63%">
 Retrieves the default report filter value that is used with the specified report type.
@@ -102,7 +102,7 @@ Retrieves the default report filter value that is used with the specified report
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/90df1a6e-e2e6-4095-8337-61bfd172e203">GetOutputDirectory</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-getoutputdirectory">GetOutputDirectory</a>
 </td>
 <td align="left" width="63%">
 Retrieves the local directory path where the reports with the specified context are stored.
@@ -111,7 +111,7 @@ Retrieves the local directory path where the reports with the specified context 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/60a1387f-a25f-4026-a582-71981c26dd1b">GetReportJob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-getreportjob">GetReportJob</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified report job.
@@ -120,7 +120,7 @@ Retrieves the specified report job.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1fe2546c-d70c-466a-8640-77cc2403a91d">GetReportSizeLimit</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-getreportsizelimit">GetReportSizeLimit</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current value of the specified report size limit.
@@ -129,7 +129,7 @@ Retrieves the current value of the specified report size limit.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e9f93b97-c8ac-441a-9f6b-87d45bd10cdf">IsFilterValidForReportType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-isfiltervalidforreporttype">IsFilterValidForReportType</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that determines whether a specified report filter is configurable for the specified report 
@@ -139,7 +139,7 @@ Retrieves a value that determines whether a specified report filter is configura
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5a3165a9-8161-4dad-b8b9-d0c3f54f1803">SetDefaultFilter</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-setdefaultfilter">SetDefaultFilter</a>
 </td>
 <td align="left" width="63%">
 Sets the default report filter value to use with the specified report type.
@@ -148,7 +148,7 @@ Sets the default report filter value to use with the specified report type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5bbc4255-1fed-45c5-bb13-41ee7c47ed56">SetOutputDirectory</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-setoutputdirectory">SetOutputDirectory</a>
 </td>
 <td align="left" width="63%">
 Sets the local directory path where the reports with the specified context are stored.
@@ -157,7 +157,7 @@ Sets the local directory path where the reports with the specified context are s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7d5a73ab-eccb-42e5-8796-d2986deccd34">SetReportSizeLimit</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-setreportsizelimit">SetReportSizeLimit</a>
 </td>
 <td align="left" width="63%">
 Sets the current value of the specified report size limit.
@@ -186,11 +186,11 @@ To create this object from a script, use the "Fsrm.FsrmReportManager" program
 
 
 
-<a href="https://msdn.microsoft.com/bbd888d9-1005-4173-8e82-ced13e68c09e">FSRM Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/308c5001-b84d-49ab-ae2c-f16466f9abca">FsrmReportManager</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmreportmanager">FsrmReportManager</a>
  
 
  

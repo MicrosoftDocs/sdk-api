@@ -74,12 +74,12 @@ Reserved for use by Microsoft.
 
 ### -field MacUcastCounters
 
-A <a href="https://msdn.microsoft.com/b5bb4ec9-aeec-4a64-977d-e875c3835196">WLAN_MAC_FRAME_STATISTICS</a> structure that contains MAC layer counters for unicast packets directed to the receiver of the NIC.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_mac_frame_statistics">WLAN_MAC_FRAME_STATISTICS</a> structure that contains MAC layer counters for unicast packets directed to the receiver of the NIC.
 
 
 ### -field MacMcastCounters
 
-A <a href="https://msdn.microsoft.com/b5bb4ec9-aeec-4a64-977d-e875c3835196">WLAN_MAC_FRAME_STATISTICS</a> structure that contains MAC layer counters for multicast packets directed to the current multicast address.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_mac_frame_statistics">WLAN_MAC_FRAME_STATISTICS</a> structure that contains MAC layer counters for multicast packets directed to the current multicast address.
 
 
 ### -field dwNumberOfPhys
@@ -104,7 +104,7 @@ Contains the number of <b>WLAN_PHY_FRAME_STATISTICS</b> structures in the <b>Phy
 
 ### -field PhyCounters
 
-An array of <a href="https://msdn.microsoft.com/c675a3cd-bbe5-473e-b734-12e74fd19a50">WLAN_PHY_FRAME_STATISTICS</a> structures that contain PHY layer counters.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_phy_frame_statistics">WLAN_PHY_FRAME_STATISTICS</a> structures that contain PHY layer counters.
 
 
 ## -see-also
@@ -112,15 +112,15 @@ An array of <a href="https://msdn.microsoft.com/c675a3cd-bbe5-473e-b734-12e74fd1
 
 
 
-<a href="https://msdn.microsoft.com/b5bb4ec9-aeec-4a64-977d-e875c3835196">WLAN_MAC_FRAME_STATISTICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_mac_frame_statistics">WLAN_MAC_FRAME_STATISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/c675a3cd-bbe5-473e-b734-12e74fd19a50">WLAN_PHY_FRAME_STATISTICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_phy_frame_statistics">WLAN_PHY_FRAME_STATISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/e20eb9a3-5824-48ee-b13e-b0252bbf495e">WlanQueryInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanqueryinterface">WlanQueryInterface</a>
  
 
  

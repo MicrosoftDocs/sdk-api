@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Instructs the container to discard its undo state. The container should not call <a href="https://msdn.microsoft.com/b41bbfd6-1a86-4ca6-9d4b-c87c4feea7c3">IOleInPlaceObject::ReActivateAndUndo</a>.
+Instructs the container to discard its undo state. The container should not call <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceobject-reactivateandundo">IOleInPlaceObject::ReActivateAndUndo</a>.
 
 
 ## -parameters
@@ -106,11 +106,11 @@ If an object is activated in place and the object's associated object applicatio
 
 
 
-<a href="https://msdn.microsoft.com/6d37e022-8c19-48b3-affb-e0eca19b5e05">IOleInPlaceSite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a>
 
 
 
-<a href="https://msdn.microsoft.com/8fe69aa5-a526-4e95-920b-01f84ae4ca83">IOleInPlaceSite::DiscardUndoState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-discardundostate">IOleInPlaceSite::DiscardUndoState</a>
  
 
  

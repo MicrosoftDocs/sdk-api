@@ -54,7 +54,7 @@ Provides control of the presentation data that gets cached inside of an object. 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleCache</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IOleCache</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleCache</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOleCache</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IOleCache</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2a86063a-3ee6-4fc2-a6e0-6e9ffa658348">Cache</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">Cache</a>
 </td>
 <td align="left" width="63%">
 Specifies the format and other data to be cached inside an embedded object.
@@ -78,7 +78,7 @@ Specifies the format and other data to be cached inside an embedded object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a8d99926-8fb9-4624-8025-483101cb9311">EnumCache</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-enumcache">EnumCache</a>
 </td>
 <td align="left" width="63%">
 Creates an enumerator that can be used to enumerate the current cache connections.
@@ -87,7 +87,7 @@ Creates an enumerator that can be used to enumerate the current cache connection
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4b1f2fb6-636c-47dd-8f89-884f7b4f3977">InitCache</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-initcache">InitCache</a>
 </td>
 <td align="left" width="63%">
 Fills the cache as needed using the  data provided by the specified data object.
@@ -96,7 +96,7 @@ Fills the cache as needed using the  data provided by the specified data object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b826411d-6e00-44ba-8603-85db40c4a55f">SetData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-setdata">SetData</a>
 </td>
 <td align="left" width="63%">
 Initializes the cache with data in a specified format and on a specified medium.
@@ -105,10 +105,10 @@ Initializes the cache with data in a specified format and on a specified medium.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a6a57bdd-190f-485b-9b46-cbfc1a1d29a6">Uncache</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-uncache">Uncache</a>
 </td>
 <td align="left" width="63%">
-Removes a cache connection created previously using <a href="https://msdn.microsoft.com/2a86063a-3ee6-4fc2-a6e0-6e9ffa658348">IOleCache::Cache</a>.
+Removes a cache connection created previously using <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a>.
 
 </td>
 </tr>
@@ -120,15 +120,15 @@ Removes a cache connection created previously using <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/8a64675b-1337-4555-b9a6-e19f9b987ba2">CreateDataCache</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createdatacache">CreateDataCache</a>
 
 
 
-<a href="https://msdn.microsoft.com/8bbeca2d-c805-4116-b918-e2ddded8b160">IOleCache2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecache2">IOleCache2</a>
 
 
 
-<a href="https://msdn.microsoft.com/64cc7a29-0bbb-4535-a7b5-9b1d82ad7e8a">IOleCacheControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecachecontrol">IOleCacheControl</a>
  
 
  

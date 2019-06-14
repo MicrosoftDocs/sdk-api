@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The WlxInitialize function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>WlxInitialize</b> function must be implemented by a replacement <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> DLL. <a href="https://msdn.microsoft.com/031c898b-3b4d-4b29-811a-112da37b5e3d">Winlogon</a> calls this function once for each window station present on the computer. Currently, the operating system supports one window station per workstation.
-<div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>The <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a> returned by this function will be passed back to the GINA in all subsequent calls.
+The <b>WlxInitialize</b> function must be implemented by a replacement <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> DLL. <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> calls this function once for each window station present on the computer. Currently, the operating system supports one window station per workstation.
+<div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> returned by this function will be passed back to the GINA in all subsequent calls.
 
 
 ## -parameters
@@ -78,7 +78,7 @@ This parameter is reserved for future use and must be set to <b>NULL</b>.
 ### -param pWinlogonFunctions [in]
 
 A pointer to a Winlogon support function dispatch table. The contents of the table depend on the GINA DLL version returned by the 
-<a href="https://msdn.microsoft.com/9e7bab30-5cc6-4c55-82e4-d888e1af59ed">WlxNegotiate</a> call. This table does not change, which allows the GINA DLL to reference the table without copying it. If the GINA DLL needs to make a copy of the table, it should call <a href="https://msdn.microsoft.com/724477d4-ec56-44bd-801e-23c225bafd03">WlxGetOption</a> and supply WLX_OPTION_DISPATCH_TABLE_SIZE for the <b>Option</b> parameter.
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxnegotiate">WlxNegotiate</a> call. This table does not change, which allows the GINA DLL to reference the table without copying it. If the GINA DLL needs to make a copy of the table, it should call <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_get_option">WlxGetOption</a> and supply WLX_OPTION_DISPATCH_TABLE_SIZE for the <b>Option</b> parameter.
 
 <table>
 <tr>
@@ -87,7 +87,7 @@ A pointer to a Winlogon support function dispatch table. The contents of the tab
 </tr>
 <tr>
 <td width="40%"><a id="WLX_DISPATCH_VERSION_1_4"></a><a id="wlx_dispatch_version_1_4"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/b2d0c936-5430-48ed-b808-92209b909406">WLX_DISPATCH_VERSION_1_4</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_dispatch_version_1_4">WLX_DISPATCH_VERSION_1_4</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -97,7 +97,7 @@ Winlogon dispatch table - version 1.4
 </tr>
 <tr>
 <td width="40%"><a id="WLX_DISPATCH_VERSION_1_3"></a><a id="wlx_dispatch_version_1_3"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/47e343b8-ee54-45de-98c6-0ec75b45aa90">WLX_DISPATCH_VERSION_1_3</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_dispatch_version_1_3">WLX_DISPATCH_VERSION_1_3</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -107,7 +107,7 @@ Winlogon dispatch table - version 1.3
 </tr>
 <tr>
 <td width="40%"><a id="WLX_DISPATCH_VERSION_1_2"></a><a id="wlx_dispatch_version_1_2"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/d6b3444f-ee74-40b3-a729-304c8e50195b">WLX_DISPATCH_VERSION_1_2</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_dispatch_version_1_2">WLX_DISPATCH_VERSION_1_2</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -117,7 +117,7 @@ Winlogon dispatch table - version 1.2
 </tr>
 <tr>
 <td width="40%"><a id="WLX_DISPATCH_VERSION_1_1"></a><a id="wlx_dispatch_version_1_1"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/b76f4417-4414-4912-924f-3afef7156f08">WLX_DISPATCH_VERSION_1_1</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_dispatch_version_1_1">WLX_DISPATCH_VERSION_1_1</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -127,7 +127,7 @@ Winlogondispatch table - version 1.1
 </tr>
 <tr>
 <td width="40%"><a id="WLX_DISPATCH_VERSION_1_0"></a><a id="wlx_dispatch_version_1_0"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/13b08978-5112-44d8-ae41-207e0040eb73">WLX_DISPATCH_VERSION_1_0</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_dispatch_version_1_0">WLX_DISPATCH_VERSION_1_0</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -141,7 +141,7 @@ Winlogon dispatch table - version 1.0
 
 ### -param pWlxContext [out]
 
-A pointer to a pointer to a <b>VOID</b> that will contain the address of the GINA context for this window station. This context is passed in all subsequent calls to the GINA from Winlogon. The GINA DLL manages any memory used by the context. The context pointer can be changed later by calling the <a href="https://msdn.microsoft.com/59f775dd-b3ed-4a57-bec7-fa6ddf267401">WlxSetOption</a> function with WLX_OPTION_CONTEXT_POINTER.
+A pointer to a pointer to a <b>VOID</b> that will contain the address of the GINA context for this window station. This context is passed in all subsequent calls to the GINA from Winlogon. The GINA DLL manages any memory used by the context. The context pointer can be changed later by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_set_option">WlxSetOption</a> function with WLX_OPTION_CONTEXT_POINTER.
 
 
 ## -returns
@@ -173,7 +173,7 @@ Before calling <b>WlxInitialize</b>, Winlogon sets the desktop state so that the
 
 
 
-<a href="https://msdn.microsoft.com/9e7bab30-5cc6-4c55-82e4-d888e1af59ed">WlxNegotiate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxnegotiate">WlxNegotiate</a>
  
 
  

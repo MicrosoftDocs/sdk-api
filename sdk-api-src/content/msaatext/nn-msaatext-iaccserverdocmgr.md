@@ -60,7 +60,7 @@ Exposes methods that make documents accessible to client applications.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccServerDocMgr</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAccServerDocMgr</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccServerDocMgr</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAccServerDocMgr</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IAccServerDocMgr</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8bac6081-3b4e-45df-a900-66bc037a232f">NewDocument</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msaatext/nf-msaatext-iaccserverdocmgr-newdocument">NewDocument</a>
 </td>
 <td align="left" width="63%">
 Creates a wrapped document and registers it with the store.
@@ -84,7 +84,7 @@ Creates a wrapped document and registers it with the store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/305566ed-20c2-42b6-99c8-108e99f9daeb">OnDocumentFocus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msaatext/nf-msaatext-iaccserverdocmgr-ondocumentfocus">OnDocumentFocus</a>
 </td>
 <td align="left" width="63%">
 Notifies the Microsoft Active Accessibility run time when a document gets or loses focus.
@@ -93,7 +93,7 @@ Notifies the Microsoft Active Accessibility run time when a document gets or los
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8691a641-fc06-451c-9988-234e01dc02df">RevokeDocument</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msaatext/nf-msaatext-iaccserverdocmgr-revokedocument">RevokeDocument</a>
 </td>
 <td align="left" width="63%">
 Notifies the Microsoft Active Accessibility run time that a document is no longer available.

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Color::GetG</b> method gets the green component of this <a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a> object.
+The <b>Color::GetG</b> method gets the green component of this <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object.
 
 
 ## -parameters
@@ -77,39 +77,39 @@ This method returns the green component of this color.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536246(v=VS.85).aspx">Color::GetAlpha</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getalpha">Color::GetAlpha</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536247(v=VS.85).aspx">Color::GetB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getb">Color::GetB</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536248(v=VS.85).aspx">Color::GetBlue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getblue">Color::GetBlue</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536249(v=VS.85).aspx">Color::GetG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getg">Color::GetG</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536250(v=VS.85).aspx">Color::GetGreen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getgreen">Color::GetGreen</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536251(v=VS.85).aspx">Color::GetR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getr">Color::GetR</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536252(v=VS.85).aspx">Color::GetRed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getred">Color::GetRed</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536253(v=VS.85).aspx">Color::GetValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getvalue">Color::GetValue</a>
  
 
  

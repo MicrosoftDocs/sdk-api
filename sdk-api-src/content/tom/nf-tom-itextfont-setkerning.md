@@ -70,7 +70,7 @@ The new value of the minimum kerning size, in floating-point points.
 
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -145,11 +145,11 @@ If this value is zero, kerning is turned off. Positive values turn on pair kerni
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773973(v=VS.85).aspx">GetKerning</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getkerning">GetKerning</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
 
 
 
@@ -157,7 +157,7 @@ If this value is zero, kerning is turned off. Positive values turn on pair kerni
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
  
 
  

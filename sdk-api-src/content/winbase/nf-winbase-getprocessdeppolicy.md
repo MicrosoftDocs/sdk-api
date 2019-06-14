@@ -104,7 +104,7 @@ DEP is enabled for the specified process.
 </dl>
 </td>
 <td width="60%">
-DEP-ATL thunk emulation is disabled for the specified process. For information about DEP-ATL thunk emulation, see <a href="https://msdn.microsoft.com/17c9f522-fd64-4061-9212-8fc91cc96b18">SetProcessDEPPolicy</a>.
+DEP-ATL thunk emulation is disabled for the specified process. For information about DEP-ATL thunk emulation, see <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setprocessdeppolicy">SetProcessDEPPolicy</a>.
 
 </td>
 </tr>
@@ -114,7 +114,7 @@ DEP-ATL thunk emulation is disabled for the specified process. For information a
 
 ### -param lpPermanent [out]
 
-<b>TRUE</b> if DEP is enabled or disabled permanently for the specified process; otherwise <b>FALSE</b>. If <i>lpPermanent</i> is <b>TRUE</b>, the current DEP setting persists for the life of the process and cannot be changed by calling <a href="https://msdn.microsoft.com/17c9f522-fd64-4061-9212-8fc91cc96b18">SetProcessDEPPolicy</a>.
+<b>TRUE</b> if DEP is enabled or disabled permanently for the specified process; otherwise <b>FALSE</b>. If <i>lpPermanent</i> is <b>TRUE</b>, the current DEP setting persists for the life of the process and cannot be changed by calling <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setprocessdeppolicy">SetProcessDEPPolicy</a>.
 
 
 ## -returns
@@ -123,7 +123,7 @@ DEP-ATL thunk emulation is disabled for the specified process. For information a
 
 If the function succeeds, it returns <b>TRUE</b>.
 
-If the function fails, it returns <b>FALSE</b>. To retrieve error values defined for this function,  call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, it returns <b>FALSE</b>. To retrieve error values defined for this function,  call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -134,7 +134,7 @@ If the function fails, it returns <b>FALSE</b>. To retrieve error values defined
 
 <b>GetProcessDEPPolicy</b> is supported for 32-bit processes only. If this function is called on a 64-bit process, it fails with <b>ERROR_NOT_SUPPORTED</b>.
 
-To compile an application that calls this function, define <b>_WIN32_WINNT</b> as 0x0600 or later. For more information, see <a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+To compile an application that calls this function, define <b>_WIN32_WINNT</b> as 0x0600 or later. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 
@@ -144,15 +144,15 @@ To compile an application that calls this function, define <b>_WIN32_WINNT</b> a
 
 
 
-<a href="https://msdn.microsoft.com/75cd83a5-4b77-4ca9-b595-e32d0dd609d0">Data Execution Prevention</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/data-execution-prevention">Data Execution Prevention</a>
 
 
 
-<a href="https://msdn.microsoft.com/82cb1d4e-c0e5-4601-aa55-9171a106c286">GetSystemDEPPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getsystemdeppolicy">GetSystemDEPPolicy</a>
 
 
 
-<a href="https://msdn.microsoft.com/17c9f522-fd64-4061-9212-8fc91cc96b18">SetProcessDEPPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setprocessdeppolicy">SetProcessDEPPolicy</a>
  
 
  

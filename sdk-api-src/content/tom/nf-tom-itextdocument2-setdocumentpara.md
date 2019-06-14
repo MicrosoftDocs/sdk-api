@@ -59,7 +59,7 @@ Sets the default paragraph formatting  for this instance of the Text Object Mode
 
 ### -param pPara [in]
 
-Type: <b><a href="https://msdn.microsoft.com/31a0849f-c651-4178-b1ff-a4333bcde5d9">ITextPara2</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara2">ITextPara2</a>*</b>
 
 The paragraph object that provides the default paragraph formatting
 
@@ -68,7 +68,7 @@ The paragraph object that provides the default paragraph formatting
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -79,7 +79,7 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-You can also set the default paragraph formatting by calling <a href="https://msdn.microsoft.com/en-us/library/Bb787849(v=VS.85).aspx">ITextPara::Reset(tomDefault)</a>.
+You can also set the default paragraph formatting by calling <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-reset">ITextPara::Reset(tomDefault)</a>.
 
 
 
@@ -89,11 +89,11 @@ You can also set the default paragraph formatting by calling <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/0b0a54d7-7606-41f6-b8be-6367d9180ef4">ITextDocument2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument2">ITextDocument2</a>
 
 
 
-<a href="https://msdn.microsoft.com/3667587e-3cf1-4b86-82fd-2fc34d4cbeee">ITextDocument2::GetDocumentPara</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-getdocumentpara">ITextDocument2::GetDocumentPara</a>
  
 
  

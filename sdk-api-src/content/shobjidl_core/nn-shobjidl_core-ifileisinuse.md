@@ -54,7 +54,7 @@ Exposes methods that can be called to get information on or close a file that is
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileIsInUse</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IFileIsInUse</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileIsInUse</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFileIsInUse</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IFileIsInUse</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/27338e5a-b303-4b72-b316-3059ec6f1698">CloseFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileisinuse-closefile">CloseFile</a>
 </td>
 <td align="left" width="63%">
 Closes the file currently in use.
@@ -78,7 +78,7 @@ Closes the file currently in use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/282334a9-28b4-4c3f-977e-824011efe381">GetAppName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileisinuse-getappname">GetAppName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the application that is using the file.
@@ -87,7 +87,7 @@ Retrieves the name of the application that is using the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d2ce674a-4c06-401d-bfb0-bc2a086ef89c">GetCapabilities</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileisinuse-getcapabilities">GetCapabilities</a>
 </td>
 <td align="left" width="63%">
 Determines whether the file can be closed and whether the UI is capable of switching to the window of the application that is using the file.
@@ -96,7 +96,7 @@ Determines whether the file can be closed and whether the UI is capable of switc
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b4223cb0-2027-4073-9558-99ae27f4e52a">GetSwitchToHWND</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileisinuse-getswitchtohwnd">GetSwitchToHWND</a>
 </td>
 <td align="left" width="63%">
 Retrieves the handle of the top-level window of the application that is using the file.
@@ -105,7 +105,7 @@ Retrieves the handle of the top-level window of the application that is using th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7baba34d-b246-4d48-9f0c-e950d33ed5cf">GetUsage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileisinuse-getusage">GetUsage</a>
 </td>
 <td align="left" width="63%">
 Gets a value that indicates how the file in use is being used.
@@ -128,16 +128,16 @@ Perform these steps to add a file to the ROT:
 
 
 <ol>
-<li>Call the <a href="https://msdn.microsoft.com/65d9cf7d-cc8a-4199-9a4a-7fd67ef8872d">GetRunningObjectTable</a> function to retrieve an instance of <a href="https://msdn.microsoft.com/ff89bcb5-df6d-4325-b0e8-613217a68f42">IRunningObjectTable</a>.</li>
+<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-getrunningobjecttable">GetRunningObjectTable</a> function to retrieve an instance of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irunningobjecttable">IRunningObjectTable</a>.</li>
 <li>Create an <b>IFileIsInUse</b> object for the file that is currently in use.</li>
-<li>Create an <a href="https://msdn.microsoft.com/17f4c1df-7a9c-42ef-a888-70cd8d85f070">IMoniker</a> object for the file that is currently in use.</li>
-<li>Insert the <b>IFileIsInUse</b> and <a href="https://msdn.microsoft.com/17f4c1df-7a9c-42ef-a888-70cd8d85f070">IMoniker</a> objects into the ROT by calling <a href="https://msdn.microsoft.com/40f815b2-dfea-416c-aae1-7ba3a710ad91">IRunningObjectTable::Register</a>.</li>
+<li>Create an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> object for the file that is currently in use.</li>
+<li>Insert the <b>IFileIsInUse</b> and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> objects into the ROT by calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-register">IRunningObjectTable::Register</a>.</li>
 </ol>
 
 
-In the call to <a href="https://msdn.microsoft.com/40f815b2-dfea-416c-aae1-7ba3a710ad91">Register</a>, specify the <b>ROTFLAGS_ALLOWANYCLIENT</b> flag. This allows the ROT entry to work across security boundaries. Use of this flag requires the calling application to have an explicit Application User Model ID (AppUserModelID) (<a href="https://msdn.microsoft.com/07858b3c-e601-40ec-a87a-d66612d5473a">System.AppUserModel.ID</a>). An explicit AppUserModelID allows the Component Object Model (COM) to inspect the application's security settings. An attempt to call <b>Register</b> with ROTFLAGS_ALLOWANYCLIENT and no explicit AppUserModelID will fail. You can call <b>Register</b> without the ROTFLAGS_ALLOWANYCLIENT flag and the application will work correctly, but only within its own security level.
+In the call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-register">Register</a>, specify the <b>ROTFLAGS_ALLOWANYCLIENT</b> flag. This allows the ROT entry to work across security boundaries. Use of this flag requires the calling application to have an explicit Application User Model ID (AppUserModelID) (<a href="https://docs.microsoft.com/windows/desktop/properties/props-system-appusermodel-id">System.AppUserModel.ID</a>). An explicit AppUserModelID allows the Component Object Model (COM) to inspect the application's security settings. An attempt to call <b>Register</b> with ROTFLAGS_ALLOWANYCLIENT and no explicit AppUserModelID will fail. You can call <b>Register</b> without the ROTFLAGS_ALLOWANYCLIENT flag and the application will work correctly, but only within its own security level.
 
-The value retrieved in the <a href="https://msdn.microsoft.com/40f815b2-dfea-416c-aae1-7ba3a710ad91">Register</a> method's [out] parameter is used to identify the entry in later calls to retrieve or remove it from the ROT.
+The value retrieved in the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-register">Register</a> method's [out] parameter is used to identify the entry in later calls to retrieve or remove it from the ROT.
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 Applications that open file types that can be opened by other applications should implement <b>IFileIsInUse</b>. An application's implementation of this interface enables Windows Explorer to discover the source of sharing errors, which enables users to address and retry operations that fail due to those errors.
@@ -146,7 +146,7 @@ Applications that open file types that can be opened by other applications shoul
 An application calls <b>IFileIsInUse</b> to communicate with other applications to resolve sharing errors. These errors occur in response to user action in the file system. For example, when a user attempts to rename a folder while a file in that folder is open in an application, the renaming operation fails. Windows Explorer can call that appplication's implementation of <b>IFileIsInUse</b> to help the user identify the conflict and resolve this issue.
 
 <h3><a id="Sample"></a><a id="sample"></a><a id="SAMPLE"></a>Sample</h3>
-See the <a href="https://msdn.microsoft.com/22EFE7CC-D223-46b3-BD6B-293E3FA0BA01">File Is in Use</a> sample, which demonstrates how to implement <b>IFileIsInUse</b> and register a file with the ROT. It then shows how to customize the <b>File In Use</b> dialog to display additional information and options for files currently opened in an application.
+See the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ee330722(v=vs.85)">File Is in Use</a> sample, which demonstrates how to implement <b>IFileIsInUse</b> and register a file with the ROT. It then shows how to customize the <b>File In Use</b> dialog to display additional information and options for files currently opened in an application.
 
 
 
@@ -156,7 +156,7 @@ See the <a href="https://msdn.microsoft.com/22EFE7CC-D223-46b3-BD6B-293E3FA0BA01
 
 
 
-<a href="https://msdn.microsoft.com/ebce2d99-6f20-4545-9f12-d79cd8d0828f">Application User Model IDs (AppUserModelIDs)</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/appids">Application User Model IDs (AppUserModelIDs)</a>
  
 
  

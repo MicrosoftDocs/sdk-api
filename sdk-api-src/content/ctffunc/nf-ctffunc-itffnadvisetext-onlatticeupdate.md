@@ -58,12 +58,12 @@ ms.custom: 19H1
 
 ### -param pRange [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange</a> object that represents the range of text that changed.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that represents the range of text that changed.
 
 
 ### -param pLattice [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/25ad6ef2-1d42-498a-852f-163a0efbc26a">ITfLMLattice</a> object that represents the new lattice element.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itflmlattice">ITfLMLattice</a> object that represents the new lattice element.
 
 
 ## -returns
@@ -110,15 +110,15 @@ One or more parameters are invalid.
 
 
 
-<a href="https://msdn.microsoft.com/7cca7f23-48d3-4855-8f3d-e937bbc990d4">ITfFnAdviseText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itffnadvisetext">ITfFnAdviseText</a>
 
 
 
-<a href="https://msdn.microsoft.com/25ad6ef2-1d42-498a-852f-163a0efbc26a">ITfLMLattice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itflmlattice">ITfLMLattice</a>
 
 
 
-<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
  
 

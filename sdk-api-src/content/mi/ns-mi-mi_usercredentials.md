@@ -64,7 +64,7 @@ and password or a certificate thumbprint.
 
 #### MI_AUTH_TYPE_DEFAULT (MI_T("Default"))
 
-Transport picks the default specific to it. For example, <a href="https://msdn.microsoft.com/6429e748-e0bf-431a-8989-db5b211665d5">Windows Remote Management</a> (winrm) uses Kerberos and NegotiateWithoutCredentials as default.
+Transport picks the default specific to it. For example, <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a> (winrm) uses Kerberos and NegotiateWithoutCredentials as default.
 
 
 

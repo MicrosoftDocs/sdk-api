@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Called when an <b>Open</b> button drop-down list customized through <a href="https://msdn.microsoft.com/b4626030-0fc7-4329-b897-01f4ce8728a0">EnableOpenDropDown</a> or a <b>Tools</b> menu is about to display its contents.
+Called when an <b>Open</b> button drop-down list customized through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-enableopendropdown">EnableOpenDropDown</a> or a <b>Tools</b> menu is about to display its contents.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ Called when an <b>Open</b> button drop-down list customized through <a href="htt
 
 ### -param pfdc [in]
 
-Type: <b><a href="https://msdn.microsoft.com/f1c29688-3538-40ff-a1da-6211cc5dded7">IFileDialogCustomize</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogcustomize">IFileDialogCustomize</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/f1c29688-3538-40ff-a1da-6211cc5dded7">IFileDialogCustomize</a> object through which the application adds controls to the dialog.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogcustomize">IFileDialogCustomize</a> object through which the application adds controls to the dialog.
 
 
 ### -param dwIDCtl [in]

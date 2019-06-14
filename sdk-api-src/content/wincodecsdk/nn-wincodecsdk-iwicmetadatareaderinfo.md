@@ -54,7 +54,7 @@ Exposes methods that provide basic information about the registered metadata rea
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICMetadataReaderInfo</b> interface inherits from <a href="https://msdn.microsoft.com/505105c2-de50-4b5f-9089-e9a3cea2f464">IWICMetadataHandlerInfo</a>. <b>IWICMetadataReaderInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICMetadataReaderInfo</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatahandlerinfo">IWICMetadataHandlerInfo</a>. <b>IWICMetadataReaderInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,16 +69,16 @@ The <b>IWICMetadataReaderInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e6ee4ee9-8d9d-44f7-aab8-8e8ccfa7f942">CreateInstance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatareaderinfo-createinstance">CreateInstance</a>
 </td>
 <td align="left" width="63%">
-Creates an instance of an <a href="https://msdn.microsoft.com/0495ecf1-128a-4576-8420-0e79f1454015">IWICMetadataReader</a>.
+Creates an instance of an <a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatareader">IWICMetadataReader</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bc0033f7-801d-4ae0-a2cb-bdda25303476">GetPatterns</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatareaderinfo-getpatterns">GetPatterns</a>
 </td>
 <td align="left" width="63%">
 Gets the metadata patterns associated with the metadata reader.
@@ -87,7 +87,7 @@ Gets the metadata patterns associated with the metadata reader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/58ac58f4-25e0-4fc4-8d2a-854bb89e4af6">MatchesPattern</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatareaderinfo-matchespattern">MatchesPattern</a>
 </td>
 <td align="left" width="63%">
 Determines if a stream contains a metadata item pattern.

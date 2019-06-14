@@ -54,7 +54,7 @@ A Microsoft Active Accessibility object implements this interface when the objec
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccessibleHostingElementProviders</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAccessibleHostingElementProviders</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccessibleHostingElementProviders</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAccessibleHostingElementProviders</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAccessibleHostingElementProviders</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/39A9665F-C2F3-48A2-A165-50AD3B82455F">GetEmbeddedFragmentRoots</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iaccessiblehostingelementproviders-getembeddedfragmentroots">GetEmbeddedFragmentRoots</a>
 </td>
 <td align="left" width="63%">
 Retrieves the  Microsoft Active Accessibility providers of  all windowless ActiveX controls that have a UI Automation provider implementation, and are hosted in a Microsoft Active Accessibility object that implements the <b>IAccessibleHostingElementProviders</b> interface.
@@ -78,7 +78,7 @@ Retrieves the  Microsoft Active Accessibility providers of  all windowless Activ
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/847F285F-F31D-486C-BBC7-DEED69505306">GetObjectIdForProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iaccessiblehostingelementproviders-getobjectidforprovider">GetObjectIdForProvider</a>
 </td>
 <td align="left" width="63%">
 Retrieves the object ID associated with a contained windowless ActiveX control that implements UI Automation.  
@@ -93,7 +93,7 @@ Retrieves the object ID associated with a contained windowless ActiveX control t
 
 
 
-<a href="https://msdn.microsoft.com/2DBD5B1A-127A-4D71-8117-5FCCE653698C">IRawElementProviderHostingAccessibles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderhostingaccessibles">IRawElementProviderHostingAccessibles</a>
  
 
  

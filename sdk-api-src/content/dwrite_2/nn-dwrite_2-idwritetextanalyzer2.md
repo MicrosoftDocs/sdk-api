@@ -54,7 +54,7 @@ Analyzes various text properties for complex script processing.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextAnalyzer2</b> interface inherits from <a href="https://msdn.microsoft.com/7F79BA25-5D79-4491-82E3-F9B96DD0C37D">IDWriteTextAnalyzer1</a>. <b>IDWriteTextAnalyzer2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextAnalyzer2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritetextanalyzer1">IDWriteTextAnalyzer1</a>. <b>IDWriteTextAnalyzer2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDWriteTextAnalyzer2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D929E654-1DF1-49AB-A311-010DB2D79E06">CheckTypographicFeature</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritetextanalyzer2-checktypographicfeature">CheckTypographicFeature</a>
 </td>
 <td align="left" width="63%">
 Checks if a typographic feature is available for a glyph or a set of glyphs.
@@ -78,7 +78,7 @@ Checks if a typographic feature is available for a glyph or a set of glyphs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4483AB14-3BC6-4980-A455-131BCBEBBFB9">GetGlyphOrientationTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritetextanalyzer2-getglyphorientationtransform">GetGlyphOrientationTransform</a>
 </td>
 <td align="left" width="63%">
 Returns 2x3 transform matrix for the respective angle to draw the
@@ -88,7 +88,7 @@ Returns 2x3 transform matrix for the respective angle to draw the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/36CAC2F8-9065-4FD9-8EFD-529B97CE94D8">GetTypographicFeatures</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritetextanalyzer2-gettypographicfeatures">GetTypographicFeatures</a>
 </td>
 <td align="left" width="63%">
 Returns a complete list of OpenType features available for a script or font.
@@ -103,7 +103,7 @@ Returns a complete list of OpenType features available for a script or font.
 
 
 
-<a href="https://msdn.microsoft.com/7F79BA25-5D79-4491-82E3-F9B96DD0C37D">IDWriteTextAnalyzer1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritetextanalyzer1">IDWriteTextAnalyzer1</a>
  
 
  

@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/f38c5b0f-8010-4db1-802c-5005c332188b">ISearchResult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-isearchresult">ISearchResult</a>
  
 
  

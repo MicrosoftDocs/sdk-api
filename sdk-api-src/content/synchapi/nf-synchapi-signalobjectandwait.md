@@ -75,7 +75,7 @@ If the handle is a semaphore, the <b>SEMAPHORE_MODIFY_STATE</b> access right is 
 ### -param hObjectToWaitOn [in]
 
 A handle to the object to wait on. The <b>SYNCHRONIZE</b> access right is required; for more information, see 
-<a href="https://msdn.microsoft.com/92478298-617c-4672-a1cc-9a8e9af40327">Synchronization Object Security and Access Rights</a>. For a list of the object types whose handles you can specify, see the Remarks section.
+<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>. For a list of the object types whose handles you can specify, see the Remarks section.
 
 
 ### -param dwMilliseconds [in]
@@ -128,7 +128,7 @@ If the mutex was protecting persistent state information, you should check it fo
 </td>
 <td width="60%">
 The wait was ended by one or more user-mode 
-<a href="https://msdn.microsoft.com/0197d78e-a4dc-414b-88ba-c5ec5f2ed614">asynchronous procedure calls</a> (APC) queued to the thread.
+<a href="https://docs.microsoft.com/windows/desktop/Sync/asynchronous-procedure-calls">asynchronous procedure calls</a> (APC) queued to the thread.
 
 </td>
 </tr>
@@ -165,7 +165,7 @@ The time-out interval elapsed, and the object's state is nonsignaled.
 </td>
 <td width="60%">
 The function has failed. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 </td>
 </tr>
@@ -179,7 +179,7 @@ The function has failed. To get extended error information, call
 
 
 
-The <b>SignalObjectAndWait</b> function  provides a more efficient way to signal one object and then wait on another compared to separate function calls such as  <a href="https://msdn.microsoft.com/b474eef1-5df9-4729-b940-0c5f201c5f31">SetEvent</a> followed by <a href="https://msdn.microsoft.com/e37ebff7-b44e-469d-81ab-7a6bd1a0c822">WaitForSingleObject</a>. 
+The <b>SignalObjectAndWait</b> function  provides a more efficient way to signal one object and then wait on another compared to separate function calls such as  <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-setevent">SetEvent</a> followed by <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject">WaitForSingleObject</a>. 
 
 The 
 <b>SignalObjectAndWait</b> function can wait for the following objects:
@@ -196,7 +196,7 @@ The
 <li>Waitable timer</li>
 </ul>
 For more information, see 
-<a href="https://msdn.microsoft.com/11558ae9-1056-48bf-96f5-94a051df41c3">Synchronization Objects</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-objects">Synchronization Objects</a>.
 
 A thread can use the <b>SignalObjectAndWait</b> function to ensure that a  worker thread is in a wait state before signaling an object. For example, a thread and a worker thread may use handles to event objects to synchronize their work. The thread executes code such as the following:
 
@@ -213,14 +213,14 @@ The worker thread executes code such as the following:
 </code></pre>
 Note that the "signal" and "wait" are not guaranteed to be performed as an atomic operation. Threads executing on other processors can observe the signaled state of the first object before the thread calling <b>SignalObjectAndWait</b> begins its wait on the second object.
 
-Use extreme caution when using  <b>SignalObjectAndWait</b>  and <a href="https://msdn.microsoft.com/b3cfe15a-1a0e-4c29-8840-032e56404400">PulseEvent</a> with Windows 7, since using these APIs among multiple threads can cause an application to deadlock. Threads that are signaled by <b>SignalObjectAndWait</b>  call <b>PulseEvent</b> to signal the waiting object of the <b>SignalObjectAndWait</b> call. In some circumstances, the caller of <b>SignalObjectAndWait</b> can't receive signal state of the waiting object in time, causing a deadlock.
+Use extreme caution when using  <b>SignalObjectAndWait</b>  and <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-pulseevent">PulseEvent</a> with Windows 7, since using these APIs among multiple threads can cause an application to deadlock. Threads that are signaled by <b>SignalObjectAndWait</b>  call <b>PulseEvent</b> to signal the waiting object of the <b>SignalObjectAndWait</b> call. In some circumstances, the caller of <b>SignalObjectAndWait</b> can't receive signal state of the waiting object in time, causing a deadlock.
 
 Use caution when using the wait functions and code that directly or indirectly creates windows. If a thread creates any windows, it must process messages. Message broadcasts are sent to all windows in the system. A thread that uses a wait function with no time-out interval may cause the system to become deadlocked. Two examples of code that indirectly creates windows are DDE and COM <b>CoInitialize</b>. Therefore, if you have a thread that creates windows, be sure to call <b>SignalObjectAndWait</b> from a different thread. If this is not possible, you can use 
-<a href="https://msdn.microsoft.com/0629f1b3-6805-43a7-9aeb-4f80939ec62c">MsgWaitForMultipleObjects</a> or 
-<a href="https://msdn.microsoft.com/1774b721-3ad4-492e-96af-b71de9066f0c">MsgWaitForMultipleObjectsEx</a>, but the functionality is not equivalent.
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjects">MsgWaitForMultipleObjects</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjectsex">MsgWaitForMultipleObjectsEx</a>, but the functionality is not equivalent.
 
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0400 or later. For more information, see 
-<a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 
@@ -230,19 +230,19 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 
 
-<a href="https://msdn.microsoft.com/0629f1b3-6805-43a7-9aeb-4f80939ec62c">MsgWaitForMultipleObjects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjects">MsgWaitForMultipleObjects</a>
 
 
 
-<a href="https://msdn.microsoft.com/1774b721-3ad4-492e-96af-b71de9066f0c">MsgWaitForMultipleObjectsEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjectsex">MsgWaitForMultipleObjectsEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b6359c2-0113-49b6-83d0-316ad95aba1b">Synchronization Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9c66c71d-fdfd-42ae-895c-2fc842b5bc7a">Wait Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">Wait Functions</a>
  
 
  

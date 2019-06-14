@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCI_DGV_RECT_PARMS</b> structure contains parameters for the <a href="https://msdn.microsoft.com/6f90984a-24dc-4046-8234-986b2125bab4">MCI_FREEZE</a>, <a href="https://msdn.microsoft.com/9d81682b-6546-4e6d-a6df-e2de8c013b66">MCI_PUT</a>, <a href="https://msdn.microsoft.com/79ff1be5-6e30-4ef4-ab81-fc5643e3a72d">MCI_UNFREEZE</a>, and <a href="https://msdn.microsoft.com/f64a7e49-4ee1-4836-ba9a-0bbdc47626b3">MCI_WHERE</a> commands for digital-video devices.
+The <b>MCI_DGV_RECT_PARMS</b> structure contains parameters for the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-freeze">MCI_FREEZE</a>, <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-put">MCI_PUT</a>, <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-unfreeze">MCI_UNFREEZE</a>, and <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-where">MCI_WHERE</a> commands for digital-video devices.
 
 
 
@@ -84,9 +84,9 @@ Rectangle containing positioning information. <a href="http://go.microsoft.com/f
 
 
 
-The <a href="https://msdn.microsoft.com/66dc6390-b966-43bf-a044-1c98b47479c8">MCI_DGV_FREEZE_PARMS</a>, <a href="https://msdn.microsoft.com/d7c1a0fd-7228-4dbb-bf84-273f2677388a">MCI_DGV_PUT_PARMS</a>, <b>MCI_DGV_UNFREEZE_PARMS</b> and <b>MCI_DGV_WHERE_PARMS</b> structures are identical to the <b>MCI_DGV_RECT_PARMS</b> structure.
+The <a href="https://docs.microsoft.com/windows/desktop/api/digitalv/ns-digitalv-mci_dgv_rect_parms">MCI_DGV_FREEZE_PARMS</a>, <a href="https://docs.microsoft.com/previous-versions//dd743397(v=vs.85)">MCI_DGV_PUT_PARMS</a>, <b>MCI_DGV_UNFREEZE_PARMS</b> and <b>MCI_DGV_WHERE_PARMS</b> structures are identical to the <b>MCI_DGV_RECT_PARMS</b> structure.
 
-When assigning data to the members of this structure, set the corresponding flags in the <i>fdwCommand</i> parameter of the <a href="https://msdn.microsoft.com/e25820e9-2caf-423e-8588-f842e670e0c3">mciSendCommand</a> function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the <i>fdwCommand</i> parameter of the <a href="https://docs.microsoft.com/previous-versions//dd757160(v=vs.85)">mciSendCommand</a> function to validate the members.
 
 
 
@@ -96,27 +96,27 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 
-<a href="https://msdn.microsoft.com/b414dffb-3701-4dfd-aa8c-cd8e8918027d">MCI</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci">MCI</a>
 
 
 
-<a href="https://msdn.microsoft.com/e86740e5-633e-465d-94ef-8065a8c05b31">MCI Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-structures">MCI Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/6f90984a-24dc-4046-8234-986b2125bab4">MCI_FREEZE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-freeze">MCI_FREEZE</a>
 
 
 
-<a href="https://msdn.microsoft.com/9d81682b-6546-4e6d-a6df-e2de8c013b66">MCI_PUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-put">MCI_PUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/79ff1be5-6e30-4ef4-ab81-fc5643e3a72d">MCI_UNFREEZE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-unfreeze">MCI_UNFREEZE</a>
 
 
 
-<a href="https://msdn.microsoft.com/f64a7e49-4ee1-4836-ba9a-0bbdc47626b3">MCI_WHERE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-where">MCI_WHERE</a>
 
 
 
@@ -124,7 +124,7 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 
-<a href="https://msdn.microsoft.com/e25820e9-2caf-423e-8588-f842e670e0c3">mciSendCommand</a>
+<a href="https://docs.microsoft.com/previous-versions//dd757160(v=vs.85)">mciSendCommand</a>
  
 
  

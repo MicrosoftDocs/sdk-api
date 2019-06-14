@@ -59,7 +59,7 @@ Retrieves the text that is in the browser's Address bar.
 
 ### -param pbstrSearchText [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a></b>
 
 The <b>BSTR</b> that receives the text in the Address bar.
 

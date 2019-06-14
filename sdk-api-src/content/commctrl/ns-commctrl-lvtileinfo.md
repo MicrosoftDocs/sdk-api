@@ -59,7 +59,7 @@ Provides information about an item in a list-view control when it is displayed i
 
 ### -field cbSize
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The size of the <b>LVTILEINFO</b> structure.
 
@@ -73,14 +73,14 @@ The item for which the information is retrieved or set.
 
 ### -field cColumns
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The number of data columns displayed for this item. When retrieving information, initialize this value to the size of the <b>puColumns</b> array. On return, the member is set to the number of columns actually set for the item.
 
 
 ### -field puColumns
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">PUINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">PUINT</a></b>
 
 A pointer to an array of column indices, specifying which columns are displayed for this item, and the order of those columns. When retrieving information, allocate an array large enough to hold the greatest number of columns expected.
 
@@ -98,7 +98,7 @@ A pointer to an array of column formats (for example, LVCFMT_LEFT), one for each
 
 In tile view, the item name is displayed to the right of the icon. You can specify additional subitems (corresponding to columns in the details view), to be displayed on lines below the item name. The <b>puColumns</b> array contains the indices of subitems to be displayed. Indices should be greater than 0, because subitem 0, the item name, is already displayed.
 
-Column information can also be set in the <a href="https://msdn.microsoft.com/en-us/library/Bb774760(v=VS.85).aspx">LVITEM</a> structure when creating the list item.
+Column information can also be set in the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvitema">LVITEM</a> structure when creating the list item.
 
 
 

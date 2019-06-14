@@ -79,14 +79,14 @@ Returns S_OK if successful, or an error value otherwise. Returns S_FALSE or anot
 
 
 
-The handler itself, not the UI, is expected to use the <a href="https://msdn.microsoft.com/197c4e6f-ffc4-4f19-a5bd-6859eef953c2">ISyncMgrControl</a> interface to notify Sync Center of changes to its state that come about through choices made by the user in the UI.
+The handler itself, not the UI, is expected to use the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrcontrol">ISyncMgrControl</a> interface to notify Sync Center of changes to its state that come about through choices made by the user in the UI.
 
 
 #### Examples
 
 
 
-The following example shows the outline of an implementation of this method. In this case, the implementation is that which would be returned when <a href="https://msdn.microsoft.com/54336c43-348b-4767-94e4-fe7dc47c0876">GetObject</a> is called with the SYNCMGR_OBJECTID_QueryBeforeDelete object ID.
+The following example shows the outline of an implementation of this method. In this case, the implementation is that which would be returned when <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getobject">GetObject</a> is called with the SYNCMGR_OBJECTID_QueryBeforeDelete object ID.
 
 
 ```cpp

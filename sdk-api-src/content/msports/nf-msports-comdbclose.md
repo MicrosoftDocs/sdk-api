@@ -59,7 +59,7 @@ ms.custom: 19H1
 
 ### -param HComDB [in]
 
-Handle to the COM port database that was returned by <a href="https://msdn.microsoft.com/6ae22de0-b71e-441d-af12-8518a3f474e3">ComDBOpen</a>.
+Handle to the COM port database that was returned by <a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-comdbopen">ComDBOpen</a>.
 
 
 ## -returns
@@ -109,7 +109,7 @@ To open the COM port database, call <b>ComDBOpen</b>.
 
 <b>ComDBOpen</b> is called from user mode.
 
-For more information, see <a href="https://msdn.microsoft.com/c9baf147-6e33-4ed2-b682-c141938eb0da">Opening and Closing the COM Port Database</a>.
+For more information, see <a href="https://docs.microsoft.com/previous-versions//ff546481(v=vs.85)">Opening and Closing the COM Port Database</a>.
 
 
 
@@ -119,7 +119,7 @@ For more information, see <a href="https://msdn.microsoft.com/c9baf147-6e33-4ed2
 
 
 
-<a href="https://msdn.microsoft.com/6ae22de0-b71e-441d-af12-8518a3f474e3">ComDBOpen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-comdbopen">ComDBOpen</a>
  
 
  

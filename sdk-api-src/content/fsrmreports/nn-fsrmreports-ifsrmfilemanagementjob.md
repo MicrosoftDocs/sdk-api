@@ -50,26 +50,26 @@ ms.custom: 19H1
 
 
 <p class="CCE_Message">[This interface is supported for compatibility but it's recommended to use the 
-    <a href="https://msdn.microsoft.com/1CE772FA-CE33-4900-A499-058175A7C37E">FSRM WMI Classes</a> to manage FSRM. Please see the 
-    <a href="https://msdn.microsoft.com/1ce33602-0ada-4d82-aebb-9dee7dc8b2f3">MSFT_FSRMFileManagementJob</a> class.]
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a> class.]
 
 Defines a file management job. The job specifies a schedule, conditions, a command or 
     actions to execute if a file meets all the conditions, user notifications, and reporting.
 
 To create a file management job, call the 
-    <a href="https://msdn.microsoft.com/22ac77f5-264e-482b-aacf-0c1d90dd4dbe">IFsrmFileManagementJobManager::CreateFileManagementJob</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjobmanager-createfilemanagementjob">IFsrmFileManagementJobManager::CreateFileManagementJob</a> 
     method.
 
 The following methods return this interface:
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/4af6f794-d9d4-4e03-9cd5-a4d8769888ca">IFsrmFileManagementJobManager::EnumFileManagementJobs</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjobmanager-enumfilemanagementjobs">IFsrmFileManagementJobManager::EnumFileManagementJobs</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/106c5237-94bc-4556-aa65-247697133810">IFsrmFileManagementJobManager::GetFileManagementJob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjobmanager-getfilemanagementjob">IFsrmFileManagementJobManager::GetFileManagementJob</a>
 </li>
 </ul>If a file management job object is modified using 
-    <a href="https://msdn.microsoft.com/1ce33602-0ada-4d82-aebb-9dee7dc8b2f3">MSFT_FSRMFileManagementJob</a> or a related WMI 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a> or a related WMI 
     class, then the methods and properties of the 
     <b>IFsrmFileManagementJob</b> interface may no longer be 
     usable and fail in unexpected ways when working with the same job.
@@ -77,7 +77,7 @@ The following methods return this interface:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmFileManagementJob</b> interface inherits from <a href="https://msdn.microsoft.com/bb08ea40-6f0e-4ad5-ad57-78f17bbbd4b7">IFsrmObject</a>. <b>IFsrmFileManagementJob</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmFileManagementJob</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmobject">IFsrmObject</a>. <b>IFsrmFileManagementJob</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -93,7 +93,7 @@ The <b>IFsrmFileManagementJob</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/95b41aa0-44c9-41a2-8132-6aecc4685243">AddNotification</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-addnotification">AddNotification</a>
 </td>
 <td align="left" width="63%">
 Adds a new notification value to the file management job's list of notifications.
@@ -102,7 +102,7 @@ Adds a new notification value to the file management job's list of notifications
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3abb6673-fdd8-4828-ba7a-7666208dc8f0">Cancel</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-cancel">Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels the job if it is running.
@@ -111,7 +111,7 @@ Cancels the job if it is running.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/886992bd-ca0b-4f21-8036-39703c7c99ba">CreateCustomAction</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-createcustomaction">CreateCustomAction</a>
 </td>
 <td align="left" width="63%">
 Creates a new custom action.
@@ -120,7 +120,7 @@ Creates a new custom action.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d0cb2ac1-842c-4ebb-adac-8298a0e0beed">CreateNotificationAction</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-createnotificationaction">CreateNotificationAction</a>
 </td>
 <td align="left" width="63%">
 Creates a notification action of a specific type and associates it with the notification value.
@@ -129,7 +129,7 @@ Creates a notification action of a specific type and associates it with the noti
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1b264e9c-4ba0-4de2-acdc-94338519c5af">CreatePropertyCondition</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-createpropertycondition">CreatePropertyCondition</a>
 </td>
 <td align="left" width="63%">
 Creates a new property condition and adds it to the collection of property conditions.
@@ -138,7 +138,7 @@ Creates a new property condition and adds it to the collection of property condi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d21e289a-5062-4897-9479-3408589db11f">DeleteNotification</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-deletenotification">DeleteNotification</a>
 </td>
 <td align="left" width="63%">
 Deletes a notification from the file management job's list of notifications.
@@ -147,7 +147,7 @@ Deletes a notification from the file management job's list of notifications.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cfb58db2-39af-434e-95e2-abbd21f4487a">EnumNotificationActions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-enumnotificationactions">EnumNotificationActions</a>
 </td>
 <td align="left" width="63%">
 Enumerates the actions associated with a notification value.
@@ -156,7 +156,7 @@ Enumerates the actions associated with a notification value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f2b26ed7-5bbc-4b34-ae11-7fcdb621a55b">ModifyNotification</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-modifynotification">ModifyNotification</a>
 </td>
 <td align="left" width="63%">
 Modifies a notification in the file management job's list of notifications.
@@ -165,7 +165,7 @@ Modifies a notification in the file management job's list of notifications.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2db27e05-5c3b-4827-a616-36fd46281911">Run</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-run">Run</a>
 </td>
 <td align="left" width="63%">
 Runs the job.
@@ -174,7 +174,7 @@ Runs the job.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8d0d0046-989f-4d6a-b9da-caf6df44e1db">WaitForCompletion</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-waitforcompletion">WaitForCompletion</a>
 </td>
 <td align="left" width="63%">
 Waits for the specified period of time or until the job has finished running.
@@ -192,7 +192,7 @@ Waits for the specified period of time or until the job has finished running.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/25014b2d-4f08-45bb-a4c4-d8ab72dc53b1">CustomAction</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_customaction">CustomAction</a>
 
 
 </td>
@@ -208,7 +208,7 @@ The action to execute when all the conditions are met and custom action is enabl
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/f897321f-3e32-4965-b6c0-33d156601481">DaysSinceFileCreated</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_dayssincefilecreated">DaysSinceFileCreated</a>
 
 
 </td>
@@ -225,7 +225,7 @@ The minimum number of days that must elapse from when the file was created to me
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/0892f31d-e2e4-4aeb-9496-f0ff10c2c0af">DaysSinceFileLastAccessed</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_dayssincefilelastaccessed">DaysSinceFileLastAccessed</a>
 
 
 </td>
@@ -242,7 +242,7 @@ The minimum number of days that must elapse from when the file was last accessed
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/3ee02d60-50c7-4643-9604-b72ca1da01f6">DaysSinceFileLastModified</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_dayssincefilelastmodified">DaysSinceFileLastModified</a>
 
 
 </td>
@@ -259,7 +259,7 @@ The minimum number of days that must elapse from when a file was last modified t
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c52dab05-34fb-4d9d-ac12-cbcee7e1fb9b">Enabled</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_enabled">Enabled</a>
 
 
 </td>
@@ -275,7 +275,7 @@ Indicates whether the job is allowed to run.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/7c8a2584-23ff-4839-b426-8f5411955746">ExpirationDirectory</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_expirationdirectory">ExpirationDirectory</a>
 
 
 </td>
@@ -291,7 +291,7 @@ The root directory that will contain the expired files.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/6a51dbc2-8e60-4575-9e97-c798e73c02a4">FileNamePattern</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_filenamepattern">FileNamePattern</a>
 
 
 </td>
@@ -307,7 +307,7 @@ A condition property: wildcard filter for names.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/1147829d-c47b-4d80-8b49-4328dd54f8ef">Formats</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_formats">Formats</a>
 
 
 </td>
@@ -323,7 +323,7 @@ The formats of the report to generate when the job is run.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/f891679d-3d94-4fbe-99b1-9445666b7694">FromDate</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_fromdate">FromDate</a>
 
 
 </td>
@@ -339,7 +339,7 @@ The date from which the file management operation should be executed.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/f7a7d5fd-b060-41f6-be1f-038ab252259a">LastError</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_lasterror">LastError</a>
 
 
 </td>
@@ -355,7 +355,7 @@ The error message from the last time the job was run.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/404d45e0-621e-47d5-b987-0f9347242653">LastReportPathWithoutExtension</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_lastreportpathwithoutextension">LastReportPathWithoutExtension</a>
 
 
 </td>
@@ -371,7 +371,7 @@ The path and file name (without extension) of the last report.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/07559b06-4744-466a-a8b0-e907eff7227d">LastRun</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_lastrun">LastRun</a>
 
 
 </td>
@@ -387,7 +387,7 @@ The last time the file management job was run.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/a1bed6bf-9c34-40ab-b5fc-ba870e1f084a">Logging</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_logging">Logging</a>
 
 
 </td>
@@ -403,7 +403,7 @@ The types of logging to perform.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/5a6fdb6f-ac95-448c-bbf4-cbcbaf942bd4">MailTo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_mailto">MailTo</a>
 
 
 </td>
@@ -419,7 +419,7 @@ The email addresses to which to send the reports, if any.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/48f0b5ad-a986-4d56-a50f-4bb4dfa7a4b8">Name</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_name">Name</a>
 
 
 </td>
@@ -435,7 +435,7 @@ The name of the file management job.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/1f48ac40-eace-49f2-b77d-2456a1a5fa34">NamespaceRoots</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_namespaceroots">NamespaceRoots</a>
 
 
 </td>
@@ -451,7 +451,7 @@ An array of local directory paths that will be scanned when the file management 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/f0aee951-12f3-40d0-bbf4-c72af117952f">Notifications</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_notifications">Notifications</a>
 
 
 </td>
@@ -467,7 +467,7 @@ The list of notifications to perform before the operation is performed.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/98816ea0-7651-42ef-8893-13c568ed859a">OperationType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_operationtype">OperationType</a>
 
 
 </td>
@@ -484,7 +484,7 @@ The type of file management job; the type determines the operation to perform on
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/87eb994c-3d15-4c6b-90c3-1ddb340f7458">Parameters</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_parameters">Parameters</a>
 
 
 </td>
@@ -500,7 +500,7 @@ The file management job parameters.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/49435c4b-211e-4aae-a6b3-ad40de811526">PropertyConditions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_propertyconditions">PropertyConditions</a>
 
 
 </td>
@@ -516,7 +516,7 @@ A list of property conditions configured for the job.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/687367c7-5bed-4f42-ade1-f841da484b38">ReportEnabled</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_reportenabled">ReportEnabled</a>
 
 
 </td>
@@ -532,7 +532,7 @@ Indicates whether the job will generate a report when it is run.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/030efc19-69c0-4321-99ac-ff8abfc38757">RunningStatus</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_runningstatus">RunningStatus</a>
 
 
 </td>
@@ -548,7 +548,7 @@ The running status of the job.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/ca562a21-5b0a-4726-9921-68c6a9fbde6c">Task</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_task">Task</a>
 
 
 </td>
@@ -577,18 +577,18 @@ Use the following properties to specify the expiration conditions:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/f897321f-3e32-4965-b6c0-33d156601481">DaysSinceFileCreated</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_dayssincefilecreated">DaysSinceFileCreated</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/0892f31d-e2e4-4aeb-9496-f0ff10c2c0af">DaysSinceFileLastAccessed</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_dayssincefilelastaccessed">DaysSinceFileLastAccessed</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/3ee02d60-50c7-4643-9604-b72ca1da01f6">DaysSinceFileLastModified</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_dayssincefilelastmodified">DaysSinceFileLastModified</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/49435c4b-211e-4aae-a6b3-ad40de811526">PropertyConditions</a> (use 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_propertyconditions">PropertyConditions</a> (use 
       the 
-      <a href="https://msdn.microsoft.com/1b264e9c-4ba0-4de2-acdc-94338519c5af">CreatePropertyCondition</a> 
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-createpropertycondition">CreatePropertyCondition</a> 
       method to create the property condition)</li>
 </ul>
 FSRM performs a logical AND on all the conditions to determine if the file meets those conditions.
@@ -605,15 +605,15 @@ FSRM does not expire files in the system directories (for example, "\Windows",
 
 
 
-<a href="https://msdn.microsoft.com/bbd888d9-1005-4173-8e82-ced13e68c09e">FSRM Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/bb08ea40-6f0e-4ad5-ad57-78f17bbbd4b7">IFsrmObject</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmobject">IFsrmObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/1ce33602-0ada-4d82-aebb-9dee7dc8b2f3">MSFT_FSRMFileManagementJob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a>
  
 
  

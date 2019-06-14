@@ -69,7 +69,7 @@ Reserved.
 
 ### -param ppAsmItem [out]
 
-Pointer to a location containing the pointer to the instance of the <a href="https://msdn.microsoft.com/9df9ee58-0354-49f0-af9c-5b92179cfaea">IAssemblyCacheItem</a> that receives the information.
+Pointer to a location containing the pointer to the instance of the <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nn-winsxs-iassemblycacheitem">IAssemblyCacheItem</a> that receives the information.
 
 
 ### -param pszAssemblyName [in, optional]
@@ -132,7 +132,7 @@ The full name of the assembly must be provided by <i>pszAssemblyName</i>.
 
 
 
-<a href="https://msdn.microsoft.com/6c411ae7-5a8f-47ca-a9c1-e23000f64620">IAssemblyCache</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nn-winsxs-iassemblycache">IAssemblyCache</a>
  
 
  

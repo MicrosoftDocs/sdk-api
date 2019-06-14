@@ -56,7 +56,7 @@ ms.custom: 19H1
 ## -description
 
 
-Determines if the specified <a href="https://msdn.microsoft.com/221aae7b-3a7c-4995-ae78-50d97de436d8">locale name</a> is valid for a locale that is installed or supported on the operating system.<div class="alert"><b>Note</b>  An application running only on Windows Vista and later should call this function in preference to <a href="https://msdn.microsoft.com/b0fb95ff-106d-4269-a696-d39f87fbd745">IsValidLocale</a> to determine the validity of a <a href="https://msdn.microsoft.com/110efeab-c02f-4244-8950-a975cfc91e8a">supplemental locale</a>.</div>
+Determines if the specified <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-names">locale name</a> is valid for a locale that is installed or supported on the operating system.<div class="alert"><b>Note</b>  An application running only on Windows Vista and later should call this function in preference to <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-isvalidlocale">IsValidLocale</a> to determine the validity of a <a href="https://docs.microsoft.com/windows/desktop/Intl/custom-locales">supplemental locale</a>.</div>
 <div> </div>
 
 
@@ -86,14 +86,14 @@ Returns a nonzero value if the locale name is valid, or returns 0 for an invalid
 
 On Windows Vista and later, all supported locales should be installed on all operating systems.
 
-This function can handle the name of a <a href="https://msdn.microsoft.com/110efeab-c02f-4244-8950-a975cfc91e8a">custom locale</a>. Data is not guaranteed to be the same from computer to computer or between runs of an application. If your application must persist or transmit data, see <a href="https://msdn.microsoft.com/f62402d6-31de-4ff7-9538-7925a007a089">Using Persistent Locale Data</a>.
+This function can handle the name of a <a href="https://docs.microsoft.com/windows/desktop/Intl/custom-locales">custom locale</a>. Data is not guaranteed to be the same from computer to computer or between runs of an application. If your application must persist or transmit data, see <a href="https://docs.microsoft.com/windows/desktop/Intl/using-persistent-locale-data">Using Persistent Locale Data</a>.
 
-<b>Beginning in Windows 8:</b> If your app passes language tags to this function from the <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Globalization">Windows.Globalization</a> namespace, it must first convert the tags by calling <a href="https://msdn.microsoft.com/99264b22-3fb5-47e2-b0b9-42a6768e67c1">ResolveLocaleName</a>.
+<b>Beginning in Windows 8:</b> If your app passes language tags to this function from the <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Globalization">Windows.Globalization</a> namespace, it must first convert the tags by calling <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-resolvelocalename">ResolveLocaleName</a>.
 
 
 #### Examples
 
-An example showing the use of this function can be found in <a href="https://msdn.microsoft.com/0502dba0-a26f-4238-b68e-bb41ef17ff08">NLS: Name-based APIs Sample</a>.
+An example showing the use of this function can be found in <a href="https://docs.microsoft.com/windows/desktop/Intl/nls--name-based-apis-sample">NLS: Name-based APIs Sample</a>.
 
 <div class="code"></div>
 
@@ -104,19 +104,19 @@ An example showing the use of this function can be found in <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/20294ff2-b783-41a2-92a8-41cd974a2ccb">GetLocaleInfoEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getlocaleinfoex">GetLocaleInfoEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/b0fb95ff-106d-4269-a696-d39f87fbd745">IsValidLocale</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-isvalidlocale">IsValidLocale</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a548074-0782-45e1-8051-80c3b9d81885">National Language Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c72c4de-83be-4b7e-9ed8-b0236c1df8a4">National Language Support Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
  
 
  

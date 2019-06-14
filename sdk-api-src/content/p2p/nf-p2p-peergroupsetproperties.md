@@ -59,15 +59,15 @@ The <b>PeerGroupSetProperties</b> function sets the current peer group propertie
 
 ### -param hGroup [in]
 
-Handle to the peer group whose properties are set by a peer. This handle is returned by the  <a href="https://msdn.microsoft.com/b85d87c6-28b7-49f8-865c-9d246f89367e">PeerGroupCreate</a>, <a href="https://msdn.microsoft.com/cfaf244f-8786-4801-926d-f6c79bfa4275">PeerGroupOpen</a>, or <a href="https://msdn.microsoft.com/a7f5689d-4849-4363-bc61-3fed63f4287b">PeerGroupJoin</a> function. This parameter is required.
+Handle to the peer group whose properties are set by a peer. This handle is returned by the  <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupcreate">PeerGroupCreate</a>, <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupopen">PeerGroupOpen</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a> function. This parameter is required.
 
 
 ### -param pProperties [in]
 
-Pointer to a peer-populated <a href="https://msdn.microsoft.com/a1501343-bd84-4dbe-91d0-c64c59e34abc">PEER_GROUP_PROPERTIES</a> 
-	   structure that contains the new properties. To obtain this structure, a peer must first call <a href="https://msdn.microsoft.com/6273817f-9698-4c0b-93a9-9bbee2e5dc78">PeerGroupGetProperties</a>, change the appropriate fields, and then pass it as this parameter. This parameter is required.
+Pointer to a peer-populated <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_properties_tag">PEER_GROUP_PROPERTIES</a> 
+	   structure that contains the new properties. To obtain this structure, a peer must first call <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupgetproperties">PeerGroupGetProperties</a>, change the appropriate fields, and then pass it as this parameter. This parameter is required.
 
-The following members of <a href="https://msdn.microsoft.com/a1501343-bd84-4dbe-91d0-c64c59e34abc">PEER_GROUP_PROPERTIES</a> cannot be changed:<ul>
+The following members of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_properties_tag">PEER_GROUP_PROPERTIES</a> cannot be changed:<ul>
 <li><b>dwSize</b></li>
 <li><b>pwzCloud</b></li>
 <li><b>pwzClassifier</b></li>
@@ -106,7 +106,7 @@ There is not enough memory available to complete the operation.
 </dl>
 </td>
 <td width="60%">
-The group is not in a state where peer group properties can be set. For example, <a href="https://msdn.microsoft.com/a7f5689d-4849-4363-bc61-3fed63f4287b">PeerGroupJoin</a> has been called, but synchronization with the peer group database is not complete.
+The group is not in a state where peer group properties can be set. For example, <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a> has been called, but synchronization with the peer group database is not complete.
 
 </td>
 </tr>
@@ -157,7 +157,7 @@ The current identity does not have the authorization to change these properties.
 </table>
  
 
-Cryptography-specific errors can be returned from the <a href="https://msdn.microsoft.com/c36025c5-a407-4a05-8780-23f8107730df">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
+Cryptography-specific errors can be returned from the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
 
 
 
@@ -166,7 +166,7 @@ Cryptography-specific errors can be returned from the <a href="https://msdn.micr
 
 
 
-For applications that utilize passwords, it is recommended the passwords are handled securely  by calling the <a href="https://msdn.microsoft.com/6b372552-87d4-4047-afa5-0d1113348289">CryptoProtectMemory</a> and <a href="https://msdn.microsoft.com/2c4090a6-025b-4b7b-8f31-7e744ad51b39">SecureZeroMemory</a> functions.
+For applications that utilize passwords, it is recommended the passwords are handled securely  by calling the <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptprotectmemory">CryptoProtectMemory</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> functions.
 
 
 
@@ -176,23 +176,23 @@ For applications that utilize passwords, it is recommended the passwords are han
 
 
 
-<a href="https://msdn.microsoft.com/a1501343-bd84-4dbe-91d0-c64c59e34abc">PEER_GROUP_PROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_properties_tag">PEER_GROUP_PROPERTIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/b85d87c6-28b7-49f8-865c-9d246f89367e">PeerGroupCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupcreate">PeerGroupCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/6273817f-9698-4c0b-93a9-9bbee2e5dc78">PeerGroupGetProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupgetproperties">PeerGroupGetProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7f5689d-4849-4363-bc61-3fed63f4287b">PeerGroupJoin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a>
 
 
 
-<a href="https://msdn.microsoft.com/cfaf244f-8786-4801-926d-f6c79bfa4275">PeerGroupOpen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupopen">PeerGroupOpen</a>
  
 
  

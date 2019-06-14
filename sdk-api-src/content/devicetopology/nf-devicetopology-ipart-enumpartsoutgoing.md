@@ -62,7 +62,7 @@ The <b>EnumPartsOutgoing</b> method retrieves a list of all the outgoing parts�
 
 ### -param ppParts [out]
 
-Pointer to a pointer variable into which the method writes the address of an <a href="https://msdn.microsoft.com/3ac48781-90c2-4b23-aa68-3453091bde61">IPartsList</a> interface that encapsulates the list of parts that are immediately downstream from this part. Through this method, the caller obtains a counted reference to the interface. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <b>Release</b> method. If the <b>EnumPartsOutgoing</b> call fails,  <i>*ppParts</i> is <b>NULL</b>.
+Pointer to a pointer variable into which the method writes the address of an <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-ipartslist">IPartsList</a> interface that encapsulates the list of parts that are immediately downstream from this part. Through this method, the caller obtains a counted reference to the interface. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <b>Release</b> method. If the <b>EnumPartsOutgoing</b> call fails,  <i>*ppParts</i> is <b>NULL</b>.
 
 
 ## -returns
@@ -123,7 +123,7 @@ A client application can traverse a device topology in the direction of audio da
 
 If this part has no links to downstream parts, the method returns error code E_NOTFOUND and does not create a parts list (<i>*ppParts</i> is <b>NULL</b>). For example, the method returns this error code if the <b>IPart</b> interface represents a connector through which data exits a device topology.
 
-For a code example that uses the <b>EnumPartsOutgoing</b> method, see the implementation of the SelectCaptureDevice function in <a href="https://msdn.microsoft.com/5ac421e5-74a4-40e8-af6f-a99a05ebc3e0">Device Topologies</a>.
+For a code example that uses the <b>EnumPartsOutgoing</b> method, see the implementation of the SelectCaptureDevice function in <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-topologies">Device Topologies</a>.
 
 
 
@@ -133,11 +133,11 @@ For a code example that uses the <b>EnumPartsOutgoing</b> method, see the implem
 
 
 
-<a href="https://msdn.microsoft.com/3bcfab9f-fad8-4605-8780-0b7c2068fcdf">IPart Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3ac48781-90c2-4b23-aa68-3453091bde61">IPartsList Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-ipartslist">IPartsList Interface</a>
  
 
  

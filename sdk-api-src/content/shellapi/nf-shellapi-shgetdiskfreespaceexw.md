@@ -68,21 +68,21 @@ A null-terminated string that specifies the volume for which size information is
 
 ### -param pulFreeBytesAvailableToCaller [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/83a10c12-2cd1-449a-af3f-b2138fc50ee0">ULARGE_INTEGER</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ularge_integer">ULARGE_INTEGER</a>*</b>
 
 Pointer to a value that receives the number of bytes on the volume available to the calling application. If the operating system implements per-user quotas, this value may be less than the total number of free bytes on the volume.
 
 
 ### -param pulTotalNumberOfBytes [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/83a10c12-2cd1-449a-af3f-b2138fc50ee0">ULARGE_INTEGER</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ularge_integer">ULARGE_INTEGER</a>*</b>
 
 Pointer to a value that receives the total size of the volume, in bytes.
 
 
 ### -param pulTotalNumberOfFreeBytes [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/83a10c12-2cd1-449a-af3f-b2138fc50ee0">ULARGE_INTEGER</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ularge_integer">ULARGE_INTEGER</a>*</b>
 
 Pointer to a value that receives the number of bytes of free space on the volume.
 
@@ -102,9 +102,9 @@ Returns <b>TRUE</b> if successful, <b>FALSE</b> otherwise.
 
 
 
-The similarly named function <a href="https://msdn.microsoft.com/cfc2be42-3297-4e7c-b082-aa9a40b9821a">SHGetDiskFreeSpace</a> is merely an alias for <b>SHGetDiskFreeSpaceEx</b>. When you call <b>SHGetDiskFreeSpace</b> you actually call this function.
+The similarly named function <a href="https://docs.microsoft.com/previous-versions//bb762176(v=vs.85)">SHGetDiskFreeSpace</a> is merely an alias for <b>SHGetDiskFreeSpaceEx</b>. When you call <b>SHGetDiskFreeSpace</b> you actually call this function.
 
-This function calls the <a href="https://msdn.microsoft.com/a52f2dbd-bda6-4217-9e72-f100f8bbe334">GetDiskFreeSpaceEx</a> function if it is available on the operating system. If <b>GetDiskFreeSpaceEx</b> is not available, it is emulated by calling the <a href="https://msdn.microsoft.com/4fe14c49-3fd6-48b7-92de-a0c867b2e042">GetDiskFreeSpace</a> function and manipulating the return values. For additional information, see the documentation for <b>GetDiskFreeSpaceEx</b>.
+This function calls the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdiskfreespaceexa">GetDiskFreeSpaceEx</a> function if it is available on the operating system. If <b>GetDiskFreeSpaceEx</b> is not available, it is emulated by calling the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdiskfreespacea">GetDiskFreeSpace</a> function and manipulating the return values. For additional information, see the documentation for <b>GetDiskFreeSpaceEx</b>.
 
 
 
@@ -114,11 +114,11 @@ This function calls the <a href="https://msdn.microsoft.com/a52f2dbd-bda6-4217-9
 
 
 
-<a href="https://msdn.microsoft.com/a52f2dbd-bda6-4217-9e72-f100f8bbe334">GetDiskFreeSpaceEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdiskfreespaceexa">GetDiskFreeSpaceEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/cfc2be42-3297-4e7c-b082-aa9a40b9821a">SHGetDiskFreeSpace</a>
+<a href="https://docs.microsoft.com/previous-versions//bb762176(v=vs.85)">SHGetDiskFreeSpace</a>
  
 
  

@@ -59,7 +59,7 @@ Instructs the undo manager to discard the specified undo unit and all undo units
 
 ### -param pUU [in]
 
-An <a href="https://msdn.microsoft.com/0822c894-b96c-4b69-94d2-b052dff81f6e">IOleUndoUnit</a> pointer to the undo unit to be discarded. This parameter can be <b>NULL</b> to discard the entire undo or redo stack. If the parameter is not <b>NULL</b> then the stack will not be discarded.
+An <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleundounit">IOleUndoUnit</a> pointer to the undo unit to be discarded. This parameter can be <b>NULL</b> to discard the entire undo or redo stack. If the parameter is not <b>NULL</b> then the stack will not be discarded.
 
 
 ## -returns
@@ -105,9 +105,9 @@ The undo manager is disabled.
 
 
 
-The undo manager first searches the undo stack for the given unit, and if not found there searches the redo stack. After it has been found, the given unit and all below it on the same stack are discarded. The undo unit may be a child of a parent unit contained by the undo manager, as determined by calling <a href="https://msdn.microsoft.com/096e6cc4-7843-49fa-b1d7-bce034d4b7ce">IOleParentUndoUnit::FindUnit</a>. If it is a child unit, then the root unit containing the given unit and all units below it on the appropriate stack are discarded.
+The undo manager first searches the undo stack for the given unit, and if not found there searches the redo stack. After it has been found, the given unit and all below it on the same stack are discarded. The undo unit may be a child of a parent unit contained by the undo manager, as determined by calling <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleparentundounit-findunit">IOleParentUndoUnit::FindUnit</a>. If it is a child unit, then the root unit containing the given unit and all units below it on the appropriate stack are discarded.
 
-If there is an open parent unit and the <b>DiscardFrom</b> method is called and the <i>pUU</i> parameter is <b>NULL</b>, the undo manager should immediately release and discard the open parent unit without calling the <a href="https://msdn.microsoft.com/4546f270-5cef-42a3-b07a-f0a491e78849">IOleUndoManager::Close</a> first. When the object that opened the parent unit attempts to close it, <b>IOleUndoManager::Close</b> will return S_FALSE. If a parent unit is open, throw it away and discard the stack. If the parent unit is not open, just throw the stack away. If the <i>pUU</i> parameter is not <b>NULL</b>, then any open parent units should be left open.
+If there is an open parent unit and the <b>DiscardFrom</b> method is called and the <i>pUU</i> parameter is <b>NULL</b>, the undo manager should immediately release and discard the open parent unit without calling the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-close">IOleUndoManager::Close</a> first. When the object that opened the parent unit attempts to close it, <b>IOleUndoManager::Close</b> will return S_FALSE. If a parent unit is open, throw it away and discard the stack. If the parent unit is not open, just throw the stack away. If the <i>pUU</i> parameter is not <b>NULL</b>, then any open parent units should be left open.
 
 
 
@@ -117,15 +117,15 @@ If there is an open parent unit and the <b>DiscardFrom</b> method is called and 
 
 
 
-<a href="https://msdn.microsoft.com/096e6cc4-7843-49fa-b1d7-bce034d4b7ce">IOleParentUndoUnit::FindUnit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleparentundounit-findunit">IOleParentUndoUnit::FindUnit</a>
 
 
 
-<a href="https://msdn.microsoft.com/0f507506-3589-4d5b-b1b3-010bce9ae42f">IOleUndoManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleundomanager">IOleUndoManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/4546f270-5cef-42a3-b07a-f0a491e78849">IOleUndoManager::Close</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-close">IOleUndoManager::Close</a>
  
 
  

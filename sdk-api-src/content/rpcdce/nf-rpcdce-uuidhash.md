@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 An application calls the 
-<b>UuidHash</b> function to generate a hash value for a specified <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a>.
+<b>UuidHash</b> function to generate a hash value for a specified <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ An application calls the
 ### -param Uuid
 
 
-<a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a> for which a hash value is created.
+<a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> for which a hash value is created.
 
 
 ### -param Status
@@ -74,7 +74,7 @@ Returns RPC_S_OK.
 
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -84,7 +84,7 @@ Returns RPC_S_OK.
 
 
 An application calls 
-<b>UuidHash</b> to generate a hash value for a specified <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a>. The hash value returned is implementation dependent and may vary from implementation to implementation.
+<b>UuidHash</b> to generate a hash value for a specified <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>. The hash value returned is implementation dependent and may vary from implementation to implementation.
 
 
 
@@ -94,7 +94,7 @@ An application calls
 
 
 
-<a href="https://msdn.microsoft.com/4008fb54-7770-4f1a-8e1c-4b20bef884f9">UuidCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidcreate">UuidCreate</a>
  
 
  

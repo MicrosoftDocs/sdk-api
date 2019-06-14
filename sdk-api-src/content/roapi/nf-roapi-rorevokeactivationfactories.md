@@ -61,7 +61,7 @@ Removes an array of registered activation factories from the Windows Runtime.
 
 ### -param cookie [in]
 
-Type: <b><a href="https://msdn.microsoft.com/D74E5886-45DB-40DE-9740-D14341E78713">RO_REGISTRATION_COOKIE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/ro-registration-cookie">RO_REGISTRATION_COOKIE</a></b>
 
 
 ## -returns
@@ -87,15 +87,15 @@ Call the <b>RoRevokeActivationFactories</b> function remove the activation facto
 
 
 
-<a href="https://msdn.microsoft.com/D74E5886-45DB-40DE-9740-D14341E78713">RO_REGISTRATION_COOKIE</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinRT/ro-registration-cookie">RO_REGISTRATION_COOKIE</a>
 
 
 
-<a href="https://msdn.microsoft.com/527A7FF7-749D-4178-A397-5C538F6031F8">RoInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/roapi/nf-roapi-roinitialize">RoInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/8213f5de-3b1c-44c3-ad37-b2ebac8dbcd8">RoRegisterActivationFactories</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/roapi/nf-roapi-roregisteractivationfactories">RoRegisterActivationFactories</a>
  
 
  

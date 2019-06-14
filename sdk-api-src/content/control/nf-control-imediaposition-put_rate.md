@@ -122,7 +122,7 @@ Not implemented.
 
 The playback rate is expressed as a ratio of the normal speed. Thus, 1.0 is normal playback speed, 0.5 is half speed, and 2.0 is twice speed. For audio streams, changing the rate also changes the pitch.
 
-For more information, see the remarks in <a href="https://msdn.microsoft.com/en-us/library/Dd407039(v=VS.85).aspx">IMediaSeeking::SetRate</a>.
+For more information, see the remarks in <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediaseeking-setrate">IMediaSeeking::SetRate</a>.
 
 
 
@@ -132,11 +132,11 @@ For more information, see the remarks in <a href="https://msdn.microsoft.com/en-
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406977(v=VS.85).aspx">IMediaPosition Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediaposition">IMediaPosition Interface</a>
  
 
  

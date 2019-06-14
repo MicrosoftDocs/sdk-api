@@ -63,7 +63,7 @@ The <code>get_IPDisplay</code> method gets the decoding resolution.
 
 ### -param displayPix
 
-Receives a member of the <a href="https://msdn.microsoft.com/8ae9b402-e7cc-4e11-b956-974b53fd8934">DVDECODERRESOLUTION</a> enumerated type, specifying the decoding resolution.
+Receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-_dvresolution">DVDECODERRESOLUTION</a> enumerated type, specifying the decoding resolution.
 
 
 ## -returns
@@ -80,11 +80,11 @@ Returns S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/0e40841a-e297-4c05-aefa-7131de9c6a97">IIPDVDec Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iipdvdec">IIPDVDec Interface</a>
  
 
  

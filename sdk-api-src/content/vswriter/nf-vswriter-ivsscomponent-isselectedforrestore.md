@@ -144,11 +144,11 @@ If the component defines a component set,
 
 
 
-<a href="https://msdn.microsoft.com/8f8051d3-b1b6-418b-8a53-0ddc82a20bb3">IVssBackupComponents::SetSelectedForRestore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setselectedforrestore">IVssBackupComponents::SetSelectedForRestore</a>
 
 
 
-<a href="https://msdn.microsoft.com/c686a424-b0b9-4efc-8dc6-b92193de2a5d">IVssComponent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
  
 
  

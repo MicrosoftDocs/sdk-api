@@ -49,11 +49,11 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/6429e748-e0bf-431a-8989-db5b211665d5">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The
 				<b>smiVENDORINFO</b> structure contains information about the Microsoft WinSNMP implementation. A WinSNMP application can call the 
-<a href="https://msdn.microsoft.com/e5929fb9-5011-42b9-887e-db0ccdd79e2b">SnmpGetVendorInfo</a> function to retrieve this structure. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpgetvendorinfo">SnmpGetVendorInfo</a> function to retrieve this structure. The 
 <b>smiVENDORINFO</b> structure is an element of the WinSNMP API, version 2.0.
 
 
@@ -92,15 +92,15 @@ Contains the value 311, Microsoft's enterprise number (permanent address) assign
 
 
 
-<a href="https://msdn.microsoft.com/e5929fb9-5011-42b9-887e-db0ccdd79e2b">SnmpGetVendorInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpgetvendorinfo">SnmpGetVendorInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/54d9b61a-815a-41c3-9365-ec4478acc3f2">WinSNMP API Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/ec74217e-8d02-4bda-b365-7b8f6c14cffb">WinSNMP Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-structures">WinSNMP Structures</a>
  
 
  

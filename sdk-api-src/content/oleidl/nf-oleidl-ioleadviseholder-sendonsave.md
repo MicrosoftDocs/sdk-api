@@ -63,7 +63,7 @@ Sends notification to all advisory sinks currently registered with the advise ho
 
 
 
-This method returns S_OK if advise sinks were sent <a href="https://msdn.microsoft.com/26da5e16-5790-49c0-ba63-5feee49cd4c6">IAdviseSink::OnSave</a> notifications.
+This method returns S_OK if advise sinks were sent <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink-onsave">IAdviseSink::OnSave</a> notifications.
 
 
 
@@ -72,9 +72,9 @@ This method returns S_OK if advise sinks were sent <a href="https://msdn.microso
 
 
 
-<b>SendOnSave</b> calls <a href="https://msdn.microsoft.com/26da5e16-5790-49c0-ba63-5feee49cd4c6">IAdviseSink::OnSave</a> to advise the calling object (client), which must have already established an advisory connection, that the object has been saved. If you are using the OLE advise holder (having obtained a pointer through a call to <a href="https://msdn.microsoft.com/f76e074e-6814-4735-9417-d5970e73089f">CreateOleAdviseHolder</a>), you can call <b>SendOnSave</b> whenever you save the object the advise holder is associated with.
+<b>SendOnSave</b> calls <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink-onsave">IAdviseSink::OnSave</a> to advise the calling object (client), which must have already established an advisory connection, that the object has been saved. If you are using the OLE advise holder (having obtained a pointer through a call to <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-createoleadviseholder">CreateOleAdviseHolder</a>), you can call <b>SendOnSave</b> whenever you save the object the advise holder is associated with.
 
-To take the object from the running state to the loaded state, the client calls <a href="https://msdn.microsoft.com/61ecd153-ed6b-4a2c-a862-54742c5769ee">IOleObject::Close</a>. Within that implementation, if the user wants to save the object to persistent storage, the object calls <a href="https://msdn.microsoft.com/ef1a0085-f4fa-4d77-adab-0386f354dfe7">IOleClientSite::SaveObject</a>, followed by the call to <b>SendOnSave</b>.
+To take the object from the running state to the loaded state, the client calls <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-close">IOleObject::Close</a>. Within that implementation, if the user wants to save the object to persistent storage, the object calls <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleclientsite-saveobject">IOleClientSite::SaveObject</a>, followed by the call to <b>SendOnSave</b>.
 
 
 
@@ -84,11 +84,11 @@ To take the object from the running state to the loaded state, the client calls 
 
 
 
-<a href="https://msdn.microsoft.com/26da5e16-5790-49c0-ba63-5feee49cd4c6">IAdviseSink::OnSave</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink-onsave">IAdviseSink::OnSave</a>
 
 
 
-<a href="https://msdn.microsoft.com/680afee7-2bee-4d54-ae0b-3e4e0deb622f">IOleAdviseHolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleadviseholder">IOleAdviseHolder</a>
  
 
  

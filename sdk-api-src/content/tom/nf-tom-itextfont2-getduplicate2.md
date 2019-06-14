@@ -59,7 +59,7 @@ Gets a duplicate of this character format object.
 
 ### -param ppFont [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/d2d43bfd-7cdf-458a-822d-e3965bfe2284">ITextFont2</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a>**</b>
 
 The duplicate character format object.
 
@@ -68,7 +68,7 @@ The duplicate character format object.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -80,11 +80,11 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-<a href="https://msdn.microsoft.com/d2d43bfd-7cdf-458a-822d-e3965bfe2284">ITextFont2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a>
 
 
 
-<a href="https://msdn.microsoft.com/aaaafed9-be20-40a2-beed-09703970452f">ITextFont2::SetDuplicate2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont2-setduplicate2">ITextFont2::SetDuplicate2</a>
  
 
  

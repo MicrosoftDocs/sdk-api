@@ -92,21 +92,21 @@ Overlays the extracted icon on the default document icon to create the final ico
 
 Type: <b>HICON*</b>
 
-A pointer to an HICON that, when this function returns successfully, receives the handle of the large version of the icon specified in the <a href="https://msdn.microsoft.com/en-us/library/ms632659(v=VS.85).aspx">LOWORD</a> of <i>nIconSize</i>. This value can be <b>NULL</b>.
+A pointer to an HICON that, when this function returns successfully, receives the handle of the large version of the icon specified in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)">LOWORD</a> of <i>nIconSize</i>. This value can be <b>NULL</b>.
 
 
 ### -param phiconSmall [out, optional]
 
 Type: <b>HICON*</b>
 
-A pointer to an HICON that, when this function returns successfully, receives the handle of the small version of the icon specified in the <a href="https://msdn.microsoft.com/en-us/library/ms632657(v=VS.85).aspx">HIWORD</a> of <i>nIconSize</i>.
+A pointer to an HICON that, when this function returns successfully, receives the handle of the small version of the icon specified in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)">HIWORD</a> of <i>nIconSize</i>.
 
 
 ### -param nIconSize
 
 Type: <b>UINT</b>
 
-A value that contains the large icon size in its <a href="https://msdn.microsoft.com/en-us/library/ms632659(v=VS.85).aspx">LOWORD</a> and the small icon size in its <a href="https://msdn.microsoft.com/en-us/library/ms632657(v=VS.85).aspx">HIWORD</a>. Size is measured in pixels. Pass 0 to specify default large and small sizes.
+A value that contains the large icon size in its <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)">LOWORD</a> and the small icon size in its <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)">HIWORD</a>. Size is measured in pixels. Pass 0 to specify default large and small sizes.
 
 
 ## -returns
@@ -165,7 +165,7 @@ The file cannot be accessed, or is being accessed through a slow link.
 
 
 
-It is the responsibility of the caller to free the icon resources created through this function when they are no longer needed. This can be done through the <a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a> function.
+It is the responsibility of the caller to free the icon resources created through this function when they are no longer needed. This can be done through the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> function.
 
 
 

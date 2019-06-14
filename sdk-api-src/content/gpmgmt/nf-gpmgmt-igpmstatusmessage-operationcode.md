@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 Returns a code related to the GPMC operation. The code corresponds to warnings or other errors that occurred during the operation. In the case of warnings, the operation continues. In the case of other errors, the operation stops.
 
-The operation codes are internal identifiers that are defined in Gpmgmt.dll. You can extract a text description of the operation code by using the  <a href="https://msdn.microsoft.com/8d736e30-760d-43fa-ab5d-d05dc679bfbb">Message property</a> of <a href="https://msdn.microsoft.com/8570d40c-25c2-405c-b52a-dae6c0eb50e0">IGPMStatusMessage</a> or by using <a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a>.
+The operation codes are internal identifiers that are defined in Gpmgmt.dll. You can extract a text description of the operation code by using the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmstatusmessage-property-methods">Message property</a> of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstatusmessage">IGPMStatusMessage</a> or by using <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>.
 
 
 ## -parameters
@@ -80,11 +80,11 @@ Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 
 
 
-<a href="https://msdn.microsoft.com/8570d40c-25c2-405c-b52a-dae6c0eb50e0">IGPMStatusMessage</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstatusmessage">IGPMStatusMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/774dd1b0-e5ea-4fef-b3bc-743870793db5">IGPMStatusMsgCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstatusmsgcollection">IGPMStatusMsgCollection</a>
  
 
  

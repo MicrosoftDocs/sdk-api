@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>GetAuthDataForUser</b> function retrieves authentication information for a user from the Security Accounts Manager (SAM) database and puts it into a format suitable for the 
-<a href="https://msdn.microsoft.com/99dfd3b3-40e0-44b2-8752-39b7b394ac0e">ConvertAuthDataToToken</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_convert_auth_data_to_token">ConvertAuthDataToToken</a> function.
 
 
 ## -parameters
@@ -61,13 +61,13 @@ The <b>GetAuthDataForUser</b> function retrieves authentication information for 
 ### -param Name [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> structure that specifies the name of the SAM account.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> structure that specifies the name of the SAM account.
 
 
 ### -param NameType [in]
 
 A 
-<a href="https://msdn.microsoft.com/6a534bfa-83ec-408d-ad21-e230a7adc61e">SECPKG_NAME_TYPE</a> enumeration value that specifies the type of account name in <i>Name</i>. This parameter can be one of the following values.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ne-ntsecpkg-_secpkg_name_type">SECPKG_NAME_TYPE</a> enumeration value that specifies the type of account name in <i>Name</i>. This parameter can be one of the following values.
 
 <table>
 <tr>
@@ -100,7 +100,7 @@ A
 </dl>
 </td>
 <td width="60%">
-<i>Name</i> is a flat <a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">user principal name</a> (UPN) style account name.
+<i>Name</i> is a flat <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">user principal name</a> (UPN) style account name.
 
 </td>
 </tr>
@@ -121,7 +121,7 @@ A
 ### -param Prefix [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> structure that contains the prefix to use for names specified with the <b>SecNameAlternateId</b> <i>NameType</i>.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> structure that contains the prefix to use for names specified with the <b>SecNameAlternateId</b> <i>NameType</i>.
 
 
 ### -param *UserAuthData [out]
@@ -137,7 +137,7 @@ Pointer to a <b>ULONG</b> that receives the size of the retrieved data.
 ### -param UserFlatName [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> structure that receives the UPN, if applicable.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> structure that receives the UPN, if applicable.
 
 
 ## -returns
@@ -156,13 +156,13 @@ If the function fails, the return value is an NTSTATUS code that indicates the r
 
 
 The <b>GetAuthDataForUser</b> function combines the 
-<a href="https://msdn.microsoft.com/1d9bfbe5-8dd2-4b0f-a19a-361eef8901a4">OpenSamUser</a>, 
-<a href="https://msdn.microsoft.com/2436eaee-1f32-4e32-9a98-74968ad9b58e">GetUserAuthData</a>, and 
-<a href="https://msdn.microsoft.com/1e56e38e-ba8f-4781-80f1-e60bd33250e4">CloseSamUser</a> functions into one call.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_open_sam_user">OpenSamUser</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_get_user_auth_data">GetUserAuthData</a>, and 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_close_sam_user">CloseSamUser</a> functions into one call.
 
 Pointers to these functions are available in the 
-<a href="https://msdn.microsoft.com/85f04072-8634-454a-9038-737d86c5597d">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
-<a href="https://msdn.microsoft.com/d93bafc6-d946-4214-b3c0-5e5a8e359638">SpInitialize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 
 
@@ -172,23 +172,23 @@ Pointers to these functions are available in the
 
 
 
-<a href="https://msdn.microsoft.com/1e56e38e-ba8f-4781-80f1-e60bd33250e4">CloseSamUser</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_close_sam_user">CloseSamUser</a>
 
 
 
-<a href="https://msdn.microsoft.com/2436eaee-1f32-4e32-9a98-74968ad9b58e">GetUserAuthData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_get_user_auth_data">GetUserAuthData</a>
 
 
 
-<a href="https://msdn.microsoft.com/85f04072-8634-454a-9038-737d86c5597d">LSA_SECPKG_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d9bfbe5-8dd2-4b0f-a19a-361eef8901a4">OpenSamUser</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_open_sam_user">OpenSamUser</a>
 
 
 
-<a href="https://msdn.microsoft.com/d93bafc6-d946-4214-b3c0-5e5a8e359638">SpInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
  
 
  

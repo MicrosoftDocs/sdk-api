@@ -59,9 +59,9 @@ Sets the current text antialiasing mode of the bitmap render target.
 
 ### -param antialiasMode
 
-Type: <b><a href="https://msdn.microsoft.com/212B02C9-1265-4870-A059-F292640ECE15">DWRITE_TEXT_ANTIALIAS_MODE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ne-dwrite_1-dwrite_text_antialias_mode">DWRITE_TEXT_ANTIALIAS_MODE</a></b>
 
-A <a href="https://msdn.microsoft.com/212B02C9-1265-4870-A059-F292640ECE15">DWRITE_TEXT_ANTIALIAS_MODE</a>-typed value that specifies the antialiasing mode.
+A <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ne-dwrite_1-dwrite_text_antialias_mode">DWRITE_TEXT_ANTIALIAS_MODE</a>-typed value that specifies the antialiasing mode.
 
 
 ## -returns
@@ -80,9 +80,9 @@ Returns S_OK if successful, or E_INVALIDARG if the argument is not valid.
 
 
 The antialiasing mode of a newly-created bitmap render target defaults to 
-     <a href="https://msdn.microsoft.com/en-us/library/JJ127237(v=VS.85).aspx">DWRITE_TEXT_ANTIALIAS_MODE_CLEARTYPE</a>. An app can change the antialiasing
+     <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ne-dwrite_1-dwrite_text_antialias_mode">DWRITE_TEXT_ANTIALIAS_MODE_CLEARTYPE</a>. An app can change the antialiasing
      mode by calling <b>SetTextAntialiasMode</b>. For example, an app might specify
-    <a href="https://msdn.microsoft.com/en-us/library/JJ127237(v=VS.85).aspx">DWRITE_TEXT_ANTIALIAS_MODE_GRAYSCALE</a> for grayscale antialiasing when it renders text onto a transparent bitmap.
+    <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ne-dwrite_1-dwrite_text_antialias_mode">DWRITE_TEXT_ANTIALIAS_MODE_GRAYSCALE</a> for grayscale antialiasing when it renders text onto a transparent bitmap.
 
 
 
@@ -92,7 +92,7 @@ The antialiasing mode of a newly-created bitmap render target defaults to
 
 
 
-<a href="https://msdn.microsoft.com/5A7D2723-932B-4707-ABCC-0C0282FB7A56">IDWriteBitmapRenderTarget1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritebitmaprendertarget1">IDWriteBitmapRenderTarget1</a>
  
 
  

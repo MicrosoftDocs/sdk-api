@@ -59,7 +59,7 @@ The <b>IsPropertyEditable</b> method indicates to the caller whether a specified
 
 ### -param propertyId [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb648668(v=VS.85).aspx">CASetupProperty</a> constant that specifies the type of property to query.
+A <a href="https://docs.microsoft.com/windows/desktop/api/casetup/ne-casetup-__midl___midl_itf_casetup_0000_0002_0001">CASetupProperty</a> constant that specifies the type of property to query.
 
 
 ### -param pbEditable [out]
@@ -72,7 +72,7 @@ A value that indicates whether the property can be edited.
 
 
 
-<a href="https://msdn.microsoft.com/6792a0d6-d304-481d-a97b-5fb7033c7eae">ICertSrvSetup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>
  
 
  

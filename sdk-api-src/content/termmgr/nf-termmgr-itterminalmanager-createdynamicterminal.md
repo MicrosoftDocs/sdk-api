@@ -71,13 +71,13 @@ GUID identifying class of terminal to be created.
 ### -param dwMediaType [in]
 
 Descriptor of 
-<a href="https://msdn.microsoft.com/3e418c9a-a008-4b94-b5d2-7c2eccb3bf87">media type</a> for stream.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">media type</a> for stream.
 
 
 ### -param Direction [in]
 
 
-<a href="https://msdn.microsoft.com/55ef9df3-1b85-439b-8ecb-28e5069390b9">TERMINAL_DIRECTION</a> descriptor of the media stream direction for terminal.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-terminal_direction">TERMINAL_DIRECTION</a> descriptor of the media stream direction for terminal.
 
 
 ### -param htAddress [in]
@@ -88,7 +88,7 @@ MSP handle.
 ### -param ppTerminal [out]
 
 Pointer to 
-<a href="https://msdn.microsoft.com/38bc30fa-3e4e-417a-9d04-931ba2451fa4">ITTerminal</a> interface for new terminal.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a> interface for new terminal.
 
 
 ## -returns
@@ -148,14 +148,14 @@ The <i>ppAddress</i> parameter is not a valid pointer.
 When choosing a value for <i>pTerminalClass</i>, the only terminal class GUIDs that can be used are those that correspond to terminals that are "dynamically" created. For example, from all terminal classes currently defined by TAPI3, only the following can be used with CreateTerminal: CLSID_MediaStreamTerminal and CLSID_VideoWindowTerm.
 
 In addition, only those dynamic terminal classes that are supported on this address can be used. The application can discover these values by using 
-<a href="https://msdn.microsoft.com/1dcb9163-306b-42fc-afb4-41b33d7e2d40">ITTerminalSupport::EnumerateDynamicTerminalClasses</a> or 
-<a href="https://msdn.microsoft.com/258fad5c-6269-45ab-bdc0-d38338f8e515">ITTerminalSupport::get_DynamicTerminalClasses</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-enumeratedynamicterminalclasses">ITTerminalSupport::EnumerateDynamicTerminalClasses</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-get_dynamicterminalclasses">ITTerminalSupport::get_DynamicTerminalClasses</a>.
 
 The application must obtain the <i>pTerminalClass</i> <b>BSTR</b> in two steps: call <b>StringFromIID</b> to convert the GUID to an <b>LPOLESTR</b>, then call 
-<a href="https://msdn.microsoft.com/en-us/library/ms221458(v=VS.85).aspx">SysAllocString</a> to convert the <b>LPOLESTR</b> to a <b>BSTR</b>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> to convert the <b>LPOLESTR</b> to a <b>BSTR</b>.
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>pTerminalClass</i> parameter.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory allocated for the <i>pTerminalClass</i> parameter.
 			
 
 
@@ -166,15 +166,15 @@ The application must use
 
 
 
-<a href="https://msdn.microsoft.com/7e5bd83d-42c5-463c-8ce0-c6f466f60588">ITTerminalManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nn-termmgr-itterminalmanager">ITTerminalManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/55ef9df3-1b85-439b-8ecb-28e5069390b9">TERMINAL_DIRECTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-terminal_direction">TERMINAL_DIRECTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e418c9a-a008-4b94-b5d2-7c2eccb3bf87">media type</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">media type</a>
  
 
  

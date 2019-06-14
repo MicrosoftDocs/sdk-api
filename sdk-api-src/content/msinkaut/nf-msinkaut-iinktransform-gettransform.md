@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Gets the <a href="https://msdn.microsoft.com/79abff2e-d1d3-4a32-9ac2-f46c1b21f742">InkTransform</a> member data.
+Gets the <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> member data.
 
 
 
@@ -145,7 +145,7 @@ A parameter contained an invalid pointer.
 
 
 
-An <a href="https://msdn.microsoft.com/79abff2e-d1d3-4a32-9ac2-f46c1b21f742">InkTransform</a> object represents a 33 matrix that, in turn, represents an affine transformation. The object stores only six of the nine numbers in a 3x3 matrix because all 3x3 matrices that represent affine transformations have the same third column (0, 0, 1).
+An <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> object represents a 33 matrix that, in turn, represents an affine transformation. The object stores only six of the nine numbers in a 3x3 matrix because all 3x3 matrices that represent affine transformations have the same third column (0, 0, 1).
 
 
 
@@ -159,11 +159,11 @@ An <a href="https://msdn.microsoft.com/79abff2e-d1d3-4a32-9ac2-f46c1b21f742">Ink
 
 
 
-<a href="https://msdn.microsoft.com/79abff2e-d1d3-4a32-9ac2-f46c1b21f742">InkTransform Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/5b734703-4117-4668-b881-4ba4e1c65189">SetTransform Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-settransform">SetTransform Method</a>
  
 
  

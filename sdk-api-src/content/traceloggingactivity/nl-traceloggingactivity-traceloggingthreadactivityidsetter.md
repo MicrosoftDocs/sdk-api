@@ -62,7 +62,7 @@ Tags a thread with an activity id so ETW marks all events in that thread with th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F950256A-27A8-4C8F-B4A3-974F0E095103">TraceLoggingThreadActivityIdSetter Constructor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingthreadactivityidsetter-traceloggingthreadactivityidsetter(constguid)">TraceLoggingThreadActivityIdSetter Constructor</a>
 </td>
 <td align="left" width="63%">
 Creates a new <b>TraceLoggingThreadActivityIdSetter</b> object.
@@ -71,7 +71,7 @@ Creates a new <b>TraceLoggingThreadActivityIdSetter</b> object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5B400757-40D7-4DF3-AF9C-C436DE86C7F9">TraceLoggingThreadActivityIDSetter Constructor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingthreadactivityidsetter-~traceloggingthreadactivityidsetter">TraceLoggingThreadActivityIDSetter Constructor</a>
 </td>
 <td align="left" width="63%">
 Saves the original activity ID and sets a new activity on the thread.
@@ -80,7 +80,7 @@ Saves the original activity ID and sets a new activity on the thread.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5B400757-40D7-4DF3-AF9C-C436DE86C7F9">TraceLoggingThreadActivityIdSetter Destructor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingthreadactivityidsetter-~traceloggingthreadactivityidsetter">TraceLoggingThreadActivityIdSetter Destructor</a>
 </td>
 <td align="left" width="63%">
 Restores the original activity ID to the thread.

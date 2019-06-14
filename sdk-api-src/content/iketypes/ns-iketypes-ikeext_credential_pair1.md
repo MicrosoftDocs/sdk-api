@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_CREDENTIAL_PAIR1</b> structure is  used to store credential information used for the authentication.
-<div class="alert"><b>Note</b>  <b>IKEEXT_CREDENTIAL_PAIR1</b> is the specific implementation of IKEEXT_CREDENTIAL_PAIR used in Windows 7 and later. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 8, <a href="https://msdn.microsoft.com/013b7b6c-aee6-40f3-b8c4-ef98784165ca">IKEEXT_CREDENTIAL_PAIR2</a> is available. For Windows Vista, <a href="https://msdn.microsoft.com/35dcc31f-8acd-4b7d-901d-3b2e9cde1690">IKEEXT_CREDENTIAL_PAIR0</a> is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>IKEEXT_CREDENTIAL_PAIR1</b> is the specific implementation of IKEEXT_CREDENTIAL_PAIR used in Windows 7 and later. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 8, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair2_">IKEEXT_CREDENTIAL_PAIR2</a> is available. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair0_">IKEEXT_CREDENTIAL_PAIR0</a> is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -61,14 +61,14 @@ The <b>IKEEXT_CREDENTIAL_PAIR1</b> structure is  used to store credential inform
 
 Local credentials used for authentication.
 
-See <a href="https://msdn.microsoft.com/81b4c66a-67dd-4d5a-bd71-2fdbe6fd5df5">IKEEXT_CREDENTIAL1</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential1_">IKEEXT_CREDENTIAL1</a> for more information.
 
 
 ### -field peerCredentials
 
 Peer credentials used for authentication.
 
-See <a href="https://msdn.microsoft.com/81b4c66a-67dd-4d5a-bd71-2fdbe6fd5df5">IKEEXT_CREDENTIAL1</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential1_">IKEEXT_CREDENTIAL1</a> for more information.
 
 
 ## -see-also
@@ -76,11 +76,11 @@ See <a href="https://msdn.microsoft.com/81b4c66a-67dd-4d5a-bd71-2fdbe6fd5df5">IK
 
 
 
-<a href="https://msdn.microsoft.com/81b4c66a-67dd-4d5a-bd71-2fdbe6fd5df5">IKEEXT_CREDENTIAL1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential1_">IKEEXT_CREDENTIAL1</a>
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

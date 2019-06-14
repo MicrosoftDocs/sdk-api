@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Remove the instance of the AMSI API that was originally opened by <a href="https://msdn.microsoft.com/946FC79C-556C-404E-A559-323AA69B3EC6">AmsiInitialize</a>.
+Remove the instance of the AMSI API that was originally opened by <a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiinitialize">AmsiInitialize</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Remove the instance of the AMSI API that was originally opened by <a href="https
 
 ### -param amsiContext [in]
 
-The handle of type HAMSICONTEXT that was initially received from <a href="https://msdn.microsoft.com/946FC79C-556C-404E-A559-323AA69B3EC6">AmsiInitialize</a>.
+The handle of type HAMSICONTEXT that was initially received from <a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiinitialize">AmsiInitialize</a>.
 
 
 ## -returns
@@ -76,7 +76,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/946FC79C-556C-404E-A559-323AA69B3EC6">AmsiInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiinitialize">AmsiInitialize</a>
  
 
  

@@ -105,7 +105,7 @@ The properties dialog for an item is handled successfully.
 
 
 
-If a registered application provides a properties dialog box for an item, it must set the SYNCMGRITEM_HASPROPERTIES bit in the <b>dwFlags</b> member of the <a href="https://msdn.microsoft.com/84fa1d81-d1b9-44d7-be97-14511ef95528">SYNCMGRITEM</a> structure.
+If a registered application provides a properties dialog box for an item, it must set the SYNCMGRITEM_HASPROPERTIES bit in the <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-_tagsyncmgritem">SYNCMGRITEM</a> structure.
 
 If <i>ItemID</i> is GUID_NULL the handler should show the properties dialog for the overall handler.
 
@@ -119,15 +119,15 @@ The appearance of the displayed dialog box should be consistent with a standard 
 
 
 
-<a href="https://msdn.microsoft.com/bb821672-10b1-4fe6-a752-6cd1ccd1e49e">ISyncMgrSynchronize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronize">ISyncMgrSynchronize</a>
 
 
 
-<a href="https://msdn.microsoft.com/84fa1d81-d1b9-44d7-be97-14511ef95528">SYNCMGRITEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-_tagsyncmgritem">SYNCMGRITEM</a>
 
 
 
-<a href="https://msdn.microsoft.com/6297f10b-9a2c-4077-9dca-e5c0850d125a">SYNCMGRITEMFLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-_tagsyncmgritemflags">SYNCMGRITEMFLAGS</a>
  
 
  

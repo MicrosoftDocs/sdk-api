@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets up the <a href="https://msdn.microsoft.com/45c80fc5-5ea7-4d4e-9c9c-5a38f62b2d28">IMFSystemId</a>.
+Sets up the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsystemid">IMFSystemId</a>.
 
 
 ## -parameters
@@ -96,7 +96,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/45c80fc5-5ea7-4d4e-9c9c-5a38f62b2d28">IMFSystemId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsystemid">IMFSystemId</a>
  
 
  

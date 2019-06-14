@@ -51,12 +51,12 @@ ms.custom: 19H1
 
 Use this interface to retrieve block information for one segment of the result file image. This can be used to determine the LBA ranges of files in the resulting image. This information can then be used to display to the user which file is currently being written to the media or used for other advanced burning functionality.
 
-To get this interface, call the <a href="https://msdn.microsoft.com/9a6b4838-921b-444d-8ac2-f26d9762d9ce">IEnumProgressItems::Next</a> or <a href="https://msdn.microsoft.com/c5f85ca3-1bad-49fd-9e67-d41135cd837d">IEnumProgressItems::RemoteNext</a> method.
+To get this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ienumprogressitems-next">IEnumProgressItems::Next</a> or <a href="https://docs.microsoft.com/windows/desktop/imapi/ienumprogressitems-remotenext">IEnumProgressItems::RemoteNext</a> method.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProgressItem</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IProgressItem</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProgressItem</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IProgressItem</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IProgressItem</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6960fecb-f202-4a10-9abb-fc945217a314">get_BlockCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitem-get_blockcount">get_BlockCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of blocks in the progress item.
@@ -80,7 +80,7 @@ Retrieves the number of blocks in the progress item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/72da165f-a875-4f26-a2ba-701ad0a4a9d1">get_Description</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitem-get_description">get_Description</a>
 </td>
 <td align="left" width="63%">
 Retrieves the description in the progress item.
@@ -89,7 +89,7 @@ Retrieves the description in the progress item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9c1c5932-0301-4752-871d-609d3c128906">get_FirstBlock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitem-get_firstblock">get_FirstBlock</a>
 </td>
 <td align="left" width="63%">
 Retrieves the first block number in this segment of the result image.
@@ -98,7 +98,7 @@ Retrieves the first block number in this segment of the result image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ad75e708-4a10-45b9-89c2-11270f6edd9e">get_LastBlock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitem-get_lastblock">get_LastBlock</a>
 </td>
 <td align="left" width="63%">
 Retrieves the last block in this segment of the result image.
@@ -122,15 +122,15 @@ This is a <b>ProgressItem</b> object in script.
 
 
 
-<a href="https://msdn.microsoft.com/c4238fbe-762a-492f-9eb5-d927e64436e1">IEnumProgressItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ienumprogressitems">IEnumProgressItems</a>
 
 
 
-<a href="https://msdn.microsoft.com/30ec514c-97b8-41fc-b814-11f50cacaa25">IFileSystemImageResult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimageresult">IFileSystemImageResult</a>
 
 
 
-<a href="https://msdn.microsoft.com/40c28e67-8ff3-4330-90a1-7ebccb0023ad">IProgressItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitems">IProgressItems</a>
  
 
  

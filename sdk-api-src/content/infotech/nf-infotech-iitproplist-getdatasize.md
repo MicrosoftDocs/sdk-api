@@ -127,11 +127,11 @@ Invalid header buffer.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms670040(v=VS.85).aspx">IITPropList</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nn-infotech-iitproplist">IITPropList</a>
 
 
 
-<a href="https://msdn.microsoft.com/73206149-cbc3-475d-8dc8-bb7547f41173">IITPropList::GetHeaderSize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nf-infotech-iitproplist-getheadersize">IITPropList::GetHeaderSize</a>
  
 
  

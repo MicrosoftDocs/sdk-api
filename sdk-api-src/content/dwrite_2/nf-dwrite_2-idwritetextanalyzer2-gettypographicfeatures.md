@@ -60,14 +60,14 @@ Returns a complete list of OpenType features available for a script or font. If 
 
 ### -param fontFace
 
-Type: <b><a href="https://msdn.microsoft.com/1b6bb9e2-cf01-413c-9ee8-42bb0f703ce8">IDWriteFontFace</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontface">IDWriteFontFace</a>*</b>
 
 The font face to get features from.
 
 
 ### -param scriptAnalysis
 
-Type: <b><a href="https://msdn.microsoft.com/dafda5f6-39aa-4577-9213-898bdeddc7c2">DWRITE_SCRIPT_ANALYSIS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_script_analysis">DWRITE_SCRIPT_ANALYSIS</a></b>
 
 The script analysis for the script or font to check.
 
@@ -95,7 +95,7 @@ The actual number of tags returned.
 
 ### -param tags [out]
 
-Type: <b><a href="https://msdn.microsoft.com/31f0d1b5-36f2-4bde-b39c-b1392f9d925f">DWRITE_FONT_FEATURE_TAG</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_feature_tag">DWRITE_FONT_FEATURE_TAG</a>*</b>
 
 An array of OpenType font feature tags.
 
@@ -116,7 +116,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/62DF6E71-F99D-47E9-A9BE-2A481A60AEDD">IDWriteTextAnalyzer2</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritetextanalyzer2">IDWriteTextAnalyzer2</a>
  
 
  

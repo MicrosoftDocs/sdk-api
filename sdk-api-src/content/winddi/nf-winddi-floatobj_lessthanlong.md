@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>FLOATOBJ_LessThanLong</b> function determines whether the <a href="https://msdn.microsoft.com/5f8c401b-7487-4d75-a0a8-534fa7992a3d">FLOATOBJ</a> is less than the value of type LONG.
+The <b>FLOATOBJ_LessThanLong</b> function determines whether the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_floatobj">FLOATOBJ</a> is less than the value of type LONG.
 
 
 ## -parameters
@@ -90,7 +90,7 @@ The FLOATOBJ<b>_</b><i>Xxx</i> services allow graphics drivers to emulate floati
 
 
 
-<a href="https://msdn.microsoft.com/5f8c401b-7487-4d75-a0a8-534fa7992a3d">FLOATOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_floatobj">FLOATOBJ</a>
  
 
  

@@ -59,14 +59,14 @@ Description of a vertex element in a vertex buffer in an output slot.
 
 ### -field Stream
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Zero-based, stream number.
 
 
 ### -field SemanticName
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
 Type of output element; possible values include: <b>"POSITION"</b>, <b>"NORMAL"</b>, or <b>"TEXCOORD0"</b>.
         Note that if <i>SemanticName</i> is <b>NULL</b> then 
@@ -76,14 +76,14 @@ Type of output element; possible values include: <b>"POSITION"</b>, <b>"NORMAL"<
 
 ### -field SemanticIndex
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Output element's zero-based index. Should be used if, for example, you have more than one texture coordinate stored in each vertex.
 
 
 ### -field StartComponent
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 Which component of the entry to begin writing out to. Valid values are 0 to 3. For example, if you only wish to output to the y and z components 
         of a position, then StartComponent should be 1 and ComponentCount should be 2.
@@ -91,7 +91,7 @@ Which component of the entry to begin writing out to. Valid values are 0 to 3. F
 
 ### -field ComponentCount
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 The number of components of the entry to write out to. Valid values are 1 to 4. For example, if you only wish to output to the y and z components 
         of a position, then StartComponent should be 1 and ComponentCount should be 2.  Note that if <i>SemanticName</i> is <b>NULL</b> then 
@@ -100,10 +100,10 @@ The number of components of the entry to write out to. Valid values are 1 to 4. 
 
 ### -field OutputSlot
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 The associated stream output buffer that is bound to the pipeline 
-        (see <a href="https://msdn.microsoft.com/fba6e33e-7d35-4f26-b841-38610164d276">ID3D11DeviceContext::SOSetTargets</a>). 
+        (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-sosettargets">ID3D11DeviceContext::SOSetTargets</a>). 
         The valid range for <i>OutputSlot</i> is 0 to 3.
 
 
@@ -112,7 +112,7 @@ The associated stream output buffer that is bound to the pipeline
 
 
 
-<a href="https://msdn.microsoft.com/2a45182a-7114-4075-b8b8-147f52fe7aa9">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-structures">Core Structures</a>
  
 
  

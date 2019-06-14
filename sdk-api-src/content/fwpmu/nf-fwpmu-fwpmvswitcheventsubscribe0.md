@@ -61,19 +61,19 @@ The <b>FwpmvSwitchEventSubscribe0</b> function  is used to request the delivery 
 
 Type: <b>HANDLE</b>
 
-Handle for an open session to the filter engine. Call <a href="https://msdn.microsoft.com/5165f219-f3e0-4e84-915b-75912aab02b7">FwpmEngineOpen0</a> to open a session to the filter engine.
+Handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
 
 ### -param subscription [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Hh447389(v=VS.85).aspx">FWPM_VSWITCH_EVENT_SUBSCRIPTION0</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_vswitch_event_subscription0_">FWPM_VSWITCH_EVENT_SUBSCRIPTION0</a>*</b>
 
 The notifications which will be delivered.
 
 
 ### -param callback [in]
 
-Type: <b><a href="https://msdn.microsoft.com/95cccc54-8f58-4942-8770-f07f4d293396">FWPM_VSWITCH_EVENT_CALLBACK0</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_vswitch_event_callback0">FWPM_VSWITCH_EVENT_CALLBACK0</a></b>
 
 Function pointer that will be invoked when a notification is ready for delivery.
 
@@ -123,7 +123,7 @@ The subscription was created successfully.
 </dl>
 </td>
 <td width="60%">
-A Windows Filtering Platform (WFP) specific error. See <a href="https://msdn.microsoft.com/11f3085a-f044-4a78-b47a-59b9086562bf">WFP Error Codes</a> for details.
+A Windows Filtering Platform (WFP) specific error. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
 
 </td>
 </tr>
@@ -150,11 +150,11 @@ Failure to communicate with the remote or local firewall engine.
 
 
 This function cannot be called from within a transaction. It will fail
-with <b>FWP_E_TXN_IN_PROGRESS</b>. See <a href="https://msdn.microsoft.com/2625ef9a-0e62-4e21-ba93-047965d0d782">Object Management</a> for more information about transactions.
+with <b>FWP_E_TXN_IN_PROGRESS</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/object-management">Object Management</a> for more information about transactions.
 
-The caller needs <a href="https://msdn.microsoft.com/77f0a1ac-3e99-4cba-a7c6-b8747f35cd0c">FWPM_ACTRL_SUBSCRIBE</a> access to the virtual switch event's container.
+The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-right-identifiers">FWPM_ACTRL_SUBSCRIBE</a> access to the virtual switch event's container.
 
-<b>FwpmvSwitchEventSubscribe0</b> is a specific implementation of FwpmvSwitchEventSubscribe. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FwpmvSwitchEventSubscribe0</b> is a specific implementation of FwpmvSwitchEventSubscribe. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -164,11 +164,11 @@ The caller needs <a href="https://msdn.microsoft.com/77f0a1ac-3e99-4cba-a7c6-b87
 
 
 
-<a href="https://msdn.microsoft.com/adc258b4-c4ee-4ff8-8174-42c58377ea32">FwpmvSwitchEventUnsubscribe0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmvswitcheventunsubscribe0">FwpmvSwitchEventUnsubscribe0</a>
 
 
 
-<a href="https://msdn.microsoft.com/26a69710-9981-40a4-8b1e-dca709624ead">WFP  Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-functions">WFP  Functions</a>
  
 
  

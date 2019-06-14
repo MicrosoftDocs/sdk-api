@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/4043a85f-ebdc-424c-acf5-9097d1472773">Windows Firewall API</a>.]
+<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 The 
 <b>get_EnumPrivateConnections</b> method retrieves an enumeration interface for privately-shared connections.
@@ -68,7 +68,7 @@ This parameter must be ICSSC_DEFAULT.
 ### -param ppColl [out]
 
 Pointer to a pointer that, on successful return, points to an 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365988(v=VS.85).aspx">INetSharingPrivateConnectionCollection</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/netcon/nn-netcon-inetsharingprivateconnectioncollection">INetSharingPrivateConnectionCollection</a> interface.
 
 
 ## -returns
@@ -183,23 +183,23 @@ The method failed for unknown reasons.
 
 
 
-<a href="https://msdn.microsoft.com/0e4cfa2e-8caa-4258-bd52-1f5a00403dfa">IEnumNetSharingPrivateConnection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-ienumnetsharingprivateconnection">IEnumNetSharingPrivateConnection</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365960(v=VS.85).aspx">INetSharingManager</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingmanager">INetSharingManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365988(v=VS.85).aspx">INetSharingPrivateConnectionCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netcon/nn-netcon-inetsharingprivateconnectioncollection">INetSharingPrivateConnectionCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/dfef918e-9abf-4ac2-8365-28cd5b249add">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-interfaces">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa366131(v=VS.85).aspx">Internet Connection Sharing and Internet Connection Firewall Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>
  
 
  

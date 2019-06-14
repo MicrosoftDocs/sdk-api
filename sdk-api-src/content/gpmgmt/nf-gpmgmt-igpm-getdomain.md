@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Creates and returns a 
-<a href="https://msdn.microsoft.com/c3639f07-7c8c-4440-ade4-b58abd2586d6">GPMDomain</a> object that corresponds to the specified domain.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain">GPMDomain</a> object that corresponds to the specified domain.
 
 The object allows you to do the following:
 <ul>
@@ -86,7 +86,7 @@ If this parameter is set to zero, and a <i>bstrDomainController</i> is specified
 ### -param pIGPMDomain [out]
 
 Address of a pointer to the 
-<a href="https://msdn.microsoft.com/c3639f07-7c8c-4440-ade4-b58abd2586d6">IGPMDomain</a> interface.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain">IGPMDomain</a> interface.
 
 
 ## -returns
@@ -110,7 +110,7 @@ Returns a reference to a <b>GPMDomain</b> object.
 >**Important:** When calling this function, underlying LDAP traffic is encrypted using Kerberos, not SSL.
 
 This method does not allow you to search site SOMs. Call the 
-<a href="https://msdn.microsoft.com/0a1b8975-cd73-49e6-83b9-f6af296276cb">IGPM::GetSitesContainer</a> method to perform this type of query.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpm-getsitescontainer">IGPM::GetSitesContainer</a> method to perform this type of query.
 
 
 
@@ -120,11 +120,11 @@ This method does not allow you to search site SOMs. Call the
 
 
 
-<a href="https://msdn.microsoft.com/2780760e-7114-46b0-a264-00ed58a556cb">IGPM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
 
 
 
-<a href="https://msdn.microsoft.com/c3639f07-7c8c-4440-ade4-b58abd2586d6">IGPMDomain</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain">IGPMDomain</a>
  
 
  

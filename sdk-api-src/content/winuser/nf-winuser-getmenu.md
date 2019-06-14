@@ -79,12 +79,12 @@ The return value is a handle to the menu. If the specified window has no menu, t
 
 
 
-<b>GetMenu</b> does not work on floating menu bars. Floating menu bars are custom controls that mimic standard menus; they are not menus. To get the handle on a floating menu bar, use the <a href="https://msdn.microsoft.com/en-us/library/ms971350(v=MSDN.10).aspx">Active Accessibility</a> APIs.
+<b>GetMenu</b> does not work on floating menu bars. Floating menu bars are custom controls that mimic standard menus; they are not menus. To get the handle on a floating menu bar, use the <a href="/previous-versions/ms971350(v=msdn.10)">Active Accessibility</a> APIs.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms647558(v=VS.85).aspx">Adding Lines and Graphs to a Menu</a>. 
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-menus">Adding Lines and Graphs to a Menu</a>. 
 
 <div class="code"></div>
 
@@ -99,11 +99,11 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms647558(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647984(v=VS.85).aspx">GetSubMenu</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsubmenu">GetSubMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
 
 
 
@@ -111,7 +111,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms647558(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647995(v=VS.85).aspx">SetMenu</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenu">SetMenu</a>
  
 
  

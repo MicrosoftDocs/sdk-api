@@ -132,11 +132,11 @@ This function may send data over the wire in unencrypted form; therefore, someon
 
 
 
-<a href="https://msdn.microsoft.com/92a5624b-acf5-4280-9932-860fde53c6a0">ITILSConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itilsconfig">ITILSConfig</a>
 
 
 
-<a href="https://msdn.microsoft.com/7aa0a8e7-6799-4685-92a0-c2ce610d0e06">ITILSConfig::get_Port</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itilsconfig-get_port">ITILSConfig::get_Port</a>
  
 
  

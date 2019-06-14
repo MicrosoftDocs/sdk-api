@@ -142,7 +142,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-When specifying a GUID partition table (GPT) as the <a href="https://msdn.microsoft.com/254e4ea1-d0c8-4033-b8af-e5dbfb7c7da8">PARTITION_STYLE</a> of the <a href="https://msdn.microsoft.com/ec4a1ef9-ff2e-41b3-951b-241c545f256b">CREATE_DISK</a> structure, an application should wait for the MSR partition arrival before sending the <a href="https://msdn.microsoft.com/a600e841-c692-4aa4-bea2-a33931d9b007">IOCTL_DISK_SET_DRIVE_LAYOUT_EX</a> control code. For more information about device notification, see <a href="https://msdn.microsoft.com/82094d95-9af3-4222-9c5e-ce2df9bab5e3">RegisterDeviceNotification</a>.
+When specifying a GUID partition table (GPT) as the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_partition_style">PARTITION_STYLE</a> of the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_create_disk">CREATE_DISK</a> structure, an application should wait for the MSR partition arrival before sending the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_drive_layout_ex">IOCTL_DISK_SET_DRIVE_LAYOUT_EX</a> control code. For more information about device notification, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa">RegisterDeviceNotification</a>.
 
 
 
@@ -152,15 +152,15 @@ When specifying a GUID partition table (GPT) as the <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/2b8b2021-8650-452d-a975-54249620d72f">DISK_GEOMETRY_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_disk_geometry_ex">DISK_GEOMETRY_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/488a7d32-cbb5-4f32-9655-0aca8ac69640">Disk Management Control Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes">Disk Management Control Codes</a>
  
 
  

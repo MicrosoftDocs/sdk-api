@@ -66,12 +66,12 @@ The source isn't identified.
 
 The input message is from a hardware device or has been  injected into the message queue by an application that has the <b>UIAccess</b> attribute set to TRUE in its manifest file. 
 
-For more information about the <b>UIAccess</b> attribute and application manifests, see <a href="https://msdn.microsoft.com/library/Bb756883(v=MSDN.10).aspx">UAC References</a>.
+For more information about the <b>UIAccess</b> attribute and application manifests, see <a href="/previous-versions/bb756883(v=msdn.10)">UAC References</a>.
 
 
 ### -field IMO_INJECTED
 
-The input message has been injected (through the <a href="https://msdn.microsoft.com/en-us/library/ms646310(v=VS.85).aspx">SendInput</a> function) by an application that doesn't have the <b>UIAccess</b> attribute set to TRUE in its manifest file.
+The input message has been injected (through the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a> function) by an application that doesn't have the <b>UIAccess</b> attribute set to TRUE in its manifest file.
 
 
 ### -field IMO_SYSTEM
@@ -84,7 +84,7 @@ The system has injected the input message.
 
 
 
-<a href="https://msdn.microsoft.com/0DED867D-75FF-4343-BBB7-D71E7FF7D217">Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_sourceid/enumerations">Enumerations</a>
  
 
  

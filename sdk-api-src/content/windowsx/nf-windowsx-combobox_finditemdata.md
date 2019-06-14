@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Finds the first item in a combo box list that has the specified item data. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775835(v=VS.85).aspx">CB_FINDSTRING</a> message explicitly.
+Finds the first item in a combo box list that has the specified item data. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-findstring">CB_FINDSTRING</a> message explicitly.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Finds the first item in a combo box list that has the specified item data. You c
 
 ### -param hwndCtl
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -73,7 +73,7 @@ The zero-based index of the item before the first item to be searched. When the 
 
 ### -param data
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 The data to find.
 
@@ -82,7 +82,7 @@ The data to find.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775835(v=VS.85).aspx">CB_FINDSTRING</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-findstring">CB_FINDSTRING</a>.
 	
 
 

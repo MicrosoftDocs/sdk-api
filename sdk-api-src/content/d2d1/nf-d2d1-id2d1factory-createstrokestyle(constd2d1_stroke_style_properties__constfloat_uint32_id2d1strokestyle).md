@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/2cdf66dc-f34f-4132-8c06-7464648d3cef">ID2D1StrokeStyle</a> that describes start cap, dash pattern, and other features of a stroke.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a> that describes start cap, dash pattern, and other features of a stroke.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Creates an <a href="https://msdn.microsoft.com/2cdf66dc-f34f-4132-8c06-7464648d3
 
 ### -param strokeStyleProperties [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/67f3701f-febd-4afe-803e-c5d9dbcd1b21">D2D1_STROKE_STYLE_PROPERTIES</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_stroke_style_properties">D2D1_STROKE_STYLE_PROPERTIES</a></b>
 
 A structure that describes the stroke's line cap, dash offset, and other details of a stroke.
 
@@ -80,7 +80,7 @@ The number of elements in the <i>dashes</i> array.
 
 ### -param strokeStyle [out]
 
-Type: <b><a href="https://msdn.microsoft.com/2cdf66dc-f34f-4132-8c06-7464648d3cef">ID2D1StrokeStyle</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a>**</b>
 
 When this method returns, contains the address of the pointer to the stroke style created by this method.
 
@@ -89,7 +89,7 @@ When this method returns, contains the address of the pointer to the stroke styl
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -101,7 +101,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/cef6115c-98e8-49e6-b419-271b43ce2938">ID2D1Factory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>
  
 
  

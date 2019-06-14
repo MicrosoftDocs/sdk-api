@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>WinHttpFreeProxyResult</b> function frees the data retrieved from a previous call to <a href="https://msdn.microsoft.com/f594e588-b3da-4afb-a5f9-552759bca148">WinHttpGetProxyResult</a>.
+The <b>WinHttpFreeProxyResult</b> function frees the data retrieved from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyresult">WinHttpGetProxyResult</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>WinHttpFreeProxyResult</b> function frees the data retrieved from a previ
 
 ### -param pProxyResult [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/6a621701-3325-4877-99ba-8580ad07739d">WINHTTP_PROXY_RESULT</a> structure retrieved from a previous call to <a href="https://msdn.microsoft.com/f594e588-b3da-4afb-a5f9-552759bca148">WinHttpGetProxyResult</a>.  
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-_winhttp_proxy_result">WINHTTP_PROXY_RESULT</a> structure retrieved from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyresult">WinHttpGetProxyResult</a>.  
 
 
 ## -returns

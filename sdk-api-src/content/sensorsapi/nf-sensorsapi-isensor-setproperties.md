@@ -130,7 +130,7 @@ Not all properties can be set.
 
 #### Examples
 
-For an example of how to set properties, see <a href="https://msdn.microsoft.com/7d10e5b4-bae7-4564-84eb-75c6a2eeef8f">Setting and Retrieving Sensor Properties</a>.
+For an example of how to set properties, see <a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/setting-and-retrieving-sensor-properties">Setting and Retrieving Sensor Properties</a>.
 
 <div class="code"></div>
 
@@ -141,11 +141,11 @@ For an example of how to set properties, see <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/19581a45-500f-4210-9ec2-b3e33c84fb8a">GetProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getproperties">GetProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/3216afbb-d524-486d-99ad-0ee0cfb884e0">ISensor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
  
 
  

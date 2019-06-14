@@ -98,7 +98,7 @@ No return value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775713(v=VS.85).aspx">PFNDAENUMCALLBACKCONST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndaenumcallbackconst">PFNDAENUMCALLBACKCONST</a>
  
 
  

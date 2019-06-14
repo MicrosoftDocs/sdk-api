@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/e6686998-1246-b3b7-6f4f-212568c3191c">Posterize effect</a>.
+Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/posterize-effect">Posterize effect</a>.
 
 
 ## -enum-fields

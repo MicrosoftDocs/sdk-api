@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 
-The <b>ILanguageComponentType</b> interface is implemented on <a href="https://msdn.microsoft.com/d1601651-84a2-4fd8-9318-653aa569e747">LanguageComponentType</a> objects. It provides methods that define the language of the stream content. Not all streams have a language component.
+The <b>ILanguageComponentType</b> interface is implemented on <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/languagecomponenttype-object">LanguageComponentType</a> objects. It provides methods that define the language of the stream content. Not all streams have a language component.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILanguageComponentType</b> interface inherits from <a href="https://msdn.microsoft.com/e83bbbbe-64a9-4ed3-9c32-925ca80c2c38">IComponentType</a>. <b>ILanguageComponentType</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILanguageComponentType</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttype">IComponentType</a>. <b>ILanguageComponentType</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>ILanguageComponentType</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f70dcc70-701a-4465-ad40-1ddc5e697f46">get_LangID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ilanguagecomponenttype-get_langid">get_LangID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the language of the stream content.
@@ -81,7 +81,7 @@ Retrieves the language of the stream content.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c0dc0141-a839-4fdc-9313-24ddd3eaf63d">put_LangID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ilanguagecomponenttype-put_langid">put_LangID</a>
 </td>
 <td align="left" width="63%">
 Sets the language of the stream content.
@@ -105,11 +105,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/e83bbbbe-64a9-4ed3-9c32-925ca80c2c38">IComponentType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttype">IComponentType</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d956e1d-88b3-4236-9987-f37f674645de">Tuning Model Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
  
 
  

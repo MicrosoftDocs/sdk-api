@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Obtains the number of items that can be fully visible in the client window of a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773731(v=VS.85).aspx">TVM_GETVISIBLECOUNT</a> message explicitly. 
+Obtains the number of items that can be fully visible in the client window of a tree-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getvisiblecount">TVM_GETVISIBLECOUNT</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Obtains the number of items that can be fully visible in the client window of a 
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control. 
 

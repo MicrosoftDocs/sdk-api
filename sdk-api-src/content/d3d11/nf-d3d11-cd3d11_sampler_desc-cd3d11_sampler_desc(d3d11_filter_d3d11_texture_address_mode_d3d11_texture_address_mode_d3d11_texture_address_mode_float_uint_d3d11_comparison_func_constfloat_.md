@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Instantiates a new instance of a  <a href="https://msdn.microsoft.com/1FE748DB-7DC6-4C6E-94D5-DF88477B3DEC">CD3D11_SAMPLER_DESC</a> structure that is initialized with a <a href="https://msdn.microsoft.com/97dd6cac-6657-4a1e-b631-4e5d36994b16">D3D11_SAMPLER_DESC</a> structure.
+Instantiates a new instance of a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151678(v=vs.85)">CD3D11_SAMPLER_DESC</a> structure that is initialized with a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_sampler_desc">D3D11_SAMPLER_DESC</a> structure.
 
 
 ## -parameters
@@ -112,9 +112,9 @@ TBD
 
 #### - o [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/97dd6cac-6657-4a1e-b631-4e5d36994b16">D3D11_SAMPLER_DESC</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_sampler_desc">D3D11_SAMPLER_DESC</a></b>
 
-Address of the <a href="https://msdn.microsoft.com/97dd6cac-6657-4a1e-b631-4e5d36994b16">D3D11_SAMPLER_DESC</a> structure that initializes the <a href="https://msdn.microsoft.com/1FE748DB-7DC6-4C6E-94D5-DF88477B3DEC">CD3D11_SAMPLER_DESC</a> structure.
+Address of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_sampler_desc">D3D11_SAMPLER_DESC</a> structure that initializes the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151678(v=vs.85)">CD3D11_SAMPLER_DESC</a> structure.
 
 
 ## -returns
@@ -131,7 +131,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/1FE748DB-7DC6-4C6E-94D5-DF88477B3DEC">CD3D11_SAMPLER_DESC</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151678(v=vs.85)">CD3D11_SAMPLER_DESC</a>
  
 
  

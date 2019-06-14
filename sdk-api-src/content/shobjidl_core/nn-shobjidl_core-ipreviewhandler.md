@@ -54,7 +54,7 @@ Exposes methods for the display of rich previews.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPreviewHandler</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPreviewHandler</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPreviewHandler</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPreviewHandler</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IPreviewHandler</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f6bad84f-9089-4905-ad4d-9b69ff9d11d6">DoPreview</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandler-dopreview">DoPreview</a>
 </td>
 <td align="left" width="63%">
 Directs the preview handler to load data from the source specified in an earlier Initialize method call, and to begin rendering to the previewer window.
@@ -78,16 +78,16 @@ Directs the preview handler to load data from the source specified in an earlier
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8d21655b-ff0c-4396-a353-f968c28c4883">QueryFocus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandler-queryfocus">QueryFocus</a>
 </td>
 <td align="left" width="63%">
-Directs the preview handler to return the <b>HWND</b> from calling the <a href="https://msdn.microsoft.com/en-us/library/ms646294(v=VS.85).aspx">GetFocus Function</a>.
+Directs the preview handler to return the <b>HWND</b> from calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getfocus">GetFocus Function</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/93667383-da56-4fe9-a79e-933ab9703365">SetFocus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandler-setfocus">SetFocus</a>
 </td>
 <td align="left" width="63%">
 Directs the preview handler to set focus to itself.
@@ -96,7 +96,7 @@ Directs the preview handler to set focus to itself.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/03353962-6905-4b13-bf7a-f1767767a7df">SetRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandler-setrect">SetRect</a>
 </td>
 <td align="left" width="63%">
 Directs the preview handler to change the area within the parent hwnd that it draws into.
@@ -105,7 +105,7 @@ Directs the preview handler to change the area within the parent hwnd that it dr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a323811a-8244-40a0-a6b2-68572639be5f">SetWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandler-setwindow">SetWindow</a>
 </td>
 <td align="left" width="63%">
 Sets the parent window of the previewer window, as well as the area within the parent to be used for the previewer window.
@@ -114,7 +114,7 @@ Sets the parent window of the previewer window, as well as the area within the p
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5e7e71f2-c728-44cb-820b-9a0b28b7266c">TranslateAccelerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandler-translateaccelerator">TranslateAccelerator</a>
 </td>
 <td align="left" width="63%">
 Directs the preview handler to handle a keystroke passed up from the message pump of the process in which the preview handler is running.
@@ -123,7 +123,7 @@ Directs the preview handler to handle a keystroke passed up from the message pum
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cefa9888-66cf-48a1-a6cd-49e273076d39">Unload</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandler-unload">Unload</a>
 </td>
 <td align="left" width="63%">
 Directs the preview handler to cease rendering a preview and to release all resources that have been allocated based on the item passed in during the initialization.

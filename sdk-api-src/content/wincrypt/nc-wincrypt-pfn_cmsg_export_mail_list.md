@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PFN_CMSG_EXPORT_MAIL_LIST</b> callback function encrypts and exports the content encryption key for a mailing list recipient of an enveloped message. <b>PFN_CMSG_EXPORT_MAIL_LIST</b> can be installed by using a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">CryptoAPI</a> <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID). This function is called by the <a href="https://msdn.microsoft.com/b0d2610b-05ba-4fb6-8f38-10f970a52091">CryptMsgOpenToEncode</a> function when its <i>dwMsgType</i> parameter is set to <b>CMSG_ENVELOPED</b>.
+The <b>PFN_CMSG_EXPORT_MAIL_LIST</b> callback function encrypts and exports the content encryption key for a mailing list recipient of an enveloped message. <b>PFN_CMSG_EXPORT_MAIL_LIST</b> can be installed by using a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CryptoAPI</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID). This function is called by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a> function when its <i>dwMsgType</i> parameter is set to <b>CMSG_ENVELOPED</b>.
 
 
 ## -parameters
@@ -59,17 +59,17 @@ The <b>PFN_CMSG_EXPORT_MAIL_LIST</b> callback function encrypts and exports the 
 
 ### -param pContentEncryptInfo [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/c53014a0-049c-42ef-b612-8a1e03fb0dfd">CMSG_CONTENT_ENCRYPT_INFO</a> structure that contains the content encryption key.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_content_encrypt_info">CMSG_CONTENT_ENCRYPT_INFO</a> structure that contains the content encryption key.
 
 
 ### -param pMailListEncodeInfo [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa378066(v=VS.85).aspx">CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO</a> structure that specifies the key used to encrypt the content encryption key.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_mail_list_recipient_encode_info">CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO</a> structure that specifies the key used to encrypt the content encryption key.
 
 
 ### -param pMailListEncryptInfo [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/25c4338a-1ea3-4fff-a6bf-f3884a8154d3">CMSG_MAIL_LIST_ENCRYPT_INFO</a> structure that contains the encrypted content encryption key.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_mail_list_encrypt_info">CMSG_MAIL_LIST_ENCRYPT_INFO</a> structure that contains the encrypted content encryption key.
 
 
 ### -param dwFlags [in]
@@ -88,7 +88,7 @@ This parameter is reserved and must be <b>NULL</b>.
 
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
-If the function fails, the return value is zero (<b>FALSE</b>). For extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is zero (<b>FALSE</b>). For extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -99,9 +99,9 @@ If the function fails, the return value is zero (<b>FALSE</b>). For extended err
 
 
 
-The <b>PFN_CMSG_EXPORT_MAIL_LIST</b> function must update the  <b>EncryptedKey</b> member of the <a href="https://msdn.microsoft.com/25c4338a-1ea3-4fff-a6bf-f3884a8154d3">CMSG_MAIL_LIST_ENCRYPT_INFO</a> structure pointed to by the <i>pMailListEncryptInfo</i> parameter. This function must use the <b>pfnAlloc</b> and <b>pfnFree</b> members of the <a href="https://msdn.microsoft.com/c53014a0-049c-42ef-b612-8a1e03fb0dfd">CMSG_CONTENT_ENCRYPT_INFO</a> structure pointed to by the <i>pContentEncryptInfo</i> parameter to manage memory for any values that it updates.
+The <b>PFN_CMSG_EXPORT_MAIL_LIST</b> function must update the  <b>EncryptedKey</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_mail_list_encrypt_info">CMSG_MAIL_LIST_ENCRYPT_INFO</a> structure pointed to by the <i>pMailListEncryptInfo</i> parameter. This function must use the <b>pfnAlloc</b> and <b>pfnFree</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_content_encrypt_info">CMSG_CONTENT_ENCRYPT_INFO</a> structure pointed to by the <i>pContentEncryptInfo</i> parameter to manage memory for any values that it updates.
 
-You can use <a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a> to deploy this callback function. Wincrypt.h defines the following constants for this purpose.
+You can use <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a> to deploy this callback function. Wincrypt.h defines the following constants for this purpose.
 
 <table>
 <tr>

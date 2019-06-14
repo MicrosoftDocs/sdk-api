@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://msdn.microsoft.com/f35975ac-022e-4e7c-a331-da0ccd0440a1">CM_Get_Res_Des_Data</a> instead.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_res_des_data">CM_Get_Res_Des_Data</a> instead.]
 
-The <b>CM_Get_Res_Des_Data_Ex</b> function retrieves the information stored in a <a href="https://msdn.microsoft.com/004698f5-cb0e-4995-a19c-7075aa226000">resource descriptor</a> on a local or a remote machine.
+The <b>CM_Get_Res_Des_Data_Ex</b> function retrieves the information stored in a <a href="https://docs.microsoft.com/windows-hardware/drivers/">resource descriptor</a> on a local or a remote machine.
 
 
 ## -parameters
@@ -61,12 +61,12 @@ The <b>CM_Get_Res_Des_Data_Ex</b> function retrieves the information stored in a
 
 ### -param rdResDes [in]
 
-Caller-supplied handle to a resource descriptor, obtained by a previous call to <a href="https://msdn.microsoft.com/91e9a686-2465-4ae8-9cc2-391cd98c2138">CM_Get_Next_Res_Des_Ex</a>.
+Caller-supplied handle to a resource descriptor, obtained by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_next_res_des_ex">CM_Get_Next_Res_Des_Ex</a>.
 
 
 ### -param Buffer [out]
 
-Address of a buffer to receive the contents of a resource descriptor. The required buffer size should be obtained by calling <a href="https://msdn.microsoft.com/59b96655-aea9-4f98-9f6a-1a9093db9c63">CM_Get_Res_Des_Data_Size_Ex</a>.
+Address of a buffer to receive the contents of a resource descriptor. The required buffer size should be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_res_des_data_size_ex">CM_Get_Res_Des_Data_Size_Ex</a>.
 
 
 ### -param BufferLen [in]
@@ -81,7 +81,7 @@ Not used, must be zero.
 
 ### -param hMachine [in, optional]
 
-Caller-supplied machine handle, obtained from a previous call to <a href="https://msdn.microsoft.com/4108a35f-0861-4142-a798-731287515910">CM_Connect_Machine</a>.
+Caller-supplied machine handle, obtained from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_connect_machinew">CM_Connect_Machine</a>.
 
 <div class="alert"><b>Note</b>  Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.</div>
 <div> </div>
@@ -101,7 +101,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-Information returned in the buffer supplied by <i>Buffer</i> will be formatted as one of the resource type structures listed in the description of <a href="https://msdn.microsoft.com/f19996ae-f243-4e8c-b200-7d11c06490c9">CM_Add_Res_Des_Ex</a>, based on the resource type that was specified when <a href="https://msdn.microsoft.com/91e9a686-2465-4ae8-9cc2-391cd98c2138">CM_Get_Next_Res_Des_Ex</a> was called to obtain the resource descriptor handle.
+Information returned in the buffer supplied by <i>Buffer</i> will be formatted as one of the resource type structures listed in the description of <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_add_res_des_ex">CM_Add_Res_Des_Ex</a>, based on the resource type that was specified when <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_next_res_des_ex">CM_Get_Next_Res_Des_Ex</a> was called to obtain the resource descriptor handle.
 
  Functionality to access remote machines has been removed in Windows 8 and Windows Server 2012 and later operating systems thus you cannot access remote machines when running on these versions of Windows.
 
@@ -113,7 +113,7 @@ Information returned in the buffer supplied by <i>Buffer</i> will be formatted a
 
 
 
-<a href="https://msdn.microsoft.com/f35975ac-022e-4e7c-a331-da0ccd0440a1">CM_Get_Res_Des_Data</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_res_des_data">CM_Get_Res_Des_Data</a>
  
 
  

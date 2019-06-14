@@ -126,7 +126,7 @@ The <b>SetAttributes</b> method sets the attributes of the storage.
 
 ### -param pFormat [in]
 
-Optional pointer to a <a href="https://msdn.microsoft.com/2128f07a-4858-49b7-b031-16d4a84c9d32">_WAVEFORMATEX</a> structure that specifies audio information about the object.
+Optional pointer to a <a href="https://docs.microsoft.com/windows/desktop/WMDM/-waveformatex">_WAVEFORMATEX</a> structure that specifies audio information about the object.
 
 
 ## -returns
@@ -140,7 +140,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 
 
@@ -149,7 +149,7 @@ For an extensive list of possible error codes, see <a href="https://msdn.microso
 
 
 
-Many of the attributes listed for <a href="https://msdn.microsoft.com/e43139d2-260a-4f27-a06c-aca741204663">GetAttributes</a> cannot be set, and so are not listed in the attribute table for <b>SetAttributes</b>.
+Many of the attributes listed for <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getattributes">GetAttributes</a> cannot be set, and so are not listed in the attribute table for <b>SetAttributes</b>.
 
 
 
@@ -159,11 +159,11 @@ Many of the attributes listed for <a href="https://msdn.microsoft.com/e43139d2-2
 
 
 
-<a href="https://msdn.microsoft.com/1ede7c68-0169-4375-9b45-b0995ad14e44">IWMDMStorage Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/e43139d2-260a-4f27-a06c-aca741204663">IWMDMStorage::GetAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getattributes">IWMDMStorage::GetAttributes</a>
  
 
  

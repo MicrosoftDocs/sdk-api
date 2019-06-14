@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[This function has been deprecated as of Windows Vista and its functionality has been replaced by <a href="https://msdn.microsoft.com/698a18a1-b302-4b0d-8399-0bbdbe775f08">RasDialDlg</a>. ]
+<p class="CCE_Message">[This function has been deprecated as of Windows Vista and its functionality has been replaced by <a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nf-rasdlg-rasdialdlga">RasDialDlg</a>. ]
 
 The 
 <b>RasCreatePhonebookEntry</b> function creates a new phone-book entry. The function displays a dialog box in which the user types information for the phone-book entry.
@@ -82,7 +82,7 @@ Handle to the parent window of the dialog box.
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is one of the following error codes or a value from <a href="https://msdn.microsoft.com/1fa41438-7c93-4e9c-851c-652fba23da4f">Routing and Remote Access Error Codes</a> or Winerror.h.
+If the function fails, the return value is one of the following error codes or a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 <table>
 <tr>
@@ -110,7 +110,7 @@ The phone book is corrupted or missing components.
 
 
 
-When calling <a href="https://msdn.microsoft.com/698a18a1-b302-4b0d-8399-0bbdbe775f08">RasDialDlg</a>, set each member of the <b>RASDIALDLG</b> structure passed to <i>lpInfo</i> to zero except:
+When calling <a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nf-rasdlg-rasdialdlga">RasDialDlg</a>, set each member of the <b>RASDIALDLG</b> structure passed to <i>lpInfo</i> to zero except:
 
 <ul>
 <li><i>dwSize</i> = sizeof(<b>RASDIALDLG</b>)</li>
@@ -125,27 +125,27 @@ When calling <a href="https://msdn.microsoft.com/698a18a1-b302-4b0d-8399-0bbdbe7
 
 
 
-<a href="https://msdn.microsoft.com/7fce1ea8-7ed6-4975-af4b-e20a1c1be5fa">RasEditPhonebookEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-raseditphonebookentrya">RasEditPhonebookEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/9259502d-c31b-4ebd-ace7-70f02bbb7873">RasEntryDlg</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nf-rasdlg-rasentrydlga">RasEntryDlg</a>
 
 
 
-<a href="https://msdn.microsoft.com/c6752f95-c7e8-44d9-9dbd-9f03cc4778fa">RasGetEntryDialParams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetentrydialparamsa">RasGetEntryDialParams</a>
 
 
 
-<a href="https://msdn.microsoft.com/e1acd68e-796e-49a2-8c7d-c0fd1a9764ef">RasSetEntryDialParams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rassetentrydialparamsa">RasSetEntryDialParams</a>
 
 
 
-<a href="https://msdn.microsoft.com/5016fa0b-72eb-484e-b8d7-af9de2e25689">Remote Access Service (RAS) Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/5883a77a-6af8-47a8-bb28-6ef60a5aa2f1">Remote Access Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
  
 
  

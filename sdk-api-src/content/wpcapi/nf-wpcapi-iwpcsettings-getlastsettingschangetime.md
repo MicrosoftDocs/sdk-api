@@ -59,7 +59,7 @@ Retrieves the time at which the configuration settings were last updated.
 
 ### -param pTime [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure that receives the time at which the settings were last updated.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that receives the time at which the settings were last updated.
 
 
 ## -returns
@@ -117,7 +117,7 @@ The method failed.
 
 
 
-<a href="https://msdn.microsoft.com/92ae8611-fbb4-470e-8a48-395defaef904">IWPCSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nn-wpcapi-iwpcsettings">IWPCSettings</a>
  
 
  

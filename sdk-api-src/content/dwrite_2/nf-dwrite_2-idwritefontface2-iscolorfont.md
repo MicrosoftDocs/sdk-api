@@ -75,7 +75,7 @@ Returns <b>TRUE</b> if a color rendering path is potentially necessary.
 
 
 
-<a href="https://msdn.microsoft.com/D74F6472-CEEC-4DF5-83C8-0D65923C8028">IDWriteFontFace2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nn-dwrite_2-idwritefontface2">IDWriteFontFace2</a>
  
 
  

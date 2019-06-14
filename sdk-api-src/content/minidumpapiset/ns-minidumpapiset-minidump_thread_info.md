@@ -186,7 +186,7 @@ The processor affinity mask.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680506(v=VS.85).aspx">MINIDUMP_THREAD_INFO_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_thread_info_list">MINIDUMP_THREAD_INFO_LIST</a>
  
 
  

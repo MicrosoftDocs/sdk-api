@@ -72,7 +72,7 @@ An array of pointers to null-terminated Unicode strings that contain the identif
 
 
 
-<a href="https://msdn.microsoft.com/82776e61-03bb-463b-8767-fa4f70fe1341">BCryptEnumContextFunctionProviders</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptenumcontextfunctionproviders">BCryptEnumContextFunctionProviders</a>
  
 
  

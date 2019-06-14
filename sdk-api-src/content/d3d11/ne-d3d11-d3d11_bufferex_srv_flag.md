@@ -59,14 +59,14 @@ Identifies how to view a buffer resource.
 
 ### -field D3D11_BUFFEREX_SRV_FLAG_RAW
 
-View the buffer as raw. For more info about raw viewing of buffers, see <a href="https://msdn.microsoft.com/en-us/library/Ff476900(v=VS.85).aspx">Raw Views of Buffers</a>.
+View the buffer as raw. For more info about raw viewing of buffers, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-resources-intro">Raw Views of Buffers</a>.
 
 
 ## -remarks
 
 
 
-This enumeration is used by <a href="https://msdn.microsoft.com/55714c3b-ef21-43c1-94a1-60b63f3fedac">D3D11_BUFFEREX_SRV</a>
+This enumeration is used by <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_bufferex_srv">D3D11_BUFFEREX_SRV</a>
 
 
 
@@ -77,7 +77,7 @@ This enumeration is used by <a href="https://msdn.microsoft.com/55714c3b-ef21-43
 
 
 
-<a href="https://msdn.microsoft.com/b547819b-7006-40b5-84a4-adf198048051">Resource Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-resource-enums">Resource Enumerations</a>
  
 
  

@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPDevice</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IUPnPDevice</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPDevice</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IUPnPDevice</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +71,7 @@ The <b>IUPnPDevice</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/17b3d4f1-a51a-42f9-8fc0-4156d4975889">IconURL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-iconurl">IconURL</a>
 </td>
 <td align="left" width="63%">
 Returns a URL from which an icon of the specified format can be loaded.
@@ -88,7 +88,7 @@ Returns a URL from which an icon of the specified format can be loaded.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/a8cdc66f-c5c0-4328-a8f2-f40d55a20a4f">Children</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_children">Children</a>
 
 
 </td>
@@ -100,7 +100,7 @@ Child devices of the device.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/99842f92-b57d-43fa-aa44-412f260b8af3">Description</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_description">Description</a>
 
 
 </td>
@@ -112,7 +112,7 @@ Human-readable form of the summary of a device's functionality.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/dd24384f-2657-4cb0-812e-1b51d53b73de">FriendlyName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_friendlyname">FriendlyName</a>
 
 
 </td>
@@ -124,7 +124,7 @@ Device display name.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/18a7c7e0-389d-4fc4-b98c-4eb1afea4a7e">HasChildren</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_haschildren">HasChildren</a>
 
 
 </td>
@@ -136,7 +136,7 @@ Indicates whether the device has any child devices.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/0416c4f0-1289-4e91-be34-23f8b80df5c3">IsRootDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_isrootdevice">IsRootDevice</a>
 
 
 </td>
@@ -148,7 +148,7 @@ Indicates whether the device is the top-most device in the device tree.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/b62ba17d-4d0f-4609-ae34-0d8bd350f761">ManufacturerName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_manufacturername">ManufacturerName</a>
 
 
 </td>
@@ -160,7 +160,7 @@ Human-readable form of the manufacturer name.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/7019716a-4a64-43cd-bb44-21bdb6b022c2">ManufacturerURL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_manufacturerurl">ManufacturerURL</a>
 
 
 </td>
@@ -172,7 +172,7 @@ URL for the manufacturer's Web site.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c71868ab-e05d-4e6a-b157-4474afc8f61f">ModelName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_modelname">ModelName</a>
 
 
 </td>
@@ -184,7 +184,7 @@ Human-readable form of the model name.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/7e9b92a6-efad-41f0-b083-a2fed0f70c8b">ModelNumber</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_modelnumber">ModelNumber</a>
 
 
 </td>
@@ -196,7 +196,7 @@ Human-readable form of the model number.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/e9f3231a-5836-4629-9df5-6ed9184fb753">ModelURL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_modelurl">ModelURL</a>
 
 
 </td>
@@ -208,7 +208,7 @@ URL for a Web page that contains model-specific information.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/662a0bda-32f5-4756-8851-e7b2d0b9cc44">ParentDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_parentdevice">ParentDevice</a>
 
 
 </td>
@@ -220,7 +220,7 @@ Parent of the device.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8dba8289-2f2f-482c-abd6-38f81a11f5e2">PresentationURL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_presentationurl">PresentationURL</a>
 
 
 </td>
@@ -232,7 +232,7 @@ Presentation URL for a Web page that can be used to control the device.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/6c6d1782-693a-4b23-b9e0-7e379ba7f96c">RootDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_rootdevice">RootDevice</a>
 
 
 </td>
@@ -244,7 +244,7 @@ Top-most device in the device tree.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/de2f8594-a183-440a-aeb1-240cf0709e36">SerialNumber</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_serialnumber">SerialNumber</a>
 
 
 </td>
@@ -256,7 +256,7 @@ Human-readable form of the serial number.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/3b854a5a-a0a9-4236-83c1-98b3671bfc74">Services</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_services">Services</a>
 
 
 </td>
@@ -268,7 +268,7 @@ List of services provided by the device.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/3db09e94-4211-44ff-850e-2e34719909d6">Type</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_type">Type</a>
 
 
 </td>
@@ -280,7 +280,7 @@ List of services provided by the device.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/ca644bd3-6580-44da-87f5-11d543814043">UniqueDeviceName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_uniquedevicename">UniqueDeviceName</a>
 
 
 </td>
@@ -292,7 +292,7 @@ Unique device name (UDN) of the device.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/33349885-96da-47ef-9b09-83c2c332b509">UPC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_upc">UPC</a>
 
 
 </td>

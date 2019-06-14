@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptInstallDefaultContext</b> function installs a specific provider to be the default <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a> provider for the specified algorithm.
+<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptInstallDefaultContext</b> function installs a specific provider to be the default <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> provider for the specified algorithm.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ ms.custom: 19H1
 ### -param hCryptProv [in]
 
 The handle of the cryptographic service provider to be used as the default context. This handle is obtained by using the 
-<a href="https://msdn.microsoft.com/57e13662-3189-4f8d-b90a-d1fbdc09b63c">CryptAcquireContext</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function.
 
 
 ### -param dwDefaultType [in]
@@ -92,7 +92,7 @@ The <i>pvDefaultPara</i> parameter is the address of a null-terminated ANSI stri
 <td width="60%">
 Installs the default provider used to verify multiple certificate signature types. 
 
-The <i>pvDefaultPara</i> parameter is the address of a <a href="https://msdn.microsoft.com/en-us/library/Bb394729(v=VS.85).aspx">CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA</a> structure that contains an array of object identifiers that identify the certificate signature algorithms to install the specified provider for.
+The <i>pvDefaultPara</i> parameter is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_default_context_multi_oid_para">CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA</a> structure that contains an array of object identifiers that identify the certificate signature algorithms to install the specified provider for.
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ A set of flags that modify the behavior of this function. This can be zero or a 
 </dl>
 </td>
 <td width="60%">
-The provider handle specified by the <i>hCryptProv</i> parameter is released automatically when the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">process</a> or thread ends. If this flag is not specified, it is the caller's responsibility to release the provider handle by using the <a href="https://msdn.microsoft.com/c1e3e708-b543-4e87-8638-a9946a83e614">CryptReleaseContext</a> function when the handle is no longer needed. The provider handle is not released if the <a href="https://msdn.microsoft.com/ad7be5cf-f078-4a9f-81c4-959e4203dba8">CryptUninstallDefaultContext</a> function is called before the process or thread exits.
+The provider handle specified by the <i>hCryptProv</i> parameter is released automatically when the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">process</a> or thread ends. If this flag is not specified, it is the caller's responsibility to release the provider handle by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptreleasecontext">CryptReleaseContext</a> function when the handle is no longer needed. The provider handle is not released if the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptuninstalldefaultcontext">CryptUninstallDefaultContext</a> function is called before the process or thread exits.
 
 </td>
 </tr>
@@ -145,7 +145,7 @@ This parameter is reserved for future use.
 
 ### -param phDefaultContext [out]
 
-The address of an <b>HCRYPTDEFAULTCONTEXT</b> variable that receives the default context handle. This handle is passed to the <a href="https://msdn.microsoft.com/ad7be5cf-f078-4a9f-81c4-959e4203dba8">CryptUninstallDefaultContext</a> function to uninstall the default context provider.
+The address of an <b>HCRYPTDEFAULTCONTEXT</b> variable that receives the default context handle. This handle is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptuninstalldefaultcontext">CryptUninstallDefaultContext</a> function to uninstall the default context provider.
 
 
 ## -returns
@@ -153,7 +153,7 @@ The address of an <b>HCRYPTDEFAULTCONTEXT</b> variable that receives the default
 
 
 If the function succeeds, the return value is nonzero (TRUE). If the function fails, the return value is zero (FALSE). For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -164,7 +164,7 @@ If the function succeeds, the return value is nonzero (TRUE). If the function fa
 
 The installed default context providers are stack ordered, thus when searching for a default context provider, the system starts with the most recently installed provider. The per-thread list of providers is searched before the per-process list of providers. After a match is found, the system does not continue to search for other matches.
 
-The installed provider handle must remain available for use until <a href="https://msdn.microsoft.com/ad7be5cf-f078-4a9f-81c4-959e4203dba8">CryptUninstallDefaultContext</a> is called, or the thread or <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">process</a> exits.
+The installed provider handle must remain available for use until <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptuninstalldefaultcontext">CryptUninstallDefaultContext</a> is called, or the thread or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">process</a> exits.
 
 
 
@@ -174,7 +174,7 @@ The installed provider handle must remain available for use until <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/ad7be5cf-f078-4a9f-81c4-959e4203dba8">CryptUninstallDefaultContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptuninstalldefaultcontext">CryptUninstallDefaultContext</a>
  
 
  

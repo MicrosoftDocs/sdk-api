@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents the possible results when a knowledge cookie is compared with a knowledge object by using <a href="https://msdn.microsoft.com/f1649f70-8c8b-4eea-8ecb-7ea5a657eabe">ISyncKnowledge2::CompareToKnowledgeCookie</a>.
+Represents the possible results when a knowledge cookie is compared with a knowledge object by using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge2-comparetoknowledgecookie">ISyncKnowledge2::CompareToKnowledgeCookie</a>.
 
 
 ## -enum-fields
@@ -91,11 +91,11 @@ A knowledge cookie is a lightweight, read-only representation of knowledge that 
 
 
 
-<a href="https://msdn.microsoft.com/1acbae32-8fa6-4c1e-95f6-30aca483c966">ISyncKnowledge2 Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge2">ISyncKnowledge2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/139266e9-cd22-4548-a2b6-927328e7ce82">Windows Sync Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-enumerations">Windows Sync Enumerations</a>
  
 
  

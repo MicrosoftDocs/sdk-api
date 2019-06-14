@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>MsiGetTargetPath</b> function returns the full target path for a folder in the 
-<a href="https://msdn.microsoft.com/eaca30cb-fec1-49ca-8b23-5e54c583e3e2">Directory table</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/directory-table">Directory table</a>.
 
 
 ## -parameters
@@ -63,13 +63,13 @@ The
 
 ### -param hInstall [in]
 
-Handle to the installation provided to a DLL custom action or obtained through <a href="https://msdn.microsoft.com/1227493a-58dc-4e41-b6d7-9ecce0b3df40">MsiOpenPackage</a>, <a href="https://msdn.microsoft.com/9e9550e9-9c10-4ef1-a172-dfacaaa37fd0">MsiOpenPackageEx</a>, or <a href="https://msdn.microsoft.com/fdc5a2f5-c44a-4cb3-b206-a598bd60024b">MsiOpenProduct</a>.
+Handle to the installation provided to a DLL custom action or obtained through <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
 
 
 ### -param szFolder [in]
 
 A null-terminated string that specifies a record of the 
-<a href="https://msdn.microsoft.com/eaca30cb-fec1-49ca-8b23-5e54c583e3e2">Directory table</a>. If the directory is a root directory, this can be a value from the DefaultDir column. Otherwise it must be a value from the Directory column.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/directory-table">Directory table</a>. If the directory is a root directory, this can be a value from the DefaultDir column. Otherwise it must be a value from the Directory column.
 
 
 ### -param szPathBuf [out]
@@ -100,18 +100,18 @@ The
 If ERROR_MORE_DATA is returned, the parameter which is a pointer gives the size of the buffer required to hold the string. If ERROR_SUCCESS is returned, it gives the number of characters written to the string buffer. Therefore you can get the size of the buffer by passing in an empty string (for example "") for the parameter that specifies the buffer. Do not attempt to determine the size of the buffer by passing in a Null (value=0).
 
 Before calling this function, the installer must first run the 
-<a href="https://msdn.microsoft.com/be9a8382-c892-44ae-8b59-c665b5cca2d2">CostInitialize action</a>, 
-<a href="https://msdn.microsoft.com/1b3f2baf-6191-452e-955d-8ac903edc1b7">FileCost action</a>, and 
-<a href="https://msdn.microsoft.com/ae69ad03-5acc-4a62-ba71-3a4e477d34ab">CostFinalize action</a>. For more information, see <a href="https://msdn.microsoft.com/b9795825-41fa-474b-a0c5-06770aa99bc1">Calling Database Functions from Programs</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/costinitialize-action">CostInitialize action</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/filecost-action">FileCost action</a>, and 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/costfinalize-action">CostFinalize action</a>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Msi/calling-database-functions-from-programs">Calling Database Functions from Programs</a>.
 
 <b>MsiGetTargetPath</b> returns the default path of the target directory authored in the package if the target's current location is unavailable for an installation. For example, if during a 
-<a href="https://msdn.microsoft.com/b41b9b93-9a65-4947-aefa-e5e816ed5714">Maintenance Installation</a> a target directory at a network location is unavailable, the installer resets the target directory paths back to their defaults. To get the actual path of the target directory in this case call 
-<a href="https://msdn.microsoft.com/da6fa117-9152-4289-aa92-79903b84bd3e">MsiProvideComponent</a> for a component that is known to have been previously installed into the searched for directory and set <i>dwInstallMode</i> to INSTALLMODE_NODETECTION.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/maintenance-installation">Maintenance Installation</a> a target directory at a network location is unavailable, the installer resets the target directory paths back to their defaults. To get the actual path of the target directory in this case call 
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiprovidecomponenta">MsiProvideComponent</a> for a component that is known to have been previously installed into the searched for directory and set <i>dwInstallMode</i> to INSTALLMODE_NODETECTION.
 
 For more information, see 
-<a href="https://msdn.microsoft.com/b9795825-41fa-474b-a0c5-06770aa99bc1">Calling Database Functions From Programs</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/calling-database-functions-from-programs">Calling Database Functions From Programs</a>.
 
-If the function fails, you can obtain extended error information by using <a href="https://msdn.microsoft.com/0d6f4506-367b-43d7-ba1c-2a93c1d0cc51">MsiGetLastErrorRecord</a>.
+If the function fails, you can obtain extended error information by using <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
 
 
 
@@ -121,11 +121,11 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer Location Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Installer Location Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/f566c4a4-b90c-4d73-9d7f-f5b836630636">Passing Null as the Argument of Windows Installer Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/passing-null-as-the-argument-of-windows-installer-functions">Passing Null as the Argument of Windows Installer Functions</a>
  
 
  

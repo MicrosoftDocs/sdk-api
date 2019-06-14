@@ -59,7 +59,7 @@ Sets the source rectangle for the magnification window.
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 The magnification window.
 
@@ -75,7 +75,7 @@ The rectangle to be magnified, in desktop coordinates.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
@@ -87,7 +87,7 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692390(v=VS.85).aspx">MagGetWindowSource</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/nf-magnification-maggetwindowsource">MagGetWindowSource</a>
  
 
  

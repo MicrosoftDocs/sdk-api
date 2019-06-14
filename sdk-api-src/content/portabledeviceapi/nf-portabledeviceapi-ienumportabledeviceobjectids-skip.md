@@ -110,11 +110,11 @@ The specified number of objects could not be skipped (for instance, if fewer tha
 
 
 
-<a href="https://msdn.microsoft.com/a55b9ccc-8d6b-49e6-af3d-ad7915aa3abd">IEnumPortableDeviceObjectIDs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-ienumportabledeviceobjectids-skip">IEnumPortableDeviceObjectIDs</a>
 
 
 
-<a href="https://msdn.microsoft.com/0e9a65cc-819c-494e-9c7c-8f5fec78a2ee">IEnumPortableDeviceObjectIDs Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-ienumportabledeviceobjectids">IEnumPortableDeviceObjectIDs Interface</a>
  
 
  

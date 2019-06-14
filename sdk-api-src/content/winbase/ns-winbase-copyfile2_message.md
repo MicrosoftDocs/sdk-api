@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Passed to the 
-    <a href="https://msdn.microsoft.com/d14b5f5b-c353-49e8-82bb-a695a3ec76fd">CopyFile2ProgressRoutine</a> callback function with 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nc-winbase-pcopyfile2_progress_routine">CopyFile2ProgressRoutine</a> callback function with 
     information about a pending copy operation.
 
 
@@ -61,7 +61,7 @@ Passed to the
 
 ### -field Type
 
-Value from the <a href="https://msdn.microsoft.com/3a16ca3b-79af-4064-82d5-c073d2aa531c">COPYFILE2_MESSAGE_TYPE</a> 
+Value from the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ne-winbase-_copyfile2_message_type">COPYFILE2_MESSAGE_TYPE</a> 
       enumeration used as a discriminant for the <b>Info</b> union within this structure.
 
 <table>
@@ -117,7 +117,7 @@ Indicates both source and destination handles for a stream have been opened and 
 <td width="60%">
 Indicates the copy operation for a stream have started to be completed, either successfully or due to a 
         <b>COPYFILE2_PROGRESS_STOP</b> return from 
-        <a href="https://msdn.microsoft.com/d14b5f5b-c353-49e8-82bb-a695a3ec76fd">CopyFile2ProgressRoutine</a>.  Information is 
+        <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nc-winbase-pcopyfile2_progress_routine">CopyFile2ProgressRoutine</a>.  Information is 
         in the <b>StreamFinished</b> structure within the <b>Info</b> 
         union.
 
@@ -374,7 +374,7 @@ This structure is selected if the <b>Type</b> member is set to
 
 ### -field Info.Error.CopyPhase
 
-Value from the <a href="https://msdn.microsoft.com/92bf9028-78a3-4ea3-bfbb-b53a8df557ab">COPYFILE2_COPY_PHASE</a> 
+Value from the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ne-winbase-_copyfile2_copy_phase">COPYFILE2_COPY_PHASE</a> 
         enumeration indicating the current phase of the copy at the time of the error.
 
 
@@ -427,7 +427,7 @@ Number of bytes that had been successfully transferred for the entire copy opera
 To compile an application that uses the 
     <b>COPYFILE2_MESSAGE</b> structure, define the 
     <b>_WIN32_WINNT</b> macro as 0x0601 or later. For more information, see 
-    <a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 

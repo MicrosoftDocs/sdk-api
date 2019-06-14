@@ -57,7 +57,7 @@ ms.custom: 19H1
 
 Determines whether the system considers that a specified application is not responding.
 		An application is considered to be not responding if it is not waiting for input, is not in
-		startup processing, and has not called <a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a> within
+		startup processing, and has not called <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> within
 		the internal timeout period of 5 seconds. 
 
 
@@ -92,7 +92,7 @@ The return value is <b>TRUE</b> if the window stops responding; otherwise, it is
 
 The Windows timeout criteria of 5 seconds is subject to change.
 
-This function was not included in the SDK headers and libraries until Windows XP Service Pack 1 (SP1) and Windows Server 2003. If you do not have a header file and import library for this function, you can call the function using <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a>.
+This function was not included in the SDK headers and libraries until Windows XP Service Pack 1 (SP1) and Windows Server 2003. If you do not have a header file and import library for this function, you can call the function using <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.
 
 
 
@@ -106,7 +106,7 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633528(v=VS.85).aspx">IsWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-iswindow">IsWindow</a>
 
 
 
@@ -114,7 +114,7 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
  
 
  

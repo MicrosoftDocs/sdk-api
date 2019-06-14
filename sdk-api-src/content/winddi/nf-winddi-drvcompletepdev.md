@@ -59,7 +59,7 @@ The <b>DrvCompletePDEV</b> function stores the GDI handle of the physical device
 
 ### -param dhpdev
 
-Handle to the physical device, which was returned to GDI when it called <a href="https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e">DrvEnablePDEV</a>.
+Handle to the physical device, which was returned to GDI when it called <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
 
 
 ### -param hdev
@@ -90,7 +90,7 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e">DrvEnablePDEV</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
  
 
  

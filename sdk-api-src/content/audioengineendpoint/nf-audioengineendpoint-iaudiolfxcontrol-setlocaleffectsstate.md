@@ -76,7 +76,7 @@ The <b>SetLocalEffectsState</b> method returns <b>S_OK</b> to indicate that it h
 
 
 
-<a href="https://msdn.microsoft.com/E4290AE9-7F2E-4D0B-BEAF-F01D95B3E03D">IAudioLfxControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudiolfxcontrol">IAudioLfxControl</a>
  
 
  

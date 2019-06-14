@@ -95,11 +95,11 @@ The method succeeded.
 
 
 
-This method is not implemented on the audio encoder objects. If you call this method from the <a href="https://msdn.microsoft.com/93a0169e-39fe-4152-8698-72a0650be41a">IWMCodecLeakyBucket</a> interface it returns E_NOTIMPL.
+This method is not implemented on the audio encoder objects. If you call this method from the <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecleakybucket">IWMCodecLeakyBucket</a> interface it returns E_NOTIMPL.
 
 The buffer size is equal to the bit rate of the stream multiplied by the buffer window. For example, a stream with a bit rate of 28 kilobits per second with a buffer window of 3 seconds would have a buffer of 28000 bits per second x 3 seconds = 84000 bits.
 
-This method is an alternative to setting the MFPKEY_VIDEOWINDOW property. Using this method does not alter the bit rate of the stream, but does alter the buffer window. Using the stream with a bit rate of 28000 bits per second from the previous example, setting the buffer size to 84000 using this method would have exactly the same effect as setting <a href="https://msdn.microsoft.com/da959bef-1e87-4638-9a77-4135c31a3d27">MFPKEY_VIDEOWINDOW</a> to 3000 milliseconds (3 seconds).
+This method is an alternative to setting the MFPKEY_VIDEOWINDOW property. Using this method does not alter the bit rate of the stream, but does alter the buffer window. Using the stream with a bit rate of 28000 bits per second from the previous example, setting the buffer size to 84000 using this method would have exactly the same effect as setting <a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-videowindowproperty">MFPKEY_VIDEOWINDOW</a> to 3000 milliseconds (3 seconds).
 
 
 
@@ -109,11 +109,11 @@ This method is an alternative to setting the MFPKEY_VIDEOWINDOW property. Using 
 
 
 
-<a href="https://msdn.microsoft.com/93a0169e-39fe-4152-8698-72a0650be41a">IWMCodecLeakyBucket Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecleakybucket">IWMCodecLeakyBucket Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/7fa0835e-7386-4032-a94b-ef52259aeea9">IWMCodecLeakyBucket::GetBufferSizeBits</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcodecleakybucket-getbuffersizebits">IWMCodecLeakyBucket::GetBufferSizeBits</a>
  
 
  

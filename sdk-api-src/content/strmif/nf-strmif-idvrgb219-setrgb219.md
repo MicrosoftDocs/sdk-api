@@ -109,11 +109,11 @@ For the encoder, this method has no effect unless the input type is RGB-24. For 
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/6d346f0b-97c1-4f3c-aa79-b3bfab18c634">IDVRGB219 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvrgb219">IDVRGB219 Interface</a>
  
 
  

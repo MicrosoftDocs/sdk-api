@@ -64,7 +64,7 @@ The name of the file to be opened. The file must contain common language runtime
 
 ### -param dwOpenFlags [in]
 
-Specifies the mode (read, write, and so on) for opening. value of the <a href="http://msdn.microsoft.com/en-us/library/ms233112.aspx">CorOpenFlags</a> enumeration to specify the mode (read, write, and so on) for opening.
+Specifies the mode (read, write, and so on) for opening. value of the <a href="https://docs.microsoft.com/dotnet/framework/unmanaged-api/metadata/coropenflags-enumeration">CorOpenFlags</a> enumeration to specify the mode (read, write, and so on) for opening.
 
 
 
@@ -106,7 +106,7 @@ If the target file does not contain CLR metadata, the <b>OpenScope</b> method wi
 
 
 
-<a href="https://msdn.microsoft.com/3454193d-9068-4032-ae9e-b3087509b0b8">IMetaDataDispenser</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadatadispenser">IMetaDataDispenser</a>
  
 
  

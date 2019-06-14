@@ -50,7 +50,7 @@ req.redist:
 
 Represents an update sequence number (USN) change journal, its records, and its capacity. 
     This structure is the output buffer for the 
-    <a href="https://msdn.microsoft.com/9491b054-934a-4b76-bf77-f397b6386f82">FSCTL_QUERY_USN_JOURNAL</a> control code. Prior to 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_usn_journal">FSCTL_QUERY_USN_JOURNAL</a> control code. Prior to 
     Windows 8 and Windows Server 2012 this structure was named 
     <b>USN_JOURNAL_DATA</b>. Use that name to compile with older SDKs and 
     compilers.
@@ -113,11 +113,11 @@ The number of bytes of disk memory added to the end and removed from the beginni
 
 
 
-<a href="https://msdn.microsoft.com/9491b054-934a-4b76-bf77-f397b6386f82">FSCTL_QUERY_USN_JOURNAL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_usn_journal">FSCTL_QUERY_USN_JOURNAL</a>
 
 
 
-<a href="https://msdn.microsoft.com/bbde9dfb-c205-4432-be71-250d73b881f1">Volume Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
  
 
  

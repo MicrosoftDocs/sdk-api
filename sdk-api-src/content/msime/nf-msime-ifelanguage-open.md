@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-Initializes the <a href="https://msdn.microsoft.com/9EE1BD9E-2D58-4720-841C-39865375BFE0">IFELanguage</a> object.
+Initializes the <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a> object.
 
-This method must be called before any use of the <a href="https://msdn.microsoft.com/9EE1BD9E-2D58-4720-841C-39865375BFE0">IFELanguage</a> object.
+This method must be called before any use of the <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a> object.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ This method must be called before any use of the <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/9EE1BD9E-2D58-4720-841C-39865375BFE0">IFELanguage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a>
  
 
  

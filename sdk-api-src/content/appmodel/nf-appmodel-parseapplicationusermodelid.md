@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deconstructs an <a href="https://msdn.microsoft.com/15E35DCF-C6C1-446A-B09B-6428F9C8A677">application user model ID</a> to its <i>package family name</i> and <i>package relative application ID</i> (PRAID).
+Deconstructs an <a href="https://docs.microsoft.com/windows/desktop/appxpkg/appx-packaging-glossary">application user model ID</a> to its <i>package family name</i> and <i>package relative application ID</i> (PRAID).
 
 
 ## -parameters

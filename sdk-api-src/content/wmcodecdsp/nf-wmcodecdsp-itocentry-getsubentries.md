@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>GetSubEntries</b> method gets an array of subentry indices that were set by a previous call to <a href="https://msdn.microsoft.com/4b3f4038-483c-4f00-a819-ace83d99da58">SetSubEntries</a>.
+The <b>GetSubEntries</b> method gets an array of subentry indices that were set by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-setsubentries">SetSubEntries</a>.
 
 
 ## -parameters
@@ -111,11 +111,11 @@ The method returns this error code if <i>pwSubEntryIndices</i> is not <b>NULL</b
 
 
 
-<a href="https://msdn.microsoft.com/82a1a390-50b1-4699-9baa-60cea322ce7c">ITocEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocentry">ITocEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/4b3f4038-483c-4f00-a819-ace83d99da58">SetSubEntries</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-setsubentries">SetSubEntries</a>
  
 
  

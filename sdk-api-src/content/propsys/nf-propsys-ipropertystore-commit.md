@@ -129,7 +129,7 @@ Property handlers must ensure that property changes result in a valid destinatio
 
 
 
-<a href="https://msdn.microsoft.com/63afd5b1-87cc-4e0a-8964-2138c5fbff46">IPropertyStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>
  
 
  

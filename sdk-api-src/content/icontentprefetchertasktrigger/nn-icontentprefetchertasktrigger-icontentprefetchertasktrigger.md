@@ -61,7 +61,7 @@ The <b>IContentPrefetcherTaskTrigger</b> interface supports content prefetching 
 
 
 
-<a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
  
 
  

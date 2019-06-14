@@ -59,9 +59,9 @@ Directs the host to handle an keyboard shortcut passed from the preview handler.
 
 ### -param pmsg [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms647591(v=VS.85).aspx">WM_COMMAND</a> or <a href="https://msdn.microsoft.com/en-us/library/ms646360(v=VS.85).aspx">WM_SYSCOMMAND</a> window message that corresponds to a keyboard shortcut.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command">WM_COMMAND</a> or <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-syscommand">WM_SYSCOMMAND</a> window message that corresponds to a keyboard shortcut.
 
 
 ## -returns
@@ -79,7 +79,7 @@ If the keyboard shortcut is one that the host intends to handle, the host will p
 
 
 
-<div class="alert"><b>Note</b>  This method is only called by a preview handler in response to an <a href="https://msdn.microsoft.com/5e7e71f2-c728-44cb-820b-9a0b28b7266c">TranslateAccelerator</a> call.</div>
+<div class="alert"><b>Note</b>  This method is only called by a preview handler in response to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandler-translateaccelerator">TranslateAccelerator</a> call.</div>
 <div> </div>
 
 

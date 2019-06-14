@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the type of decay applied over distance from the position of an <a href="https://msdn.microsoft.com/E69F1D09-B937-4BCC-A040-18EF8A838289">ISpatialAudioObjectForHrtf</a> to the position of the listener.
+Specifies the type of decay applied over distance from the position of an <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a> to the position of the listener.
 
 
 ## -enum-fields
@@ -59,7 +59,7 @@ Specifies the type of decay applied over distance from the position of an <a hre
 
 ### -field SpatialAudioHrtfDistanceDecay_NaturalDecay
 
-A natural decay  over distance, as constrained by minimum and maximum gain distance limits. The output drops to silent at the distance specified by <a href="https://msdn.microsoft.com/2EBAE322-2A5F-4610-B64F-F1B8CE2DFD2D">SpatialAudioHrtfDistanceDecay.CutoffDistance</a>.
+A natural decay  over distance, as constrained by minimum and maximum gain distance limits. The output drops to silent at the distance specified by <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/ns-spatialaudiohrtf-spatialaudiohrtfdistancedecay">SpatialAudioHrtfDistanceDecay.CutoffDistance</a>.
 
 
 ### -field SpatialAudioHrtfDistanceDecay_CustomDecay

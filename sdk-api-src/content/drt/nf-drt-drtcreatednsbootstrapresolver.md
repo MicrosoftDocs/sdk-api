@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DrtCreateDnsBootstrapResolver</b> function creates a bootstrap resolver that will use the <a href="https://msdn.microsoft.com/cc4ccb2d-ea5a-48bd-a3ae-f70432ab2c39">GetAddrInfo</a> system function to resolve the hostname of a will known node already present in the DRT mesh.
+The <b>DrtCreateDnsBootstrapResolver</b> function creates a bootstrap resolver that will use the <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfo</a> system function to resolve the hostname of a will known node already present in the DRT mesh.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ Specifies the hostname of the well known node.
 
 ### -param ppModule [out]
 
-Pointer to the <a href="https://msdn.microsoft.com/f64edf7f-379f-41e2-9a86-ba9aeee0f2d7">DRT_BOOTSTRAP_PROVIDER</a> module to be included in the <a href="https://msdn.microsoft.com/22408b8e-b114-43cd-8f84-3eaf8508f441">DRT_SETTINGS</a> structure.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_bootstrap_provider_tag">DRT_BOOTSTRAP_PROVIDER</a> module to be included in the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings_tag">DRT_SETTINGS</a> structure.
 
 
 ## -returns
@@ -108,7 +108,7 @@ The system could not allocate memory for the provider.
 </table>
  
 
-<div class="alert"><b>Note</b>  This function may also return errors from underlying calls to <a href="https://msdn.microsoft.com/08299592-867c-491d-9769-d16602133659">WSAStartup</a> and StringCbPrintfW.</div>
+<div class="alert"><b>Note</b>  This function may also return errors from underlying calls to <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> and StringCbPrintfW.</div>
 <div> </div>
 
 
@@ -118,11 +118,11 @@ The system could not allocate memory for the provider.
 
 
 
-<a href="https://msdn.microsoft.com/f64edf7f-379f-41e2-9a86-ba9aeee0f2d7">DRT_BOOTSTRAP_PROVIDER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_bootstrap_provider_tag">DRT_BOOTSTRAP_PROVIDER</a>
 
 
 
-<a href="https://msdn.microsoft.com/fc3d0b6a-1bf3-41f9-82b6-965c285bc6c7">DrtDeleteDnsBootstrapResolver</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtdeletednsbootstrapresolver">DrtDeleteDnsBootstrapResolver</a>
  
 
  

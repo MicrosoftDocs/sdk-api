@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/6cd3d3a1-c50c-4d8e-ae13-c3ea99671cbf">IUpdateService2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservice2">IUpdateService2</a>
  
 
  

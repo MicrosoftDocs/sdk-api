@@ -60,7 +60,7 @@ The <b>QueryProviders</b>
 
 ### -param ppEnum [out]
 
-The address of an <a href="https://msdn.microsoft.com/b8e80909-a28a-45d7-87e2-4f44bf6990f4">IVssEnumObject</a> interface pointer, 
+The address of an <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssenumobject">IVssEnumObject</a> interface pointer, 
       which is initialized on return. Callers must release the interface.
 
 
@@ -149,7 +149,7 @@ An unexpected provider error occurred.
 </td>
 <td width="60%">
 Expected provider error. The provider logged the error in the event log. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
        
 
 </td>
@@ -162,7 +162,7 @@ Expected provider error. The provider logged the error in the event log. For mor
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -176,7 +176,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 <td width="60%">
 Unexpected provider error. The error code is logged in the error log. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
        
 
 </td>
@@ -191,11 +191,11 @@ Unexpected provider error. The error code is logged in the error log. For more i
 
 
 
-Calling the <a href="https://msdn.microsoft.com/9bfaba94-802f-47f5-9843-acc05b32f1b2">IVssEnumObject::Next</a> method on the 
-    <a href="https://msdn.microsoft.com/b8e80909-a28a-45d7-87e2-4f44bf6990f4">IVssEnumObject</a> interface returned though the 
+Calling the <a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssenumobject-next">IVssEnumObject::Next</a> method on the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssenumobject">IVssEnumObject</a> interface returned though the 
     <i>ppEnum</i>  parameter will return 
-    <a href="https://msdn.microsoft.com/90664042-e9a0-4959-a975-9289477d2394">VSS_OBJECT_PROP</a> structures containing a 
-    <a href="https://msdn.microsoft.com/000da95d-a3f5-447e-a96d-c8fb34e9d0d3">VSS_PROVIDER_PROP</a> structure for each registered 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_object_prop">VSS_OBJECT_PROP</a> structures containing a 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_provider_prop">VSS_PROVIDER_PROP</a> structure for each registered 
     provider.
 
 
@@ -206,7 +206,7 @@ Calling the <a href="https://msdn.microsoft.com/9bfaba94-802f-47f5-9843-acc05b32
 
 
 
-<a href="https://msdn.microsoft.com/6128d627-380b-4fef-b58a-caf8f149f526">IVssAdmin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsadmin/nn-vsadmin-ivssadmin">IVssAdmin</a>
  
 
  

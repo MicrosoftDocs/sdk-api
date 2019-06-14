@@ -66,7 +66,7 @@ Device context handle.
 
 ### -param pTestParam [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/03bcfb1a-6ed8-4e78-b3c8-64d29dc74dbc">TTVALIDATIONTESTPARAMSEX</a> structure specifying the parameters to test.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/ns-t2embapi-ttvalidationtestsparamsex">TTVALIDATIONTESTPARAMSEX</a> structure specifying the parameters to test.
 
 
 ## -returns
@@ -75,7 +75,7 @@ Pointer to a <a href="https://msdn.microsoft.com/03bcfb1a-6ed8-4e78-b3c8-64d29dc
 
 If successful and the glyph data is valid, returns E_NONE.
 
-Otherwise, returns an error code described in <a href="https://msdn.microsoft.com/71effafe-55a9-40ed-81c7-07278eba32d3">Embedding-Function Error Messages</a>.
+Otherwise, returns an error code described in <a href="https://docs.microsoft.com/windows/desktop/gdi/font-embedding-function-error-messages">Embedding-Function Error Messages</a>.
 
 
 
@@ -84,7 +84,7 @@ Otherwise, returns an error code described in <a href="https://msdn.microsoft.co
 
 
 
-<b>TTRunValidationTestsEx</b> is a UCS-4 version of <a href="https://msdn.microsoft.com/fe60938b-c728-49a9-89b4-495b2364091a">TTRunValidationTests</a>.
+<b>TTRunValidationTestsEx</b> is a UCS-4 version of <a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttrunvalidationtests">TTRunValidationTests</a>.
 
 This function was supported in Windows XP and earlier, but is no longer supported. In Windows Vista and later, this function will always return E_API_NOTIMPL, and no processing is performed by this API.
 
@@ -98,11 +98,11 @@ Effective font validation can be performed by a tool, such as Font Validator, th
 
 
 
-<a href="https://msdn.microsoft.com/fe60938b-c728-49a9-89b4-495b2364091a">TTRunValidationTests</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttrunvalidationtests">TTRunValidationTests</a>
 
 
 
-<a href="https://msdn.microsoft.com/03bcfb1a-6ed8-4e78-b3c8-64d29dc74dbc">TTVALIDATIONTESTPARAMSEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/ns-t2embapi-ttvalidationtestsparamsex">TTVALIDATIONTESTPARAMSEX</a>
  
 
  

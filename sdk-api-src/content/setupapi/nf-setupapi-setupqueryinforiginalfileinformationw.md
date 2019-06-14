@@ -65,8 +65,8 @@ The
 ### -param InfInformation [in]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/1fb08456-bc84-41a1-9f02-8fb499801831">SP_INF_INFORMATION</a> structure returned from a call to the 
-<a href="https://msdn.microsoft.com/367eb374-1295-41f6-a1b3-cfc04e94b816">SetupGetInfInformation</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_inf_information">SP_INF_INFORMATION</a> structure returned from a call to the 
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetinfinformationa">SetupGetInfInformation</a> function.
 
 
 ### -param InfIndex [in]
@@ -77,14 +77,14 @@ Index of the constituent INF file name to retrieve. This index can be in the ran
 ### -param AlternatePlatformInfo [in]
 
 Optional pointer to an 
-<a href="https://msdn.microsoft.com/33872a84-8f7f-4508-a326-2d95ac0fcfd7">SP_ALTPLATFORM_INFO_V1</a> or <a href="https://msdn.microsoft.com/eb66ef5a-212d-4224-87b5-d64e8e188139">SP_ALTPLATFORM_INFO_V2</a> structure used to pass information for an alternate platform to 
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_altplatform_info_v1">SP_ALTPLATFORM_INFO_V1</a> or <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_altplatform_info_v2">SP_ALTPLATFORM_INFO_V2</a> structure used to pass information for an alternate platform to 
 <b>SetupQueryInfOriginalFileInformation</b>.
 
 
 ### -param OriginalFileInfo [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/9ce09717-7f01-4044-ad6b-edd04a2445f5">SP_ORIGINAL_FILE_INFO</a> structure that receives the original INF file name and catalog file information returned by 
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_original_file_info_a">SP_ORIGINAL_FILE_INFO</a> structure that receives the original INF file name and catalog file information returned by 
 <b>SetupQueryInfOriginalFileInformation</b>.
 
 
@@ -95,7 +95,7 @@ Pointer to an
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -105,11 +105,11 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/0a9518b7-f231-48f2-ba50-5b802f8ccaed">Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/58201596-cb8c-480a-abef-896c1f9ef098">Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
  
 
  

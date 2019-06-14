@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>LsaQueryForestTrustInformation</b> function retrieves forest trust information
-    for the specified <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">Local Security Authority</a> <a href="https://msdn.microsoft.com/fab69367-2143-49ef-a1b9-9c1d846fd4e1">TrustedDomain</a> object.
+    for the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> object.
 
 
 ## -parameters
@@ -60,17 +60,17 @@ The <b>LsaQueryForestTrustInformation</b> function retrieves forest trust inform
 
 ### -param PolicyHandle [in]
 
-A handle to the <a href="https://msdn.microsoft.com/4253c7fb-85f5-441d-90bf-492e802ad0f8">Policy</a> object for the system.
+A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object for the system.
 
 
 ### -param TrustedDomainName [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/9e1cf20f-01f9-4813-bf95-e47c5d57dcdc">LSA_UNICODE_STRING</a> structure that contains the name of the <a href="https://msdn.microsoft.com/fab69367-2143-49ef-a1b9-9c1d846fd4e1">TrustedDomain</a> object for which to retrieve forest trust information.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the name of the <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> object for which to retrieve forest trust information.
 
 
 ### -param ForestTrustInfo [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/9e456462-59a9-4f18-ba47-92fc2350889b">LSA_FOREST_TRUST_INFORMATION</a> structure that returns the forest trust information for the <a href="https://msdn.microsoft.com/fab69367-2143-49ef-a1b9-9c1d846fd4e1">TrustedDomain</a> object specified by the <i>TrustedDomainName</i> parameter.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_lsa_forest_trust_information">LSA_FOREST_TRUST_INFORMATION</a> structure that returns the forest trust information for the <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> object specified by the <i>TrustedDomainName</i> parameter.
 
 
 ## -returns
@@ -79,7 +79,7 @@ Pointer to an <a href="https://msdn.microsoft.com/9e456462-59a9-4f18-ba47-92fc23
 
 If the function succeeds, the return value is STATUS_SUCCESS.
 
-If the function fails, the return value is an NTSTATUS code, which can be one of the following values or one of the <a href="https://msdn.microsoft.com/ee55364e-8ffe-4a78-a49a-250756561770">LSA Policy Function Return Values</a>.
+If the function fails, the return value is an NTSTATUS code, which can be one of the following values or one of the <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>
@@ -120,7 +120,7 @@ The operation is legal only on domain
 </dl>
 </td>
 <td width="60%">
-The specified <a href="https://msdn.microsoft.com/fab69367-2143-49ef-a1b9-9c1d846fd4e1">TrustedDomain</a> object does not exist.
+The specified <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> object does not exist.
 
 </td>
 </tr>
@@ -132,7 +132,7 @@ The specified <a href="https://msdn.microsoft.com/fab69367-2143-49ef-a1b9-9c1d84
 </dl>
 </td>
 <td width="60%">
-The specified <a href="https://msdn.microsoft.com/fab69367-2143-49ef-a1b9-9c1d846fd4e1">TrustedDomain</a> object does not contain forest trust information.
+The specified <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> object does not contain forest trust information.
 
 </td>
 </tr>

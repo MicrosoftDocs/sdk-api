@@ -55,7 +55,7 @@ Presents share-specific information about cached items.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesShareInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IOfflineFilesShareInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesShareInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOfflineFilesShareInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IOfflineFilesShareInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0045497b-0f90-4e20-80c9-6b74e4b523b8">GetShareCachingMode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesshareinfo-getsharecachingmode">GetShareCachingMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the caching mode configuration of the closest ancestor share to the item.
@@ -79,7 +79,7 @@ Retrieves the caching mode configuration of the closest ancestor share to the it
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fd4f92fb-1147-4be4-a61d-04f2f371b6c6">GetShareItem</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesshareinfo-getshareitem">GetShareItem</a>
 </td>
 <td align="left" width="63%">
 Finds the cache item representing the closest ancestor share to the item.
@@ -88,7 +88,7 @@ Finds the cache item representing the closest ancestor share to the item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fdb29270-2fe5-4313-afd9-c21b82b1949a">IsShareDfsJunction</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesshareinfo-issharedfsjunction">IsShareDfsJunction</a>
 </td>
 <td align="left" width="63%">
 Determines whether the share item is a DFS junction or a shared folder on a server.
@@ -103,7 +103,7 @@ Determines whether the share item is a DFS junction or a shared folder on a serv
 
 
 
-<a href="https://msdn.microsoft.com/9dea396f-ab71-4b2e-b5d3-776c16614f26">Offline Files API Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/offlinefiles/offline-files-api-interfaces">Offline Files API Interfaces</a>
  
 
  

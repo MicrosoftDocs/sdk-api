@@ -60,7 +60,7 @@ Provides a high performance test operation that can be used to poll for the comp
 ### -param lpOverlapped
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure that was specified when the overlapped I/O operation was started.
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure that was specified when the overlapped I/O operation was started.
 
 
 ## -remarks
@@ -68,14 +68,14 @@ A pointer to an
 
 
 Do not call this macro unless the call to 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns <b>ERROR_IO_PENDING</b>, indicating that the overlapped I/O has started.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_IO_PENDING</b>, indicating that the overlapped I/O has started.
 
 To cancel all pending asynchronous I/O operations, use the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363791(v=VS.85).aspx">CancelIo</a> function. The <b>CancelIo</b> function only cancels operations issued by the calling thread for the specified file handle. I/O operations that are canceled complete with the error <b>ERROR_OPERATION_ABORTED</b>.
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelio">CancelIo</a> function. The <b>CancelIo</b> function only cancels operations issued by the calling thread for the specified file handle. I/O operations that are canceled complete with the error <b>ERROR_OPERATION_ABORTED</b>.
 
 To get more details about a completed I/O operation, call the 
-<a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a> or 
-<a href="https://msdn.microsoft.com/en-us/library/Aa364986(v=VS.85).aspx">GetQueuedCompletionStatus</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> function.
 
 
 
@@ -85,31 +85,31 @@ To get more details about a completed I/O operation, call the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363791(v=VS.85).aspx">CancelIo</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelio">CancelIo</a>
 
 
 
-<a href="https://msdn.microsoft.com/50f6680f-900e-4411-a849-ec9a911c9e32">ConnectNamedPipe</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a>
 
 
 
-<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/79afcb18-babb-453e-8618-81b43ecb24c4">TransactNamedPipe</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe">TransactNamedPipe</a>
 
 
 
-<a href="https://msdn.microsoft.com/79e955c0-8756-4d6f-bce6-49e8e44d0d3f">WaitCommEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-waitcommevent">WaitCommEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
  
 
  

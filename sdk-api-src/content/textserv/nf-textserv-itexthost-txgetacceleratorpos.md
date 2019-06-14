@@ -59,7 +59,7 @@ Requests the special character to use for the underlining accelerator character.
 
 ### -param pcp
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a>*</b>
 
 The character position of the character to underline. This variable is set by the text host. A character position of 
 					–1 (that is, negative one) indicates that no character should be underlined. 
@@ -69,7 +69,7 @@ The character position of the character to underline. This variable is set by th
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 The return value is <b>S_OK</b>. 
 
@@ -85,7 +85,7 @@ Accelerators allow keyboard shortcuts, or accelerator keys, to various UI elemen
 This method tells the text services object which character is the accelerator and thus should be underlined. Note that the text services object does 
 				<i>not</i> process accelerators; that is the responsibility of the host.
 
-This method is typically only called if the TXTBIT_SHOWACCELERATOR bit is set in the text services object. See <a href="https://msdn.microsoft.com/en-us/library/Bb787627(v=VS.85).aspx">OnTxPropertyBitsChange</a>.
+This method is typically only called if the TXTBIT_SHOWACCELERATOR bit is set in the text services object. See <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-ontxpropertybitschange">OnTxPropertyBitsChange</a>.
 
 <div class="alert"><b>Note</b>  <i>Any</i> change to the text in the text services object results in the invalidation of the accelerator underlining. In this case, it is the host's responsibility to recalculate the appropriate character position and inform the text services object that a new accelerator is available.</div>
 <div> </div>
@@ -101,11 +101,11 @@ This method is typically only called if the TXTBIT_SHOWACCELERATOR bit is set in
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787627(v=VS.85).aspx">OnTxPropertyBitsChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-ontxpropertybitschange">OnTxPropertyBitsChange</a>
 
 
 
@@ -113,7 +113,7 @@ This method is typically only called if the TXTBIT_SHOWACCELERATOR bit is set in
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
  
 
  

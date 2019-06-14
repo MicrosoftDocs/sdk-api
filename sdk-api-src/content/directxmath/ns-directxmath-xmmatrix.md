@@ -54,10 +54,10 @@ Describes a 4*4 matrix aligned on a 16-byte boundary that maps to four hardware 
 DirectXMath uses row-major matrices, row vectors, and pre-multiplication. Handedness is determined by which function version is used (RH vs. LH).
 
 For a list of additional functionality such as constructors and operators that are available using <code>XMMATRIX</code> when you
-  are programming in C++, see <a href="https://msdn.microsoft.com/en-us/library/Ee415355(v=VS.85).aspx">XMMATRIX Extensions</a>.
-<div class="alert"><b>Note</b>  See <a href="https://msdn.microsoft.com/31512657-c413-9e6e-e343-1ea677a02b8c">DirectXMath Library Type Equivalences</a> for information about
-  equivalent <a href="https://msdn.microsoft.com/en-us/library/Bb172533(v=VS.85).aspx">D3DDECLTYPE</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a>, and
-  <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> objects.</div><div> </div>
+  are programming in C++, see <a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmmatrix-extensions">XMMATRIX Extensions</a>.
+<div class="alert"><b>Note</b>  See <a href="https://docs.microsoft.com/windows/desktop/dxmath/pg-xnamath-internals">DirectXMath Library Type Equivalences</a> for information about
+  equivalent <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddecltype">D3DDECLTYPE</a>, <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a>, and
+  <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> objects.</div><div> </div>
 
 ## -struct-fields
 
@@ -230,7 +230,7 @@ typedef const XMMATRIX CXMMATRIX;
 
 
 For projects that need detailed information about how different platform's calling conventions are handled, see
-   <a href="https://msdn.microsoft.com/31512657-c413-9e6e-e343-1ea677a02b8c">Library Internals</a>.
+   <a href="https://docs.microsoft.com/windows/desktop/dxmath/pg-xnamath-internals">Library Internals</a>.
 
 <code>XMMATRIX</code> is row-major and all DirectXMath functions that accept an <code>XMMATRIX</code> as a parameter expect data to be organized as row-major.
 
@@ -247,9 +247,9 @@ _41 _42 _43 _44
 ```
 
 
-DirectXMath defines <b>XMMATRIX</b> as a fully opaque type. To access individual elements of <b>XMMATRIX</b>, use equivalent types such as <a href="https://msdn.microsoft.com/en-us/library/Ee419608(v=VS.85).aspx">XMFLOAT4</a> for a given row or <a href="https://msdn.microsoft.com/en-us/library/Ee419621(v=VS.85).aspx">XMFLOAT4X4</a> for the whole matrix.
+DirectXMath defines <b>XMMATRIX</b> as a fully opaque type. To access individual elements of <b>XMMATRIX</b>, use equivalent types such as <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat4">XMFLOAT4</a> for a given row or <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x4">XMFLOAT4X4</a> for the whole matrix.
 
-<div class="alert"><b>Note</b>  XNAMath 2.x defines <code>XMMATRIX</code> as a union with <b>_11</b> to <b>_44</b> members and an <b>m</b> array member. When you use these members of the union, poor performance results. DirectXMath.h still defines these <code>XMMATRIX</code> union members for when you build an app with <a href="https://msdn.microsoft.com/c1746b7b-7e7e-2453-77eb-17f859a38fe2">_XM_NO_INTRINSICS_</a>. XNAMath version 2.05 provides an opt-in XM_STRICT_XMMATRIX to enforce the DirectXMath behavior.</div>
+<div class="alert"><b>Note</b>  XNAMath 2.x defines <code>XMMATRIX</code> as a union with <b>_11</b> to <b>_44</b> members and an <b>m</b> array member. When you use these members of the union, poor performance results. DirectXMath.h still defines these <code>XMMATRIX</code> union members for when you build an app with <a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-directives">_XM_NO_INTRINSICS_</a>. XNAMath version 2.05 provides an opt-in XM_STRICT_XMMATRIX to enforce the DirectXMath behavior.</div>
 <div> </div>
 <b>Namespace:</b> Use DirectX
 
@@ -264,15 +264,15 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/58acb05d-e79b-8f42-4cf4-76ae57929739">DirectXMath Library Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-structures">DirectXMath Library Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419621(v=VS.85).aspx">XMFLOAT4X4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x4">XMFLOAT4X4</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415355(v=VS.85).aspx">XMMATRIX Extensions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmmatrix-extensions">XMMATRIX Extensions</a>
  
 
  

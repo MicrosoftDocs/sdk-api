@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PRIVILEGE_SET</b> structure specifies a set of <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">privileges</a>. It is also used to indicate which, if any, privileges are held by a user or group requesting access to an object.
+The <b>PRIVILEGE_SET</b> structure specifies a set of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">privileges</a>. It is also used to indicate which, if any, privileges are held by a user or group requesting access to an object.
 
 
 ## -struct-fields
@@ -64,13 +64,13 @@ Specifies the number of privileges in the privilege set.
 
 ### -field Control
 
-Specifies a control flag related to the privileges. The PRIVILEGE_SET_ALL_NECESSARY control flag is currently defined. It indicates that all of the specified privileges must be held by the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">process</a> requesting access. If this flag is not set, the presence of any privileges in the user's <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access token</a> grants the access.
+Specifies a control flag related to the privileges. The PRIVILEGE_SET_ALL_NECESSARY control flag is currently defined. It indicates that all of the specified privileges must be held by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">process</a> requesting access. If this flag is not set, the presence of any privileges in the user's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access token</a> grants the access.
 
 
 ### -field Privilege
 
 Specifies an array of 
-<a href="https://msdn.microsoft.com/f337b561-4b67-42a0-b8de-06f546bafb26">LUID_AND_ATTRIBUTES</a> structures describing the set's privileges. The following attributes are defined for privileges. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid_and_attributes">LUID_AND_ATTRIBUTES</a> structures describing the set's privileges. The following attributes are defined for privileges. 
 
 
 
@@ -130,15 +130,15 @@ A privilege is used to control access to an object or service more strictly than
 
 
 
-<a href="https://msdn.microsoft.com/a812a46b-f23f-45b1-a6c6-48f931b78750">LUID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid">LUID</a>
 
 
 
-<a href="https://msdn.microsoft.com/f337b561-4b67-42a0-b8de-06f546bafb26">LUID_AND_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid_and_attributes">LUID_AND_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/a73d934a-1abf-4e60-bf0a-6c4629f28f7a">PrivilegeCheck</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-privilegecheck">PrivilegeCheck</a>
  
 
  

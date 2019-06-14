@@ -64,7 +64,7 @@ The zero-based index of a stream to query, or <b>MF_SINK_WRITER_ALL_STREAMS </b>
 
 ### -param pStats [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/ff083ae1-9a53-4215-9738-d1776f8d7f9b">MF_SINK_WRITER_STATISTICS</a> structure. Before calling the method, set the <b>cb</b> member to the size of the structure in bytes. The method fills the structure with statistics from the sink writer.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/ns-mfreadwrite-_mf_sink_writer_statistics">MF_SINK_WRITER_STATISTICS</a> structure. Before calling the method, set the <b>cb</b> member to the size of the structure in bytes. The method fills the structure with statistics from the sink writer.
 
 
 ## -returns
@@ -120,11 +120,11 @@ This interface is available on Windows Vista if Platform Update Supplement for 
 
 
 
-<a href="https://msdn.microsoft.com/76fb915e-1586-429a-88a5-bd1290799352">IMFSinkWriter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwriter">IMFSinkWriter</a>
 
 
 
-<a href="https://msdn.microsoft.com/23AF25B8-B94C-48BC-83D8-5863ACFFD4CA">Sink Writer</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/sink-writer">Sink Writer</a>
  
 
  

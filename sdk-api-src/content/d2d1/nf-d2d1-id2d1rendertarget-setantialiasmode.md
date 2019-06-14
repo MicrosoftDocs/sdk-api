@@ -59,7 +59,7 @@ Sets the antialiasing mode of the render target. The antialiasing mode applies t
 
 ### -param antialiasMode
 
-Type: <b><a href="https://msdn.microsoft.com/3ca12155-6dd0-41bb-8778-3387422c4ffe">D2D1_ANTIALIAS_MODE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_antialias_mode">D2D1_ANTIALIAS_MODE</a></b>
 
 The antialiasing mode for future drawing operations. 
 
@@ -77,7 +77,7 @@ This method does not return a value.
 
 
 
-To specify the antialiasing mode for text and glyph operations, use the <a href="https://msdn.microsoft.com/be6161ed-d797-4090-9bf0-5d6ee11cac0e">SetTextAntialiasMode</a> method. 
+To specify the antialiasing mode for text and glyph operations, use the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-settextantialiasmode">SetTextAntialiasMode</a> method. 
 
 
 
@@ -87,15 +87,15 @@ To specify the antialiasing mode for text and glyph operations, use the <a href=
 
 
 
-<a href="https://msdn.microsoft.com/e9aa93fa-0978-415e-b9f7-802494e81095">GetAntialiasMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-getantialiasmode">GetAntialiasMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/40629be9-5840-4bde-b369-56bbfd791775">ID2D1RenderTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
 
 
 
-<a href="https://msdn.microsoft.com/be6161ed-d797-4090-9bf0-5d6ee11cac0e">SetTextAntialiasMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-settextantialiasmode">SetTextAntialiasMode</a>
  
 
  

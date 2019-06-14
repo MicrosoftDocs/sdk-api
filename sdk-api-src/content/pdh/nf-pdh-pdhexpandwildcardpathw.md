@@ -55,7 +55,7 @@ Examines the specified computer or log file and returns those counter paths that
 			
 
 To use handles to data sources, use the 
-<a href="https://msdn.microsoft.com/d7d13beb-02ab-4204-808e-d395197f09e1">PdhExpandWildCardPathH</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhexpandwildcardpathha">PdhExpandWildCardPathH</a> function.
 
 
 ## -parameters
@@ -132,8 +132,8 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> or a 
-<a href="https://msdn.microsoft.com/ea67d798-81db-44ad-b0fb-24e0c3be7388">PDH error code</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>.
 
 <table>
 <tr>
@@ -208,7 +208,7 @@ Unable to find the specified object on the computer or in the log file.
 You should call this function twice, the first time to get the required buffer size (set <i>mszExpandedPathList</i> to <b>NULL</b> and <i>pcchPathListLength</i> to 0), and the second time to get the data.
 
 <b>PdhExpandWildCardPath</b> differs from 
-<a href="https://msdn.microsoft.com/d90954ab-ec2f-42fd-90b7-66f59f3d1115">PdhExpandCounterPath</a> in the following ways:
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhexpandcounterpatha">PdhExpandCounterPath</a> in the following ways:
 
 <ol>
 <li>Lets you control which wildcard characters are expanded.</li>
@@ -254,19 +254,19 @@ Partial counter path string matches (for example, "pro*") are  supported.
 
 
 
-<a href="https://msdn.microsoft.com/b3efdd31-44e6-47ff-bd0e-d31451c32818">PdhEnumObjectItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhenumobjectitemsa">PdhEnumObjectItems</a>
 
 
 
-<a href="https://msdn.microsoft.com/dfa4b10f-5134-4620-a6b0-0fa2c13a33ec">PdhEnumObjects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhenumobjectsa">PdhEnumObjects</a>
 
 
 
-<a href="https://msdn.microsoft.com/d90954ab-ec2f-42fd-90b7-66f59f3d1115">PdhExpandCounterPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhexpandcounterpatha">PdhExpandCounterPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/d7d13beb-02ab-4204-808e-d395197f09e1">PdhExpandWildCardPathH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhexpandwildcardpathha">PdhExpandWildCardPathH</a>
  
 
  

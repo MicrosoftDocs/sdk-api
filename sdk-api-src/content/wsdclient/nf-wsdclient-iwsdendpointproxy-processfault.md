@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Processes a SOAP fault retrieved by <a href="https://msdn.microsoft.com/45ed30fd-7e4f-44f5-bb90-5686746e39be">GetFaultInfo</a>.
+Processes a SOAP fault retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdendpointproxy-getfaultinfo">GetFaultInfo</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Processes a SOAP fault retrieved by <a href="https://msdn.microsoft.com/45ed30fd
 
 ### -param pFault [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/ed5e2575-203a-41a2-b656-50cb82aae088">WSD_SOAP_FAULT</a> structure containing the fault data.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_soap_fault">WSD_SOAP_FAULT</a> structure containing the fault data.
 
 
 ## -returns
@@ -117,7 +117,7 @@ The fault was not stored in memory.
 
 
 
-<a href="https://msdn.microsoft.com/58ca085f-8939-413c-8fd3-4d867b1cf490">IWSDEndpointProxy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdendpointproxy">IWSDEndpointProxy</a>
  
 
  

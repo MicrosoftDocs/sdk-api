@@ -80,12 +80,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/b437c646-2a15-4ad6-8e7e-3553e7106249">ITfThreadMgr::SetFocus
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-setfocus">ITfThreadMgr::SetFocus
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/be2a3eb1-cb17-4d8b-a44d-ccb33749c8f6">ITfThreadMgrEventSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgreventsink">ITfThreadMgrEventSink</a>
  
 
  

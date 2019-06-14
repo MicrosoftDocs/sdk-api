@@ -96,7 +96,7 @@ Pointer to a <b>DWORD</b> containing one or more of the following flags.
 </tr>
 <tr>
 <td>No flag set</td>
-<td>None of the conditions for the other flags applies. For example, a <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">delta frame</a> in most cases would not have any flags set for it.</td>
+<td>None of the conditions for the other flags applies. For example, a <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">delta frame</a> in most cases would not have any flags set for it.</td>
 </tr>
 <tr>
 <td>WM_SF_CLEANPOINT</td>
@@ -216,11 +216,11 @@ OR
 
 
 
-Both compressed and uncompressed samples are delivered by this method, depending upon whether you have called <a href="https://msdn.microsoft.com/en-us/library/Dd798706(v=VS.85).aspx">SetReadStreamSamples</a> for the streams in the file. This is the only method to retrieve samples using the synchronous reader.
+Both compressed and uncompressed samples are delivered by this method, depending upon whether you have called <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setreadstreamsamples">SetReadStreamSamples</a> for the streams in the file. This is the only method to retrieve samples using the synchronous reader.
 
-To begin receiving samples from anywhere in the file other than the beginning, you must first specify a range for playback. To specify a playback range based on presentation times, use the <a href="https://msdn.microsoft.com/en-us/library/Dd798704(v=VS.85).aspx">SetRange</a> method. To set a range using frame numbers, use the <a href="https://msdn.microsoft.com/en-us/library/Dd798705(v=VS.85).aspx">SetRangeByFrame</a> method. When you have received all of the samples in the file, or in the range if you specified one, the next call made to <b>GetNextSample</b> returns NS_E_NO_MORE_SAMPLES.
+To begin receiving samples from anywhere in the file other than the beginning, you must first specify a range for playback. To specify a playback range based on presentation times, use the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setrange">SetRange</a> method. To set a range using frame numbers, use the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setrangebyframe">SetRangeByFrame</a> method. When you have received all of the samples in the file, or in the range if you specified one, the next call made to <b>GetNextSample</b> returns NS_E_NO_MORE_SAMPLES.
 
-The timeline is presentation time if no output setting is specified. To get early delivery for a stream, use <a href="https://msdn.microsoft.com/en-us/library/Dd798600(v=VS.85).aspx">SetOutputSetting</a>.
+The timeline is presentation time if no output setting is specified. To get early delivery for a stream, use <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setoutputsetting">SetOutputSetting</a>.
 
 You can call <b>GetNextSample</b> in one of three ways:
 
@@ -231,7 +231,7 @@ You can call <b>GetNextSample</b> in one of three ways:
 </ul>
 You can also use <i>GetNextSample</i> to retrieve precise times for video frames when reading compressed data. For more information, see To Retrieve Accurate Presentation Times for Compressed Samples by Frame.
 
-<div class="alert"><b>Note</b>  To ensure that you get correct sample durations from this method, you must configure the output for the stream. Call the <a href="https://msdn.microsoft.com/en-us/library/Dd798600(v=VS.85).aspx">SetOutputSetting</a> method to set the g_wszVideoSampleDurations setting to <b>TRUE</b>. Subsequent calls to <b>GetNextSample</b> will return correct sample durations.</div>
+<div class="alert"><b>Note</b>  To ensure that you get correct sample durations from this method, you must configure the output for the stream. Call the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setoutputsetting">SetOutputSetting</a> method to set the g_wszVideoSampleDurations setting to <b>TRUE</b>. Subsequent calls to <b>GetNextSample</b> will return correct sample durations.</div>
 <div> </div>
 
 
@@ -241,11 +241,11 @@ You can also use <i>GetNextSample</i> to retrieve precise times for video frames
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798576(v=VS.85).aspx">IWMSyncReader Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains the current track number and duration as part of the <a href="https://msdn.microsoft.com/9601c1ae-3fd2-4761-8aa7-102b72ef4733">PositionInformation</a> obtained from the DMR.
+Contains the current track number and duration as part of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828991(v=vs.85)">PositionInformation</a> obtained from the DMR.
 
 
 ## -struct-fields

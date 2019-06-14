@@ -141,7 +141,7 @@ Pre-defined objects, like Picture objects, cannot be deleted by calling this API
 
 
 
-<a href="https://msdn.microsoft.com/00c3c1f1-c36c-469a-a644-0ec60f02d25e">Peer Collaboration API Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
  
 
  

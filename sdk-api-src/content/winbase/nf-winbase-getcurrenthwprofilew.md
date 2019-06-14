@@ -63,7 +63,7 @@ Retrieves information about the current hardware profile for the local computer.
 ### -param lpHwProfileInfo [out]
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/b1c8eb4c-8c62-4e3e-a7d2-0888512b3d4c">HW_PROFILE_INFO</a> structure that receives information about the current hardware profile.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-taghw_profile_infoa">HW_PROFILE_INFO</a> structure that receives information about the current hardware profile.
 
 
 ## -returns
@@ -73,7 +73,7 @@ A pointer to an
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -89,10 +89,10 @@ The system generates a GUID for each hardware profile and stores it as a string 
 <b>GetCurrentHwProfile</b> to retrieve the GUID string to use as a registry subkey under your application's configuration settings key in <b>HKEY_CURRENT_USER</b>. This enables you to store each user's settings for each hardware profile. For example, the Colors control panel application could use the subkey to store each user's color preferences for different hardware profiles, such as profiles for the docked and undocked states. Applications that use this functionality can check the current hardware profile when they start up, and update their settings accordingly.
 
 Applications can also update their settings when a system device message, such as 
-<a href="https://msdn.microsoft.com/e5e33970-b17e-4723-98aa-e242f90fe4e7">DBT_CONFIGCHANGED</a>, indicates that the hardware profile has changed.
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/dbt-configchanged">DBT_CONFIGCHANGED</a>, indicates that the hardware profile has changed.
 
 To compile an application that uses this function, define the _WIN32_WINNT macro as 0x0400 or later. For more information, see 
-<a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 #### Examples
@@ -128,15 +128,15 @@ void main(void)
 
 
 
-<a href="https://msdn.microsoft.com/e5e33970-b17e-4723-98aa-e242f90fe4e7">DBT_CONFIGCHANGED</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/dbt-configchanged">DBT_CONFIGCHANGED</a>
 
 
 
-<a href="https://msdn.microsoft.com/b1c8eb4c-8c62-4e3e-a7d2-0888512b3d4c">HW_PROFILE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-taghw_profile_infoa">HW_PROFILE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa7deebf-7dce-4147-8a15-1d7411aea0fa">System
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System
 		  Information Functions</a>
  
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DrvPaint</b> function is obsolete, and is no longer called by GDI in Windows 2000 and later. New drivers should implement one or more of <a href="https://msdn.microsoft.com/6f499d08-d2a1-46d0-b931-e6c16c4e1d3a">DrvFillPath</a>, <a href="https://msdn.microsoft.com/c931a39d-c0ae-4f40-b70f-f51d5621c228">DrvStrokePath</a>, or <a href="https://msdn.microsoft.com/92a04fe5-146d-4839-a854-1ac50705b447">DrvStrokeAndFillPath</a>.
+The <b>DrvPaint</b> function is obsolete, and is no longer called by GDI in Windows 2000 and later. New drivers should implement one or more of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvfillpath">DrvFillPath</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvstrokepath">DrvStrokePath</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvstrokeandfillpath">DrvStrokeAndFillPath</a>.
 
 
 ## -parameters

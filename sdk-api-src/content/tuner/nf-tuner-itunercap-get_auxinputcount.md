@@ -96,7 +96,7 @@ When the method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b
 
 
 
-<a href="https://msdn.microsoft.com/d7027ff4-4fb9-48c1-b527-92e65009b089">ITunerCap Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunercap">ITunerCap Interface</a>
  
 
  

@@ -61,7 +61,7 @@ Fills a caller-allocated structure with information about the font.
 
 Pointer to the caller-allocated structure that receives the font information. The 
    <b>TEXTMETRICOLE</b> structure is defined as a 
-   <a href="https://msdn.microsoft.com/0a46da58-5d0f-4db4-bba6-9e1b6c1f892c">TEXTMETRICW</a> structure.
+   <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagtextmetrica">TEXTMETRICW</a> structure.
 
 
 ## -returns
@@ -121,7 +121,7 @@ The address in the <i>ptm</i> parameter is not valid. For example, it may be
 
 
 
-<a href="https://msdn.microsoft.com/3a04d2b7-b2eb-4c6c-8863-1e88321fa382">IFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
  
 
  

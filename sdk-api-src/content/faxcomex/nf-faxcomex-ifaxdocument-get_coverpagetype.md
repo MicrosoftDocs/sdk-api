@@ -63,9 +63,9 @@ This property is read/write.
 
 
 
-By default, <b>IFaxDocument::get_CoverPageType</b> is set to <a href="https://msdn.microsoft.com/en-us/library/ms689603(v=VS.85).aspx">fcptNONE</a>, indicating that no file is used.
+By default, <b>IFaxDocument::get_CoverPageType</b> is set to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_coverpage_type_enum">fcptNONE</a>, indicating that no file is used.
 
-Provide the name of the cover page in the <a href="https://msdn.microsoft.com/en-us/library/ms687493(v=VS.85).aspx">IFaxDocument::get_CoverPage</a> property.
+Provide the name of the cover page in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument-coverpage-vb">IFaxDocument::get_CoverPage</a> property.
 
 
 
@@ -75,15 +75,15 @@ Provide the name of the cover page in the <a href="https://msdn.microsoft.com/en
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685958(v=VS.85).aspx">FaxDocument</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument">FaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685960(v=VS.85).aspx">IFaxDocument</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdocument">IFaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692936(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>
  
 
  

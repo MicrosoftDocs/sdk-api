@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Performs operations required before calling <a href="https://msdn.microsoft.com/b57e32eb-a637-47d8-b136-05cb193e9f73">IMalloc::HeapMinimize</a>.
+Performs operations required before calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-heapminimize">IMalloc::HeapMinimize</a>.
 
 
 ## -parameters
@@ -82,15 +82,15 @@ This method is included for completeness; it is not anticipated that developers 
 
 
 
-<a href="https://msdn.microsoft.com/b57e32eb-a637-47d8-b136-05cb193e9f73">IMalloc::HeapMinimize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-heapminimize">IMalloc::HeapMinimize</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ba500f7-c070-4788-b7fe-58b6a4e6a94c">IMallocSpy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a>
 
 
 
-<a href="https://msdn.microsoft.com/9d51c34e-6ed1-493d-8999-e67c4a60f6b6">IMallocSpy::PostHeapMinimize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imallocspy-postheapminimize">IMallocSpy::PostHeapMinimize</a>
  
 
  

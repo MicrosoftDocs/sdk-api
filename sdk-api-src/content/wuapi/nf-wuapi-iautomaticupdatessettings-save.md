@@ -79,9 +79,9 @@ Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error cod
 
 
 
-Saving settings with a <a href="https://msdn.microsoft.com/da4fdb8a-8df8-468f-afde-292bbcf6696b">NotificationLevel</a> value other than Disabled  starts the Automatic Updates service.
+Saving settings with a <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-get_notificationlevel">NotificationLevel</a> value other than Disabled  starts the Automatic Updates service.
 
-<div class="alert"><b>Note</b>  On Windows RT, you can no longer use the <b>Save</b> method to configure Windows Update settings programmatically. The configuration operation fails if you use <b>Save</b> to set any value other than 4 (<a href="https://msdn.microsoft.com/en-us/library/Aa385806(v=VS.85).aspx">aunlScheduledInstallation</a>).</div>
+<div class="alert"><b>Note</b>  On Windows RT, you can no longer use the <b>Save</b> method to configure Windows Update settings programmatically. The configuration operation fails if you use <b>Save</b> to set any value other than 4 (<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-tagautomaticupdatesnotificationlevel">aunlScheduledInstallation</a>).</div>
 <div> </div>
 
 
@@ -91,7 +91,7 @@ Saving settings with a <a href="https://msdn.microsoft.com/da4fdb8a-8df8-468f-af
 
 
 
-<a href="https://msdn.microsoft.com/c4672df5-9e47-45f5-9504-1ebb0bf3c6a6">IAutomaticUpdatesSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings">IAutomaticUpdatesSettings</a>
  
 
  

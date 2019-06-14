@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<a href="https://msdn.microsoft.com/af7186f8-7921-48e3-a4fd-23259a6e9018">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>OpenNtmsNotification</b> function opens a channel to receive RSM object change notifications for objects of the specified type.
@@ -63,13 +63,13 @@ The
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://msdn.microsoft.com/5a323911-e99c-4f81-9580-0feac2f0a54e">OpenNtmsSession</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 
 ### -param dwType [in]
 
 RSM object type for notification. For a list of values, see 
-<a href="https://msdn.microsoft.com/598e7cb1-f463-4252-9bdf-ccb98f36f4da">NtmsObjectsTypes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ne-ntmsapi-ntmsobjectstypes">NtmsObjectsTypes</a>.
 
 
 ## -returns
@@ -78,11 +78,11 @@ RSM object type for notification. For a list of values, see
 
 The 
 <b>OpenNtmsNotification</b> function returns a notification handle that you pass to the 
-<a href="https://msdn.microsoft.com/ecb39bac-f062-4835-bbae-f9f643ffde9b">WaitForNtmsNotification</a> or 
-<a href="https://msdn.microsoft.com/30aa06af-70d4-45c0-b624-575dcf867efb">CloseNtmsNotification</a> functions.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-waitforntmsnotification">WaitForNtmsNotification</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-closentmsnotification">CloseNtmsNotification</a> functions.
 
 For extended error information, call the 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function. This function can return one of the following values.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. This function can return one of the following values.
 
 <table>
 <tr>
@@ -168,15 +168,15 @@ The function failed.
 
 
 
-<a href="https://msdn.microsoft.com/30aa06af-70d4-45c0-b624-575dcf867efb">CloseNtmsNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-closentmsnotification">CloseNtmsNotification</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Database Notification Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Database Notification Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/ecb39bac-f062-4835-bbae-f9f643ffde9b">WaitForNtmsNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-waitforntmsnotification">WaitForNtmsNotification</a>
  
 
  

@@ -64,7 +64,7 @@ A handle to the network address control.
 
 ### -param addrMask [in]
 
-Specifies the network address types as one or more of the <a href="https://msdn.microsoft.com/4144dac9-772c-49cb-b924-e852fb4c81c7">NET_STRING</a> constants.
+Specifies the network address types as one or more of the <a href="https://docs.microsoft.com/windows/desktop/shell/net-string">NET_STRING</a> constants.
                 
 
 
@@ -72,9 +72,9 @@ Specifies the network address types as one or more of the <a href="https://msdn.
 
 
 
-The mask set is the criterion used to validate a network address in the macro <a href="https://msdn.microsoft.com/2d0310a8-89ca-41b5-8afc-faec29bd23ba">NetAddr_GetAddress</a>.
+The mask set is the criterion used to validate a network address in the macro <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-netaddr_getaddress">NetAddr_GetAddress</a>.
 
-Use this macro for a network address control only. To instantiate, use the class <b>msctls_netaddress</b> defined in Shellapi.h. Call <a href="https://msdn.microsoft.com/52b475e3-7335-4c34-80d7-ccd81af0e0ec">InitNetworkAddressControl</a> at run time before calling this macro. This initializes the common controls library that contains the network address control.
+Use this macro for a network address control only. To instantiate, use the class <b>msctls_netaddress</b> defined in Shellapi.h. Call <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-initnetworkaddresscontrol">InitNetworkAddressControl</a> at run time before calling this macro. This initializes the common controls library that contains the network address control.
 
 
 
@@ -84,7 +84,7 @@ Use this macro for a network address control only. To instantiate, use the class
 
 
 
-<a href="https://msdn.microsoft.com/21533513-86c2-418b-ab62-3c1b2db9bc2f">NetAddr_GetAllowType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-netaddr_getallowtype">NetAddr_GetAllowType</a>
  
 
  

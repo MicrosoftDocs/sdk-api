@@ -51,7 +51,7 @@ req.redist:
 Moves a piece of media from a source element to one destination, and the piece of media originally in the first destination to a second destination.
 
 To perform this operation, call the 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -155,15 +155,15 @@ To swap two pieces of media, specify the source as the value for the second dest
 
 
 
-<a href="https://msdn.microsoft.com/a35c9da8-7632-4aa1-a1a7-030ffce727b7">CHANGER_EXCHANGE_MEDIUM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_changer_exchange_medium">CHANGER_EXCHANGE_MEDIUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/b3a3ffa1-e710-4d96-aff8-5b6876ab032b">Device Management Control Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/device-management-control-codes">Device Management Control Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
  
 
  

@@ -117,11 +117,11 @@ The last 2 bits (bits 30-31) of <b>Packed</b> assigned, as an unsigned integer, 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee421399(v=VS.85).aspx">XMXDEC4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdec4">XMXDEC4</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415539(v=VS.85).aspx">XMXDEC4 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmxdec4-ctor">XMXDEC4 Constructors</a>
  
 
  

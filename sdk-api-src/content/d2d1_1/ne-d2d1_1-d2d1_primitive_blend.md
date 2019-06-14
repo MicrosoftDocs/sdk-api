@@ -83,7 +83,7 @@ The resulting pixel values are the sum of the source and destination pixel value
 ### -field D2D1_PRIMITIVE_BLEND_MAX
 
 The resulting pixel values use the maximum of the source and destination pixel values. 
-          Available in Windows 10 and later (set using <a href="https://msdn.microsoft.com/20934CEA-2B89-45F5-8E61-CD47C4A9B78F">ID21CommandSink4::SetPrimitiveBlend2</a>).
+          Available in Windows 10 and later (set using <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1commandsink4-setprimitiveblend2">ID21CommandSink4::SetPrimitiveBlend2</a>).
 
 
 ### -field D2D1_PRIMITIVE_BLEND_FORCE_DWORD
@@ -159,11 +159,11 @@ An illustration of the primitive blend modes with varying opacity and background
 
 
 
-<a href="https://msdn.microsoft.com/c3d6cfae-5776-4d1d-933b-b94271c431b6">ID2D1DeviceContext::GetPrimitiveBlend</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-getprimitiveblend">ID2D1DeviceContext::GetPrimitiveBlend</a>
 
 
 
-<a href="https://msdn.microsoft.com/be04c9f7-397f-468e-91c0-3b11c68b489f">ID2D1DeviceContext::SetPrimitiveBlend</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-setprimitiveblend">ID2D1DeviceContext::SetPrimitiveBlend</a>
  
 
  

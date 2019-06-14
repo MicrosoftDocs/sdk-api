@@ -54,7 +54,7 @@ Exposes methods that set and retrieve information about a computer's default sha
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISharingConfigurationManager</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISharingConfigurationManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISharingConfigurationManager</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISharingConfigurationManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISharingConfigurationManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/331ccf4d-c769-43b9-a2db-c464ffaef58e">ArePrintersShared</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isharingconfigurationmanager-areprintersshared">ArePrintersShared</a>
 </td>
 <td align="left" width="63%">
 Determines whether any printers connected to this computer are shared.
@@ -78,7 +78,7 @@ Determines whether any printers connected to this computer are shared.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/81bcd470-3fb8-4c6d-af4f-6f11206fa40a">CreateShare</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isharingconfigurationmanager-createshare">CreateShare</a>
 </td>
 <td align="left" width="63%">
 Shares the <b>Users</b> or <b>Public</b> folder. If the folder is already shared, this method updates its sharing status.
@@ -87,7 +87,7 @@ Shares the <b>Users</b> or <b>Public</b> folder. If the folder is already shared
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8b78d321-0da6-4b7e-8408-34784d309a1b">DeleteShare</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isharingconfigurationmanager-deleteshare">DeleteShare</a>
 </td>
 <td align="left" width="63%">
 Removes sharing from either the <b>Users</b> or <b>Public</b> folder.
@@ -96,7 +96,7 @@ Removes sharing from either the <b>Users</b> or <b>Public</b> folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d9ca5acf-2dd1-4fbe-a67f-91578d68b955">GetSharePermissions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isharingconfigurationmanager-getsharepermissions">GetSharePermissions</a>
 </td>
 <td align="left" width="63%">
 Gets the access permissions currently associated with the <b>User</b> or <b>Public</b> folder for the <i>Everyone</i> ACE.
@@ -105,7 +105,7 @@ Gets the access permissions currently associated with the <b>User</b> or <b>Publ
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d15d40a1-fdde-430a-bb8c-537ce58536dd">ShareExists</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isharingconfigurationmanager-shareexists">ShareExists</a>
 </td>
 <td align="left" width="63%">
 Queries whether the <b>Users</b> or <b>Public</b> folder is shared.
@@ -114,7 +114,7 @@ Queries whether the <b>Users</b> or <b>Public</b> folder is shared.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bc8d3b2b-88b6-4c2d-a3c2-94bba245708c">SharePrinters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isharingconfigurationmanager-shareprinters">SharePrinters</a>
 </td>
 <td align="left" width="63%">
 Shares all local printers connected to a computer, enabling them to be discovered by other computers on the network.
@@ -123,7 +123,7 @@ Shares all local printers connected to a computer, enabling them to be discovere
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dfb5a6a6-3530-4925-bbe8-d67c2537ef4e">StopSharingPrinters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isharingconfigurationmanager-stopsharingprinters">StopSharingPrinters</a>
 </td>
 <td align="left" width="63%">
 Stops sharing all local, shared printers connected to a computer.

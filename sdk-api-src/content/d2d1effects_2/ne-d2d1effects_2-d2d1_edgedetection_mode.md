@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Values for the <a href="https://msdn.microsoft.com/F3B94BDC-120E-4B44-9AA8-595AAEFD1F61">D2D1_EDGEDETECTION_PROP_MODE</a> property of the <a href="https://msdn.microsoft.com/d22868cf-95fe-690e-66ac-268d7e116aee">Edge Detection effect</a>.
+Values for the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_edgedetection_prop">D2D1_EDGEDETECTION_PROP_MODE</a> property of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/edge-detection-effect">Edge Detection effect</a>.
 
 
 ## -enum-fields

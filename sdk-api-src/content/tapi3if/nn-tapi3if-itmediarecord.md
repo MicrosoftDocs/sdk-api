@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITMediaRecord</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITMediaRecord</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITMediaRecord</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITMediaRecord</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ITMediaRecord</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fd97665c-ff9e-4621-baf9-7c0b603400c5">get_FileName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itmediarecord-get_filename">get_FileName</a>
 </td>
 <td align="left" width="63%">
 Gets the name of the file used for recording.
@@ -79,7 +79,7 @@ Gets the name of the file used for recording.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d3f6155d-3989-49d7-8944-da26fd03617a">put_FileName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itmediarecord-put_filename">put_FileName</a>
 </td>
 <td align="left" width="63%">
 Sets the name of the file to record.
@@ -94,11 +94,11 @@ Sets the name of the file to record.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/66b43721-f902-4a0e-8cbb-418438617f47">ITMediaPlayback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itmediaplayback">ITMediaPlayback</a>
  
 
  

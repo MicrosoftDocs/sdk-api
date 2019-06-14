@@ -59,7 +59,7 @@ Represents an encrypted credential.
 
 ### -field Cred
 
-A pointer to a <a href="https://msdn.microsoft.com/6361b93c-4441-4a01-bd39-b95c42962497">CREDENTIAL</a> structure that contains the encrypted credential.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_credentiala">CREDENTIAL</a> structure that contains the encrypted credential.
 
 
 ### -field ClearCredentialBlobSize
@@ -72,23 +72,23 @@ The size, in bytes, of the unencrypted credential.
 
 
 
-<a href="https://msdn.microsoft.com/9da22201-884d-4822-a769-c2ce0d36ec73">CrediFreeCredentials</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-credfreecredentialsfn">CrediFreeCredentials</a>
 
 
 
-<a href="https://msdn.microsoft.com/b6abfde9-74ac-4af0-b8ab-4f6be937f17f">CrediRead</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-credreadfn">CrediRead</a>
 
 
 
-<a href="https://msdn.microsoft.com/fa5c92be-c74b-4143-8526-b60c25461b8c">CrediReadDomainCredentials</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-credreaddomaincredentialsfn">CrediReadDomainCredentials</a>
 
 
 
-<a href="https://msdn.microsoft.com/19c7fe4d-9c7b-4547-baab-443483deb013">CrediWrite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-credwritefn">CrediWrite</a>
 
 
 
-<a href="https://msdn.microsoft.com/d93bafc6-d946-4214-b3c0-5e5a8e359638">SpInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
  
 
  

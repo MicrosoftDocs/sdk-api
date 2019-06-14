@@ -113,9 +113,9 @@ Parameter <i>afPeakValues</i> is <b>NULL</b>.
 
 
 
-This method retrieves the peak sample values for the channels in the stream. The peak value for each channel is recorded over one device period and made available during the subsequent device period. Thus, this method always retrieves the peak values recorded during the previous device period. To obtain the device period, call the <a href="https://msdn.microsoft.com/f2f75fce-9eca-488d-b183-87d97d4e599a">IAudioClient::GetDevicePeriod</a> method.
+This method retrieves the peak sample values for the channels in the stream. The peak value for each channel is recorded over one device period and made available during the subsequent device period. Thus, this method always retrieves the peak values recorded during the previous device period. To obtain the device period, call the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getdeviceperiod">IAudioClient::GetDevicePeriod</a> method.
 
-Parameter <i>afPeakValues</i> points to a caller-allocated <b>float</b> array. If the stream contains <i>n</i> channels, the channels are numbered 0 to <i>n</i>– 1. The method stores the peak value for each channel in the array element whose array index matches the channel number. To get the number of channels in the audio stream that are monitored by peak meters, call the <a href="https://msdn.microsoft.com/6f1deef6-cc47-4736-b0bb-99afb1966895">IAudioMeterInformation::GetMeteringChannelCount</a> method.
+Parameter <i>afPeakValues</i> points to a caller-allocated <b>float</b> array. If the stream contains <i>n</i> channels, the channels are numbered 0 to <i>n</i>– 1. The method stores the peak value for each channel in the array element whose array index matches the channel number. To get the number of channels in the audio stream that are monitored by peak meters, call the <a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudiometerinformation-getmeteringchannelcount">IAudioMeterInformation::GetMeteringChannelCount</a> method.
 
 
 
@@ -125,15 +125,15 @@ Parameter <i>afPeakValues</i> points to a caller-allocated <b>float</b> array. I
 
 
 
-<a href="https://msdn.microsoft.com/f2f75fce-9eca-488d-b183-87d97d4e599a">IAudioClient::GetDevicePeriod</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getdeviceperiod">IAudioClient::GetDevicePeriod</a>
 
 
 
-<a href="https://msdn.microsoft.com/eff1c1cd-792b-489a-8381-4b783c57f005">IAudioMeterInformation Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudiometerinformation">IAudioMeterInformation Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/6f1deef6-cc47-4736-b0bb-99afb1966895">IAudioMeterInformation::GetMeteringChannelCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudiometerinformation-getmeteringchannelcount">IAudioMeterInformation::GetMeteringChannelCount</a>
  
 
  

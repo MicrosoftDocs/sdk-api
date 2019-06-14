@@ -68,9 +68,9 @@ The new z-coordinate for the axis vector of rotation.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/8DFBFC34-DBD0-4731-8305-B33E90C96C54">DirectComposition Error Codes</a>  for a list of error codes.
+If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/directcomp/directcomposition-error-codes">DirectComposition Error Codes</a>  for a list of error codes.
 
 
 
@@ -96,15 +96,15 @@ If the AxisZ property was previously animated, this method removes the animation
 
 
 
-<a href="https://msdn.microsoft.com/BEC58B57-66A1-4645-A0B8-D546334E1E23">IDCompositionRotateTransform3D</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionrotatetransform3d">IDCompositionRotateTransform3D</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh448939(v=VS.85).aspx">IDCompositionRotateTransform3D::SetAxisX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setaxisx">IDCompositionRotateTransform3D::SetAxisX</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh448945(v=VS.85).aspx">IDCompositionRotateTransform3D::SetAxisY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setaxisy">IDCompositionRotateTransform3D::SetAxisY</a>
  
 
  

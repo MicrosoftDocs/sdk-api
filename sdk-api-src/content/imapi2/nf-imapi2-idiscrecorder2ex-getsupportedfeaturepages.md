@@ -64,9 +64,9 @@ Set to True to retrieve only current feature pages. Otherwise, False to retrieve
 
 ### -param featureData [out]
 
-Data buffer that contains one or more feature page types. For possible values, see the <a href="https://msdn.microsoft.com/659ed2c9-7c58-4030-be41-273e597d6f1f">IMAPI_FEATURE_PAGE_TYPE</a> enumeration type. 
+Data buffer that contains one or more feature page types. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_feature_page_type">IMAPI_FEATURE_PAGE_TYPE</a> enumeration type. 
 
-To get the feature page data associated with the feature page type, call the <a href="https://msdn.microsoft.com/a3cf0d33-25ea-4764-8fdb-5ef47c7b1e50">IDiscRecorder2Ex::GetFeaturePage</a> method.
+To get the feature page data associated with the feature page type, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getfeaturepage">IDiscRecorder2Ex::GetFeaturePage</a> method.
 
 When done, call the <b>CoTaskMemFree</b> function to free the memory.
 
@@ -397,23 +397,23 @@ Value: 0xC0AA0210
 
 
 
-<a href="https://msdn.microsoft.com/27504cb3-5c78-4fcb-8d37-ce7e6ac2a006">IDiscRecorder2::get_CurrentFeaturePages</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_currentfeaturepages">IDiscRecorder2::get_CurrentFeaturePages</a>
 
 
 
-<a href="https://msdn.microsoft.com/7ee1b58b-0289-42e8-a23d-2600b9dd2e21">IDiscRecorder2::get_SupportedProfiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_supportedprofiles">IDiscRecorder2::get_SupportedProfiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/37e65b57-ec53-405c-a7bd-34c2df15d5d7">IDiscRecorder2Ex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3cf0d33-25ea-4764-8fdb-5ef47c7b1e50">IDiscRecorder2Ex::GetFeaturePage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getfeaturepage">IDiscRecorder2Ex::GetFeaturePage</a>
 
 
 
-<a href="https://msdn.microsoft.com/659ed2c9-7c58-4030-be41-273e597d6f1f">IMAPI_FEATURE_PAGE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_feature_page_type">IMAPI_FEATURE_PAGE_TYPE</a>
  
 
  

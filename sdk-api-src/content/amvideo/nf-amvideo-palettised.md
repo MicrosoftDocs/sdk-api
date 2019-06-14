@@ -59,7 +59,7 @@ The <code>PALETTISED</code> macro checks whether a bitmap has a color depth of 8
 
 ### -param pbmi
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85).aspx">VIDEOINFOHEADER</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader">VIDEOINFOHEADER</a> structure.
 
 
 ## -see-also
@@ -67,15 +67,15 @@ Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85)
 
 
 
-<a href="https://msdn.microsoft.com/e87ab1af-a822-45d8-9326-08b450e11279">ContainsPalette</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/containspalette">ContainsPalette</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377405(v=VS.85).aspx">PALETTE_ENTRIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-palette_entries">PALETTE_ENTRIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/02401edc-362b-4f6c-b10b-c46b30b3ebe7">Video and Image Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-and-image-functions">Video and Image Functions</a>
  
 
  

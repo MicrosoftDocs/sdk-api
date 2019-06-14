@@ -52,7 +52,7 @@ ms.custom: 19H1
 Calling this function advances the reader past a start element skipping any whitespace.
       
         After parsing if the Reader is not positioned on a start element it will return a<b>WS_E_INVALID_FORMAT</b> exception.
-      (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.)
+      (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 
 
 ## -parameters
@@ -68,7 +68,7 @@ A pointer to the <b>XML Reader</b> object used to read the Start element.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 
@@ -115,7 +115,7 @@ A quota was exceeded.
 
 
 
-This function can fail for any of the reasons listed in <a href="https://msdn.microsoft.com/60dacf3e-ebde-4247-be58-835565874ab6">WsReadNode</a>.
+This function can fail for any of the reasons listed in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadnode">WsReadNode</a>.
       
 
 

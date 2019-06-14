@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>GetContext</b> method retrieves a block of bytes that was previously associated with the table of contents by a call to <a href="https://msdn.microsoft.com/45aadac5-6c65-4525-a1fc-b045337a6030">SetContext</a>.
+The <b>GetContext</b> method retrieves a block of bytes that was previously associated with the table of contents by a call to <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itoc-setcontext">SetContext</a>.
 
 
 ## -parameters
@@ -111,7 +111,7 @@ The method returns this error code if <i>pbtContext</i> is not <b>NULL</b> and t
 
 
 
-<a href="https://msdn.microsoft.com/b12d38c7-b80e-4ca8-9ac5-a116100911d0">IToc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a>
  
 
  

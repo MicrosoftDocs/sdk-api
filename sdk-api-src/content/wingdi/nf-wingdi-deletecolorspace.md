@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DeleteColorSpace</b> function removes and destroys a specified <a href="https://msdn.microsoft.com/en-us/library/Dd371818(v=VS.85).aspx">color space</a>.
+The <b>DeleteColorSpace</b> function removes and destroys a specified <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/c">color space</a>.
 
 
 ## -parameters
@@ -82,11 +82,11 @@ If this function fails, the return value is <b>FALSE</b>.
 
 
 
-<a href="https://msdn.microsoft.com/a0623917-0b63-4546-a71a-1e9efa9fe8e5">Basic Color Management Concepts</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
 
 
 
-<a href="https://msdn.microsoft.com/ee9e9502-5514-4070-95fa-265674a1dde7">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions//dd316902(v=vs.85)">Functions</a>
  
 
  

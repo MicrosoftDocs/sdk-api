@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Retrieves the number of alternatives available in the policy object.
             The alternative count can be used to loop through each alternative using
-                <a href="https://msdn.microsoft.com/6e5f352b-5422-4bba-9525-7850bdddf0a5">WsMatchPolicyAlternative</a>.
+                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsmatchpolicyalternative">WsMatchPolicyAlternative</a>.
             
 
 
@@ -68,7 +68,7 @@ Retrieves the number of alternatives available in the policy object.
 
 ### -param policy [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/04623686-5065-4e97-8685-c72f848b92ab">WS_POLICY</a> object from which to count alternatives.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-policy">WS_POLICY</a> object from which to count alternatives.
                 
 
 
@@ -80,7 +80,7 @@ A pointer to the number value of alternatives.  This may be 0.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 

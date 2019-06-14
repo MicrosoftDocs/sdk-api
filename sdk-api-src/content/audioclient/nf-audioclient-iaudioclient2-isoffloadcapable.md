@@ -81,11 +81,11 @@ The <b>IsOffloadCapable</b> method returns <b>S_OK</b> to indicate that it has c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404178(v=VS.85).aspx">AUDIO_STREAM_CATEGORY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiosessiontypes/ne-audiosessiontypes-_audio_stream_category">AUDIO_STREAM_CATEGORY</a>
 
 
 
-<a href="https://msdn.microsoft.com/9CE79CEB-115E-4802-A687-B2CB23E6A0E0">IAudioClient2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient2">IAudioClient2</a>
  
 
  

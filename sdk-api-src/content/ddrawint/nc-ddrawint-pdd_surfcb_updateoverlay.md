@@ -68,7 +68,7 @@ The <b>DdUpdateOverlay</b> callback function repositions or modifies the visual 
 
 #### - lpUpdateOverlay
 
-Points to a <a href="https://msdn.microsoft.com/f9dd3fe3-1295-40c8-83d9-74861945921e">DD_UPDATEOVERLAYDATA</a> structure that contains the information required to update the overlay.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_updateoverlaydata">DD_UPDATEOVERLAYDATA</a> structure that contains the information required to update the overlay.
 
 
 ## -returns
@@ -90,7 +90,7 @@ The driver should determine whether it has the bandwidth to support the overlay 
 
 The driver/hardware must stretch or shrink the overlay accordingly when the rectangles specified by the <b>rDest</b> and <b>rSrc</b> members of DD_UPDATEOVERLAYDATA are different sizes.
 
-Note that <a href="https://msdn.microsoft.com/4ce2e967-7b4a-4065-844d-d8852dec8a8f">DdFlip</a> is used for flipping between overlay surfaces, so performance for <b>DdUpdateOverlay</b> is not critical.
+Note that <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_flip">DdFlip</a> is used for flipping between overlay surfaces, so performance for <b>DdUpdateOverlay</b> is not critical.
 
 
 
@@ -100,19 +100,19 @@ Note that <a href="https://msdn.microsoft.com/4ce2e967-7b4a-4065-844d-d8852dec8a
 
 
 
-<a href="https://msdn.microsoft.com/f9dd3fe3-1295-40c8-83d9-74861945921e">DD_UPDATEOVERLAYDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_updateoverlaydata">DD_UPDATEOVERLAYDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ce2e967-7b4a-4065-844d-d8852dec8a8f">DdFlip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_flip">DdFlip</a>
 
 
 
-<a href="https://msdn.microsoft.com/4b4ee889-15c8-4a7c-a9d8-adab27b271dd">DdSetColorKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_setcolorkey">DdSetColorKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/0bafdeea-d06d-4c25-9ee5-b7df23d7dd20">DdSetOverlayPosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_setoverlayposition">DdSetOverlayPosition</a>
  
 
  

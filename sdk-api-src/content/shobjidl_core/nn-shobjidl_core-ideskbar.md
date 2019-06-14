@@ -56,7 +56,7 @@ Exposes methods that enable desk bar manipulation.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDeskBar</b> interface inherits from <a href="https://msdn.microsoft.com/2d0efbae-4a1c-43b1-9021-8d89377f7282">IOleWindow</a>. <b>IDeskBar</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDeskBar</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>. <b>IDeskBar</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDeskBar</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/003b400c-03a4-47c0-a6b8-04aa65ac573c">GetClient</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ideskbar-getclient">GetClient</a>
 </td>
 <td align="left" width="63%">
 Gets the client object.
@@ -80,7 +80,7 @@ Gets the client object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a66093e1-4b91-4edd-abee-0043b437a5f6">OnPosRectChangeDB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ideskbar-onposrectchangedb">OnPosRectChangeDB</a>
 </td>
 <td align="left" width="63%">
 Notifies the object that the rectangle has changed.
@@ -89,7 +89,7 @@ Notifies the object that the rectangle has changed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/26655738-a2d5-446c-af7f-866b34beb3ab">SetClient</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ideskbar-setclient">SetClient</a>
 </td>
 <td align="left" width="63%">
 Sets the client specified by <i>punkClient</i>.

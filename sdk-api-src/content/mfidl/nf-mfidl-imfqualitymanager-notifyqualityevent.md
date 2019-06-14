@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Called when a pipeline component sends an <a href="https://msdn.microsoft.com/1b4b6a2d-411e-42d1-a44b-bb1928e1c063">MEQualityNotify</a> event.
+Called when a pipeline component sends an <a href="https://docs.microsoft.com/windows/desktop/medfound/mequalitynotify">MEQualityNotify</a> event.
 
 
 
@@ -68,7 +68,7 @@ Pointer to the <b>IUnknown</b> interface of the object that sent the event. The 
 
 ### -param pEvent [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/b4f686be-9472-433c-b983-6c48dfd3ac76">IMFMediaEvent</a> interface of the event.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaevent">IMFMediaEvent</a> interface of the event.
 
 
 ## -returns
@@ -104,7 +104,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/66781a1f-7469-4222-9e99-6b1415830f4c">IMFQualityManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfqualitymanager">IMFQualityManager</a>
  
 
  

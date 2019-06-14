@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains values that specify the location of a docking window represented by the <a href="https://msdn.microsoft.com/a6ea269b-632e-48ce-ac3b-edd7cc34d986">Dock</a> <i>control pattern</i>.
+Contains values that specify the location of a docking window represented by the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingdock">Dock</a> <i>control pattern</i>.
 
 
 ## -enum-fields
@@ -92,7 +92,7 @@ The window is not docked.
 
 
 
-<a href="https://msdn.microsoft.com/106ca4b4-1304-4942-88a4-79a3895b552f">IDockProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-idockprovider">IDockProvider</a>
  
 
  

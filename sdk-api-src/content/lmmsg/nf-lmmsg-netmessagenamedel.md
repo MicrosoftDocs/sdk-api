@@ -182,21 +182,21 @@ Only members of the Administrators local group can successfully execute the
 
 
 
-<a href="https://msdn.microsoft.com/9face737-3472-4a53-97b6-e861a60ee96a">Message
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/message-functions">Message
 		  Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/5330e883-5439-46af-b4ae-b0926feadb70">NetMessageNameAdd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmmsg/nf-lmmsg-netmessagenameadd">NetMessageNameAdd</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd159e2e-f37e-46b2-b980-008b73d40b39">Network
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
  
 

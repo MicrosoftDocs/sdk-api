@@ -142,19 +142,19 @@ Error return values. Use this member if your application does not support an err
 
 ### -field wNumVideoAllocated
 
-Number of video buffers allocated. This value might be less than the number specified in the <b>wNumVideoRequested</b> member of the <a href="https://msdn.microsoft.com/6bf7e374-5991-4a7b-984a-628d3e77b2d7">CAPTUREPARMS</a> structure.
+Number of video buffers allocated. This value might be less than the number specified in the <b>wNumVideoRequested</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-tagcaptureparms">CAPTUREPARMS</a> structure.
 
 
 ### -field wNumAudioAllocated
 
-Number of audio buffers allocated. This value might be less than the number specified in the <b>wNumAudioRequested</b> member of the <a href="https://msdn.microsoft.com/6bf7e374-5991-4a7b-984a-628d3e77b2d7">CAPTUREPARMS</a> structure.
+Number of audio buffers allocated. This value might be less than the number specified in the <b>wNumAudioRequested</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-tagcaptureparms">CAPTUREPARMS</a> structure.
 
 
 ## -remarks
 
 
 
-Because the state of a capture window changes in response to various messages, an application should update the information in this structure whenever it needs to enable menu items, determine the actual state of the capture window, or call the video format dialog box. If the application yields during streaming capture, this structure returns the progress of the capture in the <b>dwCurrentVideoFrame</b>, <b>dwCurrentVideoFramesDropped</b>, dwCurre<b></b>ntWaveSamples, and <b>dwCurrentTimeElapsedMS</b> members. Use the <a href="https://msdn.microsoft.com/31349599-a52c-45ba-8f08-91008773f317">WM_CAP_GET_STATUS</a> message or <a href="https://msdn.microsoft.com/5c974707-b6ca-4177-a262-6838d308fb0a">capGetStatus</a> macro to update the contents of this structure.
+Because the state of a capture window changes in response to various messages, an application should update the information in this structure whenever it needs to enable menu items, determine the actual state of the capture window, or call the video format dialog box. If the application yields during streaming capture, this structure returns the progress of the capture in the <b>dwCurrentVideoFrame</b>, <b>dwCurrentVideoFramesDropped</b>, dwCurre<b></b>ntWaveSamples, and <b>dwCurrentTimeElapsedMS</b> members. Use the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-get-status">WM_CAP_GET_STATUS</a> message or <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capgetstatus">capGetStatus</a> macro to update the contents of this structure.
 
 
 
@@ -164,7 +164,7 @@ Because the state of a capture window changes in response to various messages, a
 
 
 
-<a href="https://msdn.microsoft.com/6bf7e374-5991-4a7b-984a-628d3e77b2d7">CAPTUREPARMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-tagcaptureparms">CAPTUREPARMS</a>
 
 
 
@@ -172,11 +172,11 @@ Video Capture
 
 
 
-<a href="https://msdn.microsoft.com/180010d2-240e-433d-b306-341b9b1e0b57">Video Capture Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-structures">Video Capture Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/31349599-a52c-45ba-8f08-91008773f317">WM_CAP_GET_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-get-status">WM_CAP_GET_STATUS</a>
  
 
  

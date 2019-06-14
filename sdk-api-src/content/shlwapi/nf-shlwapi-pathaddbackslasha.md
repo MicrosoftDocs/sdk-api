@@ -58,7 +58,7 @@ ms.custom: 19H1
 Adds a backslash to the end of a string to create the correct syntax for a path. If the source path already has a trailing backslash, no backslash will be added.
 
             
-<div class="alert"><b>Note</b>  Misuse of this function can lead to a buffer overrun. We recommend the use of the safer <a href="https://msdn.microsoft.com/b50677cd-8815-4d84-b70a-c83863378c56">PathCchAddBackslash</a> or <a href="https://msdn.microsoft.com/89adf45f-f16d-49d1-9e76-b57b73b4d4c3">PathCchAddBackslashEx</a> function in its place.</div><div> </div>
+<div class="alert"><b>Note</b>  Misuse of this function can lead to a buffer overrun. We recommend the use of the safer <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchaddbackslash">PathCchAddBackslash</a> or <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchaddbackslashex">PathCchAddBackslashEx</a> function in its place.</div><div> </div>
 
 ## -parameters
 

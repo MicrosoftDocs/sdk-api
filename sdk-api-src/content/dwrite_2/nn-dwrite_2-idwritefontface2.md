@@ -60,7 +60,7 @@ This interface adds the ability to check if a color rendering path is potentiall
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontFace1</b> interface inherits from <a href="https://msdn.microsoft.com/1DB7156F-0578-46A0-8C96-E1E34FF4E49E">IDWriteFontFace1</a>. <b>IDWriteFontFace2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontFace1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritefontface1">IDWriteFontFace1</a>. <b>IDWriteFontFace2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IDWriteFontFace1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/99BB9C72-99B1-427C-B740-55A138189459">GetColorPaletteCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritefontface2-getcolorpalettecount">GetColorPaletteCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of color palettes defined by the font. 
@@ -84,7 +84,7 @@ Gets the number of color palettes defined by the font.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4678E96C-A5E6-4294-8927-B71F55149342">GetPaletteEntries</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritefontface2-getpaletteentries">GetPaletteEntries</a>
 </td>
 <td align="left" width="63%">
 Gets color values from the font's color palette.
@@ -93,7 +93,7 @@ Gets color values from the font's color palette.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7DFB0D3F-18E8-44AA-A7DA-4B9D971D3C35">GetPaletteEntryCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritefontface2-getpaletteentrycount">GetPaletteEntryCount</a>
 </td>
 <td align="left" width="63%">
 Get the number of entries in each color palette.
@@ -102,7 +102,7 @@ Get the number of entries in each color palette.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/351E9A18-CD14-421F-931F-7F25FBCA6B83">GetRecommendedRenderingMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritefontface2-getrecommendedrenderingmode">GetRecommendedRenderingMode</a>
 </td>
 <td align="left" width="63%">
 Determines the recommended text rendering and grid-fit mode to be used based on the font, size, world transform, and measuring mode.
@@ -111,7 +111,7 @@ Determines the recommended text rendering and grid-fit mode to be used based on 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/77D509D4-355F-4D2F-B71B-D9DF75E19362">IsColorFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritefontface2-iscolorfont">IsColorFont</a>
 </td>
 <td align="left" width="63%">
 Allows you to determine if a color rendering path is potentially necessary.
@@ -126,7 +126,7 @@ Allows you to determine if a color rendering path is potentially necessary.
 
 
 
-<a href="https://msdn.microsoft.com/1DB7156F-0578-46A0-8C96-E1E34FF4E49E">IDWriteFontFace1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritefontface1">IDWriteFontFace1</a>
  
 
  

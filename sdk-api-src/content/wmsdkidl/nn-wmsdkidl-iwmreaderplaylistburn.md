@@ -59,7 +59,7 @@ An <b>IWMReaderPlaylistBurn</b> interface exists for every instance of the reade
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMReaderPlaylistBurn</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMReaderPlaylistBurn</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMReaderPlaylistBurn</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMReaderPlaylistBurn</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IWMReaderPlaylistBurn</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743556(v=VS.85).aspx">Cancel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderplaylistburn-cancel">Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels an initiated playlist burn.
@@ -83,7 +83,7 @@ Cancels an initiated playlist burn.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743558(v=VS.85).aspx">EndPlaylistBurn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderplaylistburn-endplaylistburn">EndPlaylistBurn</a>
 </td>
 <td align="left" width="63%">
 Ends the playlist burning process, releasing any resources and updating counts for any DRM licenses involved.
@@ -92,7 +92,7 @@ Ends the playlist burning process, releasing any resources and updating counts f
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743560(v=VS.85).aspx">GetInitResults</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderplaylistburn-getinitresults">GetInitResults</a>
 </td>
 <td align="left" width="63%">
 Retrieves the results of the playlist file check. This check is initiated by the <b>InitPlaylistBurn</b> method.
@@ -101,7 +101,7 @@ Retrieves the results of the playlist file check. This check is initiated by the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743563(v=VS.85).aspx">InitPlaylistBurn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderplaylistburn-initplaylistburn">InitPlaylistBurn</a>
 </td>
 <td align="left" width="63%">
 Starts the playlist file check.
@@ -116,7 +116,7 @@ Starts the playlist file check.
 
 
 
-<a href="https://msdn.microsoft.com/c61a0739-09f2-497f-a2cd-d3f2472738e3">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
  
 
  

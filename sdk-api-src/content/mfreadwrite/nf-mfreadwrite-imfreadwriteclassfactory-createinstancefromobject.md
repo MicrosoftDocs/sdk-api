@@ -72,7 +72,7 @@ The CLSID of the object to create.
 </dl>
 </td>
 <td width="60%">
-Create the sink writer. The <i>ppvObject</i> parameter receives an <a href="https://msdn.microsoft.com/76fb915e-1586-429a-88a5-bd1290799352">IMFSinkWriter</a> interface pointer.
+Create the sink writer. The <i>ppvObject</i> parameter receives an <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwriter">IMFSinkWriter</a> interface pointer.
 
 </td>
 </tr>
@@ -82,7 +82,7 @@ Create the sink writer. The <i>ppvObject</i> parameter receives an <a href="http
 </dl>
 </td>
 <td width="60%">
-Create the source reader. The <i>ppvObject</i> parameter receives an <a href="https://msdn.microsoft.com/7d3cc314-6b9e-437c-afda-ee1965a12721">IMFSourceReader</a> interface pointer.
+Create the source reader. The <i>ppvObject</i> parameter receives an <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a> interface pointer.
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ A pointer to the <b>IUnknown</b> interface of an object that is used to initiali
 </tr>
 <tr>
 <td width="40%"><a id="IMFByteStream"></a><a id="imfbytestream"></a><a id="IMFBYTESTREAM"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/690035b7-2855-4714-938f-f8250ec70d24">IMFByteStream</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -115,7 +115,7 @@ If <i>clsid</i> is <b>CLSID_MFSourceReader</b>, this byte stream provides the so
 </tr>
 <tr>
 <td width="40%"><a id="IMFMediaSink"></a><a id="imfmediasink"></a><a id="IMFMEDIASINK"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/103e6fd8-a18f-480a-8261-099623014659">IMFMediaSink</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasink">IMFMediaSink</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -125,7 +125,7 @@ Pointer to a media sink. Applies only when <i>clsid</i> is <b>CLSID_MFSinkWriter
 </tr>
 <tr>
 <td width="40%"><a id="IMFMediaSource"></a><a id="imfmediasource"></a><a id="IMFMEDIASOURCE"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/8b579f61-6fea-4b20-a051-7633fc01fa05">IMFMediaSource</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -139,14 +139,14 @@ Pointer to a media source. Applies only when <i>clsid</i> is <b>CLSID_MFSourceRe
 
 ### -param pAttributes [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> interface. You can use this parameter to configure the sink writer or source reader. For more information, see the following topics:
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. You can use this parameter to configure the sink writer or source reader. For more information, see the following topics:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/f27b9beb-f35f-400e-a337-50d9de21e91e">Sink Writer Attributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/sink-writer-attributes">Sink Writer Attributes</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/312a588a-848b-4563-893a-fac49a4ca465">Source Reader Attributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/source-reader-attributes">Source Reader Attributes</a>
 </li>
 </ul>
 This parameter can be <b>NULL</b>.
@@ -185,7 +185,7 @@ This interface is available on Windows Vista if Platform Update Supplement for 
 
 
 
-<a href="https://msdn.microsoft.com/83ef0f0a-ae60-474d-a9e7-7c83a73f6255">IMFReadWriteClassFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfreadwriteclassfactory">IMFReadWriteClassFactory</a>
  
 
  

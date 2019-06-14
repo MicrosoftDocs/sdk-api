@@ -54,7 +54,7 @@ Enables a pipeline object to adjust its own audio or video quality, in response 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFQualityAdvise2</b> interface inherits from <a href="https://msdn.microsoft.com/20681ce7-e07e-4e34-9238-ec23cc6bfc84">IMFQualityAdvise</a>. <b>IMFQualityAdvise2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFQualityAdvise2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise">IMFQualityAdvise</a>. <b>IMFQualityAdvise2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,10 +69,10 @@ The <b>IMFQualityAdvise2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7e39d421-1e7c-4b6d-beba-e24429271378">NotifyQualityEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfqualityadvise2-notifyqualityevent">NotifyQualityEvent</a>
 </td>
 <td align="left" width="63%">
-Forwards an <a href="https://msdn.microsoft.com/1b4b6a2d-411e-42d1-a44b-bb1928e1c063">MEQualityNotify</a> event from the media sink.
+Forwards an <a href="https://docs.microsoft.com/windows/desktop/medfound/mequalitynotify">MEQualityNotify</a> event from the media sink.
 
 </td>
 </tr>
@@ -85,9 +85,9 @@ Forwards an <a href="https://msdn.microsoft.com/1b4b6a2d-411e-42d1-a44b-bb1928e1
 
 This interface enables a pipeline object to respond to quality messages from the media sink. Currently, it is supported only for video decoders.
 
-If a video decoder exposes <a href="https://msdn.microsoft.com/20681ce7-e07e-4e34-9238-ec23cc6bfc84">IMFQualityAdvise</a> but not <b>IMFQualityAdvise2</b>, the quality manager controls quality adjustments for the decoder. In this case, the quality manager responds to <a href="https://msdn.microsoft.com/1b4b6a2d-411e-42d1-a44b-bb1928e1c063">MEQualityNotify</a> events from the Enhanced Video Renderer (EVR) by calling <b>IMFQualityAdvise</b> methods on the decoder.
+If a video decoder exposes <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise">IMFQualityAdvise</a> but not <b>IMFQualityAdvise2</b>, the quality manager controls quality adjustments for the decoder. In this case, the quality manager responds to <a href="https://docs.microsoft.com/windows/desktop/medfound/mequalitynotify">MEQualityNotify</a> events from the Enhanced Video Renderer (EVR) by calling <b>IMFQualityAdvise</b> methods on the decoder.
 
-If the decoder exposes <b>IMFQualityAdvise2</b>, the quality manager forwards the <a href="https://msdn.microsoft.com/1b4b6a2d-411e-42d1-a44b-bb1928e1c063">MEQualityNotify</a> events to the decoder and does not adjust the decoder's quality settings. The decoder should respond to these events by adjusting its own quality settings internally.
+If the decoder exposes <b>IMFQualityAdvise2</b>, the quality manager forwards the <a href="https://docs.microsoft.com/windows/desktop/medfound/mequalitynotify">MEQualityNotify</a> events to the decoder and does not adjust the decoder's quality settings. The decoder should respond to these events by adjusting its own quality settings internally.
 
 The preceding remarks apply to the default implementation of the quality manager; custom quality managers can implement other behaviors.
 
@@ -101,11 +101,11 @@ This interface is available on Windows Vista if Platform Update Supplement for 
 
 
 
-<a href="https://msdn.microsoft.com/20681ce7-e07e-4e34-9238-ec23cc6bfc84">IMFQualityAdvise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise">IMFQualityAdvise</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

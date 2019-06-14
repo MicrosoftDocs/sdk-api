@@ -57,7 +57,7 @@ When a user right-clicks items that belong to a snap-in and are also in the scop
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExtendContextMenu</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IExtendContextMenu</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExtendContextMenu</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExtendContextMenu</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IExtendContextMenu</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d4fc7bfd-b017-466e-81f2-74f13aec4b52">AddMenuItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendcontextmenu-addmenuitems">AddMenuItems</a>
 </td>
 <td align="left" width="63%">
 Enables the extension to add menu items.
@@ -81,7 +81,7 @@ Enables the extension to add menu items.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ee91a737-c6b4-48a1-88a2-57bef3730f5e">Command</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendcontextmenu-command">Command</a>
 </td>
 <td align="left" width="63%">
 Indicates that an extension item on a context menu was selected.
@@ -96,15 +96,15 @@ Indicates that an extension item on a context menu was selected.
 
 
 
-<a href="https://msdn.microsoft.com/141a650f-a829-47b1-abf9-427302d98444">IContextMenuCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenucallback">IContextMenuCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/b76b40da-1ab7-4b43-9c7e-03b901a6db3f">Working with Context Menus</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/working-with-context-menus">Working with Context Menus</a>
  
 
  

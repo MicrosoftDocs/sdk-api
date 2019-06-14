@@ -59,7 +59,7 @@ The <b>PEER_GROUP_PROPERTY_FLAGS</b>  flags are used to specify various peer gro
 
 ### -field PEER_MEMBER_DATA_OPTIONAL
 
-A peer's member data (<a href="https://msdn.microsoft.com/b8bd0e17-6af7-426d-ba38-11ff4948cf67">PEER_MEMBER</a>) is only published  when an action if performed, such as publishing a record  or issuing a GMC. If the peer has not performed one of these actions, the membership data will not be available.
+A peer's member data (<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_member_tag">PEER_MEMBER</a>) is only published  when an action if performed, such as publishing a record  or issuing a GMC. If the peer has not performed one of these actions, the membership data will not be available.
 
 
 ### -field PEER_DISABLE_PRESENCE
@@ -86,7 +86,7 @@ These flags can only be set by the peer group creator.
 
 
 
-<a href="https://msdn.microsoft.com/b8bd0e17-6af7-426d-ba38-11ff4948cf67">PEER_MEMBER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_member_tag">PEER_MEMBER</a>
  
 
  

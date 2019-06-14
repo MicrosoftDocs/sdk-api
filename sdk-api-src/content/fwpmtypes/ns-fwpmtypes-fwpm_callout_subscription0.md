@@ -59,7 +59,7 @@ The <b>FWPM_CALLOUT_SUBSCRIPTION0</b> structure is used to subscribe for change 
 
 ### -field enumTemplate
 
- A <a href="https://msdn.microsoft.com/10997be6-069d-4d1a-a6b1-1a1e0a5359c5">FWPM_CALLOUT_ENUM_TEMPLATE0</a> structure that is used to limit the subscription.
+ A <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout_enum_template0_">FWPM_CALLOUT_ENUM_TEMPLATE0</a> structure that is used to limit the subscription.
 
 
 ### -field flags
@@ -109,7 +109,7 @@ Notifications are only dispatched for callouts that match the template.
 If
    the template is <b>NULL</b>, it matches all callouts.
 
-<b>FWPM_CALLOUT_SUBSCRIPTION0</b> is a specific implementation of FWPM_CALLOUT_SUBSCRIPTION. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FWPM_CALLOUT_SUBSCRIPTION0</b> is a specific implementation of FWPM_CALLOUT_SUBSCRIPTION. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -119,11 +119,11 @@ If
 
 
 
-<a href="https://msdn.microsoft.com/10997be6-069d-4d1a-a6b1-1a1e0a5359c5">FWPM_CALLOUT_ENUM_TEMPLATE0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout_enum_template0_">FWPM_CALLOUT_ENUM_TEMPLATE0</a>
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

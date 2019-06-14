@@ -55,7 +55,7 @@ Used to create and access the shared properties in a shared property group.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISharedPropertyGroup</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ISharedPropertyGroup</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISharedPropertyGroup</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ISharedPropertyGroup</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ISharedPropertyGroup</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bc34ec47-b39f-49fd-a8dd-8c96bb708e88">CreateProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isharedpropertygroup-createproperty">CreateProperty</a>
 </td>
 <td align="left" width="63%">
 Creates a new shared property with the specified name.
@@ -79,7 +79,7 @@ Creates a new shared property with the specified name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/47e0e230-0952-4afb-a757-af387a7cddfb">CreatePropertyByPosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isharedpropertygroup-createpropertybyposition">CreatePropertyByPosition</a>
 </td>
 <td align="left" width="63%">
 Creates a new shared property with the specified index.
@@ -88,7 +88,7 @@ Creates a new shared property with the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ffbd82a8-35d5-4c9b-bf03-91f48dddc189">get_Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isharedpropertygroup-get_property">get_Property</a>
 </td>
 <td align="left" width="63%">
 Retrieves a reference to an existing shared property with the specified name.
@@ -97,7 +97,7 @@ Retrieves a reference to an existing shared property with the specified name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/186cbf9f-a01b-4331-9f18-645d9e47f106">get_PropertyByPosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isharedpropertygroup-get_propertybyposition">get_PropertyByPosition</a>
 </td>
 <td align="left" width="63%">
 Retrieves a reference to an existing shared property with the specified index.
@@ -112,11 +112,11 @@ Retrieves a reference to an existing shared property with the specified index.
 
 
 
-<a href="https://msdn.microsoft.com/d3c3e888-fe08-4ea6-b94c-fdfcbe7fd08a">ISharedProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isharedproperty">ISharedProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/71c0a1de-5ea5-4496-b0e9-56d0cc8129a9">ISharedPropertyGroupManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isharedpropertygroupmanager">ISharedPropertyGroupManager</a>
  
 
  

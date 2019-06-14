@@ -65,7 +65,7 @@ Converts a time in Coordinated Universal Time (UTC) to a specified time zone's c
 ### -param lpTimeZoneInformation [in, optional]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004">TIME_ZONE_INFORMATION</a> structure that specifies the time zone of interest. 
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-_time_zone_information">TIME_ZONE_INFORMATION</a> structure that specifies the time zone of interest. 
 
 
 
@@ -76,13 +76,13 @@ If <i>lpTimeZone</i> is <b>NULL</b>, the function uses the currently active time
 ### -param lpUniversalTime [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure that specifies the UTC time to be converted. The function converts this universal time to the specified time zone's corresponding local time.
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that specifies the UTC time to be converted. The function converts this universal time to the specified time zone's corresponding local time.
 
 
 ### -param lpLocalTime [out]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure that receives the local time.
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that receives the local time.
 
 
 ## -returns
@@ -90,10 +90,10 @@ A pointer to a
 
 
 If the function succeeds, the return value is nonzero, and the function sets the members of the 
-<a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure pointed to by <i>lpLocalTime</i> to the appropriate local time values.
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure pointed to by <i>lpLocalTime</i> to the appropriate local time values.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -113,7 +113,7 @@ The <b>SystemTimeToTzSpecificLocalTime</b> function may calculate the local time
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/54509a35-fa6a-4ee6-90f8-36c9ef55e1bc">Retrieving the Last-Write Time</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/retrieving-the-last-write-time">Retrieving the Last-Write Time</a>.
 
 <div class="code"></div>
 
@@ -124,31 +124,31 @@ For an example, see <a href="https://msdn.microsoft.com/54509a35-fa6a-4ee6-90f8-
 
 
 
-<a href="https://msdn.microsoft.com/9ed8386b-f035-446f-b0f8-12e0d3f23aac">GetSystemTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemtime">GetSystemTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d7601a5-6d22-4b1a-a222-9db46d21a3c7">GetTimeZoneInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-gettimezoneinformation">GetTimeZoneInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a>
 
 
 
-<a href="https://msdn.microsoft.com/1a1e251e-2375-4134-bbd8-1e4670b9f9d2">System Time</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-time">System Time</a>
 
 
 
-<a href="https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004">TIME_ZONE_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-_time_zone_information">TIME_ZONE_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/3733f611-c6a1-4d48-b21e-ada3490c5de1">Time Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/time-functions">Time Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d671499a-027d-4b1f-ae16-8b1978eb9783">TzSpecificLocalTimeToSystemTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-tzspecificlocaltimetosystemtime">TzSpecificLocalTimeToSystemTime</a>
  
 
  

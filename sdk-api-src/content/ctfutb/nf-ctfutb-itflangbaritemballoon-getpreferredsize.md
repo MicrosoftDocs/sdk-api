@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ### -param pszDefault [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a> structure that contains the default size, in pixels, of the balloon.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a> structure that contains the default size, in pixels, of the balloon.
 
 
 ### -param psz [out]
@@ -100,7 +100,7 @@ The method was successful.
 
 This method is required. The balloon must supply the preferred size in response to this method.
 
-To obtain the font used to draw the balloon, call <a href="https://msdn.microsoft.com/b14ddc05-7e7b-4fc6-b7e3-efe892df7e21">GetStockObject</a> with DEFAULT_GUI_FONT. This font can be used to calculate the preferred balloon size at runtime.
+To obtain the font used to draw the balloon, call <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getstockobject">GetStockObject</a> with DEFAULT_GUI_FONT. This font can be used to calculate the preferred balloon size at runtime.
 
 If the ballon text will not fit into the preferred size obtained from this method, the language bar truncates the text and adds an ellipses to the text.
 
@@ -112,15 +112,15 @@ If the ballon text will not fit into the preferred size obtained from this metho
 
 
 
-<a href="https://msdn.microsoft.com/b14ddc05-7e7b-4fc6-b7e3-efe892df7e21">GetStockObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getstockobject">GetStockObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/619a6f21-fbac-455c-a702-0302ce13112b">ITfLangBarItemBalloon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritemballoon">ITfLangBarItemBalloon</a>
 
 
 
-<a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a>
+<a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a>
  
 
  

@@ -59,39 +59,39 @@ Stencil operations that can be performed based on the results of stencil test.
 
 ### -field StencilFailOp
 
-Type: <b><a href="https://msdn.microsoft.com/4a08ce69-a3e1-43d3-bf7e-e14b106fbecf">D3D11_STENCIL_OP</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_stencil_op">D3D11_STENCIL_OP</a></b>
 
 The stencil operation to perform when stencil testing fails.
 
 
 ### -field StencilDepthFailOp
 
-Type: <b><a href="https://msdn.microsoft.com/4a08ce69-a3e1-43d3-bf7e-e14b106fbecf">D3D11_STENCIL_OP</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_stencil_op">D3D11_STENCIL_OP</a></b>
 
 The stencil operation to perform when stencil testing passes and depth testing fails.
 
 
 ### -field StencilPassOp
 
-Type: <b><a href="https://msdn.microsoft.com/4a08ce69-a3e1-43d3-bf7e-e14b106fbecf">D3D11_STENCIL_OP</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_stencil_op">D3D11_STENCIL_OP</a></b>
 
 The stencil operation to perform when stencil testing and depth testing both pass.
 
 
 ### -field StencilFunc
 
-Type: <b><a href="https://msdn.microsoft.com/3546c7b8-ae25-4554-85e2-527433a74a94">D3D11_COMPARISON_FUNC</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_comparison_func">D3D11_COMPARISON_FUNC</a></b>
 
-A function that compares stencil data against existing stencil data. The function options are listed in <a href="https://msdn.microsoft.com/3546c7b8-ae25-4554-85e2-527433a74a94">D3D11_COMPARISON_FUNC</a>.
+A function that compares stencil data against existing stencil data. The function options are listed in <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_comparison_func">D3D11_COMPARISON_FUNC</a>.
 
 
 ## -remarks
 
 
 
-All stencil operations are specified as a <a href="https://msdn.microsoft.com/4a08ce69-a3e1-43d3-bf7e-e14b106fbecf">D3D11_STENCIL_OP</a>. The stencil operation can be set differently based on the outcome of the stencil test (which is referred to as <b>StencilFunc</b> in the stencil test portion of depth-stencil testing.
+All stencil operations are specified as a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_stencil_op">D3D11_STENCIL_OP</a>. The stencil operation can be set differently based on the outcome of the stencil test (which is referred to as <b>StencilFunc</b> in the stencil test portion of depth-stencil testing.
 
-This structure is a member of a <a href="https://msdn.microsoft.com/5e136ca8-8655-4c75-9bc0-bcf3a7af930a">depth-stencil description</a>. 
+This structure is a member of a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_depth_stencil_desc">depth-stencil description</a>. 
 
 
 
@@ -101,7 +101,7 @@ This structure is a member of a <a href="https://msdn.microsoft.com/5e136ca8-865
 
 
 
-<a href="https://msdn.microsoft.com/2a45182a-7114-4075-b8b8-147f52fe7aa9">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-structures">Core Structures</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>AddOperation</b> method adds the <a href="https://msdn.microsoft.com/054fa4aa-70be-4618-a635-3941c830ea4e">IAzOperation</a> object with the specified name to the role.
+The <b>AddOperation</b> method adds the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object with the specified name to the role.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>AddOperation</b> method adds the <a href="https://msdn.microsoft.com/054f
 
 ### -param bstrProp [in]
 
-Name of the <a href="https://msdn.microsoft.com/054fa4aa-70be-4618-a635-3941c830ea4e">IAzOperation</a> object to add to the role.
+Name of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object to add to the role.
 
 
 ### -param varReserved [in, optional]
@@ -72,7 +72,7 @@ Reserved for future use.
 
 
 
-You must call the <a href="https://msdn.microsoft.com/97f2018a-92f0-4ebb-85f1-78c140003d8f">Submit</a> method to persist any changes made by this method.
+You must call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-submit">Submit</a> method to persist any changes made by this method.
 
 
 

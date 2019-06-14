@@ -51,11 +51,11 @@ ms.custom: 19H1
 ## -description
 
 
-Returns a list of the computer names associated with counters in a log file. The computer names were either specified when adding counters to the query or when calling the <a href="https://msdn.microsoft.com/8f8b4651-b550-4b34-bb2f-d2497c56b572">PdhConnectMachine</a> function. The computers listed include those that are currently connected and online, in addition to those that are offline or not returning performance data.
+Returns a list of the computer names associated with counters in a log file. The computer names were either specified when adding counters to the query or when calling the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhconnectmachinea">PdhConnectMachine</a> function. The computers listed include those that are currently connected and online, in addition to those that are offline or not returning performance data.
 			
 
 To use handles to data sources, use the 
-<a href="https://msdn.microsoft.com/7e8dc113-76a7-4a7a-bbad-1a4387831501">PdhEnumMachinesH</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhenummachinesha">PdhEnumMachinesH</a> function.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ To use handles to data sources, use the
 
 ### -param szDataSource [in]
 
-<b>Null</b>-terminated string that specifies the name of a log file. The function enumerates the names of the computers whose counter data is in the log file. If <b>NULL</b>, the function enumerates the list of computers that were specified when adding counters to a real time query or when calling the <a href="https://msdn.microsoft.com/8f8b4651-b550-4b34-bb2f-d2497c56b572">PdhConnectMachine</a> function.
+<b>Null</b>-terminated string that specifies the name of a log file. The function enumerates the names of the computers whose counter data is in the log file. If <b>NULL</b>, the function enumerates the list of computers that were specified when adding counters to a real time query or when calling the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhconnectmachinea">PdhConnectMachine</a> function.
 
 
 ### -param mszMachineList [out]
@@ -86,8 +86,8 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> or a 
-<a href="https://msdn.microsoft.com/ea67d798-81db-44ad-b0fb-24e0c3be7388">PDH error code</a>. The following are possible values.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
 
 <table>
 <tr>
@@ -136,11 +136,11 @@ You should call this function twice, the first time to get the required buffer s
 
 
 
-<a href="https://msdn.microsoft.com/8f8b4651-b550-4b34-bb2f-d2497c56b572">PdhConnectMachine</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhconnectmachinea">PdhConnectMachine</a>
 
 
 
-<a href="https://msdn.microsoft.com/7e8dc113-76a7-4a7a-bbad-1a4387831501">PdhEnumMachinesH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhenummachinesha">PdhEnumMachinesH</a>
  
 
  

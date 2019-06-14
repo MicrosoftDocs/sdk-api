@@ -82,11 +82,11 @@ By default, touch prediction is activated.
 
 
 
-<a href="https://msdn.microsoft.com/0123DCD0-DAE1-4AC2-AB36-23D114803138">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/4F7F2B51-B65E-4699-A0FF-55A9A3AF4B61">TouchPredictionParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagtouchpredictionparameters">TouchPredictionParameters</a>
  
 
  

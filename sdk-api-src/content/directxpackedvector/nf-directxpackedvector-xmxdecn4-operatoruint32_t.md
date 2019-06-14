@@ -52,7 +52,7 @@ ms.custom: 19H1
 Returns an instance of <code>uint32_t</code> containing the components of the <code>XMXDECN4</code>instance in a packed format.
     
 
-Returns an instance of <code>uint32_t</code> containing the components of the <a href="https://msdn.microsoft.com/en-us/library/Ee421408(v=VS.85).aspx">XMXDECN4</a> instance in a packed format.
+Returns an instance of <code>uint32_t</code> containing the components of the <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdecn4">XMXDECN4</a> instance in a packed format.
 <div class="alert"><b>Note</b>  This operator is only available under C++.</div><div> </div>
 
 ## -parameters
@@ -117,11 +117,11 @@ The last 2 bits (bits 30-31) of the return value are the <b>w</b> component
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee421408(v=VS.85).aspx">XMXDECN4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdecn4">XMXDECN4</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415549(v=VS.85).aspx">XMXDECN4 Operators</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmxdecn4-operators">XMXDECN4 Operators</a>
  
 
  

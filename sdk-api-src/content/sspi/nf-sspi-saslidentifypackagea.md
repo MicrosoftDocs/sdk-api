@@ -61,12 +61,12 @@ The <b>SaslIdentifyPackage</b> function returns the  negotiate prefix that match
 
 ### -param pInput [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/fc6ef09c-3ba9-4bcb-a3c2-07422af8eaa9">SecBufferDesc</a> structure that specifies the SASL negotiation buffer for which to find the negotiate prefix. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbufferdesc">SecBufferDesc</a> structure that specifies the SASL negotiation buffer for which to find the negotiate prefix. 
 
 
 ### -param PackageInfo [out]
 
-Pointer to a pointer to a <a href="https://msdn.microsoft.com/d0bff3d8-63f1-4a4e-851f-177040af6bd2">SecPkgInfo</a> structure that returns the negotiate prefix for the negotiation buffer specified by the <i>pInput</i> parameter.
+Pointer to a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkginfoa">SecPkgInfo</a> structure that returns the negotiate prefix for the negotiation buffer specified by the <i>pInput</i> parameter.
 
 
 ## -returns

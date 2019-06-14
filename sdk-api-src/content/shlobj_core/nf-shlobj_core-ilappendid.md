@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Appends or prepends an <a href="https://msdn.microsoft.com/794c8425-2319-4339-881c-c5083ab05638">SHITEMID</a> structure to an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure.
+Appends or prepends an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a> structure to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure.
 
 
 ## -parameters
@@ -63,14 +63,14 @@ Appends or prepends an <a href="https://msdn.microsoft.com/794c8425-2319-4339-88
 
 Type: <b>PIDLIST_RELATIVE</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure. When the function returns, the <a href="https://msdn.microsoft.com/794c8425-2319-4339-881c-c5083ab05638">SHITEMID</a> structure specified by <i>pmkid</i> is appended or prepended.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure. When the function returns, the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a> structure specified by <i>pmkid</i> is appended or prepended.
 
 
 ### -param pmkid [in]
 
 Type: <b>LPSHITEMID</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/794c8425-2319-4339-881c-c5083ab05638">SHITEMID</a> structure to be appended or prepended to <i>pidl</i>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a> structure to be appended or prepended to <i>pidl</i>.
 
 
 ### -param fAppend
@@ -86,7 +86,7 @@ Value that is set to <b>TRUE</b> to append <i>pmkid</i> to <i>pidl</i>. Set this
 
 Type: <b>PIDLIST_RELATIVE</b>
 
-Returns the <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure specified by <i>pidl</i>, with <i>pmkid</i> appended or prepended. Returns <b>NULL</b> on failure.
+Returns the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure specified by <i>pidl</i>, with <i>pmkid</i> appended or prepended. Returns <b>NULL</b> on failure.
 
 
 

@@ -169,7 +169,7 @@ Reserved. This member should be <b>NULL</b>.
 Type: <b>MIB_IPMCAST_OIF[ANY_SIZE]</b>
 
 A pointer to a table of outgoing interface statistics that are implemented as an array of 
-<a href="https://msdn.microsoft.com/4ad35cc0-50e2-47b9-8ce3-9bf8e7032c40">MIB_IPMCAST_OIF</a> structures.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_oif_w2k">MIB_IPMCAST_OIF</a> structures.
 
 
 ## -remarks
@@ -181,7 +181,7 @@ The
 
 The <b>dwRouteProtocol</b>, <b>dwRouteNetwork</b>, and <b>dwRouteMask</b> members uniquely identify the route to which this MFE is related.
 
-The <b>MIB_IPMCAST_MFE</b> structure is used by the <a href="https://msdn.microsoft.com/d4374ced-06ea-49dd-8f52-0d06612aa4c3">Multicast Group Manager functions</a>. The <b>MIB_IPMCAST_MFE</b> structure is retrieved using the <a href="https://msdn.microsoft.com/15b1b096-9044-4983-9039-e7a13c2cca25">MgmGetMfe</a> function. An existing <b>MIB_IPMCAST_MFE</b> structure can be modified using the <a href="https://msdn.microsoft.com/143c080a-be80-47fb-a159-e6c95aa0d7ea">MgmSetMfe</a>function.
+The <b>MIB_IPMCAST_MFE</b> structure is used by the <a href="https://docs.microsoft.com/windows/desktop/RRAS/multicast-group-manager-functions">Multicast Group Manager functions</a>. The <b>MIB_IPMCAST_MFE</b> structure is retrieved using the <a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgetmfe">MgmGetMfe</a> function. An existing <b>MIB_IPMCAST_MFE</b> structure can be modified using the <a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmsetmfe">MgmSetMfe</a>function.
 
 On the Microsoft Windows Software Development Kit (SDK) released for Windows Vistaand later, the organization of header files has changed. This  structure is defined in the <i>Ipmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Ipmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Ipmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
 
@@ -193,23 +193,23 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://msdn.microsoft.com/4ad35cc0-50e2-47b9-8ce3-9bf8e7032c40">MIB_IPMCAST_OIF</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_oif_w2k">MIB_IPMCAST_OIF</a>
 
 
 
-<a href="https://msdn.microsoft.com/2567e899-760d-41dd-8347-634c1a0e5764">MIB_MFE_TABLE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_mfe_table">MIB_MFE_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/15b1b096-9044-4983-9039-e7a13c2cca25">MgmGetMfe</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgetmfe">MgmGetMfe</a>
 
 
 
-<a href="https://msdn.microsoft.com/143c080a-be80-47fb-a159-e6c95aa0d7ea">MgmSetMfe</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmsetmfe">MgmSetMfe</a>
 
 
 
-<a href="https://msdn.microsoft.com/d4374ced-06ea-49dd-8f52-0d06612aa4c3">Multicast Group Manager functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/multicast-group-manager-functions">Multicast Group Manager functions</a>
  
 
  

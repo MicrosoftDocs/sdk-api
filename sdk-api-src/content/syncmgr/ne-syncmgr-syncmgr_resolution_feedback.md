@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Describes Sync Manager resolution feedback. Used by <a href="https://msdn.microsoft.com/5b77217d-5c63-41be-b4df-338714a90fb9">ISyncMgrResolutionHandler</a>.
+Describes Sync Manager resolution feedback. Used by <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrresolutionhandler">ISyncMgrResolutionHandler</a>.
 
 
 ## -enum-fields

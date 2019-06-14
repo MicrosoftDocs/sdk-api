@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information for identifying the "hit zone" for a specified part of a tree item. The structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb773606(v=VS.85).aspx">TVM_GETITEMPARTRECT</a> message and the <a href="https://msdn.microsoft.com/en-us/library/Bb773847(v=VS.85).aspx">TreeView_GetItemPartRect</a> macro.
+Contains information for identifying the "hit zone" for a specified part of a tree item. The structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getitempartrect">TVM_GETITEMPARTRECT</a> message and the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_getitempartrect">TreeView_GetItemPartRect</a> macro.
 
 
 ## -struct-fields

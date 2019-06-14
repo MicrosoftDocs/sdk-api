@@ -61,7 +61,7 @@ The
 ### -param TapiEvent [in]
 
 The 
-<a href="https://msdn.microsoft.com/94faa4a1-7d86-48bc-9e94-f2b8f83f5280">TAPI_EVENT</a> descriptor of the event type.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event">TAPI_EVENT</a> descriptor of the event type.
 
 
 ### -param lSubEvent [in]
@@ -88,7 +88,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/20f7b20e-37f8-49f7-ae9d-83a9b9f574b6">ITCallInfo2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo2">ITCallInfo2</a>
  
 
  

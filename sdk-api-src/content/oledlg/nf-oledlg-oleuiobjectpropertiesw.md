@@ -63,7 +63,7 @@ Invokes the <b>Object Properties</b> dialog box, which displays <b>General</b>, 
 
 ### -param Arg1 [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/7a6216d6-061f-48c3-8e3f-5f3e5a63ffb3">OLEUIOBJECTPROPS</a> structure.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuiobjectpropsa">OLEUIOBJECTPROPS</a> structure.
 
 
 ## -returns
@@ -302,7 +302,7 @@ Dialog box initialization failed.
 </dl>
 </td>
 <td width="60%">
-A call to <a href="https://msdn.microsoft.com/da8cd2be-ff4c-4da5-813c-8759a58228c9">LocalAlloc</a> or the standard <a href="https://msdn.microsoft.com/047f281e-2665-4d6d-9a0b-918cd3339447">IMalloc</a> allocator failed.
+A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -313,7 +313,7 @@ A call to <a href="https://msdn.microsoft.com/da8cd2be-ff4c-4da5-813c-8759a58228
 </dl>
 </td>
 <td width="60%">
-A call to <a href="https://msdn.microsoft.com/06886545-bd5c-4d81-b1c3-dfa7e146e43a">GlobalAlloc</a> or the standard <a href="https://msdn.microsoft.com/047f281e-2665-4d6d-9a0b-918cd3339447">IMalloc</a> allocator failed.
+A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -335,7 +335,7 @@ Unable to call LoadString for localized resources from the library.
 </dl>
 </td>
 <td width="60%">
-A call to the standard <a href="https://msdn.microsoft.com/047f281e-2665-4d6d-9a0b-918cd3339447">IMalloc</a> allocator failed.
+A call to the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -596,7 +596,7 @@ The <i>lpLinkInfo</i> value is <b>NULL</b> or the calling process doesn't have r
 
 
 
-<b>OleUIObjectProperties</b> is passed an <a href="https://msdn.microsoft.com/7a6216d6-061f-48c3-8e3f-5f3e5a63ffb3">OLEUIOBJECTPROPS</a> structure, which supplies the information needed to fill in the <b>General</b>, <b>View</b>, and <b>Link</b> tabs of the <b>Object Properties</b> dialog box.
+<b>OleUIObjectProperties</b> is passed an <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuiobjectpropsa">OLEUIOBJECTPROPS</a> structure, which supplies the information needed to fill in the <b>General</b>, <b>View</b>, and <b>Link</b> tabs of the <b>Object Properties</b> dialog box.
 
 
 
@@ -606,27 +606,27 @@ The <i>lpLinkInfo</i> value is <b>NULL</b> or the calling process doesn't have r
 
 
 
-<a href="https://msdn.microsoft.com/aadac00b-47bb-42eb-8458-b23867f6b975">IOleUILinkInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkinfoa">IOleUILinkInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/508dccb3-e98b-4f62-8bc3-98ca2b0d1349">IOleUIObjInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nn-oledlg-ioleuiobjinfoa">IOleUIObjInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/851d66c8-94a7-47ab-95f4-12a34897de20">OLEUIGNRLPROPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuignrlpropsa">OLEUIGNRLPROPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f355ce8-adc3-4878-a8b4-3f7d94547ef1">OLEUILINKPROPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuilinkpropsa">OLEUILINKPROPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a6216d6-061f-48c3-8e3f-5f3e5a63ffb3">OLEUIOBJECTPROPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuiobjectpropsa">OLEUIOBJECTPROPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/e45565c5-185e-4143-a5c2-d0b273b5086e">OLEUIVIEWPROPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuiviewpropsa">OLEUIVIEWPROPS</a>
  
 
  

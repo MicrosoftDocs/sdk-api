@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Inserts a new tab in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760606(v=VS.85).aspx">TCM_INSERTITEM</a> message explicitly. 
+Inserts a new tab in a tab control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-insertitem">TCM_INSERTITEM</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Inserts a new tab in a tab control. You can use this macro or send the <a href="
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tab control. 
 
@@ -75,5 +75,5 @@ Index of the new tab.
 
 Type: <b>const LPTCITEM</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb760554(v=VS.85).aspx">TCITEM</a> structure that specifies the attributes of the tab. The <b>dwState</b> and <b>dwStateMask</b> members of this structure are ignored by this message. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtcitema">TCITEM</a> structure that specifies the attributes of the tab. The <b>dwState</b> and <b>dwStateMask</b> members of this structure are ignored by this message. 
 

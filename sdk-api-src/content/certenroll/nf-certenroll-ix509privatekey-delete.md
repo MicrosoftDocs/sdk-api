@@ -65,7 +65,7 @@ The <b>Delete</b> method releases the handle of the cryptographic service provid
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -94,7 +94,7 @@ The CSP could not be found.
 
 
 
-Call the <a href="https://msdn.microsoft.com/c4ed2375-0d50-4cb5-b0c4-c80962e22c9c">Close</a> method if you only want to close the provider handles. The <b>Delete</b> method does not delete the <a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a> instance.
+Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-close">Close</a> method if you only want to close the provider handles. The <b>Delete</b> method does not delete the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a> instance.
 
 
 
@@ -104,7 +104,7 @@ Call the <a href="https://msdn.microsoft.com/c4ed2375-0d50-4cb5-b0c4-c80962e22c9
 
 
 
-<a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
  
 
  

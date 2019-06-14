@@ -61,12 +61,12 @@ The <b>IResultData::InsertItem</b> method enables the snap-in to add a single ne
 ### -param item [in, out]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/c8f4682e-e1f7-4f7f-9a56-508648ca8c07">RESULTDATAITEM</a> structure that contains information about the item to be added.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_resultdataitem">RESULTDATAITEM</a> structure that contains information about the item to be added.
 
-After the item is inserted, a unique identifier (an item ID) is assigned to it by MMC and returned through the <b>itemID</b> member of the structure pointed to by the item parameter. Be aware that the <b>itemID</b> value is the <b>HRESULTITEM</b> handle of the inserted item. The snap-in should store this value in order to later manipulate the inserted item by calling methods such as <a href="https://msdn.microsoft.com/18c345b0-7d3c-4c80-8d1e-b8d5791bc550">IResultData::GetItem</a>.
+After the item is inserted, a unique identifier (an item ID) is assigned to it by MMC and returned through the <b>itemID</b> member of the structure pointed to by the item parameter. Be aware that the <b>itemID</b> value is the <b>HRESULTITEM</b> handle of the inserted item. The snap-in should store this value in order to later manipulate the inserted item by calling methods such as <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-getitem">IResultData::GetItem</a>.
 
 If this identifier is not stored, it can be looked up using 
-<a href="https://msdn.microsoft.com/f26be5d5-9b7d-4cbd-b70c-431799c68e5e">IResultData::FindItemByLParam</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-finditembylparam">IResultData::FindItemByLParam</a>.
 
 
 ## -returns
@@ -83,15 +83,15 @@ This method can return one of these values.
 
 
 The mask and all appropriate associated fields in the 
-<a href="https://msdn.microsoft.com/c8f4682e-e1f7-4f7f-9a56-508648ca8c07">RESULTDATAITEM</a> structure should be filled out. Subitems cannot be inserted but can be set. The <b>nCol</b> member of the item structure must therefore be zero.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_resultdataitem">RESULTDATAITEM</a> structure should be filled out. Subitems cannot be inserted but can be set. The <b>nCol</b> member of the item structure must therefore be zero.
 
 The str member of 
-<a href="https://msdn.microsoft.com/c8f4682e-e1f7-4f7f-9a56-508648ca8c07">RESULTDATAITEM</a> must be set to <b>MMC_CALLBACK</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_resultdataitem">RESULTDATAITEM</a> must be set to <b>MMC_CALLBACK</b>.
 
-After the item is inserted, a unique identifier (an item ID) is assigned to it by MMC and returned through the <b>itemID</b> member of the structure pointed to by the item parameter. Be aware that the <b>itemID</b> value is the <b>HRESULTITEM</b> handle of the inserted item. The snap-in should store this value in order to later manipulate the inserted item by calling methods such as <a href="https://msdn.microsoft.com/18c345b0-7d3c-4c80-8d1e-b8d5791bc550">IResultData::GetItem</a>.
+After the item is inserted, a unique identifier (an item ID) is assigned to it by MMC and returned through the <b>itemID</b> member of the structure pointed to by the item parameter. Be aware that the <b>itemID</b> value is the <b>HRESULTITEM</b> handle of the inserted item. The snap-in should store this value in order to later manipulate the inserted item by calling methods such as <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-getitem">IResultData::GetItem</a>.
 
 If this identifier is not stored, it can be identified using 
-<a href="https://msdn.microsoft.com/f26be5d5-9b7d-4cbd-b70c-431799c68e5e">IResultData::FindItemByLParam</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-finditembylparam">IResultData::FindItemByLParam</a>.
 
 This method does not support virtual lists.
 
@@ -103,11 +103,11 @@ This method does not support virtual lists.
 
 
 
-<a href="https://msdn.microsoft.com/58f8bcdb-b062-4048-92fc-eb652ce62c5b">IResultData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdata">IResultData</a>
 
 
 
-<a href="https://msdn.microsoft.com/cca0c2a4-7a41-48d1-bdaa-27b7aad7cc05">IResultData2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdata2">IResultData2</a>
  
 
  

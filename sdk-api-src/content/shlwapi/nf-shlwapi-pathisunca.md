@@ -86,7 +86,7 @@ Returns <b>TRUE</b> if the string is a valid UNC path; otherwise, <b>FALSE</b>.
 
 
 
-<a href="https://msdn.microsoft.com/3b2a4158-63ec-49eb-a031-7493d02f2caa">PathIsUNCEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathisuncex">PathIsUNCEx</a>
  
 
  

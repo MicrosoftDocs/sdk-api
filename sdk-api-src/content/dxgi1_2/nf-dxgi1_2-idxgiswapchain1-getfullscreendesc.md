@@ -60,7 +60,7 @@ Gets a description of a full-screen swap chain.
 
 ### -param pDesc [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/0EE5683E-0623-4FD7-A77F-B64F90A25C6A">DXGI_SWAP_CHAIN_FULLSCREEN_DESC</a>  structure that describes the full-screen swap chain.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/ns-dxgi1_2-dxgi_swap_chain_fullscreen_desc">DXGI_SWAP_CHAIN_FULLSCREEN_DESC</a>  structure that describes the full-screen swap chain.
 
 
 ## -returns
@@ -71,8 +71,8 @@ A pointer to a <a href="https://msdn.microsoft.com/0EE5683E-0623-4FD7-A77F-B64F9
         <ul>
 <li>S_OK if it successfully retrieved the description of the full-screen swap chain.</li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_INVALID_CALL</a>  for non-<a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a> swap chains or if <i>pDesc</i> is <b>NULL</b>.</li>
-<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic. </li>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR_INVALID_CALL</a>  for non-<a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a> swap chains or if <i>pDesc</i> is <b>NULL</b>.</li>
+<li>Possibly other error codes that are described in the <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a> topic. </li>
 </ul>
 
 
@@ -83,7 +83,7 @@ A pointer to a <a href="https://msdn.microsoft.com/0EE5683E-0623-4FD7-A77F-B64F9
 
 
 
-The semantics of <b>GetFullscreenDesc</b> are identical to that of the <a href="https://msdn.microsoft.com/en-us/library/Bb174572(v=VS.85).aspx">IDXGISwapchain::GetDesc</a> method for <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a>-based swap chains.
+The semantics of <b>GetFullscreenDesc</b> are identical to that of the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-getdesc">IDXGISwapchain::GetDesc</a> method for <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a>-based swap chains.
 
 
 
@@ -93,7 +93,7 @@ The semantics of <b>GetFullscreenDesc</b> are identical to that of the <a href="
 
 
 
-<a href="https://msdn.microsoft.com/A674E006-4323-4967-9B9B-0E3965040DBF">IDXGISwapChain1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgiswapchain1">IDXGISwapChain1</a>
  
 
  

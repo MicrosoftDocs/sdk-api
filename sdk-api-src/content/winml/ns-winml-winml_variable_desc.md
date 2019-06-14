@@ -73,7 +73,7 @@ The description of the variable.
 
 ### -field FeatureType
 
-A <a href="https://msdn.microsoft.com/179DD392-15B6-4BDE-8BD3-91256951DCD3">WINML_FEATURE_TYPE</a> containing the feature type of variable.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winml/ne-winml-winml_feature_type">WINML_FEATURE_TYPE</a> containing the feature type of variable.
 
 
 ### -field Required
@@ -83,20 +83,20 @@ A <a href="https://msdn.microsoft.com/179DD392-15B6-4BDE-8BD3-91256951DCD3">WINM
 
 ### -field Tensor
 
-A <a href="https://msdn.microsoft.com/71D65FC6-7A2B-40D6-B040-213C8BC77BE0">WINML_TENSOR_VARIABLE_DESC</a> containing the description of the tensor variable.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winml/ns-winml-winml_tensor_variable_desc">WINML_TENSOR_VARIABLE_DESC</a> containing the description of the tensor variable.
 
 
 ### -field Sequence
 
-A <a href="https://msdn.microsoft.com/6350AFEE-8E1A-4C21-8017-9D3E9EC601F8">WINML_SEQUENCE_VARIABLE_DESC</a> containing the description of the sequence variable.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winml/ns-winml-winml_sequence_variable_desc">WINML_SEQUENCE_VARIABLE_DESC</a> containing the description of the sequence variable.
 
 
 ### -field Map
 
-A <a href="https://msdn.microsoft.com/897AA848-EE56-47BF-8CCC-95B6F91D7EE5">WINML_MAP_VARIABLE_DESC</a> containing the description of the map variable.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winml/ns-winml-winml_map_variable_desc">WINML_MAP_VARIABLE_DESC</a> containing the description of the map variable.
 
 
 ### -field Image
 
-A <a href="https://msdn.microsoft.com/82EE6D9B-08C4-4128-BE8A-DF922AA7318E">WINML_IMAGE_VARIABLE_DESC</a> containing the description of the image variable.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winml/ns-winml-winml_image_variable_desc">WINML_IMAGE_VARIABLE_DESC</a> containing the description of the image variable.
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DSROLE_PRIMARY_DOMAIN_INFO_BASIC</b> structure is used with the <a href="https://msdn.microsoft.com/d54876e3-a622-4b44-a597-db0f710f7758">DsRoleGetPrimaryDomainInformation</a> function to contain domain  data.
+The <b>DSROLE_PRIMARY_DOMAIN_INFO_BASIC</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/dsrole/nf-dsrole-dsrolegetprimarydomaininformation">DsRoleGetPrimaryDomainInformation</a> function to contain domain  data.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ The <b>DSROLE_PRIMARY_DOMAIN_INFO_BASIC</b> structure is used with the <a href="
 
 ### -field MachineRole
 
-Contains one of the <a href="https://msdn.microsoft.com/d5255070-71dd-4510-8bec-a84726a241c6">DSROLE_MACHINE_ROLE</a> values that specifies the role of the computer.
+Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ne-dsrole-_dsrole_machine_role">DSROLE_MACHINE_ROLE</a> values that specifies the role of the computer.
 
 
 ### -field Flags
@@ -122,15 +122,15 @@ Contains the domain identifier. This member is valid only if the <b>Flags</b> me
 
 
 
-<a href="https://msdn.microsoft.com/d5255070-71dd-4510-8bec-a84726a241c6">DSROLE_MACHINE_ROLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ne-dsrole-_dsrole_machine_role">DSROLE_MACHINE_ROLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/4df5f356-a39b-40a4-9e62-994ad27df3a9">Directory Service Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/directory-service-structures">Directory Service Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/d54876e3-a622-4b44-a597-db0f710f7758">DsRoleGetPrimaryDomainInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/nf-dsrole-dsrolegetprimarydomaininformation">DsRoleGetPrimaryDomainInformation</a>
  
 
  

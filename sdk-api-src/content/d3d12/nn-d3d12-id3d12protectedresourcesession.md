@@ -69,7 +69,7 @@ The <b>ID3D12ProtectedResourceSession</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173506(v=VS.85).aspx">GetDesc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10blendstate-getdesc">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Retrieves a description of the protected resource session.

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PNRPINFO_V1</b> structure  is pointed to by the <b>lpBlob</b> member of the <a href="https://msdn.microsoft.com/e0af2cd9-9cbf-44a1-aa4d-4df211b04782">WSAQUERYSET</a> structure.
+The <b>PNRPINFO_V1</b> structure  is pointed to by the <b>lpBlob</b> member of the <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/winsock-nsp-reference-links">WSAQUERYSET</a> structure.
 
 
 ## -struct-fields
@@ -84,7 +84,7 @@ Specifies the number of seconds between refresh operations. Must be   86400 (24 
 
 ### -field enResolveCriteria
 
-Specifies the criteria used to resolve matches.  PNRP can look for the first matching name, or attempt to find a name that is numerically close to the service location. Valid values are specified by <a href="https://msdn.microsoft.com/11104d6c-75a8-454a-8203-b1ef105db61a">PNRP_RESOLVE_CRITERIA</a>.
+Specifies the criteria used to resolve matches.  PNRP can look for the first matching name, or attempt to find a name that is numerically close to the service location. Valid values are specified by <a href="https://docs.microsoft.com/windows/desktop/api/pnrpdef/ne-pnrpdef-_pnrp_resolve_criteria">PNRP_RESOLVE_CRITERIA</a>.
 
 
 ### -field dwFlags
@@ -118,7 +118,7 @@ Specifies the state of the registered ID.  This value is reserved and must be se
 
 
 
- Starting with Windows Vista, please use the <a href="https://msdn.microsoft.com/7f137de6-28ab-4f16-9009-a73f949fb3ec">PNRPINFO_V2</a> structure.
+ Starting with Windows Vista, please use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa371671(v=vs.85)">PNRPINFO_V2</a> structure.
 
 
 
@@ -128,21 +128,21 @@ Specifies the state of the registered ID.  This value is reserved and must be se
 
 
 
-<a href="https://msdn.microsoft.com/e92ecb14-3f3a-48bb-963b-0c6e58c54089">PNRP and
+<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/pnrp-and-blob">PNRP and
 			 BLOB</a>
 
 
 
-<a href="https://msdn.microsoft.com/0ccf20c1-4c95-4caf-a8f3-82a9e0a9907b">PNRP and
+<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/pnrp-and-wsaqueryset">PNRP and
 			 WSAQUERYSET</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f137de6-28ab-4f16-9009-a73f949fb3ec">PNRPINFO_V2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa371671(v=vs.85)">PNRPINFO_V2</a>
 
 
 
-<a href="https://msdn.microsoft.com/e0af2cd9-9cbf-44a1-aa4d-4df211b04782">WSAQUERYSET</a>
+<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/winsock-nsp-reference-links">WSAQUERYSET</a>
  
 
  

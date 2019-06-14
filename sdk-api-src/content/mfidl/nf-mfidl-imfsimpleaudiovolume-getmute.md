@@ -120,7 +120,7 @@ The audio renderer was removed from the pipeline.
 
 
 
-Calling <a href="https://msdn.microsoft.com/42b51817-3c2a-463a-a533-19c327c57354">IMFSimpleAudioVolume::SetMasterVolume</a> to set the volume does not change whether the audio is muted.
+Calling <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsimpleaudiovolume-setmastervolume">IMFSimpleAudioVolume::SetMasterVolume</a> to set the volume does not change whether the audio is muted.
 
 
 
@@ -130,11 +130,11 @@ Calling <a href="https://msdn.microsoft.com/42b51817-3c2a-463a-a533-19c327c57354
 
 
 
-<a href="https://msdn.microsoft.com/002d85a7-8bc3-422e-8ced-1907ac121d7b">IMFSimpleAudioVolume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsimpleaudiovolume">IMFSimpleAudioVolume</a>
 
 
 
-<a href="https://msdn.microsoft.com/5884a128-597d-432b-a706-e10c894d7965">Streaming Audio Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/streaming-audio-renderer">Streaming Audio Renderer</a>
  
 
  

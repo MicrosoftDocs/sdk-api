@@ -102,11 +102,11 @@ For details on how WSD uses these values to send messages, see Appendix I of the
 
 
 
-<a href="https://msdn.microsoft.com/c34d6320-c70b-410e-ae21-fba849dac62f">IWSDUdpMessageParameters::GetRetransmitParams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdudpmessageparameters-getretransmitparams">IWSDUdpMessageParameters::GetRetransmitParams</a>
 
 
 
-<a href="https://msdn.microsoft.com/8fef8dc9-7621-4928-94a6-491a095b11fa">IWSDUdpMessageParameters::SetRetransmitParams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdudpmessageparameters-setretransmitparams">IWSDUdpMessageParameters::SetRetransmitParams</a>
  
 
  

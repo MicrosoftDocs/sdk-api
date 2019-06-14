@@ -73,11 +73,11 @@ The LargeChange property can support a Not a Number (NaN) value. When retrieving
 
 
 
-<a href="https://msdn.microsoft.com/145c14e5-1b6b-4eb1-a73a-aa59b5e1b4c4">IUIAutomationRangeValuePattern</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationrangevaluepattern">IUIAutomationRangeValuePattern</a>
 
 
 
-<a href="https://msdn.microsoft.com/88de76d5-100c-41b9-b87e-2d1c3bf6e633">IUIAutomationRangeValuePattern::CurrentSmallChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationrangevaluepattern-get_currentsmallchange">IUIAutomationRangeValuePattern::CurrentSmallChange</a>
  
 
  

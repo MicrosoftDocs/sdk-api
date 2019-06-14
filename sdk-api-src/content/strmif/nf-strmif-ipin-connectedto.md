@@ -63,7 +63,7 @@ The <b>ConnectedTo</b> method retrieves a pointer to the connected pin, if any.
 
 ### -param pPin [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/ad0ead4e-9f8e-4935-b220-306d665e50f4">IPin</a> interface of the other pin. The caller must release the interface. This parameter cannot be <b>NULL</b>.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface of the other pin. The caller must release the interface. This parameter cannot be <b>NULL</b>.
           
 
 
@@ -122,7 +122,7 @@ Pin is not connected.
 
 
 
-If the method succeeds, the <a href="https://msdn.microsoft.com/ad0ead4e-9f8e-4935-b220-306d665e50f4">IPin</a> interface that it returns has an outstanding reference count. Be sure to release it when you are done.
+If the method succeeds, the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface that it returns has an outstanding reference count. Be sure to release it when you are done.
 
 
 
@@ -132,19 +132,19 @@ If the method succeeds, the <a href="https://msdn.microsoft.com/ad0ead4e-9f8e-49
 
 
 
-<a href="https://msdn.microsoft.com/3fcfd874-39bc-42d2-9fc9-2d8945ffa8e3">Data Flow in the Filter Graph</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/data-flow-in-the-filter-graph">Data Flow in the Filter Graph</a>
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/d0a906a8-bae4-43b3-8b02-ee5b97c9323d">Find an Unconnected Pin on a Filter</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/find-an-unconnected-pin-on-a-filter">Find an Unconnected Pin on a Filter</a>
 
 
 
-<a href="https://msdn.microsoft.com/ad0ead4e-9f8e-4935-b220-306d665e50f4">IPin Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
  
 
  

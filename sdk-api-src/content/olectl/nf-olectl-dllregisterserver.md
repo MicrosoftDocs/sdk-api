@@ -126,7 +126,7 @@ If this function fails, the state of the registry for all its classes is undefin
 
 
 
-<a href="https://msdn.microsoft.com/b71137a7-284e-4521-a3b2-9dad9c9d3c54">DllUnregisterServer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-dllunregisterserver">DllUnregisterServer</a>
  
 
  

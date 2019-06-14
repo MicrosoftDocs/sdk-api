@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Initializes an instance of a file based implementation of <a href="https://msdn.microsoft.com/93f2be99-0799-4047-ae4e-62f0e74d15c3">ILog</a>. 
+Initializes an instance of a file based implementation of <a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a>. 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileBasedLogInit</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IFileBasedLogInit</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileBasedLogInit</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFileBasedLogInit</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IFileBasedLogInit</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/729c0cfc-4246-4185-af06-ed90a1955b03">InitNew</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nf-txlogpub-ifilebasedloginit-initnew">InitNew</a>
 </td>
 <td align="left" width="63%">
 Create a new log instance on the specified file.
@@ -84,7 +84,7 @@ Create a new log instance on the specified file.
 
 
 
-<a href="https://msdn.microsoft.com/93f2be99-0799-4047-ae4e-62f0e74d15c3">ILog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a>
  
 
  

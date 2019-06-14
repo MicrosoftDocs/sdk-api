@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies keystroke data returned by <a href="https://msdn.microsoft.com/en-us/library/Ee419266(v=VS.85).aspx">XInputGetKeystroke</a>.
+Specifies keystroke data returned by <a href="https://docs.microsoft.com/windows/desktop/api/xinput/nf-xinput-xinputgetkeystroke">XInputGetKeystroke</a>.
 
 
 ## -struct-fields
@@ -270,7 +270,7 @@ The valid virtual-key (VK_xxx) codes are defined in XInput.h. In addition to cod
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419266(v=VS.85).aspx">XInputGetKeystroke</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xinput/nf-xinput-xinputgetkeystroke">XInputGetKeystroke</a>
  
 
  

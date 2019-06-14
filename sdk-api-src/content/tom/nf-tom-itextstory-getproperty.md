@@ -75,7 +75,7 @@ The property value.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -87,11 +87,11 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-<a href="https://msdn.microsoft.com/8b52c6e8-c250-4cfb-979e-770df9f94010">ITextStory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextstory">ITextStory</a>
 
 
 
-<a href="https://msdn.microsoft.com/432afe58-a1ed-45aa-b018-bf608bbb7e2a">ITextStory::SetProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextstory-setproperty">ITextStory::SetProperty</a>
  
 
  

@@ -53,7 +53,7 @@ Returns an instance of <code>uint16_t</code> containing the components of the
 	<code>XMU555</code> instance in a packed format.
     
 
-This operator returns an instance of <code>uint16_t</code> containing the components of the <a href="https://msdn.microsoft.com/en-us/library/Ee420402(v=VS.85).aspx">XMU555 </a> instance in a packed format.
+This operator returns an instance of <code>uint16_t</code> containing the components of the <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555">XMU555 </a> instance in a packed format.
 <div class="alert"><b>Note</b>  This operator is only available under C++.</div><div> </div>
 
 ## -parameters
@@ -115,11 +115,11 @@ The last 1 bit (bit 15) of the return value are to the <b>w</b>component of the 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420402(v=VS.85).aspx">XMU555</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555">XMU555</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415439(v=VS.85).aspx">XMU555 Operators</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmu555-operators">XMU555 Operators</a>
  
 
  

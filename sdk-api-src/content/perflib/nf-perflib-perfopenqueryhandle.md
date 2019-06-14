@@ -65,7 +65,7 @@ The name of the machine for which you want to get the query handle.
 
 ### -param phQuery [out]
 
-The handle to the query. Call <a href="https://msdn.microsoft.com/94D08CF1-D47C-4A1B-A0CE-8C318CDF9FE0">PerfCloseQueryHandle</a> to close ths handle when you no longer need it.
+The handle to the query. Call <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfclosequeryhandle">PerfCloseQueryHandle</a> to close ths handle when you no longer need it.
 
 
 ## -returns
@@ -76,7 +76,7 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. 
 
 
 
@@ -85,11 +85,11 @@ If the function fails, the return value is a
 
 
 
-Use <a href="https://msdn.microsoft.com/FC66E794-EF13-47BB-A704-735924363310">PerfAddCounters</a> and <a href="https://msdn.microsoft.com/330CA041-41CA-4C48-B88B-C48A0143505E">PerfDeleteCounters</a> to
-add or remove counter specifications to the list. Use <a href="https://msdn.microsoft.com/42CAB98C-4525-499D-BA11-731A666E112D">PerfQueryCounterInfo</a> to
+Use <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfaddcounters">PerfAddCounters</a> and <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfdeletecounters">PerfDeleteCounters</a> to
+add or remove counter specifications to the list. Use <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfquerycounterinfo">PerfQueryCounterInfo</a> to
 get the counter specifications currently in the list and to determine the
 indexes at which the data for each counter will be returned by 
-<a href="https://msdn.microsoft.com/EBCF00E0-6C40-40E5-9F3D-9AE5F9AB74AC">PerfQueryCounterData</a>. Use <b>PerfQueryCounterData</b> to retrieve the values of the
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfquerycounterdata">PerfQueryCounterData</a>. Use <b>PerfQueryCounterData</b> to retrieve the values of the
 counters that match the counter specifications.
 
 
@@ -101,23 +101,23 @@ counters that match the counter specifications.
 
 
 
-<a href="https://msdn.microsoft.com/FC66E794-EF13-47BB-A704-735924363310">PerfAddCounters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfaddcounters">PerfAddCounters</a>
 
 
 
-<a href="https://msdn.microsoft.com/94D08CF1-D47C-4A1B-A0CE-8C318CDF9FE0">PerfCloseQueryHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfclosequeryhandle">PerfCloseQueryHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/330CA041-41CA-4C48-B88B-C48A0143505E">PerfDeleteCounters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfdeletecounters">PerfDeleteCounters</a>
 
 
 
-<a href="https://msdn.microsoft.com/EBCF00E0-6C40-40E5-9F3D-9AE5F9AB74AC">PerfQueryCounterData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfquerycounterdata">PerfQueryCounterData</a>
 
 
 
-<a href="https://msdn.microsoft.com/42CAB98C-4525-499D-BA11-731A666E112D">PerfQueryCounterInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfquerycounterinfo">PerfQueryCounterInfo</a>
  
 
  

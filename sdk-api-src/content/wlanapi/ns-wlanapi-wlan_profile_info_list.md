@@ -88,7 +88,7 @@ This member is not used by the wireless service. Applications can use this membe
 
 ### -field ProfileInfo
 
-An array of <a href="https://msdn.microsoft.com/ca45278c-2e1e-4080-825a-d6a05e463858">WLAN_PROFILE_INFO</a> structures containing interface information. The number of items in the array is specified in the <b>dwNumberOfItems</b> member.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_profile_info">WLAN_PROFILE_INFO</a> structures containing interface information. The number of items in the array is specified in the <b>dwNumberOfItems</b> member.
 
 
 ## -see-also
@@ -96,15 +96,15 @@ An array of <a href="https://msdn.microsoft.com/ca45278c-2e1e-4080-825a-d6a05e46
 
 
 
-<a href="https://msdn.microsoft.com/ca45278c-2e1e-4080-825a-d6a05e463858">WLAN_PROFILE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_profile_info">WLAN_PROFILE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/6486e961-402f-45c8-a806-ab91a4f0f156">WlanGetProfile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofile">WlanGetProfile</a>
 
 
 
-<a href="https://msdn.microsoft.com/f4336113-538f-4161-a71f-64a432e31f1c">WlanGetProfileList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofilelist">WlanGetProfileList</a>
  
 
  

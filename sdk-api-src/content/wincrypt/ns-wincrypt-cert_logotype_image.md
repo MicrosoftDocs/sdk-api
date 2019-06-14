@@ -59,12 +59,12 @@ The <b>CERT_LOGOTYPE_IMAGE</b> structure contains information about an image log
 
 ### -field LogotypeDetails
 
-A <a href="https://msdn.microsoft.com/cde420a8-c755-4c45-ab81-4897b08d9dd6">CERT_LOGOTYPE_DETAILS</a> structure that contains additional information about the image.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_logotype_details">CERT_LOGOTYPE_DETAILS</a> structure that contains additional information about the image.
 
 
 ### -field pLogotypeImageInfo
 
-The address of a <a href="https://msdn.microsoft.com/d7116e54-dbf2-457e-8d33-1c0fd5641fe7">CERT_LOGOTYPE_IMAGE_INFO</a> structure that contains the image information.
+The address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_logotype_image_info">CERT_LOGOTYPE_IMAGE_INFO</a> structure that contains the image information.
 
 
 ## -see-also
@@ -72,7 +72,7 @@ The address of a <a href="https://msdn.microsoft.com/d7116e54-dbf2-457e-8d33-1c0
 
 
 
-<a href="https://msdn.microsoft.com/f170dd48-a0f4-45e0-b5b8-a5f446d1a86e">CERT_LOGOTYPE_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_logotype_data">CERT_LOGOTYPE_DATA</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/c1ef3d22-7c88-42b0-93a2-5d1b75c327ba">IShellLibrary</a> object.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary">IShellLibrary</a> object.
 
 
 ## -parameters
@@ -61,14 +61,14 @@ Creates an <a href="https://msdn.microsoft.com/c1ef3d22-7c88-42b0-93a2-5d1b75c32
 
 Type: <b>REFIID</b>
 
-The IID for <a href="https://msdn.microsoft.com/c1ef3d22-7c88-42b0-93a2-5d1b75c327ba">IShellLibrary</a>. (See usage remarks.)
+The IID for <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary">IShellLibrary</a>. (See usage remarks.)
 
 
 ### -param ppv [out]
 
 Type: <b>void**</b>
 
-Receives a new <a href="https://msdn.microsoft.com/c1ef3d22-7c88-42b0-93a2-5d1b75c327ba">IShellLibrary</a> object. (See usage remarks.)
+Receives a new <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary">IShellLibrary</a> object. (See usage remarks.)
 
 
 ## -returns
@@ -112,7 +112,7 @@ SHCreateLibrary(IID_PPV_ARGS(&pIShellLib));
 
 
 
-<a href="https://msdn.microsoft.com/c1ef3d22-7c88-42b0-93a2-5d1b75c327ba">IShellLibrary</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary">IShellLibrary</a>
  
 
  

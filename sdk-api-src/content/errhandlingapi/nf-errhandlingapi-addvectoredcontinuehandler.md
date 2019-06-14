@@ -83,7 +83,7 @@ The order in which the handler should be called. If the parameter is nonzero, th
 #### - VectoredHandler [in]
 
 A pointer to the handler to be called. For more information, see 
-<a href="https://msdn.microsoft.com/a00f0e8d-a10b-48d4-b918-57b2ff9cb984">VectoredHandler</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nc-winnt-pvectored_exception_handler">VectoredHandler</a>.
 
 
 ## -returns
@@ -107,10 +107,10 @@ If the <i>FirstHandler</i> parameter is nonzero, the handler is the first handle
 If the <i>VectoredHandler</i> parameter points to a function in a DLL and that DLL is unloaded, the handler is still registered. This can lead to application errors.
 
 To unregister the handler, use the 
-<a href="https://msdn.microsoft.com/aed0bb01-a0f3-49c8-9d4a-ab8ddc09fc17">RemoveVectoredContinueHandler</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-removevectoredcontinuehandler">RemoveVectoredContinueHandler</a> function.
 
 To compile an application that uses this function, define the _WIN32_WINNT macro as 0x0500 or later. For more information, see 
-<a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 
@@ -120,19 +120,19 @@ To compile an application that uses this function, define the _WIN32_WINNT macro
 
 
 
-<a href="https://msdn.microsoft.com/0e956746-e6da-49d8-a534-753cb6755673">AddVectoredExceptionHandler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-addvectoredexceptionhandler">AddVectoredExceptionHandler</a>
 
 
 
-<a href="https://msdn.microsoft.com/aed0bb01-a0f3-49c8-9d4a-ab8ddc09fc17">RemoveVectoredContinueHandler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-removevectoredcontinuehandler">RemoveVectoredContinueHandler</a>
 
 
 
-<a href="https://msdn.microsoft.com/e4cf8a88-1bdf-4666-8653-fe2e86c4d8ef">Vectored Exception Handling</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/vectored-exception-handling">Vectored Exception Handling</a>
 
 
 
-<a href="https://msdn.microsoft.com/a00f0e8d-a10b-48d4-b918-57b2ff9cb984">VectoredHandler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nc-winnt-pvectored_exception_handler">VectoredHandler</a>
  
 
  

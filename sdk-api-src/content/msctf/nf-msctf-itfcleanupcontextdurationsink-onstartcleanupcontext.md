@@ -76,10 +76,10 @@ A context cleanup occurs when:
 <ul>
 <li>The text service is deactivated while a context is still on the context stack. This can occur when the active text service is changed or when the active language changes while the text service is active.</li>
 <li>
-<a href="https://msdn.microsoft.com/7293fbfa-c385-4713-80b2-760e54dbf4c1">ITfThreadMgr::Deactivate
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-deactivate">ITfThreadMgr::Deactivate
             </a> is called while a context is still on the context stack.</li>
 </ul>
-This method is called just before the TSF manager begins making <a href="https://msdn.microsoft.com/6af597e6-f997-4b28-8994-a8dbabcaaa68">ITfCleanupContextSink::OnCleanupContext</a> notifications. When all of the OnCleanupContext notifications complete, the TSF manager calls <a href="https://msdn.microsoft.com/d7af4584-9c77-40cd-a83d-7b6fd3945b17">ITfCleanupContextDurationSink::OnEndCleanupContext</a>.
+This method is called just before the TSF manager begins making <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcleanupcontextsink-oncleanupcontext">ITfCleanupContextSink::OnCleanupContext</a> notifications. When all of the OnCleanupContext notifications complete, the TSF manager calls <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcleanupcontextdurationsink-onendcleanupcontext">ITfCleanupContextDurationSink::OnEndCleanupContext</a>.
 
 
 
@@ -89,16 +89,16 @@ This method is called just before the TSF manager begins making <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/2bbdc26a-5543-4de4-b347-2062be593c4b">ITfCleanupContextDurationSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcleanupcontextdurationsink">ITfCleanupContextDurationSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/d7af4584-9c77-40cd-a83d-7b6fd3945b17">ITfCleanupContextDurationSink::OnEndCleanupContext
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcleanupcontextdurationsink-onendcleanupcontext">ITfCleanupContextDurationSink::OnEndCleanupContext
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/6af597e6-f997-4b28-8994-a8dbabcaaa68">ITfCleanupContextSink::OnCleanupContext
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcleanupcontextsink-oncleanupcontext">ITfCleanupContextSink::OnCleanupContext
       </a>
  
 

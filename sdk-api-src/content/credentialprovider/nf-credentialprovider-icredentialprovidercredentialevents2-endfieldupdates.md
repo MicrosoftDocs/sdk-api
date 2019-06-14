@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Finishes and commits the batch updates started by <a href="https://msdn.microsoft.com/2E7EB8B4-ED6F-4954-88D3-FB79D80E53B2">BeginFieldUpdates</a>.
+Finishes and commits the batch updates started by <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents2-beginfieldupdates">BeginFieldUpdates</a>.
 
 
 ## -parameters
@@ -82,15 +82,15 @@ A call to this method must be made at the end of the code that updates the crede
 
 
 
-<a href="https://msdn.microsoft.com/2E7EB8B4-ED6F-4954-88D3-FB79D80E53B2">ICredentialProviderCredential2::BeginFieldUpdates</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents2-beginfieldupdates">ICredentialProviderCredential2::BeginFieldUpdates</a>
 
 
 
-<a href="https://msdn.microsoft.com/5507E8DE-5746-4031-900B-3EF5C97BC2EE">ICredentialProviderCredential2::SetFieldOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents2-setfieldoptions">ICredentialProviderCredential2::SetFieldOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/47290FF7-1785-4470-B3A9-F35C5028A6FE">ICredentialProviderCredentialEvents2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredentialevents2">ICredentialProviderCredentialEvents2</a>
  
 
  

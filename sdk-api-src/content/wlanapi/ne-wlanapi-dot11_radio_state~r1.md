@@ -57,5 +57,5 @@ The radio is off.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/20da1494-4264-4d0d-b789-25e2be6a8dd4">WLAN_PHY_RADIO_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_phy_radio_state">WLAN_PHY_RADIO_STATE</a>
 

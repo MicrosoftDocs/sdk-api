@@ -49,7 +49,7 @@ ms.custom: 19H1
 
 ## -description
 
-Instantiates a new instance of an uninitialized <a href="https://msdn.microsoft.com/3A64A02B-9DF6-46D1-8695-9B92F25CE620">CD3D11_RASTERIZER_DESC</a> structure.
+Instantiates a new instance of an uninitialized <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151654(v=vs.85)">CD3D11_RASTERIZER_DESC</a> structure.
 
 ## -parameters
 
@@ -57,4 +57,4 @@ Instantiates a new instance of an uninitialized <a href="https://msdn.microsoft.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/3A64A02B-9DF6-46D1-8695-9B92F25CE620">CD3D11_RASTERIZER_DESC</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151654(v=vs.85)">CD3D11_RASTERIZER_DESC</a>

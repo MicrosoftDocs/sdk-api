@@ -60,7 +60,7 @@ ms.custom: 19H1
 
 
 Formats a duration of time as a time string for a locale specified by name.
-<div class="alert"><b>Note</b>  The application should call this function in preference to <a href="https://msdn.microsoft.com/bd3e1256-8f0c-488b-9b2f-ca93ffcbad84">GetDurationFormat</a> if designed to run only on Windows Vista and later.</div><div> </div><div class="alert"><b>Note</b>  This function can format data that changes between releases, for example, due to a custom locale. If your application must persist or transmit data, see <a href="https://msdn.microsoft.com/f62402d6-31de-4ff7-9538-7925a007a089">Using Persistent Locale Data</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  The application should call this function in preference to <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getdurationformat">GetDurationFormat</a> if designed to run only on Windows Vista and later.</div><div> </div><div class="alert"><b>Note</b>  This function can format data that changes between releases, for example, due to a custom locale. If your application must persist or transmit data, see <a href="https://docs.microsoft.com/windows/desktop/Intl/using-persistent-locale-data">Using Persistent Locale Data</a>.</div><div> </div>
 
 ## -parameters
 
@@ -69,30 +69,30 @@ Formats a duration of time as a time string for a locale specified by name.
 
 ### -param lpLocaleName [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/221aae7b-3a7c-4995-ae78-50d97de436d8">locale name</a>, or one of the following predefined values.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-names">locale name</a>, or one of the following predefined values.
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/63e2e368-af2f-4af0-bbea-2b27d1939394">LOCALE_NAME_INVARIANT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_INVARIANT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/63e2e368-af2f-4af0-bbea-2b27d1939394">LOCALE_NAME_SYSTEM_DEFAULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_SYSTEM_DEFAULT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/63e2e368-af2f-4af0-bbea-2b27d1939394">LOCALE_NAME_USER_DEFAULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_USER_DEFAULT</a>
 </li>
 </ul>
 
 ### -param dwFlags [in]
 
-Flags specifying function options. If <i>lpFormat</i> is not set to <b>NULL</b>, this parameter must be set to 0. If <i>lpFormat</i> is set to <b>NULL</b>, your application can specify <a href="https://msdn.microsoft.com/ab68d16b-5e1e-4af3-b048-43975cded00a">LOCALE_NOUSEROVERRIDE</a> to format the string using the system default duration format for the specified locale.
+Flags specifying function options. If <i>lpFormat</i> is not set to <b>NULL</b>, this parameter must be set to 0. If <i>lpFormat</i> is set to <b>NULL</b>, your application can specify <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-nouseroverride">LOCALE_NOUSEROVERRIDE</a> to format the string using the system default duration format for the specified locale.
 
 <div class="alert"><b>Caution</b>  Use of <b>LOCALE_NOUSEROVERRIDE</b> is strongly discouraged as it disables user preferences.</div>
 <div> </div>
 
 ### -param lpDuration [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure that contains the time duration information to format. The application sets this parameter to <b>NULL</b> if the function is to ignore it and use <i>ullDuration</i>.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that contains the time duration information to format. The application sets this parameter to <b>NULL</b> if the function is to ignore it and use <i>ullDuration</i>.
 
 
 ### -param ullDuration [in]
@@ -218,7 +218,7 @@ Alternatively, the application can set this parameter to 0. In this case, the fu
 
 Returns the number of characters retrieved in the buffer indicated by <i>lpDurationStr</i> if successful. If <i>lpDurationStr</i> is set to <b>NULL</b> and <i>cchDuration</i> is set to 0, the function returns the required size for the duration string buffer, including the terminating null character. For example, if 10 characters are written to the buffer, the function returns 11 to include the terminating null character.
 
-The function returns 0 if it does not succeed. To get extended error information, the application can call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>, which can return one of the following error codes:
+The function returns 0 if it does not succeed. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <ul>
 <li><b>ERROR_INSUFFICIENT_BUFFER</b>. A supplied buffer size was not large enough, or  it was incorrectly set to <b>NULL</b>.</li>
@@ -233,7 +233,7 @@ The function returns 0 if it does not succeed. To get extended error information
 
 This function can be used with multimedia applications that display file time and sporting event applications that display finish times.
 
-This function can retrieve data from <a href="https://msdn.microsoft.com/110efeab-c02f-4244-8950-a975cfc91e8a">custom locales</a>. Data is not guaranteed to be the same from computer to computer or between runs of an application. If your application must persist or transmit data, see <a href="https://msdn.microsoft.com/f62402d6-31de-4ff7-9538-7925a007a089">Using Persistent Locale Data</a>.
+This function can retrieve data from <a href="https://docs.microsoft.com/windows/desktop/Intl/custom-locales">custom locales</a>. Data is not guaranteed to be the same from computer to computer or between runs of an application. If your application must persist or transmit data, see <a href="https://docs.microsoft.com/windows/desktop/Intl/using-persistent-locale-data">Using Persistent Locale Data</a>.
 
 The following are characteristics of duration format strings:
 
@@ -241,7 +241,7 @@ The following are characteristics of duration format strings:
 <li>
 Formatting characters are lowercase.
 
-<div class="alert"><b>Note</b>  An exception is made for (H) to be consistent with <a href="https://msdn.microsoft.com/4d63888e-4496-4315-ac87-bf60c54daa37">GetTimeFormatEx</a>.</div>
+<div class="alert"><b>Note</b>  An exception is made for (H) to be consistent with <a href="https://docs.microsoft.com/windows/desktop/api/datetimeapi/nf-datetimeapi-gettimeformatex">GetTimeFormatEx</a>.</div>
 <div> </div>
 </li>
 <li>Two-digit format strings for hours, minutes, and seconds prepend a leading zero if the value is less than 10.</li>
@@ -252,7 +252,7 @@ Formatting characters are lowercase.
 <li>Round-off occurs by truncation, not by the rule of five rounds up and four rounds down.</li>
 <li>Single quotes are used to escape characters.</li>
 </ul>
-<b>Beginning in Windows 8:</b> If your app passes language tags to this function from the <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Globalization">Windows.Globalization</a> namespace, it must first convert the tags by calling <a href="https://msdn.microsoft.com/99264b22-3fb5-47e2-b0b9-42a6768e67c1">ResolveLocaleName</a>.
+<b>Beginning in Windows 8:</b> If your app passes language tags to this function from the <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Globalization">Windows.Globalization</a> namespace, it must first convert the tags by calling <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-resolvelocalename">ResolveLocaleName</a>.
 
 <b>Examples</b>
 
@@ -364,27 +364,27 @@ Following are examples of duration formats and corresponding outputs for specifi
 
 
 
-<a href="https://msdn.microsoft.com/791fb386-3cc5-410e-bfce-52598fdb10c9">GetDateFormatEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/datetimeapi/nf-datetimeapi-getdateformatex">GetDateFormatEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/bd3e1256-8f0c-488b-9b2f-ca93ffcbad84">GetDurationFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getdurationformat">GetDurationFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/20294ff2-b783-41a2-92a8-41cd974a2ccb">GetLocaleInfoEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getlocaleinfoex">GetLocaleInfoEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/4d63888e-4496-4315-ac87-bf60c54daa37">GetTimeFormatEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/datetimeapi/nf-datetimeapi-gettimeformatex">GetTimeFormatEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a548074-0782-45e1-8051-80c3b9d81885">National Language Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c72c4de-83be-4b7e-9ed8-b0236c1df8a4">National Language Support Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
  
 
  

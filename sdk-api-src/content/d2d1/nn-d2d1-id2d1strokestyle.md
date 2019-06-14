@@ -54,7 +54,7 @@ Describes the caps, miter limit, line join, and dash information for a stroke.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1StrokeStyle</b> interface inherits from <a href="https://msdn.microsoft.com/8f19e74a-f010-4082-a4da-d1dc3cfe3192">ID2D1Resource</a>. <b>ID2D1StrokeStyle</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1StrokeStyle</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1StrokeStyle</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1StrokeStyle</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/42e5d760-dee0-4360-be47-6db9870d51f1">GetDashCap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1strokestyle-getdashcap">GetDashCap</a>
 </td>
 <td align="left" width="63%">
 Gets a value that specifies how the ends of each dash are drawn.
@@ -78,7 +78,7 @@ Gets a value that specifies how the ends of each dash are drawn.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b5add3b9-e052-4727-b14f-543fa452ad6d">GetDashes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1strokestyle-getdashes">GetDashes</a>
 </td>
 <td align="left" width="63%">
 Copies the dash pattern to the specified array. 
@@ -87,7 +87,7 @@ Copies the dash pattern to the specified array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0bd1df70-17db-4f0f-b7a4-b26601b23c44">GetDashesCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1strokestyle-getdashescount">GetDashesCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of entries in the dashes array.
@@ -96,7 +96,7 @@ Retrieves the number of entries in the dashes array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/db540976-95a7-47c9-aeec-d5f874d22764">GetDashOffset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1strokestyle-getdashoffset">GetDashOffset</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that specifies how far in the dash sequence the stroke will start. 
@@ -105,7 +105,7 @@ Retrieves a value that specifies how far in the dash sequence the stroke will st
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/15d61f2c-9348-47af-a9cf-4706ab0033b7">GetDashStyle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1strokestyle-getdashstyle">GetDashStyle</a>
 </td>
 <td align="left" width="63%">
 Gets a value that describes the stroke's dash pattern.
@@ -114,7 +114,7 @@ Gets a value that describes the stroke's dash pattern.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/06cf4629-9fa8-471a-9f92-94bdfb18c2d1">GetEndCap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1strokestyle-getendcap">GetEndCap</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of shape used at the end of a stroke.
@@ -123,7 +123,7 @@ Retrieves the type of shape used at the end of a stroke.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/408e473d-c143-490e-98c3-2da312aa0c94">GetLineJoin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1strokestyle-getlinejoin">GetLineJoin</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of joint used at the vertices of a shape's outline. 
@@ -132,7 +132,7 @@ Retrieves the type of joint used at the vertices of a shape's outline.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/29748b05-830b-48ae-9303-a5f7852792e7">GetMiterLimit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1strokestyle-getmiterlimit">GetMiterLimit</a>
 </td>
 <td align="left" width="63%">
 Retrieves the limit on the ratio of the miter length to half the stroke's thickness.
@@ -141,7 +141,7 @@ Retrieves the limit on the ratio of the miter length to half the stroke's thickn
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8df80ac7-8dad-418f-bff5-14c39ad38fac">GetStartCap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1strokestyle-getstartcap">GetStartCap</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of shape used at the beginning of a stroke.  
@@ -156,9 +156,9 @@ Retrieves the type of shape used at the beginning of a stroke.
 
 
 <h3><a id="Creating_ID2D1StrokeStyle_Objects"></a><a id="creating_id2d1strokestyle_objects"></a><a id="CREATING_ID2D1STROKESTYLE_OBJECTS"></a>Creating ID2D1StrokeStyle Objects</h3>
-To create a stroke style, use the <a href="https://msdn.microsoft.com/cc7bd68b-a6eb-4d05-b331-032ce80f375c">ID2D1Factory::CreateStrokeStyle</a> method.
+To create a stroke style, use the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1factory-createstrokestyle">ID2D1Factory::CreateStrokeStyle</a> method.
 
-A stroke style is a device-indenpendent resource; you can create it once then retain it for the life of your application. For more information about resources, see the <a href="https://msdn.microsoft.com/afd308a7-9524-4436-9a0e-8575383d96fa">Resources Overview</a>.
+A stroke style is a device-indenpendent resource; you can create it once then retain it for the life of your application. For more information about resources, see the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/resources-and-resource-domains">Resources Overview</a>.
 
 
 #### Examples
@@ -216,11 +216,11 @@ m_pRenderTarget->DrawLine(
 
 
 
-<a href="https://msdn.microsoft.com/cc7bd68b-a6eb-4d05-b331-032ce80f375c">ID2D1Factory::CreateStrokeStyle</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1factory-createstrokestyle">ID2D1Factory::CreateStrokeStyle</a>
 
 
 
-<a href="https://msdn.microsoft.com/8f19e74a-f010-4082-a4da-d1dc3cfe3192">ID2D1Resource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>
  
 
  

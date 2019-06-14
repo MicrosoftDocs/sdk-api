@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Restores access to resources that were previously offered by calling <a href="https://msdn.microsoft.com/35728A9D-1D86-41EB-A760-B6B56D2576F3">OfferResources</a>.
+Restores access to resources that were previously offered by calling <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1imagesource-offerresources">OfferResources</a>.
         
 
 
@@ -71,7 +71,7 @@ Returns with TRUE if the corresponding resource’s content was discarded and is
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 <b>ReclaimResources</b> returns:
 
@@ -90,7 +90,7 @@ Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).asp
 
 
 
-After you call <a href="https://msdn.microsoft.com/35728A9D-1D86-41EB-A760-B6B56D2576F3">OfferResources</a> to offer one or more resources, 
+After you call <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1imagesource-offerresources">OfferResources</a> to offer one or more resources, 
 you must call <b>TryReclaimResources</b> before you can use those resources again. 
 You must check the value in the <b>resourcesDiscarded</b> to determine whether the resource’s content was discarded. 
 If a resource’s content was discarded while it was offered, its current content is undefined. Therefore, you must overwrite the resource’s content before you use the resource.
@@ -104,7 +104,7 @@ If a resource’s content was discarded while it was offered, its current conten
 
 
 
-<a href="https://msdn.microsoft.com/a9ee20db-98cf-bc5f-96d8-232073810cc5">ID2D1ImageSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1imagesource">ID2D1ImageSource</a>
  
 
  

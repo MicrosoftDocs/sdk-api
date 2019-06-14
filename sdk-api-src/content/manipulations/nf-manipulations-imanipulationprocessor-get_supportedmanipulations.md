@@ -91,15 +91,15 @@ With this property you can control which manipulations the supports and which it
 
 
 
-<a href="https://msdn.microsoft.com/963f87c1-e128-4bd5-9f28-d49418f768fb">IManipulationProcessor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a>
 
 
 
-<a href="https://msdn.microsoft.com/85ddd2d3-cb4b-48ae-8ad4-230be5420abd">MANIPULATION_PROCESSOR_MANIPULATIONS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/ne-manipulations-manipulation_processor_manipulations">MANIPULATION_PROCESSOR_MANIPULATIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/0f8a3e27-a92f-4086-9573-6c7bbe7efd20">Properties</a>
+<a href="https://docs.microsoft.com/windows/desktop/wintouch/mtproperties">Properties</a>
  
 
  

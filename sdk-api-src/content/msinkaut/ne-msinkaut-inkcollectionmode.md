@@ -64,40 +64,40 @@ Defines values that determine whether ink, gestures, or ink and gestures are rec
 
 Collects only ink, creating a stroke.
 
-The <a href="https://msdn.microsoft.com/5830f7f8-2870-4194-ab3e-b63b71e97063">Gesture</a> event interest is set to <b>FALSE</b>, meaning that gestures are not collected (all other event interests remain as they were).
+The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-gesture">Gesture</a> event interest is set to <b>FALSE</b>, meaning that gestures are not collected (all other event interests remain as they were).
 
 
 ### -field ICM_GestureOnly
 
 Collects only gestures and does not create a stroke. Gestures can be either single or multi-stroke. Multi-stroke gestures are accepted if the strokes are made within the time set by the built-in timer of the recognizer.
 
-All stroke-related and packet-related events do not fire from the <a href="https://msdn.microsoft.com/189f430e-9d00-4e29-bb8c-8ac195896793">InkCollector</a>. Cursor events do fire, and ink is always deleted.
+All stroke-related and packet-related events do not fire from the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-class">InkCollector</a>. Cursor events do fire, and ink is always deleted.
 
-The <a href="https://msdn.microsoft.com/5830f7f8-2870-4194-ab3e-b63b71e97063">Gesture</a> event interest is set to <b>TRUE</b>, meaning that gestures are collected (all other event interests remain as they were).
+The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-gesture">Gesture</a> event interest is set to <b>TRUE</b>, meaning that gestures are collected (all other event interests remain as they were).
 
 
 ### -field ICM_InkAndGesture
 
-Accepts only single-stroke gestures. The <a href="https://msdn.microsoft.com/5830f7f8-2870-4194-ab3e-b63b71e97063">Gesture</a> event fires first, giving the user the ability to say <i>Cancel</i> = <b>TRUE</b> or <b>FALSE</b>. The default is <b>TRUE</b>, except when <a href="https://msdn.microsoft.com/b429ec96-691f-4761-92bf-ef500cf0e1be">NoGesture</a> is the primary gesture, <i>Cancel</i> defaults to <b>FALSE</b>. If <b>TRUE</b>, the ink is a gesture and is deleted. If <b>FALSE</b>, the gesture is ink and a <a href="https://msdn.microsoft.com/eaa89dfe-6141-4205-845b-634321130e26">Stroke</a> event fires.
+Accepts only single-stroke gestures. The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-gesture">Gesture</a> event fires first, giving the user the ability to say <i>Cancel</i> = <b>TRUE</b> or <b>FALSE</b>. The default is <b>TRUE</b>, except when <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">NoGesture</a> is the primary gesture, <i>Cancel</i> defaults to <b>FALSE</b>. If <b>TRUE</b>, the ink is a gesture and is deleted. If <b>FALSE</b>, the gesture is ink and a <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-stroke">Stroke</a> event fires.
 
-The <a href="https://msdn.microsoft.com/5830f7f8-2870-4194-ab3e-b63b71e97063">Gesture</a> event interest is set to <b>TRUE</b> (all other event interests are kept as they were).
+The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-gesture">Gesture</a> event interest is set to <b>TRUE</b> (all other event interests are kept as they were).
 
 
 ## -remarks
 
 
 
-If a user attempts a right-click and moves the pen when in InkOnly or InkAndGesture mode, ink flows from the pen tip. When handling the <a href="https://msdn.microsoft.com/eaa89dfe-6141-4205-845b-634321130e26">Stroke</a> event, you should erase the ink that flowed as a result of the pen movement.
+If a user attempts a right-click and moves the pen when in InkOnly or InkAndGesture mode, ink flows from the pen tip. When handling the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-stroke">Stroke</a> event, you should erase the ink that flowed as a result of the pen movement.
 
-When the <b>InkCollectionMode</b> is set to GestureOnly (set through the <a href="https://msdn.microsoft.com/390fa1a1-254a-4070-806c-c8c478f69254">CollectionMode</a> property), the timeout between when a user adds a gesture and when the <a href="https://msdn.microsoft.com/5830f7f8-2870-4194-ab3e-b63b71e97063">Gesture</a> event occurs is a fixed value that cannot be altered programmatically. Gesture recognition is faster in InkAndGesture mode. To prevent the collection of ink while in InkAndGesture mode, you can:
+When the <b>InkCollectionMode</b> is set to GestureOnly (set through the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_collectionmode">CollectionMode</a> property), the timeout between when a user adds a gesture and when the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-gesture">Gesture</a> event occurs is a fixed value that cannot be altered programmatically. Gesture recognition is faster in InkAndGesture mode. To prevent the collection of ink while in InkAndGesture mode, you can:
 
 <ul>
-<li>Set <a href="https://msdn.microsoft.com/390fa1a1-254a-4070-806c-c8c478f69254">CollectionMode</a> to InkAndGesture.</li>
-<li>In the <a href="https://msdn.microsoft.com/eaa89dfe-6141-4205-845b-634321130e26">Stroke</a> event, delete the stroke.</li>
-<li>In the <a href="https://msdn.microsoft.com/5830f7f8-2870-4194-ab3e-b63b71e97063">Gesture</a> event, process the gesture.</li>
-<li>Set <a href="https://msdn.microsoft.com/1e0e231a-82bc-4d22-9467-4c7b29f4b405">DynamicRendering</a> to <b>FALSE</b>.</li>
+<li>Set <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_collectionmode">CollectionMode</a> to InkAndGesture.</li>
+<li>In the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-stroke">Stroke</a> event, delete the stroke.</li>
+<li>In the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-gesture">Gesture</a> event, process the gesture.</li>
+<li>Set <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_dynamicrendering">DynamicRendering</a> to <b>FALSE</b>.</li>
 </ul>
-When using this enumeration with the <a href="https://msdn.microsoft.com/e9fa6807-6e2a-44ec-9b8f-a560185e4367">InkPicture</a> control (or the <a href="https://msdn.microsoft.com/189f430e-9d00-4e29-bb8c-8ac195896793">InkCollector</a> or <a href="https://msdn.microsoft.com/61191ab3-075e-458b-9e0f-4bc255687b3c">InkOverlay</a> objects) on a system that has the Microsoft Windows XP Tablet PC Edition Software Development Kit (SDK) installed but that doesn't have recognizers, the mode cannot be set to GestureOnly or InkAndGesture.
+When using this enumeration with the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control (or the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-class">InkCollector</a> or <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> objects) on a system that has the Microsoft Windows XP Tablet PC Edition Software Development Kit (SDK) installed but that doesn't have recognizers, the mode cannot be set to GestureOnly or InkAndGesture.
 
 The ink collector always creates either a stroke (InkOnly mode) or a gesture (GestureOnly mode) and sometimes created both (InkAndGesture mode).
 
@@ -106,55 +106,55 @@ Typical scenarios for each mode follow.
 <ul>
 <li>InkOnly:<ol>
 <li>
-<a href="https://msdn.microsoft.com/d05b240c-ba64-4008-b25d-e06c052eb5b0">CursorInRange</a> event fires.</li>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-cursorinrange">CursorInRange</a> event fires.</li>
 <li>
-<a href="https://msdn.microsoft.com/e8eacdec-0381-435f-b453-24dca1c507c9">NewInAirPackets</a> event fires.</li>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-newinairpackets">NewInAirPackets</a> event fires.</li>
 <li>
-<a href="https://msdn.microsoft.com/bf914849-ef33-4746-b2e1-c768cd1d87aa">CursorDown</a> event fires.</li>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-cursordown">CursorDown</a> event fires.</li>
 <li>
-<a href="https://msdn.microsoft.com/2682e7ba-dabd-497e-aea4-6d3f837f4f10">NewPackets</a> event fires.</li>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-newpackets">NewPackets</a> event fires.</li>
 <li>
-<a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp</a> object is created.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object is created.</li>
 <li>
-<a href="https://msdn.microsoft.com/a3a570ed-570b-4579-b120-ed5457630bc2">CursorOutOfRange</a> event fires.</li>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-cursoroutofrange">CursorOutOfRange</a> event fires.</li>
 </ol>
-<div class="alert"><b>Note</b>  You may not always want to fire the <a href="https://msdn.microsoft.com/a3a570ed-570b-4579-b120-ed5457630bc2">CursorOutOfRange</a> event. If you want to continue drawing ink, you may return to the <a href="https://msdn.microsoft.com/e8eacdec-0381-435f-b453-24dca1c507c9">NewInAirPackets</a> or <a href="https://msdn.microsoft.com/bf914849-ef33-4746-b2e1-c768cd1d87aa">CursorDown</a> events after a stroke is completed.</div>
+<div class="alert"><b>Note</b>  You may not always want to fire the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-cursoroutofrange">CursorOutOfRange</a> event. If you want to continue drawing ink, you may return to the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-newinairpackets">NewInAirPackets</a> or <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-cursordown">CursorDown</a> events after a stroke is completed.</div>
 <div> </div>
 </li>
 <li>GestureOnly:<ol>
 <li>
-<a href="https://msdn.microsoft.com/d05b240c-ba64-4008-b25d-e06c052eb5b0">CursorInRange</a> event fires.</li>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-cursorinrange">CursorInRange</a> event fires.</li>
 <li>
-<a href="https://msdn.microsoft.com/e8eacdec-0381-435f-b453-24dca1c507c9">NewInAirPackets</a> event fires.</li>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-newinairpackets">NewInAirPackets</a> event fires.</li>
 <li>
-<a href="https://msdn.microsoft.com/bf914849-ef33-4746-b2e1-c768cd1d87aa">CursorDown</a> event fires.</li>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-cursordown">CursorDown</a> event fires.</li>
 <li>
-<a href="https://msdn.microsoft.com/2682e7ba-dabd-497e-aea4-6d3f837f4f10">NewPackets</a> event fires.</li>
-<li>Either an <a href="https://msdn.microsoft.com/87a1db34-371e-4c02-a470-55f35dfbf4ab">IInkGesture</a> object is created or, if the cursor movement does not represent a gesture, nothing happens.</li>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-newpackets">NewPackets</a> event fires.</li>
+<li>Either an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkgesture">IInkGesture</a> object is created or, if the cursor movement does not represent a gesture, nothing happens.</li>
 <li>
-<a href="https://msdn.microsoft.com/a3a570ed-570b-4579-b120-ed5457630bc2">CursorOutOfRange</a> event fires.</li>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-cursoroutofrange">CursorOutOfRange</a> event fires.</li>
 </ol>
 <div class="alert"><b>Note</b>  Either single or multi-stroke gestures are accepted in this mode.</div>
 <div> </div>
 </li>
 <li>InkAndGesture:<ol>
 <li>
-<a href="https://msdn.microsoft.com/d05b240c-ba64-4008-b25d-e06c052eb5b0">CursorInRange</a> event fires.</li>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-cursorinrange">CursorInRange</a> event fires.</li>
 <li>
-<a href="https://msdn.microsoft.com/e8eacdec-0381-435f-b453-24dca1c507c9">NewInAirPackets</a> event fires.</li>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-newinairpackets">NewInAirPackets</a> event fires.</li>
 <li>
-<a href="https://msdn.microsoft.com/bf914849-ef33-4746-b2e1-c768cd1d87aa">CursorDown</a> event fires.</li>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-cursordown">CursorDown</a> event fires.</li>
 <li>
-<a href="https://msdn.microsoft.com/2682e7ba-dabd-497e-aea4-6d3f837f4f10">NewPackets</a> event fires.</li>
-<li>Either an <a href="https://msdn.microsoft.com/87a1db34-371e-4c02-a470-55f35dfbf4ab">IInkGesture</a> object or an <a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp</a> object is created.</li>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-newpackets">NewPackets</a> event fires.</li>
+<li>Either an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkgesture">IInkGesture</a> object or an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object is created.</li>
 <li>
-<a href="https://msdn.microsoft.com/a3a570ed-570b-4579-b120-ed5457630bc2">CursorOutOfRange</a> event fires.</li>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-cursoroutofrange">CursorOutOfRange</a> event fires.</li>
 </ol>
 <div class="alert"><b>Note</b>  Only single-stroke gestures are accepted in this mode.</div>
 <div> </div>
 </li>
 </ul>
-Unwanted behavior might occur when the <a href="https://msdn.microsoft.com/390fa1a1-254a-4070-806c-c8c478f69254">CollectionMode</a> property is set to InkAndGesture and the interest of an object or control in a known gesture is set (by calling the <a href="https://msdn.microsoft.com/7bab227f-d095-48e8-856f-6446e62826dd">SetGestureStatus</a> method). If a user draws ink that resembles a gesture that is in the recognizer's list of recognition alternates, the <a href="https://msdn.microsoft.com/5830f7f8-2870-4194-ab3e-b63b71e97063">Gesture</a> event fires and ink disappears, even if the gesture is not the top alternate. To prevent the ink from disappearing and cancel collection of the gesture, set <i>Cancel</i> to <b>TRUE</b> if the event is one to which you do not want the recognizer to respond.
+Unwanted behavior might occur when the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_collectionmode">CollectionMode</a> property is set to InkAndGesture and the interest of an object or control in a known gesture is set (by calling the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-setgesturestatus">SetGestureStatus</a> method). If a user draws ink that resembles a gesture that is in the recognizer's list of recognition alternates, the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-gesture">Gesture</a> event fires and ink disappears, even if the gesture is not the top alternate. To prevent the ink from disappearing and cancel collection of the gesture, set <i>Cancel</i> to <b>TRUE</b> if the event is one to which you do not want the recognizer to respond.
 
 
 
@@ -164,27 +164,27 @@ Unwanted behavior might occur when the <a href="https://msdn.microsoft.com/390fa
 
 
 
-<a href="https://msdn.microsoft.com/390fa1a1-254a-4070-806c-c8c478f69254">CollectionMode Property [InkCollector Class]</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_collectionmode">CollectionMode Property [InkCollector Class]</a>
 
 
 
-<a href="https://msdn.microsoft.com/5830f7f8-2870-4194-ab3e-b63b71e97063">Gesture Event</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-gesture">Gesture Event</a>
 
 
 
-<a href="https://msdn.microsoft.com/189f430e-9d00-4e29-bb8c-8ac195896793">InkCollector Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-class">InkCollector Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/61191ab3-075e-458b-9e0f-4bc255687b3c">InkOverlay Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9fa6807-6e2a-44ec-9b8f-a560185e4367">InkPicture Control Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture Control Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/eaa89dfe-6141-4205-845b-634321130e26">Stroke Event</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-stroke">Stroke Event</a>
  
 
  

@@ -63,7 +63,7 @@ Invokes the action of a control, such as a button click.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -84,7 +84,7 @@ Calls to this method should return immediately without blocking. However, this b
 
 
 
-<a href="https://msdn.microsoft.com/08031f22-9b36-4d85-9e15-2139551b893b">IUIAutomationInvokePattern</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationinvokepattern">IUIAutomationInvokePattern</a>
  
 
  

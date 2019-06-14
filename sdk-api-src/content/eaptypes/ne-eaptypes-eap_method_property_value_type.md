@@ -82,15 +82,15 @@ The method property value is a pointer to a value of type  <b>BYTE</b>.
 
 
 
-<a href="https://msdn.microsoft.com/ba4d5a7f-3a5d-4ca3-975e-1ffa182b9014">EAPHost Supplicant Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-supplicant-enumerations">EAPHost Supplicant Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/df8c9ba2-e1c5-4011-bdbe-1d04765d19cd">EAP_METHOD_PROPERTY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_property">EAP_METHOD_PROPERTY</a>
 
 
 
-<a href="https://msdn.microsoft.com/49a62be4-5a8c-4e44-bdd1-aba37e3e7029">EAP_METHOD_PROPERTY_TYPE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ne-eaptypes-_eap_method_property_type">EAP_METHOD_PROPERTY_TYPE</a>
  
 
  

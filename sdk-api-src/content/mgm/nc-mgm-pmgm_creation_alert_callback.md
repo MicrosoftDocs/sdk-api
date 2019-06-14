@@ -129,7 +129,7 @@ On input, a pointer to a buffer that contains the set of interfaces owned by the
 
 
 On output, the client can set the <b>bIsEnabled</b> member of the corresponding 
-<a href="https://msdn.microsoft.com/df3d18fe-1f73-47fd-aab8-818f83c7fcb9">MGM_IF_ENTRY</a> structure to <b>FALSE</b> to prevent forwarding on any of its interfaces. A client may not be required to prevent forwarding; such a client would accept the default value of <b>bIsEnabled</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/ns-mgm-_mgm_if_entry">MGM_IF_ENTRY</a> structure to <b>FALSE</b> to prevent forwarding on any of its interfaces. A client may not be required to prevent forwarding; such a client would accept the default value of <b>bIsEnabled</b>.
 
 
 ## -returns
@@ -147,7 +147,7 @@ RRAS does not expect the application to return any specific value; any value ret
 
 
 
-<a href="https://msdn.microsoft.com/df3d18fe-1f73-47fd-aab8-818f83c7fcb9">MGM_IF_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/ns-mgm-_mgm_if_entry">MGM_IF_ENTRY</a>
  
 
  

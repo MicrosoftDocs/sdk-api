@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>UuidCreateSequential</b> function creates a new 
-<a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a>.
+<a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The
 
 ### -param Uuid
 
-Returns a pointer to the created <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a>.
+Returns a pointer to the created <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>.
 
 
 ## -returns
@@ -91,7 +91,7 @@ The call succeeded.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a> is guaranteed to be unique to this computer only. For more information please see: <a href="http://support.microsoft.com/kb/981080">KB article 981080</a>.
+The <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> is guaranteed to be unique to this computer only. For more information please see: <a href="http://support.microsoft.com/kb/981080">KB article 981080</a>.
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ Cannot get Ethernet or token-ring hardware address for this computer.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -120,15 +120,15 @@ Cannot get Ethernet or token-ring hardware address for this computer.
 
 
 For security reasons, 
-<a href="https://msdn.microsoft.com/4008fb54-7770-4f1a-8e1c-4b20bef884f9">UuidCreate</a> was modified so that it no longer uses a machine's MAC address to generate <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a>s. 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidcreate">UuidCreate</a> was modified so that it no longer uses a machine's MAC address to generate <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>s. 
 <b>UuidCreateSequential</b> was introduced to allow creation of <b>UUID</b>s using the MAC address of a machine's Ethernet card.
 
 The 
-<b>UuidCreateSequential</b> function returns RPC_S_UUID_LOCAL_ONLY when the originating computer does not have an ethernet/token ring (IEEE 802.<i>x</i>) address. In this case, the generated <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a> is a valid identifier, and is guaranteed to be unique among all <b>UUID</b>s generated on the computer. However, the possibility exists that another computer without an ethernet/token ring address generated the identical <b>UUID</b>. Therefore you should never use this <b>UUID</b> to identify an object that is not strictly local to your computer. Computers with ethernet/token ring addresses generate <b>UUID</b>s that are guaranteed to be globally unique.
+<b>UuidCreateSequential</b> function returns RPC_S_UUID_LOCAL_ONLY when the originating computer does not have an ethernet/token ring (IEEE 802.<i>x</i>) address. In this case, the generated <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> is a valid identifier, and is guaranteed to be unique among all <b>UUID</b>s generated on the computer. However, the possibility exists that another computer without an ethernet/token ring address generated the identical <b>UUID</b>. Therefore you should never use this <b>UUID</b> to identify an object that is not strictly local to your computer. Computers with ethernet/token ring addresses generate <b>UUID</b>s that are guaranteed to be globally unique.
 
 <div class="alert"><b>Note</b>  The 
 <b>UuidCreateSequential</b> function tends to be slightly faster than the 
-<a href="https://msdn.microsoft.com/4008fb54-7770-4f1a-8e1c-4b20bef884f9">UuidCreate</a> function. When the performance of the generation of a <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a> is a significant consideration, the 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidcreate">UuidCreate</a> function. When the performance of the generation of a <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> is a significant consideration, the 
 <b>UuidCreateSequential</b> function may be used.</div>
 <div> </div>
 
@@ -139,15 +139,15 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/4008fb54-7770-4f1a-8e1c-4b20bef884f9">UuidCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidcreate">UuidCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/90b3cf6b-a15b-4f91-9ba2-0e43fe3374df">UuidFromString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidfromstring">UuidFromString</a>
 
 
 
-<a href="https://msdn.microsoft.com/49235b28-a0c5-4f69-9932-85350d7bcbb8">UuidToString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidtostring">UuidToString</a>
  
 
  

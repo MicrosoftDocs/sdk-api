@@ -59,7 +59,7 @@ Specifies the color palette that the object application should use when it edits
 
 ### -param pLogpal [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/99d70a0e-ac61-4a88-a500-66443e7882ad">LOGPALETTE</a> structure that specifies the recommended palette.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogpalette">LOGPALETTE</a> structure that specifies the recommended palette.
 
 
 ## -returns
@@ -126,7 +126,7 @@ The <b>IOleObject::SetColorScheme</b> method sends the container application's r
 
 
 
-<a href="https://msdn.microsoft.com/58b32c87-39b6-4d64-9174-cf798ed302c2">IOleObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>
  
 
  

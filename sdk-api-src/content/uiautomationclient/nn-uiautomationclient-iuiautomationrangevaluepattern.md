@@ -54,7 +54,7 @@ Provides access to a control that presents a range of values.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationRangeValuePattern</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUIAutomationRangeValuePattern</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationRangeValuePattern</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationRangeValuePattern</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IUIAutomationRangeValuePattern</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/599cb788-9c1f-4b8e-819c-b82c4edba29b">SetValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationrangevaluepattern-setvalue">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets the value of the control.
@@ -88,7 +88,7 @@ Sets the value of the control.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/93e8df1a-8e07-4efa-8f0e-81aa7f4a3171">CachedIsReadOnly</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationrangevaluepattern-get_cachedisreadonly">CachedIsReadOnly</a>
 
 
 </td>
@@ -104,7 +104,7 @@ Retrieves a cached value that indicates whether the value of the element can be 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d97addfd-53ae-4445-9f77-d24d97644bfc">CachedLargeChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationrangevaluepattern-get_cachedlargechange">CachedLargeChange</a>
 
 
 </td>
@@ -120,7 +120,7 @@ Retrieves, from the cache, the value that is added to or subtracted from the val
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/e5bae825-8e42-4ecb-b891-b802ca8d3360">CachedMaximum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationrangevaluepattern-get_cachedmaximum">CachedMaximum</a>
 
 
 </td>
@@ -136,7 +136,7 @@ Retrieves the cached maximum value of the control.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/40fe6309-8648-49b2-990c-78e7a65ef5ed">CachedMinimum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationrangevaluepattern-get_cachedminimum">CachedMinimum</a>
 
 
 </td>
@@ -152,7 +152,7 @@ Retrieves the cached minimum value of the control.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8d737eaa-eb4a-4d73-b515-876961423fd6">CachedSmallChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationrangevaluepattern-get_cachedsmallchange">CachedSmallChange</a>
 
 
 </td>
@@ -168,7 +168,7 @@ Retrieves, from the cache, the value that is added to or subtracted from the val
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/2a5ca86d-75d1-416e-9801-52d855c90c08">CachedValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationrangevaluepattern-get_cachedvalue">CachedValue</a>
 
 
 </td>
@@ -184,7 +184,7 @@ Retrieves the cached value of the control.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/0c3561b0-3739-463c-8856-84d1ab565506">CurrentIsReadOnly</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationrangevaluepattern-get_currentisreadonly">CurrentIsReadOnly</a>
 
 
 </td>
@@ -200,7 +200,7 @@ Indicates whether the value of the element can be changed.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/801d7a2c-387f-4770-980a-fc5fb98959d8">CurrentLargeChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationrangevaluepattern-get_currentlargechange">CurrentLargeChange</a>
 
 
 </td>
@@ -216,7 +216,7 @@ Retrieves the value that is added to or subtracted from the value of the control
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/3053b901-ec5d-4bfa-ab2f-1ea6b9517f13">CurrentMaximum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationrangevaluepattern-get_currentmaximum">CurrentMaximum</a>
 
 
 </td>
@@ -232,7 +232,7 @@ Retrieves the maximum value of the control.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/1bb98417-750c-4b03-a4a2-d652d0c2fb6e">CurrentMinimum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationrangevaluepattern-get_currentminimum">CurrentMinimum</a>
 
 
 </td>
@@ -248,7 +248,7 @@ Retrieves the minimum value of the control.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/88de76d5-100c-41b9-b87e-2d1c3bf6e633">CurrentSmallChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationrangevaluepattern-get_currentsmallchange">CurrentSmallChange</a>
 
 
 </td>
@@ -264,7 +264,7 @@ Retrieves the value that is added to or subtracted from the value of the control
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/0602822f-750e-49a3-afb4-cf5ce777ea61">CurrentValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationrangevaluepattern-get_currentvalue">CurrentValue</a>
 
 
 </td>
@@ -285,7 +285,7 @@ Retrieves the value of the control.
 
 
 
-<a href="https://msdn.microsoft.com/14358ef0-aa54-42c1-a3da-0f835f5f5ef6">Control Pattern Interfaces for Clients</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>
  
 
  

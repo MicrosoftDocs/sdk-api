@@ -102,11 +102,11 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
 
 
 
-<a href="https://msdn.microsoft.com/92f08c8a-b31a-4f88-8ff5-c60d985b79bf">SetupDiGetHwProfileFriendlyName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigethwprofilefriendlynamea">SetupDiGetHwProfileFriendlyName</a>
 
 
 
-<a href="https://msdn.microsoft.com/add700ee-48aa-47dd-8b55-6338dea05bfb">SetupDiGetHwProfileListEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigethwprofilelistexa">SetupDiGetHwProfileListEx</a>
  
 
  

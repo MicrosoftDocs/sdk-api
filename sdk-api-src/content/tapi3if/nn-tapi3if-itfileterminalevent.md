@@ -51,17 +51,17 @@ ms.custom: 19H1
 
 The 
 <b>ITFileTerminalEvent</b> interface contains methods that retrieve the description of file terminal events that have occurred. When the application's implementation of the 
-<a href="https://msdn.microsoft.com/8cd57c81-cd71-4fe5-a176-805c96c06c31">ITTAPIEventNotification::Event</a> method indicates a 
-<a href="https://msdn.microsoft.com/94faa4a1-7d86-48bc-9e94-f2b8f83f5280">TAPI_EVENT</a> equal to <b>TE_FILETERMINAL</b>, the method's <i>pEvent</i> parameter is an 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> pointer for the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapieventnotification-event">ITTAPIEventNotification::Event</a> method indicates a 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event">TAPI_EVENT</a> equal to <b>TE_FILETERMINAL</b>, the method's <i>pEvent</i> parameter is an 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> pointer for the 
 <b>ITFileTerminalEvent</b> interface.
 <div class="alert"><b>Note</b>  You must call the 
-<a href="https://msdn.microsoft.com/126ec551-aade-47d8-987f-1f735f10bd28">ITTAPI::put_EventFilter</a> method and set an event filter mask that includes <b>TE_FILETERMINAL</b> to enable reception of file terminal events. If you do not call <b>ITTAPI::put_EventFilter</b>, your application will not receive any events. For more information, see the 
-<a href="https://msdn.microsoft.com/db43f4e0-f2f5-49b1-a03d-3df3de0e5611">Events</a> overview.</div><div> </div>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-put_eventfilter">ITTAPI::put_EventFilter</a> method and set an event filter mask that includes <b>TE_FILETERMINAL</b> to enable reception of file terminal events. If you do not call <b>ITTAPI::put_EventFilter</b>, your application will not receive any events. For more information, see the 
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/events">Events</a> overview.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITFileTerminalEvent</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITFileTerminalEvent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITFileTerminalEvent</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITFileTerminalEvent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>ITFileTerminalEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4a9745a7-8119-41a0-b09a-3475f2390d4d">get_Call</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itfileterminalevent-get_call">get_Call</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the call information interface for the call on which the event has occurred.
@@ -85,7 +85,7 @@ Gets a pointer to the call information interface for the call on which the event
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/90594778-712e-4d26-9fe5-cb5cfd240359">get_Cause</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itfileterminalevent-get_cause">get_Cause</a>
 </td>
 <td align="left" width="63%">
 Gets the cause associated with this event.
@@ -94,7 +94,7 @@ Gets the cause associated with this event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1eabd161-12d1-4537-beb1-3a05996aa506">get_Error</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itfileterminalevent-get_error">get_Error</a>
 </td>
 <td align="left" width="63%">
 Gets the error code for the event.
@@ -103,7 +103,7 @@ Gets the error code for the event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f75537e8-f54c-4165-ba89-013eeabceb74">get_State</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itfileterminalevent-get_state">get_State</a>
 </td>
 <td align="left" width="63%">
 Gets the new file terminal state.
@@ -112,7 +112,7 @@ Gets the new file terminal state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/515d9c65-1c24-485a-b7e4-1640e4e8c382">get_Terminal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itfileterminalevent-get_terminal">get_Terminal</a>
 </td>
 <td align="left" width="63%">
 Gets the file terminal that generated this event.
@@ -121,7 +121,7 @@ Gets the file terminal that generated this event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f860faf3-6ca5-43d3-8d68-487d1b1d29b0">get_Track</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itfileterminalevent-get_track">get_Track</a>
 </td>
 <td align="left" width="63%">
 Gets the track terminal that generated this event.

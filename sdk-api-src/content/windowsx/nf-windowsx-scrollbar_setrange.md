@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Sets the range of a scroll bar.
         
-<div class="alert"><b>Note</b>  This macro expands to a call to the <a href="https://msdn.microsoft.com/en-us/library/Bb787599(v=VS.85).aspx">SetScrollRange</a> function, which is deprecated. New applications should use the <a href="https://msdn.microsoft.com/en-us/library/Bb787595(v=VS.85).aspx">SetScrollInfo</a> function.</div><div> </div>
+<div class="alert"><b>Note</b>  This macro expands to a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setscrollrange">SetScrollRange</a> function, which is deprecated. New applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setscrollinfo">SetScrollInfo</a> function.</div><div> </div>
 
 ## -parameters
 
@@ -60,7 +60,7 @@ Sets the range of a scroll bar.
 
 ### -param hwndCtl
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -81,7 +81,7 @@ The maximum value of the scroll bar.
 
 ### -param fRedraw
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> to redraw the control; otherwise <b>FALSE</b>.
 
@@ -90,7 +90,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb787599(v=VS.85).aspx">SetScrollRange</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setscrollrange">SetScrollRange</a>.
 
 
 

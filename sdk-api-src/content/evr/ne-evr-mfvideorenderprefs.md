@@ -62,7 +62,7 @@ Contains flags that define how the enhanced video renderer (EVR) displays the vi
 
 ### -field MFVideoRenderPrefs_DoNotRenderBorder
 
-If this flag is set, the EVR does not draw the border color. By default, the EVR draws a border on areas of the destination rectangle that have no video. See <a href="https://msdn.microsoft.com/4a3647a8-4789-4f18-979b-4a9ee1ce7b71">IMFVideoDisplayControl::SetBorderColor</a>.
+If this flag is set, the EVR does not draw the border color. By default, the EVR draws a border on areas of the destination rectangle that have no video. See <a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-setbordercolor">IMFVideoDisplayControl::SetBorderColor</a>.
           
 
 
@@ -155,9 +155,9 @@ Bitmask to validate flag values. This value is not a valid flag.
 
 
 
-To set these flags, call <a href="https://msdn.microsoft.com/7603aaf8-1671-4b35-bee5-335f656de3c5">IMFVideoDisplayControl::SetRenderingPrefs</a>.
+To set these flags, call <a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-setrenderingprefs">IMFVideoDisplayControl::SetRenderingPrefs</a>.
 
-The flags named "MFVideoRenderPrefs_Allow..." cause the EVR to use lower-quality settings only when requested by the quality manager. (For more information, see <a href="https://msdn.microsoft.com/20681ce7-e07e-4e34-9238-ec23cc6bfc84">IMFQualityAdvise</a>.) The flags named "MFVideoRenderPrefs_Force..." cause the video mixer to use lower-quality settings regardless of the quality manager.
+The flags named "MFVideoRenderPrefs_Allow..." cause the EVR to use lower-quality settings only when requested by the quality manager. (For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise">IMFQualityAdvise</a>.) The flags named "MFVideoRenderPrefs_Force..." cause the video mixer to use lower-quality settings regardless of the quality manager.
 
 
 
@@ -169,7 +169,7 @@ The flags named "MFVideoRenderPrefs_Allow..." cause the EVR to use lower-quality
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

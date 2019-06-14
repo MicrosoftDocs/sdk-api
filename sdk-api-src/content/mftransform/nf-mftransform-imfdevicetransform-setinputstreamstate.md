@@ -144,7 +144,7 @@ The requested stream transition is not possible.
 
 This interface function helps to transition the input stream to a specified state with a specified media type set on the input stream. This will be used by device transform  manager (DTM) when the Device MFT requests a specific input stream’s state and media type to be changed. Device MFT would need to request such a change when one of the Device MFT's output changes.
 
-As an  example, consider a Device MFT that has two input streams and three output streams. Let  Output 1 and Output 2 source from Input 1 and  stream at 720p. Now, if   Output 2’s media type changes to 1080p, Device MFT has to change Input 1's media type to 1080p. To achieve this, Device MFT should request DTM to call this method using the <a href="https://msdn.microsoft.com/734080DD-8D96-4AF3-BB13-FDA8E0398C0B">METransformInputStreamStateChanged</a> message.
+As an  example, consider a Device MFT that has two input streams and three output streams. Let  Output 1 and Output 2 source from Input 1 and  stream at 720p. Now, if   Output 2’s media type changes to 1080p, Device MFT has to change Input 1's media type to 1080p. To achieve this, Device MFT should request DTM to call this method using the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/metransforminputstreamstatechanged">METransformInputStreamStateChanged</a> message.
 
 
 
@@ -155,7 +155,7 @@ As an  example, consider a Device MFT that has two input streams and three outpu
 
 
 
-<a href="https://msdn.microsoft.com/375293FA-8017-4F74-A93C-C15FED8F19AF">IMFDeviceTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransform">IMFDeviceTransform</a>
  
 
  

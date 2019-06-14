@@ -52,14 +52,14 @@ ms.custom: 19H1
 
 The 
 <b>IGPMRSOP</b> interface provides methods that support making Resultant Set of Policy (RSoP) queries in both logging and planning mode. The typical use of this interface is to set various properties required for a particular RSoP query and then to call the 
-<a href="https://msdn.microsoft.com/2259a014-3ecb-480d-ab65-9d27c0acf26c">CreateQueryResults</a> method. RSoP planning mode requires Windows Server on the domain controller used to perform the query. RSoP logging mode requires that the computer being targeted be running Windows Server.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmrsop-createqueryresults">CreateQueryResults</a> method. RSoP planning mode requires Windows Server on the domain controller used to perform the query. RSoP logging mode requires that the computer being targeted be running Windows Server.
 To create a  <b>GPMRSOP</b> object, call the 
-<a href="https://msdn.microsoft.com/61a1be3e-d959-47e2-ad6c-ca00accd0afe">IGPM::GetRSOP</a> method.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpm-getrsop">IGPM::GetRSOP</a> method.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMRSOP</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IGPMRSOP</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMRSOP</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGPMRSOP</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -75,7 +75,7 @@ The <b>IGPMRSOP</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2259a014-3ecb-480d-ab65-9d27c0acf26c">CreateQueryResults</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmrsop-createqueryresults">CreateQueryResults</a>
 </td>
 <td align="left" width="63%">
 Executes a Resultant Set of Policy (RSoP) query that supports both logging mode and planning mode queries.
@@ -84,25 +84,25 @@ Executes a Resultant Set of Policy (RSoP) query that supports both logging mode 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/86766a08-4f3a-4758-8abc-83db3408f0fd">GenerateReport</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmrsop-generatereport">GenerateReport</a>
 </td>
 <td align="left" width="63%">
-Generates an RSoP report based on the query specified in <a href="https://msdn.microsoft.com/86766a08-4f3a-4758-8abc-83db3408f0fd">GenerateReport</a>.
+Generates an RSoP report based on the query specified in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmrsop-generatereport">GenerateReport</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/92a199d6-244f-44e5-8158-d77b8488fde0">GenerateReportToFile</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmrsop-generatereporttofile">GenerateReportToFile</a>
 </td>
 <td align="left" width="63%">
-Generates an RSoP report based on the query specified in <a href="https://msdn.microsoft.com/92a199d6-244f-44e5-8158-d77b8488fde0">GenerateReportToFile</a> and saves it to a file at a specified path.
+Generates an RSoP report based on the query specified in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmrsop-generatereporttofile">GenerateReportToFile</a> and saves it to a file at a specified path.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7cc794e6-1a8d-4e31-9bea-4ebc4cf51602">LoggingEnumerateUsers</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmrsop-loggingenumerateusers">LoggingEnumerateUsers</a>
 </td>
 <td align="left" width="63%">
 Enumerates all users who have logging mode data on a specific computer.
@@ -111,11 +111,11 @@ Enumerates all users who have logging mode data on a specific computer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c2bf9050-4db0-4bf0-a063-0076ba191ff6">ReleaseQueryResults</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmrsop-releasequeryresults">ReleaseQueryResults</a>
 </td>
 <td align="left" width="63%">
 Releases the WMI namespace allocated by a call to the 
-<a href="https://msdn.microsoft.com/2259a014-3ecb-480d-ab65-9d27c0acf26c">IGPMRSOP::CreateQueryResults</a> method.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmrsop-createqueryresults">IGPMRSOP::CreateQueryResults</a> method.
 
 </td>
 </tr>
@@ -130,7 +130,7 @@ Releases the WMI namespace allocated by a call to the
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8a1b6a38-e2a6-455d-8d50-2545b7d6c5d2">LoggingComputer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmrsop-property-methods">LoggingComputer</a>
 
 
 </td>
@@ -146,7 +146,7 @@ Name of the computer being logged.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8a1b6a38-e2a6-455d-8d50-2545b7d6c5d2">LoggingFlags</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmrsop-property-methods">LoggingFlags</a>
 
 
 </td>
@@ -168,7 +168,7 @@ Logging mode flags. This property can be one of the following:
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8a1b6a38-e2a6-455d-8d50-2545b7d6c5d2">LoggingUser</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmrsop-property-methods">LoggingUser</a>
 
 
 </td>
@@ -184,7 +184,7 @@ Name of the user targeted in logging mode.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8a1b6a38-e2a6-455d-8d50-2545b7d6c5d2">Mode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmrsop-property-methods">Mode</a>
 
 
 </td>
@@ -200,7 +200,7 @@ RSOP mode. This property can be one of the following: <b>rsopUnknown</b>, <b>rso
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8a1b6a38-e2a6-455d-8d50-2545b7d6c5d2">Namespace</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmrsop-property-methods">Namespace</a>
 
 
 </td>
@@ -216,7 +216,7 @@ RSOP WMI namespace generated as output from an RSoP simulation. The format is ty
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8a1b6a38-e2a6-455d-8d50-2545b7d6c5d2">PlanningComputer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmrsop-property-methods">PlanningComputer</a>
 
 
 </td>
@@ -232,7 +232,7 @@ Name of the computer to use during planning mode simulation. This is the SAM acc
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8a1b6a38-e2a6-455d-8d50-2545b7d6c5d2">PlanningComputerSecurityGroups</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmrsop-property-methods">PlanningComputerSecurityGroups</a>
 
 
 </td>
@@ -242,14 +242,14 @@ Read-only
 </td>
 <td align="left" width="63%">
 Security groups to associate with the computer during planning mode simulation. This property is an array of variants that contain 
-<a href="https://msdn.microsoft.com/f9c24fe6-58c7-4e82-9ac0-1157ed8fffeb">IGPMTrustee</a> interface pointers.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmtrustee">IGPMTrustee</a> interface pointers.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8a1b6a38-e2a6-455d-8d50-2545b7d6c5d2">PlanningComputerSOM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmrsop-property-methods">PlanningComputerSOM</a>
 
 
 </td>
@@ -265,7 +265,7 @@ Scope of management (SOM) to use for the computer during planning mode simulatio
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8a1b6a38-e2a6-455d-8d50-2545b7d6c5d2">PlanningComputerWMIFilters</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmrsop-property-methods">PlanningComputerWMIFilters</a>
 
 
 </td>
@@ -275,14 +275,14 @@ Read-only
 </td>
 <td align="left" width="63%">
 WMI filter to associate with the computer during planning mode simulation. This property is an array of variants that contain 
-<a href="https://msdn.microsoft.com/801428f1-9ce5-4348-acab-23cc9ea8cac3">IGPMWMIFilter</a> interface pointers.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">IGPMWMIFilter</a> interface pointers.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8a1b6a38-e2a6-455d-8d50-2545b7d6c5d2">PlanningDomainController</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmrsop-property-methods">PlanningDomainController</a>
 
 
 </td>
@@ -298,7 +298,7 @@ Name of the DC to use in planning mode. This can be a DNS name or a NetBIOS name
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8a1b6a38-e2a6-455d-8d50-2545b7d6c5d2">PlanningFlags</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmrsop-property-methods">PlanningFlags</a>
 
 
 </td>
@@ -328,7 +328,7 @@ Planning mode flags. The value of this property can be one or more of the follow
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8a1b6a38-e2a6-455d-8d50-2545b7d6c5d2">PlanningSiteName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmrsop-property-methods">PlanningSiteName</a>
 
 
 </td>
@@ -344,7 +344,7 @@ Name of the site to use during planning mode simulation; for example, Default-fi
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8a1b6a38-e2a6-455d-8d50-2545b7d6c5d2">PlanningUser</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmrsop-property-methods">PlanningUser</a>
 
 
 </td>
@@ -360,7 +360,7 @@ Name of the user for planning mode simulation. This is the Security Accounts Man
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8a1b6a38-e2a6-455d-8d50-2545b7d6c5d2">PlanningUserSecurityGroups</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmrsop-property-methods">PlanningUserSecurityGroups</a>
 
 
 </td>
@@ -370,14 +370,14 @@ Read-only
 </td>
 <td align="left" width="63%">
 Security groups to associate with the user during planning mode simulation. This property is an array of 
-variants that contain <a href="https://msdn.microsoft.com/f9c24fe6-58c7-4e82-9ac0-1157ed8fffeb">IGPMTrustee</a> interface pointers.
+variants that contain <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmtrustee">IGPMTrustee</a> interface pointers.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8a1b6a38-e2a6-455d-8d50-2545b7d6c5d2">PlanningUserSOM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmrsop-property-methods">PlanningUserSOM</a>
 
 
 </td>
@@ -393,7 +393,7 @@ Name of the user scope of management (SOM) to use during planning mode simulatio
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8a1b6a38-e2a6-455d-8d50-2545b7d6c5d2">PlanningUserWMIFilters</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmrsop-property-methods">PlanningUserWMIFilters</a>
 
 
 </td>
@@ -403,7 +403,7 @@ Read-only
 </td>
 <td align="left" width="63%">
 WMI filters to associate with the user during planning mode simulation. This property is an array of 
-<a href="https://msdn.microsoft.com/801428f1-9ce5-4348-acab-23cc9ea8cac3">IGPMWMIFilter</a> interface pointers.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">IGPMWMIFilter</a> interface pointers.
 
 </td>
 </tr>
@@ -415,7 +415,7 @@ WMI filters to associate with the user during planning mode simulation. This pro
 
 
 For more information about security groups, see 
-<a href="https://msdn.microsoft.com/3236c51f-21c1-4c07-9b76-2668ae72a42f">How Security Groups are Used in Access Control</a> in the Active Directory Programmer's Guide.
+<a href="https://docs.microsoft.com/windows/desktop/AD/how-security-groups-are-used-in-access-control">How Security Groups are Used in Access Control</a> in the Active Directory Programmer's Guide.
 
 
 
@@ -425,15 +425,15 @@ For more information about security groups, see
 
 
 
-<a href="https://msdn.microsoft.com/2780760e-7114-46b0-a264-00ed58a556cb">IGPM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
 
 
 
-<a href="https://msdn.microsoft.com/f9c24fe6-58c7-4e82-9ac0-1157ed8fffeb">IGPMTrustee</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmtrustee">IGPMTrustee</a>
 
 
 
-<a href="https://msdn.microsoft.com/801428f1-9ce5-4348-acab-23cc9ea8cac3">IGPMWMIFilter</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">IGPMWMIFilter</a>
  
 
  

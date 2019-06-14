@@ -59,7 +59,7 @@ The transfer rate of a response
 
 ### -field Flags
 
-An <a href="https://msdn.microsoft.com/cafa3b04-ac8b-4269-bfa9-fe8e9ab65936">HTTP_PROPERTY_FLAGS</a> structure specifying whether the property is present.
+An <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_property_flags">HTTP_PROPERTY_FLAGS</a> structure specifying whether the property is present.
 
 
 ### -field MaxBandwidth
@@ -99,7 +99,7 @@ For example, if that client needs initial 20KB of the file to start playback, th
 
 
 
-<a href="https://msdn.microsoft.com/5a8e28e9-f85b-4550-929e-53f38eca6a8c">HTTP Server API Version 2.0 Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-structures">HTTP Server API Version 2.0 Structures</a>
  
 
  

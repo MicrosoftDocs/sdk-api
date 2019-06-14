@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ITfKeyEventSink</b> interface is implemented by a text service to receive keyboard and focus event notifications. To install this event sink, call <a href="https://msdn.microsoft.com/dfda786a-09f5-412c-878d-0ba0cbbdafe0">ITfKeystrokeMgr::AdviseKeyEventSink</a>.
+The <b>ITfKeyEventSink</b> interface is implemented by a text service to receive keyboard and focus event notifications. To install this event sink, call <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-advisekeyeventsink">ITfKeystrokeMgr::AdviseKeyEventSink</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfKeyEventSink</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfKeyEventSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfKeyEventSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfKeyEventSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfKeyEventSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/aceeb367-0963-484b-afae-26a2c4fb24c7">OnKeyDown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeyeventsink-onkeydown">OnKeyDown</a>
 </td>
 <td align="left" width="63%">
 Called when a key down event occurs.
@@ -78,7 +78,7 @@ Called when a key down event occurs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5718a15b-985e-4286-a963-cee513e7550c">OnKeyUp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeyeventsink-onkeyup">OnKeyUp</a>
 </td>
 <td align="left" width="63%">
 Called when a key up event occurs.
@@ -87,7 +87,7 @@ Called when a key up event occurs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/90b3f2f4-5655-42e3-bdef-62c090800e5e">OnPreservedKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeyeventsink-onpreservedkey">OnPreservedKey</a>
 </td>
 <td align="left" width="63%">
 Called when a preserved key event occurs.
@@ -96,7 +96,7 @@ Called when a preserved key event occurs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/999c7ead-7ca6-42a5-a530-706fb3283b21">OnSetFocus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeyeventsink-onsetfocus">OnSetFocus</a>
 </td>
 <td align="left" width="63%">
 Called when a TSF text service receives or loses the keyboard focus.
@@ -105,7 +105,7 @@ Called when a TSF text service receives or loses the keyboard focus.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3d8056ef-c012-4989-91ce-65ae8cd39404">OnTestKeyDown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeyeventsink-ontestkeydown">OnTestKeyDown</a>
 </td>
 <td align="left" width="63%">
 Called to determine if a text service will handle a key down event.
@@ -114,7 +114,7 @@ Called to determine if a text service will handle a key down event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2d105a20-3fb8-43aa-a36a-744803bd4035">OnTestKeyUp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeyeventsink-ontestkeyup">OnTestKeyUp</a>
 </td>
 <td align="left" width="63%">
 Called to determine if a text service will handle a key up event.
@@ -129,12 +129,12 @@ Called to determine if a text service will handle a key up event.
 
 
 
-<a href="https://msdn.microsoft.com/dfda786a-09f5-412c-878d-0ba0cbbdafe0">ITfKeystrokeMgr::AdviseKeyEventSink
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-advisekeyeventsink">ITfKeystrokeMgr::AdviseKeyEventSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

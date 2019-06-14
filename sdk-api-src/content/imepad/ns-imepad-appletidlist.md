@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies an <a href="https://msdn.microsoft.com/F3BC7176-9659-47B6-AFCA-049807394961">IImePadApplet</a> IID list.
+Specifies an <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a> IID list.
 
 
 ## -struct-fields
@@ -64,5 +64,5 @@ The number of the IID's implemented in this applet.
 
 ### -field pIIDList
 
-The IID list. This must be allocated with <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>.
+The IID list. This must be allocated with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>.
 

@@ -94,7 +94,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-This method has the same effect as individually calling the <a href="https://msdn.microsoft.com/en-us/library/Dd389583(v=VS.85).aspx">IBasicVideo::get_SourceLeft</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd389584(v=VS.85).aspx">IBasicVideo::get_SourceTop</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd389585(v=VS.85).aspx">IBasicVideo::get_SourceWidth</a>, and <a href="https://msdn.microsoft.com/en-us/library/Dd389582(v=VS.85).aspx">IBasicVideo::get_SourceHeight</a> methods.
+This method has the same effect as individually calling the <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ibasicvideo-get_sourceleft">IBasicVideo::get_SourceLeft</a>, <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ibasicvideo-get_sourcetop">IBasicVideo::get_SourceTop</a>, <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ibasicvideo-get_sourcewidth">IBasicVideo::get_SourceWidth</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ibasicvideo-get_sourceheight">IBasicVideo::get_SourceHeight</a> methods.
 
 
 
@@ -104,11 +104,11 @@ This method has the same effect as individually calling the <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389540(v=VS.85).aspx">IBasicVideo Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo Interface</a>
  
 
  

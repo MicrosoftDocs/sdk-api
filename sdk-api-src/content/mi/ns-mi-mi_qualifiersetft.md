@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 A support structure used in the 
-     <a href="https://msdn.microsoft.com/6c374d19-c433-4c70-a644-e53a401f96dd">MI_QualifierSet</a> structure. Use the functions with the 
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_qualifierset">MI_QualifierSet</a> structure. Use the functions with the 
      name prefix "MI_QualifierSet_" to manipulate these structures.
 
 
@@ -69,17 +69,17 @@ TBD
 #### - GetQualifier
 
 Gets a named qualifier. See 
-       <a href="https://msdn.microsoft.com/16dde421-3746-4722-9f08-56835b7603fb">MI_QualifierSet_GetQualifier</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_qualifierset_getqualifier">MI_QualifierSet_GetQualifier</a>.
 
 
 #### - GetQualifierAt
 
 Gets a qualifier at the specified index. See 
-       <a href="https://msdn.microsoft.com/5dfcdd7a-7740-4d40-b412-89f6f090561c">MI_QualifierSet_GetQualifierAt</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_qualifierset_getqualifierat">MI_QualifierSet_GetQualifierAt</a>.
 
 
 #### - GetQualifierCount
 
 Gets the number of qualifiers in a qualifier set. See 
-       <a href="https://msdn.microsoft.com/0027b8fc-0528-4aa8-85bc-088429e1e045">MI_QualifierSet_GetQualifierCount</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_qualifierset_getqualifiercount">MI_QualifierSet_GetQualifierCount</a>.
 

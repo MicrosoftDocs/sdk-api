@@ -81,7 +81,7 @@ An array of category identifiers.
 
 ### -param ppenumClsid [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/0b2a39e4-105e-4ba7-bfa4-3ecd75dae4b3">IEnumCLSID</a> interface pointer that can be used to enumerate the CLSIDs of the classes that implement the specified category.
+A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd542667(v=vs.85)">IEnumCLSID</a> interface pointer that can be used to enumerate the CLSIDs of the classes that implement the specified category.
 
 
 ## -returns
@@ -98,7 +98,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, a
 
 
 
-<a href="https://msdn.microsoft.com/1fd68126-b512-4131-8e93-cea7c1c3e9c0">ICatInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comcat/nn-comcat-icatinformation">ICatInformation</a>
  
 
  

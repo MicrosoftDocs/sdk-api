@@ -76,11 +76,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/6C3BDE9B-D354-48F8-B7F6-517DF14202C0">IBuffer</a>
+<a href="https://docs.microsoft.com/previous-versions//hh438362(v=vs.85)">IBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/03D084C8-7DF6-4C5D-A003-0D6E3F29C7CA">IBufferByteAccess</a>
+<a href="https://docs.microsoft.com/previous-versions//hh846267(v=vs.85)">IBufferByteAccess</a>
  
 
  

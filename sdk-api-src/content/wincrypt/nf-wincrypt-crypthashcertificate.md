@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptHashCertificate</b> function <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hashes</a> the entire encoded content of a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate</a> including its signature.
+<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptHashCertificate</b> function <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hashes</a> the entire encoded content of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a> including its signature.
 
 
 ## -parameters
@@ -61,12 +61,12 @@ ms.custom: 19H1
 
 This parameter is not used and should be set to <b>NULL</b>.
 
-<b>Windows Server 2003 and Windows XP:  </b>A handle of the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) to use to compute the hash. 
+<b>Windows Server 2003 and Windows XP:  </b>A handle of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) to use to compute the hash. 
 
 
 This parameter's data type is <b>HCRYPTPROV</b>.
 
-Unless there is a strong reason for passing in a specific CSP in <i>hCryptProv</i>, zero is passed in. Passing in zero causes the default <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">RSA</a> or <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Digital Signature Standard</a> (DSS) provider to be acquired before doing hash, signature verification, or recipient encryption operations.
+Unless there is a strong reason for passing in a specific CSP in <i>hCryptProv</i>, zero is passed in. Passing in zero causes the default <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">RSA</a> or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Digital Signature Standard</a> (DSS) provider to be acquired before doing hash, signature verification, or recipient encryption operations.
 
 
 
@@ -74,13 +74,13 @@ Unless there is a strong reason for passing in a specific CSP in <i>hCryptProv</
 ### -param Algid [in]
 
 An 
-						<a href="https://msdn.microsoft.com/557436b4-f7f1-4708-acc7-c6b47e6322ad">ALG_ID</a> structure that specifies the <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash algorithm</a> to use. If <i>Algid</i> is zero, the default hash algorithm, SHA1, is used.
+						<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a> structure that specifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash algorithm</a> to use. If <i>Algid</i> is zero, the default hash algorithm, SHA1, is used.
 
 
 ### -param dwFlags [in]
 
 Value to be passed to the hash API. For details, see 
-<a href="https://msdn.microsoft.com/05e3db57-8d83-48e2-8590-68039ea27253">CryptCreateHash</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>.
 
 
 ### -param pbEncoded [in]
@@ -101,7 +101,7 @@ A pointer to a buffer to receive the computed hash.
 
 
 To set the size of this information for memory allocation purposes, this parameter can be <b>NULL</b>. For more information, see 
-<a href="https://msdn.microsoft.com/ef99edef-39b2-4d78-9c01-13720215d47f">Retrieving Data of Unknown Length</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 
 ### -param pcbComputedHash [in, out]
@@ -121,12 +121,12 @@ A pointer to a <b>DWORD</b> that contains the size, in bytes, of the buffer poin
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 <div class="alert"><b>Note</b>  Errors from the called functions 
-<a href="https://msdn.microsoft.com/05e3db57-8d83-48e2-8590-68039ea27253">CryptCreateHash</a>, 
-<a href="https://msdn.microsoft.com/ed008c07-1a40-4075-bdaa-eb7f7e12d9c3">CryptGetHashParam</a> and 
-<a href="https://msdn.microsoft.com/ec1482a2-c2cb-4c5f-af9c-d493134413d6">CryptHashData</a> might be propagated to this function.</div>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgethashparam">CryptGetHashParam</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashdata">CryptHashData</a> might be propagated to this function.</div>
 <div> </div>
 
 
@@ -136,15 +136,15 @@ If the function fails, it returns zero (<b>FALSE</b>). For extended error inform
 
 
 
-<a href="https://msdn.microsoft.com/b0c419b7-ebb3-42c6-9f6a-59b55a2db1b2">CryptHashPublicKeyInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashpublickeyinfo">CryptHashPublicKeyInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/84477054-dd76-4dde-b465-9edeaf192714">CryptHashToBeSigned</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashtobesigned">CryptHashToBeSigned</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>
  
 
  

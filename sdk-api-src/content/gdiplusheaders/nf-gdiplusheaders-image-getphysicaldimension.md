@@ -60,24 +60,24 @@ The <b>Image::GetPhysicalDimension</b> method gets the width and height of this 
 
 ### -param size [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a>*</b>
 
 Pointer to a 
-					<a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a> object that receives the width and height of this image. 
+					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a> object that receives the width and height of this image. 
 
 
 ## -returns
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 </strong>
 
 If the method succeeds, it returns Ok, which is an element of the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 
 
@@ -87,35 +87,35 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536386(v=VS.85).aspx">Cropping and Scaling Images</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-cropping-and-scaling-images-about">Cropping and Scaling Images</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535373(v=VS.85).aspx">Image::GetBounds</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getbounds">Image::GetBounds</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535380(v=VS.85).aspx">Image::GetHeight</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getheight">Image::GetHeight</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535381(v=VS.85).aspx">Image::GetHorizontalResolution</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-gethorizontalresolution">Image::GetHorizontalResolution</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535396(v=VS.85).aspx">Image::GetVerticalResolution</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getverticalresolution">Image::GetVerticalResolution</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535397(v=VS.85).aspx">Image::GetWidth</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getwidth">Image::GetWidth</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533829(v=VS.85).aspx">Improving Performance by Avoiding Automatic Scaling</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-improving-performance-by-avoiding-automatic-scaling-use">Improving Performance by Avoiding Automatic Scaling</a>
  
 
  

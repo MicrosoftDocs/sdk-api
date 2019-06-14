@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Determines whether activity logging should be performed when obtaining the <a href="https://msdn.microsoft.com/92ae8611-fbb4-470e-8a48-395defaef904">IWPCSettings</a> interface.
+Determines whether activity logging should be performed when obtaining the <a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nn-wpcapi-iwpcsettings">IWPCSettings</a> interface.
 
 
 ## -parameters
@@ -128,7 +128,7 @@ The method failed.
 
 
 
-<a href="https://msdn.microsoft.com/92ae8611-fbb4-470e-8a48-395defaef904">IWPCSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nn-wpcapi-iwpcsettings">IWPCSettings</a>
  
 
  

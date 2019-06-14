@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Converts a numeric value into a string that represents the number expressed as a size value in bytes, kilobytes, megabytes, or gigabytes, depending on the size. Differs from <a href="https://msdn.microsoft.com/244f93cb-0976-4a31-958c-ae0ed81c1dcf">StrFormatByteSizeA</a> in one parameter type.
+Converts a numeric value into a string that represents the number expressed as a size value in bytes, kilobytes, megabytes, or gigabytes, depending on the size. Differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizea">StrFormatByteSizeA</a> in one parameter type.
 
 
 ## -parameters
@@ -138,15 +138,15 @@ The following table illustrates how this function converts a numeric value into 
 
 
 
-<a href="https://msdn.microsoft.com/b56dd90a-7033-409b-a8ea-e81a7a8a2342">StrFormatByteSize64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesize64a">StrFormatByteSize64</a>
 
 
 
-<a href="https://msdn.microsoft.com/244f93cb-0976-4a31-958c-ae0ed81c1dcf">StrFormatByteSizeA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizea">StrFormatByteSizeA</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ecc6427-e7bb-43ec-ab78-665ef52f8b10">StrFormatByteSizeEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizeex">StrFormatByteSizeEx</a>
  
 
  

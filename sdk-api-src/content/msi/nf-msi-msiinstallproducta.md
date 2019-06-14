@@ -69,10 +69,10 @@ A null-terminated string that specifies the path to the location of the Windows 
 ### -param szCommandLine [in]
 
 A null-terminated string that specifies the command line property settings. This should be a list of the format <i>Property=Setting Property=Setting</i>. For more information, see 
-<a href="https://msdn.microsoft.com/b7b715e7-e92c-4b84-b60d-a0ff8412749b">About Properties</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/about-properties">About Properties</a>.
 
 To perform an administrative installation, include ACTION=ADMIN in <i>szCommandLine</i>. For more information, see the 
-<a href="https://msdn.microsoft.com/f2c436b6-ebd9-4ac4-8609-f54129023ca7">ACTION</a> property.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/action">ACTION</a> property.
 
 
 ## -returns
@@ -103,14 +103,14 @@ The function completes successfully.
 </td>
 <td width="60%">
 For more information, see 
-<a href="https://msdn.microsoft.com/9ea81ef3-a5b5-4d13-b0b8-3da6e919315e">Error Codes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/error-codes">Error Codes</a>.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/5cce27ff-1143-4fe6-b4bd-727581431c07">Initialization Error</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/Msi/initialization-errors">Initialization Error</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -122,7 +122,7 @@ An error that relates to initialization occurred.
  
 
 For more information, see 
-<a href="https://msdn.microsoft.com/0153a21f-9b26-4088-b12b-96c9e6918cc3">Displayed Error Messages</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>.
 
 
 
@@ -136,14 +136,14 @@ The
 
 <ul>
 <li>You can change user interface settings by using the 
-<a href="https://msdn.microsoft.com/303c2ea9-4c8f-46d3-b587-7c50e2810c28">MsiSetInternalUI</a>, 
-<a href="https://msdn.microsoft.com/fcbf0607-d048-486f-bec2-f6e9d03e4194">MsiSetExternalUI</a>, or <a href="https://msdn.microsoft.com/f2cd2bb7-0e4f-4d3b-9e6c-6f15661064df">MsiSetExternalUIRecord</a> functions.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisetinternalui">MsiSetInternalUI</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisetexternaluia">MsiSetExternalUI</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisetexternaluirecord">MsiSetExternalUIRecord</a> functions.</li>
 <li>You can set the log mode by using the 
-<a href="https://msdn.microsoft.com/117ccd0b-e434-453f-9602-ff50bc85db6e">MsiEnableLog</a> function.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msienableloga">MsiEnableLog</a> function.</li>
 <li>You can completely remove a product by setting REMOVE=ALL in <i>szCommandLine</i>.</li>
 </ul>
 For more information, see 
-<a href="https://msdn.microsoft.com/39f4609a-7bf8-42b3-b23e-0d6a40b69fd3">REMOVE</a> Property.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/remove">REMOVE</a> Property.
 
 
 
@@ -153,23 +153,23 @@ For more information, see
 
 
 
-<a href="https://msdn.microsoft.com/0153a21f-9b26-4088-b12b-96c9e6918cc3">Displayed Error Messages</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ea81ef3-a5b5-4d13-b0b8-3da6e919315e">Error Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/error-codes">Error Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/5cce27ff-1143-4fe6-b4bd-727581431c07">Initialization Error</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/initialization-errors">Initialization Error</a>
 
 
 
-<a href="https://msdn.microsoft.com/05a16915-6b47-4d51-b62a-5a4d92b87e50">Installation and Configuration Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Installation and Configuration Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4a0f4d8-818d-4e60-908b-adaa2a54de95">Multiple-Package Installations</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>
  
 
  

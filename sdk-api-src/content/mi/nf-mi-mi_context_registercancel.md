@@ -76,7 +76,7 @@ Data to be passed to the callback.
 
 
 
-A value of the <a href="https://msdn.microsoft.com/9AA2B479-E8A5-4F0C-A8A4-06DB7CB7CA2F">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 
 
@@ -95,15 +95,15 @@ If a provider calls this function multiple times on the same context, only the l
 
 
 
-<a href="https://msdn.microsoft.com/f2296852-ac09-447c-8088-5639f1e48efd">MI_CancelCallback</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn792316(v=vs.85)">MI_CancelCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/3c498055-03ef-4163-9de5-cf4e70051cea">MI_CancellationReason</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_cancellationreason">MI_CancellationReason</a>
 
 
 
-<a href="https://msdn.microsoft.com/51d6c510-f9fd-4ab7-a669-b2a5776b496d">MI_Context</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_context">MI_Context</a>
  
 
  

@@ -82,7 +82,7 @@ The properties in the property bag may only be partially classified because a fa
 
 
 
-<a href="https://msdn.microsoft.com/b7e5885e-c716-4fa8-afc0-bfe258e5f421">IFsrmPropertyBag::PropertyBagFlags</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_propertybagflags">IFsrmPropertyBag::PropertyBagFlags</a>
  
 
  

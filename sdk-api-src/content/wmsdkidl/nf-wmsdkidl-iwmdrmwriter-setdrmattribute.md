@@ -78,7 +78,7 @@ Pointer to a null-terminated string containing the attribute name. See Remarks f
 
 ### -param Type [in]
 
-A value from the <a href="https://msdn.microsoft.com/en-us/library/Dd757834(v=VS.85).aspx">WMT_ATTR_DATATYPE</a> enumeration type specifying the data type of the attribute data.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a> enumeration type specifying the data type of the attribute data.
 
 
 ### -param pValue [in]
@@ -104,9 +104,9 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-This method is somewhat misnamed because it is used to set not only writable DRM file attributes (See <a href="https://msdn.microsoft.com/222ef91c-b776-4de8-b1ad-88c2beca05aa">DRM Attribute List</a>), but also certain DRM properties that are used by the DRM run-time components but are not written to the DRM header in the file. (See <a href="https://msdn.microsoft.com/862fc8bc-6e40-4496-862a-c12c8a382116">DRM Properties</a>.)
+This method is somewhat misnamed because it is used to set not only writable DRM file attributes (See <a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-attribute-list">DRM Attribute List</a>), but also certain DRM properties that are used by the DRM run-time components but are not written to the DRM header in the file. (See <a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-properties">DRM Properties</a>.)
 
-The properties <b>Use_Advanced_DRM</b> and <b>Use_DRM</b> may be specified before a profile is set. No other properties can be set before a profile is set. The following code snippet shows how to call this function, using the <a href="https://msdn.microsoft.com/111765f6-963c-477d-8224-8e4fa06b0cc3">DRM_ContentID</a> property as an example. Assume that <i>pDRMWriter</i> is a <b>IWMDRMWriter</b> interface pointer, and <i>wszContentID</i> is an array of type <b>WCHAR</b>.
+The properties <b>Use_Advanced_DRM</b> and <b>Use_DRM</b> may be specified before a profile is set. No other properties can be set before a profile is set. The following code snippet shows how to call this function, using the <a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-contentid">DRM_ContentID</a> property as an example. Assume that <i>pDRMWriter</i> is a <b>IWMDRMWriter</b> interface pointer, and <i>wszContentID</i> is an array of type <b>WCHAR</b>.
 
 
 ```cpp
@@ -126,15 +126,15 @@ hr = pDRMWriter->SetDRMAttribute( 0, g_wszWMDRM_ContentID,
 
 
 
-<a href="https://msdn.microsoft.com/222ef91c-b776-4de8-b1ad-88c2beca05aa">DRM Attribute List</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-attribute-list">DRM Attribute List</a>
 
 
 
-<a href="https://msdn.microsoft.com/862fc8bc-6e40-4496-862a-c12c8a382116">DRM Properties</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-properties">DRM Properties</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798372(v=VS.85).aspx">IWMDRMWriter Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmwriter">IWMDRMWriter Interface</a>
  
 
  

@@ -64,25 +64,25 @@ The
 ### -field Header
 
 An 
-<a href="https://msdn.microsoft.com/33c2de6b-afc2-4323-8d81-2970e66edf5e">EVENT_TRACE_HEADER</a> structure that contains standard event tracing information.
+<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-header">EVENT_TRACE_HEADER</a> structure that contains standard event tracing information.
 
 
 ### -field InstanceId
 
 Instance identifier. Contains valid data when the 
-provider calls the <a href="https://msdn.microsoft.com/e8361bdc-21dd-47a0-bdbf-56f4d6195689">TraceEventInstance</a> function to generate the event. Otherwise, the value is zero.
+provider calls the <a href="https://docs.microsoft.com/windows/desktop/ETW/traceeventinstance">TraceEventInstance</a> function to generate the event. Otherwise, the value is zero.
 
 
 ### -field ParentInstanceId
 
 Instance identifier for a parent event. Contains valid data when the 
-provider calls the <a href="https://msdn.microsoft.com/e8361bdc-21dd-47a0-bdbf-56f4d6195689">TraceEventInstance</a> function to generate the event. Otherwise, the value is zero.
+provider calls the <a href="https://docs.microsoft.com/windows/desktop/ETW/traceeventinstance">TraceEventInstance</a> function to generate the event. Otherwise, the value is zero.
 
 
 ### -field ParentGuid
 
 Class GUID of the parent event. Contains valid data when the 
-provider calls the <a href="https://msdn.microsoft.com/e8361bdc-21dd-47a0-bdbf-56f4d6195689">TraceEventInstance</a> function to generate the event. Otherwise, the value is zero.
+provider calls the <a href="https://docs.microsoft.com/windows/desktop/ETW/traceeventinstance">TraceEventInstance</a> function to generate the event. Otherwise, the value is zero.
 
 
 ### -field MofData
@@ -107,7 +107,7 @@ Reserved.
 
 ### -field DUMMYUNIONNAME.BufferContext
 
-Provides information about the event such as the session identifier and processor number of the CPU on which the provider process ran. For details, see the <a href="https://msdn.microsoft.com/75577305-fb3f-40a2-8fe6-9cd82c3f4e69">ETW_BUFFER_CONTEXT</a> structure.
+Provides information about the event such as the session identifier and processor number of the CPU on which the provider process ran. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/relogger/ns-relogger-_etw_buffer_context">ETW_BUFFER_CONTEXT</a> structure.
 
 <b>Prior to Windows Vista:  </b>Not supported.
 
@@ -117,7 +117,7 @@ Provides information about the event such as the session identifier and processo
 
 
 ETW passes this structure to the 
-consumer's <a href="https://msdn.microsoft.com/9312eaed-2997-4d44-952a-fcae3b262947">EventCallback</a> callback function.
+consumer's <a href="https://docs.microsoft.com/windows/desktop/ETW/eventcallback">EventCallback</a> callback function.
 
 
 
@@ -127,11 +127,11 @@ consumer's <a href="https://msdn.microsoft.com/9312eaed-2997-4d44-952a-fcae3b262
 
 
 
-<a href="https://msdn.microsoft.com/9312eaed-2997-4d44-952a-fcae3b262947">EventCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/eventcallback">EventCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/32e94f58-b8b6-4e0a-b53b-716a534ac374">EventClassCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/eventclasscallback">EventClassCallback</a>
  
 
  

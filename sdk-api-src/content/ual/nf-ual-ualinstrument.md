@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-Records the specified data to the  User Access Logging (UAL) framework by using information from a <a href="https://msdn.microsoft.com/5C191327-0D15-41D7-8218-73F387740FDF">UAL_DATA_BLOB</a> structure.
+Records the specified data to the  User Access Logging (UAL) framework by using information from a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ual/ns-ual-tagual_data_blob">UAL_DATA_BLOB</a> structure.
 
-You must call the <a href="https://msdn.microsoft.com/800E8BCF-39A1-490A-9B6A-12EE900B8D17">UalStart</a> function before calling the <b>UalInstrument</b> function. When you have finished calling this function, call the <a href="https://msdn.microsoft.com/142A0C96-2D53-4C31-9847-D6D5313C841E">UalStop</a> function to clean up resources.
+You must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ual/nf-ual-ualstart">UalStart</a> function before calling the <b>UalInstrument</b> function. When you have finished calling this function, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ual/nf-ual-ualstop">UalStop</a> function to clean up resources.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ You must call the <a href="https://msdn.microsoft.com/800E8BCF-39A1-490A-9B6A-12
 
 ### -param Data [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/5C191327-0D15-41D7-8218-73F387740FDF">UAL_DATA_BLOB</a> structure that specifies session information.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ual/ns-ual-tagual_data_blob">UAL_DATA_BLOB</a> structure that specifies session information.
 
 
 ## -returns
@@ -78,11 +78,11 @@ If the function succeeds, it returns <b>S_OK</b>. If it fails, it returns an err
 
 
 
-<a href="https://msdn.microsoft.com/800E8BCF-39A1-490A-9B6A-12EE900B8D17">UalStart</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ual/nf-ual-ualstart">UalStart</a>
 
 
 
-<a href="https://msdn.microsoft.com/142A0C96-2D53-4C31-9847-D6D5313C841E">UalStop</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ual/nf-ual-ualstop">UalStop</a>
  
 
  

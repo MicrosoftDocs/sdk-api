@@ -64,5 +64,5 @@ The default value for the parameter, if PARAMFLAG_FHASDEFAULT is specified in <b
 
 ### -field wParamFlags
 
-The parameter flags. See <a href="https://msdn.microsoft.com/0273322a-1ba6-48eb-8eb7-f273f5240bdd">PARAMFLAG Constants</a>.
+The parameter flags. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/paramflags">PARAMFLAG Constants</a>.
 

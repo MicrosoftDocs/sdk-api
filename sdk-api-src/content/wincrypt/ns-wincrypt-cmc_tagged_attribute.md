@@ -50,8 +50,8 @@ ms.custom: 19H1
 
 
 The <b>CMC_TAGGED_ATTRIBUTE</b> structure is used in the 
-<a href="https://msdn.microsoft.com/6245af5a-7a19-4665-bf6c-ad803998d840">CMC_DATA_INFO</a> and 
-<a href="https://msdn.microsoft.com/82d9314f-2f0f-4a98-a0da-a89cd8905886">CMC_RESPONSE_INFO</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmc_data_info">CMC_DATA_INFO</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmc_response_info">CMC_RESPONSE_INFO</a> structures.
 
 
 ## -struct-fields
@@ -66,5 +66,5 @@ A <b>DWORD</b> value that identifies the tagged attribute.
 
 ### -field Attribute
 
-A <a href="https://msdn.microsoft.com/cdbaf38d-ddbe-4be0-afbc-f8bd76ef4847">CRYPT_ATTRIBUTE</a> structure that contains the attribute.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_attribute">CRYPT_ATTRIBUTE</a> structure that contains the attribute.
 

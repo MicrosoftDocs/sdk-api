@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<a href="https://msdn.microsoft.com/9dc62bb8-8569-4682-bfc7-7721af287318">ldap_open</a> is available for use in the operating systems specified in the Requirements section; however, it is not recommended. Instead, use <a href="https://msdn.microsoft.com/c0aa5a9e-ed46-42fb-9c02-728afea51505">ldap_init</a>.]
+<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-cldap_open">ldap_open</a> is available for use in the operating systems specified in the Requirements section; however, it is not recommended. Instead, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_init">ldap_init</a>.]
 
 The <b>ldap_open</b> function creates and initializes a connection block, then opens the connection to an LDAP server.
 
@@ -64,7 +64,7 @@ The <b>ldap_open</b> function creates and initializes a connection block, then o
 ### -param HostName [in]
 
 A pointer to a null-terminated string. A domain name, a list of host names, or dotted strings that represent the IP address of LDAP server hosts. Use a single space to separate the host names in the list. Each host name in the list may be followed by a port number. The optional port number is separated from the host itself with a colon (:). The LDAP run time attempts connection with the hosts in the order listed, stopping when a successful connection is made. Be aware that only <b>ldap_open</b> attempts to make the connection before returning to the caller. The function 
-<a href="https://msdn.microsoft.com/c0aa5a9e-ed46-42fb-9c02-728afea51505">ldap_init</a> does not connect to the LDAP server.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_init">ldap_init</a> does not connect to the LDAP server.
 
 
 ### -param PortNumber [in]
@@ -76,10 +76,10 @@ Contains the TCP port number to which to connect. The default LDAP port, 389, ca
 
 
 
-If the function succeeds, it returns a session handle, in the form of a pointer to an LDAP data structure. Free the session handle, when no longer required,  with a call to <a href="https://msdn.microsoft.com/5d8b3198-3935-4305-b0f1-eaf1a9355cf3">ldap_unbind</a>.
+If the function succeeds, it returns a session handle, in the form of a pointer to an LDAP data structure. Free the session handle, when no longer required,  with a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a>.
 
 If the function fails, it returns <b>NULL</b>. Use the 
-<a href="https://msdn.microsoft.com/04bcdd90-344a-4f2d-a700-e725584e49d9">LdapGetLastError</a> function to retrieve the error code.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldapgetlasterror">LdapGetLastError</a> function to retrieve the error code.
 
 
 
@@ -88,20 +88,20 @@ If the function fails, it returns <b>NULL</b>. Use the
 
 
 
-Call <b>ldap_open</b> to create a connection block to an LDAP server. The  <i>HostName</i> can be <b>NULL</b> in which case the run time attempts to find the default LDAP server. The host names are tried in the order listed, stopping with the first successful connection. For Active Directory servers, the <a href="https://msdn.microsoft.com/da8b2983-5e45-40b0-b552-c9b3a1d8ae94">DsGetDcName</a> function can be used to obtain name of the server, which can then be passed as the <i>HostName</i> parameter instead of using <b>NULL</b>.
+Call <b>ldap_open</b> to create a connection block to an LDAP server. The  <i>HostName</i> can be <b>NULL</b> in which case the run time attempts to find the default LDAP server. The host names are tried in the order listed, stopping with the first successful connection. For Active Directory servers, the <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a> function can be used to obtain name of the server, which can then be passed as the <i>HostName</i> parameter instead of using <b>NULL</b>.
 
 If the <i>HostName</i> was set to either <b>NULL</b> or the domain name, automatic reconnect applies. If the connected DC stops functioning for some reason during the connection's lifetime, LDAP will automatically reconnect to another DC in the specified domain. This behavior can be toggled off or on using the <b>LDAP_OPT_AUTO_RECONNECT</b> session option, which is on by default.
 
-The default LDAP server is a Microsoft specific option when you use <b>LDAP_OPT_HOST_NAME</b>. This option specifies the host name of the default LDAP server and returns the host name of the server in Unicode or ANSI, contingent on the use of <a href="https://msdn.microsoft.com/e07c2c3d-8099-4f9c-9ee7-26c1287110d5">ldap_get_optionW</a> or <b>ldap_get_optionA</b>, respectively.
+The default LDAP server is a Microsoft specific option when you use <b>LDAP_OPT_HOST_NAME</b>. This option specifies the host name of the default LDAP server and returns the host name of the server in Unicode or ANSI, contingent on the use of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_option">ldap_get_optionW</a> or <b>ldap_get_optionA</b>, respectively.
 
-If a Global Catalog port number is passed to <b>ldap_open</b> as one of the arguments, then the <i>HostName</i> passed for that port number must be the name of the forest for the underlying call to <a href="https://msdn.microsoft.com/da8b2983-5e45-40b0-b552-c9b3a1d8ae94">DsGetDcName()</a> to correctly find the GC in the enterprise.
+If a Global Catalog port number is passed to <b>ldap_open</b> as one of the arguments, then the <i>HostName</i> passed for that port number must be the name of the forest for the underlying call to <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName()</a> to correctly find the GC in the enterprise.
 
 The <b>ldap_open</b> function allocates an LDAP data structure to maintain state data for the session and returns a handle to this structure. Pass this handle to subsequent LDAP function calls during the course of the session.
 
 Multithreading: Calls to <b>ldap_open</b> are thread-safe.
 
 <div class="alert"><b>Note</b>  <b>ldap_open</b> is heavily deprecated by the current LDAP RFC because it immediately opens a session to the domain controller without giving the calling application a chance to configure any session options, for example (and most importantly) security-related session options. Users are encouraged to use 
-<a href="https://msdn.microsoft.com/c0aa5a9e-ed46-42fb-9c02-728afea51505">ldap_init</a> as the preferred method of initializing an LDAP session.</div>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_init">ldap_init</a> as the preferred method of initializing an LDAP session.</div>
 <div> </div>
 
 
@@ -111,23 +111,23 @@ Multithreading: Calls to <b>ldap_open</b> are thread-safe.
 
 
 
-<a href="https://msdn.microsoft.com/7a0040ea-f8f3-4378-8371-49768714d762">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/04bcdd90-344a-4f2d-a700-e725584e49d9">LdapGetLastError</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldapgetlasterror">LdapGetLastError</a>
 
 
 
-<a href="https://msdn.microsoft.com/9dc62bb8-8569-4682-bfc7-7721af287318">cldap_open</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-cldap_open">cldap_open</a>
 
 
 
-<a href="https://msdn.microsoft.com/c0aa5a9e-ed46-42fb-9c02-728afea51505">ldap_init</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_init">ldap_init</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d8b3198-3935-4305-b0f1-eaf1a9355cf3">ldap_unbind</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a>
  
 
  

@@ -92,7 +92,7 @@ Text is vertically snapped to pixel boundaries and is not clipped to the layout 
 
 
 
-<a href="https://msdn.microsoft.com/1e3517cc-9c68-418e-b62e-a9ca06019efa">DrawText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode)">DrawText</a>
  
 
  

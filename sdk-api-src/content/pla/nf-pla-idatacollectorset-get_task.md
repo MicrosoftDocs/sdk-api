@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves or sets the name of a <a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a> job to start each time the data collector set stops, including between segments.
+Retrieves or sets the name of a <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a> job to start each time the data collector set stops, including between segments.
 
 This property is read/write.
 
@@ -63,7 +63,7 @@ This property is read/write.
 
 
 
-To specify command-line arguments for the task, see <a href="https://msdn.microsoft.com/7bd045df-379b-40fb-b309-cec531493018">IDataCollectorSet::TaskArguments</a> and <a href="https://msdn.microsoft.com/99fb2ed4-525b-4733-a652-b164b2c19980">IDataCollectorSet::TaskUserTextArguments</a>. 
+To specify command-line arguments for the task, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_taskarguments">IDataCollectorSet::TaskArguments</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_taskusertextarguments">IDataCollectorSet::TaskUserTextArguments</a>. 
 
 To start the task in the directory where PLA is collecting the data, set the task's <b>Start in</b> field to $(Arg1).
 
@@ -75,15 +75,15 @@ To start the task in the directory where PLA is collecting the data, set the tas
 
 
 
-<a href="https://msdn.microsoft.com/a4ae0874-4ee6-46a1-9811-8cd4be26859c">IDataCollectorSet</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
 
 
 
-<a href="https://msdn.microsoft.com/7bd045df-379b-40fb-b309-cec531493018">IDataCollectorSet::TaskArguments</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_taskarguments">IDataCollectorSet::TaskArguments</a>
 
 
 
-<a href="https://msdn.microsoft.com/99fb2ed4-525b-4733-a652-b164b2c19980">IDataCollectorSet::TaskUserTextArguments</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_taskusertextarguments">IDataCollectorSet::TaskUserTextArguments</a>
  
 
  

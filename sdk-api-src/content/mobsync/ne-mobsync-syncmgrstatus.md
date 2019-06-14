@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used in the <a href="https://msdn.microsoft.com/311e916c-46a0-4eb2-a5e3-8da417ae7d71">ISyncMgrSynchronize::SetItemStatus</a> method to specify the updated status for the item.
+Used in the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-setitemstatus">ISyncMgrSynchronize::SetItemStatus</a> method to specify the updated status for the item.
 
 
 ## -enum-fields
@@ -112,7 +112,7 @@ The item has been deleted. This value has been deprecated for Windows Vista and
 
 
 
-<a href="https://msdn.microsoft.com/311e916c-46a0-4eb2-a5e3-8da417ae7d71">ISyncMgrSynchronize::SetItemStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-setitemstatus">ISyncMgrSynchronize::SetItemStatus</a>
  
 
  

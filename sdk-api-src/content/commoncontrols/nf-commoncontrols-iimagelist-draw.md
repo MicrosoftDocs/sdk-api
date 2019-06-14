@@ -60,16 +60,16 @@ Draws an image list item in the specified device context.
 
 ### -param pimldp [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb761395(v=VS.85).aspx">IMAGELISTDRAWPARAMS</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/ns-commoncontrols-_imagelistdrawparams">IMAGELISTDRAWPARAMS</a>*</b>
 
-A pointer to an  <a href="https://msdn.microsoft.com/en-us/library/Bb761395(v=VS.85).aspx">IMAGELISTDRAWPARAMS</a> structure that contains the  drawing parameters.
+A pointer to an  <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/ns-commoncontrols-_imagelistdrawparams">IMAGELISTDRAWPARAMS</a> structure that contains the  drawing parameters.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -80,10 +80,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Overlay images draw transparently over the primary image specified in the <b>i</b> parameter of <a href="https://msdn.microsoft.com/en-us/library/Bb761395(v=VS.85).aspx">IMAGELISTDRAWPARAMS</a>. You specify an overlay image in the <b>fStyle</b>, parameter of <b>IMAGELISTDRAWPARAMS</b> using the <a href="https://msdn.microsoft.com/en-us/library/Bb761408(v=VS.85).aspx">INDEXTOOVERLAYMASK</a> macro to shift the one-based index of the overlay image. Use the OR operator to combine the macro's return value with the drawing style flags specified in <b>fStyle</b>. You must first specify this image as an overlay image by using <a href="https://msdn.microsoft.com/en-us/library/Bb761508(v=VS.85).aspx">IImageList::SetOverlayImage</a>. 
+Overlay images draw transparently over the primary image specified in the <b>i</b> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/ns-commoncontrols-_imagelistdrawparams">IMAGELISTDRAWPARAMS</a>. You specify an overlay image in the <b>fStyle</b>, parameter of <b>IMAGELISTDRAWPARAMS</b> using the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-indextooverlaymask">INDEXTOOVERLAYMASK</a> macro to shift the one-based index of the overlay image. Use the OR operator to combine the macro's return value with the drawing style flags specified in <b>fStyle</b>. You must first specify this image as an overlay image by using <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist-setoverlayimage">IImageList::SetOverlayImage</a>. 
 		
 
-To use <b>IImageList::Draw</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>IImageList::Draw</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>. 
 
 
 

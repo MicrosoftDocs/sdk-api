@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Frees a memory block previously allocated with <a href="https://msdn.microsoft.com/2608985f-56aa-4223-b76d-85ebe3b080fb">WSDAllocateLinkedMemory</a>.
+Frees a memory block previously allocated with <a href="https://docs.microsoft.com/windows/desktop/api/wsdutil/nf-wsdutil-wsdallocatelinkedmemory">WSDAllocateLinkedMemory</a>.
 
 
 ## -parameters

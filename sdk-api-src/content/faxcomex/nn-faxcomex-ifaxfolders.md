@@ -56,7 +56,7 @@ The <b>IFaxFolders</b> interface defines a configuration object used by a fax cl
 
 
 
-A default implementation of <b>IFaxFolders</b> is provided as the <a href="https://msdn.microsoft.com/en-us/library/ms684837(v=VS.85).aspx">FaxFolders</a> object.
+A default implementation of <b>IFaxFolders</b> is provided as the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxfolders">FaxFolders</a> object.
 
 
 

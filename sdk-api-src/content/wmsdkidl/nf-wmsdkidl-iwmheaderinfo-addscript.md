@@ -171,27 +171,27 @@ When using DRM to encrypt a file, no script command can have a presentation time
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798504(v=VS.85).aspx">IWMHeaderInfo Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo">IWMHeaderInfo Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798505(v=VS.85).aspx">IWMHeaderInfo2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2">IWMHeaderInfo2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798508(v=VS.85).aspx">IWMHeaderInfo3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3">IWMHeaderInfo3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798523(v=VS.85).aspx">IWMHeaderInfo::GetScript</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getscript">IWMHeaderInfo::GetScript</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798526(v=VS.85).aspx">IWMHeaderInfo::RemoveScript</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-removescript">IWMHeaderInfo::RemoveScript</a>
 
 
 
-<a href="https://msdn.microsoft.com/be8a2d22-35cb-4b8d-ad00-e8a45bb85b39">Using Script Commands</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/using-script-commands">Using Script Commands</a>
  
 
  

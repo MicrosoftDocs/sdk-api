@@ -84,7 +84,7 @@ The <b>LPARAM</b> of the message.
 
 ### -param dwCookie [in]
 
-The value that was returned by <a href="https://msdn.microsoft.com/f308ea77-12e7-450b-8b0f-252f1d240388">ISimpleFrameSite::PreMessageFilter</a> through its <i>pdwCookie</i> parameter.
+The value that was returned by <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-isimpleframesite-premessagefilter">ISimpleFrameSite::PreMessageFilter</a> through its <i>pdwCookie</i> parameter.
 
 
 ## -returns
@@ -142,7 +142,7 @@ The site does not filter any messages.
 
 
 
-<a href="https://msdn.microsoft.com/ccddeae4-14fc-47df-a612-83d48a479b48">ISimpleFrameSite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-isimpleframesite">ISimpleFrameSite</a>
  
 
  

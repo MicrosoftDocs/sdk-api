@@ -69,7 +69,7 @@ The CLSID of the class for which status information is to be requested.
 
 ### -param dwAspect [in]
 
-The presentation aspect of the class for which information is requested. Possible values are taken from the <a href="https://msdn.microsoft.com/a2b729c8-7091-4520-93cd-c44468ba0274">DVASPECT</a> enumeration.
+The presentation aspect of the class for which information is requested. Possible values are taken from the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagdvaspect">DVASPECT</a> enumeration.
 
 
 ### -param pdwStatus [out]
@@ -143,11 +143,11 @@ The <b>GetMiscStatus</b> key is missing from the registry.
 
 
 
-Object applications can ask OLE to get miscellaneous status information in one of two ways. One way is to call <b>OleRegGetMiscStatus</b>. The other is to return OLE_S_USEREG in response to calls by the default object handler to <a href="https://msdn.microsoft.com/0c5e9f73-8eec-48e0-a172-4d3d49e56071">IOleObject::GetMiscStatus</a>. OLE_S_USEREG instructs the default handler to call <b>OleRegGetMiscStatus</b>. Because DLL object applications cannot return OLE_S_USEREG, they must call <b>OleRegGetMiscStatus</b> rather than delegating the job to the object handler.
+Object applications can ask OLE to get miscellaneous status information in one of two ways. One way is to call <b>OleRegGetMiscStatus</b>. The other is to return OLE_S_USEREG in response to calls by the default object handler to <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getmiscstatus">IOleObject::GetMiscStatus</a>. OLE_S_USEREG instructs the default handler to call <b>OleRegGetMiscStatus</b>. Because DLL object applications cannot return OLE_S_USEREG, they must call <b>OleRegGetMiscStatus</b> rather than delegating the job to the object handler.
 
 
 
-<b>OleRegGetMiscStatus</b> and its sibling functions, <a href="https://msdn.microsoft.com/492a4084-494e-4d78-8f3a-853ec486a2d6">OleRegGetUserType</a>, <a href="https://msdn.microsoft.com/6caebc68-a136-40f2-92d8-7f8003c18e5c">OleRegEnumFormatEtc</a>, and <a href="https://msdn.microsoft.com/25cd0876-90b6-4fa3-b180-ffa0c3b51497">OleRegEnumVerbs</a>, provide a way for developers of custom DLL object applications to emulate the behavior of OLE's default object handler in getting information about objects from the registry. By using these functions, you avoid the considerable work of writing your own, and the pitfalls inherent in working directly in the registry. In addition, you get future enhancements and optimizations of these functions without having to code them yourself.
+<b>OleRegGetMiscStatus</b> and its sibling functions, <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olereggetusertype">OleRegGetUserType</a>, <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleregenumformatetc">OleRegEnumFormatEtc</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleregenumverbs">OleRegEnumVerbs</a>, provide a way for developers of custom DLL object applications to emulate the behavior of OLE's default object handler in getting information about objects from the registry. By using these functions, you avoid the considerable work of writing your own, and the pitfalls inherent in working directly in the registry. In addition, you get future enhancements and optimizations of these functions without having to code them yourself.
 
 
 
@@ -158,19 +158,19 @@ Object applications can ask OLE to get miscellaneous status information in one o
 
 
 
-<a href="https://msdn.microsoft.com/0c5e9f73-8eec-48e0-a172-4d3d49e56071">IOleObject::GetMiscStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getmiscstatus">IOleObject::GetMiscStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/6caebc68-a136-40f2-92d8-7f8003c18e5c">OleRegEnumFormatEtc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleregenumformatetc">OleRegEnumFormatEtc</a>
 
 
 
-<a href="https://msdn.microsoft.com/25cd0876-90b6-4fa3-b180-ffa0c3b51497">OleRegEnumVerbs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleregenumverbs">OleRegEnumVerbs</a>
 
 
 
-<a href="https://msdn.microsoft.com/492a4084-494e-4d78-8f3a-853ec486a2d6">OleRegGetUserType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olereggetusertype">OleRegGetUserType</a>
  
 
  

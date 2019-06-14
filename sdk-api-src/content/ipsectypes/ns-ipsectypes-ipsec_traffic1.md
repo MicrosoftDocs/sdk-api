@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>IPSEC_TRAFFIC1</b> structure specifies parameters to describe IPsec traffic.
-<div class="alert"><b>Note</b>  <b>IPSEC_TRAFFIC1</b> is the specific implementation of IPSEC_TRAFFIC used in Windows 7 and later. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <a href="https://msdn.microsoft.com/5be2da29-73d6-4381-8bde-3a3945ea7b5a">IPSEC_TRAFFIC0</a> is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>IPSEC_TRAFFIC1</b> is the specific implementation of IPSEC_TRAFFIC used in Windows 7 and later. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic0_">IPSEC_TRAFFIC0</a> is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -59,7 +59,7 @@ The <b>IPSEC_TRAFFIC1</b> structure specifies parameters to describe IPsec traff
 
 ### -field ipVersion
 
-An <a href="https://msdn.microsoft.com/1712b83c-f32d-4981-9950-ab870a376182">FWP_IP_VERSION</a> value that specifies the IP version. In tunnel mode, this is the version of the outer header.
+An <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version_">FWP_IP_VERSION</a> value that specifies the IP version. In tunnel mode, this is the version of the outer header.
 
 
 ### -field localV4Address
@@ -94,7 +94,7 @@ Specified when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
 
 Type of IPsec traffic.
 
-See <a href="https://msdn.microsoft.com/e87154ce-7f19-424c-a577-04e2eb81560e">IPSEC_TRAFFIC_TYPE</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_traffic_type_">IPSEC_TRAFFIC_TYPE</a> for more information.
 
 
 ### -field ipsecFilterId
@@ -148,7 +148,7 @@ The <b>IPSEC_TRAFFIC1</b> type describes the characteristics of the traffic that
 
 For IPsec transport mode, the <b>localV*Address</b> and  <b>remoteV*Address</b> members specify the IP addresses. The <b>ipsecFilterId</b> member specifies (as part of the transport layer filter conditions) the transport protocol information (such as IP protocol, ports, etc), of the matching traffic. However, if the <b>localPort</b>, <b>remotePort</b>, or <b>ipProtocol</b> member is nonzero, its value will override the corresponding value specified in the transport layer filter. 
 
-For IPsec tunnel mode, the <b>localV*Address</b> and  <b>remoteV*Address</b> members specify the outer IP header tunnel endpoints. The <b>tunnelPolicyId</b> member specifies (as part of the filter conditions specified via <a href="https://msdn.microsoft.com/9ae40cf5-7ecf-4399-b196-ae58fe55afdb">FwpmIPsecTunnelAdd1</a>) the inner IP header addresses and transport protocol information of the matching traffic. The <b>localPort</b>, <b>remotePort</b>, and <b>ipProtocol</b> members should not be specified for tunnel mode.
+For IPsec tunnel mode, the <b>localV*Address</b> and  <b>remoteV*Address</b> members specify the outer IP header tunnel endpoints. The <b>tunnelPolicyId</b> member specifies (as part of the filter conditions specified via <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmipsectunneladd1">FwpmIPsecTunnelAdd1</a>) the inner IP header addresses and transport protocol information of the matching traffic. The <b>localPort</b>, <b>remotePort</b>, and <b>ipProtocol</b> members should not be specified for tunnel mode.
 
 
 
@@ -158,15 +158,15 @@ For IPsec tunnel mode, the <b>localV*Address</b> and  <b>remoteV*Address</b> mem
 
 
 
-<a href="https://msdn.microsoft.com/1712b83c-f32d-4981-9950-ab870a376182">FWP_IP_VERSION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version_">FWP_IP_VERSION</a>
 
 
 
-<a href="https://msdn.microsoft.com/e87154ce-7f19-424c-a577-04e2eb81560e">IPSEC_TRAFFIC_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_traffic_type_">IPSEC_TRAFFIC_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

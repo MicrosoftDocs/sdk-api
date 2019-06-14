@@ -62,7 +62,7 @@ Determines if a data object can be pasted, using a specified format, into the cu
 Type: <b>VARIANT*</b>
 
 The 
-					<a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> to be pasted. However, the Clipboard contents are checked for pasting if any of the following are true: 
+					<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> to be pasted. However, the Clipboard contents are checked for pasting if any of the following are true: 
 					
 
 <ul>
@@ -70,7 +70,7 @@ The
 <li><i>pVar</i>-&gt;punkVal is null </li>
 <li><i>pVar</i>-&gt;vt is not <b>VT_UNKNOWN</b></li>
 <li><i>pVar</i>-&gt;punkVal does not return an 
-							<a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> object when queried for one </li>
+							<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object when queried for one </li>
 </ul>
 
 ### -param Format
@@ -84,7 +84,7 @@ Clipboard format that is used. Zero represents the best format, which usually is
 
 Type: <b>long*</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">tomBool</a> value that is <b>tomTrue</b> only if the data object identified by 
+A <a href="https://docs.microsoft.com/windows/desktop/Controls/about-text-object-model">tomBool</a> value that is <b>tomTrue</b> only if the data object identified by 
 					<i>pVar</i> can be pasted, using the specified format, into the range. This parameter can null. 
 
 
@@ -94,7 +94,7 @@ A <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">tomB
 
 Type: <b>HRESULT</b>
 
-The method returns the following COM error codes. For more information on COM error codes, see <a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling in COM</a>.
+The method returns the following COM error codes. For more information on COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -108,7 +108,7 @@ The method returns the following COM error codes. For more information on COM er
 </dl>
 </td>
 <td width="60%">
-The clipboard contents or <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> can be pasted.
+The clipboard contents or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> can be pasted.
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ The clipboard contents or <a href="https://msdn.microsoft.com/8a002deb-2727-456c
 </dl>
 </td>
 <td width="60%">
-The clipboard contents or <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> cannot be pasted.
+The clipboard contents or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> cannot be pasted.
 
 </td>
 </tr>
@@ -138,11 +138,11 @@ The clipboard contents or <a href="https://msdn.microsoft.com/8a002deb-2727-456c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787742(v=VS.85).aspx">Copy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-copy">Copy</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
@@ -150,7 +150,7 @@ The clipboard contents or <a href="https://msdn.microsoft.com/8a002deb-2727-456c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
  
 
  

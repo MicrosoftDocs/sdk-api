@@ -75,7 +75,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/4af7103e-85c8-472e-96fe-407f07a1f447">EapHostPeerInitialize</a> and <b>EapHostPeerUninitialize</b> are always thread
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerinitialize">EapHostPeerInitialize</a> and <b>EapHostPeerUninitialize</b> are always thread
 safe.
 
 <b>EapHostPeerUninitialize</b> calls <b>CoUninitialize</b>.
@@ -88,11 +88,11 @@ safe.
 
 
 
-<a href="https://msdn.microsoft.com/b1c473ba-9a12-4929-b4d0-27262117e9c0">EAPHost Supplicant Run-time Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-supplicant-run-time-functions">EAPHost Supplicant Run-time Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/4af7103e-85c8-472e-96fe-407f07a1f447">EapHostPeerInitialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerinitialize">EapHostPeerInitialize</a>
  
 
  

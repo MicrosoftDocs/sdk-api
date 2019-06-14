@@ -91,27 +91,27 @@ This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defin
 
 
 
-<a href="https://msdn.microsoft.com/42eaeb70-3ce8-4eae-b20b-4729db90a7ef">NetWkstaUserEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/nf-lmwksta-netwkstauserenum">NetWkstaUserEnum</a>
 
 
 
-<a href="https://msdn.microsoft.com/25ec7a49-fd26-4105-823b-a257a57f724e">NetWkstaUserGetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/nf-lmwksta-netwkstausergetinfo">NetWkstaUserGetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/d48667a3-5ae9-4a7d-9af6-14f08835940d">NetWkstaUserSetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/nf-lmwksta-netwkstausersetinfo">NetWkstaUserSetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4b05054-bef2-4cab-89f6-725d92ee75b8">Network Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/cc400f43-297b-4ff4-8353-b268839c48b8">Workstation and Workstation User Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/workstation-and-workstation-user-functions">Workstation and Workstation User Functions</a>
  
 
  

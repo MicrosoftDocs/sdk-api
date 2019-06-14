@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>EnumerateAddresses</b> method enumerates the addresses that are currently available. Provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the 
-<a href="https://msdn.microsoft.com/9e70ae94-20a2-4ba4-ab39-794f611011d8">get_Addresses</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-get_addresses">get_Addresses</a> method.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param ppEnumAddress [out]
 
 Pointer to the 
-<a href="https://msdn.microsoft.com/bfe9f12e-ceb7-4120-8193-70feb2bc7c85">IEnumAddress</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumaddress">IEnumAddress</a> interface.
 
 
 ## -returns
@@ -135,13 +135,13 @@ An application typically uses this enumeration to check the capabilities of each
 If an expected address is not found, this may indicate that the appropriate service provider has not been installed or is not working correctly.
 
 TAPI calls the <b>Addref</b> method on the 
-<a href="https://msdn.microsoft.com/bfe9f12e-ceb7-4120-8193-70feb2bc7c85">IEnumAddress</a> interface returned by <b>ITTAPI::EnumerateAddresses</b>. The application must call the <b>Release</b> method on the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumaddress">IEnumAddress</a> interface returned by <b>ITTAPI::EnumerateAddresses</b>. The application must call the <b>Release</b> method on the 
 <b>IEnumAddress</b> interface to free resources associated with it.
 
 If an address is created or removed during a TAPI session, the application will be notified through the 
-<a href="https://msdn.microsoft.com/06cfe56c-907f-49ed-8a7a-db31383a06f9">ITTAPIEventNotification</a> interface. If an address has been created, such as by installing a Plug and Play device, the 
-<a href="https://msdn.microsoft.com/8cd57c81-cd71-4fe5-a176-805c96c06c31">ITTAPIEventNotification::Event</a> returns the <b>TE_ADDRESSCREATE</b> member of the 
-<a href="https://msdn.microsoft.com/606e9f99-d90c-4d4a-8dd5-2734c9bd2e7e">TAPIOBJECT_EVENT</a> enum. If an address is removed, <b>ITTAPIEventNotification::Event</b> returns <b>TE_ADDRESSREMOVE</b>. Calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapieventnotification">ITTAPIEventNotification</a> interface. If an address has been created, such as by installing a Plug and Play device, the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapieventnotification-event">ITTAPIEventNotification::Event</a> returns the <b>TE_ADDRESSCREATE</b> member of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-tapiobject_event">TAPIOBJECT_EVENT</a> enum. If an address is removed, <b>ITTAPIEventNotification::Event</b> returns <b>TE_ADDRESSREMOVE</b>. Calling 
 <b>EnumerateAddresses</b> after these events will reflect the current addresses.
 
 
@@ -152,27 +152,27 @@ If an address is created or removed during a TAPI session, the application will 
 
 
 
-<a href="https://msdn.microsoft.com/bfe9f12e-ceb7-4120-8193-70feb2bc7c85">IEnumAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumaddress">IEnumAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/93f2e4cf-013e-4064-88d5-69fddd458274">ITAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/75d641c7-dbf8-4ae2-b16b-2757e890d32b">ITTAPI</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapi">ITTAPI</a>
 
 
 
-<a href="https://msdn.microsoft.com/e7662a26-d7b2-4bff-aa72-e38b58bc15df">Register Events code snippet</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/register-events">Register Events code snippet</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4cf358f-2dc8-432a-92ed-68282ddc8a97">TAPI Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-object">TAPI Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e70ae94-20a2-4ba4-ab39-794f611011d8">get_Addresses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-get_addresses">get_Addresses</a>
  
 
  

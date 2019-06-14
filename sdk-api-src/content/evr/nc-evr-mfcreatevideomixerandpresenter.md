@@ -72,7 +72,7 @@ Pointer to the owner of the video presenter. If the presenter is aggregated, pas
 
 ### -param riidMixer [in]
 
-Interface identifier (IID) of the requested interface on the video mixer. The video mixer exposes the <a href="https://msdn.microsoft.com/3cc502d8-d364-43b9-b0b6-d9474c002b20">IMFTransform</a> interface.
+Interface identifier (IID) of the requested interface on the video mixer. The video mixer exposes the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> interface.
 
 
 ### -param ppvVideoMixer [out]
@@ -82,7 +82,7 @@ Receives a pointer to the requested interface on the video mixer. The caller mus
 
 ### -param riidPresenter [in]
 
-IID of the requested interface on the video presenter. The video presenter exposes the <a href="https://msdn.microsoft.com/8f6e3132-03e9-4a2e-9160-e39d29cf2408">IMFVideoPresenter</a> interface.
+IID of the requested interface on the video presenter. The video presenter exposes the <a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideopresenter">IMFVideoPresenter</a> interface.
 
 
 ### -param ppvVideoPresenter [out]
@@ -124,11 +124,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/1c985558-d25d-4f51-978a-58c05943dab9">Enhanced Video Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

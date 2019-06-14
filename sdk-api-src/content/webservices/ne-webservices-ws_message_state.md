@@ -79,8 +79,8 @@ The message headers have been initialized, and
 The body of the message is being read, for example
                     when a message is received.
                     In this state, the headers can be accessed, and the body can
-                    be read (see <a href="https://msdn.microsoft.com/43ceeb1e-aeb2-4482-90f0-d7f6013b239f">WsReadBody</a> or
-                    <a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_BODY_READER</a>).
+                    be read (see <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadbody">WsReadBody</a> or
+                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_property_id">WS_MESSAGE_PROPERTY_BODY_READER</a>).
                 
 
 
@@ -89,8 +89,8 @@ The body of the message is being read, for example
 The body of the message is being written, for example
                     when a message is being sent.
                     In this state, the headers can be accessed, and the body can
-                    be written (see <a href="https://msdn.microsoft.com/70ff43f5-6f1a-4bbb-aa39-6fb9476e6a37">WsWriteBody</a> or
-                    <a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_BODY_WRITER</a>).
+                    be written (see <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritebody">WsWriteBody</a> or
+                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_property_id">WS_MESSAGE_PROPERTY_BODY_WRITER</a>).
                 
 
 

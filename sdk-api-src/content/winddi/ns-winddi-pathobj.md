@@ -106,7 +106,7 @@ PO_ENUM_AS_INTEGERS
 
 </td>
 <td>
-The driver can request that the vertices returned from <a href="https://msdn.microsoft.com/2e8bd76c-5ee6-4fe5-b1e5-64e84d09fc8f">PATHOBJ_bEnum</a> be expressed in a 32-bit integer format rather than the standard 28.4 format. The driver makes this request by ORing PO_ENUM_AS_INTEGERS into the <b>fl</b> member of the given PATHOBJ before calling <b>PATHOBJ_bEnum</b>.
+The driver can request that the vertices returned from <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_benum">PATHOBJ_bEnum</a> be expressed in a 32-bit integer format rather than the standard 28.4 format. The driver makes this request by ORing PO_ENUM_AS_INTEGERS into the <b>fl</b> member of the given PATHOBJ before calling <b>PATHOBJ_bEnum</b>.
 
 The driver can set PO_ENUM_AS_INTEGERS only when GDI has set the PO_ALL_INTEGERS flag. That is, the path must be known to contain only integer coordinates. Note that PO_ENUM_AS_INTEGERS is the only flag that the driver is permitted to modify.
 
@@ -134,31 +134,31 @@ The following GDI service routines are provided for PATHOBJ objects:
 
 <dl>
 <dt>
-<a href="https://msdn.microsoft.com/e44fb1e3-3d6f-4ff4-83a7-b539d2b570aa">PATHOBJ_bCloseFigure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_bclosefigure">PATHOBJ_bCloseFigure</a>
 </dt>
 <dt>
-<a href="https://msdn.microsoft.com/2e8bd76c-5ee6-4fe5-b1e5-64e84d09fc8f">PATHOBJ_bEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_benum">PATHOBJ_bEnum</a>
 </dt>
 <dt>
-<a href="https://msdn.microsoft.com/edc64b1e-dd3f-4b6a-858c-91c49a819b0a">PATHOBJ_bEnumClipLines</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_benumcliplines">PATHOBJ_bEnumClipLines</a>
 </dt>
 <dt>
-<a href="https://msdn.microsoft.com/b734ce8f-7e7e-4c13-a614-cb6b0dc19ead">PATHOBJ_bMoveTo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_bmoveto">PATHOBJ_bMoveTo</a>
 </dt>
 <dt>
-<a href="https://msdn.microsoft.com/0937c816-b205-4c5d-b4b6-74c3e7fdb0ce">PATHOBJ_bPolyBezierTo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_bpolybezierto">PATHOBJ_bPolyBezierTo</a>
 </dt>
 <dt>
-<a href="https://msdn.microsoft.com/468d20e3-a78b-47b3-9c56-ef355181eb63">PATHOBJ_bPolyLineTo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_bpolylineto">PATHOBJ_bPolyLineTo</a>
 </dt>
 <dt>
-<a href="https://msdn.microsoft.com/b83e6f87-be79-4743-bc52-b9310853c4f5">PATHOBJ_vEnumStart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_venumstart">PATHOBJ_vEnumStart</a>
 </dt>
 <dt>
-<a href="https://msdn.microsoft.com/3db437aa-40d1-4703-ab1e-b3e154923d2d">PATHOBJ_vEnumStartClipLines</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_venumstartcliplines">PATHOBJ_vEnumStartClipLines</a>
 </dt>
 <dt>
-<a href="https://msdn.microsoft.com/f7ce7909-552c-4e23-a620-280fadeade01">PATHOBJ_vGetBounds</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_vgetbounds">PATHOBJ_vGetBounds</a>
 </dt>
 </dl>
 
@@ -171,23 +171,23 @@ The following GDI service routines are provided for PATHOBJ objects:
 
 
 
-<a href="https://msdn.microsoft.com/6f499d08-d2a1-46d0-b931-e6c16c4e1d3a">DrvFillPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvfillpath">DrvFillPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/92a04fe5-146d-4839-a854-1ac50705b447">DrvStrokeAndFillPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvstrokeandfillpath">DrvStrokeAndFillPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/c931a39d-c0ae-4f40-b70f-f51d5621c228">DrvStrokePath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvstrokepath">DrvStrokePath</a>
 
 
 
-<a href="https://msdn.microsoft.com/b41f77cb-5dd6-43bd-86dc-0bbcbb3e9f6a">EngCreatePath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatepath">EngCreatePath</a>
 
 
 
-<a href="https://msdn.microsoft.com/65ecf4bc-5180-4b4b-a359-298f385b849e">EngDeletePath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engdeletepath">EngDeletePath</a>
  
 
  

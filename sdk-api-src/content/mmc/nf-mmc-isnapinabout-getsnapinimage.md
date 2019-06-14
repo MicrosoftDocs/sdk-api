@@ -88,7 +88,7 @@ ISnapinAbout interface is released.
 
 
 
-<a href="https://msdn.microsoft.com/39732334-f849-433b-a313-0c4a675bf408">ISnapinAbout</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-isnapinabout">ISnapinAbout</a>
  
 
  

@@ -64,21 +64,21 @@ The <b>FaxEnumJobs</b> function enumerates all queued and active fax jobs on the
 
 Type: <b>HANDLE</b>
 
-Specifies a fax server handle returned by a call to the <a href="https://msdn.microsoft.com/en-us/library/ms691482(v=VS.85).aspx">FaxConnectFaxServer</a> function.
+Specifies a fax server handle returned by a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxconnectfaxservera">FaxConnectFaxServer</a> function.
 
 
 ### -param JobEntry [out]
 
 Type: <b>PFAX_JOB_ENTRY*</b>
 
-Pointer to the address of a buffer to receive an array of <a href="https://msdn.microsoft.com/en-us/library/ms690762(v=VS.85).aspx">FAX_JOB_ENTRY</a> structures. Each structure describes one fax job. The data includes, among other items, the job type and status; recipient and sender identification; scheduling and delivery settings; and the page count. For information about memory allocation, see the following Remarks section.
+Pointer to the address of a buffer to receive an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_job_entrya">FAX_JOB_ENTRY</a> structures. Each structure describes one fax job. The data includes, among other items, the job type and status; recipient and sender identification; scheduling and delivery settings; and the page count. For information about memory allocation, see the following Remarks section.
 
 
 ### -param JobsReturned [out]
 
 Type: <b>LPDWORD</b>
 
-Pointer to a <b>DWORD</b> variable to receive the number of <a href="https://msdn.microsoft.com/en-us/library/ms690762(v=VS.85).aspx">FAX_JOB_ENTRY</a> structures the function returns in the <i>JobEntry</i> parameter.
+Pointer to a <b>DWORD</b> variable to receive the number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_job_entrya">FAX_JOB_ENTRY</a> structures the function returns in the <i>JobEntry</i> parameter.
 
 
 ## -returns
@@ -89,7 +89,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. GetLastError can return one of the following errors.
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. GetLastError can return one of the following errors.
 
 <table>
 <tr>
@@ -103,7 +103,7 @@ If the function fails, the return value is zero. To get extended error informati
 </dl>
 </td>
 <td width="60%">
-Access is denied. <a href="https://msdn.microsoft.com/en-us/library/ms692302(v=VS.85).aspx">FAX_JOB_QUERY</a> access is required.
+Access is denied. <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-specific-fax-access-rights">FAX_JOB_QUERY</a> access is required.
 
 </td>
 </tr>
@@ -139,9 +139,9 @@ An error occurred during memory allocation.
 
 
 
-The <b>FaxEnumJobs</b> function returns a list of fax jobs on the fax server of interest, as well as information available about each job. A fax administration application typically calls this function to display the fax job queue for administrative or query purposes. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms691821(v=VS.85).aspx">Managing Fax Jobs</a>.
+The <b>FaxEnumJobs</b> function returns a list of fax jobs on the fax server of interest, as well as information available about each job. A fax administration application typically calls this function to display the fax job queue for administrative or query purposes. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-managing-fax-jobs">Managing Fax Jobs</a>.
 
-The <b>FaxEnumJobs</b> function allocates the memory required for the <a href="https://msdn.microsoft.com/en-us/library/ms690762(v=VS.85).aspx">FAX_JOB_ENTRY</a> buffer array pointed to by the <i>JobEntry</i> parameter. An application must call the <a href="https://msdn.microsoft.com/en-us/library/ms692846(v=VS.85).aspx">FaxFreeBuffer</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
+The <b>FaxEnumJobs</b> function allocates the memory required for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_job_entrya">FAX_JOB_ENTRY</a> buffer array pointed to by the <i>JobEntry</i> parameter. An application must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxfreebuffer">FaxFreeBuffer</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-freeing-fax-resources">Freeing Fax Resources</a>.
 
 
 
@@ -151,27 +151,27 @@ The <b>FaxEnumJobs</b> function allocates the memory required for the <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690762(v=VS.85).aspx">FAX_JOB_ENTRY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_job_entrya">FAX_JOB_ENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691947(v=VS.85).aspx">Fax Service Client API Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-functions">Fax Service Client API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-for-windows-2000">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691482(v=VS.85).aspx">FaxConnectFaxServer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxconnectfaxservera">FaxConnectFaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692846(v=VS.85).aspx">FaxFreeBuffer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxfreebuffer">FaxFreeBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692186(v=VS.85).aspx">FaxGetJob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxgetjoba">FaxGetJob</a>
  
 
  

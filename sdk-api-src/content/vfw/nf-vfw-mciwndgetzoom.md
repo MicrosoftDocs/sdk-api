@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndGetZoom</b> macro retrieves the current zoom value used by an MCI device. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/92db8df2-515a-4616-a0f5-245d466ba379">MCIWNDM_GETZOOM</a> message.
+The <b>MCIWndGetZoom</b> macro retrieves the current zoom value used by an MCI device. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getzoom">MCIWNDM_GETZOOM</a> message.
 
 
 
@@ -70,11 +70,11 @@ Handle of the MCIWnd window.
 
 
 
-<a href="https://msdn.microsoft.com/92db8df2-515a-4616-a0f5-245d466ba379">MCIWNDM_GETZOOM</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getzoom">MCIWNDM_GETZOOM</a>
 
 
 
-<a href="https://msdn.microsoft.com/a9912c5c-2336-48a3-aca0-d0d434b9db08">MCIWndSetZoom</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-mciwndsetzoom">MCIWndSetZoom</a>
  
 
  

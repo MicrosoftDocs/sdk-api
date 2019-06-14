@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>IMSVidDataServices</b> interface represents the data services feature. The <a href="https://msdn.microsoft.com/a37a33be-f2b3-47a9-b1a7-8b4b02a6652f">MSVidDataServices</a> feature object exposes this interface.
+The <b>IMSVidDataServices</b> interface represents the data services feature. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd695122(v=vs.85)">MSVidDataServices</a> feature object exposes this interface.
 
 
 
@@ -69,11 +69,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/0512e1d6-e10e-421e-846c-4bcd7e86d0e7">IMSVidFeature</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidfeature">IMSVidFeature</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf6c3ce9-1e56-4109-93f1-5b313e6ca19b">Video Control Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
  
 
  

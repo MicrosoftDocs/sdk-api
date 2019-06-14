@@ -50,13 +50,13 @@ ms.custom: 19H1
 
 
 Do not use. Used to filter contact data, based on a label or property set. Enumerates contact properties 
-		exposed with an <a href="https://msdn.microsoft.com/c9c0d73d-4c39-4f7c-9bc6-46d764f157bd">IContactProperties</a> object. For each property, 
+		exposed with an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactproperties">IContactProperties</a> object. For each property, 
 		the name, type, version, and modification date can be retrieved.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContactPropertyCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IContactPropertyCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContactPropertyCollection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IContactPropertyCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IContactPropertyCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bfd860d6-cd67-4f97-afc4-1e2e7c8f57ca">GetPropertyArrayElementID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactpropertycollection-getpropertyarrayelementid">GetPropertyArrayElementID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the unique ID for a given element in a property array.
@@ -80,7 +80,7 @@ Retrieves the unique ID for a given element in a property array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7ad95916-4e21-4607-b27d-584a931f9201">GetPropertyModificationDate</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactpropertycollection-getpropertymodificationdate">GetPropertyModificationDate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the last modification date for the current property in the enumeration. 
@@ -90,7 +90,7 @@ Retrieves the last modification date for the current property in the enumeration
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8fa7fb24-2648-4f7b-b37c-d42b2966a959">GetPropertyName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactpropertycollection-getpropertyname">GetPropertyName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name for the current property in the enumeration.
@@ -99,7 +99,7 @@ Retrieves the name for the current property in the enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/11977b0c-332a-415a-986f-7fb08246413f">GetPropertyType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactpropertycollection-getpropertytype">GetPropertyType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type for the current property in the enumeration.
@@ -108,7 +108,7 @@ Retrieves the type for the current property in the enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ff10129e-45cb-41a4-8800-22b33a238b65">GetPropertyVersion</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactpropertycollection-getpropertyversion">GetPropertyVersion</a>
 </td>
 <td align="left" width="63%">
 Retrieves the version number for the current property in the enumeration.
@@ -117,7 +117,7 @@ Retrieves the version number for the current property in the enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b6e8abad-796d-4ded-be23-45ca107915f1">Next</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactpropertycollection-next">Next</a>
 </td>
 <td align="left" width="63%">
 Moves to the next property.
@@ -126,7 +126,7 @@ Moves to the next property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cef73e3c-56be-44b8-b05b-3c2081b71591">Reset</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactpropertycollection-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets enumeration of properties.
@@ -140,7 +140,7 @@ Resets enumeration of properties.
 
 
 
-<div class="alert"><b>Note</b>  Changing the <a href="https://msdn.microsoft.com/c9c0d73d-4c39-4f7c-9bc6-46d764f157bd">IContactProperties</a> properties object 
+<div class="alert"><b>Note</b>  Changing the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactproperties">IContactProperties</a> properties object 
 		while enumerating properties with this interface results in undefined behavior.</div>
 <div> </div>
 

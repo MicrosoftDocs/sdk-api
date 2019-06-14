@@ -108,7 +108,7 @@ This callback function does not return a value.
 
 
 For information about parameter values passed to this function, see 
-<a href="https://msdn.microsoft.com/dc11134e-6c20-426e-834e-508bf855e5da">Line Device Messages</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-device-messages">Line Device Messages</a>.
 
 All callbacks occur in the application's context. The callback function must reside in a DLL or application module.
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The DDSETSTATEININFO structure contains the surface and <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">video port extensions (VPE)</a> object information. 
+The DDSETSTATEININFO structure contains the surface and <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object information. 
 
 
 ## -struct-fields
@@ -59,12 +59,12 @@ The DDSETSTATEININFO structure contains the surface and <a href="https://msdn.mi
 
 ### -field lpSurfaceData
 
-Points to a <a href="https://msdn.microsoft.com/4057cfcf-675e-439f-8b51-23adede1d35a">DDSURFACEDATA</a> structure that contains the surface information. 
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddsurfacedata">DDSURFACEDATA</a> structure that contains the surface information. 
 
 
 ### -field lpVideoPortData
 
-Points to a <a href="https://msdn.microsoft.com/662ff6ee-d6b1-4cb1-8ff8-b4c1e17b26df">DDVIDEOPORTDATA</a> structure that contains the VPE object information.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddvideoportdata">DDVIDEOPORTDATA</a> structure that contains the VPE object information.
 
 
 ## -see-also
@@ -72,15 +72,15 @@ Points to a <a href="https://msdn.microsoft.com/662ff6ee-d6b1-4cb1-8ff8-b4c1e17b
 
 
 
-<a href="https://msdn.microsoft.com/4057cfcf-675e-439f-8b51-23adede1d35a">DDSURFACEDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddsurfacedata">DDSURFACEDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/662ff6ee-d6b1-4cb1-8ff8-b4c1e17b26df">DDVIDEOPORTDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddvideoportdata">DDVIDEOPORTDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/f2d7f248-017e-4375-b0a0-49de65192511">DxSetState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_setstate">DxSetState</a>
  
 
  

@@ -64,7 +64,7 @@ Sets the stack reserve and commit sizes for new threads in the specified thread 
 
 ### -param ptpp [in, out]
 
-A <b>TP_POOL</b> structure that specifies the thread pool. The <a href="https://msdn.microsoft.com/cc00d7bf-ac52-44ff-a6a8-76c8eaace5e6">CreateThreadpool</a> function returns this structure.
+A <b>TP_POOL</b> structure that specifies the thread pool. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpool">CreateThreadpool</a> function returns this structure.
 
 
 ### -param ptpsi [in]
@@ -79,7 +79,7 @@ A <b>TP_POOL_STACK_INFORMATION</b> structure that specifies the stack reserve an
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -88,7 +88,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-To compile an application that uses this function, set _WIN32_WINNT to _WIN32_WINNT_WIN7. For more information, see <a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+To compile an application that uses this function, set _WIN32_WINNT to _WIN32_WINNT_WIN7. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 
@@ -98,7 +98,7 @@ To compile an application that uses this function, set _WIN32_WINNT to _WIN32_WI
 
 
 
-<a href="https://msdn.microsoft.com/1669dfa7-75bf-4776-bba7-7d03a084a32c">QueryThreadpoolStackInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-querythreadpoolstackinformation">QueryThreadpoolStackInformation</a>
  
 
  

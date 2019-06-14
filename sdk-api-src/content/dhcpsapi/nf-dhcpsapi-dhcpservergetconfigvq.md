@@ -64,14 +64,14 @@ Unicode string that specifies the IP address or hostname of the DHCP server.
 
 ### -param ConfigInfo [out]
 
-Pointer to the address of a <a href="https://msdn.microsoft.com/54b5898f-8e9d-42be-b68e-32884d3dbe08">DHCP_SERVER_CONFIG_INFO_VQ</a> structure that contains the returned DHCP server configuration settings.
+Pointer to the address of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_server_config_info_vq">DHCP_SERVER_CONFIG_INFO_VQ</a> structure that contains the returned DHCP server configuration settings.
 
 
 ## -returns
 
 
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://msdn.microsoft.com/6370313f-d7db-4ff1-b0e0-7fa47474facb">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -99,7 +99,7 @@ This call was performed by a client who is not a member of the "DHCP Administrat
 
 
 
-The caller of this function must free the memory pointed to by <i>ConfigInfo</i> by calling <a href="https://msdn.microsoft.com/bf22a0a6-2ecd-4460-89c4-3f870c6275dc">DhcpRpcFreeMemory</a>.
+The caller of this function must free the memory pointed to by <i>ConfigInfo</i> by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcprpcfreememory">DhcpRpcFreeMemory</a>.
 
 
 
@@ -109,11 +109,11 @@ The caller of this function must free the memory pointed to by <i>ConfigInfo</i>
 
 
 
-<a href="https://msdn.microsoft.com/54b5898f-8e9d-42be-b68e-32884d3dbe08">DHCP_SERVER_CONFIG_INFO_VQ</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_server_config_info_vq">DHCP_SERVER_CONFIG_INFO_VQ</a>
 
 
 
-<a href="https://msdn.microsoft.com/3498b674-5771-47b6-9dfa-a8e3e10bca40">DhcpServerSetConfigVQ</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpserversetconfigvq">DhcpServerSetConfigVQ</a>
  
 
  

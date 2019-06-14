@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[CStdStubBuffer_Invoke is not supported and may be altered or unavailable in the future.]
 
-The <b>CStdStubBuffer_Invoke</b> function implements the  <a href="https://msdn.microsoft.com/en-us/library/ms686653(v=VS.85).aspx">IRpcStubBuffer::Invoke</a> method.
+The <b>CStdStubBuffer_Invoke</b> function implements the  <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-invoke">IRpcStubBuffer::Invoke</a> method.
 
 
 ## -parameters
@@ -61,17 +61,17 @@ The <b>CStdStubBuffer_Invoke</b> function implements the  <a href="https://msdn.
 
 ### -param This [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a> object.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a> object.
 
 
 ### -param pRpcMsg [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms691405(v=VS.85).aspx">RPCOLEMESSAGE</a> structure. On input, the structure contains the marshalled input parameters. On output, the structure contains the marshalled output and return values.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagrpcolemessage">RPCOLEMESSAGE</a> structure. On input, the structure contains the marshalled input parameters. On output, the structure contains the marshalled output and return values.
 
 
 ### -param pRpcChannelBuffer [in]
 
-Interface pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms679738(v=VS.85).aspx">IRpcChannelBuffer</a> object. Channel used for communication between the client and server.
+Interface pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcchannelbuffer">IRpcChannelBuffer</a> object. Channel used for communication between the client and server.
 
 
 ## -returns

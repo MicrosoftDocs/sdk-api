@@ -55,7 +55,7 @@ Sets and queries global properties of the Component Object Model (COM) runtime.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGlobalOptions</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IGlobalOptions</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGlobalOptions</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGlobalOptions</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IGlobalOptions</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ee16e59d-c629-45c1-afe6-fb4e37eba5d1">Query</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iglobaloptions-query">Query</a>
 </td>
 <td align="left" width="63%">
 Queries the specified global property of the COM runtime.
@@ -79,7 +79,7 @@ Queries the specified global property of the COM runtime.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5a59c862-64a4-45b5-8b6b-dacbfb4d170b">Set</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iglobaloptions-set">Set</a>
 </td>
 <td align="left" width="63%">
 Sets the specified global property of the COM runtime.
@@ -145,7 +145,7 @@ COMGLB_RPC_THREADPOOL_SETTING
 
 </td>
 <td>
-Possible values for the COMGLB_RPC_THREADPOOL_SETTING property in the <a href="https://msdn.microsoft.com/5a59c862-64a4-45b5-8b6b-dacbfb4d170b">Set</a> method are:
+Possible values for the COMGLB_RPC_THREADPOOL_SETTING property in the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iglobaloptions-set">Set</a> method are:
 
 
 
@@ -153,7 +153,7 @@ Possible values for the COMGLB_RPC_THREADPOOL_SETTING property in the <a href="h
 <li>COMGLB_RPC_THREADPOOL_SETTING_PRIVATE_POOL: Instructs RPC to use a dedicated private thread pool.
 </li>
 </ul>
-Possible values for the COMGLB_RPC_THREADPOOL_SETTING property in the <a href="https://msdn.microsoft.com/ee16e59d-c629-45c1-afe6-fb4e37eba5d1">Query</a> method are:
+Possible values for the COMGLB_RPC_THREADPOOL_SETTING property in the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iglobaloptions-query">Query</a> method are:
 
 
 
@@ -166,7 +166,7 @@ RPC uses the system thread pool by default in Windows 7. Since the system threa
 
 The COMGLB_RPC_THREADPOOL_SETTING property can be used to change the RPC thread pool behavior. Changing the default behavior will incur a performance penalty since this causes RPC to use an extra thread. Therefore, care should be exercised when changing this setting. It is recommended that this setting is changed only for application compatibility reasons.
 
-<div class="alert"><b>Note</b>  This property must be set immediately after COM is initialized in the process. If this property is set after performing any operations that cause COM to initialize the RPC channel (for example, marshaling or unmarshalling object references), the <a href="https://msdn.microsoft.com/5a59c862-64a4-45b5-8b6b-dacbfb4d170b">Set</a> method will fail.</div>
+<div class="alert"><b>Note</b>  This property must be set immediately after COM is initialized in the process. If this property is set after performing any operations that cause COM to initialize the RPC channel (for example, marshaling or unmarshalling object references), the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iglobaloptions-set">Set</a> method will fail.</div>
 <div> </div>
 <b>Note</b>  This property is only supported in Windows 7 and later versions of Windows.
 
@@ -211,9 +211,9 @@ Possible values for the COMGLB_UNMARSHALING_POLICY property are:
 
 
 <ul>
-<li>COMGLB_UNMARSHALING_POLICY_NORMAL: Unmarshaling behavior is the same as versions before than Windows 8. <b>EOAC_NO_CUSTOM_MARSHAL</b> restrictions apply if this flag is set in <a href="https://msdn.microsoft.com/e0933741-6b75-4ce1-aa63-6240e4a7130f">CoInitializeSecurity</a>. Otherwise, there are no restrictions. This is the default for processes that aren't in the app container.</li>
-<li>COMGLB_UNMARSHALING_POLICY_STRONG: Unmarshaling allows only a system-trusted list of hardened unmarshalers and unmarshalers allowed per-process by the <a href="https://msdn.microsoft.com/4655C6B6-02CE-42B2-A157-0C0325D1BE52">CoAllowUnmarshalerCLSID</a> function. This is the default for processes in the app container.</li>
-<li> COMGLB_UNMARSHALING_POLICY_HYBRID: Unmarshaling data whose source is app container allows only a system-trusted list of hardened unmarshalers and unmarshalers allowed per-process by the <a href="https://msdn.microsoft.com/4655C6B6-02CE-42B2-A157-0C0325D1BE52">CoAllowUnmarshalerCLSID</a> function. Unmarshaling behavior for data with a source that's not app container is unchanged from previous versions.</li>
+<li>COMGLB_UNMARSHALING_POLICY_NORMAL: Unmarshaling behavior is the same as versions before than Windows 8. <b>EOAC_NO_CUSTOM_MARSHAL</b> restrictions apply if this flag is set in <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity">CoInitializeSecurity</a>. Otherwise, there are no restrictions. This is the default for processes that aren't in the app container.</li>
+<li>COMGLB_UNMARSHALING_POLICY_STRONG: Unmarshaling allows only a system-trusted list of hardened unmarshalers and unmarshalers allowed per-process by the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coallowunmarshalerclsid">CoAllowUnmarshalerCLSID</a> function. This is the default for processes in the app container.</li>
+<li> COMGLB_UNMARSHALING_POLICY_HYBRID: Unmarshaling data whose source is app container allows only a system-trusted list of hardened unmarshalers and unmarshalers allowed per-process by the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coallowunmarshalerclsid">CoAllowUnmarshalerCLSID</a> function. Unmarshaling behavior for data with a source that's not app container is unchanged from previous versions.</li>
 </ul>
 <b>Note</b>  This property is only supported in Windows 8 and later versions of Windows.
 
@@ -222,7 +222,7 @@ Possible values for the COMGLB_UNMARSHALING_POLICY property are:
 </table>
  
 
-It's important for applications that detect crashes and other exceptions that might be generated while executing inbound COM calls, for example a call on a local server or when executing the <a href="https://msdn.microsoft.com/7ea6d815-bf8f-47d5-99d3-f9a55bafee2e">IDropTarget::Drop</a> method, to set COMGLB_EXCEPTION_HANDLING to COMGLB_EXCEPTION_DONOT_HANDLE to disable COM behavior of catching exceptions.  Failure to do this can lead to corrupt process state, for example locks held when these exceptions are thrown are abandoned, and the process could enter an inconsistent state.
+It's important for applications that detect crashes and other exceptions that might be generated while executing inbound COM calls, for example a call on a local server or when executing the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-drop">IDropTarget::Drop</a> method, to set COMGLB_EXCEPTION_HANDLING to COMGLB_EXCEPTION_DONOT_HANDLE to disable COM behavior of catching exceptions.  Failure to do this can lead to corrupt process state, for example locks held when these exceptions are thrown are abandoned, and the process could enter an inconsistent state.
 
 All such applications should execute this code at startup.
 
@@ -242,7 +242,7 @@ All such applications should execute this code at startup.
 
 
 
-<a href="https://msdn.microsoft.com/7C4A3982-3623-4F1F-929C-6D0503700450">IMarshalingStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshalingstream">IMarshalingStream</a>
  
 
  

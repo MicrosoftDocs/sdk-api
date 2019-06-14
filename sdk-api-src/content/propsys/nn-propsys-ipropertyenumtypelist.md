@@ -54,7 +54,7 @@ Exposes methods that enumerate the possible values for a property.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyEnumTypeList</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPropertyEnumTypeList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyEnumTypeList</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPropertyEnumTypeList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IPropertyEnumTypeList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb761476(v=VS.85).aspx">FindMatchingIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertyenumtypelist-findmatchingindex">FindMatchingIndex</a>
 </td>
 <td align="left" width="63%">
 Compares the specified property value against the enumerated values in a list and returns the matching index.
@@ -78,16 +78,16 @@ Compares the specified property value against the enumerated values in a list an
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd372028(v=VS.85).aspx">GetAt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcolorprofileresourcecollection-getat">GetAt</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/en-us/library/Bb761495(v=VS.85).aspx">IPropertyEnumType</a> object at the specified index in the list.
+Gets the <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertyenumtype">IPropertyEnumType</a> object at the specified index in the list.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb761479(v=VS.85).aspx">GetConditionAt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertyenumtypelist-getconditionat">GetConditionAt</a>
 </td>
 <td align="left" width="63%">
 Not currently supported.
@@ -96,7 +96,7 @@ Not currently supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535454(v=VS.85).aspx">GetCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspathiterator-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of elements in the list.

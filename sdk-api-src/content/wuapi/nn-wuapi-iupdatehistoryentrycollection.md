@@ -49,5 +49,5 @@ ms.custom: 19H1
 ## -description
 
 
-Represents an ordered read-only list of <a href="https://msdn.microsoft.com/7f67ba11-41b5-4185-a78d-75c76dbe1fbe">IUpdateHistoryEntry</a> interfaces.
+Represents an ordered read-only list of <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatehistoryentry">IUpdateHistoryEntry</a> interfaces.
 

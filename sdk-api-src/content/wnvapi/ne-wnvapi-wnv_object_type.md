@@ -75,11 +75,11 @@ The maximum possible value for this enumeration type. This is not a legal value.
 
 
 
-<a href="https://msdn.microsoft.com/70BE564E-A054-4991-ADCD-79E4D219307B">WNV_NOTIFICATION_TYPE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ne-wnvapi-_wnv_notification_type">WNV_NOTIFICATION_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/12FF591A-B696-49DF-9E75-B966569A2AAE">WNV_OBJECT_CHANGE_PARAM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ns-wnvapi-_wnv_object_change_param">WNV_OBJECT_CHANGE_PARAM</a>
  
 
  

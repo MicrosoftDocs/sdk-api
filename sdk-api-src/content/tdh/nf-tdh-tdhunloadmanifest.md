@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Unloads the manifest that was loaded by the <a href="https://msdn.microsoft.com/85dfcf73-ea3a-47e2-ad1a-3891b3917ecf">TdhLoadManifest</a> function.
+Unloads the manifest that was loaded by the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhloadmanifest">TdhLoadManifest</a> function.
 
 
 ## -parameters
@@ -118,7 +118,7 @@ The manifest did not pass validation. To determine the validation errors, run th
 
 
 
-You must call this function after processing all the events. For example, you can call this function after calling <a href="https://msdn.microsoft.com/25f4c4d3-0b70-40fe-bf03-8f9ffd82fbec">CloseTrace</a>.
+You must call this function after processing all the events. For example, you can call this function after calling <a href="https://docs.microsoft.com/windows/desktop/ETW/closetrace">CloseTrace</a>.
 
 
 
@@ -128,7 +128,7 @@ You must call this function after processing all the events. For example, you ca
 
 
 
-<a href="https://msdn.microsoft.com/85dfcf73-ea3a-47e2-ad1a-3891b3917ecf">TdhLoadManifest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhloadmanifest">TdhLoadManifest</a>
  
 
  

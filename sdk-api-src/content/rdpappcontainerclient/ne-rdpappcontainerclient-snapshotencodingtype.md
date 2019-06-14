@@ -68,7 +68,7 @@ The snapshot will be taken and a data URI that contains the snapshot will be ret
 
 
 
-<a href="https://msdn.microsoft.com/c80fe6e3-6ca7-4595-aa0e-c1ed0f6632a5">GetSnapshot</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientactions-getsnapshot">GetSnapshot</a>
  
 
  

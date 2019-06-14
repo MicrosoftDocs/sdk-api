@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12Resource</b> interface inherits from <a href="https://msdn.microsoft.com/89DC88B4-9DFD-413D-8EB9-91087CC90D18">ID3D12Pageable</a>. <b>ID3D12Resource</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12Resource</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a>. <b>ID3D12Resource</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID3D12Resource</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B8D84D69-6B13-4E86-8EF6-A841354B1E5C">GetDesc</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/id3d12resource-getdesc">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Gets the resource description.
@@ -78,7 +78,7 @@ Gets the resource description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1B1A345D-D6BD-4DF1-8F10-A209135283AD">GetGPUVirtualAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-getgpuvirtualaddress">GetGPUVirtualAddress</a>
 </td>
 <td align="left" width="63%">
 This method returns the GPU virtual address of a buffer resource.
@@ -88,7 +88,7 @@ This method returns the GPU virtual address of a buffer resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7F76986D-02F1-4E5A-B9A4-CFB021B72026">GetHeapProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-getheapproperties">GetHeapProperties</a>
 </td>
 <td align="left" width="63%">
 Retrieves the properties of the resource heap, for placed and committed resources.
@@ -98,17 +98,17 @@ Retrieves the properties of the resource heap, for placed and committed resource
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/71E43B63-9C84-4E4B-A43D-92B958C8AAF5">Map</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-map">Map</a>
 </td>
 <td align="left" width="63%">
-Gets a CPU pointer to the specified subresource in the resource, but may not disclose the pointer value to applications. <a href="https://msdn.microsoft.com/71E43B63-9C84-4E4B-A43D-92B958C8AAF5">Map</a> also invalidates the CPU cache, when necessary, so that CPU reads to this address reflect any modifications made by the GPU.
+Gets a CPU pointer to the specified subresource in the resource, but may not disclose the pointer value to applications. <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-map">Map</a> also invalidates the CPU cache, when necessary, so that CPU reads to this address reflect any modifications made by the GPU.
 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A1F61217-A383-49BF-B675-FBC7F6D015DB">ReadFromSubresource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-readfromsubresource">ReadFromSubresource</a>
 </td>
 <td align="left" width="63%">
 Uses the CPU to copy data from a subresource, enabling the CPU to read the contents of most textures with undefined layouts.
@@ -118,17 +118,17 @@ Uses the CPU to copy data from a subresource, enabling the CPU to read the conte
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/EB0E3936-47CC-4FDC-BF17-A506AC8E4C15">Unmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-unmap">Unmap</a>
 </td>
 <td align="left" width="63%">
-Invalidates the CPU pointer to the specified subresource in the resource. <a href="https://msdn.microsoft.com/EB0E3936-47CC-4FDC-BF17-A506AC8E4C15">Unmap</a> also flushes the CPU cache, when necessary, so that GPU reads to this address reflect any modifications made by the CPU.
+Invalidates the CPU pointer to the specified subresource in the resource. <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-unmap">Unmap</a> also flushes the CPU cache, when necessary, so that GPU reads to this address reflect any modifications made by the CPU.
 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8781E2FE-8D82-41F5-B541-A96DA11CA290">WriteToSubresource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-writetosubresource">WriteToSubresource</a>
 </td>
 <td align="left" width="63%">
 Uses the CPU to copy data into a subresource, enabling the CPU to modify the contents of most textures with undefined layouts.
@@ -143,11 +143,11 @@ Uses the CPU to copy data into a subresource, enabling the CPU to modify the con
 
 
 
-<a href="https://msdn.microsoft.com/A9BD5910-8FF2-4540-BB8E-E8EA5C10528C">Core Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/89DC88B4-9DFD-413D-8EB9-91087CC90D18">ID3D12Pageable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a>
  
 
  

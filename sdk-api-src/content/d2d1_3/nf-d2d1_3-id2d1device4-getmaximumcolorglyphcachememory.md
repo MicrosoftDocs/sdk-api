@@ -75,7 +75,7 @@ Returns the maximum capacity of the color glyph cache in bytes.
 
 
 
-<a href="https://msdn.microsoft.com/B91E4E63-5FB5-4470-A3B9-F94008EAE4E9">ID2D1Device4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1device4">ID2D1Device4</a>
  
 
  

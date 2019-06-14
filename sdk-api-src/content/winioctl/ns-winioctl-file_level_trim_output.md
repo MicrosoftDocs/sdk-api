@@ -49,7 +49,7 @@ req.redist:
 
 
 Used as output to the 
-    <a href="https://msdn.microsoft.com/2d466a98-f7b2-4638-942c-1cf9016d0bf9">FSCTL_FILE_LEVEL_TRIM</a> control code.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_file_level_trim">FSCTL_FILE_LEVEL_TRIM</a> control code.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ Used as output to the
 
 Contains the number of ranges that were successfully processed. This may be less than the value passed in 
       the <b>NumRanges</b> member of the 
-      <a href="https://msdn.microsoft.com/2d466a98-f7b2-4638-942c-1cf9016d0bf9">FILE_LEVEL_TRIM</a> structure. If it is then the last 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_file_level_trim">FILE_LEVEL_TRIM</a> structure. If it is then the last 
       ranges in the array were not processed.
 
 
@@ -70,7 +70,7 @@ Contains the number of ranges that were successfully processed. This may be less
 
 
 
-<a href="https://msdn.microsoft.com/2d466a98-f7b2-4638-942c-1cf9016d0bf9">FSCTL_FILE_LEVEL_TRIM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_file_level_trim">FSCTL_FILE_LEVEL_TRIM</a>
  
 
  

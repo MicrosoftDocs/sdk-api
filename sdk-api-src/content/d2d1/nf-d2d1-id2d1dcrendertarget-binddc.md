@@ -75,7 +75,7 @@ The dimensions of the handle to a device context (HDC) to which the render targe
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -91,9 +91,9 @@ Before you can render with the DC render target, you must use its <b>BindDC</b> 
 
 #### Examples
 
-In the preceding code, <i>m_pD2DFactory</i> is a  pointer to an <a href="https://msdn.microsoft.com/cef6115c-98e8-49e6-b419-271b43ce2938">ID2D1Factory</a>, and <i>m_pDCRT</i> is a pointer to an <a href="https://msdn.microsoft.com/6546998e-6740-413a-88c5-36fa0decec8f">ID2D1DCRenderTarget</a>. 
+In the preceding code, <i>m_pD2DFactory</i> is a  pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>, and <i>m_pDCRT</i> is a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1dcrendertarget">ID2D1DCRenderTarget</a>. 
 
-The next code example binds a DC to the <a href="https://msdn.microsoft.com/6546998e-6740-413a-88c5-36fa0decec8f">ID2D1DCRenderTarget</a>.
+The next code example binds a DC to the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1dcrendertarget">ID2D1DCRenderTarget</a>.
 
 
 ```cpp
@@ -123,11 +123,11 @@ hr = m_pDCRT->BindDC(ps.hdc, &rc);
 
 
 
-<a href="https://msdn.microsoft.com/182df2dc-2574-4d8f-a7e1-30d70da1740a">Direct2D and GDI Interoperation Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-and-gdi-interoperation-overview">Direct2D and GDI Interoperation Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/6546998e-6740-413a-88c5-36fa0decec8f">ID2D1DCRenderTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1dcrendertarget">ID2D1DCRenderTarget</a>
  
 
  

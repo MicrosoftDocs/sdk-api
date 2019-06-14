@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndCanEject</b> macro determines if an MCI device can eject its media. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/e9bd33c4-0ad8-4c0a-8b75-52011b58904d">MCIWNDM_CAN_EJECT</a> message.
+The <b>MCIWndCanEject</b> macro determines if an MCI device can eject its media. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-can-eject">MCIWNDM_CAN_EJECT</a> message.
 
 
 
@@ -70,7 +70,7 @@ Handle of the MCIWnd window.
 
 
 
-<a href="https://msdn.microsoft.com/e9bd33c4-0ad8-4c0a-8b75-52011b58904d">MCIWNDM_CAN_EJECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-can-eject">MCIWNDM_CAN_EJECT</a>
  
 
  

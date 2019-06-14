@@ -82,7 +82,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/2EBDF7CF-8EDF-4d2f-9632-905C60A7BC45">IThumbnailCachePrimer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/nn-thumbcache-ithumbnailcacheprimer">IThumbnailCachePrimer</a>
  
 
  

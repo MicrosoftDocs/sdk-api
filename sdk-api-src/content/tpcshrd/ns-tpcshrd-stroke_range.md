@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Specifies a range of strokes in the <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp</a> object.
+Specifies a range of strokes in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
 
 
 

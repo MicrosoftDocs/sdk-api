@@ -54,7 +54,7 @@ The <b>IUPnPAddressFamilyControl</b> interface accesses the address family flag 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPAddressFamilyControl</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUPnPAddressFamilyControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPAddressFamilyControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUPnPAddressFamilyControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IUPnPAddressFamilyControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3ad0897e-e128-4b49-92c1-eaf2ac516c3b">GetAddressFamily</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpaddressfamilycontrol-getaddressfamily">GetAddressFamily</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current value of the address family flag of the Device Finder object.
@@ -78,7 +78,7 @@ Retrieves the current value of the address family flag of the Device Finder obje
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2b3e5dae-68c0-431b-bef0-fa2bb5f53bdc">SetAddressFamily</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpaddressfamilycontrol-setaddressfamily">SetAddressFamily</a>
 </td>
 <td align="left" width="63%">
 Sets the address family flag of the Device Finder object.

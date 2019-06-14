@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CERT_EXTENSION</b> structure contains the extension information for a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate</a>, <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">Certificate Revocation List</a> (CRL) or <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">Certificate Trust List</a> (CTL).
+The <b>CERT_EXTENSION</b> structure contains the extension information for a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a>, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certificate Revocation List</a> (CRL) or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certificate Trust List</a> (CTL).
 
 
 ## -struct-fields
@@ -59,8 +59,8 @@ The <b>CERT_EXTENSION</b> structure contains the extension information for a <a 
 
 ### -field pszObjId
 
-<a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">Object identifier</a> (OID) that specifies the structure of the extension data contained in the <b>Value</b> member. For specifics on extension OIDs and their related structures, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380258(v=VS.85).aspx">X.509 Certificate Extension Structures</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">Object identifier</a> (OID) that specifies the structure of the extension data contained in the <b>Value</b> member. For specifics on extension OIDs and their related structures, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-structures">X.509 Certificate Extension Structures</a>.
 
 
 ### -field fCritical
@@ -71,7 +71,7 @@ If <b>TRUE</b>, any limitations specified by the extension in the <b>Value</b> m
 ### -field Value
 
 A 
-<a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_OBJID_BLOB</a> structure that contains the encoded extension data. The <b>cbData</b> member of <b>Value</b> indicates the length in bytes of the <b>pbData</b> member. The <b>pbData</b> member byte string is the encoded extension.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_OBJID_BLOB</a> structure that contains the encoded extension data. The <b>cbData</b> member of <b>Value</b> indicates the length in bytes of the <b>pbData</b> member. The <b>pbData</b> member byte string is the encoded extension.
 
 
 ## -see-also
@@ -79,35 +79,35 @@ A
 
 
 
-<a href="https://msdn.microsoft.com/b393ef08-cedb-4840-a427-10ead315d6ea">CERT_EXTENSIONS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_extensions">CERT_EXTENSIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/8d0a3053-52d4-437a-bf55-6724b5825cdc">CERT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info">CERT_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/30e7952a-a408-404f-9058-8197539387f6">CRL_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_entry">CRL_ENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/06a28de3-dd7c-4efe-9baa-20aac69d63f3">CRL_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_info">CRL_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_INTEGER_BLOB</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
 
 
 
-<a href="https://msdn.microsoft.com/ebc63847-b641-4205-b15c-7b32c1426c21">CTL_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_entry">CTL_ENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/83b015b5-a650-4a81-a9f0-c3e8a9805c81">CTL_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_info">CTL_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/489c58b6-a704-4f54-bc64-34eacafc347c">CertFindExtension</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindextension">CertFindExtension</a>
  
 
  

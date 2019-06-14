@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SCardConnect</b> function establishes a connection (using a specific <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">resource manager context</a>) between the calling application and a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">smart card</a> contained by a specific reader. If no card exists in the specified reader, an error is returned.
+The <b>SCardConnect</b> function establishes a connection (using a specific <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager context</a>) between the calling application and a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> contained by a specific reader. If no card exists in the specified reader, an error is returned.
 
 
 ## -parameters
@@ -63,8 +63,8 @@ The <b>SCardConnect</b> function establishes a connection (using a specific <a h
 
 ### -param hContext [in]
 
-A handle that identifies the <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">resource manager context</a>. The resource manager context is set by a previous call to 
-<a href="https://msdn.microsoft.com/1cf9b005-b76c-4fc9-b4bd-a1ad8552535f">SCardEstablishContext</a>.
+A handle that identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager context</a>. The resource manager context is set by a previous call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>.
 
 
 ### -param szReader [in]
@@ -130,7 +130,7 @@ A bitmask of acceptable protocols for the connection. Possible values may be com
 </dl>
 </td>
 <td width="60%">
-<a href="https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f">T=0</a> is an acceptable protocol.
+<a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">T=0</a> is an acceptable protocol.
 
 </td>
 </tr>
@@ -140,7 +140,7 @@ A bitmask of acceptable protocols for the connection. Possible values may be com
 </dl>
 </td>
 <td width="60%">
-<a href="https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f">T=1</a> is an acceptable protocol.
+<a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">T=1</a> is an acceptable protocol.
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ A bitmask of acceptable protocols for the connection. Possible values may be com
 </dl>
 </td>
 <td width="60%">
-This parameter may be zero only if <i>dwShareMode</i> is set to SCARD_SHARE_DIRECT. In this case, no protocol negotiation will be performed by the drivers until an IOCTL_SMARTCARD_SET_PROTOCOL control directive is sent with <a href="https://msdn.microsoft.com/e8c69e61-4e5e-4385-a0f1-9b594c479984">SCardControl</a>.
+This parameter may be zero only if <i>dwShareMode</i> is set to SCARD_SHARE_DIRECT. In this case, no protocol negotiation will be performed by the drivers until an IOCTL_SMARTCARD_SET_PROTOCOL control directive is sent with <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardcontrol">SCardControl</a>.
 
 </td>
 </tr>
@@ -160,7 +160,7 @@ This parameter may be zero only if <i>dwShareMode</i> is set to SCARD_SHARE_DIRE
 
 ### -param phCard [out]
 
-A handle that identifies the connection to the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">smart card</a> in the designated reader.
+A handle that identifies the connection to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> in the designated reader.
 
 
 ### -param pdwActiveProtocol [out]
@@ -178,7 +178,7 @@ A flag that indicates the established active protocol.
 </dl>
 </td>
 <td width="60%">
-<a href="https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f">T=0</a> is the active protocol.
+<a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">T=0</a> is the active protocol.
 
 </td>
 </tr>
@@ -188,7 +188,7 @@ A flag that indicates the established active protocol.
 </dl>
 </td>
 <td width="60%">
-<a href="https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f">T=1</a> is the active protocol.
+<a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">T=1</a> is the active protocol.
 
 </td>
 </tr>
@@ -236,7 +236,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -261,13 +261,13 @@ The reader was unable to connect to the card.
 
 
 
-The <b>SCardConnect</b> function is a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">smart card</a> and <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">reader</a> access function. For more information about other access functions, see 
-<a href="https://msdn.microsoft.com/37d92491-174b-471e-b36e-46d9285dd404">Smart Card and Reader Access Functions</a>.
+The <b>SCardConnect</b> function is a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader</a> access function. For more information about other access functions, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/smart-card-and-reader-access-functions">Smart Card and Reader Access Functions</a>.
 
 
 #### Examples
 
-The following example creates a connection to a reader. The example assumes that <i>hContext</i> is a valid handle of type <b>SCARDCONTEXT</b> received from a previous call to <a href="https://msdn.microsoft.com/1cf9b005-b76c-4fc9-b4bd-a1ad8552535f">SCardEstablishContext</a>.
+The following example creates a connection to a reader. The example assumes that <i>hContext</i> is a valid handle of type <b>SCARDCONTEXT</b> received from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>.
 
 
 ```cpp
@@ -319,19 +319,19 @@ switch ( dwAP )
 
 
 
-<a href="https://msdn.microsoft.com/e8c69e61-4e5e-4385-a0f1-9b594c479984">SCardControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardcontrol">SCardControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/d087a006-bd2d-4ad7-965b-36ea8d712ec8">SCardDisconnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scarddisconnect">SCardDisconnect</a>
 
 
 
-<a href="https://msdn.microsoft.com/1cf9b005-b76c-4fc9-b4bd-a1ad8552535f">SCardEstablishContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/c79e5810-c2be-4184-8ac7-c058ccb9308e">SCardReconnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardreconnect">SCardReconnect</a>
  
 
  

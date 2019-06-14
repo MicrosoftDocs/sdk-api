@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Generated when an application server is forced to shut down. This is usually initiated by the user calling a catalog method, such as <a href="https://msdn.microsoft.com/79f3af18-0924-4e09-85aa-54a6886b65b3">ICOMAdminCatalog::ShutdownApplication</a>, to shut down the server.
+Generated when an application server is forced to shut down. This is usually initiated by the user calling a catalog method, such as <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-shutdownapplication">ICOMAdminCatalog::ShutdownApplication</a>, to shut down the server.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Generated when an application server is forced to shut down. This is usually ini
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms688276(v=VS.85).aspx">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-__midl___midl_itf_autosvcs_0000_0013_0001">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param guidApp [in]
@@ -81,7 +81,7 @@ The user verifies the return values from this method.
 
 
 
-<a href="https://msdn.microsoft.com/61ae1926-601b-4d97-80e4-d2d2098ced39">IComAppEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icomappevents">IComAppEvents</a>
  
 
  

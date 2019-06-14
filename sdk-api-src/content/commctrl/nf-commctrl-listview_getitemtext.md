@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the text of a list-view item or subitem. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761055(v=VS.85).aspx">LVM_GETITEMTEXT</a> message explicitly.
+Gets the text of a list-view item or subitem. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getitemtext">LVM_GETITEMTEXT</a> message explicitly.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets the text of a list-view item or subitem. You can use this macro or send the
 
 ### -param hwndLV
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control. 
 
@@ -81,7 +81,7 @@ The index of the subitem. To retrieve the item text, set
 
 #### - pszText_
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPTSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
 A pointer to a buffer that receives the item or subitem text. 
 
@@ -112,7 +112,7 @@ The index of the subitem. To retrieve the item text, set
 
 #### - pszText
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPTSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
 A pointer to a buffer that receives the item or subitem text. 
 
@@ -122,7 +122,7 @@ A pointer to a buffer that receives the item or subitem text.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774760(v=VS.85).aspx">LVITEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvitema">LVITEM</a>
  
 
  

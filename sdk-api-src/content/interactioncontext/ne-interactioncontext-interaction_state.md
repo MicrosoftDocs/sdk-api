@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the state of the <a href="https://msdn.microsoft.com/60BFDCD7-D277-4B4A-94DA-7ADB1412252A">Interaction Context</a> object.
+Specifies the state of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
 
 
 ## -enum-fields
@@ -59,7 +59,7 @@ Specifies the state of the <a href="https://msdn.microsoft.com/60BFDCD7-D277-4B4
 
 ### -field INTERACTION_STATE_IDLE
 
-There are no ongoing interactions and all transitional states (inertia, double tap) are complete. It is safe to reuse the <a href="https://msdn.microsoft.com/60BFDCD7-D277-4B4A-94DA-7ADB1412252A">Interaction Context</a> object.
+There are no ongoing interactions and all transitional states (inertia, double tap) are complete. It is safe to reuse the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
 
 
 ### -field INTERACTION_STATE_IN_INTERACTION
@@ -82,11 +82,11 @@ Maximum number of interactions exceeded.
 
 
 
-<a href="https://msdn.microsoft.com/35d581a9-b1be-4f9b-8783-ccea3469921a">GetStateInteractionContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-getstateinteractioncontext">GetStateInteractionContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/0B8D9A5F-F7CF-42B0-A320-77D44445CC24">Interaction Context Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/enumerations">Interaction Context Enumerations</a>
  
 
  

@@ -87,7 +87,7 @@ If <i>Strides</i> is not specified, each dimension in the tensor is considered t
 
 ### -field TotalTensorSizeInBytes
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT64</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
 
 Defines a minimum size in bytes for the buffer that will contain this tensor. <i>TotalTensorSizeInBytes</i> must be at least as large as the minimum implied size given the sizes, strides, and data type of the tensor. You can calculate the minimum implied size by calling the [DMLCalcBufferTensorSize](/windows/desktop/direct3d12/dml-helper-functions#dmlcalcbuffertensorsize) utility free function.
 

@@ -123,7 +123,7 @@ Pointer to a null-terminated Unicode string that represents the vendor name  for
 
 #### OptionsArray
 
-A pointer to a <a href="https://msdn.microsoft.com/c68b9543-0d7a-46ab-babd-3868c1338d67">DHCP_OPTION_VALUE_ARRAY</a> structure that contains the set of all option values for the specified vendor/policy pair.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_option_value_array">DHCP_OPTION_VALUE_ARRAY</a> structure that contains the set of all option values for the specified vendor/policy pair.
 
 
 ## -see-also
@@ -131,7 +131,7 @@ A pointer to a <a href="https://msdn.microsoft.com/c68b9543-0d7a-46ab-babd-3868c
 
 
 
-<a href="https://msdn.microsoft.com/3c2fff2f-3d79-4e0d-8a31-9917088b1413">DhcpV4GetAllOptionValues</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4getalloptionvalues">DhcpV4GetAllOptionValues</a>
  
 
  

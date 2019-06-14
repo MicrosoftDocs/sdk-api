@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the interpolation mode for the <a href="https://msdn.microsoft.com/E4492996-54DA-4C5F-B44C-8FBE97C8DD7D">YCbCr effect</a>.
+Specifies the interpolation mode for the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/ycbcr-effect">YCbCr effect</a>.
 
 
 ## -enum-fields

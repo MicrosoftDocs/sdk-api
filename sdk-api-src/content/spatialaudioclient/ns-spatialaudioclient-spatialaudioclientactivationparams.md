@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents optional activation parameters for a spatial audio render stream. Pass this structure to <a href="https://msdn.microsoft.com/7BAFD9DB-DCD7-4093-A24B-9A8556C6C45B">ActivateAudioInterfaceAsync</a> when activating an <a href="https://msdn.microsoft.com/950778D4-79FE-4222-951F-5A456A633124">ISpatialAudioClient</a> interface.
+Represents optional activation parameters for a spatial audio render stream. Pass this structure to <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-activateaudiointerfaceasync">ActivateAudioInterfaceAsync</a> when activating an <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a> interface.
 
 
 ## -struct-fields

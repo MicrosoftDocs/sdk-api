@@ -74,7 +74,7 @@ The number of quality levels can be determined for tiled resources.
 
 
 
-This enum is used by the <a href="https://msdn.microsoft.com/F3ECEF7C-F4A4-4134-9671-21AE488D8183">D3D12_FEATURE_DATA_MULTISAMPLE_QUALITY_LEVELS</a> structure.
+This enum is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_multisample_quality_levels">D3D12_FEATURE_DATA_MULTISAMPLE_QUALITY_LEVELS</a> structure.
       
 
 
@@ -85,7 +85,7 @@ This enum is used by the <a href="https://msdn.microsoft.com/F3ECEF7C-F4A4-4134-
 
 
 
-<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
  
 
  

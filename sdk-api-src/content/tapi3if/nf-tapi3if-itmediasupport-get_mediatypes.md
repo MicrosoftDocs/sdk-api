@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>get_MediaTypes</b> method gets the 
-<a href="https://msdn.microsoft.com/3e418c9a-a008-4b94-b5d2-7c2eccb3bf87">media type</a> or types supported on the current address.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">media type</a> or types supported on the current address.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param plMediaTypes [out]
 
 Pointer to bitmask of ORed of 
-<a href="https://msdn.microsoft.com/3e418c9a-a008-4b94-b5d2-7c2eccb3bf87">media type</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">media type</a>.
 
 
 ## -returns
@@ -120,11 +120,11 @@ Insufficient memory exists to perform the operation.
 
 
 
-<a href="https://msdn.microsoft.com/ab6db262-f99e-4027-9525-7597fcf02e72">Address Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/196995f1-b8d0-4ec1-b94e-61a02a258087">ITMediaSupport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itmediasupport">ITMediaSupport</a>
  
 
  

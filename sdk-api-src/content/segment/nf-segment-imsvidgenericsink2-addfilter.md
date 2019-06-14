@@ -102,7 +102,7 @@ The method succeeded.
 
 
 
-Use this method to insert additional filters to the graph other than the sink filter. To specify the sink filter, call <a href="https://msdn.microsoft.com/en-us/library/Dd694565(v=VS.85).aspx">IMSVidGenericSink::SetSinkFilter</a>.
+Use this method to insert additional filters to the graph other than the sink filter. To specify the sink filter, call <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidgenericsink-setsinkfilter">IMSVidGenericSink::SetSinkFilter</a>.
 
 
 
@@ -112,7 +112,7 @@ Use this method to insert additional filters to the graph other than the sink fi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694560(v=VS.85).aspx">IMSVidGenericSink2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidgenericsink2">IMSVidGenericSink2 Interface</a>
  
 
  

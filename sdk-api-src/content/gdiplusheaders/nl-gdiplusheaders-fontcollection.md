@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms536185(v=VS.85).aspx">FontCollection</a> class is an abstract base class. It contains methods for enumerating the font families in a collection of fonts. Objects built from this class include the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534469(v=VS.85).aspx">InstalledFontCollection</a> and 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534491(v=VS.85).aspx">PrivateFontCollection</a> classes.
+The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-fontcollection-fontcollection(constfontcollection_)">FontCollection</a> class is an abstract base class. It contains methods for enumerating the font families in a collection of fonts. Objects built from this class include the 
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-installedfontcollection">InstalledFontCollection</a> and 
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-privatefontcollection">PrivateFontCollection</a> classes.
 

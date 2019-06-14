@@ -59,7 +59,7 @@ Retrieves the system DPI associated with a given process. This is useful for avo
 
 ### -param hProcess
 
-The handle for the process to examine. If this value is null, this API behaves identically to <a href="https://msdn.microsoft.com/B744EC4A-DB78-4654-B50F-C27CB7702899">GetDpiForSystem</a>.
+The handle for the process to examine. If this value is null, this API behaves identically to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdpiforsystem">GetDpiForSystem</a>.
 
 
 ## -returns
@@ -75,7 +75,7 @@ The process's system DPI value.
 
 
 
-The return value will be dependent based upon the process passed as a parameter. If the specified process has a <a href="https://msdn.microsoft.com/0E7EB331-7D72-4853-8785-03F30263C323">DPI_AWARENESS</a> value of <b>DPI_AWARENESS_UNAWARE</b>, the return value will be 96. That is because the current context always assumes a DPI of 96. For any other <b>DPI_AWARENESS</b> value, the return value will be the actual system DPI of the given process.
+The return value will be dependent based upon the process passed as a parameter. If the specified process has a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ne-windef-dpi_awareness">DPI_AWARENESS</a> value of <b>DPI_AWARENESS_UNAWARE</b>, the return value will be 96. That is because the current context always assumes a DPI of 96. For any other <b>DPI_AWARENESS</b> value, the return value will be the actual system DPI of the given process.
 
 
 
@@ -87,11 +87,11 @@ The return value will be dependent based upon the process passed as a parameter.
 
 
 
-<a href="https://msdn.microsoft.com/0E7EB331-7D72-4853-8785-03F30263C323">DPI_AWARENESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windef/ne-windef-dpi_awareness">DPI_AWARENESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/B744EC4A-DB78-4654-B50F-C27CB7702899">GetDpiForSystem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdpiforsystem">GetDpiForSystem</a>
  
 
  

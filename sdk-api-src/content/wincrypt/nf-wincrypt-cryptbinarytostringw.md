@@ -140,7 +140,7 @@ Hexadecimal only.
 </dl>
 </td>
 <td width="60%">
-Hexadecimal, with <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">ASCII</a> character display.
+Hexadecimal, with <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">ASCII</a> character display.
 
 </td>
 </tr>
@@ -151,7 +151,7 @@ Hexadecimal, with <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9d
 </dl>
 </td>
 <td width="60%">
-Base64, with <a href="https://msdn.microsoft.com/28dba6ef-939f-4789-9789-ee6e0fef0177">X.509</a> CRL beginning and ending headers.
+Base64, with <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.509</a> CRL beginning and ending headers.
 
 </td>
 </tr>
@@ -288,7 +288,7 @@ With the exception of when <b>CRYPT_STRING_BINARY</b> encoding is used, all stri
 
 
 
-<a href="https://msdn.microsoft.com/13b6f5ef-174a-4254-8492-6e7dcc58945f">CryptStringToBinary</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptstringtobinarya">CryptStringToBinary</a>
  
 
  

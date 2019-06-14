@@ -56,7 +56,7 @@ The shadow effect is used to generate a shadow from the alpha channel of an imag
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionShadowEffect</b> interface inherits from <a href="https://msdn.microsoft.com/4303c24d-e3e1-e188-bbef-e654c0e7e266">IDCompositionFilterEffect</a>. <b>IDCompositionShadowEffect</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionShadowEffect</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionfiltereffect">IDCompositionFilterEffect</a>. <b>IDCompositionShadowEffect</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDCompositionShadowEffect</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c65a6f89-9135-c673-ff05-ad26329da2cb">SetAlpha</a>
+<a href="https://docs.microsoft.com/windows/desktop/directcomp/idcompositionshadoweffect-setalpha-overloaded">SetAlpha</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the alpha value for the effect.
 
@@ -79,7 +79,7 @@ The <b>IDCompositionShadowEffect</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn905301(v=VS.85).aspx">SetBlue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setblue">SetBlue</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the blue value for the color of the shadow.
 
@@ -87,7 +87,7 @@ The <b>IDCompositionShadowEffect</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1C08E464-087A-41BF-9B0E-E1370576E64A">SetColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionshadoweffect-setcolor">SetColor</a>
 </td>
 <td align="left" width="63%">
 Sets color of the shadow.
@@ -96,7 +96,7 @@ Sets color of the shadow.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn905303(v=VS.85).aspx">SetRed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setred">SetRed</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the red value for the color of the shadow.
 
@@ -104,7 +104,7 @@ Sets color of the shadow.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c688967e-9daf-63f7-9275-aa7b4b871246">SetStandardDeviation</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn905304(v=vs.85)">SetStandardDeviation</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the amount of blur to be applied to the alpha channel of the image.
 
@@ -112,7 +112,7 @@ Sets color of the shadow.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/55566eb3-939e-c61f-dae8-5bd8da1c9f5b">V</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn905302(v=vs.85)">V</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the green value for the color of the shadow.
 
@@ -126,7 +126,7 @@ Sets color of the shadow.
 
 
 
-<a href="https://msdn.microsoft.com/4303c24d-e3e1-e188-bbef-e654c0e7e266">IDCompositionFilterEffect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionfiltereffect">IDCompositionFilterEffect</a>
  
 
  

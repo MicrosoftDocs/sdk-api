@@ -59,9 +59,9 @@ Contains category information. A component category is a group of logically-rela
 
 ### -field cif
 
-Type: <b><a href="https://msdn.microsoft.com/6179ed67-905a-454a-a226-fe1e5070e39f">CATEGORYINFO_FLAGS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-categoryinfo_flags">CATEGORYINFO_FLAGS</a></b>
 
-A flag from <a href="https://msdn.microsoft.com/6179ed67-905a-454a-a226-fe1e5070e39f">CATEGORYINFO_FLAGS</a> that specifies the type of information to retrieve.
+A flag from <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-categoryinfo_flags">CATEGORYINFO_FLAGS</a> that specifies the type of information to retrieve.
 
 
 ### -field wszName

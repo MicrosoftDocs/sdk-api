@@ -73,17 +73,17 @@ A null-terminated wide-character string containing the realm for the authenticat
 
 ### -param dwAuthenticationFlags [in]
 
-Bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/4a2f5537-b78c-49a6-9b66-d3ca34c3fc67">MFNetAuthenticationFlags</a> enumeration.
+Bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-_mfnetauthenticationflags">MFNetAuthenticationFlags</a> enumeration.
 
 
 ### -param ppCred [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/d202e7bc-9ce0-4861-8552-5a4d599b1661">IMFNetCredential</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfnetcredential">IMFNetCredential</a> interface. The caller must release the interface.
 
 
 ### -param pdwRequirementsFlags [out]
 
-Receives a bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/9257d1d7-7ccb-4172-82f0-3694ebb9d487">MFNetCredentialRequirements</a> enumeration.
+Receives a bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-_mfnetcredentialrequirements">MFNetCredentialRequirements</a> enumeration.
 
 
 ## -returns
@@ -119,7 +119,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/d02e26e7-e99c-4be7-8495-830eff2f1554">IMFNetCredentialCache</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfnetcredentialcache">IMFNetCredentialCache</a>
  
 
  

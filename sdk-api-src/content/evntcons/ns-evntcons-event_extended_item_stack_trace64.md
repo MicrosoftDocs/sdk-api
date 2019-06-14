@@ -71,7 +71,7 @@ An array of call addresses on the stack.
 
 
 
-The <b>DataSize</b> member of <a href="https://msdn.microsoft.com/130dc14b-7488-48ab-a31d-310c0f4ee13f">EVENT_HEADER_EXTENDED_DATA_ITEM</a> contains the size of this structure. To determine the number of addresses in the array, subtract <code>sizeof(ULONG64)</code> from <b>DataSize</b> and then divide by <code>sizeof(ULONG64)</code>.
+The <b>DataSize</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_header_extended_data_item">EVENT_HEADER_EXTENDED_DATA_ITEM</a> contains the size of this structure. To determine the number of addresses in the array, subtract <code>sizeof(ULONG64)</code> from <b>DataSize</b> and then divide by <code>sizeof(ULONG64)</code>.
 
 
 
@@ -81,7 +81,7 @@ The <b>DataSize</b> member of <a href="https://msdn.microsoft.com/130dc14b-7488-
 
 
 
-<a href="https://msdn.microsoft.com/130dc14b-7488-48ab-a31d-310c0f4ee13f">EVENT_HEADER_EXTENDED_DATA_ITEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_header_extended_data_item">EVENT_HEADER_EXTENDED_DATA_ITEM</a>
  
 
  

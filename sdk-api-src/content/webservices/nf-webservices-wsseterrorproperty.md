@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets an <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object property. 
+Sets an <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object property. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Sets an <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21
 
 ### -param error [in]
 
-A pointer to the <b>Error</b> object in which to set the property.  The pointer must reference a valid <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object.
+A pointer to the <b>Error</b> object in which to set the property.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object.
                 
 
 

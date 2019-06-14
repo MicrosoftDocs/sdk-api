@@ -112,7 +112,7 @@ A combination of the following flags.
 
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -142,7 +142,7 @@ Insufficient memory.
 
 If the linearization is successful, the originally selected range is replaced by the linearized version. 
 
-If the <b>tomMathRemoveOutermost</b> or <b>tomMathBuildDownOutermost</b> build down mode is specified, the build down operation can be affected by the <a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathChangeMask</a> values.
+If the <b>tomMathRemoveOutermost</b> or <b>tomMathBuildDownOutermost</b> build down mode is specified, the build down operation can be affected by the <a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathChangeMask</a> values.
 
  The main purpose of these build-down modes is to facilitate transformations of the build-up math object as exposed by math context menus. 
 
@@ -165,11 +165,11 @@ The build-down process automatically inserts the parentheses, because the linear
 
 
 
-<a href="https://msdn.microsoft.com/905f0967-8b99-45ed-a1cc-19d49e919a65">ITextRange2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
 
 
 
-<a href="https://msdn.microsoft.com/b6382f09-126e-4107-a4b9-288777549181">ITextRange2::BuildUpMath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-buildupmath">ITextRange2::BuildUpMath</a>
  
 
  

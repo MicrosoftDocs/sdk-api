@@ -60,7 +60,7 @@ Represents a qname formatted as the text "prefix:localName"
 
 ### -field text
 
-The base type for all types that derive from <a href="https://msdn.microsoft.com/430edd13-b664-4e10-8d61-ffa6a01dcb90">WS_XML_TEXT</a>.
+The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_text">WS_XML_TEXT</a>.
         
 
 

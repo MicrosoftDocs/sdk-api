@@ -53,7 +53,7 @@ Retrieves a list of resources assigned to the specified user. The RemoteApp and 
 <ul>
 <li>When the user has no cache in Remote Desktop Web Access (RD Web Access).</li>
 <li>When the user has a cache, but it has expired.</li>
-<li>When a call to <a href="https://msdn.microsoft.com/66b18c7f-2623-44ed-8cb9-3cceaa9bab34">GetCacheLastUpdateTime</a> returns a time that is later than the time stored in the user's cache.</li>
+<li>When a call to <a href="https://docs.microsoft.com/windows/desktop/api/tspubplugincom/nf-tspubplugincom-itspubplugin-getcachelastupdatetime">GetCacheLastUpdateTime</a> returns a time that is later than the time stored in the user's cache.</li>
 </ul>
 
 ## -parameters
@@ -73,7 +73,7 @@ The address of a <b>LONG</b> variable that receives the number of elements in th
 
 ### -param resourceList [out]
 
-The address of an array of <a href="https://msdn.microsoft.com/en-us/library/Hh436957(v=VS.85).aspx">pluginResource2</a> structures that contains the resources for the specified user. You must use the <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a> function to allocate this memory. The caller is responsible for freeing this memory.
+The address of an array of <a href="https://docs.microsoft.com/windows/desktop/api/tspubplugin2com/ns-tspubplugin2com-__midl_itspubplugin2_0002">pluginResource2</a> structures that contains the resources for the specified user. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> function to allocate this memory. The caller is responsible for freeing this memory.
 
 
 ## -returns
@@ -90,7 +90,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/1ef27b3a-b897-4757-803d-d3a18959895c">ItsPubPlugin2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspubplugin2com/nn-tspubplugin2com-itspubplugin2">ItsPubPlugin2</a>
  
 
  

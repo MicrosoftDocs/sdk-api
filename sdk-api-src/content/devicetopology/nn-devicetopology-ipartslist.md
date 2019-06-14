@@ -50,16 +50,16 @@ ms.custom: 19H1
 
 
 
-The <b>IPartsList</b> interface represents a list of parts, each of which is an object with an <a href="https://msdn.microsoft.com/3bcfab9f-fad8-4605-8780-0b7c2068fcdf">IPart</a> interface that represents a connector or subunit. A client obtains a reference to an <b>IPartsList</b> interface by calling the <a href="https://msdn.microsoft.com/0d74837e-12d1-4d94-941e-6a81aeac1151">IPart::EnumPartsIncoming</a>, <a href="https://msdn.microsoft.com/f1892e6d-a2d8-45c7-8a36-6040f4538c1e">IPart::EnumPartsOutgoing</a>, or <a href="https://msdn.microsoft.com/3f32ba6a-a82c-4c2c-8433-ebedd8799615">IDeviceTopology::GetSignalPath</a> method.
+The <b>IPartsList</b> interface represents a list of parts, each of which is an object with an <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart</a> interface that represents a connector or subunit. A client obtains a reference to an <b>IPartsList</b> interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-enumpartsincoming">IPart::EnumPartsIncoming</a>, <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-enumpartsoutgoing">IPart::EnumPartsOutgoing</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-idevicetopology-getsignalpath">IDeviceTopology::GetSignalPath</a> method.
 
-For a code example that uses the <b>IPartsList</b> interface, see the implementation of the SelectCaptureDevice function in <a href="https://msdn.microsoft.com/5ac421e5-74a4-40e8-af6f-a99a05ebc3e0">Device Topologies</a>.
+For a code example that uses the <b>IPartsList</b> interface, see the implementation of the SelectCaptureDevice function in <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-topologies">Device Topologies</a>.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPartsList</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPartsList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPartsList</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPartsList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IPartsList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/78ca8592-f687-4194-873b-83640c6e72da">GetCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipartslist-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of parts in the parts list.
@@ -83,7 +83,7 @@ Gets the number of parts in the parts list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/505e2412-2849-4e64-9751-ce68831823b8">GetPart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipartslist-getpart">GetPart</a>
 </td>
 <td align="left" width="63%">
 Gets a part from the parts list.
@@ -98,27 +98,27 @@ Gets a part from the parts list.
 
 
 
-<a href="https://msdn.microsoft.com/b18e2094-e974-4c23-b70b-ace5a168132d">Core Audio Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/051311ef-dd29-4014-bb9c-4cdccf7ce7de">DeviceTopology API</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/devicetopology-api">DeviceTopology API</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f32ba6a-a82c-4c2c-8433-ebedd8799615">IDeviceTopology::GetSignalPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-idevicetopology-getsignalpath">IDeviceTopology::GetSignalPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/3bcfab9f-fad8-4605-8780-0b7c2068fcdf">IPart Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d74837e-12d1-4d94-941e-6a81aeac1151">IPart::EnumPartsIncoming</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-enumpartsincoming">IPart::EnumPartsIncoming</a>
 
 
 
-<a href="https://msdn.microsoft.com/f1892e6d-a2d8-45c7-8a36-6040f4538c1e">IPart::EnumPartsOutgoing</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-enumpartsoutgoing">IPart::EnumPartsOutgoing</a>
  
 
  

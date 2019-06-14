@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Creates a subscription to a batch notification port. The batch notification port needs to 
     be closed after it is no longer needed. This is done via the 
-    <a href="https://msdn.microsoft.com/7ae10343-c97e-4036-9fe6-b894394bb605">ClusterRegCloseBatchNotifyPort</a> 
+    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterregclosebatchnotifyport">ClusterRegCloseBatchNotifyPort</a> 
     function.
 
 
@@ -69,7 +69,7 @@ A cluster registry key. Any updates performed at this key or keys below it will 
 ### -param phBatchNotifyPort [out]
 
 A handle to a batch notification port that allows subsequent reading batch notifications via the 
-       <a href="https://msdn.microsoft.com/4cc6925f-cf91-449b-8f9d-fcf48b4df896">ClusterRegGetBatchNotification</a> 
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterreggetbatchnotification">ClusterRegGetBatchNotification</a> 
        function.
 
 
@@ -80,7 +80,7 @@ A handle to a batch notification port that allows subsequent reading batch notif
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b> (0).
 
 If the operation fails, the function returns a 
-       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 
 
@@ -100,15 +100,15 @@ The <b>PCLUSTER_REG_CREATE_BATCH_NOTIFY_PORT</b> type defines a pointer to this
 
 
 
-<a href="https://msdn.microsoft.com/2bb0650f-ef9c-40bb-ae90-229bfa23838e">Cluster Registry Access Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-registry-access-functions">Cluster Registry Access Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/7ae10343-c97e-4036-9fe6-b894394bb605">ClusterRegCloseBatchNotifyPort</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterregclosebatchnotifyport">ClusterRegCloseBatchNotifyPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/4cc6925f-cf91-449b-8f9d-fcf48b4df896">ClusterRegGetBatchNotification</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterreggetbatchnotification">ClusterRegGetBatchNotification</a>
  
 
  

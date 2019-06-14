@@ -65,7 +65,7 @@ Sets information for the specified process.
 
 A handle to the process. This handle must have the <b>PROCESS_SET_INFORMATION</b> access 
       right. For more information, see 
-      <a href="https://msdn.microsoft.com/508a17c4-88cd-431a-a102-00180a7f7ab5">Process Security and Access Rights</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
 
 ### -param ProcessInformationClass [in]
@@ -80,11 +80,11 @@ Pointer to an object that contains the type of information specified by the
 
 If the <i>ProcessInformationClass</i> parameter is 
        <b>ProcessMemoryPriority</b>, this parameter must point to a 
-       <a href="https://msdn.microsoft.com/en-us/library/Hh448387(v=VS.85).aspx">MEMORY_PRIORITY_INFORMATION</a> structure.
+       <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_memory_priority_information">MEMORY_PRIORITY_INFORMATION</a> structure.
 
 If the <i>ProcessInformationClass</i> parameter is 
        <b>ProcessPowerThrottling</b>, this parameter must point to a 
-       <a href="https://msdn.microsoft.com/en-us/library/Mt804324(v=VS.85).aspx">PROCESS_POWER_THROTTLING_STATE</a> structure.
+       <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_process_power_throttling_state">PROCESS_POWER_THROTTLING_STATE</a> structure.
 
 If the <i>ProcessInformationClass</i> parameter is 
        <b>ProcessLeapSecondInfo</b>, this parameter must point to a 
@@ -115,7 +115,7 @@ If the <i>ProcessInformationClass</i> parameter is
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -131,7 +131,7 @@ To help improve system performance, applications should use the
     file indexing application might set a lower default priority for the process that performs the indexing task.
 
 Memory priority helps to determine how long pages remain in the 
-    <a href="https://msdn.microsoft.com/ff05276a-1d40-4844-b649-10e32e3f1937">working set</a> of a process before they are trimmed. A process's 
+    <a href="https://docs.microsoft.com/windows/desktop/Memory/working-set">working set</a> of a process before they are trimmed. A process's 
     memory priority determines the default priority of the physical pages that are added to the process working set by 
     the threads of that process. When the memory manager trims the working set, it trims lower priority pages before 
     higher priority pages. This improves overall system performance because higher priority pages are less likely to 
@@ -220,19 +220,19 @@ SetProcessInformation(GetCurrentProcess(),
 
 
 
-<a href="https://msdn.microsoft.com/2b075405-b7b6-4da0-b78d-45eaa9c6c8cd">GetProcessInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessinformation">GetProcessInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh448387(v=VS.85).aspx">MEMORY_PRIORITY_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_memory_priority_information">MEMORY_PRIORITY_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/4A09E341-82FB-4E50-B2DD-EEDE443F3F1E">PROCESS_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/previous-versions//mt767996(v=vs.85)">PROCESS_INFORMATION_CLASS</a>
 
 
 
-<a href="https://msdn.microsoft.com/1739fadf-6b43-4b89-8a17-87d9867d5197">SetThreadInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessinformation">SetThreadInformation</a>
  
 
  

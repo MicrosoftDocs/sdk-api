@@ -59,7 +59,7 @@ The <b>FNFCIFILEPLACED</b> macro provides the declaration for the application-de
 
 ### -param fn
 
-Pointer to the <a href="https://msdn.microsoft.com/e25cb72b-4c96-40e9-9fd5-2920e4a01d3a">CCAB</a> structure containing the parameters of the cabinet on which the file has been stored.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/fci/ns-fci-ccab">CCAB</a> structure containing the parameters of the cabinet on which the file has been stored.
 
 
 #### - cbFile

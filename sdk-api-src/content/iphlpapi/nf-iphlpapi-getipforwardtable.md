@@ -61,7 +61,7 @@ The
 ### -param pIpForwardTable [out]
 
 A pointer to a buffer that receives the IPv4 routing table as a 
-<a href="https://msdn.microsoft.com/bdecf944-fe19-4033-8778-362523984b03">MIB_IPFORWARDTABLE</a> structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipforwardtable">MIB_IPFORWARDTABLE</a> structure.
 
 
 ### -param pdwSize [in, out]
@@ -120,7 +120,7 @@ The buffer pointed to by the <i>pIpForwardTable</i> parameter is not large enoug
 </td>
 <td width="60%">
 The <i>pdwSize</i> parameter is <b>NULL</b>, or 
-<a href="https://msdn.microsoft.com/5d645353-7c87-4f8a-b7fd-149675a94743">GetIpForwardTable</a> is unable to write to the memory pointed to by the <i>pdwSize</i> parameter.
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipforwardtable">GetIpForwardTable</a> is unable to write to the memory pointed to by the <i>pdwSize</i> parameter.
 
 </td>
 </tr>
@@ -154,7 +154,7 @@ This function is not supported on the operating system in use on the local syste
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> to obtain the message string for the returned error.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
@@ -169,15 +169,15 @@ Use
 
 
 The  <b>dwForwardProto</b> member of the 
-<a href="https://msdn.microsoft.com/ff451481-3e9d-4add-94e2-846d67002a38">MIB_IPFORWARDROW</a> structure specifies the protocol or routing mechanism that generated the route. See 
-<a href="https://msdn.microsoft.com/f67138b8-de5d-4907-a464-672d57864ebf">Protocol Identifiers</a> for a list of possible protocols and routing mechanisms.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipforwardrow">MIB_IPFORWARDROW</a> structure specifies the protocol or routing mechanism that generated the route. See 
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/protocol-identifiers">Protocol Identifiers</a> for a list of possible protocols and routing mechanisms.
 
 The  <b>dwForwardDest</b>, <b>dwForwardMask</b>, and <b>dwForwardNextHop</b> members of the 
-<a href="https://msdn.microsoft.com/ff451481-3e9d-4add-94e2-846d67002a38">MIB_IPFORWARDROW</a> structure represent an IPv4 address in network byte order.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipforwardrow">MIB_IPFORWARDROW</a> structure represent an IPv4 address in network byte order.
 
 An IPv4 address of 0.0.0.0 in the  <b>dwForwardDest</b> member of the 
-<a href="https://msdn.microsoft.com/ff451481-3e9d-4add-94e2-846d67002a38">MIB_IPFORWARDROW</a> structure is considered a
-                default route. The <a href="https://msdn.microsoft.com/bdecf944-fe19-4033-8778-362523984b03">MIB_IPFORWARDTABLE</a> may contain multiple <b>MIB_IPFORWARDROW</b> entries with the <b>dwForwardDest</b> member set to 0.0.0.0 when there are multiple network adapters installed.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipforwardrow">MIB_IPFORWARDROW</a> structure is considered a
+                default route. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipforwardtable">MIB_IPFORWARDTABLE</a> may contain multiple <b>MIB_IPFORWARDROW</b> entries with the <b>dwForwardDest</b> member set to 0.0.0.0 when there are multiple network adapters installed.
 
 When <b>dwForwardAge</b> is set to <b>INFINITE</b>, the route will not be removed based on a timeout
  
@@ -186,11 +186,11 @@ value. Any other value for <b>dwForwardAge</b> specifies the number of seconds s
 
 
 On Windows Server 2003 or
-  Windows 2000 Server when the Routing and Remote Access Service (RRAS) is running, the  <a href="https://msdn.microsoft.com/ff451481-3e9d-4add-94e2-846d67002a38">MIB_IPFORWARDROW</a> entries returned have the <b>dwForwardType</b> and <b>dwForwardAge</b> members set to zero. 
+  Windows 2000 Server when the Routing and Remote Access Service (RRAS) is running, the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipforwardrow">MIB_IPFORWARDROW</a> entries returned have the <b>dwForwardType</b> and <b>dwForwardAge</b> members set to zero. 
 
-On Windows Vista and Windows Server 2008, the route metric specified in the <b>dwForwardMetric1</b> member of the  <a href="https://msdn.microsoft.com/ff451481-3e9d-4add-94e2-846d67002a38">MIB_IPFORWARDROW</a> structure represents a combination of the route metric added to the interface metric specified in the <b>Metric</b> member of the <a href="https://msdn.microsoft.com/28265037-f7a3-40a4-b386-20f43f32a8b3">MIB_IPINTERFACE_ROW</a> structure of the associated interface.  So the <b>dwForwardMetric1</b> member of the  <b>MIB_IPFORWARDROW</b> structure should be equal to or greater than <b>Metric</b> member of the associated <b>MIB_IPINTERFACE_ROW</b> structure. If an application would like to set the route metric to 0 on Windows Vista and Windows Server 2008, then the <b>dwForwardMetric1</b> member of the <b>MIB_IPFORWARDROW</b> structure  should be set equal to the value of the interface metric specified in the <b>Metric</b> member of the associated <b>MIB_IPINTERFACE_ROW</b> structure. An application can retrieve the interface metric by calling the <a href="https://msdn.microsoft.com/604e33fd-ab12-4861-a083-544045f46ef4">GetIpInterfaceEntry</a> function.
+On Windows Vista and Windows Server 2008, the route metric specified in the <b>dwForwardMetric1</b> member of the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipforwardrow">MIB_IPFORWARDROW</a> structure represents a combination of the route metric added to the interface metric specified in the <b>Metric</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipinterface_row">MIB_IPINTERFACE_ROW</a> structure of the associated interface.  So the <b>dwForwardMetric1</b> member of the  <b>MIB_IPFORWARDROW</b> structure should be equal to or greater than <b>Metric</b> member of the associated <b>MIB_IPINTERFACE_ROW</b> structure. If an application would like to set the route metric to 0 on Windows Vista and Windows Server 2008, then the <b>dwForwardMetric1</b> member of the <b>MIB_IPFORWARDROW</b> structure  should be set equal to the value of the interface metric specified in the <b>Metric</b> member of the associated <b>MIB_IPINTERFACE_ROW</b> structure. An application can retrieve the interface metric by calling the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipinterfaceentry">GetIpInterfaceEntry</a> function.
 
-A number of members of the <a href="https://msdn.microsoft.com/ff451481-3e9d-4add-94e2-846d67002a38">MIB_IPFORWARDROW</a> structure  entries returned by <b>GetIpForwardTable</b> are not currently used by IPv4 routing. These members include <b>dwForwardPolicy</b>, <b>dwForwardNextHopAS</b>, <b>dwForwardMetric2</b>, <b>dwForwardMetric3</b>, <b>dwForwardMetric4</b>, and <b>dwForwardMetric5</b>. 
+A number of members of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipforwardrow">MIB_IPFORWARDROW</a> structure  entries returned by <b>GetIpForwardTable</b> are not currently used by IPv4 routing. These members include <b>dwForwardPolicy</b>, <b>dwForwardNextHopAS</b>, <b>dwForwardMetric2</b>, <b>dwForwardMetric3</b>, <b>dwForwardMetric4</b>, and <b>dwForwardMetric5</b>. 
 
 
 #### Examples
@@ -379,39 +379,39 @@ int main()
 
 
 
-<a href="https://msdn.microsoft.com/72243390-c3b8-41c3-8771-a5fb1d6383ae">CreateIpForwardEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createipforwardentry">CreateIpForwardEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/70bcfd71-34dd-465d-890b-1dd829632fb0">DeleteIpForwardEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-deleteipforwardentry">DeleteIpForwardEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/604e33fd-ab12-4861-a083-544045f46ef4">GetIpInterfaceEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipinterfaceentry">GetIpInterfaceEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/2de88e92-5fa5-4d8d-9448-67a33bf02f05">IP Helper Function Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/4896a9f8-0486-4380-bf49-d1c9ef114acc">IP Helper Start Page</a>
+<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
 
 
 
-<a href="https://msdn.microsoft.com/bdecf944-fe19-4033-8778-362523984b03">MIB_IPFORWARDTABLE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipforwardtable">MIB_IPFORWARDTABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/28265037-f7a3-40a4-b386-20f43f32a8b3">MIB_IPINTERFACE_ROW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipinterface_row">MIB_IPINTERFACE_ROW</a>
 
 
 
-<a href="https://msdn.microsoft.com/f67138b8-de5d-4907-a464-672d57864ebf">Protocol Identifiers</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/protocol-identifiers">Protocol Identifiers</a>
 
 
 
-<a href="https://msdn.microsoft.com/a98de796-8fa2-4835-8d15-07d86d89c348">SetIpForwardEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-setipforwardentry">SetIpForwardEntry</a>
  
 
  

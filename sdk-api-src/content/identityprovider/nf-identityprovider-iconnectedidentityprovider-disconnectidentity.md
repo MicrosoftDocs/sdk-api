@@ -105,7 +105,7 @@ The domain user is not connected to an online identity.
 
 
 
-<a href="https://msdn.microsoft.com/0AF5036B-326E-4FBE-9F26-18F532EF0BB3">IConnectedIdentityProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nn-identityprovider-iconnectedidentityprovider">IConnectedIdentityProvider</a>
  
 
  

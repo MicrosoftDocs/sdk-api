@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DhcpCreateClientInfoV4</b> function creates a client information record on the DHCP server, extending the functionality of <a href="https://msdn.microsoft.com/121718db-a7d8-42b7-b1a1-5c2dbe7d3d6b">DhcpCreateClientInfo</a> by including the client type (DHCP or BOOTP) in the record.
+The <b>DhcpCreateClientInfoV4</b> function creates a client information record on the DHCP server, extending the functionality of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpcreateclientinfo">DhcpCreateClientInfo</a> by including the client type (DHCP or BOOTP) in the record.
 
 
 ## -parameters
@@ -64,14 +64,14 @@ Unicode string that specifies the IP address or hostname of the DHCP server.
 
 ### -param ClientInfo [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/ac058d7a-7257-4e40-8fc0-bc4ca107671b">DHCP_CLIENT_INFO_V4</a> structure that contains information about the DHCP client, including the assigned IP address, the subnet mask, the  host, and the client type (DHCP and/or BOOTP).
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info_v4">DHCP_CLIENT_INFO_V4</a> structure that contains information about the DHCP client, including the assigned IP address, the subnet mask, the  host, and the client type (DHCP and/or BOOTP).
 
 
 ## -returns
 
 
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://msdn.microsoft.com/6370313f-d7db-4ff1-b0e0-7fa47474facb">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -109,11 +109,11 @@ When successful, a call to this additionally marks the specified DHCP client IPv
 
 
 
-<a href="https://msdn.microsoft.com/ac058d7a-7257-4e40-8fc0-bc4ca107671b">DHCP_CLIENT_INFO_V4</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info_v4">DHCP_CLIENT_INFO_V4</a>
 
 
 
-<a href="https://msdn.microsoft.com/121718db-a7d8-42b7-b1a1-5c2dbe7d3d6b">DhcpCreateClientInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpcreateclientinfo">DhcpCreateClientInfo</a>
  
 
  

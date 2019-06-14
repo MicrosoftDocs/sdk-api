@@ -59,21 +59,21 @@ Creates a write-only package object to which  files can be added.
 
 ### -param outputStream [in]
 
-Type: <b><a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
-The output stream that receives the serialized package data. The stream must support at least the  <a href="https://msdn.microsoft.com/f0323dda-6c31-4411-bf20-9650162109c0">Write</a> method.
+The output stream that receives the serialized package data. The stream must support at least the  <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-write">Write</a> method.
 
 
 ### -param settings [in]
 
-Type: <b><a href="https://msdn.microsoft.com/85874BCD-44EF-4442-96B8-F22AC4247DB4">APPX_PACKAGE_SETTINGS</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/ns-appxpackaging-appx_package_settings">APPX_PACKAGE_SETTINGS</a>*</b>
 
 The settings for the production of this package.
 
 
 ### -param packageWriter [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/097B7451-9A54-4C39-8F83-16DB49691B42">IAppxPackageWriter</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackagewriter">IAppxPackageWriter</a>**</b>
 
 The package writer created by this method.
 
@@ -98,7 +98,7 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an error c
 </dl>
 </td>
 <td width="60%">
-The specified <b>hashMethod</b> member of the <a href="https://msdn.microsoft.com/85874BCD-44EF-4442-96B8-F22AC4247DB4">APPX_PACKAGE_SETTINGS</a> structure is not a valid hash algorithm URI.
+The specified <b>hashMethod</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/ns-appxpackaging-appx_package_settings">APPX_PACKAGE_SETTINGS</a> structure is not a valid hash algorithm URI.
 
 </td>
 </tr>
@@ -109,7 +109,7 @@ The specified <b>hashMethod</b> member of the <a href="https://msdn.microsoft.co
 </dl>
 </td>
 <td width="60%">
-The specified <b>hashMethod</b> member of the <a href="https://msdn.microsoft.com/85874BCD-44EF-4442-96B8-F22AC4247DB4">APPX_PACKAGE_SETTINGS</a> structure is not a valid hash algorithm URI.
+The specified <b>hashMethod</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/ns-appxpackaging-appx_package_settings">APPX_PACKAGE_SETTINGS</a> structure is not a valid hash algorithm URI.
 
 </td>
 </tr>
@@ -134,12 +134,12 @@ The hash value is <a href="http://www.w3.org/2000/09/xmldsig">SHA1</a>.
 
 
 
-The implementation of an <a href="https://msdn.microsoft.com/097B7451-9A54-4C39-8F83-16DB49691B42">IAppxPackageWriter</a> is not guaranteed to write data to the output stream before the <a href="https://msdn.microsoft.com/294625B2-1141-44EE-A769-365C3B37EBD9">Close</a> method is called on the writer object. No other thread should access <i>outputStream</i> until the writer returns from its <b>Close</b> method.
+The implementation of an <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackagewriter">IAppxPackageWriter</a> is not guaranteed to write data to the output stream before the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxpackagewriter-close">Close</a> method is called on the writer object. No other thread should access <i>outputStream</i> until the writer returns from its <b>Close</b> method.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/FD677D75-50D5-4228-891F-73B5F40679B0">How to create an app  package</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/appxpkg/how-to-create-a-package">How to create an app  package</a>.
 
 <div class="code"></div>
 
@@ -150,7 +150,7 @@ For an example, see <a href="https://msdn.microsoft.com/FD677D75-50D5-4228-891F-
 
 
 
-<a href="https://msdn.microsoft.com/4EA79D44-7C26-4B65-81A1-394E1E540F34">IAppxFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxfactory">IAppxFactory</a>
  
 
  

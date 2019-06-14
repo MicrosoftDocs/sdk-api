@@ -63,9 +63,9 @@ The data returned in the buffer is ordered first by group, and then by the sourc
 ### -param pimmStart [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/731e2c88-5c4f-4165-a9f2-287b4c10c76b">MIB_IPMCAST_MFE</a> structure that specifies from where to begin retrieving MFE statistics. The <b>dwSource</b> and <b>dwGroup</b> members of the 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_mfe">MIB_IPMCAST_MFE</a> structure that specifies from where to begin retrieving MFE statistics. The <b>dwSource</b> and <b>dwGroup</b> members of the 
 <b>MIB_IPMCAST_MFE</b> structure identify an MFE. Specify the source and group of the last MFE that was returned by the previous call to 
-<a href="https://msdn.microsoft.com/b546c1a6-31a7-4053-9494-6903faa4df52">MgmGetFirstMfeStats</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgetfirstmfestats">MgmGetFirstMfeStats</a> or 
 <b>MgmGetNextMfeStats</b>.
 
 
@@ -87,7 +87,7 @@ On input, the client must supply a pointer to a buffer.
 
 
 On output, <i>pbBuffer</i> contains one or more sets of MFE statistics. Each set of MFE statistics is a 
-<a href="https://msdn.microsoft.com/8e277c8d-db7a-4710-87af-ea5311123a71">MIB_IPMCAST_MFE_STATS</a> structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_mfe_stats">MIB_IPMCAST_MFE_STATS</a> structure.
 
 
 ### -param pdwNumEntries [in, out]
@@ -115,7 +115,7 @@ Determines the data structure returned.
 </dl>
 </td>
 <td width="60%">
-Include statistics corresponding to <a href="https://msdn.microsoft.com/8e277c8d-db7a-4710-87af-ea5311123a71">MIB_IPMCAST_MFE_STATS</a>.
+Include statistics corresponding to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_mfe_stats">MIB_IPMCAST_MFE_STATS</a>.
 
 </td>
 </tr>
@@ -125,7 +125,7 @@ Include statistics corresponding to <a href="https://msdn.microsoft.com/8e277c8d
 </dl>
 </td>
 <td width="60%">
-Include statistics corresponding to <a href="https://msdn.microsoft.com/4d1b35bd-da6c-48a1-ade1-f96148c9eecb">MIB_IPMCAST_MFE_STATS_EX</a>.
+Include statistics corresponding to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_mfe_stats_ex_xp">MIB_IPMCAST_MFE_STATS_EX</a>.
 
 </td>
 </tr>
@@ -201,16 +201,16 @@ No more MFE statistics are available. Zero or more sets of MFE statistics were r
 
 
 This function is used to continue the sequential retrieval of MFE statistics; use 
-<a href="https://msdn.microsoft.com/b546c1a6-31a7-4053-9494-6903faa4df52">MgmGetFirstMfeStats</a> to start the retrieval process.
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgetfirstmfestats">MgmGetFirstMfeStats</a> to start the retrieval process.
 
 In general, to retrieve MFE statistics, first call 
-<a href="https://msdn.microsoft.com/b546c1a6-31a7-4053-9494-6903faa4df52">MgmGetFirstMfeStats</a>. Then, call 
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgetfirstmfestats">MgmGetFirstMfeStats</a>. Then, call 
 <b>MgmGetNextMfeStats</b> one or more times, until there are no more MFEs to return. Each call to 
 <b>MgmGetNextMfeStats</b> should begin after the last MFE returned by the previous call to 
 <b>MgmGetNextMfeStats</b> (or the initial call to 
 <b>MgmGetFirstMfeStats</b>) To do this, the client specifies the last source and group in the buffer returned by a previous call.
 
-The MFE statistics are returned in either an <a href="https://msdn.microsoft.com/8e277c8d-db7a-4710-87af-ea5311123a71">MIB_IPMCAST_MFE_STATS</a> or <a href="https://msdn.microsoft.com/4d1b35bd-da6c-48a1-ade1-f96148c9eecb">MIB_IPMCAST_MFE_STATS_EX</a> structure determined by the <i>dwFlags</i> parameter.
+The MFE statistics are returned in either an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_mfe_stats">MIB_IPMCAST_MFE_STATS</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_mfe_stats_ex_xp">MIB_IPMCAST_MFE_STATS_EX</a> structure determined by the <i>dwFlags</i> parameter.
 
 <div class="alert"><b>Note</b>  The minimum size of the buffer pointed to by <i>pbBuffer</i> is not fixed; it is different for each set of MFE statistics. Use the 
 <b>sizeof</b> macro to determine the size of each set of statistics returned in the buffer.</div>
@@ -223,19 +223,19 @@ The MFE statistics are returned in either an <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/8e277c8d-db7a-4710-87af-ea5311123a71">MIB_IPMCAST_MFE_STATS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_mfe_stats">MIB_IPMCAST_MFE_STATS</a>
 
 
 
-<a href="https://msdn.microsoft.com/4d1b35bd-da6c-48a1-ade1-f96148c9eecb">MIB_IPMCAST_MFE_STATS_EX</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_mfe_stats_ex_xp">MIB_IPMCAST_MFE_STATS_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/b546c1a6-31a7-4053-9494-6903faa4df52">MgmGetFirstMfeStats</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgetfirstmfestats">MgmGetFirstMfeStats</a>
 
 
 
-<a href="https://msdn.microsoft.com/16c4b403-0477-47da-9f98-55f8368dca15">MgmGetMfeStats</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgetmfestats">MgmGetMfeStats</a>
  
 
  

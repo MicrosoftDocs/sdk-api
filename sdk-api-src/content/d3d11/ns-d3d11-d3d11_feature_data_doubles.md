@@ -59,53 +59,53 @@ Describes double data type support in the current graphics driver.
 
 ### -field DoublePrecisionFloatShaderOps
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
-Specifies whether <a href="https://msdn.microsoft.com/en-us/library/Bb509646(v=VS.85).aspx">double</a> types are allowed. If <b>TRUE</b>, <a href="https://msdn.microsoft.com/en-us/library/Bb509646(v=VS.85).aspx">double</a> types are allowed; otherwise <b>FALSE</b>. The runtime must set <b>DoublePrecisionFloatShaderOps</b> to  <b>TRUE</b> in order for you to use any <a href="https://msdn.microsoft.com/en-us/library/Bb509561(v=VS.85).aspx">HLSL</a> shader that is compiled with a <a href="https://msdn.microsoft.com/en-us/library/Bb509646(v=VS.85).aspx">double</a> type.
+Specifies whether <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-scalar">double</a> types are allowed. If <b>TRUE</b>, <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-scalar">double</a> types are allowed; otherwise <b>FALSE</b>. The runtime must set <b>DoublePrecisionFloatShaderOps</b> to  <b>TRUE</b> in order for you to use any <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl">HLSL</a> shader that is compiled with a <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-scalar">double</a> type.
 
 
 ## -remarks
 
 
 
-If the runtime sets <b>DoublePrecisionFloatShaderOps</b> to  <b>TRUE</b>, the hardware and driver support the following <a href="https://msdn.microsoft.com/ec646940-8901-45c5-a44c-434c8acae2aa">Shader Model 5</a> instructions:
+If the runtime sets <b>DoublePrecisionFloatShaderOps</b> to  <b>TRUE</b>, the hardware and driver support the following <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3d11-graphics-reference-sm5">Shader Model 5</a> instructions:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/416F1103-E27B-4AFC-9ED1-492FF8A93492">dadd</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dadd---sm5---asm-">dadd</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/34ED8B34-2592-4BBB-BCF0-F2222E4D51D9">dmax</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dmax--sm5---asm-">dmax</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/77331B4D-C4B5-49B2-BB6A-77BD5050B575">dmin</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dmin--sm5---asm-">dmin</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/53AE27BE-2F4B-4C55-B496-D7122C00DC52">dmul</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dmul--sm5---asm-">dmul</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/99806989-D3A0-43F4-832A-5F1BD9C59A11">deq</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/deq--sm5---asm-">deq</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/2E769077-E861-4EFA-817F-7D1AE998746C">dge</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dge--sm5---asm-">dge</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/A9DE5007-4ADD-403D-A2B7-EAE475E9DCCB">dlt</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dlt--sm5---asm-">dlt</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/7C69A86D-0820-4640-AF5A-2993EC77D2AA">dne</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dne--sm5---asm-">dne</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/05DBB9E2-10EC-4324-BB8F-1A9E315DE90C">dmov</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dmov--sm5---asm-">dmov</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/E376FE08-E251-4BE5-9F15-99B3B67A29C8">dmovc</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dmovc--sm5---asm-">dmovc</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/1D2EF05C-06EF-44F0-AA0F-22D3057FF43E">dtof</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dtof--sm5---asm-">dtof</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/95297556-41ED-4ED0-8F9A-16B7A440AF25">ftod</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/ftod--sm5---asm-">ftod</a>
 </li>
 </ul>
 <div class="alert"><b>Note</b>  If <b>DoublePrecisionFloatShaderOps</b> is <b>TRUE</b>, the hardware and driver do not necessarily support double-precision division.</div>
@@ -118,7 +118,7 @@ If the runtime sets <b>DoublePrecisionFloatShaderOps</b> to  <b>TRUE</b>, the ha
 
 
 
-<a href="https://msdn.microsoft.com/2a45182a-7114-4075-b8b8-147f52fe7aa9">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-structures">Core Structures</a>
  
 
  

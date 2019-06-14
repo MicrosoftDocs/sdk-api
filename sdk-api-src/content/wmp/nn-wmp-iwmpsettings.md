@@ -57,7 +57,7 @@ The <b>IWMPSettings</b> interface provides methods that get or set the values of
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPSettings</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IWMPSettings</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPSettings</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPSettings</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IWMPSettings</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563655(v=VS.85).aspx">get_autoStart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_autostart">get_autoStart</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether the current media item begins playing automatically.
@@ -81,7 +81,7 @@ Retrieves a value indicating whether the current media item begins playing autom
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563657(v=VS.85).aspx">get_balance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_balance">get_balance</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current stereo balance.
@@ -90,7 +90,7 @@ Retrieves the current stereo balance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563658(v=VS.85).aspx">get_baseURL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_baseurl">get_baseURL</a>
 </td>
 <td align="left" width="63%">
 Retrieves the base URL used for relative path resolution with URL-type script commands embedded in digital media content.
@@ -99,7 +99,7 @@ Retrieves the base URL used for relative path resolution with URL-type script co
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563659(v=VS.85).aspx">get_defaultFrame</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_defaultframe">get_defaultFrame</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the frame used to display a URL received in a <b>scriptCommand</b> event.
@@ -108,7 +108,7 @@ Retrieves the name of the frame used to display a URL received in a <b>scriptCom
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563660(v=VS.85).aspx">get_enableErrorDialogs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_enableerrordialogs">get_enableErrorDialogs</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether error dialog boxes are displayed automatically.
@@ -117,7 +117,7 @@ Retrieves a value indicating whether error dialog boxes are displayed automatica
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563662(v=VS.85).aspx">get_invokeURLs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_invokeurls">get_invokeURLs</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether URL events should launch a Web browser.
@@ -126,7 +126,7 @@ Retrieves a value indicating whether URL events should launch a Web browser.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563663(v=VS.85).aspx">get_isAvailable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_isavailable">get_isAvailable</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether a specified action can be performed.
@@ -135,7 +135,7 @@ Retrieves a value indicating whether a specified action can be performed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563664(v=VS.85).aspx">get_mute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_mute">get_mute</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether audio is muted.
@@ -144,7 +144,7 @@ Retrieves a value indicating whether audio is muted.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563665(v=VS.85).aspx">get_playCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_playcount">get_playCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of times a media item will play.
@@ -153,7 +153,7 @@ Retrieves the number of times a media item will play.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563667(v=VS.85).aspx">get_rate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_rate">get_rate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current playback rate.
@@ -162,7 +162,7 @@ Retrieves the current playback rate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563668(v=VS.85).aspx">get_volume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_volume">get_volume</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current playback volume.
@@ -171,7 +171,7 @@ Retrieves the current playback volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563654(v=VS.85).aspx">getMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-getmode">getMode</a>
 </td>
 <td align="left" width="63%">
 Returns a value indicating whether loop mode or shuffle mode is active.
@@ -180,7 +180,7 @@ Returns a value indicating whether loop mode or shuffle mode is active.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563670(v=VS.85).aspx">put_autoStart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_autostart">put_autoStart</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the current media item begins playing automatically.
@@ -189,7 +189,7 @@ Specifies whether the current media item begins playing automatically.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563672(v=VS.85).aspx">put_balance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_balance">put_balance</a>
 </td>
 <td align="left" width="63%">
 Specifies the current stereo balance.
@@ -198,7 +198,7 @@ Specifies the current stereo balance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563673(v=VS.85).aspx">put_baseURL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_baseurl">put_baseURL</a>
 </td>
 <td align="left" width="63%">
 Specifies the base URL used for relative path resolution with URL script commands embedded in digital media files.
@@ -207,7 +207,7 @@ Specifies the base URL used for relative path resolution with URL script command
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563674(v=VS.85).aspx">put_defaultFrame</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_defaultframe">put_defaultFrame</a>
 </td>
 <td align="left" width="63%">
 Specifies the name of the frame used to display a URL received in a <b>scriptCommand</b> event.
@@ -216,7 +216,7 @@ Specifies the name of the frame used to display a URL received in a <b>scriptCom
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563675(v=VS.85).aspx">put_enableErrorDialogs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_enableerrordialogs">put_enableErrorDialogs</a>
 </td>
 <td align="left" width="63%">
 Specifies whether error dialog boxes are displayed automatically.
@@ -225,7 +225,7 @@ Specifies whether error dialog boxes are displayed automatically.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563676(v=VS.85).aspx">put_invokeURLs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_invokeurls">put_invokeURLs</a>
 </td>
 <td align="left" width="63%">
 Specifies whether URL events should launch a Web browser.
@@ -234,7 +234,7 @@ Specifies whether URL events should launch a Web browser.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563677(v=VS.85).aspx">put_mute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_mute">put_mute</a>
 </td>
 <td align="left" width="63%">
 Specifies whether audio is muted.
@@ -243,7 +243,7 @@ Specifies whether audio is muted.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563679(v=VS.85).aspx">put_playCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_playcount">put_playCount</a>
 </td>
 <td align="left" width="63%">
 Specifies the number of times a media item will play.
@@ -252,7 +252,7 @@ Specifies the number of times a media item will play.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563680(v=VS.85).aspx">put_rate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_rate">put_rate</a>
 </td>
 <td align="left" width="63%">
 Specifies the current playback rate.
@@ -261,7 +261,7 @@ Specifies the current playback rate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563681(v=VS.85).aspx">put_volume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_volume">put_volume</a>
 </td>
 <td align="left" width="63%">
 Specifies the current playback volume.
@@ -270,7 +270,7 @@ Specifies the current playback volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563682(v=VS.85).aspx">setMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-setmode">setMode</a>
 </td>
 <td align="left" width="63%">
 Sets the loop mode or shuffle mode to active or inactive.
@@ -288,10 +288,10 @@ Retrieve a pointer to an <b>IWMPSettings</b> interface with the following method
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563216(v=VS.85).aspx">IWMPCore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563236(v=VS.85).aspx">get_settings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_settings">get_settings</a>
 </td>
 </tr>
 </table> 
@@ -302,7 +302,7 @@ Retrieve a pointer to an <b>IWMPSettings</b> interface with the following method
 
 
 
-<a href="https://msdn.microsoft.com/68a0bdaf-ae1b-4ba1-817b-a31c68b9fddd">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
  
 
  

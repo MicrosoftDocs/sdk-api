@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>HttpCreateRequestQueue</b> function creates a new request queue or opens an existing request queue.
 
- This function replaces the HTTP version 1.0 <a href="https://msdn.microsoft.com/c3741092-c23a-465f-9a65-5bcbf977fad3">HttpCreateHttpHandle</a> function.
+ This function replaces the HTTP version 1.0 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreatehttphandle">HttpCreateHttpHandle</a> function.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ The name of the request queue. The length, in bytes, cannot exceed MAX_PATH.
 
 ### -param SecurityAttributes [in, optional]
 
-A pointer to the <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> structure that contains the  access permissions for the request queue.
+A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that contains the  access permissions for the request queue.
 
 This parameter must be <b>NULL</b> when opening an existing request queue.
 
@@ -159,7 +159,7 @@ The <b>HTTP_CREATE_REQUEST_QUEUE_FLAG_CONTROLLER</b> can only be set when the re
 
 The <b>HTTP_CREATE_REQUEST_QUEUE_FLAG_OPEN_EXISTING</b> can only be set when the application has permission to open an existing request queue. In this case, the <i>pReqQueueHandle</i> parameter must be a valid pointer, and the <i>pName</i> parameter must contain a valid request queue name; it cannot be <b>NULL</b>.
 
-The <i>pReqQueueHandle</i> parameter returned by <a href="https://msdn.microsoft.com/a0f4112e-db81-4eda-afeb-d00117f7240c">HttpCreateRequestQueue</a>  is <b>NULL</b>.
+The <i>pReqQueueHandle</i> parameter returned by <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a>  is <b>NULL</b>.
 
 </td>
 </tr>
@@ -192,7 +192,7 @@ The calling process does not have a permission to open the request queue.
 </dl>
 </td>
 <td width="60%">
-The application has not called <a href="https://msdn.microsoft.com/bc0648a9-bacf-4b09-aa4e-66aecbbdca3d">HttpInitialize</a> prior to calling <a href="https://msdn.microsoft.com/a0f4112e-db81-4eda-afeb-d00117f7240c">HttpCreateRequestQueue</a>.
+The application has not called <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpinitialize">HttpInitialize</a> prior to calling <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a>.
 
 </td>
 </tr>
@@ -206,19 +206,19 @@ The application has not called <a href="https://msdn.microsoft.com/bc0648a9-bacf
 
 
 
-The HTTP Server API supports existing applications using the version 1.0 request queues, however, new development with the HTTP Server API should use <b>HttpCreateRequestQueue</b> to create request queues; <a href="https://msdn.microsoft.com/c3741092-c23a-465f-9a65-5bcbf977fad3">HttpCreateHttpHandle</a> should not be used. The version 2.0 API are only compatible with the version 2.0 request queues created by <b>HttpCreateRequestQueue</b>.
+The HTTP Server API supports existing applications using the version 1.0 request queues, however, new development with the HTTP Server API should use <b>HttpCreateRequestQueue</b> to create request queues; <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreatehttphandle">HttpCreateHttpHandle</a> should not be used. The version 2.0 API are only compatible with the version 2.0 request queues created by <b>HttpCreateRequestQueue</b>.
 
-The HTTP version 2 request queues require manual configuration; the application must create the URL Groups and associate one or more URL Group with the request queue by calling <a href="https://msdn.microsoft.com/e0826a25-1c50-4757-9355-69eb4946e8dd">HttpSetUrlGroupProperty</a> with the <b>HttpServerBindingProperty</b>. The application configures the request queue by calling <a href="https://msdn.microsoft.com/56111cc0-94c8-47dc-a3bb-ffc5dae772fe">HttpSetRequestQueueProperty</a> with the    desired configuration in the <i>Property</i> parameter. For more information about creating and configuring URL groups, see  <a href="https://msdn.microsoft.com/6f2b14bb-ecb9-4a63-9bef-e2ceaf09f97a">HttpCreateUrlGroup</a> and  <b>HttpSetUrlGroupProperty</b>.
+The HTTP version 2 request queues require manual configuration; the application must create the URL Groups and associate one or more URL Group with the request queue by calling <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpseturlgroupproperty">HttpSetUrlGroupProperty</a> with the <b>HttpServerBindingProperty</b>. The application configures the request queue by calling <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetrequestqueueproperty">HttpSetRequestQueueProperty</a> with the    desired configuration in the <i>Property</i> parameter. For more information about creating and configuring URL groups, see  <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreateurlgroup">HttpCreateUrlGroup</a> and  <b>HttpSetUrlGroupProperty</b>.
 
 Security attributes may be supplied in <i>pSecurityAttributes</i> parameter only when the request queue is created. Only the  application that creates the request queue can set Access Control Lists (ACLs) on the request queue handle to allow processes (other than the creator application) permission to open, receive requests, and send responses on the request queue handle. By default, applications are not allowed to open a request queue unless they have been granted permission in the ACL.
 
 The creator process can optionally use the <b>HTTP_CREATE_REQUEST_QUEUE_FLAG_CONTROLLER</b> flag to indicate that it does not want to receive http requests. 
 
-<b>HttpCreateRequestQueue</b> allows applications to open an existing request queue with the <b>HTTP_CREATE_REQUEST_QUEUE_FLAG_OPEN_EXISTING</b> flag and retrieve the handle to the request queue. Non-controller applications can use this handle to perform HTTP I/O operations. Only the application that creates the request queue can set properties on it by calling the <a href="https://msdn.microsoft.com/56111cc0-94c8-47dc-a3bb-ffc5dae772fe">HttpSetRequestQueueProperty</a>.
+<b>HttpCreateRequestQueue</b> allows applications to open an existing request queue with the <b>HTTP_CREATE_REQUEST_QUEUE_FLAG_OPEN_EXISTING</b> flag and retrieve the handle to the request queue. Non-controller applications can use this handle to perform HTTP I/O operations. Only the application that creates the request queue can set properties on it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetrequestqueueproperty">HttpSetRequestQueueProperty</a>.
 
-The handle to the request queue created by <b>HttpCreateRequestQueue</b> must be closed by calling <a href="https://msdn.microsoft.com/dfbc2d32-c1f6-41b1-8f4f-9e5e9f6dd9e1">HttpCloseRequestQueue</a> before the application terminates or when the session is no longer required.
+The handle to the request queue created by <b>HttpCreateRequestQueue</b> must be closed by calling <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcloserequestqueue">HttpCloseRequestQueue</a> before the application terminates or when the session is no longer required.
 
-Applications must call <a href="https://msdn.microsoft.com/bc0648a9-bacf-4b09-aa4e-66aecbbdca3d">HttpInitialize</a> prior to calling <b>HttpCreateRequestQueue</b>.
+Applications must call <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpinitialize">HttpInitialize</a> prior to calling <b>HttpCreateRequestQueue</b>.
 
 
 
@@ -228,27 +228,27 @@ Applications must call <a href="https://msdn.microsoft.com/bc0648a9-bacf-4b09-aa
 
 
 
-<a href="https://msdn.microsoft.com/12daffca-b403-4f06-8037-206f90e33252">HTTP Server API Version 2.0 Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/dfbc2d32-c1f6-41b1-8f4f-9e5e9f6dd9e1">HttpCloseRequestQueue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcloserequestqueue">HttpCloseRequestQueue</a>
 
 
 
-<a href="https://msdn.microsoft.com/c3741092-c23a-465f-9a65-5bcbf977fad3">HttpCreateHttpHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreatehttphandle">HttpCreateHttpHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3b1e85e-f152-4038-a56a-3d5985757c45">HttpQueryRequestQueueProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryrequestqueueproperty">HttpQueryRequestQueueProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/56111cc0-94c8-47dc-a3bb-ffc5dae772fe">HttpSetRequestQueueProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetrequestqueueproperty">HttpSetRequestQueueProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/f6640565-a5a1-4a71-938c-1adf54beb40a">HttpShutdownRequestQueue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpshutdownrequestqueue">HttpShutdownRequestQueue</a>
  
 
  

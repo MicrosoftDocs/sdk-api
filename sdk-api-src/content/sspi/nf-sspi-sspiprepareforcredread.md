@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Generates a target name and credential type from the specified identity structure.
 
-The values that this function generates can be passed as the values of the <i>TargetName</i> and <i>Type</i> parameters in a call to the <a href="https://msdn.microsoft.com/3222de7b-5290-4e82-a382-b2db6afc78cc">CredRead</a> function.
+The values that this function generates can be passed as the values of the <i>TargetName</i> and <i>Type</i> parameters in a call to the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credreada">CredRead</a> function.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The values that this function generates can be passed as the values of the <i>Ta
 
 ### -param AuthIdentity [in]
 
-The identity structure from which to generate the credentials to be passed to the <a href="https://msdn.microsoft.com/3222de7b-5290-4e82-a382-b2db6afc78cc">CredRead</a> function.
+The identity structure from which to generate the credentials to be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credreada">CredRead</a> function.
 
 
 ### -param pszTargetName [in]
@@ -71,12 +71,12 @@ A target name that can be modified by this function depending on the value of th
 
 ### -param pCredmanCredentialType [out]
 
-The credential type to pass to the <a href="https://msdn.microsoft.com/3222de7b-5290-4e82-a382-b2db6afc78cc">CredRead</a> function.
+The credential type to pass to the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credreada">CredRead</a> function.
 
 
 ### -param ppszCredmanTargetName [out]
 
-The target name to pass to the <a href="https://msdn.microsoft.com/3222de7b-5290-4e82-a382-b2db6afc78cc">CredRead</a> function.
+The target name to pass to the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credreada">CredRead</a> function.
 
 
 ## -returns

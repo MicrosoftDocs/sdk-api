@@ -94,7 +94,7 @@ Type: <b>UINT32</b>
 
 
 
-<b>FWPM_LAYER_STATISTICS0</b> is a specific implementation of FWPM_LAYER_STATISTICS. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FWPM_LAYER_STATISTICS0</b> is a specific implementation of FWPM_LAYER_STATISTICS. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -104,7 +104,7 @@ Type: <b>UINT32</b>
 
 
 
-<a href="https://msdn.microsoft.com/c3ac6871-79b1-4378-8f3c-a56e85fd2a3b">FWPM_STATISTICS0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_statistics0_">FWPM_STATISTICS0</a>
  
 
  

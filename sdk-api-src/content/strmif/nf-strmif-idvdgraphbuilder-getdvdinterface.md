@@ -128,30 +128,30 @@ The graph is not built yet. See Remarks.
 You can use this method to select and configure a video renderer filter before you build the filter graph for DVD playback. The following interfaces are available:
 
 <ul>
-<li><b>Overlay Mixer Filter</b>: <a href="https://msdn.microsoft.com/6a846a07-f513-49e7-85e8-192a5c211515">IDDrawExclModeVideo</a>.</li>
-<li><b>Video Mixing Renderer 7 (VMR-7)</b>: <a href="https://msdn.microsoft.com/3ea7bb41-1f5f-496f-bdf4-776ec9f28876">IVMRFilterConfig</a>, <a href="https://msdn.microsoft.com/ac7da3f9-2c17-4517-bb64-6b56257a65c3">IVMRMixerBitmap</a>, <a href="https://msdn.microsoft.com/c21c5611-f376-4899-9914-c14a18af3810">IVMRWindowlessControl</a>, and <a href="https://msdn.microsoft.com/02b4016b-a65b-41ac-b5c6-e5f6825f179c">IVMRMonitorConfig</a>.</li>
-<li><b>Video Mixing Renderer 9 (VMR-9)</b>: <a href="https://msdn.microsoft.com/089e44c8-6a27-410d-aad5-08816bd4f915">IVMRFilterConfig9</a>, <a href="https://msdn.microsoft.com/de48307a-3522-49a0-b0a5-73ce7cf90517">IVMRMixerBitmap9</a>, <a href="https://msdn.microsoft.com/9db99c31-65b5-4ff1-9c0d-22140a3687e8">IVMRWindowlessControl9</a>, and <a href="https://msdn.microsoft.com/27a3a598-d8de-48b2-8b8c-6b5497db4c6c">IVMRMonitorConfig9</a>.</li>
-<li><b>Enhanced Video Renderer (EVR)</b>: <a href="https://msdn.microsoft.com/13086d85-3dbf-4e9f-b065-d95e16412832">IEVRFilterConfig</a> and <a href="https://msdn.microsoft.com/70596630-5131-460f-9cb3-adcea201c3b2">IMFVideoRenderer</a>.<b>Windows Server 2003, Windows XP and Windows 2000:  </b>This interface is not supported.
+<li><b>Overlay Mixer Filter</b>: <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iddrawexclmodevideo">IDDrawExclModeVideo</a>.</li>
+<li><b>Video Mixing Renderer 7 (VMR-7)</b>: <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrfilterconfig">IVMRFilterConfig</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrwindowlesscontrol">IVMRWindowlessControl</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrmonitorconfig">IVMRMonitorConfig</a>.</li>
+<li><b>Video Mixing Renderer 9 (VMR-9)</b>: <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrfilterconfig9">IVMRFilterConfig9</a>, <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrmixerbitmap9">IVMRMixerBitmap9</a>, <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrwindowlesscontrol9">IVMRWindowlessControl9</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrmonitorconfig9">IVMRMonitorConfig9</a>.</li>
+<li><b>Enhanced Video Renderer (EVR)</b>: <a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-ievrfilterconfig">IEVRFilterConfig</a> and <a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideorenderer">IMFVideoRenderer</a>.<b>Windows Server 2003, Windows XP and Windows 2000:  </b>This interface is not supported.
 
 </li>
 </ul>
 If you call <b>GetDvdInterface</b> to get any of these interfaces before you build the filter graph, the DVD Graph Builder creates the appropriate video renderer. It will use this renderer later when you build the graph. After the video renderer has been selected, you can no longer retrieve the interfaces for the other video renderers. (The <b>GetDvdInterface</b> method will return E_NOINTERFACE.)
 
-Before the DVD playback graph is built, if you request any interfaces that are not on the previous list, the method returns VFW_E_DVD_GRAPHNOTREADY. To build the DVD graph, call <a href="https://msdn.microsoft.com/731d2f4b-2a54-451a-8d98-b5fdf47c1dc8">IDvdGraphBuilder::RenderDvdVideoVolume</a>. After you build the graph, you can use <b>GetDvdInterface</b> to retrieve some additional interfaces:
+Before the DVD playback graph is built, if you request any interfaces that are not on the previous list, the method returns VFW_E_DVD_GRAPHNOTREADY. To build the DVD graph, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdgraphbuilder-renderdvdvideovolume">IDvdGraphBuilder::RenderDvdVideoVolume</a>. After you build the graph, you can use <b>GetDvdInterface</b> to retrieve some additional interfaces:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/a6ca0fe8-84e3-43e6-9421-29dcff056dfd">IDvdControl</a> (deprecated), <a href="https://msdn.microsoft.com/eda43b20-1c4d-4769-bb87-3942716af13c">IDvdControl2</a>, <a href="https://msdn.microsoft.com/6b0c5dfe-aa1b-4ad0-9272-f1351e494b11">IDvdInfo</a> (deprecated), and <a href="https://msdn.microsoft.com/da30d3dc-feec-4f54-b2db-a771ce404286">IDvdInfo2</a> to control DVD playback.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol">IDvdControl</a> (deprecated), <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo">IDvdInfo</a> (deprecated), and <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2</a> to control DVD playback.</li>
 <li>
-<a href="https://msdn.microsoft.com/8e931c15-bd1d-409e-ada1-97fe49125fe7">IVideoWindow</a>, <a href="https://msdn.microsoft.com/14f45bdc-2271-459d-b165-c860c8fc3e0b">IBasicVideo</a>, and <a href="https://msdn.microsoft.com/a21fe7b9-75db-4c5b-bb29-42d305f048a1">IBasicVideo2</a> to control the video settings, in windowed mode only.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow</a>, <a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ibasicvideo2">IBasicVideo2</a> to control the video settings, in windowed mode only.</li>
 <li>
-<a href="https://msdn.microsoft.com/0335b263-8d32-4690-a606-ba2b3e382680">IBasicAudio</a> to control the audio settings.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ibasicaudio">IBasicAudio</a> to control the audio settings.</li>
 <li>
-<a href="https://msdn.microsoft.com/b6fbb5c3-28af-4db6-8dc4-82271b69bf71">IAMLine21Decoder</a> to control closed caption display.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder">IAMLine21Decoder</a> to control closed caption display.</li>
 <li>
-<a href="https://msdn.microsoft.com/6a4f3462-4596-4f02-a41f-47161f8aa4db">IMixerPinConfig</a> and <a href="https://msdn.microsoft.com/d166b139-3ef7-4f47-817a-8f5b644a3776">IMixerPinConfig2</a> to configure the Overlay Mixer filter's first input pin, which delivers the primary video stream. (To get this interface for the other pins on the Overlay Mixer, enumerate the filter's pins and query them directly.) New applications should avoid using the Overlay Mixer filter.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nn-mpconfig-imixerpinconfig">IMixerPinConfig</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nn-mpconfig-imixerpinconfig2">IMixerPinConfig2</a> to configure the Overlay Mixer filter's first input pin, which delivers the primary video stream. (To get this interface for the other pins on the Overlay Mixer, enumerate the filter's pins and query them directly.) New applications should avoid using the Overlay Mixer filter.</li>
 </ul>
-To get other interfaces, call <a href="https://msdn.microsoft.com/1f12140b-d10d-47d9-8bac-33fab084bff4">IDvdGraphBuilder::GetFiltergraph</a>. Query the returned <b>IGraphBuilder</b> interface or use <b>EnumFilters</b> to enumerate the filters.
+To get other interfaces, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdgraphbuilder-getfiltergraph">IDvdGraphBuilder::GetFiltergraph</a>. Query the returned <b>IGraphBuilder</b> interface or use <b>EnumFilters</b> to enumerate the filters.
 
 
 
@@ -161,15 +161,15 @@ To get other interfaces, call <a href="https://msdn.microsoft.com/1f12140b-d10d-
 
 
 
-<a href="https://msdn.microsoft.com/6f41e0f1-e550-4ca6-9a80-ce4d498289e2">DVD Applications</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/2179e54a-c6e2-4837-9f89-be210bde9180">IDvdGraphBuilder Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdgraphbuilder">IDvdGraphBuilder Interface</a>
  
 
  

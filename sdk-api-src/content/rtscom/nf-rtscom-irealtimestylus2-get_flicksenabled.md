@@ -79,7 +79,7 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/d4b55c1d-f8cc-4aed-86a3-b5935d127c2d">IRealTimeStylus2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus2">IRealTimeStylus2 Interface</a>
  
 
  

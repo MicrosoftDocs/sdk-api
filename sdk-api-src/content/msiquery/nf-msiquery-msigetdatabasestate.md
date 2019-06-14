@@ -60,7 +60,7 @@ The
 
 ### -param hDatabase [in]
 
-Handle to the database obtained from <a href="https://msdn.microsoft.com/984996e3-aa2c-49ff-9067-ebefd3afdecb">MsiOpenDatabase</a>.
+Handle to the database obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiopendatabasea">MsiOpenDatabase</a>.
 
 
 ## -returns
@@ -87,7 +87,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Database Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Database Management Functions</a>
  
 
  

@@ -76,7 +76,7 @@ The color transformation matrix.
 
 
 The values in the matrix are for red, blue, green, alpha, and color translation. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms533875(v=VS.85).aspx">Using a Color Matrix to Transform a Single Color</a> in the Windows GDI+ documentation.
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-a-color-matrix-to-transform-a-single-color-use">Using a Color Matrix to Transform a Single Color</a> in the Windows GDI+ documentation.
  
 
 
@@ -88,11 +88,11 @@ The values in the matrix are for red, blue, green, alpha, and color translation.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692387(v=VS.85).aspx">MagGetColorEffect</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/nf-magnification-maggetcoloreffect">MagGetColorEffect</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692394(v=VS.85).aspx">MagSetColorEffect</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/nf-magnification-magsetcoloreffect">MagSetColorEffect</a>
 
 
 

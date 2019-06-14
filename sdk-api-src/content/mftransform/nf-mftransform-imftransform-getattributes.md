@@ -61,7 +61,7 @@ Gets the global attribute store for this Media Foundation transform (MFT).
 
 ### -param pAttributes [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. The caller must release the interface.
           
 
 
@@ -111,10 +111,10 @@ The MFT does not support attributes.
 
 
 
-Use the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> pointer retrieved by this method to get or set attributes that apply to the entire MFT. To get the attribute store for an input stream, call <a href="https://msdn.microsoft.com/2698da30-6913-41a9-9d98-f124cf31e591">IMFTransform::GetInputStreamAttributes</a>. To get the attribute store for an output stream, call <a href="https://msdn.microsoft.com/d54ce20c-8ef9-4480-9ddd-908751fc0a7e">IMFTransform::GetOutputStreamAttributes</a>.
+Use the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> pointer retrieved by this method to get or set attributes that apply to the entire MFT. To get the attribute store for an input stream, call <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-getinputstreamattributes">IMFTransform::GetInputStreamAttributes</a>. To get the attribute store for an output stream, call <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputstreamattributes">IMFTransform::GetOutputStreamAttributes</a>.
       
 
-Implementation of this method is optional unless the MFT needs to support a particular set of attributes. Exception: Hardware-based MFTs must implement this method. See <a href="https://msdn.microsoft.com/9922d403-5d0d-433f-ad9f-c86142ac0f46">Hardware MFTs</a>.
+Implementation of this method is optional unless the MFT needs to support a particular set of attributes. Exception: Hardware-based MFTs must implement this method. See <a href="https://docs.microsoft.com/windows/desktop/medfound/hardware-mfts">Hardware MFTs</a>.
 
 
 
@@ -124,15 +124,15 @@ Implementation of this method is optional unless the MFT needs to support a part
 
 
 
-<a href="https://msdn.microsoft.com/3cc502d8-d364-43b9-b0b6-d9474c002b20">IMFTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb23fe0a-c42c-4912-a0bf-1f0b18a6f4e0">Media Foundation Transforms</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
 
 
 
-<a href="https://msdn.microsoft.com/9beb1306-1378-499c-b9e1-c768a7b4c8bc">Transform Attributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/transform-attributes">Transform Attributes</a>
  
 
  

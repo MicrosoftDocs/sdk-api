@@ -116,7 +116,7 @@ Not enough memory to perform this operation.
 
 
 
-This method does not update the resource pointers in the new <a href="https://msdn.microsoft.com/56c11e64-64a8-4c42-9547-4f1fcdc13a4b">IXpsOMVisualBrush</a>  interface.
+This method does not update the resource pointers in the new <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisualbrush">IXpsOMVisualBrush</a>  interface.
 
 
 
@@ -126,7 +126,7 @@ This method does not update the resource pointers in the new <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/56c11e64-64a8-4c42-9547-4f1fcdc13a4b">IXpsOMVisualBrush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisualbrush">IXpsOMVisualBrush</a>
 
 
 

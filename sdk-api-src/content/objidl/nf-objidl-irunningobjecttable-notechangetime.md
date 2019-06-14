@@ -59,12 +59,12 @@ Records the time that a running object was last modified. The object must have p
 
 ### -param dwRegister [in]
 
-The identifier of the ROT entry of the changed object. This value was previously returned by <a href="https://msdn.microsoft.com/40f815b2-dfea-416c-aae1-7ba3a710ad91">IRunningObjectTable::Register</a>.
+The identifier of the ROT entry of the changed object. This value was previously returned by <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-register">IRunningObjectTable::Register</a>.
 
 
 ### -param pfiletime [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure containing the object's last change time.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure containing the object's last change time.
 
 
 ## -returns
@@ -80,10 +80,10 @@ This method can return the standard return values E_INVALIDARG and S_OK.
 
 
 
-The time recorded by this method can be retrieved by calling <a href="https://msdn.microsoft.com/fef6f7e5-7d91-4737-98a4-c9779c6c2be5">IRunningObjectTable::GetTimeOfLastChange</a>.
+The time recorded by this method can be retrieved by calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-gettimeoflastchange">IRunningObjectTable::GetTimeOfLastChange</a>.
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-A moniker provider (hands out monikers identifying its objects to make them accessible to others) must call the <b>NoteChangeTime</b> method whenever its objects are modified. It must have previously called <a href="https://msdn.microsoft.com/40f815b2-dfea-416c-aae1-7ba3a710ad91">IRunningObjectTable::Register</a> and stored the identifier returned by that method; it uses that identifier when calling <b>NoteChangeTime</b>.
+A moniker provider (hands out monikers identifying its objects to make them accessible to others) must call the <b>NoteChangeTime</b> method whenever its objects are modified. It must have previously called <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-register">IRunningObjectTable::Register</a> and stored the identifier returned by that method; it uses that identifier when calling <b>NoteChangeTime</b>.
 
 
 
@@ -91,7 +91,7 @@ The most common type of moniker provider is a compound-document link source. Thi
 
 
 
-When an object is first registered in the ROT, the ROT records its last change time as the value returned by calling <a href="https://msdn.microsoft.com/120cc951-6797-4ef6-890b-57ff8d3d23ba">IMoniker::GetTimeOfLastChange</a> on the moniker being registered. 
+When an object is first registered in the ROT, the ROT records its last change time as the value returned by calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-gettimeoflastchange">IMoniker::GetTimeOfLastChange</a> on the moniker being registered. 
 
 
 
@@ -102,11 +102,11 @@ When an object is first registered in the ROT, the ROT records its last change t
 
 
 
-<a href="https://msdn.microsoft.com/120cc951-6797-4ef6-890b-57ff8d3d23ba">IMoniker::GetTimeOfLastChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-gettimeoflastchange">IMoniker::GetTimeOfLastChange</a>
 
 
 
-<a href="https://msdn.microsoft.com/ff89bcb5-df6d-4325-b0e8-613217a68f42">IRunningObjectTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irunningobjecttable">IRunningObjectTable</a>
  
 
  

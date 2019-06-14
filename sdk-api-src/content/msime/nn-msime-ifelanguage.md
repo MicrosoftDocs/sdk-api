@@ -54,7 +54,7 @@ The <b>IFELanguage</b> interface provides language processing services using the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFELanguage</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IFELanguage</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFELanguage</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFELanguage</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IFELanguage</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/EF03C40A-62D1-4B8E-9960-3CD2D515B7CE">Close</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifelanguage-close">Close</a>
 </td>
 <td align="left" width="63%">
 Terminates the <b>IFELanguage</b> object.
@@ -78,7 +78,7 @@ Terminates the <b>IFELanguage</b> object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A1FA36C7-6A1A-4B08-BA29-7F7C8FE8DF16">GetConversion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifelanguage-getconversion">GetConversion</a>
 </td>
 <td align="left" width="63%">
 Converts the input string (which usually contains the Hiragana character) to converted strings.
@@ -87,7 +87,7 @@ Converts the input string (which usually contains the Hiragana character) to con
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B1A3D121-C650-4D04-9278-791A12F73A2E">GetConversionModeCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifelanguage-getconversionmodecaps">GetConversionModeCaps</a>
 </td>
 <td align="left" width="63%">
 Gets the conversion mode capability of the <b>IFELanguage</b> object.
@@ -96,7 +96,7 @@ Gets the conversion mode capability of the <b>IFELanguage</b> object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/CCE546B2-88CE-4B54-8EBF-FCA2C5ADFBB4">GetJMorphResult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifelanguage-getjmorphresult">GetJMorphResult</a>
 </td>
 <td align="left" width="63%">
 Gets morphological analysis results.
@@ -105,7 +105,7 @@ Gets morphological analysis results.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2E1CEC6B-B0EA-4DBE-A122-D44606B467CC">Open</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifelanguage-open">Open</a>
 </td>
 <td align="left" width="63%">
 Initializes the <b>IFELanguage</b> object.
@@ -119,7 +119,7 @@ Initializes the <b>IFELanguage</b> object.
 
 
 
-Create an instance of this interface with the <a href="https://msdn.microsoft.com/DF79C260-F43B-4580-B252-6D906C235CD4">CreateIFELanguageInstance</a> function.
+Create an instance of this interface with the <a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-createifelanguageinstance">CreateIFELanguageInstance</a> function.
 
 
 

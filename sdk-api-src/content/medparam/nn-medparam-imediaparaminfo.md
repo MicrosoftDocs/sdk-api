@@ -51,14 +51,14 @@ ms.custom: 19H1
 
 
 
-The <code>IMediaParamInfo</code> interface retrieves information about the parameters that an object supports. The set of parameters that an object supports will not change over the lifetime of an application. To set parameter values, use the <a href="https://msdn.microsoft.com/en-us/library/Dd406971(v=VS.85).aspx">IMediaParams</a> interface.
+The <code>IMediaParamInfo</code> interface retrieves information about the parameters that an object supports. The set of parameters that an object supports will not change over the lifetime of an application. To set parameter values, use the <a href="https://docs.microsoft.com/windows/desktop/api/medparam/nn-medparam-imediaparams">IMediaParams</a> interface.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaParamInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMediaParamInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaParamInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMediaParamInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IMediaParamInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406965(v=VS.85).aspx">GetCurrentTimeFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/medparam/nf-medparam-imediaparaminfo-getcurrenttimeformat">GetCurrentTimeFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current time format.
@@ -82,7 +82,7 @@ Retrieves the current time format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406966(v=VS.85).aspx">GetNumTimeFormats</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/medparam/nf-medparam-imediaparaminfo-getnumtimeformats">GetNumTimeFormats</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of time formats that the object supports.
@@ -91,7 +91,7 @@ Retrieves the number of time formats that the object supports.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406967(v=VS.85).aspx">GetParamCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/medparam/nf-medparam-imediaparaminfo-getparamcount">GetParamCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of parameters that the object supports.
@@ -100,7 +100,7 @@ Retrieves the number of parameters that the object supports.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406968(v=VS.85).aspx">GetParamInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/medparam/nf-medparam-imediaparaminfo-getparaminfo">GetParamInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about a specified parameter.
@@ -109,7 +109,7 @@ Retrieves information about a specified parameter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406969(v=VS.85).aspx">GetParamText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/medparam/nf-medparam-imediaparaminfo-getparamtext">GetParamText</a>
 </td>
 <td align="left" width="63%">
 Retrieves an array of text strings that describe the parameter.
@@ -118,7 +118,7 @@ Retrieves an array of text strings that describe the parameter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406970(v=VS.85).aspx">GetSupportedTimeFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/medparam/nf-medparam-imediaparaminfo-getsupportedtimeformat">GetSupportedTimeFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves a supported time format.

@@ -62,7 +62,7 @@ The <b>TTPOLYGONHEADER</b> structure specifies the starting position and type of
 
 ### -field cb
 
-The number of bytes required by the <b>TTPOLYGONHEADER</b> structure and <a href="https://msdn.microsoft.com/59a26aec-786e-471b-8e08-ddffb04874d6">TTPOLYCURVE</a> structure or structures required to describe the contour of the character.
+The number of bytes required by the <b>TTPOLYGONHEADER</b> structure and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagttpolycurve">TTPOLYCURVE</a> structure or structures required to describe the contour of the character.
 
 
 ### -field dwType
@@ -79,7 +79,7 @@ The starting point of the contour in the character outline.
 
 
 
-Each <b>TTPOLYGONHEADER</b> structure is followed by one or more <a href="https://msdn.microsoft.com/59a26aec-786e-471b-8e08-ddffb04874d6">TTPOLYCURVE</a> structures.
+Each <b>TTPOLYGONHEADER</b> structure is followed by one or more <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagttpolycurve">TTPOLYCURVE</a> structures.
 
 
 
@@ -89,19 +89,19 @@ Each <b>TTPOLYGONHEADER</b> structure is followed by one or more <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/93726d5c-d4ed-4681-bf45-cb899f195b5d">Font and Text Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/9944baa9-8e50-40b9-9650-78b0b1d7643a">Fonts and Text Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/a8736c6c-7944-42ed-811c-308f41f1ab2f">POINTFX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagpointfx">POINTFX</a>
 
 
 
-<a href="https://msdn.microsoft.com/59a26aec-786e-471b-8e08-ddffb04874d6">TTPOLYCURVE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagttpolycurve">TTPOLYCURVE</a>
  
 
  

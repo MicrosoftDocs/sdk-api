@@ -68,7 +68,7 @@ The text of the NAP condition.
 
 
 The 
-<a href="https://msdn.microsoft.com/1e12baf8-e1f4-4b46-ba08-58adf4f3012e">POLICYPROPERTIES</a> enumeration type contains the value PROPERTY_POLICY_CONDITIONS_COLLECTION, which is the property for the conditions collection.
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_policyproperties">POLICYPROPERTIES</a> enumeration type contains the value PROPERTY_POLICY_CONDITIONS_COLLECTION, which is the property for the conditions collection.
 
 
 
@@ -78,11 +78,11 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/9c7ee4d7-987f-45ae-810f-fc310955f36d">IASCOMMONPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iascommonproperties">IASCOMMONPROPERTIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/1e12baf8-e1f4-4b46-ba08-58adf4f3012e">POLICYPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_policyproperties">POLICYPROPERTIES</a>
  
 
  

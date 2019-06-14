@@ -143,11 +143,11 @@ Close the handle returned from this function by calling <b>RegCloseKey</b>.
 
 
 
-<a href="https://msdn.microsoft.com/f315f5fa-eb67-4898-ac4e-acb92b8e9b3e">CM_Delete_Class_Key</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_delete_class_key">CM_Delete_Class_Key</a>
 
 
 
-<a href="https://msdn.microsoft.com/c931f906-8237-4203-b9b6-4dd54a93ca8b">SetupDiOpenClassRegKeyEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiopenclassregkeyexa">SetupDiOpenClassRegKeyEx</a>
  
 
  

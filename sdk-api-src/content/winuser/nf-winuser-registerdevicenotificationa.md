@@ -78,7 +78,7 @@ Services can specify either a window handle or service status handle.
 ### -param NotificationFilter [in]
 
 A pointer to a block of data that specifies the type of device for which notifications should be sent. This 
-      block always begins with the <a href="https://msdn.microsoft.com/4fc81fcb-b9fe-4016-b639-a43845af2c5f">DEV_BROADCAST_HDR</a> 
+      block always begins with the <a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-_dev_broadcast_hdr">DEV_BROADCAST_HDR</a> 
       structure. The data following this header is dependent on the value of the 
       <b>dbch_devicetype</b> member, which can be 
       <b>DBT_DEVTYP_DEVICEINTERFACE</b> or <b>DBT_DEVTYP_HANDLE</b>. For more 
@@ -152,7 +152,7 @@ This value can be used only if the <b>dbch_devicetype</b> member is
 If the function succeeds, the return value is a device notification handle.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, 
-       call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -162,9 +162,9 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 Applications send event notifications using the 
-    <a href="https://msdn.microsoft.com/en-us/library/ms644932(v=VS.85).aspx">BroadcastSystemMessage</a> function. Any 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-broadcastsystemmessage">BroadcastSystemMessage</a> function. Any 
     application with a top-level window can receive basic notifications by processing the 
-    <a href="https://msdn.microsoft.com/b64a3983-ee75-4199-9778-1e5b7cec59e4">WM_DEVICECHANGE</a> message. Applications can use the 
+    <a href="https://docs.microsoft.com/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a> message. Applications can use the 
     <b>RegisterDeviceNotification</b> function to 
     register to receive device notifications.
 
@@ -175,7 +175,7 @@ Services can use the
     <i>hRecipient</i> is a service status handle, 
     <b>SERVICE_CONTROL_DEVICEEVENT</b> notifications are sent to the service control handler. For 
     more information about the service control handler, see 
-    <a href="https://msdn.microsoft.com/bb1b863f-e29f-496f-a50e-9ea524fe8603">HandlerEx</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex">HandlerEx</a>.
 
 Be sure to handle Plug and Play device events as quickly as possible. Otherwise, the system may become 
     unresponsive. If your event handler is to perform an operation that may block execution (such as I/O), it is best 
@@ -184,11 +184,11 @@ Be sure to handle Plug and Play device events as quickly as possible. Otherwise,
 Device notification handles returned by 
     <b>RegisterDeviceNotification</b> must be closed 
     by calling the 
-    <a href="https://msdn.microsoft.com/bcc0cf87-f996-47b5-937c-14a6332d00d9">UnregisterDeviceNotification</a> function 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unregisterdevicenotification">UnregisterDeviceNotification</a> function 
     when they are no longer needed.
 
-The <a href="https://msdn.microsoft.com/8e44cb02-cf79-4b19-807e-20cea07362af">DBT_DEVICEARRIVAL</a> and 
-    <a href="https://msdn.microsoft.com/e25d35b9-f8f1-4850-996c-e1cb393cca66">DBT_DEVICEREMOVECOMPLETE</a> events are 
+The <a href="https://docs.microsoft.com/windows/desktop/DevIO/dbt-devicearrival">DBT_DEVICEARRIVAL</a> and 
+    <a href="https://docs.microsoft.com/windows/desktop/DevIO/dbt-deviceremovecomplete">DBT_DEVICEREMOVECOMPLETE</a> events are 
     automatically broadcast to all top-level windows for port devices. Therefore, it is not necessary to call 
     <b>RegisterDeviceNotification</b> for ports, and 
     the function fails if the <b>dbch_devicetype</b> member is 
@@ -201,7 +201,7 @@ The <a href="https://msdn.microsoft.com/8e44cb02-cf79-4b19-807e-20cea07362af">DB
 #### Examples
 
 For an example, see 
-     <a href="https://msdn.microsoft.com/f3a4477a-7b09-4943-8b06-f252f8f9fed8">Registering for Device Notification</a>.
+     <a href="https://docs.microsoft.com/windows/desktop/DevIO/registering-for-device-notification">Registering for Device Notification</a>.
 
 <div class="code"></div>
 
@@ -212,35 +212,35 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644932(v=VS.85).aspx">BroadcastSystemMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-broadcastsystemmessage">BroadcastSystemMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/4fc81fcb-b9fe-4016-b639-a43845af2c5f">DEV_BROADCAST_HDR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-_dev_broadcast_hdr">DEV_BROADCAST_HDR</a>
 
 
 
-<a href="https://msdn.microsoft.com/3918ba49-1549-4f0c-b9fd-303ef46b810e">Device Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/device-management-functions">Device Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/672ad753-210b-41c3-b8c7-e041ce7b1671">Device Notifications</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/device-notifications">Device Notifications</a>
 
 
 
-<a href="https://msdn.microsoft.com/bb1b863f-e29f-496f-a50e-9ea524fe8603">HandlerEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex">HandlerEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/82094d95-9af3-4222-9c5e-ce2df9bab5e3">RegisterDeviceNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa">RegisterDeviceNotification</a>
 
 
 
-<a href="https://msdn.microsoft.com/bcc0cf87-f996-47b5-937c-14a6332d00d9">UnregisterDeviceNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unregisterdevicenotification">UnregisterDeviceNotification</a>
 
 
 
-<a href="https://msdn.microsoft.com/b64a3983-ee75-4199-9778-1e5b7cec59e4">WM_DEVICECHANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a>
  
 
  

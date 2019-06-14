@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Enumerates the <a href="https://msdn.microsoft.com/cc0cbbc3-e342-483e-9c94-4ee43f4d588d">network interfaces</a> installed on a 
+Enumerates the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-interfaces">network interfaces</a> installed on a 
     cluster, returning one name with each call.
 
 
@@ -61,7 +61,7 @@ Enumerates the <a href="https://msdn.microsoft.com/cc0cbbc3-e342-483e-9c94-4ee43
 ### -param hNetInterfaceEnum [in]
 
 Handle to an existing enumeration object originally returned by the 
-       <a href="https://msdn.microsoft.com/fd300162-2472-4bd2-91d6-357397c4134c">ClusterNetInterfaceOpenEnum</a> function.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusternetinterfaceopenenum">ClusterNetInterfaceOpenEnum</a> function.
 
 
 ### -param dwIndex [in]

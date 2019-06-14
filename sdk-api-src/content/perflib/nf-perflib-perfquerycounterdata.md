@@ -150,7 +150,7 @@ The function successfully stored all of the requested performance counter values
  
 
 For other types of failures, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. 
 					
 
 
@@ -160,7 +160,7 @@ For other types of failures, the return value is a
 
 
 
-The information about the performance counter values is  written to the buffer that <i>pCounterBlock</i> specifies as a <a href="https://msdn.microsoft.com/0B30B30A-2B2D-43D8-B6DD-58C70D54EB58">PERF_DATA_HEADER</a> block, which consists <b>PERF_DATA_HEADER</b>structure followed by a sequence of <a href="https://msdn.microsoft.com/8C07E4BB-61CD-4A0F-8C23-86BE7DAA415F">PERF_COUNTER_HEADER</a> blocks.
+The information about the performance counter values is  written to the buffer that <i>pCounterBlock</i> specifies as a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_data_header">PERF_DATA_HEADER</a> block, which consists <b>PERF_DATA_HEADER</b>structure followed by a sequence of <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_header">PERF_COUNTER_HEADER</a> blocks.
 
 
 
@@ -170,11 +170,11 @@ The information about the performance counter values is  written to the buffer t
 
 
 
-<a href="https://msdn.microsoft.com/8C07E4BB-61CD-4A0F-8C23-86BE7DAA415F">PERF_COUNTER_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_header">PERF_COUNTER_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/0B30B30A-2B2D-43D8-B6DD-58C70D54EB58">PERF_DATA_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_data_header">PERF_DATA_HEADER</a>
  
 
  

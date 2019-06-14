@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SetProperty</b> method sets the specified value to the <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b7e4-82d4e54012b1">IAzApplicationGroup</a> object property  with the specified property ID.
+The <b>SetProperty</b> method sets the specified value to the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object property  with the specified property ID.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>SetProperty</b> method sets the specified value to the <a href="https://m
 
 ### -param lPropId [in]
 
-Property ID of the <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b7e4-82d4e54012b1">IAzApplicationGroup</a> object property  to set. The following table shows the possible values.
+Property ID of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object property  to set. The following table shows the possible values.
 
 <table>
 <tr>
@@ -73,7 +73,7 @@ Property ID of the <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b7e4-8
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/b2ef8988-b4de-423f-b727-f69a789b98cf">Description</a> property
+Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_description">Description</a> property
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/b2ef8988-b4de-423f
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/dc100895-4cfb-4e02-97bc-5c99bf26fbe2">Type</a> property
+Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_type">Type</a> property
 
 </td>
 </tr>
@@ -93,7 +93,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/dc100895-4cfb-4e02
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/963ee516-6dd5-419f-9186-578b7fe9c5bc">LdapQuery</a> property
+Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_ldapquery">LdapQuery</a> property
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/963ee516-6dd5-419f
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/a42fb625-d04e-4884-b644-2007f6dc52ba">Name</a> property
+Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_name">Name</a> property
 
 </td>
 </tr>
@@ -113,7 +113,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/a42fb625-d04e-4884
 
 ### -param varProp [in]
 
-Value to set to the <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b7e4-82d4e54012b1">IAzApplicationGroup</a> object property  specified by the <i>lPropId</i> parameter. The following table shows the type of data that must be used depending on the value of the <i>lPropId</i> parameter.
+Value to set to the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object property  specified by the <i>lPropId</i> parameter. The following table shows the type of data that must be used depending on the value of the <i>lPropId</i> parameter.
 
 <table>
 <tr>
@@ -188,7 +188,7 @@ Any other <b>HRESULT</b> value indicates that the operation failed.
 
 
 
-You must call the <a href="https://msdn.microsoft.com/51a855dd-4a90-4f7a-b32f-f91e3941655b">Submit</a> method to persist any changes made by this method.
+You must call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-submit">Submit</a> method to persist any changes made by this method.
 
 
 

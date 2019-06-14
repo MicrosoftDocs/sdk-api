@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Acts as the entry point for creating an <a href="https://msdn.microsoft.com/0F63C626-DB58-4952-BBB3-7E3901429C35">IPrintDocumentPackageTarget</a> object.
+Acts as the entry point for creating an <a href="https://docs.microsoft.com/windows/desktop/api/documenttarget/nn-documenttarget-iprintdocumentpackagetarget">IPrintDocumentPackageTarget</a> object.
 
 
 ## -parameters
@@ -98,11 +98,11 @@ If the <b>CreateDocumentPackageTargetForPrintJob</b> method completes successful
 
 
 
-<a href="https://msdn.microsoft.com/0F63C626-DB58-4952-BBB3-7E3901429C35">IPrintDocumentPackageTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/documenttarget/nn-documenttarget-iprintdocumentpackagetarget">IPrintDocumentPackageTarget</a>
 
 
 
-<a href="https://msdn.microsoft.com/631FBF5E-1DDF-49A9-8E1E-201BC6996EA5">IPrintDocumentPackageTargetFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/documenttarget/nn-documenttarget-iprintdocumentpackagetargetfactory">IPrintDocumentPackageTargetFactory</a>
  
 
  

@@ -58,7 +58,7 @@ The parent interface for location reports.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILocationReport</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ILocationReport</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILocationReport</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILocationReport</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>ILocationReport</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c75b2ce3-8c60-4e26-870f-2bec599ea3b8">GetSensorID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocationreport-getsensorid">GetSensorID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the ID of the sensor that generated the location report.
@@ -82,7 +82,7 @@ Retrieves the ID of the sensor that generated the location report.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3573b2e7-fa76-4819-894d-d1215dc625bc">GetTimestamp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocationreport-gettimestamp">GetTimestamp</a>
 </td>
 <td align="left" width="63%">
 Retrieves the date and time when the report was generated.
@@ -91,7 +91,7 @@ Retrieves the date and time when the report was generated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a4bc1cc8-e246-4740-8290-afc8cd6def09">GetValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocationreport-getvalue">GetValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves a property value from the location report.

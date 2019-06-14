@@ -109,7 +109,7 @@ Enumerate domains that are at the root of the forest which has <i>ServerName</i>
 
 ### -param Domains [out]
 
-Pointer to a <b>PDS_DOMAIN_TRUSTS</b> value that receives an array of <a href="https://msdn.microsoft.com/cd260fd1-dc38-4405-95ba-097a23faf668">DS_DOMAIN_TRUSTS</a> structures. Each structure in this array contains trust data about a domain. The caller must free this memory when it is no longer required by calling <a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a>.
+Pointer to a <b>PDS_DOMAIN_TRUSTS</b> value that receives an array of <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/ns-dsgetdc-_ds_domain_trustsa">DS_DOMAIN_TRUSTS</a> structures. Each structure in this array contains trust data about a domain. The caller must free this memory when it is no longer required by calling <a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a>.
 
 
 ### -param DomainCount [out]
@@ -161,16 +161,16 @@ Returns <b>ERROR_SUCCESS</b> if successful or a Win32 error code otherwise. Poss
 
 
 
-<a href="https://msdn.microsoft.com/cd260fd1-dc38-4405-95ba-097a23faf668">DS_DOMAIN_TRUSTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/ns-dsgetdc-_ds_domain_trustsa">DS_DOMAIN_TRUSTS</a>
 
 
 
-<a href="https://msdn.microsoft.com/7b519c81-5a6c-470a-a525-1894efd53305">Directory Service
+<a href="https://docs.microsoft.com/windows/desktop/AD/directory-service-functions">Directory Service
     Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Specifies the macroblock scan pattern. This enumeration is used with the <a href="https://msdn.microsoft.com/34d7a2c8-8ac3-4900-9dd9-a7bb7e19b911">AVEncMPVScanPattern</a> property.
+Specifies the macroblock scan pattern. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencmpvscanpattern-property">AVEncMPVScanPattern</a> property.
 
 
 
@@ -80,11 +80,11 @@ Alternate-vertical scan.
 
 
 
-<a href="https://msdn.microsoft.com/5d6e48cb-d181-448e-a96e-e5ab500427d7">Codec API Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
  
 
  

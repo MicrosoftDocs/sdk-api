@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a <b>Metafile::Metafile</b> object for recording to an <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream</a> interface.
+Creates a <b>Metafile::Metafile</b> object for recording to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface.
 
 
 ## -parameters
@@ -60,9 +60,9 @@ Creates a <b>Metafile::Metafile</b> object for recording to an <a href="https://
 
 ### -param stream [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
-Pointer to a COM <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream</a> interface that points to a stream of data in a file. When the commands are recorded, they will be saved to this stream. 
+Pointer to a COM <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface that points to a stream of data in a file. When the commands are recorded, they will be saved to this stream. 
 
 
 ### -param referenceHdc [in]
@@ -74,9 +74,9 @@ Windows handle to a device context that contains attributes of the display devic
 
 ### -param type [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534115(v=VS.85).aspx">EmfType</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-emftype">EmfType</a></b>
 
-Optional. Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534115(v=VS.85).aspx">EmfType</a> enumeration that specifies the type of metafile that will be recorded. The default value is <a href="https://msdn.microsoft.com/en-us/library/ms534115(v=VS.85).aspx">EmfTypeEmfPlusDual</a>. 
+Optional. Element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-emftype">EmfType</a> enumeration that specifies the type of metafile that will be recorded. The default value is <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-emftype">EmfTypeEmfPlusDual</a>. 
 
 
 ### -param description [in]
@@ -100,23 +100,23 @@ When recording to a file, the file must be writable, and Windows GDI+ must be ab
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534115(v=VS.85).aspx">EmfType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-emftype">EmfType</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533831(v=VS.85).aspx">Loading and Displaying Metafiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-loading-and-displaying-metafiles-use">Loading and Displaying Metafiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534477(v=VS.85).aspx">Metafile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536391(v=VS.85).aspx">Metafiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-metafiles-about">Metafiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533833(v=VS.85).aspx">Recording Metafiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-recording-metafiles-use">Recording Metafiles</a>
  
 
  

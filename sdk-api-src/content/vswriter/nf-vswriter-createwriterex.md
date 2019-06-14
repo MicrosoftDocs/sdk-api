@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-This function is reserved for system use. Do not use this function directly. To create a VSS writer, extend the <a href="https://msdn.microsoft.com/29820c1d-2add-402d-a9ca-9e8674d85f7f">CVssWriterEx</a> class. The <b>CVssWriterEx</b> base class implicitly calls <b>CreateWriterEx</b>.
+This function is reserved for system use. Do not use this function directly. To create a VSS writer, extend the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex">CVssWriterEx</a> class. The <b>CVssWriterEx</b> base class implicitly calls <b>CreateWriterEx</b>.
 
 
 ## -parameters
@@ -83,7 +83,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/29820c1d-2add-402d-a9ca-9e8674d85f7f">CVssWriterEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex">CVssWriterEx</a>
  
 
  

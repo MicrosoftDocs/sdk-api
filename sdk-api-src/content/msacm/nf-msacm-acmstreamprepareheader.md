@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>acmStreamPrepareHeader</b> function prepares an <a href="https://msdn.microsoft.com/723e96d8-f098-4e08-862a-a9fea8d2fbe3">ACMSTREAMHEADER</a> structure for an ACM stream conversion. This function must be called for every stream header before it can be used in a conversion stream. An application needs to prepare a stream header only once for the life of a given stream. The stream header can be reused as long as the sizes of the source and destination buffers do not exceed the sizes used when the stream header was originally prepared.
+The <b>acmStreamPrepareHeader</b> function prepares an <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmstreamheader">ACMSTREAMHEADER</a> structure for an ACM stream conversion. This function must be called for every stream header before it can be used in a conversion stream. An application needs to prepare a stream header only once for the life of a given stream. The stream header can be reused as long as the sizes of the source and destination buffers do not exceed the sizes used when the stream header was originally prepared.
 
 
 
@@ -68,7 +68,7 @@ Handle to the conversion steam.
 
 ### -param pash
 
-Pointer to an <a href="https://msdn.microsoft.com/723e96d8-f098-4e08-862a-a9fea8d2fbe3">ACMSTREAMHEADER</a> structure that identifies the source and destination buffers to be prepared.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmstreamheader">ACMSTREAMHEADER</a> structure that identifies the source and destination buffers to be prepared.
 
 
 ### -param fdwPrepare
@@ -151,11 +151,11 @@ Preparing a stream header that has already been prepared has no effect, and the 
 
 
 
-<a href="https://msdn.microsoft.com/da207a50-9c67-4cf3-920b-5878637060db">Audio Compression Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f9a4540-86c0-40e6-b4da-24a9d31b56bf">Audio Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
  
 
  

@@ -61,7 +61,7 @@ Gets a random number that can be used to refresh the session key.
 
 ### -param pCryptoSession [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/E17F39CB-61E3-44EF-805D-AD386743744E">ID3D11CryptoSession</a> interface.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11cryptosession">ID3D11CryptoSession</a> interface.
 
 
 ### -param RandomNumberSize [in]
@@ -87,9 +87,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To generate a new session key, perform a bitwise <b>XOR</b> between the previous session key and the random number. The new session key does not take affect until the application calls <a href="https://msdn.microsoft.com/2F602A5E-B5D1-4749-8696-9F0594770B4F">ID3D11VideoContext::FinishSessionKeyRefresh</a>.
+To generate a new session key, perform a bitwise <b>XOR</b> between the previous session key and the random number. The new session key does not take affect until the application calls <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-finishsessionkeyrefresh">ID3D11VideoContext::FinishSessionKeyRefresh</a>.
 
-To query whether the driver supports this method, call <a href="https://msdn.microsoft.com/3BF2D2B9-6A12-4E71-9F52-829BABA32EF6">ID3D11VideoDevice::GetContentProtectionCaps</a> and check for the <b>D3D11_CONTENT_PROTECTION_CAPS_FRESHEN_SESSION_KEY</b> capabilities flag.
+To query whether the driver supports this method, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-getcontentprotectioncaps">ID3D11VideoDevice::GetContentProtectionCaps</a> and check for the <b>D3D11_CONTENT_PROTECTION_CAPS_FRESHEN_SESSION_KEY</b> capabilities flag.
 
 
 
@@ -99,7 +99,7 @@ To query whether the driver supports this method, call <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/6EF09C31-56C7-46B5-87AE-B1FE43EC66FC">ID3D11VideoContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a>
  
 
  

@@ -53,7 +53,7 @@ Initializes a new instance of the <code>XMFLOAT4X3</code> structure from a twelv
 	<code>float</code> array.
     
 
-Initializes a new instance of the <a href="https://msdn.microsoft.com/en-us/library/Ee419611(v=VS.85).aspx">XMFLOAT4X3</a> structure from a
+Initializes a new instance of the <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3">XMFLOAT4X3</a> structure from a
 	twelve element <code>float</code> array.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
@@ -66,7 +66,7 @@ Initializes a new instance of the <a href="https://msdn.microsoft.com/en-us/libr
 ### -param pArray
 
 Address of a 12 element <code>float</code> array, specifying the value of each member
-		of a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee419611(v=VS.85).aspx">XMFLOAT4X3</a>.
+		of a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3">XMFLOAT4X3</a>.
 	    
 
 
@@ -132,11 +132,11 @@ Or
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419611(v=VS.85).aspx">XMFLOAT4X3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3">XMFLOAT4X3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415297(v=VS.85).aspx">XMFLOAT4X3 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmfloat4x3-ctor">XMFLOAT4X3 Constructors</a>
  
 
  

@@ -76,7 +76,7 @@ If the method skips the number of items requested, the return value is S_OK. Oth
 
 
 
-<a href="https://msdn.microsoft.com/8e2f6655-4a09-4868-a909-18999104b3ff">IEnumSTATDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstatdata">IEnumSTATDATA</a>
  
 
  

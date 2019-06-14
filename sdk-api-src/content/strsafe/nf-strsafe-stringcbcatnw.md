@@ -57,7 +57,7 @@ Concatenates the specified number of bytes from one  string to another string. T
 <ul>
 <li><a href="http://go.microsoft.com/fwlink/p/?linkid=192505">strncat</a></li>
 <li>
-<a href="https://msdn.microsoft.com/28099350-5759-4595-8353-3452c5cf6ca8">StrNCat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strncata">StrNCat</a>
 </li>
 </ul>
 
@@ -100,7 +100,7 @@ The maximum number of bytes to be appended to <i>pszDest</i>.
 
 Type: <b>HRESULT</b>
 
-This function can return one of the following values. It is strongly recommended that you use the <a href="https://msdn.microsoft.com/7a258b0b-d214-46c5-be0a-6493cd14a0e5">SUCCEEDED</a> and <a href="https://msdn.microsoft.com/d9c4ff73-c255-4a82-b901-23bd5b41ee6c">FAILED</a> macros to test the return value of this function.
+This function can return one of the following values. It is strongly recommended that you use the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros to test the return value of this function.
 
 <table>
 <tr>
@@ -156,7 +156,7 @@ Compared to  the functions it replaces, <b>StringCbCatN</b> provides additional 
 
 Behavior is undefined if the strings pointed to by <i>pszSrc</i> and <i>pszDest</i> overlap.
 
-Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="https://msdn.microsoft.com/en-us/library/ms647498(v=VS.85).aspx">StringCbCatNEx</a> if you require the handling of null string pointer values.
+Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcatnexa">StringCbCatNEx</a> if you require the handling of null string pointer values.
 
 <b>StringCbCatN</b> can be used in its generic form, or in its more specific forms. The data type of the string determines the form of this function that you should use.
 
@@ -196,15 +196,15 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647495(v=VS.85).aspx">StringCbCat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcata">StringCbCat</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647498(v=VS.85).aspx">StringCbCatNEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcatnexa">StringCbCatNEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647522(v=VS.85).aspx">StringCchCatN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcatna">StringCchCatN</a>
  
 
  

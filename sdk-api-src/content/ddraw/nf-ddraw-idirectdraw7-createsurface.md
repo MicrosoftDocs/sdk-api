@@ -60,12 +60,12 @@ Creates a DirectDrawSurface object for this DirectDraw object.
 
 ### -param arg1 [in]
 
-Address of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550340">DDSURFACEDESC2</a> structure that describes the requested surface. Set any unused members of the <b>DDSURFACEDESC2</b> structure to 0 before calling this method. A <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff550292(v=vs.85).aspx">DDSCAPS2</a> structure is a member of <b>DDSURFACEDESC2</b>.
+Address of a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550340(v=vs.85)">DDSURFACEDESC2</a> structure that describes the requested surface. Set any unused members of the <b>DDSURFACEDESC2</b> structure to 0 before calling this method. A <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550292(v=vs.85)">DDSCAPS2</a> structure is a member of <b>DDSURFACEDESC2</b>.
 
 
 ### -param arg2 [out]
 
-Address of a variable to be set to a valid <a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f764ad29756">IDirectDrawSurface7</a> interface pointer if the call succeeds.
+Address of a variable to be set to a valid <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a> interface pointer if the call succeeds.
 
 
 ### -param arg3 [in]
@@ -110,7 +110,7 @@ If it fails, the method can return one of the following error values:
 
 
 
-You must use <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> to access the <b>CreateSurface</b> method.
+You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>CreateSurface</b> method.
 
 
 
@@ -120,7 +120,7 @@ You must use <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d
 
 
 
-<a href="https://msdn.microsoft.com/1a1164fe-00c2-4469-8346-f86f7f48781e">IDirectDraw7</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a>
  
 
  

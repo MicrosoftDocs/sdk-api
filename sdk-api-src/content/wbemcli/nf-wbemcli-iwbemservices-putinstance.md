@@ -104,7 +104,7 @@ This flag is used for creation only. The call fails if the instance already exis
 #### WBEM_FLAG_RETURN_IMMEDIATELY
 
 This flag causes this to be a semisynchronous call. For more information, see 
-<a href="https://msdn.microsoft.com/7a1eda93-014e-4067-b6d0-361a3d2fd1df">Calling a Method</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
 
 
 
@@ -116,18 +116,18 @@ If this flag is set, WMI does not store any qualifiers with the <b>Amended</b> f
 ### -param pCtx [in]
 
 Typically <b>NULL</b>, indicating that every property in the instance is to be updated. Otherwise, this is a pointer to an 
-<a href="https://msdn.microsoft.com/458bd455-6984-414b-a0b7-62887d9dad7c">IWbemContext</a> object containing more information about the instance. The data in the context object must be documented by the provider responsible for the instance. A non-<b>NULL</b><b>IWbemContext</b> object can indicate whether support exists for partial-instance updates.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> object containing more information about the instance. The data in the context object must be documented by the provider responsible for the instance. A non-<b>NULL</b><b>IWbemContext</b> object can indicate whether support exists for partial-instance updates.
 
 For more information about how to support full and partial-instance updates, see 
-<a href="https://msdn.microsoft.com/fef3eb72-74ba-49cd-b992-292405d29917">IWbemServices::PutInstanceAsync</a>. For more information about requesting a full or partial-instance update operation, see 
-<a href="https://msdn.microsoft.com/c0041274-5fcd-4108-961f-aeda6cb5fce8">Modifying an Instance Property</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putinstanceasync">IWbemServices::PutInstanceAsync</a>. For more information about requesting a full or partial-instance update operation, see 
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/modifying-an-instance-property">Modifying an Instance Property</a>.
 
 
 ### -param ppCallResult [out]
 
 If <b>NULL</b>, this parameter is not used. If the <i>lFlags</i> parameter contains <b>WBEM_FLAG_RETURN_IMMEDIATELY</b>, this call returns immediately with <b>WBEM_S_NO_ERROR</b>. The <i>ppCallResult</i> parameter then receives a pointer to a new 
-<a href="https://msdn.microsoft.com/f0aa0233-3b9b-4757-bfdc-26d9fd556ce9">IWbemCallResult</a> object, which can be polled with 
-<a href="https://msdn.microsoft.com/5a600fd8-87d8-446d-93da-5b22fd575a11">IWbemCallResult::GetCallStatus</a> to obtain the result.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcallresult">IWbemCallResult</a> object, which can be polled with 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcallresult-getcallstatus">IWbemCallResult::GetCallStatus</a> to obtain the result.
 
 
 ## -returns
@@ -147,12 +147,12 @@ COM-specific error codes also may be returned if network problems cause you to l
 
 Applications and providers call 
 <b>PutInstance</b> to create or update an instance of an existing class. Depending on how the <i>pCtx</i> parameter is set, either some or all of the properties of the instance are updated. For more information about how to support partial instance updating, see 
-<a href="https://msdn.microsoft.com/fef3eb72-74ba-49cd-b992-292405d29917">IWbemServices::PutInstanceAsync</a>. For more information about requesting a partial instance update, see 
-<a href="https://msdn.microsoft.com/c0041274-5fcd-4108-961f-aeda6cb5fce8">Modifying an Instance Property</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putinstanceasync">IWbemServices::PutInstanceAsync</a>. For more information about requesting a partial instance update, see 
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/modifying-an-instance-property">Modifying an Instance Property</a>.
 
 The 
 <b>PutInstance</b> method supports creating instances and updating instances only. It does not support moving instances. That is, a caller cannot set the <i>pInst</i> parameter to an instance that has a key that is the same as another instance in a sibling class. For example, suppose <b>ClassA</b> is the base class to <b>ClassB</b> and <b>ClassC</b>. The <b>ClassA</b> class defines the <b>KeyProp</b> property as its key and <b>ClassB</b> has an instance that has <b>KeyProp</b> set to 1. To create an instance of <b>ClassC</b> with <b>KeyProp</b> set to 1, an application must first delete the <b>ClassB</b> instance by calling 
-<a href="https://msdn.microsoft.com/f6dfeb1d-1730-4df4-adf7-f27dd9edc54d">DeleteInstance</a> and then save the <b>ClassC</b> instance with 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-deleteinstance">DeleteInstance</a> and then save the <b>ClassC</b> instance with 
 <b>PutInstance</b>.
 
 When the instance pointed to by <i>pInst</i> belongs to a subclass, Windows Management calls all of the providers responsible for the classes from which the subclass derives. All of these providers must succeed for the original 
@@ -174,23 +174,23 @@ Calling
 
 
 
-<a href="https://msdn.microsoft.com/62df8f0f-d2aa-4f8a-998a-388894a52ce9">Creating an Instance</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/creating-an-instance">Creating an Instance</a>
 
 
 
-<a href="https://msdn.microsoft.com/f0aa0233-3b9b-4757-bfdc-26d9fd556ce9">IWbemCallResult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcallresult">IWbemCallResult</a>
 
 
 
-<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a>
 
 
 
-<a href="https://msdn.microsoft.com/fef3eb72-74ba-49cd-b992-292405d29917">IWbemServices::PutInstanceAsync</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putinstanceasync">IWbemServices::PutInstanceAsync</a>
 
 
 
-<a href="https://msdn.microsoft.com/f54b8e7c-c531-47d5-bab8-780652b94555">Retrieving an Error Code</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-an-error-code">Retrieving an Error Code</a>
  
 
  

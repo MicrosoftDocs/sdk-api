@@ -91,15 +91,15 @@ Default. Ink is collected and single-stroke gestures are accepted.
 
 
 
-<a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit Control Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit Control Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/26023012-9ab1-4bd9-beff-41587bc74f5e">InkEdit Messages</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-messages--win32-only-">InkEdit Messages</a>
 
 
 
-<a href="https://msdn.microsoft.com/0e395907-108b-40cf-819b-65a34e4ffc4d">InkEdit::InkMode Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-get_inkmode">InkEdit::InkMode Property</a>
  
 
  

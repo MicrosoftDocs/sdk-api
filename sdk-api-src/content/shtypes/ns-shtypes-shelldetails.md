@@ -74,7 +74,7 @@ Text is centered.
 #### LVCFMT_COL_HAS_IMAGES
 
 
-<a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Version 4.70</a>. Header item contains an image in the image list.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 4.70</a>. Header item contains an image in the image list.
 
 
 
@@ -102,9 +102,9 @@ The number of average-sized characters in the header.
 
 ### -field str
 
-Type: <b><a href="https://msdn.microsoft.com/7868ef9b-07db-455b-b0be-ef0db7891447">STRRET</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_strret">STRRET</a></b>
 
-An <a href="https://msdn.microsoft.com/7868ef9b-07db-455b-b0be-ef0db7891447">STRRET</a> structure that includes a string with the requested information. To convert this structure to a string, use <a href="https://msdn.microsoft.com/89dab3ee-e9f8-499a-97ec-6fe732315891">StrRetToBuf</a> or <a href="https://msdn.microsoft.com/03b0dffb-8ef7-41da-9773-81ed55275802">StrRetToStr</a>.
+An <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_strret">STRRET</a> structure that includes a string with the requested information. To convert this structure to a string, use <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strrettobufa">StrRetToBuf</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strrettostra">StrRetToStr</a>.
 
 
 ## -see-also
@@ -112,7 +112,7 @@ An <a href="https://msdn.microsoft.com/7868ef9b-07db-455b-b0be-ef0db7891447">STR
 
 
 
-<a href="https://msdn.microsoft.com/5442dc80-9ecf-4e47-a84d-6da4327696ef">IShellDetails::GetDetailsOf</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishelldetails-getdetailsof">IShellDetails::GetDetailsOf</a>
  
 
  

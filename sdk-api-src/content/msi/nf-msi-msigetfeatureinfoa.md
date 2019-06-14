@@ -63,7 +63,7 @@ The
 ### -param hProduct [in]
 
 Handle to the product that owns the feature. This handle is obtained from 
-<a href="https://msdn.microsoft.com/fdc5a2f5-c44a-4cb3-b206-a598bd60024b">MsiOpenProduct</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
 
 
 ### -param szFeature [in]
@@ -102,12 +102,12 @@ Pointer to a location containing one or more of the following Attribute flags.
 #### INSTALLFEATUREATTRIBUTE_NOUNSUPPORTEDADVERTISE (32)
 
 For more information, see  
-<a href="https://msdn.microsoft.com/1faee1d5-6e39-43ea-bf92-a0b3986a13a1">Feature Table</a>. The values that <b>MsiGetFeatureInfo</b> returns are double the values in the Attributes column of the Feature Table.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/feature-table">Feature Table</a>. The values that <b>MsiGetFeatureInfo</b> returns are double the values in the Attributes column of the Feature Table.
 
 
 ### -param lpTitleBuf [out, optional]
 
-Pointer to a buffer to receive the localized name of the feature, which corresponds to the Title field in the <a href="https://msdn.microsoft.com/1faee1d5-6e39-43ea-bf92-a0b3986a13a1">Feature Table</a>.
+Pointer to a buffer to receive the localized name of the feature, which corresponds to the Title field in the <a href="https://docs.microsoft.com/windows/desktop/Msi/feature-table">Feature Table</a>.
 
 This parameter is optional and can be null.
 
@@ -119,7 +119,7 @@ As input, the size of <i>lpTitleBuf</i>. As output, the number of characters ret
 
 ### -param lpHelpBuf [out, optional]
 
-Pointer to a buffer to receive the localized description of the feature, which corresponds to the Description field for the feature in the  <a href="https://msdn.microsoft.com/1faee1d5-6e39-43ea-bf92-a0b3986a13a1">Feature table</a>.
+Pointer to a buffer to receive the localized description of the feature, which corresponds to the Description field for the feature in the  <a href="https://docs.microsoft.com/windows/desktop/Msi/feature-table">Feature table</a>.
 This parameter is optional and can be null.
 
 
@@ -204,7 +204,7 @@ The feature is not known.
 
 The buffer sizes for the 
 <b>MsiGetFeatureInfo</b> function should include an extra character for the terminating null character. If a buffer is too small, the returned string is truncated with null, and the buffer size contains the number of characters in the whole string, not including the terminating null character. For more information, see 
-<a href="https://msdn.microsoft.com/b9795825-41fa-474b-a0c5-06770aa99bc1">Calling Database Functions From Programs</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/calling-database-functions-from-programs">Calling Database Functions From Programs</a>.
 
 
 
@@ -214,7 +214,7 @@ The buffer sizes for the
 
 
 
-<a href="https://msdn.microsoft.com/05a16915-6b47-4d51-b62a-5a4d92b87e50">Product Query Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Product Query Functions</a>
  
 
  

@@ -69,7 +69,7 @@ The number of channels that are specified by the <i>IpInfo</i> parameter.
 
 ### -field IpInfo
 
-An array of <a href="https://msdn.microsoft.com/9631BDB9-6B7C-4BFF-9654-20C77F851A22">CLUS_NETNAME_IP_INFO_ENTRY</a> structures that specify the IP info for each channel.
+An array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_netname_ip_info_entry">CLUS_NETNAME_IP_INFO_ENTRY</a> structures that specify the IP info for each channel.
 
 
 ## -see-also
@@ -77,7 +77,7 @@ An array of <a href="https://msdn.microsoft.com/9631BDB9-6B7C-4BFF-9654-20C77F85
 
 
 
-<a href="https://msdn.microsoft.com/45da8dbc-dd70-4f95-b933-66d8e4340448">Utility structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>
  
 
  

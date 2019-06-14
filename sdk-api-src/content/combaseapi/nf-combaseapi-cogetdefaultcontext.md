@@ -117,7 +117,7 @@ The main single-threaded apartment for the current process.
 </table>
  
 
-The <a href="https://msdn.microsoft.com/eae95b1f-3883-4334-aa7e-84e71e05fb24">APTTYPE</a> value APTTYPE_STA (0) is not supported. A process can contain multiple single-threaded apartments, each with its own context, so <b>CoGetDefaultContext</b> could not determine which STA is of interest. Therefore, this function returns E_INVALIDARG if APTTYPE_STA is specified.
+The <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-_apttype">APTTYPE</a> value APTTYPE_STA (0) is not supported. A process can contain multiple single-threaded apartments, each with its own context, so <b>CoGetDefaultContext</b> could not determine which STA is of interest. Therefore, this function returns E_INVALIDARG if APTTYPE_STA is specified.
 
 
 ### -param riid [in]
@@ -127,7 +127,7 @@ The interface identifier (IID) of the interface that is being requested on the d
 
 ### -param ppv [out]
 
-A reference to the interface specified by riid on the default context. If the object's component is non-configured, (that is, the object's component has not been imported into a COM+ application), or if the <b>CoGetDefaultContext</b> function is called from a constructor or an <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> method, this parameter is set to a <b>NULL</b> pointer.
+A reference to the interface specified by riid on the default context. If the object's component is non-configured, (that is, the object's component has not been imported into a COM+ application), or if the <b>CoGetDefaultContext</b> function is called from a constructor or an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> method, this parameter is set to a <b>NULL</b> pointer.
 
 
 ## -returns
@@ -199,9 +199,9 @@ Every COM apartment has a special context called the default context. A default 
 
 The default context is also used by instances of non-configured COM components, (that is, components that have not been part of a COM+ application), when they are created from an apartment that does not support their threading model. In other words, if a COM object creates an instance of a non-configured component and the new object cannot be added to its creator's context because of its threading model, the new object is instead added to the default context of an apartment that supports its threading model.
 
-An object should never pass an <a href="https://msdn.microsoft.com/9395bc9a-dfe5-428a-839f-1c4ad090f636">IObjectContext</a> reference to another object. If you pass an <b>IObjectContext</b> reference to another object, it is no longer a valid reference.
+An object should never pass an <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontext">IObjectContext</a> reference to another object. If you pass an <b>IObjectContext</b> reference to another object, it is no longer a valid reference.
 
-When an object obtains a reference to an <a href="https://msdn.microsoft.com/9395bc9a-dfe5-428a-839f-1c4ad090f636">IObjectContext</a>, it must release the <b>IObjectContext</b> object when it is finished with it.
+When an object obtains a reference to an <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontext">IObjectContext</a>, it must release the <b>IObjectContext</b> object when it is finished with it.
 
 
 
@@ -211,7 +211,7 @@ When an object obtains a reference to an <a href="https://msdn.microsoft.com/939
 
 
 
-<a href="https://msdn.microsoft.com/50ccf75e-2652-4254-a771-af83cc9248b3">COM+ Contexts and Threading Models</a>
+<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--contexts-and-threading-models">COM+ Contexts and Threading Models</a>
  
 
  

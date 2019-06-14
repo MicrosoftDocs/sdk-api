@@ -79,13 +79,13 @@ Indicates that the scope statistics are to be optained.
 
 
 
-This enumeration is used in the <a href="https://msdn.microsoft.com/en-us/library/Dd318753(v=VS.85).aspx">IRowsetEvents::OnRowsetEvent</a> method to describe the type of event that affects a rowset.
+This enumeration is used in the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-irowsetevents-onrowsetevent">IRowsetEvents::OnRowsetEvent</a> method to describe the type of event that affects a rowset.
 
-The <b>ROWSETEVENT_TYPE_SCOPESTATISTICS</b> event gives you the same information available from the <a href="https://msdn.microsoft.com/en-us/library/Dd318746(v=VS.85).aspx">IRowsetPrioritization::GetScopeStatistics</a> method call, but through a push mechanic, as follows: 
+The <b>ROWSETEVENT_TYPE_SCOPESTATISTICS</b> event gives you the same information available from the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-irowsetprioritization-getscopestatistics">IRowsetPrioritization::GetScopeStatistics</a> method call, but through a push mechanic, as follows: 
 
 <ul>
 <li>The event arises if the prioritization API has been used to request a non-default prioritization level, and a non-zero statistics event frequency.  </li>
-<li>The event arises only when statistics actually change, and the interval specified in the <a href="https://msdn.microsoft.com/en-us/library/Dd318747(v=VS.85).aspx">IRowsetPrioritization</a> has elapsed (the interval does not guarantee the frequency of the event).</li>
+<li>The event arises only when statistics actually change, and the interval specified in the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-irowsetprioritization">IRowsetPrioritization</a> has elapsed (the interval does not guarantee the frequency of the event).</li>
 <li>This event is guaranteed to raise a "bounce zero" state (zero items remaining to be added, zero modifies remaining), provided that a non-zero event has been raised.</li>
 <li>The indexer may process items without sending this event, if the queue empties before the statistics event frequency.</li>
 </ul>
@@ -103,27 +103,27 @@ The SearchEvents code sample, available on <a href="http://go.microsoft.com/fwli
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd318747(v=VS.85).aspx">IRowsetPrioritization</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-irowsetprioritization">IRowsetPrioritization</a>
 
 
 
-<a href="https://msdn.microsoft.com/6cdfb7d3-f849-432c-960f-912e5024c583">Indexing Prioritization and Rowset Events in Windows 7</a>
+<a href="https://docs.microsoft.com/windows/desktop/search/indexing-prioritization-and-rowset-events">Indexing Prioritization and Rowset Events in Windows 7</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb288457(v=VS.85).aspx">Notifications Process (Windows Search)</a>
+<a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-support">Notifications Process (Windows Search)</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Cc142933(v=VS.85).aspx">PRIORITIZE_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-tagprioritize_flags">PRIORITIZE_FLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd797839(v=VS.85).aspx">PRIORITY_LEVEL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0022_0001">PRIORITY_LEVEL</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd368861(v=VS.85).aspx">ROWSETEVENT_ITEMSTATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0023_0001">ROWSETEVENT_ITEMSTATE</a>
 
 
 
@@ -131,7 +131,7 @@ The SearchEvents code sample, available on <a href="http://go.microsoft.com/fwli
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Cc465173(v=VS.85).aspx">Rowset Properties</a>
+<a href="https://docs.microsoft.com/windows/desktop/search/-search-sql-rowset-properties">Rowset Properties</a>
  
 
  

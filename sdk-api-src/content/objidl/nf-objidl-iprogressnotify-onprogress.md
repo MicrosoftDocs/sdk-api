@@ -158,7 +158,7 @@ Any one of the sinks can relinquish control to the next connection point by retu
 
 
 
-<a href="https://msdn.microsoft.com/3f90437d-df8f-42b2-af81-519bfb9577b1">IProgressNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iprogressnotify">IProgressNotify</a>
  
 
  

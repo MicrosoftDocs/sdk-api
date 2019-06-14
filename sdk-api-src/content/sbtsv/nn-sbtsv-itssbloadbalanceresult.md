@@ -59,7 +59,7 @@ Remote Desktop Connection Broker (RD Connection Broker) and plug-ins can use th
 
 
 
-<a href="https://msdn.microsoft.com/150a3c9a-d504-4854-adaa-92e3a7e8ea70">Remote Desktop Virtualization Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>
  
 
  

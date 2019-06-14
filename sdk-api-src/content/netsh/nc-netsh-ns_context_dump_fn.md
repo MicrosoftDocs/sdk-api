@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>NS_CONTEXT_DUMP_FN</b> command 
     is the dump function for helpers. The dump function is used to print comments, and is 
-    registered in the <a href="https://msdn.microsoft.com/52cebe62-d4b6-4229-8418-c0ae9849822b">RegisterContext</a> function. The 
+    registered in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-registercontext">RegisterContext</a> function. The 
     following is an example of a dump function. Be aware that <b>SampleDump</b> is a 
     placeholder for the application-defined function name.
 
@@ -108,11 +108,11 @@ When the dump function is called, helpers should print any comments, localized, 
 
 
 
-<a href="https://msdn.microsoft.com/b2a3ae40-4aaa-41b2-965c-1467a07ab2de">NS_HELPER_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/ns-netsh-_ns_helper_attributes">NS_HELPER_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/52cebe62-d4b6-4229-8418-c0ae9849822b">RegisterContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-registercontext">RegisterContext</a>
  
 
  

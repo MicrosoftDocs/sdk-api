@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Initializes an <a href="https://msdn.microsoft.com/06993217-2867-43f2-aa76-04b500bf8c17">IColumnProvider</a> interface.
+Initializes an <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-icolumnprovider">IColumnProvider</a> interface.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Initializes an <a href="https://msdn.microsoft.com/06993217-2867-43f2-aa76-04b50
 
 Type: <b>LPCSHCOLUMNINIT</b>
 
-An <a href="https://msdn.microsoft.com/eebe47c8-b3ee-4316-b578-5404ed8f7920">SHCOLUMNINIT</a> structure with initialization information, including the folder whose contents are to be displayed.
+An <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/ns-shlobj-shcolumninit">SHCOLUMNINIT</a> structure with initialization information, including the folder whose contents are to be displayed.
 
 
 ## -returns

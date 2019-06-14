@@ -165,7 +165,7 @@ You must fill in the CLSID of the object at a minimum. <i>lpwFormat</i> may be l
 
 
 
-<a href="https://msdn.microsoft.com/508dccb3-e98b-4f62-8bc3-98ca2b0d1349">IOleUIObjInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nn-oledlg-ioleuiobjinfoa">IOleUIObjInfo</a>
  
 
  

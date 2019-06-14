@@ -48,10 +48,10 @@ req.redist:
 ## -description
 
 
-Formats a specified, contiguous set of tracks on a floppy disk. To provide additional parameters, use <a href="https://msdn.microsoft.com/50ca069e-efc5-46d8-bf8f-ff44e1593a76">IOCTL_DISK_FORMAT_TRACKS_EX</a>instead.
+Formats a specified, contiguous set of tracks on a floppy disk. To provide additional parameters, use <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_format_tracks_ex">IOCTL_DISK_FORMAT_TRACKS_EX</a>instead.
 
 To perform this operation, call the 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -148,19 +148,19 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/488a7d32-cbb5-4f32-9655-0aca8ac69640">Disk Management Control Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes">Disk Management Control Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/81fcfd8e-abb9-4c0b-b23d-302aa3645a6f">FORMAT_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_format_parameters">FORMAT_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/50ca069e-efc5-46d8-bf8f-ff44e1593a76">IOCTL_DISK_FORMAT_TRACKS_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_format_tracks_ex">IOCTL_DISK_FORMAT_TRACKS_EX</a>
  
 
  

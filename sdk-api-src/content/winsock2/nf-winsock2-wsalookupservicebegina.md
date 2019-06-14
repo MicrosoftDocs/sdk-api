@@ -53,9 +53,9 @@ ms.custom: 19H1
 
 The 
 <b>WSALookupServiceBegin</b> function initiates a client query that is constrained by the information contained within a 
-<a href="https://msdn.microsoft.com/6c81fbba-aaf4-49ca-ab79-b6fe5dfb0076">WSAQUERYSET</a> structure. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a> structure. 
 <b>WSALookupServiceBegin</b> only returns a handle, which should be used by subsequent calls to 
-<a href="https://msdn.microsoft.com/ab4f1830-b38d-4224-a6a9-6d4512245ad6">WSALookupServiceNext</a> to get the actual results.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta">WSALookupServiceNext</a> to get the actual results.
 
 
 ## -parameters
@@ -199,7 +199,7 @@ Retrieves the private data as <i>lpBlob</i>.
 </td>
 <td width="60%">
 Any available alias information is to be returned in successive calls to 
-<a href="https://msdn.microsoft.com/ab4f1830-b38d-4224-a6a9-6d4512245ad6">WSALookupServiceNext</a>, and each alias returned will have the RESULT_IS_ALIAS flag set.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta">WSALookupServiceNext</a>, and each alias returned will have the RESULT_IS_ALIAS flag set.
 
 </td>
 </tr>
@@ -233,7 +233,7 @@ A set of flags that retrieves all of the LUP_RETURN_* values.
 </td>
 <td width="60%">
 Used as a value for the <i>dwControlFlags</i> parameter in 
-<a href="https://msdn.microsoft.com/ab4f1830-b38d-4224-a6a9-6d4512245ad6">WSALookupServiceNext</a>. Setting this flag instructs the provider to discard the last result set, which was too large for the specified buffer, and move on to the next result set.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta">WSALookupServiceNext</a>. Setting this flag instructs the provider to discard the last result set, which was too large for the specified buffer, and move on to the next result set.
 
 </td>
 </tr>
@@ -256,7 +256,7 @@ If the provider has been caching information, ignores the cache, and queries the
 </td>
 <td width="60%">
 This indicates whether prime response is in the remote or local part of 
-<a href="https://msdn.microsoft.com/9cad3586-e315-4f6f-9045-7c95502bb768">CSADDR_INFO</a> structure. The other part needs to be usable in either case.
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a> structure. The other part needs to be usable in either case.
 
 </td>
 </tr>
@@ -267,7 +267,7 @@ This indicates whether prime response is in the remote or local part of
 ### -param lphLookup [out]
 
 A  handle to be used when calling 
-<a href="https://msdn.microsoft.com/ab4f1830-b38d-4224-a6a9-6d4512245ad6">WSALookupServiceNext</a> in order to start retrieving the results set.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta">WSALookupServiceNext</a> in order to start retrieving the results set.
 
 
 ## -returns
@@ -275,7 +275,7 @@ A  handle to be used when calling
 
 
 The return value is zero if the operation was successful. Otherwise, the value SOCKET_ERROR is returned, and a specific error number can be retrieved by calling 
-<a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
 
 <table>
 <tr>
@@ -285,7 +285,7 @@ The return value is zero if the operation was successful. Otherwise, the value S
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -296,7 +296,7 @@ There was insufficient memory to perform the operation.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -307,7 +307,7 @@ One or more parameters were missing or invalid for this provider.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANO_DATA</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_DATA</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -318,19 +318,19 @@ The name was found in the database but no data matching the given restrictions w
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 The WS2_32.DLL has not been initialized. The application must first call 
-<a href="https://msdn.microsoft.com/08299592-867c-491d-9769-d16602133659">WSAStartup</a> before calling any Windows Sockets functions.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> before calling any Windows Sockets functions.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSASERVICE_NOT_FOUND</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASERVICE_NOT_FOUND</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -350,22 +350,22 @@ This error is returned for a bluetooth service discovery request if no remote bl
 
 
 
-The <i>lpqsRestrictions</i> parameter points to a buffer containing a <a href="https://msdn.microsoft.com/6c81fbba-aaf4-49ca-ab79-b6fe5dfb0076">WSAQUERYSET</a> structure. At a minimum, the <b>dwSize</b> member of the <b>WSAQUERYSET</b> must be set to the length of the buffer before calling the 
+The <i>lpqsRestrictions</i> parameter points to a buffer containing a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a> structure. At a minimum, the <b>dwSize</b> member of the <b>WSAQUERYSET</b> must be set to the length of the buffer before calling the 
 <b>WSALookupServiceBegin</b> function. Applications can restrict the query by specifying other members in the <b>WSAQUERYSET</b>. 
 
-In most instances, applications interested in only a particular transport protocol should constrain their query by address family and protocol using the <b>dwNumberOfProtocols</b> and <b>lpafpProtocols</b> members of the <a href="https://msdn.microsoft.com/6c81fbba-aaf4-49ca-ab79-b6fe5dfb0076">WSAQUERYSET</a> rather than by specifiying the namespace in the <b>dwNameSpace</b> member. 
+In most instances, applications interested in only a particular transport protocol should constrain their query by address family and protocol using the <b>dwNumberOfProtocols</b> and <b>lpafpProtocols</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a> rather than by specifiying the namespace in the <b>dwNameSpace</b> member. 
 
-Information on supported network transport protocols can be retreived using the <a href="https://msdn.microsoft.com/0310b80d-5036-46c2-b60f-1a6661cb7f94">EnumProtocols</a>, <a href="https://msdn.microsoft.com/928b6937-41a3-4268-a3bc-14c9e04870e4">WSAEnumProtocols</a>, <a href="https://msdn.microsoft.com/c2e5332f-3327-4624-96b4-8e321795961d">WSCEnumProtocols</a>, or  <a href="https://msdn.microsoft.com/f46042f6-0b14-4a14-abc1-4e40c34b1599">WSCEnumProtocols32</a> function.
+Information on supported network transport protocols can be retreived using the <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-enumprotocolsa">EnumProtocols</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a>, <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols">WSCEnumProtocols</a>, or  <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols32">WSCEnumProtocols32</a> function.
 
 It is also possible to constrain the query to a single namespace. For example, a query that only wants results from DNS (not results from the local hosts file and other naming services) would set the <b>dwNameSpace</b> member to NS_DNS. For example, a bluetooth device discovery would set the the <b>dwNameSpace</b> member to NS_BTH. 
 
 Applications can also restrict the query to a specific namespace provider by specifying a pointer to the GUID for the provider in the <b>lpNSProviderId</b> member. 
 
-Information on namespace providers on the local computer can be retrieved using the <a href="https://msdn.microsoft.com/f5b6cd42-c5cb-43b6-bb96-fd260217e252">WSAEnumNameSpaceProviders</a>, <a href="https://msdn.microsoft.com/34bc96aa-63f7-4ab8-9376-6f4b979225ca">WSAEnumNameSpaceProvidersEx</a>, <a href="https://msdn.microsoft.com/792737d9-231d-4524-b1a6-b9904951d5b4">WSCEnumNameSpaceProviders32</a>, or <a href="https://msdn.microsoft.com/544120b2-7575-4deb-8429-2bd4582eceef">WSCEnumNameSpaceProvidersEx32</a> function. 
+Information on namespace providers on the local computer can be retrieved using the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersa">WSAEnumNameSpaceProviders</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersexa">WSAEnumNameSpaceProvidersEx</a>, <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumnamespaceproviders32">WSCEnumNameSpaceProviders32</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumnamespaceprovidersex32">WSCEnumNameSpaceProvidersEx32</a> function. 
 
 If LUP_CONTAINERS is specified in a call, other restriction values should be avoided. If any are specified, it is up to the name service provider to decide if it can support this restriction over the containers. If it cannot, it should return an error.
 
-Some name service providers can have other means of finding containers. For example, containers might all be of some well-known type, or of a set of well-known types, and therefore a query restriction can be created for finding them. No matter what other means the name service provider has for locating containers, LUP_CONTAINERS and LUP_NOCONTAINERS take precedence. Hence, if a query restriction is given that includes containers, specifying LUP_NOCONTAINERS will prevent the container items from being returned. Similarly, no matter the query restriction, if LUP_CONTAINERS is given, only containers should be returned. If a namespace does not support containers, and LUP_CONTAINERS is specified, it should simply return <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANO_DATA</a>.
+Some name service providers can have other means of finding containers. For example, containers might all be of some well-known type, or of a set of well-known types, and therefore a query restriction can be created for finding them. No matter what other means the name service provider has for locating containers, LUP_CONTAINERS and LUP_NOCONTAINERS take precedence. Hence, if a query restriction is given that includes containers, specifying LUP_NOCONTAINERS will prevent the container items from being returned. Similarly, no matter the query restriction, if LUP_CONTAINERS is given, only containers should be returned. If a namespace does not support containers, and LUP_CONTAINERS is specified, it should simply return <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_DATA</a>.
 
 The preferred method of obtaining the containers within another container, is the call:
 
@@ -380,13 +380,13 @@ dwStatus = WSALookupServiceBegin(
 
 
 This call is followed by the requisite number of 
-<a href="https://msdn.microsoft.com/ab4f1830-b38d-4224-a6a9-6d4512245ad6">WSALookupServiceNext</a> calls. This will return all containers contained immediately within the starting context; that is, it is not a deep query. With this, one can map the address space structure by walking the hierarchy, perhaps enumerating the content of selected containers. Subsequent uses of 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta">WSALookupServiceNext</a> calls. This will return all containers contained immediately within the starting context; that is, it is not a deep query. With this, one can map the address space structure by walking the hierarchy, perhaps enumerating the content of selected containers. Subsequent uses of 
 <b>WSALookupServiceBegin</b> use the containers returned from a previous call.
 
 As mentioned above, a 
-<a href="https://msdn.microsoft.com/6c81fbba-aaf4-49ca-ab79-b6fe5dfb0076">WSAQUERYSET</a> structure is used as an input parameter to <b>WSALookupBegin</b> in order to qualify the query. The following table indicates how the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a> structure is used as an input parameter to <b>WSALookupBegin</b> in order to qualify the query. The following table indicates how the 
 <b>WSAQUERYSET</b> is used to construct a query. When a parameter is marked as (Optional) a <b>NULL</b> pointer can be specified, indicating that the parameter will not be used as a search criteria. See section 
-<a href="https://msdn.microsoft.com/en-us/library/ms739852(v=VS.85).aspx">Query-Related Data Structures</a> for additional information.
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/name-resolution-data-structures-2">Query-Related Data Structures</a> for additional information.
 
 <table>
 <tr>
@@ -395,7 +395,7 @@ As mentioned above, a
 </tr>
 <tr>
 <td><b>dwSize</b></td>
-<td>Must be set to sizeof(<a href="https://msdn.microsoft.com/6c81fbba-aaf4-49ca-ab79-b6fe5dfb0076">WSAQUERYSET</a>). This is a versioning mechanism.</td>
+<td>Must be set to sizeof(<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a>). This is a versioning mechanism.</td>
 </tr>
 <tr>
 <td><b>dwOutputFlags</b></td>
@@ -441,7 +441,7 @@ See the Important note that follows.
 <tr>
 <td><b>lpafpProtocols</b></td>
 <td>(Optional) References an array of 
-<a href="https://msdn.microsoft.com/ffd43aa1-bbc4-46f1-ad77-26c48f9ac0b7">AFPROTOCOLS</a> structure. Only services that utilize these protocols will be returned.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_afprotocols">AFPROTOCOLS</a> structure. Only services that utilize these protocols will be returned.</td>
 </tr>
 <tr>
 <td><b>lpszQueryString</b></td>
@@ -476,51 +476,51 @@ See the Important note that follows.
 
 
 
-<a href="https://msdn.microsoft.com/d9961600-cdca-42ec-92eb-118b8186ed2e">Bluetooth and WSALookupServiceBegin</a>
+<a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-wsalookupservicebegin-for-service-discovery">Bluetooth and WSALookupServiceBegin</a>
 
 
 
-<a href="https://msdn.microsoft.com/0310b80d-5036-46c2-b60f-1a6661cb7f94">EnumProtocols</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-enumprotocolsa">EnumProtocols</a>
 
 
 
-<a href="https://msdn.microsoft.com/f5b6cd42-c5cb-43b6-bb96-fd260217e252">WSAEnumNameSpaceProviders</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersa">WSAEnumNameSpaceProviders</a>
 
 
 
-<a href="https://msdn.microsoft.com/34bc96aa-63f7-4ab8-9376-6f4b979225ca">WSAEnumNameSpaceProvidersEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersexa">WSAEnumNameSpaceProvidersEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/928b6937-41a3-4268-a3bc-14c9e04870e4">WSAEnumProtocols</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a>
 
 
 
-<a href="https://msdn.microsoft.com/f9d2ac54-a818-464d-918e-80ebb5b1b106">WSALookupServiceEnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupserviceend">WSALookupServiceEnd</a>
 
 
 
-<a href="https://msdn.microsoft.com/ab4f1830-b38d-4224-a6a9-6d4512245ad6">WSALookupServiceNext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta">WSALookupServiceNext</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c81fbba-aaf4-49ca-ab79-b6fe5dfb0076">WSAQUERYSET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a>
 
 
 
-<a href="https://msdn.microsoft.com/792737d9-231d-4524-b1a6-b9904951d5b4">WSCEnumNameSpaceProviders32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumnamespaceproviders32">WSCEnumNameSpaceProviders32</a>
 
 
 
-<a href="https://msdn.microsoft.com/544120b2-7575-4deb-8429-2bd4582eceef">WSCEnumNameSpaceProvidersEx32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumnamespaceprovidersex32">WSCEnumNameSpaceProvidersEx32</a>
 
 
 
-<a href="https://msdn.microsoft.com/c2e5332f-3327-4624-96b4-8e321795961d">WSCEnumProtocols</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols">WSCEnumProtocols</a>
 
 
 
-<a href="https://msdn.microsoft.com/f46042f6-0b14-4a14-abc1-4e40c34b1599">WSCEnumProtocols32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols32">WSCEnumProtocols32</a>
  
 
  

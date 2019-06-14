@@ -65,7 +65,7 @@ The <b>acmFormatChoose</b> function creates an ACM-defined dialog box that enabl
 
 ### -param pafmtc
 
-Pointer to an <a href="https://msdn.microsoft.com/b5e36dbd-9eaf-479a-af4c-ce07e4b6f042">ACMFORMATCHOOSE</a> structure that contains information used to initialize the dialog box. When this function returns, this structure contains information about the user's format selection.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmformatchoose">ACMFORMATCHOOSE</a> structure that contains information used to initialize the dialog box. When this function returns, this structure contains information about the user's format selection.
 
 The <b>pwfx</b> member of this structure must contain a valid pointer to a memory location that will contain the returned format header structure. Moreover, the <b>cbwfx</b> member must be filled in with the size, in bytes, of this memory buffer.
 
@@ -158,11 +158,11 @@ A suitable driver is not available to provide valid format selections.
 
 
 
-<a href="https://msdn.microsoft.com/da207a50-9c67-4cf3-920b-5878637060db">Audio Compression Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f9a4540-86c0-40e6-b4da-24a9d31b56bf">Audio Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines the prototype for the callback function used by <a href="https://msdn.microsoft.com/en-us/library/Bb775627(v=VS.85).aspx">DPA_LoadStream</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb775631(v=VS.85).aspx">DPA_SaveStream</a>.
+Defines the prototype for the callback function used by <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_loadstream">DPA_LoadStream</a> and <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_savestream">DPA_SaveStream</a>.
 
 
 ## -parameters
@@ -61,28 +61,28 @@ Defines the prototype for the callback function used by <a href="https://msdn.mi
 
 Type: <b>DPASTREAMINFO*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb775504(v=VS.85).aspx">DPASTREAMINFO</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/ns-dpa_dsa-_dpastreaminfo">DPASTREAMINFO</a> structure.
 
 
 ### -param *pstream [in]
 
 Type: <b>struct IStream*</b>
 
-An <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> object to read from or write to.
+An <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> object to read from or write to.
 
 
 ### -param *pvInstData [in, optional]
 
 Type: <b>void*</b>
 
-A void pointer to callback data that the client passed to <a href="https://msdn.microsoft.com/en-us/library/Bb775627(v=VS.85).aspx">DPA_LoadStream</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb775631(v=VS.85).aspx">DPA_SaveStream</a>.
+A void pointer to callback data that the client passed to <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_loadstream">DPA_LoadStream</a> or <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_savestream">DPA_SaveStream</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

@@ -121,19 +121,19 @@ Because the library allows multiple playlists with the same name, you may want t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563219(v=VS.85).aspx">IWMPCore3 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcore3">IWMPCore3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563547(v=VS.85).aspx">IWMPPlaylist Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563556(v=VS.85).aspx">IWMPPlaylistCollection::importPlaylist</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-importplaylist">IWMPPlaylistCollection::importPlaylist</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563558(v=VS.85).aspx">IWMPPlaylistCollection::newPlaylist</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-newplaylist">IWMPPlaylistCollection::newPlaylist</a>
  
 
  

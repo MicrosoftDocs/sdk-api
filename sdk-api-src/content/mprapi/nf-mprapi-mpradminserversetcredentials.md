@@ -61,7 +61,7 @@ The
 ### -param hMprServer [in]
 
 Handle to a Windows server. Obtain this handle by calling 
-<a href="https://msdn.microsoft.com/8d8cba34-e5d3-42ae-9724-361802f21410">MprAdminMIBServerConnect</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminmibserverconnect">MprAdminMIBServerConnect</a>.
 
 
 ### -param dwLevel [in]
@@ -71,7 +71,7 @@ A DWORD value that describes the format in which the information is structured i
 
 ### -param lpbBuffer [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/b37b9589-5c25-44ac-954a-c9fb2c2ee503">MPR_CREDENTIALSEX_1</a> structure that contains the pre-shared key for the server.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_credentialsex_1">MPR_CREDENTIALSEX_1</a> structure that contains the pre-shared key for the server.
 
 
 ## -returns
@@ -128,7 +128,7 @@ The <i>dwLevel</i> parameter is not zero.
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -145,7 +145,7 @@ Use
 The server maintains a single pre-shared key for all users.
 
 To delete the pre-shared key, call 
-<b>MprAdminServerSetCredentials</b> with the <a href="https://msdn.microsoft.com/b37b9589-5c25-44ac-954a-c9fb2c2ee503">MPR_CREDENTIALSEX_1</a><b>dwSize</b> member set to zero.
+<b>MprAdminServerSetCredentials</b> with the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_credentialsex_1">MPR_CREDENTIALSEX_1</a><b>dwSize</b> member set to zero.
 
 
 
@@ -155,19 +155,19 @@ To delete the pre-shared key, call
 
 
 
-<a href="https://msdn.microsoft.com/b37b9589-5c25-44ac-954a-c9fb2c2ee503">MPR_CREDENTIALSEX_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_credentialsex_1">MPR_CREDENTIALSEX_1</a>
 
 
 
-<a href="https://msdn.microsoft.com/76211b14-8f6c-48e4-846f-bd5d3a04285d">MprAdminServerGetCredentials</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminservergetcredentials">MprAdminServerGetCredentials</a>
 
 
 
-<a href="https://msdn.microsoft.com/a61734a7-b171-4e38-8dec-46be9a9c08ee">Router Administration Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/352505a9-616a-4d47-9857-f88d345333fd">Router Management Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
  
 
  

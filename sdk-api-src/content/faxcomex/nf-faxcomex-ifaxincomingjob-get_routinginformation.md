@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-For more information about routing information, see the <a href="https://msdn.microsoft.com/en-us/library/ms684534(v=VS.85).aspx">RoutingInfo</a> member of the <a href="https://msdn.microsoft.com/en-us/library/ms684534(v=VS.85).aspx">FAX_DEV_STATUS</a> structure.
+For more information about routing information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/ns-faxdev-_fax_dev_status">RoutingInfo</a> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/ns-faxdev-_fax_dev_status">FAX_DEV_STATUS</a> structure.
 
 
 
@@ -73,15 +73,15 @@ For more information about routing information, see the <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684876(v=VS.85).aspx">FaxIncomingJob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingjob">FaxIncomingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684878(v=VS.85).aspx">IFaxIncomingJob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingjob">IFaxIncomingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692952(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-managing-the-incoming-queue">Visual Basic Example</a>
  
 
  

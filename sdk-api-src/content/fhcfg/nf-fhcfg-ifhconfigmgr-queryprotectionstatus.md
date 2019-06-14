@@ -227,7 +227,7 @@ File History backups are performed regularly, no error conditions are detected, 
 
 ### -param ProtectedUntilTime [out]
 
-Receives a pointer to a string allocated with <a href="https://msdn.microsoft.com/9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a> containing the date and time until which all files within the File History protection scope are protected. The date and time are formatted per the system locale. If the date and time are unknown, an empty string is returned.
+Receives a pointer to a string allocated with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> containing the date and time until which all files within the File History protection scope are protected. The date and time are formatted per the system locale. If the date and time are unknown, an empty string is returned.
 
 A file is considered protected until a certain point in time if one of the following conditions is true:<ul>
 <li>There is a version of that file that was captured at or after that point in time and was fully copied to the currently assigned backup target before now.</li>
@@ -249,7 +249,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 
 
-The caller is responsible for releasing the memory allocated for <i>ProtectedUntilTime</i> by calling <a href="https://msdn.microsoft.com/8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> on it.
+The caller is responsible for releasing the memory allocated for <i>ProtectedUntilTime</i> by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> on it.
 
 The protection state indicates the File History operational state and the date and time until which all files within the protection scope are protected.
 
@@ -268,11 +268,11 @@ If the target is full or disconnected, the File History feature will provide a d
 
 
 
-<a href="https://msdn.microsoft.com/CC97FC0F-3AA4-4D8A-81B3-14F68FDF5788">FhConfigMgr</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a>
 
 
 
-<a href="https://msdn.microsoft.com/CDE8A011-6E78-49DF-A5E1-8E968355BA11">IFhConfigMgr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nn-fhcfg-ifhconfigmgr">IFhConfigMgr</a>
  
 
  

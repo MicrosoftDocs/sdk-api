@@ -60,7 +60,7 @@ Specifies an error specific setting.
 
 ### -field id
 
-Identifies the <a href="https://msdn.microsoft.com/527e39be-c959-40db-8f0b-14dcd49a7ca7">WS_ERROR_PROPERTY_ID</a>.
+Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_error_property_id">WS_ERROR_PROPERTY_ID</a>.
             
 
 

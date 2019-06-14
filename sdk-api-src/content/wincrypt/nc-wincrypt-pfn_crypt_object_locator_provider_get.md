@@ -59,12 +59,12 @@ The <b>PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET</b> callback function retrieves an 
 
 ### -param pPluginContext [in, optional]
 
-Pointer to an optional buffer defined by this provider and returned by the <a href="https://msdn.microsoft.com/DBDE5B98-AC31-4CA0-A7C6-1FCD8FAC51FC">PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE</a> function. The buffer is not modified by the caller. Your provider can use the data to help it determine what actions to perform or to maintain additional information.
+Pointer to an optional buffer defined by this provider and returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_object_locator_provider_initialize">PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE</a> function. The buffer is not modified by the caller. Your provider can use the data to help it determine what actions to perform or to maintain additional information.
 
 
 ### -param pIdentifier [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/1c2a07b8-f702-47f3-8d4c-6ac0cbc63f0f">CRYPTOAPI_BLOB</a> structure that contains the object identifier. This value should always be <b>NULL</b> on the first call to this function.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/ns-dpapi-_cryptoapi_blob">CRYPTOAPI_BLOB</a> structure that contains the object identifier. This value should always be <b>NULL</b> on the first call to this function.
 
 
 ### -param dwNameType [in]
@@ -90,7 +90,7 @@ The name format of the <i>pNameBlob</i> parameter. Possible values are listed be
 
 ### -param pNameBlob [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/1c2a07b8-f702-47f3-8d4c-6ac0cbc63f0f">CRYPTOAPI_BLOB</a> structure that contains the name the calling application is using to uniquely identify the object. Your provider uses this name to locate the requested object. Schannel currently submits a DNS (domain name system) host name encoded in UTF8 with IDN names converted from punycode.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/ns-dpapi-_cryptoapi_blob">CRYPTOAPI_BLOB</a> structure that contains the name the calling application is using to uniquely identify the object. Your provider uses this name to locate the requested object. Schannel currently submits a DNS (domain name system) host name encoded in UTF8 with IDN names converted from punycode.
 
 
 ### -param *ppbContent [out]
@@ -119,9 +119,9 @@ Address that receives a pointer to an optional identifier that can be used durin
 
 If the function succeeds, return nonzero (<b>TRUE</b>).
 
-If the function fails, return zero (<b>FALSE</b>) and specify an appropriate error in the <a href="https://msdn.microsoft.com/d9da833f-36ca-4046-8d2f-cd4449dd3c63">SetLastError</a> function. Most errors are passed through Schannel unaltered but this behavior is not guaranteed. Some errors may be mapped to other errors.
+If the function fails, return zero (<b>FALSE</b>) and specify an appropriate error in the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> function. Most errors are passed through Schannel unaltered but this behavior is not guaranteed. Some errors may be mapped to other errors.
 
-If an object cannot be returned for a given DNS name (<i>pNameBlob</i>) or identifier (<i>pIdentifier</i>), return <b>FALSE</b> and specify <b>CRYPT_E_OBJECT_LOCATOR_OBJECT_NOT_FOUND</b> in the <a href="https://msdn.microsoft.com/d9da833f-36ca-4046-8d2f-cd4449dd3c63">SetLastError</a> function.
+If an object cannot be returned for a given DNS name (<i>pNameBlob</i>) or identifier (<i>pIdentifier</i>), return <b>FALSE</b> and specify <b>CRYPT_E_OBJECT_LOCATOR_OBJECT_NOT_FOUND</b> in the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> function.
 
 
 
@@ -149,15 +149,15 @@ Because many host names can be mapped to one object, your provider can use the <
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh975284(v=VS.85).aspx">CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_object_locator_provider_table">CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/DBDE5B98-AC31-4CA0-A7C6-1FCD8FAC51FC">PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_object_locator_provider_initialize">PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE</a>
 
 
 
-<a href="https://msdn.microsoft.com/DDF1243D-A6C8-426A-A800-018E7FF7E182">PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_object_locator_provider_release">PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE</a>
  
 
  

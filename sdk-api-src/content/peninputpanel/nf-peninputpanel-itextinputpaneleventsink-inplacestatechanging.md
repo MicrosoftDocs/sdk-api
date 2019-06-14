@@ -62,12 +62,12 @@ Occurs when the In-Place state is about to change.
 
 ### -param oldInPlaceState [in]
 
-The current state, as defined by the <a href="https://msdn.microsoft.com/en-us/library/ms701175(v=VS.85).aspx">InPlaceState Enumeration</a>.
+The current state, as defined by the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/ne-peninputpanel-__midl___midl_itf_peninputpanel_0000_0000_0002">InPlaceState Enumeration</a>.
 
 
 ### -param newInPlaceState [in]
 
-The new state that the Input Panel is changing to, as defined by the <a href="https://msdn.microsoft.com/en-us/library/ms701175(v=VS.85).aspx">InPlaceState Enumeration</a>.
+The new state that the Input Panel is changing to, as defined by the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/ne-peninputpanel-__midl___midl_itf_peninputpanel_0000_0000_0002">InPlaceState Enumeration</a>.
 
 
 ## -returns
@@ -114,15 +114,15 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/1e719900-db58-430d-9059-efb3f884f6f0">ITextInputPanel Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3ef6d65-ca6b-4587-bb21-3d3803a3432a">ITextInputPanelEventSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpaneleventsink">ITextInputPanelEventSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/bc01ecda-bb9f-40c6-8ac7-ffc4cc89b6a2">ITextInputPanelEventSink::InPlaceStateChanged Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacestatechanged">ITextInputPanelEventSink::InPlaceStateChanged Method</a>
  
 
  

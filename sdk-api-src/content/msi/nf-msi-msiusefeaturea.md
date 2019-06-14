@@ -173,8 +173,8 @@ The feature is not published.
 The 
 <b>MsiUseFeature</b> function should only be used on features known to be published. INSTALLSTATE_UNKNOWN indicates that the program is trying to use a feature that is not published. The application should determine whether the feature is published before calling 
 <b>MsiUseFeature</b> by calling 
-<a href="https://msdn.microsoft.com/d84aa7f1-d29a-493d-a065-8f7b680019d7">MsiQueryFeatureState</a> or 
-<a href="https://msdn.microsoft.com/0ac6fea4-cdc8-4799-9001-f9399b22e7a5">MsiEnumFeatures</a>. The application should make these calls while it initializes. An application should only use features that are known to be published.
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiqueryfeaturestatea">MsiQueryFeatureState</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msienumfeaturesa">MsiEnumFeatures</a>. The application should make these calls while it initializes. An application should only use features that are known to be published.
 
 
 
@@ -184,7 +184,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/05a16915-6b47-4d51-b62a-5a4d92b87e50">Application-Only Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Application-Only Functions</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Cancels a callback registration that was made by a call to the <a href="https://msdn.microsoft.com/55f2d281-6308-4344-98dc-3b1c7cbee9df">WscRegisterForChanges</a> function.
+Cancels a callback registration that was made by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/wscapi/nf-wscapi-wscregisterforchanges">WscRegisterForChanges</a> function.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Cancels a callback registration that was made by a call to the <a href="https://
 
 ### -param hRegistrationHandle [in]
 
-The handle to the registration context returned as the <i>phCallbackRegistration</i> of the <a href="https://msdn.microsoft.com/55f2d281-6308-4344-98dc-3b1c7cbee9df">WscRegisterForChanges</a> function.
+The handle to the registration context returned as the <i>phCallbackRegistration</i> of the <a href="https://docs.microsoft.com/windows/desktop/api/wscapi/nf-wscapi-wscregisterforchanges">WscRegisterForChanges</a> function.
 
 
 ## -returns
@@ -76,7 +76,7 @@ Returns <b>S_OK</b> if the function succeeds, otherwise returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/55f2d281-6308-4344-98dc-3b1c7cbee9df">WscRegisterForChanges</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wscapi/nf-wscapi-wscregisterforchanges">WscRegisterForChanges</a>
  
 
  

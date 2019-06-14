@@ -107,7 +107,7 @@ The role specified in the bstrRole parameter does not exist.
 </dl>
 </td>
 <td width="60%">
-An unexpected error has occurred. This can happen if one object passes its <a href="https://msdn.microsoft.com/09a17e57-7224-43bc-93c7-16ab95ca2517">ObjectContext</a> pointer to another object and the other object calls <a href="https://msdn.microsoft.com/e1ef03e6-fcb2-463b-b2b3-a88e958a1d19">IsCallerInRole</a> using this pointer. An <b>ObjectContext</b> pointer is not valid outside the context of the object that originally obtained it.
+An unexpected error has occurred. This can happen if one object passes its <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-objectcontext">ObjectContext</a> pointer to another object and the other object calls <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-objectcontext-iscallerinrole">IsCallerInRole</a> using this pointer. An <b>ObjectContext</b> pointer is not valid outside the context of the object that originally obtained it.
 
 </td>
 </tr>
@@ -125,7 +125,7 @@ Use this method to determine whether the direct caller of the currently executin
 
 <b>IsCallerInRole</b> applies only to the direct caller of the currently executing method. (The direct caller is the process calling into the current server process. It can be either a base client process or a server process.) <b>IsCallerInRole</b> does not apply to the process that initiated the call sequence from which the current method was called or to any other callers in that sequence.
 
-Because <b>IsCallerInRole</b> returns <b>TRUE</b> when the object that invokes it is executing in a client's process, it is a good idea to call <a href="https://msdn.microsoft.com/c7b3a301-9f94-40de-a3d2-5387fb4e0596">IsSecurityEnabled</a> before calling <b>IsCallerInRole</b>. If security isn't enabled, <b>IsCallerInRole</b> will not return an accurate result.
+Because <b>IsCallerInRole</b> returns <b>TRUE</b> when the object that invokes it is executing in a client's process, it is a good idea to call <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-objectcontext-issecurityenabled">IsSecurityEnabled</a> before calling <b>IsCallerInRole</b>. If security isn't enabled, <b>IsCallerInRole</b> will not return an accurate result.
 
 
 
@@ -135,7 +135,7 @@ Because <b>IsCallerInRole</b> returns <b>TRUE</b> when the object that invokes i
 
 
 
-<a href="https://msdn.microsoft.com/09a17e57-7224-43bc-93c7-16ab95ca2517">ObjectContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-objectcontext">ObjectContext</a>
  
 
  

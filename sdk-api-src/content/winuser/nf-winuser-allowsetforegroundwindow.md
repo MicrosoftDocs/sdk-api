@@ -59,7 +59,7 @@ ms.custom: 19H1
 ## -description
 
 
-Enables the specified process to set the foreground window using the <a href="https://msdn.microsoft.com/en-us/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a> function. The calling process must already be able to set the foreground window. For more information, see Remarks later in this topic.
+Enables the specified process to set the foreground window using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a> function. The calling process must already be able to set the foreground window. For more information, see Remarks later in this topic.
 
 
 ## -parameters
@@ -83,7 +83,7 @@ Type: <strong>Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. The function will fail if the calling process cannot set the foreground window. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is zero. The function will fail if the calling process cannot set the foreground window. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -100,8 +100,8 @@ The system restricts which processes can set the foreground window. A process ca
 <li>The process received the last input event. </li>
 <li>There is no foreground process. </li>
 <li>The foreground process is being debugged. </li>
-<li>The foreground is not locked (see <a href="https://msdn.microsoft.com/en-us/library/ms633532(v=VS.85).aspx">LockSetForegroundWindow</a>). </li>
-<li>The foreground lock time-out has expired (see <b>SPI_GETFOREGROUNDLOCKTIMEOUT</b> in <a href="https://msdn.microsoft.com/9b99465c-e12d-413c-8e69-b46b52f2f11f">SystemParametersInfo</a>). </li>
+<li>The foreground is not locked (see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-locksetforegroundwindow">LockSetForegroundWindow</a>). </li>
+<li>The foreground lock time-out has expired (see <b>SPI_GETFOREGROUNDLOCKTIMEOUT</b> in <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>). </li>
 <li>No menus are active. </li>
 </ul>
 A process that can set the foreground window can enable another process to set the foreground window by calling <b>AllowSetForegroundWindow</b>. The process specified by <i>dwProcessId</i> loses the ability to set the foreground window the next time the user generates input, unless the input is directed at that process, or the next time a process calls <b>AllowSetForegroundWindow</b>, unless that process is specified. 
@@ -118,7 +118,7 @@ A process that can set the foreground window can enable another process to set t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633532(v=VS.85).aspx">LockSetForegroundWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-locksetforegroundwindow">LockSetForegroundWindow</a>
 
 
 
@@ -126,11 +126,11 @@ A process that can set the foreground window can enable another process to set t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
  
 
  

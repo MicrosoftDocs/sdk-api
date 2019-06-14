@@ -58,7 +58,7 @@ ms.custom: 19H1
 Removes the file name extension from a path, if one is present.
         
             
-<div class="alert"><b>Note</b>  This function is deprecated. We recommend the use of the <a href="https://msdn.microsoft.com/9adfb054-6d62-41bb-9036-0bf670ea24b2">PathCchRemoveExtension</a> in its place.</div><div> </div>
+<div class="alert"><b>Note</b>  This function is deprecated. We recommend the use of the <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchremoveextension">PathCchRemoveExtension</a> in its place.</div><div> </div>
 
 ## -parameters
 

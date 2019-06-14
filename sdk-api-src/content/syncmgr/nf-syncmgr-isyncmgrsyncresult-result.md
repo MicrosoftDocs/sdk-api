@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the result of a <a href="https://msdn.microsoft.com/ab0e6634-d30a-4f56-94ff-3b032c789cec">StartHandlerSync</a> or <a href="https://msdn.microsoft.com/7e4798ce-04ee-4c75-8be2-0ad8fdc400a5">StartItemSync</a> call.
+Gets the result of a <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-starthandlersync">StartHandlerSync</a> or <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-startitemsync">StartItemSync</a> call.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ Gets the result of a <a href="https://msdn.microsoft.com/ab0e6634-d30a-4f56-94ff
 
 ### -param nStatus [in]
 
-Type: <b><a href="https://msdn.microsoft.com/78622014-643e-4449-b937-a6122a06f470">SYNCMGR_PROGRESS_STATUS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_progress_status">SYNCMGR_PROGRESS_STATUS</a></b>
 
-The current status of the progress report. See <a href="https://msdn.microsoft.com/78622014-643e-4449-b937-a6122a06f470">SYNCMGR_PROGRESS_STATUS</a>.
+The current status of the progress report. See <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_progress_status">SYNCMGR_PROGRESS_STATUS</a>.
 
 
 ### -param cError [in]

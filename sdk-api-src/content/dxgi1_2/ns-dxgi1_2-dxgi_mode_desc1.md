@@ -69,22 +69,22 @@ A value that describes the resolution height.
 
 ### -field RefreshRate
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb173069(v=VS.85).aspx">DXGI_RATIONAL</a> structure that describes the refresh rate in hertz.
+A <a href="https://docs.microsoft.com/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_rational">DXGI_RATIONAL</a> structure that describes the refresh rate in hertz.
 
 
 ### -field Format
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value that describes the display format.
+A <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>-typed value that describes the display format.
 
 
 ### -field ScanlineOrdering
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb173067(v=VS.85).aspx">DXGI_MODE_SCANLINE_ORDER</a>-typed value that describes the scan-line drawing mode.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173067(v=vs.85)">DXGI_MODE_SCANLINE_ORDER</a>-typed value that describes the scan-line drawing mode.
 
 
 ### -field Scaling
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb173066(v=VS.85).aspx">DXGI_MODE_SCALING</a>-typed value that describes the scaling mode.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173066(v=vs.85)">DXGI_MODE_SCALING</a>-typed value that describes the scaling mode.
 
 
 ### -field Stereo
@@ -96,9 +96,9 @@ Specifies whether the full-screen display mode is stereo. <b>TRUE</b> if stereo;
 
 
 
-<b>DXGI_MODE_DESC1</b> is identical to <a href="https://msdn.microsoft.com/en-us/library/Bb173064(v=VS.85).aspx">DXGI_MODE_DESC</a> except that <b>DXGI_MODE_DESC1</b> includes the <b>Stereo</b> member.
+<b>DXGI_MODE_DESC1</b> is identical to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173064(v=vs.85)">DXGI_MODE_DESC</a> except that <b>DXGI_MODE_DESC1</b> includes the <b>Stereo</b> member.
 
-This structure is used by the <a href="https://msdn.microsoft.com/49522ED9-30AD-4F39-96D2-BB6677D72349">GetDisplayModeList1</a> and <a href="https://msdn.microsoft.com/D71ED536-0D90-4E0D-8683-6260E31EAF20">FindClosestMatchingMode1</a> methods.
+This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutput1-getdisplaymodelist1">GetDisplayModeList1</a> and <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutput1-findclosestmatchingmode1">FindClosestMatchingMode1</a> methods.
 
 
 
@@ -108,7 +108,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/49522ED9-30AD-
 
 
 
-<a href="https://msdn.microsoft.com/22e98880-bcd1-448a-9223-604fff9173fe">DXGI Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-structures">DXGI Structures</a>
  
 
  

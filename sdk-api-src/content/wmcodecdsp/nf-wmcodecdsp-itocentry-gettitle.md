@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>GetTitle</b> method retrieves the title, set by a previous call to <a href="https://msdn.microsoft.com/24ab6c56-59ae-4fdf-b18e-75f616ee5a80">SetTitle</a>, of the entry.
+The <b>GetTitle</b> method retrieves the title, set by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-settitle">SetTitle</a>, of the entry.
 
 
 ## -parameters
@@ -111,11 +111,11 @@ The method returns this error code if <i>pwszTitle</i> is not <b>NULL</b> and th
 
 
 
-<a href="https://msdn.microsoft.com/82a1a390-50b1-4699-9baa-60cea322ce7c">ITocEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocentry">ITocEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/24ab6c56-59ae-4fdf-b18e-75f616ee5a80">SetTitle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-settitle">SetTitle</a>
  
 
  

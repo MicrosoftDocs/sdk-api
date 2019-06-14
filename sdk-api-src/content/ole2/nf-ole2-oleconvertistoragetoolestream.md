@@ -61,7 +61,7 @@ The
 ### -param pstg [in]
 
 Pointer to the 
-<a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> interface on the storage object to be converted to an OLE 1 storage.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface on the storage object to be converted to an OLE 1 storage.
 
 
 ### -param lpolestream [out]
@@ -85,11 +85,11 @@ This function supports the standard return value E_INVALIDARG, in addition to th
 This function converts an OLE 2 storage object to OLE 1 format. The <b>OLESTREAM</b> structure code implemented for OLE 1 must be available.
 
 On entry, the stream to which <i>lpolestm</i> points should be created and positioned just as it would be for an 
-<a href="https://msdn.microsoft.com/en-us/library/ms678407(v=VS.85).aspx">OleSaveToStream</a> call. On exit, the stream contains the persistent representation of the object using OLE 1 storage.
+<a href="https://docs.microsoft.com/windows/desktop/api/ole/nf-ole-olesavetostream">OleSaveToStream</a> call. On exit, the stream contains the persistent representation of the object using OLE 1 storage.
 
 <div class="alert"><b>Note</b>  Paintbrush objects are dealt with differently from other objects because their native data is in device-independent bitmap (DIB) format. When Paintbrush objects are converted using 
 <b>OleConvertIStorageToOLESTREAM</b>, no presentation data is added to the <b>OLESTREAM</b> structure. To include presentation data, use the 
-<a href="https://msdn.microsoft.com/a6026b71-4223-40ab-b209-44531480db57">OleConvertIStorageToOLESTREAMEx</a> function instead.</div>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleconvertistoragetoolestreamex">OleConvertIStorageToOLESTREAMEx</a> function instead.</div>
 <div> </div>
 
 
@@ -99,19 +99,19 @@ On entry, the stream to which <i>lpolestm</i> points should be created and posit
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680738(v=VS.85).aspx">CoIsOle1Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coisole1class">CoIsOle1Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/a6026b71-4223-40ab-b209-44531480db57">OleConvertIStorageToOLESTREAMEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleconvertistoragetoolestreamex">OleConvertIStorageToOLESTREAMEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/8fed879c-5f97-4450-8259-da9643dd828c">OleConvertOLESTREAMToIStorage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleconvertolestreamtoistorage">OleConvertOLESTREAMToIStorage</a>
 
 
 
-<a href="https://msdn.microsoft.com/2e77fa0e-1d98-4c59-8d3c-65bd7235ec8f">OleConvertOLESTREAMToIStorageEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleconvertolestreamtoistorageex">OleConvertOLESTREAMToIStorageEx</a>
  
 
  

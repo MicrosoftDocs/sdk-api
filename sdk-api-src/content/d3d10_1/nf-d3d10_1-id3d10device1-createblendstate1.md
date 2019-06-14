@@ -59,25 +59,25 @@ Create a blend-state object that encapsules blend state for the output-merger st
 
 ### -param pBlendStateDesc [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb694528(v=VS.85).aspx">D3D10_BLEND_DESC1</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1/ns-d3d10_1-d3d10_blend_desc1">D3D10_BLEND_DESC1</a>*</b>
 
-Pointer to a blend-state description (see <a href="https://msdn.microsoft.com/en-us/library/Bb694528(v=VS.85).aspx">D3D10_BLEND_DESC1</a>).
+Pointer to a blend-state description (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1/ns-d3d10_1-d3d10_blend_desc1">D3D10_BLEND_DESC1</a>).
 
 
 ### -param ppBlendState [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb694544(v=VS.85).aspx">ID3D10BlendState1</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1/nn-d3d10_1-id3d10blendstate1">ID3D10BlendState1</a>**</b>
 
-Address of a pointer to the blend-state object created (see <a href="https://msdn.microsoft.com/en-us/library/Bb694544(v=VS.85).aspx">ID3D10BlendState1 Interface</a>).
+Address of a pointer to the blend-state object created (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1/nn-d3d10_1-id3d10blendstate1">ID3D10BlendState1 Interface</a>).
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-returnvalues">Direct3D 10 Return Codes</a>.
 
 
 
@@ -98,7 +98,7 @@ This method requires Windows Vista Service Pack 1.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb694546(v=VS.85).aspx">ID3D10Device1 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1/nn-d3d10_1-id3d10device1">ID3D10Device1 Interface</a>
  
 
  

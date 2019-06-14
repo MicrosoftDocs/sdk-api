@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns the name of a cluster's  <a href="https://msdn.microsoft.com/4c2ee30e-4de2-44ba-93ba-d2d89196545e">quorum resource</a>. The <b>PCLUSAPI_GET_CLUSTER_QUORUM_RESOURCE</b> type defines a pointer to this function.
+Returns the name of a cluster's  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/quorum-resource">quorum resource</a>. The <b>PCLUSAPI_GET_CLUSTER_QUORUM_RESOURCE</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -59,12 +59,12 @@ Returns the name of a cluster's  <a href="https://msdn.microsoft.com/4c2ee30e-4d
 
 ### -param hCluster [in]
 
-Handle to an existing <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+Handle to an existing <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>.
 
 
 ### -param lpszResourceName [out]
 
-Pointer to a null-terminated Unicode string containing the name of the cluster's quorum resource. The name is read from the quorum resource's  <a href="https://msdn.microsoft.com/61a4a2bc-e18f-4fac-82f0-8d5ef58e8d70">Name</a> common property. Do not pass <b>NULL</b> for this parameter.
+Pointer to a null-terminated Unicode string containing the name of the cluster's quorum resource. The name is read from the quorum resource's  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources-name">Name</a> common property. Do not pass <b>NULL</b> for this parameter.
 
 
 ### -param lpcchResourceName [in, out]
@@ -74,7 +74,7 @@ Pointer to the size of the <i>lpszResourceName</i> buffer as a count of characte
 
 ### -param lpszDeviceName [out]
 
-Pointer to a null-terminated Unicode string containing the path to the location of the quorum log files maintained by the  <a href="https://msdn.microsoft.com/90717d6e-f2a4-49a0-86b6-17de1c4bcfe4">Cluster service</a>. Do not pass <b>NULL</b> for this parameter.
+Pointer to a null-terminated Unicode string containing the path to the location of the quorum log files maintained by the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a>. Do not pass <b>NULL</b> for this parameter.
 
 
 ### -param lpcchDeviceName [in, out]
@@ -94,7 +94,7 @@ Pointer to the maximum size (in bytes) of the log being maintained by the quorum
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following is one of the possible values.
+the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following is one of the possible values.
 
 <table>
 <tr>
@@ -122,7 +122,7 @@ The <i>lpszResourceName</i> or the <i>lpszDeviceName</i> buffer is not big enoug
 
 
 
-Note that <i>lpcchName</i> refers to a count of characters and not a count of bytes, and that the returned size does not include the terminating <b>NULL</b> in the count. For more information on sizing buffers, see  <a href="https://msdn.microsoft.com/283dc560-d547-4b42-b45c-435045080639">Data Size Conventions</a>.
+Note that <i>lpcchName</i> refers to a count of characters and not a count of bytes, and that the returned size does not include the terminating <b>NULL</b> in the count. For more information on sizing buffers, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-size-conventions">Data Size Conventions</a>.
 
 
 
@@ -132,11 +132,11 @@ Note that <i>lpcchName</i> refers to a count of characters and not a count of by
 
 
 
-<a href="https://msdn.microsoft.com/61a4a2bc-e18f-4fac-82f0-8d5ef58e8d70">Name</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources-name">Name</a>
 
 
 
-<a href="https://msdn.microsoft.com/1a00c09e-4470-4c02-807d-c559fd992066">SetClusterQuorumResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-setclusterquorumresource">SetClusterQuorumResource</a>
  
 
  

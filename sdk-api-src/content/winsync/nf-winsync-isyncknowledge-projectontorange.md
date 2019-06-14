@@ -116,11 +116,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/cfb08476-7b5d-4953-b723-5160330e57be">ISyncKnowledge Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/d3e4a4f4-4a67-4dce-a81a-3861dcf788e6">SYNC_RANGE Structure</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ns-winsync-_sync_range">SYNC_RANGE Structure</a>
  
 
  

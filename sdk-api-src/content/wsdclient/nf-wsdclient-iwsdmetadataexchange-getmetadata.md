@@ -106,7 +106,7 @@ Method completed successfully.
 
 
 
-<a href="https://msdn.microsoft.com/f4e2c2f7-3e76-4a17-88f8-9d59c18343a9">IWSDMetadataExchange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdmetadataexchange">IWSDMetadataExchange</a>
  
 
  

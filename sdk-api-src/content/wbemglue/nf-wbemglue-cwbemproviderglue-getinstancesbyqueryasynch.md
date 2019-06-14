@@ -50,10 +50,10 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/493027c2-e54d-4fad-9e33-98d1ceab8860">CWbemProviderGlue</a> class 
+<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/wbemglue/nl-wbemglue-cwbemproviderglue">CWbemProviderGlue</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>GetInstancesByQueryAsynch</b> method retrieves a list of instances supported by a particular provider, and that match a particular query. This method allows the provider to respond asynchronously by returning one instance at a time.
@@ -87,7 +87,7 @@ static HRESULT WINAPI Classname::FunctionName(Provider *pProvider,
 ```
 
 
-where Classname is the name of a class derived from class <a href="https://msdn.microsoft.com/d8a7c433-7e6a-45cc-914f-a15a3688c7aa">Provider</a>. It is an instance of this class that is the "this" pointer defined by <i>pRequester</i>.
+where Classname is the name of a class derived from class <a href="https://docs.microsoft.com/windows/desktop/api/provider/nl-provider-provider">Provider</a>. It is an instance of this class that is the "this" pointer defined by <i>pRequester</i>.
 
 
 ### -param pszNamespace
@@ -97,7 +97,7 @@ Namespace for query. If <b>NULL</b>, the default namespace, root\cimv2, is used.
 
 ### -param pMethodContext
 
-Pointer to the current context. A context must be provided to prevent deadlocks. Either use the context passed into the provider by <a href="https://msdn.microsoft.com/9566acb0-d7bf-4d3d-b7da-5cfbce150a2c">Provider::EnumerateInstances</a> or <a href="https://msdn.microsoft.com/94d5c8ee-2d61-42af-9a22-cc0df423b245">Provider::ExecQuery</a>, or else obtain it from the instance using <a href="https://msdn.microsoft.com/a2033754-4fd0-405f-9ad9-737eb8931016">CInstance::GetMethodContext</a>. This parameter must not be <b>NULL</b>.
+Pointer to the current context. A context must be provided to prevent deadlocks. Either use the context passed into the provider by <a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-enumerateinstances">Provider::EnumerateInstances</a> or <a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-execquery">Provider::ExecQuery</a>, or else obtain it from the instance using <a href="https://docs.microsoft.com/windows/desktop/api/instance/nf-instance-cinstance-getmethodcontext">CInstance::GetMethodContext</a>. This parameter must not be <b>NULL</b>.
 
 
 ### -param pUserData
@@ -122,9 +122,9 @@ The <b>GetInstancesByQueryAsynch</b> method allows framework providers to access
 
 For performance reasons, when calling this function, specify only the properties you need (for example, specify SELECT <i>name</i> instead of SELECT *).
 
-Because the callback to the sink might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous communication instead of asynchronous.  If you require asynchronous communication see <a href="https://msdn.microsoft.com/7a1eda93-014e-4067-b6d0-361a3d2fd1df">Calling a Method</a>.
+Because the callback to the sink might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous communication instead of asynchronous.  If you require asynchronous communication see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
 
-For more information about using methods semisynchronously see <a href="https://msdn.microsoft.com/cf086577-8964-4b6b-8863-78b53f73397e">CWbemProviderGlue::GetInstancesByQuery</a> and <a href="https://msdn.microsoft.com/7a1eda93-014e-4067-b6d0-361a3d2fd1df">Calling a Method</a>.
+For more information about using methods semisynchronously see <a href="https://docs.microsoft.com/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getinstancesbyquery(lpcwstr_trefpointercollection_cinstance__methodcontext_lpcwstr)">CWbemProviderGlue::GetInstancesByQuery</a> and <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
 
 
 

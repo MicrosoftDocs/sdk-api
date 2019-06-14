@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used by <a href="https://msdn.microsoft.com/en-us/library/Bb231490(v=VS.85).aspx">ISearchCatalogManager::GetCatalogStatus</a> to determine the current state of the catalog.
+Used by <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchcatalogmanager-getcatalogstatus">ISearchCatalogManager::GetCatalogStatus</a> to determine the current state of the catalog.
 
 
 ## -enum-fields

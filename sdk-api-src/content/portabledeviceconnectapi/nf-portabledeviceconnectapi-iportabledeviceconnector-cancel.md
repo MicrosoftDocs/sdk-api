@@ -60,7 +60,7 @@ The <b>Cancel</b> method cancels a pending request to connect or disconnect an M
 
 ### -param pCallback [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/579f7a29-cd98-4d97-9f8e-9b786897df1c">IConnectionRequestCallback</a> interface. This value cannot be <b>NULL</b>.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iconnectionrequestcallback">IConnectionRequestCallback</a> interface. This value cannot be <b>NULL</b>.
 
 
 ## -returns
@@ -107,7 +107,7 @@ Either the <i>pCallback</i> parameter does not correspond to a pending connect o
 
 
 
-<a href="https://msdn.microsoft.com/c6eb1103-2395-431d-9130-1e1f2cc9ae96">IPortableDeviceConnector</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceconnectapi/nn-portabledeviceconnectapi-iportabledeviceconnector">IPortableDeviceConnector</a>
  
 
  

@@ -68,7 +68,7 @@ The friendly name of the pin as specified when the pin was created in a call to 
 
 ### -param pMediaType [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02">AM_MEDIA_TYPE</a> structure that specifies the new media type information for the pin.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_ammediatype">AM_MEDIA_TYPE</a> structure that specifies the new media type information for the pin.
 
 
 ## -returns
@@ -86,7 +86,7 @@ Returns S_OK if successful. If the method fails, it returns an <b>HRESULT</b> er
 
 Pins can be reconfigured at any time with a new media type. If no connection exists, the media type is simply updated. If the pin is connected, the success or failure of the call will depend on the downstream input pin's acceptance or rejection of the specified media type.
 
-The media type is not interpreted in any way by the Demultiplexer filter. It is used only during connection negotiation by the output pin. It has no effect on the content of the media samples. Media sample content is defined when a PID is mapped via the MEDIA_SAMPLE_CONTENT parameter in the <a href="https://msdn.microsoft.com/22784e4a-2b02-4fc9-ba55-8c918ea38892">IMPEG2PIDMap::MapPID</a> method, or via the defined values in an <a href="https://msdn.microsoft.com/e74a1e62-1bc4-43e1-9017-85012b2ece01">IMPEG2StreamIdMap::MapStreamId</a> call.
+The media type is not interpreted in any way by the Demultiplexer filter. It is used only during connection negotiation by the output pin. It has no effect on the content of the media samples. Media sample content is defined when a PID is mapped via the MEDIA_SAMPLE_CONTENT parameter in the <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-impeg2pidmap-mappid">IMPEG2PIDMap::MapPID</a> method, or via the defined values in an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-impeg2streamidmap-mapstreamid">IMPEG2StreamIdMap::MapStreamId</a> call.
 
 
 
@@ -96,11 +96,11 @@ The media type is not interpreted in any way by the Demultiplexer filter. It is 
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9242b96-0fc3-428e-b7ee-91a4f5e67305">IMpeg2Demultiplexer Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-impeg2demultiplexer">IMpeg2Demultiplexer Interface</a>
  
 
  

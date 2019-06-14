@@ -110,11 +110,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/75d8b2a3-7c50-4dd5-8927-b11eb9f12602">IMFASFSplitter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfsplitter">IMFASFSplitter</a>
 
 
 
-<a href="https://msdn.microsoft.com/5c70e5a0-7dd5-49c5-af35-4d9568871b41">IMFASFSplitter::SetFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-setflags">IMFASFSplitter::SetFlags</a>
  
 
  

@@ -192,7 +192,7 @@ This is a synchronous call. Your code must complete and return as quickly as pos
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563213(v=VS.85).aspx">IWMPConvert Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nn-wmpservices-iwmpconvert">IWMPConvert Interface</a>
  
 
  

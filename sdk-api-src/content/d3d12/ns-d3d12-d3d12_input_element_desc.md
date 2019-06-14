@@ -71,12 +71,12 @@ The semantic index for the element. A semantic index modifies a semantic, with a
 
 ### -field Format
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value that specifies the format of the element data.
+A <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>-typed value that specifies the format of the element data.
 
 
 ### -field InputSlot
 
-An integer value that identifies the input-assembler. For more info, see <a href="https://msdn.microsoft.com/en-us/library/Bb205117(v=VS.85).aspx">Input Slots</a>. Valid values are between 0 and 15. 
+An integer value that identifies the input-assembler. For more info, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-input-assembler-stage-getting-started">Input Slots</a>. Valid values are between 0 and 15. 
 
 
 ### -field AlignedByteOffset
@@ -93,14 +93,14 @@ A value that identifies the input data class for a single input slot.
 ### -field InstanceDataStepRate
 
 The number of instances to draw using the same per-instance data before advancing in the buffer by one element. This value must be 0 for an 
-        element that contains per-vertex data (the slot class is set to the D3D12_INPUT_PER_VERTEX_DATA member of <a href="https://msdn.microsoft.com/09A14704-2E0B-4994-BED4-94F933A47317">D3D12_INPUT_CLASSIFICATION</a>).
+        element that contains per-vertex data (the slot class is set to the D3D12_INPUT_PER_VERTEX_DATA member of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_input_classification">D3D12_INPUT_CLASSIFICATION</a>).
 
 
 ## -remarks
 
 
 
-This structure is a member of the <a href="https://msdn.microsoft.com/44C53830-AE80-402A-808C-2063011711A2">D3D12_INPUT_LAYOUT_DESC</a> structure. A pipeline state object contains a input-layout structure that defines one element being read from an input slot.
+This structure is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_input_layout_desc">D3D12_INPUT_LAYOUT_DESC</a> structure. A pipeline state object contains a input-layout structure that defines one element being read from an input slot.
 
 
 
@@ -110,7 +110,7 @@ This structure is a member of the <a href="https://msdn.microsoft.com/44C53830-A
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
  
 
  

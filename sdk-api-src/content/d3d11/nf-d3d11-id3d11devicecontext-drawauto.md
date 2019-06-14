@@ -83,11 +83,11 @@ The following diagram shows the DrawAuto process.
 
 Calling DrawAuto does not change the state of the streaming-output buffers that were bound again as inputs.
 
-DrawAuto only works when drawing with one input buffer bound as an input to the IA stage at slot 0. Applications must create the SO buffer resource with both binding flags, <a href="https://msdn.microsoft.com/4ffa1714-bd85-4d5a-930d-20526f46e4b9">D3D11_BIND_VERTEX_BUFFER</a> and <b>D3D11_BIND_STREAM_OUTPUT</b>.
+DrawAuto only works when drawing with one input buffer bound as an input to the IA stage at slot 0. Applications must create the SO buffer resource with both binding flags, <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_bind_flag">D3D11_BIND_VERTEX_BUFFER</a> and <b>D3D11_BIND_STREAM_OUTPUT</b>.
 
 This API does not support indexing or instancing.
 
-If an application needs to retrieve the size of the streaming-output buffer, it can query for statistics on streaming output by using <a href="https://msdn.microsoft.com/4161fbeb-7f58-422c-a195-ea10f737fd0c">D3D11_QUERY_SO_STATISTICS</a>.
+If an application needs to retrieve the size of the streaming-output buffer, it can query for statistics on streaming output by using <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_query">D3D11_QUERY_SO_STATISTICS</a>.
 
 
 
@@ -97,7 +97,7 @@ If an application needs to retrieve the size of the streaming-output buffer, it 
 
 
 
-<a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
  
 
  

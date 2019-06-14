@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Creates a toolbar window and adds the specified buttons to the toolbar. 
 			
-<div class="alert"><b>Note</b>   This function is deprecated, because it does not support all features of toolbars. Use <a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a> instead. For examples, see <a href="https://msdn.microsoft.com/en-us/library/Bb760446(v=VS.85).aspx">Using Toolbar Controls</a>.</div><div> </div>
+<div class="alert"><b>Note</b>   This function is deprecated, because it does not support all features of toolbars. Use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> instead. For examples, see <a href="https://docs.microsoft.com/windows/desktop/Controls/using-toolbar-controls">Using Toolbar Controls</a>.</div><div> </div>
 
 ## -parameters
 
@@ -60,21 +60,21 @@ Creates a toolbar window and adds the specified buttons to the toolbar.
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the parent window for the toolbar. 
 
 
 ### -param ws
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Window styles for the toolbar. The <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">WS_CHILD</a> style is included by default. This parameter can also include a combination of styles as discussed in <a href="https://msdn.microsoft.com/en-us/library/Bb760439(v=VS.85).aspx">Toolbar Control and Button Styles</a>. 
+Window styles for the toolbar. The <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-styles">WS_CHILD</a> style is included by default. This parameter can also include a combination of styles as discussed in <a href="https://docs.microsoft.com/windows/desktop/Controls/toolbar-control-and-button-styles">Toolbar Control and Button Styles</a>. 
 
 
 ### -param wID
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Control identifier for the toolbar. 
 
@@ -90,14 +90,14 @@ Number of button images contained in the bitmap specified by
 
 ### -param hBMInst
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HINSTANCE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HINSTANCE</a></b>
 
 Module instance with the executable file that contains the bitmap resource. 
 
 
 ### -param wBMID
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT_PTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT_PTR</a></b>
 
 Resource identifier for the bitmap resource. If 
 					<i>hBMInst</i> is <b>NULL</b>, this parameter must be a valid bitmap handle. 
@@ -107,7 +107,7 @@ Resource identifier for the bitmap resource. If
 
 Type: <b>LPCTBBUTTON</b>
 
-Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Bb760476(v=VS.85).aspx">TBBUTTON</a> structures that contain information about the buttons to add to the toolbar. 
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-_tbbutton">TBBUTTON</a> structures that contain information about the buttons to add to the toolbar. 
 
 
 ### -param iNumButtons
@@ -147,18 +147,18 @@ Height, in pixels, of the button images to add to the buttons in the toolbar.
 
 ### -param uStructSize
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Size of a <a href="https://msdn.microsoft.com/en-us/library/Bb760476(v=VS.85).aspx">TBBUTTON</a> structure. 
+Size of a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-_tbbutton">TBBUTTON</a> structure. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-Returns the window handle to the toolbar if successful, or <b>NULL</b> otherwise. To retrieve extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+Returns the window handle to the toolbar if successful, or <b>NULL</b> otherwise. To retrieve extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 

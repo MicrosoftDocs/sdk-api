@@ -59,22 +59,22 @@ Represents a ResolveMatch message.
 
 ### -field EndpointReference
 
-Reference to a <a href="https://msdn.microsoft.com/97d6870e-3633-4bea-9a50-984e6b0ba3a1">WSD_ENDPOINT_REFERENCE</a> structure that specifies the matching endpoint. 
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_endpoint_reference">WSD_ENDPOINT_REFERENCE</a> structure that specifies the matching endpoint. 
 
 
 ### -field Types
 
-Reference to a <a href="https://msdn.microsoft.com/f573365d-100f-4df9-b1af-a484680436eb">WSD_NAME_LIST</a> structure that contains a list of WS-Discovery Types.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_name_list">WSD_NAME_LIST</a> structure that contains a list of WS-Discovery Types.
 
 
 ### -field Scopes
 
-Reference to a <a href="https://msdn.microsoft.com/3415fef0-dbf4-4ece-bad0-6cd6831404db">WSD_SCOPES</a> structure that contains a list of WS-Discovery Scopes.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_scopes">WSD_SCOPES</a> structure that contains a list of WS-Discovery Scopes.
 
 
 ### -field XAddrs
 
-Reference to a <a href="https://msdn.microsoft.com/86d77741-39c3-44bd-b072-d2d4eb99e488">WSD_URI_LIST</a> structure that contains a list of WS-Discovery XAddrs.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_uri_list">WSD_URI_LIST</a> structure that contains a list of WS-Discovery XAddrs.
 
 
 ### -field MetadataVersion
@@ -84,7 +84,7 @@ The metadata version of this message.
 
 ### -field Any
 
-Reference to a <a href="https://msdn.microsoft.com/727149b4-31b0-4fd8-b0fa-eb773edb171e">WSDXML_ELEMENT</a> structure that specifies extension content allowed by the XML <b>ANY</b> keyword.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_element">WSDXML_ELEMENT</a> structure that specifies extension content allowed by the XML <b>ANY</b> keyword.
 
 
 ## -see-also
@@ -92,15 +92,15 @@ Reference to a <a href="https://msdn.microsoft.com/727149b4-31b0-4fd8-b0fa-eb773
 
 
 
-<a href="https://msdn.microsoft.com/0eaa4348-968e-4b45-9509-8b15476edaa1">ResolveMatches Message</a>
+<a href="https://docs.microsoft.com/windows/desktop/WsdApi/resolvematches-message">ResolveMatches Message</a>
 
 
 
-<a href="https://msdn.microsoft.com/f969f249-6c1e-4c0c-8da6-ec7069b06e20">WSD_RESOLVE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_resolve">WSD_RESOLVE</a>
 
 
 
-<a href="https://msdn.microsoft.com/a6094069-af17-4921-b2c3-4ec89cbbb6f6">WSD_RESOLVE_MATCHES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_resolve_matches">WSD_RESOLVE_MATCHES</a>
  
 
  

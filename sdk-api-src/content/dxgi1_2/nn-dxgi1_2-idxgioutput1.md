@@ -55,7 +55,7 @@ An <b>IDXGIOutput1</b> interface represents an adapter output (such as a monitor
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIOutput1</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb174546(v=VS.85).aspx">IDXGIOutput</a>. <b>IDXGIOutput1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIOutput1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgioutput">IDXGIOutput</a>. <b>IDXGIOutput1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IDXGIOutput1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/32B13906-0920-4891-B1E7-BCB291E78E73">DuplicateOutput</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutput1-duplicateoutput">DuplicateOutput</a>
 </td>
 <td align="left" width="63%">
 Creates a desktop duplication interface from the <b>IDXGIOutput1</b> interface that represents an adapter output.
@@ -79,7 +79,7 @@ Creates a desktop duplication interface from the <b>IDXGIOutput1</b> interface t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D71ED536-0D90-4E0D-8683-6260E31EAF20">FindClosestMatchingMode1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutput1-findclosestmatchingmode1">FindClosestMatchingMode1</a>
 </td>
 <td align="left" width="63%">
 Finds the display mode that most closely matches the requested display mode.
@@ -88,7 +88,7 @@ Finds the display mode that most closely matches the requested display mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/49522ED9-30AD-4F39-96D2-BB6677D72349">GetDisplayModeList1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutput1-getdisplaymodelist1">GetDisplayModeList1</a>
 </td>
 <td align="left" width="63%">
 Gets the display modes that match the requested format and other input options.
@@ -97,7 +97,7 @@ Gets the display modes that match the requested format and other input options.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/120BC7CD-A4B2-4688-9A11-0BD59761B5F1">GetDisplaySurfaceData1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutput1-getdisplaysurfacedata1">GetDisplaySurfaceData1</a>
 </td>
 <td align="left" width="63%">
 Copies the display surface (front buffer) to a user-provided resource.
@@ -111,7 +111,7 @@ Copies the display surface (front buffer) to a user-provided resource.
 
 
 
-To determine  the outputs that are available from the adapter, use <a href="https://msdn.microsoft.com/en-us/library/Bb174525(v=VS.85).aspx">IDXGIAdapter::EnumOutputs</a>. To determine the specific output that the swap chain will update, use <a href="https://msdn.microsoft.com/en-us/library/Bb174571(v=VS.85).aspx">IDXGISwapChain::GetContainingOutput</a>. You can then call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> from any  <a href="https://msdn.microsoft.com/en-us/library/Bb174546(v=VS.85).aspx">IDXGIOutput</a> object to obtain an <b>IDXGIOutput1</b> object.
+To determine  the outputs that are available from the adapter, use <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiadapter-enumoutputs">IDXGIAdapter::EnumOutputs</a>. To determine the specific output that the swap chain will update, use <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-getcontainingoutput">IDXGISwapChain::GetContainingOutput</a>. You can then call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> from any  <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgioutput">IDXGIOutput</a> object to obtain an <b>IDXGIOutput1</b> object.
 
 
 
@@ -121,11 +121,11 @@ To determine  the outputs that are available from the adapter, use <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/b561b26b-961c-4d5e-8483-56b51b989bf7">DXGI Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174546(v=VS.85).aspx">IDXGIOutput</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgioutput">IDXGIOutput</a>
  
 
  

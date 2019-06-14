@@ -91,15 +91,15 @@ Enumerates only those linked or embedded objects that are currently in the runni
 
 
 
-<a href="https://msdn.microsoft.com/5aaed96f-39c1-4201-80d0-a2a8a177b65e">IEnumUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/7d825c71-506c-4fd3-ab48-6006f2858d05">IOleContainer::EnumObjects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecontainer-enumobjects">IOleContainer::EnumObjects</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ae01518-8762-4bce-ad9c-4dc2635e743d">IVBGetControl::EnumControls</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vbinterf/nf-vbinterf-ivbgetcontrol-enumcontrols">IVBGetControl::EnumControls</a>
  
 
  

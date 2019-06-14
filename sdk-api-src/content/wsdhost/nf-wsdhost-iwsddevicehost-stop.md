@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sends a WS-Discovery <a href="https://msdn.microsoft.com/7b9abfcc-28ab-4f29-af69-6dc68e3f51b6">Bye</a> message and stops the host. After a host has been successfully stopped, it must be terminated with <a href="https://msdn.microsoft.com/2a8df6fb-2834-44f4-9f25-454dcc2ff660">IWSDDeviceHost::Terminate</a> before being released.
+Sends a WS-Discovery <a href="https://docs.microsoft.com/windows/desktop/WsdApi/bye-message">Bye</a> message and stops the host. After a host has been successfully stopped, it must be terminated with <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-terminate">IWSDDeviceHost::Terminate</a> before being released.
 
 
 ## -parameters
@@ -126,7 +126,7 @@ Calling <b>Stop</b> is not necessary if the host has not been started.
 
 
 
-<a href="https://msdn.microsoft.com/497d0331-c88d-4381-8990-94227a9b9659">IWSDDeviceHost</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>
  
 
  

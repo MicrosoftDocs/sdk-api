@@ -59,7 +59,7 @@ ms.custom: 19H1
 
 
 The  <b>IWbemClassObject::PutMethod</b> is used to create a method. This call is only supported if the current object is a CIM class definition. Method manipulation is not available from 
-<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> pointers that point to CIM instances.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> pointers that point to CIM instances.
 
 The user cannot create methods with names that begin or end with an underscore. This is reserved for system classes and properties.
 
@@ -81,19 +81,19 @@ Reserved. This parameter must be 0 (zero).
 
 ### -param pInSignature [in]
 
-A pointer to a copy of the <a href="https://msdn.microsoft.com/d973feb5-27c4-4d8e-bf1b-0a455afa4375">__Parameters</a> system class that contains the in parameters for the method. This parameter is ignored if set to <b>NULL</b>.
+A pointer to a copy of the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/--parameters">__Parameters</a> system class that contains the in parameters for the method. This parameter is ignored if set to <b>NULL</b>.
 
 
 ### -param pOutSignature [in]
 
-A pointer to a copy of the <a href="https://msdn.microsoft.com/d973feb5-27c4-4d8e-bf1b-0a455afa4375">__Parameters</a> system class that contains the out parameters for the object. This parameter is ignored if set to <b>NULL</b>.
+A pointer to a copy of the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/--parameters">__Parameters</a> system class that contains the out parameters for the object. This parameter is ignored if set to <b>NULL</b>.
 
 
 ## -returns
 
 
 
-This method returns an <b>HRESULT</b> that indicates the status of the method call. The following list lists the value contained within an <b>HRESULT</b>. For general <b>HRESULT</b> values, see <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+This method returns an <b>HRESULT</b> that indicates the status of the method call. The following list lists the value contained within an <b>HRESULT</b>. For general <b>HRESULT</b> values, see <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -103,7 +103,7 @@ This method returns an <b>HRESULT</b> that indicates the status of the method ca
 
 
 For a method, the in and out parameters are described as properties in 
-<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> objects.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> objects.
 
 For example, consider the following method:
 
@@ -121,13 +121,13 @@ Class MyClass{
 
 In the previous example, the class has one method. To create the method programmatically, the user calls 
 <b>IWbemClassObject::PutMethod</b> with the <i>pInSignature</i> parameter that points to a copy of the system class 
-<a href="https://msdn.microsoft.com/d973feb5-27c4-4d8e-bf1b-0a455afa4375">__Parameters</a> that contains two properties: <b>Param1</b> and <b>Param2</b>. The <i>pOutSignature</i> points to a copy of the system class <b>__Parameters</b>  that contains two properties: <b>Param3</b> and <b>ReturnValue</b>.
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/--parameters">__Parameters</a> that contains two properties: <b>Param1</b> and <b>Param2</b>. The <i>pOutSignature</i> points to a copy of the system class <b>__Parameters</b>  that contains two properties: <b>Param3</b> and <b>ReturnValue</b>.
 
 The <b>ReturnValue</b> property of the object pointed to by <i>pOutSignature</i> determines the method return type. If <i>pOutSignature</i> is set to <b>NULL</b>, the return type is assumed to be VOID.
 
 An [in/out] parameter can be defined by adding the same property to both objects pointed to by the <i>pInSignature</i> and <i>pOutSignature</i> parameters.  In this case, the properties share the same <b>ID</b> qualifier value.
 
-Each property in a <a href="https://msdn.microsoft.com/d973feb5-27c4-4d8e-bf1b-0a455afa4375">__Parameters</a> class object other than <b>ReturnValue</b> must have an <b>ID</b> qualifier, a zero-based numeric that identifies the order in which the parameters appear. In this example, <b>Param1</b> would be 0, <b>Param2</b> 1, and <b>Param3</b> 2. No two parameters can have the same <b>ID</b> value, and no <b>ID</b> value can be skipped. If either condition occurs, 
+Each property in a <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/--parameters">__Parameters</a> class object other than <b>ReturnValue</b> must have an <b>ID</b> qualifier, a zero-based numeric that identifies the order in which the parameters appear. In this example, <b>Param1</b> would be 0, <b>Param2</b> 1, and <b>Param3</b> 2. No two parameters can have the same <b>ID</b> value, and no <b>ID</b> value can be skipped. If either condition occurs, 
 <b>IWbemClassObject::PutMethod</b> returns <b>WBEM_E_NONCONSECUTIVE_PARAMETER_IDS</b>.
 
 <div class="alert"><b>Note</b>  The caller must call <b>IWbemClassObject::Release</b> on the <i>pInSignature</i> and <i>pOutSignature</i> pointers when these objects are no longer required.</div>
@@ -140,15 +140,15 @@ Each property in a <a href="https://msdn.microsoft.com/d973feb5-27c4-4d8e-bf1b-0
 
 
 
-<a href="https://msdn.microsoft.com/71cbecde-33c4-4bf1-9793-bef6d823dcac">Creating a Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-method">Creating a Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/d4775fe0-62bf-40a6-8e2c-7bc8c3d92e1f">IWbemClassObject::GetMethod</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-getmethod">IWbemClassObject::GetMethod</a>
  
 
  

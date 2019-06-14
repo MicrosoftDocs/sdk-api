@@ -81,7 +81,7 @@ A pointer to a buffer that receives the full path to the file that is found. Thi
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -93,7 +93,7 @@ If the function fails, the return value is <b>FALSE</b>. To retrieve extended er
 The function searches for the file specified by the <i>InputPathName</i> parameter beginning at the path specified in the <i>RootPath</i> parameter. The maximum path depth that is allowed in the <i>RootPath</i> is 32 directories. When the function finds the file in the directory tree, it places the full path to the file in the buffer specified by the <i>OutputPathBuffer</i> parameter. The underlying file system specifies the order of the subdirectory search.
 
 The search can be canceled if you register a 
-<a href="https://msdn.microsoft.com/f3ba952b-ecc5-4235-a806-00c82d40e611">SymRegisterCallbackProc64</a> callback function. For every directory searched, 
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-psymbol_registered_callback">SymRegisterCallbackProc64</a> callback function. For every directory searched, 
 <b>SearchTreeForFile</b> calls this callback function with CBA_DEFERRED_SYMBOL_LOAD_CANCEL. If the callback function returns <b>TRUE</b>, 
 <b>SearchTreeForFile</b> cancels the search.
 
@@ -111,7 +111,7 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 
-<a href="https://msdn.microsoft.com/7b28f70b-2d97-4cc2-8064-dfb806f9cffa">DbgHelp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
  
 
  

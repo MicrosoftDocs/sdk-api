@@ -52,8 +52,8 @@ ms.custom: 19H1
 The 
 <b>IWbemEventConsumerProvider</b> interface provides the primary interface for an event consumer provider. Through 
 this interface and the 
-<a href="https://msdn.microsoft.com/196c839a-5b8f-4ff6-b6cf-3483db275e8b">FindConsumer</a> method, an event consumer provider can indicate which event consumers should receive a given event. The first time WMI delivers an event to a particular consumer, WMI calls 
-<a href="https://msdn.microsoft.com/196c839a-5b8f-4ff6-b6cf-3483db275e8b">FindConsumer</a> to retrieve a pointer to the sink for that physical consumer. WMI then sends all subsequent occurrences of the event the sink provided by 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventconsumerprovider-findconsumer">FindConsumer</a> method, an event consumer provider can indicate which event consumers should receive a given event. The first time WMI delivers an event to a particular consumer, WMI calls 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventconsumerprovider-findconsumer">FindConsumer</a> to retrieve a pointer to the sink for that physical consumer. WMI then sends all subsequent occurrences of the event the sink provided by 
 <b>FindConsumer</b>.
 
 If you implement a permanent event consumer, you must implement 
@@ -62,7 +62,7 @@ If you implement a permanent event consumer, you must implement
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemEventConsumerProvider</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWbemEventConsumerProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemEventConsumerProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemEventConsumerProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,11 +77,11 @@ The <b>IWbemEventConsumerProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/196c839a-5b8f-4ff6-b6cf-3483db275e8b">FindConsumer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventconsumerprovider-findconsumer">FindConsumer</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Management to retrieve an 
-<a href="https://msdn.microsoft.com/a890aefe-e35e-4635-874d-953194f99a82">IWbemUnboundObjectSink</a> object for a particular logical consumer.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbemunboundobjectsink">IWbemUnboundObjectSink</a> object for a particular logical consumer.
 
 </td>
 </tr>

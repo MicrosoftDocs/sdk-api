@@ -51,9 +51,9 @@ ms.custom: 19H1
 
 The 
 <b>TcDeregisterClient</b> function deregisters a client with the Traffic Control Interface (TCI). Before deregistering, a client must delete each installed flow and filter with the 
-<a href="https://msdn.microsoft.com/6e62b55e-9919-44be-a9ae-f1319cc82d76">TcDeleteFlow</a> and 
-<a href="https://msdn.microsoft.com/3a9eaffc-78d8-4473-a2d3-c060b104abd3">TcDeleteFilter</a> functions, and close all open interfaces with the 
-<a href="https://msdn.microsoft.com/c7c78f98-0890-4889-994e-bbac08ba9c44">TcCloseInterface</a> function, respectively.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcdeleteflow">TcDeleteFlow</a> and 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcdeletefilter">TcDeleteFilter</a> functions, and close all open interfaces with the 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tccloseinterface">TcCloseInterface</a> function, respectively.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ The
 ### -param ClientHandle [in]
 
 Handle assigned to the client through the previous call to the 
-<a href="https://msdn.microsoft.com/10bbc08d-4bfa-4a64-b5b8-b720d7bc3185">TcRegisterClient</a> function.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcregisterclient">TcRegisterClient</a> function.
 
 
 ## -returns
@@ -121,7 +121,7 @@ Interfaces are still open for this client. all interfaces must be closed to dere
 
 Once a client calls 
 <b>TcDeregisterClient</b>, the only traffic control function the client is allowed to call is 
-<a href="https://msdn.microsoft.com/10bbc08d-4bfa-4a64-b5b8-b720d7bc3185">TcRegisterClient</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcregisterclient">TcRegisterClient</a>.
 
 <div class="alert"><b>Note</b>  Use of the 
 <b>TcDeregisterClient</b> function requires administrative privilege.</div>
@@ -134,19 +134,19 @@ Once a client calls
 
 
 
-<a href="https://msdn.microsoft.com/c7c78f98-0890-4889-994e-bbac08ba9c44">TcCloseInterface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tccloseinterface">TcCloseInterface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3a9eaffc-78d8-4473-a2d3-c060b104abd3">TcDeleteFilter</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcdeletefilter">TcDeleteFilter</a>
 
 
 
-<a href="https://msdn.microsoft.com/6e62b55e-9919-44be-a9ae-f1319cc82d76">TcDeleteFlow</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcdeleteflow">TcDeleteFlow</a>
 
 
 
-<a href="https://msdn.microsoft.com/10bbc08d-4bfa-4a64-b5b8-b720d7bc3185">TcRegisterClient</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcregisterclient">TcRegisterClient</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets a given number <a href="https://msdn.microsoft.com/b6817676-affb-4bb3-adba-e24e0b75ad10">IWICColorContext</a> profiles to the frame.
+Sets a given number <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwiccolorcontext">IWICColorContext</a> profiles to the frame.
 
 
 ## -parameters
@@ -62,14 +62,14 @@ Sets a given number <a href="https://msdn.microsoft.com/b6817676-affb-4bb3-adba-
 
 Type: <b>UINT</b>
 
-The number of <a href="https://msdn.microsoft.com/b6817676-affb-4bb3-adba-e24e0b75ad10">IWICColorContext</a> profiles to set.
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwiccolorcontext">IWICColorContext</a> profiles to set.
 
 
 ### -param ppIColorContext [in]
 
-Type: <b><a href="https://msdn.microsoft.com/b6817676-affb-4bb3-adba-e24e0b75ad10">IWICColorContext</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwiccolorcontext">IWICColorContext</a>**</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/b6817676-affb-4bb3-adba-e24e0b75ad10">IWICColorContext</a> pointer containing the color contexts profiles to set to the frame.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwiccolorcontext">IWICColorContext</a> pointer containing the color contexts profiles to set to the frame.
 
 
 ## -returns
@@ -91,12 +91,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 <li><b>BMP</b>Setting color contexts is unsupported. This function will return <b>WINCODEC_ERR_UNSUPPORTEDOPERATION</b>.
 
 </li>
-<li><b>PNG</b>Setting at most one color context is supported, and additional color contexts will be ignored. This context must be a <a href="https://msdn.microsoft.com/en-us/library/Ee719815(v=VS.85).aspx">WICColorContextProfile</a>, and is used to encode the iCCP, gAMA, and cHRM chunks in the PNG file.
+<li><b>PNG</b>Setting at most one color context is supported, and additional color contexts will be ignored. This context must be a <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wiccolorcontexttype">WICColorContextProfile</a>, and is used to encode the iCCP, gAMA, and cHRM chunks in the PNG file.
 
 </li>
-<li><b>JPEG, TIFF, JPEG-XR</b>Setting up to one <a href="https://msdn.microsoft.com/en-us/library/Ee719815(v=VS.85).aspx">WICColorContextProfile</a> and one  <a href="https://msdn.microsoft.com/en-us/library/Ee719815(v=VS.85).aspx">WICColorContextExifColorSpace</a> is supported. Users must not provide more than one of each type of color context, as all but the last context of each type will be ignored. In JPEG, the <b>WICColorContextProfile</b> is encoded to JPEG APP2 ICC metadata block.
+<li><b>JPEG, TIFF, JPEG-XR</b>Setting up to one <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wiccolorcontexttype">WICColorContextProfile</a> and one  <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wiccolorcontexttype">WICColorContextExifColorSpace</a> is supported. Users must not provide more than one of each type of color context, as all but the last context of each type will be ignored. In JPEG, the <b>WICColorContextProfile</b> is encoded to JPEG APP2 ICC metadata block.
 
-In TIFF and JPEG-XR, the  <a href="https://msdn.microsoft.com/en-us/library/Ee719815(v=VS.85).aspx">WICColorContextProfile</a> is encoded to the IFD ICC profile metadata block (IFD tag 0x8773). In all three formats, the <a href="https://msdn.microsoft.com/en-us/library/Ee719815(v=VS.85).aspx">WICColorContextExifColorSpace</a> is encoded to EXIF colorspace metadata block (EXIF tag 0xA001).
+In TIFF and JPEG-XR, the  <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wiccolorcontexttype">WICColorContextProfile</a> is encoded to the IFD ICC profile metadata block (IFD tag 0x8773). In all three formats, the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wiccolorcontexttype">WICColorContextExifColorSpace</a> is encoded to EXIF colorspace metadata block (EXIF tag 0xA001).
 
 
 </li>

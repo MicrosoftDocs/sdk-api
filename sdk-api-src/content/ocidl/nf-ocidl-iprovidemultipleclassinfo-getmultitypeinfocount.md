@@ -76,7 +76,7 @@ This method can return the standard return values E_INVALIDARG, E_POINTER, E_FAI
 
 
 
-<a href="https://msdn.microsoft.com/87407830-b34b-4d4e-a5cc-551f47cffb75">IProvideMultipleClassInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iprovidemultipleclassinfo">IProvideMultipleClassInfo</a>
  
 
  

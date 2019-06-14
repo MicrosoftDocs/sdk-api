@@ -69,7 +69,7 @@ A pointer to the context which is a client-defined value.  CLFS ignores this val
 
 ### -field LogFullHandlerCallback
 
-Called when an asynchronous request is initiated when <a href="https://msdn.microsoft.com/ed4b067f-9386-4bec-a6dc-b22d6fd52390">HandleLogFull</a> completes.
+Called when an asynchronous request is initiated when <a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmtw32/nf-clfsmgmtw32-handlelogfull">HandleLogFull</a> completes.
 
 
 ### -field LogUnpinnedCallback

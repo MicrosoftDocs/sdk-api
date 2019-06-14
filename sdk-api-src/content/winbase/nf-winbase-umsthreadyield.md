@@ -60,7 +60,7 @@ Yields control to the user-mode scheduling (UMS) scheduler thread on which the c
 
 ### -param SchedulerParam [in]
 
-A parameter to pass to the scheduler thread's <a href="https://msdn.microsoft.com/10de1c48-255d-45c3-acf0-25f8a564b585">UmsSchedulerProc</a> function.
+A parameter to pass to the scheduler thread's <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nc-winnt-rtl_ums_scheduler_entry_point">UmsSchedulerProc</a> function.
 
 
 ## -returns
@@ -69,7 +69,7 @@ A parameter to pass to the scheduler thread's <a href="https://msdn.microsoft.co
 
 If the function succeeds, it returns a nonzero value.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -92,7 +92,7 @@ The application's scheduler is responsible for rescheduling the worker thread.
 
 
 
-<a href="https://msdn.microsoft.com/10de1c48-255d-45c3-acf0-25f8a564b585">UmsSchedulerProc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nc-winnt-rtl_ums_scheduler_entry_point">UmsSchedulerProc</a>
  
 
  

@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>DS_NAME_RESULT_ITEM</b> structure contains a name converted by the 
-<a href="https://msdn.microsoft.com/f812a001-5aab-4c62-87bd-54f95792e271">DsCrackNames</a> function, along with associated error and domain data.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dscracknamesa">DsCrackNames</a> function, along with associated error and domain data.
 
 
 ## -struct-fields
@@ -62,7 +62,7 @@ The <b>DS_NAME_RESULT_ITEM</b> structure contains a name converted by the
 
 ### -field status
 
-Contains one of the <a href="https://msdn.microsoft.com/8475133c-4bc8-4545-bd54-15d4e7b07869">DS_NAME_ERROR</a> values that indicates the status of this name conversion.
+Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ne-ntdsapi-ds_name_error">DS_NAME_ERROR</a> values that indicates the status of this name conversion.
 
 
 ### -field string
@@ -77,7 +77,7 @@ Contains one of the <a href="https://msdn.microsoft.com/8475133c-4bc8-4545-bd54-
 
 ### -field pDomain
 
-Pointer to a null-terminated string that specifies the DNS domain in which the object resides. This member will contain valid data if <b>status</b> contains <a href="https://msdn.microsoft.com/8475133c-4bc8-4545-bd54-15d4e7b07869">DS_NAME_NO_ERROR</a> or <b>DS_NAME_ERROR_DOMAIN_ONLY</b>.
+Pointer to a null-terminated string that specifies the DNS domain in which the object resides. This member will contain valid data if <b>status</b> contains <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ne-ntdsapi-ds_name_error">DS_NAME_NO_ERROR</a> or <b>DS_NAME_ERROR_DOMAIN_ONLY</b>.
 
 
 ### -field pName
@@ -89,7 +89,7 @@ Pointer to a null-terminated string that specifies the newly formatted object na
 
 
 
-The <a href="https://msdn.microsoft.com/f812a001-5aab-4c62-87bd-54f95792e271">DsCrackNames</a> function returns an array of <b>DS_NAME_RESULT_ITEM</b> structures as part of the <a href="https://msdn.microsoft.com/8c3cedae-f998-482c-95db-33bca94e119b">DS_NAME_RESULT</a> structure.
+The <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dscracknamesa">DsCrackNames</a> function returns an array of <b>DS_NAME_RESULT_ITEM</b> structures as part of the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_name_resulta">DS_NAME_RESULT</a> structure.
 
 
 
@@ -99,15 +99,15 @@ The <a href="https://msdn.microsoft.com/f812a001-5aab-4c62-87bd-54f95792e271">Ds
 
 
 
-<a href="https://msdn.microsoft.com/8c3cedae-f998-482c-95db-33bca94e119b">DS_NAME_RESULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_name_resulta">DS_NAME_RESULT</a>
 
 
 
-<a href="https://msdn.microsoft.com/42b20d3b-1799-4f5f-b74e-fe9284dd8ac3">Domain Controller and Replication Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/domain-controller-and-replication-management-structures">Domain Controller and Replication Management Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/f812a001-5aab-4c62-87bd-54f95792e271">DsCrackNames</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dscracknamesa">DsCrackNames</a>
  
 
  

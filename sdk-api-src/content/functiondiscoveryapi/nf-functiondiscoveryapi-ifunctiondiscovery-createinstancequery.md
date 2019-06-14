@@ -66,7 +66,7 @@ The identifier of the function instance.
 
 ### -param pIFunctionDiscoveryNotification [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/1819fe08-b151-482d-8e2c-1d599fd15609">IFunctionDiscoveryNotification</a> interface implemented by the calling application. If specified, it enables the Function Discovery change notification process. This parameter can be <b>NULL</b>; however it is required for network providers.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> interface implemented by the calling application. If specified, it enables the Function Discovery change notification process. This parameter can be <b>NULL</b>; however it is required for network providers.
 
 
 ### -param pfdqcQueryContext [in, out]
@@ -76,7 +76,7 @@ A pointer to the context in which the query was created. The type <b>FDQUERYCONT
 
 ### -param ppIFunctionInstanceQuery [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/03343d85-c0db-436d-bedc-c001b1886173">IFunctionInstanceQuery</a> interface pointer used to return the generated query.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstancequery">IFunctionInstanceQuery</a> interface pointer used to return the generated query.
 
 
 ## -returns
@@ -133,9 +133,9 @@ The method is unable to allocate the memory required to perform this operation.
 
 
 
-Function Discovery Network providers only return instances through the <a href="https://msdn.microsoft.com/1819fe08-b151-482d-8e2c-1d599fd15609">IFunctionDiscoveryNotification</a> interface.
+Function Discovery Network providers only return instances through the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> interface.
 
-This method only initializes the query call. The <a href="https://msdn.microsoft.com/42618944-6ae6-45f0-85f9-3c958d719ed2">Execute</a> method of the <a href="https://msdn.microsoft.com/03343d85-c0db-436d-bedc-c001b1886173">IFunctionInstanceQuery</a> interface returned in <i>ppIFunctionInstanceQuery</i> must be called to perform the query and return any data.
+This method only initializes the query call. The <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstancequery-execute">Execute</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstancequery">IFunctionInstanceQuery</a> interface returned in <i>ppIFunctionInstanceQuery</i> must be called to perform the query and return any data.
 
 
 
@@ -145,11 +145,11 @@ This method only initializes the query call. The <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/3c255fb4-8f9d-47a2-9770-1aa528d07f43">Function Discovery Queries</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/function-discovery-queries">Function Discovery Queries</a>
 
 
 
-<a href="https://msdn.microsoft.com/352a8d61-7d3a-423d-8b7e-1163d4fa1e00">IFunctionDiscovery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscovery">IFunctionDiscovery</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains one index entry for an AVI 2.0 standard index. This structure is contained in the <a href="https://msdn.microsoft.com/b437b333-84a3-44d3-a4cc-0d07a331b010">AVISTDINDEX</a> structure.
+Contains one index entry for an AVI 2.0 standard index. This structure is contained in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/aviriff/ns-aviriff-avistdindex">AVISTDINDEX</a> structure.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ Contains one index entry for an AVI 2.0 standard index. This structure is contai
 
 ### -field dwOffset
 
-The offset, in bytes, to the start of the data. The offset is relative to the value of the <b>qwBaseOffset</b> member of the <a href="https://msdn.microsoft.com/b437b333-84a3-44d3-a4cc-0d07a331b010">AVISTDINDEX</a>. The value is the offset of the actual audio/video data in the chunk, not the offset of the start of the chunk.
+The offset, in bytes, to the start of the data. The offset is relative to the value of the <b>qwBaseOffset</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/aviriff/ns-aviriff-avistdindex">AVISTDINDEX</a>. The value is the offset of the actual audio/video data in the chunk, not the offset of the start of the chunk.
 
 
 ### -field dwSize
@@ -83,15 +83,15 @@ and countries.)
 
 
 
-<a href="https://msdn.microsoft.com/2d8cf5be-1252-4b58-89b1-f5c53ea17d0e">AVI RIFF File Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/avi-riff-file-reference">AVI RIFF File Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/b437b333-84a3-44d3-a4cc-0d07a331b010">AVISTDINDEX</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/aviriff/ns-aviriff-avistdindex">AVISTDINDEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
  
 
  

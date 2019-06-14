@@ -57,7 +57,7 @@ The <b>IWMPPlayerServices2</b> interface provides a method used by the host of a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPPlayerServices2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd563534(v=VS.85).aspx">IWMPPlayerServices2</a>. <b>IWMPPlayerServices2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPPlayerServices2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplayerservices2">IWMPPlayerServices2</a>. <b>IWMPPlayerServices2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IWMPPlayerServices2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563535(v=VS.85).aspx">setBackgroundProcessingPriority</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplayerservices2-setbackgroundprocessingpriority">setBackgroundProcessingPriority</a>
 </td>
 <td align="left" width="63%">
 Specifies a priority level for general background processing tasks.
@@ -90,19 +90,19 @@ Retrieve a pointer to an <b>IWMPPlayerServices2</b> interface by calling the COM
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563533(v=VS.85).aspx">IWMPPlayerServices Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplayerservices">IWMPPlayerServices Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563534(v=VS.85).aspx">IWMPPlayerServices2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplayerservices2">IWMPPlayerServices2</a>
 
 
 
-<a href="https://msdn.microsoft.com/68a0bdaf-ae1b-4ba1-817b-a31c68b9fddd">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/d543b2a0-a2cb-47e2-b50e-4513fc061b46">Remoting the Windows Media Player Control</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>
  
 
  

@@ -65,7 +65,7 @@ A pointer to a UMS thread context.
 
 ### -param UmsThreadInfoClass [in]
 
-A <a href="https://msdn.microsoft.com/2d6730b2-4d01-45f5-9514-0d91806f50d5">UMS_THREAD_INFO_CLASS</a> value that specifies the kind of information to retrieve. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_rtl_ums_thread_info_class">UMS_THREAD_INFO_CLASS</a> value that specifies the kind of information to retrieve. 
 
 
 ### -param UmsThreadInformation [out]
@@ -93,7 +93,7 @@ A pointer to a ULONG variable. On output, this parameter receives the number of 
 
 If the function succeeds, it returns a nonzero value.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. Possible error values include the following.
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible error values include the following.
 
 <table>
 <tr>
@@ -132,7 +132,7 @@ The specified information class is not supported.
 
 
 
-The <b>QueryUmsThreadInformation</b> function retrieves information about the specified UMS worker thread such as its application-defined context, its thread execution block (<a href="https://msdn.microsoft.com/fc77fc09-6319-4daa-ac96-1ded661ef800">TEB</a>), and whether the thread is suspended or terminated. 
+The <b>QueryUmsThreadInformation</b> function retrieves information about the specified UMS worker thread such as its application-defined context, its thread execution block (<a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-_teb">TEB</a>), and whether the thread is suspended or terminated. 
 
 The underlying structures for UMS worker threads are managed by the system. Information that is not exposed through <b>QueryUmsThreadInformation</b> should be considered reserved.
 
@@ -144,11 +144,11 @@ The underlying structures for UMS worker threads are managed by the system. Info
 
 
 
-<a href="https://msdn.microsoft.com/19f190fd-1f78-4bb6-93eb-73a5c522b44d">SetUmsThreadInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setumsthreadinformation">SetUmsThreadInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/2d6730b2-4d01-45f5-9514-0d91806f50d5">UMS_THREAD_INFO_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_rtl_ums_thread_info_class">UMS_THREAD_INFO_CLASS</a>
  
 
  

@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>get_ConfigurableItems</b> method retrieves the 
-<a href="https://msdn.microsoft.com/4d1a64f7-fbd0-4358-8911-112e43f1be4a">ConfigurableItems</a> property of the 
-<a href="https://msdn.microsoft.com/3f76ee8a-d195-4a69-99a3-31ef2c1c72d5">Merge</a> object. 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-configurableitems">ConfigurableItems</a> property of the 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-object">Merge</a> object. 
 
 
 ## -parameters
@@ -120,7 +120,7 @@ The function succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/877d3691-948f-4aea-89d8-0ff008126ccc">Merge Module Automation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
  
 
  

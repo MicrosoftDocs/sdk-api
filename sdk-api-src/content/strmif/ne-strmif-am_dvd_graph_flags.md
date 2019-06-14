@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>AM_DVD_GRAPH_FLAGS</b> enumeration specifies how the DVD Navigator builds a DVD playback graph. These flags are used with the <a href="https://msdn.microsoft.com/731d2f4b-2a54-451a-8d98-b5fdf47c1dc8">IDvdGraphBuilder::RenderDvdVideoVolume</a> method.
+The <b>AM_DVD_GRAPH_FLAGS</b> enumeration specifies how the DVD Navigator builds a DVD playback graph. These flags are used with the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdgraphbuilder-renderdvdvideovolume">IDvdGraphBuilder::RenderDvdVideoVolume</a> method.
 
 
 
@@ -62,7 +62,7 @@ The <b>AM_DVD_GRAPH_FLAGS</b> enumeration specifies how the DVD Navigator builds
 
 ### -field AM_DVD_HWDEC_PREFER
 
-Use a hardware decoder if possible. If none is available, use a software decoder. This is the default setting. Hardware DVD decoders are registered under the CLSID_DVDHWDecodersCategory filter category. See <a href="https://msdn.microsoft.com/cab4e2c9-eab9-4836-adfc-870490ca5b6b">Filter Categories</a>.
+Use a hardware decoder if possible. If none is available, use a software decoder. This is the default setting. Hardware DVD decoders are registered under the CLSID_DVDHWDecodersCategory filter category. See <a href="https://docs.microsoft.com/windows/desktop/DirectShow/filter-categories">Filter Categories</a>.
 
 
 ### -field AM_DVD_HWDEC_ONLY
@@ -87,14 +87,14 @@ Do not show video on the computer monitor. Use of this flag should be limited on
 
 ### -field AM_DVD_DO_NOT_CLEAR
 
-Do not clear the filter graph before building the DVD playback graph. By default, the <a href="https://msdn.microsoft.com/731d2f4b-2a54-451a-8d98-b5fdf47c1dc8">RenderDvdVideoVolume</a> method removes any existing filters from the graph before it builds the DVD playback graph. <div class="alert"><b>Note</b>  Applies to Windows Vista and later.</div>
+Do not clear the filter graph before building the DVD playback graph. By default, the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdgraphbuilder-renderdvdvideovolume">RenderDvdVideoVolume</a> method removes any existing filters from the graph before it builds the DVD playback graph. <div class="alert"><b>Note</b>  Applies to Windows Vista and later.</div>
 <div> </div>
 
 
 
 ### -field AM_DVD_VMR9_ONLY
 
-Use the <a href="https://msdn.microsoft.com/3885cca2-74b1-4066-8ecb-84c9841f9e66">Video Mixing Renderer Filter 9</a> (VMR-9) for rendering; fail if the VMR-9 is not available. Do not combine this flag with the AM_DVD_EVR_ONLY flag.
+Use the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-9">Video Mixing Renderer Filter 9</a> (VMR-9) for rendering; fail if the VMR-9 is not available. Do not combine this flag with the AM_DVD_EVR_ONLY flag.
 
 
 ### -field AM_DVD_EVR_ONLY
@@ -127,9 +127,9 @@ Do not combine more than one of the following flags:
 <li>AM_DVD_SWDEC_PREFER</li>
 <li>AM_DVD_SWDEC_ONLY</li>
 </ul>
-If you have already selected a video renderer by calling <a href="https://msdn.microsoft.com/e16cb767-87a9-49f6-a3a7-88166f2abe73">IDvdGraphBuilder::GetDvdInterface</a>, do not set the <b>AM_DVD_VMR9_ONLY</b> or <b>AM_DVD_EVR_ONLY</b> flag.
+If you have already selected a video renderer by calling <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdgraphbuilder-getdvdinterface">IDvdGraphBuilder::GetDvdInterface</a>, do not set the <b>AM_DVD_VMR9_ONLY</b> or <b>AM_DVD_EVR_ONLY</b> flag.
 
-To use the VMR-9, the decoder's <a href="https://msdn.microsoft.com/727db98f-96a1-4fe1-8315-0280541817c2">IAMDecoderCaps::GetDecoderCaps</a> method must return the <b>AM_GETDECODERCAP_QUERY_VMR9_SUPPORT</b> flag. To use the EVR, the decoder's <b>GetDecoderCaps</b> method must return the <b>AM_GETDECODERCAP_QUERY_EVR_SUPPORT</b> flag.
+To use the VMR-9, the decoder's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamdecodercaps-getdecodercaps">IAMDecoderCaps::GetDecoderCaps</a> method must return the <b>AM_GETDECODERCAP_QUERY_VMR9_SUPPORT</b> flag. To use the EVR, the decoder's <b>GetDecoderCaps</b> method must return the <b>AM_GETDECODERCAP_QUERY_EVR_SUPPORT</b> flag.
 
 
 
@@ -139,11 +139,11 @@ To use the VMR-9, the decoder's <a href="https://msdn.microsoft.com/727db98f-96a
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/731d2f4b-2a54-451a-8d98-b5fdf47c1dc8">IDvdGraphBuilder::RenderDvdVideoVolume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdgraphbuilder-renderdvdvideovolume">IDvdGraphBuilder::RenderDvdVideoVolume</a>
  
 
  

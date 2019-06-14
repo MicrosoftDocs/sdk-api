@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deprecated. Updates the value of the <b>_eSecureLockIcon</b> member of the <a href="https://msdn.microsoft.com/d56e42e8-a556-4470-82d9-466edd84214f">BASEBROWSERDATA</a> structure, which tracks the icon indicating a secure site, as well as updating the icon itself in the UI.
+Deprecated. Updates the value of the <b>_eSecureLockIcon</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/ns-shdeprecated-basebrowserdatalh">BASEBROWSERDATA</a> structure, which tracks the icon indicating a secure site, as well as updating the icon itself in the UI.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Deprecated. Updates the value of the <b>_eSecureLockIcon</b> member of the <a hr
 
 Type: <b>int</b>
 
-One of the following values indicating the secure lock status. Note that each value is provided in a SET and SUGGEST form. For more details, see <a href="https://msdn.microsoft.com/d56e42e8-a556-4470-82d9-466edd84214f">BASEBROWSERDATA</a>.
+One of the following values indicating the secure lock status. Note that each value is provided in a SET and SUGGEST form. For more details, see <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/ns-shdeprecated-basebrowserdatalh">BASEBROWSERDATA</a>.
 
 
 

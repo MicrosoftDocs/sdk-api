@@ -73,7 +73,7 @@ Items are displayed as title strings under their large (32x32) icon representati
 #### MMCLV_VIEWSTYLE_REPORT
 
 Items are displayed as title strings to the right of their small (16x16) icon representations. Items are tabulated under the header in the zero position of the zero-based index on the left side of the result view pane. Subsequent headers are produced from left to right and corresponding subitems are placed beneath each. To enter the report mode, you must have already called 
-<a href="https://msdn.microsoft.com/bca6fbef-d00b-4f25-823e-fff76a96f59d">IConsole::SetHeader</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814793(v=vs.85)">IConsole::SetHeader</a>.
 
 
 
@@ -92,7 +92,7 @@ Items are displayed as title strings to the right of their small (16x16) icon re
 #### MMCLV_VIEWSTYLE_FILTERED
 
 Allows a snap-in to programmatically set the view mode to filtered view. For more information about filtered views, see 
-<a href="https://msdn.microsoft.com/4be29e44-7e64-4c2c-820b-26c6cfea0661">Adding Filtered Views</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/adding-filtered-views">Adding Filtered Views</a>.
 
 This parameter must not be <b>NULL</b>.
 
@@ -111,7 +111,7 @@ This method can return one of these values.
 
 
 This method provides the same functionality for both virtual and non-virtual list views. For more information about a scenario where you could use <b>IResultData::SetViewMode</b>, see 
-<a href="https://msdn.microsoft.com/418a74bc-7ac1-42ae-9a19-1456b9f4ad89">Using List Views: Implementation Details</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-list-views-implementation-details">Using List Views: Implementation Details</a>.
 
 
 
@@ -121,15 +121,15 @@ This method provides the same functionality for both virtual and non-virtual lis
 
 
 
-<a href="https://msdn.microsoft.com/58f8bcdb-b062-4048-92fc-eb652ce62c5b">IResultData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdata">IResultData</a>
 
 
 
-<a href="https://msdn.microsoft.com/cca0c2a4-7a41-48d1-bdaa-27b7aad7cc05">IResultData2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdata2">IResultData2</a>
 
 
 
-<a href="https://msdn.microsoft.com/e6c9b3ef-3b12-42c1-9b3b-ad890b8bd05e">IResultData::GetViewMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-getviewmode">IResultData::GetViewMode</a>
  
 
  

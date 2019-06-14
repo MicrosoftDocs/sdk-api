@@ -54,7 +54,7 @@ The <b>IDsBrowseDomainTree</b> interface is used by an application to display a 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDsBrowseDomainTree</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDsBrowseDomainTree</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDsBrowseDomainTree</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDsBrowseDomainTree</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDsBrowseDomainTree</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/22b719fc-bd46-44c6-a690-af6e9767f9ce">BrowseTo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-browseto">BrowseTo</a>
 </td>
 <td align="left" width="63%">
 Displays a dialog box used to browse for a domain.
@@ -78,7 +78,7 @@ Displays a dialog box used to browse for a domain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e6f4dbbb-5e2f-470a-bfc0-5bb6e96c7a6c">FlushCachedDomains</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-flushcacheddomains">FlushCachedDomains</a>
 </td>
 <td align="left" width="63%">
 Frees the cached domain list.
@@ -87,16 +87,16 @@ Frees the cached domain list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d9334f4c-d5b0-445a-ad1b-8628f206b715">FreeDomains</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-freedomains">FreeDomains</a>
 </td>
 <td align="left" width="63%">
-Frees the memory allocated by the <a href="https://msdn.microsoft.com/42cd38c2-7470-49b5-9b64-d971f2a915c6">IDsBrowseDomainTree::GetDomains</a> method.
+Frees the memory allocated by the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-getdomains">IDsBrowseDomainTree::GetDomains</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/42cd38c2-7470-49b5-9b64-d971f2a915c6">GetDomains</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-getdomains">GetDomains</a>
 </td>
 <td align="left" width="63%">
 Retrieves the trust domains of the current computer.
@@ -105,7 +105,7 @@ Retrieves the trust domains of the current computer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1e070673-ce8d-4f68-a066-5baf38180745">SetComputer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-setcomputer">SetComputer</a>
 </td>
 <td align="left" width="63%">
 Specifies the computer and credentials to be used by this instance of the <b>IDsBrowseDomainTree</b> interface.
@@ -119,7 +119,7 @@ Specifies the computer and credentials to be used by this instance of the <b>IDs
 
 
 
-An instance of this interface is created by calling <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> with the <b>CLSID_DsDomainTreeBrowser</b> class identifier as shown below.
+An instance of this interface is created by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with the <b>CLSID_DsDomainTreeBrowser</b> class identifier as shown below.
 
 
 ```cpp
@@ -150,7 +150,7 @@ if(SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
  
 
  

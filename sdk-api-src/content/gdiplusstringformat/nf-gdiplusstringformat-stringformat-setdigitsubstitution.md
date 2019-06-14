@@ -63,29 +63,29 @@ The <b>StringFormat::SetDigitSubstitution</b> method sets the digit substitution
 Type: <b>LANGID</b>
 
 Sixteen-bit value that forms a NLS language identifier. The identifier specifies the language associated with the substitute digits. For example, if this 
-					<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object uses Arabic substitution digits, then this method will return a value that indicates an Arabic language. An NLS language identifier is constructed by the MAKELANGID macro, declared in Winnt.h. 
+					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object uses Arabic substitution digits, then this method will return a value that indicates an Arabic language. An NLS language identifier is constructed by the MAKELANGID macro, declared in Winnt.h. 
 
 
 ### -param substitute [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534179(v=VS.85).aspx">StringDigitSubstitute</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringdigitsubstitute">StringDigitSubstitute</a></b>
 
 Element of the 
-					<a href="https://msdn.microsoft.com/en-us/library/ms534179(v=VS.85).aspx">StringDigitSubstitute</a> enumeration that specifies the digit substitution method to be used. 
+					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringdigitsubstitute">StringDigitSubstitute</a> enumeration that specifies the digit substitution method to be used. 
 
 
 ## -returns
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 </strong>
 
 If the method succeeds, it returns Ok, which is an element of the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 
 
@@ -95,7 +95,7 @@ If the method fails, it returns one of the other elements of the
 
 
 The digit substitution method, specified by an element of the 
-				<a href="https://msdn.microsoft.com/en-us/library/ms534179(v=VS.85).aspx">StringDigitSubstitute</a> enumeration, replaces, in a string, Western European digits with digits that correspond to a user's locale or language.
+				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringdigitsubstitute">StringDigitSubstitute</a> enumeration, replaces, in a string, Western European digits with digits that correspond to a user's locale or language.
 
 When specifying LANG_NEUTRAL as the language ID, it is common practice to pass just LANG_NEUTRAL as in the following example:
 

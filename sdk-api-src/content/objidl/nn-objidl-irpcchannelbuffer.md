@@ -55,7 +55,7 @@ Marshals data between a COM client proxy and a COM server stub.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRpcChannelBuffer</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IRpcChannelBuffer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRpcChannelBuffer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRpcChannelBuffer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IRpcChannelBuffer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bcdd4783-4a75-42d0-86a9-ab2605abbbe1">FreeBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-freebuffer">FreeBuffer</a>
 </td>
 <td align="left" width="63%">
 Frees a previously allocated RPC channel buffer.
@@ -79,7 +79,7 @@ Frees a previously allocated RPC channel buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/775a15df-8bcf-4c1b-a8b9-5c7c03106c09">GetBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-getbuffer">GetBuffer</a>
 </td>
 <td align="left" width="63%">
 Retrieves a buffer into which data can be marshaled for transmission.
@@ -88,7 +88,7 @@ Retrieves a buffer into which data can be marshaled for transmission.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/34599869-0c85-403a-88c2-ea8e865d533a">GetDestCtx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-getdestctx">GetDestCtx</a>
 </td>
 <td align="left" width="63%">
 Retrieves the destination context for the RPC channel.
@@ -97,7 +97,7 @@ Retrieves the destination context for the RPC channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4068f0bb-35fb-452b-8ab1-1a38b1a0c2fa">IsConnected</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-isconnected">IsConnected</a>
 </td>
 <td align="left" width="63%">
 Determines whether the RPC channel is connected.
@@ -106,7 +106,7 @@ Determines whether the RPC channel is connected.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8a42fd06-252f-4c1b-bbdb-abc2e3887c46">SendReceive</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-sendreceive">SendReceive</a>
 </td>
 <td align="left" width="63%">
 Sends a method invocation across an RPC channel to the server stub.
@@ -121,15 +121,15 @@ Sends a method invocation across an RPC channel to the server stub.
 
 
 
-<a href="https://msdn.microsoft.com/e6f08949-f27d-4aba-adff-eaf9c356a928">IMarshal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a>
 
 
 
-<a href="https://msdn.microsoft.com/e1b18997-f99b-4611-8ba6-da28fd8df898">IRpcProxyBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcproxybuffer">IRpcProxyBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/0aa724f0-6110-4ebf-a0c1-d309074a61d9">IRpcStubBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a>
  
 
  

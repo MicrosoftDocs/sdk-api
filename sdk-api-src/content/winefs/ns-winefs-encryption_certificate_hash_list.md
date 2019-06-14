@@ -80,7 +80,7 @@ The number of certificate hashes in the list.
 ### -field pUsers
 
 A pointer to the first 
-<a href="https://msdn.microsoft.com/6930446c-5338-4ff9-a662-791fc9e7cefe">ENCRYPTION_CERTIFICATE_HASH</a> structure in the list. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-_encryption_certificate_hash">ENCRYPTION_CERTIFICATE_HASH</a> structure in the list. 
 
 
 ### -field pUsers.size_is
@@ -100,27 +100,27 @@ A pointer to the first
 
 
 
-<a href="https://msdn.microsoft.com/6930446c-5338-4ff9-a662-791fc9e7cefe">ENCRYPTION_CERTIFICATE_HASH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-_encryption_certificate_hash">ENCRYPTION_CERTIFICATE_HASH</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f20109f-727d-44a9-90a1-0adc19b00d28">File Encryption</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>
 
 
 
-<a href="https://msdn.microsoft.com/63d5811f-a135-45b0-8f23-fd8851f7bcca">FreeEncryptionCertificateHashList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winefs/nf-winefs-freeencryptioncertificatehashlist">FreeEncryptionCertificateHashList</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f8d0673-3c87-46a4-b7d5-3888d20bd9b8">QueryRecoveryAgentsOnEncryptedFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winefs/nf-winefs-queryrecoveryagentsonencryptedfile">QueryRecoveryAgentsOnEncryptedFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/1bdab753-e7f2-4c08-8b37-3903c0842227">QueryUsersOnEncryptedFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winefs/nf-winefs-queryusersonencryptedfile">QueryUsersOnEncryptedFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/c6672581-24b4-464c-b32d-48a04e56eef8">RemoveUsersFromEncryptedFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winefs/nf-winefs-removeusersfromencryptedfile">RemoveUsersFromEncryptedFile</a>
  
 
  

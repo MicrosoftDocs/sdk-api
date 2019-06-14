@@ -142,7 +142,7 @@ NULL pointer argument.
 
 
 
-<a href="https://msdn.microsoft.com/5b413ade-4ab2-45fa-98b2-fd93c8f89a43">IMSVidInputDevice Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidinputdevice">IMSVidInputDevice Interface</a>
  
 
  

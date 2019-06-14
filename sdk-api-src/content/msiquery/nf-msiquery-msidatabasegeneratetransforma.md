@@ -63,12 +63,12 @@ The
 
 ### -param hDatabase [in]
 
-Handle to the database obtained from <a href="https://msdn.microsoft.com/984996e3-aa2c-49ff-9067-ebefd3afdecb">MsiOpenDatabase</a> that includes the changes.
+Handle to the database obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiopendatabasea">MsiOpenDatabase</a> that includes the changes.
 
 
 ### -param hDatabaseReference [in]
 
-Handle to the database obtained from <a href="https://msdn.microsoft.com/984996e3-aa2c-49ff-9067-ebefd3afdecb">MsiOpenDatabase</a> that does not include the changes.
+Handle to the database obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiopendatabasea">MsiOpenDatabase</a> that does not include the changes.
 
 
 ### -param szTransformFile [in]
@@ -109,13 +109,13 @@ For tables that exist in both databases, the only difference between the two sch
 Because the list delimiter for transforms, sources and patches is a semicolon, this character should not be used for filenames or paths.
 
 This function does not generate a Summary Information stream. Use 
-<a href="https://msdn.microsoft.com/7ed6738c-f693-477e-a3d7-e4f50d222fdb">MsiCreateTransformSummaryInfo</a> to create the stream for an existing transform.
+<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msicreatetransformsummaryinfoa">MsiCreateTransformSummaryInfo</a> to create the stream for an existing transform.
 
 If <i>szTransformFile</i> is null, you can test whether two databases are identical without creating a transform. If the databases are identical, ERROR_NO_DATA is returned, NOERROR is returned if differences are found.
 
 This function cannot be called from custom actions. A call to this function from a custom action causes the function to fail.
 
-If the function fails, you can obtain extended error information by using <a href="https://msdn.microsoft.com/0d6f4506-367b-43d7-ba1c-2a93c1d0cc51">MsiGetLastErrorRecord</a>.
+If the function fails, you can obtain extended error information by using <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
 
 
 
@@ -125,11 +125,11 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Database Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Database Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/525feb70-27aa-4fe2-a19f-9438168ca046">Database Transforms</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/database-transforms">Database Transforms</a>
  
 
  

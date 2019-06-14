@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>IWTSProtocolShadowCallback::InvokeTargetShadow</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://msdn.microsoft.com/76682f4c-2651-4f5d-b96d-4d84bae7933c">IWRdsProtocolShadowCallback::InvokeTargetShadow</a>.]
+<p class="CCE_Message">[<b>IWTSProtocolShadowCallback::InvokeTargetShadow</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolshadowcallback-invoketargetshadow">IWRdsProtocolShadowCallback::InvokeTargetShadow</a>.]
 
 Instructs the Remote Desktop Services service to begin the target side of the shadow and passes any information that must be exchanged between the client and the target.
 
@@ -120,7 +120,7 @@ A pointer to a string that contains the name of the shadow client.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -139,7 +139,7 @@ The four parameters <i>pParam1</i>, <i>pParam2</i>, <i>pParam3</i>, and <i>pPara
 
 
 
-<a href="https://msdn.microsoft.com/ce224b9f-161c-4133-97d9-05c339eefb77">IWTSProtocolShadowCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolshadowcallback">IWTSProtocolShadowCallback</a>
  
 
  

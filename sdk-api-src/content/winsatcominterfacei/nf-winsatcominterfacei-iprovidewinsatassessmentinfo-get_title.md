@@ -69,7 +69,7 @@ Note that the title includes a trailing colon character. For example, the title 
 
 #### Examples
 
-For an example, see the <a href="https://msdn.microsoft.com/dfa4d740-2dfd-41b5-a0be-a241f9ece939">IProvideWinSATResultsInfo::GetAssessmentInfo</a> method.
+For an example, see the <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-getassessmentinfo">IProvideWinSATResultsInfo::GetAssessmentInfo</a> method.
 
 <div class="code"></div>
 
@@ -80,7 +80,7 @@ For an example, see the <a href="https://msdn.microsoft.com/dfa4d740-2dfd-41b5-a
 
 
 
-<a href="https://msdn.microsoft.com/90036c75-6e9e-4d25-804b-02c423616de1">IProvideWinSATAssessmentInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iprovidewinsatassessmentinfo">IProvideWinSATAssessmentInfo</a>
  
 
  

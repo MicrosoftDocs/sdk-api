@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>addAttributeToRequest</b> method adds an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">attribute</a> to the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate request</a>.  This method was first defined in the <a href="https://msdn.microsoft.com/4e3e3792-aa41-46fe-bf75-26c2b8959f7a">ICEnroll4</a> interface.
+The <b>addAttributeToRequest</b> method adds an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attribute</a> to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>.  This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a> interface.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ This parameter is reserved for future use and must be set to zero.
 
 ### -param strName [in]
 
-An <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) that represents the attribute name.
+An <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) that represents the attribute name.
 
 
 ### -param strValue [in]
@@ -83,7 +83,7 @@ A base64-encoded or binary attribute value.
  If the method succeeds, the method returns <b>S_OK</b>.
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see 
-<a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 

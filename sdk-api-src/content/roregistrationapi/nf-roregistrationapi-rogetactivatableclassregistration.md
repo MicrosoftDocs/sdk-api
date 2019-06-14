@@ -62,7 +62,7 @@ Enables retrieving class registration information.
 
 ### -param activatableClassId [in]
 
-Type: <b><a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a></b>
 
 The ID of the activatable class.
 

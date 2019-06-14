@@ -65,7 +65,7 @@ Retrieves the firmware type of the local computer.
 
 ### -param FirmwareType [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/c058e20e-11f9-4652-b658-9fd0a43d4224">FIRMWARE_TYPE</a> enumeration.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_firmware_type">FIRMWARE_TYPE</a> enumeration.
 
 
 ## -returns
@@ -74,7 +74,7 @@ A pointer to a <a href="https://msdn.microsoft.com/c058e20e-11f9-4652-b658-9fd0a
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+If the function fails, the return value is zero. To get extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 
 
@@ -84,7 +84,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/c058e20e-11f9-4652-b658-9fd0a43d4224">FIRMWARE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_firmware_type">FIRMWARE_TYPE</a>
  
 
  

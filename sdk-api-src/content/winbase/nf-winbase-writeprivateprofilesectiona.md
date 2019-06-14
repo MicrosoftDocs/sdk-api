@@ -87,7 +87,7 @@ If the file exists and was created using Unicode characters, the function writes
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -152,19 +152,19 @@ When looking at values in the registry that specify other registry locations, th
 
 
 
-<a href="https://msdn.microsoft.com/17e01d6b-e1de-45a5-a620-c967694c24b9">GetPrivateProfileSection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprivateprofilesection">GetPrivateProfileSection</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9ffad7f-c0b6-44ce-bf22-fbe45ca98bf4">RegCreateKeyEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/29b0e27c-4999-4e92-bd8b-bba74920bccc">RegSetValueEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regsetvalueexa">RegSetValueEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/f712a7b4-d945-499c-b003-22204bc590d7">WriteProfileSection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeprofilesectiona">WriteProfileSection</a>
  
 
  

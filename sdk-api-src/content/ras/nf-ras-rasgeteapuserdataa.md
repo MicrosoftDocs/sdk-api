@@ -97,7 +97,7 @@ If the buffer specified by the <i>pbEapData</i> parameter is not large enough, <
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is one of the following error codes or a value from <a href="https://msdn.microsoft.com/1fa41438-7c93-4e9c-851c-652fba23da4f">Routing and Remote Access Error Codes</a> or Winerror.h.
+If the function fails, the return value is one of the following error codes or a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 <table>
 <tr>
@@ -134,7 +134,7 @@ The buffer pointed to by <i>pbEapData</i> is too small to receive the data. The 
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/6b1a1c73-28af-43ff-b79c-c796ddae219c">RasGetEapUserData</a> was unable to open the specified phone-book file.
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgeteapuserdataa">RasGetEapUserData</a> was unable to open the specified phone-book file.
 
 </td>
 </tr>
@@ -146,7 +146,7 @@ The buffer pointed to by <i>pbEapData</i> is too small to receive the data. The 
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/6b1a1c73-28af-43ff-b79c-c796ddae219c">RasGetEapUserData</a> was unable to find the specified entry in the phone book.
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgeteapuserdataa">RasGetEapUserData</a> was unable to find the specified entry in the phone book.
 
 </td>
 </tr>
@@ -158,7 +158,7 @@ The buffer pointed to by <i>pbEapData</i> is too small to receive the data. The 
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -173,19 +173,19 @@ Use
 
 
 
-<a href="https://msdn.microsoft.com/b5f28e70-845e-49be-9bb2-99691dc0fcf1">RASEAPINFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377242(v=vs.85)">RASEAPINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/702e5c42-cc8c-43cf-a0bf-d3e450c031a4">RasSetEapUserData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasseteapuserdataa">RasSetEapUserData</a>
 
 
 
-<a href="https://msdn.microsoft.com/5016fa0b-72eb-484e-b8d7-af9de2e25689">Remote Access Service (RAS) Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/5883a77a-6af8-47a8-bb28-6ef60a5aa2f1">Remote Access Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
  
 
  

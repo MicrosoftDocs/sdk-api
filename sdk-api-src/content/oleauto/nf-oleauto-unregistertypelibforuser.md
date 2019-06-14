@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Removes type library information that was registered by using <a href="https://msdn.microsoft.com/ca8ae169-f849-4df2-8537-095d65ad6a08">RegisterTypeLibForUser</a>.
+Removes type library information that was registered by using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-registertypelibforuser">RegisterTypeLibForUser</a>.
 
 
 ## -parameters
@@ -179,7 +179,7 @@ The type library could not be opened.
 
 
 
-Use <b>UnRegisterTypeLibForUser</b> to remove type library information for type libraries that were registered using the <a href="https://msdn.microsoft.com/ca8ae169-f849-4df2-8537-095d65ad6a08">RegisterTypeLibForUser</a> function.
+Use <b>UnRegisterTypeLibForUser</b> to remove type library information for type libraries that were registered using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-registertypelibforuser">RegisterTypeLibForUser</a> function.
 
 
 

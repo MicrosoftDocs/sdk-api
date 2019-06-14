@@ -60,7 +60,7 @@ The <b>IContextMenuCallback2::AddItem</b> method adds a single item to a context
 ### -param pItem [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/5ed4429c-e147-4097-8d52-11f5319dce2a">CONTEXTMENUITEM2</a> structure with the item to be added. This parameter cannot be <b>NULL</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_contextmenuitem2">CONTEXTMENUITEM2</a> structure with the item to be added. This parameter cannot be <b>NULL</b>.
 
 
 ## -returns
@@ -77,11 +77,11 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/5ed4429c-e147-4097-8d52-11f5319dce2a">CONTEXTMENUITEM2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_contextmenuitem2">CONTEXTMENUITEM2</a>
 
 
 
-<a href="https://msdn.microsoft.com/97f0f574-6575-4be6-9c30-ed68e3438d30">IContextMenuCallback2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenucallback2">IContextMenuCallback2</a>
  
 
  

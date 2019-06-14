@@ -64,7 +64,7 @@ Indicates whether a filter should be used on data sent to the voice pointed to b
 
 ### -field pOutputVoice
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee415917(v=VS.85).aspx">IXAudio2Voice</a> that will be the target of the send. The <b>pOutputVoice</b> member cannot be NULL.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voice">IXAudio2Voice</a> that will be the target of the send. The <b>pOutputVoice</b> member cannot be NULL.
 
 
 ## -remarks
@@ -82,31 +82,31 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/40004128-4abb-4bcd-fe76-91276be8abec">How to: Change Voice Volume</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/how-to--change-voice-volume">How to: Change Voice Volume</a>
 
 
 
-<a href="https://msdn.microsoft.com/76c1c138-4846-9c4f-7875-446867436ee9">How to: Use Submix Voices</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/how-to--use-submix-voices">How to: Use Submix Voices</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee418607(v=VS.85).aspx">IXAudio2::CreateSourceVoice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsourcevoice">IXAudio2::CreateSourceVoice</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee418608(v=VS.85).aspx">IXAudio2::CreateSubmixVoice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsubmixvoice">IXAudio2::CreateSubmixVoice</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee418599(v=VS.85).aspx">IXAudio2Voice::SetOutputVoices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setoutputvoices">IXAudio2Voice::SetOutputVoices</a>
 
 
 
-<a href="https://msdn.microsoft.com/3656aaf9-7a3a-2a5b-50f5-d279ce8a9e6c">XAudio Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/structures">XAudio Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/be34ce62-6552-45e2-a247-830ab55ea9ec">XAudio2 Sample Rate Conversions</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-sample-rate-conversions">XAudio2 Sample Rate Conversions</a>
  
 
  

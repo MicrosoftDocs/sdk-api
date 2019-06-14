@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the type signature used to compute the IID from the last call to <a href="https://msdn.microsoft.com/DE908C82-5D7C-415C-B08B-31786589979B">RoGetParameterizedTypeInstanceIID</a> with the specified handle.
+Gets the type signature used to compute the IID from the last call to <a href="https://docs.microsoft.com/windows/desktop/api/roparameterizediid/nf-roparameterizediid-rogetparameterizedtypeinstanceiid">RoGetParameterizedTypeInstanceIID</a> with the specified handle.
 
 
 ## -parameters

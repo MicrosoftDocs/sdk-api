@@ -60,7 +60,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets an item of locale information for a calendar. For more information, see <a href="https://msdn.microsoft.com/32772cba-eb30-4cd3-adaf-57fb8425a6d5">Date and Calendar</a>.
+Sets an item of locale information for a calendar. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/date-and-calendar">Date and Calendar</a>.
 
 
 ## -parameters
@@ -71,37 +71,37 @@ Sets an item of locale information for a calendar. For more information, see <a 
 ### -param Locale [in]
 
 
-<a href="https://msdn.microsoft.com/ea45b0e5-7df7-47fb-8dad-fccfbe53fec0">Locale identifier</a> that specifies the locale. You can use the <a href="https://msdn.microsoft.com/2f8893a0-f916-4a62-a423-e525cf281fa4">MAKELCID</a> macro to create a locale identifier or use one of the following predefined values.
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-identifiers">Locale identifier</a> that specifies the locale. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelcid">MAKELCID</a> macro to create a locale identifier or use one of the following predefined values.
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/d37df17d-8cd5-4481-bee2-062cf9d78e9b">LOCALE_INVARIANT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-invariant">LOCALE_INVARIANT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/57de328c-3afc-4fbb-882c-fa35d3552c13">LOCALE_SYSTEM_DEFAULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-system-default">LOCALE_SYSTEM_DEFAULT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/9ccb489b-24d0-42e5-a01a-2cdb7c3267eb">LOCALE_USER_DEFAULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-user-default">LOCALE_USER_DEFAULT</a>
 </li>
 </ul>
 The following custom locale identifiers are also supported.
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/a41a7f55-8905-47a1-86c3-74ed40b3834c">LOCALE_CUSTOM_DEFAULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_DEFAULT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/a41a7f55-8905-47a1-86c3-74ed40b3834c">LOCALE_CUSTOM_UI_DEFAULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UI_DEFAULT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/a41a7f55-8905-47a1-86c3-74ed40b3834c">LOCALE_CUSTOM_UNSPECIFIED</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UNSPECIFIED</a>
 </li>
 </ul>
 
 ### -param Calendar [in]
 
 
-<a href="https://msdn.microsoft.com/ba2e841e-e24e-476a-851e-a29b3af4f04d">Calendar identifier</a> for the calendar for which to set information.
+<a href="https://docs.microsoft.com/windows/desktop/Intl/calendar-identifiers">Calendar identifier</a> for the calendar for which to set information.
 
 
 ### -param CalType [in]
@@ -112,7 +112,7 @@ Type of calendar information to set. Only the following CALTYPE values are valid
 <li>CAL_USE_CP_ACP</li>
 <li>CAL_ITWODIGITYEARMAX</li>
 </ul>
-The application can specify only one calendar identifier per call to this function. An exception can be made if the application uses the binary OR operator to combine CAL_USE_CP_ACP with any valid CALTYPE value defined in <a href="https://msdn.microsoft.com/33361a97-0f27-477a-a0ee-3d4d3aaeaacf">Calendar Type Information</a>.
+The application can specify only one calendar identifier per call to this function. An exception can be made if the application uses the binary OR operator to combine CAL_USE_CP_ACP with any valid CALTYPE value defined in <a href="https://docs.microsoft.com/windows/desktop/Intl/calendar-type-information">Calendar Type Information</a>.
 
 
 ### -param lpCalData [in]
@@ -124,7 +124,7 @@ Pointer to a null-terminated calendar information string. The information must b
 
 
 
-Returns a nonzero value if successful, or 0 otherwise. To get extended error information, the application can call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>, which can return one of the following error codes:
+Returns a nonzero value if successful, or 0 otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <ul>
 <li>ERROR_INTERNAL_ERROR. An unexpected error occurred in the function.</li>
@@ -144,7 +144,7 @@ Calendar information is always passed as a null-terminated Unicode string in the
 
 When the ANSI version of this function is used with a Unicode-only locale identifier, the function can succeed because the operating system uses the system code page. However, characters that are undefined in the system code page appear in the string as a question mark (?). 
 
-CAL_ITWODIGITYEARMAX can be used with any calendar, even if the calendar is not supported for the specified locale. To avoid complications, the application should call <a href="https://msdn.microsoft.com/b38abdc9-6c03-4077-9d42-c7cb6d5c66ee">EnumCalendarInfo</a> to ensure that the calendar is supported for the locale of interest.
+CAL_ITWODIGITYEARMAX can be used with any calendar, even if the calendar is not supported for the specified locale. To avoid complications, the application should call <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumcalendarinfoa">EnumCalendarInfo</a> to ensure that the calendar is supported for the locale of interest.
 
 
 
@@ -154,19 +154,19 @@ CAL_ITWODIGITYEARMAX can be used with any calendar, even if the calendar is not 
 
 
 
-<a href="https://msdn.microsoft.com/b38abdc9-6c03-4077-9d42-c7cb6d5c66ee">EnumCalendarInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumcalendarinfoa">EnumCalendarInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/f32ca0d0-8fa2-41e5-9835-76cf51426c3b">GetCalendarInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getcalendarinfoa">GetCalendarInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a548074-0782-45e1-8051-80c3b9d81885">National Language Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c72c4de-83be-4b7e-9ed8-b0236c1df8a4">National Language Support Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
  
 
  

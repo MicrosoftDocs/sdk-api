@@ -114,9 +114,9 @@ The buffer is too small to receive the security descriptor. Reallocate the buffe
 
 
 
-If the GUID does not exist in the registry, ETW returns the default permissions for a provider or controller. For details on specifying the GUID in the registry, see <a href="https://msdn.microsoft.com/699bb165-680f-4d3b-8859-959f319ca4be">EventAccessControl</a>.
+If the GUID does not exist in the registry, ETW returns the default permissions for a provider or controller. For details on specifying the GUID in the registry, see <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/nf-evntcons-eventaccesscontrol">EventAccessControl</a>.
 
-For information on accessing the components of the security descriptor, see <a href="https://msdn.microsoft.com/a0839c49-09e9-4407-8702-051b88ef2231">Getting Information from an ACL</a>, the <a href="https://msdn.microsoft.com/8006c8bb-4976-463f-b074-a59c3bbab36b">GetSecurityDescriptorDacl</a>, <a href="https://msdn.microsoft.com/6bf59735-aaa3-4751-8c98-00cc197df4e5">GetSecurityDescriptorSacl</a>, and <a href="https://msdn.microsoft.com/5b5d8751-20d7-40a2-bd70-cfbe956aaa03">GetAce</a> functions, and the <a href="https://msdn.microsoft.com/980b8242-2ba2-469f-b834-da7d3fb22e14">ACE</a> structure.
+For information on accessing the components of the security descriptor, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/getting-information-from-an-acl">Getting Information from an ACL</a>, the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptordacl">GetSecurityDescriptorDacl</a>, <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorsacl">GetSecurityDescriptorSacl</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getace">GetAce</a> functions, and the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/ace">ACE</a> structure.
 
 
 
@@ -126,11 +126,11 @@ For information on accessing the components of the security descriptor, see <a h
 
 
 
-<a href="https://msdn.microsoft.com/699bb165-680f-4d3b-8859-959f319ca4be">EventAccessControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/nf-evntcons-eventaccesscontrol">EventAccessControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/9f25f163-046c-41b0-82f9-0b214b74b87e">EventAccessRemove</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/nf-evntcons-eventaccessremove">EventAccessRemove</a>
  
 
  

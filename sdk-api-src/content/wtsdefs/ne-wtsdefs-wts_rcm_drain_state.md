@@ -76,7 +76,7 @@ The server is not in drain mode, or it is exiting drain mode. (It is accepting n
 
 
 
-This enumeration type is used by the <a href="https://msdn.microsoft.com/5f4469f5-5a64-4292-bbe6-cc030f1421f5">WTS_SERVICE_STATE</a> structure.
+This enumeration type is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_service_state">WTS_SERVICE_STATE</a> structure.
 
 
 

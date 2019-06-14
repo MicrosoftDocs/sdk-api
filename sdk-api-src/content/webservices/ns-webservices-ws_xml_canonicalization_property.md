@@ -60,7 +60,7 @@ Specifies a setting that controls how XML canonicalization is done.
 
 ### -field id
 
-Identifies the <a href="https://msdn.microsoft.com/af96e1e7-d7e8-4e38-a8ae-f8f28cf0eda9">WS_XML_CANONICALIZATION_PROPERTY_ID</a>.
+Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_xml_canonicalization_property_id">WS_XML_CANONICALIZATION_PROPERTY_ID</a>.
         
 
 

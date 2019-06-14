@@ -60,21 +60,21 @@ Gets the sampler state value.
 
 ### -param Sampler [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 The sampler stage index.
 
 
 ### -param Type [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172602(v=VS.85).aspx">D3DSAMPLERSTATETYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dsamplerstatetype">D3DSAMPLERSTATETYPE</a></b>
 
-This parameter can be any member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172602(v=VS.85).aspx">D3DSAMPLERSTATETYPE</a> enumerated type. 
+This parameter can be any member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dsamplerstatetype">D3DSAMPLERSTATETYPE</a> enumerated type. 
 
 
 ### -param pValue [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
 
 State value to get. The meaning of this value is determined by the Type parameter. 
 
@@ -83,7 +83,7 @@ State value to get. The meaning of this value is determined by the Type paramete
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 
@@ -94,7 +94,7 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-This method will not return device state for a device that is created using D3DCREATE_PUREDEVICE. If you want to use this method, you must create your device with any of the other values in <a href="https://msdn.microsoft.com/en-us/library/Bb172527(v=VS.85).aspx">D3DCREATE</a>."
+This method will not return device state for a device that is created using D3DCREATE_PUREDEVICE. If you want to use this method, you must create your device with any of the other values in <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dcreate">D3DCREATE</a>."
     
 
 
@@ -106,11 +106,11 @@ This method will not return device state for a device that is created using D3DC
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174456(v=VS.85).aspx">IDirect3DDevice9::SetSamplerState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setsamplerstate">IDirect3DDevice9::SetSamplerState</a>
  
 
  

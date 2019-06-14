@@ -52,12 +52,12 @@ ms.custom: 19H1
 Contains information about a Distributed File System (DFS) root or link. This structure contains the 
     name, status, <b>GUID</b>, time-out, namespace/root/link properties, metadata size, number of targets, and information 
     about each target of the root or link. This structure is only for use with the 
-    <a href="https://msdn.microsoft.com/c05a8d78-41f4-4c19-a25e-ef4885869584">NetDfsEnum</a>, 
-    <a href="https://msdn.microsoft.com/065ec002-cb90-4d78-a70c-6ac37f71994f">NetDfsGetClientInfo</a>, and 
-    <a href="https://msdn.microsoft.com/bbb2f24d-1c49-4016-a16b-60fde4a78193">NetDfsGetInfo</a> functions.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsenum">NetDfsEnum</a>, 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetclientinfo">NetDfsGetClientInfo</a>, and 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetinfo">NetDfsGetInfo</a> functions.
 
 To obtain information about the DFS namespace without target information, use 
-    <a href="https://msdn.microsoft.com/bd68d7bf-94e1-41f9-84e9-e58ab34378a1">DFS_INFO_5</a> instead.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_5">DFS_INFO_5</a> instead.
 
 
 ## -struct-fields
@@ -110,7 +110,7 @@ Specifies a set of bit flags that describe the DFS root or link. One
       is set. The <b>DFS_VOLUME_FLAVORS</b> bitmask (0x00000300) must be used to extract the DFS 
       namespace flavor, and the <b>DFS_VOLUME_STATES</b> bitmask (0x0000000F) must be used to 
       extract the DFS root or link state from this member. For an example that describes the interpretation of the 
-      flags, see the Remarks section of <a href="https://msdn.microsoft.com/c5fe27be-fd6e-4cf0-abf6-8363c78edf5b">DFS_INFO_2</a>.
+      flags, see the Remarks section of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_2">DFS_INFO_2</a>.
 
 
 
@@ -200,7 +200,7 @@ If site-costing is enabled for the Active Directory, the response can have more 
          group containing targets with the same site cost for the specific DFS client requesting the referral. The 
          groups are ordered by increasing site cost. For more information about how site-costing is used to prioritize 
          targets, see 
-         <a href="https://msdn.microsoft.com/0aacebf7-49cc-4287-a5c4-0d25a416d227">DFS Server Target Prioritization</a>.
+         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dfs/dfs-server-target-prioritization">DFS Server Target Prioritization</a>.
 
 
 
@@ -221,7 +221,7 @@ Scope: Stand-alone DFS roots and links only.
 
  The DFS root is clustered to provide high availability for 
          storage failover. This flag cannot be set using the 
-         <a href="https://msdn.microsoft.com/5526afa7-82bc-47c7-99d6-44e41ef772b1">NetDfsSetInfo</a> function.
+         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfssetinfo">NetDfsSetInfo</a> function.
 
 
 
@@ -232,8 +232,8 @@ Scope: Domain-based DFS roots and stand-alone DFS roots.
 When this flag is set, Access-Based Directory Enumeration (ABDE) mode support is enabled on the entire DFS 
          root target share of the DFS namespace. This flag is valid only for DFS namespaces for which the 
          <b>DFS_NAMESPACE_CAPABILITY_ABDE</b> capability flag is set. For more information, see 
-         <a href="https://msdn.microsoft.com/1af2866c-fe83-43fc-b4cc-9976157fb269">DFS_INFO_50</a> and 
-         <a href="https://msdn.microsoft.com/ee75c500-70c6-4dce-9d38-36cacd695746">DFS_SUPPORTED_NAMESPACE_VERSION_INFO</a>.
+         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_50">DFS_INFO_50</a> and 
+         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_supported_namespace_version_info">DFS_SUPPORTED_NAMESPACE_VERSION_INFO</a>.
 
 The <b>DFS_PROPERTY_FLAG_ABDE</b> flag is valid only on the DFS namespace root and not 
          on root targets, links, or link targets. This flag must be enabled to associate a security descriptor with a 
@@ -267,7 +267,7 @@ Specifies the number of targets for the DFS root or link. These targets are cont
 
 ### -field Storage
 
-Specifies an array of <a href="https://msdn.microsoft.com/777b9688-9e34-48dd-bc8c-df17bef396d0">DFS_STORAGE_INFO_1</a> 
+Specifies an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_storage_info_1">DFS_STORAGE_INFO_1</a> 
       structures that contain the DFS target information.
 
 
@@ -276,7 +276,7 @@ Specifies an array of <a href="https://msdn.microsoft.com/777b9688-9e34-48dd-bc8
 
 
 For more information about how server target priority is determined, see 
-     <a href="https://msdn.microsoft.com/0aacebf7-49cc-4287-a5c4-0d25a416d227">DFS Server Target Prioritization</a>.
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dfs/dfs-server-target-prioritization">DFS Server Target Prioritization</a>.
 
 
 
@@ -286,35 +286,35 @@ For more information about how server target priority is determined, see
 
 
 
-<a href="https://msdn.microsoft.com/0aacebf7-49cc-4287-a5c4-0d25a416d227">DFS Server Target Prioritization</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dfs/dfs-server-target-prioritization">DFS Server Target Prioritization</a>
 
 
 
-<a href="https://msdn.microsoft.com/777b9688-9e34-48dd-bc8c-df17bef396d0">DFS_STORAGE_INFO_1</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_storage_info_1">DFS_STORAGE_INFO_1</a>
 
 
 
-<a href="https://msdn.microsoft.com/a29cde3e-483a-4658-94d4-27398f66abfb">Distributed File System (DFS) Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dfs/distributed-file-system-dfs-functions">Distributed File System (DFS) Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/c05a8d78-41f4-4c19-a25e-ef4885869584">NetDfsEnum</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsenum">NetDfsEnum</a>
 
 
 
-<a href="https://msdn.microsoft.com/065ec002-cb90-4d78-a70c-6ac37f71994f">NetDfsGetClientInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetclientinfo">NetDfsGetClientInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/bbb2f24d-1c49-4016-a16b-60fde4a78193">NetDfsGetInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetinfo">NetDfsGetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4b05054-bef2-4cab-89f6-725d92ee75b8">Network Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
  
 
  

@@ -88,7 +88,7 @@ If the function succeeds it returns <b>ERROR_SUCCESS</b>. Otherwise, the functio
 
 
 
-<a href="https://msdn.microsoft.com/9ECFC757-1CB3-43A1-BA45-9AF72CAB240E">OpenPackageInfoByFullName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-openpackageinfobyfullname">OpenPackageInfoByFullName</a>
  
 
  

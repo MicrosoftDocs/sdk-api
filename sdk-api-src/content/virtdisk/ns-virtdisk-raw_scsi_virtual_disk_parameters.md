@@ -60,7 +60,7 @@ Contains raw SCSI virtual disk request parameters.
 
 ### -field Version
 
-A <a href="https://msdn.microsoft.com/en-us/library/Mt764775(v=VS.85).aspx">RAW_SCSI_VIRTUAL_DISK_VERSION</a> enumeration that specifies the version of the <b>RAW_SCSI_VIRTUAL_DISK_PARAMETERS</b> structure being passed to or from the VHD functions. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_raw_scsi_virtual_disk_version">RAW_SCSI_VIRTUAL_DISK_VERSION</a> enumeration that specifies the version of the <b>RAW_SCSI_VIRTUAL_DISK_PARAMETERS</b> structure being passed to or from the VHD functions. 
 
 
 

@@ -69,7 +69,7 @@ TBD
 
 ### -param values [out]
 
-Type: <b><a href="https://msdn.microsoft.com/37bfc613-4128-45aa-b6b2-6163d44378e4">IDWriteLocalizedStrings</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritelocalizedstrings">IDWriteLocalizedStrings</a>**</b>
 
 Receives a pointer to the newly created localized strings object, or nullptr on failure or non-existent property.
 
@@ -90,7 +90,7 @@ Zero-based index of the font.
 
 #### - propertyId
 
-Type: <b><a href="https://msdn.microsoft.com/9743F54F-B661-444F-8579-DE03B0891F9C">DWRITE_FONT_PROPERTY_ID</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/ne-dwrite_3-dwrite_font_property_id">DWRITE_FONT_PROPERTY_ID</a></b>
 
 Font property of interest.
 
@@ -111,7 +111,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/0178f248-8dc0-c0ee-63c1-8db3f6ef94c3">IDWriteFontSet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontset">IDWriteFontSet</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the color used to draw the insertion mark for the tree view. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773755(v=VS.85).aspx">TVM_SETINSERTMARKCOLOR</a> message explicitly. 
+Sets the color used to draw the insertion mark for the tree view. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-setinsertmarkcolor">TVM_SETINSERTMARKCOLOR</a> message explicitly. 
 
 
 ## -parameters
@@ -59,17 +59,17 @@ Sets the color used to draw the insertion mark for the tree view. You can use th
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a tree-view control. 
 
 
 ### -param clr
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 
-<a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> value that contains the new insertion mark color. 
+<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> value that contains the new insertion mark color. 
 
 
 ## -see-also
@@ -77,7 +77,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773835(v=VS.85).aspx">TreeView_GetInsertMarkColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_getinsertmarkcolor">TreeView_GetInsertMarkColor</a>
  
 
  

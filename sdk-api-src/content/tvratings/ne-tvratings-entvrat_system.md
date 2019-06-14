@@ -123,7 +123,7 @@ System currently unknown. This value is used after channel changes or other stre
 
 
 
-This enumeration is used by the <a href="https://msdn.microsoft.com/b37c7e7d-80fd-4a42-a698-c20ffb2a5052">IEvalRat</a> and <a href="https://msdn.microsoft.com/de65e5cd-3f4b-4925-a6b8-636fc2e332ec">IXDSToRat</a> interfaces to define the rating systems being used. When the <a href="https://msdn.microsoft.com/6a67cdb1-9a5c-4130-a29c-05c584702fd9">EvalRat</a> object is initialized, or when the stream changes (such as with a channel change) the default type is <b>TvRat_SystemDontKnow</b>.
+This enumeration is used by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/nn-tvratings-ievalrat">IEvalRat</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/nn-tvratings-ixdstorat">IXDSToRat</a> interfaces to define the rating systems being used. When the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/evalrat-object">EvalRat</a> object is initialized, or when the stream changes (such as with a channel change) the default type is <b>TvRat_SystemDontKnow</b>.
 
 
 
@@ -133,7 +133,7 @@ This enumeration is used by the <a href="https://msdn.microsoft.com/b37c7e7d-80f
 
 
 
-<a href="https://msdn.microsoft.com/5406cb4b-e843-463c-95e0-0da7e4152978">TV Ratings Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tv-ratings-enumerations">TV Ratings Enumerations</a>
  
 
  

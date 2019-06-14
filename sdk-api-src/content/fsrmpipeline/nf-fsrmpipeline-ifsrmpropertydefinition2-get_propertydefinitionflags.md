@@ -51,12 +51,12 @@ ms.custom: 19H1
 
 
 <p class="CCE_Message">[This property is supported for compatibility but it's recommended to use the 
-    <a href="https://msdn.microsoft.com/1CE772FA-CE33-4900-A499-058175A7C37E">FSRM WMI Classes</a> to manage FSRM. Please see the 
-    <a href="https://msdn.microsoft.com/2221a226-60cd-45db-86c1-eae11ad41ff0">MSFT_FSRMClassificationPropertyDefinition</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmclassificationpropertydefinition">MSFT_FSRMClassificationPropertyDefinition</a> 
     class.]
 
 This property contains the flags for the property definition as enumerated by the 
-    <a href="https://msdn.microsoft.com/a31f2401-affa-438b-a484-7b70ea6e9181">FsrmPropertyDefinitionFlags</a> enumeration.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmpropertydefinitionflags">FsrmPropertyDefinitionFlags</a> enumeration.
 
 This property is read-only.
 
@@ -69,15 +69,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/a31f2401-affa-438b-a484-7b70ea6e9181">FsrmPropertyDefinitionFlags</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmpropertydefinitionflags">FsrmPropertyDefinitionFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/b16e1d43-1d7d-4e6c-b0e7-60386ba9c2b5">IFsrmPropertyDefinition2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertydefinition2">IFsrmPropertyDefinition2</a>
 
 
 
-<a href="https://msdn.microsoft.com/2221a226-60cd-45db-86c1-eae11ad41ff0">MSFT_FSRMClassificationPropertyDefinition</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmclassificationpropertydefinition">MSFT_FSRMClassificationPropertyDefinition</a>
  
 
  

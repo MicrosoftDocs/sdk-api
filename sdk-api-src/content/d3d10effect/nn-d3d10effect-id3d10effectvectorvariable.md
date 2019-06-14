@@ -55,7 +55,7 @@ A vector-variable interface accesses a four-component vector.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10EffectVectorVariable</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable</a>. <b>ID3D10EffectVectorVariable</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10EffectVectorVariable</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectvariable">ID3D10EffectVariable</a>. <b>ID3D10EffectVectorVariable</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID3D10EffectVectorVariable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173749(v=VS.85).aspx">GetBoolVector</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvectorvariable-getboolvector">GetBoolVector</a>
 </td>
 <td align="left" width="63%">
 Get a four-component vector that contains boolean data.
@@ -79,7 +79,7 @@ Get a four-component vector that contains boolean data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173750(v=VS.85).aspx">GetBoolVectorArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvectorvariable-getboolvectorarray">GetBoolVectorArray</a>
 </td>
 <td align="left" width="63%">
 Get an array of four-component vectors that contain boolean data.
@@ -88,7 +88,7 @@ Get an array of four-component vectors that contain boolean data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173751(v=VS.85).aspx">GetFloatVector</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvectorvariable-getfloatvector">GetFloatVector</a>
 </td>
 <td align="left" width="63%">
 Get a four-component vector that contains floating-point data.
@@ -97,7 +97,7 @@ Get a four-component vector that contains floating-point data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173752(v=VS.85).aspx">GetFloatVectorArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvectorvariable-getfloatvectorarray">GetFloatVectorArray</a>
 </td>
 <td align="left" width="63%">
 Get an array of four-component vectors that contain floating-point data.
@@ -106,7 +106,7 @@ Get an array of four-component vectors that contain floating-point data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173753(v=VS.85).aspx">GetIntVector</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvectorvariable-getintvector">GetIntVector</a>
 </td>
 <td align="left" width="63%">
 Get a four-component vector that contains integer data.
@@ -115,7 +115,7 @@ Get a four-component vector that contains integer data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173754(v=VS.85).aspx">GetIntVectorArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvectorvariable-getintvectorarray">GetIntVectorArray</a>
 </td>
 <td align="left" width="63%">
 Get an array of four-component vectors that contain integer data.
@@ -124,7 +124,7 @@ Get an array of four-component vectors that contain integer data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173755(v=VS.85).aspx">SetBoolVector</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvectorvariable-setboolvector">SetBoolVector</a>
 </td>
 <td align="left" width="63%">
 Set a four-component vector that contains boolean data.
@@ -133,7 +133,7 @@ Set a four-component vector that contains boolean data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173756(v=VS.85).aspx">SetBoolVectorArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvectorvariable-setboolvectorarray">SetBoolVectorArray</a>
 </td>
 <td align="left" width="63%">
 Set an array of four-component vectors that contain boolean data.
@@ -142,7 +142,7 @@ Set an array of four-component vectors that contain boolean data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173757(v=VS.85).aspx">SetFloatVector</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvectorvariable-setfloatvector">SetFloatVector</a>
 </td>
 <td align="left" width="63%">
 Set a four-component vector that contains floating-point data.
@@ -151,7 +151,7 @@ Set a four-component vector that contains floating-point data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173758(v=VS.85).aspx">SetFloatVectorArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvectorvariable-setfloatvectorarray">SetFloatVectorArray</a>
 </td>
 <td align="left" width="63%">
 Set an array of four-component vectors that contain floating-point data.
@@ -160,7 +160,7 @@ Set an array of four-component vectors that contain floating-point data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173759(v=VS.85).aspx">SetIntVector</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvectorvariable-setintvector">SetIntVector</a>
 </td>
 <td align="left" width="63%">
 Set a four-component vector that contains integer data.
@@ -169,7 +169,7 @@ Set a four-component vector that contains integer data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173760(v=VS.85).aspx">SetIntVectorArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvectorvariable-setintvectorarray">SetIntVectorArray</a>
 </td>
 <td align="left" width="63%">
 Set an array of four-component vectors that contain integer data.
@@ -184,11 +184,11 @@ Set an array of four-component vectors that contain integer data.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205178(v=VS.85).aspx">Effect Interfaces (Direct3D 10)</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-effect-interfaces">Effect Interfaces (Direct3D 10)</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectvariable">ID3D10EffectVariable</a>
  
 
  

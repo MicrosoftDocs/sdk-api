@@ -63,7 +63,7 @@ Removes a buffer at a specified index from the sample.
 
 ### -param dwIndex [in]
 
-Index of the buffer. To find the number of buffers in the sample, call <a href="https://msdn.microsoft.com/fe05e870-298b-44bf-90b7-70be40d045ab">IMFSample::GetBufferCount</a>. Buffers are indexed from zero.
+Index of the buffer. To find the number of buffers in the sample, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-getbuffercount">IMFSample::GetBufferCount</a>. Buffers are indexed from zero.
 
 
 ## -returns
@@ -112,11 +112,11 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 
-<a href="https://msdn.microsoft.com/b1c3758c-5133-41ee-b991-ae99d0296ccc">IMFSample</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>
 
 
 
-<a href="https://msdn.microsoft.com/14389eea-8091-4c10-849e-53db3e98a7c8">Media Samples</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-samples">Media Samples</a>
  
 
  

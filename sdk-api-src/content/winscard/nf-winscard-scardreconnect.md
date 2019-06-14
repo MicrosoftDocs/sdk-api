@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SCardReconnect</b> function reestablishes an existing connection between the calling application and a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">smart card</a>. This function moves a card handle from direct access to general access, or acknowledges and clears an error condition that is preventing further access to the card.
+The <b>SCardReconnect</b> function reestablishes an existing connection between the calling application and a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a>. This function moves a card handle from direct access to general access, or acknowledges and clears an error condition that is preventing further access to the card.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>SCardReconnect</b> function reestablishes an existing connection between 
 ### -param hCard [in]
 
 Reference value obtained from a previous call to 
-<a href="https://msdn.microsoft.com/389ada98-383f-4b37-bf5d-c40577ef25fd">SCardConnect</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>.
 
 
 ### -param dwShareMode [in]
@@ -116,7 +116,7 @@ The value of this parameter should include the current protocol. Attempting to r
 </dl>
 </td>
 <td width="60%">
-<a href="https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f">T=0</a> is an acceptable protocol.
+<a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">T=0</a> is an acceptable protocol.
 
 </td>
 </tr>
@@ -126,7 +126,7 @@ The value of this parameter should include the current protocol. Attempting to r
 </dl>
 </td>
 <td width="60%">
-<a href="https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f">T=1</a> is an acceptable protocol.
+<a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">T=1</a> is an acceptable protocol.
 
 </td>
 </tr>
@@ -192,7 +192,7 @@ Flag that indicates the established active protocol.
 </dl>
 </td>
 <td width="60%">
-<a href="https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f">T=0</a> is the active protocol.
+<a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">T=0</a> is the active protocol.
 
 </td>
 </tr>
@@ -202,7 +202,7 @@ Flag that indicates the established active protocol.
 </dl>
 </td>
 <td width="60%">
-<a href="https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f">T=1</a> is the active protocol.
+<a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">T=1</a> is the active protocol.
 
 </td>
 </tr>
@@ -240,7 +240,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -254,8 +254,8 @@ An error code. For more information, see
 
 
 
-<b>SCardReconnect</b> is a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">smart card</a> and <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">reader</a> access function. For information about other access functions, see 
-<a href="https://msdn.microsoft.com/37d92491-174b-471e-b36e-46d9285dd404">Smart Card and Reader Access Functions</a>.
+<b>SCardReconnect</b> is a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader</a> access function. For information about other access functions, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/smart-card-and-reader-access-functions">Smart Card and Reader Access Functions</a>.
 
 
 #### Examples
@@ -288,11 +288,11 @@ if ( SCARD_S_SUCCESS != lReturn )
 
 
 
-<a href="https://msdn.microsoft.com/389ada98-383f-4b37-bf5d-c40577ef25fd">SCardConnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>
 
 
 
-<a href="https://msdn.microsoft.com/d087a006-bd2d-4ad7-965b-36ea8d712ec8">SCardDisconnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scarddisconnect">SCardDisconnect</a>
  
 
  

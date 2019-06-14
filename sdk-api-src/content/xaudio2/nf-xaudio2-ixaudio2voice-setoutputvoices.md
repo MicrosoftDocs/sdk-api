@@ -59,14 +59,14 @@ Designates a new set of submix or mastering voices to receive the output of the 
 
 ### -param pSendList [in]
 
-Array of <a href="https://msdn.microsoft.com/en-us/library/Ee419246(v=VS.85).aspx">XAUDIO2_VOICE_SENDS</a> structure pointers to destination voices. If <i>pSendList</i> is NULL, the voice will send its output to the current mastering voice. To set the voice to not send its output anywhere set the <b>OutputCount</b> member of <b>XAUDIO2_VOICE_SENDS</b> to 0. All of the voices in a send list must have the same input sample rate, see <a href="https://msdn.microsoft.com/be34ce62-6552-45e2-a247-830ab55ea9ec">XAudio2 Sample Rate Conversions</a> for additional information.
+Array of <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_voice_sends">XAUDIO2_VOICE_SENDS</a> structure pointers to destination voices. If <i>pSendList</i> is NULL, the voice will send its output to the current mastering voice. To set the voice to not send its output anywhere set the <b>OutputCount</b> member of <b>XAUDIO2_VOICE_SENDS</b> to 0. All of the voices in a send list must have the same input sample rate, see <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-sample-rate-conversions">XAudio2 Sample Rate Conversions</a> for additional information.
 
 
 ## -returns
 
 
 
-Returns S_OK if successful, an error code otherwise. See <a href="https://msdn.microsoft.com/42a1c21c-4b14-114a-d79e-15a61eb2139b">XAudio2 Error Codes</a> for descriptions of XAudio2 specific error codes.
+Returns S_OK if successful, an error code otherwise. See <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-error-codes">XAudio2 Error Codes</a> for descriptions of XAudio2 specific error codes.
 
 
 
@@ -81,13 +81,13 @@ This method is only valid for source and submix voices. Mastering voices can not
 
 
 
-After calling <b>SetOutputVoices</b> a voice's current send levels will be replaced by a default send matrix. The <a href="https://msdn.microsoft.com/en-us/library/Ee418598(v=VS.85).aspx">IXAudio2Voice::SetOutputMatrix</a> method must be called to set a custom matrix for the new sendlist.
+After calling <b>SetOutputVoices</b> a voice's current send levels will be replaced by a default send matrix. The <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setoutputmatrix">IXAudio2Voice::SetOutputMatrix</a> method must be called to set a custom matrix for the new sendlist.
 
 
 
-It is invalid to call <b>SetOutputVoices</b> from within a callback (that is, <a href="https://msdn.microsoft.com/en-us/library/Ee415910(v=VS.85).aspx">IXAudio2EngineCallback</a> or <a href="https://msdn.microsoft.com/en-us/library/Ee415919(v=VS.85).aspx">IXAudio2VoiceCallback</a>). If <b>SetOutputVoices</b> is called within a callback, it returns XAUDIO2_E_INVALID_CALL.
+It is invalid to call <b>SetOutputVoices</b> from within a callback (that is, <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2enginecallback">IXAudio2EngineCallback</a> or <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voicecallback">IXAudio2VoiceCallback</a>). If <b>SetOutputVoices</b> is called within a callback, it returns XAUDIO2_E_INVALID_CALL.
 
-<div class="alert"><b>Note</b>  Calling <b>SetOutputVoices</b> invalidates any send matrices previously set with <a href="https://msdn.microsoft.com/en-us/library/Ee418598(v=VS.85).aspx">IXAudio2Voice::SetOutputMatrix</a>.</div>
+<div class="alert"><b>Note</b>  Calling <b>SetOutputVoices</b> invalidates any send matrices previously set with <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setoutputmatrix">IXAudio2Voice::SetOutputMatrix</a>.</div>
 <div> </div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
@@ -100,7 +100,7 @@ Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415917(v=VS.85).aspx">IXAudio2Voice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voice">IXAudio2Voice</a>
  
 
  

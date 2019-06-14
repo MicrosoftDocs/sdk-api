@@ -60,7 +60,7 @@ The <b>WinHttpCreateUrl</b> function creates a URL from component parts such as 
 ### -param lpUrlComponents [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/4d2c6f82-6b61-4a7b-a5d7-560152e25302">URL_COMPONENTS</a> structure that contains the components from which to create the URL.
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-__unnamed_struct_2">URL_COMPONENTS</a> structure that contains the components from which to create the URL.
 
 
 ### -param dwFlags [in]
@@ -78,7 +78,7 @@ Flags that control the operation of this function. This parameter can be one of 
 </dl>
 </td>
 <td width="60%">
-Converts all unsafe characters to their corresponding escape sequences in the path string pointed to by the <b>lpszUrlPath</b> member and in <b>lpszExtraInfo</b> the extra-information string pointed to by the member of the <a href="https://msdn.microsoft.com/4d2c6f82-6b61-4a7b-a5d7-560152e25302">URL_COMPONENTS</a> structure pointed to by the <i>lpUrlComponents</i> parameter.
+Converts all unsafe characters to their corresponding escape sequences in the path string pointed to by the <b>lpszUrlPath</b> member and in <b>lpszExtraInfo</b> the extra-information string pointed to by the member of the <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-__unnamed_struct_2">URL_COMPONENTS</a> structure pointed to by the <i>lpUrlComponents</i> parameter.
 
 
 
@@ -109,7 +109,7 @@ Pointer to a character buffer that receives the URL as a wide character (Unicode
 
 Pointer to a variable of type unsigned long integer that receives the length of the 
 <i>pwszUrl</i> buffer in wide (Unicode) characters. When the function returns, this parameter receives the length of the URL string wide in characters, minus 1 for the terminating character. If 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns ERROR_INSUFFICIENT_BUFFER, this parameter receives the number of wide characters required to hold the created URL.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_INSUFFICIENT_BUFFER, this parameter receives the number of wide characters required to hold the created URL.
 
 
 ## -returns
@@ -117,7 +117,7 @@ Pointer to a variable of type unsigned long integer that receives the length of 
 
 
 Returns <b>TRUE</b> if the function succeeds, or <b>FALSE</b> otherwise. To get extended error data, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. Among the error codes returned are the following.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Among the error codes returned are the following.
 
 <table>
 <tr>
@@ -156,10 +156,10 @@ Insufficient memory available to complete the requested operation. (Windows erro
 
 
 
-Even when  WinHTTP is used in asynchronous mode, that is, when <b>WINHTTP_FLAG_ASYNC</b> has been set in <a href="https://msdn.microsoft.com/34ce8f7d-7cc3-4b38-ba6a-1247f50ebd33">WinHttpOpen</a>, this function operates synchronously. The return value indicates success or failure.  To get extended error data, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+Even when  WinHTTP is used in asynchronous mode, that is, when <b>WINHTTP_FLAG_ASYNC</b> has been set in <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>, this function operates synchronously. The return value indicates success or failure.  To get extended error data, call 
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-<div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Run-Time Requirements</a> section of the WinHttp start page.</div>
+<div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Run-Time Requirements</a> section of the WinHttp start page.</div>
 <div> </div>
 
 #### Examples
@@ -225,19 +225,19 @@ The following  example shows how to decompile, or crack, a URL into its subcompo
 
 
 
-<a href="https://msdn.microsoft.com/8337f699-3ec0-4397-acc2-6dc813f7542d">About Microsoft Windows HTTP Services (WinHTTP)</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinHttp/about-winhttp">About Microsoft Windows HTTP Services (WinHTTP)</a>
 
 
 
-<a href="https://msdn.microsoft.com/940c414d-274f-475c-a50e-7a0853c3c26b">Handling Uniform Resource Locators</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinHttp/uniform-resource-locators--urls--in-winhttp">Handling Uniform Resource Locators</a>
 
 
 
-<a href="https://msdn.microsoft.com/b69e5087-7849-4cbc-a97b-204a26fdd044">WinHTTP Versions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP Versions</a>
 
 
 
-<a href="https://msdn.microsoft.com/656dfe11-2242-4587-aa53-87a280f5df81">WinHttpCrackUrl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpcrackurl">WinHttpCrackUrl</a>
  
 
  

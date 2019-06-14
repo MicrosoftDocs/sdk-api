@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/43617cda-84b1-405f-8a20-be793413c186">IMFMediaStreamSourceSampleRequest</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/imfmediastreamsourcesamplerequest">IMFMediaStreamSourceSampleRequest</a>
  
 
  

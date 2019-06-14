@@ -84,7 +84,7 @@ The pixel shader is not restricted in its sampling.
 
 
 
-If the shader specifies <b>D2D1_PIXEL_OPTIONS_NONE</b>, it must still correctly implement the region of interest calculations in <a href="https://msdn.microsoft.com/EE098F67-B5A7-41C1-886A-2C7779B5E05C">ID2D1Transform::MapOutputRectToInputRects</a> and <a href="https://msdn.microsoft.com/8FC15A61-767C-460A-A260-9F56A41DA87F">ID2D1Transform::MapInputRectsToOutputRect</a>.
+If the shader specifies <b>D2D1_PIXEL_OPTIONS_NONE</b>, it must still correctly implement the region of interest calculations in <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transform-mapoutputrecttoinputrects">ID2D1Transform::MapOutputRectToInputRects</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transform-mapinputrectstooutputrect">ID2D1Transform::MapInputRectsToOutputRect</a>.
 
 
 
@@ -94,7 +94,7 @@ If the shader specifies <b>D2D1_PIXEL_OPTIONS_NONE</b>, it must still correctly 
 
 
 
-<a href="https://msdn.microsoft.com/9CB38592-6B49-48FE-AA3F-1FC402489454">ID2D1DrawInfo::SetPixelShader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1drawinfo-setpixelshader">ID2D1DrawInfo::SetPixelShader</a>
  
 
  

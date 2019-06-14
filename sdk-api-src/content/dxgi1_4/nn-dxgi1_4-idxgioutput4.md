@@ -55,7 +55,7 @@ Represents an adapter output (such as a monitor). The <b>IDXGIOutput4</b> interf
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIOutput4</b> interface inherits from <a href="https://msdn.microsoft.com/A116286A-F948-49AA-9D3B-F104E3312920">IDXGIOutput3</a>. <b>IDXGIOutput4</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIOutput4</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgioutput3">IDXGIOutput3</a>. <b>IDXGIOutput4</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IDXGIOutput4</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C9F582EA-DB16-4FF3-B7BD-ACEA019FF7D4">CheckOverlayColorSpaceSupport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgioutput4-checkoverlaycolorspacesupport">CheckOverlayColorSpaceSupport</a>
 </td>
 <td align="left" width="63%">
 Checks for overlay color space support.
@@ -85,11 +85,11 @@ Checks for overlay color space support.
 
 
 
-<a href="https://msdn.microsoft.com/b561b26b-961c-4d5e-8483-56b51b989bf7">DXGI Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/A116286A-F948-49AA-9D3B-F104E3312920">IDXGIOutput3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgioutput3">IDXGIOutput3</a>
  
 
  

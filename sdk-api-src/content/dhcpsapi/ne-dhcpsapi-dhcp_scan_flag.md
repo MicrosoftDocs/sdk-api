@@ -59,7 +59,7 @@ The <b>DHCP_SCAN_FLAG</b> enumeration defines the set of possible targets of syn
 
 ### -field DhcpRegistryFix
 
-Indicates that the in-memory client lease cache on the DHCPv4 server does not contain the client lease IP address, but the DHCPv4 client lease database does contain it. (Note that this enumeration does not inform <a href="https://msdn.microsoft.com/6324c197-7237-449f-ae23-4f04b1b7498e">DhcpScanDatabase</a> to perform a registry operation despite the name.) Any reconciliation process should update the in-memory cache.
+Indicates that the in-memory client lease cache on the DHCPv4 server does not contain the client lease IP address, but the DHCPv4 client lease database does contain it. (Note that this enumeration does not inform <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpscandatabase">DhcpScanDatabase</a> to perform a registry operation despite the name.) Any reconciliation process should update the in-memory cache.
 
 
 ### -field DhcpDatabaseFix
@@ -72,11 +72,11 @@ Indicates that the client lease database on the DHCPv4 server does not contain t
 
 
 
-<a href="https://msdn.microsoft.com/82e36660-fb56-4334-97d0-c34facad55a6">DHCP_SCAN_ITEM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_scan_item">DHCP_SCAN_ITEM</a>
 
 
 
-<a href="https://msdn.microsoft.com/6324c197-7237-449f-ae23-4f04b1b7498e">DhcpScanDatabase</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpscandatabase">DhcpScanDatabase</a>
  
 
  

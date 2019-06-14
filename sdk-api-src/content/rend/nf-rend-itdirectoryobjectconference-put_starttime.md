@@ -143,11 +143,11 @@ This method is not yet implemented.
 
 
 
-<a href="https://msdn.microsoft.com/bab167cf-2726-4423-87b3-69227404bddc">ITDirectoryObjectConference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobjectconference">ITDirectoryObjectConference</a>
 
 
 
-<a href="https://msdn.microsoft.com/aeb496d5-2cea-4c69-ba19-c9083d133c1e">ITDirectoryObjectConference::get_StartTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-get_starttime">ITDirectoryObjectConference::get_StartTime</a>
  
 
  

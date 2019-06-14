@@ -73,7 +73,7 @@ Specifies a name for the source filter.
 
 ### -param ppFilter [out]
 
-Receives a pointer to the filter's <a href="https://msdn.microsoft.com/d8c09dc7-dae8-4b51-8da8-69e64928a091">IBaseFilter</a> interface. The caller must release the interface.
+Receives a pointer to the filter's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a> interface. The caller must release the interface.
 
 
 ## -returns
@@ -105,7 +105,7 @@ Success.
 </dl>
 </td>
 <td width="60%">
-The source filter does not support the <a href="https://msdn.microsoft.com/ad70fddb-4fc9-4010-a469-9a8ca4b47379">IFileSourceFilter</a> interface.
+The source filter does not support the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifilesourcefilter">IFileSourceFilter</a> interface.
 
 </td>
 </tr>
@@ -174,13 +174,13 @@ The media type of this file was not recognized.
 
 
 
-This method searches for an installed filter that can read the specified file. If it finds one, the method adds it to the filter graph and returns a pointer to the filter's <b>IBaseFilter</b> interface. To determine the media type and compression scheme of the file, the Filter Graph Manager reads the first few bytes of the file, looking for specific patterns of bytes, as documented in the article <a href="https://msdn.microsoft.com/bc0d5719-6325-40fe-8261-ad00b91f272c">Registering a Custom File Type</a>.
+This method searches for an installed filter that can read the specified file. If it finds one, the method adds it to the filter graph and returns a pointer to the filter's <b>IBaseFilter</b> interface. To determine the media type and compression scheme of the file, the Filter Graph Manager reads the first few bytes of the file, looking for specific patterns of bytes, as documented in the article <a href="https://docs.microsoft.com/windows/desktop/DirectShow/registering-a-custom-file-type">Registering a Custom File Type</a>.
 
-The application is responsible for building the rest of the filter graph. To do so, call <a href="https://msdn.microsoft.com/02675c93-7901-40f6-a9fc-f6f13f56acca">IBaseFilter::EnumPins</a> to enumerate the output pins on the source filter. Then use either the <a href="https://msdn.microsoft.com/8ddcbb73-8220-4d70-9ab3-58d99fa8a958">IGraphBuilder::Connect</a> method or the <a href="https://msdn.microsoft.com/de3adac7-ff99-4415-9afc-e25ad420df59">IGraphBuilder::Render</a> method.
+The application is responsible for building the rest of the filter graph. To do so, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ibasefilter-enumpins">IBaseFilter::EnumPins</a> to enumerate the output pins on the source filter. Then use either the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphbuilder-connect">IGraphBuilder::Connect</a> method or the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphbuilder-render">IGraphBuilder::Render</a> method.
 
 If the method succeeds, the <b>IBaseFilter</b> interface has an outstanding reference count. The caller must release the interface.
 
-To render a file for default playback, use the <a href="https://msdn.microsoft.com/449aec08-c03e-41d6-8c04-0e871e532d11">IGraphBuilder::RenderFile</a> method.
+To render a file for default playback, use the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphbuilder-renderfile">IGraphBuilder::RenderFile</a> method.
 
 The Filter Graph Manager holds a reference count on the filter until the filter is removed from the graph or the Filter Graph Manager is released.
 
@@ -192,11 +192,11 @@ The Filter Graph Manager holds a reference count on the filter until the filter 
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/54ed8ac8-4821-4c0c-9fb9-789c70dbca37">IGraphBuilder Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder Interface</a>
  
 
  

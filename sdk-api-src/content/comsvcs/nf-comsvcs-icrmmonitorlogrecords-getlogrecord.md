@@ -64,7 +64,7 @@ The index of the required log record.
 
 ### -param pCrmLogRec [in, out]
 
-The log record, as a <a href="https://msdn.microsoft.com/0af0eba5-6e8c-4b1d-aec4-f9a1ffe7bce6">CrmLogRecordRead</a> structure.
+The log record, as a <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-tagcrmlogrecordread">CrmLogRecordRead</a> structure.
 
 
 ## -returns
@@ -144,7 +144,7 @@ The transaction has completed, and the log records have been discarded from the 
 
 
 
-<a href="https://msdn.microsoft.com/5077ad2a-89c1-43f7-a7e0-7bd8036147b6">ICrmMonitorLogRecords</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmmonitorlogrecords">ICrmMonitorLogRecords</a>
  
 
  

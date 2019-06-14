@@ -83,7 +83,7 @@ Note that if there are any client-side extensions that can be applied at boot or
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -93,7 +93,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 If you do not need to specify the <i>dwOptions</i> parameter, you can call the 
-<a href="https://msdn.microsoft.com/e08cb006-d174-4506-87f0-580660bd4023">RefreshPolicy</a> function instead.
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-refreshpolicy">RefreshPolicy</a> function instead.
 
 By default, policy is reapplied every 90 minutes.
 
@@ -105,25 +105,25 @@ By default, policy is reapplied every 90 minutes.
 
 
 
-<a href="https://msdn.microsoft.com/7c45666e-d7c7-4989-ad19-b1b230757a88">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
     Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/1285ab5a-ea68-4c16-bc34-8ab2f3cfad35">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/f639c11c-ee65-45b6-ba0d-f39c825b3d80">ProcessGroupPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nc-userenv-pfnprocessgrouppolicy">ProcessGroupPolicy</a>
 
 
 
-<a href="https://msdn.microsoft.com/df77fece-6e81-4a85-847a-fef3ba775e93">ProcessGroupPolicyEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nc-userenv-pfnprocessgrouppolicyex">ProcessGroupPolicyEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/e08cb006-d174-4506-87f0-580660bd4023">RefreshPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-refreshpolicy">RefreshPolicy</a>
  
 
  

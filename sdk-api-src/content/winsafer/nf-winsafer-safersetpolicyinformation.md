@@ -94,7 +94,7 @@ The scope of the query is by user.
 
 ### -param SaferPolicyInfoClass [in]
 
-A <a href="https://msdn.microsoft.com/e1438a9f-abca-463d-8a3a-3a820cba16e8">SAFER_POLICY_INFO_CLASS</a>  enumeration value  that specifies the type of policy information that should be set. The specified value determines the size and type of the <i>InfoBuffer</i> parameter. The following table shows the possible values.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ne-winsafer-_safer_policy_info_class">SAFER_POLICY_INFO_CLASS</a>  enumeration value  that specifies the type of policy information that should be set. The specified value determines the size and type of the <i>InfoBuffer</i> parameter. The following table shows the possible values.
 
 <table>
 <tr>
@@ -190,7 +190,7 @@ Reserved for future use. This parameter should be set to <b>NULL</b>.
 
 
 <b>TRUE</b> if the function succeeds; otherwise, <b>FALSE</b>. For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 

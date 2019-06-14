@@ -53,7 +53,7 @@ Returns an instance of <code>uint16_t</code> containing the components of the
 	<code>XMUNIBBLE4</code> instance in a packed format.
     
 
-This operator returns an instance of <code>uint16_t</code> containing the components of the <a href="https://msdn.microsoft.com/en-us/library/Ee420614(v=VS.85).aspx">XMUNIBBLE4 </a> instance in a packed format.
+This operator returns an instance of <code>uint16_t</code> containing the components of the <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4">XMUNIBBLE4 </a> instance in a packed format.
 <div class="alert"><b>Note</b>  This operator is only available under C++.
     </div><div> </div>
 
@@ -116,11 +116,11 @@ The last 4 bits (bits 12-15) of the return value are to the <b>w</b>component of
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420614(v=VS.85).aspx">XMUNIBBLE4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4">XMUNIBBLE4</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415492(v=VS.85).aspx">XMUNIBBLE4 Operators</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmunibble4-operators">XMUNIBBLE4 Operators</a>
  
 
  

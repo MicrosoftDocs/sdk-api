@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains the version of the virtual hard disk (VHD) <a href="https://msdn.microsoft.com/en-us/library/Dd323657(v=VS.85).aspx">COMPACT_VIRTUAL_DISK_PARAMETERS</a> structure to use in calls to VHD functions.
+Contains the version of the virtual hard disk (VHD) <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_compact_virtual_disk_parameters">COMPACT_VIRTUAL_DISK_PARAMETERS</a> structure to use in calls to VHD functions.
 
 
 ## -enum-fields
@@ -69,11 +69,11 @@ Contains the version of the virtual hard disk (VHD) <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/c9531c07-ad55-42b6-8685-7f55a47e8485">About VHD</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b5d0da0-2b23-4b7c-b007-ed3fe030926c">VHD Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
  
 
  

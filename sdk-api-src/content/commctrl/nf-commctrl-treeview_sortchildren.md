@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sorts the child items of the specified parent item in a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773782(v=VS.85).aspx">TVM_SORTCHILDREN</a> message explicitly. 
+Sorts the child items of the specified parent item in a tree-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-sortchildren">TVM_SORTCHILDREN</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Sorts the child items of the specified parent item in a tree-view control. You c
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control. 
 
@@ -73,7 +73,7 @@ Handle to the parent item whose child items are to be sorted.
 
 ### -param recurse
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Value that specifies whether the sorting is recursive. Set <i>fRecurse</i> to <b>TRUE</b> to sort all levels of child items below the parent item. Otherwise, only the parent's immediate children are sorted. 
 
@@ -82,7 +82,7 @@ Value that specifies whether the sorting is recursive. Set <i>fRecurse</i> to <b
 
 
 
-This message alphabetizes the tree items using <a href="https://msdn.microsoft.com/en-us/library/ms647489(v=VS.85).aspx">lstrcmpi</a> on the item name. You can use the <a href="https://msdn.microsoft.com/en-us/library/Bb773785(v=VS.85).aspx">TVM_SORTCHILDRENCB</a> message to customize the ordering behavior.
+This message alphabetizes the tree items using <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcmpia">lstrcmpi</a> on the item name. You can use the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-sortchildrencb">TVM_SORTCHILDRENCB</a> message to customize the ordering behavior.
 		
 
 

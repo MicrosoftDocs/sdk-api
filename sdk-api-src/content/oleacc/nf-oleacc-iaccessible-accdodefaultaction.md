@@ -61,18 +61,18 @@ The <b>IAccessible::accDoDefaultAction</b> method performs the specified object'
 
 Type: <b>VARIANT</b>
 
-Specifies whether the default action belongs to the object or one of the object's child elements. For more information about initializing the <a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a>, see <a href="https://msdn.microsoft.com/051ec5ba-540c-4ae1-b917-4c229557ca2f">How Child IDs Are Used in Parameters</a>.
+Specifies whether the default action belongs to the object or one of the object's child elements. For more information about initializing the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/how-child-ids-are-used-in-parameters">How Child IDs Are Used in Parameters</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If successful, returns S_OK.
 
-If not successful, returns one of the values in the table that follows, or another standard <a href="https://msdn.microsoft.com/e6deca92-42da-41ab-bfdb-75cbce3022bb">COM error code</a>.
+If not successful, returns one of the values in the table that follows, or another standard <a href="https://docs.microsoft.com/windows/desktop/WinAuto/return-values">COM error code</a>.
 
 <table>
 <tr>
@@ -113,7 +113,7 @@ An argument is not valid.
 
 Clients retrieve a string that describes the object's default action by calling <b>IAccessible::get_accDefaultAction</b>.
 
-<b>Note to client developers:  </b>When used on a menu item in a standard system menu, <b>accDoDefaultAction</b> returns S_OK but fails to perform the action if the character used in the access key (the underlined character in the text of a menu item name, also called a mnemonic) is ?, !, @, or any other character that requires the SHIFT key or another modifier key. This also happens on international keyboards with an access key character that requires the ALT GR key to be pressed. This is not an issue for menus in other applications, such as Microsoft Office or Windows Internet Explorer. For more information about access keys, see <a href="https://msdn.microsoft.com/0d91c791-1e9b-45da-8fa6-b879ac6d11a7">IAccessible::get_accKeyboardShortcut</a>.
+<b>Note to client developers:  </b>When used on a menu item in a standard system menu, <b>accDoDefaultAction</b> returns S_OK but fails to perform the action if the character used in the access key (the underlined character in the text of a menu item name, also called a mnemonic) is ?, !, @, or any other character that requires the SHIFT key or another modifier key. This also happens on international keyboards with an access key character that requires the ALT GR key to be pressed. This is not an issue for menus in other applications, such as Microsoft Office or Windows Internet Explorer. For more information about access keys, see <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_acckeyboardshortcut">IAccessible::get_accKeyboardShortcut</a>.
 
 Also, while <b>accDoDefaultAction</b> is supposed to return immediately, some implementations block the return. For example, if clicking a link displays a dialog, some implementations will block the return until the dialog is dismissed. Such delays can prevent client applications from processing a dialog box. Servers should avoid implementations that block returns.
 
@@ -172,27 +172,27 @@ HRESULT DoAction(IAccessible* pAcc)
 
 
 
-<a href="https://msdn.microsoft.com/5d0a81d8-5d36-4c33-bb8c-abcb8b00166e">Appendix A: Supported User Interface Elements Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/appendix-a--supported-user-interface-elements-reference">Appendix A: Supported User Interface Elements Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/8242c0af-b42e-44a4-8807-d6740fa1a24a">DefaultAction Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/defaultaction-property">DefaultAction Property</a>
 
 
 
-<a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
 
 
 
-<a href="https://msdn.microsoft.com/1261ff7c-7822-47c1-ac39-536b5ea09f31">IAccessible::get_accDefaultAction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accdefaultaction">IAccessible::get_accDefaultAction</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d91c791-1e9b-45da-8fa6-b879ac6d11a7">IAccessible::get_accKeyboardShortcut</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_acckeyboardshortcut">IAccessible::get_accKeyboardShortcut</a>
 
 
 
-<a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>
  
 
  

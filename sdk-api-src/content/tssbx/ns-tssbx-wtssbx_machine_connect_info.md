@@ -74,7 +74,7 @@ The number of IP addresses that are configured on the computer.
 
 ### -field IPaddr
 
-An array of <a href="https://msdn.microsoft.com/92fe662a-ad31-4ed3-9393-c7d86f97e702">WTSSBX_IP_ADDRESS</a> structures that indicate the IP addresses on this computer that are visible to Remote Desktop Connection (RDC) clients. This array cannot exceed 12 elements.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/tssbx/ns-tssbx-__midl_iwtssbplugin_0004">WTSSBX_IP_ADDRESS</a> structures that indicate the IP addresses on this computer that are visible to Remote Desktop Connection (RDC) clients. This array cannot exceed 12 elements.
 
 
 ## -see-also
@@ -82,7 +82,7 @@ An array of <a href="https://msdn.microsoft.com/92fe662a-ad31-4ed3-9393-c7d86f97
 
 
 
-<a href="https://msdn.microsoft.com/f6959b8c-a8a8-438b-8b6d-31bf0e782bac">IWTSSBPlugin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tssbx/nn-tssbx-iwtssbplugin">IWTSSBPlugin</a>
  
 
  

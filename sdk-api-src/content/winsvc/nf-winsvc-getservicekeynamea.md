@@ -67,7 +67,7 @@ Retrieves the service name of the specified service.
 ### -param hSCManager [in]
 
 A handle to the computer's service control manager database, as returned by 
-<a href="https://msdn.microsoft.com/a0237989-e5a7-4a3a-ab23-e2474a995341">OpenSCManager</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openscmanagera">OpenSCManager</a>.
 
 
 ### -param lpDisplayName [in]
@@ -79,7 +79,7 @@ The service display name. This string has a maximum length of 256 characters.
 
 A pointer to a buffer that receives the service name. If the function fails, this buffer will contain an empty string.
 
-The maximum size of this array is 4K bytes. To determine the required size, specify NULL for this parameter and 0 for the <i>lpcchBuffer</i> parameter. The function will fail and <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> will return <b>ERROR_INSUFFICIENT_BUFFER</b>. The <i>lpcchBuffer</i> parameter will receive the required size.
+The maximum size of this array is 4K bytes. To determine the required size, specify NULL for this parameter and 0 for the <i>lpcchBuffer</i> parameter. The function will fail and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return <b>ERROR_INSUFFICIENT_BUFFER</b>. The <i>lpcchBuffer</i> parameter will receive the required size.
 
 
 ### -param lpcchBuffer [in, out]
@@ -96,7 +96,7 @@ If the buffer pointed to by <i>lpServiceName</i> is too small to contain the ser
 If the functions succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -105,10 +105,10 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-There are two names for a service: the service name and the display name. The service name is the name of the service's key in the registry. The display name is a user-friendly name that appears in the Services control panel application, and is used with the <b>NET START</b> command. Both names are specified with the <a href="https://msdn.microsoft.com/47288924-3294-4a50-b27d-7df80d5c957c">CreateService</a> function and can be modified with the <a href="https://msdn.microsoft.com/add8a99b-aced-4341-9790-86efac76df6b">ChangeServiceConfig</a> function. Information specified for a service is stored in a key with the same name as the service name under the <b>HKEY_LOCAL_MACHINE</b>\<b>System</b>\<b>CurrentControlSet</b>\<b>Services</b>\<i>ServiceName</i> registry key.
+There are two names for a service: the service name and the display name. The service name is the name of the service's key in the registry. The display name is a user-friendly name that appears in the Services control panel application, and is used with the <b>NET START</b> command. Both names are specified with the <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> function and can be modified with the <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfiga">ChangeServiceConfig</a> function. Information specified for a service is stored in a key with the same name as the service name under the <b>HKEY_LOCAL_MACHINE</b>\<b>System</b>\<b>CurrentControlSet</b>\<b>Services</b>\<i>ServiceName</i> registry key.
 
 To map the service name to the display name, use the 
-<a href="https://msdn.microsoft.com/704812f3-134c-4161-b3b4-a955d87ff563">GetServiceDisplayName</a> function. To map the display name to the service name, use the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-getservicedisplaynamea">GetServiceDisplayName</a> function. To map the display name to the service name, use the 
 <b>GetServiceKeyName</b> function.
 
 
@@ -119,15 +119,15 @@ To map the service name to the display name, use the
 
 
 
-<a href="https://msdn.microsoft.com/704812f3-134c-4161-b3b4-a955d87ff563">GetServiceDisplayName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-getservicedisplaynamea">GetServiceDisplayName</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0237989-e5a7-4a3a-ab23-e2474a995341">OpenSCManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openscmanagera">OpenSCManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/63666848-cbac-4853-8b91-89303f9854c0">Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Services/service-functions">Service Functions</a>
  
 
  

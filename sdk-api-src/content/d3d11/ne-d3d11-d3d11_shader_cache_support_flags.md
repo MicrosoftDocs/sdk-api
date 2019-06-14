@@ -86,7 +86,7 @@ This enum is used by the <a href="direct3d11d3d11_feature_data_shader_cache">D3D
 
 
 
-<a href="https://msdn.microsoft.com/2a45182a-7114-4075-b8b8-147f52fe7aa9">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-structures">Core Structures</a>
  
 
  

@@ -87,7 +87,7 @@ The peak pagefile usage, in pages.
 
 
 
-<a href="https://msdn.microsoft.com/eb3610fb-2c95-4f7b-973d-8dc41d2829f1">EnumPageFilesProc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nc-psapi-penum_page_file_callbacka">EnumPageFilesProc</a>
  
 
  

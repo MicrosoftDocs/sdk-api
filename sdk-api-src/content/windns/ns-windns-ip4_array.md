@@ -74,5 +74,5 @@ The number of IPv4 addresses in <b>AddrArray</b>.
 
 ### -field AddrArray
 
-An array of <a href="https://msdn.microsoft.com/652012a5-e45d-4ea6-896a-17e8b1ed4a05">IP4_ADDRESS</a> data types that contains a list of IPv4 address.
+An array of <a href="https://docs.microsoft.com/windows/desktop/DNS/dns-data-types">IP4_ADDRESS</a> data types that contains a list of IPv4 address.
 

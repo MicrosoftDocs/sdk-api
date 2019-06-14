@@ -90,7 +90,7 @@ Specifies the identifier of the language profile.
 
 
 
-<a href="https://msdn.microsoft.com/790fb0f4-4abd-4947-8e9a-68739657a8f8">IEnumTfLanguageProfiles::Next
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtflanguageprofiles-next">IEnumTfLanguageProfiles::Next
       </a>
  
 

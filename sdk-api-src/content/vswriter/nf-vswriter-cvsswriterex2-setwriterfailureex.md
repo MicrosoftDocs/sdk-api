@@ -134,7 +134,7 @@ The writer failed due to an error that would likely not occur if the entire back
 <td width="60%">
 The writer operation failed because of an error that might recur if another shadow copy is created. For 
         more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -144,7 +144,7 @@ The writer operation failed because of an error that might recur if another shad
 </dl>
 </td>
 <td width="60%">
-The writer is reporting one or more component-level errors. To report the errors, the writer must use the <a href="https://msdn.microsoft.com/f9fd728a-b205-4cfa-8e9e-e0a0d385f5a1">IVssComponentEx2::SetFailure</a> method.
+The writer is reporting one or more component-level errors. To report the errors, the writer must use the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex2-setfailure">IVssComponentEx2::SetFailure</a> method.
 
 </td>
 </tr>
@@ -175,12 +175,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method cannot be called from <a href="https://msdn.microsoft.com/542d479a-695a-4b1f-94e7-f2ffa08440b7">CVssWriter::OnIdentify</a> or <a href="https://msdn.microsoft.com/4cb3b8f6-f702-4fba-a3cc-af84897cfd82">CVssWriterEx::OnIdentifyEx</a>.
+This method cannot be called from <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onidentify">CVssWriter::OnIdentify</a> or <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex-onidentifyex">CVssWriterEx::OnIdentifyEx</a>.
 
-To report component-level errors, writers should use the <a href="https://msdn.microsoft.com/f9fd728a-b205-4cfa-8e9e-e0a0d385f5a1">IVssComponentEx2::SetFailure</a> method.
+To report component-level errors, writers should use the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex2-setfailure">IVssComponentEx2::SetFailure</a> method.
 
-If a writer's event handler (such as <a href="https://msdn.microsoft.com/2aff5e87-4053-46a0-a7fb-7411e76166ba">CVssWriter::OnFreeze</a>) calls this method, it must do so in the same thread that called the event handler. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384993(v=VS.85).aspx">Writer Event Handling</a>.
+If a writer's event handler (such as <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onfreeze">CVssWriter::OnFreeze</a>) calls this method, it must do so in the same thread that called the event handler. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/VSS/writers">Writer Event Handling</a>.
 
 
 
@@ -190,15 +190,15 @@ If a writer's event handler (such as <a href="https://msdn.microsoft.com/2aff5e8
 
 
 
-<a href="https://msdn.microsoft.com/9fef9d77-dc0d-4ba0-a317-5c62355458f7">CVssWriter::SetWriterFailure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-setwriterfailure">CVssWriter::SetWriterFailure</a>
 
 
 
-<a href="https://msdn.microsoft.com/13cdeae3-dece-42ae-8bff-037ee3e4cec4">CVssWriterEx2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex2">CVssWriterEx2</a>
 
 
 
-<a href="https://msdn.microsoft.com/ab2be2c0-04bb-4a56-a636-ebd2c06e844a">IVssBackupComponentsEx3::GetWriterStatusEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex3-getwriterstatusex">IVssBackupComponentsEx3::GetWriterStatusEx</a>
  
 
  

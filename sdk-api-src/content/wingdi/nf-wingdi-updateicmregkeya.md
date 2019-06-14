@@ -181,7 +181,7 @@ Not all parameters are used by all functions. The <i>nCommand</i> parameter spec
 
 This function is retained for backward compatibility and may be removed in future versions of ICM.
 
-<b>Windows 95/98/Me: </b><b>UpdateICMRegKeyW</b> is supported by the Microsoft Layer for Unicode. To use this, you must add certain files to your application, as outlined in <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/mslu/winprog/microsoft_layer_for_unicode_on_windows_95_98_me_systems.asp">Microsoft Layer for Unicode on Windows 95/98/Me Systems</a>.
+<b>Windows 95/98/Me: </b><b>UpdateICMRegKeyW</b> is supported by the Microsoft Layer for Unicode. To use this, you must add certain files to your application, as outlined in <a href="https://msdn.microsoft.com/library?url=/library/mslu/winprog/microsoft_layer_for_unicode_on_windows_95_98_me_systems.asp">Microsoft Layer for Unicode on Windows 95/98/Me Systems</a>.
 
 
 
@@ -191,11 +191,11 @@ This function is retained for backward compatibility and may be removed in futur
 
 
 
-<a href="https://msdn.microsoft.com/a0623917-0b63-4546-a71a-1e9efa9fe8e5">Basic Color Management Concepts</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
 
 
 
-<a href="https://msdn.microsoft.com/49c26320-41c2-4075-aad2-005447616726">Obsolete WCS Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/obsolete-wcs-functions">Obsolete WCS Functions</a>
  
 
  

@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-Frees <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">credentials</a> acquired by calling the 
-<a href="https://msdn.microsoft.com/d01245d9-fbca-4346-acf5-86ae7f0eb01e">SpAcquireCredentialsHandle</a> function.
+Frees <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">credentials</a> acquired by calling the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spacquirecredentialshandlefn">SpAcquireCredentialsHandle</a> function.
 
 
 ## -parameters
@@ -100,8 +100,8 @@ The handle is not valid.
 SSP/APs must implement the <b>SpFreeCredentialsHandle</b> function; however, the actual name given to the implementation is up to the developer.
 
 A pointer to the <b>SpFreeCredentialsHandle</b> function is available in the 
-<a href="https://msdn.microsoft.com/43ca0f9b-1393-48aa-9d9c-4dd19963a66d">SECPKG_FUNCTION_TABLE</a> structure received from the 
-<a href="https://msdn.microsoft.com/1ef3770b-197f-4d5b-9933-b7f6f63e5627">SpLsaModeInitialize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
 
 
 
@@ -111,15 +111,15 @@ A pointer to the <b>SpFreeCredentialsHandle</b> function is available in the
 
 
 
-<a href="https://msdn.microsoft.com/43ca0f9b-1393-48aa-9d9c-4dd19963a66d">SECPKG_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/d01245d9-fbca-4346-acf5-86ae7f0eb01e">SpAcquireCredentialsHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spacquirecredentialshandlefn">SpAcquireCredentialsHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/1ef3770b-197f-4d5b-9933-b7f6f63e5627">SpLsaModeInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a>
  
 
  

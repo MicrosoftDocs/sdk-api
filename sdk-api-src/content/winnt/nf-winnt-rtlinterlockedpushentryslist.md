@@ -65,7 +65,7 @@ A pointer to an <b>SLIST_HEADER</b> structure that represents the head of a sing
 ### -param ListEntry [in]
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/6c467621-fa51-49f1-b962-2dd5ec0f7084">SLIST_ENTRY</a> structure that represents an item in a singly linked list.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_list_entry">SLIST_ENTRY</a> structure that represents an item in a singly linked list.
 
 
 ## -returns
@@ -81,7 +81,7 @@ The return value is the previous first item in the list. If the list was previou
 
 
 
-Calls to the <a href="https://msdn.microsoft.com/60e3b6f7-f556-4699-be90-db7330cfb8ca">InterlockedPushEntrySList</a> function are forwarded to the <b>RtlInterlockedPushEntrySList</b> function. Applications should call <b>InterlockedPushEntrySList</b> instead of calling this function directly.
+Calls to the <a href="https://docs.microsoft.com/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedpushentryslist">InterlockedPushEntrySList</a> function are forwarded to the <b>RtlInterlockedPushEntrySList</b> function. Applications should call <b>InterlockedPushEntrySList</b> instead of calling this function directly.
 
 
 
@@ -91,7 +91,7 @@ Calls to the <a href="https://msdn.microsoft.com/60e3b6f7-f556-4699-be90-db7330c
 
 
 
-<a href="https://msdn.microsoft.com/35463ace-33ab-4eb9-9901-2504a92456e2">Interlocked Singly Linked Lists</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/interlocked-singly-linked-lists">Interlocked Singly Linked Lists</a>
  
 
  

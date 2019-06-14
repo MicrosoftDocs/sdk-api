@@ -65,7 +65,7 @@ The number of buttons in the array.
 ### -param lpButtons [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/340fed49-3003-4dd6-80c9-6cefc8c5b750">MMCBUTTON</a> structure that contains information necessary for creating a button on the toolbar.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmcbutton">MMCBUTTON</a> structure that contains information necessary for creating a button on the toolbar.
 
 
 ## -returns
@@ -82,7 +82,7 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/cf9c9fe9-f58f-47f0-9051-86a514df0c6d">IToolbar</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-itoolbar">IToolbar</a>
  
 
  

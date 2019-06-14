@@ -120,7 +120,7 @@ A service must not call this function from its <a href="http://go.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/febcf440-78b3-420b-b13d-030e8071cd50">NCryptOpenStorageProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenstorageprovider">NCryptOpenStorageProvider</a>
  
 
  

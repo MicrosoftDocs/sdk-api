@@ -51,10 +51,10 @@ ms.custom: 19H1
 
 The 
 <b>STATFLAG</b> enumeration values indicate whether the method should try to return a name in the <b>pwcsName</b> member of the 
-<a href="https://msdn.microsoft.com/54e1df08-de8f-430a-bf76-e66594df4839">STATSTG</a> structure. The values are used in the 
-<a href="https://msdn.microsoft.com/e7953f21-ac34-44e3-9b6f-b93ac89e2e32">ILockBytes::Stat</a>, 
-<a href="https://msdn.microsoft.com/87478fa8-1b5f-44ed-bffc-e139c7f44a12">IStorage::Stat</a>, and 
-<a href="https://msdn.microsoft.com/c22ab396-dbc5-43a0-8448-35a2c094464f">IStream::Stat</a> methods to save memory when the <b>pwcsName</b> member is not required.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structure. The values are used in the 
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ilockbytes-stat">ILockBytes::Stat</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-stat">IStorage::Stat</a>, and 
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-stat">IStream::Stat</a> methods to save memory when the <b>pwcsName</b> member is not required.
 
 
 ## -enum-fields
@@ -65,16 +65,16 @@ The
 ### -field STATFLAG_DEFAULT
 
 Requests that the statistics include the <b>pwcsName</b> member of the 
-<a href="https://msdn.microsoft.com/54e1df08-de8f-430a-bf76-e66594df4839">STATSTG</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structure.
 
 
 ### -field STATFLAG_NONAME
 
 Requests that the statistics not include the <b>pwcsName</b> member of the 
-<a href="https://msdn.microsoft.com/54e1df08-de8f-430a-bf76-e66594df4839">STATSTG</a> structure. If the name is omitted, there is no need for the 
-<a href="https://msdn.microsoft.com/e7953f21-ac34-44e3-9b6f-b93ac89e2e32">ILockBytes::Stat</a>, 
-<a href="https://msdn.microsoft.com/87478fa8-1b5f-44ed-bffc-e139c7f44a12">IStorage::Stat</a>, and 
-<a href="https://msdn.microsoft.com/c22ab396-dbc5-43a0-8448-35a2c094464f">IStream::Stat</a> methods methods to allocate and free memory for the string value of the name, therefore the method reduces time and resources used in an allocation and free operation.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structure. If the name is omitted, there is no need for the 
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ilockbytes-stat">ILockBytes::Stat</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-stat">IStorage::Stat</a>, and 
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-stat">IStream::Stat</a> methods methods to allocate and free memory for the string value of the name, therefore the method reduces time and resources used in an allocation and free operation.
 
 
 ### -field STATFLAG_NOOPEN
@@ -87,15 +87,15 @@ Not implemented.
 
 
 
-<a href="https://msdn.microsoft.com/e7953f21-ac34-44e3-9b6f-b93ac89e2e32">ILockBytes::Stat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ilockbytes-stat">ILockBytes::Stat</a>
 
 
 
-<a href="https://msdn.microsoft.com/87478fa8-1b5f-44ed-bffc-e139c7f44a12">IStorage::Stat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-stat">IStorage::Stat</a>
 
 
 
-<a href="https://msdn.microsoft.com/c22ab396-dbc5-43a0-8448-35a2c094464f">IStream::Stat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-stat">IStream::Stat</a>
  
 
  

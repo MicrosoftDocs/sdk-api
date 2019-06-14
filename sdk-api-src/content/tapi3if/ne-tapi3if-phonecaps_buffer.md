@@ -68,11 +68,11 @@ Device-specific phone capabilities.
 
 
 
-<a href="https://msdn.microsoft.com/239902ca-0e9e-4b8d-927d-ee46a35dd9d8">ITPhone::GetPhoneCapsBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-getphonecapsbuffer">ITPhone::GetPhoneCapsBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/d9397aa8-2be4-4775-8123-975bdd58a6b5">ITPhone::get_PhoneCapsBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_phonecapsbuffer">ITPhone::get_PhoneCapsBuffer</a>
  
 
  

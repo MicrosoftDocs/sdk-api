@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>LSA_FOREST_TRUST_BINARY_DATA</b> structure contains binary data used in <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">Local Security Authority</a> forest trust operations.
+The <b>LSA_FOREST_TRUST_BINARY_DATA</b> structure contains binary data used in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> forest trust operations.
 
 
 ## -struct-fields

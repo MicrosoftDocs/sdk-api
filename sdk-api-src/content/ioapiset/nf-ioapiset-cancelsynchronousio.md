@@ -74,10 +74,10 @@ A handle to the thread.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is 0 (zero). To get extended error information, call the 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 If this function cannot find a request to cancel, the return value is 0 (zero), and 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns 
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
        <b>ERROR_NOT_FOUND</b>.
 
 
@@ -88,7 +88,7 @@ If this function cannot find a request to cancel, the return value is 0 (zero), 
 
 
 The caller must have the 
-    <a href="https://msdn.microsoft.com/72709446-5c59-4fac-8dc8-7912906ecc85">THREAD_TERMINATE</a> access right.
+    <a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-security-and-access-rights">THREAD_TERMINATE</a> access right.
 
 If there are any pending I/O operations in progress for the specified thread, the 
     <b>CancelSynchronousIo</b> function marks them for 
@@ -105,10 +105,10 @@ The operation being canceled is completed with one of three statuses; you must c
 <li><b>The operation completed normally.</b> This can occur even if the operation was 
       canceled, because the cancel request might not have been submitted in time to cancel the operation.</li>
 <li><b>The operation was canceled.</b> The 
-      <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function returns 
+      <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns 
       <b>ERROR_OPERATION_ABORTED</b>.</li>
 <li><b>The operation failed with another error.</b> The 
-      <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function returns the relevant error 
+      <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns the relevant error 
       code.</li>
 </ul>
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
@@ -179,19 +179,19 @@ Yes
 
 
 
-<a href="https://msdn.microsoft.com/b28162dc-0da8-41c6-9901-29381d2d72c4">CancelIo</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelio">CancelIo</a>
 
 
 
-<a href="https://msdn.microsoft.com/a2ce13b8-7da6-4848-848d-901d9667c2e3">CancelIoEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelioex-func">CancelIoEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/ade51d98-cc9d-4b33-9c52-559a9cb14707">Synchronous and Asynchronous I/O</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/synchronous-and-asynchronous-i-o">Synchronous and Asynchronous I/O</a>
  
 
  

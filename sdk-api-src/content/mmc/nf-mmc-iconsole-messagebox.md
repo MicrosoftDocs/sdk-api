@@ -70,7 +70,7 @@ A pointer to a null-terminated string used for the message box title. If this pa
 ### -param fuStyle [in]
 
 A value that specifies a set of bit flags that determine the contents and behavior of the message box. This parameter can be a combination of flags from the following groups of flags taken from the documentation for the Windows API 
-<a href="https://msdn.microsoft.com/en-us/library/ms645505(v=VS.85).aspx">MessageBox</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a>.
 
 Specify one of the following flags to indicate which buttons appear in the message box.
 
@@ -219,7 +219,7 @@ Displays message and caption text using right-to-left reading order for Hebrew a
 
 #### MB_SETFOREGROUND
 
-The message box becomes the foreground window. Internally, the operating system calls the <a href="https://msdn.microsoft.com/en-us/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a> function for the message box.
+The message box becomes the foreground window. Internally, the operating system calls the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a> function for the message box.
 
 
 
@@ -233,7 +233,7 @@ The message box is created with the <b>WS_EX_TOPMOST</b> window style.
 
 The caller is a service notifying the user of an event. The function displays a message box on the current active desktop, even if there is no user logged on to the computer.
 
-For more information about using this flag, see the <a href="https://msdn.microsoft.com/en-us/library/ms645505(v=VS.85).aspx">MessageBox</a> function.
+For more information about using this flag, see the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a> function.
 
 
 
@@ -265,7 +265,7 @@ This method can return one of these values.
     <b>MessageBox</b> should be used only when the error demands user attention and when the result pane contains useful information despite the error.
 
 In most cases, the MMC message OCX control is a more appropriate way of that displays error messages. For more information, see 
-<a href="https://msdn.microsoft.com/bc6db308-d8dd-4868-803d-45c64b951192">Using the MMC Message OCX Control</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-the-mmc-message-ocx-control">Using the MMC Message OCX Control</a>.
 
 
 
@@ -275,7 +275,7 @@ In most cases, the MMC message OCX control is a more appropriate way of that dis
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt300830(v=VS.85).aspx">IConsole</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole">IConsole</a>
  
 
  

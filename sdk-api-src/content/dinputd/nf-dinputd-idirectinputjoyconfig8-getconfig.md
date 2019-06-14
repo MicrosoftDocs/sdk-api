@@ -64,7 +64,7 @@ Indicates a joystick identification number. This is a nonnegative integer. To en
 
 ### -param arg2
 
-Points to a structure that receives information about the joystick configuration. The caller "must" initialize the <b>dwSize</b> member of the <a href="https://msdn.microsoft.com/2b17432f-fa5e-4ce3-9814-c24a45a49343">DIJOYCONFIG</a> structure before calling this method. 
+Points to a structure that receives information about the joystick configuration. The caller "must" initialize the <b>dwSize</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dinputd/ns-dinputd-dijoyconfig">DIJOYCONFIG</a> structure before calling this method. 
 
 
 ### -param arg3

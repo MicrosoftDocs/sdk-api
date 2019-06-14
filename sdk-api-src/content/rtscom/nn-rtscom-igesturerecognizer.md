@@ -57,7 +57,7 @@ Reacts to events by recognizing gestures and adding gesture data to the input qu
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGestureRecognizer</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IGestureRecognizer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGestureRecognizer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGestureRecognizer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -73,19 +73,19 @@ The <b>IGestureRecognizer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/59d39c2c-1c92-4325-b534-36b97a7df20f">EnableGestures</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-igesturerecognizer-enablegestures">EnableGestures</a>
 </td>
 <td align="left" width="63%">
-Sets a value that indicates to which application gestures the <a href="https://msdn.microsoft.com/7cdaf3bf-7aae-4d36-af1c-0eb5a726f388">GestureRecognizer Class</a> object responds.
+Sets a value that indicates to which application gestures the <a href="https://docs.microsoft.com/windows/desktop/tablet/gesturerecognizer-class">GestureRecognizer Class</a> object responds.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/05676701-2977-453f-b2b9-7a256899e2b1">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-igesturerecognizer-reset">Reset</a>
 </td>
 <td align="left" width="63%">
-Clears the <a href="https://msdn.microsoft.com/7cdaf3bf-7aae-4d36-af1c-0eb5a726f388">GestureRecognizer Class</a> object of past stroke information.
+Clears the <a href="https://docs.microsoft.com/windows/desktop/tablet/gesturerecognizer-class">GestureRecognizer Class</a> object of past stroke information.
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ Clears the <a href="https://msdn.microsoft.com/7cdaf3bf-7aae-4d36-af1c-0eb5a726f
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/4e977348-30d8-474c-80af-56371be5aee4">Enabled</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-igesturerecognizer-get_enabled">Enabled</a>
 
 
 </td>
@@ -116,7 +116,7 @@ Gets or sets a value that indicates whether gesture recognition is enabled.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d7f40294-437a-4d5c-9389-1798102d0d8f">MaxStrokeCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-igesturerecognizer-get_maxstrokecount">MaxStrokeCount</a>
 
 
 </td>
@@ -136,11 +136,11 @@ Gets or sets the maximum number of strokes allowed per gesture recognition.
 
 
 
-This interface is implemented by the <a href="https://msdn.microsoft.com/7cdaf3bf-7aae-4d36-af1c-0eb5a726f388">GestureRecognizer Class</a>.
+This interface is implemented by the <a href="https://docs.microsoft.com/windows/desktop/tablet/gesturerecognizer-class">GestureRecognizer Class</a>.
 
 The gesture recognizer analyzes digitizer input and injects gesture recognition results into the input queue.
 
-Adding an instance of the <a href="https://msdn.microsoft.com/7cdaf3bf-7aae-4d36-af1c-0eb5a726f388">GestureRecognizer Class</a> to multiple <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> instances is not a valid operation.
+Adding an instance of the <a href="https://docs.microsoft.com/windows/desktop/tablet/gesturerecognizer-class">GestureRecognizer Class</a> to multiple <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> instances is not a valid operation.
 
 
 
@@ -150,11 +150,11 @@ Adding an instance of the <a href="https://msdn.microsoft.com/7cdaf3bf-7aae-4d36
 
 
 
-<a href="https://msdn.microsoft.com/938e1eb2-3dd4-4e21-9c46-9ef840172b05">DynamicRenderer Class</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/fc0900b4-f08b-4a93-bbc0-d3db067d7917">RealTimeStylus Classes and Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>Graphics::GetCompositingMode</b> method gets the compositing mode currently set for this 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object.
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object.
 
 
 ## -parameters
@@ -65,12 +65,12 @@ The <b>Graphics::GetCompositingMode</b> method gets the compositing mode current
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534093(v=VS.85).aspx">CompositingMode</a></b>
+Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-compositingmode">CompositingMode</a></b>
 </strong>
 
 This method returns an element of the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534093(v=VS.85).aspx">CompositingMode</a> enumeration that indicates the compositing mode currently set for this 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object.
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-compositingmode">CompositingMode</a> enumeration that indicates the compositing mode currently set for this 
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object.
 
 
 
@@ -79,8 +79,8 @@ This method returns an element of the
 
 
 
-Suppose you create a <a href="https://msdn.microsoft.com/en-us/library/ms534508(v=VS.85).aspx">SolidBrush</a> object based on a color that has an alpha component of 192, which is about 75 percent of 255. If your 
-				<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object has its compositing mode set to CompositingModeSourceOver, then areas filled with the solid brush are a blend that is 75 percent brush color and 25 percent background color. If your 
+Suppose you create a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-solidbrush">SolidBrush</a> object based on a color that has an alpha component of 192, which is about 75 percent of 255. If your 
+				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object has its compositing mode set to CompositingModeSourceOver, then areas filled with the solid brush are a blend that is 75 percent brush color and 25 percent background color. If your 
 				<b>Graphics</b> object has its compositing mode set to CompositingModeSourceCopy, then the background color is not blended with the brush color. However, the color rendered by the brush has an intensity that is 75 percent of what it would be if the alpha component were 255.
 
 
@@ -89,8 +89,8 @@ Suppose you create a <a href="https://msdn.microsoft.com/en-us/library/ms534508(
 
 
 The following example creates a 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object and sets its compositing mode to CompositingModeSourceCopy. The code creates a <a href="https://msdn.microsoft.com/en-us/library/ms534508(v=VS.85).aspx">SolidBrush</a> object based on a color with an alpha component of 128. The code passes the address of that brush to the
-<a href="https://msdn.microsoft.com/en-us/library/ms535957(v=VS.85).aspx">Graphics::FillRectangle</a> method of the 
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object and sets its compositing mode to CompositingModeSourceCopy. The code creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-solidbrush">SolidBrush</a> object based on a color with an alpha component of 128. The code passes the address of that brush to the
+<a href="https://docs.microsoft.com/previous-versions//ms535957(v=vs.85)">Graphics::FillRectangle</a> method of the 
 						<b>Graphics</b> object to fill a rectangle with a color that is not blended with the background color. The call to the <b>Graphics::GetCompositingMode</b> method of the 
 						<b>Graphics</b> object demonstrates how to obtain the compositing mode (which is already known in this case). The code determines whether the compositing mode is CompositingModeSourceCopy and if so, changes it to CompositingModeSourceOver. Then the code calls 
 						<b>Graphics::FillRectangle</b> a second time to fill a rectangle with a color that is a half-and-half blend of the brush color and the background color.
@@ -127,39 +127,39 @@ VOID Example_GetCompositingMode(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533803(v=VS.85).aspx">Alpha Blending Lines and Fills</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-alpha-blending-lines-and-fills-use">Alpha Blending Lines and Fills</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535701(v=VS.85).aspx">Graphics::GetCompositingQuality</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getcompositingquality">Graphics::GetCompositingQuality</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535808(v=VS.85).aspx">Graphics::SetCompositingMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setcompositingmode">Graphics::SetCompositingMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535809(v=VS.85).aspx">Graphics::SetCompositingQuality</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setcompositingquality">Graphics::SetCompositingQuality</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534459(v=VS.85).aspx">HatchBrush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-hatchbrush">HatchBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536340(v=VS.85).aspx">New Features</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-new-features-about">New Features</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534508(v=VS.85).aspx">SolidBrush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-solidbrush">SolidBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533955(v=VS.85).aspx">Using Compositing Mode to Control Alpha Blending</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-compositing-mode-to-control-alpha-blending-use">Using Compositing Mode to Control Alpha Blending</a>
  
 
  

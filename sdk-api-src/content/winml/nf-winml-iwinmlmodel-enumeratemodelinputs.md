@@ -68,7 +68,7 @@ Input index value.
 
 ### -param ppInputDescriptor [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/94FBC8E4-13BD-49A5-A720-0827479A43A6">WINML_VARIABLE_DESC</a> containing the model input description.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winml/ns-winml-winml_variable_desc">WINML_VARIABLE_DESC</a> containing the model input description.
 
 
 ## -returns
@@ -85,7 +85,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/604ABFCC-9CA0-409D-A3FF-D5C59758462E">IWinMLModel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winml/nn-winml-iwinmlmodel">IWinMLModel</a>
  
 
  

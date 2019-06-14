@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 
 Queues a work item to a worker thread in the 
-<a href="https://msdn.microsoft.com/a5e52080-35d4-47f5-9050-90889e3bf2f8">thread pool</a>.
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-pooling">thread pool</a>.
 
 
 ## -parameters
@@ -65,13 +65,13 @@ Queues a work item to a worker thread in the
 ### -param Function [in]
 
 A pointer to the application-defined callback function of type <b>LPTHREAD_START_ROUTINE</b> to be executed by the thread in the thread pool. This value represents the starting address of the thread. This callback function must not call the 
-<a href="https://msdn.microsoft.com/ae1ad0f3-67df-4573-af22-7086f0470361">TerminateThread</a> function. 
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-terminatethread">TerminateThread</a> function. 
 
 
 
 
 For more information, see 
-<a href="https://msdn.microsoft.com/f0dc203f-200e-42f1-940c-24e3fe080175">ThreadProc</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms686736(v=vs.85)">ThreadProc</a>.
 
 
 ### -param Context [in, optional]
@@ -127,7 +127,7 @@ I/O worker threads were removed starting with Windows Vista and Windows Server�
 The callback function is queued to a thread that never terminates. It does not guarantee that the same thread is used each time. This flag should be used only for short tasks or it could affect other timer operations. 
 
 
-This flag must be set if the thread calls functions that use APCs. For more information, see <a href="https://msdn.microsoft.com/0197d78e-a4dc-414b-88ba-c5ec5f2ed614">Asynchronous Procedure Calls</a>.
+This flag must be set if the thread calls functions that use APCs. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Sync/asynchronous-procedure-calls">Asynchronous Procedure Calls</a>.
 
 Note that currently no worker thread is truly persistent, although worker threads do not terminate if there are any pending I/O requests.
 
@@ -168,7 +168,7 @@ Callback functions will use the current access token, whether it is a process or
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -186,7 +186,7 @@ By default, the thread pool has a maximum of 512 threads per process. To raise t
 Use this macro in the call to <b>QueueUserWorkItem</b> to specify the <i>Flags</i> parameter. The macro parameters are the desired flags and the new limit, up to (2&lt;&lt;16)-1 threads. However, the size of the queue is limited by the size of the kernel nonpaged pool. Note that your application can improve its performance by keeping the number of worker threads low.
 
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0500 or later. For more information, see 
-<a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 
@@ -196,15 +196,15 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 
 
-<a href="https://msdn.microsoft.com/8c8e8af0-bf50-4a4b-945c-83bae1eff7dd">Process and Thread Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/a5e52080-35d4-47f5-9050-90889e3bf2f8">Thread Pooling</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-pooling">Thread Pooling</a>
 
 
 
-<a href="https://msdn.microsoft.com/f0dc203f-200e-42f1-940c-24e3fe080175">ThreadProc</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms686736(v=vs.85)">ThreadProc</a>
  
 
  

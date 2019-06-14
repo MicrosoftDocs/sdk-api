@@ -64,7 +64,7 @@ The version number of the API. Must be set to zero.
 
 ### -param dwFlags [in]
 
-A combination of <a href="https://msdn.microsoft.com/b6305349-3418-475e-8a37-2c06b399556e">EAP flags</a> that describe the  EAP authentication session behavior.
+A combination of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-method-flags">EAP flags</a> that describe the  EAP authentication session behavior.
 
 
 ### -param dwSizeofUIContextData [in]
@@ -79,7 +79,7 @@ A pointer to a BLOB that contains UI context data, represented as inner pointers
 
 ### -param pEapInteractiveUIData [in]
 
-Pointer that receives an <a href="https://msdn.microsoft.com/68141611-4a1c-409e-8ed2-3d21a76640c3">EAP_INTERACTIVE_UI_DATA</a> structure that contains configuration information for interactive user interface components raised on an EAP supplicant.
+Pointer that receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_interactive_ui_data">EAP_INTERACTIVE_UI_DATA</a> structure that contains configuration information for interactive user interface components raised on an EAP supplicant.
 
 
 ### -param pdwSizeOfDataFromInteractiveUI [out]
@@ -91,12 +91,12 @@ A pointer to a DWORD that specifies the size of the buffer pointed to by the <i>
 
   A pointer that receives a credentials BLOB that can be used in authentication.
                 The caller should free the inner pointers
-                using the function <a href="https://msdn.microsoft.com/544d999c-d857-4ca5-b5f8-b15780fc7019">EapPeerFreeMemory</a>, starting at the innermost pointer. If a non-NULL value is supplied for this parameter, meaning that an existing data BLOB is passed to it, the supplied data BLOB will be updated and returned in this parameter.
+                using the function <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreememory">EapPeerFreeMemory</a>, starting at the innermost pointer. If a non-NULL value is supplied for this parameter, meaning that an existing data BLOB is passed to it, the supplied data BLOB will be updated and returned in this parameter.
 
 
 ### -param ppEapError [out]
 
-A pointer to the address of an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains any errors raised by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://msdn.microsoft.com/85b4197c-5caf-4e2b-94fd-e651712dd39d">EapPeerFreeErrorMemory</a>.
+A pointer to the address of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structure that contains any errors raised by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
 
 
 ### -param ppvReserved [in, out]
@@ -108,7 +108,7 @@ Reserved for future use. This parameter must be set to 0.
 
 
 
-<b>EapPeerQueryUIBlobFromInteractiveUIInputFields</b> can be employed to support Single-Sign-On (SSO). In an SSO scenario, <b>EapPeerQueryUIBlobFromInteractiveUIInputFields</b> is the last API to be called before resuming a regular call sequence. For more information, see <a href="https://msdn.microsoft.com/aac69e89-249d-4bc8-baef-1f0681f9f7ae">Peer Method API Call Sequence</a>.  
+<b>EapPeerQueryUIBlobFromInteractiveUIInputFields</b> can be employed to support Single-Sign-On (SSO). In an SSO scenario, <b>EapPeerQueryUIBlobFromInteractiveUIInputFields</b> is the last API to be called before resuming a regular call sequence. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/peer-method-api-call-sequence">Peer Method API Call Sequence</a>.  
 
 
 
@@ -118,11 +118,11 @@ Reserved for future use. This parameter must be set to 0.
 
 
 
-<a href="https://msdn.microsoft.com/92a1df11-10f9-4e55-a7ec-db026aaf5c24">EAPHost Supplicant Configuration Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-supplicant-configuration-functions">EAPHost Supplicant Configuration Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/126ef6cc-aa65-4770-b81a-82d25213618c">SSO and PLAP</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/understanding-sso-and-plap">SSO and PLAP</a>
  
 
  

@@ -65,8 +65,8 @@ The <b>DsGetDomainControllerInfo</b> function retrieves data about the domain co
 ### -param hDs [in]
 
 Contains a directory service handle obtained from either the 
-<a href="https://msdn.microsoft.com/c73cd16d-ccfd-4f61-b1c5-50130bef64d7">DSBind</a> or 
-<a href="https://msdn.microsoft.com/708e3874-852c-4a57-bf4b-edaf98818fe5">DSBindWithCred</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbinda">DSBind</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithcreda">DSBindWithCred</a> function.
 
 
 ### -param DomainName [in]
@@ -82,19 +82,19 @@ Contains a value that indicates the version of the <b>DS_DOMAIN_CONTROLLER_INFO<
 
 #### 1
 
-The function provides the domain data in the <a href="https://msdn.microsoft.com/6cc829ac-2aa6-49ef-b1ab-9c249249e0d6">DS_DOMAIN_CONTROLLER_INFO_1</a> structure format.
+The function provides the domain data in the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_domain_controller_info_1a">DS_DOMAIN_CONTROLLER_INFO_1</a> structure format.
 
 
 
 #### 2
 
-The function provides the domain data in the <a href="https://msdn.microsoft.com/9d45b732-363d-4b20-ae5c-e9e76264bf1f">DS_DOMAIN_CONTROLLER_INFO_2</a> structure format.
+The function provides the domain data in the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_domain_controller_info_2a">DS_DOMAIN_CONTROLLER_INFO_2</a> structure format.
 
 
 
 #### 3
 
-The function provides the domain data in the <a href="https://msdn.microsoft.com/510f458e-4c08-41c7-b290-1372ac9c8beb">DS_DOMAIN_CONTROLLER_INFO_3</a> structure format.
+The function provides the domain data in the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_domain_controller_info_3a">DS_DOMAIN_CONTROLLER_INFO_3</a> structure format.
 
 
 ### -param pcOut [out]
@@ -105,22 +105,22 @@ Pointer to a <b>DWORD</b> variable that receives the number of items returned in
 ### -param ppInfo [out]
 
 Pointer to a pointer variable that receives an array of  <b>DS_DOMAIN_CONTROLLER_INFO_*</b> structures. The type of structures in this array is defined by the <i>InfoLevel</i> parameter. The caller must free this array, when it is no longer required, by using 
-the <a href="https://msdn.microsoft.com/1b6d3136-91e2-4653-a4b0-ae2f66a6c5a2">DsFreeDomainControllerInfo</a> function.
+the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsfreedomaincontrollerinfoa">DsFreeDomainControllerInfo</a> function.
 
 
 ##### - InfoLevel.1
 
-The function provides the domain data in the <a href="https://msdn.microsoft.com/6cc829ac-2aa6-49ef-b1ab-9c249249e0d6">DS_DOMAIN_CONTROLLER_INFO_1</a> structure format.
+The function provides the domain data in the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_domain_controller_info_1a">DS_DOMAIN_CONTROLLER_INFO_1</a> structure format.
 
 
 ##### - InfoLevel.2
 
-The function provides the domain data in the <a href="https://msdn.microsoft.com/9d45b732-363d-4b20-ae5c-e9e76264bf1f">DS_DOMAIN_CONTROLLER_INFO_2</a> structure format.
+The function provides the domain data in the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_domain_controller_info_2a">DS_DOMAIN_CONTROLLER_INFO_2</a> structure format.
 
 
 ##### - InfoLevel.3
 
-The function provides the domain data in the <a href="https://msdn.microsoft.com/510f458e-4c08-41c7-b290-1372ac9c8beb">DS_DOMAIN_CONTROLLER_INFO_3</a> structure format.
+The function provides the domain data in the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_domain_controller_info_3a">DS_DOMAIN_CONTROLLER_INFO_3</a> structure format.
 
 
 ## -returns
@@ -139,31 +139,31 @@ If the function fails, the return value can be one of the following error codes.
 
 
 
-<a href="https://msdn.microsoft.com/6cc829ac-2aa6-49ef-b1ab-9c249249e0d6">DS_DOMAIN_CONTROLLER_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_domain_controller_info_1a">DS_DOMAIN_CONTROLLER_INFO_1</a>
 
 
 
-<a href="https://msdn.microsoft.com/9d45b732-363d-4b20-ae5c-e9e76264bf1f">DS_DOMAIN_CONTROLLER_INFO_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_domain_controller_info_2a">DS_DOMAIN_CONTROLLER_INFO_2</a>
 
 
 
-<a href="https://msdn.microsoft.com/510f458e-4c08-41c7-b290-1372ac9c8beb">DS_DOMAIN_CONTROLLER_INFO_3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_domain_controller_info_3a">DS_DOMAIN_CONTROLLER_INFO_3</a>
 
 
 
-<a href="https://msdn.microsoft.com/a92783c2-ffb8-473e-8484-1c05ca5453ff">Domain Controller and Replication Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/c73cd16d-ccfd-4f61-b1c5-50130bef64d7">DsBind</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbinda">DsBind</a>
 
 
 
-<a href="https://msdn.microsoft.com/708e3874-852c-4a57-bf4b-edaf98818fe5">DsBindWithCred</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithcreda">DsBindWithCred</a>
 
 
 
-<a href="https://msdn.microsoft.com/1b6d3136-91e2-4653-a4b0-ae2f66a6c5a2">DsFreeDomainControllerInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsfreedomaincontrollerinfoa">DsFreeDomainControllerInfo</a>
  
 
  

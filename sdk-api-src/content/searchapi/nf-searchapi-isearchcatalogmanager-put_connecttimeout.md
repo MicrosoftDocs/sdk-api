@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the connection time-out value in the <a href="https://msdn.microsoft.com/en-us/library/Aa965374(v=VS.85).aspx">TIMEOUT_INFO</a> structure, in seconds.
+Sets the connection time-out value in the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-_timeout_info">TIMEOUT_INFO</a> structure, in seconds.
 
 
 ## -parameters

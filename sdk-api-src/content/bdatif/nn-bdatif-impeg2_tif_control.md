@@ -49,14 +49,14 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>IMPEG2_TIF_CONTROL</b> is no longer available for use. Instead, use the <a href="https://msdn.microsoft.com/96c76a81-57c9-4c4b-a5f6-7b9862757847">IBDA_TIF_REGISTRATION</a> interface to register the TIF with the Network Provider, and use the <a href="https://msdn.microsoft.com/en-us/library/Dd407132(v=VS.85).aspx">IMPEG2PIDMap</a> interface to map or unmap PIDs.]
+<p class="CCE_Message">[<b>IMPEG2_TIF_CONTROL</b> is no longer available for use. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nn-bdatif-ibda_tif_registration">IBDA_TIF_REGISTRATION</a> interface to register the TIF with the Network Provider, and use the <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-impeg2pidmap">IMPEG2PIDMap</a> interface to map or unmap PIDs.]
 
-The <b>IMPEG2_TIF_CONTROL</b> interface is implemented by the <a href="https://msdn.microsoft.com/f5de924f-defe-4300-a347-c9d63271dc90">BDA Network Provider</a>. A Transport Information Filter (TIF) can use this interface to register itself and request table sections carried on specific PIDs within the transport stream. The Network Provider Filter instructs the <a href="https://msdn.microsoft.com/99bfc55d-6519-4e85-98ce-cad27bd71ffb">MPEG-2 Demultiplexer</a> (Demux) to send or stop sending the specified packets to the TIF's input pin. All sections are delivered by the Demux to the TIF as complete MPEG-2 table sections.
+The <b>IMPEG2_TIF_CONTROL</b> interface is implemented by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-network-provider-filter">BDA Network Provider</a>. A Transport Information Filter (TIF) can use this interface to register itself and request table sections carried on specific PIDs within the transport stream. The Network Provider Filter instructs the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/mpeg-2-demultiplexer">MPEG-2 Demultiplexer</a> (Demux) to send or stop sending the specified packets to the TIF's input pin. All sections are delivered by the Demux to the TIF as complete MPEG-2 table sections.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMPEG2_TIF_CONTROL</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMPEG2_TIF_CONTROL</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMPEG2_TIF_CONTROL</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMPEG2_TIF_CONTROL</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IMPEG2_TIF_CONTROL</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/27add7cc-1d77-4ac5-b63f-757f63f4c9b8">AddPIDs</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-impeg2_tif_control-addpids">AddPIDs</a>
 </td>
 <td align="left" width="63%">
 Notifies the Network Provider which PIDs the TIF should receive.
@@ -80,7 +80,7 @@ Notifies the Network Provider which PIDs the TIF should receive.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d5188e30-6980-482f-a690-494855d6aeea">DeletePIDs</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-impeg2_tif_control-deletepids">DeletePIDs</a>
 </td>
 <td align="left" width="63%">
 Informs the Network Provider that the TIF no longer requires the specified PID.
@@ -89,7 +89,7 @@ Informs the Network Provider that the TIF no longer requires the specified PID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2d77c3d8-b91c-43de-b4c1-bd41636eb4ad">GetPIDCount</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-impeg2_tif_control-getpidcount">GetPIDCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of MPEG-2 Packet IDs being filtered by the Demux into the TIF's input data.
@@ -98,7 +98,7 @@ Retrieves the number of MPEG-2 Packet IDs being filtered by the Demux into the T
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c7ca141b-e471-47ce-96b5-b2c0cad89daf">GetPIDs</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-impeg2_tif_control-getpids">GetPIDs</a>
 </td>
 <td align="left" width="63%">
 Retrieves the list of MPEG-2 Packet IDs being filtered into the TIF's input data.
@@ -107,7 +107,7 @@ Retrieves the list of MPEG-2 Packet IDs being filtered into the TIF's input data
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d17b1f6b-24f4-40f4-9a58-aa582c0958f8">RegisterTIF</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-impeg2_tif_control-registertif">RegisterTIF</a>
 </td>
 <td align="left" width="63%">
 Called by the Transport Information Filter to register itself with the Network Provider.
@@ -116,7 +116,7 @@ Called by the Transport Information Filter to register itself with the Network P
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e4fd151e-ec24-41b9-85df-fba05fc174d1">UnregisterTIF</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-impeg2_tif_control-unregistertif">UnregisterTIF</a>
 </td>
 <td align="left" width="63%">
 Called by the Transport Information Filter to unregister itself with the Network Provider.
@@ -140,7 +140,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
  
 
  

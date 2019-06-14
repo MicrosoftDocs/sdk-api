@@ -59,7 +59,7 @@ The <b>NCryptEnumAlgorithms</b> function obtains the names of the algorithms tha
 
 ### -param hProvider [in]
 
-The handle of the key storage provider to enumerate the algorithms for. This handle is obtained with the <a href="https://msdn.microsoft.com/febcf440-78b3-420b-b13d-030e8071cd50">NCryptOpenStorageProvider</a> function.
+The handle of the key storage provider to enumerate the algorithms for. This handle is obtained with the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenstorageprovider">NCryptOpenStorageProvider</a> function.
 
 
 ### -param dwAlgOperations [in]
@@ -137,9 +137,9 @@ The address of a <b>DWORD</b> that receives the number of elements in the <i>ppA
 
 ### -param ppAlgList [out]
 
-The address of an <a href="https://msdn.microsoft.com/79b0193e-3be8-46ce-a422-40ed9698363f">NCryptAlgorithmName</a> structure pointer that receives an array of the registered algorithm names. The variable pointed to by the <i>pdwAlgCount</i> parameter receives the number of elements in this array.
+The address of an <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/ns-ncrypt-_ncryptalgorithmname">NCryptAlgorithmName</a> structure pointer that receives an array of the registered algorithm names. The variable pointed to by the <i>pdwAlgCount</i> parameter receives the number of elements in this array.
 
-When this memory is no longer needed, it must be freed by passing this pointer to the <a href="https://msdn.microsoft.com/15f19999-cf64-4a30-b38d-9372066add0a">NCryptFreeBuffer</a> function.
+When this memory is no longer needed, it must be freed by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreebuffer">NCryptFreeBuffer</a> function.
 
 
 ### -param dwFlags [in]

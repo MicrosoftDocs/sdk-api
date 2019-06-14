@@ -107,16 +107,16 @@ The font selection is not supported through this font object.
 
 
 The logical mapping mode affects the font's internal computation of its point size so that when the caller 
-    asks for a font handle by calling <a href="https://msdn.microsoft.com/19bfd78a-0e81-45c3-a3b8-bc893669e9f5">IFont::get_hFont</a>, the 
+    asks for a font handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_hfont">IFont::get_hFont</a>, the 
     font is already properly scaled to the device context.
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 The caller retains ownership of this device context which must remain valid for the lifetime of 
      the font object. Thus, the device context passed should be a memory device context (from the function 
-     <a href="https://msdn.microsoft.com/6ddc3705-2995-41af-af94-258aed597e17">CreateCompatibleDC</a>) and not a screen device context 
-     (from <a href="https://msdn.microsoft.com/6fc443c8-da97-4196-a9ed-179a4e583849">CreateDC</a>, 
-     <a href="https://msdn.microsoft.com/50b2387b-c8e4-42a8-8f0f-0bdb355adbfd">GetDC</a>, or 
-     <a href="https://msdn.microsoft.com/513341d7-bed8-469c-a067-ee71dc8860f9">BeginPaint</a>) because screen device contexts are a limited system 
+     <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createcompatibledc">CreateCompatibleDC</a>) and not a screen device context 
+     (from <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca">CreateDC</a>, 
+     <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdc">GetDC</a>, or 
+     <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a>) because screen device contexts are a limited system 
      resource.
 
 
@@ -127,7 +127,7 @@ The caller retains ownership of this device context which must remain valid for 
 
 
 
-<a href="https://msdn.microsoft.com/3a04d2b7-b2eb-4c6c-8863-1e88321fa382">IFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
  
 
  

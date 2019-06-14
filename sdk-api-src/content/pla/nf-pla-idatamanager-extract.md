@@ -81,11 +81,11 @@ Returns S_OK if successful.
 
 
 
-<a href="https://msdn.microsoft.com/a153d88f-4c7e-45fd-9cd8-497160711de4">IDataManager</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatamanager">IDataManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/7e7672d9-9384-4365-aa4a-bf8dace050c2">IFolderAction::Actions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ifolderaction-get_actions">IFolderAction::Actions</a>
  
 
  

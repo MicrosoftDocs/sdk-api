@@ -54,7 +54,7 @@ The <b>ITfMouseTrackerACP</b> interface is implemented by an application to supp
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfMouseTrackerACP</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfMouseTrackerACP</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfMouseTrackerACP</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfMouseTrackerACP</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfMouseTrackerACP</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/365538cd-0f18-45ce-91c2-ee3255b7fa93">AdviseMouseSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfmousetrackeracp-advisemousesink">AdviseMouseSink</a>
 </td>
 <td align="left" width="63%">
 Called to install a mouse event sink.
@@ -78,7 +78,7 @@ Called to install a mouse event sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6c753e09-f67a-45d6-b2f9-c08d5c05c04d">UnadviseMouseSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfmousetrackeracp-unadvisemousesink">UnadviseMouseSink</a>
 </td>
 <td align="left" width="63%">
 Called to remove a mouse event sink.

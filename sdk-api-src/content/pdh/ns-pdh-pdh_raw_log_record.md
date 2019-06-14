@@ -142,7 +142,7 @@ Binary record.
 
 
 
-<a href="https://msdn.microsoft.com/fb93b6ea-ca31-4ff1-a553-b02388be8b72">PdhReadRawLogRecord</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhreadrawlogrecord">PdhReadRawLogRecord</a>
  
 
  

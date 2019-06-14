@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Specifies the locks within the <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> object that protect the <b>RealTimeStylus Class</b> object's members and properties from modification.
+Specifies the locks within the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object that protect the <b>RealTimeStylus Class</b> object's members and properties from modification.
 
 
 
@@ -62,7 +62,7 @@ Specifies the locks within the <a href="https://msdn.microsoft.com/fd686a78-b0a8
 
 ### -field RTSLT_ObjLock
 
-The object lock protects the <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> object's members and properties from modification.
+The object lock protects the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object's members and properties from modification.
 
 
 ### -field RTSLT_SyncEventLock
@@ -82,19 +82,19 @@ The system excludes callbacks from the object's event or modification lock.
 
 ### -field RTSLT_SyncObjLock
 
-The object lock protects the <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> synchronous object's members and properties from modification.
+The object lock protects the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> synchronous object's members and properties from modification.
 
 
 ### -field RTSLT_AsyncObjLock
 
-The object lock protects the <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> asynchronous object's members and properties from modification.
+The object lock protects the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> asynchronous object's members and properties from modification.
 
 
 ## -remarks
 
 
 
-You can use these locks when you need to protect access to the plug-in collections or properties of the <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> object through the <a href="https://msdn.microsoft.com/fe76386d-55b5-40a8-aa6f-b4a1ee8d9fbd">IRealTimeStylusSynchronization Interface</a> interface.
+You can use these locks when you need to protect access to the plug-in collections or properties of the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object through the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylussynchronization">IRealTimeStylusSynchronization Interface</a> interface.
 
 For example, the window's handle can be locked to prevent it from being altered.
 
@@ -106,15 +106,15 @@ For example, the window's handle can be locked to prevent it from being altered.
 
 
 
-<a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/a239b53c-7fc9-4211-962a-6cfbe0be4e4c">RealTimeStylus Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-reference">RealTimeStylus Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/8baf8ee3-b6f7-4733-9e71-52627045c874">RealTimeStylus Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-structures">RealTimeStylus Structures</a>
  
 
  

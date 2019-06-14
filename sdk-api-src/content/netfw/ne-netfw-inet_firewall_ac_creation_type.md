@@ -82,7 +82,7 @@ Maximum value for testing purposes.
 
 
 
-<a href="https://msdn.microsoft.com/b5f1b85d-3538-4be3-b97b-f9207cc7063b">INET_FIREWALL_AC_CHANGE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/ns-netfw-_inet_firewall_ac_change">INET_FIREWALL_AC_CHANGE</a>
  
 
  

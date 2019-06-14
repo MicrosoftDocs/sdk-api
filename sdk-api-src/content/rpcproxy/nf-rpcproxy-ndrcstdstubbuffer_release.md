@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[IUnknown_Release_Proxy is not supported and may be altered or unavailable in the future.]
 
-The <b>NdrCStdStubBuffer_Release</b> function implements the <a href="https://msdn.microsoft.com/en-us/library/ms678504(v=VS.85).aspx">IRpcStubBuffer::Release</a> method.
+The <b>NdrCStdStubBuffer_Release</b> function implements the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer::Release</a> method.
 
 
 ## -parameters
@@ -61,12 +61,12 @@ The <b>NdrCStdStubBuffer_Release</b> function implements the <a href="https://ms
 
 ### -param This [in]
 
-Pointer to  the <a href="https://msdn.microsoft.com/en-us/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a> object. 
+Pointer to  the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a> object. 
 
 
 ### -param pPSF [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms695281(v=VS.85).aspx">IPSFactoryBuffer</a> object. The pointer is contained in the global variable, gPFactory, defined in RpcProxy.h.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipsfactorybuffer">IPSFactoryBuffer</a> object. The pointer is contained in the global variable, gPFactory, defined in RpcProxy.h.
 
 
 ## -returns

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MTP_COMMAND_DATA_OUT</b> structure contains Media Transport Protocol (MTP) responses that are filled by the device driver on exiting a call to <a href="https://msdn.microsoft.com/3ef6a95d-d4e2-4608-9a02-98b497e1fdbb">IWMDMDevice3::DeviceIoControl</a>.
+The <b>MTP_COMMAND_DATA_OUT</b> structure contains Media Transport Protocol (MTP) responses that are filled by the device driver on exiting a call to <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-deviceiocontrol">IWMDMDevice3::DeviceIoControl</a>.
 
 
 
@@ -96,7 +96,7 @@ Optional, first byte of data to read from the device if <b>MTP_COMMAND_DATA_IN.N
 
 
 
-The input buffer is expected to contain an appropriately filled out <a href="https://msdn.microsoft.com/a7a6871b-3d53-4134-9877-398c532b489f">MTP_COMMAND_DATA_IN</a> structure. On exit, the device driver will fill out the <b>MTP_COMMAND_DATA_OUT</b> structure and save it to the output buffer. Therefore, any request must have an input buffer of at least SIZEOF_REQUIRED_COMMAND_DATA_IN bytes, which is defined as the following:
+The input buffer is expected to contain an appropriately filled out <a href="https://docs.microsoft.com/windows/desktop/api/mtpext/ns-mtpext-_mtp_command_data_in">MTP_COMMAND_DATA_IN</a> structure. On exit, the device driver will fill out the <b>MTP_COMMAND_DATA_OUT</b> structure and save it to the output buffer. Therefore, any request must have an input buffer of at least SIZEOF_REQUIRED_COMMAND_DATA_IN bytes, which is defined as the following:
 
 <pre class="syntax" xml:space="preserve"><code>
 #define SIZEOF_REQUIRED_COMMAND_DATA_IN (sizeof(MTP_COMMAND_DATA_IN)-1)
@@ -116,15 +116,15 @@ It is assumed that all commands are self-contained, that is, they can be process
 
 
 
-<a href="https://msdn.microsoft.com/3ef6a95d-d4e2-4608-9a02-98b497e1fdbb">IWMDMDevice3::DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-deviceiocontrol">IWMDMDevice3::DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7a6871b-3d53-4134-9877-398c532b489f">MTP_COMMAND_DATA_IN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mtpext/ns-mtpext-_mtp_command_data_in">MTP_COMMAND_DATA_IN</a>
 
 
 
-<a href="https://msdn.microsoft.com/3068359f-5ac0-41e0-a09b-283b439527a0">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/structures">Structures</a>
  
 
  

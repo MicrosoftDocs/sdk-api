@@ -67,19 +67,19 @@ Pointer to a Unicode string that contains the IP address or hostname of the subn
 ### -param SubnetAddress [in]
 
 
-<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_ADDRESS</a> structure that contains the IP address of the subnet.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> structure that contains the IP address of the subnet.
 
 
 ### -param AddElementInfo [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/ea6df1bc-2d15-4a09-8100-ee17d3de34d9">DHCP_SUBNET_ELEMENT_DATA_V5</a> structure that contains the element data to add to the subnet. The V5 structure adds support for BOOTP clients.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_subnet_element_data_v5">DHCP_SUBNET_ELEMENT_DATA_V5</a> structure that contains the element data to add to the subnet. The V5 structure adds support for BOOTP clients.
 
 
 ## -returns
 
 
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://msdn.microsoft.com/6370313f-d7db-4ff1-b0e0-7fa47474facb">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 
 
@@ -98,7 +98,7 @@ This API emulates the RPC interface used by the Windows NT 4.0 DHCP server. It
 
 
 
-<a href="https://msdn.microsoft.com/ea6df1bc-2d15-4a09-8100-ee17d3de34d9">DHCP_SUBNET_ELEMENT_DATA_V5</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_subnet_element_data_v5">DHCP_SUBNET_ELEMENT_DATA_V5</a>
  
 
  

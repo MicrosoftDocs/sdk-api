@@ -57,7 +57,7 @@ Provides methods and properties used to configure and use the Remote Desktop Pro
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRemoteDesktopClient</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IRemoteDesktopClient</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRemoteDesktopClient</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IRemoteDesktopClient</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -73,7 +73,7 @@ The <b>IRemoteDesktopClient</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a904827b-644b-459b-b1bd-399bad21f94f">attachEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-attachevent">attachEvent</a>
 </td>
 <td align="left" width="63%">
 Attaches an event handler to an event.
@@ -82,7 +82,7 @@ Attaches an event handler to an event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/52dbc0f3-8ba9-45a5-a224-b7de67847bf3">Connect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-connect">Connect</a>
 </td>
 <td align="left" width="63%">
 Initiates a connection by using the properties currently set on the Remote Desktop Protocol (RDP) app container client control.
@@ -91,7 +91,7 @@ Initiates a connection by using the properties currently set on the Remote Deskt
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9addc8de-1e82-47a3-a10e-566bacc3e37c">DeleteSavedCredentials</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-deletesavedcredentials">DeleteSavedCredentials</a>
 </td>
 <td align="left" width="63%">
 Deletes saved credentials for the specified remote computer.
@@ -100,7 +100,7 @@ Deletes saved credentials for the specified remote computer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5913da44-3dc2-40a3-9808-3619e5fa91b4">detachEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-detachevent">detachEvent</a>
 </td>
 <td align="left" width="63%">
 Detaches an event handler from an event.
@@ -109,7 +109,7 @@ Detaches an event handler from an event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/134e72ad-93dd-4f53-b26c-09654f309658">Disconnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-disconnect">Disconnect</a>
 </td>
 <td align="left" width="63%">
 Disconnects the active connection.
@@ -118,7 +118,7 @@ Disconnects the active connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ef000769-a2d8-4d62-99d9-33ffc18ec8f6">Reconnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-reconnect">Reconnect</a>
 </td>
 <td align="left" width="63%">
 Initiates an automatic reconnection of the Remote Desktop Protocol (RDP) app container client control to fit the session to the new width and height.
@@ -127,7 +127,7 @@ Initiates an automatic reconnection of the Remote Desktop Protocol (RDP) app con
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d8a7f2b7-925a-49b8-aa7b-c59736a13c67">UpdateSessionDisplaySettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-updatesessiondisplaysettings">UpdateSessionDisplaySettings</a>
 </td>
 <td align="left" width="63%">
 Updates the width and height settings for the Remote Desktop Protocol (RDP) app container client control.
@@ -145,7 +145,7 @@ Updates the width and height settings for the Remote Desktop Protocol (RDP) app 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/54ff5568-046e-42de-9b7c-b8c8c9be815c">Actions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-get_actions">Actions</a>
 
 
 </td>
@@ -161,7 +161,7 @@ Retrieves the actions object for the Remote Desktop Protocol (RDP) app container
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/59999489-9ad0-4b85-9643-3b8355b817c2">Settings</a>
+<a href="https://docs.microsoft.com/windows/desktop/TermServ/iremotedesktopclient-settings">Settings</a>
 
 
 </td>
@@ -177,7 +177,7 @@ Retrieves the settings object for the Remote Desktop Protocol (RDP) app containe
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/0fe1d319-0553-46ca-8fa9-0d531a900344">TouchPointer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-get_touchpointer">TouchPointer</a>
 
 
 </td>
@@ -186,7 +186,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Contains the <a href="https://msdn.microsoft.com/98c47e41-ecda-45cb-94e9-de51edc7af08">RemoteDesktopClientTouchPointer</a> object for the Remote Desktop Protocol (RDP) app container client.
+Contains the <a href="https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclienttouchpointer">RemoteDesktopClientTouchPointer</a> object for the Remote Desktop Protocol (RDP) app container client.
 
 </td>
 </tr>

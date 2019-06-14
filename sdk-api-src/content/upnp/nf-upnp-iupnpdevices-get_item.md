@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The 
-<b>Item</b> property specifies the <a href="https://msdn.microsoft.com/566cc606-3dfb-4052-93b0-3c922bf30f84">IUPnPDevice</a> interface for a  device, identified by the UDN, in the collection.
+<b>Item</b> property specifies the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a> interface for a  device, identified by the UDN, in the collection.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ Specifies a device in the collection.
 ### -param ppDevice [out]
 
 Receives a reference to an 
-<a href="https://msdn.microsoft.com/566cc606-3dfb-4052-93b0-3c922bf30f84">IUPnPDevice</a> interface for the specified device.
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a> interface for the specified device.
 
 
 ## -returns
@@ -83,7 +83,7 @@ For C++: If this property's "get" method succeeds, the return value is S_OK. Oth
 
 
 
-<a href="https://msdn.microsoft.com/237715dc-2b5a-45b4-b006-d31c0b4e89e3">IUPnPDevices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevices">IUPnPDevices</a>
  
 
  

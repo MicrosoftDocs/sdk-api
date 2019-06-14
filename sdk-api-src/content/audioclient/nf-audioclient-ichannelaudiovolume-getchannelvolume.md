@@ -62,7 +62,7 @@ The <b>GetChannelVolume</b> method retrieves the volume level for the specified 
 
 ### -param dwIndex [in]
 
-The channel number. If the stream format for the audio session has <i>N</i> channels, then the channels are numbered from 0 to <i>N</i>– 1. To get the number of channels, call the <a href="https://msdn.microsoft.com/e3149d02-b0a2-4bdd-af04-b94b063c784b">IChannelAudioVolume::GetChannelCount</a> method.
+The channel number. If the stream format for the audio session has <i>N</i> channels, then the channels are numbered from 0 to <i>N</i>– 1. To get the number of channels, call the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-ichannelaudiovolume-getchannelcount">IChannelAudioVolume::GetChannelCount</a> method.
 
 
 ### -param pfLevel [out]
@@ -135,7 +135,7 @@ The Windows audio service is not running.
 
 
 
-Clients can call the <a href="https://msdn.microsoft.com/9081e814-d0b2-4b0e-9e4c-3590058e7196">IChannelAudioVolume::SetAllVolumes</a> or <a href="https://msdn.microsoft.com/b7baeebf-01d3-4dec-a674-73a84bbf7a66">IChannelAudioVolume::SetChannelVolume</a> method to set the per-channel volume levels in an audio session.
+Clients can call the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-ichannelaudiovolume-setallvolumes">IChannelAudioVolume::SetAllVolumes</a> or <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-ichannelaudiovolume-setchannelvolume">IChannelAudioVolume::SetChannelVolume</a> method to set the per-channel volume levels in an audio session.
 
 
 
@@ -145,19 +145,19 @@ Clients can call the <a href="https://msdn.microsoft.com/9081e814-d0b2-4b0e-9e4c
 
 
 
-<a href="https://msdn.microsoft.com/0d0a20dc-5e5a-49a7-adc9-20aacb88368a">IChannelAudioVolume Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-ichannelaudiovolume">IChannelAudioVolume Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3149d02-b0a2-4bdd-af04-b94b063c784b">IChannelAudioVolume::GetChannelCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-ichannelaudiovolume-getchannelcount">IChannelAudioVolume::GetChannelCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/9081e814-d0b2-4b0e-9e4c-3590058e7196">IChannelAudioVolume::SetAllVolumes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-ichannelaudiovolume-setallvolumes">IChannelAudioVolume::SetAllVolumes</a>
 
 
 
-<a href="https://msdn.microsoft.com/b7baeebf-01d3-4dec-a674-73a84bbf7a66">IChannelAudioVolume::SetChannelVolume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-ichannelaudiovolume-setchannelvolume">IChannelAudioVolume::SetChannelVolume</a>
  
 
  

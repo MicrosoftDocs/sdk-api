@@ -61,7 +61,7 @@ Gets detailed information on an item in a Shell folder.
 
 Type: <b>PCUITEMID_CHILD</b>
 
-The PIDL of the item that you are requesting information for. If this parameter is set to <b>NULL</b>, the title of the information field specified by <i>iColumn</i> will be returned in the <a href="https://msdn.microsoft.com/2910debb-b769-4498-bd99-9fbf16567e15">SHELLDETAILS</a> structure pointed to by <i>pDetails</i>.
+The PIDL of the item that you are requesting information for. If this parameter is set to <b>NULL</b>, the title of the information field specified by <i>iColumn</i> will be returned in the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shelldetails">SHELLDETAILS</a> structure pointed to by <i>pDetails</i>.
 
 
 ### -param iColumn
@@ -75,7 +75,7 @@ The zero-based index of the desired information field. It is identical to column
 
 Type: <b>SHELLDETAILS*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/2910debb-b769-4498-bd99-9fbf16567e15">SHELLDETAILS</a> structure with the detail information.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shelldetails">SHELLDETAILS</a> structure with the detail information.
 
 
 ## -returns
@@ -93,7 +93,7 @@ Returns S_OK if successful. Returns E_FAIL if <i>iColumn</i> exceeds the number 
 
 
 
-This method has been superseded by the <a href="https://msdn.microsoft.com/9b008034-3576-429e-b67c-e2222592ca46">IShellFolder2</a> methods for Shell <a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">version 5.0</a> and later.
+This method has been superseded by the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2">IShellFolder2</a> methods for Shell <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">version 5.0</a> and later.
 
 The <b>IShellDetails::GetDetailsOf</b> method provides access to the information that is displayed in the Windows Explorer Details view of a Shell folder. The column numbers, column titles, and item information that you see in the Details view are identical to those returned by <b>IShellDetails::GetDetailsOf</b>.
 
@@ -132,7 +132,7 @@ File system folders may support a number of additional fields. However, they are
 Each virtual folder has its own unique set of information fields. Typically, the item's display name is in column zero, but the order and content of the available fields depend on the implementation of the particular folder object.
 
 <h3><a id="Note_to_Implementers"></a><a id="note_to_implementers"></a><a id="NOTE_TO_IMPLEMENTERS"></a>Note to Implementers</h3>
-Folder objects should implement <a href="https://msdn.microsoft.com/9b008034-3576-429e-b67c-e2222592ca46">IShellFolder2</a> instead of this interface.
+Folder objects should implement <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2">IShellFolder2</a> instead of this interface.
 
 
 

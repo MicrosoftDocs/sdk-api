@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Registers an <a href="https://msdn.microsoft.com/28EDAC77-5175-4AF7-A06C-B735336AAD9B">IApartmentShutdown</a> callback to be invoked when the current apartment shuts down.
+Registers an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iapartmentshutdown">IApartmentShutdown</a> callback to be invoked when the current apartment shuts down.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Registers an <a href="https://msdn.microsoft.com/28EDAC77-5175-4AF7-A06C-B735336
 
 ### -param callbackObject [in]
 
-The application-supplied <a href="https://msdn.microsoft.com/28EDAC77-5175-4AF7-A06C-B735336AAD9B">IApartmentShutdown</a> interface. 
+The application-supplied <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iapartmentshutdown">IApartmentShutdown</a> interface. 
 
 
 ### -param apartmentIdentifier [out]
@@ -90,7 +90,7 @@ To receive apartment shutdown notifications, your app must register its apartmen
 
 <div class="alert"><b>Warning</b>  </div>
 <div> </div>
-Don't call the <b>RoRegisterForApartmentShutdown</b> function from the <a href="https://msdn.microsoft.com/FAEBC952-EDCB-4855-AB2B-193B87E3ECF7">OnUninitialize</a> callback.
+Don't call the <b>RoRegisterForApartmentShutdown</b> function from the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iapartmentshutdown-onuninitialize">OnUninitialize</a> callback.
 
 
 
@@ -100,11 +100,11 @@ Don't call the <b>RoRegisterForApartmentShutdown</b> function from the <a href="
 
 
 
-<a href="https://msdn.microsoft.com/28EDAC77-5175-4AF7-A06C-B735336AAD9B">IApartmentShutdown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iapartmentshutdown">IApartmentShutdown</a>
 
 
 
-<a href="https://msdn.microsoft.com/B6E22C50-14EC-4B0F-8C97-7D1062BF6072">RoUnregisterForApartmentShutdown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/roapi/nf-roapi-rounregisterforapartmentshutdown">RoUnregisterForApartmentShutdown</a>
  
 
  

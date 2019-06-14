@@ -76,7 +76,7 @@ This method returns S_OK on success.
 
 
 
-<a href="https://msdn.microsoft.com/77AB4D22-55F2-4DF6-8E83-718BFB88841A">IWSDHttpAuthParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpauthparameters">IWSDHttpAuthParameters</a>
  
 
  

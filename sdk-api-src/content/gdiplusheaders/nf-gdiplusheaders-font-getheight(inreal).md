@@ -81,7 +81,7 @@ This method returns the line spacing of the font in pixels.
 
 
 
-If the font unit is set to anything other than <a href="https://msdn.microsoft.com/en-us/library/ms534405(v=VS.85).aspx">UnitPixel</a>, the height, in pixels, is calculated using the specified vertical resolution. For example, suppose the font unit is inches and the font size is 0.3. Also suppose that for the corresponding font family, the em height is 2048 and the line spacing is 2355. If the specified vertical resolution is 96 dots per inch, the height is calculated as follows:
+If the font unit is set to anything other than <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-unit">UnitPixel</a>, the height, in pixels, is calculated using the specified vertical resolution. For example, suppose the font unit is inches and the font size is 0.3. Also suppose that for the corresponding font family, the em height is 2048 and the line spacing is 2355. If the specified vertical resolution is 96 dots per inch, the height is calculated as follows:
 
 2355*(0.3/2048)*96 = 33.1171875
 
@@ -93,23 +93,23 @@ If the font unit is set to anything other than <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536197(v=VS.85).aspx">Font::GetSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-font-getsize">Font::GetSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536198(v=VS.85).aspx">Font::GetStyle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-font-getstyle">Font::GetStyle</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536199(v=VS.85).aspx">Font::GetUnit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-font-getunit">Font::GetUnit</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533817(v=VS.85).aspx">Using Text and Fonts</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>
  
 
  

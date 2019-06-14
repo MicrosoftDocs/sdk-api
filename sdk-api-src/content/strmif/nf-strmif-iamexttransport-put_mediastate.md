@@ -104,15 +104,15 @@ When this method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ce48038-bfcf-4b1f-8053-3446929a5f06">IAMExtTransport Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/806356c7-796e-459f-8d5f-82c6b744bf07">IAMExtTransport::get_MediaState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamexttransport-get_mediastate">IAMExtTransport::get_MediaState</a>
  
 
  

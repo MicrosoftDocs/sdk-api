@@ -50,13 +50,13 @@ ms.custom: 19H1
 
 
 
-The <b>IWMPEvents3</b> interface provides access to events originating from the Windows Media Player 11 control so that an application that has this control embedded in it can respond to these events. The events exposed by <b>IWMPEvents3</b> are also exposed by the <a href="https://msdn.microsoft.com/883d538e-19b6-417b-a32d-622c41c24b9c">_WMPOCXEvents</a> interface.
+The <b>IWMPEvents3</b> interface provides access to events originating from the Windows Media Player 11 control so that an application that has this control embedded in it can respond to these events. The events exposed by <b>IWMPEvents3</b> are also exposed by the <a href="https://docs.microsoft.com/windows/desktop/WMP/-wmpocxevents-interface">_WMPOCXEvents</a> interface.
 
 
 
-The events provided by <b>IWMPEvents3</b> extend the set of events provided by <a href="https://msdn.microsoft.com/en-us/library/Dd563310(v=VS.85).aspx">IWMPEvents</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd563289(v=VS.85).aspx">IWMPEvents2</a> by adding events related to CD ripping, CD burning, folder monitoring, and remote library services.
+The events provided by <b>IWMPEvents3</b> extend the set of events provided by <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpevents2">IWMPEvents2</a> by adding events related to CD ripping, CD burning, folder monitoring, and remote library services.
 
-In addition to the methods inherited from <a href="https://msdn.microsoft.com/en-us/library/Dd563289(v=VS.85).aspx">IWMPEvents2</a>, the <b>IWMPEvents3</b> interface exposes the following methods.
+In addition to the methods inherited from <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpevents2">IWMPEvents2</a>, the <b>IWMPEvents3</b> interface exposes the following methods.
 <table>
 <tr>
 <th>Method
@@ -66,95 +66,95 @@ In addition to the methods inherited from <a href="https://msdn.microsoft.com/en
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563297(v=VS.85).aspx">CdromBurnError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents3-cdromburnerror">CdromBurnError</a>
 </td>
 <td>Occurs when a generic error happens during a CD burning operation.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563298(v=VS.85).aspx">CdromBurnMediaError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents3-cdromburnmediaerror">CdromBurnMediaError</a>
 </td>
 <td>Occurs when an error happens while burning an individual media item to a CD.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563299(v=VS.85).aspx">CdromBurnStateChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents3-cdromburnstatechange">CdromBurnStateChange</a>
 </td>
 <td>Occurs when a CD burning operation changes state.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563300(v=VS.85).aspx">CdromRipMediaError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents3-cdromripmediaerror">CdromRipMediaError</a>
 </td>
 <td>Occurs when an error happens while ripping an individual track from a CD.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563301(v=VS.85).aspx">CdromRipStateChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents3-cdromripstatechange">CdromRipStateChange</a>
 </td>
 <td>Occurs when a CD ripping operation changes state.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563302(v=VS.85).aspx">FolderScanStateChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents3-folderscanstatechange">FolderScanStateChange</a>
 </td>
 <td>Occurs when a folder monitoring operation changes state.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563303(v=VS.85).aspx">LibraryConnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents3-libraryconnect">LibraryConnect</a>
 </td>
 <td>Occurs when a library becomes available.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563304(v=VS.85).aspx">LibraryDisconnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents3-librarydisconnect">LibraryDisconnect</a>
 </td>
 <td>Occurs when a library is no longer available.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563305(v=VS.85).aspx">MediaCollectionMediaAdded</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents3-mediacollectionmediaadded">MediaCollectionMediaAdded</a>
 </td>
 <td>Occurs when a media item is added to the local library.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563306(v=VS.85).aspx">MediaCollectionMediaRemoved</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents3-mediacollectionmediaremoved">MediaCollectionMediaRemoved</a>
 </td>
 <td>Occurs when a media item is removed from the local library.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563307(v=VS.85).aspx">StringCollectionChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents3-stringcollectionchange">StringCollectionChange</a>
 </td>
 <td>Occurs when a string collection changes.</td>
 </tr>
 </table> 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/883d538e-19b6-417b-a32d-622c41c24b9c">_WMPOCXEvents Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/-wmpocxevents-interface">_WMPOCXEvents Interface</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/5d9eb1c7-7022-4442-b67a-6a96fe5ce97f">Handling Events in C++</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/handling-events-in-c">Handling Events in C++</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/68a0bdaf-ae1b-4ba1-817b-a31c68b9fddd">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563310(v=VS.85).aspx">IWMPEvents Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563289(v=VS.85).aspx">IWMPEvents2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpevents2">IWMPEvents2 Interface</a>
 </li>
 </ul><table>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563295(v=VS.85).aspx">Previous</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents2-devicesyncstatechange">Previous</a>
 </td>
 <td></td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563297(v=VS.85).aspx">Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents3-cdromburnerror">Next</a>
 </td>
 </tr>
 </table> 

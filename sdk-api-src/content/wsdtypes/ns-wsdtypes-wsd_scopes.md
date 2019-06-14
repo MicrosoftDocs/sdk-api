@@ -64,5 +64,5 @@ A matching rule used for scopes.
 
 ### -field Scopes
 
-Reference to a <a href="https://msdn.microsoft.com/86d77741-39c3-44bd-b072-d2d4eb99e488">WSD_URI_LIST</a> structure that contains a list of scopes.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_uri_list">WSD_URI_LIST</a> structure that contains a list of scopes.
 

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>GetTrusteeName</b> function retrieves the trustee name from the specified <a href="https://msdn.microsoft.com/120e93eb-680f-4f86-879d-bc2de10d4641">TRUSTEE</a> structure.
+The <b>GetTrusteeName</b> function retrieves the trustee name from the specified <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a> structure.
 
 
 ## -parameters
@@ -62,16 +62,16 @@ The <b>GetTrusteeName</b> function retrieves the trustee name from the specified
 ### -param pTrustee [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/120e93eb-680f-4f86-879d-bc2de10d4641">TRUSTEE</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a> structure.
 
 
 ## -returns
 
 
 
-If the <b>TrusteeForm</b> member of the <a href="https://msdn.microsoft.com/120e93eb-680f-4f86-879d-bc2de10d4641">TRUSTEE</a> structure is TRUSTEE_IS_NAME, the return value is the pointer assigned to the <b>ptstrName</b> member of the structure.
+If the <b>TrusteeForm</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a> structure is TRUSTEE_IS_NAME, the return value is the pointer assigned to the <b>ptstrName</b> member of the structure.
 
-If the <b>TrusteeForm</b> member is TRUSTEE_IS_SID, the return value is <b>NULL</b>. The function does not look up the name associated with a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID).
+If the <b>TrusteeForm</b> member is TRUSTEE_IS_SID, the return value is <b>NULL</b>. The function does not look up the name associated with a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).
 
 
 
@@ -90,19 +90,19 @@ The <b>GetTrusteeName</b> function does not allocate any memory.
 
 
 
-<a href="https://msdn.microsoft.com/d9ce4ec5-5c09-4b33-93a1-39638a925986">Access Control Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
 
 
 
-<a href="https://msdn.microsoft.com/120e93eb-680f-4f86-879d-bc2de10d4641">TRUSTEE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a>
  
 
  

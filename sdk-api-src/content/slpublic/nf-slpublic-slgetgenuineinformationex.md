@@ -73,9 +73,9 @@ The name associated with the value of the property to set.
 
 ### -param peDataType [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/245e79de-4823-4af9-926a-088e263cc802">SLDATATYPE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-_tagsldatatype">SLDATATYPE</a>*</b>
 
-A pointer to a value of the <a href="https://msdn.microsoft.com/245e79de-4823-4af9-926a-088e263cc802">SLDATATYPE</a> enumeration that specifies the data type in the <i>ppbValue</i> buffer.
+A pointer to a value of the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-_tagsldatatype">SLDATATYPE</a> enumeration that specifies the data type in the <i>ppbValue</i> buffer.
 
 
 ### -param pcbValue [out]
@@ -89,7 +89,7 @@ A pointer to the size, in bytes, of the <i>ppbValue</i> buffer.
 
 Type: <b>BYTE**</b>
 
-A pointer to the genuine status retrieved.  When finished using the memory, free it by calling the <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a> function.
+A pointer to the genuine status retrieved.  When finished using the memory, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
 
 ## -returns

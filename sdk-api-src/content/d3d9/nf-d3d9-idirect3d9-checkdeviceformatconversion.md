@@ -60,37 +60,37 @@ Tests the device to see if it supports conversion from one display format to ano
 
 ### -param Adapter [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Display adapter ordinal number. D3DADAPTER_DEFAULT is always the primary display adapter. This method returns D3DERR_INVALIDCALL when this value equals or exceeds the number of display adapters in the system. 
 
 
 ### -param DeviceType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172547(v=VS.85).aspx">D3DDEVTYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddevtype">D3DDEVTYPE</a></b>
 
-Device type. Member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172547(v=VS.85).aspx">D3DDEVTYPE</a> enumerated type. 
+Device type. Member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddevtype">D3DDEVTYPE</a> enumerated type. 
 
 
 ### -param SourceFormat [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a></b>
 
-Source adapter format. Member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a> enumerated type.
+Source adapter format. Member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a> enumerated type.
 
 
 ### -param TargetFormat [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a></b>
 
-Target adapter format. Member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a> enumerated type.
+Target adapter format. Member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a> enumerated type.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value is D3DERR_INVALIDCALL.
  The method will return D3DERR_NOTAVAILABLE when the hardware does not support conversion between the two formats.
@@ -102,16 +102,16 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-Using <a href="https://msdn.microsoft.com/en-us/library/Bb174312(v=VS.85).aspx">CheckDeviceType</a> to test for compatibility between a back buffer that differs from the display format will return appropriate values. This means that the call will reflect device capabilities. If the device cannot render to the requested back buffer format, the call will still return D3DERR_NOTAVAILABLE. If the device can render to the format, but cannot perform the color-converting presentation, the return value will also be D3DERR_NOTAVAILABLE. Applications can discover hardware support for the presentation itself by calling <b>CheckDeviceFormatConversion</b>. No software emulation for the color-converting presentation itself will be offered.
+Using <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-checkdevicetype">CheckDeviceType</a> to test for compatibility between a back buffer that differs from the display format will return appropriate values. This means that the call will reflect device capabilities. If the device cannot render to the requested back buffer format, the call will still return D3DERR_NOTAVAILABLE. If the device can render to the format, but cannot perform the color-converting presentation, the return value will also be D3DERR_NOTAVAILABLE. Applications can discover hardware support for the presentation itself by calling <b>CheckDeviceFormatConversion</b>. No software emulation for the color-converting presentation itself will be offered.
 
-<b>CheckDeviceFormatConversion</b> can also be used to determine which combinations of source surface formats and destination surface formats are permissible in calls to <a href="https://msdn.microsoft.com/en-us/library/Bb174471(v=VS.85).aspx">StretchRect</a>.
+<b>CheckDeviceFormatConversion</b> can also be used to determine which combinations of source surface formats and destination surface formats are permissible in calls to <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-stretchrect">StretchRect</a>.
     
 
 
 Color conversion is restricted to the following source and target formats.
 
 <ul>
-<li>The source format must be a FOURCC format or a valid back buffer format. For a list of these, see <a href="https://msdn.microsoft.com/en-us/library/Bb172558(v=VS.85).aspx">FourCC Formats</a> and BackBuffer or Display Formats.</li>
+<li>The source format must be a FOURCC format or a valid back buffer format. For a list of these, see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">FourCC Formats</a> and BackBuffer or Display Formats.</li>
 <li>The target format must be one of these unsigned formats:
     
     
@@ -155,11 +155,11 @@ Color conversion is restricted to the following source and target formats.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174353(v=VS.85).aspx">ColorFill</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-colorfill">ColorFill</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174300(v=VS.85).aspx">IDirect3D9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a>
  
 
  

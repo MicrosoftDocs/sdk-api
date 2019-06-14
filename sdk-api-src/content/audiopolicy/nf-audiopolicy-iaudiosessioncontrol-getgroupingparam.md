@@ -119,11 +119,11 @@ The Windows audio service is not running.
 
 
 
-All of the audio sessions that have the same grouping parameter value are under the control of the same volume-level slider in the system volume-control program, Sndvol. For more information, see <a href="https://msdn.microsoft.com/088156f7-fb75-4fcf-b928-87e97b13bdab">Grouping Parameters</a>.
+All of the audio sessions that have the same grouping parameter value are under the control of the same volume-level slider in the system volume-control program, Sndvol. For more information, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/grouping-parameters">Grouping Parameters</a>.
 
-A client can call the <a href="https://msdn.microsoft.com/990bebd9-c37d-4f72-b349-a43a074d8992">IAudioSessionControl::SetGroupingParam</a> method to change the grouping parameter of a session.
+A client can call the <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol-setgroupingparam">IAudioSessionControl::SetGroupingParam</a> method to change the grouping parameter of a session.
 
-If a client has never called <a href="https://msdn.microsoft.com/990bebd9-c37d-4f72-b349-a43a074d8992">SetGroupingParam</a> to assign a grouping parameter to an audio session, the session's grouping parameter value is GUID_NULL by default and a call to <b>GetGroupingParam</b> retrieves this value. A grouping parameter value of GUID_NULL indicates that the session does not belong to any grouping. In that case, the session has its own volume-level slider in the Sndvol program.
+If a client has never called <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol-setgroupingparam">SetGroupingParam</a> to assign a grouping parameter to an audio session, the session's grouping parameter value is GUID_NULL by default and a call to <b>GetGroupingParam</b> retrieves this value. A grouping parameter value of GUID_NULL indicates that the session does not belong to any grouping. In that case, the session has its own volume-level slider in the Sndvol program.
 
 
 
@@ -133,11 +133,11 @@ If a client has never called <a href="https://msdn.microsoft.com/990bebd9-c37d-4
 
 
 
-<a href="https://msdn.microsoft.com/4446140e-2e61-40ed-b0f9-4c1b90e7c2de">IAudioSessionControl Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol">IAudioSessionControl Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/990bebd9-c37d-4f72-b349-a43a074d8992">IAudioSessionControl::SetGroupingParam</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol-setgroupingparam">IAudioSessionControl::SetGroupingParam</a>
  
 
  

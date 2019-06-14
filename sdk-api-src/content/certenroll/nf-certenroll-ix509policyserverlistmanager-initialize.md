@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Initialize</b> method initializes an <a href="https://msdn.microsoft.com/a9fe4f4b-a35d-40e6-b99a-a89f58e79250">IX509PolicyServerListManager</a> object.
+The <b>Initialize</b> method initializes an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverlistmanager">IX509PolicyServerListManager</a> object.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>Initialize</b> method initializes an <a href="https://msdn.microsoft.com/
 
 ### -param context [in]
 
-An <a href="https://msdn.microsoft.com/2db0e129-a566-47ba-ab57-53c7db09e8e3">X509CertificateEnrollmentContext</a> enumeration value that specifies the nature of the end entity for which an issued certificate is intended. This can be one of the following values.
+An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-x509certificateenrollmentcontext">X509CertificateEnrollmentContext</a> enumeration value that specifies the nature of the end entity for which an issued certificate is intended. This can be one of the following values.
 
 <table>
 <tr>
@@ -102,7 +102,7 @@ The certificate is being requested by an administrator acting on the behalf of a
 
 ### -param Flags [in]
 
-A <a href="https://msdn.microsoft.com/e73bccb8-ca4d-4007-bdf3-1194ede5fdd1">PolicyServerUrlFlags</a> enumeration value that specifies where policy information is located. This can be a bitwise <b>OR</b> of the following values.
+A <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-policyserverurlflags">PolicyServerUrlFlags</a> enumeration value that specifies where policy information is located. This can be a bitwise <b>OR</b> of the following values.
 
 <table>
 <tr>
@@ -139,7 +139,7 @@ Policy information is specified in the registry.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -164,7 +164,7 @@ The <i>Flags</i> parameter must contain a bitwise OR of <b>PsfLocationGroupPolic
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/a9fe4f4b-a35d-40e6-b99a-a89f58e79250">IX509PolicyServerListManager</a> has already been initialized.
+The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverlistmanager">IX509PolicyServerListManager</a> has already been initialized.
 
 </td>
 </tr>
@@ -179,7 +179,7 @@ The <a href="https://msdn.microsoft.com/a9fe4f4b-a35d-40e6-b99a-a89f58e79250">IX
 
 
 
-<a href="https://msdn.microsoft.com/a9fe4f4b-a35d-40e6-b99a-a89f58e79250">IX509PolicyServerListManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverlistmanager">IX509PolicyServerListManager</a>
  
 
  

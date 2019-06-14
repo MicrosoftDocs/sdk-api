@@ -97,7 +97,7 @@ The return value is the total number of characters copied into the buffer.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows Overview</a>
  
 
  

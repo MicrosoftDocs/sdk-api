@@ -51,7 +51,7 @@ req.redist:
 Triggers the NTFS file system to start a self-healing cycle on a single file.
 
 To perform this operation, call the 
-   <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
+   <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
    function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -216,23 +216,23 @@ No
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/25c9ffdf-2839-46aa-b1fe-ce1383a3a813">FSCTL_GET_REPAIR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_repair">FSCTL_GET_REPAIR</a>
 
 
 
-<a href="https://msdn.microsoft.com/3df03a87-7117-4f85-a04e-54bcd800e8ff">FSCTL_SET_REPAIR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_repair">FSCTL_SET_REPAIR</a>
 
 
 
-<a href="https://msdn.microsoft.com/593ca2f0-1455-4b46-925a-61ad07f8fb5c">FSCTL_WAIT_FOR_REPAIR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_wait_for_repair">FSCTL_WAIT_FOR_REPAIR</a>
 
 
 
-<a href="https://msdn.microsoft.com/e27ded4b-d104-4244-b38e-5fed10d32e1e">File Management Control Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-control-codes">File Management Control Codes</a>
  
 
  

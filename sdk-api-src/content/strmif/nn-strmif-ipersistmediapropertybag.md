@@ -51,9 +51,9 @@ ms.custom: 19H1
 
 
 
-The <code>IPersistMediaPropertyBag</code> interface sets and retrieves INFO and DISP chunks in Audio-Video Interleaved (AVI) streams. It uses the <a href="https://msdn.microsoft.com/6f134160-b0aa-44fd-b1b9-938f11349eac">IMediaPropertyBag</a> interface to store the chunks as name/value pairs.
+The <code>IPersistMediaPropertyBag</code> interface sets and retrieves INFO and DISP chunks in Audio-Video Interleaved (AVI) streams. It uses the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediapropertybag">IMediaPropertyBag</a> interface to store the chunks as name/value pairs.
 
-The <a href="https://msdn.microsoft.com/df3c7d11-7ecc-499a-af36-b74437e21999">AVI Splitter</a> filter and the <a href="https://msdn.microsoft.com/53a9538d-7a79-40bb-9468-d710eb238925">WAVE Parser</a> filter support this interface for reading INFO and DISP chunks from an AVI or WAV file. The <a href="https://msdn.microsoft.com/31d30c91-fc6a-45ec-a2e0-34e6a1e902a4">AVI Mux</a> filter supports the interface for writing these chunks into a file.
+The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avi-splitter-filter">AVI Splitter</a> filter and the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/wave-parser-filter">WAVE Parser</a> filter support this interface for reading INFO and DISP chunks from an AVI or WAV file. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avi-mux-filter">AVI Mux</a> filter supports the interface for writing these chunks into a file.
 
 <code>IPersistMediaPropertyBag</code> is modeled after, but does not inherit from, the <b>IPersistPropertyBag</b> interface. For more information on <b>IPersistPropertyBag</b>, see the Platform SDK.
 
@@ -62,7 +62,7 @@ The <a href="https://msdn.microsoft.com/df3c7d11-7ecc-499a-af36-b74437e21999">AV
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPersistMediaPropertyBag</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPersistMediaPropertyBag</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPersistMediaPropertyBag</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPersistMediaPropertyBag</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IPersistMediaPropertyBag</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/46d51c05-b653-4f14-810a-eb49d33da359">InitNew</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipersistmediapropertybag-initnew">InitNew</a>
 </td>
 <td align="left" width="63%">
 Initializes the object to receive new properties.
@@ -86,7 +86,7 @@ Initializes the object to receive new properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/02ee3911-0b85-404d-81c9-7d0e6b3ccd5d">Load</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipersistmediapropertybag-load">Load</a>
 </td>
 <td align="left" width="63%">
 Loads properties from the media property bag into the filter.
@@ -95,7 +95,7 @@ Loads properties from the media property bag into the filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/12c66650-31c1-40b8-9f3d-bc5553dbfa94">Save</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipersistmediapropertybag-save">Save</a>
 </td>
 <td align="left" width="63%">
 Saves properties from the filter into the media property bag.

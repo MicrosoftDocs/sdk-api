@@ -66,7 +66,7 @@ The <b>SetProtectStreamSamples</b> method configures the writer to accept encryp
 
 ### -param pImportInitStruct [in]
 
-Address of a <a href="https://msdn.microsoft.com/en-us/library/Dd757824(v=VS.85).aspx">WMDRM_IMPORT_INIT_STRUCT</a> structure containing initialization information needed to import protected content.
+Address of a <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmdrm_import_init_struct">WMDRM_IMPORT_INIT_STRUCT</a> structure containing initialization information needed to import protected content.
 
 
 ## -returns
@@ -114,7 +114,7 @@ The method succeeded.
 
 <b>SetProtectStreamSamples</b> is used to configure the writer object for importing protected content.
 
-When importing protected content, this method must be called after configuring the writer but before calling <a href="https://msdn.microsoft.com/en-us/library/Dd757474(v=VS.85).aspx">IWMWriter::BeginWriting</a>. Before you can call this method, you must validate and extract the machine Windows Media DRM public key from the machine certificate collection.
+When importing protected content, this method must be called after configuring the writer but before calling <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-beginwriting">IWMWriter::BeginWriting</a>. Before you can call this method, you must validate and extract the machine Windows Media DRM public key from the machine certificate collection.
 
 
 
@@ -124,19 +124,19 @@ When importing protected content, this method must be called after configuring t
 
 
 
-<a href="https://msdn.microsoft.com/5e67a721-830b-4d99-9f90-4cb2d7c61104">DRM Import</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-import">DRM Import</a>
 
 
 
-<a href="https://msdn.microsoft.com/38b8e812-e997-4a63-b906-ebd26a5556be">IWMDRMSecurity::GetMachineCertificate</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmdrmsecurity-getmachinecertificate">IWMDRMSecurity::GetMachineCertificate</a>
 
 
 
-<a href="https://msdn.microsoft.com/e450a1e3-6024-4c00-9978-fbc88fde2101">IWMDRMSecurity::PerformSecurityUpdate</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmdrmsecurity-performsecurityupdate">IWMDRMSecurity::PerformSecurityUpdate</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798375(v=VS.85).aspx">IWMDRMWriter3 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmwriter3">IWMDRMWriter3 Interface</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies properties of the  <a href="https://msdn.microsoft.com/60BFDCD7-D277-4B4A-94DA-7ADB1412252A">Interaction Context</a> object. 
+Specifies properties of the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object. 
 
 
 ## -enum-fields
@@ -59,7 +59,7 @@ Specifies properties of the  <a href="https://msdn.microsoft.com/60BFDCD7-D277-4
 
 ### -field INTERACTION_CONTEXT_PROPERTY_MEASUREMENT_UNITS
 
-Measurement units used by the <a href="https://msdn.microsoft.com/60BFDCD7-D277-4B4A-94DA-7ADB1412252A">Interaction Context</a> object: himetric (0.01mm) or screen pixels.
+Measurement units used by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object: himetric (0.01mm) or screen pixels.
 
 
 ### -field INTERACTION_CONTEXT_PROPERTY_INTERACTION_UI_FEEDBACK
@@ -82,15 +82,15 @@ Maximum number of interactions exceeded.
 
 
 
-<a href="https://msdn.microsoft.com/c54a3632-aa7a-416b-b9ed-5ad552403985">GetPropertyInteractionContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-getpropertyinteractioncontext">GetPropertyInteractionContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/0B8D9A5F-F7CF-42B0-A320-77D44445CC24">Interaction Context Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/enumerations">Interaction Context Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/da24831e-9f9f-4a9f-92bf-60e1c5338554">SetPropertyInteractionContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-setpropertyinteractioncontext">SetPropertyInteractionContext</a>
  
 
  

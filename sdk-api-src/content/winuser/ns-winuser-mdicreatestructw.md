@@ -63,7 +63,7 @@ Contains information about the class, title, owner, location, and size of a mult
 
 Type: <b>LPCTSTR</b>
 
-The name of the window class of the MDI child window. The class name must have been registered by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/ms633586(v=VS.85).aspx">RegisterClass</a> function. 
+The name of the window class of the MDI child window. The class name must have been registered by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> function. 
 
 
 ### -field szTitle
@@ -113,7 +113,7 @@ The initial height, in device units, of the MDI child window. If this member is 
 Type: <b>DWORD</b>
 
 
-The style of the MDI child window. If the MDI client window was created with the <b>MDIS_ALLCHILDSTYLES</b> window style, this member can be any combination of the window styles listed in the <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">Window Styles</a> page. Otherwise, this member can be one or more of the following values. 
+The style of the MDI child window. If the MDI client window was created with the <b>MDIS_ALLCHILDSTYLES</b> window style, this member can be any combination of the window styles listed in the <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-styles">Window Styles</a> page. Otherwise, this member can be one or more of the following values. 
 
 
 
@@ -182,8 +182,8 @@ An application-defined value.
 
 
 When the MDI client window creates an MDI child window
-            by calling <a href="https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx">CreateWindow</a>, the system sends a <a href="https://msdn.microsoft.com/en-us/library/ms632619(v=VS.85).aspx">WM_CREATE</a> message to the created window. The <i>lParam</i> member of the <b>WM_CREATE</b> message contains a pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms632603(v=VS.85).aspx">CREATESTRUCT</a> structure. The 
-				<b>lpCreateParams</b> member of this structure contains a pointer to the <b>MDICREATESTRUCT</b> structure passed with the <a href="https://msdn.microsoft.com/en-us/library/ms644913(v=VS.85).aspx">WM_MDICREATE</a> message that created the MDI child window.
+            by calling <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a>, the system sends a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-create">WM_CREATE</a> message to the created window. The <i>lParam</i> member of the <b>WM_CREATE</b> message contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagcreatestructa">CREATESTRUCT</a> structure. The 
+				<b>lpCreateParams</b> member of this structure contains a pointer to the <b>MDICREATESTRUCT</b> structure passed with the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-mdicreate">WM_MDICREATE</a> message that created the MDI child window.
 
 
 
@@ -193,11 +193,11 @@ When the MDI client window creates an MDI child window
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632602(v=VS.85).aspx">CLIENTCREATESTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagclientcreatestruct">CLIENTCREATESTRUCT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632603(v=VS.85).aspx">CREATESTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagcreatestructa">CREATESTRUCT</a>
 
 
 
@@ -205,7 +205,7 @@ When the MDI client window creates an MDI child window
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632591(v=VS.85).aspx">Multiple Document Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/multiple-document-interface">Multiple Document Interface</a>
 
 
 
@@ -213,7 +213,7 @@ When the MDI client window creates an MDI child window
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632619(v=VS.85).aspx">WM_CREATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-create">WM_CREATE</a>
  
 
  

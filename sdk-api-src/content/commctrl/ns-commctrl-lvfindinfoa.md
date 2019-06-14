@@ -61,7 +61,7 @@ Contains information used when searching for a list-view item. This structure is
 
 ### -field flags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Type of search to perform. This member can be set to one or more of the following values: 
 
@@ -76,7 +76,7 @@ Type of search to perform. This member can be set to one or more of the followin
 </dl>
 </td>
 <td width="60%">
-Searches for a match between this structure's <b>lParam</b> member and the <b>lParam</b> member of an item's <a href="https://msdn.microsoft.com/en-us/library/Bb774760(v=VS.85).aspx">LVITEM</a> structure.
+Searches for a match between this structure's <b>lParam</b> member and the <b>lParam</b> member of an item's <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvitema">LVITEM</a> structure.
 
 </td>
 </tr>
@@ -136,29 +136,29 @@ Finds the item nearest to the position specified in the <b>pt</b> member, in the
 
 ### -field psz
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCTSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
 
 Address of a null-terminated string to compare with the item text. It is valid only if LVFI_STRING or LVFI_PARTIAL is set in the <b>flags</b> member.
 
 
 ### -field lParam
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
-Value to compare with the <b>lParam</b> member of a list-view item's <a href="https://msdn.microsoft.com/en-us/library/Bb774760(v=VS.85).aspx">LVITEM</a> structure. It is valid only if LVFI_PARAM is set in the <b>flags</b> member.
+Value to compare with the <b>lParam</b> member of a list-view item's <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvitema">LVITEM</a> structure. It is valid only if LVFI_PARAM is set in the <b>flags</b> member.
 
 
 ### -field pt
 
-Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
 
 
-<a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure with the initial search position. It is valid only if LVFI_NEARESTXY is set in the <b>flags</b> member.
+<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure with the initial search position. It is valid only if LVFI_NEARESTXY is set in the <b>flags</b> member.
 
 
 ### -field vkDirection
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Virtual key code that specifies the direction to search. The following codes are supported: 
 			

@@ -61,7 +61,7 @@ The
 ### -param pState [out]
 
 
-<a href="https://msdn.microsoft.com/9cc07684-9804-41ac-bc25-f37f6ae00280">TERMINAL_MEDIA_STATE</a> descriptor of the new terminal state.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-terminal_media_state">TERMINAL_MEDIA_STATE</a> descriptor of the new terminal state.
 
 
 ## -returns
@@ -78,7 +78,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/cb6f2869-ec31-49ac-873b-35a0dcd2c8d7">ITFileTerminalEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itfileterminalevent">ITFileTerminalEvent</a>
  
 
  

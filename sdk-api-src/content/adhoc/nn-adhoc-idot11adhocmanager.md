@@ -49,13 +49,13 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IDot11AdHocManager</b> interface creates and manages 802.11 ad hoc networks.  It is the top-level 802.11 ad hoc interface and the only ad hoc interface with a coclass. As such, it is the only ad hoc interface that can be instantiated by <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>. 
-<div class="alert"><b>Note</b>  Ad hoc mode might not be available in future versions of Windows. Starting with Windows 8.1 and Windows Server 2012 R2, use <a href="https://msdn.microsoft.com/A649EBBA-1076-4426-9C4D-85AB8C415C66">Wi-Fi Direct</a> instead.</div><div> </div>The <b>IDot11AdHocManager</b> coclass implements the <a href="https://msdn.microsoft.com/en-us/library/ms694318(v=VS.85).aspx">IConnectionPoint</a> interface. The <a href="https://msdn.microsoft.com/en-us/library/ms678815(v=VS.85).aspx">Advise</a> method can be used to register for network manager, network, and interface-related notifications. Notifications are implemented by the <a href="https://msdn.microsoft.com/a79931ad-deeb-4e46-a051-80a57fe5935c">IDot11AdHocManagerNotificationSink</a> interface. To register for notifications, call the <b>Advise</b> method with the appropriate notification sink interface as the <i>pUnk</i>  parameter.  
+The <b>IDot11AdHocManager</b> interface creates and manages 802.11 ad hoc networks.  It is the top-level 802.11 ad hoc interface and the only ad hoc interface with a coclass. As such, it is the only ad hoc interface that can be instantiated by <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>. 
+<div class="alert"><b>Note</b>  Ad hoc mode might not be available in future versions of Windows. Starting with Windows 8.1 and Windows Server 2012 R2, use <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/about-the-wi-fi-direct-api">Wi-Fi Direct</a> instead.</div><div> </div>The <b>IDot11AdHocManager</b> coclass implements the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iconnectionpoint">IConnectionPoint</a> interface. The <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-advise">Advise</a> method can be used to register for network manager, network, and interface-related notifications. Notifications are implemented by the <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocmanagernotificationsink">IDot11AdHocManagerNotificationSink</a> interface. To register for notifications, call the <b>Advise</b> method with the appropriate notification sink interface as the <i>pUnk</i>  parameter.  
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDot11AdHocManager</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDot11AdHocManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDot11AdHocManager</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDot11AdHocManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IDot11AdHocManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/45beb340-1c19-4b91-8e5c-8849e690e988">IDot11AdHocManager::CommitCreatedNetwork</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocmanager-commitcreatednetwork">IDot11AdHocManager::CommitCreatedNetwork</a>
 </td>
 <td align="left" width="63%">
 Initializes a created network and optionally commits the network's profile to the profile store.
@@ -79,7 +79,7 @@ Initializes a created network and optionally commits the network's profile to th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1d9930b3-7bc4-4015-b096-a21fe01f54f5">IDot11AdHocManager::CreateNetwork</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocmanager-createnetwork">IDot11AdHocManager::CreateNetwork</a>
 </td>
 <td align="left" width="63%">
 Creates a wireless ad hoc network.
@@ -88,7 +88,7 @@ Creates a wireless ad hoc network.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2e705533-3657-4997-ae84-e18defbbc02a">IDot11AdHocManager::GetIEnumDot11AdHocInterfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocmanager-getienumdot11adhocinterfaces">IDot11AdHocManager::GetIEnumDot11AdHocInterfaces</a>
 </td>
 <td align="left" width="63%">
 Returns the set of wireless network interface cards (NICs) available on the machine.
@@ -97,7 +97,7 @@ Returns the set of wireless network interface cards (NICs) available on the mach
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3d37fad8-18e8-4280-9fa8-e40c742ec8ba">IDot11AdHocManager::GetIEnumDot11AdHocNetworks</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocmanager-getienumdot11adhocnetworks">IDot11AdHocManager::GetIEnumDot11AdHocNetworks</a>
 </td>
 <td align="left" width="63%">
 Returns a list of available ad hoc network destinations within connection range.
@@ -106,7 +106,7 @@ Returns a list of available ad hoc network destinations within connection range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/971703dc-1a3c-4c9a-a9e2-c547c96beacd">IDot11AdHocManager::GetNetwork</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocmanager-getnetwork">IDot11AdHocManager::GetNetwork</a>
 </td>
 <td align="left" width="63%">
 Returns the network associated with a signature. 

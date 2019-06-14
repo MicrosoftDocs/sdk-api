@@ -107,7 +107,7 @@ Method completed successfully.
 </dl>
 </td>
 <td width="60%">
-A callback interface has not been attached. You must call <a href="https://msdn.microsoft.com/3bb2aead-b082-4a2b-b4bf-97a1feb1e11e">Attach</a> before calling this method.
+A callback interface has not been attached. You must call <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-attach">Attach</a> before calling this method.
 
 </td>
 </tr>
@@ -132,11 +132,11 @@ Not enough memory exists to perform the operation.
 
 
 
-<b>SearchById</b> initiates a WS-Discovery <a href="https://msdn.microsoft.com/b963bd2a-47cb-4f8d-8272-a586e6d6a047">Resolve</a> in an attempt to locate a previously known specific device. <i>pszId</i> is used as the endpoint address in the Resolve. This call may result in one or more <a href="https://msdn.microsoft.com/4e36157f-444d-4e59-bc30-c6def9c51cea">Add</a> callbacks. If any <b>Add</b> callbacks are issued before the search completes, a <a href="https://msdn.microsoft.com/a125a7b3-6887-42e2-b421-d0e27973d8ee">SearchComplete</a> callback will be issued; otherwise, a <a href="https://msdn.microsoft.com/8f861c69-2967-4a8d-a64a-e2409d722984">SearchFailed</a> callback will be issued.
+<b>SearchById</b> initiates a WS-Discovery <a href="https://docs.microsoft.com/windows/desktop/WsdApi/resolve-message">Resolve</a> in an attempt to locate a previously known specific device. <i>pszId</i> is used as the endpoint address in the Resolve. This call may result in one or more <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovidernotify-add">Add</a> callbacks. If any <b>Add</b> callbacks are issued before the search completes, a <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovidernotify-searchcomplete">SearchComplete</a> callback will be issued; otherwise, a <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovidernotify-searchfailed">SearchFailed</a> callback will be issued.
 
 <i>pszTag</i> is an optional user provided string which will be fed back in either callback, allowing the caller to associate the callback with the original query.
 
-For information about troubleshooting applications calling this method, see <a href="https://msdn.microsoft.com/befe4234-8d3a-4fc5-9a7d-faca94964af6">Troubleshooting WSDAPI Applications</a>.
+For information about troubleshooting applications calling this method, see <a href="https://docs.microsoft.com/windows/desktop/WsdApi/troubleshooting-wsdapi-applications">Troubleshooting WSDAPI Applications</a>.
 
 
 
@@ -146,7 +146,7 @@ For information about troubleshooting applications calling this method, see <a h
 
 
 
-<a href="https://msdn.microsoft.com/e3d3acc2-914b-40bd-9e1e-a3a612821ab7">IWSDiscoveryProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a>
  
 
  

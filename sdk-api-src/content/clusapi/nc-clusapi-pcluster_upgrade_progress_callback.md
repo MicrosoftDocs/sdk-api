@@ -64,7 +64,7 @@ A pointer to the arguments.
 
 ### -param eUpgradePhase
 
-A  <a href="https://msdn.microsoft.com/75FB1BCD-03E0-4A6F-8C97-99AE8E958174">CLUSTER_UPGRADE_PHASE</a> enumeration values that indicates the state of the rolling upgrade.
+A  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-_cluster_upgrade_phase">CLUSTER_UPGRADE_PHASE</a> enumeration values that indicates the state of the rolling upgrade.
 
 
 ## -returns
@@ -114,11 +114,11 @@ The operation was not successful.
 
 
 
-<a href="https://msdn.microsoft.com/EA013501-A4E2-48D8-9062-D20141485CC5">ClusterUpgradeFunctionalLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterupgradefunctionallevel">ClusterUpgradeFunctionalLevel</a>
 
 
 
-<a href="https://msdn.microsoft.com/1b3a3b23-39db-47b7-b4a8-17fc1ee45df6">Failover Cluster Management Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-management-functions">Failover Cluster Management Functions</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The DDGETPOLARITYININFO structure contains the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">video port extensions (VPE)</a> object information. 
+The DDGETPOLARITYININFO structure contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object information. 
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ The DDGETPOLARITYININFO structure contains the <a href="https://msdn.microsoft.c
 
 ### -field lpVideoPortData
 
-Points to a <a href="https://msdn.microsoft.com/662ff6ee-d6b1-4cb1-8ff8-b4c1e17b26df">DDVIDEOPORTDATA</a> structure that contains the VPE object information. 
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddvideoportdata">DDVIDEOPORTDATA</a> structure that contains the VPE object information. 
 
 
 ## -see-also
@@ -67,11 +67,11 @@ Points to a <a href="https://msdn.microsoft.com/662ff6ee-d6b1-4cb1-8ff8-b4c1e17b
 
 
 
-<a href="https://msdn.microsoft.com/662ff6ee-d6b1-4cb1-8ff8-b4c1e17b26df">DDVIDEOPORTDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddvideoportdata">DDVIDEOPORTDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/9bce3093-8dcd-4e91-8e20-5558f2dcce75">DxGetPolarity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_getpolarity">DxGetPolarity</a>
  
 
  

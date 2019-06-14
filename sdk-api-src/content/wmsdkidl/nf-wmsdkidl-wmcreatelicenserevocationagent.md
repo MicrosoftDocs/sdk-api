@@ -62,12 +62,12 @@ The <b>WMCreateLicenseRevocationAgent</b> function creates a license revocation 
 
 ### -param pCallback [in]
 
-Address of the <b>IUnknown</b> interface of the object that implements the <a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">IWMStatusCallback::OnStatus</a> callback method used to communicate license revocation status to the application.
+Address of the <b>IUnknown</b> interface of the object that implements the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> callback method used to communicate license revocation status to the application.
 
 
 ### -param ppLicenseRevocationAgent [out]
 
-Address of a variable that receives a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd757225(v=VS.85).aspx">IWMLicenseRevocationAgent</a> interface of the newly created license revocation agent object.
+Address of a variable that receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicenserevocationagent">IWMLicenseRevocationAgent</a> interface of the newly created license revocation agent object.
 
 
 ## -returns
@@ -102,7 +102,7 @@ The method returns an HRESULT. Possible values include, but are not limited to, 
 
 
 
-<a href="https://msdn.microsoft.com/10fa8f96-8030-4727-af5d-7c06229d05d8">Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/functions">Functions</a>
  
 
  

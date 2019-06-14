@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>AlternateSignatureAlgorithm</b> property specifies and retrieves a Boolean value that indicates whether the signature algorithm <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) for a PKCS #10 request or certificate signature is discrete or combined. A PKCS #10 object can be a stand-alone request or it can be contained in a CMC or PKCS #7 request object.
+The <b>AlternateSignatureAlgorithm</b> property specifies and retrieves a Boolean value that indicates whether the signature algorithm <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) for a PKCS #10 request or certificate signature is discrete or combined. A PKCS #10 object can be a stand-alone request or it can be contained in a CMC or PKCS #7 request object.
 
 This property is read/write.
 
@@ -63,7 +63,7 @@ This property is read/write.
 
 
 
-Discrete algorithms are represented by separate <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifiers</a> (OIDs) for the hashing algorithm and the signing algorithm. Examples include the following values.<table>
+Discrete algorithms are represented by separate <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) for the hashing algorithm and the signing algorithm. Examples include the following values.<table>
 <tr>
 <th>Discrete algorithm OID</th>
 <th>Description</th>
@@ -137,7 +137,7 @@ For a PKCS #7 or a CMC request, this property retrieves a Boolean value for the 
 
 For a PKCS #10 request or certificate signature using the RSA public key algorithm, a property value of False (which indicates a combined OID) implies a version 1.5 signature and True (discrete OID) implies a version 2.1 signature.
 
-You must initialize the request object before calling this property. You can call this property before calling the <a href="https://msdn.microsoft.com/098788f4-539f-420b-a4e1-65625dd56ca1">Encode</a> method.
+You must initialize the request object before calling this property. You can call this property before calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequest-encode">Encode</a> method.
 
 
 
@@ -147,27 +147,27 @@ You must initialize the request object before calling this property. You can cal
 
 
 
-<a href="https://msdn.microsoft.com/5425c9ab-565d-449d-87e1-e5765868acfb">IX509CertificateRequest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/7197a225-b2dc-47bb-8843-d3fb4bf95811">IX509CertificateRequestCertificate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcertificate">IX509CertificateRequestCertificate</a>
 
 
 
-<a href="https://msdn.microsoft.com/77059388-c442-4db5-ab27-1db25e2f63b9">IX509CertificateRequestCmc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a>
 
 
 
-<a href="https://msdn.microsoft.com/5b3764dc-fc63-45cc-8c35-65539c461e81">IX509CertificateRequestPkcs10</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
 
 
 
-<a href="https://msdn.microsoft.com/ae869557-6523-4387-835e-c9631898d864">IX509CertificateRequestPkcs7</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs7">IX509CertificateRequestPkcs7</a>
 
 
 
-<a href="https://msdn.microsoft.com/25774ccb-8e76-443d-89da-177d6e77c019">IX509SignatureInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a>
  
 
  

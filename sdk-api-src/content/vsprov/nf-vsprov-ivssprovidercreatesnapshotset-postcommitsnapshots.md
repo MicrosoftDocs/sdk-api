@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>PostCommitSnapshots</b> 
    method is called after all providers involved in the shadow copy set have succeeded with 
-   <a href="https://msdn.microsoft.com/60489142-125f-4deb-afa0-9dae63ea1d46">CommitSnapshots</a>. 
+   <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivssprovidercreatesnapshotset-commitsnapshots">CommitSnapshots</a>. 
    The lock on the I/O system has been lifted, but the applications have not yet been unfrozen. This is an 
    opportunity for the provider to perform additional cleanup work after the shadow copy commit.
 
@@ -155,7 +155,7 @@ If any other value is returned, VSS will write an event to the event log and con
 
 
 
-<a href="https://msdn.microsoft.com/41a795f0-7882-47a3-9226-aa50218a56e9">IVssProviderCreateSnapshotSet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivssprovidercreatesnapshotset">IVssProviderCreateSnapshotSet</a>
  
 
  

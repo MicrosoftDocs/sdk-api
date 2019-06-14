@@ -60,7 +60,7 @@ The <b>DHCP_SUBNET_INFO_V6</b> structure contains information about an IPv6 subn
 ### -field SubnetAddress
 
 
-<a href="https://msdn.microsoft.com/9623e866-81e5-4d5a-8801-33f0f8973ed3">DHCP_IPV6_ADDRESS</a> structure containing the IPv6 prefix.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ipv6_address">DHCP_IPV6_ADDRESS</a> structure containing the IPv6 prefix.
 
 
 ### -field Prefix
@@ -85,7 +85,7 @@ Pointer to a null-terminated Unicode string that contains an optional comment fo
 
 ### -field State
 
-An enumeration of the <a href="https://msdn.microsoft.com/1f2960ae-98f2-4c93-9705-e8b74a4f5e21">DHCP_SUBNET_STATE</a> that indicates the current state of the IPv6 prefix.
+An enumeration of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-_dhcp_subnet_state">DHCP_SUBNET_STATE</a> that indicates the current state of the IPv6 prefix.
 
 
 ### -field ScopeId
@@ -98,7 +98,7 @@ A <b>DWORD</b> value that serves as the unique identifier for the IPv6 prefix. T
 
 
 
-<a href="https://msdn.microsoft.com/9623e866-81e5-4d5a-8801-33f0f8973ed3">DHCP_IPV6_ADDRESS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ipv6_address">DHCP_IPV6_ADDRESS</a>
  
 
  

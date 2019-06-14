@@ -76,15 +76,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/99834A2D-547B-4B04-8703-46B11E0BB812">IActivatableClassRegistration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nn-activationregistration-iactivatableclassregistration">IActivatableClassRegistration</a>
 
 
 
-<a href="https://msdn.microsoft.com/1B579206-F6B9-47C1-A7F3-4E7ECDEDCBB4">RegisteredTrustLevel</a>
+<a href="https://docs.microsoft.com/previous-versions//dn408470(v=vs.85)">RegisteredTrustLevel</a>
 
 
 
-<a href="https://msdn.microsoft.com/9D9B74C9-9D9A-4E10-A222-C8F3658F2C48">RoGetActivatableClassRegistration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/roregistrationapi/nf-roregistrationapi-rogetactivatableclassregistration">RoGetActivatableClassRegistration</a>
  
 
  

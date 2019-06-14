@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Removes the <a href="https://msdn.microsoft.com/5d6e7147-b312-4989-8d8f-88cb2221f6f0">RecognitionResult</a> that is associated with the <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes</a> collection.
+Removes the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-get_recognitionresult">RecognitionResult</a> that is associated with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection.
 
 
 
@@ -106,7 +106,7 @@ An exception occurred inside the method.
 
 
 
-To set a recognition result on an <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes</a> collection, use the <a href="https://msdn.microsoft.com/928f6f39-1b8f-403a-8c18-0931c5a6dc5d">SetResultOnStrokes</a> method.
+To set a recognition result on an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection, use the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionresult-setresultonstrokes">SetResultOnStrokes</a> method.
 
 
 
@@ -120,7 +120,7 @@ To set a recognition result on an <a href="https://msdn.microsoft.com/c7fb921c-0
 
 
 
-<a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes Collection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
  
 
  

@@ -61,19 +61,19 @@ The
 ### -param OrderingMethod [in]
 
 Specifies the order in which the services are searched. See 
-<a href="https://msdn.microsoft.com/193ca671-3b1a-493f-a655-a27f6348f5d2">GetFirstOrderedService</a> for a description of the various ordering methods.
+<a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-pget_first_ordered_service">GetFirstOrderedService</a> for a description of the various ordering methods.
 
 
 ### -param ExclusionFlags [in]
 
 Limits the set of examined services to a subset defined by <i>ExclusionFlags</i> and the values in the corresponding members of the structure pointed to by the <i>Service</i> parameter. See 
-<a href="https://msdn.microsoft.com/68ed5662-ffa8-456b-b79c-a6fb27339262">CreateServiceEnumerationHandle</a> for a description of the possible flags.
+<a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-pcreate_service_enumeration_handle">CreateServiceEnumerationHandle</a> for a description of the possible flags.
 
 
 ### -param Service [in, out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/37da1071-b665-405c-a4ce-f1a484aeb19b">IPX_SERVICE</a> structure. 
+<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-_ipx_service">IPX_SERVICE</a> structure. 
 
 
 
@@ -133,19 +133,19 @@ One of the  parameters is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/68ed5662-ffa8-456b-b79c-a6fb27339262">CreateServiceEnumerationHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-pcreate_service_enumeration_handle">CreateServiceEnumerationHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/e93e3bf2-80a2-44ec-a067-58220cdd31b4">IPX Service Table Management</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/ipx-service-table-management">IPX Service Table Management</a>
 
 
 
-<a href="https://msdn.microsoft.com/37da1071-b665-405c-a4ce-f1a484aeb19b">IPX_SERVICE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-_ipx_service">IPX_SERVICE</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb31f1ad-5761-4112-8c05-51a627b9e0b7">Service Table Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/service-table-management-functions">Service Table Management Functions</a>
  
 
  

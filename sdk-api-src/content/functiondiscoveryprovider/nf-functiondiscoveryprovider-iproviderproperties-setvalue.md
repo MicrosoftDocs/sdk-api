@@ -61,7 +61,7 @@ Sets the value of the specified property key.
 
 ### -param pIFunctionInstance [in]
 
-An <a href="https://msdn.microsoft.com/cc421719-73a6-4d4d-9bf8-171e46c4e275">IFunctionInstance</a> interface.
+An <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a> interface.
 
 
 ### -param iProviderInstanceContext [in]
@@ -123,7 +123,7 @@ The <i>pIFunctionInstance</i>, <i>pvProviderInstanceContext</i>, or <i>ppropVar<
 
 
 
-<a href="https://msdn.microsoft.com/d6d3d1d1-d2fb-409c-be37-3cd286e325a3">IProviderProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderproperties">IProviderProperties</a>
  
 
  

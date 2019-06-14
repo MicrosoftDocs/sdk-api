@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 
 
-Gets or sets the right position of the <a href="https://msdn.microsoft.com/78e6c29c-0f43-46a5-9d30-948de5f369c8">InkRectangle</a> object.
+Gets or sets the right position of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrectangle-class">InkRectangle</a> object.
 
 
 
@@ -69,7 +69,7 @@ This property is read/write.
 
 
 
-<div class="alert"><b>Note</b>  A point is within an <a href="https://msdn.microsoft.com/78e6c29c-0f43-46a5-9d30-948de5f369c8">InkRectangle</a> if it lies on the <a href="https://msdn.microsoft.com/88f0d919-43d0-408f-97f8-1410b2833269">Left</a> or <a href="https://msdn.microsoft.com/f97145cf-9de9-427a-9701-36c6f4286910">Top</a> side or is within all four sides. A point on the <b>Right</b> or <a href="https://msdn.microsoft.com/9b388cdb-66b1-4386-a1aa-578f0d56c190">Bottom</a> side is considered outside the rectangle.</div>
+<div class="alert"><b>Note</b>  A point is within an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrectangle-class">InkRectangle</a> if it lies on the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_left">Left</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_top">Top</a> side or is within all four sides. A point on the <b>Right</b> or <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_bottom">Bottom</a> side is considered outside the rectangle.</div>
 <div> </div>
 The default value of this property is 0.
 
@@ -81,7 +81,7 @@ The default value of this property is 0.
 
 
 
-<a href="https://msdn.microsoft.com/9b388cdb-66b1-4386-a1aa-578f0d56c190">Bottom Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_bottom">Bottom Property</a>
 
 
 
@@ -89,15 +89,15 @@ The default value of this property is 0.
 
 
 
-<a href="https://msdn.microsoft.com/78e6c29c-0f43-46a5-9d30-948de5f369c8">InkRectangle Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrectangle-class">InkRectangle Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/88f0d919-43d0-408f-97f8-1410b2833269">Left Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_left">Left Property</a>
 
 
 
-<a href="https://msdn.microsoft.com/f97145cf-9de9-427a-9701-36c6f4286910">Top Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_top">Top Property</a>
  
 
  

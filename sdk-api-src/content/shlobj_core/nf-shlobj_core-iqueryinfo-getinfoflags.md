@@ -80,7 +80,7 @@ Returns S_OK if <i>pdwFlags</i> returns any flag values, or a COM-defined error 
 
 
 
-<a href="https://msdn.microsoft.com/7e256ed3-b3c7-4f9d-b3a0-e33c46fa2573">IQueryInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iqueryinfo">IQueryInfo</a>
  
 
  

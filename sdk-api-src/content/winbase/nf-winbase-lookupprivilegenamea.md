@@ -57,7 +57,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>LookupPrivilegeName</b> function retrieves the name that corresponds to the privilege represented on a specific system by a specified <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">locally unique identifier</a> (LUID).
+The <b>LookupPrivilegeName</b> function retrieves the name that corresponds to the privilege represented on a specific system by a specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">locally unique identifier</a> (LUID).
 
 
 ## -parameters
@@ -93,7 +93,7 @@ If the function succeeds, the function returns nonzero.
 						
 
 If the function fails, it returns zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -102,7 +102,7 @@ If the function fails, it returns zero. To get extended error information, call
 
 
 
-The <b>LookupPrivilegeName</b> function supports only the privileges specified in the Defined Privileges section of Winnt.h. For a list of values, see <a href="https://msdn.microsoft.com/973796a6-bc2e-4e64-92db-5e17b9c25460">Privilege Constants</a>.
+The <b>LookupPrivilegeName</b> function supports only the privileges specified in the Defined Privileges section of Winnt.h. For a list of values, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/privilege-constants">Privilege Constants</a>.
 
 
 
@@ -112,19 +112,19 @@ The <b>LookupPrivilegeName</b> function supports only the privileges specified i
 
 
 
-<a href="https://msdn.microsoft.com/d9ce4ec5-5c09-4b33-93a1-39638a925986">Access Control</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/1fbb26b6-615e-4883-9f4b-3a1d05d9feaa">LookupPrivilegeDisplayName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupprivilegedisplaynamea">LookupPrivilegeDisplayName</a>
 
 
 
-<a href="https://msdn.microsoft.com/334b8ba8-101d-43a1-a8bf-1c7e0448c272">LookupPrivilegeValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupprivilegevaluea">LookupPrivilegeValue</a>
  
 
  

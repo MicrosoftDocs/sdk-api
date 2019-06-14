@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains values that specify the behavior of <a href="https://msdn.microsoft.com/06f0874d-ca25-4fa8-8cbc-96c1eee1b36c">UiaGetUpdatedCache</a>.
+Contains values that specify the behavior of <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiagetupdatedcache">UiaGetUpdatedCache</a>.
 
 
 ## -enum-fields

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Instantiates a new instance of a <a href="https://msdn.microsoft.com/28D033EF-3EAC-41F0-A633-D69E4B10343D">CD3D11_RENDER_TARGET_VIEW_DESC</a> structure that is initialized with <a href="https://msdn.microsoft.com/b154ac98-49ed-4d00-8cb6-5e57680e125c">D3D11_RENDER_TARGET_VIEW_DESC</a> values.
+Instantiates a new instance of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151668(v=vs.85)">CD3D11_RENDER_TARGET_VIEW_DESC</a> structure that is initialized with <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_render_target_view_desc">D3D11_RENDER_TARGET_VIEW_DESC</a> values.
 
 
 ## -parameters
@@ -60,39 +60,39 @@ Instantiates a new instance of a <a href="https://msdn.microsoft.com/28D033EF-3E
 
 ### -param viewDimension
 
-Type: <b><a href="https://msdn.microsoft.com/42cbd3ec-fa8a-48ea-be88-bbe46db13566">D3D11_RTV_DIMENSION</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_rtv_dimension">D3D11_RTV_DIMENSION</a></b>
 
-A <a href="https://msdn.microsoft.com/42cbd3ec-fa8a-48ea-be88-bbe46db13566">D3D11_RTV_DIMENSION</a>-typed value that specifies the resource type of the view.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_rtv_dimension">D3D11_RTV_DIMENSION</a>-typed value that specifies the resource type of the view.
 
 
 ### -param format
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a></b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value that specifies the viewing format.
+A <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>-typed value that specifies the viewing format.
 
 
 ### -param mipSlice
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-The index of the mipmap level to use mip slice. <b>FirstElement</b> for <a href="https://msdn.microsoft.com/2ada8526-bef3-4998-8775-6e062f972a1c">D3D11_BUFFER_SRV</a>.
+The index of the mipmap level to use mip slice. <b>FirstElement</b> for <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_buffer_srv">D3D11_BUFFER_SRV</a>.
 
 
 ### -param firstArraySlice
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The index of the first element to use in an array of elements.
 
-<b>NumElements</b> for <a href="https://msdn.microsoft.com/2ada8526-bef3-4998-8775-6e062f972a1c">D3D11_BUFFER_SRV</a>. <b>FirstWSlice</b> for <a href="https://msdn.microsoft.com/58a4b383-ad5d-4eb0-bff5-8825c3ae8dd1">D3D11_TEX3D_RTV</a>.
+<b>NumElements</b> for <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_buffer_srv">D3D11_BUFFER_SRV</a>. <b>FirstWSlice</b> for <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex3d_rtv">D3D11_TEX3D_RTV</a>.
 
 
 ### -param arraySize
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Number of elements in the array. <b>WSize</b> for <a href="https://msdn.microsoft.com/58a4b383-ad5d-4eb0-bff5-8825c3ae8dd1">D3D11_TEX3D_RTV</a>.
+Number of elements in the array. <b>WSize</b> for <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex3d_rtv">D3D11_TEX3D_RTV</a>.
 
 
 ## -see-also
@@ -100,7 +100,7 @@ Number of elements in the array. <b>WSize</b> for <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/28D033EF-3EAC-41F0-A633-D69E4B10343D">CD3D11_RENDER_TARGET_VIEW_DESC</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151668(v=vs.85)">CD3D11_RENDER_TARGET_VIEW_DESC</a>
  
 
  

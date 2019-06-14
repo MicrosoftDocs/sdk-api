@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<span>Creates an <a href="https://msdn.microsoft.com/860342cc-989c-4432-b879-07f3da07d50a">ID2D1HwndRenderTarget</a>, a render target that renders to a window.
+<span>Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a>, a render target that renders to a window.
 </span><h3>Overload list</h3><table>
 <tr>
 <th align="left" width="37%">Method</th>
@@ -57,19 +57,19 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1e522cc1-7527-458d-8124-0f0a97089fc6">CreateHwndRenderTarget(D2D1_RENDER_TARGET_PROPERTIES*,D2D1_HWND_RENDER_TARGET_PROPERTIES*,ID2D1HwndRenderTarget**)</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd371275(v=vs.85)">CreateHwndRenderTarget(D2D1_RENDER_TARGET_PROPERTIES*,D2D1_HWND_RENDER_TARGET_PROPERTIES*,ID2D1HwndRenderTarget**)</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/860342cc-989c-4432-b879-07f3da07d50a">ID2D1HwndRenderTarget</a>, a render target that renders to a window.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a>, a render target that renders to a window.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c1f5f5dd-3ae8-4483-bd7d-f25a69489bab">CreateHwndRenderTarget(D2D1_RENDER_TARGET_PROPERTIES&,D2D1_HWND_RENDER_TARGET_PROPERTIES&,ID2D1HwndRenderTarget**)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-createhwndrendertarget(constd2d1_render_target_properties__constd2d1_hwnd_render_target_properties__id2d1hwndrendertarget)">CreateHwndRenderTarget(D2D1_RENDER_TARGET_PROPERTIES&,D2D1_HWND_RENDER_TARGET_PROPERTIES&,ID2D1HwndRenderTarget**)</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/860342cc-989c-4432-b879-07f3da07d50a">ID2D1HwndRenderTarget</a>, a render target that renders to a window.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a>, a render target that renders to a window.
 
 </td>
 </tr>
@@ -82,12 +82,12 @@ Creates an <a href="https://msdn.microsoft.com/860342cc-989c-4432-b879-07f3da07d
 
 
 
-When you create a render target and hardware acceleration is available, you allocate resources on the computer's GPU. By creating a render target once and retaining it as long as possible, you gain performance benefits. Your application should create render targets once and hold onto them for the life of the application or until the <a href="https://msdn.microsoft.com/018bfca5-6ef4-497c-a4b6-8502c3cdac1b">D2DERR_RECREATE_TARGET</a>  error is received. When you receive this error, you need to recreate the render target (and any resources it created).
+When you create a render target and hardware acceleration is available, you allocate resources on the computer's GPU. By creating a render target once and retaining it as long as possible, you gain performance benefits. Your application should create render targets once and hold onto them for the life of the application or until the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-error-codes">D2DERR_RECREATE_TARGET</a>  error is received. When you receive this error, you need to recreate the render target (and any resources it created).
 
 
 #### Examples
 
-The following example creates an <a href="https://msdn.microsoft.com/860342cc-989c-4432-b879-07f3da07d50a">ID2D1HwndRenderTarget</a>. 
+The following example creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a>. 
 
 
 ```cpp
@@ -117,7 +117,7 @@ hr = m_pD2DFactory->CreateHwndRenderTarget(
 
 
 
-<a href="https://msdn.microsoft.com/cef6115c-98e8-49e6-b419-271b43ce2938">ID2D1Factory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>
  
 
  

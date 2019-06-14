@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Deserialization object as created from 
-     <a href="https://msdn.microsoft.com/e58c69ce-032a-4024-9023-53cd1776b7f3">MI_Application_NewDeserializer</a>. The 
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newdeserializer">MI_Application_NewDeserializer</a>. The 
      object itself should not be manually used or changed as it is used internally.
 
 

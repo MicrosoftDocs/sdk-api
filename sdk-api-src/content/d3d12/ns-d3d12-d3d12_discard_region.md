@@ -67,7 +67,7 @@ The number of rectangles in the array that the <b>pRects</b> member specifies.
 ### -field pRects
 
 An array of <b>D3D12_RECT</b> structures for the rectangles in the resource to discard.
-            If <b>NULL</b>, <a href="https://msdn.microsoft.com/2F4DBA5B-F586-4126-8867-BEE650F6D161">DiscardResource</a> discards the entire resource.
+            If <b>NULL</b>, <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-discardresource">DiscardResource</a> discards the entire resource.
           
 
 
@@ -87,7 +87,7 @@ The number of subresources in the resource to discard.
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/2F4DBA5B-F586-4126-8867-BEE650F6D161">ID3D12GraphicsCommandList::DiscardResource</a> method.
+This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-discardresource">ID3D12GraphicsCommandList::DiscardResource</a> method.
       
 
 If rectangles are supplied in this structure, the resource must have 2D subresources with all specified subresources the same dimension.
@@ -101,7 +101,7 @@ If rectangles are supplied in this structure, the resource must have 2D subresou
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
  
 
  

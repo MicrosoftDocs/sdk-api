@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Adds a <a href="https://msdn.microsoft.com/C51FB0E5-94C3-4E7F-AC33-E5F0F26EDC11">clip plane</a> with the plane coefficients taken from a <a href="https://msdn.microsoft.com/en-us/library/Bb509581(v=VS.85).aspx">cbuffer</a> entry for 10Level9 shaders.
+Adds a <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/user-clip-planes-on-10level9">clip plane</a> with the plane coefficients taken from a <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-constants">cbuffer</a> entry for 10Level9 shaders.
 
 
 ## -parameters
@@ -59,25 +59,25 @@ Adds a <a href="https://msdn.microsoft.com/C51FB0E5-94C3-4E7F-AC33-E5F0F26EDC11"
 
 ### -param uCBufferSlot [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/Bb509581(v=VS.85).aspx">cbuffer</a> slot number.
+The <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-constants">cbuffer</a> slot number.
 
 
 ### -param uCBufferEntry [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/Bb509581(v=VS.85).aspx">cbuffer</a> entry number.
+The <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-constants">cbuffer</a> entry number.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-Returns S_OK if successful; otherwise, returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
+Returns S_OK if successful; otherwise, returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a>.
 
 
 
@@ -87,7 +87,7 @@ Returns S_OK if successful; otherwise, returns one of the <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/08967A5F-AAAE-4352-A8A9-C7B1ED16EF25">ID3D11Linker</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11linker">ID3D11Linker</a>
  
 
  

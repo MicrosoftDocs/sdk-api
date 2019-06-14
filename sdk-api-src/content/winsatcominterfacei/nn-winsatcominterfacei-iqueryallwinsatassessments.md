@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 Retrieves details about all formal WinSAT assessments.
 
-To retrieve this interface, call the <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function. Use __uuidof(CQueryAllWinSAT) as the class identifier and __uuidof(IQueryAllWinSATAssessments) as the interface identifier.
+To retrieve this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function. Use __uuidof(CQueryAllWinSAT) as the class identifier and __uuidof(IQueryAllWinSATAssessments) as the interface identifier.
 
 
 ## -see-also
@@ -61,11 +61,11 @@ To retrieve this interface, call the <a href="https://msdn.microsoft.com/en-us/l
 
 
 
-<a href="https://msdn.microsoft.com/0b299477-50a4-4f61-a0e5-fdbae239503b">IInitiateWinSATAssessment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iinitiatewinsatassessment">IInitiateWinSATAssessment</a>
 
 
 
-<a href="https://msdn.microsoft.com/6849d8b6-d192-4520-a737-39e22e14a70f">IQueryRecentWinSATAssessment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iqueryrecentwinsatassessment">IQueryRecentWinSATAssessment</a>
  
 
  

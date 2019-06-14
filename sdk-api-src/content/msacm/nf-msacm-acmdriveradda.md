@@ -96,15 +96,15 @@ Flags for adding ACM drivers. The following values are defined.
 </tr>
 <tr>
 <td>ACM_DRIVERADDF_FUNCTION</td>
-<td>The <i>lParam</i> parameter is a driver function address conforming to the <a href="https://msdn.microsoft.com/e29c157d-e56e-4242-abb8-2736d5599caa">acmDriverProc</a> prototype. The function may reside in either an executable or DLL file.</td>
+<td>The <i>lParam</i> parameter is a driver function address conforming to the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nc-msacm-acmdriverproc">acmDriverProc</a> prototype. The function may reside in either an executable or DLL file.</td>
 </tr>
 <tr>
 <td>ACM_DRIVERADDF_GLOBAL</td>
-<td>Provided for compatibility with 16-bit applications. For the Win32 API, ACM drivers added by the <b>acmDriverAdd</b> function can be used only by the application that added the driver. This is true whether or not ACM_DRIVERADDF_GLOBAL is specified. For more information, see <a href="https://msdn.microsoft.com/cd9bd0a8-652b-440b-a197-81e20a9d71f1">Adding Drivers Within an Application</a>.</td>
+<td>Provided for compatibility with 16-bit applications. For the Win32 API, ACM drivers added by the <b>acmDriverAdd</b> function can be used only by the application that added the driver. This is true whether or not ACM_DRIVERADDF_GLOBAL is specified. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Multimedia/adding-drivers-within-an-application">Adding Drivers Within an Application</a>.</td>
 </tr>
 <tr>
 <td>ACM_DRIVERADDF_LOCAL</td>
-<td>The ACM automatically gives a local driver higher priority than a global driver when searching for a driver to satisfy a function call. For more information, see <a href="https://msdn.microsoft.com/cd9bd0a8-652b-440b-a197-81e20a9d71f1">Adding Drivers Within an Application</a>.</td>
+<td>The ACM automatically gives a local driver higher priority than a global driver when searching for a driver to satisfy a function call. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Multimedia/adding-drivers-within-an-application">Adding Drivers Within an Application</a>.</td>
 </tr>
 <tr>
 <td>ACM_DRIVERADDF_NAME</td>
@@ -112,7 +112,7 @@ Flags for adding ACM drivers. The following values are defined.
 </tr>
 <tr>
 <td>ACM_DRIVERADDF_NOTIFYHWND</td>
-<td>The <i>lParam</i> parameter is a handle of a notification window that receives messages when changes to global driver priorities and states are made. The window message to receive is defined by the application and must be passed in <i>dwPriority</i>. The <i>wParam</i> and <i>lParam</i> parameters passed with the window message are reserved for future use and should be ignored. ACM_DRIVERADDF_GLOBAL cannot be specified in conjunction with this flag. For more information about driver priorities, see the description for the <a href="https://msdn.microsoft.com/62ab009e-b8fe-4b92-ba0f-a98cd761307b">acmDriverPriority</a> function.</td>
+<td>The <i>lParam</i> parameter is a handle of a notification window that receives messages when changes to global driver priorities and states are made. The window message to receive is defined by the application and must be passed in <i>dwPriority</i>. The <i>wParam</i> and <i>lParam</i> parameters passed with the window message are reserved for future use and should be ignored. ACM_DRIVERADDF_GLOBAL cannot be specified in conjunction with this flag. For more information about driver priorities, see the description for the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmdriverpriority">acmDriverPriority</a> function.</td>
 </tr>
 </table>
  
@@ -173,11 +173,11 @@ The system is unable to allocate resources.
 
 
 
-<a href="https://msdn.microsoft.com/da207a50-9c67-4cf3-920b-5878637060db">Audio Compression Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f9a4540-86c0-40e6-b4da-24a9d31b56bf">Audio Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
  
 
  

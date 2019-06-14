@@ -59,24 +59,24 @@ ms.custom: 19H1
 
 ### -field count
 
-The number of attributes contained in the SoH as a number between 0 (zero) and <a href="https://msdn.microsoft.com/2727487c-8c6a-4cd9-b6d8-253191a7d7f6">maxSoHAttributeCount</a>.
+The number of attributes contained in the SoH as a number between 0 (zero) and <a href="https://docs.microsoft.com/windows/desktop/NAP/nap-type-constants">maxSoHAttributeCount</a>.
 
 
 ### -field attributes
 
-An array of <a href="https://msdn.microsoft.com/cd954277-27e0-47f4-b4c3-f5335925b8fd">SoHAttribute</a> structures that contain the collection of attributes defined by this SoH.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-tagsohattribute">SoHAttribute</a> structures that contain the collection of attributes defined by this SoH.
 
 
 ## -remarks
 
 
 
-SoH packets are collections of attributes, stored as type-length-value objects (TLVs). The attribute type is specified by <a href="https://msdn.microsoft.com/ba725bf1-1d0a-4489-b912-3e761557d772">SoHAttributeType</a>, and the attribute value is specified by <a href="https://msdn.microsoft.com/53b30455-33a5-4cf5-8d4e-f0fa8e4e1a12">SoHAttributeValue</a>. The TLVs are ordered
+SoH packets are collections of attributes, stored as type-length-value objects (TLVs). The attribute type is specified by <a href="https://docs.microsoft.com/windows/desktop/NAP/sohattributetype-enum">SoHAttributeType</a>, and the attribute value is specified by <a href="https://docs.microsoft.com/windows/desktop/NAP/sohattributevalue-union">SoHAttributeValue</a>. The TLVs are ordered
 such that certain TLVs (such as the <b>sohAttributeTypeSystemHealthId</b> TLV or the 
 <b>sohAttributeTypeHealthClass</b> TLV) separate groups or 
 sub-groups of TLVs.
 
-The <a href="https://msdn.microsoft.com/ba725bf1-1d0a-4489-b912-3e761557d772">sohAttributeTypeSystemHealthId</a> TLV must be the first TLV in both <b>SoHRequest</b> and <b>SoHResponse</b> packets.
+The <a href="https://docs.microsoft.com/windows/desktop/NAP/sohattributetype-enum">sohAttributeTypeSystemHealthId</a> TLV must be the first TLV in both <b>SoHRequest</b> and <b>SoHResponse</b> packets.
 A <b>SoHResponse</b> packet can have at most one <b>sohAttributeTypeIpv4FixupServers</b> or <b>sohAttributeTypeIpv6FixupServers</b> TLV.
 
 
@@ -87,11 +87,11 @@ A <b>SoHResponse</b> packet can have at most one <b>sohAttributeTypeIpv4FixupSer
 
 
 
-<a href="https://msdn.microsoft.com/e391be3c-95ab-4c80-a5d8-8a8fef28e56b">NAP Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/NAP/nap-reference">NAP Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/68048587-0f7e-48d4-9326-768a977ea3ee">NAP Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/NAP/nap-structures">NAP Structures</a>
  
 
  

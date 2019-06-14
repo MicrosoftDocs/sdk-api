@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>REMOTE_NAME_INFO</b> structure contains information about the remote form of a universal name. It is used by the 
-<a href="https://msdn.microsoft.com/976b5910-c34f-49fa-b25e-82bf607e33a9">NPGetUniversalName</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npgetuniversalname">NPGetUniversalName</a> function.
 
 
 ## -struct-fields
@@ -72,5 +72,5 @@ Pointer to a string containing the remote name used to make the connection. This
 
 ### -field lpRemainingPath
 
-Pointer to the remaining path that must to be concatenated to a drive letter after a connection is established by means of <b>lpConnectionName</b>, to refer to the object specified during the call to <a href="https://msdn.microsoft.com/976b5910-c34f-49fa-b25e-82bf607e33a9">NPGetUniversalName</a>. This string has a backslash at the start of the path.
+Pointer to the remaining path that must to be concatenated to a drive letter after a connection is established by means of <b>lpConnectionName</b>, to refer to the object specified during the call to <a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npgetuniversalname">NPGetUniversalName</a>. This string has a backslash at the start of the path.
 

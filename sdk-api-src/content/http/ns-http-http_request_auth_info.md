@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>HTTP_REQUEST_AUTH_INFO</b> structure contains the authentication status of the request with a handle to the  client token that the receiving process can use to impersonate the authenticated client.
 
-This structure is contained in the <a href="https://msdn.microsoft.com/83c2a922-4ddb-4dc0-9ed6-d75d47b97d6a">HTTP_REQUEST_INFO</a> structure.
+This structure is contained in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_request_info">HTTP_REQUEST_INFO</a> structure.
 
 
 ## -struct-fields
@@ -61,14 +61,14 @@ This structure is contained in the <a href="https://msdn.microsoft.com/83c2a922-
 
 ### -field AuthStatus
 
-A member of the <a href="https://msdn.microsoft.com/1290fbbe-6c8e-40dc-b47c-32976d85afca">HTTP_AUTH_STATUS</a> enumeration that indicates the final authentication status of the request.
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_auth_status">HTTP_AUTH_STATUS</a> enumeration that indicates the final authentication status of the request.
 
 If the authentication status is not <b>HttpAuthStatusSuccess</b>, applications should disregard members of this structure except <b>AuthStatus</b>, <b>SecStatus</b>, and <b>AuthType</b>.
 
 
 ### -field SecStatus
 
-A <a href="https://msdn.microsoft.com/library/Aa374703(v=VS.85).aspx">SECURITY_STATUS</a> value that indicates the security failure status when the <b>AuthStatus</b> member   is <b>HttpAuthStatusFailure</b>.
+A <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">SECURITY_STATUS</a> value that indicates the security failure status when the <b>AuthStatus</b> member   is <b>HttpAuthStatusFailure</b>.
 
 
 ### -field Flags
@@ -96,14 +96,14 @@ The provided token is for  NTLM and is based on a cached credential of a Keep Al
 
 ### -field AuthType
 
-A member of the <a href="https://msdn.microsoft.com/e0147da5-7de2-4ea8-abc5-61c814ee7c55">HTTP_REQUEST_AUTH_TYPE</a> enumeration that indicates the authentication scheme attempted or established  for the request.
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_request_auth_type">HTTP_REQUEST_AUTH_TYPE</a> enumeration that indicates the authentication scheme attempted or established  for the request.
 
 
 ### -field AccessToken
 
 A  handle to the client token that the receiving process can use to impersonate the authenticated client.
 
-The handle to the token should be closed by calling <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> when it is no longer required. This token is valid only for the lifetime of the request. Applications can regenerate the initial 401 challenge to reauthenticate when the token expires.
+The handle to the token should be closed by calling <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> when it is no longer required. This token is valid only for the lifetime of the request. Applications can regenerate the initial 401 challenge to reauthenticate when the token expires.
 
 
 ### -field ContextAttributes
@@ -125,9 +125,9 @@ The type of context in the <b>PackedContext</b> member.
 
 The security context for the authentication type.
 
-Applications can query the attributes of the packed context by calling the SSPI <a href="https://msdn.microsoft.com/library/Aa379326(v=VS.85).aspx">QueryContextAttributes</a> API. However, applications must acquire a  credential handle for the security package for the indicated AuthType.
+Applications can query the attributes of the packed context by calling the SSPI <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes</a> API. However, applications must acquire a  credential handle for the security package for the indicated AuthType.
 
-Application should call the SSPI <a href="https://msdn.microsoft.com/3c3d27bb-4f9a-4979-b679-1e10fa1ff221">FreeContextBuffer</a> API to free the serialized context when it is no longer required.
+Application should call the SSPI <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a> API to free the serialized context when it is no longer required.
 
 
 ### -field MutualAuthDataLength
@@ -156,21 +156,21 @@ The Base64 encoded mutual authentication data used in  the WWW-Authenticate head
 
 
 
-Starting with HTTP version 2.0, the <a href="https://msdn.microsoft.com/e592cf54-df6d-472b-a736-c44a5ccdd3d2">HTTP_REQUEST</a> structure  contains an <a href="https://msdn.microsoft.com/83c2a922-4ddb-4dc0-9ed6-d75d47b97d6a">HTTP_REQUEST_INFO</a> structure. The <b>pVoid</b> member of the <b>HTTP_REQUEST_INFO</b> structure points to the <b>HTTP_REQUEST_AUTH_INFO</b> when the request information type is <b>HttpRequestInfoTypeAuth</b>.
+Starting with HTTP version 2.0, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a> structure  contains an <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_request_info">HTTP_REQUEST_INFO</a> structure. The <b>pVoid</b> member of the <b>HTTP_REQUEST_INFO</b> structure points to the <b>HTTP_REQUEST_AUTH_INFO</b> when the request information type is <b>HttpRequestInfoTypeAuth</b>.
 
-When the application receives a request with this structure and the request has not been authenticated, it can send the initial 401 challenge with the desired set of WWW-Authenticate headers in the <a href="https://msdn.microsoft.com/b5e68d55-43a4-422f-b7e3-163739628720">HTTP_MULTIPLE_KNOWN_HEADERS</a> structure. When the HTTP Server API completes  the authentication handshake, it fills  the <b>HTTP_REQUEST_AUTH_INFO</b> structure and passes it to the application with the request again. The handle to the access token that represents the client identity is provided in this structure by the HTTP Server API.
+When the application receives a request with this structure and the request has not been authenticated, it can send the initial 401 challenge with the desired set of WWW-Authenticate headers in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_multiple_known_headers">HTTP_MULTIPLE_KNOWN_HEADERS</a> structure. When the HTTP Server API completes  the authentication handshake, it fills  the <b>HTTP_REQUEST_AUTH_INFO</b> structure and passes it to the application with the request again. The handle to the access token that represents the client identity is provided in this structure by the HTTP Server API.
 
 Context Attributes
 
  The <b>ContextAttributes</b> member is provided for SSPI based schemes. For example, SSPI applications can determine whether <b>ASC_RET_MUTUAL_AUTH</b> is set for a mutually authenticated session.
 
-The HTTP Server API does not provide the expiration time for the context in the <b>PackedContext</b> member. Applications may require the expiration time  in specific  circumstances, for example, when NTLM credential caching is enabled and the application queries for the expiration time for a cached context. If the server application requires the expiration time for the underlying client context associated with the access token, it can receive the packed context and call <a href="https://msdn.microsoft.com/library/Aa379326(v=VS.85).aspx">QueryContextAttributes</a> with the  <b>SECPKG_ATTR_LIFESPAN</b>.
+The HTTP Server API does not provide the expiration time for the context in the <b>PackedContext</b> member. Applications may require the expiration time  in specific  circumstances, for example, when NTLM credential caching is enabled and the application queries for the expiration time for a cached context. If the server application requires the expiration time for the underlying client context associated with the access token, it can receive the packed context and call <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes</a> with the  <b>SECPKG_ATTR_LIFESPAN</b>.
 
 Mutual Authentication Data
 
 By default, the HTTP Server API ensures that the mutual authentication data is added to the final 200 response; in general, server applications are not responsible for sending the mutual authentication data.
 
-However, applications can receive the mutual authentication data and send it with the final response. When the <b>ReceiveMutualAuth</b> member of the <a href="https://msdn.microsoft.com/4f408115-c073-4e9f-b316-8ad3f03acf53">HTTP_SERVER_AUTHENTICATION_INFO</a> structure is set to true, applications receive the server credentials for mutual authentication along with the authenticated request.
+However, applications can receive the mutual authentication data and send it with the final response. When the <b>ReceiveMutualAuth</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_server_authentication_info">HTTP_SERVER_AUTHENTICATION_INFO</a> structure is set to true, applications receive the server credentials for mutual authentication along with the authenticated request.
 
 The mutual authentication data provided in the <b>pMutualAuthData</b> member contains the exact value of WWW-Authenticate header without the header name. For example, <b>pMutualAuthData</b> points to "Negotiate ade02938481eca". The application builds the WWW-Authenticate header by appending the provided <b>pMutualAuthData</b> as a response header value.
 
@@ -182,15 +182,15 @@ The mutual authentication data provided in the <b>pMutualAuthData</b> member con
 
 
 
-<a href="https://msdn.microsoft.com/5a8e28e9-f85b-4550-929e-53f38eca6a8c">HTTP Server API Version 2.0 Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-structures">HTTP Server API Version 2.0 Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/83c2a922-4ddb-4dc0-9ed6-d75d47b97d6a">HTTP_REQUEST_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_request_info">HTTP_REQUEST_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/02ac6f4f-ca54-42d5-9acb-5a1e81b2cb1c">HTTP_REQUEST_V2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_request_v2">HTTP_REQUEST_V2</a>
  
 
  

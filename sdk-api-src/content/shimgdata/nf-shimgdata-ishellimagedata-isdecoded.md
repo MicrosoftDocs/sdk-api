@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Determines whether the image has been decoded by calling <a href="https://msdn.microsoft.com/954424d6-cb90-46c1-a850-4e1113dfe2e4">IShellImageData::Decode</a>. Many operations return a failure code if the image is not first decoded.
+Determines whether the image has been decoded by calling <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-decode">IShellImageData::Decode</a>. Many operations return a failure code if the image is not first decoded.
 
 
 ## -parameters
@@ -80,7 +80,7 @@ Returns one of the following:
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/954424d6-cb90-46c1-a850-4e1113dfe2e4">IShellImageData::Decode</a> was called on the image and was successful.
+<a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-decode">IShellImageData::Decode</a> was called on the image and was successful.
 
 </td>
 </tr>

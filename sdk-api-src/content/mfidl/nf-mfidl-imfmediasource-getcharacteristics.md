@@ -63,7 +63,7 @@ Retrieves the characteristics of the media source.
 
 ### -param pdwCharacteristics [out]
 
-Receives a bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/115f4a6b-99c2-436e-9483-c44003e61a7d">MFMEDIASOURCE_CHARACTERISTICS</a> enumeration.
+Receives a bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-_mfmediasource_characteristics">MFMEDIASOURCE_CHARACTERISTICS</a> enumeration.
 
 
 ## -returns
@@ -95,7 +95,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The media source's <a href="https://msdn.microsoft.com/c7f890a8-74bd-4418-bb02-a3fee62dec6d">Shutdown</a> method has been called.
+The media source's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-shutdown">Shutdown</a> method has been called.
 
 </td>
 </tr>
@@ -109,7 +109,7 @@ The media source's <a href="https://msdn.microsoft.com/c7f890a8-74bd-4418-bb02-a
 
 
 
-The characteristics of a media source can change at any time. If this happens, the source sends an <a href="https://msdn.microsoft.com/df7bb9a3-5949-4a4a-8835-c5b1d01b5cb3">MESourceCharacteristicsChanged</a> event.
+The characteristics of a media source can change at any time. If this happens, the source sends an <a href="https://docs.microsoft.com/windows/desktop/medfound/mesourcecharacteristicschanged">MESourceCharacteristicsChanged</a> event.
 
 
 
@@ -119,7 +119,7 @@ The characteristics of a media source can change at any time. If this happens, t
 
 
 
-<a href="https://msdn.microsoft.com/8b579f61-6fea-4b20-a051-7633fc01fa05">IMFMediaSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a>
  
 
  

@@ -61,14 +61,14 @@ Provides the application and document-level interfaces and information required 
 
 Type: <b>LPOLEINPLACEFRAME*</b>
 
-The address of the <a href="https://msdn.microsoft.com/c530aff7-fd83-413d-8945-0c9d1bfb51ba">IOleInPlaceFrame</a> interface that represents the frame window of a rich edit control client. Use the <a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63">AddRef</a> method to increment the reference count. The rich edit control releases the interface when it is no longer needed. 
+The address of the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceframe">IOleInPlaceFrame</a> interface that represents the frame window of a rich edit control client. Use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method to increment the reference count. The rich edit control releases the interface when it is no longer needed. 
 
 
 ### -param lplpDoc
 
 Type: <b>LPOLEINPLACEUIWINDOW*</b>
 
-The address of the <a href="https://msdn.microsoft.com/3cfb31aa-9746-438c-af64-8236c170fe88">IOleInPlaceUIWindow</a> interface that represents the document window of the rich edit control client. An interface need not be returned if the frame and document windows are the same. Use the <a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63">AddRef</a>method to increment the reference count. The rich edit control releases the interface when it is no longer needed. 
+The address of the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceuiwindow">IOleInPlaceUIWindow</a> interface that represents the document window of the rich edit control client. An interface need not be returned if the frame and document windows are the same. Use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a>method to increment the reference count. The rich edit control releases the interface when it is no longer needed. 
 
 
 ### -param lpFrameInfo
@@ -82,7 +82,7 @@ The accelerator information.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns <b>S_OK</b> on success. If the method fails, it can return the following value.
 
@@ -113,7 +113,7 @@ There was an invalid argument.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774308(v=VS.85).aspx">IRichEditOleCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/nn-richole-iricheditolecallback">IRichEditOleCallback</a>
  
 
  

@@ -54,7 +54,7 @@ Exposes methods that initialize and stop a progress dialog.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IActionProgressDialog</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IActionProgressDialog</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IActionProgressDialog</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IActionProgressDialog</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IActionProgressDialog</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e82f4686-75c6-4f06-8468-937352fe33d3">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iactionprogressdialog-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Provides details about the action progress dialog.
@@ -78,7 +78,7 @@ Provides details about the action progress dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/700835c1-f6c0-40f9-8968-0924281dcfe0">Stop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iactionprogressdialog-stop">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops a progress dialog.
@@ -92,7 +92,7 @@ Stops a progress dialog.
 
 
 
-To instantiate an object that implements this interface, call <a href="https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a> using the class identifier (CLSID) CLSID_ProgressDialog.
+To instantiate an object that implements this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> using the class identifier (CLSID) CLSID_ProgressDialog.
 
 
 

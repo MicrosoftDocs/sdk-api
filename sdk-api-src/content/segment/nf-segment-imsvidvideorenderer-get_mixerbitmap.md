@@ -115,23 +115,23 @@ If the static bitmap image is set, the VMR alpha-blends the bitmap onto the vide
 
 
 
-<a href="https://msdn.microsoft.com/27eb53f8-ece8-43eb-8f94-b3d2d91548ad">IMSVidVideoRenderer Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694740(v=VS.85).aspx">IMSVidVideoRenderer::get_MixerBitmapOpacity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get_mixerbitmapopacity">IMSVidVideoRenderer::get_MixerBitmapOpacity</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694741(v=VS.85).aspx">IMSVidVideoRenderer::get_MixerBitmapPositionRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get_mixerbitmappositionrect">IMSVidVideoRenderer::get_MixerBitmapPositionRect</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694751(v=VS.85).aspx">IMSVidVideoRenderer::put_MixerBitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_mixerbitmap">IMSVidVideoRenderer::put_MixerBitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/e39cf7b0-7a88-41e9-bddc-cdd0cc381996">Mixing an Image Onto the Video Window in C++</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/mixing-an-image-onto-the-video-window-in-c-">Mixing an Image Onto the Video Window in C++</a>
  
 
  

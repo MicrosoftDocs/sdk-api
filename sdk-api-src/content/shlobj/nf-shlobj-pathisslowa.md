@@ -72,7 +72,7 @@ A pointer to a null-terminated string that contains the fully qualified path of 
 
 Type: <b>DWORD</b>
 
-The file attributes, if known; otherwise, pass –1 and this function gets the attributes by calling <a href="https://msdn.microsoft.com/9f9bcdbb-1ffd-49c2-92f4-181fdcc9c690">GetFileAttributes</a>. See <b>GetFileAttributes</b> for a list of file attributes.
+The file attributes, if known; otherwise, pass –1 and this function gets the attributes by calling <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>. See <b>GetFileAttributes</b> for a list of file attributes.
 
 
 ## -returns
@@ -90,7 +90,7 @@ Returns <b>TRUE</b> if the connection is high-latency; otherwise, <b>FALSE</b>.
 
 
 
-A path is considered slow if the MultinetGetConnectionPerformance function returns a dwSpeed of 400 or less in its <a href="https://msdn.microsoft.com/977c717d-7624-46ab-b17d-25f42ef68be8">NETCONNECTINFOSTRUCT</a> structure—this is the speed of the media to the network resource, in 100 bits-per-second (bps)—or if FILE_ATTRIBUTE_OFFLINE is set on the file.
+A path is considered slow if the MultinetGetConnectionPerformance function returns a dwSpeed of 400 or less in its <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-netconnectinfostruct">NETCONNECTINFOSTRUCT</a> structure—this is the speed of the media to the network resource, in 100 bits-per-second (bps)—or if FILE_ATTRIBUTE_OFFLINE is set on the file.
 
 Note that network conditions can impact function performance time.
 

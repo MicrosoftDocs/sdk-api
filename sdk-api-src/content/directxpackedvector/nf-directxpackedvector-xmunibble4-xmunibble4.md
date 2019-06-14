@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Default constructor for <code>XMUNIBBLE4</code>
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee420614(v=VS.85).aspx">XMUNIBBLE4</a>
+Default constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4">XMUNIBBLE4</a>
 
 <div class="alert"><b>Note</b>  This is only available for C++ based development.
     </div><div> </div>
@@ -82,11 +82,11 @@ Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee4206
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420614(v=VS.85).aspx">XMUNIBBLE4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4">XMUNIBBLE4</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415488(v=VS.85).aspx">XMUNIBBLE4 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmunibble4-ctor">XMUNIBBLE4 Constructors</a>
  
 
  

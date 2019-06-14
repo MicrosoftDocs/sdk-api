@@ -51,20 +51,20 @@ ms.custom: 19H1
 
 
 
-The <code>IDirectDrawMediaSample</code> interface provides access to DirectDraw surfaces allocated by the <a href="https://msdn.microsoft.com/e80938b7-31f0-467b-a3fa-c4511d14758d">Overlay Mixer</a> filter.
+The <code>IDirectDrawMediaSample</code> interface provides access to DirectDraw surfaces allocated by the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> filter.
 
 The allocator for the Overlay Mixer filter creates samples that expose this interface. These samples are used for connections between the Overlay Mixer and upstream decoder filters. Decoder filters can use this interface to unlock the DirectDraw surface while still holding it, so that other components can access the surface.
 
-Samples that support this interface also support the <a href="https://msdn.microsoft.com/en-us/library/Dd407001(v=VS.85).aspx">IMediaSample</a> interface.
+Samples that support this interface also support the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample</a> interface.
 
-The Overlay Mixer's allocator exposes the <a href="https://msdn.microsoft.com/en-us/library/Dd406802(v=VS.85).aspx">IDirectDrawMediaSampleAllocator</a>.
+The Overlay Mixer's allocator exposes the <a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-idirectdrawmediasampleallocator">IDirectDrawMediaSampleAllocator</a>.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectDrawMediaSample</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDirectDrawMediaSample</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectDrawMediaSample</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectDrawMediaSample</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -79,7 +79,7 @@ The <b>IDirectDrawMediaSample</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406804(v=VS.85).aspx">GetSurfaceAndReleaseLock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-idirectdrawmediasample-getsurfaceandreleaselock">GetSurfaceAndReleaseLock</a>
 </td>
 <td align="left" width="63%">
 Retrieves and unlocks the surface that the sample represents.
@@ -88,7 +88,7 @@ Retrieves and unlocks the surface that the sample represents.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406805(v=VS.85).aspx">LockMediaSamplePointer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-idirectdrawmediasample-lockmediasamplepointer">LockMediaSamplePointer</a>
 </td>
 <td align="left" width="63%">
 Locks the surface that the sample represents.

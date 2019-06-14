@@ -83,14 +83,14 @@ Pointer to a DWORD value which receives the unread message count.
 
 Type: <b>FILETIME*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure.  The use of this parameter is determined by whether <i>pszMailAddress</i> is <b>NULL</b>. If <i>pszMailAddress</i> is <b>NULL</b>, then this parameter is treated as an [in] parameter, which specifies a filter, so that only unread mail newer than the specified time appears. If <i>pszMailAddress</i> is not <b>NULL</b>, then this parameter is treated as an [out] parameter, which points to a <b>FILETIME</b> structure into which the function places the <b>timestamp</b> of the last <a href="https://msdn.microsoft.com/4a0e1ade-8df1-41b5-b6ea-dad427b50f5a">SHSetUnreadMailCount</a> call for the specified user and email account.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.  The use of this parameter is determined by whether <i>pszMailAddress</i> is <b>NULL</b>. If <i>pszMailAddress</i> is <b>NULL</b>, then this parameter is treated as an [in] parameter, which specifies a filter, so that only unread mail newer than the specified time appears. If <i>pszMailAddress</i> is not <b>NULL</b>, then this parameter is treated as an [out] parameter, which points to a <b>FILETIME</b> structure into which the function places the <b>timestamp</b> of the last <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shsetunreadmailcountw">SHSetUnreadMailCount</a> call for the specified user and email account.
 
 
 ### -param pszShellExecuteCommand [out, optional]
 
 Type: <b>LPCTSTR</b>
 
-A pointer to a string that returns the ShellExecute command statement passed into the last <a href="https://msdn.microsoft.com/4a0e1ade-8df1-41b5-b6ea-dad427b50f5a">SHSetUnreadMailCount</a> call for the specified user and email account. This command string starts the email application that owns the account referenced by <i>pszMailAddress</i>. If the ShellExecute command is not required, this parameter can be <b>NULL</b>. If <i>pszMailAddress</i> is <b>NULL</b>, this parameter is ignored and must be <b>NULL</b>.
+A pointer to a string that returns the ShellExecute command statement passed into the last <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shsetunreadmailcountw">SHSetUnreadMailCount</a> call for the specified user and email account. This command string starts the email application that owns the account referenced by <i>pszMailAddress</i>. If the ShellExecute command is not required, this parameter can be <b>NULL</b>. If <i>pszMailAddress</i> is <b>NULL</b>, this parameter is ignored and must be <b>NULL</b>.
 
 
 ### -param cchShellExecuteCommand

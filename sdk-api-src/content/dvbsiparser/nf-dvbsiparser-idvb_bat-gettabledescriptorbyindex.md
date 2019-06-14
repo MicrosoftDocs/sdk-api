@@ -65,12 +65,12 @@ The <b>GetTableDescriptorByIndex</b> method retrieves a table-wide descriptor fo
 
 ### -param dwIndex [in]
 
-Specifies which descriptor to retrieve, indexed from zero. Call the <a href="https://msdn.microsoft.com/8f373cbe-9d07-41c2-83a5-c25bc66f6263">IDVB_BAT::GetCountOfTableDescriptors</a> method to get the number of table descriptors in the BAT.
+Specifies which descriptor to retrieve, indexed from zero. Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_bat-getcountoftabledescriptors">IDVB_BAT::GetCountOfTableDescriptors</a> method to get the number of table descriptors in the BAT.
 
 
 ### -param ppDescriptor [in]
 
-Address of a variable that receives an <a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor</a> interface pointer. Use this interface to retrieve the information in the descriptor. The caller must release the interface.
+Address of a variable that receives an <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-igenericdescriptor">IGenericDescriptor</a> interface pointer. Use this interface to retrieve the information in the descriptor. The caller must release the interface.
 
 
 ## -returns
@@ -128,7 +128,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/c312a152-21ee-4708-90a8-ab9bde9a2011">IDVB_BAT Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_bat">IDVB_BAT Interface</a>
  
 
  

@@ -65,7 +65,7 @@ The <b>SetPriorityRecords</b> method assigns the members of an array as the stre
 
 ### -param pRecordArray [in]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd757994(v=VS.85).aspx">WM_STREAM_PRIORITY_RECORD</a> structures.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmstreamprioritizationrecord">WM_STREAM_PRIORITY_RECORD</a> structures.
 
 
 ### -param cRecords [in]
@@ -145,15 +145,15 @@ This method does not verify that the streams specified are valid for the profile
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798573(v=VS.85).aspx">IWMStreamPrioritization Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamprioritization">IWMStreamPrioritization Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798574(v=VS.85).aspx">IWMStreamPrioritization::GetPriorityRecords</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamprioritization-getpriorityrecords">IWMStreamPrioritization::GetPriorityRecords</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757994(v=VS.85).aspx">WM_STREAM_PRIORITY_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmstreamprioritizationrecord">WM_STREAM_PRIORITY_RECORD</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a> object using two integers to initialize the 
+Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> object using two integers to initialize the 
 			<b>X</b> and 
 			<b>Y</b> data members.
 
@@ -64,14 +64,14 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).as
 
 Type: <b>INT</b>
 
-Integer that specifies the x-coordinate of the <a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a> object. 
+Integer that specifies the x-coordinate of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> object. 
 
 
 ### -param y [in]
 
 Type: <b>INT</b>
 
-Integer that specifies the y-coordinate of the <a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a> object. 
+Integer that specifies the y-coordinate of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> object. 
 
 
 ## -see-also
@@ -79,15 +79,15 @@ Integer that specifies the y-coordinate of the <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535005(v=VS.85).aspx">Point Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-class-point-constructors">Point Constructors</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
  
 
  

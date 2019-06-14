@@ -64,13 +64,13 @@ The
 
 ### -param TraceHandle [in]
 
-Handle to the event tracing session that records the event. The provider obtains the handle when it calls the <a href="https://msdn.microsoft.com/050d3a01-0087-40f1-af35-b9ceeaf47813">GetTraceLoggerHandle</a> function in its <a href="https://msdn.microsoft.com/e9f70ae6-906f-4e55-bca7-4355f1ca6091">ControlCallback</a> implementation.
+Handle to the event tracing session that records the event. The provider obtains the handle when it calls the <a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceloggerhandle">GetTraceLoggerHandle</a> function in its <a href="https://docs.microsoft.com/windows/desktop/ETW/controlcallback">ControlCallback</a> implementation.
 
 
 ### -param EventTrace [in]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/33c2de6b-afc2-4323-8d81-2970e66edf5e">EVENT_TRACE_HEADER</a> structure. Event-specific data is optionally appended to the structure. The largest event you can log is 64K. You must specify values for the following members of the 
+<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-header">EVENT_TRACE_HEADER</a> structure. Event-specific data is optionally appended to the structure. The largest event you can log is 64K. You must specify values for the following members of the 
 <b>EVENT_TRACE_HEADER</b> structure. 
 
 
@@ -94,7 +94,7 @@ Depending on the complexity of the information your provider provides, you shoul
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is one of the 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>. The following table includes some common errors and their causes.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some common errors and their causes.
 
 <table>
 <tr>
@@ -109,7 +109,7 @@ If the function fails, the return value is one of the
 </td>
 <td width="60%">
 The <b>Flags</b> member of the 
-<a href="https://msdn.microsoft.com/33c2de6b-afc2-4323-8d81-2970e66edf5e">EVENT_TRACE_HEADER</a> structure is incorrect.
+<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-header">EVENT_TRACE_HEADER</a> structure is incorrect.
 
 </td>
 </tr>
@@ -131,7 +131,7 @@ The <b>Flags</b> member of the
 </dl>
 </td>
 <td width="60%">
-The session ran out of free buffers to write to. This can occur during high event rates because the disk subsystem is overloaded or the number of buffers is too small. Rather than blocking until more buffers become available, <a href="https://msdn.microsoft.com/9b21f6f0-dd9b-4f9c-a879-846901a3bab7">TraceEvent</a> discards the event. 
+The session ran out of free buffers to write to. This can occur during high event rates because the disk subsystem is overloaded or the number of buffers is too small. Rather than blocking until more buffers become available, <a href="https://docs.microsoft.com/windows/desktop/ETW/traceevent">TraceEvent</a> discards the event. 
 
 Consider increasing the number and size of the buffers for the session, or reducing the number of events written or the size of the events.
 
@@ -163,7 +163,7 @@ One of the following is true:
 <li><i>SessionHandle</i> is <b>NULL</b>.</li>
 <li><i>EventTrace</i> is <b>NULL</b>.</li>
 <li>The <b>Size</b> member of the 
-<a href="https://msdn.microsoft.com/33c2de6b-afc2-4323-8d81-2970e66edf5e">EVENT_TRACE_HEADER</a> structure is incorrect.</li>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-header">EVENT_TRACE_HEADER</a> structure is incorrect.</li>
 </ul>
 </td>
 </tr>
@@ -175,7 +175,7 @@ One of the following is true:
 </td>
 <td width="60%">
 Data from a single event cannot span multiple buffers. A trace event is limited to the size of the event tracing session's buffer minus the size of the  
-<a href="https://msdn.microsoft.com/33c2de6b-afc2-4323-8d81-2970e66edf5e">EVENT_TRACE_HEADER</a> structure. 
+<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-header">EVENT_TRACE_HEADER</a> structure. 
 
 </td>
 </tr>
@@ -195,27 +195,27 @@ Before the provider can call this function, the  provider
 
 <ul>
 <li>Must call the 
-<a href="https://msdn.microsoft.com/c9158292-281b-4a02-b280-956e340d225c">RegisterTraceGuids</a> function to register itself and the event trace class.</li>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a> function to register itself and the event trace class.</li>
 <li>Must be enabled. A controller calls the 
-<a href="https://msdn.microsoft.com/d75f18e1-e5fa-4039-bb74-76dea334b0fd">EnableTrace</a> function to enable a provider.</li>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/enabletrace">EnableTrace</a> function to enable a provider.</li>
 </ul>
 The event is either written to a log file, sent to event trace consumers in real time, or both. The <b>LogFileMode</b> member of the 
-<a href="https://msdn.microsoft.com/0c967971-8df1-4679-a8a9-a783f5b35860">EVENT_TRACE_PROPERTIES</a> structure passed to the 
-<a href="https://msdn.microsoft.com/c040514a-733d-44b9-8300-a8341d2630b3">StartTrace</a> defines where the event is sent.
+<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure passed to the 
+<a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a> defines where the event is sent.
 
 The trace events are written in the order in which they occur. 
 
 To trace a set of related events, use the 
-<a href="https://msdn.microsoft.com/e8361bdc-21dd-47a0-bdbf-56f4d6195689">TraceEventInstance</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/ETW/traceeventinstance">TraceEventInstance</a> function.
 
- On Windows Vista, you should use the <a href="https://msdn.microsoft.com/93070eb7-c167-4419-abff-e861877dad07">EventWrite</a> function to log events.
+ On Windows Vista, you should use the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwrite">EventWrite</a> function to log events.
 
 
 #### Examples
 
 For an example that uses 
 <b>TraceEvent</b>, see 
-<a href="https://msdn.microsoft.com/21f62b5d-0a2d-468c-af88-2fab1512f0ec">Tracing Events</a>.
+<a href="https://docs.microsoft.com/windows/desktop/ETW/tracing-events">Tracing Events</a>.
 
 <div class="code"></div>
 
@@ -226,19 +226,19 @@ For an example that uses
 
 
 
-<a href="https://msdn.microsoft.com/33c2de6b-afc2-4323-8d81-2970e66edf5e">EVENT_TRACE_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-header">EVENT_TRACE_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/d75f18e1-e5fa-4039-bb74-76dea334b0fd">EnableTrace</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/enabletrace">EnableTrace</a>
 
 
 
-<a href="https://msdn.microsoft.com/c9158292-281b-4a02-b280-956e340d225c">RegisterTraceGuids</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8361bdc-21dd-47a0-bdbf-56f4d6195689">TraceEventInstance</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/traceeventinstance">TraceEventInstance</a>
  
 
  

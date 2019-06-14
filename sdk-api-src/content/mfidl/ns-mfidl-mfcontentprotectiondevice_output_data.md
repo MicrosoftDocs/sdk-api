@@ -59,7 +59,7 @@ Contains information about the data you received as output from a protection sys
 
 ### -field PrivateDataByteCount
 
-The size of the private data that the implementation of the security processor reserves, in bytes. You can determine this value  by calling the <a href="https://msdn.microsoft.com/24FBA7E0-1496-4921-91C7-69E9AF830586">IMFContentProtectionDevice::GetPrivateDataByteCount</a> method.
+The size of the private data that the implementation of the security processor reserves, in bytes. You can determine this value  by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectiondevice-getprivatedatabytecount">IMFContentProtectionDevice::GetPrivateDataByteCount</a> method.
 
 
 ### -field MaxHWProtectionDataByteCount
@@ -105,19 +105,19 @@ The protection system specification defines the format and size of the
 
 
 
-<a href="https://msdn.microsoft.com/24FBA7E0-1496-4921-91C7-69E9AF830586">IMFContentProtectionDevice::GetPrivateDataByteCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectiondevice-getprivatedatabytecount">IMFContentProtectionDevice::GetPrivateDataByteCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/1BEC7122-1DFB-49D7-BE60-7CE9D83A64F5">IMFContentProtectionDevice::InvokeFunction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectiondevice-invokefunction">IMFContentProtectionDevice::InvokeFunction</a>
 
 
 
-<a href="https://msdn.microsoft.com/8D27592C-56EA-4E69-A1DC-2FAD56193CE2">MFCONTENTPROTECTIONDEVICE_INPUT_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-_mfcontentprotectiondevice_input_data">MFCONTENTPROTECTIONDEVICE_INPUT_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/39fdd724-13ca-48ab-8a55-93529d1da3b4">Media Foundation Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
  
 
  

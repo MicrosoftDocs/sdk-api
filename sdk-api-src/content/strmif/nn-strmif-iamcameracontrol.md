@@ -58,7 +58,7 @@ The <b>IAMCameraControl</b> interface controls camera settings such as zoom, pan
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMCameraControl</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAMCameraControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMCameraControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMCameraControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IAMCameraControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5a21f207-5fbb-44b2-82d2-89be29dbdf2c">Get</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamcameracontrol-get">Get</a>
 </td>
 <td align="left" width="63%">
 Gets the current setting of a camera property.
@@ -82,7 +82,7 @@ Gets the current setting of a camera property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f09090ea-d916-47cd-8621-e8c2bb46aeca">GetRange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamcameracontrol-getrange">GetRange</a>
 </td>
 <td align="left" width="63%">
 Gets the range and default value of a specified camera property.
@@ -91,7 +91,7 @@ Gets the range and default value of a specified camera property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d896fb5e-a43b-4cb8-a5d1-4ce6e60831be">Set</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamcameracontrol-set">Set</a>
 </td>
 <td align="left" width="63%">
 Sets a specified property on the camera.
@@ -105,7 +105,7 @@ Sets a specified property on the camera.
 
 
 
-For Windows Driver Model (WDM) devices, the <a href="https://msdn.microsoft.com/97432b99-e89b-4d69-963d-a959f887e580">WDM Video Capture Filter</a> automatically exposes this interface if the WDM driver supports the <a href="https://msdn.microsoft.com/8899a474-fa6f-4d5c-bd68-2433428bb5c5">PROPSETID_VIDCAP_CAMERACONTROL</a> property set. For more information, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=181442">Windows Driver Kit (WDK)</a> documentation.
+For Windows Driver Model (WDM) devices, the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/wdm-video-capture-filter">WDM Video Capture Filter</a> automatically exposes this interface if the WDM driver supports the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-vidcap-cameracontrol">PROPSETID_VIDCAP_CAMERACONTROL</a> property set. For more information, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=181442">Windows Driver Kit (WDK)</a> documentation.
 
 
 
@@ -115,7 +115,7 @@ For Windows Driver Model (WDM) devices, the <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/f789db78-292e-4092-a5dc-1906845fb1dd">Configure the Video Quality</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/configure-the-video-quality">Configure the Video Quality</a>
  
 
  

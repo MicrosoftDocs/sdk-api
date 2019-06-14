@@ -68,7 +68,7 @@ The address used to create the heap.
 
 Type: <b>REFIID</b>
 
-The globally unique identifier (<b>GUID</b>) for the heap interface (<a href="https://msdn.microsoft.com/3791C64F-76D7-4580-A444-F2CEA3EB10CE">ID3D12Heap</a>).
+The globally unique identifier (<b>GUID</b>) for the heap interface (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12heap">ID3D12Heap</a>).
 
 The <b>REFIID</b>, or <b>GUID</b>, of the interface to the heap can be obtained by using the <b>__uuidof()</b> macro. For example, <b>__uuidof(ID3D12Heap)</b> will retrieve the <b>GUID</b> of the interface to a heap.
 
@@ -77,9 +77,9 @@ The <b>REFIID</b>, or <b>GUID</b>, of the interface to the heap can be obtained 
 
 Type: <b>void**</b>
 
-<a href="https://msdn.microsoft.com/en-us/library/hh916382.aspx">SAL</a>: <code>_COM_Outptr_</code>
+<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_COM_Outptr_</code>
 
-A pointer to a memory block; on success, returns a pointer to the <a href="https://msdn.microsoft.com/3791C64F-76D7-4580-A444-F2CEA3EB10CE">ID3D12Heap</a> interface for the pipeline state object.
+A pointer to a memory block; on success, returns a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12heap">ID3D12Heap</a> interface for the pipeline state object.
 
 The pipeline state object is an immutable state object. It contains no methods.
 
@@ -88,9 +88,9 @@ The pipeline state object is an immutable state object. It contains no methods.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-This method returns <b>E_OUTOFMEMORY</b> if there is insufficient memory to create the pipeline state object. See <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a> for other possible return values.
+This method returns <b>E_OUTOFMEMORY</b> if there is insufficient memory to create the pipeline state object. See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a> for other possible return values.
 
 
 
@@ -111,7 +111,7 @@ Heaps can be used for placed and reserved resources, as orthogonally as other he
 
 
 
-<a href="https://msdn.microsoft.com/038E546C-4000-401A-8A11-7A83F391676E">Id3d12device3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device3">Id3d12device3</a>
  
 
  

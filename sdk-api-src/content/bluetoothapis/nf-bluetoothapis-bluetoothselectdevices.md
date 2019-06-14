@@ -61,7 +61,7 @@ The
 ### -param pbtsdp
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362931(v=VS.85).aspx">BLUETOOTH_SELECT_DEVICE_PARAMS</a> structure that identifies Bluetooth devices.
+<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluetoothapis-_bluetooth_select_device_params">BLUETOOTH_SELECT_DEVICE_PARAMS</a> structure that identifies Bluetooth devices.
 
 
 ## -returns
@@ -70,7 +70,7 @@ A pointer to a
 
 Returns <b>TRUE</b> if a user selected a device.
 
-Returns <b>FALSE</b> if no valid data was returned. Call the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function to retrieve error information. The following conditions apply to returned error information.
+Returns <b>FALSE</b> if no valid data was returned. Call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to retrieve error information. The following conditions apply to returned error information.
 
 <table>
 <tr>
@@ -124,7 +124,7 @@ The <b>BluetoothSelectDevices</b> function opens a common dialog box for selecti
 
 If 
 <b>BluetoothSelectDevices</b> returns <b>TRUE</b>, the <b>pDevices</b> member of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362931(v=VS.85).aspx">BLUETOOTH_SELECT_DEVICE_PARAMS</a> structure points to valid data. The caller should verify that  the <b>fAuthenticated</b> and <b>fRemembered</b> flags in the 
+<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluetoothapis-_bluetooth_select_device_params">BLUETOOTH_SELECT_DEVICE_PARAMS</a> structure points to valid data. The caller should verify that  the <b>fAuthenticated</b> and <b>fRemembered</b> flags in the 
 <b>BLUETOOTH_SELECT_DEVICE_PARAMS</b> structure to determine which devices were successfully authenticated, and which devices are valid selections for the user. Call the 
 <b>BluetoothSelectDevicesFree</b> function to free resources only if the 
 <b>BluetoothSelectDevices</b> function returns <b>TRUE</b>.
@@ -137,11 +137,11 @@ If
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362931(v=VS.85).aspx">BLUETOOTH_SELECT_DEVICE_PARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluetoothapis-_bluetooth_select_device_params">BLUETOOTH_SELECT_DEVICE_PARAMS</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a2bf4dc-43c3-49c0-8ce0-d14ab9f4ae97">PFN_DEVICE_CALLBACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nc-bluetoothapis-pfn_device_callback">PFN_DEVICE_CALLBACK</a>
  
 
  

@@ -57,7 +57,7 @@ To get a pointer to this interface, call <b>QueryInterface</b> on the media sink
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFFinalizableMediaSink</b> interface inherits from <a href="https://msdn.microsoft.com/103e6fd8-a18f-480a-8261-099623014659">IMFMediaSink</a>. <b>IMFFinalizableMediaSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFFinalizableMediaSink</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasink">IMFMediaSink</a>. <b>IMFFinalizableMediaSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMFFinalizableMediaSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fbcb7722-ba64-40a6-9c43-26a6b8dce7f6">BeginFinalize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imffinalizablemediasink-beginfinalize">BeginFinalize</a>
 </td>
 <td align="left" width="63%">
 Notifies the media sink to complete its final tasks.
@@ -81,10 +81,10 @@ Notifies the media sink to complete its final tasks.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1b2a9b24-69da-41c7-8379-3f3d066d2582">EndFinalize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imffinalizablemediasink-endfinalize">EndFinalize</a>
 </td>
 <td align="left" width="63%">
-Called when the asynchronous callback given to <a href="https://msdn.microsoft.com/fbcb7722-ba64-40a6-9c43-26a6b8dce7f6">BeginFinalize</a> is invoked.
+Called when the asynchronous callback given to <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imffinalizablemediasink-beginfinalize">BeginFinalize</a> is invoked.
 
 </td>
 </tr>
@@ -95,7 +95,7 @@ Called when the asynchronous callback given to <a href="https://msdn.microsoft.c
 
 
 
-If a media sink exposes this interface, the Media Session will call <a href="https://msdn.microsoft.com/fbcb7722-ba64-40a6-9c43-26a6b8dce7f6">BeginFinalize</a> on the sink before the session closes.
+If a media sink exposes this interface, the Media Session will call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imffinalizablemediasink-beginfinalize">BeginFinalize</a> on the sink before the session closes.
 
 
 
@@ -105,11 +105,11 @@ If a media sink exposes this interface, the Media Session will call <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/103e6fd8-a18f-480a-8261-099623014659">IMFMediaSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasink">IMFMediaSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

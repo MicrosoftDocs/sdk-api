@@ -129,7 +129,7 @@ A global ID is a string that uniquely identifies a part among all parts in all d
 
 
 
-<a href="https://msdn.microsoft.com/6eb5b439-3ac7-4c0b-84e2-b246c1b946a5">IConnector Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iconnector">IConnector Interface</a>
  
 
  

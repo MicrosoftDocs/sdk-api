@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-This interface performs all the same functions as the <a href="https://msdn.microsoft.com/25c11cfc-75af-20a1-8f54-6b370942b841">ID2D1DeviceContext2</a> interface, plus it enables functionality for creating and drawing sprite batches.
+This interface performs all the same functions as the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext2">ID2D1DeviceContext2</a> interface, plus it enables functionality for creating and drawing sprite batches.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1DeviceContext3</b> interface inherits from <a href="https://msdn.microsoft.com/25c11cfc-75af-20a1-8f54-6b370942b841">ID2D1DeviceContext2</a>. <b>ID2D1DeviceContext3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1DeviceContext3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext2">ID2D1DeviceContext2</a>. <b>ID2D1DeviceContext3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,17 +69,17 @@ The <b>ID2D1DeviceContext3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C9CCDF6B-BAEC-4C37-B3C1-60D50BACF973">CreateSpriteBatch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext3-createspritebatch">CreateSpriteBatch</a>
 </td>
 <td align="left" width="63%">
-Creates a new, empty sprite batch. After creating a sprite batch, use <a href="https://msdn.microsoft.com/49EA1F42-76C3-4505-B46A-422A336A13F6">ID2D1SpriteBatch::AddSprites</a> 
-        to add sprites to it, then use <a href="https://msdn.microsoft.com/en-us/library/Mt619830(v=VS.85).aspx">ID2D1DeviceContext3::DrawSpriteBatch</a> to draw it.
+Creates a new, empty sprite batch. After creating a sprite batch, use <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1spritebatch-addsprites">ID2D1SpriteBatch::AddSprites</a> 
+        to add sprites to it, then use <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-drawspritebatch">ID2D1DeviceContext3::DrawSpriteBatch</a> to draw it.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt619830(v=VS.85).aspx">DrawSpriteBatch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-drawspritebatch">DrawSpriteBatch</a>
 </td>
 <td align="left" width="63%">Overloaded. Renders part or all of the given sprite batch to the device context using the specified drawing options.
 
@@ -93,7 +93,7 @@ Creates a new, empty sprite batch. After creating a sprite batch, use <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/25c11cfc-75af-20a1-8f54-6b370942b841">ID2D1DeviceContext2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext2">ID2D1DeviceContext2</a>
  
 
  

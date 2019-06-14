@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Frees a block of memory that was allocated by calling the <a href="https://msdn.microsoft.com/3ad97cbf-4065-4807-ad6a-68e84a3601d4">MFHeapAlloc</a> function.
+Frees a block of memory that was allocated by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfheapalloc">MFHeapAlloc</a> function.
 
 
 
@@ -79,7 +79,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

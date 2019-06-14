@@ -83,7 +83,7 @@ Returns NO_ERROR upon success. Any other return value indicates an error.
 
 The 
 <b>InitHelperDll</b> function is the only function NetShell helpers are required to export. Helpers typically call the 
-<a href="https://msdn.microsoft.com/9c9ac64a-6edd-4348-80c7-4192726e5108">RegisterHelper</a> function from within the 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-registerhelper">RegisterHelper</a> function from within the 
 <b>InitHelperDll</b> function, as shown in the following example:
 
 <pre class="syntax" xml:space="preserve"><code>DWORD
@@ -110,11 +110,11 @@ InitHelperDll(
 
 
 
-<a href="https://msdn.microsoft.com/b2a3ae40-4aaa-41b2-965c-1467a07ab2de">NS_HELPER_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/ns-netsh-_ns_helper_attributes">NS_HELPER_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/9c9ac64a-6edd-4348-80c7-4192726e5108">RegisterHelper</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-registerhelper">RegisterHelper</a>
  
 
  

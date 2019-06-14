@@ -106,7 +106,7 @@ This value is not used by a programmer; it exists to force the enumeration to co
 
 
 
-A call to the  <a href="https://msdn.microsoft.com/a384e172-763f-4f4c-b6fb-f657fa31e5ee">ID3D11ShaderReflectionVariable::GetDesc</a> method returns <b>D3D_SHADER_VARIABLE_FLAGS</b> values in the  <b>uFlags</b> member of a  <a href="https://msdn.microsoft.com/b5620fea-c7d1-4db1-9bd1-991a2efa3b4c">D3D11_SHADER_VARIABLE_DESC</a> structure.
+A call to the  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectionvariable-getdesc">ID3D11ShaderReflectionVariable::GetDesc</a> method returns <b>D3D_SHADER_VARIABLE_FLAGS</b> values in the  <b>uFlags</b> member of a  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-_d3d11_shader_variable_desc">D3D11_SHADER_VARIABLE_DESC</a> structure.
 
 
 
@@ -116,7 +116,7 @@ A call to the  <a href="https://msdn.microsoft.com/a384e172-763f-4f4c-b6fb-f657f
 
 
 
-<a href="https://msdn.microsoft.com/002154d5-74a6-48fb-b55f-8687e4505fc7">Common Version Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-common-enumerations">Common Version Enumerations</a>
  
 
  

@@ -60,21 +60,21 @@ Sets the state value for the currently assigned texture.
 
 ### -param Stage [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Stage identifier of the texture for which the state value is set. Stage identifiers are zero-based. Devices can have up to eight set textures, so the maximum value allowed for Stage is 7. 
 
 
 ### -param Type [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172617(v=VS.85).aspx">D3DTEXTURESTAGESTATETYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dtexturestagestatetype">D3DTEXTURESTAGESTATETYPE</a></b>
 
-Texture state to set. This parameter can be any member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172617(v=VS.85).aspx">D3DTEXTURESTAGESTATETYPE</a> enumerated type. 
+Texture state to set. This parameter can be any member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dtexturestagestatetype">D3DTEXTURESTAGESTATETYPE</a> enumerated type. 
 
 
 ### -param Value [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 State value to set. The meaning of this value is determined by the Type parameter. 
 
@@ -83,7 +83,7 @@ State value to set. The meaning of this value is determined by the Type paramete
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 
@@ -95,19 +95,19 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174412(v=VS.85).aspx">IDirect3DDevice9::GetTexture</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-gettexture">IDirect3DDevice9::GetTexture</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174413(v=VS.85).aspx">IDirect3DDevice9::GetTextureStageState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-gettexturestagestate">IDirect3DDevice9::GetTextureStageState</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174461(v=VS.85).aspx">IDirect3DDevice9::SetTexture</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settexture">IDirect3DDevice9::SetTexture</a>
  
 
  

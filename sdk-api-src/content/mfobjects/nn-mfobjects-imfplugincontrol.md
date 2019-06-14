@@ -51,12 +51,12 @@ ms.custom: 19H1
 
 Controls how media sources and transforms are enumerated in Microsoft Media Foundation.
 
-To get a pointer to this interface, call <a href="https://msdn.microsoft.com/68b25c68-806d-46c3-98f8-8f29d7c21471">MFGetPluginControl</a>.
+To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfgetplugincontrol">MFGetPluginControl</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFPluginControl</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFPluginControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFPluginControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFPluginControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IMFPluginControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fae7ca09-3e37-444b-a4bc-bfd522917e3f">GetDisabledByIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfplugincontrol-getdisabledbyindex">GetDisabledByIndex</a>
 </td>
 <td align="left" width="63%">
 Gets a class identifier (CLSID) from the blocked list.
@@ -80,7 +80,7 @@ Gets a class identifier (CLSID) from the blocked list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c78843ed-b666-4b81-a7ed-66e514d0d342">GetPreferredClsid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfplugincontrol-getpreferredclsid">GetPreferredClsid</a>
 </td>
 <td align="left" width="63%">
 Searches the preferred list for a CLSID that matches a specified key name.
@@ -89,7 +89,7 @@ Searches the preferred list for a CLSID that matches a specified key name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d99511ec-ac22-4166-b944-b0136ffcf01a">GetPreferredClsidByIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfplugincontrol-getpreferredclsidbyindex">GetPreferredClsidByIndex</a>
 </td>
 <td align="left" width="63%">
 Gets a CLSID from the preferred list, specified by index value.
@@ -98,7 +98,7 @@ Gets a CLSID from the preferred list, specified by index value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/75f4f3a2-198d-41c0-b0fa-4a1fbefad7b6">IsDisabled</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfplugincontrol-isdisabled">IsDisabled</a>
 </td>
 <td align="left" width="63%">
 Queries whether a CLSID appears in the blocked list.
@@ -107,7 +107,7 @@ Queries whether a CLSID appears in the blocked list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ff50e746-42f5-4fbe-a904-f83b3c691d32">SetDisabled</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfplugincontrol-setdisabled">SetDisabled</a>
 </td>
 <td align="left" width="63%">
 Adds a CLSID to the blocked list or removes a CLSID from the list.
@@ -116,7 +116,7 @@ Adds a CLSID to the blocked list or removes a CLSID from the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c2362150-bb99-43d4-a6e6-7dc240e9826e">SetPreferredClsid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfplugincontrol-setpreferredclsid">SetPreferredClsid</a>
 </td>
 <td align="left" width="63%">
 Adds a CLSID to the preferred list or removes a CLSID from the list.
@@ -133,10 +133,10 @@ Adds a CLSID to the preferred list or removes a CLSID from the list.
 Media Foundation provides a set of built-in media sources and decoders. Applications can enumerate them as follows: 
 
 <ul>
-<li>Media sources are enumerated through the <a href="https://msdn.microsoft.com/93eecf10-308b-4bb4-92f9-fd32d6ecdb04">Source Resolver</a>.</li>
-<li>Transforms, such as decoders, are enumerated through the <a href="https://msdn.microsoft.com/a3bd2b3c-0b0b-4d64-99cc-6093c773f71c">MFTEnum</a> and <a href="https://msdn.microsoft.com/e065ae51-85dd-48ef-9322-de4ade62c0fe">MFTEnumEx</a> functions.</li>
+<li>Media sources are enumerated through the <a href="https://docs.microsoft.com/windows/desktop/medfound/source-resolver">Source Resolver</a>.</li>
+<li>Transforms, such as decoders, are enumerated through the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftenum">MFTEnum</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftenumex">MFTEnumEx</a> functions.</li>
 </ul>
-Applications might also enumerate these objects indirectly. For example, if an application   uses the topology loader to resolve a partial topology, the topology loader calls <a href="https://msdn.microsoft.com/e065ae51-85dd-48ef-9322-de4ade62c0fe">MFTEnumEx</a> to find the required decoders.
+Applications might also enumerate these objects indirectly. For example, if an application   uses the topology loader to resolve a partial topology, the topology loader calls <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftenumex">MFTEnumEx</a> to find the required decoders.
 
 Third parties can implement their own custom media sources and decoders, and register them for enumeration so that other applications can use them.
 
@@ -148,7 +148,7 @@ The preferred list contains a set of key/value pairs, where the keys are strings
 
 <ul>
 <li>For media sources, the key name is a file name extension, protocol scheme, or MIME type. The value is the CLSID of a scheme handler or byte-stream handler for that media source.</li>
-<li>For decoders, the key name is a media subtype GUID in canonical string form. (For more information about media subtypes, see <a href="https://msdn.microsoft.com/690fda6e-dcbd-44dc-968d-cc949126da81">Media Types</a>.) The value is the CLSID of the Media Foundation transform (MFT) that implements the decoder. </li>
+<li>For decoders, the key name is a media subtype GUID in canonical string form. (For more information about media subtypes, see <a href="https://docs.microsoft.com/windows/desktop/medfound/media-types">Media Types</a>.) The value is the CLSID of the Media Foundation transform (MFT) that implements the decoder. </li>
 </ul>
 The following examples show the various types of key:
 
@@ -158,9 +158,9 @@ The following examples show the various types of key:
 <li>MIME type: "video/mp4"</li>
 <li>Media subtype: "{47504A4D-0000-0010-8000-00AA00389B71}"</li>
 </ul>
-To search the preferred list by key name, call the <a href="https://msdn.microsoft.com/c78843ed-b666-4b81-a7ed-66e514d0d342">IMFPluginControl::GetPreferredClsid</a> method. To enumerate the entire list, call the <a href="https://msdn.microsoft.com/d99511ec-ac22-4166-b944-b0136ffcf01a">IMFPluginControl::GetPreferredClsidByIndex</a> method in a loop.
+To search the preferred list by key name, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfplugincontrol-getpreferredclsid">IMFPluginControl::GetPreferredClsid</a> method. To enumerate the entire list, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfplugincontrol-getpreferredclsidbyindex">IMFPluginControl::GetPreferredClsidByIndex</a> method in a loop.
 
-The blocked list contains a list of CLSIDs. To enumerate the entire list, call the <a href="https://msdn.microsoft.com/fae7ca09-3e37-444b-a4bc-bfd522917e3f">IMFPluginControl::GetDisabledByIndex</a> method in a loop. To check whether a specific CLSID appears on the list, call the <a href="https://msdn.microsoft.com/75f4f3a2-198d-41c0-b0fa-4a1fbefad7b6">IMFPluginControl::IsDisabled</a> method.
+The blocked list contains a list of CLSIDs. To enumerate the entire list, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfplugincontrol-getdisabledbyindex">IMFPluginControl::GetDisabledByIndex</a> method in a loop. To check whether a specific CLSID appears on the list, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfplugincontrol-isdisabled">IMFPluginControl::IsDisabled</a> method.
 
 
 
@@ -170,11 +170,11 @@ The blocked list contains a list of CLSIDs. To enumerate the entire list, call t
 
 
 
-<a href="https://msdn.microsoft.com/68b25c68-806d-46c3-98f8-8f29d7c21471">MFGetPluginControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfgetplugincontrol">MFGetPluginControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

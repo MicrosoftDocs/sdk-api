@@ -80,11 +80,11 @@ Filter radius.
 
 
 
-<a href="https://msdn.microsoft.com/6929fa8b-3cab-4d4e-ab2a-a3059b00905f">DXVA2_VideoProcessBltParams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_videoprocessbltparams">DXVA2_VideoProcessBltParams</a>
 
 
 
-<a href="https://msdn.microsoft.com/39fdd724-13ca-48ab-8a55-93529d1da3b4">Media Foundation Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
  
 
  

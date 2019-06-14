@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 Identifies the credentials to use for the authentication scheme specified in the 
-<a href="https://msdn.microsoft.com/f89ebf46-da83-495c-bafe-b2e0f72f5d8e">BG_AUTH_CREDENTIALS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ns-bits1_5-__midl_ibackgroundcopyjob2_0005">BG_AUTH_CREDENTIALS</a> structure.
 
 
 ## -struct-fields
@@ -60,7 +60,7 @@ Identifies the credentials to use for the authentication scheme specified in the
 ### -field Basic
 
 Identifies the user name and password of the user to authenticate. For details, see the 
-<a href="https://msdn.microsoft.com/e078e464-37b7-45ce-add8-6472a4607ff3">BG_BASIC_CREDENTIALS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ns-bits1_5-__midl_ibackgroundcopyjob2_0003">BG_BASIC_CREDENTIALS</a> structure.
 
 
 ## -see-also
@@ -68,15 +68,15 @@ Identifies the user name and password of the user to authenticate. For details, 
 
 
 
-<a href="https://msdn.microsoft.com/f89ebf46-da83-495c-bafe-b2e0f72f5d8e">BG_AUTH_CREDENTIALS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ns-bits1_5-__midl_ibackgroundcopyjob2_0005">BG_AUTH_CREDENTIALS</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5a97cee-0012-4e30-850a-9adc258a36d3">BG_AUTH_SCHEME</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ne-bits1_5-__midl_ibackgroundcopyjob2_0002">BG_AUTH_SCHEME</a>
 
 
 
-<a href="https://msdn.microsoft.com/e078e464-37b7-45ce-add8-6472a4607ff3">BG_BASIC_CREDENTIALS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ns-bits1_5-__midl_ibackgroundcopyjob2_0003">BG_BASIC_CREDENTIALS</a>
  
 
  

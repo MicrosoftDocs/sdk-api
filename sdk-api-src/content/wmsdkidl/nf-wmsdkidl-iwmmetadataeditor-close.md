@@ -79,15 +79,15 @@ This method always returns S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757232(v=VS.85).aspx">IWMMetadataEditor Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmetadataeditor">IWMMetadataEditor Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757236(v=VS.85).aspx">IWMMetadataEditor::Flush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmetadataeditor-flush">IWMMetadataEditor::Flush</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757237(v=VS.85).aspx">IWMMetadataEditor::Open</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmetadataeditor-open">IWMMetadataEditor::Open</a>
  
 
  

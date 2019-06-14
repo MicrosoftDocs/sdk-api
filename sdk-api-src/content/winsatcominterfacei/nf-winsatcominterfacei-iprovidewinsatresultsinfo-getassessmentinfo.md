@@ -61,12 +61,12 @@ Retrieves summary information for a subcomponent of the assessment.
 
 ### -param assessment [in]
 
-A subcomponent of the assessment whose summary information you want to retrieve. For possible values, see the <a href="https://msdn.microsoft.com/en-us/library/Aa969206(v=VS.85).aspx">WINSAT_ASSESSMENT_TYPE</a> enumeration.
+A subcomponent of the assessment whose summary information you want to retrieve. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/ne-winsatcominterfacei-__midl___midl_itf_winsatcominterfacei_0000_0000_0003">WINSAT_ASSESSMENT_TYPE</a> enumeration.
 
 
 ### -param ppinfo [out]
 
-An <a href="https://msdn.microsoft.com/90036c75-6e9e-4d25-804b-02c423616de1">IProvideWinSATAssessmentInfo</a> interface that you use to get the score for the subcomponent.
+An <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iprovidewinsatassessmentinfo">IProvideWinSATAssessmentInfo</a> interface that you use to get the score for the subcomponent.
 
 
 ## -returns
@@ -83,7 +83,7 @@ Returns S_OK if successful.
 
 
 
-<a href="https://msdn.microsoft.com/bd15bc63-a918-43a7-9864-4206a0b6af84">IProvideWinSATResultsInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iprovidewinsatresultsinfo">IProvideWinSATResultsInfo</a>
  
 
  

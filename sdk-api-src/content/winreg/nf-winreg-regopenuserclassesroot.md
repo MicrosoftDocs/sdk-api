@@ -57,7 +57,7 @@ ms.custom: 19H1
 
 
 Retrieves a handle to the <b>HKEY_CLASSES_ROOT</b> key for a specified user. The user is identified by an access token. The returned key has a view of the registry that merges the contents of the <b>HKEY_LOCAL_MACHINE</b>\Software\Classes key with the contents of the Software\Classes keys in the user's registry hive. For more information, see 
-<a href="https://msdn.microsoft.com/b404875f-11e1-48f2-98d2-0378a0646ed3">HKEY_CLASSES_ROOT Key</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/hkey-classes-root-key">HKEY_CLASSES_ROOT Key</a>.
 
 
 ## -parameters
@@ -68,18 +68,18 @@ Retrieves a handle to the <b>HKEY_CLASSES_ROOT</b> key for a specified user. The
 ### -param hToken [in]
 
 A handle to a primary or impersonation access token that identifies the user of interest. This can be a token handle returned by a call to 
-<a href="https://msdn.microsoft.com/a6d880a0-0aed-4bdb-89c9-4f667ecb510e">LogonUser</a>, 
-<a href="https://msdn.microsoft.com/e087f360-5d1d-4846-b3d6-214a426e5222">CreateRestrictedToken</a>, 
-<a href="https://msdn.microsoft.com/796ec60e-fcae-48a9-b471-de3dce831306">DuplicateToken</a>, 
-<a href="https://msdn.microsoft.com/96b13826-0ac7-4d70-9c21-eeb343f6b823">DuplicateTokenEx</a>, 
-<a href="https://msdn.microsoft.com/1e760ad8-7e46-4748-8c45-36ad8efe936a">OpenProcessToken</a>, or 
-<a href="https://msdn.microsoft.com/5003f0c4-41e9-4a14-b6a9-4f259c4af08b">OpenThreadToken</a> functions. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createrestrictedtoken">CreateRestrictedToken</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-duplicatetoken">DuplicateToken</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-duplicatetokenex">DuplicateTokenEx</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocesstoken">OpenProcessToken</a>, or 
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthreadtoken">OpenThreadToken</a> functions. 
 
 
 
 
 The handle must have TOKEN_QUERY access. For more information, see 
-<a href="https://msdn.microsoft.com/5f710fd8-33de-47c0-a8b2-baf3008c4ed7">Access Rights for Access-Token Objects</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-rights-for-access-token-objects">Access Rights for Access-Token Objects</a>.
 
 
 ### -param dwOptions
@@ -90,13 +90,13 @@ This parameter is reserved and must be zero.
 ### -param samDesired [in]
 
 A mask that specifies the desired access rights to the key. The function fails if the security descriptor of the key does not permit the requested access for the calling process. For more information, see 
-<a href="https://msdn.microsoft.com/266d5c8e-1bcd-48e5-bc06-2fbc956d8658">Registry Key Security and Access Rights</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
 
 
 ### -param phkResult [out]
 
 A pointer to a variable that receives a handle to the opened key. When you no longer need the returned handle, call the 
-<a href="https://msdn.microsoft.com/10175499-abf3-4694-9594-bb97b43f3fa5">RegCloseKey</a> function to close it.
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regclosekey">RegCloseKey</a> function to close it.
 
 
 ## -returns
@@ -106,7 +106,7 @@ A pointer to a variable that receives a handle to the opened key. When you no lo
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the 
-<a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to get a generic description of the error.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to get a generic description of the error.
 
 
 
@@ -120,11 +120,11 @@ The
 <b>RegOpenUserClassesRoot</b> to retrieve the merged information for a client.
 
 <b>RegOpenUserClassesRoot</b> fails if the user profile for the specified user is not loaded. When a user logs on interactively, the system automatically loads the user's profile. For other users, you can call the 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762281(v=VS.85).aspx">LoadUserProfile</a> function to load the user's profile. However, <b>LoadUserProfile</b> can be very time-consuming, so do not call it for this purpose unless it is absolutely necessary to have the user's merged <b>HKEY_CLASSES_ROOT</b> information.
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-loaduserprofilea">LoadUserProfile</a> function to load the user's profile. However, <b>LoadUserProfile</b> can be very time-consuming, so do not call it for this purpose unless it is absolutely necessary to have the user's merged <b>HKEY_CLASSES_ROOT</b> information.
 
 Applications running in the security context of the interactively logged-on user do not need to use 
 <b>RegOpenUserClassesRoot</b>. These applications can call the 
-<a href="https://msdn.microsoft.com/c8a590f2-3249-437f-a320-c7443d42b792">RegOpenKeyEx</a> function to retrieve a merged view of the <b>HKEY_CLASSES_ROOT</b> key for the interactive user.
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a> function to retrieve a merged view of the <b>HKEY_CLASSES_ROOT</b> key for the interactive user.
 
 
 
@@ -134,23 +134,23 @@ Applications running in the security context of the interactively logged-on user
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762281(v=VS.85).aspx">LoadUserProfile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-loaduserprofilea">LoadUserProfile</a>
 
 
 
-<a href="https://msdn.microsoft.com/10175499-abf3-4694-9594-bb97b43f3fa5">RegCloseKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regclosekey">RegCloseKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/c8a590f2-3249-437f-a320-c7443d42b792">RegOpenKeyEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/a490b748-42e8-462b-9a7f-a8b21438ea79">Registry Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-functions">Registry Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/ffb06903-593e-47ce-adb2-baed5d379110">Registry Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry">Registry Overview</a>
  
 
  

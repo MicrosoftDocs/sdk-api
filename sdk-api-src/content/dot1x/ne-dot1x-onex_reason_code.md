@@ -90,7 +90,7 @@ The 802.1X authentication module was unable to return the requested user input. 
 
 ### -field ONEX_EAP_FAILURE_RECEIVED
 
-The EAP module returned an error code.  The <a href="https://msdn.microsoft.com/20126b9a-732e-460d-bb10-4d7485b25eb9">ONEX_EAP_ERROR</a> structure may contain additional information about the specific EAP error (a certificate not found, for example).
+The EAP module returned an error code.  The <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_eap_error">ONEX_EAP_ERROR</a> structure may contain additional information about the specific EAP error (a certificate not found, for example).
 
 
 ### -field ONEX_AUTHENTICATOR_NO_LONGER_PRESENT
@@ -182,9 +182,9 @@ This value is supported on Windows 7 and on Windows Server 2008 R2 with the W
 
 The <b>ONEX_REASON_CODE</b> enumerated type is used by the 802.1X module, a new wireless configuration component supported on Windows Vista and  later.  
 
-The <a href="https://msdn.microsoft.com/140386c8-2e35-4e83-812f-119bf8828d0b">ONEX_RESULT_UPDATE_DATA</a> contains information on a status change to 802.1X authentication. The <b>ONEX_RESULT_UPDATE_DATA</b> structure is returned  when  the <b>NotificationSource</b> member of the <a href="https://msdn.microsoft.com/58589825-407c-4635-a2ea-20695b63ec2c">WLAN_NOTIFICATION_DATA</a> structure is <b>WLAN_NOTIFICATION_SOURCE_ONEX</b>  and the <b>NotificationCode</b> member of the <b>WLAN_NOTIFICATION_DATA</b> structure for received notification  is <b>OneXNotificationTypeResultUpdate</b>. For this notification, the <b>pData</b> member of the <b>WLAN_NOTIFICATION_DATA</b> structure points to an  <b>ONEX_RESULT_UPDATE_DATA</b> structure that contains information on the 802.1X authentication status change. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a> contains information on a status change to 802.1X authentication. The <b>ONEX_RESULT_UPDATE_DATA</b> structure is returned  when  the <b>NotificationSource</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure is <b>WLAN_NOTIFICATION_SOURCE_ONEX</b>  and the <b>NotificationCode</b> member of the <b>WLAN_NOTIFICATION_DATA</b> structure for received notification  is <b>OneXNotificationTypeResultUpdate</b>. For this notification, the <b>pData</b> member of the <b>WLAN_NOTIFICATION_DATA</b> structure points to an  <b>ONEX_RESULT_UPDATE_DATA</b> structure that contains information on the 802.1X authentication status change. 
 
-The <b>oneXStatus</b> member of the <a href="https://msdn.microsoft.com/140386c8-2e35-4e83-812f-119bf8828d0b">ONEX_RESULT_UPDATE_DATA</a> structure contains an <a href="https://msdn.microsoft.com/2c19c65b-0943-4561-a28f-0104e1cbd229">ONEX_STATUS</a> structure. If an error occurred during 802.1X authentication, the dwReason menber of this <b>ONEX_STATUS</b> structure contains the reason for the error specified as a value from the <b>ONEX_REASON_CODE</b> enumeration. 
+The <b>oneXStatus</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a> structure contains an <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_status">ONEX_STATUS</a> structure. If an error occurred during 802.1X authentication, the dwReason menber of this <b>ONEX_STATUS</b> structure contains the reason for the error specified as a value from the <b>ONEX_REASON_CODE</b> enumeration. 
 
 
 
@@ -194,27 +194,27 @@ The <b>oneXStatus</b> member of the <a href="https://msdn.microsoft.com/140386c8
 
 
 
-<a href="https://msdn.microsoft.com/4a5c0085-0e7b-424d-9205-5ec39518a088">About the ACM Architecture</a>
+<a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/about-the-acm-architecture">About the ACM Architecture</a>
 
 
 
-<a href="https://msdn.microsoft.com/c5892938-9798-4c09-a766-4924cda4d090">ONEX_NOTIFICATION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ne-dot1x-_onex_notification_type">ONEX_NOTIFICATION_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/140386c8-2e35-4e83-812f-119bf8828d0b">ONEX_RESULT_UPDATE_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/2c19c65b-0943-4561-a28f-0104e1cbd229">ONEX_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_status">ONEX_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/58589825-407c-4635-a2ea-20695b63ec2c">WLAN_NOTIFICATION_DATA</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/e24810da-ed3b-41c4-b7b1-290b01e26cd5">WlanRegisterNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a>
  
 
  

@@ -59,9 +59,9 @@ ms.custom: 19H1
 
 ### -param textureType
 
-Type: <b><a href="https://msdn.microsoft.com/c97ee0fd-2743-4f72-aa69-bf5e3780aa33">DWRITE_TEXTURE_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_texture_type">DWRITE_TEXTURE_TYPE</a></b>
 
-A value that specifies the type of texture requested. This can be <a href="https://msdn.microsoft.com/c97ee0fd-2743-4f72-aa69-bf5e3780aa33">DWRITE_TEXTURE_BILEVEL_1x1</a> or <b>DWRITE_TEXTURE_CLEARTYPE_3x1</b>. If a bi-level texture is requested, the
+A value that specifies the type of texture requested. This can be <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_texture_type">DWRITE_TEXTURE_BILEVEL_1x1</a> or <b>DWRITE_TEXTURE_CLEARTYPE_3x1</b>. If a bi-level texture is requested, the
      texture contains only bi-level glyphs. Otherwise, the texture contains only antialiased glyphs.
 
 
@@ -70,7 +70,7 @@ A value that specifies the type of texture requested. This can be <a href="https
 Type: <b>const RECT*</b>
 
 The bounding rectangle of the texture, which can be different than
-     the bounding rectangle returned by <a href="https://msdn.microsoft.com/9058edb7-23b2-418a-abcc-3ee827a79144">GetAlphaTextureBounds</a>.
+     the bounding rectangle returned by <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwriteglyphrunanalysis-getalphatexturebounds">GetAlphaTextureBounds</a>.
 
 
 ### -param alphaValues [out]
@@ -104,7 +104,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/d4739b55-1a9b-4346-9b47-d8adb98df163">IDWriteGlyphRunAnalysis</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwriteglyphrunanalysis">IDWriteGlyphRunAnalysis</a>
  
 
  

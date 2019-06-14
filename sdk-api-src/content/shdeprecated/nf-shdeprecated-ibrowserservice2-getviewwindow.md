@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deprecated. Provides direct access to the browser view window created by <a href="https://msdn.microsoft.com/f5e7f18b-86b3-4a30-bbb0-8c7f615c7186">IBrowserService2::CreateViewWindow</a>.
+Deprecated. Provides direct access to the browser view window created by <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-createviewwindow">IBrowserService2::CreateViewWindow</a>.
 
 
 ## -parameters
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<b>IBrowserService2::GetViewWindow</b> retrieves the same handle as found in the <b>_hwndView</b> member of the <a href="https://msdn.microsoft.com/d56e42e8-a556-4470-82d9-466edd84214f">BASEBROWSERDATA</a> structure. This method simply provides direct access to that view, bypassing the need to access the <b>BASEBROWSERDATA</b> structure though a method such as <a href="https://msdn.microsoft.com/60a9bbd1-5c11-4c6a-bae2-b85979ab8bda">IBrowserService2::GetBaseBrowserData</a>.
+<b>IBrowserService2::GetViewWindow</b> retrieves the same handle as found in the <b>_hwndView</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/ns-shdeprecated-basebrowserdatalh">BASEBROWSERDATA</a> structure. This method simply provides direct access to that view, bypassing the need to access the <b>BASEBROWSERDATA</b> structure though a method such as <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-getbasebrowserdata">IBrowserService2::GetBaseBrowserData</a>.
 
 
 

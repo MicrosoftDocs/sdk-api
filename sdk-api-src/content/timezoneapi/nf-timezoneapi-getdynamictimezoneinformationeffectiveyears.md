@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets a range, expressed in years, for which a <a href="https://msdn.microsoft.com/d60b1212-26bc-4fad-afce-9bd9062ca5b0">DYNAMIC_TIME_ZONE_INFORMATION</a> has valid entries. Use the returned value to identify the specific years to request when calling <a href="https://msdn.microsoft.com/5bd29a25-98f0-439e-be88-8011bbf98926">GetTimeZoneInformationForYear</a> to retrieve time zone information for a time zone that experiences annual boundary changes due to daylight saving time adjustments.
+Gets a range, expressed in years, for which a <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-dynamic_time_zone_information">DYNAMIC_TIME_ZONE_INFORMATION</a> has valid entries. Use the returned value to identify the specific years to request when calling <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-gettimezoneinformationforyear">GetTimeZoneInformationForYear</a> to retrieve time zone information for a time zone that experiences annual boundary changes due to daylight saving time adjustments.
 
 
 ## -parameters
@@ -68,12 +68,12 @@ Specifies settings for  a time zone and dynamic daylight saving time.
 
 ### -param FirstYear [out]
 
-The year that marks the beginning of the range to pass to <a href="https://msdn.microsoft.com/5bd29a25-98f0-439e-be88-8011bbf98926">GetTimeZoneInformationForYear</a>.
+The year that marks the beginning of the range to pass to <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-gettimezoneinformationforyear">GetTimeZoneInformationForYear</a>.
 
 
 ### -param LastYear [out]
 
-The year that marks the end of the range to pass to <a href="https://msdn.microsoft.com/5bd29a25-98f0-439e-be88-8011bbf98926">GetTimeZoneInformationForYear</a>.
+The year that marks the end of the range to pass to <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-gettimezoneinformationforyear">GetTimeZoneInformationForYear</a>.
 
 
 ## -returns
@@ -140,11 +140,11 @@ The operation failed.
 
 
 
-<a href="https://msdn.microsoft.com/d60b1212-26bc-4fad-afce-9bd9062ca5b0">DYNAMIC_TIME_ZONE_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-dynamic_time_zone_information">DYNAMIC_TIME_ZONE_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/EBB2366A-86FE-4764-B7F9-5D305993CE0A">EnumDynamicTimeZoneInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-enumdynamictimezoneinformation">EnumDynamicTimeZoneInformation</a>
  
 
  

@@ -59,7 +59,7 @@ Called when the dialog is opened to notify the application of the initial chosen
 
 ### -param pfd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/9341bb68-2410-4e03-8acd-fef29287b61c">IFileDialog</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog">IFileDialog</a>*</b>
 
 A pointer to the interface that represents the dialog.
 
@@ -79,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method is called when the dialog is opened to notify the application of the initially chosen filetype. If the application has code in <a href="https://msdn.microsoft.com/c55107a3-ae0a-4b46-80a3-8a731b47976c">IFileDialogEvents</a> that responds to type changes, it can respond to the type. For example, it could hide certain controls. The application controls the initial file type and could do its own checks, so this method is provided as a convenience.
+This method is called when the dialog is opened to notify the application of the initially chosen filetype. If the application has code in <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogevents">IFileDialogEvents</a> that responds to type changes, it can respond to the type. For example, it could hide certain controls. The application controls the initial file type and could do its own checks, so this method is provided as a convenience.
             
 
 
@@ -90,11 +90,11 @@ This method is called when the dialog is opened to notify the application of the
 
 
 
-<a href="https://msdn.microsoft.com/ae5b08a1-a97d-433b-88dc-938abe028384">IFileDialog::GetFileTypeIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb775958(v=vs.85)">IFileDialog::GetFileTypeIndex</a>
 
 
 
-<a href="https://msdn.microsoft.com/c55107a3-ae0a-4b46-80a3-8a731b47976c">IFileDialogEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogevents">IFileDialogEvents</a>
  
 
  

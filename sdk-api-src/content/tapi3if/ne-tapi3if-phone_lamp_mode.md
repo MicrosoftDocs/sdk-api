@@ -103,11 +103,11 @@ The lamp mode is not known.
 
 
 
-<a href="https://msdn.microsoft.com/5e0fa135-304a-4598-a6cd-2e5734b3678c">ITPhone::get_LampMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_lampmode">ITPhone::get_LampMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/0445cf2c-1b00-4136-bdab-3c6e0669ef11">ITPhone::put_LampMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-put_lampmode">ITPhone::put_LampMode</a>
  
 
  

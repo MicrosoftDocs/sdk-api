@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the <a href="https://msdn.microsoft.com/en-us/library/Dd372986(v=VS.85).aspx">XPS_SIGN_FLAGS</a> value that specifies the signing flags to use for this signature.
+Sets the <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/ne-xpsdigitalsignature-__midl___midl_itf_xpsdigitalsignature_0000_0000_0003">XPS_SIGN_FLAGS</a> value that specifies the signing flags to use for this signature.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Sets the <a href="https://msdn.microsoft.com/en-us/library/Dd372986(v=VS.85).asp
 
 ### -param flags [in]
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd372986(v=VS.85).aspx">XPS_SIGN_FLAGS</a> value that specifies the signing flags to use for this signature.
+The <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/ne-xpsdigitalsignature-__midl___midl_itf_xpsdigitalsignature_0000_0000_0003">XPS_SIGN_FLAGS</a> value that specifies the signing flags to use for this signature.
 
 
 ## -returns
@@ -76,7 +76,7 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 
-<a href="https://msdn.microsoft.com/71b9b348-1078-4f55-a071-e5e2f273f85c">IXpsSigningOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssigningoptions">IXpsSigningOptions</a>
 
 
 
@@ -88,7 +88,7 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd372986(v=VS.85).aspx">XPS_SIGN_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/ne-xpsdigitalsignature-__midl___midl_itf_xpsdigitalsignature_0000_0000_0003">XPS_SIGN_FLAGS</a>
  
 
  

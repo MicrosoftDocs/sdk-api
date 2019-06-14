@@ -52,11 +52,11 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>binaryToString</b> method converts a binary data <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a> to a string. 
-			This method was first defined in the <a href="https://msdn.microsoft.com/4e3e3792-aa41-46fe-bf75-26c2b8959f7a">ICEnroll4</a> interface.
+The <b>binaryToString</b> method converts a binary data <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> to a string. 
+			This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a> interface.
 
 This method uses the 
-<a href="https://msdn.microsoft.com/e6bdf931-fba3-4a33-b22e-5f818f565842">CryptBinaryToString</a> function to do the conversion.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptbinarytostringa">CryptBinaryToString</a> function to do the conversion.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ This method uses the
 
 ### -param Flags [in]
 
-The value passed to the <i>dwFlags</i> parameter of the <a href="https://msdn.microsoft.com/e6bdf931-fba3-4a33-b22e-5f818f565842">CryptBinaryToString</a> function. For a description of possible values, see 
+The value passed to the <i>dwFlags</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptbinarytostringa">CryptBinaryToString</a> function. For a description of possible values, see 
 <b>CryptBinaryToString</b>.
 
 
@@ -77,7 +77,7 @@ A binary data BLOB to be converted to a string.
 
 ### -param pstrEncoded [out]
 
-A pointer to a <b>BSTR</b> that receives the encoded data. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
+A pointer to a <b>BSTR</b> that receives the encoded data. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
 
 ## -returns
@@ -88,7 +88,7 @@ A pointer to a <b>BSTR</b> that receives the encoded data. When you have finishe
 If the method succeeds, the method returns <b>S_OK</b>.
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see 
-<a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is a string that represents the binary data.

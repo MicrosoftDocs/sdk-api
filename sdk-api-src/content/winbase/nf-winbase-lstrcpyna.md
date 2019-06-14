@@ -59,7 +59,7 @@ ms.custom: 19H1
 
 
 Copies a specified number of characters from a source string into a buffer.
-<div class="alert"><b>Warning</b>  Do not use. Consider using <a href="https://msdn.microsoft.com/en-us/library/ms647527(v=VS.85).aspx">StringCchCopy</a> instead. See Remarks.</div><div> </div>
+<div class="alert"><b>Warning</b>  Do not use. Consider using <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcopya">StringCchCopy</a> instead. See Remarks.</div><div> </div>
 
 ## -parameters
 
@@ -147,14 +147,14 @@ Buffer overflow situations are the cause
 Using <code>sizeof(szString1)/sizeof(szString1[0])</code> 
 				gives the proper size of the buffer. 
 
-Consider using <a href="https://msdn.microsoft.com/en-us/library/ms647527(v=VS.85).aspx">StringCchCopy</a> instead; use either 
+Consider using <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcopya">StringCchCopy</a> instead; use either 
 				<code>StringCchCopy(buffer, sizeof(buffer)/sizeof(buffer[0]), src);</code>, 
 				being aware that <code>buffer</code> must not be a pointer or 
 				use <code>StringCchCopy(buffer, ARRAYSIZE(buffer), src);</code>, 
 				being aware that, when copying to a pointer, the caller is responsible for 
 				passing in the size of the pointed-to memory in characters. 
 
-Review <a href="https://msdn.microsoft.com/en-us/library/Hh969198(v=VS.85).aspx">Security Considerations: Windows User Interface</a> before continuing.
+Review <a href="https://docs.microsoft.com/windows/desktop/AppUIStart/sec-ui">Security Considerations: Windows User Interface</a> before continuing.
 
 
 
@@ -172,59 +172,59 @@ Review <a href="https://msdn.microsoft.com/en-us/library/Hh969198(v=VS.85).aspx"
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647499(v=VS.85).aspx">StringCbCopy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcopya">StringCbCopy</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647500(v=VS.85).aspx">StringCbCopyEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcopyexa">StringCbCopyEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647501(v=VS.85).aspx">StringCbCopyN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcopyna">StringCbCopyN</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647503(v=VS.85).aspx">StringCbCopyNEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcopynexa">StringCbCopyNEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647509(v=VS.85).aspx">StringCbLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcblengtha">StringCbLength</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647527(v=VS.85).aspx">StringCchCopy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcopya">StringCchCopy</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647529(v=VS.85).aspx">StringCchCopyEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcopyexa">StringCchCopyEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647530(v=VS.85).aspx">StringCchCopyN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcopyna">StringCchCopyN</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647533(v=VS.85).aspx">StringCchCopyNEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcopynexa">StringCchCopyNEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647539(v=VS.85).aspx">StringCchLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchlengtha">StringCchLength</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/strings">Strings</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647488(v=VS.85).aspx">lstrcmp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcmpa">lstrcmp</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647489(v=VS.85).aspx">lstrcmpi</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcmpia">lstrcmpi</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647492(v=VS.85).aspx">lstrlen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrlena">lstrlen</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns a filled <a href="https://msdn.microsoft.com/6D931285-0F2B-44BE-8A1A-2348AC49A8DF">D2D1_VECTOR_4F</a> structure.
+Returns a filled <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_4f">D2D1_VECTOR_4F</a> structure.
 
 
 ## -parameters

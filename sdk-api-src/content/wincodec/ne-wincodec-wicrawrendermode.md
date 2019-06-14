@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the render intent of the next <a href="https://msdn.microsoft.com/d4908a75-e7de-4b8f-bdc8-d86cf6b49f8c">CopyPixels</a> call. 
+Specifies the render intent of the next <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">CopyPixels</a> call. 
 
 
 ## -enum-fields

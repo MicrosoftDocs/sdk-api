@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Sets the position of the scroll box (thumb) in the specified scroll bar and, if requested, redraws the scroll bar to reflect the new position of the scroll box. 
         
-<div class="alert"><b>Note</b>  This macro expands to a call to the <a href="https://msdn.microsoft.com/en-us/library/Bb787597(v=VS.85).aspx">SetScrollPos</a> function, which is deprecated. New applications should use the <a href="https://msdn.microsoft.com/en-us/library/Bb787595(v=VS.85).aspx">SetScrollInfo</a> function.</div><div> </div>
+<div class="alert"><b>Note</b>  This macro expands to a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setscrollpos">SetScrollPos</a> function, which is deprecated. New applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setscrollinfo">SetScrollInfo</a> function.</div><div> </div>
 
 ## -parameters
 
@@ -60,7 +60,7 @@ Sets the position of the scroll box (thumb) in the specified scroll bar and, if 
 
 ### -param hwndCtl
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -74,7 +74,7 @@ The new position of the scroll box.
 
 ### -param fRedraw
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> to redraw the control; otherwise <b>FALSE</b>.
 

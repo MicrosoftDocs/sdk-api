@@ -59,25 +59,25 @@ Describes a sampler state.
 
 ### -field Filter
 
-A <a href="https://msdn.microsoft.com/3755A722-34E5-415E-8760-93094D033E05">D3D12_FILTER</a>-typed value that specifies the filtering method to use when sampling a texture.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_filter">D3D12_FILTER</a>-typed value that specifies the filtering method to use when sampling a texture.
           
 
 
 ### -field AddressU
 
-A <a href="https://msdn.microsoft.com/7F67C8B6-1B01-49C0-9900-AFDBEDE5508F">D3D12_TEXTURE_ADDRESS_MODE</a>-typed value that specifies the method to use for resolving a u texture coordinate that is outside the 0 to 1 range.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_texture_address_mode">D3D12_TEXTURE_ADDRESS_MODE</a>-typed value that specifies the method to use for resolving a u texture coordinate that is outside the 0 to 1 range.
           
 
 
 ### -field AddressV
 
-A <a href="https://msdn.microsoft.com/7F67C8B6-1B01-49C0-9900-AFDBEDE5508F">D3D12_TEXTURE_ADDRESS_MODE</a>-typed value that specifies the method to use for resolving a v texture coordinate that is outside the 0 to 1 range.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_texture_address_mode">D3D12_TEXTURE_ADDRESS_MODE</a>-typed value that specifies the method to use for resolving a v texture coordinate that is outside the 0 to 1 range.
           
 
 
 ### -field AddressW
 
-A <a href="https://msdn.microsoft.com/7F67C8B6-1B01-49C0-9900-AFDBEDE5508F">D3D12_TEXTURE_ADDRESS_MODE</a>-typed value that specifies the method to use for resolving a w texture coordinate that is outside the 0 to 1 range.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_texture_address_mode">D3D12_TEXTURE_ADDRESS_MODE</a>-typed value that specifies the method to use for resolving a w texture coordinate that is outside the 0 to 1 range.
           
 
 
@@ -95,13 +95,13 @@ Clamping value used if <b>D3D12_FILTER_ANISOTROPIC</b> or <b>D3D12_FILTER_COMPAR
 
 ### -field ComparisonFunc
 
-A <a href="https://msdn.microsoft.com/68223746-59B3-4FDD-B7EF-44557F1C46E3">D3D12_COMPARISON_FUNC</a>-typed value that specifies a function that compares sampled data against existing sampled data.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_comparison_func">D3D12_COMPARISON_FUNC</a>-typed value that specifies a function that compares sampled data against existing sampled data.
           
 
 
 ### -field BorderColor
 
-Border color to use if <a href="https://msdn.microsoft.com/en-us/library/Dn770441(v=VS.85).aspx">D3D12_TEXTURE_ADDRESS_MODE_BORDER</a> is specified for <b>AddressU</b>, <b>AddressV</b>, or <b>AddressW</b>. Range must be between 0.0 and 1.0 inclusive.
+Border color to use if <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_texture_address_mode">D3D12_TEXTURE_ADDRESS_MODE_BORDER</a> is specified for <b>AddressU</b>, <b>AddressV</b>, or <b>AddressW</b>. Range must be between 0.0 and 1.0 inclusive.
           
 
 
@@ -120,7 +120,7 @@ Upper end of the mipmap range to clamp access to, where 0 is the largest and mos
 
 
 
-This structure is used by <a href="https://msdn.microsoft.com/453B2D3D-843E-4DB0-BC47-59BD9C78BFD6">CreateSampler</a>.
+This structure is used by <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createsampler">CreateSampler</a>.
 
 
 
@@ -130,7 +130,7 @@ This structure is used by <a href="https://msdn.microsoft.com/453B2D3D-843E-4DB0
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
  
 
  

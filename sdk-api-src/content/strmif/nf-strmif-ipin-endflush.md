@@ -115,7 +115,7 @@ When this method is called, the filter performs the following actions:
 <ol>
 <li>Waits for all queued samples to be discarded.</li>
 <li>Frees any buffered data, including any pending end-of-stream notifications.</li>
-<li>Clears any pending <a href="https://msdn.microsoft.com/46037d53-085d-4fd0-91a0-408702cbfce5">EC_COMPLETE</a> notifications.</li>
+<li>Clears any pending <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-complete">EC_COMPLETE</a> notifications.</li>
 <li>Calls <code>EndFlush</code> downstream.</li>
 </ol>
 When the method returns, the pin can accept new samples.
@@ -128,15 +128,15 @@ When the method returns, the pin can accept new samples.
 
 
 
-<a href="https://msdn.microsoft.com/3fcfd874-39bc-42d2-9fc9-2d8945ffa8e3">Data Flow in the Filter Graph</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/data-flow-in-the-filter-graph">Data Flow in the Filter Graph</a>
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/ad0ead4e-9f8e-4935-b220-306d665e50f4">IPin Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
  
 
  

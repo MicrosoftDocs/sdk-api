@@ -55,7 +55,7 @@ The
 The 
 <b>IColumnData</b> interface enables a snap-in to set and retrieve the persisted view data of list view columns to use for column customization. For more information about when to use the 
 <b>IColumnData</b> interface, see 
-<a href="https://msdn.microsoft.com/4da79fd1-f887-447c-89fd-d5044bd5751c">Using IColumnData</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-icolumndata">Using IColumnData</a>.
 
 The interface provides methods for programmatically providing the same functionality that MMC provides in the <b>Modify Columns</b> dialog box. In addition, the 
 <b>IColumnData</b> interface provides methods for setting and retrieving the sorted column and sort direction of a particular column set.
@@ -68,16 +68,16 @@ MMC persists column data (also called column configuration data) per column set 
 <b>IColumnData</b> interface pertaining to the particular view to access the column configuration data of that view.
 
 For more information about column customization, see 
-<a href="https://msdn.microsoft.com/409b8212-a2fc-4d64-a407-ade2fde9ac4d">Using Column Persistence</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-column-persistence">Using Column Persistence</a>.
 
 The 
 <b>IColumnData</b> interface can be queried from the IConsole passed into 
-<a href="https://msdn.microsoft.com/2a8b8f79-05c0-49e8-8210-7c1002ee5978">IComponent::Initialize</a> during the component creation.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-initialize">IComponent::Initialize</a> during the component creation.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IColumnData</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IColumnData</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IColumnData</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IColumnData</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -92,7 +92,7 @@ The <b>IColumnData</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/197804a2-63e5-4f0c-9d6d-4abc751a8a82">GetColumnConfigData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icolumndata-getcolumnconfigdata">GetColumnConfigData</a>
 </td>
 <td align="left" width="63%">
 Retrieves the width, order, and hidden status of columns in a column set.
@@ -101,7 +101,7 @@ Retrieves the width, order, and hidden status of columns in a column set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cbcc5e61-994e-46e2-b227-398b79cbc557">GetColumnSortData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icolumndata-getcolumnsortdata">GetColumnSortData</a>
 </td>
 <td align="left" width="63%">
 Retrieves the sorting direction for columns in a column set.
@@ -110,7 +110,7 @@ Retrieves the sorting direction for columns in a column set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2f6727bd-b7ba-4e91-9dce-53605b0b6fe1">SetColumnConfigData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icolumndata-setcolumnconfigdata">SetColumnConfigData</a>
 </td>
 <td align="left" width="63%">
 Sets the width, order, and hidden status of columns in a column set.
@@ -119,7 +119,7 @@ Sets the width, order, and hidden status of columns in a column set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ece69cce-6861-4795-b1cb-da22d2bdc67a">SetColumnSortData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icolumndata-setcolumnsortdata">SetColumnSortData</a>
 </td>
 <td align="left" width="63%">
 Sets the sorting direction for columns in a column set.
@@ -134,11 +134,11 @@ Sets the sorting direction for columns in a column set.
 
 
 
-<a href="https://msdn.microsoft.com/409b8212-a2fc-4d64-a407-ade2fde9ac4d">Using Column Persistence</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-column-persistence">Using Column Persistence</a>
 
 
 
-<a href="https://msdn.microsoft.com/4da79fd1-f887-447c-89fd-d5044bd5751c">Using IColumnData</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-icolumndata">Using IColumnData</a>
  
 
  

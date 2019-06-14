@@ -90,27 +90,27 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://msdn.microsoft.com/729c0e68-ef52-4d6c-b771-a89043a937e6">Interlocked Variable Access</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/interlocked-variable-access">Interlocked Variable Access</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683560(v=VS.85).aspx">InterlockedCompareExchange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockedcompareexchange">InterlockedCompareExchange</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683590(v=VS.85).aspx">InterlockedExchange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockedexchange">InterlockedExchange</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683597(v=VS.85).aspx">InterlockedExchangeAdd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockedexchangeadd">InterlockedExchangeAdd</a>
 
 
 
-<a href="https://msdn.microsoft.com/479aede8-e9e3-42c2-9081-94c150c7f274">InterlockedExchangePointer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-interlockedexchangepointer">InterlockedExchangePointer</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b6359c2-0113-49b6-83d0-316ad95aba1b">Synchronization Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
  
 
  

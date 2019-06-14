@@ -54,7 +54,7 @@ Exposes methods that enable the user to draw a custom namespace tree control and
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INameSpaceTreeControlCustomDraw</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>INameSpaceTreeControlCustomDraw</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INameSpaceTreeControlCustomDraw</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INameSpaceTreeControlCustomDraw</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>INameSpaceTreeControlCustomDraw</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9da2af87-a961-4ca8-a512-fe508f2b2d79">ItemPostPaint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolcustomdraw-itempostpaint">ItemPostPaint</a>
 </td>
 <td align="left" width="63%">
 Called after an item in the namespace tree control is drawn.
@@ -78,7 +78,7 @@ Called after an item in the namespace tree control is drawn.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0245ecfd-2617-481a-9d34-8fc4eb0ea012">ItemPrePaint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolcustomdraw-itemprepaint">ItemPrePaint</a>
 </td>
 <td align="left" width="63%">
 Called before an item in the namespace tree control is drawn.
@@ -87,7 +87,7 @@ Called before an item in the namespace tree control is drawn.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fe8cedc8-166d-4802-9d01-7c3991181618">PostPaint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolcustomdraw-postpaint">PostPaint</a>
 </td>
 <td align="left" width="63%">
 Called after the namespace tree control is drawn.
@@ -96,7 +96,7 @@ Called after the namespace tree control is drawn.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3d9c0616-90f2-435c-a663-9ffe4adab8a0">PrePaint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolcustomdraw-prepaint">PrePaint</a>
 </td>
 <td align="left" width="63%">
 Called before the namespace tree control is drawn.
@@ -111,7 +111,7 @@ Called before the namespace tree control is drawn.
 
 
 
-<a href="https://msdn.microsoft.com/2072cb3c-e540-4708-bfe8-33fff3a190bd">INameSpaceTreeControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrol">INameSpaceTreeControl</a>
  
 
  

@@ -59,18 +59,18 @@ Fills the library descriptor structure for the library reflection.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/A4AC9733-DB17-4855-AEB0-3DA7819F6627">D3D11_LIBRARY_DESC</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-_d3d11_library_desc">D3D11_LIBRARY_DESC</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/A4AC9733-DB17-4855-AEB0-3DA7819F6627">D3D11_LIBRARY_DESC</a> structure that receives a description of the library reflection.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-_d3d11_library_desc">D3D11_LIBRARY_DESC</a> structure that receives a description of the library reflection.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-Returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
+Returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a>.
 
 
 
@@ -80,7 +80,7 @@ Returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-1
 
 
 
-<a href="https://msdn.microsoft.com/59792EC6-B739-4D86-84F6-DC03AD3016F1">ID3D11LibraryReflection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11libraryreflection">ID3D11LibraryReflection</a>
  
 
  

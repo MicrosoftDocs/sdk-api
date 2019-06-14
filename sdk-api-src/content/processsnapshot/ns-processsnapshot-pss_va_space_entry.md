@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Holds the <a href="https://msdn.microsoft.com/dc3fa48e-0986-49cc-88a9-ff8179fbe5f0">MEMORY_BASIC_INFORMATION</a> returned by <a href="https://msdn.microsoft.com/C6AC38B5-0A1C-44D7-A1F6-8196AE9B8FB0">PssWalkSnapshot</a> for a virtual address (VA) region.
+Holds the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_memory_basic_information">MEMORY_BASIC_INFORMATION</a> returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psswalksnapshot">PssWalkSnapshot</a> for a virtual address (VA) region.
 
 
 ## -struct-fields
@@ -59,37 +59,37 @@ Holds the <a href="https://msdn.microsoft.com/dc3fa48e-0986-49cc-88a9-ff8179fbe5
 
 ### -field BaseAddress
 
-Information about the VA region. For more information, see <a href="https://msdn.microsoft.com/dc3fa48e-0986-49cc-88a9-ff8179fbe5f0">MEMORY_BASIC_INFORMATION</a>.
+Information about the VA region. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_memory_basic_information">MEMORY_BASIC_INFORMATION</a>.
 
 
 ### -field AllocationBase
 
-Information about the VA region. For more information, see <a href="https://msdn.microsoft.com/dc3fa48e-0986-49cc-88a9-ff8179fbe5f0">MEMORY_BASIC_INFORMATION</a>.
+Information about the VA region. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_memory_basic_information">MEMORY_BASIC_INFORMATION</a>.
 
 
 ### -field AllocationProtect
 
-Information about the VA region. For more information, see <a href="https://msdn.microsoft.com/dc3fa48e-0986-49cc-88a9-ff8179fbe5f0">MEMORY_BASIC_INFORMATION</a>.
+Information about the VA region. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_memory_basic_information">MEMORY_BASIC_INFORMATION</a>.
 
 
 ### -field RegionSize
 
-Information about the VA region. For more information, see <a href="https://msdn.microsoft.com/dc3fa48e-0986-49cc-88a9-ff8179fbe5f0">MEMORY_BASIC_INFORMATION</a>.
+Information about the VA region. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_memory_basic_information">MEMORY_BASIC_INFORMATION</a>.
 
 
 ### -field State
 
-Information about the VA region. For more information, see <a href="https://msdn.microsoft.com/dc3fa48e-0986-49cc-88a9-ff8179fbe5f0">MEMORY_BASIC_INFORMATION</a>.
+Information about the VA region. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_memory_basic_information">MEMORY_BASIC_INFORMATION</a>.
 
 
 ### -field Protect
 
-Information about the VA region. For more information, see <a href="https://msdn.microsoft.com/dc3fa48e-0986-49cc-88a9-ff8179fbe5f0">MEMORY_BASIC_INFORMATION</a>.
+Information about the VA region. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_memory_basic_information">MEMORY_BASIC_INFORMATION</a>.
 
 
 ### -field Type
 
-Information about the VA region. For more information, see <a href="https://msdn.microsoft.com/dc3fa48e-0986-49cc-88a9-ff8179fbe5f0">MEMORY_BASIC_INFORMATION</a>.
+Information about the VA region. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_memory_basic_information">MEMORY_BASIC_INFORMATION</a>.
 
 
 ### -field TimeDateStamp
@@ -119,7 +119,7 @@ The length of the mapped file name buffer, in bytes.
 
 ### -field MappedFileName
 
-If section information was captured, this is the file path backing the section (if any). The path may be in NT namespace. The string may not be terminated by a <b>NULL</b> character. The pointer is valid for the lifetime of the walk marker passed to <a href="https://msdn.microsoft.com/C6AC38B5-0A1C-44D7-A1F6-8196AE9B8FB0">PssWalkSnapshot</a>.
+If section information was captured, this is the file path backing the section (if any). The path may be in NT namespace. The string may not be terminated by a <b>NULL</b> character. The pointer is valid for the lifetime of the walk marker passed to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psswalksnapshot">PssWalkSnapshot</a>.
 
 
 ## -remarks
@@ -127,7 +127,7 @@ If section information was captured, this is the file path backing the section (
 
 
 
-<a href="https://msdn.microsoft.com/C6AC38B5-0A1C-44D7-A1F6-8196AE9B8FB0">PssWalkSnapshot</a> returns a <b>PSS_VA_SPACE_ENTRY</b> structure when the  <a href="https://msdn.microsoft.com/93A79F7F-2164-4F7A-ADE7-C1655EEFC9BF">PSS_WALK_INFORMATION_CLASS</a> member that the caller provides it is <b>PSS_WALK_VA_SPACE</b>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psswalksnapshot">PssWalkSnapshot</a> returns a <b>PSS_VA_SPACE_ENTRY</b> structure when the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/ne-processsnapshot-pss_walk_information_class">PSS_WALK_INFORMATION_CLASS</a> member that the caller provides it is <b>PSS_WALK_VA_SPACE</b>.
 
 
 
@@ -137,7 +137,7 @@ If section information was captured, this is the file path backing the section (
 
 
 
-<a href="https://msdn.microsoft.com/1dc6fe86-3f5a-4810-8e93-a0fe309c54ee">Process Snapshotting</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
  
 
  

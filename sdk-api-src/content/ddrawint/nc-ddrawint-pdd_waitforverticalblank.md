@@ -68,7 +68,7 @@ The <b>DdWaitForVerticalBlank</b> callback function returns the vertical blank s
 
 #### - lpWaitForVerticalBlank
 
-Points to a <a href="https://msdn.microsoft.com/27224fb2-3843-4843-b66f-0a3dd8325e1f">DD_WAITFORVERTICALBLANKDATA</a> structure that contains the information required to obtain the vertical blank status.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_waitforverticalblankdata">DD_WAITFORVERTICALBLANKDATA</a> structure that contains the information required to obtain the vertical blank status.
 
 
 ## -returns
@@ -116,7 +116,7 @@ When the driver successfully handles the action specified in <b>dwFlags</b>, it 
 
 
 
-<a href="https://msdn.microsoft.com/27224fb2-3843-4843-b66f-0a3dd8325e1f">DD_WAITFORVERTICALBLANKDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_waitforverticalblankdata">DD_WAITFORVERTICALBLANKDATA</a>
  
 
  

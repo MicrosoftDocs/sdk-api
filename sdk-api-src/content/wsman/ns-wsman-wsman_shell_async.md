@@ -64,5 +64,5 @@ Specifies the optional user context associated with the operation.
 
 ### -field completionFunction
 
-Specifies the <a href="https://msdn.microsoft.com/705732a8-7584-42cf-be9b-dd36b35bba37">WSMAN_SHELL_COMPLETION_FUNCTION</a> callback function for the operation.
+Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_shell_completion_function">WSMAN_SHELL_COMPLETION_FUNCTION</a> callback function for the operation.
 

@@ -55,8 +55,8 @@ This function is not supported.
 
 The <b>ldap_free_controls</b> function is an 
    obsolete function which frees an array of 
-   <a href="https://msdn.microsoft.com/c0b4d712-021d-46f3-8bda-aaf660ec1acc">LDAPControl</a> structures.
-<div class="alert"><b>Note</b>  Obsolete. Use the <a href="https://msdn.microsoft.com/e1e4545f-6184-41bb-bba1-4eebae9cdaaf">ldap_controls_free</a> 
+   <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapcontrola">LDAPControl</a> structures.
+<div class="alert"><b>Note</b>  Obsolete. Use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_controls_free">ldap_controls_free</a> 
     function.</div><div> </div>
 
 ## -parameters
@@ -66,7 +66,7 @@ The <b>ldap_free_controls</b> function is an
 
 ### -param Controls [in]
 
-The array of <a href="https://msdn.microsoft.com/c0b4d712-021d-46f3-8bda-aaf660ec1acc">LDAPControl</a> structures to free.
+The array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapcontrola">LDAPControl</a> structures to free.
 
 
 ## -returns
@@ -76,7 +76,7 @@ The array of <a href="https://msdn.microsoft.com/c0b4d712-021d-46f3-8bda-aaf660e
 If the function succeeds, <b>LDAP_SUCCESS</b> is returned.
 
 If the function fails, an error code is returned. For more information, see 
-       <a href="https://msdn.microsoft.com/822411b7-fc49-4b93-8e54-353350ed5de9">Return Values</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>.
 
 
 

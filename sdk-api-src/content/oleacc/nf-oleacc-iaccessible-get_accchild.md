@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IAccessible::get_accChild</b> method retrieves an <a href="https://msdn.microsoft.com/5a95f002-4fd5-43d3-9b50-7b3f7790300a">IDispatch</a> for the specified child, if one exists. All objects must support this property.
+The <b>IAccessible::get_accChild</b> method retrieves an <a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a> for the specified child, if one exists. All objects must support this property.
 
 
 ## -parameters
@@ -61,25 +61,25 @@ The <b>IAccessible::get_accChild</b> method retrieves an <a href="https://msdn.m
 
 Type: <b>VARIANT</b>
 
-Identifies the child whose <a href="https://msdn.microsoft.com/5a95f002-4fd5-43d3-9b50-7b3f7790300a">IDispatch</a> interface is retrieved. For more information about initializing the <a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a>, see <a href="https://msdn.microsoft.com/051ec5ba-540c-4ae1-b917-4c229557ca2f">How Child IDs Are Used in Parameters</a>.
+Identifies the child whose <a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a> interface is retrieved. For more information about initializing the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/how-child-ids-are-used-in-parameters">How Child IDs Are Used in Parameters</a>.
 
 
 ### -param ppdispChild [out, retval]
 
 Type: <b>IDispatch**</b>
 
-[out, retval] Receives the address of the child object's <a href="https://msdn.microsoft.com/5a95f002-4fd5-43d3-9b50-7b3f7790300a">IDispatch</a> interface.
+[out, retval] Receives the address of the child object's <a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a> interface.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If successful, returns S_OK.
 
-If not successful, returns one of the values in the table that follows, or another standard <a href="https://msdn.microsoft.com/e6deca92-42da-41ab-bfdb-75cbce3022bb">COM error code</a>. Servers return these values, but clients must always check output parameters to ensure that they contain valid values. For more information, see <a href="https://msdn.microsoft.com/0def0349-178b-4be5-aa1d-6602dc015981">Checking IAccessible Return Values</a>.
+If not successful, returns one of the values in the table that follows, or another standard <a href="https://docs.microsoft.com/windows/desktop/WinAuto/return-values">COM error code</a>. Servers return these values, but clients must always check output parameters to ensure that they contain valid values. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/checking-iaccessible-return-values">Checking IAccessible Return Values</a>.
 
 <table>
 <tr>
@@ -118,7 +118,7 @@ An argument is not valid.
 
 
 
-Servers expose elements as either elements (child IDs) or full objects (<a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a> interface pointers). If a child is an element, <b>get_accChild</b> returns S_FALSE, and the parent will provide information for that child. If the child is a full object, <b>get_accChild</b> will return the <b>IAccessible</b> interface pointer and the parent will not provide information about that child. If <b>get_accChild</b> fails because the server application cannot create an accessible object due to a temporary system error (such as an out-of-memory error), the server should return a suitable failure code.
+Servers expose elements as either elements (child IDs) or full objects (<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface pointers). If a child is an element, <b>get_accChild</b> returns S_FALSE, and the parent will provide information for that child. If the child is a full object, <b>get_accChild</b> will return the <b>IAccessible</b> interface pointer and the parent will not provide information about that child. If <b>get_accChild</b> fails because the server application cannot create an accessible object due to a temporary system error (such as an out-of-memory error), the server should return a suitable failure code.
 
 <b>Note to server developers:  </b>If <i>varChildID</i> contains VT_EMPTY, you should return E_INVALIDARG.
             
@@ -153,27 +153,27 @@ HRESULT STDMETHODCALLTYPE AccServer::get_accChild(
 
 
 
-<a href="https://msdn.microsoft.com/dc9262d8-f57f-41f8-8945-d95f38d197e9">AccessibleChildren</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-accessiblechildren">AccessibleChildren</a>
 
 
 
-<a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c8c5208-ea77-47b2-913d-314ade0313f5">IAccessible::get_accParent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accparent">IAccessible::get_accParent</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a95f002-4fd5-43d3-9b50-7b3f7790300a">IDispatch</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/c6bcd044-bf70-4eec-92ae-66f9bd836c33">Object Navigation Properties and Methods</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/object-navigation-properties-and-methods">Object Navigation Properties and Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>
  
 
  

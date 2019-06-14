@@ -49,11 +49,11 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The <b>SslFreeCertificate</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/7d2f3237-3f8b-4234-b6db-3057384cd89b">CertFreeCertificateContext</a> function.]
+<p class="CCE_Message">[The <b>SslFreeCertificate</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> function.]
 
-Frees a certificate that was allocated by a previous call to the <a href="https://msdn.microsoft.com/e5ffeebb-0b09-4f0a-b2dc-75fb2a3af7ed">SslCrackCertificate</a> function.
+Frees a certificate that was allocated by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/schannel/nf-schannel-sslcrackcertificate">SslCrackCertificate</a> function.
 
-This function has no associated import library. You must use the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> functions to dynamically link to Schannel.dll.
+This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Schannel.dll.
 
 
 ## -parameters
@@ -80,7 +80,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/e5ffeebb-0b09-4f0a-b2dc-75fb2a3af7ed">SslCrackCertificate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/schannel/nf-schannel-sslcrackcertificate">SslCrackCertificate</a>
  
 
  

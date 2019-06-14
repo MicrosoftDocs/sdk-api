@@ -72,7 +72,7 @@ Type: <b>BOOL</b>
 
 Returns nonzero if successful, or zero otherwise.
 
-To retrieve extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+To retrieve extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -93,7 +93,7 @@ If a screen saver does not register any special window classes for the configura
 
 
 
-<a href="https://msdn.microsoft.com/84c2966f-8f01-4f8d-9cec-c7fef657bff0">ScreenSaverConfigureDialog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/scrnsave/nf-scrnsave-screensaverconfiguredialog">ScreenSaverConfigureDialog</a>
  
 
  

@@ -52,8 +52,8 @@ ms.custom: 19H1
 
 
 Reads data from a handle opened by the 
-<a href="https://msdn.microsoft.com/73f969c3-3fa7-43f5-88c5-ba78e59a8d1c">InternetOpenUrl</a> or 
-<a href="https://msdn.microsoft.com/caaff8e8-7db9-4d6d-8ba2-d8d19475173a">HttpOpenRequest</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetopenurla">InternetOpenUrl</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpopenrequesta">HttpOpenRequest</a> function.
 
 
 ## -parameters
@@ -64,14 +64,14 @@ Reads data from a handle opened by the
 ### -param hFile [in]
 
 Handle returned by the 
-<a href="https://msdn.microsoft.com/73f969c3-3fa7-43f5-88c5-ba78e59a8d1c">InternetOpenUrl</a> or 
-<a href="https://msdn.microsoft.com/caaff8e8-7db9-4d6d-8ba2-d8d19475173a">HttpOpenRequest</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetopenurla">InternetOpenUrl</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpopenrequesta">HttpOpenRequest</a> function.
 
 
 ### -param lpBuffersOut [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/9381184d-17f4-46ad-bd09-15c7e653d1b9">INTERNET_BUFFERS</a> structure that receives the data downloaded.
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-_internet_buffersa">INTERNET_BUFFERS</a> structure that receives the data downloaded.
 
 
 ### -param dwFlags [in]
@@ -90,7 +90,7 @@ This parameter can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-Identical to  <a href="https://msdn.microsoft.com/en-us/library/Aa383661(v=VS.85).aspx">WININET_API_FLAG_ASYNC</a>.
+Identical to  <a href="https://docs.microsoft.com/windows/desktop/WinInet/api-flags">WININET_API_FLAG_ASYNC</a>.
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ Identical to  <a href="https://msdn.microsoft.com/en-us/library/Aa383661(v=VS.85
 </dl>
 </td>
 <td width="60%">
-Identical to <a href="https://msdn.microsoft.com/en-us/library/Aa383661(v=VS.85).aspx">WININET_API_FLAG_SYNC</a>.
+Identical to <a href="https://docs.microsoft.com/windows/desktop/WinInet/api-flags">WININET_API_FLAG_SYNC</a>.
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ Identical to <a href="https://msdn.microsoft.com/en-us/library/Aa383661(v=VS.85)
 </dl>
 </td>
 <td width="60%">
-Identical to <a href="https://msdn.microsoft.com/en-us/library/Aa383661(v=VS.85).aspx">WININET_API_FLAG_USE_CONTEXT</a>.
+Identical to <a href="https://docs.microsoft.com/windows/desktop/WinInet/api-flags">WININET_API_FLAG_USE_CONTEXT</a>.
 
 </td>
 </tr>
@@ -141,8 +141,8 @@ A caller supplied context value used for asynchronous operations.
 
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. An application can also use 
-<a href="https://msdn.microsoft.com/0aa274c5-0aa0-4eb9-8aef-3128e735759d">InternetGetLastResponseInfo</a> when necessary.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. An application can also use 
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetgetlastresponseinfoa">InternetGetLastResponseInfo</a> when necessary.
 
 
 
@@ -151,7 +151,7 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get extended er
 
 
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
@@ -161,11 +161,11 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get extended er
 
 
 
-<a href="https://msdn.microsoft.com/c80768cf-c8c0-4bdf-9ea2-f82c92ade05a">Common Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinInet/common-functions">Common Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/2e0da5c6-29e4-47b5-8ed2-8712c9ca2c97">WinINet Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
  
 
  

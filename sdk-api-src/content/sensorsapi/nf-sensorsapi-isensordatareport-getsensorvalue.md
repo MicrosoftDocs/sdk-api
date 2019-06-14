@@ -127,7 +127,7 @@ Platform-defined data field <b>PROPERTYKEY</b>s are defined in Sensors.h.
 
 #### Examples
 
-For an example of how to retrieve a sensor data field value, see <a href="https://msdn.microsoft.com/4ae80816-5e53-4ed1-9300-4b38c22d65e2">Retrieving Sensor Data Values</a>.
+For an example of how to retrieve a sensor data field value, see <a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/retrieving-sensor-data-fields">Retrieving Sensor Data Values</a>.
 
 <div class="code"></div>
 
@@ -138,7 +138,7 @@ For an example of how to retrieve a sensor data field value, see <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/c677b956-e3ab-477c-b97b-aceec4e2d235">ISensorDataReport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensordatareport">ISensorDataReport</a>
  
 
  

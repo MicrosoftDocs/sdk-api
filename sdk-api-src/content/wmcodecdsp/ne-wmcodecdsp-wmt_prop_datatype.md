@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines the data types used for the codec and DSP properties that are accessed by using the methods of the <a href="https://msdn.microsoft.com/b49e506b-8c87-44b9-be6c-b9a33f6c9ecb">IWMCodecProps</a> interface.
+Defines the data types used for the codec and DSP properties that are accessed by using the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecprops">IWMCodecProps</a> interface.
 
 
 
@@ -110,7 +110,7 @@ Most properties are accessed by using the methods of the <b>IPropertyBag</b> int
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

@@ -152,11 +152,11 @@ This function may send data over the wire in unencrypted form; therefore, someon
 
 
 
-<a href="https://msdn.microsoft.com/bab167cf-2726-4423-87b3-69227404bddc">ITDirectoryObjectConference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobjectconference">ITDirectoryObjectConference</a>
 
 
 
-<a href="https://msdn.microsoft.com/df22b117-8382-4ea2-8e6b-961f87f41b21">ITDirectoryObjectConference::get_StopTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-get_stoptime">ITDirectoryObjectConference::get_StopTime</a>
  
 
  

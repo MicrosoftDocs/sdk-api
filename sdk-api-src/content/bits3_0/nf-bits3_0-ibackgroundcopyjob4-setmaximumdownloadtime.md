@@ -99,7 +99,7 @@ The value is the maximum elapsed time that the job can spend in the CONNECTING o
 
 Note that if the computer sleeps while BITS is transferring the job's data, the time spent sleeping will count against the timeout even though data is not being transferred.
 
-Calling the <a href="https://msdn.microsoft.com/a9e6f057-0a51-4f2d-810b-edbb3e019370">IBackgroundCopyJob::Resume</a> method, resets the elapsed time.
+Calling the <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-resume">IBackgroundCopyJob::Resume</a> method, resets the elapsed time.
 
 This method overrides the MaxDownloadTime group policy.
 
@@ -111,11 +111,11 @@ This method overrides the MaxDownloadTime group policy.
 
 
 
-<a href="https://msdn.microsoft.com/68909710-f749-487e-b064-9f8630929c53">IBackgroundCopyJob4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ibackgroundcopyjob4">IBackgroundCopyJob4</a>
 
 
 
-<a href="https://msdn.microsoft.com/2d258dc4-a6fd-46d7-ac90-2703c8ddc666">IBackgroundCopyJob4::GetMaximumDownloadTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyjob4-getmaximumdownloadtime">IBackgroundCopyJob4::GetMaximumDownloadTime</a>
  
 
  

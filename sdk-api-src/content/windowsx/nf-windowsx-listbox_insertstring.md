@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Adds a string to a list box at the specified location. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761321(v=VS.85).aspx">LB_INSERTSTRING</a> message explicitly.
+Adds a string to a list box at the specified location. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-insertstring">LB_INSERTSTRING</a> message explicitly.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Adds a string to a list box at the specified location. You can use this macro or
 
 ### -param hwndCtl
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -73,7 +73,7 @@ The zero-based index at which to insert the string, or –1 to add it to the end
 
 ### -param lpsz
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
 The string to add.
 
@@ -82,7 +82,7 @@ The string to add.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761321(v=VS.85).aspx">LB_INSERTSTRING</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-insertstring">LB_INSERTSTRING</a>.
 	
 
 

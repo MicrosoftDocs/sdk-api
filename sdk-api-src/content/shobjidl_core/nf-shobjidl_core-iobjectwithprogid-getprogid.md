@@ -80,11 +80,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/3b66ba49-ed39-464e-b15a-c72fdff7f5e5">IObjectWithProgID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithprogid">IObjectWithProgID</a>
 
 
 
-<a href="https://msdn.microsoft.com/f2b666d6-bf22-47b5-87e1-8de5ff51c152">Programmatic Identifiers</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/fa-progids">Programmatic Identifiers</a>
  
 
  

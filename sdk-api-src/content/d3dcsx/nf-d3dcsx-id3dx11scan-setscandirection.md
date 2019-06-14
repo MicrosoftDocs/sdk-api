@@ -60,18 +60,18 @@ Sets which direction to perform scans in.
 
 ### -param Direction [in]
 
-Type: <b><a href="https://msdn.microsoft.com/bb2660c8-2a29-4eb2-9156-5516b60a8dc3">D3DX11_SCAN_DIRECTION</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3dcsx/ne-d3dcsx-d3dx11_scan_direction">D3DX11_SCAN_DIRECTION</a></b>
 
-Direction to perform scans in.  See <a href="https://msdn.microsoft.com/bb2660c8-2a29-4eb2-9156-5516b60a8dc3">D3DX11_SCAN_DIRECTION</a>.
+Direction to perform scans in.  See <a href="https://docs.microsoft.com/windows/desktop/api/d3dcsx/ne-d3dcsx-d3dx11_scan_direction">D3DX11_SCAN_DIRECTION</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-Returns one of the return codes described in the topic <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
+Returns one of the return codes described in the topic <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a>.
 
 
 
@@ -80,7 +80,7 @@ Returns one of the return codes described in the topic <a href="https://msdn.mic
 
 
 
-<b>SetScanDirection</b> sets the direction <a href="https://msdn.microsoft.com/42b91efd-3d84-4c76-bb9f-da0f398da6c7">ID3DX11Scan::Scan</a> and <a href="https://msdn.microsoft.com/5b6c637b-747d-465c-8915-dba13725ee0b">ID3DX11Scan::Multiscan</a> will performed scans in.
+<b>SetScanDirection</b> sets the direction <a href="https://docs.microsoft.com/windows/desktop/api/d3dcsx/nf-d3dcsx-id3dx11scan-scan">ID3DX11Scan::Scan</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d3dcsx/nf-d3dcsx-id3dx11scan-multiscan">ID3DX11Scan::Multiscan</a> will performed scans in.
 
 
 
@@ -90,7 +90,7 @@ Returns one of the return codes described in the topic <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/f57401b9-fa1e-4470-a974-825749773f95">ID3DX11Scan</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3dcsx/nn-d3dcsx-id3dx11scan">ID3DX11Scan</a>
  
 
  

@@ -85,7 +85,7 @@ The following scenario illustrates the functionality of this method:
 <li>Base process 2 uses that reference to call into object X.</li>
 <li>Object X then calls into object Y, running on server C. If object Y then calls <b>GetOriginalCallerName</b>, the name of user D is returned, not user A, who originally created the object.</li>
 </ol>
-The path to the original caller is broken if any object along the chain was created by some other means than <a href="https://msdn.microsoft.com/9719f672-d706-44e3-b976-28d0d0feacd1">ObjectContext::CreateInstance</a> or <a href="https://msdn.microsoft.com/3dc08700-0872-4d60-a968-cffed974c7b2">ITransactionContext::CreateInstance</a>. For example, if base process 1 uses <a href="https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a> to create object X, when object Y calls <b>GetOriginalCallerName</b>, the name it gets back will be the name of user B, not user D. This is because the call sequence is traced back through the objects' context and COM+ can create a context only for an object that is created with either <b>ObjectContext::CreateInstance</b> or <b>ITransactionContext::CreateInstance</b>.
+The path to the original caller is broken if any object along the chain was created by some other means than <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-objectcontext-createinstance">ObjectContext::CreateInstance</a> or <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-itransactioncontext-createinstance">ITransactionContext::CreateInstance</a>. For example, if base process 1 uses <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> to create object X, when object Y calls <b>GetOriginalCallerName</b>, the name it gets back will be the name of user B, not user D. This is because the call sequence is traced back through the objects' context and COM+ can create a context only for an object that is created with either <b>ObjectContext::CreateInstance</b> or <b>ITransactionContext::CreateInstance</b>.
 
 
 
@@ -95,7 +95,7 @@ The path to the original caller is broken if any object along the chain was crea
 
 
 
-<a href="https://msdn.microsoft.com/e4eb8e83-3510-4c2c-8b9c-563bfcbf48b3">SecurityProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-securityproperty">SecurityProperty</a>
  
 
  

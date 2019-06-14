@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deprecated. Allows the derived class to send a message through the <a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a> function directly instead of relying on the base class.
+Deprecated. Allows the derived class to send a message through the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> function directly instead of relying on the base class.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ A handle to the browser window whose window procedure receives the message.
 
 Type: <b>BOOL</b>
 
-The <b>BOOL</b> that indicates whether to allow the derived class to broadcast the <a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a> function. <b>TRUE</b> to allow broadcasting; <b>FALSE</b> otherwise.
+The <b>BOOL</b> that indicates whether to allow the derived class to broadcast the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> function. <b>TRUE</b> to allow broadcasting; <b>FALSE</b> otherwise.
         
 
 

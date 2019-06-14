@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>MapGeneric</b> method requests that the generic access rights in an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access mask</a> be mapped to their corresponding standard and specific access rights. For more information about generic, standard, and specific access rights, see 
-<a href="https://msdn.microsoft.com/da67c486-d2e7-4632-ac7a-c18aabc3f21d">Access Rights and Access Masks</a>.
+The <b>MapGeneric</b> method requests that the generic access rights in an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access mask</a> be mapped to their corresponding standard and specific access rights. For more information about generic, standard, and specific access rights, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-rights-and-access-masks">Access Rights and Access Masks</a>.
 
 
 ## -parameters
@@ -61,13 +61,13 @@ The <b>MapGeneric</b> method requests that the generic access rights in an <a hr
 ### -param pguidObjectType [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a> structure that identifies the type of object to which the <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access mask</a> applies. If this member is <b>NULL</b> or a pointer to GUID_NULL, the access mask applies to the object itself.
+<a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structure that identifies the type of object to which the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access mask</a> applies. If this member is <b>NULL</b> or a pointer to GUID_NULL, the access mask applies to the object itself.
 
 
 ### -param pAceFlags [in]
 
 A pointer to the <b>AceFlags</b> member of the 
-<a href="https://msdn.microsoft.com/d23f15d6-0453-4aaf-a2db-7528b551a992">ACE_HEADER</a> structure from the ACE whose access mask is being mapped.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a> structure from the ACE whose access mask is being mapped.
 
 
 ### -param pMask [in]
@@ -81,7 +81,7 @@ A pointer to an access mask that contains the generic access rights to map. Your
 
 If the function succeeds, the function returns S_OK.
 
- If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+ If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -91,7 +91,7 @@ If the function succeeds, the function returns S_OK.
 
 
 Your <b>MapGeneric</b> implementation can call the 
-<a href="https://msdn.microsoft.com/54b5cd73-4011-4dcf-a951-7350dbd6eeab">MapGenericMask</a> function to map the generic access rights in the access mask.
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-mapgenericmask">MapGenericMask</a> function to map the generic access rights in the access mask.
 
 
 
@@ -101,35 +101,35 @@ Your <b>MapGeneric</b> implementation can call the
 
 
 
-<a href="https://msdn.microsoft.com/d23f15d6-0453-4aaf-a2db-7528b551a992">ACE_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/ca709f27-8463-4f11-92ac-2148796e640a">Access Control Editor</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-editor">Access Control Editor</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Access Control Editor Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Access Control Editor Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/52cb20fd-7f3a-4984-a898-f4b9e9738e1a">CreateSecurityPage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-createsecuritypage">CreateSecurityPage</a>
 
 
 
-<a href="https://msdn.microsoft.com/756c94b0-946f-47eb-b4b4-db3e6e89fe46">EditSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-editsecurity">EditSecurity</a>
 
 
 
-<a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a>
+<a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a>
 
 
 
-<a href="https://msdn.microsoft.com/38d94f36-f149-4b62-a710-8f7359bfd8cd">ISecurityInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/54b5cd73-4011-4dcf-a951-7350dbd6eeab">MapGenericMask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-mapgenericmask">MapGenericMask</a>
  
 
  

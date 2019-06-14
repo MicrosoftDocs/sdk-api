@@ -88,7 +88,7 @@ The transaction was committed.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/5f3f83e0-33fc-4c43-9327-59485c0d8bd3">TransactionContextEx</a> object is not running under a COM+ process, possibly indicating a corrupted registry entry for the <b>TransactionContextEx</b> component.
+The <a href="https://docs.microsoft.com/windows/desktop/cossdk/transactioncontextex">TransactionContextEx</a> object is not running under a COM+ process, possibly indicating a corrupted registry entry for the <b>TransactionContextEx</b> component.
 
 </td>
 </tr>
@@ -113,11 +113,11 @@ The transaction was aborted.
 
 
 
-Calling <a href="https://msdn.microsoft.com/3945fdf1-6361-413e-9621-18871ded47a4">Commit</a> attempts to commit a transaction. However, the transaction aborts under the following conditions:
+Calling <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-itransactioncontext-commit">Commit</a> attempts to commit a transaction. However, the transaction aborts under the following conditions:
 
 <ul>
-<li>If a participating object returns from a method after calling <a href="https://msdn.microsoft.com/c254305f-1fc5-417e-b93b-d5e2b36e9e39">SetAbort</a>.</li>
-<li>If an object calls <a href="https://msdn.microsoft.com/e83d1223-9b8e-4a92-b98d-9d2b6ed34721">DisableCommit</a> and returns without calling <a href="https://msdn.microsoft.com/6571aadc-bf5a-48c3-817a-66ce444ef96a">EnableCommit</a> or <a href="https://msdn.microsoft.com/8ff25b68-fcb3-4e11-9c74-b49b31806796">SetComplete</a>. 
+<li>If a participating object returns from a method after calling <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontext-setabort">SetAbort</a>.</li>
+<li>If an object calls <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontext-disablecommit">DisableCommit</a> and returns without calling <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontext-enablecommit">EnableCommit</a> or <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontext-setcomplete">SetComplete</a>. 
 </li>
 <li>If an error causes the Microsoft Distributed Transaction Coordinator (DTC) to abort.
 </li>
@@ -127,7 +127,7 @@ When the method returns, whether the transaction commits or aborts, the transact
 
 #### Examples
 
-See the example in <a href="https://msdn.microsoft.com/78f9169f-ecb3-4774-bd28-b1ba83c0838c">ITransactionContextEx::Abort</a>.
+See the example in <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-itransactioncontextex-abort">ITransactionContextEx::Abort</a>.
 
 
 <div class="code"></div>
@@ -139,7 +139,7 @@ See the example in <a href="https://msdn.microsoft.com/78f9169f-ecb3-4774-bd28-b
 
 
 
-<a href="https://msdn.microsoft.com/cdf3a74f-cdef-4721-9c0d-90af724c24ba">ITransactionContextEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-itransactioncontextex">ITransactionContextEx</a>
  
 
  

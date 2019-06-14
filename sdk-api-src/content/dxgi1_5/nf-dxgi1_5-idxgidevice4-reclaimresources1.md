@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Restores access to resources that were previously offered by calling <a href="https://msdn.microsoft.com/7F6782F3-7779-4DBD-AD5A-AE0FB136FC70">IDXGIDevice4::OfferResources1</a>.
+Restores access to resources that were previously offered by calling <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/nf-dxgi1_5-idxgidevice4-offerresources1">IDXGIDevice4::OfferResources1</a>.
 
 
 ## -parameters
@@ -68,21 +68,21 @@ The number of resources in the <i>ppResources</i> argument and <i>pResults</i> a
 
 Type: <b>IDXGIResource*</b>
 
-An array of pointers to <a href="https://msdn.microsoft.com/en-us/library/Bb174560(v=VS.85).aspx">IDXGIResource</a> interfaces for the resources to reclaim.
+An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiresource">IDXGIResource</a> interfaces for the resources to reclaim.
 
 
 ### -param pResults [out]
 
-Type: <b><a href="https://msdn.microsoft.com/AF7082A5-6280-4602-9944-EC2DFF91BBB9">DXGI_RECLAIM_RESOURCE_RESULTS</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/ne-dxgi1_5-_dxgi_reclaim_resource_results">DXGI_RECLAIM_RESOURCE_RESULTS</a>*</b>
 
-A pointer to an array that receives <a href="https://msdn.microsoft.com/AF7082A5-6280-4602-9944-EC2DFF91BBB9">DXGI_RECLAIM_RESOURCE_RESULTS</a> values. Each value in the array corresponds to a resource at the same index that the <i>ppResources</i> parameter specifies.  The caller can pass in <b>NULL</b>, if the caller intends to fill the resources with new content regardless of whether the old content was discarded.
+A pointer to an array that receives <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/ne-dxgi1_5-_dxgi_reclaim_resource_results">DXGI_RECLAIM_RESOURCE_RESULTS</a> values. Each value in the array corresponds to a resource at the same index that the <i>ppResources</i> parameter specifies.  The caller can pass in <b>NULL</b>, if the caller intends to fill the resources with new content regardless of whether the old content was discarded.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 This method returns an HRESULT success or error code, including E_INVALIDARG if the resources are invalid.
 
@@ -93,9 +93,9 @@ This method returns an HRESULT success or error code, including E_INVALIDARG if 
 
 
 
-After you call <a href="https://msdn.microsoft.com/7F6782F3-7779-4DBD-AD5A-AE0FB136FC70">OfferResources1</a> to offer one or more resources, you must call <b>ReclaimResources1</b> before you can use those resources again.
+After you call <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/nf-dxgi1_5-idxgidevice4-offerresources1">OfferResources1</a> to offer one or more resources, you must call <b>ReclaimResources1</b> before you can use those resources again.
 
-To reclaim shared resources, call <b>ReclaimResources1</b> only on one of the sharing devices.  To ensure exclusive access to the resources, you must use an <a href="https://msdn.microsoft.com/f790eb46-f116-4258-8c8d-de1ece4a1f21">IDXGIKeyedMutex</a> object and then call <b>ReclaimResources1</b> only while you hold the mutex.
+To reclaim shared resources, call <b>ReclaimResources1</b> only on one of the sharing devices.  To ensure exclusive access to the resources, you must use an <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgikeyedmutex">IDXGIKeyedMutex</a> object and then call <b>ReclaimResources1</b> only while you hold the mutex.
 
 
 
@@ -105,11 +105,11 @@ To reclaim shared resources, call <b>ReclaimResources1</b> only on one of the sh
 
 
 
-<a href="https://msdn.microsoft.com/15EA6B68-587E-4D92-A70D-7DDA9915EBC2">IDXGIDevice4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/nn-dxgi1_5-idxgidevice4">IDXGIDevice4</a>
 
 
 
-<a href="https://msdn.microsoft.com/30533605-0F5A-4D15-B01E-7C23E2AE775E">ReclaimResources</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgidevice2-reclaimresources">ReclaimResources</a>
  
 
  

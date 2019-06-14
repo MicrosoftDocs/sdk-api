@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information for the <a href="https://msdn.microsoft.com/51987a79-78bf-41b2-8349-8c2725dd89d6">OPM_GET_CODEC_INFO</a> command.
+Contains information for the <a href="https://docs.microsoft.com/windows/desktop/medfound/opm-get-codec-info">OPM_GET_CODEC_INFO</a> command.
 
 
 ## -struct-fields
@@ -76,11 +76,11 @@ A byte array that contains one of the following:
 
 
 
-<a href="https://msdn.microsoft.com/676a60ca-393e-4b5d-89d3-50cf4b771492">OPM Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/opm-structures">OPM Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/daae615b-37c4-4044-91c6-693357e0016a">Output Protection Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
  
 
  

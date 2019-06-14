@@ -62,7 +62,7 @@ Retrieves the Multimedia Class Scheduler Service (MMCSS) task identifier current
 
 ### -param workQueueId [in]
 
-Identifier for the work queue. The identifier is retrieved by the <a href="https://msdn.microsoft.com/B8FF907A-1448-43A4-B249-9D3D859D8F95">RtwqAllocateWorkQueue</a> function.
+Identifier for the work queue. The identifier is retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqallocateworkqueue">RtwqAllocateWorkQueue</a> function.
 
 
 ### -param taskId [out]

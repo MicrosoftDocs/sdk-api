@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 
-The <code>IAMNetShowExProps</code> interface configures the legacy Windows Media Player 6.4 source filter. The <a href="https://msdn.microsoft.com/e59b3086-4f62-4541-8bef-b0581f01906f">Windows Media Source</a> filter implements this interface.
+The <code>IAMNetShowExProps</code> interface configures the legacy Windows Media Player 6.4 source filter. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/windows-media-source-filter">Windows Media Source</a> filter implements this interface.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMNetShowExProps</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAMNetShowExProps</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMNetShowExProps</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMNetShowExProps</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IAMNetShowExProps</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319723(v=VS.85).aspx">get_Bandwidth</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-get_bandwidth">get_Bandwidth</a>
 </td>
 <td align="left" width="63%">
 Retrieves the bandwidth.
@@ -81,7 +81,7 @@ Retrieves the bandwidth.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319724(v=VS.85).aspx">get_CodecCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-get_codeccount">get_CodecCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number codecs needed to play the file.
@@ -90,7 +90,7 @@ Retrieves the number codecs needed to play the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319725(v=VS.85).aspx">get_CreationDate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-get_creationdate">get_CreationDate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the creation date.
@@ -99,7 +99,7 @@ Retrieves the creation date.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319726(v=VS.85).aspx">get_ErrorCorrection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-get_errorcorrection">get_ErrorCorrection</a>
 </td>
 <td align="left" width="63%">
 Retrieves the error correction method.
@@ -108,7 +108,7 @@ Retrieves the error correction method.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319727(v=VS.85).aspx">get_SourceLink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-get_sourcelink">get_SourceLink</a>
 </td>
 <td align="left" width="63%">
 Retrieves the source link.
@@ -117,7 +117,7 @@ Retrieves the source link.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319728(v=VS.85).aspx">get_SourceProtocol</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-get_sourceprotocol">get_SourceProtocol</a>
 </td>
 <td align="left" width="63%">
 Retrieves the source protocol.
@@ -126,7 +126,7 @@ Retrieves the source protocol.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319720(v=VS.85).aspx">GetCodecDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-getcodecdescription">GetCodecDescription</a>
 </td>
 <td align="left" width="63%">
 Retrieves the user-friendly description of a codec.
@@ -135,7 +135,7 @@ Retrieves the user-friendly description of a codec.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319721(v=VS.85).aspx">GetCodecInstalled</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-getcodecinstalled">GetCodecInstalled</a>
 </td>
 <td align="left" width="63%">
 Queries whether a specified codec is installed on the local system.
@@ -144,7 +144,7 @@ Queries whether a specified codec is installed on the local system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319722(v=VS.85).aspx">GetCodecURL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-getcodecurl">GetCodecURL</a>
 </td>
 <td align="left" width="63%">
 Retrieves the URL from which the codec may be downloaded.
@@ -174,7 +174,7 @@ To define the interface identifier, include the header file Initguid.h before Qn
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

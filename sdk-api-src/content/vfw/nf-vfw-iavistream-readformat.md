@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>ReadFormat</b> method obtains format information from a stream. Fills and returns a structure with the data in an application-defined buffer. If no buffer is supplied, determines the buffer size needed to retrieve the buffer of format data. Called when an application uses the <a href="https://msdn.microsoft.com/312b7d20-89b2-4102-acf6-f603610dadd6">AVIStreamReadFormat</a> function.
+The <b>ReadFormat</b> method obtains format information from a stream. Fills and returns a structure with the data in an application-defined buffer. If no buffer is supplied, determines the buffer size needed to retrieve the buffer of format data. Called when an application uses the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avistreamreadformat">AVIStreamReadFormat</a> function.
 
 
 
@@ -118,11 +118,11 @@ HRESULT ReadFormat(LONG lPos, LPVOID lpFormat,
 
 
 
-<a href="https://msdn.microsoft.com/ced6f7d1-5f27-47f4-a912-8c17ea5fa685">Custom File and Stream Handler Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/c61e0118-d405-4c1e-9ae8-ed6a145a5d6b">Custom File and Stream Handlers</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
  
 
  

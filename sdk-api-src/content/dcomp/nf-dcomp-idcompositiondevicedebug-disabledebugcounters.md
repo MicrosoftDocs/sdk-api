@@ -63,7 +63,7 @@ Disables display of performance debugging counters.
 
 
 
-If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/8DFBFC34-DBD0-4731-8305-B33E90C96C54">DirectComposition Error Codes</a>  for a list of error codes.
+If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/directcomp/directcomposition-error-codes">DirectComposition Error Codes</a>  for a list of error codes.
 
 
 
@@ -82,11 +82,11 @@ Microsoft DirectComposition keeps a count of how many DirectComposition devices 
 
 
 
-<a href="https://msdn.microsoft.com/B8D17570-9729-45DB-99E1-A2EBBDAA5996">IDCompositionDeviceDebug</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiondevicedebug">IDCompositionDeviceDebug</a>
 
 
 
-<a href="https://msdn.microsoft.com/AA0E913F-D89F-4AF1-91DE-B57D0C016DB7">IDCompositionDeviceDebug::EnableDebugCounters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevicedebug-enabledebugcounters">IDCompositionDeviceDebug::EnableDebugCounters</a>
  
 
  

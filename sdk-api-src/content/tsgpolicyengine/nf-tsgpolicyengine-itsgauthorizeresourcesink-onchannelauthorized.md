@@ -106,7 +106,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 You can call this method from your implementation of 
-    <a href="https://msdn.microsoft.com/77950541-c94a-4035-a2d8-a6014eb387e5">AuthorizeResource</a>. If 
+    <a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/nf-tsgpolicyengine-itsgpolicyengine-authorizeresource">AuthorizeResource</a>. If 
     authorization requires more than 1 second, we recommend launching a separate thread to perform 
     authentication.
 
@@ -126,7 +126,7 @@ For an example that uses the
 
 
 
-<a href="https://msdn.microsoft.com/4656064a-41d9-428c-8260-24eea0ee83cc">ITSGAuthorizeResourceSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/nn-tsgpolicyengine-itsgauthorizeresourcesink">ITSGAuthorizeResourceSink</a>
  
 
  

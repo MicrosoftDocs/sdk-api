@@ -52,8 +52,8 @@ ms.custom: 19H1
 Encrypts a message exchanged between a client and server.
 
 The <b>SpSealMessage</b> function is the dispatch function for the 
-<a href="https://msdn.microsoft.com/2e09f262-9c3e-4db2-9285-017f5e1810c7">EncryptMessage (General)</a> function of the 
-<a href="https://msdn.microsoft.com/91d2389b-1238-49d3-9fef-f1017a8072df">Security Support Provider Interface</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-encryptmessage">EncryptMessage (General)</a> function of the 
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi">Security Support Provider Interface</a>.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The <b>SpSealMessage</b> function is the dispatch function for the
 
 ### -param ContextHandle [in]
 
-Handle of the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a> used to sign the message.
+Handle of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a> used to sign the message.
 
 
 ### -param QualityOfProtection [in]
@@ -74,7 +74,7 @@ Specifies package-specific flags that indicate the quality of protection. An SSP
 ### -param MessageBuffers [in, out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/fc6ef09c-3ba9-4bcb-a3c2-07422af8eaa9">SecBufferDesc</a> structure that contains message buffers. Only one of these message buffers can be of type SECBUFFER_DATA, and it contains the message to be encrypted. The buffer cannot have the SECBUFFER_READONLY attribute because the encryption is done in-place.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbufferdesc">SecBufferDesc</a> structure that contains message buffers. Only one of these message buffers can be of type SECBUFFER_DATA, and it contains the message to be encrypted. The buffer cannot have the SECBUFFER_READONLY attribute because the encryption is done in-place.
 
 
 ### -param MessageSequenceNumber [in]
@@ -128,13 +128,13 @@ The signature buffer could not be found or was too small.
 
 
 Messages encrypted by the sender using the <b>SpSealMessage</b> function are decrypted using the 
-<a href="https://msdn.microsoft.com/3ece6f30-bb8b-4fad-a8c4-9088c134cf25">SpUnsealMessage</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spunsealmessagefn">SpUnsealMessage</a> function.
 
 SSP/APs must implement the <b>SpSealMessage</b> function; however, the actual name given to the implementation is up to the developer.
 
 A pointer to the <b>SpSealMessage</b> function is available in the 
-<a href="https://msdn.microsoft.com/2b3fc6d1-2f55-4053-9271-f5cb5c318555">SECPKG_USER_FUNCTION_TABLE</a> structure received from the 
-<a href="https://msdn.microsoft.com/e260db29-995b-4f32-b389-4ef62b3b29bc">SpUserModeInitialize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a> structure received from the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a> function.
 
 
 
@@ -144,15 +144,15 @@ A pointer to the <b>SpSealMessage</b> function is available in the
 
 
 
-<a href="https://msdn.microsoft.com/2b3fc6d1-2f55-4053-9271-f5cb5c318555">SECPKG_USER_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/3ece6f30-bb8b-4fad-a8c4-9088c134cf25">SpUnsealMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spunsealmessagefn">SpUnsealMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/e260db29-995b-4f32-b389-4ef62b3b29bc">SpUserModeInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a>
  
 
  

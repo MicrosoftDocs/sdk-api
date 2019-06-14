@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Called from <a href="https://msdn.microsoft.com/6604112A-5BD5-4B2C-AECC-D09180B04D7F">IImePad</a> to terminate <a href="https://msdn.microsoft.com/F3BC7176-9659-47B6-AFCA-049807394961">IImePadApplet</a> when the IMEPad instance exits.
+Called from <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> to terminate <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a> when the IMEPad instance exits.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ Called from <a href="https://msdn.microsoft.com/6604112A-5BD5-4B2C-AECC-D09180B0
 
 
 
-<a href="https://msdn.microsoft.com/F3BC7176-9659-47B6-AFCA-049807394961">IImePadApplet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a>
  
 
  

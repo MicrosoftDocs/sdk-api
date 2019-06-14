@@ -59,37 +59,37 @@ Applies the opacity mask described by the specified bitmap to a brush and uses t
 
 ### -param opacityMask [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e58216ea-e6b5-450f-a0ea-b879aa5dff38">ID2D1Bitmap</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>*</b>
 
 The opacity mask to apply to the brush. The alpha value of each pixel in the  region specified by <i>sourceRectangle</i> is multiplied with the alpha value of the brush after the brush has been mapped to the area defined by <i>destinationRectangle</i>.
 
 
 ### -param brush [in]
 
-Type: <b><a href="https://msdn.microsoft.com/5b8f6ff8-ba52-4d30-9bea-3de89793c868">ID2D1Brush</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>*</b>
 
 The brush used to paint the region of the render target specified by <i>destinationRectangle</i>.
 
 
 ### -param content
 
-Type: <b><a href="https://msdn.microsoft.com/ea14d7eb-b8cc-4ab8-8f51-9174748ee6a2">D2D1_OPACITY_MASK_CONTENT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_opacity_mask_content">D2D1_OPACITY_MASK_CONTENT</a></b>
 
 The type of content the opacity mask contains. The value is used to determine the color space in which the opacity mask is blended. 
 
-<div class="alert"><b>Note</b>  Starting with Windows 8, the <a href="https://msdn.microsoft.com/ea14d7eb-b8cc-4ab8-8f51-9174748ee6a2">D2D1_OPACITY_MASK_CONTENT</a> is not required. See the <a href="https://msdn.microsoft.com/5D5BF7E9-AC5A-49B7-A04E-97B8377243FE">ID2D1DeviceContext::FillOpacityMask</a> method, which has no <b>D2D1_OPACITY_MASK_CONTENT</b> parameter.</div>
+<div class="alert"><b>Note</b>  Starting with Windows 8, the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_opacity_mask_content">D2D1_OPACITY_MASK_CONTENT</a> is not required. See the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-fillopacitymask(id2d1bitmap_id2d1brush_constd2d1_rect_f__constd2d1_rect_f)">ID2D1DeviceContext::FillOpacityMask</a> method, which has no <b>D2D1_OPACITY_MASK_CONTENT</b> parameter.</div>
 <div> </div>
 
 ### -param destinationRectangle [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a>*</b>
 
 The region of the render target to paint, in device-independent pixels, or <b>NULL</b>. If <b>NULL</b> is specified, the brush paints a rectangle the same size as <i>sourceRectangle</i>, but positioned on the origin. If <i>sourceRectangle</i> isn't specified, the brush paints a rectangle the same size as the <i>opacityMask</i> bitmap and positioned on the origin.
 
 
 ### -param sourceRectangle [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a>*</b>
 
 The region of the bitmap to use as the opacity mask, in device-independent pixels, or <b>NULL</b>. If <b>NULL</b> is specified, the entire bitmap is used. 
 
@@ -107,9 +107,9 @@ This method does not return a value.
 
 
 
-For this method to work properly, the render target must be using the <a href="https://msdn.microsoft.com/3ca12155-6dd0-41bb-8778-3387422c4ffe">D2D1_ANTIALIAS_MODE_ALIASED</a> antialiasing mode. You can set the antialiasing mode by calling the <a href="https://msdn.microsoft.com/cd727271-1725-48e1-be39-680b363db2ae">ID2D1RenderTarget::SetAntialiasMode</a> method.
+For this method to work properly, the render target must be using the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_antialias_mode">D2D1_ANTIALIAS_MODE_ALIASED</a> antialiasing mode. You can set the antialiasing mode by calling the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-setantialiasmode">ID2D1RenderTarget::SetAntialiasMode</a> method.
 
-This method doesn't return an error code if it fails. To determine whether a drawing operation (such as <a href="https://msdn.microsoft.com/a5e56d8a-2929-4f7b-b1c4-fb358c202721">FillOpacityMask</a>) failed, check the result returned by the <a href="https://msdn.microsoft.com/a8f24501-4e85-4981-bb38-2bd6333a7b49">ID2D1RenderTarget::EndDraw</a> or <a href="https://msdn.microsoft.com/3ad9c966-85f5-4ddb-a8c1-aefcba533509">ID2D1RenderTarget::Flush</a> methods. 
+This method doesn't return an error code if it fails. To determine whether a drawing operation (such as <a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1rendertarget-fillopacitymask">FillOpacityMask</a>) failed, check the result returned by the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1RenderTarget::EndDraw</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-flush">ID2D1RenderTarget::Flush</a> methods. 
 
 
 
@@ -119,7 +119,7 @@ This method doesn't return an error code if it fails. To determine whether a dra
 
 
 
-<a href="https://msdn.microsoft.com/40629be9-5840-4bde-b369-56bbfd791775">ID2D1RenderTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
  
 
  

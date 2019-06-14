@@ -75,7 +75,7 @@ Absolute screen coordinates of the top of the control.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -96,15 +96,15 @@ An element cannot be moved, resized or rotated such that its resulting screen lo
 
 
 
-<a href="https://msdn.microsoft.com/b2c91a4c-8f22-4ad8-8ce7-ed6469af4426">CachedCanMove</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern-get_cachedcanmove">CachedCanMove</a>
 
 
 
-<a href="https://msdn.microsoft.com/c8b198a7-2b07-4dab-9cb5-95cf8f73cb57">CurrentCanMove</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern-get_currentcanmove">CurrentCanMove</a>
 
 
 
-<a href="https://msdn.microsoft.com/276b44d9-a335-4d4e-8fe9-de03584dadb4">IUIAutomationTransformPattern</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtransformpattern">IUIAutomationTransformPattern</a>
  
 
  

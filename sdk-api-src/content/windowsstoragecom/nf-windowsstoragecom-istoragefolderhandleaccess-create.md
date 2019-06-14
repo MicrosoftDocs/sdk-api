@@ -106,7 +106,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/C579B4D9-0CD6-45D7-BE6D-54FDFB3E7753">IStorageFolderHandleAccess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windowsstoragecom/nn-windowsstoragecom-istoragefolderhandleaccess">IStorageFolderHandleAccess</a>
  
 
  

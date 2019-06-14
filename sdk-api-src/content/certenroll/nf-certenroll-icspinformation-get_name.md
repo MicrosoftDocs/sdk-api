@@ -86,7 +86,7 @@ The following list shows the names of some of the Microsoft providers installed 
 
 
 
-<a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>
  
 
  

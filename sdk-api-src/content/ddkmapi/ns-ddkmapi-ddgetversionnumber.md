@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The DDGETVERSIONNUMBER structure contains the version number of the kernel-mode video transport component of Microsoft DirectDraw that is supported by the <a href="https://msdn.microsoft.com/3a540bfe-f340-4f12-acee-323b97683074">video miniport driver</a>'s <a href="https://msdn.microsoft.com/cfe77d14-32d2-44b7-8121-20ae7e4fe79e">DxApi interface</a>. 
+The DDGETVERSIONNUMBER structure contains the version number of the kernel-mode video transport component of Microsoft DirectDraw that is supported by the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/video-miniport-drivers-in-the-windows-2000-display-driver-model">video miniport driver</a>'s <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">DxApi interface</a>. 
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ The DDGETVERSIONNUMBER structure contains the version number of the kernel-mode 
 
 ### -field ddRVal
 
-Specifies the location in which DirectDraw writes the return value of the <a href="https://msdn.microsoft.com/c4b38376-b54f-4fbb-b305-5951a1ea76a1">DxApi</a> function for <a href="https://msdn.microsoft.com/443892dc-293a-4355-9083-24715d08e619">DD_DXAPI_GETVERSIONNUMBER</a> operations. A return code of DD_OK indicates success.
+Specifies the location in which DirectDraw writes the return value of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a> function for <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550637(v=vs.85)">DD_DXAPI_GETVERSIONNUMBER</a> operations. A return code of DD_OK indicates success.
 
 
 ### -field dwMajorVersion
@@ -77,11 +77,11 @@ Specifies the minor version number (DXAPI_MINORVERSION defined in <i>ddkmapi.h</
 
 
 
-<a href="https://msdn.microsoft.com/443892dc-293a-4355-9083-24715d08e619">DD_DXAPI_GETVERSIONNUMBER</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550637(v=vs.85)">DD_DXAPI_GETVERSIONNUMBER</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4b38376-b54f-4fbb-b305-5951a1ea76a1">DxApi</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Destroys a property sheet page. An application must call this function for pages that have not been passed to the <a href="https://msdn.microsoft.com/en-us/library/Bb760811(v=VS.85).aspx">PropertySheet</a> function.
+Destroys a property sheet page. An application must call this function for pages that have not been passed to the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-propertysheeta">PropertySheet</a> function.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ Handle to the property sheet page to delete.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns nonzero if successful, or zero otherwise.
 

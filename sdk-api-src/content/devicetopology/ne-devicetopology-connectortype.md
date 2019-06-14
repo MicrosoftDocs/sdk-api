@@ -94,9 +94,9 @@ The connector is part of a connection to a network.
 
 
 
-The <a href="https://msdn.microsoft.com/0e50d371-0a2e-4004-9225-4a9da7c3f139">IConnector::GetType</a> method uses the constants defined in the <b>ConnectorType</b> enumeration.
+The <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iconnector-gettype">IConnector::GetType</a> method uses the constants defined in the <b>ConnectorType</b> enumeration.
 
-For more information about connector types, see <a href="https://msdn.microsoft.com/5ac421e5-74a4-40e8-af6f-a99a05ebc3e0">Device Topologies</a>.
+For more information about connector types, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-topologies">Device Topologies</a>.
 
 
 
@@ -106,15 +106,15 @@ For more information about connector types, see <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/9dc9f182-3adf-4171-8829-35debae123da">Core Audio Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-constants">Core Audio Constants</a>
 
 
 
-<a href="https://msdn.microsoft.com/7d25be71-ffbe-4e8c-9a45-cdeb35d10292">Core Audio Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-enumerations">Core Audio Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/0e50d371-0a2e-4004-9225-4a9da7c3f139">IConnector::GetType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iconnector-gettype">IConnector::GetType</a>
  
 
  

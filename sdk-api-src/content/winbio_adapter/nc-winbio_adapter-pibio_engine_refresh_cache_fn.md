@@ -59,7 +59,7 @@ Called by the Windows Biometric Framework to notify the Engine Adapter that it s
 
 ### -param Pipeline [in, out]
 
-Pointer to the <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae41c3e12a">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 
 ## -returns
@@ -109,7 +109,7 @@ An Engine Adapter that maintains a private in-memory cache of templates (e.g., f
 
 The biometric service calls this method in the following situations:<ul>
 <li>
-Once, when the <a href="https://msdn.microsoft.com/6abded6b-12e0-4cc6-a011-0b18e8ea747b">StorageAdapterAttach</a> routine has successfully opened its connection to the template database.
+Once, when the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_attach_fn">StorageAdapterAttach</a> routine has successfully opened its connection to the template database.
 
 </li>
 <li>

@@ -51,12 +51,12 @@ ms.custom: 19H1
 
 The <b>ITfDisplayAttributeProvider</b> interface is implemented by a text service and is used by the TSF manager to enumerate and obtain individual display attribute information objects.
 
-The TSF manager obtains an instance of this interface by calling <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> with the class identifier passed to <a href="https://msdn.microsoft.com/9e9a72a8-ea9b-4438-992c-5a7db64f7d82">ITfCategoryMgr::RegisterCategory</a> with GUID_TFCAT_DISPLAYATTRIBUTEPROVIDER and IID_ITfDisplayAttributeProvider. For more information, see <a href="https://msdn.microsoft.com/5809f5b8-0396-4abd-b5fe-61ecc8cd0914">Providing Display Attributes</a>.
+The TSF manager obtains an instance of this interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with the class identifier passed to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registercategory">ITfCategoryMgr::RegisterCategory</a> with GUID_TFCAT_DISPLAYATTRIBUTEPROVIDER and IID_ITfDisplayAttributeProvider. For more information, see <a href="https://docs.microsoft.com/windows/desktop/TSF/providing-display-attributes">Providing Display Attributes</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfDisplayAttributeProvider</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfDisplayAttributeProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfDisplayAttributeProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfDisplayAttributeProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ITfDisplayAttributeProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1a19de91-ad79-4c75-956b-5f5de6700cbe">EnumDisplayAttributeInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdisplayattributeprovider-enumdisplayattributeinfo">EnumDisplayAttributeInfo</a>
 </td>
 <td align="left" width="63%">
 Obtains an enumerator that contains all display attribute info objects supported by the display attribute provider.
@@ -80,7 +80,7 @@ Obtains an enumerator that contains all display attribute info objects supported
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2081f1b4-45b4-43bd-ba20-392a5ad0a30e">GetDisplayAttributeInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdisplayattributeprovider-getdisplayattributeinfo">GetDisplayAttributeInfo</a>
 </td>
 <td align="left" width="63%">
 Obtains a display attribute provider object for a particular display attribute.
@@ -95,20 +95,20 @@ Obtains a display attribute provider object for a particular display attribute.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e9a72a8-ea9b-4438-992c-5a7db64f7d82">ITfCategoryMgr::RegisterCategory
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registercategory">ITfCategoryMgr::RegisterCategory
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/5809f5b8-0396-4abd-b5fe-61ecc8cd0914">Providing Display Attributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/TSF/providing-display-attributes">Providing Display Attributes</a>
  
 
  

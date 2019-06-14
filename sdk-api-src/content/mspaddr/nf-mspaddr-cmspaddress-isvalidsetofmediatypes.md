@@ -61,7 +61,7 @@ The
 ### -param dwMediaType [in]
 
 
-<a href="https://msdn.microsoft.com/3e418c9a-a008-4b94-b5d2-7c2eccb3bf87">Media type</a> to check.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">Media type</a> to check.
 
 
 ### -param dwMask [in]
@@ -74,7 +74,7 @@ Media types mask indicating types that can be handled.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms726419(v=VS.85).aspx">CMSPAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mspaddr/nl-mspaddr-cmspaddress">CMSPAddress</a>
  
 
  

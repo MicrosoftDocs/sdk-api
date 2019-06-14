@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Creates instances of <a href="https://msdn.microsoft.com/6B5E19EA-F66B-447C-B8D5-C98260E82789">IVideoFrameNative</a>.
+Creates instances of <a href="https://docs.microsoft.com/windows/desktop/api/windows.media.core.interop/nn-windows-media-core-interop-ivideoframenative">IVideoFrameNative</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVideoFrameNativeFactory</b> interface inherits from <a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a>. <b>IVideoFrameNativeFactory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVideoFrameNativeFactory</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IVideoFrameNativeFactory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,10 +69,10 @@ The <b>IVideoFrameNativeFactory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/EE925680-42A1-4C7E-A39D-15EA93F11FA1">CreateFromMFSample</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.media.core.interop/nf-windows-media-core-interop-ivideoframenativefactory-createfrommfsample">CreateFromMFSample</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/6B5E19EA-F66B-447C-B8D5-C98260E82789">IVideoFrameNative</a> from the provided <a href="https://msdn.microsoft.com/b1c3758c-5133-41ee-b991-ae99d0296ccc">IMFSample</a>.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/windows.media.core.interop/nn-windows-media-core-interop-ivideoframenative">IVideoFrameNative</a> from the provided <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>.
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ Creates an <a href="https://msdn.microsoft.com/6B5E19EA-F66B-447C-B8D5-C98260E82
 
 
 
-<a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
  
 
  

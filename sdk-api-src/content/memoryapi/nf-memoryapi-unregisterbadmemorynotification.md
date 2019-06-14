@@ -66,7 +66,7 @@ Closes the specified bad memory notification handle.
 ### -param RegistrationHandle [in]
 
 Registration handle returned from the 
-      <a href="https://msdn.microsoft.com/4a3a621a-49ed-4538-9e36-b8eab5d57eb7">RegisterBadMemoryNotification</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-registerbadmemorynotification">RegisterBadMemoryNotification</a> 
       function.
 
 
@@ -77,7 +77,7 @@ Registration handle returned from the
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -88,7 +88,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 To compile an application that calls this function, define <b>_WIN32_WINNT</b> as 
     <b>_WIN32_WINNT_WIN8</b> or higher. For more information, see 
-    <a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 

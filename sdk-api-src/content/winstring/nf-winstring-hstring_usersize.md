@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Calculates the wire size of the <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a> object, and gets its handle and data.
+Calculates the wire size of the <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> object, and gets its handle and data.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ The data used by RPC.
 
 #### - StartingSize [in]
 
-The current buffer offset where the object will be marshaled. The method has to account for any padding needed for the <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a> object to be properly aligned when it will be marshaled to the buffer.
+The current buffer offset where the object will be marshaled. The method has to account for any padding needed for the <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> object to be properly aligned when it will be marshaled to the buffer.
 
 
 #### - ppidl [in]
@@ -88,7 +88,7 @@ The value obtained from the returned <b>HRESULT</b> value is <b>S_OK</b>.
 
 
 
-<a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>
  
 
  

@@ -52,14 +52,14 @@ ms.custom: 19H1
 
 The <b>IMPEG2TuneRequest</b> interface represents a tune request for a basic MPEG-2 transport stream containing the minimal tables.
 
-Use the <a href="https://msdn.microsoft.com/41e299d6-492e-40b4-955f-603b18da0c02">IMPEG2TuneRequestFactory::CreateTuneRequest</a> method to obtain this interface. It returns the minimal MPEG-2 tune request for a specified tuning space. To create a full tune request, use the <b>CreateTuneRequest</b> method provided by one of the tuning space objects.
+Use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-impeg2tunerequestfactory-createtunerequest">IMPEG2TuneRequestFactory::CreateTuneRequest</a> method to obtain this interface. It returns the minimal MPEG-2 tune request for a specified tuning space. To create a full tune request, use the <b>CreateTuneRequest</b> method provided by one of the tuning space objects.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMPEG2TuneRequest</b> interface inherits from <a href="https://msdn.microsoft.com/34077b45-32b4-466b-b103-6a42fc869265">ITuneRequest</a>. <b>IMPEG2TuneRequest</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMPEG2TuneRequest</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a>. <b>IMPEG2TuneRequest</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IMPEG2TuneRequest</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dde8979a-633d-4fc4-b31e-bdd43823db6a">get_ProgNo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-impeg2tunerequest-get_progno">get_ProgNo</a>
 </td>
 <td align="left" width="63%">
 Retrieves the program number ID.
@@ -83,7 +83,7 @@ Retrieves the program number ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/971e2643-e68f-4b4c-86e0-2e20e2f8a88c">get_TSID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-impeg2tunerequest-get_tsid">get_TSID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the transport stream ID.
@@ -92,7 +92,7 @@ Retrieves the transport stream ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/08fc9cc1-52b7-4782-96a1-af00a76ff6c6">put_ProgNo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-impeg2tunerequest-put_progno">put_ProgNo</a>
 </td>
 <td align="left" width="63%">
 Sets the program number ID.
@@ -101,7 +101,7 @@ Sets the program number ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/47212dc7-601e-4b38-953e-a6b84e73fafa">put_TSID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-impeg2tunerequest-put_tsid">put_TSID</a>
 </td>
 <td align="left" width="63%">
 Sets the transport stream ID.
@@ -125,11 +125,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/34077b45-32b4-466b-b103-6a42fc869265">ITuneRequest</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d956e1d-88b3-4236-9987-f37f674645de">Tuning Model Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
  
 
  

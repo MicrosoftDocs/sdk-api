@@ -66,9 +66,9 @@ A reference to the item identifier for an item that is being updated.
 
 ### -param pSyncProgressItem [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/94ac1206-be5f-467c-ab4a-11f574c406ca">SYNCMGRPROGRESSITEM</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-_tagsyncmgrprogressitem">SYNCMGRPROGRESSITEM</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/94ac1206-be5f-467c-ab4a-11f574c406ca">SYNCMGRPROGRESSITEM</a> structure that contains the updated progress information.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-_tagsyncmgrprogressitem">SYNCMGRPROGRESSITEM</a> structure that contains the updated progress information.
 
 
 ## -returns
@@ -127,7 +127,7 @@ Cancels the synchronization on all items that are associated with this applicati
 
 
 
-Registered applications should call this method to provide normal feedback even when the <a href="https://msdn.microsoft.com/b1a60a6b-b4f8-4c89-853b-5a5584c415e9">SYNCMGRFLAG_MAYBOTHERUSER</a> flag is set.
+Registered applications should call this method to provide normal feedback even when the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-_tagsyncmgrflag">SYNCMGRFLAG_MAYBOTHERUSER</a> flag is set.
 
 
 
@@ -137,15 +137,15 @@ Registered applications should call this method to provide normal feedback even 
 
 
 
-<a href="https://msdn.microsoft.com/1c817a21-be91-43af-86c8-aa7909ae2fa2">ISyncMgrSynchronizeCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizecallback">ISyncMgrSynchronizeCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/b1a60a6b-b4f8-4c89-853b-5a5584c415e9">SYNCMGRFLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-_tagsyncmgrflag">SYNCMGRFLAG</a>
 
 
 
-<a href="https://msdn.microsoft.com/94ac1206-be5f-467c-ab4a-11f574c406ca">SYNCMGRPROGRESSITEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-_tagsyncmgrprogressitem">SYNCMGRPROGRESSITEM</a>
  
 
  

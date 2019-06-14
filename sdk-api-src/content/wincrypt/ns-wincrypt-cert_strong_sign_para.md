@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains parameters used to check for strong signatures on <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificates</a>, <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation lists</a> (CRLs), <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">online certificate status protocol</a> (OCSP) responses, and <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">PKCS #7</a> messages.
+Contains parameters used to check for strong signatures on <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificates</a>, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation lists</a> (CRLs), <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) responses, and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">PKCS #7</a> messages.
 
 
 ## -struct-fields
@@ -101,7 +101,7 @@ Reserved.
 
 ### -field DUMMYUNIONNAME.pSerializedInfo
 
-Pointer to a <a href="https://msdn.microsoft.com/B89CDF67-4620-47B2-8363-717D284368FD">CERT_STRONG_SIGN_SERIALIZED_INFO</a> structure that specifies the parameters.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_strong_sign_serialized_info">CERT_STRONG_SIGN_SERIALIZED_INFO</a> structure that specifies the parameters.
 
 
 ### -field DUMMYUNIONNAME.pszOID
@@ -165,39 +165,39 @@ The <b>CERT_STRONG_SIGN_PARA</b> structure is directly referenced by the followi
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/B498C1F0-1EFF-49AF-9CD4-A447F79256F1">CertIsStrongHashToSign</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certisstronghashtosign">CertIsStrongHashToSign</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/a990d44d-2993-429f-b817-2a834105ecef">CryptMsgControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/da756cd5-1dec-4d88-9c90-76dd263035eb">CryptMsgVerifyCountersignatureEncodedEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgverifycountersignatureencodedex">CryptMsgVerifyCountersignatureEncodedEx</a>
 </li>
 </ul>
-The <b>CERT_STRONG_SIGN_PARA</b> structure is also directly referenced by the <a href="https://msdn.microsoft.com/bbd56b5e-2bbe-420f-8842-1be50dca779f">CRYPT_VERIFY_MESSAGE_PARA</a> structure and is therefore available for use by the following functions:
+The <b>CERT_STRONG_SIGN_PARA</b> structure is also directly referenced by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_verify_message_para">CRYPT_VERIFY_MESSAGE_PARA</a> structure and is therefore available for use by the following functions:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/25ffd058-8f75-4ba5-b075-e3efc09f5d9d">CryptDecodeMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodemessage">CryptDecodeMessage</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/0864a187-617f-4a21-9809-d2dbbc54ab9c">CryptDecryptAndVerifyMessageSignature</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecryptandverifymessagesignature">CryptDecryptAndVerifyMessageSignature</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/d437f6bf-eb56-4d29-bb91-eb8487e50219">CryptVerifyDetachedMessageSignature</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifydetachedmessagesignature">CryptVerifyDetachedMessageSignature</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/03411e7a-b097-4059-a198-3d412ae40e38">CryptVerifyMessageSignature</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifymessagesignature">CryptVerifyMessageSignature</a>
 </li>
 </ul>
-Finally, the <b>CERT_STRONG_SIGN_PARA</b> structure is directly referenced by the <a href="https://msdn.microsoft.com/86094e1c-be59-4a15-a05b-21769f80e653">CERT_CHAIN_PARA</a> structure and is therefore available for use by the following functions:
+Finally, the <b>CERT_STRONG_SIGN_PARA</b> structure is directly referenced by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_para">CERT_CHAIN_PARA</a> structure and is therefore available for use by the following functions:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/8c93036c-0b93-40d4-b0e3-ba1f2fc72db1">CertGetCertificateChain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/b740772b-d25b-4b3d-9acb-03f7018750d6">CertSelectCertificateChains</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certselectcertificatechains">CertSelectCertificateChains</a>
 </li>
 </ul>
 
@@ -208,7 +208,7 @@ Finally, the <b>CERT_STRONG_SIGN_PARA</b> structure is directly referenced by th
 
 
 
-<a href="https://msdn.microsoft.com/B89CDF67-4620-47B2-8363-717D284368FD">CERT_STRONG_SIGN_SERIALIZED_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_strong_sign_serialized_info">CERT_STRONG_SIGN_SERIALIZED_INFO</a>
  
 
  

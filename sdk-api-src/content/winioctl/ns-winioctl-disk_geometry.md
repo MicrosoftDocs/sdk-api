@@ -58,13 +58,13 @@ Describes the geometry of disk devices and media.
 
 ### -field Cylinders
 
-The number of cylinders. See <a href="https://msdn.microsoft.com/6a2985b6-5baf-49ab-af28-67c1374557ea">LARGE_INTEGER</a>.
+The number of cylinders. See <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_large_integer">LARGE_INTEGER</a>.
 
 
 ### -field MediaType
 
 The type of media. For a list of values, see 
-<a href="https://msdn.microsoft.com/183cf8fc-c17b-4def-b590-0aa4b67488f6">MEDIA_TYPE</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_media_type">MEDIA_TYPE</a>.
 
 
 ### -field TracksPerCylinder
@@ -87,15 +87,15 @@ The number of bytes per sector.
 
 
 
-<a href="https://msdn.microsoft.com/574efc29-112b-42fe-ad1b-72543f20e831">IOCTL_DISK_GET_DRIVE_GEOMETRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_drive_geometry">IOCTL_DISK_GET_DRIVE_GEOMETRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/67f65549-f24b-4ef2-a98f-1fc618a3bb77">IOCTL_STORAGE_GET_MEDIA_TYPES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_get_media_types">IOCTL_STORAGE_GET_MEDIA_TYPES</a>
 
 
 
-<a href="https://msdn.microsoft.com/183cf8fc-c17b-4def-b590-0aa4b67488f6">MEDIA_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_media_type">MEDIA_TYPE</a>
  
 
  

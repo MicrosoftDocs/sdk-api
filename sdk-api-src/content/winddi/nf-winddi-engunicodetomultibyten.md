@@ -99,11 +99,11 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/fa7a4e64-46be-49c8-9862-04348b9dc79e">EngMultiByteToUnicodeN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmultibytetounicoden">EngMultiByteToUnicodeN</a>
 
 
 
-<a href="https://msdn.microsoft.com/db0ae856-f414-4ae9-9bc9-c719581873fd">EngWideCharToMultiByte</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engwidechartomultibyte">EngWideCharToMultiByte</a>
  
 
  

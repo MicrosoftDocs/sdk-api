@@ -64,7 +64,7 @@ Integer that specifies the number of subnet statistics in <i>ScopeStats</i>.
 
 ### -field ScopeStats
 
-Pointer to a list of <a href="https://msdn.microsoft.com/edb099a6-18eb-49b1-8f97-7f0b32a2430a">DHCPV6_STATELESS_SCOPE_STATS</a> structures.
+Pointer to a list of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcpv6_stateless_scope_stats">DHCPV6_STATELESS_SCOPE_STATS</a> structures.
 
 
 ### -field size_is
@@ -84,11 +84,11 @@ Pointer to a list of <a href="https://msdn.microsoft.com/edb099a6-18eb-49b1-8f97
 
 
 
-<a href="https://msdn.microsoft.com/edb099a6-18eb-49b1-8f97-7f0b32a2430a">DHCPV6_STATELESS_SCOPE_STATS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcpv6_stateless_scope_stats">DHCPV6_STATELESS_SCOPE_STATS</a>
 
 
 
-<a href="https://msdn.microsoft.com/4f6ba79c-5ab5-4d89-907d-83bdddbd09a2">DhcpV6GetStatelessStatistics</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv6getstatelessstatistics">DhcpV6GetStatelessStatistics</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>CALL_STATE_EVENT_CAUSE</b> enum is returned by the 
-<a href="https://msdn.microsoft.com/e3a4b985-1c0f-4e93-a965-c61c9c0ab10d">ITCallStateEvent::get_Cause</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallstateevent-get_cause">ITCallStateEvent::get_Cause</a> method.
 
 
 ## -enum-fields
@@ -109,7 +109,7 @@ The call failed to connect for some other reason.
 
 
 
-<a href="https://msdn.microsoft.com/e3a4b985-1c0f-4e93-a965-c61c9c0ab10d">ITCallStateEvent::get_Cause</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallstateevent-get_cause">ITCallStateEvent::get_Cause</a>
  
 
  

@@ -78,7 +78,7 @@ Preference for the highest performing GPU, such as a discrete graphics processor
 
 
 
-This enumeration is used in the <a href="https://msdn.microsoft.com/E5F835FB-3699-4E27-B990-4C1CF6E6DD48">IDXGIFactory6::EnumAdapterByGpuPreference</a> method.
+This enumeration is used in the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_6/nf-dxgi1_6-idxgifactory6-enumadapterbygpupreference">IDXGIFactory6::EnumAdapterByGpuPreference</a> method.
 
 
 
@@ -88,7 +88,7 @@ This enumeration is used in the <a href="https://msdn.microsoft.com/E5F835FB-369
 
 
 
-<a href="https://msdn.microsoft.com/c4574c89-dee2-4841-9318-5383cf417111">DXGI Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-enums">DXGI Enumerations</a>
 
 
 

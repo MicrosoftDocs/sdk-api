@@ -63,9 +63,9 @@ Gets the weight of this font.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/82396f80-eb62-4865-ba07-9653220c84f2">DWRITE_FONT_WEIGHT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_weight">DWRITE_FONT_WEIGHT</a></b>
 
-Returns a <a href="https://msdn.microsoft.com/82396f80-eb62-4865-ba07-9653220c84f2">DWRITE_FONT_WEIGHT</a>-typed value that specifies the density of a typeface, in terms of the lightness or heaviness of the strokes.
+Returns a <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_weight">DWRITE_FONT_WEIGHT</a>-typed value that specifies the density of a typeface, in terms of the lightness or heaviness of the strokes.
 
 
 
@@ -77,7 +77,7 @@ Returns a <a href="https://msdn.microsoft.com/82396f80-eb62-4865-ba07-9653220c84
 
 
 
-<a href="https://msdn.microsoft.com/1081A005-E4A8-4EE0-AFE0-10BD8D8471DF">IDWriteFontFace3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontface3">IDWriteFontFace3</a>
  
 
  

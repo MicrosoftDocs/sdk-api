@@ -59,16 +59,16 @@ Retrieves the list of windows that are magnified or excluded from magnification.
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 The magnification window.
 
 
 ### -param pdwFilterMode [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
 
-The filter mode, as set by <a href="https://msdn.microsoft.com/en-us/library/ms692396(v=VS.85).aspx">MagSetWindowFilterList</a>.
+The filter mode, as set by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/nf-magnification-magsetwindowfilterlist">MagSetWindowFilterList</a>.
 
 
 ### -param count [in]
@@ -80,7 +80,7 @@ The number of windows to retrieve, or 0 to retrieve a count of windows in the fi
 
 ### -param pHWND [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a>*</b>
 
 The list of window handles.
 
@@ -113,7 +113,7 @@ This function requires Windows Display Driver Model (WDDM)-capable video cards.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692396(v=VS.85).aspx">MagSetWindowFilterList</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/nf-magnification-magsetwindowfilterlist">MagSetWindowFilterList</a>
  
 
  

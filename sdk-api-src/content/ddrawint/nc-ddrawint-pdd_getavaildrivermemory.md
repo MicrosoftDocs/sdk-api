@@ -68,7 +68,7 @@ The <b>DdGetAvailDriverMemory</b> callback function queries the amount of free m
 
 #### - lpGetAvailDriverMemory
 
-Points to a <a href="https://msdn.microsoft.com/4e344c43-55ae-49fc-94ef-390c399d5d0b">DD_GETAVAILDRIVERMEMORYDATA</a> structure that contains the information required to perform the query.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_getavaildrivermemorydata">DD_GETAVAILDRIVERMEMORYDATA</a> structure that contains the information required to perform the query.
 
 
 ## -returns
@@ -88,7 +88,7 @@ This function does not need to be implemented if the memory will be managed by D
 
 <b>DdGetAvailDriverMemory</b> determines how much free memory is in the driver's private heaps for the specified surface type. The driver should check the surface capabilities specified in the <b>DDSCaps</b> member of the following structure against the heaps it is maintaining internally, to determine what heap size to query. For example, if DDSCAPS_NONLOCALVIDMEM is set, the driver should return only contributions from the AGP heaps.
 
-The driver indicates its support of <b>DdGetAvailDriverMemory</b> by implementing a response to GUID_MiscellaneousCallbacks in <a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a>.
+The driver indicates its support of <b>DdGetAvailDriverMemory</b> by implementing a response to GUID_MiscellaneousCallbacks in <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>.
 
 
 
@@ -98,11 +98,11 @@ The driver indicates its support of <b>DdGetAvailDriverMemory</b> by implementin
 
 
 
-<a href="https://msdn.microsoft.com/4e344c43-55ae-49fc-94ef-390c399d5d0b">DD_GETAVAILDRIVERMEMORYDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_getavaildrivermemorydata">DD_GETAVAILDRIVERMEMORYDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>
  
 
  

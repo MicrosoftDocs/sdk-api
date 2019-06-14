@@ -131,7 +131,7 @@ Returns zero if successful or an error otherwise.
 
 
 
-This function calls the <a href="https://msdn.microsoft.com/a5d7b278-7c80-42a3-94a4-5c012ad9a9fd">AVIFileOpen</a>, <a href="https://msdn.microsoft.com/b51a823c-6904-4942-883f-bda347541757">AVIFileGetStream</a>, and <a href="https://msdn.microsoft.com/c2f94ca2-b46c-48b0-9c31-92cf2cf75be3">AVIFileRelease</a> functions.
+This function calls the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avifileopen">AVIFileOpen</a>, <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avifilegetstream">AVIFileGetStream</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avifilerelease">AVIFileRelease</a> functions.
 
 
 
@@ -141,11 +141,11 @@ This function calls the <a href="https://msdn.microsoft.com/a5d7b278-7c80-42a3-9
 
 
 
-<a href="https://msdn.microsoft.com/89abf60a-1714-4836-93ae-a8a6bf2c24b6">AVIFile Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions">AVIFile Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/573e24fa-876d-4ce9-be23-d5e448a53e20">AVIFile Functions and Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
  
 
  

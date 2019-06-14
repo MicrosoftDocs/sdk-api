@@ -69,12 +69,12 @@ Pointer to a GUID that specifies the DXVA profile in use.
 
 ### -param pamvaUncompDataInfo [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd373449(v=VS.85).aspx">AMVAUncompDataInfo</a> structure that specifies the size and pixel format of the uncompressed data.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/amva/ns-amva-_tag_amvauncompdatainfo">AMVAUncompDataInfo</a> structure that specifies the size and pixel format of the uncompressed data.
 
 
 ### -param pamvaInternalMemInfo [in, out]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd373447(v=VS.85).aspx">AMVAInternalMemInfo</a> structure that receives the amount of scratch memory the HAL will allocate. 
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/amva/ns-amva-_tag_amvainternalmeminfo">AMVAInternalMemInfo</a> structure that receives the amount of scratch memory the HAL will allocate. 
 
 
 ## -returns
@@ -154,15 +154,15 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/0bc6b65b-4502-4c6f-a0f2-82a2bd444d1d">How Decoders Use IAMVideoAccelerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/how-decoders-use-iamvideoaccelerator">How Decoders Use IAMVideoAccelerator</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375992(v=VS.85).aspx">IAMVideoAccelerator Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator">IAMVideoAccelerator Interface</a>
  
 
  

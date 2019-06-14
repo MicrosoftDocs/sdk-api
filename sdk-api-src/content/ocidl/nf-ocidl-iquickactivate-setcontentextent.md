@@ -76,7 +76,7 @@ If the method succeeds, the return value is S_OK. Otherwise, it is E_FAIL.
 
 
 
-<a href="https://msdn.microsoft.com/9b3e3b56-5055-4dfa-83e6-702578662463">IQuickActivate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iquickactivate">IQuickActivate</a>
  
 
  

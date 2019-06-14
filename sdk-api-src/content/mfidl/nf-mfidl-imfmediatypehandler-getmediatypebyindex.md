@@ -63,13 +63,13 @@ Retrieves a media type from the object's list of supported media types.
 
 ### -param dwIndex [in]
 
-Zero-based index of the media type to retrieve. To get the number of media types in the list, call <a href="https://msdn.microsoft.com/c5ee41bc-ee8b-4990-ae9d-92ef54597f31">IMFMediaTypeHandler::GetMediaTypeCount</a>.
+Zero-based index of the media type to retrieve. To get the number of media types in the list, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediatypehandler-getmediatypecount">IMFMediaTypeHandler::GetMediaTypeCount</a>.
           
 
 
 ### -param ppType [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface. The caller must release the interface.
           
 
 
@@ -118,7 +118,7 @@ The <i>dwIndex</i> parameter is out of range.
 
 
 
-Media types are returned in the approximate order of preference. The list of supported types is not guaranteed to be complete. To test whether a particular media type is supported, call <a href="https://msdn.microsoft.com/ea52defa-8b78-4f40-97ae-ed6a5ee4849e">IMFMediaTypeHandler::IsMediaTypeSupported</a>.
+Media types are returned in the approximate order of preference. The list of supported types is not guaranteed to be complete. To test whether a particular media type is supported, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediatypehandler-ismediatypesupported">IMFMediaTypeHandler::IsMediaTypeSupported</a>.
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -134,7 +134,7 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 
-<a href="https://msdn.microsoft.com/5b937bf7-4f86-4dc1-a4d5-7e724dcf5b36">IMFMediaTypeHandler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediatypehandler">IMFMediaTypeHandler</a>
  
 
  

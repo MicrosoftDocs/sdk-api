@@ -98,7 +98,7 @@ The drive does not recognize write capability of the media.
 
 
 
-<a href="https://msdn.microsoft.com/b3e58024-9a51-46e9-a9a1-c850166c9a85">IDiscFormat2Data::get_WriteProtectStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_writeprotectstatus">IDiscFormat2Data::get_WriteProtectStatus</a>
  
 
  

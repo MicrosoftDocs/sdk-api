@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>GetProviderNameList</b> method gets the list of <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service providers</a> (CSPs) that provide asymmetric key signature and exchange algorithms on the computer.
+The <b>GetProviderNameList</b> method gets the list of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service providers</a> (CSPs) that provide asymmetric key signature and exchange algorithms on the computer.
 
 
 ## -parameters
@@ -72,7 +72,7 @@ A pointer to a <b>VARIANT</b>  array of <b>VT_BSTR</b> types, where each string 
 
 
 
-<a href="https://msdn.microsoft.com/328c6c04-7ade-4b64-bd8a-4314b6e8dc78">IMSCEPSetup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-imscepsetup">IMSCEPSetup</a>
  
 
  

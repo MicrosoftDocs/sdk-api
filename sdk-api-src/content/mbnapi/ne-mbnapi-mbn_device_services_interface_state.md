@@ -72,7 +72,7 @@ A Mobile Broadband device capable of supporting device services functionality ha
 
 
 
-<a href="https://msdn.microsoft.com/6677E80E-A9D1-45B5-AE3F-71EE22A7CCB6">OnInterfaceStateChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-oninterfacestatechange">OnInterfaceStateChange</a>
  
 
  

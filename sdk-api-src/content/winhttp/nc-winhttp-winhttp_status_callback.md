@@ -67,7 +67,7 @@ The handle for which the callback function is called.
 A pointer to a <b>DWORD</b> that specifies the application-defined context value associated with the handle in the 
 <i>hInternet</i> parameter.
 
-A context value can be assigned to a Session, Connect, or Request handle by calling <a href="https://msdn.microsoft.com/bcf1da09-5787-4d2a-82ae-6965e27fa477">WinHttpSetOption</a>  with the  <a href="https://msdn.microsoft.com/2d0441f4-ddba-4f2a-8861-8803cad6f1ac">WINHTTP_OPTION_CONTEXT_VALUE</a> option. Alternatively, <a href="https://msdn.microsoft.com/991bf531-2e6b-4581-8069-f75789915522">WinHttpSendRequest</a> can be used to associate a context value with a Request handle.
+A context value can be assigned to a Session, Connect, or Request handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsetoption">WinHttpSetOption</a>  with the  <a href="https://docs.microsoft.com/windows/desktop/WinHttp/option-flags">WINHTTP_OPTION_CONTEXT_VALUE</a> option. Alternatively, <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsendrequest">WinHttpSendRequest</a> can be used to associate a context value with a Request handle.
 
 
 ### -param dwInternetStatus [in]
@@ -107,7 +107,7 @@ Successfully closed the connection to the server. The
 #### WINHTTP_CALLBACK_STATUS_DATA_AVAILABLE
 
 Data is available to be retrieved with 
-<a href="https://msdn.microsoft.com/06340601-9b2d-487a-a82a-aa2175a52dc5">WinHttpReadData</a>.   The <i>lpvStatusInformation</i> parameter points to a <b>DWORD</b> that contains the number of bytes of data  available. The <i>dwStatusInformationLength</i> 
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpreaddata">WinHttpReadData</a>.   The <i>lpvStatusInformation</i> parameter points to a <b>DWORD</b> that contains the number of bytes of data  available. The <i>dwStatusInformationLength</i> 
  parameter itself is  4 (the size of a <b>DWORD</b>).
 
 
@@ -115,9 +115,9 @@ Data is available to be retrieved with
 #### WINHTTP_CALLBACK_STATUS_HANDLE_CREATED
 
 An 
-<a href="https://msdn.microsoft.com/0bd82860-1347-40c8-ae77-c4d865c109be">HINTERNET</a> handle has been created.   The 
+<a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> handle has been created.   The 
 <i>lpvStatusInformation</i> parameter contains a pointer to the 
-<a href="https://msdn.microsoft.com/0bd82860-1347-40c8-ae77-c4d865c109be">HINTERNET</a> handle.
+<a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> handle.
 
 
 
@@ -125,14 +125,14 @@ An
 
 This handle value has been terminated. The 
 <i>lpvStatusInformation</i> parameter contains a pointer to the 
-<a href="https://msdn.microsoft.com/0bd82860-1347-40c8-ae77-c4d865c109be">HINTERNET</a> handle.  There will be no more callbacks for this handle.
+<a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> handle.  There will be no more callbacks for this handle.
 
 
 
 #### WINHTTP_CALLBACK_STATUS_HEADERS_AVAILABLE
 
 The response header has been received and is available with 
-<a href="https://msdn.microsoft.com/9656ebad-78df-4d1c-94e9-6127d6bc4799">WinHttpQueryHeaders</a>. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpqueryheaders">WinHttpQueryHeaders</a>. The 
 <i>lpvStatusInformation</i> parameter is <b>NULL</b>.
 
 
@@ -155,11 +155,11 @@ Successfully found the IP address of the server.   The
 
 Data was successfully read from the server.  The 
 <i>lpvStatusInformation</i> parameter contains a pointer to the buffer specified in the call to 
-<a href="https://msdn.microsoft.com/06340601-9b2d-487a-a82a-aa2175a52dc5">WinHttpReadData</a>. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpreaddata">WinHttpReadData</a>. The 
 <i>dwStatusInformationLength</i> parameter contains the number of bytes read.
 
-When used by <a href="https://msdn.microsoft.com/9992150d-632b-45fe-8f11-84d698b4ffb3">WinHttpWebSocketReceive</a>, the 
-<i>lpvStatusInformation</i> parameter contains a pointer to a <a href="https://msdn.microsoft.com/4e34a306-1238-4a3b-8336-475e904b0a60">WINHTTP_WEB_SOCKET_STATUS</a> structure, and the 
+When used by <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketreceive">WinHttpWebSocketReceive</a>, the 
+<i>lpvStatusInformation</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-_winhttp_web_socket_status">WINHTTP_WEB_SOCKET_STATUS</a> structure, and the 
 <i>dwStatusInformationLength</i> parameter  indicates the size of <i>lpvStatusInformation</i>.
 
 
@@ -182,7 +182,7 @@ An HTTP request is about to automatically redirect the request. The
 
 An error occurred while sending an HTTP request.  The 
 <i>lpvStatusInformation</i> parameter contains a pointer to a 
-<a href="https://msdn.microsoft.com/31544ef1-2532-4e44-8747-7a693cef9ccd">WINHTTP_ASYNC_RESULT</a> structure. Its <b>dwResult</b> member indicates the ID of the called function and <b>dwError</b> indicates the return value.
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-__unnamed_struct_0">WINHTTP_ASYNC_RESULT</a> structure. Its <b>dwResult</b> member indicates the ID of the called function and <b>dwError</b> indicates the return value.
 
 
 
@@ -233,28 +233,28 @@ The request completed successfully.  The
 Data was successfully written to the server.  The 
 <i>lpvStatusInformation</i> parameter contains a pointer to a <b>DWORD</b> that indicates the number of bytes written.
 
-When used by <a href="https://msdn.microsoft.com/9992150d-632b-45fe-8f11-84d698b4ffb3">WinHttpWebSocketSend</a>, the 
-<i>lpvStatusInformation</i> parameter contains a pointer to a <a href="https://msdn.microsoft.com/4e34a306-1238-4a3b-8336-475e904b0a60">WINHTTP_WEB_SOCKET_STATUS</a> structure, and the 
+When used by <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketreceive">WinHttpWebSocketSend</a>, the 
+<i>lpvStatusInformation</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-_winhttp_web_socket_status">WINHTTP_WEB_SOCKET_STATUS</a> structure, and the 
 <i>dwStatusInformationLength</i> parameter  indicates the size of <i>lpvStatusInformation</i>.
 
 
 
 #### WINHTTP_CALLBACK_STATUS_GETPROXYFORURL_COMPLETE
 
-The operation initiated by a call to <a href="https://msdn.microsoft.com/28479a55-7a25-4254-b27a-45e09b166dd5">WinHttpGetProxyForUrlEx</a> is complete. Data is available to be retrieved with 
-<a href="https://msdn.microsoft.com/06340601-9b2d-487a-a82a-aa2175a52dc5">WinHttpReadData</a>.   
+The operation initiated by a call to <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurlex">WinHttpGetProxyForUrlEx</a> is complete. Data is available to be retrieved with 
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpreaddata">WinHttpReadData</a>.   
 
 
 
 #### WINHTTP_CALLBACK_STATUS_CLOSE_COMPLETE
 
-The connection was successfully closed via a call to <a href="https://msdn.microsoft.com/bbfde3db-d9a7-4fce-9d8b-6b57f9e432e1">WinHttpWebSocketClose</a>.
+The connection was successfully closed via a call to <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketclose">WinHttpWebSocketClose</a>.
 
 
 
 #### WINHTTP_CALLBACK_STATUS_SHUTDOWN_COMPLETE
 
-The connection was successfully shut down via a call to <a href="https://msdn.microsoft.com/C98FDBE1-DDBC-45c7-81FA-CB7C5940E3B5">WinHttpWebSocketShutdown</a>.
+The connection was successfully shut down via a call to <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketshutdown">WinHttpWebSocketShutdown</a>.
 
 
 ### -param lpvStatusInformation [in]
@@ -375,31 +375,31 @@ The status callback function receives updates on the status of asynchronous oper
 <tr>
 <td>WINHTTP_CALLBACK_STATUS_DATA_AVAILABLE</td>
 <td>
-<a href="https://msdn.microsoft.com/041ec571-10ed-48d0-9a99-e0b5d9e08f70">WinHttpQueryDataAvailable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpquerydataavailable">WinHttpQueryDataAvailable</a>
 </td>
 </tr>
 <tr>
 <td>WINHTTP_CALLBACK_STATUS_HEADERS_AVAILABLE</td>
 <td>
-<a href="https://msdn.microsoft.com/0b79e73b-9f6a-42eb-9108-1ba142ad7c48">WinHttpReceiveResponse</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpreceiveresponse">WinHttpReceiveResponse</a>
 </td>
 </tr>
 <tr>
 <td>WINHTTP_CALLBACK_STATUS_READ_COMPLETE</td>
 <td>
-<a href="https://msdn.microsoft.com/06340601-9b2d-487a-a82a-aa2175a52dc5">WinHttpReadData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpreaddata">WinHttpReadData</a>
 </td>
 </tr>
 <tr>
 <td>WINHTTP_CALLBACK_STATUS_SENDREQUEST_COMPLETE</td>
 <td>
-<a href="https://msdn.microsoft.com/991bf531-2e6b-4581-8069-f75789915522">WinHttpSendRequest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsendrequest">WinHttpSendRequest</a>
 </td>
 </tr>
 <tr>
 <td>WINHTTP_CALLBACK_STATUS_WRITE_COMPLETE</td>
 <td>
-<a href="https://msdn.microsoft.com/c8b94285-1b01-451b-9803-cc1bacb015ff">WinHttpWriteData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpwritedata">WinHttpWriteData</a>
 </td>
 </tr>
 <tr>
@@ -416,7 +416,7 @@ The callback function can be called in a thread context different from the threa
 Similarly, there is no callback thread afinity when you call WinHttp asynchronously: a call might start from one thread, but any other thread can receive the callback.
 
 
-<div class="alert"><b>Note</b>  For more information about implementation in Windows XP and Windows 2000, see <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Run-Time Requirements</a>.</div>
+<div class="alert"><b>Note</b>  For more information about implementation in Windows XP and Windows 2000, see <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Run-Time Requirements</a>.</div>
 <div> </div>
 
 
@@ -426,11 +426,11 @@ Similarly, there is no callback thread afinity when you call WinHttp asynchronou
 
 
 
-<a href="https://msdn.microsoft.com/b69e5087-7849-4cbc-a97b-204a26fdd044">WinHTTP Versions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP Versions</a>
 
 
 
-<a href="https://msdn.microsoft.com/b093daf0-7abe-49cb-8c09-9519e3c130b6">WinHttpSetStatusCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsetstatuscallback">WinHttpSetStatusCallback</a>
  
 
  

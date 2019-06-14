@@ -84,7 +84,7 @@ Array of bytes that contains information for this attribute.
 
 The 
 <b>RADIUS_VSA_FORMAT</b> structure is useful for interpreting the <b>lpValue</b> member of a 
-<a href="https://msdn.microsoft.com/7c6e1a41-9736-4bd3-b709-779d871ead57">RADIUS_ATTRIBUTE</a> structure when the <b>dwAttrType</b> member has a value <b>ratVendorSpecific</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-_radius_attribute">RADIUS_ATTRIBUTE</a> structure when the <b>dwAttrType</b> member has a value <b>ratVendorSpecific</b>.
 
 See 
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a> for a description of RADIUS vendor-specific attributes. See 
@@ -98,15 +98,15 @@ See
 
 
 
-<a href="https://msdn.microsoft.com/3d4d8d22-4cd3-48e0-b4a4-dfa0a0b7b87f">About NPS Extensions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-about-internet-authentication-service">About NPS Extensions</a>
 
 
 
-<a href="https://msdn.microsoft.com/2b7a16cb-bc64-4e81-8149-82f51c451312">NPS Extensions Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-internet-authentication-service-reference">NPS Extensions Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/8b13a21c-edbe-4982-8718-a34d62ecc38d">NPS Extensions Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-internet-authentication-service-structures">NPS Extensions Structures</a>
  
 
  

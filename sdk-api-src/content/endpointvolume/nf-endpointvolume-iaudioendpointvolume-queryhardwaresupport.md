@@ -62,7 +62,7 @@ The <i>QueryHardwareSupport</i> method queries the audio endpoint device for its
 
 ### -param pdwHardwareSupportMask [out]
 
-Pointer to a <b>DWORD</b> variable into which the method writes a hardware support mask that indicates the hardware capabilities of the audio endpoint device. The method can set the mask to 0 or to the bitwise-OR combination of one or more <a href="https://msdn.microsoft.com/54032f75-2287-4589-bda5-e005ee077c41">ENDPOINT_HARDWARE_SUPPORT_XXX</a> constants.
+Pointer to a <b>DWORD</b> variable into which the method writes a hardware support mask that indicates the hardware capabilities of the audio endpoint device. The method can set the mask to 0 or to the bitwise-OR combination of one or more <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/endpoint-hardware-support-xxx-constants">ENDPOINT_HARDWARE_SUPPORT_XXX</a> constants.
 
 
 ## -returns
@@ -114,7 +114,7 @@ The system automatically substitutes a software implementation for any function 
 
 
 
-<a href="https://msdn.microsoft.com/5e3e7ffc-8822-4b1b-b9af-206ec1e767e2">IAudioEndpointVolume Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudioendpointvolume">IAudioEndpointVolume Interface</a>
  
 
  

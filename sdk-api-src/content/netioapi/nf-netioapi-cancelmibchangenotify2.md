@@ -95,7 +95,7 @@ An invalid parameter was passed to the function. This error is returned if the <
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> to obtain the message string for the returned error.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
@@ -112,8 +112,8 @@ Use
 The <b>CancelMibChangeNotify2</b> function is defined on Windows Vista and later. 
 
 The  
-<b>CancelMibChangeNotify2</b> function deregisters for a change notification previously requested for IP interface changes, IP  address changes, IP route changes, or Teredo port changes on  a local computer. These requests are made  by calling <a href="https://msdn.microsoft.com/745128cf-7737-4f95-9712-26e0f6ae39b4">NotifyIpInterfaceChange</a>, <a href="https://msdn.microsoft.com/56945aa2-ca1e-44b3-9765-d862978a9dbe">NotifyUnicastIpAddressChange</a>, <a href="https://msdn.microsoft.com/f104dc0c-b3e0-4f22-ac5f-5dbf967be31b">NotifyRouteChange2</a>,  or <a href="https://msdn.microsoft.com/c0c23531-7629-41c9-acf2-9d2f5e98e02c">NotifyTeredoPortChange</a>. The  
-<b>CancelMibChangeNotify2</b> function also cancels a previous request to be notified when the unicast IP address table is stable on a local computer and can be  retrieved. This request is made by calling the <a href="https://msdn.microsoft.com/80d10088-79ef-41fd-add7-994d2a780ddb">NotifyStableUnicastIpAddressTable</a> function. 
+<b>CancelMibChangeNotify2</b> function deregisters for a change notification previously requested for IP interface changes, IP  address changes, IP route changes, or Teredo port changes on  a local computer. These requests are made  by calling <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifyipinterfacechange">NotifyIpInterfaceChange</a>, <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifyunicastipaddresschange">NotifyUnicastIpAddressChange</a>, <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifyroutechange2">NotifyRouteChange2</a>,  or <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifyteredoportchange">NotifyTeredoPortChange</a>. The  
+<b>CancelMibChangeNotify2</b> function also cancels a previous request to be notified when the unicast IP address table is stable on a local computer and can be  retrieved. This request is made by calling the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifystableunicastipaddresstable">NotifyStableUnicastIpAddressTable</a> function. 
 
 The <i>NotificationHandle</i> parameter returned to these notification functions is passed to <b>CancelMibChangeNotify2</b> to deregister for notifications or cancel a pending request to retrieve the stable unicast IP address table.
 
@@ -127,23 +127,23 @@ An application cannot make a call to the <b>CancelMibChangeNotify2</b> function 
 
 
 
-<a href="https://msdn.microsoft.com/745128cf-7737-4f95-9712-26e0f6ae39b4">NotifyIpInterfaceChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifyipinterfacechange">NotifyIpInterfaceChange</a>
 
 
 
-<a href="https://msdn.microsoft.com/f104dc0c-b3e0-4f22-ac5f-5dbf967be31b">NotifyRouteChange2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifyroutechange2">NotifyRouteChange2</a>
 
 
 
-<a href="https://msdn.microsoft.com/80d10088-79ef-41fd-add7-994d2a780ddb">NotifyStableUnicastIpAddressTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifystableunicastipaddresstable">NotifyStableUnicastIpAddressTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/c0c23531-7629-41c9-acf2-9d2f5e98e02c">NotifyTeredoPortChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifyteredoportchange">NotifyTeredoPortChange</a>
 
 
 
-<a href="https://msdn.microsoft.com/56945aa2-ca1e-44b3-9765-d862978a9dbe">NotifyUnicastIpAddressChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifyunicastipaddresschange">NotifyUnicastIpAddressChange</a>
  
 
  

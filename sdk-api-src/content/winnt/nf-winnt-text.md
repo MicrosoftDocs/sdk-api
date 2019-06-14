@@ -76,11 +76,11 @@ This macro interprets an ANSI string at runtime according to the current Windows
 
 
 
-<a href="https://msdn.microsoft.com/dd4930db-229f-4917-b7ca-d619e7e4564d">Unicode and Character Set Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/unicode-and-character-set-macros">Unicode and Character Set Macros</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c1c6582-b58c-4008-9ce5-208acc191d9f">Unicode and Character Sets</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/unicode-and-character-sets">Unicode and Character Sets</a>
  
 
  

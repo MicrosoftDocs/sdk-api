@@ -51,10 +51,10 @@ ms.custom: 19H1
 
 The 
 <b>NSPLookupServiceNext</b> function is called after obtaining a handle from a previous call to 
-<a href="https://msdn.microsoft.com/a0b71821-4434-470f-b729-370d7e1722ec">NSPLookupServiceBegin</a> in order to retrieve the requested service information.
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicebegin">NSPLookupServiceBegin</a> in order to retrieve the requested service information.
 
 The provider will pass a 
-<a href="https://msdn.microsoft.com/6c81fbba-aaf4-49ca-ab79-b6fe5dfb0076">WSAQUERYSET</a> structure in the <i>lpqsResults</i> buffer. The client should call this function until it returns <b>WSA_E_NOMORE</b>, indicating that all the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a> structure in the <i>lpqsResults</i> buffer. The client should call this function until it returns <b>WSA_E_NOMORE</b>, indicating that all the 
 <b>WSAQUERYSET</b> have been returned.
 
 
@@ -66,7 +66,7 @@ The provider will pass a
 ### -param hLookup [in]
 
 A handle returned from the previous call to 
-<a href="https://msdn.microsoft.com/448309ef-b9dd-4960-8016-d26691df59ec">WSALookupServiceBegin</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina">WSALookupServiceBegin</a>.
 
 
 ### -param dwControlFlags [in]
@@ -82,7 +82,7 @@ The size, in bytes, on input, that is contained in the buffer pointed to by <i>l
 ### -param lpqsResults [out]
 
 A pointer to a memory block that will contain, on return, one result set in a 
-<a href="https://msdn.microsoft.com/6c81fbba-aaf4-49ca-ab79-b6fe5dfb0076">WSAQUERYSET</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a> structure.
 
 
 ## -returns
@@ -90,7 +90,7 @@ A pointer to a memory block that will contain, on return, one result set in a
 
 
 The function should return <b>NO_ERROR</b> (zero) if the routine succeeds. It should return <b>SOCKET_ERROR</b> (–1) if the routine fails and it must set the appropriate error code using 
-<a href="https://msdn.microsoft.com/596155ee-3dcc-4ae3-97ab-0653e019cbee">WSASetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>.
 
 
 
@@ -102,12 +102,12 @@ The function should return <b>NO_ERROR</b> (zero) if the routine succeeds. It sh
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_E_CANCELLED</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_E_CANCELLED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 A call to 
-<a href="https://msdn.microsoft.com/ec72c89a-a74b-449c-996a-02057dff9137">NSPLookupServiceEnd</a> was made while this call was still processing. The call has been canceled. The data in the <i>lpqsResults</i> buffer is undefined. 
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupserviceend">NSPLookupServiceEnd</a> was made while this call was still processing. The call has been canceled. The data in the <i>lpqsResults</i> buffer is undefined. 
 
 
 
@@ -119,7 +119,7 @@ In Windows Sockets 2, conflicting error codes are defined for <b>WSAECANCELLED</
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_E_NO_MORE</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_E_NO_MORE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -132,7 +132,7 @@ In Windows Sockets 2, conflicting error codes are defined for <b>WSAENOMORE</b> 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_INVALID_HANDLE</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_INVALID_HANDLE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -143,7 +143,7 @@ The specified lookup handle is invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -154,19 +154,19 @@ There is not enough memory available to perform this operation.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 The <i>lpqsResults</i> buffer was too small to contain a 
-<a href="https://msdn.microsoft.com/6c81fbba-aaf4-49ca-ab79-b6fe5dfb0076">WSAQUERYSET</a> set.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a> set.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -177,7 +177,7 @@ One or more parameters are invalid, or missing, for this provider.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEOPNOTSUPP</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEOPNOTSUPP</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -188,7 +188,7 @@ The operation is not supported. This error is returned if the namespace provider
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANO_DATA</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_DATA</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -199,7 +199,7 @@ The name was found in the database, but no data, matching the given restrictions
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSASERVICE_NOT_FOUND</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASERVICE_NOT_FOUND</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -218,7 +218,7 @@ The service is unknown. The service cannot be found in the specified namespace.
 
 
 The <i>dwControlFlags</i> specified in this function and the ones specified at the time of 
-<a href="https://msdn.microsoft.com/a0b71821-4434-470f-b729-370d7e1722ec">NSPLookupServiceBegin</a> are handled as "restrictions" for the purpose of combination. The restrictions are combined between the ones at 
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicebegin">NSPLookupServiceBegin</a> are handled as "restrictions" for the purpose of combination. The restrictions are combined between the ones at 
 <b>NSPLookupServiceBegin</b> time and the ones at 
 <b>NSPLookupServiceNext</b> time. Therefore, the flags at 
 <b>NSPLookupServiceNext</b> can never increase the amount of data returned beyond what was requested at 
@@ -227,19 +227,19 @@ The <i>dwControlFlags</i> specified in this function and the ones specified at t
 
 The <i>dwControlFlags</i> <b>LUP_FLUSHPREVIOUS</b> and <b>LUP_RES_SERVICE</b> are exceptions to the combined restrictions rule (because they are behavior flags instead of "restriction" flags). If either flag is used in 
 <b>NSPLookupServiceNext</b>, they have their defined effect regardless of the setting of the same flags at 
-<a href="https://msdn.microsoft.com/a0b71821-4434-470f-b729-370d7e1722ec">NSPLookupServiceBegin</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicebegin">NSPLookupServiceBegin</a>.
 
 For example, if <b>LUP_RETURN_VERSION</b> is specified at 
-<a href="https://msdn.microsoft.com/a0b71821-4434-470f-b729-370d7e1722ec">NSPLookupServiceBegin</a>, the service provider retrieves records including the version. If <b>LUP_RETURN_VERSION</b> is not specified at 
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicebegin">NSPLookupServiceBegin</a>, the service provider retrieves records including the version. If <b>LUP_RETURN_VERSION</b> is not specified at 
 <b>NSPLookupServiceNext</b>, the returned information does not include the version, even though it was available. No error is generated.
 
 Also for example, if <b>LUP_RETURN_BLOB</b> is not specified at 
-<a href="https://msdn.microsoft.com/a0b71821-4434-470f-b729-370d7e1722ec">NSPLookupServiceBegin</a>, but is specified at 
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicebegin">NSPLookupServiceBegin</a>, but is specified at 
 <b>NSPLookupServiceNext</b>, the returned information does not include the private data. No error is generated.
 
 <h3><a id="Query_Results"></a><a id="query_results"></a><a id="QUERY_RESULTS"></a>Query Results</h3>
-The following table lists <a href="https://msdn.microsoft.com/6c81fbba-aaf4-49ca-ab79-b6fe5dfb0076">WSAQUERYSET</a> and describes how query results are represented in the 
-<a href="https://msdn.microsoft.com/6c81fbba-aaf4-49ca-ab79-b6fe5dfb0076">WSAQUERYSET</a> structure. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms739852(v=VS.85).aspx">Query-Related Data Structures</a>.
+The following table lists <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a> and describes how query results are represented in the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a> structure. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinSock/name-resolution-data-structures-2">Query-Related Data Structures</a>.
 
 <table>
 <tr>
@@ -248,7 +248,7 @@ The following table lists <a href="https://msdn.microsoft.com/6c81fbba-aaf4-49ca
 </tr>
 <tr>
 <td><b>dwSize</b></td>
-<td>Will be set to sizeof(<a href="https://msdn.microsoft.com/6c81fbba-aaf4-49ca-ab79-b6fe5dfb0076">WSAQUERYSET</a>). This is used as a versioning mechanism.</td>
+<td>Will be set to sizeof(<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a>). This is used as a versioning mechanism.</td>
 </tr>
 <tr>
 <td><b>dwOutputFlags</b></td>
@@ -289,7 +289,7 @@ The following table lists <a href="https://msdn.microsoft.com/6c81fbba-aaf4-49ca
 <tr>
 <td><b>lpafpProtocols</b></td>
 <td>Undefined for results, all needed protocol information is in the 
-<a href="https://msdn.microsoft.com/9cad3586-e315-4f6f-9045-7c95502bb768">CSADDR_INFO</a> structures.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a> structures.</td>
 </tr>
 <tr>
 <td><b>lpszQueryString</b></td>
@@ -298,12 +298,12 @@ The following table lists <a href="https://msdn.microsoft.com/6c81fbba-aaf4-49ca
 <tr>
 <td><b>dwNumberOfCsAddrs</b></td>
 <td>Indicates the number of elements in the array of 
-<a href="https://msdn.microsoft.com/9cad3586-e315-4f6f-9045-7c95502bb768">CSADDR_INFO</a> structures.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a> structures.</td>
 </tr>
 <tr>
 <td><b>lpcsaBuffer</b></td>
 <td>A pointer to an array of 
-<a href="https://msdn.microsoft.com/9cad3586-e315-4f6f-9045-7c95502bb768">CSADDR_INFO</a> structures, with one complete transport address contained within each element.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a> structures, with one complete transport address contained within each element.</td>
 </tr>
 <tr>
 <td><b>lpBlob</b></td>
@@ -320,27 +320,27 @@ The following table lists <a href="https://msdn.microsoft.com/6c81fbba-aaf4-49ca
 
 
 
-<a href="https://msdn.microsoft.com/9cad3586-e315-4f6f-9045-7c95502bb768">CSADDR_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0b71821-4434-470f-b729-370d7e1722ec">NSPLookupServiceBegin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicebegin">NSPLookupServiceBegin</a>
 
 
 
-<a href="https://msdn.microsoft.com/ec72c89a-a74b-449c-996a-02057dff9137">NSPLookupServiceEnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupserviceend">NSPLookupServiceEnd</a>
 
 
 
-<a href="https://msdn.microsoft.com/8f7736d5-ea77-472a-a94f-e422398fae3f">NSP_ROUTINE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-_nsp_routine">NSP_ROUTINE</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c81fbba-aaf4-49ca-ab79-b6fe5dfb0076">WSAQUERYSET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a>
 
 
 
-<a href="https://msdn.microsoft.com/596155ee-3dcc-4ae3-97ab-0653e019cbee">WSASetLastError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>
  
 
  

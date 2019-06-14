@@ -78,7 +78,7 @@ Returns ERROR_SUCCESS if the operation succeeds. Otherwise, it returns the appro
 
 
 
-<a href="https://msdn.microsoft.com/81f5ac9a-debb-4fa3-8ccf-1303cd45f1de">AddIscsiStaticTarget</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-addiscsistatictargeta">AddIscsiStaticTarget</a>
  
 
  

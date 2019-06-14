@@ -66,7 +66,7 @@ Zero-based index of the font family.
 
 ### -param fontFamily [out]
 
-Type: <b><a href="https://msdn.microsoft.com/1fce3d62-af4e-4d2b-a3fd-e534b5fcdb13">IDWriteFontFamily</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontfamily">IDWriteFontFamily</a>**</b>
 
 When this method returns, contains the address of   a pointer to the newly created font family object.
 
@@ -87,7 +87,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/2ca7e2d3-d66a-4c57-8fbe-15a5232c3506">IDWriteFontCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontcollection">IDWriteFontCollection</a>
  
 
  

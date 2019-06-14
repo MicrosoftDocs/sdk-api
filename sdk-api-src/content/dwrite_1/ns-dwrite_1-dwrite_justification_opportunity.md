@@ -112,11 +112,11 @@ Reserved
 
 
 
-<a href="https://msdn.microsoft.com/85D3841F-FA2B-4636-B786-DCD68C72209A">IDWriteTextAnalyzer1::GetJustificationOpportunities</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-getjustificationopportunities">IDWriteTextAnalyzer1::GetJustificationOpportunities</a>
 
 
 
-<a href="https://msdn.microsoft.com/BFBFEA4A-A0D4-4114-B0AB-4338A832ECD4">IDWriteTextAnalyzer1::JustifyGlyphAdvances</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-justifyglyphadvances">IDWriteTextAnalyzer1::JustifyGlyphAdvances</a>
  
 
  

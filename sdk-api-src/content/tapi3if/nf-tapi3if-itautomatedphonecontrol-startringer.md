@@ -83,7 +83,7 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an error value.
 
 If you specify the value zero in the <i>lRingMode</i> parameter, and the phone doesn't have a ringer device, the 
 <b>StartRinger</b> method attempts to play the ringing sound on the system's default audio render device. Examples of default devices include sound card speakers and a USB phone's audio render device. For more information, see 
-<a href="https://msdn.microsoft.com/7a73d5ff-d08a-46e6-b4ad-4f3b973967a7">PHONECAPS_LONG</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-phonecaps_long">PHONECAPS_LONG</a>.
 
 
 
@@ -93,7 +93,7 @@ If you specify the value zero in the <i>lRingMode</i> parameter, and the phone d
 
 
 
-<a href="https://msdn.microsoft.com/60d4f079-75ee-4aeb-9e7c-0b16d90da754">ITAutomatedPhoneControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itautomatedphonecontrol">ITAutomatedPhoneControl</a>
  
 
  

@@ -115,7 +115,7 @@ Indicates whether the virtual smart card needs to be provisioned with all necess
 
 ### -param pStatusCallback [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/6CB62E42-16FD-453F-9566-B4DFCDAC7368">ITpmVirtualSmartCardManagerStatusCallback</a> interface. The TPM virtual smart card manager uses this callback interface to communicate the progress or error during virtual smart card creation. If the <i>pStatusCallback</i> parameter is <b>NULL</b>, no progress is reported to the client before the operation completes.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/tpmvscmgr/nn-tpmvscmgr-itpmvirtualsmartcardmanagerstatuscallback">ITpmVirtualSmartCardManagerStatusCallback</a> interface. The TPM virtual smart card manager uses this callback interface to communicate the progress or error during virtual smart card creation. If the <i>pStatusCallback</i> parameter is <b>NULL</b>, no progress is reported to the client before the operation completes.
 
 
 ### -param ppszInstanceId [out]
@@ -143,7 +143,7 @@ If the method fails, it returns a Win32 error code.
 
 
 
-When the method succeeds, the <i>ppszInstanceId</i> parameter points to the Unicode buffer that contains the instance identifier of the newly created TPM virtual smart card reader. When you have finished using the buffer, the caller needs to free the buffer on the client by calling the <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> function, as directed in the COM memory management rules.
+When the method succeeds, the <i>ppszInstanceId</i> parameter points to the Unicode buffer that contains the instance identifier of the newly created TPM virtual smart card reader. When you have finished using the buffer, the caller needs to free the buffer on the client by calling the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function, as directed in the COM memory management rules.
 
 
 
@@ -153,7 +153,7 @@ When the method succeeds, the <i>ppszInstanceId</i> parameter points to the Unic
 
 
 
-<a href="https://msdn.microsoft.com/46CC703B-14A2-4588-BA13-837C76B70F07">ITpmVirtualSmartCardManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tpmvscmgr/nn-tpmvscmgr-itpmvirtualsmartcardmanager">ITpmVirtualSmartCardManager</a>
  
 
  

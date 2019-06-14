@@ -77,7 +77,7 @@ The user-mode path to be associated with the volume. This may be a drive letter 
 A volume <b>GUID</b> path for the volume. This string must be of the form 
       "\\?\Volume{<i>GUID</i>}\" where <i>GUID</i> is a <b>GUID</b> that identifies 
       the volume. The "\\?\" turns off path parsing and is ignored as part of the path, as discussed in 
-      <a href="https://msdn.microsoft.com/f640f42d-a703-4e2e-a6d3-09cbe989cd11">Naming a Volume</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-volume">Naming a Volume</a>.
 
 
 ## -returns
@@ -87,9 +87,9 @@ A volume <b>GUID</b> path for the volume. This string must be of the form
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-If the <i>lpszVolumeMountPoint</i> parameter contains a path to a mounted folder, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns <b>ERROR_DIR_NOT_EMPTY</b>, even if the directory is empty.
+If the <i>lpszVolumeMountPoint</i> parameter contains a path to a mounted folder, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_DIR_NOT_EMPTY</b>, even if the directory is empty.
 
 
 
@@ -174,7 +174,7 @@ SMB does not support volume management functions. For CsvFS a new mount point wi
 #### Examples
 
 For an example, see 
-     <a href="https://msdn.microsoft.com/c97bfd10-66ff-41e1-ba3b-f98a019948d5">Creating a Mounted Folder</a>.
+     <a href="https://docs.microsoft.com/windows/desktop/FileIO/mounting-a-volume-at-a-mount-point">Creating a Mounted Folder</a>.
 
 <div class="code"></div>
 
@@ -185,23 +185,23 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/b1a0a273-fa7f-4794-8b50-c74f00b0228d">DeleteVolumeMountPoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletevolumemountpointw">DeleteVolumeMountPoint</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f749042-bdc9-4087-bb8a-d833713472eb">GetVolumeNameForVolumeMountPoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumenameforvolumemountpointw">GetVolumeNameForVolumeMountPoint</a>
 
 
 
-<a href="https://msdn.microsoft.com/fa34786c-af82-4b59-bf36-e9a95a2f913e">GetVolumePathName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumepathnamew">GetVolumePathName</a>
 
 
 
-<a href="https://msdn.microsoft.com/6de526cd-5537-4411-b43f-3c0bdac70d64">Mounted Folders</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-mount-points">Mounted Folders</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc985126-970c-49f2-877f-3759125e43b6">Volume Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
  
 
  

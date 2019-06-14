@@ -67,7 +67,7 @@ Specifies the CLSID of the tuning spaces to retrieve.
 
 ### -param NewColl [out]
 
-Address of a variable that receives an <a href="https://msdn.microsoft.com/db252e22-8efe-4bfc-8fd3-2be7022bbbbd">ITuningSpaces</a> interface pointer. The caller must release the interface.
+Address of a variable that receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspaces">ITuningSpaces</a> interface pointer. The caller must release the interface.
 
 
 ## -returns
@@ -83,9 +83,9 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-The CLSID represents the object that implements the tuning space. The same object may implement several related tuning spaces. For example, ATSC Digital Antenna and ATSC Digital Cable are both supported by the <a href="https://msdn.microsoft.com/8535a8c3-35df-4c6c-872a-437f5c7a2e56">ATSCTuningSpace</a> object (CLSID_ATSCTuningSpace).
+The CLSID represents the object that implements the tuning space. The same object may implement several related tuning spaces. For example, ATSC Digital Antenna and ATSC Digital Cable are both supported by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/atsctuningspace-object">ATSCTuningSpace</a> object (CLSID_ATSCTuningSpace).
 
-This method matches against the CLSID returned by the <a href="https://msdn.microsoft.com/def4aac2-3d0b-4ce6-9f6b-d13e7c3cc86d">ITuningSpace::get_CLSID</a> method. The returned collection might be empty; call <a href="https://msdn.microsoft.com/df620224-5ee4-4cb6-973a-560dc9d9f4de">ITuningSpaces::get_Count</a> to determine how many tuning spaces were returned.
+This method matches against the CLSID returned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-get_clsid">ITuningSpace::get_CLSID</a> method. The returned collection might be empty; call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspaces-get_count">ITuningSpaces::get_Count</a> to determine how many tuning spaces were returned.
 
 
 
@@ -95,7 +95,7 @@ This method matches against the CLSID returned by the <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/8f053c53-2a2b-4d98-a510-c516faa21611">ITuningSpaceContainer Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspacecontainer">ITuningSpaceContainer Interface</a>
  
 
  

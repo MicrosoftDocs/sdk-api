@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DeleteMember</b> method removes  the specified <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) in text form from the list of  accounts that belong to the application group.
+The <b>DeleteMember</b> method removes  the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) in text form from the list of  accounts that belong to the application group.
 
 
 ## -parameters
@@ -72,7 +72,7 @@ Reserved for future use.
 
 
 
-To view the list of SIDs of accounts that belong to this application group in text form, use the <a href="https://msdn.microsoft.com/1370fe81-a729-477e-a500-1823abb713e1">Members</a> property.
+To view the list of SIDs of accounts that belong to this application group in text form, use the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_members">Members</a> property.
 
 
 

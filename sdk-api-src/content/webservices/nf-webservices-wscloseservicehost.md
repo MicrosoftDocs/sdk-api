@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Closes down communication with the specified <a href="https://msdn.microsoft.com/42e4d24d-5611-4561-b874-6dc3f3f88c73">service host</a>. 
+Closes down communication with the specified <a href="https://docs.microsoft.com/windows/desktop/wsw/service-host">service host</a>. 
             
 
 
@@ -63,18 +63,18 @@ Closes down communication with the specified <a href="https://msdn.microsoft.com
 
 ### -param serviceHost [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/1186e3ae-87d0-4d0b-a7cc-cce63dc091e2">WS_SERVICE_HOST</a> structure that represents the service host to be closed.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-service-host">WS_SERVICE_HOST</a> structure that represents the service host to be closed.
                 
 
 
 ### -param asyncContext [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/3c9ffbef-2f5b-42b0-96b1-f17f0ab98ca4">WS_ASYNC_CONTEXT</a> structure containing information for invoking the function asynchronously. Pass <b>NULL</b> to invoke the function synchronously.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_async_context">WS_ASYNC_CONTEXT</a> structure containing information for invoking the function asynchronously. Pass <b>NULL</b> to invoke the function synchronously.
 
 
 ### -param error [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> structure  that receives additional error information if the function fails.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
                 
 
 

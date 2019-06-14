@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>EMI_MEASUREMENT_UNIT</b> enumeration represents the available units of energy measurements that can be retrieved from a device by using <a href="https://msdn.microsoft.com/E23B1ED2-A87D-419A-8BEB-136AA77258AE">IOCTL_EMI_GET_MEASUREMENT</a>. 
+The <b>EMI_MEASUREMENT_UNIT</b> enumeration represents the available units of energy measurements that can be retrieved from a device by using <a href="https://docs.microsoft.com/windows/desktop/api/emi/ni-emi-ioctl_emi_get_measurement">IOCTL_EMI_GET_MEASUREMENT</a>. 
 
 
 ## -enum-fields
@@ -66,7 +66,7 @@ The energy measurement is returned in picowatt-hours.
 
 
 
-When a component calls <a href="https://msdn.microsoft.com/3A1A76B0-2A46-4C15-84BC-CE75701C30B7">IOCTL_EMI_GET_METADATA</a> to obtain the Energy Metering Interface (EMI) metadata for a device, the units of energy measurements supported by the device are returned in the <b>MeasurementUnit</b> field of the <a href="https://msdn.microsoft.com/en-us/library/Dn957428(v=VS.85).aspx">EMI_METADATA</a> structure output parameter.
+When a component calls <a href="https://docs.microsoft.com/windows/desktop/api/emi/ni-emi-ioctl_emi_get_metadata">IOCTL_EMI_GET_METADATA</a> to obtain the Energy Metering Interface (EMI) metadata for a device, the units of energy measurements supported by the device are returned in the <b>MeasurementUnit</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/emi/ns-emi-emi_metadata">EMI_METADATA</a> structure output parameter.
 
 In devices that implement<b>EMI_VERSION_V1</b>, picowatt-hours is the only supported unit.
 
@@ -78,15 +78,15 @@ In devices that implement<b>EMI_VERSION_V1</b>, picowatt-hours is the only suppo
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn957428(v=VS.85).aspx">EMI_METADATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/emi/ns-emi-emi_metadata">EMI_METADATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/D11C97E8-8E7F-41D7-A8A9-0B5426B20818">Energy Metering Interface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/powermeter/energy-meter-interface">Energy Metering Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/E23B1ED2-A87D-419A-8BEB-136AA77258AE">IOCTL_EMI_GET_MEASUREMENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/emi/ni-emi-ioctl_emi_get_measurement">IOCTL_EMI_GET_MEASUREMENT</a>
  
 
  

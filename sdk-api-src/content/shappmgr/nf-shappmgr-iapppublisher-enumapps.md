@@ -61,14 +61,14 @@ Creates an enumerator for enumerating all applications published by an applicati
 
 Type: <b>GUID*</b>
 
-A pointer to a GUID that specifies the application category to be enumerated. This must be one of the categories provided through <a href="https://msdn.microsoft.com/139a5094-8bb3-4b5d-938d-ba4af5d52d94">IAppPublisher::GetCategories</a>. If <i>pAppCategoryID</i> identifies a category not provided through <b>IAppPublisher::GetCategories</b>, creation of the enumerator succeeds with the enumerator returning zero items. If this parameter value is <b>NULL</b>, the enumerator returns applications published for all categories.
+A pointer to a GUID that specifies the application category to be enumerated. This must be one of the categories provided through <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nf-shappmgr-iapppublisher-getcategories">IAppPublisher::GetCategories</a>. If <i>pAppCategoryID</i> identifies a category not provided through <b>IAppPublisher::GetCategories</b>, creation of the enumerator succeeds with the enumerator returning zero items. If this parameter value is <b>NULL</b>, the enumerator returns applications published for all categories.
 
 
 ### -param ppepa [out]
 
-Type: <b><a href="https://msdn.microsoft.com/89a06b1d-1b72-46ca-91cd-bb63ea0cbff7">IEnumPublishedApps</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-ienumpublishedapps">IEnumPublishedApps</a>**</b>
 
-The address of a pointer to an <a href="https://msdn.microsoft.com/89a06b1d-1b72-46ca-91cd-bb63ea0cbff7">IEnumPublishedApps</a> reference variable that points to a <b>IEnumPublishedApps</b> interface. Application publishers must create an enumeration object that supports the <b>IEnumPublishedApps</b> interface, and return its pointer value through this parameter.
+The address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-ienumpublishedapps">IEnumPublishedApps</a> reference variable that points to a <b>IEnumPublishedApps</b> interface. Application publishers must create an enumeration object that supports the <b>IEnumPublishedApps</b> interface, and return its pointer value through this parameter.
 				
 
 
@@ -87,7 +87,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<div class="alert"><b>Note</b>  <a href="https://msdn.microsoft.com/89a06b1d-1b72-46ca-91cd-bb63ea0cbff7">IEnumPublishedApps</a> is not a standard enumeration interface. It does not support a Skip method nor does its Next method support retrieval of multiple items.</div>
+<div class="alert"><b>Note</b>  <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-ienumpublishedapps">IEnumPublishedApps</a> is not a standard enumeration interface. It does not support a Skip method nor does its Next method support retrieval of multiple items.</div>
 <div> </div>
 
 
@@ -97,15 +97,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/5391444a-53b6-48c9-9a94-d045b3f97182">IAppPublisher</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-iapppublisher">IAppPublisher</a>
 
 
 
-<a href="https://msdn.microsoft.com/89a06b1d-1b72-46ca-91cd-bb63ea0cbff7">IEnumPublishedApps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-ienumpublishedapps">IEnumPublishedApps</a>
 
 
 
-<a href="https://msdn.microsoft.com/a5a44e74-494a-4c9b-8bf3-85c6093b2c0e">IPublishedApp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-ipublishedapp">IPublishedApp</a>
  
 
  

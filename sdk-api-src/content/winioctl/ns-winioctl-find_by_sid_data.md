@@ -49,7 +49,7 @@ req.redist:
 
 
 Contains data for the 
-   <a href="https://msdn.microsoft.com/10d46c2e-9403-4c8a-8847-f427fbc6c905">FSCTL_FIND_FILES_BY_SID</a> control 
+   <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_find_files_by_sid">FSCTL_FIND_FILES_BY_SID</a> control 
    code.
 
 
@@ -67,7 +67,7 @@ Indicates whether to restart the search. This member should be 1 on first call, 
 
 ### -field Sid
 
-A <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure that specifies the desired creator 
+A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure that specifies the desired creator 
       owner.
 
 
@@ -76,7 +76,7 @@ A <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID<
 
 
 
-<a href="https://msdn.microsoft.com/10d46c2e-9403-4c8a-8847-f427fbc6c905">FSCTL_FIND_FILES_BY_SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_find_files_by_sid">FSCTL_FIND_FILES_BY_SID</a>
  
 
  

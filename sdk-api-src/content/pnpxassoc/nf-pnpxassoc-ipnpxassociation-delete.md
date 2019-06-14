@@ -107,9 +107,9 @@ The method failed.
 
 
 
-This method modifies the association database entry corresponding to the function instance from which the <a href="https://msdn.microsoft.com/03c1c4cb-fffb-4b4a-963a-200670062f4a">IPNPXAssociation</a> interface was obtained. 
+This method modifies the association database entry corresponding to the function instance from which the <a href="https://docs.microsoft.com/windows/desktop/api/pnpxassoc/nn-pnpxassoc-ipnpxassociation">IPNPXAssociation</a> interface was obtained. 
 
-To mark a device as unavailable for use without deleting the association database entry, call <a href="https://msdn.microsoft.com/92f0cc10-03a0-498f-acd1-4b03302aa33b">IPNPXAssociation::Unassociate</a>.
+To mark a device as unavailable for use without deleting the association database entry, call <a href="https://docs.microsoft.com/windows/desktop/api/pnpxassoc/nf-pnpxassoc-ipnpxassociation-unassociate">IPNPXAssociation::Unassociate</a>.
 
 
 
@@ -119,11 +119,11 @@ To mark a device as unavailable for use without deleting the association databas
 
 
 
-<a href="https://msdn.microsoft.com/03c1c4cb-fffb-4b4a-963a-200670062f4a">IPNPXAssociation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pnpxassoc/nn-pnpxassoc-ipnpxassociation">IPNPXAssociation</a>
 
 
 
-<a href="https://msdn.microsoft.com/208da586-6bb3-4365-90ba-9fd615a371eb">IPNPXDeviceAssociation::Delete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pnpxassoc/nf-pnpxassoc-ipnpxdeviceassociation-delete">IPNPXDeviceAssociation::Delete</a>
  
 
  

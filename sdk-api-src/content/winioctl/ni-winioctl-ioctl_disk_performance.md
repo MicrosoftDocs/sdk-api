@@ -51,7 +51,7 @@ req.redist:
 Enables performance counters that provide disk performance information.
 
 To perform this operation, call the 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -145,7 +145,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-To disable the  performance counters enabled by this control code, use the <a href="https://msdn.microsoft.com/68f4f6fb-a4f3-4fa5-8187-b2287a4271e8">IOCTL_DISK_PERFORMANCE_OFF</a> control code.
+To disable the  performance counters enabled by this control code, use the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_performance_off">IOCTL_DISK_PERFORMANCE_OFF</a> control code.
 
 
 
@@ -155,19 +155,19 @@ To disable the  performance counters enabled by this control code, use the <a hr
 
 
 
-<a href="https://msdn.microsoft.com/938ec37b-450e-4ebf-ad2b-9f1ac5f56112">DISK_PERFORMANCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_disk_performance">DISK_PERFORMANCE</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/488a7d32-cbb5-4f32-9655-0aca8ac69640">Disk Management Control Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes">Disk Management Control Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/68f4f6fb-a4f3-4fa5-8187-b2287a4271e8">IOCTL_DISK_PERFORMANCE_OFF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_performance_off">IOCTL_DISK_PERFORMANCE_OFF</a>
  
 
  

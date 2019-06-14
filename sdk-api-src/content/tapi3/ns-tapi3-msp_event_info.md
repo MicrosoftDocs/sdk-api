@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>MSP_EVENT_INFO</b> structure defines the type of event returned by the 
-<a href="https://msdn.microsoft.com/df5263f2-9d76-472d-b7fc-724d36f0b58f">GetEvent</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-getevent">GetEvent</a> method.
 
 
 ## -struct-fields
@@ -82,13 +82,13 @@ Struct returned if MSP event is ME_ADDRESS_EVENT.
 ### -field MSP_ADDRESS_EVENT_INFO.Type
 
 Describes the 
-<a href="https://msdn.microsoft.com/35aecd05-badd-4509-92e5-1936ca075c37">msp address event</a> of the event that has occurred.
+<a href="https://docs.microsoft.com/windows/desktop/api/msp/ne-msp-__midl___midl_itf_msp_0000_0000_0001">msp address event</a> of the event that has occurred.
 
 
 ### -field MSP_ADDRESS_EVENT_INFO.pTerminal
 
 Pointer to 
-<a href="https://msdn.microsoft.com/38bc30fa-3e4e-417a-9d04-931ba2451fa4">ITTerminal</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a> interface.
 
 
 ### -field MSP_CALL_EVENT_INFO
@@ -99,7 +99,7 @@ Struct returned if MSP event is ME_CALL_EVENT.
 ### -field MSP_CALL_EVENT_INFO.Type
 
 Indicates type of 
-<a href="https://msdn.microsoft.com/c1bbc75e-04ad-4db4-9730-abbbf89306dd">MSP_CALL_EVENT</a> that has occurred.
+<a href="https://docs.microsoft.com/windows/desktop/api/msp/ne-msp-__midl___midl_itf_msp_0000_0000_0002">MSP_CALL_EVENT</a> that has occurred.
 
 
 ### -field MSP_CALL_EVENT_INFO.Cause
@@ -110,13 +110,13 @@ Indicates type of
 ### -field MSP_CALL_EVENT_INFO.pStream
 
 Pointer to 
-<a href="https://msdn.microsoft.com/74a385c8-0c36-4cf0-8983-5ffd7b0e5c4a">ITStream</a> interface on which event occurred.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a> interface on which event occurred.
 
 
 ### -field MSP_CALL_EVENT_INFO.pTerminal
 
 Pointer to 
-<a href="https://msdn.microsoft.com/38bc30fa-3e4e-417a-9d04-931ba2451fa4">ITTerminal</a> interface on which event occurred.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a> interface on which event occurred.
 
 
 ### -field MSP_CALL_EVENT_INFO.hrError
@@ -154,7 +154,7 @@ MSP event.
 
 ##### pEvent.pEvent
 
-Pointer to <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface of private object on which event has occurred.
+Pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface of private object on which event has occurred.
 
 
 ### -field MSP_PRIVATE_EVENT_INFO.lEventCode
@@ -241,7 +241,7 @@ Pointer to <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).a
 
 ###### - MSP_PRIVATE_EVENT_INFO.pEvent.pEvent
 
-Pointer to <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface of private object on which event has occurred.
+Pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface of private object on which event has occurred.
 
 
 ## -see-also
@@ -249,11 +249,11 @@ Pointer to <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).a
 
 
 
-<a href="https://msdn.microsoft.com/df5263f2-9d76-472d-b7fc-724d36f0b58f">ITMSPAddress::GetEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-getevent">ITMSPAddress::GetEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/53b7bcbd-571a-44da-a6db-10d4c3e5d30a">Media Service Provider Interface (MSPI)</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
  
 
  

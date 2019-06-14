@@ -59,7 +59,7 @@ Gets the list of supported cellular classes for a multi-carrier device.
 
 ### -param cellularClasses [out, retval]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/2d75c20b-1ae4-4824-8918-41c20327a007">MBN_CELLULAR_CLASS</a> enumerations that contain the list of supported cellular classes. If this method returns any value other than <b>S_OK</b>, <i>cellularClass</i> is <b>NULL</b>. When <b>GetSupportedCellularClasses</b> returns <b>S_OK</b>, the calling application must free the allocated memory by calling <a href="https://msdn.microsoft.com/fc94f7e7-b903-4c78-905c-54df1f8d13fa">SafeArrayDestroy</a>.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_cellular_class">MBN_CELLULAR_CLASS</a> enumerations that contain the list of supported cellular classes. If this method returns any value other than <b>S_OK</b>, <i>cellularClass</i> is <b>NULL</b>. When <b>GetSupportedCellularClasses</b> returns <b>S_OK</b>, the calling application must free the allocated memory by calling <a href="https://docs.microsoft.com/windows/desktop/api/oleauto/nf-oleauto-safearraydestroy">SafeArrayDestroy</a>.
 
 
 ## -returns
@@ -139,7 +139,7 @@ The operation is not supported by the device. This may be returned by devices wh
 
 
 
-<a href="https://msdn.microsoft.com/E40517CE-3169-4F20-A572-EDBC8FEC2862">IMbnMultiCarrier</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrier">IMbnMultiCarrier</a>
  
 
  

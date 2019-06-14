@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>EMRCREATEBRUSHINDIRECT</b> structure contains members for the <a href="https://msdn.microsoft.com/75f94ad1-ca25-4ad1-9e8c-ad1a4b8475a7">CreateBrushIndirect</a> enhanced metafile record.
+The <b>EMRCREATEBRUSHINDIRECT</b> structure contains members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createbrushindirect">CreateBrushIndirect</a> enhanced metafile record.
 
 
 
@@ -72,9 +72,9 @@ Index of brush in handle table.
 
 ### -field lb
 
-A <a href="https://msdn.microsoft.com/8e2053a9-d7b6-4bf7-b915-4c3871a46b37">LOGBRUSH32</a> structure containing information about the brush. The <b>lbStyle</b> member must be either the BS_SOLID, BS_HOLLOW, BS_NULL, or BS_HATCHED value.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogbrush32">LOGBRUSH32</a> structure containing information about the brush. The <b>lbStyle</b> member must be either the BS_SOLID, BS_HOLLOW, BS_NULL, or BS_HATCHED value.
 
-Note, that if your code is used on both 32-bit and 64-bit platforms, you must use the <a href="https://msdn.microsoft.com/8e2053a9-d7b6-4bf7-b915-4c3871a46b37">LOGBRUSH32</a> structure. This maintains compatibility between the platforms when you record the metafile on one platform and use it on the other platform. If your code remains on one platform, it is sufficient to use <a href="https://msdn.microsoft.com/ded2c7a4-2248-4d01-95c6-ab4050719094">LOGBRUSH</a>.
+Note, that if your code is used on both 32-bit and 64-bit platforms, you must use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogbrush32">LOGBRUSH32</a> structure. This maintains compatibility between the platforms when you record the metafile on one platform and use it on the other platform. If your code remains on one platform, it is sufficient to use <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogbrush">LOGBRUSH</a>.
 
 
 ## -see-also
@@ -82,23 +82,23 @@ Note, that if your code is used on both 32-bit and 64-bit platforms, you must us
 
 
 
-<a href="https://msdn.microsoft.com/75f94ad1-ca25-4ad1-9e8c-ad1a4b8475a7">CreateBrushIndirect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createbrushindirect">CreateBrushIndirect</a>
 
 
 
-<a href="https://msdn.microsoft.com/ded2c7a4-2248-4d01-95c6-ab4050719094">LOGBRUSH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogbrush">LOGBRUSH</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e2053a9-d7b6-4bf7-b915-4c3871a46b37">LOGBRUSH32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogbrush32">LOGBRUSH32</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a509ed5-cea3-4318-ad17-9d20425a6e80">Metafile Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/309ee4cf-111b-4f09-a722-4823cb3d26b0">Metafiles Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
  
 
  

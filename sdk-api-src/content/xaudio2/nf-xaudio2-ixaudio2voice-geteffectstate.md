@@ -80,7 +80,7 @@ This method does not return a value.
 
 
 
-<b>GetEffectState</b> always returns the effect's actual current state. However, this may not be the state set by the most recent <a href="https://msdn.microsoft.com/en-us/library/Ee418584(v=VS.85).aspx">IXAudio2Voice::EnableEffect</a> or <a href="https://msdn.microsoft.com/en-us/library/Ee418583(v=VS.85).aspx">IXAudio2Voice::DisableEffect</a> call: the actual state is only changed the next time the audio engine runs after the <b>IXAudio2Voice::EnableEffect</b> or <b>IXAudio2Voice::DisableEffect</b> call (or after the corresponding <a href="https://msdn.microsoft.com/en-us/library/Ee418603(v=VS.85).aspx">IXAudio2::CommitChanges</a> call, if EnableEffect/DisableEffect was called with a deferred operation ID).
+<b>GetEffectState</b> always returns the effect's actual current state. However, this may not be the state set by the most recent <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-enableeffect">IXAudio2Voice::EnableEffect</a> or <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-disableeffect">IXAudio2Voice::DisableEffect</a> call: the actual state is only changed the next time the audio engine runs after the <b>IXAudio2Voice::EnableEffect</b> or <b>IXAudio2Voice::DisableEffect</b> call (or after the corresponding <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-commitchanges">IXAudio2::CommitChanges</a> call, if EnableEffect/DisableEffect was called with a deferred operation ID).
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
@@ -93,11 +93,11 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415917(v=VS.85).aspx">IXAudio2Voice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voice">IXAudio2Voice</a>
 
 
 
-<a href="https://msdn.microsoft.com/4fe88a0f-0234-462f-b575-e592f2c8401e">XAPO Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/xapo-overview">XAPO Overview</a>
  
 
  

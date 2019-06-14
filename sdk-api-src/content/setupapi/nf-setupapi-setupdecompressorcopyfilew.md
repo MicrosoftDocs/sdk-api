@@ -78,7 +78,7 @@ Exact name of the target file that will be created by decompressing or copying t
 ### -param CompressionType [in]
 
 Optional pointer to the compression type used on the source file. You can determine the compression type by calling 
-<a href="https://msdn.microsoft.com/68bcfbb3-f0ba-412b-9ed2-e2139099fcf2">SetupGetFileCompressionInfo</a>. If this value is FILE_COMPRESSION_NONE, the file is copied (not decompressed) regardless of any compression in use on the source. If <i>CompressionType</i> is not specified, this routine determines the compression type automatically.
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetfilecompressioninfoa">SetupGetFileCompressionInfo</a>. If this value is FILE_COMPRESSION_NONE, the file is copied (not decompressed) regardless of any compression in use on the source. If <i>CompressionType</i> is not specified, this routine determines the compression type automatically.
 
 
 ## -returns
@@ -86,10 +86,10 @@ Optional pointer to the compression type used on the source file. You can determ
 
 
 The 
-<b>SetupDecompressOrCopyFile</b> function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> that indicates the outcome of the operation. 
+<b>SetupDecompressOrCopyFile</b> function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> that indicates the outcome of the operation. 
 
 To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -99,15 +99,15 @@ To get extended error information, call
 
 
 
-<a href="https://msdn.microsoft.com/0a9518b7-f231-48f2-ba50-5b802f8ccaed">Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/58201596-cb8c-480a-abef-896c1f9ef098">Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/68bcfbb3-f0ba-412b-9ed2-e2139099fcf2">SetupGetFileCompressionInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetfilecompressioninfoa">SetupGetFileCompressionInfo</a>
  
 
  

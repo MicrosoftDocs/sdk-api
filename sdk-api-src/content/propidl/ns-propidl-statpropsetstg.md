@@ -51,10 +51,10 @@ ms.custom: 19H1
 
 The 
 <b>STATPROPSETSTG</b> structure contains information about a property set. To get this information, call 
-<a href="https://msdn.microsoft.com/46985c49-cb9b-4f67-8dff-e6fad9e188da">IPropertyStorage::Stat</a>, which fills in a buffer containing the information describing the current property set. To enumerate the 
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-stat">IPropertyStorage::Stat</a>, which fills in a buffer containing the information describing the current property set. To enumerate the 
 <b>STATPROPSETSTG</b> structures for the property sets in the current property-set storage, call 
-<a href="https://msdn.microsoft.com/979ee86b-fabc-428c-8134-f16c2a33270f">IPropertySetStorage::Enum</a> to get a pointer to an enumerator. You can then call the enumeration methods of the 
-<a href="https://msdn.microsoft.com/8d5e658f-312c-4c91-8794-808b2e8dd182">IEnumSTATPROPSETSTG</a> interface on the enumerator. The structure is defined as follows:
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertysetstorage-enum">IPropertySetStorage::Enum</a> to get a pointer to an enumerator. You can then call the enumeration methods of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ienumstatpropsetstg">IEnumSTATPROPSETSTG</a> interface on the enumerator. The structure is defined as follows:
 
 
 ## -struct-fields
@@ -70,13 +70,13 @@ FMTID of the current property set, specified when the property set was initially
 ### -field clsid
 
 <b>CLSID</b> associated with this property set, specified when the property set was initially created and possibly modified thereafter with 
-<a href="https://msdn.microsoft.com/88c916e5-b7f0-4f4d-b049-df2b0e1c2423">IPropertyStorage::SetClass</a>. If not set, the value will be <b>CLSID_NULL</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-setclass">IPropertyStorage::SetClass</a>. If not set, the value will be <b>CLSID_NULL</b>.
 
 
 ### -field grfFlags
 
 Flag values of the property set, as specified in 
-<a href="https://msdn.microsoft.com/9307788d-bce6-4025-8043-8b68e874a62b">IPropertySetStorage::Create</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertysetstorage-create">IPropertySetStorage::Create</a>.
 
 
 ### -field mtime
@@ -106,19 +106,19 @@ Time in UTC when this property set was last accessed.
 
 
 
-<a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
 
 
 
-<a href="https://msdn.microsoft.com/8d5e658f-312c-4c91-8794-808b2e8dd182">IEnumSTATPROPSETSTG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ienumstatpropsetstg">IEnumSTATPROPSETSTG</a>
 
 
 
-<a href="https://msdn.microsoft.com/9307788d-bce6-4025-8043-8b68e874a62b">IPropertySetStorage::Create</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertysetstorage-create">IPropertySetStorage::Create</a>
 
 
 
-<a href="https://msdn.microsoft.com/46985c49-cb9b-4f67-8dff-e6fad9e188da">IPropertyStorage::Stat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-stat">IPropertyStorage::Stat</a>
  
 
  

@@ -63,7 +63,7 @@ Modifies a topology for use in a Terminal Services environment.
 
 ### -param pTopology [in, out]
 
-Pointer to the <a href="https://msdn.microsoft.com/f293e9ee-9bd2-4b3e-a4ff-53457ee910f6">IMFTopology</a> interface of the topology.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a> interface of the topology.
 
 
 ## -returns
@@ -98,7 +98,7 @@ The method succeeded.
 
 
 
-If the application is running in a Terminal Services client session, call this method before calling <a href="https://msdn.microsoft.com/ea5313f0-b0fd-4945-97a2-b3f17937294f">IMFMediaSession::SetTopology</a> on the Media Session.
+If the application is running in a Terminal Services client session, call this method before calling <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-settopology">IMFMediaSession::SetTopology</a> on the Media Session.
 
 
 
@@ -108,7 +108,7 @@ If the application is running in a Terminal Services client session, call this m
 
 
 
-<a href="https://msdn.microsoft.com/75bb9bf8-12a7-430f-9943-18623aff9903">IMFRemoteDesktopPlugin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfremotedesktopplugin">IMFRemoteDesktopPlugin</a>
  
 
  

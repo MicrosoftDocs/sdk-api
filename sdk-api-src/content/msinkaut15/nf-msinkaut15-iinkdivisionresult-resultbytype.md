@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Gets the requested structural units of the analysis results for an <a href="https://msdn.microsoft.com/efce8756-f42b-4d9a-bfed-4297e7e0fdec">IInkDivisionUnits</a> collection.
+Gets the requested structural units of the analysis results for an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunits">IInkDivisionUnits</a> collection.
 
 
 
@@ -63,12 +63,12 @@ Gets the requested structural units of the analysis results for an <a href="http
 
 ### -param divisionType [in]
 
-The <a href="https://msdn.microsoft.com/00e1188e-58c0-4681-ad04-e53079d478fd">InkDivisionType</a> enumeration value that indicates the structural units to return.
+The <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/ne-msinkaut15-inkdivisiontype">InkDivisionType</a> enumeration value that indicates the structural units to return.
 
 
 ### -param InkDivisionUnits [out, retval]
 
-A pointer to the <a href="https://msdn.microsoft.com/efce8756-f42b-4d9a-bfed-4297e7e0fdec">IInkDivisionUnits</a> collection that contains the requested structural units of the analysis results.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunits">IInkDivisionUnits</a> collection that contains the requested structural units of the analysis results.
 
 
 ## -returns
@@ -147,9 +147,9 @@ An exception occurred inside the method.
 
 
 
-This method returns a new <a href="https://msdn.microsoft.com/efce8756-f42b-4d9a-bfed-4297e7e0fdec">IInkDivisionUnits</a> collection each time the method is called.
+This method returns a new <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunits">IInkDivisionUnits</a> collection each time the method is called.
 
-If no structural units of the requested type exist in the <a href="https://msdn.microsoft.com/d1a71976-2825-48d2-812c-fd2336cd4c1d">IInkDivisionResult</a> object, then this method returns an empty <a href="https://msdn.microsoft.com/efce8756-f42b-4d9a-bfed-4297e7e0fdec">IInkDivisionUnits</a> collection.
+If no structural units of the requested type exist in the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult">IInkDivisionResult</a> object, then this method returns an empty <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunits">IInkDivisionUnits</a> collection.
 
 If you define a class that implements this interface, the new class will not interact correctly with the Tablet PC application programming interfaces (APIs).
 
@@ -161,15 +161,15 @@ If you define a class that implements this interface, the new class will not int
 
 
 
-<a href="https://msdn.microsoft.com/d1a71976-2825-48d2-812c-fd2336cd4c1d">IInkDivisionResult Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult">IInkDivisionResult Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/efce8756-f42b-4d9a-bfed-4297e7e0fdec">IInkDivisionUnits Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunits">IInkDivisionUnits Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/00e1188e-58c0-4681-ad04-e53079d478fd">InkDivisionType Enumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/ne-msinkaut15-inkdivisiontype">InkDivisionType Enumeration</a>
  
 
  

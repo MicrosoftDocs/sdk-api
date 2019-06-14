@@ -163,11 +163,11 @@ Reserved for future use. Must be <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/1ed0c634-4f09-49c1-8fbf-9182d6a4bd51">SERVICE_ADDRESSES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_addresses">SERVICE_ADDRESSES</a>
 
 
 
-<a href="https://msdn.microsoft.com/e76e0c1b-8cbf-45ad-a685-fb672801c24d">SERVICE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_infoa">SERVICE_INFO</a>
  
 
  

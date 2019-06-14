@@ -79,7 +79,7 @@ Supported in Windows 8.1 and later.
 
 
 
-This enumeration is used with the <a href="https://msdn.microsoft.com/f7ac3c9b-c163-412f-84c0-27bf551091d8">MF_TOPOLOGY_HARDWARE_MODE</a> topology attribute.
+This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-topology-hardware-mode">MF_TOPOLOGY_HARDWARE_MODE</a> topology attribute.
       
 
 
@@ -90,7 +90,7 @@ This enumeration is used with the <a href="https://msdn.microsoft.com/f7ac3c9b-c
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

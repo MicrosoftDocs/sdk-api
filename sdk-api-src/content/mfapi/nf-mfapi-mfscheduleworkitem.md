@@ -62,7 +62,7 @@ Schedules an asynchronous operation to be completed after a specified interval.
 
 ### -param pCallback [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/7edff985-da59-4cc0-96de-1a92e03a7d41">IMFAsyncCallback</a> interface. The caller must implement this interface.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface. The caller must implement this interface.
 
 
 ### -param pState [in]
@@ -77,7 +77,7 @@ Time-out interval, in milliseconds. Set this parameter to a negative value. The 
 
 ### -param pKey [out]
 
-Receives a key that can be used to cancel the timer. To cancel the timer, call <a href="https://msdn.microsoft.com/a24fae61-30c8-4aca-b067-22b99f904fd8">MFCancelWorkItem</a> and pass this key in the <i>Key</i> parameter.
+Receives a key that can be used to cancel the timer. To cancel the timer, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcancelworkitem">MFCancelWorkItem</a> and pass this key in the <i>Key</i> parameter.
 
 
 ## -returns
@@ -112,7 +112,7 @@ The function succeeded.
 
 
 
-This function creates an asynchronous result object. When the timer interval elapses, the <a href="https://msdn.microsoft.com/22473605-637e-4783-a8cb-98248b0a0327">IMFAsyncCallback::Invoke</a> method specified by <i>pCallback</i> is called.
+This function creates an asynchronous result object. When the timer interval elapses, the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method specified by <i>pCallback</i> is called.
 
 This function is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -128,15 +128,15 @@ This function is available on the following platforms if the Windows Media Forma
 
 
 
-<a href="https://msdn.microsoft.com/b698cae1-4f3b-4649-b6f7-583f223eb90c">MFScheduleWorkItemEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfscheduleworkitemex">MFScheduleWorkItemEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/f886d096-b1f5-42e4-8888-501b58bffd50">Work Queues</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/work-queues">Work Queues</a>
  
 
  

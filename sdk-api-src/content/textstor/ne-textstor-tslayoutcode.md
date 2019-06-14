@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Elements of the <b>TsLayoutCode</b> enumeration are used to specify the type of layout change in an <a href="https://msdn.microsoft.com/2018d3ef-892f-46c0-8dd0-3e27a9f2272c">ITextStoreACPSink::OnLayoutChange</a> or <a href="https://msdn.microsoft.com/22629ca6-5701-4f6f-b797-bb71c8d31da6">ITextStoreAnchorSink::OnLayoutChange</a> notification.
+Elements of the <b>TsLayoutCode</b> enumeration are used to specify the type of layout change in an <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacpsink-onlayoutchange">ITextStoreACPSink::OnLayoutChange</a> or <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onlayoutchange">ITextStoreAnchorSink::OnLayoutChange</a> notification.
 
 
 ## -enum-fields
@@ -77,12 +77,12 @@ The view is about to be destroyed.
 
 
 
-<a href="https://msdn.microsoft.com/2018d3ef-892f-46c0-8dd0-3e27a9f2272c">ITextStoreACPSink::OnLayoutChange
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacpsink-onlayoutchange">ITextStoreACPSink::OnLayoutChange
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/22629ca6-5701-4f6f-b797-bb71c8d31da6">ITextStoreAnchorSink::OnLayoutChange
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onlayoutchange">ITextStoreAnchorSink::OnLayoutChange
       </a>
  
 

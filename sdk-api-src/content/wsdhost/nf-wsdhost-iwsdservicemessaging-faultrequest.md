@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sends a fault matching a given request context.  This method should be called only from <a href="https://msdn.microsoft.com/76dffca8-bb84-4384-a9e8-120a4cf2acac">generated code</a>.
+Sends a fault matching a given request context.  This method should be called only from <a href="https://docs.microsoft.com/windows/desktop/WsdApi/web-services-for-devices-code-generator">generated code</a>.
 
 
 ## -parameters
@@ -59,17 +59,17 @@ Sends a fault matching a given request context.  This method should be called on
 
 ### -param pRequestHeader [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/6a0f0fd3-486e-45b3-bac6-e241bce8e2dc">WSD_SOAP_HEADER</a> structure that contains the SOAP header of the original request that caused the fault.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_soap_header">WSD_SOAP_HEADER</a> structure that contains the SOAP header of the original request that caused the fault.
 
 
 ### -param pMessageParameters [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/fb659a5e-1f55-47a6-b22d-660975d8c0fd">IWSDMessageParameters</a> object that contains the message parameters for the original request that caused the fault.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a> object that contains the message parameters for the original request that caused the fault.
 
 
 ### -param pFault [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/ed5e2575-203a-41a2-b656-50cb82aae088">WSD_SOAP_FAULT</a> structure that describes the fault to serialize and send. If this parameter is omitted, a fault of type <b>wsa:EndpointUnavailable</b> will be sent.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_soap_fault">WSD_SOAP_FAULT</a> structure that describes the fault to serialize and send. If this parameter is omitted, a fault of type <b>wsa:EndpointUnavailable</b> will be sent.
 
 
 ## -returns
@@ -149,7 +149,7 @@ The method failed.
 
 
 
-<a href="https://msdn.microsoft.com/06584474-1c55-43db-9c7a-fefea8d16eed">IWSDServiceMessaging</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsdservicemessaging">IWSDServiceMessaging</a>
  
 
  

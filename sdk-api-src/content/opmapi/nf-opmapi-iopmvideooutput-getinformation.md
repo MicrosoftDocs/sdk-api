@@ -59,12 +59,12 @@ Sends an Output Protection Manager (OPM) status request to the display driver.
 
 ### -param pParameters [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/8959c7d1-9a78-497f-8841-d3e61e9db6a3">OPM_GET_INFO_PARAMETERS</a> structure. Fill in this structure with data for the status request. For a list of status requests, see <a href="https://msdn.microsoft.com/428d08c6-e9f0-49fb-9ef9-d0f95416669d">OPM Status Requests</a>.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_get_info_parameters">OPM_GET_INFO_PARAMETERS</a> structure. Fill in this structure with data for the status request. For a list of status requests, see <a href="https://docs.microsoft.com/windows/desktop/medfound/opm-status-requests">OPM Status Requests</a>.
 
 
 ### -param pRequestedInformation [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/84ffa808-1bdb-47c8-a18c-6dfa6fcf90de">OPM_REQUESTED_INFORMATION</a> structure. On return, the method fills in this structure with the results of the status request.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_requested_information">OPM_REQUESTED_INFORMATION</a> structure. On return, the method fills in this structure with the results of the status request.
 
 
 ## -returns
@@ -112,7 +112,7 @@ The OPM object was created with Certified Output Protection Protocol (COPP) sema
 
 This method is equivalent to the <b>IAMCertifiedOutputProtection::ProtectionStatus</b> method in COPP.
 
-The <a href="https://msdn.microsoft.com/8bf43577-3535-4f62-ac81-bb7e3c329403">IOPMVideoOutput</a> interface supports both OPM semantics and COPP semantics. The <b>GetInformation</b> method applies only when OPM semantics are used. If the interface pointer was created with COPP semantics, <b>GetInformation</b> returns ERROR_GRAPHICS_OPM_VIDEO_OUTPUT_DOES_NOT_HAVE_OPM_SEMANTICS. In that case, call <a href="https://msdn.microsoft.com/46c0c426-9730-4a0e-ab95-03b240bd55f0">IOPMVideoOutput::COPPCompatibleGetInformation</a> instead.
+The <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput">IOPMVideoOutput</a> interface supports both OPM semantics and COPP semantics. The <b>GetInformation</b> method applies only when OPM semantics are used. If the interface pointer was created with COPP semantics, <b>GetInformation</b> returns ERROR_GRAPHICS_OPM_VIDEO_OUTPUT_DOES_NOT_HAVE_OPM_SEMANTICS. In that case, call <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-coppcompatiblegetinformation">IOPMVideoOutput::COPPCompatibleGetInformation</a> instead.
 
 
 
@@ -122,11 +122,11 @@ The <a href="https://msdn.microsoft.com/8bf43577-3535-4f62-ac81-bb7e3c329403">IO
 
 
 
-<a href="https://msdn.microsoft.com/8bf43577-3535-4f62-ac81-bb7e3c329403">IOPMVideoOutput</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput">IOPMVideoOutput</a>
 
 
 
-<a href="https://msdn.microsoft.com/daae615b-37c4-4044-91c6-693357e0016a">Output Protection Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
  
 
  

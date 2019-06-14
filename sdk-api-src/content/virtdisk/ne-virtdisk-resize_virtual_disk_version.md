@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Enumerates the possible versions for parameters for the 
-    <a href="https://msdn.microsoft.com/d000c03e-c0ad-4054-b2eb-1aca34a95816">ResizeVirtualDisk</a> function.
+    <a href="https://docs.microsoft.com/windows/desktop/api/virtdisk/nf-virtdisk-resizevirtualdisk">ResizeVirtualDisk</a> function.
 
 
 ## -enum-fields
@@ -73,15 +73,15 @@ Version one of the parameters is used. This is the only supported value.
 
 
 
-<a href="https://msdn.microsoft.com/ff44f07a-67d1-4ad3-be2b-0aea1d3c4a6a">RESIZE_VIRTUAL_DISK_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/virtdisk/ns-virtdisk-_resize_virtual_disk_parameters">RESIZE_VIRTUAL_DISK_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/d000c03e-c0ad-4054-b2eb-1aca34a95816">ResizeVirtualDisk</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/virtdisk/nf-virtdisk-resizevirtualdisk">ResizeVirtualDisk</a>
 
 
 
-<a href="https://msdn.microsoft.com/86933fd5-4f51-4a10-9348-408795439812">VHD Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323698(v=vs.85)">VHD Enumerations</a>
  
 
  

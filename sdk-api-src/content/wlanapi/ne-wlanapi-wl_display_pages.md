@@ -77,7 +77,7 @@ Displays the <b>Security</b> tab.
 
 
 
-<a href="https://msdn.microsoft.com/e6453a70-2a11-4f01-adc1-67346a5856b2">WlanUIEditProfile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanuieditprofile">WlanUIEditProfile</a>
  
 
  

@@ -75,7 +75,7 @@ The tick count when the last input event was received.
 
 
 
-This function is useful for input idle detection. For more information on tick counts, see <a href="https://msdn.microsoft.com/22201c82-a49a-4972-9f49-6baf6d23a1ea">GetTickCount</a>.
+This function is useful for input idle detection. For more information on tick counts, see <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-gettickcount">GetTickCount</a>.
 
 
 
@@ -89,15 +89,15 @@ This function is useful for input idle detection. For more information on tick c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646302(v=VS.85).aspx">GetLastInputInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getlastinputinfo">GetLastInputInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/22201c82-a49a-4972-9f49-6baf6d23a1ea">GetTickCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-gettickcount">GetTickCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
 
 
 

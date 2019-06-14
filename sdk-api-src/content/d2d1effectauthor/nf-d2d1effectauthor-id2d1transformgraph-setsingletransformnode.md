@@ -60,7 +60,7 @@ Sets a single transform node as being equivalent to the whole graph.
 
 ### -param node
 
-Type: <b><a href="https://msdn.microsoft.com/2ACF65DA-A812-4983-B044-71103A9AA450">ID2D1TransformNode</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transformnode">ID2D1TransformNode</a>*</b>
 
 The node to be set.
 
@@ -96,7 +96,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 
-This equivalent to calling <a href="https://msdn.microsoft.com/7223A2FF-2B86-4080-B97E-BAE1C3E7000E">ID2D1TransformGraph::Clear</a>, adding a single node, connecting all of the node inputs to the effect inputs in order, and setting the transform not as the graph output.
+This equivalent to calling <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transformgraph-clear">ID2D1TransformGraph::Clear</a>, adding a single node, connecting all of the node inputs to the effect inputs in order, and setting the transform not as the graph output.
 
 
 #### Examples
@@ -148,7 +148,7 @@ private:
 
 
 
-<a href="https://msdn.microsoft.com/6CA29200-9834-4A5B-99E8-434CD6E9B243">ID2D1TransformGraph</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transformgraph">ID2D1TransformGraph</a>
  
 
  

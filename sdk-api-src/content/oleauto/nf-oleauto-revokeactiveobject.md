@@ -59,7 +59,7 @@ Ends an object's status as active.
 
 ### -param dwRegister [in]
 
-A handle previously returned by <a href="https://msdn.microsoft.com/ba15bb69-7b65-47ea-b938-f235e3d9f9ee">RegisterActiveObject</a>.
+A handle previously returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-registeractiveobject">RegisterActiveObject</a>.
 
 
 

@@ -62,7 +62,7 @@ Converts the contents of an attribute store to a byte array.
 
 ### -param pAttributes [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> interface of the attribute store.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of the attribute store.
 
 
 ### -param pBuf [out]
@@ -72,7 +72,7 @@ Pointer to an array that receives the attribute data.
 
 ### -param cbBufSize [in]
 
-Size of the <i>pBuf</i> array, in bytes. To get the required size of the buffer, call <a href="https://msdn.microsoft.com/52abfe30-a18d-45f7-93db-13f87b0647b7">MFGetAttributesAsBlobSize</a>.
+Size of the <i>pBuf</i> array, in bytes. To get the required size of the buffer, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfgetattributesasblobsize">MFGetAttributesAsBlobSize</a>.
 
 
 ## -returns
@@ -120,9 +120,9 @@ The buffer given in <i>pBuf</i> is too small.
 
 The function skips any attributes with <b>IUnknown</b> pointer values (MF_ATTRIBUTE_IUNKNOWN); they are not stored in the array.
 
-To convert the byte array back into an attribute store, call <a href="https://msdn.microsoft.com/da0f01a3-ed47-42a1-b4af-5f3cbc9271a3">MFInitAttributesFromBlob</a>.
+To convert the byte array back into an attribute store, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfinitattributesfromblob">MFInitAttributesFromBlob</a>.
 
-To write an attribute store to a stream, call the <a href="https://msdn.microsoft.com/b8bc88e5-19ae-46b3-aa78-a00afee1f481">MFSerializeAttributesToStream</a> function.
+To write an attribute store to a stream, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-mfserializeattributestostream">MFSerializeAttributesToStream</a> function.
 
 
 
@@ -132,11 +132,11 @@ To write an attribute store to a stream, call the <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/44af5e03-5f0a-4564-b9d6-b8c935df35b2">Attributes and Properties</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

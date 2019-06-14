@@ -80,7 +80,7 @@ Returns S_OK if successful, or E_FAIL if there is no palette.
 
 
 
-The calling application should not call <a href="https://msdn.microsoft.com/cc679af0-6839-4c83-9c42-39d7ededda40">DeleteObject</a> on the palette handle retrieved in <i>hpal</i>.
+The calling application should not call <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> on the palette handle retrieved in <i>hpal</i>.
 
 
 

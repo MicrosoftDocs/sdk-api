@@ -50,8 +50,8 @@ ms.custom: 19H1
 
 
 Ends a CDATA section in the writer.
-      If <b>WsWriteEndCData</b> is called without a prior call to <a href="https://msdn.microsoft.com/c233244c-24b6-4baa-ba36-697283ff33f3">WsWriteStartCData</a>, this function returns <b>WS_E_INVALID_OPERATION</b>.
-      (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.)
+      If <b>WsWriteEndCData</b> is called without a prior call to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritestartcdata">WsWriteStartCData</a>, this function returns <b>WS_E_INVALID_OPERATION</b>.
+      (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 
 
 ## -parameters
@@ -61,13 +61,13 @@ Ends a CDATA section in the writer.
 
 ### -param writer [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/8f413e60-8a30-492c-8f2d-80be511fee11">WS_XML_WRITER</a> object to which the end CDATA section is written.  The pointer must reference a valid <b>XML Writer</b> object.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> object to which the end CDATA section is written.  The pointer must reference a valid <b>XML Writer</b> object.
                 
 
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 

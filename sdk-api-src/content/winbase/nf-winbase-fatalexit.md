@@ -86,15 +86,15 @@ An application should only use
 
 
 
-<a href="https://msdn.microsoft.com/d9e1d565-fb76-4d91-8aa7-4ff0ff31f71f">Communicating with the Debugger</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/communicating-with-the-debugger">Communicating with the Debugger</a>
 
 
 
-<a href="https://msdn.microsoft.com/95a838a2-f138-4682-b733-3f363b6c4a4b">Debugging Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/debugging-functions">Debugging Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/f18d8b16-ffe1-49f1-98be-ba8d49db86ef">FatalAppExit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-fatalexit">FatalAppExit</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Tint::GetParameters</b> method gets the current values of the parameters of this <a href="https://msdn.microsoft.com/en-us/library/ms534513(v=VS.85).aspx">Tint</a> object.
+The <b>Tint::GetParameters</b> method gets the current values of the parameters of this <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-tint">Tint</a> object.
 
 
 ## -parameters
@@ -62,28 +62,28 @@ The <b>Tint::GetParameters</b> method gets the current values of the parameters 
 
 Type: <b>UINT*</b>
 
-Pointer to a <b>UINT</b> that specifies the size, in bytes, of a <a href="https://msdn.microsoft.com/en-us/library/ms534074(v=VS.85).aspx">TintParams</a> structure.
+Pointer to a <b>UINT</b> that specifies the size, in bytes, of a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ns-gdipluseffects-tintparams">TintParams</a> structure.
 
 
 ### -param parameters [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534074(v=VS.85).aspx">TintParams</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ns-gdipluseffects-tintparams">TintParams</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534074(v=VS.85).aspx">TintParams</a> structure that receives the parameter values.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ns-gdipluseffects-tintparams">TintParams</a> structure that receives the parameter values.
 
 
 ## -returns
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 </strong>
 
 If the method succeeds, it returns <b>Ok</b>, which is an element of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 
 
@@ -93,11 +93,11 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534513(v=VS.85).aspx">Tint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-tint">Tint</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534518(v=VS.85).aspx">Tint::SetParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gdipluseffects-tint-setparameters">Tint::SetParameters</a>
  
 
  

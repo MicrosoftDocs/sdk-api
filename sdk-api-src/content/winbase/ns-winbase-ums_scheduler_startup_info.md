@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies attributes for a user-mode scheduling (UMS) scheduler thread. The <a href="https://msdn.microsoft.com/792bd7fa-0ae9-4c38-a664-5fb3e3d0c52b">EnterUmsSchedulingMode</a> function uses this structure.
+Specifies attributes for a user-mode scheduling (UMS) scheduler thread. The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-enterumsschedulingmode">EnterUmsSchedulingMode</a> function uses this structure.
 
 
 ## -struct-fields
@@ -69,10 +69,10 @@ A pointer to a UMS completion list to associate with the calling thread.
 
 ### -field SchedulerProc
 
-A pointer to an application-defined <a href="https://msdn.microsoft.com/10de1c48-255d-45c3-acf0-25f8a564b585">UmsSchedulerProc</a> entry point function. The system calls this function when the calling thread has been converted to UMS and is ready to run UMS worker threads. Subsequently, it calls this function when a UMS worker thread running on the calling thread yields or blocks.
+A pointer to an application-defined <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nc-winnt-rtl_ums_scheduler_entry_point">UmsSchedulerProc</a> entry point function. The system calls this function when the calling thread has been converted to UMS and is ready to run UMS worker threads. Subsequently, it calls this function when a UMS worker thread running on the calling thread yields or blocks.
 
 
 ### -field SchedulerParam
 
-An application-defined parameter to pass to the specified <a href="https://msdn.microsoft.com/10de1c48-255d-45c3-acf0-25f8a564b585">UmsSchedulerProc</a> function. 
+An application-defined parameter to pass to the specified <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nc-winnt-rtl_ums_scheduler_entry_point">UmsSchedulerProc</a> function. 
 

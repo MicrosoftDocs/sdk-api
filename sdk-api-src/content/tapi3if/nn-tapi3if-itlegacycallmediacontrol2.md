@@ -51,13 +51,13 @@ ms.custom: 19H1
 
 The 
 <b>ITLegacyCallMediaControl2</b> interface is an extension of the 
-<a href="https://msdn.microsoft.com/73288c46-6c6d-4938-9bb7-4d94acfc67f6">ITLegacyCallMediaControl</a> interface. 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itlegacycallmediacontrol">ITLegacyCallMediaControl</a> interface. 
 <b>ITLegacyCallMediaControl2</b> provides additional methods, primarily for tone detection and generation.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITLegacyCallMediaControl2</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITLegacyCallMediaControl2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITLegacyCallMediaControl2</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITLegacyCallMediaControl2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,27 +72,27 @@ The <b>ITLegacyCallMediaControl2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/addef387-9d92-4da3-af4c-b4d40bde2e36">CreateCustomToneObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-createcustomtoneobject">CreateCustomToneObject</a>
 </td>
 <td align="left" width="63%">
 Creates a custom tone object to use with the 
-<a href="https://msdn.microsoft.com/5115192e-68de-4779-92dc-7cf63585faae">GenerateCustomTonesByCollection</a> method. This method is intended for Visual Basic and scripting applications.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-generatecustomtonesbycollection">GenerateCustomTonesByCollection</a> method. This method is intended for Visual Basic and scripting applications.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3f00391f-b63f-4fa7-82af-44584fbcd8a3">CreateDetectToneObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-createdetecttoneobject">CreateDetectToneObject</a>
 </td>
 <td align="left" width="63%">
 Creates a detect tone object to use with the 
-<a href="https://msdn.microsoft.com/09cbcd9d-66cd-4131-b45c-cb3898d8446d">DetectTonesByCollection</a> method. This method is intended for Visual Basic and scripting applications.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-detecttonesbycollection">DetectTonesByCollection</a> method. This method is intended for Visual Basic and scripting applications.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e059bfc0-3701-4e07-8c30-0a2512731080">DetectTones</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-detecttones">DetectTones</a>
 </td>
 <td align="left" width="63%">
 Enables and disables the detection of inband tones on the call. This method is intended for C/C++ applications.
@@ -101,7 +101,7 @@ Enables and disables the detection of inband tones on the call. This method is i
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/09cbcd9d-66cd-4131-b45c-cb3898d8446d">DetectTonesByCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-detecttonesbycollection">DetectTonesByCollection</a>
 </td>
 <td align="left" width="63%">
 Enables and disables the detection of inband tones on the call. This method is intended for Visual Basic and scripting applications.
@@ -110,17 +110,17 @@ Enables and disables the detection of inband tones on the call. This method is i
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ff464b1e-bd4c-4807-b019-cdae6896f897">GatherDigits</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-gatherdigits">GatherDigits</a>
 </td>
 <td align="left" width="63%">
 Initiates the gathering of digits on the specified call; extends the 
-<a href="https://msdn.microsoft.com/d4dcdce0-4df5-43bb-a5ea-ea72782d5f04">ITLegacyCallMediaControl::GenerateDigits</a> method by adding a duration parameter.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol-generatedigits">ITLegacyCallMediaControl::GenerateDigits</a> method by adding a duration parameter.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fcc5d3c9-a7ab-4467-a948-b9fd68afe7b4">GenerateCustomTones</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-generatecustomtones">GenerateCustomTones</a>
 </td>
 <td align="left" width="63%">
 Generates a specified custom tone. This method is intended for C/C++ applications.
@@ -129,7 +129,7 @@ Generates a specified custom tone. This method is intended for C/C++ application
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5115192e-68de-4779-92dc-7cf63585faae">GenerateCustomTonesByCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-generatecustomtonesbycollection">GenerateCustomTonesByCollection</a>
 </td>
 <td align="left" width="63%">
 Generates a specified custom tone. This method is intended for Visual Basic and scripting applications.
@@ -138,7 +138,7 @@ Generates a specified custom tone. This method is intended for Visual Basic and 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/63ea18ef-18ca-4771-a7d9-60d4e8c514a5">GenerateDigits2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-generatedigits2">GenerateDigits2</a>
 </td>
 <td align="left" width="63%">
 Causes digits to be output on the current call.
@@ -147,7 +147,7 @@ Causes digits to be output on the current call.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4c77ee53-3c40-4fdc-9a35-40a8e74b4ec4">GenerateTone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-generatetone">GenerateTone</a>
 </td>
 <td align="left" width="63%">
 Generates a specified tone.
@@ -156,13 +156,13 @@ Generates a specified tone.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6c28889f-3768-4136-ac73-80c6c5ffeac3">GetIDAsVariant</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-getidasvariant">GetIDAsVariant</a>
 </td>
 <td align="left" width="63%">
 Gets the identifier for the device associated with the current call
 
 This method is intended for Visual Basic and scripting applications.  C/C++ applications should use the 
-<a href="https://msdn.microsoft.com/7516f929-d782-499b-a9fb-24c44a85aa9e">ITLegacyCallMediaControl::GetID</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol-getid">ITLegacyCallMediaControl::GetID</a> method.
 
 </td>
 </tr>
@@ -174,11 +174,11 @@ This method is intended for Visual Basic and scripting applications.  C/C++ appl
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/73288c46-6c6d-4938-9bb7-4d94acfc67f6">ITLegacyCallMediaControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itlegacycallmediacontrol">ITLegacyCallMediaControl</a>
  
 
  

@@ -59,7 +59,7 @@ The <b>NCryptFinalizeKey</b> function completes a CNG key storage key. The key c
 
 ### -param hKey [in]
 
-The handle of the key to complete. This handle is obtained by calling the <a href="https://msdn.microsoft.com/eeb1842f-fd9e-4edf-9db8-7b4e91760e9b">NCryptCreatePersistedKey</a> function.
+The handle of the key to complete. This handle is obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptcreatepersistedkey">NCryptCreatePersistedKey</a> function.
 
 
 ### -param dwFlags [in]

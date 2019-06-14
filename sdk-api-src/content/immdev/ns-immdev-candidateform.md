@@ -88,7 +88,7 @@ Position style. This member can be one of the following values.
 
 ### -field ptCurrentPos
 
-A <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure containing the coordinates of the upper left corner of the candidate window or the caret position, depending on the value of <b>dwStyle</b>.
+A <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure containing the coordinates of the upper left corner of the candidate window or the caret position, depending on the value of <b>dwStyle</b>.
 
 
 ### -field rcArea
@@ -101,11 +101,11 @@ A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure contai
 
 
 
-<a href="https://msdn.microsoft.com/3e23e004-514a-4021-bd20-5ac55547258f">Input Method Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://msdn.microsoft.com/1be3ae8b-e083-4420-bc8a-7f49c4264cab">Input Method Manager Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-structures">Input Method Manager Structures</a>
  
 
  

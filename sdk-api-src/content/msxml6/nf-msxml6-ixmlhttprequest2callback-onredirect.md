@@ -84,10 +84,10 @@ Returns <b>S_OK</b> on success.
 
 If the request redirection is not permitted, you can call the Abort method on the pXHR object.
 
-XMLHTTPRequest2 imposes a maximum of 100 re-directions on any request. Any re-directions above that limit generate an <a href="https://msdn.microsoft.com/532C97A7-B952-47BE-A9C7-5B1E5AB4C3D3">OnError</a> event.
+XMLHTTPRequest2 imposes a maximum of 100 re-directions on any request. Any re-directions above that limit generate an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onerror">OnError</a> event.
 Applications have no access to the headers for re-directions.
 
-Once the final redirection has completed and the final URL has been reached, the application receives an <a href="https://msdn.microsoft.com/EB6580C5-B200-4281-BF1F-FA5C3220689E">OnHeadersAvailable</a> callback.
+Once the final redirection has completed and the final URL has been reached, the application receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onheadersavailable">OnHeadersAvailable</a> callback.
 
 
 
@@ -98,19 +98,19 @@ Once the final redirection has completed and the final URL has been reached, the
 
 
 
-<a href="https://msdn.microsoft.com/B051D464-2328-44A2-A2BC-D0CDDCA79C64">Abort Method</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-abort">Abort Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/AA4B3F4C-6E28-458B-BE25-6CCE8865FC71">IXMLHTTPRequest2Callback</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2callback">IXMLHTTPRequest2Callback</a>
 
 
 
-<a href="https://msdn.microsoft.com/532C97A7-B952-47BE-A9C7-5B1E5AB4C3D3">OnError Event</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onerror">OnError Event</a>
 
 
 
-<a href="https://msdn.microsoft.com/EB6580C5-B200-4281-BF1F-FA5C3220689E">OnHeadersAvailable Event</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onheadersavailable">OnHeadersAvailable Event</a>
  
 
  

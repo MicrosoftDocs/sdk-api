@@ -60,7 +60,7 @@ Describes the format, width, height, depth, and row-pitch of the subresource int
 
 ### -field Format
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value that  specifies the viewing format.
+A <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>-typed value that  specifies the viewing format.
           
 
 
@@ -93,10 +93,10 @@ The row pitch, or width, or physical size, in bytes, of the subresource data.
 
 
 
-Use this structure in the <a href="https://msdn.microsoft.com/74740A52-C2A5-4AF6-92CC-85B5C214423F">D3D12_PLACED_SUBRESOURCE_FOOTPRINT</a> structure.
+Use this structure in the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_placed_subresource_footprint">D3D12_PLACED_SUBRESOURCE_FOOTPRINT</a> structure.
       
 
-The helper structure is <a href="https://msdn.microsoft.com/17266FB0-41B5-4A70-A896-206B54F5E76F">CD3DX12_SUBRESOURCE_FOOTPRINT</a>.
+The helper structure is <a href="https://docs.microsoft.com/windows/desktop/direct3d12/cd3dx12-subresource-footprint">CD3DX12_SUBRESOURCE_FOOTPRINT</a>.
       
 
 
@@ -107,11 +107,11 @@ The helper structure is <a href="https://msdn.microsoft.com/17266FB0-41B5-4A70-A
 
 
 
-<a href="https://msdn.microsoft.com/17266FB0-41B5-4A70-A896-206B54F5E76F">CD3DX12_SUBRESOURCE_FOOTPRINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/cd3dx12-subresource-footprint">CD3DX12_SUBRESOURCE_FOOTPRINT</a>
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
  
 
  

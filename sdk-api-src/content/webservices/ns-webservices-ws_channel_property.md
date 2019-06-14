@@ -60,7 +60,7 @@ Specifies a channel specific setting.
 
 ### -field id
 
-The <a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf">WS_CHANNEL_PROPERTY_ID</a>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_ID</a>.
                 
 
 

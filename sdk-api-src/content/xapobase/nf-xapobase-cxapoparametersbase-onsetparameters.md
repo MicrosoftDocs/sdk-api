@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Called by <a href="https://msdn.microsoft.com/en-us/library/Ee418447(v=VS.85).aspx">IXAPOParameters::SetParameters</a> to allow for user-defined parameter validation.
+Called by <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapoparameters-setparameters">IXAPOParameters::SetParameters</a> to allow for user-defined parameter validation.
 
 
 ## -parameters
@@ -85,7 +85,7 @@ Users are expected to use asserts for parameter validation in <b>OnSetParameters
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Ee415238(v=VS.85).aspx">CXAPOParametersBase</a> class's implementation of <a href="https://msdn.microsoft.com/en-us/library/Ee418447(v=VS.85).aspx">IXAPOParameters::SetParameters</a> validates that <i>ParameterByteSize</i> is equal to the <b>m_uParameterBlockByteSize</b> private member before calling <b>OnSetParameters</b> so it may be assumed that <i>ParameterByteSize</i> == <b>m_uParameterBlockByteSize</b>. <b>m_uParameterBlockByteSize</b> will be equal to the <i>uParameterBlockByteSize</i> parameter passed into the <a href="https://msdn.microsoft.com/en-us/library/Ee416386(v=VS.85).aspx">CXAPOParametersBase::CXAPOParametersBase</a> constructor.
+The <a href="https://docs.microsoft.com/windows/desktop/api/xapobase/nl-xapobase-cxapoparametersbase">CXAPOParametersBase</a> class's implementation of <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapoparameters-setparameters">IXAPOParameters::SetParameters</a> validates that <i>ParameterByteSize</i> is equal to the <b>m_uParameterBlockByteSize</b> private member before calling <b>OnSetParameters</b> so it may be assumed that <i>ParameterByteSize</i> == <b>m_uParameterBlockByteSize</b>. <b>m_uParameterBlockByteSize</b> will be equal to the <i>uParameterBlockByteSize</i> parameter passed into the <a href="https://docs.microsoft.com/windows/desktop/api/xapobase/nf-xapobase-cxapoparametersbase-cxapoparametersbase">CXAPOParametersBase::CXAPOParametersBase</a> constructor.
 
 
 
@@ -104,7 +104,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415238(v=VS.85).aspx">CXAPOParametersBase</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xapobase/nl-xapobase-cxapoparametersbase">CXAPOParametersBase</a>
  
 
  

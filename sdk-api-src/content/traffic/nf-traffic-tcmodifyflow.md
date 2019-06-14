@@ -54,7 +54,7 @@ The
 <b>TcModifyFlow</b>, new <i>Flowspec</i> parameters and any traffic control objects should be filled.
 
 Traffic control clients that have registered a ModifyFlowComplete handler (a mechanism for allowing traffic control to call the 
-<a href="https://msdn.microsoft.com/61afc465-d942-4db7-96ee-56f3f1c3cafa">ClModifyFlowComplete</a> callback function in order to alert clients of completed flow modifications) can expect a return value of ERROR_SIGNAL_PENDING.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_mod_flow_complete_handler">ClModifyFlowComplete</a> callback function in order to alert clients of completed flow modifications) can expect a return value of ERROR_SIGNAL_PENDING.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Traffic control clients that have registered a ModifyFlowComplete handler (a mec
 ### -param FlowHandle [in]
 
 Handle for the flow, as received from a previous call to the 
-<a href="https://msdn.microsoft.com/20b4f34b-a84e-4211-8d41-0efa0dbc6cd4">TcAddFlow</a> function.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcaddflow">TcAddFlow</a> function.
 
 
 ### -param pGenericFlow [in]
@@ -101,7 +101,7 @@ The function executed without errors.
 </td>
 <td width="60%">
 The function is being executed asynchronously; the client will be called back through the client-exposed 
-<a href="https://msdn.microsoft.com/61afc465-d942-4db7-96ee-56f3f1c3cafa">ClModifyFlowComplete</a> function when the flow has been added, or when the process has been completed.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_mod_flow_complete_handler">ClModifyFlowComplete</a> function when the flow has been added, or when the process has been completed.
 
 </td>
 </tr>
@@ -135,9 +135,9 @@ The system is out of memory.
 </td>
 <td width="60%">
 Action performed on the flow by a previous function call to the 
-<a href="https://msdn.microsoft.com/20b4f34b-a84e-4211-8d41-0efa0dbc6cd4">TcAddFlow</a>, 
-<a href="https://msdn.microsoft.com/e1b5d987-8365-4fea-a88b-0d574749b38a">TcModifyFlow</a>, or 
-<a href="https://msdn.microsoft.com/6e62b55e-9919-44be-a9ae-f1319cc82d76">TcDeleteFlow</a> has not yet completed.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcaddflow">TcAddFlow</a>, 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcmodifyflow">TcModifyFlow</a>, or 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcdeleteflow">TcDeleteFlow</a> has not yet completed.
 
 </td>
 </tr>
@@ -248,7 +248,7 @@ Bad length specified for the TC objects.
 </td>
 <td width="60%">
 Applies to Diffserv flows. Indicates that the 
-<a href="https://msdn.microsoft.com/3d1035dc-0e46-46f4-abb3-26100356b60d">QOS_DIFFSERV</a> object was passed with an invalid parameter.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qosobjs/ns-qosobjs-_qos_diffserv">QOS_DIFFSERV</a> object was passed with an invalid parameter.
 
 </td>
 </tr>
@@ -260,8 +260,8 @@ Applies to Diffserv flows. Indicates that the
 </td>
 <td width="60%">
 Applies to Diffserv flows. Indicates that the 
-<a href="https://msdn.microsoft.com/732cfbec-4175-4397-854f-0d2a930e11bc">QOS_DIFFSERV_RULE</a> specified in 
-<a href="https://msdn.microsoft.com/88b162d9-003c-42ce-8f82-91ee1aa9e32e">TC_GEN_FLOW</a> already applies to an existing flow on the interface.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qosobjs/ns-qosobjs-_qos_diffserv_rule">QOS_DIFFSERV_RULE</a> specified in 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/ns-traffic-_tc_gen_flow">TC_GEN_FLOW</a> already applies to an existing flow on the interface.
 
 </td>
 </tr>
@@ -273,7 +273,7 @@ Applies to Diffserv flows. Indicates that the
 </td>
 <td width="60%">
 The 
-<a href="https://msdn.microsoft.com/2be833dc-d9e1-495d-831e-09c900c8adb2">QOS_SHAPING_RATE</a> was passed with an invalid ShapeRate.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_qos_shaping_rate">QOS_SHAPING_RATE</a> was passed with an invalid ShapeRate.
 
 </td>
 </tr>
@@ -285,7 +285,7 @@ The
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/56eca8ef-2b6e-4380-869c-bf1a4c8fdb1f">QOS_DS_CLASS</a> is invalid.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qosobjs/ns-qosobjs-_qos_ds_class">QOS_DS_CLASS</a> is invalid.
 
 </td>
 </tr>
@@ -312,7 +312,7 @@ The network cable is not plugged into the adapter.
 
 If the 
 <b>TcModifyFlow</b> function returns ERROR_SIGNAL_PENDING, the 
-<a href="https://msdn.microsoft.com/61afc465-d942-4db7-96ee-56f3f1c3cafa">ClModifyFlowComplete</a> function will be called on a different thread than the thread that called the 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_mod_flow_complete_handler">ClModifyFlowComplete</a> function will be called on a different thread than the thread that called the 
 <b>TcModifyFlow</b> function.
 
 <div class="alert"><b>Note</b>  Use of the 
@@ -326,15 +326,15 @@ If the
 
 
 
-<a href="https://msdn.microsoft.com/61afc465-d942-4db7-96ee-56f3f1c3cafa">ClModifyFlowComplete</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_mod_flow_complete_handler">ClModifyFlowComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/20b4f34b-a84e-4211-8d41-0efa0dbc6cd4">TcAddFlow</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcaddflow">TcAddFlow</a>
 
 
 
-<a href="https://msdn.microsoft.com/eae90fae-a29a-4005-b8c6-a5e2c9a6c07f">TcEnumerateFlows</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcenumerateflows">TcEnumerateFlows</a>
  
 
  

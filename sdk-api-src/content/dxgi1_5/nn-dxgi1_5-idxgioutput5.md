@@ -54,7 +54,7 @@ Represents an adapter output (such as a monitor). The <b>IDXGIOutput5</b> interf
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIOutput5</b> interface inherits from <a href="https://msdn.microsoft.com/6B9B4242-7B10-4022-9105-6903FEAE1161">IDXGIOutput4</a>. <b>IDXGIOutput5</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIOutput5</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nn-dxgi1_4-idxgioutput4">IDXGIOutput4</a>. <b>IDXGIOutput5</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,10 +69,10 @@ The <b>IDXGIOutput5</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B6723F05-E0D9-4814-8AB8-796ECF9C5C0C">DuplicateOutput1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/nf-dxgi1_5-idxgioutput5-duplicateoutput1">DuplicateOutput1</a>
 </td>
 <td align="left" width="63%">
-Allows specifying a list of supported formats for fullscreen surfaces that can be returned by the <a href="https://msdn.microsoft.com/02C4EC3D-D97F-4CFC-ABF5-03B44CE6A658">IDXGIOutputDuplication</a> object.
+Allows specifying a list of supported formats for fullscreen surfaces that can be returned by the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgioutputduplication">IDXGIOutputDuplication</a> object.
 
 </td>
 </tr>
@@ -84,11 +84,11 @@ Allows specifying a list of supported formats for fullscreen surfaces that can b
 
 
 
-<a href="https://msdn.microsoft.com/b561b26b-961c-4d5e-8483-56b51b989bf7">DXGI Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/6B9B4242-7B10-4022-9105-6903FEAE1161">IDXGIOutput4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nn-dxgi1_4-idxgioutput4">IDXGIOutput4</a>
  
 
  

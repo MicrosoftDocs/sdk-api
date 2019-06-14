@@ -59,7 +59,7 @@ Specifies the secondary flags for the minidump.
 
 ### -field MiniSecondaryWithoutPowerInfo
 
-The minidump information does not retrieve the processor power information contained in the <a href="https://msdn.microsoft.com/34f46a51-9e41-4550-a080-1c7c7a603b54">MINIDUMP_MISC_INFO_2</a> structure.
+The minidump information does not retrieve the processor power information contained in the <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_misc_info_2">MINIDUMP_MISC_INFO_2</a> structure.
 
 
 ### -field MiniSecondaryValidFlags
@@ -72,7 +72,7 @@ The minidump information does not retrieve the processor power information conta
 
 
 
-<a href="https://msdn.microsoft.com/34f46a51-9e41-4550-a080-1c7c7a603b54">MINIDUMP_MISC_INFO_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_misc_info_2">MINIDUMP_MISC_INFO_2</a>
  
 
  

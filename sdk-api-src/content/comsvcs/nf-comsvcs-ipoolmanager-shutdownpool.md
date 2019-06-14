@@ -76,7 +76,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/7811ad0c-e7b6-423b-8c52-ab8b1b97d6f4">IPoolManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-ipoolmanager">IPoolManager</a>
  
 
  

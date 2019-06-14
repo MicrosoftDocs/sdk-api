@@ -57,7 +57,7 @@ ms.custom: 19H1
 
 
 Removes a directory that was added to the process DLL search path by using 
-     <a href="https://msdn.microsoft.com/7eb49bdf-58f9-4520-876b-c8b69bf26b8a">AddDllDirectory</a>.
+     <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-adddlldirectory">AddDllDirectory</a>.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ Removes a directory that was added to the process DLL search path by using
 
 ### -param Cookie [in]
 
-The cookie returned by <a href="https://msdn.microsoft.com/7eb49bdf-58f9-4520-876b-c8b69bf26b8a">AddDllDirectory</a> when the 
+The cookie returned by <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-adddlldirectory">AddDllDirectory</a> when the 
       directory was added to the search path.
 
 
@@ -79,7 +79,7 @@ If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value 
       is zero. To get extended error information, call 
-      <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -92,7 +92,7 @@ After <b>RemoveDllDirectory</b> returns, the cookie is
     no longer valid and should not be used.
 
 <b>Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:  </b>To call this function in an application, use the 
-      <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> function to retrieve its address from 
+      <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> function to retrieve its address from 
       Kernel32.dll. 
       <a href="http://go.microsoft.com/fwlink/p/?linkid=217865">KB2533623</a> must be 
       installed on the target platform.

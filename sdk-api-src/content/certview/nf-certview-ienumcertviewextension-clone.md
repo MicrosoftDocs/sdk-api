@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/d5acff51-06f8-4a6f-aa9e-97ba052b1b34">Clone</a> method creates a copy of the extension-enumeration sequence.
+The <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-ienumcertviewextension">Clone</a> method creates a copy of the extension-enumeration sequence.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <a href="https://msdn.microsoft.com/d5acff51-06f8-4a6f-aa9e-97ba052b1b34">Cl
 
 ### -param ppenum [out]
 
-A pointer to a pointer of <a href="https://msdn.microsoft.com/d5acff51-06f8-4a6f-aa9e-97ba052b1b34">IEnumCERTVIEWEXTENSION</a> type. This method will fail if the <i>ppenum</i> parameter is <b>NULL</b>.
+A pointer to a pointer of <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-ienumcertviewextension">IEnumCERTVIEWEXTENSION</a> type. This method will fail if the <i>ppenum</i> parameter is <b>NULL</b>.
 
 
 ## -returns
@@ -70,7 +70,7 @@ A pointer to a pointer of <a href="https://msdn.microsoft.com/d5acff51-06f8-4a6f
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is a cloned extension-enumeration sequence object.
@@ -82,7 +82,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-The extension-enumeration sequence object is obtained by a call to the <a href="https://msdn.microsoft.com/41028000-fa87-4ad0-93fc-314c5d3870f9">IEnumCERTVIEWROW::EnumCertViewExtension</a> method.
+The extension-enumeration sequence object is obtained by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewrow-enumcertviewextension">IEnumCERTVIEWROW::EnumCertViewExtension</a> method.
 
 
 #### Examples
@@ -115,7 +115,7 @@ if (NULL != pEnumExt2)
 
 
 
-<a href="https://msdn.microsoft.com/d5acff51-06f8-4a6f-aa9e-97ba052b1b34">IEnumCERTVIEWEXTENSION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-ienumcertviewextension">IEnumCERTVIEWEXTENSION</a>
  
 
  

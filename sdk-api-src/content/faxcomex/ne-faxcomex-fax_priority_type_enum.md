@@ -77,15 +77,15 @@ The fax will be sent with a high priority.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687026(v=VS.85).aspx">IFaxDocument::get_Priority</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument-priority-vb">IFaxDocument::get_Priority</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689543(v=VS.85).aspx">IFaxOutgoingJob::get_Priority</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingjob-priority-vb">IFaxOutgoingJob::get_Priority</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690170(v=VS.85).aspx">IFaxOutgoingMessage::get_Priority</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-priority-vb">IFaxOutgoingMessage::get_Priority</a>
  
 
  

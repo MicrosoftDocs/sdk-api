@@ -54,7 +54,7 @@ Exposes methods that notify the protocol provider about the status of session sh
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWRdsProtocolShadowConnection</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWRdsProtocolShadowConnection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWRdsProtocolShadowConnection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWRdsProtocolShadowConnection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWRdsProtocolShadowConnection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9fe2e3fb-f368-4b7e-b679-402db900916c">DoTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolshadowconnection-dotarget">DoTarget</a>
 </td>
 <td align="left" width="63%">
 Requests that the protocol start the target side of a shadow connection.
@@ -78,7 +78,7 @@ Requests that the protocol start the target side of a shadow connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1f7b5811-6aba-41f2-9fa4-2bbc4c6e005c">Start</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolshadowconnection-start">Start</a>
 </td>
 <td align="left" width="63%">
 Notifies the protocol that shadowing has started.
@@ -87,7 +87,7 @@ Notifies the protocol that shadowing has started.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b6abe698-a390-485a-9a31-823ff25351c2">Stop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolshadowconnection-stop">Stop</a>
 </td>
 <td align="left" width="63%">
 Notifies the protocol that shadowing has stopped.

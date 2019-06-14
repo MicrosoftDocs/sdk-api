@@ -64,7 +64,7 @@ Signals Direct3D to begin recording a device-state block.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be one of the following: D3DERR_INVALIDCALL, E_OUTOFMEMORY.
 
@@ -75,88 +75,88 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-Applications can ensure that all recorded states are valid by calling the <a href="https://msdn.microsoft.com/en-us/library/Bb205859(v=VS.85).aspx">IDirect3DDevice9::ValidateDevice</a> method prior to calling this method.
+Applications can ensure that all recorded states are valid by calling the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-validatedevice">IDirect3DDevice9::ValidateDevice</a> method prior to calling this method.
 
-The following methods can be recorded in a state block, after calling <b>IDirect3DDevice9::BeginStateBlock</b> and before <a href="https://msdn.microsoft.com/en-us/library/Bb174376(v=VS.85).aspx">IDirect3DDevice9::EndStateBlock</a>. 
+The following methods can be recorded in a state block, after calling <b>IDirect3DDevice9::BeginStateBlock</b> and before <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-endstateblock">IDirect3DDevice9::EndStateBlock</a>. 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb174421(v=VS.85).aspx">IDirect3DDevice9::LightEnable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-lightenable">IDirect3DDevice9::LightEnable</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb174426(v=VS.85).aspx">IDirect3DDevice9::SetClipPlane</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setclipplane">IDirect3DDevice9::SetClipPlane</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb174428(v=VS.85).aspx">IDirect3DDevice9::SetCurrentTexturePalette</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setcurrenttexturepalette">IDirect3DDevice9::SetCurrentTexturePalette</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb174433(v=VS.85).aspx">IDirect3DDevice9::SetFVF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setfvf">IDirect3DDevice9::SetFVF</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb174435(v=VS.85).aspx">IDirect3DDevice9::SetIndices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setindices">IDirect3DDevice9::SetIndices</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb174436(v=VS.85).aspx">IDirect3DDevice9::SetLight</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setlight">IDirect3DDevice9::SetLight</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb174437(v=VS.85).aspx">IDirect3DDevice9::SetMaterial</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setmaterial">IDirect3DDevice9::SetMaterial</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb174438(v=VS.85).aspx">IDirect3DDevice9::SetNPatchMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setnpatchmode">IDirect3DDevice9::SetNPatchMode</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb174450(v=VS.85).aspx">IDirect3DDevice9::SetPixelShader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshader">IDirect3DDevice9::SetPixelShader</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb174451(v=VS.85).aspx">IDirect3DDevice9::SetPixelShaderConstantB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshaderconstantb">IDirect3DDevice9::SetPixelShaderConstantB</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb174452(v=VS.85).aspx">IDirect3DDevice9::SetPixelShaderConstantF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshaderconstantf">IDirect3DDevice9::SetPixelShaderConstantF</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb174453(v=VS.85).aspx">IDirect3DDevice9::SetPixelShaderConstantI</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshaderconstanti">IDirect3DDevice9::SetPixelShaderConstantI</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb174454(v=VS.85).aspx">IDirect3DDevice9::SetRenderState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setrenderstate">IDirect3DDevice9::SetRenderState</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb174456(v=VS.85).aspx">IDirect3DDevice9::SetSamplerState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setsamplerstate">IDirect3DDevice9::SetSamplerState</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb174457(v=VS.85).aspx">IDirect3DDevice9::SetScissorRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setscissorrect">IDirect3DDevice9::SetScissorRect</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb174459(v=VS.85).aspx">IDirect3DDevice9::SetStreamSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setstreamsource">IDirect3DDevice9::SetStreamSource</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb174460(v=VS.85).aspx">IDirect3DDevice9::SetStreamSourceFreq</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setstreamsourcefreq">IDirect3DDevice9::SetStreamSourceFreq</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb174461(v=VS.85).aspx">IDirect3DDevice9::SetTexture</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settexture">IDirect3DDevice9::SetTexture</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb174462(v=VS.85).aspx">IDirect3DDevice9::SetTextureStageState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settexturestagestate">IDirect3DDevice9::SetTextureStageState</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb174463(v=VS.85).aspx">IDirect3DDevice9::SetTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settransform">IDirect3DDevice9::SetTransform</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb174469(v=VS.85).aspx">IDirect3DDevice9::SetViewport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setviewport">IDirect3DDevice9::SetViewport</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb174464(v=VS.85).aspx">IDirect3DDevice9::SetVertexDeclaration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setvertexdeclaration">IDirect3DDevice9::SetVertexDeclaration</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb174465(v=VS.85).aspx">IDirect3DDevice9::SetVertexShader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setvertexshader">IDirect3DDevice9::SetVertexShader</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb174466(v=VS.85).aspx">IDirect3DDevice9::SetVertexShaderConstantB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setvertexshaderconstantb">IDirect3DDevice9::SetVertexShaderConstantB</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb174467(v=VS.85).aspx">IDirect3DDevice9::SetVertexShaderConstantF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setvertexshaderconstantf">IDirect3DDevice9::SetVertexShaderConstantF</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb174468(v=VS.85).aspx">IDirect3DDevice9::SetVertexShaderConstantI</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setvertexshaderconstanti">IDirect3DDevice9::SetVertexShaderConstantI</a>
 </li>
 </ul>
 The ordering of state changes in a state block is not guaranteed. If the same state is specified multiple times in a state block, only the last value is used.
@@ -169,15 +169,15 @@ The ordering of state changes in a state block is not guaranteed. If the same st
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174362(v=VS.85).aspx">IDirect3DDevice9::CreateStateBlock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createstateblock">IDirect3DDevice9::CreateStateBlock</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174376(v=VS.85).aspx">IDirect3DDevice9::EndStateBlock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-endstateblock">IDirect3DDevice9::EndStateBlock</a>
  
 
  

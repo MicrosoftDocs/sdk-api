@@ -59,7 +59,7 @@ Gets the authentication algorithm associated with the security settings. The aut
 
 ### -param pAuth [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/6e28fb8f-a429-4b6c-a057-737bbadb0a95">DOT11_ADHOC_AUTH_ALGORITHM</a> value that specifies the authentication algorithm.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/ne-adhoc-tagdot11_adhoc_auth_algorithm">DOT11_ADHOC_AUTH_ALGORITHM</a> value that specifies the authentication algorithm.
 
 
 ## -returns
@@ -139,11 +139,11 @@ The pointer <i>pAuth</i> is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/55b78a98-ad25-4646-b325-73d770d602b3">IDot11AdHocSecuritySettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocsecuritysettings">IDot11AdHocSecuritySettings</a>
 
 
 
-<a href="https://msdn.microsoft.com/46bf39e3-351f-41c2-8f68-886fce8a83bd">IDot11AdHocSecuritySettings::GetDot11CipherAlgorithm</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocsecuritysettings-getdot11cipheralgorithm">IDot11AdHocSecuritySettings::GetDot11CipherAlgorithm</a>
  
 
  

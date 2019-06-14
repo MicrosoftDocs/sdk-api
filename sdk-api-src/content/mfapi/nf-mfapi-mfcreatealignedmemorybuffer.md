@@ -199,7 +199,7 @@ Align to 512 bytes.
 
 ### -param ppBuffer
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/3ccc7089-d0d0-4eb1-b763-0d4e348af685">IMFMediaBuffer</a> interface of the media buffer. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a> interface of the media buffer. The caller must release the interface.
           
 
 
@@ -248,15 +248,15 @@ When the media buffer object is destroyed, it releases the allocated memory.
 
 
 
-<a href="https://msdn.microsoft.com/1f79d057-7ef7-4662-9f82-ceadc23276f0">MFCreateMemoryBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreatememorybuffer">MFCreateMemoryBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/3ee073ea-7bac-4971-9167-93a4e541ab77">Media Buffers</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-buffers">Media Buffers</a>
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

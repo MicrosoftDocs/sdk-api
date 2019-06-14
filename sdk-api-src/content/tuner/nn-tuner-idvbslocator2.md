@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Provides information to enable a tuner to acquire a Digital Video Broadcasting-Satellite  (DVB-S) transmission. This interface extends the capabilities in the <a href="https://msdn.microsoft.com/a9f02e78-3800-4b14-81df-acab01ea072b">IDVBSLocator</a> interface to support the DVB-S, Second Generation (DVB-S2) specification, the Digital Satellite Equipment Control (DiSEqC) protocol, and low-noise block converters (LNBs).
+Provides information to enable a tuner to acquire a Digital Video Broadcasting-Satellite  (DVB-S) transmission. This interface extends the capabilities in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-idvbslocator">IDVBSLocator</a> interface to support the DVB-S, Second Generation (DVB-S2) specification, the Digital Satellite Equipment Control (DiSEqC) protocol, and low-noise block converters (LNBs).
 
 
 ## -remarks

@@ -109,7 +109,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/b95e2b75-add7-4cdd-b18a-21918e9c8c08">ISupportLastWriteTime Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isupportlastwritetime">ISupportLastWriteTime Interface</a>
  
 
  

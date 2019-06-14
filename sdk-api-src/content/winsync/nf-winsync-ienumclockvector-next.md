@@ -125,7 +125,7 @@ If there are no more elements to retrieve.
 
 
 
-<a href="https://msdn.microsoft.com/cf191502-dc51-44a7-a82f-a0e38537574f">IEnumClockVector Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumclockvector">IEnumClockVector Interface</a>
  
 
  

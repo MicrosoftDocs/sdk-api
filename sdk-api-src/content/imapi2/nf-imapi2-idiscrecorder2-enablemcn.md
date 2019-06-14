@@ -158,9 +158,9 @@ Value: 0xC0AA0210
 
 
 
-MCN is the CD-ROM device driver's method of detecting media change and state changes in the CD-ROM device. For example, when you change the media in a CD-ROM device, a MCN message is sent to trigger media features, such as Autoplay. MCN is enabled by default. Call this method to enable notifications when the notifications have been disabled using <a href="https://msdn.microsoft.com/3111863e-64bf-467c-ac73-7a16c9aeb3df">IDiscRecorder2::DisableMcn</a>.
+MCN is the CD-ROM device driver's method of detecting media change and state changes in the CD-ROM device. For example, when you change the media in a CD-ROM device, a MCN message is sent to trigger media features, such as Autoplay. MCN is enabled by default. Call this method to enable notifications when the notifications have been disabled using <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-disablemcn">IDiscRecorder2::DisableMcn</a>.
 
-Note that <a href="https://msdn.microsoft.com/3111863e-64bf-467c-ac73-7a16c9aeb3df">DisableMcn</a> increments a reference count each time it is called. The EnableMcn method decrements the count. The device is enabled when the reference count is zero.
+Note that <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-disablemcn">DisableMcn</a> increments a reference count each time it is called. The EnableMcn method decrements the count. The device is enabled when the reference count is zero.
 
 
 
@@ -170,11 +170,11 @@ Note that <a href="https://msdn.microsoft.com/3111863e-64bf-467c-ac73-7a16c9aeb3
 
 
 
-<a href="https://msdn.microsoft.com/34f858b8-74eb-4725-8815-7954cb98cff0">IDiscRecorder2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
 
 
 
-<a href="https://msdn.microsoft.com/3111863e-64bf-467c-ac73-7a16c9aeb3df">IDiscRecorder2::DisableMcn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-disablemcn">IDiscRecorder2::DisableMcn</a>
  
 
  

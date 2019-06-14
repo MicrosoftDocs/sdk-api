@@ -61,7 +61,7 @@ The
 
 ### -field lpSockaddr
 
-A pointer to a socket address  represented as a <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">SOCKADDR</a> structure.
+A pointer to a socket address  represented as a <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">SOCKADDR</a> structure.
 
 
 ### -field iSockaddrLength
@@ -73,7 +73,7 @@ The length, in bytes, of the socket address.
 
 
 
-The <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">SOCKADDR</a> structure pointed to by the <b>lpSockaddr</b> member varies depending on the protocol or address family selected. For example, the <b>sockaddr_in6</b> structure is used for an IPv6 socket address while the <b>sockaddr_in4</b> structure is used for an IPv4 socket address. The address family is the first member of all of the <b>SOCKADDR</b> structures. The address family is used to determine which structure is used. 
+The <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">SOCKADDR</a> structure pointed to by the <b>lpSockaddr</b> member varies depending on the protocol or address family selected. For example, the <b>sockaddr_in6</b> structure is used for an IPv6 socket address while the <b>sockaddr_in4</b> structure is used for an IPv4 socket address. The address family is the first member of all of the <b>SOCKADDR</b> structures. The address family is used to determine which structure is used. 
 
 On the Microsoft Windows Software Development Kit (SDK) released for Windows Vista and later, the organization of header files has changed and the <b>SOCKET_ADDRESS</b> structure is defined in the <i>Ws2def.h</i> header file. Note that the <i>Ws2def.h</i> header file is automatically included in <i>Winsock2.h</i>, and should never be used directly.
 
@@ -85,23 +85,23 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">SOCKADDR</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">SOCKADDR</a>
 
 
 
-<a href="https://msdn.microsoft.com/da727dba-3814-4b6a-bc05-ab8fbd8fbe90">SOCKET_ADDRESS_LIST</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385467(v=vs.85)">SOCKET_ADDRESS_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf380ddf-8171-4ef4-be47-94c7a6aabf0a">Using SIO_ADDRESS_LIST_SORT</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/using-sio-address-list-sort">Using SIO_ADDRESS_LIST_SORT</a>
 
 
 
-<a href="https://msdn.microsoft.com/038aeca6-d7b7-4f74-ac69-4536c2e5118b">WSAIoctl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a>
 
 
 
-<a href="https://msdn.microsoft.com/098d85e3-8fe2-46c2-966d-deae4b12afd6">WSPIoctl</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566296(v%3dvs.85)">WSPIoctl</a>
  
 
  

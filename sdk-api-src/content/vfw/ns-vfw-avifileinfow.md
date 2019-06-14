@@ -235,11 +235,11 @@ Null-terminated string containing descriptive information for the file type.
 
 
 
-<a href="https://msdn.microsoft.com/573e24fa-876d-4ce9-be23-d5e448a53e20">AVIFile Functions and Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
 
 
 
-<a href="https://msdn.microsoft.com/2b7cdbb6-8c53-49ad-a171-b58357531887">AVIFile Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-structures">AVIFile Structures</a>
  
 
  

@@ -58,10 +58,10 @@ ms.custom: 19H1
 
 The 
 <b>IWbemContext::GetNames</b> method returns a <b>SAFEARRAY</b> structure of all of the names of the named context values. After all the names are known, 
-<a href="https://msdn.microsoft.com/e11fff37-aeb7-41c5-8639-ca0a7a144263">GetValue</a> can be called on each name to retrieve the value. This technique is a way of accessing the context values that is different from calling the 
-<a href="https://msdn.microsoft.com/34106c63-3b50-4078-babf-12173bd702ba">BeginEnumeration</a>, 
-<a href="https://msdn.microsoft.com/e316564c-a739-472b-b7a8-8acbf71e1c58">Next</a>, and 
-<a href="https://msdn.microsoft.com/bbd12aec-55ee-4cee-bf27-85f12467e06f">EndEnumeration</a> methods.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-getvalue">GetValue</a> can be called on each name to retrieve the value. This technique is a way of accessing the context values that is different from calling the 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-beginenumeration">BeginEnumeration</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-next">Next</a>, and 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-endenumeration">EndEnumeration</a> methods.
 
 
 ## -parameters
@@ -95,7 +95,7 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 
 
 For more information about using <b>SAFEARRAY</b> structures of <b>BSTR</b> values, see 
-<a href="https://msdn.microsoft.com/6cc26b26-adc9-4a8a-b51e-9db94eb4295f">Retrieving Part of a WMI Instance</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-part-of-an-instance">Retrieving Part of a WMI Instance</a>.
 
 
 
@@ -105,15 +105,15 @@ For more information about using <b>SAFEARRAY</b> structures of <b>BSTR</b> valu
 
 
 
-<a href="https://msdn.microsoft.com/458bd455-6984-414b-a0b7-62887d9dad7c">IWbemContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/34106c63-3b50-4078-babf-12173bd702ba">IWbemContext::BeginEnumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-beginenumeration">IWbemContext::BeginEnumeration</a>
 
 
 
-<a href="https://msdn.microsoft.com/e11fff37-aeb7-41c5-8639-ca0a7a144263">IWbemContext::GetValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-getvalue">IWbemContext::GetValue</a>
  
 
  

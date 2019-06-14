@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <code>SetMaxGraphLatency</code> method sets the maximum latency for the graph. You must call the <a href="https://msdn.microsoft.com/1a61da3a-3933-4543-b733-1b8a60929e43">IAMGraphStreams::SyncUsingStreamOffset</a> method before calling this method.
+The <code>SetMaxGraphLatency</code> method sets the maximum latency for the graph. You must call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamgraphstreams-syncusingstreamoffset">IAMGraphStreams::SyncUsingStreamOffset</a> method before calling this method.
 
 
 
@@ -121,11 +121,11 @@ If you call this method beforing calling <b>SyncUsingStreamOffset</b>, the metho
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/30d44536-2a2d-44ab-bafc-bdb851cd272b">IAMGraphStreams Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamgraphstreams">IAMGraphStreams Interface</a>
  
 
  

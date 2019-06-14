@@ -119,7 +119,7 @@ Insufficient memory to complete the operation.
 
 
 
-Use <a href="https://msdn.microsoft.com/a5b9ee66-ab66-4ad9-a6bf-93bd98e3905c">ITypeLib::ReleaseTLibAttr</a> to free the memory occupied by the TLIBATTR structure.
+Use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib-releasetlibattr">ITypeLib::ReleaseTLibAttr</a> to free the memory occupied by the TLIBATTR structure.
 
 
 
@@ -130,7 +130,7 @@ Use <a href="https://msdn.microsoft.com/a5b9ee66-ab66-4ad9-a6bf-93bd98e3905c">IT
 
 
 
-<a href="https://msdn.microsoft.com/c1e5d71f-6a4e-45f3-811d-f57024f81a55">ITypeLib</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a>
  
 
  

@@ -61,14 +61,14 @@ The
 ### -param RtmRegHandle [in]
 
 Handle to the client obtained from a previous call to 
-<a href="https://msdn.microsoft.com/2b952ea2-cf33-49e3-ae31-a14b0907a1b5">RtmRegisterEntity</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
 
 
 ### -param RouteInfo [in]
 
 Pointer to the 
-<a href="https://msdn.microsoft.com/7d9bf8c0-dc09-440a-b60d-97463c70a745">RTM_ROUTE_INFO</a> structure to release. The route was obtained with a previous call to 
-<a href="https://msdn.microsoft.com/13fc70de-f6cd-4e7a-b79d-c2fe811e08a4">RtmGetRouteInfo</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_route_info">RTM_ROUTE_INFO</a> structure to release. The route was obtained with a previous call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetrouteinfo">RtmGetRouteInfo</a>.
 
 
 ## -returns
@@ -110,11 +110,11 @@ The handle is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/7d9bf8c0-dc09-440a-b60d-97463c70a745">RTM_ROUTE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_route_info">RTM_ROUTE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/13fc70de-f6cd-4e7a-b79d-c2fe811e08a4">RtmGetRouteInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetrouteinfo">RtmGetRouteInfo</a>
  
 
  

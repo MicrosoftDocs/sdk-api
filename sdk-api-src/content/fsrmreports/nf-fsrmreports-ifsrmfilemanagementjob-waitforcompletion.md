@@ -50,8 +50,8 @@ ms.custom: 19H1
 
 
 <p class="CCE_Message">[This property is supported for compatibility but it's recommended to use the 
-    <a href="https://msdn.microsoft.com/1CE772FA-CE33-4900-A499-058175A7C37E">FSRM WMI Classes</a> to manage FSRM. Please see the 
-    <a href="https://msdn.microsoft.com/1ce33602-0ada-4d82-aebb-9dee7dc8b2f3">MSFT_FSRMFileManagementJob</a> class.]
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a> class.]
 
 Waits for the specified period of time or until the job has finished running.
 
@@ -87,13 +87,13 @@ The method returns the following return values.
 
 
 To run the job, call the 
-    <a href="https://msdn.microsoft.com/2db27e05-5c3b-4827-a616-36fd46281911">IFsrmFileManagementJob::Run</a> method. Jobs run 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-run">IFsrmFileManagementJob::Run</a> method. Jobs run 
      asynchronously, calling this method blocks your thread until the job completes or the timeout period 
      expires.
 
 After <b>WaitForCompletion</b> 
      returns, access the 
-     <a href="https://msdn.microsoft.com/f7a7d5fd-b060-41f6-be1f-038ab252259a">IFsrmFileManagementJob::LastError</a> 
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_lasterror">IFsrmFileManagementJob::LastError</a> 
      property to determine if the reports completed successfully.
 
 
@@ -104,11 +104,11 @@ After <b>WaitForCompletion</b>
 
 
 
-<a href="https://msdn.microsoft.com/e9ae697d-4f7c-47d9-8d2a-c46c2e5f838f">IFsrmFileManagementJob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmfilemanagementjob">IFsrmFileManagementJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/1ce33602-0ada-4d82-aebb-9dee7dc8b2f3">MSFT_FSRMFileManagementJob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a>
  
 
  

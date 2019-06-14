@@ -50,12 +50,12 @@ ms.custom: 19H1
 ## -description
 
 
-Configures the settings of a stream in an ASF file. The ASF stream configuration object exposes this interface. To obtain a pointer to this interface, call the <a href="https://msdn.microsoft.com/3da52c1a-24c0-456b-a9e8-57b5467eda2a">IMFASFProfile::CreateStream</a> method.
+Configures the settings of a stream in an ASF file. The ASF stream configuration object exposes this interface. To obtain a pointer to this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-createstream">IMFASFProfile::CreateStream</a> method.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFASFStreamConfig</b> interface inherits from <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a>. <b>IMFASFStreamConfig</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFASFStreamConfig</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>. <b>IMFASFStreamConfig</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMFASFStreamConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/55dd4125-ce44-4eed-b1a8-74819c452bd4">AddPayloadExtension</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-addpayloadextension">AddPayloadExtension</a>
 </td>
 <td align="left" width="63%">
 Configures a payload extension for the stream.
@@ -79,7 +79,7 @@ Configures a payload extension for the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c87d658f-6569-464b-a9d0-487d44f76cc0">Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the ASF stream configuration object.
@@ -88,7 +88,7 @@ Creates a copy of the ASF stream configuration object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6311115a-26e6-47b7-b724-0209a5bf45d7">GetMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-getmediatype">GetMediaType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the media type of the stream.
@@ -97,7 +97,7 @@ Retrieves the media type of the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5b3b831c-2218-4a76-8359-7f39cab53a57">GetPayloadExtension</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-getpayloadextension">GetPayloadExtension</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about an existing payload extension.
@@ -106,7 +106,7 @@ Retrieves information about an existing payload extension.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3b1cb5a9-e39c-4f16-abc1-45ab516a4b80">GetPayloadExtensionCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-getpayloadextensioncount">GetPayloadExtensionCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of payload extensions that are configured for the stream.
@@ -115,7 +115,7 @@ Retrieves the number of payload extensions that are configured for the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cc80fee6-e62c-4d38-9b83-8c7f21baf5b0">GetStreamNumber</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-getstreamnumber">GetStreamNumber</a>
 </td>
 <td align="left" width="63%">
 Retrieves the stream number of the stream.
@@ -124,7 +124,7 @@ Retrieves the stream number of the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5f085107-f205-47ab-acb5-d45a881ce76c">GetStreamType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-getstreamtype">GetStreamType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the major media type of the stream.
@@ -133,7 +133,7 @@ Retrieves the major media type of the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7b2c592b-28f6-49a9-9bf5-1080202f606a">RemoveAllPayloadExtensions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-removeallpayloadextensions">RemoveAllPayloadExtensions</a>
 </td>
 <td align="left" width="63%">
 Removes all payload extensions that are configured for the stream.
@@ -142,7 +142,7 @@ Removes all payload extensions that are configured for the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/53b7c4fd-a3bc-4e15-b2f6-380cae8ab2f6">SetMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-setmediatype">SetMediaType</a>
 </td>
 <td align="left" width="63%">
 Sets the media type for the ASF stream configuration object.
@@ -151,7 +151,7 @@ Sets the media type for the ASF stream configuration object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5b22d857-fced-4094-a0ad-891f3ccf8b18">SetStreamNumber</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-setstreamnumber">SetStreamNumber</a>
 </td>
 <td align="left" width="63%">
 Assigns a stream number to the stream.
@@ -166,11 +166,11 @@ Assigns a stream number to the stream.
 
 
 
-<a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

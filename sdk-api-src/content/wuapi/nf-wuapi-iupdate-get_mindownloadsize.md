@@ -62,7 +62,7 @@ This property is read-only.
 
 
 
-The <b>MinDownloadSize</b> property of an update is always downloaded.  However, the <a href="https://msdn.microsoft.com/22f19d4f-e144-4b06-a428-d2133198288a">MaxDownloadSize</a> property is not always downloaded. The <b>MaxDownloadSize</b> property is downloaded based on the configuration of the computer that receives the update.
+The <b>MinDownloadSize</b> property of an update is always downloaded.  However, the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_maxdownloadsize">MaxDownloadSize</a> property is not always downloaded. The <b>MaxDownloadSize</b> property is downloaded based on the configuration of the computer that receives the update.
 
 
 
@@ -72,7 +72,7 @@ The <b>MinDownloadSize</b> property of an update is always downloaded.  However,
 
 
 
-<a href="https://msdn.microsoft.com/d0feee2a-96f6-4c86-aaf8-f49d05616fc9">IUpdate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains the result from an <a href="https://msdn.microsoft.com/71fa9a99-83e4-4b27-9fd1-5a9dc3070820">OPM_GET_CONNECTED_HDCP_DEVICE_INFORMATION</a> query.
+Contains the result from an <a href="https://docs.microsoft.com/windows/desktop/medfound/opm-get-connected-hdcp-device-information">OPM_GET_CONNECTED_HDCP_DEVICE_INFORMATION</a> query.
 
 
 ## -struct-fields
@@ -59,12 +59,12 @@ Contains the result from an <a href="https://msdn.microsoft.com/71fa9a99-83e4-4b
 
 ### -field rnRandomNumber
 
-An <a href="https://msdn.microsoft.com/d3a5be4b-39d1-43da-b87e-ab4dd7815262">OPM_RANDOM_NUMBER</a> structure. This structure contains the same 128-bit random number that the application sent to the driver in the <a href="https://msdn.microsoft.com/8959c7d1-9a78-497f-8841-d3e61e9db6a3">OPM_GET_INFO_PARAMETERS</a> or <a href="https://msdn.microsoft.com/46c0c426-9730-4a0e-ab95-03b240bd55f0">OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a> structure.
+An <a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_random_number">OPM_RANDOM_NUMBER</a> structure. This structure contains the same 128-bit random number that the application sent to the driver in the <a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_get_info_parameters">OPM_GET_INFO_PARAMETERS</a> or <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-coppcompatiblegetinformation">OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a> structure.
 
 
 ### -field ulStatusFlags
 
-A bitwise <b>OR</b> of <a href="https://msdn.microsoft.com/d6d85fd4-e735-4610-93e0-bb2b1782f11b">OPM Status Flags</a>.
+A bitwise <b>OR</b> of <a href="https://docs.microsoft.com/windows/desktop/medfound/opm-status-flags">OPM Status Flags</a>.
 
 
 ### -field ulHDCPFlags
@@ -104,7 +104,7 @@ The device is an HDCP repeater.
 
 ### -field ksvB
 
-An <a href="https://msdn.microsoft.com/79c0e5e5-62ef-4b8a-9e3b-3a9482731b16">OPM_HDCP_KEY_SELECTION_VECTOR</a> structure that contains the device's key selection vector (KSV). This is the value named <i>Bksv</i> in the HDCP specification.
+An <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ns-opmapi-_opm_hdcp_key_selection_vector">OPM_HDCP_KEY_SELECTION_VECTOR</a> structure that contains the device's key selection vector (KSV). This is the value named <i>Bksv</i> in the HDCP specification.
 
 
 ### -field Reserved
@@ -126,7 +126,7 @@ Reserved for future use. Fill this array with zeros.
 
 
 
-The layout of this structure is identical to the <a href="https://msdn.microsoft.com/fd49c50d-6caa-4d2a-83c6-41ff0130160f">DXVA_COPPStatusHDCPKeyData</a> structure used in Certified Output Protection Protocol (COPP).
+The layout of this structure is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ns-dxva9typ-_dxva_coppstatushdcpkeydata">DXVA_COPPStatusHDCPKeyData</a> structure used in Certified Output Protection Protocol (COPP).
 
 
 
@@ -136,11 +136,11 @@ The layout of this structure is identical to the <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/676a60ca-393e-4b5d-89d3-50cf4b771492">OPM Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/opm-structures">OPM Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/daae615b-37c4-4044-91c6-693357e0016a">Output Protection Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
  
 
  

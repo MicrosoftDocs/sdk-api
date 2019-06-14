@@ -81,11 +81,11 @@ TBD
 
 
 
-<a href="https://msdn.microsoft.com/B264CF0E-33FD-44F9-B91E-2F90C35D09AC">ClusterSharedVolumeSetSnapshotState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clustersharedvolumesetsnapshotstate">ClusterSharedVolumeSetSnapshotState</a>
 
 
 
-<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
  
 
  

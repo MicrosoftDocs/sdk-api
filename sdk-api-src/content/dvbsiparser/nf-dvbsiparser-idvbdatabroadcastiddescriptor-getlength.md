@@ -78,7 +78,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/8d46cffc-cb49-4749-a1b7-e05d5d90941f">IDvbDataBroadcastIDDescriptor</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbdatabroadcastiddescriptor">IDvbDataBroadcastIDDescriptor</a>
  
 
  

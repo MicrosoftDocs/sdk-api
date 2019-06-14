@@ -210,18 +210,18 @@ Multipathing is allowed. When specified the iSCSI Initiator service will allow m
 
 ### -field AuthType
 
-An enumerator value of type <a href="https://msdn.microsoft.com/432f1968-e2ca-4594-80cc-0f1a852ec81a">ISCSI_AUTH_TYPES</a> that indicates the authentication type. 
+An enumerator value of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ne-iscsidsc-iscsi_auth_types">ISCSI_AUTH_TYPES</a> that indicates the authentication type. 
 
 
 
 ### -field HeaderDigest
 
-An enumerator value of type <a href="https://msdn.microsoft.com/7c89cc19-28ae-472f-9400-9bd8d0f10c63">ISCSI_DIGEST_TYPES</a> that indicates the type of digest for guaranteeing the integrity of header data. 
+An enumerator value of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ne-iscsidsc-iscsi_digest_types">ISCSI_DIGEST_TYPES</a> that indicates the type of digest for guaranteeing the integrity of header data. 
 
 
 ### -field DataDigest
 
-An enumerator value of type <a href="https://msdn.microsoft.com/7c89cc19-28ae-472f-9400-9bd8d0f10c63">ISCSI_DIGEST_TYPES</a> that indicates the type of digest for guaranteeing the integrity of non-header data. 
+An enumerator value of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ne-iscsidsc-iscsi_digest_types">ISCSI_DIGEST_TYPES</a> that indicates the type of digest for guaranteeing the integrity of non-header data. 
 
 
 ### -field MaximumConnections
@@ -281,7 +281,7 @@ The user name to authenticate to establish the login session. This value is not 
 
 
 
-Initiators use the <b>ISCSI_LOGIN_OPTIONS</b> structure when creating a login session with the <a href="https://msdn.microsoft.com/e94e72d2-b93c-41f4-aafc-78e6a97d7a26">LoginIScsiTarget</a> routine.
+Initiators use the <b>ISCSI_LOGIN_OPTIONS</b> structure when creating a login session with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-loginiscsitargeta">LoginIScsiTarget</a> routine.
 
 The <b>Username</b> and <b>Password</b> members are either strings or binary values that are used for iSCSI authentication. The exact meaning and function of these two values depends on the type of authentication used. For the Challenge Handshake Authentication Protocol (CHAP), the value in the <b>Username</b> member is the CHAP name, and the value in the <b>Password</b> member is the shared secret of the target. If there is no value specified in <b>Username</b>, the initiator node name is used as the CHAP name.
 
@@ -295,7 +295,7 @@ If the authentication protocol requires that these two values be strings, they m
 
 
 
-<a href="https://msdn.microsoft.com/e94e72d2-b93c-41f4-aafc-78e6a97d7a26">LoginIScsiTarget</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-loginiscsitargeta">LoginIScsiTarget</a>
  
 
  

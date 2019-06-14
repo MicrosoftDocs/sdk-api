@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets <a href="https://msdn.microsoft.com/60BFDCD7-D277-4B4A-94DA-7ADB1412252A">Interaction Context</a> object properties.
+Gets <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object properties.
 
 
 ## -parameters
@@ -61,12 +61,12 @@ Gets <a href="https://msdn.microsoft.com/60BFDCD7-D277-4B4A-94DA-7ADB1412252A">I
 
 ### -param interactionContext [in]
 
-Handle to the <a href="https://msdn.microsoft.com/60BFDCD7-D277-4B4A-94DA-7ADB1412252A">Interaction Context</a> object. 
+Handle to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object. 
 
 
 ### -param contextProperty [in]
 
-One of the constants identified by <a href="https://msdn.microsoft.com/b5b96b33-212e-4e1a-89f6-ee9f94de84aa">INTERACTION_CONTEXT_PROPERTY</a>.
+One of the constants identified by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-interaction_context_property">INTERACTION_CONTEXT_PROPERTY</a>.
 
 
 ### -param value [out]
@@ -78,7 +78,7 @@ Valid values for <i>contextProperty</i> are:
 <table>
 <tr>
 <th>
-<a href="https://msdn.microsoft.com/b5b96b33-212e-4e1a-89f6-ee9f94de84aa">INTERACTION_CONTEXT_PROPERTY_MEASUREMENT_UNITS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-interaction_context_property">INTERACTION_CONTEXT_PROPERTY_MEASUREMENT_UNITS</a>
 </th>
 <th>Meaning</th>
 </tr>
@@ -110,7 +110,7 @@ Measurement units are screen pixels. This is the default value.
 <table>
 <tr>
 <th>
-<a href="https://msdn.microsoft.com/b5b96b33-212e-4e1a-89f6-ee9f94de84aa">INTERACTION_CONTEXT_PROPERTY_UI_FEEDBACK</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-interaction_context_property">INTERACTION_CONTEXT_PROPERTY_UI_FEEDBACK</a>
 </th>
 <th>Meaning</th>
 </tr>
@@ -121,7 +121,7 @@ Measurement units are screen pixels. This is the default value.
 </dl>
 </td>
 <td width="60%">
-Visual feedback for user interactions is disabled (the caller is responsible for displaying visual feedback). For more info, see <a href="https://msdn.microsoft.com/9158A6C6-5BB5-4C5C-8411-AE07966B478B">Input Feedback Configuration</a>.
+Visual feedback for user interactions is disabled (the caller is responsible for displaying visual feedback). For more info, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_feedback/input-feedback-configuration-portal">Input Feedback Configuration</a>.
 
 </td>
 </tr>
@@ -132,7 +132,7 @@ Visual feedback for user interactions is disabled (the caller is responsible for
 </dl>
 </td>
 <td width="60%">
-Visual feedback for user interactions is enabled. This is the default value. For more info, see <a href="https://msdn.microsoft.com/9158A6C6-5BB5-4C5C-8411-AE07966B478B">Input Feedback Configuration</a>.
+Visual feedback for user interactions is enabled. This is the default value. For more info, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_feedback/input-feedback-configuration-portal">Input Feedback Configuration</a>.
 
 </td>
 </tr>
@@ -162,7 +162,7 @@ Pointer filtering is disabled (all pointer input data is processed).
 </dl>
 </td>
 <td width="60%">
-Pointer filtering is enabled (only pointers specified through <a href="https://msdn.microsoft.com/a720284f-af50-4e55-ae48-c78a1e826dc4">AddPointerInteractionContext</a> are processed). This is the default value. 
+Pointer filtering is enabled (only pointers specified through <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-addpointerinteractioncontext">AddPointerInteractionContext</a> are processed). This is the default value. 
 
 </td>
 </tr>
@@ -186,15 +186,15 @@ Otherwise, it returns an HRESULT error code.
 
 
 
-<a href="https://msdn.microsoft.com/3E3DE99D-B457-4202-8CC2-A6F5C019EFF8">HINTERACTIONCONTEXT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/0F34F181-D92C-4B08-9F1D-62379D4A2B15">Interaction Context Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/da24831e-9f9f-4a9f-92bf-60e1c5338554">SetPropertyInteractionContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-setpropertyinteractioncontext">SetPropertyInteractionContext</a>
  
 
  

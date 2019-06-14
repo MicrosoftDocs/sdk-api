@@ -58,12 +58,12 @@ ms.custom: 19H1
 
 ### -param wParam [in]
 
-Specifies the virtual-key code of the key. For more information about this parameter, see the <i>wParam</i> parameter in <a href="https://msdn.microsoft.com/en-us/library/ms646280(v=VS.85).aspx">WM_KEYDOWN</a>.
+Specifies the virtual-key code of the key. For more information about this parameter, see the <i>wParam</i> parameter in <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>.
 
 
 ### -param lParam [in]
 
-Specifies the repeat count, scan code, extended-key flag, context code, previous key-state flag, and transition-state flag of the key. For more information about this parameter, see the <i>lParam</i> parameter in <a href="https://msdn.microsoft.com/en-us/library/ms646280(v=VS.85).aspx">WM_KEYDOWN</a>.
+Specifies the repeat count, scan code, extended-key flag, context code, previous key-state flag, and transition-state flag of the key. For more information about this parameter, see the <i>lParam</i> parameter in <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>.
 
 
 ### -param pfEaten [out]
@@ -144,7 +144,7 @@ if(msg.message == WM_KEYDOWN)
     }
 }
 </code></pre>
-If the keystroke manager does not handle the key event, it passes the key event to TSF text services by calling the TSF text service <a href="https://msdn.microsoft.com/aceeb367-0963-484b-afae-26a2c4fb24c7">ITfKeyEventSink::OnKeyDown</a> method.
+If the keystroke manager does not handle the key event, it passes the key event to TSF text services by calling the TSF text service <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeyeventsink-onkeydown">ITfKeyEventSink::OnKeyDown</a> method.
 
 
 
@@ -154,23 +154,23 @@ If the keystroke manager does not handle the key event, it passes the key event 
 
 
 
-<a href="https://msdn.microsoft.com/aceeb367-0963-484b-afae-26a2c4fb24c7">ITfKeyEventSink::OnKeyDown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeyeventsink-onkeydown">ITfKeyEventSink::OnKeyDown</a>
 
 
 
-<a href="https://msdn.microsoft.com/93c1591d-2c95-45cb-8fc5-5726e905f202">ITfKeystrokeMgr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfkeystrokemgr">ITfKeystrokeMgr</a>
 
 
 
-<a href="https://msdn.microsoft.com/14415de3-f397-4866-b7d1-167c0931a80c">ITfKeystrokeMgr::KeyUp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-keyup">ITfKeystrokeMgr::KeyUp</a>
 
 
 
-<a href="https://msdn.microsoft.com/e1f03aff-ce6e-4bb6-ad08-666e04cf6c13">ITfKeystrokeMgr::TestKeyDown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-testkeydown">ITfKeystrokeMgr::TestKeyDown</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646280(v=VS.85).aspx">WM_KEYDOWN</a>
+<a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>
  
 
  

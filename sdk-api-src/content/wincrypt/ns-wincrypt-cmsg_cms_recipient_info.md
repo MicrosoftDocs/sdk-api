@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>CMSG_CMS_RECIPIENT_INFO</b> structure is used with the 
-<a href="https://msdn.microsoft.com/5a05eb09-208f-4e94-abfa-c2f14c0a3164">CryptMsgGetParam</a> function to get information on a key transport, key agreement, or mail list envelope message recipient. This structure is returned in <i>pvData</i> when <a href="https://msdn.microsoft.com/5a05eb09-208f-4e94-abfa-c2f14c0a3164">CryptMsgGetParam</a> is called with <i>dwParamType</i> set to CMSG_CMS_RECIPIENT_INFO_PARAM.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsggetparam">CryptMsgGetParam</a> function to get information on a key transport, key agreement, or mail list envelope message recipient. This structure is returned in <i>pvData</i> when <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsggetparam">CryptMsgGetParam</a> is called with <i>dwParamType</i> set to CMSG_CMS_RECIPIENT_INFO_PARAM.
 
 
 ## -struct-fields
@@ -114,17 +114,17 @@ pMailList
 ### -field DUMMYUNIONNAME.pKeyTrans
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/956b0646-50a5-46d1-aa9a-91194c35d2b2">CMSG_KEY_TRANS_RECIPIENT_INFO</a> structure that identifies a key transport recipient. Used for RSA recipients.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_key_trans_recipient_info">CMSG_KEY_TRANS_RECIPIENT_INFO</a> structure that identifies a key transport recipient. Used for RSA recipients.
 
 
 ### -field DUMMYUNIONNAME.pKeyAgree
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/d29d04d6-065e-4bb7-843b-f563643eeb4c">CMSG_KEY_AGREE_RECIPIENT_INFO</a> structure that identifies a key agreement recipient. Used for Diffie-Hellman recipients.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_key_agree_recipient_info">CMSG_KEY_AGREE_RECIPIENT_INFO</a> structure that identifies a key agreement recipient. Used for Diffie-Hellman recipients.
 
 
 ### -field DUMMYUNIONNAME.pMailList
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/e0946278-75e9-4990-af81-d9e61da9724b">CMSG_MAIL_LIST_RECIPIENT_INFO</a> structure that identifies a recipient using a previously distributed key encryption key for the encryption/decryption of the envelopes message's <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">symmetric key</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_mail_list_recipient_info">CMSG_MAIL_LIST_RECIPIENT_INFO</a> structure that identifies a recipient using a previously distributed key encryption key for the encryption/decryption of the envelopes message's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">symmetric key</a>.
 

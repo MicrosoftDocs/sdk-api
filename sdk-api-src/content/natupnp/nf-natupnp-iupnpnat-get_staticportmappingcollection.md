@@ -61,7 +61,7 @@ The
 ### -param ppSPMs [out]
 
 Pointer to an interface pointer that points to an 
-<a href="https://msdn.microsoft.com/4858c474-b57e-4baa-8e82-10bc41e026cd">IStaticPortMappingCollection</a> interface.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nn-natupnp-istaticportmappingcollection">IStaticPortMappingCollection</a> interface.
 
 
 ## -returns
@@ -176,19 +176,19 @@ The method failed for unknown reasons.
 
 
 
-<a href="https://msdn.microsoft.com/4858c474-b57e-4baa-8e82-10bc41e026cd">IStaticPortMappingCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nn-natupnp-istaticportmappingcollection">IStaticPortMappingCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/bfd93967-a514-4301-9b1e-0fee8794d929">IUPnPNAT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nn-natupnp-iupnpnat">IUPnPNAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf14d633-4b91-4570-b4c9-fd524923914a">Network Address Translation Traversal Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-interfaces">Network Address Translation Traversal Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/49c5642e-346f-488d-92fb-ae214eb41b4f">Network Address Translation Traversal Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>
  
 
  

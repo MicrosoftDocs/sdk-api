@@ -69,7 +69,7 @@ A handle to the window.
 
 Type: <b>int</b>
 
-Controls how the window is to be shown. For a list of possible values, see the description of the <a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a> function. 
+Controls how the window is to be shown. For a list of possible values, see the description of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> function. 
 
 
 ## -returns
@@ -106,11 +106,11 @@ This function posts a show-window event to the message queue of the given window
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
  
 
  

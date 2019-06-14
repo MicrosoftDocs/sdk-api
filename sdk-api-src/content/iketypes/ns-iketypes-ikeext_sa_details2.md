@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_SA_DETAILS2</b> structure is used to store information returned when enumerating IKE, AuthIP, and IKEv2 security associations (SAs).
-<div class="alert"><b>Note</b>  <b>IKEEXT_SA_DETAILS2</b> is the specific implementation of IKEEXT_SA_DETAILS used in Windows 8. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://msdn.microsoft.com/b4b8767b-399a-49f0-91fd-59c2206742de">IKEEXT_SA_DETAILS1</a> is available. For Windows Vista, <a href="https://msdn.microsoft.com/63d33420-9ae5-4b82-a5f9-469cc5652d59">IKEEXT_SA_DETAILS0</a>  is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>IKEEXT_SA_DETAILS2</b> is the specific implementation of IKEEXT_SA_DETAILS used in Windows 8. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_sa_details1_">IKEEXT_SA_DETAILS1</a> is available. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_sa_details0_">IKEEXT_SA_DETAILS0</a>  is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -66,21 +66,21 @@ LUID identifying the security association.
 
 ### -field keyModuleType
 
-Type: <b><a href="https://msdn.microsoft.com/a9268b07-343a-4a51-bc70-3e624facf617">IKEEXT_KEY_MODULE_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_key_module_type_">IKEEXT_KEY_MODULE_TYPE</a></b>
 
 Key module type. 
 
 
 ### -field ipVersion
 
-Type: <b><a href="https://msdn.microsoft.com/1712b83c-f32d-4981-9950-ab870a376182">FWP_IP_VERSION</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version_">FWP_IP_VERSION</a></b>
 
  The IP version.
 
 
 ### -field v4UdpEncapsulation
 
-Type: <b><a href="https://msdn.microsoft.com/69cddec0-7311-4833-8b24-293ad714054e">IPSEC_V4_UDP_ENCAPSULATION0</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_v4_udp_encapsulation0_">IPSEC_V4_UDP_ENCAPSULATION0</a>*</b>
 
 Stores the UDP ports corresponding to the 
    Main Mode, if a NAT is detected.
@@ -90,28 +90,28 @@ Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
 
 ### -field ikeTraffic
 
-Type: <b><a href="https://msdn.microsoft.com/99cb3774-7afd-44fd-9c3e-e2d913aaeecb">IKEEXT_TRAFFIC0</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_traffic0_">IKEEXT_TRAFFIC0</a></b>
 
 The traffic corresponding to this IKE SA.
 
 
 ### -field ikeProposal
 
-Type: <b><a href="https://msdn.microsoft.com/59568ef7-12bd-407a-a8ee-9bf261f49883">IKEEXT_PROPOSAL0</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_proposal0_">IKEEXT_PROPOSAL0</a></b>
 
 The main mode proposal corresponding to this IKE SA.
 
 
 ### -field cookiePair
 
-Type: <b><a href="https://msdn.microsoft.com/c752545b-1880-40ac-871e-e36d4b81668f">IKEEXT_COOKIE_PAIR0</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cookie_pair0_">IKEEXT_COOKIE_PAIR0</a></b>
 
 The SA cookies.
 
 
 ### -field ikeCredentials
 
-Type: <b><a href="https://msdn.microsoft.com/4099b6e7-0b3b-40ea-821c-3ff28a6f788f">IKEEXT_CREDENTIALS2</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credentials2_">IKEEXT_CREDENTIALS2</a></b>
 
 Credentials information for the SA.
 
@@ -132,7 +132,7 @@ ID/Handle to virtual interface tunneling state. Applicable only to IKEv2.
 
 ### -field correlationKey
 
-Type: <b><a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a></b>
 
 Key derived from authentications to allow external applications to cryptographically bind
    their exchanges with this SA.
@@ -143,35 +143,35 @@ Key derived from authentications to allow external applications to cryptographic
 
 
 
-<a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a>
 
 
 
-<a href="https://msdn.microsoft.com/1712b83c-f32d-4981-9950-ab870a376182">FWP_IP_VERSION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version_">FWP_IP_VERSION</a>
 
 
 
-<a href="https://msdn.microsoft.com/c752545b-1880-40ac-871e-e36d4b81668f">IKEEXT_COOKIE_PAIR0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cookie_pair0_">IKEEXT_COOKIE_PAIR0</a>
 
 
 
-<a href="https://msdn.microsoft.com/4099b6e7-0b3b-40ea-821c-3ff28a6f788f">IKEEXT_CREDENTIALS2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credentials2_">IKEEXT_CREDENTIALS2</a>
 
 
 
-<a href="https://msdn.microsoft.com/a9268b07-343a-4a51-bc70-3e624facf617">IKEEXT_KEY_MODULE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_key_module_type_">IKEEXT_KEY_MODULE_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/59568ef7-12bd-407a-a8ee-9bf261f49883">IKEEXT_PROPOSAL0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_proposal0_">IKEEXT_PROPOSAL0</a>
 
 
 
-<a href="https://msdn.microsoft.com/99cb3774-7afd-44fd-9c3e-e2d913aaeecb">IKEEXT_TRAFFIC0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_traffic0_">IKEEXT_TRAFFIC0</a>
 
 
 
-<a href="https://msdn.microsoft.com/69cddec0-7311-4833-8b24-293ad714054e">IPSEC_V4_UDP_ENCAPSULATION0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_v4_udp_encapsulation0_">IPSEC_V4_UDP_ENCAPSULATION0</a>
  
 
  

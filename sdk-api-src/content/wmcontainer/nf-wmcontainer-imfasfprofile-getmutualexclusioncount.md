@@ -98,7 +98,7 @@ The method succeeded.
 
 
 
-Multiple mutual exclusion objects may be required for streams that are mutually exclusive in more than one way. For more information, see <a href="https://msdn.microsoft.com/f5dedc87-a29c-4c8d-b493-486d975f9ac4">IMFASFMutualExclusion::AddRecord</a>.
+Multiple mutual exclusion objects may be required for streams that are mutually exclusive in more than one way. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-addrecord">IMFASFMutualExclusion::AddRecord</a>.
 
 
 
@@ -108,15 +108,15 @@ Multiple mutual exclusion objects may be required for streams that are mutually 
 
 
 
-<a href="https://msdn.microsoft.com/03a0981b-29c3-450d-aa58-bc56a76e6cb6">ASF Profile</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-profile">ASF Profile</a>
 
 
 
-<a href="https://msdn.microsoft.com/fe441c61-1be7-4fda-a2a3-bd79ecf4e54c">IMFASFProfile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfprofile">IMFASFProfile</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b9e37fc-0bd8-4502-9e90-76330a08f68b">IMFASFProfile::GetMutualExclusion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getmutualexclusion">IMFASFProfile::GetMutualExclusion</a>
  
 
  

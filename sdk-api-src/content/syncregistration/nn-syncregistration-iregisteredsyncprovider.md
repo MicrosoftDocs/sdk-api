@@ -54,7 +54,7 @@ Represents a registered synchronization provider. This interface is implemented 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRegisteredSyncProvider</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IRegisteredSyncProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRegisteredSyncProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRegisteredSyncProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IRegisteredSyncProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d8206138-92cc-4ed7-937e-baf2ed432b6b">GetInstanceId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-iregisteredsyncprovider-getinstanceid">GetInstanceId</a>
 </td>
 <td align="left" width="63%">
 Returns the synchronization provider's instance ID.
@@ -78,7 +78,7 @@ Returns the synchronization provider's instance ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1f022a6b-8f8c-4def-9ca9-dc06ec80f020">Init</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-iregisteredsyncprovider-init">Init</a>
 </td>
 <td align="left" width="63%">
 Initializes the synchronization provider before it is ready for a synchronization session.
@@ -87,7 +87,7 @@ Initializes the synchronization provider before it is ready for a synchronizatio
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/05fe5db8-9a21-4e09-a1fb-d50d1f08a540">Reset</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-iregisteredsyncprovider-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets a synchronization provider so that it looks like a new replica
@@ -102,7 +102,7 @@ Resets a synchronization provider so that it looks like a new replica
 
 
 
-If the registered synchronization provider is a <a href="http://go.microsoft.com/fwlink/p/?linkid=134798">Microsoft Sync Framework</a> provider, then the <a href="https://msdn.microsoft.com/1f022a6b-8f8c-4def-9ca9-dc06ec80f020">Init</a>method will be called by the Sync Framework synchronization session. For more information about the different types of synchronization providers you can write for Windows, see <a href="https://msdn.microsoft.com/acf9a557-da4f-4688-9fea-9456947c17b4">Options for Building a Synchronization Provider</a>.
+If the registered synchronization provider is a <a href="http://go.microsoft.com/fwlink/p/?linkid=134798">Microsoft Sync Framework</a> provider, then the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-iregisteredsyncprovider-init">Init</a>method will be called by the Sync Framework synchronization session. For more information about the different types of synchronization providers you can write for Windows, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/options-for-building-a-synchronization-provider">Options for Building a Synchronization Provider</a>.
 
 
 
@@ -112,7 +112,7 @@ If the registered synchronization provider is a <a href="http://go.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/8233671e-bf89-448d-8347-9b4f0ae7501f">Windows Sync Registration Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-registration-reference">Windows Sync Registration Reference</a>
  
 
  

@@ -98,7 +98,7 @@ Pointer <i>pbEnabled</i> is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/c182d6ae-c55b-4e3b-9639-7c2f2f7d826d">IAudioLoudness Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudioloudness">IAudioLoudness Interface</a>
  
 
  

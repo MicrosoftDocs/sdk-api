@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The
 				<b>NetServiceInstall</b> function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the 
-<a href="https://msdn.microsoft.com/63666848-cbac-4853-8b91-89303f9854c0">service functions</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Services/service-functions">service functions</a>.
 
 
 ## -parameters

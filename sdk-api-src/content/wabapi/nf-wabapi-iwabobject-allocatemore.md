@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 Allocates a memory buffer that is linked to another buffer 
 		previously allocated with the 
-		<a href="https://msdn.microsoft.com/en-us/library/ms629459(v=VS.85).aspx">IWABObject::AllocateBuffer</a> method.
+		<a href="https://docs.microsoft.com/windows/desktop/api/wabapi/nf-wabapi-iwabobject-allocatebuffer">IWABObject::AllocateBuffer</a> method.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ Value of type <b>ULONG</b> that specifies
 Type: <b>LPVOID</b>
 
 Pointer to the existing buffer object allocated using 
-				<a href="https://msdn.microsoft.com/en-us/library/ms629459(v=VS.85).aspx">IWABObject::AllocateBuffer</a>.
+				<a href="https://docs.microsoft.com/windows/desktop/api/wabapi/nf-wabapi-iwabobject-allocatebuffer">IWABObject::AllocateBuffer</a>.
 
 
 ### -param lppBuffer
@@ -103,8 +103,8 @@ Returns S_OK if successful.
 It is only possible to release a buffer allocated with 
 	<b>IWABObject::AllocateMore</b> by passing the buffer pointer 
 	specified in the <i>lpObject</i> parameter to 
-	<a href="https://msdn.microsoft.com/en-us/library/ms629463(v=VS.85).aspx">IWABObject::FreeBuffer</a>. The link between the memory 
-	buffers allocated with <a href="https://msdn.microsoft.com/en-us/library/ms629459(v=VS.85).aspx">IWABObject::AllocateBuffer</a> and 
+	<a href="https://docs.microsoft.com/windows/desktop/api/wabapi/nf-wabapi-iwabobject-freebuffer">IWABObject::FreeBuffer</a>. The link between the memory 
+	buffers allocated with <a href="https://docs.microsoft.com/windows/desktop/api/wabapi/nf-wabapi-iwabobject-allocatebuffer">IWABObject::AllocateBuffer</a> and 
 	<b>IWABObject::AllocateMore</b> enables 
 	<b>IWABObject::FreeBuffer</b> to release both buffers 
 	with a single call.

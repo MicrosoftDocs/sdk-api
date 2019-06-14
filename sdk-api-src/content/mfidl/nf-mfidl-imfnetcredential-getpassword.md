@@ -118,7 +118,7 @@ If the password is not available, the method might succeed and set *<i>pcbData</
 
 
 
-<a href="https://msdn.microsoft.com/d202e7bc-9ce0-4861-8552-5a4d599b1661">IMFNetCredential</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfnetcredential">IMFNetCredential</a>
  
 
  

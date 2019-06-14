@@ -62,7 +62,7 @@ Any application that must set the name of the file into which the file sink filt
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileSinkFilter</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IFileSinkFilter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileSinkFilter</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFileSinkFilter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IFileSinkFilter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1d635dfc-a3b3-4f75-8356-534a32156686">GetCurFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifilesinkfilter-getcurfile">GetCurFile</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the current file into which media samples will be written.
@@ -86,7 +86,7 @@ Retrieves the name of the current file into which media samples will be written.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d202be46-0a7a-4097-adf6-6ec9c6274449">SetFileName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifilesinkfilter-setfilename">SetFileName</a>
 </td>
 <td align="left" width="63%">
 Sets the name of the file into which media samples will be written.
@@ -100,7 +100,7 @@ Sets the name of the file into which media samples will be written.
 
 
 
-The <a href="https://msdn.microsoft.com/1339c441-2b10-461f-87f3-4835c1692740">IFileSinkFilter2</a> interface extends <b>IFileSinkFilter</b>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifilesinkfilter2">IFileSinkFilter2</a> interface extends <b>IFileSinkFilter</b>.
 
 
 
@@ -110,7 +110,7 @@ The <a href="https://msdn.microsoft.com/1339c441-2b10-461f-87f3-4835c1692740">IF
 
 
 
-<a href="https://msdn.microsoft.com/5efd174f-2eb1-44e6-97e3-b73c7c52fef1">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
  
 
  

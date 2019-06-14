@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 Contains debugging information.
 <div class="alert"><b>Note</b>  This structure is used by the 
-    <a href="https://msdn.microsoft.com/749a2a99-f6c4-4af3-aa0b-8a7bb5c690da">MapDebugInformation</a> and 
-    <a href="https://msdn.microsoft.com/86d82f23-7803-475f-8b23-c3964d33cb00">UnmapDebugInformation</a> functions, which are 
+    <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-mapdebuginformation">MapDebugInformation</a> and 
+    <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-unmapdebuginformation">UnmapDebugInformation</a> functions, which are 
     provided only for backward compatibility.</div><div> </div>
 
 ## -struct-fields
@@ -324,7 +324,7 @@ The number of COFF section headers.
 ### -field ReservedSections
 
 A pointer to the first COFF section header. For more information, see 
-      <a href="https://msdn.microsoft.com/81ddf56d-66cc-4a0c-9cff-a84376a3223d">IMAGE_SECTION_HEADER</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_section_header">IMAGE_SECTION_HEADER</a>.
 
 
 ### -field ReservedExportedNamesSize
@@ -345,7 +345,7 @@ The number of entries contained in the <b>FunctionTableEntries</b> member.
 ### -field ReservedFunctionTableEntries
 
 A pointer to the first function table entry. For more information, see 
-      <a href="https://msdn.microsoft.com/ced956ec-7a12-4548-8e38-a1c1057c05e8">IMAGE_FUNCTION_ENTRY</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_function_entry">IMAGE_FUNCTION_ENTRY</a>.
 
 
 ### -field ReservedLowestFunctionStartingAddress
@@ -366,7 +366,7 @@ The number of entries contained in the <b>FpoTableEntries</b> member.
 ### -field ReservedFpoTableEntries
 
 A pointer to the first FPO entry. For more information, see 
-      <a href="https://msdn.microsoft.com/916dc7d5-ed88-4573-b696-fd00bbf4e086">FPO_DATA</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_fpo_data">FPO_DATA</a>.
 
 
 ### -field SizeOfCoffSymbols
@@ -417,7 +417,7 @@ This value is <b>TRUE</b> if the image is a ROM image.
 ### -field ReservedDebugDirectory
 
 A pointer to the first debug directory. For more information, see 
-      <a href="https://msdn.microsoft.com/f89a3c9b-4d73-4ff5-8f45-2e58500d5084">IMAGE_DEBUG_DIRECTORY</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_debug_directory">IMAGE_DEBUG_DIRECTORY</a>.
 
 
 ### -field ReservedNumberOfDebugDirectories
@@ -458,31 +458,31 @@ typedef struct _LIST_ENTRY {
 
 
 
-<a href="https://msdn.microsoft.com/916dc7d5-ed88-4573-b696-fd00bbf4e086">FPO_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_fpo_data">FPO_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/f3a0ba0e-ef6b-4355-8dc4-5099dd54ab7e">IMAGE_COFF_SYMBOLS_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_coff_symbols_header">IMAGE_COFF_SYMBOLS_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/f89a3c9b-4d73-4ff5-8f45-2e58500d5084">IMAGE_DEBUG_DIRECTORY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_debug_directory">IMAGE_DEBUG_DIRECTORY</a>
 
 
 
-<a href="https://msdn.microsoft.com/ced956ec-7a12-4548-8e38-a1c1057c05e8">IMAGE_FUNCTION_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_function_entry">IMAGE_FUNCTION_ENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/81ddf56d-66cc-4a0c-9cff-a84376a3223d">IMAGE_SECTION_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_section_header">IMAGE_SECTION_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/749a2a99-f6c4-4af3-aa0b-8a7bb5c690da">MapDebugInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-mapdebuginformation">MapDebugInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/86d82f23-7803-475f-8b23-c3964d33cb00">UnmapDebugInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-unmapdebuginformation">UnmapDebugInformation</a>
  
 
  

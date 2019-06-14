@@ -50,10 +50,10 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/a2d1758a-4a7e-40fd-84c7-a25bc36ab538">TRefPointerCollection</a> class 
+<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/refptrco/nl-refptrco-trefpointercollection">TRefPointerCollection</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>BeginEnum</b> method starts enumerating the collection.
@@ -66,7 +66,7 @@ The <b>BeginEnum</b> method starts enumerating the collection.
 
 ### -param pos [ref]
 
-Denotes the position of an item in a collection of <a href="https://msdn.microsoft.com/a2d1758a-4a7e-40fd-84c7-a25bc36ab538">TRefPointerCollection</a> objects.
+Denotes the position of an item in a collection of <a href="https://docs.microsoft.com/windows/desktop/api/refptrco/nl-refptrco-trefpointercollection">TRefPointerCollection</a> objects.
 
 
 ## -returns
@@ -85,11 +85,11 @@ If the method fails, it returns <b>FALSE</b>.
 
 
 
-<a href="https://msdn.microsoft.com/a2d1758a-4a7e-40fd-84c7-a25bc36ab538">TRefPointerCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/refptrco/nl-refptrco-trefpointercollection">TRefPointerCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/86dcfc2e-fc73-4030-a63f-5284c2123a21">TRefPointerCollection::EndEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/refptrco/nf-refptrco-trefpointercollection-endenum">TRefPointerCollection::EndEnum</a>
  
 
  

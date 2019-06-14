@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Describes the state of a rolling upgrade of the operating system on a cluster. This enumeration is used by the <a href="https://msdn.microsoft.com/EE803D8C-3EFD-414F-8E38-65A1DFA8079B">ClusterUpgradeProgressCallback</a> callback function.
+Describes the state of a rolling upgrade of the operating system on a cluster. This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nc-clusapi-pcluster_upgrade_progress_callback">ClusterUpgradeProgressCallback</a> callback function.
 
 
 ## -enum-fields
@@ -88,11 +88,11 @@ The upgrade is complete.
 
 
 
-<a href="https://msdn.microsoft.com/EA013501-A4E2-48D8-9062-D20141485CC5">ClusterUpgradeFunctionalLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterupgradefunctionallevel">ClusterUpgradeFunctionalLevel</a>
 
 
 
-<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
  
 
  

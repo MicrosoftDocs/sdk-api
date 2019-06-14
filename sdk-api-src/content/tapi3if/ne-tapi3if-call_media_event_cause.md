@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>CALL_MEDIA_EVENT_CAUSE</b> enum is used by 
-<a href="https://msdn.microsoft.com/51905e69-ff95-46fb-a73a-785a8d444253">ITCallMediaEvent::get_Cause</a> method to return a description of what caused a media event, such as a device timeout.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallmediaevent-get_cause">ITCallMediaEvent::get_Cause</a> method to return a description of what caused a media event, such as a device timeout.
 
 
 ## -enum-fields
@@ -104,7 +104,7 @@ Media processing has resumed after an interruption.
 
 
 
-<a href="https://msdn.microsoft.com/51905e69-ff95-46fb-a73a-785a8d444253">ITCallMediaEvent::get_Cause</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallmediaevent-get_cause">ITCallMediaEvent::get_Cause</a>
  
 
  

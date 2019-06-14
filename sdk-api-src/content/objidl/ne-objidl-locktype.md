@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>LOCKTYPE</b> enumeration values indicate the type of locking requested for the specified range of bytes. The values are used in the 
-<a href="https://msdn.microsoft.com/cea59e2a-99d8-472d-8e4f-2e2474789c20">ILockBytes::LockRegion</a> and 
-<a href="https://msdn.microsoft.com/f2606833-05ed-4bd0-a762-7b8172fb14c8">IStream::LockRegion</a> methods.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ilockbytes-lockregion">ILockBytes::LockRegion</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-lockregion">IStream::LockRegion</a> methods.
 
 
 ## -enum-fields

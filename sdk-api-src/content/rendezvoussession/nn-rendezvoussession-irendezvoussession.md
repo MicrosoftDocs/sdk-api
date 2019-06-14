@@ -54,7 +54,7 @@ Exposes methods that send data about the session and that can terminate it.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRendezvousSession</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IRendezvousSession</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRendezvousSession</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRendezvousSession</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,19 +70,19 @@ The <b>IRendezvousSession</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5908accc-c8c2-4ca5-b76e-5c62e8a36c67">SendContextData</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rendezvoussession/nf-rendezvoussession-irendezvoussession-sendcontextdata">SendContextData</a>
 </td>
 <td align="left" width="63%">
-Sends the context data to the remote <a href="https://msdn.microsoft.com/306efb96-5193-410d-b2f8-e71453828a5e">RendezvousApplication</a>.
+Sends the context data to the remote <a href="https://docs.microsoft.com/previous-versions/windows/desktop/remoteassist/remoteassist-rendezvousapplication">RendezvousApplication</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a77c6f25-fbb7-46af-8b15-a4ed55f69273">Terminate</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rendezvoussession/nf-rendezvoussession-irendezvoussession-terminate">Terminate</a>
 </td>
 <td align="left" width="63%">
-Terminates the remote <a href="https://msdn.microsoft.com/306efb96-5193-410d-b2f8-e71453828a5e">RendezvousApplication</a>.
+Terminates the remote <a href="https://docs.microsoft.com/previous-versions/windows/desktop/remoteassist/remoteassist-rendezvousapplication">RendezvousApplication</a>.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ Terminates the remote <a href="https://msdn.microsoft.com/306efb96-5193-410d-b2f
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/7252098d-71f2-43b8-a0ae-a42a22de247f">Flags</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rendezvoussession/nf-rendezvoussession-irendezvoussession-get_flags">Flags</a>
 
 
 </td>
@@ -113,7 +113,7 @@ Retrieves a value that indicates session information. For example, the session f
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/23288533-69ab-4217-ba54-07af3811fa91">RemoteUser</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rendezvoussession/nf-rendezvoussession-irendezvoussession-get_remoteuser">RemoteUser</a>
 
 
 </td>
@@ -129,7 +129,7 @@ Retrieves a pointer to a <b>BSTR</b> that contains the Windows Messenger contact
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/587fa190-937b-465b-bc5b-1cdc23902053">State</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rendezvoussession/nf-rendezvoussession-irendezvoussession-get_state">State</a>
 
 
 </td>
@@ -149,11 +149,11 @@ Retrieves a value that indicates the session state.
 
 
 
-The instant messaging (IM) application implements this interface and passes the object that implements <b>IRendezvousSession</b> and supports the <a href="https://msdn.microsoft.com/f0261091-416d-45db-b102-2346c2252d6a">DRendezvousSessionEvents</a> connection point. 
+The instant messaging (IM) application implements this interface and passes the object that implements <b>IRendezvousSession</b> and supports the <a href="https://docs.microsoft.com/previous-versions//ms715092(v=vs.85)">DRendezvousSessionEvents</a> connection point. 
 
-The Windows Remote Assistance application calls <b>IRendezvousSession</b>-&gt;<a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63">AddRef</a> to retain the session after the call to <a href="https://msdn.microsoft.com/08144565-a382-4d61-9e23-011e60b06957">SetRendezvousSession</a> completes. 
+The Windows Remote Assistance application calls <b>IRendezvousSession</b>-&gt;<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> to retain the session after the call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rendezvoussession/nf-rendezvoussession-irendezvousapplication-setrendezvoussession">SetRendezvousSession</a> completes. 
 
-The Windows Remote Assistance application calls <b>IRendezvousSession</b>-&gt;<a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a> when the session is complete. 
+The Windows Remote Assistance application calls <b>IRendezvousSession</b>-&gt;<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> when the session is complete. 
 
 
 

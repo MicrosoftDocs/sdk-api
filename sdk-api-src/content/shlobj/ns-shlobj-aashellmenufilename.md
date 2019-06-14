@@ -94,7 +94,7 @@ When reading an <b>AASHELLMENUFILENAME</b> structure, first read a single SHORT 
 
 
 
-<a href="https://msdn.microsoft.com/9d5ccbae-cc56-446f-be67-9623247d5045">AASHELLMENUITEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/ns-shlobj-tagaashellmenuitem">AASHELLMENUITEM</a>
  
 
  

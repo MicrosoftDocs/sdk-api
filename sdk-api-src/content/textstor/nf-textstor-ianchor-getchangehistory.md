@@ -135,7 +135,7 @@ The value of <i>pdwHistory</i> is invalid.
 
 The <i>pdwHistory</i> change flags must be set when deletions adjacent to the anchor have occurred.
 
-The change flags remain set until they are cleared with a call to <a href="https://msdn.microsoft.com/3780ab3d-6b77-45bc-9630-747fa5caaecc">IAnchor::ClearChangeHistory</a>.
+The change flags remain set until they are cleared with a call to <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-clearchangehistory">IAnchor::ClearChangeHistory</a>.
 
 
 
@@ -145,11 +145,11 @@ The change flags remain set until they are cleared with a call to <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/a7d52959-8386-464f-958d-c870f286b265">IAnchor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a>
 
 
 
-<a href="https://msdn.microsoft.com/3780ab3d-6b77-45bc-9630-747fa5caaecc">IAnchor::ClearChangeHistory
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-clearchangehistory">IAnchor::ClearChangeHistory
       </a>
  
 

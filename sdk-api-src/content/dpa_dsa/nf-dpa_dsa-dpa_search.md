@@ -89,14 +89,14 @@ A comparison function pointer. See <a href="https://docs.microsoft.com/en-us/win
 
 ### -param lParam
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 An additional parameter to be passed to <i>pfnCmp</i>.
 
 
 ### -param options
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 This parameter may be one or more of the following.
 

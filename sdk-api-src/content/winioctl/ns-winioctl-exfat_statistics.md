@@ -106,11 +106,11 @@ The number of write operations that were not cached. This value includes sub-wri
 
 
 
-<a href="https://msdn.microsoft.com/98d293e8-e708-48f5-99b1-603f27e6ef16">FAT_STATISTICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_fat_statistics">FAT_STATISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/ff8c7dfe-da7f-4ee2-9a54-613e0cd3e1e2">FILESYSTEM_STATISTICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_filesystem_statistics">FILESYSTEM_STATISTICS</a>
  
 
  

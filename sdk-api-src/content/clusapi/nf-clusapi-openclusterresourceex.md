@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Opens a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> and returns a handle to 
+Opens a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> and returns a handle to 
     it.
 
 
@@ -60,7 +60,7 @@ Opens a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89
 
 ### -param hCluster [in]
 
-Handle to a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+Handle to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>.
 
 
 ### -param lpszResourceName [in, optional]
@@ -69,7 +69,7 @@ Pointer to a null-terminated Unicode string containing the name of the resource 
 
 Resource names are not case sensitive. A resource name must be unique within the cluster. The name is set 
        when the resource is created and can be changed using the 
-       <a href="https://msdn.microsoft.com/8525a0b4-d37e-4ed3-8914-2c427978de6c">SetClusterResourceName</a> function.
+       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-setclusterresourcename">SetClusterResourceName</a> function.
 
 
 ### -param dwDesiredAccess [in]
@@ -78,7 +78,7 @@ The requested access privileges. This may be any combination of <b>GENERIC_READ<
       (0x80000000), <b>GENERIC_ALL</b> (0x10000000), or <b>MAXIMUM_ALLOWED</b> 
       (0x02000000). If this value is zero (0) and undefined error may be returned. Using 
       <b>GENERIC_ALL</b> is the same as calling 
-      <a href="https://msdn.microsoft.com/c699cb00-b999-45b8-b9db-570150e1a65e">OpenClusterResource</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusterresource">OpenClusterResource</a>.
 
 
 ### -param lpdwGrantedAccess [out, optional]
@@ -110,8 +110,8 @@ If the operation was successful,
 </td>
 <td width="60%">
 The operation was not successful. For more information about the error, call the 
-        <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function. If the target server does not 
-        support the <a href="https://msdn.microsoft.com/bd5a411f-3cf4-4dc5-89fc-0edc59f7b15a">OpenClusterResourceEx</a> function 
+        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. If the target server does not 
+        support the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusterresourceex">OpenClusterResourceEx</a> function 
         (for example if the target server is running Windows Server 2008 or earlier) then the 
         <b>GetLastError</b> function will return 
         <b>RPC_S_PROCNUM_OUT_OF_RANGE</b> (1745).
@@ -129,15 +129,15 @@ The operation was not successful. For more information about the error, call the
 
 
 
-<a href="https://msdn.microsoft.com/dbefd7f9-3499-45b3-a5c8-d0000632f61c">CloseClusterResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-closeclusterresource">CloseClusterResource</a>
 
 
 
-<a href="https://msdn.microsoft.com/d1f7360d-f592-49fb-b3b4-60d93afd7c6f">Failover Cluster Resource Management Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-management-functions">Failover Cluster Resource Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/c699cb00-b999-45b8-b9db-570150e1a65e">OpenClusterResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusterresource">OpenClusterResource</a>
  
 
  

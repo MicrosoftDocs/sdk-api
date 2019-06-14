@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves an <a href="https://msdn.microsoft.com/adb4afed-63b9-42b4-8a8d-673d4813bb52">IUIAutomationTreeWalker</a> interface used to discover control elements.
+Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtreewalker">IUIAutomationTreeWalker</a> interface used to discover control elements.
 
 This property is read-only.
 
@@ -63,19 +63,19 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/f34b7631-1d95-4c2e-b3fc-7600d5b24b15">ContentViewWalker</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-get_contentviewwalker">ContentViewWalker</a>
 
 
 
-<a href="https://msdn.microsoft.com/46b31ab6-39aa-4df8-a421-6369c32a9605">IUIAutomation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation">IUIAutomation</a>
 
 
 
-<a href="https://msdn.microsoft.com/adb4afed-63b9-42b4-8a8d-673d4813bb52">IUIAutomationTreeWalker</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtreewalker">IUIAutomationTreeWalker</a>
 
 
 
-<a href="https://msdn.microsoft.com/1c76140d-50da-41d6-a997-926396f37a36">RawViewWalker</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-get_rawviewwalker">RawViewWalker</a>
  
 
  

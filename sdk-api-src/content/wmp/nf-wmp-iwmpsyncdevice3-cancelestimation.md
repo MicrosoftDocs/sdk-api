@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>cancelEstimation</b> method cancels an estimation that was previously initiated by <a href="https://msdn.microsoft.com/en-us/library/Dd563715(v=VS.85).aspx">estimateSyncSize</a>.
+The <b>cancelEstimation</b> method cancels an estimation that was previously initiated by <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice3-estimatesyncsize">estimateSyncSize</a>.
 
 
 
@@ -94,7 +94,7 @@ The method succeeded.
 
 
 
-When you call this method, Windows Media Player raises the<a href="https://msdn.microsoft.com/2fb45a13-d82b-48b6-b9bb-46409f33a33f"> IWMPEvents4::SyncEstimationComplete</a> event with an <b>HRESULT</b> of E_ABORT.
+When you call this method, Windows Media Player raises the<a href="https://docs.microsoft.com/windows/desktop/WMP/iwmpevents4-syncestimationcomplete"> IWMPEvents4::SyncEstimationComplete</a> event with an <b>HRESULT</b> of E_ABORT.
 
 
 
@@ -104,7 +104,7 @@ When you call this method, Windows Media Player raises the<a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563713(v=VS.85).aspx">IWMPSyncDevice3 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice3">IWMPSyncDevice3 Interface</a>
  
 
  

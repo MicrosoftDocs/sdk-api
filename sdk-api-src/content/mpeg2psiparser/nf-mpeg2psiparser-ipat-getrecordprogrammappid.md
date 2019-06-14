@@ -62,7 +62,7 @@ The <b>GetRecordProgramMapPid</b> method returns the packet identifier (PID) for
 
 ### -param dwIndex [in]
 
-Specifies the record to retrieve, indexed from zero. Call the <a href="https://msdn.microsoft.com/en-us/library/Dd694776(v=VS.85).aspx">IPAT::GetCountOfRecords</a> method to get the number of records in the PAT.
+Specifies the record to retrieve, indexed from zero. Call the <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipat-getcountofrecords">IPAT::GetCountOfRecords</a> method to get the number of records in the PAT.
 
 
 ### -param pwVal [out]
@@ -125,7 +125,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694773(v=VS.85).aspx">IPAT Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipat">IPAT Interface</a>
  
 
  

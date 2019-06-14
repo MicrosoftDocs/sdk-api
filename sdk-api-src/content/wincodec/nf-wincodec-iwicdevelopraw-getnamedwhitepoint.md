@@ -59,7 +59,7 @@ Gets the named white point of the raw image.
 
 ### -param pWhitePoint [out]
 
-Type: <b><a href="https://msdn.microsoft.com/e256a6d6-a035-47c3-a82c-d9aec284de17">WICNamedWhitePoint</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicnamedwhitepoint">WICNamedWhitePoint</a>*</b>
 
 A pointer that receives the bitwise combination of the enumeration values.
 
@@ -83,7 +83,7 @@ If the named white points are not supported by the raw image or the raw file con
 
 If the named white points are not supported by the raw image, a best effort should be made to adjust the image to the named white point even when it isn't a pre-defined white point of the raw file.
 
-If the raw file containes named white points not supported by this API, the codec implementer should support the named white points in <a href="https://msdn.microsoft.com/e256a6d6-a035-47c3-a82c-d9aec284de17">WICNamedWhitePoint</a>.
+If the raw file containes named white points not supported by this API, the codec implementer should support the named white points in <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicnamedwhitepoint">WICNamedWhitePoint</a>.
 
 
 

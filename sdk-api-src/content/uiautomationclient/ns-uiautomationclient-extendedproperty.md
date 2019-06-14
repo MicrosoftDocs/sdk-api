@@ -75,7 +75,7 @@ A string that represents the value of the extended property.   This string shoul
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/D284E4B6-A328-4D79-A95F-DACE00042AF2">IUIAutomationStylesPattern::GetCachedExtendedPropertiesArray</a> and <a href="https://msdn.microsoft.com/AA128739-FB03-4E68-904B-648AE34A175C">GetCurrentExtendedPropertiesArray</a> methods.
+This structure is used by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437294(v=vs.85)">IUIAutomationStylesPattern::GetCachedExtendedPropertiesArray</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437295(v=vs.85)">GetCurrentExtendedPropertiesArray</a> methods.
 
 
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>IWTSProtocolConnection::GetProtocolStatus</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://msdn.microsoft.com/A89C2E3F-AC75-4CFB-9DA7-00DCEDCA1C1A">IWRdsProtocolConnection::GetProtocolStatus</a>.]
+<p class="CCE_Message">[<b>IWTSProtocolConnection::GetProtocolStatus</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnection-getprotocolstatus">IWRdsProtocolConnection::GetProtocolStatus</a>.]
 
 Retrieves information about the protocol status.
 
@@ -61,7 +61,7 @@ Retrieves information about the protocol status.
 
 ### -param pProtocolStatus [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/20e66033-fc79-49c9-af0e-abaf6e4ba501">WTS_PROTOCOL_STATUS</a> structure that contains counter, signal, and cache information for the protocol.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_protocol_status">WTS_PROTOCOL_STATUS</a> structure that contains counter, signal, and cache information for the protocol.
 
 
 ## -see-also
@@ -69,7 +69,7 @@ A pointer to a <a href="https://msdn.microsoft.com/20e66033-fc79-49c9-af0e-abaf6
 
 
 
-<a href="https://msdn.microsoft.com/584a6874-0df4-480e-a10a-4b603643870e">IWTSProtocolConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>
  
 
  

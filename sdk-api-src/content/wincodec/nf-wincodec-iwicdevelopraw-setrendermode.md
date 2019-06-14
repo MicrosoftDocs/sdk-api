@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the current <a href="https://msdn.microsoft.com/dc020c78-a018-42ee-a500-65a743b96107">WICRawRenderMode</a>.
+Sets the current <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicrawrendermode">WICRawRenderMode</a>.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Sets the current <a href="https://msdn.microsoft.com/dc020c78-a018-42ee-a500-65a
 
 ### -param RenderMode [in]
 
-Type: <b><a href="https://msdn.microsoft.com/dc020c78-a018-42ee-a500-65a743b96107">WICRawRenderMode</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicrawrendermode">WICRawRenderMode</a></b>
 
 The render mode to use.
 

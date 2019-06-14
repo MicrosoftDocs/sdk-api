@@ -65,7 +65,7 @@ The <b>EndOfMedia</b> method is called when playback reaches the end of the sour
 
 ### -param lpd [in]
 
-Specifies a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd694586(v=VS.85).aspx">IMSVidPlayback</a> interface of the playback device.
+Specifies a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidplayback">IMSVidPlayback</a> interface of the playback device.
 
 
 ## -returns
@@ -91,7 +91,7 @@ The dispatch identifier (dispid) of this method is <b>eventidEndOfMedia</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694587(v=VS.85).aspx">IMSVidPlaybackEvent Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidplaybackevent">IMSVidPlaybackEvent Interface</a>
  
 
  

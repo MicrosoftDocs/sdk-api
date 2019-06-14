@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-A collection of <a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a> structures.
+A collection of <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0020">XPS_DASH</a> structures.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMDashCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IXpsOMDashCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMDashCollection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsOMDashCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,60 +69,60 @@ The <b>IXpsOMDashCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e8d2baf5-e36e-4363-bde6-1731c97e702f">Append</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomdashcollection-append">Append</a>
 </td>
 <td align="left" width="63%">
-Appends an <a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a> structure to the end of the collection.
+Appends an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0020">XPS_DASH</a> structure to the end of the collection.
             
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/70749e4c-1f67-41e8-9def-85d38493c099">GetAt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomdashcollection-getat">GetAt</a>
 </td>
 <td align="left" width="63%">
-Gets an <a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a> structure from a specified location in the collection.
+Gets an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0020">XPS_DASH</a> structure from a specified location in the collection.
             
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/51393b2f-6658-4268-bcfc-5647ef2c8406">GetCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomdashcollection-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
-Gets the number of <a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a> structures in the collection.
+Gets the number of <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0020">XPS_DASH</a> structures in the collection.
             
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d9ef0ea9-f427-41ff-b33e-c9b5f49cb7d9">InsertAt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomdashcollection-insertat">InsertAt</a>
 </td>
 <td align="left" width="63%">
-Inserts an <a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a> structure at a specified location in the collection.
+Inserts an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0020">XPS_DASH</a> structure at a specified location in the collection.
             
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5ccce0d4-c764-4da4-9d7c-463921a92a6a">RemoveAt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomdashcollection-removeat">RemoveAt</a>
 </td>
 <td align="left" width="63%">
-Removes and frees an <a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a> structure from a specified location in the collection.
+Removes and frees an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0020">XPS_DASH</a> structure from a specified location in the collection.
             
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c0ea0ae0-2c28-4478-82fc-3e80bc70eef8">SetAt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomdashcollection-setat">SetAt</a>
 </td>
 <td align="left" width="63%">
-Replaces an <a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a> structure at a specified location in the collection.
+Replaces an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0020">XPS_DASH</a> structure at a specified location in the collection.
             
 
 </td>
@@ -134,7 +134,7 @@ Replaces an <a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).
 
 
 
-For more information about the collection methods, see <a href="https://msdn.microsoft.com/6ea311c0-a155-47de-ad40-62b0cbeb6e8f">Working with XPS OM Collection Interfaces</a>.
+For more information about the collection methods, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372931(v=vs.85)">Working with XPS OM Collection Interfaces</a>.
 
 
 
@@ -144,11 +144,11 @@ For more information about the collection methods, see <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/8d72ff28-6dfb-4fa8-a1b6-14b054aa7eb5">Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316980(v=vs.85)">Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/6ea311c0-a155-47de-ad40-62b0cbeb6e8f">Working with XPS OM Collection Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372931(v=vs.85)">Working with XPS OM Collection Interfaces</a>
 
 
 
@@ -156,7 +156,7 @@ For more information about the collection methods, see <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0020">XPS_DASH</a>
  
 
  

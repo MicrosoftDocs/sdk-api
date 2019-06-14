@@ -66,7 +66,7 @@ Container-defined unique identifier for a single link. Containers can use the po
 
 ### -param fErrorMessage [in]
 
-Determines whether the caller (implementer of <a href="https://msdn.microsoft.com/7fc0aab3-7476-49ec-8a1d-3f4851f9f31c">IOleUILinkContainer</a>) should show an error message upon failure to update a link. The <b>Update Links</b> dialog box sets this to <b>FALSE</b>. The <b>Object Properties</b> and <b>Links</b> dialog boxes set it to <b>TRUE</b>.
+Determines whether the caller (implementer of <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a>) should show an error message upon failure to update a link. The <b>Update Links</b> dialog box sets this to <b>FALSE</b>. The <b>Object Properties</b> and <b>Links</b> dialog boxes set it to <b>TRUE</b>.
 
 
 ### -param fReserved [in]
@@ -143,7 +143,7 @@ There is insufficient memory available for this operation.
 Call this method with <i>fErrorMessage</i> set to <b>TRUE</b> in cases where the user expressly presses a button to have a link updated, that is, presses the links' <b>Update Now</b> button. Call it with <b>FALSE</b> in cases where the container should never display an error message, that is, where a large set of operations are being performed and the error should be propagated back to the user later, as might occur with the <b>Update links</b> progress meter. Rather than providing one message for each failure, assuming there are failures, provide a single message for all failures at the end of the operation.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-For OLE links, call <a href="https://msdn.microsoft.com/1743f99b-4c3b-47be-b77b-1d3378a44903">IOleObject::Update</a>.
+For OLE links, call <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-update">IOleObject::Update</a>.
 
 
 
@@ -153,11 +153,11 @@ For OLE links, call <a href="https://msdn.microsoft.com/1743f99b-4c3b-47be-b77b-
 
 
 
-<a href="https://msdn.microsoft.com/1743f99b-4c3b-47be-b77b-1d3378a44903">IOleObject::Update</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-update">IOleObject::Update</a>
 
 
 
-<a href="https://msdn.microsoft.com/7fc0aab3-7476-49ec-8a1d-3f4851f9f31c">IOleUILinkContainer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a>
  
 
  

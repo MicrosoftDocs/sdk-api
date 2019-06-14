@@ -65,7 +65,7 @@ Disables or enables the ability of the system to temporarily boost the priority 
 ### -param hProcess [in]
 
 A handle to the process. This handle must have the PROCESS_SET_INFORMATION access right. For more information, see 
-<a href="https://msdn.microsoft.com/508a17c4-88cd-431a-a102-00180a7f7ab5">Process Security and Access Rights</a>.
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
 
 ### -param bDisablePriorityBoost [in]
@@ -80,7 +80,7 @@ If this parameter is TRUE, dynamic boosting is disabled. If the parameter is FAL
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -101,23 +101,23 @@ When a thread is running in one of the dynamic priority classes, the system temp
 
 
 
-<a href="https://msdn.microsoft.com/b47944f2-b724-4eec-9dcf-2d14a7b77456">GetProcessPriorityBoost</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocesspriorityboost">GetProcessPriorityBoost</a>
 
 
 
-<a href="https://msdn.microsoft.com/bcc6cec7-2d85-4810-98d0-7d99486f4924">Priority Boosts</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/priority-boosts">Priority Boosts</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c8e8af0-bf50-4a4b-945c-83bae1eff7dd">Process and Thread Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/4bdec0f5-7276-422e-9935-0e231b0fc17d">Processes</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/child-processes">Processes</a>
 
 
 
-<a href="https://msdn.microsoft.com/8710cd56-6bf3-4317-a1f6-1a159394ce2a">Scheduling Priorities</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/scheduling-priorities">Scheduling Priorities</a>
  
 
  

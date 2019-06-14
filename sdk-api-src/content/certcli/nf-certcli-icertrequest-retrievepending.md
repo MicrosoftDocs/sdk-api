@@ -55,9 +55,9 @@ ms.custom: 19H1
 The <b>RetrievePending</b> method retrieves a certificate's disposition status from an earlier request that may have previously returned CR_DISP_INCOMPLETE or CR_DISP_UNDER_SUBMISSION.
 
 If the resulting disposition status is CR_DISP_ISSUED, you can retrieve the issued certificate by calling 
-<a href="https://msdn.microsoft.com/ba8fc725-c376-4e66-8417-777ce13f2954">ICertRequest3::GetCertificate</a>. If a disposition other than CR_DISP_ISSUED is returned, call 
-<a href="https://msdn.microsoft.com/ebe5cfa7-6bfd-4454-9272-64e3b1bf0ae2">ICertRequest3::GetLastStatus</a>, 
-<a href="https://msdn.microsoft.com/c3639cf6-c70f-4f15-a0ed-e60abe2955cb">ICertRequest3::GetDispositionMessage</a>, or both methods for more information.
+<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest-getcertificate">ICertRequest3::GetCertificate</a>. If a disposition other than CR_DISP_ISSUED is returned, call 
+<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest-getlaststatus">ICertRequest3::GetLastStatus</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest-getdispositionmessage">ICertRequest3::GetDispositionMessage</a>, or both methods for more information.
 
 
 ## -parameters
@@ -72,8 +72,8 @@ The ID of the request that had previously returned CR_DISP_INCOMPLETE or CR_DISP
 
 ### -param strConfig [in]
 
-Represents a valid configuration string for the Certificate Services server. The string can be either an HTTPS URL for an enrollment server or in the form <i>ComputerName</i><b>\</b><i>CAName</i>, where <i>ComputerName</i> is the network name of the server, and <i>CAName</i> is the common name of the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a>, as entered during Certificate Services setup. For information about the configuration string name, see 
-<a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a>.
+Represents a valid configuration string for the Certificate Services server. The string can be either an HTTPS URL for an enrollment server or in the form <i>ComputerName</i><b>\</b><i>CAName</i>, where <i>ComputerName</i> is the network name of the server, and <i>CAName</i> is the common name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a>, as entered during Certificate Services setup. For information about the configuration string name, see 
+<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>An HTTPS URL is not supported as an input.
 
@@ -92,7 +92,7 @@ A pointer to the request's disposition value.
 
 Upon successful completion of this function, *<i>pDisposition</i> is set to one of the values in the following table.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value specifies the disposition of the request. The disposition is one of the following values.
@@ -179,8 +179,8 @@ Request taken under submission
 
 
 A successful call to this method generates an EXITEVENT_CERTRETRIEVEPENDING event. An active exit module will receive notification of this event (by means of a call to 
-<a href="https://msdn.microsoft.com/ebe4ef0c-5778-4a62-b112-9b16b250814f">ICertExit3::Notify</a>) if the exit module specified this event when calling 
-<a href="https://msdn.microsoft.com/61d27de8-f940-4f18-ba44-7e91378f035c">ICertExit3::Initialize</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/certexit/nf-certexit-icertexit-notify">ICertExit3::Notify</a>) if the exit module specified this event when calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/certexit/nf-certexit-icertexit-initialize">ICertExit3::Initialize</a>.
 
 
 #### Examples
@@ -222,23 +222,23 @@ if ( NULL != bstrCA )
 
 
 
-<a href="https://msdn.microsoft.com/2f371aa6-492e-41ba-8455-66e9d5f5da44">CCertRequest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest">CCertRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f371aa6-492e-41ba-8455-66e9d5f5da44">ICertRequest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest">ICertRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/8587a682-27a5-4f26-b4bb-7088e4e5d8d3">ICertRequest2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest2">ICertRequest2</a>
 
 
 
-<a href="https://msdn.microsoft.com/01de2ac0-4844-41a6-acef-e3e83b350393">ICertRequest3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest3">ICertRequest3</a>
  
 
  

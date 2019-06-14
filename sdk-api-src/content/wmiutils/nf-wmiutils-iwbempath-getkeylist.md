@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>IWbemPath::GetKeyList</b> method retrieves an 
-<a href="https://msdn.microsoft.com/5b188426-9d7f-4e87-9eed-ce80e5d93c30">IWbemPathKeyList</a> pointer so that the individual key may be accessed.
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nn-wmiutils-iwbempathkeylist">IWbemPathKeyList</a> pointer so that the individual key may be accessed.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param pOut [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/5b188426-9d7f-4e87-9eed-ce80e5d93c30">IWbemPathKeyList</a> object.
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nn-wmiutils-iwbempathkeylist">IWbemPathKeyList</a> object.
 
 
 ## -returns
@@ -79,7 +79,7 @@ This method returns an <b>HRESULT</b> indicating the status of the method call.
 
 
 
-<a href="https://msdn.microsoft.com/71b2597b-d82a-439d-b0b7-af76aefea6a2">IWbemPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nn-wmiutils-iwbempath">IWbemPath</a>
  
 
  

@@ -61,7 +61,7 @@ The
 ### -param hRasServer [in]
 
 Handle to the RAS server on which connections are enumerated. Obtain this handle by calling 
-<a href="https://msdn.microsoft.com/f93b37bc-d3d1-40f0-aef6-839bb43c88e2">MprAdminServerConnect</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
 
 
 ### -param dwLevel [in]
@@ -78,22 +78,22 @@ A DWORD value that describes the format in which the information is returned in 
 <tr>
 <td>0</td>
 <td>
-<a href="https://msdn.microsoft.com/e2561365-be3f-44cd-bb3c-18b001fc4d5d">RAS_CONNECTION_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_0">RAS_CONNECTION_0</a>
 </td>
 </tr>
 <tr>
 <td>1</td>
-<td>Windows 2000 or later: <a href="https://msdn.microsoft.com/5f6c6895-4baf-46d7-865a-b95342b70abb">RAS_CONNECTION_1</a>
+<td>Windows 2000 or later: <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_1">RAS_CONNECTION_1</a>
 </td>
 </tr>
 <tr>
 <td>2</td>
-<td>Windows 2000 or later: <a href="https://msdn.microsoft.com/5dcc20f0-7447-4256-9dde-18a4a3c95816">RAS_CONNECTION_2</a>
+<td>Windows 2000 or later: <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_2">RAS_CONNECTION_2</a>
 </td>
 </tr>
 <tr>
 <td>3</td>
-<td>Windows Server 2008 or later: <a href="https://msdn.microsoft.com/f474563e-01c5-4f2a-aec4-477e0ffc7ab2">RAS_CONNECTION_3</a>
+<td>Windows Server 2008 or later: <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_3">RAS_CONNECTION_3</a>
 </td>
 </tr>
 </table>
@@ -102,9 +102,9 @@ A DWORD value that describes the format in which the information is returned in 
 
 ### -param lplpbBuffer [out]
 
-On successful completion, a pointer to an array of structures that describe the connection. These structures are of type <a href="https://msdn.microsoft.com/e2561365-be3f-44cd-bb3c-18b001fc4d5d">RAS_CONNECTION_0</a>, <a href="https://msdn.microsoft.com/5f6c6895-4baf-46d7-865a-b95342b70abb">RAS_CONNECTION_1</a>, <a href="https://msdn.microsoft.com/5dcc20f0-7447-4256-9dde-18a4a3c95816">RAS_CONNECTION_2</a>, or <a href="https://msdn.microsoft.com/f474563e-01c5-4f2a-aec4-477e0ffc7ab2">RAS_CONNECTION_3</a>, depending on the value of the <i>dwLevel</i> parameter. 
+On successful completion, a pointer to an array of structures that describe the connection. These structures are of type <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_0">RAS_CONNECTION_0</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_1">RAS_CONNECTION_1</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_2">RAS_CONNECTION_2</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_3">RAS_CONNECTION_3</a>, depending on the value of the <i>dwLevel</i> parameter. 
 
-To free this memory, call <a href="https://msdn.microsoft.com/60cae055-841a-4435-bf0e-4198b1ccdd4e">MprAdminBufferFree</a>.
+To free this memory, call <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminbufferfree">MprAdminBufferFree</a>.
 
 
 ### -param dwPrefMaxLen [in]
@@ -218,8 +218,8 @@ An error from MprError.h, RasError.h, or WinError.h.
 
 This function is available on Windows NT 4.0 if the RRAS redistributable is installed. However, the version of Mprapi.dll that ships with the RRAS redistributable exports the function as <b>RasAdminConnectionEnum</b> rather than 
 <b>MprAdminConnectionEnum</b>. Therefore, when using the RRAS redistributable, use 
-<a href="https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx">LoadLibrary</a> and 
-<a href="https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx">GetProcAddress</a> to access this function.
+<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access this function.
 
 
 
@@ -229,35 +229,35 @@ This function is available on Windows NT 4.0 if the RRAS redistributable is in
 
 
 
-<a href="https://msdn.microsoft.com/60cae055-841a-4435-bf0e-4198b1ccdd4e">MprAdminBufferFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminbufferfree">MprAdminBufferFree</a>
 
 
 
-<a href="https://msdn.microsoft.com/f93b37bc-d3d1-40f0-aef6-839bb43c88e2">MprAdminServerConnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>
 
 
 
-<a href="https://msdn.microsoft.com/27cf63e2-9dd3-4bc1-98af-e93055d89492">RAS Administration Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-functions">RAS Administration Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2561365-be3f-44cd-bb3c-18b001fc4d5d">RAS_CONNECTION_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_0">RAS_CONNECTION_0</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f6c6895-4baf-46d7-865a-b95342b70abb">RAS_CONNECTION_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_1">RAS_CONNECTION_1</a>
 
 
 
-<a href="https://msdn.microsoft.com/5dcc20f0-7447-4256-9dde-18a4a3c95816">RAS_CONNECTION_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_2">RAS_CONNECTION_2</a>
 
 
 
-<a href="https://msdn.microsoft.com/f474563e-01c5-4f2a-aec4-477e0ffc7ab2">RAS_CONNECTION_3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_3">RAS_CONNECTION_3</a>
 
 
 
-<a href="https://msdn.microsoft.com/6170fcf2-26d5-4418-bddb-2afd99510520">Remote Access Service Administration Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
  
 
  

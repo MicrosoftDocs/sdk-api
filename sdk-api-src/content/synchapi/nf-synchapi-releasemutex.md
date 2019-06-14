@@ -66,8 +66,8 @@ Releases ownership of the specified mutex object.
 ### -param hMutex [in]
 
 A handle to the mutex object. The 
-<a href="https://msdn.microsoft.com/c8315d1c-98c9-4f0a-ae0d-800d7d8100cd">CreateMutex</a> or 
-<a href="https://msdn.microsoft.com/en-us/library/ms684315(v=VS.85).aspx">OpenMutex</a> function returns this handle. 
+<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createmutexa">CreateMutex</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openmutexa">OpenMutex</a> function returns this handle. 
 
 
 
@@ -80,7 +80,7 @@ A handle to the mutex object. The
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -93,18 +93,18 @@ The
 <b>ReleaseMutex</b> function fails if the calling thread does not own the mutex object.
 
 A thread obtains ownership of a mutex either by creating it with the <i>bInitialOwner</i> parameter set to <b>TRUE</b> or by specifying its handle in a call to one of the 
-<a href="https://msdn.microsoft.com/9c66c71d-fdfd-42ae-895c-2fc842b5bc7a">wait functions</a>. When the thread no longer needs to own the mutex object, it calls the 
+<a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">wait functions</a>. When the thread no longer needs to own the mutex object, it calls the 
 <b>ReleaseMutex</b> function so that another thread can acquire ownership.
 
 A thread  can specify a  mutex that it already owns in a call to one of the wait functions without blocking its execution. This prevents a thread from deadlocking itself while waiting for a mutex that it already owns. However, to release its ownership, the thread must call 
-<b>ReleaseMutex</b> one time for each time that it obtained ownership (either through <a href="https://msdn.microsoft.com/c8315d1c-98c9-4f0a-ae0d-800d7d8100cd">CreateMutex</a> or a wait function).
+<b>ReleaseMutex</b> one time for each time that it obtained ownership (either through <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createmutexa">CreateMutex</a> or a wait function).
 
 
 #### Examples
 
 For an example that uses 
 <b>ReleaseMutex</b>, see 
-<a href="https://msdn.microsoft.com/0f69ba50-69ce-467a-b068-8fd8f07c6c78">Using Mutex Objects</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Sync/using-mutex-objects">Using Mutex Objects</a>.
 
 <div class="code"></div>
 
@@ -115,15 +115,15 @@ For an example that uses
 
 
 
-<a href="https://msdn.microsoft.com/c8315d1c-98c9-4f0a-ae0d-800d7d8100cd">CreateMutex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createmutexa">CreateMutex</a>
 
 
 
-<a href="https://msdn.microsoft.com/eca0795a-1fd0-4034-9d61-9416670919cf">Mutex Objects</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/mutex-objects">Mutex Objects</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b6359c2-0113-49b6-83d0-316ad95aba1b">Synchronization Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
  
 
  

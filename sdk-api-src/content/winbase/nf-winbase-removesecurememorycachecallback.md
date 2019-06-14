@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Unregisters a callback function that was previously registered with the <a href="https://msdn.microsoft.com/6c89d6f3-182e-4b10-931c-8d55d603c9dc">AddSecureMemoryCacheCallback</a> function.
+Unregisters a callback function that was previously registered with the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-addsecurememorycachecallback">AddSecureMemoryCacheCallback</a> function.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Unregisters a callback function that was previously registered with the <a href=
 
 ### -param pfnCallBack [in]
 
-A pointer to the application-defined <a href="https://msdn.microsoft.com/abde4b6f-7cd8-4a4b-9b00-f035b2c29054">SecureMemoryCacheCallback</a> function to remove.
+A pointer to the application-defined <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nc-winnt-psecure_memory_cache_callback">SecureMemoryCacheCallback</a> function to remove.
 
 
 ## -returns
@@ -77,7 +77,7 @@ If the function fails, it returns <b>FALSE</b>.
 
 
 
-To compile an application that uses this function, define _WIN32_WINNT as 0x0600 or later. For more information, see <a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+To compile an application that uses this function, define _WIN32_WINNT as 0x0600 or later. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 
@@ -87,11 +87,11 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0600
 
 
 
-<a href="https://msdn.microsoft.com/6c89d6f3-182e-4b10-931c-8d55d603c9dc">AddSecureMemoryCacheCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-addsecurememorycachecallback">AddSecureMemoryCacheCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/abde4b6f-7cd8-4a4b-9b00-f035b2c29054">SecureMemoryCacheCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nc-winnt-psecure_memory_cache_callback">SecureMemoryCacheCallback</a>
  
 
  

@@ -86,7 +86,7 @@ Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error cod
 
 
 
-<a href="https://msdn.microsoft.com/CE5D99C9-2348-4566-AC94-DFBA5B583503">IWaaSAssessor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/waasapi/nn-waasapi-iwaasassessor">IWaaSAssessor</a>
  
 
  

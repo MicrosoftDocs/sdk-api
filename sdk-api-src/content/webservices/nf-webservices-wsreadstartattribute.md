@@ -49,10 +49,10 @@ ms.custom: 19H1
 ## -description
 
 
-Moves the Reader to the specified attribute so that the content may be read using <a href="https://msdn.microsoft.com/d2dbeaf1-29cb-4848-8188-7922fdc15091">WsReadValue</a>, <a href="https://msdn.microsoft.com/3285d3f7-8ab1-42f0-b6e0-1d91aa0d576f">WsReadChars</a>, or <a href="https://msdn.microsoft.com/02cff29c-7d39-4df2-8eb1-506f93959a1e">WsReadBytes</a>.
+Moves the Reader to the specified attribute so that the content may be read using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadvalue">WsReadValue</a>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadchars">WsReadChars</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadbytes">WsReadBytes</a>.
       
         If the reader is not positioned on a start element then it returns a <b>WS_E_INVALID_FORMAT</b> exception.
-      (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.)<div class="alert"><b>Note</b>  Attributes read do not appear in any particular order.  <a href="https://msdn.microsoft.com/beb00382-6cc0-42c6-b835-4ebc94c5faa2">WsFindAttribute</a> can
+      (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)<div class="alert"><b>Note</b>  Attributes read do not appear in any particular order.  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfindattribute">WsFindAttribute</a> can
         be used to locate the index of a particular attribute.
       </div>
 <div> </div>
@@ -78,7 +78,7 @@ The index of the attribute to read.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 
@@ -114,7 +114,7 @@ The input data was not in the expected format or did not have the expected value
 
 
 
-The <a href="https://msdn.microsoft.com/60dacf3e-ebde-4247-be58-835565874ab6">WsReadNode</a> function returns EOF when advanced within an attribute.  The <a href="https://msdn.microsoft.com/1181ca68-f67b-47e1-b9de-1bc57ecf36f6">WsReadEndAttribute</a> function can be used
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadnode">WsReadNode</a> function returns EOF when advanced within an attribute.  The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadendattribute">WsReadEndAttribute</a> function can be used
         to return the reader to the containing element.
       
 

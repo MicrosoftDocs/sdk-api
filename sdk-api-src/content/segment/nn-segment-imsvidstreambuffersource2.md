@@ -59,7 +59,7 @@ The <b>IMSVidStreamBufferSource2</b> interface represents the Stream Buffer Sour
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSource2</b> interface inherits from <a href="https://msdn.microsoft.com/12160959-820b-4534-9392-a13ad229317d">IMSVidStreamBufferSource</a>. <b>IMSVidStreamBufferSource2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSource2</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidstreambuffersource">IMSVidStreamBufferSource</a>. <b>IMSVidStreamBufferSource2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IMSVidStreamBufferSource2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694663(v=VS.85).aspx">get_AudioCounter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource2-get_audiocounter">get_AudioCounter</a>
 </td>
 <td align="left" width="63%">
 Enables the caller to get performance statistics from the Stream Buffer Source for the audio stream.
@@ -83,7 +83,7 @@ Enables the caller to get performance statistics from the Stream Buffer Source f
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694664(v=VS.85).aspx">get_CCCounter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource2-get_cccounter">get_CCCounter</a>
 </td>
 <td align="left" width="63%">
 Enables the caller to get performance statistics from the Stream Buffer Source for the closed captioning stream.
@@ -92,7 +92,7 @@ Enables the caller to get performance statistics from the Stream Buffer Source f
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694665(v=VS.85).aspx">get_VideoCounter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource2-get_videocounter">get_VideoCounter</a>
 </td>
 <td align="left" width="63%">
 Enables the caller to get performance statistics from the Stream Buffer Source for the video stream.
@@ -101,7 +101,7 @@ Enables the caller to get performance statistics from the Stream Buffer Source f
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694667(v=VS.85).aspx">get_WSTCounter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource2-get_wstcounter">get_WSTCounter</a>
 </td>
 <td align="left" width="63%">
 Enables the caller to get performance statistics from the Stream Buffer Source for the World Standard Teletext (WST) stream.
@@ -110,7 +110,7 @@ Enables the caller to get performance statistics from the Stream Buffer Source f
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694668(v=VS.85).aspx">put_RateEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource2-put_rateex">put_RateEx</a>
 </td>
 <td align="left" width="63%">
 Sets the playback rate, and sets the frame rate for fast-forward play ("trick mode").
@@ -134,11 +134,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/12160959-820b-4534-9392-a13ad229317d">IMSVidStreamBufferSource</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidstreambuffersource">IMSVidStreamBufferSource</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf6c3ce9-1e56-4109-93f1-5b313e6ca19b">Video Control Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
  
 
  

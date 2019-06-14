@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <code>GetFiltergraph</code> method retrieves the <a href="https://msdn.microsoft.com/54ed8ac8-4821-4c0c-9fb9-789c70dbca37">IGraphBuilder</a> interface for the filter graph used by the DVD-Video graph builder object.
+The <code>GetFiltergraph</code> method retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a> interface for the filter graph used by the DVD-Video graph builder object.
 
 
 
@@ -63,7 +63,7 @@ The <code>GetFiltergraph</code> method retrieves the <a href="https://msdn.micro
 
 ### -param ppGB [out]
 
-Address of a pointer to the <a href="https://msdn.microsoft.com/54ed8ac8-4821-4c0c-9fb9-789c70dbca37">IGraphBuilder</a> interface that the DVD-Video graph builder object is using.
+Address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a> interface that the DVD-Video graph builder object is using.
 
 
 ## -returns
@@ -89,15 +89,15 @@ The returned <b>IGraphBuilder</b> interface pointer has an outstanding reference
 
 
 
-<a href="https://msdn.microsoft.com/6f41e0f1-e550-4ca6-9a80-ce4d498289e2">DVD Applications</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/2179e54a-c6e2-4837-9f89-be210bde9180">IDvdGraphBuilder Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdgraphbuilder">IDvdGraphBuilder Interface</a>
  
 
  

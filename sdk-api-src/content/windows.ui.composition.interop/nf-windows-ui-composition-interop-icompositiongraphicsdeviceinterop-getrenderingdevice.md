@@ -80,7 +80,7 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error
 
 
 
-<a href="https://msdn.microsoft.com/E8585E49-DB1E-44CA-AE75-138E87FD2D30">ICompositionGraphicsDeviceInterop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.composition.interop/nn-windows-ui-composition-interop-icompositiongraphicsdeviceinterop">ICompositionGraphicsDeviceInterop</a>
  
 
  

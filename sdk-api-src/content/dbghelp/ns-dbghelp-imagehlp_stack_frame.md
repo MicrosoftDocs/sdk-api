@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Contains the stack frame information. This structure is used with the 
-<a href="https://msdn.microsoft.com/0a9c6bfe-5e60-48c4-af98-b910df3032d5">SymSetContext</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetcontext">SymSetContext</a> function.
 
 
 ## -struct-fields
@@ -113,7 +113,7 @@ The stack pointer.
 ### -field FuncTableEntry
 
 <b>x86:  </b>An 
-<a href="https://msdn.microsoft.com/916dc7d5-ed88-4573-b696-fd00bbf4e086">FPO_DATA</a> structure. If there is no function table entry, this member is <b>NULL</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_fpo_data">FPO_DATA</a> structure. If there is no function table entry, this member is <b>NULL</b>.
 
 
 ### -field Params
@@ -141,7 +141,7 @@ This member is reserved for system use.
 
 
 
-<a href="https://msdn.microsoft.com/0a9c6bfe-5e60-48c4-af98-b910df3032d5">SymSetContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetcontext">SymSetContext</a>
  
 
  

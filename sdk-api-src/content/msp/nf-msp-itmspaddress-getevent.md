@@ -67,7 +67,7 @@ A pointer to a DWORD that contains the size, in bytes, of <i>pEventBuffer</i>.  
 ### -param pEventBuffer
 
 [in, out, size_is(*<i>pdwSize</i>)] A pointer to buffer that contains 
-<a href="https://msdn.microsoft.com/5286fbe6-3553-42f1-82e6-5bb6f75f3305">MSP event_info</a> information.
+<a href="https://docs.microsoft.com/windows/desktop/api/msp/ns-msp-__midl___midl_itf_msp_0000_0000_0005">MSP event_info</a> information.
 
 
 ## -returns
@@ -169,11 +169,11 @@ Users of the MSP base classes: This method locks the event list.
 
 
 
-<a href="https://msdn.microsoft.com/246a0bcd-0dbb-4b77-a1cd-e6378eaff889">ITMSPAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msp/nn-msp-itmspaddress">ITMSPAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/53b7bcbd-571a-44da-a6db-10d4c3e5d30a">Media Service Provider Interface (MSPI)</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
  
 
  

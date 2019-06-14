@@ -51,14 +51,14 @@ ms.custom: 19H1
 
 The <b>IMSCEPSetup</b> interface defines functionality to install and uninstall a Network Device Enrollment Service (NDES) role on a Certificate Services computer. Implement this interface to provide a custom setup program for installing and uninstalling this role.
 
-Microsoft provides an implementation of this interface in the <b>CMSCEPSetup</b> class. For installation, you must call <a href="https://msdn.microsoft.com/25b1fd48-7b2c-4687-af7e-09efd99038b3">InitializeDefaults</a> before accessing any properties or calling any other methods on the <b>CMSCEPSetup</b> object.
+Microsoft provides an implementation of this interface in the <b>CMSCEPSetup</b> class. For installation, you must call <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-imscepsetup-initializedefaults">InitializeDefaults</a> before accessing any properties or calling any other methods on the <b>CMSCEPSetup</b> object.
 
 In C++, you create an instance of this interface by calling the <b>CoCreateInstance</b> function with the <b>CLSID_CMSCEPSetup</b> class identifier.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSCEPSetup</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMSCEPSetup</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSCEPSetup</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMSCEPSetup</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -74,16 +74,16 @@ The <b>IMSCEPSetup</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/992619dd-1d59-4033-b3aa-ae32dc9948c2">GetKeyLengthList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-imscepsetup-getkeylengthlist">GetKeyLengthList</a>
 </td>
 <td align="left" width="63%">
-Gets the list of <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33">key lengths</a> supported by the specified CSP.
+Gets the list of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key lengths</a> supported by the specified CSP.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b598331d-b54b-4e12-bea4-99cf1e6a5872">GetMSCEPSetupProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-imscepsetup-getmscepsetupproperty">GetMSCEPSetupProperty</a>
 </td>
 <td align="left" width="63%">
 Gets a property value for an NDES configuration.
@@ -92,16 +92,16 @@ Gets a property value for an NDES configuration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e2b5bae3-fc85-4277-8ee9-3911dacf3302">GetProviderNameList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-imscepsetup-getprovidernamelist">GetProviderNameList</a>
 </td>
 <td align="left" width="63%">
-Gets the list of <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service providers</a> (CSPs) that provide asymmetric key signature and exchange algorithms on the computer.
+Gets the list of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service providers</a> (CSPs) that provide asymmetric key signature and exchange algorithms on the computer.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/25b1fd48-7b2c-4687-af7e-09efd99038b3">InitializeDefaults</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-imscepsetup-initializedefaults">InitializeDefaults</a>
 </td>
 <td align="left" width="63%">
 Initializes a <b>CMSCEPSetup</b> object with default values to enable installation of an NDES role.
@@ -110,7 +110,7 @@ Initializes a <b>CMSCEPSetup</b> object with default values to enable installati
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/26ed36bd-8d27-42ce-81a5-a980fdebf5af">Install</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-imscepsetup-install">Install</a>
 </td>
 <td align="left" width="63%">
 Installs an NDES role as configured in the <b>CMSCEPSetup</b> object.
@@ -119,7 +119,7 @@ Installs an NDES role as configured in the <b>CMSCEPSetup</b> object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/90ce2ea5-e531-4787-954a-cd4d09ba753e">IsMSCEPStoreEmpty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-imscepsetup-ismscepstoreempty">IsMSCEPStoreEmpty</a>
 </td>
 <td align="left" width="63%">
 This method always returns <b>VARIANT_TRUE</b>. It should not be used.
@@ -128,7 +128,7 @@ This method always returns <b>VARIANT_TRUE</b>. It should not be used.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8989ebde-0d33-4f9a-a4dc-82562eab5976">PostUnInstall</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-imscepsetup-postuninstall">PostUnInstall</a>
 </td>
 <td align="left" width="63%">
 This method is not implemented. It is reserved for future use.
@@ -137,7 +137,7 @@ This method is not implemented. It is reserved for future use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7c9ff619-7c26-4dfb-aeac-fa80a1050cf0">PreUnInstall</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-imscepsetup-preuninstall">PreUnInstall</a>
 </td>
 <td align="left" width="63%">
 Removes registry and IIS settings for the NDES role.
@@ -146,7 +146,7 @@ Removes registry and IIS settings for the NDES role.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/32d09bdc-e8e8-4368-9f51-cc7ba170c8a0">SetAccountInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-imscepsetup-setaccountinformation">SetAccountInformation</a>
 </td>
 <td align="left" width="63%">
 Sets the user account information used by the IIS NDES extension to perform enrollment on behalf of network devices.
@@ -155,7 +155,7 @@ Sets the user account information used by the IIS NDES extension to perform enro
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/868f3e5f-1345-414b-a75f-d2e68213469b">SetMSCEPSetupProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-imscepsetup-setmscepsetupproperty">SetMSCEPSetupProperty</a>
 </td>
 <td align="left" width="63%">
 Sets a property value for an NDES configuration.
@@ -173,7 +173,7 @@ Sets a property value for an NDES configuration.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/3edec047-1034-44c8-bac5-f3593cb1b66b">MSCEPErrorId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-imscepsetup-get_msceperrorid">MSCEPErrorId</a>
 
 
 </td>
@@ -189,7 +189,7 @@ Gets the ID for additional error information related to a failed NDES specificat
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/5da4d9ac-ba59-499e-a062-381349b411a8">MSCEPErrorString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-imscepsetup-get_msceperrorstring">MSCEPErrorString</a>
 
 
 </td>

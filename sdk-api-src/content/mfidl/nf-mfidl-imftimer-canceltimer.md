@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Cancels a timer that was set using the <a href="https://msdn.microsoft.com/3b583541-6480-490d-883f-376ea95f7a98">IMFTimer::SetTimer</a> method.
+Cancels a timer that was set using the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftimer-settimer">IMFTimer::SetTimer</a> method.
 
 
 
@@ -63,7 +63,7 @@ Cancels a timer that was set using the <a href="https://msdn.microsoft.com/3b583
 
 ### -param punkKey [in]
 
-Pointer to the <b>IUnknown</b> interface that was returned in the <i>ppunkKey</i> parameter of the <a href="https://msdn.microsoft.com/3b583541-6480-490d-883f-376ea95f7a98">SetTimer</a> method.
+Pointer to the <b>IUnknown</b> interface that was returned in the <i>ppunkKey</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftimer-settimer">SetTimer</a> method.
 
 
 ## -returns
@@ -108,7 +108,7 @@ Because the timer is dispatched asynchronously, the application's timer callback
 
 
 
-<a href="https://msdn.microsoft.com/152594df-de3d-4f6f-9277-dba95ab3533a">IMFTimer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftimer">IMFTimer</a>
  
 
  

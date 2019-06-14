@@ -59,9 +59,9 @@ Sets the folder settings for the current view.
 
 ### -param pfs [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/be00fe39-1add-412e-b88b-4b0b1404b19d">FOLDERSETTINGS</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-foldersettings">FOLDERSETTINGS</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/be00fe39-1add-412e-b88b-4b0b1404b19d">FOLDERSETTINGS</a> structure that contains the folder settings to be applied.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-foldersettings">FOLDERSETTINGS</a> structure that contains the folder settings to be applied.
 
 
 ## -returns
@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 This method also changes the default that will be applied when navigating to another location.
 
-To ensure the view state is perserved across sessions, specify the persistence name using <a href="https://msdn.microsoft.com/e43cc4a0-2ff4-42a2-ac60-78a884c37d75">IExplorerBrowser::SetPropertyBag</a>.
+To ensure the view state is perserved across sessions, specify the persistence name using <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowser-setpropertybag">IExplorerBrowser::SetPropertyBag</a>.
 
 
 
@@ -91,11 +91,11 @@ To ensure the view state is perserved across sessions, specify the persistence n
 
 
 
-<a href="https://msdn.microsoft.com/be00fe39-1add-412e-b88b-4b0b1404b19d">FOLDERSETTINGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-foldersettings">FOLDERSETTINGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/da2cf5d4-5a68-4d18-807b-b9d4e2712c10">IExplorerBrowser</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser">IExplorerBrowser</a>
  
 
  

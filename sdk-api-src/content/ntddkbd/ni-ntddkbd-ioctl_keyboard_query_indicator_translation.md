@@ -59,22 +59,22 @@ The IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION request returns information about
 
 ### -input-buffer
 
-<b>Parameters.DeviceIoControl.OutputBufferLength</b> is set to a value greater than or equal to the size, in bytes, of a device-specific <a href="https://msdn.microsoft.com/7ee6ab87-b8fa-4d2c-a51f-5a20ed836d6a">KEYBOARD_INDICATOR_TRANSLATION</a> structure. This structure includes a variable-sized array of INDICATOR_LIST members that is device-specific.
+<b>Parameters.DeviceIoControl.OutputBufferLength</b> is set to a value greater than or equal to the size, in bytes, of a device-specific <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_indicator_translation">KEYBOARD_INDICATOR_TRANSLATION</a> structure. This structure includes a variable-sized array of INDICATOR_LIST members that is device-specific.
 
 
 ### -input-buffer-length
 
- The size of a <a href="https://msdn.microsoft.com/7ee6ab87-b8fa-4d2c-a51f-5a20ed836d6a">KEYBOARD_INDICATOR_TRANSLATION</a> structure.
+ The size of a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_indicator_translation">KEYBOARD_INDICATOR_TRANSLATION</a> structure.
 
 
 ### -output-buffer
 
-<b>AssociatedIrp.SystemBuffer</b> points to a client-allocated buffer that I8042prt uses to output a <a href="https://msdn.microsoft.com/7ee6ab87-b8fa-4d2c-a51f-5a20ed836d6a">KEYBOARD_INDICATOR_TRANSLATION</a> structure. This structure includes a variable-sized array of INDICATOR_LIST members that is device-specific.
+<b>AssociatedIrp.SystemBuffer</b> points to a client-allocated buffer that I8042prt uses to output a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_indicator_translation">KEYBOARD_INDICATOR_TRANSLATION</a> structure. This structure includes a variable-sized array of INDICATOR_LIST members that is device-specific.
 
 
 ### -output-buffer-length
 
- The size of a <a href="https://msdn.microsoft.com/7ee6ab87-b8fa-4d2c-a51f-5a20ed836d6a">KEYBOARD_INDICATOR_TRANSLATION</a> structure.
+ The size of a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_indicator_translation">KEYBOARD_INDICATOR_TRANSLATION</a> structure.
 
 
 ### -in-out-buffer
@@ -119,19 +119,19 @@ The request completed successfully.
 
 
 
-<a href="https://msdn.microsoft.com/6119ca39-f740-4c8a-a7f1-eb6f30624093">IOCTL_KEYBOARD_QUERY_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_query_attributes">IOCTL_KEYBOARD_QUERY_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d70b34c-e201-40fc-99dd-cd05bdeec5f8">IOCTL_KEYBOARD_QUERY_INDICATORS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_query_indicators">IOCTL_KEYBOARD_QUERY_INDICATORS</a>
 
 
 
-<a href="https://msdn.microsoft.com/0c19670b-0440-4a7a-ad87-a97d3da28e74">IOCTL_KEYBOARD_QUERY_TYPEMATIC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_query_typematic">IOCTL_KEYBOARD_QUERY_TYPEMATIC</a>
 
 
 
-<a href="https://msdn.microsoft.com/7ee6ab87-b8fa-4d2c-a51f-5a20ed836d6a">KEYBOARD_INDICATOR_TRANSLATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_indicator_translation">KEYBOARD_INDICATOR_TRANSLATION</a>
  
 
  

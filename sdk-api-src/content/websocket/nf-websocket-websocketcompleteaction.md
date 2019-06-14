@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>WebSocketCompleteAction</b> function  completes an action started by <a href="https://msdn.microsoft.com/566cff2d-15dd-45c6-bc41-550be1f45cfd">WebSocketGetAction</a>.
+The <b>WebSocketCompleteAction</b> function  completes an action started by <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketgetaction">WebSocketGetAction</a>.
 
 
 ## -parameters
@@ -59,23 +59,23 @@ The <b>WebSocketCompleteAction</b> function  completes an action started by <a h
 
 ### -param hWebSocket [in]
 
-Type: <b><a href="https://msdn.microsoft.com/D5D42785-CFAC-4324-9194-1BA8056FBAA1">WEB_SOCKET_HANDLE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WebSock/web-socket-protocol-component-api-data-types">WEB_SOCKET_HANDLE</a></b>
 
-WebSocket session handle returned by a previous call to <a href="https://msdn.microsoft.com/c61992cc-7715-4fad-a66a-916402088ad0">WebSocketCreateClientHandle</a> or <a href="https://msdn.microsoft.com/f8c44a86-c586-48e3-b948-ed119bebf951">WebSocketCreateServerHandle</a>.
+WebSocket session handle returned by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketcreateclienthandle">WebSocketCreateClientHandle</a> or <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketcreateserverhandle">WebSocketCreateServerHandle</a>.
 
 
 ### -param pvActionContext [in]
 
 Type: <b>PVOID</b>
 
-Pointer to an action context handle that was returned by a previous call to <a href="https://msdn.microsoft.com/566cff2d-15dd-45c6-bc41-550be1f45cfd">WebSocketGetAction</a>.
+Pointer to an action context handle that was returned by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketgetaction">WebSocketGetAction</a>.
 
 
 ### -param ulBytesTransferred [in]
 
 Type: <b>ULONG</b>
 
-Number of bytes transferred for the <a href="https://msdn.microsoft.com/46d22fb5-adc3-4d1c-81b8-480f1c6de327">WEB_SOCKET_SEND_TO_NETWORK_ACTION</a> or <b>WEB_SOCKET_RECEIVE_FROM_NETWORK_ACTION</b> actions. This value must be 0 for all other actions.
+Number of bytes transferred for the <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-_web_socket_action">WEB_SOCKET_SEND_TO_NETWORK_ACTION</a> or <b>WEB_SOCKET_RECEIVE_FROM_NETWORK_ACTION</b> actions. This value must be 0 for all other actions.
 
 
 ## -returns
@@ -84,7 +84,7 @@ Number of bytes transferred for the <a href="https://msdn.microsoft.com/46d22fb5
 
 If the function succeeds, it returns <b>S_OK</b>.
 
-If the function fails, it returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> defined in WinError.h.
+If the function fails, it returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> defined in WinError.h.
 
 
 
@@ -93,14 +93,14 @@ If the function fails, it returns a <a href="https://msdn.microsoft.com/4a3a8feb
 
 
 
-Each call to <a href="https://msdn.microsoft.com/566cff2d-15dd-45c6-bc41-550be1f45cfd">WebSocketGetAction</a> must be paired with a call to <b>WebSocketCompleteAction</b>. For the following network actions, I/O errors can occur:
+Each call to <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketgetaction">WebSocketGetAction</a> must be paired with a call to <b>WebSocketCompleteAction</b>. For the following network actions, I/O errors can occur:
 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/46d22fb5-adc3-4d1c-81b8-480f1c6de327">WEB_SOCKET_SEND_TO_NETWORK_ACTION</a>: if <i>ulBytesTransferred</i> is different than the sum all buffer lengths returned from <a href="https://msdn.microsoft.com/566cff2d-15dd-45c6-bc41-550be1f45cfd">WebSocketGetAction</a> the current send action is canceled and the next call to <b>WebSocketGetAction</b> will return <b>WEB_SOCKET_INDICATE_SEND_COMPLETE_ACTION</b> even if not all buffers passed to <a href="https://msdn.microsoft.com/289f3880-22ed-44f8-8a69-1c983153ea72">WebSocketSend</a> were processed.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-_web_socket_action">WEB_SOCKET_SEND_TO_NETWORK_ACTION</a>: if <i>ulBytesTransferred</i> is different than the sum all buffer lengths returned from <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketgetaction">WebSocketGetAction</a> the current send action is canceled and the next call to <b>WebSocketGetAction</b> will return <b>WEB_SOCKET_INDICATE_SEND_COMPLETE_ACTION</b> even if not all buffers passed to <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketsend">WebSocketSend</a> were processed.</li>
 <li>
-<a href="https://msdn.microsoft.com/46d22fb5-adc3-4d1c-81b8-480f1c6de327">WEB_SOCKET_RECEIVE_FROM_NETWORK_ACTION</a>: if <i>ulBytesTransferred</i> is 0, the current receive action is canceled and the next call to <a href="https://msdn.microsoft.com/566cff2d-15dd-45c6-bc41-550be1f45cfd">WebSocketGetAction</a> will return <b>WEB_SOCKET_INDICATE_RECEIVE_COMPLETE_ACTION</b> even if not all buffers passed to <a href="https://msdn.microsoft.com/6285c6fc-1f7a-45f3-ba28-94992e73693e">WebSocketReceive</a> were processed.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-_web_socket_action">WEB_SOCKET_RECEIVE_FROM_NETWORK_ACTION</a>: if <i>ulBytesTransferred</i> is 0, the current receive action is canceled and the next call to <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketgetaction">WebSocketGetAction</a> will return <b>WEB_SOCKET_INDICATE_RECEIVE_COMPLETE_ACTION</b> even if not all buffers passed to <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketreceive">WebSocketReceive</a> were processed.</li>
 </ul>
 
 
@@ -110,11 +110,11 @@ Each call to <a href="https://msdn.microsoft.com/566cff2d-15dd-45c6-bc41-550be1f
 
 
 
-<a href="https://msdn.microsoft.com/46d22fb5-adc3-4d1c-81b8-480f1c6de327">WEB_SOCKET_ACTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-_web_socket_action">WEB_SOCKET_ACTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/566cff2d-15dd-45c6-bc41-550be1f45cfd">WebSocketGetAction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketgetaction">WebSocketGetAction</a>
  
 
  

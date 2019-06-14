@@ -51,14 +51,14 @@ ms.custom: 19H1
 
 The 
 <b>IEnumAgentHandler</b> interface provides COM-standard enumeration methods for the 
-<a href="https://msdn.microsoft.com/11861d77-39ad-4d85-bf68-ba0f4321ba7c">ITAgentHandler</a> interface. The 
-<a href="https://msdn.microsoft.com/5bd0a926-0d99-4efe-a995-28654c97c97a">ITTAPICallCenter::EnumerateAgentHandlers</a> method returns a pointer to 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagenthandler">ITAgentHandler</a> interface. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ittapicallcenter-enumerateagenthandlers">ITTAPICallCenter::EnumerateAgentHandlers</a> method returns a pointer to 
 <b>IEnumAgentHandler</b>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumAgentHandler</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnumAgentHandler</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumAgentHandler</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumAgentHandler</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IEnumAgentHandler</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a7358d0d-6d5a-4845-a212-d278a8d2b7fe">Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ienumagenthandler-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates another enumerator that contains the same enumeration state as the current one.
@@ -82,7 +82,7 @@ Creates another enumerator that contains the same enumeration state as the curre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0e6a7db0-c339-4a36-aea8-e3f9f2d5cd09">Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ienumagenthandler-next">Next</a>
 </td>
 <td align="left" width="63%">
 Gets the next specified number of elements in the enumeration sequence.
@@ -91,7 +91,7 @@ Gets the next specified number of elements in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cb113db5-718d-4c5e-92ad-4eb605911c71">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ienumagenthandler-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets to the beginning of the enumeration sequence.
@@ -100,7 +100,7 @@ Resets to the beginning of the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cf6b7003-13f1-4203-b341-2c9796cffdd2">Skip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ienumagenthandler-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over the next specified number of elements in the enumeration sequence.

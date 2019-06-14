@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Contains the possible change events that are used by the 
-    <a href="https://msdn.microsoft.com/f317f162-49b2-43df-a298-e2de707e089a">FILESHARE_CHANGE</a> structure to describe an entry in a 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-_fileshare_change">FILESHARE_CHANGE</a> structure to describe an entry in a 
     file share event notification list.
 
 
@@ -96,11 +96,11 @@ One or more properties of an existing file share resource have been changed.
 
 
 
-<a href="https://msdn.microsoft.com/f317f162-49b2-43df-a298-e2de707e089a">FILESHARE_CHANGE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-_fileshare_change">FILESHARE_CHANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
  
 
  

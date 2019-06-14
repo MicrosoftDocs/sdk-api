@@ -221,11 +221,11 @@ If the function fails, the return value is zero. No extended error information i
 
 This function allows a process to use fonts without allowing other processes access to the fonts.
 
-When an application no longer needs a font resource it loaded by calling the <b>AddFontResourceEx</b> function, it must remove the resource by calling the <a href="https://msdn.microsoft.com/18056fe7-1efe-428e-a828-3217c53371eb">RemoveFontResourceEx</a> function.
+When an application no longer needs a font resource it loaded by calling the <b>AddFontResourceEx</b> function, it must remove the resource by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-removefontresourceexa">RemoveFontResourceEx</a> function.
 
 This function installs the font only for the current session. When the system restarts, the font will not be present. To have the font installed even after restarting the system, the font must be listed in the registry.
 
-A font listed in the registry and installed to a location other than the %windir%\fonts\ folder cannot be modified, deleted, or replaced as long as it is loaded in any session. In order to change one of these fonts, it must first be removed by calling <a href="https://msdn.microsoft.com/ccc0ac8b-e373-47a9-a362-64fd79a33d0c">RemoveFontResource</a>, removed from the font registry (<b>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts</b>), and the system restarted. After restarting the system, the font will no longer be loaded and can be changed.
+A font listed in the registry and installed to a location other than the %windir%\fonts\ folder cannot be modified, deleted, or replaced as long as it is loaded in any session. In order to change one of these fonts, it must first be removed by calling <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-removefontresourcea">RemoveFontResource</a>, removed from the font registry (<b>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts</b>), and the system restarted. After restarting the system, the font will no longer be loaded and can be changed.
 
 
 
@@ -235,20 +235,20 @@ A font listed in the registry and installed to a location other than the %windir
 
 
 
-<a href="https://msdn.microsoft.com/69c04ed7-52da-4cb6-9fd2-f2a8c044df8b">Font and Text Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9944baa9-8e50-40b9-9650-78b0b1d7643a">Fonts and Text Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/18056fe7-1efe-428e-a828-3217c53371eb">RemoveFontResourceEx
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-removefontresourceexa">RemoveFontResourceEx
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms714170(v=VS.85).aspx">SendMessage</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/oe/oe-ihttpmailtransport-sendmessage">SendMessage</a>
  
 
  

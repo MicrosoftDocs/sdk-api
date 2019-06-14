@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndNew</b> macro creates a new file for the current MCI device. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/18b2340d-8303-415a-867f-bd346034db2a">MCIWNDM_NEW</a> message.
+The <b>MCIWndNew</b> macro creates a new file for the current MCI device. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-new">MCIWNDM_NEW</a> message.
 
 
 
@@ -75,7 +75,7 @@ Pointer to a buffer containing the name of the MCI device that will use the file
 
 
 
-<a href="https://msdn.microsoft.com/18b2340d-8303-415a-867f-bd346034db2a">MCIWNDM_NEW</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-new">MCIWNDM_NEW</a>
  
 
  

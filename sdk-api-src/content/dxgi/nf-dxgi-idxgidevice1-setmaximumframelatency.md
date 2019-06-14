@@ -60,7 +60,7 @@ Sets the number of frames that the system is allowed to queue for rendering.
 
 ### -param MaxLatency
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The maximum number of back buffer frames that a driver can queue. The value defaults to 3, but 
       can range from 1 to 16. A value of 0 will reset latency to the default.  For multi-head devices, this value is specified per-head.
@@ -70,7 +70,7 @@ The maximum number of back buffer frames that a driver can queue. The value defa
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 Returns S_OK if successful; otherwise, DXGI_ERROR_DEVICE_REMOVED if the device was removed.
 
@@ -96,15 +96,15 @@ Frame latency is the number of frames that are allowed to be stored in a queue b
 
 
 
-<a href="https://msdn.microsoft.com/b561b26b-961c-4d5e-8483-56b51b989bf7">DXGI Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0ba0fa3-489a-4eff-9e49-b231ab472ee4">IDXGIDevice1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgidevice1">IDXGIDevice1</a>
 
 
 
-<a href="https://msdn.microsoft.com/87b98c47-3556-4588-97b2-c935d7052286">IDXGIDevice1::GetMaximumFrameLatency</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgidevice1-getmaximumframelatency">IDXGIDevice1::GetMaximumFrameLatency</a>
  
 
  

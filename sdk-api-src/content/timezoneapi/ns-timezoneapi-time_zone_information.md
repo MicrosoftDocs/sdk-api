@@ -72,13 +72,13 @@ This member is required.
 ### -field StandardName
 
 A description for standard time. For example, "EST" could indicate Eastern Standard Time. The string will be  returned unchanged by the 
-<a href="https://msdn.microsoft.com/3d7601a5-6d22-4b1a-a222-9db46d21a3c7">GetTimeZoneInformation</a> function. This string can be empty.
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-gettimezoneinformation">GetTimeZoneInformation</a> function. This string can be empty.
 
 
 ### -field StandardDate
 
 A 
-<a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure that contains a date and local time when the transition from daylight saving time to standard time occurs on this operating system. If the time zone does not support daylight saving time or if the caller needs to disable daylight saving time, the <b>wMonth</b> member in the 
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that contains a date and local time when the transition from daylight saving time to standard time occurs on this operating system. If the time zone does not support daylight saving time or if the caller needs to disable daylight saving time, the <b>wMonth</b> member in the 
 <b>SYSTEMTIME</b> structure must be zero. If this date is specified, the <b>DaylightDate</b> member of this structure must also be specified. 
 
 
@@ -104,13 +104,13 @@ This value is added to the value of the <b>Bias</b> member to form the bias used
 ### -field DaylightName
 
 A description for daylight saving time. For example, "PDT" could indicate Pacific Daylight Time. The string will be  returned unchanged by the 
-<a href="https://msdn.microsoft.com/3d7601a5-6d22-4b1a-a222-9db46d21a3c7">GetTimeZoneInformation</a> function. This string can be empty.
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-gettimezoneinformation">GetTimeZoneInformation</a> function. This string can be empty.
 
 
 ### -field DaylightDate
 
 A 
-<a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure that contains a date and local time when the transition from standard time to daylight saving time occurs on this operating system. If the time zone does not support daylight saving time or if the caller needs to disable daylight saving time, the <b>wMonth</b> member in the 
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that contains a date and local time when the transition from standard time to daylight saving time occurs on this operating system. If the time zone does not support daylight saving time or if the caller needs to disable daylight saving time, the <b>wMonth</b> member in the 
 <b>SYSTEMTIME</b> structure must be zero. If this date is specified, the <b>StandardDate</b> member in this structure must also be specified. 
 
 
@@ -168,7 +168,7 @@ Each time zone entry includes the following registry values.
 <tr>
 <td><b>MUI_Display</b></td>
 <td>REG_SZ</td>
-<td>The display name as a string of the form @<i>path</i>,<i>-stringID</i>[;<i>comment</i>]. For more information, see <a href="https://msdn.microsoft.com/2980365c-5a83-4c0f-aa37-e212ec9f0408">MUI</a>.</td>
+<td>The display name as a string of the form @<i>path</i>,<i>-stringID</i>[;<i>comment</i>]. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface">MUI</a>.</td>
 </tr>
 <tr>
 <td><b>MUI_Dlt</b></td>
@@ -205,14 +205,14 @@ The following time zone information.
 </table>
  
 
-For more information about the <b>Dynamic DST</b> key, see <a href="https://msdn.microsoft.com/d60b1212-26bc-4fad-afce-9bd9062ca5b0">DYNAMIC_TIME_ZONE_INFORMATION</a>.
+For more information about the <b>Dynamic DST</b> key, see <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-dynamic_time_zone_information">DYNAMIC_TIME_ZONE_INFORMATION</a>.
 
  Both <b>StandardName</b> and <b>DaylightName</b> are localized according to the current user default UI language.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/afb13501-3a87-433a-a05e-139103060109">SetTimeZoneInformation</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-settimezoneinformation">SetTimeZoneInformation</a>.
 
 <div class="code"></div>
 
@@ -223,19 +223,19 @@ For an example, see <a href="https://msdn.microsoft.com/afb13501-3a87-433a-a05e-
 
 
 
-<a href="https://msdn.microsoft.com/d60b1212-26bc-4fad-afce-9bd9062ca5b0">DYNAMIC_TIME_ZONE_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-dynamic_time_zone_information">DYNAMIC_TIME_ZONE_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d7601a5-6d22-4b1a-a222-9db46d21a3c7">GetTimeZoneInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-gettimezoneinformation">GetTimeZoneInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a>
 
 
 
-<a href="https://msdn.microsoft.com/afb13501-3a87-433a-a05e-139103060109">SetTimeZoneInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-settimezoneinformation">SetTimeZoneInformation</a>
  
 
  

@@ -72,11 +72,11 @@ Use the receive window as a data cache.
 
 
 
-<a href="https://msdn.microsoft.com/81c203ed-739f-4a06-99a1-9a99c6164edc">Reliable Multicast Programming</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/reliable-multicast-programming--pgm-">Reliable Multicast Programming</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2831f76-4499-45b6-bc60-2908ec3a246c">Socket
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/socket-options">Socket
   Options</a>
  
 

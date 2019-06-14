@@ -59,7 +59,7 @@ Contains different levels of policy-related settings for a remote desktop connec
 
 ### -field WRdsSettings1
 
-A <a href="https://msdn.microsoft.com/47100A84-49F4-4FF1-8CCB-731638F27C4F">WRDS_SETTINGS_1</a> structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wrds_settings_1">WRDS_SETTINGS_1</a> structure.
 
 
 ### -field WRdsSettings1.case

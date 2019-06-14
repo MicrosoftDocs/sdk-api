@@ -51,22 +51,22 @@ ms.custom: 19H1
 
 The 
 <b>CMSPCallBase</b> class provides a generic implementation of the call object. It supports the 
-<a href="https://msdn.microsoft.com/12b9457a-7afb-4348-93a2-28728c673929">ITStreamControl</a> interface. It serves as a simple base class that maintains the stream list. This class is defined in MSPcall.h.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstreamcontrol">ITStreamControl</a> interface. It serves as a simple base class that maintains the stream list. This class is defined in MSPcall.h.
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/a3193639-e0c4-4851-a879-551eca8023f9">CMSPCallBase Members</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspcallbase-members">CMSPCallBase Members</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/9483bf1f-b40a-4e34-84f2-1892d3194b38">CMSPCallBase MSPI Methods Implemented</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspcallbase-mspi-methods-implemented">CMSPCallBase MSPI Methods Implemented</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/1545868b-c19d-46ca-9efa-aa37b5279617">CMSPCallBase Public Methods, Called By MSPAddress Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspcallbase-public-methods-called-by-mspaddress-object">CMSPCallBase Public Methods, Called By MSPAddress Object</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/d43a44ab-9909-477c-8d23-f5b8817111e6">CMSPCallBase Public Methods, Called by MSPStream Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspcallbase-public-methods-called-by-mspstream-object">CMSPCallBase Public Methods, Called by MSPStream Object</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/2ea9d35a-c87e-44f4-8dc6-618251c81fe4">CMSPCallBase Pure Virtual Methods</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspcallbase-pure-virtual-methods">CMSPCallBase Pure Virtual Methods</a>
 </li>
 </ul><b xmlns:loc="http://microsoft.com/wdcml/l10n">CMSPCallBase</b> has these types of members:
 

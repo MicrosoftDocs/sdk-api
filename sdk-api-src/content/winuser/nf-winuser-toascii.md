@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 Translates the specified virtual-key code and keyboard state to the corresponding character or characters. The function translates the code using the input language and physical keyboard layout identified by the keyboard layout handle.
 
-To specify a handle to the keyboard layout to use to translate the specified code, use the <a href="https://msdn.microsoft.com/en-us/library/ms646318(v=VS.85).aspx">ToAsciiEx</a> function.
+To specify a handle to the keyboard layout to use to translate the specified code, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-toasciiex">ToAsciiEx</a> function.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ To specify a handle to the keyboard layout to use to translate the specified cod
 
 Type: <b>UINT</b>
 
-The virtual-key code to be translated. See <a href="https://msdn.microsoft.com/en-us/library/Dd375731(v=VS.85).aspx">Virtual-Key Codes</a>.
+The virtual-key code to be translated. See <a href="https://docs.microsoft.com/windows/desktop/inputdev/virtual-key-codes">Virtual-Key Codes</a>.
 
 
 ### -param uScanCode [in]
@@ -176,11 +176,11 @@ Although NUM LOCK is a toggle key that affects keyboard behavior, <b>ToAscii</b>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646308(v=VS.85).aspx">OemKeyScan</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-oemkeyscan">OemKeyScan</a>
 
 
 
@@ -188,15 +188,15 @@ Although NUM LOCK is a toggle key that affects keyboard behavior, <b>ToAscii</b>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646318(v=VS.85).aspx">ToAsciiEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-toasciiex">ToAsciiEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646320(v=VS.85).aspx">ToUnicode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-tounicode">ToUnicode</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646329(v=VS.85).aspx">VkKeyScan</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-vkkeyscana">VkKeyScan</a>
  
 
  

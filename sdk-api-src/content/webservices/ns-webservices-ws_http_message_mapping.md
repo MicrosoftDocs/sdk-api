@@ -109,13 +109,13 @@ A message may contain additional transport-specific information that is
             
 
 Each mapped header is stored as regular header element
-                in the headers of the message (see <a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_HEADER_BUFFER</a>).
+                in the headers of the message (see <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_property_id">WS_MESSAGE_PROPERTY_HEADER_BUFFER</a>).
                 The empty XML namespace ("") is used for mapped headers.
             
 
 This structure specifies how the mapping occurs between an HTTP request
                 or response and the mapped headers of the message object.  The structure
-                can be specified using the <a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf">WS_CHANNEL_PROPERTY_HTTP_MESSAGE_MAPPING</a>property.
+                can be specified using the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_HTTP_MESSAGE_MAPPING</a>property.
             
 
 The following diagram shows how HTTP headers are mapped into
@@ -127,12 +127,12 @@ The following diagram shows how HTTP headers are mapped into
 When a message is received, the HTTP channel
                 will automatically copy the specified HTTP headers from the request
                 or response to the headers of the message object.  The application
-                can then use <a href="https://msdn.microsoft.com/abdff5ca-fb0d-4867-b729-5cfe18520f80">WsGetMappedHeader</a> to get the values of
+                can then use <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetmappedheader">WsGetMappedHeader</a> to get the values of
                 the mapped headers.
             
 
 Before a message is sent, an application can add mapped headers
-                to the message object using <a href="https://msdn.microsoft.com/f91dac8e-606e-4a9f-a598-8f8136c6b386">WsAddMappedHeader</a>.
+                to the message object using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsaddmappedheader">WsAddMappedHeader</a>.
                 When the message is sent, the HTTP channel will automatically
                 remove the specified headers from the headers of message object (so they
                 do not appear inside the envelope), and add them as HTTP
@@ -141,15 +141,15 @@ Before a message is sent, an application can add mapped headers
 
 The HTTP channel will only perform this mapping for HTTP headers
                 that have been specified in the requestHeaderMappings or
-                responseHeaderMappings fields.  The <a href="https://msdn.microsoft.com/bca1f244-4692-42bb-bbd7-c96647038a06">WS_HTTP_HEADER_MAPPING</a>is used to specify each header, and includes instructions about how
+                responseHeaderMappings fields.  The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_http_header_mapping">WS_HTTP_HEADER_MAPPING</a>is used to specify each header, and includes instructions about how
                 the message header is transformed to/from an HTTP header.
             
 
 Other information in an HTTP request or response that does not correspond
                 to HTTP headers can be mapped into header of the message object by setting the 
                 requestMappingOptions or responseMappingOptions.  These mapped values can then be
-                extracted using <a href="https://msdn.microsoft.com/abdff5ca-fb0d-4867-b729-5cfe18520f80">WsGetMappedHeader</a>.  
-                See <a href="https://msdn.microsoft.com/751bed07-a570-442a-b48a-5fae2d19ad8a">WS_HTTP_REQUEST_MAPPING_OPTIONS</a> or <a href="https://msdn.microsoft.com/9990496a-4410-4a40-8466-d32a8025c2e3">WS_HTTP_RESPONSE_MAPPING_OPTIONS</a> 
+                extracted using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetmappedheader">WsGetMappedHeader</a>.  
+                See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_3">WS_HTTP_REQUEST_MAPPING_OPTIONS</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_2">WS_HTTP_RESPONSE_MAPPING_OPTIONS</a> 
                 for information about what information can be mapped into message headers.
             
 

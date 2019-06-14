@@ -55,7 +55,7 @@ ms.custom: 19H1
 <div> </div>
 
 
-The <b>IMSVidXDSEvent</b> interface is used to receive events from the <a href="https://msdn.microsoft.com/30b9709e-8f37-4b74-ad96-6da48efaff32">MSVidXDS</a> object.
+The <b>IMSVidXDSEvent</b> interface is used to receive events from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd695263(v=vs.85)">MSVidXDS</a> object.
 
 This interface is an outgoing connection-point interface. To receive events from a playback device, implement this interface and then call the <b>IConnectionPoint::Advise</b> method to establish a connection.
 
@@ -64,7 +64,7 @@ This interface is an outgoing connection-point interface. To receive events from
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidXDSEvent</b> interface inherits from <a href="https://msdn.microsoft.com/821a5524-5811-417b-9604-0883315080eb">IMSVidFeatureEvent</a>. <b>IMSVidXDSEvent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidXDSEvent</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/segment/nn-segment-imsvidfeatureevent">IMSVidFeatureEvent</a>. <b>IMSVidXDSEvent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -79,7 +79,7 @@ The <b>IMSVidXDSEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694771(v=VS.85).aspx">RatingChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidxdsevent-ratingchange">RatingChange</a>
 </td>
 <td align="left" width="63%">
 Called when the current rating changes.
@@ -103,11 +103,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/821a5524-5811-417b-9604-0883315080eb">IMSVidFeatureEvent</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/segment/nn-segment-imsvidfeatureevent">IMSVidFeatureEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf6c3ce9-1e56-4109-93f1-5b313e6ca19b">Video Control Event Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Event Interfaces</a>
  
 
  

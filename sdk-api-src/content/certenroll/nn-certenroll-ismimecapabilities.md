@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ISmimeCapabilities</b> interface defines the following methods and properties to manage a collection of <a href="https://msdn.microsoft.com/3cfbb16f-88fa-41f1-b719-cd5e8ad636cc">ISmimeCapability</a> objects.
+The <b>ISmimeCapabilities</b> interface defines the following methods and properties to manage a collection of <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ismimecapability">ISmimeCapability</a> objects.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISmimeCapabilities</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ISmimeCapabilities</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISmimeCapabilities</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ISmimeCapabilities</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,16 +70,16 @@ The <b>ISmimeCapabilities</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8ad35758-0dc1-4887-aea7-b8ead537cab2">Add</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ismimecapabilities-add">Add</a>
 </td>
 <td align="left" width="63%">
-Adds an <a href="https://msdn.microsoft.com/3cfbb16f-88fa-41f1-b719-cd5e8ad636cc">ISmimeCapability</a> object to the collection.
+Adds an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ismimecapability">ISmimeCapability</a> object to the collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b3b087e7-9934-4d29-a516-db5bba824774">AddAvailableSmimeCapabilities</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ismimecapabilities-addavailablesmimecapabilities">AddAvailableSmimeCapabilities</a>
 </td>
 <td align="left" width="63%">
 Adds objects to the collection by identifying the encryption algorithms supported by the default RSA cryptographic provider.
@@ -88,7 +88,7 @@ Adds objects to the collection by identifying the encryption algorithms supporte
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a4244a4e-6ec3-4c1f-a0d6-607cc942b5f5">AddFromCsp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ismimecapabilities-addfromcsp">AddFromCsp</a>
 </td>
 <td align="left" width="63%">
 Adds objects to the collection by identifying the encryption algorithms supported by a specific provider.
@@ -97,7 +97,7 @@ Adds objects to the collection by identifying the encryption algorithms supporte
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8df8eecd-c20f-40f0-a647-23d25ca76ae4">Clear</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ismimecapabilities-clear">Clear</a>
 </td>
 <td align="left" width="63%">
 Removes all objects from the collection.
@@ -106,7 +106,7 @@ Removes all objects from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/516726cc-f7b9-4813-999f-036694322fe5">Remove</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ismimecapabilities-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an object from the collection by index value.
@@ -123,7 +123,7 @@ Removes an object from the collection by index value.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/f43b3aa4-81c5-411c-bd62-77513f9b7f68">_NewEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ismimecapabilities-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -135,7 +135,7 @@ Retrieves the enumerator for the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/5e0ee42f-10aa-45d8-b6c0-16ee0149dec6">Count</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ismimecapabilities-get_count">Count</a>
 
 
 </td>
@@ -147,7 +147,7 @@ Retrieves the number of objects in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/fbb51882-4b56-4648-a0ca-0c93311cebbd">ItemByIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ismimecapabilities-get_itembyindex">ItemByIndex</a>
 
 
 </td>
@@ -164,7 +164,7 @@ Retrieves an object from the collection by index number.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

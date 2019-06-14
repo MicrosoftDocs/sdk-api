@@ -54,7 +54,7 @@ Enumerates the components of a moniker or the monikers in a table of monikers.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumMoniker</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IEnumMoniker</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumMoniker</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumMoniker</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IEnumMoniker</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6238e556-9ef4-42c7-95ba-12468cec6b52">Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienummoniker-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a new enumerator that contains the same enumeration state as the current one.
@@ -78,7 +78,7 @@ Creates a new enumerator that contains the same enumeration state as the current
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ab4fd626-bddc-42b4-b279-b89d1f79b1e1">Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienummoniker-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified number of items in the enumeration sequence.
@@ -87,7 +87,7 @@ Retrieves the specified number of items in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0b7c74b4-cbcb-44cc-8bea-feb55abb5643">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienummoniker-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning.
@@ -96,7 +96,7 @@ Resets the enumeration sequence to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/90df5bc4-6bb0-44bf-b675-d4a93d4680ce">Skip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienummoniker-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over the specified number of items in the enumeration sequence.
@@ -111,11 +111,11 @@ Skips over the specified number of items in the enumeration sequence.
 
 
 
-<a href="https://msdn.microsoft.com/7e2e4d92-d5dd-4294-944e-8b1e88901ee1">IMoniker::Enum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-enum">IMoniker::Enum</a>
 
 
 
-<a href="https://msdn.microsoft.com/09ff0d05-627b-4e47-8534-25cd8735c6e5">IRunningObjectTable::EnumRunning</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-enumrunning">IRunningObjectTable::EnumRunning</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains flags that define the behavior of the <a href="https://msdn.microsoft.com/cb492e68-3d8a-49b2-8c0b-bee8065b53a8">MFCreatePMPMediaSession</a> function.
+Contains flags that define the behavior of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatepmpmediasession">MFCreatePMPMediaSession</a> function.
         
 
 
@@ -73,7 +73,7 @@ If this flag is set, the Protected Media Path (PMP) Media Session is created in 
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

@@ -53,8 +53,8 @@ The
 <b>GenerateTone</b> method generates the specified tone.
 
 To generate custom tones, call the 
-<a href="https://msdn.microsoft.com/fcc5d3c9-a7ab-4467-a948-b9fd68afe7b4">GenerateCustomTones</a> (C/C++) or the 
-<a href="https://msdn.microsoft.com/5115192e-68de-4779-92dc-7cf63585faae">GenerateCustomTonesByCollection</a> method (Visual Basic and scripting applications).
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-generatecustomtones">GenerateCustomTones</a> (C/C++) or the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-generatecustomtonesbycollection">GenerateCustomTonesByCollection</a> method (Visual Basic and scripting applications).
 
 
 ## -parameters
@@ -65,7 +65,7 @@ To generate custom tones, call the
 ### -param ToneMode [in]
 
 Indicates the tone mode. The values used are those from the 
-<a href="https://msdn.microsoft.com/eeae9d4a-824c-4316-8eb3-846563ac4a54">TAPI_TONEMODE</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-tapi_tonemode">TAPI_TONEMODE</a> enumeration.
 
 
 ### -param lDuration [in]
@@ -128,7 +128,7 @@ The call must be in the <i>connected</i> state.
 
 
 This method translates to a call to the TAPI 2.<i>x</i>
-<a href="https://msdn.microsoft.com/d5975bd0-2406-45a8-9631-80f40a860204">lineGenerateTone</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegeneratetone">lineGenerateTone</a> function.
 
 When tone generation finishes, an event of type TE_GENERATEEVENT is generated.
 
@@ -140,7 +140,7 @@ When tone generation finishes, an event of type TE_GENERATEEVENT is generated.
 
 
 
-<a href="https://msdn.microsoft.com/47fa5669-1c74-4c18-8370-3efe35b3573e">ITLegacyCallMediaControl2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itlegacycallmediacontrol2">ITLegacyCallMediaControl2</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used by an <a href="https://msdn.microsoft.com/63b71cd2-483b-482f-b3f4-6d5c937e7708">IEnumExtraSearch</a> enumerator object to return information on the search objects supported by a Shell Folder object.
+Used by an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumextrasearch">IEnumExtraSearch</a> enumerator object to return information on the search objects supported by a Shell Folder object.
 
 
 ## -struct-fields

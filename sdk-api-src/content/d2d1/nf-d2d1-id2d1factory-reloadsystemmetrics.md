@@ -63,7 +63,7 @@ Forces the factory to refresh any system defaults that it might have changed sin
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -74,7 +74,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-You should call this method before calling the <a href="https://msdn.microsoft.com/dd46252b-80eb-42c2-a2b4-5c49ef124bd5">GetDesktopDpi</a> method, to ensure that the system DPI is current.
+You should call this method before calling the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-getdesktopdpi">GetDesktopDpi</a> method, to ensure that the system DPI is current.
 
 
 
@@ -84,11 +84,11 @@ You should call this method before calling the <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/dd46252b-80eb-42c2-a2b4-5c49ef124bd5">GetDesktopDpi</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-getdesktopdpi">GetDesktopDpi</a>
 
 
 
-<a href="https://msdn.microsoft.com/cef6115c-98e8-49e6-b419-271b43ce2938">ID2D1Factory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>
  
 
  

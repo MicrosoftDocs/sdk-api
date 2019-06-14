@@ -69,7 +69,7 @@ The name of the event. This must be a string literal and not a variable. It cann
 
 #### - args [in, optional]
 
-Additional parameters added to the event. Up to 99 optional parameters may be specified. All parameters must be wrapper from <a href="https://msdn.microsoft.com/806F43F3-D376-4DBD-A4C5-B5F01E5D009D">TraceLogging Wrapper Macros</a>.
+Additional parameters added to the event. Up to 99 optional parameters may be specified. All parameters must be wrapper from <a href="https://docs.microsoft.com/windows/desktop/tracelogging/tracelogging-wrapper-macros">TraceLogging Wrapper Macros</a>.
 
 
 ## -remarks

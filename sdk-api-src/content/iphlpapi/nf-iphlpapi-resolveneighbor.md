@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>ResolveNeighbor</b> is no longer available for use as of Windows Vista. Instead, use <a href="https://msdn.microsoft.com/37f9dc58-362d-413e-a593-4dda52fb7d8b">ResolveIpNetEntry2</a>.]
+<p class="CCE_Message">[<b>ResolveNeighbor</b> is no longer available for use as of Windows Vista. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-resolveipnetentry2">ResolveIpNetEntry2</a>.]
 
 The 
 <b>ResolveNeighbor</b> function  resolves the physical address for a neighbor IP address entry on the local computer.
@@ -62,7 +62,7 @@ The
 
 ### -param NetworkAddress [in]
 
-A pointer to a   <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">SOCKADDR</a> structure that contains the neighbor IP address entry and address family.
+A pointer to a   <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">SOCKADDR</a> structure that contains the neighbor IP address entry and address family.
 
 
 ### -param PhysicalAddress [out]
@@ -109,11 +109,11 @@ The request is not supported.
 
 
 
-<a href="https://msdn.microsoft.com/37f9dc58-362d-413e-a593-4dda52fb7d8b">ResolveIpNetEntry2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-resolveipnetentry2">ResolveIpNetEntry2</a>
 
 
 
-<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">SOCKADDR</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">SOCKADDR</a>
  
 
  

@@ -83,7 +83,7 @@ Pointer to a protocol name. This can be <b>NULL</b>, in which case
 ### -param buf [out]
 
 Pointer to the data area to receive the 
-<a href="https://msdn.microsoft.com/8696b854-4d37-4d1b-8383-169b5dc7a2ae">servent</a> data. The data area must be larger than the size of a 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/ns-winsock-servent">servent</a> data. The data area must be larger than the size of a 
 <b>servent</b> structure because the data area is used by Windows Sockets to contain a 
 <b>servent</b> structure and all of the data that is referenced by members of the 
 <b>servent</b> structure. A buffer of MAXGETHOSTSTRUCT bytes is recommended.
@@ -102,10 +102,10 @@ The return value specifies whether or not the asynchronous operation was success
 
 If no error occurs, 
 <b>WSAAsyncGetServByName</b> returns a nonzero value of type <b>HANDLE</b> that is the asynchronous task handle for the request (not to be confused with a Windows HTASK). This value can be used in two ways. It can be used to cancel the operation using 
-<a href="https://msdn.microsoft.com/0e53eccf-ef85-43ec-a02c-12896471a7a9">WSACancelAsyncRequest</a>, or it can be used to match up asynchronous operations and completion messages, by examining the <i>wParam</i> message parameter.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsacancelasyncrequest">WSACancelAsyncRequest</a>, or it can be used to match up asynchronous operations and completion messages, by examining the <i>wParam</i> message parameter.
 
 If the asynchronous operation could not be initiated, <b>WSAAsyncServByName</b> returns a zero value, and a specific error number can be retrieved by calling 
-<a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
 
 The following error codes can be set when an application window receives a message. As described above, they can be extracted from the <i>lParam</i> in the reply message using the <b>WSAGETASYNCERROR</b> macro.
 
@@ -117,7 +117,7 @@ The following error codes can be set when an application window receives a messa
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -128,7 +128,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -139,7 +139,7 @@ Insufficient buffer space is available.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -150,7 +150,7 @@ The <i>buf</i> parameter is not in a valid part of the process address space.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAHOST_NOT_FOUND</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAHOST_NOT_FOUND</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -161,7 +161,7 @@ Authoritative answer host not found.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSATRY_AGAIN</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSATRY_AGAIN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -172,7 +172,7 @@ Nonauthoritative service not found, or server failure.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANO_RECOVERY</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -183,7 +183,7 @@ Nonrecoverable errors, the services database is not accessible.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANO_DATA</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_DATA</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -202,20 +202,20 @@ The following errors can occur at the time of the function call, and indicate th
 <th>Meaning</th>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></td>
 <td>A successful 
-<a href="https://msdn.microsoft.com/08299592-867c-491d-9769-d16602133659">WSAStartup</a> call must occur before using this function.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> call must occur before using this function.</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETDOWN</a></td>
 <td>The network subsystem has failed.</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINPROGRESS</a></td>
 <td>A blocking Windows Sockets 1.1 call is in progress, or the service provider is still processing a callback function.</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEWOULDBLOCK</a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEWOULDBLOCK</a></td>
 <td>The asynchronous operation cannot be scheduled at this time due to resource or other constraints within the Windows Sockets implementation.</td>
 </tr>
 </table>
@@ -230,20 +230,20 @@ The following errors can occur at the time of the function call, and indicate th
 
 The 
 <b>WSAAsyncGetServByName</b> function is an asynchronous version of 
-<a href="https://msdn.microsoft.com/730fa372-f620-4d21-99b9-3e7b79932792">getservbyname</a> and is used to retrieve service information corresponding to a service name. Windows Sockets initiates the operation and returns to the caller immediately, passing back an opaque, asynchronous task handle that the application can use to identify the operation. When the operation is completed, the results (if any) are copied into the buffer provided by the caller and a message is sent to the application's window.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getservbyname">getservbyname</a> and is used to retrieve service information corresponding to a service name. Windows Sockets initiates the operation and returns to the caller immediately, passing back an opaque, asynchronous task handle that the application can use to identify the operation. When the operation is completed, the results (if any) are copied into the buffer provided by the caller and a message is sent to the application's window.
 
 When the asynchronous operation has completed, the application window indicated by the <i>hWnd</i> parameter receives message in the <i>wMsg</i> parameter. The <i>wParam</i> parameter contains the asynchronous task handle as returned by the original function call. The high 16 bits of <i>lParam</i> contain any error code. The error code can be any error as defined in Winsock2.h. An error code of zero indicates successful completion of the asynchronous operation.
 
 On successful completion, the buffer specified to the original function call contains a 
-<a href="https://msdn.microsoft.com/8696b854-4d37-4d1b-8383-169b5dc7a2ae">servent</a> structure. To access the members of this structure, the original buffer address should be cast to a 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/ns-winsock-servent">servent</a> structure. To access the members of this structure, the original buffer address should be cast to a 
 <b>servent</b> structure pointer and accessed as appropriate.
 
-If the error code is <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a>, the size of the buffer specified by <i>buflen</i> in the original call was too small to contain all the resulting information. In this case, the low 16 bits of <i>lParam</i> contain the size of buffer required to supply all the requisite information. If the application decides that the partial data is inadequate, it can reissue the 
+If the error code is <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOBUFS</a>, the size of the buffer specified by <i>buflen</i> in the original call was too small to contain all the resulting information. In this case, the low 16 bits of <i>lParam</i> contain the size of buffer required to supply all the requisite information. If the application decides that the partial data is inadequate, it can reissue the 
 <b>WSAAsyncGetServByName</b> function call with a buffer large enough to receive all the desired information (that is, no smaller than the low 16 bits of <i>lParam</i>).
 
 The buffer specified to this function is used by Windows Sockets to construct a 
-<a href="https://msdn.microsoft.com/8696b854-4d37-4d1b-8383-169b5dc7a2ae">servent</a> structure together with the contents of data areas referenced by members of the same 
-<b>servent</b> structure. To avoid the <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a> error, the application should provide a buffer of at least MAXGETHOSTSTRUCT bytes (as defined in Winsock2.h).
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/ns-winsock-servent">servent</a> structure together with the contents of data areas referenced by members of the same 
+<b>servent</b> structure. To avoid the <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOBUFS</a> error, the application should provide a buffer of at least MAXGETHOSTSTRUCT bytes (as defined in Winsock2.h).
 
 The error code and buffer length should be extracted from the <i>lParam</i> using the macros <b>WSAGETASYNCERROR</b> and <b>WSAGETASYNCBUFLEN</b>, defined in Winsock2.h as:
 
@@ -267,19 +267,19 @@ The use of these macros will maximize the portability of the source code for the
 
 
 
-<a href="https://msdn.microsoft.com/0e53eccf-ef85-43ec-a02c-12896471a7a9">WSACancelAsyncRequest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsacancelasyncrequest">WSACancelAsyncRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/edafb5f9-09fe-4f8e-9651-4002b6f622f4">Winsock Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/baae2bf9-f505-4365-b60e-e3247a0218c8">Winsock Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/730fa372-f620-4d21-99b9-3e7b79932792">getservbyname</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getservbyname">getservbyname</a>
  
 
  

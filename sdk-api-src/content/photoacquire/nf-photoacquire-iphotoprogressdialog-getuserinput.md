@@ -68,7 +68,7 @@ Specifies the interface identifier (ID) of the prompt type. Currently, the only 
 
 ### -param pUnknown [in]
 
-Pointer to an object of the prompt class. Currently, the only supported type is <a href="https://msdn.microsoft.com/f942fefc-2db1-4067-8311-f9ebbaca9d31">IUserInputString</a>.
+Pointer to an object of the prompt class. Currently, the only supported type is <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iuserinputstring">IUserInputString</a>.
 
 
 ### -param pPropVarResult [out]
@@ -124,7 +124,7 @@ The progress dialog has been suppressed
 
 
 
-If the progress dialog box has been suppressed in <a href="https://msdn.microsoft.com/1000511f-40a6-4d5e-a55f-97e25f6c1e11">IPhotoAcquire::Acquire</a>, and <a href="https://msdn.microsoft.com/db0d924b-a586-4f81-a367-e8fbdf3e9bd9">IPhotoAcquireProgressCB::GetUserInput</a> is either not implemented, or returns E_NOTIMPL, this method will return S_FALSE, and <i>pPropVarResult</i> will contain the value stored in the optional <i>pPropVarDefault</i> argument.
+If the progress dialog box has been suppressed in <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquire-acquire">IPhotoAcquire::Acquire</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-getuserinput">IPhotoAcquireProgressCB::GetUserInput</a> is either not implemented, or returns E_NOTIMPL, this method will return S_FALSE, and <i>pPropVarResult</i> will contain the value stored in the optional <i>pPropVarDefault</i> argument.
 
 
 
@@ -134,11 +134,11 @@ If the progress dialog box has been suppressed in <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/c4fcc470-1b05-4d33-8581-80c6e7488e04">IPhotoAcquireProgressCB Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireprogresscb">IPhotoAcquireProgressCB Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3928874-5a15-43d9-9d9c-8b66478b0597">IPhotoProgressDialog Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoprogressdialog">IPhotoProgressDialog Interface</a>
  
 
  

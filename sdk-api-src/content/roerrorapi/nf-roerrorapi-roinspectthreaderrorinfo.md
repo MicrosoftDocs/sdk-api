@@ -97,7 +97,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-When the call to <b>RoInspectThreadErrorInfo</b> is  successful, <i>targetErrorInfoAddress</i> contains the address of an error object that you can pass to the <a href="https://msdn.microsoft.com/2C5B04DD-888B-4400-A01D-CDF9DD870584">RoInspectCapturedStackBackTrace</a> function to get the call stack at the point where the error was originated.
+When the call to <b>RoInspectThreadErrorInfo</b> is  successful, <i>targetErrorInfoAddress</i> contains the address of an error object that you can pass to the <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-roinspectcapturedstackbacktrace">RoInspectCapturedStackBackTrace</a> function to get the call stack at the point where the error was originated.
 
 
 
@@ -107,11 +107,11 @@ When the call to <b>RoInspectThreadErrorInfo</b> is  successful, <i>targetErrorI
 
 
 
-<a href="https://msdn.microsoft.com/A5BF207D-BB8D-47C1-8D32-0B6494809E2B">PINSPECT_MEMORY_CALLBACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nc-roerrorapi-pinspect_memory_callback">PINSPECT_MEMORY_CALLBACK</a>
 
 
 
-<a href="https://msdn.microsoft.com/2C5B04DD-888B-4400-A01D-CDF9DD870584">RoInspectCapturedStackBackTrace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-roinspectcapturedstackbacktrace">RoInspectCapturedStackBackTrace</a>
  
 
  

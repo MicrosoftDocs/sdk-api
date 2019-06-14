@@ -61,14 +61,14 @@ Blocks caller execution until all pending biometric operations for a session hav
 
 ### -param SessionHandle [in]
 
-A <b>WINBIO_SESSION_HANDLE</b> value that identifies an open biometric session.  Open a synchronous session handle by calling <a href="https://msdn.microsoft.com/e9a0bb5f-4bbd-4dc4-9cd8-c26f5e4f74cf">WinBioOpenSession</a>. Open an asynchronous session handle by calling <a href="https://msdn.microsoft.com/711EDE14-A2EE-415D-8FB6-562D71D68146">WinBioAsyncOpenSession</a>.
+A <b>WINBIO_SESSION_HANDLE</b> value that identifies an open biometric session.  Open a synchronous session handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioopensession">WinBioOpenSession</a>. Open an asynchronous session handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncopensession">WinBioAsyncOpenSession</a>.
 
 
 ## -returns
 
 
 
-If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -98,7 +98,7 @@ The session handle is not valid.
 
 <b>WinBioWait</b> blocks the caller's thread regardless of whether you pass a synchronous or an asynchronous session handle to the <i>SessionHandle</i> parameter.
 
-Unlike all other functions that can be called by using an asynchronous session handle, the framework does not create a <a href="https://msdn.microsoft.com/1C8A4557-3851-4AB2-BB9B-AE199EB9D024">WINBIO_ASYNC_RESULT</a> structure for the <b>WinBioWait</b> function.
+Unlike all other functions that can be called by using an asynchronous session handle, the framework does not create a <a href="https://docs.microsoft.com/windows/desktop/api/winbio/ns-winbio-_winbio_async_result">WINBIO_ASYNC_RESULT</a> structure for the <b>WinBioWait</b> function.
 
 Do not call <b>WinBioWait</b> from the context of a callback routine or from any function that can be called indirectly from a callback routine. Doing so will cause a permanent deadlock.
 
@@ -250,23 +250,23 @@ e_Exit:
 
 
 
-<a href="https://msdn.microsoft.com/a99296c8-89da-4b2c-9a1b-fc10700ad48d">WinBioCaptureSampleWithCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiocapturesamplewithcallback">WinBioCaptureSampleWithCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/809e7d2f-6b41-4afc-86c2-43b6611d6e48">WinBioEnrollCaptureWithCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenrollcapturewithcallback">WinBioEnrollCaptureWithCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/df96b444-4a94-4d12-9d7a-2543d96f89ea">WinBioIdentifyWithCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioidentifywithcallback">WinBioIdentifyWithCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/d94db51b-67da-477a-82e6-c92da756f017">WinBioLocateSensorWithCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiolocatesensorwithcallback">WinBioLocateSensorWithCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ea03163-062a-4abf-837a-b12b03ada375">WinBioVerifyWithCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioverifywithcallback">WinBioVerifyWithCallback</a>
  
 
  

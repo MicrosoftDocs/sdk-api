@@ -62,7 +62,7 @@ Setting a larger tolerance is likely to result in the audio stream becoming out 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMClockSlave</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAMClockSlave</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMClockSlave</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMClockSlave</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IAMClockSlave</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a22e17d8-eb96-4e67-bbd7-7c116694c891">GetErrorTolerance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamclockslave-geterrortolerance">GetErrorTolerance</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current tolerance.
@@ -86,7 +86,7 @@ Retrieves the current tolerance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6c93e345-4e4a-4019-9c18-d3d43736fee3">SetErrorTolerance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamclockslave-seterrortolerance">SetErrorTolerance</a>
 </td>
 <td align="left" width="63%">
 Sets the tolerance.
@@ -101,7 +101,7 @@ Sets the tolerance.
 
 
 
-<a href="https://msdn.microsoft.com/571fe5e5-9616-463b-837c-f8dbb8adf1be">Live Sources</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/live-sources">Live Sources</a>
  
 
  

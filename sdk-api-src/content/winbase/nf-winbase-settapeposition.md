@@ -61,7 +61,7 @@ The
 ### -param hDevice [in]
 
 Handle to the device on which to set the tape position. This handle is created by using the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
 
 ### -param dwPositionMethod [in]
@@ -404,7 +404,7 @@ The media is write protected.
 If the offset specified by <i>dwOffsetLow</i> and <i>dwOffsetHigh</i> specifies the number of blocks, filemarks, or setmarks to move, a positive offset moves the tape forward to the end of the last block, filemark, or setmark. A negative offset moves the tape backward to the beginning of the last block, filemark, or setmark. If the offset is zero, the tape does not move.
 
 To obtain information about the status, capabilities, and capacities of tape drives and media, call the 
-<a href="https://msdn.microsoft.com/87e59e29-e174-4462-b692-512c3380eb4d">GetTapeParameters</a>function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a>function.
 
 
 
@@ -414,15 +414,15 @@ To obtain information about the status, capabilities, and capacities of tape dri
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/87e59e29-e174-4462-b692-512c3380eb4d">GetTapeParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/f4ce1436-ee16-4e05-b7a0-30ea79688e79">GetTapePosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-gettapeposition">GetTapePosition</a>
  
 
  

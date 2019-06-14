@@ -60,7 +60,7 @@ The <b>IComponent::GetDisplayInfo</b> method retrieves display information for a
 ### -param pResultDataItem [in, out]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/c8f4682e-e1f7-4f7f-9a56-508648ca8c07">RESULTDATAITEM</a> structure. On input, the mask member specifies the type of data required and the lParam member identifies the item of interest. When called for a virtual list, the nIndex member identifies the desired virtual item and the lParam member is zero.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_resultdataitem">RESULTDATAITEM</a> structure. On input, the mask member specifies the type of data required and the lParam member identifies the item of interest. When called for a virtual list, the nIndex member identifies the desired virtual item and the lParam member is zero.
 
 
 ## -returns
@@ -85,7 +85,7 @@ It is safe to reallocate the memory allocated for members of pResultDataItem onl
 <ul>
 <li>The item is deleted.</li>
 <li>
-<a href="https://msdn.microsoft.com/ec4ec242-6376-44e7-bd82-09456789c4c9">IComponent::Destroy</a> is called.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-destroy">IComponent::Destroy</a> is called.</li>
 <li>GetDisplayInfo is called again for that item.</li>
 </ul>
 
@@ -96,15 +96,15 @@ It is safe to reallocate the memory allocated for members of pResultDataItem onl
 
 
 
-<a href="https://msdn.microsoft.com/65eaa5ef-182b-4fec-bb3d-a308ac9dc660">IComponent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>
 
 
 
-<a href="https://msdn.microsoft.com/60900b8d-59cc-4c1d-86b7-b902ba89216d">IComponentData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>
 
 
 
-<a href="https://msdn.microsoft.com/9a20d09d-219c-4bcb-95b3-67a44e41629e">IConsole2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the <code>w</code> component of an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> containing integer data, with a value
+Sets the <code>w</code> component of an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> containing integer data, with a value
   contained in an instance of uint32_t referred to by a pointer.
 
 
@@ -65,14 +65,14 @@ A valid 4D vector storing integer data.
 
 ### -param w [in]
 
-Pointer to a uint32_t containing the value to be stored in the <code>w</code> element of the <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR Data Type</a>object <code>V</code>.
+Pointer to a uint32_t containing the value to be stored in the <code>w</code> element of the <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a>object <code>V</code>.
 
 
 ## -returns
 
 
 
-An instance of <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR Data Type</a> whose <i>w</i> component has been set to the integer value pointed to by
+An instance of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> whose <i>w</i> component has been set to the integer value pointed to by
        the argument <i>w</i> of <code>XMVectorSetIntWPtr</code>. All other components of the returned <b>XMVECTOR Data Type</b>instance have the same value as those of the input vector <i>V</i>.
 
 
@@ -93,7 +93,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/6e7453b8-0dee-6fc5-cbac-fe20e4e3ef60">DirectXMath Library Vector Accessor Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-accessors">DirectXMath Library Vector Accessor Functions</a>
  
 
  

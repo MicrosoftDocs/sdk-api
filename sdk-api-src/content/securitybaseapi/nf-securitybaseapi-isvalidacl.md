@@ -56,7 +56,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IsValidAcl</b> function validates an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control list</a> (ACL).
+The <b>IsValidAcl</b> function validates an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL).
 
 
 ## -parameters
@@ -67,7 +67,7 @@ The <b>IsValidAcl</b> function validates an <a href="https://msdn.microsoft.com/
 ### -param pAcl [in]
 
 A pointer to an
-      <a href="https://msdn.microsoft.com/0073659f-c4d5-4aaf-aaa6-ea596d3bd8b9">ACL</a> structure validated by this function. This value must not be <b>NULL</b>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a> structure validated by this function. This value must not be <b>NULL</b>.
 
 
 ## -returns
@@ -77,7 +77,7 @@ A pointer to an
 If the ACL is valid, the function returns nonzero.
       
 
-If the ACL is not valid, the function returns zero. There is no extended error information for this function; do not call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the ACL is not valid, the function returns zero. There is no extended error information for this function; do not call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -86,7 +86,7 @@ If the ACL is not valid, the function returns zero. There is no extended error i
 
 
 
-This function checks the revision level of the ACL and verifies that the number of <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entries</a> (ACEs) specified in the <b>AceCount</b> member of the <a href="https://msdn.microsoft.com/0073659f-c4d5-4aaf-aaa6-ea596d3bd8b9">ACL</a> structure fits the space specified by the <b>AclSize</b> member of the <b>ACL</b> structure.
+This function checks the revision level of the ACL and verifies that the number of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) specified in the <b>AceCount</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a> structure fits the space specified by the <b>AclSize</b> member of the <b>ACL</b> structure.
 
 If <i>pAcl</i> is <b>NULL</b>, the application will fail with an access violation.
 
@@ -98,23 +98,23 @@ If <i>pAcl</i> is <b>NULL</b>, the application will fail with an access violatio
 
 
 
-<a href="https://msdn.microsoft.com/0073659f-c4d5-4aaf-aaa6-ea596d3bd8b9">ACL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a>
 
 
 
-<a href="https://msdn.microsoft.com/23ef6abd-03e9-439e-ba05-629c8d61cd66">GetAclInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getaclinformation">GetAclInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/b990a7bd-7840-4c10-baf8-68b3862147f4">InitializeAcl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializeacl">InitializeAcl</a>
 
 
 
-<a href="https://msdn.microsoft.com/16337b77-23c5-4b7a-a344-66a02ee0e8a8">Low-level Access Control</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/low-level-access-control">Low-level Access Control</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Low-level Access Control Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Low-level Access Control Functions</a>
  
 
  

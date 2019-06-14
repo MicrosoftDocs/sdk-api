@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_CREDENTIALS2</b> structure is used to store multiple credential pairs.
-<div class="alert"><b>Note</b>  <b>IKEEXT_CREDENTIALS2</b> is the specific implementation of IKEEXT_CREDENTIALS used in Windows 8. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://msdn.microsoft.com/dbd895bd-a720-4c8e-a2e7-f5614d69922c">IKEEXT_CREDENTIALS1</a> is available. For Windows Vista, <a href="https://msdn.microsoft.com/048d0a56-5d9b-4a85-b42f-8505eb6a97a9">IKEEXT_CREDENTIALS0</a>  is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>IKEEXT_CREDENTIALS2</b> is the specific implementation of IKEEXT_CREDENTIALS used in Windows 8. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credentials1_">IKEEXT_CREDENTIALS1</a> is available. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credentials0_">IKEEXT_CREDENTIALS0</a>  is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -61,16 +61,16 @@ The <b>IKEEXT_CREDENTIALS2</b> structure is used to store multiple credential pa
 
 Type: <b>UINT32</b>
 
-Number of <a href="https://msdn.microsoft.com/013b7b6c-aee6-40f3-b8c4-ef98784165ca">IKEEXT_CREDENTIAL_PAIR2</a> structures in the array.
+Number of <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair2_">IKEEXT_CREDENTIAL_PAIR2</a> structures in the array.
 
 
 ### -field credentials
 
-Type: <b><a href="https://msdn.microsoft.com/013b7b6c-aee6-40f3-b8c4-ef98784165ca">IKEEXT_CREDENTIAL_PAIR2</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair2_">IKEEXT_CREDENTIAL_PAIR2</a>*</b>
 
 [size_is(numCredentials)]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/013b7b6c-aee6-40f3-b8c4-ef98784165ca">IKEEXT_CREDENTIAL_PAIR2</a> structures.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair2_">IKEEXT_CREDENTIAL_PAIR2</a> structures.
 
 
 ## -remarks
@@ -95,11 +95,11 @@ is index 1.
 
 
 
-<a href="https://msdn.microsoft.com/013b7b6c-aee6-40f3-b8c4-ef98784165ca">IKEEXT_CREDENTIAL_PAIR2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair2_">IKEEXT_CREDENTIAL_PAIR2</a>
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

@@ -61,9 +61,9 @@ Retrieves information about system-defined Shell icons.
 
 ### -param siid
 
-Type: <b><a href="https://msdn.microsoft.com/37da5555-3626-465e-b834-3a28b75495c4">SHSTOCKICONID</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ne-shellapi-shstockiconid">SHSTOCKICONID</a></b>
 
-One of the values from the <a href="https://msdn.microsoft.com/37da5555-3626-465e-b834-3a28b75495c4">SHSTOCKICONID</a> enumeration that specifies which icon should be retrieved.
+One of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ne-shellapi-shstockiconid">SHSTOCKICONID</a> enumeration that specifies which icon should be retrieved.
 
 
 ### -param uFlags
@@ -76,19 +76,19 @@ A combination of zero or more of the following flags that specify which informat
 
 #### SHGSI_ICONLOCATION
 
-The <b>szPath</b> and <b>iIcon</b> members of the <a href="https://msdn.microsoft.com/4d32826a-bb40-4805-9826-801c142b8d28">SHSTOCKICONINFO</a> structure receive the path and icon index of the requested icon, in a format suitable for passing to the <a href="https://msdn.microsoft.com/a0314423-79d6-416e-8be0-be946477da3e">ExtractIcon</a> function. The numerical value of this flag is zero, so you always get the icon location regardless of other flags.
+The <b>szPath</b> and <b>iIcon</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shstockiconinfo">SHSTOCKICONINFO</a> structure receive the path and icon index of the requested icon, in a format suitable for passing to the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extracticona">ExtractIcon</a> function. The numerical value of this flag is zero, so you always get the icon location regardless of other flags.
 
 
 
 #### SHGSI_ICON
 
-The <b>hIcon</b> member of the <a href="https://msdn.microsoft.com/4d32826a-bb40-4805-9826-801c142b8d28">SHSTOCKICONINFO</a> structure receives a handle to the specified icon.
+The <b>hIcon</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shstockiconinfo">SHSTOCKICONINFO</a> structure receives a handle to the specified icon.
 
 
 
 #### SHGSI_SYSICONINDEX
 
-The <b>iSysImageImage</b> member of the <a href="https://msdn.microsoft.com/4d32826a-bb40-4805-9826-801c142b8d28">SHSTOCKICONINFO</a> structure receives the index of the specified icon in the system imagelist.
+The <b>iSysImageImage</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shstockiconinfo">SHSTOCKICONINFO</a> structure receives the index of the specified icon in the system imagelist.
 
 
 
@@ -123,9 +123,9 @@ Modifies the SHGSI_LARGEICON or SHGSI_SMALLICON values by causing the function t
 
 ### -param psii [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/4d32826a-bb40-4805-9826-801c142b8d28">SHSTOCKICONINFO</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shstockiconinfo">SHSTOCKICONINFO</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/4d32826a-bb40-4805-9826-801c142b8d28">SHSTOCKICONINFO</a> structure. When this function is called, the <b>cbSize</b> member of this structure needs to be set to the size of the <b>SHSTOCKICONINFO</b> structure. When this function returns, contains a pointer to a <b>SHSTOCKICONINFO</b> structure that contains the requested information.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shstockiconinfo">SHSTOCKICONINFO</a> structure. When this function is called, the <b>cbSize</b> member of this structure needs to be set to the size of the <b>SHSTOCKICONINFO</b> structure. When this function returns, contains a pointer to a <b>SHSTOCKICONINFO</b> structure that contains the requested information.
 
 
 ## -returns
@@ -143,7 +143,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-If this function returns an icon handle in the <b>hIcon</b> member of the <a href="https://msdn.microsoft.com/4d32826a-bb40-4805-9826-801c142b8d28">SHSTOCKICONINFO</a>  structure pointed to by <i>psii</i>, you are responsible for freeing the icon with <a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a> when you no longer need it.
+If this function returns an icon handle in the <b>hIcon</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shstockiconinfo">SHSTOCKICONINFO</a>  structure pointed to by <i>psii</i>, you are responsible for freeing the icon with <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> when you no longer need it.
 
 
 

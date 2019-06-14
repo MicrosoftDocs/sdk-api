@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>NMLINK</b> Contains notification information. Send this structure with the <a href="https://msdn.microsoft.com/en-us/library/Bb760714(v=VS.85).aspx">NM_CLICK</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb775562(v=VS.85).aspx">NM_RETURN</a> messages.
+The <b>NMLINK</b> Contains notification information. Send this structure with the <a href="https://docs.microsoft.com/windows/desktop/Controls/nm-click-syslink">NM_CLICK</a> or <a href="https://docs.microsoft.com/windows/desktop/Controls/nm-return">NM_RETURN</a> messages.
 
 
 ## -struct-fields
@@ -59,18 +59,18 @@ The <b>NMLINK</b> Contains notification information. Send this structure with th
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about the notification.
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that contains information about the notification.
 
 
 ### -field item
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb760710(v=VS.85).aspx">LITEM</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglitem">LITEM</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb760710(v=VS.85).aspx">LITEM</a> structure that contains information about the link item.
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglitem">LITEM</a> structure that contains information about the link item.
 
 
 ## -see-also
@@ -78,15 +78,15 @@ Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb760710(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb760710(v=VS.85).aspx">LITEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglitem">LITEM</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb760714(v=VS.85).aspx">NM_CLICK (syslink)</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/nm-click-syslink">NM_CLICK (syslink)</a>
 
 
 

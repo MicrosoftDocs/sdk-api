@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SpGetUserInfo</b> function retrieves information about a logon <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">session</a>.
+The <b>SpGetUserInfo</b> function retrieves information about a logon <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">session</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>SpGetUserInfo</b> function retrieves information about a logon <a href="h
 
 ### -param LogonId [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">LUID</a> containing the logon session for which information is to be retrieved.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">LUID</a> containing the logon session for which information is to be retrieved.
 
 
 ### -param Flags [in]
@@ -103,8 +103,8 @@ The returned domain name can be longer than 15 characters.
 ### -param *UserData [out]
 
 Pointer to a pointer to a 
-<a href="https://msdn.microsoft.com/1a56203a-ed6a-4f32-9e7c-b498ba61a64b">SecurityUserData</a> structure. If the function call succeeds, the user information is returned in this structure. The <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a> should allocate the memory for this structure in the caller's address space. The caller is responsible for freeing the buffer by calling the 
-<a href="https://msdn.microsoft.com/3c3d27bb-4f9a-4979-b679-1e10fa1ff221">FreeContextBuffer</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_security_user_data">SecurityUserData</a> structure. If the function call succeeds, the user information is returned in this structure. The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> should allocate the memory for this structure in the caller's address space. The caller is responsible for freeing the buffer by calling the 
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a> function.
 
 
 ## -returns
@@ -127,8 +127,8 @@ The <i>Flags</i> value NO_LONG_NAMES provides compatibility with Microsoft NTLM.
 SSP/APs must implement the <b>SpGetUserInfo</b> function; however, the actual name given to the implementation is up to the developer.
 
 A pointer to the <b>SpGetUserInfo</b> function is available in the 
-<a href="https://msdn.microsoft.com/43ca0f9b-1393-48aa-9d9c-4dd19963a66d">SECPKG_FUNCTION_TABLE</a> structure received from the 
-<a href="https://msdn.microsoft.com/1ef3770b-197f-4d5b-9933-b7f6f63e5627">SpLsaModeInitialize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
 
 
 
@@ -138,15 +138,15 @@ A pointer to the <b>SpGetUserInfo</b> function is available in the
 
 
 
-<a href="https://msdn.microsoft.com/3c3d27bb-4f9a-4979-b679-1e10fa1ff221">FreeContextBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/43ca0f9b-1393-48aa-9d9c-4dd19963a66d">SECPKG_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/1ef3770b-197f-4d5b-9933-b7f6f63e5627">SpLsaModeInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a>
  
 
  

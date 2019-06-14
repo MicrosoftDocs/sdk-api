@@ -69,27 +69,27 @@ The caller must specify the storage to read the top-level type into.
 The size of the storage specified by the caller varies by the type
                     being deserialized, as follows:
                     <ul>
-<li>For primitives (such as <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_INT32_TYPE</a>), the storage should 
+<li>For primitives (such as <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_INT32_TYPE</a>), the storage should 
                         be the size of the primitive.  In this case, the heap does not need to be specified.
                         </li>
-<li>For structures (whether user defined ones that use <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_STRUCT_TYPE</a>,
-                        or predefined ones like <a href="https://msdn.microsoft.com/eb6c7397-6b15-4e79-89ec-585861113edf">WS_STRING</a>), the storage should be the 
+<li>For structures (whether user defined ones that use <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_STRUCT_TYPE</a>,
+                        or predefined ones like <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_string">WS_STRING</a>), the storage should be the 
                         exact size of the structure.
                         Note that fields of the structure that point to other data is still required to
-                        be allocated from the <a href="https://msdn.microsoft.com/1866f54f-26fc-4889-a88f-0d298a418bdc">WS_HEAP</a>.  If no fields exist for the
+                        be allocated from the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-heap">WS_HEAP</a>.  If no fields exist for the
                         specific structure, then the heap does not need to be specified.
                     </li>
 </ul>
 
 
-Pointer types (<a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_WSZ_TYPE</a> and <b>WS_XML_BUFFER_TYPE</b>),
-                    may not be used with <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_REQUIRED_VALUE</a>.  The <b>WS_READ_REQUIRED_POINTER</b>  
+Pointer types (<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_WSZ_TYPE</a> and <b>WS_XML_BUFFER_TYPE</b>),
+                    may not be used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_REQUIRED_VALUE</a>.  The <b>WS_READ_REQUIRED_POINTER</b>  
                     value should be used instead.
                 
 
 If the value is not present in the XML being read,  
                     a <b>WS_E_INVALID_FORMAT</b> error will be returned.
-                (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.)
+                (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 
 
 ### -field WS_READ_REQUIRED_POINTER
@@ -97,7 +97,7 @@ If the value is not present in the XML being read,
 The option specifies that the value must exist in the XML content.
                 
 
-The deserialized value is always allocated on the <a href="https://msdn.microsoft.com/1866f54f-26fc-4889-a88f-0d298a418bdc">WS_HEAP</a>, regardless of it's size.
+The deserialized value is always allocated on the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-heap">WS_HEAP</a>, regardless of it's size.
                     The pointer to the deserialized value is returned.  When using this option,
                     the caller should pass the address of a pointer, and size of a pointer,
                     regardless of the type being deserialized.
@@ -105,7 +105,7 @@ The deserialized value is always allocated on the <a href="https://msdn.microsof
 
 If the value is not present, then an error will be returned.
                     <b>NULL</b> will never be returned when this option is used.  If the
-                    value is optional, use <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTIONAL_POINTER</a>.
+                    value is optional, use <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTIONAL_POINTER</a>.
                 
 
 
@@ -114,7 +114,7 @@ If the value is not present, then an error will be returned.
 The option specifies that the value need not exist in the XML content.
                 
 
-The deserialized value is always allocated on the <a href="https://msdn.microsoft.com/1866f54f-26fc-4889-a88f-0d298a418bdc">WS_HEAP</a>, regardless of it's size.
+The deserialized value is always allocated on the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-heap">WS_HEAP</a>, regardless of it's size.
                     The pointer to the deserialized value is returned.  When using this option,
                     the caller should pass the address of a pointer, and size of a pointer,
                     regardless of the type being deserialized.
@@ -125,7 +125,7 @@ If the value is not present in the XML being read, the function will
                 
 
 An application that uses this option should be careful to check for <b>NULL</b> before accessing the value.
-                    If a <b>NULL</b> value is never expected, use <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_REQUIRED_POINTER</a>.
+                    If a <b>NULL</b> value is never expected, use <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_REQUIRED_POINTER</a>.
                 
 
 
@@ -134,7 +134,7 @@ An application that uses this option should be careful to check for <b>NULL</b> 
 The option specifies that the value may be nil or missing in the XML content.
                 
 
-The deserialized value is always allocated on the <a href="https://msdn.microsoft.com/1866f54f-26fc-4889-a88f-0d298a418bdc">WS_HEAP</a>, regardless of it's size.
+The deserialized value is always allocated on the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-heap">WS_HEAP</a>, regardless of it's size.
                     The pointer to the deserialized value is returned.  When using this option,
                     the caller should pass the address of a pointer, and size of a pointer,
                     regardless of the type being deserialized.
@@ -146,11 +146,11 @@ If the element is nil or missing in the XML being read, the function will succee
                 
 
 An application that uses this option should be careful to check for <b>NULL</b> before accessing the value.
-                    If a <b>NULL</b> value is never expected, use <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_REQUIRED_POINTER</a>.
+                    If a <b>NULL</b> value is never expected, use <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_REQUIRED_POINTER</a>.
                 
 
-This option is not supported in combination with <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> in APIs
-                that read XML, inlcuding <a href="https://msdn.microsoft.com/6d026b2e-f2c2-4990-9178-152585a7749a">WsReadType</a> and <a href="https://msdn.microsoft.com/88e0cc4d-ae24-46af-998d-fdbfbcc1be64">WsReadElement</a> calls.
+This option is not supported in combination with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type_mapping">WS_TYPE_MAPPING</a> in APIs
+                that read XML, inlcuding <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadtype">WsReadType</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadelement">WsReadElement</a> calls.
               
 
 
@@ -166,8 +166,8 @@ If the XML element is nil or missing, then a nil value is returned.  If the XML 
                     non-nil, then the value is deserialized normally.
                 
 
-This option is not supported in combination with <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> in APIs
-                that read XML, inlcuding <a href="https://msdn.microsoft.com/6d026b2e-f2c2-4990-9178-152585a7749a">WsReadType</a> and <a href="https://msdn.microsoft.com/88e0cc4d-ae24-46af-998d-fdbfbcc1be64">WsReadElement</a> calls.
+This option is not supported in combination with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type_mapping">WS_TYPE_MAPPING</a> in APIs
+                that read XML, inlcuding <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadtype">WsReadType</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadelement">WsReadElement</a> calls.
               
 
 This option is only supported for the following types, listed below,
@@ -175,13 +175,13 @@ This option is only supported for the following types, listed below,
               for each type for information on how nil is represented.
               <ul>
 <li>
-<a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_STRING_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_STRING_TYPE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_XML_STRING_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_XML_STRING_TYPE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_BYTES_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_BYTES_TYPE</a>
 </li>
 </ul>
 
@@ -191,19 +191,19 @@ This option is only supported for the following types, listed below,
 
 
 
-Each <b>WS_READ_OPTION</b> discusses when a <a href="https://msdn.microsoft.com/1866f54f-26fc-4889-a88f-0d298a418bdc">WS_HEAP</a>object must be specified.  Depending on the function, it may still be
+Each <b>WS_READ_OPTION</b> discusses when a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-heap">WS_HEAP</a>object must be specified.  Depending on the function, it may still be
                 possible to pass a <b>NULL</b> heap parameter in this case; see the documentation
                 for the specific function for details on whether a default heap is used
                 if the heap parameter is <b>NULL</b>.
             
 
 The following are things to consider when deserializing values into
-                a heap object (<a href="https://msdn.microsoft.com/1866f54f-26fc-4889-a88f-0d298a418bdc">WS_HEAP</a>):
+                a heap object (<a href="https://docs.microsoft.com/windows/desktop/wsw/ws-heap">WS_HEAP</a>):
             
 
 <ul>
 <li>Deserialized values remain allocated until the heap
-                is freed (<a href="https://msdn.microsoft.com/ec643915-8c4b-4916-b390-d6ca043350db">WsFreeHeap</a>) or reset (<a href="https://msdn.microsoft.com/c927ccb9-66c8-4acf-bbb5-12313ea80ee0">WsResetHeap</a>).
+                is freed (<a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreeheap">WsFreeHeap</a>) or reset (<a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsresetheap">WsResetHeap</a>).
                 </li>
 <li>Each time values are deserialized, they are appended to the heap (instead
                 of replacing existing values).

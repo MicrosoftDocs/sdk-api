@@ -107,11 +107,11 @@ The <i>bstrName</i> parameter is not a valid pointer.
 
 
 
-<a href="https://msdn.microsoft.com/76f5d213-d1fb-4437-af09-9d915db05dc6">ITPluggableTerminalSuperclassRegistration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nn-termmgr-itpluggableterminalsuperclassregistration">ITPluggableTerminalSuperclassRegistration</a>
 
 
 
-<a href="https://msdn.microsoft.com/42f58ac2-4fda-436c-bbfd-d339296f736e">get_Name</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalsuperclassregistration-get_name">get_Name</a>
  
 
  

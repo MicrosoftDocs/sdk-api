@@ -70,7 +70,7 @@ The <b>SetInputProps</b> method specifies the media properties of an input strea
 
 ### -param pInput [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd757209(v=VS.85).aspx">IWMInputMediaProps</a> interface. See Remarks.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwminputmediaprops">IWMInputMediaProps</a> interface. See Remarks.
 
 
 ## -returns
@@ -140,7 +140,7 @@ The method failed for an unspecified reason.
 
 Manipulating the <b>IWMInputMediaProps</b> object has no effect on the writer until the application calls this method to configure the input.
 
-Specify <b>NULL</b> for <i>pInput</i> if the input contains compressed samples that will be written directly to the new stream (using <a href="https://msdn.microsoft.com/en-us/library/Dd798741(v=VS.85).aspx">IWMWriterAdvanced::WriteStreamSample</a>) without being recompressed.
+Specify <b>NULL</b> for <i>pInput</i> if the input contains compressed samples that will be written directly to the new stream (using <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-writestreamsample">IWMWriterAdvanced::WriteStreamSample</a>) without being recompressed.
 
 
 
@@ -150,19 +150,19 @@ Specify <b>NULL</b> for <i>pInput</i> if the input contains compressed samples t
 
 
 
-<a href="https://msdn.microsoft.com/44c4ed7e-b35e-4ab5-9975-021f343dab6a">Assigning Input Formats</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/assigning-input-formats">Assigning Input Formats</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798719(v=VS.85).aspx">IWMWriter Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757477(v=VS.85).aspx">IWMWriter::GetInputCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-getinputcount">IWMWriter::GetInputCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757482(v=VS.85).aspx">IWMWriter::GetInputProps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-getinputprops">IWMWriter::GetInputProps</a>
  
 
  

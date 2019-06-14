@@ -56,7 +56,7 @@ The contents of the Core Properties part are described in  the 1st edition, Part
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMCoreProperties</b> interface inherits from <a href="https://msdn.microsoft.com/71cd0155-6c95-42ca-bfc3-dffd43d95dc9">IXpsOMPart</a>. <b>IXpsOMCoreProperties</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMCoreProperties</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompart">IXpsOMPart</a>. <b>IXpsOMCoreProperties</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IXpsOMCoreProperties</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/66c7af1d-5e48-4a51-ad16-e92ada87942c">Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcoreproperties-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Makes a deep copy of the interface.
@@ -80,7 +80,7 @@ Makes a deep copy of the interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/97b1b0ca-a2e7-4835-aece-c2cc23481530">GetCategory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcoreproperties-getcategory">GetCategory</a>
 </td>
 <td align="left" width="63%">
 Gets the <b>category</b> property.
@@ -90,7 +90,7 @@ Gets the <b>category</b> property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9e058e8d-ace6-4892-87c1-07e28ff24462">GetContentStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcoreproperties-getcontentstatus">GetContentStatus</a>
 </td>
 <td align="left" width="63%">
 Gets the <b>contentStatus</b> property.
@@ -100,7 +100,7 @@ Gets the <b>contentStatus</b> property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2a032cd7-90b3-427c-bbdf-2265f15c6f23">GetContentType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcoreproperties-getcontenttype">GetContentType</a>
 </td>
 <td align="left" width="63%">
 Gets the <b>contentType</b> property.
@@ -110,7 +110,7 @@ Gets the <b>contentType</b> property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8ee96d96-bd66-4738-bfae-fbbc98ba8621">GetCreated</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcoreproperties-getcreated">GetCreated</a>
 </td>
 <td align="left" width="63%">
 Gets the <b>created</b> property.
@@ -120,7 +120,7 @@ Gets the <b>created</b> property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/35d7a3ad-e1f7-49bf-ad30-d577cc9d4731">GetCreator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcoreproperties-getcreator">GetCreator</a>
 </td>
 <td align="left" width="63%">
 Gets the <b>creator</b> property.
@@ -130,7 +130,7 @@ Gets the <b>creator</b> property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/56a6367d-8ab7-40ac-989b-d5a60126eae5">GetDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcoreproperties-getdescription">GetDescription</a>
 </td>
 <td align="left" width="63%">
 Gets the <b>description</b> property.
@@ -140,7 +140,7 @@ Gets the <b>description</b> property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a397fba0-4e73-4f5b-b292-529a222c2501">GetIdentifier</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcoreproperties-getidentifier">GetIdentifier</a>
 </td>
 <td align="left" width="63%">
 Gets the <b>identifier</b> property.
@@ -150,7 +150,7 @@ Gets the <b>identifier</b> property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f0bac4c7-5bb6-4a9d-8f16-db97e7efee5a">GetKeywords</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcoreproperties-getkeywords">GetKeywords</a>
 </td>
 <td align="left" width="63%">
 Gets the <b>keywords</b> property.
@@ -160,7 +160,7 @@ Gets the <b>keywords</b> property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3a35185a-0dbc-48bb-8ae1-53fafa197bb7">GetLanguage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcoreproperties-getlanguage">GetLanguage</a>
 </td>
 <td align="left" width="63%">
 Gets the <b>language</b> property.
@@ -170,7 +170,7 @@ Gets the <b>language</b> property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e3e68656-ae4d-45f4-bb2a-3c4c5cecbbae">GetLastModifiedBy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcoreproperties-getlastmodifiedby">GetLastModifiedBy</a>
 </td>
 <td align="left" width="63%">
 Gets the <b>lastModifiedBy</b> property.
@@ -180,7 +180,7 @@ Gets the <b>lastModifiedBy</b> property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c7e4b994-ec4f-415d-a340-813f00adba19">GetLastPrinted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcoreproperties-getlastprinted">GetLastPrinted</a>
 </td>
 <td align="left" width="63%">
 Gets the <b>lastPrinted</b> property.
@@ -190,7 +190,7 @@ Gets the <b>lastPrinted</b> property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/364beb9d-01e7-477c-92b2-f2fdb19a87f9">GetModified</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcoreproperties-getmodified">GetModified</a>
 </td>
 <td align="left" width="63%">
 Gets the <b>modified</b> property.
@@ -200,17 +200,17 @@ Gets the <b>modified</b> property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e3b2b9a7-7498-48a1-9d1f-eb954dc5576c">GetOwner</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcoreproperties-getowner">GetOwner</a>
 </td>
 <td align="left" width="63%">
-Gets a pointer to the <a href="https://msdn.microsoft.com/7b0a36d6-1af1-4c2c-af14-d6139e9115c3">IXpsOMPackage</a> interface that contains the core properties.
+Gets a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackage">IXpsOMPackage</a> interface that contains the core properties.
             
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7143e4e7-c5e3-41f8-84d8-64fa3008ccc8">GetRevision</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcoreproperties-getrevision">GetRevision</a>
 </td>
 <td align="left" width="63%">
 Gets the <b>revision</b> property.
@@ -220,7 +220,7 @@ Gets the <b>revision</b> property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/80499d81-4adc-402c-ab72-4ebc77eefaea">GetSubject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcoreproperties-getsubject">GetSubject</a>
 </td>
 <td align="left" width="63%">
 Gets the <b>subject</b> property.
@@ -230,7 +230,7 @@ Gets the <b>subject</b> property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/32551dd2-2d6e-4aaa-864b-4c922a90fc27">GetTitle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcoreproperties-gettitle">GetTitle</a>
 </td>
 <td align="left" width="63%">
 Gets the <b>title</b> property.
@@ -240,7 +240,7 @@ Gets the <b>title</b> property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d0a693e5-fd98-47c0-aaf7-f8461169a01c">GetVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcoreproperties-getversion">GetVersion</a>
 </td>
 <td align="left" width="63%">
 Gets the <b>version</b> property.
@@ -250,7 +250,7 @@ Gets the <b>version</b> property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0c194731-0992-47c3-b069-fa9e1d16944b">SetCategory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcoreproperties-setcategory">SetCategory</a>
 </td>
 <td align="left" width="63%">
 Sets the <b>category</b> property.
@@ -260,7 +260,7 @@ Sets the <b>category</b> property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f500407d-3eb4-4bf1-88ef-8f6bd2bcf472">SetContentStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcoreproperties-setcontentstatus">SetContentStatus</a>
 </td>
 <td align="left" width="63%">
 Sets the <b>contentStatus</b> property.
@@ -270,7 +270,7 @@ Sets the <b>contentStatus</b> property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/97ddb1a2-67b2-4891-86b6-bdd38e609229">SetContentType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcoreproperties-setcontenttype">SetContentType</a>
 </td>
 <td align="left" width="63%">
 Sets the <b>contentType</b> property.
@@ -280,7 +280,7 @@ Sets the <b>contentType</b> property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1a71d338-a34e-40df-ade0-130cd8e0a176">SetCreated</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcoreproperties-setcreated">SetCreated</a>
 </td>
 <td align="left" width="63%">
 Sets the <b>created</b> property.
@@ -290,7 +290,7 @@ Sets the <b>created</b> property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/83dd62df-71e1-44a6-bf38-461b7e26e54e">SetCreator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcoreproperties-setcreator">SetCreator</a>
 </td>
 <td align="left" width="63%">
 Sets the <b>creator</b> property.
@@ -300,7 +300,7 @@ Sets the <b>creator</b> property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5be76080-0f85-4937-913c-2037740a3e9d">SetDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcoreproperties-setdescription">SetDescription</a>
 </td>
 <td align="left" width="63%">
 Sets the <b>description</b> property.
@@ -310,7 +310,7 @@ Sets the <b>description</b> property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8ad5a359-77f6-4b11-9c1c-2e4094be65d0">SetIdentifier</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcoreproperties-setidentifier">SetIdentifier</a>
 </td>
 <td align="left" width="63%">
 Sets the <b>identifier</b> property.
@@ -320,7 +320,7 @@ Sets the <b>identifier</b> property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d96a85d2-dfbf-4589-9c3f-7505715ec6ce">SetKeywords</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcoreproperties-setkeywords">SetKeywords</a>
 </td>
 <td align="left" width="63%">
 Sets the <b>keywords</b> property.
@@ -330,7 +330,7 @@ Sets the <b>keywords</b> property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e17901e8-9adb-488e-9c8d-6fa1351520ac">SetLanguage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcoreproperties-setlanguage">SetLanguage</a>
 </td>
 <td align="left" width="63%">
 Sets the <b>language</b> property.
@@ -340,7 +340,7 @@ Sets the <b>language</b> property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4c19e7c8-d790-42b8-a0c4-bfd95c7de2c5">SetLastModifiedBy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcoreproperties-setlastmodifiedby">SetLastModifiedBy</a>
 </td>
 <td align="left" width="63%">
 Sets the <b>lastModifiedBy</b> property.
@@ -350,7 +350,7 @@ Sets the <b>lastModifiedBy</b> property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7b1cf459-b140-4793-a9e0-4153a00b9bc2">SetLastPrinted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcoreproperties-setlastprinted">SetLastPrinted</a>
 </td>
 <td align="left" width="63%">
 Sets the <b>lastPrinted</b> property.
@@ -360,7 +360,7 @@ Sets the <b>lastPrinted</b> property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/172f49b9-850d-46f0-bed1-678a070a7ae8">SetModified</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcoreproperties-setmodified">SetModified</a>
 </td>
 <td align="left" width="63%">
 Sets the <b>modified</b> property.
@@ -370,7 +370,7 @@ Sets the <b>modified</b> property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7e2ef3b4-64dd-402e-a282-0ed01e588337">SetRevision</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcoreproperties-setrevision">SetRevision</a>
 </td>
 <td align="left" width="63%">
 Sets the <b>revision</b> property.
@@ -380,7 +380,7 @@ Sets the <b>revision</b> property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/aa194dd0-3293-4c09-84ae-516478862f4c">SetSubject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcoreproperties-setsubject">SetSubject</a>
 </td>
 <td align="left" width="63%">
 Sets the <b>subject</b> property.
@@ -390,7 +390,7 @@ Sets the <b>subject</b> property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/55562670-576f-483d-abcf-f69ce279245d">SetTitle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcoreproperties-settitle">SetTitle</a>
 </td>
 <td align="left" width="63%">
 Sets the <b>title</b> property.
@@ -400,7 +400,7 @@ Sets the <b>title</b> property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1058f228-8b81-4590-b0af-08abe16a1510">SetVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcoreproperties-setversion">SetVersion</a>
 </td>
 <td align="left" width="63%">
 Sets the <b>version</b> property.
@@ -425,15 +425,15 @@ The meaning and use of these properties is determined by the user or context.
 
 
 
-<a href="https://msdn.microsoft.com/b7146f0c-e397-45cb-9eb0-e03b3ac0e905">IXpsOMObjectFactory::CreateCoreProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-createcoreproperties">IXpsOMObjectFactory::CreateCoreProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/71cd0155-6c95-42ca-bfc3-dffd43d95dc9">IXpsOMPart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompart">IXpsOMPart</a>
 
 
 
-<a href="https://msdn.microsoft.com/8d72ff28-6dfb-4fa8-a1b6-14b054aa7eb5">Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316980(v=vs.85)">Interfaces</a>
 
 
 

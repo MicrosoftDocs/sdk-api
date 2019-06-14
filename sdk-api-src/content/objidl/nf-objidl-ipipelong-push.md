@@ -92,7 +92,7 @@ When the last of the data has been pushed, the caller must do one last push of <
 
 
 
-<a href="https://msdn.microsoft.com/c1b4d3b3-e1bf-4441-8cea-b667b82c4c27">IPipeLong</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipipelong">IPipeLong</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Holds an extra data block used by <a href="https://msdn.microsoft.com/ac3279ad-1413-48bf-a830-4ec128352573">IShellLinkDataList</a>. It holds the console's code page.
+Holds an extra data block used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist">IShellLinkDataList</a>. It holds the console's code page.
 
 
 ## -struct-fields
@@ -59,9 +59,9 @@ Holds an extra data block used by <a href="https://msdn.microsoft.com/ac3279ad-1
 
 ### -field dbh
 
-Type: <b><a href="https://msdn.microsoft.com/06de45c2-8cb5-45e3-9639-d4625c24d27b">DATABLOCK_HEADER</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-tagdatablockheader">DATABLOCK_HEADER</a></b>
 
-The <a href="https://msdn.microsoft.com/06de45c2-8cb5-45e3-9639-d4625c24d27b">DATABLOCK_HEADER</a> structure with the <b>NT_FE_CONSOLE_PROPS</b> structure's size and signature. The signature for an <b>NT_FE_CONSOLE_PROPS</b> structure is NT_FE_CONSOLE_PROPS_SIG.
+The <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-tagdatablockheader">DATABLOCK_HEADER</a> structure with the <b>NT_FE_CONSOLE_PROPS</b> structure's size and signature. The signature for an <b>NT_FE_CONSOLE_PROPS</b> structure is NT_FE_CONSOLE_PROPS_SIG.
 
 
 ### -field DUMMYSTRUCTNAME

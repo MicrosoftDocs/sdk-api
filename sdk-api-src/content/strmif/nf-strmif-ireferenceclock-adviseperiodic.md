@@ -146,7 +146,7 @@ Failure.
 
 
 
-At each notification time, the clock releases the semaphore specified in the <i>hSemaphore</i> parameter. When no further notifications are required, call <a href="https://msdn.microsoft.com/1f032036-4502-473a-93e1-976a66d8bde1">IReferenceClock::Unadvise</a> and pass the <i>pdwAdviseToken</i> value returned from this call.
+At each notification time, the clock releases the semaphore specified in the <i>hSemaphore</i> parameter. When no further notifications are required, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ireferenceclock-unadvise">IReferenceClock::Unadvise</a> and pass the <i>pdwAdviseToken</i> value returned from this call.
 
 The following code example creates an advise request that signals five seconds from the time it is created, and again every second thereafter:
 
@@ -185,11 +185,11 @@ pRefClock-&gt;Unadvise(dwAdviseToken);
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/9818c67d-dfbe-4498-a744-d2efaa4bfb58">IReferenceClock Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ireferenceclock">IReferenceClock Interface</a>
  
 
  

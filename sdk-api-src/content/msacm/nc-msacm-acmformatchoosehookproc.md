@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>acmFormatChooseHookProc</b> function specifies a user-defined function that hooks the <a href="https://msdn.microsoft.com/9be8311a-f6ad-4007-a254-841ee99ff3b6">acmFormatChoose</a> dialog box. The <b>acmFormatChooseHookProc</b> name is a placeholder for an application-defined name.
+The <b>acmFormatChooseHookProc</b> function specifies a user-defined function that hooks the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatchoose">acmFormatChoose</a> dialog box. The <b>acmFormatChooseHookProc</b> name is a placeholder for an application-defined name.
 
 
 
@@ -98,11 +98,11 @@ You should use this function the same way as you use the Common Dialog hook func
 
 
 
-<a href="https://msdn.microsoft.com/da207a50-9c67-4cf3-920b-5878637060db">Audio Compression Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f9a4540-86c0-40e6-b4da-24a9d31b56bf">Audio Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
  
 
  

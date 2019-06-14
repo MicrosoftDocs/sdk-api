@@ -57,7 +57,7 @@ ms.custom: 19H1
 
 
 Frees the specified global memory object and invalidates its handle.
-<div class="alert"><b>Note</b>  The global functions have greater overhead and provide fewer features than other memory management functions. New applications should use the <a href="https://msdn.microsoft.com/cfb683fa-4f46-48b5-9a28-f4625a9cb8cd">heap functions</a> unless documentation states that a global function should be used. For more information, see <a href="https://msdn.microsoft.com/97707ce7-4c65-4d0e-ba69-47fdaee73a9b">Global and Local Functions</a>.
+<div class="alert"><b>Note</b>  The global functions have greater overhead and provide fewer features than other memory management functions. New applications should use the <a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">heap functions</a> unless documentation states that a global function should be used. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>.
 </div><div> </div>
 
 ## -parameters
@@ -68,8 +68,8 @@ Frees the specified global memory object and invalidates its handle.
 ### -param hMem [in]
 
 A handle to the global memory object. This handle is returned by either the 
-<a href="https://msdn.microsoft.com/06886545-bd5c-4d81-b1c3-dfa7e146e43a">GlobalAlloc</a> or 
-<a href="https://msdn.microsoft.com/2439b16a-f27d-4e95-bc9e-6f1e563933c9">GlobalReAlloc</a> function. It is not safe to free memory allocated with <a href="https://msdn.microsoft.com/da8cd2be-ff4c-4da5-813c-8759a58228c9">LocalAlloc</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalrealloc">GlobalReAlloc</a> function. It is not safe to free memory allocated with <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a>.
 
 
 ## -returns
@@ -79,7 +79,7 @@ A handle to the global memory object. This handle is returned by either the
 If the function succeeds, the return value is <b>NULL</b>.
 
 If the function fails, the return value is equal to a handle to the global memory object. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -92,9 +92,9 @@ If the process examines or modifies the memory after it has been freed, heap cor
 
 The 
 <b>GlobalFree</b> function will free a locked memory object. A locked memory object has a lock count greater than zero. The 
-<a href="https://msdn.microsoft.com/0d7deac2-c9c4-4adc-8a0a-edfc512a4d6c">GlobalLock</a> function locks a global memory object and increments the lock count by one. The 
-<a href="https://msdn.microsoft.com/580a2873-7f06-47a1-acf5-c2b3c96e15e7">GlobalUnlock</a> function unlocks it and decrements the lock count by one. To get the lock count of a global memory object, use the 
-<a href="https://msdn.microsoft.com/647fc9a2-0522-42ab-ab8b-43c648f27d90">GlobalFlags</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globallock">GlobalLock</a> function locks a global memory object and increments the lock count by one. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalunlock">GlobalUnlock</a> function unlocks it and decrements the lock count by one. To get the lock count of a global memory object, use the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalflags">GlobalFlags</a> function.
 
 If an application is running under a debug version of the system, 
 <b>GlobalFree</b> will issue a message that tells you that a locked object is being freed. If you are debugging the application, 
@@ -104,7 +104,7 @@ If an application is running under a debug version of the system,
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/06886545-bd5c-4d81-b1c3-dfa7e146e43a">GlobalAlloc</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a>.
 
 <div class="code"></div>
 
@@ -115,31 +115,31 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/97707ce7-4c65-4d0e-ba69-47fdaee73a9b">Global and Local Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/06886545-bd5c-4d81-b1c3-dfa7e146e43a">GlobalAlloc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/647fc9a2-0522-42ab-ab8b-43c648f27d90">GlobalFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalflags">GlobalFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d7deac2-c9c4-4adc-8a0a-edfc512a4d6c">GlobalLock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globallock">GlobalLock</a>
 
 
 
-<a href="https://msdn.microsoft.com/2439b16a-f27d-4e95-bc9e-6f1e563933c9">GlobalReAlloc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalrealloc">GlobalReAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/580a2873-7f06-47a1-acf5-c2b3c96e15e7">GlobalUnlock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalunlock">GlobalUnlock</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a2a7a62-0bda-4a0d-93d2-25b4898871fd">Memory
+<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
 		  Management Functions</a>
  
 

@@ -114,18 +114,18 @@ The function succeeded.
 The following functions supply handles that should be closed after use by calling 
 <b>MsiCloseHandle</b>:
 
-<a href="https://msdn.microsoft.com/fc1d5a09-3097-4a1c-a615-1b93f7eacb04">MsiCreateRecord</a>
-<a href="https://msdn.microsoft.com/148d467f-fecd-42a9-b838-22799a159f97">MsiGetActiveDatabase</a>
-<a href="https://msdn.microsoft.com/0d6f4506-367b-43d7-ba1c-2a93c1d0cc51">MsiGetLastErrorRecord</a>
-<a href="https://msdn.microsoft.com/1227493a-58dc-4e41-b6d7-9ecce0b3df40">MsiOpenPackage</a>
-<a href="https://msdn.microsoft.com/fdc5a2f5-c44a-4cb3-b206-a598bd60024b">MsiOpenProduct</a>
-<a href="https://msdn.microsoft.com/984996e3-aa2c-49ff-9067-ebefd3afdecb">MsiOpenDatabase</a>
-<a href="https://msdn.microsoft.com/1ef23f9a-7d79-4d07-9349-8e9c132f1b94">MsiDatabaseOpenView</a>
-<a href="https://msdn.microsoft.com/1a973a22-ca3a-4980-9b20-d3c5b43fdd19">MsiViewFetch</a>
-<a href="https://msdn.microsoft.com/f1b8e24c-ac90-4a25-a1d1-c005c403dffc">MsiViewGetColumnInfo</a>
-<a href="https://msdn.microsoft.com/08ceaf05-a64b-41ac-964b-ae4648e42bae">MsiDatabaseGetPrimaryKeys</a>
-<a href="https://msdn.microsoft.com/f3a6d7cc-83b2-45c6-bf86-c579b39c2c92">MsiGetSummaryInformation</a>
-<a href="https://msdn.microsoft.com/77df6829-119d-4fe6-96b0-c75381b9de6c">MsiEnableUIPreview</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msicreaterecord">MsiCreateRecord</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msigetactivedatabase">MsiGetActiveDatabase</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiopendatabasea">MsiOpenDatabase</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msidatabaseopenviewa">MsiDatabaseOpenView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiviewfetch">MsiViewFetch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiviewgetcolumninfo">MsiViewGetColumnInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msidatabasegetprimarykeysa">MsiDatabaseGetPrimaryKeys</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msigetsummaryinformationa">MsiGetSummaryInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msienableuipreview">MsiEnableUIPreview</a>
 Note that when writing custom actions, it is recommended to use variables of type PMSIHANDLE because the installer closes PMSIHANDLE objects as they go out of scope, whereas you must close MSIHANDLE objects by calling 
 <b>MsiCloseHandle</b>.
 
@@ -145,7 +145,7 @@ PMSIHANDLE hRec = MsiCreateRecord(3);
 
 
 
-<a href="https://msdn.microsoft.com/05a16915-6b47-4d51-b62a-5a4d92b87e50">Handle Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Handle Management Functions</a>
  
 
  

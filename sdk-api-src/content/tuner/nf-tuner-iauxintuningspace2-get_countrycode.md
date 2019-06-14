@@ -82,7 +82,7 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="https://msdn.microsoft.com/51d92eab-1cf0-451c-aefb-ca36360e29f7">IAuxInTuningSpace2 Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iauxintuningspace2">IAuxInTuningSpace2 Interface</a>
  
 
  

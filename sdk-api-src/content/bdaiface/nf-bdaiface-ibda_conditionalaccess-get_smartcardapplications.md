@@ -71,7 +71,7 @@ The maximum number of smart card applications that the <i>rgApplications</i> buf
 
 ### -param rgApplications [in, out]
 
-Pointer to a buffer that receives an array of smart card applications. Each array element is a <a href="https://msdn.microsoft.com/en-us/library/Dd695291(v=VS.85).aspx">SmartCardApplication</a> structure.
+Pointer to a buffer that receives an array of smart card applications. Each array element is a <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/ns-bdaiface-smartcardapplication">SmartCardApplication</a> structure.
           
 
 
@@ -98,7 +98,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693261(v=VS.85).aspx">IBDA_ConditionalAccess Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_conditionalaccess">IBDA_ConditionalAccess Interface</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the <a href="https://msdn.microsoft.com/en-us/library/ms688628(v=VS.85).aspx">CLSID</a> for the document type of the URL item being processed.
+Gets the <a href="https://docs.microsoft.com/windows/desktop/com/clsid">CLSID</a> for the document type of the URL item being processed.
         
 
 
@@ -62,7 +62,7 @@ Gets the <a href="https://msdn.microsoft.com/en-us/library/ms688628(v=VS.85).asp
 
 Type: <b>CLSID*</b>
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms688628(v=VS.85).aspx">CLSID</a> for the document type of the URL item being processed. 
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/com/clsid">CLSID</a> for the document type of the URL item being processed. 
                 
 
 

@@ -77,7 +77,7 @@ The Peer Distribution service  is available and ready to process  requests.
 
 
 
-<a href="https://msdn.microsoft.com/1ab188cc-db79-49b2-977f-0b8fccf7f274">PeerDistGetStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistgetstatus">PeerDistGetStatus</a>
  
 
  

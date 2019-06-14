@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>SelectTerminal</b> method selects an 
-<a href="https://msdn.microsoft.com/38bc30fa-3e4e-417a-9d04-931ba2451fa4">ITTerminal</a> object onto the substream. See the Remarks section under 
-<a href="https://msdn.microsoft.com/ecc4c7eb-c278-457a-b54e-5f1e582e22bf">ITStream::SelectTerminal</a> for additional information.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a> object onto the substream. See the Remarks section under 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstream-selectterminal">ITStream::SelectTerminal</a> for additional information.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The
 ### -param pTerminal [in]
 
 Pointer to 
-<a href="https://msdn.microsoft.com/38bc30fa-3e4e-417a-9d04-931ba2451fa4">ITTerminal</a> interface of selected terminal.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a> interface of selected terminal.
 
 
 ## -returns
@@ -143,15 +143,15 @@ The terminal selected is not valid.
 
 
 
-<a href="https://msdn.microsoft.com/ecc4c7eb-c278-457a-b54e-5f1e582e22bf">ITStream::SelectTerminal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstream-selectterminal">ITStream::SelectTerminal</a>
 
 
 
-<a href="https://msdn.microsoft.com/fc495bc3-1172-4e39-b617-055b7ac95898">ITSubStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itsubstream">ITSubStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/53b7bcbd-571a-44da-a6db-10d4c3e5d30a">Media Service Provider Interface (MSPI)</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
  
 
  

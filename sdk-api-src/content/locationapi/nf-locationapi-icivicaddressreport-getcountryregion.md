@@ -105,7 +105,7 @@ The following example demonstrates how to call <b>GetCountryRegion</b>.
 
 
 
-<a href="https://msdn.microsoft.com/ba8c66cb-be94-4649-ada9-620ed3b35516">ICivicAddressReport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-icivicaddressreport">ICivicAddressReport</a>
  
 
  

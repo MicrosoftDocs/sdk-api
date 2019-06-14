@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Notifies the font object that the previously realized font identified with <i>hFont</i> should remain valid until <a href="https://msdn.microsoft.com/2c2cf2e0-d0c8-4e4f-ba5a-6b08650aee68">ReleaseHfont</a> is called or the font object itself is released completely.
+Notifies the font object that the previously realized font identified with <i>hFont</i> should remain valid until <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-releasehfont">ReleaseHfont</a> is called or the font object itself is released completely.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Notifies the font object that the previously realized font identified with <i>hF
 
 ### -param hFont [in]
 
-Font handle previously realized through <a href="https://msdn.microsoft.com/19bfd78a-0e81-45c3-a3b8-bc893669e9f5">get_hFont</a> to be locked in the font object's cache.
+Font handle previously realized through <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_hfont">get_hFont</a> to be locked in the font object's cache.
 
 
 ## -returns
@@ -95,15 +95,15 @@ The font was successfully locked in the cache.
 
 
 
-<a href="https://msdn.microsoft.com/3a04d2b7-b2eb-4c6c-8863-1e88321fa382">IFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
 
 
 
-<a href="https://msdn.microsoft.com/2c2cf2e0-d0c8-4e4f-ba5a-6b08650aee68">ReleaseHfont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-releasehfont">ReleaseHfont</a>
 
 
 
-<a href="https://msdn.microsoft.com/19bfd78a-0e81-45c3-a3b8-bc893669e9f5">get_hFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_hfont">get_hFont</a>
  
 
  

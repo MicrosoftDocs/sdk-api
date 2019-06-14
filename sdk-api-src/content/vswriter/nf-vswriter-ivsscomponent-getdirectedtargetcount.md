@@ -119,15 +119,15 @@ The caller is out of memory or other system resources.
 
 
 
-<a href="https://msdn.microsoft.com/c686a424-b0b9-4efc-8dc6-b92193de2a5d">IVssComponent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
 
 
-<a href="https://msdn.microsoft.com/927865ff-f3c4-4863-913e-cfffb7bbdbb2">IVssComponent::AddDirectedTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-adddirectedtarget">IVssComponent::AddDirectedTarget</a>
 
 
 
-<a href="https://msdn.microsoft.com/e25760b0-14e2-4f1b-b4ff-e7b78f0b7b12">IVssComponent::GetDirectedTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdirectedtarget">IVssComponent::GetDirectedTarget</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IsUpdateNeeded</b> method checks whether the persisted version of this authorization store is newer than the cached version. If the cached version of the store is newer, the calling application can update the cached version by calling the <a href="https://msdn.microsoft.com/1fd17040-f736-44a6-8a01-720f4c8fe9ac">UpdateCache</a> method of the <a href="https://msdn.microsoft.com/f848cca6-3838-46bc-b1f4-d6eab5096046">AzAuthorizationStore</a> object.
+The <b>IsUpdateNeeded</b> method checks whether the persisted version of this authorization store is newer than the cached version. If the cached version of the store is newer, the calling application can update the cached version by calling the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-updatecache">UpdateCache</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore">AzAuthorizationStore</a> object.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ The <b>IsUpdateNeeded</b> method checks whether the persisted version of this au
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an error code. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the position of a list-view item. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/en-us/library/Bb761048(v=VS.85).aspx">LVM_GETITEMPOSITION</a> message. 
+Gets the position of a list-view item. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getitemposition">LVM_GETITEMPOSITION</a> message. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets the position of a list-view item. You can use this macro or explicitly send
 
 ### -param hwndLV
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control. 
 
@@ -73,7 +73,7 @@ The index of the list-view item.
 
 ### -param ppt
 
-Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure that receives the position of the item's upper-left corner, in view coordinates. 
+A pointer to a <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure that receives the position of the item's upper-left corner, in view coordinates. 
 

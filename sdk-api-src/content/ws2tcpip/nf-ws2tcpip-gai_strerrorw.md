@@ -54,9 +54,9 @@ ms.custom: 19H1
 
 The 
 <b>gai_strerror</b> function assists in printing error messages based on the EAI_* errors returned by the 
-<a href="https://msdn.microsoft.com/7034b866-346e-4a3b-b81b-72816d95b1d6">getaddrinfo</a> function. Note that the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a> function. Note that the 
 <b>gai_strerror</b> function is not thread safe, and therefore, use of traditional Windows Sockets functions such as the 
-<a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a> function is recommended.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> function is recommended.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ The
 ### -param ecode [in]
 
 Error code from the list of available 
-<a href="https://msdn.microsoft.com/7034b866-346e-4a3b-b81b-72816d95b1d6">getaddrinfo</a> error codes. For a complete listing of error codes, see the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a> error codes. For a complete listing of error codes, see the 
 <b>getaddrinfo</b> function.
 
 
@@ -76,7 +76,7 @@ Error code from the list of available
 
 
 If the <i>ecode</i> parameter is not an error code value that 
-<a href="https://msdn.microsoft.com/7034b866-346e-4a3b-b81b-72816d95b1d6">getaddrinfo</a> returns, the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a> returns, the 
 <b>gai_strerror</b> function returns a pointer to a string that indicates an unknown error.
 
 
@@ -87,19 +87,19 @@ If the <i>ecode</i> parameter is not an error code value that
 
 
 
-<a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>
 
 
 
-<a href="https://msdn.microsoft.com/edafb5f9-09fe-4f8e-9651-4002b6f622f4">Winsock Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/baae2bf9-f505-4365-b60e-e3247a0218c8">Winsock Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/7034b866-346e-4a3b-b81b-72816d95b1d6">getaddrinfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a>
  
 
  

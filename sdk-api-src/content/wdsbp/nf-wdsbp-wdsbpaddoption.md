@@ -59,7 +59,7 @@ Adds an option to the packet.
 
 ### -param hHandle [in]
 
-A handle returned by the <a href="https://msdn.microsoft.com/a77cbdf5-9025-4e98-8edd-1b9bae8493e7">WdsBpInitialize</a> function.
+A handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wdsbp/nf-wdsbp-wdsbpinitialize">WdsBpInitialize</a> function.
 
 
 ### -param uOption [in]

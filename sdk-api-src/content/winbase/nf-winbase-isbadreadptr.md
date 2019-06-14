@@ -102,15 +102,15 @@ In a preemptive multitasking environment, it is possible for some other thread t
 
 
 
-<a href="https://msdn.microsoft.com/001b8972-6a7f-4964-af8d-a6f31ea3a525">IsBadCodePtr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-isbadcodeptr">IsBadCodePtr</a>
 
 
 
-<a href="https://msdn.microsoft.com/ec708f97-36c8-4484-96d7-b8dfb8578667">IsBadStringPtr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-isbadstringptra">IsBadStringPtr</a>
 
 
 
-<a href="https://msdn.microsoft.com/2b353a8e-45cf-4108-9522-bcbde9c71ec4">IsBadWritePtr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-isbadwriteptr">IsBadWritePtr</a>
  
 
  

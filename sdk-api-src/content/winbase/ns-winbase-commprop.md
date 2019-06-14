@@ -901,7 +901,7 @@ Any provider-specific data. Applications should ignore this member unless they h
        about the format of the data required by the provider.
 
 Set this member to <b>COMMPROP_INITIALIZED</b> before calling the 
-       <a href="https://msdn.microsoft.com/dbbf55d6-d369-4b28-bdc7-1fd9a736e658">GetCommProperties</a> function to indicate that the 
+       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcommproperties">GetCommProperties</a> function to indicate that the 
        <b>wPacketLength</b> member is already valid.
 
 
@@ -942,7 +942,7 @@ If the provider subtype is <b>PST_MODEM</b>, these members are used as follows.
 </tr>
 <tr>
 <td><b>wcProvChar</b></td>
-<td>Contains a <a href="https://msdn.microsoft.com/7e9e37c7-416d-4550-87e3-7412cff9a49e">MODEMDEVCAPS</a> structure.</td>
+<td>Contains a <a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-_modemdevcaps">MODEMDEVCAPS</a> structure.</td>
 </tr>
 </table>
  
@@ -955,7 +955,7 @@ If the provider subtype is <b>PST_MODEM</b>, these members are used as follows.
 
 
 
-<a href="https://msdn.microsoft.com/dbbf55d6-d369-4b28-bdc7-1fd9a736e658">GetCommProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcommproperties">GetCommProperties</a>
  
 
  

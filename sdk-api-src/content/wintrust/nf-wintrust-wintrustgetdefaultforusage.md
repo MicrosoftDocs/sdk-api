@@ -72,7 +72,7 @@ Action to perform. This can be one of the following values. For more information
 </dl>
 </td>
 <td width="60%">
-Allocate memory and fill the <a href="https://msdn.microsoft.com/28A93F39-0CBC-432C-841B-83B54A50EA14">CRYPT_PROVIDER_DEFUSAGE</a> structure pointed to by the <i>psUsage</i> parameter.
+Allocate memory and fill the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_provider_defusage">CRYPT_PROVIDER_DEFUSAGE</a> structure pointed to by the <i>psUsage</i> parameter.
 
 </td>
 </tr>
@@ -97,14 +97,14 @@ Pointer to a string that contains the identifier.
 
 ### -param psUsage [in, out]
 
-Pointer to a <a href="https://msdn.microsoft.com/28A93F39-0CBC-432C-841B-83B54A50EA14">CRYPT_PROVIDER_DEFUSAGE</a> structure that contains callback information to be retrieved.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_provider_defusage">CRYPT_PROVIDER_DEFUSAGE</a> structure that contains callback information to be retrieved.
 
 
 ## -returns
 
 
 
-The return value is <b>TRUE</b> if the function succeeds; <b>FALSE</b>  if the function fails.   If the function fails, call the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function  to determine the reason for failure.
+The return value is <b>TRUE</b> if the function succeeds; <b>FALSE</b>  if the function fails.   If the function fails, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function  to determine the reason for failure.
 
 
 
@@ -113,9 +113,9 @@ The return value is <b>TRUE</b> if the function succeeds; <b>FALSE</b>  if the f
 
 
 
-Call this function once with the <i>dwAction</i> parameter set to <b>DWACTION_ALLOCANDFILL</b> to allocate memory and fill a <a href="https://msdn.microsoft.com/28A93F39-0CBC-432C-841B-83B54A50EA14">CRYPT_PROVIDER_DEFUSAGE</a> structure with information. Call this function again with the <i>dwAction</i> parameter set to <b>DWACTION_FREE</b> to free the allocated memory.
+Call this function once with the <i>dwAction</i> parameter set to <b>DWACTION_ALLOCANDFILL</b> to allocate memory and fill a <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_provider_defusage">CRYPT_PROVIDER_DEFUSAGE</a> structure with information. Call this function again with the <i>dwAction</i> parameter set to <b>DWACTION_FREE</b> to free the allocated memory.
 
-The default usage and callback information for a provider is registered by calling the <a href="https://msdn.microsoft.com/511D05BD-0F8C-45B8-A1B0-D3C7AAFECCFC">WintrustAddDefaultForUsage</a> function.
+The default usage and callback information for a provider is registered by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-wintrustadddefaultforusage">WintrustAddDefaultForUsage</a> function.
 
 
 
@@ -125,15 +125,15 @@ The default usage and callback information for a provider is registered by calli
 
 
 
-<a href="https://msdn.microsoft.com/28A93F39-0CBC-432C-841B-83B54A50EA14">CRYPT_PROVIDER_DEFUSAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_provider_defusage">CRYPT_PROVIDER_DEFUSAGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/A6047CBA-E4BA-4A31-B700-C368CFB57895">CRYPT_PROVIDER_REGDEFUSAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_provider_regdefusage">CRYPT_PROVIDER_REGDEFUSAGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/511D05BD-0F8C-45B8-A1B0-D3C7AAFECCFC">WintrustAddDefaultForUsage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-wintrustadddefaultforusage">WintrustAddDefaultForUsage</a>
  
 
  

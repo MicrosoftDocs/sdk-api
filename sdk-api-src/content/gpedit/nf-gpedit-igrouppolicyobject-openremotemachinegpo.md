@@ -94,8 +94,8 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the method r
 
 
 To retrieve the computer name of a remote GPO, you can call the 
-<a href="https://msdn.microsoft.com/6ac20718-45d4-4a45-a95e-d159e4d6dacc">GetMachineName</a> method. Call 
-<a href="https://msdn.microsoft.com/c986152b-59cd-4733-bcdd-ee7f0b6907ad">OpenLocalMachineGPO</a> to open the default GPO for a local computer.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-getmachinename">GetMachineName</a> method. Call 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-openlocalmachinegpo">OpenLocalMachineGPO</a> to open the default GPO for a local computer.
 
 
 
@@ -105,25 +105,25 @@ To retrieve the computer name of a remote GPO, you can call the
 
 
 
-<a href="https://msdn.microsoft.com/6ac20718-45d4-4a45-a95e-d159e4d6dacc">GetMachineName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-getmachinename">GetMachineName</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc15a69d-a44d-4731-a9e5-6165abd581c4">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-interfaces">Group Policy
     Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/1285ab5a-ea68-4c16-bc34-8ab2f3cfad35">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/b3cd31a1-c238-4eb2-8164-9c4891e6227b">IGroupPolicyObject</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igrouppolicyobject">IGroupPolicyObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/c986152b-59cd-4733-bcdd-ee7f0b6907ad">OpenLocalMachineGPO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-openlocalmachinegpo">OpenLocalMachineGPO</a>
  
 
  

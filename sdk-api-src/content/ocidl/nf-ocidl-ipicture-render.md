@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Renders (draws) a specified portion of the picture defined by the offset (<i>xSrc</i>,<i>ySrc</i>) of the source picture and the dimensions to copy (<i>cxSrc</i>,<i>xySrc</i>). This picture is rendered onto the specified device context, positioned at the point (<i>x</i>,<i>y</i>), and scaled to the dimensions (<i>cx</i>,<i>cy</i>). The <i>prcWBounds</i> parameter specifies the position of this rendering if the destination device context is itself a metafile. Such information is necessary to place one metafile in another. For more information, see the <i>prcWBounds</i> parameter of <a href="https://msdn.microsoft.com/913593ff-07fe-44bd-88dc-8e58da82089b">IViewObject2::Draw</a>.
+Renders (draws) a specified portion of the picture defined by the offset (<i>xSrc</i>,<i>ySrc</i>) of the source picture and the dimensions to copy (<i>cxSrc</i>,<i>xySrc</i>). This picture is rendered onto the specified device context, positioned at the point (<i>x</i>,<i>y</i>), and scaled to the dimensions (<i>cx</i>,<i>cy</i>). The <i>prcWBounds</i> parameter specifies the position of this rendering if the destination device context is itself a metafile. Such information is necessary to place one metafile in another. For more information, see the <i>prcWBounds</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject2::Draw</a>.
 
 
 ## -parameters
@@ -162,7 +162,7 @@ The parameter <i>cx</i>, <i>cy</i>, <i>cxSrc</i>, or <i>cySrc</i> has a value of
 
 
 
-<a href="https://msdn.microsoft.com/42e3cd0e-2413-494a-8be8-2952089e02d2">IPicture</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a>
  
 
  

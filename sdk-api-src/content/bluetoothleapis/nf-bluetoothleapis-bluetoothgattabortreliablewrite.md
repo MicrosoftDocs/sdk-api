@@ -65,7 +65,7 @@ Handle to the service.
 
 ### -param ReliableWriteContext [in]
 
-The context describing the reliable write operation returned from a previous call to <a href="https://msdn.microsoft.com/D053FD0C-3088-4C56-A4EA-F41079FAAF20">BluetoothGATTBeginReliableWrite</a>.
+The context describing the reliable write operation returned from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattbeginreliablewrite">BluetoothGATTBeginReliableWrite</a>.
 
 
 ### -param Flags [in]

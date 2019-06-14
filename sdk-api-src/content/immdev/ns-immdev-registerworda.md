@@ -76,7 +76,7 @@ Pointer to the word to register. If a word is not needed, the member can be set 
 
 
 
-The application can pass this structure to the <a href="https://msdn.microsoft.com/acefb3a0-82c7-4af6-8ef0-aba561f570c1">ImmConfigureIME</a> function to have the information or word appear as an initial value in the configuration dialog box for the IME.
+The application can pass this structure to the <a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immconfigureimea">ImmConfigureIME</a> function to have the information or word appear as an initial value in the configuration dialog box for the IME.
 
 
 
@@ -86,15 +86,15 @@ The application can pass this structure to the <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/acefb3a0-82c7-4af6-8ef0-aba561f570c1">ImmConfigureIME</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immconfigureimea">ImmConfigureIME</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e23e004-514a-4021-bd20-5ac55547258f">Input Method Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://msdn.microsoft.com/1be3ae8b-e083-4420-bc8a-7f49c4264cab">Input Method Manager Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-structures">Input Method Manager Structures</a>
  
 
  

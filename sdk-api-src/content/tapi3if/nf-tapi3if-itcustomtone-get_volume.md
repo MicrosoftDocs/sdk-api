@@ -107,11 +107,11 @@ The <i>plVolume</i> parameter is not a valid pointer.
 
 
 
-<a href="https://msdn.microsoft.com/f2c51048-93aa-4469-b00e-911e62b5702d">ITCustomTone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcustomtone">ITCustomTone</a>
 
 
 
-<a href="https://msdn.microsoft.com/2de6dbc3-9a3d-48e7-b9e1-56b3e25d1b60">put_Volume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcustomtone-put_volume">put_Volume</a>
  
 
  

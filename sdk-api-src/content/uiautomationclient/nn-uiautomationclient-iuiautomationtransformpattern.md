@@ -54,7 +54,7 @@ Provides access to  a control that can be moved, resized, or rotated.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationTransformPattern</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUIAutomationTransformPattern</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationTransformPattern</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationTransformPattern</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IUIAutomationTransformPattern</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6529de7b-cb7d-4e18-b274-bc6bf003f912">Move</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern-move">Move</a>
 </td>
 <td align="left" width="63%">
 Moves the UI Automation element.
@@ -79,7 +79,7 @@ Moves the UI Automation element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/af5611ef-d14c-44c2-8065-7c7581a16198">Resize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern-resize">Resize</a>
 </td>
 <td align="left" width="63%">
 Resizes the UI Automation element.
@@ -88,7 +88,7 @@ Resizes the UI Automation element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/97312397-dfea-435b-950d-6f346d5fa222">Rotate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern-rotate">Rotate</a>
 </td>
 <td align="left" width="63%">
 Rotates the UI Automation element.
@@ -106,7 +106,7 @@ Rotates the UI Automation element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/b2c91a4c-8f22-4ad8-8ce7-ed6469af4426">CachedCanMove</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern-get_cachedcanmove">CachedCanMove</a>
 
 
 </td>
@@ -122,7 +122,7 @@ Retrieves a cached value that indicates whether the element can be moved.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/2059daae-af25-4226-9a4d-a63e75c9ad14">CachedCanResize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern-get_cachedcanresize">CachedCanResize</a>
 
 
 </td>
@@ -138,7 +138,7 @@ Retrieves a cached value that indicates whether the element can be resized.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/2718fb12-0cd9-48e3-8c45-f58c45b474eb">CachedCanRotate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern-get_cachedcanrotate">CachedCanRotate</a>
 
 
 </td>
@@ -154,7 +154,7 @@ Retrieves a cached value that indicates whether the element can be rotated.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c8b198a7-2b07-4dab-9cb5-95cf8f73cb57">CurrentCanMove</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern-get_currentcanmove">CurrentCanMove</a>
 
 
 </td>
@@ -170,7 +170,7 @@ Indicates whether the element can be moved.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/2ad057b2-d382-45e0-be98-3897e5f31668">CurrentCanResize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern-get_currentcanresize">CurrentCanResize</a>
 
 
 </td>
@@ -186,7 +186,7 @@ Indicates whether the element can be resized.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/e6e5d5da-24f2-4b76-854c-756fb7f6661a">CurrentCanRotate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern-get_currentcanrotate">CurrentCanRotate</a>
 
 
 </td>
@@ -207,7 +207,7 @@ Indicates whether the element can be rotated.
 
 
 
-<a href="https://msdn.microsoft.com/14358ef0-aa54-42c1-a3da-0f835f5f5ef6">Control Pattern Interfaces for Clients</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>
  
 
  

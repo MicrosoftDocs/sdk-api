@@ -71,7 +71,7 @@ Creates a queue for timers. Timer-queue timers are lightweight objects that enab
 If the function succeeds, the return value is a handle to the timer queue. This handle can be used only in functions that require a handle to a timer queue.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -81,21 +81,21 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 To add a timer to the queue, call the 
-<a href="https://msdn.microsoft.com/dfcbea5c-e2b7-40e4-b1a2-3cc7446d8844">CreateTimerQueueTimer</a> function. To remove a timer from the queue, call the 
-<a href="https://msdn.microsoft.com/d830fa1f-504a-4921-865c-34dbf0256720">DeleteTimerQueueTimer</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer">CreateTimerQueueTimer</a> function. To remove a timer from the queue, call the 
+<a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueuetimer">DeleteTimerQueueTimer</a> function.
 
 When you are finished with the queue of timers, call the 
-<a href="https://msdn.microsoft.com/782f85df-b176-4bff-a048-d7fcdd8196b0">DeleteTimerQueueEx</a> function to delete the timer queue. Any pending timers in the queue are canceled and deleted.
+<a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueueex">DeleteTimerQueueEx</a> function to delete the timer queue. Any pending timers in the queue are canceled and deleted.
 
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0500 or later. For more information, see 
-<a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 #### Examples
 
 For an example that uses 
 <b>CreateTimerQueue</b>, see 
-<a href="https://msdn.microsoft.com/779156fe-f825-452b-acbe-e2cb189e24d2">Using Timer Queues</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Sync/using-timer-queues">Using Timer Queues</a>.
 
 <div class="code"></div>
 
@@ -106,27 +106,27 @@ For an example that uses
 
 
 
-<a href="https://msdn.microsoft.com/dfcbea5c-e2b7-40e4-b1a2-3cc7446d8844">CreateTimerQueueTimer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer">CreateTimerQueueTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/782f85df-b176-4bff-a048-d7fcdd8196b0">DeleteTimerQueueEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueueex">DeleteTimerQueueEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/d830fa1f-504a-4921-865c-34dbf0256720">DeleteTimerQueueTimer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueuetimer">DeleteTimerQueueTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b6359c2-0113-49b6-83d0-316ad95aba1b">Synchronization Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/a5e52080-35d4-47f5-9050-90889e3bf2f8">Thread Pooling</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-pooling">Thread Pooling</a>
 
 
 
-<a href="https://msdn.microsoft.com/ee85a6c3-3a1d-4f94-9112-cb8247b2a189">Timer Queues</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/timer-queues">Timer Queues</a>
  
 
  

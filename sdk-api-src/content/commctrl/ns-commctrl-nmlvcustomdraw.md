@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information specific to an <a href="https://msdn.microsoft.com/en-us/library/Bb774865(v=VS.85).aspx">NM_CUSTOMDRAW (list view)</a> notification code sent by a list-view control. 
+Contains information specific to an <a href="https://docs.microsoft.com/windows/desktop/Controls/nm-customdraw-list-view">NM_CUSTOMDRAW (list view)</a> notification code sent by a list-view control. 
 
 
 ## -struct-fields
@@ -59,24 +59,24 @@ Contains information specific to an <a href="https://msdn.microsoft.com/en-us/li
 
 ### -field nmcd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775483(v=VS.85).aspx">NMCUSTOMDRAW</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagnmcustomdrawinfo">NMCUSTOMDRAW</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775483(v=VS.85).aspx">NMCUSTOMDRAW</a> structure that contains general custom draw information. 
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagnmcustomdrawinfo">NMCUSTOMDRAW</a> structure that contains general custom draw information. 
 
 
 ### -field clrText
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 <b>COLORREF</b> value representing the color that will be used to display text foreground in the list-view control. 
 
 
 ### -field clrTextBk
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
-<b>COLORREF</b> value representing the color that will be used to display text background in the list-view control. In <a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.0., </a> this member is ignored if the background image is set with the <a href="https://msdn.microsoft.com/en-us/library/Bb761155(v=VS.85).aspx">LVM_SETBKIMAGE</a> message. 
+<b>COLORREF</b> value representing the color that will be used to display text background in the list-view control. In <a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 6.0., </a> this member is ignored if the background image is set with the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setbkimage">LVM_SETBKIMAGE</a> message. 
 
 
 ### -field iSubItem
@@ -84,15 +84,15 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Type: <b>int</b>
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 4.71.</a> Index of the subitem that is being drawn. If the main item is being drawn, this member will be zero. 
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.71.</a> Index of the subitem that is being drawn. If the main item is being drawn, this member will be zero. 
 
 
 ### -field dwItemType
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.0. </a> 
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 6.0. </a> 
 					<b>DWORD</b> that contains the type of the item to draw. This member can be one of the following values. 
 
 <table>
@@ -136,10 +136,10 @@ Every item is to be drawn.
 
 ### -field clrFace
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.0.</a> 
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 6.0.</a> 
 					<b>COLORREF</b> value representing the color that will be used to display the face of an item. 
 
 
@@ -148,7 +148,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Type: <b>int</b>
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.0.</a>  
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 6.0.</a>  
 					Value of type <b>int</b> that specifies the effect that is applied to an icon, such as Glow, Shadow, or Pulse. 
 
 
@@ -157,7 +157,7 @@ Type: <b>int</b>
 Type: <b>int</b>
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.0.</a>  
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 6.0.</a>  
 					Value of type <b>int</b> that specifies the phase of an icon. 
 
 
@@ -166,7 +166,7 @@ Type: <b>int</b>
 Type: <b>int</b>
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.0.</a>  
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 6.0.</a>  
 					Value of type <b>int</b> that specifies the ID of the part of an item to draw. 
 
 
@@ -175,7 +175,7 @@ Type: <b>int</b>
 Type: <b>int</b>
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.0.</a>  
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 6.0.</a>  
 					Value of type <b>int</b> that specifies the ID of the state of an item to draw. 
 
 
@@ -184,16 +184,16 @@ Type: <b>int</b>
 Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.0.</a>  
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 6.0.</a>  
 					<b>RECT</b> that specifies the rectangle in which the text is to be drawn. 
 
 
 ### -field uAlign
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.0.</a>  
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 6.0.</a>  
 					<b>UINT</b> that specifies how a group should be aligned. This member can be one of the following values. 
 
 <table>
@@ -239,7 +239,7 @@ Align the group on the right.
 
 
 
-<div class="alert"><b>Note</b>  Comctl32.dll version 6 is not redistributable but it is included in Windows or later. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.</div>
+<div class="alert"><b>Note</b>  Comctl32.dll version 6 is not redistributable but it is included in Windows or later. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.</div>
 <div> </div>
 
 

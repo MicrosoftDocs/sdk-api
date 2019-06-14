@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>get_CallHub</b> method returns a pointer to the 
-<a href="https://msdn.microsoft.com/bdc91cac-c0ec-4484-a415-8cd1aa1e18e8">ITCallHub</a> interface on which the event occurred.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallhub">ITCallHub</a> interface on which the event occurred.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param ppCallHub [out]
 
  Pointer to 
-<a href="https://msdn.microsoft.com/bdc91cac-c0ec-4484-a415-8cd1aa1e18e8">ITCallHub</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallhub">ITCallHub</a> interface.
 
 
 ## -returns
@@ -120,15 +120,15 @@ The <i>ppCallHub</i> parameter is not a valid pointer.
 
 
 
-<a href="https://msdn.microsoft.com/ea23ae25-2fbb-4060-8273-cd7921d49e52">CallHub Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/callhub-object">CallHub Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/bdc91cac-c0ec-4484-a415-8cd1aa1e18e8">ITCallHub</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallhub">ITCallHub</a>
 
 
 
-<a href="https://msdn.microsoft.com/75a711e4-21b2-40a4-81f0-a210829178b9">ITPrivateEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itprivateevent">ITPrivateEvent</a>
  
 
  

@@ -59,13 +59,13 @@ The
 <b>IExtendPropertySheet2</b> has the following method:
 
 
-<a href="https://msdn.microsoft.com/caecb35a-3f59-4a04-af46-862ded9685cf">IExtendPropertySheet2::GetWatermarks</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendpropertysheet2-getwatermarks">IExtendPropertySheet2::GetWatermarks</a>
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExtendPropertySheet2</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IExtendPropertySheet2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExtendPropertySheet2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExtendPropertySheet2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -80,7 +80,7 @@ The <b>IExtendPropertySheet2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/14c4f088-ad94-48a1-8c6d-a199b2938074">CreatePropertyPages</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814847(v=vs.85)">CreatePropertyPages</a>
 </td>
 <td align="left" width="63%">
 Adds pages to a property sheet.
@@ -89,7 +89,7 @@ Adds pages to a property sheet.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/caecb35a-3f59-4a04-af46-862ded9685cf">GetWatermarks</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendpropertysheet2-getwatermarks">GetWatermarks</a>
 </td>
 <td align="left" width="63%">
 Gets the watermark and header bitmap for the Wizard 97 style.
@@ -98,7 +98,7 @@ Gets the watermark and header bitmap for the Wizard 97 style.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/17d45a0b-a0cc-407e-815f-0e733c988d69">QueryPagesFor</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814849(v=vs.85)">QueryPagesFor</a>
 </td>
 <td align="left" width="63%">
 Determines whether the object needs pages.
@@ -113,7 +113,7 @@ Determines whether the object needs pages.
 
 
 
-<a href="https://msdn.microsoft.com/b41508bf-8399-44bb-abad-754aa5d32776">Adding Property Pages and Wizard Pages</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/adding-property-pages-and-wizard-pages">Adding Property Pages and Wizard Pages</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>QOS_EVENT</b> enum describes quality of service (QOS) events. The 
-<a href="https://msdn.microsoft.com/8e0f4705-6614-4973-85bd-21abd17bd7fe">ITQOSEvent::get_Event</a> method returns a member of this enum to indicate the type of QOS event that occurred.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itqosevent-get_event">ITQOSEvent::get_Event</a> method returns a member of this enum to indicate the type of QOS event that occurred.
 
 
 ## -enum-fields
@@ -89,19 +89,19 @@ Unspecified QOS error.
 
 
 
-<a href="https://msdn.microsoft.com/f1e6ef32-5706-4b1c-a1fa-a7be48fd6efd">ITBasicCallControl::SetQOS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-setqos">ITBasicCallControl::SetQOS</a>
 
 
 
-<a href="https://msdn.microsoft.com/6e3a8aef-bd76-4047-9018-801a3cab2c62">ITQOSEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itqosevent">ITQOSEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e0f4705-6614-4973-85bd-21abd17bd7fe">ITQOSEvent::get_Event</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itqosevent-get_event">ITQOSEvent::get_Event</a>
 
 
 
-<a href="https://msdn.microsoft.com/8b0a93ab-6445-4c60-9d27-552c355c1355">QOS_SERVICE_LEVEL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-qos_service_level">QOS_SERVICE_LEVEL</a>
  
 
  

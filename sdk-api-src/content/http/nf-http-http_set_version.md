@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>HTTP_SET_VERSION</b> macro sets a specified 
-<a href="https://msdn.microsoft.com/8f97410c-27b5-4225-849e-ee55e4c5f762">HTTP_VERSION</a> structure to a specified major/minor version combination.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_version">HTTP_VERSION</a> structure to a specified major/minor version combination.
 
 
 ## -parameters
@@ -62,17 +62,17 @@ The
 ### -param version
 
 The 
-<a href="https://msdn.microsoft.com/8f97410c-27b5-4225-849e-ee55e4c5f762">HTTP_VERSION</a> structure to be set.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_version">HTTP_VERSION</a> structure to be set.
 
 
 ### -param major
 
-The major portion of the version to be used in the <a href="https://msdn.microsoft.com/8f97410c-27b5-4225-849e-ee55e4c5f762">HTTP_VERSION</a> structure.
+The major portion of the version to be used in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_version">HTTP_VERSION</a> structure.
 
 
 ### -param minor
 
-The minor portion of the version to be used in the <a href="https://msdn.microsoft.com/8f97410c-27b5-4225-849e-ee55e4c5f762">HTTP_VERSION</a> structure.
+The minor portion of the version to be used in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_version">HTTP_VERSION</a> structure.
 
 
 ## -see-also
@@ -80,11 +80,11 @@ The minor portion of the version to be used in the <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/9c5fb0a4-fda8-4489-8a1e-c232079bd501">HTTP Server API Version 1.0 Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-macros">HTTP Server API Version 1.0 Macros</a>
 
 
 
-<a href="https://msdn.microsoft.com/8f97410c-27b5-4225-849e-ee55e4c5f762">HTTP_VERSION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_version">HTTP_VERSION</a>
  
 
  

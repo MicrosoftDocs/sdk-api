@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>capGetStatus</b> macro retrieves the status of the capture window. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/31349599-a52c-45ba-8f08-91008773f317">WM_CAP_GET_STATUS</a> message.
+The <b>capGetStatus</b> macro retrieves the status of the capture window. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-get-status">WM_CAP_GET_STATUS</a> message.
 
 
 
@@ -67,7 +67,7 @@ Handle to a capture window.
 
 ### -param s
 
-Pointer to a <a href="https://msdn.microsoft.com/65ad6e33-c601-4026-a5a4-2c68576d7ab7">CAPSTATUS</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-tagcapstatus">CAPSTATUS</a> structure.
 
 
 ### -param wSize
@@ -79,7 +79,7 @@ Size, in bytes, of the structure referenced by <i>s</i>.
 
 
 
-The <a href="https://msdn.microsoft.com/65ad6e33-c601-4026-a5a4-2c68576d7ab7">CAPSTATUS</a> structure contains the current state of the capture window. Since this state is dynamic and changes in response to various messages, the application should initialize this structure after sending the <a href="https://msdn.microsoft.com/542913e8-c3f4-4ea5-afa0-035af6f3126e">capDlgVideoFormat</a> macro and whenever it needs to enable menu items or determine the actual state of the window.
+The <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-tagcapstatus">CAPSTATUS</a> structure contains the current state of the capture window. Since this state is dynamic and changes in response to various messages, the application should initialize this structure after sending the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capdlgvideoformat">capDlgVideoFormat</a> macro and whenever it needs to enable menu items or determine the actual state of the window.
 
 
 
@@ -89,11 +89,11 @@ The <a href="https://msdn.microsoft.com/65ad6e33-c601-4026-a5a4-2c68576d7ab7">CA
 
 
 
-<a href="https://msdn.microsoft.com/c93ecc51-e2c5-4b69-8625-c8385d53fab2">Video Capture</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://msdn.microsoft.com/21061f06-d58b-4800-a9f5-9821494fabd6">Video Capture Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>SetPlayOffset</b> method sets the play offset of the object, in the units pertinent to the object. This specifies the starting point for the next invocation of <a href="https://msdn.microsoft.com/09ca1922-3b33-47a8-a851-a1d221a568b9">IMDSPDeviceControl::Play</a>.
+The <b>SetPlayOffset</b> method sets the play offset of the object, in the units pertinent to the object. This specifies the starting point for the next invocation of <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-play">IMDSPDeviceControl::Play</a>.
 
 
 
@@ -77,7 +77,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 
 
@@ -88,7 +88,7 @@ For an extensive list of possible error codes, see <a href="https://msdn.microso
 
 If the value passed is greater than the total length of the object minus the current play length, it is clipped to the length of the object minus the play length.
 
-For playable files, the value is specified in milliseconds. The play offset position value does not change when the user starts playing a file on the media device or when an application invokes the <a href="https://msdn.microsoft.com/09ca1922-3b33-47a8-a851-a1d221a568b9">IMDSPDeviceControl::Play</a> method.
+For playable files, the value is specified in milliseconds. The play offset position value does not change when the user starts playing a file on the media device or when an application invokes the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-play">IMDSPDeviceControl::Play</a> method.
 
 For folders or file systems containing playable files, the value indicates the first track that is played when an application invokes the <b>IMDSPDeviceControl::Play</b> method.
 
@@ -100,11 +100,11 @@ For folders or file systems containing playable files, the value indicates the f
 
 
 
-<a href="https://msdn.microsoft.com/f0003b14-7ae7-4822-befe-6bb1779328ec">IMDSPObjectInfo Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspobjectinfo">IMDSPObjectInfo Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e801b95-aa44-4275-8a21-f68fbf6240f1">IMDSPObjectInfo::GetPlayOffset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobjectinfo-getplayoffset">IMDSPObjectInfo::GetPlayOffset</a>
  
 
  

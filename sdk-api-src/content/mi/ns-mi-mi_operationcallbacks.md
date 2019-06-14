@@ -118,35 +118,35 @@ is not set, i.e. set to <b>NULL</b>, the operation will be carried out synchrono
 
 
 
-<a href="https://msdn.microsoft.com/5CC9464F-1F50-405C-955E-F4CD18837CEC">MI_OperationCallback_Class</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn792325(v=vs.85)">MI_OperationCallback_Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/737532E8-498A-4256-AFC9-0E91183BD9F6">MI_OperationCallback_Indication</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn792326(v=vs.85)">MI_OperationCallback_Indication</a>
 
 
 
-<a href="https://msdn.microsoft.com/DE36AC5F-4F22-4E38-BB26-F1CAADDB014C">MI_OperationCallback_Instance</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn792327(v=vs.85)">MI_OperationCallback_Instance</a>
 
 
 
-<a href="https://msdn.microsoft.com/EF6DA690-B84F-40BA-A455-6AE745644057">MI_OperationCallback_PromptUser</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn792328(v=vs.85)">MI_OperationCallback_PromptUser</a>
 
 
 
-<a href="https://msdn.microsoft.com/BDD04E51-C168-4143-8A58-18402C7F12A0">MI_OperationCallback_StreamedParameter</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn792329(v=vs.85)">MI_OperationCallback_StreamedParameter</a>
 
 
 
-<a href="https://msdn.microsoft.com/B2BF45DD-4E6F-4691-B2DD-B941A636A89D">MI_OperationCallback_WriteError</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn792330(v=vs.85)">MI_OperationCallback_WriteError</a>
 
 
 
-<a href="https://msdn.microsoft.com/2B769AAA-4FC8-4324-A0A9-DB24D41D957B">MI_OperationCallback_WriteMessage</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn759645(v=vs.85)">MI_OperationCallback_WriteMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/B0AC5AB7-B635-4A95-AEBB-33B7AE633B40">MI_OperationCallback_WriteProgress</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn759646(v=vs.85)">MI_OperationCallback_WriteProgress</a>
  
 
  

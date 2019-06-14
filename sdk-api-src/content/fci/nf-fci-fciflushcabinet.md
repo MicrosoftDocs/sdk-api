@@ -59,7 +59,7 @@ The <b>FCIFlushCabinet</b> function completes the current cabinet.
 
 ### -param hfci [in]
 
-A valid FCI context handle returned by the<a href="https://msdn.microsoft.com/bfcea06d-2f09-405c-955c-0f56149148f2">FCICreate</a> function.
+A valid FCI context handle returned by the<a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a> function.
 
 
 ### -param fGetNextCab [in]
@@ -69,12 +69,12 @@ Specifies whether the function pointed to by the supplied <i>GetNextCab</i> para
 
 ### -param pfnfcignc [in]
 
-Pointer to an application-defined callback function to obtain specifications on the next cabinet to create. The function should be declared using the <a href="https://msdn.microsoft.com/d56fb63e-91bf-4991-a954-176211697a2e">FNFCIGETNEXTCABINET</a> macro.
+Pointer to an application-defined callback function to obtain specifications on the next cabinet to create. The function should be declared using the <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fnfcigetnextcabinet">FNFCIGETNEXTCABINET</a> macro.
 
 
 ### -param pfnfcis [in]
 
-Pointer to an application-defined callback function to update the user. The function should be declared using the <a href="https://msdn.microsoft.com/529fd3c8-9783-4dbe-9268-a9137935cf9b">FNFCISTATUS</a> macro.
+Pointer to an application-defined callback function to update the user. The function should be declared using the <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fnfcistatus">FNFCISTATUS</a> macro.
 
 
 ## -returns
@@ -83,7 +83,7 @@ Pointer to an application-defined callback function to update the user. The func
 
 If the function succeeds, it returns <b>TRUE</b>; otherwise, <b>FALSE</b>.
 
-Extended error information is provided in the <a href="https://msdn.microsoft.com/ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b">ERF</a> structure used to create the FCI context.
+Extended error information is provided in the <a href="https://docs.microsoft.com/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf">ERF</a> structure used to create the FCI context.
 
 
 
@@ -92,7 +92,7 @@ Extended error information is provided in the <a href="https://msdn.microsoft.co
 
 
 
-The <b>FCIFlushCabinet</b> API forces the current cabinet under construction to be completed immediately and then written to disk. Further calls to <a href="https://msdn.microsoft.com/f99e8718-853b-4d35-98ae-61a8333dbaba">FCIAddFile</a> will result in files being added to another cabinet.
+The <b>FCIFlushCabinet</b> API forces the current cabinet under construction to be completed immediately and then written to disk. Further calls to <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fciaddfile">FCIAddFile</a> will result in files being added to another cabinet.
 
  In the event the current cabinet has reached the application-specified media size limit, the pending data within an FCI's internal buffers will be placed into another cabinet.
 
@@ -106,7 +106,7 @@ The <i>fGetNextCab</i> flag determines whether the function pointed to by the <i
 
 
 
-<a href="https://msdn.microsoft.com/dc9c226e-e309-48c3-9edb-3f0a040c0c18">FCIFlushFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fciflushfolder">FCIFlushFolder</a>
  
 
  

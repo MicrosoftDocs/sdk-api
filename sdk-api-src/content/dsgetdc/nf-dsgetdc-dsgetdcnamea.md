@@ -93,7 +93,7 @@ If <i>DomainName</i> is <b>NULL</b> and the
 
 ### -param DomainGuid [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a> structure that specifies the 
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structure that specifies the 
     <b>GUID</b> of the domain queried. If <i>DomainGuid</i> is not 
   <b>NULL</b> and the domain specified by <i>DomainName</i> or 
   <i>ComputerName</i> cannot be found, 
@@ -292,8 +292,8 @@ Requires that the returned domain controller be currently running the Windows Ti
 When this flag is specified, <b>DsGetDcName</b> attempts to 
          find a domain controller in the same site as the caller. If no such domain controller is found,  it will find 
          a domain controller that can provide topology information and call 
-         <a href="https://msdn.microsoft.com/bd53124c-8578-495d-b540-d4b4c09297c3">DsBindToISTG</a> to obtain a bind handle, then call 
-         <a href="https://msdn.microsoft.com/7a4cbd1c-8445-4882-8559-d44b6e5693e7">DsQuerySitesByCost</a> over  UDP to determine the 
+         <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindtoistga">DsBindToISTG</a> to obtain a bind handle, then call 
+         <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsquerysitesbycosta">DsQuerySitesByCost</a> over  UDP to determine the 
          "next closest site," and finally cache the name of the site found. If no domain controller is found in that 
          site, then <b>DsGetDcName</b> falls back on the default method 
          of locating a domain controller.
@@ -335,10 +335,10 @@ Requires that the returned domain controller be currently running the Active Dir
 ### -param DomainControllerInfo [out]
 
 Pointer to a <b>PDOMAIN_CONTROLLER_INFO</b> value that receives a pointer to a 
-      <a href="https://msdn.microsoft.com/0c09fe26-ef53-48b1-8ac2-70ccb8f3e3e2">DOMAIN_CONTROLLER_INFO</a> structure that contains 
+      <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/ns-dsgetdc-_domain_controller_infoa">DOMAIN_CONTROLLER_INFO</a> structure that contains 
       data  about the domain controller selected. This structure is allocated by 
       <b>DsGetDcName</b>. The caller must free the structure using the 
-      <a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a> function when it is no longer 
+      <a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function when it is no longer 
       required.
 
 
@@ -448,7 +448,7 @@ Note that if the <b>DS_BACKGROUND_ONLY</b> flag is specified,
       if it is expired.
 
 <h3><a id="ETW_Tracing_in_DsGetDcName"></a><a id="etw_tracing_in_dsgetdcname"></a><a id="ETW_TRACING_IN_DSGETDCNAME"></a>ETW Tracing in DsGetDcName</h3>
-To turn on <a href="https://msdn.microsoft.com/F23E5516-36B9-478E-90D3-54D1C52CB467">ETW Tracing</a> for 
+To turn on <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/event-tracing">ETW Tracing</a> for 
       <b>DsGetDcName</b>, create the following registry key:
 
 
@@ -644,27 +644,27 @@ Run the following command to stop the trace session:
 
 
 
-<a href="https://msdn.microsoft.com/0c09fe26-ef53-48b1-8ac2-70ccb8f3e3e2">DOMAIN_CONTROLLER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/ns-dsgetdc-_domain_controller_infoa">DOMAIN_CONTROLLER_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/7b519c81-5a6c-470a-a525-1894efd53305">Directory Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/directory-service-functions">Directory Service Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/2dfffd9a-af4f-4a93-8b3c-966e4f7c455f">DsGetSiteName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetsitenamea">DsGetSiteName</a>
 
 
 
-<a href="https://msdn.microsoft.com/bed49e08-4cb7-439c-bfb7-815263ec7568">DsValidateSubnetName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsvalidatesubnetnamea">DsValidateSubnetName</a>
 
 
 
-<a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a>
+<a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a>
 
 
 
-<a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a>
 
 
 

@@ -70,7 +70,7 @@ The body of the event.
 
 ### -param pOperation [in]
 
-Reference to a <a href="https://msdn.microsoft.com/fcd4895d-5357-4b73-90b9-e506e3d7f16e">WSD_OPERATION</a> structure that specifies the operation. 
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_operation">WSD_OPERATION</a> structure that specifies the operation. 
 
 
 
@@ -103,7 +103,7 @@ Method completed successfully.
 </dl>
 </td>
 <td width="60%">
-The host is not started. Call <a href="https://msdn.microsoft.com/06fea296-2551-46b1-9cd7-54187bca5fe8">Start</a> to start the device host.
+The host is not started. Call <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-start">Start</a> to start the device host.
 
 </td>
 </tr>
@@ -138,7 +138,7 @@ The host is not started. Call <a href="https://msdn.microsoft.com/06fea296-2551-
 
 
 
-<a href="https://msdn.microsoft.com/497d0331-c88d-4381-8990-94227a9b9659">IWSDDeviceHost</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>
  
 
  

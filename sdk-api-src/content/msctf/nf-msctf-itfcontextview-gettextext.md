@@ -141,12 +141,12 @@ If the document window is minimized, or if the specified text is not currently v
 
 
 
-<a href="https://msdn.microsoft.com/edde0ba7-1d88-4c32-b794-761b66d73507">ITfContextOwner::GetTextExt
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextowner-gettextext">ITfContextOwner::GetTextExt
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/302d185d-dab7-4a77-a5cf-da2529d8b24a">ITfContextView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextview">ITfContextView</a>
  
 
  

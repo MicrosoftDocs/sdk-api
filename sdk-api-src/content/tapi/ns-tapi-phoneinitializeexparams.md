@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>PHONEINITIALIZEEXPARAMS</b> structure contains parameters used to establish the association between an application and TAPI; for example, the application's selected event notification mechanism. The 
-<a href="https://msdn.microsoft.com/362e37df-4b14-4651-8d23-b70613e354c8">phoneInitializeEx</a> function uses this structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneinitializeexa">phoneInitializeEx</a> function uses this structure.
 
 
 ## -struct-fields
@@ -77,7 +77,7 @@ Size of the portion of this data structure that contains useful information, in 
 ### -field dwOptions
 
 One of the 
-<a href="https://msdn.microsoft.com/7d8b122d-bebe-4904-abc8-d680b0899e25">PHONEINITIALIZEEXOPTION_ Constants</a>. Specifies the event notification mechanism the application desires to use.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/phoneinitializeexoption--constants">PHONEINITIALIZEEXOPTION_ Constants</a>. Specifies the event notification mechanism the application desires to use.
 
 
 ### -field Handles
@@ -91,13 +91,13 @@ If <b>dwOptions</b> specifies PHONEINITIALIZEEXOPTION_USEEVENT, TAPI returns the
 ### -field Handles.hCompletionPort
 
 If <b>dwOptions</b> specifies PHONEINITIALIZEEXOPTION_USECOMPLETIONPORT, the application must specify in this member the handle of an existing completion port opened using 
-<a href="https://msdn.microsoft.com/40cb47fc-7b15-47f6-bee2-2611d4686053">CreateIoCompletionPort</a>.
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/createiocompletionport">CreateIoCompletionPort</a>.
 
 
 ### -field dwCompletionKey
 
 If <b>dwOptions</b> specifies PHONEINITIALIZEEXOPTION_USECOMPLETIONPORT, the application must specify in this field a value that is returned through the <i>lpCompletionKey</i> parameter of 
-<a href="https://msdn.microsoft.com/8121a38b-0fe1-43b8-aed6-4b85af1feba9">GetQueuedCompletionStatus</a> to identify the completion message as a telephony message.
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> to identify the completion message as a telephony message.
 
 
 ## -remarks
@@ -105,7 +105,7 @@ If <b>dwOptions</b> specifies PHONEINITIALIZEEXOPTION_USECOMPLETIONPORT, the app
 
 
 See 
-<a href="https://msdn.microsoft.com/362e37df-4b14-4651-8d23-b70613e354c8">phoneInitializeEx</a> for further information on these options.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneinitializeexa">phoneInitializeEx</a> for further information on these options.
 
 
 
@@ -115,7 +115,7 @@ See
 
 
 
-<a href="https://msdn.microsoft.com/362e37df-4b14-4651-8d23-b70613e354c8">phoneInitializeEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneinitializeexa">phoneInitializeEx</a>
  
 
  

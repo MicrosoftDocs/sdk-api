@@ -84,9 +84,9 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 This function releases the existing error information object, if one exists, and sets the pointer to <i>perrinfo</i>. Use this function after creating an error object that associates the object with the current logical thread of execution.
 
-If the property or method that calls <b>SetErrorInfo</b> is called by <a href="https://msdn.microsoft.com/69b89e5c-2a04-4a6a-beb0-18e68f8866ac">DispInvoke</a>, then <b>DispInvoke</b> will fill the EXCEPINFO parameter with the values specified in the error information object. <b>DispInvoke</b> will return DISP_E_EXCEPTION when the property or method returns a failure return value for <b>DispInvoke</b>
+If the property or method that calls <b>SetErrorInfo</b> is called by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-dispinvoke">DispInvoke</a>, then <b>DispInvoke</b> will fill the EXCEPINFO parameter with the values specified in the error information object. <b>DispInvoke</b> will return DISP_E_EXCEPTION when the property or method returns a failure return value for <b>DispInvoke</b>
 
-Virtual function table (VTBL) binding controllers that do not use <a href="https://msdn.microsoft.com/964ade8e-9d8a-4d32-bd47-aa678912a54d">IDispatch::Invoke</a> can get the error information object by using <a href="https://msdn.microsoft.com/03317526-8c4f-4173-bc10-110c8112676a">GetErrorInfo</a>. This allows an object that supports a dual interface to use <b>SetErrorInfo</b>, regardless of whether the client uses VTBL binding or <a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>.
+Virtual function table (VTBL) binding controllers that do not use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">IDispatch::Invoke</a> can get the error information object by using <a href="https://docs.microsoft.com/windows/desktop/api/oleauto/nf-oleauto-geterrorinfo">GetErrorInfo</a>. This allows an object that supports a dual interface to use <b>SetErrorInfo</b>, regardless of whether the client uses VTBL binding or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>.
 
 
 
@@ -94,7 +94,7 @@ When a cross apartment call is made COM clears out any error object.
 
 
 
-Making a COM call that goes through a proxy-stub will clear any existing error object for the calling thread. A called object should not make any such calls after calling <b>SetErrorInfo</b> and before returning. The caller should not make any such calls after the call returns and before calling <a href="https://msdn.microsoft.com/03317526-8c4f-4173-bc10-110c8112676a">GetErrorInfo</a>. As a rule of thumb, an interface method should return as soon as possible after calling <b>SetErrorInfo</b>, and the caller should call <b>GetErrorInfo</b> as soon as possible after the call returns.
+Making a COM call that goes through a proxy-stub will clear any existing error object for the calling thread. A called object should not make any such calls after calling <b>SetErrorInfo</b> and before returning. The caller should not make any such calls after the call returns and before calling <a href="https://docs.microsoft.com/windows/desktop/api/oleauto/nf-oleauto-geterrorinfo">GetErrorInfo</a>. As a rule of thumb, an interface method should return as soon as possible after calling <b>SetErrorInfo</b>, and the caller should call <b>GetErrorInfo</b> as soon as possible after the call returns.
 
 
 

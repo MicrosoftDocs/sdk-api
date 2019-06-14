@@ -69,7 +69,7 @@ Flushes the buffers of a specified file and causes all buffered data to be writt
 A handle to the open file. 
 
 The file handle must have the <b>GENERIC_WRITE</b> access right. For more information, see 
-<a href="https://msdn.microsoft.com/991d7d94-fae7-406f-b2e3-dee811279366">File Security and Access Rights</a>.
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
 If <i>hFile</i> is a handle to a communications device, the function only flushes the transmit buffer.
 
@@ -83,9 +83,9 @@ If <i>hFile</i> is a handle to the server end of a named pipe, the function does
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-The function fails if <i>hFile</i> is a handle to the console output. That is because the console output is not buffered. The function returns <b>FALSE</b>, and <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns <b>ERROR_INVALID_HANDLE</b>.
+The function fails if <i>hFile</i> is a handle to the console output. That is because the console output is not buffered. The function returns <b>FALSE</b>, and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_INVALID_HANDLE</b>.
 
 
 
@@ -95,18 +95,18 @@ The function fails if <i>hFile</i> is a handle to the console output. That is be
 
 
 Typically the 
-<a href="https://msdn.microsoft.com/9d6fa723-fe3e-4052-b0b3-2686eee076a7">WriteFile</a> and 
-<a href="https://msdn.microsoft.com/6995c4ee-ba91-41d5-b72d-19dc2eb95945">WriteFileEx</a> functions write data to an internal buffer that the operating system writes to a disk or communication pipe on a regular basis. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a> functions write data to an internal buffer that the operating system writes to a disk or communication pipe on a regular basis. The 
 <b>FlushFileBuffers</b> function writes all the buffered information for a specified file to the device or pipe.
 
 Due to disk caching interactions within the system, the 
 <b>FlushFileBuffers</b> function can be inefficient when used after every write to a disk drive device when many writes are being performed separately. If an application is  performing multiple writes to disk and also needs to ensure critical data is 
-written to persistent media, the application should use unbuffered I/O  instead of frequently calling <b>FlushFileBuffers</b>. To open a file for unbuffered I/O, call the <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> function with the <b>FILE_FLAG_NO_BUFFERING</b> and <b>FILE_FLAG_WRITE_THROUGH</b> flags. This prevents the file contents from being cached and flushes the metadata to disk with each write. For more information, see <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>.
+written to persistent media, the application should use unbuffered I/O  instead of frequently calling <b>FlushFileBuffers</b>. To open a file for unbuffered I/O, call the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function with the <b>FILE_FLAG_NO_BUFFERING</b> and <b>FILE_FLAG_WRITE_THROUGH</b> flags. This prevents the file contents from being cached and flushes the metadata to disk with each write. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>.
 
 To flush all open files on a volume, call <b>FlushFileBuffers</b> with a handle to the volume. The caller must have administrative privileges. For more information, see 
-<a href="https://msdn.microsoft.com/b25db548-d5ab-4276-9b50-36d030909384">Running with Special Privileges</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>. 
 
-When opening a volume with <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>, the <i>lpFileName</i> string should be the following form: \\.\<i>x</i>: or \\?\Volume{<i>GUID</i>}. Do not use a trailing backslash in the volume name, because that indicates the root directory of a drive.  
+When opening a volume with <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>, the <i>lpFileName</i> string should be the following form: \\.\<i>x</i>: or \\?\Volume{<i>GUID</i>}. Do not use a trailing backslash in the volume name, because that indicates the root directory of a drive.  
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -172,7 +172,7 @@ Yes
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/4657e814-0e7f-45b5-8ddb-17ec0c3612ba">Multithreaded Pipe Server</a>.
+<a href="https://docs.microsoft.com/windows/desktop/ipc/multithreaded-pipe-server">Multithreaded Pipe Server</a>.
 
 <div class="code"></div>
 
@@ -183,19 +183,19 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9d6fa723-fe3e-4052-b0b3-2686eee076a7">WriteFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/6995c4ee-ba91-41d5-b72d-19dc2eb95945">WriteFileEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>DAD_DragEnterEx</b> is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use <a href="https://msdn.microsoft.com/en-us/library/Bb761526(v=VS.85).aspx">ImageList_DragEnter</a> instead.
+<p class="CCE_Message">[<b>DAD_DragEnterEx</b> is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_dragenter">ImageList_DragEnter</a> instead.
       ]
 
 Locks updates to the specified window during a drag operation and displays the drag image at the specified position within the window.
@@ -69,7 +69,7 @@ A handle to the window that owns the drag image.
 
 ### -param ptStart
 
-Type: <b>const <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
 
 The coordinates at which to begin displaying the drag image. The coordinates are relative to the upper-left corner of the window, not the client area.
 

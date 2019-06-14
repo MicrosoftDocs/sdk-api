@@ -61,17 +61,17 @@ Retrieves information about the event map contained in the event.
 
 ### -param pEvent [in]
 
-The event record passed to your <a href="https://msdn.microsoft.com/80a30faf-af1f-4440-8a17-9df44bdb2291">EventRecordCallback</a> callback. For details, see the <a href="https://msdn.microsoft.com/e352c1a7-39a2-43e3-a723-5fc6a3921ee8">EVENT_RECORD</a> structure.
+The event record passed to your <a href="https://docs.microsoft.com/windows/desktop/ETW/eventrecordcallback">EventRecordCallback</a> callback. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_record">EVENT_RECORD</a> structure.
 
 
 ### -param pMapName [in]
 
-Null-terminated Unicode string that contains the name of the map attribute value. The name comes from the <b>MapNameOffset</b> member of the <a href="https://msdn.microsoft.com/06b82b31-1f0e-45d5-88ec-9b9835af10df">EVENT_PROPERTY_INFO</a> structure. 
+Null-terminated Unicode string that contains the name of the map attribute value. The name comes from the <b>MapNameOffset</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_event_property_info">EVENT_PROPERTY_INFO</a> structure. 
 
 
 ### -param pBuffer [out]
 
-User-allocated buffer to receive the event map. The map could be a value map, bitmap, or pattern map. For details, see the <a href="https://msdn.microsoft.com/dc7f14e7-16d7-4dfc-8c1a-5db6fa999d98">EVENT_MAP_INFO</a> structure.
+User-allocated buffer to receive the event map. The map could be a value map, bitmap, or pattern map. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_event_map_info">EVENT_MAP_INFO</a> structure.
 
 
 ### -param pBufferSize [in, out]
@@ -162,7 +162,7 @@ For maps defined in a manifest, the string will contain a space at the end of th
 
 #### Examples
 
-For an example that shows how to call this function, see <a href="https://msdn.microsoft.com/16b36718-087f-4be9-9ca2-fc083358017b">Using TdhGetProperty to Consume Event Data</a>.
+For an example that shows how to call this function, see <a href="https://docs.microsoft.com/windows/desktop/ETW/using-tdhgetproperty-to-consume-event-data">Using TdhGetProperty to Consume Event Data</a>.
 
 <div class="code"></div>
 

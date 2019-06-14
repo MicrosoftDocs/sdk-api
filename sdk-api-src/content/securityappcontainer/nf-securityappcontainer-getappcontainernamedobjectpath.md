@@ -90,7 +90,7 @@ Returns the length required to accommodate the length of the named object path.
 
 If the function succeeds, the function returns a value of <b>TRUE</b>. 
 
-If the function fails, it returns a value of <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, it returns a value of <b>FALSE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -99,7 +99,7 @@ If the function fails, it returns a value of <b>FALSE</b>. To get extended error
 
 
 
-For assistive technology tools that work across Windows Store apps and desktop applications and have features that get loaded in the context of Windows Store apps, at times it may be necessary for the in-context feature to synchronize with the tool. Typically such synchronization is accomplished by establishing a named object in the user's session. Windows Store apps pose a challenge for this mechanism because, by default, named objects in the user's or global session are not accessible to Windows Store apps. We recommend that you update assistive technology tools to use <a href="https://msdn.microsoft.com/5ecbaaf0-704e-4c27-b3ce-b5436e577d62">UI Automation APIs</a> or <a href="https://msdn.microsoft.com/en-us/library/ms692162(v=VS.85).aspx">Magnification APIs</a> to avoid such pitfalls. In the interim, it may be necessary to continue using named objects.
+For assistive technology tools that work across Windows Store apps and desktop applications and have features that get loaded in the context of Windows Store apps, at times it may be necessary for the in-context feature to synchronize with the tool. Typically such synchronization is accomplished by establishing a named object in the user's session. Windows Store apps pose a challenge for this mechanism because, by default, named objects in the user's or global session are not accessible to Windows Store apps. We recommend that you update assistive technology tools to use <a href="https://docs.microsoft.com/windows/desktop/AppUIStart/user-interface-technologies-for-windows-applications">UI Automation APIs</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/magapi/entry-magapi-sdk">Magnification APIs</a> to avoid such pitfalls. In the interim, it may be necessary to continue using named objects.
 
 
 #### Examples

@@ -89,7 +89,7 @@ The component identifiers.
 
 ### -field SampleFactors
 
-The sample factors. Use one of the following constants, described in <a href="https://msdn.microsoft.com/6C0139F3-DA3E-4D7C-80D5-BC8C2D76C6A9">IWICJpegFrameDecode Constants</a>.
+The sample factors. Use one of the following constants, described in <a href="https://docs.microsoft.com/windows/desktop/wic/iwicjpegframedecode-constants">IWICJpegFrameDecode Constants</a>.
 
 <ul>
 <li>WIC_JPEG_SAMPLE_FACTORS_ONE</li>
@@ -101,7 +101,7 @@ The sample factors. Use one of the following constants, described in <a href="ht
 
 ### -field QuantizationTableIndices
 
-The format of the quantization table indices. Use one of the following constants, described in <a href="https://msdn.microsoft.com/6C0139F3-DA3E-4D7C-80D5-BC8C2D76C6A9">IWICJpegFrameDecode Constants</a>.
+The format of the quantization table indices. Use one of the following constants, described in <a href="https://docs.microsoft.com/windows/desktop/wic/iwicjpegframedecode-constants">IWICJpegFrameDecode Constants</a>.
 
 <ul>
 <li>WIC_JPEG_QUANTIZATION_BASELINE_ONE</li>
@@ -112,7 +112,7 @@ The format of the quantization table indices. Use one of the following constants
 
 
 
-Get the frame header for an image by calling <a href="https://msdn.microsoft.com/CE29251F-C2E2-422B-B6BD-034D6B479009">IWICJpegFrameDecode::GetFrameHeader</a>.
+Get the frame header for an image by calling <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-getframeheader">IWICJpegFrameDecode::GetFrameHeader</a>.
 
 
 
@@ -122,7 +122,7 @@ Get the frame header for an image by calling <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/CE29251F-C2E2-422B-B6BD-034D6B479009">IWICJpegFrameDecode::GetFrameHeader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-getframeheader">IWICJpegFrameDecode::GetFrameHeader</a>
  
 
  

@@ -54,8 +54,8 @@ This type description is used with template APIs to describe
       
 
 See also,
-        <a href="https://msdn.microsoft.com/09a6ee60-ffed-4bab-8747-61c9fee69695">WsCreateServiceProxyFromTemplate</a>,
-        <a href="https://msdn.microsoft.com/433194eb-ac42-4b6a-a1c0-7260a7aabeeb">WsCreateServiceEndpointFromTemplate</a>
+        <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreateserviceproxyfromtemplate">WsCreateServiceProxyFromTemplate</a>,
+        <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreateserviceendpointfromtemplate">WsCreateServiceEndpointFromTemplate</a>
 
 
 

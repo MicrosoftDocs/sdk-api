@@ -50,7 +50,7 @@ req.redist:
 
 Retrieves the results of a CSV control operation.
 
-To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
+To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
     function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -149,31 +149,31 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-<a href="https://msdn.microsoft.com/77A2106F-2C07-4A30-BA46-651F74032609">CSV_CONTROL_OP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_csv_control_op">CSV_CONTROL_OP</a>
 
 
 
-<a href="https://msdn.microsoft.com/B984F8CA-3548-4442-8D3B-B2F469F699E1">CSV_CONTROL_PARAM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_control_param">CSV_CONTROL_PARAM</a>
 
 
 
-<a href="https://msdn.microsoft.com/8CF62F9F-9429-435A-B79D-3A97249356A5">CSV_QUERY_FILE_REVISION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_query_file_revision">CSV_QUERY_FILE_REVISION</a>
 
 
 
-<a href="https://msdn.microsoft.com/478AE3FD-1668-46CE-876D-51E4BB679C87">CSV_QUERY_MDS_PATH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_query_mds_path">CSV_QUERY_MDS_PATH</a>
 
 
 
-<a href="https://msdn.microsoft.com/E628FFC2-B665-4160-AA63-9F027D4A2736">CSV_QUERY_REDIRECT_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_query_redirect_state">CSV_QUERY_REDIRECT_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/e27ded4b-d104-4244-b38e-5fed10d32e1e">File Management Control Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-control-codes">File Management Control Codes</a>
  
 
  

@@ -61,7 +61,7 @@ The
 ### -param RtmRegHandle [in]
 
 Handle to the client obtained from a previous call to 
-<a href="https://msdn.microsoft.com/2b952ea2-cf33-49e3-ae31-a14b0907a1b5">RtmRegisterEntity</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
 
 
 ### -param RouteHandle [in]
@@ -82,7 +82,7 @@ If a pointer does not need to be returned: On input, <i>RouteInfo</i> is <b>NULL
 ### -param DestAddress [out]
 
 If a pointer must be returned: On input, <i>DestAddress</i> is a pointer to <b>NULL</b>. On output, <i>DestAddress</i> receives a pointer to the destination's 
-<a href="https://msdn.microsoft.com/92c4e797-9b73-438d-b4df-9739fae9d5c8">RTM_NET_ADDRESS</a> structure; otherwise, <i>DestAddress</i> remains unchanged. 
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_net_address">RTM_NET_ADDRESS</a> structure; otherwise, <i>DestAddress</i> remains unchanged. 
 
 
 
@@ -129,7 +129,7 @@ The handle is invalid.
 
 
 When the routes are no longer required, release them by calling 
-<a href="https://msdn.microsoft.com/927d2a32-17bc-453c-b65b-144151bea902">RtmReleaseRouteInfo</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleaserouteinfo">RtmReleaseRouteInfo</a>.
 
 
 
@@ -139,15 +139,15 @@ When the routes are no longer required, release them by calling
 
 
 
-<a href="https://msdn.microsoft.com/92c4e797-9b73-438d-b4df-9739fae9d5c8">RTM_NET_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_net_address">RTM_NET_ADDRESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/7d9bf8c0-dc09-440a-b60d-97463c70a745">RTM_ROUTE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_route_info">RTM_ROUTE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/927d2a32-17bc-453c-b65b-144151bea902">RtmReleaseRouteInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleaserouteinfo">RtmReleaseRouteInfo</a>
  
 
  

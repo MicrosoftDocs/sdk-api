@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CertGetPublicKeyLength</b> function acquires the bit length of public/private keys from a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key BLOB</a>.
+The <b>CertGetPublicKeyLength</b> function acquires the bit length of public/private keys from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key BLOB</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>CertGetPublicKeyLength</b> function acquires the bit length of public/pri
 
 ### -param dwCertEncodingType [in]
 
-Specifies the encoding type used. It is always acceptable to specify both the certificate and <a href="https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
+Specifies the encoding type used. It is always acceptable to specify both the certificate and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
 
 X509_ASN_ENCODING | PKCS_7_ASN_ENCODING Currently defined encoding types are:
 
@@ -72,7 +72,7 @@ X509_ASN_ENCODING | PKCS_7_ASN_ENCODING Currently defined encoding types are:
 
 ### -param pPublicKey [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key BLOB</a> containing the keys for which the length is being retrieved.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key BLOB</a> containing the keys for which the length is being retrieved.
 
 
 ## -returns
@@ -81,7 +81,7 @@ A pointer to the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332
 
 Returns the length of the public/private keys in bits. If unable to determine the key's length, returns zero.
 
-Call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> to see the reason for any failures.
+Call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to see the reason for any failures.
 
 
 
@@ -91,7 +91,7 @@ Call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">G
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>
  
 
  

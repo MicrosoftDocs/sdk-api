@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>capPaletteAuto</b> macro requests that the capture driver sample video frames and automatically create a new palette. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/b94d245d-adf4-4fe0-b053-87109ef5fd2f">WM_CAP_PAL_AUTOCREATE</a> message.
+The <b>capPaletteAuto</b> macro requests that the capture driver sample video frames and automatically create a new palette. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-pal-autocreate">WM_CAP_PAL_AUTOCREATE</a> message.
 
 
 
@@ -89,11 +89,11 @@ The sampled video sequence should include all the colors you want in the palette
 
 
 
-<a href="https://msdn.microsoft.com/c93ecc51-e2c5-4b69-8625-c8385d53fab2">Video Capture</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://msdn.microsoft.com/21061f06-d58b-4800-a9f5-9821494fabd6">Video Capture Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
  
 
  

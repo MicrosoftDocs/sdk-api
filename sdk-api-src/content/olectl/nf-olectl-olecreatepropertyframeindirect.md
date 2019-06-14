@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a property frame, that is, a property sheet dialog box, based on a structure (<a href="https://msdn.microsoft.com/d65d8239-495c-4eee-bd9c-8e803fd09a06">OCPFIPARAMS</a>) that contains the parameters, rather than specifying separate parameters as when calling <a href="https://msdn.microsoft.com/06f75ac2-3ee6-4209-83cf-a4e5244a18bd">OleCreatePropertyFrame</a>.
+Creates a property frame, that is, a property sheet dialog box, based on a structure (<a href="https://docs.microsoft.com/windows/desktop/api/olectl/ns-olectl-tagocpfiparams">OCPFIPARAMS</a>) that contains the parameters, rather than specifying separate parameters as when calling <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatepropertyframe">OleCreatePropertyFrame</a>.
 
 
 ## -parameters
@@ -105,16 +105,16 @@ The address in <i>lpParams</i> is not valid. For example, it may be <b>NULL</b>.
 
 
 
-Besides <b>cbStructSize</b> (the size of the structure) and <b>dispIDInitialProperty</b>, all of the members of the <a href="https://msdn.microsoft.com/d65d8239-495c-4eee-bd9c-8e803fd09a06">OCPFIPARAMS</a> structure have the same semantics as the parameters for <a href="https://msdn.microsoft.com/06f75ac2-3ee6-4209-83cf-a4e5244a18bd">OleCreatePropertyFrame</a>. When <i>dispIDInitialProperty</i> is DISPID_UNKNOWN, the behavior of the two functions is identical.
+Besides <b>cbStructSize</b> (the size of the structure) and <b>dispIDInitialProperty</b>, all of the members of the <a href="https://docs.microsoft.com/windows/desktop/api/olectl/ns-olectl-tagocpfiparams">OCPFIPARAMS</a> structure have the same semantics as the parameters for <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatepropertyframe">OleCreatePropertyFrame</a>. When <i>dispIDInitialProperty</i> is DISPID_UNKNOWN, the behavior of the two functions is identical.
 
-Working in conjunction with <a href="https://msdn.microsoft.com/05e46df3-b6c8-4520-af11-21e1ff90fb9f">IPerPropertyBrowsing</a> and <a href="https://msdn.microsoft.com/65cd8f97-f88c-433c-b4e7-9dace7193ec1">IPropertyPage2</a>, <i>dispIDInitialProperty</i> allows the caller to specify which single property should be highlighted when the dialog box is made visible. This feature is not available when using <a href="https://msdn.microsoft.com/06f75ac2-3ee6-4209-83cf-a4e5244a18bd">OleCreatePropertyFrame</a>. To determine the page and property to show initially, the property frame will do the following: 
+Working in conjunction with <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iperpropertybrowsing">IPerPropertyBrowsing</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypage2">IPropertyPage2</a>, <i>dispIDInitialProperty</i> allows the caller to specify which single property should be highlighted when the dialog box is made visible. This feature is not available when using <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatepropertyframe">OleCreatePropertyFrame</a>. To determine the page and property to show initially, the property frame will do the following: 
 
 <ol>
 <li>Call <b>(*ppUnk)-&gt;QueryInterface(IID_IPerPropertyBrowsing, ...)</b> to get an interface pointer to the first object.</li>
 <li>Call <b>IPerPropertyBrowsing::MapPropertyToPage(dispIDInitialProperty, ...)</b> to determine which page CLSID contains the property to be highlighted. All objects for which this frame is being invoked must support the set of properties displayed in the frame.</li>
 <li>When the dialog box is created, the property page with the CLSID retrieved in Step 2 is activated with <b>IPropertyPage::Activate</b>.
 </li>
-<li>The property frame queries the active page for <a href="https://msdn.microsoft.com/65cd8f97-f88c-433c-b4e7-9dace7193ec1">IPropertyPage2</a>.</li>
+<li>The property frame queries the active page for <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypage2">IPropertyPage2</a>.</li>
 <li>If successful, the frame calls <b>IPropertyPage2::EditProperty(dispIDInitialProperty)</b> to highlight the correct field in that dialog box.
 </li>
 </ol>
@@ -126,11 +126,11 @@ Working in conjunction with <a href="https://msdn.microsoft.com/05e46df3-b6c8-45
 
 
 
-<a href="https://msdn.microsoft.com/d65d8239-495c-4eee-bd9c-8e803fd09a06">OCPFIPARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/olectl/ns-olectl-tagocpfiparams">OCPFIPARAMS</a>
 
 
 
-<a href="https://msdn.microsoft.com/06f75ac2-3ee6-4209-83cf-a4e5244a18bd">OleCreatePropertyFrame</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatepropertyframe">OleCreatePropertyFrame</a>
  
 
  

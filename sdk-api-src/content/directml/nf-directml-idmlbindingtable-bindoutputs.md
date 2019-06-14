@@ -71,7 +71,7 @@ The writeable areas of two output tensors must not overlap with one another. The
         buffer being bound is defined as being the start offset of the buffer range, up to the <i>TotalTensorSizeInBytes</i>
         as specified in the tensors description.
 
-All buffers being bound as output must have heap type <a href="https://msdn.microsoft.com/5B1EA8A6-BD59-4B92-B6C4-A5C26D0B16D4">D3D12_HEAP_TYPE_DEFAULT</a>.
+All buffers being bound as output must have heap type <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_type">D3D12_HEAP_TYPE_DEFAULT</a>.
 
 
 ## -parameters

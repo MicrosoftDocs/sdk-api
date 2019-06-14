@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Sets the media type for a stream.
 
-This media type defines that format that the <a href="https://msdn.microsoft.com/8a17a754-53ef-4c05-9189-7978d864b17a">Source Reader</a> produces as output. It can differ from the native format provided by the media source. See Remarks for more information.
+This media type defines that format that the <a href="https://docs.microsoft.com/windows/desktop/medfound/source-reader">Source Reader</a> produces as output. It can differ from the native format provided by the media source. See Remarks for more information.
 
 
 ## -parameters
@@ -112,7 +112,7 @@ Reserved. Set to <b>NULL</b>.
 
 ### -param pMediaType [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface of the media type.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of the media type.
 
 
 ## -returns
@@ -194,12 +194,12 @@ Could not find a decoder for the native stream type.
 For each stream, you can set the media type to any of the following:
 
 <ul>
-<li>One of the native types offered by the media source. To enumerate the native types, call <a href="https://msdn.microsoft.com/4b514f8d-082f-4e84-b512-d4a59706a6d8">IMFSourceReader::GetNativeMediaType</a>.</li>
+<li>One of the native types offered by the media source. To enumerate the native types, call <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-getnativemediatype">IMFSourceReader::GetNativeMediaType</a>.</li>
 <li>If the native media type is compressed, you can specify a corresponding uncompressed format. The Source Reader will search for a decoder that can decode from the native format to the specified uncompressed format.</li>
 </ul>
-Audio resampling support was added to the source reader with Windows 8.  In versions of Windows prior to  Windows 8, the source reader does not support audio resampling. If you need to resample the audio in versions of Windows earlier than Windows 8, you can use the <a href="https://msdn.microsoft.com/bee755c4-0585-40fb-aa4d-4e964f5144a3">Audio Resampler DSP</a>.
+Audio resampling support was added to the source reader with Windows 8.  In versions of Windows prior to  Windows 8, the source reader does not support audio resampling. If you need to resample the audio in versions of Windows earlier than Windows 8, you can use the <a href="https://docs.microsoft.com/windows/desktop/medfound/audioresampler">Audio Resampler DSP</a>.
 
-If you set the <a href="https://msdn.microsoft.com/b1ec1c0e-8042-4486-822f-eb106577c0b1">MF_SOURCE_READER_ENABLE_VIDEO_PROCESSING</a> attribute to <b>TRUE</b> when you create the Source Reader, the Source Reader will convert YUV video to RGB-32. This conversion is not optimized for real-time video playback.
+If you set the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-source-reader-enable-video-processing">MF_SOURCE_READER_ENABLE_VIDEO_PROCESSING</a> attribute to <b>TRUE</b> when you create the Source Reader, the Source Reader will convert YUV video to RGB-32. This conversion is not optimized for real-time video playback.
 
 This interface is available on Windows Vista if Platform Update Supplement for Windows Vista is installed.
 
@@ -211,11 +211,11 @@ This interface is available on Windows Vista if Platform Update Supplement for 
 
 
 
-<a href="https://msdn.microsoft.com/7d3cc314-6b9e-437c-afda-ee1965a12721">IMFSourceReader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a17a754-53ef-4c05-9189-7978d864b17a">Source Reader</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/source-reader">Source Reader</a>
  
 
  

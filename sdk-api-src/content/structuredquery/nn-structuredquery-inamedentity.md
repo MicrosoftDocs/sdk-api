@@ -54,7 +54,7 @@ Provides methods to get the value of, or a default phrase for the value of, a na
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INamedEntity</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>INamedEntity</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INamedEntity</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INamedEntity</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>INamedEntity</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231362(v=VS.85).aspx">DefaultPhrase</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-inamedentity-defaultphrase">DefaultPhrase</a>
 </td>
 <td align="left" width="63%">
 Retrieves a default phrase to use for this named entity in restatements.
@@ -78,7 +78,7 @@ Retrieves a default phrase to use for this named entity in restatements.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231363(v=VS.85).aspx">GetValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-inamedentity-getvalue">GetValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of this named entity as a string.

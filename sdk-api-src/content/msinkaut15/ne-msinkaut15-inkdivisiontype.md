@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Defines values for the structural types within the <a href="https://msdn.microsoft.com/d1a71976-2825-48d2-812c-fd2336cd4c1d">IInkDivisionResult</a> object.
+Defines values for the structural types within the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult">IInkDivisionResult</a> object.
 
 
 
@@ -85,19 +85,19 @@ Ink that is not text.
 
 
 
-<a href="https://msdn.microsoft.com/c1aaaa62-34fc-4cd4-bd68-47f828bb59b1">DivisionType Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionunit-get_divisiontype">DivisionType Property</a>
 
 
 
-<a href="https://msdn.microsoft.com/d1a71976-2825-48d2-812c-fd2336cd4c1d">IInkDivisionResult Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult">IInkDivisionResult Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/5c5479e0-7568-40c8-bb75-e2ded3ac86b7">IInkDivisionUnit Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunit">IInkDivisionUnit Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/d0bad0e8-e48c-443b-b52e-e95de3158710">ResultByType Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionresult-resultbytype">ResultByType Method</a>
  
 
  

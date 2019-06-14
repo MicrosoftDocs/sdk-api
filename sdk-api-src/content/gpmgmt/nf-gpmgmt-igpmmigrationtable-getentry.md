@@ -65,7 +65,7 @@ Source field of the entry to retrieve.
 
 ### -param ppEntry [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/85a9bebf-0d96-4ec1-a0bf-37b262059067">IGPMMapEntry</a> interface.
+A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmmapentry">IGPMMapEntry</a> interface.
 
 
 ## -returns
@@ -76,10 +76,10 @@ A pointer to an <a href="https://msdn.microsoft.com/85a9bebf-0d96-4ec1-a0bf-37b2
 Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 
 <h3>JScript</h3>
-Returns a reference to a <a href="https://msdn.microsoft.com/85a9bebf-0d96-4ec1-a0bf-37b262059067">GPMMapEntry</a> object.
+Returns a reference to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmmapentry">GPMMapEntry</a> object.
 
 <h3>VB</h3>
-Returns a reference to a <a href="https://msdn.microsoft.com/85a9bebf-0d96-4ec1-a0bf-37b262059067">GPMMapEntry</a> object.
+Returns a reference to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmmapentry">GPMMapEntry</a> object.
 
 
 
@@ -89,7 +89,7 @@ Returns a reference to a <a href="https://msdn.microsoft.com/85a9bebf-0d96-4ec1-
 
 
 
-<a href="https://msdn.microsoft.com/c3639f07-7c8c-4440-ade4-b58abd2586d6">IGPMMigrationTable</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain">IGPMMigrationTable</a>
  
 
  

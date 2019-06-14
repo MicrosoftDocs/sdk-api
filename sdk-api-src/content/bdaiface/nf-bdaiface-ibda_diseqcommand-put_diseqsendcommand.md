@@ -87,7 +87,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 This method is required for version 1.2 and later of the DiSEqC command set.
 
-To get the command response from the driver, call <a href="https://msdn.microsoft.com/en-us/library/Dd693309(v=VS.85).aspx">IBDA_DiseqCommand::get_DiseqResponse</a>.
+To get the command response from the driver, call <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_diseqcommand-get_diseqresponse">IBDA_DiseqCommand::get_DiseqResponse</a>.
 
 
 
@@ -97,7 +97,7 @@ To get the command response from the driver, call <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693308(v=VS.85).aspx">IBDA_DiseqCommand</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_diseqcommand">IBDA_DiseqCommand</a>
  
 
  

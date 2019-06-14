@@ -73,7 +73,7 @@ A private event tracing session is a user-mode event tracing session that runs i
 
 
 
-<a href="https://msdn.microsoft.com/1f57aa92-81f0-445f-baa3-274714e8291e">ITraceDataCollector</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-itracedatacollector">ITraceDataCollector</a>
  
 
  

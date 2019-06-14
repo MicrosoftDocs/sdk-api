@@ -54,10 +54,10 @@ ms.custom: 19H1
 
 Removes the last element in a path string, whether that element is a file name or a directory name. The element's leading backslash is also removed.
 
-This function differs from <a href="https://msdn.microsoft.com/c47bcf8a-c59d-4d6a-81a9-a3960ae39867">PathRemoveFileSpec</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
+This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathremovefilespeca">PathRemoveFileSpec</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
 
-<div class="alert"><b>Note</b>  This function should be used in place of <a href="https://msdn.microsoft.com/c47bcf8a-c59d-4d6a-81a9-a3960ae39867">PathRemoveFileSpec</a> to prevent the possibility of a buffer overrun.</div><div> </div>
+<div class="alert"><b>Note</b>  This function should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathremovefilespeca">PathRemoveFileSpec</a> to prevent the possibility of a buffer overrun.</div><div> </div>
 
 ## -parameters
 

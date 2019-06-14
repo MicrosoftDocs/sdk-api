@@ -69,14 +69,14 @@ Reserved. This value must be set to 0.
 
 ### -param ClassInfo [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/76d9a46b-6958-4c29-8512-e6299b28ca01">DHCP_CLASS_INFO_V6</a> structure that contains the new information for the class.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_class_info_v6">DHCP_CLASS_INFO_V6</a> structure that contains the new information for the class.
 
 
 ## -returns
 
 
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://msdn.microsoft.com/6370313f-d7db-4ff1-b0e0-7fa47474facb">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -101,7 +101,7 @@ This call was performed by a client who is not a member of the "DHCP Administrat
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/62fb9f21-ad21-4525-90f4-48dc5a8b230b">DHCP_CLASS_INFO</a> structure provided in <i>ClassInfo</i> has null or invalid values for the <b>ClassName</b> or <b>ClassData</b> member (or both).
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_class_info">DHCP_CLASS_INFO</a> structure provided in <i>ClassInfo</i> has null or invalid values for the <b>ClassName</b> or <b>ClassData</b> member (or both).
 
 </td>
 </tr>

@@ -54,7 +54,7 @@ Use this interface to perform word wheel keyword lookups. The <b>Lookup</b> meth
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IITWordWheel</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IITWordWheel</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IITWordWheel</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IITWordWheel</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IITWordWheel</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms670055(v=VS.85).aspx">Close</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nf-infotech-iitwordwheel-close">Close</a>
 </td>
 <td align="left" width="63%">
 Closes a word wheel.
@@ -80,7 +80,7 @@ Closes a word wheel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms670056(v=VS.85).aspx">Count</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nf-infotech-iitwordwheel-count">Count</a>
 </td>
 <td align="left" width="63%">
 Returns the number of entries in a word wheel.
@@ -91,7 +91,7 @@ Returns the number of entries in a word wheel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms670060(v=VS.85).aspx">Lookup(LONG,IITResultSet,LONG)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/infotech/nf-infotech-iitwordwheel-lookup(long_iitresultset_long)">Lookup(LONG,IITResultSet,LONG)</a>
 </td>
 <td align="left" width="63%">
 Looks up an entry and returns contents as a result set.
@@ -102,7 +102,7 @@ Looks up an entry and returns contents as a result set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms670059(v=VS.85).aspx">Lookup(LONG,LPVOID,DWORD)</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nf-infotech-iitwordwheel-lookup(long_iitresultset_long)">Lookup(LONG,LPVOID,DWORD)</a>
 </td>
 <td align="left" width="63%">
 Looks up an entry and returns contents in a buffer.
@@ -113,7 +113,7 @@ Looks up an entry and returns contents in a buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms670058(v=VS.85).aspx">Lookup(LPCVOID,BOOL,LONG)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/infotech/nf-infotech-iitwordwheel-lookup(lpcvoid_bool_long)">Lookup(LPCVOID,BOOL,LONG)</a>
 </td>
 <td align="left" width="63%">
 Returns the word wheel entry that is closest to the specified prefix.
@@ -124,7 +124,7 @@ Returns the word wheel entry that is closest to the specified prefix.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms670061(v=VS.85).aspx">Open</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nf-infotech-iitwordwheel-open">Open</a>
 </td>
 <td align="left" width="63%">
 Opens a word wheel.

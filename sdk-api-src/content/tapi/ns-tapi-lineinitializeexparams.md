@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>LINEINITIZALIZEEXPARAMS</b> structure describes parameters supplied when making calls using 
-<a href="https://msdn.microsoft.com/18cd145d-e434-433a-ab10-91bf5b060c21">LINEINITIALIZEEX</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">LINEINITIALIZEEX</a>.
 
 
 ## -struct-fields
@@ -76,7 +76,7 @@ Size of the portion of this data structure that contains useful information, in 
 ### -field dwOptions
 
 One of the 
-<a href="https://msdn.microsoft.com/77674a45-7133-4518-af47-a9d58392b80b">LINEINITIALIZEEXOPTION_ Constants</a>. Specifies the event notification mechanism the application desires to use.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineinitializeexoption--constants">LINEINITIALIZEEXOPTION_ Constants</a>. Specifies the event notification mechanism the application desires to use.
 
 
 ### -field Handles
@@ -90,13 +90,13 @@ If <b>dwOptions</b> specifies LINEINITIALIZEEXOPTION_USEEVENT, TAPI returns the 
 ### -field Handles.hCompletionPort
 
 If <b>dwOptions</b> specifies LINEINITIALIZEEXOPTION_USECOMPLETIONPORT, the application must specify in this field the handle of an existing completion port opened using 
-<a href="https://msdn.microsoft.com/40cb47fc-7b15-47f6-bee2-2611d4686053">CreateIoCompletionPort</a>.
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/createiocompletionport">CreateIoCompletionPort</a>.
 
 
 ### -field dwCompletionKey
 
 If <b>dwOptions</b> specifies LINEINITIALIZEEXOPTION_USECOMPLETIONPORT, the application must specify in this field a value that is returned through the <i>lpCompletionKey</i> parameter of 
-<a href="https://msdn.microsoft.com/8121a38b-0fe1-43b8-aed6-4b85af1feba9">GetQueuedCompletionStatus</a> to identify the completion message as a telephony message.
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> to identify the completion message as a telephony message.
 
 
 ## -remarks
@@ -104,7 +104,7 @@ If <b>dwOptions</b> specifies LINEINITIALIZEEXOPTION_USECOMPLETIONPORT, the appl
 
 
 See 
-<a href="https://msdn.microsoft.com/18cd145d-e434-433a-ab10-91bf5b060c21">lineInitializeEx</a> for further information on these options.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a> for further information on these options.
 
 
 
@@ -114,7 +114,7 @@ See
 
 
 
-<a href="https://msdn.microsoft.com/18cd145d-e434-433a-ab10-91bf5b060c21">lineInitializeEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>
  
 
  

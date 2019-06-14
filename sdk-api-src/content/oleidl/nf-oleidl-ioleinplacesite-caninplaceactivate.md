@@ -117,7 +117,7 @@ Only objects being displayed as DVASPECT_CONTENT can be activated in place.
 
 
 
-<a href="https://msdn.microsoft.com/6d37e022-8c19-48b3-affb-e0eca19b5e05">IOleInPlaceSite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a>
  
 
  

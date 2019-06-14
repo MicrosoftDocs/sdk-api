@@ -59,7 +59,7 @@ A notification method that indicates that profile update operation has completed
 
 ### -param newProfile [in]
 
-An <a href="https://msdn.microsoft.com/f7730efe-e367-4642-8482-2a23052bab0c">IMbnConnectionProfile</a> interface that represents the profile that has changed.  
+An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofile">IMbnConnectionProfile</a> interface that represents the profile that has changed.  
 
 
 ## -returns
@@ -75,7 +75,7 @@ This method must return <b>S_OK</b>.
 
 
 
-<b>OnProfileUpdate</b> is called to notify a registered application of the completion of an operation initiated by a call to the <a href="https://msdn.microsoft.com/3243ffec-1897-4f26-853d-81a7198a892d">UpdateProfile</a> method of the <a href="https://msdn.microsoft.com/f7730efe-e367-4642-8482-2a23052bab0c">IMbnConnectionProfile</a> interface, or the <a href="https://msdn.microsoft.com/b9c191cc-aa6f-4548-ad4a-f2b9808c5f23">CreateConnectionProfile</a> of the <a href="https://msdn.microsoft.com/a55e4183-f914-4064-a391-3bd31ca59160">IMbnConnectionProfileManager</a> interface.
+<b>OnProfileUpdate</b> is called to notify a registered application of the completion of an operation initiated by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofile-updateprofile">UpdateProfile</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofile">IMbnConnectionProfile</a> interface, or the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanager-createconnectionprofile">CreateConnectionProfile</a> of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofilemanager">IMbnConnectionProfileManager</a> interface.
 
 
 
@@ -85,7 +85,7 @@ This method must return <b>S_OK</b>.
 
 
 
-<a href="https://msdn.microsoft.com/235fa0ef-4fc2-4a36-8ad7-2dceb597498f">IMbnConnectionProfileEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofileevents">IMbnConnectionProfileEvents</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ITfInsertAtSelection::InsertEmbeddedAtSelection</b> method inserts an <a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> object at the selection or insertion point.
+The <b>ITfInsertAtSelection::InsertEmbeddedAtSelection</b> method inserts an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object at the selection or insertion point.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>ITfInsertAtSelection::InsertEmbeddedAtSelection</b> method inserts an <a 
 
 ### -param ec [in]
 
-Identifies the edit context. This is obtained from <a href="https://msdn.microsoft.com/1415f338-731c-44c5-b798-edf823174272">ITfDocumentMgr::CreateContext</a> or <a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession</a>.
+Identifies the edit context. This is obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
 
 ### -param dwFlags [in]
@@ -176,9 +176,9 @@ Context owner cannot handle objects of the type provided by the <i>pDataObject</
 
 
 
-Callers can use the <a href="https://msdn.microsoft.com/52f9465f-725e-493b-89ee-1b3db3cef696">ITfQueryEmbedded::QueryInsertEmbedded</a> method to determine if a particular object type is likely to be accepted by this method.
+Callers can use the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfqueryembedded-queryinsertembedded">ITfQueryEmbedded::QueryInsertEmbedded</a> method to determine if a particular object type is likely to be accepted by this method.
 
-To insert text instead of an <b>IDataObject</b> object, use the <a href="https://msdn.microsoft.com/1373fe9b-6c51-4514-a7da-c1f872d9b1ce">ITfInsertAtSelection::InsertTextAtSelection</a> method.
+To insert text instead of an <b>IDataObject</b> object, use the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinsertatselection-inserttextatselection">ITfInsertAtSelection::InsertTextAtSelection</a> method.
 
 
 
@@ -188,31 +188,31 @@ To insert text instead of an <b>IDataObject</b> object, use the <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/1415f338-731c-44c5-b798-edf823174272">ITfDocumentMgr::CreateContext
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/bd303639-942f-4cb0-8d69-1715f85b6ef3">ITfInsertAtSelection
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfinsertatselection">ITfInsertAtSelection
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/1373fe9b-6c51-4514-a7da-c1f872d9b1ce">ITfInsertAtSelection::InsertTextAtSelection
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinsertatselection-inserttextatselection">ITfInsertAtSelection::InsertTextAtSelection
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/52f9465f-725e-493b-89ee-1b3db3cef696">ITfQueryEmbedded::QueryInsertEmbedded
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfqueryembedded-queryinsertembedded">ITfQueryEmbedded::QueryInsertEmbedded
       </a>
  
 

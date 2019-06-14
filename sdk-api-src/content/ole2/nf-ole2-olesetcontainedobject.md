@@ -66,7 +66,7 @@ Notifies an object that it is embedded in an OLE container, which ensures that r
 
 ### -param pUnknown [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface of the object.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the object.
 
 
 ### -param fContained [in]
@@ -128,7 +128,7 @@ An unexpected error occurred.
 
 
 
-The <b>OleSetContainedObject</b> function notifies an object that it is embedded in an OLE container. The implementation of <b>OleSetContainedObject</b> was changed in OLE 2.01 to coincide with the publication of the <a href="https://msdn.microsoft.com/c682447b-5b12-41d5-a81d-fe94a117f740">IRunnableObject</a> interface. You can use <b>OleSetContainedObject</b> and the <a href="https://msdn.microsoft.com/dbd3f632-2b81-44d1-8376-4b507316895f">IRunnableObject::SetContainedObject</a> method interchangeably. The <b>OleSetContainedObject</b> function queries the object for a pointer to the <b>IRunnableObject</b> interface. If successful, the function returns the results of calling <b>IRunnableObject::SetContainedObject</b>.
+The <b>OleSetContainedObject</b> function notifies an object that it is embedded in an OLE container. The implementation of <b>OleSetContainedObject</b> was changed in OLE 2.01 to coincide with the publication of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irunnableobject">IRunnableObject</a> interface. You can use <b>OleSetContainedObject</b> and the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunnableobject-setcontainedobject">IRunnableObject::SetContainedObject</a> method interchangeably. The <b>OleSetContainedObject</b> function queries the object for a pointer to the <b>IRunnableObject</b> interface. If successful, the function returns the results of calling <b>IRunnableObject::SetContainedObject</b>.
 
 
 
@@ -140,7 +140,7 @@ The <b>OleSetContainedObject</b> function notifies an object that it is embedded
 
 
 
-<a href="https://msdn.microsoft.com/dbd3f632-2b81-44d1-8376-4b507316895f">IRunnableObject::SetContainedObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunnableobject-setcontainedobject">IRunnableObject::SetContainedObject</a>
  
 
  

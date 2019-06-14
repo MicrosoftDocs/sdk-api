@@ -54,7 +54,7 @@ Provides access to a control that contains a value that does not span a range an
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationValuePattern</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUIAutomationValuePattern</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationValuePattern</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationValuePattern</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IUIAutomationValuePattern</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9b4caa59-bda4-4cc6-b2d8-ff47ea292746">SetValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationvaluepattern-setvalue">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets the value of the element.
@@ -88,7 +88,7 @@ Sets the value of the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/73b66597-7d53-4b37-a9b6-f3ef4640d301">CachedIsReadOnly</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationvaluepattern-get_cachedisreadonly">CachedIsReadOnly</a>
 
 
 </td>
@@ -104,7 +104,7 @@ Retrieves a cached value that indicates whether the value of the element is read
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/32b889d8-952e-4167-9c99-71abc1820c8d">CachedValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationvaluepattern-get_cachedvalue">CachedValue</a>
 
 
 </td>
@@ -120,7 +120,7 @@ Retrieves the cached value of the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/dc5111c4-6fc8-4a4f-b797-6da472fd0533">CurrentIsReadOnly</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationvaluepattern-get_currentisreadonly">CurrentIsReadOnly</a>
 
 
 </td>
@@ -136,7 +136,7 @@ Indicates whether the value of the element is read-only.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/df7d4e74-34d1-435c-86cd-a8fee52f6a94">CurrentValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationvaluepattern-get_currentvalue">CurrentValue</a>
 
 
 </td>
@@ -157,7 +157,7 @@ Retrieves the value of the element.
 
 
 
-<a href="https://msdn.microsoft.com/14358ef0-aa54-42c1-a3da-0f835f5f5ef6">Control Pattern Interfaces for Clients</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>
  
 
  

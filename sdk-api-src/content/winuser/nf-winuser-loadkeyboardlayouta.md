@@ -67,7 +67,7 @@ Loads a new input locale identifier (formerly called the keyboard layout) into t
 
 Type: <b>LPCTSTR</b>
 
-The name of the input locale identifier to load. This name is a string composed of the hexadecimal value of the <a href="https://msdn.microsoft.com/076e2a43-256a-4646-a5c8-1d48ab08ce1a">Language Identifier</a> (low word) and a device identifier (high word). For example, U.S. English has a language identifier of 0x0409, so the primary U.S. English layout is named "00000409". Variants of U.S. English layout (such as the Dvorak layout) are named "00010409", "00020409", and so on. 
+The name of the input locale identifier to load. This name is a string composed of the hexadecimal value of the <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">Language Identifier</a> (low word) and a device identifier (high word). For example, U.S. English has a language identifier of 0x0409, so the primary U.S. English layout is named "00000409". Variants of U.S. English layout (such as the Dvorak layout) are named "00010409", "00020409", and so on. 
 
 
 ### -param Flags [in]
@@ -102,7 +102,7 @@ Specifies how the input locale identifier is to be loaded. This parameter can be
 </td>
 <td width="60%">
 <b>Prior to Windows 8:</b> Prevents a 
-						<a href="https://msdn.microsoft.com/en-us/library/ms644991(v=VS.85).aspx">ShellProc</a>hook procedure from receiving an <b>HSHELL_LANGUAGE</b> hook code when the new input locale identifier is loaded. This value is typically used when an application loads multiple input locale identifiers one after another. Applying this value to all but the last input locale identifier delays the shell's processing until all input locale identifiers have been added.
+						<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644991(v=vs.85)">ShellProc</a>hook procedure from receiving an <b>HSHELL_LANGUAGE</b> hook code when the new input locale identifier is loaded. This value is typically used when an application loads multiple input locale identifiers one after another. Applying this value to all but the last input locale identifier delays the shell's processing until all input locale identifiers have been added.
 
 <b>Beginning in  Windows 8:</b> In this scenario, the last input locale identifier is set for the entire system.
 
@@ -152,7 +152,7 @@ Substitutes the specified input locale identifier with another locale preferred 
 </td>
 <td width="60%">
 <b>Prior to Windows 8:</b> This flag is valid only with <b>KLF_ACTIVATE</b>. Activates the specified input locale identifier for the entire process and sends the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms632629(v=VS.85).aspx">WM_INPUTLANGCHANGE</a> message to the current thread's Focus or Active window. Typically, <b>LoadKeyboardLayout</b> activates an input locale identifier only for the current thread.
+						<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-inputlangchange">WM_INPUTLANGCHANGE</a> message to the current thread's Focus or Active window. Typically, <b>LoadKeyboardLayout</b> activates an input locale identifier only for the current thread.
 
 <b>Beginning in  Windows 8:</b> This flag is not used. <b>LoadKeyboardLayout</b> always activates an input locale identifier for the entire system if the current process owns the window with keyboard focus.
 
@@ -164,7 +164,7 @@ Substitutes the specified input locale identifier with another locale preferred 
 </dl>
 </td>
 <td width="60%">
-This flag is unsupported. Use the <a href="https://msdn.microsoft.com/en-us/library/ms646324(v=VS.85).aspx">UnloadKeyboardLayout</a> function instead.
+This flag is unsupported. Use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unloadkeyboardlayout">UnloadKeyboardLayout</a> function instead.
 
 </td>
 </tr>
@@ -178,7 +178,7 @@ This flag is unsupported. Use the <a href="https://msdn.microsoft.com/en-us/libr
 
 Type: <b>HKL</b>
 
-If the function succeeds, the return value is the input locale identifier corresponding to the name specified in <i>pwszKLID</i>. If no matching locale is available, the return value is the default language of the system. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function succeeds, the return value is the input locale identifier corresponding to the name specified in <i>pwszKLID</i>. If no matching locale is available, the return value is the default language of the system. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -190,7 +190,7 @@ If the function succeeds, the return value is the input locale identifier corres
 The input locale identifier is a broader concept than a keyboard layout, since it can also encompass a speech-to-text converter, an Input Method Editor (IME), or any other form of input. 
 
 An application can and will typically load the default input locale identifier or IME for a language and can do so by specifying only a string version of the language identifier. If an application wants to load a specific locale or IME, it should read the registry to determine the specific input locale identifier to pass to <b>LoadKeyboardLayout</b>. In this case, a request to activate the default input locale identifier for a locale will activate the first matching one. A specific IME should be activated using an explicit input locale identifier returned from 
-				<a href="https://msdn.microsoft.com/en-us/library/ms646296(v=VS.85).aspx">GetKeyboardLayout</a> or <b>LoadKeyboardLayout</b>.
+				<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeyboardlayout">GetKeyboardLayout</a> or <b>LoadKeyboardLayout</b>.
 
 <b>Prior to Windows 8:</b> This function only affects the layout for the current process or thread.
 
@@ -204,7 +204,7 @@ An application can and will typically load the default input locale identifier o
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646289(v=VS.85).aspx">ActivateKeyboardLayout</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-activatekeyboardlayout">ActivateKeyboardLayout</a>
 
 
 
@@ -212,15 +212,15 @@ An application can and will typically load the default input locale identifier o
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646298(v=VS.85).aspx">GetKeyboardLayoutName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeyboardlayoutnamea">GetKeyboardLayoutName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
 
 
 
-<a href="https://msdn.microsoft.com/cdf6424a-bf2b-4c14-8bc7-8b5f04c29ed3">MAKELANGID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a>
 
 
 
@@ -232,7 +232,7 @@ An application can and will typically load the default input locale identifier o
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646324(v=VS.85).aspx">UnloadKeyboardLayout</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unloadkeyboardlayout">UnloadKeyboardLayout</a>
  
 
  

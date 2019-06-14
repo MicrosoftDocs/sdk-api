@@ -74,12 +74,12 @@ Contains the ending character position where the object is inserted.
 
 ### -param pDataObject [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> interface that contains data about the object inserted.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface that contains data about the object inserted.
 
 
 ### -param pChange [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/af7dfc32-ae2d-4f04-a73b-8a9e2ea1a1c0">TS_TEXTCHANGE</a> structure that receives data about the modified text.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE</a> structure that receives data about the modified text.
 
 
 ## -returns
@@ -170,20 +170,20 @@ The caller does not have a read/write lock.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/21e011f7-6791-4eb9-85c9-18bd10107119">ITextStoreACP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a>
 
 
 
-<a href="https://msdn.microsoft.com/a455d712-42d5-472e-862d-85ae3ba9149f">TS_IE_* Constants
+<a href="https://docs.microsoft.com/windows/desktop/TSF/ts-ie--constants">TS_IE_* Constants
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/af7dfc32-ae2d-4f04-a73b-8a9e2ea1a1c0">TS_TEXTCHANGE
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE
       </a>
  
 

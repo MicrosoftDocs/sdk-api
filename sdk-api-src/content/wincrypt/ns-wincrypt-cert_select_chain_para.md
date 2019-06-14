@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CERT_SELECT_CHAIN_PARA</b> structure contains the parameters used for building and selecting chains. This structure is used by the   <a href="https://msdn.microsoft.com/8c93036c-0b93-40d4-b0e3-ba1f2fc72db1">CertGetCertificateChain</a> and <a href="https://msdn.microsoft.com/b740772b-d25b-4b3d-9acb-03f7018750d6">CertSelectCertificateChains</a> functions.
+The <b>CERT_SELECT_CHAIN_PARA</b> structure contains the parameters used for building and selecting chains. This structure is used by the   <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certselectcertificatechains">CertSelectCertificateChains</a> functions.
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ The handle of the chain engine to use to build the chain. If the value of the <i
 
 ### -field pTime
 
-A pointer to a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that contains the time for which the chain is to be validated. If the  value of the <i>pTime</i> parameter is <b>NULL</b>, the current system time is passed to this parameter. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time for which the chain is to be validated. If the  value of the <i>pTime</i> parameter is <b>NULL</b>, the current system time is passed to this parameter. 
 
 <div class="alert"><b>Note</b>  The time does not affect trust list, revocation, or root store checking.</div>
 <div> </div>
@@ -76,7 +76,7 @@ The handle of any additional store to search for supporting certificates and cer
 
 ### -field pChainPara
 
-A pointer to a <a href="https://msdn.microsoft.com/86094e1c-be59-4a15-a05b-21769f80e653">CERT_CHAIN_PARA</a> structure that includes chain-building parameters. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_para">CERT_CHAIN_PARA</a> structure that includes chain-building parameters. 
 
 
 ### -field dwFlags
@@ -125,8 +125,8 @@ Trust in a particular certificate being a trusted root is based on the current s
 The following remarks apply to strong signature checking:
 
 <ul>
-<li>You can enable strong signature checking by using the <a href="https://msdn.microsoft.com/86094e1c-be59-4a15-a05b-21769f80e653">CERT_CHAIN_PARA</a> structure referenced by the <b>pChainPara</b> member. The <b>pStrongSignPara</b> member of the <b>CERT_CHAIN_PARA</b> structure points to a <a href="https://msdn.microsoft.com/12D9F82C-F484-43B0-BD55-F07321058671">CERT_STRONG_SIGN_PARA</a> structure that can be used to determine signature strength.</li>
-<li>When you enable strong checking and a weak signature is encountered, the <b>CERT_TRUST_IS_NOT_SIGNATURE_VALID</b> and <b>CERT_TRUST_HAS_WEAK_SIGNATURE</b> errors are set in the <b>dwErrorStatus</b> field of the <a href="https://msdn.microsoft.com/af1e1db2-7b53-4491-8317-4abf3568fb03">CERT_TRUST_STATUS</a> structure.</li>
+<li>You can enable strong signature checking by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_para">CERT_CHAIN_PARA</a> structure referenced by the <b>pChainPara</b> member. The <b>pStrongSignPara</b> member of the <b>CERT_CHAIN_PARA</b> structure points to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a> structure that can be used to determine signature strength.</li>
+<li>When you enable strong checking and a weak signature is encountered, the <b>CERT_TRUST_IS_NOT_SIGNATURE_VALID</b> and <b>CERT_TRUST_HAS_WEAK_SIGNATURE</b> errors are set in the <b>dwErrorStatus</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_trust_status">CERT_TRUST_STATUS</a> structure.</li>
 </ul>
 
 

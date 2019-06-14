@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Manages the window list.
 
-Applications obtain access to this object using <a href="https://msdn.microsoft.com/6e6cf29d-e19a-43bd-a4e7-993c10bac92b">IRDPSRAPIApplication::get_Windows</a> or <a href="https://msdn.microsoft.com/cc964964-0f3a-410c-b1f4-426abd9c1a22">IRDPSRAPIApplicationFilter::get_Windows</a>.
+Applications obtain access to this object using <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiapplication-get_windows">IRDPSRAPIApplication::get_Windows</a> or <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiapplicationfilter-get_windows">IRDPSRAPIApplicationFilter::get_Windows</a>.
 
 
 ## -see-also
@@ -59,11 +59,11 @@ Applications obtain access to this object using <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/85c8263b-e796-4748-b8e5-6315e5937861">IRDPSRAPIWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiwindow">IRDPSRAPIWindow</a>
  
 
  

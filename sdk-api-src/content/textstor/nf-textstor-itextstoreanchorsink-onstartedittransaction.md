@@ -92,7 +92,7 @@ The method was successful.
 
 This method will be called on all installed edit transaction sinks.
 
-An edit transaction is a group of text changes that should be processed at one time. Calling this method allows a text service to queue the upcoming changes until <a href="https://msdn.microsoft.com/fe7610b3-02f0-491a-8c55-f9dc9843073b">ITextStoreAnchorSink::OnEndEditTransaction</a> is called. When <b>ITextStoreAnchorSink::OnEndEditTransaction</b> is called, the text service will process all queued changes.
+An edit transaction is a group of text changes that should be processed at one time. Calling this method allows a text service to queue the upcoming changes until <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onendedittransaction">ITextStoreAnchorSink::OnEndEditTransaction</a> is called. When <b>ITextStoreAnchorSink::OnEndEditTransaction</b> is called, the text service will process all queued changes.
 
 Use of edit transactions is optional.
 
@@ -104,16 +104,16 @@ Use of edit transactions is optional.
 
 
 
-<a href="https://msdn.microsoft.com/fb96b4fb-864f-4f32-bf7c-cf7f199e552a">ITextStoreAnchorSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchorsink">ITextStoreAnchorSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/fe7610b3-02f0-491a-8c55-f9dc9843073b">ITextStoreAnchorSink::OnEndEditTransaction
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onendedittransaction">ITextStoreAnchorSink::OnEndEditTransaction
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/cf10e7aa-c2a1-4d7f-828a-434c9852f4d6">ITfEditTransactionSink::OnStartEditTransaction
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfedittransactionsink-onstartedittransaction">ITfEditTransactionSink::OnStartEditTransaction
       </a>
  
 

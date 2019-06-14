@@ -61,15 +61,15 @@ Creates an action for this file screen object. The action is triggered when a fi
 ### -param actionType [in]
 
 The type of action to create. For possible values, see the 
-      <a href="https://msdn.microsoft.com/3e34395e-b8e6-4288-a040-dff6cf7f5fe6">FsrmActionType</a> enumeration.
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmactiontype">FsrmActionType</a> enumeration.
 
 
 ### -param action [out]
 
-An <a href="https://msdn.microsoft.com/81bfae1d-7d09-4ddc-9669-1da40dc72fd4">IFsrmAction</a> interface to the newly created action. 
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmaction">IFsrmAction</a> interface to the newly created action. 
       Query the interface for the specific action specified. For example, if <i>actionType</i> is 
       <b>FsrmActionType_Command</b>, query <i>action</i> for the 
-      <a href="https://msdn.microsoft.com/b7f9fc8c-2f55-4a0e-879a-64c368abcabb">IFsrmActionCommand</a> interface.
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmactioncommand">IFsrmActionCommand</a> interface.
 
 
 ## -returns
@@ -93,7 +93,7 @@ The action is deleted if the file screen is deleted.
 #### Examples
 
 For an example, see 
-     <a href="https://msdn.microsoft.com/45b16b46-7c03-4af5-889f-64047ec5ca98">Performing Actions Based on File Screen Violations</a>.
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/performing-actions-based-on-file-screen-violations">Performing Actions Based on File Screen Violations</a>.
 
 <div class="code"></div>
 
@@ -104,7 +104,7 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/9e52af8c-e03b-4b44-83bd-541fe1419d6c">IFsrmFileScreenBase</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreenbase">IFsrmFileScreenBase</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DS_REPL_VALUE_META_DATA_BLOB</b> structure is used to contain attribute value replication metadata. This structure is similar to the <a href="https://msdn.microsoft.com/747e32b8-2cc0-4fcd-88dc-027188598361">DS_REPL_VALUE_META_DATA_2</a> structure, but is obtained from the <a href="https://msdn.microsoft.com/32bc9909-e476-423c-bbb5-3978234457fd">Lightweight Directory Access Protocol API</a> functions when obtaining binary data for the <b>msDS-ReplValueMetaData</b> attribute.
+The <b>DS_REPL_VALUE_META_DATA_BLOB</b> structure is used to contain attribute value replication metadata. This structure is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_value_meta_data_2">DS_REPL_VALUE_META_DATA_2</a> structure, but is obtained from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api">Lightweight Directory Access Protocol API</a> functions when obtaining binary data for the <b>msDS-ReplValueMetaData</b> attribute.
 
 
 ## -struct-fields
@@ -79,12 +79,12 @@ Contains the number of bytes in the <b>pbData</b> array.
 
 ### -field ftimeDeleted
 
-Contains a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that contains the time that  this attribute was deleted.
+Contains a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time that  this attribute was deleted.
 
 
 ### -field ftimeCreated
 
-Contains a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that contains the time that this attribute was created.
+Contains a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time that this attribute was created.
 
 
 ### -field dwVersion
@@ -94,7 +94,7 @@ Contains the version of this attribute. Each originating modification of the att
 
 ### -field ftimeLastOriginatingChange
 
-Contains a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that contains the time at which the last originating change was made to this attribute. Replication of the change does not affect this value.
+Contains a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time at which the last originating change was made to this attribute. Replication of the change does not affect this value.
 
 
 ### -field uuidLastOriginatingDsaInvocationID
@@ -109,7 +109,7 @@ Contains the update sequence number (USN) on the originating server at which the
 
 ### -field usnLocalChange
 
-Contains the USN on the destination server, that is, the server from which the <a href="https://msdn.microsoft.com/5735d91d-1b7d-4dc6-b6c6-61ba38ebe50d">DsReplicaGetInfo2</a> function retrieved the metadata, at which the last change to this attribute was applied. This value is typically different on all servers.
+Contains the USN on the destination server, that is, the server from which the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a> function retrieved the metadata, at which the last change to this attribute was applied. This value is typically different on all servers.
 
 
 ### -field oszLastOriginatingDsaDN
@@ -127,15 +127,15 @@ Pointer to a buffer that contains the attribute replication metadata. The <b>cbD
 
 
 
-<a href="https://msdn.microsoft.com/747e32b8-2cc0-4fcd-88dc-027188598361">DS_REPL_VALUE_META_DATA_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_value_meta_data_2">DS_REPL_VALUE_META_DATA_2</a>
 
 
 
-<a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
 
 
 
-<a href="https://msdn.microsoft.com/32bc9909-e476-423c-bbb5-3978234457fd">Lightweight Directory Access Protocol API</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api">Lightweight Directory Access Protocol API</a>
  
 
  

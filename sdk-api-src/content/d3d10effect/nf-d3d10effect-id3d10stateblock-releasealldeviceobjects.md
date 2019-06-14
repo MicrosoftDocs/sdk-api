@@ -63,9 +63,9 @@ Release all references to device objects.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-returnvalues">Direct3D 10 Return Codes</a>.
 
 
 
@@ -74,7 +74,7 @@ Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/B
 
 
 
-Each time you return a pointer to an interface (by calling <a href="https://msdn.microsoft.com/en-us/library/Bb173859(v=VS.85).aspx">ID3D10StateBlock::GetDevice</a>), the internal reference count is incremented; when you are finished using a stateblock, call this method to release all references and avoid a memory leak.
+Each time you return a pointer to an interface (by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10stateblock-getdevice">ID3D10StateBlock::GetDevice</a>), the internal reference count is incremented; when you are finished using a stateblock, call this method to release all references and avoid a memory leak.
 
 
 
@@ -84,7 +84,7 @@ Each time you return a pointer to an interface (by calling <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173856(v=VS.85).aspx">ID3D10StateBlock Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10stateblock">ID3D10StateBlock Interface</a>
  
 
  

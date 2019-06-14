@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>ViewOptions</b> enumeration is used by the 
-<a href="https://msdn.microsoft.com/86c809b4-6533-4e02-a49e-f141fac228b1">Views.Add</a> method and specifies the visibility of the view, scope tree, and toolbars, as well as the persistence state of the view. These flags can be combined using a bitwise OR operation. This enumeration applies to the 
-<a href="https://msdn.microsoft.com/eb7c92e7-d834-4736-bff4-74940c9bb194">MMC 2.0 Automation Object Model</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/views-add">Views.Add</a> method and specifies the visibility of the view, scope tree, and toolbars, as well as the persistence state of the view. These flags can be combined using a bitwise OR operation. This enumeration applies to the 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmc-2-0-automation-object-model">MMC 2.0 Automation Object Model</a>.
 
 
 ## -enum-fields
@@ -90,11 +90,11 @@ The view is added as temporary (without persistence capability).
 
 
 
-<a href="https://msdn.microsoft.com/983da9be-8ed6-4bdf-bf09-a6c08b455a24">Views collection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/views-collection">Views collection</a>
 
 
 
-<a href="https://msdn.microsoft.com/86c809b4-6533-4e02-a49e-f141fac228b1">Views.Add</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/views-add">Views.Add</a>
  
 
  

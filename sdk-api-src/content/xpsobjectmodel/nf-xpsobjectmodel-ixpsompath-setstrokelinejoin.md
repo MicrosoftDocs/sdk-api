@@ -59,14 +59,14 @@ Sets the  style for joining stroke lines.
 
 ### -param strokeLineJoin [in]
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd372963(v=VS.85).aspx">XPS_LINE_JOIN</a> value to be set.
+The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0007">XPS_LINE_JOIN</a> value to be set.
 
 
 ## -returns
 
 
 
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -91,7 +91,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-<i>strokeLineJoin</i> is not a valid <a href="https://msdn.microsoft.com/en-us/library/Dd372963(v=VS.85).aspx">XPS_LINE_JOIN</a> value.
+<i>strokeLineJoin</i> is not a valid <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0007">XPS_LINE_JOIN</a> value.
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ The method succeeded.
 
 
 
-For more information about the line join styles, see <a href="https://msdn.microsoft.com/en-us/library/Dd372963(v=VS.85).aspx">XPS_LINE_JOIN</a>.
+For more information about the line join styles, see <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0007">XPS_LINE_JOIN</a>.
 
 
 
@@ -115,7 +115,7 @@ For more information about the line join styles, see <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/93257a77-3fef-400e-bfe1-06e760ba4b93">IXpsOMPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompath">IXpsOMPath</a>
 
 
 
@@ -123,7 +123,7 @@ For more information about the line join styles, see <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
  
 
  

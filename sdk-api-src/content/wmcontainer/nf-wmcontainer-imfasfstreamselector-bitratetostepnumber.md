@@ -68,7 +68,7 @@ The bit rate to find a bandwidth step for.
 
 ### -param pdwStepNum [out]
 
-Receives the step number. Use this number to retrieve information about the step by calling <a href="https://msdn.microsoft.com/82d9b642-48e3-4ef5-b0e1-b72f1dd39b2c">IMFASFStreamSelector::GetBandwidthStep</a>.
+Receives the step number. Use this number to retrieve information about the step by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getbandwidthstep">IMFASFStreamSelector::GetBandwidthStep</a>.
 
 
 ## -returns
@@ -113,7 +113,7 @@ In a streaming multiple bit rate (MBR) scenario, call this method with the curre
 
 
 
-<a href="https://msdn.microsoft.com/d2e1fc15-2e12-4698-a4b1-ca8046d228de">IMFASFStreamSelector</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamselector">IMFASFStreamSelector</a>
  
 
  

@@ -82,7 +82,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 
 
-<a href="https://msdn.microsoft.com/DC8B42F0-66D3-4425-9AA8-6B8F0D9B8568">WICJpegScanType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicjpegscantype">WICJpegScanType</a>
  
 
  

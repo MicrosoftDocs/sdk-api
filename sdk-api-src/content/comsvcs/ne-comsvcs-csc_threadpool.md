@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates the thread pool in which the work runs that is submitted through the activity returned from <a href="https://msdn.microsoft.com/3009eb4f-e3f3-497b-ba05-5b750d8a40d0">CoCreateActivity</a>.
+Indicates the thread pool in which the work runs that is submitted through the activity returned from <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-cocreateactivity">CoCreateActivity</a>.
 
 
 ## -enum-fields
@@ -59,12 +59,12 @@ Indicates the thread pool in which the work runs that is submitted through the a
 
 ### -field CSC_ThreadPoolNone
 
-No thread pool is used. If this value is used to configure a <a href="https://msdn.microsoft.com/f546ded4-255e-4565-b588-f36175902778">CServiceConfig</a> object that is passed to <a href="https://msdn.microsoft.com/3009eb4f-e3f3-497b-ba05-5b750d8a40d0">CoCreateActivity</a>, an error (CO_E_THREADPOOL_CONFIG) is returned. This is the default thread pool setting for <b>CServiceConfig</b> when <a href="https://msdn.microsoft.com/9bc8c4f3-d13e-46b6-9187-904b05f66f66">CSC_InheritanceConfig</a> is set to CSC_Ignore.
+No thread pool is used. If this value is used to configure a <a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a> object that is passed to <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-cocreateactivity">CoCreateActivity</a>, an error (CO_E_THREADPOOL_CONFIG) is returned. This is the default thread pool setting for <b>CServiceConfig</b> when <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_inheritanceconfig">CSC_InheritanceConfig</a> is set to CSC_Ignore.
 
 
 ### -field CSC_ThreadPoolInherit
 
-The same type of thread pool apartment as the caller's thread apartment is used. If the caller's thread apartment is the neutral apartment, a single-threaded apartment is used. This is the default thread pool setting for <a href="https://msdn.microsoft.com/f546ded4-255e-4565-b588-f36175902778">CServiceConfig</a> when <a href="https://msdn.microsoft.com/9bc8c4f3-d13e-46b6-9187-904b05f66f66">CSC_InheritanceConfig</a> is set to CSC_Inherit.
+The same type of thread pool apartment as the caller's thread apartment is used. If the caller's thread apartment is the neutral apartment, a single-threaded apartment is used. This is the default thread pool setting for <a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a> when <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_inheritanceconfig">CSC_InheritanceConfig</a> is set to CSC_Inherit.
 
 
 ### -field CSC_STAThreadPool
@@ -81,7 +81,7 @@ A multithreaded apartment (MTA) is used.
 
 
 
-This enumeration is used to set the thread pool for <a href="https://msdn.microsoft.com/f546ded4-255e-4565-b588-f36175902778">CServiceConfig</a> only when calling <a href="https://msdn.microsoft.com/3009eb4f-e3f3-497b-ba05-5b750d8a40d0">CoCreateActivity</a>. An error is returned if you try to set the thread pool when calling <a href="https://msdn.microsoft.com/84640b3b-1f43-4bec-abf6-c295cfb3da8b">CoEnterServiceDomain</a>.
+This enumeration is used to set the thread pool for <a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a> only when calling <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-cocreateactivity">CoCreateActivity</a>. An error is returned if you try to set the thread pool when calling <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-coenterservicedomain">CoEnterServiceDomain</a>.
 
 
 
@@ -91,19 +91,19 @@ This enumeration is used to set the thread pool for <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/c73fb4c5-20ae-4873-afd2-4f40eb47bade">COM+ Threading Models</a>
+<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--threading-models">COM+ Threading Models</a>
 
 
 
-<a href="https://msdn.microsoft.com/f546ded4-255e-4565-b588-f36175902778">CServiceConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a>
 
 
 
-<a href="https://msdn.microsoft.com/3009eb4f-e3f3-497b-ba05-5b750d8a40d0">CoCreateActivity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-cocreateactivity">CoCreateActivity</a>
 
 
 
-<a href="https://msdn.microsoft.com/eba8b4fc-aee7-4ba5-8e0e-b74ce9d25a86">IServiceThreadPoolConfig::SelectThreadPool</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iservicethreadpoolconfig-selectthreadpool">IServiceThreadPoolConfig::SelectThreadPool</a>
  
 
  

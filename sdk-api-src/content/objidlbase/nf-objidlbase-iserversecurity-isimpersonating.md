@@ -73,7 +73,7 @@ If the thread is currently impersonating, the return value is <b>TRUE</b>. Other
 
 
 
-<a href="https://msdn.microsoft.com/aacef77c-7185-44ed-aa1a-465c6100a431">IServerSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iserversecurity">IServerSecurity</a>
  
 
  

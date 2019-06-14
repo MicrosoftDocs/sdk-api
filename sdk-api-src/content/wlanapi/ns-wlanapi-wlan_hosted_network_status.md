@@ -68,7 +68,7 @@ If the value of this member is <b>wlan_hosted_network_unavailable</b>, then the 
 
 The actual network Device ID used for  the wireless Hosted Network. 
 
-This is member is the GUID of a virtual wireless device which would not be available through calls to the <a href="https://msdn.microsoft.com/7f817edf-1b1d-495c-afd9-d97e3ae0caab">WlanEnumInterfaces</a> function. This GUID can be used for calling other higher layer networking functions that use the device GUID (IP Helper functions, for example).
+This is member is the GUID of a virtual wireless device which would not be available through calls to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanenuminterfaces">WlanEnumInterfaces</a> function. This GUID can be used for calling other higher layer networking functions that use the device GUID (IP Helper functions, for example).
 
 
 ### -field wlanHostedNetworkBSSID
@@ -114,7 +114,7 @@ The current number of authenticated peers on the wireless Hosted Network.
 
 ### -field PeerList
 
-An array of <a href="https://msdn.microsoft.com/f42f7100-45c8-4dd3-ae01-07740cace871">WLAN_HOSTED_NETWORK_PEER_STATE</a>  structures describing each of the current peers on the wireless Hosted Network. The number of elements in the array is given by <b>dwNumberOfPeers</b> member.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_hosted_network_peer_state">WLAN_HOSTED_NETWORK_PEER_STATE</a>  structures describing each of the current peers on the wireless Hosted Network. The number of elements in the array is given by <b>dwNumberOfPeers</b> member.
 
  This value is correct only if <b>HostedNetworkState</b> is <b>wlan_hosted_network_active</b>.
 
@@ -125,7 +125,7 @@ An array of <a href="https://msdn.microsoft.com/f42f7100-45c8-4dd3-ae01-07740cac
 
 The <b>WLAN_HOSTED_NETWORK_STATUS</b>  structure is an extension to native wireless APIs added to support the wireless Hosted Network on Windows 7 and  later.  
 
-The <b>WLAN_HOSTED_NETWORK_STATUS</b>  structure  is returned in a pointer in the <i>ppWlanHostedNetworkStatus</i> parameter by the <a href="https://msdn.microsoft.com/896cff65-74ec-41d5-89e3-95fa85fd54cd">WlanHostedNetworkQueryStatus</a> function.
+The <b>WLAN_HOSTED_NETWORK_STATUS</b>  structure  is returned in a pointer in the <i>ppWlanHostedNetworkStatus</i> parameter by the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanhostednetworkquerystatus">WlanHostedNetworkQueryStatus</a> function.
 
 
 
@@ -135,27 +135,27 @@ The <b>WLAN_HOSTED_NETWORK_STATUS</b>  structure  is returned in a pointer in th
 
 
 
-<a href="https://msdn.microsoft.com/c1335127-a2d2-4f44-a895-1abbc5eaf98d">DOT11_MAC_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-mac-address-type">DOT11_MAC_ADDRESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/f3804e57-c633-4288-9749-2b267b1353ae">DOT11_PHY_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-phy-type">DOT11_PHY_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/f42f7100-45c8-4dd3-ae01-07740cace871">WLAN_HOSTED_NETWORK_PEER_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_hosted_network_peer_state">WLAN_HOSTED_NETWORK_PEER_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/4c845df3-6bc8-4e09-ac01-6c9180d43b16">WLAN_HOSTED_NETWORK_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_hosted_network_state">WLAN_HOSTED_NETWORK_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f817edf-1b1d-495c-afd9-d97e3ae0caab">WlanEnumInterfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanenuminterfaces">WlanEnumInterfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/896cff65-74ec-41d5-89e3-95fa85fd54cd">WlanHostedNetworkQueryStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanhostednetworkquerystatus">WlanHostedNetworkQueryStatus</a>
  
 
  

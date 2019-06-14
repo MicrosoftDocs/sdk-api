@@ -59,9 +59,9 @@ Gets the scroll mode of the region.
 
 ### -param scrollMode [out]
 
-Type: <b><a href="https://msdn.microsoft.com/7FE9B5BB-7313-4E9F-A34E-FDFBC6F07686">MF_TIMED_TEXT_SCROLL_MODE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_timed_text_scroll_mode">MF_TIMED_TEXT_SCROLL_MODE</a>*</b>
 
-A pointer to a variable that receives a <a href="https://msdn.microsoft.com/7FE9B5BB-7313-4E9F-A34E-FDFBC6F07686">MF_TIMED_TEXT_SCROLL_MODE</a>-typed value that specifies the scroll mode of the region.
+A pointer to a variable that receives a <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_timed_text_scroll_mode">MF_TIMED_TEXT_SCROLL_MODE</a>-typed value that specifies the scroll mode of the region.
 
 
 ## -returns
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/1A6E068F-2E01-4A72-8BCF-D645B1D21ECF">IMFTimedTextRegion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextregion">IMFTimedTextRegion</a>
  
 
  

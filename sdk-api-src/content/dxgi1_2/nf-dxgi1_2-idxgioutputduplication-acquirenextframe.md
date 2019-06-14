@@ -67,12 +67,12 @@ For more information about the time-out interval, see Remarks.
 
 ### -param pFrameInfo [out]
 
-A pointer to a memory location that receives the <a href="https://msdn.microsoft.com/2A5C6F99-0610-457D-9850-867DCDA8F293">DXGI_OUTDUPL_FRAME_INFO</a> structure that describes timing and presentation statistics for a frame.
+A pointer to a memory location that receives the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/ns-dxgi1_2-dxgi_outdupl_frame_info">DXGI_OUTDUPL_FRAME_INFO</a> structure that describes timing and presentation statistics for a frame.
 
 
 ### -param ppDesktopResource [out]
 
-A pointer to a variable that receives the <a href="https://msdn.microsoft.com/en-us/library/Bb174560(v=VS.85).aspx">IDXGIResource</a> interface of the surface that contains the desktop bitmap.
+A pointer to a variable that receives the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiresource">IDXGIResource</a> interface of the surface that contains the desktop bitmap.
 
 
 ## -returns
@@ -86,11 +86,11 @@ A pointer to a variable that receives the <a href="https://msdn.microsoft.com/en
 <li>Desktop switch</li>
 <li>Mode change</li>
 <li>Switch from DWM on, DWM off, or other full-screen application</li>
-</ul>In this situation, the application must release the <a href="https://msdn.microsoft.com/02C4EC3D-D97F-4CFC-ABF5-03B44CE6A658">IDXGIOutputDuplication</a> interface and create a new <b>IDXGIOutputDuplication</b> for the new content.</li>
+</ul>In this situation, the application must release the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgioutputduplication">IDXGIOutputDuplication</a> interface and create a new <b>IDXGIOutputDuplication</b> for the new content.</li>
 <li>DXGI_ERROR_WAIT_TIMEOUT if the time-out interval elapsed before the next desktop frame was available.</li>
 <li>DXGI_ERROR_INVALID_CALL if the application called <b>AcquireNextFrame</b> without releasing the previous frame.</li>
 <li>E_INVALIDARG if one of the parameters to <b>AcquireNextFrame</b> is incorrect; for example, if <i>pFrameInfo</i> is NULL.</li>
-<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.</li>
+<li>Possibly other error codes that are described in the <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a> topic.</li>
 </ul>
 
 
@@ -116,7 +116,7 @@ If the caller specifies a zero time-out interval in the <i>TimeoutInMilliseconds
 
 
 
-<a href="https://msdn.microsoft.com/02C4EC3D-D97F-4CFC-ABF5-03B44CE6A658">IDXGIOutputDuplication</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgioutputduplication">IDXGIOutputDuplication</a>
  
 
  

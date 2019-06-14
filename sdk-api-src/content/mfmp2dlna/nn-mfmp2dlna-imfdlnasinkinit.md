@@ -56,7 +56,7 @@ The DLNA media sink exposes this interface. To get a pointer to this interface, 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFDLNASinkInit</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFDLNASinkInit</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFDLNASinkInit</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFDLNASinkInit</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IMFDLNASinkInit</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/48c3842c-7d88-4232-b882-363d9310ffe8">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmp2dlna/nf-mfmp2dlna-imfdlnasinkinit-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the DLNA media sink.
@@ -86,7 +86,7 @@ Initializes the DLNA media sink.
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

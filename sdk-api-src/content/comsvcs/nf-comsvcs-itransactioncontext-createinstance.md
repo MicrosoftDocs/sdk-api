@@ -91,7 +91,7 @@ If the Microsoft Distributed Transaction Coordinator is not running and the obje
 
 
 
-<a href="https://msdn.microsoft.com/818fe18b-04ed-4f54-aeb7-b19aafc8a51a">ITransactionContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-itransactioncontext">ITransactionContext</a>
  
 
  

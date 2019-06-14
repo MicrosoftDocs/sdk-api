@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves a specified Listener object  property.  The property to retrieve is identified by a  <a href="https://msdn.microsoft.com/52e4a5d3-e584-40d1-b71f-b4ef61104883">WS_LISTENER_PROPERTY_ID</a> input parameter.
+Retrieves a specified Listener object  property.  The property to retrieve is identified by a  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_listener_property">WS_LISTENER_PROPERTY_ID</a> input parameter.
             
 
 
@@ -60,8 +60,8 @@ Retrieves a specified Listener object  property.  The property to retrieve is id
 
 ### -param listener [in]
 
-A pointer to the Listener object containing the desired property.  This must be a valid <a href="https://msdn.microsoft.com/2e771c56-4a07-4c8e-92c1-ffcbf74cd1aa">WS_LISTENER</a> that was returned
-                    from <a href="https://msdn.microsoft.com/2e592fd2-cf88-4f87-a71b-1c3416917fa7">WsCreateListener</a>.  
+A pointer to the Listener object containing the desired property.  This must be a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-listener">WS_LISTENER</a> that was returned
+                    from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatelistener">WsCreateListener</a>.  
 
 
 ### -param id [in]
@@ -86,7 +86,7 @@ Represents the byte-length buffer size allocated by the caller to store the retr
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 

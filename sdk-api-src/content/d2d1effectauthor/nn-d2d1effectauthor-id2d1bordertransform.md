@@ -55,7 +55,7 @@ Extends the input rectangle to infinity using the specified extend modes.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1BorderTransform</b> interface inherits from <a href="https://msdn.microsoft.com/5349EF29-767F-4C78-A6F9-B0C6F143E762">ID2D1ConcreteTransform</a>. <b>ID2D1BorderTransform</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1BorderTransform</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1concretetransform">ID2D1ConcreteTransform</a>. <b>ID2D1BorderTransform</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID2D1BorderTransform</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/FAF8DE8A-3A05-496F-A03B-971DFDCF669E">GetExtendModeX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1bordertransform-getextendmodex">GetExtendModeX</a>
 </td>
 <td align="left" width="63%">
 Gets the extend mode in the x direction.
@@ -79,7 +79,7 @@ Gets the extend mode in the x direction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5B63E761-D22A-4789-A9DE-44DD8DC80E8D">GetExtendModeY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1bordertransform-getextendmodey">GetExtendModeY</a>
 </td>
 <td align="left" width="63%">
 Gets the extend mode in the y direction.
@@ -88,7 +88,7 @@ Gets the extend mode in the y direction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/DAE92C50-CCEB-4E22-A37E-8E4AFC47646F">SetExtendModeX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1bordertransform-setextendmodex">SetExtendModeX</a>
 </td>
 <td align="left" width="63%">
 Sets the extend mode in the x direction.
@@ -97,7 +97,7 @@ Sets the extend mode in the x direction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0D29121A-A6FE-49A6-96DE-FB707ACD15B2">SetExtendModeY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1bordertransform-setextendmodey">SetExtendModeY</a>
 </td>
 <td align="left" width="63%">
 Sets the extend mode in the y direction.
@@ -112,7 +112,7 @@ Sets the extend mode in the y direction.
 
 
 
-<a href="https://msdn.microsoft.com/5349EF29-767F-4C78-A6F9-B0C6F143E762">ID2D1ConcreteTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1concretetransform">ID2D1ConcreteTransform</a>
  
 
  

@@ -69,8 +69,8 @@ Pointer to the null-terminated Unicode string name of the disk file to be examin
 
 
 <b>StgIsStorageFile</b> function can also return any file system errors or system errors wrapped in an <b>HRESULT</b>. See 
-<a href="https://msdn.microsoft.com/en-us/library/ms688560(v=VS.85).aspx">Error Handling Strategies</a> and 
-<a href="https://msdn.microsoft.com/en-us/library/ms693442(v=VS.85).aspx">Handling Unknown Errors</a>
+<a href="https://docs.microsoft.com/windows/desktop/com/error-handling-strategies">Error Handling Strategies</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/com/handling-unknown-errors">Handling Unknown Errors</a>
 
 
 
@@ -93,7 +93,7 @@ If a root compound file has been created in transacted mode but not yet committe
 
 
 
-<a href="https://msdn.microsoft.com/ce0e29fd-1b21-4064-8e37-1a5d5df8bb61">StgIsStorageILockBytes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgisstorageilockbytes">StgIsStorageILockBytes</a>
  
 
  

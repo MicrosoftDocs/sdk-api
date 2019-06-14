@@ -123,7 +123,7 @@ The returned string is taken from the alert_text field, as defined by ANSI-J-STD
 
 
 
-<a href="https://msdn.microsoft.com/7b5620c3-f460-4118-a8a2-9b2561bd12cf">ISCTE_EAS Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iscte_eas">ISCTE_EAS Interface</a>
  
 
  

@@ -57,7 +57,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPNAT</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IUPnPNAT</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPNAT</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IUPnPNAT</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -79,7 +79,7 @@ This method is not currently supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/594fdd40-062e-4f81-af11-4170a5870472">get_NATEventManager</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nf-natupnp-iupnpnat-get_nateventmanager">get_NATEventManager</a>
 </td>
 <td align="left" width="63%">
 Establishes callbacks for the NAT to inform the client of changes.
@@ -88,7 +88,7 @@ Establishes callbacks for the NAT to inform the client of changes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ba4d0735-f04e-47d1-a54c-e01cf338d737">get_StaticPortMappingCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nf-natupnp-iupnpnat-get_staticportmappingcollection">get_StaticPortMappingCollection</a>
 </td>
 <td align="left" width="63%">
 Retrieves the static port mappings collection.
@@ -103,7 +103,7 @@ Retrieves the static port mappings collection.
 
 
 
-<a href="https://msdn.microsoft.com/bf14d633-4b91-4570-b4c9-fd524923914a">Network Address Translation Traversal Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-interfaces">Network Address Translation Traversal Interfaces</a>
  
 
  

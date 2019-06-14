@@ -63,7 +63,7 @@ The <b>PALOBJ</b>
 
 
 
-This structure is used in conjunction with the <a href="https://msdn.microsoft.com/c6bce32f-4daa-41e4-a495-8a3b56d70efc">PALOBJ_cGetColors</a> service routine.
+This structure is used in conjunction with the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-palobj_cgetcolors">PALOBJ_cGetColors</a> service routine.
 
 
 
@@ -73,7 +73,7 @@ This structure is used in conjunction with the <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/c6bce32f-4daa-41e4-a495-8a3b56d70efc">PALOBJ_cGetColors</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-palobj_cgetcolors">PALOBJ_cGetColors</a>
  
 
  

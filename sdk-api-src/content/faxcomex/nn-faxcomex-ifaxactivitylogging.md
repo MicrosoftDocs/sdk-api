@@ -54,7 +54,7 @@ The <b>IFaxActivityLogging</b> interface defines a configuration object used by 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxActivityLogging</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxActivityLogging</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxActivityLogging</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxActivityLogging</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,19 +70,19 @@ The <b>IFaxActivityLogging</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms684842(v=VS.85).aspx">Refresh</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxactivitylogging-refresh-vb">Refresh</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms684842(v=VS.85).aspx">IFaxActivityLogging::Refresh</a> method refreshes <a href="https://msdn.microsoft.com/en-us/library/ms684576(v=VS.85).aspx">FaxActivityLogging</a> object information from the fax server.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxactivitylogging-refresh-vb">IFaxActivityLogging::Refresh</a> method refreshes <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxactivitylogging">FaxActivityLogging</a> object information from the fax server.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms685941(v=VS.85).aspx">Save</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxactivitylogging-save-vb">Save</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms685941(v=VS.85).aspx">IFaxActivityLogging::Save</a> method saves the <a href="https://msdn.microsoft.com/en-us/library/ms684576(v=VS.85).aspx">FaxActivityLogging</a> object's data.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxactivitylogging-save-vb">IFaxActivityLogging::Save</a> method saves the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxactivitylogging">FaxActivityLogging</a> object's data.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms685941(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687463(v=VS.85).aspx">DatabasePath</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxactivitylogging-databasepath-vb">DatabasePath</a>
 
 
 </td>
@@ -106,14 +106,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms687463(v=VS.85).aspx">IFaxActivityLogging::get_DatabasePath</a> property is a null-terminated string that contains the path to the activity log database file.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxactivitylogging-databasepath-vb">IFaxActivityLogging::get_DatabasePath</a> property is a null-terminated string that contains the path to the activity log database file.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686023(v=VS.85).aspx">LogIncoming</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxactivitylogging-logincoming-vb">LogIncoming</a>
 
 
 </td>
@@ -122,14 +122,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms686023(v=VS.85).aspx">IFaxActivityLogging::get_LogIncoming</a> property is a Boolean value that indicates whether the fax service logs entries for incoming faxes in the activity log database.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxactivitylogging-logincoming-vb">IFaxActivityLogging::get_LogIncoming</a> property is a Boolean value that indicates whether the fax service logs entries for incoming faxes in the activity log database.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686497(v=VS.85).aspx">LogOutgoing</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxactivitylogging-logoutgoing-vb">LogOutgoing</a>
 
 
 </td>
@@ -138,7 +138,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms686497(v=VS.85).aspx">IFaxActivityLogging::get_LogOutgoing</a> property is a Boolean value that indicates whether the fax service logs entries for outgoing faxes in the activity log database.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxactivitylogging-logoutgoing-vb">IFaxActivityLogging::get_LogOutgoing</a> property is a Boolean value that indicates whether the fax service logs entries for outgoing faxes in the activity log database.
 
 </td>
 </tr>
@@ -149,7 +149,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms686497(v=VS.85).aspx">IF
 
 
 
-A default implementation of <b>IFaxActivityLogging</b> is provided as the <a href="https://msdn.microsoft.com/en-us/library/ms684576(v=VS.85).aspx">FaxActivityLogging</a> object.
+A default implementation of <b>IFaxActivityLogging</b> is provided as the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxactivitylogging">FaxActivityLogging</a> object.
 
 
 

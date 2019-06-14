@@ -51,10 +51,10 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The <b>CertViewProperties</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/d4b8f01b-7c3e-4286-bc37-d5ec4a1e1c2f">CryptUIDlgViewContext</a> function.]
+<p class="CCE_Message">[The <b>CertViewProperties</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuidlgviewcontext">CryptUIDlgViewContext</a> function.]
 
-The <b>CertViewProperties</b> function displays the properties for a certificate in a user interface (UI) dialog box. This function has no associated import library. You must use the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> functions to dynamically link to CryptDlg.dll.
-<div class="alert"><b>Note</b>  This function has no associated import library. You must use the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> functions to dynamically link to CryptDlg.dll.</div><div> </div>
+The <b>CertViewProperties</b> function displays the properties for a certificate in a user interface (UI) dialog box. This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to CryptDlg.dll.
+<div class="alert"><b>Note</b>  This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to CryptDlg.dll.</div><div> </div>
 
 ## -parameters
 
@@ -63,7 +63,7 @@ The <b>CertViewProperties</b> function displays the properties for a certificate
 
 ### -param pCertViewInfo [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/3d18526b-1052-4f0c-999b-881a74a94549">CERT_VIEWPROPERTIES_STRUCT</a> structure that contains the information about the certificate to view.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/ns-cryptdlg-tagcert_viewproperties_struct_a">CERT_VIEWPROPERTIES_STRUCT</a> structure that contains the information about the certificate to view.
 
 
 ## -returns

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Determines which tab, if any, is at a specified screen position. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760604(v=VS.85).aspx">TCM_HITTEST</a> message explicitly. 
+Determines which tab, if any, is at a specified screen position. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-hittest">TCM_HITTEST</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Determines which tab, if any, is at a specified screen position. You can use thi
 
 ### -param hwndTC
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tab control. 
 
@@ -68,5 +68,5 @@ Handle to the tab control.
 
 Type: <b>LPTCHITTESTINFO</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb760553(v=VS.85).aspx">TCHITTESTINFO</a> structure that specifies the screen position to test. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtchittestinfo">TCHITTESTINFO</a> structure that specifies the screen position to test. 
 

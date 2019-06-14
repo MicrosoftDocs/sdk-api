@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>pCryptSIPGetCaps</b> function is implemented by an <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">subject interface package</a> (SIP) to report capabilities.
+The <b>pCryptSIPGetCaps</b> function is implemented by an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">subject interface package</a> (SIP) to report capabilities.
 
 
 ## -parameters
@@ -59,12 +59,12 @@ The <b>pCryptSIPGetCaps</b> function is implemented by an <a href="https://msdn.
 
 ### -param *pSubjInfo [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/6274cd08-d67f-410d-9303-3a42b7f1edc6">SIP_SUBJECTINFO</a> structure that specifies subject information data to the SIP APIs.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo_">SIP_SUBJECTINFO</a> structure that specifies subject information data to the SIP APIs.
 
 
 ### -param *pCaps [in, out]
 
-Pointer to a <a href="https://msdn.microsoft.com/0B6D173B-0183-4A7C-BB92-2D451F746164">SIP_CAP_SET</a> structure that defines the capabilities of an SIP.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-_sip_cap_set_v2">SIP_CAP_SET</a> structure that defines the capabilities of an SIP.
 
 
 ## -see-also
@@ -72,15 +72,15 @@ Pointer to a <a href="https://msdn.microsoft.com/0B6D173B-0183-4A7C-BB92-2D451F7
 
 
 
-<a href="https://msdn.microsoft.com/F939F6D5-DDFE-478F-8FDD-8FA9FAB26010">CryptSIPGetCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipgetcaps">CryptSIPGetCaps</a>
 
 
 
-<a href="https://msdn.microsoft.com/0B6D173B-0183-4A7C-BB92-2D451F746164">SIP_CAP_SET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-_sip_cap_set_v2">SIP_CAP_SET</a>
 
 
 
-<a href="https://msdn.microsoft.com/6274cd08-d67f-410d-9303-3a42b7f1edc6">SIP_SUBJECTINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo_">SIP_SUBJECTINFO</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>DSOP_INIT_INFO</b> structure contains data required to initialize an object picker dialog box. This structure is used with the 
-<a href="https://msdn.microsoft.com/bcf4d283-6709-4425-a122-8f0808502b58">IDsObjectPicker::Initialize</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-initialize">IDsObjectPicker::Initialize</a> method.
 
 
 ## -struct-fields
@@ -76,7 +76,7 @@ Specifies the number of elements in the <b>aDsScopeInfos</b> array.
 ### -field aDsScopeInfos
 
 Pointer to an array of 
-<a href="https://msdn.microsoft.com/6262b520-1eee-48e0-b3af-636b66d78b3d">DSOP_SCOPE_INIT_INFO</a> structures that describe the scopes from which the user can select objects. This member cannot be <b>NULL</b> and the array must contain at least one element because the object picker cannot operate without at least one scope.
+<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-_dsop_scope_init_info">DSOP_SCOPE_INIT_INFO</a> structures that describe the scopes from which the user can select objects. This member cannot be <b>NULL</b> and the array must contain at least one element because the object picker cannot operate without at least one scope.
 
 
 ### -field flOptions
@@ -115,15 +115,15 @@ Pointer to an array of null-terminated Unicode strings that contain the names of
 
 
 
-<a href="https://msdn.microsoft.com/6262b520-1eee-48e0-b3af-636b66d78b3d">DSOP_SCOPE_INIT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-_dsop_scope_init_info">DSOP_SCOPE_INIT_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/5b3e5d71-afd2-49db-b3a2-f9a49f0b2b3a">Directory Object Picker</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/directory-object-picker">Directory Object Picker</a>
 
 
 
-<a href="https://msdn.microsoft.com/bcf4d283-6709-4425-a122-8f0808502b58">IDsObjectPicker::Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-initialize">IDsObjectPicker::Initialize</a>
  
 
  

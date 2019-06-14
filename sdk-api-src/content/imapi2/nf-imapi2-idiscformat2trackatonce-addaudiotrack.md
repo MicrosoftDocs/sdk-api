@@ -436,22 +436,22 @@ Value: 0xC0AA0002
 
 
 
-Before calling this method, you must call the <a href="https://msdn.microsoft.com/6d67b076-0c3f-4d1f-aa19-8e22dd98f331">IDiscFormat2TrackAtOnce::put_Recorder</a> and <a href="https://msdn.microsoft.com/29a0a857-c515-4265-b0b6-6e2048f3de18">IDiscFormat2TrackAtOnce::PrepareMedia</a> methods.
+Before calling this method, you must call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-put_recorder">IDiscFormat2TrackAtOnce::put_Recorder</a> and <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-preparemedia">IDiscFormat2TrackAtOnce::PrepareMedia</a> methods.
 
 You should also consider calling the following methods if their default values are not appropriate for your application:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/93a19bd7-9302-49f5-a5e5-573bf72725a3">IDiscFormat2TrackAtOnce::put_BufferUnderrunFreeDisabled</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-put_bufferunderrunfreedisabled">IDiscFormat2TrackAtOnce::put_BufferUnderrunFreeDisabled</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/9140aa9f-f592-4ef4-85c7-321e5503b0b8">IDiscFormat2TrackAtOnce::put_ClientName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-put_clientname">IDiscFormat2TrackAtOnce::put_ClientName</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/ffde10f9-259a-400d-b83e-f8c81bbe8f94">IDiscFormat2TrackAtOnce::put_DoNotFinalizeMedia</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-put_donotfinalizemedia">IDiscFormat2TrackAtOnce::put_DoNotFinalizeMedia</a>
 </li>
 </ul>
-To determine the progress of the write operation, you must implement the <a href="https://msdn.microsoft.com/15d88768-f6e9-4d0a-a132-08f89fb3c34f">DDiscFormat2TrackAtOnceEvents</a> interface. For examples that show how to implement an event handler in a script, see <a href="https://msdn.microsoft.com/1f15a5fe-f5d7-4e09-805f-2d0380bf2bb2">Monitoring Progress With Events</a>.
+To determine the progress of the write operation, you must implement the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-ddiscformat2trackatonceevents">DDiscFormat2TrackAtOnceEvents</a> interface. For examples that show how to implement an event handler in a script, see <a href="https://docs.microsoft.com/windows/desktop/imapi/monitoring-progress-with-events">Monitoring Progress With Events</a>.
 
 The media can accommodate 99 tracks of audio data. Track numbering starts at 1. The last track is 99.
 
@@ -469,11 +469,11 @@ Silence, or data samples containing zeroes, will be added to the track-writing o
 
 
 
-<a href="https://msdn.microsoft.com/27f2d248-1c83-4784-82f9-75ce0a038b87">IDiscFormat2TrackAtOnce</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonce">IDiscFormat2TrackAtOnce</a>
 
 
 
-<a href="https://msdn.microsoft.com/09e71d36-da1d-4ba0-bd6b-4ce4425d481a">IDiscFormat2TrackAtOnce::CancelAddTrack</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-canceladdtrack">IDiscFormat2TrackAtOnce::CancelAddTrack</a>
  
 
  

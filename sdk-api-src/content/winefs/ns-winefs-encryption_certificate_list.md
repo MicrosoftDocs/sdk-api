@@ -80,7 +80,7 @@ The number of certificates in the list.
 ### -field pUsers
 
 A pointer to the first 
-						<a href="https://msdn.microsoft.com/33b36659-48bb-4297-8142-f8702db03d20">ENCRYPTION_CERTIFICATE</a> structure in the list.
+						<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-_encryption_certificate">ENCRYPTION_CERTIFICATE</a> structure in the list.
 
 
 ### -field pUsers.size_is
@@ -100,15 +100,15 @@ A pointer to the first
 
 
 
-<a href="https://msdn.microsoft.com/a92d6a52-20d1-4d5c-a222-ab9afaf85c4b">AddUsersToEncryptedFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winefs/nf-winefs-adduserstoencryptedfile">AddUsersToEncryptedFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/33b36659-48bb-4297-8142-f8702db03d20">ENCRYPTION_CERTIFICATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-_encryption_certificate">ENCRYPTION_CERTIFICATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f20109f-727d-44a9-90a1-0adc19b00d28">File Encryption</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>
  
 
  

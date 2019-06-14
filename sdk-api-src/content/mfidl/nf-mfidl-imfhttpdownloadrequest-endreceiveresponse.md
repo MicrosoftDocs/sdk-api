@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Invoked by Microsoft Media Foundation to complete the asynchronous operation started by <a href="https://msdn.microsoft.com/6D5DB091-426B-4E89-8657-0BDC6427B23A">BeginReceiveResponse</a>.
+Invoked by Microsoft Media Foundation to complete the asynchronous operation started by <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadrequest-beginreceiveresponse">BeginReceiveResponse</a>.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Invoked by Microsoft Media Foundation to complete the asynchronous operation sta
 
 ### -param pResult [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/8c95b1de-8974-445c-8070-41552ea83e53">IMFAsyncResult</a> interface. Microsoft Media Foundation will pass in the same pointer that its callback object received in the <a href="https://msdn.microsoft.com/22473605-637e-4783-a8cb-98248b0a0327">IMFAsyncCallback::Invoke</a> method.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncresult">IMFAsyncResult</a> interface. Microsoft Media Foundation will pass in the same pointer that its callback object received in the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method.
 
 
 ## -returns
@@ -98,7 +98,7 @@ Successfully received the HTTP response and associated headers.
 
 
 
-If the server failed the request but responded with a specific HTTP status code, the <b>EndReceiveResponse</b> should still return S_OK. Media Foundation will invoke the <a href="https://msdn.microsoft.com/E084CF25-BEFA-4061-AA77-2CFC57CF6DCE">GetHttpStatus</a> method to retrieve the HTTP status code.
+If the server failed the request but responded with a specific HTTP status code, the <b>EndReceiveResponse</b> should still return S_OK. Media Foundation will invoke the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadrequest-gethttpstatus">GetHttpStatus</a> method to retrieve the HTTP status code.
 
 
 
@@ -108,7 +108,7 @@ If the server failed the request but responded with a specific HTTP status code,
 
 
 
-<a href="https://msdn.microsoft.com/A8A37C2F-A662-4FDA-95F6-43D96A8471A8">IMFHttpDownloadRequest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>
  
 
  

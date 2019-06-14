@@ -106,11 +106,11 @@ The font does not support an italic state. This value is not an error condition.
 
 
 
-<a href="https://msdn.microsoft.com/3a04d2b7-b2eb-4c6c-8863-1e88321fa382">IFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
 
 
 
-<a href="https://msdn.microsoft.com/d56c21d6-1296-4c0c-a13e-8e4b3164e747">IFont::get_Italic</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_italic">IFont::get_Italic</a>
  
 
  

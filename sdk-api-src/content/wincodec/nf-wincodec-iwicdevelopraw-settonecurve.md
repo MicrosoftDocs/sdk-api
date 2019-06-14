@@ -66,7 +66,7 @@ The size of the <i>pToneCurve</i> structure.
 
 ### -param pToneCurve [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/45eedc32-a642-4ef6-a02a-63eaeacf0012">WICRawToneCurve</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-wincodec-wicrawtonecurve">WICRawToneCurve</a>*</b>
 
 The desired tone curve.
 

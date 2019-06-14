@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>GetCIMSSM</b> may be altered or unavailable in the future. Instead, use <a href="https://msdn.microsoft.com/35e4ebf5-df9d-4168-9996-355204c2ab93">GetCurrentInputMessageSource</a>.]
+<p class="CCE_Message">[<b>GetCIMSSM</b> may be altered or unavailable in the future. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcurrentinputmessagesource">GetCurrentInputMessageSource</a>.]
 
 Retrieves the source of the input message (GetCurrentInputMessageSourceInSendMessage).
 
@@ -61,7 +61,7 @@ Retrieves the source of the input message (GetCurrentInputMessageSourceInSendMes
 
 ### -param inputMessageSource [out]
 
-The <a href="https://msdn.microsoft.com/75437c0a-925a-44d9-9254-43095b281c21">INPUT_MESSAGE_SOURCE</a> structure that holds the device type and the ID of the input message source.
+The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taginput_message_source">INPUT_MESSAGE_SOURCE</a> structure that holds the device type and the ID of the input message source.
 
 
 ## -returns
@@ -73,7 +73,7 @@ If this function succeeds, it returns TRUE. Otherwise, it returns ERROR_INVALID_
 This function fails when:<ul>
 <li>The input parameter is invalid.</li>
 <li>
-<a href="https://msdn.microsoft.com/35e4ebf5-df9d-4168-9996-355204c2ab93">GetCurrentInputMessageSource</a> returns a value other than <a href="https://msdn.microsoft.com/aaaa8d9b-1056-4fa3-afcf-43d2c4b41c0e">IMDT_UNAVAILABLE</a> for the device type.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcurrentinputmessagesource">GetCurrentInputMessageSource</a> returns a value other than <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-taginput_message_device_type">IMDT_UNAVAILABLE</a> for the device type.</li>
 </ul>
 
 
@@ -84,7 +84,7 @@ This function fails when:<ul>
 
 
 
-<b>GetCIMSSM</b> should be used only when <a href="https://msdn.microsoft.com/35e4ebf5-df9d-4168-9996-355204c2ab93">GetCurrentInputMessageSource</a> returns a device type of <a href="https://msdn.microsoft.com/aaaa8d9b-1056-4fa3-afcf-43d2c4b41c0e">IMDT_UNAVAILABLE</a>.
+<b>GetCIMSSM</b> should be used only when <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcurrentinputmessagesource">GetCurrentInputMessageSource</a> returns a device type of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-taginput_message_device_type">IMDT_UNAVAILABLE</a>.
 
 
 
@@ -94,7 +94,7 @@ This function fails when:<ul>
 
 
 
-<a href="https://msdn.microsoft.com/1B1292B2-1BB6-4F75-8D82-CC0596B9D061">Input Source Identification Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_sourceid/input-source-identification-reference">Input Source Identification Reference</a>
  
 
  

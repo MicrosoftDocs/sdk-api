@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>AddResourceAttributeAce</b> function adds a <a href="https://msdn.microsoft.com/A222E1B7-CA9C-4250-A697-B9D278B26C06">SYSTEM_RESOURCE_ATTRIBUTE_ACE</a> <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entry</a> (ACE) to the end of a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">system access control list</a> (SACL). A <b>SYSTEM_RESOURCE_ATTRIBUTE_ACE</b> structure specifies an attribute name and a value-ordered list of elements  that is associated with a resource and potentially used during access checks. The set of standard access rights are defined in the <a href="https://msdn.microsoft.com/f43bccce-0f8c-4732-b678-5fd3218a9f84">Standard Access Rights</a> topic.
+The <b>AddResourceAttributeAce</b> function adds a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_resource_attribute_ace">SYSTEM_RESOURCE_ATTRIBUTE_ACE</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) to the end of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL). A <b>SYSTEM_RESOURCE_ATTRIBUTE_ACE</b> structure specifies an attribute name and a value-ordered list of elements  that is associated with a resource and potentially used during access checks. The set of standard access rights are defined in the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights">Standard Access Rights</a> topic.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The <b>AddResourceAttributeAce</b> function adds a <a href="https://msdn.microso
 
 ### -param pAcl [in, out]
 
-A pointer to an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control list</a> (ACL). This function adds an ACE to this ACL. The value of this parameter cannot be <b>NULL</b>. The ACE is in the form of a  <a href="https://msdn.microsoft.com/A222E1B7-CA9C-4250-A697-B9D278B26C06">SYSTEM_RESOURCE_ATTRIBUTE_ACE</a> structure.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL). This function adds an ACE to this ACL. The value of this parameter cannot be <b>NULL</b>. The ACE is in the form of a  <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_resource_attribute_ace">SYSTEM_RESOURCE_ATTRIBUTE_ACE</a> structure.
 
 
 ### -param dwAceRevision [in]
@@ -73,7 +73,7 @@ Specifies the revision level of the ACL being modified. This value can be ACL_RE
 
 ### -param AceFlags [in]
 
-A set of bit flags that control ACE inheritance. The function sets these flags in the <b>AceFlags</b> member of the <a href="https://msdn.microsoft.com/d23f15d6-0453-4aaf-a2db-7528b551a992">ACE_HEADER</a> structure of the new ACE.
+A set of bit flags that control ACE inheritance. The function sets these flags in the <b>AceFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a> structure of the new ACE.
 
 For consistency with the Windows 8 Advanced File Permissions UI, applications should specify the CONTAINER_INHERIT_ACE and OBJECT_INHERIT_ACE flags in the <i>AceFlags</i> parameter.
 
@@ -173,7 +173,7 @@ The size, in bytes, of the actual ACL buffer used. If the buffer specified by th
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -183,7 +183,7 @@ If the function fails, it returns <b>FALSE</b>. To get extended error informatio
 
 
 
-<a href="https://msdn.microsoft.com/f43bccce-0f8c-4732-b678-5fd3218a9f84">Standard Access Rights</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights">Standard Access Rights</a>
  
 
  

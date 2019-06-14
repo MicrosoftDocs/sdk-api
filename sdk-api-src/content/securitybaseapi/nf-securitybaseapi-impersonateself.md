@@ -55,7 +55,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ImpersonateSelf</b> function obtains an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access token</a> that impersonates the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a> of the calling <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">process</a>. The token is assigned to the calling thread.
+The <b>ImpersonateSelf</b> function obtains an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access token</a> that impersonates the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a> of the calling <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">process</a>. The token is assigned to the calling thread.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ The <b>ImpersonateSelf</b> function obtains an <a href="https://msdn.microsoft.c
 ### -param ImpersonationLevel [in]
 
 Specifies a 
-<a href="https://msdn.microsoft.com/a75ad777-c88e-4899-be50-0118c113a600">SECURITY_IMPERSONATION_LEVEL</a> enumerated type that supplies the impersonation level of the new token.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a> enumerated type that supplies the impersonation level of the new token.
 
 
 ## -returns
@@ -76,7 +76,7 @@ Specifies a
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -85,10 +85,10 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-The <b>ImpersonateSelf</b> function is used for tasks such as enabling a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">privilege</a> for a single thread rather than for the entire process or for changing the default <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">discretionary access control list</a> (DACL) for a single thread.
+The <b>ImpersonateSelf</b> function is used for tasks such as enabling a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">privilege</a> for a single thread rather than for the entire process or for changing the default <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL) for a single thread.
 
 The server can call the 
-<a href="https://msdn.microsoft.com/e3de77b9-dd27-4f20-b63d-ad2c57ac4283">RevertToSelf</a> function when the impersonation is complete.
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-reverttoself">RevertToSelf</a> function when the impersonation is complete.
 
 For this function to succeed, the DACL protecting the process token must grant the TOKEN_DUPLICATE right to itself.
 
@@ -100,27 +100,27 @@ For this function to succeed, the DACL protecting the process token must grant t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Client/Server Access Control Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Client/Server Access Control Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/8301ed4f-9458-410b-af19-4f055656005a">Client/Server Access Control Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/client-server-access-control">Client/Server Access Control Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/796ec60e-fcae-48a9-b471-de3dce831306">DuplicateToken</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-duplicatetoken">DuplicateToken</a>
 
 
 
-<a href="https://msdn.microsoft.com/63fc90ac-536a-4d9b-ba0d-19dc0cc09e6b">ImpersonateNamedPipeClient</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-impersonatenamedpipeclient">ImpersonateNamedPipeClient</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3de77b9-dd27-4f20-b63d-ad2c57ac4283">RevertToSelf</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-reverttoself">RevertToSelf</a>
 
 
 
-<a href="https://msdn.microsoft.com/a75ad777-c88e-4899-be50-0118c113a600">SECURITY_IMPERSONATION_LEVEL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a>
  
 
  

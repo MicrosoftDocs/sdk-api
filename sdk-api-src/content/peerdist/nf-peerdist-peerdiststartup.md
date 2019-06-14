@@ -115,7 +115,7 @@ The requested version is not supported by client side DLL.
 
 
 
-<b>PeerDistStartup</b> must be called before any other Peer Distribution functions. When no longer needed, the handle returned by <b>PeerDistStartup</b> should be closed via a call to <a href="https://msdn.microsoft.com/47fe4a77-2895-4d5b-beff-995e12fb0644">PeerDistShutdown</a>.
+<b>PeerDistStartup</b> must be called before any other Peer Distribution functions. When no longer needed, the handle returned by <b>PeerDistStartup</b> should be closed via a call to <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistshutdown">PeerDistShutdown</a>.
 
 
 
@@ -125,7 +125,7 @@ The requested version is not supported by client side DLL.
 
 
 
-<a href="https://msdn.microsoft.com/47fe4a77-2895-4d5b-beff-995e12fb0644">PeerDistShutdown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistshutdown">PeerDistShutdown</a>
  
 
  

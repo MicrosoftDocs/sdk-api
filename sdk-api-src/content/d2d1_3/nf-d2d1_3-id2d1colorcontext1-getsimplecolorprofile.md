@@ -59,7 +59,7 @@ Retrieves a set simple color profile.
 
 ### -param simpleProfile [out]
 
-Type: <b><a href="https://msdn.microsoft.com/B48A7333-AC8B-4965-9D78-6FFC3B0F01A9">D2D1_SIMPLE_COLOR_PROFILE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/ns-d2d1_3-d2d1_simple_color_profile">D2D1_SIMPLE_COLOR_PROFILE</a>*</b>
 
 Pointer to a D2D1_SIMPLE_COLOR_PROFILE that will contain the simple color profile when the method returns.
 
@@ -68,7 +68,7 @@ Pointer to a D2D1_SIMPLE_COLOR_PROFILE that will contain the simple color profil
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 
@@ -80,7 +80,7 @@ This method returns an HRESULT success or error code.
 
 
 
-<a href="https://msdn.microsoft.com/77C8730B-C753-48E7-89C1-FBE28E687704">ID2D1ColorContext1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1colorcontext1">ID2D1ColorContext1</a>
  
 
  

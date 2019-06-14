@@ -59,12 +59,12 @@ Creates a data collector of the specified type.
 
 ### -param Type [in]
 
-The type of data collector to create. For possible data collector types, see the <a href="https://msdn.microsoft.com/535b17a9-2e71-4513-83be-56a93ab87627">DataCollectorType</a> enumeration.
+The type of data collector to create. For possible data collector types, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/ne-pla-__midl___midl_itf_pla_0001_0043_0001">DataCollectorType</a> enumeration.
 
 
 ### -param Collector [out]
 
-An <a href="https://msdn.microsoft.com/e1860bcf-c62d-434b-b98b-38bad7f84d89">IDataCollector</a> interface of the newly created data collector. To get the actual data collector interface requested, call the <b>QueryInterface</b> method.
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollector">IDataCollector</a> interface of the newly created data collector. To get the actual data collector interface requested, call the <b>QueryInterface</b> method.
 
 
 ## -returns
@@ -80,7 +80,7 @@ Returns S_OK if successful.
 
 
 
-Use one of the following interface identifiers to query the <a href="https://msdn.microsoft.com/e1860bcf-c62d-434b-b98b-38bad7f84d89">IDataCollector</a> interface for the specific data collector.
+Use one of the following interface identifiers to query the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollector">IDataCollector</a> interface for the specific data collector.
 
 <table>
 <tr>
@@ -89,31 +89,31 @@ Use one of the following interface identifiers to query the <a href="https://msd
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/8d600d35-bd2b-44fc-9da4-3c6e50e90b65">IApiTracingDataCollector</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-iapitracingdatacollector">IApiTracingDataCollector</a>
 </td>
 <td>IID_IApiTracingDataCollector</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/61907979-fa4a-45da-96c5-7cd12021fbb7">IAlertDataCollector</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ialertdatacollector">IAlertDataCollector</a>
 </td>
 <td>IID_IAlertDataCollector</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/7266c02d-0f56-4754-8a67-68394a5f0158">IConfigurationDataCollector</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-iconfigurationdatacollector">IConfigurationDataCollector</a>
 </td>
 <td>IID_IConfigurationDataCollector</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/c9a5f417-ffd5-452d-9218-3ac045a55de0">IPerformanceCounterDataCollector</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-iperformancecounterdatacollector">IPerformanceCounterDataCollector</a>
 </td>
 <td>IID_IPerformanceCounterDataCollector</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/1f57aa92-81f0-445f-baa3-274714e8291e">ITraceDataCollector</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-itracedatacollector">ITraceDataCollector</a>
 </td>
 <td>IID_ITraceDataCollector</td>
 </tr>
@@ -128,11 +128,11 @@ Use one of the following interface identifiers to query the <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/6b47fb9d-6ca4-4e6b-b117-027ef1e963ac">IDataCollectorCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorcollection">IDataCollectorCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/32a1aba6-24f4-416a-b2ba-9be264fce3fc">IDataCollectorCollection::CreateDataCollectorFromXml</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorcollection-createdatacollectorfromxml">IDataCollectorCollection::CreateDataCollectorFromXml</a>
  
 
  

@@ -59,7 +59,7 @@ Removes an existing event handler from the viewport.
 
 ### -param cookie [in]
 
-A value that was returned by a previous call to <a href="https://msdn.microsoft.com/56b47fec-dfa2-4906-9135-5ee331f04c54">AddEventHandler</a>.
+A value that was returned by a previous call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-addeventhandler">AddEventHandler</a>.
 
 
 ## -returns
@@ -76,7 +76,7 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRES
 
 
 
-<a href="https://msdn.microsoft.com/4c14143b-3b5f-401d-9df7-f17374abcd99">IDirectManipulationViewport</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport">IDirectManipulationViewport</a>
  
 
  

@@ -79,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-If this method is called before showing the dialog, the dialog will update the default extension automatically when the user chooses a new file type (see <a href="https://msdn.microsoft.com/ca850988-7f2f-4faf-9ded-14db476fc452">SetFileTypes</a>).
+If this method is called before showing the dialog, the dialog will update the default extension automatically when the user chooses a new file type (see <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setfiletypes">SetFileTypes</a>).
 
 
 

@@ -81,7 +81,7 @@ CPU cycle counter. The CPU counter provides the highest resolution time stamp an
 
 
 
-For details, see the <b>ClientContext</b> member of the <a href="https://msdn.microsoft.com/862a8f46-a326-48c6-92b7-8bb667837bb7">WNODE_HEADER</a> structure.
+For details, see the <b>ClientContext</b> member of the <a href="https://docs.microsoft.com/windows/desktop/ETW/wnode-header">WNODE_HEADER</a> structure.
 
 
 
@@ -91,7 +91,7 @@ For details, see the <b>ClientContext</b> member of the <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/8c62d441-01c5-4fca-a802-41c7328a22e9">ITraceDataCollector::ClockType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedatacollector-get_clocktype">ITraceDataCollector::ClockType</a>
  
 
  

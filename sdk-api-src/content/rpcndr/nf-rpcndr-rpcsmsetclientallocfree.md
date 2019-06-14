@@ -103,7 +103,7 @@ The system is out of memory.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -113,9 +113,9 @@ The system is out of memory.
 
 
 By overriding the default routines used by the client stub to manage memory, 
-<b>RpcSmSetClientAllocFree</b> establishes the memory allocation and memory-freeing mechanisms. Note that the default routines are <a href="https://msdn.microsoft.com/8a49582a-9ae4-4f26-a172-bc8fe2aab65a">free</a> and <b>malloc</b>, unless the remote call occurs within manager code. In this case, the default memory–management functions are 
-<a href="https://msdn.microsoft.com/d8f7fae4-4d91-4f91-9018-c4bcdb4d6c65">RpcSmFree</a> and 
-<a href="https://msdn.microsoft.com/ca3373fa-8ea4-452e-b2a2-f30eb48fef9d">RpcSmAllocate</a>.
+<b>RpcSmSetClientAllocFree</b> establishes the memory allocation and memory-freeing mechanisms. Note that the default routines are <a href="https://docs.microsoft.com/windows/desktop/Rpc/pointers-and-memory-allocation">free</a> and <b>malloc</b>, unless the remote call occurs within manager code. In this case, the default memory–management functions are 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmfree">RpcSmFree</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a>.
 
 
 
@@ -125,11 +125,11 @@ By overriding the default routines used by the client stub to manage memory,
 
 
 
-<a href="https://msdn.microsoft.com/ca3373fa-8ea4-452e-b2a2-f30eb48fef9d">RpcSmAllocate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a>
 
 
 
-<a href="https://msdn.microsoft.com/d8f7fae4-4d91-4f91-9018-c4bcdb4d6c65">RpcSmFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmfree">RpcSmFree</a>
  
 
  

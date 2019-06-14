@@ -87,7 +87,7 @@ Specifies a starting display list.
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
-If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -96,7 +96,7 @@ If the function fails, the return value is <b>FALSE</b>. To get extended error i
 
 
 
-The <b>wglUseFontBitmaps</b> function defines <i>count</i> display lists in the current OpenGL rendering context. Each display list has an identifying number, starting at <i>listBase</i>. Each display list consists of a single call to <a href="https://msdn.microsoft.com/3cd8e41b-016b-4610-833a-048b5e50ae7c">glBitmap</a>. The definition of bitmap <i>listBase</i> + <i>i</i> is taken from the glyph <i>first</i> + <i>i</i> of the font currently selected in the device context specified by <i>hdc</i>. If a glyph is not defined, then the function defines an empty display list for it.
+The <b>wglUseFontBitmaps</b> function defines <i>count</i> display lists in the current OpenGL rendering context. Each display list has an identifying number, starting at <i>listBase</i>. Each display list consists of a single call to <a href="https://docs.microsoft.com/windows/desktop/OpenGL/glbitmap">glBitmap</a>. The definition of bitmap <i>listBase</i> + <i>i</i> is taken from the glyph <i>first</i> + <i>i</i> of the font currently selected in the device context specified by <i>hdc</i>. If a glyph is not defined, then the function defines an empty display list for it.
 
 The <b>wglUseFontBitmaps</b> function creates bitmap text in the plane of the screen. It enables the labeling of objects in OpenGL.
 
@@ -111,7 +111,7 @@ The function determines the parameters of each call to <b>glBitmap</b> as follow
 </tr>
 <tr>
 <td><i>width</i></td>
-<td>The width of the glyph's bitmap, as returned in the <b>gmBlackBoxX</b> member of the glyph's <a href="https://msdn.microsoft.com/a6fa3813-56f7-4b54-b21d-8aabc2309a34">GLYPHMETRICS</a> structure.</td>
+<td>The width of the glyph's bitmap, as returned in the <b>gmBlackBoxX</b> member of the glyph's <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_glyphmetrics">GLYPHMETRICS</a> structure.</td>
 </tr>
 <tr>
 <td><i>height</i></td>
@@ -135,7 +135,7 @@ The function determines the parameters of each call to <b>glBitmap</b> as follow
 </tr>
 <tr>
 <td><i>bitmap</i></td>
-<td>The bitmap for the glyph, as returned by <a href="https://msdn.microsoft.com/08f06007-5b21-44ab-b234-21a58c94ed4e">GetGlyphOutline</a> with <i>uFormat</i> equal to 1.</td>
+<td>The bitmap for the glyph, as returned by <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getglyphoutlinea">GetGlyphOutline</a> with <i>uFormat</i> equal to 1.</td>
 </tr>
 </table>
  
@@ -182,35 +182,35 @@ glCallLists (24, GL_UNSIGNED_BYTE, "Hello Windows OpenGL World");
 
 
 
-<a href="https://msdn.microsoft.com/a6fa3813-56f7-4b54-b21d-8aabc2309a34">GLYPHMETRICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_glyphmetrics">GLYPHMETRICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/08f06007-5b21-44ab-b234-21a58c94ed4e">GetGlyphOutline</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getglyphoutlinea">GetGlyphOutline</a>
 
 
 
-<a href="https://msdn.microsoft.com/589a86f1-598d-4175-97fc-27ca0b254935">OpenGL on Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows</a>
 
 
 
-<a href="https://msdn.microsoft.com/52053370-d88b-4faf-bdcd-4663c6d5270d">WGL Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/OpenGL/wgl-functions">WGL Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/3cd8e41b-016b-4610-833a-048b5e50ae7c">glBitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/OpenGL/glbitmap">glBitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c0a00df-91ee-44ad-9e02-97c1b078e87f">glCallLists</a>
+<a href="https://docs.microsoft.com/windows/desktop/OpenGL/glcalllists">glCallLists</a>
 
 
 
-<a href="https://msdn.microsoft.com/df82f699-b2af-471a-83f3-5620857ba45d">glListBase</a>
+<a href="https://docs.microsoft.com/windows/desktop/OpenGL/gllistbase">glListBase</a>
 
 
 
-<a href="https://msdn.microsoft.com/08a86563-c6ca-4efb-9096-bc487fc5037c">wglUseFontOutlines</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wglusefontoutlinesa">wglUseFontOutlines</a>
  
 
  

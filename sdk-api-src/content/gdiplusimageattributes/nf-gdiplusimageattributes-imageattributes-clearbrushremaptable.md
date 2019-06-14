@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ImageAttributes::ClearBrushRemapTable</b> method clears the brush color-remap table of this <a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object.
+The <b>ImageAttributes::ClearBrushRemapTable</b> method clears the brush color-remap table of this <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes">ImageAttributes</a> object.
 
 
 ## -parameters
@@ -64,12 +64,12 @@ The <b>ImageAttributes::ClearBrushRemapTable</b> method clears the brush color-r
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 </strong>
 
-If the method succeeds, it returns <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Ok</a>, which is an element of the <b>Status</b> enumeration.
+If the method succeeds, it returns <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Ok</a>, which is an element of the <b>Status</b> enumeration.
 
-If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+If the method fails, it returns one of the other elements of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 
 
@@ -78,20 +78,20 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-An <a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object maintains color and grayscale settings for five adjustment categories: default, bitmap, brush, pen, and text. For example, you can specify one color-remap table for the default category, a different color-remap table for the bitmap category, and still a different color-remap table for the brush category.
+An <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes">ImageAttributes</a> object maintains color and grayscale settings for five adjustment categories: default, bitmap, brush, pen, and text. For example, you can specify one color-remap table for the default category, a different color-remap table for the bitmap category, and still a different color-remap table for the brush category.
 
 The default color- and grayscale-adjustment settings apply to all categories that don't have adjustment settings of their own. For example, if you never specify any adjustment settings for the brush category, then the default settings apply to the brush category.
 
-As soon as you specify a color- or grayscale-adjustment setting for a certain category, the default adjustment settings no longer apply to that category. For example, suppose you specify a default remap table that converts red to green and you specify a default gamma value of 1.8. If you call <a href="https://msdn.microsoft.com/en-us/library/ms535428(v=VS.85).aspx">ImageAttributes::SetBrushRemapTable</a>, then the default remap table (red to green) and the default gamma value (1.8) will not apply to brushes. If you later call <b>ImageAttributes::ClearBrushRemapTable</b>, the brush category will not revert to the default remap table; rather, the brush category will have no remap table. Similarly, the brush category will not revert to the default gamma value; rather, the brush category will have no gamma value.
+As soon as you specify a color- or grayscale-adjustment setting for a certain category, the default adjustment settings no longer apply to that category. For example, suppose you specify a default remap table that converts red to green and you specify a default gamma value of 1.8. If you call <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-setbrushremaptable">ImageAttributes::SetBrushRemapTable</a>, then the default remap table (red to green) and the default gamma value (1.8) will not apply to brushes. If you later call <b>ImageAttributes::ClearBrushRemapTable</b>, the brush category will not revert to the default remap table; rather, the brush category will have no remap table. Similarly, the brush category will not revert to the default gamma value; rather, the brush category will have no gamma value.
 
 
 #### Examples
 
 
 
-The following example creates an <a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object from a .emf file. The code also creates an <a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object. The call to <a href="https://msdn.microsoft.com/en-us/library/ms535436(v=VS.85).aspx">ImageAttributes::SetRemapTable</a> sets the default color-remap table of the <b>ImageAttributes</b> object to a table that converts red to blue. The call to <a href="https://msdn.microsoft.com/en-us/library/ms535428(v=VS.85).aspx">ImageAttributes::SetBrushRemapTable</a> sets the brush remap table of the <b>ImageAttributes</b> object to a table that converts red to green.
+The following example creates an <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object from a .emf file. The code also creates an <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes">ImageAttributes</a> object. The call to <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-setremaptable">ImageAttributes::SetRemapTable</a> sets the default color-remap table of the <b>ImageAttributes</b> object to a table that converts red to blue. The call to <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-setbrushremaptable">ImageAttributes::SetBrushRemapTable</a> sets the brush remap table of the <b>ImageAttributes</b> object to a table that converts red to green.
 
-The code calls <a href="https://msdn.microsoft.com/en-us/library/ms536045(v=VS.85).aspx">DrawImage</a> once to draw the image with no color adjustment. Then the code calls <b>DrawImage</b> three more times, each time passing the address of the <a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object and the address of the <a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object. The second time the image is drawn (after the call to <a href="https://msdn.microsoft.com/en-us/library/ms535436(v=VS.85).aspx">ImageAttributes::SetRemapTable</a>), all of the red is converted to blue. The third time the image is drawn (after the call to <a href="https://msdn.microsoft.com/en-us/library/ms535428(v=VS.85).aspx">ImageAttributes::SetBrushRemapTable</a>), all of the red painted with a brush is converted to green, and the rest of the red is converted to blue. The fourth time the image is drawn (after the call to <b>ImageAttributes::ClearBrushRemapTable</b>), all the red painted with a brush remains unchanged, and the rest of the red is converted to blue.
+The code calls <a href="https://docs.microsoft.com/previous-versions//ms536045(v=vs.85)">DrawImage</a> once to draw the image with no color adjustment. Then the code calls <b>DrawImage</b> three more times, each time passing the address of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object and the address of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes">ImageAttributes</a> object. The second time the image is drawn (after the call to <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-setremaptable">ImageAttributes::SetRemapTable</a>), all of the red is converted to blue. The third time the image is drawn (after the call to <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-setbrushremaptable">ImageAttributes::SetBrushRemapTable</a>), all of the red painted with a brush is converted to green, and the rest of the red is converted to blue. The fourth time the image is drawn (after the call to <b>ImageAttributes::ClearBrushRemapTable</b>), all the red painted with a brush remains unchanged, and the rest of the red is converted to blue.
 
 
 ```cpp
@@ -160,7 +160,7 @@ VOID Example_SetClearBrushRemap(HDC hdc)
 ```
 
 
-The preceding code, along with a particular file, Testmetafile4.emf, produced the following output. The ellipses in the left column were drawn with a pen, and the ellipses in the right column were filled with a brush. Note that the default remap table applies to the ellipses drawn with a pen. The remap table that applies to the ellipses filled with a brush varies according to the <a href="https://msdn.microsoft.com/en-us/library/ms535428(v=VS.85).aspx">ImageAttributes::SetBrushRemapTable</a> and <b>ImageAttributes::ClearBrushRemapTable</b> calls.
+The preceding code, along with a particular file, Testmetafile4.emf, produced the following output. The ellipses in the left column were drawn with a pen, and the ellipses in the right column were filled with a brush. Note that the default remap table applies to the ellipses drawn with a pen. The remap table that applies to the ellipses filled with a brush varies according to the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-setbrushremaptable">ImageAttributes::SetBrushRemapTable</a> and <b>ImageAttributes::ClearBrushRemapTable</b> calls.
 
 <img alt="Illustration showing four empty ellipses; the first is red and the rest blue, then four filled ellipses: red, blue, green, and red" src="./images/imageattributesclearbrushremap.png"/>
 
@@ -173,47 +173,47 @@ The preceding code, along with a particular file, Testmetafile4.emf, produced th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534089(v=VS.85).aspx">ColorAdjustType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolormatrix/ne-gdipluscolormatrix-coloradjusttype">ColorAdjustType</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534062(v=VS.85).aspx">ColorMap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolormatrix/ns-gdipluscolormatrix-colormap">ColorMap</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes">ImageAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535422(v=VS.85).aspx">ImageAttributes::ClearRemapTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-clearremaptable">ImageAttributes::ClearRemapTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535428(v=VS.85).aspx">ImageAttributes::SetBrushRemapTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-setbrushremaptable">ImageAttributes::SetBrushRemapTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535436(v=VS.85).aspx">ImageAttributes::SetRemapTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-setremaptable">ImageAttributes::SetRemapTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534477(v=VS.85).aspx">Metafile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533809(v=VS.85).aspx">Recoloring</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-recoloring-use">Recoloring</a>
  
 
  

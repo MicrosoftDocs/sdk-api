@@ -59,7 +59,7 @@ The <b>GetCacheTime</b> method specifies the time when cached results of a diagn
 
 ### -param pCacheTime [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
 
 
 ## -returns
@@ -163,7 +163,7 @@ The <b>FILETIME</b> structure is a 64-bit value representing the number of 100-n
 
 
 
-<a href="https://msdn.microsoft.com/7f1b8a5b-389b-4276-a49d-94a39be3c35c">INetDiagHelper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>
  
 
  

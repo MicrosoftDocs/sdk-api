@@ -59,9 +59,9 @@ Defines conflict item structure.
 
 ### -field pShellItem
 
-Type: <b><a href="https://msdn.microsoft.com/e54d8385-ec67-4825-ad7c-431807a4fcb4">IShellItem2</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem2">IShellItem2</a>*</b>
 
-A pointer to <a href="https://msdn.microsoft.com/e54d8385-ec67-4825-ad7c-431807a4fcb4">IShellItem2</a> interface.
+A pointer to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem2">IShellItem2</a> interface.
 
 
 ### -field pszOriginalName
@@ -94,7 +94,7 @@ A pointer to the full location.
 
 ### -field nType
 
-Type: <b><a href="https://msdn.microsoft.com/b0bc2285-b3a3-43a9-b169-611f587bb086">SYNCMGR_CONFLICT_ITEM_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_conflict_item_type">SYNCMGR_CONFLICT_ITEM_TYPE</a></b>
 
-The conflict item type. See <a href="https://msdn.microsoft.com/b0bc2285-b3a3-43a9-b169-611f587bb086">SYNCMGR_CONFLICT_ITEM_TYPE</a>.
+The conflict item type. See <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_conflict_item_type">SYNCMGR_CONFLICT_ITEM_TYPE</a>.
 

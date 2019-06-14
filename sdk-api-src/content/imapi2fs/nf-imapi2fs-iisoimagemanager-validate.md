@@ -99,7 +99,7 @@ The image does not contain a valid volume descriptor.
 </dl>
 </td>
 <td width="60%">
-The image has not been set using the <a href="https://msdn.microsoft.com/3e5ef908-795d-4617-8123-605855b9ddc8">SetPath</a> or <a href="https://msdn.microsoft.com/3ee540aa-8ccc-40cb-afc8-b1790cabee6e">SetStream</a> method prior to calling this method.
+The image has not been set using the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-setpath">SetPath</a> or <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-setstream">SetStream</a> method prior to calling this method.
 
 </td>
 </tr>
@@ -142,7 +142,7 @@ This method is supported in Windows Server 2003 with Service Pack 1 (SP1), Win
 
 
 
-<a href="https://msdn.microsoft.com/47b059a9-a18a-4f32-9a02-6566175ca86b">IIsoImageManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-iisoimagemanager">IIsoImageManager</a>
  
 
  

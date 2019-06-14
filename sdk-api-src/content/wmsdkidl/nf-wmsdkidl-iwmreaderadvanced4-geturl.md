@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-The <b>GetURL</b> method retrieves the URL of the file being read. This URL might be different from the URL that was passed to <a href="https://msdn.microsoft.com/en-us/library/Dd743597(v=VS.85).aspx">IWMReader::Open</a>, because the reader might have been redirected.
+The <b>GetURL</b> method retrieves the URL of the file being read. This URL might be different from the URL that was passed to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-open">IWMReader::Open</a>, because the reader might have been redirected.
 
 
 
@@ -126,7 +126,7 @@ Call this method twice. The first time, pass <b>NULL</b> as the value for <i>pws
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757450(v=VS.85).aspx">IWMReaderAdvanced4 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced4">IWMReaderAdvanced4 Interface</a>
  
 
  

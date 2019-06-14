@@ -104,7 +104,7 @@ White point y-coordinate.
 
 
 
-This structure is used with the <a href="https://msdn.microsoft.com/dc5df755-53cf-4910-af42-309f1f46b1ed">MF_MT_CUSTOM_VIDEO_PRIMARIES</a> attribute.
+This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-custom-video-primaries-attribute">MF_MT_CUSTOM_VIDEO_PRIMARIES</a> attribute.
 
 
 
@@ -114,7 +114,7 @@ This structure is used with the <a href="https://msdn.microsoft.com/dc5df755-53c
 
 
 
-<a href="https://msdn.microsoft.com/39fdd724-13ca-48ab-8a55-93529d1da3b4">Media Foundation Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
  
 
  

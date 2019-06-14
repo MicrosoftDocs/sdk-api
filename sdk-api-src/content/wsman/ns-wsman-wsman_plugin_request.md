@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Specifies information for a plug-in request. A pointer to a <b>WSMAN_PLUGIN_REQUEST</b> structure is passed to all operation
 entry points within the plug-in. All result notification methods use this
-pointer to match the result with the request.  All information in the structure will stay valid until the plug-in calls <a href="https://msdn.microsoft.com/6cb47762-edfc-48d7-88ec-d62056ea1751">WSManPluginOperationComplete</a>on the operation.
+pointer to match the result with the request.  All information in the structure will stay valid until the plug-in calls <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanpluginoperationcomplete">WSManPluginOperationComplete</a>on the operation.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ pointer to match the result with the request.  All information in the structure 
 
 ### -field senderDetails
 
-A pointer to a <a href="https://msdn.microsoft.com/f68a9f75-6808-4dfa-b40f-061da88ead3c">WSMAN_SENDER_DETAILS</a> structure that specifies details about the client that initiated the request.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_sender_details">WSMAN_SENDER_DETAILS</a> structure that specifies details about the client that initiated the request.
 
 
 ### -field locale
@@ -77,12 +77,12 @@ Any call into the plug-in will have the locale on the thread set to the  locale 
 
 ### -field resourceUri
 
-Specifies the <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">resource URI</a> for this operation.
+Specifies the <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">resource URI</a> for this operation.
 
 
 ### -field operationInfo
 
-A pointer to a <a href="https://msdn.microsoft.com/a73029c6-d4e7-4cb3-ad0a-b71baffdbeb6">WSMAN_OPERATION_INFO</a> structure that contains extra information about the operation.  Some of the information in this structure will be <b>NULL</b> because not all of the parameters are relevant to all operations.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_operation_info">WSMAN_OPERATION_INFO</a> structure that contains extra information about the operation.  Some of the information in this structure will be <b>NULL</b> because not all of the parameters are relevant to all operations.
 
 
 ### -field shutdownNotification

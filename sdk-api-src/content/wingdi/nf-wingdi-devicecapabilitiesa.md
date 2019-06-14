@@ -97,7 +97,7 @@ Retrieves the names of the printer's paper bins. The <i>pOutput</i> buffer recei
 </dl>
 </td>
 <td width="60%">
-Retrieves a list of available paper bins. The <i>pOutput</i> buffer receives an array of <b>WORD</b> values that indicate the available paper sources for the printer. The return value indicates the number of entries in the array. For a list of the possible array values, see the description of the <b>dmDefaultSource</b> member of the <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structure. If <i>pOutput</i> is <b>NULL</b>, the return value indicates the required number of entries in the array.
+Retrieves a list of available paper bins. The <i>pOutput</i> buffer receives an array of <b>WORD</b> values that indicate the available paper sources for the printer. The return value indicates the number of entries in the array. For a list of the possible array values, see the description of the <b>dmDefaultSource</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> structure. If <i>pOutput</i> is <b>NULL</b>, the return value indicates the required number of entries in the array.
 
 </td>
 </tr>
@@ -167,7 +167,7 @@ Retrieves a list of the resolutions supported by the printer. The <i>pOutput</i>
 </dl>
 </td>
 <td width="60%">
-Returns the number of bytes required for the device-specific portion of the <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structure for the printer driver.
+Returns the number of bytes required for the device-specific portion of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> structure for the printer driver.
 
 </td>
 </tr>
@@ -177,7 +177,7 @@ Returns the number of bytes required for the device-specific portion of the <a h
 </dl>
 </td>
 <td width="60%">
-Returns the <b>dmFields</b> member of the printer driver's <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structure. The <b>dmFields</b> member indicates which members in the device-independent portion of the structure are supported by the printer driver.
+Returns the <b>dmFields</b> member of the printer driver's <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> structure. The <b>dmFields</b> member indicates which members in the device-independent portion of the structure are supported by the printer driver.
 
 </td>
 </tr>
@@ -197,7 +197,7 @@ Retrieves the names of any additional files that need to be loaded when a driver
 </dl>
 </td>
 <td width="60%">
-Returns the maximum paper size that the <b>dmPaperLength</b> and <b>dmPaperWidth</b> members of the printer driver's <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structure can specify. The LOWORD of the return value contains the maximum <b>dmPaperWidth</b> value, and the HIWORD contains the maximum <b>dmPaperLength</b> value.
+Returns the maximum paper size that the <b>dmPaperLength</b> and <b>dmPaperWidth</b> members of the printer driver's <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> structure can specify. The LOWORD of the return value contains the maximum <b>dmPaperWidth</b> value, and the HIWORD contains the maximum <b>dmPaperLength</b> value.
 
 </td>
 </tr>
@@ -227,7 +227,7 @@ Retrieves the names of the supported media types. The <i>pOutput</i> buffer rece
 </dl>
 </td>
 <td width="60%">
-Retrieves a list of supported media types. The <i>pOutput</i> buffer receives an array of DWORD values that indicate the supported media types. The return value indicates the number of entries in the array. For a list of possible array values, see the description of the <b>dmMediaType</b> member of the <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structure. If <i>pOutput</i> is <b>NULL</b>, the return value indicates the required number of entries in the array.
+Retrieves a list of supported media types. The <i>pOutput</i> buffer receives an array of DWORD values that indicate the supported media types. The return value indicates the number of entries in the array. For a list of possible array values, see the description of the <b>dmMediaType</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> structure. If <i>pOutput</i> is <b>NULL</b>, the return value indicates the required number of entries in the array.
 
 </td>
 </tr>
@@ -237,7 +237,7 @@ Retrieves a list of supported media types. The <i>pOutput</i> buffer receives an
 </dl>
 </td>
 <td width="60%">
-Returns the minimum paper size that the <b>dmPaperLength</b> and <b>dmPaperWidth</b> members of the printer driver's <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structure can specify. The LOWORD of the return value contains the minimum <b>dmPaperWidth</b> value, and the HIWORD contains the minimum <b>dmPaperLength</b> value.
+Returns the minimum paper size that the <b>dmPaperLength</b> and <b>dmPaperWidth</b> members of the printer driver's <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> structure can specify. The LOWORD of the return value contains the minimum <b>dmPaperWidth</b> value, and the HIWORD contains the minimum <b>dmPaperLength</b> value.
 
 </td>
 </tr>
@@ -294,7 +294,7 @@ Retrieves a list of supported paper names (for example, Letter or Legal). The <i
 </dl>
 </td>
 <td width="60%">
-Retrieves a list of supported paper sizes. The <i>pOutput</i> buffer receives an array of <b>WORD</b> values that indicate the available paper sizes for the printer. The return value indicates the number of entries in the array. For a list of the possible array values, see the description of the <b>dmPaperSize</b> member of the <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structure. If <i>pOutput</i> is <b>NULL</b>, the return value indicates the required number of entries in the array.
+Retrieves a list of supported paper sizes. The <i>pOutput</i> buffer receives an array of <b>WORD</b> values that indicate the available paper sizes for the printer. The return value indicates the number of entries in the array. For a list of the possible array values, see the description of the <b>dmPaperSize</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> structure. If <i>pOutput</i> is <b>NULL</b>, the return value indicates the required number of entries in the array.
 
 </td>
 </tr>
@@ -304,7 +304,7 @@ Retrieves a list of supported paper sizes. The <i>pOutput</i> buffer receives an
 </dl>
 </td>
 <td width="60%">
-Retrieves the dimensions, in tenths of a millimeter, of each supported paper size. The <i>pOutput</i> buffer receives an array of <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structures. Each structure contains the width (x-dimension) and length (y-dimension) of a paper size as if the paper were in the <b>DMORIENT_PORTRAIT</b> orientation. The return value indicates the number of entries in the array.
+Retrieves the dimensions, in tenths of a millimeter, of each supported paper size. The <i>pOutput</i> buffer receives an array of <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structures. Each structure contains the width (x-dimension) and length (y-dimension) of a paper size as if the paper were in the <b>DMORIENT_PORTRAIT</b> orientation. The return value indicates the number of entries in the array.
 
 </td>
 </tr>
@@ -386,7 +386,7 @@ Pages per minute.
 </dl>
 </td>
 <td width="60%">
-Returns the <b>dmSize</b> member of the printer driver's <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structure.
+Returns the <b>dmSize</b> member of the printer driver's <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> structure.
 
 </td>
 </tr>
@@ -448,7 +448,7 @@ A pointer to an array. The format of the array depends on the setting of the <i>
 
 ### -param pDevMode [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structure. If this parameter is <b>NULL</b>, <b>DeviceCapabilities</b> retrieves the current default initialization values for the specified printer driver. Otherwise, the function retrieves the values contained in the structure to which <i>pDevMode</i> points.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> structure. If this parameter is <b>NULL</b>, <b>DeviceCapabilities</b> retrieves the current default initialization values for the specified printer driver. Otherwise, the function retrieves the values contained in the structure to which <i>pDevMode</i> points.
 
 
 ## -returns
@@ -468,9 +468,9 @@ If the function returns -1, this may mean either that the capability is not supp
 
 <div class="alert"><b>Note</b>  This is a blocking or synchronous function and might not return immediately. How quickly this function returns depends on run-time factors such as network status, print server configuration, and printer driver implementation—factors that are difficult to predict when writing an application. Calling this function from a thread that manages interaction with the user interface could make the application appear to be unresponsive.</div>
 <div> </div>
-The <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structure pointed to by the <i>pDevMode</i> parameter may be obtained by calling the <a href="https://msdn.microsoft.com/e89a2f6f-2bac-4369-b526-f8e15028698b">DocumentProperties</a> function.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> structure pointed to by the <i>pDevMode</i> parameter may be obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/printdocs/documentproperties">DocumentProperties</a> function.
 
-If a printer driver supports custom device capabilities, the driver must call the <a href="https://msdn.microsoft.com/16072de9-98fb-4ada-8216-180b64cf44c8">SetPrinterData</a> function for each custom capability. The <b>SetPrinterData</b> function adds the appropriate printer data to the print system, which enables 32-bit applications to access the custom capabilities on 64-bit Windows installations.
+If a printer driver supports custom device capabilities, the driver must call the <a href="https://docs.microsoft.com/windows/desktop/printdocs/setprinterdata">SetPrinterData</a> function for each custom capability. The <b>SetPrinterData</b> function adds the appropriate printer data to the print system, which enables 32-bit applications to access the custom capabilities on 64-bit Windows installations.
 
 For each custom capability, you must first add printer data that describes the type of the capability. To do this, when you call <b>SetPrinterData</b>, set the <i>pValueName</i> string to <b>CustomDeviceCapabilityType_Xxx</b>, where "Xxx" is the hexadecimal representation of the capability. For example, you might have "CustomDeviceCapabilityType_1234". The registry data that you set must be of the <b>REG_DWORD</b> type, and you must set its value to one of the following:
 
@@ -489,43 +489,43 @@ If the custom capability is an array of items, you must call <b>SetPinterData</b
 
 
 
-<a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/329bf0d9-399b-4f64-a029-361ef7558aeb">DOCINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_docinfoa">DOCINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/e89a2f6f-2bac-4369-b526-f8e15028698b">DocumentProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/printdocs/documentproperties">DocumentProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/d524c4c7-22af-495d-aecc-b9921e53ca7b">GetDeviceCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>
 
 
 
-<a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>
+<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>
 
 
 
-<a href="https://msdn.microsoft.com/d859f84d-af0e-4b8b-b7fa-d7b1fc35ed39">Print Spooler API Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/printdocs/printing-and-print-spooler-functions">Print Spooler API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5c115b0-9c1e-46e7-8fb5-eddbc2c75298">Printing</a>
+<a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
 
 
 
-<a href="https://msdn.microsoft.com/53143463-b9fc-4378-aea9-da6c73a7cd03">StartDoc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-startdoca">StartDoc</a>
  
 
  

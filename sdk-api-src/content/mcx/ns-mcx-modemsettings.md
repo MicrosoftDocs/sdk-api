@@ -65,7 +65,7 @@ The size of the data actually returned to the application, in bytes. This member
 ### -field dwRequiredSize
 
 The number of bytes required for the entire 
-<a href="https://msdn.microsoft.com/7e9e37c7-416d-4550-87e3-7412cff9a49e">MODEMDEVCAPS</a> structure, including the variable-length portion.
+<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-_modemdevcaps">MODEMDEVCAPS</a> structure, including the variable-length portion.
 
 
 ### -field dwDevSpecificOffset
@@ -134,7 +134,7 @@ Medium volume.
  
 
 The 
-<a href="https://msdn.microsoft.com/7e9e37c7-416d-4550-87e3-7412cff9a49e">MODEMDEVCAPS</a> structure specifies the speaker volumes a modem supports. Actual volumes are hardware-specific.
+<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-_modemdevcaps">MODEMDEVCAPS</a> structure specifies the speaker volumes a modem supports. Actual volumes are hardware-specific.
 
 
 ### -field dwSpeakerMode
@@ -204,7 +204,7 @@ The modem options requested by the application. The local and remote modems nego
 
 
 The <b>dwModemOptions</b> member of the 
-<a href="https://msdn.microsoft.com/7e9e37c7-416d-4550-87e3-7412cff9a49e">MODEMDEVCAPS</a> structure specifies the modem options supported by the local modem. For a list of modem options, see the description of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-_modemdevcaps">MODEMDEVCAPS</a> structure specifies the modem options supported by the local modem. For a list of modem options, see the description of the 
 <b>MODEMDEVCAPS</b> structure.
 
 
@@ -216,7 +216,7 @@ The modem options that are actually in effect. This member is filled in after a 
 
 
 The <b>dwModemOptions</b> member of the 
-<a href="https://msdn.microsoft.com/7e9e37c7-416d-4550-87e3-7412cff9a49e">MODEMDEVCAPS</a> structure specifies the modem options supported by the local modem. For a list of modem options, see the description of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-_modemdevcaps">MODEMDEVCAPS</a> structure specifies the modem options supported by the local modem. For a list of modem options, see the description of the 
 <b>MODEMDEVCAPS</b> structure.
 
 
@@ -235,7 +235,7 @@ Optional provider-defined information.
 
 
 
-<a href="https://msdn.microsoft.com/7e9e37c7-416d-4550-87e3-7412cff9a49e">MODEMDEVCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-_modemdevcaps">MODEMDEVCAPS</a>
  
 
  

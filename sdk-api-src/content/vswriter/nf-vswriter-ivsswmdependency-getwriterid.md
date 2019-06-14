@@ -126,7 +126,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more information, see 
-<a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+<a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -138,7 +138,7 @@ The XML document is not valid. Check the event log for details. For more informa
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -168,19 +168,19 @@ If there are multiple instances of a writer class, it will be necessary to use l
 
 
 
-<a href="https://msdn.microsoft.com/ead9ff63-15dc-4fcc-b341-85ad9c3eabb7">IVssWMComponent::GetDependency</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivsswmcomponent-getdependency">IVssWMComponent::GetDependency</a>
 
 
 
-<a href="https://msdn.microsoft.com/5ec3d8d2-5138-4887-9741-addaaaee6bee">IVssWMDependency</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmdependency">IVssWMDependency</a>
 
 
 
-<a href="https://msdn.microsoft.com/b0115a42-3c74-41a0-8062-0f20123780fe">IVssWMDependency::GetComponentName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsswmdependency-getcomponentname">IVssWMDependency::GetComponentName</a>
 
 
 
-<a href="https://msdn.microsoft.com/642e9266-40b8-4184-b83f-3131886da32b">IVssWMDependency::GetLogicalPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsswmdependency-getlogicalpath">IVssWMDependency::GetLogicalPath</a>
  
 
  

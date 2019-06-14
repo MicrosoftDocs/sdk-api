@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>HTTP_REQUEST_AUTH_TYPE</b> enumeration defines the authentication types supported by the HTTP Server API.
 
-This enumeration is used  in the <a href="https://msdn.microsoft.com/07008290-5277-4ef4-ae55-d335fdb2ba90">HTTP_REQUEST_AUTH_INFO</a> structure.
+This enumeration is used  in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a> structure.
 
 
 ## -enum-fields
@@ -94,11 +94,11 @@ Kerberos authentication is attempted for the request.
 
 
 
-<a href="https://msdn.microsoft.com/849b88a1-e60b-4a1d-a660-cc3fe429d39f">HTTP Server API Version 2.0 Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-enumeration-types">HTTP Server API Version 2.0 Enumeration Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/07008290-5277-4ef4-ae55-d335fdb2ba90">HTTP_REQUEST_AUTH_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a>
  
 
  

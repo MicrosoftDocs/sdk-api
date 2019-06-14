@@ -67,7 +67,7 @@ Scheduling failed for an unexpected reason.
 Scheduling failed because
                a scheduling conflict occurred and the currently scheduled storyboard has higher priority.
                
-               For more information, see <a href="https://msdn.microsoft.com/82a90bd1-7bcf-4849-bad1-bae425169a2f">IUIAnimationPriorityComparison::HasPriority</a>.
+               For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationprioritycomparison-haspriority">IUIAnimationPriorityComparison::HasPriority</a>.
 
 
 ### -field UI_ANIMATION_SCHEDULING_ALREADY_SCHEDULED
@@ -91,7 +91,7 @@ Scheduling is deferred and will be attempted when the current callback completes
 
 
 
-<a href="https://msdn.microsoft.com/b47d4ffd-ae51-40e7-8f91-9d7b7b2901c8">IUIAnimationStoryboard::Schedule</a> returns UI_ANIMATION_SCHEDULING_DEFERRED only if the application attempts to schedule a storyboard during a callback to <a href="https://msdn.microsoft.com/e1ccf0e3-64fc-444e-a27b-1a5bc1d9d6fd">IUIAnimationStoryboardEventHandler::OnStoryboardStatusChanged</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-schedule">IUIAnimationStoryboard::Schedule</a> returns UI_ANIMATION_SCHEDULING_DEFERRED only if the application attempts to schedule a storyboard during a callback to <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboardeventhandler-onstoryboardstatuschanged">IUIAnimationStoryboardEventHandler::OnStoryboardStatusChanged</a>.
 
 
 
@@ -101,7 +101,7 @@ Scheduling is deferred and will be attempted when the current callback completes
 
 
 
-<a href="https://msdn.microsoft.com/b47d4ffd-ae51-40e7-8f91-9d7b7b2901c8">IUIAnimationStoryboard::Schedule</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-schedule">IUIAnimationStoryboard::Schedule</a>
  
 
  

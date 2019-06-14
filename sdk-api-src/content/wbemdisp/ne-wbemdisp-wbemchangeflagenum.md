@@ -50,12 +50,12 @@ ms.custom: 19H1
 
 
 The 
-WbemChangeFlagEnum constants define how a write operation to a class or an instance is carried out. A write operation is executed by <a href="https://msdn.microsoft.com/c636ff95-9f3e-4ba9-adf3-30b981be02a4">SWbemObject.Put_</a> or by <a href="https://msdn.microsoft.com/1a9a718d-875d-4102-9d9d-3d10be162f58">SWbemServicesEx.Put_</a>. These flags are used by 
+WbemChangeFlagEnum constants define how a write operation to a class or an instance is carried out. A write operation is executed by <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemobject-put-">SWbemObject.Put_</a> or by <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemservicesex-put">SWbemServicesEx.Put_</a>. These flags are used by 
 <b>SWbemObject.Put_</b> and 
-<a href="https://msdn.microsoft.com/ff738412-fcca-4e4a-a178-0d1d391ec99b">SWbemObject.PutAsync_</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemobject-putasync-">SWbemObject.PutAsync_</a>.
 
 The WMI scripting type library, WbemDisp.tlb, defines these constants. Visual Basic applications can access this library; script languages must use the value of the constant directly, unless they use the Windows Script Host (WSH) XML file format. For more information, see 
-<a href="https://msdn.microsoft.com/6ef4e210-0733-4f2a-89c1-1a7aca5a19d9">Using the WMI Scripting Type Library</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/using-the-wmi-scripting-type-library">Using the WMI Scripting Type Library</a>.
 
 
 ## -enum-fields
@@ -80,7 +80,7 @@ Used for creation only. The call will fail if the class or instance already exis
 
 ### -field wbemChangeFlagUpdateCompatible
 
-Allows a class to be updated if there are no derived classes and there are no instances for that class. It also allows updates in all cases if the change is just to non-important qualifiers (for example, the <a href="https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e">Description</a> qualifier). If the class has instances, the update fails. This flag is used for compatibility with previous versions of WMI.
+Allows a class to be updated if there are no derived classes and there are no instances for that class. It also allows updates in all cases if the change is just to non-important qualifiers (for example, the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers">Description</a> qualifier). If the class has instances, the update fails. This flag is used for compatibility with previous versions of WMI.
 
 
 ### -field wbemChangeFlagUpdateSafeMode
@@ -112,7 +112,7 @@ Using the force mode to update a static class results in deletion of all instanc
 
 
 
-<a href="https://msdn.microsoft.com/feaab757-3167-420b-8f42-edced4cd4c53">Scripting API Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/scripting-api-constants">Scripting API Constants</a>
  
 
  

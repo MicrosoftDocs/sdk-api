@@ -49,7 +49,7 @@ ms.custom: 19H1
 
 A constructor for <code>XMDEC4</code>.
 
-A constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419431(v=VS.85).aspx">XMDEC4</a>.
+A constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdec4">XMDEC4</a>.
 
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
@@ -63,6 +63,6 @@ A value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419431(v=VS.85).aspx">XMDEC4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdec4">XMDEC4</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415267(v=VS.85).aspx">XMDEC4 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmdec4-ctor">XMDEC4 Constructors</a>

@@ -65,7 +65,7 @@ The <b>GetSystemProfileVersion</b> method retrieves the version number of the sy
 
 ### -param pdwVersion
 
-Pointer to one member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757860(v=VS.85).aspx">WMT_VERSION</a> enumeration type.
+Pointer to one member of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_version">WMT_VERSION</a> enumeration type.
 
 
 ## -returns
@@ -81,7 +81,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-Because there are no system profiles for the Windows Media 9 Series codecs, this method is primarily useful for obtaining version 8 system profiles that you will convert to custom profiles using the Windows Media 9 Series codecs. For more information, see <a href="https://msdn.microsoft.com/e2263c3a-56cd-4505-acd7-510dc7bac166">Reusing Stream Configurations</a>.
+Because there are no system profiles for the Windows Media 9 Series codecs, this method is primarily useful for obtaining version 8 system profiles that you will convert to custom profiles using the Windows Media 9 Series codecs. For more information, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/reusing-stream-configurations">Reusing Stream Configurations</a>.
 
 
 
@@ -91,11 +91,11 @@ Because there are no system profiles for the Windows Media 9 Series codecs, this
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757386(v=VS.85).aspx">IWMProfileManager2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager2">IWMProfileManager2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757388(v=VS.85).aspx">IWMProfileManager2::SetSystemProfileVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofilemanager2-setsystemprofileversion">IWMProfileManager2::SetSystemProfileVersion</a>
  
 
  

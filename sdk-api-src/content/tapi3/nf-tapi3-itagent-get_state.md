@@ -61,7 +61,7 @@ The
 ### -param pAgentState [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/6d63030e-cd47-48db-ab0d-a3c4f3aac733">AGENT_STATE</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/ne-tapi3-agent_state">AGENT_STATE</a>.
 
 
 ## -returns
@@ -119,15 +119,15 @@ Insufficient memory exists to perform the operation.
 
 
 
-<a href="https://msdn.microsoft.com/6d63030e-cd47-48db-ab0d-a3c4f3aac733">AGENT_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/ne-tapi3-agent_state">AGENT_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c1409c9-da73-4d21-bf56-07e9ab7b33a0">ITAgent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
 
 
 
-<a href="https://msdn.microsoft.com/0f75146c-d8ce-4e9d-91bf-15dbb31b5c88">put_State</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-put_state">put_State</a>
  
 
  

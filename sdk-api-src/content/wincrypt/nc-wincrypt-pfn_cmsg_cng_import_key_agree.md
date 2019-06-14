@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PFN_CMSG_CNG_IMPORT_KEY_AGREE</b> callback function decrypts a content encryption key (CEK) that is intended for a key agreement recipient. <b>PFN_CMSG_CNG_IMPORT_KEY_AGREE</b> can be installed by using a Cryptography API: Next Generation (CNG) <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID).
+The <b>PFN_CMSG_CNG_IMPORT_KEY_AGREE</b> callback function decrypts a content encryption key (CEK) that is intended for a key agreement recipient. <b>PFN_CMSG_CNG_IMPORT_KEY_AGREE</b> can be installed by using a Cryptography API: Next Generation (CNG) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID).
 
 
 ## -parameters
@@ -59,20 +59,20 @@ The <b>PFN_CMSG_CNG_IMPORT_KEY_AGREE</b> callback function decrypts a content en
 
 ### -param pCNGContentDecryptInfo [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/56e94b20-9d0a-4694-973f-a5878ad54f48">CMSG_CNG_CONTENT_DECRYPT_INFO</a> structure to be updated with the decrypted CEK bytes. This parameter contains the key used to decrypt the CEK.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_cng_content_decrypt_info">CMSG_CNG_CONTENT_DECRYPT_INFO</a> structure to be updated with the decrypted CEK bytes. This parameter contains the key used to decrypt the CEK.
 The following <i>pKeyTransDecryptPara</i> parameter contains the 	CEK bytes to be decrypted.
 
 
 ### -param pKeyAgreeDecryptPara [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/5f3387c9-4ff0-42a0-8fc7-67d3bb8b6bef">CMSG_CTRL_KEY_AGREE_DECRYPT_PARA</a> structure that contains the key agreement information passed to the <a href="https://msdn.microsoft.com/a990d44d-2993-429f-b817-2a834105ecef">CryptMsgControl</a> function in the <b>CMSG_CTRL_KEY_AGREE_DECRYPT</b> case.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_ctrl_key_trans_decrypt_para">CMSG_CTRL_KEY_AGREE_DECRYPT_PARA</a> structure that contains the key agreement information passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a> function in the <b>CMSG_CTRL_KEY_AGREE_DECRYPT</b> case.
 
 The
 <b>EncryptedKey</b> member of the <b>pKeyAgree</b> member contains the CEK bytes to be decrypted. Because a 
-<a href="https://msdn.microsoft.com/5f3387c9-4ff0-42a0-8fc7-67d3bb8b6bef">CMSG_CTRL_KEY_AGREE_DECRYPT_PARA</a> structure might contain an <b>HCRYPTPROV</b> choice, its <b>hNCryptKey</b> member must not be used to decrypt <b>EncryptedKey</b>. Instead, you must use the <b>hNCryptKey</b> member specified in the <i>pCNGContentDecryptInfo</i> parameter.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_ctrl_key_trans_decrypt_para">CMSG_CTRL_KEY_AGREE_DECRYPT_PARA</a> structure might contain an <b>HCRYPTPROV</b> choice, its <b>hNCryptKey</b> member must not be used to decrypt <b>EncryptedKey</b>. Instead, you must use the <b>hNCryptKey</b> member specified in the <i>pCNGContentDecryptInfo</i> parameter.
 
 
-This function must not update members of the  <a href="https://msdn.microsoft.com/5f3387c9-4ff0-42a0-8fc7-67d3bb8b6bef">CMSG_CTRL_KEY_AGREE_DECRYPT_PARA</a> structure.
+This function must not update members of the  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_ctrl_key_trans_decrypt_para">CMSG_CTRL_KEY_AGREE_DECRYPT_PARA</a> structure.
 
 
 ### -param dwFlags [in]
@@ -91,11 +91,11 @@ This parameter is reserved. Set it to <b>NULL</b>.
 
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
-If the function fails, the return value is zero (<b>FALSE</b>). For extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is zero (<b>FALSE</b>). For extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
-If this callback function does not support the key encryption algorithm, it must return <b>FALSE</b> and call <a href="https://msdn.microsoft.com/d9da833f-36ca-4046-8d2f-cd4449dd3c63">SetLastError</a> with ERROR_NOT_SUPPORTED.
+If this callback function does not support the key encryption algorithm, it must return <b>FALSE</b> and call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> with ERROR_NOT_SUPPORTED.
 
 
 
@@ -105,10 +105,10 @@ If this callback function does not support the key encryption algorithm, it must
 
 
 
-The <a href="https://msdn.microsoft.com/a990d44d-2993-429f-b817-2a834105ecef">CryptMsgControl</a> function calls this function for the following operations specified by the <i>dwCtrlType</i> parameter:
+The <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a> function calls this function for the following operations specified by the <i>dwCtrlType</i> parameter:
 
 <b>CMSG_CTRL_KEY_AGREE_DECRYPT</b>
-You can use <a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a> to deploy this callback function. Wincrypt.h defines the following constant for this purpose.
+You can use <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a> to deploy this callback function. Wincrypt.h defines the following constant for this purpose.
 
 <table>
 <tr>
@@ -125,7 +125,7 @@ You can use <a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).
 
 #### Examples
 
-For an example that deploys an OID-installable callback function, see <a href="https://msdn.microsoft.com/41c1758d-1213-47a6-81d5-7755b41c3007">Extending CryptoAPI Functionality</a>.
+For an example that deploys an OID-installable callback function, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/extending-cryptoapi-functionality">Extending CryptoAPI Functionality</a>.
 
 <div class="code"></div>
 
@@ -136,7 +136,7 @@ For an example that deploys an OID-installable callback function, see <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/cb71ea3a-0edd-4d46-8088-a395fab89d2b">Decoding Enveloped Data</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/decoding-enveloped-data">Decoding Enveloped Data</a>
  
 
  

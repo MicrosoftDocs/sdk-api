@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>capGetUserData</b> macro retrieves a <b>LONG_PTR</b> data value associated with a capture window. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/f7c121ba-44a1-4916-b602-c53d8332c2af">WM_CAP_GET_USER_DATA</a> message.
+The <b>capGetUserData</b> macro retrieves a <b>LONG_PTR</b> data value associated with a capture window. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-get-user-data">WM_CAP_GET_USER_DATA</a> message.
 
 
 
@@ -70,11 +70,11 @@ Handle to a capture window.
 
 
 
-<a href="https://msdn.microsoft.com/c93ecc51-e2c5-4b69-8625-c8385d53fab2">Video Capture</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://msdn.microsoft.com/21061f06-d58b-4800-a9f5-9821494fabd6">Video Capture Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
  
 
  

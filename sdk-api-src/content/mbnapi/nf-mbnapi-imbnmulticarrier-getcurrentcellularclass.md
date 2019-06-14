@@ -60,10 +60,10 @@ Gets the current cellular classes for a multi-carrier device.
 ### -param currentCellularClass [out, retval]
 
 
-<a href="https://msdn.microsoft.com/2d75c20b-1ae4-4824-8918-41c20327a007">MBN_CELLULAR_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_cellular_class">MBN_CELLULAR_CLASS</a>
 
 
-Pointer to an <a href="https://msdn.microsoft.com/2d75c20b-1ae4-4824-8918-41c20327a007">MBN_CELLULAR_CLASS</a> enumeration that specifies the current cellular class. If this method returns any value other than <b>S_OK</b>, <i>currentCellularClass</i> is <b>NULL</b>. When <b>GetCurrentCellularClass</b> returns <b>S_OK</b>, the calling application must free the allocated memory by calling <a href="https://msdn.microsoft.com/fc94f7e7-b903-4c78-905c-54df1f8d13fa">SafeArrayDestroy</a>.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_cellular_class">MBN_CELLULAR_CLASS</a> enumeration that specifies the current cellular class. If this method returns any value other than <b>S_OK</b>, <i>currentCellularClass</i> is <b>NULL</b>. When <b>GetCurrentCellularClass</b> returns <b>S_OK</b>, the calling application must free the allocated memory by calling <a href="https://docs.microsoft.com/windows/desktop/api/oleauto/nf-oleauto-safearraydestroy">SafeArrayDestroy</a>.
 
 
 ## -returns
@@ -143,7 +143,7 @@ The operation is not supported by the device. This may be returned by devices wh
 
 
 
-<a href="https://msdn.microsoft.com/E40517CE-3169-4F20-A572-EDBC8FEC2862">IMbnMultiCarrier</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrier">IMbnMultiCarrier</a>
  
 
  

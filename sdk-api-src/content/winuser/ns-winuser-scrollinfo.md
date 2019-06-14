@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SCROLLINFO</b> structure contains scroll bar parameters to be set by the <a href="https://msdn.microsoft.com/en-us/library/Bb787595(v=VS.85).aspx">SetScrollInfo</a> function (or <a href="https://msdn.microsoft.com/en-us/library/Bb787571(v=VS.85).aspx">SBM_SETSCROLLINFO</a> message), or retrieved by the <a href="https://msdn.microsoft.com/en-us/library/Bb787583(v=VS.85).aspx">GetScrollInfo</a> function (or <a href="https://msdn.microsoft.com/en-us/library/Bb787563(v=VS.85).aspx">SBM_GETSCROLLINFO</a> message). 
+The <b>SCROLLINFO</b> structure contains scroll bar parameters to be set by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setscrollinfo">SetScrollInfo</a> function (or <a href="https://docs.microsoft.com/windows/desktop/Controls/sbm-setscrollinfo">SBM_SETSCROLLINFO</a> message), or retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getscrollinfo">GetScrollInfo</a> function (or <a href="https://docs.microsoft.com/windows/desktop/Controls/sbm-getscrollinfo">SBM_GETSCROLLINFO</a> message). 
 
 
 ## -struct-fields
@@ -59,14 +59,14 @@ The <b>SCROLLINFO</b> structure contains scroll bar parameters to be set by the 
 
 ### -field cbSize
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Specifies the size, in bytes, of this structure. The caller must set this to sizeof(<b>SCROLLINFO</b>). 
 
 
 ### -field fMask
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Specifies the scroll bar parameters to set or retrieve. This member can be a combination of the following values: 
 
@@ -156,7 +156,7 @@ Specifies the maximum scrolling position.
 
 ### -field nPage
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Specifies the page size, in device units. A scroll bar uses this value to determine the appropriate size of the proportional scroll box. 
 
@@ -172,7 +172,7 @@ Specifies the position of the scroll box.
 
 Type: <b>int</b>
 
-Specifies the immediate position of a scroll box that the user is dragging. An application can retrieve this value while processing the SB_THUMBTRACK request code. An application cannot set the immediate scroll position; the <a href="https://msdn.microsoft.com/en-us/library/Bb787595(v=VS.85).aspx">SetScrollInfo</a> function ignores this member. 
+Specifies the immediate position of a scroll box that the user is dragging. An application can retrieve this value while processing the SB_THUMBTRACK request code. An application cannot set the immediate scroll position; the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setscrollinfo">SetScrollInfo</a> function ignores this member. 
 
 
 ## -see-also
@@ -180,7 +180,7 @@ Specifies the immediate position of a scroll box that the user is dragging. An a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787583(v=VS.85).aspx">GetScrollInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getscrollinfo">GetScrollInfo</a>
 
 
 
@@ -188,15 +188,15 @@ Specifies the immediate position of a scroll box that the user is dragging. An a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787563(v=VS.85).aspx">SBM_GETSCROLLINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/sbm-getscrollinfo">SBM_GETSCROLLINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787571(v=VS.85).aspx">SBM_SETSCROLLINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/sbm-setscrollinfo">SBM_SETSCROLLINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787595(v=VS.85).aspx">SetScrollInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setscrollinfo">SetScrollInfo</a>
  
 
  

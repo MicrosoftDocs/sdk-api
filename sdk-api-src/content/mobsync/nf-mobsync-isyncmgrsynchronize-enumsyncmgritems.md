@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Obtains the 
-<a href="https://msdn.microsoft.com/d90e3a19-0ea8-4396-a6e7-dafe1dc9b2ec">ISyncMgrEnumItems</a> interface for the items that are handled by a registered application.
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems">ISyncMgrEnumItems</a> interface for the items that are handled by a registered application.
 
 
 ## -parameters
@@ -60,10 +60,10 @@ Obtains the
 
 ### -param ppSyncMgrEnumItems [out]
 
-Type: <b><a href="https://msdn.microsoft.com/d90e3a19-0ea8-4396-a6e7-dafe1dc9b2ec">ISyncMgrEnumItems</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems">ISyncMgrEnumItems</a>**</b>
 
 The address of the variable that receives a pointer to a valid 
-<a href="https://msdn.microsoft.com/d90e3a19-0ea8-4396-a6e7-dafe1dc9b2ec">ISyncMgrEnumItems</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems">ISyncMgrEnumItems</a> interface.
 
 
 ## -returns
@@ -112,7 +112,7 @@ The enumeration interface object is returned successfully, but some items are mi
 
 
 The enumeration object that this method creates implements the 
-<a href="https://msdn.microsoft.com/d90e3a19-0ea8-4396-a6e7-dafe1dc9b2ec">ISyncMgrEnumItems</a> interface, which is a standard enumeration interface that contains the <a href="https://msdn.microsoft.com/bb4ab08a-aa12-46f0-8c7d-82742b0b1538">Next</a>, <a href="https://msdn.microsoft.com/91265648-1294-423d-8e09-6d14eb0b6d9e">Reset</a>, <a href="https://msdn.microsoft.com/33bf4956-3d16-412c-9551-4ae3366ddd78">Clone</a>, and <a href="https://msdn.microsoft.com/f317306b-5317-4c5e-a5e6-fd2d8728bc52">Skip</a> methods.
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems">ISyncMgrEnumItems</a> interface, which is a standard enumeration interface that contains the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrenumitems-next">Next</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrenumitems-reset">Reset</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrenumitems-clone">Clone</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrenumitems-skip">Skip</a> methods.
 
 
 
@@ -122,11 +122,11 @@ The enumeration object that this method creates implements the
 
 
 
-<a href="https://msdn.microsoft.com/d90e3a19-0ea8-4396-a6e7-dafe1dc9b2ec">ISyncMgrEnumItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems">ISyncMgrEnumItems</a>
 
 
 
-<a href="https://msdn.microsoft.com/bb821672-10b1-4fe6-a752-6cd1ccd1e49e">ISyncMgrSynchronize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronize">ISyncMgrSynchronize</a>
  
 
  

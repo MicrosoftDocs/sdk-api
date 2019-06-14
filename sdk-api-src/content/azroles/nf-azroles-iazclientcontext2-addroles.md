@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>AddRoles</b> method adds the specified array of existing <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> objects to the client context.
+The <b>AddRoles</b> method adds the specified array of existing <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> objects to the client context.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>AddRoles</b> method adds the specified array of existing <a href="https:/
 
 ### -param varRoles [in]
 
-The array of role names that specify the <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> objects to add to the client context.
+The array of role names that specify the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> objects to add to the client context.
 
 
 ### -param bstrScopeName [in]
@@ -73,7 +73,7 @@ The scope to which the array of roles applies.
 
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -82,9 +82,9 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-The <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> objects associated with the names in the <i>varRoles</i> array must already exist in the specified scope.
+The <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> objects associated with the names in the <i>varRoles</i> array must already exist in the specified scope.
 
-The added roles are used in subsequent calls to the <a href="https://msdn.microsoft.com/0bd16cdb-3dba-4656-b264-32e622732155">AccessCheck</a> and <a href="https://msdn.microsoft.com/753506cc-ed44-4795-90e5-c76010181d8a">GetRoles</a> methods.
+The added roles are used in subsequent calls to the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-accesscheck">AccessCheck</a> and <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-getroles">GetRoles</a> methods.
 
 
 
@@ -94,15 +94,15 @@ The added roles are used in subsequent calls to the <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/0bd16cdb-3dba-4656-b264-32e622732155">AccessCheck</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-accesscheck">AccessCheck</a>
 
 
 
-<a href="https://msdn.microsoft.com/753506cc-ed44-4795-90e5-c76010181d8a">GetRoles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-getroles">GetRoles</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e922370-18e3-481c-93f2-9a56d7898ba7">IAzClientContext2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazclientcontext2">IAzClientContext2</a>
  
 
  

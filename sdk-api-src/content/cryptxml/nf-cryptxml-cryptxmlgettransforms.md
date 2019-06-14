@@ -59,7 +59,7 @@ The <b>CryptXmlGetTransforms</b> function returns information about the default 
 
 ### -param ppConfig [out]
 
-A pointer to a pointer to a <a href="https://msdn.microsoft.com/ad18ee99-685d-4a79-bd91-492df20edb8c">CRYPT_XML_TRANSFORM_CHAIN_CONFIG</a> structure to receive the returned transform information.
+A pointer to a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_transform_chain_config">CRYPT_XML_TRANSFORM_CHAIN_CONFIG</a> structure to receive the returned transform information.
 
 
 ## -returns

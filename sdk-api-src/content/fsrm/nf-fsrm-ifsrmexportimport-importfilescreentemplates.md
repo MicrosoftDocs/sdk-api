@@ -77,7 +77,7 @@ The name of the remote server. To specify the local server, set to an empty stri
 
 ### -param templates [out]
 
-An <a href="https://msdn.microsoft.com/ef4678b4-e6b0-4044-ba11-7a3ae01ad2c7">IFsrmCommittableCollection</a> interface that contains a collection of <a href="https://msdn.microsoft.com/9e3c3d05-298d-4373-abd2-21de9770e85c">IFsrmFileScreenTemplateImported</a> interfaces. To complete the import, you must call the <a href="https://msdn.microsoft.com/81c9b1db-7756-47b2-98e6-8e819d93cd0f">IFsrmFileScreenTemplateImported::Commit</a> method.
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcommittablecollection">IFsrmCommittableCollection</a> interface that contains a collection of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreentemplateimported">IFsrmFileScreenTemplateImported</a> interfaces. To complete the import, you must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmobject-commit">IFsrmFileScreenTemplateImported::Commit</a> method.
 
 
 ## -returns
@@ -93,7 +93,7 @@ The method returns the following return values.
 
 
 
-You can also use the <a href="https://msdn.microsoft.com/0660a1cb-904e-4ed0-bbc8-9903e8848f4e">IFsrmFileScreenTemplateManager::ImportTemplates</a> method to import the templates.
+You can also use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreentemplatemanager-importtemplates">IFsrmFileScreenTemplateManager::ImportTemplates</a> method to import the templates.
 
 
 
@@ -103,11 +103,11 @@ You can also use the <a href="https://msdn.microsoft.com/0660a1cb-904e-4ed0-bbc8
 
 
 
-<a href="https://msdn.microsoft.com/ea707982-2d2d-4fb9-a97a-ee5b2a61f8a9">FsrmExportImport</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmexportimport">FsrmExportImport</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a3b682e-d2c3-43b3-9d10-4bba9d9c81d4">IFsrmExportImport</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmexportimport">IFsrmExportImport</a>
  
 
  

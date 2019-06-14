@@ -64,7 +64,7 @@ Writes a value in the body of a message.
 
 ### -param message [in]
 
-A pointer to the <b>Message</b> object for writing to.  The pointer must reference a valid <a href="https://msdn.microsoft.com/22cc39a9-a3a7-4b4d-bdee-0ccac5dc03ee">WS_MESSAGE</a> object.
+A pointer to the <b>Message</b> object for writing to.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-message">WS_MESSAGE</a> object.
                 
                 
 
@@ -77,7 +77,7 @@ A pointer to information describing how to write the value.
 ### -param writeOption [in]
 
 Determines whether the value is required and how the value is allocated.
-                    <div class="alert"><b>Note</b>  See <a href="https://msdn.microsoft.com/24a0ad2c-fcec-42c5-8f72-bea431b06d2e">WS_WRITE_OPTION</a> for more information.</div>
+                    <div class="alert"><b>Note</b>  See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_write_option">WS_WRITE_OPTION</a> for more information.</div>
 <div> </div>
 
 
@@ -96,7 +96,7 @@ The size in bytes of the value to write.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 
@@ -166,7 +166,7 @@ This function may return other errors not listed above.
 
 
 This functions supports the following scenarios, based on the contents
-                of the <a href="https://msdn.microsoft.com/17035b64-9b2c-40d3-bdce-45e9b132e9f1">WS_ELEMENT_DESCRIPTION</a> supplied:
+                of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_element_description">WS_ELEMENT_DESCRIPTION</a> supplied:
             
 
 <ul>

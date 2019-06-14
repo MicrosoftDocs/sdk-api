@@ -53,14 +53,14 @@ ms.custom: 19H1
 
 Notifies the Filter Graph Manager of events that occur within the filter graph. Filters use this interface to report events. The Filter Graph Manager exposes this interface.
 
-Applications do not use <code>IMediaEventSink</code>. To retrieve events, applications use the <a href="https://msdn.microsoft.com/9d367b0a-c7ec-49d4-a41e-045ac81d2c51">IMediaEventEx</a> interface.
+Applications do not use <code>IMediaEventSink</code>. To retrieve events, applications use the <a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediaeventex">IMediaEventEx</a> interface.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaEventSink</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMediaEventSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaEventSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMediaEventSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IMediaEventSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/331f8d58-c7c6-40dd-88ca-5678c7b8c8f1">Notify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediaeventsink-notify">Notify</a>
 </td>
 <td align="left" width="63%">
 Notifies the Filter Graph Manager of an event.

@@ -54,7 +54,7 @@ The <b>ITraceRelogger</b>  interface provides access to the relogging functional
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITraceRelogger</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITraceRelogger</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITraceRelogger</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITraceRelogger</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITraceRelogger</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2bdf6175-f4c6-4217-a37a-b2af32ad38c6">AddLogfileTraceStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nf-relogger-itracerelogger-addlogfiletracestream">AddLogfileTraceStream</a>
 </td>
 <td align="left" width="63%">
 Adds a new logfile-based ETW trace stream to the relogger.
@@ -78,7 +78,7 @@ Adds a new logfile-based ETW trace stream to the relogger.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/68bb5715-49b8-45bc-ae98-0b4a519c8e62">AddRealtimeTraceStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nf-relogger-itracerelogger-addrealtimetracestream">AddRealtimeTraceStream</a>
 </td>
 <td align="left" width="63%">
 Adds a new real-time ETW trace stream to the relogger.
@@ -87,7 +87,7 @@ Adds a new real-time ETW trace stream to the relogger.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d195f746-7f56-443f-9232-e95a6b026331">Cancel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nf-relogger-itracerelogger-cancel">Cancel</a>
 </td>
 <td align="left" width="63%">
 Terminates the relogging process.
@@ -96,7 +96,7 @@ Terminates the relogging process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1a000e38-018d-4077-bf4c-0bfec6cdb676">CreateEventInstance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nf-relogger-itracerelogger-createeventinstance">CreateEventInstance</a>
 </td>
 <td align="left" width="63%">
 Generates a new event.
@@ -105,7 +105,7 @@ Generates a new event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c9d19ad9-182d-469e-b783-2061b7150933">Inject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nf-relogger-itracerelogger-inject">Inject</a>
 </td>
 <td align="left" width="63%">
 Injects a non-system-generated event into the event stream being written to the output file.
@@ -114,7 +114,7 @@ Injects a non-system-generated event into the event stream being written to the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ab844b34-0e06-447f-a0b7-dd56ca0b50ed">ProcessTrace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nf-relogger-itracerelogger-processtrace">ProcessTrace</a>
 </td>
 <td align="left" width="63%">
 Delivers events from the associated trace streams to the consumer.
@@ -123,16 +123,16 @@ Delivers events from the associated trace streams to the consumer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d3c739bd-9285-49ec-b2cf-d607f3d9be0c">RegisterCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nf-relogger-itracerelogger-registercallback">RegisterCallback</a>
 </td>
 <td align="left" width="63%">
-Registers an implementation of <a href="https://msdn.microsoft.com/70139402-86e6-43b4-9016-42854ef998fd">ITraceEventCallback</a> with the relogger in order to signal trace activity.
+Registers an implementation of <a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itraceeventcallback">ITraceEventCallback</a> with the relogger in order to signal trace activity.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2a758af0-2316-4c4b-8717-ee1ebad205ee">SetCompressionMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nf-relogger-itracerelogger-setcompressionmode">SetCompressionMode</a>
 </td>
 <td align="left" width="63%">
 Enables or disables compression on the relogged trace.
@@ -141,7 +141,7 @@ Enables or disables compression on the relogged trace.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ed3f8bcd-88c7-4d05-a396-41ee8f35bc97">SetOutputFilename</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nf-relogger-itracerelogger-setoutputfilename">SetOutputFilename</a>
 </td>
 <td align="left" width="63%">
 Indicates the file to which ETW should write the new, relogged trace.
@@ -165,11 +165,11 @@ This interface is not supported on Windows 7 for the IA64 architecture.
 
 
 
-<a href="https://msdn.microsoft.com/29b6f72a-ae81-4292-a023-a4bab16ae143">ITraceEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itraceevent">ITraceEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/70139402-86e6-43b4-9016-42854ef998fd">ITraceEventCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itraceeventcallback">ITraceEventCallback</a>
  
 
  

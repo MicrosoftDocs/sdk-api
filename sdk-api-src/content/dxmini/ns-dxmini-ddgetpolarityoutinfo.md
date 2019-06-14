@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The DDGETPOLARITYOUTINFO structure contains the polarity information of the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">video port extensions (VPE)</a> object. 
+The DDGETPOLARITYOUTINFO structure contains the polarity information of the <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object. 
 
 
 ## -struct-fields
@@ -67,7 +67,7 @@ Indicates the polarity (even or odd) of the current field being written by the V
 
 
 
-<a href="https://msdn.microsoft.com/9bce3093-8dcd-4e91-8e20-5558f2dcce75">DxGetPolarity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_getpolarity">DxGetPolarity</a>
  
 
  

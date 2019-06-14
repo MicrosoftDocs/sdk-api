@@ -66,7 +66,7 @@ Reserved.
 
 ### -param ppProfileList [out]
 
-Type: <b><a href="https://msdn.microsoft.com/73ddb610-233a-470b-900d-ae62a1e7121a">PWCM_PROFILE_INFO_LIST</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-_wcm_profile_info_list">PWCM_PROFILE_INFO_LIST</a>*</b>
 
 The list of profiles.
 
@@ -87,7 +87,7 @@ Returns ERROR_SUCCESS if successful, or an error value otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/73ddb610-233a-470b-900d-ae62a1e7121a">PWCM_PROFILE_INFO_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-_wcm_profile_info_list">PWCM_PROFILE_INFO_LIST</a>
  
 
  

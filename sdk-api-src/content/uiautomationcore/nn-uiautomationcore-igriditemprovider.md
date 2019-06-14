@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 Provides access 
-        to individual child controls of containers that implement <a href="https://msdn.microsoft.com/37e2cc95-d765-4c2c-ae8a-5a072a43ad5a">IGridProvider</a>.
+        to individual child controls of containers that implement <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-igridprovider">IGridProvider</a>.
 
 
 ## -remarks
 
 
 
-Implemented on a UI Automation provider that must support the <a href="https://msdn.microsoft.com/ae4b9021-1800-485b-99a2-54ddf9c21f93">GridItem</a> <i>control pattern</i>.
+Implemented on a UI Automation provider that must support the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementinggriditem">GridItem</a> <i>control pattern</i>.
    			
 
 Controls that implement <b>IGridItemProvider</b> can typically be traversed 
@@ -72,7 +72,7 @@ Controls that implement <b>IGridItemProvider</b> can typically be traversed
 
 
 
-<a href="https://msdn.microsoft.com/8928c889-0e0a-439f-87e8-a9d121fcf73f">UI Automation Providers Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
  
 
  

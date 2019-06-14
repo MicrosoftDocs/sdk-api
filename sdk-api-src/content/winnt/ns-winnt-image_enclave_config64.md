@@ -199,7 +199,7 @@ The <b>IMAGE_ENCLAVE_CONFIG</b> structure is defined as another name for the <b>
 
 
 
-<a href="https://msdn.microsoft.com/D76F7868-910B-4DC4-939A-6376802E170D">IMAGE_ENCLAVE_CONFIG64</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt844244(v=vs.85)">IMAGE_ENCLAVE_CONFIG64</a>
  
 
  

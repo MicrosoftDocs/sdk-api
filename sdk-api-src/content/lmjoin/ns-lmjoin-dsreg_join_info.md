@@ -127,15 +127,15 @@ The identifier of the device.
 
 
 
-<a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/E29BCBE0-222F-4CA8-97BC-6FE1B6F97A67">DSREG_JOIN_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/ne-lmjoin-_dsreg_join_type">DSREG_JOIN_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/5E639988-0F53-40D7-BBEC-F78B3D124CC0">DSREG_USER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/ns-lmjoin-_dsreg_user_info">DSREG_USER_INFO</a>
  
 
  

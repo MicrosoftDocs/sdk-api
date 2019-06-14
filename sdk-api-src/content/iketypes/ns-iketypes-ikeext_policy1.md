@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_POLICY1</b> structure is used to store the IKE/AuthIP main mode negotiation policy.
-<div class="alert"><b>Note</b>  <b>IKEEXT_POLICY1</b> is the specific implementation of IKEEXT_POLICY used in Windows 7. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.  For Windows 8, <a href="https://msdn.microsoft.com/d6efc1dd-3127-44d0-9f6a-ebf7cba477aa">IKEEXT_POLICY2</a> is available.For Windows Vista, <a href="https://msdn.microsoft.com/4c33087a-2736-491c-a89f-e4b9ab136026">IKEEXT_POLICY0</a> is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>IKEEXT_POLICY1</b> is the specific implementation of IKEEXT_POLICY used in Windows 7. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.  For Windows 8, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_policy2_">IKEEXT_POLICY2</a> is available.For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_policy0_">IKEEXT_POLICY0</a> is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -71,14 +71,14 @@ Number of authentication methods.
 
 Array of acceptable authentication methods.
 
-See  <a href="https://msdn.microsoft.com/55894ac3-2cb7-4828-8346-9ca66ce3253a">IKEEXT_AUTHENTICATION_METHOD1</a> for more information.
+See  <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method1_">IKEEXT_AUTHENTICATION_METHOD1</a> for more information.
 
 
 ### -field initiatorImpersonationType
 
 Type of impersonation. Applies only to AuthIP. 
 
-See <a href="https://msdn.microsoft.com/en-us/library/Aa364974(v=VS.85).aspx">IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_authentication_impersonation_type_">IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE</a> for more information.
 
 
 ### -field numIkeProposals
@@ -90,7 +90,7 @@ Number of main mode proposals.
 
 Array of main mode proposals. 
 
-See <a href="https://msdn.microsoft.com/59568ef7-12bd-407a-a8ee-9bf261f49883">IKEEXT_PROPOSAL0</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_proposal0_">IKEEXT_PROPOSAL0</a> for more information.
 
 
 ### -field flags
@@ -167,19 +167,19 @@ The number of seconds for which IKEv2 SA negotiation packets will be retransmitt
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa364974(v=VS.85).aspx">IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_authentication_impersonation_type_">IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/55894ac3-2cb7-4828-8346-9ca66ce3253a">IKEEXT_AUTHENTICATION_METHOD1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method1_">IKEEXT_AUTHENTICATION_METHOD1</a>
 
 
 
-<a href="https://msdn.microsoft.com/59568ef7-12bd-407a-a8ee-9bf261f49883">IKEEXT_PROPOSAL0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_proposal0_">IKEEXT_PROPOSAL0</a>
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

@@ -61,12 +61,12 @@ Gets referral information for the specified product.
 
 Type: <b>HSLC</b>
 
-The handle retrieved by previous call to the <a href="https://msdn.microsoft.com/79a09cf3-cf6f-479a-89c7-27f5fcee3186">SLOpen</a> function.
+The handle retrieved by previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slopen">SLOpen</a> function.
 
 
 ### -param eReferralType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/350a28bd-cbdf-46f2-a404-aa16550a4711">SLREFERRALTYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-slreferraltype">SLREFERRALTYPE</a></b>
 
 The referral type.
 
@@ -207,7 +207,7 @@ A generic data BLOB
 
 Type: <b>PWSTR*</b>
 
-The value to store. When finished using the memory, free it by calling the <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a> function.
+The value to store. When finished using the memory, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
 
 ## -returns

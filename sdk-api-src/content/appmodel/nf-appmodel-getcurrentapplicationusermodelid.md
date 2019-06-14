@@ -54,7 +54,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the <a href="https://msdn.microsoft.com/15E35DCF-C6C1-446A-B09B-6428F9C8A677">application user model ID</a> for the current process.
+Gets the <a href="https://docs.microsoft.com/windows/desktop/appxpkg/appx-packaging-glossary">application user model ID</a> for the current process.
 
 
 ## -parameters
@@ -115,7 +115,7 @@ The buffer is not large enough to hold the data. The required size is specified 
 
 
 
-For info about string size limits, see <a href="https://msdn.microsoft.com/C4F81822-B502-4360-AEA4-829F1AB926BF">Identity constants</a>.
+For info about string size limits, see <a href="https://docs.microsoft.com/windows/desktop/appxpkg/identity-constants">Identity constants</a>.
 
 
 #### Examples
@@ -174,11 +174,11 @@ int __cdecl wmain()
 
 
 
-<a href="https://msdn.microsoft.com/FE4E0818-F548-494B-B3BD-FB51DC748451">GetApplicationUserModelId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getapplicationusermodelid">GetApplicationUserModelId</a>
 
 
 
-<a href="https://msdn.microsoft.com/D5B00C53-1FBF-4245-92D1-FA39713A9EE7">GetCurrentPackageFullName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackagefullname">GetCurrentPackageFullName</a>
  
 
  

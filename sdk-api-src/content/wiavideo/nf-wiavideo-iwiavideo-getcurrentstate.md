@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IWiaVideo::GetCurrentState</b> method specifies the state of the video stream as a member of the <a href="https://msdn.microsoft.com/en-us/library/ms630181(v=VS.85).aspx">WIAVIDEO_STATE</a> enumeration.
+The <b>IWiaVideo::GetCurrentState</b> method specifies the state of the video stream as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/wiavideo/ne-wiavideo-__midl___midl_itf_wiavideo_xp_0000_0000_0001">WIAVIDEO_STATE</a> enumeration.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ The <b>IWiaVideo::GetCurrentState</b> method specifies the state of the video st
 
 ### -param pState [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms630181(v=VS.85).aspx">WIAVIDEO_STATE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wiavideo/ne-wiavideo-__midl___midl_itf_wiavideo_xp_0000_0000_0001">WIAVIDEO_STATE</a>*</b>
 
-A member of the <a href="https://msdn.microsoft.com/en-us/library/ms630181(v=VS.85).aspx">WIAVIDEO_STATE</a> enumeration that specifies the current state of the video stream.
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/wiavideo/ne-wiavideo-__midl___midl_itf_wiavideo_xp_0000_0000_0001">WIAVIDEO_STATE</a> enumeration that specifies the current state of the video stream.
 
 
 ## -returns

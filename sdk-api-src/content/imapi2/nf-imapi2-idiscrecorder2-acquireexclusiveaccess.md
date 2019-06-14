@@ -192,15 +192,15 @@ Value: 0xC0AA0210
 
 
 
-You should not have to call this method to acquire the lock yourself because the write operations, such as <a href="https://msdn.microsoft.com/9daf31f3-84c2-48b2-ab21-a3809b6ed9af">IDiscFormat2Data::Write</a>, acquires the lock for you.
+You should not have to call this method to acquire the lock yourself because the write operations, such as <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-write">IDiscFormat2Data::Write</a>, acquires the lock for you.
 
 Each recorder has a lock count. The first call to a recorder locks the device for exclusive access. Applications can use the <b>AcquireExclusiveAccess</b> method multiple times to apply multiple locks on a device. Each call increments the lock count by one. 
 
-When unlocking a recorder, the lock count must reach zero to free the device for other clients. Calling the <a href="https://msdn.microsoft.com/940929d7-7940-448e-9554-3e3691772eb8">IDiscRecorder2::ReleaseExclusiveAccess</a> method decrements the lock count by one.
+When unlocking a recorder, the lock count must reach zero to free the device for other clients. Calling the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-releaseexclusiveaccess">IDiscRecorder2::ReleaseExclusiveAccess</a> method decrements the lock count by one.
 
-An equal number of calls to the  <b>AcquireExclusiveAccess</b> and <a href="https://msdn.microsoft.com/940929d7-7940-448e-9554-3e3691772eb8">ReleaseExclusiveAccess</a> methods are needed to free a device. Should the application exit unexpectedly or crash while holding the exclusive access, the CDROM.SYS driver will automatically release these exclusive locks.
+An equal number of calls to the  <b>AcquireExclusiveAccess</b> and <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-releaseexclusiveaccess">ReleaseExclusiveAccess</a> methods are needed to free a device. Should the application exit unexpectedly or crash while holding the exclusive access, the CDROM.SYS driver will automatically release these exclusive locks.
 
-If the device is already locked, you can call <a href="https://msdn.microsoft.com/32577b35-235a-4186-8fb3-18e5555cb56f">IDiscRecorder2::get_ExclusiveAccessOwner</a> to retrieve the name of the client application that currently has exclusive access.
+If the device is already locked, you can call <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_exclusiveaccessowner">IDiscRecorder2::get_ExclusiveAccessOwner</a> to retrieve the name of the client application that currently has exclusive access.
 
 
 
@@ -210,15 +210,15 @@ If the device is already locked, you can call <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/34f858b8-74eb-4725-8815-7954cb98cff0">IDiscRecorder2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
 
 
 
-<a href="https://msdn.microsoft.com/940929d7-7940-448e-9554-3e3691772eb8">IDiscRecorder2::ReleaseExclusiveAccess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-releaseexclusiveaccess">IDiscRecorder2::ReleaseExclusiveAccess</a>
 
 
 
-<a href="https://msdn.microsoft.com/32577b35-235a-4186-8fb3-18e5555cb56f">IDiscRecorder2::get_ExclusiveAccessOwner</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_exclusiveaccessowner">IDiscRecorder2::get_ExclusiveAccessOwner</a>
  
 
  

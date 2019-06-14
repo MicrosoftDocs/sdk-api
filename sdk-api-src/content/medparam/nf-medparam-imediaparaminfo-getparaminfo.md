@@ -68,7 +68,7 @@ Zero-based index of the parameter.
 
 ### -param pInfo [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd390745(v=VS.85).aspx">MP_PARAMINFO</a> structure that is filled with the parameter information.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/medparam/ns-medparam-_mp_paraminfo">MP_PARAMINFO</a> structure that is filled with the parameter information.
 
 
 ## -returns
@@ -125,7 +125,7 @@ Success.
 
 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/Dd406967(v=VS.85).aspx">GetParamCount</a> method to retrieve the number of parameters that the object supports.
+Call the <a href="https://docs.microsoft.com/windows/desktop/api/medparam/nf-medparam-imediaparaminfo-getparamcount">GetParamCount</a> method to retrieve the number of parameters that the object supports.
 
 
 
@@ -135,7 +135,7 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/Dd406967(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406964(v=VS.85).aspx">IMediaParamInfo Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/medparam/nn-medparam-imediaparaminfo">IMediaParamInfo Interface</a>
  
 
  

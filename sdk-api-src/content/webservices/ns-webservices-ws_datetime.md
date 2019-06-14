@@ -57,7 +57,7 @@ Represents dates and times with values ranging from 12:00:00 midnight,
         December 31, 9999 A.D. (C.E.) to an accuracy of 100 nanoseconds.
       
 
-The functions <a href="https://msdn.microsoft.com/19e987d8-fe20-4bc6-a887-77bc1cfa65cf">WsDateTimeToFileTime</a> and <a href="https://msdn.microsoft.com/75a547f8-c8dc-47c3-97c9-2a39b046263f">WsFileTimeToDateTime</a> 
+The functions <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsdatetimetofiletime">WsDateTimeToFileTime</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfiletimetodatetime">WsFileTimeToDateTime</a> 
         can be used to convert a <b>WS_DATETIME</b> to and from a FILETIME.
       
 

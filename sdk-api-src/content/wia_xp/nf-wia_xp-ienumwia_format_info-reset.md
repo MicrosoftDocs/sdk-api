@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IEnumWIA_FORMAT_INFO::Reset</b> method sets the enumeration back to the first <a href="https://msdn.microsoft.com/en-us/library/ms629878(v=VS.85).aspx">WIA_FORMAT_INFO</a> structure.
+The <b>IEnumWIA_FORMAT_INFO::Reset</b> method sets the enumeration back to the first <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-_wia_format_info">WIA_FORMAT_INFO</a> structure.
 
 
 ## -parameters

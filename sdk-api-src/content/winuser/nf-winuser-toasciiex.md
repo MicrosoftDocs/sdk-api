@@ -65,7 +65,7 @@ Translates the specified virtual-key code and keyboard state to the correspondin
 
 Type: <b>UINT</b>
 
-The virtual-key code to be translated. See <a href="https://msdn.microsoft.com/en-us/library/Dd375731(v=VS.85).aspx">Virtual-Key Codes</a>.
+The virtual-key code to be translated. See <a href="https://docs.microsoft.com/windows/desktop/inputdev/virtual-key-codes">Virtual-Key Codes</a>.
 
 
 ### -param uScanCode [in]
@@ -102,7 +102,7 @@ This parameter must be 1 if a menu is active, zero otherwise.
 
 Type: <b>HKL</b>
 
-Input locale identifier to use to translate the code. This parameter can be any input locale identifier previously returned by the <a href="https://msdn.microsoft.com/en-us/library/ms646305(v=VS.85).aspx">LoadKeyboardLayout</a> function.
+Input locale identifier to use to translate the code. This parameter can be any input locale identifier previously returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta">LoadKeyboardLayout</a> function.
 
 
 ## -returns
@@ -184,15 +184,15 @@ Although NUM LOCK is a toggle key that affects keyboard behavior, <b>ToAsciiEx</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646305(v=VS.85).aspx">LoadKeyboardLayout</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta">LoadKeyboardLayout</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646307(v=VS.85).aspx">MapVirtualKeyEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-mapvirtualkeyexa">MapVirtualKeyEx</a>
 
 
 
@@ -200,11 +200,11 @@ Although NUM LOCK is a toggle key that affects keyboard behavior, <b>ToAsciiEx</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646322(v=VS.85).aspx">ToUnicodeEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-tounicodeex">ToUnicodeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646329(v=VS.85).aspx">VkKeyScan</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-vkkeyscana">VkKeyScan</a>
  
 
  

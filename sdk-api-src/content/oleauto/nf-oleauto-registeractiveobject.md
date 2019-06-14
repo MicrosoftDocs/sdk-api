@@ -75,7 +75,7 @@ Flags controlling registration of the object. Possible values are ACTIVEOBJECT_S
 
 ### -param pdwRegister
 
-Receives a handle. This handle must be passed to <a href="https://msdn.microsoft.com/47e7b47b-dddc-445d-918f-02b1b6a37075">RevokeActiveObject</a> to end the object's active status.
+Receives a handle. This handle must be passed to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-revokeactiveobject">RevokeActiveObject</a> to end the object's active status.
 
 
 ## -returns
@@ -105,7 +105,7 @@ If the object is not visible, it should shut down only when the last external co
 
 </li>
 </ul>
-Strong registration performs an <b>AddRef</b> on the object, incrementing the reference count of the object (and its associated stub) in the running object table. A strongly registered object must be explicitly revoked from the table with <a href="https://msdn.microsoft.com/47e7b47b-dddc-445d-918f-02b1b6a37075">RevokeActiveObject</a>. The default is strong registration (ACTIVEOBJECT_STRONG).
+Strong registration performs an <b>AddRef</b> on the object, incrementing the reference count of the object (and its associated stub) in the running object table. A strongly registered object must be explicitly revoked from the table with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-revokeactiveobject">RevokeActiveObject</a>. The default is strong registration (ACTIVEOBJECT_STRONG).
 
 Weak registration keeps a pointer to the object in the running object table, but does not increment the reference count. Consequently, when the last external connection to a weakly registered object disappears, OLE releases the object's stub, and the object itself is no longer available.
 
@@ -175,11 +175,11 @@ This function is described in more detail in the <i>COM Programmer's Reference</
 
 
 
-<a href="https://msdn.microsoft.com/f352c885-8373-413a-bb1f-fb22bd318786">Registering the Active Object with API Functions </a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/registration-functions">Registering the Active Object with API Functions </a>
 
 
 
-<a href="https://msdn.microsoft.com/47e7b47b-dddc-445d-918f-02b1b6a37075">RevokeActiveObject</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-revokeactiveobject">RevokeActiveObject</a>
  
 
  

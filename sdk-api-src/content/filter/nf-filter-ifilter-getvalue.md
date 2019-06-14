@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href="http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
-Retrieves a value (internal value-type property) from a chunk, which must have a <a href="https://msdn.microsoft.com/en-us/library/ms691020(v=VS.85).aspx">CHUNKSTATE</a> enumeration value of CHUNK_VALUE.
+Retrieves a value (internal value-type property) from a chunk, which must have a <a href="https://docs.microsoft.com/windows/desktop/api/filter/ne-filter-tagchunkstate">CHUNKSTATE</a> enumeration value of CHUNK_VALUE.
 
 
 
@@ -62,7 +62,7 @@ Retrieves a value (internal value-type property) from a chunk, which must have a
 
 ### -param ppPropValue [out]
 
-A pointer to an output variable that receives a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a> structure that contains the value-type property. 
+A pointer to an output variable that receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure that contains the value-type property. 
 
 
 ## -returns
@@ -94,7 +94,7 @@ The operation was completed successfully.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms690927(v=VS.85).aspx">GetValue</a> method has already been called on this chunk; this value should be returned until the <a href="https://msdn.microsoft.com/en-us/library/ms691080(v=VS.85).aspx">IFilter::GetChunk</a> method has been called successfully and has advanced to the next chunk.
+The <a href="https://docs.microsoft.com/windows/desktop/api/filter/nf-filter-ifilter-getvalue">GetValue</a> method has already been called on this chunk; this value should be returned until the <a href="https://docs.microsoft.com/windows/desktop/api/filter/nf-filter-ifilter-getchunk">IFilter::GetChunk</a> method has been called successfully and has advanced to the next chunk.
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms690927(v=VS.85).aspx">Ge
 </dl>
 </td>
 <td width="60%">
-The current chunk does not have a <a href="https://msdn.microsoft.com/en-us/library/ms691020(v=VS.85).aspx">CHUNKSTATE</a> enumeration value of CHUNK_VALUE. 
+The current chunk does not have a <a href="https://docs.microsoft.com/windows/desktop/api/filter/ne-filter-tagchunkstate">CHUNKSTATE</a> enumeration value of CHUNK_VALUE. 
 
 </td>
 </tr>
@@ -128,7 +128,7 @@ Note that the effect of producing the same value from more than one chunk is und
 
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-Allocate the <a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a> structure with <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>. Some <b>PROPVARIANT</b> structures contain pointers, which can be freed by calling the <a href="https://msdn.microsoft.com/en-us/library/Aa380073(v=VS.85).aspx">PropVariantClear</a> function. It is up to the caller of the <b>GetValue</b> method to call <b>PropVariantClear</b>.
+Allocate the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>. Some <b>PROPVARIANT</b> structures contain pointers, which can be freed by calling the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-propvariantclear">PropVariantClear</a> function. It is up to the caller of the <b>GetValue</b> method to call <b>PropVariantClear</b>.
 
 
 
@@ -140,7 +140,7 @@ Allocate the <a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>
  
 
  

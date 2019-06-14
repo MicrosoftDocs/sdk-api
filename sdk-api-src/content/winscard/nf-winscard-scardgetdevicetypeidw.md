@@ -61,17 +61,17 @@ The <b>SCardGetDeviceTypeId</b> function gets the device type identifier of the 
 
 ### -param hContext [in]
 
-Handle that identifies the resource manager context for the query. You can set the resource manager context by calling the <a href="https://msdn.microsoft.com/1cf9b005-b76c-4fc9-b4bd-a1ad8552535f">SCardEstablishContext</a> function. This parameter cannot be NULL.
+Handle that identifies the resource manager context for the query. You can set the resource manager context by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a> function. This parameter cannot be NULL.
 
 
 ### -param szReaderName [in]
 
-Reader name. You can get this value by calling the <a href="https://msdn.microsoft.com/b50218f1-e960-4838-b44b-6c71fa94a0ad">SCardListReaders</a> function.
+Reader name. You can get this value by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardlistreadersa">SCardListReaders</a> function.
 
 
 ### -param pdwDeviceTypeId [in, out]
 
-The actual device type identifier. The list of reader types returned by this function are listed under <b>ReaderType</b> member in the <a href="https://msdn.microsoft.com/f55b74d0-d545-419a-87fb-c320f789aaf4">SCARD_READER_CAPABILITIES</a> structure.
+The actual device type identifier. The list of reader types returned by this function are listed under <b>ReaderType</b> member in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/smclib/ns-smclib-_scard_reader_capabilities">SCARD_READER_CAPABILITIES</a> structure.
 
 
 ## -returns
@@ -104,7 +104,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
 
 </td>
 </tr>

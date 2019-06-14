@@ -54,7 +54,7 @@ Enables access to <a href="https://docs.microsoft.com/en-us/uwp/api/windows.appl
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDataTransferManagerInterop</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDataTransferManagerInterop</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDataTransferManagerInterop</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDataTransferManagerInterop</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDataTransferManagerInterop</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/129CEEBF-0D02-4746-8F9B-4F5F5A95E6A2">GetForWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idatatransfermanagerinterop-getforwindow">GetForWindow</a>
 </td>
 <td align="left" width="63%">
 Gets the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.datatransfer.datatransfermanager">DataTransferManager</a> instance for the specified window.
@@ -78,7 +78,7 @@ Gets the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.applicationmo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/095AE176-5EA1-470E-AA4A-ACD91AF54E5D">ShowShareUIForWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idatatransfermanagerinterop-showshareuiforwindow">ShowShareUIForWindow</a>
 </td>
 <td align="left" width="63%">
 Displays the UI for sharing content for the specified window.

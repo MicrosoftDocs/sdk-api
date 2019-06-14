@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used by <a href="https://msdn.microsoft.com/4b050a69-39df-41f8-8d54-8c576bad3c2d">IFolderViewSettings::GetViewMode</a> and <a href="https://msdn.microsoft.com/ef72f196-cfd5-4547-85cb-0ccfdc496c46">ISearchFolderItemFactory::SetFolderLogicalViewMode</a> to describe the view mode.
+Used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderviewsettings-getviewmode">IFolderViewSettings::GetViewMode</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isearchfolderitemfactory-setfolderlogicalviewmode">ISearchFolderItemFactory::SetFolderLogicalViewMode</a> to describe the view mode.
 
 
 ## -enum-fields

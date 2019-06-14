@@ -61,13 +61,13 @@ Use the
 ### -param hMprServer [in]
 
 Handle to a router. This handle is obtained from a previous call to 
-<a href="https://msdn.microsoft.com/f93b37bc-d3d1-40f0-aef6-839bb43c88e2">MprAdminServerConnect</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>. 
 
 
 ### -param hInterface [in]
 
 Handle to the interface. This handle is obtained from a previous call to 
-<a href="https://msdn.microsoft.com/c9590ebe-7e49-4ad1-bd9b-0d9c51938bc4">MprAdminInterfaceCreate</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacecreate">MprAdminInterfaceCreate</a>.
 
 
 ### -param dwLevel [in]
@@ -81,12 +81,12 @@ A DWORD value that describes the format in which the information is returned in 
 </tr>
 <tr>
 <td>0</td>
-<td>Windows 2000 Server: <a href="https://msdn.microsoft.com/a1524c6e-3a94-4fc1-be28-bcaca8bcc62e">MPR_CREDENTIALSEX_0</a>
+<td>Windows 2000 Server: <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_credentialsex_0">MPR_CREDENTIALSEX_0</a>
 </td>
 </tr>
 <tr>
 <td>1</td>
-<td>Windows Server 2003 or later: <a href="https://msdn.microsoft.com/b37b9589-5c25-44ac-954a-c9fb2c2ee503">MPR_CREDENTIALSEX_1</a>
+<td>Windows Server 2003 or later: <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_credentialsex_1">MPR_CREDENTIALSEX_1</a>
 </td>
 </tr>
 </table>
@@ -98,9 +98,9 @@ A value of 1 indicates the information is a pre-shared key for the interface, wh
 ### -param lplpbBuffer [out]
 
 On successful completion, a pointer to a 
-<a href="https://msdn.microsoft.com/a1524c6e-3a94-4fc1-be28-bcaca8bcc62e">MPR_CREDENTIALSEX_0</a> or <a href="https://msdn.microsoft.com/b37b9589-5c25-44ac-954a-c9fb2c2ee503">MPR_CREDENTIALSEX_1</a> structure. The <i>dwLevel</i> parameter indicates the type of structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_credentialsex_0">MPR_CREDENTIALSEX_0</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_credentialsex_1">MPR_CREDENTIALSEX_1</a> structure. The <i>dwLevel</i> parameter indicates the type of structure.
 					Free the memory occupied by this structure with 
-<a href="https://msdn.microsoft.com/60cae055-841a-4435-bf0e-4198b1ccdd4e">MprAdminBufferFree</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminbufferfree">MprAdminBufferFree</a>.
 
 
 ## -returns
@@ -182,27 +182,27 @@ The <i>dwLevel</i> value is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/a1524c6e-3a94-4fc1-be28-bcaca8bcc62e">MPR_CREDENTIALSEX_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_credentialsex_0">MPR_CREDENTIALSEX_0</a>
 
 
 
-<a href="https://msdn.microsoft.com/b37b9589-5c25-44ac-954a-c9fb2c2ee503">MPR_CREDENTIALSEX_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_credentialsex_1">MPR_CREDENTIALSEX_1</a>
 
 
 
-<a href="https://msdn.microsoft.com/c9590ebe-7e49-4ad1-bd9b-0d9c51938bc4">MprAdminInterfaceCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacecreate">MprAdminInterfaceCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/0ec18926-1ee9-4e28-9284-9d95d06be2e4">MprAdminInterfaceGetCredentials</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacegetcredentials">MprAdminInterfaceGetCredentials</a>
 
 
 
-<a href="https://msdn.microsoft.com/d0807c03-3994-4624-97ea-94b55e7cd1e4">MprAdminInterfaceSetCredentialsEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacesetcredentialsex">MprAdminInterfaceSetCredentialsEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/f93b37bc-d3d1-40f0-aef6-839bb43c88e2">MprAdminServerConnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>
  
 
  

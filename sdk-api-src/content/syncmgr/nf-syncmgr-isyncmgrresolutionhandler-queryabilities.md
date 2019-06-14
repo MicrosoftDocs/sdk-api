@@ -61,7 +61,7 @@ Determines what options the conflict presenter will display.
 
 Type: <b>SYNCMGR_RESOLUTION_ABILITIES_FLAGS*</b>
 
-When this method returns, contains one of the <a href="https://msdn.microsoft.com/5a7ff366-e155-43c0-aafe-f61ad0caf550">SYNCMGR_RESOLUTION_ABILITIES</a> enumerated type.
+When this method returns, contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_resolution_abilities">SYNCMGR_RESOLUTION_ABILITIES</a> enumerated type.
 
 
 ## -returns

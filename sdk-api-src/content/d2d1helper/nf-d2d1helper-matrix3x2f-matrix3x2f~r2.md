@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Instantiates a new instance of the <a href="https://msdn.microsoft.com/54b9e75c-6316-44d3-b725-2039f39eeda5">Matrix3x2F</a> class without initializing the matrix values.
+Instantiates a new instance of the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a> class without initializing the matrix values.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ Instantiates a new instance of the <a href="https://msdn.microsoft.com/54b9e75c-
 
 
 
-<a href="https://msdn.microsoft.com/54b9e75c-6316-44d3-b725-2039f39eeda5">Matrix3x2F</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a>
  
 
  

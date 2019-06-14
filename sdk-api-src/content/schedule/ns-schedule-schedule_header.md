@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SCHEDULE_HEADER</b> structure is used to contain the replication schedule data for a replication source. The <a href="https://msdn.microsoft.com/d86890db-b34a-415a-820a-6d4790914218">SCHEDULE</a> structure contains an array of <b>SCHEDULE_HEADER</b> structures.
+The <b>SCHEDULE_HEADER</b> structure is used to contain the replication schedule data for a replication source. The <a href="https://docs.microsoft.com/windows/desktop/api/schedule/ns-schedule-_schedule">SCHEDULE</a> structure contains an array of <b>SCHEDULE_HEADER</b> structures.
 
 
 ## -struct-fields
@@ -136,7 +136,7 @@ Not supported.
 
 ### -field Offset
 
-Contains the offset, in bytes, from the beginning of the <a href="https://msdn.microsoft.com/d86890db-b34a-415a-820a-6d4790914218">SCHEDULE</a> structure to the data for this schedule. The size and form of this data depends on the schedule type defined by the <b>Type</b> member.
+Contains the offset, in bytes, from the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/schedule/ns-schedule-_schedule">SCHEDULE</a> structure to the data for this schedule. The size and form of this data depends on the schedule type defined by the <b>Type</b> member.
 
 
 ## -see-also
@@ -144,15 +144,15 @@ Contains the offset, in bytes, from the beginning of the <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/33bd1b61-b9ed-479f-a128-fb7ddbb5e9af">DsReplicaAdd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicaadda">DsReplicaAdd</a>
 
 
 
-<a href="https://msdn.microsoft.com/aad20527-1211-41bc-b0e9-02e4ab28ae2e">DsReplicaModify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicamodifya">DsReplicaModify</a>
 
 
 
-<a href="https://msdn.microsoft.com/d86890db-b34a-415a-820a-6d4790914218">SCHEDULE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/schedule/ns-schedule-_schedule">SCHEDULE</a>
  
 
  

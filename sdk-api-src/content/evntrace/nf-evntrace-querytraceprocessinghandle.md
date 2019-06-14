@@ -60,12 +60,12 @@ Queries the system for the trace processing handle.
 
 ### -param ProcessingHandle [in]
 
-A valid handle created with <a href="https://msdn.microsoft.com/505e643b-6b4f-4f93-96c8-7fe8abdd6234">OpenTrace</a> that the data should be queried from.
+A valid handle created with <a href="https://docs.microsoft.com/windows/desktop/ETW/opentrace">OpenTrace</a> that the data should be queried from.
 
 
 ### -param InformationClass [in]
 
-An <a href="https://msdn.microsoft.com/92932E4C-0A06-4CDE-B14B-BF53226E133B">ETW_PROCESS_HANDLE_INFO_TYPE</a> value that specifies what kind of operation will be done on the handle.
+An <a href="https://docs.microsoft.com/windows/desktop/ETW/etw-process-handle-info-type">ETW_PROCESS_HANDLE_INFO_TYPE</a> value that specifies what kind of operation will be done on the handle.
 
 
 ### -param InBuffer [in, optional]
@@ -101,7 +101,7 @@ If the function succeeds, the return value is ERROR_SUCCESS.
 						
 
 If the function fails, the return value is one of the 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>. 
 
 
 

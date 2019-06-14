@@ -77,11 +77,11 @@ The maximum value.
 
 
 
-<a href="https://msdn.microsoft.com/2498a771-f430-4faa-81c8-78d56905d18b">RESUTIL_LARGEINT_DATA</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_largeint_data">RESUTIL_LARGEINT_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/f65ee50f-59f7-44db-ad69-b29b3e693c7e">RESUTIL_PROPERTY_ITEM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a>
  
 
  

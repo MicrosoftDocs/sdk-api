@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>SHCloneSpecialIDList</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/10b00497-fc3b-4e34-acd8-bc0721c0dc05">SHGetSpecialFolderLocation</a>.]
+<p class="CCE_Message">[<b>SHCloneSpecialIDList</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetspecialfolderlocation">SHGetSpecialFolderLocation</a>.]
 
-Retrieves a pointer to the <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure that specifies a special folder.
+Retrieves a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure that specifies a special folder.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ Reserved.
 
 Type: <b>int</b>
 
-A <a href="https://msdn.microsoft.com/33d92271-2865-4ebd-b96c-bf293deb4310">CSIDL</a> value that identifies the folder of interest.
+A <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL</a> value that identifies the folder of interest.
 
 
 ### -param fCreate [in]
@@ -86,7 +86,7 @@ A value of type <b>BOOL</b> that indicates if the folder should be created if it
 
 Type: <b>PIDLIST_ABSOLUTE</b>
 
-Returns a pointer to the <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure of a special folder specified by <i>csidl</i>. The function creates the folder if <i>fCreate</i> is <b>TRUE</b>.
+Returns a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure of a special folder specified by <i>csidl</i>. The function creates the folder if <i>fCreate</i> is <b>TRUE</b>.
 
 
 
@@ -95,7 +95,7 @@ Returns a pointer to the <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-
 
 
 
-When finished, you should free the pointer to the cloned folder with <a href="https://msdn.microsoft.com/3457f36e-fdfd-44a4-90ca-a86f00bc9f36">ILFree</a>.
+When finished, you should free the pointer to the cloned folder with <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ilfree">ILFree</a>.
 
 
 

@@ -62,7 +62,7 @@ Returns the relationships between virtual hard disks (VHDs) or CD or DVD image f
 
 A handle to a volume or root directory if  the <i>Flags</i> parameter does not specify 
       the <b>GET_STORAGE_DEPENDENCY_FLAG_DISK_HANDLE</b> flag. For information on how to open a 
-      volume or root directory, see the <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> function.
+      volume or root directory, see the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
 If the <i>Flags</i> parameter specifies the 
       <b>GET_STORAGE_DEPENDENCY_FLAG_DISK_HANDLE</b> flag, this handle should be a handle to a 
@@ -72,7 +72,7 @@ If the <i>Flags</i> parameter specifies the
 ### -param Flags [in]
 
 A valid combination of 
-     <a href="https://msdn.microsoft.com/en-us/library/Dd323673(v=VS.85).aspx">GET_STORAGE_DEPENDENCY_FLAG</a> values.
+     <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_get_storage_dependency_flag">GET_STORAGE_DEPENDENCY_FLAG</a> values.
 
 
 ### -param StorageDependencyInfoSize [in]
@@ -84,7 +84,7 @@ Size, in bytes, of the buffer that the <i>StorageDependencyInfo</i> parameter re
 ### -param StorageDependencyInfo [in, out]
 
 A pointer to a buffer to receive the populated 
-     <a href="https://msdn.microsoft.com/en-us/library/Dd323688(v=VS.85).aspx">STORAGE_DEPENDENCY_INFO</a> structure, which is a 
+     <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_storage_dependency_info">STORAGE_DEPENDENCY_INFO</a> structure, which is a 
      variable-length structure.
 
 
@@ -104,7 +104,7 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b> and the
 
 If the function fails, the return value is an error code and the 
       <i>StorageDependencyInfo</i> parameter is undefined. For more information, see 
-      <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -124,11 +124,11 @@ CD and DVD image files (ISO) are not supported before Windows 8 and
 
 
 
-<a href="https://msdn.microsoft.com/c9531c07-ad55-42b6-8685-7f55a47e8485">About VHD</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b5d0da0-2b23-4b7c-b007-ed3fe030926c">VHD Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
  
 
  

@@ -50,8 +50,8 @@ ms.custom: 19H1
 
 
 <p class="CCE_Message">[This method is supported for compatibility but it's recommended to use the 
-    <a href="https://msdn.microsoft.com/1CE772FA-CE33-4900-A499-058175A7C37E">FSRM WMI Classes</a> to manage FSRM. Please see the 
-    <a href="https://msdn.microsoft.com/3941d07c-67e3-4763-8113-31fc156c9bd0">MSFT_FSRMAutoQuota</a> class.]
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmautoquota">MSFT_FSRMAutoQuota</a> class.]
 
 Saves the quota and then applies any changes to the derived quotas.
 
@@ -64,18 +64,18 @@ Saves the quota and then applies any changes to the derived quotas.
 ### -param commitOptions [in]
 
 The options for saving the quota. For possible values, see the 
-      <a href="https://msdn.microsoft.com/eb362bd8-c11f-404e-be54-0e16007494a7">FsrmCommitOptions</a> enumeration.
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmcommitoptions">FsrmCommitOptions</a> enumeration.
 
 
 ### -param applyOptions [in]
 
 The options used to choose the derived quotas to which the changes are applied. For possible values, see 
-      the <a href="https://msdn.microsoft.com/44a8e280-4005-476c-a43d-184c18825129">FsrmTemplateApplyOptions</a> enumeration.
+      the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmtemplateapplyoptions">FsrmTemplateApplyOptions</a> enumeration.
 
 
 ### -param derivedObjectsResult [out]
 
-An <a href="https://msdn.microsoft.com/1486d53a-d09a-4eff-ba07-b9dbb32e18ba">IFsrmDerivedObjectsResult</a> interface 
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmderivedobjectsresult">IFsrmDerivedObjectsResult</a> interface 
       that you use to determine the list of derived objects that were updated and whether the update was 
       successful.
 
@@ -101,7 +101,7 @@ In this context, a derived quota is any quota that is  applied to  a subdirector
     <i>subfolder3</i> is considered a derived quota.
 
 You would call this method if you called the 
-    <a href="https://msdn.microsoft.com/f4e65d53-7841-4f84-9c14-bad43089a87f">ApplyTemplate</a> method to change the source 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotaobject-applytemplate">ApplyTemplate</a> method to change the source 
     template for the automatic quota. Calling the 
     <b>CommitAndUpdateDerived</b> method 
     would then propagate the new template's settings to the existing quotas under the automatic quota directory.
@@ -116,7 +116,7 @@ If you specify the <b>FsrmTemplateApplyOptions_ApplyToDerivedAll</b> option, FSR
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/fce6ce55-3fb5-46bc-8f26-3071df54767e">Updating a Quota</a>.
+For an example, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/updating-a-quota">Updating a Quota</a>.
 
 <div class="code"></div>
 
@@ -127,11 +127,11 @@ For an example, see <a href="https://msdn.microsoft.com/fce6ce55-3fb5-46bc-8f26-
 
 
 
-<a href="https://msdn.microsoft.com/3eb30caa-ce29-4898-b1a7-bd905031ca98">IFsrmAutoApplyQuota</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nn-fsrmquota-ifsrmautoapplyquota">IFsrmAutoApplyQuota</a>
 
 
 
-<a href="https://msdn.microsoft.com/3941d07c-67e3-4763-8113-31fc156c9bd0">MSFT_FSRMAutoQuota</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmautoquota">MSFT_FSRMAutoQuota</a>
  
 
  

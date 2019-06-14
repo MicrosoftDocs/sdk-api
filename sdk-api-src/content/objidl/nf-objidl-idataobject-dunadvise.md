@@ -59,7 +59,7 @@ Destroys a notification connection that had been previously set up.
 
 ### -param dwConnection [in]
 
-A token that specifies the connection to be removed. Use the value returned by <a href="https://msdn.microsoft.com/be9891d4-aad3-42a0-8c8e-4b86091ff03b">IDataObject::DAdvise</a> when the connection was originally established.
+A token that specifies the connection to be removed. Use the value returned by <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">IDataObject::DAdvise</a> when the connection was originally established.
 
 
 ## -returns
@@ -91,7 +91,7 @@ The specified value for <i>dwConnection</i> is not a valid connection.
 </dl>
 </td>
 <td width="60%">
-This <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> implementation does not support notification.
+This <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> implementation does not support notification.
 
 </td>
 </tr>
@@ -105,9 +105,9 @@ This <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">I
 
 
 
-This methods destroys a notification created with a call to the <a href="https://msdn.microsoft.com/be9891d4-aad3-42a0-8c8e-4b86091ff03b">IDataObject::DAdvise</a> method.
+This methods destroys a notification created with a call to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">IDataObject::DAdvise</a> method.
 
-If the advisory connection being deleted was initially set up by delegating the <a href="https://msdn.microsoft.com/be9891d4-aad3-42a0-8c8e-4b86091ff03b">IDataObject::DAdvise</a> call to <a href="https://msdn.microsoft.com/3b72a50b-a18f-4ec0-9d1d-52b07eb84faf">IDataAdviseHolder::Advise</a>, you must delegate this call to <a href="https://msdn.microsoft.com/baeb29fd-1dd2-4320-911d-b271b2250184">IDataAdviseHolder::Unadvise</a> to delete it.
+If the advisory connection being deleted was initially set up by delegating the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">IDataObject::DAdvise</a> call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataadviseholder-advise">IDataAdviseHolder::Advise</a>, you must delegate this call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataadviseholder-unadvise">IDataAdviseHolder::Unadvise</a> to delete it.
 
 
 
@@ -117,7 +117,7 @@ If the advisory connection being deleted was initially set up by delegating the 
 
 
 
-<a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
  
 
  

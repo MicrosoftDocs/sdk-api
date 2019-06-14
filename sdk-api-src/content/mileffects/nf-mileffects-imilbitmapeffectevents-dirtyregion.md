@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Invalidates the specified region of the given <a href="https://msdn.microsoft.com/en-us/library/ms735258(v=VS.85).aspx">IMILBitmapEffectPrimitive</a>.
+Invalidates the specified region of the given <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffectprimitive">IMILBitmapEffectPrimitive</a>.
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Invalidates the specified region of the given <a href="https://msdn.microsoft.co
 
 ### -param pEffect [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffect">IMILBitmapEffect</a>*</b>
 
 A pointer to the primitive to dirty.
 
 
 ### -param pRect [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735228(v=VS.85).aspx">MIL_RECTD</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/ns-mileffects-milrectd">MIL_RECTD</a>*</b>
 
 A pointer to the rectangle to dirty.
 

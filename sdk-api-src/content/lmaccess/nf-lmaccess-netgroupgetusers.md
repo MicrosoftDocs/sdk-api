@@ -86,7 +86,7 @@ The information level of the data requested. This parameter can be one of the fo
 </td>
 <td width="60%">
 Return the global group's member names. The <i>bufptr</i> parameter points to an array of 
-<a href="https://msdn.microsoft.com/cc0e5d27-91f1-4640-bb80-e73899fabba9">GROUP_USERS_INFO_0</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_users_info_0">GROUP_USERS_INFO_0</a> structures.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ Return the global group's member names. The <i>bufptr</i> parameter points to an
 </td>
 <td width="60%">
 Return the global group's member names and attributes. The <i>bufptr</i> parameter points to an array of 
-<a href="https://msdn.microsoft.com/d92e7c18-f2c7-4ea5-8bb6-fec023272dbb">GROUP_USERS_INFO_1</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_users_info_1">GROUP_USERS_INFO_1</a> structures.
 
 </td>
 </tr>
@@ -108,14 +108,14 @@ Return the global group's member names and attributes. The <i>bufptr</i> paramet
 ### -param bufptr [out]
 
 A pointer to the address of the buffer that receives the information structure. The system allocates the memory for this buffer. You must call the 
-<a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a> function to deallocate the memory. Note that you must free the buffer even if the function fails with ERROR_MORE_DATA.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function to deallocate the memory. Note that you must free the buffer even if the function fails with ERROR_MORE_DATA.
 
 
 ### -param prefmaxlen [in]
 
 The preferred maximum length of the returned data, in bytes. If you specify MAX_PREFERRED_LENGTH, the function allocates the amount of memory required to hold the data. If you specify another value in this parameter, it can restrict the number of bytes that the function returns. If the buffer size is insufficient to hold all entries, the function returns ERROR_MORE_DATA. For more information, see 
-<a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a> and 
-<a href="https://msdn.microsoft.com/08599966-68a1-420b-bbc7-6daac833d08f">Network Management Function Buffer Lengths</a>.
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
 
 ### -param entriesread [out]
@@ -233,21 +233,21 @@ An internal error occurred.
 
 
 
-If you call this function on a domain controller that is running Active Directory, access is allowed or denied based on the access control list (ACL) for the <a href="https://msdn.microsoft.com/32f2ec06-822f-4d1e-bf51-5ae1d7355e60">securable object</a>. The default ACL permits all authenticated users and members of the "<a href="https://msdn.microsoft.com/library/Aa375347(v=VS.85).aspx">Pre-Windows 2000 compatible access</a>" group to view the information. If you call this function on a member server or workstation, all authenticated users can view the information. For  information about anonymous access and restricting anonymous access on these platforms, see 
-<a href="https://msdn.microsoft.com/846a5b81-d5bf-4275-a898-38e6ba308b8f">Security Requirements for the Network Management Functions</a>. For more information on ACLs, ACEs, and access tokens, see 
-<a href="https://msdn.microsoft.com/fd3b718a-5eff-4894-9fc6-d157ddb67330">Access Control Model</a>.
+If you call this function on a domain controller that is running Active Directory, access is allowed or denied based on the access control list (ACL) for the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/securable-objects">securable object</a>. The default ACL permits all authenticated users and members of the "<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/allowing-anonymous-access">Pre-Windows 2000 compatible access</a>" group to view the information. If you call this function on a member server or workstation, all authenticated users can view the information. For  information about anonymous access and restricting anonymous access on these platforms, see 
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/security-requirements-for-the-network-management-functions">Security Requirements for the Network Management Functions</a>. For more information on ACLs, ACEs, and access tokens, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-model">Access Control Model</a>.
 
 The security descriptor of the Group object is used to perform the access check for this function.
 
 To grant one user membership in an existing global group, you can call the 
-<a href="https://msdn.microsoft.com/a2eefde8-29e3-4fa1-87db-c7f6d24b699d">NetGroupAddUser</a> function. To remove a user from a global group, call the 
-<a href="https://msdn.microsoft.com/ab8ce12a-60c0-4d79-8894-4537c6568e15">NetGroupDelUser</a> function. For information about replacing the membership of a global group, see 
-<a href="https://msdn.microsoft.com/4221f5c8-a71c-4368-9be4-9562063b6cfd">NetGroupSetUsers</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netgroupadduser">NetGroupAddUser</a> function. To remove a user from a global group, call the 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netgroupdeluser">NetGroupDelUser</a> function. For information about replacing the membership of a global group, see 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netgroupsetusers">NetGroupSetUsers</a>.
 
 User account names are limited to 20 characters and group names are limited to 256 characters. In addition, account names cannot be terminated by a period and they cannot include commas or any of the following printable characters: ", /, \, [, ], :, |, &lt;, &gt;, +, =, ;, ?, *. Names also cannot include characters in the range 1-31, which are nonprintable.
 
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management group functions. For more information, see 
-<a href="https://msdn.microsoft.com/dbf0c424-e906-4a72-a369-81bf96275bbc">IADsGroup</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsgroup">IADsGroup</a>.
 
 
 
@@ -257,48 +257,48 @@ If you are programming for Active Directory, you may be able to call certain Act
 
 
 
-<a href="https://msdn.microsoft.com/cc0e5d27-91f1-4640-bb80-e73899fabba9">GROUP_USERS_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_users_info_0">GROUP_USERS_INFO_0</a>
 
 
 
-<a href="https://msdn.microsoft.com/d92e7c18-f2c7-4ea5-8bb6-fec023272dbb">GROUP_USERS_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_users_info_1">GROUP_USERS_INFO_1</a>
 
 
 
-<a href="https://msdn.microsoft.com/2199258d-bde9-4fdb-b9c1-147616420fbe">Group Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/group-functions">Group Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a>
 
 
 
-<a href="https://msdn.microsoft.com/a2eefde8-29e3-4fa1-87db-c7f6d24b699d">NetGroupAddUser</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netgroupadduser">NetGroupAddUser</a>
 
 
 
-<a href="https://msdn.microsoft.com/ab8ce12a-60c0-4d79-8894-4537c6568e15">NetGroupDelUser</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netgroupdeluser">NetGroupDelUser</a>
 
 
 
-<a href="https://msdn.microsoft.com/4221f5c8-a71c-4368-9be4-9562063b6cfd">NetGroupSetUsers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netgroupsetusers">NetGroupSetUsers</a>
 
 
 
-<a href="https://msdn.microsoft.com/049f1ea3-4d23-4b35-8b08-7256859aed45">NetQueryDisplayInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netquerydisplayinformation">NetQueryDisplayInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/ecf1a94c-5dda-4f49-81bd-93e551e089f1">NetUserGetGroups</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusergetgroups">NetUserGetGroups</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd159e2e-f37e-46b2-b980-008b73d40b39">Network
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
  
 

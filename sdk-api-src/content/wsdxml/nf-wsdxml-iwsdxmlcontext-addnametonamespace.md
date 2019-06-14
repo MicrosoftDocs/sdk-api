@@ -69,7 +69,7 @@ The name to add to the namespace specified by <i>pszUri</i>.
 
 ### -param ppName [out]
 
-A <a href="https://msdn.microsoft.com/9dce71d2-700c-4f86-9308-dee6a69010bb">WSDXML_NAME</a> structure for the newly created name. You must deallocate <i>ppName</i> by calling <a href="https://msdn.microsoft.com/8fe6f586-a262-4248-9650-dec0fae8cd74">WSDFreeLinkedMemory</a>. This parameter is optional.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_name">WSDXML_NAME</a> structure for the newly created name. You must deallocate <i>ppName</i> by calling <a href="https://docs.microsoft.com/windows/desktop/api/wsdutil/nf-wsdutil-wsdfreelinkedmemory">WSDFreeLinkedMemory</a>. This parameter is optional.
 
 
 ## -returns
@@ -137,7 +137,7 @@ The method failed.
 
 
 
-<b>AddNameToNamespace</b> can be used when creating XML elements for extensible sections. Extensible sections are represented by the <b>any</b> element in a schema. The returned <a href="https://msdn.microsoft.com/9dce71d2-700c-4f86-9308-dee6a69010bb">WSDXML_NAME</a> structure pointed to by <i>ppName</i> can be used to specify the name associated with the extension content. When building a <a href="https://msdn.microsoft.com/727149b4-31b0-4fd8-b0fa-eb773edb171e">WSDXML_ELEMENT</a> structure that represents extension content, use the returned <b>WSDXML_NAME</b> structure for the element's  <b>Name</b> member. 
+<b>AddNameToNamespace</b> can be used when creating XML elements for extensible sections. Extensible sections are represented by the <b>any</b> element in a schema. The returned <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_name">WSDXML_NAME</a> structure pointed to by <i>ppName</i> can be used to specify the name associated with the extension content. When building a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_element">WSDXML_ELEMENT</a> structure that represents extension content, use the returned <b>WSDXML_NAME</b> structure for the element's  <b>Name</b> member. 
 
 
 
@@ -147,7 +147,7 @@ The method failed.
 
 
 
-<a href="https://msdn.microsoft.com/131fa170-4c19-4a7b-82e0-e9677b7f767a">IWSDXMLContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a>
  
 
  

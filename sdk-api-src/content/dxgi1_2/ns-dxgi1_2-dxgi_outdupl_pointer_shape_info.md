@@ -59,7 +59,7 @@ The <b>DXGI_OUTDUPL_POINTER_SHAPE_INFO</b> structure describes information about
 
 ### -field Type
 
-A <a href="https://msdn.microsoft.com/A066B6D3-A72A-48A9-BAED-BC3488BD1BC7">DXGI_OUTDUPL_POINTER_SHAPE_TYPE</a>-typed value that specifies the type of cursor shape. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/ne-dxgi1_2-dxgi_outdupl_pointer_shape_type">DXGI_OUTDUPL_POINTER_SHAPE_TYPE</a>-typed value that specifies the type of cursor shape. 
 
 
 ### -field Width
@@ -86,9 +86,9 @@ The position of the cursor's hot spot relative to its upper-left pixel. An appli
 
 
 
-An application draws the cursor shape with the top-left-hand corner drawn at the position that the <b>Position</b> member of the  <a href="https://msdn.microsoft.com/CCD55021-8F67-463D-BA00-46D8B9D22B9A">DXGI_OUTDUPL_POINTER_POSITION</a> structure specifies; the application does not use the hot spot to draw the cursor shape.
+An application draws the cursor shape with the top-left-hand corner drawn at the position that the <b>Position</b> member of the  <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/ns-dxgi1_2-dxgi_outdupl_pointer_position">DXGI_OUTDUPL_POINTER_POSITION</a> structure specifies; the application does not use the hot spot to draw the cursor shape.
 
-An application calls the  <a href="https://msdn.microsoft.com/321FDB62-BF0E-402E-A00B-6F60B7F132AA">IDXGIOutputDuplication::GetFramePointerShape</a> method to retrieve cursor shape information in a  <b>DXGI_OUTDUPL_POINTER_SHAPE_INFO</b> structure.
+An application calls the  <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutputduplication-getframepointershape">IDXGIOutputDuplication::GetFramePointerShape</a> method to retrieve cursor shape information in a  <b>DXGI_OUTDUPL_POINTER_SHAPE_INFO</b> structure.
 
 
 
@@ -98,11 +98,11 @@ An application calls the  <a href="https://msdn.microsoft.com/321FDB62-BF0E-402E
 
 
 
-<a href="https://msdn.microsoft.com/22e98880-bcd1-448a-9223-604fff9173fe">DXGI Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-structures">DXGI Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/321FDB62-BF0E-402E-A00B-6F60B7F132AA">IDXGIOutputDuplication::GetFramePointerShape</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutputduplication-getframepointershape">IDXGIOutputDuplication::GetFramePointerShape</a>
  
 
  

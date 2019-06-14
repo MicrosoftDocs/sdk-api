@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains the result from an <a href="https://msdn.microsoft.com/d477fe3e-4498-450b-93b7-ce74ae9ed005">OPM_GET_ACP_AND_CGMSA_SIGNALING</a> query.
+Contains the result from an <a href="https://docs.microsoft.com/windows/desktop/medfound/opm-get-acp-and-cgmsa-signaling">OPM_GET_ACP_AND_CGMSA_SIGNALING</a> query.
 
 
 ## -struct-fields
@@ -59,22 +59,22 @@ Contains the result from an <a href="https://msdn.microsoft.com/d477fe3e-4498-45
 
 ### -field rnRandomNumber
 
-An <a href="https://msdn.microsoft.com/d3a5be4b-39d1-43da-b87e-ab4dd7815262">OPM_RANDOM_NUMBER</a> structure. This structure contains the same 128-bit random number that the application sent to the driver in the <a href="https://msdn.microsoft.com/8959c7d1-9a78-497f-8841-d3e61e9db6a3">OPM_GET_INFO_PARAMETERS</a> or <a href="https://msdn.microsoft.com/46c0c426-9730-4a0e-ab95-03b240bd55f0">OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a> structure.
+An <a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_random_number">OPM_RANDOM_NUMBER</a> structure. This structure contains the same 128-bit random number that the application sent to the driver in the <a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_get_info_parameters">OPM_GET_INFO_PARAMETERS</a> or <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-coppcompatiblegetinformation">OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a> structure.
 
 
 ### -field ulStatusFlags
 
-A bitwise <b>OR</b> of <a href="https://msdn.microsoft.com/d6d85fd4-e735-4610-93e0-bb2b1782f11b">OPM Status Flags</a>.
+A bitwise <b>OR</b> of <a href="https://docs.microsoft.com/windows/desktop/medfound/opm-status-flags">OPM Status Flags</a>.
 
 
 ### -field ulAvailableTVProtectionStandards
 
-A bitwise <b>OR</b> of zero or more <a href="https://msdn.microsoft.com/8f26aa92-ed40-483e-ac78-c071619f0e12">TV Protection Standard Flags</a>. The driver will return flags for all of the protection standards and resolutions that it supports, regardless of which are now active. 
+A bitwise <b>OR</b> of zero or more <a href="https://docs.microsoft.com/windows/desktop/medfound/tv-protection-standard-flags">TV Protection Standard Flags</a>. The driver will return flags for all of the protection standards and resolutions that it supports, regardless of which are now active. 
 
 
 ### -field ulActiveTVProtectionStandard
 
-One value from the <a href="https://msdn.microsoft.com/8f26aa92-ed40-483e-ac78-c071619f0e12">TV Protection Standard Flags</a>, indicating the protection standard that is currently active.
+One value from the <a href="https://docs.microsoft.com/windows/desktop/medfound/tv-protection-standard-flags">TV Protection Standard Flags</a>, indicating the protection standard that is currently active.
 
 
 ### -field ulReserved
@@ -89,7 +89,7 @@ A bitmask indicating which bits of <b>ulAspectRatioData1</b> are valid.
 
 ### -field ulAspectRatioData1
 
-The current aspect ratio. For EN 300 294, the value is a member of the <a href="https://msdn.microsoft.com/3c0fc524-b75f-4397-bd01-25be44062e8c">OPM_IMAGE_ASPECT_RATIO_EN300294</a> enumeration.
+The current aspect ratio. For EN 300 294, the value is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ne-opmapi-_opm_image_aspect_ratio_en300294">OPM_IMAGE_ASPECT_RATIO_EN300294</a> enumeration.
 
 
 ### -field ulAspectRatioValidMask2
@@ -126,7 +126,7 @@ Reserved for future use.Fill this array with zeros.
 
 
 
-The layout of this structure is identical to the <a href="https://msdn.microsoft.com/c6bc7d84-3e4d-41f9-8309-5817029477dd">DXVA_COPPStatusSignalingCmdData</a> structure used in Certified Output Protection Protocol (COPP).
+The layout of this structure is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ns-dxva9typ-_dxva_coppstatussignalingcmddata">DXVA_COPPStatusSignalingCmdData</a> structure used in Certified Output Protection Protocol (COPP).
 
 
 
@@ -136,11 +136,11 @@ The layout of this structure is identical to the <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/676a60ca-393e-4b5d-89d3-50cf4b771492">OPM Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/opm-structures">OPM Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/daae615b-37c4-4044-91c6-693357e0016a">Output Protection Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
  
 
  

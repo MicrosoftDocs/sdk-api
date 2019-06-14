@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>LINEMONITORTONE</b> structure describes a tone to be monitored. This is used as an entry in an array. The 
-<a href="https://msdn.microsoft.com/47fe21f2-7896-4ccf-8c26-33430b2081ac">lineMonitorTones</a> and 
-<a href="https://msdn.microsoft.com/8b16dda3-bcb4-4a89-b2e5-b9330be3eb01">TSPI_lineMonitorTones</a> functions use this structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linemonitortones">lineMonitorTones</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linemonitortones">TSPI_lineMonitorTones</a> functions use this structure.
 
 
 ## -struct-fields
@@ -93,7 +93,7 @@ This structure may not be extended.
 
 The 
 <b>LINEMONITORTONE</b> structure defines a tone for the purpose of detection. An array of tones is passed to the 
-<a href="https://msdn.microsoft.com/47fe21f2-7896-4ccf-8c26-33430b2081ac">lineMonitorTones</a> function which monitors these tones and sends a LINE_MONITORTONE message to the application when a detection is made.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linemonitortones">lineMonitorTones</a> function which monitors these tones and sends a LINE_MONITORTONE message to the application when a detection is made.
 
 A tone with all frequencies set to zero corresponds to silence. An application can thus monitor the call's information stream for silence.
 
@@ -105,15 +105,15 @@ A tone with all frequencies set to zero corresponds to silence. An application c
 
 
 
-<a href="https://msdn.microsoft.com/ffdca615-5341-4f02-bb38-b8133cd9477d">LINE_MONITORTONE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-monitortone">LINE_MONITORTONE</a>
 
 
 
-<a href="https://msdn.microsoft.com/8b16dda3-bcb4-4a89-b2e5-b9330be3eb01">TSPI_lineMonitorTones</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linemonitortones">TSPI_lineMonitorTones</a>
 
 
 
-<a href="https://msdn.microsoft.com/47fe21f2-7896-4ccf-8c26-33430b2081ac">lineMonitorTones</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linemonitortones">lineMonitorTones</a>
  
 
  

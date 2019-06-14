@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates that a Media Sink Device (MSD) in a Protected Broadcast Driver Architecture (PBDA) media graph has detected user activity and is informing a Media Transfer Device (MTD) of this activity. The MSD calls this method only if the current activity interval has elapsed since the the MSD most recently called this method. The <a href="https://msdn.microsoft.com/en-us/library/Dd797935(v=VS.85).aspx">GetUserActivityInterval</a> method sets or obtains the value of the current activity interval. 
+Indicates that a Media Sink Device (MSD) in a Protected Broadcast Driver Architecture (PBDA) media graph has detected user activity and is informing a Media Transfer Device (MTD) of this activity. The MSD calls this method only if the current activity interval has elapsed since the the MSD most recently called this method. The <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_useractivityservice-getuseractivityinterval">GetUserActivityInterval</a> method sets or obtains the value of the current activity interval. 
 
 
 ## -parameters
@@ -103,11 +103,11 @@ User activity service failed.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd797935(v=VS.85).aspx">GetUserActivityInterval</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_useractivityservice-getuseractivityinterval">GetUserActivityInterval</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd797933(v=VS.85).aspx">IBDA_UserActivityService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_useractivityservice">IBDA_UserActivityService</a>
  
 
  

@@ -54,7 +54,7 @@ Defines an <b>animation manager</b>, which provides a central interface for crea
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAnimationManager2</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUIAnimationManager2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAnimationManager2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAnimationManager2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IUIAnimationManager2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E8DC71C0-CA68-4FD8-81CE-68450BF4EBA7">AbandonAllStoryboards</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-abandonallstoryboards">AbandonAllStoryboards</a>
 </td>
 <td align="left" width="63%">
 Abandons all active storyboards.
@@ -78,7 +78,7 @@ Abandons all active storyboards.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5E963D24-2436-4B8F-8806-69E521EC83AF">CreateAnimationVariable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-createanimationvariable">CreateAnimationVariable</a>
 </td>
 <td align="left" width="63%">
 Creates a new animation variable.
@@ -87,7 +87,7 @@ Creates a new animation variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b102f7d7-1a0b-40b5-bcc6-fa82dbcb4156">CreateAnimationVectorVariable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-createanimationvectorvariable">CreateAnimationVectorVariable</a>
 </td>
 <td align="left" width="63%">
 Creates a new animation variable for each specified dimension.
@@ -96,7 +96,7 @@ Creates a new animation variable for each specified dimension.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3D66B9DC-15F0-4660-ACF5-FBC801467FD9">CreateStoryboard</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-createstoryboard">CreateStoryboard</a>
 </td>
 <td align="left" width="63%">
 Creates a new storyboard.
@@ -105,7 +105,7 @@ Creates a new storyboard.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C2F049B7-287F-4EC2-A737-965E01515056">EstimateNextEventTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-estimatenexteventtime">EstimateNextEventTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves an estimate of  the time interval before the next animation event.
@@ -114,7 +114,7 @@ Retrieves an estimate of  the time interval before the next animation event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/830A5D30-68FF-4226-AC7C-7B1C5F7BA367">FinishAllStoryboards</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-finishallstoryboards">FinishAllStoryboards</a>
 </td>
 <td align="left" width="63%">
 Finishes all active storyboards within the specified time interval.
@@ -123,7 +123,7 @@ Finishes all active storyboards within the specified time interval.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E989CED1-C6B7-4086-944E-924836AA7ECB">GetStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-getstatus">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Gets the status of the animation manager.
@@ -132,7 +132,7 @@ Gets the status of the animation manager.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C7B11A34-E5FB-40D7-A655-29D28ECF4068">GetStoryboardFromTag</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-getstoryboardfromtag">GetStoryboardFromTag</a>
 </td>
 <td align="left" width="63%">
 Gets the storyboard with the specified tag.
@@ -141,7 +141,7 @@ Gets the storyboard with the specified tag.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ED367DB7-91D6-4D2E-BDAB-27FA4340F091">GetVariableFromTag</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-getvariablefromtag">GetVariableFromTag</a>
 </td>
 <td align="left" width="63%">
 Gets the animation variable with the specified tag.
@@ -150,7 +150,7 @@ Gets the animation variable with the specified tag.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/AA8EEFD5-A386-4DF1-BCBE-12A92D235E98">Pause</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-pause">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses all animations.
@@ -159,7 +159,7 @@ Pauses all animations.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/943BCFBB-3E16-4CC8-BA9F-06D4C99B1DF0">Resume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-resume">Resume</a>
 </td>
 <td align="left" width="63%">
 Resumes all animations.
@@ -168,7 +168,7 @@ Resumes all animations.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F0F5D099-6290-485F-AD68-101CD57E8656">ScheduleTransition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-scheduletransition">ScheduleTransition</a>
 </td>
 <td align="left" width="63%">
 Creates and schedules a single-transition storyboard.
@@ -177,7 +177,7 @@ Creates and schedules a single-transition storyboard.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/BA568B62-7A85-4758-BB04-B4AF617A8443">SetAnimationMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-setanimationmode">SetAnimationMode</a>
 </td>
 <td align="left" width="63%">
 Sets the animation mode.
@@ -186,7 +186,7 @@ Sets the animation mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/55DEC4C2-A6F3-459D-BDCD-3D3819EBF0D2">SetCancelPriorityComparison</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-setcancelprioritycomparison">SetCancelPriorityComparison</a>
 </td>
 <td align="left" width="63%">
 Sets the priority comparison handler that determines whether  a scheduled storyboard can be canceled.
@@ -195,7 +195,7 @@ Sets the priority comparison handler that determines whether  a scheduled storyb
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A754A307-AFFB-4E43-862D-C2FBC85E6C74">SetCompressPriorityComparison</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-setcompressprioritycomparison">SetCompressPriorityComparison</a>
 </td>
 <td align="left" width="63%">
 Sets the priority comparison handler that determines whether  a scheduled storyboard can be compressed.
@@ -204,7 +204,7 @@ Sets the priority comparison handler that determines whether  a scheduled storyb
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1BDC9094-6020-4640-B959-59CD6CF48751">SetConcludePriorityComparison</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-setconcludeprioritycomparison">SetConcludePriorityComparison</a>
 </td>
 <td align="left" width="63%">
 Sets the priority comparison handler that determines whether  a scheduled storyboard can be concluded.
@@ -213,7 +213,7 @@ Sets the priority comparison handler that determines whether  a scheduled storyb
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/CB00C22B-9837-43AD-9E04-30182B7386E9">SetDefaultLongestAcceptableDelay</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-setdefaultlongestacceptabledelay">SetDefaultLongestAcceptableDelay</a>
 </td>
 <td align="left" width="63%">
 Sets the default acceptable animation delay. This is the length of time that may pass before storyboards begin.
@@ -222,7 +222,7 @@ Sets the default acceptable animation delay. This is the length of time that may
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/057CF933-4C6B-4875-82CD-27BB69ED8E4D">SetManagerEventHandler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-setmanagereventhandler">SetManagerEventHandler</a>
 </td>
 <td align="left" width="63%">
 Specifies a handler for animation manager status updates.
@@ -231,7 +231,7 @@ Specifies a handler for animation manager status updates.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/742BCD19-FC1D-46DE-9CBC-716793259947">SetTrimPriorityComparison</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-settrimprioritycomparison">SetTrimPriorityComparison</a>
 </td>
 <td align="left" width="63%">
 Sets the priority comparison handler that determines whether  a scheduled storyboard can be trimmed.
@@ -240,7 +240,7 @@ Sets the priority comparison handler that determines whether  a scheduled storyb
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F66A987C-E020-4CD6-BE3F-440C3F8B8CF2">Shutdown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-shutdown">Shutdown</a>
 </td>
 <td align="left" width="63%">
 Shuts down the animation manager and all its associated objects.
@@ -249,7 +249,7 @@ Shuts down the animation manager and all its associated objects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5735ABDB-E1AE-41C0-9F37-92084CEF6FAD">Update</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-update">Update</a>
 </td>
 <td align="left" width="63%">
 Updates the values of all animation variables.
@@ -264,11 +264,11 @@ Updates the values of all animation variables.
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/b54e319c-e140-4fd9-8045-5eb6f4a31326">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/UIAnimation/-interfaces-main">Interfaces</a>
  
 
  

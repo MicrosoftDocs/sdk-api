@@ -68,7 +68,7 @@ A pointer to the IDList of the given object relative to the Desktop.
 
 Type: <b>PITEMID_CHILD*</b>
 
-A PIDL consisting of 0 or 1 <a href="https://msdn.microsoft.com/794c8425-2319-4339-881c-c5083ab05638">SHITEMID</a> structures, relative to a parent folder. This parameter maybe <b>NULL</b>.
+A PIDL consisting of 0 or 1 <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a> structures, relative to a parent folder. This parameter maybe <b>NULL</b>.
         
 
 

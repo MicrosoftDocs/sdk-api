@@ -59,7 +59,7 @@ Starts a synchronous download of the content files that are associated with the 
 
 ### -param retval [out]
 
-An <a href="https://msdn.microsoft.com/293bea59-acec-4774-adb9-1ad1d29406c3">IDownloadResult</a> interface that contains result codes for the download.
+An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-idownloadresult">IDownloadResult</a> interface that contains result codes for the download.
 
 
 ## -returns
@@ -120,7 +120,7 @@ Windows Update Agent is not initialized.
 
 This method returns <b>WU_E_INVALID_OPERATION</b> if the object that is implementing the interface is locked down.
 
-This method returns <b>WU_E_NO_UPDATE</b> if the <a href="https://msdn.microsoft.com/7c0444be-a9eb-461a-858e-1dea670afd06">Updates</a> property of the <a href="https://msdn.microsoft.com/8f9f3430-fc78-46cb-9dc8-b97e9d35d91c">IUpdateDownloader</a> interface is not set. This method also returns <b>WU_E_NO_UPDATE</b> if the <b>Updates</b> property is set to an empty collection.
+This method returns <b>WU_E_NO_UPDATE</b> if the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatedownloader-get_updates">Updates</a> property of the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloader">IUpdateDownloader</a> interface is not set. This method also returns <b>WU_E_NO_UPDATE</b> if the <b>Updates</b> property is set to an empty collection.
 
 This method returns <b>SUS_E_NOT_INITIALIZED</b> if the download job does not contain updates.
 
@@ -132,7 +132,7 @@ This method returns <b>SUS_E_NOT_INITIALIZED</b> if the download job does not co
 
 
 
-<a href="https://msdn.microsoft.com/8f9f3430-fc78-46cb-9dc8-b97e9d35d91c">IUpdateDownloader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloader">IUpdateDownloader</a>
  
 
  

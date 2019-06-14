@@ -59,7 +59,7 @@ Determines whether the specified hash algorithm and the public key in the signin
 
 ### -param pStrongSignPara [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/12D9F82C-F484-43B0-BD55-F07321058671">CERT_STRONG_SIGN_PARA</a> structure that contains information about supported signing and hashing algorithms.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a> structure that contains information about supported signing and hashing algorithms.
 
 
 ### -param pwszCNGHashAlgid [in]
@@ -76,7 +76,7 @@ Pointer to a Unicode string that contains the name of the hashing algorithm. The
 
 ### -param pSigningCert [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structure that  contains the signing certificate. The public key algorithm in the signing certificate is checked for strength. The public key (asymmetric) algorithm is used for signing. The following signature algorithms are supported:
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure that  contains the signing certificate. The public key algorithm in the signing certificate is checked for strength. The public key (asymmetric) algorithm is used for signing. The following signature algorithms are supported:
 
 <ul>
 <li>L"RSA" (BCRYPT_RSA_ALGORITHM)</li>
@@ -94,7 +94,7 @@ If the function succeeds, the function returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>.
 For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. This function has the following error codes.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. This function has the following error codes.
 
 <table>
 <tr>
@@ -134,7 +134,7 @@ A specified algorithm is not supported.
 
 
 
-<a href="https://msdn.microsoft.com/12D9F82C-F484-43B0-BD55-F07321058671">CERT_STRONG_SIGN_PARA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a>
  
 
  

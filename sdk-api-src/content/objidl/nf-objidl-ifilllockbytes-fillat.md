@@ -92,11 +92,11 @@ This function supports the standard return values E_OUTOFMEMORY, E_UNEXPECTED, E
 
 
 The 
-<b>FillAt</b> method is used for nonsequential downloading (for example, HTTP byte range requests). In nonsequential downloading the caller specifies ranges in the byte array where various blocks of data are to be written. Subsequent calls by the compound file implementation to <a href="https://msdn.microsoft.com/0478d6f0-65c4-445b-946a-692f2373e8f1">ILockBytes::ReadAt</a> are passed by the byte array wrapper object's own implementation of 
-<a href="https://msdn.microsoft.com/bb2c5d0d-8dc8-4844-9a20-ef8e4def5731">ILockBytes</a> to the underlying byte array. This method is not currently implemented and will return E_NOTIMPL.
+<b>FillAt</b> method is used for nonsequential downloading (for example, HTTP byte range requests). In nonsequential downloading the caller specifies ranges in the byte array where various blocks of data are to be written. Subsequent calls by the compound file implementation to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ilockbytes-readat">ILockBytes::ReadAt</a> are passed by the byte array wrapper object's own implementation of 
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a> to the underlying byte array. This method is not currently implemented and will return E_NOTIMPL.
 
 <div class="alert"><b>Note</b>  The system-supplied 
-<a href="https://msdn.microsoft.com/a8aed8c5-3c4c-4cce-b568-68031da0edf5">IFillLockBytes</a> implementation does not support 
+<a href="https://docs.microsoft.com/windows/desktop/Stg/ifilllockbytes-implementation">IFillLockBytes</a> implementation does not support 
 <b>FillAt</b> and returns E_NOTIMPL.</div>
 <div> </div>
 
@@ -107,15 +107,15 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/a8aed8c5-3c4c-4cce-b568-68031da0edf5">IFillLockBytes - Implementation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Stg/ifilllockbytes-implementation">IFillLockBytes - Implementation</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f25c48f-85a4-4778-b262-ad0c52cb1ac9">IFillLockBytes::FillAppend</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ifilllockbytes-fillappend">IFillLockBytes::FillAppend</a>
 
 
 
-<a href="https://msdn.microsoft.com/0478d6f0-65c4-445b-946a-692f2373e8f1">ILockBytes::ReadAt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ilockbytes-readat">ILockBytes::ReadAt</a>
  
 
  

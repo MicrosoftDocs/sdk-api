@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Bitmap::GetHistogramSize</b> returns the number of elements (in an array of <b>UINT</b>s) that you must allocate before you call the <a href="https://msdn.microsoft.com/en-us/library/ms536307(v=VS.85).aspx">Bitmap::GetHistogram</a> method of a <a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> object.
+The <b>Bitmap::GetHistogramSize</b> returns the number of elements (in an array of <b>UINT</b>s) that you must allocate before you call the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-gethistogram">Bitmap::GetHistogram</a> method of a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a> object.
 
 
 ## -parameters
@@ -60,9 +60,9 @@ The <b>Bitmap::GetHistogramSize</b> returns the number of elements (in an array 
 
 ### -param format [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534129(v=VS.85).aspx">HistogramFormat</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolormatrix/ne-gdipluscolormatrix-histogramformat">HistogramFormat</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534129(v=VS.85).aspx">HistogramFormat</a> enumeration that specifies the pixel format of the bitmap.
+Element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolormatrix/ne-gdipluscolormatrix-histogramformat">HistogramFormat</a> enumeration that specifies the pixel format of the bitmap.
 
 
 ### -param NumberOfEntries [out]
@@ -76,14 +76,14 @@ Pointer to a <b>UINT</b> that receives the number of entries.
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 </strong>
 
 If the method succeeds, it returns <b>Ok</b>, which is an element of the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 
 
@@ -93,7 +93,7 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Default constructor for <code>XMMATRIX</code>.
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx">XMMATRIX</a>.
+Default constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a>.
 <div class="alert"><b>Note</b>  This constructor is only available when developing with C++.</div><div> </div>
 
 ## -parameters
@@ -65,7 +65,7 @@ Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee4199
 
 
 
-<code>XMMATRIX()</code> constructs a new instance of the <a href="https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx">XMMATRIX</a> structure without
+<code>XMMATRIX()</code> constructs a new instance of the <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a> structure without
     defining the value of any of its members.
 
 
@@ -81,11 +81,11 @@ Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee4199
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx">XMMATRIX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415353(v=VS.85).aspx">XMMATRIX Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmmatrix-ctor">XMMATRIX Constructors</a>
  
 
  

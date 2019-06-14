@@ -50,8 +50,8 @@ ms.custom: 19H1
 
 
 The <b>SCESVC_INFO_TYPE</b> enumeration is used by 
-<a href="https://msdn.microsoft.com/a0e4a205-46d4-47c9-97cf-66f6bec34a1b">PFSCE_QUERY_INFO</a> and 
-<a href="https://msdn.microsoft.com/131585a9-b0a9-4686-84ba-237bcdcc4f5f">PFSCE_SET_INFO</a> to indicate the type of information requested from or passed to the security database. It can be one of the following values.
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nc-scesvc-pfsce_query_info">PFSCE_QUERY_INFO</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nc-scesvc-pfsce_set_info">PFSCE_SET_INFO</a> to indicate the type of information requested from or passed to the security database. It can be one of the following values.
 
 
 ## -enum-fields
@@ -84,19 +84,19 @@ Reserved. Do not use.
 
 
 
-<a href="https://msdn.microsoft.com/a0e4a205-46d4-47c9-97cf-66f6bec34a1b">PFSCE_QUERY_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nc-scesvc-pfsce_query_info">PFSCE_QUERY_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/131585a9-b0a9-4686-84ba-237bcdcc4f5f">PFSCE_SET_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nc-scesvc-pfsce_set_info">PFSCE_SET_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/4f0273df-435d-4324-b8ce-a774da935059">SCESVC_ANALYSIS_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/ns-scesvc-_scesvc_analysis_info_">SCESVC_ANALYSIS_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/a89ab072-7b7c-4ecd-83fa-26e2689778df">SCESVC_CONFIGURATION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/ns-scesvc-_scesvc_configuration_info_">SCESVC_CONFIGURATION_INFO</a>
  
 
  

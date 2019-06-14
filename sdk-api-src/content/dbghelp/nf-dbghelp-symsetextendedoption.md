@@ -101,11 +101,11 @@ The previous value of the specified extended option.
 
 
 
-<a href="https://msdn.microsoft.com/5354F53C-F161-4887-85E4-7A00521034EE">IMAGEHLP_EXTENDED_OPTIONS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ne-dbghelp-imagehlp_extended_options">IMAGEHLP_EXTENDED_OPTIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/3D6D5E31-ECCB-48B2-A46B-0BB2D7A2DEC0">SymGetExtendedOption</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetextendedoption">SymGetExtendedOption</a>
  
 
  

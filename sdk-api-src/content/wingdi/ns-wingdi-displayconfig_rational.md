@@ -71,7 +71,7 @@ The denominator of the frequency fraction.
 
 
 
-A DISPLAYCONFIG_RATIONAL structure is specified in members of the <a href="https://msdn.microsoft.com/3dcdca96-7c5d-4e69-b7dd-8b5ccda25f6a">DISPLAYCONFIG_PATH_TARGET_INFO</a> and <a href="https://msdn.microsoft.com/960089fe-dbb7-41a1-af73-0002cfce6da2">DISPLAYCONFIG_VIDEO_SIGNAL_INFO</a> structures.
+A DISPLAYCONFIG_RATIONAL structure is specified in members of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_path_target_info">DISPLAYCONFIG_PATH_TARGET_INFO</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_video_signal_info">DISPLAYCONFIG_VIDEO_SIGNAL_INFO</a> structures.
 
 
 
@@ -81,11 +81,11 @@ A DISPLAYCONFIG_RATIONAL structure is specified in members of the <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/3dcdca96-7c5d-4e69-b7dd-8b5ccda25f6a">DISPLAYCONFIG_PATH_TARGET_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_path_target_info">DISPLAYCONFIG_PATH_TARGET_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/960089fe-dbb7-41a1-af73-0002cfce6da2">DISPLAYCONFIG_VIDEO_SIGNAL_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_video_signal_info">DISPLAYCONFIG_VIDEO_SIGNAL_INFO</a>
  
 
  

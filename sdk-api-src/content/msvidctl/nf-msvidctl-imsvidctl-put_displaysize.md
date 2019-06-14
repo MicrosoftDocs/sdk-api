@@ -59,7 +59,7 @@ The <b>put_DisplaySize</b> method specifies the display size.
 
 ### -param NewValue [in]
 
-Specifies the display size as a member of the <a href="https://msdn.microsoft.com/2e939cbc-fc75-41d7-9fcb-32da5173f9bc">DisplaySizeList</a> enumeration.
+Specifies the display size as a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/ne-msvidctl-displaysizelist">DisplaySizeList</a> enumeration.
 
 
 ## -returns
@@ -85,15 +85,15 @@ Setting this property has no effect if the <b>AutoSize</b> property is false.
 
 
 
-<a href="https://msdn.microsoft.com/e3ea10ea-bfb4-4c35-9933-5ad0367fd9ee">IMSVidCtl Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidctl">IMSVidCtl Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/f3d5ed73-4781-46fb-8df4-a7dc339b755c">IMSVidCtl::get_DisplaySize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_displaysize">IMSVidCtl::get_DisplaySize</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb5863e2-380b-4bee-ac18-e5f28551a6ab">IMSVidCtl::put_AutoSize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_autosize">IMSVidCtl::put_AutoSize</a>
  
 
  

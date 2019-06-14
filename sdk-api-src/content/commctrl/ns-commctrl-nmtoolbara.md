@@ -62,10 +62,10 @@ Contains information used to process toolbar notification codes. This structure 
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about the notification. 
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that contains additional information about the notification. 
 
 
 ### -field iItem
@@ -77,10 +77,10 @@ Command identifier of the button associated with the notification code.
 
 ### -field tbButton
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb760476(v=VS.85).aspx">TBBUTTON</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-_tbbutton">TBBUTTON</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb760476(v=VS.85).aspx">TBBUTTON</a> structure that contains information about the toolbar button associated with the notification code. This member only contains valid information with the <a href="https://msdn.microsoft.com/en-us/library/Bb787280(v=VS.85).aspx">TBN_QUERYINSERT</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb787278(v=VS.85).aspx">TBN_QUERYDELETE</a> notification codes. 
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-_tbbutton">TBBUTTON</a> structure that contains information about the toolbar button associated with the notification code. This member only contains valid information with the <a href="https://docs.microsoft.com/windows/desktop/Controls/tbn-queryinsert">TBN_QUERYINSERT</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/tbn-querydelete">TBN_QUERYDELETE</a> notification codes. 
 
 
 ### -field cchText
@@ -92,7 +92,7 @@ Count of characters in the button text.
 
 ### -field pszText
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPTSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
 Address of a character buffer that contains the button text. 
 
@@ -102,5 +102,5 @@ Address of a character buffer that contains the button text.
 Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 5.80.</a> A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that defines the area covered by the button. 
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 5.80.</a> A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that defines the area covered by the button. 
 

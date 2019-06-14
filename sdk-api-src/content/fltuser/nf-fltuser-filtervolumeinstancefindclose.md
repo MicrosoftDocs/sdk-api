@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>FilterVolumeInstanceFindClose</b> function closes the specified volume instance search handle. <a href="https://msdn.microsoft.com/8bcaa20e-90f8-4e18-88b0-85a6b6632ef7">FilterVolumeInstanceFindFirst</a> and <a href="https://msdn.microsoft.com/e4bcd797-5a1a-45b9-a4f2-387ea1df7c2f">FilterVolumeInstanceFindNext</a> use this search handle to locate instances on a volume. 
+The <b>FilterVolumeInstanceFindClose</b> function closes the specified volume instance search handle. <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumeinstancefindfirst">FilterVolumeInstanceFindFirst</a> and <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumeinstancefindnext">FilterVolumeInstanceFindNext</a> use this search handle to locate instances on a volume. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>FilterVolumeInstanceFindClose</b> function closes the specified volume in
 
 ### -param hVolumeInstanceFind [in]
 
-Volume instance search handle to close. This handle must have been opened by a previous call to <a href="https://msdn.microsoft.com/8bcaa20e-90f8-4e18-88b0-85a6b6632ef7">FilterVolumeInstanceFindFirst</a>. 
+Volume instance search handle to close. This handle must have been opened by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumeinstancefindfirst">FilterVolumeInstanceFindFirst</a>. 
 
 
 ## -returns
@@ -75,7 +75,7 @@ Volume instance search handle to close. This handle must have been opened by a p
 
 
 
-After the <b>FilterVolumeInstanceFindClose</b> function is called, the handle specified by the <i>hVolumeInstanceFind</i> parameter cannot be used in subsequent calls to <a href="https://msdn.microsoft.com/e4bcd797-5a1a-45b9-a4f2-387ea1df7c2f">FilterVolumeInstanceFindNext</a> or <b>FilterVolumeInstanceFindClose</b>. 
+After the <b>FilterVolumeInstanceFindClose</b> function is called, the handle specified by the <i>hVolumeInstanceFind</i> parameter cannot be used in subsequent calls to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumeinstancefindnext">FilterVolumeInstanceFindNext</a> or <b>FilterVolumeInstanceFindClose</b>. 
 
 
 
@@ -85,11 +85,11 @@ After the <b>FilterVolumeInstanceFindClose</b> function is called, the handle sp
 
 
 
-<a href="https://msdn.microsoft.com/8bcaa20e-90f8-4e18-88b0-85a6b6632ef7">FilterVolumeInstanceFindFirst</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumeinstancefindfirst">FilterVolumeInstanceFindFirst</a>
 
 
 
-<a href="https://msdn.microsoft.com/e4bcd797-5a1a-45b9-a4f2-387ea1df7c2f">FilterVolumeInstanceFindNext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumeinstancefindnext">FilterVolumeInstanceFindNext</a>
  
 
  

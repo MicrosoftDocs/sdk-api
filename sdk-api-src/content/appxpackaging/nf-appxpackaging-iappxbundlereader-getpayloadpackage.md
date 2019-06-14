@@ -59,14 +59,14 @@ Retrieves an appx file object for the payload package with the specified file na
 
 ### -param fileName [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCWSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
 
 The name of the payload file to be retrieved.
 
 
 ### -param payloadPackage [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/DB09452D-725C-46EA-B74C-92C5E596BEF8">IAppxFile</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxfile">IAppxFile</a>**</b>
 
 The payload file object the that corresponds to <i>fileName</i>.
 
@@ -105,7 +105,7 @@ There is no payload file with the specified file name.
 
 
 
-You can pass the file object’s stream into <a href="https://msdn.microsoft.com/60C9781F-A1EE-4EAA-9CD5-32692F3E063D">IAppxFactory::CreatePackageReader</a> to get a package reader object over the appx file. 
+You can pass the file object’s stream into <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfactory-createpackagereader">IAppxFactory::CreatePackageReader</a> to get a package reader object over the appx file. 
 
 
 
@@ -115,7 +115,7 @@ You can pass the file object’s stream into <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/3847AF32-D8E4-4BB2-9FBC-7CFAEF2CA664">IAppxBundleReader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlereader">IAppxBundleReader</a>
  
 
  

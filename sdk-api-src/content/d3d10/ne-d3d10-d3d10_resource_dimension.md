@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifies the type of <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">resource</a> being used.
+Identifies the type of <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">resource</a> being used.
 
 
 ## -enum-fields
@@ -64,29 +64,29 @@ Resource is of unknown type.
 
 ### -field D3D10_RESOURCE_DIMENSION_BUFFER
 
-Resource is a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">buffer</a>.
+Resource is a <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">buffer</a>.
 
 
 ### -field D3D10_RESOURCE_DIMENSION_TEXTURE1D
 
-Resource is a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">1D texture</a>.
+Resource is a <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">1D texture</a>.
 
 
 ### -field D3D10_RESOURCE_DIMENSION_TEXTURE2D
 
-Resource is a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">2D texture</a>.
+Resource is a <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">2D texture</a>.
 
 
 ### -field D3D10_RESOURCE_DIMENSION_TEXTURE3D
 
-Resource is a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">3D texture</a>.
+Resource is a <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">3D texture</a>.
 
 
 ## -remarks
 
 
 
-This enumeration is used in <a href="https://msdn.microsoft.com/en-us/library/Bb173831(v=VS.85).aspx">ID3D10Resource::GetType</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb172695(v=VS.85).aspx">D3DX10_IMAGE_INFO</a>.
+This enumeration is used in <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10resource-gettype">ID3D10Resource::GetType</a>, and <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3dx10-image-info">D3DX10_IMAGE_INFO</a>.
 
 
 
@@ -96,7 +96,7 @@ This enumeration is used in <a href="https://msdn.microsoft.com/en-us/library/Bb
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205275(v=VS.85).aspx">Resource Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-resource-enums">Resource Enumerations</a>
  
 
  

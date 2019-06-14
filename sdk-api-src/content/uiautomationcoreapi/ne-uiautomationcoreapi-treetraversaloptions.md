@@ -98,7 +98,7 @@ Last-to-First means "visit the previous sibling from the child".
 
 
 
-<a href="https://msdn.microsoft.com/67d86817-6a3f-4047-88d9-34f33f52a563">Text Attribute Identifiers</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-textattribute-ids">Text Attribute Identifiers</a>
  
 
  

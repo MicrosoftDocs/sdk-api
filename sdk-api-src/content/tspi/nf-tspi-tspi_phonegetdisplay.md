@@ -66,7 +66,7 @@ The handle to the phone to be queried.
 ### -param lpDisplay
 
 A pointer to the memory location where the display content is to be stored by the provider, of type 
-<a href="https://msdn.microsoft.com/ec73ed48-db5a-4478-8748-b8e58247c2f4">VARSTRING</a>. Prior to calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring_tag">VARSTRING</a>. Prior to calling 
 <b>TSPI_phoneGetDisplay</b>, the application sets the <b>dwTotalSize</b> member of this structure to indicate the amount of memory available to TAPI for returning information.
 
 
@@ -86,11 +86,11 @@ PHONEERR_INVALPHONEHANDLE, PHONEERR_RESOURCEUNAVAIL, PHONEERR_INVALPHONESTATE, P
 
 
 The <i>lpDisplay</i> memory area should be at least <b>dwDisplayNumRows</b> * <b>dwDisplayNumColumns</b> elements in size to receive all of the display information. The <b>dwDisplayNumRows</b> and <b>dwDisplayNumColumns</b> members are available in the 
-<a href="https://msdn.microsoft.com/9549e30c-9425-4fb1-8ce5-f180a32f8e1f">PHONECAPS</a> structure returned by 
-<a href="https://msdn.microsoft.com/d929ed39-ba1d-4eae-9667-86d904ba96a8">TSPI_phoneGetDevCaps</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonecaps_tag">PHONECAPS</a> structure returned by 
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegetdevcaps">TSPI_phoneGetDevCaps</a>.
 
 The service provider fills in all the members of the 
-<a href="https://msdn.microsoft.com/ec73ed48-db5a-4478-8748-b8e58247c2f4">VARSTRING</a> data structure, except for <b>dwTotalSize</b>, which is filled in by TAPI. The service provider must not overwrite the <b>dwTotalSize</b> member.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring_tag">VARSTRING</a> data structure, except for <b>dwTotalSize</b>, which is filled in by TAPI. The service provider must not overwrite the <b>dwTotalSize</b> member.
 
 
 
@@ -100,19 +100,19 @@ The service provider fills in all the members of the
 
 
 
-<a href="https://msdn.microsoft.com/9549e30c-9425-4fb1-8ce5-f180a32f8e1f">PHONECAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonecaps_tag">PHONECAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/d929ed39-ba1d-4eae-9667-86d904ba96a8">TSPI_phoneGetDevCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegetdevcaps">TSPI_phoneGetDevCaps</a>
 
 
 
-<a href="https://msdn.microsoft.com/c320122c-037a-40f5-8314-6aa3352cc994">TSPI_phoneSetDisplay</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonesetdisplay">TSPI_phoneSetDisplay</a>
 
 
 
-<a href="https://msdn.microsoft.com/ec73ed48-db5a-4478-8748-b8e58247c2f4">VARSTRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring_tag">VARSTRING</a>
  
 
  

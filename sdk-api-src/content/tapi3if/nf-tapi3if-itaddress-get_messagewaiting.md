@@ -118,7 +118,7 @@ The <i>pfMessageWaiting</i> parameter is not a valid pointer.
 
 
 In TAPI 2.<i>x</i>, this maps to the flag LINEDEVSTATUSFLAGS_MSGWAIT being set or not in the member <i>dwDevStatusFlags</i> from the structure 
-<a href="https://msdn.microsoft.com/3d565e99-eb90-47ca-9fb9-295236f566fb">LINEDEVSTATUS</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevstatus_tag">LINEDEVSTATUS</a>.
 
 
 
@@ -128,19 +128,19 @@ In TAPI 2.<i>x</i>, this maps to the flag LINEDEVSTATUSFLAGS_MSGWAIT being set o
 
 
 
-<a href="https://msdn.microsoft.com/ab6db262-f99e-4027-9525-7597fcf02e72">Address Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/93f2e4cf-013e-4064-88d5-69fddd458274">ITAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d565e99-eb90-47ca-9fb9-295236f566fb">LINEDEVSTATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevstatus_tag">LINEDEVSTATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/9dc125ab-a452-4108-93d5-9f341b879e8d">put_MessageWaiting</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-put_messagewaiting">put_MessageWaiting</a>
  
 
  

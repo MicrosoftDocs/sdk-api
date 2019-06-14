@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information used with <a href="https://msdn.microsoft.com/en-us/library/Bb775570(v=VS.85).aspx">NM_TOOLTIPSCREATED</a> notification codes. 
+Contains information used with <a href="https://docs.microsoft.com/windows/desktop/Controls/nm-tooltipscreated">NM_TOOLTIPSCREATED</a> notification codes. 
 
 
 ## -struct-fields
@@ -59,14 +59,14 @@ Contains information used with <a href="https://msdn.microsoft.com/en-us/library
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about this notification. 
+An <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that contains additional information about this notification. 
 
 
 ### -field hwndToolTips
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 The window handle to the tooltip control created. 
 

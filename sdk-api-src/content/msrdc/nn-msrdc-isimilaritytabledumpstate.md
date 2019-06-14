@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Provides a method for retrieving information from the similarity traits list that was returned by the <a href="https://msdn.microsoft.com/93298019-334b-4685-b95e-a1081c2bd9dc">ISimilarityTraitsTable::BeginDump</a> method.
+Provides a method for retrieving information from the similarity traits list that was returned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-begindump">ISimilarityTraitsTable::BeginDump</a> method.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISimilarityTableDumpState</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISimilarityTableDumpState</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISimilarityTableDumpState</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISimilarityTableDumpState</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,10 +69,10 @@ The <b>ISimilarityTableDumpState</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/40ec97fc-052d-474e-9a55-822aa113ac03">GetNextData</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytabledumpstate-getnextdata">GetNextData</a>
 </td>
 <td align="left" width="63%">
-Retrieves one or more <a href="https://msdn.microsoft.com/0200008c-5664-445f-ae65-0eb004856a4c">SimilarityDumpData</a> structures from the similarity traits list.
+Retrieves one or more <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0014">SimilarityDumpData</a> structures from the similarity traits list.
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ Retrieves one or more <a href="https://msdn.microsoft.com/0200008c-5664-445f-ae6
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

@@ -61,7 +61,7 @@ Gets the settings for the current folder.
 
 Type: <b>DWORD*</b>
 
-When this method returns, contains a pointer to the current setting flags.  For a list of possible values, see <a href="https://msdn.microsoft.com/e471b81a-da4d-48c0-8c7f-996b507d27a1">FOLDERFLAGS</a>.
+When this method returns, contains a pointer to the current setting flags.  For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderflags">FOLDERFLAGS</a>.
 
 
 ## -returns

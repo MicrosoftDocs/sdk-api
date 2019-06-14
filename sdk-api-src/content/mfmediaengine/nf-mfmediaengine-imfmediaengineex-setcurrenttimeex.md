@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Seeks to a new playback position using the  specified <a href="https://msdn.microsoft.com/58356FC2-5F1E-463F-98D5-E63AFCC05A02">MF_MEDIA_ENGINE_SEEK_MODE</a>.
+Seeks to a new playback position using the  specified <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_media_engine_seek_mode">MF_MEDIA_ENGINE_SEEK_MODE</a>.
 
 
 ## -parameters
@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/EE3591FD-4FE8-4F20-A4E2-52C896229571">IMFMediaEngineEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineex">IMFMediaEngineEx</a>
  
 
  

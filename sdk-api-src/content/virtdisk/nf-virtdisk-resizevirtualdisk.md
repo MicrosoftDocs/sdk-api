@@ -65,20 +65,20 @@ Handle to an open virtual disk.
 ### -param Flags [in]
 
 Zero or more flags enumerated from the 
-      <a href="https://msdn.microsoft.com/dd4fc68d-8bed-47ce-94a2-a8a71199fac2">RESIZE_VIRTUAL_DISK_FLAG</a> enumeration.
+      <a href="https://docs.microsoft.com/windows/desktop/api/virtdisk/ne-virtdisk-_resize_virtual_disk_flag">RESIZE_VIRTUAL_DISK_FLAG</a> enumeration.
 
 
 ### -param Parameters [in]
 
 Address of a 
-      <a href="https://msdn.microsoft.com/ff44f07a-67d1-4ad3-be2b-0aea1d3c4a6a">RESIZE_VIRTUAL_DISK_PARAMETERS</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/virtdisk/ns-virtdisk-_resize_virtual_disk_parameters">RESIZE_VIRTUAL_DISK_PARAMETERS</a> 
       structure containing the new size of the virtual disk.
 
 
 ### -param Overlapped [in, optional]
 
 If this is to be an asynchronous operation, the address of a valid 
-      <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure.
+      <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure.
 
 
 ## -returns
@@ -90,7 +90,7 @@ Status of the request.
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 If the function fails, the return value is an error code. For more information, see 
-       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -100,15 +100,15 @@ If the function fails, the return value is an error code. For more information, 
 
 
 
-<a href="https://msdn.microsoft.com/dd4fc68d-8bed-47ce-94a2-a8a71199fac2">RESIZE_VIRTUAL_DISK_FLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/virtdisk/ne-virtdisk-_resize_virtual_disk_flag">RESIZE_VIRTUAL_DISK_FLAG</a>
 
 
 
-<a href="https://msdn.microsoft.com/ff44f07a-67d1-4ad3-be2b-0aea1d3c4a6a">RESIZE_VIRTUAL_DISK_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/virtdisk/ns-virtdisk-_resize_virtual_disk_parameters">RESIZE_VIRTUAL_DISK_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/79c3b3ad-4eaf-49ce-a8ee-b26faf6c2cba">VHD Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323699(v=vs.85)">VHD Functions</a>
  
 
  

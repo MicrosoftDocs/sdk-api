@@ -59,14 +59,14 @@ Sets the style simulations that will be applied when the glyphs are rendered.
 
 ### -param styleSimulations [in]
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd372990(v=VS.85).aspx">XPS_STYLE_SIMULATION</a> value that specifies the style simulation to be applied.
+The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0004">XPS_STYLE_SIMULATION</a> value that specifies the style simulation to be applied.
 
 
 ## -returns
 
 
 
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -91,7 +91,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-<i>styleSimulations</i> is not a valid <a href="https://msdn.microsoft.com/en-us/library/Dd372990(v=VS.85).aspx">XPS_STYLE_SIMULATION</a> value.
+<i>styleSimulations</i> is not a valid <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0004">XPS_STYLE_SIMULATION</a> value.
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/6d2cda65-c719-46f2-97c9-8aee7b5f84b9">IXpsOMGlyphs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphs">IXpsOMGlyphs</a>
 
 
 
@@ -114,11 +114,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd372990(v=VS.85).aspx">XPS_STYLE_SIMULATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0004">XPS_STYLE_SIMULATION</a>
  
 
  

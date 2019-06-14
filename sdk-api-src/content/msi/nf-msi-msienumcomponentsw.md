@@ -69,7 +69,7 @@ Specifies the index of the component to retrieve. This parameter should be zero 
 ### -param lpComponentBuf [out]
 
 Pointer to a buffer that receives the component code. This buffer must be 39 characters long. The first 38 characters are for the 
-<a href="https://msdn.microsoft.com/9e5e2a49-ecf5-43e8-ba6d-42ceaf0beba8">GUID</a>, and the last character is for the terminating null character.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/guid">GUID</a>, and the last character is for the terminating null character.
 
 
 ## -returns
@@ -165,7 +165,7 @@ When making multiple calls to
 
 
 
-<a href="https://msdn.microsoft.com/05a16915-6b47-4d51-b62a-5a4d92b87e50">System Status Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">System Status Functions</a>
  
 
  

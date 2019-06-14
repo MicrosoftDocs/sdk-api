@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CertDuplicateStore</b> function duplicates a store handle by incrementing the store's <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">reference count</a>.
+The <b>CertDuplicateStore</b> function duplicates a store handle by incrementing the store's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reference count</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>CertDuplicateStore</b> function duplicates a store handle by incrementing
 
 ### -param hCertStore [in]
 
-A handle of the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a> for which the <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">reference count</a> is being incremented.
+A handle of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> for which the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reference count</a> is being incremented.
 
 
 ## -returns
@@ -76,7 +76,7 @@ Currently, a copy is not made of the handle, and the returned handle is the same
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Store Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Store Functions</a>
  
 
  

@@ -95,7 +95,7 @@ The maximum number of characters that can be stored in the buffer pointed to by 
 If the function succeeds, the return value is the number of <b>TCHARs</b> stored in the destination buffer, including the terminating null character. If the destination buffer is too small to hold the expanded string, the return value is the required buffer size, in characters.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -106,15 +106,15 @@ If the function fails, the return value is zero. To get extended error informati
 
 The size of the <i>lpSrc</i> and <i>lpDst</i> buffers is limited to 32K.
 
-To replace folder names in a fully qualified path with their associated environment-variable strings, use the <a href="https://msdn.microsoft.com/cfab1ee0-03f3-4e0f-a29d-5331fec022b5">PathUnExpandEnvStrings</a> function.
+To replace folder names in a fully qualified path with their associated environment-variable strings, use the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathunexpandenvstringsa">PathUnExpandEnvStrings</a> function.
 
-To retrieve the list of environment variables for a process, use the <a href="https://msdn.microsoft.com/fb431d83-f3e7-4f2a-bad9-81259681c1f4">GetEnvironmentStrings</a> function.
+To retrieve the list of environment variables for a process, use the <a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nf-rrascfg-ieapproviderconfig-initialize">GetEnvironmentStrings</a> function.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/965bd14b-be93-4084-bce8-642f5704cef1">Getting System Information</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/getting-system-information">Getting System Information</a>.
 
 <div class="code"></div>
 
@@ -125,11 +125,11 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/6732b12f-ced1-4769-b947-79da8fd2237a">Environment Variables</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/environment-variables">Environment Variables</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa7deebf-7dce-4147-8a15-1d7411aea0fa">System
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System
 		  Information Functions</a>
  
 

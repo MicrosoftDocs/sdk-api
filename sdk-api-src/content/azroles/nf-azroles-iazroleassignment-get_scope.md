@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Scope</b> property retrieves the <a href="https://msdn.microsoft.com/f7abe7cb-8827-46f6-85fe-99282582a3d4">IAzScope</a> object that represents the scope in which this <a href="https://msdn.microsoft.com/3f0b926f-77f4-4477-b155-5f866822baba">IAzRoleAssignment</a> object is defined.
+The <b>Scope</b> property retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazscope">IAzScope</a> object that represents the scope in which this <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazroleassignment">IAzRoleAssignment</a> object is defined.
 
 This property is read-only.
 

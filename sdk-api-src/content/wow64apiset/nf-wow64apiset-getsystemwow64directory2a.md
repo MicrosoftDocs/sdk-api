@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the path of the system directory used by <a href="https://msdn.microsoft.com/ac75c5af-86e8-4282-9a8e-8db3c22cbda0">WOW64</a>, using the specified image file machine type. This directory is not present on 32-bit Windows.
+Retrieves the path of the system directory used by <a href="https://docs.microsoft.com/windows/desktop/WinProg64/running-32-bit-applications">WOW64</a>, using the specified image file machine type. This directory is not present on 32-bit Windows.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ The maximum size of the buffer, in <b>TCHARs</b>.
 
 ### -param ImageFileMachineType [in]
 
-An <a href="https://msdn.microsoft.com/1E5E4F98-925B-424D-9B3D-BC6716FBF990">IMAGE_FILE_MACHINE_*</a> value that specifies the machine to test.
+An <a href="https://docs.microsoft.com/windows/desktop/SysInfo/image-file-machine-constants">IMAGE_FILE_MACHINE_*</a> value that specifies the machine to test.
 
 
 ## -returns
@@ -83,7 +83,7 @@ An <a href="https://msdn.microsoft.com/1E5E4F98-925B-424D-9B3D-BC6716FBF990">IMA
 If the function succeeds, the return value is the length, in <b>TCHARs</b>, of the string copied to the buffer, not including the terminating null character. If the length is greater than the size of the buffer, the return value is the size of the buffer required to hold the path.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -92,12 +92,12 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-On systems that support multiple <a href="https://msdn.microsoft.com/ac75c5af-86e8-4282-9a8e-8db3c22cbda0">WOW64</a> architectures, you can use <b>GetSystemWow64Directory2</b> to retrieve appropriate system directory associated with the WOW64 architecture specified by <i>ImageFileMachineType</i>. 
+On systems that support multiple <a href="https://docs.microsoft.com/windows/desktop/WinProg64/running-32-bit-applications">WOW64</a> architectures, you can use <b>GetSystemWow64Directory2</b> to retrieve appropriate system directory associated with the WOW64 architecture specified by <i>ImageFileMachineType</i>. 
 
 WOW64 uses the system directory to store shared 32-bit code on 64-bit Windows. Most applications have no need to access this directory explicitly.
 
 For more information on WOW64, see 
-<a href="https://msdn.microsoft.com/ac75c5af-86e8-4282-9a8e-8db3c22cbda0">Running 32-bit Applications</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WinProg64/running-32-bit-applications">Running 32-bit Applications</a>.
 
 
 
@@ -107,7 +107,7 @@ For more information on WOW64, see
 
 
 
-<a href="https://msdn.microsoft.com/31ccd1bf-87c7-4df6-ae9d-5a3dfbd8b38b">GetSystemWow64Directory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-getsystemwow64directorya">GetSystemWow64Directory</a>
  
 
  

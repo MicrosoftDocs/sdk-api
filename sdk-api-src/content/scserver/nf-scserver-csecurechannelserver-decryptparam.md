@@ -82,7 +82,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 Possible values include, but are not limited to, those in the following table.
 
@@ -113,12 +113,12 @@ Possible values include, but are not limited to, those in the following table.
 
 
 
-Components should copy the data to a temporary buffer before calling <b>DecryptParam</b> and then decrypt the temporary buffer. This method only needs to be called for encrypted parameters. See <a href="https://msdn.microsoft.com/ca4ab93c-0a3e-4fb5-be7f-a8f4eea3c9b7">Using Secure Authenticated Channels</a> for a table of methods that must use the message authentication code algorithm and encrypted parameters.
+Components should copy the data to a temporary buffer before calling <b>DecryptParam</b> and then decrypt the temporary buffer. This method only needs to be called for encrypted parameters. See <a href="https://docs.microsoft.com/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a> for a table of methods that must use the message authentication code algorithm and encrypted parameters.
 
 
 #### Examples
 
-The following code shows a service provider's implementation of the <a href="https://msdn.microsoft.com/29f16be5-9304-4b09-86e8-3f9e0e591a41">IMDSPObject::Write</a> method, which requires a service provider to decrypt data sent to it.
+The following code shows a service provider's implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-write">IMDSPObject::Write</a> method, which requires a service provider to decrypt data sent to it.
 
 
 ```cpp
@@ -197,19 +197,19 @@ Error:
 
 
 
-<a href="https://msdn.microsoft.com/4e19b86c-9efc-4c20-bac9-8cd6b944f69e">CSecureChannelClient::DecryptParam</a>
+<a href="https://docs.microsoft.com/previous-versions/bb231586(v%3dvs.85)">CSecureChannelClient::DecryptParam</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c71c2d4-b337-487f-a04a-87536f84f03e">CSecureChannelClient::EncryptParam</a>
+<a href="https://docs.microsoft.com/previous-versions/bb231587(v%3dvs.85)">CSecureChannelClient::EncryptParam</a>
 
 
 
-<a href="https://msdn.microsoft.com/e6e1463a-5a26-4b83-85e0-a639d384a199">CSecureChannelServer Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/dbfc72a6-acd5-40c2-8951-ab90e5c4d752">CSecureChannelServer::EncryptParam</a>
+<a href="/previous-versions/ms868509(v=msdn.10)">CSecureChannelServer::EncryptParam</a>
  
 
  

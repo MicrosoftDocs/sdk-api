@@ -59,7 +59,7 @@ Sets the current active input transformation for pen and touch input, represente
 
 ### -param fEnabled [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 TRUE to enable input transformation, or FALSE to disable it.  
 
@@ -82,7 +82,7 @@ Type: <b>const <a href="/windows/desktop/api/windef/ns-windef-rect">LPRECT</a></
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns TRUE if successful, or FALSE otherwise.
 
@@ -95,7 +95,7 @@ Returns TRUE if successful, or FALSE otherwise.
 
 The input transformation maps the coordinate space of the magnified screen content to the actual (unmagnified) screen coordinate space. This enables the system to pass pen and touch input that is entered in magnified screen content, to the correct UI element on the screen. For example, without input transformation, input is passed to the element located at the unmagnified screen coordinates, not to the item that appears in the magnified screen content. 
 
-This function requires the calling process to have UIAccess privileges.  If the caller does not have UIAccess privileges, the call to <b>MagSetInputTransform</b> fails, and the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function returns ERROR_ACCESS_DENIED. For more information, see <a href="https://msdn.microsoft.com/0c3689e1-2124-4142-b0bd-233e95ee1285">UI Automation Security Considerations</a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=207612">/MANIFESTUAC (Embeds UAC information in manifest)</a>.
+This function requires the calling process to have UIAccess privileges.  If the caller does not have UIAccess privileges, the call to <b>MagSetInputTransform</b> fails, and the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns ERROR_ACCESS_DENIED. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-securityoverview">UI Automation Security Considerations</a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=207612">/MANIFESTUAC (Embeds UAC information in manifest)</a>.
 
 
 #### Examples
@@ -149,7 +149,7 @@ BOOL SetInputTranform()
 
 
 
-<a href="https://msdn.microsoft.com/3825B5DB-BD25-4073-8EB3-65A57709A804">MagGetInputTransform</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/nf-magnification-maggetinputtransform">MagGetInputTransform</a>
  
 
  

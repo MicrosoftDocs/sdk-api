@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains extended information about a process running on a Remote Desktop Session Host (RD Session Host) server. This structure is returned by the <a href="https://msdn.microsoft.com/bc8a2550-cf89-4203-b96b-c750c0dff255">WTSEnumerateProcessesEx</a> function when you set the <i>pLevel</i> parameter to one.
+Contains extended information about a process running on a Remote Desktop Session Host (RD Session Host) server. This structure is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsenumerateprocessesexa">WTSEnumerateProcessesEx</a> function when you set the <i>pLevel</i> parameter to one.
 
 
 ## -struct-fields
@@ -78,8 +78,8 @@ A pointer to a null-terminated string that contains the name of the executable f
 
 A pointer to the user security identifiers (SIDs) in the primary access token of the process. For more 
       information about SIDs and access tokens, see 
-      <a href="https://msdn.microsoft.com/d9ce4ec5-5c09-4b33-93a1-39638a925986">Access Control</a> and 
-      <a href="https://msdn.microsoft.com/7cb07bcd-70f4-43dd-8382-320fcff151c7">Security Identifiers</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a> and 
+      <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-identifiers">Security Identifiers</a>.
 
 
 ### -field NumberOfThreads
@@ -127,15 +127,15 @@ The amount of time, in milliseconds, the process has been running in kernel mode
 
 
 
-<a href="https://msdn.microsoft.com/ddfae294-2e7c-416e-b328-76d011b4af39">WTSEnumerateProcesses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsenumerateprocessesa">WTSEnumerateProcesses</a>
 
 
 
-<a href="https://msdn.microsoft.com/bc8a2550-cf89-4203-b96b-c750c0dff255">WTSEnumerateProcessesEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsenumerateprocessesexa">WTSEnumerateProcessesEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/5df01ad8-71fd-4831-8eba-1d6cabd61348">WTS_PROCESS_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_process_infoa">WTS_PROCESS_INFO</a>
  
 
  

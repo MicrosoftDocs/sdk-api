@@ -66,8 +66,8 @@ Handle to the open phone device.
 ### -param lpdwHookSwitchDevs
 
 Pointer to a <b>DWORD</b> to be filled with the mode of the phone's hookswitch devices. If a bit position is <b>FALSE</b>, the corresponding hookswitch device is onhook; if <b>TRUE</b>, the microphone and/or speaker part of the corresponding hookswitch device is offhook. To find out whether the microphone and/or speaker are enabled, the application can use 
-<a href="https://msdn.microsoft.com/d2e9e209-54f5-4895-b57a-a5f4c24e063e">phoneGetStatus</a>. This parameter uses one or more of the 
-<a href="https://msdn.microsoft.com/b3272a75-87b0-4afc-b2e2-2d65e4b49300">PHONEHOOKSWITCHDEV_ Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonegetstatus">phoneGetStatus</a>. This parameter uses one or more of the 
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/phonehookswitchdev--constants">PHONEHOOKSWITCHDEV_ Constants</a>.
 
 
 ## -returns
@@ -86,7 +86,7 @@ PHONEERR_INVALPHONEHANDLE, PHONEERR_NOMEM, PHONEERR_INVALPOINTER, PHONEERR_RESOU
 
 
 After the hookswitch state of a device changes, and if hookswitch monitoring is enabled, the application is sent a 
-<a href="https://msdn.microsoft.com/74e74b62-8387-4056-83e6-2350b3da4077">PHONE_STATE</a> message.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/phone-state">PHONE_STATE</a> message.
 
 
 
@@ -96,19 +96,19 @@ After the hookswitch state of a device changes, and if hookswitch monitoring is 
 
 
 
-<a href="https://msdn.microsoft.com/74e74b62-8387-4056-83e6-2350b3da4077">PHONE_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/phone-state">PHONE_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d1a81d2-aa9e-4a85-85d3-aa4eabb26eb5">Supplementary Phone Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-phone-service-functions">Supplementary Phone Service Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d703b414-1389-416c-8e94-c1931979f0c9">TAPI 2.2 Reference Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/d2e9e209-54f5-4895-b57a-a5f4c24e063e">phoneGetStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonegetstatus">phoneGetStatus</a>
  
 
  

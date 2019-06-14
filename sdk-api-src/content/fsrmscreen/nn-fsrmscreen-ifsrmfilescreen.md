@@ -50,29 +50,29 @@ ms.custom: 19H1
 
 
 <p class="CCE_Message">[This interface is supported for compatibility but it's recommended to use the 
-    <a href="https://msdn.microsoft.com/1CE772FA-CE33-4900-A499-058175A7C37E">FSRM WMI Classes</a> to manage FSRM. Please see the 
-    <a href="https://msdn.microsoft.com/86ee74e0-64d5-478a-8150-0f4b37e56694">MSFT_FSRMFileScreen</a> class.]
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfilescreen">MSFT_FSRMFileScreen</a> class.]
 
 Used to configure a file screen that blocks groups of files from being saved to the specified 
     directory.
 
 To create this interface, call the 
-    <a href="https://msdn.microsoft.com/5e35c647-2b5a-486b-b8c5-0bc25bd313ad">IFsrmFileScreenManager::CreateFileScreen</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenmanager-createfilescreen">IFsrmFileScreenManager::CreateFileScreen</a> 
     method.
 
 The following methods return this interface:
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/5826d5c3-885a-4001-aa89-0bc1c03b9338">IFsrmFileScreenManager::EnumFileScreens</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenmanager-enumfilescreens">IFsrmFileScreenManager::EnumFileScreens</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/9af0d9a7-80a2-4cc8-a703-c1af8ac5b7c9">IFsrmFileScreenManager::GetFileScreen</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenmanager-getfilescreen">IFsrmFileScreenManager::GetFileScreen</a>
 </li>
 </ul>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmFileScreen</b> interface inherits from <a href="https://msdn.microsoft.com/9e52af8c-e03b-4b44-83bd-541fe1419d6c">IFsrmFileScreenBase</a>. <b>IFsrmFileScreen</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmFileScreen</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreenbase">IFsrmFileScreenBase</a>. <b>IFsrmFileScreen</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -88,7 +88,7 @@ The <b>IFsrmFileScreen</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d495cb92-09c4-4fa5-873c-5f07475eb7bf">ApplyTemplate</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreen-applytemplate">ApplyTemplate</a>
 </td>
 <td align="left" width="63%">
 Applies the property values of the specified file screen template to this file screen object.
@@ -106,7 +106,7 @@ Applies the property values of the specified file screen template to this file s
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/9ea79d7e-2f81-46c4-8afe-ebe4e2f3c49f">MatchesSourceTemplate</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreen-get_matchessourcetemplate">MatchesSourceTemplate</a>
 
 
 </td>
@@ -123,7 +123,7 @@ Retrieves a value that determines whether the property values of this file scree
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/383e829c-5089-4404-a6bd-429812069e85">Path</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreen-get_path">Path</a>
 
 
 </td>
@@ -139,7 +139,7 @@ Retrieves the path of the directory to which the file screen object applies.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/12dffc6e-77d0-4010-ae7c-94a4be2549e6">SourceTemplateName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreen-get_sourcetemplatename">SourceTemplateName</a>
 
 
 </td>
@@ -155,7 +155,7 @@ Retrieves the name of the template from which this file screen object was derive
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c47a61b8-3e9b-404f-9100-8e8ccb08ecd1">UserAccount</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreen-get_useraccount">UserAccount</a>
 
 
 </td>
@@ -171,7 +171,7 @@ The account name of the user whose files will be screened
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/7f5c549d-52a3-4013-9f86-844d823636f6">UserSid</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreen-get_usersid">UserSid</a>
 
 
 </td>
@@ -193,7 +193,7 @@ The SID of the user whose files will be screened
 
 A file screen limits the types of files that the system or any user can store in a directory. When a 
     restricted file is detected, the FSRM server performs the specified actions (see 
-    <a href="https://msdn.microsoft.com/1d627e07-fa8c-4c22-acba-c08767b8ebaa">IFsrmFileScreenBase::CreateAction</a>).
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenbase-createaction">IFsrmFileScreenBase::CreateAction</a>).
 
 The file screen applies to future files—the screen is not applied retroactively. To list 
     the files in the directory that violate the screen, create a report job that lists files by type.
@@ -206,15 +206,15 @@ The file screen applies to future files—the screen is not applied retroactivel
 
 
 
-<a href="https://msdn.microsoft.com/9e52af8c-e03b-4b44-83bd-541fe1419d6c">IFsrmFileScreenBase</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreenbase">IFsrmFileScreenBase</a>
 
 
 
-<a href="https://msdn.microsoft.com/188e76dd-6df6-412f-8d51-fc727075de80">IFsrmFileScreenException</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreenexception">IFsrmFileScreenException</a>
 
 
 
-<a href="https://msdn.microsoft.com/86ee74e0-64d5-478a-8150-0f4b37e56694">MSFT_FSRMFileScreen</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfilescreen">MSFT_FSRMFileScreen</a>
  
 
  

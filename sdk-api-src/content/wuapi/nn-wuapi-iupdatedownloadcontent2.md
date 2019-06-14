@@ -56,7 +56,7 @@ Represents the download content of an update.
 
 
 
-The <b>IUpdateDownloadContent2</b> interface  may require you to update the Windows Update Agent (WUA). For more information, see <a href="https://msdn.microsoft.com/829112ab-b240-4cc4-8053-18b484934886">Updating Windows Update Agent</a>.
+The <b>IUpdateDownloadContent2</b> interface  may require you to update the Windows Update Agent (WUA). For more information, see <a href="https://docs.microsoft.com/windows/desktop/Wua_Sdk/updating-the-windows-update-agent">Updating Windows Update Agent</a>.
 
 
 
@@ -66,7 +66,7 @@ The <b>IUpdateDownloadContent2</b> interface  may require you to update the Wind
 
 
 
-<a href="https://msdn.microsoft.com/c3e355bb-6e68-432c-83ef-1c9e0d6b63f8">IUpdateDownloadContent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloadcontent">IUpdateDownloadContent</a>
  
 
  

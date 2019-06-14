@@ -82,11 +82,11 @@ Be sure to initialize the memory for this structure to zero before setting any m
 
 
 
-<a href="https://msdn.microsoft.com/ab890392-f1e4-4b4e-a46c-8c7c2bfd3897">CreateTraceInstanceId</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/createtraceinstanceid">CreateTraceInstanceId</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8361bdc-21dd-47a0-bdbf-56f4d6195689">TraceEventInstance</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/traceeventinstance">TraceEventInstance</a>
  
 
  

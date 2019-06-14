@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndGetDeviceID</b> macro retrieves the identifier of the current MCI device to use with the <a href="https://msdn.microsoft.com/e25820e9-2caf-423e-8588-f842e670e0c3">mciSendCommand</a> function. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/188f15fa-579a-438e-a812-9a2b684127c0">MCIWNDM_GETDEVICEID</a> message.
+The <b>MCIWndGetDeviceID</b> macro retrieves the identifier of the current MCI device to use with the <a href="https://docs.microsoft.com/previous-versions//dd757160(v=vs.85)">mciSendCommand</a> function. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getdeviceid">MCIWNDM_GETDEVICEID</a> message.
 
 
 
@@ -70,11 +70,11 @@ Handle of the MCIWnd window.
 
 
 
-<a href="https://msdn.microsoft.com/188f15fa-579a-438e-a812-9a2b684127c0">MCIWNDM_GETDEVICEID</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getdeviceid">MCIWNDM_GETDEVICEID</a>
 
 
 
-<a href="https://msdn.microsoft.com/e25820e9-2caf-423e-8588-f842e670e0c3">mciSendCommand</a>
+<a href="https://docs.microsoft.com/previous-versions//dd757160(v=vs.85)">mciSendCommand</a>
  
 
  

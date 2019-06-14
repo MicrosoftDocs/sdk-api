@@ -61,14 +61,14 @@ Translates a received error status code into the appropriate user-readable messa
 
 Type: <b>NTSTATUS</b>
 
-The <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> value that reflects the return value of the <a href="https://msdn.microsoft.com/232d1dcc-5388-480c-8d27-caf8ded4575d">Winlogon</a> call to <a href="https://msdn.microsoft.com/75968d53-5af2-4d77-9486-26403b73c954">LsaLogonUser</a>.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> value that reflects the return value of the <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/winlogon">Winlogon</a> call to <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a>.
 
 
 ### -param ntsSubstatus [in]
 
 Type: <b>NTSTATUS</b>
 
-The <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> value that reflects the value pointed to by the <i>SubStatus</i> parameter of <a href="https://msdn.microsoft.com/75968d53-5af2-4d77-9486-26403b73c954">LsaLogonUser</a> when that function returns after being called by <a href="https://msdn.microsoft.com/232d1dcc-5388-480c-8d27-caf8ded4575d">Winlogon</a>.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> value that reflects the value pointed to by the <i>SubStatus</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> when that function returns after being called by <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/winlogon">Winlogon</a>.
 
 
 ### -param ppszOptionalStatusText [out]
@@ -80,7 +80,7 @@ A pointer to the error message that will be displayed to the user. May be <b>NUL
 
 ### -param pcpsiOptionalStatusIcon [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762492(v=VS.85).aspx">CREDENTIAL_PROVIDER_STATUS_ICON</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/ne-credentialprovider-_credential_provider_status_icon">CREDENTIAL_PROVIDER_STATUS_ICON</a>*</b>
 
 A pointer to an icon  that will shown on the credential. May be <b>NULL</b>.
 

@@ -60,42 +60,42 @@ Translates a glyph run to a sequence of color glyph runs, which can be rendered 
 
 ### -param baselineOrigin
 
-Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 
 Horizontal and vertical origin of the base glyph run in pre-transform coordinates.
 
 
 ### -param glyphRun [in]
 
-Type: <b><a href="https://msdn.microsoft.com/2997d63f-8d33-44c3-9617-cfffe5f61f7d">DWRITE_GLYPH_RUN</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_glyph_run">DWRITE_GLYPH_RUN</a></b>
 
 Pointer to the original "base" glyph run.
 
 
 ### -param glyphRunDescription [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/0fb25253-274a-42b7-8491-525d0550ce39">DWRITE_GLYPH_RUN_DESCRIPTION</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_glyph_run_description">DWRITE_GLYPH_RUN_DESCRIPTION</a></b>
 
 Optional glyph run description.
 
 
 ### -param desiredGlyphImageFormats
 
-Type: <b><a href="https://msdn.microsoft.com/ECC868B5-3D17-4D55-8E00-AB446C1C22FE">DWRITE_GLYPH_IMAGE_FORMATS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-dwrite_glyph_image_formats">DWRITE_GLYPH_IMAGE_FORMATS</a></b>
 
 Which data formats the runs should be split into.
 
 
 ### -param measuringMode
 
-Type: <b><a href="https://msdn.microsoft.com/99e89754-8bc2-457d-bfdb-a3c9ccfe00c1">DWRITE_MEASURING_MODE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-dwrite_measuring_mode">DWRITE_MEASURING_MODE</a></b>
 
 Measuring mode, needed to compute the origins of each glyph.
 
 
 ### -param worldAndDpiTransform [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/fe4bd8ba-fc3b-4a04-8a72-9983d52f4404">DWRITE_MATRIX</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_matrix">DWRITE_MATRIX</a></b>
 
 Matrix converting from the client's coordinate space to device coordinates (pixels), i.e., the world transform multiplied by any DPI scaling.
 
@@ -106,12 +106,12 @@ Type: <b>UINT32</b>
 
 Zero-based index of the color palette to use.
           Valid indices are less than the number of palettes in the font, as returned
-          by <a href="https://msdn.microsoft.com/99BB9C72-99B1-427C-B740-55A138189459">IDWriteFontFace2::GetColorPaletteCount</a>.
+          by <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritefontface2-getcolorpalettecount">IDWriteFontFace2::GetColorPaletteCount</a>.
 
 
 ### -param colorLayers [out]
 
-Type: <b><a href="https://msdn.microsoft.com/692CB5FF-3E74-4D3E-B961-E4AF5995A1B2">IDWriteColorGlyphRunEnumerator1</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritecolorglyphrunenumerator1">IDWriteColorGlyphRunEnumerator1</a>**</b>
 
 If the function succeeds, receives a pointer to an enumerator object that can be used to obtain the color glyph runs.
           If the base run has no color glyphs, then the output pointer is NULL and the method returns DWRITE_E_NOCOLOR.
@@ -121,7 +121,7 @@ If the function succeeds, receives a pointer to an enumerator object that can be
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 Returns DWRITE_E_NOCOLOR if the font has no color information, the glyph run
           does not contain any color glyphs, or the specified color palette index
@@ -135,7 +135,7 @@ Returns DWRITE_E_NOCOLOR if the font has no color information, the glyph run
 
 
 
-Calling <a href="https://msdn.microsoft.com/1D31F807-C3F2-466F-9723-E6F12B13BFA1">IDWriteFactory2::TranslateColorGlyphRun</a> is equivalent 
+Calling <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritefactory2-translatecolorglyphrun">IDWriteFactory2::TranslateColorGlyphRun</a> is equivalent 
         to calling <b>IDWriteFactory4::TranslateColorGlyph</b> run with the following formats specified: DWRITE_GLYPH_IMAGE_FORMATS_TRUETYPE|DWRITE_GLYPH_IMAGE_FORMATS_CFF|DWRITE_GLYPH_IMAGE_FORMATS_COLR.
 
 
@@ -146,7 +146,7 @@ Calling <a href="https://msdn.microsoft.com/1D31F807-C3F2-466F-9723-E6F12B13BFA1
 
 
 
-<a href="https://msdn.microsoft.com/D3C5E48A-A062-430A-A196-CAC621F346FC">IDWriteFactory4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefactory4">IDWriteFactory4</a>
  
 
  

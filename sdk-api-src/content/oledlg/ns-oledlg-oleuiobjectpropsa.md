@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information that is used to initialize the standard <b>Object Properties</b> dialog box. It contains references to interfaces used to gather information about the embedding or link, references to three structures that are used to initialize the default tabs â€” <b>General</b> (<a href="https://msdn.microsoft.com/851d66c8-94a7-47ab-95f4-12a34897de20">OLEUIGNRLPROPS</a>), <b>View</b> (<a href="https://msdn.microsoft.com/e45565c5-185e-4143-a5c2-d0b273b5086e">OLEUIVIEWPROPS</a>), and <b>Link</b> (<a href="https://msdn.microsoft.com/3f355ce8-adc3-4878-a8b4-3f7d94547ef1">OLEUILINKPROPS</a>), if appropriate â€” and a standard property-sheet extensibility interface that allows the caller to add additional custom property sheets to the dialog box.
+Contains information that is used to initialize the standard <b>Object Properties</b> dialog box. It contains references to interfaces used to gather information about the embedding or link, references to three structures that are used to initialize the default tabs â€” <b>General</b> (<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuignrlpropsa">OLEUIGNRLPROPS</a>), <b>View</b> (<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuiviewpropsa">OLEUIVIEWPROPS</a>), and <b>Link</b> (<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuilinkpropsa">OLEUILINKPROPS</a>), if appropriate â€” and a standard property-sheet extensibility interface that allows the caller to add additional custom property sheets to the dialog box.
 
 
 
@@ -121,7 +121,7 @@ The <b>Convert</b> button will be disabled on the general property page.
 
 ### -field lpPS
 
-Pointer to the standard property sheet header (<a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PROPSHEETHEADER</a>), used for extensibility.
+Pointer to the standard property sheet header (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetheadera_v2">PROPSHEETHEADER</a>), used for extensibility.
 
 
 ### -field dwObject
@@ -164,19 +164,19 @@ Pointer to the link page data.
 
 
 
-<a href="https://msdn.microsoft.com/851d66c8-94a7-47ab-95f4-12a34897de20">OLEUIGNRLPROPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuignrlpropsa">OLEUIGNRLPROPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f355ce8-adc3-4878-a8b4-3f7d94547ef1">OLEUILINKPROPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuilinkpropsa">OLEUILINKPROPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/e45565c5-185e-4143-a5c2-d0b273b5086e">OLEUIVIEWPROPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuiviewpropsa">OLEUIVIEWPROPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/591f6056-2e5f-4e58-8806-9a0093de2463">OleUIObjectProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiobjectpropertiesa">OleUIObjectProperties</a>
  
 
  

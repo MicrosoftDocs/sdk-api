@@ -65,7 +65,7 @@ The handle to the log.
 
 ### -param pvClientContext [in]
 
-A pointer to the client context. This is the same context specified when registering the client, which is a member of <a href="https://msdn.microsoft.com/69c657e7-97f0-468a-b349-9891a771c1ed">LOG_MANAGEMENT_CALLBACKS</a>.
+A pointer to the client context. This is the same context specified when registering the client, which is a member of <a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmtw32/ns-clfsmgmtw32-_log_management_callbacks">LOG_MANAGEMENT_CALLBACKS</a>.
 
 
 ## -returns
@@ -82,7 +82,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/7b8d3b94-2b2e-427e-9b89-530310ecc6fe">LOG_FULL_HANDLER_CALLBACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmtw32/nc-clfsmgmtw32-plog_full_handler_callback">LOG_FULL_HANDLER_CALLBACK</a>
  
 
  

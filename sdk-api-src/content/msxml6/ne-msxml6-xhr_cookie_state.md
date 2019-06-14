@@ -88,11 +88,11 @@ The cookie has been rejected.
 
 
 
-<a href="https://msdn.microsoft.com/E150B7CA-A881-4CD5-896F-7E3B6770E105">SetCookie</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-setcookie">SetCookie</a>
 
 
 
-<a href="https://msdn.microsoft.com/208829B0-DBCC-4C22-910D-D6826283F8A0">XHR_COOKIE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/ns-msxml6-tagxhr_cookie">XHR_COOKIE</a>
  
 
  

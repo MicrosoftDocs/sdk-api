@@ -64,7 +64,7 @@ The size of the <i>pInput</i> array, in bytes.
 
 ### -param pInput
 
-A pointer to a byte array that contains input data for the query. This array always starts with a <a href="https://msdn.microsoft.com/6a484652-8da2-4074-96b2-6fe49f4d4200">D3DAUTHENTICATEDCHANNEL_QUERY_INPUT</a> structure. The <b>QueryType</b> member of the structure specifies the query and defines the meaning of the rest of the array.
+A pointer to a byte array that contains input data for the query. This array always starts with a <a href="https://docs.microsoft.com/windows/desktop/medfound/d3dauthenticatedchannel-query-input">D3DAUTHENTICATEDCHANNEL_QUERY_INPUT</a> structure. The <b>QueryType</b> member of the structure specifies the query and defines the meaning of the rest of the array.
 
 
 ### -param OutputSize
@@ -74,7 +74,7 @@ The size of the <i>pOutput</i> array, in bytes.
 
 ### -param pOutput
 
-A pointer to a byte array that receives the result of the query. This array always starts with a <a href="https://msdn.microsoft.com/b2783b8e-0436-419a-a93e-93dc1b87024d">D3DAUTHENTICATEDCHANNEL_QUERY_OUTPUT</a> structure. The meaning of the rest of the array depends on the query.
+A pointer to a byte array that receives the result of the query. This array always starts with a <a href="https://docs.microsoft.com/windows/desktop/medfound/d3dauthenticatedchannel-query-output">D3DAUTHENTICATEDCHANNEL_QUERY_OUTPUT</a> structure. The meaning of the rest of the array depends on the query.
 
 
 ## -returns
@@ -90,7 +90,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-For a list of queries, see <a href="https://msdn.microsoft.com/75e246c6-bf23-44d9-8fb3-46a6dc5324a5">Content Protection Queries</a>. 
+For a list of queries, see <a href="https://docs.microsoft.com/windows/desktop/medfound/content-protection-queries">Content Protection Queries</a>. 
 
 
 
@@ -100,11 +100,11 @@ For a list of queries, see <a href="https://msdn.microsoft.com/75e246c6-bf23-44d
 
 
 
-<a href="https://msdn.microsoft.com/FD0625BB-484A-43E6-8931-DB635D4F017F">GPU-Based Content Protection</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/gpu-based-content-protection">GPU-Based Content Protection</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd969956-a140-44ed-9917-5a0a09a432fa">IDirect3DAuthenticatedChannel9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nn-d3d9-idirect3dauthenticatedchannel9">IDirect3DAuthenticatedChannel9</a>
  
 
  

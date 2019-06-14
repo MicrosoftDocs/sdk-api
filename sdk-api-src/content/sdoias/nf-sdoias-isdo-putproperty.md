@@ -66,7 +66,7 @@ Specifies the ID of an existing property.
 ### -param pValue [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> that contains the value for that property.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> that contains the value for that property.
 
 
 ## -returns
@@ -85,7 +85,7 @@ If the method fails, the return value is one of the following error codes.
 
 
 After you have set values using <b>ISdo::PutProperty</b>, call 
-<a href="https://msdn.microsoft.com/aceca2f9-7b17-46a5-bcd1-e6fec3c369ed">ISdo::Apply</a> to write the changes to persistent storage.
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-apply">ISdo::Apply</a> to write the changes to persistent storage.
 
 The method fails if the property is READ_ONLY or if the value is invalid.
 
@@ -97,19 +97,19 @@ The method fails if the property is READ_ONLY or if the value is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/9c7ee4d7-987f-45ae-810f-fc310955f36d">IASCOMMONPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iascommonproperties">IASCOMMONPROPERTIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/f8f49bf2-d8cc-40ad-ac52-05d74bcd931c">ISdo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdo">ISdo</a>
 
 
 
-<a href="https://msdn.microsoft.com/aceca2f9-7b17-46a5-bcd1-e6fec3c369ed">ISdo::Apply</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-apply">ISdo::Apply</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a>
  
 
  

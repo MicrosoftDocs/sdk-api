@@ -59,22 +59,22 @@ Identifies an authentication service that a server is willing to use to communic
 
 ### -field dwAuthnSvc
 
-The authentication service. This member can be a single value from the <a href="https://msdn.microsoft.com/c16a8e52-a7f9-40d9-99ef-10b382b5cb3c">Authentication Service Constants</a>.
+The authentication service. This member can be a single value from the <a href="https://docs.microsoft.com/windows/desktop/com/com-authentication-service-constants">Authentication Service Constants</a>.
 
 
 ### -field dwAuthzSvc
 
-The authorization service. This member can be a single value from the <a href="https://msdn.microsoft.com/a0bc9337-b7e4-41c5-ae36-4843fa7d98ce">Authorization Constants</a>.
+The authorization service. This member can be a single value from the <a href="https://docs.microsoft.com/windows/desktop/com/com-authorization-constants">Authorization Constants</a>.
 
 
 ### -field pPrincipalName
 
-The principal name to be used with the authentication service. If the principal name is <b>NULL</b>, the current user identifier is assumed. A <b>NULL</b> principal name is allowed for NTLMSSP, Kerberos, and Snego authentication services but may not work for other authentication services. For Schannel, this member must point to a <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structure that contains the server's certificate; if it <b>NULL</b> and if a certificate for the current user does not exist, RPC_E_NO_GOOD_SECURITY_PACKAGES is returned.
+The principal name to be used with the authentication service. If the principal name is <b>NULL</b>, the current user identifier is assumed. A <b>NULL</b> principal name is allowed for NTLMSSP, Kerberos, and Snego authentication services but may not work for other authentication services. For Schannel, this member must point to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure that contains the server's certificate; if it <b>NULL</b> and if a certificate for the current user does not exist, RPC_E_NO_GOOD_SECURITY_PACKAGES is returned.
 
 
 ### -field hr
 
-When used in <a href="https://msdn.microsoft.com/e0933741-6b75-4ce1-aa63-6240e4a7130f">CoInitializeSecurity</a>, set on return to indicate the status of the call to register the authentication services.
+When used in <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity">CoInitializeSecurity</a>, set on return to indicate the status of the call to register the authentication services.
 
 
 
@@ -83,11 +83,11 @@ When used in <a href="https://msdn.microsoft.com/e0933741-6b75-4ce1-aa63-6240e4a
 
 
 
-<a href="https://msdn.microsoft.com/e0933741-6b75-4ce1-aa63-6240e4a7130f">CoInitializeSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity">CoInitializeSecurity</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9e7c5a3-70ec-4a68-ac21-1ab6774d140f">CoQueryAuthenticationServices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coqueryauthenticationservices">CoQueryAuthenticationServices</a>
  
 
  

@@ -59,7 +59,7 @@ Retrieves the list of progress items from the collection.
 
 ### -param NewEnum [out]
 
-An <a href="https://msdn.microsoft.com/c4238fbe-762a-492f-9eb5-d927e64436e1">IEnumProgressItems</a> interface that contains a collection of the progress items contained in the collection.
+An <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ienumprogressitems">IEnumProgressItems</a> interface that contains a collection of the progress items contained in the collection.
 
 
 ## -returns
@@ -109,7 +109,7 @@ Value: 0x8007000E
 
 
 
-This property returns the same results as the <a href="https://msdn.microsoft.com/24528fad-b88c-429a-b5c9-e232e62d3aeb">IProgressItems::get__NewEnum</a> property and is meant for use by C/C++ applications.
+This property returns the same results as the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitems-get__newenum">IProgressItems::get__NewEnum</a> property and is meant for use by C/C++ applications.
 
 
 
@@ -119,11 +119,11 @@ This property returns the same results as the <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/c4238fbe-762a-492f-9eb5-d927e64436e1">IEnumProgressItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ienumprogressitems">IEnumProgressItems</a>
 
 
 
-<a href="https://msdn.microsoft.com/40c28e67-8ff3-4330-90a1-7ebccb0023ad">IProgressItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitems">IProgressItems</a>
  
 
  

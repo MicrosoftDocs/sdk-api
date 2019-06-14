@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the number of <a href="https://msdn.microsoft.com/f241e232-9013-46d0-be97-2d6b5246cff3">IMFSourceBuffer</a> objects  in the list.
+Gets the number of <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a> objects  in the list.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ The number of source buffers in the list.
 
 
 
-<a href="https://msdn.microsoft.com/26f66c2d-5f84-485f-bc86-c8399666c9f1">IMFSourceBufferList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebufferlist">IMFSourceBufferList</a>
  
 
  

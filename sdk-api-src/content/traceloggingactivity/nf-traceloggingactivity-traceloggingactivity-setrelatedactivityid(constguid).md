@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Uses the unique identifier of an activity to set the related activity for this <a href="https://msdn.microsoft.com/en-us/library/Dn904598(v=VS.85).aspx">TraceLoggingActivity</a> object.
+Uses the unique identifier of an activity to set the related activity for this <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity~r1">TraceLoggingActivity</a> object.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn904598(v=VS.85).aspx">TraceLoggingActivity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity~r1">TraceLoggingActivity</a>
  
 
  

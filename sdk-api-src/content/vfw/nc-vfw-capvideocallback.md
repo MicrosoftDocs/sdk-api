@@ -54,9 +54,9 @@ The <b>capVideoStreamCallback</b> function is the callback function used with st
 
 
 
-To set this callback for streaming capture, send the <a href="https://msdn.microsoft.com/590089b8-7a8d-476b-9b81-f96bf73b0369">WM_CAP_SET_CALLBACK_VIDEOSTREAM</a> message to the capture window or call the <a href="https://msdn.microsoft.com/c2e783a5-829b-4fa2-995a-c0cb4e63645b">capSetCallbackOnVideoStream</a> macro.
+To set this callback for streaming capture, send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-callback-videostream">WM_CAP_SET_CALLBACK_VIDEOSTREAM</a> message to the capture window or call the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capsetcallbackonvideostream">capSetCallbackOnVideoStream</a> macro.
 
-To set this callback for preview frame capture, send the <a href="https://msdn.microsoft.com/3882e6f6-c48c-4e50-9697-cbdf5b9342a5">WM_CAP_SET_CALLBACK_FRAME</a> message to the capture window or call the <a href="https://msdn.microsoft.com/7e9e33cb-9213-4111-a1de-700493949f2d">capSetCallbackOnFrame</a> macro.
+To set this callback for preview frame capture, send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-callback-frame">WM_CAP_SET_CALLBACK_FRAME</a> message to the capture window or call the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capsetcallbackonframe">capSetCallbackOnFrame</a> macro.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ Handle to the capture window associated with the callback function.
 
 ### -param lpVHdr
 
-Pointer to a <a href="https://msdn.microsoft.com/81e4dded-7ba1-40cf-bc16-20524b70a28d">VIDEOHDR</a> structure containing information about the captured frame.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-videohdr_tag">VIDEOHDR</a> structure containing information about the captured frame.
 
 
 ## -remarks
@@ -88,11 +88,11 @@ The capture window calls a video stream callback function when a video buffer is
 
 
 
-<a href="https://msdn.microsoft.com/c93ecc51-e2c5-4b69-8625-c8385d53fab2">Video Capture</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://msdn.microsoft.com/0fe87fa7-9f07-48f7-958b-da385d9ddaf0">Video Capture Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-functions">Video Capture Functions</a>
  
 
  

@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Extends <a href="https://msdn.microsoft.com/8af23586-349f-4d21-98cb-0aaa27a586ff">ITaskbarList2</a> by exposing methods that support the unified launching and switching taskbar button functionality added in Windows 7. This functionality includes thumbnail representations and switch targets based on individual tabs in a tabbed application, thumbnail toolbars, notification and status overlays, and progress indicators.
+Extends <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist2">ITaskbarList2</a> by exposing methods that support the unified launching and switching taskbar button functionality added in Windows 7. This functionality includes thumbnail representations and switch targets based on individual tabs in a tabbed application, thumbnail toolbars, notification and status overlays, and progress indicators.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskbarList3</b> interface inherits from <a href="https://msdn.microsoft.com/8af23586-349f-4d21-98cb-0aaa27a586ff">ITaskbarList2</a>. <b>ITaskbarList3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskbarList3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist2">ITaskbarList2</a>. <b>ITaskbarList3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITaskbarList3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b0cdca51-108a-4507-bd9e-6bcd4386c36a">RegisterTab</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-registertab">RegisterTab</a>
 </td>
 <td align="left" width="63%">
 Informs the taskbar that a new tab or document thumbnail has been provided for display in an application's taskbar group flyout.
@@ -78,7 +78,7 @@ Informs the taskbar that a new tab or document thumbnail has been provided for d
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/77857109-64b6-428e-b2b1-ee757784532a">SetOverlayIcon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-setoverlayicon">SetOverlayIcon</a>
 </td>
 <td align="left" width="63%">
 Applies an overlay to a taskbar button to indicate application status or a notification to the user.
@@ -87,7 +87,7 @@ Applies an overlay to a taskbar button to indicate application status or a notif
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ffa5566c-a6ad-4e96-a009-1e2006359f87">SetProgressState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-setprogressstate">SetProgressState</a>
 </td>
 <td align="left" width="63%">
 Sets the type and state of the progress indicator displayed on a taskbar button.
@@ -96,7 +96,7 @@ Sets the type and state of the progress indicator displayed on a taskbar button.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/98646a68-d505-4d9b-b0f9-efda3da77005">SetProgressValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-setprogressvalue">SetProgressValue</a>
 </td>
 <td align="left" width="63%">
 Displays or updates a progress bar hosted in a taskbar button to show the specific percentage completed of the full operation.
@@ -105,7 +105,7 @@ Displays or updates a progress bar hosted in a taskbar button to show the specif
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d82f11eb-bfff-4661-8e2e-520f8226809b">SetTabActive</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-settabactive">SetTabActive</a>
 </td>
 <td align="left" width="63%">
 Informs the taskbar that a tab or document window has been made the active window.
@@ -114,7 +114,7 @@ Informs the taskbar that a tab or document window has been made the active windo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a35342fd-448b-48cf-8400-30f4b7776bbf">SetTabOrder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-settaborder">SetTabOrder</a>
 </td>
 <td align="left" width="63%">
 Inserts a new thumbnail into a TDI or MDI application's group flyout or moves an existing thumbnail to a new position in the application's group.
@@ -123,7 +123,7 @@ Inserts a new thumbnail into a TDI or MDI application's group flyout or moves an
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a22c4708-af59-4ccb-9ddb-885d14c17a33">SetThumbnailClip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-setthumbnailclip">SetThumbnailClip</a>
 </td>
 <td align="left" width="63%">
 Selects a portion of a window's client area to display as that window's thumbnail in the taskbar.
@@ -132,7 +132,7 @@ Selects a portion of a window's client area to display as that window's thumbnai
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/73b5b9de-4876-4cac-9e58-d2e7559724f7">SetThumbnailTooltip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-setthumbnailtooltip">SetThumbnailTooltip</a>
 </td>
 <td align="left" width="63%">
 Specifies or updates the text of the tooltip that is displayed when the mouse pointer rests on an individual preview thumbnail in a taskbar button flyout.
@@ -141,7 +141,7 @@ Specifies or updates the text of the tooltip that is displayed when the mouse po
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5d573879-aa90-41d9-a9b7-b813dafa78ae">ThumbBarAddButtons</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-thumbbaraddbuttons">ThumbBarAddButtons</a>
 </td>
 <td align="left" width="63%">
 Adds a thumbnail toolbar with a specified set of buttons to the thumbnail image of a window in a taskbar button flyout.
@@ -150,7 +150,7 @@ Adds a thumbnail toolbar with a specified set of buttons to the thumbnail image 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5c288b64-8630-42ca-9821-8e131f11f76d">ThumbBarSetImageList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-thumbbarsetimagelist">ThumbBarSetImageList</a>
 </td>
 <td align="left" width="63%">
 Specifies an image list that contains button images for a toolbar embedded in a thumbnail image of a window in a taskbar button flyout.
@@ -159,7 +159,7 @@ Specifies an image list that contains button images for a toolbar embedded in a 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5bb38b1e-dc09-4868-b424-f11beca6e64f">ThumbBarUpdateButtons</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-thumbbarupdatebuttons">ThumbBarUpdateButtons</a>
 </td>
 <td align="left" width="63%">
 Shows, enables, disables, or hides buttons in a thumbnail toolbar as required by the window's current state. A thumbnail toolbar is a toolbar embedded in a thumbnail image of a window in a taskbar button flyout.
@@ -168,7 +168,7 @@ Shows, enables, disables, or hides buttons in a thumbnail toolbar as required by
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/667cafde-f693-46c3-bbec-140fc7cade5d">UnregisterTab</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-unregistertab">UnregisterTab</a>
 </td>
 <td align="left" width="63%">
 Removes a thumbnail from an application's preview group when that tab or document is closed in the application.
@@ -182,7 +182,7 @@ Removes a thumbnail from an application's preview group when that tab or documen
 
 
 
-This interface also provides the methods of the <a href="https://msdn.microsoft.com/c63f5fe8-4a8f-4ca8-bd6a-7733110bbb38">ITaskbarList</a> and <a href="https://msdn.microsoft.com/8af23586-349f-4d21-98cb-0aaa27a586ff">ITaskbarList2</a> interfaces, from which it inherits.
+This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist">ITaskbarList</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist2">ITaskbarList2</a> interfaces, from which it inherits.
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 An implementation of this interface is provided in Windows as CLSID_TaskbarList. This interface is not implemented by third parties.
@@ -204,7 +204,7 @@ Use the methods of this interface to do the following:
 <li>When showing the progress of an operation, such as copying or installing an item.</li>
 <li>When adding a toolbar to a thumbnail.</li>
 </ul>
-When an application displays a window, its taskbar button is created by the system. When the button is in place, the taskbar sends a <b>TaskbarButtonCreated</b> message to the window. Your application should call <a href="https://msdn.microsoft.com/en-us/library/ms644947(v=VS.85).aspx">RegisterWindowMessage</a>(L"TaskbarButtonCreated") and handle that message in its wndproc. That message must be received by your application before it calls any <b>ITaskbarList3</b> method.
+When an application displays a window, its taskbar button is created by the system. When the button is in place, the taskbar sends a <b>TaskbarButtonCreated</b> message to the window. Your application should call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea">RegisterWindowMessage</a>(L"TaskbarButtonCreated") and handle that message in its wndproc. That message must be received by your application before it calls any <b>ITaskbarList3</b> method.
 
 <div class="alert"><b>Note</b>  Applications cannot programmatically pin themselves to the taskbar. That functionality is reserved strictly for the user.</div>
 <div> </div>
@@ -216,11 +216,11 @@ When an application displays a window, its taskbar button is created by the syst
 
 
 
-<a href="https://msdn.microsoft.com/8af23586-349f-4d21-98cb-0aaa27a586ff">ITaskbarList2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist2">ITaskbarList2</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbf2b07d-d67c-4755-888c-d40692d13cae">Taskbar Extensions</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
  
 
  

@@ -50,9 +50,9 @@ req.redist:
 
 Relocates one or more virtual clusters of a file from one logical cluster to another within the same 
     volume. This operation is used during 
-    <a href="https://msdn.microsoft.com/27ccaab7-ec89-489b-80dc-df9beb7969bc">defragmentation</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/FileIO/defragmenting-files">defragmentation</a>.
 
-To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
+To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
     function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -156,27 +156,27 @@ The <b>FSCTL_MOVE_FILE</b> control code relocates one or more
     cluster.
 
 To mark an open  file so that it is not defragmented, call the 
-    <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the 
-    <a href="https://msdn.microsoft.com/c96b49d8-12f3-4281-9f9f-6621769359f0">FSCTL_MARK_HANDLE</a> control code with 
+    <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_mark_handle">FSCTL_MARK_HANDLE</a> control code with 
     <b>MARK_HANDLE_PROTECT_CLUSTERS</b> in the <b>HandleInfo</b> member of the 
-    <a href="https://msdn.microsoft.com/6f736b31-279d-4118-a5e3-ad3c2bea2250">MARK_HANDLE_INFO</a> structure passed in the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-mark_handle_info">MARK_HANDLE_INFO</a> structure passed in the 
     <i>lpInBuffer</i> parameter.
 
 Note that the bitmap returned by the 
-    <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the 
-    <a href="https://msdn.microsoft.com/80ef93ee-21a4-4766-82d2-d2ddef3ef5bb">FSCTL_GET_VOLUME_BITMAP</a> control code represents a 
+    <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_volume_bitmap">FSCTL_GET_VOLUME_BITMAP</a> control code represents a 
     point in time, and can be incorrect as soon as it has been read if the volume has write activity. Thus, it is 
     possible to attempt to move a cluster onto an allocated cluster in spite of a recent bitmap indicating that the 
     cluster is unallocated. Programs using <b>FSCTL_MOVE_FILE</b> must 
     be prepared for this possibility.
 
 For the implications of overlapped I/O on this operation, see the Remarks section of the 
-    <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> topic.
+    <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> topic.
 
 For a list of files, streams, and stream types supported by the 
     <b>FSCTL_MOVE_FILE</b> control code, see the 
     <a href="defragmenting_files.htm">Files, streams, and stream types supported for defragmentation</a> 
-    section of the <a href="https://msdn.microsoft.com/27ccaab7-ec89-489b-80dc-df9beb7969bc">Defragmenting Files</a> 
+    section of the <a href="https://docs.microsoft.com/windows/desktop/FileIO/defragmenting-files">Defragmenting Files</a> 
     topic.
 
 In Windows 8 and Windows Server 2012, this code is supported by the following technologies.
@@ -237,43 +237,43 @@ Yes
 
 
 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/27ccaab7-ec89-489b-80dc-df9beb7969bc">Defragmenting Files</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/defragmenting-files">Defragmenting Files</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/488a7d32-cbb5-4f32-9655-0aca8ac69640">Disk Management Control Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes">Disk Management Control Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/80ef93ee-21a4-4766-82d2-d2ddef3ef5bb">FSCTL_GET_VOLUME_BITMAP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_volume_bitmap">FSCTL_GET_VOLUME_BITMAP</a>
 
 
 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a>
 
 
 
-<a href="https://msdn.microsoft.com/8121a38b-0fe1-43b8-aed6-4b85af1feba9">GetQueuedCompletionStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/08bbeabc-b589-41b2-b3f2-70b2390f11f0">MOVE_FILE_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-move_file_data">MOVE_FILE_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
  
 
  

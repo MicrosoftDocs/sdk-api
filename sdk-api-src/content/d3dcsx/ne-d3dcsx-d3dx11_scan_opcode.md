@@ -97,7 +97,7 @@ Perform a logical XOR on the values.
 
 
 
-<a href="https://msdn.microsoft.com/7DDF9561-2773-4EA9-A451-EE60C4F9FF9D">D3DCSX 11 Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3dcsx11-enums">D3DCSX 11 Enumerations</a>
  
 
  

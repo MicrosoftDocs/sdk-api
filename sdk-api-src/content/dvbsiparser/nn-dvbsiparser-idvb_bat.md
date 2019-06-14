@@ -53,7 +53,7 @@ ms.custom: 19H1
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
 
-The <b>IDVB_BAT</b> interface enables the client to get data from a bouquet association table (BAT). The <a href="https://msdn.microsoft.com/dc9cd50f-a9cc-436c-a416-9fc4de506a9e">IDvbSiParser::GetBAT</a> method returns a pointer to this interface.
+The <b>IDVB_BAT</b> interface enables the client to get data from a bouquet association table (BAT). The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-getbat">IDvbSiParser::GetBAT</a> method returns a pointer to this interface.
 
 A bouquet is a collection of services that are marketed as one entity. A single bouquet may contain several transport streams that are delivered across different distribution media (satellite, cable, or terrestrial).
 
@@ -64,7 +64,7 @@ The BAT may contain one or more table-wide descriptors. In addition, each record
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVB_BAT</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDVB_BAT</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVB_BAT</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDVB_BAT</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -79,7 +79,7 @@ The <b>IDVB_BAT</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/befcd47c-e05e-4a75-a588-bebdb1cc3218">ConvertNextToCurrent</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_bat-convertnexttocurrent">ConvertNextToCurrent</a>
 </td>
 <td align="left" width="63%">
 Converts a <i>next</i> table to a <i>current</i> table.
@@ -88,7 +88,7 @@ Converts a <i>next</i> table to a <i>current</i> table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/43c8d96d-24a7-459b-8221-daef7759c603">GetBouquetId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_bat-getbouquetid">GetBouquetId</a>
 </td>
 <td align="left" width="63%">
 Returns the bouquet identifier for the BAT.
@@ -97,7 +97,7 @@ Returns the bouquet identifier for the BAT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/feb31eca-d746-48cf-8c1b-06dd7816725b">GetCountOfRecords</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_bat-getcountofrecords">GetCountOfRecords</a>
 </td>
 <td align="left" width="63%">
 Returns the number of records in the BAT.
@@ -106,7 +106,7 @@ Returns the number of records in the BAT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8f373cbe-9d07-41c2-83a5-c25bc66f6263">GetCountOfTableDescriptors</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_bat-getcountoftabledescriptors">GetCountOfTableDescriptors</a>
 </td>
 <td align="left" width="63%">
 Returns the number of table-wide descriptors in the BAT.
@@ -115,7 +115,7 @@ Returns the number of table-wide descriptors in the BAT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9ba93496-d32f-44f1-83d8-1cfb61b689e9">GetNextTable</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_bat-getnexttable">GetNextTable</a>
 </td>
 <td align="left" width="63%">
 Retrieves the <i>next</i> table that follows the current table.
@@ -124,7 +124,7 @@ Retrieves the <i>next</i> table that follows the current table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d3ef02f2-a593-4439-a460-e2b5fcd0ef70">GetRecordCountOfDescriptors</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_bat-getrecordcountofdescriptors">GetRecordCountOfDescriptors</a>
 </td>
 <td align="left" width="63%">
 Returns the number of descriptors for a record in the BAT.
@@ -133,7 +133,7 @@ Returns the number of descriptors for a record in the BAT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ea1ace90-4378-4dec-9326-70e6f9814dde">GetRecordDescriptorByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/dd389781(v%3dvs.85)">GetRecordDescriptorByIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves a descriptor for a specified record in the BAT.
@@ -142,7 +142,7 @@ Retrieves a descriptor for a specified record in the BAT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/48818e59-6bf0-4f54-8b53-e61fa8b349b3">GetRecordDescriptorByTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_bat-getrecorddescriptorbytag">GetRecordDescriptorByTag</a>
 </td>
 <td align="left" width="63%">
 Searches a record in the BAT for a descriptor with a specified descriptor tag.
@@ -151,7 +151,7 @@ Searches a record in the BAT for a descriptor with a specified descriptor tag.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b59aaea4-4960-4c82-b949-e8372c1e3f4c">GetRecordOriginalNetworkId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_bat-getrecordoriginalnetworkid">GetRecordOriginalNetworkId</a>
 </td>
 <td align="left" width="63%">
 Returns the original network identifier for a record in the BAT.
@@ -160,7 +160,7 @@ Returns the original network identifier for a record in the BAT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fdb406d1-5242-4f3e-a1c9-b10296d98d67">GetRecordTransportStreamId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_bat-getrecordtransportstreamid">GetRecordTransportStreamId</a>
 </td>
 <td align="left" width="63%">
 Returns the transport stream identifier (TSID) for a record in the BAT.
@@ -169,7 +169,7 @@ Returns the transport stream identifier (TSID) for a record in the BAT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fa985aea-3822-439e-9a83-916cc1c9ae93">GetTableDescriptorByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_bat-gettabledescriptorbyindex">GetTableDescriptorByIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves a table-wide descriptor for the BAT.
@@ -178,7 +178,7 @@ Retrieves a table-wide descriptor for the BAT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9c989b8d-0cd0-4556-bc96-a464b95911d0">GetTableDescriptorByTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_bat-gettabledescriptorbytag">GetTableDescriptorByTag</a>
 </td>
 <td align="left" width="63%">
 Searches the BAT for a table-wide descriptor with the specified descriptor tag.
@@ -187,7 +187,7 @@ Searches the BAT for a table-wide descriptor with the specified descriptor tag.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2548a4b5-7789-42ef-9094-22deb6d72260">GetVersionNumber</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_bat-getversionnumber">GetVersionNumber</a>
 </td>
 <td align="left" width="63%">
 Returns the version number for the BAT.
@@ -196,7 +196,7 @@ Returns the version number for the BAT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/76c0eabe-b2af-44ed-9afb-9b97e7e8c5df">Initialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_bat-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object.
@@ -205,7 +205,7 @@ Initializes the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/77c2d270-72ab-4ae6-84dd-c28c231094ad">RegisterForNextTable</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_bat-registerfornexttable">RegisterForNextTable</a>
 </td>
 <td align="left" width="63%">
 Registers the client to be notified when a <i>next</i> table arrives that will replace the current table.
@@ -214,7 +214,7 @@ Registers the client to be notified when a <i>next</i> table arrives that will r
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d68cd8f7-e152-4105-8bc3-e9dad68e4e68">RegisterForWhenCurrent</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_bat-registerforwhencurrent">RegisterForWhenCurrent</a>
 </td>
 <td align="left" width="63%">
 Registers the client to be notified when the table becomes current.
@@ -229,7 +229,7 @@ Registers the client to be notified when the table becomes current.
 
 
 
-<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
  
 
  

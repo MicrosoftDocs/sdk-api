@@ -64,7 +64,7 @@ The <b>SetCallback</b> method provides the plug-in with a pointer for calling Wi
 
 ### -param pCallback [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd563142(v=VS.85).aspx">IWMPContentPartnerCallback</a> interface.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartnercallback">IWMPContentPartnerCallback</a> interface.
 
 
 ## -returns
@@ -109,7 +109,7 @@ Windows Media Player calls this function when instantiating the plug-in to provi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563141(v=VS.85).aspx">IWMPContentPartner Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
  
 
  

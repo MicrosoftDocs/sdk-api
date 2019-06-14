@@ -60,7 +60,7 @@ Specifies the priority level of your job. The priority level determines when you
 ### -param Val [in]
 
 Specifies the priority level of your job relative to other jobs in the transfer queue. The default is BG_JOB_PRIORITY_NORMAL. For a list of priority levels, see the 
-<a href="https://msdn.microsoft.com/bfeab3bb-69bf-4ea2-a0ab-8f886c0d082e">BG_JOB_PRIORITY</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-__midl_ibackgroundcopyjob_0001">BG_JOB_PRIORITY</a> enumeration.
 
 
 ## -returns
@@ -93,7 +93,7 @@ Job priority was successfully set.
 </td>
 <td width="60%">
 The value for <i>Priority</i> is not defined in the 
-<a href="https://msdn.microsoft.com/bfeab3bb-69bf-4ea2-a0ab-8f886c0d082e">BG_JOB_PRIORITY</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-__midl_ibackgroundcopyjob_0001">BG_JOB_PRIORITY</a> enumeration.
 
 </td>
 </tr>
@@ -119,11 +119,11 @@ The state of the job cannot be BG_JOB_STATE_CANCELLED or BG_JOB_STATE_ACKNOWLEDG
 
 
 
-<a href="https://msdn.microsoft.com/bfeab3bb-69bf-4ea2-a0ab-8f886c0d082e">BG_JOB_PRIORITY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-__midl_ibackgroundcopyjob_0001">BG_JOB_PRIORITY</a>
 
 
 
-<a href="https://msdn.microsoft.com/8602ed59-a372-4cb3-bbda-cf1c7afc3669">IBackgroundCopyJob::GetPriority</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getpriority">IBackgroundCopyJob::GetPriority</a>
  
 
  

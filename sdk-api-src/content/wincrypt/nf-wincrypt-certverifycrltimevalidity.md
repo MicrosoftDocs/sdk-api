@@ -59,20 +59,20 @@ The <b>CertVerifyCRLTimeValidity</b> function verifies the time validity of a CR
 
 ### -param pTimeToVerify [in]
 
-A pointer to <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure containing the time to be used in the verification. If set to <b>NULL</b>, the current time is used.
+A pointer to <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure containing the time to be used in the verification. If set to <b>NULL</b>, the current time is used.
 
 
 ### -param pCrlInfo [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/06a28de3-dd7c-4efe-9baa-20aac69d63f3">CRL_INFO</a> structure containing the CRL for which the time is to be verified.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_info">CRL_INFO</a> structure containing the CRL for which the time is to be verified.
 
 
 ## -returns
 
 
 
-Returns a minus one (–1) if the comparison time is before the <b>ThisUpdate</b> member of the <a href="https://msdn.microsoft.com/06a28de3-dd7c-4efe-9baa-20aac69d63f3">CRL_INFO</a> pointed to by <i>pCrlInfo</i>. Returns a plus one (+1) if the comparison time is after the <b>NextUpdate</b> time. Returns zero for valid time for the CRL.
+Returns a minus one (–1) if the comparison time is before the <b>ThisUpdate</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_info">CRL_INFO</a> pointed to by <i>pCrlInfo</i>. Returns a plus one (+1) if the comparison time is after the <b>NextUpdate</b> time. Returns zero for valid time for the CRL.
 
 
 
@@ -82,19 +82,19 @@ Returns a minus one (–1) if the comparison time is before the <b>ThisUpdate</b
 
 
 
-<a href="https://msdn.microsoft.com/a46ac5b5-bc44-4857-a7fb-4f35d438e3f7">CertVerifyCRLRevocation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycrlrevocation">CertVerifyCRLRevocation</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ccf9230-e998-4f82-9db0-6cbaa1c36850">CertVerifyTimeValidity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifytimevalidity">CertVerifyTimeValidity</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc73a21d-5b55-45c4-80d2-220508d9f762">CertVerifyValidityNesting</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifyvaliditynesting">CertVerifyValidityNesting</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>
  
 
  

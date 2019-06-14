@@ -68,7 +68,7 @@ Deletes a subkey and all its descendants. This function removes the key and all 
 
 Type: <b>HKEY</b>
 
-A handle to an open registry key, or one of the following <a href="https://msdn.microsoft.com/db747656-b414-4594-ad39-6b476799060c">predefined keys</a>:
+A handle to an open registry key, or one of the following <a href="https://docs.microsoft.com/windows/desktop/SysInfo/predefined-keys">predefined keys</a>:
 
 <a id="HKEY_CLASSES_ROOT"></a>
 <a id="hkey_classes_root"></a>
@@ -148,7 +148,7 @@ The address of a null-terminated string specifying the name of the key to delete
 
 Type: <b>LSTATUS</b>
 
-Returns <b>ERROR_SUCCESS</b> if successful, or a nonzero error code defined in Winerror.h otherwise. You can use the <a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> function with the <b>FORMAT_MESSAGE_FROM_SYSTEM</b> flag to retrieve a generic description of the error.
+Returns <b>ERROR_SUCCESS</b> if successful, or a nonzero error code defined in Winerror.h otherwise. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the <b>FORMAT_MESSAGE_FROM_SYSTEM</b> flag to retrieve a generic description of the error.
 
 
 
@@ -157,7 +157,7 @@ Returns <b>ERROR_SUCCESS</b> if successful, or a nonzero error code defined in W
 
 
 
-Alternatively, use the <a href="https://msdn.microsoft.com/a2310ca0-1b9f-48d1-a3b5-ea3a528bfaba">RegDeleteKey</a> or <a href="https://msdn.microsoft.com/984813a9-e191-498f-8288-b8a4c567112b">RegDeleteTree</a> function.
+Alternatively, use the <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regdeletekeya">RegDeleteKey</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regdeletetreea">RegDeleteTree</a> function.
 
 
 

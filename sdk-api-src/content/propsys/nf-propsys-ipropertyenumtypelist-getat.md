@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the <a href="https://msdn.microsoft.com/en-us/library/Bb761495(v=VS.85).aspx">IPropertyEnumType</a> object at the specified index in the list.
+Gets the <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertyenumtype">IPropertyEnumType</a> object at the specified index in the list.
 
 
 ## -parameters

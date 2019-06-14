@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns the <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure associated with a specified file path.
+Returns the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure associated with a specified file path.
 
 
 ## -parameters
@@ -74,7 +74,7 @@ A pointer to a null-terminated Unicode string that contains the path. This strin
 
 Type: <b>PIDLIST_ABSOLUTE</b>
 
-Returns a pointer to an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure that corresponds to the path.
+Returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure that corresponds to the path.
 
 
 
@@ -83,7 +83,7 @@ Returns a pointer to an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-b
 
 
 
-Call <a href="https://msdn.microsoft.com/3457f36e-fdfd-44a4-90ca-a86f00bc9f36">ILFree</a> to release the <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> when you are finished with it.
+Call <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ilfree">ILFree</a> to release the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> when you are finished with it.
 
 
 

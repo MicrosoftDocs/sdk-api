@@ -54,7 +54,7 @@ The <b>IPortableDeviceServiceManager</b> interface retrieves the device associat
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceServiceManager</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPortableDeviceServiceManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceServiceManager</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDeviceServiceManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IPortableDeviceServiceManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2cdb03fb-8cb2-4eee-af90-3aec0a055fc5">GetDeviceForService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicemanager-getdeviceforservice">GetDeviceForService</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device associated with the specified service.
@@ -78,7 +78,7 @@ Retrieves the device associated with the specified service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d6b06f4d-c07e-4cd4-b96e-e8b9b4f98df8">GetDeviceServices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicemanager-getdeviceservices">GetDeviceServices</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of the services associated with the specified device.

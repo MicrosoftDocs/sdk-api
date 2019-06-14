@@ -117,7 +117,7 @@ If the <i>nIconIndex</i> parameter is -1, the <i>phiconLarge</i> parameter is <b
 
 
 
-When they are no longer needed, you must destroy all icons extracted by <b>ExtractIconEx</b> by calling the <a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a> function.
+When they are no longer needed, you must destroy all icons extracted by <b>ExtractIconEx</b> by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> function.
 
 To retrieve the dimensions of the large and small icons, use this function with the SM_CXICON, SM_CYICON, SM_CXSMICON, and SM_CYSMICON flags.
 
@@ -129,15 +129,15 @@ To retrieve the dimensions of the large and small icons, use this function with 
 
 
 
-<a href="https://msdn.microsoft.com/157ce603-9988-4cae-a2cd-51db290268c3">ExtractAssociatedIcon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extractassociatedicona">ExtractAssociatedIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/f32260b0-917b-4406-aeee-34f71a7c7309">ExtractAssociatedIconEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extractassociatediconexa">ExtractAssociatedIconEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0314423-79d6-416e-8be0-be946477da3e">ExtractIcon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extracticona">ExtractIcon</a>
  
 
  

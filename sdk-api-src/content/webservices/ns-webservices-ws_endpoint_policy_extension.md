@@ -78,14 +78,14 @@ Namespace of the assertion to be retrieved as an extension.
 
 ### -field out
 
-When <a href="https://msdn.microsoft.com/6e5f352b-5422-4bba-9525-7850bdddf0a5">WsMatchPolicyAlternative</a> returns NOERROR, the
+When <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsmatchpolicyalternative">WsMatchPolicyAlternative</a> returns NOERROR, the
                     fields of this structure will be filled out as follows:
                 
 
 
 ### -field out.assertionValue
 
-When <a href="https://msdn.microsoft.com/6e5f352b-5422-4bba-9525-7850bdddf0a5">WsMatchPolicyAlternative</a> returns NOERROR and if the specified assertion is found in the policy alternative, <b>assertionValue</b> returns the read-only content. Returned buffer should not be modified or freed. If not found, it is set to NULL. 
+When <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsmatchpolicyalternative">WsMatchPolicyAlternative</a> returns NOERROR and if the specified assertion is found in the policy alternative, <b>assertionValue</b> returns the read-only content. Returned buffer should not be modified or freed. If not found, it is set to NULL. 
 
 
 
@@ -99,7 +99,7 @@ This extension can be used to specify a custom assertion or an assertion that is
               retrieve the original XML form of the assertion. If one of the supported assertions
               is specified as an extension, the corresponding constraint should not be specified.
               For example, if http://schemas.xmlsoap.org/ws/2005/07/securitypolicy:TransportBinding
-              is specified as an endpoint extension, <a href="https://msdn.microsoft.com/en-us/library/Dd323442(v=VS.85).aspx">WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT</a>cannot be specified as a constraint.
+              is specified as an endpoint extension, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_ssl_transport_security_binding_constraint">WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT</a>cannot be specified as a constraint.
           
 
 The following assertions are not allowed as policy extension because they might affect constraint 

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>capDriverGetVersion</b> macro returns the version information of the capture driver connected to a capture window. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/762ebe7e-0d09-46ea-ab17-86061f0bd8f9">WM_CAP_DRIVER_GET_VERSION</a> message.
+The <b>capDriverGetVersion</b> macro returns the version information of the capture driver connected to a capture window. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-driver-get-version">WM_CAP_DRIVER_GET_VERSION</a> message.
 
 
 
@@ -89,11 +89,11 @@ The version information is a text string retrieved from the driver's resource ar
 
 
 
-<a href="https://msdn.microsoft.com/c93ecc51-e2c5-4b69-8625-c8385d53fab2">Video Capture</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://msdn.microsoft.com/21061f06-d58b-4800-a9f5-9821494fabd6">Video Capture Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
  
 
  

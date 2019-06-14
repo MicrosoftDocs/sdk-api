@@ -73,11 +73,11 @@ Size, in bytes, of the range. If this member is HTTP_BYTE_RANGE_TO_EOF, the rang
 
 
 
-<a href="https://msdn.microsoft.com/ae67c066-c8bd-483f-829f-30192f49593d">HTTP_DATA_CHUNK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_data_chunk">HTTP_DATA_CHUNK</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f066e1d-035f-4c1c-b854-de4a6ef58a58">HttpReadFragmentFromCache</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpreadfragmentfromcache">HttpReadFragmentFromCache</a>
  
 
  

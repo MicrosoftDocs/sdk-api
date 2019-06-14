@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Called from the <a href="https://msdn.microsoft.com/426a848c-f549-4a41-b92a-c9451738a014">WSManPluginAuthzQueryQuota</a> plug-in entry point and  must be called whether or not the plug-in can carry out the request.
+Called from the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_query_quota">WSManPluginAuthzQueryQuota</a> plug-in entry point and  must be called whether or not the plug-in can carry out the request.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Called from the <a href="https://msdn.microsoft.com/426a848c-f549-4a41-b92a-c945
 
 ### -param senderDetails [in]
 
-A pointer  to the <a href="https://msdn.microsoft.com/f68a9f75-6808-4dfa-b40f-061da88ead3c">WSMAN_SENDER_DETAILS</a> structure that was passed into the <a href="https://msdn.microsoft.com/426a848c-f549-4a41-b92a-c9451738a014">WSManPluginAuthzQueryQuota</a> plug-in call.
+A pointer  to the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_sender_details">WSMAN_SENDER_DETAILS</a> structure that was passed into the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_query_quota">WSManPluginAuthzQueryQuota</a> plug-in call.
 
 
 ### -param flags [in]
@@ -69,7 +69,7 @@ Reserved for future use. Must be zero.
 
 ### -param quota [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/dff093be-34cb-4e31-b3ff-b1ad8ecc7069">WSMAN_AUTHZ_QUOTA</a> structure that specifies quota information for a specific user.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_authz_quota">WSMAN_AUTHZ_QUOTA</a> structure that specifies quota information for a specific user.
 
 
 ### -param errorCode [in]

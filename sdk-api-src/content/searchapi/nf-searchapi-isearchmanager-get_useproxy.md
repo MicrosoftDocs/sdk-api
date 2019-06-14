@@ -60,7 +60,7 @@ Retrieves the proxy server to be used.
 
 ### -param pUseProxy [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965699(v=VS.85).aspx">PROXY_ACCESS</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-_proxy_access">PROXY_ACCESS</a>*</b>
 
 Receives a pointer to the proxy server to be used.
                 

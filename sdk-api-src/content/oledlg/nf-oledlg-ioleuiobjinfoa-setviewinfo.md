@@ -160,11 +160,11 @@ You should apply the new attributes (icon, aspect, and scale) to the object. If 
 
 
 
-<a href="https://msdn.microsoft.com/a2b729c8-7091-4520-93cd-c44468ba0274">DVASPECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagdvaspect">DVASPECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/508dccb3-e98b-4f62-8bc3-98ca2b0d1349">IOleUIObjInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nn-oledlg-ioleuiobjinfoa">IOleUIObjInfo</a>
  
 
  

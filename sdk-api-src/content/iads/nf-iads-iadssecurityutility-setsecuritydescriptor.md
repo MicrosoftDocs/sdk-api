@@ -82,7 +82,7 @@ A valid registry syntax. For example, "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ADs
 
 ### -param lPathFormat [in]
 
-Contains one of the <a href="https://msdn.microsoft.com/3ae0ec98-9184-4ab3-b859-39c0d677eb0d">ADS_PATHTYPE_ENUM</a> values which specifies the format of the <i>varPath</i> parameter.
+Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0088_0001">ADS_PATHTYPE_ENUM</a> values which specifies the format of the <i>varPath</i> parameter.
 
 
 ### -param varData [in]
@@ -92,7 +92,7 @@ A <b>VARIANT</b> that contains the new security descriptor. The format of the se
 
 ### -param lDataFormat [in]
 
-Contains one of the <a href="https://msdn.microsoft.com/503247b6-3119-4514-9831-c8f0ef50c0fa">ADS_SD_FORMAT_ENUM</a> values which specifies the format of the security descriptor contained in the <i>VarData</i> parameter. The following list identifies the possible values for this parameter and the format of the <i>VarData</i> parameter.
+Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0088_0002">ADS_SD_FORMAT_ENUM</a> values which specifies the format of the security descriptor contained in the <i>VarData</i> parameter. The following list identifies the possible values for this parameter and the format of the <i>VarData</i> parameter.
 
 
 ## -returns
@@ -165,23 +165,23 @@ Cleanup:
 
 
 
-<a href="https://msdn.microsoft.com/3ae0ec98-9184-4ab3-b859-39c0d677eb0d">ADS_PATHTYPE_ENUM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0088_0001">ADS_PATHTYPE_ENUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/503247b6-3119-4514-9831-c8f0ef50c0fa">ADS_SD_FORMAT_ENUM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0088_0002">ADS_SD_FORMAT_ENUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/ea6509bd-5625-458b-be7a-abb43ba2f46e">ConvertSecurityDescriptor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadssecurityutility-convertsecuritydescriptor">ConvertSecurityDescriptor</a>
 
 
 
-<a href="https://msdn.microsoft.com/c77547ab-e666-4d72-b8ef-4b2f3d61ad38">IADsSecurityDescriptor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a>
 
 
 
-<a href="https://msdn.microsoft.com/781eda1e-1f13-4bb4-ae8e-c9bf4c08e125">IADsSecurityUtility</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecurityutility">IADsSecurityUtility</a>
  
 
  

@@ -59,7 +59,7 @@ Determines whether the specified registry key is protected. Applications should 
 
 ### -param KeyHandle [in]
 
-A handle to the root registry key. This must be a handle to one of the following <a href="https://msdn.microsoft.com/db747656-b414-4594-ad39-6b476799060c">predefined keys</a>.
+A handle to the root registry key. This must be a handle to one of the following <a href="https://docs.microsoft.com/windows/desktop/SysInfo/predefined-keys">predefined keys</a>.
 
 <p class="indent">HKEY_CLASSES_ROOT
 
@@ -72,14 +72,14 @@ A handle to the root registry key. This must be a handle to one of the following
 
 ### -param SubKeyName [in, optional]
 
-A <b>null</b>-terminated string value containing the name of the subkey. This key must a subkey of the key identified by the <i>hKey</i> parameter. For more information about key names, see <a href="https://msdn.microsoft.com/4ed60563-73d8-4134-8cb2-8388734fb18d">Structure of the Registry</a>. 
+A <b>null</b>-terminated string value containing the name of the subkey. This key must a subkey of the key identified by the <i>hKey</i> parameter. For more information about key names, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/structure-of-the-registry">Structure of the Registry</a>. 
 If this parameter is <b>NULL</b>, the function only checks whether the root registry key is protected. 
 
 
 
 ### -param KeySam [in]
 
-A constant that specifies the alternate registry view that should be used by applications that run on 64-bit Windows.  This flag is ignored on the x86 platform. For more information, see <a href="https://msdn.microsoft.com/2c5fd3de-998c-44ab-863e-8e0e90d56e5d">Accessing an Alternate Registry View</a>.
+A constant that specifies the alternate registry view that should be used by applications that run on 64-bit Windows.  This flag is ignored on the x86 platform. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg64/accessing-an-alternate-registry-view">Accessing an Alternate Registry View</a>.
 
 <table>
 <tr>
@@ -169,7 +169,7 @@ The <b>SfcIsKeyProtected</b> function returns a nonzero value for the following 
 
 
 
-<a href="https://msdn.microsoft.com/6882f7ef-0265-4db5-afa5-54df35b9dba1">SfcIsFileProtected</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sfc/nf-sfc-sfcisfileprotected">SfcIsFileProtected</a>
  
 
  

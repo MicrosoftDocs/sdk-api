@@ -66,14 +66,14 @@ You cannot set this property for the Application, System, and Security channels.
 
 ### -field EvtChannelConfigIsolation
 
-Identifies the <b>isolation</b> attribute of the channel.  The variant type for this property is <b>EvtVarTypeUInt32</b>. For possible isolation values, see the <a href="https://msdn.microsoft.com/63b01c20-f413-451d-b34d-b2496ebf8181">EVT_CHANNEL_ISOLATION_TYPE</a> enumeration.
+Identifies the <b>isolation</b> attribute of the channel.  The variant type for this property is <b>EvtVarTypeUInt32</b>. For possible isolation values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_channel_isolation_type">EVT_CHANNEL_ISOLATION_TYPE</a> enumeration.
 
 You cannot set this property for the Application, System, and Security channels.
 
 
 ### -field EvtChannelConfigType
 
-Identifies the <b>type</b> attribute of the channel.  The variant type for this property is <b>EvtVarTypeUInt32</b>. For possible isolation values, see the <a href="https://msdn.microsoft.com/5650dd28-b0ef-4d74-abc6-85ed2bd56b38">EVT_CHANNEL_TYPE</a> enumeration. 
+Identifies the <b>type</b> attribute of the channel.  The variant type for this property is <b>EvtVarTypeUInt32</b>. For possible isolation values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_channel_type">EVT_CHANNEL_TYPE</a> enumeration. 
 
 You cannot set this property.
 
@@ -168,14 +168,14 @@ You cannot set this property.
 
 ### -field EvtChannelPublishingConfigClockType
 
-Identifies the <b>clockType</b> publishing attribute of the channel.  The variant type for this property is <b>EvtVarTypeUInt32</b>. For possible clock type values, see the <a href="https://msdn.microsoft.com/575a6667-b832-46e8-8704-0612e04b8669">EVT_CHANNEL_CLOCK_TYPE</a> enumeration. 
+Identifies the <b>clockType</b> publishing attribute of the channel.  The variant type for this property is <b>EvtVarTypeUInt32</b>. For possible clock type values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_channel_clock_type">EVT_CHANNEL_CLOCK_TYPE</a> enumeration. 
 
 You cannot set this property.
 
 
 ### -field EvtChannelPublishingConfigSidType
 
-Identifies the <b>sidType</b> publishing attribute of the channel.  The variant type for this property is <b>EvtVarTypeUInt32</b>. For possible SID type values, see the  <a href="https://msdn.microsoft.com/7eadae8f-71b4-44de-ba66-0e460fee496c">EVT_CHANNEL_SID_TYPE</a> enumeration. 
+Identifies the <b>sidType</b> publishing attribute of the channel.  The variant type for this property is <b>EvtVarTypeUInt32</b>. For possible SID type values, see the  <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_channel_sid_type">EVT_CHANNEL_SID_TYPE</a> enumeration. 
 
 You cannot set this property.
 
@@ -202,23 +202,23 @@ This enumeration value marks the end of the enumeration values.
 
 
 
-<a href="https://msdn.microsoft.com/58da75dd-d303-4a57-8c9b-5fde575c3cbb">ChannelLoggingType Complex Type</a>
+<a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-channelloggingtype-complextype">ChannelLoggingType Complex Type</a>
 
 
 
-<a href="https://msdn.microsoft.com/4b3980f4-8652-4070-97c0-99cd1a9fc85a">ChannelPublishingType Complex Type</a>
+<a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-channelpublishingtype-complextype">ChannelPublishingType Complex Type</a>
 
 
 
-<a href="https://msdn.microsoft.com/882506e5-222b-45c8-af4b-59db8baa1dae">ChannelType Complex Type</a>
+<a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-channeltype-complextype">ChannelType Complex Type</a>
 
 
 
-<a href="https://msdn.microsoft.com/0f84f51c-716e-4a70-b31c-2b4f40b3fd83">EvtGetChannelConfigProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtgetchannelconfigproperty">EvtGetChannelConfigProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/f5f11bd9-5eb0-4afe-8c8b-57fa3850ad56">EvtSetChannelConfigProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtsetchannelconfigproperty">EvtSetChannelConfigProperty</a>
  
 
  

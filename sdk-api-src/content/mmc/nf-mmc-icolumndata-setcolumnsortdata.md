@@ -60,13 +60,13 @@ The <b>IColumnData::SetColumnSortData</b> method enables a snap-in to set the so
 ### -param pColID [in]
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/eb08f699-74bc-445d-96b7-678abbd366b3">SColumnSetID</a> structure that contains the column set ID of the column set whose sort data is to be set.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_scolumnsetid">SColumnSetID</a> structure that contains the column set ID of the column set whose sort data is to be set.
 
 
 ### -param pColSortData [in]
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/bb16061d-a6bb-4816-b52d-c63097638f58">MMC_SORT_SET_DATA</a> structure that contains the column sort data of the column set.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_sort_set_data">MMC_SORT_SET_DATA</a> structure that contains the column sort data of the column set.
 
 
 ## -returns
@@ -88,7 +88,7 @@ MMC 1.2 supports only single-column sorting, which is why
 SetColumnSortData returns <b>E_FAIL</b> when the number of sort columns is greater than 1.
 
 All data set and retrieved by the methods of the 
-<a href="https://msdn.microsoft.com/fb2b8863-c476-4997-915d-329cf66fd945">IColumnData</a> interface is persisted by MMC in memory, and not in a stream or storage medium. This data is persisted to an .msc console file only when the user chooses the 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icolumndata">IColumnData</a> interface is persisted by MMC in memory, and not in a stream or storage medium. This data is persisted to an .msc console file only when the user chooses the 
 <b>Save</b> menu command.
 
 
@@ -99,11 +99,11 @@ All data set and retrieved by the methods of the
 
 
 
-<a href="https://msdn.microsoft.com/fb2b8863-c476-4997-915d-329cf66fd945">IColumnData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icolumndata">IColumnData</a>
 
 
 
-<a href="https://msdn.microsoft.com/4da79fd1-f887-447c-89fd-d5044bd5751c">Using IColumnData</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-icolumndata">Using IColumnData</a>
  
 
  

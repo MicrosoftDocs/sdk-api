@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>MGM_IF_ENTRY</b> structure describes a router interface. This structure is used in the 
-<a href="https://msdn.microsoft.com/1d161a7e-3ceb-429f-a41e-eccd7f98f084">PMGM_CREATION_ALERT_CALLBACK</a>. In the context of this callback, the routing protocol must enable or disable multicast forwarding on each interface, notifying the multicast group manager by using the <b>bIsEnabled</b> member.
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nc-mgm-pmgm_creation_alert_callback">PMGM_CREATION_ALERT_CALLBACK</a>. In the context of this callback, the routing protocol must enable or disable multicast forwarding on each interface, notifying the multicast group manager by using the <b>bIsEnabled</b> member.
 
 
 ## -struct-fields
@@ -89,7 +89,7 @@ Indicates whether or not multicast forwarding is enabled on this interface. If <
 
 
 
-<a href="https://msdn.microsoft.com/1d161a7e-3ceb-429f-a41e-eccd7f98f084">PMGM_CREATION_ALERT_CALLBACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nc-mgm-pmgm_creation_alert_callback">PMGM_CREATION_ALERT_CALLBACK</a>
  
 
  

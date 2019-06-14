@@ -88,7 +88,7 @@ A pointer to application specific data. The license server can use this
 
 ### -param pActivationInfo [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/8209652d-c40e-419b-9929-647f03fed79c">SL_ACTIVATION_INFO_HEADER</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ns-slpublic-_tagsl_activation_info_header">SL_ACTIVATION_INFO_HEADER</a>*</b>
 
 A pointer to additional product activation information.
 

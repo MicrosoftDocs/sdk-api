@@ -52,7 +52,7 @@ ms.custom: 19H1
 Default constructor for <code>XMINT4</code>.
     
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ff728760(v=VS.85).aspx">XMINT4</a>.
+Default constructor for <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/xmint4">XMINT4</a>.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
 ## -parameters
@@ -81,11 +81,11 @@ Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ff7287
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff728760(v=VS.85).aspx">XMINT4</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/xmint4">XMINT4</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449516(v=VS.85).aspx">XMINT4 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmint4-xmint4(constint32_t)">XMINT4 Constructors</a>
  
 
  

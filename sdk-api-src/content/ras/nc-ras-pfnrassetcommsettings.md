@@ -61,13 +61,13 @@ Call
 ### -param hPort [in]
 
 Handle to the port on which to apply the settings. This handle is passed to the custom-scripting DLL in the 
-<a href="https://msdn.microsoft.com/e31ab530-cb60-4bb0-be44-3ba90fdf71f1">RasCustomScriptExecute</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rascustomscriptexecutefn">RasCustomScriptExecute</a> function.
 
 
 ### -param *pRasCommSettings [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/20fd0533-2ce4-4832-abfd-0b37d3887249">RASCOMMSETTINGS</a> structure that specifies the settings to be applied to the port.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376724(v=vs.85)">RASCOMMSETTINGS</a> structure that specifies the settings to be applied to the port.
 
 
 ### -param pvReserved [in]
@@ -90,8 +90,8 @@ This callback function does not return a value.
 
 RAS passes the custom-scripting DLL a pointer to the 
 <b>RasSetCommSettings</b> function when RAS calls 
-<a href="https://msdn.microsoft.com/e31ab530-cb60-4bb0-be44-3ba90fdf71f1">RasCustomScriptExecute</a>. The pointer is stored in the 
-<a href="https://msdn.microsoft.com/e143c1d7-1d4a-43e6-b099-3b65bb30dc06">RASCUSTOMSCRIPTEXTENSIONS</a> structure that is passed as the last parameter of 
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rascustomscriptexecutefn">RasCustomScriptExecute</a>. The pointer is stored in the 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376738(v=vs.85)">RASCUSTOMSCRIPTEXTENSIONS</a> structure that is passed as the last parameter of 
 <b>RasCustomScriptExecute</b>.
 
 
@@ -102,15 +102,15 @@ RAS passes the custom-scripting DLL a pointer to the
 
 
 
-<a href="https://msdn.microsoft.com/c27b8b02-6018-4441-a355-1fb890b9001c">RAS Custom-Scripting</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-custom-scripting">RAS Custom-Scripting</a>
 
 
 
-<a href="https://msdn.microsoft.com/20fd0533-2ce4-4832-abfd-0b37d3887249">RASCOMMSETTINGS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376724(v=vs.85)">RASCOMMSETTINGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/e31ab530-cb60-4bb0-be44-3ba90fdf71f1">RasCustomScriptExecute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rascustomscriptexecutefn">RasCustomScriptExecute</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The use of this function is discouraged. It may be altered or unavailable in subsequent versions of Windows.]
 
-The <b>MAPISendDocuments</b> function sends a standard message with one or more attached files and a cover note. The cover note is a dialog box that allows the user to enter a list of recipients and an optional message. <b>MAPISendDocuments</b> differs from the <a href="https://msdn.microsoft.com/1d7da0f2-b736-401e-86bd-fc4375ccc0d1">MAPISendMail</a> function in that it allows less flexibility in message generation.
+The <b>MAPISendDocuments</b> function sends a standard message with one or more attached files and a cover note. The cover note is a dialog box that allows the user to enter a list of recipients and an optional message. <b>MAPISendDocuments</b> differs from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmail">MAPISendMail</a> function in that it allows less flexibility in message generation.
 
 
 ## -parameters
@@ -204,11 +204,11 @@ Message attachments can include the active document or all the currently open do
 
 
 
-<a href="https://msdn.microsoft.com/1d7da0f2-b736-401e-86bd-fc4375ccc0d1">MAPISendMail</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmail">MAPISendMail</a>
 
 
 
-<a href="https://msdn.microsoft.com/a8330f38-3ef0-4b36-a5e7-89837088cbef">Simple MAPI</a>
+<a href="https://docs.microsoft.com/previous-versions//dd296734(v=vs.85)">Simple MAPI</a>
  
 
  

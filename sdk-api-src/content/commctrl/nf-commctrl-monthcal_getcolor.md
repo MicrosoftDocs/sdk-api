@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the color for a given portion of a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760953(v=VS.85).aspx">MCM_GETCOLOR</a> message explicitly. 
+Retrieves the color for a given portion of a month calendar control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcm-getcolor">MCM_GETCOLOR</a> message explicitly. 
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Retrieves the color for a given portion of a month calendar control. You can use
 
 ### -param hmc
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a month calendar control. 
 
 
 ### -param iColor
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 Value of type <b>int</b> specifying which month calendar color to retrieve. This value can be one of the following: 
 

@@ -61,8 +61,8 @@ Retrieves the number of records in the specified event log.
 ### -param hEventLog [in]
 
 A handle to the open event log. The 
-<a href="https://msdn.microsoft.com/6cd8797a-aeaf-4603-b43c-b1ff45b6200a">OpenEventLog</a> or 
-<a href="https://msdn.microsoft.com/cfef0912-9d35-44aa-a1d3-f9bb37213ce0">OpenBackupEventLog</a> function returns this handle.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openeventloga">OpenEventLog</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openbackupeventloga">OpenBackupEventLog</a> function returns this handle.
 
 
 ### -param NumberOfRecords [out]
@@ -78,7 +78,7 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -88,7 +88,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 The oldest record in an event log is not necessarily record number 1. To determine the oldest record number in an event log, use the 
-<a href="https://msdn.microsoft.com/2f64f82b-a5f5-4701-844b-5979a0124414">GetOldestEventLogRecord</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getoldesteventlogrecord">GetOldestEventLogRecord</a> function.
 
 
 
@@ -98,19 +98,19 @@ The oldest record in an event log is not necessarily record number 1. To determi
 
 
 
-<a href="https://msdn.microsoft.com/fd5c12ec-3a3d-4b75-a573-0b27ae7a890b">Event Logging Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/EventLog/event-logging-functions">Event Logging Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f64f82b-a5f5-4701-844b-5979a0124414">GetOldestEventLogRecord</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getoldesteventlogrecord">GetOldestEventLogRecord</a>
 
 
 
-<a href="https://msdn.microsoft.com/cfef0912-9d35-44aa-a1d3-f9bb37213ce0">OpenBackupEventLog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openbackupeventloga">OpenBackupEventLog</a>
 
 
 
-<a href="https://msdn.microsoft.com/6cd8797a-aeaf-4603-b43c-b1ff45b6200a">OpenEventLog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openeventloga">OpenEventLog</a>
  
 
  

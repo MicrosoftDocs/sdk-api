@@ -49,11 +49,11 @@ ms.custom: 19H1
 ## -description
 
 
-This function ensures that the current Reader <a href="https://msdn.microsoft.com/98c40d57-ee71-40f8-9416-5b29adc30489">node</a> is an <b>End element</b>and advances the reader to the next <b>node</b>.
+This function ensures that the current Reader <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_node">node</a> is an <b>End element</b>and advances the reader to the next <b>node</b>.
       
         If the Reader is not positioned on an <b>End element</b> when the function is called it will skip whitespace attempting to find one.
         If after skipping whitespace it is not positioned on an <b>End element</b> it returns a <b>WS_E_INVALID_FORMAT</b> exception.
-      (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.)
+      (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 
 
 ## -parameters
@@ -64,13 +64,13 @@ This function ensures that the current Reader <a href="https://msdn.microsoft.co
 ### -param reader [in]
 
 A pointer to the <b>XML Reader</b> that is reads the <b>End element</b>.
-                  The pointer must reference a valid <a href="https://msdn.microsoft.com/7acbe407-e91b-435a-82bc-acbbc13cfcfd">WS_XML_READER</a> object.
+                  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> object.
         
 
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 
@@ -117,7 +117,7 @@ A quota was exceeded.
 
 
 
-This function can fail for any of the reasons listed in <a href="https://msdn.microsoft.com/60dacf3e-ebde-4247-be58-835565874ab6">WsReadNode</a>.
+This function can fail for any of the reasons listed in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadnode">WsReadNode</a>.
       
 
 

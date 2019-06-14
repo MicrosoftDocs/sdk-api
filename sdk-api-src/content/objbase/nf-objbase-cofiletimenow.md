@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns the current time as a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure.
+Returns the current time as a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
 <div class="alert"><b>Note</b>  This function is provided for compatibility with 16-bit Windows.</div><div> </div>
 
 ## -parameters
@@ -61,7 +61,7 @@ Returns the current time as a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-
 
 ### -param lpFileTime [out]
 
-A pointer to the <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that receives the current time.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that receives the current time.
 
 
 ## -returns
@@ -78,11 +78,11 @@ This function returns S_OK to indicate success.
 
 
 
-<a href="https://msdn.microsoft.com/eb7af6a3-7547-405e-b96e-3e68a1ac273b">CoDosDateTimeToFileTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-codosdatetimetofiletime">CoDosDateTimeToFileTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/38670fe7-10cf-44e2-a5f1-60ec43fd83b5">CoFileTimeToDosDateTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-cofiletimetodosdatetime">CoFileTimeToDosDateTime</a>
  
 
  

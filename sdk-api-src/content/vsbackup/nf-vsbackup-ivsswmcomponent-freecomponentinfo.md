@@ -62,7 +62,7 @@ The
 ### -param pInfo [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/9723e90e-cd5e-4815-843b-8ed8632ebe45">VSS_COMPONENTINFO</a> structure that contains the component information.
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/ns-vsbackup-_vss_componentinfo">VSS_COMPONENTINFO</a> structure that contains the component information.
 
 
 ## -returns
@@ -98,11 +98,11 @@ Successfully freed the component information data.
 
 
 
-<a href="https://msdn.microsoft.com/8567ca7f-dc50-4cf2-b3c1-a2ae8d55dc95">IVssWMComponent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivsswmcomponent">IVssWMComponent</a>
 
 
 
-<a href="https://msdn.microsoft.com/9723e90e-cd5e-4815-843b-8ed8632ebe45">VSS_COMPONENTINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/ns-vsbackup-_vss_componentinfo">VSS_COMPONENTINFO</a>
  
 
  

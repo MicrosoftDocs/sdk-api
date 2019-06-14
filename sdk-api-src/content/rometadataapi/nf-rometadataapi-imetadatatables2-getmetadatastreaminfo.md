@@ -91,7 +91,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/dc59fe85-b490-4f23-a32f-2942610dd8dc">IMetaDataTables2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadatatables2">IMetaDataTables2</a>
  
 
  

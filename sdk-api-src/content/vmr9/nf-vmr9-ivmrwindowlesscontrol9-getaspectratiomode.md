@@ -63,7 +63,7 @@ The <code>GetAspectRatioMode</code> method retrieves the current aspect ratio di
 
 ### -param lpAspectRatioMode [out]
 
-Pointer to a DWORD that receives a <a href="https://msdn.microsoft.com/en-us/library/Dd407361(v=VS.85).aspx">VMR9AspectRatioMode</a> value that indicates the current aspect ratio mode.
+Pointer to a DWORD that receives a <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ne-vmr9-__midl___midl_itf_vmr9_0000_0004_0001">VMR9AspectRatioMode</a> value that indicates the current aspect ratio mode.
 
 
 ## -returns
@@ -119,15 +119,15 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390537(v=VS.85).aspx">IVMRWindowlessControl9 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrwindowlesscontrol9">IVMRWindowlessControl9 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390547(v=VS.85).aspx">SetAspectRatioMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrwindowlesscontrol9-setaspectratiomode">SetAspectRatioMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d0fdfac-ec7e-4e02-886b-2039c607dac7">Using the Video Mixing Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
  
 
  

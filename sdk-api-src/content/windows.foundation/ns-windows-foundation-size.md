@@ -88,19 +88,19 @@ The width.
 
 
 
-<a href="https://msdn.microsoft.com/0a5055f1-6873-4396-9a3e-b7a4cc41200e">CreateSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createsize">CreateSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/8b9916e7-0a0d-44b1-8f8d-8307c145e57a">CreateSizeArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createsizearray">CreateSizeArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/c864cf0e-8e7e-44b0-93dc-3d2d9f2326a7">IPropertyValue::GetSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getsize">IPropertyValue::GetSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/f378c4d0-c3a2-4611-a471-0c77746602f6">IPropertyValue::GetSizeArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getsizearray">IPropertyValue::GetSizeArray</a>
  
 
  

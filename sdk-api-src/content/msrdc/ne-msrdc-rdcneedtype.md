@@ -83,11 +83,11 @@ This value is reserved for future use.
 
 
 
-<a href="https://msdn.microsoft.com/086e82f1-b033-48e2-b648-895c04751cc9">RdcNeed</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0004">RdcNeed</a>
 
 
 
-<a href="https://msdn.microsoft.com/83e11884-d174-4dae-99fa-321a2b47122c">Remote Differential Compression Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdc/remote-differential-compression-enumerations">Remote Differential Compression Enumerations</a>
  
 
  

@@ -56,7 +56,7 @@ Provides a communication channel with the graphics driver or the Microsoft Direc
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11AuthenticatedChannel</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID3D11AuthenticatedChannel</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11AuthenticatedChannel</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D11AuthenticatedChannel</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ID3D11AuthenticatedChannel</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D7FC07CA-B045-4C44-B3FD-B902C5437E47">GetCertificate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11authenticatedchannel-getcertificate">GetCertificate</a>
 </td>
 <td align="left" width="63%">
 Gets the driver's certificate chain.
@@ -80,7 +80,7 @@ Gets the driver's certificate chain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B393140A-9744-4290-B168-4E7F4E9F55DC">GetCertificateSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11authenticatedchannel-getcertificatesize">GetCertificateSize</a>
 </td>
 <td align="left" width="63%">
 Gets the size of the driver's certificate chain.
@@ -89,7 +89,7 @@ Gets the size of the driver's certificate chain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/CA32D01B-B0B7-4F4F-8F48-747448DEC735">GetChannelHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11authenticatedchannel-getchannelhandle">GetChannelHandle</a>
 </td>
 <td align="left" width="63%">
 Gets a handle to the authenticated channel.
@@ -103,7 +103,7 @@ Gets a handle to the authenticated channel.
 
 
 
-To get a pointer to this interface, call <a href="https://msdn.microsoft.com/4325E83F-23BF-4104-B30E-27DBE7D23D88">ID3D11VideoDevice::CreateAuthenticatedChannel</a>.
+To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-createauthenticatedchannel">ID3D11VideoDevice::CreateAuthenticatedChannel</a>.
 
 
 
@@ -113,7 +113,7 @@ To get a pointer to this interface, call <a href="https://msdn.microsoft.com/432
 
 
 
-<a href="https://msdn.microsoft.com/2AE97FFE-0FA4-4CC0-8433-7BA46BCACE30">Direct3D 11 Video Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-interfaces">Direct3D 11 Video Interfaces</a>
  
 
  

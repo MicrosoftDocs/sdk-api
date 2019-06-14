@@ -49,7 +49,7 @@ A pointer to the [DNS_SERVICE_REGISTER_REQUEST](ns-windns-dns_service_register_r
 Must be `nullptr`.
 
 ## -returns
-If successful, returns **DNS_REQUEST_PENDING**; otherwise, returns the appropriate DNS-specific error code as defined in `Winerror.h`. For extended error information, call [GetLastError](https://msdn.microsoft.com/library/ms679360).
+If successful, returns **DNS_REQUEST_PENDING**; otherwise, returns the appropriate DNS-specific error code as defined in `Winerror.h`. For extended error information, call [GetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## -remarks
 This function is asynchronous. The callback will be invoked when the deregistration is completed, with a copy of the [DNS_SERVICE_INSTANCE](ns-windns-dns_service_instance.md) structure that was passed to [DnsServiceRegister](nf-windns-dnsserviceregister.md) when the service was registered.

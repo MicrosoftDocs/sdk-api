@@ -84,7 +84,7 @@ The sensor is available, but performing initialization. Try again later.
 
 ### -field SENSOR_STATE_ACCESS_DENIED
 
-The sensor is available, but the user account does not have permission to access the sensor data. For more information about permissions, see <a href="https://msdn.microsoft.com/c755edcf-18c1-43d5-9dfe-c073e1f96b5f">Managing User Permissions</a>.
+The sensor is available, but the user account does not have permission to access the sensor data. For more information about permissions, see <a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/managing-user-permissions">Managing User Permissions</a>.
 
 
 ### -field SENSOR_STATE_ERROR

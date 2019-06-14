@@ -59,7 +59,7 @@ Uninitializes flat scroll bars for a particular window. The specified window wil
 
 ### -param Arg1
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the window with the flat scroll bars that will be uninitialized. 
 
@@ -68,7 +68,7 @@ A handle to the window with the flat scroll bars that will be uninitialized.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns one of the following values. 
 

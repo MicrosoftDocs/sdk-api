@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>WM_USER_WEB_URL</b> structure is used as the data item for the <a href="https://msdn.microsoft.com/22ef04fd-9da8-47a5-a2c7-31f6a48e2859">WM/UserWebURL</a> complex metadata attribute.
+The <b>WM_USER_WEB_URL</b> structure is used as the data item for the <a href="https://docs.microsoft.com/windows/desktop/wmformat/wm-userweburl">WM/UserWebURL</a> complex metadata attribute.
 
 
 
@@ -75,7 +75,7 @@ Pointer to a wide-character null-terminated string containing the URL.
 
 
 
-<a href="https://msdn.microsoft.com/118ef278-ca4f-4c30-9633-a2d851f5c758">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
  
 
  

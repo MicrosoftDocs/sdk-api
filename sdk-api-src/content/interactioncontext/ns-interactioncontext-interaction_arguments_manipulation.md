@@ -59,7 +59,7 @@ Defines  the state of a manipulation.
 
 ### -field delta
 
-The change in translation, rotation, and scale since the last <a href="https://msdn.microsoft.com/7d2badad-5b98-4717-9409-5ee75d8fa213">INTERACTION_CONTEXT_OUTPUT_CALLBACK</a>.
+The change in translation, rotation, and scale since the last <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nc-interactioncontext-interaction_context_output_callback">INTERACTION_CONTEXT_OUTPUT_CALLBACK</a>.
 
 
 ### -field cumulative
@@ -74,7 +74,7 @@ The velocities of the accumulated transformations for the interaction.
 
 ### -field railsState
 
-One of the constants from <a href="https://msdn.microsoft.com/b4978408-e124-482e-b552-7a6db76a40ad">MANIPULATION_RAILS_STATE</a>.
+One of the constants from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-manipulation_rails_state">MANIPULATION_RAILS_STATE</a>.
 
 
 ## -see-also
@@ -82,15 +82,15 @@ One of the constants from <a href="https://msdn.microsoft.com/b4978408-e124-482e
 
 
 
-<a href="https://msdn.microsoft.com/90ba531c-9f97-451d-8781-450dbc248f47">INTERACTION_CONTEXT_OUTPUT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-interaction_context_output">INTERACTION_CONTEXT_OUTPUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/38C5CE85-405B-455F-809D-19C77B8A217B">Interaction Context Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/structures">Interaction Context Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/87000250-f225-4864-96d2-1e189f5be1a3">RegisterOutputCallbackInteractionContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-registeroutputcallbackinteractioncontext">RegisterOutputCallbackInteractionContext</a>
  
 
  

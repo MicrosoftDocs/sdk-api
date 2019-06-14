@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/2d43ee74-f3c7-4c94-8e83-e497d3aa81ee">ICategoryCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-icategorycollection">ICategoryCollection</a>
  
 
  

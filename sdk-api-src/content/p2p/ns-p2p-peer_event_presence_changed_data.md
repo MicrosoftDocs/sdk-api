@@ -59,23 +59,23 @@ The <b>PEER_EVENT_PRESENCE_CHANGED_DATA</b> structure contains information retur
 
 ### -field pContact
 
-Pointer to a <a href="https://msdn.microsoft.com/b84a17fc-35d6-4098-9bb3-18e708541a80">PEER_CONTACT</a> structure that contains the peer contact information for the contact whose change in presence raised the event.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_contact_tag">PEER_CONTACT</a> structure that contains the peer contact information for the contact whose change in presence raised the event.
 
 
 ### -field pEndpoint
 
-Pointer to a <a href="https://msdn.microsoft.com/9687b332-14ed-4023-b8c2-437d75fd0298">PEER_ENDPOINT</a> structure that contains the peer endpoint information for the contact whose change in presence raised the event.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_endpoint_tag">PEER_ENDPOINT</a> structure that contains the peer endpoint information for the contact whose change in presence raised the event.
 
 
 ### -field changeType
 
 
-<a href="https://msdn.microsoft.com/ef8f1cc7-e1db-4d6d-9ff6-141746d0787a">PEER_CHANGE_TYPE</a> enumeration value that specifies the type of presence change that occurred.
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_change_type_tag">PEER_CHANGE_TYPE</a> enumeration value that specifies the type of presence change that occurred.
 
 
 ### -field pPresenceInfo
 
-Pointer to a <a href="https://msdn.microsoft.com/e8f83ba8-81a3-4083-bc15-e00b2bec1cd4">PEER_PRESENCE_INFO</a> structure that contains the updated presence information for the endpoint of the contact whose change in presence raised the event.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_presence_info_tag">PEER_PRESENCE_INFO</a> structure that contains the updated presence information for the endpoint of the contact whose change in presence raised the event.
 
 
 ## -see-also
@@ -83,19 +83,19 @@ Pointer to a <a href="https://msdn.microsoft.com/e8f83ba8-81a3-4083-bc15-e00b2be
 
 
 
-<a href="https://msdn.microsoft.com/ef8f1cc7-e1db-4d6d-9ff6-141746d0787a">PEER_CHANGE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_change_type_tag">PEER_CHANGE_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/b84a17fc-35d6-4098-9bb3-18e708541a80">PEER_CONTACT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_contact_tag">PEER_CONTACT</a>
 
 
 
-<a href="https://msdn.microsoft.com/9687b332-14ed-4023-b8c2-437d75fd0298">PEER_ENDPOINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_endpoint_tag">PEER_ENDPOINT</a>
 
 
 
-<a href="https://msdn.microsoft.com/2634899c-3263-45ce-9fac-407e11e42cd4">Peer Collaboration API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-structures">Peer Collaboration API Structures</a>
  
 
  

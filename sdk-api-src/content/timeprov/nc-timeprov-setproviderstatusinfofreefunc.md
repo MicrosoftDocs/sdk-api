@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Frees a 
-<a href="https://msdn.microsoft.com/8e0a79ba-f76a-435a-9b0b-c3a2d9c390da">SetProviderStatusInfo</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/ns-timeprov-setproviderstatusinfo">SetProviderStatusInfo</a> structure.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Frees a
 ### -param *pspsi [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/8e0a79ba-f76a-435a-9b0b-c3a2d9c390da">SetProviderStatusInfo</a> structure to be freed.
+<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/ns-timeprov-setproviderstatusinfo">SetProviderStatusInfo</a> structure to be freed.
 
 
 ## -returns
@@ -78,11 +78,11 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/e52dd1d3-081a-4fcc-85d9-a1dcef0e8011">SetProviderStatusFunc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-setproviderstatusfunc">SetProviderStatusFunc</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e0a79ba-f76a-435a-9b0b-c3a2d9c390da">SetProviderStatusInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/ns-timeprov-setproviderstatusinfo">SetProviderStatusInfo</a>
  
 
  

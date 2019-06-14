@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains the <a href="https://msdn.microsoft.com/98c47e41-ecda-45cb-94e9-de51edc7af08">RemoteDesktopClientTouchPointer</a> object for the Remote Desktop Protocol (RDP) app container client.
+Contains the <a href="https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclienttouchpointer">RemoteDesktopClientTouchPointer</a> object for the Remote Desktop Protocol (RDP) app container client.
 
 This property is read-only.
 
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/4b4c1080-3ea1-4557-92d6-45a80a788071">IRemoteDesktopClient</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclient">IRemoteDesktopClient</a>
  
 
  

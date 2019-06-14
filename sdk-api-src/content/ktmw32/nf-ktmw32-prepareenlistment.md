@@ -76,7 +76,7 @@ If the function succeeds, the return value is nonzero.
       
 
 If the function fails, the return value is zero (0). To get extended error information, call the 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 The following list identifies the possible error codes:
 
@@ -88,23 +88,23 @@ The following list identifies the possible error codes:
 
 
 
-<a href="https://msdn.microsoft.com/21d7c0fa-3a49-43b3-9325-d3dfdabbcb98">GetCurrentClockTransactionManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-getcurrentclocktransactionmanager">GetCurrentClockTransactionManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9704ea8-e67d-4278-b77e-1d4787224d52">Kernel Transaction Manager Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a336267-4bee-4aac-abff-ec112650789a">PrePrepareEnlistment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-preprepareenlistment">PrePrepareEnlistment</a>
 
 
 
-<a href="https://msdn.microsoft.com/a6411fad-8ad0-4a31-9e09-0c18dd384634">ReadOnlyEnlistment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-readonlyenlistment">ReadOnlyEnlistment</a>
 
 
 
-<a href="https://msdn.microsoft.com/8cc77686-e130-4b82-b2f5-70121b40e052">SinglePhaseReject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-singlephasereject">SinglePhaseReject</a>
  
 
  

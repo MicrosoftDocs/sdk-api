@@ -59,7 +59,7 @@ Gets the current connection state of the device.
 
 ### -param ConnectionState [out, retval]
 
-A pointer to an <a href="https://msdn.microsoft.com/712b9ead-8e38-45b1-8dff-b8906056d3d6">MBN_ACTIVATION_STATE</a> structure  that contains the state of the connection.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_activation_state">MBN_ACTIVATION_STATE</a> structure  that contains the state of the connection.
 
 
 ### -param ProfileName [out, retval]
@@ -98,7 +98,7 @@ The method completed successfully.
 </dl>
 </td>
 <td width="60%">
-The activation state not available.  The Mobile Broadband service is probing the device for the information.  The calling application can be notified when the activation state is available by registering for the <a href="https://msdn.microsoft.com/5392e5b7-eac7-40f1-b5cd-adde5a6ff1b8">OnConnectStateChange</a> method of <a href="https://msdn.microsoft.com/9135ba2e-62f6-495e-b136-9efc5f260581">IMbnConnectionEvents</a>.
+The activation state not available.  The Mobile Broadband service is probing the device for the information.  The calling application can be notified when the activation state is available by registering for the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionevents-onconnectstatechange">OnConnectStateChange</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionevents">IMbnConnectionEvents</a>.
 
 </td>
 </tr>
@@ -155,7 +155,7 @@ This method can return S_OK when <i>ProfileName</i> is <b>NULL</b>. Make sure th
 
 
 
-<a href="https://msdn.microsoft.com/dae6ce6f-2534-4799-8ed3-53cd1f2eca13">IMbnConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a>
  
 
  

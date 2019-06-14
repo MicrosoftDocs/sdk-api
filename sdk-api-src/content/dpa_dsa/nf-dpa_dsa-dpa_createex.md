@@ -66,7 +66,7 @@ The number of elements by which the array should be expanded, if the DPA needs t
 
 ### -param hheap [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HANDLE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HANDLE</a></b>
 
 A handle to the heap where the array is stored.
 
@@ -86,7 +86,7 @@ Returns a handle to a DPA if successful, or <b>NULL</b> if the call fails.
 
 
 
-<b>DPA_CreateEx</b> is not exported by name. To use it, you must use <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> and request ordinal 340 from ComCtl32.dll to obtain a function pointer.
+<b>DPA_CreateEx</b> is not exported by name. To use it, you must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> and request ordinal 340 from ComCtl32.dll to obtain a function pointer.
 
 
 
@@ -96,7 +96,7 @@ Returns a handle to a DPA if successful, or <b>NULL</b> if the call fails.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775603(v=VS.85).aspx">DPA_Create</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_create">DPA_Create</a>
  
 
  

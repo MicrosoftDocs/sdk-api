@@ -108,7 +108,7 @@ Function tables are used on 64-bit Windows to determine how to unwind or walk th
 
 This function is useful for code that is generated from a template or generated only once during the life of 
     the process. For more dynamically generated code, use the 
-    <a href="https://msdn.microsoft.com/63b35b17-0b0e-46ed-9dbf-98290ab08bd1">RtlInstallFunctionTableCallback</a> 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-rtlinstallfunctiontablecallback">RtlInstallFunctionTableCallback</a> 
     function.
 
 
@@ -119,11 +119,11 @@ This function is useful for code that is generated from a template or generated 
 
 
 
-<a href="https://msdn.microsoft.com/42bc3d83-8053-40e9-b153-f68733d0cb2b">RtlDeleteFunctionTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-rtldeletefunctiontable">RtlDeleteFunctionTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/63b35b17-0b0e-46ed-9dbf-98290ab08bd1">RtlInstallFunctionTableCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-rtlinstallfunctiontablecallback">RtlInstallFunctionTableCallback</a>
  
 
  

@@ -62,7 +62,7 @@ The <b>put_Category</b> method sets the component category.
 
 ### -param Category [in]
 
-A <a href="https://msdn.microsoft.com/20fe32fa-c8a5-4073-bcf3-7dde171d7ad4">ComponentCategory</a> value that specifies the new category for this component type.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/componentcategory">ComponentCategory</a> value that specifies the new category for this component type.
 
 
 ## -returns
@@ -79,7 +79,7 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="https://msdn.microsoft.com/e83bbbbe-64a9-4ed3-9c32-925ca80c2c38">IComponentType Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttype">IComponentType Interface</a>
  
 
  

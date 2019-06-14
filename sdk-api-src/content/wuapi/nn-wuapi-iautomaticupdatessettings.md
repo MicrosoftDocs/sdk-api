@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAutomaticUpdatesSettings</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAutomaticUpdatesSettings</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAutomaticUpdatesSettings</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAutomaticUpdatesSettings</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IAutomaticUpdatesSettings</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/308426d9-d524-406a-931c-1fdb854aa4fb">Refresh</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-refresh">Refresh</a>
 </td>
 <td align="left" width="63%">
 Retrieves the latest Automatic Updates settings.
@@ -79,7 +79,7 @@ Retrieves the latest Automatic Updates settings.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fb54b900-345a-4b36-b16d-52790c0266f6">Save</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-save">Save</a>
 </td>
 <td align="left" width="63%">
 Applies the current Automatic Updates settings.
@@ -97,7 +97,7 @@ Applies the current Automatic Updates settings.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/da4fdb8a-8df8-468f-afde-292bbcf6696b">NotificationLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-get_notificationlevel">NotificationLevel</a>
 
 
 </td>
@@ -113,7 +113,7 @@ Gets and sets how elevated users are notified of Automatic Updates events.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/e7a066b9-9581-4573-82e2-a6f2ca7440ac">ReadOnly</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-get_readonly">ReadOnly</a>
 
 
 </td>
@@ -129,7 +129,7 @@ Gets a Boolean value that indicates whether the Automatic Update settings are re
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d3700208-4e87-495e-98cf-cc495b380528">Required</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-get_required">Required</a>
 
 
 </td>
@@ -145,7 +145,7 @@ Gets a Boolean value that indicates whether Group Policy  requires the Automatic
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/057498ad-d329-4fda-b3fe-95bdc27d62a4">ScheduledInstallationDay</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-get_scheduledinstallationday">ScheduledInstallationDay</a>
 
 
 </td>
@@ -161,7 +161,7 @@ Gets and sets the days of the week on which Automatic Updates  installs or unins
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/1b1adefc-785e-46ad-8984-d2beb1c2202c">ScheduledInstallationTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-get_scheduledinstallationtime">ScheduledInstallationTime</a>
 
 
 </td>
@@ -181,9 +181,9 @@ Gets and sets the time at which Automatic Updates  installs or uninstalls update
 
 
 
-<div class="alert"><b>Note</b>  Starting with Windows 8 and Windows Server 2012, <a href="https://msdn.microsoft.com/057498ad-d329-4fda-b3fe-95bdc27d62a4">ScheduledInstallationDay</a> and <a href="https://msdn.microsoft.com/1b1adefc-785e-46ad-8984-d2beb1c2202c">ScheduledInstallationTime</a> are not supported and will return unreliable values. If you try to modify these properties, the operation will appear to succeed but will have no effect.</div>
+<div class="alert"><b>Note</b>  Starting with Windows 8 and Windows Server 2012, <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-get_scheduledinstallationday">ScheduledInstallationDay</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-get_scheduledinstallationtime">ScheduledInstallationTime</a> are not supported and will return unreliable values. If you try to modify these properties, the operation will appear to succeed but will have no effect.</div>
 <div> </div>
-<div class="alert"><b>Note</b>  On Windows RT, you can no longer use the <a href="https://msdn.microsoft.com/fb54b900-345a-4b36-b16d-52790c0266f6">IAutomaticUpdatesSettings::Save</a> method to configure Windows Update settings programmatically. The configuration operation fails if you use <b>Save</b> to set any value other than 4 (<a href="https://msdn.microsoft.com/en-us/library/Aa385806(v=VS.85).aspx">aunlScheduledInstallation</a>).</div>
+<div class="alert"><b>Note</b>  On Windows RT, you can no longer use the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-save">IAutomaticUpdatesSettings::Save</a> method to configure Windows Update settings programmatically. The configuration operation fails if you use <b>Save</b> to set any value other than 4 (<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-tagautomaticupdatesnotificationlevel">aunlScheduledInstallation</a>).</div>
 <div> </div>
 
 

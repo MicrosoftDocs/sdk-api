@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 RAS calls the 
 <b>RasCustomScriptExecute</b> function when establishing a connection for a phone-book entry that has the 
-<a href="https://msdn.microsoft.com/25c46850-4fb7-47a9-9645-139f0e869559">RASEO_CustomScript</a> option set.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASEO_CustomScript</a> option set.
 
 
 ## -parameters
@@ -77,32 +77,32 @@ Pointer to a Unicode string that contains the name of the entry that was dialed 
 ### -param pfnRasGetBuffer [in]
 
 Pointer to a function of type 
-<a href="https://msdn.microsoft.com/655f2dfa-a6cf-43db-8d2e-bf9a10163c75">PFNRASGETBUFFER</a>. The custom-scripting DLL should use this function to allocate memory to send data to the server.
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-pfnrasgetbuffer">PFNRASGETBUFFER</a>. The custom-scripting DLL should use this function to allocate memory to send data to the server.
 
 
 ### -param pfnRasFreeBuffer [in]
 
 Pointer to a function of type 
-<a href="https://msdn.microsoft.com/aba43ef9-7f62-48ab-a790-c8592a57f2c2">PFNRASFREEBUFFER</a>. The custom-scripting DLL should use this function to free memory allocated by the 
-<a href="https://msdn.microsoft.com/655f2dfa-a6cf-43db-8d2e-bf9a10163c75">pfnRasGetBuffer</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-pfnrasfreebuffer">PFNRASFREEBUFFER</a>. The custom-scripting DLL should use this function to free memory allocated by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-pfnrasgetbuffer">pfnRasGetBuffer</a> function.
 
 
 ### -param pfnRasSendBuffer [in]
 
 Pointer to a function of type 
-<a href="https://msdn.microsoft.com/157a2bc7-351f-4170-b85b-ed789b4997ab">PFNRASSENDBUFFER</a>. The custom-scripting DLL uses this function to communicate with the server over the specified port.
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-pfnrassendbuffer">PFNRASSENDBUFFER</a>. The custom-scripting DLL uses this function to communicate with the server over the specified port.
 
 
 ### -param pfnRasReceiveBuffer [in]
 
 Pointer to a function of type 
-<a href="https://msdn.microsoft.com/cc5523df-748d-4f96-8d54-bf0a2f9ecde4">PFNRASRECEIVEBUFFER</a>. The custom-scripting DLL uses this function to communicate with the server over the specified port.
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-pfnrasreceivebuffer">PFNRASRECEIVEBUFFER</a>. The custom-scripting DLL uses this function to communicate with the server over the specified port.
 
 
 ### -param pfnRasRetrieveBuffer [in]
 
 Pointer to a function of type 
-<a href="https://msdn.microsoft.com/5dc8a034-f1cb-47c5-8d60-06f314a85f11">PFNRASRETRIEVEBUFFER</a>. The custom-scripting DLL uses this function to communicate with the server over the specified port.
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-pfnrasretrievebuffer">PFNRASRETRIEVEBUFFER</a>. The custom-scripting DLL uses this function to communicate with the server over the specified port.
 
 
 ### -param hWnd [in]
@@ -113,7 +113,7 @@ Handle to a window that the custom-scripting DLL can use to present a user inter
 ### -param *pRasDialParams [in]
 
 Pointer to a Unicode 
-<a href="https://msdn.microsoft.com/13d15c98-a41b-4bc8-8be6-c0b718b86fea">RASDIALPARAMS</a> structure. This structure contains the authentication credentials for the user. The custom-scripting DLL can modify the <b>szUserName</b>, <b>szPassword</b>, and <b>szDomain</b> members of this structure. The Point-to-Point Protocol (PPP) will use whatever is stored in these members when 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a> structure. This structure contains the authentication credentials for the user. The custom-scripting DLL can modify the <b>szUserName</b>, <b>szPassword</b>, and <b>szDomain</b> members of this structure. The Point-to-Point Protocol (PPP) will use whatever is stored in these members when 
 <b>RasCustomScriptExecute</b> returns.
 
 
@@ -129,7 +129,7 @@ Pointer to a Unicode
 #### - pRasCustomScriptExtensions [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/e143c1d7-1d4a-43e6-b099-3b65bb30dc06">RASCUSTOMSCRIPTEXTENSIONS</a> structure. This structure contains pointers to additional functions for the custom-scripting DLL.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376738(v=vs.85)">RASCUSTOMSCRIPTEXTENSIONS</a> structure. This structure contains pointers to additional functions for the custom-scripting DLL.
 
 <b>Windows 2000:  </b>This parameter is supported on Windows SP2 and later.
 
@@ -151,11 +151,11 @@ If the function fails, the return value should be an appropriate error code from
 
 When RAS calls 
 <b>RasCustomScriptExecute</b>, the <i>pRasDialParams</i> parameter will point to the Unicode 
-<a href="https://msdn.microsoft.com/13d15c98-a41b-4bc8-8be6-c0b718b86fea">RASDIALPARAMS</a> structure. That is, the structure contains only Unicode strings.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a> structure. That is, the structure contains only Unicode strings.
 
 In some cases, the <b>szUserName</b> of the 
-<a href="https://msdn.microsoft.com/13d15c98-a41b-4bc8-8be6-c0b718b86fea">RASDIALPARAMS</a> structure will be an empty string. In these cases, the custom-scripting DLL should use the Unicode version of the 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319876(v=VS.85).aspx">GetUserName</a> function to obtain the name of the current user.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a> structure will be an empty string. In these cases, the custom-scripting DLL should use the Unicode version of the 
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/iamtimelineobj-getusername">GetUserName</a> function to obtain the name of the current user.
 
 
 
@@ -165,27 +165,27 @@ In some cases, the <b>szUserName</b> of the
 
 
 
-<a href="https://msdn.microsoft.com/c27b8b02-6018-4441-a355-1fb890b9001c">RAS Custom-Scripting</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-custom-scripting">RAS Custom-Scripting</a>
 
 
 
-<a href="https://msdn.microsoft.com/aba43ef9-7f62-48ab-a790-c8592a57f2c2">RasFreeBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-pfnrasfreebuffer">RasFreeBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/655f2dfa-a6cf-43db-8d2e-bf9a10163c75">RasGetBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-pfnrasgetbuffer">RasGetBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/cc5523df-748d-4f96-8d54-bf0a2f9ecde4">RasReceiveBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-pfnrasreceivebuffer">RasReceiveBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/5dc8a034-f1cb-47c5-8d60-06f314a85f11">RasRetrieveBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-pfnrasretrievebuffer">RasRetrieveBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/157a2bc7-351f-4170-b85b-ed789b4997ab">RasSendBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-pfnrassendbuffer">RasSendBuffer</a>
  
 
  

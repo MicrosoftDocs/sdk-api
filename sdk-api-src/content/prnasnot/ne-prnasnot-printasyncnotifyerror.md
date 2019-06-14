@@ -52,7 +52,7 @@ ms.custom: 19H1
 Specifies the error code portion of the <b>HRESULT</b> returned after an asynchronous notification failure.
 
 An <b>HRESULT</b> value consists of a severity code, a facility code, and an error code. Use the <b>HRESULT_CODE</b> macro to compare just the error code of an <b>HRESULT</b>. For more information about COM error codes, see 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa376932(v=VS.85).aspx">Error Handling</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/SetupApi/error-handling">Error Handling</a>.
 
 
 ## -enum-fields

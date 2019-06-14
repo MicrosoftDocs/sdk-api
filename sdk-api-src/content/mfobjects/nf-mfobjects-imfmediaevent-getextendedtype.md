@@ -98,7 +98,7 @@ The method succeeded.
 
 
 
-To define a custom event, create a new extended-type GUID and send an <a href="https://msdn.microsoft.com/a54a446c-0e96-467b-90f6-0f64a7c1727d">MEExtendedType</a> event with that GUID.
+To define a custom event, create a new extended-type GUID and send an <a href="https://docs.microsoft.com/windows/desktop/medfound/meextendedtype">MEExtendedType</a> event with that GUID.
 
 Some standard Media Foundation events also use the extended type to differentiate between types of event data.
 
@@ -116,11 +116,11 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 
-<a href="https://msdn.microsoft.com/b4f686be-9472-433c-b983-6c48dfd3ac76">IMFMediaEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaevent">IMFMediaEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/2e003ad4-9fcb-4834-a335-e4969ffd3a00">Media Event Generators</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-event-generators">Media Event Generators</a>
  
 
  

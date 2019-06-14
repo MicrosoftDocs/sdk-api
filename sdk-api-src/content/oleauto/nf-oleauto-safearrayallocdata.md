@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Allocates memory for a safe array, based on a descriptor created with <a href="https://msdn.microsoft.com/8fe5c802-cdc0-4e7a-9410-ba65f9a5140e">SafeArrayAllocDescriptor</a>.
+Allocates memory for a safe array, based on a descriptor created with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayallocdescriptor">SafeArrayAllocDescriptor</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Allocates memory for a safe array, based on a descriptor created with <a href="h
 
 ### -param psa [in]
 
-A safe array descriptor created by <a href="https://msdn.microsoft.com/8fe5c802-cdc0-4e7a-9410-ba65f9a5140e">SafeArrayAllocDescriptor</a>.
+A safe array descriptor created by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayallocdescriptor">SafeArrayAllocDescriptor</a>.
 
 
 ## -returns

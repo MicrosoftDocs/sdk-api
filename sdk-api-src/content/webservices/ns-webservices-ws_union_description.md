@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Information about the choices within a union type.
-                This is used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_UNION_TYPE</a>.
+                This is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_UNION_TYPE</a>.
             
 
 
@@ -103,7 +103,7 @@ The offset of the enumeration field which controls which choice is
 
 This value corresponds to the enum value used when none of the
                     choices are currently set.  This field is only used when the
-                    field is optional (<a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONAL</a> was specified).
+                    field is optional (<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_10">WS_FIELD_OPTIONAL</a> was specified).
                 
 
 
@@ -123,7 +123,7 @@ If non-<b>NULL</b>, the following must be true:
 <li>The fields array is required to be sorted by element, in ascending order.
                     When comparing an element the namespace should be compared first, then the local name.
                     Each of the names should be compared by performing a byte-wide comparison of the utf-8 string.
-                    The field that uses <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ANY_ELEMENT_FIELD_MAPPING</a>, if present, should always
+                    The field that uses <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_ANY_ELEMENT_FIELD_MAPPING</a>, if present, should always
                     be last in the fields array.
                     </li>
 <li>The valueIndices array points to an array that has fieldCount items.  The valueIndices
@@ -233,7 +233,7 @@ structType.value.b = helloString;
 // Set "none" choice
 structType.choice = None;
 </code></pre>
-The following is the grammar describing the order of the <a href="https://msdn.microsoft.com/8b562fab-f3c5-4732-b993-f7f61ca14ab6">WS_FIELD_DESCRIPTION</a>that make up a <b>WS_UNION_DESCRIPTION</b>.  The order is defined based on the
+The following is the grammar describing the order of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_field_description">WS_FIELD_DESCRIPTION</a>that make up a <b>WS_UNION_DESCRIPTION</b>.  The order is defined based on the
                 mapping field of the <b>WS_FIELD_DESCRIPTION</b>.
             
 
@@ -243,10 +243,10 @@ ElementContentFields := (ElementField | RepeatingElementField)*
 ElementField := WS_ELEMENT_FIELD_MAPPING
 RepeatingElementField := WS_REPEATING_ELEMENT_FIELD_MAPPING
 AnyElementField := WS_ANY_ELEMENT_FIELD_MAPPING</code></pre>
-The <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a> and <b>WS_REPEATING_ELEMENT_FIELD_MAPPING</b>represent the element choices and their corresponding fields in the union.
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_ELEMENT_FIELD_MAPPING</a> and <b>WS_REPEATING_ELEMENT_FIELD_MAPPING</b>represent the element choices and their corresponding fields in the union.
             
 
-The <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ANY_ELEMENT_FIELD_MAPPING</a> is the field used when none of the
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_ANY_ELEMENT_FIELD_MAPPING</a> is the field used when none of the
                 other elements matched.
             
 
@@ -255,11 +255,11 @@ The following restrictions apply to the field descriptions:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a> may only be used when 
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_REPEATING_ELEMENT_FIELD_MAPPING</a> may only be used when 
                 a wrapper element name and namespace has been specified.
                 </li>
 <li>
-<a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONAL</a> may not be used.
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_10">WS_FIELD_OPTIONAL</a> may not be used.
             </li>
 </ul>
 

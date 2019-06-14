@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains the data, and information about the data, sent as part of a <a href="https://msdn.microsoft.com/en-us/library/ms648997(v=VS.85).aspx">WM_DDE_POKE</a> message. 
+Contains the data, and information about the data, sent as part of a <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-poke">WM_DDE_POKE</a> message. 
 
 
 ## -struct-fields
@@ -68,7 +68,7 @@ Unused.
 
 Type: <b>unsigned short</b>
 
-Indicates whether the application receiving the <a href="https://msdn.microsoft.com/en-us/library/ms648997(v=VS.85).aspx">WM_DDE_POKE</a> message should free the data. If this value is nonzero, the application should free the data. 
+Indicates whether the application receiving the <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-poke">WM_DDE_POKE</a> message should free the data. If this value is nonzero, the application should free the data. 
 
 
 ### -field fReserved
@@ -160,7 +160,7 @@ Contains the data. The length and type of data depend on the value of the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648774(v=VS.85).aspx">About Dynamic Data Exchange</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/about-dynamic-data-exchange">About Dynamic Data Exchange</a>
 
 
 
@@ -172,7 +172,7 @@ Contains the data. The length and type of data depend on the value of the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648997(v=VS.85).aspx">WM_DDE_POKE</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-poke">WM_DDE_POKE</a>
  
 
  

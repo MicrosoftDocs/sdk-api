@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Registers a service with Windows Update Agent (WUA) without requiring an authorization cabinet file (.cab). This method also  returns a pointer to an <a href="https://msdn.microsoft.com/ae742fe2-c9f3-4116-b98a-3cf3906cfda2">IUpdateServiceRegistration</a> interface.
+Registers a service with Windows Update Agent (WUA) without requiring an authorization cabinet file (.cab). This method also  returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservicecollection">IUpdateServiceRegistration</a> interface.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ An identifier for the service to be registered.
 
 ### -param flags [in]
 
-A combination of <a href="https://msdn.microsoft.com/1372a062-9f62-4b4d-8476-b6c7059a801a">AddServiceFlag</a> values that are combined by using a bitwise OR operation. The resulting value specifies options for service registration. For more info, see Remarks. 
+A combination of <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-tagaddserviceflag">AddServiceFlag</a> values that are combined by using a bitwise OR operation. The resulting value specifies options for service registration. For more info, see Remarks. 
 
 
 ### -param authorizationCabPath [in]
@@ -74,7 +74,7 @@ The path of the Microsoft signed local cabinet file (.cab) that has the informat
 
 ### -param retval [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/729664f2-5f75-4e73-9ccc-150b2e201f66">IUpdateServiceRegistration</a> interface that represents an added service.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateserviceregistration">IUpdateServiceRegistration</a> interface that represents an added service.
 
 
 ## -returns
@@ -145,22 +145,22 @@ The state of Automatic Updates could not be changed.
 
 
 
-This method may return <a href="https://msdn.microsoft.com/07ff2ed7-09bc-4af7-84f9-66a921c0f53f">networking error codes</a> when the <b>asfAllowOnlineRegistration</b> flag is specified.
+This method may return <a href="https://docs.microsoft.com/windows/desktop/Wua_Sdk/wua-networking-error-codes-">networking error codes</a> when the <b>asfAllowOnlineRegistration</b> flag is specified.
 
 The <i>authorizationCabPath</i> parameter is optional for this method. If the <i>authorizationCabPath</i> parameter is not specified, it will be retrieved from the Windows Update server.
 
 This method returns <b>E_INVALIDARG</b> if the <b>asfAllowOnlineRegistration</b> or <b>asfAllowPendingRegistration</b> flags are specified and if the value of the <i>authorizationCabPath</i> parameter is not an empty string.
 
-This method returns <b>WU_E_DS_INVALIDOPERATION</b> if the requested change in the state of Automatic Updates is contrary to the specifications in the authorization cabinet file (.cab) when the <b>asfRegisterServiceWithAU</b> flag is specified. An error is returned by the <a href="https://msdn.microsoft.com/b7efac6a-ac9f-477a-aada-63fe32208e6f">WinVerifyTrust</a> function if the authorization cabinet file has not been signed.
+This method returns <b>WU_E_DS_INVALIDOPERATION</b> if the requested change in the state of Automatic Updates is contrary to the specifications in the authorization cabinet file (.cab) when the <b>asfRegisterServiceWithAU</b> flag is specified. An error is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> function if the authorization cabinet file has not been signed.
 
-The update agent and <b>AddService2</b> behave in the following ways depending on the <a href="https://msdn.microsoft.com/1372a062-9f62-4b4d-8476-b6c7059a801a">AddServiceFlag</a> values that you specify in the <i>flags</i> parameter:
+The update agent and <b>AddService2</b> behave in the following ways depending on the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-tagaddserviceflag">AddServiceFlag</a> values that you specify in the <i>flags</i> parameter:
 
 <ul>
 <li>If you specify <b>asfAllowOnlineRegistration</b> without <b>asfAllowPendingRegistration</b>, the update agent immediately attempts to go online to register the service. <b>AddService2</b> returns an HRESULT value that reflects the success or failure of the registration. If the registration fails, the update agent makes no future attempts to register the service.</li>
 <li>If you specify <b>asfAllowPendingRegistration</b> without <b>asfAllowOnlineRegistration</b>, the update agent doesn't register the service immediately. <b>AddService2</b> returns  S_OK to indicate that the update agent will attempt to register the service at a later time, which doesn't guarantee that the registration will eventually succeed.</li>
 <li>If you specify <b>asfAllowPendingRegistration</b> and <b>asfAllowOnlineRegistration</b> together, the update agent immediately attempts to go online to register the service. <b>AddService2</b> returns S_OK if the registration succeeds. <b>AddService2</b> returns a failure HRESULT value if the registration fails, but the update agent still attempts to register the service at a later time.</li>
 <li>If you specify <b>asfAllowPendingRegistration</b>, <b>asfAllowOnlineRegistration</b>, or both, also specify <b>NULL</b> for the <i>authorizationCabPath</i> parameter.</li>
-<li>If you specify neither <b>asfAllowPendingRegistration</b> nor <b>asfAllowOnlineRegistration</b> (in other words, if <i>flags</i> is either zero or <b>asfRegisterServiceWithAU</b>), you must specify a non-<b>NULL</b> path in the <i>authorizationCabPath</i> parameter. In this mode, <b>AddService2</b> processes the cabinet file (.cab) and registers the service in the same way as <a href="https://msdn.microsoft.com/b4071ef7-316f-4624-bc43-79c5982c4a82">IUpdateServiceManager::AddService</a>.</li>
+<li>If you specify neither <b>asfAllowPendingRegistration</b> nor <b>asfAllowOnlineRegistration</b> (in other words, if <i>flags</i> is either zero or <b>asfRegisterServiceWithAU</b>), you must specify a non-<b>NULL</b> path in the <i>authorizationCabPath</i> parameter. In this mode, <b>AddService2</b> processes the cabinet file (.cab) and registers the service in the same way as <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateservicemanager-addservice">IUpdateServiceManager::AddService</a>.</li>
 <li>If you specify <b>asfRegisterServiceWithAU</b>, the change to the default Automatic Updates service doesn't occur (and isn't reflected in the Windows Update user interface) until the service registration succeeds. This means that if the registration succeeds immediately (because you specified <b>asfAllowPendingRegistration</b> or supplied  a cabinet file (.cab)), the Automatic Updates service change also occurs immediately. If the registration doesn't succeed until later (because you specified <b>asfAllowPendingRegistration</b>), the Automatic Updates service change doesn't occur unless the pending service registration eventually succeeds.</li>
 </ul>
 
@@ -171,7 +171,7 @@ The update agent and <b>AddService2</b> behave in the following ways depending o
 
 
 
-<a href="https://msdn.microsoft.com/26b75edc-eb43-4ee0-8040-da8b3252cf21">IUpdateServiceManager2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservicemanager2">IUpdateServiceManager2</a>
  
 
  

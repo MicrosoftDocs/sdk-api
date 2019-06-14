@@ -60,7 +60,7 @@ This function starts an immediate backup for the current user.
 
 ### -param Pipe [in]
 
-The communication channel handle returned by an earlier <a href="https://msdn.microsoft.com/D0927124-0568-4897-9169-445C252E8ED4">FhServiceOpenPipe</a> call.
+The communication channel handle returned by an earlier <a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceopenpipe">FhServiceOpenPipe</a> call.
 
 
 ### -param LowPriorityIo [in]
@@ -83,9 +83,9 @@ If <b>FALSE</b>, the File History Service is instructed to use normal priority I
 
 
 
-This function does not wait until the immediate backup completes. If an error or warning condition is encountered during backup, it is communicated to the user via an Action Center notification and programmatically retrievable via the <a href="https://msdn.microsoft.com/662B1F54-D50D-4434-BD81-DF600D28B573">IFhConfigMgr::QueryProtectionStatus</a> method.
+This function does not wait until the immediate backup completes. If an error or warning condition is encountered during backup, it is communicated to the user via an Action Center notification and programmatically retrievable via the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-queryprotectionstatus">IFhConfigMgr::QueryProtectionStatus</a> method.
 
-A backup cycle initiated by calling this function can be stopped using the <a href="https://msdn.microsoft.com/17FCD464-2543-454A-B60E-E37EDF61C595">FhServiceStopBackup</a> function.
+A backup cycle initiated by calling this function can be stopped using the <a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhservicestopbackup">FhServiceStopBackup</a> function.
 
 
 
@@ -95,15 +95,15 @@ A backup cycle initiated by calling this function can be stopped using the <a hr
 
 
 
-<a href="https://msdn.microsoft.com/D0927124-0568-4897-9169-445C252E8ED4">FhServiceOpenPipe</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceopenpipe">FhServiceOpenPipe</a>
 
 
 
-<a href="https://msdn.microsoft.com/17FCD464-2543-454A-B60E-E37EDF61C595">FhServiceStopBackup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhservicestopbackup">FhServiceStopBackup</a>
 
 
 
-<a href="https://msdn.microsoft.com/662B1F54-D50D-4434-BD81-DF600D28B573">IFhConfigMgr::QueryProtectionStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-queryprotectionstatus">IFhConfigMgr::QueryProtectionStatus</a>
  
 
  

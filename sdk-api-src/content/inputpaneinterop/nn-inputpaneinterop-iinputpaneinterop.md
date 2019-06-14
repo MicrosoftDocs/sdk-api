@@ -54,7 +54,7 @@ Enables access to the members of the <a href="https://docs.microsoft.com/en-us/u
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInputPaneInterop</b> interface inherits from <a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a>. <b>IInputPaneInterop</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInputPaneInterop</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IInputPaneInterop</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IInputPaneInterop</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/98A591F8-B85C-4400-9BA6-1B8F422C067B">GetForWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inputpaneinterop/nf-inputpaneinterop-iinputpaneinterop-getforwindow">GetForWindow</a>
 </td>
 <td align="left" width="63%">
 Gets an instance of an <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.viewmanagement.inputpane">InputPane</a> object for the specified window.
@@ -78,7 +78,7 @@ Gets an instance of an <a href="https://docs.microsoft.com/en-us/uwp/api/windows
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/560094E6-3ED2-4BF3-85C7-07736ECBACC8">GetIids</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nf-inspectable-iinspectable-getiids">GetIids</a>
 </td>
 <td align="left" width="63%">
 Gets the interfaces that are implemented by the current Windows Runtime class.
@@ -87,7 +87,7 @@ Gets the interfaces that are implemented by the current Windows Runtime class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E0A0B56D-E676-46FD-873D-11309102DFFD">GetRuntimeClassName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nf-inspectable-iinspectable-getruntimeclassname">GetRuntimeClassName</a>
 </td>
 <td align="left" width="63%">
 Gets the fully qualified name of the current Windows Runtime object.
@@ -96,7 +96,7 @@ Gets the fully qualified name of the current Windows Runtime object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E7E8AFD1-A8B7-4023-9F8B-573E0D2622F6">GetTrustLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nf-inspectable-iinspectable-gettrustlevel">GetTrustLevel</a>
 </td>
 <td align="left" width="63%">
 Gets the trust level of the current Windows Runtime object.
@@ -110,7 +110,7 @@ Gets the trust level of the current Windows Runtime object.
 
 
 
-You can obtain an instance of the <b>IInputPaneInterop</b> interface by calling the <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">IUnknown::QueryInterface</a> method on the activation factory instance for the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.viewmanagement.inputpane">InputPane</a> class.
+You can obtain an instance of the <b>IInputPaneInterop</b> interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> method on the activation factory instance for the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.viewmanagement.inputpane">InputPane</a> class.
 
  
 
@@ -141,7 +141,7 @@ For store apps, use the <a href="https://docs.microsoft.com/en-us/uwp/api/window
 
 
 
-<a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
 
 
 
@@ -149,7 +149,7 @@ For store apps, use the <a href="https://docs.microsoft.com/en-us/uwp/api/window
 
 
 
-<a href="https://msdn.microsoft.com/library/Hh551827(v=VS.105).aspx">WindowsRuntimeMarshal.GetActivationFactory</a>
+<a href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.windowsruntime.windowsruntimemarshal.getactivationfactory?redirectedfrom=MSDN#System_Runtime_InteropServices_WindowsRuntime_WindowsRuntimeMarshal_GetActivationFactory_System_Type_">WindowsRuntimeMarshal.GetActivationFactory</a>
  
 
  

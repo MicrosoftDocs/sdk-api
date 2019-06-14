@@ -57,7 +57,7 @@ The <b>IBDA_SignalStatistics</b> interface is implemented on a BDA device filter
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_SignalStatistics</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBDA_SignalStatistics</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_SignalStatistics</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_SignalStatistics</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IBDA_SignalStatistics</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693433(v=VS.85).aspx">get_SampleTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_signalstatistics-get_sampletime">get_SampleTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the sample time used to measure the signal.
@@ -81,7 +81,7 @@ Retrieves the sample time used to measure the signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693434(v=VS.85).aspx">get_SignalLocked</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_signalstatistics-get_signallocked">get_SignalLocked</a>
 </td>
 <td align="left" width="63%">
 Retrieves a Boolean value indicating whether the signal is locked.
@@ -90,7 +90,7 @@ Retrieves a Boolean value indicating whether the signal is locked.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693435(v=VS.85).aspx">get_SignalPresent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_signalstatistics-get_signalpresent">get_SignalPresent</a>
 </td>
 <td align="left" width="63%">
 Retrieves a Boolean value indicating whether a signal is present.
@@ -99,7 +99,7 @@ Retrieves a Boolean value indicating whether a signal is present.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693436(v=VS.85).aspx">get_SignalQuality</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_signalstatistics-get_signalquality">get_SignalQuality</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value from 1 to 100 indicating the quality of the signal.
@@ -108,7 +108,7 @@ Retrieves a value from 1 to 100 indicating the quality of the signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693437(v=VS.85).aspx">get_SignalStrength</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_signalstatistics-get_signalstrength">get_SignalStrength</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that indicates the strength of the signal in decibels.
@@ -117,7 +117,7 @@ Retrieves a value that indicates the strength of the signal in decibels.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693438(v=VS.85).aspx">put_SampleTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_signalstatistics-put_sampletime">put_SampleTime</a>
 </td>
 <td align="left" width="63%">
 Specifies the sample time used to measure the signal.
@@ -126,7 +126,7 @@ Specifies the sample time used to measure the signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693439(v=VS.85).aspx">put_SignalLocked</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_signalstatistics-put_signallocked">put_SignalLocked</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the signal is locked.
@@ -135,7 +135,7 @@ Specifies whether the signal is locked.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693440(v=VS.85).aspx">put_SignalPresent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_signalstatistics-put_signalpresent">put_SignalPresent</a>
 </td>
 <td align="left" width="63%">
 Specifies whether a signal is present.
@@ -144,7 +144,7 @@ Specifies whether a signal is present.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693441(v=VS.85).aspx">put_SignalQuality</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_signalstatistics-put_signalquality">put_SignalQuality</a>
 </td>
 <td align="left" width="63%">
 Specifies the quality of the signal.
@@ -153,7 +153,7 @@ Specifies the quality of the signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693442(v=VS.85).aspx">put_SignalStrength</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_signalstatistics-put_signalstrength">put_SignalStrength</a>
 </td>
 <td align="left" width="63%">
 Specifies the strength of the signal in decibels.
@@ -177,7 +177,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
  
 
  

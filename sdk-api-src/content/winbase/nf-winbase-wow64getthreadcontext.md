@@ -61,12 +61,12 @@ Retrieves the context of the specified WOW64 thread.
 
 A handle to the thread whose context is to be retrieved. The handle must have 
       <b>THREAD_GET_CONTEXT</b> access to the thread. For more information, see 
-      <a href="https://msdn.microsoft.com/72709446-5c59-4fac-8dc8-7912906ecc85">Thread Security and Access Rights</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-security-and-access-rights">Thread Security and Access Rights</a>.
 
 
 ### -param lpContext [in, out]
 
-A <a href="https://msdn.microsoft.com/b27205a2-2c33-4f45-8948-9919bcd2355a">WOW64_CONTEXT</a> structure. The caller must 
+A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_wow64_context">WOW64_CONTEXT</a> structure. The caller must 
       initialize the <b>ContextFlags</b> member of this structure.
 
 
@@ -77,7 +77,7 @@ A <a href="https://msdn.microsoft.com/b27205a2-2c33-4f45-8948-9919bcd2355a">WOW6
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -92,7 +92,7 @@ This function is used to retrieve the thread context of the specified thread. Th
     but the function can also operate when the thread is not being debugged.
 
 You cannot get a valid context for a running thread. Use the 
-    <a href="https://msdn.microsoft.com/d976675a-5400-41ac-a11d-c39a1b2dd50d">Wow64SuspendThread</a> function to suspend the thread 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-wow64suspendthread">Wow64SuspendThread</a> function to suspend the thread 
     before calling <b>Wow64GetThreadContext</b>.
 
 If you call <b>Wow64GetThreadContext</b> for the 
@@ -101,7 +101,7 @@ If you call <b>Wow64GetThreadContext</b> for the
 This function is intended for 64-bit applications. It is not supported on 32-bit Windows; such calls fail and 
     set the last error code to <b>ERROR_INVALID_FUNCTION</b>. A 32-bit application can call this 
     function on a WOW64 thread; the result is the same as calling the 
-    <a href="https://msdn.microsoft.com/3b65283e-34d2-4374-87fe-fa8ae45fbbcf">GetThreadContext</a> function.
+    <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadcontext">GetThreadContext</a> function.
 
 
 
@@ -111,23 +111,23 @@ This function is intended for 64-bit applications. It is not supported on 32-bit
 
 
 
-<a href="https://msdn.microsoft.com/95a838a2-f138-4682-b733-3f363b6c4a4b">Debugging Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/debugging-functions">Debugging Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b65283e-34d2-4374-87fe-fa8ae45fbbcf">GetThreadContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadcontext">GetThreadContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/D9A8D0B6-21E3-46B7-AB88-CE2FF4025A17">GetXStateFeaturesMask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getxstatefeaturesmask">GetXStateFeaturesMask</a>
 
 
 
-<a href="https://msdn.microsoft.com/b27205a2-2c33-4f45-8948-9919bcd2355a">WOW64_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_wow64_context">WOW64_CONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/4119c945-b654-4634-a88b-e41bc762018a">Wow64SetThreadContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-wow64setthreadcontext">Wow64SetThreadContext</a>
  
 
  

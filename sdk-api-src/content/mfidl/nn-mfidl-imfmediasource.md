@@ -57,7 +57,7 @@ Media sources are objects that generate media data. For example, the data might 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaSource</b> interface inherits from <a href="https://msdn.microsoft.com/a37d0840-c896-43a0-b3d1-c2a6aaff1b25">IMFMediaEventGenerator</a>. <b>IMFMediaSource</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaSource</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator">IMFMediaEventGenerator</a>. <b>IMFMediaSource</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMFMediaSource</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b6ac50b7-3ef1-43cf-8126-d9a003ebd825">CreatePresentationDescriptor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-createpresentationdescriptor">CreatePresentationDescriptor</a>
 </td>
 <td align="left" width="63%">
 Retrieves a copy of the media source's presentation descriptor.
@@ -81,7 +81,7 @@ Retrieves a copy of the media source's presentation descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cb5d54cd-58a3-4903-b22e-8207f90dbbc0">GetCharacteristics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-getcharacteristics">GetCharacteristics</a>
 </td>
 <td align="left" width="63%">
 Retrieves the characteristics of the media source.
@@ -90,7 +90,7 @@ Retrieves the characteristics of the media source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/113b3dc7-918e-427e-aa70-cf474b951c6d">Pause</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-pause">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses all active streams in the media source.
@@ -99,16 +99,16 @@ Pauses all active streams in the media source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9ad6793e-32ca-471b-8639-41098b3e8216">RemoteCreatePresentationDescriptor</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/remotecreatepresentationdescriptor">RemoteCreatePresentationDescriptor</a>
 </td>
 <td align="left" width="63%">
-Remotable version of <a href="https://msdn.microsoft.com/b6ac50b7-3ef1-43cf-8126-d9a003ebd825">CreatePresentationDescriptor</a>. (Not used by applications.)
+Remotable version of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-createpresentationdescriptor">CreatePresentationDescriptor</a>. (Not used by applications.)
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c7f890a8-74bd-4418-bb02-a3fee62dec6d">Shutdown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-shutdown">Shutdown</a>
 </td>
 <td align="left" width="63%">
 Shuts down the media source and releases the resources it is using.
@@ -117,7 +117,7 @@ Shuts down the media source and releases the resources it is using.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0a5abafe-1525-4bda-946c-05a6145e57ee">Start</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-start">Start</a>
 </td>
 <td align="left" width="63%">
 Starts, seeks, or restarts the media source by specifying where to start playback.
@@ -126,7 +126,7 @@ Starts, seeks, or restarts the media source by specifying where to start playbac
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/aa7af7a0-a6c2-4c9e-9f98-d36716679297">Stop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-stop">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops all active streams in the media source.
@@ -140,7 +140,7 @@ Stops all active streams in the media source.
 
 
 
-In Windows 8, this interface is extended with <a href="https://msdn.microsoft.com/C72C79D5-FD65-4F27-A8C8-B94BF5A9E829">IMFMediaSourceEx</a>.
+In Windows 8, this interface is extended with <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasourceex">IMFMediaSourceEx</a>.
 
 
 
@@ -150,15 +150,15 @@ In Windows 8, this interface is extended with <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/a37d0840-c896-43a0-b3d1-c2a6aaff1b25">IMFMediaEventGenerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator">IMFMediaEventGenerator</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/65132e7d-22f6-4209-bc58-f5ea86ebd514">Media Sources</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-sources">Media Sources</a>
  
 
  

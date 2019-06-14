@@ -74,7 +74,7 @@ The property's value; if the property is being changed, this is the new value.
 ### -field eAction
 
 The action taking place on the property, as defined in 
-<a href="https://msdn.microsoft.com/c380d562-0acb-4c90-9460-6007a8eeb596">MMC_PROPERTY_ACTION</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/ne-mmcobj-_mmc_property_action">MMC_PROPERTY_ACTION</a>.
 
 
 ## -see-also
@@ -82,11 +82,11 @@ The action taking place on the property, as defined in
 
 
 
-<a href="https://msdn.microsoft.com/6e64a620-9c1d-4803-81a0-ec432c30fbc9">ISnapinProperties::PropertiesChanged</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/nf-mmcobj-isnapinproperties-propertieschanged">ISnapinProperties::PropertiesChanged</a>
 
 
 
-<a href="https://msdn.microsoft.com/c380d562-0acb-4c90-9460-6007a8eeb596">MMC_PROPERTY_ACTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/ne-mmcobj-_mmc_property_action">MMC_PROPERTY_ACTION</a>
  
 
  

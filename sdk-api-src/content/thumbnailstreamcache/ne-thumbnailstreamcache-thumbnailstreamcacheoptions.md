@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines the cache options used by the <a href="https://msdn.microsoft.com/9D2C01E7-2B0B-462F-98A3-12ACBC40F6E7">IThumbnailStreamCache</a> interface.
+Defines the cache options used by the <a href="https://docs.microsoft.com/windows/desktop/api/thumbnailstreamcache/nn-thumbnailstreamcache-ithumbnailstreamcache">IThumbnailStreamCache</a> interface.
 
 
 ## -enum-fields
@@ -82,7 +82,7 @@ Can return a cached thumbnail that is smaller than the requested size.
 
 
 
-<a href="https://msdn.microsoft.com/9D2C01E7-2B0B-462F-98A3-12ACBC40F6E7">IThumbnailStreamCache</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/thumbnailstreamcache/nn-thumbnailstreamcache-ithumbnailstreamcache">IThumbnailStreamCache</a>
  
 
  

@@ -59,7 +59,7 @@ Shows or hides the caret at the caret position in the text host window.
 
 ### -param fShow [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Flag. If <b>TRUE</b>, the caret is visible. If <b>FALSE</b>, the caret is hidden. 
 
@@ -68,7 +68,7 @@ Flag. If <b>TRUE</b>, the caret is visible. If <b>FALSE</b>, the caret is hidden
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Return <b>TRUE</b> if the method succeeds. 
 
@@ -95,7 +95,7 @@ This method is only valid when the control is in-place active; calls while the c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
 
 
 
@@ -103,15 +103,15 @@ This method is only valid when the control is in-place active; calls while the c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787640(v=VS.85).aspx">TxCreateCaret</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-txcreatecaret">TxCreateCaret</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787720(v=VS.85).aspx">TxSetCaretPos</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-txsetcaretpos">TxSetCaretPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
  
 
  

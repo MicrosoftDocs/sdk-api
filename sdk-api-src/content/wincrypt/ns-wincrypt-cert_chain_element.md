@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CERT_CHAIN_ELEMENT</b> structure is a single element in a simple certificate chain. Each element has a pointer to a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate context</a>, a pointer to a structure that indicates the error status and information status of the certificate, and a pointer to a structure that indicates the revocation status of the certificate.
+The <b>CERT_CHAIN_ELEMENT</b> structure is a single element in a simple certificate chain. Each element has a pointer to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a>, a pointer to a structure that indicates the error status and information status of the certificate, and a pointer to a structure that indicates the revocation status of the certificate.
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ Size of this structure in bytes.
 
 ### -field pCertContext
 
-A pointer to a certificate <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a>.
+A pointer to a certificate <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a>.
 
 
 ### -field TrustStatus
@@ -97,15 +97,15 @@ A pointer to a <b>null</b>-terminated wide character string that contains extend
 
 
 
-<a href="https://msdn.microsoft.com/798aa2d7-bf8a-425f-bc36-98a44ba3a9d6">CERT_REVOCATION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_revocation_info">CERT_REVOCATION_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/c130cab4-bf8d-429a-beb7-04cb5d37d466">CERT_SIMPLE_CHAIN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_simple_chain">CERT_SIMPLE_CHAIN</a>
 
 
 
-<a href="https://msdn.microsoft.com/af1e1db2-7b53-4491-8317-4abf3568fb03">CERT_TRUST_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_trust_status">CERT_TRUST_STATUS</a>
  
 
  

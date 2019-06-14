@@ -95,7 +95,7 @@ The <i>lpszGroupID</i> parameter can be specified by itself with a <b>NULL</b> p
 
 
 Returns a positive request identifier if the function is completed asynchronously, or a negative error number if an error occurs. The <i>dwParam2</i> parameter of the corresponding 
-<a href="https://msdn.microsoft.com/5d98ed8b-b75e-49f8-aba3-c6eee89e91c1">LINE_REPLY</a> message is zero if the function succeeds or it is a negative error number if an error occurs. Possible return values are:
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-reply">LINE_REPLY</a> message is zero if the function succeeds or it is a negative error number if an error occurs. Possible return values are:
 
 LINEERR_INVALADDRESS, LINEERR_NOMEM, LINEERR_INVALADDRESSID, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALGROUPID, LINEERR_OPERATIONFAILED, LINEERR_INVALLINEHANDLE, LINEERR_RESOURCEUNAVAIL, LINEERR_INVALPOINTER, LINEERR_UNINITIALIZED.
 
@@ -107,9 +107,9 @@ LINEERR_INVALADDRESS, LINEERR_NOMEM, LINEERR_INVALADDRESSID, LINEERR_OPERATIONUN
 
 
 When a call has been picked up successfully, the application is notified by the 
-<a href="https://msdn.microsoft.com/7b24e3c3-bc69-488b-a698-cf17875bc3c5">LINE_CALLSTATE</a> message about call state changes. The 
-<a href="https://msdn.microsoft.com/b077546b-cc95-44ce-99ee-f0007fd916b2">LINECALLINFO</a> structure supplies information about the call that was picked up. It lists the reason for the call as <i>pickup</i>. This structure is available using 
-<a href="https://msdn.microsoft.com/e69722cb-9c45-4f1a-a855-64afa3c33276">lineGetCallInfo</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-callstate">LINE_CALLSTATE</a> message about call state changes. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a> structure supplies information about the call that was picked up. It lists the reason for the call as <i>pickup</i>. This structure is available using 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetcallinfo">lineGetCallInfo</a>.
 
 If LINEADDRCAPFLAGS_PICKUPCALLWAIT is <b>TRUE</b>, 
 <b>linePickup</b> can be used to pick up a call for which the user has audibly detected the call-waiting signal but for which the provider is unable to perform the detection. This gives the user a mechanism to "answer" a waiting call even though the service provider was unable to detect the call-waiting signal. Both <i>lpszDestAddress</i> and <i>lpszGroupID</i> pointer parameters must be <b>NULL</b> to pick up a call-waiting call. The 
@@ -117,11 +117,11 @@ If LINEADDRCAPFLAGS_PICKUPCALLWAIT is <b>TRUE</b>,
 
 After 
 <b>linePickup</b> has been used to pick up the second call, 
-<a href="https://msdn.microsoft.com/9e575c82-301c-4505-b400-faf4dc291ff8">lineSwapHold</a> can be used to toggle between them. The 
-<a href="https://msdn.microsoft.com/ce1f1dbb-287b-483a-9e7e-87af0d07e4e4">lineDrop</a> function can be used to drop one (and toggle to the other), and so forth. If the user wants to drop the current call and pick up the second call, they should call 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineswaphold">lineSwapHold</a> can be used to toggle between them. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedrop">lineDrop</a> function can be used to drop one (and toggle to the other), and so forth. If the user wants to drop the current call and pick up the second call, they should call 
 <b>lineDrop</b> when they get the call-waiting beep, wait for the second call to ring, and then call 
-<a href="https://msdn.microsoft.com/dd51991c-c044-4b88-8f97-9e0ae701a2a5">lineAnswer</a> on the new call handle. The LINEADDRFEATURE_PICKUP flag in the <b>dwAddressFeatures</b> member in 
-<a href="https://msdn.microsoft.com/795aa97d-76a9-4041-b9f6-345644561043">LINEADDRESSSTATUS</a> indicates when pickup is actually possible.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineanswer">lineAnswer</a> on the new call handle. The LINEADDRFEATURE_PICKUP flag in the <b>dwAddressFeatures</b> member in 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddressstatus_tag">LINEADDRESSSTATUS</a> indicates when pickup is actually possible.
 
 
 
@@ -131,47 +131,47 @@ After
 
 
 
-<a href="https://msdn.microsoft.com/795aa97d-76a9-4041-b9f6-345644561043">LINEADDRESSSTATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddressstatus_tag">LINEADDRESSSTATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/b077546b-cc95-44ce-99ee-f0007fd916b2">LINECALLINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/7b24e3c3-bc69-488b-a698-cf17875bc3c5">LINE_CALLSTATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-callstate">LINE_CALLSTATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d98ed8b-b75e-49f8-aba3-c6eee89e91c1">LINE_REPLY</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-reply">LINE_REPLY</a>
 
 
 
-<a href="https://msdn.microsoft.com/3dfbb5c0-b533-403f-ad6c-b9e1b52ab47a">Pickup overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/pickup-ovr">Pickup overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/d4338b3c-cd84-4abb-b74e-9df895c8355b">Supplementary Line Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d703b414-1389-416c-8e94-c1931979f0c9">TAPI 2.2 Reference Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd51991c-c044-4b88-8f97-9e0ae701a2a5">lineAnswer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineanswer">lineAnswer</a>
 
 
 
-<a href="https://msdn.microsoft.com/ce1f1dbb-287b-483a-9e7e-87af0d07e4e4">lineDrop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedrop">lineDrop</a>
 
 
 
-<a href="https://msdn.microsoft.com/e69722cb-9c45-4f1a-a855-64afa3c33276">lineGetCallInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetcallinfo">lineGetCallInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e575c82-301c-4505-b400-faf4dc291ff8">lineSwapHold</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineswaphold">lineSwapHold</a>
  
 
  

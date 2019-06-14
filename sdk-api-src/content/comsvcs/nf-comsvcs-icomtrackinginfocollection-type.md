@@ -59,7 +59,7 @@ Retrieves the type of a tracking information collection.
 
 ### -param pType [out]
 
-The type of tracking information. For a list of values, see the <a href="https://msdn.microsoft.com/en-us/library/ms678931(v=VS.85).aspx">TRACKING_COLL_TYPE</a> enumeration.
+The type of tracking information. For a list of values, see the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-__midl___midl_itf_autosvcs_0000_0034_0001">TRACKING_COLL_TYPE</a> enumeration.
 
 
 ## -returns
@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/7caa0fd3-a42c-43ea-849d-aa2c4ed1c628">IComTrackingInfoCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icomtrackinginfocollection">IComTrackingInfoCollection</a>
  
 
  

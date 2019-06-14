@@ -125,9 +125,9 @@ The input pin is not connected.
 
 
 
-An output pin can support more than one set of format capabilities. This method returns the total number of capabilities that the pin supports; the number is returned in the <i>piCount</i> parameter. To retrieve a particular set of capabilities, call the <a href="https://msdn.microsoft.com/9dd84847-2cae-42f2-a858-7106cd2ac075">IAMStreamConfig::GetStreamCaps</a> method. Format capabilities are indexed from zero, so the value returned in <i>piCount</i> is one more than the upper bound.
+An output pin can support more than one set of format capabilities. This method returns the total number of capabilities that the pin supports; the number is returned in the <i>piCount</i> parameter. To retrieve a particular set of capabilities, call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-getstreamcaps">IAMStreamConfig::GetStreamCaps</a> method. Format capabilities are indexed from zero, so the value returned in <i>piCount</i> is one more than the upper bound.
 
-Depending on the pin's format type, the <b>GetStreamCaps</b> method returns either a <a href="https://msdn.microsoft.com/c4e68065-79d0-4e2e-abe5-2e5b6a51bd40">VIDEO_STREAM_CONFIG_CAPS</a> structure (for video) or an <a href="https://msdn.microsoft.com/8a923e8e-173e-4258-ba81-7d398bd9c5fe">AUDIO_STREAM_CONFIG_CAPS</a> structure (for audio). The <i>piSize</i> parameter receives the size of the structure, in bytes.
+Depending on the pin's format type, the <b>GetStreamCaps</b> method returns either a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_video_stream_config_caps">VIDEO_STREAM_CONFIG_CAPS</a> structure (for video) or an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_audio_stream_config_caps">AUDIO_STREAM_CONFIG_CAPS</a> structure (for audio). The <i>piSize</i> parameter receives the size of the structure, in bytes.
 
 On some compression filters, this method fails if the filter's input pin is not connected.
 
@@ -139,11 +139,11 @@ On some compression filters, this method fails if the filter's input pin is not 
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/c171763e-9108-49a0-a4b7-855c6db0a71d">IAMStreamConfig Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamstreamconfig">IAMStreamConfig Interface</a>
  
 
  

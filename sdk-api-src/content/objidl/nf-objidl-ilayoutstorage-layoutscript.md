@@ -60,13 +60,13 @@ The <b>LayoutScript</b> method provides explicit directions for reordering the s
 ### -param pStorageLayout [in]
 
 Pointer to an array of 
-<a href="https://msdn.microsoft.com/1e4fb36d-077b-44bd-ab6e-8c122ec95a46">StorageLayout</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstoragelayout">StorageLayout</a> structures.
 
 
 ### -param nEntries [in]
 
 Number of entries in the array of 
-<a href="https://msdn.microsoft.com/1e4fb36d-077b-44bd-ab6e-8c122ec95a46">StorageLayout</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstoragelayout">StorageLayout</a> structures.
 
 
 ### -param glfInterleavedFlag [in]
@@ -88,13 +88,13 @@ This function supports the standard return values E_OUTOFMEMORY, E_UNEXPECTED, E
 
 
 To provide explicit layout instructions, the application calls <b>ILayoutStorage::LayoutScript</b>, passing an array of 
-<a href="https://msdn.microsoft.com/1e4fb36d-077b-44bd-ab6e-8c122ec95a46">StorageLayout</a> structures. Each structure defines a single storage or stream data block and specifies where the block is to be written in the 
-<a href="https://msdn.microsoft.com/bb2c5d0d-8dc8-4844-9a20-ef8e4def5731">ILockBytes</a> byte array.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstoragelayout">StorageLayout</a> structures. Each structure defines a single storage or stream data block and specifies where the block is to be written in the 
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a> byte array.
 
 An application can combine scripted layout with monitoring, as the structure of a particular compound file may dictate.
 
 When the optimal data-layout pattern of an entire compound file has been determined, the application calls 
-<a href="https://msdn.microsoft.com/5db3a26c-595a-4c9b-bb6d-b170eb9864df">ILayoutStorage::ReLayoutDocfile</a> to restructure the compound file to match the order in which its data sectors were accessed.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-relayoutdocfile">ILayoutStorage::ReLayoutDocfile</a> to restructure the compound file to match the order in which its data sectors were accessed.
 
 
 
@@ -104,15 +104,15 @@ When the optimal data-layout pattern of an entire compound file has been determi
 
 
 
-<a href="https://msdn.microsoft.com/5db3a26c-595a-4c9b-bb6d-b170eb9864df">ILayoutStorage::ReLayoutDocfile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-relayoutdocfile">ILayoutStorage::ReLayoutDocfile</a>
 
 
 
-<a href="https://msdn.microsoft.com/bb2c5d0d-8dc8-4844-9a20-ef8e4def5731">ILockBytes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a>
 
 
 
-<a href="https://msdn.microsoft.com/1e4fb36d-077b-44bd-ab6e-8c122ec95a46">StorageLayout</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstoragelayout">StorageLayout</a>
  
 
  

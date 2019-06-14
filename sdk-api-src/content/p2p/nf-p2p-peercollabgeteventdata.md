@@ -59,12 +59,12 @@ The <b>PeerCollabGetEventData</b> function obtains the data associated with a pe
 
 ### -param hPeerEvent [in]
 
-The peer collaboration network event handle obtained by a call to <a href="https://msdn.microsoft.com/en-us/library/Aa371077(v=VS.85).aspx">PeerCollabRegisterEvent</a>.
+The peer collaboration network event handle obtained by a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabregisterevent">PeerCollabRegisterEvent</a>.
 
 
 ### -param ppEventData [out]
 
-Pointer to a list of <a href="https://msdn.microsoft.com/4ddf200d-0b7a-4e99-b7db-19b4e0412711">PEER_COLLAB_EVENT_DATA</a> structures that contain data about the peer collaboration network event. These data structures must be freed after use by calling <a href="https://msdn.microsoft.com/54288829-c991-42d6-a7c4-874ed28dd106">PeerFreeData</a>.
+Pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_collab_event_data_tag">PEER_COLLAB_EVENT_DATA</a> structures that contain data about the peer collaboration network event. These data structures must be freed after use by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
 
 
 ## -returns
@@ -122,7 +122,7 @@ The  event data is not present.
 
 
 
-<a href="https://msdn.microsoft.com/00c3c1f1-c36c-469a-a644-0ec60f02d25e">Peer Collaboration API Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
  
 
  

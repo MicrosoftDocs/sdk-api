@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The
 				<b>DISCDLGSTRUCT</b> structure is used in the 
-<a href="https://msdn.microsoft.com/ec3abf0c-2a18-4d7d-aac4-e086d00fa6fe">WNetDisconnectDialog1</a> function. The structure contains required information for the disconnect attempt.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetdisconnectdialog1a">WNetDisconnectDialog1</a> function. The structure contains required information for the disconnect attempt.
 
 
 ## -struct-fields
@@ -137,15 +137,15 @@ This situation typically occurs when the user has files open over the connection
 
 
 
-<a href="https://msdn.microsoft.com/ec3abf0c-2a18-4d7d-aac4-e086d00fa6fe">WNetDisconnectDialog1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetdisconnectdialog1a">WNetDisconnectDialog1</a>
 
 
 
-<a href="https://msdn.microsoft.com/7668ac55-7104-4ddb-88eb-920cfe4e36fd">Windows Networking (WNet) Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-wnet-">Windows Networking (WNet) Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/7969ccbb-d1ae-4a1f-8b9c-862cc6ddef1a">Windows Networking Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-structures">Windows Networking Structures</a>
  
 
  

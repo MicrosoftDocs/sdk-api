@@ -70,7 +70,7 @@ The <b>IFeedClockVectorElement</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9c618ca9-de6b-4e3e-a0cc-cac3886199d5">GetFlags</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ifeedclockvectorelement-getflags">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Gets flags that specify additional information about the clock vector element.
@@ -80,10 +80,10 @@ Gets flags that specify additional information about the clock vector element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f39b3bdf-a37e-4673-a620-5b14109718cb">GetSyncTime</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ifeedclockvectorelement-getsynctime">GetSyncTime</a>
 </td>
 <td align="left" width="63%">
-Gets a <a href="https://msdn.microsoft.com/f5e0df02-d016-4eae-9b9b-bfd754ade126">SYNC_TIME</a> value that corresponds to the <b>when</b> value for the item.
+Gets a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ns-winsync-_sync_time">SYNC_TIME</a> value that corresponds to the <b>when</b> value for the item.
 
 
 </td>
@@ -100,11 +100,11 @@ Gets a <a href="https://msdn.microsoft.com/f5e0df02-d016-4eae-9b9b-bfd754ade126"
 
 
 
-<a href="https://msdn.microsoft.com/f5e0df02-d016-4eae-9b9b-bfd754ade126">SYNC_TIME Structure</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ns-winsync-_sync_time">SYNC_TIME Structure</a>
 
 
 
-<a href="https://msdn.microsoft.com/2c185fe2-1bbe-4409-aea0-6e138430b304">Windows Sync Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
  
 
  

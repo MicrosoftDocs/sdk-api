@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DRT_ADDRESS_LIST</b> structure contains a set of  <a href="https://msdn.microsoft.com/d6b00d5e-14f1-4e56-b8c8-f3936f6ae9fb">DRT_ADDRESS</a> structures that represent the nodes contacted during a search for a key.
+The <b>DRT_ADDRESS_LIST</b> structure contains a set of  <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-_drt_address">DRT_ADDRESS</a> structures that represent the nodes contacted during a search for a key.
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ The count of entries in <b>AddressList</b>.
 
 ### -field AddressList
 
-An array of <a href="https://msdn.microsoft.com/d6b00d5e-14f1-4e56-b8c8-f3936f6ae9fb">DRT_ADDRESS</a> structures that contain information about addresses that participated  in the search operation.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-_drt_address">DRT_ADDRESS</a> structures that contain information about addresses that participated  in the search operation.
 
 
 ## -see-also
@@ -72,11 +72,11 @@ An array of <a href="https://msdn.microsoft.com/d6b00d5e-14f1-4e56-b8c8-f3936f6a
 
 
 
-<a href="https://msdn.microsoft.com/d6b00d5e-14f1-4e56-b8c8-f3936f6ae9fb">DRT_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-_drt_address">DRT_ADDRESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/b89ea470-072e-46b6-9f5d-3e05aa012188">DrtGetSearchResult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtgetsearchresult">DrtGetSearchResult</a>
  
 
  

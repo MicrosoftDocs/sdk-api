@@ -148,11 +148,11 @@ The <i>v</i> parameter must be a <b>VARIANT</b> that contains an integer type (V
 
 
 
-<a href="https://msdn.microsoft.com/19790fab-0530-4a17-8a3c-a50576fea9ca">IMSVidFeatures Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidfeatures">IMSVidFeatures Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694546(v=VS.85).aspx">IMSVidFeatures::Add</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidfeatures-add">IMSVidFeatures::Add</a>
  
 
  

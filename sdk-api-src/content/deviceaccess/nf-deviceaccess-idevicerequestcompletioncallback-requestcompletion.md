@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Implement the <b>RequestCompletion</b> method to handle the completion of calls to the <a href="https://msdn.microsoft.com/550eadd0-c03b-40b3-9f08-639085365f4b">DeviceIoControlAsync</a>method. 
+Implement the <b>RequestCompletion</b> method to handle the completion of calls to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-ideviceiocontrol-deviceiocontrolasync">DeviceIoControlAsync</a>method. 
 
 
 ## -parameters
@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/88746199-fc42-4f1d-9f97-ebd573e9cb3c">IDeviceRequestCompletionCallback</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nn-deviceaccess-idevicerequestcompletioncallback">IDeviceRequestCompletionCallback</a>
  
 
  

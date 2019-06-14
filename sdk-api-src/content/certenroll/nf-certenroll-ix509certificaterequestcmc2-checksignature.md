@@ -59,7 +59,7 @@ The <b>CheckSignature</b> method verifies that the certificate request has been 
 
 ### -param AllowedSignatureTypes [in]
 
-A value from the <a href="https://msdn.microsoft.com/b5c6a28b-d46b-4d93-adc2-625a82d6df7a">Pkcs10AllowedSignatureTypes</a> enumeration. This can be a bitwise combination of the following values.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-pkcs10allowedsignaturetypes">Pkcs10AllowedSignatureTypes</a> enumeration. This can be a bitwise combination of the following values.
 
 <table>
 <tr>
@@ -98,7 +98,7 @@ Null-signed signatures are permitted.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -134,7 +134,7 @@ The signature type is not specified by the <i>AllowedSignatureTypes</i> paramete
 </dl>
 </td>
 <td width="60%">
-The value specified by the <i>AllowedSignatureTypes</i> parameter is not a member of the <a href="https://msdn.microsoft.com/b5c6a28b-d46b-4d93-adc2-625a82d6df7a">Pkcs10AllowedSignatureTypes</a> enumeration type.
+The value specified by the <i>AllowedSignatureTypes</i> parameter is not a member of the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-pkcs10allowedsignaturetypes">Pkcs10AllowedSignatureTypes</a> enumeration type.
 
 </td>
 </tr>
@@ -158,7 +158,7 @@ This method uses the public key to decrypt the signature and compares the signat
 
 
 
-<a href="https://msdn.microsoft.com/27edf846-472e-4a22-bd3c-88044a1fbd99">IX509CertificateRequestCmc2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc2">IX509CertificateRequestCmc2</a>
  
 
  

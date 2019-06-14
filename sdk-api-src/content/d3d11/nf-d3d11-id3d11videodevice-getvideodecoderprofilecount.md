@@ -72,7 +72,7 @@ Returns the number of profiles.
 
 
 
-To enumerate the profiles, call <a href="https://msdn.microsoft.com/8D958469-7FC3-4B4F-82BF-271662CF0088">ID3D11VideoDevice::GetVideoDecoderProfile</a>.
+To enumerate the profiles, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-getvideodecoderprofile">ID3D11VideoDevice::GetVideoDecoderProfile</a>.
 
 
 
@@ -82,7 +82,7 @@ To enumerate the profiles, call <a href="https://msdn.microsoft.com/8D958469-7FC
 
 
 
-<a href="https://msdn.microsoft.com/420DE3C4-15A9-4EEB-A1FD-6350DE109CFF">ID3D11VideoDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videodevice">ID3D11VideoDevice</a>
  
 
  

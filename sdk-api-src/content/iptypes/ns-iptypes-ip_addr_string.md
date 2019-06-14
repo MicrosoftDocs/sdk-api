@@ -77,8 +77,8 @@ A value that specifies a structure type with a single member, <b>String</b>. The
 ### -field Context
 
 A network table entry (NTE). This value corresponds to the <i>NTEContext</i> parameters in the 
-<a href="https://msdn.microsoft.com/669264cd-a43c-4681-9416-2704d4232685">AddIPAddress</a> and 
-<a href="https://msdn.microsoft.com/d7ed986d-d62e-4723-ab74-85c3edfdf4ff">DeleteIPAddress</a> functions.
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-addipaddress">AddIPAddress</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-deleteipaddress">DeleteIPAddress</a> functions.
 
 
 ## -see-also
@@ -86,23 +86,23 @@ A network table entry (NTE). This value corresponds to the <i>NTEContext</i> par
 
 
 
-<a href="https://msdn.microsoft.com/669264cd-a43c-4681-9416-2704d4232685">AddIPAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-addipaddress">AddIPAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/d7ed986d-d62e-4723-ab74-85c3edfdf4ff">DeleteIPAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-deleteipaddress">DeleteIPAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/4896a9f8-0486-4380-bf49-d1c9ef114acc">IP Helper Start Page</a>
+<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
 
 
 
-<a href="https://msdn.microsoft.com/d53c3821-00a0-4eaa-9a06-69ec7aa98d84">IP Helper Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-structures">IP Helper Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/f8035801-ca0c-4d86-bfc5-8e2d746af1b4">IP_ADAPTER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-_ip_adapter_info">IP_ADAPTER_INFO</a>
 
 
 

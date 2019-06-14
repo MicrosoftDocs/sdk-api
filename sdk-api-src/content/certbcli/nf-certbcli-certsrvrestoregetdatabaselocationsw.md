@@ -65,7 +65,7 @@ A handle to a Certificate Services backup or restore context.
 
 ### -param ppwszzDatabaseLocationList [out]
 
-A pointer to a <b>WCHAR</b> pointer to receive the list of null-terminated database location names, log directory name, and system (or checkpoint) directory name. There is a null character after every name and an extra null character at the end of the list. The location name will be in the UNC form "## \\<i>Server</i>\<i>SharePoint</i>\…<i>Path</i>…\<i>FileName</i>.ext". The directory names will have the same form but without the trailing "\<i>FileName</i>.ext". The text "##" denotes a Certificate Services Backup file type (CSBFT_*) and is stored as a single non-null <a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">Unicode</a> character prefixed onto each UNC path. The type tag is defined in Certbcli.h and can be one of the following values for this function.
+A pointer to a <b>WCHAR</b> pointer to receive the list of null-terminated database location names, log directory name, and system (or checkpoint) directory name. There is a null character after every name and an extra null character at the end of the list. The location name will be in the UNC form "## \\<i>Server</i>\<i>SharePoint</i>\…<i>Path</i>…\<i>FileName</i>.ext". The directory names will have the same form but without the trailing "\<i>FileName</i>.ext". The text "##" denotes a Certificate Services Backup file type (CSBFT_*) and is stored as a single non-null <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> character prefixed onto each UNC path. The type tag is defined in Certbcli.h and can be one of the following values for this function.
 
 <table>
 <tr>
@@ -105,7 +105,7 @@ Certificate Services database log directory.
 </table>
  
 
-You must free this allocated memory when done by calling <a href="https://msdn.microsoft.com/dbfac3fc-3156-4253-812a-8b0647719096">CertSrvBackupFree</a>.
+You must free this allocated memory when done by calling <a href="https://docs.microsoft.com/windows/desktop/api/certbcli/nf-certbcli-certsrvbackupfree">CertSrvBackupFree</a>.
 
 Setting *<i>ppwszzDatabaseLocationList</i> to <b>NULL</b> before calling this function is optional.
 
@@ -131,7 +131,7 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
 
 Certificate Services must be running for this method to succeed.
 
-This function's name in Certadm.dll is <b>CertSrvRestoreGetDatabaseLocationsW</b>. You must use this form of the name when calling <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a>. Also, this function is defined as type <b>FNCERTSRVRESTOREGETDATABASELOCATIONSW</b> in the Certbcli.h header file.
+This function's name in Certadm.dll is <b>CertSrvRestoreGetDatabaseLocationsW</b>. You must use this form of the name when calling <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>. Also, this function is defined as type <b>FNCERTSRVRESTOREGETDATABASELOCATIONSW</b> in the Certbcli.h header file.
 
 
 #### Examples
@@ -194,11 +194,11 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/dbfac3fc-3156-4253-812a-8b0647719096">CertSrvBackupFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certbcli/nf-certbcli-certsrvbackupfree">CertSrvBackupFree</a>
 
 
 
-<a href="https://msdn.microsoft.com/47e8f490-ecb2-4c41-8bf0-b673e173ddc6">Using the Certificate Services Backup and Restore Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/using-the-certificate-services-backup-and-restore-functions">Using the Certificate Services Backup and Restore Functions</a>
  
 
  

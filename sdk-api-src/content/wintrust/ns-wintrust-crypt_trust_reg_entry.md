@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The <b>CRYPT_TRUST_REG_ENTRY</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CRYPT_TRUST_REG_ENTRY</b> structure identifies a provider function by DLL name and function name. This structure is used by the <a href="https://msdn.microsoft.com/0b2b482f-f087-4be7-b17f-91c287c3460d">CRYPT_REGISTER_ACTIONID</a> structure when the <a href="https://msdn.microsoft.com/3b282342-9c86-42fa-b745-e5194d2885dc">WintrustAddActionID</a> function is called.
+The <b>CRYPT_TRUST_REG_ENTRY</b> structure identifies a provider function by DLL name and function name. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_register_actionid">CRYPT_REGISTER_ACTIONID</a> structure when the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-wintrustaddactionid">WintrustAddActionID</a> function is called.
 
 
 ## -struct-fields
@@ -79,11 +79,11 @@ A pointer to a null-terminated string for the function name.
 
 
 
-<a href="https://msdn.microsoft.com/0b2b482f-f087-4be7-b17f-91c287c3460d">CRYPT_REGISTER_ACTIONID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_register_actionid">CRYPT_REGISTER_ACTIONID</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b282342-9c86-42fa-b745-e5194d2885dc">WintrustAddActionID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-wintrustaddactionid">WintrustAddActionID</a>
  
 
  

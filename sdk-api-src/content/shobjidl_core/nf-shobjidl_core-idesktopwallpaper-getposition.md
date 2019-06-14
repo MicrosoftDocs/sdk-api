@@ -59,7 +59,7 @@ Retrieves the current display value for the desktop background image.
 
 ### -param position [out]
 
-A pointer to a value that, when this method returns successfully, receives one of the <a href="https://msdn.microsoft.com/5524E7DA-087C-475a-BB22-5E62C1A5CC4D">DESKTOP_WALLPAPER_POSITION</a> enumeration values that specify how the image is being displayed on the system's monitors.
+A pointer to a value that, when this method returns successfully, receives one of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-desktop_wallpaper_position">DESKTOP_WALLPAPER_POSITION</a> enumeration values that specify how the image is being displayed on the system's monitors.
 
 
 ## -returns
@@ -95,11 +95,11 @@ A <b>NULL</b> pointer was provided in <i>position</i>.
 
 
 
-<a href="https://msdn.microsoft.com/A83903B5-314B-4a8b-8D37-F8A8995DE0CB">IDesktopWallpaper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idesktopwallpaper">IDesktopWallpaper</a>
 
 
 
-<a href="https://msdn.microsoft.com/A4993DB8-9132-43c1-B900-02BA5384B7A8">IDesktopWallpaper::SetPosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-setposition">IDesktopWallpaper::SetPosition</a>
  
 
  

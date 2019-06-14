@@ -87,7 +87,7 @@ Internal use only.
 
 
 
-This enumeration is used by <a href="https://msdn.microsoft.com/37771598-DC2E-42FA-B17D-A187164A3314">ID3D12DebugDevice::ReportLiveDeviceObjects</a>. 
+This enumeration is used by <a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debugdevice-reportlivedeviceobjects">ID3D12DebugDevice::ReportLiveDeviceObjects</a>. 
 
 
 
@@ -97,7 +97,7 @@ This enumeration is used by <a href="https://msdn.microsoft.com/37771598-DC2E-42
 
 
 
-<a href="https://msdn.microsoft.com/6E76C857-128E-4F0E-9711-72C4CF6C835C">Debug Layer Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-sdklayers-enumerations">Debug Layer Enumerations</a>
  
 
  

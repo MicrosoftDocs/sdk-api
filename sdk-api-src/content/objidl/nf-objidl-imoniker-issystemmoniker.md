@@ -59,7 +59,7 @@ Determines whether this moniker is one of the system-provided moniker classes.
 
 ### -param pdwMksys [out]
 
-A pointer to a variables that receives one of the values from the <a href="https://msdn.microsoft.com/f0d8ab71-5be9-4a5c-a036-d3a0a90a053f">MKSYS</a> enumeration and refers to one of the COM moniker classes. This parameter cannot be <b>NULL</b>.
+A pointer to a variables that receives one of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tagmksys">MKSYS</a> enumeration and refers to one of the COM moniker classes. This parameter cannot be <b>NULL</b>.
 
 
 ## -returns
@@ -76,10 +76,10 @@ This method returns S_OK to indicate that the moniker is a system moniker, and S
 
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-New values of the <a href="https://msdn.microsoft.com/f0d8ab71-5be9-4a5c-a036-d3a0a90a053f">MKSYS</a> enumeration may be defined in the future; therefore, you should explicitly test for each value you are interested in.
+New values of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tagmksys">MKSYS</a> enumeration may be defined in the future; therefore, you should explicitly test for each value you are interested in.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-Your implementation of this method must return MKSYS_NONE. You cannot use this function to identify your own monikers (for example, in your implementation of <a href="https://msdn.microsoft.com/6e41d79c-1a57-4270-aa84-160e0639852b">IMoniker::ComposeWith</a>). Instead, you should use your moniker's implementation of <a href="https://msdn.microsoft.com/921a3b86-a240-454e-9411-8d653e02b90e">IPersist::GetClassID</a> or use <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> to test for your own private interface.
+Your implementation of this method must return MKSYS_NONE. You cannot use this function to identify your own monikers (for example, in your implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-composewith">IMoniker::ComposeWith</a>). Instead, you should use your moniker's implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersist-getclassid">IPersist::GetClassID</a> or use <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> to test for your own private interface.
 
 <h3><a id="Implementation-specific_Notes"></a><a id="implementation-specific_notes"></a><a id="IMPLEMENTATION-SPECIFIC_NOTES"></a>Implementation-specific Notes</h3>
 <table>
@@ -137,7 +137,7 @@ Your implementation of this method must return MKSYS_NONE. You cannot use this f
 
 
 
-<a href="https://msdn.microsoft.com/17f4c1df-7a9c-42ef-a888-70cd8d85f070">IMoniker</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
  
 
  

@@ -65,13 +65,13 @@ The <b>IsWellKnownSid</b> function compares a SID to a well-known SID and return
 
 ### -param pSid [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> to test.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> to test.
 
 
 ### -param WellKnownSidType [in]
 
 Member of the 
-<a href="https://msdn.microsoft.com/6f1fa59e-17c0-412b-937b-ddf746ed68bd">WELL_KNOWN_SID_TYPE</a> enumeration to compare with the SID at <i>pSid</i>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-well_known_sid_type">WELL_KNOWN_SID_TYPE</a> enumeration to compare with the SID at <i>pSid</i>.
 
 
 ## -returns
@@ -90,15 +90,15 @@ Otherwise, returns <b>FALSE</b>.
 
 
 
-<a href="https://msdn.microsoft.com/00e75bae-fbce-41a3-a0bc-c345c36f2c84">CreateWellKnownSid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createwellknownsid">CreateWellKnownSid</a>
 
 
 
-<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
 
 
 
-<a href="https://msdn.microsoft.com/6f1fa59e-17c0-412b-937b-ddf746ed68bd">WELL_KNOWN_SID_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-well_known_sid_type">WELL_KNOWN_SID_TYPE</a>
  
 
  

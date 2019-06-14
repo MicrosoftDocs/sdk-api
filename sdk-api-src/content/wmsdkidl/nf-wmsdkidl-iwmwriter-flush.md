@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-The functionality of the <b>Flush</b> method has been removed, because <a href="https://msdn.microsoft.com/en-us/library/Dd757475(v=VS.85).aspx">IWMWriter::EndWriting</a> performs the needed checks internally. For compatibility with older applications, calls to flush will always return S_OK even though the call does nothing.
+The functionality of the <b>Flush</b> method has been removed, because <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-endwriting">IWMWriter::EndWriting</a> performs the needed checks internally. For compatibility with older applications, calls to flush will always return S_OK even though the call does nothing.
 
 
 
@@ -79,7 +79,7 @@ This method always returns S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798719(v=VS.85).aspx">IWMWriter Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter Interface</a>
  
 
  

@@ -54,7 +54,7 @@ Represents additional information about an <b>ISyncChange</b> object during reco
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncFullEnumerationChange</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISyncFullEnumerationChange</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncFullEnumerationChange</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncFullEnumerationChange</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISyncFullEnumerationChange</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/958bca82-67a7-401f-a9d3-a17f60496cba">GetLearnedForgottenKnowledge</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncfullenumerationchange-getlearnedforgottenknowledge">GetLearnedForgottenKnowledge</a>
 </td>
 <td align="left" width="63%">
 Gets the forgotten knowledge that the destination replica learns when the destination provider applies this change during recovery synchronization.
@@ -78,7 +78,7 @@ Gets the forgotten knowledge that the destination replica learns when the destin
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b6d536ad-557a-489d-a3e3-a4ffd69be096">GetLearnedKnowledgeAfterRecoveryComplete</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncfullenumerationchange-getlearnedknowledgeafterrecoverycomplete">GetLearnedKnowledgeAfterRecoveryComplete</a>
 </td>
 <td align="left" width="63%">
 Gets the knowledge that the destination replica will learn after it applies this change during recovery synchronization.
@@ -92,7 +92,7 @@ Gets the knowledge that the destination replica will learn after it applies this
 
 
 
-To obtain an <b>ISyncFullEnumerationChange</b> object, pass <b>IID_ISyncFullEnumerationChange</b> to the <b>QueryInterface</b> method of an <a href="https://msdn.microsoft.com/0cd29977-8d02-4a1e-b63f-783cc10021ee">ISyncChange</a> object during recovery synchronization.
+To obtain an <b>ISyncFullEnumerationChange</b> object, pass <b>IID_ISyncFullEnumerationChange</b> to the <b>QueryInterface</b> method of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchange">ISyncChange</a> object during recovery synchronization.
 
 
 
@@ -102,11 +102,11 @@ To obtain an <b>ISyncFullEnumerationChange</b> object, pass <b>IID_ISyncFullEnum
 
 
 
-<a href="https://msdn.microsoft.com/0cd29977-8d02-4a1e-b63f-783cc10021ee">ISyncChange Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchange">ISyncChange Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/2c185fe2-1bbe-4409-aea0-6e138430b304">Windows Sync Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
  
 
  

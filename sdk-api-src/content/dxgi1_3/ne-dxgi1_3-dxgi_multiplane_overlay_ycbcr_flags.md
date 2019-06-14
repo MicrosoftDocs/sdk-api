@@ -76,7 +76,7 @@ Specifies xvYCC or extended-gamut YCC (also x.v.Color) color space that can be u
 
 
 
-This enum is used by <a href="https://msdn.microsoft.com/DE0AA2BF-8E98-4CF4-8CC2-760AB4B8776D">SetColorSpace</a>.
+This enum is used by <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgidecodeswapchain-setcolorspace">SetColorSpace</a>.
 
 
 
@@ -86,7 +86,7 @@ This enum is used by <a href="https://msdn.microsoft.com/DE0AA2BF-8E98-4CF4-8CC2
 
 
 
-<a href="https://msdn.microsoft.com/c4574c89-dee2-4841-9318-5383cf417111">DXGI Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-enums">DXGI Enumerations</a>
  
 
  

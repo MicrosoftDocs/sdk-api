@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Inserts a group into a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761103(v=VS.85).aspx">LVM_INSERTGROUP</a> message explicitly. 
+Inserts a group into a list-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-insertgroup">LVM_INSERTGROUP</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Inserts a group into a list-view control. You can use this macro or send the <a 
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control. 
 
@@ -73,16 +73,16 @@ Type: <b>int</b>
 
 Type: <b>PLVGROUP</b>
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774769(v=VS.85).aspx">LVGROUP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvgroup">LVGROUP</a>
 
 ## -remarks
 
 
 
-To turn on group mode, call <a href="https://msdn.microsoft.com/en-us/library/Bb774900(v=VS.85).aspx">LVM_ENABLEGROUPVIEW</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb761239(v=VS.85).aspx">ListView_EnableGroupView</a>.
+To turn on group mode, call <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-enablegroupview">LVM_ENABLEGROUPVIEW</a> or <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-listview_enablegroupview">ListView_EnableGroupView</a>.
 
 
-To use <b>ListView_InsertGroup</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_InsertGroup</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>. 
 
 
 

@@ -177,7 +177,7 @@ The enumerator has become invalid. For more information, see Remarks.
 
 The calling application must use the Microsoft Win32 <b>CoTaskMemFree</b> function to free each <b>REGFILTER</b> pointer returned in the array. Do not free the <b>Name</b> member of the <b>REGFILTER</b> structure separately, because <code>IEnumRegFilters::Next</code> allocates memory for this string as part of the <b>REGFILTER</b> structure.
 
-If the number of registered filters changes, the state of the enumerator will no longer be consistent with the state of the registry. As a result, this method will return VFW_E_ENUM_OUT_OF_SYNC. You should discard any data obtained from previous calls to the enumerator, because it might be invalid, and update the enumerator by calling the <a href="https://msdn.microsoft.com/095d0102-c845-48ba-a1f5-e0262a924b50">Reset</a> method. You can then call the <code>Next</code> method safely.
+If the number of registered filters changes, the state of the enumerator will no longer be consistent with the state of the registry. As a result, this method will return VFW_E_ENUM_OUT_OF_SYNC. You should discard any data obtained from previous calls to the enumerator, because it might be invalid, and update the enumerator by calling the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ienumregfilters-reset">Reset</a> method. You can then call the <code>Next</code> method safely.
 
 
 
@@ -187,11 +187,11 @@ If the number of registered filters changes, the state of the enumerator will no
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/59cb809d-84f5-42c4-a385-0f586af4d048">IEnumRegFilters Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ienumregfilters">IEnumRegFilters Interface</a>
  
 
  

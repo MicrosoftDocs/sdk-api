@@ -64,7 +64,7 @@ A string containing the connection ID.
 
 ### -param mbnConnection [out, retval]
 
-A pointer to an <a href="https://msdn.microsoft.com/dae6ce6f-2534-4799-8ed3-53cd1f2eca13">IMbnConnection</a> interface that represents the requested connection.  If the method returns anything other than S_OK, then this is <b>NULL</b>.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a> interface that represents the requested connection.  If the method returns anything other than S_OK, then this is <b>NULL</b>.
 
 
 ## -returns
@@ -122,7 +122,7 @@ Could not allocate the required memory.
 
 
 
-<a href="https://msdn.microsoft.com/20b9243d-1f20-4092-951a-fbacb2d55481">IMbnConnectionManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionmanager">IMbnConnectionManager</a>
  
 
  

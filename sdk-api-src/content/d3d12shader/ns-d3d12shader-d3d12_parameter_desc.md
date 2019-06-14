@@ -66,19 +66,19 @@ The name of the function parameter.
 
 ### -field SemanticName
 
-The HLSL <a href="https://msdn.microsoft.com/en-us/library/Bb509647(v=VS.85).aspx">semantic</a> that is associated with this function parameter. This name includes the index, for example, SV_Target[n].
+The HLSL <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-semantics">semantic</a> that is associated with this function parameter. This name includes the index, for example, SV_Target[n].
           
 
 
 ### -field Type
 
-A <a href="https://msdn.microsoft.com/ef07a68c-d944-4dbb-8cb1-c50403c6c8e8">D3D_SHADER_VARIABLE_TYPE</a>-typed value that identifies the variable type for the parameter.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_shader_variable_type">D3D_SHADER_VARIABLE_TYPE</a>-typed value that identifies the variable type for the parameter.
           
 
 
 ### -field Class
 
-A <a href="https://msdn.microsoft.com/d367ba01-e357-468d-9417-7d5a282d5565">D3D_SHADER_VARIABLE_CLASS</a>-typed value that identifies the variable class for the parameter as one of scalar, vector, matrix, object, and so on.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_shader_variable_class">D3D_SHADER_VARIABLE_CLASS</a>-typed value that identifies the variable class for the parameter as one of scalar, vector, matrix, object, and so on.
           
 
 
@@ -96,13 +96,13 @@ The number of columns for a matrix parameter.
 
 ### -field InterpolationMode
 
-A <a href="https://msdn.microsoft.com/E4D5F0C3-535F-4CE0-B42F-00D961C83EF1">D3D_INTERPOLATION_MODE</a>-typed value that identifies the interpolation mode for the parameter.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_interpolation_mode">D3D_INTERPOLATION_MODE</a>-typed value that identifies the interpolation mode for the parameter.
           
 
 
 ### -field Flags
 
-A combination of <a href="https://msdn.microsoft.com/36D757E7-2960-43E3-8C5E-8B11F0109ACD">D3D_PARAMETER_FLAGS</a>-typed values that are combined by using a bitwise OR operation. The resulting value specifies semantic flags for the parameter.
+A combination of <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_parameter_flags">D3D_PARAMETER_FLAGS</a>-typed values that are combined by using a bitwise OR operation. The resulting value specifies semantic flags for the parameter.
           
 
 
@@ -134,7 +134,7 @@ The first output register component for this parameter.
 
 
 
-Get a function-parameter description by calling <a href="https://msdn.microsoft.com/E10ACB2E-EF77-4C71-A5C7-CEFA31218091">ID3D12FunctionParameterReflection::GetDesc</a>.
+Get a function-parameter description by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12functionparameterreflection-getdesc">ID3D12FunctionParameterReflection::GetDesc</a>.
       
 
 
@@ -145,11 +145,11 @@ Get a function-parameter description by calling <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/E10ACB2E-EF77-4C71-A5C7-CEFA31218091">ID3D12FunctionParameterReflection::GetDesc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12functionparameterreflection-getdesc">ID3D12FunctionParameterReflection::GetDesc</a>
 
 
 
-<a href="https://msdn.microsoft.com/b8ece5c3-5065-4711-b12c-6cf7ea0e1ba0">Shader Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-shader-structures">Shader Structures</a>
  
 
  

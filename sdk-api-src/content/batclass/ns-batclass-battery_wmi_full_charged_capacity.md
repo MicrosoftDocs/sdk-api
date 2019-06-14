@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines information about the capacity of a battery for use with the <a href="https://msdn.microsoft.com/2a5c4c14-fc80-4a0a-b447-6fe33ff1d42f">BatteryClassQueryWmiDataBlock</a>)
+Defines information about the capacity of a battery for use with the <a href="https://docs.microsoft.com/windows/desktop/api/batclass/nf-batclass-batteryclassquerywmidatablock">BatteryClassQueryWmiDataBlock</a>)
 
 
 ## -struct-fields
@@ -72,7 +72,7 @@ The  current fully charged capacity, measured for example in milliwatt-hours, of
 
 
 
-<a href="https://msdn.microsoft.com/2a5c4c14-fc80-4a0a-b447-6fe33ff1d42f">BatteryClassQueryWmiDataBlock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/batclass/nf-batclass-batteryclassquerywmidatablock">BatteryClassQueryWmiDataBlock</a>
  
 
  

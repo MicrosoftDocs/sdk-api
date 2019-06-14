@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Contains information used to increase the size of a partition.This structure is used by the <a href="https://msdn.microsoft.com/bbcb0bee-a507-4abb-83df-328f3aa6caaa">IOCTL_DISK_GROW_PARTITION</a> control code.
+Contains information used to increase the size of a partition.This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_grow_partition">IOCTL_DISK_GROW_PARTITION</a> control code.
 
 
 ## -struct-fields
@@ -71,11 +71,11 @@ The number of bytes by which the partition is to be enlarged (positive value) or
 
 
 
-<a href="https://msdn.microsoft.com/bbcb0bee-a507-4abb-83df-328f3aa6caaa">IOCTL_DISK_GROW_PARTITION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_grow_partition">IOCTL_DISK_GROW_PARTITION</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a2985b6-5baf-49ab-af28-67c1374557ea">LARGE_INTEGER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_large_integer">LARGE_INTEGER</a>
  
 
  

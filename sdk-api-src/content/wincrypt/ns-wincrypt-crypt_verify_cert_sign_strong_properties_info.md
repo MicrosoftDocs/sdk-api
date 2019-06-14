@@ -71,7 +71,7 @@ The buffer contains the length, in bits, of the asymmetric key used for signing.
 
 
 
-This structure is returned by the <a href="https://msdn.microsoft.com/8a84af66-b174-4a3e-b1d7-6f218a52d877">CryptVerifyCertificateSignatureEx</a> function when the <i>dwFlags</i> parameter is set to <b>CRYPT_VERIFY_CERT_SIGN_RETURN_STRONG_PROPERTIES_FLAG</b>. 
+This structure is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifycertificatesignatureex">CryptVerifyCertificateSignatureEx</a> function when the <i>dwFlags</i> parameter is set to <b>CRYPT_VERIFY_CERT_SIGN_RETURN_STRONG_PROPERTIES_FLAG</b>. 
 
 
 
@@ -81,7 +81,7 @@ This structure is returned by the <a href="https://msdn.microsoft.com/8a84af66-b
 
 
 
-<a href="https://msdn.microsoft.com/8a84af66-b174-4a3e-b1d7-6f218a52d877">CryptVerifyCertificateSignatureEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifycertificatesignatureex">CryptVerifyCertificateSignatureEx</a>
  
 
  

@@ -66,7 +66,7 @@ The handle to the phone to be queried.
 ### -param lpPhoneStatus
 
 A pointer to a variably sized data structure of type 
-<a href="https://msdn.microsoft.com/798a6c57-d3d3-4924-a925-059de350d18e">PHONESTATUS</a>, into which the service provider writes information about the phone's status. Prior to calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonestatus_tag">PHONESTATUS</a>, into which the service provider writes information about the phone's status. Prior to calling 
 <b>TSPI_phoneGetStatus</b>, the application sets the <b>dwTotalSize</b> member of this structure to indicate the amount of memory available to TAPI for returning information.
 
 
@@ -86,7 +86,7 @@ PHONEERR_INVALPHONEHANDLE, PHONEERR_OPERATIONFAILED, PHONEERR_NOMEM, PHONEERR_OP
 
 
 The following table indicates which members of the 
-<a href="https://msdn.microsoft.com/798a6c57-d3d3-4924-a925-059de350d18e">PHONESTATUS</a> data structure are filled in by TAPI and which members are filled in by the service provider. The service provider must not overwrite the values filled in by TAPI.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonestatus_tag">PHONESTATUS</a> data structure are filled in by TAPI and which members are filled in by the service provider. The service provider must not overwrite the values filled in by TAPI.
 
 <table>
 <tr>
@@ -232,11 +232,11 @@ TAPI can use this function to determine the current state of an open phone devic
 
 
 
-<a href="https://msdn.microsoft.com/798a6c57-d3d3-4924-a925-059de350d18e">PHONESTATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonestatus_tag">PHONESTATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/4772e24c-cafb-4fda-8243-5117c9a73753">PHONE_STATE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725262(v=vs.85)">PHONE_STATE</a>
  
 
  

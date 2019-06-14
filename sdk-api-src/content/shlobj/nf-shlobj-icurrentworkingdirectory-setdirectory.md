@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/1fdbe616-3ca3-4f07-b89c-4c76561ba169">ICurrentWorkingDirectory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-icurrentworkingdirectory">ICurrentWorkingDirectory</a>
  
 
  

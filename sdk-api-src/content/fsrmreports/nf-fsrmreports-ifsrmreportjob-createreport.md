@@ -59,14 +59,14 @@ Creates a new report object of the specified type.
 
 ### -param reportType [in]
 
-Type of report to generate. For possible values, see the<a href="https://msdn.microsoft.com/6fb5cb02-371b-4d07-9f13-d0409d5835d4">FsrmReportType</a> enumeration.
+Type of report to generate. For possible values, see the<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmreporttype">FsrmReportType</a> enumeration.
 
 Note that the job can contain only one report of each type.
 
 
 ### -param report [out]
 
-An <a href="https://msdn.microsoft.com/2172a543-b3b7-453e-887b-05c8ee74f197">IFsrmReport</a> interface to the newly created report. Use the interface to configure the report.
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreport">IFsrmReport</a> interface to the newly created report. Use the interface to configure the report.
 
 
 ## -returns
@@ -83,7 +83,7 @@ The method returns the following return values.
 
 
 
-<a href="https://msdn.microsoft.com/ea8a3f6b-326b-4c8f-a6fc-7b7525c5543f">IFsrmReportJob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportjob">IFsrmReportJob</a>
  
 
  

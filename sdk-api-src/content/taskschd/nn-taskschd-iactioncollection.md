@@ -54,7 +54,7 @@ Contains the actions that are performed by the task.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IActionCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IActionCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IActionCollection</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IActionCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IActionCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/59a1c49d-01e0-4331-997a-deb5d45d5766">Clear</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iactioncollection-clear">Clear</a>
 </td>
 <td align="left" width="63%">
 Clears all the actions from the collection.
@@ -79,7 +79,7 @@ Clears all the actions from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/815a000b-ba02-470d-80e6-06ba3c8ea014">Create</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iactioncollection-create">Create</a>
 </td>
 <td align="left" width="63%">
 Creates and adds a new action to the collection.
@@ -88,7 +88,7 @@ Creates and adds a new action to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/91332ec0-8225-421a-baae-1a106be157a9">Remove</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iactioncollection-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes a specified action from the collection.
@@ -106,7 +106,7 @@ Removes a specified action from the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/09d8924e-5153-4911-9662-93f71e39e583">_NewEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iactioncollection-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -122,7 +122,7 @@ Gets the collection enumerator for the action collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/e365955e-1648-4e11-b602-016dcbeb129e">Context</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iactioncollection-get_context">Context</a>
 
 
 </td>
@@ -138,7 +138,7 @@ Gets or sets the identifier of the principal for the task.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c9d11aa9-c182-4633-9fc6-d9cf53adc25a">Count</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iactioncollection-get_count">Count</a>
 
 
 </td>
@@ -154,7 +154,7 @@ Gets the number of actions in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/70d9cc9f-c539-4a5a-8b29-ca4d7464ab3f">Item</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iactioncollection-get_item">Item</a>
 
 
 </td>
@@ -170,7 +170,7 @@ Gets a  specified action from the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/1c72546d-26e3-441c-875c-a41078ded0b7">XmlText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iactioncollection-get_xmltext">XmlText</a>
 
 
 </td>
@@ -190,12 +190,12 @@ Gets or sets an XML-formatted version of the collection.
 
 
 
-When reading or writing XML for a task, the actions of the task are specified in the  <a href="https://msdn.microsoft.com/0a48fbd6-8a6f-4bad-9b28-0631dce15748">Actions</a> element of the Task Scheduler schema.
+When reading or writing XML for a task, the actions of the task are specified in the  <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-actions-tasktype-element">Actions</a> element of the Task Scheduler schema.
 
 
 #### Examples
 
-For more information and example code for this interface, see <a href="https://msdn.microsoft.com/e45b18b0-5a7f-4283-b42f-15e9ffcfaff7">Time Trigger Example (C++)</a>, <a href="https://msdn.microsoft.com/cacc1b72-7c58-4117-b204-ddb3a312bb08">Event Trigger Example (C++)</a>, <a href="https://msdn.microsoft.com/f1038142-b83e-4159-9a7b-db2ae4ed3bd2">Daily Trigger Example (C++)</a>, <a href="https://msdn.microsoft.com/5e2e8fa6-66c7-4356-8fd6-22f7974791b9">Registration Trigger Example (C++)</a>, <a href="https://msdn.microsoft.com/7c70b743-aff2-4ef5-b65b-ef0b5fdacade">Weekly Trigger Example (C++)</a>, <a href="https://msdn.microsoft.com/15647234-8d1f-4d75-b215-92927b300c1f">Logon Trigger Example (C++)</a>, or <a href="https://msdn.microsoft.com/d4dbbfe5-bde9-4a1c-8e11-24cd1e14646c">Boot Trigger Example (C++)</a>.
+For more information and example code for this interface, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/time-trigger-example--c---">Time Trigger Example (C++)</a>, <a href="https://docs.microsoft.com/previous-versions//aa446886(v=vs.85)">Event Trigger Example (C++)</a>, <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/daily-trigger-example--c---">Daily Trigger Example (C++)</a>, <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/registration-trigger-example--c---">Registration Trigger Example (C++)</a>, <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/weekly-trigger-example--c---">Weekly Trigger Example (C++)</a>, <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/logon-trigger-example--c---">Logon Trigger Example (C++)</a>, or <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/boot-trigger-example--c---">Boot Trigger Example (C++)</a>.
 
 <div class="code"></div>
 
@@ -206,15 +206,15 @@ For more information and example code for this interface, see <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/50d60cf0-642a-43fe-9163-51740e75fa8d">IAction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iaction">IAction</a>
 
 
 
-<a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383606(v=VS.85).aspx">Task Scheduler Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>
  
 
  

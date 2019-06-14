@@ -51,12 +51,12 @@ ms.custom: 19H1
 
 The
     <b>IRSOPInformation</b> interface provides methods for Microsoft Management Console (MMC) extension snap-ins to communicate with the main Resultant Set of Policy (RSoP) snap-in. For more information about MMC, see the 
-<a href="https://msdn.microsoft.com/afa61d59-a568-469d-832a-b69e766a0207">Microsoft Management Console</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmc-programmer-s-guide">Microsoft Management Console</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRSOPInformation</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IRSOPInformation</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRSOPInformation</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRSOPInformation</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IRSOPInformation</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ee408c0a-437e-4caa-90b7-9717d43e1452">GetEventLogEntryText</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-irsopinformation-geteventlogentrytext">GetEventLogEntryText</a>
 </td>
 <td align="left" width="63%">
 Returns the text for a specific entry in the event log.
@@ -80,7 +80,7 @@ Returns the text for a specific entry in the event log.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/10a518a3-9097-4efd-90cc-14ea66b70fa2">GetFlags</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-irsopinformation-getflags">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about the RSoP user interface session.
@@ -89,7 +89,7 @@ Retrieves information about the RSoP user interface session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3575072c-88d7-482c-bc8b-dca9f6d68577">GetNameSpace</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-irsopinformation-getnamespace">GetNameSpace</a>
 </td>
 <td align="left" width="63%">
 Retrieves the namespace from which the RSoP data is being displayed.

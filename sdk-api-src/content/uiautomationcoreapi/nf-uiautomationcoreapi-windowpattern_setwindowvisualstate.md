@@ -66,7 +66,7 @@ The control pattern object.
 
 ### -param state [in]
 
-Type: <b><a href="https://msdn.microsoft.com/5912551c-2745-434b-98de-bf24212f7eef">WindowVisualState</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-windowvisualstate">WindowVisualState</a></b>
 
 The visual state to set the window to.
 
@@ -75,7 +75,7 @@ The visual state to set the window to.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK if successful or an error value otherwise.
 

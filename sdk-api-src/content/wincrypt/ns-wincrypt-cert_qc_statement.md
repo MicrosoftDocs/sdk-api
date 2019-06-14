@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CERT_QC_STATEMENT</b> structure represents a single statement in a sequence of one or more statements for inclusion in a  Qualified Certificate (QC) statements extension. This structure populates the <b>rgStatement</b> member of the <a href="https://msdn.microsoft.com/788b3848-8d38-4e8f-9fdb-452767fbac61">CERT_QC_STATEMENTS_EXT_INFO</a> structure.
+The <b>CERT_QC_STATEMENT</b> structure represents a single statement in a sequence of one or more statements for inclusion in a  Qualified Certificate (QC) statements extension. This structure populates the <b>rgStatement</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_qc_statements_ext_info">CERT_QC_STATEMENTS_EXT_INFO</a> structure.
 
 
 ## -struct-fields
@@ -59,10 +59,10 @@ The <b>CERT_QC_STATEMENT</b> structure represents a single statement in a sequen
 
 ### -field pszStatementId
 
-A pointer to a string that contains the <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) for the defined statement.
+A pointer to a string that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) for the defined statement.
 
 
-The Wincrypt.h file defines the following <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifiers</a> (OIDs) for use with this member, but this member can be any OID as required by an application.
+The Wincrypt.h file defines the following <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) for use with this member, but this member can be any OID as required by an application.
 
 
 
@@ -99,5 +99,5 @@ Secure Signature Creation Device
 
 ### -field StatementInfo
 
-An optional <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a> that contains additional information that qualifies the defined statement. The <b>pszStatementId</b> member defines the syntax of this parameter.
+An optional <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> that contains additional information that qualifies the defined statement. The <b>pszStatementId</b> member defines the syntax of this parameter.
 

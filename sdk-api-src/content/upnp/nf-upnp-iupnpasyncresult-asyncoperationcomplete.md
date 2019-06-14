@@ -76,7 +76,7 @@ If the method succeeds, the return value is S_OK. Otherwise, the method returns 
 
 
 
-<a href="https://msdn.microsoft.com/53854510-BB0C-41E6-8651-F34991B24D5E">IUPnPAsyncResult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpasyncresult">IUPnPAsyncResult</a>
  
 
  

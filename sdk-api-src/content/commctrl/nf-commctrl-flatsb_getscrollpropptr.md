@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the properties for a flat scroll bar. This function can also be used to determine if <a href="https://msdn.microsoft.com/en-us/library/Bb775443(v=VS.85).aspx">InitializeFlatSB</a> has been called for this window. 
+Gets the properties for a flat scroll bar. This function can also be used to determine if <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-initializeflatsb">InitializeFlatSB</a> has been called for this window. 
 
-<div class="alert"><b>Note</b>  This is identical to <a href="https://msdn.microsoft.com/en-us/library/Bb775433(v=VS.85).aspx">FlatSB_GetScrollProp</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  This is identical to <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-flatsb_getscrollprop">FlatSB_GetScrollProp</a>.</div><div> </div>
 
 ## -parameters
 
@@ -60,14 +60,14 @@ Gets the properties for a flat scroll bar. This function can also be used to det
 
 ### -param arg1
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://msdn.microsoft.com/en-us/library/Bb775443(v=VS.85).aspx">InitializeFlatSB</a>. 
+A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-initializeflatsb">InitializeFlatSB</a>. 
 
 
 ### -param propIndex
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The parameter that determines what 
 					<i>pValue</i> represents and which property is being retrieved. It can be one of the following values. 
@@ -227,7 +227,7 @@ A normal, nonflat scroll bar is displayed. No special visual effects are applied
 </dl>
 </td>
 <td width="60%">
-<i>pValue</i> is a pointer to an INT value that receives the <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">WS_HSCROLL</a> and <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">WS_VSCROLL</a> style bits contained by the current window.
+<i>pValue</i> is a pointer to an INT value that receives the <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-styles">WS_HSCROLL</a> and <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-styles">WS_VSCROLL</a> style bits contained by the current window.
 
 </td>
 </tr>
@@ -237,7 +237,7 @@ A normal, nonflat scroll bar is displayed. No special visual effects are applied
 
 ### -param arg3
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPINT</a></b>
 
 A pointer to an <b>int</b> that receives the requested data. This parameter depends on the flag passed in 
 					<i>index</i>. 
@@ -247,10 +247,10 @@ A pointer to an <b>int</b> that receives the requested data. This parameter depe
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns nonzero if successful, or zero otherwise. If 
-						<i>index</i> is WSB_PROP_HSTYLE, the return is nonzero if <a href="https://msdn.microsoft.com/en-us/library/Bb775443(v=VS.85).aspx">InitializeFlatSB</a> has been called for this window, or zero otherwise. 
+						<i>index</i> is WSB_PROP_HSTYLE, the return is nonzero if <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-initializeflatsb">InitializeFlatSB</a> has been called for this window, or zero otherwise. 
 
 
 

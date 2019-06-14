@@ -68,7 +68,7 @@ The index.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -79,7 +79,7 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-The index is used with the <a href="https://msdn.microsoft.com/bb1322e9-47b2-4770-b5de-c5eeda70eed1">ITextDocument2:: GetStory</a> method.
+The index is used with the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-getstory">ITextDocument2:: GetStory</a> method.
 
 
 
@@ -89,7 +89,7 @@ The index is used with the <a href="https://msdn.microsoft.com/bb1322e9-47b2-477
 
 
 
-<a href="https://msdn.microsoft.com/8b52c6e8-c250-4cfb-979e-770df9f94010">ITextStory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextstory">ITextStory</a>
  
 
  

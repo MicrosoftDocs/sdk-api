@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Releases the memory resource associated with an   <b>Error</b> object created using  <a href="https://msdn.microsoft.com/0ec858f7-12a5-43cf-94a7-3838ab6d76ae">WsCreateError</a>.
+Releases the memory resource associated with an   <b>Error</b> object created using  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreateerror">WsCreateError</a>.
             This releases the object and its constituent information.
             
 
@@ -62,7 +62,7 @@ Releases the memory resource associated with an   <b>Error</b> object created us
 ### -param error [in]
 
 A pointer to the <b>Error</b> object to release.  The pointer must reference a valid <b>WS_ERROR</b> object
-                    returned by <a href="https://msdn.microsoft.com/0ec858f7-12a5-43cf-94a7-3838ab6d76ae">WsCreateError</a>.  The referenced value may 
+                    returned by <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreateerror">WsCreateError</a>.  The referenced value may 
                     not be NULL.
                 
 

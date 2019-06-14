@@ -60,7 +60,7 @@ Defines the attributes of cells in a table row. The definitions include the corr
 
 ### -field dxWidth
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 The width of a cell (\cellx). 
 
@@ -97,7 +97,7 @@ The width of a cell (\cellx).
 
 ### -field wShading
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Shading in .01% (\clshdng). This controls the amount of pattern foreground color (<b>crForePat</b>) and pattern background color (<b>crBackPat</b>) that is used to create the cell background color. If <b>wShading</b> is 0, the cell background is <b>crBackPat</b>. If it’s 10000, the cell background is <b>crForePat</b>. Values of <b>wShading</b> in between are mixtures of the two pattern colors. 
 
@@ -105,112 +105,112 @@ Shading in .01% (\clshdng). This controls the amount of pattern foreground color
 
 ### -field dxBrdrLeft
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SHORT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SHORT</a></b>
 
 Left border width, in twips  (\clbrdrl\brdrwN).
 
 
 ### -field dyBrdrTop
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SHORT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SHORT</a></b>
 
 Top border width (\clbrdrt\brdrwN).
 
 
 ### -field dxBrdrRight
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SHORT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SHORT</a></b>
 
 Right border width (\clbrdrr\brdrwN).
 
 
 ### -field dyBrdrBottom
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SHORT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SHORT</a></b>
 
 Bottom border width (\clbrdrb\brdrwN).
 
 
 ### -field crBrdrLeft
 
-Type: <b><a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a></b>
 
 Left border color (\clbrdrl\brdrcf).
 
 
 ### -field crBrdrTop
 
-Type: <b><a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a></b>
 
 Top border color (\clbrdrt\brdrcf).
 
 
 ### -field crBrdrRight
 
-Type: <b><a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a></b>
 
 Right border color (\clbrdrr\brdrcf).
 
 
 ### -field crBrdrBottom
 
-Type: <b><a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a></b>
 
 Bottom border color (\clbrdrb\brdrcf).
 
 
 ### -field crBackPat
 
-Type: <b><a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a></b>
 
 Background color (\clcbpat).
 
 
 ### -field crForePat
 
-Type: <b><a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a></b>
 
 Foreground color (\clcfpat).
 
 
 #### - fMergeCont:1
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Merge with the previous cell (\clmrg).
 
 
 #### - fMergePrev:1
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Merge with the cell above (\clvmrg).
 
 
 #### - fMergeStart:1
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Start set of horizontally merged cells (\clmgf).
 
 
 #### - fMergeTop:1
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Top cell for vertical merge (\clvmgf).
 
 
 #### - fVertical:1
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Display text top to bottom, right to left (\cltxtbrlv).
 
 
 #### - nVertAlign:2
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 
 The vertical alignment of cells (\clvertalt (def), \clvertalc, \clvertalb). It can be one of the following values.
@@ -264,11 +264,11 @@ The content appears at the bottom of a cell.
 
 
 
-<a href="https://msdn.microsoft.com/7F9B2F28-1035-44AA-9DF6-57BC62886A4E">EM_INSERTTABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/em-inserttable">EM_INSERTTABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/8b538d72-1210-4344-b673-592ef9a8cc85">TABLEROWPARMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_tablerowparms">TABLEROWPARMS</a>
  
 
  

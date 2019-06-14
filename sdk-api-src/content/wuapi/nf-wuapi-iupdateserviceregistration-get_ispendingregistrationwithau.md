@@ -62,7 +62,7 @@ This property is read-only.
 
 
 
-If the <a href="https://msdn.microsoft.com/798d1392-a8dc-4063-b33d-159a507161f1">RegistrationState</a> property is <b>usrsRegistrationPending</b>, registration with Automatic Updates is subject to the allowed settings that are specified in the authorization cabinet  file (.cab) for the service.  If the authorization cabinet file does not allow registration with Automatic Updates, the service will  be registered with Windows Update Agent (WUA). However, the service will  not be registered with Automatic Updates.
+If the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-tagupdateserviceregistrationstate">RegistrationState</a> property is <b>usrsRegistrationPending</b>, registration with Automatic Updates is subject to the allowed settings that are specified in the authorization cabinet  file (.cab) for the service.  If the authorization cabinet file does not allow registration with Automatic Updates, the service will  be registered with Windows Update Agent (WUA). However, the service will  not be registered with Automatic Updates.
 
 
 
@@ -72,7 +72,7 @@ If the <a href="https://msdn.microsoft.com/798d1392-a8dc-4063-b33d-159a507161f1"
 
 
 
-<a href="https://msdn.microsoft.com/729664f2-5f75-4e73-9ccc-150b2e201f66">IUpdateServiceRegistration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateserviceregistration">IUpdateServiceRegistration</a>
  
 
  

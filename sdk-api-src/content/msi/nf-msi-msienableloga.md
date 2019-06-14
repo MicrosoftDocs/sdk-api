@@ -248,7 +248,7 @@ If this value is set, the installer appends the existing log specified by <i>szL
 </td>
 <td width="60%">
 Forces the log buffer to be flushed after each line. If this value is not set, the installer flushes the log buffer after 20 lines by calling 
-<a href="https://msdn.microsoft.com/en-us/library/Aa364439(v=VS.85).aspx">FlushFileBuffers</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-flushfilebuffers">FlushFileBuffers</a>.
 
 </td>
 </tr>
@@ -298,7 +298,7 @@ The function succeeded.
 
 
 For a description of the Logging policy, see 
-<a href="https://msdn.microsoft.com/e2dfc0db-7ec8-4a98-8e0c-855a64c6e7bd">System Policy</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/system-policy">System Policy</a>.
 
 The path to the log file location must already exist when using this function. The Installer does not create the directory structure for the log file.
 
@@ -310,11 +310,11 @@ The path to the log file location must already exist when using this function. T
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369426(v=VS.85).aspx">Interface and Logging Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Interface and Logging Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d8649808-5dc3-4496-8c2f-da9b1512b5aa">Logging</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/logging">Logging</a>
  
 
  

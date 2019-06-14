@@ -136,9 +136,9 @@ Insufficient memory.
 
 
 
-The data contained in <i>pbProperties</i> must conform to the format of the <a href="https://msdn.microsoft.com/4fda7f64-130c-42c8-a671-2e24bdd0b09b">AM_SAMPLE2_PROPERTIES</a> structure. You can specify a subset of the sample properties by setting <i>cbProperties</i> to a value less than the size of the <b>AM_SAMPLE2_PROPERTIES</b> structure.
+The data contained in <i>pbProperties</i> must conform to the format of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagam_sample2_properties">AM_SAMPLE2_PROPERTIES</a> structure. You can specify a subset of the sample properties by setting <i>cbProperties</i> to a value less than the size of the <b>AM_SAMPLE2_PROPERTIES</b> structure.
 
-The standard implementation of this method does not support updating <b>cbBuffer</b> and <b>pbBuffer</b> in the <a href="https://msdn.microsoft.com/4fda7f64-130c-42c8-a671-2e24bdd0b09b">AM_SAMPLE2_PROPERTIES</a> structure. If these members are not equal to zero, the method returns <b>E_INVALIDARG</b>. To modify the data contained in the sample's memory buffer, call <a href="https://msdn.microsoft.com/a3c69dfb-6ee4-401b-8dcb-4e42a8cd8156">IMediaSample::GetPointer</a>.
+The standard implementation of this method does not support updating <b>cbBuffer</b> and <b>pbBuffer</b> in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagam_sample2_properties">AM_SAMPLE2_PROPERTIES</a> structure. If these members are not equal to zero, the method returns <b>E_INVALIDARG</b>. To modify the data contained in the sample's memory buffer, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediasample-getpointer">IMediaSample::GetPointer</a>.
 
 
 
@@ -148,11 +148,11 @@ The standard implementation of this method does not support updating <b>cbBuffer
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/638cb75d-9be6-4ba1-a116-47e2d62b689d">IMediaSample2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediasample2">IMediaSample2 Interface</a>
  
 
  

@@ -95,7 +95,7 @@ Returns a handle to the shared memory for the process specified by <i>dwDestinat
 
 
 
-Use <a href="https://msdn.microsoft.com/5a86ae5d-8caa-4126-a22e-bc3cc7df2381">SHFreeShared</a> to free the handle when you are finished.
+Use <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shfreeshared">SHFreeShared</a> to free the handle when you are finished.
 
 
 
@@ -105,15 +105,15 @@ Use <a href="https://msdn.microsoft.com/5a86ae5d-8caa-4126-a22e-bc3cc7df2381">SH
 
 
 
-<a href="https://msdn.microsoft.com/5a86ae5d-8caa-4126-a22e-bc3cc7df2381">SHFreeShared</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shfreeshared">SHFreeShared</a>
 
 
 
-<a href="https://msdn.microsoft.com/5b948044-6cec-4649-a266-21959154f999">SHLockShared</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shlockshared">SHLockShared</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ecbf62b-fd0d-4a8d-bd55-42c0c3f64390">SHUnlockShared</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shunlockshared">SHUnlockShared</a>
  
 
  

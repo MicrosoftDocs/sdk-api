@@ -59,7 +59,7 @@ Gets the HDR metadata associated with the video stream.
 
 ### -param pVideoProcessor [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/AF6F6781-A7F9-4196-8E91-FDFDD1924E24">ID3D11VideoProcessor</a> interface.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videoprocessor">ID3D11VideoProcessor</a> interface.
 
 
 ### -param StreamIndex [in]
@@ -109,11 +109,11 @@ This can be called multiple times, the first time to get the <i>Type</i> (in whi
 
 
 
-<a href="https://msdn.microsoft.com/E3FB5478-31CD-4AE3-BEA0-18823C4A4D3E">ID3D11VideoContext2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_4/nn-d3d11_4-id3d11videocontext2">ID3D11VideoContext2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt808594(v=VS.85).aspx">ID3DVideoContext2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_4/nn-d3d11_4-id3d11videocontext2">ID3DVideoContext2</a>
  
 
  

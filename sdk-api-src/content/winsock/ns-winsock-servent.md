@@ -83,7 +83,7 @@ The name of the protocol to use when contacting the service.
 
 
 
-<a href="https://msdn.microsoft.com/730fa372-f620-4d21-99b9-3e7b79932792">getservbyname</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getservbyname">getservbyname</a>
  
 
  

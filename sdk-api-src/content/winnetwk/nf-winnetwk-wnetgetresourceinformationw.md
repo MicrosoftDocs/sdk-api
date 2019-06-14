@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 When provided with a remote path to a network resource, the 
 <b>WNetGetResourceInformation</b> function identifies the network provider that owns the resource and obtains information about the type of the resource. The function is typically used in conjunction with the 
-<a href="https://msdn.microsoft.com/6ad5e2c0-d557-43cc-8ccf-a21160e262f8">WNetGetResourceParent</a> function to parse and interpret a network path typed in by a user.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetresourceparenta">WNetGetResourceParent</a> function to parse and interpret a network path typed in by a user.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ When provided with a remote path to a network resource, the
 ### -param lpNetResource [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/c53d078e-188a-4371-bdb9-fc023bc0c1ba">NETRESOURCE</a> structure that specifies the network resource for which information is required. 
+<a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure that specifies the network resource for which information is required. 
 
 
 
@@ -76,7 +76,7 @@ The <b>lpRemoteName</b> member of the structure should specify the remote path n
 ### -param lpBuffer [out]
 
 Pointer to the buffer to receive the result. On successful return, the first portion of the buffer is a 
-<a href="https://msdn.microsoft.com/c53d078e-188a-4371-bdb9-fc023bc0c1ba">NETRESOURCE</a> structure representing that portion of the input resource path that is accessed through the WNet functions, rather than through system functions specific to the input resource type. (The remainder of the buffer contains the variable-length strings to which the members of the 
+<a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure representing that portion of the input resource path that is accessed through the WNet functions, rather than through system functions specific to the input resource type. (The remainder of the buffer contains the variable-length strings to which the members of the 
 <b>NETRESOURCE</b> structure point.) 
 
 
@@ -84,11 +84,11 @@ Pointer to the buffer to receive the result. On successful return, the first por
 
 For example, if the input remote resource path is \\server\share\dir1\dir2, then the output 
 <b>NETRESOURCE</b> structure contains information about the resource \\server\share. The \dir1\dir2 portion of the path is accessed through the 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">file management functions</a>. The <b>lpRemoteName</b>, <b>lpProvider</b>, <b>dwType</b>, <b>dwDisplayType</b>, and <b>dwUsage</b> members of 
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">file management functions</a>. The <b>lpRemoteName</b>, <b>lpProvider</b>, <b>dwType</b>, <b>dwDisplayType</b>, and <b>dwUsage</b> members of 
 <b>NETRESOURCE</b> are returned, with all other members set to <b>NULL</b>.
 
 The <b>lpRemoteName</b> member is returned in the same syntax as the one returned from an enumeration by the 
-<a href="https://msdn.microsoft.com/2c58c6d0-d5fe-447e-be39-df34072c160e">WNetEnumResource</a> function. This allows the caller to perform a string comparison to determine whether the resource passed to 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetenumresourcea">WNetEnumResource</a> function. This allows the caller to perform a string comparison to determine whether the resource passed to 
 <b>WNetGetResourceInformation</b> is the same as the resource returned by a separate call to 
 <b>WNetEnumResource</b>.
 
@@ -107,7 +107,7 @@ If the function returns successfully, this parameter points to a string in the o
 
 
 For example, if the input remote resource name is \\server\share\dir1\dir2, the <b>lpRemoteName</b> member of the output 
-<a href="https://msdn.microsoft.com/c53d078e-188a-4371-bdb9-fc023bc0c1ba">NETRESOURCE</a> structure points to \\server\share. Also, the <i>lplpSystem</i> parameter points to \dir1\dir2. Both strings are stored in the buffer pointed to by the <i>lpBuffer</i> parameter.
+<a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure points to \\server\share. Also, the <i>lplpSystem</i> parameter points to \dir1\dir2. Both strings are stored in the buffer pointed to by the <i>lpBuffer</i> parameter.
 
 
 ## -returns
@@ -117,7 +117,7 @@ For example, if the input remote resource name is \\server\share\dir1\dir2, the 
 If the function succeeds, the return value is NO_ERROR.
 
 If the function fails, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>, such as one of the following values.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>, such as one of the following values.
 
 <table>
 <tr>
@@ -154,7 +154,7 @@ The input <b>dwType</b> member does not match the type of resource specified by 
 </td>
 <td width="60%">
 A network-specific error occurred. Call 
-<a href="https://msdn.microsoft.com/8e13c467-adcf-4e97-b51a-1f5fc919b51e">WNetGetLastError</a> to obtain a description of the error.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetlasterrora">WNetGetLastError</a> to obtain a description of the error.
 
 </td>
 </tr>
@@ -191,28 +191,28 @@ The network is unavailable.
 
 
 
-<a href="https://msdn.microsoft.com/df190133-b73b-4f3e-aaee-4095cd619065">WNetGetNetworkInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetnetworkinformationa">WNetGetNetworkInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/c1369098-c574-4d5f-8051-ca5aa548e63f">WNetGetProviderName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetprovidernamea">WNetGetProviderName</a>
 
 
 
-<a href="https://msdn.microsoft.com/6ad5e2c0-d557-43cc-8ccf-a21160e262f8">WNetGetResourceParent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetresourceparenta">WNetGetResourceParent</a>
 
 
 
-<a href="https://msdn.microsoft.com/12c02092-f2d5-4477-92a7-ae075b8a243a">WNetGetUniversalName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetuniversalnamea">WNetGetUniversalName</a>
 
 
 
-<a href="https://msdn.microsoft.com/7668ac55-7104-4ddb-88eb-920cfe4e36fd">Windows
+<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-wnet-">Windows
 		  Networking (WNet) Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/95e30f8f-a326-424d-bd80-5fc9b3078dad">Windows
+<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
  
 

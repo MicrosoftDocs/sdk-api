@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>get_DialableString</b> method gets a string that contains a dialable number. Typically, this number is then used as the <i>pDestAddress</i> argument in 
-<a href="https://msdn.microsoft.com/1b5a755c-fdaf-42ca-9747-9b34efbd0ac3">ITAddress::CreateCall</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createcall">ITAddress::CreateCall</a>.
 
 
 ## -parameters
@@ -119,11 +119,11 @@ Insufficient memory exists to perform the operation.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>ppDialableString</i> parameter.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory allocated for the <i>ppDialableString</i> parameter.
 			
 
 Corresponds to the <b>dwDialableStringSize</b> and <b>dwDialableStringOffset</b> members of TAPI 2's 
-<a href="https://msdn.microsoft.com/bcf094ad-8098-4e45-9131-25dbdb7e4093">LINETRANSLATEOUTPUT</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetranslateoutput_tag">LINETRANSLATEOUTPUT</a> structure.
 
 
 
@@ -133,11 +133,11 @@ Corresponds to the <b>dwDialableStringSize</b> and <b>dwDialableStringOffset</b>
 
 
 
-<a href="https://msdn.microsoft.com/ab6db262-f99e-4027-9525-7597fcf02e72">Address Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/b59454a0-315f-4160-b969-d930c13bb4de">ITAddressTranslationInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslationinfo">ITAddressTranslationInfo</a>
  
 
  

@@ -60,13 +60,13 @@ Specifies that the source of the xml should be obtained from a callback.
 
 ### -field input
 
-The base type for all types that derive from <a href="https://msdn.microsoft.com/1e7a708d-5dcf-44ec-b781-a34946cb2844">WS_XML_READER_INPUT</a>.
+The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_input">WS_XML_READER_INPUT</a>.
         
 
 
 ### -field readCallback
 
-A callback that is invoked when <a href="https://msdn.microsoft.com/1f4138a2-acc5-4f1d-8e35-544859d2fa49">WsFillReader</a> is called.
+A callback that is invoked when <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfillreader">WsFillReader</a> is called.
         
 
 

@@ -59,7 +59,7 @@ Gets the end time for a specified time range.
 
 ### -param index [in]
 
-The zero-based index of the time range to query. To get the  number of time ranges, call <a href="https://msdn.microsoft.com/0865A667-A09E-4F42-A420-4A155AD34394">IMFMediaTimeRange::GetLength</a>.
+The zero-based index of the time range to query. To get the  number of time ranges, call <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediatimerange-getlength">IMFMediaTimeRange::GetLength</a>.
 
 
 ### -param pEnd [out]
@@ -90,7 +90,7 @@ This method corresponds to the <b>TimeRanges.end</b> method in HTML5.
 
 
 
-<a href="https://msdn.microsoft.com/E39646E6-66F4-4413-A84B-43039689AEE7">IMFMediaTimeRange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediatimerange">IMFMediaTimeRange</a>
  
 
  

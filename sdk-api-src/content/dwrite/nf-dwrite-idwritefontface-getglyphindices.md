@@ -110,7 +110,7 @@ Note that this mapping is primarily provided for line layout engines built on to
 
 
 
-<a href="https://msdn.microsoft.com/1b6bb9e2-cf01-413c-9ee8-42bb0f703ce8">IDWriteFontFace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontface">IDWriteFontFace</a>
  
 
  

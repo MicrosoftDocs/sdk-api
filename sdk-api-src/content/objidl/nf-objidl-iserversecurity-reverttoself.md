@@ -74,13 +74,13 @@ If the method succeeds, the return value is S_OK. Otherwise, it is E_FAIL.
 
 <b>RevertToSelf</b> restores the authentication information on a thread to the authentication information on the thread before impersonation began. If the server does not call <b>RevertToSelf</b> before the end of the current call, it will be called automatically by COM.
 
-When <a href="https://msdn.microsoft.com/20398b63-0fcb-40ab-93ed-f4c75760eb9e">ImpersonateClient</a> is called on a thread that is not currently impersonating, COM saves the token currently on the thread. A subsequent call to <b>RevertToSelf</b> restores the saved token, and <a href="https://msdn.microsoft.com/f847348a-1785-4b4a-b43e-a5eea21847c4">IsImpersonating</a> will then return <b>FALSE</b>. This means that if a series of impersonation calls are made using different <a href="https://msdn.microsoft.com/aacef77c-7185-44ed-aa1a-465c6100a431">IServerSecurity</a> objects, <b>RevertToSelf</b> will restore the token that was on the thread when the first call to <b>ImpersonateClient</b> was made. Also, only one <b>RevertToSelf</b> call is needed to undo any number of <b>ImpersonateClient</b> calls.
+When <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iserversecurity-impersonateclient">ImpersonateClient</a> is called on a thread that is not currently impersonating, COM saves the token currently on the thread. A subsequent call to <b>RevertToSelf</b> restores the saved token, and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iserversecurity-isimpersonating">IsImpersonating</a> will then return <b>FALSE</b>. This means that if a series of impersonation calls are made using different <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iserversecurity">IServerSecurity</a> objects, <b>RevertToSelf</b> will restore the token that was on the thread when the first call to <b>ImpersonateClient</b> was made. Also, only one <b>RevertToSelf</b> call is needed to undo any number of <b>ImpersonateClient</b> calls.
 
-This method will only revert impersonation changes made by <a href="https://msdn.microsoft.com/20398b63-0fcb-40ab-93ed-f4c75760eb9e">ImpersonateClient</a>. If the thread token is modified by other means (through the <a href="https://msdn.microsoft.com/ba1a4fce-b3cc-423d-b213-5dfca3dea708">SetThreadToken</a> or <a href="https://msdn.microsoft.com/1b91c4dc-ac49-4002-b293-a25ca2ffcb21">RpcImpersonateClient</a> functions) the result of this function is undefined.
+This method will only revert impersonation changes made by <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iserversecurity-impersonateclient">ImpersonateClient</a>. If the thread token is modified by other means (through the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadtoken">SetThreadToken</a> or <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcimpersonateclient">RpcImpersonateClient</a> functions) the result of this function is undefined.
 
-<b>RevertToSelf</b> affects only the current method invocation. If there are nested method invocations, each invocation can have its own impersonation token and DCOM will correctly restore the impersonation token before returning to them (regardless of whether <a href="https://msdn.microsoft.com/8061ddbe-ed21-47f7-9ac4-b3ec910ff89d">CoRevertToSelf</a> or <b>RevertToSelf</b> was called).
+<b>RevertToSelf</b> affects only the current method invocation. If there are nested method invocations, each invocation can have its own impersonation token and DCOM will correctly restore the impersonation token before returning to them (regardless of whether <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coreverttoself">CoRevertToSelf</a> or <b>RevertToSelf</b> was called).
 
-It is important to understand that an instance of <a href="https://msdn.microsoft.com/aacef77c-7185-44ed-aa1a-465c6100a431">IServerSecurity</a> is valid on any thread in the apartment until the call represented by <b>IServerSecurity</b> completes. However, impersonation is local to a particular thread for the duration of the current call on that thread. Therefore, if two threads in the same apartment use the same <b>IServerSecurity</b> instance to call <a href="https://msdn.microsoft.com/20398b63-0fcb-40ab-93ed-f4c75760eb9e">ImpersonateClient</a>, one thread can call <b>RevertToSelf</b> without affecting the other.
+It is important to understand that an instance of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iserversecurity">IServerSecurity</a> is valid on any thread in the apartment until the call represented by <b>IServerSecurity</b> completes. However, impersonation is local to a particular thread for the duration of the current call on that thread. Therefore, if two threads in the same apartment use the same <b>IServerSecurity</b> instance to call <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iserversecurity-impersonateclient">ImpersonateClient</a>, one thread can call <b>RevertToSelf</b> without affecting the other.
 
 
 
@@ -90,11 +90,11 @@ It is important to understand that an instance of <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/8061ddbe-ed21-47f7-9ac4-b3ec910ff89d">CoRevertToSelf</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coreverttoself">CoRevertToSelf</a>
 
 
 
-<a href="https://msdn.microsoft.com/aacef77c-7185-44ed-aa1a-465c6100a431">IServerSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iserversecurity">IServerSecurity</a>
  
 
  

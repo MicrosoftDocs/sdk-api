@@ -59,16 +59,16 @@ Describes a query.
 
 ### -field Query
 
-Type: <b><a href="https://msdn.microsoft.com/4161fbeb-7f58-422c-a195-ea10f737fd0c">D3D11_QUERY</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_query">D3D11_QUERY</a></b>
 
-Type of query (see <a href="https://msdn.microsoft.com/4161fbeb-7f58-422c-a195-ea10f737fd0c">D3D11_QUERY</a>).
+Type of query (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_query">D3D11_QUERY</a>).
 
 
 ### -field MiscFlags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Miscellaneous flags (see <a href="https://msdn.microsoft.com/a49a04f9-5804-43fb-b12d-f703721f4d30">D3D11_QUERY_MISC_FLAG</a>).
+Miscellaneous flags (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_query_misc_flag">D3D11_QUERY_MISC_FLAG</a>).
 
 
 ## -see-also
@@ -76,7 +76,7 @@ Miscellaneous flags (see <a href="https://msdn.microsoft.com/a49a04f9-5804-43fb-
 
 
 
-<a href="https://msdn.microsoft.com/2a45182a-7114-4075-b8b8-147f52fe7aa9">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-structures">Core Structures</a>
  
 
  

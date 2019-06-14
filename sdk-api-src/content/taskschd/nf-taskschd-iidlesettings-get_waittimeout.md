@@ -63,9 +63,9 @@ This property is read/write.
 
 
 
-When reading or writing XML for a task, this setting is specified in the <a href="https://msdn.microsoft.com/6a4cc80d-adc2-47a7-946f-a9f12eeb35a4">WaitTimeout</a> element of the Task Scheduler schema.
+When reading or writing XML for a task, this setting is specified in the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-waittimeout-idlesettingstype-element">WaitTimeout</a> element of the Task Scheduler schema.
 
-If a task is triggered by an idle trigger, then the <b>WaitTimeout</b> property of the <a href="https://msdn.microsoft.com/a6bd9278-b9ac-4eb3-957a-5191cee12a6f">IIdleSettings</a> interface is ignored.
+If a task is triggered by an idle trigger, then the <b>WaitTimeout</b> property of the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iidlesettings">IIdleSettings</a> interface is ignored.
 
 
 
@@ -75,11 +75,11 @@ If a task is triggered by an idle trigger, then the <b>WaitTimeout</b> property 
 
 
 
-<a href="https://msdn.microsoft.com/a6bd9278-b9ac-4eb3-957a-5191cee12a6f">IIdleSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iidlesettings">IIdleSettings</a>
 
 
 
-<a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
  
 
  

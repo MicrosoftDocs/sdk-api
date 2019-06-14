@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the <a href="https://msdn.microsoft.com/4d35370f-506f-45cd-9d75-e48c640d8f4d">ITypeComp</a> interface for the type description, which enables a client compiler to bind to the type description's members.
+Retrieves the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a> interface for the type description, which enables a client compiler to bind to the type description's members.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Retrieves the <a href="https://msdn.microsoft.com/4d35370f-506f-45cd-9d75-e48c64
 
 ### -param ppTComp [out]
 
-The <a href="https://msdn.microsoft.com/4d35370f-506f-45cd-9d75-e48c640d8f4d">ITypeComp</a> of the containing type library.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a> of the containing type library.
 
 
 ## -returns
@@ -119,7 +119,7 @@ Insufficient memory to complete the operation.
 
 
 
-A client compiler can use the <a href="https://msdn.microsoft.com/4d35370f-506f-45cd-9d75-e48c640d8f4d">ITypeComp</a> interface to bind to members of the type.
+A client compiler can use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a> interface to bind to members of the type.
 
 
 
@@ -130,7 +130,7 @@ A client compiler can use the <a href="https://msdn.microsoft.com/4d35370f-506f-
 
 
 
-<a href="https://msdn.microsoft.com/f3356463-3373-4279-bae1-953378aa2680">ITypeInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
  
 
  

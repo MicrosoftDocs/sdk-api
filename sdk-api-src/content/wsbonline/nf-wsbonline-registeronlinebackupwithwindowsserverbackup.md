@@ -59,7 +59,7 @@ The <b>RegisterOnlineBackupWithWindowsServerBackup</b> function registers a clou
 
 ### -param pOBRegistrationInfo [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/E01EF90E-90F1-4B56-85B8-63A10A688FBA">WSB_OB_REGISTRATION_INFO</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wsbonline/ns-wsbonline-_wsb_ob_registration_info">WSB_OB_REGISTRATION_INFO</a> structure.
 
 
 ## -returns
@@ -76,7 +76,7 @@ The return values listed here are in addition to the normal <b>HRESULT</b>s that
 
 
 
-If any other cloud backup provider is already registered with Windows Server Backup, <a href="https://msdn.microsoft.com/4E70EF3D-E4AA-498C-B131-8C5F48CD230E">DeregisterOnlineBackupFromWindowsServerBackup</a> must be called before calling <b>RegisterOnlineBackupWithWindowsServerBackup</b>.
+If any other cloud backup provider is already registered with Windows Server Backup, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wsbonline/nf-wsbonline-deregisteronlinebackupfromwindowsserverbackup">DeregisterOnlineBackupFromWindowsServerBackup</a> must be called before calling <b>RegisterOnlineBackupWithWindowsServerBackup</b>.
 
 
 
@@ -86,11 +86,11 @@ If any other cloud backup provider is already registered with Windows Server Bac
 
 
 
-<a href="https://msdn.microsoft.com/61F77E92-19EF-4409-9435-CD03ACCE810D">Cloud  Backup Provider API Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wsb/windows-server-backup-api-functions">Cloud  Backup Provider API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/E01EF90E-90F1-4B56-85B8-63A10A688FBA">WSB_OB_REGISTRATION_INFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wsbonline/ns-wsbonline-_wsb_ob_registration_info">WSB_OB_REGISTRATION_INFO</a>
  
 
  

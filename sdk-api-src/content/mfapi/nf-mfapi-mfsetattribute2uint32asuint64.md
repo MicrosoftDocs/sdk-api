@@ -59,7 +59,7 @@ Packs two <b>UINT32</b> values into a <b>UINT64</b> attribute value.
 
 ### -param pAttributes [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> interface of the attribute store.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of the attribute store.
 
 
 
@@ -96,7 +96,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-Internally, this functions calls <a href="https://msdn.microsoft.com/82d37211-e2e5-4b34-8102-2c3f8650cc26">Pack2UINT32AsUINT64</a> to create the 64-bit value, and <a href="https://msdn.microsoft.com/817ed1c1-16ad-4520-a1a0-a93563936b50">IMFAttributes::SetUINT64</a> to set the attribute.
+Internally, this functions calls <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-pack2uint32asuint64">Pack2UINT32AsUINT64</a> to create the 64-bit value, and <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint64">IMFAttributes::SetUINT64</a> to set the attribute.
 
 
 
@@ -106,11 +106,11 @@ Internally, this functions calls <a href="https://msdn.microsoft.com/82d37211-e2
 
 
 
-<a href="https://msdn.microsoft.com/44af5e03-5f0a-4564-b9d6-b8c935df35b2">Attributes and Properties</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

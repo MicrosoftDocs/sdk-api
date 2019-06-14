@@ -66,7 +66,7 @@ Handle to the call on whose voice channel tones are to be monitored. The call st
 ### -param lpToneList
 
 List of tones to be monitored. This parameter is of type 
-<a href="https://msdn.microsoft.com/f2d37591-2f1e-458f-b4d4-ab63eb31d33a">LINEMONITORTONE</a>. Each tone in this list has an application-defined tag field that is used to identify individual tones in the list to report a tone detection. Tone monitoring in progress is canceled or changed by calling this operation with either <b>NULL</b> for <i>lpToneList</i> or with another tone list.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemonitortone_tag">LINEMONITORTONE</a>. Each tone in this list has an application-defined tag field that is used to identify individual tones in the list to report a tone detection. Tone monitoring in progress is canceled or changed by calling this operation with either <b>NULL</b> for <i>lpToneList</i> or with another tone list.
 
 
 ### -param dwNumEntries
@@ -109,15 +109,15 @@ If the LINEERR_INVALPOINTER error value is returned, the specified <i>lpToneList
 
 
 
-<a href="https://msdn.microsoft.com/f2d37591-2f1e-458f-b4d4-ab63eb31d33a">LINEMONITORTONE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemonitortone_tag">LINEMONITORTONE</a>
 
 
 
-<a href="https://msdn.microsoft.com/d4338b3c-cd84-4abb-b74e-9df895c8355b">Supplementary Line Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d703b414-1389-416c-8e94-c1931979f0c9">TAPI 2.2 Reference Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
  
 
  

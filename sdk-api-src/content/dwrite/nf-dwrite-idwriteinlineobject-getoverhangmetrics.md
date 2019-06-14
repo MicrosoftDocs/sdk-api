@@ -50,10 +50,10 @@ ms.custom: 19H1
 
 
 
-<a href="https://msdn.microsoft.com/0d687337-8623-4014-967c-f533072e31cc">IDWriteTextLayout</a> calls this callback function to get the visible extents (in DIPs) of the inline object. In the case of a simple bitmap, with no padding and no overhang, all the overhangs will
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a> calls this callback function to get the visible extents (in DIPs) of the inline object. In the case of a simple bitmap, with no padding and no overhang, all the overhangs will
     simply be zeroes.
 
-The overhangs should be returned relative to the reported size of the object (see <a href="https://msdn.microsoft.com/a42d612c-3d16-4c27-a1d8-1cfb9de2f8b1">DWRITE_INLINE_OBJECT_METRICS</a>), and should not be baseline
+The overhangs should be returned relative to the reported size of the object (see <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_inline_object_metrics">DWRITE_INLINE_OBJECT_METRICS</a>), and should not be baseline
     adjusted.
 
 
@@ -64,7 +64,7 @@ The overhangs should be returned relative to the reported size of the object (se
 
 ### -param overhangs [out]
 
-Type: <b><a href="https://msdn.microsoft.com/a285f06b-a4d0-4ebe-80f5-157e59bfba31">DWRITE_OVERHANG_METRICS</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_overhang_metrics">DWRITE_OVERHANG_METRICS</a>*</b>
 
 Overshoot of visible extents (in DIPs) outside the object.
 
@@ -85,7 +85,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/cf915458-acbc-4a37-be5c-b1337153f386">IDWriteInlineObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwriteinlineobject">IDWriteInlineObject</a>
  
 
  

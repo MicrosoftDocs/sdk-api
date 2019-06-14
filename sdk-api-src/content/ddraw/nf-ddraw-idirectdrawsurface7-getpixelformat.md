@@ -61,7 +61,7 @@ Retrieves the color and pixel format of this surface.
 
 #### - lpDDPixelFormat [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/17c531cb-7e65-482a-b3de-494874c1dd92">DDPIXELFORMAT</a> structure that receives a detailed description of the current pixel and color space format of this surface.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-_ddpixelformat">DDPIXELFORMAT</a> structure that receives a detailed description of the current pixel and color space format of this surface.
 
 
 ## -returns
@@ -86,7 +86,7 @@ If it fails, the method can return one of the following error values:
 
 
 
-You must use <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> to access the  <b>GetPixelFormat</b> method.
+You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetPixelFormat</b> method.
 
 
 
@@ -96,7 +96,7 @@ You must use <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d
 
 
 
-<a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f764ad29756">IDirectDrawSurface7</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
  
 
  

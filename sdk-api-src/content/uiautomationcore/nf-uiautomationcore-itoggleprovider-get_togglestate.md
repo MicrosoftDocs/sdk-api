@@ -62,7 +62,7 @@ This property is read-only.
 
 
 
-A control must cycle through its <a href="https://msdn.microsoft.com/242031d6-2d55-478d-b029-5a3b0a251601">ToggleState</a> in this order:  
+A control must cycle through its <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-togglestate">ToggleState</a> in this order:  
 <b>ToggleState_On</b>, <b>ToggleState_Off</b> 
 and, if supported, <b>ToggleState_Indeterminate</b>.
 
@@ -76,11 +76,11 @@ and, if supported, <b>ToggleState_Indeterminate</b>.
 
 
 
-<a href="https://msdn.microsoft.com/85da8225-31b8-4b4d-81f4-ad98871b8e31">IToggleProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itoggleprovider">IToggleProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/8928c889-0e0a-439f-87e8-a9d121fcf73f">UI Automation Providers Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
  
 
  

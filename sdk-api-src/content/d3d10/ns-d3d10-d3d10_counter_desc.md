@@ -59,14 +59,14 @@ Describes a counter.
 
 ### -field Counter
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb204904(v=VS.85).aspx">D3D10_COUNTER</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_counter">D3D10_COUNTER</a></b>
 
-Type of counter (see <a href="https://msdn.microsoft.com/en-us/library/Bb204904(v=VS.85).aspx">D3D10_COUNTER</a>).
+Type of counter (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_counter">D3D10_COUNTER</a>).
 
 
 ### -field MiscFlags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Reserved.
 
@@ -76,7 +76,7 @@ Reserved.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205153(v=VS.85).aspx">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-structures">Core Structures</a>
  
 
  

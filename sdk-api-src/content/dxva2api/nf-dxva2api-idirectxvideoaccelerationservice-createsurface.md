@@ -121,7 +121,7 @@ Video decoder render target.
 </dl>
 </td>
 <td width="60%">
-Video processor render target. Used for <a href="https://msdn.microsoft.com/4a199ad3-621e-4594-a9f8-ad6cfd560cec">IDirectXVideoProcessor::VideoProcessBlt</a> operations.
+Video processor render target. Used for <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessor-videoprocessblt">IDirectXVideoProcessor::VideoProcessBlt</a> operations.
               
 
 </td>
@@ -222,7 +222,7 @@ The DirectX Video Acceleration Manager is not initialized.
 
 
 
-If the method returns <b>E_FAIL</b>, try calling <a href="https://msdn.microsoft.com/01d2c2ea-5967-4a2d-9c78-e6e8b42a7e33">IDirect3DDeviceManager9::ResetDevice</a> to reset the DirectX Video Acceleration Manager.
+If the method returns <b>E_FAIL</b>, try calling <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-resetdevice">IDirect3DDeviceManager9::ResetDevice</a> to reset the DirectX Video Acceleration Manager.
 
 
 
@@ -232,11 +232,11 @@ If the method returns <b>E_FAIL</b>, try calling <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/acb73b20-89fa-4a48-be4a-846715a239b0">DirectX Video Acceleration 2.0</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/directx-video-acceleration-2-0">DirectX Video Acceleration 2.0</a>
 
 
 
-<a href="https://msdn.microsoft.com/50a2d8f7-d7c9-4d50-88cc-f6c8562fbb17">IDirectXVideoAccelerationService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideoaccelerationservice">IDirectXVideoAccelerationService</a>
  
 
  

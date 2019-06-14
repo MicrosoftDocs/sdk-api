@@ -55,12 +55,12 @@ ms.custom: 19H1
 Failover Cluster Administrator calls your implementation of the 
     <b>IWEInvokeCommand</b> interface when users select context 
     menu items that you created with the 
-    <a href="https://msdn.microsoft.com/a41adde0-fc4f-4997-bb56-5fa43ba62fdb">IWEExtendContextMenu</a> interface.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-iweextendcontextmenu">IWEExtendContextMenu</a> interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWEInvokeCommand</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWEInvokeCommand</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWEInvokeCommand</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWEInvokeCommand</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IWEInvokeCommand</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1e723535-d786-496f-bc16-5b10a8a22383">InvokeCommand</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweinvokecommand-invokecommand">InvokeCommand</a>
 </td>
 <td align="left" width="63%">
 Allows you to implement procedures that execute when users select your context menu items.
@@ -90,11 +90,11 @@ Allows you to implement procedures that execute when users select your context m
 
 
 
-<a href="https://msdn.microsoft.com/a2306e94-47c6-441f-b06d-70e3f633f78e">Failover Cluster Administrator Extension Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator-extension-interfaces">Failover Cluster Administrator Extension Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/a41adde0-fc4f-4997-bb56-5fa43ba62fdb">IWEExtendContextMenu</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-iweextendcontextmenu">IWEExtendContextMenu</a>
  
 
  

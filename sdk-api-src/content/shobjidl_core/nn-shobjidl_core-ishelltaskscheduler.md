@@ -56,7 +56,7 @@ Exposes methods that enable interaction with, and control of, a task scheduler.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellTaskScheduler</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IShellTaskScheduler</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellTaskScheduler</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellTaskScheduler</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IShellTaskScheduler</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/227b5013-a550-46cc-bae2-af60776cba22">AddTask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelltaskscheduler-addtask">AddTask</a>
 </td>
 <td align="left" width="63%">
 Adds a task to the scheduler's background queue.
@@ -80,7 +80,7 @@ Adds a task to the scheduler's background queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/41c0af40-35c2-4ce2-b9c3-246ee6268f49">CountTasks</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelltaskscheduler-counttasks">CountTasks</a>
 </td>
 <td align="left" width="63%">
 Counts tasks with the same owner ID in the scheduler's queue.
@@ -89,7 +89,7 @@ Counts tasks with the same owner ID in the scheduler's queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a160cfcf-f989-4a7c-9da0-97d658c151b9">RemoveTasks</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelltaskscheduler-removetasks">RemoveTasks</a>
 </td>
 <td align="left" width="63%">
 Removes tasks from the scheduler's background queue.
@@ -98,7 +98,7 @@ Removes tasks from the scheduler's background queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/378a2ae1-520a-48a7-a2e5-fa1ad25e2380">Status</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelltaskscheduler-status">Status</a>
 </td>
 <td align="left" width="63%">
 Sets the release status and background thread timeout for the current task.

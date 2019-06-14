@@ -55,7 +55,7 @@ Registers, modifies, removes, and provides information about an event publisher.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEventPublisher</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IEventPublisher</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEventPublisher</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IEventPublisher</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +71,7 @@ The <b>IEventPublisher</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5d9adc4f-30c9-42bd-89c9-e35384885b8c">GetDefaultProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventpublisher-getdefaultproperty">GetDefaultProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves a named property and its value from the property bag associated with the event publisher.
@@ -80,7 +80,7 @@ Retrieves a named property and its value from the property bag associated with t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ca5d116a-b995-4311-9c58-6b957fca6b53">GetDefaultPropertyCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventpublisher-getdefaultpropertycollection">GetDefaultPropertyCollection</a>
 </td>
 <td align="left" width="63%">
 Creates a collection object that enumerates the properties contained in the property bag associated with the event publisher object.
@@ -89,7 +89,7 @@ Creates a collection object that enumerates the properties contained in the prop
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/418f1c16-1b21-4023-b0fc-6e9082b8264e">PutDefaultProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventpublisher-putdefaultproperty">PutDefaultProperty</a>
 </td>
 <td align="left" width="63%">
 Writes a named property and its value to the property bag associated with the event publisher.
@@ -98,7 +98,7 @@ Writes a named property and its value to the property bag associated with the ev
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/da691bac-e940-431d-acef-8c29f4a25c70">RemoveDefaultProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventpublisher-removedefaultproperty">RemoveDefaultProperty</a>
 </td>
 <td align="left" width="63%">
 Removes a named property and its value from the property bag associated with the event publisher object.
@@ -116,7 +116,7 @@ Removes a named property and its value from the property bag associated with the
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/1fead633-e498-4dc2-8591-d1f9c0090adb">Description</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventpublisher-get_description">Description</a>
 
 
 </td>
@@ -132,7 +132,7 @@ The display text for the event publisher.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/7555992f-ba50-4d3e-afa8-6304fec8b5c5">OwnerSID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventpublisher-get_ownersid">OwnerSID</a>
 
 
 </td>
@@ -148,7 +148,7 @@ The security identifier of the creator of the event publisher.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/edc66367-68af-47a7-873c-006c257e840e">PublisherID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventpublisher-put_publisherid">PublisherID</a>
 
 
 </td>
@@ -164,7 +164,7 @@ The identifier for the event publisher.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/223c57b9-2d70-476b-9f97-0f4d73c36dce">PublisherName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventpublisher-get_publishername">PublisherName</a>
 
 
 </td>
@@ -180,7 +180,7 @@ The display name for the event publisher.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/b92b9493-bfee-4898-9e58-0a1cf9b59ffa">PublisherType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventpublisher-get_publishertype">PublisherType</a>
 
 
 </td>

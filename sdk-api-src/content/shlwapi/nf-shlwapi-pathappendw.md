@@ -58,7 +58,7 @@ ms.custom: 19H1
 Appends one path to the end of another.
         
             
-<div class="alert"><b>Note</b>  Misuse of this function can lead to a buffer overrun. We recommend the use of the safer <a href="https://msdn.microsoft.com/b64884ad-15c7-495e-8037-34daf68f8cf7">PathCchAppend</a> or <a href="https://msdn.microsoft.com/5421c666-1c8a-4ae8-baba-9e6f69c877df">PathCchAppendEx</a> function in its place.</div><div> </div>
+<div class="alert"><b>Note</b>  Misuse of this function can lead to a buffer overrun. We recommend the use of the safer <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchappend">PathCchAppend</a> or <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchappendex">PathCchAppendEx</a> function in its place.</div><div> </div>
 
 ## -parameters
 

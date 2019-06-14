@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The WlxMessageBox function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>WlxMessageBox</b> function is called by <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> to create, display, and operate a message box.
+The <b>WlxMessageBox</b> function is called by <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> to create, display, and operate a message box.
 <div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>
 
 ## -parameters
@@ -61,8 +61,8 @@ The <b>WlxMessageBox</b> function is called by <a href="https://msdn.microsoft.c
 
 ### -param hWlx [in]
 
-Specifies the <a href="https://msdn.microsoft.com/031c898b-3b4d-4b29-811a-112da37b5e3d">Winlogon</a> handle passed to GINA in the 
-<a href="https://msdn.microsoft.com/db03f2b3-0719-40be-8a42-04ab7110f711">WlxInitialize</a> call.
+Specifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> handle passed to GINA in the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> call.
 
 
 ### -param hwndOwner [in]
@@ -273,7 +273,7 @@ The caller is a service notifying the user of an event. The function brings up a
 </td>
 <td width="60%">
 The message box becomes the foreground window. Internally, Windows calls the 
-<a href="https://msdn.microsoft.com/en-us/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a> function for the message box.
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a> function for the message box.
 
 </td>
 </tr>
@@ -423,13 +423,13 @@ A  button was not selected.
 
 
 
-The <b>WlxMessageBox</b> function does not handle <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">SAS</a> events, and is not suitable for security dialog boxes. Use the 
-<a href="https://msdn.microsoft.com/a16313ea-ae76-4d9b-80b3-3fb12af803c7">WlxDialogBox</a>, 
-<a href="https://msdn.microsoft.com/adace4e8-659e-4360-985d-d3daafdd3688">WlxDialogBoxIndirect</a>, or 
-<a href="https://msdn.microsoft.com/98541411-45c7-4c23-95a0-c76022184db3">WlxDialogBoxIndirectParam</a> function for security dialog boxes.
+The <b>WlxMessageBox</b> function does not handle <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">SAS</a> events, and is not suitable for security dialog boxes. Use the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_dialog_box">WlxDialogBox</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_dialog_box_indirect">WlxDialogBoxIndirect</a>, or 
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_dialog_box_indirect_param">WlxDialogBoxIndirectParam</a> function for security dialog boxes.
 
 <b>WlxMessageBox</b> duplicates the Windows 
-<a href="https://msdn.microsoft.com/en-us/library/ms645505(v=VS.85).aspx">MessageBox</a> function, with the exception that this function also allows Winlogon to time out the dialog box. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a> function, with the exception that this function also allows Winlogon to time out the dialog box. For more information, see 
 <b>MessageBox</b>.
 
 
@@ -440,27 +440,27 @@ The <b>WlxMessageBox</b> function does not handle <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645505(v=VS.85).aspx">MessageBox</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/a16313ea-ae76-4d9b-80b3-3fb12af803c7">WlxDialogBox</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_dialog_box">WlxDialogBox</a>
 
 
 
-<a href="https://msdn.microsoft.com/adace4e8-659e-4360-985d-d3daafdd3688">WlxDialogBoxIndirect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_dialog_box_indirect">WlxDialogBoxIndirect</a>
 
 
 
-<a href="https://msdn.microsoft.com/98541411-45c7-4c23-95a0-c76022184db3">WlxDialogBoxIndirectParam</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_dialog_box_indirect_param">WlxDialogBoxIndirectParam</a>
 
 
 
-<a href="https://msdn.microsoft.com/db03f2b3-0719-40be-8a42-04ab7110f711">WlxInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
  
 
  

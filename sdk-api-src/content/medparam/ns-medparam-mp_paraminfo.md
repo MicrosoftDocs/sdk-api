@@ -62,12 +62,12 @@ The <code>MP_PARAMINFO</code> structure contains information about a parameter.
 
 ### -field mpType
 
-Member of the <a href="https://msdn.microsoft.com/en-us/library/Dd390746(v=VS.85).aspx">MP_TYPE</a> enumeration that specifies the valid data type for this parameter.
+Member of the <a href="https://docs.microsoft.com/windows/desktop/api/medparam/ne-medparam-_mp_type">MP_TYPE</a> enumeration that specifies the valid data type for this parameter.
 
 
 ### -field mopCaps
 
-Bitwise combination of one or more <a href="https://msdn.microsoft.com/6f3b7666-d245-41fc-b6e4-9e1ed264dfdc">Parameter Capabilities Flags</a> that specify which envelope curves are supported. For Boolean and enumeration parameters, only MP_CAPS_CURVE_JUMP is valid.
+Bitwise combination of one or more <a href="https://docs.microsoft.com/windows/desktop/DirectShow/parameter-capabilities-flags">Parameter Capabilities Flags</a> that specify which envelope curves are supported. For Boolean and enumeration parameters, only MP_CAPS_CURVE_JUMP is valid.
 
 
 ### -field mpdMinValue
@@ -99,7 +99,7 @@ NULL-terminated wide-character string that contains the name of the parameter.
 
 
 
-The <b>szUnitText</b> and <b>szLabel</b> members always contain English-language strings. For international support, use the <a href="https://msdn.microsoft.com/en-us/library/Dd406969(v=VS.85).aspx">IMediaParamInfo::GetParamText</a> method.
+The <b>szUnitText</b> and <b>szLabel</b> members always contain English-language strings. For international support, use the <a href="https://docs.microsoft.com/windows/desktop/api/medparam/nf-medparam-imediaparaminfo-getparamtext">IMediaParamInfo::GetParamText</a> method.
 
 
 
@@ -109,7 +109,7 @@ The <b>szUnitText</b> and <b>szLabel</b> members always contain English-language
 
 
 
-<a href="https://msdn.microsoft.com/82c8ea74-1c5e-4370-9075-6db2ed6b2c91">DMO Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dmo-structures">DMO Structures</a>
  
 
  

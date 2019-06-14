@@ -60,7 +60,7 @@ Establishes a hard link between an existing file and a new file. This function i
     supported on the NTFS file system, and only for files, not directories.
 
 To perform this operation as a transacted operation, use the 
-    <a href="https://msdn.microsoft.com/27dd5b0a-08ef-4757-8f51-03d9918028c8">CreateHardLinkTransacted</a> function.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createhardlinktransacteda">CreateHardLinkTransacted</a> function.
 
 
 ## -parameters
@@ -75,9 +75,9 @@ The name of the new file.
 
 This parameter may include the path but cannot specify the name of a directory.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend "\\\\?\\" to the path. For more information, see <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">Naming a File</a>. If you pass a name longer than MAX_PATH characters to the ANSI version of this function or to the Unicode version of this function without prepending "\\\\?\\" to the path, the function returns ERROR_PATH_NOT_FOUND.
+In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend "\\\\?\\" to the path. For more information, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>. If you pass a name longer than MAX_PATH characters to the ANSI version of this function or to the Unicode version of this function without prepending "\\\\?\\" to the path, the function returns ERROR_PATH_NOT_FOUND.
 
-<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>CreateHardLinkW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">Naming Files, Paths, and Namespaces</a> for details.</div>
+<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>CreateHardLinkW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
 <div> </div>
 
 ### -param lpExistingFileName [in]
@@ -87,9 +87,9 @@ The name of the existing file.
 
 This parameter may include the path cannot specify the name of a directory.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend "\\\\?\\" to the path. For more information, see <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">Naming a File</a>. If you pass a name longer than MAX_PATH characters to the ANSI version of this function or to the Unicode version of this function without prepending "\\\\?\\" to the path, the function returns ERROR_PATH_NOT_FOUND.
+In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend "\\\\?\\" to the path. For more information, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>. If you pass a name longer than MAX_PATH characters to the ANSI version of this function or to the Unicode version of this function without prepending "\\\\?\\" to the path, the function returns ERROR_PATH_NOT_FOUND.
 
-<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>CopyFileW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">Naming Files, Paths, and Namespaces</a> for details.</div>
+<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>CopyFileW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
 <div> </div>
 
 ### -param lpSecurityAttributes
@@ -101,7 +101,7 @@ Reserved; must be <b>NULL</b>.
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero (0). To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is zero (0). To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The maximum number of hard links that can be created with this function is 1023 per file. If more than 1023 links are created for a file, an error results.
 
@@ -112,7 +112,7 @@ If you pass a name longer than MAX_PATH characters to the *lpFileName* or *lpExi
 
 
 Any directory entry for a file that is created with 
-    <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> or 
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> or 
     <b>CreateHardLink</b> is a hard link to an associated file. 
     An additional hard link that is created with the 
     <b>CreateHardLink</b> 
@@ -132,17 +132,17 @@ The security descriptor belongs to the file to which a hard link points. The lin
 This function does not modify the security descriptor of the file to be linked to, even if security descriptor 
     information is passed in the <i>lpSecurityAttributes</i> parameter.
 
-Use <a href="https://msdn.microsoft.com/0b947a85-816b-4374-a8f8-c369e366a17d">DeleteFile</a> to delete hard links. You can delete 
+Use <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a> to delete hard links. You can delete 
     them in any order regardless of the order in which they are created.
 
 Flags, attributes, access, and sharing that are specified in 
-    <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> operate on a per-file basis. That is, if you 
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> operate on a per-file basis. That is, if you 
     open a file that does not allow sharing, another application cannot share the file by creating a new hard link to 
     the file.
 
 When you create a hard link on the NTFS file system, the file attribute information in the directory entry is 
     refreshed only when the file is opened, or when 
-    <a href="https://msdn.microsoft.com/d026ee3a-c165-42a2-a4e1-efccdafbefc5">GetFileInformationByHandle</a> is called with 
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileinformationbyhandle">GetFileInformationByHandle</a> is called with 
     the handle of a specific file.
 
 Symbolic link behavior—If the path points to a symbolic link, the function creates a hard 
@@ -241,27 +241,27 @@ The following code snippet shows you how to call
 
 
 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/27dd5b0a-08ef-4757-8f51-03d9918028c8">CreateHardLinkTransacted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createhardlinktransacteda">CreateHardLinkTransacted</a>
 
 
 
-<a href="https://msdn.microsoft.com/0b947a85-816b-4374-a8f8-c369e366a17d">DeleteFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/f9e40a86-a4a6-4524-8045-312da72dc655">Hard Links and Junctions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/hard-links-and-junctions">Hard Links and Junctions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d6bf5df7-bc12-4dec-b116-95d9109f5eb4">Symbolic Links</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>
  
 
  

@@ -115,15 +115,15 @@ An embedded object calls <b>LockContainer</b> to keep its container running when
 
 
 
-<a href="https://msdn.microsoft.com/36eb55f1-06de-49ad-8a8d-91693ca92e99">CoLockObjectExternal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-colockobjectexternal">CoLockObjectExternal</a>
 
 
 
-<a href="https://msdn.microsoft.com/98549309-8ac8-4391-92ab-8a62269ff579">IOleContainer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecontainer">IOleContainer</a>
 
 
 
-<a href="https://msdn.microsoft.com/fb79e81c-0655-48ea-afb5-dab3529676d0">IRunnableObject::Run</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunnableobject-run">IRunnableObject::Run</a>
  
 
  

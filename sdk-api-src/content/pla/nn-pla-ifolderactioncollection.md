@@ -49,14 +49,14 @@ ms.custom: 19H1
 ## -description
 
 
-Manages a collection of <a href="https://msdn.microsoft.com/a3942d5f-9ec4-4461-84f9-f2fae3971e23">FolderAction</a> objects.
+Manages a collection of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ifolderaction">FolderAction</a> objects.
 
-To get this interface, access the <a href="https://msdn.microsoft.com/59fad3d2-9971-4608-8576-977d4dd8ace4">IDataManager::FolderActions</a> property.
+To get this interface, access the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_folderactions">IDataManager::FolderActions</a> property.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFolderActionCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFolderActionCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFolderActionCollection</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFolderActionCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,7 +72,7 @@ The <b>IFolderActionCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/39597249-29d5-44a0-9954-01b9b6a62977">Add</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ifolderactioncollection-add">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a folder action to the collection.
@@ -81,7 +81,7 @@ Adds a folder action to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f3ecc5e6-a6d7-4c68-b8c2-8ff94c810545">AddRange</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ifolderactioncollection-addrange">AddRange</a>
 </td>
 <td align="left" width="63%">
 Adds one or more folder actions to the collection.
@@ -90,7 +90,7 @@ Adds one or more folder actions to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/357934fa-9213-466e-8104-eb9b265a98d3">Clear</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ifolderactioncollection-clear">Clear</a>
 </td>
 <td align="left" width="63%">
 Removes all folder actions from the collection.
@@ -99,7 +99,7 @@ Removes all folder actions from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/caced576-cbe8-49d1-a372-70f035a6e3ed">CreateFolderAction</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ifolderactioncollection-createfolderaction">CreateFolderAction</a>
 </td>
 <td align="left" width="63%">
 Creates a folder action object.
@@ -108,7 +108,7 @@ Creates a folder action object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b0894d3f-13d1-4f71-9171-592640d70969">Remove</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ifolderactioncollection-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes a folder action from the collection based on the specified index.
@@ -125,7 +125,7 @@ Removes a folder action from the collection based on the specified index.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/92b13b4f-31bd-42c7-9aed-02cef9ca38f3">_NewEnum</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ifolderactioncollection-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -137,7 +137,7 @@ Retrieves an interface to the enumeration.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/a6b0dbbd-aeb7-404a-8f7c-f9e52a772838">Count</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ifolderactioncollection-get_count">Count</a>
 
 
 </td>
@@ -149,7 +149,7 @@ Retrieves the number of folder actions in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/cf11f194-b518-41de-8f98-c4487c3d2fee">Item</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ifolderactioncollection-get_item">Item</a>
 
 
 </td>
@@ -165,7 +165,7 @@ Retrieves the requested folder action from the collection.
 
 
 
-You can add one or more <a href="https://msdn.microsoft.com/a3942d5f-9ec4-4461-84f9-f2fae3971e23">IFolderAction</a> instances. Each instance determines when a folder action occurs. For example, one instance  can trigger folder actions to occur at week one (<a href="https://msdn.microsoft.com/5f664ee8-895e-4235-a119-9dc10ababffe">IFolderAction::Age</a> is 7) and a second instance can trigger folder actions to occur at week 10 (<b>Age</b> is 10).
+You can add one or more <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ifolderaction">IFolderAction</a> instances. Each instance determines when a folder action occurs. For example, one instance  can trigger folder actions to occur at week one (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ifolderaction-get_age">IFolderAction::Age</a> is 7) and a second instance can trigger folder actions to occur at week 10 (<b>Age</b> is 10).
 
 
 

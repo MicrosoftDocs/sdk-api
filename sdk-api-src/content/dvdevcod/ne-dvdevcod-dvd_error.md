@@ -54,7 +54,7 @@ The <b>DVD_ERROR</b> enumeration value defines DVD error conditions.
 
 
 
-The <a href="https://msdn.microsoft.com/2cd3e0c4-e2b7-4aa1-9f3c-9003eabfb08a">EC_DVD_ERROR</a> event contains a flag from this enumeration in the <i>lParam1</i> event parameter. The value of the flag determines the meaning of the <i>lParam2</i> parameter, as described here for each flag. If not listed, <i>lParam2</i> is zero.
+The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-error">EC_DVD_ERROR</a> event contains a flag from this enumeration in the <i>lParam1</i> event parameter. The value of the flag determines the meaning of the <i>lParam2</i> parameter, as described here for each flag. If not listed, <i>lParam2</i> is zero.
 
 
 ## -enum-fields
@@ -134,15 +134,15 @@ For the flags where <i>lParam2</i> contains two region codes, the regions are en
 
 
 
-<a href="https://msdn.microsoft.com/db3e5a03-ca92-48c6-a4fe-575975996cd4">DVD Region Change Support in Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-region-change-support-in-windows">DVD Region Change Support in Windows</a>
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/2cd3e0c4-e2b7-4aa1-9f3c-9003eabfb08a">EC_DVD_ERROR</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-error">EC_DVD_ERROR</a>
  
 
  

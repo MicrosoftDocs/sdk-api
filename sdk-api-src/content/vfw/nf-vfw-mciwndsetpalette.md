@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndSetPalette</b> macro sends a palette handle to the MCI device associated with the MCIWnd window. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/d2399cb7-d83c-465c-b02f-e6a016c28ae3">MCIWNDM_SETPALETTE</a> message.
+The <b>MCIWndSetPalette</b> macro sends a palette handle to the MCI device associated with the MCIWnd window. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-setpalette">MCIWNDM_SETPALETTE</a> message.
 
 
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information about a pointer device. An array of these structures is returned  from the <a href="https://msdn.microsoft.com/91FD5EBA-EDD7-4D7D-ABF3-3CE2461417B0">GetPointerDevices</a> function. A single structure is returned from a call to the <a href="https://msdn.microsoft.com/800E0BFE-6E57-4EAA-B47C-FEEC0B5BFA2F">GetPointerDevice</a> function. 
+Contains information about a pointer device. An array of these structures is returned  from the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerdevices">GetPointerDevices</a> function. A single structure is returned from a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerdevice">GetPointerDevice</a> function. 
 
 
 ## -struct-fields
@@ -59,9 +59,9 @@ Contains information about a pointer device. An array of these structures is ret
 
 ### -field displayOrientation
 
- One of the values from <a href="https://msdn.microsoft.com/82709d44-45e6-47ec-9caa-5a947a568c52">DISPLAYCONFIG_ROTATION</a>, which identifies the orientation of the input digitizer.
+ One of the values from <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ne-wingdi-displayconfig_rotation">DISPLAYCONFIG_ROTATION</a>, which identifies the orientation of the input digitizer.
 
-<div class="alert"><b>Note</b>  This value is 0 when the source of input is <a href="https://msdn.microsoft.com/9B82898C-92DF-4F12-9440-D3D5CFD4D0A0">Touch Injection</a>.</div>
+<div class="alert"><b>Note</b>  This value is 0 when the source of input is <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_touchinjection/touch-injection-portal">Touch Injection</a>.</div>
 <div> </div>
 
 ### -field device
@@ -99,7 +99,7 @@ The string that identifies the product.
 
 
 
-<a href="https://msdn.microsoft.com/33DCB172-8D95-4205-AE2E-ADD7F3BF988A">Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_pointerdevice/structures">Structures</a>
  
 
  

@@ -61,17 +61,17 @@ Defines features that a Microsoft Direct3D 11 video processor can support.
 
 ### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_FILL
 
-The video processor can set alpha values on the output pixels. For more information, see <a href="https://msdn.microsoft.com/898604FA-B857-4D84-AA0D-3BC517F75A36">ID3D11VideoContext::VideoProcessorSetOutputAlphaFillMode</a>.
+The video processor can set alpha values on the output pixels. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetoutputalphafillmode">ID3D11VideoContext::VideoProcessorSetOutputAlphaFillMode</a>.
 
 
 ### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_CONSTRICTION
 
-The video processor can downsample the video output. For more information, see <a href="https://msdn.microsoft.com/EA61A4B8-0853-4F17-B634-70A896DCF5F7">ID3D11VideoContext::VideoProcessorSetOutputConstriction</a>.
+The video processor can downsample the video output. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetoutputconstriction">ID3D11VideoContext::VideoProcessorSetOutputConstriction</a>.
 
 
 ### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_LUMA_KEY
 
-The video processor can perform luma keying. For more information, see <a href="https://msdn.microsoft.com/DAFDAF7C-BBE2-41AA-9E44-C1BD28CE03FE">ID3D11VideoContext::VideoProcessorSetStreamLumaKey</a>.
+The video processor can perform luma keying. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetstreamlumakey">ID3D11VideoContext::VideoProcessorSetStreamLumaKey</a>.
 
 
 ### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_PALETTE
@@ -95,9 +95,9 @@ The driver does not support full video processing capabilities. If this capabili
 
 ### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_STEREO
 
-The video processor can support 3D stereo video. For more information, see <a href="https://msdn.microsoft.com/FAAE902A-622E-42D2-B332-CD4126A4182E">ID3D11VideoContext::VideoProcessorSetStreamStereoFormat</a>.
+The video processor can support 3D stereo video. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetstreamstereoformat">ID3D11VideoContext::VideoProcessorSetStreamStereoFormat</a>.
 
-All drivers setting this caps must support the following stereo formats: <a href="https://msdn.microsoft.com/77832DF2-821E-465C-80B6-46DDB2433791">D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_HORIZONTAL</a>, <b>D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_VERTICAL</b>, and <b>D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_SEPARATE</b>.
+All drivers setting this caps must support the following stereo formats: <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_stereo_format">D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_HORIZONTAL</a>, <b>D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_VERTICAL</b>, and <b>D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_SEPARATE</b>.
 
 
 ### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_ROTATION
@@ -107,12 +107,12 @@ The driver can rotate the input data either 90, 180, or 270 degrees clockwise as
 
 ### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_STREAM
 
-The driver supports the <a href="https://msdn.microsoft.com/DA869E3F-25BB-4794-B7AE-A3C2DA968800">VideoProcessorSetStreamAlpha</a> call.
+The driver supports the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetstreamalpha">VideoProcessorSetStreamAlpha</a> call.
 
 
 ### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_PIXEL_ASPECT_RATIO
 
-The driver supports the <a href="https://msdn.microsoft.com/4205F6F0-4AF3-42B1-8636-64FCFC865856">VideoProcessorSetStreamPixelAspectRatio</a> call.
+The driver supports the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetstreampixelaspectratio">VideoProcessorSetStreamPixelAspectRatio</a> call.
 
 
 ### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_MIRROR
@@ -131,11 +131,11 @@ The driver supports the <a href="https://msdn.microsoft.com/4205F6F0-4AF3-42B1-8
 
 
 
-<a href="https://msdn.microsoft.com/EF79BE15-B92E-45C1-BC42-E89E06197C20">D3D11_VIDEO_PROCESSOR_CAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_processor_caps">D3D11_VIDEO_PROCESSOR_CAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/40061AD1-BCD9-4170-A442-34B4C792BB55">Direct3D 11 Video Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-enumerations">Direct3D 11 Video Enumerations</a>
  
 
  

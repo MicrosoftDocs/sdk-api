@@ -56,10 +56,10 @@ The <b>IMSVidFeature</b> interface represents a feature that is available throug
 
 
 
-To obtain a collection of the features that are available, call the <a href="https://msdn.microsoft.com/73da686c-0c25-4dfb-8a13-681f1dac6a4a">IMSVidCtl::get_FeaturesAvailable</a> method on the Video Control. To activate a feature, create a new <a href="https://msdn.microsoft.com/dd826afd-b6a1-449e-937b-8341506d3e1a">MSVidFeatures</a> collection object and assign it to the Video Control by calling the <a href="https://msdn.microsoft.com/293506fa-3208-468e-982a-3c1f8ce0269b">IMSVidCtl::put_FeaturesActive</a> method.
+To obtain a collection of the features that are available, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_featuresavailable">IMSVidCtl::get_FeaturesAvailable</a> method on the Video Control. To activate a feature, create a new <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd695126(v=vs.85)">MSVidFeatures</a> collection object and assign it to the Video Control by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_featuresactive">IMSVidCtl::put_FeaturesActive</a> method.
       
 
-Feature objects do not implement the <a href="https://msdn.microsoft.com/en-us/library/Dd694527(v=VS.85).aspx">IMSVidDevice::get_Power</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd694528(v=VS.85).aspx">IMSVidDevice::get_Status</a> method.
+Feature objects do not implement the <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsviddevice-get_power">IMSVidDevice::get_Power</a> or <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsviddevice-get_status">IMSVidDevice::get_Status</a> method.
       
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IMSVidFeature)</code>.
@@ -72,11 +72,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694519(v=VS.85).aspx">IMSVidDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsviddevice">IMSVidDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf6c3ce9-1e56-4109-93f1-5b313e6ca19b">Video Control Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
  
 
  

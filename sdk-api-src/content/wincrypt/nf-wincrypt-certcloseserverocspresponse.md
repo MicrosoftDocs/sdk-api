@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CertCloseServerOcspResponse</b> function closes an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">online certificate status protocol</a> (OCSP) server response handle.
+The <b>CertCloseServerOcspResponse</b> function closes an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) server response handle.
 
 
 ## -parameters
@@ -80,7 +80,7 @@ This function does not return a value.
 
 
 
-The <b>CertCloseServerOcspResponse</b> function closes a handle returned by either the <a href="https://msdn.microsoft.com/c29d1972-b329-4e32-aead-a038130fb85e">CertOpenServerOcspResponse</a> or <a href="https://msdn.microsoft.com/6ccc0e85-1fa0-480c-a5b4-b21ba811e5d0">CertAddRefServerOcspResponse</a> function.
+The <b>CertCloseServerOcspResponse</b> function closes a handle returned by either the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenserverocspresponse">CertOpenServerOcspResponse</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddrefserverocspresponse">CertAddRefServerOcspResponse</a> function.
 
 
 
@@ -90,7 +90,7 @@ The <b>CertCloseServerOcspResponse</b> function closes a handle returned by eith
 
 
 
-<a href="https://msdn.microsoft.com/c29d1972-b329-4e32-aead-a038130fb85e">CertOpenServerOcspResponse</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenserverocspresponse">CertOpenServerOcspResponse</a>
  
 
  

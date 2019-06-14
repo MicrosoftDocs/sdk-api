@@ -60,7 +60,7 @@ The following table lists the methods for
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemPath</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWbemPath</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemPath</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemPath</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IWbemPath</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6826bd2a-6036-4017-a58e-621fc2361031">CreateClassPart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-createclasspart">CreateClassPart</a>
 </td>
 <td align="left" width="63%">
 Initializes the class/key portion of the path.
@@ -84,7 +84,7 @@ Initializes the class/key portion of the path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4b79739b-b278-424f-ac3f-2bc769f3cf93">DeleteClassPart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-deleteclasspart">DeleteClassPart</a>
 </td>
 <td align="left" width="63%">
 Deletes the class portion of the path.
@@ -93,7 +93,7 @@ Deletes the class portion of the path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d7555d66-38d6-4d87-a241-6cce8674fa44">GetClassName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-getclassname">GetClassName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the class name from the path.
@@ -102,7 +102,7 @@ Retrieves the class name from the path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/64f91184-668c-49ec-b8f9-aeeb7227ea6b">GetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-getinfo">GetInfo</a>
 </td>
 <td align="left" width="63%">
 Returns details about a path that has been placed into a parser object.
@@ -111,17 +111,17 @@ Returns details about a path that has been placed into a parser object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bf62727f-6ce7-4c7a-b757-c36d8cf64652">GetKeyList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-getkeylist">GetKeyList</a>
 </td>
 <td align="left" width="63%">
 Retrieves an 
-<a href="https://msdn.microsoft.com/5b188426-9d7f-4e87-9eed-ce80e5d93c30">IWbemPathKeyList</a> pointer so that the individual key may be accessed.
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nn-wmiutils-iwbempathkeylist">IWbemPathKeyList</a> pointer so that the individual key may be accessed.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a5180c35-df90-447d-ad52-250ececfd525">GetNamespaceAt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-getnamespaceat">GetNamespaceAt</a>
 </td>
 <td align="left" width="63%">
 Retrieves a namespace based upon its index.
@@ -130,7 +130,7 @@ Retrieves a namespace based upon its index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ce293b16-475c-48b7-a5c4-fa3575dd65a5">GetNamespaceCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-getnamespacecount">GetNamespaceCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of namespaces in the path.
@@ -139,7 +139,7 @@ Returns the number of namespaces in the path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9601fb2b-583d-4481-8237-32db72432c63">GetScope</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-getscope">GetScope</a>
 </td>
 <td align="left" width="63%">
 Retrieves a scope based upon an index.
@@ -148,7 +148,7 @@ Retrieves a scope based upon an index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f43d2215-7950-421b-b660-ebe89f24407e">GetScopeAsText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-getscopeastext">GetScopeAsText</a>
 </td>
 <td align="left" width="63%">
 Retrieves a scope in text format based upon an index.
@@ -157,7 +157,7 @@ Retrieves a scope in text format based upon an index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3e818a4d-0a38-44ce-9027-2a94b7c86bef">GetScopeCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-getscopecount">GetScopeCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of scopes in the path.
@@ -166,7 +166,7 @@ Returns the number of scopes in the path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/831d34d8-d586-41cc-a878-7a2b837b84de">GetServer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-getserver">GetServer</a>
 </td>
 <td align="left" width="63%">
 Returns the server portion of the path.
@@ -175,7 +175,7 @@ Returns the server portion of the path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/427ff33a-3b46-481e-bf46-57b13d19332e">GetText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-gettext">GetText</a>
 </td>
 <td align="left" width="63%">
 Returns a textual representation of a path that has previously been placed into a parser object.
@@ -184,7 +184,7 @@ Returns a textual representation of a path that has previously been placed into 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/28f33c70-095f-4bf0-98fa-29c5bb57f583">IsLocal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-islocal">IsLocal</a>
 </td>
 <td align="left" width="63%">
 Tests if the computer name passed in matches the computer name in the path.
@@ -193,7 +193,7 @@ Tests if the computer name passed in matches the computer name in the path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e7a2d585-98da-4f8f-b1df-bb961a1286f1">IsRelative</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-isrelative">IsRelative</a>
 </td>
 <td align="left" width="63%">
 Tests if the path is relative to a particular computer and namespace.
@@ -202,7 +202,7 @@ Tests if the path is relative to a particular computer and namespace.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/95ba21af-3a43-4aa9-ab5b-90712e9cbed1">IsRelativeOrChild</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-isrelativeorchild">IsRelativeOrChild</a>
 </td>
 <td align="left" width="63%">
 Tests if the path is relative to or a child of a particular computer and namespace.
@@ -211,7 +211,7 @@ Tests if the path is relative to or a child of a particular computer and namespa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7e0a907e-49d1-4775-885f-f059bb398804">IsSameClassName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-issameclassname">IsSameClassName</a>
 </td>
 <td align="left" width="63%">
 Tests whether the class name passed in matches the one in the path.
@@ -220,7 +220,7 @@ Tests whether the class name passed in matches the one in the path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c42bdca5-fdc9-476a-9a32-1ac08e6dd6d0">RemoveAllNamespaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-removeallnamespaces">RemoveAllNamespaces</a>
 </td>
 <td align="left" width="63%">
 Removes the namespace portion of the path.
@@ -229,7 +229,7 @@ Removes the namespace portion of the path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/46c3215f-d038-4d0b-a9ce-b58e9381059e">RemoveAllScopes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-removeallscopes">RemoveAllScopes</a>
 </td>
 <td align="left" width="63%">
 Removes all scopes from the path.
@@ -238,7 +238,7 @@ Removes all scopes from the path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/425d26ee-c6f9-4562-9272-1c970fb6eb64">RemoveNamespaceAt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-removenamespaceat">RemoveNamespaceAt</a>
 </td>
 <td align="left" width="63%">
 Removes a namespace at a particular index.
@@ -247,7 +247,7 @@ Removes a namespace at a particular index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ae7f4e88-32ca-45e1-8934-2801cfbe4cee">RemoveScope</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-removescope">RemoveScope</a>
 </td>
 <td align="left" width="63%">
 Removes a scope based on the index.
@@ -256,7 +256,7 @@ Removes a scope based on the index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/77c51bb7-2868-4d9f-b48c-60b152e18cac">SetClassName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-setclassname">SetClassName</a>
 </td>
 <td align="left" width="63%">
 Sets the class name portion of the path.
@@ -265,7 +265,7 @@ Sets the class name portion of the path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/59e8d4bc-1bf6-4fe7-a269-22f0317b876c">SetNamespaceAt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-setnamespaceat">SetNamespaceAt</a>
 </td>
 <td align="left" width="63%">
 Sets a namespace's value in the path based upon an index.
@@ -274,7 +274,7 @@ Sets a namespace's value in the path based upon an index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0b4597ec-0d08-4929-9591-21588ded66bb">SetScope</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-setscope">SetScope</a>
 </td>
 <td align="left" width="63%">
 Sets a scope in the path based upon an index.
@@ -290,7 +290,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4da66edf-bf38-4246-82fc-27fd14e7d183">SetServer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-setserver">SetServer</a>
 </td>
 <td align="left" width="63%">
 Sets the server portion of the path.
@@ -299,7 +299,7 @@ Sets the server portion of the path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a3ff2aa9-ffa8-4048-ac07-4b815b620d1f">SetText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-settext">SetText</a>
 </td>
 <td align="left" width="63%">
 Parses a path so that information on the path can be returned by the path parser.

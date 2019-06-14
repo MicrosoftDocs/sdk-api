@@ -127,7 +127,7 @@ Returns S_OK if successful, or a standard error value otherwise, including the f
 </dl>
 </td>
 <td width="60%">
-The user canceled the wizard. Use <a href="https://msdn.microsoft.com/40e6f80d-a778-4d5f-bb1b-db294815f8b5">HRESULT_FROM_WIN32</a> to extract this error code.
+The user canceled the wizard. Use <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> to extract this error code.
 
 </td>
 </tr>

@@ -73,12 +73,12 @@ Ethernet configuration is supported.
 
 ### -field WCN_VALUE_CM_LABEL
 
-Label configuration is supported. To authenticate with the default password ID, call <a href="https://msdn.microsoft.com/51d03336-3861-4585-b493-d6765c28b1eb">IWCNDevice::SetPassword</a> with the PIN password type defined by <a href="https://msdn.microsoft.com/14bdc3d4-11eb-4361-bd28-3399c14c4d08">WCN_PASSWORD_TYPE</a>.
+Label configuration is supported. To authenticate with the default password ID, call <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-setpassword">IWCNDevice::SetPassword</a> with the PIN password type defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/ne-wcndevice-tagwcn_password_type">WCN_PASSWORD_TYPE</a>.
 
 
 ### -field WCN_VALUE_CM_DISPLAY
 
-Display configuration is supported. To authenticate with the default password ID, call <a href="https://msdn.microsoft.com/51d03336-3861-4585-b493-d6765c28b1eb">IWCNDevice::SetPassword</a> with the PIN password type defined by <a href="https://msdn.microsoft.com/14bdc3d4-11eb-4361-bd28-3399c14c4d08">WCN_PASSWORD_TYPE</a>.
+Display configuration is supported. To authenticate with the default password ID, call <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-setpassword">IWCNDevice::SetPassword</a> with the PIN password type defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/ne-wcndevice-tagwcn_password_type">WCN_PASSWORD_TYPE</a>.
 
 <div class="alert"><b>Note</b>  For WPS 2.0, use <b>WCN_VALUE_CM_VIRT_DISPLAY</b> or <b>WCN_VALUE_CM_PHYS_DISPLAY</b>.</div>
 <div> </div>
@@ -106,7 +106,7 @@ NFC interface configuration is supported.
 
 ### -field WCN_VALUE_CM_PUSHBUTTON
 
-Push button configuration is supported. To authenticate with the default password ID, call <a href="https://msdn.microsoft.com/51d03336-3861-4585-b493-d6765c28b1eb">IWCNDevice::SetPassword</a> with the push button password type defined by <a href="https://msdn.microsoft.com/14bdc3d4-11eb-4361-bd28-3399c14c4d08">WCN_PASSWORD_TYPE</a>.
+Push button configuration is supported. To authenticate with the default password ID, call <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-setpassword">IWCNDevice::SetPassword</a> with the push button password type defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/ne-wcndevice-tagwcn_password_type">WCN_PASSWORD_TYPE</a>.
 
 <div class="alert"><b>Note</b>  For WPS 2.0, use <b>WCN_VALUE_CM_VIRT_PUSHBUTTON</b> or <b>WCN_VALUE_CM_PHYS_PUSHBUTTON</b>.</div>
 <div> </div>
@@ -120,28 +120,28 @@ Keypad configuration is supported.
 
 ### -field WCN_VALUE_CM_VIRT_PUSHBUTTON
 
-Virtual push button configuration is supported.  To authenticate with the default password ID, call <a href="https://msdn.microsoft.com/51d03336-3861-4585-b493-d6765c28b1eb">IWCNDevice::SetPassword</a> with the push button password type defined by <a href="https://msdn.microsoft.com/14bdc3d4-11eb-4361-bd28-3399c14c4d08">WCN_PASSWORD_TYPE</a>.
+Virtual push button configuration is supported.  To authenticate with the default password ID, call <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-setpassword">IWCNDevice::SetPassword</a> with the push button password type defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/ne-wcndevice-tagwcn_password_type">WCN_PASSWORD_TYPE</a>.
 
 <div class="alert"><b>Note</b>  Only available  in Windows 8.</div>
 <div> </div>
 
 ### -field WCN_VALUE_CM_PHYS_PUSHBUTTON
 
-Physical push button configuration is supported.  To authenticate with the default password ID, call <a href="https://msdn.microsoft.com/51d03336-3861-4585-b493-d6765c28b1eb">IWCNDevice::SetPassword</a> with the push button password type defined by <a href="https://msdn.microsoft.com/14bdc3d4-11eb-4361-bd28-3399c14c4d08">WCN_PASSWORD_TYPE</a>.
+Physical push button configuration is supported.  To authenticate with the default password ID, call <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-setpassword">IWCNDevice::SetPassword</a> with the push button password type defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/ne-wcndevice-tagwcn_password_type">WCN_PASSWORD_TYPE</a>.
 
 <div class="alert"><b>Note</b>  Only available  in Windows 8.</div>
 <div> </div>
 
 ### -field WCN_VALUE_CM_VIRT_DISPLAY
 
-Virtual display configuration is supported. To authenticate with the default password ID, call <a href="https://msdn.microsoft.com/51d03336-3861-4585-b493-d6765c28b1eb">IWCNDevice::SetPassword</a> with the PIN password type defined by <a href="https://msdn.microsoft.com/14bdc3d4-11eb-4361-bd28-3399c14c4d08">WCN_PASSWORD_TYPE</a>.
+Virtual display configuration is supported. To authenticate with the default password ID, call <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-setpassword">IWCNDevice::SetPassword</a> with the PIN password type defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/ne-wcndevice-tagwcn_password_type">WCN_PASSWORD_TYPE</a>.
 
 <div class="alert"><b>Note</b>  Only available  in Windows 8.</div>
 <div> </div>
 
 ### -field WCN_VALUE_CM_PHYS_DISPLAY
 
-Physical display configuration is supported. To authenticate with the default password ID, call <a href="https://msdn.microsoft.com/51d03336-3861-4585-b493-d6765c28b1eb">IWCNDevice::SetPassword</a> with the PIN password type defined by <a href="https://msdn.microsoft.com/14bdc3d4-11eb-4361-bd28-3399c14c4d08">WCN_PASSWORD_TYPE</a>.
+Physical display configuration is supported. To authenticate with the default password ID, call <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-setpassword">IWCNDevice::SetPassword</a> with the PIN password type defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/ne-wcndevice-tagwcn_password_type">WCN_PASSWORD_TYPE</a>.
 
 <div class="alert"><b>Note</b>  Only available  in Windows 8.</div>
 <div> </div>
@@ -151,7 +151,7 @@ Physical display configuration is supported. To authenticate with the default pa
 
 
 
-<a href="https://msdn.microsoft.com/214b64c3-b1f0-46b1-b52a-b1df1bb40cf7">WCN_ATTRIBUTE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_attribute_type">WCN_ATTRIBUTE_TYPE</a>
  
 
  

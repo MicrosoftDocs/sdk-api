@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-The <b>CanSaveFileAs</b> method ascertains whether the content being played by the reader can be saved using the <a href="https://msdn.microsoft.com/en-us/library/Dd757440(v=VS.85).aspx">IWMReaderAdvanced2::SaveFileAs</a> method.
+The <b>CanSaveFileAs</b> method ascertains whether the content being played by the reader can be saved using the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-savefileas">IWMReaderAdvanced2::SaveFileAs</a> method.
 
 
 
@@ -101,7 +101,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757450(v=VS.85).aspx">IWMReaderAdvanced4 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced4">IWMReaderAdvanced4 Interface</a>
  
 
  

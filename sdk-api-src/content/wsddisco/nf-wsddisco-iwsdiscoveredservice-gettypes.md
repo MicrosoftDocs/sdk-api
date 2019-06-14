@@ -59,7 +59,7 @@ Retrieves a list of WS-Discovery Types.
 
 ### -param ppTypesList [in]
 
-List of WS-Discovery Types provided in the Hello, ProbeMatch, or ResolveMatch message sent by the remote device. For details, see <a href="https://msdn.microsoft.com/f573365d-100f-4df9-b1af-a484680436eb">WSD_NAME_LIST</a>. Do not deallocate the output structure.
+List of WS-Discovery Types provided in the Hello, ProbeMatch, or ResolveMatch message sent by the remote device. For details, see <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_name_list">WSD_NAME_LIST</a>. Do not deallocate the output structure.
 
 
 ## -returns
@@ -110,7 +110,7 @@ Method completed successfully.
 
 
 
-The resulting pointer value is only valid for the lifetime of the <a href="https://msdn.microsoft.com/6516098a-e440-4dec-b275-165ea3072d49">IWSDiscoveredService</a> object.
+The resulting pointer value is only valid for the lifetime of the <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a> object.
 
 
 
@@ -120,7 +120,7 @@ The resulting pointer value is only valid for the lifetime of the <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/6516098a-e440-4dec-b275-165ea3072d49">IWSDiscoveredService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a>
  
 
  

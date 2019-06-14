@@ -54,7 +54,7 @@ Exposes methods that initialize, show, and get results from the common file dial
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileDialog</b> interface inherits from <a href="https://msdn.microsoft.com/e9d640fd-ef10-486a-a037-01b7a71179a0">IModalWindow</a>. <b>IFileDialog</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileDialog</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-imodalwindow">IModalWindow</a>. <b>IFileDialog</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IFileDialog</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2196e73f-4e0f-4213-b0a2-13a047486f40">AddPlace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-addplace">AddPlace</a>
 </td>
 <td align="left" width="63%">
 Adds a folder to the list of places available for the user to open or save items.
@@ -78,7 +78,7 @@ Adds a folder to the list of places available for the user to open or save items
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f5664a52-f26c-475d-84ef-0c657ae46e2e">Advise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-advise">Advise</a>
 </td>
 <td align="left" width="63%">
 Assigns an event handler that listens for events coming from the dialog.
@@ -87,7 +87,7 @@ Assigns an event handler that listens for events coming from the dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bedb6fc8-7db7-4d29-a223-a9997b57c8a3">ClearClientData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-clearclientdata">ClearClientData</a>
 </td>
 <td align="left" width="63%">
 Instructs the dialog to clear all persisted state information.
@@ -96,7 +96,7 @@ Instructs the dialog to clear all persisted state information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/064b035a-c554-4c81-93b9-ba4fb92da09d">Close</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-close">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the dialog.
@@ -105,7 +105,7 @@ Closes the dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b3768c15-d933-43c0-8398-f8f1c16ecbf9">GetCurrentSelection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-getcurrentselection">GetCurrentSelection</a>
 </td>
 <td align="left" width="63%">
 Gets the user's current selection in the dialog.
@@ -114,7 +114,7 @@ Gets the user's current selection in the dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d27acb22-906a-4e5e-9239-6de3162fd263">GetFileName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-getfilename">GetFileName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the text currently entered in the dialog's <b>File name</b> edit box.
@@ -123,7 +123,7 @@ Retrieves the text currently entered in the dialog's <b>File name</b> edit box.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ae5b08a1-a97d-433b-88dc-938abe028384">GetFileTypeIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb775958(v=vs.85)">GetFileTypeIndex</a>
 </td>
 <td align="left" width="63%">
 Gets the currently selected file type.
@@ -132,7 +132,7 @@ Gets the currently selected file type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/424d1507-e42a-43d7-8904-347bfb311dd4">GetFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-getfolder">GetFolder</a>
 </td>
 <td align="left" width="63%">
 Gets either the folder currently selected in the dialog, or, if the dialog is not currently displayed, the folder that is to be selected when the dialog is opened.
@@ -141,7 +141,7 @@ Gets either the folder currently selected in the dialog, or, if the dialog is no
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8a01b64d-b58e-4470-a5ed-8cf821b26c6b">GetOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-getoptions">GetOptions</a>
 </td>
 <td align="left" width="63%">
 Gets the current flags that are set to control dialog behavior.
@@ -150,7 +150,7 @@ Gets the current flags that are set to control dialog behavior.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6572f172-8b66-4b42-b087-d0133595b380">GetResult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-getresult">GetResult</a>
 </td>
 <td align="left" width="63%">
 Gets the choice that the user made in the dialog.
@@ -159,7 +159,7 @@ Gets the choice that the user made in the dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2ab7d8bb-068d-4c5b-b273-68c7fc4f9956">SetClientGuid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setclientguid">SetClientGuid</a>
 </td>
 <td align="left" width="63%">
 Enables a calling application to associate a GUID with a dialog's persisted state.
@@ -168,7 +168,7 @@ Enables a calling application to associate a GUID with a dialog's persisted stat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2e1739f4-d229-4bf1-99f4-6bded830de2b">SetDefaultExtension</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setdefaultextension">SetDefaultExtension</a>
 </td>
 <td align="left" width="63%">
 Sets the default extension to be added to file names.
@@ -177,7 +177,7 @@ Sets the default extension to be added to file names.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dcde0f80-8118-479d-a08c-4b9af6aa343a">SetDefaultFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setdefaultfolder">SetDefaultFolder</a>
 </td>
 <td align="left" width="63%">
 Sets the folder used as a default if there is not a recently used folder value available.
@@ -186,7 +186,7 @@ Sets the folder used as a default if there is not a recently used folder value a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b8b72a76-6cdb-4675-8d84-f3c7171b8576">SetFileName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setfilename">SetFileName</a>
 </td>
 <td align="left" width="63%">
 Sets the file name.
@@ -195,7 +195,7 @@ Sets the file name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4dc456c4-e06a-4bbf-b7c3-a6f93b46a044">SetFileNameLabel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setfilenamelabel">SetFileNameLabel</a>
 </td>
 <td align="left" width="63%">
 Sets the text of the label next to the file name edit box.
@@ -204,7 +204,7 @@ Sets the text of the label next to the file name edit box.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/733ade05-e255-4b1c-a961-e1feb749f73d">SetFileTypeIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb775978(v=vs.85)">SetFileTypeIndex</a>
 </td>
 <td align="left" width="63%">
 Sets the file type that appears as selected in the dialog.
@@ -213,7 +213,7 @@ Sets the file type that appears as selected in the dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ca850988-7f2f-4faf-9ded-14db476fc452">SetFileTypes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setfiletypes">SetFileTypes</a>
 </td>
 <td align="left" width="63%">
 Sets the file types that the dialog can open or save.
@@ -222,7 +222,7 @@ Sets the file types that the dialog can open or save.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6f650ae2-77c4-496c-8b8b-279c69eaaf65">SetFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setfilter">SetFilter</a>
 </td>
 <td align="left" width="63%">
 <b>Deprecated in Windows 7.</b> Sets the filter.
@@ -231,7 +231,7 @@ Sets the file types that the dialog can open or save.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3f300c70-cae8-43bb-95d4-25ac4be9b4c4">SetFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setfolder">SetFolder</a>
 </td>
 <td align="left" width="63%">
 Sets a folder that is always selected when the dialog is opened, regardless of previous user action.
@@ -240,7 +240,7 @@ Sets a folder that is always selected when the dialog is opened, regardless of p
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4320de0f-bfa6-4e17-a09d-d004559fae70">SetOkButtonLabel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setokbuttonlabel">SetOkButtonLabel</a>
 </td>
 <td align="left" width="63%">
 Sets the text of the <b>Open</b> or <b>Save</b> button.
@@ -249,7 +249,7 @@ Sets the text of the <b>Open</b> or <b>Save</b> button.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/99def5c2-3fc3-416c-80a6-6009927ab63e">SetOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setoptions">SetOptions</a>
 </td>
 <td align="left" width="63%">
 Sets flags to control the behavior of the dialog.
@@ -258,7 +258,7 @@ Sets flags to control the behavior of the dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9ae3d226-e825-443a-a2b0-4b5bb07fc9f7">SetTitle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-settitle">SetTitle</a>
 </td>
 <td align="left" width="63%">
 Sets the title of the dialog.
@@ -267,10 +267,10 @@ Sets the title of the dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/48504141-6612-43fe-8470-a9871b560f1a">Unadvise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-unadvise">Unadvise</a>
 </td>
 <td align="left" width="63%">
-Removes an event handler that was attached through the <a href="https://msdn.microsoft.com/f5664a52-f26c-475d-84ef-0c657ae46e2e">IFileDialog::Advise</a> method.
+Removes an event handler that was attached through the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-advise">IFileDialog::Advise</a> method.
 
 </td>
 </tr>
@@ -292,15 +292,15 @@ Removes an event handler that was attached through the <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/f95b7106-18ab-4f7f-8d3f-267ac0293245">IFileOpenDialog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileopendialog">IFileOpenDialog</a>
 
 
 
-<a href="https://msdn.microsoft.com/74021f92-54ff-4c02-a8cf-49bcd7b9171e">IFileSaveDialog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifilesavedialog">IFileSaveDialog</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9d640fd-ef10-486a-a037-01b7a71179a0">IModalWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-imodalwindow">IModalWindow</a>
  
 
  

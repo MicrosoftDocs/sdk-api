@@ -51,12 +51,12 @@ ms.custom: 19H1
 
 Use this interface to retrieve information about the current write operation. 
 
-This interface is passed to the <a href="https://msdn.microsoft.com/abe35eee-63a4-4109-8927-825f86b6e302">DDiscFormat2RawCDEvents::Update</a> method that you implement.
+This interface is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-ddiscformat2rawcdevents-update">DDiscFormat2RawCDEvents::Update</a> method that you implement.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscFormat2RawCDEventArgs</b> interface inherits from <a href="https://msdn.microsoft.com/1922410a-5871-477f-b778-36b12ad95168">IWriteEngine2EventArgs</a>. <b>IDiscFormat2RawCDEventArgs</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscFormat2RawCDEventArgs</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2eventargs">IWriteEngine2EventArgs</a>. <b>IDiscFormat2RawCDEventArgs</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDiscFormat2RawCDEventArgs</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2a29f77e-e895-4cb0-b1f0-83df07931893">get_CurrentAction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcdeventargs-get_currentaction">get_CurrentAction</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current write action being performed.
@@ -80,7 +80,7 @@ Retrieves the current write action being performed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/87a1b606-f91b-4a14-b3b0-17d224d841fc">get_ElapsedTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcdeventargs-get_elapsedtime">get_ElapsedTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total elapsed time of the write operation.
@@ -89,7 +89,7 @@ Retrieves the total elapsed time of the write operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0dad0ca9-2ddb-44ef-ab8b-a0f0efc3634a">get_RemainingTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcdeventargs-get_remainingtime">get_RemainingTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the estimated remaining time of the write operation.
@@ -104,11 +104,11 @@ Retrieves the estimated remaining time of the write operation.
 
 
 
-<a href="https://msdn.microsoft.com/3a06911e-8a50-4e41-874c-478ad05f6488">DDiscFormat2RawCDEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-ddiscformat2rawcdevents">DDiscFormat2RawCDEvents</a>
 
 
 
-<a href="https://msdn.microsoft.com/1922410a-5871-477f-b778-36b12ad95168">IWriteEngine2EventArgs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2eventargs">IWriteEngine2EventArgs</a>
  
 
  

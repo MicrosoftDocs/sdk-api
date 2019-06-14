@@ -60,7 +60,7 @@ Suspend execution of the calling thread until the next vertical blank signal.
 
 ### -param iSwapChain [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Swap chain index. This is an optional, zero-based index used to specify a swap chain on a multihead card.
 
@@ -69,7 +69,7 @@ Swap chain index. This is an optional, zero-based index used to specify a swap c
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 This method will always return D3D_OK.
 
@@ -92,7 +92,7 @@ In some scenarios the hardware may stop generating vertical blank signals when n
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174337(v=VS.85).aspx">IDirect3DDevice9Ex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nn-d3d9-idirect3ddevice9ex">IDirect3DDevice9Ex</a>
  
 
  

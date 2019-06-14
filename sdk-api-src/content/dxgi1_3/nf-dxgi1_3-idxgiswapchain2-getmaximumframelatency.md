@@ -67,7 +67,7 @@ The maximum number of back buffer frames that will be queued for the swap chain.
 
 
 
-Returns S_OK if successful; otherwise, returns one of the following members of the <a href="https://msdn.microsoft.com/en-us/library/Bb172554(v=VS.85).aspx">D3DERR</a> enumerated type:
+Returns S_OK if successful; otherwise, returns one of the following members of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3derr">D3DERR</a> enumerated type:
 
 <ul>
 <li><b>D3DERR_DEVICELOST</b></li>
@@ -88,11 +88,11 @@ Returns S_OK if successful; otherwise, returns one of the following members of t
 
 
 
-<a href="https://msdn.microsoft.com/1E14EAF6-5EEA-4B4A-8F5F-0BC779093654">IDXGISwapChain2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgiswapchain2">IDXGISwapChain2</a>
 
 
 
-<a href="https://msdn.microsoft.com/AF3F03F2-38B4-474A-8A66-86A93D776EA0">SetMaximumFrameLatency</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgiswapchain2-setmaximumframelatency">SetMaximumFrameLatency</a>
  
 
  

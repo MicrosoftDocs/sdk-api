@@ -90,7 +90,7 @@ If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>H
 
 
 
-<a href="https://msdn.microsoft.com/eb8672c1-a7e6-45f5-a61f-3bee67f5ff5e">IRadialControllerConfigurationInterop</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/radialcontrollerinterop/nn-radialcontrollerinterop-iradialcontrollerconfigurationinterop">IRadialControllerConfigurationInterop</a>
 
 
 

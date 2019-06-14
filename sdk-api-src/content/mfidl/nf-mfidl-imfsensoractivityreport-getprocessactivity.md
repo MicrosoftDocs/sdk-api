@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an <a href="https://msdn.microsoft.com/833A24EA-11E0-47CF-A710-06E38A1FD50A">IMFSensorProcessActivity</a> object representing the current process activity of a sensor.
+Gets an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorprocessactivity">IMFSensorProcessActivity</a> object representing the current process activity of a sensor.
 
 
 ## -parameters
@@ -62,12 +62,12 @@ Gets an <a href="https://msdn.microsoft.com/833A24EA-11E0-47CF-A710-06E38A1FD50A
 
 ### -param Index [in]
 
-The index of the <a href="https://msdn.microsoft.com/833A24EA-11E0-47CF-A710-06E38A1FD50A">IMFSensorProcessActivity</a> to retrieve. This value must be less than the value returned by <a href="https://msdn.microsoft.com/9C3DAB31-9D28-42CB-AFB8-6288658FF6B0">GetProcessCount</a>. 
+The index of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorprocessactivity">IMFSensorProcessActivity</a> to retrieve. This value must be less than the value returned by <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensoractivityreport-getprocesscount">GetProcessCount</a>. 
 
 
 ### -param ppProcessActivity [in]
 
- A pointer to the  <a href="https://msdn.microsoft.com/833A24EA-11E0-47CF-A710-06E38A1FD50A">IMFSensorProcessActivity</a> associated with the specified index.
+ A pointer to the  <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorprocessactivity">IMFSensorProcessActivity</a> associated with the specified index.
 
 
 ## -returns
@@ -116,7 +116,7 @@ The <i>ppProcessActivity</i> parameter is null.
 
 
 
-<a href="https://msdn.microsoft.com/06612B8E-5C1E-487C-B6EF-15F65DEA27D0">IMFSensorActivityReport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivityreport">IMFSensorActivityReport</a>
  
 
  

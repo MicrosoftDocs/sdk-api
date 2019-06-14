@@ -74,7 +74,7 @@ The dialog number of the dialog that was closed.
 
 ### -param ReasonCode [in]
 
-The reason for closing the dialog,  specified as a member of the <a href="https://msdn.microsoft.com/d35067b3-a50b-4bc8-9139-429fe4fa25bb">BDA_CONDITIONALACCESS_MMICLOSEREASON</a> enumeration.
+The reason for closing the dialog,  specified as a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-conditionalaccess-mmiclosereason">BDA_CONDITIONALACCESS_MMICLOSEREASON</a> enumeration.
 
 
 ### -param pulSessionResult [out]
@@ -96,7 +96,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693262(v=VS.85).aspx">IBDA_ConditionalAccessEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_conditionalaccessex">IBDA_ConditionalAccessEx</a>
  
 
  

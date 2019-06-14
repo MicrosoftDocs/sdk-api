@@ -63,7 +63,7 @@ This property is read/write.
 
 
 
-When reading or writing XML, the working directory of the application is specified in the <a href="https://msdn.microsoft.com/09e53748-6d21-42df-bbdd-f0fd9693aab0">WorkingDirectory</a> element of the Task Scheduler schema.
+When reading or writing XML, the working directory of the application is specified in the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-workingdirectory-exectype-element">WorkingDirectory</a> element of the Task Scheduler schema.
 
 The path is checked to make sure it is valid when the task is registered, not when this property is set.
 
@@ -75,11 +75,11 @@ The path is checked to make sure it is valid when the task is registered, not wh
 
 
 
-<a href="https://msdn.microsoft.com/46a4cd60-df23-4109-8a86-b7755a6922dd">IExecAction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iexecaction">IExecAction</a>
 
 
 
-<a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
  
 
  

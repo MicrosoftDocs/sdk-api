@@ -85,15 +85,15 @@ If the function fails, the return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/c4e0eca5-442b-462b-a4f2-0c628b6d3d38">FillRgn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-fillrgn">FillRgn</a>
 
 
 
-<a href="https://msdn.microsoft.com/3a42fc7a-4c07-4540-99a7-520f99532f33">Region Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/region-functions">Region Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d2e8624-4d1a-44f7-821e-a54f6f538214">Regions Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/regions">Regions Overview</a>
  
 
  

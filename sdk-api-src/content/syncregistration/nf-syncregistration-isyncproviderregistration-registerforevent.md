@@ -65,7 +65,7 @@ A <b>HANDLE</b> to a synchronization event that is used to notify
 		events.
 		
 
-<div class="alert"><b>Note</b>  The caller must not <b>Close</b> the returned <b>HANDLE</b>. The registration store will manage the memory for the <b>HANDLE</b> and will close it when the event is revoked by passing the <b>HANDLE</b> to  <a href="https://msdn.microsoft.com/fcc4901a-1507-461e-bbcc-a9e440ec05ce">RevokeEvent</a>, or before the store object is freed from memory.</div>
+<div class="alert"><b>Note</b>  The caller must not <b>Close</b> the returned <b>HANDLE</b>. The registration store will manage the memory for the <b>HANDLE</b> and will close it when the event is revoked by passing the <b>HANDLE</b> to  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncproviderregistration-revokeevent">RevokeEvent</a>, or before the store object is freed from memory.</div>
 <div> </div>
 
 ## -returns
@@ -111,9 +111,9 @@ Invalid pointer.
 
 
 
-The <b>HANDLE</b> returned by this method is used by the <a href="https://msdn.microsoft.com/6a65ba8b-b9cb-4d8c-8d18-9627547f9982">GetChange</a> method. The event will only be set once from the <b>RegisterForEvent</b> call.  Any subsequent notifications will only occur when the user calls the <b>GetChange</b> method.
+The <b>HANDLE</b> returned by this method is used by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncproviderregistration-getchange">GetChange</a> method. The event will only be set once from the <b>RegisterForEvent</b> call.  Any subsequent notifications will only occur when the user calls the <b>GetChange</b> method.
 
-To unregister from this event notification system, call the <a href="https://msdn.microsoft.com/fcc4901a-1507-461e-bbcc-a9e440ec05ce">RevokeEvent</a> method.
+To unregister from this event notification system, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncproviderregistration-revokeevent">RevokeEvent</a> method.
 
 
 
@@ -123,7 +123,7 @@ To unregister from this event notification system, call the <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/e7cf0c05-9d07-4630-ae34-9a9dd81492b2">ISyncProviderRegistration Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderregistration">ISyncProviderRegistration Interface</a>
  
 
  

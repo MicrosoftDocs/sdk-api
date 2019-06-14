@@ -58,7 +58,7 @@ This topic applies to Windows Vista and later.
 Not implemented in this release.
       
 
-The <b>SetScanSignalTypeFilter</b> method specifies the type of signal to scan for. Applications can optionally call this method before calling <a href="https://msdn.microsoft.com/35ed1b43-020e-4baa-9f15-eb316d9a137b">PerformExhaustiveScan</a>, to filter the signal types that the tuner will search for.
+The <b>SetScanSignalTypeFilter</b> method specifies the type of signal to scan for. Applications can optionally call this method before calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iscanningtunerex-performexhaustivescan">PerformExhaustiveScan</a>, to filter the signal types that the tuner will search for.
 
 
 ## -parameters
@@ -68,12 +68,12 @@ The <b>SetScanSignalTypeFilter</b> method specifies the type of signal to scan f
 
 ### -param ScanModulationTypes
 
-Specifies the modulation types, as a bitwise OR of flags from the <a href="https://msdn.microsoft.com/20101fa7-b943-4737-a6ec-a952bdf25196">ScanModulationTypes</a> enumeration. If the value is 0xFFFFFFFF, the tuner does not filter out any specific modulation types.
+Specifies the modulation types, as a bitwise OR of flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/scanmodulationtypes">ScanModulationTypes</a> enumeration. If the value is 0xFFFFFFFF, the tuner does not filter out any specific modulation types.
 
 
 ### -param AnalogVideoStandard
 
-Specifies the analog standards, as a bitwise OR of flags from the <a href="https://msdn.microsoft.com/en-us/library/Dd373515(v=VS.85).aspx">AnalogVideoStandard</a> enumeration. If the value is 0xFFFFFFFF, the tuner does not filter out any specific analog video standards.
+Specifies the analog standards, as a bitwise OR of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-taganalogvideostandard">AnalogVideoStandard</a> enumeration. If the value is 0xFFFFFFFF, the tuner does not filter out any specific analog video standards.
 
 
 ## -returns
@@ -90,7 +90,7 @@ When the method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b
 
 
 
-<a href="https://msdn.microsoft.com/3f89173a-d24b-400c-a229-28efb7a703be">IScanningTunerEx Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iscanningtunerex">IScanningTunerEx Interface</a>
  
 
  

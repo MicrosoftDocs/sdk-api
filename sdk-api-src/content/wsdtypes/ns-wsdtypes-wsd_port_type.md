@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Supplies data about a port type. This structure is populated by <a href="https://msdn.microsoft.com/76dffca8-bb84-4384-a9e8-120a4cf2acac">generated code</a>.
+Supplies data about a port type. This structure is populated by <a href="https://docs.microsoft.com/windows/desktop/WsdApi/web-services-for-devices-code-generator">generated code</a>.
 
 
 ## -struct-fields
@@ -69,10 +69,10 @@ The number of operations in the array referenced by the <b>Operations</b> member
 
 ### -field Operations
 
-Reference to an array of <a href="https://msdn.microsoft.com/fcd4895d-5357-4b73-90b9-e506e3d7f16e">WSD_OPERATION</a> structures that specifies the operations comprising the port type.
+Reference to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_operation">WSD_OPERATION</a> structures that specifies the operations comprising the port type.
 
 
 ### -field ProtocolType
 
-A <a href="https://msdn.microsoft.com/db18870b-2688-4d5e-8aae-7990ff0fc423">WSD_PROTOCOL_TYPE</a> value that specifies the protocol(s) supported by the port type.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ne-wsdtypes-_wsd_protocol_type">WSD_PROTOCOL_TYPE</a> value that specifies the protocol(s) supported by the port type.
 

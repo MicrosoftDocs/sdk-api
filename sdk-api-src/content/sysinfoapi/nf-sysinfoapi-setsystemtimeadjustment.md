@@ -65,7 +65,7 @@ Enables or disables periodic time adjustments to the system's time-of-day clock.
 
 ### -param dwTimeAdjustment [in]
 
-This value represents the number of 100-nanosecond units added to the system time-of-day  for each <i>lpTimeIncrement</i> period of time that actually passes. Call <a href="https://msdn.microsoft.com/6c748726-c81d-4669-87a1-28aad0fccead">GetSystemTimeAdjustment</a> to obtain the <i>lpTimeIncrement</i> value. See remarks.
+This value represents the number of 100-nanosecond units added to the system time-of-day  for each <i>lpTimeIncrement</i> period of time that actually passes. Call <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemtimeadjustment">GetSystemTimeAdjustment</a> to obtain the <i>lpTimeIncrement</i> value. See remarks.
 
 <div class="alert"><b>Note</b>  <p class="note">Currently, Windows Vista and Windows 7 machines will lose any time adjustments set less than 16. 
 
@@ -91,7 +91,7 @@ A value of <b>FALSE</b> specifies that periodic time adjustment is to be enabled
 If the function succeeds, the return value is non-zero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. One way the function can fail is if the caller does not possess the SE_SYSTEMTIME_NAME privilege.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. One way the function can fail is if the caller does not possess the SE_SYSTEMTIME_NAME privilege.
 
 
 
@@ -101,10 +101,10 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 The 
-<a href="https://msdn.microsoft.com/6c748726-c81d-4669-87a1-28aad0fccead">GetSystemTimeAdjustment</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemtimeadjustment">GetSystemTimeAdjustment</a> and 
 <b>SetSystemTimeAdjustment</b> functions support algorithms that synchronize the time-of-day clock, reported via 
-<a href="https://msdn.microsoft.com/9ed8386b-f035-446f-b0f8-12e0d3f23aac">GetSystemTime</a> and 
-<a href="https://msdn.microsoft.com/a63fcd36-de48-4437-a823-837884cc2bf9">GetLocalTime</a>, with another time source using a periodic time adjustment.
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemtime">GetSystemTime</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlocaltime">GetLocalTime</a>, with another time source using a periodic time adjustment.
 
 The 
 <b>SetSystemTimeAdjustment</b> function supports two modes of time synchronization:
@@ -130,7 +130,7 @@ Time-Adjustment Enabled
 
 </td>
 <td>
-For this mode, <i>bTimeAdjustmentDisabled</i> is set to <b>FALSE</b>. For each <i>lpTimeIncrement</i> period of time that actually passes, <i>dwTimeAdjustment</i> will be added to the time of day. The period of time represented by <i>lpTimeIncrement</i> can be determined by calling <a href="https://msdn.microsoft.com/6c748726-c81d-4669-87a1-28aad0fccead">GetSystemTimeAdjustment</a>. The <i>lpTimeIncrement</i> value is fixed by the system upon start and does not change during system operation and is completely independent of the system’s internal clock interrupt resolution at any given time. Given this, the <i>lpTimeIncrement</i> value simply expresses a period of time for which <i>dwTimeAdjustment</i> will be applied to the system’s time-of-day clock.
+For this mode, <i>bTimeAdjustmentDisabled</i> is set to <b>FALSE</b>. For each <i>lpTimeIncrement</i> period of time that actually passes, <i>dwTimeAdjustment</i> will be added to the time of day. The period of time represented by <i>lpTimeIncrement</i> can be determined by calling <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemtimeadjustment">GetSystemTimeAdjustment</a>. The <i>lpTimeIncrement</i> value is fixed by the system upon start and does not change during system operation and is completely independent of the system’s internal clock interrupt resolution at any given time. Given this, the <i>lpTimeIncrement</i> value simply expresses a period of time for which <i>dwTimeAdjustment</i> will be applied to the system’s time-of-day clock.
 
 If the <i>dwTimeAdjustment</i> value is smaller than <i>lpTimeIncrement</i>, the time-of-day clock will advance at a rate slower than normal. If the <i>dwTimeAdjustment</i> value is larger than <i>lpTimeIncrement</i>, the time-of-day clock will advance at a rate faster than normal. The degree to which the time-of-day-clock will run faster or slower depends on how far the <i>dwTimeAdjustment</i> value is above or below the <i>lpTimeIncrement</i> value.  If <i>dwTimeAdjustment</i> equals <i>lpTimeIncrement</i>, the time-of-day clock will advance at normal speed. 
 
@@ -140,10 +140,10 @@ If the <i>dwTimeAdjustment</i> value is smaller than <i>lpTimeIncrement</i>, the
  
 
 An application must have system-time privilege (the SE_SYSTEMTIME_NAME privilege) for this function to succeed. The SE_SYSTEMTIME_NAME privilege is disabled by default. Use the 
-<a href="https://msdn.microsoft.com/8e3f70cd-814e-4aab-8f48-0ca482beef2e">AdjustTokenPrivileges</a> function to enable the privilege before calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges">AdjustTokenPrivileges</a> function to enable the privilege before calling 
 <b>SetSystemTimeAdjustment</b>, and then to disable the privilege after the 
 <b>SetSystemTimeAdjustment</b> call. For more information, see 
-<a href="https://msdn.microsoft.com/b25db548-d5ab-4276-9b50-36d030909384">Running with Special Privileges</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>.
 
 
 
@@ -153,27 +153,27 @@ An application must have system-time privilege (the SE_SYSTEMTIME_NAME privilege
 
 
 
-<a href="https://msdn.microsoft.com/8e3f70cd-814e-4aab-8f48-0ca482beef2e">AdjustTokenPrivileges</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges">AdjustTokenPrivileges</a>
 
 
 
-<a href="https://msdn.microsoft.com/a63fcd36-de48-4437-a823-837884cc2bf9">GetLocalTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlocaltime">GetLocalTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ed8386b-f035-446f-b0f8-12e0d3f23aac">GetSystemTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemtime">GetSystemTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c748726-c81d-4669-87a1-28aad0fccead">GetSystemTimeAdjustment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemtimeadjustment">GetSystemTimeAdjustment</a>
 
 
 
-<a href="https://msdn.microsoft.com/1a1e251e-2375-4134-bbd8-1e4670b9f9d2">System Time</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-time">System Time</a>
 
 
 
-<a href="https://msdn.microsoft.com/3733f611-c6a1-4d48-b21e-ada3490c5de1">Time Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/time-functions">Time Functions</a>
  
 
  

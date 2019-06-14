@@ -53,13 +53,13 @@ ms.custom: 19H1
 ## -description
 
 
-<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptSetProvider</b> function specifies the current user's default <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP).
+<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptSetProvider</b> function specifies the current user's default <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP).
 
 If a current user's default provider is set, that default provider is acquired by any call by that user to 
-<a href="https://msdn.microsoft.com/57e13662-3189-4f8d-b90a-d1fbdc09b63c">CryptAcquireContext</a> specifying a <i>dwProvType</i> provider type but not a CSP name.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> specifying a <i>dwProvType</i> provider type but not a CSP name.
 
 An enhanced version of this function, 
-<a href="https://msdn.microsoft.com/5f0c2724-5144-4a22-a7da-2a5162f06f5d">CryptSetProviderEx</a>, is also available.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetproviderexa">CryptSetProviderEx</a>, is also available.
 <div class="alert"><b>Note</b>  Typical applications do not use this function. It is intended for use solely by administrative applications.</div><div> </div>
 
 ## -parameters
@@ -70,7 +70,7 @@ An enhanced version of this function,
 ### -param pszProvName [in]
 
 Name of the new default CSP. The named CSP must be installed on the computer. For a list of available cryptographic providers, see 
-<a href="https://msdn.microsoft.com/97e9a708-83b5-48b3-9d16-f7b54367dc4e">Cryptographic Provider Names</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptographic-provider-names">Cryptographic Provider Names</a>.
 
 
 ### -param dwProvType [in]
@@ -85,7 +85,7 @@ Provider type of the CSP specified by <i>pszProvName</i>.
 If the function succeeds, the return value is nonzero (TRUE).
 
 If the function fails, the return value is zero (FALSE). For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. Some possible error codes are listed in the following table.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Some possible error codes are listed in the following table.
 
 <table>
 <tr>
@@ -128,7 +128,7 @@ The operating system ran out of memory during the operation.
 </table>
  
 
-Errors can also be propagated from internal calls to <a href="https://msdn.microsoft.com/e9ffad7f-c0b6-44ce-bf22-fbe45ca98bf4">RegCreateKeyEx</a> and <a href="https://msdn.microsoft.com/29b0e27c-4999-4e92-bd8b-bba74920bccc">RegSetValueEx</a>.
+Errors can also be propagated from internal calls to <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regsetvalueexa">RegSetValueEx</a>.
 
 
 
@@ -138,7 +138,7 @@ Errors can also be propagated from internal calls to <a href="https://msdn.micro
 
 
 Typical applications do not specify a CSP name when calling 
-<a href="https://msdn.microsoft.com/57e13662-3189-4f8d-b90a-d1fbdc09b63c">CryptAcquireContext</a>; however, an application does have the option of selecting a specific CSP. This gives a user the freedom to select a CSP with an appropriate level of security.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>; however, an application does have the option of selecting a specific CSP. This gives a user the freedom to select a CSP with an appropriate level of security.
 
 Since calling <b>CryptSetProvider</b> determines the CSP of a specified type used by all applications that run from that point on, this function must not be called without users' consent.
 
@@ -150,23 +150,23 @@ Since calling <b>CryptSetProvider</b> determines the CSP of a specified type use
 
 
 
-<a href="https://msdn.microsoft.com/57e13662-3189-4f8d-b90a-d1fbdc09b63c">CryptAcquireContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/97e9a708-83b5-48b3-9d16-f7b54367dc4e">Cryptographic Provider Names</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptographic-provider-names">Cryptographic Provider Names</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9ffad7f-c0b6-44ce-bf22-fbe45ca98bf4">RegCreateKeyEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/29b0e27c-4999-4e92-bd8b-bba74920bccc">RegSetValueEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regsetvalueexa">RegSetValueEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Service Provider Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Service Provider Functions</a>
  
 
  

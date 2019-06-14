@@ -80,11 +80,11 @@ OEM version of the stream. Original equipment manufacturers can use this field t
 
 
 
-<a href="https://msdn.microsoft.com/48c775df-a7f9-49f7-a2e3-74210cf1af4a">MIDI Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-structures">MIDI Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/5c81e1dc-ee6b-4a59-8992-8ec869264d4f">Musical Instrument Digital Interface (MIDI)</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/musical-instrument-digital-interface--midi">Musical Instrument Digital Interface (MIDI)</a>
  
 
  

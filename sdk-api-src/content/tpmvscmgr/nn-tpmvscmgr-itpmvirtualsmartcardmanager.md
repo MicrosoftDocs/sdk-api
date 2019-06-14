@@ -55,7 +55,7 @@ Manages the TPM virtual smart cards.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITpmVirtualSmartCardManager</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITpmVirtualSmartCardManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITpmVirtualSmartCardManager</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITpmVirtualSmartCardManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ITpmVirtualSmartCardManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C80C4DE2-0C43-40A5-81E6-7036A0B8DEB7">CreateVirtualSmartCard</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tpmvscmgr/nf-tpmvscmgr-itpmvirtualsmartcardmanager-createvirtualsmartcard">CreateVirtualSmartCard</a>
 </td>
 <td align="left" width="63%">
 Creates a TPM virtual smart card with the given parameters.
@@ -79,7 +79,7 @@ Creates a TPM virtual smart card with the given parameters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C8624CBF-FC39-4269-9405-8E7B5EE88F8D">DestroyVirtualSmartCard</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tpmvscmgr/nf-tpmvscmgr-itpmvirtualsmartcardmanager-destroyvirtualsmartcard">DestroyVirtualSmartCard</a>
 </td>
 <td align="left" width="63%">
 Destroys the TPM virtual smart card that has the given instance ID.

@@ -65,7 +65,7 @@ This property is read/write.
 
 The minimum value for this property is 1 day (<i>P1D</i>).
 
-When reading or writing XML for a task, this setting is specified in the <a href="https://msdn.microsoft.com/E4BE2466-3119-41F8-8238-4627C28B26E5">Period</a> element of the Task Scheduler schema.
+When reading or writing XML for a task, this setting is specified in the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-period-element">Period</a> element of the Task Scheduler schema.
 
 
 
@@ -75,7 +75,7 @@ When reading or writing XML for a task, this setting is specified in the <a href
 
 
 
-<a href="https://msdn.microsoft.com/5AB172CA-66BF-47B8-952A-9CBA13A20668">IMaintenanceSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-imaintenancesettings">IMaintenanceSettings</a>
  
 
  

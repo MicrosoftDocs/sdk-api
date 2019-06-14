@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<a href="https://msdn.microsoft.com/af7186f8-7921-48e3-a4fd-23259a6e9018">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>ChangeNtmsMediaType</b> function moves the specified PMID to the specified target media pool and sets the PMID's media type identifier to the media type of the target media pool.
@@ -63,7 +63,7 @@ The
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://msdn.microsoft.com/5a323911-e99c-4f81-9580-0feac2f0a54e">OpenNtmsSession</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 
 ### -param lpMediaId [in]
@@ -189,7 +189,7 @@ The function was successful.
 
 The 
 <b>ChangeNtmsMediaType</b> function uses the same policy for moving media as the 
-<a href="https://msdn.microsoft.com/6bc11877-6657-4e8b-8239-bb2720cfb256">MoveToNtmsMediaPool</a> function (unrecognized media can only be moved to the free pool).
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-movetontmsmediapool">MoveToNtmsMediaPool</a> function (unrecognized media can only be moved to the free pool).
 
 
 
@@ -199,15 +199,15 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/fa8ad4af-eeb8-445e-ac6c-671badb651ec">AddNtmsMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-addntmsmediatype">AddNtmsMediaType</a>
 
 
 
-<a href="https://msdn.microsoft.com/c2a2bc8a-4230-44c4-b6bc-4b4e2a9fece1">DeleteNtmsMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-deletentmsmediatype">DeleteNtmsMediaType</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Media Services Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Media Services Functions</a>
  
 
  

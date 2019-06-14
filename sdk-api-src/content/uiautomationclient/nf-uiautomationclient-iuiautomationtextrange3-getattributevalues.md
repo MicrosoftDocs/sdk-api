@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns all of the requested text attribute values for a text range in a single cross-process call.  This is equivalent to calling <a href="https://msdn.microsoft.com/7a77774e-7be0-473e-a0c9-e1aa108549e1">GetAttributeValue</a>, except it can retrieve multiple values instead of just one.
+Returns all of the requested text attribute values for a text range in a single cross-process call.  This is equivalent to calling <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextrange-getattributevalue">GetAttributeValue</a>, except it can retrieve multiple values instead of just one.
 
 
 ## -parameters
@@ -59,12 +59,12 @@ Returns all of the requested text attribute values for a text range in a single 
 
 ### -param attributeIds [in]
 
-A list of <a href="https://msdn.microsoft.com/67d86817-6a3f-4047-88d9-34f33f52a563">text attribute identifiers</a>.
+A list of <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-textattribute-ids">text attribute identifiers</a>.
 
 
 ### -param attributeIdCount [in]
 
-The number of <a href="https://msdn.microsoft.com/67d86817-6a3f-4047-88d9-34f33f52a563">text attribute identifiers</a> in the <i>attributeIds</i> list.
+The number of <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-textattribute-ids">text attribute identifiers</a> in the <i>attributeIds</i> list.
 
 
 ### -param attributeValues [out, retval]
@@ -95,11 +95,11 @@ Returns <b>S_OK</b> if successful, otherwise an <b>HRESULT</b> error code.
 
 
 
-<a href="https://msdn.microsoft.com/3491996E-89EF-496D-94B6-FF8D121D3828">IUIAutomationTextRange3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextrange3">IUIAutomationTextRange3</a>
 
 
 
-<a href="https://msdn.microsoft.com/98a82ff8-f4b9-4f62-ae69-31a2c18de70e">UI Automation Support for Textual Content</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>
  
 
  

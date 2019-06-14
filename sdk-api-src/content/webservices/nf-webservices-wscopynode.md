@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Copies the current node from the specified <a href="https://msdn.microsoft.com/1f99e45c-64ba-42fb-9bf0-35e27f1c5ef2">XML reader</a> to the specified <a href="https://msdn.microsoft.com/69d50793-1d5b-4fc7-bf69-128f8e23a98d">XML writer</a>. 
+Copies the current node from the specified <a href="https://docs.microsoft.com/windows/desktop/wsw/xml-reader">XML reader</a> to the specified <a href="https://docs.microsoft.com/windows/desktop/wsw/xml-writer">XML writer</a>. 
       
 
 
@@ -63,19 +63,19 @@ Copies the current node from the specified <a href="https://msdn.microsoft.com/1
 
 ### -param writer [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/8f413e60-8a30-492c-8f2d-80be511fee11">WS_XML_WRITER</a> to which to copy the XML node.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> to which to copy the XML node.
         
 
 
 ### -param reader [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/7acbe407-e91b-435a-82bc-acbbc13cfcfd">WS_XML_READER</a>   from which to copy the XML node.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a>   from which to copy the XML node.
         
 
 
 ### -param error [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> structure  that receives additional error information if the function fails.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
                 
 
 
@@ -139,7 +139,7 @@ If the current node type is WS_XML_NODE_TYPE_ELEMENT,the current node,
 
 If the current node type is WS_XML_NODE_TYPE_BOF, nodes are copied
         until a node of type WS_XML_NODE_TYPE_EOF is reached.
-      For information on node types, see the <a href="https://msdn.microsoft.com/eddef5db-432d-4615-9f0f-a712dffe42ab">WS_XML_NODE_TYPE</a> enumeration.
+      For information on node types, see the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_xml_node_type">WS_XML_NODE_TYPE</a> enumeration.
 
 The reader will be positioned on the node following the node copied.
       

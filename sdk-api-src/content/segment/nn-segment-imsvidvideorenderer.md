@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>IMSVidVideoRenderer</b> interface represents a video renderer device. The <a href="https://msdn.microsoft.com/ffb9566f-1c03-4aba-a9ce-a47e42894ca0">MSVidVideoRenderer</a> object exposes this interface.
+The <b>IMSVidVideoRenderer</b> interface represents a video renderer device. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd695138(v=vs.85)">MSVidVideoRenderer</a> object exposes this interface.
 
 This interface provides access to the Video Mixing Renderer (VMR) filter.
 
@@ -59,7 +59,7 @@ This interface provides access to the Video Mixing Renderer (VMR) filter.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidVideoRenderer</b> interface inherits from <a href="https://msdn.microsoft.com/c2e5ebac-cb10-4567-83f7-f8f4e3b4f009">IMSVidOutputDevice</a>. <b>IMSVidVideoRenderer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidVideoRenderer</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidoutputdevice">IMSVidOutputDevice</a>. <b>IMSVidVideoRenderer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IMSVidVideoRenderer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694731(v=VS.85).aspx">Capture</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-capture">Capture</a>
 </td>
 <td align="left" width="63%">
 Captures the video frame that is currently being rendered by the VMR.
@@ -83,7 +83,7 @@ Captures the video frame that is currently being rendered by the VMR.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694745(v=VS.85).aspx">get__CustomCompositor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get__customcompositor">get__CustomCompositor</a>
 </td>
 <td align="left" width="63%">
 Retrieves the VMR's current image compositor.
@@ -92,7 +92,7 @@ Retrieves the VMR's current image compositor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694746(v=VS.85).aspx">get__CustomCompositorClass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get__customcompositorclass">get__CustomCompositorClass</a>
 </td>
 <td align="left" width="63%">
 Retrieves the class identifier (CLSID) of the VMR's current image compositor, as a <b>GUID</b>
@@ -101,16 +101,16 @@ Retrieves the class identifier (CLSID) of the VMR's current image compositor, as
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694747(v=VS.85).aspx">get__MixerBitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get__mixerbitmap">get__MixerBitmap</a>
 </td>
 <td align="left" width="63%">
-Retrieves the VMR's <a href="https://msdn.microsoft.com/en-us/library/Dd390448(v=VS.85).aspx">IVMRMixerBitmap</a> interface, which controls how the VMR mixes a static bitmap
+Retrieves the VMR's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap</a> interface, which controls how the VMR mixes a static bitmap
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694732(v=VS.85).aspx">get_AvailableSourceRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get_availablesourcerect">get_AvailableSourceRect</a>
 </td>
 <td align="left" width="63%">
 Retrieves the size of the native video.
@@ -119,7 +119,7 @@ Retrieves the size of the native video.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694733(v=VS.85).aspx">get_ClippedSourceRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get_clippedsourcerect">get_ClippedSourceRect</a>
 </td>
 <td align="left" width="63%">
 Retrieves the clipping rectangle on the video source.
@@ -128,7 +128,7 @@ Retrieves the clipping rectangle on the video source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694734(v=VS.85).aspx">get_CustomCompositorClass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get_customcompositorclass">get_CustomCompositorClass</a>
 </td>
 <td align="left" width="63%">
 Retrieves the CLSID of the VMR's current image compositor, as a <b>BSTR</b>.
@@ -137,7 +137,7 @@ Retrieves the CLSID of the VMR's current image compositor, as a <b>BSTR</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694735(v=VS.85).aspx">get_DecimateInput</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get_decimateinput">get_DecimateInput</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the VMR will decimate the video (that is, reduce the native video size) before processing it.
@@ -146,7 +146,7 @@ Indicates whether the VMR will decimate the video (that is, reduce the native vi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694736(v=VS.85).aspx">get_FramesPerSecond</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get_framespersecond">get_FramesPerSecond</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current frame rate.
@@ -155,7 +155,7 @@ Retrieves the current frame rate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694737(v=VS.85).aspx">get_MaxVidRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get_maxvidrect">get_MaxVidRect</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum ideal size of the video rectangle.
@@ -164,7 +164,7 @@ Retrieves the maximum ideal size of the video rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694738(v=VS.85).aspx">get_MinVidRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get_minvidrect">get_MinVidRect</a>
 </td>
 <td align="left" width="63%">
 Retrieves the minimum ideal size of the video rectangle.
@@ -173,7 +173,7 @@ Retrieves the minimum ideal size of the video rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694739(v=VS.85).aspx">get_MixerBitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get_mixerbitmap">get_MixerBitmap</a>
 </td>
 <td align="left" width="63%">
 Retrieves the static bitmap image, as an <b>IPictureDisp</b> type.
@@ -182,7 +182,7 @@ Retrieves the static bitmap image, as an <b>IPictureDisp</b> type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694740(v=VS.85).aspx">get_MixerBitmapOpacity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get_mixerbitmapopacity">get_MixerBitmapOpacity</a>
 </td>
 <td align="left" width="63%">
 Retrieves the opacity of the static bitmap image.
@@ -191,7 +191,7 @@ Retrieves the opacity of the static bitmap image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694741(v=VS.85).aspx">get_MixerBitmapPositionRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get_mixerbitmappositionrect">get_MixerBitmapPositionRect</a>
 </td>
 <td align="left" width="63%">
 Retrieves the position of the static bitmap image, relative to the video window.
@@ -200,7 +200,7 @@ Retrieves the position of the static bitmap image, relative to the video window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694742(v=VS.85).aspx">get_OverScan</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get_overscan">get_OverScan</a>
 </td>
 <td align="left" width="63%">
 Retrieves the amount of clipping to perform on all sides of the video frame, in order to cut off random video noise.
@@ -209,7 +209,7 @@ Retrieves the amount of clipping to perform on all sides of the video frame, in 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694743(v=VS.85).aspx">get_SourceSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get_sourcesize">get_SourceSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of clipping to apply to the video rectangle, if any.
@@ -218,7 +218,7 @@ Retrieves the type of clipping to apply to the video rectangle, if any.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694744(v=VS.85).aspx">get_UsingOverlay</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get_usingoverlay">get_UsingOverlay</a>
 </td>
 <td align="left" width="63%">
 Queries whether the VMR is using the hardware overlay.
@@ -227,7 +227,7 @@ Queries whether the VMR is using the hardware overlay.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694757(v=VS.85).aspx">put__CustomCompositor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put__customcompositor">put__CustomCompositor</a>
 </td>
 <td align="left" width="63%">
 Specifies a custom image compositor for the VMR to use.
@@ -236,7 +236,7 @@ Specifies a custom image compositor for the VMR to use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694758(v=VS.85).aspx">put__CustomCompositorClass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put__customcompositorclass">put__CustomCompositorClass</a>
 </td>
 <td align="left" width="63%">
 Specifies the CLSID of a custom image compositor, as a <b>GUID</b>.
@@ -245,7 +245,7 @@ Specifies the CLSID of a custom image compositor, as a <b>GUID</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694759(v=VS.85).aspx">put__MixerBitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put__mixerbitmap">put__MixerBitmap</a>
 </td>
 <td align="left" width="63%">
 Specifies the static bitmap image.
@@ -254,7 +254,7 @@ Specifies the static bitmap image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694748(v=VS.85).aspx">put_ClippedSourceRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_clippedsourcerect">put_ClippedSourceRect</a>
 </td>
 <td align="left" width="63%">
 Specifies the clipping rectangle on the video source.
@@ -263,7 +263,7 @@ Specifies the clipping rectangle on the video source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694749(v=VS.85).aspx">put_CustomCompositorClass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_customcompositorclass">put_CustomCompositorClass</a>
 </td>
 <td align="left" width="63%">
 Specifies the CLSID of a custom image compositor, as a <b>BSTR</b>.
@@ -272,7 +272,7 @@ Specifies the CLSID of a custom image compositor, as a <b>BSTR</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694750(v=VS.85).aspx">put_DecimateInput</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_decimateinput">put_DecimateInput</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the VMR will decimate the video (that is, reduce the native video size) before processing it.
@@ -281,7 +281,7 @@ Specifies whether the VMR will decimate the video (that is, reduce the native vi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694751(v=VS.85).aspx">put_MixerBitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_mixerbitmap">put_MixerBitmap</a>
 </td>
 <td align="left" width="63%">
 Specifies the static bitmap image, as an <b>IPictureDisp</b> type.
@@ -290,7 +290,7 @@ Specifies the static bitmap image, as an <b>IPictureDisp</b> type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694752(v=VS.85).aspx">put_MixerBitmapOpacity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_mixerbitmapopacity">put_MixerBitmapOpacity</a>
 </td>
 <td align="left" width="63%">
 Specifies the opacity of the static bitmap image.
@@ -299,7 +299,7 @@ Specifies the opacity of the static bitmap image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694753(v=VS.85).aspx">put_MixerBitmapPositionRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_mixerbitmappositionrect">put_MixerBitmapPositionRect</a>
 </td>
 <td align="left" width="63%">
 Specifies the position of the static bitmap image, relative to the video window.
@@ -308,7 +308,7 @@ Specifies the position of the static bitmap image, relative to the video window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694754(v=VS.85).aspx">put_OverScan</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_overscan">put_OverScan</a>
 </td>
 <td align="left" width="63%">
 Specifies the amount of clipping to perform on all sides of the video frame, in order to cut off random video noise.
@@ -317,7 +317,7 @@ Specifies the amount of clipping to perform on all sides of the video frame, in 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694755(v=VS.85).aspx">put_SourceSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_sourcesize">put_SourceSize</a>
 </td>
 <td align="left" width="63%">
 Specifies the type of clipping to apply to the video rectangle, if any.
@@ -326,7 +326,7 @@ Specifies the type of clipping to apply to the video rectangle, if any.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694756(v=VS.85).aspx">put_UsingOverlay</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_usingoverlay">put_UsingOverlay</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the VMR will use the hardware overlay.
@@ -335,7 +335,7 @@ Specifies whether the VMR will use the hardware overlay.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694760(v=VS.85).aspx">SetupMixerBitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-setupmixerbitmap">SetupMixerBitmap</a>
 </td>
 <td align="left" width="63%">
 Configures the VMR to display an alpha-blended bitmap on top of the video.
@@ -359,11 +359,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/c2e5ebac-cb10-4567-83f7-f8f4e3b4f009">IMSVidOutputDevice</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidoutputdevice">IMSVidOutputDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf6c3ce9-1e56-4109-93f1-5b313e6ca19b">Video Control Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
  
 
  

@@ -64,11 +64,11 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/7266c02d-0f56-4754-8a67-68394a5f0158">IConfigurationDataCollector</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-iconfigurationdatacollector">IConfigurationDataCollector</a>
 
 
 
-<a href="https://msdn.microsoft.com/990a5f92-2285-4461-8020-25028d2cab90">IConfigurationDataCollector::RegistryKeys</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-iconfigurationdatacollector-get_registrykeys">IConfigurationDataCollector::RegistryKeys</a>
  
 
  

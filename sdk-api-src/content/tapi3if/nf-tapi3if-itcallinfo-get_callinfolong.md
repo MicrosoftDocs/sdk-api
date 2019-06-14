@@ -61,7 +61,7 @@ The
 ### -param CallInfoLong [in]
 
 
-<a href="https://msdn.microsoft.com/48a27ba2-e21d-46bb-8fba-8052fc68b851">CALLINFO_LONG</a> indicator of information type needed, such as CIL_BEARERMODE.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-callinfo_long">CALLINFO_LONG</a> indicator of information type needed, such as CIL_BEARERMODE.
 
 
 ### -param plCallInfoLongVal [out]
@@ -132,7 +132,7 @@ The <i>CallInfoLong</i> parameter is not a valid value.
 </td>
 <td width="60%">
 The current 
-<a href="https://msdn.microsoft.com/d4ed5e99-3abe-4434-9f99-5e98d8c6f3f1">call state</a> is not valid for this operation.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-call_state">call state</a> is not valid for this operation.
 								
 
 </td>
@@ -148,19 +148,19 @@ The current
 
 
 
-<a href="https://msdn.microsoft.com/48a27ba2-e21d-46bb-8fba-8052fc68b851">CALLINFO_LONG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-callinfo_long">CALLINFO_LONG</a>
 
 
 
-<a href="https://msdn.microsoft.com/67c063ba-8b12-40d6-9011-923bdee8b214">Call Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/5209d4a1-e05b-453e-8896-2dc71f0b9af0">ITCallInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/b5198b78-56f7-4964-970a-1068f2db4743">put_CallInfoLong</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-put_callinfolong">put_CallInfoLong</a>
  
 
  

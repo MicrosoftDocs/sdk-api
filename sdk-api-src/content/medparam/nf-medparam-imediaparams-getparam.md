@@ -125,7 +125,7 @@ Success.
 
 
 
-To enumerate the parameters supported by this object, along with their index values, use the <a href="https://msdn.microsoft.com/en-us/library/Dd406964(v=VS.85).aspx">IMediaParamInfo</a> interface.
+To enumerate the parameters supported by this object, along with their index values, use the <a href="https://docs.microsoft.com/windows/desktop/api/medparam/nn-medparam-imediaparaminfo">IMediaParamInfo</a> interface.
 
 
 
@@ -135,7 +135,7 @@ To enumerate the parameters supported by this object, along with their index val
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406971(v=VS.85).aspx">IMediaParams Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/medparam/nn-medparam-imediaparams">IMediaParams Interface</a>
  
 
  

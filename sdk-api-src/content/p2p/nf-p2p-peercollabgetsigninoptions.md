@@ -59,7 +59,7 @@ The <b>PeerCollabGetSigninOptions</b> function obtains the peer's current signed
 
 ### -param pdwSigninOptions [out]
 
-The <a href="https://msdn.microsoft.com/00b7f57a-222d-4152-bded-93f1899692da">PEER_SIGNIN_FLAGS</a> enumeration value is returned by this function. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_signin_flags_tag">PEER_SIGNIN_FLAGS</a> enumeration value is returned by this function. 
 
 
 ## -returns
@@ -102,7 +102,7 @@ One of the arguments is invalid.
 </dl>
 </td>
 <td width="60%">
-The application did not make a previous call to <a href="https://msdn.microsoft.com/b3f4ac2a-c722-4609-b893-c4b9667ae559">PeerCollabStartup</a>.
+The application did not make a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabstartup">PeerCollabStartup</a>.
 
 </td>
 </tr>
@@ -113,7 +113,7 @@ The application did not make a previous call to <a href="https://msdn.microsoft.
 </dl>
 </td>
 <td width="60%">
-The application has not signed into the peer collaboration network with a previous call to <a href="https://msdn.microsoft.com/927cccfa-2711-439c-833f-348087927c09">PeerCollabSignIn</a>.
+The application has not signed into the peer collaboration network with a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabsignin">PeerCollabSignIn</a>.
 
 </td>
 </tr>
@@ -128,19 +128,19 @@ The application has not signed into the peer collaboration network with a previo
 
 
 
-<a href="https://msdn.microsoft.com/00b7f57a-222d-4152-bded-93f1899692da">PEER_SIGNIN_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_signin_flags_tag">PEER_SIGNIN_FLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/00c3c1f1-c36c-469a-a644-0ec60f02d25e">Peer Collaboration API Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/927cccfa-2711-439c-833f-348087927c09">PeerCollabSignIn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabsignin">PeerCollabSignIn</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa69a233-6104-47c6-a0b5-378794108623">PeerCollabSignOut</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabsignout">PeerCollabSignOut</a>
  
 
  

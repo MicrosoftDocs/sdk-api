@@ -54,7 +54,7 @@ req.redist:
 ## -description
 
 
-Returns the <a href="https://msdn.microsoft.com/1af8d4bf-1217-44ca-b0dd-9a6feda16100">IRestrictedErrorInfo</a> interface pointer based on the given reference.
+Returns the <a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a> interface pointer based on the given reference.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ Identifies an error object which contains relevant information for the specific 
 
 ### -param ppRestrictedErrorInfo [out]
 
-Type: <b><a href="https://msdn.microsoft.com/1af8d4bf-1217-44ca-b0dd-9a6feda16100">IRestrictedErrorInfo</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a>**</b>
 
 The output parameter for the object associated with the given reference.
 
@@ -134,7 +134,7 @@ The reference is invalid.
 
 
 
-The <b>RoResolveRestrictedErrorInfoReference</b> function is useful primarily for debugger development. A debugger receives the reference  string and uses the reference to identify the associated <a href="https://msdn.microsoft.com/1af8d4bf-1217-44ca-b0dd-9a6feda16100">IRestrictedErrorInfo</a> object, which allows the debugger to retrieve the detailed error message by calling the <a href="https://msdn.microsoft.com/ecfd97cf-9f8f-4940-9499-a894e0883f04">GetErrorDetails</a> method.
+The <b>RoResolveRestrictedErrorInfoReference</b> function is useful primarily for debugger development. A debugger receives the reference  string and uses the reference to identify the associated <a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a> object, which allows the debugger to retrieve the detailed error message by calling the <a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nf-restrictederrorinfo-irestrictederrorinfo-geterrordetails">GetErrorDetails</a> method.
 
 
 

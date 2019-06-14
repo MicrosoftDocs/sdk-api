@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>get_AddressCapabilityString</b> method gets the capability string for a given 
-<a href="https://msdn.microsoft.com/c0afe710-ae6d-4f32-a691-956f8d6fea05">ADDRESS_CAPABILITY_STRING</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-address_capability_string">ADDRESS_CAPABILITY_STRING</a>.
 
 
 ## -parameters
@@ -146,7 +146,7 @@ Insufficient memory exists to perform the operation.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>ppCapabilityString</i> parameter.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory allocated for the <i>ppCapabilityString</i> parameter.
 			
 
 
@@ -157,15 +157,15 @@ The application must use
 
 
 
-<a href="https://msdn.microsoft.com/c0afe710-ae6d-4f32-a691-956f8d6fea05">ADDRESS_CAPABILITY_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-address_capability_string">ADDRESS_CAPABILITY_STRING</a>
 
 
 
-<a href="https://msdn.microsoft.com/ab6db262-f99e-4027-9525-7597fcf02e72">Address Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/36f452ce-9171-41da-b003-4c7df17790da">ITAddressCapabilities</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddresscapabilities">ITAddressCapabilities</a>
  
 
  

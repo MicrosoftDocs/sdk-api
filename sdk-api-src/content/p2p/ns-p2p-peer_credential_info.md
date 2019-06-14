@@ -89,12 +89,12 @@ Pointer to a Unicode string that specifies the friendly (display) name of the is
 
 ### -field ftValidityStart
 
-Specifies the <a href="https://msdn.microsoft.com/2d72b1bc-4687-4672-9644-85ad9b197a72">FILETIME</a> structure that contains the time when the recipient's membership in the peer group becomes valid. When issuing new credentials this value must be greater than the ValidityStart value for the member's current credentials. 
+Specifies the <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/graphing-reference-links">FILETIME</a> structure that contains the time when the recipient's membership in the peer group becomes valid. When issuing new credentials this value must be greater than the ValidityStart value for the member's current credentials. 
 
 
 ### -field ftValidityEnd
 
-Specifies the <a href="https://msdn.microsoft.com/2d72b1bc-4687-4672-9644-85ad9b197a72">FILETIME</a> structure that contains the time when the recipient's membership in the peer group becomes invalid.
+Specifies the <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/graphing-reference-links">FILETIME</a> structure that contains the time when the recipient's membership in the peer group becomes invalid.
 
 
 ### -field cRoles
@@ -140,11 +140,11 @@ The role can add records to the peer group database.
 
 
 
-<a href="https://msdn.microsoft.com/b8bd0e17-6af7-426d-ba38-11ff4948cf67">PEER_MEMBER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_member_tag">PEER_MEMBER</a>
 
 
 
-<a href="https://msdn.microsoft.com/81284e61-fc31-47c3-a296-c9c02a2889ec">PeerGroupIssueCredentials</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupissuecredentials">PeerGroupIssueCredentials</a>
  
 
  

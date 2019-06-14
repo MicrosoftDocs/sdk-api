@@ -76,7 +76,7 @@ Receives the size that the theme manager uses to draw a part.
 
 
 
-A value from the <b>THEMESIZE</b> enumeration is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb759759(v=VS.85).aspx">GetThemePartSize</a> function to specify the type of size value to retrieve for a particular visual style part. 
+A value from the <b>THEMESIZE</b> enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-getthemepartsize">GetThemePartSize</a> function to specify the type of size value to retrieve for a particular visual style part. 
 
 
 

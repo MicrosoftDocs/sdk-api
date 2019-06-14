@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>INSTALLUI_HANDLER</b> function prototype defines a callback function that the installer calls for progress notification and error messages. For more information on the usage of this function prototype, a sample code snippet is available in 
-<a href="https://msdn.microsoft.com/ae1589ae-0ad7-4314-8bf1-c8ad51eac5a2">Handling Progress Messages Using MsiSetExternalUI</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/handling-progress-messages-using-msisetexternalui">Handling Progress Messages Using MsiSetExternalUI</a>.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ The
 ### -param pvContext
 
 Pointer to an application context passed to the 
-<a href="https://msdn.microsoft.com/fcbf0607-d048-486f-bec2-f6e9d03e4194">MsiSetExternalUI</a> function. This parameter can be used for error checking.
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisetexternaluia">MsiSetExternalUI</a> function. This parameter can be used for error checking.
 
 
 ### -param iMessageType
@@ -312,7 +312,7 @@ Request to determine a valid source location
 </dl>
 </td>
 <td width="60%">
-List of files currently in use that must be closed before being replaced. Available beginning with Windows Installer 4.0. For more information about this message see <a href="https://msdn.microsoft.com/777f8864-b3d2-43c7-9296-1118f3595d7b">Using Restart Manager with an External UI</a>.
+List of files currently in use that must be closed before being replaced. Available beginning with Windows Installer 4.0. For more information about this message see <a href="https://docs.microsoft.com/windows/desktop/Msi/using-restart-manager-with-an-external-ui-">Using Restart Manager with an External UI</a>.
 
 </td>
 </tr>
@@ -447,7 +447,7 @@ IDOK<div> </div>IDCANCEL<div> </div>IDABORT<div> </div>IDRETRY<div> </div>ID
 
 
 For more information on returning values from an external user interface handler, see the 
-<a href="https://msdn.microsoft.com/a918082d-709d-4b4f-ae3b-5f16ed0ca910">Returning Values from an External User Interface Handler</a> topic.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/returning-values-from-an-external-user-interface-handler">Returning Values from an External User Interface Handler</a> topic.
 
 
 
@@ -457,7 +457,7 @@ For more information on returning values from an external user interface handler
 
 
 
-<a href="https://msdn.microsoft.com/fcbf0607-d048-486f-bec2-f6e9d03e4194">MsiSetExternalUI</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisetexternaluia">MsiSetExternalUI</a>
  
 
  

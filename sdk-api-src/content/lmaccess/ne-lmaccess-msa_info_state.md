@@ -106,7 +106,7 @@ Service accounts  can be group managed and are called group managed service acco
 
 
 
-<a href="https://msdn.microsoft.com/21e04ee8-98c9-4c78-9564-e07f5edaf847">MSA_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_msa_info_0">MSA_INFO_0</a>
  
 
  

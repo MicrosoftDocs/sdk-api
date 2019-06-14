@@ -85,11 +85,11 @@ Each process receives the <a href="https://docs.microsoft.com/en-us/uwp/api/wind
 
 
 
-<a href="https://msdn.microsoft.com/e407c4ca-0de1-4b17-bb83-5c4128952d48">IPackageDebugSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipackagedebugsettings">IPackageDebugSettings</a>
 
 
 
-<a href="https://msdn.microsoft.com/b1a62712-cd03-4728-b0f1-c1b543f2e056">Suspend</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-suspend">Suspend</a>
  
 
  

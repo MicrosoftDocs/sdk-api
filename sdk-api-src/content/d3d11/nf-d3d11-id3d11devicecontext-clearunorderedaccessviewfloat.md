@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Clears an <a href="https://msdn.microsoft.com/597cc12f-dd0e-4603-b670-3f584f25e192">unordered access</a> resource with a float value.
+Clears an <a href="https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-advanced-stages-cs-resources">unordered access</a> resource with a float value.
 
 
 ## -parameters
@@ -60,9 +60,9 @@ Clears an <a href="https://msdn.microsoft.com/597cc12f-dd0e-4603-b670-3f584f25e1
 
 ### -param pUnorderedAccessView [in]
 
-Type: <b><a href="https://msdn.microsoft.com/9def4a7d-f145-4073-8d7d-bf3c7ac7a060">ID3D11UnorderedAccessView</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11unorderedaccessview">ID3D11UnorderedAccessView</a>*</b>
 
-The <a href="https://msdn.microsoft.com/9def4a7d-f145-4073-8d7d-bf3c7ac7a060">ID3D11UnorderedAccessView</a> to clear.
+The <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11unorderedaccessview">ID3D11UnorderedAccessView</a> to clear.
 
 
 ### -param Values [in]
@@ -95,7 +95,7 @@ This API works on FLOAT, UNORM, and SNORM unordered access views (UAVs), with fo
 
 
 
-<a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
  
 
  

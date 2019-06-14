@@ -115,7 +115,7 @@ The options for the function. This can be zero or a combination of the following
 
 #### SHGNLI_NOLNK (0x000000008)
 
-0x000000008. <a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Version 5.0</a> Do not add the .lnk file name extension. You must set the <b>_WIN32_IE</b> macro to 5.01 or greater to use this flag. For more information about versioning, see Shell and Common Controls Versions.
+0x000000008. <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a> Do not add the .lnk file name extension. You must set the <b>_WIN32_IE</b> macro to 5.01 or greater to use this flag. For more information about versioning, see Shell and Common Controls Versions.
 
 
 
@@ -132,7 +132,7 @@ The options for the function. This can be zero or a combination of the following
 
 ##### - uFlags.SHGNLI_NOLNK (0x000000008)
 
-0x000000008. <a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Version 5.0</a> Do not add the .lnk file name extension. You must set the <b>_WIN32_IE</b> macro to 5.01 or greater to use this flag. For more information about versioning, see Shell and Common Controls Versions.
+0x000000008. <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a> Do not add the .lnk file name extension. You must set the <b>_WIN32_IE</b> macro to 5.01 or greater to use this flag. For more information about versioning, see Shell and Common Controls Versions.
 
 
 ##### - uFlags.SHGNLI_NOLOCNAME (0x000000010)

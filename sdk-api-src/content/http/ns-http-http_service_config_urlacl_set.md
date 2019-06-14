@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>HTTP_SERVICE_CONFIG_URLACL_SET</b> structure is used to add a new record to the URL reservation store or retrieve an existing record from it. An instance of the structure is used to pass data in through the <i>pConfigInformation</i> parameter of the 
-<a href="https://msdn.microsoft.com/b0a6d442-2ff4-4e00-8301-696fb0864d8c">HTTPSetServiceConfiguration</a> function, or to retrieve data through the <i>pOutputConfigInformation</i> parameter of the 
-<a href="https://msdn.microsoft.com/bbd2c3c4-d2d0-4590-9b5c-6916b91600cd">HTTPQueryServiceConfiguration</a> function when the <i>ConfigId</i> parameter of either function is equal to <b>HTTPServiceConfigUrlAclInfo</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HTTPSetServiceConfiguration</a> function, or to retrieve data through the <i>pOutputConfigInformation</i> parameter of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HTTPQueryServiceConfiguration</a> function when the <i>ConfigId</i> parameter of either function is equal to <b>HTTPServiceConfigUrlAclInfo</b>.
 
 
 ## -struct-fields
@@ -63,13 +63,13 @@ The
 ### -field KeyDesc
 
 An 
-<a href="https://msdn.microsoft.com/ab739046-c25c-43bd-8c1f-da3aab374a05">HTTP_SERVICE_CONFIG_URLACL_KEY</a> structure that identifies the URL reservation record.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_urlacl_key">HTTP_SERVICE_CONFIG_URLACL_KEY</a> structure that identifies the URL reservation record.
 
 
 ### -field ParamDesc
 
 An 
-<a href="https://msdn.microsoft.com/5fd50d77-cd2b-47d7-baa3-ed1d7fc934a7">HTTP_SERVICE_CONFIG_URLACL_PARAM</a> structure that holds the contents of the specified URL reservation record.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_urlacl_param">HTTP_SERVICE_CONFIG_URLACL_PARAM</a> structure that holds the contents of the specified URL reservation record.
 
 
 ## -see-also
@@ -77,19 +77,19 @@ An
 
 
 
-<a href="https://msdn.microsoft.com/bbd2c3c4-d2d0-4590-9b5c-6916b91600cd">HTTPQueryServiceConfiguration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HTTPQueryServiceConfiguration</a>
 
 
 
-<a href="https://msdn.microsoft.com/b0a6d442-2ff4-4e00-8301-696fb0864d8c">HTTPSetServiceConfiguration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HTTPSetServiceConfiguration</a>
 
 
 
-<a href="https://msdn.microsoft.com/ab739046-c25c-43bd-8c1f-da3aab374a05">HTTP_SERVICE_CONFIG_URLACL_KEY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_urlacl_key">HTTP_SERVICE_CONFIG_URLACL_KEY</a>
 
 
 
-<a href="https://msdn.microsoft.com/5fd50d77-cd2b-47d7-baa3-ed1d7fc934a7">HTTP_SERVICE_CONFIG_URLACL_PARAM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_urlacl_param">HTTP_SERVICE_CONFIG_URLACL_PARAM</a>
  
 
  

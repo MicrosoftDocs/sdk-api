@@ -61,23 +61,23 @@ Creates a DXGI 1.0 factory that you can use to generate other  DXGI objects.
 
 Type: <b>REFIID</b>
 
-The globally unique identifier (GUID) of the <a href="https://msdn.microsoft.com/en-us/library/Bb174535(v=VS.85).aspx">IDXGIFactory</a> object referenced by the <i>ppFactory</i> parameter.
+The globally unique identifier (GUID) of the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgifactory">IDXGIFactory</a> object referenced by the <i>ppFactory</i> parameter.
 
 
 ### -param ppFactory [out]
 
 Type: <b>void**</b>
 
-Address of a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb174535(v=VS.85).aspx">IDXGIFactory</a> object.
+Address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgifactory">IDXGIFactory</a> object.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-Returns <b>S_OK</b> if successful; otherwise, returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
+Returns <b>S_OK</b> if successful; otherwise, returns one of the following <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a>.
 
 
 
@@ -86,22 +86,22 @@ Returns <b>S_OK</b> if successful; otherwise, returns one of the following <a hr
 
 
 
-Use a DXGI factory to generate objects that <a href="https://msdn.microsoft.com/en-us/library/Bb174538(v=VS.85).aspx">enumerate adapters</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb174537(v=VS.85).aspx">create swap chains</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb174540(v=VS.85).aspx">associate a window</a> with the alt+enter key sequence for toggling to and from the fullscreen display mode.
+Use a DXGI factory to generate objects that <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgifactory-enumadapters">enumerate adapters</a>, <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgifactory-createswapchain">create swap chains</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgifactory-makewindowassociation">associate a window</a> with the alt+enter key sequence for toggling to and from the fullscreen display mode.
 
-If the <b>CreateDXGIFactory</b> function succeeds, the reference count on the <a href="https://msdn.microsoft.com/en-us/library/Bb174535(v=VS.85).aspx">IDXGIFactory</a> interface is incremented. To avoid a memory leak, when you finish using the interface, call the <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IDXGIFactory::Release</a> method to release the interface.
+If the <b>CreateDXGIFactory</b> function succeeds, the reference count on the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgifactory">IDXGIFactory</a> interface is incremented. To avoid a memory leak, when you finish using the interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IDXGIFactory::Release</a> method to release the interface.
 
-<div class="alert"><b>Note</b>  Do not mix the use of DXGI 1.0 (<a href="https://msdn.microsoft.com/en-us/library/Bb174535(v=VS.85).aspx">IDXGIFactory</a>) and DXGI 1.1 (<a href="https://msdn.microsoft.com/271f1877-25a7-4d32-9ffa-cb174b366b74">IDXGIFactory1</a>) in an application. Use <b>IDXGIFactory</b> or <b>IDXGIFactory1</b>, but not both in an application.</div>
+<div class="alert"><b>Note</b>  Do not mix the use of DXGI 1.0 (<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgifactory">IDXGIFactory</a>) and DXGI 1.1 (<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgifactory1">IDXGIFactory1</a>) in an application. Use <b>IDXGIFactory</b> or <b>IDXGIFactory1</b>, but not both in an application.</div>
 <div> </div>
-<div class="alert"><b>Note</b>  <b>CreateDXGIFactory</b> fails if your app's <a href="https://msdn.microsoft.com/0c3e3083-9297-4626-b2a7-0062d1c2cf9e">DllMain</a> function calls it. For more info about how DXGI responds from <b>DllMain</b>, see <a href="https://msdn.microsoft.com/en-us/library/Bb205075(v=VS.85).aspx">DXGI Responses from DLLMain</a>.</div>
+<div class="alert"><b>Note</b>  <b>CreateDXGIFactory</b> fails if your app's <a href="https://docs.microsoft.com/windows/desktop/Dlls/dllmain">DllMain</a> function calls it. For more info about how DXGI responds from <b>DllMain</b>, see <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-programming-guide-dxgi">DXGI Responses from DLLMain</a>.</div>
 <div> </div>
-<div class="alert"><b>Note</b>  Starting with Windows 8, all DXGI factories (regardless if they were created with <b>CreateDXGIFactory</b> or <a href="https://msdn.microsoft.com/6fb9d7a3-0b59-4b7a-8871-b99d59811d46">CreateDXGIFactory1</a>) enumerate adapters identically. The enumeration order of adapters, which you retrieve with <a href="https://msdn.microsoft.com/en-us/library/Bb174538(v=VS.85).aspx">IDXGIFactory::EnumAdapters</a> or <a href="https://msdn.microsoft.com/351b7b2d-abb7-449e-bee2-eea96fef3b9d">IDXGIFactory1::EnumAdapters1</a>, is as follows: <ul>
+<div class="alert"><b>Note</b>  Starting with Windows 8, all DXGI factories (regardless if they were created with <b>CreateDXGIFactory</b> or <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-createdxgifactory1">CreateDXGIFactory1</a>) enumerate adapters identically. The enumeration order of adapters, which you retrieve with <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgifactory-enumadapters">IDXGIFactory::EnumAdapters</a> or <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgifactory1-enumadapters1">IDXGIFactory1::EnumAdapters1</a>, is as follows: <ul>
 <li>Adapter with the output on which the desktop primary is displayed. This adapter corresponds with an index of zero.</li>
 <li>Adapters with outputs.</li>
 <li>Adapters without outputs.</li>
 </ul>
 </div>
 <div> </div>
-The <b>CreateDXGIFactory</b> function does not exist for Windows Store apps. Instead, Windows Store apps use the  <a href="https://msdn.microsoft.com/6fb9d7a3-0b59-4b7a-8871-b99d59811d46">CreateDXGIFactory1</a> function.
+The <b>CreateDXGIFactory</b> function does not exist for Windows Store apps. Instead, Windows Store apps use the  <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-createdxgifactory1">CreateDXGIFactory1</a> function.
 
 
 #### Examples
@@ -109,7 +109,7 @@ The <b>CreateDXGIFactory</b> function does not exist for Windows Store apps. Ins
 Creating a DXGI 1.0 Factory
           
 
-The following code example demonstrates how to create a DXGI 1.0 factory.  This example uses the __uuidof() intrinsic to obtain the REFIID, or GUID, of the <a href="https://msdn.microsoft.com/en-us/library/Bb174535(v=VS.85).aspx">IDXGIFactory</a> interface.
+The following code example demonstrates how to create a DXGI 1.0 factory.  This example uses the __uuidof() intrinsic to obtain the REFIID, or GUID, of the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgifactory">IDXGIFactory</a> interface.
 
 
 ```
@@ -128,7 +128,7 @@ HRESULT hr = CreateDXGIFactory(__uuidof(IDXGIFactory), (void**)(&pFactory) );
 
 
 
-<a href="https://msdn.microsoft.com/209d2e65-b118-47a7-aece-fb140fdede3f">DXGI Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-functions">DXGI Functions</a>
  
 
  

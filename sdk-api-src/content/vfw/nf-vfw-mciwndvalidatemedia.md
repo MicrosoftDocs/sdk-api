@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndValidateMedia</b> macro updates the starting and ending locations of the content, the current position in the content, and the trackbar according to the current time format. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/98ac6227-fc90-4276-8e26-2bd005e35dc6">MCIWNDM_VALIDATEMEDIA</a> message.
+The <b>MCIWndValidateMedia</b> macro updates the starting and ending locations of the content, the current position in the content, and the trackbar according to the current time format. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-validatemedia">MCIWNDM_VALIDATEMEDIA</a> message.
 
 
 

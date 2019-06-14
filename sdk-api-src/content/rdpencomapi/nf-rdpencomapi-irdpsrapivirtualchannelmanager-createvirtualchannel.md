@@ -93,14 +93,14 @@ The priority of the channel. This parameter can be one of the following values.
 
 Type: <b>unsigned long</b>
 
-Flags that determine how data is sent on the channel. This parameter can be 0 or <a href="https://msdn.microsoft.com/en-us/library/Aa373263(v=VS.85).aspx">CHANNEL_FLAGS_UNCOMPRESSED</a>.
+Flags that determine how data is sent on the channel. This parameter can be 0 or <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/ne-rdpencomapi-__midl___midl_itf_rdpencomapi_0000_0000_0004">CHANNEL_FLAGS_UNCOMPRESSED</a>.
 
 
 ### -param ppChannel [out]
 
 Type: <b>IRDPSRAPIVirtualChannel**</b>
 
-An <a href="https://msdn.microsoft.com/c3cceb22-424d-4ed9-8d4d-0ca523ba5e9c">IRDPSRAPIVirtualChannel</a> interface pointer.
+An <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapivirtualchannel">IRDPSRAPIVirtualChannel</a> interface pointer.
 
 
 ## -returns
@@ -130,7 +130,7 @@ The binding between server and client channels is established based on the chann
 
 
 
-<a href="https://msdn.microsoft.com/750e7d98-196f-4bf2-864b-50b3bef6f6ad">IRDPSRAPIVirtualChannelManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapivirtualchannelmanager">IRDPSRAPIVirtualChannelManager</a>
  
 
  

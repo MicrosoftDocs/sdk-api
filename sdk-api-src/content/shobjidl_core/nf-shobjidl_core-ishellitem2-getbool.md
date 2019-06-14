@@ -61,7 +61,7 @@ Gets the boolean value of a specified property key.
 
 Type: <b>REFPROPERTYKEY</b>
 
-A reference to a <a href="https://msdn.microsoft.com/3f5f31af-f040-443b-9045-9761055381ea">PROPERTYKEY</a> structure.
+A reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structure.
 
 
 ### -param pf [out]

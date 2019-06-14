@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the offset and size of the credential context data in a <a href="https://msdn.microsoft.com/ac9410eb-ec1b-494c-8e8b-6d161ff2b41c">SEC_WINNT_CREDUI_CONTEXT</a> structure.
+Specifies the offset and size of the credential context data in a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_winnt_credui_context">SEC_WINNT_CREDUI_CONTEXT</a> structure.
 
 
 ## -struct-fields

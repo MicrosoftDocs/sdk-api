@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the final <a href="https://msdn.microsoft.com/en-us/library/ms735225(v=VS.85).aspx">MILMatrixF</a> transform.
+Gets the final <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/ns-mileffects-milmatrixf">MILMatrixF</a> transform.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets the final <a href="https://msdn.microsoft.com/en-us/library/ms735225(v=VS.8
 
 ### -param pMatrix [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735225(v=VS.85).aspx">MILMatrixF</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/ns-mileffects-milmatrixf">MILMatrixF</a>*</b>
 
 The final transform.
 

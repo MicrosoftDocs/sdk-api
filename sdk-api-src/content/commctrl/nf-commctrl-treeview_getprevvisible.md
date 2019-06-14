@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the first visible item that precedes a specified item in a tree-view control. You can use this macro, or you can explicitly send the <a href="https://msdn.microsoft.com/en-us/library/Bb773622(v=VS.85).aspx">TVM_GETNEXTITEM</a> message with the TVGN_PREVIOUSVISIBLE flag. 
+Retrieves the first visible item that precedes a specified item in a tree-view control. You can use this macro, or you can explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getnextitem">TVM_GETNEXTITEM</a> message with the TVGN_PREVIOUSVISIBLE flag. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Retrieves the first visible item that precedes a specified item in a tree-view c
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control. 
 
@@ -68,7 +68,7 @@ Handle to the tree-view control.
 
 Type: <b>HTREEITEM</b>
 
-Handle to an item. The specified item must be visible. Use the <a href="https://msdn.microsoft.com/en-us/library/Bb773610(v=VS.85).aspx">TVM_GETITEMRECT</a> message to determine whether an item is visible. 
+Handle to an item. The specified item must be visible. Use the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getitemrect">TVM_GETITEMRECT</a> message to determine whether an item is visible. 
 
 
 ## -see-also
@@ -80,15 +80,15 @@ Handle to an item. The specified item must be visible. Use the <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773827(v=VS.85).aspx">TreeView_GetFirstVisible</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_getfirstvisible">TreeView_GetFirstVisible</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773861(v=VS.85).aspx">TreeView_GetNextItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_getnextitem">TreeView_GetNextItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773870(v=VS.85).aspx">TreeView_GetNextVisible</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_getnextvisible">TreeView_GetNextVisible</a>
  
 
  

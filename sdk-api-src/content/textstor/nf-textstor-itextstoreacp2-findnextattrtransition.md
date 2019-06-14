@@ -74,7 +74,7 @@ Specifies the number of attributes to check.
 
 ### -param paFilterAttrs [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/5e375609-3d3c-4c12-ae05-dcaa70779162">TS_ATTRID</a> data type that specifies the attribute to check.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/TSF/ts-attrid">TS_ATTRID</a> data type that specifies the attribute to check.
 
 
 ### -param dwFlags [in]
@@ -168,7 +168,7 @@ The character positions specified are beyond the text in the document.
 
 
 
-<div class="alert"><b>Note</b>  If an application does not implement <b>FindNextAttrTransition</b>, <a href="https://msdn.microsoft.com/201c518b-f06f-4c4f-aa56-f8d21f477814">ITfReadOnlyProperty::EnumRanges</a> fails with <b>E_FAIL</b>.</div>
+<div class="alert"><b>Note</b>  If an application does not implement <b>FindNextAttrTransition</b>, <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfreadonlyproperty-enumranges">ITfReadOnlyProperty::EnumRanges</a> fails with <b>E_FAIL</b>.</div>
 <div> </div>
 
 
@@ -178,16 +178,16 @@ The character positions specified are beyond the text in the document.
 
 
 
-<a href="https://msdn.microsoft.com/c256f1c2-6b67-4417-8707-3490a2c5cb55">ITextStoreACP2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp2">ITextStoreACP2</a>
 
 
 
-<a href="https://msdn.microsoft.com/5e375609-3d3c-4c12-ae05-dcaa70779162">TS_ATTRID
+<a href="https://docs.microsoft.com/windows/desktop/TSF/ts-attrid">TS_ATTRID
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/e99a44ba-c41a-4dd7-9475-dd37159081fd">TS_ATTR_* Constants
+<a href="https://docs.microsoft.com/windows/desktop/TSF/ts-attr--constants">TS_ATTR_* Constants
       </a>
  
 

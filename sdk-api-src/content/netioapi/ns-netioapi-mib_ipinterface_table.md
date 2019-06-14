@@ -66,7 +66,7 @@ The number of IP interface entries in the array.
 ### -field Table
 
 An array of 
-<a href="https://msdn.microsoft.com/28265037-f7a3-40a4-b386-20f43f32a8b3">MIB_IPINTERFACE_ROW</a> structures that contain IP interface entries.
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipinterface_row">MIB_IPINTERFACE_ROW</a> structures that contain IP interface entries.
 
 
 ## -remarks
@@ -75,11 +75,11 @@ An array of
 
 The <b>MIB_IPINTERFACE_TABLE</b> structure is defined on Windows Vista and later. 
 
-The <a href="https://msdn.microsoft.com/09f2bbff-3281-41ae-878f-61c5afa20ec5">GetIpInterfaceTable</a> function enumerates the IP interface entries on a local system and returns this information in a <b>MIB_IPINTERFACE_TABLE</b> structure. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipinterfacetable">GetIpInterfaceTable</a> function enumerates the IP interface entries on a local system and returns this information in a <b>MIB_IPINTERFACE_TABLE</b> structure. 
 
 
 
-The <b>MIB_IPINTERFACE_TABLE</b> structure may contain padding for alignment between the <b>NumEntries</b> member and the first <a href="https://msdn.microsoft.com/28265037-f7a3-40a4-b386-20f43f32a8b3">MIB_IPINTERFACE_ROW</a> array entry in the <b>Table</b> member. Padding for alignment may also be present between the <b>MIB_IPINTERFACE_ROW</b> array entries in the <b>Table</b> member. Any access to a <b>MIB_IPINTERFACE_ROW</b> array entry should assume  padding may exist. 
+The <b>MIB_IPINTERFACE_TABLE</b> structure may contain padding for alignment between the <b>NumEntries</b> member and the first <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipinterface_row">MIB_IPINTERFACE_ROW</a> array entry in the <b>Table</b> member. Padding for alignment may also be present between the <b>MIB_IPINTERFACE_ROW</b> array entries in the <b>Table</b> member. Any access to a <b>MIB_IPINTERFACE_ROW</b> array entry should assume  padding may exist. 
 
 
 
@@ -88,7 +88,7 @@ Note that the <i>Netioapi.h</i> header file is automatically included in the <i>
 
 #### Examples
 
-To view an example that retrieves the <b>MIB_IPINTERFACE_TABLE</b> structure and then prints out a few members of the <a href="https://msdn.microsoft.com/28265037-f7a3-40a4-b386-20f43f32a8b3">MIB_IPINTERFACE_ROW</a> structure entries in this table, see the <a href="https://msdn.microsoft.com/09f2bbff-3281-41ae-878f-61c5afa20ec5">GetIpInterfaceTable</a> function.
+To view an example that retrieves the <b>MIB_IPINTERFACE_TABLE</b> structure and then prints out a few members of the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipinterface_row">MIB_IPINTERFACE_ROW</a> structure entries in this table, see the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipinterfacetable">GetIpInterfaceTable</a> function.
 
 <div class="code"></div>
 
@@ -99,11 +99,11 @@ To view an example that retrieves the <b>MIB_IPINTERFACE_TABLE</b> structure and
 
 
 
-<a href="https://msdn.microsoft.com/09f2bbff-3281-41ae-878f-61c5afa20ec5">GetIpInterfaceTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipinterfacetable">GetIpInterfaceTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/28265037-f7a3-40a4-b386-20f43f32a8b3">MIB_IPINTERFACE_ROW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipinterface_row">MIB_IPINTERFACE_ROW</a>
  
 
  

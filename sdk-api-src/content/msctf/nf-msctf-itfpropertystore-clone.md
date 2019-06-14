@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ### -param pPropStore [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/0678e622-3733-499b-b289-c8c181d4638c">ITfPropertyStore</a> interface pointer that receives the new property store object.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfpropertystore">ITfPropertyStore</a> interface pointer that receives the new property store object.
 
 
 ## -returns
@@ -114,7 +114,7 @@ This method creates a new property store object and initializes the new object s
 
 
 
-<a href="https://msdn.microsoft.com/0678e622-3733-499b-b289-c8c181d4638c">ITfPropertyStore
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfpropertystore">ITfPropertyStore
       </a>
  
 

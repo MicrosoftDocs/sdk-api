@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides methods to query and 
    perform management operations on a pack containing disks and volumes.
@@ -58,7 +58,7 @@ Provides methods to query and
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsPack</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IVdsPack</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsPack</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsPack</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IVdsPack</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e64e3891-74c6-4014-9909-24f75f69e06d">AddDisk</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdspack-adddisk">AddDisk</a>
 </td>
 <td align="left" width="63%">
 Adds a disk to an online pack.
@@ -82,7 +82,7 @@ Adds a disk to an online pack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/26fea1a4-f060-49e2-a7ac-0e751f798c72">CreateVolume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdspack-createvolume">CreateVolume</a>
 </td>
 <td align="left" width="63%">
 Creates a volume within the pack.
@@ -91,7 +91,7 @@ Creates a volume within the pack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0793642c-1905-470c-a69f-8bf5f8bbe90d">GetProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdspack-getproperties">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Returns the property details of a pack object.
@@ -100,7 +100,7 @@ Returns the property details of a pack object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b6e7ca7c-b95f-457d-996b-b3c449b6ce6b">GetProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdspack-getprovider">GetProvider</a>
 </td>
 <td align="left" width="63%">
 Returns the provider for the current pack.
@@ -109,7 +109,7 @@ Returns the provider for the current pack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c7e85c4c-fb7c-48de-abd7-8d65ecb9a1fa">MigrateDisks</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdspack-migratedisks">MigrateDisks</a>
 </td>
 <td align="left" width="63%">
 Migrates a set of disks from one pack to another pack.
@@ -118,7 +118,7 @@ Migrates a set of disks from one pack to another pack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/115c1900-5fea-4e39-be3e-b6d04ceb8a58">QueryDisks</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdspack-querydisks">QueryDisks</a>
 </td>
 <td align="left" width="63%">
 Enumerates the disks in the pack.
@@ -127,7 +127,7 @@ Enumerates the disks in the pack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/43f9972d-14a6-4674-bf90-741ad3a9eb0d">QueryVolumes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdspack-queryvolumes">QueryVolumes</a>
 </td>
 <td align="left" width="63%">
 Enumerates the volumes in the pack.
@@ -136,7 +136,7 @@ Enumerates the volumes in the pack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e558c2f4-e1a9-47c0-9b2f-972457e27bbf">Recover</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdspack-recover">Recover</a>
 </td>
 <td align="left" width="63%">
 Returns a failing or failed pack to a healthy state, if possible.
@@ -145,7 +145,7 @@ Returns a failing or failed pack to a healthy state, if possible.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f7bdd5b9-430b-49c8-8476-be15eb3948c6">RemoveMissingDisk</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdspack-removemissingdisk">RemoveMissingDisk</a>
 </td>
 <td align="left" width="63%">
 Removes a dynamic disk that is missing from the pack.
@@ -154,7 +154,7 @@ Removes a dynamic disk that is missing from the pack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4fc59ed0-ef54-4834-90d3-309d297543e6">ReplaceDisk</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdspack-replacedisk">ReplaceDisk</a>
 </td>
 <td align="left" width="63%">
 This method is reserved for future use.
@@ -169,19 +169,19 @@ This method is reserved for future use.
 
 
 
-<a href="https://msdn.microsoft.com/f30494d8-ae82-479d-a47a-7087129e7e6a">IVdsSwProvider::QueryPacks</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsswprovider-querypacks">IVdsSwProvider::QueryPacks</a>
 
 
 
-<a href="https://msdn.microsoft.com/e84a05a0-ea12-4bc1-83e1-1eb0dd291dc9">Pack Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/pack-object">Pack Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/0bddfd62-881d-4fda-b303-ed38d434af55">VDS Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d04bf6c-fda2-4b95-a8bb-907e64267f30">VDS_PACK_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_pack_prop">VDS_PACK_PROP</a>
  
 
  

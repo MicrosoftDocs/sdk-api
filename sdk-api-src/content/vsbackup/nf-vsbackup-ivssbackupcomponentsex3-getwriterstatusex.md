@@ -62,7 +62,7 @@ Returns extended status information for the specified writer.
 The index of the writer whose metadata is to be retrieved. The value of this parameter is an integer from 0 
       to <i>n</i>–1 inclusive, where <i>n</i> is the total number of 
       writers on the current system. The value of <i>n</i> is returned by 
-      the <a href="https://msdn.microsoft.com/e358cb2b-9b0f-47fb-a0ca-7bbbc6e49aff">IVssBackupComponents::GetWriterStatusCount</a> method.
+      the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getwriterstatuscount">IVssBackupComponents::GetWriterStatusCount</a> method.
 
 
 ### -param pidInstance [out]
@@ -82,12 +82,12 @@ The address of a caller-allocated variable that receives a string containing the
 
 ### -param pnStatus [out]
 
-The address of a caller-allocated variable that receives a <a href="https://msdn.microsoft.com/97aa20a3-4d58-49e8-83c0-fc33c700c410">VSS_WRITER_STATE</a> enumeration value. This parameter is required and cannot be <b>NULL</b>.
+The address of a caller-allocated variable that receives a <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_writer_state">VSS_WRITER_STATE</a> enumeration value. This parameter is required and cannot be <b>NULL</b>.
 
 
 ### -param phrFailureWriter [out]
 
-The address of a caller-allocated variable that receives the HRESULT failure code that the writer returned for the <i>hrWriter</i> parameter of the <a href="https://msdn.microsoft.com/c049a016-6546-4e72-90e8-46be8c2f7764">CVssWriterEx2::SetWriterFailureEx</a> method. 
+The address of a caller-allocated variable that receives the HRESULT failure code that the writer returned for the <i>hrWriter</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex2-setwriterfailureex">CVssWriterEx2::SetWriterFailureEx</a> method. 
       
 
 The following are the supported values.
@@ -160,7 +160,7 @@ The writer failed due to an error that would likely not occur if the entire back
 <td width="60%">
 The writer operation failed because of an error that might recur if another shadow copy is created. For 
         more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -190,7 +190,7 @@ The writer status is not available for one or more writers. A writer may have re
 </dl>
 </td>
 <td width="60%">
-The writer is reporting one or more component-level errors. To retrieve the errors, the requester must use the <a href="https://msdn.microsoft.com/a5d739d3-9169-4b25-a590-35703e77dacc">IVssComponentEx2::GetFailure</a> method.
+The writer is reporting one or more component-level errors. To retrieve the errors, the requester must use the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex2-getfailure">IVssComponentEx2::GetFailure</a> method.
 
 </td>
 </tr>
@@ -200,12 +200,12 @@ The writer is reporting one or more component-level errors. To retrieve the erro
 
 ### -param phrApplication [out, optional]
 
-The address of a caller-allocated variable that receives the return code that the writer passed for the <i>hrApplication</i> parameter of  the <a href="https://msdn.microsoft.com/c049a016-6546-4e72-90e8-46be8c2f7764">CVssWriterEx2::SetWriterFailureEx</a> method. This parameter is optional and can be <b>NULL</b>.
+The address of a caller-allocated variable that receives the return code that the writer passed for the <i>hrApplication</i> parameter of  the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex2-setwriterfailureex">CVssWriterEx2::SetWriterFailureEx</a> method. This parameter is optional and can be <b>NULL</b>.
 
 
 ### -param pbstrApplicationMessage [out, optional]
 
-The address of a variable that receives the application failure message that the writer passed for the <i>wszApplicationMessage</i> parameter of the <a href="https://msdn.microsoft.com/c049a016-6546-4e72-90e8-46be8c2f7764">SetWriterFailureEx</a> method. This parameter is optional and can be <b>NULL</b>.
+The address of a variable that receives the application failure message that the writer passed for the <i>wszApplicationMessage</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex2-setwriterfailureex">SetWriterFailureEx</a> method. This parameter is optional and can be <b>NULL</b>.
 
 
 ## -returns
@@ -229,7 +229,7 @@ The following are the valid return codes for this method.
 <td width="60%">
 Successfully returned the status of the specified writer. Note that the value of the 
         <i>phrFailureWriter</i> parameter must be checked to verify that the writer was successful. 
-        The writer failure codes can be among those listed in VsWriter.h and in <a href="https://msdn.microsoft.com/50eced73-3917-4d7e-96cc-2d793b448738">Writer Errors and Vetoes</a>.
+        The writer failure codes can be among those listed in VsWriter.h and in <a href="https://docs.microsoft.com/windows/desktop/VSS/writer-errors-and-vetoes">Writer Errors and Vetoes</a>.
 
 </td>
 </tr>
@@ -293,14 +293,14 @@ The <i>iWriter</i> parameter specifies a writer that does not exist.
 
 
 A requester must call the asynchronous operation 
-    <a href="https://msdn.microsoft.com/ca87cdc3-e233-4efc-81c0-918e5a698af5">IVssBackupComponents::GatherWriterStatus</a> 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus">IVssBackupComponents::GatherWriterStatus</a> 
     and wait for it to complete before calling 
     <b>IVssBackupComponentsEx3::GetWriterStatusEx</b>.
 
-If this method returns VSS_E_WRITERERROR_PARTIAL_FAILURE, the requester should use the <a href="https://msdn.microsoft.com/a5d739d3-9169-4b25-a590-35703e77dacc">IVssComponentEx2::GetFailure</a> method to retrieve the component-level errors.
+If this method returns VSS_E_WRITERERROR_PARTIAL_FAILURE, the requester should use the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex2-getfailure">IVssComponentEx2::GetFailure</a> method to retrieve the component-level errors.
 
 When the caller has finished accessing the status information returned by this method, it should call 
-    <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory held by the 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory held by the 
     <i>pbstrWriter</i> and <i>pbstrApplicationMessage</i> parameters.
 
 
@@ -311,15 +311,15 @@ When the caller has finished accessing the status information returned by this m
 
 
 
-<a href="https://msdn.microsoft.com/c049a016-6546-4e72-90e8-46be8c2f7764">CVssWriterEx2::SetWriterFailureEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex2-setwriterfailureex">CVssWriterEx2::SetWriterFailureEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/652e9630-291d-41cd-96d9-6a63988932a5">IVssBackupComponents::GetWriterStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getwriterstatus">IVssBackupComponents::GetWriterStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/56c8e7c2-2d94-4674-bd20-bf036991474f">IVssBackupComponentsEx3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponentsex3">IVssBackupComponentsEx3</a>
  
 
  

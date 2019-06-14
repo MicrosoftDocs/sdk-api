@@ -59,7 +59,7 @@ Notification method indicating that a query for the messages supported on a devi
 
 ### -param deviceService [in]
 
-The <a href="https://msdn.microsoft.com/en-us/library/Hh780509(v=VS.85).aspx">IMbnDeviceService</a> object on which the query was requested.
+The <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a> object on which the query was requested.
 
 
 ### -param commandIDList [in]
@@ -119,7 +119,7 @@ The Mobile Broadband service will free the memory for <i>commandIDList</i> after
 
 
 
-<a href="https://msdn.microsoft.com/66A388D0-C704-45D2-AD56-4F81E1928774">IMbnDeviceServicesEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesevents">IMbnDeviceServicesEvents</a>
  
 
  

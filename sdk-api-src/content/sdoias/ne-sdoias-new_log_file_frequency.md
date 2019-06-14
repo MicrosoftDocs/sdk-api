@@ -88,7 +88,7 @@ Creates a new log file when the log file reaches a particular size.
 
 
 
-<a href="https://msdn.microsoft.com/e814d576-0405-410e-ae62-e0f5905f6cf9">ACCOUNTINGPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_accountingproperties">ACCOUNTINGPROPERTIES</a>
  
 
  

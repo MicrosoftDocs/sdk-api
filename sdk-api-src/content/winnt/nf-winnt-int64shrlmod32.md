@@ -80,7 +80,7 @@ A compiler can generate optimal code for a right logical shift operation when th
 
 <div class="alert"><b>Note</b>  The 
 <b>Int64ShrlMod32</b> function's <i>Value</i> parameter and return value are 64-bit values, not 
-<a href="https://msdn.microsoft.com/6a2985b6-5baf-49ab-af28-67c1374557ea">LARGE_INTEGER</a> structures.</div>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_large_integer">LARGE_INTEGER</a> structures.</div>
 <div> </div>
 
 
@@ -90,15 +90,15 @@ A compiler can generate optimal code for a right logical shift operation when th
 
 
 
-<a href="https://msdn.microsoft.com/fe79b0c4-3316-4b05-b088-0d4b45586430">Int64ShllMod32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-int64shllmod32">Int64ShllMod32</a>
 
 
 
-<a href="https://msdn.microsoft.com/69de2eb7-2cbe-48db-935b-b3d2c41f4e86">Int64ShraMod32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-int64shramod32">Int64ShraMod32</a>
 
 
 
-<a href="https://msdn.microsoft.com/db4ffbd5-d9e4-4c95-83cc-6f0691c080d2">Large Integers</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinProg/large-integers">Large Integers</a>
  
 
  

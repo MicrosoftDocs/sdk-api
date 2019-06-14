@@ -78,7 +78,7 @@ Computer section
 ### -param hKey [out]
 
 Receives a handle to the registry key. This handle is opened with all access rights. For more information, see 
-<a href="https://msdn.microsoft.com/266d5c8e-1bcd-48e5-bc06-2fbc956d8658">Registry Key Security and Access Rights</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
 
 
 ## -returns
@@ -96,11 +96,11 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the method r
 
 The registry handle is a handle to the root of the registry key. To get or set values in the 
 Policies key, first call the 
-<a href="https://msdn.microsoft.com/bad0a0f8-1889-4eff-98be-084c95d69f3b">RegOpenKey</a> function to open the <b>Software</b>\
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeya">RegOpenKey</a> function to open the <b>Software</b>\
 Policies key.
 
 When you have finished using the registry handle, call the 
-<a href="https://msdn.microsoft.com/10175499-abf3-4694-9594-bb97b43f3fa5">RegCloseKey</a> function to close the handle.
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regclosekey">RegCloseKey</a> function to close the handle.
 
 
 
@@ -110,17 +110,17 @@ When you have finished using the registry handle, call the
 
 
 
-<a href="https://msdn.microsoft.com/dc15a69d-a44d-4731-a9e5-6165abd581c4">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-interfaces">Group Policy
     Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/1285ab5a-ea68-4c16-bc34-8ab2f3cfad35">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/b3cd31a1-c238-4eb2-8164-9c4891e6227b">IGroupPolicyObject</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igrouppolicyobject">IGroupPolicyObject</a>
  
 
  

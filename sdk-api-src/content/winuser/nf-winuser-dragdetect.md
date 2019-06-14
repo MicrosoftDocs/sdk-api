@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Captures the mouse and tracks its movement until the user releases the left button, presses the ESC key, or moves the mouse outside the drag rectangle around the specified point. The width and height of the drag rectangle are specified by the <b>SM_CXDRAG</b> and <b>SM_CYDRAG</b> values returned by the <a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a> function.
+Captures the mouse and tracks its movement until the user releases the left button, presses the ESC key, or moves the mouse outside the drag rectangle around the specified point. The width and height of the drag rectangle are specified by the <b>SM_CXDRAG</b> and <b>SM_CYDRAG</b> values returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> function.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ A handle to the window receiving mouse input.
 
 ### -param pt [in]
 
-Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
 
 Initial position of the mouse, in screen coordinates. The function determines the coordinates of the drag rectangle by using this point. 
 
@@ -102,15 +102,15 @@ The system metrics for the drag rectangle are configurable, allowing for larger 
 
 
 
-<a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645533(v=VS.85).aspx">Mouse Input</a>
+<a href="https://docs.microsoft.com/windows/desktop/inputdev/mouse-input">Mouse Input</a>
 
 
 
-<a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>
+<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>
 
 
 

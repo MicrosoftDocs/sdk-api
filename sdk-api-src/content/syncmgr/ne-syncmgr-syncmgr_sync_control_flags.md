@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates flags used by <a href="https://msdn.microsoft.com/ab0e6634-d30a-4f56-94ff-3b032c789cec">ISyncMgrControl::StartHandlerSync</a> and <a href="https://msdn.microsoft.com/7e4798ce-04ee-4c75-8be2-0ad8fdc400a5">ISyncMgrControl::StartItemSync</a>.
+Indicates flags used by <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-starthandlersync">ISyncMgrControl::StartHandlerSync</a> and <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-startitemsync">ISyncMgrControl::StartItemSync</a>.
 
 
 ## -enum-fields
@@ -69,7 +69,7 @@ Sync only items that are not currently syncing.
 
 ### -field SYNCMGR_SCF_VALID
 
-A mask used to retrieve or verify valid <a href="https://msdn.microsoft.com/2191c105-788d-434e-a3c1-4f7b7dc543c4">SYNCMGR_SYNC_CONTROL_FLAGS</a> flags.
+A mask used to retrieve or verify valid <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_sync_control_flags">SYNCMGR_SYNC_CONTROL_FLAGS</a> flags.
 
 
 ## -remarks

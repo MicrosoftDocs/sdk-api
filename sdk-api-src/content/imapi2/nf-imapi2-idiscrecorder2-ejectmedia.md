@@ -354,15 +354,15 @@ Value: 0xC0AA0210
 
 
 
-<a href="https://msdn.microsoft.com/34f858b8-74eb-4725-8815-7954cb98cff0">IDiscRecorder2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
 
 
 
-<a href="https://msdn.microsoft.com/0a30f3bb-68fc-45d5-826d-79ed9209f391">IDiscRecorder2::CloseTray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-closetray">IDiscRecorder2::CloseTray</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa6790aa-2999-4895-83fa-3967cb411741">IDiscRecorder2::get_DeviceCanLoadMedia</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_devicecanloadmedia">IDiscRecorder2::get_DeviceCanLoadMedia</a>
  
 
  

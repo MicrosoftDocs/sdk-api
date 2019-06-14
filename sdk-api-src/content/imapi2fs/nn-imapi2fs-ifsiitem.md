@@ -51,12 +51,12 @@ ms.custom: 19H1
 
 Base interface containing properties common to both file and directory items. 
 
-To access the properties of this interface, use the <a href="https://msdn.microsoft.com/13085b1f-4ff9-48ff-a9ae-9a1c5cb9a108">IFsiFileItem</a> or <a href="https://msdn.microsoft.com/1c9a2e36-0e79-4bad-b880-ddfbf473308b">IFsiDirectoryItem</a> interface.
+To access the properties of this interface, use the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsifileitem">IFsiFileItem</a> or <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsidirectoryitem">IFsiDirectoryItem</a> interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsiItem</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFsiItem</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsiItem</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsiItem</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IFsiItem</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a10d9ee1-c05f-4e76-a921-af562dc68121">FileSystemName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-filesystemname">FileSystemName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the item as modified to conform to the specified file system. 
@@ -80,7 +80,7 @@ Retrieves the name of the item as modified to conform to the specified file syst
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c6b969e2-9b1c-402e-81ea-ced13fca4551">FileSystemPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-filesystempath">FileSystemPath</a>
 </td>
 <td align="left" width="63%">
 Retrieves the full path of the item as modified to conform to the specified file system.
@@ -89,7 +89,7 @@ Retrieves the full path of the item as modified to conform to the specified file
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c172bbed-6573-4b11-9aa6-9d4dde9cd94a">get_CreationTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-get_creationtime">get_CreationTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the date and time that the item was created in the file system image.
@@ -98,7 +98,7 @@ Retrieves the date and time that the item was created in the file system image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fb2d6f13-a833-42a3-abbd-39f86b95082d">get_FullPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-get_fullpath">get_FullPath</a>
 </td>
 <td align="left" width="63%">
 Retrieves the full path of the file or directory item in the file system image.
@@ -107,7 +107,7 @@ Retrieves the full path of the file or directory item in the file system image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1aec5bbc-d602-40c1-80e4-cad9dd8a2ab5">get_IsHidden</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-get_ishidden">get_IsHidden</a>
 </td>
 <td align="left" width="63%">
 Determines if the item's hidden attribute is set in the file system image. 
@@ -116,7 +116,7 @@ Determines if the item's hidden attribute is set in the file system image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e12f4c62-2dc8-4155-9cd7-0dea982d7b5a">get_LastAccessedTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-get_lastaccessedtime">get_LastAccessedTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the date and time that the item was last accessed in the file system image.
@@ -125,7 +125,7 @@ Retrieves the date and time that the item was last accessed in the file system i
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ec7a3b44-817c-4420-81d5-61905aa4f2cf">get_LastModifiedTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-get_lastmodifiedtime">get_LastModifiedTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the date and time that the item was last modified in the file system image.
@@ -134,7 +134,7 @@ Retrieves the date and time that the item was last modified in the file system i
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4cb6e270-6bbf-414f-a9ed-b290da3dafe9">get_Name</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-get_name">get_Name</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of a directory or file in the file system image.
@@ -143,7 +143,7 @@ Retrieves the name of a directory or file in the file system image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/242e6f68-d9bc-4881-adf3-22d7b32a1dfe">put_CreationTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-put_creationtime">put_CreationTime</a>
 </td>
 <td align="left" width="63%">
 Sets the date and time that a file or directory was added to the file system image.
@@ -152,7 +152,7 @@ Sets the date and time that a file or directory was added to the file system ima
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a437daea-af30-43e5-bb88-e59de8ba37c9">put_IsHidden</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-put_ishidden">put_IsHidden</a>
 </td>
 <td align="left" width="63%">
 Determines if the item's hidden attribute is set in the file system image. 
@@ -161,7 +161,7 @@ Determines if the item's hidden attribute is set in the file system image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6192bff5-9535-4845-9c99-d5ceeea0335f">put_LastAccessedTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-put_lastaccessedtime">put_LastAccessedTime</a>
 </td>
 <td align="left" width="63%">
 Sets the date and time that the item was last accessed in the file system image.
@@ -170,7 +170,7 @@ Sets the date and time that the item was last accessed in the file system image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/11491b16-0bdc-41a6-a99d-0543cdc3bb64">put_LastModifiedTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-put_lastmodifiedtime">put_LastModifiedTime</a>
 </td>
 <td align="left" width="63%">
 Sets the date and time that the item was last modified in the file system image.
@@ -185,11 +185,11 @@ Sets the date and time that the item was last modified in the file system image.
 
 
 
-<a href="https://msdn.microsoft.com/1c9a2e36-0e79-4bad-b880-ddfbf473308b">IFsiDirectoryItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsidirectoryitem">IFsiDirectoryItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/13085b1f-4ff9-48ff-a9ae-9a1c5cb9a108">IFsiFileItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsifileitem">IFsiFileItem</a>
  
 
  

@@ -92,7 +92,7 @@ pManip->put_MinimumScaleRotateRadius(4000.0f);
 
 
 
-<a href="https://msdn.microsoft.com/963f87c1-e128-4bd5-9f28-d49418f768fb">IManipulationProcessor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a>
  
 
  

@@ -56,8 +56,8 @@ Implements methods that get information from an Integrated Services Digital Broa
 To obtain a pointer to this interface, first make sure that the media graph is in a running state and that the stream you are tuned to contains a CDT. Then:
 
 <ol>
-<li>Query the <a href="https://msdn.microsoft.com/22044a4c-480f-4c98-a78e-52c66a5eac99">BDA MPEG-2 Transport Information Filter</a> to obtain a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd694840(v=VS.85).aspx">IPSITables</a> interface. (You can also go through the graph and query each filter until you find one that supports <b>IPSITables</b>.)</li>
-<li>Call the <a href="https://msdn.microsoft.com/en-us/library/Dd694841(v=VS.85).aspx">IPSITables::GetTable</a> method. The interface pointer for the desired table is returned in the <i>ppIUnknown</i> output parameter.
+<li>Query the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-mpeg-2-transport-information-filter">BDA MPEG-2 Transport Information Filter</a> to obtain a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipsitables">IPSITables</a> interface. (You can also go through the graph and query each filter until you find one that supports <b>IPSITables</b>.)</li>
+<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipsitables-gettable">IPSITables::GetTable</a> method. The interface pointer for the desired table is returned in the <i>ppIUnknown</i> output parameter.
 </li>
 </ol>
 
@@ -65,7 +65,7 @@ To obtain a pointer to this interface, first make sure that the media graph is i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IISDB_CDT</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IISDB_CDT</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IISDB_CDT</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IISDB_CDT</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -80,7 +80,7 @@ The <b>IISDB_CDT</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ea01a53f-8d0b-4594-87b4-d293901fca19">GetCountOfTableDescriptors</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_cdt-getcountoftabledescriptors">GetCountOfTableDescriptors</a>
 </td>
 <td align="left" width="63%">
 Gets the number of logo descriptors from the CDT.
@@ -89,7 +89,7 @@ Gets the number of logo descriptors from the CDT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b7ff7e8a-17bd-46aa-bf9b-74f3e33a7ce2">GetDataModule</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_cdt-getdatamodule">GetDataModule</a>
 </td>
 <td align="left" width="63%">
 Gets data from the data module in a CDT.
@@ -98,7 +98,7 @@ Gets data from the data module in a CDT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/843e1a0a-b4bb-487e-aa21-1bd6c32cceae">GetDataType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_cdt-getdatatype">GetDataType</a>
 </td>
 <td align="left" width="63%">
 Gets the data type from the CDT. 
@@ -107,7 +107,7 @@ Gets the data type from the CDT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/87cd757e-ed10-4ad2-a9d5-4a92b8d48cd2">GetDownloadDataId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_cdt-getdownloaddataid">GetDownloadDataId</a>
 </td>
 <td align="left" width="63%">
 Gets an identifier for the data to be downloaded.
@@ -116,7 +116,7 @@ Gets an identifier for the data to be downloaded.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/67adf536-1163-45e3-893c-e9501fefafe7">GetOriginalNetworkId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_cdt-getoriginalnetworkid">GetOriginalNetworkId</a>
 </td>
 <td align="left" width="63%">
 Gets an identifier for the network that originated the broadcast.
@@ -125,7 +125,7 @@ Gets an identifier for the network that originated the broadcast.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/61825be5-01c4-4d5f-be4a-6752ebf8dee8">GetSectionNumber</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_cdt-getsectionnumber">GetSectionNumber</a>
 </td>
 <td align="left" width="63%">
 Gets a value indicating the ordinal position of a subtable within the CDT.
@@ -134,7 +134,7 @@ Gets a value indicating the ordinal position of a subtable within the CDT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c05a8c14-f0da-49d7-be34-1cac435a98da">GetSizeOfDataModule</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_cdt-getsizeofdatamodule">GetSizeOfDataModule</a>
 </td>
 <td align="left" width="63%">
 Gets the size, in bytes, of the data module from a CDT.
@@ -143,7 +143,7 @@ Gets the size, in bytes, of the data module from a CDT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e345e860-247a-4c30-876b-c0e6c82767b8">GetTableDescriptorByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd694308(v=vs.85)">GetTableDescriptorByIndex</a>
 </td>
 <td align="left" width="63%">
 Returns a descriptor for a specified subtable
@@ -153,7 +153,7 @@ Returns a descriptor for a specified subtable
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c06f9d03-a46a-4c3f-bacc-a78f79c411c3">GetTableDescriptorByTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_cdt-gettabledescriptorbytag">GetTableDescriptorByTag</a>
 </td>
 <td align="left" width="63%">
 Gets a descriptor from a subtable in a CDT
@@ -163,7 +163,7 @@ Gets a descriptor from a subtable in a CDT
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b6c3dd34-8db5-45a4-9c13-7e05d94c58b7">GetVersionHash</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_cdt-getversionhash">GetVersionHash</a>
 </td>
 <td align="left" width="63%">
 Gets a hash value for this instance of a CDT.
@@ -172,7 +172,7 @@ Gets a hash value for this instance of a CDT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4c88ecdb-8e01-4fec-96f2-c67331b6d071">GetVersionNumber</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_cdt-getversionnumber">GetVersionNumber</a>
 </td>
 <td align="left" width="63%">
 Gets the version number from the CDT.
@@ -181,7 +181,7 @@ Gets the version number from the CDT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0430d839-4b7f-4d1c-9e5b-bd794d67f065">Initialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_cdt-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes an object that implements this interface.

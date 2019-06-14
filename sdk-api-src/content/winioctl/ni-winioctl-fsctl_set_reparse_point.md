@@ -51,7 +51,7 @@ req.redist:
 Sets a reparse point on a file or directory.
 
 To perform this operation, call the 
-    <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following 
+    <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following 
     parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -144,7 +144,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 For the implications of overlapped I/O on this operation, see the Remarks section of 
-    <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>.
 
 Note that the time stamps may not be updated correctly for a remote file. To ensure consistent results, use 
     unbuffered I/O.
@@ -219,27 +219,27 @@ CsvFs does not support reparse points.
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/f582f3e3-56bd-4a21-817e-233ff0fece6e">FSCTL_DELETE_REPARSE_POINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_delete_reparse_point">FSCTL_DELETE_REPARSE_POINT</a>
 
 
 
-<a href="https://msdn.microsoft.com/6f1b7ea2-aed6-4ab4-8e92-1b77ab5cfefb">FSCTL_GET_REPARSE_POINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_reparse_point">FSCTL_GET_REPARSE_POINT</a>
 
 
 
-<a href="https://msdn.microsoft.com/e906a874-51f1-4623-8f0b-afdfd8169ab2">REPARSE_DATA_BUFFER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_reparse_data_buffer">REPARSE_DATA_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/2d49c1bc-0b1d-40b1-a3a2-6b30f0b3cca0">REPARSE_GUID_DATA_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_reparse_guid_data_buffer">REPARSE_GUID_DATA_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/3abb3a08-9a00-43eb-9792-82eab1a25f06">Reparse Points</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/reparse-points">Reparse Points</a>
  
 
  

@@ -59,7 +59,7 @@ Gets the FolderItem object that represents the item that has input focus.
 
 ### -param ppid [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb787810(v=VS.85).aspx">FolderItem</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-folderitem">FolderItem</a>**</b>
 
 The FolderItem object with input focus.
 
@@ -80,15 +80,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/48135f9d-ee80-4dec-87dc-83f407c25777">IShellFolderViewDual</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual">IShellFolderViewDual</a>
 
 
 
-<a href="https://msdn.microsoft.com/f53b779e-a015-4b17-b04d-e0739cba8168">IShellFolderViewDual2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual2">IShellFolderViewDual2</a>
 
 
 
-<a href="https://msdn.microsoft.com/1aa70db8-4225-49de-8b8f-ec86b1aafa22">IShellFolderViewDual3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual3">IShellFolderViewDual3</a>
  
 
  

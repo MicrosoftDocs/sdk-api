@@ -69,7 +69,7 @@ A pointer to a globally unique identifier (GUID)  for the name-space provider to
 
 If no error occurs, 
 <b>WSCUnInstallNameSpace</b> returns <b>NO_ERROR</b> (zero). Otherwise, it returns <b>SOCKET_ERROR</b> if the function fails, and you must retrieve the appropriate error code using the 
-<a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> function.
 
 <table>
 <tr>
@@ -79,7 +79,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -90,7 +90,7 @@ The <i>lpProviderId</i> parameter points to memory that is not in a valid part o
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -101,7 +101,7 @@ The specified namespace–provider identifier is invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSASYSCALLFAILURE</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASYSCALLFAILURE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -112,7 +112,7 @@ The specified namespace–provider identifier is invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -133,7 +133,7 @@ The specified namespace–provider identifier is invalid.
 The namespace configuration functions do not affect applications that are already running. Newly installed name-space providers will not be visible to applications nor will the changes in a name-space provider's activation state. Applications launched after the call to 
 <b>WSCUnInstallNameSpace</b> will see the changes.
 
-On success, <b>WSCUnInstallNameSpace</b> will attempt to alert all interested applications that have registered for notification of the change by calling <a href="https://msdn.microsoft.com/abaf367a-8f99-478c-a58c-d57e9f9cd8a1">WSAProviderConfigChange</a>.
+On success, <b>WSCUnInstallNameSpace</b> will attempt to alert all interested applications that have registered for notification of the change by calling <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaproviderconfigchange">WSAProviderConfigChange</a>.
 
 The <b>WSCUnInstallNameSpace</b> function can only be called by a user logged on as a member of the Administrators group. If <b>WSCUnInstallNameSpace</b> is called by a user that is not a member of the Administrators group, the function call will fail and <b>WSANO_RECOVERY</b> is returned in the <i>lpErrno</i> parameter. 
  
@@ -152,23 +152,23 @@ The caller of this function must remove any additional files or service provider
 
 
 
-<a href="https://msdn.microsoft.com/abaf367a-8f99-478c-a58c-d57e9f9cd8a1">WSAProviderConfigChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaproviderconfigchange">WSAProviderConfigChange</a>
 
 
 
-<a href="https://msdn.microsoft.com/9a2afd11-1944-491f-9c92-9dbac6b3b28e">WSCDeinstallProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscdeinstallprovider">WSCDeinstallProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/c2e5332f-3327-4624-96b4-8e321795961d">WSCEnumProtocols</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols">WSCEnumProtocols</a>
 
 
 
-<a href="https://msdn.microsoft.com/f17f6174-879e-45e7-a250-975d1ee24fe0">WSCInstallNameSpace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallnamespace">WSCInstallNameSpace</a>
 
 
 
-<a href="https://msdn.microsoft.com/a2a08159-6ac0-493d-8f9f-d19aa199a65f">WSCUnInstallNameSpace32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscuninstallnamespace32">WSCUnInstallNameSpace32</a>
  
 
  

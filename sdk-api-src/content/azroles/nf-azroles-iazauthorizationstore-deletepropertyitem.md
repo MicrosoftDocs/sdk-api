@@ -73,7 +73,7 @@ Property ID of the  list of principals from which to remove the principal specif
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://msdn.microsoft.com/c27ca754-7808-4c96-8966-0be3960f2926">DeletePolicyAdministrator</a> method
+Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deletepolicyadministrator">DeletePolicyAdministrator</a> method
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ Can also be removed using the <a href="https://msdn.microsoft.com/c27ca754-7808-
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://msdn.microsoft.com/28be14c8-9e39-4410-a08c-b52bb63d0ce4">DeletePolicyAdministratorName</a> method
+Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deletepolicyadministratorname">DeletePolicyAdministratorName</a> method
 
 </td>
 </tr>
@@ -93,7 +93,7 @@ Can also be removed using the <a href="https://msdn.microsoft.com/28be14c8-9e39-
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://msdn.microsoft.com/948732bb-4d29-402b-bb12-02d2b73bc443">DeletePolicyReader</a> method
+Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deletepolicyreader">DeletePolicyReader</a> method
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ Can also be removed using the <a href="https://msdn.microsoft.com/948732bb-4d29-
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://msdn.microsoft.com/b3375c24-82c3-43fd-a063-8c8079324641">DeletePolicyReaderName</a> method
+Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deletepolicyreadername">DeletePolicyReaderName</a> method
 
 </td>
 </tr>
@@ -113,7 +113,7 @@ Can also be removed using the <a href="https://msdn.microsoft.com/b3375c24-82c3-
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://msdn.microsoft.com/cb00abca-7116-4a71-aed0-87ed9caff0fb">DeleteDelegatedPolicyUser</a> method
+Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deletedelegatedpolicyuser">DeleteDelegatedPolicyUser</a> method
 
 </td>
 </tr>
@@ -123,7 +123,7 @@ Can also be removed using the <a href="https://msdn.microsoft.com/cb00abca-7116-
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://msdn.microsoft.com/a2e7523a-41d3-4fb5-b455-588e0618f51f">DeleteDelegatedPolicyUserName</a> method
+Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deletedelegatedpolicyusername">DeleteDelegatedPolicyUserName</a> method
 
 </td>
 </tr>
@@ -160,7 +160,7 @@ Any other <b>HRESULT</b> value indicates that the operation failed.
 
 
 
-You must call the <a href="https://msdn.microsoft.com/bf2962af-0e8f-4c4c-a63a-dfd623308e4d">Submit</a> method to persist any changes made by this method.
+You must call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-submit">Submit</a> method to persist any changes made by this method.
 
 
 

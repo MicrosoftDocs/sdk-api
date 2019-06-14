@@ -79,7 +79,7 @@ Specifies the Natural Query Syntax. This syntax removes the requirement for a co
 
 
 
-This enumerated type is used by the <a href="https://msdn.microsoft.com/en-us/library/Bb231310(v=VS.85).aspx">ISearchQueryHelper::get_QuerySyntax</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb231320(v=VS.85).aspx">ISearchQueryHelper::put_QuerySyntax</a> methods.
+This enumerated type is used by the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-get_querysyntax">ISearchQueryHelper::get_QuerySyntax</a> and <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-put_querysyntax">ISearchQueryHelper::put_QuerySyntax</a> methods.
 
 <div class="alert"><b>Note</b>   In Windows 7, the names are prefixed with SQS_ instead of SEARCH_.</div>
 <div> </div>

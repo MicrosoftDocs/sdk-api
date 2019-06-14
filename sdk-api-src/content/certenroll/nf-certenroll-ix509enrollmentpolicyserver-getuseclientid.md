@@ -59,7 +59,7 @@ The <b>GetUseClientId</b> method retrieves a value that specifies whether the <b
 
 ### -param pValue [out, retval]
 
-Pointer to a Boolean value that specifies whether the <b>PsfUseClientId</b> bit is set on the <a href="https://msdn.microsoft.com/e73bccb8-ca4d-4007-bdf3-1194ede5fdd1">PolicyServerUrlFlags</a> enumeration for this certificate enrollment policy (CEP) server.
+Pointer to a Boolean value that specifies whether the <b>PsfUseClientId</b> bit is set on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-policyserverurlflags">PolicyServerUrlFlags</a> enumeration for this certificate enrollment policy (CEP) server.
 
 
 ## -returns
@@ -68,7 +68,7 @@ Pointer to a Boolean value that specifies whether the <b>PsfUseClientId</b> bit 
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -96,7 +96,7 @@ The <i>pValue</i> parameter cannot be <b>NULL</b>.
 
 
 
-This method returns <b>VARIANT_TRUE</b> if the <b>PsfUseClientId</b> bit is set on the <a href="https://msdn.microsoft.com/e73bccb8-ca4d-4007-bdf3-1194ede5fdd1">PolicyServerUrlFlags</a> enumeration for this CEP server. If this flag is set, the <b>ClientID</b> attribute is included in certificate requests during the enrollment process and can be used by the certification authority for diagnostic or auditing purposes. Examples of the type of information included in this attribute include the name of the cryptographic service provider, the Windows version number, the user name, the computer DNS name, and the domain controller DNS name.
+This method returns <b>VARIANT_TRUE</b> if the <b>PsfUseClientId</b> bit is set on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-policyserverurlflags">PolicyServerUrlFlags</a> enumeration for this CEP server. If this flag is set, the <b>ClientID</b> attribute is included in certificate requests during the enrollment process and can be used by the certification authority for diagnostic or auditing purposes. Examples of the type of information included in this attribute include the name of the cryptographic service provider, the Windows version number, the user name, the computer DNS name, and the domain controller DNS name.
 
 
 
@@ -106,7 +106,7 @@ This method returns <b>VARIANT_TRUE</b> if the <b>PsfUseClientId</b> bit is set 
 
 
 
-<a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a>
  
 
  

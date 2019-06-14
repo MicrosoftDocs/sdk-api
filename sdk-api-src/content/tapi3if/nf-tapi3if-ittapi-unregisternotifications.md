@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>UnregisterNotifications</b> method removes any incoming call notification registrations that have been performed using 
-<a href="https://msdn.microsoft.com/335deb2c-7700-4101-b6fa-f7fe0f248307">ITTAPI::RegisterCallNotifications</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-registercallnotifications">ITTAPI::RegisterCallNotifications</a>.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param lRegister [in]
 
 The value returned by the 
-<a href="https://msdn.microsoft.com/335deb2c-7700-4101-b6fa-f7fe0f248307">RegisterCallNotifications</a> method in the <i>plRegister</i> parameter.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-registercallnotifications">RegisterCallNotifications</a> method in the <i>plRegister</i> parameter.
 
 
 ## -returns
@@ -120,15 +120,15 @@ Insufficient memory exists to perform the operation.
 
 
 
-<a href="https://msdn.microsoft.com/75d641c7-dbf8-4ae2-b16b-2757e890d32b">ITTAPI</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapi">ITTAPI</a>
 
 
 
-<a href="https://msdn.microsoft.com/335deb2c-7700-4101-b6fa-f7fe0f248307">RegisterCallNotifications</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-registercallnotifications">RegisterCallNotifications</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4cf358f-2dc8-432a-92ed-68282ddc8a97">TAPI Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-object">TAPI Object</a>
  
 
  

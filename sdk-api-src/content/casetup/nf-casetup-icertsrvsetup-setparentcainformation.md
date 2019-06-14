@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SetParentCAInformation</b> method sets the parent <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) information for a subordinate CA configuration. This facilitates retrieval and installation of the subordinate certificate directly from the parent CA. The parent CA must be a Microsoft CA.
+The <b>SetParentCAInformation</b> method sets the parent <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) information for a subordinate CA configuration. This facilitates retrieval and installation of the subordinate certificate directly from the parent CA. The parent CA must be a Microsoft CA.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ A string that contains a valid configuration for the parent CA. The string must 
 The <b>SetParentCAInformation</b> method pings the parent CA computer to verify that it is available on the network.
 
 Upon success, <b>SetParentCAInformation</b> sets the ENUM_SETUPPROP_PARENTCAMACHINE and ENUM_SETUPPROP_PARENTCANAME properties for the subordinate CA configuration.
-For more information about setup properties, see <a href="https://msdn.microsoft.com/en-us/library/Bb648668(v=VS.85).aspx">CASetupProperty</a>.
+For more information about setup properties, see <a href="https://docs.microsoft.com/windows/desktop/api/casetup/ne-casetup-__midl___midl_itf_casetup_0000_0002_0001">CASetupProperty</a>.
 
 
 
@@ -79,7 +79,7 @@ For more information about setup properties, see <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/6792a0d6-d304-481d-a97b-5fb7033c7eae">ICertSrvSetup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>
  
 
  

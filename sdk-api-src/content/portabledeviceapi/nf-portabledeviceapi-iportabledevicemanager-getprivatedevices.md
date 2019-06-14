@@ -63,7 +63,7 @@ The <b>GetPrivateDevices</b> method retrieves a list of private portable devices
 
 ### -param pPnPDeviceIDs [in, out]
 
-A caller-allocated array of string pointers that holds the Plug and Play names of all of the connected devices. To learn the required size for this parameter, first call this method with this parameter set to <b>NULL</b> and <i>pcPnPDeviceIDs</i> set to zero, and then allocate a buffer according to the value retrieved by <i>pcPnPDeviceIDs</i>. These names can be used by <a href="https://msdn.microsoft.com/d505fc34-9b6d-417a-a53e-e74773dcc8a4">IPortableDevice::Open</a> to create a connection to a device.
+A caller-allocated array of string pointers that holds the Plug and Play names of all of the connected devices. To learn the required size for this parameter, first call this method with this parameter set to <b>NULL</b> and <i>pcPnPDeviceIDs</i> set to zero, and then allocate a buffer according to the value retrieved by <i>pcPnPDeviceIDs</i>. These names can be used by <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevice-open">IPortableDevice::Open</a> to create a connection to a device.
 
 
 ### -param pcPnPDeviceIDs [in, out]
@@ -127,7 +127,7 @@ The <i>pPnPDeviceIDs</i> buffer is too small to hold all the values requested, b
 
 In order to write an application that communicates with a private device, you must have knowledge of the custom functionality exposed by a particular device driver. The description of this functionality must be obtained from the device manufacturer.
 
-The list of devices is generated when the device manager is instantiated; it does not refresh as devices connect and disconnect. To refresh the list of connected devices, call <a href="https://msdn.microsoft.com/89163407-7b38-4c79-8171-67a5b7e1d17c">RefreshDeviceList</a>.
+The list of devices is generated when the device manager is instantiated; it does not refresh as devices connect and disconnect. To refresh the list of connected devices, call <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicemanager-refreshdevicelist">RefreshDeviceList</a>.
 
 The API allocates the memory for each string pointed to by the <i>pPnPDeviceIDs</i> array. Once your application no longer needs these strings, it must iterate through this array and free the associated memory by calling the <b>CoTaskMemFree</b> function.
 
@@ -141,7 +141,7 @@ A private device may not respond correctly to the standard Windows Portable Devi
 
 
 
-<a href="https://msdn.microsoft.com/11cd5b2b-e8f8-4ba1-8527-f7a403f399d5">IPortableDeviceManager Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicemanager">IPortableDeviceManager Interface</a>
  
 
  

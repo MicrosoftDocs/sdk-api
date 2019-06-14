@@ -66,9 +66,9 @@ Handle of the drop structure that describes the dropped file.
 
 ### -param ppt [out]
 
-Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure that, when this function returns successfully, receives the coordinates of the mouse pointer at the time the file was dropped.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure that, when this function returns successfully, receives the coordinates of the mouse pointer at the time the file was dropped.
 
 
 ## -returns
@@ -86,7 +86,7 @@ Type: <b>BOOL</b>
 
 
 
-The window for which coordinates are returned is the window that received the <a href="https://msdn.microsoft.com/07dc2df7-4699-4e9c-b1a5-4ce877116268">WM_DROPFILES</a> message.
+The window for which coordinates are returned is the window that received the <a href="https://docs.microsoft.com/windows/desktop/shell/wm-dropfiles">WM_DROPFILES</a> message.
 
 
 
@@ -96,7 +96,7 @@ The window for which coordinates are returned is the window that received the <a
 
 
 
-<a href="https://msdn.microsoft.com/93fab381-9035-46c4-ba9d-efb2d0801d84">DragQueryFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-dragqueryfilea">DragQueryFile</a>
  
 
  

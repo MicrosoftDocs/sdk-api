@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates whether the <a href="https://msdn.microsoft.com/93eabb45-0b0e-495f-9b64-43ad8060b958">IRealTimeStylus3</a> object has multitouch input enabled.
+Indicates whether the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus3">IRealTimeStylus3</a> object has multitouch input enabled.
 
 This property is read/write.
 
@@ -85,7 +85,7 @@ The following table lists the defined opt-in options for multitouch.
 
 #### Examples
 
-The following example demonstrates how to enable multitouch using the <a href="https://msdn.microsoft.com/93eabb45-0b0e-495f-9b64-43ad8060b958">RealTimeStylus3</a> interface.
+The following example demonstrates how to enable multitouch using the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus3">RealTimeStylus3</a> interface.
 
 
 ```cpp
@@ -139,7 +139,7 @@ The following example shows how to explicitly set the TABLET_ENABLE_MULTITOUCHDA
 
 
 
-<a href="https://msdn.microsoft.com/93eabb45-0b0e-495f-9b64-43ad8060b958">IRealTimeStylus3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus3">IRealTimeStylus3</a>
  
 
  

@@ -60,37 +60,37 @@ This method returns the actual display mode info based on the given mode index.
 
 ### -param Adapter [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Ordinal number denoting the display adapter to enumerate. D3DADAPTER_DEFAULT is always the primary display adapter. This method returns D3DERR_INVALIDCALL when this value equals or exceeds the number of display adapters in the system.
 
 
 ### -param pFilter [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb172550(v=VS.85).aspx">D3DDISPLAYMODEFILTER</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddisplaymodefilter">D3DDISPLAYMODEFILTER</a>*</b>
 
-See <a href="https://msdn.microsoft.com/en-us/library/Bb172550(v=VS.85).aspx">D3DDISPLAYMODEFILTER</a>.
+See <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddisplaymodefilter">D3DDISPLAYMODEFILTER</a>.
 
 
 ### -param Mode [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Represents the display-mode index which is an unsigned integer between zero and the value returned by GetAdapterModeCount minus one.
 
 
 ### -param pMode [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172549(v=VS.85).aspx">D3DDISPLAYMODEEX</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddisplaymodeex">D3DDISPLAYMODEEX</a>*</b>
 
-A pointer to the available display mode of type <a href="https://msdn.microsoft.com/en-us/library/Bb172549(v=VS.85).aspx">D3DDISPLAYMODEEX</a>.
+A pointer to the available display mode of type <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddisplaymodeex">D3DDISPLAYMODEEX</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 <ul>
 <li>If the device can be used on this adapter, D3D_OK is returned.</li>
@@ -104,7 +104,7 @@ Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174301(v=VS.85).aspx">IDirect3D9Ex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nn-d3d9-idirect3d9ex">IDirect3D9Ex</a>
  
 
  

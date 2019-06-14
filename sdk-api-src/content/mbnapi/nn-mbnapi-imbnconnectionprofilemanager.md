@@ -54,7 +54,7 @@ Provides access to connection profiles and connection notifications.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMbnConnectionProfileManager</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMbnConnectionProfileManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMbnConnectionProfileManager</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnConnectionProfileManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMbnConnectionProfileManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b9c191cc-aa6f-4548-ad4a-f2b9808c5f23">CreateConnectionProfile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanager-createconnectionprofile">CreateConnectionProfile</a>
 </td>
 <td align="left" width="63%">
 Creates a new connection profile.
@@ -78,7 +78,7 @@ Creates a new connection profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/24658f8b-a34f-4821-9fac-bd5c8810725f">GetConnectionProfile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanager-getconnectionprofile">GetConnectionProfile</a>
 </td>
 <td align="left" width="63%">
 Gets a specific connection profile.
@@ -87,7 +87,7 @@ Gets a specific connection profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/96752181-1135-4dcf-9c07-056dfbf2ca5f">GetConnectionProfiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanager-getconnectionprofiles">GetConnectionProfiles</a>
 </td>
 <td align="left" width="63%">
 Gets a list of connection profiles.
@@ -108,13 +108,13 @@ This interface can be used to access the following notification interfaces.<tabl
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/08ec0bff-898f-4a54-b711-ceae80e7329d">IMbnConnectionProfileManagerEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofilemanagerevents">IMbnConnectionProfileManagerEvents</a>
 </td>
 <td><b>IID_IMbnConnectionProfileManagerEvents</b></td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/235fa0ef-4fc2-4a36-8ad7-2dceb597498f">MbnConnectionProfileEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofileevents">MbnConnectionProfileEvents</a>
 </td>
 <td><b>IID_IMbnConnectionProfileEvents</b></td>
 </tr>
@@ -123,7 +123,7 @@ This interface can be used to access the following notification interfaces.<tabl
 
 
 
-An application can obtain this interface by calling <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> with a class id of <b>CLSID_IMbnConnectionProfileManager</b>.
+An application can obtain this interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with a class id of <b>CLSID_IMbnConnectionProfileManager</b>.
 
 The following procedure describes how to register for notifications.
 

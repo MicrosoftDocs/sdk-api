@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>IMDSPDeviceControl</b> interface provides methods for controlling devices. After this interface is acquired from a specific instance of the <b>IMDSPDevice</b> interface, the control methods are used for remote control of streaming audio play, record, pause, stop, and seek operations on that device. Implementing this interface is optional. For more information, see <a href="https://msdn.microsoft.com/582c9dd5-f8ab-48df-afb3-fba931ee0dea">Mandatory and Optional Interfaces</a>.
+The <b>IMDSPDeviceControl</b> interface provides methods for controlling devices. After this interface is acquired from a specific instance of the <b>IMDSPDevice</b> interface, the control methods are used for remote control of streaming audio play, record, pause, stop, and seek operations on that device. Implementing this interface is optional. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/mandatory-and-optional-interfaces">Mandatory and Optional Interfaces</a>.
 
 The <b>IMDSPDeviceControl</b> interface methods support several modes of audio control, depending on the context in which they are used. That context is defined by the <b>Seek</b> method. The <b>GetCapabilities</b> method is used to determine what kinds of operations can be performed by the device.
 
@@ -59,7 +59,7 @@ The <b>IMDSPDeviceControl</b> interface methods support several modes of audio c
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDSPDeviceControl</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMDSPDeviceControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDSPDeviceControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMDSPDeviceControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IMDSPDeviceControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5d4e433a-fb2a-43c4-ab7f-fb7168636455">GetCapabilities</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-getcapabilities">GetCapabilities</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device capabilities to determine what operations the device can perform.
@@ -83,7 +83,7 @@ Retrieves the device capabilities to determine what operations the device can pe
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6fc51100-3052-4d26-8786-a7b1e9fe0529">GetDCStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-getdcstatus">GetDCStatus</a>
 </td>
 <td align="left" width="63%">
 Retrieves the control status of the device.
@@ -92,7 +92,7 @@ Retrieves the control status of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d97edbd0-afac-4197-b9bc-e538c2b145b2">Pause</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-pause">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses the current playback or record operation and saves the current file position.
@@ -101,7 +101,7 @@ Pauses the current playback or record operation and saves the current file posit
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/09ca1922-3b33-47a8-a851-a1d221a568b9">Play</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-play">Play</a>
 </td>
 <td align="left" width="63%">
 Begins playing at the current seek position.
@@ -110,7 +110,7 @@ Begins playing at the current seek position.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6cd99cfc-1961-4369-9ce9-2cdd0136d181">Record</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-record">Record</a>
 </td>
 <td align="left" width="63%">
 Begins recording from the device's external record input at the current seek position.
@@ -119,7 +119,7 @@ Begins recording from the device's external record input at the current seek pos
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6c7e26dc-05cd-4dfd-86c8-0b7b216b6772">Resume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-resume">Resume</a>
 </td>
 <td align="left" width="63%">
 Resumes the current playback or record operation from the file position saved during the call to <b>Pause</b>.
@@ -128,7 +128,7 @@ Resumes the current playback or record operation from the file position saved du
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/05fbaab8-e1fa-4960-9591-d22347bc04f2">Seek</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-seek">Seek</a>
 </td>
 <td align="left" width="63%">
 Seeks to a position that is used as the starting point by the <b>Play</b> or <b>Record</b> methods.
@@ -137,7 +137,7 @@ Seeks to a position that is used as the starting point by the <b>Play</b> or <b>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/31dd1325-2a8d-4a61-a4a5-f585b320e841">Stop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-stop">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops the current playback or record operation.
@@ -152,7 +152,7 @@ Stops the current playback or record operation.
 
 
 
-<a href="https://msdn.microsoft.com/bd61c5fa-047c-4d93-bae1-f3433696b95b">Interfaces for Service Providers</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-service-providers">Interfaces for Service Providers</a>
  
 
  

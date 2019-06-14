@@ -59,7 +59,7 @@ Gets an attribute whose value is two <b>UINT32</b> values packed into a <b>UINT6
 
 ### -param pAttributes [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> interface of the attribute store.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of the attribute store.
 
 
 
@@ -137,7 +137,7 @@ The attribute value is not a <b>UINT64</b>.
 
 
 
-Internally, this function calls <a href="https://msdn.microsoft.com/f3240fff-48d8-4d88-8c75-15f00bfe72ed">IMFAttributes::GetUINT64</a> to get the <b>UINT64</b> value, and <a href="https://msdn.microsoft.com/507504c2-85d3-44b6-9972-bcdd3c4227f6">Unpack2UINT32AsUINT64</a> to unpack the two 32-bit values.
+Internally, this function calls <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getuint64">IMFAttributes::GetUINT64</a> to get the <b>UINT64</b> value, and <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-unpack2uint32asuint64">Unpack2UINT32AsUINT64</a> to unpack the two 32-bit values.
 
 
 
@@ -147,11 +147,11 @@ Internally, this function calls <a href="https://msdn.microsoft.com/f3240fff-48d
 
 
 
-<a href="https://msdn.microsoft.com/44af5e03-5f0a-4564-b9d6-b8c935df35b2">Attributes and Properties</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

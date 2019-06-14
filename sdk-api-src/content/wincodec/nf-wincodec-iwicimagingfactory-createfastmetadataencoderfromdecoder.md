@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a new instance of the fast metadata encoder based on the given <a href="https://msdn.microsoft.com/91dafd5e-e4fb-4691-a3d0-ca8b6ff0aaf7">IWICBitmapDecoder</a>.
+Creates a new instance of the fast metadata encoder based on the given <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapdecoder">IWICBitmapDecoder</a>.
 
 
 ## -parameters
@@ -59,16 +59,16 @@ Creates a new instance of the fast metadata encoder based on the given <a href="
 
 ### -param pIDecoder [in]
 
-Type: <b><a href="https://msdn.microsoft.com/91dafd5e-e4fb-4691-a3d0-ca8b6ff0aaf7">IWICBitmapDecoder</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapdecoder">IWICBitmapDecoder</a>*</b>
 
 The decoder to create the fast metadata encoder from.
 
 
 ### -param ppIFastEncoder [out]
 
-Type: <b><a href="https://msdn.microsoft.com/c7b57a71-f1fe-4e30-a52e-72ab6ce021f7">IWICFastMetadataEncoder</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicfastmetadataencoder">IWICFastMetadataEncoder</a>**</b>
 
-When this method returns, contains a pointer to the new <a href="https://msdn.microsoft.com/c7b57a71-f1fe-4e30-a52e-72ab6ce021f7">IWICFastMetadataEncoder</a>.
+When this method returns, contains a pointer to the new <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicfastmetadataencoder">IWICFastMetadataEncoder</a>.
 
 
 ## -returns
@@ -86,7 +86,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The Windows provided codecs do not support fast metadata encoding at the decoder level, and only support fast metadata encoding at the frame level. To create a fast metadata encoder from a frame, see <a href="https://msdn.microsoft.com/076cfd22-f744-4152-a1c0-1e0f17ac764d">CreateFastMetadataEncoderFromFrameDecode</a>.
+The Windows provided codecs do not support fast metadata encoding at the decoder level, and only support fast metadata encoding at the frame level. To create a fast metadata encoder from a frame, see <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicimagingfactory-createfastmetadataencoderfromframedecode">CreateFastMetadataEncoderFromFrameDecode</a>.
 
 
 
@@ -100,19 +100,19 @@ The Windows provided codecs do not support fast metadata encoding at the decoder
 
 
 
-<a href="https://msdn.microsoft.com/30d155b1-a46c-46c4-9f8f-fb56dc6bf0a9">IWICImagingFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicimagingfactory">IWICImagingFactory</a>
 
 
 
-<a href="https://msdn.microsoft.com/5ffa0a69-b53d-4be3-b802-deaaa743e6bd">Metadata Query Language Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-metadataquerylanguage">Metadata Query Language Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/b1e0b936-a13a-42dd-8470-957ba1d90423">Overview of Reading and Writing Image Metadata</a>
+<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-readingwritingmetadata">Overview of Reading and Writing Image Metadata</a>
 
 
 
-<a href="https://msdn.microsoft.com/35727810-3c4c-4c11-a4a2-3ae2cf3b8142">WIC Metadata Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-about-metadata">WIC Metadata Overview</a>
  
 
  

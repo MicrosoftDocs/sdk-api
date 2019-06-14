@@ -59,7 +59,7 @@ Sets the default file system types and the image size based on the specified med
 
 ### -param value [in]
 
-Identifies the physical media type that will receive the burn image. For possible values, see the <a href="https://msdn.microsoft.com/027c5e09-6cf7-4d7c-8381-07dc92cc43c5">IMAPI_MEDIA_PHYSICAL_TYPE</a> enumeration type.
+Identifies the physical media type that will receive the burn image. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_media_physical_type">IMAPI_MEDIA_PHYSICAL_TYPE</a> enumeration type.
 
 
 ## -returns
@@ -110,7 +110,7 @@ Value: 0xC0AAB121
 
 
 
-<a href="https://msdn.microsoft.com/0256f1d2-a3fb-45b2-bd84-e2b71148e4ec">IFileSystemImage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
  
 
  

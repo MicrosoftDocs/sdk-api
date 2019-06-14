@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The <b>SCH_CRED_SECRET_PRIVKEY</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/8398e029-473e-488f-a861-c7ceae07e678">SCHANNEL_CRED</a> structure.]
+<p class="CCE_Message">[The <b>SCH_CRED_SECRET_PRIVKEY</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-_schannel_cred">SCHANNEL_CRED</a> structure.]
 
-The <b>SCH_CRED_SECRET_PRIVKEY</b> structure contains <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> information needed to authenticate a client or server.
+The <b>SCH_CRED_SECRET_PRIVKEY</b> structure contains <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> information needed to authenticate a client or server.
 
 
 ## -struct-fields

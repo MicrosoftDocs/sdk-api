@@ -60,13 +60,13 @@ Gets the visible_service_flag and logical_channel_number fields from a Digital V
 ### -param bListIndex [in]
 
 Specifies the channel list record number,
-  indexed from zero. Call the <a href="https://msdn.microsoft.com/13a439d1-c6b6-49ab-a41e-caa27e320f37">GetCountOfLists</a>method to get the number of channel list records in the logical channel descriptor.
+  indexed from zero. Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvblogicalchannel2descriptor-getcountoflists">GetCountOfLists</a>method to get the number of channel list records in the logical channel descriptor.
 
 
 ### -param bRecordIndex [in]
 
 Specifies the service record number,
-  indexed from zero. Call the <a href="https://msdn.microsoft.com/ca9cac1c-1e4a-4ea2-b44f-d037e9e8197e">GetListCountOfRecords</a>method to get the number of service records in the logical channel descriptor.
+  indexed from zero. Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvblogicalchannel2descriptor-getlistcountofrecords">GetListCountOfRecords</a>method to get the number of service records in the logical channel descriptor.
 
 
 
@@ -135,15 +135,15 @@ numeric keys (same value as decimal value of logical_channel_number).</td>
 
 
 
-<a href="https://msdn.microsoft.com/13a439d1-c6b6-49ab-a41e-caa27e320f37">GetCountOfLists</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvblogicalchannel2descriptor-getcountoflists">GetCountOfLists</a>
 
 
 
-<a href="https://msdn.microsoft.com/ca9cac1c-1e4a-4ea2-b44f-d037e9e8197e">GetListCountOfRecords</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvblogicalchannel2descriptor-getlistcountofrecords">GetListCountOfRecords</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc60db7f-ae49-48dd-bd8a-62899e5ca7a3">IDvbLogicalChannel2Descriptor</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvblogicalchannel2descriptor">IDvbLogicalChannel2Descriptor</a>
  
 
  

@@ -59,19 +59,19 @@ The <b>PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS</b> enumeration defines the possible
 
 ### -field PeerDistClientBasicInfo
 
- Indicates the information to retrieve is a <a href="https://msdn.microsoft.com/abd98a28-b208-4f31-a28b-ff6ff6677af9">PEERDIST_CLIENT_BASIC_INFO</a> structure.
+ Indicates the information to retrieve is a <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/ns-peerdist-_peerdist_client_basic_info">PEERDIST_CLIENT_BASIC_INFO</a> structure.
 
 
 ### -field MaximumPeerDistClientInfoByHandlesClass
 
-The maximum value for the enumeration that is used for error checking.  This value should not be sent to the <a href="https://msdn.microsoft.com/d3bb080c-cde7-4623-95fd-3cffb3bd93aa">PeerDistClientGetInformationByHandle</a> function.
+The maximum value for the enumeration that is used for error checking.  This value should not be sent to the <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientgetinformationbyhandle">PeerDistClientGetInformationByHandle</a> function.
 
 
 ## -remarks
 
 
 
-A value from this enumeration is passed to the<a href="https://msdn.microsoft.com/d3bb080c-cde7-4623-95fd-3cffb3bd93aa">PeerDistClientGetInformationByHandle</a> function as the <i>PeerDistClientInfoClass</i> parameter.
+A value from this enumeration is passed to the<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientgetinformationbyhandle">PeerDistClientGetInformationByHandle</a> function as the <i>PeerDistClientInfoClass</i> parameter.
 
 
 
@@ -81,7 +81,7 @@ A value from this enumeration is passed to the<a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/d3bb080c-cde7-4623-95fd-3cffb3bd93aa">PeerDistClientGetInformationByHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientgetinformationbyhandle">PeerDistClientGetInformationByHandle</a>
  
 
  

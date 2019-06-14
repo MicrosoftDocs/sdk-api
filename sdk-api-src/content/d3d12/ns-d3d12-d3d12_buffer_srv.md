@@ -74,7 +74,7 @@ The size of each element in the buffer structure (in bytes) when the buffer repr
 
 ### -field Flags
 
-A <a href="https://msdn.microsoft.com/153F82A2-077A-4D42-8FC3-C3370999AF6C">D3D12_BUFFER_SRV_FLAGS</a>-typed value that identifies view options for the buffer. Currently, the only option is to identify a raw view of the buffer. For more info about raw viewing of buffers, see <a href="https://msdn.microsoft.com/9e991ab0-9648-484a-9a2c-5391ee5abf20">Raw Views of Buffers</a>.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_buffer_srv_flags">D3D12_BUFFER_SRV_FLAGS</a>-typed value that identifies view options for the buffer. Currently, the only option is to identify a raw view of the buffer. For more info about raw viewing of buffers, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-resources-intro">Raw Views of Buffers</a>.
           
 
 
@@ -82,7 +82,7 @@ A <a href="https://msdn.microsoft.com/153F82A2-077A-4D42-8FC3-C3370999AF6C">D3D1
 
 
 
-This structure is used by <a href="https://msdn.microsoft.com/2B4B868F-3E9F-4570-B1C7-2767ED717A3B">D3D12_SHADER_RESOURCE_VIEW_DESC</a> to create a view of a buffer.
+This structure is used by <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_shader_resource_view_desc">D3D12_SHADER_RESOURCE_VIEW_DESC</a> to create a view of a buffer.
         
 
 
@@ -93,7 +93,7 @@ This structure is used by <a href="https://msdn.microsoft.com/2B4B868F-3E9F-4570
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
  
 
  

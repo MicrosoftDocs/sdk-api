@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information about a trackbar change notification. This message is sent with the <a href="https://msdn.microsoft.com/en-us/library/Bb760172(v=VS.85).aspx">TRBN_THUMBPOSCHANGING</a> notification.
+Contains information about a trackbar change notification. This message is sent with the <a href="https://docs.microsoft.com/windows/desktop/Controls/trbn-thumbposchanging">TRBN_THUMBPOSCHANGING</a> notification.
 
 
 ## -struct-fields
@@ -59,9 +59,9 @@ Contains information about a trackbar change notification. This message is sent 
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that describes the notification.
+A <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that describes the notification.
 
 
 ### -field dwPos

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>EnumerateQueues</b> method enumerates queues currently on the ACD group. This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the 
-<a href="https://msdn.microsoft.com/f285fea5-4c08-4d30-8378-0b0aeeea8226">get_Queues</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itacdgroup-get_queues">get_Queues</a> method.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param ppEnumQueue [out]
 
 Pointer to 
-<a href="https://msdn.microsoft.com/0bbe3533-d5ce-447b-82e1-3bd61c5a7ca2">IEnumQueue</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumqueue">IEnumQueue</a> interface.
 
 
 ## -returns
@@ -131,7 +131,7 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://msdn.microsoft.com/0bbe3533-d5ce-447b-82e1-3bd61c5a7ca2">IEnumQueue</a> interface returned by <b>ITACDGroup::EnumerateQueues</b>. The application must call <b>Release</b> on the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumqueue">IEnumQueue</a> interface returned by <b>ITACDGroup::EnumerateQueues</b>. The application must call <b>Release</b> on the 
 <b>IEnumQueue</b> interface to free resources associated with it.
 
 
@@ -142,15 +142,15 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 
-<a href="https://msdn.microsoft.com/0bbe3533-d5ce-447b-82e1-3bd61c5a7ca2">IEnumQueue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumqueue">IEnumQueue</a>
 
 
 
-<a href="https://msdn.microsoft.com/73e23023-5574-4c5a-bdff-cbc7da765a65">ITACDGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itacdgroup">ITACDGroup</a>
 
 
 
-<a href="https://msdn.microsoft.com/f285fea5-4c08-4d30-8378-0b0aeeea8226">get_Queues</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itacdgroup-get_queues">get_Queues</a>
  
 
  

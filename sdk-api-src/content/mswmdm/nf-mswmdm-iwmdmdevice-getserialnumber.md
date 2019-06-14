@@ -63,7 +63,7 @@ The <b>GetSerialNumber</b> method retrieves a serial number that uniquely identi
 
 ### -param pSerialNumber [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/eaa5786e-a2a1-42d7-b527-be83d944cb20">WMDMID</a> structure specifying the serial number information. The <b>WMDID</b> structure is allocated and released by the application.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/WMDM/wmdmid">WMDMID</a> structure specifying the serial number information. The <b>WMDID</b> structure is allocated and released by the application.
 
 
 ### -param abMac [in, out]
@@ -82,7 +82,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 
 
@@ -93,7 +93,7 @@ For an extensive list of possible error codes, see <a href="https://msdn.microso
 
 Not all devices support serial numbers. To determine whether the device supports serial numbers, the caller must always check the return code when calling this function. If a media device supports serial numbers, the serial number of the media device is guaranteed to be unique for that device.
 
-After calling this method, an application can verify that the serial has not been modified during transport by using the <i>abMAC</i> parameter. For example code on this, see <a href="https://msdn.microsoft.com/ca4ab93c-0a3e-4fb5-be7f-a8f4eea3c9b7">Using Secure Authenticated Channels</a>.
+After calling this method, an application can verify that the serial has not been modified during transport by using the <i>abMAC</i> parameter. For example code on this, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>.
 
 
 #### Examples
@@ -145,11 +145,11 @@ if (hr == S_OK)
 
 
 
-<a href="https://msdn.microsoft.com/44212da9-a38a-4ed5-86af-cf60b40bb54d">IWMDMDevice Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice">IWMDMDevice Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/ca4ab93c-0a3e-4fb5-be7f-a8f4eea3c9b7">Using Secure Authenticated Channels</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>
  
 
  

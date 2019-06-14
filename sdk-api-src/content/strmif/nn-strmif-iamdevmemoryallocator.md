@@ -63,7 +63,7 @@ Use this interface when applications need to control the memory of codecs with o
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMDevMemoryAllocator</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAMDevMemoryAllocator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMDevMemoryAllocator</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMDevMemoryAllocator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,7 +78,7 @@ The <b>IAMDevMemoryAllocator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/de5f7755-fd96-4016-9cab-b98721080e14">Alloc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamdevmemoryallocator-alloc">Alloc</a>
 </td>
 <td align="left" width="63%">
 Allocates a memory buffer.
@@ -87,7 +87,7 @@ Allocates a memory buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d51be809-4a97-4098-9ef3-8ed6603f26c0">CheckMemory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamdevmemoryallocator-checkmemory">CheckMemory</a>
 </td>
 <td align="left" width="63%">
 Tests whether the particular device of the allocator allocated a memory pointer.
@@ -96,7 +96,7 @@ Tests whether the particular device of the allocator allocated a memory pointer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d86d3016-bca0-4a0b-946b-f50c49266c67">Free</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamdevmemoryallocator-free">Free</a>
 </td>
 <td align="left" width="63%">
 Frees the previously allocated memory.
@@ -105,7 +105,7 @@ Frees the previously allocated memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d7ca361a-1ce6-449f-9d81-fbfe39f0f9f0">GetDevMemoryObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamdevmemoryallocator-getdevmemoryobject">GetDevMemoryObject</a>
 </td>
 <td align="left" width="63%">
 Retrieves an <b>IUnknown</b> interface pointer to a device memory control object that can be aggregated with a custom allocator.
@@ -114,7 +114,7 @@ Retrieves an <b>IUnknown</b> interface pointer to a device memory control object
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ee3070ed-98df-4f20-a91f-bb3c3492f3d8">GetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamdevmemoryallocator-getinfo">GetInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about the memory capabilities.
@@ -129,7 +129,7 @@ Retrieves information about the memory capabilities.
 
 
 
-<a href="https://msdn.microsoft.com/5b798477-9b36-4f59-b9cc-2938b5e4009f">Deprecated Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/deprecated-interfaces">Deprecated Interfaces</a>
  
 
  

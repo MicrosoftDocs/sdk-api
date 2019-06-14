@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ITfKeyTraceEventSink</b> interface is implemented by an application or text service to receive key stroke event notifications before the event is processed by the target. This advise sink is installed by calling the thread manager <a href="https://msdn.microsoft.com/90928e6e-e11e-42ad-9b3e-d974642aca36">ITfSource::AdviseSink</a> method with IID_ITfKeyTraceEventSink.
+The <b>ITfKeyTraceEventSink</b> interface is implemented by an application or text service to receive key stroke event notifications before the event is processed by the target. This advise sink is installed by calling the thread manager <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a> method with IID_ITfKeyTraceEventSink.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfKeyTraceEventSink</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfKeyTraceEventSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfKeyTraceEventSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfKeyTraceEventSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfKeyTraceEventSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/826b45cd-a1ec-406c-bf7a-685a766484e3">OnKeyTraceDown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeytraceeventsink-onkeytracedown">OnKeyTraceDown</a>
 </td>
 <td align="left" width="63%">
 Called when a key down event occurs.
@@ -78,7 +78,7 @@ Called when a key down event occurs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5b86de82-2c27-4824-91bb-39001b5a19e7">OnKeyTraceUp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeytraceeventsink-onkeytraceup">OnKeyTraceUp</a>
 </td>
 <td align="left" width="63%">
 Called when a key up event occurs.
@@ -92,7 +92,7 @@ Called when a key up event occurs.
 
 
 
-The difference between <b>ITfKeyTraceEventSink</b> and <a href="https://msdn.microsoft.com/5fa1344f-d8c4-40d1-99df-3c493673ad87">ITfKeyEventSink</a> events is that <b>ITfKeyTraceEventSink</b> events occur before any filtering or processing of the key event occurs. The <b>ITfKeyTraceEventSink</b> events also occur before the target application can process the key event.
+The difference between <b>ITfKeyTraceEventSink</b> and <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfkeyeventsink">ITfKeyEventSink</a> events is that <b>ITfKeyTraceEventSink</b> events occur before any filtering or processing of the key event occurs. The <b>ITfKeyTraceEventSink</b> events also occur before the target application can process the key event.
 
 
 #### Examples
@@ -139,17 +139,17 @@ if(SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/5fa1344f-d8c4-40d1-99df-3c493673ad87">ITfKeyEventSink
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfkeyeventsink">ITfKeyEventSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/90928e6e-e11e-42ad-9b3e-d974642aca36">ITfSource::AdviseSink
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

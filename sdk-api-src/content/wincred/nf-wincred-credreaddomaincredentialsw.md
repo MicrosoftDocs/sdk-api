@@ -79,7 +79,7 @@ The following flag is defined:
 
 CRED_CACHE_TARGET_INFORMATION
 
-Cache the TargetInfo for a subsequent read using <a href="https://msdn.microsoft.com/14dca0af-72d7-4ca8-84bb-c7040c5b5fb9">CredGetTargetInfo</a>.
+Cache the TargetInfo for a subsequent read using <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credgettargetinfoa">CredGetTargetInfo</a>.
 
 
 ### -param Count [out]
@@ -102,14 +102,14 @@ Only those credential types specified by the <i>TargetInfo</i>.CredTypes array a
 </ul>
 
 
-The returned buffer is a single allocated block. Any pointers contained within the buffer are pointers to locations within this single allocated block. The single returned buffer must be freed by calling <a href="https://msdn.microsoft.com/bc33ab1b-dd3f-4e1b-96d2-e32ceff89ada">CredFree</a>.
+The returned buffer is a single allocated block. Any pointers contained within the buffer are pointers to locations within this single allocated block. The single returned buffer must be freed by calling <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credfree">CredFree</a>.
 
 
 ## -returns
 
 
 
-The function returns <b>TRUE</b> on success and <b>FALSE</b> on failure. The <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function can be called to get a more specific status code. The following status codes can be returned:
+The function returns <b>TRUE</b> on success and <b>FALSE</b> on failure. The <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function can be called to get a more specific status code. The following status codes can be returned:
 
 <ul>
 <li>ERROR_INVALID_PARAMETER 
@@ -159,11 +159,11 @@ The following list specifies the order (from most specific to least specific) of
 <li>The credential named CRED_SESSION_WILDCARD_NAME.</li>
 <li>The credential named "*".</li>
 </ul>
-<b>CredReadDomainCredentials</b> differs from <a href="https://msdn.microsoft.com/3222de7b-5290-4e82-a382-b2db6afc78cc">CredRead</a> in that it handles the idiosyncrasies of domain (CRED_TYPE_DOMAIN_PASSWORD or CRED_TYPE_DOMAIN_CERTIFICATE) credentials. Domain credentials contain more than one target member.
+<b>CredReadDomainCredentials</b> differs from <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credreada">CredRead</a> in that it handles the idiosyncrasies of domain (CRED_TYPE_DOMAIN_PASSWORD or CRED_TYPE_DOMAIN_CERTIFICATE) credentials. Domain credentials contain more than one target member.
 
-If the value of the <b>Type</b> member of the <a href="https://msdn.microsoft.com/6361b93c-4441-4a01-bd39-b95c42962497">CREDENTIAL</a> structure specified by the <i>Credentials</i>  parameter is <b>CRED_TYPE_DOMAIN_EXTENDED</b>, a namespace must be specified in the target name. This function can return only one credential of the specified type.
+If the value of the <b>Type</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_credentiala">CREDENTIAL</a> structure specified by the <i>Credentials</i>  parameter is <b>CRED_TYPE_DOMAIN_EXTENDED</b>, a namespace must be specified in the target name. This function can return only one credential of the specified type.
 
-This function can return multiple credentials of this type, but <b>CRED_TYPE_DOMAIN_EXTENDED</b> cannot be mixed with other types in the <b>CredTypes</b> member of the <a href="https://msdn.microsoft.com/92180f2c-ef7c-4481-9b6f-19234c114afb">CREDENTIAL_TARGET_INFORMATION</a> structure specified by the <i>TargetInfo</i> parameter.
+This function can return multiple credentials of this type, but <b>CRED_TYPE_DOMAIN_EXTENDED</b> cannot be mixed with other types in the <b>CredTypes</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_credential_target_informationa">CREDENTIAL_TARGET_INFORMATION</a> structure specified by the <i>TargetInfo</i> parameter.
 
 
 

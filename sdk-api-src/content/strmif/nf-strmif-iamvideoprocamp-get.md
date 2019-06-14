@@ -63,7 +63,7 @@ The <code>Get</code> method gets the current setting of a video property.
 
 ### -param Property [in]
 
-Specifies the property to retrieve, as a value from the <a href="https://msdn.microsoft.com/113e3896-4920-41a3-9ce2-a26c34af4896">VideoProcAmpProperty</a> enumeration.
+Specifies the property to retrieve, as a value from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagvideoprocampproperty">VideoProcAmpProperty</a> enumeration.
           
 
 
@@ -75,7 +75,7 @@ Receives the value of the property.
 
 ### -param Flags [out]
 
-Receives a member of the <a href="https://msdn.microsoft.com/42876f3b-d2b9-4ddb-85c0-80f5177eef6b">VideoProcAmpFlags</a> enumeration. The returned value indicates whether the setting is controlled manually or automatically.
+Receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagvideoprocampflags">VideoProcAmpFlags</a> enumeration. The returned value indicates whether the setting is controlled manually or automatically.
           
 
 
@@ -93,19 +93,19 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/f789db78-292e-4092-a5dc-1906845fb1dd">Configure the Video Quality</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/configure-the-video-quality">Configure the Video Quality</a>
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/28c45790-2e5a-4acb-8a53-93f19c51dc6a">IAMVideoProcAmp Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamvideoprocamp">IAMVideoProcAmp Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/18826377-ddf7-4c36-8995-43310ea077dd">IAMVideoProcAmp::Set</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamvideoprocamp-set">IAMVideoProcAmp::Set</a>
  
 
  

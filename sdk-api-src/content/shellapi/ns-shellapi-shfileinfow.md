@@ -61,7 +61,7 @@ Contains information about a file object.
 
 Type: <b>HICON</b>
 
-A handle to the icon that represents the file. You are responsible for destroying this handle with <a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a> when you no longer need it.
+A handle to the icon that represents the file. You are responsible for destroying this handle with <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> when you no longer need it.
 
 
 ### -field iIcon
@@ -75,7 +75,7 @@ The index of the icon image within the system image list.
 
 Type: <b>DWORD</b>
 
-An array of values that indicates the attributes of the file object. For information about these values, see the <a href="https://msdn.microsoft.com/3864b386-7653-4661-880c-e96c08ff0dbb">IShellFolder::GetAttributesOf</a> method.
+An array of values that indicates the attributes of the file object. For information about these values, see the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">IShellFolder::GetAttributesOf</a> method.
 
 
 ### -field szDisplayName
@@ -96,7 +96,7 @@ A string that describes the type of file.
 
 
 
-This structure is used with the <a href="https://msdn.microsoft.com/d662bedf-4be0-4528-8121-e7923a42bc67">SHGetFileInfo</a> function.
+This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shgetfileinfoa">SHGetFileInfo</a> function.
 
 
 

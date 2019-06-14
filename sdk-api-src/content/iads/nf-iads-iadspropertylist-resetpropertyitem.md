@@ -66,7 +66,7 @@ Entry to be reset.
 
 
 
-This method supports the standard <b>HRESULT</b> return values, including <b>S_OK</b>. For more information and other return values, see  <a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>.
+This method supports the standard <b>HRESULT</b> return values, including <b>S_OK</b>. For more information and other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 
 
@@ -75,7 +75,7 @@ This method supports the standard <b>HRESULT</b> return values, including <b>S_O
 
 
 
-<b>ResetPropertyItem</b> only affects the contents of the cache and does not affect the properties on the actual object in the directory; that is calling  <a href="https://msdn.microsoft.com/e7ff6acd-b7c4-463d-a34f-fd793067c63a">SetInfo</a> after calling <b>ResetPropertyItem</b> does not delete the properties on the directory object.
+<b>ResetPropertyItem</b> only affects the contents of the cache and does not affect the properties on the actual object in the directory; that is calling  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">SetInfo</a> after calling <b>ResetPropertyItem</b> does not delete the properties on the directory object.
 
 
 #### Examples
@@ -127,7 +127,7 @@ Cleanup:
 ```
 
 
-The following code example shows the effect produced by a call to <b>IADsPropertyList::ResetPropertyItem</b>. For more information and the listing of the <b>GetPropertyCache</b> function, see  <a href="https://msdn.microsoft.com/70e9ce0e-ae83-43b7-8b84-99d5e1f8a8d2">IADsPropertyList</a>. For more information and the listing of the <b>GetNextEntry</b> and <b>PropertyItem</b> functions, see  <a href="https://msdn.microsoft.com/2a12ba88-363b-41e3-bd05-8a71f5317097">IADsPropertyList::Next</a> and  <a href="https://msdn.microsoft.com/6e103872-ea2e-4178-9c8a-b958ae3bcf85">IADsPropertyList::Item</a> respectively.
+The following code example shows the effect produced by a call to <b>IADsPropertyList::ResetPropertyItem</b>. For more information and the listing of the <b>GetPropertyCache</b> function, see  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertylist">IADsPropertyList</a>. For more information and the listing of the <b>GetNextEntry</b> and <b>PropertyItem</b> functions, see  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertylist-next">IADsPropertyList::Next</a> and  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertylist-item">IADsPropertyList::Item</a> respectively.
 
 
 ```cpp
@@ -218,23 +218,23 @@ void TestResetItem()
 
 
 
-<a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/70e9ce0e-ae83-43b7-8b84-99d5e1f8a8d2">IADsPropertyList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertylist">IADsPropertyList</a>
 
 
 
-<a href="https://msdn.microsoft.com/3564b61a-5950-4d00-8ea1-86fecd5c6c4e">IADsPropertyList Property Methods</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertylist-property-methods">IADsPropertyList Property Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/6e103872-ea2e-4178-9c8a-b958ae3bcf85">IADsPropertyList::Item</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertylist-item">IADsPropertyList::Item</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a12ba88-363b-41e3-bd05-8a71f5317097">IADsPropertyList::Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertylist-next">IADsPropertyList::Next</a>
  
 
  

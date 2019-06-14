@@ -54,7 +54,7 @@ Is a collection of namespaces and types used in a WSDAPI stack.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDXMLContext</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWSDXMLContext</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDXMLContext</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSDXMLContext</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWSDXMLContext</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8815e01e-1879-48af-9011-84bb622259e9">AddNamespace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nf-wsdxml-iwsdxmlcontext-addnamespace">AddNamespace</a>
 </td>
 <td align="left" width="63%">
 Creates an object that represents an XML namespace.
@@ -78,7 +78,7 @@ Creates an object that represents an XML namespace.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d480f868-46ab-4d9c-ae52-4e5ca5cb9fd9">AddNameToNamespace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nf-wsdxml-iwsdxmlcontext-addnametonamespace">AddNameToNamespace</a>
 </td>
 <td align="left" width="63%">
 Creates an object that represents a name in an XML namespace.
@@ -87,7 +87,7 @@ Creates an object that represents a name in an XML namespace.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/94ec94d1-e0d8-42cb-993f-6da9c8df1a47">SetNamespaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nf-wsdxml-iwsdxmlcontext-setnamespaces">SetNamespaces</a>
 </td>
 <td align="left" width="63%">
 Associates custom namespaces with the XML context object. 
@@ -96,7 +96,7 @@ Associates custom namespaces with the XML context object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c3bf56e1-42c6-4ecf-971f-2a6253fba0bc">SetTypes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nf-wsdxml-iwsdxmlcontext-settypes">SetTypes</a>
 </td>
 <td align="left" width="63%">
 Associates custom message types with the XML context object. 
@@ -110,7 +110,7 @@ Associates custom message types with the XML context object.
 
 
 
-This interface is used by the XML parser and generator to store and access namespaces, names, and message schema information. Applications can call <a href="https://msdn.microsoft.com/8815e01e-1879-48af-9011-84bb622259e9">AddNamespace</a> and <a href="https://msdn.microsoft.com/d480f868-46ab-4d9c-ae52-4e5ca5cb9fd9">AddNameToNamespace</a> directly to add and access names in new or existing namespaces. Additionally, <a href="https://msdn.microsoft.com/76dffca8-bb84-4384-a9e8-120a4cf2acac">generated code</a> will call <a href="https://msdn.microsoft.com/94ec94d1-e0d8-42cb-993f-6da9c8df1a47">SetNamespaces</a> and <a href="https://msdn.microsoft.com/c3bf56e1-42c6-4ecf-971f-2a6253fba0bc">SetTypes</a> to ensure service layer data is properly set up in the XML context.
+This interface is used by the XML parser and generator to store and access namespaces, names, and message schema information. Applications can call <a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nf-wsdxml-iwsdxmlcontext-addnamespace">AddNamespace</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nf-wsdxml-iwsdxmlcontext-addnametonamespace">AddNameToNamespace</a> directly to add and access names in new or existing namespaces. Additionally, <a href="https://docs.microsoft.com/windows/desktop/WsdApi/web-services-for-devices-code-generator">generated code</a> will call <a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nf-wsdxml-iwsdxmlcontext-setnamespaces">SetNamespaces</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nf-wsdxml-iwsdxmlcontext-settypes">SetTypes</a> to ensure service layer data is properly set up in the XML context.
 
 
 

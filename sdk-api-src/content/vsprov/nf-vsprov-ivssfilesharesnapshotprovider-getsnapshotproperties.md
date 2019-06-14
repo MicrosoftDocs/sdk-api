@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Gets the <a href="https://msdn.microsoft.com/070ec204-e751-4ebf-8f99-3c415f203cb2">VSS_SNAPSHOT_PROP</a> structure for a file share snapshot.  
+Gets the <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structure for a file share snapshot.  
 
 
 
@@ -68,7 +68,7 @@ Shadow copy identifier.
 
 ### -param pProp [out]
 
-The address of a caller-allocated <a href="https://msdn.microsoft.com/070ec204-e751-4ebf-8f99-3c415f203cb2">VSS_SNAPSHOT_PROP</a> structure that receives the shadow copy properties. The provider is responsible for setting the members of this structure. All members are required except  <b>m_pwszExposedName</b> and <b>m_pwszExposedPath</b>, which the provider can set to <b>NULL</b>. The provider allocates memory for all string members  that it sets in the structure. When the structure is no longer needed, the caller is responsible for freeing these strings by calling the <a href="https://msdn.microsoft.com/d5b5883b-03d5-4a83-af2e-f4d22e26ee82">VssFreeSnapshotProperties</a> function.
+The address of a caller-allocated <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structure that receives the shadow copy properties. The provider is responsible for setting the members of this structure. All members are required except  <b>m_pwszExposedName</b> and <b>m_pwszExposedPath</b>, which the provider can set to <b>NULL</b>. The provider allocates memory for all string members  that it sets in the structure. When the structure is no longer needed, the caller is responsible for freeing these strings by calling the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-vssfreesnapshotproperties">VssFreeSnapshotProperties</a> function.
 
 
 ## -returns
@@ -145,7 +145,7 @@ The specified volume was not found.
 </td>
 <td width="60%">
 Provider error. The provider logged the error in the event log. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -157,7 +157,7 @@ Provider error. The provider logged the error in the event log. For more informa
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -171,9 +171,9 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 
-The caller should set the contents of the <a href="https://msdn.microsoft.com/070ec204-e751-4ebf-8f99-3c415f203cb2">VSS_SNAPSHOT_PROP</a> structure to zero before calling the <a href="https://msdn.microsoft.com/59886344-d594-4eb8-9718-ab11a6627e8e">GetSnapshotProperties</a> method.
+The caller should set the contents of the <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structure to zero before calling the <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsssoftwaresnapshotprovider-getsnapshotproperties">GetSnapshotProperties</a> method.
 
-The provider is responsible for allocating and freeing the strings in the <a href="https://msdn.microsoft.com/070ec204-e751-4ebf-8f99-3c415f203cb2">VSS_SNAPSHOT_PROP</a> structure.
+The provider is responsible for allocating and freeing the strings in the <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structure.
 
 The VSS coordinator calls this method during the PostSnapshot phase of snapshot creation in order to retrieve the snapshot access path (UNC path for file share snapshots).  The coordinator calls this method after PreFinalCommitSnapshots and before it invokes PostSnapshot in the writers.
 
@@ -185,7 +185,7 @@ The VSS coordinator calls this method during the PostSnapshot phase of snapshot 
 
 
 
-<a href="https://msdn.microsoft.com/1af45503-2f6f-4266-a0d2-ffc74a7be16f">IVssFileShareSnapshotProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivssfilesharesnapshotprovider">IVssFileShareSnapshotProvider</a>
  
 
  

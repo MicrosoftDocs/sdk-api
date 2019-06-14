@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<a href="https://msdn.microsoft.com/78548eaf-6907-41e3-9c22-848d0d159085">SHCreateProcessAsUserW</a> is no longer implemented in Windows XP or later versions.]
+<p class="CCE_Message">[<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shcreateprocessasuserw">SHCreateProcessAsUserW</a> is no longer implemented in Windows XP or later versions.]
 
-Contains the information needed by <a href="https://msdn.microsoft.com/78548eaf-6907-41e3-9c22-848d0d159085">SHCreateProcessAsUserW</a> to create a process.
+Contains the information needed by <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shcreateprocessasuserw">SHCreateProcessAsUserW</a> to create a process.
         
             
 
@@ -120,13 +120,13 @@ Use this flag when specifying a monitor on multimonitor systems.
 
 #### SEE_MASK_NOCLOSEPROCESS
 
-The application will close the process. If the <b>lpProcessInformation</b> member is a valid <a href="https://msdn.microsoft.com/en-us/library/ms684873(v=VS.85).aspx">PROCESS_INFORMATION</a> pointer, and <b>SEE_MASK_NOCLOSEPROCESS</b> is set, the process will remain open when <a href="https://msdn.microsoft.com/78548eaf-6907-41e3-9c22-848d0d159085">SHCreateProcessAsUserW</a> returns. The <b>hProcess</b> and <b>hThread</b> members of the <b>PROCESS_INFORMATION</b> structure hold the process and thread handles, respectively. This flag is typically set to allow an application to find out when a process created with <b>SHCreateProcessAsUserW</b> terminates. In some cases, such as when execution is satisfied through a DDE conversation, no handle will be returned. The calling application is responsible for closing the handle when it is no longer needed. If this flag is not set, the process will be closed before <b>SHCreateProcessAsUserW</b> returns, even if <b>lpProcessInformation</b> is a valid pointer.
+The application will close the process. If the <b>lpProcessInformation</b> member is a valid <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_process_information">PROCESS_INFORMATION</a> pointer, and <b>SEE_MASK_NOCLOSEPROCESS</b> is set, the process will remain open when <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shcreateprocessasuserw">SHCreateProcessAsUserW</a> returns. The <b>hProcess</b> and <b>hThread</b> members of the <b>PROCESS_INFORMATION</b> structure hold the process and thread handles, respectively. This flag is typically set to allow an application to find out when a process created with <b>SHCreateProcessAsUserW</b> terminates. In some cases, such as when execution is satisfied through a DDE conversation, no handle will be returned. The calling application is responsible for closing the handle when it is no longer needed. If this flag is not set, the process will be closed before <b>SHCreateProcessAsUserW</b> returns, even if <b>lpProcessInformation</b> is a valid pointer.
 
 
 
 #### SEE_MASK_NO_CONSOLE
 
-Create a console for the new process instead of having it inherit the parent's console. It is equivalent to using a CREATE_NEW_CONSOLE flag with <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>.
+Create a console for the new process instead of having it inherit the parent's console. It is equivalent to using a CREATE_NEW_CONSOLE flag with <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>.
 
 
 
@@ -146,7 +146,7 @@ A parent window handle.
 
 Type: <b>LPCWSTR</b>
 
-A pointer to a null-terminated Unicode string that specifies the executable file on which <a href="https://msdn.microsoft.com/78548eaf-6907-41e3-9c22-848d0d159085">SHCreateProcessAsUserW</a> will perform the action specified by the <b>runas</b> verb. The <b>runas</b> verb must be supported by the file's class.
+A pointer to a null-terminated Unicode string that specifies the executable file on which <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shcreateprocessasuserw">SHCreateProcessAsUserW</a> will perform the action specified by the <b>runas</b> verb. The <b>runas</b> verb must be supported by the file's class.
 
 <div class="alert"><b>Note</b>   If the path is not included with the file name, the current directory is assumed.</div>
 <div> </div>
@@ -169,25 +169,25 @@ A null-terminated Unicode string that contains the current directory.
 
 Type: <b>HANDLE</b>
 
-An <a href="https://msdn.microsoft.com/350159c9-2399-427a-ba44-c897a9664299">Access token</a> that can be used to represent a particular user. It is needed when there are multiple users for those folders that are treated as belonging to a single user. The calling application must have appropriate security privileges for the particular user, including TOKEN_QUERY and TOKEN_IMPERSONATE, and the user's registry hive must be currently mounted. For further discussion of access control issues, see <a href="https://msdn.microsoft.com/d9ce4ec5-5c09-4b33-93a1-39638a925986">Access Control</a>.
+An <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-tokens">Access token</a> that can be used to represent a particular user. It is needed when there are multiple users for those folders that are treated as belonging to a single user. The calling application must have appropriate security privileges for the particular user, including TOKEN_QUERY and TOKEN_IMPERSONATE, and the user's registry hive must be currently mounted. For further discussion of access control issues, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a>.
 
 
 ### -field lpProcessAttributes
 
 Type: <b>LPSECURITY_ATTRIBUTES</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> structure with the security descriptor for the new process. It also specifies whether a child process can be inherited. If this parameter is set to <b>NULL</b>, the process will have a default security descriptor and the handle cannot be inherited.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure with the security descriptor for the new process. It also specifies whether a child process can be inherited. If this parameter is set to <b>NULL</b>, the process will have a default security descriptor and the handle cannot be inherited.
 
-<b>Security Warning:  </b>Using a security descriptor incorrectly can compromise the security of your application. For more information, see <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a>.
+<b>Security Warning:  </b>Using a security descriptor incorrectly can compromise the security of your application. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>.
 
 
 ### -field lpThreadAttributes
 
 Type: <b>LPSECURITY_ATTRIBUTES</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> structure with the security descriptor for the new thread. It also specifies whether a child process can be inherited. If this parameter is set to <b>NULL</b>, the process will have a default security descriptor and the handle cannot be inherited.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure with the security descriptor for the new thread. It also specifies whether a child process can be inherited. If this parameter is set to <b>NULL</b>, the process will have a default security descriptor and the handle cannot be inherited.
 
-<b>Security Warning:  </b>Using a security descriptor incorrectly can compromise the security of your application. For more information, see <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a>.
+<b>Security Warning:  </b>Using a security descriptor incorrectly can compromise the security of your application. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>.
 
 
 ### -field bInheritHandles
@@ -201,21 +201,21 @@ An indicator for whether the new process inherits handles from the calling proce
 
 Type: <b>DWORD</b>
 
-Flags that control the creation of the process and the priority class. For a list of the available flags, see <a href="https://msdn.microsoft.com/6b3f4dd9-500b-420e-804a-401a9e188be8">CreateProcessAsUser</a>.
+Flags that control the creation of the process and the priority class. For a list of the available flags, see <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a>.
 
 
 ### -field lpStartupInfo
 
 Type: <b>LPSTARTUPINFOW</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3">STARTUPINFO</a> structure that specifies how the main window for the new process should appear.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_startupinfoa">STARTUPINFO</a> structure that specifies how the main window for the new process should appear.
 
 
 ### -field lpProcessInformation
 
 Type: <b>LPPROCESS_INFORMATION</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms684873(v=VS.85).aspx">PROCESS_INFORMATION</a> structure that receives information about the new process. Set this member to a valid structure pointer, and set the SEE_MASK_NOCLOSEPROCESS flag in the <b>fMask</b> member, and the process will remain open when the function returns. The <b>PROCESS_INFORMATION</b> structure's <b>hProcess</b> and <b>hThread</b> members will then hold the process and thread handles, respectively. Set this member to <b>NULL</b>, and the process will be closed before the function returns.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_process_information">PROCESS_INFORMATION</a> structure that receives information about the new process. Set this member to a valid structure pointer, and set the SEE_MASK_NOCLOSEPROCESS flag in the <b>fMask</b> member, and the process will remain open when the function returns. The <b>PROCESS_INFORMATION</b> structure's <b>hProcess</b> and <b>hThread</b> members will then hold the process and thread handles, respectively. Set this member to <b>NULL</b>, and the process will be closed before the function returns.
 
 
 ## -remarks
@@ -242,7 +242,7 @@ In this case, the application receives three parameters: <i>An, example:, and "q
 
 
 
-<a href="https://msdn.microsoft.com/50e0dac3-b5dc-4d9f-8fd7-3a53a428166b">SHELLEXECUTEINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shellexecuteinfoa">SHELLEXECUTEINFO</a>
  
 
  

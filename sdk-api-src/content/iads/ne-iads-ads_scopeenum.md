@@ -83,7 +83,7 @@ Because VBScript cannot read data from a type library, VBScript applications do 
 
 #### Examples
 
-Search scope is one of the search preferences clients can specify. The following code example shows how to accomplish this using the  <a href="https://msdn.microsoft.com/5fc46271-a1be-4a9d-a340-ed801211736a">ADS_SEARCHPREF_INFO</a> structure, together with the elements defined in the  <a href="https://msdn.microsoft.com/f3ab3d53-e53c-459e-929f-f2a3fc95c3ff">ADS_SEARCHPREF_ENUM</a> and this enumeration.
+Search scope is one of the search preferences clients can specify. The following code example shows how to accomplish this using the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_searchpref_info">ADS_SEARCHPREF_INFO</a> structure, together with the elements defined in the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0025">ADS_SEARCHPREF_ENUM</a> and this enumeration.
 
 
 ```cpp
@@ -102,15 +102,15 @@ prefInfo.vValue.Integer = ADS_SCOPE_SUBTREE;
 
 
 
-<a href="https://msdn.microsoft.com/f0ad5ce5-742d-40dc-ac5a-31d779e40bfd">ADSI Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/f3ab3d53-e53c-459e-929f-f2a3fc95c3ff">ADS_SEARCHPREF_ENUM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0025">ADS_SEARCHPREF_ENUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/5fc46271-a1be-4a9d-a340-ed801211736a">ADS_SEARCHPREF_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_searchpref_info">ADS_SEARCHPREF_INFO</a>
  
 
  

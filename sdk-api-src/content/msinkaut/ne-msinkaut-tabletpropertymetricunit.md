@@ -105,15 +105,15 @@ The property value is in grams (force, or mass, units).
 
 
 
-<a href="https://msdn.microsoft.com/21b13777-d924-45d6-bdcc-284c9b7d9627">GetPacketDescriptionPropertyMetrics Method [IInkStrokeDisp Interface]</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpacketdescriptionpropertymetrics">GetPacketDescriptionPropertyMetrics Method [IInkStrokeDisp Interface]</a>
 
 
 
-<a href="https://msdn.microsoft.com/9656bb56-01aa-4e9b-a3ad-4fbf117cdfeb">GetPropertyMetrics Method [IInkTablet Interface]</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinktablet-getpropertymetrics">GetPropertyMetrics Method [IInkTablet Interface]</a>
 
 
 
-<a href="https://msdn.microsoft.com/9a945740-b191-41f5-8b3d-49b7e2d1e463">IInkTablet Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet Interface</a>
  
 
  

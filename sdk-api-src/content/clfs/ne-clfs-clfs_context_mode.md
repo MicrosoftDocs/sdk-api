@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies a context mode type that indicates the direction and access methods  that a client uses to scan a log.  The context mode is set by using <a href="https://msdn.microsoft.com/1c56c47b-d898-4c70-ba70-8978057c66b9">ReadLogRecord</a>, and is embedded in the  read context that these two functions return.
+Specifies a context mode type that indicates the direction and access methods  that a client uses to scan a log.  The context mode is set by using <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-readlogrecord">ReadLogRecord</a>, and is embedded in the  read context that these two functions return.
 
 
 ## -enum-fields
@@ -82,7 +82,7 @@ Move the cursor to the next client log record from the current read context.
 
 
 
-<a href="https://msdn.microsoft.com/1c56c47b-d898-4c70-ba70-8978057c66b9">ReadLogRecord</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-readlogrecord">ReadLogRecord</a>
  
 
  

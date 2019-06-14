@@ -63,7 +63,7 @@ Deprecated. Gets a read-only structure containing the protected elements owned b
 
 Type: <b>LPCBASEBROWSERDATA*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/d56e42e8-a556-4470-82d9-466edd84214f">BASEBROWSERDATA</a> structure that receives the read-only state of the base browser.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/ns-shdeprecated-basebrowserdatalh">BASEBROWSERDATA</a> structure that receives the read-only state of the base browser.
 
 
 ## -returns

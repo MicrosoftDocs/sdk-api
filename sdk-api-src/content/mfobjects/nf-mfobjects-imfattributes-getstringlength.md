@@ -68,7 +68,7 @@ GUID that identifies which value to retrieve. The attribute type must be <b>MF_A
 
 ### -param pcchLength [out]
 
-If the key is found and the value is a string type, this parameter receives the number of characters in the string, not including the terminating <b>NULL</b> character. To get the string value, call <a href="https://msdn.microsoft.com/756d8fba-d372-46f9-8035-f657d7ff133f">IMFAttributes::GetString</a>.
+If the key is found and the value is a string type, this parameter receives the number of characters in the string, not including the terminating <b>NULL</b> character. To get the string value, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getstring">IMFAttributes::GetString</a>.
 
 
 ## -returns
@@ -139,15 +139,15 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 
-<a href="https://msdn.microsoft.com/44af5e03-5f0a-4564-b9d6-b8c935df35b2">Attributes and Properties</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
 
 
 
-<a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/1844fbe2-0a07-4c0c-9ffe-4c59fc01f793">MF_ATTRIBUTE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-_mf_attribute_type">MF_ATTRIBUTE_TYPE</a>
  
 
  

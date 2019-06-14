@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>LINEDIALPARAMS</b> structure specifies a collection of dialing-related fields. Call the 
-<a href="https://msdn.microsoft.com/c8088116-2bfc-420f-a83a-d00c7947b6e7">lineSetCallParams</a> function or the 
-<a href="https://msdn.microsoft.com/cc5d5347-ebb7-437a-a9a1-311b6c2a78ab">TSPI_lineSetCallParams</a> function to set parameters for a call using the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetcallparams">lineSetCallParams</a> function or the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetcallparams">TSPI_lineSetCallParams</a> function to set parameters for a call using the 
 <b>LINEDIALPARAMS</b> structure.
 
 
@@ -88,12 +88,12 @@ Maximum amount of time to wait for a dial tone when a 'W' is used in the dialabl
 This structure may not be extended.
 
 If zero is specified for a member, the default value is used. If a nonzero value is specified for a member that is outside the range specified by the <b>MinDialParams</b> and <b>MaxDialParams</b> members in the 
-<a href="https://msdn.microsoft.com/83e38453-bb93-4cc5-923f-d0cd2898350a">LINEDEVCAPS</a> structure, the nearest value within the valid range is used instead.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a> structure, the nearest value within the valid range is used instead.
 
 The 
-<a href="https://msdn.microsoft.com/a7dc9cdc-3cc3-4b6a-98c8-e141402c781e">lineMakeCall</a> function allows an application to adjust the dialing parameters to be used for the call. The 
-<a href="https://msdn.microsoft.com/c8088116-2bfc-420f-a83a-d00c7947b6e7">lineSetCallParams</a> function can be used to adjust the dialing parameters of an existing call. The 
-<a href="https://msdn.microsoft.com/b077546b-cc95-44ce-99ee-f0007fd916b2">LINECALLINFO</a> structure lists the call's current dialing parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linemakecall">lineMakeCall</a> function allows an application to adjust the dialing parameters to be used for the call. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetcallparams">lineSetCallParams</a> function can be used to adjust the dialing parameters of an existing call. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a> structure lists the call's current dialing parameters.
 
 
 
@@ -103,23 +103,23 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/b077546b-cc95-44ce-99ee-f0007fd916b2">LINECALLINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/83e38453-bb93-4cc5-923f-d0cd2898350a">LINEDEVCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/cc5d5347-ebb7-437a-a9a1-311b6c2a78ab">TSPI_lineSetCallParams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetcallparams">TSPI_lineSetCallParams</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7dc9cdc-3cc3-4b6a-98c8-e141402c781e">lineMakeCall</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linemakecall">lineMakeCall</a>
 
 
 
-<a href="https://msdn.microsoft.com/c8088116-2bfc-420f-a83a-d00c7947b6e7">lineSetCallParams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetcallparams">lineSetCallParams</a>
  
 
  

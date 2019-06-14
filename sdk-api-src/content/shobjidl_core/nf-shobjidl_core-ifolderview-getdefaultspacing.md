@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets a pointer to a <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure containing the default width (x) and height (y) measurements of an item, including the surrounding white space.
+Gets a pointer to a <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure containing the default width (x) and height (y) measurements of an item, including the surrounding white space.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets a pointer to a <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-
 
 ### -param ppt [out]
 
-Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>*</b>
 
 Pointer to an existing structure to be filled with the default sizing dimensions of the items in the folder's view.
 
@@ -80,11 +80,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/3bc2615e-f07c-4959-b89e-bbbd2bf45a94">IFolderView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview">IFolderView</a>
 
 
 
-<a href="https://msdn.microsoft.com/6ea81c40-773f-4f53-97c1-99619e46be48">IFolderView::GetSpacing</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-getspacing">IFolderView::GetSpacing</a>
  
 
  

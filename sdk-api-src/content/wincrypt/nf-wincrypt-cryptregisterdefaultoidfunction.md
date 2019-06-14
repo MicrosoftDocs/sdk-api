@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>CryptRegisterDefaultOIDFunction</b> registers a DLL containing the default function to be called for the specified encoding type and function name. Unlike 
-<a href="https://msdn.microsoft.com/b625597d-28fd-4a40-afbe-a09201d36512">CryptRegisterOIDFunction</a>, the function name to be exported by the DLL cannot be overridden.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptregisteroidfunction">CryptRegisterOIDFunction</a>, the function name to be exported by the DLL cannot be overridden.
 
 
 ## -parameters
@@ -78,7 +78,7 @@ Index location for the insertion of the DLL in the list of DLLs. If <i>dwIndex</
 
 ### -param pwszDll [in]
 
-Optional environment-variable string to be expanded using <a href="https://msdn.microsoft.com/b563e8ed-311d-4971-94f3-9c9fde4a2f30">ExpandEnvironmentStrings</a> function before loading the DLL.
+Optional environment-variable string to be expanded using <a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">ExpandEnvironmentStrings</a> function before loading the DLL.
 
 
 ## -returns
@@ -97,7 +97,7 @@ If the function fails, the return value is zero (<b>FALSE</b>).
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a>
  
 
  

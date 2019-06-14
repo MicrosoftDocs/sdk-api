@@ -91,7 +91,7 @@ TBD
 
 #### - Format [in]
 
-A <a href="https://msdn.microsoft.com/f6f1cff3-4bff-4a07-bbc6-5255030b4164">DNS_NAME_FORMAT</a> value that specifies the format of the name to be examined.
+A <a href="https://docs.microsoft.com/windows/desktop/api/windns/ne-windns-_dns_name_format">DNS_NAME_FORMAT</a> value that specifies the format of the name to be examined.
 
 
 #### - pszName [in]
@@ -161,19 +161,19 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/f6f1cff3-4bff-4a07-bbc6-5255030b4164">DNS_NAME_FORMAT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ne-windns-_dns_name_format">DNS_NAME_FORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a>
 
 
 
-<a href="https://msdn.microsoft.com/4a1512b3-8273-4632-9426-daa36456bce3">DnsNameCompare</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsnamecompare">DnsNameCompare</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d810b76-cea1-4904-9b5a-c2566b332c2c">DnsQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a>
  
 
  

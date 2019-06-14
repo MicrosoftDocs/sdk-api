@@ -76,19 +76,19 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/54DB1BFF-0657-4027-8C8C-89CE998253F4">IUIEventLogger</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuieventlogger">IUIEventLogger</a>
 
 
 
-<a href="https://msdn.microsoft.com/EA278262-8CA7-42A3-9F66-0C7B4D3AA525">UI_EVENTLOCATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_eventlocation">UI_EVENTLOCATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/438ACF91-3C83-4E2D-B919-4CCAE65BCD3E">UI_EVENTPARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ns-uiribbon-_ui_eventparams">UI_EVENTPARAMS</a>
 
 
 
-<a href="https://msdn.microsoft.com/424C833C-E6D6-4532-8CF1-A294B429CC21">UI_EVENTTYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_eventtype">UI_EVENTTYPE</a>
  
 
  

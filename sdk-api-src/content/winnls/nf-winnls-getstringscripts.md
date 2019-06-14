@@ -116,7 +116,7 @@ Returns the number of characters retrieved in the output buffer, including a ter
 
 If the function succeeds and the value of <i>cchScripts</i> is 0, the function returns the required size, in characters including a terminating null character, for the script buffer. The script count is as described above.
 
-This function returns 0 if it does not succeed. To get extended error information, the application can call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>, which can return one of the following error codes:
+This function returns 0 if it does not succeed. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <ul>
 <li>ERROR_BADDB. The function could not access the data. This situation should not normally occur, and typically indicates a bad installation, a disk problem, or the like.</li>
@@ -131,7 +131,7 @@ This function returns 0 if it does not succeed. To get extended error informatio
 
 
 
-This function is useful as part of a strategy to mitigate security issues related to <a href="https://msdn.microsoft.com/e0ca356e-f8c1-4845-ae1e-ce2ae8987515">internationalized domain names (IDNs)</a>.
+This function is useful as part of a strategy to mitigate security issues related to <a href="https://docs.microsoft.com/windows/desktop/Intl/handling-internationalized-domain-names--idns">internationalized domain names (IDNs)</a>.
 
 The script determination is based on the script values published by the Unicode Consortium in <a href="http://www.unicode.org/Public/4.1.0/ucd/Scripts.txt">http://www.unicode.org/Public/4.1.0/ucd/Scripts.txt</a>, except that the unassigned characters have the value "Zzzz" (UNASSIGNED) instead of "Zyyy" (COMMON).
 
@@ -211,23 +211,23 @@ Here are some examples of the behavior of this function:
 
 
 
-<a href="https://msdn.microsoft.com/3ad23613-8d0c-432a-b352-637c373a0980">DownlevelGetStringScripts</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/downlevelgetstringscripts">DownlevelGetStringScripts</a>
 
 
 
-<a href="https://msdn.microsoft.com/e0ca356e-f8c1-4845-ae1e-ce2ae8987515">Handling Internationalized Domain Names (IDNs)</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/handling-internationalized-domain-names--idns">Handling Internationalized Domain Names (IDNs)</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a548074-0782-45e1-8051-80c3b9d81885">National Language Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c72c4de-83be-4b7e-9ed8-b0236c1df8a4">National Language Support Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/4780aa9f-6df0-4901-8de4-3f9118320e1b">VerifyScripts</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-verifyscripts">VerifyScripts</a>
  
 
  

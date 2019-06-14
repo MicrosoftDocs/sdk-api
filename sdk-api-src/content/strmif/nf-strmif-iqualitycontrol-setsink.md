@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <code>SetSink</code> method sets the <a href="https://msdn.microsoft.com/2672e563-75d7-4a8a-b914-7b0712e856e8">IQualityControl</a> object that will receive quality messages.
+The <code>SetSink</code> method sets the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iqualitycontrol">IQualityControl</a> object that will receive quality messages.
 
 
 
@@ -63,7 +63,7 @@ The <code>SetSink</code> method sets the <a href="https://msdn.microsoft.com/267
 
 ### -param piqc
 
-Pointer to the <a href="https://msdn.microsoft.com/2672e563-75d7-4a8a-b914-7b0712e856e8">IQualityControl</a> object to which the notifications should be sent.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iqualitycontrol">IQualityControl</a> object to which the notifications should be sent.
 
 
 ## -returns
@@ -154,11 +154,11 @@ The reference to the object specified in <i>piqc</i> is guaranteed to be valid u
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/2672e563-75d7-4a8a-b914-7b0712e856e8">IQualityControl Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iqualitycontrol">IQualityControl Interface</a>
  
 
  

@@ -64,7 +64,7 @@ Wakes all threads that are waiting for the value of an address to change.
 ### -param Address [in]
 
 The address to signal. If any threads have previously called 
-      <a href="https://msdn.microsoft.com/d40de436-f71e-47f6-a8c3-549c2699eb4c">WaitOnAddress</a> for this address, the system wakes all 
+      <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitonaddress">WaitOnAddress</a> for this address, the system wakes all 
       of the waiting threads.
 
 
@@ -93,7 +93,7 @@ Only threads within the same process can be woken.
 
 
 
-<a href="https://msdn.microsoft.com/d40de436-f71e-47f6-a8c3-549c2699eb4c">WaitOnAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitonaddress">WaitOnAddress</a>
  
 
  

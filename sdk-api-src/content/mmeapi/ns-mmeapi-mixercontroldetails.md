@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MIXERCONTROLDETAILS</b> structure refers to control-detail structures, retrieving or setting state information of an audio mixer control. All members of this structure must be initialized before calling the <a href="https://msdn.microsoft.com/b1fdd9e7-42cf-41fb-99f7-b7da990e5881">mixerGetControlDetails</a> and <a href="https://msdn.microsoft.com/c4d500f3-a1c2-432c-9096-90f229bc7b7a">mixerSetControlDetails</a> functions.
+The <b>MIXERCONTROLDETAILS</b> structure refers to control-detail structures, retrieving or setting state information of an audio mixer control. All members of this structure must be initialized before calling the <a href="https://docs.microsoft.com/previous-versions//dd757299(v=vs.85)">mixerGetControlDetails</a> and <a href="https://docs.microsoft.com/previous-versions//dd757309(v=vs.85)">mixerSetControlDetails</a> functions.
 
 
 
@@ -62,7 +62,7 @@ The <b>MIXERCONTROLDETAILS</b> structure refers to control-detail structures, re
 
 ### -field cbStruct
 
-Size, in bytes, of the <b>MIXERCONTROLDETAILS</b> structure. The size must be large enough to contain the base <b>MIXERCONTROLDETAILS</b> structure. When <a href="https://msdn.microsoft.com/b1fdd9e7-42cf-41fb-99f7-b7da990e5881">mixerGetControlDetails</a> returns, this member contains the actual size of the information returned. The returned information will not exceed the requested size, nor will it be smaller than the base <b>MIXERCONTROLDETAILS</b> structure.
+Size, in bytes, of the <b>MIXERCONTROLDETAILS</b> structure. The size must be large enough to contain the base <b>MIXERCONTROLDETAILS</b> structure. When <a href="https://docs.microsoft.com/previous-versions//dd757299(v=vs.85)">mixerGetControlDetails</a> returns, this member contains the actual size of the information returned. The returned information will not exceed the requested size, nor will it be smaller than the base <b>MIXERCONTROLDETAILS</b> structure.
 
 
 ### -field dwControlID
@@ -125,7 +125,7 @@ This member cannot be 0 for noncustom control types.
 
 ### -field DUMMYUNIONNAME.hwndOwner
 
-Handle to the window that owns a custom dialog box for a mixer control. This member is used when the MIXER_SETCONTROLDETAILSF_CUSTOM flag is specified in the <a href="https://msdn.microsoft.com/c4d500f3-a1c2-432c-9096-90f229bc7b7a">mixerSetControlDetails</a> function.
+Handle to the window that owns a custom dialog box for a mixer control. This member is used when the MIXER_SETCONTROLDETAILSF_CUSTOM flag is specified in the <a href="https://docs.microsoft.com/previous-versions//dd757309(v=vs.85)">mixerSetControlDetails</a> function.
 
 
 ### -field DUMMYUNIONNAME.cMultipleItems
@@ -202,7 +202,7 @@ Boolean value for an audio line control.
 </dl>
 </td>
 <td width="60%">
-List text buffer for an audio line control. For information about the appropriate details structure for a specific control, see <a href="https://msdn.microsoft.com/7d109d0e-360f-4a09-8498-15d37d6766b3">Control Types</a>.
+List text buffer for an audio line control. For information about the appropriate details structure for a specific control, see <a href="https://docs.microsoft.com/windows/desktop/Multimedia/control-types">Control Types</a>.
 
 </td>
 </tr>
@@ -251,23 +251,23 @@ If the control is a MIXERCONTROL_CONTROLTYPE_CUSTOM control, this member must po
 
 
 
-<a href="https://msdn.microsoft.com/82101519-6906-45fd-908f-137e51a56fb8">Audio Mixer Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-mixer-structures">Audio Mixer Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/7489fcac-fd4c-46cf-8a1a-e4de576974f0">Audio Mixers</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-mixers">Audio Mixers</a>
 
 
 
-<a href="https://msdn.microsoft.com/2ddbcf82-9204-43c6-8235-8bce6a55bb36">MIXERCONTROL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-tagmixercontrola">MIXERCONTROL</a>
 
 
 
-<a href="https://msdn.microsoft.com/b1fdd9e7-42cf-41fb-99f7-b7da990e5881">mixerGetControlDetails</a>
+<a href="https://docs.microsoft.com/previous-versions//dd757299(v=vs.85)">mixerGetControlDetails</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4d500f3-a1c2-432c-9096-90f229bc7b7a">mixerSetControlDetails</a>
+<a href="https://docs.microsoft.com/previous-versions//dd757309(v=vs.85)">mixerSetControlDetails</a>
  
 
  

@@ -82,7 +82,7 @@ Receives one of the following values.
 </table>
  
 
-See <a href="https://msdn.microsoft.com/fd4db1f7-7c32-4fcc-b95a-269a550311ef">ATSCComponentTypeFlags Enumeration</a>.
+See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/atsccomponenttypeflags">ATSCComponentTypeFlags Enumeration</a>.
 
 
 ## -returns
@@ -99,7 +99,7 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="https://msdn.microsoft.com/c7e05f63-b2cf-4a99-8e0f-bc7ec00463cf">IATSCComponentType Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iatsccomponenttype">IATSCComponentType Interface</a>
  
 
  

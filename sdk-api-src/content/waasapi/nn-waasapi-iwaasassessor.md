@@ -54,7 +54,7 @@ Gets the OS update assessment by comparing the latest build from Microsoft again
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWaaSAssessor</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWaaSAssessor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWaaSAssessor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWaaSAssessor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWaaSAssessor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3123362E-6A1C-49BD-BE9C-0B8506EA944B">GetOSUpdateAssessment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/waasapi/nf-waasapi-iwaasassessor-getosupdateassessment">GetOSUpdateAssessment</a>
 </td>
 <td align="left" width="63%">
  Gets the OS update assessment by comparing the latest release OS version from Microsoft to the OS build running on the device.
@@ -83,7 +83,7 @@ The <b>IWaaSAssessor</b> interface has these methods.
 
 
 
-The <b>IWaaSAssessor</b> interface retrieves the <a href="https://msdn.microsoft.com/D76D0587-E31E-48D2-9DF6-33444E4CA325">OSUpdateAssessment</a>. This assessment may be cached; if there is no cached entry, the assessment will be created on demand through the WaaS Assessment Client. The client creates the assessment by contacting the WaaS Assessment Service for update information applicable to the device. The client then performs the assessment using the retrieved information. 
+The <b>IWaaSAssessor</b> interface retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/waasapitypes/ns-waasapitypes-tagosupdateassessment">OSUpdateAssessment</a>. This assessment may be cached; if there is no cached entry, the assessment will be created on demand through the WaaS Assessment Client. The client creates the assessment by contacting the WaaS Assessment Service for update information applicable to the device. The client then performs the assessment using the retrieved information. 
 
 
 

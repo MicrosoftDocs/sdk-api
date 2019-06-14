@@ -92,7 +92,7 @@ If this value is <b>TRUE</b>, processes created by this process will inherit the
 ### -param dwDesiredAccess [in]
 
 The access to the desktop. For a list of access rights, see 
-<a href="https://msdn.microsoft.com/6512d128-3b0c-4ba7-8709-2fd225389a40">Desktop Security and Access Rights</a>.
+<a href="https://docs.microsoft.com/windows/desktop/winstation/desktop-security-and-access-rights">Desktop Security and Access Rights</a>.
 
 
 ## -returns
@@ -100,10 +100,10 @@ The access to the desktop. For a list of access rights, see
 
 
 If the function succeeds, the return value is a handle to the desktop that receives user input. When you are finished using the handle, call the 
-<a href="https://msdn.microsoft.com/861e57b2-061c-4598-ad38-6aef7b79ca54">CloseDesktop</a> function to close it.
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-closedesktop">CloseDesktop</a> function to close it.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -113,12 +113,12 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 The calling process must have an associated window station, either assigned by the system when the process is created, or set by 
-the <a href="https://msdn.microsoft.com/d64814a7-945c-4e73-a977-5f696d60610e">SetProcessWindowStation</a> function. The window station associated with the calling process must be capable of receiving input.
+the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setprocesswindowstation">SetProcessWindowStation</a> function. The window station associated with the calling process must be capable of receiving input.
 
 If the calling process is running in a disconnected session, the function returns a handle to the desktop that  becomes active when the user restores the connection.
 
 An application can use the 
-<a href="https://msdn.microsoft.com/401be515-ada9-42be-b8e8-4e86f513bb8d">SwitchDesktop</a> function to change the input desktop.
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-switchdesktop">SwitchDesktop</a> function to change the input desktop.
 
 If the <i>dwDesiredAccess</i> parameter specifies the <b>READ_CONTROL</b>, <b>WRITE_DAC</b>, or <b>WRITE_OWNER</b> standard access rights, you must also request the <b>DESKTOP_READOBJECTS</b> and <b>DESKTOP_WRITEOBJECTS</b> access rights.
 
@@ -130,23 +130,23 @@ If the <i>dwDesiredAccess</i> parameter specifies the <b>READ_CONTROL</b>, <b>WR
 
 
 
-<a href="https://msdn.microsoft.com/861e57b2-061c-4598-ad38-6aef7b79ca54">CloseDesktop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-closedesktop">CloseDesktop</a>
 
 
 
-<a href="https://msdn.microsoft.com/c56cd63b-c260-40d0-9a62-1dee1eb18679">Desktops</a>
+<a href="https://docs.microsoft.com/windows/desktop/winstation/desktops">Desktops</a>
 
 
 
-<a href="https://msdn.microsoft.com/d64814a7-945c-4e73-a977-5f696d60610e">SetProcessWindowStation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setprocesswindowstation">SetProcessWindowStation</a>
 
 
 
-<a href="https://msdn.microsoft.com/401be515-ada9-42be-b8e8-4e86f513bb8d">SwitchDesktop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-switchdesktop">SwitchDesktop</a>
 
 
 
-<a href="https://msdn.microsoft.com/6214c28f-1035-446c-8c79-5d1dd638af2a">Window Station and Desktop Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/winstation/window-station-and-desktop-functions">Window Station and Desktop Functions</a>
  
 
  

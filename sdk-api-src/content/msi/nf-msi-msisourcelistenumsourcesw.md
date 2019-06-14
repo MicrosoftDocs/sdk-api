@@ -63,7 +63,7 @@ The <b>MsiSourceListEnumSources</b> function enumerates the sources in the sourc
 
 ### -param szProductCodeOrPatchCode [in]
 
-The <a href="https://msdn.microsoft.com/33cedd37-0343-471c-ad4b-0db5f98d5894">ProductCode</a> or patch GUID of the product or patch. Use a null-terminated string. If the string is longer than 39 characters, the function fails and returns ERROR_INVALID_PARAMETER. This parameter cannot be <b>NULL</b>.
+The <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> or patch GUID of the product or patch. Use a null-terminated string. If the string is longer than 39 characters, the function fails and returns ERROR_INVALID_PARAMETER. This parameter cannot be <b>NULL</b>.
 
 
 ### -param szUserSid [in, optional]
@@ -369,15 +369,15 @@ An administrator can enumerate per-user unmanaged and managed installations for 
 
 
 
-<a href="https://msdn.microsoft.com/20e7be9f-d9dc-4f43-86d7-b1a881126925">Installation Context</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/installation-context">Installation Context</a>
 
 
 
-<a href="https://msdn.microsoft.com/850b598a-338e-4f84-8336-01e962256a08">Not Supported in Windows Installer 2.0 and earlier</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
 
 
 
-<a href="https://msdn.microsoft.com/33cedd37-0343-471c-ad4b-0db5f98d5894">ProductCode</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a>
  
 
  

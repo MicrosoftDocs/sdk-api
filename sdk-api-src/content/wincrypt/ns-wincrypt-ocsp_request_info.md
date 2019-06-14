@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>OCSP_REQUEST_INFO</b> structure contains information for an  <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">online certificate status protocol</a> (OCSP) request as specified by <a href="http://go.microsoft.com/fwlink/p/?linkid=91156">RFC 2560</a>. The RFC specifies that a single request can contain a sequence of certificates for which statuses are required. The  <b>rgRequestEntry</b> member of this structure contains an <a href="https://msdn.microsoft.com/61d5cbc9-22de-4768-b610-138bcd3c9cce">OCSP_REQUEST_ENTRY</a> structure for each certificate in a sequence.
+The <b>OCSP_REQUEST_INFO</b> structure contains information for an  <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) request as specified by <a href="http://go.microsoft.com/fwlink/p/?linkid=91156">RFC 2560</a>. The RFC specifies that a single request can contain a sequence of certificates for which statuses are required. The  <b>rgRequestEntry</b> member of this structure contains an <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ocsp_request_entry">OCSP_REQUEST_ENTRY</a> structure for each certificate in a sequence.
 
 
 ## -struct-fields
@@ -68,7 +68,7 @@ A value that indicates the protocol version of the OCSP request.
 
 ### -field pRequestorName
 
-A pointer to a <a href="https://msdn.microsoft.com/1353ef56-cae7-43f2-a31f-2bb3b502450e">CERT_ALT_NAME_ENTRY</a> structure that contains the name bound to the certificate <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> of the requester.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_alt_name_entry">CERT_ALT_NAME_ENTRY</a> structure that contains the name bound to the certificate <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> of the requester.
 
 
 ### -field cRequestEntry
@@ -78,7 +78,7 @@ The number of elements in the <b>rgRequestEntry</b> array.
 
 ### -field rgRequestEntry
 
-An array of pointers to <a href="https://msdn.microsoft.com/61d5cbc9-22de-4768-b610-138bcd3c9cce">OCSP_REQUEST_ENTRY</a> structures.
+An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ocsp_request_entry">OCSP_REQUEST_ENTRY</a> structures.
 
 
 ### -field cExtension
@@ -88,7 +88,7 @@ The number of elements in the <b>rgExtension</b> array.
 
 ### -field rgExtension
 
-An array of pointers to <a href="https://msdn.microsoft.com/787a4df0-c0e3-46b9-a7e6-eb3bee3ed717">CERT_EXTENSION</a> structures, each of which contains information about the request.
+An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_extension">CERT_EXTENSION</a> structures, each of which contains information about the request.
 
 
 ## -see-also
@@ -96,15 +96,15 @@ An array of pointers to <a href="https://msdn.microsoft.com/787a4df0-c0e3-46b9-a
 
 
 
-<a href="https://msdn.microsoft.com/1353ef56-cae7-43f2-a31f-2bb3b502450e">CERT_ALT_NAME_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_alt_name_entry">CERT_ALT_NAME_ENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/787a4df0-c0e3-46b9-a7e6-eb3bee3ed717">CERT_EXTENSION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_extension">CERT_EXTENSION</a>
 
 
 
-<a href="https://msdn.microsoft.com/61d5cbc9-22de-4768-b610-138bcd3c9cce">OCSP_REQUEST_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ocsp_request_entry">OCSP_REQUEST_ENTRY</a>
 
 
 

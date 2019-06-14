@@ -50,11 +50,11 @@ ms.custom: 19H1
 
 
 Represents a virtual adapter; it is used to create command allocators, command lists, command queues, fences, resources, pipeline state objects, heaps, root signatures, samplers, and many resource views.
-<div class="alert"><b>Note</b>  This interface was introduced in Windows 10. Applications targetting Windows 10 should use this interface instead of later versions. Applications targetting a later version of Windows 10 should use the appropriate version of the <b>ID3D12Device</b> interface. The latest version of this interface is <a href="https://msdn.microsoft.com/038E546C-4000-401A-8A11-7A83F391676E">ID3D12Device3</a> introduced in Windows 10 Fall Creators Update.</div><div> </div>
+<div class="alert"><b>Note</b>  This interface was introduced in Windows 10. Applications targetting Windows 10 should use this interface instead of later versions. Applications targetting a later version of Windows 10 should use the appropriate version of the <b>ID3D12Device</b> interface. The latest version of this interface is <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device3">ID3D12Device3</a> introduced in Windows 10 Fall Creators Update.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12Device</b> interface inherits from <a href="https://msdn.microsoft.com/D2B2BC74-E89D-4D3A-8808-6E4A94992769">ID3D12Object</a>. <b>ID3D12Device</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12Device</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12object">ID3D12Object</a>. <b>ID3D12Device</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID3D12Device</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">CheckFeatureSupport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport">CheckFeatureSupport</a>
 </td>
 <td align="left" width="63%">
 Gets information about the features that are supported by the current graphics driver.
@@ -78,7 +78,7 @@ Gets information about the features that are supported by the current graphics d
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F995EF34-74FF-4FCA-A018-E2F48DF92450">CopyDescriptors</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-copydescriptors">CopyDescriptors</a>
 </td>
 <td align="left" width="63%">
 Copies descriptors from a source to a destination.
@@ -88,7 +88,7 @@ Copies descriptors from a source to a destination.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6DA1FCDA-042C-4727-9814-B8F57E14CD51">CopyDescriptorsSimple</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-copydescriptorssimple">CopyDescriptorsSimple</a>
 </td>
 <td align="left" width="63%">
 Copies descriptors from a source to a destination.
@@ -98,7 +98,7 @@ Copies descriptors from a source to a destination.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/28DA0D59-3DB7-4652-B1EA-3360EA85A659">CreateCommandAllocator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommandallocator">CreateCommandAllocator</a>
 </td>
 <td align="left" width="63%">
 Creates a command allocator object.
@@ -107,7 +107,7 @@ Creates a command allocator object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4C615D7D-6DBC-4EDA-8D72-271EC53047BF">CreateCommandList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommandlist">CreateCommandList</a>
 </td>
 <td align="left" width="63%">
 Creates a command list.
@@ -117,7 +117,7 @@ Creates a command list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/556D068C-9939-4B42-AFC2-4EBB2D7B553B">CreateCommandQueue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommandqueue">CreateCommandQueue</a>
 </td>
 <td align="left" width="63%">
 Creates a command queue.
@@ -126,7 +126,7 @@ Creates a command queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5A44F907-C6E0-4548-A227-84F0CF2EE837">CreateCommandSignature</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommandsignature">CreateCommandSignature</a>
 </td>
 <td align="left" width="63%">
 This method creates a command signature.
@@ -136,7 +136,7 @@ This method creates a command signature.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/FF9E8F11-F2C5-4A96-8E25-140870D15DA9">CreateCommittedResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommittedresource">CreateCommittedResource</a>
 </td>
 <td align="left" width="63%">
 Creates both a resource and an implicit heap, such that the heap is big enough to contain the entire resource and the resource is mapped to the heap.
@@ -146,7 +146,7 @@ Creates both a resource and an implicit heap, such that the heap is big enough t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/FFA361B2-D8FA-4F5A-8D0C-022C2AA76B57">CreateComputePipelineState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcomputepipelinestate">CreateComputePipelineState</a>
 </td>
 <td align="left" width="63%">
 Creates a compute pipeline state object.
@@ -155,7 +155,7 @@ Creates a compute pipeline state object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/13251F82-4AE9-4234-A0C8-0E666F8A1856">CreateConstantBufferView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createconstantbufferview">CreateConstantBufferView</a>
 </td>
 <td align="left" width="63%">
 Creates a constant-buffer view for accessing resource data.
@@ -164,7 +164,7 @@ Creates a constant-buffer view for accessing resource data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/57C0CA35-CFBE-4D79-B8D7-BD01CEBEA144">CreateDepthStencilView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createdepthstencilview">CreateDepthStencilView</a>
 </td>
 <td align="left" width="63%">
 Creates a depth-stencil view for accessing resource data.
@@ -173,7 +173,7 @@ Creates a depth-stencil view for accessing resource data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/69EE75CB-7B3D-403D-9798-279A47754ADC">CreateDescriptorHeap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createdescriptorheap">CreateDescriptorHeap</a>
 </td>
 <td align="left" width="63%">
 Creates a descriptor heap object.
@@ -182,7 +182,7 @@ Creates a descriptor heap object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/731A60CA-644A-4FC2-8461-DDD686363BED">CreateFence</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createfence">CreateFence</a>
 </td>
 <td align="left" width="63%">
 Creates a fence object.
@@ -192,7 +192,7 @@ Creates a fence object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E35FCC4A-7527-4A6C-8569-0801A06AA427">CreateGraphicsPipelineState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-creategraphicspipelinestate">CreateGraphicsPipelineState</a>
 </td>
 <td align="left" width="63%">
 Creates a graphics pipeline state object.
@@ -201,7 +201,7 @@ Creates a graphics pipeline state object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/DB5DF4B2-4673-4B8D-BDED-9F672A41E7F6">CreateHeap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createheap">CreateHeap</a>
 </td>
 <td align="left" width="63%">
 Creates a heap that can be used with placed resources and reserved resources.
@@ -211,7 +211,7 @@ Creates a heap that can be used with placed resources and reserved resources.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4581A82D-D2B6-4CAE-A336-07B8CF90A0BA">CreatePlacedResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createplacedresource">CreatePlacedResource</a>
 </td>
 <td align="left" width="63%">
 Creates a resource that is placed in a specific heap.
@@ -222,7 +222,7 @@ Creates a resource that is placed in a specific heap.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/98B238D0-8E4D-46C1-AC2C-09473A972E71">CreateQueryHeap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createqueryheap">CreateQueryHeap</a>
 </td>
 <td align="left" width="63%">
 Creates a query heap.
@@ -233,7 +233,7 @@ Creates a query heap.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B5BFAE54-4FAC-47E5-A7F1-3F9E78FED3B4">CreateRenderTargetView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createrendertargetview">CreateRenderTargetView</a>
 </td>
 <td align="left" width="63%">
 Creates a render-target view for accessing resource data.
@@ -242,7 +242,7 @@ Creates a render-target view for accessing resource data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/37E74129-1B5C-4997-A584-D7E9F92342EA">CreateReservedResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createreservedresource">CreateReservedResource</a>
 </td>
 <td align="left" width="63%">
 Creates a resource that is reserved, which is not yet mapped to any pages in a heap.
@@ -252,7 +252,7 @@ Creates a resource that is reserved, which is not yet mapped to any pages in a h
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/CD3389EC-4086-40F0-B1DB-BCBCF9DDE6BA">CreateRootSignature</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createrootsignature">CreateRootSignature</a>
 </td>
 <td align="left" width="63%">
 Creates a root signature layout.
@@ -262,7 +262,7 @@ Creates a root signature layout.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/453B2D3D-843E-4DB0-BC47-59BD9C78BFD6">CreateSampler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createsampler">CreateSampler</a>
 </td>
 <td align="left" width="63%">
 Create a sampler object that encapsulates sampling information for a texture.
@@ -271,7 +271,7 @@ Create a sampler object that encapsulates sampling information for a texture.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4FD7082D-2DA9-469E-BA74-6735D407D5FE">CreateShaderResourceView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createshaderresourceview">CreateShaderResourceView</a>
 </td>
 <td align="left" width="63%">
 Creates a shader-resource view for accessing data in a resource.
@@ -280,7 +280,7 @@ Creates a shader-resource view for accessing data in a resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/AFF058FF-358F-4FF3-8C92-57A9D34B27D9">CreateSharedHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createsharedhandle">CreateSharedHandle</a>
 </td>
 <td align="left" width="63%">
 Creates a shared handle to an heap, resource, or fence object.
@@ -290,7 +290,7 @@ Creates a shared handle to an heap, resource, or fence object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E834E469-2958-44A9-978F-F42D6BB6B1DC">CreateUnorderedAccessView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createunorderedaccessview">CreateUnorderedAccessView</a>
 </td>
 <td align="left" width="63%">
 Creates a view for unordered accessing.
@@ -300,7 +300,7 @@ Creates a view for unordered accessing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/37F8ABA7-EDA3-4775-8B86-470FC4F95662">Evict</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-evict">Evict</a>
 </td>
 <td align="left" width="63%">
 Enables the page-out of data, which precludes GPU access of that data.
@@ -309,7 +309,7 @@ Enables the page-out of data, which precludes GPU access of that data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/006E72E0-AE09-4834-9ACB-D48698050BF2">GetAdapterLuid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getadapterluid">GetAdapterLuid</a>
 </td>
 <td align="left" width="63%">
 Gets a locally unique identifier for the current device (adapter).
@@ -319,20 +319,20 @@ Gets a locally unique identifier for the current device (adapter).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/EB3715A9-5A73-45DA-A46F-7889188409A3">GetCopyableFootprints</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getcopyablefootprints">GetCopyableFootprints</a>
 </td>
 <td align="left" width="63%">
 Gets a resource layout that can be copied.
           Helps the app fill-in 
-          <a href="https://msdn.microsoft.com/74740A52-C2A5-4AF6-92CC-85B5C214423F">D3D12_PLACED_SUBRESOURCE_FOOTPRINT</a> and 
-          <a href="https://msdn.microsoft.com/C73B6AB0-F9C5-432E-BA26-3B7772411C95">D3D12_SUBRESOURCE_FOOTPRINT</a> when suballocating space in upload heaps.
+          <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_placed_subresource_footprint">D3D12_PLACED_SUBRESOURCE_FOOTPRINT</a> and 
+          <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_subresource_footprint">D3D12_SUBRESOURCE_FOOTPRINT</a> when suballocating space in upload heaps.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/FD1A7C77-24C3-49D5-8F20-01D5FF7FC895">GetCustomHeapProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getcustomheapproperties">GetCustomHeapProperties</a>
 </td>
 <td align="left" width="63%">
 Divulges the equivalent custom heap properties that are used for non-custom heap types, based on the adapter's architectural properties.
@@ -342,7 +342,7 @@ Divulges the equivalent custom heap properties that are used for non-custom heap
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4593C153-913A-49DF-ADDC-6FB1E19D3D17">GetDescriptorHandleIncrementSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getdescriptorhandleincrementsize">GetDescriptorHandleIncrementSize</a>
 </td>
 <td align="left" width="63%">
 Gets the size of the handle increment for the given type of descriptor heap. This value is typically used to increment a handle into a descriptor array by the correct amount.
@@ -351,7 +351,7 @@ Gets the size of the handle increment for the given type of descriptor heap. Thi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/DA723656-BE64-474E-833B-D97576DE0449">GetDeviceRemovedReason</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getdeviceremovedreason">GetDeviceRemovedReason</a>
 </td>
 <td align="left" width="63%">
 Gets the reason that the device was removed.
@@ -360,7 +360,7 @@ Gets the reason that the device was removed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5C5BA618-1B53-45EA-A2E6-19FCAF4FB67C">GetNodeCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getnodecount">GetNodeCount</a>
 </td>
 <td align="left" width="63%">
 Reports the number of physical adapters (nodes) that are associated with this device.
@@ -370,7 +370,7 @@ Reports the number of physical adapters (nodes) that are associated with this de
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/43467E09-835B-4DB9-B0A4-F75868DE4609">GetResourceAllocationInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getresourceallocationinfo">GetResourceAllocationInfo</a>
 </td>
 <td align="left" width="63%">
 Gets the size and alignment of memory required for a collection of resources on this adapter.
@@ -380,7 +380,7 @@ Gets the size and alignment of memory required for a collection of resources on 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/32574750-92D3-4CAF-90C6-BA0DEF1E5464">GetResourceTiling</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getresourcetiling">GetResourceTiling</a>
 </td>
 <td align="left" width="63%">
 Gets info about how a tiled resource is broken into tiles.
@@ -390,7 +390,7 @@ Gets info about how a tiled resource is broken into tiles.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2B3B97DC-5AA3-470E-8EED-3956B295BB94">MakeResident</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-makeresident">MakeResident</a>
 </td>
 <td align="left" width="63%">
 Makes objects resident for the device.
@@ -399,7 +399,7 @@ Makes objects resident for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4F428B06-2906-4ED6-BB75-5DACF2155FA9">OpenSharedHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-opensharedhandle">OpenSharedHandle</a>
 </td>
 <td align="left" width="63%">
 Opens a handle for shared resources, shared heaps, and shared fences, by using HANDLE and REFIID.
@@ -409,7 +409,7 @@ Opens a handle for shared resources, shared heaps, and shared fences, by using H
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4866BD8B-31F8-47E0-9228-5F61D6CA2190">OpenSharedHandleByName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-opensharedhandlebyname">OpenSharedHandleByName</a>
 </td>
 <td align="left" width="63%">
 Opens a handle for shared resources, shared heaps, and shared fences, by using Name and Access.
@@ -419,7 +419,7 @@ Opens a handle for shared resources, shared heaps, and shared fences, by using N
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6078DAEF-DD8B-4F1F-86C8-96CE7BD691E4">SetStablePowerState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-setstablepowerstate">SetStablePowerState</a>
 </td>
 <td align="left" width="63%">
 A development-time aid for certain types of profiling and experimental prototyping.
@@ -433,14 +433,14 @@ A development-time aid for certain types of profiling and experimental prototypi
 
 
 
-Use <a href="https://msdn.microsoft.com/F403D730-CBD4-4AE0-86F6-8CE122E82CB4">D3D12CreateDevice</a> to create a device. 
+Use <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-d3d12createdevice">D3D12CreateDevice</a> to create a device. 
 
-For Windows 10 Anniversary some additional functionality is available through <a href="https://msdn.microsoft.com/7650C695-3F46-405A-9976-A4A50FFAD567">ID3D12Device1</a>.
+For Windows 10 Anniversary some additional functionality is available through <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device1">ID3D12Device1</a>.
 
 
 #### Examples
 
-The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D1211on12</a> sample uses <b>ID3D12Device</b> as follows:
+The <a href="https://docs.microsoft.com/windows/desktop/direct3d12/working-samples">D3D1211on12</a> sample uses <b>ID3D12Device</b> as follows:
 
 Header file declarations.
 
@@ -487,7 +487,7 @@ inline UINT8 D3D12GetFormatPlaneCount(
 ```
 
 
-Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
+Refer to the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>
 
@@ -498,27 +498,27 @@ Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A
 
 
 
-<a href="https://msdn.microsoft.com/A9BD5910-8FF2-4540-BB8E-E8EA5C10528C">Core Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/0D360A7C-8A2F-49E1-A5CC-98C958B59D1C">Creating Descriptors</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/creating-descriptors">Creating Descriptors</a>
 
 
 
-<a href="https://msdn.microsoft.com/7650C695-3F46-405A-9976-A4A50FFAD567">ID3D12Device1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device1">ID3D12Device1</a>
 
 
 
-<a href="https://msdn.microsoft.com/86C46FD2-7B1D-4F66-97F7-45F9428C5E1E">ID3D12Device2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device2">ID3D12Device2</a>
 
 
 
-<a href="https://msdn.microsoft.com/D2B2BC74-E89D-4D3A-8808-6E4A94992769">ID3D12Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12object">ID3D12Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/94D47EBB-8060-49F6-A1FF-8B7B98AD5363">Memory Management in Direct3D 12</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/memory-management">Memory Management in Direct3D 12</a>
  
 
  

@@ -63,7 +63,7 @@ The <b>Write</b> method writes data to the object at the current position within
 
 ### -param pData [in]
 
-Pointer to the buffer containing the data to write to the object. This parameter is encrypted and must be decrypted using <a href="https://msdn.microsoft.com/42ccaf4a-02a4-432f-a0eb-b7852f0e5406">CSecureChannelServer::DecryptParam</a> with the MAC in <i>abMac</i>. See Remarks.
+Pointer to the buffer containing the data to write to the object. This parameter is encrypted and must be decrypted using <a href="https://docs.microsoft.com/previous-versions/bb231598(v%3dvs.85)">CSecureChannelServer::DecryptParam</a> with the MAC in <i>abMac</i>. See Remarks.
 
 
 ### -param pdwSize [in, out]
@@ -87,7 +87,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 
 
@@ -96,9 +96,9 @@ For an extensive list of possible error codes, see <a href="https://msdn.microso
 
 
 
-The MAC used for encryption should include both <i>pData</i> and <i>pdwSize</i> in calls to <a href="https://msdn.microsoft.com/f8b5548d-ffd5-4dc3-8d08-61a65841a997">CSecureChannelServer::MACUpdate</a>.
+The MAC used for encryption should include both <i>pData</i> and <i>pdwSize</i> in calls to <a href="/previous-versions/ms868515(v=msdn.10)">CSecureChannelServer::MACUpdate</a>.
 
-This method must be implemented. It must not return WMDM_E_NOTSUPPORTED or E_NOTIMPL. For more information, see <a href="https://msdn.microsoft.com/582c9dd5-f8ab-48df-afb3-fba931ee0dea">Mandatory and Optional Interfaces</a>.
+This method must be implemented. It must not return WMDM_E_NOTSUPPORTED or E_NOTIMPL. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/mandatory-and-optional-interfaces">Mandatory and Optional Interfaces</a>.
 
 
 
@@ -108,23 +108,23 @@ This method must be implemented. It must not return WMDM_E_NOTSUPPORTED or E_NOT
 
 
 
-<a href="https://msdn.microsoft.com/6aef4138-0391-4edd-b4fc-d6d0ec3c735b">Encryption and Decryption</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/encryption-and-decryption">Encryption and Decryption</a>
 
 
 
-<a href="https://msdn.microsoft.com/271d7185-1a9d-4bec-9289-4ae5461ed741">IMDSPObject Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspobject">IMDSPObject Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/453dbf9e-4b71-4ceb-80e2-eaa0cf4cd29d">IMDSPObject::Close</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-close">IMDSPObject::Close</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e54bcbd-4f14-49e0-8211-2f79f024c80a">IMDSPObject::Open</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-open">IMDSPObject::Open</a>
 
 
 
-<a href="https://msdn.microsoft.com/1acf4112-0cb8-47e4-b8dc-3e820c0ef72f">IMDSPObject::Read</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-read">IMDSPObject::Read</a>
  
 
  

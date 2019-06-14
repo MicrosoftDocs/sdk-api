@@ -66,7 +66,7 @@ Contains a handle to the asynchronous query to cancel. Applications must not mod
 
 
 
-This structure is returned in the <i>pCancelHandle</i> parameter from a previous call to <a href="https://msdn.microsoft.com/22664B9A-5010-42E7-880B-8D5B16A9F2DC">DnsQueryEx</a>.
+This structure is returned in the <i>pCancelHandle</i> parameter from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsqueryex">DnsQueryEx</a>.
 
 
 
@@ -76,15 +76,15 @@ This structure is returned in the <i>pCancelHandle</i> parameter from a previous
 
 
 
-<a href="https://msdn.microsoft.com/35D78208-FFC1-48B0-8267-EE583DE2D783">DNS_QUERY_COMPLETION_ROUTINE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/nc-windns-dns_query_completion_routine">DNS_QUERY_COMPLETION_ROUTINE</a>
 
 
 
-<a href="https://msdn.microsoft.com/9C382800-DE71-4481-AC8D-9F89D6F59EE6">DNS_QUERY_REQUEST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dns_query_request">DNS_QUERY_REQUEST</a>
 
 
 
-<a href="https://msdn.microsoft.com/03EB1DC2-FAB0-45C5-B438-E8FFDD218F09">DNS_QUERY_RESULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dns_query_result">DNS_QUERY_RESULT</a>
  
 
  

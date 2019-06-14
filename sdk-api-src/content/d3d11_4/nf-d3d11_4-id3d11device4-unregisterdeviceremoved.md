@@ -64,7 +64,7 @@ Unregisters the "device removed" event.
 Type: <b>DWORD</b>
 
 Information about the "device removed" event,
-          retrieved during a successful <a href="https://msdn.microsoft.com/6C564C67-9166-4F65-B099-3DDDECCEDC40">RegisterDeviceRemovedEvent</a> call. 
+          retrieved during a successful <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11device4-registerdeviceremovedevent">RegisterDeviceRemovedEvent</a> call. 
 
 
 ## -returns
@@ -80,7 +80,7 @@ This method does not return a value.
 
 
 
-See <a href="https://msdn.microsoft.com/6C564C67-9166-4F65-B099-3DDDECCEDC40">RegisterDeviceRemovedEvent</a>.
+See <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11device4-registerdeviceremovedevent">RegisterDeviceRemovedEvent</a>.
         
 
 
@@ -91,11 +91,11 @@ See <a href="https://msdn.microsoft.com/6C564C67-9166-4F65-B099-3DDDECCEDC40">Re
 
 
 
-<a href="https://msdn.microsoft.com/C4971129-C879-470A-ACD7-910D9F522E8C">ID3D11Device4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_4/nn-d3d11_4-id3d11device4">ID3D11Device4</a>
 
 
 
-<a href="https://msdn.microsoft.com/6C564C67-9166-4F65-B099-3DDDECCEDC40">RegisterDeviceRemovedEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11device4-registerdeviceremovedevent">RegisterDeviceRemovedEvent</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returned by the <a href="https://msdn.microsoft.com/en-us/library/Bb759755(v=VS.85).aspx">GetThemeMargins</a> function to define the margins of windows that have visual styles applied.
+Returned by the <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-getthememargins">GetThemeMargins</a> function to define the margins of windows that have visual styles applied.
 
 
 ## -struct-fields
@@ -90,7 +90,7 @@ Height of the bottom border that retains its size.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb759755(v=VS.85).aspx">GetThemeMargins</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-getthememargins">GetThemeMargins</a>
  
 
  

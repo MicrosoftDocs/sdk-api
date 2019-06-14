@@ -61,14 +61,14 @@ Receives messages from a menu band object.
 
 Type: <b>LPSMDATA</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/4690daa1-f935-4d0c-8b1f-0b9442fc78dc">SMDATA</a> structure that contains information about the menu.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-tagsmdata">SMDATA</a> structure that contains information about the menu.
 
 
 ### -param uMsg
 
 Type: <b>UINT</b>
 
-A message ID. This will be one of the SMC_XXX values. See <a href="https://msdn.microsoft.com/ea8329b4-a14e-4df0-9c15-ae0aea08744d">Shell Messages and Notifications</a> for a complete list.
+A message ID. This will be one of the SMC_XXX values. See <a href="https://docs.microsoft.com/windows/desktop/shell/control-panel-applications">Shell Messages and Notifications</a> for a complete list.
 
 
 ### -param wParam

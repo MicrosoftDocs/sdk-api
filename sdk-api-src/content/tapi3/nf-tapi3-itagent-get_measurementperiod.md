@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>get_MeasurementPeriod</b> method gets the measurement period (in seconds) for which the switch and/or implementation stores and calculates information. For example, 
-<a href="https://msdn.microsoft.com/bef36468-8ee9-4ce2-bf8d-e2bd8c986ae3">get_NumberOfACDCalls</a> returns the number of calls the agent handled; 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_numberofacdcalls">get_NumberOfACDCalls</a> returns the number of calls the agent handled; 
 <b>get_MeasurementPeriod</b> indicates if this value referenced the calls handled in the last hour, day, month, etc.
 
 
@@ -131,11 +131,11 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 
 
 
-<a href="https://msdn.microsoft.com/6c1409c9-da73-4d21-bf56-07e9ab7b33a0">ITAgent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
 
 
 
-<a href="https://msdn.microsoft.com/3c5d6e8e-8ddf-4eef-be79-fed56daecb1b">put_MeasurementPeriod</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-put_measurementperiod">put_MeasurementPeriod</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns an array of 
    the extents on a drive, including both allocated and unallocated extents.
@@ -63,21 +63,21 @@ Returns an array of
 
 ### -param ppExtentArray [out]
 
-A pointer to the  array of <a href="https://msdn.microsoft.com/c155d925-e86f-4bec-9032-dae2221172a7">VDS_DRIVE_EXTENT</a> structures passed in by the caller. Callers must free this array by using the 
-      <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a> function.
+A pointer to the  array of <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_drive_extent">VDS_DRIVE_EXTENT</a> structures passed in by the caller. Callers must free this array by using the 
+      <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
 
 ### -param plNumberOfExtents [out]
 
 A pointer to the number of drive extents returned in the 
-      <a href="https://msdn.microsoft.com/c155d925-e86f-4bec-9032-dae2221172a7">VDS_DRIVE_EXTENT</a> structure.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_drive_extent">VDS_DRIVE_EXTENT</a> structure.
 
 
 ## -returns
 
 
 
-This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="https://msdn.microsoft.com/en-us/library/ms680746(v=VS.85).aspx">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is being used. Possible return values include the following.
+This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
 <table>
 <tr>
@@ -107,8 +107,8 @@ The extents information was returned successfully. For a drive without extents, 
 <td width="60%">
 This return value signals a software or communication problem inside a provider that caches information about 
         the array. Use the 
-        <a href="https://msdn.microsoft.com/aeb06a98-8896-446f-abd5-ea40be0bea40">IVdsHwProvider::Reenumerate</a> method
-        followed by the <a href="https://msdn.microsoft.com/25ddc73c-5d1b-4bec-bbc2-9f22a5f82ffe">IVdsHwProvider::Refresh</a> 
+        <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-reenumerate">IVdsHwProvider::Reenumerate</a> method
+        followed by the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-refresh">IVdsHwProvider::Refresh</a> 
         method to restore the cache.
        
 
@@ -176,11 +176,11 @@ The subsystem does not support this method.
 
 A drive can contribute extents to any number of LUNs, and these LUNs can be unmasked to any number of different
     computers on the network. Use the 
-    <a href="https://msdn.microsoft.com/e9ed5bdd-c696-47cc-84c8-266b230f7970">IVdsLunPlex::QueryExtents</a> method to see all 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunplex-queryextents">IVdsLunPlex::QueryExtents</a> method to see all 
     the extents of a LUN plex.
 
 The <b>LunId</b> member of each 
-     <a href="https://msdn.microsoft.com/c155d925-e86f-4bec-9032-dae2221172a7">VDS_DRIVE_EXTENT</a>structure specifies the GUID for the LUN to which each allocated extent contributes. Consequently, you can use 
+     <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_drive_extent">VDS_DRIVE_EXTENT</a>structure specifies the GUID for the LUN to which each allocated extent contributes. Consequently, you can use 
      the result of this method to determine the number of LUNs to which the drive contributes by counting the number 
      of distinct <b>LunId</b> values returned in <i>ppExtentArray</i>.
 
@@ -192,23 +192,23 @@ The <b>LunId</b> member of each
 
 
 
-<a href="https://msdn.microsoft.com/597917cf-fb02-4949-98c3-3da3f7449ed1">IVdsDrive</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsdrive">IVdsDrive</a>
 
 
 
-<a href="https://msdn.microsoft.com/aeb06a98-8896-446f-abd5-ea40be0bea40">IVdsHwProvider::Reenumerate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-reenumerate">IVdsHwProvider::Reenumerate</a>
 
 
 
-<a href="https://msdn.microsoft.com/25ddc73c-5d1b-4bec-bbc2-9f22a5f82ffe">IVdsHwProvider::Refresh</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-refresh">IVdsHwProvider::Refresh</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9ed5bdd-c696-47cc-84c8-266b230f7970">IVdsLunPlex::QueryExtents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunplex-queryextents">IVdsLunPlex::QueryExtents</a>
 
 
 
-<a href="https://msdn.microsoft.com/c155d925-e86f-4bec-9032-dae2221172a7">VDS_DRIVE_EXTENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_drive_extent">VDS_DRIVE_EXTENT</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA</b> structure is used to delete an unauthenticated attribute of a signer of a signed message. This structure is passed to 
-<a href="https://msdn.microsoft.com/a990d44d-2993-429f-b817-2a834105ecef">CryptMsgControl</a> if the <i>dwCrlType</i> parameter is <b>CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a> if the <i>dwCrlType</i> parameter is <b>CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR</b>.
 
 
 ## -struct-fields
@@ -65,12 +65,12 @@ Size of this structure in bytes.
 
 ### -field dwSignerIndex
 
-Index of the signer in the <b>rgSigners</b> array of pointers to <a href="https://msdn.microsoft.com/f599226d-ddd7-455f-b650-74b91674d8f9">CMSG_SIGNER_ENCODE_INFO</a> structures in a signed message's <a href="https://msdn.microsoft.com/93138744-8316-461b-908a-1eab47e83f63">CMSG_SIGNED_ENCODE_INFO</a> structure. The unauthenticated attribute for this signer is deleted.
+Index of the signer in the <b>rgSigners</b> array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_signer_encode_info">CMSG_SIGNER_ENCODE_INFO</a> structures in a signed message's <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_signed_encode_info">CMSG_SIGNED_ENCODE_INFO</a> structure. The unauthenticated attribute for this signer is deleted.
 
 
 ### -field dwUnauthAttrIndex
 
-Index of the element in the <b>rgUnauthAttr</b> array of the <a href="https://msdn.microsoft.com/f599226d-ddd7-455f-b650-74b91674d8f9">CMSG_SIGNER_ENCODE_INFO</a> structure holding the unauthenticated attribute to be removed.
+Index of the element in the <b>rgUnauthAttr</b> array of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_signer_encode_info">CMSG_SIGNER_ENCODE_INFO</a> structure holding the unauthenticated attribute to be removed.
 
 
 ## -see-also
@@ -78,7 +78,7 @@ Index of the element in the <b>rgUnauthAttr</b> array of the <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/a990d44d-2993-429f-b817-2a834105ecef">CryptMsgControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a>
  
 
  

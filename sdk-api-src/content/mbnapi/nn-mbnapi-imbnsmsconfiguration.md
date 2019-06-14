@@ -56,7 +56,7 @@ Provides access to the SMS configuration of a device.
 
 
 
-This interface is acquired by a call to the <a href="https://msdn.microsoft.com/b868bb6f-3ac0-4d77-82dd-b9bc94882a8b">GetSmsConfiguration</a> method of the <a href="https://msdn.microsoft.com/4a5fae5a-91d5-4a94-ac54-cb641147e8dc">IMbnSms</a> interface.
+This interface is acquired by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-getsmsconfiguration">GetSmsConfiguration</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsms">IMbnSms</a> interface.
 
 
 

@@ -51,11 +51,11 @@ ms.custom: 19H1
 
 The 
 <b>CreateCall</b> method creates a new Call object that can be used to make an outgoing call and returns a pointer to the object's 
-<a href="https://msdn.microsoft.com/a0b4c496-5ee8-4810-8170-8ea505c99f18">ITBasicCallControl</a> interface. The newly created call is in the CS_IDLE 
-<a href="https://msdn.microsoft.com/d4ed5e99-3abe-4434-9f99-5e98d8c6f3f1">state</a> and has no media or terminals selected.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a> interface. The newly created call is in the CS_IDLE 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-call_state">state</a> and has no media or terminals selected.
 
 Acceptable input values for call address, address type, and media types are specific to the telephony service provider that supports the current address. For information on TSPs shipped with Windows 2000, see 
-<a href="https://msdn.microsoft.com/6e4fb295-940e-4f76-ad43-fad7da90094a">About The Telephony Service Provider (TSP)</a>. For third party TSPs, see the documentation provided by the vender.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/about-the-telephony-service-provider-tsp-">About The Telephony Service Provider (TSP)</a>. For third party TSPs, see the documentation provided by the vender.
 
 
 ## -parameters
@@ -66,27 +66,27 @@ Acceptable input values for call address, address type, and media types are spec
 ### -param pDestAddress [in]
 
 This <b>BSTR</b> string contains a destination address. The format is provider-specific. This pointer can be <b>NULL</b> for non-dialed addresses (such as with a hot phone) or when all dialing is performed using 
-<a href="https://msdn.microsoft.com/31fea4d8-9028-48d5-9f5d-53f1451103c7">ITBasicCallControl::Dial</a>. <b>NULL</b> in combination with a <b>NULL</b><i>pGroupID</i> in 
-<a href="https://msdn.microsoft.com/25da3cf2-50f0-4f64-94ce-cf952e057376">ITBasicCallControl::Pickup</a> results in a group pickup. Service providers that have inverse multiplexing capabilities can allow an application to specify multiple addresses at once.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-dial">ITBasicCallControl::Dial</a>. <b>NULL</b> in combination with a <b>NULL</b><i>pGroupID</i> in 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-pickup">ITBasicCallControl::Pickup</a> results in a group pickup. Service providers that have inverse multiplexing capabilities can allow an application to specify multiple addresses at once.
 
 
 ### -param lAddressType [in]
 
 Contains an 
-<a href="https://msdn.microsoft.com/2c32eda1-e510-40eb-ae75-fc7b9e9953cd">address type</a> constant, such as LINEADDRESSTYPE_PHONENUMBER, which describes the format of the address. The value must be valid for this address. Use 
-<a href="https://msdn.microsoft.com/76e61d5e-48b6-4b9c-9076-bd20a794859c">ITAddressCapabilities::get_AddressCapability</a> with <i>AddressCap</i> set to AC_ADDRESSTYPES to verify the value.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddresstype--constants">address type</a> constant, such as LINEADDRESSTYPE_PHONENUMBER, which describes the format of the address. The value must be valid for this address. Use 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresscapabilities-get_addresscapability">ITAddressCapabilities::get_AddressCapability</a> with <i>AddressCap</i> set to AC_ADDRESSTYPES to verify the value.
 
 
 ### -param lMediaTypes [in]
 
 Identifies the 
-<a href="https://msdn.microsoft.com/3e418c9a-a008-4b94-b5d2-7c2eccb3bf87">media type</a> or types that will be involved in the call session.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">media type</a> or types that will be involved in the call session.
 
 
 ### -param ppCall [out]
 
 Pointer to 
-<a href="https://msdn.microsoft.com/a0b4c496-5ee8-4810-8170-8ea505c99f18">ITBasicCallControl</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a> interface.
 
 
 ## -returns
@@ -155,21 +155,21 @@ The <i>ppCall</i> parameter is not a valid pointer.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221458(v=VS.85).aspx">SysAllocString</a> to allocate memory for the <i>pDestAddress</i> parameter and use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory when the variable is no longer needed.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> to allocate memory for the <i>pDestAddress</i> parameter and use 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory when the variable is no longer needed.
 
 When the address type is LINEADDRESSTYPE_SDP, the application should call the 
-<a href="https://msdn.microsoft.com/a3f849ac-bda9-4937-bf3b-bce8df20cbf0">ITSDP::get_IsValid</a> method on <i>pDestAddress</i> to verify that the SDP information contained is properly constructed according to RFC 2327.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/itsdp-get-isvalid">ITSDP::get_IsValid</a> method on <i>pDestAddress</i> to verify that the SDP information contained is properly constructed according to RFC 2327.
 
 Calls used as consultation calls, such as during a conference, transfer, or forward operation, must be created using this method.
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://msdn.microsoft.com/a0b4c496-5ee8-4810-8170-8ea505c99f18">ITBasicCallControl</a> interface returned by <b>ITAddress::CreateCall</b>. The application must call <b>Release</b> on the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a> interface returned by <b>ITAddress::CreateCall</b>. The application must call <b>Release</b> on the 
 <b>ITBasicCallControl</b> interface to free resources associated with it.
 
 <div class="alert"><b>Note</b>    This method is not precisely the same as 
-<a href="https://msdn.microsoft.com/a7dc9cdc-3cc3-4b6a-98c8-e141402c781e">lineMakeCall</a> in TAPI 2. It supplies TAPI with much of the same information, but parallel operations are not performed until 
-<a href="https://msdn.microsoft.com/cc9a8bfd-14c0-459c-a911-325b73323c08">ITBasicCallControl::Connect</a> is called.</div>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linemakecall">lineMakeCall</a> in TAPI 2. It supplies TAPI with much of the same information, but parallel operations are not performed until 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-connect">ITBasicCallControl::Connect</a> is called.</div>
 <div> </div>
 
 
@@ -179,23 +179,23 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 
-<a href="https://msdn.microsoft.com/ab6db262-f99e-4027-9525-7597fcf02e72">Address Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/93f2e4cf-013e-4064-88d5-69fddd458274">ITAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0b4c496-5ee8-4810-8170-8ea505c99f18">ITBasicCallControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/31fea4d8-9028-48d5-9f5d-53f1451103c7">ITBasicCallControl::Dial</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-dial">ITBasicCallControl::Dial</a>
 
 
 
-<a href="https://msdn.microsoft.com/111e6c11-67a7-4aab-81dd-f1b4316887e7">lineDial</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedial">lineDial</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Retrieves the properties specified when the transformed image source was created.
-        This value corresponds to the value passed to <a href="https://msdn.microsoft.com/1ABA6A8E-B691-47FF-AE32-1FC5D29C48B2">CreateTransformedImageSource</a>.
+        This value corresponds to the value passed to <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-createtransformedimagesource">CreateTransformedImageSource</a>.
       
 
 
@@ -61,7 +61,7 @@ Retrieves the properties specified when the transformed image source was created
 
 ### -param properties [out]
 
-Type: <b><a href="https://msdn.microsoft.com/E8A39769-07F2-42CA-A7CA-F83FF97E2076">D2D1_TRANSFORMED_IMAGE_SOURCE_PROPERTIES</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/ns-d2d1_3-d2d1_transformed_image_source_properties">D2D1_TRANSFORMED_IMAGE_SOURCE_PROPERTIES</a>*</b>
 
 the properties specified when the transformed image source was created.
           
@@ -81,7 +81,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/5645429B-110E-4AEC-9A2E-87D0942FA993">ID2D1TransformedImageSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1transformedimagesource">ID2D1TransformedImageSource</a>
  
 
  

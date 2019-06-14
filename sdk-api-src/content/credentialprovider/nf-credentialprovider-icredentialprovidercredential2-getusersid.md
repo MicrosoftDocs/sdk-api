@@ -124,11 +124,11 @@ HRESULT CSampleCredential::GetUserSid(__deref_out PWSTR *ppszSid)
 
 
 
-<a href="https://msdn.microsoft.com/C1C4BF88-3151-4a8b-A1EE-9616DCB6EA58">ICredentialProviderCredential2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredential2">ICredentialProviderCredential2</a>
 
 
 
-<a href="https://msdn.microsoft.com/FDC5D586-D72B-4eb1-BE7C-CFD8E0B48F48">ICredentialProviderUser::GetSid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovideruser-getsid">ICredentialProviderUser::GetSid</a>
  
 
  

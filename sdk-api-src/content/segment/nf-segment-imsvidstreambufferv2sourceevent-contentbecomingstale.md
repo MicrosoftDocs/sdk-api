@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Fired when the SBE2 source filter receives a <b>STREAMBUFFER_EC_CONTENT_BECOMING_STALE</b> event, which indicates  the stream buffer source lags behind the stream buffer sink by more than a preset number of files.
 
-For more information, see <a href="https://msdn.microsoft.com/5bf2a99a-ed6b-4ce6-9190-756393afcef0">IStreamBufferConfigure::GetBackingFileCount</a>.
+For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure-getbackingfilecount">IStreamBufferConfigure::GetBackingFileCount</a>.
 
 
 ## -parameters
@@ -75,15 +75,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694694(v=VS.85).aspx">IMSVidStreamBufferV2SourceEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidstreambufferv2sourceevent">IMSVidStreamBufferV2SourceEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/5bf2a99a-ed6b-4ce6-9190-756393afcef0">IStreamBufferConfigure::GetBackingFileCount</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure-getbackingfilecount">IStreamBufferConfigure::GetBackingFileCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/84364aa4-7306-40ee-9f4d-0683c47965b5">Stream Buffer Engine Event Codes</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-engine-codes">Stream Buffer Engine Event Codes</a>
  
 
  

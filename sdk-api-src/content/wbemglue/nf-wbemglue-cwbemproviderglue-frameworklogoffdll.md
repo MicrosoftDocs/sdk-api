@@ -52,10 +52,10 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/493027c2-e54d-4fad-9e33-98d1ceab8860">CWbemProviderGlue</a> class 
+<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/wbemglue/nl-wbemglue-cwbemproviderglue">CWbemProviderGlue</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>FrameworkLogoffDLL</b> method is called by <b>DllCanUnloadNow</b> to determine whether the provider server is not in use and can be unloaded.
@@ -84,7 +84,7 @@ The method returns <b>TRUE</b> if the server is not in use and can be unloaded a
 
 
 
-For now,  <b>FrameworkLogoffDLL</b> returns <b>FALSE</b> until the refcount for <a href="https://msdn.microsoft.com/493027c2-e54d-4fad-9e33-98d1ceab8860">CWbemProviderGlue</a> is zero. This approach prevents unloading any client DLL while instances of <b>CWbemProviderGlue</b> still exist.
+For now,  <b>FrameworkLogoffDLL</b> returns <b>FALSE</b> until the refcount for <a href="https://docs.microsoft.com/windows/desktop/api/wbemglue/nl-wbemglue-cwbemproviderglue">CWbemProviderGlue</a> is zero. This approach prevents unloading any client DLL while instances of <b>CWbemProviderGlue</b> still exist.
 
 
 

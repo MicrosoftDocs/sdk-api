@@ -59,7 +59,7 @@ The <b>EAP_METHOD_PROPERTY_ARRAY</b> structure contains an array of EAP method p
 
 ### -field dwNumberOfProperties
 
-The number of <a href="https://msdn.microsoft.com/df8c9ba2-e1c5-4011-bdbe-1d04765d19cd">EAP_METHOD_PROPERTY</a> structures in <b>pMethodProperty</b>.
+The number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_property">EAP_METHOD_PROPERTY</a> structures in <b>pMethodProperty</b>.
 
 
 ### -field pFields
@@ -79,7 +79,7 @@ The number of <a href="https://msdn.microsoft.com/df8c9ba2-e1c5-4011-bdbe-1d0476
 
 ### -field pMethodProperty
 
-Pointer to the address of the first element in an array of <a href="https://msdn.microsoft.com/df8c9ba2-e1c5-4011-bdbe-1d04765d19cd">EAP_METHOD_PROPERTY</a> structures. The total number of elements is specified in <b>dwNumberOfProperties</b>.
+Pointer to the address of the first element in an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_property">EAP_METHOD_PROPERTY</a> structures. The total number of elements is specified in <b>dwNumberOfProperties</b>.
 
 
 ## -see-also
@@ -87,11 +87,11 @@ Pointer to the address of the first element in an array of <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/77595f36-140d-4d8e-af8e-63e9de0031c4">EAPHost Supplicant Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-supplicant-structures">EAPHost Supplicant Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/b553c022-c9a2-4cf7-8c09-e629b49cd929">EapHostPeerGetMethodProperties</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeergetmethodproperties">EapHostPeerGetMethodProperties</a>
  
 
  

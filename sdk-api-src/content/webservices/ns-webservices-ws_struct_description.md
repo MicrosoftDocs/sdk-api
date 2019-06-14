@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Information about C struct type, and how it maps to an XML element.
-                This is used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_STRUCT_TYPE</a>.
+                This is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_STRUCT_TYPE</a>.
             
 
 
@@ -138,7 +138,7 @@ The number of types in the subTypes array.  This is only used when
 
 The following is the grammar describing the order of the fields
                 within a structure.  The order is defined based on the
-                mapping field of each <a href="https://msdn.microsoft.com/8b562fab-f3c5-4732-b993-f7f61ca14ab6">WS_FIELD_DESCRIPTION</a>.
+                mapping field of each <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_field_description">WS_FIELD_DESCRIPTION</a>.
             
 
 <pre class="syntax" xml:space="preserve"><code>
@@ -165,11 +165,11 @@ Note that the fields descriptions of a structure are serialized and deserialized
 The deserialization process is also restrictive. All the content must be deserialized according
                 to the field descriptions. By default any unhandled elements and attributes will cause the deserialization
                 process to fail. However, trailing contents of the element are ignored and discarded when
-                <a href="https://msdn.microsoft.com/0730f29d-15c5-467b-bb7e-32fde044802d">WS_STRUCT_IGNORE_TRAILING_ELEMENT_CONTENT</a> flag is set. Similarly, unhandled attributes are
+                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_9">WS_STRUCT_IGNORE_TRAILING_ELEMENT_CONTENT</a> flag is set. Similarly, unhandled attributes are
                 ignored and discarded when <b>WS_STRUCT_IGNORE_UNHANDLED_ATTRIBUTES</b> flag is set.
             
 
-Note that since the <a href="https://msdn.microsoft.com/8b562fab-f3c5-4732-b993-f7f61ca14ab6">WS_FIELD_DESCRIPTION</a> structures determine the location
+Note that since the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_field_description">WS_FIELD_DESCRIPTION</a> structures determine the location
                 of the actual field within the structure using an offset, there is no restriction
                 as to the actual order of the fields within the structure.
             

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>SecPkgContext_DceInfo</b> structure contains authorization data used by DCE services. The 
-<a href="https://msdn.microsoft.com/67bc087f-7519-4c8a-9b34-b3ecd306a334">QueryContextAttributes (General)</a> function uses this structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function uses this structure.
 
 
 ## -struct-fields
@@ -73,7 +73,7 @@ Pointer to package-specific authorization data.
 
 
 
-<a href="https://msdn.microsoft.com/67bc087f-7519-4c8a-9b34-b3ecd306a334">QueryContextAttributes (General)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a>
  
 
  

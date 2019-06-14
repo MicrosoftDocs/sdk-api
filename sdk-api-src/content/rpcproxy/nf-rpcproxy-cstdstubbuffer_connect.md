@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[CStdStubBuffer_Connect is not supported and may be altered or unavailable in the future.]
 
-The <b>CStdStubBuffer_Connect</b> function implements the  <a href="https://msdn.microsoft.com/en-us/library/ms678495(v=VS.85).aspx">IRpcStubBuffer::Connect</a> method and connects the server object to the stub.
+The <b>CStdStubBuffer_Connect</b> function implements the  <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-connect">IRpcStubBuffer::Connect</a> method and connects the server object to the stub.
 
 
 ## -parameters
@@ -61,12 +61,12 @@ The <b>CStdStubBuffer_Connect</b> function implements the  <a href="https://msdn
 
 ### -param This [in]
 
-Pointer to  the <a href="https://msdn.microsoft.com/en-us/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a> object. 
+Pointer to  the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a> object. 
 
 
 ### -param pUnkServer [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface of the server object. 
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the server object. 
 
 
 ## -returns

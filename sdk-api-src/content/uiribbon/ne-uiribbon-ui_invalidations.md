@@ -59,7 +59,7 @@ Specifies values that identify the aspect of a Command to invalidate.
 
 ### -field UI_INVALIDATIONS_STATE
 
-A state property, such as <a href="https://msdn.microsoft.com/en-us/library/Dd940400(v=VS.85).aspx">UI_PKEY_Enabled</a>.
+A state property, such as <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-properties-uipkey-enabled">UI_PKEY_Enabled</a>.
 
 
 ### -field UI_INVALIDATIONS_VALUE
@@ -82,11 +82,11 @@ All properties.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371540(v=VS.85).aspx">Constants and Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-enumerations">Constants and Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371375(v=VS.85).aspx">IUIFramework::InvalidateUICommand</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand">IUIFramework::InvalidateUICommand</a>
  
 
  

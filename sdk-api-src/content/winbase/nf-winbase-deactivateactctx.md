@@ -99,7 +99,7 @@ This value should be specified in most cases.
 </td>
 <td width="60%">
 If this value is set and the cookie specified in the <i>ulCookie</i> parameter is in the top frame of the activation stack, the function  returns an ERROR_INVALID_PARAMETER error code. Call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> to obtain this code. 
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to obtain this code. 
 
 
 
@@ -117,7 +117,7 @@ If this value is set and the cookie is in a lower frame of the activation stack,
 ### -param ulCookie [in]
 
 The ULONG_PTR that was passed into the call to 
-<a href="https://msdn.microsoft.com/03381d95-1b5d-4b70-8c86-937ab9b2672d">ActivateActCtx</a>. This value is used as a cookie to identify a specific activated activation context.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-activateactctx">ActivateActCtx</a>. This value is used as a cookie to identify a specific activated activation context.
 
 
 ## -returns
@@ -127,9 +127,9 @@ The ULONG_PTR that was passed into the call to
 If the function succeeds, it returns <b>TRUE</b>. Otherwise, it returns <b>FALSE</b>.
 
 This function sets errors that can be retrieved by calling 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. For an example, see 
-<a href="https://msdn.microsoft.com/4cc626ac-7574-44ce-8377-e0bdd8e74b7e">Retrieving the Last-Error Code</a>. For a complete list of error codes, see 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. For an example, see 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/retrieving-the-last-error-code">Retrieving the Last-Error Code</a>. For a complete list of error codes, see 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -148,7 +148,7 @@ The deactivation of activation contexts must occur in the reverse order of activ
 
 
 
-<a href="https://msdn.microsoft.com/03381d95-1b5d-4b70-8c86-937ab9b2672d">ActivateActCtx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-activateactctx">ActivateActCtx</a>
  
 
  

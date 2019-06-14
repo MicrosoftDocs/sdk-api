@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the specified object's site by calling its <a href="https://msdn.microsoft.com/5e95b2a6-85b3-4899-9e23-54ed9e69e821">IObjectWithSite::SetSite</a> method.
+Sets the specified object's site by calling its <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-setsite">IObjectWithSite::SetSite</a> method.
 
 
 ## -parameters
@@ -63,14 +63,14 @@ Sets the specified object's site by calling its <a href="https://msdn.microsoft.
 
 ### -param punk [in]
 
-Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
 A pointer to the IUnknown interface of the object whose site is to be changed.
 
 
 ### -param punkSite [in]
 
-Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
 A pointer to the IUnknown interface of the new site.
 
@@ -90,7 +90,7 @@ Returns S_OK if the site was successfully set, or a COM error code otherwise.
 
 
 
-This function calls the specified object's IUnknown::QueryInterface method to obtain a pointer to the object's <a href="https://msdn.microsoft.com/e688136e-e06b-46ba-bec9-b8db2f9c468d">IObjectWithSite</a> interface.  If successful, the function calls <a href="https://msdn.microsoft.com/5e95b2a6-85b3-4899-9e23-54ed9e69e821">IObjectWithSite::SetSite</a> to set or change the site.
+This function calls the specified object's IUnknown::QueryInterface method to obtain a pointer to the object's <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iobjectwithsite">IObjectWithSite</a> interface.  If successful, the function calls <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-setsite">IObjectWithSite::SetSite</a> to set or change the site.
 
 
 

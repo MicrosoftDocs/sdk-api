@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-It retrieves the print devices resources for a printer formatted in compliance with the XML <a href="https://msdn.microsoft.com/98d5f8ec-54bd-4e88-b632-ed427b599cb6">Print Schema</a>.
+It retrieves the print devices resources for a printer formatted in compliance with the XML <a href="https://docs.microsoft.com/windows/desktop/printdocs/printschema">Print Schema</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ It retrieves the print devices resources for a printer formatted in compliance w
 
 ### -param hProvider [in]
 
-A handle to an open device provider whose print device resources are to be retrieved. This handle is returned by the <a href="https://msdn.microsoft.com/6821b1b0-74b0-4caf-b8e6-a9df4d7693d7">PTOpenProvider</a> or the <a href="https://msdn.microsoft.com/0e65170b-66f6-4238-bdde-0a0b7108a686">PTOpenProviderEx</a> function.
+A handle to an open device provider whose print device resources are to be retrieved. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptopenprovider">PTOpenProvider</a> or the <a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptopenproviderex">PTOpenProviderEx</a> function.
 
 
 ### -param pszLocaleName [in]
@@ -96,11 +96,11 @@ If the operation succeeds, the return value is S_OK. Otherwise, returns an error
 
 
 
-<a href="https://msdn.microsoft.com/925e314c-85ff-4c1b-b3c9-f36aa4b55e01">PTGetPrintCapabilities</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptgetprintcapabilities">PTGetPrintCapabilities</a>
 
 
 
-<a href="https://msdn.microsoft.com/DB9D63B1-2703-47F7-8F31-30FA0110E1E9">PTGetPrintDeviceCapabilities</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptgetprintdevicecapabilities">PTGetPrintDeviceCapabilities</a>
  
 
  

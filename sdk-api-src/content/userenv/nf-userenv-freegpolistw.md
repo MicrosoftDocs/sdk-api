@@ -63,9 +63,9 @@ The
 ### -param pGPOList [in]
 
 A pointer to the list of GPO structures. This list is returned by the 
-<a href="https://msdn.microsoft.com/26c54ac5-23d7-40ed-94a9-70d25e14431f">GetGPOList</a> or 
-<a href="https://msdn.microsoft.com/11e80a4e-acc4-4229-aa34-8f7d083c1041">GetAppliedGPOList</a> function. For more information, see 
-<a href="https://msdn.microsoft.com/7275a3cd-6b19-4eb9-9481-b73bd5af5753">GROUP_POLICY_OBJECT</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-getgpolista">GetGPOList</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-getappliedgpolista">GetAppliedGPOList</a> function. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-_group_policy_objecta">GROUP_POLICY_OBJECT</a>.
 
 
 ## -returns
@@ -75,7 +75,7 @@ A pointer to the list of GPO structures. This list is returned by the
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -85,24 +85,24 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/7275a3cd-6b19-4eb9-9481-b73bd5af5753">GROUP_POLICY_OBJECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-_group_policy_objecta">GROUP_POLICY_OBJECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/11e80a4e-acc4-4229-aa34-8f7d083c1041">GetAppliedGPOList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-getappliedgpolista">GetAppliedGPOList</a>
 
 
 
-<a href="https://msdn.microsoft.com/26c54ac5-23d7-40ed-94a9-70d25e14431f">GetGPOList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-getgpolista">GetGPOList</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c45666e-d7c7-4989-ad19-b1b230757a88">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
     Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/1285ab5a-ea68-4c16-bc34-8ab2f3cfad35">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
  
 

@@ -51,12 +51,12 @@ ms.custom: 19H1
 
 
 Initializes a 
-<a href="https://msdn.microsoft.com/29820c1d-2add-402d-a9ca-9e8674d85f7f">CVssWriterEx</a> object and allows a writer application to interact with VSS. Unlike the <a href="https://msdn.microsoft.com/a427ebbd-b7c4-46ba-ba16-dd601b1f956e">Initialize</a> method, the <b>InitializeEx</b> method allows the caller to specify writer version information.
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex">CVssWriterEx</a> object and allows a writer application to interact with VSS. Unlike the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-initialize">Initialize</a> method, the <b>InitializeEx</b> method allows the caller to specify writer version information.
 
 <b>InitializeEx</b> is a public method implemented by the 
-<a href="https://msdn.microsoft.com/29820c1d-2add-402d-a9ca-9e8674d85f7f">CVssWriterEx</a> base class.
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex">CVssWriterEx</a> base class.
 
-Writers must call <a href="https://msdn.microsoft.com/a427ebbd-b7c4-46ba-ba16-dd601b1f956e">Initialize</a> or <b>InitializeEx</b>, but not both.
+Writers must call <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-initialize">Initialize</a> or <b>InitializeEx</b>, but not both.
 
 
 ## -parameters
@@ -86,19 +86,19 @@ The minor version of the writer application. For more information, see the Remar
 
 ### -param ut [in]
 
-A <a href="https://msdn.microsoft.com/31997417-d993-4f28-b108-ce1dd8239650">VSS_USAGE_TYPE</a> enumeration value that indicates how the data that is managed by the writer is used on the host system.
+A <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_usage_type">VSS_USAGE_TYPE</a> enumeration value that indicates how the data that is managed by the writer is used on the host system.
 
 
 ### -param st [in]
 
 A 
-      <a href="https://msdn.microsoft.com/cb89c3cc-5a8e-419e-839c-f72a1886eadf">VSS_SOURCE_TYPE</a> enumeration value that indicates the type of data that is managed by the writer.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_source_type">VSS_SOURCE_TYPE</a> enumeration value that indicates the type of data that is managed by the writer.
 
 
 ### -param nLevel [in]
 
 A 
-      <a href="https://msdn.microsoft.com/fc7fbaee-d223-4557-987d-2c09f3877ec2">VSS_APPLICATION_LEVEL</a> enumeration value that indicates the application level at which the writer receives a <a href="https://msdn.microsoft.com/en-us/library/Aa384656(v=VS.85).aspx">Freeze</a> event notification. 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_application_level">VSS_APPLICATION_LEVEL</a> enumeration value that indicates the application level at which the writer receives a <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-f">Freeze</a> event notification. 
 
 
 
@@ -108,8 +108,8 @@ The default value for this parameter is VSS_APP_FRONT_END.
 
 ### -param dwTimeoutFreeze [in]
 
-The maximum permitted time, in milliseconds, between the writer's  receipt of a <a href="https://msdn.microsoft.com/en-us/library/Aa384656(v=VS.85).aspx">Freeze</a> event notification and its receipt of a matching <a href="https://msdn.microsoft.com/en-us/library/Aa384668(v=VS.85).aspx">Thaw</a> event notification from VSS. After the time-out expires, the writer's 
-<a href="https://msdn.microsoft.com/56ba5f08-4803-4137-9edd-ce05bc19773b">OnAbort</a> method is called automatically. 
+The maximum permitted time, in milliseconds, between the writer's  receipt of a <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-f">Freeze</a> event notification and its receipt of a matching <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-t">Thaw</a> event notification from VSS. After the time-out expires, the writer's 
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onabort">OnAbort</a> method is called automatically. 
 
 
 
@@ -119,7 +119,7 @@ The default value for this parameter is 60000.
 
 ### -param aws [in]
 
-A <a href="https://msdn.microsoft.com/8d41fd9d-6448-4bec-a669-4aa50f37cada">VSS_ALTERNATE_WRITER_STATE</a> enumeration value that indicates whether the writer has an associated alternate writer. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_alternate_writer_state">VSS_ALTERNATE_WRITER_STATE</a> enumeration value that indicates whether the writer has an associated alternate writer. 
 
 
 
@@ -221,7 +221,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -237,7 +237,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 
-The <b>InitializeEx</b> method is identical to the <a href="https://msdn.microsoft.com/a427ebbd-b7c4-46ba-ba16-dd601b1f956e">Initialize</a> method except for the <i>dwMajorVersion</i> and <i>dwMinorVersion</i> parameters. If the writer uses <b>Initialize</b> instead of <b>InitializeEx</b>, the writer version will be reported as 0.0 (major version = 0, minor version = 0) by the <a href="https://msdn.microsoft.com/d702263e-0ea5-428c-bbd6-1ab8a7334a92">IVssExamineWriterMetadataEx2::GetVersion</a> method.
+The <b>InitializeEx</b> method is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-initialize">Initialize</a> method except for the <i>dwMajorVersion</i> and <i>dwMinorVersion</i> parameters. If the writer uses <b>Initialize</b> instead of <b>InitializeEx</b>, the writer version will be reported as 0.0 (major version = 0, minor version = 0) by the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadataex2-getversion">IVssExamineWriterMetadataEx2::GetVersion</a> method.
 
 The <i>dwMajorVersion</i> and <i>dwMinorVersion</i> parameters are used to specify the writer major and minor version numbers according to the following VSS conventions:
 
@@ -261,11 +261,11 @@ The <i>wszWriterInstanceName</i> parameter allows a multi-instance writer to spe
 
 
 
-<a href="https://msdn.microsoft.com/29820c1d-2add-402d-a9ca-9e8674d85f7f">CVssWriterEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex">CVssWriterEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/d702263e-0ea5-428c-bbd6-1ab8a7334a92">IVssExamineWriterMetadataEx2::GetVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadataex2-getversion">IVssExamineWriterMetadataEx2::GetVersion</a>
  
 
  

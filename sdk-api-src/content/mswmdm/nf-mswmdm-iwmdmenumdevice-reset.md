@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>Reset</b> method resets the enumeration so that <a href="https://msdn.microsoft.com/75a5961f-2c61-4e10-a570-7ebfabb97367">Next</a> returns a pointer to the first device.
+The <b>Reset</b> method resets the enumeration so that <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumdevice-next">Next</a> returns a pointer to the first device.
 
 
 
@@ -74,7 +74,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 
 
@@ -84,7 +84,7 @@ For an extensive list of possible error codes, see <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/fcb93d2a-2107-4aa9-9b3a-130044d7dc96">IWMDMEnumDevice Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmenumdevice">IWMDMEnumDevice Interface</a>
  
 
  

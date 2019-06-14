@@ -61,21 +61,21 @@ Identifies the tier of resource binding being used.
 ### -field D3D12_RESOURCE_BINDING_TIER_1
 
 Tier 1.
-            See <a href="https://msdn.microsoft.com/5A640BA9-3914-4481-9A0C-E18B52BD8AFE">Hardware Tiers</a>.
+            See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/hardware-support">Hardware Tiers</a>.
           
 
 
 ### -field D3D12_RESOURCE_BINDING_TIER_2
 
 Tier 2.
-            See <a href="https://msdn.microsoft.com/5A640BA9-3914-4481-9A0C-E18B52BD8AFE">Hardware Tiers</a>.
+            See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/hardware-support">Hardware Tiers</a>.
           
 
 
 ### -field D3D12_RESOURCE_BINDING_TIER_3
 
 Tier 3.
-            See <a href="https://msdn.microsoft.com/5A640BA9-3914-4481-9A0C-E18B52BD8AFE">Hardware Tiers</a>.
+            See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/hardware-support">Hardware Tiers</a>.
           
 
 
@@ -83,7 +83,7 @@ Tier 3.
 
 
 
-This enum is used by the <a href="https://msdn.microsoft.com/3193E3CC-C6CA-43D4-8D8C-41B7FCEE2BDF">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure.
+This enum is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure.
       
 
 
@@ -94,11 +94,11 @@ This enum is used by the <a href="https://msdn.microsoft.com/3193E3CC-C6CA-43D4-
 
 
 
-<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/5A640BA9-3914-4481-9A0C-E18B52BD8AFE">Hardware Tiers</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/hardware-support">Hardware Tiers</a>
  
 
  

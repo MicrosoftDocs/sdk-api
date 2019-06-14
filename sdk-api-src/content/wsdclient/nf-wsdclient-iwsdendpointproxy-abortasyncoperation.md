@@ -59,7 +59,7 @@ Aborts a pending asynchronous operation.
 
 ### -param pAsyncResult [in]
 
-Calls the <a href="https://msdn.microsoft.com/9237bcb4-4404-4d15-a18a-1d651e3fb899">Abort</a> method to end the asynchronous operation. 
+Calls the <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdasyncresult-abort">Abort</a> method to end the asynchronous operation. 
 
 
 ## -returns
@@ -96,7 +96,7 @@ Method completed successfully.
 </dl>
 </td>
 <td width="60%">
-<i>pAsyncResult</i> is <b>NULL</b> or <i>pAsyncResult</i> does not support the <a href="https://msdn.microsoft.com/24108143-55b7-4098-a4cc-025dfdfd054a">IWSDAsyncCallback</a> interface.
+<i>pAsyncResult</i> is <b>NULL</b> or <i>pAsyncResult</i> does not support the <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasynccallback">IWSDAsyncCallback</a> interface.
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ Method completed successfully.
 
 
 
-<a href="https://msdn.microsoft.com/58ca085f-8939-413c-8fd3-4d867b1cf490">IWSDEndpointProxy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdendpointproxy">IWSDEndpointProxy</a>
  
 
  

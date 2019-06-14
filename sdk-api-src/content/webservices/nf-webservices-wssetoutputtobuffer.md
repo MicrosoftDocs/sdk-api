@@ -52,9 +52,9 @@ ms.custom: 19H1
 This operation positions the Writer at the end of the specified buffer.
       
         When an XML Writer has an XML Buffer set as output the Writer can be used in a "random access" fashion and
-        the functions <a href="https://msdn.microsoft.com/0c0fbd78-ed4f-40da-a63d-a2f38136ecb3">WsGetWriterPosition</a>, <a href="https://msdn.microsoft.com/1d23bda1-d1da-44d4-9a9d-258bba200b29">WsSetWriterPosition</a> and <a href="https://msdn.microsoft.com/f8eace53-9fa5-466a-8894-3c8b8fe049e3">WsMoveWriter</a> can be used.
+        the functions <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetwriterposition">WsGetWriterPosition</a>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetwriterposition">WsSetWriterPosition</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsmovewriter">WsMoveWriter</a> can be used.
       Properties
-        specified for this function override those specified with the <code>WsCreateWriter</code> function. <div class="alert"><b>Note</b>  See <a href="https://msdn.microsoft.com/5b4bb009-764e-4892-903a-5939f5570016">WsCreateWriter</a> for the default values of the properties of the writer.
+        specified for this function override those specified with the <code>WsCreateWriter</code> function. <div class="alert"><b>Note</b>  See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatewriter">WsCreateWriter</a> for the default values of the properties of the writer.
       </div>
 <div> </div>
 
@@ -67,7 +67,7 @@ This operation positions the Writer at the end of the specified buffer.
 
 ### -param writer [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/8f413e60-8a30-492c-8f2d-80be511fee11">WS_XML_WRITER</a> object for which the output is set.  The pointer must reference a valid <b>XML Writer</b> object.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> object for which the output is set.  The pointer must reference a valid <b>XML Writer</b> object.
                 
 
 
@@ -89,7 +89,7 @@ The number of properties.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 
@@ -125,7 +125,7 @@ One or more arguments are invalid.
 
 
 
-See <a href="https://msdn.microsoft.com/5b4bb009-764e-4892-903a-5939f5570016">WsCreateWriter</a> for the default values of the properties of the writer.
+See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatewriter">WsCreateWriter</a> for the default values of the properties of the writer.
       
 
 

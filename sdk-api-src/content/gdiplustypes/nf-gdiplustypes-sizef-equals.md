@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>SizeF::Equals</b> method determines whether two 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a> objects are equal.
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a> objects are equal.
 
 
 ## -parameters
@@ -61,10 +61,10 @@ The <b>SizeF::Equals</b> method determines whether two
 
 ### -param sz [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a></b>
 
 Reference to a 
-					<a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a> object that is compared to this 
+					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a> object that is compared to this 
 					<b>SizeF</b> object. 
 
 
@@ -78,7 +78,7 @@ Type: <strong>Type: <b>BOOL</b>
 If the 
 						<b>Width</b> and 
 						<b>Height</b> data members of the two 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a> objects are equal, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a> objects are equal, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 
 
 
@@ -88,7 +88,7 @@ If the
 
 
 Two 
-				<a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a> objects are defined as equal if the 
+				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a> objects are defined as equal if the 
 				<b>Width</b> and 
 				<b>Height</b> data members are equal.
 
@@ -121,15 +121,15 @@ if(rectSizeF.Equals(desiredSizeF))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534747(v=VS.85).aspx">Size Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-class-size-constructors">Size Constructors</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a>
  
 
  

@@ -91,7 +91,7 @@ The method was successful.
 
 
 
-Applications should clear the anchor change history flags after receiving this call. The change history flags were set by <a href="https://msdn.microsoft.com/d373a379-1d27-4438-abaf-2e11f2332790">IAnchor::GetChangeHistory</a>.
+Applications should clear the anchor change history flags after receiving this call. The change history flags were set by <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-getchangehistory">IAnchor::GetChangeHistory</a>.
 
 
 
@@ -101,11 +101,11 @@ Applications should clear the anchor change history flags after receiving this c
 
 
 
-<a href="https://msdn.microsoft.com/a7d52959-8386-464f-958d-c870f286b265">IAnchor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a>
 
 
 
-<a href="https://msdn.microsoft.com/d373a379-1d27-4438-abaf-2e11f2332790">IAnchor::GetChangeHistory
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-getchangehistory">IAnchor::GetChangeHistory
       </a>
  
 

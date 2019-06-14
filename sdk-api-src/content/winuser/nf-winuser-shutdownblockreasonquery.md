@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the reason string set by the <a href="https://msdn.microsoft.com/4c6f9159-fac2-431e-bbdf-c35c4cdb25ac">ShutdownBlockReasonCreate</a> function.
+Retrieves the reason string set by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-shutdownblockreasoncreate">ShutdownBlockReasonCreate</a> function.
 
 
 ## -parameters
@@ -79,7 +79,7 @@ A pointer to a variable that specifies the size of the <i>pwszBuff</i> buffer, i
 If the call succeeds, the return value is nonzero.
 
 If the call fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -136,11 +136,11 @@ BOOL DisplayShutdownBlockReason()
 
 
 
-<a href="https://msdn.microsoft.com/4c6f9159-fac2-431e-bbdf-c35c4cdb25ac">ShutdownBlockReasonCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-shutdownblockreasoncreate">ShutdownBlockReasonCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/acadf58f-3f68-4fa1-bdcf-8f85c8479263">Shutting Down</a>
+<a href="https://docs.microsoft.com/windows/desktop/Shutdown/shutting-down">Shutting Down</a>
  
 
  

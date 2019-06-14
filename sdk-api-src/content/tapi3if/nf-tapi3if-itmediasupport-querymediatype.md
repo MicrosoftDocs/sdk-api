@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>QueryMediaType</b> method indicates whether the service provider associated with the current address supports the 
-<a href="https://msdn.microsoft.com/3e418c9a-a008-4b94-b5d2-7c2eccb3bf87">media type</a> or types indicated by <i>lMediaType</i>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">media type</a> or types indicated by <i>lMediaType</i>.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param lMediaType [in]
 
 
-<a href="https://msdn.microsoft.com/3e418c9a-a008-4b94-b5d2-7c2eccb3bf87">Media type</a> or types being queried.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">Media type</a> or types being queried.
 
 
 ### -param pfSupport [out]
@@ -125,11 +125,11 @@ Insufficient memory exists to perform the operation.
 
 
 
-<a href="https://msdn.microsoft.com/ab6db262-f99e-4027-9525-7597fcf02e72">Address Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/196995f1-b8d0-4ec1-b94e-61a02a258087">ITMediaSupport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itmediasupport">ITMediaSupport</a>
  
 
  

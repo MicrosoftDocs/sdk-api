@@ -74,12 +74,12 @@ The<i> DxGetCurrentAutoflip</i> callback function is called when the device is h
 
 #### - GetCurrentAutoflipInInfo
 
-Points to the <a href="https://msdn.microsoft.com/17443cab-7dc6-4bc9-ae0c-463c6f76d768">DDGETCURRENTAUTOFLIPININFO</a> structure that contains the VPE object information.
+Points to the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddgetcurrentautoflipininfo">DDGETCURRENTAUTOFLIPININFO</a> structure that contains the VPE object information.
 
 
 #### - GetCurrentAutoflipOutInfo
 
-Points to the <a href="https://msdn.microsoft.com/2dea32ab-9f4a-4184-9979-1103f1b26730">DDGETCURRENTAUTOFLIPOUTINFO</a> structure that contains the surface information.
+Points to the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddgetcurrentautoflipoutinfo">DDGETCURRENTAUTOFLIPOUTINFO</a> structure that contains the surface information.
 
 
 #### - HwDeviceExtension
@@ -110,11 +110,11 @@ The <i>DxGetCurrentAutoflip</i> function returns the current index in the autofl
 
 
 
-<a href="https://msdn.microsoft.com/17443cab-7dc6-4bc9-ae0c-463c6f76d768">DDGETCURRENTAUTOFLIPININFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddgetcurrentautoflipininfo">DDGETCURRENTAUTOFLIPININFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/2dea32ab-9f4a-4184-9979-1103f1b26730">DDGETCURRENTAUTOFLIPOUTINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddgetcurrentautoflipoutinfo">DDGETCURRENTAUTOFLIPOUTINFO</a>
  
 
  

@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/83529CFD-46D2-45A7-9B0D-F00FF43D911B">IUIAutomationStylesPattern</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationstylespattern">IUIAutomationStylesPattern</a>
  
 
  

@@ -53,8 +53,8 @@ ms.custom: 19H1
 The <b>SetContext</b> method causes the current instantiation of the interface to operate on the request referenced by <i>Context</i>.
 
 This must be identical to a value given by the <i>Context</i> parameter in 
-<a href="https://msdn.microsoft.com/ebe4ef0c-5778-4a62-b112-9b16b250814f">ICertExit::Notify</a>. This method must be called before calling any of the other 
-<a href="https://msdn.microsoft.com/1554c09c-a7c1-44ad-9821-93c0913212fc">ICertServerExit</a> methods, in order that the interface reference a valid request.
+<a href="https://docs.microsoft.com/windows/desktop/api/certexit/nf-certexit-icertexit-notify">ICertExit::Notify</a>. This method must be called before calling any of the other 
+<a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverexit">ICertServerExit</a> methods, in order that the interface reference a valid request.
 
 
 ## -parameters
@@ -74,7 +74,7 @@ Specifies the request and associated certificate under construction.
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -84,15 +84,15 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-<a href="https://msdn.microsoft.com/ebe4ef0c-5778-4a62-b112-9b16b250814f">ICertExit::Notify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certexit/nf-certexit-icertexit-notify">ICertExit::Notify</a>
 
 
 
-<a href="https://msdn.microsoft.com/860f0eb0-5b23-44bd-8416-687a94962f1b">ICertPolicy::VerifyRequest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certpol/nf-certpol-icertpolicy-verifyrequest">ICertPolicy::VerifyRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/1554c09c-a7c1-44ad-9821-93c0913212fc">ICertServerExit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverexit">ICertServerExit</a>
  
 
  

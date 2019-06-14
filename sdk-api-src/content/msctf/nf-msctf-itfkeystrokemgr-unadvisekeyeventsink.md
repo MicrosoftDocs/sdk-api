@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ### -param tid [in]
 
-Identifier of the client that owns the key event sink. This value was passed when the advise sink was installed using <a href="https://msdn.microsoft.com/dfda786a-09f5-412c-878d-0ba0cbbdafe0">ITfKeystrokeMgr::AdviseKeyEventSink</a>.
+Identifier of the client that owns the key event sink. This value was passed when the advise sink was installed using <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-advisekeyeventsink">ITfKeystrokeMgr::AdviseKeyEventSink</a>.
 
 
 ## -returns
@@ -116,11 +116,11 @@ The advise sink identified by <i>tid</i> was not found.
 
 
 
-<a href="https://msdn.microsoft.com/93c1591d-2c95-45cb-8fc5-5726e905f202">ITfKeystrokeMgr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfkeystrokemgr">ITfKeystrokeMgr</a>
 
 
 
-<a href="https://msdn.microsoft.com/dfda786a-09f5-412c-878d-0ba0cbbdafe0">ITfKeystrokeMgr::AdviseKeyEventSink
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-advisekeyeventsink">ITfKeystrokeMgr::AdviseKeyEventSink
       </a>
  
 

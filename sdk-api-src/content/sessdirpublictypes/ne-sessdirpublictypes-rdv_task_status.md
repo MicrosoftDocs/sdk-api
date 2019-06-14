@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used with the <a href="https://msdn.microsoft.com/3021ea7a-2627-48d1-8df5-c40e7a9b51c5">IRDVTaskPluginNotifySink::OnTaskStateChange</a> method to indicate the status of a task.
+Used with the <a href="https://docs.microsoft.com/windows/desktop/TermServ/irdvtaskpluginnotifysink-ontaskstatechange">IRDVTaskPluginNotifySink::OnTaskStateChange</a> method to indicate the status of a task.
 
 
 ## -enum-fields
@@ -107,7 +107,7 @@ Task did not finish in the allotted time.
 
 
 
-<a href="https://msdn.microsoft.com/3021ea7a-2627-48d1-8df5-c40e7a9b51c5">IRDVTaskPluginNotifySink::OnTaskStateChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/TermServ/irdvtaskpluginnotifysink-ontaskstatechange">IRDVTaskPluginNotifySink::OnTaskStateChange</a>
  
 
  

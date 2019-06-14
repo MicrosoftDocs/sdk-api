@@ -149,7 +149,7 @@ Cannot read data from stream supplied for file <i>'%1!ls!'</i>.
 </dl>
 </td>
 <td width="60%">
-The referenced <a href="https://msdn.microsoft.com/0256f1d2-a3fb-45b2-bd84-e2b71148e4ec">IFileSystemImage</a> object is in read only mode.
+The referenced <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a> object is in read only mode.
 
 </td>
 </tr>
@@ -234,7 +234,7 @@ This method is supported in Windows Server 2003 with Service Pack 1 (SP1), Win
 
 
 
-<a href="https://msdn.microsoft.com/fed2a858-d710-46be-a05b-dce7ef484636">IFsiDirectoryItem2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsidirectoryitem2">IFsiDirectoryItem2</a>
  
 
  

@@ -59,7 +59,7 @@ Retrieves the number of a document's first page and the total number of pages.
 
 ### -param pnFirstPage [out]
 
-A pointer to a variable that receives the page number of the first page. This parameter can be <b>NULL</b>, indicating that the caller is not interested in this number. If <a href="https://msdn.microsoft.com/352a4dc0-c79e-46e3-8212-55fd7d2916bc">IPrint::SetInitialPageNum</a> has been called, this parameter should contain the same value passed to that method. Otherwise, the value is the document's internal first page number.
+A pointer to a variable that receives the page number of the first page. This parameter can be <b>NULL</b>, indicating that the caller is not interested in this number. If <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iprint-setinitialpagenum">IPrint::SetInitialPageNum</a> has been called, this parameter should contain the same value passed to that method. Otherwise, the value is the document's internal first page number.
 
 
 ### -param pcPages [out]
@@ -81,7 +81,7 @@ This method can return the standard return values E_UNEXPECTED and S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/eb0d15c0-8a34-4211-b840-29d5862cf767">IPrint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-iprint">IPrint</a>
  
 
  

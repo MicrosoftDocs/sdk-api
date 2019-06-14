@@ -50,14 +50,14 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides methods to manage volumes.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsVolume</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IVdsVolume</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsVolume</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsVolume</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IVdsVolume</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b463ad74-400d-4100-83ff-3eb98e6a0db4">AddPlex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolume-addplex">AddPlex</a>
 </td>
 <td align="left" width="63%">
 Adds a volume as a plex to the current volume.
@@ -81,7 +81,7 @@ Adds a volume as a plex to the current volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c7e42aa4-3233-40e9-b537-043eecd192ad">BreakPlex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolume-breakplex">BreakPlex</a>
 </td>
 <td align="left" width="63%">
 Removes a specified plex from the current volume.
@@ -90,7 +90,7 @@ Removes a specified plex from the current volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/970dcd4a-ac06-4e2d-969c-82c5dabd0019">ClearFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolume-clearflags">ClearFlags</a>
 </td>
 <td align="left" width="63%">
 Clears the volumes flags.
@@ -99,7 +99,7 @@ Clears the volumes flags.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6cc7cb6d-4495-41b7-8fe5-d2e1f574ed70">Delete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolume-delete">Delete</a>
 </td>
 <td align="left" width="63%">
 Deletes all plexes in the current volume, releasing the extents.
@@ -108,7 +108,7 @@ Deletes all plexes in the current volume, releasing the extents.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8f31dd3e-0c06-49fe-8ff2-55cfabe5099e">Extend</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolume-extend">Extend</a>
 </td>
 <td align="left" width="63%">
 Expands the size of the current volume by adding disk extents to the members of each plex.
@@ -117,7 +117,7 @@ Expands the size of the current volume by adding disk extents to the members of 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8719c4a4-a7d6-4329-a601-5c88de18f53d">GetPack</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolume-getpack">GetPack</a>
 </td>
 <td align="left" width="63%">
 Returns the pack to which the volume is a member.
@@ -126,7 +126,7 @@ Returns the pack to which the volume is a member.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ba4a92c9-35f1-463a-8fa3-1a0d78720555">GetProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolume-getproperties">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Returns the property information of the current volume.
@@ -135,7 +135,7 @@ Returns the property information of the current volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/33fc5b7c-4d05-4ec7-8d03-631c6d9f2f34">QueryPlexes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolume-queryplexes">QueryPlexes</a>
 </td>
 <td align="left" width="63%">
 Returns an enumeration that contains all plexes for the volume.
@@ -144,7 +144,7 @@ Returns an enumeration that contains all plexes for the volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/724f80e7-4656-4956-aaad-9f778329f139">RemovePlex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolume-removeplex">RemovePlex</a>
 </td>
 <td align="left" width="63%">
 Removes one or more specified plexes from the current volume, releasing the extents.
@@ -153,7 +153,7 @@ Removes one or more specified plexes from the current volume, releasing the exte
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f426b089-6c5f-4ab4-aa92-127e24cb57b1">SetFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolume-setflags">SetFlags</a>
 </td>
 <td align="left" width="63%">
 Sets the volume flags.
@@ -162,7 +162,7 @@ Sets the volume flags.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/63ac6ef9-0e84-40ed-a302-4f32316a41cc">Shrink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolume-shrink">Shrink</a>
 </td>
 <td align="left" width="63%">
 Reduces the size of all volume plexes and releases the extents.
@@ -177,19 +177,19 @@ Reduces the size of all volume plexes and releases the extents.
 
 
 
-<a href="https://msdn.microsoft.com/43f9972d-14a6-4674-bf90-741ad3a9eb0d">IVdsPack::QueryVolumes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdspack-queryvolumes">IVdsPack::QueryVolumes</a>
 
 
 
-<a href="https://msdn.microsoft.com/0bddfd62-881d-4fda-b303-ed38d434af55">VDS Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/3628b312-f830-4a1c-beb7-ad002a94313c">VDS_VOLUME_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_volume_prop">VDS_VOLUME_PROP</a>
 
 
 
-<a href="https://msdn.microsoft.com/92013015-b0f5-4b92-937b-c2637f65810c">Volume Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/volume-object">Volume Object</a>
  
 
  

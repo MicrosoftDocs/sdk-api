@@ -81,7 +81,7 @@ The window has focus and is valid.
 
 
 
-A value from this enumeration is passed as the <i>nCmdExecOpt</i> parameter to <a href="https://msdn.microsoft.com/a2071ca9-8675-4f53-b30e-8c7198c2acca">IOleCommandTarget::Exec</a> in conjunction with passing the OLECMDID_WINDOWSTATECHANGED value of the <a href="https://msdn.microsoft.com/ae1592b6-2afd-4379-a18e-d46b226bc9e2">OLECMDID</a> enumeration as the <i>nCmdID</i> parameter.
+A value from this enumeration is passed as the <i>nCmdExecOpt</i> parameter to <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-exec">IOleCommandTarget::Exec</a> in conjunction with passing the OLECMDID_WINDOWSTATECHANGED value of the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ne-docobj-olecmdid">OLECMDID</a> enumeration as the <i>nCmdID</i> parameter.
 
 
 
@@ -91,7 +91,7 @@ A value from this enumeration is passed as the <i>nCmdExecOpt</i> parameter to <
 
 
 
-<a href="https://msdn.microsoft.com/ae1592b6-2afd-4379-a18e-d46b226bc9e2">OLECMDID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/ne-docobj-olecmdid">OLECMDID</a>
  
 
  

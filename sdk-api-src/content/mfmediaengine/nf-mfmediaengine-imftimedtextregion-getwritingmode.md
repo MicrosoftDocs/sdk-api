@@ -59,9 +59,9 @@ Gets the writing mode of the region.
 
 ### -param writingMode [out]
 
-Type: <b><a href="https://msdn.microsoft.com/AE77AC07-EA27-4341-97E4-7D0995AF18E8">MF_TIMED_TEXT_WRITING_MODE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_timed_text_writing_mode">MF_TIMED_TEXT_WRITING_MODE</a>*</b>
 
-A pointer to a variable that receives a <a href="https://msdn.microsoft.com/AE77AC07-EA27-4341-97E4-7D0995AF18E8">MF_TIMED_TEXT_WRITING_MODE</a>-typed value that specifies the writing mode of the region.
+A pointer to a variable that receives a <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_timed_text_writing_mode">MF_TIMED_TEXT_WRITING_MODE</a>-typed value that specifies the writing mode of the region.
 
 
 ## -returns
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/1A6E068F-2E01-4A72-8BCF-D645B1D21ECF">IMFTimedTextRegion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextregion">IMFTimedTextRegion</a>
  
 
  

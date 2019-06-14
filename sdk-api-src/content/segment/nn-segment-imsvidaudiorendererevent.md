@@ -57,7 +57,7 @@ This topic applies to Windows XP or later.
 
 The <b>IMSVidAudioRendererEvent</b> interface is used to receive events from the audio renderer.
 
-This interface is an outgoing connection-point interface. To receive events related to audio rendering, implement this interface in your application. Then call the <b>IConnectionPoint::Advise</b> method on the <a href="https://msdn.microsoft.com/0dc7af98-5bf6-47a7-a91e-8211dd165f7c">MSVidAudioRenderer</a> object to establish a connection.
+This interface is an outgoing connection-point interface. To receive events related to audio rendering, implement this interface in your application. Then call the <b>IConnectionPoint::Advise</b> method on the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd695115(v=vs.85)">MSVidAudioRenderer</a> object to establish a connection.
 
 
 ## -remarks
@@ -74,11 +74,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/4f3ad7c0-02fd-4232-89f1-49517c23ee28">IMSVidOutputDeviceEvent</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/segment/nn-segment-imsvidoutputdeviceevent">IMSVidOutputDeviceEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf6c3ce9-1e56-4109-93f1-5b313e6ca19b">Video Control Event Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Event Interfaces</a>
  
 
  

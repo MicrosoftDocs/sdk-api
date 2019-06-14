@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>X509EnrollmentPolicyLoadOption</b> enumeration is used by the <a href="https://msdn.microsoft.com/5b617c6e-91bc-4a22-acd6-41083102850a">LoadPolicy</a> method on the <a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a> interface to specify how to retrieve policy from the policy server.
+The <b>X509EnrollmentPolicyLoadOption</b> enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-loadpolicy">LoadPolicy</a> method on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a> interface to specify how to retrieve policy from the policy server.
 
 
 ## -enum-fields
@@ -82,7 +82,7 @@ Registers a thread to update a sequence number if there are changes to the templ
 
 
 
-<a href="https://msdn.microsoft.com/5b617c6e-91bc-4a22-acd6-41083102850a">LoadPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-loadpolicy">LoadPolicy</a>
  
 
  

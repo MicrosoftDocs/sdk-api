@@ -60,12 +60,12 @@ The <b>SetupDiCreateDeviceInterfaceRegKey</b> function creates a registry key fo
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains the interface for which to create a registry key. The device information set must not contain remote elements.
+A handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains the interface for which to create a registry key. The device information set must not contain remote elements.
 
 
 ### -param DeviceInterfaceData [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/df142e95-aa1c-4d3e-90c6-bac86effbd5d">SP_DEVICE_INTERFACE_DATA</a> structure that specifies the device interface in <i>DeviceInfoSet</i>. This pointer is possibly returned by <a href="https://msdn.microsoft.com/e5f78c34-b61c-4fcb-b021-fb8d07c2d841">SetupDiCreateDeviceInterface</a>.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_device_interface_data">SP_DEVICE_INTERFACE_DATA</a> structure that specifies the device interface in <i>DeviceInfoSet</i>. This pointer is possibly returned by <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinterfacea">SetupDiCreateDeviceInterface</a>.
 
 
 ### -param Reserved
@@ -107,7 +107,7 @@ If the requested key for the device interface already exists, <b>SetupDiCreateDe
 
 Close the handle returned from this function by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=194543">RegCloseKey</a>.
 
-For installations that use layout files (specified by the <b>LayoutFile</b> entry in an <a href="https://msdn.microsoft.com/53e30950-28a3-4ae3-a351-a917b02c84a5">INF Version section</a>), the layout file must be opened by a call to <b>SetupOpenAppendInfFile</b> (described in Windows SDK documentation) before <b>SetupDiCreateDeviceInterfaceRegKey</b> is called.
+For installations that use layout files (specified by the <b>LayoutFile</b> entry in an <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-version-section">INF Version section</a>), the layout file must be opened by a call to <b>SetupOpenAppendInfFile</b> (described in Windows SDK documentation) before <b>SetupDiCreateDeviceInterfaceRegKey</b> is called.
 
 The device information set specified by <i>DeviceInfoSet</i> must only contain elements on the local computer.
 
@@ -119,15 +119,15 @@ The device information set specified by <i>DeviceInfoSet</i> must only contain e
 
 
 
-<a href="https://msdn.microsoft.com/e5f78c34-b61c-4fcb-b021-fb8d07c2d841">SetupDiCreateDeviceInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinterfacea">SetupDiCreateDeviceInterface</a>
 
 
 
-<a href="https://msdn.microsoft.com/470c96d4-b04f-4c9f-9ce3-9ba3d9ae49c1">SetupDiDeleteDeviceInterfaceRegKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdideletedeviceinterfaceregkey">SetupDiDeleteDeviceInterfaceRegKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/950dddcb-2a59-4c2d-826b-147e9acf401a">SetupDiOpenDeviceInterfaceRegKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiopendeviceinterfaceregkey">SetupDiOpenDeviceInterfaceRegKey</a>
  
 
  

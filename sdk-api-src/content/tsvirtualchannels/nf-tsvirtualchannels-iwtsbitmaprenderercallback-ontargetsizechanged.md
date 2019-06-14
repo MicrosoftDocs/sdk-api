@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Called when the size of the render target has changed. The image passed to <a href="https://msdn.microsoft.com/536c6954-0cde-48d1-ba5b-a97c9942f0f6">IWTSBitmapRenderer::Render</a> must conform to this size.
+Called when the size of the render target has changed. The image passed to <a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsbitmaprenderer-render">IWTSBitmapRenderer::Render</a> must conform to this size.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/bdb8280b-6ebc-47e4-9789-47e3bda96efc">IWTSBitmapRendererCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsbitmaprenderercallback">IWTSBitmapRendererCallback</a>
  
 
  

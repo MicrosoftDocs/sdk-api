@@ -51,19 +51,19 @@ ms.custom: 19H1
 
 Use this interface to retrieve information about the previous import session on a sequentially recorded media, if the media contains a previous session. 
 
-The following methods return a collection of <a href="https://msdn.microsoft.com/a983af02-ee0e-4a62-8ae0-fb9a1e0c2571">IMultisession</a> interfaces representing all supported multisession types. <ul>
+The following methods return a collection of <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a> interfaces representing all supported multisession types. <ul>
 <li>
-<a href="https://msdn.microsoft.com/7bb2d100-629f-4b63-a699-ddce85213e72">IDiscFormat2Data::get_MultisessionInterfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_multisessioninterfaces">IDiscFormat2Data::get_MultisessionInterfaces</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/10c0b02e-965e-47ca-95f4-237c21b505ad">IFileSystemImage::get_MultisessionInterfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_multisessioninterfaces">IFileSystemImage::get_MultisessionInterfaces</a>
 </li>
 </ul>The <b>IMultisession::QueryInterface</b> method can be called on each element in the collection to query for the <b>IMultisessionSequential</b> interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMultisessionSequential</b> interface inherits from <a href="https://msdn.microsoft.com/a983af02-ee0e-4a62-8ae0-fb9a1e0c2571">IMultisession</a>. <b>IMultisessionSequential</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMultisessionSequential</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a>. <b>IMultisessionSequential</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,7 +78,7 @@ The <b>IMultisessionSequential</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d308a080-8858-4d80-8203-bce9f8d9bed6">get_FreeSectorsOnMedia</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-imultisessionsequential-get_freesectorsonmedia">get_FreeSectorsOnMedia</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of free sectors available on the media.
@@ -87,7 +87,7 @@ Retrieves the number of free sectors available on the media.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5dd7a321-833a-4fee-8128-675d1b76736c">get_IsFirstDataSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-imultisessionsequential-get_isfirstdatasession">get_IsFirstDataSession</a>
 </td>
 <td align="left" width="63%">
 Determines if this session is the first data session on the media. 
@@ -96,7 +96,7 @@ Determines if this session is the first data session on the media.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a37aa4d1-0862-463d-acf1-3a85e491ef26">get_LastWrittenAddressOfPreviousSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-imultisessionsequential-get_lastwrittenaddressofprevioussession">get_LastWrittenAddressOfPreviousSession</a>
 </td>
 <td align="left" width="63%">
 Retrieves the last sector written in the previous session on the media.
@@ -105,7 +105,7 @@ Retrieves the last sector written in the previous session on the media.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/52bc2a66-e2ac-473b-8b17-1c2d642a76f8">get_NextWritableAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-imultisessionsequential-get_nextwritableaddress">get_NextWritableAddress</a>
 </td>
 <td align="left" width="63%">
 Retrieves the next writable address on the media, including used sectors.
@@ -114,7 +114,7 @@ Retrieves the next writable address on the media, including used sectors.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/97819e2a-c01b-4820-a200-d9e9c6928f1b">get_StartAddressOfPreviousSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-imultisessionsequential-get_startaddressofprevioussession">get_StartAddressOfPreviousSession</a>
 </td>
 <td align="left" width="63%">
 Retrieves the first sector written in the previous session on the media.
@@ -128,9 +128,9 @@ Retrieves the first sector written in the previous session on the media.
 
 
 
-If more than one multi-session interface exist, the application can let <a href="https://msdn.microsoft.com/0256f1d2-a3fb-45b2-bd84-e2b71148e4ec">IFileSystemImage</a> choose a compatible multi-session interface to use  or the application can specify the multi-session interface to use by setting the <a href="https://msdn.microsoft.com/d4eef9de-8b7e-4326-b66f-dddbe2b8a05d">put_InUse</a> property to VARIANT_TRUE.
+If more than one multi-session interface exist, the application can let <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a> choose a compatible multi-session interface to use  or the application can specify the multi-session interface to use by setting the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-imultisession-put_inuse">put_InUse</a> property to VARIANT_TRUE.
 
-A file system creator would use the address properties to import the content of the previous session on the disc and to compute the position of the next session it will create. These properties will return the same values as the properties of the same name of the <a href="https://msdn.microsoft.com/6bb871c2-1a6e-4cf6-94e1-7a566ce7a88e">IDiscFormat2Data</a> interface.
+A file system creator would use the address properties to import the content of the previous session on the disc and to compute the position of the next session it will create. These properties will return the same values as the properties of the same name of the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a> interface.
 
 This is a <b>MsftMultisessionSequential</b> object in script.
 
@@ -142,7 +142,7 @@ This is a <b>MsftMultisessionSequential</b> object in script.
 
 
 
-<a href="https://msdn.microsoft.com/a983af02-ee0e-4a62-8ae0-fb9a1e0c2571">IMultisession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a>
  
 
  

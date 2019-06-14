@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Parses the actual format string into a series of tokens which can be used to format variants using <a href="https://msdn.microsoft.com/36437d1a-970d-4a52-a8a5-1cddfe3d42f3">VarFormatFromTokens</a>.
+Parses the actual format string into a series of tokens which can be used to format variants using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-varformatfromtokens">VarFormatFromTokens</a>.
 
 
 ## -parameters
@@ -299,9 +299,9 @@ The destination token buffer is too small.
 
 
 
-Parsing the format string once and then using it repeatedly is usually faster than calling <a href="https://msdn.microsoft.com/2e1b4fd1-a86b-4933-8934-5d725168a2cd">VarFormat</a> repeatedly, because the latter routine calls <b>VarTokenizeFormatString</b> for each call.
+Parsing the format string once and then using it repeatedly is usually faster than calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-varformat">VarFormat</a> repeatedly, because the latter routine calls <b>VarTokenizeFormatString</b> for each call.
 
-The locale you pass in controls how the format string is interpreted, not how the actual output of <a href="https://msdn.microsoft.com/36437d1a-970d-4a52-a8a5-1cddfe3d42f3">VarFormatFromTokens</a> looks.
+The locale you pass in controls how the format string is interpreted, not how the actual output of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-varformatfromtokens">VarFormatFromTokens</a> looks.
 
 
 

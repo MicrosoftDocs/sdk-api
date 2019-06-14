@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Closes down communication with the specified <a href="https://msdn.microsoft.com/e1a5bf5e-dbc1-43e3-981b-7db4caa08bdc">service proxy</a>.
+Closes down communication with the specified <a href="https://docs.microsoft.com/windows/desktop/wsw/service-proxy">service proxy</a>.
             
 
 
@@ -63,18 +63,18 @@ Closes down communication with the specified <a href="https://msdn.microsoft.com
 
 ### -param serviceProxy [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/623766ae-fe82-40f9-93c8-e78fe48bc6d1">WS_SERVICE_PROXY</a> structure representing he service proxy to be closed.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-service-proxy">WS_SERVICE_PROXY</a> structure representing he service proxy to be closed.
                 
 
 
 ### -param asyncContext [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/3c9ffbef-2f5b-42b0-96b1-f17f0ab98ca4">WS_ASYNC_CONTEXT</a> structure containing information for invoking the function asynchronously. Pass <b>NULL</b> to invoke the function synchronously.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_async_context">WS_ASYNC_CONTEXT</a> structure containing information for invoking the function asynchronously. Pass <b>NULL</b> to invoke the function synchronously.
 
 
 ### -param error [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> structure  that receives additional error information if the function fails.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
                 
 
 
@@ -120,7 +120,7 @@ The current state of the service proxy is not valid for this operation. This is 
 </dl>
 </td>
 <td width="60%">
-The underlying <a href="https://msdn.microsoft.com/741636a4-5e0f-495a-bb1d-1a00cfd6f65a">WS_CHANNEL</a> was disconnected during the close operation. This error occurs only in cases where the underlying channel is session based.
+The underlying <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-channel">WS_CHANNEL</a> was disconnected during the close operation. This error occurs only in cases where the underlying channel is session based.
                 
 
 </td>

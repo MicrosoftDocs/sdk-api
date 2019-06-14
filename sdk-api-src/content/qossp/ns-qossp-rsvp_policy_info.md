@@ -69,7 +69,7 @@ Number of policy elements in <b>PolicyElement</b>.
 
 ### -field PolicyElement
 
-List of policy elements received, in the form of a <a href="https://msdn.microsoft.com/e23cd113-6fa1-479b-85c2-7690055e57e7">RSVP_POLICY</a> structure.
+List of policy elements received, in the form of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_policy">RSVP_POLICY</a> structure.
 
 
 ## -see-also
@@ -77,11 +77,11 @@ List of policy elements received, in the form of a <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/a2021d70-e7ef-4c2a-8800-1a1d7540ce02">QOS_OBJECT_HDR</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>
 
 
 
-<a href="https://msdn.microsoft.com/e23cd113-6fa1-479b-85c2-7690055e57e7">RSVP_POLICY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_policy">RSVP_POLICY</a>
  
 
  

@@ -92,7 +92,7 @@ The method completed successfully.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/47b23cae-d5fc-4788-ab1c-93d6d8ee3f01">Just-in-Time Activation</a> is not available to this context.
+<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--just-in-time-activation">Just-in-Time Activation</a> is not available to this context.
 
 </td>
 </tr>
@@ -116,11 +116,11 @@ When <i>pbDeactivate</i> is <b>FALSE</b> for the root object of a transaction, t
 
 
 
-<a href="https://msdn.microsoft.com/a641fa95-5587-4362-9869-e5c27c6dd2ce">Consistent and Done Flags</a>
+<a href="https://docs.microsoft.com/windows/desktop/cossdk/consistent-and-done-flags">Consistent and Done Flags</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686473(v=VS.85).aspx">IContextState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icontextstate">IContextState</a>
  
 
  

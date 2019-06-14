@@ -59,7 +59,7 @@ Retrieves information from the composition engine about composition times and th
 
 ### -param statistics [out]
 
-Type: <b><a href="https://msdn.microsoft.com/431D8399-9BCC-4B3A-89F4-E698446EF764">DCOMPOSITION_FRAME_STATISTICS</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcomptypes/ns-dcomptypes-dcomposition_frame_statistics">DCOMPOSITION_FRAME_STATISTICS</a>*</b>
 
 A structure that receives composition times and frame rate information.
 
@@ -68,9 +68,9 @@ A structure that receives composition times and frame rate information.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If the function succeeds, it returns S_OK. Otherwise, it returns an <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a> error code. See <a href="https://msdn.microsoft.com/8DFBFC34-DBD0-4731-8305-B33E90C96C54">DirectComposition Error Codes</a>  for a list of error codes.
+If the function succeeds, it returns S_OK. Otherwise, it returns an <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a> error code. See <a href="https://docs.microsoft.com/windows/desktop/directcomp/directcomposition-error-codes">DirectComposition Error Codes</a>  for a list of error codes.
 
 
 
@@ -89,11 +89,11 @@ This method retrieves timing information about the composition engine that an ap
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437351(v=VS.85).aspx">Composition Target Window</a>
+<a href="https://docs.microsoft.com/windows/desktop/directcomp/basic-concepts">Composition Target Window</a>
 
 
 
-<a href="https://msdn.microsoft.com/0E5D0AEC-63A3-4A44-9A0B-D1E26789CAB0">IDCompositionDevice2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiondevice2">IDCompositionDevice2</a>
  
 
  

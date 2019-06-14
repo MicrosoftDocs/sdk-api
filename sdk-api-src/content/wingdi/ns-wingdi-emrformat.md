@@ -112,7 +112,7 @@ Specifies an offset to the picture data. The offset is figured from the start of
 
 
 
-The reference page for <a href="https://msdn.microsoft.com/80ed11fc-89f8-47ab-8b3b-c817733bd385">GdiComment</a> discusses enhanced metafile public comments in general, and the GDICOMMENT_MULTIFORMATS public comment in particular.
+The reference page for <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gdicomment">GdiComment</a> discusses enhanced metafile public comments in general, and the GDICOMMENT_MULTIFORMATS public comment in particular.
 
 
 
@@ -122,15 +122,15 @@ The reference page for <a href="https://msdn.microsoft.com/80ed11fc-89f8-47ab-8b
 
 
 
-<a href="https://msdn.microsoft.com/80ed11fc-89f8-47ab-8b3b-c817733bd385">GdiComment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gdicomment">GdiComment</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a509ed5-cea3-4318-ad17-9d20425a6e80">Metafile Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/309ee4cf-111b-4f09-a722-4823cb3d26b0">Metafiles Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
  
 
  

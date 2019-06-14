@@ -61,7 +61,7 @@ The <b>AddIscsiConnection</b> function adds a new iSCSI connection to an existin
 
 ### -param UniqueSessionId [in]
 
-A pointer to a structure of type <a href="https://msdn.microsoft.com/d13975f9-58d0-425c-a2de-a0d1d70850d3">ISCSI_UNIQUE_SESSION_ID</a> that, on input, contains the session identifier for the session that was added.
+A pointer to a structure of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-_iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a> that, on input, contains the session identifier for the session that was added.
 
 
 ### -param Reserved [in]
@@ -173,7 +173,7 @@ When set to 1, the other mask values are valid; otherwise, the iSCSI initiator s
 
 ### -param LoginOptions [in, optional]
 
-A pointer to a structure of type <a href="https://msdn.microsoft.com/7d45be86-3d85-4253-aef7-92e05379f1b2">ISCSI_LOGIN_OPTIONS</a> that contains the options that specify the characteristics of the login session.
+A pointer to a structure of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_login_options">ISCSI_LOGIN_OPTIONS</a> that contains the options that specify the characteristics of the login session.
 
 
 ### -param KeySize [in, optional]
@@ -188,7 +188,7 @@ If the IPsec security policy between the initiator and the target portal is alre
 
 ### -param ConnectionId [out, optional]
 
-An <a href="https://msdn.microsoft.com/cc68fda4-6dbf-42de-8e0e-e144bd4e9524">ISCSI_UNIQUE_CONNECTION_ID</a>-type structure that, on output, receives an opaque value that uniquely identifies the connection that was added to the session.
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb870817(v=vs.85)">ISCSI_UNIQUE_CONNECTION_ID</a>-type structure that, on output, receives an opaque value that uniquely identifies the connection that was added to the session.
 
 
 ## -returns
@@ -207,15 +207,15 @@ Returns ERROR_SUCCESS if the operation succeeds. Otherwise, it returns the appro
 
 
 
-<a href="https://msdn.microsoft.com/7d45be86-3d85-4253-aef7-92e05379f1b2">ISCSI_LOGIN_OPTIONS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_login_options">ISCSI_LOGIN_OPTIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/de78c7ec-c2ce-493a-ad29-2ea10e3d7dff">ISCSI_TARGET_PORTAL</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_portala">ISCSI_TARGET_PORTAL</a>
 
 
 
-<a href="https://msdn.microsoft.com/d13975f9-58d0-425c-a2de-a0d1d70850d3">ISCSI_UNIQUE_SESSION_ID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-_iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a>
  
 
  

@@ -60,9 +60,9 @@ Deprecated. Retrieves the browser's current navigation state.
 
 ### -param pbnstate [out]
 
-Type: <b><a href="https://msdn.microsoft.com/e49f38f0-51d3-43a7-96f6-1722a4afa848">BNSTATE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/ne-shdeprecated-tagbnstate">BNSTATE</a>*</b>
 
-A pointer to a value from the <a href="https://msdn.microsoft.com/e49f38f0-51d3-43a7-96f6-1722a4afa848">BNSTATE</a> enumeration indicating the current navigation state.
+A pointer to a value from the <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/ne-shdeprecated-tagbnstate">BNSTATE</a> enumeration indicating the current navigation state.
 
 
 

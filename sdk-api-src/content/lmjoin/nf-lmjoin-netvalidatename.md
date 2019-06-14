@@ -490,36 +490,36 @@ int wmain(int argc, wchar_t * argv[])
 
 
 
-<a href="https://msdn.microsoft.com/9eeb8f40-85c0-49db-a307-193703e4f463">Directory Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/directory-service-functions">Directory Service Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/c7cc1cf2-4530-4039-806b-fbee572f564d">NetGetJoinInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netgetjoininformation">NetGetJoinInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/1faa912b-c56d-431c-95d5-d36790b0d467">NetGetJoinableOUs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netgetjoinableous">NetGetJoinableOUs</a>
 
 
 
-<a href="https://msdn.microsoft.com/4efcb399-03af-4312-9f1d-6bc38f356cac">NetJoinDomain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netjoindomain">NetJoinDomain</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f7ddaa1-a349-49a6-856d-a2fde2f1dc3b">NetRenameMachineInDomain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netrenamemachineindomain">NetRenameMachineInDomain</a>
 
 
 
-<a href="https://msdn.microsoft.com/cc755c22-1fd6-4787-999e-a43258287a05">NetUnjoinDomain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netunjoindomain">NetUnjoinDomain</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd159e2e-f37e-46b2-b980-008b73d40b39">Network
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
  
 

@@ -70,7 +70,7 @@ A handle to the file.
 
 ### -param lpOverlapped [in, optional]
 
-A pointer to an <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> data structure that 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> data structure that 
        contains the data used for asynchronous  I/O.
 
 If this parameter is <b>NULL</b>, all I/O requests for the <i>hFile</i> 
@@ -79,7 +79,7 @@ If this parameter is <b>NULL</b>, all I/O requests for the <i>hFile</i>
 If this parameter is not <b>NULL</b>, only those specific I/O requests that were issued 
        for the file with the specified <i>lpOverlapped</i> overlapped structure are marked as 
        canceled, meaning that you can cancel one or more requests, while the 
-       <a href="https://msdn.microsoft.com/b28162dc-0da8-41c6-9901-29381d2d72c4">CancelIo</a> function cancels all outstanding requests on a file 
+       <a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelio">CancelIo</a> function cancels all outstanding requests on a file 
        handle.
 
 
@@ -89,16 +89,16 @@ If this parameter is not <b>NULL</b>, only those specific I/O requests that were
 
 If the function succeeds, the return value is nonzero. The cancel operation for all pending I/O operations 
        issued by the calling process for the specified file handle was successfully requested. The application must not 
-       free or reuse the <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure associated with 
+       free or reuse the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure associated with 
        the canceled I/O operations until they have completed. The thread can use the 
-       <a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a> function to determine when 
+       <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> function to determine when 
        the I/O operations themselves have been completed.
 
 If the function fails, the return value is 0 (zero). To get extended error information, call the 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 If this function cannot find a request to cancel, the return value is 0 (zero), and 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns 
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
        <b>ERROR_NOT_FOUND</b>.
 
 
@@ -110,7 +110,7 @@ If this function cannot find a request to cancel, the return value is 0 (zero), 
 
 The <b>CancelIoEx</b> function allows you to cancel 
     requests in threads other than the calling thread. The 
-    <a href="https://msdn.microsoft.com/b28162dc-0da8-41c6-9901-29381d2d72c4">CancelIo</a> function only cancels requests in the same thread that 
+    <a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelio">CancelIo</a> function only cancels requests in the same thread that 
     called the <b>CancelIo</b> function. 
     <b>CancelIoEx</b> cancels only outstanding I/O on the handle, 
     it does not change the state of the handle; this means that you cannot rely on the state of the handle because you 
@@ -133,10 +133,10 @@ The operation being canceled is completed with one of three statuses; you must c
 <ul>
 <li>The operation completed normally. This can occur even if the operation was canceled, because the cancel 
       request might not have been submitted in time to cancel the operation.</li>
-<li>The operation was canceled. The <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> 
+<li>The operation was canceled. The <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> 
       function returns <b>ERROR_OPERATION_ABORTED</b>.</li>
 <li>The operation failed with another error. The 
-      <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function returns the relevant error 
+      <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns the relevant error 
       code.</li>
 </ul>
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
@@ -207,23 +207,23 @@ Yes
 
 
 
-<a href="https://msdn.microsoft.com/b28162dc-0da8-41c6-9901-29381d2d72c4">CancelIo</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelio">CancelIo</a>
 
 
 
-<a href="https://msdn.microsoft.com/f362c8b2-2193-443e-bb69-78f8b4147117">CancelSynchronousIo</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelsynchronousio-func">CancelSynchronousIo</a>
 
 
 
-<a href="https://msdn.microsoft.com/adfe6d05-f30b-40a1-b3b0-58e2593e7b25">Canceling Pending I/O Operations</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/canceling-pending-i-o-operations">Canceling Pending I/O Operations</a>
 
 
 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/ade51d98-cc9d-4b33-9c52-559a9cb14707">Synchronous and Asynchronous I/O</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/synchronous-and-asynchronous-i-o">Synchronous and Asynchronous I/O</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-An application that has loaded a supporting minifilter by calling <a href="https://msdn.microsoft.com/248e05e6-570a-45fc-8b63-16625ffda1dd">FilterLoad</a> can unload the minifilter by calling the <b>FilterUnload</b> function. 
+An application that has loaded a supporting minifilter by calling <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterload">FilterLoad</a> can unload the minifilter by calling the <b>FilterUnload</b> function. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ An application that has loaded a supporting minifilter by calling <a href="https
 
 ### -param lpFilterName [in]
 
-Pointer to a null-terminated wide-character string containing the same minifilter name that was passed to <a href="https://msdn.microsoft.com/248e05e6-570a-45fc-8b63-16625ffda1dd">FilterLoad</a>. This parameter is required and cannot be <b>NULL</b> or an empty string. 
+Pointer to a null-terminated wide-character string containing the same minifilter name that was passed to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterload">FilterLoad</a>. This parameter is required and cannot be <b>NULL</b> or an empty string. 
 
 
 ## -returns
@@ -75,9 +75,9 @@ Pointer to a null-terminated wide-character string containing the same minifilte
 
 
 
-<b>FilterUnload</b> is the Win32 equivalent of <a href="https://msdn.microsoft.com/234907d8-d21e-4303-9508-0673afa471a6">FltUnloadFilter</a>. 
+<b>FilterUnload</b> is the Win32 equivalent of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltunloadfilter">FltUnloadFilter</a>. 
 
-<b>FilterUnload</b> searches for a registered minifilter whose service name matches the given <i>lpFilterName</i> and calls that minifilter's <i>FilterUnloadCallback</i> (<a href="https://msdn.microsoft.com/746f13f5-c92d-4dae-8fd7-4c9fdfa9e044">PFLT_FILTER_UNLOAD_CALLBACK</a>) routine. 
+<b>FilterUnload</b> searches for a registered minifilter whose service name matches the given <i>lpFilterName</i> and calls that minifilter's <i>FilterUnloadCallback</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nc-fltkernel-pflt_filter_unload_callback">PFLT_FILTER_UNLOAD_CALLBACK</a>) routine. 
 
 If the minifilter did not register a <i>FilterUnloadCallback</i> routine, the call to <b>FilterUnload</b> fails. 
 
@@ -91,15 +91,15 @@ Callers of <b>FilterUnload</b> must have <b>SeLoadDriverPrivilege</b> (the LUID 
 
 
 
-<a href="https://msdn.microsoft.com/248e05e6-570a-45fc-8b63-16625ffda1dd">FilterLoad</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterload">FilterLoad</a>
 
 
 
-<a href="https://msdn.microsoft.com/234907d8-d21e-4303-9508-0673afa471a6">FltUnloadFilter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltunloadfilter">FltUnloadFilter</a>
 
 
 
-<a href="https://msdn.microsoft.com/746f13f5-c92d-4dae-8fd7-4c9fdfa9e044">PFLT_FILTER_UNLOAD_CALLBACK</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nc-fltkernel-pflt_filter_unload_callback">PFLT_FILTER_UNLOAD_CALLBACK</a>
  
 
  

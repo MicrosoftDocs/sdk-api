@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 
 The <b>BuildTrusteeWithName</b> function initializes a 
-<a href="https://msdn.microsoft.com/120e93eb-680f-4f86-879d-bc2de10d4641">TRUSTEE</a> structure. The caller specifies the trustee name. The function sets other members of the structure to default values.
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a> structure. The caller specifies the trustee name. The function sets other members of the structure to default values.
 
 
 ## -parameters
@@ -65,12 +65,12 @@ The <b>BuildTrusteeWithName</b> function initializes a
 ### -param pTrustee [in, out]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/120e93eb-680f-4f86-879d-bc2de10d4641">TRUSTEE</a> structure to initialize. The <b>BuildTrusteeWithName</b> function does not allocate any memory. If this parameter is <b>NULL</b> or a pointer that is not valid, the results are undefined.
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a> structure to initialize. The <b>BuildTrusteeWithName</b> function does not allocate any memory. If this parameter is <b>NULL</b> or a pointer that is not valid, the results are undefined.
 
 
 ### -param pName [in, optional]
 
-A pointer to a null-terminated string that contains the name of the trustee for the <b>ptstrName</b> member of the <a href="https://msdn.microsoft.com/120e93eb-680f-4f86-879d-bc2de10d4641">TRUSTEE</a> structure. The <b>BuildTrusteeWithName</b> function sets the other members of the <b>TRUSTEE</b> structure as follows.
+A pointer to a null-terminated string that contains the name of the trustee for the <b>ptstrName</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a> structure. The <b>BuildTrusteeWithName</b> function sets the other members of the <b>TRUSTEE</b> structure as follows.
 
 <table>
 <tr>
@@ -139,27 +139,27 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/d9ce4ec5-5c09-4b33-93a1-39638a925986">Access Control Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/62edadfe-0a7b-43ec-bd02-a63f928c7618">BuildTrusteeWithObjectsAndName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-buildtrusteewithobjectsandnamea">BuildTrusteeWithObjectsAndName</a>
 
 
 
-<a href="https://msdn.microsoft.com/e940a87f-013e-458c-bdc1-9e81c7d905e0">BuildTrusteeWithObjectsAndSid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-buildtrusteewithobjectsandsida">BuildTrusteeWithObjectsAndSid</a>
 
 
 
-<a href="https://msdn.microsoft.com/3745fbf2-911a-4cb6-81a8-6256c742c700">BuildTrusteeWithSid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-buildtrusteewithsida">BuildTrusteeWithSid</a>
 
 
 
-<a href="https://msdn.microsoft.com/120e93eb-680f-4f86-879d-bc2de10d4641">TRUSTEE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Clears all of the <a href="https://msdn.microsoft.com/53146f37-343a-4886-a0bb-d76d50ca96ba">IInkExtendedProperty</a> objects from the <a href="https://msdn.microsoft.com/c7b7f40f-0c28-4848-83d6-d5db73eef998">IInkExtendedProperties</a> collection.
+Clears all of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty</a> objects from the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperties">IInkExtendedProperties</a> collection.
 
 
 
@@ -117,7 +117,7 @@ An unspecified error occurred.
 
 
 
-To clear only one extended property at a time, call the <a href="https://msdn.microsoft.com/2211a462-df26-4168-b89c-9607683defdb">Remove</a> method of the <a href="https://msdn.microsoft.com/c7b7f40f-0c28-4848-83d6-d5db73eef998">IInkExtendedProperties</a> collection.
+To clear only one extended property at a time, call the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-remove">Remove</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperties">IInkExtendedProperties</a> collection.
 
 
 
@@ -127,11 +127,11 @@ To clear only one extended property at a time, call the <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/c7b7f40f-0c28-4848-83d6-d5db73eef998">IInkExtendedProperties Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperties">IInkExtendedProperties Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/2211a462-df26-4168-b89c-9607683defdb">Remove Method [IInkExtendedProperties Interface]</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-remove">Remove Method [IInkExtendedProperties Interface]</a>
  
 
  

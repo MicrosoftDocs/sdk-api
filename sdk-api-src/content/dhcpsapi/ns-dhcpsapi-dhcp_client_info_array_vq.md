@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DHCP_CLIENT_INFO_ARRAY_VQ</b> structure specifies an array of <a href="https://msdn.microsoft.com/f7bd832d-b4a4-404c-8959-e9653b62d434">DHCP_CLIENT_INFO_VQ</a> structures.
+The <b>DHCP_CLIENT_INFO_ARRAY_VQ</b> structure specifies an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info_vq">DHCP_CLIENT_INFO_VQ</a> structures.
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ The number of elements in the array.
 
 ### -field Clients
 
-Pointer to the first element in the array of <a href="https://msdn.microsoft.com/f7bd832d-b4a4-404c-8959-e9653b62d434">DHCP_CLIENT_INFO_VQ</a> structures.
+Pointer to the first element in the array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info_vq">DHCP_CLIENT_INFO_VQ</a> structures.
 
 
 ### -field Clients.size_is
@@ -84,7 +84,7 @@ Pointer to the first element in the array of <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/f7bd832d-b4a4-404c-8959-e9653b62d434">DHCP_CLIENT_INFO_VQ</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info_vq">DHCP_CLIENT_INFO_VQ</a>
  
 
  

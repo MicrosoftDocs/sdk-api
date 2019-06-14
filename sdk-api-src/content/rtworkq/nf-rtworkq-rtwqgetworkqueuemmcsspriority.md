@@ -59,7 +59,7 @@ Gets the relative thread priority of a work queue.
 
 ### -param workQueueId [in]
 
-The identifier of the work queue. For private work queues, the identifier is returned by the <a href="https://msdn.microsoft.com/B8FF907A-1448-43A4-B249-9D3D859D8F95">RtwqAllocateWorkQueue</a> function. 
+The identifier of the work queue. For private work queues, the identifier is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqallocateworkqueue">RtwqAllocateWorkQueue</a> function. 
 
 
 ### -param priority [out]
@@ -80,7 +80,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-This function returns the relative thread priority set by the <a href="https://msdn.microsoft.com/3012EFE9-437A-4B60-98DD-7602CD9A9E76">RtwqBeginRegisterWorkQueueWithMMCSS</a> function.
+This function returns the relative thread priority set by the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqbeginregisterworkqueuewithmmcss">RtwqBeginRegisterWorkQueueWithMMCSS</a> function.
 
 
 

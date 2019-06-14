@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The
 				<b>WNetOpenEnum</b> function starts an enumeration of network resources or existing connections. You can continue the enumeration by calling the 
-<a href="https://msdn.microsoft.com/2c58c6d0-d5fe-447e-be39-df34072c160e">WNetEnumResource</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetenumresourcea">WNetEnumResource</a> function.
 
 
 ## -parameters
@@ -234,7 +234,7 @@ This parameter is ignored unless the <i>dwScope</i> parameter is equal to RESOUR
 ### -param lpNetResource [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/c53d078e-188a-4371-bdb9-fc023bc0c1ba">NETRESOURCE</a> structure that specifies the container to enumerate. If the <i>dwScope</i> parameter is not RESOURCE_GLOBALNET, this parameter must be <b>NULL</b>. 
+<a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure that specifies the container to enumerate. If the <i>dwScope</i> parameter is not RESOURCE_GLOBALNET, this parameter must be <b>NULL</b>. 
 
 
 
@@ -243,7 +243,7 @@ If this parameter is <b>NULL</b>, the root of the network is assumed. (The syste
 
 If this parameter is not <b>NULL</b>, it must point to a 
 <b>NETRESOURCE</b> structure. This structure can be filled in by the application or it can be returned by a call to the 
-<a href="https://msdn.microsoft.com/2c58c6d0-d5fe-447e-be39-df34072c160e">WNetEnumResource</a> function. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetenumresourcea">WNetEnumResource</a> function. The 
 <b>NETRESOURCE</b> structure must specify a container resource; that is, the RESOURCEUSAGE_CONTAINER value must be specified in the <i>dwUsage</i> parameter.
 
 To enumerate all network resources, an application can begin the enumeration by calling 
@@ -257,7 +257,7 @@ To enumerate all network resources, an application can begin the enumeration by 
 ### -param lphEnum [out]
 
 Pointer to an enumeration handle that can be used in a subsequent call to 
-<a href="https://msdn.microsoft.com/2c58c6d0-d5fe-447e-be39-df34072c160e">WNetEnumResource</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetenumresourcea">WNetEnumResource</a>.
 
 
 ## -returns
@@ -267,7 +267,7 @@ Pointer to an enumeration handle that can be used in a subsequent call to
 If the function succeeds, the return value is NO_ERROR.
 
 If the function fails, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>, such as one of the following values.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>, such as one of the following values.
 
 <table>
 <tr>
@@ -315,7 +315,7 @@ The network is unavailable.
 </td>
 <td width="60%">
 A network-specific error occurred. To obtain a description of the error, call the 
-<a href="https://msdn.microsoft.com/8e13c467-adcf-4e97-b51a-1f5fc919b51e">WNetGetLastError</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetlasterrora">WNetGetLastError</a> function.
 
 </td>
 </tr>
@@ -364,7 +364,7 @@ NetWare (container, in this case the provider)
 #### Examples
 
 For a code sample that illustrates an application-defined function that enumerates all the resources on a network, see 
-<a href="https://msdn.microsoft.com/f5872ee7-483d-406a-b7d8-4ce93613fd29">Enumerating Network Resources</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WNet/enumerating-network-resources">Enumerating Network Resources</a>.
 
 <div class="code"></div>
 
@@ -375,24 +375,24 @@ For a code sample that illustrates an application-defined function that enumerat
 
 
 
-<a href="https://msdn.microsoft.com/c53d078e-188a-4371-bdb9-fc023bc0c1ba">NETRESOURCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>
 
 
 
-<a href="https://msdn.microsoft.com/c68fd9de-9f24-41f0-8b59-2d083fec8abf">WNetCloseEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetcloseenum">WNetCloseEnum</a>
 
 
 
-<a href="https://msdn.microsoft.com/2c58c6d0-d5fe-447e-be39-df34072c160e">WNetEnumResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetenumresourcea">WNetEnumResource</a>
 
 
 
-<a href="https://msdn.microsoft.com/7668ac55-7104-4ddb-88eb-920cfe4e36fd">Windows
+<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-wnet-">Windows
 		  Networking (WNet) Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/95e30f8f-a326-424d-bd80-5fc9b3078dad">Windows
+<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
  
 

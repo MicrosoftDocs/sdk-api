@@ -67,7 +67,7 @@ This property is read/write.
 
 
 
-If this string contains a canonical fax number (defined in the <a href="https://msdn.microsoft.com/en-us/library/ms726017(v=VS.85).aspx">Address</a> topic of the Telephony Application Programming Interface (TAPI) documentation—see the <i>Canonical Addresses</i> subheading), then the outbound routing rules will be applied. Otherwise, the first available device will be used and the fax number we be dialed as it appears in the string.
+If this string contains a canonical fax number (defined in the <a href="https://docs.microsoft.com/windows/desktop/Tapi/address-ovr">Address</a> topic of the Telephony Application Programming Interface (TAPI) documentation—see the <i>Canonical Addresses</i> subheading), then the outbound routing rules will be applied. Otherwise, the first available device will be used and the fax number we be dialed as it appears in the string.
 
 
 
@@ -77,15 +77,15 @@ If this string contains a canonical fax number (defined in the <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693479(v=VS.85).aspx">Broadcasting a Fax</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-broadcasting-a-fax">Broadcasting a Fax</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690204(v=VS.85).aspx">FaxRecipient</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxrecipient">FaxRecipient</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690206(v=VS.85).aspx">IFaxRecipient</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxrecipient">IFaxRecipient</a>
  
 
  

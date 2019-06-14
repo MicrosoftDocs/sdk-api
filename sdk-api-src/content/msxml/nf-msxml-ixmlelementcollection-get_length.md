@@ -85,7 +85,7 @@ This method is implemented in MSXML 1.0. It is no longer supported by Microsoft 
 
 
 
-<a href="https://msdn.microsoft.com/1d27e5fc-0491-44ee-9134-40f9f909b1cb">IXMLElementCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msxml/nn-msxml-ixmlelementcollection">IXMLElementCollection</a>
  
 
  

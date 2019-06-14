@@ -76,12 +76,12 @@ An optional reference string that differentiates multiple interfaces of the same
 
 ### -param cPropertyCount [in]
 
-The number of <a href="https://msdn.microsoft.com/B2B640BC-5DA3-4D9A-95D8-C2EDA09C18FA">DEVPROPERTY</a> structures in the <i>pProperties</i> array.
+The number of <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn315030(v=vs.85)">DEVPROPERTY</a> structures in the <i>pProperties</i> array.
 
 
 ### -param pProperties [in, optional]
 
-An optional array of <a href="https://msdn.microsoft.com/B2B640BC-5DA3-4D9A-95D8-C2EDA09C18FA">DEVPROPERTY</a> structures for the properties to set on the interface.  This pointer can be <b>NULL</b>.
+An optional array of <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn315030(v=vs.85)">DEVPROPERTY</a> structures for the properties to set on the interface.  This pointer can be <b>NULL</b>.
 
 Set these properties on the interface after it is created but before a notification that the interface has been created are sent.  For more info, see Remarks.  This pointer can be <b>NULL</b>. 
 
@@ -93,7 +93,7 @@ A Boolean value that indicates whether to either enable or disable  the interfac
 
 ### -param ppszDeviceInterfaceId [out, optional]
 
-A pointer to a variable that receives a pointer to the device interface ID for the interface. The caller must free this value with <a href="https://msdn.microsoft.com/DBA39124-D93A-4865-B4CB-B2FA66FBD417">SwMemFree</a>.  This value can be <b>NULL</b> if the client app doesn't need to retrieve the name.
+A pointer to a variable that receives a pointer to the device interface ID for the interface. The caller must free this value with <a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nf-swdevice-swmemfree">SwMemFree</a>.  This value can be <b>NULL</b> if the client app doesn't need to retrieve the name.
 
 
 ## -returns
@@ -109,9 +109,9 @@ S_OK is returned if <b>SwDeviceInterfaceRegister</b> successfully registered the
 
 
 
-You can call <b>SwDeviceInterfaceRegister</b> only after the operating system has called your client app's <a href="https://msdn.microsoft.com/3955FA66-EBE2-4710-A873-C5FC8B7DBE2E">SW_DEVICE_CREATE_CALLBACK</a> callback function to notify the client app that device enumeration completed.
+You can call <b>SwDeviceInterfaceRegister</b> only after the operating system has called your client app's <a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nc-swdevice-sw_device_create_callback">SW_DEVICE_CREATE_CALLBACK</a> callback function to notify the client app that device enumeration completed.
 
-You can't call <b>SwDeviceInterfaceRegister</b> for software devices that specify the <a href="https://msdn.microsoft.com/9519FD17-AB43-4C9E-BE77-9DFAC3263447">SWDeviceCapabilitiesDriverRequired</a> capability.
+You can't call <b>SwDeviceInterfaceRegister</b> for software devices that specify the <a href="https://docs.microsoft.com/windows/desktop/api/swdevicedef/ns-swdevicedef-sw_device_create_info">SWDeviceCapabilitiesDriverRequired</a> capability.
 
 
 
@@ -121,7 +121,7 @@ You can't call <b>SwDeviceInterfaceRegister</b> for software devices that specif
 
 
 
-<a href="https://msdn.microsoft.com/DBA39124-D93A-4865-B4CB-B2FA66FBD417">SwMemFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nf-swdevice-swmemfree">SwMemFree</a>
  
 
  

@@ -49,14 +49,14 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>IMpeg2Data</b> is no longer available for use as of Windows 7. Instead, use the <a href="https://msdn.microsoft.com/en-us/library/Dd694840(v=VS.85).aspx">IPSITables</a> interface to get program specific information (PSI) tables from an MPEG-2 transport stream.]
+<p class="CCE_Message">[<b>IMpeg2Data</b> is no longer available for use as of Windows 7. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipsitables">IPSITables</a> interface to get program specific information (PSI) tables from an MPEG-2 transport stream.]
 
-The <b>IMpeg2Data</b> interface is exposed by the <a href="https://msdn.microsoft.com/03027748-03da-485c-8787-3cf171fff1e0">MPEG-2 Sections and Tables</a> filter. It enables the client to retrieve unparsed sections or tables from an MPEG-2 transport stream.
+The <b>IMpeg2Data</b> interface is exposed by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/mpeg-2-sections-and-tables-filter">MPEG-2 Sections and Tables</a> filter. It enables the client to retrieve unparsed sections or tables from an MPEG-2 transport stream.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMpeg2Data</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMpeg2Data</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMpeg2Data</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMpeg2Data</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IMpeg2Data</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9fb0d10f-7f9a-452d-9725-546d372430bd">GetSection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2data-getsection">GetSection</a>
 </td>
 <td align="left" width="63%">
 Retrieves an MPEG-2 table section.
@@ -80,7 +80,7 @@ Retrieves an MPEG-2 table section.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/896080ff-cdf0-40b1-ba4e-d94de527d86e">GetStreamOfSections</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2data-getstreamofsections">GetStreamOfSections</a>
 </td>
 <td align="left" width="63%">
 Starts an ongoing request for specific MPEG-2 table sections.
@@ -89,7 +89,7 @@ Starts an ongoing request for specific MPEG-2 table sections.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c76a9117-5dd7-46fc-8390-3f1ec80f6499">GetTable</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2data-gettable">GetTable</a>
 </td>
 <td align="left" width="63%">
 Retrieves a complete MPEG-2 PSI table.
@@ -113,11 +113,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/e75ef5c2-7316-4f23-b108-ff16cd97622f">Getting MPEG-2 PSI Tables</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/getting-mpeg2-psi-tables">Getting MPEG-2 PSI Tables</a>
  
 
  

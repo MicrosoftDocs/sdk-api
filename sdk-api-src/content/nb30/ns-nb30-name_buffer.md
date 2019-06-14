@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<a href="https://msdn.microsoft.com/9144e283-0e5f-43d7-8cd2-e746f94c6f14">Netbios</a> is not supported on Windows Vista,  Windows Server 2008, and subsequent versions of the operating system]
+<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/portal">Netbios</a> is not supported on Windows Vista,  Windows Server 2008, and subsequent versions of the operating system]
 
-The <b>NAME_BUFFER</b> structure contains information about a local network name. One or more <b>NAME_BUFFER</b> structures follows an <a href="https://msdn.microsoft.com/402bc5ce-bce4-4ba9-b82d-13cd3dc7097b">ADAPTER_STATUS</a> structure when an application specifies the <b>NCBASTAT</b> command in the ncb_command member of the <a href="https://msdn.microsoft.com/e3fcca1c-8057-41c4-80a5-d1e67920d88c">NCB</a> structure. 
+The <b>NAME_BUFFER</b> structure contains information about a local network name. One or more <b>NAME_BUFFER</b> structures follows an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_adapter_status">ADAPTER_STATUS</a> structure when an application specifies the <b>NCBASTAT</b> command in the ncb_command member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_ncb">NCB</a> structure. 
 
 
 
@@ -63,12 +63,12 @@ The <b>NAME_BUFFER</b> structure contains information about a local network name
 
 ### -field name
 
-Specifies the local network name. This value is in the <b>ncb_name</b> member of the <a href="https://msdn.microsoft.com/e3fcca1c-8057-41c4-80a5-d1e67920d88c">NCB</a> structure.
+Specifies the local network name. This value is in the <b>ncb_name</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_ncb">NCB</a> structure.
 
 
 ### -field name_num
 
-Specifies the number for the local network name. This value is in the <b>ncb_num</b> member of the <a href="https://msdn.microsoft.com/e3fcca1c-8057-41c4-80a5-d1e67920d88c">NCB</a> structure.
+Specifies the number for the local network name. This value is in the <b>ncb_num</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_ncb">NCB</a> structure.
 
 
 ### -field name_flags
@@ -113,19 +113,19 @@ Specifies the current state of the name table entry. This member can be one of t
 
 
 
-<a href="https://msdn.microsoft.com/402bc5ce-bce4-4ba9-b82d-13cd3dc7097b">ADAPTER_STATUS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_adapter_status">ADAPTER_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3fcca1c-8057-41c4-80a5-d1e67920d88c">NCB</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_ncb">NCB</a>
 
 
 
-<a href="https://msdn.microsoft.com/64ef39ec-d69a-4e33-9192-dda6d1bb84b8">NetBIOS Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/netbios-structures">NetBIOS Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/9144e283-0e5f-43d7-8cd2-e746f94c6f14">The NetBIOS Interface Overview</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/portal">The NetBIOS Interface Overview</a>
  
 
  

@@ -59,7 +59,7 @@ The <b>XFORMOBJ_bApplyXform</b> function applies the given transform or its inve
 
 ### -param pxo
 
-Pointer to a <a href="https://msdn.microsoft.com/a18af8fc-880a-4ac3-905a-1d9384c2b8d7">XFORMOBJ</a> structure that defines the transform to be applied to the <i>pvIn</i> array.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff570618(v=vs.85)">XFORMOBJ</a> structure that defines the transform to be applied to the <i>pvIn</i> array.
 
 
 ### -param iMode [in]
@@ -77,7 +77,7 @@ XF_INV_FXTOL
 
 </td>
 <td>
-Applies the inverse of the transform to POINTFIX structures to get <a href="https://msdn.microsoft.com/68cd23d7-7898-4132-abfe-4dda527889b9">POINTL</a> structures.
+Applies the inverse of the transform to POINTFIX structures to get <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_pointl">POINTL</a> structures.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ XF_LTOFX
 
 </td>
 <td>
-Applies the transform to POINTL structures to get POINTFIX structures (see <a href="https://msdn.microsoft.com/2054aa16-6d86-4db3-8b16-4570b0374e23">GDI Data Types</a>).
+Applies the transform to POINTL structures to get POINTFIX structures (see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/gdi-data-types">GDI Data Types</a>).
 
 </td>
 </tr>
@@ -144,7 +144,7 @@ The return value is <b>TRUE</b> if all points were transformed without overflow.
 
 
 
-<a href="https://msdn.microsoft.com/a18af8fc-880a-4ac3-905a-1d9384c2b8d7">XFORMOBJ</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff570618(v=vs.85)">XFORMOBJ</a>
  
 
  

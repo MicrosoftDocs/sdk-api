@@ -225,7 +225,7 @@ If this flag is set, the protocol supports data encryption.
 Type: <b>INT</b>
 
 Value to pass as the <i>af</i> parameter when the 
-<a href="https://msdn.microsoft.com/6bf6e6c4-6268-479c-86a6-52e90cf317db">socket</a> function is called to open a socket for the protocol. This address family value uniquely defines the structure of protocol addresses, also known as 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> function is called to open a socket for the protocol. This address family value uniquely defines the structure of protocol addresses, also known as 
 <b>sockaddr</b> structures, used by the protocol.
 
 
@@ -317,11 +317,11 @@ Pointer to a zero-terminated string that supplies a name for the protocol; for e
 
 
 
-<a href="https://msdn.microsoft.com/0310b80d-5036-46c2-b60f-1a6661cb7f94">EnumProtocols</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-enumprotocolsa">EnumProtocols</a>
 
 
 
-<a href="https://msdn.microsoft.com/6bf6e6c4-6268-479c-86a6-52e90cf317db">socket</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
  
 
  

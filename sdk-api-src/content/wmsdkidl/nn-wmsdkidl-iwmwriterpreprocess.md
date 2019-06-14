@@ -59,7 +59,7 @@ An <b>IWMWriterPreprocess</b> interface exists for every instance of the writer 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMWriterPreprocess</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMWriterPreprocess</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMWriterPreprocess</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMWriterPreprocess</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IWMWriterPreprocess</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798785(v=VS.85).aspx">BeginPreprocessingPass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpreprocess-beginpreprocessingpass">BeginPreprocessingPass</a>
 </td>
 <td align="left" width="63%">
 Begins preprocessing a stream.
@@ -83,7 +83,7 @@ Begins preprocessing a stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798786(v=VS.85).aspx">EndPreprocessingPass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpreprocess-endpreprocessingpass">EndPreprocessingPass</a>
 </td>
 <td align="left" width="63%">
 Ends preprocessing a stream.
@@ -92,7 +92,7 @@ Ends preprocessing a stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798787(v=VS.85).aspx">GetMaxPreprocessingPasses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpreprocess-getmaxpreprocessingpasses">GetMaxPreprocessingPasses</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum number of preprocessing passes supported for a specified stream.
@@ -101,7 +101,7 @@ Retrieves the maximum number of preprocessing passes supported for a specified s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798788(v=VS.85).aspx">PreprocessSample</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpreprocess-preprocesssample">PreprocessSample</a>
 </td>
 <td align="left" width="63%">
 Retrieves a sample for preprocessing.
@@ -110,7 +110,7 @@ Retrieves a sample for preprocessing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798789(v=VS.85).aspx">SetNumPreprocessingPasses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpreprocess-setnumpreprocessingpasses">SetNumPreprocessingPasses</a>
 </td>
 <td align="left" width="63%">
 Sets the number of preprocessing passes to perform.
@@ -119,7 +119,7 @@ Sets the number of preprocessing passes to perform.
 </tr>
 </table> 
 
-For information about which interfaces can be obtained by using the QueryInterface method of this interface, see <a href="https://msdn.microsoft.com/8058b7fe-7d02-4572-ad43-6867d4ceb7e9">Writer Object</a>.
+For information about which interfaces can be obtained by using the QueryInterface method of this interface, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/writer-object">Writer Object</a>.
 
 
 
@@ -128,15 +128,15 @@ For information about which interfaces can be obtained by using the QueryInterfa
 
 
 
-<a href="https://msdn.microsoft.com/c61a0739-09f2-497f-a2cd-d3f2472738e3">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/55fc768b-15f0-4236-ad0d-3792ccaa9b4f">Using Two-Pass Encoding</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/using-two-pass-encoding">Using Two-Pass Encoding</a>
 
 
 
-<a href="https://msdn.microsoft.com/8058b7fe-7d02-4572-ad43-6867d4ceb7e9">Writer Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/writer-object">Writer Object</a>
  
 
  

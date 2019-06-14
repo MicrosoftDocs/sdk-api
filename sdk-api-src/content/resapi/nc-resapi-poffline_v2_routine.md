@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Marks a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> as unavailable for use after cleanup 
+Marks a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> as unavailable for use after cleanup 
     processing is complete. The <b>POFFLINE_V2_ROUTINE</b> type defines a pointer to 
     this function.
 
@@ -173,7 +173,7 @@ The request is still pending, and a thread has been activated to process the off
 
 If the operation was not successful for other reasons, 
        this function returns one of the 
-       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 
 
@@ -183,7 +183,7 @@ If the operation was not successful for other reasons,
 
 
 
-<a href="https://msdn.microsoft.com/933d7b97-b5be-4c84-a983-41d1fd935c19">Resource DLL Entry Point Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry Point Functions</a>
  
 
  

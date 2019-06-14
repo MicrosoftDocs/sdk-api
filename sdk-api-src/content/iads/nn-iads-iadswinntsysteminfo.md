@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>IADsWinNTSystemInfo</b> interface  retrieves the WinNT system information about a computer. Such system information includes user account name, user domain, host name, and the primary domain controller of the host computer.
 
-The <b>IADsWinNTSystemInfo</b> interface is implemented on the <b>WinNTSystemInfo</b> object residing in Activeds.dll, which is included in the standard installation of ADSI for domain-capable editions of Windows. You must explicitly create an instance of the <b>WinNTSystemInfo</b> object to call the methods on the <b>IADsWinNTSystemInfo</b> interface. This requirement means creating an <b>WinNTSystemInfo</b> instance with the  <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function in C/C++.
+The <b>IADsWinNTSystemInfo</b> interface is implemented on the <b>WinNTSystemInfo</b> object residing in Activeds.dll, which is included in the standard installation of ADSI for domain-capable editions of Windows. You must explicitly create an instance of the <b>WinNTSystemInfo</b> object to call the methods on the <b>IADsWinNTSystemInfo</b> interface. This requirement means creating an <b>WinNTSystemInfo</b> instance with the  <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function in C/C++.
 
 ```cpp
 IADsWinNTSystemInfo *pNTsys;
@@ -82,15 +82,15 @@ Set ntSys = CreateObject("WinNTSystemInfo")
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
 
 
 
-<a href="https://msdn.microsoft.com/5ba36851-3d03-4179-8cee-dbebe24b7c4e">IADsWinNTSystemInfo Property Methods</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadswinntsysteminfo-property-methods">IADsWinNTSystemInfo Property Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

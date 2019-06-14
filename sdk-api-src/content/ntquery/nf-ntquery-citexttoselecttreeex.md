@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
-Creates a <b>SELECT</b> node for a <a href="https://msdn.microsoft.com/en-us/library/ms689889(v=VS.85).aspx">DBCOMMANDTREE</a> structure using the Query Language Dialect that you specify.
+Creates a <b>SELECT</b> node for a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a> structure using the Query Language Dialect that you specify.
 
 
 ## -parameters
@@ -61,17 +61,17 @@ Creates a <b>SELECT</b> node for a <a href="https://msdn.microsoft.com/en-us/lib
 
 ### -param pwszRestriction
 
-A pointer to a null-terminated string specifying an Indexing Service query. The syntax for queries is described in <a href="https://msdn.microsoft.com/en-us/library/ms690580(v=VS.85).aspx">Query Languages for Indexing Service</a>. 
+A pointer to a null-terminated string specifying an Indexing Service query. The syntax for queries is described in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/query-languages-for-indexing-service">Query Languages for Indexing Service</a>. 
 
 
 ### -param ulDialect
 
-A value from <a href="https://msdn.microsoft.com/en-us/library/ms690838(v=VS.85).aspx">ISQLANG_*</a> constants that specifies a specific version of the Indexing Service query language to be used.
+A value from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/isqlang-constants">ISQLANG_*</a> constants that specifies a specific version of the Indexing Service query language to be used.
 
 
 ### -param ppTree
 
-A pointer to a variable that receives a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms689889(v=VS.85).aspx">DBCOMMANDTREE</a> structure for the command tree built by the function. 
+A pointer to a variable that receives a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a> structure for the command tree built by the function. 
 
 
 
@@ -82,7 +82,7 @@ The number of properties in the <i>pProperties</i> array, or zero if <i>pPropert
 
 ### -param pProperties
 
-A pointer to an array of properties that can be referred to by friendly name in <i>pwszRestriction</i>. Column names in the <b>wcsFriendlyName</b> member of each <a href="https://msdn.microsoft.com/en-us/library/ms690848(v=VS.85).aspx">CIPROPERTYDEF</a> structure must be specified in uppercase. Indexing Service's built-in properties do not need to be defined to be used. It is an error to define a property with the same friendly name as that of a built-in property.
+A pointer to an array of properties that can be referred to by friendly name in <i>pwszRestriction</i>. Column names in the <b>wcsFriendlyName</b> member of each <a href="https://docs.microsoft.com/windows/desktop/api/ntquery/ns-ntquery-tagcipropertydef">CIPROPERTYDEF</a> structure must be specified in uppercase. Indexing Service's built-in properties do not need to be defined to be used. It is an error to define a property with the same friendly name as that of a built-in property.
 
 
 ### -param LocaleID
@@ -177,16 +177,16 @@ An unknown error has occurred.
 
 
 
-Command trees created by the <b>CITextToSelectTreeEx</b> function contain the select portion of a <a href="https://msdn.microsoft.com/en-us/library/ms689889(v=VS.85).aspx">DBCOMMANDTREE</a> structure. A tree returned by the <b>CITextToSelectTreeEx</b> function can be combined with project and sort nodes to form a complete command tree. Use the <b>CITextToSelectTreeEx</b> function instead of the <a href="https://msdn.microsoft.com/en-us/library/ms690845(v=VS.85).aspx">CITextToFullTreeEx</a> function if the sort order and project columns tree nodes are already available.
+Command trees created by the <b>CITextToSelectTreeEx</b> function contain the select portion of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a> structure. A tree returned by the <b>CITextToSelectTreeEx</b> function can be combined with project and sort nodes to form a complete command tree. Use the <b>CITextToSelectTreeEx</b> function instead of the <a href="https://docs.microsoft.com/windows/desktop/api/ntquery/nf-ntquery-citexttofulltreeex">CITextToFullTreeEx</a> function if the sort order and project columns tree nodes are already available.
 
-The query tree allocated by the <b>CITextToSelectTreeEx</b> function must be freed either with the <a href="https://msdn.microsoft.com/en-us/library/ms689884(v=VS.85).aspx">ICommandTree::FreeCommandTree</a> method or passed to the <a href="https://msdn.microsoft.com/en-us/library/ms690251(v=VS.85).aspx">ICommandTree::SetCommandTree</a> method with the <i>fCopy</i> parameter set to <b>FALSE</b>.
+The query tree allocated by the <b>CITextToSelectTreeEx</b> function must be freed either with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cmdtree/nf-cmdtree-icommandtree-freecommandtree">ICommandTree::FreeCommandTree</a> method or passed to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cmdtree/nf-cmdtree-icommandtree-setcommandtree">ICommandTree::SetCommandTree</a> method with the <i>fCopy</i> parameter set to <b>FALSE</b>.
 
 
 
 
 #### Examples
 
-This example creates a <a href="https://msdn.microsoft.com/en-us/library/ms689889(v=VS.85).aspx">DBCOMMANDTREE</a> structure. A custom property from a Word document named "IssueNumber" of type "Number" is defined and used in the query.
+This example creates a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a> structure. A custom property from a Word document named "IssueNumber" of type "Number" is defined and used in the query.
 
 
 ```cpp
@@ -241,23 +241,23 @@ if ( SUCCEEDED( hr ) )
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690848(v=VS.85).aspx">CIPROPERTYDEF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntquery/ns-ntquery-tagcipropertydef">CIPROPERTYDEF</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690954(v=VS.85).aspx">CIRestrictionToFullTree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntquery/nf-ntquery-cirestrictiontofulltree">CIRestrictionToFullTree</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690845(v=VS.85).aspx">CITextToFullTreeEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntquery/nf-ntquery-citexttofulltreeex">CITextToFullTreeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689889(v=VS.85).aspx">DBCOMMANDTREE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689746(v=VS.85).aspx">ICommandTree</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cmdtree/nn-cmdtree-icommandtree">ICommandTree</a>
  
 
  

@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Determines which architectures are supported (under <a href="https://msdn.microsoft.com/ac75c5af-86e8-4282-9a8e-8db3c22cbda0">WOW64</a>) on the given machine architecture.
+Determines which architectures are supported (under <a href="https://docs.microsoft.com/windows/desktop/WinProg64/running-32-bit-applications">WOW64</a>) on the given machine architecture.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Determines which architectures are supported (under <a href="https://msdn.micros
 
 ### -param WowGuestMachine [in]
 
-An <a href="https://msdn.microsoft.com/1E5E4F98-925B-424D-9B3D-BC6716FBF990">IMAGE_FILE_MACHINE_*</a> value that specifies the machine to test.
+An <a href="https://docs.microsoft.com/windows/desktop/SysInfo/image-file-machine-constants">IMAGE_FILE_MACHINE_*</a> value that specifies the machine to test.
 
 
 ### -param MachineIsSupported [out]
@@ -75,7 +75,7 @@ On success, returns a pointer to a boolean: <b>true</b> if the machine supports 
 
 
 
-On success, returns <b>S_OK</b>; otherwise, returns an error. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+On success, returns <b>S_OK</b>; otherwise, returns an error. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -88,7 +88,7 @@ On success, returns <b>S_OK</b>; otherwise, returns an error. To get extended er
 
 <ul>
 <li>Debuggers (such as Visual Studio) that want to determine which debugger extensions it needs to install on the system.</li>
-<li>Apps that need to determine if <a href="https://msdn.microsoft.com/ac75c5af-86e8-4282-9a8e-8db3c22cbda0">WOW64</a> is turned off or not. For example, many apps assume x86-64 systems can always execute x86-32 code at all times, everywhere. Note that this ability does not exist on WinPE or Xbox, and it is an optional component in Server.</li>
+<li>Apps that need to determine if <a href="https://docs.microsoft.com/windows/desktop/WinProg64/running-32-bit-applications">WOW64</a> is turned off or not. For example, many apps assume x86-64 systems can always execute x86-32 code at all times, everywhere. Note that this ability does not exist on WinPE or Xbox, and it is an optional component in Server.</li>
 <li>Test suites that need to achieve full feature coverage by running tests on all supported architectures in the system. 
 </li>
 </ul>

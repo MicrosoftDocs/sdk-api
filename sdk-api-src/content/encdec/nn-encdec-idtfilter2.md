@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 
-The <b>IDTFilter2</b> interface extends the <a href="https://msdn.microsoft.com/15acf764-7e4d-40c3-b907-ff5dfaa69dae">IDTFilter</a> interface and is exposed by the Decrypter/Detagger filter.
+The <b>IDTFilter2</b> interface extends the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nn-encdec-idtfilter">IDTFilter</a> interface and is exposed by the Decrypter/Detagger filter.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDTFilter2</b> interface inherits from <a href="https://msdn.microsoft.com/15acf764-7e4d-40c3-b907-ff5dfaa69dae">IDTFilter</a>. <b>IDTFilter2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDTFilter2</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nn-encdec-idtfilter">IDTFilter</a>. <b>IDTFilter2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IDTFilter2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/46bb9197-839a-4a49-98b5-c51164651868">get_ChallengeUrl</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nf-encdec-idtfilter2-get_challengeurl">get_ChallengeUrl</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -81,7 +81,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3c9b9aa5-62b7-4b3a-abc1-2e0af7e65b18">GetCurrLicenseExpDate</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nf-encdec-idtfilter2-getcurrlicenseexpdate">GetCurrLicenseExpDate</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -90,7 +90,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e4de424c-0db6-408e-ab1a-57ae8899f4a7">GetLastErrorCode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nf-encdec-idtfilter2-getlasterrorcode">GetLastErrorCode</a>
 </td>
 <td align="left" width="63%">
 Returns the most recent error code from the Decrypter/Detagger filter.
@@ -114,11 +114,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/15acf764-7e4d-40c3-b907-ff5dfaa69dae">IDTFilter</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nn-encdec-idtfilter">IDTFilter</a>
 
 
 
-<a href="https://msdn.microsoft.com/abe939a3-5f43-4fdf-9d4d-34b7be8893eb">TV Ratings Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tv-ratings-interfaces">TV Ratings Interfaces</a>
  
 
  

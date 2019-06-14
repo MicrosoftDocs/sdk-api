@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 
 Releases the WMI namespace allocated by calls to the 
-<a href="https://msdn.microsoft.com/2259a014-3ecb-480d-ab65-9d27c0acf26c">IGPMRSOP::CreateQueryResults</a> method and by calls to the 
-<a href="https://msdn.microsoft.com/61a1be3e-d959-47e2-ad6c-ca00accd0afe">IGPM::GetRSOP</a> method.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmrsop-createqueryresults">IGPMRSOP::CreateQueryResults</a> method and by calls to the 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpm-getrsop">IGPM::GetRSOP</a> method.
 
 
 ## -parameters
@@ -80,11 +80,11 @@ Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 
 
 
-<a href="https://msdn.microsoft.com/2780760e-7114-46b0-a264-00ed58a556cb">IGPM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
 
 
 
-<a href="https://msdn.microsoft.com/86bbb143-2a9c-4fda-ba13-4f0fd09b2cd3">IGPMRSOP</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmrsop">IGPMRSOP</a>
  
 
  

@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 
-The <b>IMDSPStorageGlobals</b> interface, acquired from the <a href="https://msdn.microsoft.com/f22b8a6d-7df8-4fea-9436-79b9ded25a40">IMDSPStorage</a> interface, provides methods for retrieving global information about a storage medium. This might include the amount of free space, serial number of the medium, and so on.
+The <b>IMDSPStorageGlobals</b> interface, acquired from the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage">IMDSPStorage</a> interface, provides methods for retrieving global information about a storage medium. This might include the amount of free space, serial number of the medium, and so on.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDSPStorageGlobals</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMDSPStorageGlobals</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDSPStorageGlobals</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMDSPStorageGlobals</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMDSPStorageGlobals</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/83204c04-503d-4687-8a4d-3c95a6def8d1">GetCapabilities</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorageglobals-getcapabilities">GetCapabilities</a>
 </td>
 <td align="left" width="63%">
 Retrieves the capabilities of the storage medium that an instance of this interface is associated with.
@@ -81,7 +81,7 @@ Retrieves the capabilities of the storage medium that an instance of this interf
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5c35b426-f7fd-46f7-b92d-12a0c22b50e9">GetDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorageglobals-getdevice">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the device with which this interface is associated.
@@ -90,7 +90,7 @@ Retrieves a pointer to the device with which this interface is associated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/80b6cb71-d567-4fb5-9f75-82ae2fe118c7">GetRootStorage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorageglobals-getrootstorage">GetRootStorage</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the <b>IMDSPStorage</b> interface for the root storage of the storage medium.
@@ -99,7 +99,7 @@ Retrieves a pointer to the <b>IMDSPStorage</b> interface for the root storage of
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/42765429-c230-4fa1-9e2e-e21c71e49ae0">GetSerialNumber</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorageglobals-getserialnumber">GetSerialNumber</a>
 </td>
 <td align="left" width="63%">
 Retrieves a serial number uniquely identifying the storage medium.
@@ -108,7 +108,7 @@ Retrieves a serial number uniquely identifying the storage medium.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/572b5de6-62d7-450f-851f-d09b1864a86c">GetStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorageglobals-getstatus">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current status of the storage medium.
@@ -117,7 +117,7 @@ Retrieves the current status of the storage medium.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b0cbf636-e2c4-4a30-9b6d-5833090330a4">GetTotalBad</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorageglobals-gettotalbad">GetTotalBad</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total amount of unusable space on the storage medium, in bytes.
@@ -126,7 +126,7 @@ Retrieves the total amount of unusable space on the storage medium, in bytes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/141b33e8-5cb5-46a8-b91e-01bd9c634cbf">GetTotalFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorageglobals-gettotalfree">GetTotalFree</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total free space on the storage medium, in bytes.
@@ -135,7 +135,7 @@ Retrieves the total free space on the storage medium, in bytes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6a4b4ac5-0b7e-4a22-9857-b251a6bf1dcf">GetTotalSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorageglobals-gettotalsize">GetTotalSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total size of the storage medium, in bytes.
@@ -144,7 +144,7 @@ Retrieves the total size of the storage medium, in bytes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/661060dc-5a38-4110-80f6-c67e3be8c96b">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorageglobals-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Formats the storage medium.
@@ -159,11 +159,11 @@ Formats the storage medium.
 
 
 
-<a href="https://msdn.microsoft.com/f22b8a6d-7df8-4fea-9436-79b9ded25a40">IMDSPStorage Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage">IMDSPStorage Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/bd61c5fa-047c-4d93-bae1-f3433696b95b">Interfaces for Service Providers</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-service-providers">Interfaces for Service Providers</a>
  
 
  

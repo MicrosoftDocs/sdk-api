@@ -54,7 +54,7 @@ The
 <b>ProcessGroupPolicy</b> is a placeholder for the application-defined function name.
 
 This callback function is not useful for Resultant Set of Policy (RSoP) processing; use the 
-<a href="https://msdn.microsoft.com/df77fece-6e81-4a85-847a-fef3ba775e93">ProcessGroupPolicyEx</a> callback function instead.
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nc-userenv-pfnprocessgrouppolicyex">ProcessGroupPolicyEx</a> callback function instead.
 
 
 ## -parameters
@@ -83,7 +83,7 @@ Perform a background refresh of the policy.
 #### GPO_INFO_FLAG_ASYNC_FOREGROUND
 
 Perform an asynchronous foreground refresh of policy. For more information about foreground policy application, see 
-<a href="https://msdn.microsoft.com/60774d80-32a0-446e-b394-a45a9aaf6325">Initial Processing of Group Policy</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/initial-processing-of-group-policy">Initial Processing of Group Policy</a>.
 
 
 
@@ -131,13 +131,13 @@ Safe mode flag.
 ### -param hToken [in]
 
 Token for the user or computer, returned from the 
-<a href="https://msdn.microsoft.com/a6d880a0-0aed-4bdb-89c9-4f667ecb510e">LogonUser</a>, 
-<a href="https://msdn.microsoft.com/e087f360-5d1d-4846-b3d6-214a426e5222">CreateRestrictedToken</a>, 
-<a href="https://msdn.microsoft.com/796ec60e-fcae-48a9-b471-de3dce831306">DuplicateToken</a>, 
-<a href="https://msdn.microsoft.com/1e760ad8-7e46-4748-8c45-36ad8efe936a">OpenProcessToken</a>, or 
-<a href="https://msdn.microsoft.com/5003f0c4-41e9-4a14-b6a9-4f259c4af08b">OpenThreadToken</a> function. This token must have <b>TOKEN_IMPERSONATE</b> and <b>TOKEN_QUERY</b> access. For more information, see 
-<a href="https://msdn.microsoft.com/5f710fd8-33de-47c0-a8b2-baf3008c4ed7">Access Rights for Access-Token Objects</a> and 
-<a href="https://msdn.microsoft.com/a3f74372-bdc9-43eb-b72f-7d00a43e78a8">Client Impersonation</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createrestrictedtoken">CreateRestrictedToken</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-duplicatetoken">DuplicateToken</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocesstoken">OpenProcessToken</a>, or 
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthreadtoken">OpenThreadToken</a> function. This token must have <b>TOKEN_IMPERSONATE</b> and <b>TOKEN_QUERY</b> access. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-rights-for-access-token-objects">Access Rights for Access-Token Objects</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/client-impersonation">Client Impersonation</a>.
 
 
 ### -param hKeyRoot [in]
@@ -148,13 +148,13 @@ Handle to the <b>HKEY_LOCAL_MACHINE</b> or <b>HKEY_CURRENT_USER</b> registry key
 ### -param pDeletedGPOList [in]
 
 Pointer that receives the list of deleted GPO structures. For more information, see 
-<a href="https://msdn.microsoft.com/7275a3cd-6b19-4eb9-9481-b73bd5af5753">GROUP_POLICY_OBJECT</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-_group_policy_objecta">GROUP_POLICY_OBJECT</a>.
 
 
 ### -param pChangedGPOList [in]
 
 Pointer that receives the list of changed GPO structures. For more information, see 
-<a href="https://msdn.microsoft.com/7275a3cd-6b19-4eb9-9481-b73bd5af5753">GROUP_POLICY_OBJECT</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-_group_policy_objecta">GROUP_POLICY_OBJECT</a>.
 
 
 ### -param pHandle [in]
@@ -170,7 +170,7 @@ Specifies whether to continue processing GPOs. If this parameter is <b>TRUE</b>,
 ### -param pStatusCallback [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/9eec6204-49b5-49fd-8db4-5c1777eb7c85">StatusMessageCallback</a> callback function that displays status messages. This parameter can be <b>NULL</b> in certain cases. For example, if the system is applying policy in the background, the status user interface is not present and the application cannot send status messages to be displayed. For more information, see the following Remarks section.
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nc-userenv-pfnstatusmessagecallback">StatusMessageCallback</a> callback function that displays status messages. This parameter can be <b>NULL</b> in certain cases. For example, if the system is applying policy in the background, the status user interface is not present and the application cannot send status messages to be displayed. For more information, see the following Remarks section.
 
 
 ## -returns
@@ -178,7 +178,7 @@ Pointer to a
 
 
 If policy was applied successfully, return <b>ERROR_SUCCESS</b>. If there are no changes to the GPO list, and the extension is to be called again, return <b>ERROR_OVERRIDE_NOCHANGES</b>. Returning <b>ERROR_OVERRIDE_NOCHANGES</b> ensures that the extension is called again, even if the <b>NoGPOListChanges</b> registry value is set. (For more information about this registry value, see Remarks.) Otherwise, return a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 
 
@@ -188,10 +188,10 @@ If policy was applied successfully, return <b>ERROR_SUCCESS</b>. If there are no
 
 
 For more information, see 
-<a href="https://msdn.microsoft.com/6124fa2f-f518-498f-ba07-210c2dbaca9a">Implementing a Group Policy Client-side Extension</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/implementing-a-group-policy-client-side-extension">Implementing a Group Policy Client-side Extension</a>.
 
 The system calls this function in the context of the 
-<a href="https://msdn.microsoft.com/692bceb6-f5bd-4b83-ab3b-ef8099dc84e1">LocalSystem account</a>, which has extensive privileges on the local computer. To use network resources, you must impersonate the user or computer by using the token provided in the <i>hToken</i> parameter.
+<a href="https://docs.microsoft.com/windows/desktop/Services/localsystem-account">LocalSystem account</a>, which has extensive privileges on the local computer. To use network resources, you must impersonate the user or computer by using the token provided in the <i>hToken</i> parameter.
 
 To register this callback function, create a subkey under the following registry key:
 
@@ -205,7 +205,7 @@ The subkey should be a <b>GUID</b>, so that it is unique. It should contain the 
 
 
 You should update the status message only if you are applying policy synchronously. This allows you to provide feedback and diagnostics during a lengthy policy application. To use the status message callback function, you must verify that <i>pStatusCallback</i> is not <b>NULL</b>. Then load your message string resource. When you call the status function, you must indicate whether the string is verbose. If the string is verbose, the callback function will verify that the computer is in verbose mode and display the message. For more information, see 
-<a href="https://msdn.microsoft.com/9eec6204-49b5-49fd-8db4-5c1777eb7c85">StatusMessageCallback</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nc-userenv-pfnstatusmessagecallback">StatusMessageCallback</a>.
 
 <div class="alert"><b>Warning</b>  Do not call the <i>pStatusCallback</i> function from a background thread because you may overwrite another thread's status message.</div>
 <div> </div>
@@ -217,25 +217,25 @@ You should update the status message only if you are applying policy synchronous
 
 
 
-<a href="https://msdn.microsoft.com/7c45666e-d7c7-4989-ad19-b1b230757a88">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
     Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/1285ab5a-ea68-4c16-bc34-8ab2f3cfad35">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/f88c8072-af4c-44e0-a816-ecb841dd1a78">ProcessGroupPolicyCompleted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-processgrouppolicycompleted">ProcessGroupPolicyCompleted</a>
 
 
 
-<a href="https://msdn.microsoft.com/e08cb006-d174-4506-87f0-580660bd4023">RefreshPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-refreshpolicy">RefreshPolicy</a>
 
 
 
-<a href="https://msdn.microsoft.com/9eec6204-49b5-49fd-8db4-5c1777eb7c85">StatusMessageCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nc-userenv-pfnstatusmessagecallback">StatusMessageCallback</a>
  
 
  

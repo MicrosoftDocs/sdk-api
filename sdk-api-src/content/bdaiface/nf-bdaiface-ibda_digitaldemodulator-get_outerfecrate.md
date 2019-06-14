@@ -62,7 +62,7 @@ The <b>get_OuterFECRate</b> method retrieves the outer forward error correction 
 
 ### -param pFECRate [out]
 
-Pointer that receives a <a href="https://msdn.microsoft.com/161c963f-55b2-4a17-a537-47de3326df0e">BinaryConvolutionCodeRate</a> variable that indicates the rate.
+Pointer that receives a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/binaryconvolutioncoderate">BinaryConvolutionCodeRate</a> variable that indicates the rate.
 
 
 ## -returns
@@ -79,19 +79,19 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693284(v=VS.85).aspx">IBDA_DigitalDemodulator Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_digitaldemodulator">IBDA_DigitalDemodulator Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693295(v=VS.85).aspx">IBDA_DigitalDemodulator::get_InnerFECRate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator-get_innerfecrate">IBDA_DigitalDemodulator::get_InnerFECRate</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693305(v=VS.85).aspx">IBDA_DigitalDemodulator::put_OuterFECRate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator-put_outerfecrate">IBDA_DigitalDemodulator::put_OuterFECRate</a>
  
 
  

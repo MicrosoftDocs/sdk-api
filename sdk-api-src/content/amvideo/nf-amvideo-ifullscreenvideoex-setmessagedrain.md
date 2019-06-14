@@ -79,7 +79,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-This method is equivalent to the <a href="https://msdn.microsoft.com/en-us/library/Dd377323(v=VS.85).aspx">IVideoWindow::put_MessageDrain</a> method.
+This method is equivalent to the <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-put_messagedrain">IVideoWindow::put_MessageDrain</a> method.
 
 The Full Screen video renderer posts all mouse and keyboard messages to the window designated as a message drain. The exact list of messages that are posted is the same as the list given in <b>put_MessageDrain</b>.
 
@@ -93,11 +93,11 @@ Applications do not need to use this method. Instead, call the Filter Graph Mana
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390056(v=VS.85).aspx">IFullScreenVideoEx Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nn-amvideo-ifullscreenvideoex">IFullScreenVideoEx Interface</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines the possible states of <a href="https://msdn.microsoft.com/26358bc5-71e9-40f0-9243-9bddd961a0e5">Direct Manipulation</a>. The viewport can process input in any state unless otherwise noted.
+Defines the possible states of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-portal">Direct Manipulation</a>. The viewport can process input in any state unless otherwise noted.
 
 
 ## -enum-fields
@@ -69,7 +69,7 @@ The viewport was successfully enabled.
 
 ### -field DIRECTMANIPULATION_DISABLED
 
-The viewport is disabled and cannot process input or callbacks. The viewport can be enabled by calling <a href="https://msdn.microsoft.com/47ebb502-26c6-4bff-8baf-bd825fc06755">Enable</a>.
+The viewport is disabled and cannot process input or callbacks. The viewport can be enabled by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-enable">Enable</a>.
 
 
 ### -field DIRECTMANIPULATION_RUNNING
@@ -89,7 +89,7 @@ The viewport has completed the previous interaction.
 
 ### -field DIRECTMANIPULATION_SUSPENDED
 
-The transient state of the viewport when input has been promoted to an ancestor in the <a href="https://msdn.microsoft.com/39562bf1-c2cf-4ea6-9d02-a2b5fc4d3158">SetContact</a> chain.
+The transient state of the viewport when input has been promoted to an ancestor in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-setcontact">SetContact</a> chain.
 
 
 ## -see-also
@@ -97,7 +97,7 @@ The transient state of the viewport when input has been promoted to an ancestor 
 
 
 
-<a href="https://msdn.microsoft.com/D116798F-E381-46D4-8271-8BD8CADC9D27">Direct Manipulation Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-enumerations">Direct Manipulation Enumerations</a>
  
 
  

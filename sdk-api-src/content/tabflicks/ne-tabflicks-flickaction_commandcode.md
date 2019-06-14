@@ -105,19 +105,19 @@ In Control Panel, the user can assign commands to pen flicks. Four types of acti
 
 
 
-<a href="https://msdn.microsoft.com/f83994ca-7ebe-42bc-bb54-f101a0a62e52">flick_data structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tabflicks/ns-tabflicks-flick_data">flick_data structure</a>
 
 
 
-<a href="https://msdn.microsoft.com/004c7d76-90a9-4506-a70b-dbf8f9e1c616">flicks gestures</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/flicks-gestures">flicks gestures</a>
 
 
 
-<a href="https://msdn.microsoft.com/d5c6fa9a-b7a3-4097-bf4f-6d540130f715">responding to pen flicks</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms703447(v=vs.85)">responding to pen flicks</a>
 
 
 
-<a href="https://msdn.microsoft.com/9433aadf-3440-4249-8f2c-3e22ebc949fb">wm_tablet_flick message</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/wm-tablet-flick-message">wm_tablet_flick message</a>
  
 
  

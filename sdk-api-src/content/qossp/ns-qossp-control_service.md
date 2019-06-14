@@ -177,7 +177,7 @@ Qualitative service.
 
 ### -field Overrides
 
-Specifies overrides to service specifications, expressed in the form of an <a href="https://msdn.microsoft.com/eab6b317-9d06-45e2-bc77-0882f40e7d79">AD_GENERAL_PARAMS</a> structure.
+Specifies overrides to service specifications, expressed in the form of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_ad_general_params">AD_GENERAL_PARAMS</a> structure.
 
 
 ### -field Guaranteed
@@ -187,14 +187,14 @@ Specifies guaranteed service, and provides service parameters in the form of an 
 
 ### -field ParamBuffer
 
-Describes the buffer used, in the form of a <a href="https://msdn.microsoft.com/b5078f3b-ab7f-4194-aed7-de5ebb4f7fb8">PARAM_BUFFER</a> structure.
+Describes the buffer used, in the form of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_param_buffer">PARAM_BUFFER</a> structure.
 
 
 ## -remarks
 
 
 
-The <b>Length</b> value can be added to the pointer to the structure to obtain the pointer to the next <b>CONTROL_SERVICE</b> structure in the list, until the <b>NumberOfServices</b> member of the <a href="https://msdn.microsoft.com/90fad5de-7105-4126-a6db-d4fb663e01f4">RSVP_ADSPEC</a> structure is exhausted.
+The <b>Length</b> value can be added to the pointer to the structure to obtain the pointer to the next <b>CONTROL_SERVICE</b> structure in the list, until the <b>NumberOfServices</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_adspec">RSVP_ADSPEC</a> structure is exhausted.
 
 
 
@@ -204,11 +204,11 @@ The <b>Length</b> value can be added to the pointer to the structure to obtain t
 
 
 
-<a href="https://msdn.microsoft.com/b5078f3b-ab7f-4194-aed7-de5ebb4f7fb8">PARAM_BUFFER</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_param_buffer">PARAM_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/90fad5de-7105-4126-a6db-d4fb663e01f4">RSVP_ADSPEC</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_adspec">RSVP_ADSPEC</a>
  
 
  

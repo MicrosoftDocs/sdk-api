@@ -59,7 +59,7 @@ Returns the current format and periodicity of the audio engine. This method enab
 
 ### -param ppFormat [out]
 
-Type: <b><a href="https://msdn.microsoft.com/bd0f96ec-d26a-4e6f-8802-50e8ff207f54">WAVEFORMATEX</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a>**</b>
 
 The current device format that is being used by the audio engine.
 
@@ -75,7 +75,7 @@ The current period of the audio engine, in audio frames.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 This method returns <b>S_OK</b> to indicate that it has completed successfully. Otherwise it returns an appropriate error code. 
 
@@ -88,7 +88,7 @@ This method returns <b>S_OK</b> to indicate that it has completed successfully. 
 
 <div class="alert"><b>Note</b>  The values returned by this method are instantaneous values and may be invalid immediately after the call returns if, for example, another audio client sets the periodicity or format to a different value.</div>
 <div> </div>
-<div class="alert"><b>Note</b>  The caller is responsible for calling <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> to deallocate the memory of the <b>WAVEFORMATEX</b> structure populated by this method.</div>
+<div class="alert"><b>Note</b>  The caller is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to deallocate the memory of the <b>WAVEFORMATEX</b> structure populated by this method.</div>
 <div> </div>
 
 
@@ -98,7 +98,7 @@ This method returns <b>S_OK</b> to indicate that it has completed successfully. 
 
 
 
-<a href="https://msdn.microsoft.com/E8EFE682-E1BC-4D0D-A60E-DD257D6E5894">IAudioClient3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient3">IAudioClient3</a>
  
 
  

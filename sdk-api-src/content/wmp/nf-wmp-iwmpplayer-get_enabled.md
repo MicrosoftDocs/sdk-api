@@ -107,15 +107,15 @@ If the <b>VARIANT_BOOL</b> received from <b>get_enabled</b> equals <b>FALSE</b>,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563514(v=VS.85).aspx">IWMPPlayer Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplayer">IWMPPlayer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563539(v=VS.85).aspx">IWMPPlayer::get_enableContextMenu</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplayer-get_enablecontextmenu">IWMPPlayer::get_enableContextMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563544(v=VS.85).aspx">IWMPPlayer::put_enabled</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplayer-put_enabled">IWMPPlayer::put_enabled</a>
  
 
  

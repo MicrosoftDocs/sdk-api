@@ -59,7 +59,7 @@ The <b>FWPM_NET_EVENT_SUBSCRIPTION0</b> structure stores information used to sub
 
 ### -field enumTemplate
 
-Address of an <a href="https://msdn.microsoft.com/79711b24-e092-4a36-810a-6acad279eb90">FWPM_NET_EVENT_ENUM_TEMPLATE0</a> structure. Notifications are only dispatched for objects that match the template. If
+Address of an <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_enum_template0_">FWPM_NET_EVENT_ENUM_TEMPLATE0</a> structure. Notifications are only dispatched for objects that match the template. If
    <b>enumTemplate</b> is <b>NULL</b>, it matches all objects.
 
 
@@ -77,7 +77,7 @@ Identifies the session which created the subscription.
 
 
 
-<b>FWPM_NET_EVENT_SUBSCRIPTION0</b> is a specific implementation of FWPM_NET_EVENT_SUBSCRIPTION. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FWPM_NET_EVENT_SUBSCRIPTION0</b> is a specific implementation of FWPM_NET_EVENT_SUBSCRIPTION. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 

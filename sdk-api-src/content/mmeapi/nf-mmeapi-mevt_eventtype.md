@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MEVT_EVENTTYPE</b> macro retrieves the event type from the value specified in the <b>dwEvent</b> member of a <a href="https://msdn.microsoft.com/e83bf111-2075-4cfc-a68b-e0a59a0c53e6">MIDIEVENT</a> structure.
+The <b>MEVT_EVENTTYPE</b> macro retrieves the event type from the value specified in the <b>dwEvent</b> member of a <a href="https://docs.microsoft.com/previous-versions//dd798448(v=vs.85)">MIDIEVENT</a> structure.
 
 
 
@@ -87,7 +87,7 @@ The <b>MEVT_EVENTTYPE</b> macro is defined as follows:
 
 
 
-<a href="https://msdn.microsoft.com/64b23c16-cf4e-4b62-bbfc-c81ea4131bfa">MIDI Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-macros">MIDI Macros</a>
  
 
  

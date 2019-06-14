@@ -67,7 +67,7 @@ Identifies the terminal session that logged the event.
 
 
 
-<a href="https://msdn.microsoft.com/130dc14b-7488-48ab-a31d-310c0f4ee13f">EVENT_HEADER_EXTENDED_DATA_ITEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_header_extended_data_item">EVENT_HEADER_EXTENDED_DATA_ITEM</a>
  
 
  

@@ -89,7 +89,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/6e05b011-8bf6-3f91-aa4c-6655906b6b8a">DirectXMath Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-enums">DirectXMath Enumerations</a>
 
 
 

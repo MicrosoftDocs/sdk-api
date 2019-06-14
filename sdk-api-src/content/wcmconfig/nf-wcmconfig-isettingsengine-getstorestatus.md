@@ -64,7 +64,7 @@ Reserved. Must be <b>NULL</b>.
 
 ### -param Status [out]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Aa378609(v=VS.85).aspx">WcmUserStatus</a> value that indicates the status of the store.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/ne-wcmconfig-__midl___midl_itf_wcmconfig_0000_0000_0006">WcmUserStatus</a> value that indicates the status of the store.
 
 
 ## -returns
@@ -81,7 +81,7 @@ This method returns an HRESULT value. <b>S_OK</b> indicates success.
 
 
 
-<a href="https://msdn.microsoft.com/ba816a00-e238-4dbd-a09a-ad4e191d9c4e">ISettingsEngine</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsengine">ISettingsEngine</a>
  
 
  

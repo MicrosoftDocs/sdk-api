@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a new <a href="https://msdn.microsoft.com/447625BA-F982-4155-9B05-E478E1229443">IPropertyValue</a> object that contains  the specified <a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a> object.
+Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object that contains  the specified <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> object.
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Creates a new <a href="https://msdn.microsoft.com/447625BA-F982-4155-9B05-E478E1
 
 ### -param value [in]
 
-Type: <b><a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>*</b>
 
 The object to store.
 
 
 ### -param propertyValue [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>**</b>
 
 A pointer to a new object that contains <i>value</i>.
 
@@ -113,7 +113,7 @@ The  property value was created successfully.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/447625BA-F982-4155-9B05-E478E1229443">IPropertyValue</a> object could not be created.
+The <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object could not be created.
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ The <a href="https://msdn.microsoft.com/447625BA-F982-4155-9B05-E478E1229443">IP
 
 
 
-Use the <b>CreateInspectable</b> method to  store a value in an <a href="https://msdn.microsoft.com/447625BA-F982-4155-9B05-E478E1229443">IPropertyValue</a> object. You can add the  <b>IPropertyValue</b> object to a property store. Use the <a href="https://msdn.microsoft.com/5E252F3F-1EEA-4EFA-ACEB-31DA40AB3A13">GetInspectable</a> method to retrieve the value from the  <b>IPropertyValue</b> object.
+Use the <b>CreateInspectable</b> method to  store a value in an <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object. You can add the  <b>IPropertyValue</b> object to a property store. Use the <a href="https://docs.microsoft.com/previous-versions/visualstudio">GetInspectable</a> method to retrieve the value from the  <b>IPropertyValue</b> object.
 
 
 
@@ -137,11 +137,11 @@ Use the <b>CreateInspectable</b> method to  store a value in an <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/5E252F3F-1EEA-4EFA-ACEB-31DA40AB3A13">IPropertyValue::GetInspectable</a>
+<a href="https://docs.microsoft.com/previous-versions/visualstudio">IPropertyValue::GetInspectable</a>
 
 
 
-<a href="https://msdn.microsoft.com/946BD4F9-318C-4452-AEDB-DF2212A2D3CA">IPropertyValueStatics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvaluestatics">IPropertyValueStatics</a>
  
 
  

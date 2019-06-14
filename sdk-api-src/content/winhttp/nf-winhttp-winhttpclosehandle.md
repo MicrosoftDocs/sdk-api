@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>WinHttpCloseHandle</b> function closes a single 
-<a href="https://msdn.microsoft.com/0bd82860-1347-40c8-ae77-c4d865c109be">HINTERNET</a> handle.
+<a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> handle.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>WinHttpCloseHandle</b> function closes a single
 ### -param hInternet [in]
 
 Valid 
-<a href="https://msdn.microsoft.com/0bd82860-1347-40c8-ae77-c4d865c109be">HINTERNET</a> handle to be closed. 
+<a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> handle to be closed. 
 
 
 ## -returns
@@ -69,7 +69,7 @@ Valid
 
 
 Returns <b>TRUE</b> if the handle is successfully closed, or <b>FALSE</b> otherwise. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. Among the error codes returned are the following.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Among the error codes returned are the following.
 
 <table>
 <tr>
@@ -119,13 +119,13 @@ Not enough memory was available to complete the requested operation. (Windows er
 
 
 
-Even when  WinHTTP is used in asynchronous mode (that is, when <b>WINHTTP_FLAG_ASYNC</b> has been set in <a href="https://msdn.microsoft.com/34ce8f7d-7cc3-4b38-ba6a-1247f50ebd33">WinHttpOpen</a>), this function operates synchronously. The return value indicates success or failure.  To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+Even when  WinHTTP is used in asynchronous mode (that is, when <b>WINHTTP_FLAG_ASYNC</b> has been set in <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>), this function operates synchronously. The return value indicates success or failure.  To get extended error information, call 
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 If there is a status callback registered for the handle being closed and the handle was created with a non-<b>NULL</b> context value, a <b>WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING</b> callback is made. This  is the last callback made from the handle and indicates that the handle is being destroyed.
 
 
-An application can terminate an in-progress synchronous or asynchronous request by closing the <a href="https://msdn.microsoft.com/0bd82860-1347-40c8-ae77-c4d865c109be">HINTERNET</a> request handle using <b>WinHttpCloseHandle</b>. For asynchronous requests, keep the following points in mind:
+An application can terminate an in-progress synchronous or asynchronous request by closing the <a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> request handle using <b>WinHttpCloseHandle</b>. For asynchronous requests, keep the following points in mind:
 
 
 <ul>
@@ -138,21 +138,21 @@ Even after a call to <b>WinHttpCloseHandle</b> returns, the application must sti
 
 </li>
 <li>
-If an application associates a context data structure or object with the handle, it should maintain that binding until the callback function receives a <b>WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING</b> notification. This is the last callback notification WinHTTP sends prior to deleting a handle object from memory. In order to receive the <b>WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING</b> callback notification, the application must enable the <b>WINHTTP_CALLBACK_FLAG_HANDLES</b> flag in the <a href="https://msdn.microsoft.com/b093daf0-7abe-49cb-8c09-9519e3c130b6">WinHttpSetStatusCallback</a> call.
+If an application associates a context data structure or object with the handle, it should maintain that binding until the callback function receives a <b>WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING</b> notification. This is the last callback notification WinHTTP sends prior to deleting a handle object from memory. In order to receive the <b>WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING</b> callback notification, the application must enable the <b>WINHTTP_CALLBACK_FLAG_HANDLES</b> flag in the <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsetstatuscallback">WinHttpSetStatusCallback</a> call.
 
 </li>
 <li>
-Before calling <b>WinHttpCloseHandle</b>, an application can call <a href="https://msdn.microsoft.com/b093daf0-7abe-49cb-8c09-9519e3c130b6">WinHttpSetStatusCallback</a> to indicate that no more callbacks should be made:
+Before calling <b>WinHttpCloseHandle</b>, an application can call <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsetstatuscallback">WinHttpSetStatusCallback</a> to indicate that no more callbacks should be made:
 
 <code>WinHttpSetStatusCallback( hRequest, NULL, 0, 0 );</code>
 
-It might seem that the context data structure could then be freed immediately rather than having to wait for a <b>WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING</b> notification, but this is not the case: WinHTTP does not synchronize <a href="https://msdn.microsoft.com/b093daf0-7abe-49cb-8c09-9519e3c130b6">WinHttpSetStatusCallback</a> with callbacks originating in worker threads. As a result, a callback could already be in progress from another thread, and the application could receive a callback notification even after having <b>NULL</b>ed-out the callback function pointer and deleted the handle's context data structure.  Because of this potential race condition, be conservative in freeing the context structure until after having received the <b>WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING</b> notification.
+It might seem that the context data structure could then be freed immediately rather than having to wait for a <b>WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING</b> notification, but this is not the case: WinHTTP does not synchronize <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsetstatuscallback">WinHttpSetStatusCallback</a> with callbacks originating in worker threads. As a result, a callback could already be in progress from another thread, and the application could receive a callback notification even after having <b>NULL</b>ed-out the callback function pointer and deleted the handle's context data structure.  Because of this potential race condition, be conservative in freeing the context structure until after having received the <b>WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING</b> notification.
 
 </li>
 </ul>
-An application should never <b>WinHttpCloseHandle</b> call  on a synchronous request. This can create a race condition. See <a href="https://msdn.microsoft.com/en-us/library/Aa383880(v=VS.85).aspx">HINTERNET Handles in WinHTTP</a> for more information.
+An application should never <b>WinHttpCloseHandle</b> call  on a synchronous request. This can create a race condition. See <a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET Handles in WinHTTP</a> for more information.
 
-<div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Run-Time Requirements</a> section of the WinHttp start page.</div>
+<div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Run-Time Requirements</a> section of the WinHttp start page.</div>
 <div> </div>
 
 #### Examples
@@ -206,23 +206,23 @@ The following example shows you how to  retrieve the connection
 
 
 
-<a href="https://msdn.microsoft.com/8337f699-3ec0-4397-acc2-6dc813f7542d">About Microsoft Windows HTTP Services (WinHTTP)</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinHttp/about-winhttp">About Microsoft Windows HTTP Services (WinHTTP)</a>
 
 
 
-<a href="https://msdn.microsoft.com/b69e5087-7849-4cbc-a97b-204a26fdd044">WinHTTP Versions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP Versions</a>
 
 
 
-<a href="https://msdn.microsoft.com/afcdad8d-687e-4a1f-99d8-5d8be13825fa">WinHttpConnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpconnect">WinHttpConnect</a>
 
 
 
-<a href="https://msdn.microsoft.com/34ce8f7d-7cc3-4b38-ba6a-1247f50ebd33">WinHttpOpen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ecd035d-1abf-48ca-baf2-d9754f912c60">WinHttpOpenRequest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopenrequest">WinHttpOpenRequest</a>
  
 
  

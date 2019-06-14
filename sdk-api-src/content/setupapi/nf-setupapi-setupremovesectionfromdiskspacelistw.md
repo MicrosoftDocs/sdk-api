@@ -134,7 +134,7 @@ Must be zero.
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -145,7 +145,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 The file operations removed by the 
 <b>SetupRemoveSectionFromDiskSpaceList</b> function are typically those that have been added to the list by using the 
-<a href="https://msdn.microsoft.com/8225d0b4-b750-4580-83f5-dcffdf2ee67b">SetupAddSectionToDiskSpaceList</a> function, though this is not a requirement. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupaddsectiontodiskspacelista">SetupAddSectionToDiskSpaceList</a> function, though this is not a requirement. The 
 <b>SetupRemoveSectionFromDiskSpaceList</b> function ignores files in the INF section that are not listed in the disk-space list.
 
 This function requires a Windows INF file. Some older INF file  formats may not be supported. 
@@ -158,23 +158,23 @@ This function requires a Windows INF file. Some older INF file  formats may not 
 
 
 
-<a href="https://msdn.microsoft.com/0a9518b7-f231-48f2-ba50-5b802f8ccaed">Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/58201596-cb8c-480a-abef-896c1f9ef098">Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/8225d0b4-b750-4580-83f5-dcffdf2ee67b">SetupAddSectionToDiskSpaceList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupaddsectiontodiskspacelista">SetupAddSectionToDiskSpaceList</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d23c8ce-ada6-4640-b9ad-8989f9a122a2">SetupRemoveFromDiskSpaceList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupremovefromdiskspacelista">SetupRemoveFromDiskSpaceList</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd104c59-faee-4eb6-abbc-a4c13d766298">SetupRemoveInstallSectionFromDiskSpaceList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupremoveinstallsectionfromdiskspacelista">SetupRemoveInstallSectionFromDiskSpaceList</a>
  
 
  

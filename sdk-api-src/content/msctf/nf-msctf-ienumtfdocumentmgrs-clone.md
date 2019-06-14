@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ### -param ppEnum [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/5b276752-715b-4426-ad37-8658bae4c1a6">IEnumTfDocumentMgrs</a> interface pointer that receives the new enumerator.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfdocumentmgrs">IEnumTfDocumentMgrs</a> interface pointer that receives the new enumerator.
 
 
 ## -returns
@@ -105,7 +105,7 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://msdn.microsoft.com/5b276752-715b-4426-ad37-8658bae4c1a6">IEnumTfDocumentMgrs
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfdocumentmgrs">IEnumTfDocumentMgrs
       </a>
  
 

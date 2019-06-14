@@ -53,16 +53,16 @@ The
 <b>IEnumBstr</b> interface provides COM-standard methods to enumerate <b>BSTR</b> strings. The following methods return a pointer to this interface:
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/34a967ba-7d1f-4841-95be-9e83f927379b">ITAddressCapabilities::EnumerateCallTreatments</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresscapabilities-enumeratecalltreatments">ITAddressCapabilities::EnumerateCallTreatments</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/b7a3eb72-6c9f-4164-a082-8b0951733dcb">ITAddressCapabilities::EnumerateCompletionMessages</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresscapabilities-enumeratecompletionmessages">ITAddressCapabilities::EnumerateCompletionMessages</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/33cc965f-0603-40b0-95bb-9b16025dd2b6">ITAddressCapabilities::EnumerateDeviceClasses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresscapabilities-enumeratedeviceclasses">ITAddressCapabilities::EnumerateDeviceClasses</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/edbfe386-9b3d-4160-916e-6c9ea640cfbc">IMcastLeaseInfo::EnumerateAddresses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastleaseinfo-enumerateaddresses">IMcastLeaseInfo::EnumerateAddresses</a>
 </li>
 </ul>The 
 <b>IEnumBstr</b> interface is hidden from Visual Basic and scripting languages.
@@ -70,7 +70,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumBstr</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnumBstr</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumBstr</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumBstr</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -85,7 +85,7 @@ The <b>IEnumBstr</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/17376fb1-05cc-4ca4-85ab-d578a48f03d1">Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ienumbstr-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates another enumerator that contains the same enumeration state as the current one.
@@ -94,7 +94,7 @@ Creates another enumerator that contains the same enumeration state as the curre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e4a03985-9f90-4ae4-b4ec-a6aa43e5bb10">Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ienumbstr-next">Next</a>
 </td>
 <td align="left" width="63%">
 Gets the next specified number of elements in the enumeration sequence.
@@ -103,7 +103,7 @@ Gets the next specified number of elements in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/52199728-17ab-4c17-bfe5-f51cd1e0b150">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ienumbstr-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets to the beginning of the enumeration sequence.
@@ -112,7 +112,7 @@ Resets to the beginning of the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fcece935-d133-4991-8eae-f2cabfde423b">Skip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ienumbstr-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over the next specified number of elements in the enumeration sequence.

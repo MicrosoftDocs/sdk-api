@@ -69,7 +69,7 @@ Number of elements requested.
 ### -param ppScopes [out]
 
 Pointer to the 
-<a href="https://msdn.microsoft.com/b0252ac4-856e-4aa7-aa3b-37b92472e864">IMcastScope</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-imcastscope">IMcastScope</a> interface.
 
 
 ### -param pceltFetched [out]
@@ -132,7 +132,7 @@ The <i>ppScopes</i> parameter is not a valid pointer.
 
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://msdn.microsoft.com/b0252ac4-856e-4aa7-aa3b-37b92472e864">IMcastScope</a> interface returned by <b>IEnumMcastScope::Next</b>. The application must call <b>Release</b> on the 
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-imcastscope">IMcastScope</a> interface returned by <b>IEnumMcastScope::Next</b>. The application must call <b>Release</b> on the 
 <b>IMcastScope</b> interface to free resources associated with it.
 
 
@@ -143,7 +143,7 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 
-<a href="https://msdn.microsoft.com/edc8be8e-635b-43f3-a4c1-7566e354cc3e">IEnumMcastScope</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-ienummcastscope">IEnumMcastScope</a>
  
 
  

@@ -60,7 +60,7 @@ Creates a virtual hard disk (VHD) image file, either using default parameters or
 
 ### -param VirtualStorageType [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd323704(v=VS.85).aspx">VIRTUAL_STORAGE_TYPE</a> structure 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> structure 
      that contains the desired disk type and vendor information.
 
 
@@ -71,7 +71,7 @@ A pointer to a valid string that represents the path to the new virtual disk ima
 
 ### -param VirtualDiskAccessMask [in]
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd323702(v=VS.85).aspx">VIRTUAL_DISK_ACCESS_MASK</a> value to use 
+The <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_virtual_disk_access_mask">VIRTUAL_DISK_ACCESS_MASK</a> value to use 
      when opening the newly created virtual disk file. If the <b>Version</b> member of the 
      <i>Parameters</i> parameter is set to 
      <b>CREATE_VIRTUAL_DISK_VERSION_2</b> then only the 
@@ -81,7 +81,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/Dd323702(v=VS.85).aspx">VI
 ### -param SecurityDescriptor [in, optional]
 
 An optional pointer to a 
-     <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> to apply to the virtual 
+     <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> to apply to the virtual 
      disk image file. If this parameter is <b>NULL</b>, the parent directory's security descriptor 
      will be used.
 
@@ -89,7 +89,7 @@ An optional pointer to a
 ### -param Flags [in]
 
 Creation flags, which must be a valid combination of the 
-     <a href="https://msdn.microsoft.com/en-us/library/Dd323660(v=VS.85).aspx">CREATE_VIRTUAL_DISK_FLAG</a> enumeration.
+     <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_create_virtual_disk_flag">CREATE_VIRTUAL_DISK_FLAG</a> enumeration.
 
 
 ### -param ProviderSpecificFlags [in]
@@ -100,14 +100,14 @@ Flags specific to the type of virtual disk being created. May be zero if none ar
 ### -param Parameters [in]
 
 A pointer to a valid 
-     <a href="https://msdn.microsoft.com/en-us/library/Dd323661(v=VS.85).aspx">CREATE_VIRTUAL_DISK_PARAMETERS</a> structure 
+     <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_create_virtual_disk_parameters">CREATE_VIRTUAL_DISK_PARAMETERS</a> structure 
      that contains creation parameter data.
 
 
 ### -param Overlapped [in, optional]
 
-An optional pointer to a valid <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure 
-     if <a href="https://msdn.microsoft.com/db44990e-5a0f-4153-8ff6-79dd7cda48af">asynchronous</a> operation 
+An optional pointer to a valid <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure 
+     if <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">asynchronous</a> operation 
      is desired.
 
 
@@ -125,7 +125,7 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b> and the
 
 If the function fails, the return value is an error code and the value of the <i>Handle</i> 
       parameter is undefined. For more information, see 
-      <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -186,7 +186,7 @@ When creating the various types of virtual disks, the following combinations of 
 The <b>CreateVirtualDisk</b> function can also be used 
     as a mechanism for converting one type of virtual disk to another, or a physical disk to a virtual disk. This is 
     accomplished through the use of the <b>SourcePath</b> member of the 
-    <a href="https://msdn.microsoft.com/en-us/library/Dd323661(v=VS.85).aspx">CREATE_VIRTUAL_DISK_PARAMETERS</a> structure 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_create_virtual_disk_parameters">CREATE_VIRTUAL_DISK_PARAMETERS</a> structure 
     to pre-populate the new virtual disk with block data from the source disk.
 
 
@@ -197,15 +197,15 @@ The <b>CreateVirtualDisk</b> function can also be used
 
 
 
-<a href="https://msdn.microsoft.com/c9531c07-ad55-42b6-8685-7f55a47e8485">About VHD</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd323680(v=VS.85).aspx">OpenVirtualDisk</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-openvirtualdisk">OpenVirtualDisk</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b5d0da0-2b23-4b7c-b007-ed3fe030926c">VHD Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
  
 
  

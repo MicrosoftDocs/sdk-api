@@ -53,11 +53,11 @@ ms.custom: 19H1
 
 
 
-The <b>GetBuffer</b> method retrieves the location of the buffer controlled by the buffer object. Buffers are used to store samples. When passing samples to the writer, you need the location of the buffer so you can copy your samples into it. When you copy data to the address returned by this call, you must call <a href="https://msdn.microsoft.com/en-us/library/Dd743263(v=VS.85).aspx">INSSBuffer::SetLength</a> to specify how much of the buffer actually contains data.
+The <b>GetBuffer</b> method retrieves the location of the buffer controlled by the buffer object. Buffers are used to store samples. When passing samples to the writer, you need the location of the buffer so you can copy your samples into it. When you copy data to the address returned by this call, you must call <a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-setlength">INSSBuffer::SetLength</a> to specify how much of the buffer actually contains data.
 
 
 
-When receiving samples from the reader or synchronous reader, retrieve the size of the buffer at the same time as the location by calling <a href="https://msdn.microsoft.com/en-us/library/Dd743260(v=VS.85).aspx">INSSBuffer::GetBufferAndLength</a>.
+When receiving samples from the reader or synchronous reader, retrieve the size of the buffer at the same time as the location by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getbufferandlength">INSSBuffer::GetBufferAndLength</a>.
 
 
 ## -parameters
@@ -114,11 +114,11 @@ The <i>ppdwBuffer</i> parameter is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743260(v=VS.85).aspx">INSSBuffer::GetBufferAndLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getbufferandlength">INSSBuffer::GetBufferAndLength</a>
  
 
  

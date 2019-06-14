@@ -150,11 +150,11 @@ For more information, see the description of the <b>IDirectMusic</b> interface i
 
 
 
-<a href="https://msdn.microsoft.com/08f1056a-fead-475b-a13a-ee11b9709241">IDirectMusicSynth</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nn-dmusics-idirectmusicsynth">IDirectMusicSynth</a>
 
 
 
-<a href="https://msdn.microsoft.com/9efdb079-ed24-43b4-844b-344571399de7">IDirectMusicSynth::Activate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-activate">IDirectMusicSynth::Activate</a>
  
 
  

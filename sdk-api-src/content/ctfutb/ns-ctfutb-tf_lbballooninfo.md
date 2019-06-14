@@ -62,12 +62,12 @@ The <b>TF_LBBALLOONINFO</b> structure contains information about a language bar 
 
 ### -field style
 
-Contains one of the <a href="https://msdn.microsoft.com/c79eb490-b950-4d49-bdf9-821f3706446d">TfLBBalloonStyle</a> values that specify the type of balloon to display.
+Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/ne-ctfutb-__midl_itflangbaritemballoon_0001">TfLBBalloonStyle</a> values that specify the type of balloon to display.
 
 
 ### -field bstrText
 
-Contains a <b>BSTR</b> that contains the string for the balloon. This string must be allocated using the <a href="https://msdn.microsoft.com/en-us/library/ms221458(v=VS.85).aspx">SysAllocString</a> function. The caller free this buffer when it is no longer required by calling <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+Contains a <b>BSTR</b> that contains the string for the balloon. This string must be allocated using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> function. The caller free this buffer when it is no longer required by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
 
 
 ## -see-also
@@ -75,20 +75,20 @@ Contains a <b>BSTR</b> that contains the string for the balloon. This string mus
 
 
 
-<a href="https://msdn.microsoft.com/4cf695dc-dfb7-4541-a364-4395650f9419">ITfLangBarItemBalloon::GetBalloonInfo
+<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemballoon-getballooninfo">ITfLangBarItemBalloon::GetBalloonInfo
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221458(v=VS.85).aspx">SysAllocString</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
 
 
 
-<a href="https://msdn.microsoft.com/c79eb490-b950-4d49-bdf9-821f3706446d">TfLBBalloonStyle
+<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/ne-ctfutb-__midl_itflangbaritemballoon_0001">TfLBBalloonStyle
       </a>
  
 

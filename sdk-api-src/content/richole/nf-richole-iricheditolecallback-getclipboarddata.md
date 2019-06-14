@@ -59,14 +59,14 @@ Allows the client to supply its own clipboard object.
 
 ### -param lpchrg
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb787885(v=VS.85).aspx">CHARRANGE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_charrange">CHARRANGE</a>*</b>
 
 The clipboard object range. 
 
 
 ### -param reco
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 The clipboard operation flag can be one of these values.
 
@@ -104,7 +104,7 @@ Cut to the clipboard.
 
 Type: <b>LPDATAOBJECT*</b>
 
-Pointer to the pointer variable that receives the address of the <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> implementation representing the range specified in the 
+Pointer to the pointer variable that receives the address of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> implementation representing the range specified in the 
 					<i>lpchrg</i> parameter. The value of 
 					<i>lplpdataobj</i> is ignored if an error is returned. 
 
@@ -113,7 +113,7 @@ Pointer to the pointer variable that receives the address of the <a href="https:
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns <b>S_OK</b> on success. If the return value is <b>E_NOTIMPL</b>, the rich edit control created its own clipboard object. If the return value is a failure other than <b>E_NOTIMPL</b>, the operation failed.
 
@@ -125,11 +125,11 @@ Returns <b>S_OK</b> on success. If the return value is <b>E_NOTIMPL</b>, the ric
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787885(v=VS.85).aspx">CHARRANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_charrange">CHARRANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774308(v=VS.85).aspx">IRichEditOleCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/nn-richole-iricheditolecallback">IRichEditOleCallback</a>
 
 
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Installs a new advise sink from the <a href="https://msdn.microsoft.com/d7e5a04f-7159-436e-a522-4cb63063aeef">ITextStoreACPSink</a> interface or modifies an existing advise sink. The sink interface is specified by the <i>punk</i> parameter.
+Installs a new advise sink from the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacpsink">ITextStoreACPSink</a> interface or modifies an existing advise sink. The sink interface is specified by the <i>punk</i> parameter.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ Pointer to the sink interface. Cannot be <b>NULL</b>.
 
 ### -param dwMask [in]
 
-Specifies the events that notify the advise sink. For more information about possible parameter values, see <a href="https://msdn.microsoft.com/8f406b67-f846-4712-b4be-811dbcc6ad55">TS_AS_* Constants</a>.
+Specifies the events that notify the advise sink. For more information about possible parameter values, see <a href="https://docs.microsoft.com/windows/desktop/TSF/ts-as--constants">TS_AS_* Constants</a>.
 
 
 ## -returns
@@ -138,7 +138,7 @@ The specified sink object could not be obtained.
 
 
 
-<a href="https://msdn.microsoft.com/c256f1c2-6b67-4417-8707-3490a2c5cb55">ITextStoreACP2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp2">ITextStoreACP2</a>
  
 
  

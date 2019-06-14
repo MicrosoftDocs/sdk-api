@@ -59,12 +59,12 @@ Represents a generated SOAP fault.
 
 ### -field Code
 
-A <a href="https://msdn.microsoft.com/b71f4bcc-d125-4091-a491-1a5a2aea2310">WSD_SOAP_FAULT_CODE</a> structure that contains a SOAP fault code.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_soap_fault_code">WSD_SOAP_FAULT_CODE</a> structure that contains a SOAP fault code.
 
 
 ### -field Reason
 
-A <a href="https://msdn.microsoft.com/c1b2ac44-8a86-4aac-a0d3-3b8d80a6b1d9">WSD_SOAP_FAULT_REASON</a> structure that contains localized human readable explanations of the fault.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_soap_fault_reason">WSD_SOAP_FAULT_REASON</a> structure that contains localized human readable explanations of the fault.
 
 
 ### -field Node
@@ -79,7 +79,7 @@ The SOAP role in which the <b>Node</b> was acting at the time the fault occurred
 
 ### -field Detail
 
-A <a href="https://msdn.microsoft.com/727149b4-31b0-4fd8-b0fa-eb773edb171e">WSDXML_ELEMENT</a> structure that contains application-specific error information pertaining to the fault.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_element">WSDXML_ELEMENT</a> structure that contains application-specific error information pertaining to the fault.
 
 
 ## -see-also
@@ -87,11 +87,11 @@ A <a href="https://msdn.microsoft.com/727149b4-31b0-4fd8-b0fa-eb773edb171e">WSDX
 
 
 
-<a href="https://msdn.microsoft.com/eebecf71-2572-4e20-ad40-b1a2f811bedf">WSDGenerateFault</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdutil/nf-wsdutil-wsdgeneratefault">WSDGenerateFault</a>
 
 
 
-<a href="https://msdn.microsoft.com/11cdd975-cc06-4fdc-8d84-c419e2a2b5ff">WSDGenerateFaultEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdutil/nf-wsdutil-wsdgeneratefaultex">WSDGenerateFaultEx</a>
  
 
  

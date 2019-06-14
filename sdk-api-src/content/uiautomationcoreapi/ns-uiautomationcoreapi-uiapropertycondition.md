@@ -59,7 +59,7 @@ ms.custom: 19H1
 
 ### -field ConditionType
 
-Type: <b><a href="https://msdn.microsoft.com/de69f8cd-bdbf-4636-ab14-b744a411acc5">ConditionType</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/ne-uiautomationcoreapi-conditiontype">ConditionType</a></b>
 
 A value indicating the type of the condition.
 
@@ -68,19 +68,19 @@ A value indicating the type of the condition.
 
 Type: <b>PROPERTYID</b>
 
-The identifier of the property to match. For a list of property IDs, see <a href="https://msdn.microsoft.com/c05163ea-ba06-4005-9b80-661015b9d2ef">Property Identifiers</a>.
+The identifier of the property to match. For a list of property IDs, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-propids">Property Identifiers</a>.
 
 
 ### -field Value
 
-Type: <b><a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a></b>
 
 The value that the property must have.
 
 
 ### -field Flags
 
-Type: <b><a href="https://msdn.microsoft.com/debe8141-2a91-4774-b533-d6f3ccfc7744">PropertyConditionFlags</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/ne-uiautomationclient-propertyconditionflags">PropertyConditionFlags</a></b>
 
 A value indicating how the condition is applied.
 

@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 
-The <b>IWMDMRevoked</b> interface retrieves the URL from which updated components can be downloaded, if a transfer fails with a revocation error. The secured content provider determines whether or not to allow a transfer, based on the application certificates of the components involved. You can access the <b>IWMDMRevoked</b> interface by calling <b>QueryInterface</b> on the <a href="https://msdn.microsoft.com/b56edc7a-0764-449a-95b4-da759e99fadd">IWMDMStorageControl</a> interface.
+The <b>IWMDMRevoked</b> interface retrieves the URL from which updated components can be downloaded, if a transfer fails with a revocation error. The secured content provider determines whether or not to allow a transfer, based on the application certificates of the components involved. You can access the <b>IWMDMRevoked</b> interface by calling <b>QueryInterface</b> on the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstoragecontrol">IWMDMStorageControl</a> interface.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMRevoked</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMDMRevoked</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMRevoked</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMRevoked</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IWMDMRevoked</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0158a664-8f0b-4481-8028-46b05776a482">GetRevocationURL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmrevoked-getrevocationurl">GetRevocationURL</a>
 </td>
 <td align="left" width="63%">
 Retrieves the URL from which updated components can be downloaded.
@@ -87,11 +87,11 @@ Retrieves the URL from which updated components can be downloaded.
 
 
 
-<a href="https://msdn.microsoft.com/b56edc7a-0764-449a-95b4-da759e99fadd">IWMDMStorageControl Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstoragecontrol">IWMDMStorageControl Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/bea867d6-a875-4150-9958-7f683cd215b9">Interfaces for Applications</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>
  
 
  

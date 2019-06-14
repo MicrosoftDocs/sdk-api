@@ -54,7 +54,7 @@ The <b>INetworkListManager</b> interface provides a set of methods to perform ne
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetworkListManager</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>INetworkListManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetworkListManager</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetworkListManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,16 +70,16 @@ The <b>INetworkListManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/DD89717F-4BFD-4283-A9F4-A74BB6E8E8D6">ClearSimulatedProfileInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworklistmanager-clearsimulatedprofileinfo">ClearSimulatedProfileInfo</a>
 </td>
 <td align="left" width="63%">
-Clears the connection profile values previously applied to the internet profile by <a href="https://msdn.microsoft.com/168501A6-F8B2-4635-97BB-538994074D2C">SetSimulatedProfileInfo</a>. 
+Clears the connection profile values previously applied to the internet profile by <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworklistmanager-setsimulatedprofileinfo">SetSimulatedProfileInfo</a>. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4695554a-2f8b-4d2e-b3ff-ec22c43387d6">GetConnectivity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworklistmanager-getconnectivity">GetConnectivity</a>
 </td>
 <td align="left" width="63%">
 Returns the connectivity state of all the networks on a machine.
@@ -88,7 +88,7 @@ Returns the connectivity state of all the networks on a machine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a4418884-8df6-4f5b-b9ef-c3cae2bcee47">GetNetwork</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworklistmanager-getnetwork">GetNetwork</a>
 </td>
 <td align="left" width="63%">
 Retrieves a network based on a supplied Network ID.
@@ -97,7 +97,7 @@ Retrieves a network based on a supplied Network ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ddbf02ae-3232-4866-b4c1-e4611b680f9f">GetNetworkConnections</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworklistmanager-getnetworkconnections">GetNetworkConnections</a>
 </td>
 <td align="left" width="63%">
 Gets an enumerator that contains a complete list of the network connections that have been made.
@@ -106,7 +106,7 @@ Gets an enumerator that contains a complete list of the network connections that
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/547ab687-b323-4fd7-8c08-80a79352a626">GetNetworks</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworklistmanager-getnetworks">GetNetworks</a>
 </td>
 <td align="left" width="63%">
 Retrieves networks based on the supplied Network IDs.
@@ -115,10 +115,10 @@ Retrieves networks based on the supplied Network IDs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/168501A6-F8B2-4635-97BB-538994074D2C">SetSimulatedProfileInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworklistmanager-setsimulatedprofileinfo">SetSimulatedProfileInfo</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/168501A6-F8B2-4635-97BB-538994074D2C">SetSimulatedProfileInfo</a> method applies a specific set of connection profile values to an internet profile in support of the simulation of specific metered internet connection conditions using the Visual Studio Simulator.
+The <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworklistmanager-setsimulatedprofileinfo">SetSimulatedProfileInfo</a> method applies a specific set of connection profile values to an internet profile in support of the simulation of specific metered internet connection conditions using the Visual Studio Simulator.
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ The <a href="https://msdn.microsoft.com/168501A6-F8B2-4635-97BB-538994074D2C">Se
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/51bdec8e-521f-4673-a2ad-07e8995f3905">get_IsConnected</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworklistmanager-get_isconnected">get_IsConnected</a>
 
 
 </td>
@@ -149,7 +149,7 @@ Specifies if the machine has network connectivity.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/b3f06da5-c0e2-4c56-87af-b180aa87c827">get_IsConnectedToInternet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworklistmanager-get_isconnectedtointernet">get_IsConnectedToInternet</a>
 
 
 </td>

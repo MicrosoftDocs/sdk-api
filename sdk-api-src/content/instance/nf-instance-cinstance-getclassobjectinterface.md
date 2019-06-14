@@ -52,13 +52,13 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/aed29340-eb64-437d-b7e8-4f0e49c8288a">CInstance</a> class 
+<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/instance/nl-instance-cinstance">CInstance</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
-The <b>GetClassObjectInterface</b> method returns an <a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> interface pointer.
+The <b>GetClassObjectInterface</b> method returns an <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> interface pointer.
 
 
 ## -parameters
@@ -72,7 +72,7 @@ The <b>GetClassObjectInterface</b> method returns an <a href="https://msdn.micro
 
 
 
-Returns an <a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> interface pointer.
+Returns an <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> interface pointer.
 
 
 
@@ -81,7 +81,7 @@ Returns an <a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0
 
 
 
-The framework provider will probably never call <b>GetClassObjectInterface</b>, but if it does, it must release the <a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> pointer by calling its <b>Release</b> method.
+The framework provider will probably never call <b>GetClassObjectInterface</b>, but if it does, it must release the <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> pointer by calling its <b>Release</b> method.
 
 
 

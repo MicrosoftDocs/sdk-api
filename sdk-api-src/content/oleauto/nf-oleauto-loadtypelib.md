@@ -210,7 +210,7 @@ If the file is a stand-alone type library implemented by Typelib.dll, the librar
 
 </li>
 <li>
-If the file is a DLL or an executable file, it is loaded. By default, the type library is extracted from the first resource of type <a href="https://msdn.microsoft.com/c1e5d71f-6a4e-45f3-811d-f57024f81a55">ITypeLib</a>. To load a different type of library resource, append an integer index to <i>szFile</i>. For example: 
+If the file is a DLL or an executable file, it is loaded. By default, the type library is extracted from the first resource of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a>. To load a different type of library resource, append an integer index to <i>szFile</i>. For example: 
 
 
 ```cpp
@@ -233,7 +233,7 @@ If the type library is already loaded, <b>LoadTypeLib</b> increments the type li
 
 
 
-For backward compatibility, <b>LoadTypeLib</b> will register the type library if the path is not specified in the <i>szFile</i> parameter. <b>LoadTypeLib</b> will not register the type library if the path of the type library is specified. It is recommended that <a href="https://msdn.microsoft.com/d0559a57-b1a4-4036-97ed-024d775cb595">RegisterTypeLib</a> be used to register a type library.
+For backward compatibility, <b>LoadTypeLib</b> will register the type library if the path is not specified in the <i>szFile</i> parameter. <b>LoadTypeLib</b> will not register the type library if the path of the type library is specified. It is recommended that <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-registertypelib">RegisterTypeLib</a> be used to register a type library.
 
 
 

@@ -145,7 +145,7 @@ The preprocessor has already been configured.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798784(v=VS.85).aspx">IWMWriterPreprocess Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpreprocess">IWMWriterPreprocess Interface</a>
  
 
  

@@ -81,23 +81,23 @@ The <b>WLAN_HOSTED_NETWORK_PEER_STATE</b> structure is an extension to native wi
 
 
 
-<a href="https://msdn.microsoft.com/c1335127-a2d2-4f44-a895-1abbc5eaf98d">DOT11_MAC_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-mac-address-type">DOT11_MAC_ADDRESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd439500(v=VS.85).aspx">WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_hosted_network_data_peer_state_change">WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd439503(v=VS.85).aspx">WLAN_HOSTED_NETWORK_PEER_AUTH_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_hosted_network_peer_auth_state">WLAN_HOSTED_NETWORK_PEER_AUTH_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/5fa00041-235f-4f48-a367-e1eaec8474ce">WLAN_HOSTED_NETWORK_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_hosted_network_status">WLAN_HOSTED_NETWORK_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/896cff65-74ec-41d5-89e3-95fa85fd54cd">WlanHostedNetworkQueryStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanhostednetworkquerystatus">WlanHostedNetworkQueryStatus</a>
  
 
  

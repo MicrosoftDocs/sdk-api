@@ -59,9 +59,9 @@ Gets event flags.
 
 ### -param pnFlags [out]
 
-Type: <b><a href="https://msdn.microsoft.com/bb901a85-8f54-4030-81d5-40af66e490bf">SYNCMGR_EVENT_FLAGS</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_event_flags">SYNCMGR_EVENT_FLAGS</a>*</b>
 
-When this method returns, contains a pointer to a value that indicates the currently set flags, taken from members of the <a href="https://msdn.microsoft.com/bb901a85-8f54-4030-81d5-40af66e490bf">SYNCMGR_EVENT_FLAGS</a> enumeration.
+When this method returns, contains a pointer to a value that indicates the currently set flags, taken from members of the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_event_flags">SYNCMGR_EVENT_FLAGS</a> enumeration.
 
 
 ## -returns

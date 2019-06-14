@@ -79,7 +79,7 @@ Array of characteristics to monitor for incoming events.
 
 
 
-<a href="https://msdn.microsoft.com/BE96F588-28C5-46C8-AFC9-852D940051F2">BTH_LE_GATT_CHARACTERISTIC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-_bth_le_gatt_characteristic">BTH_LE_GATT_CHARACTERISTIC</a>
  
 
  

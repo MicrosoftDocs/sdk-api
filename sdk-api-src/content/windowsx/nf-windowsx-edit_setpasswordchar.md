@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets or removes the password character for an edit or rich edit control. When a password character is set, that character is displayed in place of the characters typed by the user. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761653(v=VS.85).aspx">EM_SETPASSWORDCHAR</a> message explicitly.
+Sets or removes the password character for an edit or rich edit control. When a password character is set, that character is displayed in place of the characters typed by the user. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-setpasswordchar">EM_SETPASSWORDCHAR</a> message explicitly.
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Sets or removes the password character for an edit or rich edit control. When a 
 
 ### -param hwndCtl
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
 
 ### -param ch
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The character to be displayed in place of the characters typed by the user. If this parameter is zero, the control removes the current password character and displays the characters typed by the user. 
 
@@ -76,7 +76,7 @@ The character to be displayed in place of the characters typed by the user. If t
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761653(v=VS.85).aspx">EM_SETPASSWORDCHAR</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/em-setpasswordchar">EM_SETPASSWORDCHAR</a>.
 
 
 

@@ -55,9 +55,9 @@ The <code>IMediaFilter</code> interface controls the streaming state of a filter
 
 All DirectShow filters implement this interface. It provides methods for switching the filter between states (stopped, paused, and running); for retrieving the filter's current state; and for setting a reference clock. Applications should not call <code>IMediaFilter</code> methods on filters.
 
-The <a href="https://msdn.microsoft.com/b1a53193-27c6-4e86-a5b9-f3c1e4401690">Filter Graph Manager</a> also exposes this interface. Applications can use the <b>SetSyncSource</b> method to set the graph reference clock, and <b>GetSyncSource</b> to retrieve the clock. Applications should not call the other methods on this interface. Instead, use the corresponding methods on the <a href="https://msdn.microsoft.com/bce64088-3751-420c-b9de-b9b5f3119198">IMediaControl</a> interface.
+The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/filter-graph-manager">Filter Graph Manager</a> also exposes this interface. Applications can use the <b>SetSyncSource</b> method to set the graph reference clock, and <b>GetSyncSource</b> to retrieve the clock. Applications should not call the other methods on this interface. Instead, use the corresponding methods on the <a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediacontrol">IMediaControl</a> interface.
 
-The <a href="https://msdn.microsoft.com/d8c09dc7-dae8-4b51-8da8-69e64928a091">IBaseFilter</a> interface inherits from <code>IMediaFilter</code>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a> interface inherits from <code>IMediaFilter</code>.
 
 
 
@@ -79,7 +79,7 @@ The <b>IMediaFilter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b20ca3e9-bec2-4c6d-ba80-f4dae2f5a831">GetState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediafilter-getstate">GetState</a>
 </td>
 <td align="left" width="63%">
 Retrieves the state of the filter (running, stopped, or paused).
@@ -88,7 +88,7 @@ Retrieves the state of the filter (running, stopped, or paused).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5f5eb31c-3a12-45f4-9c95-caafc0267481">GetSyncSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediafilter-getsyncsource">GetSyncSource</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current reference clock.
@@ -97,7 +97,7 @@ Retrieves the current reference clock.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0dbd79be-8f44-4bac-b117-03e6316693f8">Pause</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediafilter-pause">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses the filter.
@@ -106,7 +106,7 @@ Pauses the filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ec422312-bbc2-4b66-b2cd-1a9eebd1eee1">Run</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediafilter-run">Run</a>
 </td>
 <td align="left" width="63%">
 Runs the filter.
@@ -115,7 +115,7 @@ Runs the filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a374c963-cc28-41f6-814d-7ffc6efc67a6">SetSyncSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediafilter-setsyncsource">SetSyncSource</a>
 </td>
 <td align="left" width="63%">
 Sets the reference clock for the filter or the filter graph.
@@ -124,7 +124,7 @@ Sets the reference clock for the filter or the filter graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8c415b5c-1aee-4ea4-b182-fd95da4898aa">Stop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediafilter-stop">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops the filter.

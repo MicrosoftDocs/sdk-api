@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines the options for the <a href="https://msdn.microsoft.com/en-us/library/Bb773294(v=VS.85).aspx">DrawThemeBackgroundEx</a> function.
+Defines the options for the <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-drawthemebackgroundex">DrawThemeBackgroundEx</a> function.
 
 
 ## -struct-fields
@@ -59,14 +59,14 @@ Defines the options for the <a href="https://msdn.microsoft.com/en-us/library/Bb
 
 ### -field dwSize
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Size of the structure. Set this to sizeof(DTBGOPTS).
 
 
 ### -field dwFlags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Flags that specify the selected options. This member can be one of the following:
 
@@ -171,7 +171,7 @@ A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> that specifies t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773294(v=VS.85).aspx">DrawThemeBackgroundEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-drawthemebackgroundex">DrawThemeBackgroundEx</a>
  
 
  

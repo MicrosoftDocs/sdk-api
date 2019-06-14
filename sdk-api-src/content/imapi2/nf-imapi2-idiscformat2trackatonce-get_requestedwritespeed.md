@@ -98,7 +98,7 @@ Value: 0x80004003
 
 
 
-This is the value specified in the most recent call to the <a href="https://msdn.microsoft.com/29c4487a-4247-45cf-af95-dc85fafb05c5">IDiscFormat2TrackAtOnce::SetWriteSpeed</a> method.
+This is the value specified in the most recent call to the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-setwritespeed">IDiscFormat2TrackAtOnce::SetWriteSpeed</a> method.
 
 
 
@@ -108,19 +108,19 @@ This is the value specified in the most recent call to the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/27f2d248-1c83-4784-82f9-75ce0a038b87">IDiscFormat2TrackAtOnce</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonce">IDiscFormat2TrackAtOnce</a>
 
 
 
-<a href="https://msdn.microsoft.com/29c4487a-4247-45cf-af95-dc85fafb05c5">IDiscFormat2TrackAtOnce::SetWriteSpeed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-setwritespeed">IDiscFormat2TrackAtOnce::SetWriteSpeed</a>
 
 
 
-<a href="https://msdn.microsoft.com/8236dc3f-fe94-4dd5-908b-36ed74943ad4">IDiscFormat2TrackAtOnce::get_CurrentWriteSpeed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_currentwritespeed">IDiscFormat2TrackAtOnce::get_CurrentWriteSpeed</a>
 
 
 
-<a href="https://msdn.microsoft.com/b95b7fb9-6e4b-4d9d-86fe-64ca92343225">IDiscFormat2TrackAtOnce::get_SupportedWriteSpeeds</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_supportedwritespeeds">IDiscFormat2TrackAtOnce::get_SupportedWriteSpeeds</a>
  
 
  

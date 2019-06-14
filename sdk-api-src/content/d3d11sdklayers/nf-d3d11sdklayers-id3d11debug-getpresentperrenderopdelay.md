@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Get the number of milliseconds to sleep after <a href="https://msdn.microsoft.com/en-us/library/Bb174576(v=VS.85).aspx">IDXGISwapChain::Present</a> is called.
+Get the number of milliseconds to sleep after <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present">IDXGISwapChain::Present</a> is called.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ Get the number of milliseconds to sleep after <a href="https://msdn.microsoft.co
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of milliseconds to sleep after Present is called.
 
@@ -75,7 +75,7 @@ Number of milliseconds to sleep after Present is called.
 
 
 
-Value is set with <a href="https://msdn.microsoft.com/72489871-819a-4f75-a3ad-03f93f5c7761">ID3D11Debug::SetPresentPerRenderOpDelay</a>.
+Value is set with <a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11debug-setpresentperrenderopdelay">ID3D11Debug::SetPresentPerRenderOpDelay</a>.
 
 
 
@@ -85,7 +85,7 @@ Value is set with <a href="https://msdn.microsoft.com/72489871-819a-4f75-a3ad-03
 
 
 
-<a href="https://msdn.microsoft.com/2c640295-7a91-4a7a-92d3-909d288eb0d6">ID3D11Debug Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11debug">ID3D11Debug Interface</a>
  
 
  

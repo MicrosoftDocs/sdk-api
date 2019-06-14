@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines values for the burn verification implemented by the <a href="https://msdn.microsoft.com/3a410ab8-dfc3-4c30-a198-3888ed750a6d">IBurnVerification</a> interface.
+Defines values for the burn verification implemented by the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iburnverification">IBurnVerification</a> interface.
 
 
 ## -enum-fields
@@ -164,7 +164,7 @@ This enumeration is supported in Windows Server 2003 with Service Pack 1 (SP1)
 
 
 
-<a href="https://msdn.microsoft.com/3a410ab8-dfc3-4c30-a198-3888ed750a6d">IBurnVerfication</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iburnverification">IBurnVerfication</a>
  
 
  

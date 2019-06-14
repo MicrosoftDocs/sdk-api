@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<a href="https://msdn.microsoft.com/9144e283-0e5f-43d7-8cd2-e746f94c6f14">Netbios</a> is not supported on Windows Vista,  Windows Server 2008, and subsequent versions of the operating system]
+<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/portal">Netbios</a> is not supported on Windows Vista,  Windows Server 2008, and subsequent versions of the operating system]
 
-The <b>NCB</b> structure represents a network control block. It contains information about the command to perform, an optional post routine, an optional event handle, and a pointer to a buffer that is used for messages or other data. A pointer to this structure is passed to the <a href="https://msdn.microsoft.com/3eadbfa7-53de-4c62-b61b-da84b9da58f7">Netbios</a> function. 
+The <b>NCB</b> structure represents a network control block. It contains information about the command to perform, an optional post routine, an optional event handle, and a pointer to a buffer that is used for messages or other data. A pointer to this structure is passed to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/nf-nb30-netbios">Netbios</a> function. 
 
 
 
@@ -74,7 +74,7 @@ Specifies the command code and a flag that indicates whether the <b>NCB</b> stru
 <td>NCBACTION</td>
 <td>
 
-<b>Windows Server 2003, Windows XP, Windows 2000, and Windows NT:  </b>Enables extensions to the transport interface. NCBACTION is mapped to <b>TdiAction</b>. When this code is specified, the <b>ncb_buffer</b> member points to a buffer to be filled with an <a href="https://msdn.microsoft.com/f2bbf394-972a-4e96-8cc6-9f230359cbfc">ACTION_HEADER</a> structure, which is optionally followed by data. NCBACTION commands cannot be canceled by using NCBCANCEL. 
+<b>Windows Server 2003, Windows XP, Windows 2000, and Windows NT:  </b>Enables extensions to the transport interface. NCBACTION is mapped to <b>TdiAction</b>. When this code is specified, the <b>ncb_buffer</b> member points to a buffer to be filled with an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_action_header">ACTION_HEADER</a> structure, which is optionally followed by data. NCBACTION commands cannot be canceled by using NCBCANCEL. 
 NCBACTION is not a standard NetBIOS 3.0 command.
 
 
@@ -99,7 +99,7 @@ Adds a unique name to the local name table. The TDI driver ensures that the name
 <tr>
 <td>NCBASTAT</td>
 <td>
-Retrieves the status of either a local or remote adapter. When this code is specified, the <b>ncb_buffer</b> member points to a buffer to be filled with an <a href="https://msdn.microsoft.com/402bc5ce-bce4-4ba9-b82d-13cd3dc7097b">ADAPTER_STATUS</a> structure, followed by an array of <a href="https://msdn.microsoft.com/f1059074-68c1-4a08-98bd-ccfb314e39ec">NAME_BUFFER</a> structures.
+Retrieves the status of either a local or remote adapter. When this code is specified, the <b>ncb_buffer</b> member points to a buffer to be filled with an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_adapter_status">ADAPTER_STATUS</a> structure, followed by an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_name_buffer">NAME_BUFFER</a> structures.
 
 </td>
 </tr>
@@ -180,7 +180,7 @@ Sends a broadcast datagram to every host on the local area network (LAN).
 <tr>
 <td>NCBFINDNAME</td>
 <td>
-Determines the location of a name on the network. When this code is specified, the <b>ncb_buffer</b> member points to a buffer to be filled with a <a href="https://msdn.microsoft.com/66b0cf77-3c25-4b00-9e9b-abc0442e3831">FIND_NAME_HEADER</a> structure followed by one or more <a href="https://msdn.microsoft.com/d35cd375-6207-4019-bd3e-20dc302e9c45">FIND_NAME_BUFFER</a> structures.
+Determines the location of a name on the network. When this code is specified, the <b>ncb_buffer</b> member points to a buffer to be filled with a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_find_name_header">FIND_NAME_HEADER</a> structure followed by one or more <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_find_name_buffer">FIND_NAME_BUFFER</a> structures.
 
 </td>
 </tr>
@@ -256,7 +256,7 @@ Sends data to specified session partner and does not wait for acknowledgment.
 <tr>
 <td>NCBSSTAT</td>
 <td>
-Retrieves the status of the session. When this value is specified, the <b>ncb_buffer</b> member points to a buffer to be filled with a <a href="https://msdn.microsoft.com/0b466bc7-6d20-477f-9e64-1d3dc0744484">SESSION_HEADER</a> structure, followed by one or more <a href="https://msdn.microsoft.com/29352074-3dff-430f-82fb-6f7fd0b2966a">SESSION_BUFFER</a> structures.
+Retrieves the status of the session. When this value is specified, the <b>ncb_buffer</b> member points to a buffer to be filled with a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_session_header">SESSION_HEADER</a> structure, followed by one or more <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_session_buffer">SESSION_BUFFER</a> structures.
 
 </td>
 </tr>
@@ -433,7 +433,7 @@ Specifies the return code. This value is set to NRC_PENDING while an asynchronou
 <td>
 The NCB DDID was invalid.
 
-This return code is not part of the IBM NetBIOS 3.0 specification and is not returned in the <b>NCB</b> structure. Instead, it is returned by the <a href="https://msdn.microsoft.com/3eadbfa7-53de-4c62-b61b-da84b9da58f7">Netbios</a> function.
+This return code is not part of the IBM NetBIOS 3.0 specification and is not returned in the <b>NCB</b> structure. Instead, it is returned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/nf-nb30-netbios">Netbios</a> function.
 
 </td>
 </tr>
@@ -459,14 +459,14 @@ This return code is not part of the IBM NetBIOS 3.0 specification and is not ret
 
 ### -field ncb_lsn
 
-Identifies the local session number. This number uniquely identifies a session within an environment. This number is returned by the <a href="https://msdn.microsoft.com/3eadbfa7-53de-4c62-b61b-da84b9da58f7">Netbios</a> function after a successful NCBCALL command. 
+Identifies the local session number. This number uniquely identifies a session within an environment. This number is returned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/nf-nb30-netbios">Netbios</a> function after a successful NCBCALL command. 
 
 
 ### -field ncb_num
 
-Specifies the number for the local network name. This number is returned by <a href="https://msdn.microsoft.com/3eadbfa7-53de-4c62-b61b-da84b9da58f7">Netbios</a> after a successful <b>NCBADDNAME</b> or <b>NCBADDGRNAME</b> command. This number, not the name, must be used with all datagram commands and for <b>NCBRECVANY</b> commands.
+Specifies the number for the local network name. This number is returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/nf-nb30-netbios">Netbios</a> after a successful <b>NCBADDNAME</b> or <b>NCBADDGRNAME</b> command. This number, not the name, must be used with all datagram commands and for <b>NCBRECVANY</b> commands.
 
-The number for <b>NAME_NUMBER_1</b> is always 0x01. The <a href="https://msdn.microsoft.com/3eadbfa7-53de-4c62-b61b-da84b9da58f7">Netbios</a> function assigns values in the range 0x02 to 0xFE for the remaining names.
+The number for <b>NAME_NUMBER_1</b> is always 0x01. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/nf-nb30-netbios">Netbios</a> function assigns values in the range 0x02 to 0xFE for the remaining names.
 
 
 ### -field ncb_buffer
@@ -496,9 +496,9 @@ Pointer to the message buffer. The buffer must have write access. Its uses are a
 
 ### -field ncb_length
 
-Specifies the size, in bytes, of the message buffer. For receive commands, this member is set by the <a href="https://msdn.microsoft.com/3eadbfa7-53de-4c62-b61b-da84b9da58f7">Netbios</a> function to indicate the number of bytes received.
+Specifies the size, in bytes, of the message buffer. For receive commands, this member is set by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/nf-nb30-netbios">Netbios</a> function to indicate the number of bytes received.
 
-If the buffer length is incorrect, the <a href="https://msdn.microsoft.com/3eadbfa7-53de-4c62-b61b-da84b9da58f7">Netbios</a> function returns the <b>NRC_BUFLEN</b> error code.
+If the buffer length is incorrect, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/nf-nb30-netbios">Netbios</a> function returns the <b>NRC_BUFLEN</b> error code.
 
 
 ### -field ncb_callname
@@ -555,9 +555,9 @@ The length, X,  of the <b>ncb_reserve</b>  array is dependent upon the system ar
 
 ### -field ncb_event
 
-Specifies a handle to an event object that is set to the nonsignaled state when an asynchronous command is accepted, and it is set to the signaled state when the asynchronous command is completed. The event is signaled if the <a href="https://msdn.microsoft.com/3eadbfa7-53de-4c62-b61b-da84b9da58f7">Netbios</a> function returns a nonzero value. Only manual reset events should be used for synchronization. A specified event should not be associated with more than one active asynchronous command.
+Specifies a handle to an event object that is set to the nonsignaled state when an asynchronous command is accepted, and it is set to the signaled state when the asynchronous command is completed. The event is signaled if the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/nf-nb30-netbios">Netbios</a> function returns a nonzero value. Only manual reset events should be used for synchronization. A specified event should not be associated with more than one active asynchronous command.
 
-The <b>ncb_event</b> member must be zero if the <b>ncb_command</b> member does not have the <b>ASYNCH</b> flag set or if <b>ncb_post</b> is nonzero. Otherwise, <a href="https://msdn.microsoft.com/3eadbfa7-53de-4c62-b61b-da84b9da58f7">Netbios</a> returns the <b>NRC_ILLCMD</b> error code.
+The <b>ncb_event</b> member must be zero if the <b>ncb_command</b> member does not have the <b>ASYNCH</b> flag set or if <b>ncb_post</b> is nonzero. Otherwise, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/nf-nb30-netbios">Netbios</a> returns the <b>NRC_ILLCMD</b> error code.
 
 
 ## -remarks
@@ -578,47 +578,47 @@ Using <b>ncb_event</b> to issue asynchronous requests requires fewer system reso
 
 
 
-<a href="https://msdn.microsoft.com/f2bbf394-972a-4e96-8cc6-9f230359cbfc">ACTION_HEADER</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_action_header">ACTION_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/402bc5ce-bce4-4ba9-b82d-13cd3dc7097b">ADAPTER_STATUS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_adapter_status">ADAPTER_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/d35cd375-6207-4019-bd3e-20dc302e9c45">FIND_NAME_BUFFER</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_find_name_buffer">FIND_NAME_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/66b0cf77-3c25-4b00-9e9b-abc0442e3831">FIND_NAME_HEADER</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_find_name_header">FIND_NAME_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/19a16eae-8c3e-4c4e-957b-41f22b61e51b">LANA_ENUM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_lana_enum">LANA_ENUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/f1059074-68c1-4a08-98bd-ccfb314e39ec">NAME_BUFFER</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_name_buffer">NAME_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/64ef39ec-d69a-4e33-9192-dda6d1bb84b8">NetBIOS Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/netbios-structures">NetBIOS Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/3eadbfa7-53de-4c62-b61b-da84b9da58f7">Netbios</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/nf-nb30-netbios">Netbios</a>
 
 
 
-<a href="https://msdn.microsoft.com/29352074-3dff-430f-82fb-6f7fd0b2966a">SESSION_BUFFER</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_session_buffer">SESSION_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/0b466bc7-6d20-477f-9e64-1d3dc0744484">SESSION_HEADER</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_session_header">SESSION_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/9144e283-0e5f-43d7-8cd2-e746f94c6f14">The NetBIOS Interface Overview</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/portal">The NetBIOS Interface Overview</a>
  
 
  

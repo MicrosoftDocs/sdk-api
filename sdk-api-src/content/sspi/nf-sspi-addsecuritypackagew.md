@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Adds a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security support provider</a> to the list of providers supported by <a href="https://msdn.microsoft.com/3aa7e979-8b55-416d-bed1-28296055d38e">Microsoft Negotiate</a>.
+Adds a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a> to the list of providers supported by <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/microsoft-negotiate">Microsoft Negotiate</a>.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ The name of the package to add.
 
 ### -param pOptions [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/2e9f65ec-72a5-4d6f-aa63-f83369f0dd07">SECURITY_PACKAGE_OPTIONS</a> structure that specifies additional information about the security package.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_security_package_options">SECURITY_PACKAGE_OPTIONS</a> structure that specifies additional information about the security package.
 
 
 ## -returns
@@ -85,7 +85,7 @@ If the function fails, it returns a nonzero error code.
 
 
 
-<a href="https://msdn.microsoft.com/7a9a2c64-92a4-419b-8b20-d0f5cba64147">DeleteSecurityPackage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-deletesecuritypackagea">DeleteSecurityPackage</a>
  
 
  

@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>LsaRemoveAccountRights</b> function removes one or more <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">privileges</a> from an account. You can specify the privileges to be removed, or you can set a flag to remove all privileges. When you remove all privileges, the function deletes the account. If you specify privileges not held by the account, the function ignores them.
+The <b>LsaRemoveAccountRights</b> function removes one or more <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">privileges</a> from an account. You can specify the privileges to be removed, or you can set a flag to remove all privileges. When you remove all privileges, the function deletes the account. If you specify privileges not held by the account, the function ignores them.
 
 
 ## -parameters
@@ -62,13 +62,13 @@ The <b>LsaRemoveAccountRights</b> function removes one or more <a href="https://
 
 ### -param PolicyHandle [in]
 
-A handle to a <a href="https://msdn.microsoft.com/4253c7fb-85f5-441d-90bf-492e802ad0f8">Policy</a> object. The handle must have the POLICY_LOOKUP_NAMES access right. For more information, see 
-<a href="https://msdn.microsoft.com/66fdc878-d9c4-421c-b79f-9df08984611c">Opening a Policy Object Handle</a>.
+A handle to a <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object. The handle must have the POLICY_LOOKUP_NAMES access right. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/opening-a-policy-object-handle">Opening a Policy Object Handle</a>.
 
 
 ### -param AccountSid [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) of the account from which the privileges are removed.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) of the account from which the privileges are removed.
 
 
 ### -param AllRights [in]
@@ -79,8 +79,8 @@ If <b>TRUE</b>, the function removes all privileges and deletes the account. In 
 ### -param UserRights [in]
 
 Pointer to an array of 
-<a href="https://msdn.microsoft.com/9e1cf20f-01f9-4813-bf95-e47c5d57dcdc">LSA_UNICODE_STRING</a> structures. Each structure contains the name of a privilege to be removed from the account. For a list of privilege names, see 
-<a href="https://msdn.microsoft.com/be5637e3-0932-49b6-a5af-a542060545e0">Privilege Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string">LSA_UNICODE_STRING</a> structures. Each structure contains the name of a privilege to be removed from the account. For a list of privilege names, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-constants">Privilege Constants</a>.
 
 
 ### -param CountOfRights [in]
@@ -95,7 +95,7 @@ Specifies the number of elements in the <i>UserRights</i> array.
 If the function succeeds, the return value is STATUS_SUCCESS.
 
 If the function fails, the return value is an NTSTATUS code, which can be one of the following values or one of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms721859(v=VS.85).aspx">LSA Policy Function Return Values</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>
@@ -128,7 +128,7 @@ Indicates the <i>UserRights</i> parameter was <b>NULL</b> and the <i>AllRights</
  
 
 You can use the 
-<a href="https://msdn.microsoft.com/fa91794c-c502-4b36-84cc-a8d77c8e9d9f">LsaNtStatusToWinError</a> function to convert the NTSTATUS code to a Windows error code.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function to convert the NTSTATUS code to a Windows error code.
 
 
 
@@ -138,15 +138,15 @@ You can use the
 
 
 
-<a href="https://msdn.microsoft.com/9e1cf20f-01f9-4813-bf95-e47c5d57dcdc">LSA_UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string">LSA_UNICODE_STRING</a>
 
 
 
-<a href="https://msdn.microsoft.com/66b78404-02c2-48e9-92c3-d27b68f77c23">LsaAddAccountRights</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaaddaccountrights">LsaAddAccountRights</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f4a4a9a-66ca-410a-8bdc-c390e8b966e3">LsaEnumerateAccountRights</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaenumerateaccountrights">LsaEnumerateAccountRights</a>
  
 
  

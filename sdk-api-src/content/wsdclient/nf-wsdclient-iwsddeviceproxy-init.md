@@ -64,7 +64,7 @@ The logical address (ID) of the device.
 
 ### -param pDeviceAddress [in]
 
-Reference to an <a href="https://msdn.microsoft.com/b19938b2-2fba-42fe-8c4e-5696c40acd58">IWSDAddress</a> object that contains the device configuration data.
+Reference to an <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a> object that contains the device configuration data.
 
 
 ### -param pszLocalId [in]
@@ -74,14 +74,14 @@ The logical address of the client. The logical address is of the form, urn:uuid:
 
 ### -param pContext [in, optional]
 
-Reference to an <a href="https://msdn.microsoft.com/131fa170-4c19-4a7b-82e0-e9677b7f767a">IWSDXMLContext</a> object that defines custom message types or namespaces. 
+Reference to an <a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a> object that defines custom message types or namespaces. 
 
 If <b>NULL</b>, a default context representing the built-in message types and namespaces is used.
 
 
 ### -param pSponsor [in, optional]
 
-Reference to an <a href="https://msdn.microsoft.com/a1a54ba0-241a-4c3d-8113-89c0f8171c40">IWSDDeviceProxy</a> object that is an optional device with which to share a session and lower layers. 
+Reference to an <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a> object that is an optional device with which to share a session and lower layers. 
 
 
 
@@ -139,7 +139,7 @@ Insufficient memory to complete the operation.
 
 
 
-This method is called by <a href="https://msdn.microsoft.com/d432ae9a-cf34-4149-978c-637443a3824f">WSDCreateDeviceProxy</a> and need not normally be called directly by the client code.
+This method is called by <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-wsdcreatedeviceproxy">WSDCreateDeviceProxy</a> and need not normally be called directly by the client code.
 
 
 
@@ -149,7 +149,7 @@ This method is called by <a href="https://msdn.microsoft.com/d432ae9a-cf34-4149-
 
 
 
-<a href="https://msdn.microsoft.com/a1a54ba0-241a-4c3d-8113-89c0f8171c40">IWSDDeviceProxy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a>
  
 
  

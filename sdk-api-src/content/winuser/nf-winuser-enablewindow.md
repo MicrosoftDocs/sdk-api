@@ -99,11 +99,11 @@ If the window was not previously disabled, the return value is zero.
 
 
 
-If the window is being disabled, the system sends a <a href="https://msdn.microsoft.com/en-us/library/ms632615(v=VS.85).aspx">WM_CANCELMODE</a> message. If the enabled state of a window is changing, the system sends a <a href="https://msdn.microsoft.com/en-us/library/ms632621(v=VS.85).aspx">WM_ENABLE</a> message after the <b>WM_CANCELMODE</b> message. (These messages are sent before <b>EnableWindow</b> returns.) If a window is already disabled, its child windows are implicitly disabled, although they are not sent a <b>WM_ENABLE</b> message.
+If the window is being disabled, the system sends a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-cancelmode">WM_CANCELMODE</a> message. If the enabled state of a window is changing, the system sends a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-enable">WM_ENABLE</a> message after the <b>WM_CANCELMODE</b> message. (These messages are sent before <b>EnableWindow</b> returns.) If a window is already disabled, its child windows are implicitly disabled, although they are not sent a <b>WM_ENABLE</b> message.
 
 A window must be enabled before it can be activated. For example, if an application is displaying a modeless dialog box and has disabled its main window, the application must enable the main window before destroying the dialog box. Otherwise, another window will receive the keyboard focus and be activated. If a child window is disabled, it is ignored when the system tries to determine which window should receive mouse messages.
 
-By default, a window is enabled when it is created. To create a window that is initially disabled, an application can specify the <b>WS_DISABLED</b> style in the <a href="https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx">CreateWindow</a> or <a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a> function. After a window has been created, an application can use <b>EnableWindow</b> to enable or disable the window.
+By default, a window is enabled when it is created. To create a window that is initially disabled, an application can specify the <b>WS_DISABLED</b> style in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> function. After a window has been created, an application can use <b>EnableWindow</b> to enable or disable the window.
 
 An application can use this function to enable or disable a control in a dialog box. A disabled control cannot receive the keyboard focus, nor can a user gain access to it.
 
@@ -119,19 +119,19 @@ An application can use this function to enable or disable a control in a dialog 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx">CreateWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646303(v=VS.85).aspx">IsWindowEnabled</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-iswindowenabled">IsWindowEnabled</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
 
 
 
@@ -139,7 +139,7 @@ An application can use this function to enable or disable a control in a dialog 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632621(v=VS.85).aspx">WM_ENABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-enable">WM_ENABLE</a>
  
 
  

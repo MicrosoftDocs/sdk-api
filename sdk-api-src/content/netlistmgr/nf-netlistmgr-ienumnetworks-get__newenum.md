@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>get_NewEnum</b> property returns an automation enumerator object that you can use to iterate through the <a href="https://msdn.microsoft.com/ce2b65e5-89fe-48c9-aa00-373406891d02">IEnumNetworks</a> collection. 
+The <b>get_NewEnum</b> property returns an automation enumerator object that you can use to iterate through the <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-ienumnetworks">IEnumNetworks</a> collection. 
 
 
 ## -parameters
@@ -85,7 +85,7 @@ In Microsoft Visual Basic and Microsoft C#, you do not need to use the correspon
 
 
 
-<a href="https://msdn.microsoft.com/ce2b65e5-89fe-48c9-aa00-373406891d02">IEnumNetworks</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-ienumnetworks">IEnumNetworks</a>
  
 
  

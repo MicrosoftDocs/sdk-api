@@ -61,7 +61,7 @@ The
 ### -param pDirection [out]
 
 The 
-<a href="https://msdn.microsoft.com/en-us/library/ms734805(v=VS.85).aspx">TMGR_DIRECTION</a> descriptor of the terminal direction.
+<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/ne-termmgr-__midl___midl_itf_termmgr_0000_0000_0001">TMGR_DIRECTION</a> descriptor of the terminal direction.
 
 
 ## -returns
@@ -78,11 +78,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/178824f5-9dda-4e8a-b921-f2c9d064a83c">ITPluggableTerminalClassRegistration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nn-termmgr-itpluggableterminalclassregistration">ITPluggableTerminalClassRegistration</a>
 
 
 
-<a href="https://msdn.microsoft.com/b68c0697-e889-471d-857a-d11e974c6552">put_Direction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalclassregistration-put_direction">put_Direction</a>
  
 
  

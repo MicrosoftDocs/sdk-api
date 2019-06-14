@@ -60,7 +60,7 @@ Specifies a metadata object setting.
 
 ### -field id
 
-Identifies the <a href="https://msdn.microsoft.com/d3baa961-4701-4f2f-9263-5ac0266f6056">WS_METADATA_PROPERTY_ID</a>.
+Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_metadata_property_id">WS_METADATA_PROPERTY_ID</a>.
                 
 
 

@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/15c76f0e-85ae-4ee3-bf9f-ba32195d9adc">WSMan.SessionFlagNoEncryption</a> method returns the value of the authentication flag <b>WSManFlagNoEncryption</b> for use in the <i>flags</i> parameter of <a href="https://msdn.microsoft.com/0ccab9bf-f8b4-432e-92d1-b5a5d3a2dfe5">IWSMan::CreateSession</a>.
+The <a href="https://docs.microsoft.com/windows/desktop/WinRM/wsman-sessionflagnoencryption">WSMan.SessionFlagNoEncryption</a> method returns the value of the authentication flag <b>WSManFlagNoEncryption</b> for use in the <i>flags</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsman-createsession">IWSMan::CreateSession</a>.
 
-<b>WSManFlagNoEncryption</b> is a constant in the <b>__WSManSessionFlags</b> enumeration. For more information, see <a href="https://msdn.microsoft.com/a921b7bc-1f40-427c-971f-c0bc9c9f6887">Other Session Constants</a>.
+<b>WSManFlagNoEncryption</b> is a constant in the <b>__WSManSessionFlags</b> enumeration. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinRM/other-session-constants">Other Session Constants</a>.
 
 
 ## -parameters
@@ -78,11 +78,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/23fdd9d9-4a78-4c01-8e5d-c8007f39d5d6">IWSManEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex">IWSManEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/15c76f0e-85ae-4ee3-bf9f-ba32195d9adc">WSMan.SessionFlagNoEncryption</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinRM/wsman-sessionflagnoencryption">WSMan.SessionFlagNoEncryption</a>
  
 
  

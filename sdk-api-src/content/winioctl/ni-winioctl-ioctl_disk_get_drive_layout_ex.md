@@ -50,7 +50,7 @@ req.redist:
 
 Retrieves extended information for each entry in the  partition tables for a disk.
 
-To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
+To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
     function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -148,7 +148,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 This operation retrieves information for each primary partition as well as each logical drive. To determine 
      whether the entry is an extended or unused partition, check the 
-     <a href="https://msdn.microsoft.com/b2e15b93-a02b-4d6f-b242-b5ec9a30c97b">disk partition type</a>.
+     <a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-partition-types">disk partition type</a>.
 
 
 
@@ -158,19 +158,19 @@ This operation retrieves information for each primary partition as well as each 
 
 
 
-<a href="https://msdn.microsoft.com/381c87a8-fe40-4251-a4df-dddc9e2a126d">DRIVE_LAYOUT_INFORMATION_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_drive_layout_information_ex">DRIVE_LAYOUT_INFORMATION_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/488a7d32-cbb5-4f32-9655-0aca8ac69640">Disk Management Control Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes">Disk Management Control Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/a600e841-c692-4aa4-bea2-a33931d9b007">IOCTL_DISK_SET_DRIVE_LAYOUT_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_drive_layout_ex">IOCTL_DISK_SET_DRIVE_LAYOUT_EX</a>
  
 
  

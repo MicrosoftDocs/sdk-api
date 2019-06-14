@@ -49,7 +49,7 @@ ms.custom: 19H1
 
 ## -description
 
-Instantiates a new instance of a <a href="https://msdn.microsoft.com/F4C7E5E7-1986-4210-83BC-80277A47CB97">CD3D11_VIEWPORT</a> structure that is initialized with **D3D11_BUFFER_RTV** values.
+Instantiates a new instance of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151722(v=vs.85)">CD3D11_VIEWPORT</a> structure that is initialized with **D3D11_BUFFER_RTV** values.
 
 ## -parameters
 
@@ -82,4 +82,4 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/F4C7E5E7-1986-4210-83BC-80277A47CB97">CD3D11_VIEWPORT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151722(v=vs.85)">CD3D11_VIEWPORT</a>

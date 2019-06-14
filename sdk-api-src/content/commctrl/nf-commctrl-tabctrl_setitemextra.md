@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the number of bytes per tab reserved for application-defined data in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760633(v=VS.85).aspx">TCM_SETITEMEXTRA</a> message explicitly. 
+Sets the number of bytes per tab reserved for application-defined data in a tab control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-setitemextra">TCM_SETITEMEXTRA</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Sets the number of bytes per tab reserved for application-defined data in a tab 
 
 ### -param hwndTC
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tab control. 
 
@@ -75,7 +75,7 @@ Number of extra bytes.
 
 
 
-By default, the number of extra bytes is four. An application that changes the number of extra bytes cannot use the <a href="https://msdn.microsoft.com/en-us/library/Bb760554(v=VS.85).aspx">TCITEM</a> structure to retrieve and set the application-defined data for a tab. Instead, you must define a new structure that consists of the <a href="https://msdn.microsoft.com/en-us/library/Bb760556(v=VS.85).aspx">TCITEMHEADER</a> structure followed by application-defined members. 
+By default, the number of extra bytes is four. An application that changes the number of extra bytes cannot use the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtcitema">TCITEM</a> structure to retrieve and set the application-defined data for a tab. Instead, you must define a new structure that consists of the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtcitemheadera">TCITEMHEADER</a> structure followed by application-defined members. 
 
 An application should only change the number of extra bytes when a tab control does not contain any tabs. 
 

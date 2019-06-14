@@ -56,9 +56,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>SHGetSpecialFolderPath</b> is not supported. Instead, use <a href="https://msdn.microsoft.com/a240abc0-e0a6-4f95-8e74-7dc410970212">ShGetFolderPath</a>.]
+<p class="CCE_Message">[<b>SHGetSpecialFolderPath</b> is not supported. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha">ShGetFolderPath</a>.]
 
-Retrieves the path of a special folder, identified by its <a href="https://msdn.microsoft.com/33d92271-2865-4ebd-b96c-bf293deb4310">CSIDL</a>.
+Retrieves the path of a special folder, identified by its <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL</a>.
 
 
 ## -parameters
@@ -84,7 +84,7 @@ A pointer to a null-terminated string that receives the drive and path of the sp
 
 Type: <b>int</b>
 
-A <a href="https://msdn.microsoft.com/33d92271-2865-4ebd-b96c-bf293deb4310">CSIDL</a> that identifies the folder of interest. If a virtual folder is specified, this function will fail.
+A <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL</a> that identifies the folder of interest. If a virtual folder is specified, this function will fail.
 
 
 ### -param fCreate [in]

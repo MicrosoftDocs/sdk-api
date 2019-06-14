@@ -106,7 +106,7 @@ Offset of the target string.
 
 The <b>dwCompStrOffset</b> and <b>dwTargetOffset</b> members are the relative positions in <b>dwStrOffset</b>. For a Unicode IME, <b>dwStrLen</b>, <b>dwCompStrLen</b>, and <b>dwTargetStrLen</b> are TCHAR values, that is, character counts. The members <b>dwStrOffset</b>, <b>dwCompStrOffset</b>, and <b>dwTargetStrOffset</b> specify byte counts.
 
-If an application starts the reconversion process by calling <a href="https://msdn.microsoft.com/0bac534d-d2a8-4dbc-8062-f1d2a8ca0c34">ImmSetCompositionString</a> with SCS_SETRECONVERTSTRING and SCS_QUERYRECONVERTSTRING, the application must allocate the necessary memory for the <b>RECONVERTSTRING</b> structure as well as the composition string buffer. IME should not use this memory later. If IME starts the process, IME should allocate necessary memory for the structure and the composition string buffer.
+If an application starts the reconversion process by calling <a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immsetcompositionstringa">ImmSetCompositionString</a> with SCS_SETRECONVERTSTRING and SCS_QUERYRECONVERTSTRING, the application must allocate the necessary memory for the <b>RECONVERTSTRING</b> structure as well as the composition string buffer. IME should not use this memory later. If IME starts the process, IME should allocate necessary memory for the structure and the composition string buffer.
 
 
 
@@ -116,23 +116,23 @@ If an application starts the reconversion process by calling <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/035a7072-d292-4883-bc3e-d1e9ed64d9ec">IMR_CONFIRMRECONVERTSTRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/imr-confirmreconvertstring">IMR_CONFIRMRECONVERTSTRING</a>
 
 
 
-<a href="https://msdn.microsoft.com/82ef20b5-bdfa-4bde-abb4-3d14ae35c116">IMR_RECONVERTSTRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/imr-reconvertstring">IMR_RECONVERTSTRING</a>
 
 
 
-<a href="https://msdn.microsoft.com/0bac534d-d2a8-4dbc-8062-f1d2a8ca0c34">ImmSetCompositionString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immsetcompositionstringa">ImmSetCompositionString</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e23e004-514a-4021-bd20-5ac55547258f">Input Method Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://msdn.microsoft.com/1be3ae8b-e083-4420-bc8a-7f49c4264cab">Input Method Manager Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-structures">Input Method Manager Structures</a>
  
 
  

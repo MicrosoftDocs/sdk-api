@@ -60,16 +60,16 @@ Deprecated. Instructs the control site to process the keystroke described in <i>
 
 ### -param pMsg
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a> structure that describes the keystroke to be processed.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a> structure that describes the keystroke to be processed.
 
 
 ### -param grfModifiers
 
 Type: <b>DWORD</b>
 
-Flags describing the state of the CTRL, ALT, and SHIFT keys. The value of the flags can be any valid <a href="https://msdn.microsoft.com/5a85158d-33a7-4c99-a636-42f7c68dc3ce">KEYMODIFIERS</a> enumeration value or values.
+Flags describing the state of the CTRL, ALT, and SHIFT keys. The value of the flags can be any valid <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683763(v=vs.85)">KEYMODIFIERS</a> enumeration value or values.
 
 
 ## -returns

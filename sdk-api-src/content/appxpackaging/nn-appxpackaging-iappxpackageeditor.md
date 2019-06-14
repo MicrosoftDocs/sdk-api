@@ -54,7 +54,7 @@ Provides functionality to edit app packages.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxPackageEditor</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAppxPackageEditor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxPackageEditor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxPackageEditor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAppxPackageEditor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/40B41D47-674A-4842-8C6D-FBB661D12589">CreateDeltaPackage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxpackageeditor-createdeltapackage">CreateDeltaPackage</a>
 </td>
 <td align="left" width="63%">
 Creates a delta package from the differences in the updated package and the baseline package.
@@ -78,7 +78,7 @@ Creates a delta package from the differences in the updated package and the base
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/33D1CEBA-A7F4-4506-B467-3610A3737B87">CreateDeltaPackageUsingBaselineBlockMap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxpackageeditor-createdeltapackageusingbaselineblockmap">CreateDeltaPackageUsingBaselineBlockMap</a>
 </td>
 <td align="left" width="63%">
 Creates a delta package from the differences in the updated package and the baseline block map.
@@ -87,7 +87,7 @@ Creates a delta package from the differences in the updated package and the base
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4D5E2F4B-00CE-4A0A-A514-3B66EC3065ED">UpdateEncryptedPackage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxpackageeditor-updateencryptedpackage">UpdateEncryptedPackage</a>
 </td>
 <td align="left" width="63%">
 Updates an encrypted app package.
@@ -96,7 +96,7 @@ Updates an encrypted app package.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/768D2997-A374-46FF-BA0D-14B266D3C83D">UpdatePackage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxpackageeditor-updatepackage">UpdatePackage</a>
 </td>
 <td align="left" width="63%">
 Updates an app package.
@@ -105,7 +105,7 @@ Updates an app package.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A30B3A7E-28FA-4780-9ED3-4F19887189E8">UpdatePackageManifest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxpackageeditor-updatepackagemanifest">UpdatePackageManifest</a>
 </td>
 <td align="left" width="63%">
 Updates an app package manifest.

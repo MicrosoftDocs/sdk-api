@@ -59,7 +59,7 @@ The DISPLAYCONFIG_TARGET_MODE structure describes a display path target mode.
 
 ### -field targetVideoSignalInfo
 
-A <a href="https://msdn.microsoft.com/960089fe-dbb7-41a1-af73-0002cfce6da2">DISPLAYCONFIG_VIDEO_SIGNAL_INFO</a> structure that contains a detailed description of the current target mode.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_video_signal_info">DISPLAYCONFIG_VIDEO_SIGNAL_INFO</a> structure that contains a detailed description of the current target mode.
 
 
 ## -see-also
@@ -67,7 +67,7 @@ A <a href="https://msdn.microsoft.com/960089fe-dbb7-41a1-af73-0002cfce6da2">DISP
 
 
 
-<a href="https://msdn.microsoft.com/960089fe-dbb7-41a1-af73-0002cfce6da2">DISPLAYCONFIG_VIDEO_SIGNAL_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_video_signal_info">DISPLAYCONFIG_VIDEO_SIGNAL_INFO</a>
  
 
  

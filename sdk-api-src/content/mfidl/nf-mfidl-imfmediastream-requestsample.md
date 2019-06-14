@@ -116,7 +116,7 @@ The media source is stopped.
 </dl>
 </td>
 <td width="60%">
-The source's <a href="https://msdn.microsoft.com/c7f890a8-74bd-4418-bb02-a3fee62dec6d">Shutdown</a> method has been called.
+The source's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-shutdown">Shutdown</a> method has been called.
               
 
 </td>
@@ -138,16 +138,16 @@ When the next sample is available, the media stream stream does the following:
 <ol>
 <li>Pulls the first token from the queue.
           </li>
-<li>Sets the <a href="https://msdn.microsoft.com/9403bb15-e912-4aa3-9af1-fef4a4f9b242">MFSampleExtension_Token</a> attribute on the media sample. The attribute data is a pointer to the token object.
+<li>Sets the <a href="https://docs.microsoft.com/windows/desktop/medfound/mfsampleextension-token-attribute">MFSampleExtension_Token</a> attribute on the media sample. The attribute data is a pointer to the token object.
           </li>
-<li>Sends an <a href="https://msdn.microsoft.com/01610053-786f-44b5-90d6-2cb2668cd632">MEMediaSample</a> event. The event data is a pointer to the media sample's <a href="https://msdn.microsoft.com/b1c3758c-5133-41ee-b991-ae99d0296ccc">IMFSample</a> interface.
+<li>Sends an <a href="https://docs.microsoft.com/windows/desktop/medfound/memediasample">MEMediaSample</a> event. The event data is a pointer to the media sample's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> interface.
           </li>
 <li>Calls <b>Release</b> on the token.
           </li>
 </ol>
 If the media stream cannot fulfill the caller's request for a sample, it simply releases the token object and skips steps 2 and 3.
 
-The caller should monitor the reference count on the request token. If the media stream sends an <a href="https://msdn.microsoft.com/01610053-786f-44b5-90d6-2cb2668cd632">MEMediaSample</a> event, get the <a href="https://msdn.microsoft.com/9403bb15-e912-4aa3-9af1-fef4a4f9b242">MFSampleExtension_Token</a> attribute from the sample and match the attribute value against the token. If the token's reference count falls to zero and you did not receive an MEMediaSample event, it means that the request was dropped.
+The caller should monitor the reference count on the request token. If the media stream sends an <a href="https://docs.microsoft.com/windows/desktop/medfound/memediasample">MEMediaSample</a> event, get the <a href="https://docs.microsoft.com/windows/desktop/medfound/mfsampleextension-token-attribute">MFSampleExtension_Token</a> attribute from the sample and match the attribute value against the token. If the token's reference count falls to zero and you did not receive an MEMediaSample event, it means that the request was dropped.
 
 Because the Media Foundation pipeline is multithreaded, the source's <b>RequestSample</b> method might get called after the source has stopped. If the media source is stopped, the method should return <b>MF_E_MEDIA_SOURCE_WRONGSTATE</b>. The pipeline does not treat this return code as an error condition. If the source returns any other error code, the pipeline treats it as fatal error and halts the session.<div class="alert"><b>Note</b>  Earlier versions of the documentation listed the wrong error code for this case.</div>
 <div> </div>
@@ -159,7 +159,7 @@ If a media source enounters an error asynchronously while processing data, it sh
 
 <ul>
 <li>Return an error code from the next <b>RequestSample</b> call.</li>
-<li>Send an <a href="https://msdn.microsoft.com/bff80041-77d8-43b1-a410-9cefaf45eb2c">MEError</a> event.</li>
+<li>Send an <a href="https://docs.microsoft.com/windows/desktop/medfound/meerror">MEError</a> event.</li>
 </ul>
 
 
@@ -169,11 +169,11 @@ If a media source enounters an error asynchronously while processing data, it sh
 
 
 
-<a href="https://msdn.microsoft.com/66d07292-3bfe-4e68-b26f-890996262b98">IMFMediaStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediastream">IMFMediaStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/65132e7d-22f6-4209-bc58-f5ea86ebd514">Media Sources</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-sources">Media Sources</a>
  
 
  

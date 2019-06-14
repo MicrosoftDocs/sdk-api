@@ -51,9 +51,9 @@ ms.custom: 19H1
 
 The type for specifying a certificate credential that is to be
 supplied by a callback to the application.  This callback is invoked
-to get the certificate during <a href="https://msdn.microsoft.com/a7226194-0974-4f3c-b92d-78a93e86eea5">WsOpenChannel</a> on the client
-side and during <a href="https://msdn.microsoft.com/36226881-3fe7-4510-b147-7ee30146482c">WsOpenListener</a> on the server side.  It is
-always invoked <a href="https://msdn.microsoft.com/6a8e4c0b-3c0a-4bd3-bbac-40e6f499a055">short</a>.
+to get the certificate during <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsopenchannel">WsOpenChannel</a> on the client
+side and during <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsopenlistener">WsOpenListener</a> on the server side.  It is
+always invoked <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_callback_model">short</a>.
             
 
 

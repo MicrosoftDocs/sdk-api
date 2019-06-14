@@ -54,12 +54,12 @@ provides similar functionality.]
 
 The 
 <b>IMcastLeaseInfo</b> interface exposes methods that can get or set information concerning a multicast address allocation. The IMcastLease object is created by calling 
-<a href="https://msdn.microsoft.com/b7a65998-3329-4117-be91-10e2dd7047d5">IMcastAddressAllocation::CreateLeaseInfo</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastaddressallocation-createleaseinfo">IMcastAddressAllocation::CreateLeaseInfo</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMcastLeaseInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IMcastLeaseInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMcastLeaseInfo</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMcastLeaseInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IMcastLeaseInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/edbfe386-9b3d-4160-916e-6c9ea640cfbc">EnumerateAddresses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastleaseinfo-enumerateaddresses">EnumerateAddresses</a>
 </td>
 <td align="left" width="63%">
 Obtains the collection of multicast addresses that are the subject of this lease or lease request.
@@ -83,7 +83,7 @@ Obtains the collection of multicast addresses that are the subject of this lease
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/af7c6923-3859-46c0-aced-5b334a423e03">get_AddressCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastleaseinfo-get_addresscount">get_AddressCount</a>
 </td>
 <td align="left" width="63%">
 Obtains the number of addresses requested or granted in this lease.
@@ -92,17 +92,17 @@ Obtains the number of addresses requested or granted in this lease.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/37dc1bc8-b3d9-4c84-8d37-89d50570d95c">get_Addresses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastleaseinfo-get_addresses">get_Addresses</a>
 </td>
 <td align="left" width="63%">
 Obtains the collection of multicast addresses that are the subject of this lease or lease request. Similar to 
-<a href="https://msdn.microsoft.com/edbfe386-9b3d-4160-916e-6c9ea640cfbc">EnumerateAddresses</a>, but used by scripting languages.
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastleaseinfo-enumerateaddresses">EnumerateAddresses</a>, but used by scripting languages.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b0998a2d-6ec5-4d39-ba75-ede352b4cbe8">get_LeaseStartTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastleaseinfo-get_leasestarttime">get_LeaseStartTime</a>
 </td>
 <td align="left" width="63%">
 Obtains the start time of the lease.
@@ -111,7 +111,7 @@ Obtains the start time of the lease.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b2b99329-b176-4e5d-afb1-754c418e843a">get_LeaseStopTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastleaseinfo-get_leasestoptime">get_LeaseStopTime</a>
 </td>
 <td align="left" width="63%">
 Obtains the stop time of the lease.
@@ -120,7 +120,7 @@ Obtains the stop time of the lease.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/832bf532-4779-4066-a630-9892ad746a6c">get_RequestID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastleaseinfo-get_requestid">get_RequestID</a>
 </td>
 <td align="left" width="63%">
 Obtains the request identifier of the lease.
@@ -129,7 +129,7 @@ Obtains the request identifier of the lease.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/15f33689-07d5-4bd9-978a-2b5d9088b2ed">get_ServerAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastleaseinfo-get_serveraddress">get_ServerAddress</a>
 </td>
 <td align="left" width="63%">
 Obtains a string representing the address of the multicast server granting this lease.
@@ -138,7 +138,7 @@ Obtains a string representing the address of the multicast server granting this 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/393b9d6c-430c-42f8-88fa-4bf5c9c04c1f">get_TTL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastleaseinfo-get_ttl">get_TTL</a>
 </td>
 <td align="left" width="63%">
 Obtains the 
@@ -148,7 +148,7 @@ Obtains the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f101a92a-bcbb-4d96-befd-c6ee83b68481">put_LeaseStartTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastleaseinfo-put_leasestarttime">put_LeaseStartTime</a>
 </td>
 <td align="left" width="63%">
 Sets the start time of the lease.
@@ -157,7 +157,7 @@ Sets the start time of the lease.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dd171ebe-c436-46cf-9a4a-31f22acbaab2">put_LeaseStopTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastleaseinfo-put_leasestoptime">put_LeaseStopTime</a>
 </td>
 <td align="left" width="63%">
 Sets the stop time of the lease.
@@ -172,27 +172,27 @@ Sets the stop time of the lease.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/359e67bb-9a5b-4caa-8d3b-eb0739b0828f">IMcastAddressAllocation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-imcastaddressallocation">IMcastAddressAllocation</a>
 
 
 
-<a href="https://msdn.microsoft.com/b7a65998-3329-4117-be91-10e2dd7047d5">IMcastAddressAllocation::CreateLeaseInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastaddressallocation-createleaseinfo">IMcastAddressAllocation::CreateLeaseInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/9f52d1e9-61d9-4f67-b180-c1844b4eb7f1">IMcastAddressAllocation::RenewAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastaddressallocation-renewaddress">IMcastAddressAllocation::RenewAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/ca428138-34d2-499d-9560-8dfd51403ba1">IMcastAddressAllocation::RequestAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastaddressallocation-requestaddress">IMcastAddressAllocation::RequestAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/b0252ac4-856e-4aa7-aa3b-37b92472e864">IMcastScope</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-imcastscope">IMcastScope</a>
  
 
  

@@ -59,9 +59,9 @@ Handles global accelerators so that input objects can respond to the keyboard ev
 
 ### -param pMsg [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a> structure that contains a keyboard message.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a> structure that contains a keyboard message.
 
 
 ## -returns

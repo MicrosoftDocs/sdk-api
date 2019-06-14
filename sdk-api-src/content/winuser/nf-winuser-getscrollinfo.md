@@ -65,7 +65,7 @@ The <b>GetScrollInfo</b> function retrieves the parameters of a scroll bar, incl
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a scroll bar control or a window with a standard scroll bar, depending on the value of the 
 					<i>fnBar</i> parameter. 
@@ -121,7 +121,7 @@ Retrieves the parameters for the window's standard vertical scroll bar.
 
 Type: <b>LPSCROLLINFO</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb787537(v=VS.85).aspx">SCROLLINFO</a> structure. Before calling <b>GetScrollInfo</b>, set the 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagscrollinfo">SCROLLINFO</a> structure. Before calling <b>GetScrollInfo</b>, set the 
 					<b>cbSize</b> member to 
 					<b>sizeof</b>(<b>SCROLLINFO</b>), and set the 
 					<b>fMask</b> member to specify the scroll bar parameters to retrieve. Before returning, the function copies the specified parameters to the appropriate members of the structure.
@@ -141,7 +141,7 @@ The
 </td>
 <td width="60%">
 Copies the scroll page to the 
-						<b>nPage</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb787537(v=VS.85).aspx">SCROLLINFO</a> structure pointed to by 
+						<b>nPage</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagscrollinfo">SCROLLINFO</a> structure pointed to by 
 						<i>lpsi</i>.
 
 </td>
@@ -153,7 +153,7 @@ Copies the scroll page to the
 </td>
 <td width="60%">
 Copies the scroll position to the 
-						<b>nPos</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb787537(v=VS.85).aspx">SCROLLINFO</a> structure pointed to by 
+						<b>nPos</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagscrollinfo">SCROLLINFO</a> structure pointed to by 
 						<i>lpsi</i>.
 
 </td>
@@ -166,7 +166,7 @@ Copies the scroll position to the
 <td width="60%">
 Copies the scroll range to the 
 						<b>nMin</b> and 
-						<b>nMax</b> members of the <a href="https://msdn.microsoft.com/en-us/library/Bb787537(v=VS.85).aspx">SCROLLINFO</a> structure pointed to by 
+						<b>nMax</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagscrollinfo">SCROLLINFO</a> structure pointed to by 
 						<i>lpsi</i>.
 
 </td>
@@ -178,7 +178,7 @@ Copies the scroll range to the
 </td>
 <td width="60%">
 Copies the current scroll box tracking position to the 
-						<b>nTrackPos</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb787537(v=VS.85).aspx">SCROLLINFO</a> structure pointed to by 
+						<b>nTrackPos</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagscrollinfo">SCROLLINFO</a> structure pointed to by 
 						<i>lpsi</i>.
 
 </td>
@@ -191,11 +191,11 @@ Copies the current scroll box tracking position to the
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 If the function retrieved any values, the return value is nonzero.
 
-If the function does not retrieve any values, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function does not retrieve any values, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -204,10 +204,10 @@ If the function does not retrieve any values, the return value is zero. To get e
 
 
 
-The <b>GetScrollInfo</b> function enables applications to use 32-bit scroll positions. Although the messages that indicate scroll bar position, <a href="https://msdn.microsoft.com/en-us/library/Bb787575(v=VS.85).aspx">WM_HSCROLL</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb787577(v=VS.85).aspx">WM_VSCROLL</a>, provide only 16 bits of position data, the functions <a href="https://msdn.microsoft.com/en-us/library/Bb787595(v=VS.85).aspx">SetScrollInfo</a> and <b>GetScrollInfo</b> provide 32 bits of scroll bar position data. Thus, an application can call <b>GetScrollInfo</b> while processing either the <b>WM_HSCROLL</b> or <b>WM_VSCROLL</b> messages to obtain 32-bit scroll bar position data. 
+The <b>GetScrollInfo</b> function enables applications to use 32-bit scroll positions. Although the messages that indicate scroll bar position, <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-hscroll">WM_HSCROLL</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-vscroll">WM_VSCROLL</a>, provide only 16 bits of position data, the functions <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setscrollinfo">SetScrollInfo</a> and <b>GetScrollInfo</b> provide 32 bits of scroll bar position data. Thus, an application can call <b>GetScrollInfo</b> while processing either the <b>WM_HSCROLL</b> or <b>WM_VSCROLL</b> messages to obtain 32-bit scroll bar position data. 
 
-To get the 32-bit position of the scroll box (thumb) during a SB_THUMBTRACK request code in a <a href="https://msdn.microsoft.com/en-us/library/Bb787575(v=VS.85).aspx">WM_HSCROLL</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb787577(v=VS.85).aspx">WM_VSCROLL</a> message, call <b>GetScrollInfo</b> with the SIF_TRACKPOS value in the 
-				<b>fMask</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb787537(v=VS.85).aspx">SCROLLINFO</a> structure. The function returns the tracking position of the scroll box in the 
+To get the 32-bit position of the scroll box (thumb) during a SB_THUMBTRACK request code in a <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-hscroll">WM_HSCROLL</a> or <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-vscroll">WM_VSCROLL</a> message, call <b>GetScrollInfo</b> with the SIF_TRACKPOS value in the 
+				<b>fMask</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagscrollinfo">SCROLLINFO</a> structure. The function returns the tracking position of the scroll box in the 
 				<b>nTrackPos</b> member of the <b>SCROLLINFO</b> structure. This allows you to get the position of the scroll box as the user moves it. The following sample code illustrates the technique.
 
 
@@ -235,7 +235,7 @@ case WM_HSCROLL:
 ```
 
 
-If the <i>fnBar</i> parameter is SB_CTL and the window specified by the <i>hwnd</i> parameter is not a system scroll bar control, the system sends the <a href="https://msdn.microsoft.com/en-us/library/Bb787563(v=VS.85).aspx">SBM_GETSCROLLINFO</a> message to the window to obtain scroll bar information. This allows <b>GetScrollInfo</b> to operate on a custom control that mimics a scroll bar. If the window does not handle the <b>SBM_GETSCROLLINFO</b> message, the <b>GetScrollInfo</b> function fails.
+If the <i>fnBar</i> parameter is SB_CTL and the window specified by the <i>hwnd</i> parameter is not a system scroll bar control, the system sends the <a href="https://docs.microsoft.com/windows/desktop/Controls/sbm-getscrollinfo">SBM_GETSCROLLINFO</a> message to the window to obtain scroll bar information. This allows <b>GetScrollInfo</b> to operate on a custom control that mimics a scroll bar. If the window does not handle the <b>SBM_GETSCROLLINFO</b> message, the <b>GetScrollInfo</b> function fails.
 
 
 
@@ -250,19 +250,19 @@ If the <i>fnBar</i> parameter is SB_CTL and the window specified by the <i>hwnd<
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787537(v=VS.85).aspx">SCROLLINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagscrollinfo">SCROLLINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787595(v=VS.85).aspx">SetScrollInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setscrollinfo">SetScrollInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787575(v=VS.85).aspx">WM_HSCROLL</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/wm-hscroll">WM_HSCROLL</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787577(v=VS.85).aspx">WM_VSCROLL</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/wm-vscroll">WM_VSCROLL</a>
  
 
  

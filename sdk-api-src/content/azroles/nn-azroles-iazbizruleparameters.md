@@ -54,7 +54,7 @@ The <b>IAzBizRuleParameters</b> interface provides methods and properties used t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzBizRuleParameters</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAzBizRuleParameters</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzBizRuleParameters</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAzBizRuleParameters</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IAzBizRuleParameters</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ea5c45d4-34c8-4d7c-a1b2-8f45574d9449">AddParameter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazbizruleparameters-addparameter">AddParameter</a>
 </td>
 <td align="left" width="63%">
 Adds a parameter to the list of parameters available to BizRule scripts.
@@ -79,7 +79,7 @@ Adds a parameter to the list of parameters available to BizRule scripts.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ebf336a9-a64a-4ded-b508-56491ebf48e2">AddParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazbizruleparameters-addparameters">AddParameters</a>
 </td>
 <td align="left" width="63%">
 Adds  parameters to the list of parameters available to BizRule scripts.
@@ -88,7 +88,7 @@ Adds  parameters to the list of parameters available to BizRule scripts.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/210dc872-0879-4b4f-bdc3-cbb2208dafbe">GetParameterValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazbizruleparameters-getparametervalue">GetParameterValue</a>
 </td>
 <td align="left" width="63%">
 Gets the value type of the BizRule parameter with the specified name.
@@ -97,7 +97,7 @@ Gets the value type of the BizRule parameter with the specified name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1874ac48-0a06-4387-89c2-c194b60bb8f2">Remove</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazbizruleparameters-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes the specified parameter from the list of parameters available to BizRule scripts.
@@ -106,7 +106,7 @@ Removes the specified parameter from the list of parameters available to BizRule
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5ec13e1b-6b83-4178-a5a5-b278fe7c8c3c">RemoveAll</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazbizruleparameters-removeall">RemoveAll</a>
 </td>
 <td align="left" width="63%">
 Removes all parameters from the list of parameters available to BizRule scripts.
@@ -123,7 +123,7 @@ Removes all parameters from the list of parameters available to BizRule scripts.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/5ba6f289-2349-444b-8693-53aadb0ea4d1">Count</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazbizruleparameters-get_count">Count</a>
 
 
 </td>
@@ -140,11 +140,11 @@ Gets the number of parameters available to BizRule scripts.
 
 
 
-<a href="https://msdn.microsoft.com/161f8a84-ee00-4f39-9997-a1e3d1c5b7a8">IAzClientContext3::BizRuleParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext3-get_bizruleparameters">IAzClientContext3::BizRuleParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

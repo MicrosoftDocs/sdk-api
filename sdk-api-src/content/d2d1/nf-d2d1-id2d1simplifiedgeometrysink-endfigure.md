@@ -59,9 +59,9 @@ Ends the current figure; optionally, closes it.
 
 ### -param figureEnd
 
-Type: <b><a href="https://msdn.microsoft.com/44821eef-7ecf-44c1-bbfb-df259c0489dd">D2D1_FIGURE_END</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_figure_end">D2D1_FIGURE_END</a></b>
 
-A value that indicates whether the current figure is closed. If the figure is closed, a line is drawn between the current point and the start point specified by <a href="https://msdn.microsoft.com/87a932d4-1f90-4bdb-b131-0664566b0318">BeginFigure</a>.
+A value that indicates whether the current figure is closed. If the figure is closed, a line is drawn between the current point and the start point specified by <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-beginfigure">BeginFigure</a>.
 
 
 ## -returns
@@ -77,12 +77,12 @@ This method does not return a value.
 
 
 
-Calling this method without a matching call to <a href="https://msdn.microsoft.com/87a932d4-1f90-4bdb-b131-0664566b0318">BeginFigure</a>  places the geometry sink in an error state; subsequent calls are ignored, and the overall failure will be returned when the <a href="https://msdn.microsoft.com/9dbbe5c6-d21c-4408-9208-53c7c051b22a">Close</a> method is called.
+Calling this method without a matching call to <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-beginfigure">BeginFigure</a>  places the geometry sink in an error state; subsequent calls are ignored, and the overall failure will be returned when the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-close">Close</a> method is called.
 
 
 #### Examples
 
-The following example creates an <a href="https://msdn.microsoft.com/d200563c-d78e-4fa0-a8f2-242b24480e99">ID2D1PathGeometry</a>, retrieves a sink, uses it to define an hourglass shape, and then calls <b>EndFigure</b> with the D2D1_FIGURE_END_CLOSED value to end the creation of the hourglass. For the complete example, see <a href="https://msdn.microsoft.com/d7aad487-04e0-448d-bedf-b8dfadc7bbe9">How to Draw and Fill a Complex Shape</a>.
+The following example creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1pathgeometry">ID2D1PathGeometry</a>, retrieves a sink, uses it to define an hourglass shape, and then calls <b>EndFigure</b> with the D2D1_FIGURE_END_CLOSED value to end the creation of the hourglass. For the complete example, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-draw-and-fill-a-complex-shape">How to Draw and Fill a Complex Shape</a>.
 
 
 ```cpp
@@ -147,7 +147,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/cf877a25-7b9f-4db0-ac53-b4a350795a86">ID2D1SimplifiedGeometrySink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a>
  
 
  

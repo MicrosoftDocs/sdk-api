@@ -101,12 +101,12 @@ If the following three conditions are true, the I/O Manager does not queue a com
 When the <i>FileHandle</i> parameter is a socket, this mode is only compatible with 
          Layered Service Providers (LSP) that return Installable File Systems (IFS) handles. To detect whether a 
          non-IFS LSP is installed, use the 
-         <a href="https://msdn.microsoft.com/928b6937-41a3-4268-a3bc-14c9e04870e4">WSAEnumProtocols</a> function and examine the 
+         <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a> function and examine the 
          <b>dwServiceFlag1</b> member in each returned 
-         <a href="https://msdn.microsoft.com/758c5553-056f-4ea5-a851-30ef641ffb14">WSAPROTOCOL_INFO</a> structure. If the 
+         <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure. If the 
          <b>XP1_IFS_HANDLES</b> (0x20000) bit is cleared then the specified LSP is not an IFS LSP. 
          Vendors that have non-IFS LSPs are encouraged to migrate to the 
-         <a href="https://msdn.microsoft.com/0436f559-20e6-4199-8391-10eb7d85df23">Windows Filtering Platform</a> 
+         <a href="https://docs.microsoft.com/windows/desktop/FWP/windows-filtering-platform-start-page">Windows Filtering Platform</a> 
          (WFP).
 
 </td>
@@ -137,7 +137,7 @@ If an explicit event is provided for the request, it is still signaled.
 Returns nonzero if successful or zero otherwise.
 
 To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -148,7 +148,7 @@ To get extended error information, call
 
 To compile an application that uses this function, define the <b>_WIN32_WINNT</b> macro 
     as 0x0600 or later. For more information, see 
-    <a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -218,7 +218,7 @@ Yes
 
 
 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
  
 
  

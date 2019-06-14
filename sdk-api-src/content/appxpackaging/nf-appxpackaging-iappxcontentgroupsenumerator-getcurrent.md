@@ -95,7 +95,7 @@ The enumerator has passed the last item in the collection.
 
 
 
-<a href="https://msdn.microsoft.com/BA91A1A6-6C6B-4086-AE95-47372581429C">IAppxContentGroupsEnumerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxcontentgroupsenumerator">IAppxContentGroupsEnumerator</a>
  
 
  

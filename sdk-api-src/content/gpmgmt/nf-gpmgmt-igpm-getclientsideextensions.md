@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 Creates and returns a 
-<a href="https://msdn.microsoft.com/e32c1c39-b817-4db6-ad76-b2e66b54d79d">GPMCSECollection</a> object that allows you to enumerate Group Policy client-side extensions (CSEs) that are registered on the local computer.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmcsecollection">GPMCSECollection</a> object that allows you to enumerate Group Policy client-side extensions (CSEs) that are registered on the local computer.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Creates and returns a
 ### -param ppIGPMCSECollection [out]
 
 Address of a pointer to the 
-<a href="https://msdn.microsoft.com/e32c1c39-b817-4db6-ad76-b2e66b54d79d">IGPMCSECollection</a> interface.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmcsecollection">IGPMCSECollection</a> interface.
 
 
 ## -returns
@@ -86,11 +86,11 @@ Returns a reference to a <b>GPMCSECollection</b> object.
 
 
 
-<a href="https://msdn.microsoft.com/2780760e-7114-46b0-a264-00ed58a556cb">IGPM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
 
 
 
-<a href="https://msdn.microsoft.com/e32c1c39-b817-4db6-ad76-b2e66b54d79d">IGPMCSECollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmcsecollection">IGPMCSECollection</a>
  
 
  

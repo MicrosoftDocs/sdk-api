@@ -67,13 +67,13 @@ The numeric count of properties to be specified in the <i>rgpspec</i> array. The
 ### -param rgpspec [in]
 
 An array of 
-<a href="https://msdn.microsoft.com/5bb3b9c6-ab82-498c-94f9-13a9ffa7452b">PROPSPEC</a> structures specifies which properties are  read. Properties can be specified either by a property ID or by an optional string name. It is not necessary to specify properties in any particular order in the array. The array can contain duplicate properties, resulting in duplicate property values on return for simple properties. Nonsimple properties should return access denied on an attempt to open them a second time. The array can contain a mixture of property IDs and string IDs.
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropspec">PROPSPEC</a> structures specifies which properties are  read. Properties can be specified either by a property ID or by an optional string name. It is not necessary to specify properties in any particular order in the array. The array can contain duplicate properties, resulting in duplicate property values on return for simple properties. Nonsimple properties should return access denied on an attempt to open them a second time. The array can contain a mixture of property IDs and string IDs.
 
 
 ### -param rgpropvar [out]
 
 Caller-allocated array of a 
-<a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure that, on return, contains the values of the properties specified by the corresponding elements in the <i>rgpspec</i> array. The array must be at least large enough to hold values of the <i>cpspec</i> parameter of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure that, on return, contains the values of the properties specified by the corresponding elements in the <i>rgpspec</i> array. The array must be at least large enough to hold values of the <i>cpspec</i> parameter of the 
 <b>PROPVARIANT</b> structure. The <i>cpspec</i> parameter specifies the number of properties set in the array. The caller is not required to initialize these 
 <b>PROPVARIANT</b> structure values in any specific  order. However, the implementation must fill all members correctly on return. If there is no other appropriate value, the implementation must set the <b>vt</b> member of each 
 <b>PROPVARIANT</b> structure to <b>VT_EMPTY</b>.
@@ -86,10 +86,10 @@ Caller-allocated array of a
 This method supports the standard return value <b>E_UNEXPECTED</b>, as well as the following:
 
 This function can also return any file system errors or Win32 errors wrapped in an <b>HRESULT</b> data type. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms688560(v=VS.85).aspx">Error Handling Strategies</a>.
+<a href="https://docs.microsoft.com/windows/desktop/com/error-handling-strategies">Error Handling Strategies</a>.
 
 For more information, see 
-<a href="https://msdn.microsoft.com/7540966f-a3b2-46c9-9e04-b15133a517eb">Property Storage Considerations</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Stg/property-storage-considerations">Property Storage Considerations</a>.
 
 
 
@@ -99,35 +99,35 @@ For more information, see
 
 
 
-<a href="https://msdn.microsoft.com/40dd62b8-f76a-4cd8-9a9f-6ac344389b6c">EnumAll Sample</a>
+<a href="https://docs.microsoft.com/windows/desktop/Stg/enumall-sample">EnumAll Sample</a>
 
 
 
-<a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a>
 
 
 
-<a href="https://msdn.microsoft.com/c021f695-db54-4861-9f30-35a81d2dccd5">IPropertyStorage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a>
 
 
 
-<a href="https://msdn.microsoft.com/480a2be3-ccb0-4135-a085-733f6ab48ccd">IPropertyStorage::WriteMultiple</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-writemultiple">IPropertyStorage::WriteMultiple</a>
 
 
 
-<a href="https://msdn.microsoft.com/3612bf29-344a-4389-bd3b-56b9fa297362">IPropertyStorage::WritePropertyNames</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-writepropertynames">IPropertyStorage::WritePropertyNames</a>
 
 
 
-<a href="https://msdn.microsoft.com/0c48da47-b718-48fe-8ad0-39686bb83283">Samples</a>
+<a href="https://docs.microsoft.com/windows/desktop/Stg/samples">Samples</a>
 
 
 
-<a href="https://msdn.microsoft.com/f0d0664a-2cfd-4eb0-b1d5-47d1545394fd">StgCreatePropSetStg Sample</a>
+<a href="https://docs.microsoft.com/windows/desktop/Stg/stgcreatepropsetstg-sample">StgCreatePropSetStg Sample</a>
 
 
 
-<a href="https://msdn.microsoft.com/c5807dd9-2928-497b-9446-729dcaeebc8a">WriteRead Sample</a>
+<a href="https://docs.microsoft.com/windows/desktop/Stg/writeread-sample">WriteRead Sample</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>DIBSECTION</b> structure contains information about a DIB created by calling the <a href="https://msdn.microsoft.com/9276ec84-2860-42be-a9f8-d4efb8d25eec">CreateDIBSection</a> function. A <b>DIBSECTION</b> structure includes information about the bitmap's dimensions, color format, color masks, optional file mapping object, and optional bit values storage offset. An application can obtain a filled-in <b>DIBSECTION</b> structure for a given DIB by calling the <a href="https://msdn.microsoft.com/555ab876-d990-426d-915c-f98df82a10aa">GetObject</a> function.
+The <b>DIBSECTION</b> structure contains information about a DIB created by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a> function. A <b>DIBSECTION</b> structure includes information about the bitmap's dimensions, color format, color masks, optional file mapping object, and optional bit values storage offset. An application can obtain a filled-in <b>DIBSECTION</b> structure for a given DIB by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a> function.
 
 
 
@@ -62,22 +62,22 @@ The <b>DIBSECTION</b> structure contains information about a DIB created by call
 
 ### -field dsBm
 
-A <a href="https://msdn.microsoft.com/6ee382da-dd63-442b-80c3-59472defb41f">BITMAP</a> data structure that contains information about the DIB: its type, its dimensions, its color capacities, and a pointer to its bit values.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmap">BITMAP</a> data structure that contains information about the DIB: its type, its dimensions, its color capacities, and a pointer to its bit values.
 
 
 ### -field dsBmih
 
-A <a href="https://msdn.microsoft.com/02f8ed65-8fed-4dda-9b94-7343a0cfa8c1">BITMAPINFOHEADER</a> structure that contains information about the color format of the DIB.
+A <a href="https://docs.microsoft.com/previous-versions//dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure that contains information about the color format of the DIB.
 
 
 ### -field dsBitfields
 
-Specifies three color masks for the DIB. This field is only valid when the <b>BitCount</b> member of the <a href="https://msdn.microsoft.com/02f8ed65-8fed-4dda-9b94-7343a0cfa8c1">BITMAPINFOHEADER</a> structure has a value greater than 8. Each color mask indicates the bits that are used to encode one of the three color channels (red, green, and blue).
+Specifies three color masks for the DIB. This field is only valid when the <b>BitCount</b> member of the <a href="https://docs.microsoft.com/previous-versions//dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure has a value greater than 8. Each color mask indicates the bits that are used to encode one of the three color channels (red, green, and blue).
 
 
 ### -field dshSection
 
-Contains a handle to the file mapping object that the <a href="https://msdn.microsoft.com/9276ec84-2860-42be-a9f8-d4efb8d25eec">CreateDIBSection</a> function used to create the DIB. 
+Contains a handle to the file mapping object that the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a> function used to create the DIB. 
 			 If <b>CreateDIBSection</b> was called with a <b>NULL</b> value for its <i>hSection</i> parameter, 
 			 causing the system to allocate memory for the bitmap, the <i>dshSection</i> member will be <b>NULL</b>.
 
@@ -93,31 +93,31 @@ The offset to the bitmap's bit values within the file mapping object referenced 
 
 
 
-<a href="https://msdn.microsoft.com/6ee382da-dd63-442b-80c3-59472defb41f">BITMAP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmap">BITMAP</a>
 
 
 
-<a href="https://msdn.microsoft.com/02f8ed65-8fed-4dda-9b94-7343a0cfa8c1">BITMAPINFOHEADER</a>
+<a href="https://docs.microsoft.com/previous-versions//dd183376(v=vs.85)">BITMAPINFOHEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/29f8237f-9c7e-41a7-90b1-5f048fcc74a6">Bitmap Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-structures">Bitmap Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/ff0a5ae3-ae2e-4417-b5e5-0f9871c03964">Bitmaps Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/9276ec84-2860-42be-a9f8-d4efb8d25eec">CreateDIBSection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e3319be-8a3d-4ac2-ba36-9dbf18243472">GetDIBColorTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdibcolortable">GetDIBColorTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/555ab876-d990-426d-915c-f98df82a10aa">GetObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a>
  
 
  

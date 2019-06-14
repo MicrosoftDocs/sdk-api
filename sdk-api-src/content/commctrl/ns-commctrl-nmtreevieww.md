@@ -62,57 +62,57 @@ Contains information about a tree-view notification message. This structure is i
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about this notification message. 
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that contains information about this notification message. 
 
 
 ### -field action
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Notification-specific action flag. This member is used with the following notification codes.
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb773537(v=VS.85).aspx">TVN_ITEMEXPANDING</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-itemexpanding">TVN_ITEMEXPANDING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb773533(v=VS.85).aspx">TVN_ITEMEXPANDED</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-itemexpanded">TVN_ITEMEXPANDED</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb773547(v=VS.85).aspx">TVN_SELCHANGING</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-selchanging">TVN_SELCHANGING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb773544(v=VS.85).aspx">TVN_SELCHANGED</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-selchanged">TVN_SELCHANGED</a>
 </li>
 </ul>
-For the possible action flag values, see <a href="https://msdn.microsoft.com/en-us/library/Bb773568(v=VS.85).aspx">TVM_EXPAND</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb773544(v=VS.85).aspx">TVN_SELCHANGED</a>. 
+For the possible action flag values, see <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-expand">TVM_EXPAND</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-selchanged">TVN_SELCHANGED</a>. 
 
 
 ### -field itemOld
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb773456(v=VS.85).aspx">TVITEM</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvitema">TVITEM</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773456(v=VS.85).aspx">TVITEM</a> structure that contains information about the old item state. This member is zero for notification messages that do not use it. 
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvitema">TVITEM</a> structure that contains information about the old item state. This member is zero for notification messages that do not use it. 
 
 
 ### -field itemNew
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb773456(v=VS.85).aspx">TVITEM</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvitema">TVITEM</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773456(v=VS.85).aspx">TVITEM</a> structure that contains information about the new item state. This member is zero for notification messages that do not use it. 
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvitema">TVITEM</a> structure that contains information about the new item state. This member is zero for notification messages that do not use it. 
 
 
 ### -field ptDrag
 
-Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
 
 
-<a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure that contains the client coordinates of the mouse at the time the event occurred that caused the notification message to be sent. 
+<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure that contains the client coordinates of the mouse at the time the event occurred that caused the notification message to be sent. 
 
 
 ## -see-also
@@ -120,7 +120,7 @@ Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775583(v=VS.85).aspx">WM_NOTIFY</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/wm-notify">WM_NOTIFY</a>
  
 
  

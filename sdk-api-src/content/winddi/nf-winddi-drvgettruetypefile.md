@@ -92,7 +92,7 @@ This private entry point is provided by the TrueType driver to allow GDI efficie
 
 
 
-<a href="https://msdn.microsoft.com/d9bcf8f8-40bc-48dc-85b7-67773c8a4ded">DrvLoadFontFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>
  
 
  

@@ -53,7 +53,7 @@ The
 GetViews method retrieves information about the extended view and adds extended views to the result pane.
 
 View extensions use the 
-<a href="https://msdn.microsoft.com/1854ab01-e518-4ff4-a1d5-d1e03b348992">IViewExtensionCallback</a> interface methods to provide information about the extended view. A pointer to the 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iviewextensioncallback">IViewExtensionCallback</a> interface methods to provide information about the extended view. A pointer to the 
 IViewExtensionCallback interface is provided as a parameter of the <b>IExtendView::GetViews</b> method.
 
 
@@ -70,9 +70,9 @@ A pointer to the snap-in data object.
 ### -param pViewExtensionCallback [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/1854ab01-e518-4ff4-a1d5-d1e03b348992">IViewExtensionCallback</a> interface. The view extension snap-in uses the 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iviewextensioncallback">IViewExtensionCallback</a> interface. The view extension snap-in uses the 
 IViewExtensionCallback interface to add information about the extended view. The snap-in can also call the 
-<a href="https://msdn.microsoft.com/3e794787-d328-4cbf-822e-8846fed81a57">IViewExtensionCallback::AddView</a> method multiple times to add multiple extended views. The value in pViewExtensionCallback is valid only during the call to <b>IExtendView::GetViews</b>; view extension snap-ins must not save this pointer for later use.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iviewextensioncallback-addview">IViewExtensionCallback::AddView</a> method multiple times to add multiple extended views. The value in pViewExtensionCallback is valid only during the call to <b>IExtendView::GetViews</b>; view extension snap-ins must not save this pointer for later use.
 
 
 ## -returns
@@ -89,7 +89,7 @@ If successful, the return value is S_OK. Other return values indicate an error c
 
 
 For more information and a C++ code example for <b>IExtendView::GetViews</b>, see 
-<a href="https://msdn.microsoft.com/9c4c936e-f74a-4fbf-bd32-aa78ebb6da6e">Extending a Primary Snap-in's View</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/extending-a-primary-snap-ins-view">Extending a Primary Snap-in's View</a>.
 
 
 
@@ -99,19 +99,19 @@ For more information and a C++ code example for <b>IExtendView::GetViews</b>, se
 
 
 
-<a href="https://msdn.microsoft.com/3c626853-a9f1-4961-97d0-a12d0bf8b9ed">Extending Views</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/extending-views">Extending Views</a>
 
 
 
-<a href="https://msdn.microsoft.com/9c4c936e-f74a-4fbf-bd32-aa78ebb6da6e">Extending a Primary Snap-in's View</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/extending-a-primary-snap-ins-view">Extending a Primary Snap-in's View</a>
 
 
 
-<a href="https://msdn.microsoft.com/1854ab01-e518-4ff4-a1d5-d1e03b348992">IViewExtensionCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iviewextensioncallback">IViewExtensionCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e794787-d328-4cbf-822e-8846fed81a57">IViewExtensionCallback::AddView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iviewextensioncallback-addview">IViewExtensionCallback::AddView</a>
  
 
  

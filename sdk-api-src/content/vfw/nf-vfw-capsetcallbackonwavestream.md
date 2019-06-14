@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>capSetCallbackOnWaveStream</b> macro sets a callback function in the application. AVICap calls this procedure during streaming capture when a new audio buffer becomes available. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/f2554cbb-73de-4f76-b785-6c18c82c2992">WM_CAP_SET_CALLBACK_WAVESTREAM</a> message.
+The <b>capSetCallbackOnWaveStream</b> macro sets a callback function in the application. AVICap calls this procedure during streaming capture when a new audio buffer becomes available. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-callback-wavestream">WM_CAP_SET_CALLBACK_WAVESTREAM</a> message.
 
 
 
@@ -67,7 +67,7 @@ Handle to a capture window.
 
 ### -param fpProc
 
-Pointer to the wave stream callback function, of type <a href="https://msdn.microsoft.com/e7047d3d-9393-4611-a034-d36d6e92ee01">capWaveStreamCallback</a>. Specify <b>NULL</b> for this parameter to disable a previously installed wave stream callback function. 
+Pointer to the wave stream callback function, of type <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nc-vfw-capwavecallback">capWaveStreamCallback</a>. Specify <b>NULL</b> for this parameter to disable a previously installed wave stream callback function. 
 
 
 ## -remarks
@@ -86,11 +86,11 @@ If a wave stream callback function is used, it must be installed before starting
 
 
 
-<a href="https://msdn.microsoft.com/c93ecc51-e2c5-4b69-8625-c8385d53fab2">Video Capture</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://msdn.microsoft.com/21061f06-d58b-4800-a9f5-9821494fabd6">Video Capture Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
  
 
  

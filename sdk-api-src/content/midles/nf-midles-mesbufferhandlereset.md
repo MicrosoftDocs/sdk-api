@@ -81,8 +81,8 @@ For <b>MES_DECODE</b>, pointer to a pointer to the buffer containing the data to
 
 
 For <b>MES_ENCODE</b>, pointer to a pointer to the buffer for 
-<a href="https://msdn.microsoft.com/3432f468-89f2-48e2-8d86-15ba549f0fc7">fixed buffer style</a>, and pointer to a pointer to return the buffer address for 
-<a href="https://msdn.microsoft.com/d2c3805b-47bf-4bca-b904-9414e26dde68">dynamic buffer style of serialization</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/fixed-buffer-serialization">fixed buffer style</a>, and pointer to a pointer to return the buffer address for 
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/dynamic-buffer-serialization">dynamic buffer style of serialization</a>.
 
 For <b>MES_ENCODE_NDR64</b>, pointer to a pointer to the buffer for fixed buffer style, and pointer to a pointer to return the buffer address for dynamic buffer style of serialization, but explicitly uses NDR64 to encode the buffer. The user-provided buffer must be aligned to 16.
 
@@ -132,7 +132,7 @@ The argument was invalid.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -152,15 +152,15 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/4d8cb8e3-aa5a-4354-87e7-57543baa57e8">MesEncodeDynBufferHandleCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/midles/nf-midles-mesencodedynbufferhandlecreate">MesEncodeDynBufferHandleCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/7700e0f6-0f30-415c-9873-983ec6c249b2">MesEncodeFixedBufferHandleCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/midles/nf-midles-mesencodefixedbufferhandlecreate">MesEncodeFixedBufferHandleCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/d4a4ac59-56fb-4693-9007-f358105f82f0">MesHandleFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/midles/nf-midles-meshandlefree">MesHandleFree</a>
  
 
  

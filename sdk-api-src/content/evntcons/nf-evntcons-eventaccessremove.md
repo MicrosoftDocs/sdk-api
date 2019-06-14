@@ -82,7 +82,7 @@ Returns ERROR_SUCCESS if successful.
 
 After removing the permission from the registry, the default permissions apply to the provider or session. For 
     details on the default permissions, see 
-    <a href="https://msdn.microsoft.com/699bb165-680f-4d3b-8859-959f319ca4be">EventAccessControl</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/nf-evntcons-eventaccesscontrol">EventAccessControl</a>.
 
 
 
@@ -92,11 +92,11 @@ After removing the permission from the registry, the default permissions apply t
 
 
 
-<a href="https://msdn.microsoft.com/699bb165-680f-4d3b-8859-959f319ca4be">EventAccessControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/nf-evntcons-eventaccesscontrol">EventAccessControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/21c87137-0e8f-43d1-9dad-9f2b4fc591a3">EventAccessQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/nf-evntcons-eventaccessquery">EventAccessQuery</a>
  
 
  

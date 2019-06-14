@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/8E46CFB5-1F48-41E8-85AD-C03685D4EA5F">IAppxPackageReader2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackagereader2">IAppxPackageReader2</a>
  
 
  

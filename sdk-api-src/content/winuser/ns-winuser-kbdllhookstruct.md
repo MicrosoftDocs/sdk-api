@@ -61,7 +61,7 @@ Contains information about a low-level keyboard input event.
 
 Type: <b>DWORD</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd375731(v=VS.85).aspx">virtual-key code</a>. The code must be a value in the range 1 to 254. 
+A <a href="https://docs.microsoft.com/windows/desktop/inputdev/virtual-key-codes">virtual-key code</a>. The code must be a value in the range 1 to 254. 
 
 
 ### -field scanCode
@@ -183,7 +183,7 @@ The following table describes the layout of this value.
 
 Type: <b>DWORD</b>
 
-The time stamp for this message, equivalent to what <a href="https://msdn.microsoft.com/en-us/library/ms644939(v=VS.85).aspx">GetMessageTime</a> would return for this message.
+The time stamp for this message, equivalent to what <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessagetime">GetMessageTime</a> would return for this message.
 
 
 ### -field dwExtraInfo
@@ -202,11 +202,11 @@ Additional information associated with the message.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632589(v=VS.85).aspx">Hooks</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/hooks">Hooks</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644985(v=VS.85).aspx">LowLevelKeyboardProc</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644985(v=vs.85)">LowLevelKeyboardProc</a>
 
 
 
@@ -214,7 +214,7 @@ Additional information associated with the message.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644990(v=VS.85).aspx">SetWindowsHookEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>
  
 
  

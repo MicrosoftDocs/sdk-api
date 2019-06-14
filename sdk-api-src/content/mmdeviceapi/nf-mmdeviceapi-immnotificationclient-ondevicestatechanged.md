@@ -62,12 +62,12 @@ The <b>OnDeviceStateChanged</b> method indicates that the state of an audio endp
 
 ### -param pwstrDeviceId [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/3c955e2d-daaa-4b77-8ca5-890383bb2d39">endpoint ID string</a> that identifies the audio endpoint device. This parameter points to a null-terminated, wide-character string containing the endpoint ID. The string remains valid for the duration of the call.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/endpoint-id-strings">endpoint ID string</a> that identifies the audio endpoint device. This parameter points to a null-terminated, wide-character string containing the endpoint ID. The string remains valid for the duration of the call.
 
 
 ### -param dwNewState [in]
 
-Specifies the new state of the endpoint device. The value of this parameter is one of the following <a href="https://msdn.microsoft.com/d03f2fbc-313a-42cf-902a-fd9f6dce2a35">DEVICE_STATE_XXX</a> constants:
+Specifies the new state of the endpoint device. The value of this parameter is one of the following <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-state-xxx-constants">DEVICE_STATE_XXX</a> constants:
 
 DEVICE_STATE_ACTIVE
 
@@ -91,7 +91,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-For a code example that implements the <b>OnDeviceStateChanged</b> method, see <a href="https://msdn.microsoft.com/b31500d6-a79d-4e6e-878e-6bd77055f1ad">Device Events</a>.
+For a code example that implements the <b>OnDeviceStateChanged</b> method, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-events">Device Events</a>.
 
 
 
@@ -101,7 +101,7 @@ For a code example that implements the <b>OnDeviceStateChanged</b> method, see <
 
 
 
-<a href="https://msdn.microsoft.com/76d3cd52-30bd-48b0-8adc-c23991a60d1b">IMMNotificationClient Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immnotificationclient">IMMNotificationClient Interface</a>
  
 
  

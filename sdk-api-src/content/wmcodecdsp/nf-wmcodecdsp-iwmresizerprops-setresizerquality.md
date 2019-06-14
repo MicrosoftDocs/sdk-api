@@ -95,7 +95,7 @@ The method succeeded.
 
 
 
-This method is equivalent to setting the <a href="https://msdn.microsoft.com/a6760e7e-7c99-4412-bde5-05958fad89a1">MFPKEY_RESIZE_QUALITY</a> property. 
+This method is equivalent to setting the <a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-resize-quality">MFPKEY_RESIZE_QUALITY</a> property. 
 
 
 
@@ -105,7 +105,7 @@ This method is equivalent to setting the <a href="https://msdn.microsoft.com/a67
 
 
 
-<a href="https://msdn.microsoft.com/12c26507-c729-4143-a0bd-e043d42744f6">IWMResizerProps Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmresizerprops">IWMResizerProps Interface</a>
  
 
  

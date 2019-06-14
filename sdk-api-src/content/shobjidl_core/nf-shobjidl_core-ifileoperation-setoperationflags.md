@@ -151,7 +151,7 @@ Send a warning if a file or folder is being destroyed during a delete operation 
 
 #### FOFX_NOSKIPJUNCTIONS (0x00010000)
 
-Walk into Shell namespace junctions. By default, junctions are not entered. For more information on junctions, see <a href="https://msdn.microsoft.com/2c1fdd5d-b359-4d5c-a20e-0622f3a1cb1d">Specifying a Namespace Extension's Location</a>.
+Walk into Shell namespace junctions. By default, junctions are not entered. For more information on junctions, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc144096(v=vs.85)">Specifying a Namespace Extension's Location</a>.
 
 
 
@@ -253,7 +253,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Set these flags before you call <a href="https://msdn.microsoft.com/eceb5f0a-ad9a-4b7a-9656-c10e0420a96a">IFileOperation::PerformOperations</a> to define the parameters for whatever operations are being performed, such as copy, delete, or rename.
+Set these flags before you call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-performoperations">IFileOperation::PerformOperations</a> to define the parameters for whatever operations are being performed, such as copy, delete, or rename.
 
 
 

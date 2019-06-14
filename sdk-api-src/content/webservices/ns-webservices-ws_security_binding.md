@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The abstract base type for all security bindings.  One or more
 concrete subtypes of this are specified in the 
-<a href="https://msdn.microsoft.com/b9490f00-877c-4d9f-b361-eaca343cdee0">security description</a> that is
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_description">security description</a> that is
 supplied during channel and listener creation.  Each concrete subtype
 of this corresponds to a security protocol and a way of using it to
 provide authentication and/or protection to a channel.
@@ -72,7 +72,7 @@ using the optional settings.
 
 ### -field bindingType
 
-The<a href="https://msdn.microsoft.com/caa3d71c-420c-4be0-a371-0f2d48ebd757"> WS_SECURITY_BINDING_TYPE</a> of the security binding being described.  The type value
+The<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_binding_type"> WS_SECURITY_BINDING_TYPE</a> of the security binding being described.  The type value
 indicates how to obtain the security token corresponding to this
 security binding.
                 
@@ -81,8 +81,8 @@ security binding.
 ### -field properties
 
 The array of properties specifying the optional security binding
-settings.  Each <a href="https://msdn.microsoft.com/en-us/library/Dd323384(v=VS.85).aspx">WS_SECURITY_BINDING_PROPERTY</a> in the array is a key-value
-pair and must use a key defined in <a href="https://msdn.microsoft.com/6c8b3277-3f49-469b-9783-c552a4c44558">WS_SECURITY_BINDING_PROPERTY_ID</a>.  This field can be <b>NULL</b>, and if
+settings.  Each <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_binding_property">WS_SECURITY_BINDING_PROPERTY</a> in the array is a key-value
+pair and must use a key defined in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_binding_property_id">WS_SECURITY_BINDING_PROPERTY_ID</a>.  This field can be <b>NULL</b>, and if
 it is <b>NULL</b>, the default value will be used for each security token
 setting.
                 

@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Provides access to a control that contains selectable child items. The children of this element support <a href="https://msdn.microsoft.com/b76d5003-b9af-4a48-91d3-8075f45cf131">IUIAutomationSelectionItemPattern</a>.
+Provides access to a control that contains selectable child items. The children of this element support <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationselectionitempattern">IUIAutomationSelectionItemPattern</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationSelectionPattern</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUIAutomationSelectionPattern</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationSelectionPattern</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationSelectionPattern</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IUIAutomationSelectionPattern</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a0f2d198-78a9-4117-9a55-aa9042ef3f21">GetCachedSelection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationselectionpattern-getcachedselection">GetCachedSelection</a>
 </td>
 <td align="left" width="63%">
 Retrieves the cached selected elements in the container.
@@ -79,7 +79,7 @@ Retrieves the cached selected elements in the container.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/58540e08-4415-47d1-8957-1d1c8b6d7100">GetCurrentSelection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationselectionpattern-getcurrentselection">GetCurrentSelection</a>
 </td>
 <td align="left" width="63%">
 Retrieves the selected elements in the container.
@@ -97,7 +97,7 @@ Retrieves the selected elements in the container.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/e32051ef-5605-485c-94f9-d79f385cd6d6">CachedCanSelectMultiple</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationselectionpattern-get_cachedcanselectmultiple">CachedCanSelectMultiple</a>
 
 
 </td>
@@ -113,7 +113,7 @@ Retrieves a cached value that indicates whether more than one item in the contai
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/74846653-bf18-4289-9ad8-aedc20a56f29">CachedIsSelectionRequired</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationselectionpattern-get_cachedisselectionrequired">CachedIsSelectionRequired</a>
 
 
 </td>
@@ -129,7 +129,7 @@ Retrieves a cached value that indicates whether at least one item must be select
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/71a0f6aa-7605-47b3-98ce-3d413f1efa66">CurrentCanSelectMultiple</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationselectionpattern-get_currentcanselectmultiple">CurrentCanSelectMultiple</a>
 
 
 </td>
@@ -145,7 +145,7 @@ Indicates whether more than one item in the container can be selected at one tim
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/608c9b6d-bc53-4d6d-8747-897ac9a24571">CurrentIsSelectionRequired</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationselectionpattern-get_currentisselectionrequired">CurrentIsSelectionRequired</a>
 
 
 </td>
@@ -166,7 +166,7 @@ Indicates whether at least one item must be selected at all times.
 
 
 
-<a href="https://msdn.microsoft.com/14358ef0-aa54-42c1-a3da-0f835f5f5ef6">Control Pattern Interfaces for Clients</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>
  
 
  

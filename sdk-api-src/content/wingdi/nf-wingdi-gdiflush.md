@@ -83,15 +83,15 @@ Batching enhances drawing performance by minimizing the amount of time needed to
 
 <ul>
 <li>Calling the <b>GdiFlush</b> function.</li>
-<li>Reaching or exceeding the batch limit set by the <a href="https://msdn.microsoft.com/53bf0dfe-e93c-401d-ac5d-6717bad2625e">GdiSetBatchLimit</a> function.</li>
+<li>Reaching or exceeding the batch limit set by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gdisetbatchlimit">GdiSetBatchLimit</a> function.</li>
 <li>Filling the batching buffers.</li>
 <li>Calling any GDI function that does not return a Boolean value.</li>
 </ul>
 The return value for <b>GdiFlush</b> applies only to the functions in the batch at the time <b>GdiFlush</b> is called. Errors that occur when the batch is flushed by any other means are never reported.
 
-The <a href="https://msdn.microsoft.com/aafe7635-1a71-42a9-90b7-11179e245af4">GdiGetBatchLimit</a> function returns the batch limit.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gdigetbatchlimit">GdiGetBatchLimit</a> function returns the batch limit.
 
-<div class="alert"><b>Note</b>  The batch limit is maintained for each thread separately. In order to completely disable batching, call <a href="https://msdn.microsoft.com/53bf0dfe-e93c-401d-ac5d-6717bad2625e">GdiSetBatchLimit</a> (1) during the initialization of each thread.</div>
+<div class="alert"><b>Note</b>  The batch limit is maintained for each thread separately. In order to completely disable batching, call <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gdisetbatchlimit">GdiSetBatchLimit</a> (1) during the initialization of each thread.</div>
 <div> </div>
 An application should call <b>GdiFlush</b> before a thread goes away if there is a possibility that there are pending function calls in the graphics batch queue. The system does not execute such batched functions when a thread goes away.
 
@@ -105,21 +105,21 @@ A multithreaded application that serializes access to GDI objects with a mutex m
 
 
 
-<a href="https://msdn.microsoft.com/aafe7635-1a71-42a9-90b7-11179e245af4">GdiGetBatchLimit
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gdigetbatchlimit">GdiGetBatchLimit
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/53bf0dfe-e93c-401d-ac5d-6717bad2625e">GdiSetBatchLimit
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gdisetbatchlimit">GdiSetBatchLimit
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/ec18323e-c13b-4328-83bf-9e4ed4a712b8">Painting and Drawing Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e6034af-4dea-4579-b476-52f6dd3d5bc7">Painting and Drawing Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
  
 
  

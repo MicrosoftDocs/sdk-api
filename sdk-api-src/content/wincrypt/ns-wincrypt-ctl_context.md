@@ -49,14 +49,14 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CTL_CONTEXT</b> structure contains both the encoded and decoded representations of a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">CTL</a>. It also contains an opened <b>HCRYPTMSG</b> handle to the decoded, cryptographically signed message containing the 
-<a href="https://msdn.microsoft.com/83b015b5-a650-4a81-a9f0-c3e8a9805c81">CTL_INFO</a> as its <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">inner content</a>.
+The <b>CTL_CONTEXT</b> structure contains both the encoded and decoded representations of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CTL</a>. It also contains an opened <b>HCRYPTMSG</b> handle to the decoded, cryptographically signed message containing the 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_info">CTL_INFO</a> as its <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">inner content</a>.
 
 CryptoAPI 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">low-level message functions</a> can be used to extract additional signer information.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">low-level message functions</a> can be used to extract additional signer information.
 
 A <b>CTL_CONTEXT</b> returned by any CryptoAPI function must be freed by calling the 
-<a href="https://msdn.microsoft.com/84b1aa0c-44d9-4a2f-861c-fa7d8caac192">CertFreeCTLContext</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a> function.
 
 
 ## -struct-fields
@@ -66,7 +66,7 @@ A <b>CTL_CONTEXT</b> returned by any CryptoAPI function must be freed by calling
 
 ### -field dwMsgAndCertEncodingType
 
-Type of encoding used. It is always acceptable to specify both the certificate and <a href="https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
+Type of encoding used. It is always acceptable to specify both the certificate and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
 
 X509_ASN_ENCODING | PKCS_7_ASN_ENCODING
 
@@ -90,7 +90,7 @@ The size, in bytes, of the encoded CTL.
 ### -field pCtlInfo
 
 A pointer to 
-<a href="https://msdn.microsoft.com/83b015b5-a650-4a81-a9f0-c3e8a9805c81">CTL_INFO</a> structure contain the CTL information.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_info">CTL_INFO</a> structure contain the CTL information.
 
 
 ### -field hCertStore
@@ -100,12 +100,12 @@ A handle to the certificate store.
 
 ### -field hCryptMsg
 
-Open <b>HCRYPTMSG</b> handle to a decoded, cryptographic-signed message containing the <a href="https://msdn.microsoft.com/83b015b5-a650-4a81-a9f0-c3e8a9805c81">CTL_INFO</a> as its <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">inner content</a>.
+Open <b>HCRYPTMSG</b> handle to a decoded, cryptographic-signed message containing the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_info">CTL_INFO</a> as its <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">inner content</a>.
 
 
 ### -field pbCtlContent
 
-The encoded <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">inner content</a> of the signed message.
+The encoded <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">inner content</a> of the signed message.
 
 
 ### -field cbCtlContent
@@ -118,43 +118,43 @@ Count, in bytes, of <b>pbCtlContent</b>.
 
 
 
-<a href="https://msdn.microsoft.com/83b015b5-a650-4a81-a9f0-c3e8a9805c81">CTL_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_info">CTL_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8858f75-77a1-4c5f-a3e3-a645c5e0f053">CertAddCTLContextToStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddctlcontexttostore">CertAddCTLContextToStore</a>
 
 
 
-<a href="https://msdn.microsoft.com/4239d43e-187d-4f40-99ae-6f914b7577ac">CertAddEncodedCTLToStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddencodedctltostore">CertAddEncodedCTLToStore</a>
 
 
 
-<a href="https://msdn.microsoft.com/172c59ee-9e06-4169-aaa7-2624e3fcf015">CertCreateCTLContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcreatectlcontext">CertCreateCTLContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/dac9f91e-8ed4-43ce-8147-485c2ed7edd5">CertEnumCTLsInStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certenumctlsinstore">CertEnumCTLsInStore</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5ed3b22-e96f-4e7d-a20e-eebed0a84d3c">CertFindCTLInStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindctlinstore">CertFindCTLInStore</a>
 
 
 
-<a href="https://msdn.microsoft.com/e0c81531-e649-45bb-bafe-bced00c7b16a">CertFindSubjectInCTL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindsubjectinctl">CertFindSubjectInCTL</a>
 
 
 
-<a href="https://msdn.microsoft.com/84b1aa0c-44d9-4a2f-861c-fa7d8caac192">CertFreeCTLContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/380c9cf3-27a2-4354-b1c8-97cec33f4e44">CryptMsgGetAndVerifySigner</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsggetandverifysigner">CryptMsgGetAndVerifySigner</a>
 
 
 
-<a href="https://msdn.microsoft.com/85ae8ce3-d0a7-4fcb-beaa-ede09d30930e">CryptMsgSignCTL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgsignctl">CryptMsgSignCTL</a>
  
 
  

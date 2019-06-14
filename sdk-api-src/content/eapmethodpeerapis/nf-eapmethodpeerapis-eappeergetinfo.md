@@ -59,17 +59,17 @@ Obtains a set of function pointers for an implementation of the EAP peer method 
 
 ### -param pEapType [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/383f1e11-2e40-45e6-8c55-a23d1b8eb71f">EAP_TYPE</a> structure that contains the vendor data on the implementor of the APIs pointed to by the members of this structure.
+A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_type">EAP_TYPE</a> structure that contains the vendor data on the implementor of the APIs pointed to by the members of this structure.
 
 
 ### -param pEapInfo [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa363943(v=VS.85).aspx">EAP_PEER_METHOD_ROUTINES</a> structure that contains the function pointers to EAP method-specific implementations of the APIs that correspond to supplicant calls made to the peer-based EAPHost.
+A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/ns-eapmethodpeerapis-_eap_peer_method_routines">EAP_PEER_METHOD_ROUTINES</a> structure that contains the function pointers to EAP method-specific implementations of the APIs that correspond to supplicant calls made to the peer-based EAPHost.
 
 
 ### -param ppEapError [out]
 
- A pointer to a pointer to  an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that receives any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://msdn.microsoft.com/85b4197c-5caf-4e2b-94fd-e651712dd39d">EapPeerFreeErrorMemory</a>.
+ A pointer to a pointer to  an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structure that receives any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
 
 
 ## -remarks
@@ -80,43 +80,43 @@ Every EAP peer method DLL must implement the following APIs:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/7c040f9c-1a70-4882-bea1-7e641f5b1d3f">EapPeerInitialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerinitialize">EapPeerInitialize</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/770a548c-c227-4708-bc40-08bf2681c90f">EapPeerBeginSession</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerbeginsession">EapPeerBeginSession</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/24ae093f-5ddf-4b09-934f-d0e945335cde">EapPeerGetIdentity</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetidentity">EapPeerGetIdentity</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/d50a72bd-0b3f-4b68-be96-5debb3fd99f8">EapPeerSetCredentials</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeersetcredentials">EapPeerSetCredentials</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/7054b6e5-68df-4d76-9941-99ee00178926">EapPeerProcessRequestPacket</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerprocessrequestpacket">EapPeerProcessRequestPacket</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/4e1deaab-53fe-4c8f-9018-d7b148131231">EapPeerGetResponsePacket</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetresponsepacket">EapPeerGetResponsePacket</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/fc73cf5f-68c5-403b-8bf1-6befa2c4f5d8">EapPeerGetResult</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetresult">EapPeerGetResult</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14bbffde-da24-4632-bd73-2f96dc983117">EapPeerGetUIContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetuicontext">EapPeerGetUIContext</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/90a3844b-5fe9-44ad-981a-0aae643b2390">EapPeerSetUIContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeersetuicontext">EapPeerSetUIContext</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/68610a3b-7d9e-41fe-bf3b-7b188949b1c0">EapPeerGetResponseAttributes</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetresponseattributes">EapPeerGetResponseAttributes</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/340f5284-53cb-4e1d-9df5-2b9c75774c0d">EapPeerSetResponseAttributes</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeersetresponseattributes">EapPeerSetResponseAttributes</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/e4740a71-bf80-41ae-b9c1-91b9769854e7">EapPeerEndSession</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerendsession">EapPeerEndSession</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/7d08a349-fdfc-40bc-97f4-4429ff6ade7e">EapPeerShutdown</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeershutdown">EapPeerShutdown</a>
 </li>
 </ul>
 These APIs correspond to calls made by a supplicant, and serve as a proxy between the supplicant's API calls and the public APIs exposed on the EAP method DLL. Therefore, when a supplicant makes a call to a peer-based EAPHost to establish an authentication session or to perform an operation during that session, the EAPHost calls the corresponding implemented function on the EAP method DLL with the parameters provided. The EAP method functions are managed by pointers to their respective entry points.
@@ -133,7 +133,7 @@ This call is performed by a peer-based EAPHost using a function pointer to this 
 
 
 
-<a href="https://msdn.microsoft.com/fdfa595d-acf7-4489-88a8-113093567fe5">EAPHost Peer Method Run-Time Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eaphost-peer-method-run-time-functions">EAPHost Peer Method Run-Time Functions</a>
  
 
  

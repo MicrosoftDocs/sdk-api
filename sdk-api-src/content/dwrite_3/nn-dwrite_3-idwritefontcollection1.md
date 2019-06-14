@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontCollection1</b> interface inherits from <a href="https://msdn.microsoft.com/2ca7e2d3-d66a-4c57-8fbe-15a5232c3506">IDWriteFontCollection</a>. <b>IDWriteFontCollection1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontCollection1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontcollection">IDWriteFontCollection</a>. <b>IDWriteFontCollection1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IDWriteFontCollection1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/964732b9-bf0f-2ec8-d566-3fa06c9d57e4">GetFontSet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontcollection1-getfontset">GetFontSet</a>
 </td>
 <td align="left" width="63%">
 Gets the underlying font set used by this collection.
@@ -85,7 +85,7 @@ Gets the underlying font set used by this collection.
 
 
 
-<a href="https://msdn.microsoft.com/2ca7e2d3-d66a-4c57-8fbe-15a5232c3506">IDWriteFontCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontcollection">IDWriteFontCollection</a>
  
 
  

@@ -55,7 +55,7 @@ Represents the set of transforms implemented by the effect-rendering system, whi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1ConcreteTransform</b> interface inherits from <a href="https://msdn.microsoft.com/2ACF65DA-A812-4983-B044-71103A9AA450">ID2D1TransformNode</a>. <b>ID2D1ConcreteTransform</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1ConcreteTransform</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transformnode">ID2D1TransformNode</a>. <b>ID2D1ConcreteTransform</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID2D1ConcreteTransform</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A1600D5A-BEE9-4EBE-BC2E-53B6B80EE4EA">SetCached</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1concretetransform-setcached">SetCached</a>
 </td>
 <td align="left" width="63%">
 Sets whether the output of the specified transform is cached.
@@ -79,7 +79,7 @@ Sets whether the output of the specified transform is cached.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/DCA691ED-B9DF-4B1A-8662-0981BFB359CE">SetOutputBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1concretetransform-setoutputbuffer">SetOutputBuffer</a>
 </td>
 <td align="left" width="63%">
 Sets the properties of the output buffer of the specified transform node.
@@ -94,11 +94,11 @@ Sets the properties of the output buffer of the specified transform node.
 
 
 
-<a href="https://msdn.microsoft.com/6CA29200-9834-4A5B-99E8-434CD6E9B243">ID2D1TransformGraph</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transformgraph">ID2D1TransformGraph</a>
 
 
 
-<a href="https://msdn.microsoft.com/2ACF65DA-A812-4983-B044-71103A9AA450">ID2D1TransformNode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transformnode">ID2D1TransformNode</a>
  
 
  

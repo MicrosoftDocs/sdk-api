@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Frees memory that a function related to job objects allocated. Functions related to job objects that allocate memory include <a href="https://msdn.microsoft.com/B61DA8FC-1CF7-4D97-86F5-E3C2131D41EC">QueryIoRateControlInformationJobObject</a>.  
+Frees memory that a function related to job objects allocated. Functions related to job objects that allocate memory include <a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-queryioratecontrolinformationjobobject">QueryIoRateControlInformationJobObject</a>.  
 
 
 ## -parameters
@@ -78,7 +78,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/B61DA8FC-1CF7-4D97-86F5-E3C2131D41EC">QueryIoRateControlInformationJobObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-queryioratecontrolinformationjobobject">QueryIoRateControlInformationJobObject</a>
  
 
  

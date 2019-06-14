@@ -76,7 +76,7 @@ If the method succeeds, it returns <b>S_OK</b>.
 
 
 
-<a href="https://msdn.microsoft.com/a1bb3fe4-6051-4b9c-8270-70375e700f01">IAudioEndpoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioendpoint">IAudioEndpoint</a>
  
 
  

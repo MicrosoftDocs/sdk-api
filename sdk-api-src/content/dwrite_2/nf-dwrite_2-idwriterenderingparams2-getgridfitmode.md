@@ -63,9 +63,9 @@ Gets the grid fitting mode.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/C32A6017-3711-482B-B806-79651163DEF6">DWRITE_GRID_FIT_MODE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/ne-dwrite_2-dwrite_grid_fit_mode">DWRITE_GRID_FIT_MODE</a></b>
 
-Returns a <a href="https://msdn.microsoft.com/C32A6017-3711-482B-B806-79651163DEF6">DWRITE_GRID_FIT_MODE</a>-typed value for the grid fitting mode.
+Returns a <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/ne-dwrite_2-dwrite_grid_fit_mode">DWRITE_GRID_FIT_MODE</a>-typed value for the grid fitting mode.
 
 
 
@@ -75,7 +75,7 @@ Returns a <a href="https://msdn.microsoft.com/C32A6017-3711-482B-B806-79651163DE
 
 
 
-<a href="https://msdn.microsoft.com/0ABE2EBD-E568-4485-9B38-BA0E1E8FDA6F">IDWriteRenderingParams2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nn-dwrite_2-idwriterenderingparams2">IDWriteRenderingParams2</a>
  
 
  

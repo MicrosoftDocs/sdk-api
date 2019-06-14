@@ -49,10 +49,10 @@ ms.custom: 19H1
 ## -description
 
 
-Defines a handler for an event that is derived from the <a href="https://msdn.microsoft.com/3c375480-c6df-4bb0-b417-5765b0bed9bf">IESEvent</a> interface.
-    In a Protected Broadcast Driver Architecture graph, Media Sink Devices that implement the <a href="https://msdn.microsoft.com/1921f632-bb3b-4833-aa25-9caa3d65363f">IESEvents</a> interface use this method to obtain data from Event System events that these devices receive. In this context, <i>Event System events</i> refer to event objects that that implement the <b>IESEvent</b> interface.
+Defines a handler for an event that is derived from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevent">IESEvent</a> interface.
+    In a Protected Broadcast Driver Architecture graph, Media Sink Devices that implement the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevents">IESEvents</a> interface use this method to obtain data from Event System events that these devices receive. In this context, <i>Event System events</i> refer to event objects that that implement the <b>IESEvent</b> interface.
 
-If an event originates from a PBDA device, the event object automatically calls the <a href="https://msdn.microsoft.com/en-us/library/Dd693346(v=VS.85).aspx">IBDA_EventingService::CompleteEvent</a> method with the result set in the <a href="https://msdn.microsoft.com/2e8d5a94-6fa1-453b-bbd4-396d60bb2aa0">SetCompletionStatus</a> call at the time it is released.  If the client is a managed application, it should dispose of the event object immediately after it is finished with the event. This disposition ensures that the <b>IBDA_EventingService::CompleteEvent</b> method is called in a timely manner
+If an event originates from a PBDA device, the event object automatically calls the <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_eventingservice-completeevent">IBDA_EventingService::CompleteEvent</a> method with the result set in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iesevent-setcompletionstatus">SetCompletionStatus</a> call at the time it is released.  If the client is a managed application, it should dispose of the event object immediately after it is finished with the event. This disposition ensures that the <b>IBDA_EventingService::CompleteEvent</b> method is called in a timely manner
 
 This method is called from an event service thread that is initialized with multithreaded COM concurrency.  The receiving object must use the multithreaded threading model or the single-threaded model with proper marshaling.
 
@@ -70,7 +70,7 @@ GUID for the type of event being handled.
 
 ### -param pESEvent [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/3c375480-c6df-4bb0-b417-5765b0bed9bf">IESEvent</a> object that contains data from the event being handled.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevent">IESEvent</a> object that contains data from the event being handled.
           
 
 
@@ -88,11 +88,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/3c375480-c6df-4bb0-b417-5765b0bed9bf">IESEvent</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevent">IESEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/1921f632-bb3b-4833-aa25-9caa3d65363f">IESEvents</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevents">IESEvents</a>
  
 
  

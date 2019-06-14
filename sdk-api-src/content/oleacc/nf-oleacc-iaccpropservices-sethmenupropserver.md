@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-This method wraps <a href="https://msdn.microsoft.com/15e43a38-4cb3-43ca-a0fc-28faf49057dc">SetPropServer</a>, providing a convenient entry point for callers who are annotating <b>HMENU</b>-based accessible elements.
+This method wraps <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-setpropserver">SetPropServer</a>, providing a convenient entry point for callers who are annotating <b>HMENU</b>-based accessible elements.
 
 
 ## -parameters
@@ -59,14 +59,14 @@ This method wraps <a href="https://msdn.microsoft.com/15e43a38-4cb3-43ca-a0fc-28
 
 ### -param hmenu [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HMENU</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HMENU</a></b>
 
 Identifies the <b>HMENU</b>-accessible element to be annotated.
 
 
 ### -param idChild [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Identifies the accessible element that is to be annotated. This replaces the identity string.
 
@@ -103,7 +103,7 @@ May be ANNO_THIS, indicating that the annotation affects the indicated accessibl
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If successful, returns S_OK.
 
@@ -128,23 +128,23 @@ By using this method, the caller does not have to obtain an identity string; it 
 
 
 
-<a href="https://msdn.microsoft.com/dbff74b0-c67b-4ef4-add7-6063c4760455">ClearHmenuProps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-clearhmenuprops">ClearHmenuProps</a>
 
 
 
-<a href="https://msdn.microsoft.com/0474dacf-7aa1-4d12-bac2-1091676a1ced">IAccPropServices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccpropservices">IAccPropServices</a>
 
 
 
-<a href="https://msdn.microsoft.com/ac835bb6-609f-4a37-8cfc-dd529d641c00">SetHmenuProp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-sethmenuprop">SetHmenuProp</a>
 
 
 
-<a href="https://msdn.microsoft.com/891af40a-819b-4fce-a1bb-28db145b87f1">SetHmenuPropStr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-sethmenupropstr">SetHmenuPropStr</a>
 
 
 
-<a href="https://msdn.microsoft.com/15e43a38-4cb3-43ca-a0fc-28faf49057dc">SetPropServer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-setpropserver">SetPropServer</a>
  
 
  

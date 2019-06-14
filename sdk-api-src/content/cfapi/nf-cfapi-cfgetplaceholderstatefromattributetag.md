@@ -71,7 +71,7 @@ The reparse tag information from a file.
 
 
 
-Can include <a href="https://msdn.microsoft.com/5E814458-2045-4CFD-90AC-F1F53DEB4FD0">CF_PLACEHOLDER_STATE</a>; The placeholder state.
+Can include <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/ne-cfapi-cf_placeholder_state">CF_PLACEHOLDER_STATE</a>; The placeholder state.
 
 
 

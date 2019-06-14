@@ -73,9 +73,9 @@ The size, in characters, of the buffer at <i>lpwszSearchURL</i>.
 
 ### -param pSearchContext [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/95ac188a-f27f-4e09-9de3-a822bbbd6e8e">ISearchContext</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-isearchcontext">ISearchContext</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/95ac188a-f27f-4e09-9de3-a822bbbd6e8e">ISearchContext</a> object. This parameter can be <b>NULL</b>.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-isearchcontext">ISearchContext</a> object. This parameter can be <b>NULL</b>.
 
 
 ## -returns

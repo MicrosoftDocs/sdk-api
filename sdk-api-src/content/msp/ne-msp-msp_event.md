@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>MSP_EVENT</b> enumerator defines the type of event information contained in 
-<a href="https://msdn.microsoft.com/5286fbe6-3553-42f1-82e6-5bb6f75f3305">MSP_EVENT_INFO</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/msp/ns-msp-__midl___midl_itf_msp_0000_0000_0005">MSP_EVENT_INFO</a>.
 
 
 ## -enum-fields
@@ -61,25 +61,25 @@ The <b>MSP_EVENT</b> enumerator defines the type of event information contained 
 ### -field ME_ADDRESS_EVENT
 
 The event buffer is an 
-<a href="https://msdn.microsoft.com/c4c882cd-8c7e-4860-aa29-32a561f4d135">MSP_ADDRESS_EVENT_INFO</a> structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms733454(v=vs.85)">MSP_ADDRESS_EVENT_INFO</a> structure.
 
 
 ### -field ME_CALL_EVENT
 
 The event buffer is an 
-<a href="https://msdn.microsoft.com/9c1d238a-0625-4aaf-a372-18693a2d4b4a">MSP_CALL_EVENT_INFO</a> structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms733464(v=vs.85)">MSP_CALL_EVENT_INFO</a> structure.
 
 
 ### -field ME_TSP_DATA
 
 The event buffer is an 
-<a href="https://msdn.microsoft.com/9c405c1d-1729-4c3b-9656-977b9f78b9d7">MSP_TSP_DATA</a> structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms733475(v=vs.85)">MSP_TSP_DATA</a> structure.
 
 
 ### -field ME_PRIVATE_EVENT
 
 The event buffer is an 
-<a href="https://msdn.microsoft.com/4f572432-398e-48f6-97cc-25f985ca869a">MSP_PRIVATE_EVENT_INFO</a> structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms733472(v=vs.85)">MSP_PRIVATE_EVENT_INFO</a> structure.
 
 
 ### -field ME_ASR_TERMINAL_EVENT
@@ -101,15 +101,15 @@ The event buffer is an
 
 
 
-<a href="https://msdn.microsoft.com/df5263f2-9d76-472d-b7fc-724d36f0b58f">ITMSPAddress::GetEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-getevent">ITMSPAddress::GetEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/5286fbe6-3553-42f1-82e6-5bb6f75f3305">MSP_EVENT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msp/ns-msp-__midl___midl_itf_msp_0000_0000_0005">MSP_EVENT_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/53b7bcbd-571a-44da-a6db-10d4c3e5d30a">Media Service Provider Interface (MSPI)</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
  
 
  

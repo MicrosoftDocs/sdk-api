@@ -54,7 +54,7 @@ Exposes methods that channel customization information to the search hooks.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchContext</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISearchContext</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchContext</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISearchContext</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISearchContext</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d2ea6201-fd70-46de-8270-c0cc34c728aa">GetSearchStyle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-isearchcontext-getsearchstyle">GetSearchStyle</a>
 </td>
 <td align="left" width="63%">
 Overrides the registry settings that determine how an autosearch is performed.
@@ -78,7 +78,7 @@ Overrides the registry settings that determine how an autosearch is performed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d38946be-8fd3-46e2-953e-8e94bcad4b81">GetSearchText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-isearchcontext-getsearchtext">GetSearchText</a>
 </td>
 <td align="left" width="63%">
 Retrieves the text that is in the browser's Address bar.
@@ -87,7 +87,7 @@ Retrieves the text that is in the browser's Address bar.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b2c9034f-65a2-414c-b440-330413ae63ce">GetSearchURL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-isearchcontext-getsearchurl">GetSearchURL</a>
 </td>
 <td align="left" width="63%">
 Retrieves the URL that is being searched for.

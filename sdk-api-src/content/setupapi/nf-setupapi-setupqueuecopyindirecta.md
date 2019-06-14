@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 The 
 <b>SetupQueueCopyIndirect</b> function is an extended form of 
-<a href="https://msdn.microsoft.com/c8683438-7a28-4713-8781-45f9bd75b72c">SetupQueueCopy</a> passing additional parameters as a structure (<a href="https://msdn.microsoft.com/4c4d418d-e279-40ea-9ec1-42ced523db34">SP_FILE_COPY_PARAMS</a>). Other than this, the behavior is identical.
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupqueuecopya">SetupQueueCopy</a> passing additional parameters as a structure (<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_file_copy_params_a">SP_FILE_COPY_PARAMS</a>). Other than this, the behavior is identical.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ The
 ### -param CopyParams [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/4c4d418d-e279-40ea-9ec1-42ced523db34">SP_FILE_COPY_PARAMS</a> structure that describes the file copy operation.
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_file_copy_params_a">SP_FILE_COPY_PARAMS</a> structure that describes the file copy operation.
 
 
 ## -returns
@@ -76,7 +76,7 @@ Pointer to a
 If the function succeeds, the return value is an nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 

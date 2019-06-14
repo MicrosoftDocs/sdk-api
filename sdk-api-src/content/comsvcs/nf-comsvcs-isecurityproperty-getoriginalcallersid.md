@@ -53,7 +53,7 @@ Retrieves the security identifier of the base process that initiated the call se
     current method was called.
 
 The preferred way to obtain information about the original caller is to use the 
-    <a href="https://msdn.microsoft.com/cd96ef31-784f-40fa-beb5-92a88823326b">ISecurityCallContext</a> interface.
+    <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isecuritycallcontext">ISecurityCallContext</a> interface.
 
 
 ## -parameters
@@ -141,9 +141,9 @@ You use the
      example).</div>
 <div> </div>
 The path to the original caller is broken if any object along the chain was created by some means other than 
-     <a href="https://msdn.microsoft.com/2e870191-5a34-490e-9f3a-cb646fe3f470">IObjectContext::CreateInstance</a> or 
-     <a href="https://msdn.microsoft.com/3dc08700-0872-4d60-a968-cffed974c7b2">ITransactionContext::CreateInstance</a>. 
-     For example, if Base Process 1 uses <a href="https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a> 
+     <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontext-createinstance">IObjectContext::CreateInstance</a> or 
+     <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-itransactioncontext-createinstance">ITransactionContext::CreateInstance</a>. 
+     For example, if Base Process 1 uses <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> 
      to create Object X, when Object Y calls 
      <b>GetOriginalCallerSID</b> the security 
      ID it gets back is the security ID of user B, not user D. This is because the call sequence is traced back 
@@ -151,7 +151,7 @@ The path to the original caller is broken if any object along the chain was crea
      <b>IObjectContext::CreateInstance</b> or 
      <b>ITransactionContext::CreateInstance</b>.
 
-You must call <a href="https://msdn.microsoft.com/572bf3fd-eb85-40de-b607-26b77b9d9cf8">ReleaseSID</a> on a security 
+You must call <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isecurityproperty-releasesid">ReleaseSID</a> on a security 
     ID when you finish using it.
 
 
@@ -162,7 +162,7 @@ You must call <a href="https://msdn.microsoft.com/572bf3fd-eb85-40de-b607-26b77b
 
 
 
-<a href="https://msdn.microsoft.com/116715a5-a3e1-48aa-b155-107ea330b7ee">ISecurityProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isecurityproperty">ISecurityProperty</a>
  
 
  

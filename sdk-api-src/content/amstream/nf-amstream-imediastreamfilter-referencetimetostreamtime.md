@@ -120,7 +120,7 @@ Stream time equals the current reference time minus the reference time when the 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd407042(v=VS.85).aspx">IMediaStreamFilter Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-imediastreamfilter">IMediaStreamFilter Interface</a>
  
 
  

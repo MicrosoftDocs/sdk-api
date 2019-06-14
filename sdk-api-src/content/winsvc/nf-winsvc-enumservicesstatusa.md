@@ -54,7 +54,7 @@ ms.custom: 19H1
 Enumerates services in the specified service control manager database. The name and status of each service are provided.
 
 This function has been superseded by the 
-<a href="https://msdn.microsoft.com/7d7940c3-b562-455f-9a21-6d5fb5953030">EnumServicesStatusEx</a> function. It returns the same information 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-enumservicesstatusexa">EnumServicesStatusEx</a> function. It returns the same information 
 <b>EnumServicesStatus</b> returns, plus the process identifier and additional information for the service. In addition, 
 <b>EnumServicesStatusEx</b> enables you to enumerate services that belong to a specified group.
 
@@ -67,8 +67,8 @@ This function has been superseded by the
 ### -param hSCManager [in]
 
 A handle to the service control manager database. This handle is returned by the 
-<a href="https://msdn.microsoft.com/a0237989-e5a7-4a3a-ab23-e2474a995341">OpenSCManager</a> function, and must have the SC_MANAGER_ENUMERATE_SERVICE access right. For more information, see 
-<a href="https://msdn.microsoft.com/23d1c382-6ba4-49e2-8039-c2a91471076c">Service Security and Access Rights</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openscmanagera">OpenSCManager</a> function, and must have the SC_MANAGER_ENUMERATE_SERVICE access right. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>.
 
 
 ### -param dwServiceType [in]
@@ -142,7 +142,7 @@ Services that run in their own processes.
 </dl>
 </td>
 <td width="60%">
-Services that share a process with one or more other services. For more information, see <a href="https://msdn.microsoft.com/697db543-6149-46ac-add3-c8c6ca3aadbe">Service Programs</a>.
+Services that share a process with one or more other services. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Services/service-programs">Service Programs</a>.
 
 </td>
 </tr>
@@ -199,9 +199,9 @@ Combines the following states: SERVICE_ACTIVE and SERVICE_INACTIVE.
 ### -param lpServices [out, optional]
 
 A pointer to a buffer that contains an array of 
-<a href="https://msdn.microsoft.com/b088bd94-5d25-44a7-93c0-80ce6588b811">ENUM_SERVICE_STATUS</a> structures that receive the name and service status information for each service in the database. The buffer must be large enough to hold the structures, plus the strings to which their members point.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_enum_service_statusa">ENUM_SERVICE_STATUS</a> structures that receive the name and service status information for each service in the database. The buffer must be large enough to hold the structures, plus the strings to which their members point.
 
-The maximum size of this array is 256K bytes. To determine the required size, specify NULL for this parameter and 0 for the <i>cbBufSize</i> parameter. The function will fail and <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> will return ERROR_INSUFFICIENT_BUFFER. The <i>pcbBytesNeeded</i> parameter will receive the required size.
+The maximum size of this array is 256K bytes. To determine the required size, specify NULL for this parameter and 0 for the <i>cbBufSize</i> parameter. The function will fail and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return ERROR_INSUFFICIENT_BUFFER. The <i>pcbBytesNeeded</i> parameter will receive the required size.
 
 <b>Windows Server 2003 and Windows XP:  </b>The maximum size of this array is 64K bytes. This limit was increased as of Windows Server 2003 with SP1 and Windows XP with SP2.
 
@@ -224,7 +224,7 @@ A pointer to a variable that receives the number of service entries returned.
 ### -param lpResumeHandle [in, out, optional]
 
 A pointer to a variable that, on input, specifies the starting point of enumeration. You must set this value to zero the first time this function is called. On output, this value is zero if the function succeeds. However, if the function returns zero and the 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function returns ERROR_MORE_DATA, this value is used to indicate the next service entry to be read when the function is called to retrieve the additional data.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns ERROR_MORE_DATA, this value is used to indicate the next service entry to be read when the function is called to retrieve the additional data.
 
 
 ## -returns
@@ -235,7 +235,7 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following error codes can be set by the service control manager. Other error codes can be set by the registry functions that are called by the service control manager.
 
@@ -285,7 +285,7 @@ A parameter that was specified is invalid.
 </td>
 <td width="60%">
 There are more service entries than would fit into the <i>lpServices</i> buffer. The actual number of service entries written to <i>lpServices</i> is returned in the <i>lpServicesReturned</i> parameter. The number of bytes required to get the remaining entries is returned in the <i>pcbBytesNeeded</i> parameter. The remaining services can be enumerated by additional calls to 
-<a href="https://msdn.microsoft.com/3a82ac0e-f3e8-4a5a-9b13-84e952712229">EnumServicesStatus</a> with the <i>lpResumeHandle</i> parameter indicating the next service to read.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-enumservicesstatusa">EnumServicesStatus</a> with the <i>lpResumeHandle</i> parameter indicating the next service to read.
 
 </td>
 </tr>
@@ -300,27 +300,27 @@ There are more service entries than would fit into the <i>lpServices</i> buffer.
 
 
 
-<a href="https://msdn.microsoft.com/b088bd94-5d25-44a7-93c0-80ce6588b811">ENUM_SERVICE_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_enum_service_statusa">ENUM_SERVICE_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/905d4453-96d4-4055-8a17-36714c547cdd">EnumDependentServices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-enumdependentservicesa">EnumDependentServices</a>
 
 
 
-<a href="https://msdn.microsoft.com/7d7940c3-b562-455f-9a21-6d5fb5953030">EnumServicesStatusEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-enumservicesstatusexa">EnumServicesStatusEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0237989-e5a7-4a3a-ab23-e2474a995341">OpenSCManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openscmanagera">OpenSCManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/63666848-cbac-4853-8b91-89303f9854c0">Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Services/service-functions">Service Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/554b9983-4e49-4b11-b420-a4754123d854">Service Installation, Removal, and Enumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/Services/service-installation-removal-and-enumeration">Service Installation, Removal, and Enumeration</a>
  
 
  

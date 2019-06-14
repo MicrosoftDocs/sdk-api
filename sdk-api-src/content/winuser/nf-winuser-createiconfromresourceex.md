@@ -61,7 +61,7 @@ Creates an icon or cursor from resource bits describing the icon.
 
 Type: <b>PBYTE</b>
 
-The icon or cursor resource bits. These bits are typically loaded by calls to the <a href="https://msdn.microsoft.com/en-us/library/ms648074(v=VS.85).aspx">LookupIconIdFromDirectoryEx</a> and <a href="https://msdn.microsoft.com/en-us/library/ms648046(v=VS.85).aspx">LoadResource</a> functions. 
+The icon or cursor resource bits. These bits are typically loaded by calls to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex">LookupIconIdFromDirectoryEx</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a> functions. 
 
 
 ### -param dwResSize [in]
@@ -172,7 +172,7 @@ Type: <b>HICON</b>
 
 If the function succeeds, the return value is a handle to the icon or cursor.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -181,14 +181,14 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms648060(v=VS.85).aspx">CreateIconFromResource</a>, <b>CreateIconFromResourceEx</b>, <a href="https://msdn.microsoft.com/en-us/library/ms648062(v=VS.85).aspx">CreateIconIndirect</a>, <a href="https://msdn.microsoft.com/en-us/library/ms648070(v=VS.85).aspx">GetIconInfo</a>, and <a href="https://msdn.microsoft.com/en-us/library/ms648074(v=VS.85).aspx">LookupIconIdFromDirectoryEx</a> functions allow shell applications and icon browsers to examine and use resources throughout the system. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createiconfromresource">CreateIconFromResource</a>, <b>CreateIconFromResourceEx</b>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createiconindirect">CreateIconIndirect</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-geticoninfo">GetIconInfo</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex">LookupIconIdFromDirectoryEx</a> functions allow shell applications and icon browsers to examine and use resources throughout the system. 
 
-You should call <a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a> for icons created with <b>CreateIconFromResourceEx</b>.
+You should call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> for icons created with <b>CreateIconFromResourceEx</b>.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648051(v=VS.85).aspx">Sharing Icon Resources</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-icons">Sharing Icon Resources</a>.
 
 <div class="code"></div>
 
@@ -199,7 +199,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648051(v
 
 
 
-<a href="https://msdn.microsoft.com/02f8ed65-8fed-4dda-9b94-7343a0cfa8c1">BITMAPINFOHEADER</a>
+<a href="https://docs.microsoft.com/previous-versions//dd183376(v=vs.85)">BITMAPINFOHEADER</a>
 
 
 
@@ -207,31 +207,31 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648051(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648060(v=VS.85).aspx">CreateIconFromResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createiconfromresource">CreateIconFromResource</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648062(v=VS.85).aspx">CreateIconIndirect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createiconindirect">CreateIconIndirect</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648070(v=VS.85).aspx">GetIconInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-geticoninfo">GetIconInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646973(v=VS.85).aspx">Icons</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/icons">Icons</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648046(v=VS.85).aspx">LoadResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648074(v=VS.85).aspx">LookupIconIdFromDirectoryEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex">LookupIconIdFromDirectoryEx</a>
 
 
 

@@ -55,7 +55,7 @@ Encapsulates information about an output protection system and its corresponding
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFOutputSchema</b> interface inherits from <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a>. <b>IMFOutputSchema</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFOutputSchema</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>. <b>IMFOutputSchema</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMFOutputSchema</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/26730d2d-8ebc-441b-a262-db0c8fe7e75a">GetConfigurationData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfoutputschema-getconfigurationdata">GetConfigurationData</a>
 </td>
 <td align="left" width="63%">
 Returns configuration data for the output protection system.
@@ -79,7 +79,7 @@ Returns configuration data for the output protection system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a8e7ccbe-8fcf-418e-b3e8-263f6296ff36">GetOriginatorID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfoutputschema-getoriginatorid">GetOriginatorID</a>
 </td>
 <td align="left" width="63%">
 Retrieives a GUID identifying the input trust authority (ITA) that generated this output schema object.
@@ -88,7 +88,7 @@ Retrieives a GUID identifying the input trust authority (ITA) that generated thi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6015e636-f1ea-4f4a-85d5-e8e896a0ec3c">GetSchemaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfoutputschema-getschematype">GetSchemaType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the output protection system that is represented by this object.
@@ -102,7 +102,7 @@ Retrieves the output protection system that is represented by this object.
 
 
 
-If the configuration information for the output protection system does not require more than a <b>DWORD</b> of space, the configuration information is retrieved in the <a href="https://msdn.microsoft.com/26730d2d-8ebc-441b-a262-db0c8fe7e75a">GetConfigurationData</a> method. If more than a <b>DWORD</b> of configuration information is needed, it is stored using the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> interface.
+If the configuration information for the output protection system does not require more than a <b>DWORD</b> of space, the configuration information is retrieved in the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfoutputschema-getconfigurationdata">GetConfigurationData</a> method. If more than a <b>DWORD</b> of configuration information is needed, it is stored using the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface.
 
 
 
@@ -112,11 +112,11 @@ If the configuration information for the output protection system does not requi
 
 
 
-<a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

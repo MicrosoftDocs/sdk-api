@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves and binds to a specified object by using the Shell namespace <a href="https://msdn.microsoft.com/5e699494-1974-4b9b-8324-9394f7b96fe4">IShellFolder::BindToObject</a> method.
+Retrieves and binds to a specified object by using the Shell namespace <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-bindtoobject">IShellFolder::BindToObject</a> method.
 
 
 ## -parameters
@@ -63,24 +63,24 @@ Retrieves and binds to a specified object by using the Shell namespace <a href="
 
 ### -param psf
 
-Type: <b><a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>*</b>
 
-A pointer to <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a>. This parameter can be <b>NULL</b>.   If <i>psf</i> is <b>NULL</b>,  this indicates 
-parameter <i>pidl</i> is relative to the desktop. In this case, <i>pidl</i> must specify an absolute <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a>.
+A pointer to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>. This parameter can be <b>NULL</b>.   If <i>psf</i> is <b>NULL</b>,  this indicates 
+parameter <i>pidl</i> is relative to the desktop. In this case, <i>pidl</i> must specify an absolute <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a>.
 
 
 ### -param pidl
 
 Type: <b>PCUIDLIST_RELATIVE</b>
 
-A pointer to a constant <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> to bind to that is relative to <i>psf</i>. If <i>psf</i> is <b>NULL</b>, this is an absolute <b>ITEMIDLIST</b> relative to the desktop folder.
+A pointer to a constant <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> to bind to that is relative to <i>psf</i>. If <i>psf</i> is <b>NULL</b>, this is an absolute <b>ITEMIDLIST</b> relative to the desktop folder.
 
 
 ### -param pbc [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>*</b>
 
-A pointer to <a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a> interface on a bind context object to be used during this operation. If this parameter is not used, set it to <b>NULL</b>. Because support for <i>pbc</i> is optional for folder object implementations, some folders may not support the use of bind contexts.
+A pointer to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> interface on a bind context object to be used during this operation. If this parameter is not used, set it to <b>NULL</b>. Because support for <i>pbc</i> is optional for folder object implementations, some folders may not support the use of bind contexts.
 
 
 ### -param riid
@@ -112,7 +112,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<div class="alert"><b>Note</b>  This is a helper function that gets the desktop object by calling <a href="https://msdn.microsoft.com/121cbd41-d512-4f33-b89c-d0dd9933df87">SHGetDesktopFolder</a>.</div>
+<div class="alert"><b>Note</b>  This is a helper function that gets the desktop object by calling <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetdesktopfolder">SHGetDesktopFolder</a>.</div>
 <div> </div>
 
 
@@ -122,11 +122,11 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>
 
 
 
-<a href="https://msdn.microsoft.com/5e699494-1974-4b9b-8324-9394f7b96fe4">IShellFolder::BindToObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-bindtoobject">IShellFolder::BindToObject</a>
  
 
  

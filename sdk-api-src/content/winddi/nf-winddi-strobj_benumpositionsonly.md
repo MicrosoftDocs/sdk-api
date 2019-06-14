@@ -59,7 +59,7 @@ The <b>STROBJ_bEnumPositionsOnly</b> function enumerates glyph identities and po
 
 ### -param pstro
 
-A caller-supplied pointer to a <a href="https://msdn.microsoft.com/efe53cb8-39b9-4931-bac2-9c61efd9d457">STROBJ</a> structure describing a text string. This is typically the STROBJ structure received by the driver's <a href="https://msdn.microsoft.com/f2f61687-d833-4d09-8cd5-99e81436c1c1">DrvTextOut</a> function.
+A caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_strobj">STROBJ</a> structure describing a text string. This is typically the STROBJ structure received by the driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a> function.
 
 
 ### -param pc
@@ -69,7 +69,7 @@ A caller-supplied address to receive the GDI-supplied number of GLYPHPOS structu
 
 ### -param ppgpos
 
-A caller-supplied address that receives a GDI-supplied pointer to an array of <a href="https://msdn.microsoft.com/1eb80e7a-93f5-474c-bed9-5b19f6657788">GLYPHPOS</a> structures. (See the following <b>Remarks</b> section.)
+A caller-supplied address that receives a GDI-supplied pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_glyphpos">GLYPHPOS</a> structures. (See the following <b>Remarks</b> section.)
 
 
 ## -returns
@@ -85,13 +85,13 @@ The return value is <b>TRUE</b> if more glyphs remain to be enumerated, or <b>FA
 
 
 
-The <b>STROBJ_bEnumPositionsOnly</b> function is typically called from within a driver's <a href="https://msdn.microsoft.com/f2f61687-d833-4d09-8cd5-99e81436c1c1">DrvTextOut</a> function. It performs the same operations as <a href="https://msdn.microsoft.com/82cb12ff-2baa-4291-849c-dab9d01fa39b">STROBJ_bEnum</a> with one important exception − GDI does not create cached bitmaps of the glyphs. The <b>STROBJ_bEnum</b> function assumes the driver will eventually need these bitmaps. However, many newer printers contain internal rasterizers and therefore do not need GDI to render glyphs. For such printers, eliminating the automatic rendering and caching of glyph bitmaps in server memory provides considerable savings of both processing time and memory allocation.
+The <b>STROBJ_bEnumPositionsOnly</b> function is typically called from within a driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a> function. It performs the same operations as <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-strobj_benum">STROBJ_bEnum</a> with one important exception − GDI does not create cached bitmaps of the glyphs. The <b>STROBJ_bEnum</b> function assumes the driver will eventually need these bitmaps. However, many newer printers contain internal rasterizers and therefore do not need GDI to render glyphs. For such printers, eliminating the automatic rendering and caching of glyph bitmaps in server memory provides considerable savings of both processing time and memory allocation.
 
 For printers that support internal glyph rasterization, the following rules should be followed:
 
 <ul>
 <li>
-The driver should set the GCAPS_FONT_RASTERIZER flag in its <a href="https://msdn.microsoft.com/5ba3e521-2e70-4a5b-979d-30a061275d42">DEVINFO</a> structure.
+The driver should set the GCAPS_FONT_RASTERIZER flag in its <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-tagdevinfo">DEVINFO</a> structure.
 
 </li>
 <li>
@@ -99,15 +99,15 @@ The driver's <i>DrvTextOut</i> function should call <b>STROBJ_bEnumPositionsOnly
 
 </li>
 <li>
-If the print job includes a font that the device cannot rasterize internally, the driver should call <a href="https://msdn.microsoft.com/0174fc88-e665-427e-b22f-468ddbea5b47">FONTOBJ_cGetGlyphs</a> to obtain glyph bitmaps.
+If the print job includes a font that the device cannot rasterize internally, the driver should call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-fontobj_cgetglyphs">FONTOBJ_cGetGlyphs</a> to obtain glyph bitmaps.
 
 </li>
 <li>
-If a driver needs to determine the likely printer position after a text string has been printed, but does not need a font glyph, it can call <a href="https://msdn.microsoft.com/298d75a7-2e9b-47df-98ba-d159429a6301">STROBJ_bGetAdvanceWidths</a>.
+If a driver needs to determine the likely printer position after a text string has been printed, but does not need a font glyph, it can call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-strobj_bgetadvancewidths">STROBJ_bGetAdvanceWidths</a>.
 
 </li>
 </ul>
-Because GDI does not create cached bitmaps of the glyphs, the contents of the <a href="https://msdn.microsoft.com/d1a7a02c-acaf-46b5-9ffe-fddbb01408a5">GLYPHDEF</a> union within each returned <a href="https://msdn.microsoft.com/1eb80e7a-93f5-474c-bed9-5b19f6657788">GLYPHPOS</a> structure will be <b>NULL</b>.
+Because GDI does not create cached bitmaps of the glyphs, the contents of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_glyphdef">GLYPHDEF</a> union within each returned <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_glyphpos">GLYPHPOS</a> structure will be <b>NULL</b>.
 
 
 
@@ -117,31 +117,31 @@ Because GDI does not create cached bitmaps of the glyphs, the contents of the <a
 
 
 
-<a href="https://msdn.microsoft.com/f2f61687-d833-4d09-8cd5-99e81436c1c1">DrvTextOut</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a>
 
 
 
-<a href="https://msdn.microsoft.com/0174fc88-e665-427e-b22f-468ddbea5b47">FONTOBJ_cGetGlyphs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-fontobj_cgetglyphs">FONTOBJ_cGetGlyphs</a>
 
 
 
-<a href="https://msdn.microsoft.com/d1a7a02c-acaf-46b5-9ffe-fddbb01408a5">GLYPHDEF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_glyphdef">GLYPHDEF</a>
 
 
 
-<a href="https://msdn.microsoft.com/1eb80e7a-93f5-474c-bed9-5b19f6657788">GLYPHPOS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_glyphpos">GLYPHPOS</a>
 
 
 
-<a href="https://msdn.microsoft.com/efe53cb8-39b9-4931-bac2-9c61efd9d457">STROBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_strobj">STROBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/82cb12ff-2baa-4291-849c-dab9d01fa39b">STROBJ_bEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-strobj_benum">STROBJ_bEnum</a>
 
 
 
-<a href="https://msdn.microsoft.com/298d75a7-2e9b-47df-98ba-d159429a6301">STROBJ_bGetAdvanceWidths</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-strobj_bgetadvancewidths">STROBJ_bGetAdvanceWidths</a>
  
 
  

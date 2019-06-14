@@ -51,11 +51,11 @@ ms.custom: 19H1
 
 Controls preferences for video deinterlacing.
 
-The default video mixer for the <a href="https://msdn.microsoft.com/1c985558-d25d-4f51-978a-58c05943dab9">Enhanced Video Renderer</a> (EVR) implements this interface.
+The default video mixer for the <a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a> (EVR) implements this interface.
 
-To get a pointer to the interface, call <a href="https://msdn.microsoft.com/4287dd1f-1718-4231-bc62-b58e0e61d688">IMFGetService::GetService</a> on any of the following objects, using the <b>MR_VIDEO_MIXER_SERVICE</b> service identifier:
+To get a pointer to the interface, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> on any of the following objects, using the <b>MR_VIDEO_MIXER_SERVICE</b> service identifier:
 <ul>
-<li>The <a href="https://msdn.microsoft.com/dac99908-be90-415d-8837-2f97d573feb5">Media Session</a>, if the topology contains an instance of the EVR.</li>
+<li>The <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a>, if the topology contains an instance of the EVR.</li>
 <li>The EVR media sink.</li>
 <li>The  DirectShow EVR filter.</li>
 <li>The EVR mixer.</li>
@@ -63,7 +63,7 @@ To get a pointer to the interface, call <a href="https://msdn.microsoft.com/4287
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoMixerControl2</b> interface inherits from <a href="https://msdn.microsoft.com/8b5f54e3-c6da-4201-857a-9c718ad911db">IMFVideoMixerControl</a>. <b>IMFVideoMixerControl2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoMixerControl2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideomixercontrol">IMFVideoMixerControl</a>. <b>IMFVideoMixerControl2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,7 +78,7 @@ The <b>IMFVideoMixerControl2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4ec03db2-9e7f-4a11-8d69-7654391a33d8">GetMixingPrefs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideomixercontrol2-getmixingprefs">GetMixingPrefs</a>
 </td>
 <td align="left" width="63%">
 Gets the current preferences for video deinterlacing.
@@ -87,7 +87,7 @@ Gets the current preferences for video deinterlacing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ae8fa85a-bdae-4fbf-b9d4-a987eb1c4c41">SetMixingPrefs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideomixercontrol2-setmixingprefs">SetMixingPrefs</a>
 </td>
 <td align="left" width="63%">
 Sets the preferences for video deinterlacing.
@@ -102,15 +102,15 @@ Sets the preferences for video deinterlacing.
 
 
 
-<a href="https://msdn.microsoft.com/8b5f54e3-c6da-4201-857a-9c718ad911db">IMFVideoMixerControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideomixercontrol">IMFVideoMixerControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/3617adf2-ed7b-4788-abce-58bc22a14511">Video Quality Management</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/video-quality-management">Video Quality Management</a>
  
 
  

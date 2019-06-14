@@ -72,9 +72,9 @@ This method can return one of these values.
 
 
 
-The writer calls this method to release exclusive access to the storage object previously taken by calling <a href="https://msdn.microsoft.com/e4505bed-325b-494e-93bd-7bf23b3a1215">IDirectWriterLock::WaitForWriteAccess</a>.
+The writer calls this method to release exclusive access to the storage object previously taken by calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idirectwriterlock-waitforwriteaccess">IDirectWriterLock::WaitForWriteAccess</a>.
 
-After the writer calls this method, it is safe to allow readers to reopen the storage again until the next call to <a href="https://msdn.microsoft.com/e4505bed-325b-494e-93bd-7bf23b3a1215">IDirectWriterLock::WaitForWriteAccess</a>.
+After the writer calls this method, it is safe to allow readers to reopen the storage again until the next call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idirectwriterlock-waitforwriteaccess">IDirectWriterLock::WaitForWriteAccess</a>.
 
 
 
@@ -84,11 +84,11 @@ After the writer calls this method, it is safe to allow readers to reopen the st
 
 
 
-<a href="https://msdn.microsoft.com/8366b6b5-73c3-4b05-be68-c24ecd2eab96">IDirectWriterLock::HaveWriteAccess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idirectwriterlock-havewriteaccess">IDirectWriterLock::HaveWriteAccess</a>
 
 
 
-<a href="https://msdn.microsoft.com/e4505bed-325b-494e-93bd-7bf23b3a1215">IDirectWriterLock::WaitForWriteAccess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idirectwriterlock-waitforwriteaccess">IDirectWriterLock::WaitForWriteAccess</a>
  
 
  

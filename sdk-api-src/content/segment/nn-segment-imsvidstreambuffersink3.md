@@ -60,7 +60,7 @@ The <b>IMSVidStreamBufferSink3</b> interface represents the Stream Buffer Sink f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSink3</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd694625(v=VS.85).aspx">IMSVidStreamBufferSink2</a>. <b>IMSVidStreamBufferSink3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSink3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidstreambuffersink2">IMSVidStreamBufferSink2</a>. <b>IMSVidStreamBufferSink3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IMSVidStreamBufferSink3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694636(v=VS.85).aspx">get__AudioAnalysisFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersink3-get__audioanalysisfilter">get__AudioAnalysisFilter</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -84,7 +84,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694637(v=VS.85).aspx">get__DataAnalysisFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersink3-get__dataanalysisfilter">get__DataAnalysisFilter</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -93,7 +93,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694638(v=VS.85).aspx">get__VideoAnalysisFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersink3-get__videoanalysisfilter">get__VideoAnalysisFilter</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -102,7 +102,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694628(v=VS.85).aspx">get_AudioAnalysisFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersink3-get_audioanalysisfilter">get_AudioAnalysisFilter</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -111,7 +111,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694629(v=VS.85).aspx">get_AudioCounter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersink3-get_audiocounter">get_AudioCounter</a>
 </td>
 <td align="left" width="63%">
 Enables the caller to get performance statistics from the Stream Buffer Sink for the audio stream.
@@ -120,7 +120,7 @@ Enables the caller to get performance statistics from the Stream Buffer Sink for
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694630(v=VS.85).aspx">get_CCCounter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersink3-get_cccounter">get_CCCounter</a>
 </td>
 <td align="left" width="63%">
 Enables the caller to get performance statistics from the Stream Buffer Sink for the closed captioning stream.
@@ -129,7 +129,7 @@ Enables the caller to get performance statistics from the Stream Buffer Sink for
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694631(v=VS.85).aspx">get_DataAnalysisFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersink3-get_dataanalysisfilter">get_DataAnalysisFilter</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -138,7 +138,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694632(v=VS.85).aspx">get_LicenseErrorCode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersink3-get_licenseerrorcode">get_LicenseErrorCode</a>
 </td>
 <td align="left" width="63%">
 Returns the most recent error code relating to licenses.
@@ -147,7 +147,7 @@ Returns the most recent error code relating to licenses.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694633(v=VS.85).aspx">get_VideoAnalysisFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersink3-get_videoanalysisfilter">get_VideoAnalysisFilter</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -156,7 +156,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694634(v=VS.85).aspx">get_VideoCounter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersink3-get_videocounter">get_VideoCounter</a>
 </td>
 <td align="left" width="63%">
 Enables the caller to get performance statistics from the Stream Buffer Sink for the video stream.
@@ -165,7 +165,7 @@ Enables the caller to get performance statistics from the Stream Buffer Sink for
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694635(v=VS.85).aspx">get_WSTCounter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersink3-get_wstcounter">get_WSTCounter</a>
 </td>
 <td align="left" width="63%">
 Enables the caller to get performance statistics from the Stream Buffer Sink for the World Standard Teletext (WST) stream.
@@ -174,7 +174,7 @@ Enables the caller to get performance statistics from the Stream Buffer Sink for
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694642(v=VS.85).aspx">put__AudioAnalysisFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersink3-put__audioanalysisfilter">put__AudioAnalysisFilter</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -183,7 +183,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694643(v=VS.85).aspx">put__DataAnalysisFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersink3-put__dataanalysisfilter">put__DataAnalysisFilter</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -192,7 +192,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694644(v=VS.85).aspx">put__VideoAnalysisFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersink3-put__videoanalysisfilter">put__VideoAnalysisFilter</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -201,7 +201,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694639(v=VS.85).aspx">put_AudioAnalysisFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersink3-put_audioanalysisfilter">put_AudioAnalysisFilter</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -210,7 +210,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694640(v=VS.85).aspx">put_DataAnalysisFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersink3-put_dataanalysisfilter">put_DataAnalysisFilter</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -219,7 +219,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694641(v=VS.85).aspx">put_VideoAnalysisFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersink3-put_videoanalysisfilter">put_VideoAnalysisFilter</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -228,7 +228,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694645(v=VS.85).aspx">SetMinSeek</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersink3-setminseek">SetMinSeek</a>
 </td>
 <td align="left" width="63%">
 Sets the minimum seek position equal to the current playback position, and retrieves the current position.
@@ -252,11 +252,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694625(v=VS.85).aspx">IMSVidStreamBufferSink2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidstreambuffersink2">IMSVidStreamBufferSink2</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf6c3ce9-1e56-4109-93f1-5b313e6ca19b">Video Control Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
  
 
  

@@ -71,7 +71,7 @@ Input data is per-instance data.
 
 
 
-Use these values to specify the type of data for a particular input element (see <a href="https://msdn.microsoft.com/45545d24-1513-4efd-9344-20673c5b98d5">D3D11_INPUT_ELEMENT_DESC</a>) of an input-layout object.
+Use these values to specify the type of data for a particular input element (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_input_element_desc">D3D11_INPUT_ELEMENT_DESC</a>) of an input-layout object.
 
 
 
@@ -81,7 +81,7 @@ Use these values to specify the type of data for a particular input element (see
 
 
 
-<a href="https://msdn.microsoft.com/1641713a-5ac8-4597-900b-1bba54f9f522">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-enums">Core Enumerations</a>
  
 
  

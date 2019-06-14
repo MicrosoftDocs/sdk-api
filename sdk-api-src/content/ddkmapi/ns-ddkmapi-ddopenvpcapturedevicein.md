@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The DDOPENVPCAPTUREDEVICEIN structure contains the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">video port extensions (VPE)</a> capture information. 
+The DDOPENVPCAPTUREDEVICEIN structure contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> capture information. 
 
 
 ## -struct-fields
@@ -84,7 +84,7 @@ Contains a value that is the divisor for the number of fields that are to be cap
 
 ### -field pfnCaptureClose
 
-Points to a <a href="https://msdn.microsoft.com/ee581d7b-c3b8-47e5-bae8-348b22ea0f95">pfnCaptureClose</a> callback that is called when the capture device becomes unusable due to the VPE object being released at user mode.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/nc-ddkmapi-lpdd_notifycallback">pfnCaptureClose</a> callback that is called when the capture device becomes unusable due to the VPE object being released at user mode.
 
 
 ### -field pContext
@@ -107,7 +107,7 @@ DDOPENCAPTURE_VBI
 
 </td>
 <td>
-Capture from the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">VBI</a> stream.
+Capture from the <a href="https://docs.microsoft.com/windows-hardware/drivers/">VBI</a> stream.
 
 </td>
 </tr>
@@ -130,11 +130,11 @@ Capture from the video stream.
 
 
 
-<a href="https://msdn.microsoft.com/3bd696a4-1a46-482b-9680-7cd1256904ae">DD_DXAPI_OPENVPCAPTUREDEVICE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551500(v=vs.85)">DD_DXAPI_OPENVPCAPTUREDEVICE</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4b38376-b54f-4fbb-b305-5951a1ea76a1">DxApi</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
  
 
  

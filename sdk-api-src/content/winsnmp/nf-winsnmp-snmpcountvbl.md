@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/6429e748-e0bf-431a-8989-db5b211665d5">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 A WinSNMP application calls the WinSNMP 
 <b>SnmpCountVbl</b> function to enumerate the variable binding entries in the specified variable bindings list.
@@ -72,7 +72,7 @@ Handle to the variable bindings list to enumerate.
 If the function succeeds, the return value is the count of variable binding entries in the variable bindings list.
 
 If the function fails, the return value is SNMPAPI_FAILURE. To get extended error information, call 
-<a href="https://msdn.microsoft.com/0cfb2bc3-cfa5-4806-9dcf-119541463e7b">SnmpGetLastError</a> specifying a <b>NULL</b> value in its <i>session</i> parameter. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpgetlasterror">SnmpGetLastError</a> specifying a <b>NULL</b> value in its <i>session</i> parameter. The 
 <b>SnmpGetLastError</b> function can return one of the following errors.
 
 <table>
@@ -88,7 +88,7 @@ If the function fails, the return value is SNMPAPI_FAILURE. To get extended erro
 </td>
 <td width="60%">
 The 
-<a href="https://msdn.microsoft.com/7b8a4a1e-871f-424b-8bcb-c0b3bfaae9ce">SnmpStartup</a> function did not complete successfully.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstartup">SnmpStartup</a> function did not complete successfully.
 
 </td>
 </tr>
@@ -148,9 +148,9 @@ An unknown or undefined error occurred.
 
 The 
 <b>SnmpCountVbl</b> function returns an unsigned integer value that is the maximum value the WinSNMP application can specify for the <i>index</i> parameter in the 
-<a href="https://msdn.microsoft.com/a6598b4e-6797-4e18-8ab5-059c75bc84ef">SnmpGetVb</a>, 
-<a href="https://msdn.microsoft.com/65d962bd-f4d7-4cf4-9b24-a7678e669e24">SnmpSetVb</a>, and 
-<a href="https://msdn.microsoft.com/b6f8a61a-493c-4626-9134-f8badce678c4">SnmpDeleteVb</a> functions.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpgetvb">SnmpGetVb</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpsetvb">SnmpSetVb</a>, and 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpdeletevb">SnmpDeleteVb</a> functions.
 
 
 
@@ -160,24 +160,24 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/b6f8a61a-493c-4626-9134-f8badce678c4">SnmpDeleteVb</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpdeletevb">SnmpDeleteVb</a>
 
 
 
-<a href="https://msdn.microsoft.com/a6598b4e-6797-4e18-8ab5-059c75bc84ef">SnmpGetVb</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpgetvb">SnmpGetVb</a>
 
 
 
-<a href="https://msdn.microsoft.com/65d962bd-f4d7-4cf4-9b24-a7678e669e24">SnmpSetVb</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpsetvb">SnmpSetVb</a>
 
 
 
-<a href="https://msdn.microsoft.com/ae95ac47-81ff-4715-b3e9-e19c07223712">WinSNMP
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-functions">WinSNMP
 		  Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/54d9b61a-815a-41c3-9365-ec4478acc3f2">WinSNMP API Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>
  
 
  

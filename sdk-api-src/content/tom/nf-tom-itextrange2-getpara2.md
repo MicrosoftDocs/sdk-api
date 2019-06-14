@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an <a href="https://msdn.microsoft.com/31a0849f-c651-4178-b1ff-a4333bcde5d9">ITextPara2</a> object with the paragraph attributes of a range.
+Gets an <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara2">ITextPara2</a> object with the paragraph attributes of a range.
 
 
 ## -parameters
@@ -61,14 +61,14 @@ Gets an <a href="https://msdn.microsoft.com/31a0849f-c651-4178-b1ff-a4333bcde5d9
 
 Type: <b>ITextPara2**</b>
 
-The <a href="https://msdn.microsoft.com/31a0849f-c651-4178-b1ff-a4333bcde5d9">ITextPara2</a> object.
+The <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara2">ITextPara2</a> object.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -80,11 +80,11 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-<a href="https://msdn.microsoft.com/905f0967-8b99-45ed-a1cc-19d49e919a65">ITextRange2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
 
 
 
-<a href="https://msdn.microsoft.com/ffd25a04-27a8-47c0-95a4-d66291971819">ITextRange2::SetPara2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-setpara2">ITextRange2::SetPara2</a>
  
 
  

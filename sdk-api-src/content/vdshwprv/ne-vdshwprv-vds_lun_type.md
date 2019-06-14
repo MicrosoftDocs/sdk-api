@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set of valid types for a LUN.
 
@@ -222,9 +222,9 @@ The LUN type is RAID level 6+1.
 
 
 The  
-        <a href="https://msdn.microsoft.com/e8097364-1f23-4cda-8f12-a750bbb4eb4c">IVdsSubSystem::CreateLun</a> method passes a <b>VDS_LUN_TYPE</b> value as a parameter to set a new LUN type, and the <a href="https://msdn.microsoft.com/4ef0f4d8-7c63-4d8e-bf46-e6958661bd6a">VDS_LUN_PROP</a> structure includes a <b>VDS_LUN_TYPE</b> value as a member to indicate an existing LUN type.
+        <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-createlun">IVdsSubSystem::CreateLun</a> method passes a <b>VDS_LUN_TYPE</b> value as a parameter to set a new LUN type, and the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_lun_prop">VDS_LUN_PROP</a> structure includes a <b>VDS_LUN_TYPE</b> value as a member to indicate an existing LUN type.
 
-If the <a href="https://msdn.microsoft.com/e8097364-1f23-4cda-8f12-a750bbb4eb4c">IVdsSubSystem::CreateLun</a> method returns a <b>VDS_LUN_TYPE</b> value that the caller does not recognize, the caller should display the LUN type as unknown. The caller should not attempt to map the unrecognized LUN type to another LUN type.
+If the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-createlun">IVdsSubSystem::CreateLun</a> method returns a <b>VDS_LUN_TYPE</b> value that the caller does not recognize, the caller should display the LUN type as unknown. The caller should not attempt to map the unrecognized LUN type to another LUN type.
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_LUN_TYPE</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_LUN_TYPE</b> enumeration constant.</div>
 <div> </div>
@@ -236,7 +236,7 @@ If the <a href="https://msdn.microsoft.com/e8097364-1f23-4cda-8f12-a750bbb4eb4c"
 
 
 
-<a href="https://msdn.microsoft.com/1fa046dd-fac9-4246-a90b-1837206b164c">IVdsHwProviderStoragePools::CreateLunInStoragePool</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem2-createlun2">IVdsHwProviderStoragePools::CreateLunInStoragePool</a>
 
 
 
@@ -244,15 +244,15 @@ If the <a href="https://msdn.microsoft.com/e8097364-1f23-4cda-8f12-a750bbb4eb4c"
 
 
 
-<a href="https://msdn.microsoft.com/e8097364-1f23-4cda-8f12-a750bbb4eb4c">IVdsSubSystem::CreateLun</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-createlun">IVdsSubSystem::CreateLun</a>
 
 
 
-<a href="https://msdn.microsoft.com/30ee6e39-c1e5-4173-a3dd-5644632140d1">VDS Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-enumerations">VDS Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ef0f4d8-7c63-4d8e-bf46-e6958661bd6a">VDS_LUN_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_lun_prop">VDS_LUN_PROP</a>
  
 
  

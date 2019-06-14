@@ -59,7 +59,7 @@ Gets the maximum <i>drop mode</i>. A higher drop mode means that the object will
 
 ### -param peDropMode [out]
 
-Receives the maximum drop mode, specified as a member of the <a href="https://msdn.microsoft.com/e40751d2-9abf-4fe6-8829-9b1fbf4531e8">MF_QUALITY_DROP_MODE</a> enumeration.
+Receives the maximum drop mode, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-_mf_quality_drop_mode">MF_QUALITY_DROP_MODE</a> enumeration.
 
 
 ## -returns
@@ -75,7 +75,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To get the current drop mode, call the <a href="https://msdn.microsoft.com/bb700a3e-837f-4e88-a9b7-294c41143402">IMFQualityAdvise::GetDropMode</a> method. To set the drop mode, call the <a href="https://msdn.microsoft.com/190de66a-6c47-49d5-a8f6-c2fb57a7aee2">IMFQualityAdvise::SetDropMode</a> method.
+To get the current drop mode, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfqualityadvise-getdropmode">IMFQualityAdvise::GetDropMode</a> method. To set the drop mode, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfqualityadvise-setdropmode">IMFQualityAdvise::SetDropMode</a> method.
 
 
 
@@ -85,7 +85,7 @@ To get the current drop mode, call the <a href="https://msdn.microsoft.com/bb700
 
 
 
-<a href="https://msdn.microsoft.com/8ef7088c-2f49-4be9-b719-481616e1737d">IMFQualityAdviseLimits</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfqualityadviselimits">IMFQualityAdviseLimits</a>
  
 
  

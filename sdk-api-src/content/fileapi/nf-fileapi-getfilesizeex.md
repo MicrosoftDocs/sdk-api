@@ -69,12 +69,12 @@ Retrieves the size of the specified file.
 A handle to the file. The handle must have been created with the 
       <b>FILE_READ_ATTRIBUTES</b> access right or equivalent, or the caller must have sufficient permission on the directory that contains the file. 
       For more information, see 
-      <a href="https://msdn.microsoft.com/991d7d94-fae7-406f-b2e3-dee811279366">File Security and Access Rights</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
 
 ### -param lpFileSize [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/6a2985b6-5baf-49ab-af28-67c1374557ea">LARGE_INTEGER</a> structure that 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_large_integer">LARGE_INTEGER</a> structure that 
       receives the file size, in bytes.
 
 
@@ -85,7 +85,7 @@ A pointer to a <a href="https://msdn.microsoft.com/6a2985b6-5baf-49ab-af28-67c13
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -98,7 +98,7 @@ If the function fails, the return value is zero. To get extended error informati
       file view.
 
 <b>Windows Store apps:  </b><b>GetFileSizeEx</b> is not supported. Use 
-      <a href="https://msdn.microsoft.com/e261ea45-d084-490e-94b4-129bd76f6a04">GetFileInformationByHandleEx</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -168,11 +168,11 @@ Yes
 
 
 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a2985b6-5baf-49ab-af28-67c1374557ea">LARGE_INTEGER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_large_integer">LARGE_INTEGER</a>
  
 
  

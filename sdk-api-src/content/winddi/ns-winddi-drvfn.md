@@ -59,7 +59,7 @@ The DRVFN structure is used by graphics drivers to provide GDI with pointers to 
 
 ### -field iFunc
 
-Is the function index that identifies a graphics DDI function implemented by the driver. The index name reflects the name of the related graphics DDI function; for example, an index value of INDEX_DrvEnablePDEV specifies the <a href="https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e">DrvEnablePDEV</a> function. See the header file, <i>winddi.h</i>, for a complete list of index values.
+Is the function index that identifies a graphics DDI function implemented by the driver. The index name reflects the name of the related graphics DDI function; for example, an index value of INDEX_DrvEnablePDEV specifies the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a> function. See the header file, <i>winddi.h</i>, for a complete list of index values.
 
 
 ### -field pfn
@@ -77,7 +77,7 @@ LONG_PTR  (APIENTRY * PFN) ();
 
 
 
-A graphics driver must allocate an array of DRVFN structures, with an array element for each graphics DDI function implemented in the driver. The driver returns the array's address to GDI in the <a href="https://msdn.microsoft.com/dbeaecf8-dea1-4412-babb-6e40bf5dc7b0">DRVENABLEDATA</a> structure whose pointer is passed to the driver's <a href="https://msdn.microsoft.com/b7aa5442-bbf5-4f9e-ad39-bf8a2d01c50e">DrvEnableDriver</a> function during driver initialization.
+A graphics driver must allocate an array of DRVFN structures, with an array element for each graphics DDI function implemented in the driver. The driver returns the array's address to GDI in the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-tagdrvenabledata">DRVENABLEDATA</a> structure whose pointer is passed to the driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenabledriver">DrvEnableDriver</a> function during driver initialization.
 
 Graphics DDI function addresses can be placed in the DRVFN array in any order.
 
@@ -89,7 +89,7 @@ Graphics DDI function addresses can be placed in the DRVFN array in any order.
 
 
 
-<a href="https://msdn.microsoft.com/b7aa5442-bbf5-4f9e-ad39-bf8a2d01c50e">DrvEnableDriver</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenabledriver">DrvEnableDriver</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Recompresses an image. Implemented in an
-		<a href="https://msdn.microsoft.com/2eb4568f-e51a-4fdf-b78e-ca37af9ef86e">ImageRecompress</a> object, this method
+		<a href="https://docs.microsoft.com/windows/desktop/shell/known-folders">ImageRecompress</a> object, this method
 		accepts x and y dimensions with a designation of quality. The method
 		creates a stream containing the new image that has been recompressed
 		to the	specified size.
@@ -63,7 +63,7 @@ Recompresses an image. Implemented in an
 
 ### -param psi [in]
 
-Type: <b><a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
 A pointer to the object containing the stream of the image to read.
 
@@ -91,17 +91,17 @@ An indication of recompression quality that can range from 0 to 100.
 
 ### -param pstg [in]
 
-Type: <b><a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> interface on the
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface on the
 				object that contains the stream to be written to.
 
 
 ### -param ppstrmOut [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>**</b>
 
-The address of an <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> interface pointer
+The address of an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface pointer
 				variable that receives the output stream written to.
 
 
@@ -125,15 +125,15 @@ Returns S_OK if successful, or a COM-defined error code otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/48e07bc4-da70-406b-8024-3fa36416247f">IImageRecompress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iimagerecompress">IImageRecompress</a>
 
 
 
-<a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/2eb4568f-e51a-4fdf-b78e-ca37af9ef86e">ImageRecompress</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/known-folders">ImageRecompress</a>
  
 
  

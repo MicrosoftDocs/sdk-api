@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ProviderProperties</b> property gets or sets information that provides certificate status responses. The revocation information provider configured in the <a href="https://msdn.microsoft.com/4ea109a9-00ed-46b5-a58c-7dc5bc936102">ProviderCLSID</a> property uses <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation lists</a> (CRLs) specified in this property to provide responses.
+The <b>ProviderProperties</b> property gets or sets information that provides certificate status responses. The revocation information provider configured in the <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspcaconfiguration-get_providerclsid">ProviderCLSID</a> property uses <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation lists</a> (CRLs) specified in this property to provide responses.
 
 This property is read/write.
 
@@ -63,16 +63,16 @@ This property is read/write.
 
 
 
-The <b>VARIANT</b> returned in <i>pVal</i> is an <a href="https://msdn.microsoft.com/8c700357-0cb4-4780-9ff1-ac57c46f9183">IOCSPPropertyCollection</a> interface.
+The <b>VARIANT</b> returned in <i>pVal</i> is an <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocsppropertycollection">IOCSPPropertyCollection</a> interface.
 
 To work with revocation-information provider properties:
 
 <ol>
-<li>Create an <a href="https://msdn.microsoft.com/8c700357-0cb4-4780-9ff1-ac57c46f9183">IOCSPPropertyCollection</a> object.</li>
-<li>Call <a href="https://msdn.microsoft.com/e944af4e-80e4-470e-be04-770cf0f89871">InitializeFromProperties</a> and pass in the <b>VARIANT</b>, <i>pVal</i>, returned by the <b>ProviderProperties</b> property.</li>
-<li>Use the <a href="https://msdn.microsoft.com/7273a8ed-cf0e-40d8-8cac-4effbdf41ae8">Methods</a> and <a href="https://msdn.microsoft.com/c476b627-f558-4a39-86f7-de85d9138004">Properties</a> of the <a href="https://msdn.microsoft.com/8c700357-0cb4-4780-9ff1-ac57c46f9183">IOCSPPropertyCollection</a> interface.</li>
+<li>Create an <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocsppropertycollection">IOCSPPropertyCollection</a> object.</li>
+<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocsppropertycollection-initializefromproperties">InitializeFromProperties</a> and pass in the <b>VARIANT</b>, <i>pVal</i>, returned by the <b>ProviderProperties</b> property.</li>
+<li>Use the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/methods-of-iocsppropertycollection">Methods</a> and <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/properties-of-iocsppropertycollection">Properties</a> of the <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocsppropertycollection">IOCSPPropertyCollection</a> interface.</li>
 </ol>
-The following table lists the possible <a href="https://msdn.microsoft.com/854848f0-ea89-4c25-a8a5-40f1e4d229be">IOCSPProperty</a> <a href="https://msdn.microsoft.com/33980a7c-0ae5-470b-a55a-f3e19c8846a6">Name</a> values and their data types for the default revocation-information provider.
+The following table lists the possible <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspproperty">IOCSPProperty</a> <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspproperty-get_name">Name</a> values and their data types for the default revocation-information provider.
 
 <table>
 <tr>
@@ -118,7 +118,7 @@ The following table lists the possible <a href="https://msdn.microsoft.com/85484
 
 
 
-<a href="https://msdn.microsoft.com/57900e1e-9c51-4c1b-aa42-634b6c3a9999">IOCSPCAConfiguration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>
  
 
  

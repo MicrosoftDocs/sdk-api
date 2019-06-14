@@ -52,9 +52,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>UnregisterPointerInputTargetEx</b> is not supported and may be altered or unavailable in the future. Instead, use <a href="https://msdn.microsoft.com/75faea24-91cd-448b-b67a-09fe530f1800">UnregisterPointerInputTarget</a>.]
+<p class="CCE_Message">[<b>UnregisterPointerInputTargetEx</b> is not supported and may be altered or unavailable in the future. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unregisterpointerinputtarget">UnregisterPointerInputTarget</a>.]
 
-<b>UnregisterPointerInputTargetEx</b> may be altered or unavailable. Instead, use <a href="https://msdn.microsoft.com/75faea24-91cd-448b-b67a-09fe530f1800">UnregisterPointerInputTarget</a>.
+<b>UnregisterPointerInputTargetEx</b> may be altered or unavailable. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unregisterpointerinputtarget">UnregisterPointerInputTarget</a>.
 
 
 ## -parameters
@@ -86,7 +86,7 @@ Not supported.
 
 
 
-<a href="https://msdn.microsoft.com/75faea24-91cd-448b-b67a-09fe530f1800">UnregisterPointerInputTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unregisterpointerinputtarget">UnregisterPointerInputTarget</a>
  
 
  

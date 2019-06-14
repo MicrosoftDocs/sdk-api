@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PasswordFilter</b> function is implemented by a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">password filter</a> DLL. The value returned by this function determines whether the new password is accepted by the system. All of the password filters installed on a system must return <b>TRUE</b> for the password change to take effect.
+The <b>PasswordFilter</b> function is implemented by a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">password filter</a> DLL. The value returned by this function determines whether the new password is accepted by the system. All of the password filters installed on a system must return <b>TRUE</b> for the password change to take effect.
 
 
 ## -parameters
@@ -59,17 +59,17 @@ The <b>PasswordFilter</b> function is implemented by a <a href="https://msdn.mic
 
 ### -param AccountName [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> that represents the name of the user whose password changed.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> that represents the name of the user whose password changed.
 
 
 ### -param FullName [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> that represents the full name of the user whose password changed.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> that represents the full name of the user whose password changed.
 
 
 ### -param Password [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> that represents the new plaintext password. When you have finished using the password, clear it from memory by calling the <a href="https://msdn.microsoft.com/2c4090a6-025b-4b7b-8f31-7e744ad51b39">SecureZeroMemory</a> function. For more information on protecting the password, see <a href="https://msdn.microsoft.com/1d810f71-9bf5-4c5c-a573-c35081f604cf">Handling Passwords</a>.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> that represents the new plaintext password. When you have finished using the password, clear it from memory by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function. For more information on protecting the password, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
 
 
 ### -param SetOperation [in]
@@ -93,7 +93,7 @@ Pointer to a <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e50
 </dl>
 </td>
 <td width="60%">
-Return <b>TRUE</b> if the new password is valid with respect to the password policy implemented in the password filter DLL. When <b>TRUE</b> is returned, the <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">Local Security Authority</a> (LSA) continues to evaluate the password by calling any other password filters installed on the system.
+Return <b>TRUE</b> if the new password is valid with respect to the password policy implemented in the password filter DLL. When <b>TRUE</b> is returned, the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) continues to evaluate the password by calling any other password filters installed on the system.
 
 </td>
 </tr>
@@ -124,7 +124,7 @@ This function must use the __stdcall calling convention and must be exported by 
 
 When the <b>PasswordFilter</b> routine is running, processing is blocked until the routine is finished. When appropriate, move any lengthy processing to a separate thread prior to returning from this routine.
 
-This function is called only for <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">password filters</a> that are installed and registered on a system.
+This function is called only for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">password filters</a> that are installed and registered on a system.
 
 Any process exception that is not handled within this function may cause security-related failures system-wide. Structured exception handling should be used when appropriate.
 
@@ -136,19 +136,19 @@ Any process exception that is not handled within this function may cause securit
 <tr>
 <td>Programming issues when implementing a password filter DLL</td>
 <td>
-<a href="https://msdn.microsoft.com/ec7c1e7e-844a-43d4-b756-02bc1062d7b8">Password Filter Programming Considerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/password-filter-programming-considerations">Password Filter Programming Considerations</a>
 </td>
 </tr>
 <tr>
 <td>How to install and register your own password filter DLL</td>
 <td>
-<a href="https://msdn.microsoft.com/12a6fe6d-5b37-4fcf-bd04-0a22d84ba323">Installing and Registering a Password Filter DLL</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/installing-and-registering-a-password-filter-dll">Installing and Registering a Password Filter DLL</a>
 </td>
 </tr>
 <tr>
 <td>The password filter DLL provided by Microsoft </td>
 <td>
-<a href="https://msdn.microsoft.com/a84f83b2-181b-4f65-82bd-bc7f0689aad3">Strong Password Enforcement and Passfilt.dll</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/strong-password-enforcement-and-passfilt-dll">Strong Password Enforcement and Passfilt.dll</a>
 </td>
 </tr>
 </table>
@@ -162,11 +162,11 @@ Any process exception that is not handled within this function may cause securit
 
 
 
-<a href="https://msdn.microsoft.com/c503c849-65da-4514-b6d9-a95c9d75433e">InitializeChangeNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nc-ntsecapi-psam_init_notification_routine">InitializeChangeNotify</a>
 
 
 
-<a href="https://msdn.microsoft.com/81d34dff-3842-407b-8fd8-3b0a5a5f38f1">PasswordChangeNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nc-ntsecapi-psam_password_notification_routine">PasswordChangeNotify</a>
  
 
  

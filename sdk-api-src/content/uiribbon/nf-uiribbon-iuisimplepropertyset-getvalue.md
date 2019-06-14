@@ -63,7 +63,7 @@ Retrieves the value identified by a property key.
 
 Type: <b>REFPROPERTYKEY</b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd371196(v=VS.85).aspx">Property Key</a> of interest.
+The <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-properties">Property Key</a> of interest.
 				
 
 
@@ -94,9 +94,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 #### Examples
 
-The following example demonstrates a custom implementation of  <a href="https://msdn.microsoft.com/en-us/library/Dd371358(v=VS.85).aspx">IUISimplePropertySet</a> for both item and Command galleries.
+The following example demonstrates a custom implementation of  <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuisimplepropertyset">IUISimplePropertySet</a> for both item and Command galleries.
 
-The CItemProperties class in this example is derived from <a href="https://msdn.microsoft.com/en-us/library/Dd371358(v=VS.85).aspx">IUISimplePropertySet</a> and, in addition to the required method <b>IUISimplePropertySet::GetValue</b>, implements a set of helper functions for initialization and index tracking.
+The CItemProperties class in this example is derived from <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuisimplepropertyset">IUISimplePropertySet</a> and, in addition to the required method <b>IUISimplePropertySet::GetValue</b>, implements a set of helper functions for initialization and index tracking.
 
 
 ```cpp
@@ -201,15 +201,15 @@ private:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371358(v=VS.85).aspx">IUISimplePropertySet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuisimplepropertyset">IUISimplePropertySet</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371196(v=VS.85).aspx">Property Keys</a>
+<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-properties">Property Keys</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
  
 
  

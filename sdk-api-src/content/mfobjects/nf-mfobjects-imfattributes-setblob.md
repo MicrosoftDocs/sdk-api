@@ -108,7 +108,7 @@ The method succeeded.
 
 
 
-To retrieve the byte array, call <a href="https://msdn.microsoft.com/68528db7-90df-4abe-a957-ffb8c3f12cef">IMFAttributes::GetBlob</a> or <a href="https://msdn.microsoft.com/380e0e3a-b5c5-4d31-8793-417262377fef">IMFAttributes::GetAllocatedBlob</a>.
+To retrieve the byte array, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getblob">IMFAttributes::GetBlob</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getallocatedblob">IMFAttributes::GetAllocatedBlob</a>.
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -124,11 +124,11 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 
-<a href="https://msdn.microsoft.com/44af5e03-5f0a-4564-b9d6-b8c935df35b2">Attributes and Properties</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
 
 
 
-<a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
  
 
  

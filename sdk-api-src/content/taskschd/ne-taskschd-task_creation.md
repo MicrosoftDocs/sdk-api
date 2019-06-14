@@ -79,12 +79,12 @@ The Task Scheduler service either registers the task as a new task or as an upda
 
 ### -field TASK_DISABLE
 
-The Task Scheduler service registers the disabled task. A disabled task cannot run until it is enabled. For more information, see <a href="https://msdn.microsoft.com/6c6e7f51-9591-4b84-b06b-124cd88a0345">Enabled Property of ITaskSettings</a> and <a href="https://msdn.microsoft.com/33486621-3984-4a07-8182-c193847a9f76">Enabled Property of IRegisteredTask</a>.
+The Task Scheduler service registers the disabled task. A disabled task cannot run until it is enabled. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_enabled">Enabled Property of ITaskSettings</a> and <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_enabled">Enabled Property of IRegisteredTask</a>.
 
 
 ### -field TASK_DONT_ADD_PRINCIPAL_ACE
 
-The Task Scheduler service is prevented from adding the allow access-control entry (ACE) for the context principal. When the <a href="https://msdn.microsoft.com/a94db861-b24e-476a-810d-2cf3bbfc67d1">ITaskFolder::RegisterTaskDefinition</a> or  <a href="https://msdn.microsoft.com/743e5bd9-3fb6-4e09-96ed-ca2d74fa0bab">ITaskFolder::RegisterTask</a> functions are called with this flag to update a task, the Task Scheduler service does not add the ACE for the new context principal and does not remove the ACE from the old context principal.
+The Task Scheduler service is prevented from adding the allow access-control entry (ACE) for the context principal. When the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertaskdefinition">ITaskFolder::RegisterTaskDefinition</a> or  <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertask">ITaskFolder::RegisterTask</a> functions are called with this flag to update a task, the Task Scheduler service does not add the ACE for the new context principal and does not remove the ACE from the old context principal.
 
 
 ### -field TASK_IGNORE_REGISTRATION_TRIGGERS
@@ -97,7 +97,7 @@ The Task Scheduler service creates the task, but ignores the registration trigge
 
 
 
-<a href="https://msdn.microsoft.com/9779d32b-0142-41bb-88e2-df79a3b0c1b2">Task Scheduler Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-enumerated-types">Task Scheduler Enumerated Types</a>
  
 
  

@@ -119,7 +119,7 @@ The InterfaceID is provided for informational purposes only; it is not required 
 
 
 
-<a href="https://msdn.microsoft.com/b0252ac4-856e-4aa7-aa3b-37b92472e864">IMcastScope</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-imcastscope">IMcastScope</a>
  
 
  

@@ -56,7 +56,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConsolePower</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IConsolePower</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConsolePower</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IConsolePower</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IConsolePower</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/83de4b7f-3214-4354-a4a0-721054e2e899">ResetIdleTimer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsolepower-resetidletimer">ResetIdleTimer</a>
 </td>
 <td align="left" width="63%">
 Resets idle timers.
@@ -80,7 +80,7 @@ Resets idle timers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1fbdc155-ea95-43b6-8aea-f47ff0c89859">SetExecutionState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsolepower-setexecutionstate">SetExecutionState</a>
 </td>
 <td align="left" width="63%">
 Sets the execution state.
@@ -95,7 +95,7 @@ Sets the execution state.
 
 
 
-<a href="https://msdn.microsoft.com/dd23c6dc-9219-4d13-b237-13405a2fcb5a">IConsolePowerSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsolepowersink">IConsolePowerSink</a>
  
 
  

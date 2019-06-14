@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-Specifies a resource binding described by a range of bytes in a Direct3D 12 buffer, represented by an offset and size into an <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>.
+Specifies a resource binding described by a range of bytes in a Direct3D 12 buffer, represented by an offset and size into an <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>.
 
 
 ## -struct-fields
@@ -63,15 +63,15 @@ Specifies a resource binding described by a range of bytes in a Direct3D 12 buff
 
 ### -field Buffer
 
-Type: <b><a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>*</b>
 
-An optional pointer to an <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a> interface representing a buffer. The resource must have dimension <a href="https://msdn.microsoft.com/E04F3124-01FB-4EE7-BDF8-4821F2F1FCEB">D3D12_RESOURCE_DIMENSION_BUFFER</a>, and the
+An optional pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a> interface representing a buffer. The resource must have dimension <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_dimension">D3D12_RESOURCE_DIMENSION_BUFFER</a>, and the
       range described by this struct must lie within the bounds of the buffer. You may supply <b>nullptr</b> for this member to indicate 'no binding'.
 
 
 ### -field Offset
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT64</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
 
 The offset, in bytes, from the start of the buffer where the range begins. This offset must be aligned to a
       multiple of [DML_MINIMUM_BUFFER_TENSOR_ALIGNMENT](/windows/desktop/direct3d12/direct3d-directml-constants) or the <b>GuaranteedBaseOffsetAlignment</b> supplied as part of the
@@ -80,7 +80,7 @@ The offset, in bytes, from the start of the buffer where the range begins. This 
 
 ### -field SizeInBytes
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT64</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
 
 The size of the range, in bytes.
 

@@ -90,7 +90,7 @@ An indexed pixel format will not return <b>TRUE</b> even though it may have some
 
 
 
-<a href="https://msdn.microsoft.com/6c36fb08-f0c7-4654-bd8e-ef8ef737bc41">IWICPixelFormatInfo2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicpixelformatinfo2">IWICPixelFormatInfo2</a>
  
 
  

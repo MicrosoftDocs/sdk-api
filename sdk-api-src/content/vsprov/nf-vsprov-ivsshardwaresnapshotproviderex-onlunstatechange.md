@@ -59,12 +59,12 @@ The VSS service calls this method to notify hardware providers of a LUN state ch
 
 ### -param pSnapshotLuns [in]
 
-A pointer to an array of <i>dwCount</i> <a href="https://msdn.microsoft.com/6ad7ec27-add1-4f1e-aa01-6f43c75b7ad9">VDS_LUN_INFORMATION</a> structures,  one for each LUN that contributes to the shadow copy volume.
+A pointer to an array of <i>dwCount</i> <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a> structures,  one for each LUN that contributes to the shadow copy volume.
 
 
 ### -param pOriginalLuns [in]
 
-A pointer to an array of <i>dwCount</i> <a href="https://msdn.microsoft.com/6ad7ec27-add1-4f1e-aa01-6f43c75b7ad9">VDS_LUN_INFORMATION</a> structures,  one for each LUN that contributes to the original volume.
+A pointer to an array of <i>dwCount</i> <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a> structures,  one for each LUN that contributes to the original volume.
 
 
 ### -param dwCount [in]
@@ -74,7 +74,7 @@ Number of elements in the <i>pSnapshotLuns</i> array. This is also the number of
 
 ### -param dwFlags [in]
 
-A bitmask of <a href="https://msdn.microsoft.com/545977ae-7f62-4a8e-9d2f-936224f413b7">_VSS_HARDWARE_OPTIONS</a> flags that provide information about the state change that the shadow copy LUNs have undergone. The following table describes how each flag is used in this parameter.
+A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_hardware_options">_VSS_HARDWARE_OPTIONS</a> flags that provide information about the state change that the shadow copy LUNs have undergone. The following table describes how each flag is used in this parameter.
 
 <table>
 <tr>
@@ -200,7 +200,7 @@ An unexpected provider error occurred. If this is returned, the error must be de
 
 
 
-<a href="https://msdn.microsoft.com/aaf94823-845b-49cb-8599-962229fef4cb">IVssHardwareSnapshotProviderEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivsshardwaresnapshotproviderex">IVssHardwareSnapshotProviderEx</a>
  
 
  

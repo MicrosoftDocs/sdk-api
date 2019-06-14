@@ -64,7 +64,7 @@ Set to True to retrieve the current profiles. Otherwise, False to return all sup
 
 ### -param profileTypes [out]
 
-Data buffer that contains one or more profile types. For possible values, see the <a href="https://msdn.microsoft.com/3b5f940b-a2de-4029-a502-c12ff8290749">IMAPI_PROFILE_TYPE</a> enumeration type. 
+Data buffer that contains one or more profile types. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_profile_type">IMAPI_PROFILE_TYPE</a> enumeration type. 
 
 When done, call the <b>CoTaskMemFree</b> function to free the memory.
 
@@ -395,19 +395,19 @@ Value: 0xC0AA0210
 
 
 
-<a href="https://msdn.microsoft.com/dd8dd2fd-531b-4ed5-9a28-d6b24469e5e7">IDiscRecorder2::get_CurrentProfiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_currentprofiles">IDiscRecorder2::get_CurrentProfiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/7ee1b58b-0289-42e8-a23d-2600b9dd2e21">IDiscRecorder2::get_SupportedProfiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_supportedprofiles">IDiscRecorder2::get_SupportedProfiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/37e65b57-ec53-405c-a7bd-34c2df15d5d7">IDiscRecorder2Ex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b5f940b-a2de-4029-a502-c12ff8290749">IMAPI_PROFILE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_profile_type">IMAPI_PROFILE_TYPE</a>
  
 
  

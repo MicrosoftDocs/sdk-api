@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>Font::IsAvailable</b> method determines whether this 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a> object was created successfully.
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a> object was created successfully.
 
 
 ## -parameters
@@ -78,15 +78,15 @@ If the font was constructed successfully, this method returns <b>TRUE</b>; other
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536194(v=VS.85).aspx">Font::GetLastStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-font-getlaststatus">Font::GetLastStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533817(v=VS.85).aspx">Using Text and Fonts</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>
  
 
  

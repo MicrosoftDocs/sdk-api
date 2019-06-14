@@ -67,7 +67,7 @@ Indicates that no overwriting of tiles occurs in the tile-mapping operation.
 
 
 
-<a href="https://msdn.microsoft.com/b547819b-7006-40b5-84a4-adf198048051">Resource Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-resource-enums">Resource Enumerations</a>
  
 
  

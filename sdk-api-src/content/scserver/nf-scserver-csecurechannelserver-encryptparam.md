@@ -82,7 +82,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 Possible values include, but are not limited to, those in the following table.
 
@@ -113,12 +113,12 @@ Possible values include, but are not limited to, those in the following table.
 
 
 
-Certain parameters, listed in the tables under <a href="https://msdn.microsoft.com/ca4ab93c-0a3e-4fb5-be7f-a8f4eea3c9b7">Using Secure Authenticated Channels</a>, must be included in the message authentication code (MAC) and must be encrypted before the call for data transfer in both directions. Call <b>EncryptParam</b> to encrypt the specified parameters. Do not encrypt any parameters that do not require it.
+Certain parameters, listed in the tables under <a href="https://docs.microsoft.com/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>, must be included in the message authentication code (MAC) and must be encrypted before the call for data transfer in both directions. Call <b>EncryptParam</b> to encrypt the specified parameters. Do not encrypt any parameters that do not require it.
 
 
 #### Examples
 
-The following code demonstrates a service provider's implementation of <a href="https://msdn.microsoft.com/1acf4112-0cb8-47e4-b8dc-3e820c0ef72f">IMDSPObject::Read</a>. This method creates the MAC key using the data to encrypt and the size of the data, and sends them both to the application.
+The following code demonstrates a service provider's implementation of <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-read">IMDSPObject::Read</a>. This method creates the MAC key using the data to encrypt and the size of the data, and sends them both to the application.
 
 
 ```cpp
@@ -208,11 +208,11 @@ Error:
 
 
 
-<a href="https://msdn.microsoft.com/e6e1463a-5a26-4b83-85e0-a639d384a199">CSecureChannelServer Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/42ccaf4a-02a4-432f-a0eb-b7852f0e5406">CSecureChannelServer::DecryptParam</a>
+<a href="https://docs.microsoft.com/previous-versions/bb231598(v%3dvs.85)">CSecureChannelServer::DecryptParam</a>
  
 
  

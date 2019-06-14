@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Provides a mechanism for the provider to persist properties without having to implement <a href="https://msdn.microsoft.com/d6d3d1d1-d2fb-409c-be37-3cd286e325a3">IProviderProperties</a>. This method is called whenever <a href="https://msdn.microsoft.com/en-us/library/Ff536957(v=VS.85).aspx">IPropertyStore::Commit</a> is called by the client on the function instance property store.
+Provides a mechanism for the provider to persist properties without having to implement <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderproperties">IProviderProperties</a>. This method is called whenever <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertystore-commit">IPropertyStore::Commit</a> is called by the client on the function instance property store.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Provides a mechanism for the provider to persist properties without having to im
 
 ### -param pIFunctionInstance [in]
 
- A pointer to the <a href="https://msdn.microsoft.com/cc421719-73a6-4d4d-9bf8-171e46c4e275">IFunctionInstance</a> interface.
+ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a> interface.
 
 
 ### -param iProviderInstanceContext [in]
@@ -139,9 +139,9 @@ The method is unable to allocate the memory required to perform this operation.
 
 
 
-If the provider keeps the new values that are passed through <a href="https://msdn.microsoft.com/5aa3e6a3-febc-4d2d-b58b-abfad28d325d">SetValue</a> cached in memory, this method should implement the code to persist the updated values to the underlying API/store.
+If the provider keeps the new values that are passed through <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-iproviderproperties-setvalue">SetValue</a> cached in memory, this method should implement the code to persist the updated values to the underlying API/store.
 
-If you implement this method, you should call <a href="https://msdn.microsoft.com/3e03567b-7bac-4bef-ae62-a040f0c33cfb">OpenPropertyStore</a> to return the current property store before persisting the data.
+If you implement this method, you should call <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstance-openpropertystore">OpenPropertyStore</a> to return the current property store before persisting the data.
 
 
 
@@ -151,7 +151,7 @@ If you implement this method, you should call <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/e0019d0d-1495-4a0e-a7d9-7772046a4a26">IFunctionDiscoveryProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryprovider">IFunctionDiscoveryProvider</a>
  
 
  

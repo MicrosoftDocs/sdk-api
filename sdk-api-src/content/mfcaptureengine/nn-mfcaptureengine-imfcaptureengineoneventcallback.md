@@ -54,7 +54,7 @@ Callback interface for receiving events from the capture engine.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFCaptureEngineOnEventCallback</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFCaptureEngineOnEventCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFCaptureEngineOnEventCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFCaptureEngineOnEventCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFCaptureEngineOnEventCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/26C5B2E5-0543-49FC-915A-DCE097FF66BA">OnEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengineoneventcallback-onevent">OnEvent</a>
 </td>
 <td align="left" width="63%">
 Called by the capture engine to notify the application of a capture event.
@@ -83,7 +83,7 @@ Called by the capture engine to notify the application of a capture event.
 
 
 
-To set the callback interface on the capture engine, call the <a href="https://msdn.microsoft.com/23EC8B49-2F67-4FB8-AFFA-409823ACCF59">IMFCaptureEngine::Initialize</a> method.
+To set the callback interface on the capture engine, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-initialize">IMFCaptureEngine::Initialize</a> method.
 
 
 
@@ -93,7 +93,7 @@ To set the callback interface on the capture engine, call the <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

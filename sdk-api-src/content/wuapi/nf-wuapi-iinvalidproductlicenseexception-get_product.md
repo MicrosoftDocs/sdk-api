@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/7855fcf7-e82e-4d74-a29a-99ef86b59637">IInvalidProductLicenseException</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iinvalidproductlicenseexception">IInvalidProductLicenseException</a>
  
 
  

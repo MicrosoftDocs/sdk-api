@@ -52,12 +52,12 @@ ms.custom: 19H1
 The 
 <b>IWbemProviderIdentity</b> interface is implemented by an event provider if the provider registers itself using more than one 
 <b>Name</b> (multiple instances of 
-<a href="https://msdn.microsoft.com/41e0d938-00c6-4f4c-8027-8b8512398dee">__Win32Provider</a>) with the same <a href="https://msdn.microsoft.com/en-us/library/ms688628(v=VS.85).aspx">CLSID</a> value. The class provides a mechanism for distinguishing which named provider should be used.
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/--win32provider">__Win32Provider</a>) with the same <a href="https://docs.microsoft.com/windows/desktop/com/clsid">CLSID</a> value. The class provides a mechanism for distinguishing which named provider should be used.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemProviderIdentity</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWbemProviderIdentity</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemProviderIdentity</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemProviderIdentity</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IWbemProviderIdentity</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e600d562-6a93-422c-88f2-d44196191843">SetRegistrationObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemprovideridentity-setregistrationobject">SetRegistrationObject</a>
 </td>
 <td align="left" width="63%">
 Sets the provider object for this registration.

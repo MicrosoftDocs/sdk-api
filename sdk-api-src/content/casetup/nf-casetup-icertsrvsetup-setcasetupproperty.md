@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SetCASetupProperty</b> method sets a property value for a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) configuration.
+The <b>SetCASetupProperty</b> method sets a property value for a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) configuration.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>SetCASetupProperty</b> method sets a property value for a <a href="https:
 
 ### -param propertyId [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb648668(v=VS.85).aspx">CASetupProperty</a> constant that specifies the type of property to configure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/casetup/ne-casetup-__midl___midl_itf_casetup_0000_0002_0001">CASetupProperty</a> constant that specifies the type of property to configure.
 
 The following properties are set as a side effect of other methods and cannot be set directly with this method.
 
@@ -76,7 +76,7 @@ The following properties are set as a side effect of other methods and cannot be
 
 ### -param pPropertyValue [in]
 
-A pointer to a <b>VARIANT</b> that specifies the property value. The <b>VARIANT</b> type depends on the property type. For more information about the <b>VARIANT</b> type, see <a href="https://msdn.microsoft.com/en-us/library/Bb648668(v=VS.85).aspx">CASetupProperty</a>.
+A pointer to a <b>VARIANT</b> that specifies the property value. The <b>VARIANT</b> type depends on the property type. For more information about the <b>VARIANT</b> type, see <a href="https://docs.microsoft.com/windows/desktop/api/casetup/ne-casetup-__midl___midl_itf_casetup_0000_0002_0001">CASetupProperty</a>.
 
 
 ## -see-also
@@ -84,7 +84,7 @@ A pointer to a <b>VARIANT</b> that specifies the property value. The <b>VARIANT<
 
 
 
-<a href="https://msdn.microsoft.com/6792a0d6-d304-481d-a97b-5fb7033c7eae">ICertSrvSetup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>
  
 
  

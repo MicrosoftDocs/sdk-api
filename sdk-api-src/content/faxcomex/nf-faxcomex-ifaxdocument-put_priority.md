@@ -65,7 +65,7 @@ This property is read/write.
 
 
 
-By default, <b>IFaxDocument::get_Priority</b> is set to <a href="https://msdn.microsoft.com/en-us/library/ms689192(v=VS.85).aspx">fptLow</a>, which indicates low priority.
+By default, <b>IFaxDocument::get_Priority</b> is set to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_priority_type_enum">fptLow</a>, which indicates low priority.
 
 
 
@@ -75,15 +75,15 @@ By default, <b>IFaxDocument::get_Priority</b> is set to <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685958(v=VS.85).aspx">FaxDocument</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument">FaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685960(v=VS.85).aspx">IFaxDocument</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdocument">IFaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692936(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>
  
 
  

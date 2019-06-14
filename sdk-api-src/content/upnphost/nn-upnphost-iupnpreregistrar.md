@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPReregistrar</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUPnPReregistrar</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPReregistrar</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUPnPReregistrar</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IUPnPReregistrar</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9f8a0a49-49e4-47b9-93bf-ca32cc80e243">ReregisterDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpreregistrar-reregisterdevice">ReregisterDevice</a>
 </td>
 <td align="left" width="63%">
 Method that re-registers a non-running device by using the original UDN.
@@ -79,7 +79,7 @@ Method that re-registers a non-running device by using the original UDN.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e5e9257e-1143-416c-8862-a69b726f5e23">ReregisterRunningDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpreregistrar-reregisterrunningdevice">ReregisterRunningDevice</a>
 </td>
 <td align="left" width="63%">
 Method that re-registers a running device by using the original UDN.

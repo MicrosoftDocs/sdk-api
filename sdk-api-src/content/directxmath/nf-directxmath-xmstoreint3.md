@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in a 3-element <b>uint32_t</b> array.
+Stores an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> in a 3-element <b>uint32_t</b> array.
 
 
 ## -parameters
@@ -106,23 +106,23 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/0e7b66bd-bdb0-956d-2962-b33ae52b3016">DirectXMath Library Vector Store Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-storage">DirectXMath Library Vector Store Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404659(v=VS.85).aspx">XMINT3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmint3">XMINT3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404702(v=VS.85).aspx">XMStoreSInt3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmstoresint3">XMStoreSInt3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404707(v=VS.85).aspx">XMStoreUInt3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmstoreuint3">XMStoreUInt3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404750(v=VS.85).aspx">XMUINT3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmuint3">XMUINT3</a>
  
 
  

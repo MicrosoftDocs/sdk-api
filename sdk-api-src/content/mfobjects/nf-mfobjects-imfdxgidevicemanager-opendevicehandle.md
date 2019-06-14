@@ -91,7 +91,7 @@ Success.
 </dl>
 </td>
 <td width="60%">
-The DXGI Device Manager was not initialized. The owner of the device must call <a href="https://msdn.microsoft.com/D8A2291A-792B-4D24-997A-9C152FFE5426">IMFDXGIDeviceManager::ResetDevice</a>.
+The DXGI Device Manager was not initialized. The owner of the device must call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgidevicemanager-resetdevice">IMFDXGIDeviceManager::ResetDevice</a>.
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ The DXGI Device Manager was not initialized. The owner of the device must call <
 
 
 
-<a href="https://msdn.microsoft.com/4A0DC266-FCF0-4ECD-AC78-CF429839486D">IMFDXGIDeviceManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a>
  
 
  

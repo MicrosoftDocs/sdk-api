@@ -54,7 +54,7 @@ Provides access to the file access mode that was used when the <a href="https://
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRandomAccessStreamFileAccessMode</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IRandomAccessStreamFileAccessMode</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRandomAccessStreamFileAccessMode</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRandomAccessStreamFileAccessMode</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IRandomAccessStreamFileAccessMode</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F542C4E4-5B65-4909-AF08-C129297A1085">GetMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windowsstoragecom/nf-windowsstoragecom-irandomaccessstreamfileaccessmode-getmode">GetMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the file access mode that was used when the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.storage.storagefile.openasync">StorageFile.OpenAsync</a> method was called to open the random-access byte stream.
@@ -84,7 +84,7 @@ Retrieves the file access mode that was used when the <a href="https://docs.micr
 
 
 
-<a href="https://msdn.microsoft.com/D2ECEB3D-D13E-44C1-BFE2-1AA57F7432C6">IRandomAccessStream</a>
+<a href="https://docs.microsoft.com/previous-versions//hh438400(v=vs.85)">IRandomAccessStream</a>
 
 
 

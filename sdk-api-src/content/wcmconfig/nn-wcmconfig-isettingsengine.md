@@ -54,7 +54,7 @@ The central interface for opening namespaces and controlling how they are opened
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISettingsEngine</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISettingsEngine</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISettingsEngine</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISettingsEngine</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISettingsEngine</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/459a97fb-e5fb-42a5-998d-84631fec2e6f">ApplySettingsContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsengine-applysettingscontext">ApplySettingsContext</a>
 </td>
 <td align="left" width="63%">
  Applies the context to the engine.
@@ -78,7 +78,7 @@ The <b>ISettingsEngine</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a9fe2c24-f696-4726-8e67-07280c8e8a3e">CreateSettingsContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsengine-createsettingscontext">CreateSettingsContext</a>
 </td>
 <td align="left" width="63%">
  Creates a settings context.
@@ -87,7 +87,7 @@ The <b>ISettingsEngine</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b48e6784-5565-4809-873e-cadedce57743">CreateSettingsIdentity</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsengine-createsettingsidentity">CreateSettingsIdentity</a>
 </td>
 <td align="left" width="63%">
 Creates an empty settings identity.
@@ -96,7 +96,7 @@ Creates an empty settings identity.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f3d31643-c606-4fc1-96a8-cf5cb26bcf3f">CreateTargetInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsengine-createtargetinfo">CreateTargetInfo</a>
 </td>
 <td align="left" width="63%">
  Creates an empty target.
@@ -105,7 +105,7 @@ Creates an empty settings identity.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1a1ac3eb-c2d5-4a23-928e-51ef1a52ad73">GetErrorDescription</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsengine-geterrordescription">GetErrorDescription</a>
 </td>
 <td align="left" width="63%">
 Retrieves the message string associated with an HResult value.
@@ -114,7 +114,7 @@ Retrieves the message string associated with an HResult value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4f8193f5-9e9f-4819-aa2e-72b8623eca71">GetNamespace</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsengine-getnamespace">GetNamespace</a>
 </td>
 <td align="left" width="63%">
 Opens an existing namespace that contains the settings and metadata to access.
@@ -123,7 +123,7 @@ Opens an existing namespace that contains the settings and metadata to access.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4f8193f5-9e9f-4819-aa2e-72b8623eca71">GetNamespaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsengine-getnamespace">GetNamespaces</a>
 </td>
 <td align="left" width="63%">
 Retrieves a dictionary of installed namespaces, that the current user owns, and all shared namespaces. Use an identifier from the collection to open a namespace.
@@ -132,7 +132,7 @@ Retrieves a dictionary of installed namespaces, that the current user owns, and 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/212299b4-d7b3-4a11-b75e-7e752bb91932">GetStoreStatus</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsengine-getstorestatus">GetStoreStatus</a>
 </td>
 <td align="left" width="63%">
 Gets the status of the schema store.
@@ -141,7 +141,7 @@ Gets the status of the schema store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2e14644b-84bc-48eb-8d8c-d6290db72dea">GetTargetInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsengine-gettargetinfo">GetTargetInfo</a>
 </td>
 <td align="left" width="63%">
  Gets the current offline target for engine.
@@ -150,7 +150,7 @@ Gets the status of the schema store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dd255730-1c42-41a3-b274-e2abe53f210e">LoadStore</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsengine-loadstore">LoadStore</a>
 </td>
 <td align="left" width="63%">
 Initializes and loads the schema store.
@@ -159,7 +159,7 @@ Initializes and loads the schema store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9b9ffba8-b2b7-469e-96d2-78b086987fae">RegisterNamespace</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsengine-registernamespace">RegisterNamespace</a>
 </td>
 <td align="left" width="63%">
 Registers a namespace from the stream and upgrades the setting values from the older version.
@@ -168,7 +168,7 @@ Registers a namespace from the stream and upgrades the setting values from the o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a33a0155-0533-4450-9e03-2688ad776a1a">SetTargetInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsengine-settargetinfo">SetTargetInfo</a>
 </td>
 <td align="left" width="63%">
  Sets the current offline target for engine.
@@ -177,7 +177,7 @@ Registers a namespace from the stream and upgrades the setting values from the o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/10c0e5c7-41df-4ebb-86be-0c2c6e013849">UnloadStore</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsengine-unloadstore">UnloadStore</a>
 </td>
 <td align="left" width="63%">
 Unloads the schema store and frees resources.
@@ -186,7 +186,7 @@ Unloads the schema store and frees resources.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c7254f87-fdf8-4b51-9a06-e593490cd3c5">UnregisterNamespace</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsengine-unregisternamespace">UnregisterNamespace</a>
 </td>
 <td align="left" width="63%">
 Unregisters an existing namespace.

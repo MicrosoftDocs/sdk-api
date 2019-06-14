@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Provides the delegate folder an <a href="https://msdn.microsoft.com/047f281e-2665-4d6d-9a0b-918cd3339447">IMalloc</a> interface used to allocate and free item IDs.
+Provides the delegate folder an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> interface used to allocate and free item IDs.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ Provides the delegate folder an <a href="https://msdn.microsoft.com/047f281e-266
 
 ### -param pmalloc [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/047f281e-2665-4d6d-9a0b-918cd3339447">IMalloc</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/047f281e-2665-4d6d-9a0b-918cd3339447">IMalloc</a> interface.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> interface.
 
 
 ## -returns

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Releases a TYPEATTR previously returned by <a href="https://msdn.microsoft.com/62be8a38-1d51-4b54-b224-7d9cdbb1be59">ITypeInfo::GetTypeAttr</a>.
+Releases a TYPEATTR previously returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-gettypeattr">ITypeInfo::GetTypeAttr</a>.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/f3356463-3373-4279-bae1-953378aa2680">ITypeInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
  
 
  

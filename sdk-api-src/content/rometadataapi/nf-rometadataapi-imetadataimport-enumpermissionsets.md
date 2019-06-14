@@ -69,7 +69,7 @@ A metadata token that limits the scope of the search, or NULL to search the wide
 
 ### -param dwActions [in]
 
- Flags representing the <a href="http://msdn.microsoft.com/en-us/library/system.security.permissions.securityaction.aspx">SecurityAction</a> values to include in <i>rPermission</i>, or zero to return all actions.
+ Flags representing the <a href="https://docs.microsoft.com/dotnet/api/system.security.permissions.securityaction?redirectedfrom=MSDN">SecurityAction</a> values to include in <i>rPermission</i>, or zero to return all actions.
 
 
 ### -param rPermission [out]
@@ -118,7 +118,7 @@ The number of Permission tokens returned in <i>rPermission</i>.
 
 
 
-<a href="https://msdn.microsoft.com/5457d9d3-9a43-4e89-a52f-1254662ed92a">IMetaDataImport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
  
 
  

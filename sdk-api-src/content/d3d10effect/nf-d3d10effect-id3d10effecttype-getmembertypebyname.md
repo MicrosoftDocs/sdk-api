@@ -59,7 +59,7 @@ Get an member type by name.
 
 ### -param Name [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
 A member's name.
 
@@ -68,9 +68,9 @@ A member's name.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173716(v=VS.85).aspx">ID3D10EffectType</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effecttype">ID3D10EffectType</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb173716(v=VS.85).aspx">ID3D10EffectType Interface</a>.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effecttype">ID3D10EffectType Interface</a>.
 
 
 
@@ -80,7 +80,7 @@ A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb173716(v=VS.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173716(v=VS.85).aspx">ID3D10EffectType Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effecttype">ID3D10EffectType Interface</a>
  
 
  

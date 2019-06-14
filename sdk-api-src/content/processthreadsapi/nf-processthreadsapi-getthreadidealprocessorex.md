@@ -65,12 +65,12 @@ Retrieves the processor number of the ideal processor for the specified thread.
 
 ### -param hThread [in]
 
-A handle to the thread for which to retrieve the ideal processor. This handle must have been created with the THREAD_QUERY_LIMITED_INFORMATION access right. For more information, see <a href="https://msdn.microsoft.com/72709446-5c59-4fac-8dc8-7912906ecc85">Thread Security and Access Rights</a>.
+A handle to the thread for which to retrieve the ideal processor. This handle must have been created with the THREAD_QUERY_LIMITED_INFORMATION access right. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-security-and-access-rights">Thread Security and Access Rights</a>.
 
 
 ### -param lpIdealProcessor [out]
 
-Points to <a href="https://msdn.microsoft.com/9005c6d4-07a9-4ce0-9ee2-54880d7244c3">PROCESSOR_NUMBER</a> structure to receive the number of the ideal processor.
+Points to <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_processor_number">PROCESSOR_NUMBER</a> structure to receive the number of the ideal processor.
 
 
 ## -returns
@@ -79,7 +79,7 @@ Points to <a href="https://msdn.microsoft.com/9005c6d4-07a9-4ce0-9ee2-54880d7244
 
 If the function succeeds, it returns a nonzero value.
 
-If the function fails, it returns zero. To get extended error information, use <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, it returns zero. To get extended error information, use <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -88,7 +88,7 @@ If the function fails, it returns zero. To get extended error information, use <
 
 
 
-To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0601. For more information, see <a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0601. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 
@@ -98,7 +98,7 @@ To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0601
 
 
 
-<a href="https://msdn.microsoft.com/6b599a99-41c5-45c7-8aeb-87d8f34e9e82">SetThreadIdealProcessorEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadidealprocessorex">SetThreadIdealProcessorEx</a>
  
 
  

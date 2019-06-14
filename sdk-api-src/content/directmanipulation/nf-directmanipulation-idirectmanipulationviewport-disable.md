@@ -76,7 +76,7 @@ When a viewport is disabled, it immediately stops all transforms and moves the c
 
 Call this method when you want to modify multiple attributes atomically. This method can be called at any time. 
 
-The viewport will not resume processing input until <a href="https://msdn.microsoft.com/47ebb502-26c6-4bff-8baf-bd825fc06755">Enable</a> is called. 
+The viewport will not resume processing input until <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-enable">Enable</a> is called. 
 
 
 #### Examples
@@ -97,7 +97,7 @@ HRESULT hr = pViewport->Disable();
 
 
 
-<a href="https://msdn.microsoft.com/4c14143b-3b5f-401d-9df7-f17374abcd99">IDirectManipulationViewport</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport">IDirectManipulationViewport</a>
  
 
  

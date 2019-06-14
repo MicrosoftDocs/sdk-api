@@ -59,12 +59,12 @@ The DD_SYNCSURFACEDATA structure contains the surface information.
 
 ### -field lpDD
 
-Points to a <a href="https://msdn.microsoft.com/58e378b7-863a-46d4-91cb-904ed4e892a3">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
 
 
 ### -field lpDDSurface
 
-Points to the <a href="https://msdn.microsoft.com/45a41cec-0257-4e26-809d-c2fc4c247328">DD_SURFACE_LOCAL</a> structure that describes the surface with which to sync. 
+Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_local">DD_SURFACE_LOCAL</a> structure that describes the surface with which to sync. 
 
 
 ### -field dwSurfaceOffset
@@ -74,12 +74,12 @@ Contains the byte offset from the start of the frame buffer to the start of the 
 
 ### -field fpLockPtr
 
-Contains the pointer value to be returned by the <a href="https://msdn.microsoft.com/b5256ed8-79be-4c7b-a079-ed3bca954e9e">DdLock</a> call for accessing the surface. This value is used by a kernel-mode client. This member can be modified by the driver, but does not need to be. 
+Contains the pointer value to be returned by the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_lock">DdLock</a> call for accessing the surface. This value is used by a kernel-mode client. This member can be modified by the driver, but does not need to be. 
 
 
 ### -field lPitch
 
-Contains the pitch in bytes passed to the client during a <a href="https://msdn.microsoft.com/b5256ed8-79be-4c7b-a079-ed3bca954e9e">DdLock</a> call. This member can be modified by the driver, but does not need to be. 
+Contains the pitch in bytes passed to the client during a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_lock">DdLock</a> call. This member can be modified by the driver, but does not need to be. 
 
 
 ### -field dwOverlayOffset
@@ -109,7 +109,7 @@ Reserved for use by the display driver. Windows 2000 and later only.
 
 ### -field ddRVal
 
-Specifies the location in which the driver writes the return value of the <a href="https://msdn.microsoft.com/730e0fd4-aaae-4de7-86d5-fa2145be3cd1">DdSyncSurfaceData</a> callback. A return code of DD_OK indicates success. For more information, see <a href="https://msdn.microsoft.com/da4cc7d7-6826-48aa-96c6-004e31fc3e3e">Return Values for DirectDraw</a>.
+Specifies the location in which the driver writes the return value of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_kernelcb_syncsurface">DdSyncSurfaceData</a> callback. A return code of DD_OK indicates success. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/return-values-for-directdraw">Return Values for DirectDraw</a>.
 
 
 ## -see-also
@@ -117,11 +117,11 @@ Specifies the location in which the driver writes the return value of the <a hre
 
 
 
-<a href="https://msdn.microsoft.com/b5256ed8-79be-4c7b-a079-ed3bca954e9e">DdLock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_lock">DdLock</a>
 
 
 
-<a href="https://msdn.microsoft.com/730e0fd4-aaae-4de7-86d5-fa2145be3cd1">DdSyncSurfaceData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_kernelcb_syncsurface">DdSyncSurfaceData</a>
  
 
  

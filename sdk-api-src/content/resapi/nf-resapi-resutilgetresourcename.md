@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns the name of a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a>. The 
+Returns the name of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a>. The 
     <b>PRESUTIL_GET_RESOURCE_NAME</b> type defines a pointer to this function.
 
 
@@ -62,7 +62,7 @@ Returns the name of a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe
 ### -param hResource [in]
 
 Resource handle (see 
-      <a href="https://msdn.microsoft.com/c699cb00-b999-45b8-b9db-570150e1a65e">OpenClusterResource</a>).
+      <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusterresource">OpenClusterResource</a>).
 
 
 ### -param pszResourceName [out]
@@ -84,7 +84,7 @@ On input, specifies the size of the buffer pointed to by <i>pszResourceName</i>,
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, the function returns a 
-       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 
 

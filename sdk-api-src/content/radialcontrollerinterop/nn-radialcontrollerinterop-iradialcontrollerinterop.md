@@ -69,7 +69,7 @@ The <b>IRadialControllerInterop</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fe419ce2-9767-42c4-aaa6-a9b9ea93ec3e">CreateForWindow</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/radialcontrollerinterop/nf-radialcontrollerinterop-iradialcontrollerinterop-createforwindow">CreateForWindow</a>
 </td>
 <td align="left" width="63%">
 Instantiates a <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.input.radialcontroller">RadialController</a> object and binds it to the active application.
@@ -88,7 +88,7 @@ Instantiates a <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.inpu
 
 
 
-<a href="https://msdn.microsoft.com/44FED16E-63FB-466B-9615-8B744F861AE9">Radial controller interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_radial/radial-controller-interfaces">Radial controller interfaces</a>
 
 
 

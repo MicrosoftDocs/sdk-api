@@ -78,7 +78,7 @@ Phone provider string.
 
 
 
-<a href="https://msdn.microsoft.com/e4a0ed77-455e-428c-a3e5-cd467e47b5b2">ITPhone::get_PhoneCapsString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_phonecapsstring">ITPhone::get_PhoneCapsString</a>
  
 
  

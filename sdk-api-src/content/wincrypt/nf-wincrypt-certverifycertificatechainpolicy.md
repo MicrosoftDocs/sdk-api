@@ -85,9 +85,9 @@ Implements the base chain policy verification checks. The <b>dwFlags</b> member 
 </td>
 <td width="60%">
 Implements the Authenticode chain policy verification checks. The <b>pvExtraPolicyPara</b> member of the structure pointed to by <i>pPolicyPara</i> can be set to point to an 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375586(v=VS.85).aspx">AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_authenticode_extra_cert_chain_policy_para">AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA</a> structure.
 
-The <b>pvExtraPolicyStatus</b> member of the structure pointed to by <i>pPolicyStatus</i> can be set to point to an <a href="https://msdn.microsoft.com/en-us/library/Aa375589(v=VS.85).aspx">AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS</a> structure.
+The <b>pvExtraPolicyStatus</b> member of the structure pointed to by <i>pPolicyStatus</i> can be set to point to an <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_authenticode_extra_cert_chain_policy_status">AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS</a> structure.
 
 </td>
 </tr>
@@ -98,7 +98,7 @@ The <b>pvExtraPolicyStatus</b> member of the structure pointed to by <i>pPolicyS
 </dl>
 </td>
 <td width="60%">
-Implements Authenticode Time Stamp chain policy verification checks. The <b>pvExtraPolicyPara</b> member of the data structure pointed to by <i>pPolicyPara</i> can be set to point to an <a href="https://msdn.microsoft.com/en-us/library/Aa375594(v=VS.85).aspx">AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA</a> structure.
+Implements Authenticode Time Stamp chain policy verification checks. The <b>pvExtraPolicyPara</b> member of the data structure pointed to by <i>pPolicyPara</i> can be set to point to an <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_authenticode_ts_extra_cert_chain_policy_para">AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA</a> structure.
 
 The <b>pvExtraPolicyStatus</b> member of the data structure pointed to by <i>pPolicyStatus</i> is not used and must be set to <b>NULL</b>
 
@@ -111,9 +111,9 @@ The <b>pvExtraPolicyStatus</b> member of the data structure pointed to by <i>pPo
 </dl>
 </td>
 <td width="60%">
-Implements the SSL client/server chain policy verification checks. The <b>pvExtraPolicyPara</b> member in the data structure pointed to by <i>pPolicyPara</i> can be set to point to an <a href="https://msdn.microsoft.com/3422693a-3fad-4ed8-9fab-d9a185476123">SSL_EXTRA_CERT_CHAIN_POLICY_PARA</a> structure initialized with additional policy criteria.
+Implements the SSL client/server chain policy verification checks. The <b>pvExtraPolicyPara</b> member in the data structure pointed to by <i>pPolicyPara</i> can be set to point to an <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_httpspolicycallbackdata">SSL_EXTRA_CERT_CHAIN_POLICY_PARA</a> structure initialized with additional policy criteria.
 
-<div class="alert"><b>Note</b>  To differentiate between server and client authorization certificates,  the call to the  <a href="https://msdn.microsoft.com/8c93036c-0b93-40d4-b0e3-ba1f2fc72db1">CertGetCertificateChain</a> function to get the chain context should specify the  certificate type by setting the expected usage. Set the expected usage by setting the <b>RequestedUsage</b> member of the  <a href="https://msdn.microsoft.com/86094e1c-be59-4a15-a05b-21769f80e653">CERT_CHAIN_PARA</a> structure passed in the <i>pChainPara</i> input parameter of the <b>CertGetCertificateChain</b> function.</div>
+<div class="alert"><b>Note</b>  To differentiate between server and client authorization certificates,  the call to the  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a> function to get the chain context should specify the  certificate type by setting the expected usage. Set the expected usage by setting the <b>RequestedUsage</b> member of the  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_para">CERT_CHAIN_PARA</a> structure passed in the <i>pChainPara</i> input parameter of the <b>CertGetCertificateChain</b> function.</div>
 <div> </div>
 </td>
 </tr>
@@ -124,7 +124,7 @@ Implements the SSL client/server chain policy verification checks. The <b>pvExtr
 </dl>
 </td>
 <td width="60%">
-Implements the basic constraints chain policy. Iterates through all the certificates in the chain checking for either a szOID_BASIC_CONSTRAINTS or a szOID_BASIC_CONSTRAINTS2 extension. If neither extension is present, the certificate is assumed to have valid policy. Otherwise, for the first certificate element, checks if it matches the expected CA_FLAG or END_ENTITY_FLAG specified in the <b>dwFlags</b> member of the <a href="https://msdn.microsoft.com/5e4fffcb-132b-42c0-81b2-9f866e274c32">CERT_CHAIN_POLICY_PARA</a> structure pointed to by the <i>pPolicyPara</i> parameter. If neither or both flags are set, then, the first element can be either a CA or END_ENTITY. All other elements must be a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA). If the PathLenConstraint is present in the extension, it is checked.
+Implements the basic constraints chain policy. Iterates through all the certificates in the chain checking for either a szOID_BASIC_CONSTRAINTS or a szOID_BASIC_CONSTRAINTS2 extension. If neither extension is present, the certificate is assumed to have valid policy. Otherwise, for the first certificate element, checks if it matches the expected CA_FLAG or END_ENTITY_FLAG specified in the <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_policy_para">CERT_CHAIN_POLICY_PARA</a> structure pointed to by the <i>pPolicyPara</i> parameter. If neither or both flags are set, then, the first element can be either a CA or END_ENTITY. All other elements must be a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA). If the PathLenConstraint is present in the extension, it is checked.
 
 The first elements in the remaining simple chains (that is, the certificates used to sign the CTL) are checked to be an END_ENTITY. If this verification fails, <b>dwError</b> will be set to TRUST_E_BASIC_CONSTRAINTS.
 
@@ -158,13 +158,13 @@ Implements the Windows NT Authentication chain policy, which consists of three 
 </dl>
 </td>
 <td width="60%">
-Checks the last element of the first simple chain for a Microsoft root public key. If that element does not contain a Microsoft root public key, the <b>dwError</b> member of the <a href="https://msdn.microsoft.com/599a09b6-fe9e-4489-99ae-8a88fa78a660">CERT_CHAIN_POLICY_STATUS</a> structure pointed to by the <i>pPolicyStatus</i> parameter is set to <b>CERT_E_UNTRUSTEDROOT</b>.
+Checks the last element of the first simple chain for a Microsoft root public key. If that element does not contain a Microsoft root public key, the <b>dwError</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_policy_status">CERT_CHAIN_POLICY_STATUS</a> structure pointed to by the <i>pPolicyStatus</i> parameter is set to <b>CERT_E_UNTRUSTEDROOT</b>.
 
-The <b>dwFlags</b> member of the <a href="https://msdn.microsoft.com/5e4fffcb-132b-42c0-81b2-9f866e274c32">CERT_CHAIN_POLICY_PARA</a> structure pointed to by the <i>pPolicyStatus</i> parameter can contain the <b>MICROSOFT_ROOT_CERT_CHAIN_POLICY_CHECK_APPLICATION_ROOT_FLAG</b> flag, which causes this function to also check for the Microsoft application root "Microsoft Root Certificate Authority 2011".
+The <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_policy_para">CERT_CHAIN_POLICY_PARA</a> structure pointed to by the <i>pPolicyStatus</i> parameter can contain the <b>MICROSOFT_ROOT_CERT_CHAIN_POLICY_CHECK_APPLICATION_ROOT_FLAG</b> flag, which causes this function to also check for the Microsoft application root "Microsoft Root Certificate Authority 2011".
 
-The <b>dwFlags</b> member of the <a href="https://msdn.microsoft.com/5e4fffcb-132b-42c0-81b2-9f866e274c32">CERT_CHAIN_POLICY_PARA</a> structure pointed to by the <i>pPolicyPara</i> parameter can contain the <b>MICROSOFT_ROOT_CERT_CHAIN_POLICY_ENABLE_TEST_ROOT_FLAG</b> flag, which causes this function to also check for the Microsoft test roots.
+The <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_policy_para">CERT_CHAIN_POLICY_PARA</a> structure pointed to by the <i>pPolicyPara</i> parameter can contain the <b>MICROSOFT_ROOT_CERT_CHAIN_POLICY_ENABLE_TEST_ROOT_FLAG</b> flag, which causes this function to also check for the Microsoft test roots.
 
-<div class="alert"><b>Note</b>  This policy <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) does not perform any policy verification checks by itself, it is meant to be used in conjunction with other policies.
+<div class="alert"><b>Note</b>  This policy <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) does not perform any policy verification checks by itself, it is meant to be used in conjunction with other policies.
 </div>
 <div> </div>
 </td>
@@ -189,7 +189,7 @@ Specifies that extended validation of certificates is performed.
 </dl>
 </td>
 <td width="60%">
-Checks if any certificates in the chain have weak crypto or if third party root certificate compliance and provide an error string. The <b>pvExtraPolicyStatus</b> member of the CERT_CHAIN_POLICY_STATUS structure pointed to by the <i>pPolicyStatus</i> parameter must point to <a href="https://msdn.microsoft.com/en-us/library/Mt759536(v=VS.85).aspx">SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS</a>, which is updated with the results of the weak crypto and root program compliance checks.
+Checks if any certificates in the chain have weak crypto or if third party root certificate compliance and provide an error string. The <b>pvExtraPolicyStatus</b> member of the CERT_CHAIN_POLICY_STATUS structure pointed to by the <i>pPolicyStatus</i> parameter must point to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ssl_f12_extra_cert_chain_policy_status">SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS</a>, which is updated with the results of the weak crypto and root program compliance checks.
 
 Before calling, the <b>cbSize</b> member of the 	CERT_CHAIN_POLICY_STATUS structure pointed to by the <i>pPolicyStatus</i> parameter must be set to a value greater than or equal to sizeof(SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS).
 
@@ -206,13 +206,13 @@ The <b>dwError</b> member in CERT_CHAIN_POLICY_STATUS structure pointed to by th
 ### -param pChainContext [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/609311f4-9cd6-4945-9f93-7266b3fc4a74">CERT_CHAIN_CONTEXT</a> structure that contains a chain to be verified.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_context">CERT_CHAIN_CONTEXT</a> structure that contains a chain to be verified.
 
 
 ### -param pPolicyPara [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/5e4fffcb-132b-42c0-81b2-9f866e274c32">CERT_CHAIN_POLICY_PARA</a> structure that provides the policy verification criteria for the chain. The <b>dwFlags</b> member of that structure can be set to change the default policy checking behavior. 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_policy_para">CERT_CHAIN_POLICY_PARA</a> structure that provides the policy verification criteria for the chain. The <b>dwFlags</b> member of that structure can be set to change the default policy checking behavior. 
 
 
 
@@ -223,7 +223,7 @@ In addition, policy-specific parameters can also be passed in the <b>pvExtraPoli
 ### -param pPolicyStatus [in, out]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/599a09b6-fe9e-4489-99ae-8a88fa78a660">CERT_CHAIN_POLICY_STATUS</a> structure where status information on the chain is returned. OID-specific extra status can be returned in the <b>pvExtraPolicyStatus</b> member of this structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_policy_status">CERT_CHAIN_POLICY_STATUS</a> structure where status information on the chain is returned. OID-specific extra status can be returned in the <b>pvExtraPolicyStatus</b> member of this structure.
 
 
 ## -returns
@@ -246,13 +246,13 @@ A value of <b>FALSE</b>  indicates that the function wasn't able to check for th
 
 
 A <b>dwError</b> member of the 
-<a href="https://msdn.microsoft.com/599a09b6-fe9e-4489-99ae-8a88fa78a660">CERT_CHAIN_POLICY_STATUS</a> structure pointed to by <i>pPolicyStatus</i> can apply to a single chain element, to a simple chain, or to an entire chain context. If <b>dwError</b> applies to the entire chain context, both the <b>lChainIndex</b> and the <b>lElementIndex</b> members of the <b>CERT_CHAIN_POLICY_STATUS</b> structure are set to –1. If <b>dwError</b> applies to a complete simple chain, <b>lElementIndex</b> is set to –1 and <b>lChainIndex</b> is set to the index of the first chain that has an error. If <b>dwError</b> applies to a single certificate element, <b>lChainIndex</b> and <b>lElementIndex</b> index the first certificate that has the error. 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_policy_status">CERT_CHAIN_POLICY_STATUS</a> structure pointed to by <i>pPolicyStatus</i> can apply to a single chain element, to a simple chain, or to an entire chain context. If <b>dwError</b> applies to the entire chain context, both the <b>lChainIndex</b> and the <b>lElementIndex</b> members of the <b>CERT_CHAIN_POLICY_STATUS</b> structure are set to –1. If <b>dwError</b> applies to a complete simple chain, <b>lElementIndex</b> is set to –1 and <b>lChainIndex</b> is set to the index of the first chain that has an error. If <b>dwError</b> applies to a single certificate element, <b>lChainIndex</b> and <b>lElementIndex</b> index the first certificate that has the error. 
 
 To get the certificate element use this syntax: 
 
 <code>pChainContext-&gt;rgpChain[lChainIndex]-&gt;rgpElement[lElementIndex];</code>
 
-      Use the <a href="https://msdn.microsoft.com/8c93036c-0b93-40d4-b0e3-ba1f2fc72db1">CertGetCertificateChain</a> function to enable and perform certificate revocation checking.  The <b>CertVerifyCertificateChainPolicy</b> function does not check if certificates in the certificate chain are revoked.
+      Use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a> function to enable and perform certificate revocation checking.  The <b>CertVerifyCertificateChainPolicy</b> function does not check if certificates in the certificate chain are revoked.
 
 
 
@@ -262,35 +262,35 @@ To get the certificate element use this syntax:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375586(v=VS.85).aspx">AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_authenticode_extra_cert_chain_policy_para">AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375589(v=VS.85).aspx">AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_authenticode_extra_cert_chain_policy_status">AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375594(v=VS.85).aspx">AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_authenticode_ts_extra_cert_chain_policy_para">AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA</a>
 
 
 
-<a href="https://msdn.microsoft.com/609311f4-9cd6-4945-9f93-7266b3fc4a74">CERT_CHAIN_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_context">CERT_CHAIN_CONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/5e4fffcb-132b-42c0-81b2-9f866e274c32">CERT_CHAIN_POLICY_PARA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_policy_para">CERT_CHAIN_POLICY_PARA</a>
 
 
 
-<a href="https://msdn.microsoft.com/599a09b6-fe9e-4489-99ae-8a88fa78a660">CERT_CHAIN_POLICY_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_policy_status">CERT_CHAIN_POLICY_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c93036c-0b93-40d4-b0e3-ba1f2fc72db1">CertGetCertificateChain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Chain Verification Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Chain Verification Functions</a>
  
 
  

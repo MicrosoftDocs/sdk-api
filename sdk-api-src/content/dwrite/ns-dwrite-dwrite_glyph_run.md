@@ -61,7 +61,7 @@ Contains the information needed by renderers to draw glyph runs.
 
 ### -field fontFace
 
-Type: <b><a href="https://msdn.microsoft.com/1b6bb9e2-cf01-413c-9ee8-42bb0f703ce8">IDWriteFontFace</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontface">IDWriteFontFace</a>*</b>
 
 The physical font face object to draw with.
 
@@ -96,7 +96,7 @@ A pointer to an array containing glyph advance widths for the glyph run.
 
 ### -field glyphOffsets
 
-Type: <b>const <a href="https://msdn.microsoft.com/f5a231c0-78df-4fe0-99a8-81fcad517cda">DWRITE_GLYPH_OFFSET</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_glyph_offset">DWRITE_GLYPH_OFFSET</a>*</b>
 
 A pointer to an array containing glyph offsets for the glyph run.
 

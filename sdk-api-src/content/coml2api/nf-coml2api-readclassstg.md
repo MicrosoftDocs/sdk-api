@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The <b>ReadClassStg</b> function
 			reads the CLSID previously written to a storage object with the 
-<a href="https://msdn.microsoft.com/5f2f16d1-923f-4ba7-8d4b-7e8535f6f15e">WriteClassStg</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-writeclassstg">WriteClassStg</a> function.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ The <b>ReadClassStg</b> function
 ### -param pStg [in]
 
 Pointer to the 
-<a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> interface on the storage object containing the CLSID to be retrieved.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface on the storage object containing the CLSID to be retrieved.
 
 
 ### -param pclsid [out]
@@ -79,7 +79,7 @@ Pointer to where the CLSID is written. May return CLSID_NULL.
 This function supports the standard return value E_OUTOFMEMORY, in addition to the following:
 
 This function also returns any of the error values returned by the 
-<a href="https://msdn.microsoft.com/87478fa8-1b5f-44ed-bffc-e139c7f44a12">IStorage::Stat</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-stat">IStorage::Stat</a> method.
 
 
 
@@ -88,9 +88,9 @@ This function also returns any of the error values returned by the
 
 
 
-<b>ReadClassStg</b> is a helper function that calls the <a href="https://msdn.microsoft.com/87478fa8-1b5f-44ed-bffc-e139c7f44a12">IStorage::Stat</a> method and retrieves the CLSID previously written to the storage object with a call to 
-<a href="https://msdn.microsoft.com/5f2f16d1-923f-4ba7-8d4b-7e8535f6f15e">WriteClassStg</a> from the 
-<a href="https://msdn.microsoft.com/54e1df08-de8f-430a-bf76-e66594df4839">STATSTG</a> structure.
+<b>ReadClassStg</b> is a helper function that calls the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-stat">IStorage::Stat</a> method and retrieves the CLSID previously written to the storage object with a call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-writeclassstg">WriteClassStg</a> from the 
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structure.
 
 
 
@@ -100,19 +100,19 @@ This function also returns any of the error values returned by the
 
 
 
-<a href="https://msdn.microsoft.com/87478fa8-1b5f-44ed-bffc-e139c7f44a12">IStorage::Stat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-stat">IStorage::Stat</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms694338(v=VS.85).aspx">OleLoad</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleload">OleLoad</a>
 
 
 
-<a href="https://msdn.microsoft.com/54e1df08-de8f-430a-bf76-e66594df4839">STATSTG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f2f16d1-923f-4ba7-8d4b-7e8535f6f15e">WriteClassStg</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-writeclassstg">WriteClassStg</a>
  
 
  

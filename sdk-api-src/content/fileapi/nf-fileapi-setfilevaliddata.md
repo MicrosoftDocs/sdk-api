@@ -69,7 +69,7 @@ Sets the valid data length of the specified file. This function is useful in ver
 ### -param hFile [in]
 
 A handle to the file. The file must have been opened with the <b>GENERIC_WRITE</b> access right, and the <b>SE_MANAGE_VOLUME_NAME</b> privilege enabled. For more information, see 
-<a href="https://msdn.microsoft.com/991d7d94-fae7-406f-b2e3-dee811279366">File Security and Access Rights</a>.
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
 <div class="alert"><b>Note</b>  The file cannot be a network file, or be compressed, sparse, or transacted.</div>
 <div> </div>
@@ -88,7 +88,7 @@ This parameter must be a positive value that is greater than the current valid d
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is 0. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -97,7 +97,7 @@ If the function fails, the return value is 0. To get extended error information,
 
 
 
-The <b>SetFileValidData</b> function sets the logical end of a file. To set the size of a file, use the <a href="https://msdn.microsoft.com/2a579609-144a-4b77-8605-87aecf1f0957">SetEndOfFile</a> function. The physical file size is also referred to as the end of the file.
+The <b>SetFileValidData</b> function sets the logical end of a file. To set the size of a file, use the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setendoffile">SetEndOfFile</a> function. The physical file size is also referred to as the end of the file.
 
 Each file stream has the following properties:
 
@@ -125,9 +125,9 @@ If the caller of <b>SetFileValidData</b> opened the file with adequately restric
 It is for these reasons that <b>SetFileValidData</b> is not recommended for general purpose use, in addition to performance considerations, as discussed below.
 
 For more information about security and access privileges, see 
-<a href="https://msdn.microsoft.com/b25db548-d5ab-4276-9b50-36d030909384">Running with Special Privileges</a> and <a href="https://msdn.microsoft.com/991d7d94-fae7-406f-b2e3-dee811279366">File Security and Access Rights</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a> and <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
-You can use the <b>SetFileValidData</b> function to  create large files in very specific circumstances so that the performance of subsequent file I/O can be better than other methods. Specifically, if the extended portion of the file is large and will be written to randomly, such as in a database type of application, the time it takes to extend and write to the file will be faster than using <a href="https://msdn.microsoft.com/2a579609-144a-4b77-8605-87aecf1f0957">SetEndOfFile</a> and writing randomly. In most other situations, there is usually no performance gain to using <b>SetFileValidData</b>, and sometimes there can be a performance penalty.
+You can use the <b>SetFileValidData</b> function to  create large files in very specific circumstances so that the performance of subsequent file I/O can be better than other methods. Specifically, if the extended portion of the file is large and will be written to randomly, such as in a database type of application, the time it takes to extend and write to the file will be faster than using <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setendoffile">SetEndOfFile</a> and writing randomly. In most other situations, there is usually no performance gain to using <b>SetFileValidData</b>, and sometimes there can be a performance penalty.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -197,11 +197,11 @@ Yes
 
 
 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a579609-144a-4b77-8605-87aecf1f0957">SetEndOfFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setendoffile">SetEndOfFile</a>
  
 
  

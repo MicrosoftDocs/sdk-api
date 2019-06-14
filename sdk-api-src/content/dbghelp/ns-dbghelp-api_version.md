@@ -82,11 +82,11 @@ This member is reserved for use by the operating system.
 
 
 
-<a href="https://msdn.microsoft.com/0ad9a047-f2ae-4fbe-8a85-9817a616ef73">ImagehlpApiVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-imagehlpapiversion">ImagehlpApiVersion</a>
 
 
 
-<a href="https://msdn.microsoft.com/86a26160-ebad-4d6e-b559-3d59f2beb5ca">ImagehlpApiVersionEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-imagehlpapiversionex">ImagehlpApiVersionEx</a>
  
 
  

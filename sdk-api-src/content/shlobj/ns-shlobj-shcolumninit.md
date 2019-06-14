@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Passes initialization information to <a href="https://msdn.microsoft.com/4975042d-549e-4032-9f42-468dc7e3c20e">IColumnProvider::Initialize</a>.
+Passes initialization information to <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-initialize">IColumnProvider::Initialize</a>.
 
 
 ## -struct-fields

@@ -104,7 +104,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/159ed107-383d-4a1a-b172-f2e339d6bc83">IAMAsyncReaderTimestampScaling</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamasyncreadertimestampscaling">IAMAsyncReaderTimestampScaling</a>
  
 
  

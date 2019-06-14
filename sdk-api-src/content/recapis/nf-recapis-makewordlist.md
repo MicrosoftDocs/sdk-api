@@ -163,11 +163,11 @@ An error is found in one of the words in the list. Possible errors include unsup
 
 
 
-<a href="https://msdn.microsoft.com/8487bdad-c927-44dc-b757-40a0aba285ca">AddWordsToWordList Function</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-addwordstowordlist">AddWordsToWordList Function</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e067c22-772d-48d2-baae-abc8067efb09">SetWordList Function</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-setwordlist">SetWordList Function</a>
  
 
  

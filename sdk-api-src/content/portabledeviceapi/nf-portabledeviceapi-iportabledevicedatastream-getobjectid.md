@@ -120,7 +120,7 @@ Insufficient memory is available.
 
 
 
-An object ID is created after the object is created on the device. Therefore, a new object that is created by calling <a href="https://msdn.microsoft.com/ea3445cc-69af-40a6-a5a4-695e0f2e1fb6">IPortableDeviceContent::CreateObjectWithPropertiesAndData</a> will not have an ID assigned until the application calls <b>Commit</b> on the data transfer stream.
+An object ID is created after the object is created on the device. Therefore, a new object that is created by calling <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-createobjectwithpropertiesanddata">IPortableDeviceContent::CreateObjectWithPropertiesAndData</a> will not have an ID assigned until the application calls <b>Commit</b> on the data transfer stream.
 
 
 
@@ -130,7 +130,7 @@ An object ID is created after the object is created on the device. Therefore, a 
 
 
 
-<a href="https://msdn.microsoft.com/d7bd955a-886f-4081-bfc3-cd2d7e2cfb24">IPortableDeviceDataStream Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicedatastream">IPortableDeviceDataStream Interface</a>
  
 
  

@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetworkEvents</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>INetworkEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetworkEvents</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INetworkEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>INetworkEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2fda364e-ad6a-447a-ba0c-25e5d52ef5c5">NetworkAdded</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkevents-networkadded">NetworkAdded</a>
 </td>
 <td align="left" width="63%">
 Called when a new network is added.
@@ -78,7 +78,7 @@ Called when a new network is added.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/adaf3abe-9a8c-45af-bcc7-bcc516ed75ff">NetworkConnectivityChanged</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkevents-networkconnectivitychanged">NetworkConnectivityChanged</a>
 </td>
 <td align="left" width="63%">
 Called when network connectivity related changes occur. 
@@ -87,7 +87,7 @@ Called when network connectivity related changes occur.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ae54cc29-6da8-405d-92f9-654239150dd0">NetworkDeleted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkevents-networkdeleted">NetworkDeleted</a>
 </td>
 <td align="left" width="63%">
 Called when a network is deleted.
@@ -96,7 +96,7 @@ Called when a network is deleted.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a84f49ee-9efd-450e-a6e6-3f140330a9d0">NetworkPropertyChanged</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkevents-networkpropertychanged">NetworkPropertyChanged</a>
 </td>
 <td align="left" width="63%">
 Called when a network property change is detected.

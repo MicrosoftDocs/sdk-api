@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Causes the <a href="https://msdn.microsoft.com/97f982b6-f330-4053-91a9-2a4edc13b4b0">IInkRecognizer</a> object to recognize the associated strokes collection and fire a <a href="https://msdn.microsoft.com/5e86a4d5-c0a7-4283-81cc-ec3a26f74880">RecognitionWithAlternates</a> event when recognition is complete.
+Causes the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer</a> object to recognize the associated strokes collection and fire a <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-recognitionwithalternates">RecognitionWithAlternates</a> event when recognition is complete.
 
 
 
@@ -63,9 +63,9 @@ Causes the <a href="https://msdn.microsoft.com/97f982b6-f330-4053-91a9-2a4edc13b
 
 ### -param CustomData [in, optional]
 
-Optional. Specifies any application-defined data that is available to the application in the <a href="https://msdn.microsoft.com/5e86a4d5-c0a7-4283-81cc-ec3a26f74880">RecognitionWithAlternates</a> event. This parameter may be a VARIANT of type VT_EMPTY or VT_NULL if no data needs to be passed. The default value is <b>NULL</b>.
+Optional. Specifies any application-defined data that is available to the application in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-recognitionwithalternates">RecognitionWithAlternates</a> event. This parameter may be a VARIANT of type VT_EMPTY or VT_NULL if no data needs to be passed. The default value is <b>NULL</b>.
 
-For more information about the VARIANT structure, see <a href="https://msdn.microsoft.com/fa43fad9-804c-42d9-9717-6686d5f98ed8">Using the COM Library</a>.
+For more information about the VARIANT structure, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
 
 ## -returns
@@ -135,9 +135,9 @@ An exception occurred inside the method.
 
 This method specifies that ink recognition is performed asynchronously.
 
-To perform recognition that includes only the best result string with no alternates, call the <a href="https://msdn.microsoft.com/d3fc8117-4acd-474a-aec0-cb421230ef94">BackgroundRecognize</a> method.
+To perform recognition that includes only the best result string with no alternates, call the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognize">BackgroundRecognize</a> method.
 
-The <a href="https://msdn.microsoft.com/5e86a4d5-c0a7-4283-81cc-ec3a26f74880">RecognitionWithAlternates</a> event is not raised if the recognizer does not recognize any alternates.
+The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-recognitionwithalternates">RecognitionWithAlternates</a> event is not raised if the recognizer does not recognize any alternates.
 
 
 
@@ -147,15 +147,15 @@ The <a href="https://msdn.microsoft.com/5e86a4d5-c0a7-4283-81cc-ec3a26f74880">Re
 
 
 
-<a href="https://msdn.microsoft.com/d3fc8117-4acd-474a-aec0-cb421230ef94">BackgroundRecognize Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognize">BackgroundRecognize Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/cde7772a-9996-4011-ae9d-d43caddfef83">Data Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperty-get_data">Data Property</a>
 
 
 
-<a href="https://msdn.microsoft.com/219e96ee-6492-4f76-9928-f2e8dc28493d">IInkRecognitionAlternate Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognitionAlternate Interface</a>
 
 
 
@@ -163,7 +163,7 @@ The <a href="https://msdn.microsoft.com/5e86a4d5-c0a7-4283-81cc-ec3a26f74880">Re
 
 
 
-<a href="https://msdn.microsoft.com/2b39fd32-831d-4606-8600-b52aaa7ed882">InkRecognizerContext Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>
  
 
  

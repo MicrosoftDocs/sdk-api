@@ -78,7 +78,7 @@ This macro is defined as follows:
 
 
 
-<a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling</a>
+<a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling</a>
  
 
  

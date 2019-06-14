@@ -74,7 +74,7 @@ The format and version of the metadata section.
 </dl>
 </td>
 <td width="60%">
-The metadata section contains model-specific information relating to the device. If the <b>Data</b> member is specified, then its type is <a href="https://msdn.microsoft.com/614daaeb-76ac-4dec-93fe-f413164d5330">WSD_THIS_MODEL_METADATA</a>.
+The metadata section contains model-specific information relating to the device. If the <b>Data</b> member is specified, then its type is <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_this_model_metadata">WSD_THIS_MODEL_METADATA</a>.
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ The metadata section contains model-specific information relating to the device.
 </dl>
 </td>
 <td width="60%">
-The metadata section contains metadata that is unique to a specific device. If the <b>Data</b> member is specified, then its type is <a href="https://msdn.microsoft.com/7b9d063f-f0d5-4333-a5d8-e9a6d2d9af88">WSD_THIS_DEVICE_METADATA</a>.
+The metadata section contains metadata that is unique to a specific device. If the <b>Data</b> member is specified, then its type is <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_this_device_metadata">WSD_THIS_DEVICE_METADATA</a>.
 
 </td>
 </tr>
@@ -94,7 +94,7 @@ The metadata section contains metadata that is unique to a specific device. If t
 </dl>
 </td>
 <td width="60%">
-The metadata section contains metadata about the relationship between two or more services. If the <b>Data</b> member is specified, then its type is <a href="https://msdn.microsoft.com/232ea033-f368-4a37-9bec-ba5dc0d9b60f">WSD_RELATIONSHIP_METADATA</a>.
+The metadata section contains metadata about the relationship between two or more services. If the <b>Data</b> member is specified, then its type is <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_relationship_metadata">WSD_RELATIONSHIP_METADATA</a>.
 
 
 </td>
@@ -115,7 +115,7 @@ Reference to a binary representation of the metadata. The type of metadata is sp
 
 ### -field MetadataReference
 
-Reference to a <a href="https://msdn.microsoft.com/97d6870e-3633-4bea-9a50-984e6b0ba3a1">WSD_ENDPOINT_REFERENCE</a> structure used identify the endpoint from which metadata can be retrieved. 
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_endpoint_reference">WSD_ENDPOINT_REFERENCE</a> structure used identify the endpoint from which metadata can be retrieved. 
 
 
 ### -field Location
@@ -125,5 +125,5 @@ A URI that specifies the location from which metadata can be retrieved.
 
 ### -field Any
 
-Reference to a <a href="https://msdn.microsoft.com/727149b4-31b0-4fd8-b0fa-eb773edb171e">WSDXML_ELEMENT</a> structure that specifies extension content allowed by the XML <b>ANY</b> keyword.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_element">WSDXML_ELEMENT</a> structure that specifies extension content allowed by the XML <b>ANY</b> keyword.
 

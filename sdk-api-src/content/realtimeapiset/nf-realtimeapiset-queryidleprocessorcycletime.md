@@ -56,7 +56,7 @@ ms.custom: 19H1
 
 Retrieves the cycle time for the idle thread of each processor in the system.
 
-On a system with more than 64 processors, this function retrieves the cycle time for the idle thread of each processor in the <a href="https://msdn.microsoft.com/c627ac0f-96e8-48b5-9103-4316f487e173">processor group</a> to which the calling thread is assigned. Use the <a href="https://msdn.microsoft.com/4bf05e40-96d1-4c01-b3a8-8a45934b38c6">QueryIdleProcessorCycleTimeEx</a> function to retrieve the cycle time for the idle thread on each logical processor for a specific processor group. 
+On a system with more than 64 processors, this function retrieves the cycle time for the idle thread of each processor in the <a href="https://docs.microsoft.com/windows/desktop/ProcThread/processor-groups">processor group</a> to which the calling thread is assigned. Use the <a href="https://docs.microsoft.com/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryidleprocessorcycletimeex">QueryIdleProcessorCycleTimeEx</a> function to retrieve the cycle time for the idle thread on each logical processor for a specific processor group. 
 
 
 ## -parameters
@@ -83,7 +83,7 @@ The number of CPU clock cycles used by each idle thread. This buffer must be 8  
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -102,19 +102,19 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0600
 
 
 
-<a href="https://msdn.microsoft.com/c627ac0f-96e8-48b5-9103-4316f487e173">Processor Groups</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/processor-groups">Processor Groups</a>
 
 
 
-<a href="https://msdn.microsoft.com/4bf05e40-96d1-4c01-b3a8-8a45934b38c6">QueryIdleProcessorCycleTimeEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryidleprocessorcycletimeex">QueryIdleProcessorCycleTimeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/1859bc0f-8065-4104-b421-1b4c020ad5ea">QueryProcessCycleTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryprocesscycletime">QueryProcessCycleTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/5828b073-48af-4118-9206-096b87c978e7">QueryThreadCycleTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/realtimeapiset/nf-realtimeapiset-querythreadcycletime">QueryThreadCycleTime</a>
  
 
  

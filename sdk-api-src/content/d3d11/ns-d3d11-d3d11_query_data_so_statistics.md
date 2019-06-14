@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Query information about the amount of data streamed out to the stream-output buffers in between <a href="https://msdn.microsoft.com/5a9cdc60-2226-4d18-bfbd-5db10de35e53">ID3D11DeviceContext::Begin</a> and <a href="https://msdn.microsoft.com/9b941abc-04a3-4dd7-b72d-62cd5bd06b47">ID3D11DeviceContext::End</a>.
+Query information about the amount of data streamed out to the stream-output buffers in between <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-begin">ID3D11DeviceContext::Begin</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-end">ID3D11DeviceContext::End</a>.
 
 
 ## -struct-fields
@@ -59,14 +59,14 @@ Query information about the amount of data streamed out to the stream-output buf
 
 ### -field NumPrimitivesWritten
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT64</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
 
 Number of primitives (that is, points, lines, and triangles) written to the stream-output buffers.
 
 
 ### -field PrimitivesStorageNeeded
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT64</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
 
 Number of primitives that would have been written to the stream-output buffers if there had been enough space for them all.
 
@@ -76,7 +76,7 @@ Number of primitives that would have been written to the stream-output buffers i
 
 
 
-<a href="https://msdn.microsoft.com/2a45182a-7114-4075-b8b8-147f52fe7aa9">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-structures">Core Structures</a>
  
 
  

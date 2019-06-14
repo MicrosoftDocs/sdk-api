@@ -57,7 +57,7 @@ The
 <b>SetupCommitFileQueue</b> function performs file operations queued on a setup file queue.
 
 The best practice is to collect all the required file operations for the file queue and commit the queue only once because a file queue cannot be reused after it has been committed. If additional processing of the queue is required after it has been committed, the handle to the queue should be closed and a new file queue created. For more information, see 
-<a href="https://msdn.microsoft.com/536f47f5-785e-4a83-a500-c769442e3e68">Committing a Queue</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/committing-a-queue">Committing a Queue</a>.
 
 If a file is modified, the caller of this function is required have privileges to write into the target directory.
 
@@ -75,22 +75,22 @@ Optional handle to a window to use as the parent of any progress dialog boxes.
 ### -param QueueHandle [in]
 
 Handle to a setup file queue, as returned by 
-<a href="https://msdn.microsoft.com/36950f18-80ae-46b7-9f9f-bd5307d72a3b">SetupOpenFileQueue</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupopenfilequeue">SetupOpenFileQueue</a>.
 
 
 ### -param MsgHandler [in]
 
 Pointer to an optional callback routine to be notified of various significant events that are in the queue processing. For more information, see 
-<a href="https://msdn.microsoft.com/c6ba6398-4119-4bdd-b264-1bc645800b03">Default Queue Callback Routine</a> or 
-<a href="https://msdn.microsoft.com/41eaa57a-e116-443c-93ee-397456a5c466">FileCallback</a> If the callback routine is <b>null</b>, 
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/default-queue-callback-routine">Default Queue Callback Routine</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nc-setupapi-psp_file_callback_a">FileCallback</a> If the callback routine is <b>null</b>, 
 <b>SetupCommitFileQueue</b> returns <b>TRUE</b> and the error is 0 or NO_ERROR.
 
 
 ### -param Context [in]
 
 Value that is passed to the callback function supplied by the <i>MsgHandler</i> parameter. If the default callback routine has been specified as <i>MsgHandler</i>, this context must be the context returned from 
-<a href="https://msdn.microsoft.com/3ee7da67-42ff-4ea1-9c7f-6c0dcc3dc0b4">SetupInitDefaultQueueCallback</a> or 
-<a href="https://msdn.microsoft.com/9376f55b-55ee-4064-8aed-264c43db0c7d">SetupInitDefaultQueueCallbackEx</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinitdefaultqueuecallback">SetupInitDefaultQueueCallback</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinitdefaultqueuecallbackex">SetupInitDefaultQueueCallbackEx</a>.
 
 
 ## -returns
@@ -100,7 +100,7 @@ Value that is passed to the callback function supplied by the <i>MsgHandler</i> 
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -122,15 +122,15 @@ If Unicode is defined in your callback application, and you specify <i>MsgHandle
 
 
 
-<a href="https://msdn.microsoft.com/0a9518b7-f231-48f2-ba50-5b802f8ccaed">Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/58201596-cb8c-480a-abef-896c1f9ef098">Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/51c63e65-a844-46b4-93ef-8a92a9c8a604">SetupCloseFileQueue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupclosefilequeue">SetupCloseFileQueue</a>
  
 
  

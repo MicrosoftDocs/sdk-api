@@ -91,15 +91,15 @@ This flag is purely informational. Other filters downstream might check this fla
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/883e5e3b-db91-4806-96cc-c6f8cddfcca6">IMediaSample Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/eed64bd9-1300-4db3-a3ed-c7e8ff9c7c8f">IMediaSample::IsSyncPoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediasample-issyncpoint">IMediaSample::IsSyncPoint</a>
  
 
  

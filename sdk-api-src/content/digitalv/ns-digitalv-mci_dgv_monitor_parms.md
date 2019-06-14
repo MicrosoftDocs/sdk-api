@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCI_DGV_MONITOR_PARMS</b> structure contains parameters for the <a href="https://msdn.microsoft.com/b6c476ef-d1a4-477d-a104-dda10be60915">MCI_MONITOR</a> command.
+The <b>MCI_DGV_MONITOR_PARMS</b> structure contains parameters for the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-monitor">MCI_MONITOR</a> command.
 
 
 
@@ -80,7 +80,7 @@ One of the following flags for the monitor source:
 </dl>
 </td>
 <td width="60%">
-The workspace is the presentation source. (This is the default source.) If this flag is used during recording, the recording pauses. If the <a href="https://msdn.microsoft.com/b6c476ef-d1a4-477d-a104-dda10be60915">MCI_MONITOR</a> command changes the presentation source, recording or playing stops and the current position is the value returned by the <a href="https://msdn.microsoft.com/d1c3dff9-c66f-4525-aac1-4a15b43083e7">MCI_STATUS</a> command for the start position.
+The workspace is the presentation source. (This is the default source.) If this flag is used during recording, the recording pauses. If the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-monitor">MCI_MONITOR</a> command changes the presentation source, recording or playing stops and the current position is the value returned by the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-status">MCI_STATUS</a> command for the start position.
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ The workspace is the presentation source. (This is the default source.) If this 
 </dl>
 </td>
 <td width="60%">
-The external input is the presentation source. Playback is paused before the input is selected. If the <a href="https://msdn.microsoft.com/b84956d8-01a0-49f6-a96c-2693a25e6f2a">MCI_SETVIDEO</a> command has been enabled using the MCI_SET_ON flag, this flag displays a default hidden window. Device drivers might limit what other device instances can do while monitoring input.
+The external input is the presentation source. Playback is paused before the input is selected. If the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-setvideo">MCI_SETVIDEO</a> command has been enabled using the MCI_SET_ON flag, this flag displays a default hidden window. Device drivers might limit what other device instances can do while monitoring input.
 
 </td>
 </tr>
@@ -145,7 +145,7 @@ The device should show the external input prior to compression.
 
 
 
-When assigning data to the members of this structure, set the corresponding flags in the <i>fdwCommand</i> parameter of the <a href="https://msdn.microsoft.com/e25820e9-2caf-423e-8588-f842e670e0c3">mciSendCommand</a> function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the <i>fdwCommand</i> parameter of the <a href="https://docs.microsoft.com/previous-versions//dd757160(v=vs.85)">mciSendCommand</a> function to validate the members.
 
 
 
@@ -155,27 +155,27 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 
-<a href="https://msdn.microsoft.com/b414dffb-3701-4dfd-aa8c-cd8e8918027d">MCI</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci">MCI</a>
 
 
 
-<a href="https://msdn.microsoft.com/e86740e5-633e-465d-94ef-8065a8c05b31">MCI Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-structures">MCI Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/b6c476ef-d1a4-477d-a104-dda10be60915">MCI_MONITOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-monitor">MCI_MONITOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/b84956d8-01a0-49f6-a96c-2693a25e6f2a">MCI_SETVIDEO</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-setvideo">MCI_SETVIDEO</a>
 
 
 
-<a href="https://msdn.microsoft.com/d1c3dff9-c66f-4525-aac1-4a15b43083e7">MCI_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-status">MCI_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/e25820e9-2caf-423e-8588-f842e670e0c3">mciSendCommand</a>
+<a href="https://docs.microsoft.com/previous-versions//dd757160(v=vs.85)">mciSendCommand</a>
  
 
  

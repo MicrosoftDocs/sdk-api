@@ -108,7 +108,7 @@ All of the policy objects and output schemas from the same ITA should return the
 
 
 
-<a href="https://msdn.microsoft.com/76af8e03-9584-4f4b-ab2c-8a0ff2c3485b">IMFOutputPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfoutputpolicy">IMFOutputPolicy</a>
  
 
  

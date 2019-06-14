@@ -63,7 +63,7 @@ Obtains the algorithmic style simulation flags of a font face.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/0881afec-2fa5-4f17-96a2-68a5293e0bba">DWRITE_FONT_SIMULATIONS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_simulations">DWRITE_FONT_SIMULATIONS</a></b>
 
 Returns the algorithmic style simulation flags of a font face.
 
@@ -75,7 +75,7 @@ Returns the algorithmic style simulation flags of a font face.
 
 
 
-<a href="https://msdn.microsoft.com/04242508-7439-43B6-B3E7-07617B782038">IDWriteFontFaceReference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontfacereference">IDWriteFontFaceReference</a>
  
 
  

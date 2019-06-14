@@ -86,7 +86,7 @@ The point in <i>hmDst</i> after which the entries in <i>hmSrc</i> are inserted.
 
 Type: <b>UINT</b>
 
-This number is added to each menu's ID to give an adjusted ID. Set to <code>0</code> for no adjustment. The value for <i>uIDAdjust</i> would typically be the number of items in <i>hmDst</i>. This number can be obtained using the <a href="https://msdn.microsoft.com/en-us/library/ms647978(v=VS.85).aspx">GetMenuItemCount</a>.
+This number is added to each menu's ID to give an adjusted ID. Set to <code>0</code> for no adjustment. The value for <i>uIDAdjust</i> would typically be the number of items in <i>hmDst</i>. This number can be obtained using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmenuitemcount">GetMenuItemCount</a>.
 
 
 ### -param uIDAdjustMax

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>ACDGROUP_EVENT</b> enum describes ACD group events. The 
-<a href="https://msdn.microsoft.com/9bc67911-cfb6-450c-bdc6-ade8d4617271">ITACDGroupEvent::get_Event</a> method returns a member of this enum to indicate the type of ACD group event that occurred.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itacdgroupevent-get_event">ITACDGroupEvent::get_Event</a> method returns a member of this enum to indicate the type of ACD group event that occurred.
 
 
 ## -enum-fields
@@ -74,7 +74,7 @@ An ACD group has been removed.
 
 
 
-<a href="https://msdn.microsoft.com/9bc67911-cfb6-450c-bdc6-ade8d4617271">ITACDGroupEvent::get_Event</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itacdgroupevent-get_event">ITACDGroupEvent::get_Event</a>
  
 
  

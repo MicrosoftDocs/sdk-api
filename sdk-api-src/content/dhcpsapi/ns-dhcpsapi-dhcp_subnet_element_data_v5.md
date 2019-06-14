@@ -60,7 +60,7 @@ The <b>DHCP_SUBNET_ELEMENT_DATA_V5</b> structure defines an element that describ
 ### -field ElementType
 
 
-<a href="https://msdn.microsoft.com/291be329-0588-4b67-835f-4f2b2369772a">DHCP_SUBNET_ELEMENT_TYPE</a> enumeration value describing the type of element in the subsequent field.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-_dhcp_subnet_element_type_v5">DHCP_SUBNET_ELEMENT_TYPE</a> enumeration value describing the type of element in the subsequent field.
 
 
 ### -field Element.IpRange.case
@@ -139,25 +139,25 @@ The <b>DHCP_SUBNET_ELEMENT_DATA_V5</b> structure defines an element that describ
 ### -field Element.IpRange
 
 
-<a href="https://msdn.microsoft.com/23268029-0b49-4fd4-8410-4bac6c8ad151">DHCP_BOOTP_IP_RANGE</a> structure that contains the set of BOOTP-served IP addresses. This member is present if <b>ElementType</b> is set to <b>DhcpIpRangesBootpOnly</b>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_bootp_ip_range">DHCP_BOOTP_IP_RANGE</a> structure that contains the set of BOOTP-served IP addresses. This member is present if <b>ElementType</b> is set to <b>DhcpIpRangesBootpOnly</b>.
 
 
 ### -field Element.SecondaryHost
 
 
-<a href="https://msdn.microsoft.com/3d38f69d-2808-4e52-a3da-b6142578c981">DHCP_HOST_INFO</a> structure that contains the IP addresses of secondary DHCP servers available on the subnet. This member is present if <b>ElementType</b> is set to <b>DhcpSecondaryHosts</b>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_host_info">DHCP_HOST_INFO</a> structure that contains the IP addresses of secondary DHCP servers available on the subnet. This member is present if <b>ElementType</b> is set to <b>DhcpSecondaryHosts</b>.
 
 
 ### -field Element.ReservedIp
 
 
-<a href="https://msdn.microsoft.com/01951b18-fc54-4a34-9ccd-fd98f4e7864f">DHCP_IP_RESERVATION_V4</a> structure that contains the set of reserved IP addresses for the subnet. This member is present if <b>ElementType</b> is set to <b>DhcpReservedIps</b>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ip_reservation_v4">DHCP_IP_RESERVATION_V4</a> structure that contains the set of reserved IP addresses for the subnet. This member is present if <b>ElementType</b> is set to <b>DhcpReservedIps</b>.
 
 
 ### -field Element.ExcludeIpRange
 
 
-<a href="https://msdn.microsoft.com/8d3f021d-25ac-44de-9bbc-cc558bc47f91">DHCP_IP_RANGE</a> structure that contains a range of IP addresses. This member is present if <b>ElementType</b> is set to <b>DhcpIpRanges</b> or <b>DhcpExcludedIpRanges</b>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ip_range">DHCP_IP_RANGE</a> structure that contains a range of IP addresses. This member is present if <b>ElementType</b> is set to <b>DhcpIpRanges</b> or <b>DhcpExcludedIpRanges</b>.
 
 
 ### -field Element.IpUsedCluster

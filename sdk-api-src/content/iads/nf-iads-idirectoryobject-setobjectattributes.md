@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IDirectoryObject::SetObjectAttributes</b> method modifies data in one or more specified object attributes defined in the  <a href="https://msdn.microsoft.com/a2b97a52-4b8b-4491-8798-72a161903422">ADS_ATTR_INFO</a> structure.
+The <b>IDirectoryObject::SetObjectAttributes</b> method modifies data in one or more specified object attributes defined in the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_ads_attr_info">ADS_ATTR_INFO</a> structure.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>IDirectoryObject::SetObjectAttributes</b> method modifies data in one or 
 
 ### -param pAttributeEntries [in]
 
-Provides an array of attributes to be modified. Each attribute contains the name of the attribute, the operation to perform, and the attribute value, if applicable. For more information, see the  <a href="https://msdn.microsoft.com/a2b97a52-4b8b-4491-8798-72a161903422">ADS_ATTR_INFO</a> structure.
+Provides an array of attributes to be modified. Each attribute contains the name of the attribute, the operation to perform, and the attribute value, if applicable. For more information, see the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_ads_attr_info">ADS_ATTR_INFO</a> structure.
 
 
 ### -param dwNumAttributes [in]
@@ -78,7 +78,7 @@ Provides a pointer to a <b>DWORD</b> variable that contains the number of attrib
 
 This method returns the standard return values, including S_OK when the attributes are set successfully.
 
-For more information and other return values, see  <a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>.
+For more information and other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 
 
@@ -132,15 +132,15 @@ if ( SUCCEEDED(hr) )
 
 
 
-<a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/a2b97a52-4b8b-4491-8798-72a161903422">ADS_ATTR_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_ads_attr_info">ADS_ATTR_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/bc4f8920-2881-4393-bb01-ed837c3db6ad">IDirectoryObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectoryobject">IDirectoryObject</a>
  
 
  

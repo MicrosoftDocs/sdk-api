@@ -60,9 +60,9 @@ Designates a particular contact as the ME object.
 
 ### -param lpIAB
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms629649(v=VS.85).aspx">IAddrBook</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms629649(v=VS.85).aspx">IAddrBook</a> interface 
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a> interface 
 				that specifies the address book.
 
 
@@ -82,9 +82,9 @@ Causes a selection dialog box to be displayed.
 
 ### -param sbEID
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms528837(v=EXCHG.10).aspx">SBinary</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/office/developer/office-2007/cc815817(v=office.12)">SBinary</a></b>
 
-Value of type <a href="https://msdn.microsoft.com/library/ms528837(v=EXCHG.10).aspx">SBinary</a> that 
+Value of type <a href="https://docs.microsoft.com/previous-versions/office/developer/office-2007/cc815817(v=office.12)">SBinary</a> that 
 				specifies the entry identifier of the contact that should be tagged 
 				as ME.
 

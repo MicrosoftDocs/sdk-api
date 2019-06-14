@@ -100,19 +100,19 @@ Bitmask to validate flag values. This value is not a valid flag.
 
 
 
-<a href="https://msdn.microsoft.com/1c985558-d25d-4f51-978a-58c05943dab9">Enhanced Video Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://msdn.microsoft.com/b5e81f80-e5c9-4ecf-8f10-d52a0533f086">IMFVideoDisplayControl::GetAspectRatioMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-getaspectratiomode">IMFVideoDisplayControl::GetAspectRatioMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd49a110-1c11-4eca-9e7b-6021f3bdd397">IMFVideoDisplayControl::SetAspectRatioMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-setaspectratiomode">IMFVideoDisplayControl::SetAspectRatioMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

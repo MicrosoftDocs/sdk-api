@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an instance of the <a href="https://msdn.microsoft.com/D56612FC-840A-41EE-B162-7AF16ED3D975">IMFMediaSharingEngine</a>.
+Creates an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nn-mfsharingengine-imfmediasharingengine">IMFMediaSharingEngine</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaSharingEngineClassFactory</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFMediaSharingEngineClassFactory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaSharingEngineClassFactory</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaSharingEngineClassFactory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,10 +69,10 @@ The <b>IMFMediaSharingEngineClassFactory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D0FD55A1-0387-4450-8F05-3AC7E943F437">CreateInstance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nf-mfsharingengine-imfmediasharingengineclassfactory-createinstance">CreateInstance</a>
 </td>
 <td align="left" width="63%">
-Creates an instance of the <a href="https://msdn.microsoft.com/D56612FC-840A-41EE-B162-7AF16ED3D975">IMFMediaSharingEngine</a>.
+Creates an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nn-mfsharingengine-imfmediasharingengine">IMFMediaSharingEngine</a>.
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ Creates an instance of the <a href="https://msdn.microsoft.com/D56612FC-840A-41E
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

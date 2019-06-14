@@ -59,9 +59,9 @@ Sets the current browser options.
 
 ### -param dwFlag [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4e2983bc-cad2-4bcc-8169-57b5274b2142">EXPLORER_BROWSER_OPTIONS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-explorer_browser_options">EXPLORER_BROWSER_OPTIONS</a></b>
 
-One or more <a href="https://msdn.microsoft.com/4e2983bc-cad2-4bcc-8169-57b5274b2142">EXPLORER_BROWSER_OPTIONS</a> flags to be set.
+One or more <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-explorer_browser_options">EXPLORER_BROWSER_OPTIONS</a> flags to be set.
 
 
 ## -returns
@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 This action overrides any previous options.
 
-Frames are disabled by default. To enable frames and get the default set of panes, set the <a href="https://msdn.microsoft.com/4e2983bc-cad2-4bcc-8169-57b5274b2142">EBO_SHOWFRAMES</a> flag using the <b>SetOptions</b> method. The default panes, listed as <a href="https://msdn.microsoft.com/b940adc2-dfef-49c5-b86c-d0da83db0aad">IExplorerPaneVisibility</a> constants, are these: 
+Frames are disabled by default. To enable frames and get the default set of panes, set the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-explorer_browser_options">EBO_SHOWFRAMES</a> flag using the <b>SetOptions</b> method. The default panes, listed as <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerpanevisibility">IExplorerPaneVisibility</a> constants, are these: 
 
                 
 
@@ -97,7 +97,7 @@ Frames are disabled by default. To enable frames and get the default set of pane
 <li>EP_StatusBar</li>
 <li>EP_Ribbon</li>
 </ul>
-See <a href="https://msdn.microsoft.com/6c051cdc-b7f9-48dc-ba32-38f0f1ee5fda">IExplorerPaneVisibility::GetPaneState</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerpanevisibility-getpanestate">IExplorerPaneVisibility::GetPaneState</a> for more information.
 
 
 

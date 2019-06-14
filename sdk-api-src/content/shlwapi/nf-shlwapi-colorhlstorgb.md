@@ -84,7 +84,7 @@ The original HLS saturation value.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a></b>
 
 Returns the RGB value.
 

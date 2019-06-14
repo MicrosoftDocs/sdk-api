@@ -87,11 +87,11 @@ The CSV is dismounted.
 
 
 
-<a href="https://msdn.microsoft.com/C672B42B-0DB9-4E70-8157-15C3189102EF">CLUS_CSV_VOLUME_INFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-_clus_csv_volume_info">CLUS_CSV_VOLUME_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
  
 
  

@@ -55,7 +55,7 @@ Deprecated. Exposes methods that allow the retrieval of properties, translation 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExpDispSupport</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IExpDispSupport</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExpDispSupport</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExpDispSupport</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IExpDispSupport</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ef8d4e8c-7f85-4920-b149-1bf277d3fd5e">FindCIE4ConnectionPoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-iexpdispsupport-findconnectionpoint">FindCIE4ConnectionPoint</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Gets connection points for browser events.
@@ -79,7 +79,7 @@ Deprecated. Gets connection points for browser events.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/92228340-2472-4920-90b7-ce46cab7406e">OnInvoke</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-iexpdispsupport-oninvoke">OnInvoke</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Gets ambient properties.
@@ -88,7 +88,7 @@ Deprecated. Gets ambient properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/55f3b4dd-134d-49fe-a7f7-c6315971e902">OnTranslateAccelerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-iexpdispsupport-ontranslateaccelerator">OnTranslateAccelerator</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Instructs the control site to process the keystroke described in <i>pMsg</i> and modified by the flags in <i>grfModifiers</i>.

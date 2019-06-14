@@ -59,7 +59,7 @@ Sets DDS-specific data.
 
 ### -param pParameters [out]
 
-Type: <b><a href="https://msdn.microsoft.com/2E5755B4-E8DC-40B2-8DA1-B053A261079B">WICDdsParameters</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-wincodec-wicddsparameters">WICDdsParameters</a>*</b>
 
 Points to the structure where the information is described.
 
@@ -79,11 +79,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-You cannot call this method after you have started to write frame data, for example by calling <a href="https://msdn.microsoft.com/14195781-DA71-400A-B4A7-F336A0B5429B">IWICDdsEncoder::CreateNewFrame</a>.
+You cannot call this method after you have started to write frame data, for example by calling <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicddsencoder-createnewframe">IWICDdsEncoder::CreateNewFrame</a>.
 
 
 
-Setting DDS parameters using this method provides the DDS encoder with information about the expected number of frames and the dimensions and other parameters of each frame. The DDS encoder will fail if you do not set frame data that matches these expectations. For example, if you set <a href="https://msdn.microsoft.com/2E5755B4-E8DC-40B2-8DA1-B053A261079B">WICDdsParameters::Width</a> and <b>Height</b> to 32, and <b>MipLevels</b> to 6, the DDS encoder will expect 6 frames with the following dimensions:
+Setting DDS parameters using this method provides the DDS encoder with information about the expected number of frames and the dimensions and other parameters of each frame. The DDS encoder will fail if you do not set frame data that matches these expectations. For example, if you set <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-wincodec-wicddsparameters">WICDdsParameters::Width</a> and <b>Height</b> to 32, and <b>MipLevels</b> to 6, the DDS encoder will expect 6 frames with the following dimensions:
 
 <ul>
 <li>32x32 pixels.</li>
@@ -101,11 +101,11 @@ Setting DDS parameters using this method provides the DDS encoder with informati
 
 
 
-<a href="https://msdn.microsoft.com/DF14309F-7595-4ABE-BB6E-03D2914CC86D">IWICDdsEncoder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicddsencoder">IWICDdsEncoder</a>
 
 
 
-<a href="https://msdn.microsoft.com/2E5755B4-E8DC-40B2-8DA1-B053A261079B">WICDdsParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-wincodec-wicddsparameters">WICDdsParameters</a>
  
 
  

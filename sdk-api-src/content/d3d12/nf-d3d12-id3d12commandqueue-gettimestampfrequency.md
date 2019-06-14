@@ -68,9 +68,9 @@ The GPU timestamp counter frequency (in ticks/second).
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
+This method returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a>.
 
 
 
@@ -79,7 +79,7 @@ This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7
 
 
 
-For more information, refer to <a href="https://msdn.microsoft.com/CC1E5BAB-4363-43FF-BF5B-6C9AEBECD6CA">Timing</a>.
+For more information, refer to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/timing">Timing</a>.
 
 
 
@@ -89,7 +89,7 @@ For more information, refer to <a href="https://msdn.microsoft.com/CC1E5BAB-4363
 
 
 
-<a href="https://msdn.microsoft.com/88A4E8BA-02B9-48A1-8E46-2D2560544539">ID3D12CommandQueue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12commandqueue">ID3D12CommandQueue</a>
  
 
  

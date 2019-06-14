@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-Values for the <a href="https://msdn.microsoft.com/2E4BACCB-EF29-44FB-8427-C10211BC4899">D2D1_HIGHLIGHTSANDSHADOWS_PROP_INPUT_GAMMA</a> property 
-        of the <a href="https://msdn.microsoft.com/ebbb7d99-9144-ffff-af73-d89e7d269924">Highlights and Shadows effect</a>.
+Values for the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_highlightsandshadows_prop">D2D1_HIGHLIGHTSANDSHADOWS_PROP_INPUT_GAMMA</a> property 
+        of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/highlights-and-shadows-effect">Highlights and Shadows effect</a>.
 
 
 ## -enum-fields

@@ -64,17 +64,17 @@ This property is read/write.
 
 
 Typically, the name is the same name that you specify when you call the 
-    <a href="https://msdn.microsoft.com/983a6d05-417f-4aea-9652-955fd96e78f0">IFsrmReportScheduler::CreateScheduleTask</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportscheduler-createscheduletask">IFsrmReportScheduler::CreateScheduleTask</a> 
     method to create a scheduled task that runs the report job.
 
 Use the task name when calling the 
-    <a href="https://msdn.microsoft.com/60a1387f-a25f-4026-a582-71981c26dd1b">IFsrmReportManager::GetReportJob</a> method to 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-getreportjob">IFsrmReportManager::GetReportJob</a> method to 
     retrieve a report job.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/a91c4fe7-ec8c-4d2b-b565-559e16668c87">Defining a Report Job</a>.
+For an example, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/defining-a-report-job">Defining a Report Job</a>.
 
 <div class="code"></div>
 
@@ -85,7 +85,7 @@ For an example, see <a href="https://msdn.microsoft.com/a91c4fe7-ec8c-4d2b-b565-
 
 
 
-<a href="https://msdn.microsoft.com/ea8a3f6b-326b-4c8f-a6fc-7b7525c5543f">IFsrmReportJob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportjob">IFsrmReportJob</a>
  
 
  

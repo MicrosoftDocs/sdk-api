@@ -59,9 +59,9 @@ Gets the change notification event sink interface for a client. This method is u
 
 ### -param ppISearchPersistentItemsChangedSink [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231454(v=VS.85).aspx">ISearchPersistentItemsChangedSink</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchpersistentitemschangedsink">ISearchPersistentItemsChangedSink</a>**</b>
 
-Receives the address of a pointer to a new <a href="https://msdn.microsoft.com/en-us/library/Bb231454(v=VS.85).aspx">ISearchPersistentItemsChangedSink</a> interface for this catalog.
+Receives the address of a pointer to a new <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchpersistentitemschangedsink">ISearchPersistentItemsChangedSink</a> interface for this catalog.
                 
 
 

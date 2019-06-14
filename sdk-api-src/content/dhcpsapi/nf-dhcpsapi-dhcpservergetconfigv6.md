@@ -64,14 +64,14 @@ Pointer to a Unicode string that specifies the IP address or hostname of the DHC
 
 ### -param ScopeInfo [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/d5c0cff9-7164-4f14-a0a9-58311390ebd9">DHCP_OPTION_SCOPE_INFO6</a> structure used to identify the DHCPv6 scope for which configuration information will be retrieved.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_option_scope_info6">DHCP_OPTION_SCOPE_INFO6</a> structure used to identify the DHCPv6 scope for which configuration information will be retrieved.
 
 
 ### -param ConfigInfo [out]
 
-Pointer to the address of a  <a href="https://msdn.microsoft.com/9862f0c1-3c42-4ad7-af3c-15868e4a9314">DHCP_SERVER_CONFIG_INFO_V6</a> structure that contains the requested configuration information.
+Pointer to the address of a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_server_config_info_v6">DHCP_SERVER_CONFIG_INFO_V6</a> structure that contains the requested configuration information.
 
-<div class="alert"><b>Note</b>  <p class="note">The memory for this parameter must be free using <a href="https://msdn.microsoft.com/bf22a0a6-2ecd-4460-89c4-3f870c6275dc">DhcpRpcFreeMemory</a>.
+<div class="alert"><b>Note</b>  <p class="note">The memory for this parameter must be free using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcprpcfreememory">DhcpRpcFreeMemory</a>.
 
 </div>
 <div> </div>
@@ -80,7 +80,7 @@ Pointer to the address of a  <a href="https://msdn.microsoft.com/9862f0c1-3c42-4
 
 
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://msdn.microsoft.com/6370313f-d7db-4ff1-b0e0-7fa47474facb">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -120,11 +120,11 @@ An error occurred while accessing the DHCP server's database.
 
 
 
-<a href="https://msdn.microsoft.com/d5c0cff9-7164-4f14-a0a9-58311390ebd9">DHCP_OPTION_SCOPE_INFO6</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_option_scope_info6">DHCP_OPTION_SCOPE_INFO6</a>
 
 
 
-<a href="https://msdn.microsoft.com/9862f0c1-3c42-4ad7-af3c-15868e4a9314">DHCP_SERVER_CONFIG_INFO_V6</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_server_config_info_v6">DHCP_SERVER_CONFIG_INFO_V6</a>
  
 
  

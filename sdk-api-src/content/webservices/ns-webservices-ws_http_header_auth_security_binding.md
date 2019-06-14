@@ -51,26 +51,26 @@ ms.custom: 19H1
 
 The security binding subtype for specifying the use of HTTP header authentication against a target service or a HTTP proxy server 
                 based on the basic, digest (RFC 2617) and the SPNEGO (RFC4559) protocols.
-                Since this security binding operates at the HTTP header level, it is supported only with the <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_HTTP_CHANNEL_BINDING</a>. 
-                By default, this security binding is used for the target service. However  <a href="https://msdn.microsoft.com/6c8b3277-3f49-469b-9783-c552a4c44558">WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_TARGET</a> 
+                Since this security binding operates at the HTTP header level, it is supported only with the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>. 
+                By default, this security binding is used for the target service. However  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_binding_property_id">WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_TARGET</a> 
                 security binding property can be specified to use it for a HTTP proxy server. This binding provides client authentication, but not message protection
                 since the HTTP body is unaffected by this binding. While this security binding can be used alone, such usage is not recommended;
                 more typically, HTTP header authentication is done in conjunction with transport level security provided by a security binding such as the 
-                <a href="https://msdn.microsoft.com/en-us/library/Dd323441(v=VS.85).aspx">WS_SSL_TRANSPORT_SECURITY_BINDING</a>. To use this binding without SSL, the security description property <b>WS_SECURITY_PROPERTY_TRANSPORT_PROTECTION_LEVEL</b> must be explicitly set to <b>WS_PROTECTION_LEVEL_NONE</b>.
+                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_ssl_transport_security_binding">WS_SSL_TRANSPORT_SECURITY_BINDING</a>. To use this binding without SSL, the security description property <b>WS_SECURITY_PROPERTY_TRANSPORT_PROTECTION_LEVEL</b> must be explicitly set to <b>WS_PROTECTION_LEVEL_NONE</b>.
 
 With this security binding, the following security binding properties may be specified:
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/6c8b3277-3f49-469b-9783-c552a4c44558">WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_SCHEME</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_binding_property_id">WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_SCHEME</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/6c8b3277-3f49-469b-9783-c552a4c44558">WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_TARGET</a> (client side only)</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_binding_property_id">WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_TARGET</a> (client side only)</li>
 <li>
-<a href="https://msdn.microsoft.com/6c8b3277-3f49-469b-9783-c552a4c44558">WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_BASIC_REALM</a> (server side only)</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_binding_property_id">WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_BASIC_REALM</a> (server side only)</li>
 <li>
-<a href="https://msdn.microsoft.com/6c8b3277-3f49-469b-9783-c552a4c44558">WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_DIGEST_REALM</a> (server side only)</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_binding_property_id">WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_DIGEST_REALM</a> (server side only)</li>
 <li>
-<a href="https://msdn.microsoft.com/6c8b3277-3f49-469b-9783-c552a4c44558">WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_DIGEST_DOMAIN</a> (server side only)</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_binding_property_id">WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_DIGEST_DOMAIN</a> (server side only)</li>
 </ul>
 
 
@@ -93,9 +93,9 @@ authenticate the client.  This is required on the client side and must
 be <b>NULL</b> on the server side.
                 
 
-If the credential used is a <a href="https://msdn.microsoft.com/en-us/library/Dd401814(v=VS.85).aspx">WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a> then 
-                    <a href="https://msdn.microsoft.com/6c8b3277-3f49-469b-9783-c552a4c44558">WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_SCHEME</a> must be set to 
-                    <a href="https://msdn.microsoft.com/c96e10ee-29d1-4c66-9f4d-64e663b25fd0">WS_HTTP_HEADER_AUTH_SCHEME_NONE</a>, <b>WS_HTTP_HEADER_AUTH_SCHEME_NTLM</b>, 
+If the credential used is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_windows_integrated_auth_credential">WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a> then 
+                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_binding_property_id">WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_SCHEME</a> must be set to 
+                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_6">WS_HTTP_HEADER_AUTH_SCHEME_NONE</a>, <b>WS_HTTP_HEADER_AUTH_SCHEME_NTLM</b>, 
                     <b>WS_HTTP_HEADER_AUTH_SCHEME_NEGOTIATE</b> or <b>WS_HTTP_HEADER_AUTH_SCHEME_PASSPORT</b>.
                     <b>WS_HTTP_HEADER_AUTH_SCHEME_PASSPORT</b> defaults to using the Passport keyring.
                 

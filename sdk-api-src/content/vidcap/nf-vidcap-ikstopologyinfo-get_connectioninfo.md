@@ -59,12 +59,12 @@ The <code>get_ConnectionInfo</code> method returns information about one node co
 
 ### -param dwIndex [in]
 
-Index of the connection. To find the number of connections, call the <a href="https://msdn.microsoft.com/en-us/library/Dd390155(v=VS.85).aspx">IKsTopologyInfo::get_NumConnections</a> method.
+Index of the connection. To find the number of connections, call the <a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ikstopologyinfo-get_numconnections">IKsTopologyInfo::get_NumConnections</a> method.
 
 
 ### -param pConnectionInfo [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/8fca47b7-4c52-46db-809c-77a0e3414276">KSTOPOLOGY_CONNECTION</a> structure allocated by the caller. The method fills in this structure with the connection information.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/DirectShow/kstopology-connection">KSTOPOLOGY_CONNECTION</a> structure allocated by the caller. The method fills in this structure with the connection information.
 
 
 ## -returns
@@ -100,11 +100,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390148(v=VS.85).aspx">IKsTopologyInfo Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nn-vidcap-ikstopologyinfo">IKsTopologyInfo Interface</a>
  
 
  

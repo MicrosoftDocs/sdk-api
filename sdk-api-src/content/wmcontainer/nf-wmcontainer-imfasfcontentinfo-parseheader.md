@@ -63,7 +63,7 @@ Parses the information in an ASF header and uses that information to set values 
 
 ### -param pIHeaderBuffer [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/3ccc7089-d0d0-4eb1-b763-0d4e348af685">IMFMediaBuffer</a> interface of a buffer object containing some or all of the header. The buffer must contain at least 30 bytes, which is the size of the Header Object, not including the objects contained in the Header Object (that is, everything up to and including the Reserved2 field in the Header Object).
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a> interface of a buffer object containing some or all of the header. The buffer must contain at least 30 bytes, which is the size of the Header Object, not including the objects contained in the Header Object (that is, everything up to and including the Reserved2 field in the Header Object).
 
 
 ### -param cbOffsetWithinHeader [in]
@@ -168,7 +168,7 @@ The start of the Header object has the following layout in memory:
 </table>
  
 
-The first call to <b>ParseHeader</b> reads everything up to and including Rerserved2, so it requires a minimum of 30 bytes. (Note that the <a href="https://msdn.microsoft.com/c13ee7e6-df59-448f-80c4-04ac7c8c98ed">IMFASFContentInfo::GetHeaderSize</a> method reads only the Object ID and Object Size fields, so that method requires a minimum of 24 bytes.)
+The first call to <b>ParseHeader</b> reads everything up to and including Rerserved2, so it requires a minimum of 30 bytes. (Note that the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-getheadersize">IMFASFContentInfo::GetHeaderSize</a> method reads only the Object ID and Object Size fields, so that method requires a minimum of 24 bytes.)
 
 
 
@@ -178,11 +178,11 @@ The first call to <b>ParseHeader</b> reads everything up to and including Rerser
 
 
 
-<a href="https://msdn.microsoft.com/9f490e6a-f378-45c1-a69d-985c6e884358">IMFASFContentInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfcontentinfo">IMFASFContentInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4f6c90e-1b38-4c70-8bc5-e2e16af3d87a">Initializing the ContentInfo Object of a New ASF File</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/initializing-the-contentinfo-object-of-a-new-asf-file">Initializing the ContentInfo Object of a New ASF File</a>
  
 
  

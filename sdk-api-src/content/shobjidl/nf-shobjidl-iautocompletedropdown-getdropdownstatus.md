@@ -86,7 +86,7 @@ A pointer to a buffer containing the first select item in the drop-down list, if
 
 If <i>pdwFlags</i> is zero on exit, then this value will be <b>NULL</b>.
 
-If this value is not <b>NULL</b> on exit, the buffer it points to must be freed using <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> when it is no longer needed.
+If this value is not <b>NULL</b> on exit, the buffer it points to must be freed using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> when it is no longer needed.
 
 
 ## -returns
@@ -105,7 +105,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/1f956d61-6a09-464e-bfe8-0b3bcb9ea181">IAutoCompleteDropDown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iautocompletedropdown">IAutoCompleteDropDown</a>
  
 
  

@@ -62,7 +62,7 @@ Completes an asynchronous request to associate a work queue with a Multimedia Cl
 
 ### -param result [in]
 
-Pointer to the asynchronous result. Pass in the same pointer that your callback object received in the <a href="https://msdn.microsoft.com/1798C338-4C82-42A7-AE15-ADFD356604BD">IRtwqAsyncCallback::Invoke</a> method.
+Pointer to the asynchronous result. Pass in the same pointer that your callback object received in the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-irtwqasynccallback-invoke">IRtwqAsyncCallback::Invoke</a> method.
 
 
 ### -param taskId [out]
@@ -85,7 +85,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 Call this function when the <a href="base.rtwqbeginregisterworkqueuewithmmcssex">RtwqBeginRegisterWorkQueueWithMMCSSEx</a> function completes asynchronously.
 
-To unregister the work queue from the MMCSS class, call <a href="https://msdn.microsoft.com/1faa9661-9b65-472a-b1d5-c99b10b149e9">RtwqBeginUnregisterWorkQueueWithMMCSS</a>.
+To unregister the work queue from the MMCSS class, call <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqbeginunregisterworkqueuewithmmcss">RtwqBeginUnregisterWorkQueueWithMMCSS</a>.
 
 
 

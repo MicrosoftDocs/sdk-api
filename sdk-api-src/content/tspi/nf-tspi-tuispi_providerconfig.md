@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>TUISPI_providerConfig</b> function implements the UI elements that must execute in the context of the calling application. This function makes the 
-<a href="https://msdn.microsoft.com/b0fa2a9e-bc8b-4364-9442-2091f2366107">TSPI_providerConfig</a> function obsolete in version 2.0 and later (supported in version 1.4 and earlier).
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providerconfig">TSPI_providerConfig</a> function obsolete in version 2.0 and later (supported in version 1.4 and earlier).
 
 The 
 <b>TUISPI_providerConfig</b> function gathers configuration information from the user. It can use a dialog box, and this dialog box can include sub-dialog boxes associated with other APIs (such as Comm/datamodem) for the setup of specific devices.
@@ -95,15 +95,15 @@ LINEERR_OPERATIONFAILED, LINEERR_NOMEM.
 
 
 This function may be called while the service provider is in use (that is, between calls of 
-<a href="https://msdn.microsoft.com/6cb7817b-6df3-4a6a-a666-b41c2eb0b118">TSPI_providerInit</a> and 
-<a href="https://msdn.microsoft.com/b13e0ed6-c053-4290-bc4c-5f66e4a376b7">TSPI_providerShutdown</a>).
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providerinit">TSPI_providerInit</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providershutdown">TSPI_providerShutdown</a>).
 
 Any changes that affect the behavior visible through TSPI should take effect only when the service provider is restarted at the next 
-<a href="https://msdn.microsoft.com/6cb7817b-6df3-4a6a-a666-b41c2eb0b118">TSPI_providerInit</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providerinit">TSPI_providerInit</a>.
 
 There is no directly corresponding function at the TAPI level. In TAPI, applications have access to the functions 
-<a href="https://msdn.microsoft.com/52f23647-e9f5-48a3-95f4-1ac52898cb5a">lineConfigDialog</a> and 
-<a href="https://msdn.microsoft.com/64f2626a-283d-47c8-aecd-57d31712a700">phoneConfigDialog</a>, which allow configuration of parameters of a particular line or phone once it has been installed.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineconfigdialog">lineConfigDialog</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneconfigdialog">phoneConfigDialog</a>, which allow configuration of parameters of a particular line or phone once it has been installed.
 
 
 
@@ -113,19 +113,19 @@ There is no directly corresponding function at the TAPI level. In TAPI, applicat
 
 
 
-<a href="https://msdn.microsoft.com/405af7aa-eb0b-49a1-9712-2f86357fc720">TUISPI_lineConfigDialog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_lineconfigdialog">TUISPI_lineConfigDialog</a>
 
 
 
-<a href="https://msdn.microsoft.com/6bdd4206-0028-43f0-8da8-2fc11779f7d2">TUISPI_phoneConfigDialog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_phoneconfigdialog">TUISPI_phoneConfigDialog</a>
 
 
 
-<a href="https://msdn.microsoft.com/4b133336-7cd1-4af4-bc8d-4defce97559d">TUISPI_providerInstall</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providerinstall">TUISPI_providerInstall</a>
 
 
 
-<a href="https://msdn.microsoft.com/217d1f40-7f3f-49a0-b29e-e2da85ba47f1">TUISPI_providerRemove</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providerremove">TUISPI_providerRemove</a>
  
 
  

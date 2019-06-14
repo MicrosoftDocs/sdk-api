@@ -59,7 +59,7 @@ The <b>IADs::PutEx</b> method modifies the values of an attribute in the ADSI at
 
 ### -param lnControlCode [in]
 
-Control code that  indicates the mode of modification: Append, Replace, Remove, and Delete. For more information and a list of values, see  <a href="https://msdn.microsoft.com/fba20292-870d-4948-abf1-225b1230e938">ADS_PROPERTY_OPERATION_ENUM</a>.
+Control code that  indicates the mode of modification: Append, Replace, Remove, and Delete. For more information and a list of values, see  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0027">ADS_PROPERTY_OPERATION_ENUM</a>.
 
 
 ### -param bstrName [in]
@@ -79,7 +79,7 @@ Contains a <b>VARIANT</b> array that contains the new value or values of the pro
 This method supports  standard return values, as well as the following.
       
 
-For more information, see  <a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>.
+For more information, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 
 
@@ -88,7 +88,7 @@ For more information, see  <a href="https://msdn.microsoft.com/573889e4-37af-4ac
 
 
 
-<b>PutEx</b> is usually used to set values on multi-value attributes. Unlike the <a href="https://msdn.microsoft.com/b543220d-939b-4ca5-9a27-90b04f14be5d">IADs::Put</a> method, with <b>PutEx</b>, you are not required to get the attribute values before you modify them. However, because <b>PutEx</b> only makes changes to attributes values contained in the ADSI property cache, you must use <a href="https://msdn.microsoft.com/e7ff6acd-b7c4-463d-a34f-fd793067c63a">IADs::SetInfo</a> after each <b>PutEx</b> call in order to commit changes to the directory.
+<b>PutEx</b> is usually used to set values on multi-value attributes. Unlike the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-put">IADs::Put</a> method, with <b>PutEx</b>, you are not required to get the attribute values before you modify them. However, because <b>PutEx</b> only makes changes to attributes values contained in the ADSI property cache, you must use <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs::SetInfo</a> after each <b>PutEx</b> call in order to commit changes to the directory.
 
 <b>PutEx</b> enables you to append values to an existing set of values in a multi-value attribute using <b>ADS_PROPERTY_APPEND</b>. When you update, append, or delete values to a multi-value attribute, you must use an array.
 
@@ -202,23 +202,23 @@ hr = CoUninitialize();
 
 
 
-<a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd6d79b6-46f8-42dd-8525-a72a6e0a7672">IADs::Get</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-get">IADs::Get</a>
 
 
 
-<a href="https://msdn.microsoft.com/cda6b8e7-fadc-4e0b-8217-66b37bf7efbd">IADs::GetEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getex">IADs::GetEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/b543220d-939b-4ca5-9a27-90b04f14be5d">IADs::Put</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-put">IADs::Put</a>
 
 
 
-<a href="https://msdn.microsoft.com/b3479719-b5bf-4f19-91f9-b05e60bde161">Property
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/property-cache-interfaces">Property
   Cache</a>
  
 

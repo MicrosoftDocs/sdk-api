@@ -74,7 +74,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Persisted information can be associated with an application or a GUID. If a GUID was set by using <a href="https://msdn.microsoft.com/2ab7d8bb-068d-4c5b-b273-68c7fc4f9956">IFileDialog::SetClientGuid</a>, that GUID is used to clear persisted information.
+Persisted information can be associated with an application or a GUID. If a GUID was set by using <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setclientguid">IFileDialog::SetClientGuid</a>, that GUID is used to clear persisted information.
 
 
 

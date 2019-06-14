@@ -121,11 +121,11 @@ The package is not installed for the current user.
 
 
 
-<a href="https://msdn.microsoft.com/BA84FB47-F241-4120-9441-7E1149F68738">ClosePackageInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-closepackageinfo">ClosePackageInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/28F45B3B-A61F-44D3-B606-6966AD5866FA">GetPackageInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getpackageinfo">GetPackageInfo</a>
  
 
  

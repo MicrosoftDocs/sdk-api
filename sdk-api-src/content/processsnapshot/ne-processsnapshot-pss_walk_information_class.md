@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies what information the <a href="https://msdn.microsoft.com/C6AC38B5-0A1C-44D7-A1F6-8196AE9B8FB0">PssWalkSnapshot</a> function returns.
+Specifies what information the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psswalksnapshot">PssWalkSnapshot</a> function returns.
 
 
 ## -enum-fields
@@ -59,22 +59,22 @@ Specifies what information the <a href="https://msdn.microsoft.com/C6AC38B5-0A1C
 
 ### -field PSS_WALK_AUXILIARY_PAGES
 
-Returns a <a href="https://msdn.microsoft.com/A3D948E6-6FFE-4732-A8C7-A292FDA07D7C">PSS_AUXILIARY_PAGE_ENTRY</a> structure, which contains the address, page attributes and contents of an auxiliary copied page.
+Returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/ns-processsnapshot-pss_auxiliary_page_entry">PSS_AUXILIARY_PAGE_ENTRY</a> structure, which contains the address, page attributes and contents of an auxiliary copied page.
 
 
 ### -field PSS_WALK_VA_SPACE
 
-Returns a <a href="https://msdn.microsoft.com/69B8F6A3-76DF-421B-B89B-73BA3254F897">PSS_VA_SPACE_ENTRY</a> structure, which contains the <a href="https://msdn.microsoft.com/dc3fa48e-0986-49cc-88a9-ff8179fbe5f0">MEMORY_BASIC_INFORMATION</a> structure for every distinct VA region.
+Returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/ns-processsnapshot-pss_va_space_entry">PSS_VA_SPACE_ENTRY</a> structure, which contains the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_memory_basic_information">MEMORY_BASIC_INFORMATION</a> structure for every distinct VA region.
 
 
 ### -field PSS_WALK_HANDLES
 
-Returns a <a href="https://msdn.microsoft.com/F56E8C35-949A-4DEE-973F-CF24F6596036">PSS_HANDLE_ENTRY</a> structure, with information specifying the handle value, its type name, object name (if captured), basic information (if captured), and type-specific information (if captured).
+Returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/ns-processsnapshot-pss_handle_entry">PSS_HANDLE_ENTRY</a> structure, with information specifying the handle value, its type name, object name (if captured), basic information (if captured), and type-specific information (if captured).
 
 
 ### -field PSS_WALK_THREADS
 
-Returns a <a href="https://msdn.microsoft.com/99C89DBB-8C12-482E-B33D-AE59C37662CF">PSS_THREAD_ENTRY</a> structure, with basic information about the thread, as well as its termination state, suspend count and Win32 start address.
+Returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/ns-processsnapshot-pss_thread_entry">PSS_THREAD_ENTRY</a> structure, with basic information about the thread, as well as its termination state, suspend count and Win32 start address.
 
 
 ## -see-also
@@ -82,7 +82,7 @@ Returns a <a href="https://msdn.microsoft.com/99C89DBB-8C12-482E-B33D-AE59C37662
 
 
 
-<a href="https://msdn.microsoft.com/1dc6fe86-3f5a-4810-8e93-a0fe309c54ee">Process Snapshotting</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
  
 
  

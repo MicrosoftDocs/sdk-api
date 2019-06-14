@@ -65,12 +65,12 @@ An answers file is a file that facilitates the unattend process during setup or 
 
 ### -param pTarget [in]
 
-A pointer that identifies <a href="https://msdn.microsoft.com/f1dd3c93-43ca-4804-8330-55acaccf8ea8">ITargetInfo</a> target object that should be used while deserializing the stream. This target should match the target which will be used on the engine alongside this context.
+A pointer that identifies <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-itargetinfo">ITargetInfo</a> target object that should be used while deserializing the stream. This target should match the target which will be used on the engine alongside this context.
 
 
 ### -param pppResults [out]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/0bbfd39a-0292-4d8e-ae31-f45aebd326a7">ISettingsResult</a> interface pointers. Each interface pointer identifies an issue which may have occurred during deserialization.
+A pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsresult">ISettingsResult</a> interface pointers. Each interface pointer identifies an issue which may have occurred during deserialization.
 
 
 
@@ -96,7 +96,7 @@ This method may return <b>E_OUTOFMEMORY</b> if there are insufficient resources 
 
 
 
-<a href="https://msdn.microsoft.com/29f43c3f-57bf-4208-a0bf-9b4414795a59">ISettingsContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingscontext">ISettingsContext</a>
  
 
  

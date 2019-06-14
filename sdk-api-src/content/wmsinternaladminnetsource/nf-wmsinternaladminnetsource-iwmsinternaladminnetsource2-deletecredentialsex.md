@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-The <b>DeleteCredentialsEx</b> method removes a password from the cache. This improved version of <a href="https://msdn.microsoft.com/en-us/library/Dd798536(v=VS.85).aspx">IWMSInternalAdminNetSource::DeleteCredentials</a> uses the combination of realm, URL, and proxy use to identify the credentials. This is an improvement over using the realm by itself, which can easily be spoofed by malicious code.
+The <b>DeleteCredentialsEx</b> method removes a password from the cache. This improved version of <a href="https://docs.microsoft.com/windows/desktop/api/wmsinternaladminnetsource/nf-wmsinternaladminnetsource-iwmsinternaladminnetsource-deletecredentials">IWMSInternalAdminNetSource::DeleteCredentials</a> uses the combination of realm, URL, and proxy use to identify the credentials. This is an improvement over using the realm by itself, which can easily be spoofed by malicious code.
 
 
 
@@ -92,7 +92,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743718(v=VS.85).aspx">IWMSInternalAdminNetSource2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsinternaladminnetsource/nn-wmsinternaladminnetsource-iwmsinternaladminnetsource2">IWMSInternalAdminNetSource2 Interface</a>
  
 
  

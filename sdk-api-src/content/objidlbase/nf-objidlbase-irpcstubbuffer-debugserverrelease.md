@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Releases an interface pointer that was previously returned by <a href="https://msdn.microsoft.com/c735a99f-c67a-44eb-ae60-950dc4e68e74">DebugServerQueryInterface</a>.
+Releases an interface pointer that was previously returned by <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-debugserverqueryinterface">DebugServerQueryInterface</a>.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/0aa724f0-6110-4ebf-a0c1-d309074a61d9">IRpcStubBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a>
  
 
  

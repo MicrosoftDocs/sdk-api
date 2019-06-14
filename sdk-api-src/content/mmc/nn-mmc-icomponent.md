@@ -51,13 +51,13 @@ ms.custom: 19H1
 
 The 
 <b>IComponent</b> interface enables MMC to communicate with snap-ins. Similar to the 
-<a href="https://msdn.microsoft.com/60900b8d-59cc-4c1d-86b7-b902ba89216d">IComponentData</a> interface, 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a> interface, 
 <b>IComponent</b> is typically implemented at the view level and is closely associated with items being displayed in the result pane.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComponent</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IComponent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComponent</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComponent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IComponent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5bd7cd8e-140c-4f7b-9f2b-bf1bfe8a9a7a">CompareObjects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-compareobjects">CompareObjects</a>
 </td>
 <td align="left" width="63%">
 Enables a snap-in to compare two data objects acquired through 
@@ -83,7 +83,7 @@ QueryDataObject. Be aware that data objects can be acquired from two different i
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ec4ec242-6376-44e7-bd82-09456789c4c9">Destroy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-destroy">Destroy</a>
 </td>
 <td align="left" width="63%">
 Releases all references to the console.
@@ -92,7 +92,7 @@ Releases all references to the console.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8143d11c-3740-4ffc-88f0-6df779c50521">GetDisplayInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-getdisplayinfo">GetDisplayInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves display information about an item in the result pane.
@@ -101,7 +101,7 @@ Retrieves display information about an item in the result pane.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d2575f79-d646-41b5-84a5-768402cfb826">GetResultViewType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-getresultviewtype">GetResultViewType</a>
 </td>
 <td align="left" width="63%">
 Determines the result pane view.
@@ -110,7 +110,7 @@ Determines the result pane view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2a8b8f79-05c0-49e8-8210-7c1002ee5978">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Provides an entry point to the console.
@@ -119,7 +119,7 @@ Provides an entry point to the console.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/38c3b31f-356c-46cf-904a-98241c0f199f">Notify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-notify">Notify</a>
 </td>
 <td align="left" width="63%">
 Called by the console to notify the snap-in of actions taken by a user.
@@ -128,7 +128,7 @@ Called by the console to notify the snap-in of actions taken by a user.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5bdbd321-4245-4c73-9071-1a9bc3853ba5">QueryDataObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-querydataobject">QueryDataObject</a>
 </td>
 <td align="left" width="63%">
 Returns a data object that can be used to retrieve context information for the specified cookie.

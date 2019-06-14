@@ -53,11 +53,11 @@ ms.custom: 19H1
 
 The <code>IQualityControl</code> interface provides support for quality control. An object exposes this interface if it can generate or receive quality-control messages. This includes renderer filters (which typically generate quality control messages), pins (which receive them), and external quality managers (which also receive them).
 
-A renderer filter generates a quality-control message by calling the <a href="https://msdn.microsoft.com/c7a34356-b0b2-49c1-bdc2-d8043fdc2862">IQualityControl::Notify</a> method on the output pin of the upstream filter. The upstream filter either handles the message or passes it upstream.
+A renderer filter generates a quality-control message by calling the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iqualitycontrol-notify">IQualityControl::Notify</a> method on the output pin of the upstream filter. The upstream filter either handles the message or passes it upstream.
 
-An application can implement its own quality-control manager. Call <a href="https://msdn.microsoft.com/f82922dc-ec33-499d-b052-a1ba38632c52">IQualityControl::SetSink</a> on the renderer to designate the quality-control manager as the recipient for quality-control messages. Calling this method overrides the default handling of quality-control messages.
+An application can implement its own quality-control manager. Call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iqualitycontrol-setsink">IQualityControl::SetSink</a> on the renderer to designate the quality-control manager as the recipient for quality-control messages. Calling this method overrides the default handling of quality-control messages.
 
-However, most applications will not implement their own quality-control managers; and aside from this special case, applications typically do not use this interface. For more information, see <a href="https://msdn.microsoft.com/b1def588-6c9c-4853-a69b-1ba5df8b5ba2">Quality-Control Management</a>
+However, most applications will not implement their own quality-control managers; and aside from this special case, applications typically do not use this interface. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/quality-control-management">Quality-Control Management</a>
 
 
 
@@ -65,7 +65,7 @@ However, most applications will not implement their own quality-control managers
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQualityControl</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IQualityControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQualityControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IQualityControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -80,7 +80,7 @@ The <b>IQualityControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c7a34356-b0b2-49c1-bdc2-d8043fdc2862">Notify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iqualitycontrol-notify">Notify</a>
 </td>
 <td align="left" width="63%">
 Notifies the recipient that a quality change is requested.
@@ -89,7 +89,7 @@ Notifies the recipient that a quality change is requested.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f82922dc-ec33-499d-b052-a1ba38632c52">SetSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iqualitycontrol-setsink">SetSink</a>
 </td>
 <td align="left" width="63%">
 Sets the <code>IQualityControl</code> object that will receive quality messages.

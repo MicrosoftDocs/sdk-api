@@ -106,11 +106,11 @@ The address in the <i>pname</i> parameter is not valid. For example, it may be <
 
 
 
-<a href="https://msdn.microsoft.com/3a04d2b7-b2eb-4c6c-8863-1e88321fa382">IFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
 
 
 
-<a href="https://msdn.microsoft.com/3593d5c9-e2b7-4d85-b8f7-94f01a901030">IFont::put_Name</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-put_name">IFont::put_Name</a>
  
 
  

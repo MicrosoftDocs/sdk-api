@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Reads the closing elements of a message.
             
-                The operation allows for reading of messages from sources other than Channels.  If the source is a Channel use <a href="https://msdn.microsoft.com/3112be44-f610-421f-a4ea-0f87fc383540">WsReadMessageEnd</a>.
+                The operation allows for reading of messages from sources other than Channels.  If the source is a Channel use <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadmessageend">WsReadMessageEnd</a>.
             
 
 
@@ -62,14 +62,14 @@ Reads the closing elements of a message.
 
 ### -param message [in]
 
-A pointer to the <b>Message</b> object read.  The pointer must reference a valid <a href="https://msdn.microsoft.com/22cc39a9-a3a7-4b4d-bdee-0ccac5dc03ee">WS_MESSAGE</a>.
+A pointer to the <b>Message</b> object read.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-message">WS_MESSAGE</a>.
                 
                 
 
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 

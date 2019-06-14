@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>AllocateForOutput</b> method allocates user-created buffers for samples delivered to <a href="https://msdn.microsoft.com/en-us/library/Dd743503(v=VS.85).aspx">IWMReaderCallback::OnSample</a>. For more information about allocating your own buffers, see <a href="https://msdn.microsoft.com/c747139e-e157-4ea0-9132-256dc70e2b15">User Allocated Sample Support</a>.
+The <b>AllocateForOutput</b> method allocates user-created buffers for samples delivered to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadercallback-onsample">IWMReaderCallback::OnSample</a>. For more information about allocating your own buffers, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/user-allocated-sample-support">User Allocated Sample Support</a>.
 
 
 
@@ -72,19 +72,19 @@ Size of the buffer, in bytes.
 
 ### -param ppBuffer [out]
 
-If the method succeeds, returns a pointer to a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer</a> interface.
+If the method succeeds, returns a pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface.
 
 
 ### -param pvContext [in]
 
-Generic pointer, for use by the application. This pointer is the context pointer given to the <a href="https://msdn.microsoft.com/en-us/library/Dd743608(v=VS.85).aspx">IWMReader::Start</a> method.
+Generic pointer, for use by the application. This pointer is the context pointer given to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-start">IWMReader::Start</a> method.
 
 
 ## -returns
 
 
 
-To use this method, you must implement it in your application. You can return whatever <b>HRESULT</b> error codes are appropriate to your implementation. For more information about the <b>HRESULT</b> error codes included for use by the Windows Media Format SDK, see <a href="https://msdn.microsoft.com/ea1c129b-c0d7-4a1b-934c-c1c07364d4a8">Error Codes</a>.
+To use this method, you must implement it in your application. You can return whatever <b>HRESULT</b> error codes are appropriate to your implementation. For more information about the <b>HRESULT</b> error codes included for use by the Windows Media Format SDK, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/error-codes">Error Codes</a>.
 
 
 
@@ -93,13 +93,13 @@ To use this method, you must implement it in your application. You can return wh
 
 
 
-An extended version of this method called <a href="https://msdn.microsoft.com/en-us/library/Dd743491(v=VS.85).aspx">AllocateForOutputEx</a> exists in the <a href="https://msdn.microsoft.com/en-us/library/Dd743490(v=VS.85).aspx">IWMReaderAllocatorEx</a> interface.
+An extended version of this method called <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderallocatorex-allocateforoutputex">AllocateForOutputEx</a> exists in the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderallocatorex">IWMReaderAllocatorEx</a> interface.
 
 When allocating buffers, you can use whatever logic suits your application. Typically, applications initialize a pool of buffers for the file or a pool of buffers for each stream or output. When the application is done with a sample, the buffer is put back into the pool for use.
 
-You can determine the size needed to hold the largest sample of an output by calling <a href="https://msdn.microsoft.com/en-us/library/Dd743473(v=VS.85).aspx">IWMReaderAdvanced::GetMaxOutputSampleSize</a>. This is the size you should make the samples in the pool used for the output.
+You can determine the size needed to hold the largest sample of an output by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getmaxoutputsamplesize">IWMReaderAdvanced::GetMaxOutputSampleSize</a>. This is the size you should make the samples in the pool used for the output.
 
-When you allocate a sample in your implementation of this method, you should call <a href="https://msdn.microsoft.com/en-us/library/Dd743263(v=VS.85).aspx">INSSBuffer::SetLength</a> to set the length of the buffer to the length passed by the reader in the <i>cbBuffer</i> parameter. If you do not set the current length on the buffer, the reader may encounter an error.
+When you allocate a sample in your implementation of this method, you should call <a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-setlength">INSSBuffer::SetLength</a> to set the length of the buffer to the length passed by the reader in the <i>cbBuffer</i> parameter. If you do not set the current length on the buffer, the reader may encounter an error.
 
 
 
@@ -109,7 +109,7 @@ When you allocate a sample in your implementation of this method, you should cal
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743494(v=VS.85).aspx">IWMReaderCallbackAdvanced Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallbackadvanced">IWMReaderCallbackAdvanced Interface</a>
  
 
  

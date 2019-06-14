@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[CStdStubBuffer_DebugServerQueryInterface is not supported and may be altered or unavailable in the future.]
 
-The <b>CStdStubBuffer_DebugServerQueryInterface</b> function implements the <a href="https://msdn.microsoft.com/en-us/library/ms692801(v=VS.85).aspx">IRpcStubBuffer::DebugServerQueryInterface</a> method.
+The <b>CStdStubBuffer_DebugServerQueryInterface</b> function implements the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-debugserverqueryinterface">IRpcStubBuffer::DebugServerQueryInterface</a> method.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>CStdStubBuffer_DebugServerQueryInterface</b> function implements the <a h
 
 ### -param This [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a> object.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a> object.
 
 
 ### -param ppv [out]

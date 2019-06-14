@@ -98,7 +98,7 @@ Type: <b>UINT</b>
 
 If the function succeeds, the return value specifies the number of characters copied to the buffer, not including the terminating null character.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -109,12 +109,12 @@ If the function fails, the return value is zero. To get extended error informati
 
 If the string is as long or longer than the buffer, the buffer will contain the truncated string with a terminating null character.
 
-The <b>GetDlgItemText</b> function sends a <a href="https://msdn.microsoft.com/en-us/library/ms632627(v=VS.85).aspx">WM_GETTEXT</a> message to the control. 
+The <b>GetDlgItemText</b> function sends a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-gettext">WM_GETTEXT</a> message to the control. 
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644996(v=VS.85).aspx">Creating a Modal Dialog Box</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/using-dialog-boxes">Creating a Modal Dialog Box</a>.
 
 <div class="code"></div>
 
@@ -129,11 +129,11 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644996(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632588(v=VS.85).aspx">Dialog Boxes</a>
+<a href="https://docs.microsoft.com/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645485(v=VS.85).aspx">GetDlgItemInt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdlgitemint">GetDlgItemInt</a>
 
 
 
@@ -141,15 +141,15 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644996(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645518(v=VS.85).aspx">SetDlgItemInt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setdlgitemint">SetDlgItemInt</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645521(v=VS.85).aspx">SetDlgItemText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setdlgitemtexta">SetDlgItemText</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632627(v=VS.85).aspx">WM_GETTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-gettext">WM_GETTEXT</a>
  
 
  

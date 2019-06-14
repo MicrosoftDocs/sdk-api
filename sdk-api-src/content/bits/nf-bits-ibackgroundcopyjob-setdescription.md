@@ -128,7 +128,7 @@ The state of the job cannot be BG_JOB_STATE_CANCELLED or BG_JOB_STATE_ACKNOWLEDG
 
 
 
-<a href="https://msdn.microsoft.com/1a791390-2bd8-4732-98a2-74f740cfd822">IBackgroundCopyJob::GetDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getdescription">IBackgroundCopyJob::GetDescription</a>
  
 
  

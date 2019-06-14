@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Determines if an item in a list-view control is selected. This should be used only for list-view controls that have the <a href="https://msdn.microsoft.com/en-us/library/Bb774732(v=VS.85).aspx">LVS_EX_CHECKBOXES</a> style. 
+Determines if an item in a list-view control is selected. This should be used only for list-view controls that have the <a href="https://docs.microsoft.com/windows/desktop/Controls/extended-list-view-styles">LVS_EX_CHECKBOXES</a> style. 
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Determines if an item in a list-view control is selected. This should be used on
 
 ### -param hwndLV
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a list-view control. 
 
 
 ### -param i
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The index of the item for which to retrieve the check state. 
 

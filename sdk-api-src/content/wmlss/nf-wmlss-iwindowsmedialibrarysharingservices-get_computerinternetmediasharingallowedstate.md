@@ -109,11 +109,11 @@ If Internet media sharing is allowed for the computer and a particular user has 
 
 
 
-<a href="https://msdn.microsoft.com/bbec5687-3c77-4385-a9be-74c6d84db962">IWindowsMediaLibrarySharingServices</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nn-wmlss-iwindowsmedialibrarysharingservices">IWindowsMediaLibrarySharingServices</a>
 
 
 
-<a href="https://msdn.microsoft.com/d41d63d7-2b15-4dd5-bbc1-17696924a624">IWindowsMediaLibrarySharingServices::put_computerInternetMediaSharingAllowedState</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nf-wmlss-iwindowsmedialibrarysharingservices-put_computerinternetmediasharingallowedstate">IWindowsMediaLibrarySharingServices::put_computerInternetMediaSharingAllowedState</a>
  
 
  

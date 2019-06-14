@@ -63,7 +63,7 @@ The
 
 ### -param LoggerHandle [in]
 
-Handle to the event tracing session that records the event. The provider obtains the handle when it calls the <a href="https://msdn.microsoft.com/050d3a01-0087-40f1-af35-b9ceeaf47813">GetTraceLoggerHandle</a> function in its <a href="https://msdn.microsoft.com/e9f70ae6-906f-4e55-bca7-4355f1ca6091">ControlCallback</a> implementation.
+Handle to the event tracing session that records the event. The provider obtains the handle when it calls the <a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceloggerhandle">GetTraceLoggerHandle</a> function in its <a href="https://docs.microsoft.com/windows/desktop/ETW/controlcallback">ControlCallback</a> implementation.
 
 
 ### -param MessageFlags [in]
@@ -200,7 +200,7 @@ If the function succeeds, the return value is ERROR_SUCCESS.
 						
 
 If the function fails, the return value is one of the 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>. The following table includes some common errors and their causes.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some common errors and their causes.
 
 <table>
 <tr>
@@ -226,7 +226,7 @@ Either the <i>SessionHandle</i> is <b>NULL</b> or specifies the NT Kernel Logger
 </dl>
 </td>
 <td width="60%">
-The session ran out of free buffers to write to. This can occur during high event rates because the disk subsystem is overloaded or the number of buffers is too small. Rather than blocking until more buffers become available, <a href="https://msdn.microsoft.com/5d81c851-d47e-43f8-97b0-87156f36119a">TraceMessage</a> discards the event.
+The session ran out of free buffers to write to. This can occur during high event rates because the disk subsystem is overloaded or the number of buffers is too small. Rather than blocking until more buffers become available, <a href="https://docs.microsoft.com/windows/desktop/ETW/tracemessage">TraceMessage</a> discards the event.
 
 <b>Windows 2000 and Windows XP:  </b>Not supported.
 
@@ -262,7 +262,7 @@ The event is discarded because, although the buffer pool has not reached its max
 </td>
 <td width="60%">
 Data from a single event cannot span multiple buffers. A trace event is limited to the size of the event tracing session's buffer minus the size of the  
-<a href="https://msdn.microsoft.com/33c2de6b-afc2-4323-8d81-2970e66edf5e">EVENT_TRACE_HEADER</a> structure. 
+<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-header">EVENT_TRACE_HEADER</a> structure. 
 
 </td>
 </tr>
@@ -278,16 +278,16 @@ Data from a single event cannot span multiple buffers. A trace event is limited 
 
 Providers call this function.
 
-Using the <a href="https://msdn.microsoft.com/9b21f6f0-dd9b-4f9c-a879-846901a3bab7">TraceEvent</a> function is the preferred way to log an event. On Windows Vista, you should use the <a href="https://msdn.microsoft.com/93070eb7-c167-4419-abff-e861877dad07">EventWrite</a> function to log events.
+Using the <a href="https://docs.microsoft.com/windows/desktop/ETW/traceevent">TraceEvent</a> function is the preferred way to log an event. On Windows Vista, you should use the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwrite">EventWrite</a> function to log events.
 
 The trace events are written in the order in which they occur. 
 
 If you need to access message tracing functionality from a wrapper function, call the 
-<a href="https://msdn.microsoft.com/2cfb7226-fd29-432e-abfd-bd10c6344a67">TraceMessageVa</a> version of this function.
+<a href="https://docs.microsoft.com/windows/desktop/ETW/tracemessageva">TraceMessageVa</a> version of this function.
 
-Consumers will have to use the <a href="https://msdn.microsoft.com/9312eaed-2997-4d44-952a-fcae3b262947">EventCallback</a> callback to receive and process the events if the <i>MessageFlags</i> parameter does not contain the TRACE_MESSAGE_GUID flag. If you do not specify the TRACE_MESSAGE_GUID flag, the consumer will not be able to use the <a href="https://msdn.microsoft.com/32e94f58-b8b6-4e0a-b53b-716a534ac374">EventClassCallback</a> because the <b>Header.Guid</b> member of the   <a href="https://msdn.microsoft.com/d8a6b63e-0cd4-4d19-b0b3-16bb0d33e4c0">EVENT_TRACE</a> structure will not contain the event trace class GUID.
+Consumers will have to use the <a href="https://docs.microsoft.com/windows/desktop/ETW/eventcallback">EventCallback</a> callback to receive and process the events if the <i>MessageFlags</i> parameter does not contain the TRACE_MESSAGE_GUID flag. If you do not specify the TRACE_MESSAGE_GUID flag, the consumer will not be able to use the <a href="https://docs.microsoft.com/windows/desktop/ETW/eventclasscallback">EventClassCallback</a> because the <b>Header.Guid</b> member of the   <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace">EVENT_TRACE</a> structure will not contain the event trace class GUID.
 
-Note that the members of the <a href="https://msdn.microsoft.com/d8a6b63e-0cd4-4d19-b0b3-16bb0d33e4c0">EVENT_TRACE</a> and <a href="https://msdn.microsoft.com/33c2de6b-afc2-4323-8d81-2970e66edf5e">EVENT_TRACE_HEADER</a> structures that correspond to the <i>MessageFlags</i> flags are set only if the corresponding flag is specified. For example, the <b>ThreadId</b> and <b>ProcessId</b> members of <b>EVENT_TRACE_HEADER</b> are populated only if you specify the TRACE_MESSAGE_SYSTEMINFO flag.
+Note that the members of the <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace">EVENT_TRACE</a> and <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-header">EVENT_TRACE_HEADER</a> structures that correspond to the <i>MessageFlags</i> flags are set only if the corresponding flag is specified. For example, the <b>ThreadId</b> and <b>ProcessId</b> members of <b>EVENT_TRACE_HEADER</b> are populated only if you specify the TRACE_MESSAGE_SYSTEMINFO flag.
 
 
 
@@ -297,15 +297,15 @@ Note that the members of the <a href="https://msdn.microsoft.com/d8a6b63e-0cd4-4
 
 
 
-<a href="https://msdn.microsoft.com/9b21f6f0-dd9b-4f9c-a879-846901a3bab7">TraceEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/traceevent">TraceEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8361bdc-21dd-47a0-bdbf-56f4d6195689">TraceEventInstance</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/traceeventinstance">TraceEventInstance</a>
 
 
 
-<a href="https://msdn.microsoft.com/2cfb7226-fd29-432e-abfd-bd10c6344a67">TraceMessageVa</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/tracemessageva">TraceMessageVa</a>
  
 
  

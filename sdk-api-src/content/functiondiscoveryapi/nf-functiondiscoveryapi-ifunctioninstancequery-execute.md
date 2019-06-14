@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Performs the query defined by <a href="https://msdn.microsoft.com/80e70972-ced1-416e-aa4f-69c54b2cbf95">IFunctionDiscovery::CreateInstanceQuery</a>. 
+Performs the query defined by <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscovery-createinstancequery">IFunctionDiscovery::CreateInstanceQuery</a>. 
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Performs the query defined by <a href="https://msdn.microsoft.com/80e70972-ced1-
 
 ### -param ppIFunctionInstance [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/cc421719-73a6-4d4d-9bf8-171e46c4e275">IFunctionInstance</a> interface pointer that receives the requested function instance.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a> interface pointer that receives the requested function instance.
 
 
 ## -returns
@@ -158,14 +158,14 @@ The function instance could not be returned because the key corresponding to the
 </table>
  
 
-A predefined query is a query of a layered <a href="https://msdn.microsoft.com/476df2f0-6ed0-4275-90e7-752d7279bf1b">category</a>. When a predefined query is executed, each provider that returns a function instance also returns an HRESULT value. The provider HRESULT values  are aggregated, and the value returned by the <a href="https://msdn.microsoft.com/b924d066-87d7-499b-b006-a10e219e11fd">Execute</a>  method reflects these aggregate results. Results are aggregated as follows:
+A predefined query is a query of a layered <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/function-discovery-categories">category</a>. When a predefined query is executed, each provider that returns a function instance also returns an HRESULT value. The provider HRESULT values  are aggregated, and the value returned by the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-execute">Execute</a>  method reflects these aggregate results. Results are aggregated as follows:
 
 <ul>
-<li>If all providers return S_OK, <a href="https://msdn.microsoft.com/b924d066-87d7-499b-b006-a10e219e11fd">Execute</a>   returns S_OK.</li>
-<li>If at least one provider returns E_PENDING, and all other providers return either S_OK or E_PENDING, <a href="https://msdn.microsoft.com/b924d066-87d7-499b-b006-a10e219e11fd">Execute</a>   returns E_PENDING.</li>
-<li>If all providers return an error value (that is, a value other than S_OK or E_PENDING), <a href="https://msdn.microsoft.com/b924d066-87d7-499b-b006-a10e219e11fd">Execute</a> returns the error value returned by the network provider that was last queried. Also, if the client's  <a href="https://msdn.microsoft.com/1819fe08-b151-482d-8e2c-1d599fd15609">IFunctionDiscoveryNotification</a> callback routine was provided to <a href="https://msdn.microsoft.com/46f74e55-8060-4f02-85e3-dbd2fc8fce78">IFunctionDiscovery::CreateInstanceCollectionQuery</a>, an <a href="https://msdn.microsoft.com/c4dcc4e9-7acf-44d3-b337-1ac01afa19b0">OnError</a>  notification is sent for each provider. Each   <b>OnError</b> notification contains the HRESULT returned by the provider.</li>
-<li>If at least one provider returns an error value, and all other providers return S_OK, <a href="https://msdn.microsoft.com/b924d066-87d7-499b-b006-a10e219e11fd">Execute</a>   returns S_OK. <a href="https://msdn.microsoft.com/c4dcc4e9-7acf-44d3-b337-1ac01afa19b0">OnError</a>  notification(s) are sent as described above.</li>
-<li>If at least one provider returns an error value, and at least one provider returns E_PENDING, <a href="https://msdn.microsoft.com/b924d066-87d7-499b-b006-a10e219e11fd">Execute</a> returns E_PENDING.  <a href="https://msdn.microsoft.com/c4dcc4e9-7acf-44d3-b337-1ac01afa19b0">OnError</a> notification(s) are sent as described above.</li>
+<li>If all providers return S_OK, <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-execute">Execute</a>   returns S_OK.</li>
+<li>If at least one provider returns E_PENDING, and all other providers return either S_OK or E_PENDING, <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-execute">Execute</a>   returns E_PENDING.</li>
+<li>If all providers return an error value (that is, a value other than S_OK or E_PENDING), <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-execute">Execute</a> returns the error value returned by the network provider that was last queried. Also, if the client's  <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> callback routine was provided to <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscovery-createinstancecollectionquery">IFunctionDiscovery::CreateInstanceCollectionQuery</a>, an <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscoverynotification-onerror">OnError</a>  notification is sent for each provider. Each   <b>OnError</b> notification contains the HRESULT returned by the provider.</li>
+<li>If at least one provider returns an error value, and all other providers return S_OK, <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-execute">Execute</a>   returns S_OK. <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscoverynotification-onerror">OnError</a>  notification(s) are sent as described above.</li>
+<li>If at least one provider returns an error value, and at least one provider returns E_PENDING, <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-execute">Execute</a> returns E_PENDING.  <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscoverynotification-onerror">OnError</a> notification(s) are sent as described above.</li>
 </ul>
 
 
@@ -178,9 +178,9 @@ This method must be must be invoked by the client program to retrieve data from 
 
 <ol>
 <li>Retrieves the function instance.</li>
-<li>Initiates the update notification mechanism if the address of the client program's <a href="https://msdn.microsoft.com/1819fe08-b151-482d-8e2c-1d599fd15609">IFunctionDiscoveryNotification</a> callback routine is provided to <a href="https://msdn.microsoft.com/80e70972-ced1-416e-aa4f-69c54b2cbf95">IFunctionDiscovery::CreateInstanceQuery</a>.</li>
+<li>Initiates the update notification mechanism if the address of the client program's <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> callback routine is provided to <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscovery-createinstancequery">IFunctionDiscovery::CreateInstanceQuery</a>.</li>
 </ol>
-Function Discovery network providers only return function instances through the <a href="https://msdn.microsoft.com/1819fe08-b151-482d-8e2c-1d599fd15609">IFunctionDiscoveryNotification</a> interface.  They return no function instances directly when this method is invoked. Instead, <b>Execute</b> simply initiates an entirely asynchronous retrieval operation and returns E_PENDING to indicate that the results will be returned asynchronously.   Notifications must be used to retrieve function instances from Function Discovery network providers.
+Function Discovery network providers only return function instances through the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> interface.  They return no function instances directly when this method is invoked. Instead, <b>Execute</b> simply initiates an entirely asynchronous retrieval operation and returns E_PENDING to indicate that the results will be returned asynchronously.   Notifications must be used to retrieve function instances from Function Discovery network providers.
 
 If <b>Execute</b> is called twice on the same query object, the first query is terminated before the second query executes. 
 
@@ -192,11 +192,11 @@ If <b>Execute</b> is called twice on the same query object, the first query is t
 
 
 
-<a href="https://msdn.microsoft.com/3c255fb4-8f9d-47a2-9770-1aa528d07f43">Function Discovery Queries</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/function-discovery-queries">Function Discovery Queries</a>
 
 
 
-<a href="https://msdn.microsoft.com/03343d85-c0db-436d-bedc-c001b1886173">IFunctionInstanceQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstancequery">IFunctionInstanceQuery</a>
  
 
  

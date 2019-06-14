@@ -59,17 +59,17 @@ The <b>EngLineTo</b> function draws a single, solid, integer-only cosmetic line.
 
 ### -param pso
 
-Pointer to a <a href="https://msdn.microsoft.com/cee7cb50-1e8a-422b-aebe-7030ae96fb34">SURFOBJ</a> structure that describes the surface on which to draw.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_surfobj">SURFOBJ</a> structure that describes the surface on which to draw.
 
 
 ### -param pco
 
-Pointer to a <a href="https://msdn.microsoft.com/c3f632ed-f8d1-44bb-b2fb-6f7f2c71fd63">CLIPOBJ</a> structure that defines the clip region in which the rendering must be done. No pixels can be affected outside this clip region.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_clipobj">CLIPOBJ</a> structure that defines the clip region in which the rendering must be done. No pixels can be affected outside this clip region.
 
 
 ### -param pbo
 
-Pointer to a <a href="https://msdn.microsoft.com/81216bee-d13f-4880-a839-337a247a6c82">BRUSHOBJ</a> structure that specifies the brush to use when drawing the line.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_brushobj">BRUSHOBJ</a> structure that specifies the brush to use when drawing the line.
 
 
 ### -param x1
@@ -94,7 +94,7 @@ Specify the integer x- and y-coordinate of the line's end point.
 
 ### -param prclBounds
 
-Pointer to a <a href="https://msdn.microsoft.com/709f8262-829e-4cda-bb0b-564307edfd24">RECTL</a> structure that describes the rectangle that bounds the unclipped line. Drivers that support hardware line drawing can use this rectangle to quickly determine whether the line fits in a coordinate space small enough to be rendered by the hardware.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a> structure that describes the rectangle that bounds the unclipped line. Drivers that support hardware line drawing can use this rectangle to quickly determine whether the line fits in a coordinate space small enough to be rendered by the hardware.
 
 
 ### -param mix
@@ -115,7 +115,7 @@ Defines how the incoming pattern should be mixed with the data already on the de
 
 
 
-The driver that has hooked <a href="https://msdn.microsoft.com/e1e5dd93-444d-4176-9f7f-8aa220cddf78">DrvLineTo</a> can call <b>EngLineTo</b> when the rendering surface is a device-independent bitmap (DIB).
+The driver that has hooked <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvlineto">DrvLineTo</a> can call <b>EngLineTo</b> when the rendering surface is a device-independent bitmap (DIB).
 
 
 
@@ -125,19 +125,19 @@ The driver that has hooked <a href="https://msdn.microsoft.com/e1e5dd93-444d-417
 
 
 
-<a href="https://msdn.microsoft.com/81216bee-d13f-4880-a839-337a247a6c82">BRUSHOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_brushobj">BRUSHOBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/c3f632ed-f8d1-44bb-b2fb-6f7f2c71fd63">CLIPOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_clipobj">CLIPOBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/e1e5dd93-444d-4176-9f7f-8aa220cddf78">DrvLineTo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvlineto">DrvLineTo</a>
 
 
 
-<a href="https://msdn.microsoft.com/cee7cb50-1e8a-422b-aebe-7030ae96fb34">SURFOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_surfobj">SURFOBJ</a>
  
 
  

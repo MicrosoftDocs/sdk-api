@@ -75,12 +75,12 @@ Number of samples processed.
 
 ### -field cDiscontinuities
 
-Number of discontinuities. See <a href="https://msdn.microsoft.com/en-us/library/Dd407017(v=VS.85).aspx">IMediaSample::SetDiscontinuity</a>.
+Number of discontinuities. See <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediasample-setdiscontinuity">IMediaSample::SetDiscontinuity</a>.
 
 
 ### -field cSyncPoints
 
-Number of synchronization points. See <a href="https://msdn.microsoft.com/en-us/library/Dd407021(v=VS.85).aspx">IMediaSample::SetSyncPoint</a>.
+Number of synchronization points. See <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediasample-setsyncpoint">IMediaSample::SetSyncPoint</a>.
 
 
 ### -field cTimestamps
@@ -93,11 +93,11 @@ Number of time stamps.
 
 
 
-<a href="https://msdn.microsoft.com/15895ff3-37e5-4f89-bcce-3b9f060c0746">IStreamBufferDataCounters::GetData</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferdatacounters-getdata">IStreamBufferDataCounters::GetData</a>
 
 
 
-<a href="https://msdn.microsoft.com/90ac310a-7fd3-440f-9cf7-7d6eb58996cc">Stream Buffer Engine Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-engine-structures">Stream Buffer Engine Structures</a>
  
 
  

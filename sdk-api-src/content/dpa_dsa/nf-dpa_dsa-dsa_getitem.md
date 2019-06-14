@@ -82,7 +82,7 @@ A pointer to a buffer which is filled with a copy of the specified element of th
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise.
 
@@ -93,7 +93,7 @@ Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise.
 
 
 
-<b>DSA_GetItem</b> is not exported by name. To use it, you must use <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> and request ordinal 322 from ComCtl32.dll to obtain a function pointer.
+<b>DSA_GetItem</b> is not exported by name. To use it, you must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> and request ordinal 322 from ComCtl32.dll to obtain a function pointer.
 
 Using the element pointer that this function retrieves, you can modify the data in that element directly. However, be aware that a subsequent insert or destroy operation could cause this pointer value to become invalid or to point to a different element.
 
@@ -105,7 +105,7 @@ Using the element pointer that this function retrieves, you can modify the data 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775661(v=VS.85).aspx">DSA_GetItemPtr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dsa_getitemptr">DSA_GetItemPtr</a>
  
 
  

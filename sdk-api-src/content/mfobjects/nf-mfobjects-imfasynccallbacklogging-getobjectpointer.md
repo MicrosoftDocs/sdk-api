@@ -73,7 +73,7 @@ void pointer to the object.
 
 
 
-<a href="https://msdn.microsoft.com/8b4de920-8e82-4e50-b801-82842da8a6ae">IMFAsyncCallbackLogging</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallbacklogging">IMFAsyncCallbackLogging</a>
  
 
  

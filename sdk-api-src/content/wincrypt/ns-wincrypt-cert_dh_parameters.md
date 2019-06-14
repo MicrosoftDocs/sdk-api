@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CERT_DH_PARAMETERS</b> structure contains parameters associated with a <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Diffie/Hellman</a> public key algorithm.
+The <b>CERT_DH_PARAMETERS</b> structure contains parameters associated with a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Diffie/Hellman</a> public key algorithm.
 
 
 ## -struct-fields

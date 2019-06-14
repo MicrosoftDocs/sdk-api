@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Disconnects a communication channel created by <a href="https://msdn.microsoft.com/287DA978-9797-48DF-9C90-BA53BB82475C">CfConnectSyncRoot</a>.
+Disconnects a communication channel created by <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfconnectsyncroot">CfConnectSyncRoot</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Disconnects a communication channel created by <a href="https://msdn.microsoft.c
 
 ### -param ConnectionKey [in]
 
-The connection key returned from <a href="https://msdn.microsoft.com/287DA978-9797-48DF-9C90-BA53BB82475C">CfConnectSyncRoot</a> that is now used to disconnect the sync root.
+The connection key returned from <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfconnectsyncroot">CfConnectSyncRoot</a> that is now used to disconnect the sync root.
 
 
 ## -returns
@@ -75,7 +75,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-This removes the communication channel with the platform that was previously established using <a href="https://msdn.microsoft.com/287DA978-9797-48DF-9C90-BA53BB82475C">CfConnectSyncRoot</a>. 
+This removes the communication channel with the platform that was previously established using <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfconnectsyncroot">CfConnectSyncRoot</a>. 
 
 A sync provider can still receive callbacks during the <b>CfDisconnectSyncRoot</b> call, and the provider is free to choose whether the call needs to fail or be serviced. Either choice will not cause disruptions to the sync provider.
 

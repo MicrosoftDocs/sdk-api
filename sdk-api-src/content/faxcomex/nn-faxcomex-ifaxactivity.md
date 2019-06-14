@@ -55,7 +55,7 @@ The <b>IFaxActivity</b> interface defines a read-only configuration object. The 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxActivity</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxActivity</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxActivity</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxActivity</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,12 +71,12 @@ The <b>IFaxActivity</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms686152(v=VS.85).aspx">Refresh</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxactivity-refresh-vb">Refresh</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms686152(v=VS.85).aspx">IFaxActivity::Refresh</a> method refreshes <a href="https://msdn.microsoft.com/en-us/library/ms686148(v=VS.85).aspx">FaxActivity</a> information from the fax server.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxactivity-refresh-vb">IFaxActivity::Refresh</a> method refreshes <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxactivity">FaxActivity</a> information from the fax server.
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms686152(v=VS.85).aspx">IFaxActivity::Refresh</a> method refreshes <b>IFaxActivity</b> information from the fax server.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxactivity-refresh-vb">IFaxActivity::Refresh</a> method refreshes <b>IFaxActivity</b> information from the fax server.
 
 </td>
 </tr>
@@ -91,7 +91,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms686152(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686144(v=VS.85).aspx">IncomingMessages</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxactivity-incomingmessages-vb">IncomingMessages</a>
 
 
 </td>
@@ -100,14 +100,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms686144(v=VS.85).aspx">IFaxActivity::get_IncomingMessages</a> property is a number that represents the total number of incoming fax jobs that the fax service is currently in the process of receiving.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxactivity-incomingmessages-vb">IFaxActivity::get_IncomingMessages</a> property is a number that represents the total number of incoming fax jobs that the fax service is currently in the process of receiving.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686825(v=VS.85).aspx">OutgoingMessages</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxactivity-outgoingmessages-vb">OutgoingMessages</a>
 
 
 </td>
@@ -116,14 +116,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms686825(v=VS.85).aspx">IFaxActivity::get_OutgoingMessages</a> property is a number that represents the total number of outgoing fax jobs that the fax service is in the process of sending.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxactivity-outgoingmessages-vb">IFaxActivity::get_OutgoingMessages</a> property is a number that represents the total number of outgoing fax jobs that the fax service is in the process of sending.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685331(v=VS.85).aspx">QueuedMessages</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxactivity-queuedmessages-vb">QueuedMessages</a>
 
 
 </td>
@@ -132,14 +132,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms685331(v=VS.85).aspx">IFaxActivity::get_QueuedMessages</a> property is a number that represents the total number of fax jobs in the fax job queue that are pending processing. This does not include jobs for which the number of retries has been exceeded.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxactivity-queuedmessages-vb">IFaxActivity::get_QueuedMessages</a> property is a number that represents the total number of fax jobs in the fax job queue that are pending processing. This does not include jobs for which the number of retries has been exceeded.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686524(v=VS.85).aspx">RoutingMessages</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxactivity-routingmessages-vb">RoutingMessages</a>
 
 
 </td>
@@ -148,7 +148,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms686524(v=VS.85).aspx">IFaxActivity::get_RoutingMessages</a> property is a number that represents the total number of incoming fax jobs that the fax service is currently routing.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxactivity-routingmessages-vb">IFaxActivity::get_RoutingMessages</a> property is a number that represents the total number of incoming fax jobs that the fax service is currently routing.
 
 </td>
 </tr>
@@ -159,9 +159,9 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms686524(v=VS.85).aspx">IF
 
 
 
-A default implementation of <b>IFaxActivity</b> is provided as the <a href="https://msdn.microsoft.com/en-us/library/ms686148(v=VS.85).aspx">FaxActivity</a> object.
+A default implementation of <b>IFaxActivity</b> is provided as the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxactivity">FaxActivity</a> object.
 
-You can configure whether the fax service logs information about incoming and outgoing fax jobs in an activity log database. The <a href="https://msdn.microsoft.com/en-us/library/ms684576(v=VS.85).aspx">FaxActivityLogging</a> configuration object permits configuration of the activity logging options that the fax service uses.
+You can configure whether the fax service logs information about incoming and outgoing fax jobs in an activity log database. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxactivitylogging">FaxActivityLogging</a> configuration object permits configuration of the activity logging options that the fax service uses.
 
 
 

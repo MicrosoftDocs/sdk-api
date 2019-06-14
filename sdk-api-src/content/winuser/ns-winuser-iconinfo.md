@@ -101,15 +101,15 @@ A handle to the icon color bitmap. This member can be optional if this structure
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648062(v=VS.85).aspx">CreateIconIndirect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createiconindirect">CreateIconIndirect</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648070(v=VS.85).aspx">GetIconInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-geticoninfo">GetIconInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646973(v=VS.85).aspx">Icons</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/icons">Icons</a>
 
 
 

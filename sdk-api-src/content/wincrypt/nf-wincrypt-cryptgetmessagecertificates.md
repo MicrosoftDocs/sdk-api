@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CryptGetMessageCertificates</b> function returns the handle of an open <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a> containing the message's certificates and <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">CRLs</a>. This function calls 
-<a href="https://msdn.microsoft.com/4edccbfe-c0a8-442b-b6b7-51ef598e7c90">CertOpenStore</a> using provider type CERT_STORE_PROV_PKCS7 as its <i>lpszStoreProvider</i> parameter.
+The <b>CryptGetMessageCertificates</b> function returns the handle of an open <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> containing the message's certificates and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CRLs</a>. This function calls 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a> using provider type CERT_STORE_PROV_PKCS7 as its <i>lpszStoreProvider</i> parameter.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>CryptGetMessageCertificates</b> function returns the handle of an open <a
 
 ### -param dwMsgAndCertEncodingType [in]
 
-Specifies the encoding type used. It is always acceptable to specify both the certificate and <a href="https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
+Specifies the encoding type used. It is always acceptable to specify both the certificate and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
 
 X509_ASN_ENCODING | PKCS_7_ASN_ENCODING
 
@@ -76,8 +76,8 @@ Currently defined encoding types are:
 This parameter is not used and should be set to <b>NULL</b>.
 
 <b>Windows Server 2003 and Windows XP:  </b>Handle of the CSP passed to 
-<a href="https://msdn.microsoft.com/4edccbfe-c0a8-442b-b6b7-51ef598e7c90">CertOpenStore</a>. For more information, see 
-<a href="https://msdn.microsoft.com/4edccbfe-c0a8-442b-b6b7-51ef598e7c90">CertOpenStore</a>.Unless there is a strong reason for passing a specific cryptographic provider in <i>hCryptProv</i>, pass zero to cause the default RSA or DSS provider to be acquired.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a>. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a>.Unless there is a strong reason for passing a specific cryptographic provider in <i>hCryptProv</i>, pass zero to cause the default RSA or DSS provider to be acquired.
 
 This parameter's data type is <b>HCRYPTPROV</b>.
 
@@ -86,14 +86,14 @@ This parameter's data type is <b>HCRYPTPROV</b>.
 
 ### -param dwFlags [in]
 
-Flags passed to <a href="https://msdn.microsoft.com/4edccbfe-c0a8-442b-b6b7-51ef598e7c90">CertOpenStore</a>. For more information, see 
-<a href="https://msdn.microsoft.com/4edccbfe-c0a8-442b-b6b7-51ef598e7c90">CertOpenStore</a>.
+Flags passed to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a>. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a>.
 
 
 ### -param pbSignedBlob [in]
 
 A pointer to a buffered 
-<a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_INTEGER_BLOB</a> structure that contains the signed message.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure that contains the signed message.
 
 
 ### -param cbSignedBlob [in]
@@ -105,10 +105,10 @@ The size, in bytes, of the signed message.
 
 
 
-Returns the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a> containing the message's certificates and CRLs. For an error, <b>NULL</b> is returned.
+Returns the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> containing the message's certificates and CRLs. For an error, <b>NULL</b> is returned.
 
 The following lists the error code most commonly returned by the 
-		       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+		       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 <table>
 <tr>
@@ -129,8 +129,8 @@ Invalid message and certificate encoding types. Currently only PKCS_7_ASN_ENCODI
 </table>
  
 
-If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> may return an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
-<a href="https://msdn.microsoft.com/cb1f34dd-dab4-4ffb-a73b-79a214290509">ASN.1 Encoding/Decoding Return Values</a>.
+If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
 
 
@@ -140,12 +140,12 @@ If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5
 
 
 Use 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> to determine the reason for any errors.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to determine the reason for any errors.
 
 
 #### Examples
 
-For an example that uses this function, see <a href="https://msdn.microsoft.com/9fb368c9-a0d7-4c5f-9a38-7ef8f7283354">Example C Program: Setting and Getting Certificate Store Properties</a>.
+For an example that uses this function, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-setting-and-getting-certificate-store-properties">Example C Program: Setting and Getting Certificate Store Properties</a>.
 
 <div class="code"></div>
 
@@ -156,11 +156,11 @@ For an example that uses this function, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/03411e7a-b097-4059-a198-3d412ae40e38">CryptVerifyMessageSignature</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifymessagesignature">CryptVerifyMessageSignature</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>
  
 
  

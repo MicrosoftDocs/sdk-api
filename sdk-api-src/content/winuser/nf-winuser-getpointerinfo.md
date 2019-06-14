@@ -57,7 +57,7 @@ ms.custom: 19H1
 
 
 Gets the information for the specified pointer associated with the current message.
-<div class="alert"><b>Note</b>  Use <a href="https://msdn.microsoft.com/63bfc340-9691-463c-96ca-0a5b80b8fe40">GetPointerType</a> if you don't need the additional information exposed by <b>GetPointerInfo</b>.</div><div> </div>
+<div class="alert"><b>Note</b>  Use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointertype">GetPointerType</a> if you don't need the additional information exposed by <b>GetPointerInfo</b>.</div><div> </div>
 
 ## -parameters
 
@@ -71,7 +71,7 @@ The pointer identifier.
 
 ### -param pointerInfo [out]
 
-Address of a  <a href="https://msdn.microsoft.com/fee176ba-ad07-4145-0b4d-1b8c335fd102">POINTER_INFO</a> structure that receives the pointer information.
+Address of a  <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_info">POINTER_INFO</a> structure that receives the pointer information.
 
 
 ## -returns
@@ -80,7 +80,7 @@ Address of a  <a href="https://msdn.microsoft.com/fee176ba-ad07-4145-0b4d-1b8c33
 
 If the function succeeds, the return value is non-zero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -91,11 +91,11 @@ If the function fails, the return value is zero. To get extended error informati
 
 <b>GetPointerInfo</b> retrieves information for a single pointer associated with a pointer message. 
 
-Use <a href="https://msdn.microsoft.com/6b7f450d-6ab1-4991-b2f9-a1db3f065711">GetPointerFrameInfo</a> to retrieve frame information associated with a message  for a set of pointers.
+Use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerframeinfo">GetPointerFrameInfo</a> to retrieve frame information associated with a message  for a set of pointers.
 
 The information returned by <b>GetPointerInfo</b> is associated with the most recent pointer message retrieved by the calling thread. When the next message is retrieved by the calling thread, the information associated with the previous message may no longer be available.
 
-If the application does not process pointer input messages as fast as they are generated, some messages may be coalesced into a <a href="https://msdn.microsoft.com/3bdc37da-227c-4be1-bf0b-99704b8ac222">WM_POINTERUPDATE</a> message. Use <a href="https://msdn.microsoft.com/92173197-45e8-4ee7-8959-2f14f90c2d21">GetPointerInfoHistory</a> to retrieve the message history from the most recent <b>WM_POINTERUPDATE</b> message. 
+If the application does not process pointer input messages as fast as they are generated, some messages may be coalesced into a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-pointerupdate">WM_POINTERUPDATE</a> message. Use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerinfohistory">GetPointerInfoHistory</a> to retrieve the message history from the most recent <b>WM_POINTERUPDATE</b> message. 
 
 If the information associated with the message is no longer available, this function fails with the last error set to <b>ERROR_NO_DATA</b>.
 
@@ -109,19 +109,19 @@ If the calling thread does not own the window to which the pointer message has b
 
 
 
-<a href="https://msdn.microsoft.com/0123DCD0-DAE1-4AC2-AB36-23D114803138">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/6b7f450d-6ab1-4991-b2f9-a1db3f065711">GetPointerFrameInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerframeinfo">GetPointerFrameInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/1ae035d6-a375-4421-82a6-50be4a2341f6">GetPointerFrameInfoHistory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerframeinfohistory">GetPointerFrameInfoHistory</a>
 
 
 
-<a href="https://msdn.microsoft.com/92173197-45e8-4ee7-8959-2f14f90c2d21">GetPointerInfoHistory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerinfohistory">GetPointerInfoHistory</a>
  
 
  

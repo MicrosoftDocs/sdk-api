@@ -49,9 +49,9 @@ req.redist:
 
 
 Returned from the 
-    <a href="https://msdn.microsoft.com/21a7cad2-eae0-461d-802e-a54fd7d35808">FSCTL_LOOKUP_STREAM_FROM_CLUSTER</a> control 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_lookup_stream_from_cluster">FSCTL_LOOKUP_STREAM_FROM_CLUSTER</a> control 
     code. Zero or more of these structures follow the 
-    <a href="https://msdn.microsoft.com/1e9b99eb-93a8-4f0c-98ee-ca9f58466400">LOOKUP_STREAM_FROM_CLUSTER_OUTPUT</a> 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_lookup_stream_from_cluster_output">LOOKUP_STREAM_FROM_CLUSTER_OUTPUT</a> 
     structure in the output buffer returned.
 
 
@@ -98,7 +98,7 @@ The stream is part of the system pagefile.
 </td>
 <td width="60%">
 The stream is locked from defragmentation. The <b>HandleInfo</b> member of the 
-        <a href="https://msdn.microsoft.com/6f736b31-279d-4118-a5e3-ad3c2bea2250">MARK_HANDLE_INFO</a> structure for this stream has 
+        <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-mark_handle_info">MARK_HANDLE_INFO</a> structure for this stream has 
         the <b>MARK_HANDLE_PROTECT_CLUSTERS</b> flag set.
 
 </td>
@@ -203,15 +203,15 @@ The name in the <b>FileName</b> member can be very long and in a format not reco
 
 
 
-<a href="https://msdn.microsoft.com/21a7cad2-eae0-461d-802e-a54fd7d35808">FSCTL_LOOKUP_STREAM_FROM_CLUSTER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_lookup_stream_from_cluster">FSCTL_LOOKUP_STREAM_FROM_CLUSTER</a>
 
 
 
-<a href="https://msdn.microsoft.com/1e9b99eb-93a8-4f0c-98ee-ca9f58466400">LOOKUP_STREAM_FROM_CLUSTER_OUTPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_lookup_stream_from_cluster_output">LOOKUP_STREAM_FROM_CLUSTER_OUTPUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/bbde9dfb-c205-4432-be71-250d73b881f1">Volume Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
  
 
  

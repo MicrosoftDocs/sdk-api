@@ -59,9 +59,9 @@ Communicates to the Logon UI or Credential UI that a field state has changed and
 
 ### -param pcpc [in]
 
-Type: <b><a href="https://msdn.microsoft.com/ef9bb148-0b4e-4c13-b69d-3e63a5592e4a">ICredentialProviderCredential</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredential">ICredentialProviderCredential</a>*</b>
 
-The credential containing a field whose state is being set. This value should be set to <b>this</b>. See <a href="https://msdn.microsoft.com/258449a4-78e2-475e-ab16-6481207e7354">ICredentialProviderCredentialEvents</a> for more information.
+The credential containing a field whose state is being set. This value should be set to <b>this</b>. See <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredentialevents">ICredentialProviderCredentialEvents</a> for more information.
                     
 
 
@@ -74,9 +74,9 @@ The unique ID of the field where the change occurred to generate the event.
 
 ### -param cpfs [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762489(v=VS.85).aspx">CREDENTIAL_PROVIDER_FIELD_STATE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/ne-credentialprovider-_credential_provider_field_state">CREDENTIAL_PROVIDER_FIELD_STATE</a></b>
 
-The value from the <a href="https://msdn.microsoft.com/en-us/library/Bb762489(v=VS.85).aspx">CREDENTIAL_PROVIDER_FIELD_STATE</a> enumeration that specifies the new field state.
+The value from the <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/ne-credentialprovider-_credential_provider_field_state">CREDENTIAL_PROVIDER_FIELD_STATE</a> enumeration that specifies the new field state.
 
 
 ## -returns

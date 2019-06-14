@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>IncludeSubjectKeyID</b> property determines whether the subject key ID extension is added to the certificate request that is  generated. The <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) for the subject key ID extension is "2.5.29.14", which is the defined value of the szOID_SUBJECT_KEY_IDENTIFIER constant in  Wincrypt.h. This property was first defined in the <a href="https://msdn.microsoft.com/133529fb-e02a-41a2-83df-646cbc01dbe9">IEnroll4</a> interface.
+The <b>IncludeSubjectKeyID</b> property determines whether the subject key ID extension is added to the certificate request that is  generated. The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) for the subject key ID extension is "2.5.29.14", which is the defined value of the szOID_SUBJECT_KEY_IDENTIFIER constant in  Wincrypt.h. This property was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a> interface.
 
 This property is read/write.
 
@@ -66,7 +66,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/133529fb-e02a-41a2-83df-646cbc01dbe9">IEnroll4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
  
 
  

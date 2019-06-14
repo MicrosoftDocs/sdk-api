@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies channel binding information for a security <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a>.
+Specifies channel binding information for a security <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a>.
 
 
 ## -struct-fields
@@ -103,13 +103,13 @@ The size, in  bytes, of this structure. The channel binding data immediately fol
 
 Schannel sets  to zero the value of all members of this structure other than <b>cbApplicationDataLength</b> and <b>dwApplicationDataOffset</b>.
 
-<a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">Security support providers</a> (SSPs) other than Schannel should use the values of this structure obtained by a call to the <a href="https://msdn.microsoft.com/0329e525-a743-4e6c-aac4-9f74274dadd2">QueryContextAttributes (Schannel)</a> function  to pass as a <a href="https://msdn.microsoft.com/75f49d9c-7d3c-4f45-a94e-44cd05773a07">SecBuffer</a> structure of type <b>SECBUFFER_CHANNEL_BINDINGS</b> as one of the buffers in the <i>pInput</i> parameter of a call to the <a href="https://msdn.microsoft.com/eaa15fed-4438-4e43-9be3-aa100ca453c7">AcceptSecurityContext (General)</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Security support providers</a> (SSPs) other than Schannel should use the values of this structure obtained by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesw">QueryContextAttributes (Schannel)</a> function  to pass as a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbuffer">SecBuffer</a> structure of type <b>SECBUFFER_CHANNEL_BINDINGS</b> as one of the buffers in the <i>pInput</i> parameter of a call to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (General)</a> function.
 
-An <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security support provider</a> (SSP) other than Schannel should obtain the channel binding information specified by this structure by calling the <a href="https://msdn.microsoft.com/0329e525-a743-4e6c-aac4-9f74274dadd2">QueryContextAttributes (Schannel)</a> function on the Schannel context that the client used to authenticate. Pass this channel binding information as a <a href="https://msdn.microsoft.com/75f49d9c-7d3c-4f45-a94e-44cd05773a07">SecBuffer</a> structure of type <b>SECBUFFER_CHANNEL_BINDINGS</b> to the <i>pInput</i> parameter of a call to the <a href="https://msdn.microsoft.com/eaa15fed-4438-4e43-9be3-aa100ca453c7">AcceptSecurityContext (General)</a> function.
+An <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP) other than Schannel should obtain the channel binding information specified by this structure by calling the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesw">QueryContextAttributes (Schannel)</a> function on the Schannel context that the client used to authenticate. Pass this channel binding information as a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbuffer">SecBuffer</a> structure of type <b>SECBUFFER_CHANNEL_BINDINGS</b> to the <i>pInput</i> parameter of a call to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (General)</a> function.
 
- If the value of the <i>ulAttribute</i> parameter of the <a href="https://msdn.microsoft.com/0329e525-a743-4e6c-aac4-9f74274dadd2">QueryContextAttributes (Schannel)</a> function is <b>SECPKG_ATTR_UNIQUE_BINDINGS</b>, the channel binding data specified by this structure begins with "tls-unique:".
+ If the value of the <i>ulAttribute</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesw">QueryContextAttributes (Schannel)</a> function is <b>SECPKG_ATTR_UNIQUE_BINDINGS</b>, the channel binding data specified by this structure begins with "tls-unique:".
 
-If the value of the <i>ulAttribute</i> parameter of the <a href="https://msdn.microsoft.com/0329e525-a743-4e6c-aac4-9f74274dadd2">QueryContextAttributes (Schannel)</a> function is <b>SECPKG_ATTR_ENDPOINT_BINDINGS</b>, the channel binding data specified by this structure begins with "tls-server-end-point:".
+If the value of the <i>ulAttribute</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesw">QueryContextAttributes (Schannel)</a> function is <b>SECPKG_ATTR_ENDPOINT_BINDINGS</b>, the channel binding data specified by this structure begins with "tls-server-end-point:".
 
 
 
@@ -119,11 +119,11 @@ If the value of the <i>ulAttribute</i> parameter of the <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/0329e525-a743-4e6c-aac4-9f74274dadd2">QueryContextAttributes (Schannel)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesw">QueryContextAttributes (Schannel)</a>
 
 
 
-<a href="https://msdn.microsoft.com/6823cc31-acd3-4d67-92c6-65ff4d1c6aed">SecPkgContext_Bindings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkgcontext_bindings">SecPkgContext_Bindings</a>
  
 
  

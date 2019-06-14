@@ -76,7 +76,7 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the return v
 
 This method disconnects clients from the session. The clients can reconnect because the authentication is based on the invitation. To provide stricter access control to the session, an application can create one invitation object per attendee and revoke the invitation at the same time it calls this method.
 
-This call is not blocking. However, termination is not immediate and can be delayed by a send operation. If the thread that is managing connections is in the middle of sending a buffer, it must wait for the buffer to be sent. The caller should consider the attendee disconnected only after the <a href="https://msdn.microsoft.com/4edcd497-8821-46c0-8d44-0b24e4f3f285">_IRDPSessionEvents::OnAttendeeDisconnected</a> event is fired.
+This call is not blocking. However, termination is not immediate and can be delayed by a send operation. If the thread that is managing connections is in the middle of sending a buffer, it must wait for the buffer to be sent. The caller should consider the attendee disconnected only after the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdp/onattendeedisconnected">_IRDPSessionEvents::OnAttendeeDisconnected</a> event is fired.
 
 
 
@@ -86,7 +86,7 @@ This call is not blocking. However, termination is not immediate and can be dela
 
 
 
-<a href="https://msdn.microsoft.com/e9edd9f2-ccbf-45b2-b71c-e30368435a60">IRDPSRAPIAttendee</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendee">IRDPSRAPIAttendee</a>
  
 
  

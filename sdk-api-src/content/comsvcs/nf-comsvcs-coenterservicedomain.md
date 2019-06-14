@@ -59,7 +59,7 @@ Used to enter code that can then use COM+ services.
 
 ### -param pConfigObject [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface of the object, created from the <a href="https://msdn.microsoft.com/f546ded4-255e-4565-b588-f36175902778">CServiceConfig</a> class, that contains the configuration information for the services to be used within the enclosed code.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the object, created from the <a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a> class, that contains the configuration information for the services to be used within the enclosed code.
 
 
 ## -returns
@@ -91,7 +91,7 @@ The method completed successfully.
 </dl>
 </td>
 <td width="60%">
-The side-by-side assembly configuration of the <a href="https://msdn.microsoft.com/f546ded4-255e-4565-b588-f36175902778">CServiceConfig</a> object is invalid.
+The side-by-side assembly configuration of the <a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a> object is invalid.
 
 </td>
 </tr>
@@ -102,7 +102,7 @@ The side-by-side assembly configuration of the <a href="https://msdn.microsoft.c
 </dl>
 </td>
 <td width="60%">
-The thread pool configuration of the <a href="https://msdn.microsoft.com/f546ded4-255e-4565-b588-f36175902778">CServiceConfig</a> object is invalid. The thread apartment model cannot be reconfigured by calling <a href="https://msdn.microsoft.com/84640b3b-1f43-4bec-abf6-c295cfb3da8b">CoEnterServiceDomain</a>.
+The thread pool configuration of the <a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a> object is invalid. The thread apartment model cannot be reconfigured by calling <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-coenterservicedomain">CoEnterServiceDomain</a>.
 
 </td>
 </tr>
@@ -113,7 +113,7 @@ The thread pool configuration of the <a href="https://msdn.microsoft.com/f546ded
 </dl>
 </td>
 <td width="60%">
-The tracker configuration of the <a href="https://msdn.microsoft.com/f546ded4-255e-4565-b588-f36175902778">CServiceConfig</a> object is invalid.
+The tracker configuration of the <a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a> object is invalid.
 
 </td>
 </tr>
@@ -138,17 +138,17 @@ The caller does not have access permissions for the COM+ partition.
 
 
 
-Code that is enclosed between calls to <b>CoEnterServiceDomain</b> and <a href="https://msdn.microsoft.com/b67b3cf6-4462-4578-b61b-c5c61d809822">CoLeaveServiceDomain</a> runs in its own context and behaves as though it were a method that is called on an object created within the context. <b>CoEnterServiceDomain</b> cannot switch to a different apartment model, so the enclosed code runs in the caller's apartment and on the caller's thread. It is an error to try to change the apartment model through the <a href="https://msdn.microsoft.com/f546ded4-255e-4565-b588-f36175902778">CServiceConfig</a> object when calling <b>CoEnterServiceDomain</b>.
+Code that is enclosed between calls to <b>CoEnterServiceDomain</b> and <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-coleaveservicedomain">CoLeaveServiceDomain</a> runs in its own context and behaves as though it were a method that is called on an object created within the context. <b>CoEnterServiceDomain</b> cannot switch to a different apartment model, so the enclosed code runs in the caller's apartment and on the caller's thread. It is an error to try to change the apartment model through the <a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a> object when calling <b>CoEnterServiceDomain</b>.
 
-<b>CoEnterServiceDomain</b> first creates a context that is configured as specified by the <a href="https://msdn.microsoft.com/f546ded4-255e-4565-b588-f36175902778">CServiceConfig</a> object that is passed as the <i>pConfigObject</i> parameter. Policies on both the client and server sides are then triggered as if a method call had occurred. The new context is then pushed onto a context stack and becomes the current context.
+<b>CoEnterServiceDomain</b> first creates a context that is configured as specified by the <a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a> object that is passed as the <i>pConfigObject</i> parameter. Policies on both the client and server sides are then triggered as if a method call had occurred. The new context is then pushed onto a context stack and becomes the current context.
 
-Because of their efficient design and because no thread marshaling is involved, using <b>CoEnterServiceDomain</b> and <a href="https://msdn.microsoft.com/b67b3cf6-4462-4578-b61b-c5c61d809822">CoLeaveServiceDomain</a> involves significantly reduced overhead as compared to an equivalent method call.
+Because of their efficient design and because no thread marshaling is involved, using <b>CoEnterServiceDomain</b> and <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-coleaveservicedomain">CoLeaveServiceDomain</a> involves significantly reduced overhead as compared to an equivalent method call.
 
-<b>CoEnterServiceDomain</b> and <a href="https://msdn.microsoft.com/b67b3cf6-4462-4578-b61b-c5c61d809822">CoLeaveServiceDomain</a> are particularly useful in applications, which can use these functions to access COM+ services without needing to create a component to do so.
+<b>CoEnterServiceDomain</b> and <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-coleaveservicedomain">CoLeaveServiceDomain</a> are particularly useful in applications, which can use these functions to access COM+ services without needing to create a component to do so.
 
 
 
-The <b>CoEnterServiceDomain</b> and <a href="https://msdn.microsoft.com/b67b3cf6-4462-4578-b61b-c5c61d809822">CoLeaveServiceDomain</a> pairs can be nested.
+The <b>CoEnterServiceDomain</b> and <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-coleaveservicedomain">CoLeaveServiceDomain</a> pairs can be nested.
 
 
 
@@ -158,19 +158,19 @@ The <b>CoEnterServiceDomain</b> and <a href="https://msdn.microsoft.com/b67b3cf6
 
 
 
-<a href="https://msdn.microsoft.com/5ef67411-334b-476e-b9b7-3677b24ab7df">COM+ Services Without Components</a>
+<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--services-without-components">COM+ Services Without Components</a>
 
 
 
-<a href="https://msdn.microsoft.com/f546ded4-255e-4565-b588-f36175902778">CServiceConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a>
 
 
 
-<a href="https://msdn.microsoft.com/3009eb4f-e3f3-497b-ba05-5b750d8a40d0">CoCreateActivity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-cocreateactivity">CoCreateActivity</a>
 
 
 
-<a href="https://msdn.microsoft.com/b67b3cf6-4462-4578-b61b-c5c61d809822">CoLeaveServiceDomain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-coleaveservicedomain">CoLeaveServiceDomain</a>
  
 
  

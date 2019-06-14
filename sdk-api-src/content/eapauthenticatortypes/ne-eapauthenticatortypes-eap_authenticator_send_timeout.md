@@ -77,7 +77,7 @@ Sends the packet and waits for a response for a longer period of time to allow f
 
 
 
-<a href="https://msdn.microsoft.com/8c21625f-a9b7-4ea5-98ff-cdcce637dad8">EAPHost Authenticator Method Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-authenticator-method-enumerations">EAPHost Authenticator Method Enumerations</a>
  
 
  

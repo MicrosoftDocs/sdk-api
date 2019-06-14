@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>EngUnloadImage</b> function unloads an image loaded by <a href="https://msdn.microsoft.com/03b1835a-5c4e-4f38-93b1-e557a2975be7">EngLoadImage</a>.
+The <b>EngUnloadImage</b> function unloads an image loaded by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadimage">EngLoadImage</a>.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ Handle to the image to be unloaded from system memory.
 
 
 
-<a href="https://msdn.microsoft.com/03b1835a-5c4e-4f38-93b1-e557a2975be7">EngLoadImage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadimage">EngLoadImage</a>
  
 
  

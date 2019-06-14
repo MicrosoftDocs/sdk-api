@@ -66,9 +66,9 @@ A compile-time constant in the range of 0x00200000-0x0FE00000.
 
 
 
- The semantics of the tags are defined by the event consumer.  During event processing, this tag can be retrieved from the <a href="https://msdn.microsoft.com/ecf57a23-0dd2-4954-82ac-e92f651c226f">TRACE_EVENT_INFO</a>  Tags field.    
+ The semantics of the tags are defined by the event consumer.  During event processing, this tag can be retrieved from the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_trace_event_info">TRACE_EVENT_INFO</a>  Tags field.    
 
-The TraceLogging schema convention encodes tags as 28-bit fields by using a  chain of up to four bytes with the upper-most bit used as a 'chain' bit  (4*7 = 28). Data is encoded most-significant byte first.  <a href="https://msdn.microsoft.com/BFBC6802-64DC-478E-B09D-F550135994AB">TraceLoggingWrite</a> and TraceLoggingEventTag only supports encoding a single  byte of tag data, which must then contain the upper-most range of seven bits,  thus 0x0FE00000. 
+The TraceLogging schema convention encodes tags as 28-bit fields by using a  chain of up to four bytes with the upper-most bit used as a 'chain' bit  (4*7 = 28). Data is encoded most-significant byte first.  <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-traceloggingwrite">TraceLoggingWrite</a> and TraceLoggingEventTag only supports encoding a single  byte of tag data, which must then contain the upper-most range of seven bits,  thus 0x0FE00000. 
 
 If no parameters are provided, no tag is transmitted for the  event. If multiple args are provided, they are OR'ed  together.  
 

@@ -63,7 +63,7 @@ Specifies scrolling parameters and keeps track of the last scroll operation.
 
 Type: <b>int</b>
 
-A value that indicates the number of times the <a href="https://msdn.microsoft.com/3c5af682-8497-477e-8222-3eb37d1e295f">DAD_AutoScroll</a> function has stored data in the structure. The parameter is reset to <code>0</code> after it equals 2.
+A value that indicates the number of times the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_autoscroll">DAD_AutoScroll</a> function has stored data in the structure. The parameter is reset to <code>0</code> after it equals 2.
 
 
 ### -field dwLastScroll
@@ -77,7 +77,7 @@ A <b>DWORD</b> that indicates the time of the last scroll. The scroll time is al
 
 Type: <b>BOOL</b>
 
-A value that is used to determine whether the <a href="https://msdn.microsoft.com/3c5af682-8497-477e-8222-3eb37d1e295f">DAD_AutoScroll</a> function should succeed. This parameter is set to <b>TRUE</b> when the <b>iNextSample</b> parameter is equal to NUM_POINTS.
+A value that is used to determine whether the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_autoscroll">DAD_AutoScroll</a> function should succeed. This parameter is set to <b>TRUE</b> when the <b>iNextSample</b> parameter is equal to NUM_POINTS.
 
 
 
@@ -94,7 +94,7 @@ Indicates that the window should scroll.
 
 ### -field pts
 
-Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>[NUM_POINTS]</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>[NUM_POINTS]</b>
 
 A pointer to the current scroll coordinates. The index of this array is <b>iNextSample</b>.
 
@@ -121,7 +121,7 @@ NUM_POINTS is currently set to <code>3</code>.
 
 
 
-<a href="https://msdn.microsoft.com/3c5af682-8497-477e-8222-3eb37d1e295f">DAD_AutoScroll</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_autoscroll">DAD_AutoScroll</a>
  
 
  

@@ -59,7 +59,7 @@ The <b>UpdateOBStatusInWindowsServerBackup</b> function updates the cloud backup
 
 ### -param pOBRegistrationInfo [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/5836B3FC-5590-4678-A6BE-AD7C59E0FAFD">WSB_OB_STATUS_INFO</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wsbonline/ns-wsbonline-_wsb_ob_status_info">WSB_OB_STATUS_INFO</a> structure.
 
 
 ## -returns
@@ -77,11 +77,11 @@ The return values listed here are in addition to the normal <b>HRESULT</b>s that
 
 
 
-<a href="https://msdn.microsoft.com/61F77E92-19EF-4409-9435-CD03ACCE810D">Cloud  Backup Provider API Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wsb/windows-server-backup-api-functions">Cloud  Backup Provider API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/5836B3FC-5590-4678-A6BE-AD7C59E0FAFD">WSB_OB_STATUS_INFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wsbonline/ns-wsbonline-_wsb_ob_status_info">WSB_OB_STATUS_INFO</a>
  
 
  

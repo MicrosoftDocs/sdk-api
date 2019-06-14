@@ -67,7 +67,7 @@ Handle to the parent window for any needed dialog box. If no dialog box is neede
 ### -param hRequest [in, out]
 
 Handle to the Internet connection used in the call to 
-<a href="https://msdn.microsoft.com/f53d9ff7-43b1-452f-a6cb-754d0229ab9a">HttpSendRequest</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpsendrequesta">HttpSendRequest</a>.
 
 
 ### -param dwError [in]
@@ -289,8 +289,8 @@ Actions. This parameter can be one or more of the following values.
 </td>
 <td width="60%">
 Scans the returned headers for errors. Call <b>InternetErrorDlg</b> with this flag set following a call to 
-<a href="https://msdn.microsoft.com/f53d9ff7-43b1-452f-a6cb-754d0229ab9a">HttpSendRequest</a> so as to detect hidden errors. Authentication errors, for example, are normally hidden because the call to 
-<a href="https://msdn.microsoft.com/f53d9ff7-43b1-452f-a6cb-754d0229ab9a">HttpSendRequest</a> completes successfully, but by scanning the status codes,  <b>InternetErrorDlg</b> can determine that the proxy or server requires authentication.
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpsendrequesta">HttpSendRequest</a> so as to detect hidden errors. Authentication errors, for example, are normally hidden because the call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpsendrequesta">HttpSendRequest</a> completes successfully, but by scanning the status codes,  <b>InternetErrorDlg</b> can determine that the proxy or server requires authentication.
 
 </td>
 </tr>
@@ -325,7 +325,7 @@ Queries the Internet handle for needed information. The function constructs the 
 <td width="60%">
 Serializes authentication dialog boxes for concurrent requests on a password cache entry. The 
 <i>lppvData</i> parameter should contain the address of a pointer to an 
-<a href="https://msdn.microsoft.com/d6f36cf7-7a54-4890-aa27-ffb40997cfd6">INTERNET_AUTH_NOTIFY_DATA</a> structure, and the client should implement a thread-safe, non-blocking callback function.
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-__unnamed_struct_4">INTERNET_AUTH_NOTIFY_DATA</a> structure, and the client should implement a thread-safe, non-blocking callback function.
 
 </td>
 </tr>
@@ -426,7 +426,7 @@ Always inform the user  when any of the following events occur:<ul>
 
 Like all other aspects of the WinINet API, this function cannot be safely called from within DllMain or the constructors and destructors of global objects.
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
@@ -436,11 +436,11 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 
-<a href="https://msdn.microsoft.com/80747c0d-5a09-4ffa-a0ca-b051b82acbf8">Enabling Internet Functionality</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinInet/enabling-internet-functionality">Enabling Internet Functionality</a>
 
 
 
-<a href="https://msdn.microsoft.com/2e0da5c6-29e4-47b5-8ed2-8712c9ca2c97"> WinINet Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions"> WinINet Functions</a>
  
 
  

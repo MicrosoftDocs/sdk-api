@@ -70,9 +70,9 @@ A pointer to a null-terminated string that contains the subkey to be created or 
 
 ### -param samDesired [in]
 
-Type: <b><a href="https://msdn.microsoft.com/003f6be9-e4ba-4d23-b486-a167063c630e">REGSAM</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/shell/messages">REGSAM</a></b>
 
-The desired security access. For more information on security access, see <a href="https://msdn.microsoft.com/003f6be9-e4ba-4d23-b486-a167063c630e">REGSAM</a>.
+The desired security access. For more information on security access, see <a href="https://docs.microsoft.com/windows/desktop/shell/messages">REGSAM</a>.
 
 
 ### -param hRelativeUSKey [in, optional]
@@ -132,7 +132,7 @@ Create/open the key under both <b>HKEY_CURRENT_USER</b> (forced) and <b>HKEY_LOC
 
 Type: <b>LSTATUS</b>
 
-Returns ERROR_SUCCESS if successful, or a nonzero error code defined in Winerror.h otherwise. You can use the <a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to retrieve a generic description of the error.
+Returns ERROR_SUCCESS if successful, or a nonzero error code defined in Winerror.h otherwise. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to retrieve a generic description of the error.
 
 
 
@@ -141,7 +141,7 @@ Returns ERROR_SUCCESS if successful, or a nonzero error code defined in Winerror
 
 
 
-If you want to write values to the new key, use <a href="https://msdn.microsoft.com/f94569c6-415b-4263-bab4-8a5baca47901">SHRegWriteUSValue</a> to write each value, passing the <b>HUSKEY</b> handle that is returned through <i>phNewUSKey</i>. When you have finished, close the user-specific registry key with <a href="https://msdn.microsoft.com/1e9900d6-8411-4e6b-a9c0-006f378a2625">SHRegCloseUSKey</a>.
+If you want to write values to the new key, use <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shregwriteusvaluea">SHRegWriteUSValue</a> to write each value, passing the <b>HUSKEY</b> handle that is returned through <i>phNewUSKey</i>. When you have finished, close the user-specific registry key with <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shregcloseuskey">SHRegCloseUSKey</a>.
 
 
 

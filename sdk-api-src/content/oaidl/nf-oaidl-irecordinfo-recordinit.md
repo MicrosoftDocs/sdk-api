@@ -107,7 +107,7 @@ One or more of the arguments is not valid.
 
 
 
-The caller must allocate the memory of the record by its appropriate size using the <a href="https://msdn.microsoft.com/ca0f43b2-2b8f-4b22-8674-8223f0c607ab">GetSize</a> method.
+The caller must allocate the memory of the record by its appropriate size using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-getsize">GetSize</a> method.
 
 <b>RecordInit</b> sets all contents of the record to 0 and the record should hold no resources. 
 
@@ -119,7 +119,7 @@ The caller must allocate the memory of the record by its appropriate size using 
 
 
 
-<a href="https://msdn.microsoft.com/065ebfa8-bfac-4c75-a3f9-9dc0409ea454">IRecordInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>
  
 
  

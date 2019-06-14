@@ -86,7 +86,7 @@ This method returns an HRESULT value. <b>S_OK</b> indicates success. If the attr
 
 
 
-<a href="https://msdn.microsoft.com/aa9d5604-5b94-47d9-9e68-d708a656a5ea">ISettingsIdentity</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsidentity">ISettingsIdentity</a>
  
 
  

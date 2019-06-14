@@ -61,7 +61,7 @@ The <b>FWPM_SUBLAYER_SUBSCRIPTION0</b> structure is used to subscribe for change
 
  Enumeration template for limiting the subscription.
 
-See <a href="https://msdn.microsoft.com/4f05730c-7bf6-4bf4-b3ec-d8fe138b2228">FWPM_SUBLAYER_ENUM_TEMPLATE0</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_enum_template0_">FWPM_SUBLAYER_ENUM_TEMPLATE0</a> for more information.
 
 
 ### -field flags
@@ -111,7 +111,7 @@ Notifications are only dispatched for sublayers that match the template.
 If
    the template is <b>NULL</b>, it matches all sublayers.
 
-<b>FWPM_SUBLAYER_SUBSCRIPTION0</b> is a specific implementation of FWPM_SUBLAYER_SUBSCRIPTION. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FWPM_SUBLAYER_SUBSCRIPTION0</b> is a specific implementation of FWPM_SUBLAYER_SUBSCRIPTION. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -121,11 +121,11 @@ If
 
 
 
-<a href="https://msdn.microsoft.com/4f05730c-7bf6-4bf4-b3ec-d8fe138b2228">FWPM_SUBLAYER_ENUM_TEMPLATE0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_enum_template0_">FWPM_SUBLAYER_ENUM_TEMPLATE0</a>
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

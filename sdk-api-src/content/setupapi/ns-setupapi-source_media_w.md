@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>SOURCE_MEDIA</b> structure is used with the 
-<a href="https://msdn.microsoft.com/6a7947de-1bb3-46e0-9334-405684e58e98">SPFILENOTIFY_NEEDMEDIA</a> notification to pass source media information.
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/spfilenotify-needmedia">SPFILENOTIFY_NEEDMEDIA</a> notification to pass source media information.
 
 
 ## -struct-fields
@@ -142,15 +142,15 @@ The current source file is continued in another cabinet file.
 
 
 
-<a href="https://msdn.microsoft.com/58201596-cb8c-480a-abef-896c1f9ef098">Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a7947de-1bb3-46e0-9334-405684e58e98">SPFILENOTIFY_NEEDMEDIA</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/spfilenotify-needmedia">SPFILENOTIFY_NEEDMEDIA</a>
 
 
 
-<a href="https://msdn.microsoft.com/837F1864-CE2F-4A9A-A7D9-18EB8622541E">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/structures--setup-api-">Structures</a>
  
 
  

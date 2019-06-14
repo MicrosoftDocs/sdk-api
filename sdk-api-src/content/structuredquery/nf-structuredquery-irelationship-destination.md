@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the destination <a href="https://msdn.microsoft.com/en-us/library/Bb231373(v=VS.85).aspx">IEntity</a> object of the relationship. The destination of a relationshipo corresponds to the type of a property.
+Retrieves the destination <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-ientity">IEntity</a> object of the relationship. The destination of a relationshipo corresponds to the type of a property.
       
 
 
@@ -60,9 +60,9 @@ Retrieves the destination <a href="https://msdn.microsoft.com/en-us/library/Bb23
 
 ### -param pDestinationEntity [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231373(v=VS.85).aspx">IEntity</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-ientity">IEntity</a>**</b>
 
-Receives the address of a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb231373(v=VS.85).aspx">IEntity</a> object, or <b>NULL</b> if the relationship is not real. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb231340(v=VS.85).aspx">IRelationship::IsReal</a>.
+Receives the address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-ientity">IEntity</a> object, or <b>NULL</b> if the relationship is not real. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-irelationship-isreal">IRelationship::IsReal</a>.
         
 
 

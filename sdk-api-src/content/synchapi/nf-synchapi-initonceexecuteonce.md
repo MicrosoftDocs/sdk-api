@@ -69,7 +69,7 @@ A pointer to the one-time initialization structure.
 
 ### -param InitFn [in]
 
-A pointer to an application-defined <a href="https://msdn.microsoft.com/e4a73572-e477-4518-87fe-b9b74234e8ec">InitOnceCallback</a> function.
+A pointer to an application-defined <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nc-synchapi-pinit_once_fn">InitOnceCallback</a> function.
 
 
 ### -param Context [out, optional]
@@ -89,7 +89,7 @@ A parameter to be passed to the callback function.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -98,19 +98,19 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-This function is used for synchronous one-time initialization. For asynchronous one-time initialization, use the <a href="https://msdn.microsoft.com/f342e85c-ac81-4470-89ce-a9d0fc5e8f89">InitOnceBeginInitialize</a> function with the <b>INIT_ONCE_ASYNC</b> flag.
+This function is used for synchronous one-time initialization. For asynchronous one-time initialization, use the <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-initoncebegininitialize">InitOnceBeginInitialize</a> function with the <b>INIT_ONCE_ASYNC</b> flag.
 
 Only one thread at a time can execute the callback function specified by <i>InitFn</i>. Other threads that specify the same one-time initialization structure block until the callback finishes.
 
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0600 or later. For more information, see 
-<a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 #### Examples
 
 For an example that uses 
 this function, see 
-<a href="https://msdn.microsoft.com/47e68fbb-29f8-4930-beba-01d44263eb1e">Using One-Time Initialization</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Sync/using-one-time-initialization">Using One-Time Initialization</a>.
 
 <div class="code"></div>
 
@@ -121,19 +121,19 @@ this function, see
 
 
 
-<a href="https://msdn.microsoft.com/e4a73572-e477-4518-87fe-b9b74234e8ec">InitOnceCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nc-synchapi-pinit_once_fn">InitOnceCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/f2943ac5-0e43-4f07-8941-952383e2fa08">InitOnceInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-initonceinitialize">InitOnceInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/404c083c-7bee-44c2-b8e7-da1901b6ab2f">One-Time Initialization</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/one-time-initialization">One-Time Initialization</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b6359c2-0113-49b6-83d0-316ad95aba1b">Synchronization Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
  
 
  

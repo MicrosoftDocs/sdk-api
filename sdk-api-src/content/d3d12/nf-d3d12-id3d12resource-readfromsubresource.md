@@ -68,7 +68,7 @@ A pointer to the destination data in memory.
 
 ### -param DstRowPitch
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The distance from one row of destination data to the next row.
           
@@ -76,7 +76,7 @@ The distance from one row of destination data to the next row.
 
 ### -param DstDepthPitch
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The distance from one depth slice of destination data to the next.
           
@@ -84,7 +84,7 @@ The distance from one depth slice of destination data to the next.
 
 ### -param SrcSubresource
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Specifies the index of the subresource to read from.
           
@@ -92,12 +92,12 @@ Specifies the index of the subresource to read from.
 
 ### -param pSrcBox [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/DD3973CC-043E-486E-9403-B46D8B7DE644">D3D12_BOX</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_box">D3D12_BOX</a>*</b>
 
 A pointer to a box that defines the portion of the destination subresource to copy the resource data from.
               If NULL, the data is read from the destination subresource with no offset.
               The dimensions of the destination must fit the destination (see
-              <a href="https://msdn.microsoft.com/DD3973CC-043E-486E-9403-B46D8B7DE644">D3D12_BOX</a>).
+              <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_box">D3D12_BOX</a>).
             
 
 An empty box results in a no-op.
@@ -110,9 +110,9 @@ An empty box results in a no-op.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
+This method returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a>.
           
 
 
@@ -122,7 +122,7 @@ This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7
 
 
 
-See the Remarks section for <a href="https://msdn.microsoft.com/8781E2FE-8D82-41F5-B541-A96DA11CA290">WriteToSubresource</a>.
+See the Remarks section for <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-writetosubresource">WriteToSubresource</a>.
         
 
 
@@ -133,11 +133,11 @@ See the Remarks section for <a href="https://msdn.microsoft.com/8781E2FE-8D82-41
 
 
 
-<a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>
 
 
 
-<a href="https://msdn.microsoft.com/C4F92F8A-DBF0-412B-8707-CC4C1BF2D88F">Subresources</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/subresources">Subresources</a>
  
 
  

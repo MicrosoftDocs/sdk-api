@@ -59,7 +59,7 @@ Get the name of a member.
 
 ### -param Index [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A zero-based index.
 
@@ -68,7 +68,7 @@ A zero-based index.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
 The name of the member.
 
@@ -80,7 +80,7 @@ The name of the member.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173716(v=VS.85).aspx">ID3D10EffectType Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effecttype">ID3D10EffectType Interface</a>
  
 
  

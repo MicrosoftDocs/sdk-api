@@ -69,12 +69,12 @@ A list of semicolon-delimited subdirectories (for example, "bin;bin2"), under th
 
 ### -param szAssemblyName [in]
 
-The name of the assembly to find. The format of this string is defined in the class reference page for <a href="http://msdn.microsoft.com/en-us/library/system.reflection.assemblyname.aspx">AssemblyName</a>.
+The name of the assembly to find. The format of this string is defined in the class reference page for <a href="https://docs.microsoft.com/dotnet/api/system.reflection.assemblyname?redirectedfrom=MSDN">AssemblyName</a>.
 
 
 ### -param ppIUnk [out]
 
-An array of type IUnknown in which to put the <a href="https://msdn.microsoft.com/c4ae6028-87ac-4bb9-8eda-c6a48e5ecd3c">IMetadataAssemblyImport</a> interface pointers.
+An array of type IUnknown in which to put the <a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataassemblyimport">IMetadataAssemblyImport</a> interface pointers.
 
 
 ### -param cMax [in]
@@ -116,7 +116,7 @@ The number of interface pointers returned. That is, the number of interface poin
 
 Given an assembly name, the <b>FindAssembliesByName</b> method finds the assembly by following the standard rules for resolving assembly references. <b>FindAssembliesByName</b> allows the caller to configure various aspects of the assembly resolver context, such as application base and private search path.
 
-<b>FindAssembliesByName</b> returns an <a href="https://msdn.microsoft.com/5457d9d3-9a43-4e89-a52f-1254662ed92a">IMetaDataImport</a> pointer to the file containing the assembly manifest for the assembly name that is passed in. If the given assembly name is not fully specified (for example, if it does not include a version), multiple assemblies might be returned.
+<b>FindAssembliesByName</b> returns an <a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a> pointer to the file containing the assembly manifest for the assembly name that is passed in. If the given assembly name is not fully specified (for example, if it does not include a version), multiple assemblies might be returned.
 
 <b>FindAssembliesByName</b> is commonly used by a compiler that attempts to find a referenced assembly at compile time.
 
@@ -128,7 +128,7 @@ Given an assembly name, the <b>FindAssembliesByName</b> method finds the assembl
 
 
 
-<a href="https://msdn.microsoft.com/c4ae6028-87ac-4bb9-8eda-c6a48e5ecd3c">IMetaDataAssemblyImport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataassemblyimport">IMetaDataAssemblyImport</a>
  
 
  

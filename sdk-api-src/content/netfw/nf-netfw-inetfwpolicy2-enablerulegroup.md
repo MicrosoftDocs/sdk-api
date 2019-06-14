@@ -59,7 +59,7 @@ The <b>EnableRuleGroup</b> method enables or disables a specified group of firew
 
 ### -param profileTypesBitmask [in]
 
-A bitmask of profiles from <a href="https://msdn.microsoft.com/cb8328ec-a2eb-4d6f-b6af-214a31a037e9">NET_FW_PROFILE_TYPE2</a>.
+A bitmask of profiles from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icftypes/ne-icftypes-net_fw_profile_type2_">NET_FW_PROFILE_TYPE2</a>.
 
 
 ### -param group [in]
@@ -187,11 +187,11 @@ When indirect strings in the form of "@C:\Program Files\Contoso Storefront\Store
 
 
 
-<a href="https://msdn.microsoft.com/ef01a531-ddb0-4eb4-894b-82f613016396">INetFwPolicy2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwpolicy2">INetFwPolicy2</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a5ee070-3476-4b23-8543-90aa58832a4c">Rule Authoring</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/rule-authoring">Rule Authoring</a>
  
 
  

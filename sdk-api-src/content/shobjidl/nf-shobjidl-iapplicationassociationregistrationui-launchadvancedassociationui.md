@@ -89,11 +89,11 @@ Starting in Windows 10, this does not launch the association dialog box. It dis
 
 
 
-<a href="https://msdn.microsoft.com/78cd05a4-df33-42b5-91b9-826ebce04a1d">Default Programs</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/default-programs">Default Programs</a>
 
 
 
-<a href="https://msdn.microsoft.com/3a4d6f1d-72c2-4bd0-ad44-1c42a5bf9cb6">IApplicationAssociationRegistrationUI</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iapplicationassociationregistrationui">IApplicationAssociationRegistrationUI</a>
  
 
  

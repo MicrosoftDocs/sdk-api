@@ -70,7 +70,7 @@ Retrieves a NetBIOS or DNS name associated with the local computer. The names ar
 ### -param NameType [in]
 
 The type of name to be retrieved. This parameter is a value from the 
-<a href="https://msdn.microsoft.com/249830be-acd7-4417-ac33-c0fb2d87c4af">COMPUTER_NAME_FORMAT</a> enumeration type. The following table provides additional information. 
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ne-sysinfoapi-_computer_name_format">COMPUTER_NAME_FORMAT</a> enumeration type. The following table provides additional information. 
 
 
 
@@ -185,7 +185,7 @@ On input, specifies the size of the buffer, in <b>TCHARs</b>. On output, receive
 
 
 
-If the buffer is too small, the function fails and <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns ERROR_MORE_DATA. This parameter receives the size of the buffer required,  including the terminating <b>null</b> character.
+If the buffer is too small, the function fails and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_MORE_DATA. This parameter receives the size of the buffer required,  including the terminating <b>null</b> character.
 
 If <i>lpBuffer</i> is <b>NULL</b>, this parameter must be zero.
 
@@ -197,7 +197,7 @@ If <i>lpBuffer</i> is <b>NULL</b>, this parameter must be zero.
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. Possible values include the following.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible values include the following.
 
 <table>
 <tr>
@@ -227,17 +227,17 @@ The <i>lpBuffer</i> buffer is too small. The <i>lpnSize</i> parameter contains t
 
 If group policy is not set for the local machine, the 
 <b>GetComputerNameEx</b> function retrieves the NetBIOS or DNS names established at system startup. If  group policy is set, the function returns the primary domain name set by group policy. Name changes made by the 
-<a href="https://msdn.microsoft.com/ff64fde2-d1b5-4211-b8c4-4823a5469e04">SetComputerName</a> or 
-<a href="https://msdn.microsoft.com/12163456-770c-4f9e-9261-a6ea5f2cd93a">SetComputerNameEx</a> functions do not take effect until the user restarts the computer.
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernamea">SetComputerName</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernameexa">SetComputerNameEx</a> functions do not take effect until the user restarts the computer.
 
 If the local computer is not configured to use DNS names, <b>GetComputerNameEx</b> will not return DNS information. To configure the computer to do this, follow the steps outlined in the operating system help and change the primary DNS suffix of the computer, then restart the computer. 
 
-The behavior of this function can be affected if the local computer is a node in a cluster. For more information, see <a href="https://msdn.microsoft.com/683235ac-153d-4442-915e-e1bf9b5e8810">ResUtilGetEnvironmentWithNetName</a> and <a href="https://msdn.microsoft.com/3ef0eb0b-1472-450d-aa08-6622a7475793">UseNetworkName</a>.
+The behavior of this function can be affected if the local computer is a node in a cluster. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetenvironmentwithnetname">ResUtilGetEnvironmentWithNetName</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/generic-applications-usenetworkname">UseNetworkName</a>.
 
-If you are working with environments that use different DNS layouts, where the computer's FQDN does not match the FQDN of its domain, use <a href="https://msdn.microsoft.com/2d543500-f639-4ef7-91f4-cdc5060dd567">LsaQueryInformationPolicy</a> instead. 
+If you are working with environments that use different DNS layouts, where the computer's FQDN does not match the FQDN of its domain, use <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaqueryinformationpolicy">LsaQueryInformationPolicy</a> instead. 
 
 To compile an application that uses this function, define the _WIN32_WINNT macro as 0x0500 or later. For more information, see 
-<a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 #### Examples
@@ -289,39 +289,39 @@ void _tmain(void)
 
 
 
-<a href="https://msdn.microsoft.com/249830be-acd7-4417-ac33-c0fb2d87c4af">COMPUTER_NAME_FORMAT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ne-sysinfoapi-_computer_name_format">COMPUTER_NAME_FORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/7e083cb5-cf0a-4284-8b54-dac856910c44">Computer Names</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/computer-names">Computer Names</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ca3e611-e5fb-4909-adf6-98eb8552c9e1">GetComputerName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcomputernamea">GetComputerName</a>
 
 
 
-<a href="https://msdn.microsoft.com/683235ac-153d-4442-915e-e1bf9b5e8810">ResUtilGetEnvironmentWithNetName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetenvironmentwithnetname">ResUtilGetEnvironmentWithNetName</a>
 
 
 
-<a href="https://msdn.microsoft.com/607695f5-c542-40b8-922f-b76de6859ca7">ResUtilSetResourceServiceEnvironment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilsetresourceserviceenvironment">ResUtilSetResourceServiceEnvironment</a>
 
 
 
-<a href="https://msdn.microsoft.com/5400ed27-4299-470c-bfce-bc91d09f1708">ResUtilSetResourceServiceStartParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilsetresourceservicestartparameters">ResUtilSetResourceServiceStartParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/ff64fde2-d1b5-4211-b8c4-4823a5469e04">SetComputerName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernamea">SetComputerName</a>
 
 
 
-<a href="https://msdn.microsoft.com/12163456-770c-4f9e-9261-a6ea5f2cd93a">SetComputerNameEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernameexa">SetComputerNameEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa7deebf-7dce-4147-8a15-1d7411aea0fa">System
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System
 		  Information Functions</a>
  
 

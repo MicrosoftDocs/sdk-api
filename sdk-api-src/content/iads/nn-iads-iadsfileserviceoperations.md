@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IADsFileServiceOperations</b> interface is a dual interface that inherits from <a href="https://msdn.microsoft.com/f2459ca2-8a14-4343-bec6-ef3775dbf415">IADsServiceOperations</a>. It extends the functionality, as exposed in the  <b>IADsServiceOperations</b> interface, for managing the file service across a network. Specifically, it serves to maintain and manage open resources and active sessions of the file service.
+The <b>IADsFileServiceOperations</b> interface is a dual interface that inherits from <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsserviceoperations">IADsServiceOperations</a>. It extends the functionality, as exposed in the  <b>IADsServiceOperations</b> interface, for managing the file service across a network. Specifically, it serves to maintain and manage open resources and active sessions of the file service.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsFileServiceOperations</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>, <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>, and <a href="https://msdn.microsoft.com/f2459ca2-8a14-4343-bec6-ef3775dbf415">IADsServiceOperations</a>. <b>IADsFileServiceOperations</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsFileServiceOperations</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>, <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsserviceoperations">IADsServiceOperations</a>. <b>IADsFileServiceOperations</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IADsFileServiceOperations</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/de7627b4-8873-4324-b833-ff4cf018a428">Continue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsserviceoperations-continue">Continue</a>
 </td>
 <td align="left" width="63%">
 Continues the service.
@@ -79,7 +79,7 @@ Continues the service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fd6d79b6-46f8-42dd-8525-a72a6e0a7672">Get</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-get">Get</a>
 </td>
 <td align="left" width="63%">
 Gets the value for a property by name.
@@ -88,7 +88,7 @@ Gets the value for a property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cda6b8e7-fadc-4e0b-8217-66b37bf7efbd">GetEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getex">GetEx</a>
 </td>
 <td align="left" width="63%">
 Gets the value for a single or multi-valued property by name.
@@ -97,7 +97,7 @@ Gets the value for a single or multi-valued property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/73ceaeb1-9a6b-449a-9851-3756736dbad7">GetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfo">GetInfo</a>
 </td>
 <td align="left" width="63%">
 Loads the property values of this object from the underlying directory store.
@@ -106,7 +106,7 @@ Loads the property values of this object from the underlying directory store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/306ab953-890a-4ec9-8ec2-bea73888ea20">GetInfoEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfoex">GetInfoEx</a>
 </td>
 <td align="left" width="63%">
 Loads specific property values of this object from the underlying directory store.
@@ -115,7 +115,7 @@ Loads specific property values of this object from the underlying directory stor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/119ad6df-551c-48f9-8ad4-0ab18f5d939c">Pause</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsserviceoperations-pause">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses the service.
@@ -124,7 +124,7 @@ Pauses the service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b543220d-939b-4ca5-9a27-90b04f14be5d">Put</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-put">Put</a>
 </td>
 <td align="left" width="63%">
 Sets the value for a property by name.
@@ -133,7 +133,7 @@ Sets the value for a property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fb9d9b2c-9efc-4462-ac4b-9a2fbf0b5ec7">PutEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-putex">PutEx</a>
 </td>
 <td align="left" width="63%">
 Sets the value for a single or multi-valued property by name.
@@ -142,7 +142,7 @@ Sets the value for a single or multi-valued property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5b7f2240-ca92-4e8e-b3ec-8eab36c3166f">Resources</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsfileserviceoperations-resources">Resources</a>
 </td>
 <td align="left" width="63%">
 Gets an interface pointer on a collection object that represents current open resources for this file service.
@@ -151,7 +151,7 @@ Gets an interface pointer on a collection object that represents current open re
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/97b485c9-650a-4d87-adbb-51799581c3bc">Sessions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsfileserviceoperations-sessions">Sessions</a>
 </td>
 <td align="left" width="63%">
 Gets an interface pointer on a collection object that represents current open sessions on this file service.
@@ -160,7 +160,7 @@ Gets an interface pointer on a collection object that represents current open se
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e7ff6acd-b7c4-463d-a34f-fd793067c63a">SetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">SetInfo</a>
 </td>
 <td align="left" width="63%">
 Persists the changes on this object to the underlying directory store.
@@ -169,7 +169,7 @@ Persists the changes on this object to the underlying directory store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a10684d1-be61-4599-b232-638b416aa127">SetPassword</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsserviceoperations-setpassword">SetPassword</a>
 </td>
 <td align="left" width="63%">
 Sets the password to be used by the service manager to create a security context.
@@ -178,7 +178,7 @@ Sets the password to be used by the service manager to create a security context
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8eabd59e-2abf-4e6f-be42-342f3b722d75">Start</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsserviceoperations-start">Start</a>
 </td>
 <td align="left" width="63%">
 Starts the service.
@@ -187,7 +187,7 @@ Starts the service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5e3b6c3e-0621-4760-8751-15f084b3aaa6">Stop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsserviceoperations-stop">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops the service.
@@ -205,7 +205,7 @@ Stops the service.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d2f6f686-a35a-4a9a-9b57-2ceb2f26ef12">AdsPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">AdsPath</a>
 
 
 </td>
@@ -221,7 +221,7 @@ Gets the object's ADsPath that uniquely identifies this object from all others.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d2f6f686-a35a-4a9a-9b57-2ceb2f26ef12">Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Class</a>
 
 
 </td>
@@ -237,7 +237,7 @@ Gets the name of the object's schema class.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d2f6f686-a35a-4a9a-9b57-2ceb2f26ef12">GUID</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">GUID</a>
 
 
 </td>
@@ -253,7 +253,7 @@ Gets the GUID of the object as stored in the underlying directory store.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d2f6f686-a35a-4a9a-9b57-2ceb2f26ef12">Name</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Name</a>
 
 
 </td>
@@ -269,7 +269,7 @@ Gets the object's relative name.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d2f6f686-a35a-4a9a-9b57-2ceb2f26ef12">Parent</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Parent</a>
 
 
 </td>
@@ -285,7 +285,7 @@ Gets the ADsPath string for the parent of the object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d2f6f686-a35a-4a9a-9b57-2ceb2f26ef12">Schema</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Schema</a>
 
 
 </td>
@@ -301,7 +301,7 @@ Gets the ADsPath string to the schema class object for this object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/ebddfc42-1d2f-495b-b57c-f57419b54ff8">Status</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsserviceoperations-property-methods">Status</a>
 
 
 </td>
@@ -334,7 +334,7 @@ Set fso = GetObject("WinNT://aDomain/aComputer/LanmanServer")
 ```
 
 
-From this point, you can handle the file service object as just a service object, applying any of the methods of <a href="https://msdn.microsoft.com/f2459ca2-8a14-4343-bec6-ef3775dbf415">IADsServiceOperations</a> to the file service object. For example, you can examine the operational status of the file service, start or stop the file service, or change its password.
+From this point, you can handle the file service object as just a service object, applying any of the methods of <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsserviceoperations">IADsServiceOperations</a> to the file service object. For example, you can examine the operational status of the file service, start or stop the file service, or change its password.
 
 However, the <b>IADsFileServiceOperations</b> interface allows you to work with open resources and active sessions of the file service. See the following example.
 
@@ -348,7 +348,7 @@ Next
 ```
 
 
-For more information about active sessions and open resources, see  <a href="https://msdn.microsoft.com/54621f0d-7478-4a6f-a96f-f3f93e64b281">IADsSession</a> and  <a href="https://msdn.microsoft.com/217749a4-55dc-457f-8582-1513ff3b0666">IADsResource</a>.
+For more information about active sessions and open resources, see  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssession">IADsSession</a> and  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsresource">IADsResource</a>.
 
 
 
@@ -358,31 +358,31 @@ For more information about active sessions and open resources, see  <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
 
 
-<a href="https://msdn.microsoft.com/328eedfe-7fdc-4e90-8bac-ab30944b8fbf">IADsFileService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsfileservice">IADsFileService</a>
 
 
 
-<a href="https://msdn.microsoft.com/217749a4-55dc-457f-8582-1513ff3b0666">IADsResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsresource">IADsResource</a>
 
 
 
-<a href="https://msdn.microsoft.com/b59a6594-1109-4913-8a83-4888e56e71d0">IADsService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsservice">IADsService</a>
 
 
 
-<a href="https://msdn.microsoft.com/f2459ca2-8a14-4343-bec6-ef3775dbf415">IADsServiceOperations</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsserviceoperations">IADsServiceOperations</a>
 
 
 
-<a href="https://msdn.microsoft.com/54621f0d-7478-4a6f-a96f-f3f93e64b281">IADsSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssession">IADsSession</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

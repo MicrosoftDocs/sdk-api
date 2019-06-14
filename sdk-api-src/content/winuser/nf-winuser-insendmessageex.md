@@ -93,7 +93,7 @@ If the message was not sent, the return value is <b>ISMEX_NOSEND</b> (0x00000000
 </dl>
 </td>
 <td width="60%">
-The message was sent using the <a href="https://msdn.microsoft.com/en-us/library/ms644951(v=VS.85).aspx">SendMessageCallback</a> function. The thread that sent the message is not blocked.
+The message was sent using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessagecallbacka">SendMessageCallback</a> function. The thread that sent the message is not blocked.
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ The message was sent using the <a href="https://msdn.microsoft.com/en-us/library
 </dl>
 </td>
 <td width="60%">
-The message was sent using the <a href="https://msdn.microsoft.com/en-us/library/ms644953(v=VS.85).aspx">SendNotifyMessage</a> function. The thread that sent the message is not blocked.
+The message was sent using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendnotifymessagea">SendNotifyMessage</a> function. The thread that sent the message is not blocked.
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ The window procedure has processed the message. The thread that sent the message
 </dl>
 </td>
 <td width="60%">
-The message was sent using the <a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a> or <a href="https://msdn.microsoft.com/en-us/library/ms644952(v=VS.85).aspx">SendMessageTimeout</a> function. If <b>ISMEX_REPLIED</b> is not set, the thread that sent the message is blocked.
+The message was sent using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessagetimeouta">SendMessageTimeout</a> function. If <b>ISMEX_REPLIED</b> is not set, the thread that sent the message is blocked.
 
 </td>
 </tr>
@@ -159,7 +159,7 @@ To determine if the sender is blocked, use the following test:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632590(v=VS.85).aspx">Messages and Message Queues</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/messages-and-message-queues">Messages and Message Queues</a>
 
 
 
@@ -167,19 +167,19 @@ To determine if the sender is blocked, use the following test:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644951(v=VS.85).aspx">SendMessageCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessagecallbacka">SendMessageCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644952(v=VS.85).aspx">SendMessageTimeout</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessagetimeouta">SendMessageTimeout</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644953(v=VS.85).aspx">SendNotifyMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendnotifymessagea">SendNotifyMessage</a>
  
 
  

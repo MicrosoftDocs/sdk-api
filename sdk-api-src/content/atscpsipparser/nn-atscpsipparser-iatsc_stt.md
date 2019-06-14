@@ -53,14 +53,14 @@ ms.custom: 19H1
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
 
-The <b>IATSC_STT</b> interface enables the client to get data from a system time table (STT), which defines the current data and time of day. The <a href="https://msdn.microsoft.com/8aa6476c-9c75-4139-b5bc-6109ff223d98">IAtscPsipParser::GetSTT</a> method returns a pointer to this interface.
+The <b>IATSC_STT</b> interface enables the client to get data from a system time table (STT), which defines the current data and time of day. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatscpsipparser-getstt">IAtscPsipParser::GetSTT</a> method returns a pointer to this interface.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IATSC_STT</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IATSC_STT</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IATSC_STT</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IATSC_STT</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IATSC_STT</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/527e64b4-c280-46d6-8579-a5755d4b242c">GetCountOfTableDescriptors</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_stt-getcountoftabledescriptors">GetCountOfTableDescriptors</a>
 </td>
 <td align="left" width="63%">
 Returns the number of descriptors in the STT.
@@ -84,7 +84,7 @@ Returns the number of descriptors in the STT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5c605ef2-a928-4c78-a2e4-c70142db66ac">GetDaylightSavings</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_stt-getdaylightsavings">GetDaylightSavings</a>
 </td>
 <td align="left" width="63%">
 Returns the Daylight Savings Time Control bytes.
@@ -93,7 +93,7 @@ Returns the Daylight Savings Time Control bytes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/124c864a-a504-4f3c-836f-bdbe730beda7">GetGpsUtcOffset</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_stt-getgpsutcoffset">GetGpsUtcOffset</a>
 </td>
 <td align="left" width="63%">
 Returns the offset between GPS time and UTC.
@@ -102,7 +102,7 @@ Returns the offset between GPS time and UTC.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c735400d-9227-4f13-9703-ddafdf5772b0">GetProtocolVersion</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_stt-getprotocolversion">GetProtocolVersion</a>
 </td>
 <td align="left" width="63%">
 Returns the protocol version of the table.
@@ -111,7 +111,7 @@ Returns the protocol version of the table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4add19d8-9626-468f-8b15-993fb51f3c13">GetSystemTime</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_stt-getsystemtime">GetSystemTime</a>
 </td>
 <td align="left" width="63%">
 Returns the current system time.
@@ -120,7 +120,7 @@ Returns the current system time.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9f48ad31-ec6b-4d82-ba74-9901281a1857">GetTableDescriptorByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/dd389477(v%3dvs.85)">GetTableDescriptorByIndex</a>
 </td>
 <td align="left" width="63%">
 Returns a descriptor for the STT.
@@ -129,7 +129,7 @@ Returns a descriptor for the STT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e520dd8d-95f7-4b29-817c-14e3c663fdfc">GetTableDescriptorByTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_stt-gettabledescriptorbytag">GetTableDescriptorByTag</a>
 </td>
 <td align="left" width="63%">
 Searches the STT for a descriptor with the specified descriptor tag.
@@ -138,7 +138,7 @@ Searches the STT for a descriptor with the specified descriptor tag.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8a887c78-a1ea-4b81-b933-f95bd33f13c5">Initialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_stt-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object.
@@ -153,7 +153,7 @@ Initializes the object.
 
 
 
-<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
  
 
  

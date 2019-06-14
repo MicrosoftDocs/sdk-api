@@ -63,7 +63,7 @@ The <b>IADsPrintQueueOperations::Purge</b> method clears the print queue of all 
 
 
 
-This method supports the standard return values. For more information about other return values, see the  <a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>.
+This method supports the standard return values. For more information about other return values, see the  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 
 
@@ -73,7 +73,7 @@ This method supports the standard return values. For more information about othe
 
 
 
-<a href="https://msdn.microsoft.com/97495455-a576-4984-beb8-9282073e88c2">IADsPrintQueueOperations</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsprintqueueoperations">IADsPrintQueueOperations</a>
  
 
  

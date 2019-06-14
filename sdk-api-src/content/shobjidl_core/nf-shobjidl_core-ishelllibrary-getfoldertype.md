@@ -60,7 +60,7 @@ Gets the library's folder type.
 
 ### -param pftid [out]
 
-Type: <b><a href="https://msdn.microsoft.com/d147a05c-6a03-4f20-a7be-20825fcbeec2">FOLDERTYPEID</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/shell/foldertypeid">FOLDERTYPEID</a>*</b>
 
 The  view template that is applied to a folder, usually based on its intended use and contents.
             
@@ -84,7 +84,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 The folder type determines the default view template that is used by the folder. A view template specifies the columns and details that appear by default in the Windows Explorer view of the folder.
 
 
-<a href="https://msdn.microsoft.com/d147a05c-6a03-4f20-a7be-20825fcbeec2">FOLDERTYPEID</a> values are GUID  values that are defined in shlguid.h.
+<a href="https://docs.microsoft.com/windows/desktop/shell/foldertypeid">FOLDERTYPEID</a> values are GUID  values that are defined in shlguid.h.
 
 
 
@@ -94,19 +94,19 @@ The folder type determines the default view template that is used by the folder.
 
 
 
-<a href="https://msdn.microsoft.com/c1ef3d22-7c88-42b0-93a2-5d1b75c327ba">IShellLibrary</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary">IShellLibrary</a>
 
 
 
-<a href="https://msdn.microsoft.com/12F6E6AE-2776-408c-B9AC-E885BE93C27F">Library Description Schema</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/library-schema-entry">Library Description Schema</a>
 
 
 
-<a href="https://msdn.microsoft.com/19DA68B2-FCB6-443d-A3CD-0BF2F429B149">Windows Libraries</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd758096(v=vs.85)">Windows Libraries</a>
 
 
 
-<a href="https://msdn.microsoft.com/240550F0-B6AC-470e-8BF1-DB5A4068226B">folderType Element (Library Schema)</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd798386(v=vs.85)">folderType Element (Library Schema)</a>
  
 
  

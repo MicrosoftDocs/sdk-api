@@ -73,7 +73,7 @@ If a subscription is not enabled, it still appears in collections and can be que
 
 
 
-<a href="https://msdn.microsoft.com/ce3f9f7e-3d0a-445f-b3db-671ee595aedf">IEventSubscription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
  
 
  

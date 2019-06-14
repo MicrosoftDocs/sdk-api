@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-This method wraps  <a href="https://msdn.microsoft.com/6a3bce93-1d5d-48cf-84f4-cbca445b5451">ClearProps</a>, and provides a convenient entry point for callers who are annotating <b>HMENU</b>-based accessible elements.
+This method wraps  <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-clearprops">ClearProps</a>, and provides a convenient entry point for callers who are annotating <b>HMENU</b>-based accessible elements.
 
 
 ## -parameters
@@ -59,14 +59,14 @@ This method wraps  <a href="https://msdn.microsoft.com/6a3bce93-1d5d-48cf-84f4-c
 
 ### -param hmenu [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HMENU</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HMENU</a></b>
 
 Identifies the <b>HMENU</b>-based accessible element to be annotated.
 
 
 ### -param idChild [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the child ID of the accessible element.
 
@@ -89,7 +89,7 @@ Specifies the number of properties in the <i>paProps</i> array.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If successful, returns S_OK, even if the specified properties were never annotated on the accessible object; clearing already-cleared properties is considered a success.
 
@@ -97,7 +97,7 @@ Returns E_INVALIDARG if any of the properties in the <i>paProps</i> array are no
 
 May return other error codes under exceptional error conditions such as low memory.
 
-For descriptions of other parameters and return values, see the <a href="https://msdn.microsoft.com/6a3bce93-1d5d-48cf-84f4-cbca445b5451">ClearProps</a> method.
+For descriptions of other parameters and return values, see the <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-clearprops">ClearProps</a> method.
 
 
 
@@ -116,23 +116,23 @@ By using this method, the caller does not have to obtain an identity string; it 
 
 
 
-<a href="https://msdn.microsoft.com/6a3bce93-1d5d-48cf-84f4-cbca445b5451">ClearProps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-clearprops">ClearProps</a>
 
 
 
-<a href="https://msdn.microsoft.com/0474dacf-7aa1-4d12-bac2-1091676a1ced">IAccPropServices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccpropservices">IAccPropServices</a>
 
 
 
-<a href="https://msdn.microsoft.com/ac835bb6-609f-4a37-8cfc-dd529d641c00">SetHmenuProp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-sethmenuprop">SetHmenuProp</a>
 
 
 
-<a href="https://msdn.microsoft.com/7bc91ee3-f0ea-43d5-a8b7-d1444c53cd14">SetHmenuPropServer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-sethmenupropserver">SetHmenuPropServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/891af40a-819b-4fce-a1bb-28db145b87f1">SetHmenuPropStr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-sethmenupropstr">SetHmenuPropStr</a>
  
 
  

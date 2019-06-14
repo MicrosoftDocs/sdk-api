@@ -93,7 +93,7 @@ This method can return the following values:
 
 
 
-<a href="https://msdn.microsoft.com/09927c61-ce64-4d8a-a5b3-542748bfd256">ICreateWithTipTransactionEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icreatewithtiptransactionex">ICreateWithTipTransactionEx</a>
  
 
  

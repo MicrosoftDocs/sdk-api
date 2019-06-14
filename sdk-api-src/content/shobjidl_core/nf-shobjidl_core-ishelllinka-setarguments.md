@@ -91,11 +91,11 @@ This method is useful when creating a link to an application that takes special 
 
 
 
-<a href="https://msdn.microsoft.com/67982d28-27ce-4482-b588-10fec8143750">IShellLink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a>
 
 
 
-<a href="https://msdn.microsoft.com/bd807387-1998-4b38-996f-6dbacefffa48">IShellLink::GetArguments</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getarguments">IShellLink::GetArguments</a>
 
 
 

@@ -69,7 +69,7 @@ This property is read/write.
 
 Starting a task in exclusive mode means that no other maintenance task is get started in parallel with this one. Exclusivity does not guarantee the task any priority in order of execution.
 
-When reading or writing XML for a task, this setting is specified in the <a href="https://msdn.microsoft.com/F690FD8F-BCCB-456D-92E3-25A262D6DCF1">Exclusive</a> element of the Task Scheduler schema.
+When reading or writing XML for a task, this setting is specified in the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-exclusive-element">Exclusive</a> element of the Task Scheduler schema.
 
 
 
@@ -79,7 +79,7 @@ When reading or writing XML for a task, this setting is specified in the <a href
 
 
 
-<a href="https://msdn.microsoft.com/5AB172CA-66BF-47B8-952A-9CBA13A20668">IMaintenanceSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-imaintenancesettings">IMaintenanceSettings</a>
  
 
  

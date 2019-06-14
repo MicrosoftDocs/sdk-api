@@ -59,77 +59,77 @@ Initializes the capture engine.
 
 ### -param pEventCallback [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/6F04F843-160C-4F49-9841-ECC1450F4A58">IMFCaptureEngineOnEventCallback</a> interface. The caller must implement this interface. The capture engine uses this interface to send asynchronous events to the caller.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcaptureengineoneventcallback">IMFCaptureEngineOnEventCallback</a> interface. The caller must implement this interface. The capture engine uses this interface to send asynchronous events to the caller.
 
 
 ### -param pAttributes [in, optional]
 
-A pointer to the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> interface. This parameter can be <b>NULL</b>. 
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. This parameter can be <b>NULL</b>. 
 
-You can use this parameter to configure the capture engine. Call <a href="https://msdn.microsoft.com/a79b1edd-5ca1-4550-a6ce-58073155affd">MFCreateAttributes</a> to create an attribute store, and then set any of the following attributes.
+You can use this parameter to configure the capture engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreateattributes">MFCreateAttributes</a> to create an attribute store, and then set any of the following attributes.
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/1DFDE7AB-7DFF-4C39-9460-E42E37649AAC">MF_CAPTURE_ENGINE_D3D_MANAGER</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-capture-engine-d3d-manager">MF_CAPTURE_ENGINE_D3D_MANAGER</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/9F677E6E-0DCD-456F-8A00-1C11011BAA13">MF_CAPTURE_ENGINE_DISABLE_DXVA</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-capture-engine-disable-dxva">MF_CAPTURE_ENGINE_DISABLE_DXVA</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/1C687FEC-276D-4759-A3B8-9A2A31CB0DE1">MF_CAPTURE_ENGINE_DISABLE_HARDWARE_TRANSFORMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-capture-engine-disable-hardware-transforms">MF_CAPTURE_ENGINE_DISABLE_HARDWARE_TRANSFORMS</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/28421875-9629-4F14-8159-2D86012F517F">MF_CAPTURE_ENGINE_ENCODER_MFT_FIELDOFUSE_UNLOCK_Attribute</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-capture-engine-encoder-mft-fieldofuse-unlock-attribute">MF_CAPTURE_ENGINE_ENCODER_MFT_FIELDOFUSE_UNLOCK_Attribute</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/DCCF3054-AF14-44C7-84C0-B03E35B5D90A">MF_CAPTURE_ENGINE_EVENT_GENERATOR_GUID</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-capture-engine-event-generator-guid">MF_CAPTURE_ENGINE_EVENT_GENERATOR_GUID</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/A15B334A-716A-467E-AEA5-C13710FFE109">MF_CAPTURE_ENGINE_EVENT_STREAM_INDEX</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh162817(v=vs.85)">MF_CAPTURE_ENGINE_EVENT_STREAM_INDEX</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/9A21D21B-E77F-4C7C-B41F-361CEDA322E7">MF_CAPTURE_ENGINE_MEDIASOURCE_CONFIG</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-capture-engine-mediasource-config">MF_CAPTURE_ENGINE_MEDIASOURCE_CONFIG</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/216886DB-B206-4944-925A-C2106331F1CB">MF_CAPTURE_ENGINE_RECORD_SINK_AUDIO_MAX_PROCESSED_SAMPLES</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-capture-engine-record-sink-audio-max-processed-samples">MF_CAPTURE_ENGINE_RECORD_SINK_AUDIO_MAX_PROCESSED_SAMPLES</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/C959ED58-77EB-47EC-8D5D-BBFA9342295D">MF_CAPTURE_ENGINE_RECORD_SINK_AUDIO_MAX_UNPROCESSED_SAMPLES</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-capture-engine-record-sink-audio-max-unprocessed-samples">MF_CAPTURE_ENGINE_RECORD_SINK_AUDIO_MAX_UNPROCESSED_SAMPLES</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/5AFA197E-5A7F-402E-A62B-4F624A5DD917">MF_CAPTURE_ENGINE_RECORD_SINK_VIDEO_MAX_PROCESSED_SAMPLES</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-capture-engine-record-sink-video-max-processed-samples">MF_CAPTURE_ENGINE_RECORD_SINK_VIDEO_MAX_PROCESSED_SAMPLES</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/B3B5C547-1F06-45B1-BFCB-513AD7B6A9B6">MF_CAPTURE_ENGINE_RECORD_SINK_VIDEO_MAX_UNPROCESSED_SAMPLES</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-capture-engine-record-sink-video-max-unprocessed-samples">MF_CAPTURE_ENGINE_RECORD_SINK_VIDEO_MAX_UNPROCESSED_SAMPLES</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/0A905D55-CEE5-44FC-97A5-9474872D5724">MF_CAPTURE_ENGINE_USE_AUDIO_DEVICE_ONLY</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-capture-engine-use-audio-device-only">MF_CAPTURE_ENGINE_USE_AUDIO_DEVICE_ONLY</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/B0B7A7F2-02F9-46A6-954F-D6E9C3B73A29">MF_CAPTURE_ENGINE_USE_VIDEO_DEVICE_ONLY</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-capture-engine-use-video-device-only">MF_CAPTURE_ENGINE_USE_VIDEO_DEVICE_ONLY</a>
 </li>
 </ul>
 
 ### -param pAudioSource [in, optional]
 
-An <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> pointer that specifies an audio-capture device. This parameter can be <b>NULL</b>.
+An <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer that specifies an audio-capture device. This parameter can be <b>NULL</b>.
 
-If you set the <a href="https://msdn.microsoft.com/B0B7A7F2-02F9-46A6-954F-D6E9C3B73A29">MF_CAPTURE_ENGINE_USE_VIDEO_DEVICE_ONLY</a> attribute to <b>TRUE</b> in <i>pAttributes</i>, the capture engine does not use an audio device, and the <i>pAudioSource</i> parameter is ignored.
+If you set the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-capture-engine-use-video-device-only">MF_CAPTURE_ENGINE_USE_VIDEO_DEVICE_ONLY</a> attribute to <b>TRUE</b> in <i>pAttributes</i>, the capture engine does not use an audio device, and the <i>pAudioSource</i> parameter is ignored.
 
 Otherwise, if <i>pAudioSource</i> is <b>NULL</b>, the capture engine selects the microphone that is built into the video camera specified by <i>pVideoSource</i>. If the video camera does not have a microphone, the capture engine enumerates the audio-capture devices on the system and selects the first one.
 
-To override the default audio device, set <i>pAudioSource</i> to an <a href="https://msdn.microsoft.com/8b579f61-6fea-4b20-a051-7633fc01fa05">IMFMediaSource</a> or <a href="https://msdn.microsoft.com/c0936e3c-3cd1-4c1e-a336-2dee7d943963">IMFActivate</a> pointer for the device. For more information, see <a href="https://msdn.microsoft.com/8a9d96f8-1096-4b66-a2ec-8a95d754ea72">Audio/Video Capture in Media Foundation</a>.
+To override the default audio device, set <i>pAudioSource</i> to an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> pointer for the device. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/audio-video-capture-in-media-foundation">Audio/Video Capture in Media Foundation</a>.
 
 
 ### -param pVideoSource [in, optional]
 
-An <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> pointer that specifies a video-capture device. This parameter can be <b>NULL</b>.
+An <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer that specifies a video-capture device. This parameter can be <b>NULL</b>.
 
-If you set the <a href="https://msdn.microsoft.com/0A905D55-CEE5-44FC-97A5-9474872D5724">MF_CAPTURE_ENGINE_USE_AUDIO_DEVICE_ONLY</a> attribute to <b>TRUE</b> in <i>pAttributes</i>, the capture engine does not use a video device, and the <i>pVideoSource</i> parameter is ignored.
+If you set the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-capture-engine-use-audio-device-only">MF_CAPTURE_ENGINE_USE_AUDIO_DEVICE_ONLY</a> attribute to <b>TRUE</b> in <i>pAttributes</i>, the capture engine does not use a video device, and the <i>pVideoSource</i> parameter is ignored.
 
 Otherwise, if <i>pVideoSource</i> is <b>NULL</b>, the capture engine enumerates the video-capture devices on the system and selects the first one.
 
-To override the default video device, set <i>pVideoSource</i> to an <a href="https://msdn.microsoft.com/8b579f61-6fea-4b20-a051-7633fc01fa05">IMFMediaSource</a> or <a href="https://msdn.microsoft.com/c0936e3c-3cd1-4c1e-a336-2dee7d943963">IMFActivate</a> pointer for the device. For more information, see <a href="https://msdn.microsoft.com/b1267478-329b-4e46-a2ed-1ec11d2e2e6d">Enumerating Video Capture Devices</a>.
+To override the default video device, set <i>pVideoSource</i> to an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> pointer for the device. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/enumerating-video-capture-devices">Enumerating Video Capture Devices</a>.
 
 
 ## -returns
@@ -161,7 +161,7 @@ Success.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/23EC8B49-2F67-4FB8-AFFA-409823ACCF59">Initialize</a> method was already called.
+The <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-initialize">Initialize</a> method was already called.
 
 </td>
 </tr>
@@ -199,7 +199,7 @@ An unsupported capture device is present on the system. This error will only be 
 
 You must call this method once before using the capture engine. Calling the method a second time returns <b>MF_E_INVALIDREQUEST</b>.
 
-This method is asynchronous. If the method returns a success code, the caller will receive an <b>MF_CAPTURE_ENGINE_INITIALIZED</b> event through the <a href="https://msdn.microsoft.com/26C5B2E5-0543-49FC-915A-DCE097FF66BA">IMFCaptureEngineOnEventCallback::OnEvent</a> method. The operation can fail asynchronously after the method succeeds. If so, the error code is conveyed through the <b>OnEvent</b> method.
+This method is asynchronous. If the method returns a success code, the caller will receive an <b>MF_CAPTURE_ENGINE_INITIALIZED</b> event through the <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengineoneventcallback-onevent">IMFCaptureEngineOnEventCallback::OnEvent</a> method. The operation can fail asynchronously after the method succeeds. If so, the error code is conveyed through the <b>OnEvent</b> method.
 
 
 
@@ -209,7 +209,7 @@ This method is asynchronous. If the method returns a success code, the caller wi
 
 
 
-<a href="https://msdn.microsoft.com/4A2A0536-4255-40AB-BCAB-228B09343583">IMFCaptureEngine</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcaptureengine">IMFCaptureEngine</a>
  
 
  

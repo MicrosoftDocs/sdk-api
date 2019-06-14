@@ -54,7 +54,7 @@ Exposes methods that provide access to the ProgID associated with an object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectWithProgID</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IObjectWithProgID</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectWithProgID</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectWithProgID</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IObjectWithProgID</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/37023615-09cb-4607-9496-7fe9d9f7c947">GetProgID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iobjectwithprogid-getprogid">GetProgID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the ProgID associated with an object.
@@ -78,7 +78,7 @@ Retrieves the ProgID associated with an object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4889f9a5-da80-4909-b4b5-4ea69ea99c3e">SetProgID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iobjectwithprogid-setprogid">SetProgID</a>
 </td>
 <td align="left" width="63%">
 Sets the ProgID of an object.
@@ -93,7 +93,7 @@ Sets the ProgID of an object.
 
 
 
-<a href="https://msdn.microsoft.com/f2b666d6-bf22-47b5-87e1-8de5ff51c152">Programmatic Identifiers</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/fa-progids">Programmatic Identifiers</a>
  
 
  

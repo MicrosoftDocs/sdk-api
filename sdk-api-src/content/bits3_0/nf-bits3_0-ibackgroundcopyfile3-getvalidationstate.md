@@ -95,7 +95,7 @@ Success
 
 
 
-Note that <b>FALSE</b> may not mean that the file is not valid, it may mean the <a href="https://msdn.microsoft.com/c032ce32-07a4-4ab2-ae57-f9d526d1371a">IBackgroundCopyFile3::SetValidationState</a> has not been called.
+Note that <b>FALSE</b> may not mean that the file is not valid, it may mean the <a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyfile3-setvalidationstate">IBackgroundCopyFile3::SetValidationState</a> has not been called.
 
 
 
@@ -105,15 +105,15 @@ Note that <b>FALSE</b> may not mean that the file is not valid, it may mean the 
 
 
 
-<a href="https://msdn.microsoft.com/5304f93a-993a-4327-9fdb-fb2ef1dafecb">IBackgroundCopyFile3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ibackgroundcopyfile3">IBackgroundCopyFile3</a>
 
 
 
-<a href="https://msdn.microsoft.com/c032ce32-07a4-4ab2-ae57-f9d526d1371a">IBackgroundCopyFile3::SetValidationState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyfile3-setvalidationstate">IBackgroundCopyFile3::SetValidationState</a>
 
 
 
-<a href="https://msdn.microsoft.com/f492f009-bef7-412e-8626-ae84cd5ce03f">IBitsPeerCacheRecord::IsFileValidated</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacherecord-isfilevalidated">IBitsPeerCacheRecord::IsFileValidated</a>
  
 
  

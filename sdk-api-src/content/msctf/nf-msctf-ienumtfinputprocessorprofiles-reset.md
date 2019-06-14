@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/b936c479-a5f1-47a3-bd5a-f1b83cd84dc0">IEnumTfInputProcessorProfiles::Reset</a> method resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
+The <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtfinputprocessorprofiles-next">IEnumTfInputProcessorProfiles::Reset</a> method resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
 
 
 ## -parameters

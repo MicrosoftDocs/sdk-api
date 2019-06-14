@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Contains information used by the 
-<a href="https://msdn.microsoft.com/46f0094d-9079-41b5-9efc-ef07082653d3">SRSetRestorePoint</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/srrestoreptapi/nf-srrestoreptapi-srsetrestorepointa">SRSetRestorePoint</a> function.
 
 
 ## -struct-fields
@@ -197,13 +197,13 @@ An application needs to delete the restore point it created. For example, an app
 ### -field llSequenceNumber
 
 The sequence number of the restore point. To end a system change, set this to the sequence number returned by the previous call to 
-<a href="https://msdn.microsoft.com/46f0094d-9079-41b5-9efc-ef07082653d3">SRSetRestorePoint</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/srrestoreptapi/nf-srrestoreptapi-srsetrestorepointa">SRSetRestorePoint</a>.
 
 
 ### -field szDescription
 
 The description to be displayed so the user can easily identify a restore point. The maximum length of an ANSI string is MAX_DESC. The maximum length of a Unicode string is MAX_DESC_W. For more information, see 
-<a href="https://msdn.microsoft.com/e6e1974b-c162-4019-9349-936f3786cb9b">Restore Point Description Text</a>.
+<a href="https://docs.microsoft.com/windows/desktop/sr/restore-point-description-text">Restore Point Description Text</a>.
 
 
 ## -see-also
@@ -211,7 +211,7 @@ The description to be displayed so the user can easily identify a restore point.
 
 
 
-<a href="https://msdn.microsoft.com/46f0094d-9079-41b5-9efc-ef07082653d3">SRSetRestorePoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/srrestoreptapi/nf-srrestoreptapi-srsetrestorepointa">SRSetRestorePoint</a>
  
 
  

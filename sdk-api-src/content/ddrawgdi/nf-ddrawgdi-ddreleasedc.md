@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[This function is subject to change with each operating system revision. Instead, use the Microsoft DirectDraw and Microsoft Direct3DAPIs; these APIs insulate applications from such operating system changes, and hide many other difficulties involved in interacting directly with display drivers.]
 
-Wrapper for the <a href="https://msdn.microsoft.com/en-us/library/ms648696(v=VS.85).aspx">NtGdiDdReleaseDC</a> function and releases a device context (DC) previously obtained through <a href="https://msdn.microsoft.com/en-us/library/ms648439(v=VS.85).aspx">DdGetDC</a> or <b>GdiEntry7</b>.
+Wrapper for the <a href="https://docs.microsoft.com/windows/desktop/DevNotes/-dxgkernel-ntgdiddreleasedc">NtGdiDdReleaseDC</a> function and releases a device context (DC) previously obtained through <a href="https://docs.microsoft.com/windows/desktop/api/ddrawgdi/nf-ddrawgdi-ddgetdc">DdGetDC</a> or <b>GdiEntry7</b>.
 
 
 <b>GdiEntry8</b> is defined as an alias for this function.
@@ -84,7 +84,7 @@ If successful, this function returns <b>TRUE</b>; otherwise it returns <b>FALSE<
 
 
 
-Applications that need to obtain a DC for a DirectDraw surface can  use <a href="https://msdn.microsoft.com/683be1bc-8232-42de-907f-1136ffdd524d">IDirectDrawSurface7::GetDC</a>, which exposes this functionality in a manner independent of the operating system.
+Applications that need to obtain a DC for a DirectDraw surface can  use <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getdc">IDirectDrawSurface7::GetDC</a>, which exposes this functionality in a manner independent of the operating system.
         
 
 
@@ -95,7 +95,7 @@ Applications that need to obtain a DC for a DirectDraw surface can  use <a href=
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648408(v=VS.85).aspx">Graphics Low Level Client Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>
  
 
  

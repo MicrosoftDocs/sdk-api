@@ -104,14 +104,14 @@ The function succeeded.
 </td>
 <td width="60%">
 See 
-<a href="https://msdn.microsoft.com/9ea81ef3-a5b5-4d13-b0b8-3da6e919315e">Error Codes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/error-codes">Error Codes</a>.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/5cce27ff-1143-4fe6-b4bd-727581431c07">Initialization Error</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/Msi/initialization-errors">Initialization Error</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -135,14 +135,14 @@ An error relating to initialization occurred.
 
 The 
 <b>MsiCollectUserInfo</b> function is typically called by an application during the first run of the application. The application first calls 
-<a href="https://msdn.microsoft.com/c05580c6-9be3-410a-aa97-be15c2980ba8">MsiGetUserInfo</a>. If that call fails, the application calls 
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msigetuserinfoa">MsiGetUserInfo</a>. If that call fails, the application calls 
 <b>MsiCollectUserInfo</b>. 
 <b>MsiCollectUserInfo</b> opens the product's installation package and invokes a wizard sequence that collects user information. Upon completion of the sequence, user information is registered. Since this API requires an authored user interface, the user interface level should be set to full by calling 
-<a href="https://msdn.microsoft.com/303c2ea9-4c8f-46d3-b587-7c50e2810c28">MsiSetInternalUI</a> as INSTALLUILEVEL_FULL.
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisetinternalui">MsiSetInternalUI</a> as INSTALLUILEVEL_FULL.
 
 The 
 <b>MsiCollectUserInfo</b> invokes a 
-<a href="https://msdn.microsoft.com/bb77296f-705a-4409-b2ca-a76bbaf7ea57">FirstRun Dialog</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/firstrun-dialog">FirstRun Dialog</a>.
 
 
 
@@ -152,15 +152,15 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/05a16915-6b47-4d51-b62a-5a4d92b87e50">Application-Only Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Application-Only Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ea81ef3-a5b5-4d13-b0b8-3da6e919315e">Error Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/error-codes">Error Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/5cce27ff-1143-4fe6-b4bd-727581431c07">Initialization Error</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/initialization-errors">Initialization Error</a>
  
 
  

@@ -63,7 +63,7 @@ The <code>Reconfigure</code> method locks the filter graph and calls a callback 
 
 ### -param pCallback [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/b7856181-1616-4984-bf5e-402140ab7b4e">IGraphConfigCallback</a> callback interface on the application or filter.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphconfigcallback">IGraphConfigCallback</a> callback interface on the application or filter.
 
 
 ### -param pvContext [in]
@@ -94,11 +94,11 @@ Returns S_OK if successful, or an error code otherwise. Possible errors include 
 
 
 
-This method is provided so that an application or filter can implement specialized dynamic graph building. In most cases, however, the <a href="https://msdn.microsoft.com/e8cfac8e-df89-444d-bcc7-0cbc7ab5a592">IGraphConfig::Reconnect</a> method is adequate, and should be preferred because it handles most of the implementation details.
+This method is provided so that an application or filter can implement specialized dynamic graph building. In most cases, however, the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphconfig-reconnect">IGraphConfig::Reconnect</a> method is adequate, and should be preferred because it handles most of the implementation details.
 
-Before calling this method, block any streams as needed and push the data through the graph (see <a href="https://msdn.microsoft.com/9bcd325d-41fc-4166-8fce-50fc921efdba">IPinFlowControl::Block</a> and <a href="https://msdn.microsoft.com/f3d72a32-f43a-4a61-b25e-6d472aa629de">IGraphConfig::PushThroughData</a>). If the callback method succeeds, <code>IGraphConfig::Reconfigure</code> attempts to put all the filters into a running state. (The caller must then unblock the data flow.) Otherwise, it returns whatever error code the callback method returned.
+Before calling this method, block any streams as needed and push the data through the graph (see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipinflowcontrol-block">IPinFlowControl::Block</a> and <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphconfig-pushthroughdata">IGraphConfig::PushThroughData</a>). If the callback method succeeds, <code>IGraphConfig::Reconfigure</code> attempts to put all the filters into a running state. (The caller must then unblock the data flow.) Otherwise, it returns whatever error code the callback method returned.
 
-If a filter calls this method on one of its own data processing threads, it creates the potential for a deadlock. The method obtains a lock on the filter graph, which can block the filter from stopping on receiving a call to <a href="https://msdn.microsoft.com/8c415b5c-1aee-4ea4-b182-fd95da4898aa">IMediaFilter::Stop</a>. To prevent this situation, the method takes a handle to an event object provided by filter. The filter should signal the event if it receives a call to its <b>Stop</b> method.
+If a filter calls this method on one of its own data processing threads, it creates the potential for a deadlock. The method obtains a lock on the filter graph, which can block the filter from stopping on receiving a call to <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediafilter-stop">IMediaFilter::Stop</a>. To prevent this situation, the method takes a handle to an event object provided by filter. The filter should signal the event if it receives a call to its <b>Stop</b> method.
 
 
 
@@ -108,11 +108,11 @@ If a filter calls this method on one of its own data processing threads, it crea
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/7df22157-9dd1-410e-b037-a155f7b9a01b">IGraphConfig Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphconfig">IGraphConfig Interface</a>
  
 
  

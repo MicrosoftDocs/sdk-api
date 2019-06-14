@@ -82,7 +82,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. GetLastError can return one of the following errors.
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. GetLastError can return one of the following errors.
 
 <table>
 <tr>
@@ -132,11 +132,11 @@ The user under whose account the call was made does not have sufficient rights t
 
 
 
-This function can only be used only with a local server. Use of a remote server is enabled in the <a href="https://msdn.microsoft.com/en-us/library/ms684513(v=VS.85).aspx">Fax Service Extended COM API</a>. For more information see the <a href="https://msdn.microsoft.com/en-us/library/ms692315(v=VS.85).aspx">IFaxServer::Connect</a> method.
+This function can only be used only with a local server. Use of a remote server is enabled in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-about-the-fax-service-extended-com-api">Fax Service Extended COM API</a>. For more information see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxserver-connect-client-vb">IFaxServer::Connect</a> method.
 
 A fax client application must call the <b>FaxConnectFaxServer</b> function successfully before it calls any other fax client function.
 
-The fax client application must call the <a href="https://msdn.microsoft.com/en-us/library/ms691909(v=VS.85).aspx">FaxClose</a> function to disconnect from the fax server and deallocate the handle that the <b>FaxConnectFaxServer</b> function returns. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms692919(v=VS.85).aspx">Connecting to the Fax Server</a> and <a href="https://msdn.microsoft.com/en-us/library/ms690866(v=VS.85).aspx">Disconnecting from a Fax Server</a>.
+The fax client application must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxclose">FaxClose</a> function to disconnect from the fax server and deallocate the handle that the <b>FaxConnectFaxServer</b> function returns. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-connecting-to-the-fax-server">Connecting to the Fax Server</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-disconnecting-from-a-fax-server">Disconnecting from a Fax Server</a>.
 
 
 
@@ -146,15 +146,15 @@ The fax client application must call the <a href="https://msdn.microsoft.com/en-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691947(v=VS.85).aspx">Fax Service Client API Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-functions">Fax Service Client API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-for-windows-2000">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691909(v=VS.85).aspx">FaxClose</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxclose">FaxClose</a>
  
 
  

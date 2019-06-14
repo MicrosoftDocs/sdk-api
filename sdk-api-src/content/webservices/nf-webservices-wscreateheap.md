@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Creates a <a href="https://msdn.microsoft.com/3a25284a-8f15-42d4-a292-ece28a08fb69">heap</a> object.
+Creates a <a href="https://docs.microsoft.com/windows/desktop/wsw/heap">heap</a> object.
             
 
 
@@ -65,13 +65,13 @@ Creates a <a href="https://msdn.microsoft.com/3a25284a-8f15-42d4-a292-ece28a08fb
 
 The total number of bytes that can be allocated from the heap.  The total
                   number of bytes is defined as sum of the sizes passed in all the calls to
-                                    the <a href="https://msdn.microsoft.com/633b6a11-09ba-48a7-a1ad-940846c65d79">WsAlloc</a> function since the heap was created or reset.
+                                    the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsalloc">WsAlloc</a> function since the heap was created or reset.
 
 
 ### -param trimSize [in]
 
 The maximum number of bytes of memory that the heap
-                retains after the heap has been reset by a call to the  <a href="https://msdn.microsoft.com/c927ccb9-66c8-4acf-bbb5-12313ea80ee0">WsResetHeap</a> function.  This is an approximation value due to heap overhead.  <div class="alert"><b>Note</b>  If the
+                retains after the heap has been reset by a call to the  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsresetheap">WsResetHeap</a> function.  This is an approximation value due to heap overhead.  <div class="alert"><b>Note</b>  If the
                 value of <i>trimSize</i> is larger than the value of  <i>maxSize</i>,  the size of the
                 heap will not be adjusted to the desired size.</div>
 <div> </div>
@@ -92,13 +92,13 @@ Reserved for future use; set to 0 (zero).
 
 ### -param heap
 
-On   success, pointer that receives the address of the  <a href="https://msdn.microsoft.com/1866f54f-26fc-4889-a88f-0d298a418bdc">WS_HEAP</a> structure representing the new heap object.
+On   success, pointer that receives the address of the  <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-heap">WS_HEAP</a> structure representing the new heap object.
                 
 
 
 ### -param error [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> structure  that receives additional error information if the function fails.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
                 
 
 
@@ -115,10 +115,10 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 
 
 
-A heap in Windows Web Services API  is a memory allocation used for <a href="https://msdn.microsoft.com/edc810d9-7d78-4b79-8cbb-e87401f6ae41">messages</a>.  Heaps can also be used to store message data separately from the lifetime of a message. Some API functions allow for  explicit heap control over the lifetime of any data read.
+A heap in Windows Web Services API  is a memory allocation used for <a href="https://docs.microsoft.com/windows/desktop/wsw/message">messages</a>.  Heaps can also be used to store message data separately from the lifetime of a message. Some API functions allow for  explicit heap control over the lifetime of any data read.
 
-Creating new heap does not allocate any memory (except the memory necessary for  <a href="https://msdn.microsoft.com/1866f54f-26fc-4889-a88f-0d298a418bdc">WS_HEAP</a> structure itself). 
-                The parameters <i>maxSize</i> and <i>trimSize</i> are used  as quotas onlyduring <a href="https://msdn.microsoft.com/633b6a11-09ba-48a7-a1ad-940846c65d79">WsAlloc</a> and <a href="https://msdn.microsoft.com/c927ccb9-66c8-4acf-bbb5-12313ea80ee0">WsResetHeap</a> operations.
+Creating new heap does not allocate any memory (except the memory necessary for  <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-heap">WS_HEAP</a> structure itself). 
+                The parameters <i>maxSize</i> and <i>trimSize</i> are used  as quotas onlyduring <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsalloc">WsAlloc</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsresetheap">WsResetHeap</a> operations.
             
 
 

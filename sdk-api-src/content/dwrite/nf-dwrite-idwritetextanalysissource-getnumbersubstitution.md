@@ -73,9 +73,9 @@ Contains  the length of the text, in characters, remaining in the text range up 
 
 ### -param numberSubstitution [out]
 
-Type: <b><a href="https://msdn.microsoft.com/bf8caeea-6ede-4cd3-84f7-2e8314af50db">IDWriteNumberSubstitution</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritenumbersubstitution">IDWriteNumberSubstitution</a>**</b>
 
-Contains an address of a pointer to an object, which was created with <a href="https://msdn.microsoft.com/a2778bfd-c721-44e8-ac0a-79aaa2b323a8">IDWriteFactory::CreateNumberSubstitution</a>, that holds the appropriate digits and numeric punctuation for a given locale.
+Contains an address of a pointer to an object, which was created with <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-createnumbersubstitution">IDWriteFactory::CreateNumberSubstitution</a>, that holds the appropriate digits and numeric punctuation for a given locale.
 
 
 ## -returns
@@ -105,7 +105,7 @@ Any implementation should return the number substitution with an incremented ref
 
 
 
-<a href="https://msdn.microsoft.com/7e2a523d-9191-4f99-9e73-a7955c432126">IDWriteTextAnalysisSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextanalysissource">IDWriteTextAnalysisSource</a>
  
 
  

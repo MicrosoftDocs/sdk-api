@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the stored <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> object from the error object.
+Gets the stored <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> object from the error object.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets the stored <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08b
 
 ### -param languageException [out]
 
-The stored <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> object from the error object.
+The stored <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> object from the error object.
 
 
 ## -returns
@@ -85,7 +85,7 @@ Language projections query for the appropriate interface to identify this object
 
 
 
-<a href="https://msdn.microsoft.com/625C0DAF-8AF6-43EB-BC81-2B3189CF8963">ILanguageExceptionErrorInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptionerrorinfo">ILanguageExceptionErrorInfo</a>
  
 
  

@@ -49,13 +49,13 @@ ms.custom: 19H1
 ## -description
 
 
-Removes the standard <a href="https://msdn.microsoft.com/4c9b927d-00c7-41e4-bc29-e84a4c23c162">WS_HEADER_TYPE</a> object from a message.
+Removes the standard <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_header_type">WS_HEADER_TYPE</a> object from a message.
                 
                 The function is designed to handle types of headers that appear once in the
                 message and are targeted at the ultimate receiver.  Headers targeted
                 with a role other than ultimate receiver are ignored.
 
-For application-defined header types use the <a href="https://msdn.microsoft.com/def38214-2de9-4a26-93cb-e2f34d8dd6ef">WsRemoveCustomHeader</a> function.
+For application-defined header types use the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsremovecustomheader">WsRemoveCustomHeader</a> function.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ Indicates the type of header to be removed.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>OBJECTS_AND_NAME</b> structure contains a string that identifies a trustee by name and additional strings that identify the object types of an object-specific <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entry</a> (ACE).
+The <b>OBJECTS_AND_NAME</b> structure contains a string that identifies a trustee by name and additional strings that identify the object types of an object-specific <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE).
 
 
 ## -struct-fields
@@ -102,14 +102,14 @@ The <b>InheritedObjectTypeName</b> member contains a string.
 ### -field ObjectType
 
 Specifies a value from the 
-<a href="https://msdn.microsoft.com/1dee5e3d-0d41-4717-811b-7e05b4deb55f">SE_OBJECT_TYPE</a> enumeration that indicates the type of object.
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_se_object_type">SE_OBJECT_TYPE</a> enumeration that indicates the type of object.
 
 
 ### -field ObjectTypeName
 
 A pointer to a null-terminated string that identifies the type of object to which the ACE applies.
 
-This string must be a valid <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">LDAP</a> display name in the Active Directory schema.
+This string must be a valid <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">LDAP</a> display name in the Active Directory schema.
 
 
 ### -field InheritedObjectTypeName
@@ -119,9 +119,9 @@ A pointer to a null-terminated string that identifies the type of object that ca
 
 
 
-This string must be a valid <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">LDAP</a> display name in the Active Directory schema.
+This string must be a valid <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">LDAP</a> display name in the Active Directory schema.
 
-If the ACE_INHERITED_OBJECT_TYPE_PRESENT bit is not set in the <b>ObjectsPresent</b> member, the <b>InheritedObjectTypeName</b> member is ignored, and all types of child objects can inherit the ACE. Otherwise, only the specified object type can inherit the ACE. In either case, inheritance is also controlled by the inheritance flags in the <a href="https://msdn.microsoft.com/d23f15d6-0453-4aaf-a2db-7528b551a992">ACE_HEADER</a>structure as well as by any protection against inheritance placed on the child objects.
+If the ACE_INHERITED_OBJECT_TYPE_PRESENT bit is not set in the <b>ObjectsPresent</b> member, the <b>InheritedObjectTypeName</b> member is ignored, and all types of child objects can inherit the ACE. Otherwise, only the specified object type can inherit the ACE. In either case, inheritance is also controlled by the inheritance flags in the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a>structure as well as by any protection against inheritance placed on the child objects.
 
 
 ### -field ptstrName
@@ -133,7 +133,7 @@ A pointer to a null-terminated string that contains the name of the trustee.
 
 
 
-The <b>ptstrName</b> member of a <a href="https://msdn.microsoft.com/120e93eb-680f-4f86-879d-bc2de10d4641">TRUSTEE</a> structure can be a pointer to an <b>OBJECTS_AND_NAME</b> structure. This enables functions such as <a href="https://msdn.microsoft.com/05960fc1-1ad2-4c19-a65c-62259af5e18c">SetEntriesInAcl</a> and <a href="https://msdn.microsoft.com/186aa6aa-efc3-4f8a-acad-e257da3dac0b">GetExplicitEntriesFromAcl</a> to store object-specific ACE information in the <b>Trustee</b> member of an <a href="https://msdn.microsoft.com/6fe09542-10dd-439c-adf8-a4e06943ddb2">EXPLICIT_ACCESS</a> structure.
+The <b>ptstrName</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a> structure can be a pointer to an <b>OBJECTS_AND_NAME</b> structure. This enables functions such as <a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setentriesinacla">SetEntriesInAcl</a> and <a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getexplicitentriesfromacla">GetExplicitEntriesFromAcl</a> to store object-specific ACE information in the <b>Trustee</b> member of an <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_explicit_access_a">EXPLICIT_ACCESS</a> structure.
 
 
 
@@ -143,31 +143,31 @@ The <b>ptstrName</b> member of a <a href="https://msdn.microsoft.com/120e93eb-68
 
 
 
-<a href="https://msdn.microsoft.com/d23f15d6-0453-4aaf-a2db-7528b551a992">ACE_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/6fe09542-10dd-439c-adf8-a4e06943ddb2">EXPLICIT_ACCESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_explicit_access_a">EXPLICIT_ACCESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/186aa6aa-efc3-4f8a-acad-e257da3dac0b">GetExplicitEntriesFromAcl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getexplicitentriesfromacla">GetExplicitEntriesFromAcl</a>
 
 
 
-<a href="https://msdn.microsoft.com/77ba8a3c-01e5-4a3e-835f-c7b9ef60035a">OBJECTS_AND_SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_objects_and_sid">OBJECTS_AND_SID</a>
 
 
 
-<a href="https://msdn.microsoft.com/1dee5e3d-0d41-4717-811b-7e05b4deb55f">SE_OBJECT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_se_object_type">SE_OBJECT_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/05960fc1-1ad2-4c19-a65c-62259af5e18c">SetEntriesInAcl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setentriesinacla">SetEntriesInAcl</a>
 
 
 
-<a href="https://msdn.microsoft.com/120e93eb-680f-4f86-879d-bc2de10d4641">TRUSTEE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ber_skip_tag</b> function skips  the current tag and returns the tag of the next element in the supplied <a href="https://msdn.microsoft.com/491bdf54-0b45-4324-93fc-35fe15155a3d">BerElement</a> structure.
+The <b>ber_skip_tag</b> function skips  the current tag and returns the tag of the next element in the supplied <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>ber_skip_tag</b> function skips  the current tag and returns the tag of t
 
 ### -param pBerElement [in]
 
-Pointer to the source <a href="https://msdn.microsoft.com/491bdf54-0b45-4324-93fc-35fe15155a3d">BerElement</a> structure.
+Pointer to the source <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure.
 
 
 ### -param pLen [out]
@@ -71,7 +71,7 @@ Returns the length of the skipped element.
 
 
 
-Returns the tag of the next element in the <a href="https://msdn.microsoft.com/491bdf54-0b45-4324-93fc-35fe15155a3d">BerElement</a> structure. LBER_DEFAULT is returned if there is no further data to read.
+Returns the tag of the next element in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure. LBER_DEFAULT is returned if there is no further data to read.
 
 
 
@@ -81,8 +81,8 @@ Returns the tag of the next element in the <a href="https://msdn.microsoft.com/4
 
 
 This function is similar to 
-<a href="https://msdn.microsoft.com/0c6f24fa-47df-401c-afe8-84bf2987dd36">ber_peek_tag</a>, except that the state pointer, in the 
-<a href="https://msdn.microsoft.com/491bdf54-0b45-4324-93fc-35fe15155a3d">BerElement</a> argument, is advanced past the first tag and length, and is pointed to the value part of the next element. This routine should only be used with constructed types and situations when a BER encoding is used as the value of an OCTET STRING.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_peek_tag">ber_peek_tag</a>, except that the state pointer, in the 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> argument, is advanced past the first tag and length, and is pointed to the value part of the next element. This routine should only be used with constructed types and situations when a BER encoding is used as the value of an OCTET STRING.
 
 
 
@@ -92,15 +92,15 @@ This function is similar to
 
 
 
-<a href="https://msdn.microsoft.com/079ac0a6-1b73-433e-88b3-1ce16ddc2851">ber_first_element</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_first_element">ber_first_element</a>
 
 
 
-<a href="https://msdn.microsoft.com/3daf33c9-730d-4032-a0fc-21de4c425209">ber_next_element</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_next_element">ber_next_element</a>
 
 
 
-<a href="https://msdn.microsoft.com/0c6f24fa-47df-401c-afe8-84bf2987dd36">ber_peek_tag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_peek_tag">ber_peek_tag</a>
  
 
  

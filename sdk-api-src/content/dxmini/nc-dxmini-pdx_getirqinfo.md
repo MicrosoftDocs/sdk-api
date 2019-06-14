@@ -74,7 +74,7 @@ The<i> DxGetIRQInfo</i> callback function indicates that the driver manages the 
 
 #### - GetIrqInfo
 
-Points to a <a href="https://msdn.microsoft.com/fdc3b929-902b-4759-b603-1624e3fb01dc">DDGETIRQINFO</a> structure that contains the interrupt request information.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddgetirqinfo">DDGETIRQINFO</a> structure that contains the interrupt request information.
 
 
 #### - HwDeviceExtension
@@ -110,7 +110,7 @@ Because the miniport driver must always manage the IRQ, this function must alway
 
 
 
-<a href="https://msdn.microsoft.com/fdc3b929-902b-4759-b603-1624e3fb01dc">DDGETIRQINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddgetirqinfo">DDGETIRQINFO</a>
  
 
  

@@ -82,9 +82,9 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 
 
 The SD DACL defines who has access to the events. The access control entry (ACE) of a consumer seeking access to the events delivered to the sink must match an ACE with <b>WBEM_RIGHT_SUBSCRIBE</b> set in the <i>pSD</i> parameter. The SD owner and group specify the identity to be used when raising the event. This identity can be different than the identity of the account raising the event; however, when checking access of the event against a filter SD, both the identity of the user and the identity specified in the owner field are checked for access. For more information, see the <b>EventAccess</b> property of the 
-<a href="https://msdn.microsoft.com/369d3c28-2b69-456f-9144-d7c73e3123bc">__EventFilter</a> class. The group field of the SD must be set and the SACL field is not used.  For more information about event security and when to use this method, see <a href="https://msdn.microsoft.com/86eaeb5c-c27e-4794-88e2-e0ffbb885290">Securing WMI Events</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/--eventfilter">__EventFilter</a> class. The group field of the SD must be set and the SACL field is not used.  For more information about event security and when to use this method, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/securing-wmi-events">Securing WMI Events</a>.
 
-For more information about providing events, see <a href="https://msdn.microsoft.com/075bdc65-4ea3-4f91-9823-1d2d0dc13423">Writing an Event Provider</a>.
+For more information about providing events, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/writing-an-event-provider">Writing an Event Provider</a>.
 
 
 #### Examples

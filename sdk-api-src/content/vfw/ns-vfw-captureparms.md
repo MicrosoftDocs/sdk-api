@@ -196,9 +196,9 @@ Indicates whether the audio stream controls the clock when writing an AVI file. 
 
 
 
-The WM_CAP_GET_SEQUENCE_SETUP message or <a href="https://msdn.microsoft.com/198b1aae-b719-4fb8-a11d-859eaf7a4606">capCaptureGetSetup</a> macro is used to retrieve the current capture parameters. The WM_CAP_SET_SEQUENCE_SETUP message or <a href="https://msdn.microsoft.com/663dcb34-6b11-4208-b5d6-216799fb774d">capCaptureSetSetup</a> macro is used to set the capture parameters.
+The WM_CAP_GET_SEQUENCE_SETUP message or <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capcapturegetsetup">capCaptureGetSetup</a> macro is used to retrieve the current capture parameters. The WM_CAP_SET_SEQUENCE_SETUP message or <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capcapturesetsetup">capCaptureSetSetup</a> macro is used to set the capture parameters.
 
-The <a href="https://msdn.microsoft.com/2220c92a-1994-4f15-9730-1cf01972dda6">WM_CAP_GET_SEQUENCE_SETUP</a> message or <a href="https://msdn.microsoft.com/198b1aae-b719-4fb8-a11d-859eaf7a4606">capCaptureGetSetup</a> macro is used to retrieve the current capture parameters. The <a href="https://msdn.microsoft.com/ba9adb26-6627-469b-a836-f4f277ddb7c4">WM_CAP_SET_SEQUENCE_SETUP</a> message or <a href="https://msdn.microsoft.com/663dcb34-6b11-4208-b5d6-216799fb774d">capCaptureSetSetup</a> macro is used to set the capture parameters.
+The <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-get-sequence-setup">WM_CAP_GET_SEQUENCE_SETUP</a> message or <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capcapturegetsetup">capCaptureGetSetup</a> macro is used to retrieve the current capture parameters. The <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-sequence-setup">WM_CAP_SET_SEQUENCE_SETUP</a> message or <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capcapturesetsetup">capCaptureSetSetup</a> macro is used to set the capture parameters.
 
 
 
@@ -216,23 +216,23 @@ Video Capture
 
 
 
-<a href="https://msdn.microsoft.com/180010d2-240e-433d-b306-341b9b1e0b57">Video Capture Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-structures">Video Capture Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/2220c92a-1994-4f15-9730-1cf01972dda6">WM_CAP_GET_SEQUENCE_SETUP</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-get-sequence-setup">WM_CAP_GET_SEQUENCE_SETUP</a>
 
 
 
-<a href="https://msdn.microsoft.com/ba9adb26-6627-469b-a836-f4f277ddb7c4">WM_CAP_SET_SEQUENCE_SETUP</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-sequence-setup">WM_CAP_SET_SEQUENCE_SETUP</a>
 
 
 
-<a href="https://msdn.microsoft.com/198b1aae-b719-4fb8-a11d-859eaf7a4606">capCaptureGetSetup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capcapturegetsetup">capCaptureGetSetup</a>
 
 
 
-<a href="https://msdn.microsoft.com/663dcb34-6b11-4208-b5d6-216799fb774d">capCaptureSetSetup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capcapturesetsetup">capCaptureSetSetup</a>
  
 
  

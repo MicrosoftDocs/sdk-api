@@ -60,7 +60,7 @@ Copies pixel data using the supplied input parameters.
 
 ### -param prc [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/e07c26bf-b645-4382-bb93-8472ba397026">WICRect</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-wincodec-wicrect">WICRect</a>*</b>
 
 The rectangle of pixels to copy.
 
@@ -69,14 +69,14 @@ The rectangle of pixels to copy.
 
 Type: <b>UINT</b>
 
-The width to scale the source bitmap. This parameter must equal the value obtainable through <a href="https://msdn.microsoft.com/0eae79dc-d636-4449-ba90-0f296b71573a">IWICBitmapSourceTransform::GetClosestSize</a>.
+The width to scale the source bitmap. This parameter must equal the value obtainable through <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsourcetransform-getclosestsize">IWICBitmapSourceTransform::GetClosestSize</a>.
 
 
 ### -param uiHeight [in]
 
 Type: <b>UINT</b>
 
-The height to scale the source bitmap. This parameter must equal the value obtainable through <a href="https://msdn.microsoft.com/0eae79dc-d636-4449-ba90-0f296b71573a">IWICBitmapSourceTransform::GetClosestSize</a>.
+The height to scale the source bitmap. This parameter must equal the value obtainable through <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsourcetransform-getclosestsize">IWICBitmapSourceTransform::GetClosestSize</a>.
 
 
 ### -param pguidDstFormat [in]
@@ -86,17 +86,17 @@ Type: <b>WICPixelFormatGUID*</b>
 The GUID of desired pixel format in which the pixels should be returned. 
                
 
-This GUID must be a format obtained through an <a href="https://msdn.microsoft.com/153c5e2a-c42f-4949-9313-48d5e186ecf3">GetClosestPixelFormat</a> call.
+This GUID must be a format obtained through an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsourcetransform-getclosestpixelformat">GetClosestPixelFormat</a> call.
 
 
 ### -param dstTransform [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e123bb4d-bc75-4f3f-98f1-bea9b008498b">WICBitmapTransformOptions</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicbitmaptransformoptions">WICBitmapTransformOptions</a></b>
 
 The desired rotation or flip to perform prior to the pixel copy.
                
 
-The transform must be an operation supported by an <a href="https://msdn.microsoft.com/73f27e20-3245-42b3-8b83-29c3c969624f">DoesSupportTransform</a> call.
+The transform must be an operation supported by an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsourcetransform-doessupporttransform">DoesSupportTransform</a> call.
 
 If a <i>dstTransform</i> is specified, <i>nStride</i> is the <i>transformed stride</i> and is based on the <i>pguidDstFormat</i> pixel format, not the original source's pixel format.
 
@@ -140,7 +140,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 <h3><a id="Codec_Developer_Remarks"></a><a id="codec_developer_remarks"></a><a id="CODEC_DEVELOPER_REMARKS"></a>Codec Developer Remarks</h3>
 If NULL is passed in for <i>prc</i>, the entire image is copied.
 
-For codec developer implementation details for this method, see <a href="https://msdn.microsoft.com/6a3e682c-55c6-4728-9d14-5eb0290f3dcc">Implementing IWICBitmapSourceTransform</a>.
+For codec developer implementation details for this method, see <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-imp-iwicbitmapsourcetransform">Implementing IWICBitmapSourceTransform</a>.
 
 When multiple transform operations are requested, the result is dependent on the order in which the operations are performed.
                To ensure predictability and consistency across CODECs, it's important that all CODECs perform these operations in the same order.
@@ -174,23 +174,23 @@ If a <i>dstTransform</i> is specified, the stride is the transformed stride, and
 
 
 
-<a href="https://msdn.microsoft.com/f9cc348f-d4f0-4e77-90d6-9ff563a1799c">IWICBitmapSourceTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsourcetransform">IWICBitmapSourceTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/b872baf9-9fcb-4604-a518-26e109eda792">Microsoft Windows Imaging Codec</a>
+<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-lh">Microsoft Windows Imaging Codec</a>
 
 
 
-<a href="https://msdn.microsoft.com/ed7987f0-5983-4bb5-8640-0830a87c8f2e">Programming Guide</a>
+<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-programming-guide">Programming Guide</a>
 
 
 
-<a href="https://msdn.microsoft.com/5ffa52e9-c01e-455e-85dc-2b7c078cc252">References</a>
+<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-reference">References</a>
 
 
 
-<a href="https://msdn.microsoft.com/0714f720-f06f-4480-bc3c-5cd0337510d7">Samples and Code Examples</a>
+<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-samples">Samples and Code Examples</a>
  
 
  

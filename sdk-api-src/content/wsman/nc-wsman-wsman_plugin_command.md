@@ -61,7 +61,7 @@ The DLL entry point name must be <b>WSManPluginCommand</b>.
 
 ### -param *requestDetails
 
-A pointer to a <a href="https://msdn.microsoft.com/3191f2b3-e754-4f2d-ae8b-11da859c94b7">WSMAN_PLUGIN_REQUEST</a> structure that specifies the resource URI, options, locale, shutdown flag, and handle for the request.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_plugin_request">WSMAN_PLUGIN_REQUEST</a> structure that specifies the resource URI, options, locale, shutdown flag, and handle for the request.
 
 
 ### -param flags
@@ -81,7 +81,7 @@ Specifies the command line to be run.
 
 ### -param *arguments
 
-A pointer to a <a href="https://msdn.microsoft.com/0904851f-e275-445c-b3fa-e5974d037322">WSMAN_COMMAND_ARG_SET</a> structure that specifies  the command-line arguments to be passed to the command.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_command_arg_set">WSMAN_COMMAND_ARG_SET</a> structure that specifies  the command-line arguments to be passed to the command.
 
 
 ## -returns
@@ -97,7 +97,7 @@ This callback function does not return a value.
 
 
 
-The WinRM (WinRM) plug-in will call the <a href="https://msdn.microsoft.com/8bdfeabf-1028-4ddb-8953-455bbc2a1a1e">WSManPluginReportContext</a> method to register a command context for the command. All operations on this command are passed into this context. The context must be valid until the <a href="https://msdn.microsoft.com/6cb47762-edfc-48d7-88ec-d62056ea1751">WSManPluginOperationComplete</a> method is called by the plug-in to indicate that either the command is complete or the shell was shut down. All parameters passed in are valid until the WinRM plug-in calls <b>WSManPluginOperationComplete</b>.
+The WinRM (WinRM) plug-in will call the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanpluginreportcontext">WSManPluginReportContext</a> method to register a command context for the command. All operations on this command are passed into this context. The context must be valid until the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanpluginoperationcomplete">WSManPluginOperationComplete</a> method is called by the plug-in to indicate that either the command is complete or the shell was shut down. All parameters passed in are valid until the WinRM plug-in calls <b>WSManPluginOperationComplete</b>.
 
 
 

@@ -75,11 +75,11 @@ The corresponding Win32 handle.
 
 
 
-The caller must have referenced the protected handle prior to this call using <a href="https://msdn.microsoft.com/C6281FD6-3A37-4D90-9B19-03DD23949C39">CfReferenceProtectedHandle</a> to ensure that the use of the Win32 handle is tracked, and the Win32 API call that consumes the Win32 handle is synchronized with the oplock break notification acknowledgment. 
+The caller must have referenced the protected handle prior to this call using <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfreferenceprotectedhandle">CfReferenceProtectedHandle</a> to ensure that the use of the Win32 handle is tracked, and the Win32 API call that consumes the Win32 handle is synchronized with the oplock break notification acknowledgment. 
 
-The caller must release the reference on the protected handle after being done with the Win32 handle using <a href="https://msdn.microsoft.com/BB63C5EE-92D7-4051-8198-09F50BBC75C5">CfReleaseProtectedHandle</a>. 
+The caller must release the reference on the protected handle after being done with the Win32 handle using <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfreleaseprotectedhandle">CfReleaseProtectedHandle</a>. 
 
-In no circumstances should the caller close the Win32 handle returned using <a href="https://msdn.microsoft.com/ECBEF685-0769-4AEA-8A0F-D5FBB70CBB09">CfCloseHandle</a>.
+In no circumstances should the caller close the Win32 handle returned using <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfclosehandle">CfCloseHandle</a>.
 
 
 

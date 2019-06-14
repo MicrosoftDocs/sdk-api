@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The function returns the XML <a href="https://msdn.microsoft.com/98c40d57-ee71-40f8-9416-5b29adc30489">node</a> at the current position of the XML <a href="https://msdn.microsoft.com/7acbe407-e91b-435a-82bc-acbbc13cfcfd">reader</a>.
+The function returns the XML <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_node">node</a> at the current position of the XML <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-reader">reader</a>.
       
 
 
@@ -65,12 +65,12 @@ A pointer to the reader for which the current node will be obtained.  This must 
 
 ### -param node
 
-A reference to a <a href="https://msdn.microsoft.com/98c40d57-ee71-40f8-9416-5b29adc30489">WS_XML_NODE</a> structure where the current node is returned.
+A reference to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_node">WS_XML_NODE</a> structure where the current node is returned.
 
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 
 ## -returns
@@ -105,7 +105,7 @@ One or more arguments are invalid.
 
 
 
-The <a href="https://msdn.microsoft.com/eddef5db-432d-4615-9f0f-a712dffe42ab">nodeType</a> field of the node <a href="https://msdn.microsoft.com/98c40d57-ee71-40f8-9416-5b29adc30489">node</a> should be inspected
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_xml_node_type">nodeType</a> field of the node <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_node">node</a> should be inspected
         to determine the kind of node returned.  The <b>node</b> may then be cast to the appropriate
         data structure to get the data.
       
@@ -119,19 +119,19 @@ if (SUCCEEDED(WsGetReaderNode(reader, &amp;node, error)))
         // Refer to elementNode-&gt;localName, elementNode-&gt;ns
     }
 }</code></pre>
-The <a href="https://msdn.microsoft.com/eddef5db-432d-4615-9f0f-a712dffe42ab">nodeTypes</a> with extended structures include:
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_xml_node_type">nodeTypes</a> with extended structures include:
         <ul>
-<li><b>WS_XML_NODE_TYPE_ELEMENT</b> =&gt; <a href="https://msdn.microsoft.com/32157ddf-ace2-49dc-85d7-b04e25e85693">WS_XML_ELEMENT_NODE</a>
+<li><b>WS_XML_NODE_TYPE_ELEMENT</b> =&gt; <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_element_node">WS_XML_ELEMENT_NODE</a>
 </li>
-<li><b>WS_XML_NODE_TYPE_TEXT</b>    =&gt; <a href="https://msdn.microsoft.com/be009607-8d5c-4e9b-9b42-84d1fdaa594d">WS_XML_TEXT_NODE</a>
+<li><b>WS_XML_NODE_TYPE_TEXT</b>    =&gt; <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_text_node">WS_XML_TEXT_NODE</a>
 </li>
-<li><b>WS_XML_NODE_TYPE_COMMENT</b> =&gt; <a href="https://msdn.microsoft.com/e1a0b493-4537-465b-93bb-64672bc5b3d9">WS_XML_COMMENT_NODE</a>
+<li><b>WS_XML_NODE_TYPE_COMMENT</b> =&gt; <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_comment_node">WS_XML_COMMENT_NODE</a>
 </li>
 </ul>
 
 
 The node returned should not be modified and is only valid until the reader advances.
-      For the attributes in a <a href="https://msdn.microsoft.com/32157ddf-ace2-49dc-85d7-b04e25e85693">WS_XML_ELEMENT_NODE</a> callers should not expect the
+      For the attributes in a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_element_node">WS_XML_ELEMENT_NODE</a> callers should not expect the
         attributes to appear in any particular order.
       
 

@@ -64,7 +64,7 @@ Returns an array of raw values from the specified counter.
 ### -param hCounter [in]
 
 Handle of the counter for whose current raw instance values you want to retrieve. The 
-<a href="https://msdn.microsoft.com/b8b9a332-ce28-46d4-92e2-91f9f6c24da5">PdhAddCounter</a> function returns this handle.
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhaddcountera">PdhAddCounter</a> function returns this handle.
 
 
 ### -param lpdwBufferSize [in, out]
@@ -80,7 +80,7 @@ Number of raw counter values in the <i>ItemBuffer</i> buffer.
 ### -param ItemBuffer [out]
 
 Caller-allocated buffer that receives the array of 
-<a href="https://msdn.microsoft.com/602e0d44-3551-4a26-a5b7-8f7015131f9a">PDH_RAW_COUNTER_ITEM</a> structures; the structures contain the raw instance counter values.  Set to <b>NULL</b> if <i>lpdwBufferSize</i> is zero.
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_raw_counter_item_a">PDH_RAW_COUNTER_ITEM</a> structures; the structures contain the raw instance counter values.  Set to <b>NULL</b> if <i>lpdwBufferSize</i> is zero.
 
 
 ## -returns
@@ -91,8 +91,8 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> or a 
-<a href="https://msdn.microsoft.com/ea67d798-81db-44ad-b0fb-24e0c3be7388">PDH error code</a>. The following are possible values.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
 
 <table>
 <tr>
@@ -155,19 +155,19 @@ The data for the counter is locked for the duration of the call to
 
 
 
-<a href="https://msdn.microsoft.com/602e0d44-3551-4a26-a5b7-8f7015131f9a">PDH_RAW_COUNTER_ITEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_raw_counter_item_a">PDH_RAW_COUNTER_ITEM</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd50b1fd-29b7-49a8-bbcc-4d7f0cbd7079">PdhCalculateCounterFromRawValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhcalculatecounterfromrawvalue">PdhCalculateCounterFromRawValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/0f388c7e-d0c8-461d-908c-48af92166996">PdhGetFormattedCounterArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetformattedcounterarraya">PdhGetFormattedCounterArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/cd104b26-1498-4f95-a411-97d868b43836">PdhGetFormattedCounterValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetformattedcountervalue">PdhGetFormattedCounterValue</a>
  
 
  

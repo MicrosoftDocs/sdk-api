@@ -144,15 +144,15 @@ The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787783(v=VS.85).aspx">FindText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-findtext">FindText</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773923(v=VS.85).aspx">FindTextStart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-findtextstart">FindTextStart</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
@@ -160,7 +160,7 @@ The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
  
 
  

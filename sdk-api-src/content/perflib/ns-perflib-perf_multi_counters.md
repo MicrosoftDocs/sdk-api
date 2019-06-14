@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Provides information about the <b>PERF_MULTI_COUNTERS</b> block that contains the structure. A <b>PERF_MULTI_COUNTERS</b> block indicates the performance counters for which results are provided as part of the <a href="https://msdn.microsoft.com/8C07E4BB-61CD-4A0F-8C23-86BE7DAA415F">PERF_COUNTER_HEADER</a> block in multiple-counter query. The <b>PERF_MULTI_COUNTERS</b> block consists of a <b>PERF_MULTI_COUNTERS</b> structure
+Provides information about the <b>PERF_MULTI_COUNTERS</b> block that contains the structure. A <b>PERF_MULTI_COUNTERS</b> block indicates the performance counters for which results are provided as part of the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_header">PERF_COUNTER_HEADER</a> block in multiple-counter query. The <b>PERF_MULTI_COUNTERS</b> block consists of a <b>PERF_MULTI_COUNTERS</b> structure
 followed by a sequence of <b>DWORD</b> values that specify performance counter identifiers.
 
 
@@ -72,8 +72,8 @@ The number of performance counter identifiers that the <b>PERF_MULTI_COUNTERS</b
 
 
 
-The <a href="https://msdn.microsoft.com/EBCF00E0-6C40-40E5-9F3D-9AE5F9AB74AC">PerfQueryCounterData</a> function gets a <a href="https://msdn.microsoft.com/0B30B30A-2B2D-43D8-B6DD-58C70D54EB58">PERF_DATA_HEADER</a> block that may
-contain a <b>PERF_MULTI_COUNTERS</b> block within the <a href="https://msdn.microsoft.com/8C07E4BB-61CD-4A0F-8C23-86BE7DAA415F">PERF_COUNTER_HEADER</a> block.
+The <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfquerycounterdata">PerfQueryCounterData</a> function gets a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_data_header">PERF_DATA_HEADER</a> block that may
+contain a <b>PERF_MULTI_COUNTERS</b> block within the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_header">PERF_COUNTER_HEADER</a> block.
 
 
 
@@ -83,15 +83,15 @@ contain a <b>PERF_MULTI_COUNTERS</b> block within the <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/8C07E4BB-61CD-4A0F-8C23-86BE7DAA415F">PERF_COUNTER_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_header">PERF_COUNTER_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/0B30B30A-2B2D-43D8-B6DD-58C70D54EB58">PERF_DATA_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_data_header">PERF_DATA_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/EBCF00E0-6C40-40E5-9F3D-9AE5F9AB74AC">PerfQueryCounterData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfquerycounterdata">PerfQueryCounterData</a>
  
 
  

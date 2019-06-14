@@ -84,7 +84,7 @@ The calculated data rate at the point at the time the  position was set.
 
 ### -field Flag
 
-A value of the <a href="https://msdn.microsoft.com/09edc9ae-923c-4f57-9479-c0331588dd92">AE_POSITION_FLAGS</a> enumeration that indicates the validity of the position information.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/ne-audioengineendpoint-ae_position_flags">AE_POSITION_FLAGS</a> enumeration that indicates the validity of the position information.
 
 
 ## -remarks
@@ -101,15 +101,15 @@ The Remote Desktop Services AudioEndpoint API is for use in Remote Desktop scena
 
 
 
-<a href="https://msdn.microsoft.com/f61497c8-35da-4fbf-af83-1f15d5fe94f7">IAudioEndpointRT::GetCurrentPadding</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointrt-getcurrentpadding">IAudioEndpointRT::GetCurrentPadding</a>
 
 
 
-<a href="https://msdn.microsoft.com/1da81a49-d421-4643-9be6-b13d45d678f0">IAudioInputEndpointRT::GetInputDataPointer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioinputendpointrt-getinputdatapointer">IAudioInputEndpointRT::GetInputDataPointer</a>
 
 
 
-<a href="https://msdn.microsoft.com/14d69520-3d0c-42ee-8986-9d83b5cff62e">IAudioOutputEndpointRT::GetOutputDataPointer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiooutputendpointrt-getoutputdatapointer">IAudioOutputEndpointRT::GetOutputDataPointer</a>
  
 
  

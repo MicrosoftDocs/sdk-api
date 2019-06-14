@@ -61,16 +61,16 @@ Retrieves a thumbnail representation of an <a href="https://docs.microsoft.com/e
 
 ### -param pMaxSize [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a> structure that specifies the maximum size of the bitmap, in pixels.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a> structure that specifies the maximum size of the bitmap, in pixels.
 
 
 ### -param pHTMLDoc2 [in]
 
-Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/en-us/dotnet/api/mshtml.ihtmldocument2?view=powershellsdk-1.1.0">IHTMLDocument2</a> interface's <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface.
+A pointer to an <a href="https://docs.microsoft.com/en-us/dotnet/api/mshtml.ihtmldocument2?view=powershellsdk-1.1.0">IHTMLDocument2</a> interface's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface.
 
 
 ### -param phbmThumbnail [out]
@@ -100,7 +100,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/fecf1f8f-ea76-4a3d-a6cf-faa3e400f5e4">IThumbnailCapture</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-ithumbnailcapture">IThumbnailCapture</a>
  
 
  

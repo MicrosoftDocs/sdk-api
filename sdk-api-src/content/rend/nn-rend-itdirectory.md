@@ -54,14 +54,14 @@ provides similar functionality.]
 
 The 
 <b>ITDirectory</b> interface is exposed by the Directory object, which corresponds to a particular directory. This interface provides methods that get and set directory information, and provide access to a particular directory object, such a conference or user. The 
-<a href="https://msdn.microsoft.com/b285f852-a017-4dcd-b32e-afb2296487a5">ITRendezvous::CreateDirectory</a> and 
-<a href="https://msdn.microsoft.com/db164275-92dc-4a25-ba19-fd26415624f1">IEnumDirectory::Next</a> methods create the 
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itrendezvous-createdirectory">ITRendezvous::CreateDirectory</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-ienumdirectory-next">IEnumDirectory::Next</a> methods create the 
 <b>ITDirectory</b> interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITDirectory</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITDirectory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITDirectory</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITDirectory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>ITDirectory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7a379bdc-50e3-4034-ac16-d20d1b03cd35">AddDirectoryObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectory-adddirectoryobject">AddDirectoryObject</a>
 </td>
 <td align="left" width="63%">
 Adds an object to the server.
@@ -85,7 +85,7 @@ Adds an object to the server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4bcf994c-3091-445e-ad79-91958e48960a">Bind</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectory-bind">Bind</a>
 </td>
 <td align="left" width="63%">
 Binds to the server.
@@ -94,7 +94,7 @@ Binds to the server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b781008b-430a-444e-a700-8cde09e721b4">Connect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectory-connect">Connect</a>
 </td>
 <td align="left" width="63%">
 Connects to the server.
@@ -103,7 +103,7 @@ Connects to the server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1d2bb052-6986-4407-8a37-3a74920bf78e">DeleteDirectoryObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectory-deletedirectoryobject">DeleteDirectoryObject</a>
 </td>
 <td align="left" width="63%">
 Deletes an object from the server.
@@ -112,7 +112,7 @@ Deletes an object from the server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f4d55d7c-54b4-44ee-b8f2-f4dd51bf823d">EnableAutoRefresh</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectory-enableautorefresh">EnableAutoRefresh</a>
 </td>
 <td align="left" width="63%">
 Enables the auto refresh for the objects created afterward.
@@ -121,7 +121,7 @@ Enables the auto refresh for the objects created afterward.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4d7e0fd5-b85b-41e0-9603-132243a9a265">EnumerateDirectoryObjects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectory-enumeratedirectoryobjects">EnumerateDirectoryObjects</a>
 </td>
 <td align="left" width="63%">
 Creates an enumeration of directory objects of a given type and name.
@@ -130,7 +130,7 @@ Creates an enumeration of directory objects of a given type and name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f0a24ad9-0020-4f62-a0f2-071b9d251f79">get_DefaultObjectTTL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectory-get_defaultobjectttl">get_DefaultObjectTTL</a>
 </td>
 <td align="left" width="63%">
 Gets the default 
@@ -140,7 +140,7 @@ Gets the default
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dd768103-4dfc-4be2-accf-38e33959102d">get_DirectoryObjects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectory-get_directoryobjects">get_DirectoryObjects</a>
 </td>
 <td align="left" width="63%">
 Gets all directory objects on the server with a specified type and name.
@@ -149,7 +149,7 @@ Gets all directory objects on the server with a specified type and name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3f0ca4c2-4ba9-4a6e-877b-36486086368f">get_DirectoryType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectory-get_directorytype">get_DirectoryType</a>
 </td>
 <td align="left" width="63%">
 Gets the type of the directory.
@@ -158,7 +158,7 @@ Gets the type of the directory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a564e501-089e-41fc-9e81-bd0c9e6f951d">get_DisplayName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectory-get_displayname">get_DisplayName</a>
 </td>
 <td align="left" width="63%">
 Gets the displayable name for the directory.
@@ -167,7 +167,7 @@ Gets the displayable name for the directory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4260ad95-d684-44e4-877f-fcdbe4fe0fd7">get_IsDynamic</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectory-get_isdynamic">get_IsDynamic</a>
 </td>
 <td align="left" width="63%">
 Gets an indicator of whether the object on the server needs to be refreshed.
@@ -176,7 +176,7 @@ Gets an indicator of whether the object on the server needs to be refreshed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/be53c186-c23c-4ff6-8060-f06555ab4548">ModifyDirectoryObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectory-modifydirectoryobject">ModifyDirectoryObject</a>
 </td>
 <td align="left" width="63%">
 Commits directory modifications to the server.
@@ -185,7 +185,7 @@ Commits directory modifications to the server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/aecadd26-648e-43ce-8331-ef4af24567ed">put_DefaultObjectTTL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectory-put_defaultobjectttl">put_DefaultObjectTTL</a>
 </td>
 <td align="left" width="63%">
 Sets the default TTL for the objects created.
@@ -194,7 +194,7 @@ Sets the default TTL for the objects created.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/85a94960-5d4e-4b23-a3ed-65743a60ee87">RefreshDirectoryObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectory-refreshdirectoryobject">RefreshDirectoryObject</a>
 </td>
 <td align="left" width="63%">
 Refreshes the TTL for an object on the server.
@@ -209,11 +209,11 @@ Refreshes the TTL for an object on the server.
 
 
 
-<a href="https://msdn.microsoft.com/f5ca1d61-5266-4406-8199-338e6a712db8">Directory Controls</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/directory-controls">Directory Controls</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

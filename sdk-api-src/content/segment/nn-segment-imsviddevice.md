@@ -57,7 +57,7 @@ The <b>IMSVidDevice</b> interface is the base interface for all the devices and 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidDevice</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IMSVidDevice</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidDevice</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMSVidDevice</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMSVidDevice</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694529(v=VS.85).aspx">get__Category</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsviddevice-get__category">get__Category</a>
 </td>
 <td align="left" width="63%">
 Retrieves the category of the device as a <b>GUID</b>.
@@ -81,7 +81,7 @@ Retrieves the category of the device as a <b>GUID</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694530(v=VS.85).aspx">get__ClassID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsviddevice-get__classid">get__ClassID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the class identifier (CLSID) of the device as a <b>GUID</b>.
@@ -90,7 +90,7 @@ Retrieves the class identifier (CLSID) of the device as a <b>GUID</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694524(v=VS.85).aspx">get_Category</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsviddevice-get_category">get_Category</a>
 </td>
 <td align="left" width="63%">
 Retrieves the category of the device as a <b>BSTR</b>.
@@ -99,7 +99,7 @@ Retrieves the category of the device as a <b>BSTR</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694525(v=VS.85).aspx">get_ClassID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsviddevice-get_classid">get_ClassID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the CLSID of the device as a <b>BSTR</b>.
@@ -108,7 +108,7 @@ Retrieves the CLSID of the device as a <b>BSTR</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694526(v=VS.85).aspx">get_Name</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsviddevice-get_name">get_Name</a>
 </td>
 <td align="left" width="63%">
 Retrieves the friendly name of the device.
@@ -117,7 +117,7 @@ Retrieves the friendly name of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694527(v=VS.85).aspx">get_Power</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsviddevice-get_power">get_Power</a>
 </td>
 <td align="left" width="63%">
 Retrieves the power status of the device.
@@ -126,7 +126,7 @@ Retrieves the power status of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694528(v=VS.85).aspx">get_Status</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsviddevice-get_status">get_Status</a>
 </td>
 <td align="left" width="63%">
 Retrieves status information about the device.
@@ -135,7 +135,7 @@ Retrieves status information about the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694531(v=VS.85).aspx">IsEqualDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsviddevice-isequaldevice">IsEqualDevice</a>
 </td>
 <td align="left" width="63%">
 Queries whether this device and another device represent the same underlying hardware
@@ -144,7 +144,7 @@ Queries whether this device and another device represent the same underlying har
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694532(v=VS.85).aspx">put_Power</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsviddevice-put_power">put_Power</a>
 </td>
 <td align="left" width="63%">
 Turns the device on or off.
@@ -168,11 +168,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf6c3ce9-1e56-4109-93f1-5b313e6ca19b">Video Control Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
  
 
  

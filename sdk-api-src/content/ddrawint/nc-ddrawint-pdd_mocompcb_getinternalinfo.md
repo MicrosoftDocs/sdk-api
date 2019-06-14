@@ -68,7 +68,7 @@ The <b>DdMoCompGetInternalInfo</b> callback function allows the driver to report
 
 #### - lpInternalData
 
-Points to a <a href="https://msdn.microsoft.com/5d8f722f-7574-485e-9ff2-568cd0ae23f7">DD_GETINTERNALMOCOMPDATA</a> structure that contains the internal memory requirements.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_getinternalmocompdata">DD_GETINTERNALMOCOMPDATA</a> structure that contains the internal memory requirements.
 
 
 ## -returns
@@ -96,7 +96,7 @@ This function allows the decoder and DirectShow to make better-informed decision
 
 
 
-<a href="https://msdn.microsoft.com/5d8f722f-7574-485e-9ff2-568cd0ae23f7">DD_GETINTERNALMOCOMPDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_getinternalmocompdata">DD_GETINTERNALMOCOMPDATA</a>
  
 
  

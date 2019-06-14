@@ -60,9 +60,9 @@ ms.custom: 19H1
 
 ### -param pCallback [in]
 
-Type: <b><a href="https://msdn.microsoft.com/45a32e14-9b8b-452e-a2eb-0f6773980f2f">UiaProviderCallback</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nc-uiautomationcoreapi-uiaprovidercallback">UiaProviderCallback</a>*</b>
 
-The address of the <a href="https://msdn.microsoft.com/45a32e14-9b8b-452e-a2eb-0f6773980f2f">UiaProviderCallback</a> callback function that returns the provider.
+The address of the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nc-uiautomationcoreapi-uiaprovidercallback">UiaProviderCallback</a> callback function that returns the provider.
 
 
 ## -returns

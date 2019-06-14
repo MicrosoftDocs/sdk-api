@@ -83,7 +83,7 @@ If the function fails, the return value is zero.
 
 The <b>SaveDC</b> function can be used any number of times to save any number of instances of the DC state.
 
-A saved state can be restored by using the <a href="https://msdn.microsoft.com/7043edbb-b3ea-4946-a2ba-cae356b04d1d">RestoreDC</a> function.
+A saved state can be restored by using the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-restoredc">RestoreDC</a> function.
 
 
 
@@ -93,15 +93,15 @@ A saved state can be restored by using the <a href="https://msdn.microsoft.com/7
 
 
 
-<a href="https://msdn.microsoft.com/9ff68d16-0f27-4cc8-932a-b2063cfed135">Device Context Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/1fa97368-8931-4687-b37f-ed4db949a150">Device Contexts Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/7043edbb-b3ea-4946-a2ba-cae356b04d1d">RestoreDC
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-restoredc">RestoreDC
       </a>
  
 

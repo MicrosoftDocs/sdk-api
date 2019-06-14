@@ -80,19 +80,19 @@ One or more full URLs that the embedded font object may be referenced from. Mult
 
 
 
-<a href="https://msdn.microsoft.com/32f1df87-b742-4b5a-8c61-07e758c7660b">TTEmbedFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttembedfont">TTEmbedFont</a>
 
 
 
-<a href="https://msdn.microsoft.com/2b052d83-0791-4fcb-ab94-7924c751b051">TTEmbedFontEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttembedfontex">TTEmbedFontEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/8bd742e7-e51c-468e-a963-4a90be21a815">TTEmbedFontFromFileA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttembedfontfromfilea">TTEmbedFontFromFileA</a>
 
 
 
-<a href="https://msdn.microsoft.com/85181d86-bc18-4948-bc7d-65c2d71efefb">TTLoadEmbeddedFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttloadembeddedfont">TTLoadEmbeddedFont</a>
  
 
  

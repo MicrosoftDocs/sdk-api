@@ -48,7 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-Initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee421399(v=VS.85).aspx">XMXDEC4</a> from a four element <code>float</code> array argument.
+Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdec4">XMXDEC4</a> from a four element <code>float</code> array argument.
 
 This constructor initializes a new instance of **XMXDEC4** from a four element <code>float</code> array argument.
 
@@ -92,6 +92,6 @@ instance.v =  ( (int32_t)_w1 << 30) |
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee421399(v=VS.85).aspx">XMXDEC4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdec4">XMXDEC4</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415539(v=VS.85).aspx">XMXDEC4 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmxdec4-ctor">XMXDEC4 Constructors</a>

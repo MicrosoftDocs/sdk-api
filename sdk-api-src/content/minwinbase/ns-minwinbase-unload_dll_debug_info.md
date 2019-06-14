@@ -67,7 +67,7 @@ A pointer to the base address of the DLL in the address space of the process unl
 
 
 
-<a href="https://msdn.microsoft.com/056aa7ee-51ca-48ec-9cd7-26085bb85b11">DEBUG_EVENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-debug_event">DEBUG_EVENT</a>
  
 
  

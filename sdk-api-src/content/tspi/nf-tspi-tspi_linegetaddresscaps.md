@@ -81,7 +81,7 @@ The version number of the service-provider specific extensions to be used. This 
 ### -param lpAddressCaps
 
 A pointer to a variably sized structure of type 
-<a href="https://msdn.microsoft.com/c1fe1aaf-2f50-4423-bacf-6a3cf218a809">LINEADDRESSCAPS</a>. Upon successful completion of the request, this structure is filled with address capabilities information.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps_tag">LINEADDRESSCAPS</a>. Upon successful completion of the request, this structure is filled with address capabilities information.
 
 
 ## -returns
@@ -100,14 +100,14 @@ LINEERR_INCOMPATIBLEAPIVERSION, LINEERR_NOMEM, LINEERR_INCOMPATIBLEEXTVERSION, L
 
 
 The line device identifiers supported by a particular driver are numbered sequentially starting with the value of <i>dwLineDeviceIDBase</i> that is passed into the 
-<a href="https://msdn.microsoft.com/6cb7817b-6df3-4a6a-a666-b41c2eb0b118">TSPI_providerInit</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providerinit">TSPI_providerInit</a> function.
 
 The service provider fills in all the members of the 
-<a href="https://msdn.microsoft.com/c1fe1aaf-2f50-4423-bacf-6a3cf218a809">LINEADDRESSCAPS</a> data structure, except for <b>dwTotalSize</b>, which is filled in by TAPI. The service provider must not overwrite the <b>dwTotalSize</b> member.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps_tag">LINEADDRESSCAPS</a> data structure, except for <b>dwTotalSize</b>, which is filled in by TAPI. The service provider must not overwrite the <b>dwTotalSize</b> member.
 
 After the service provider returns from the 
 <b>TSPI_lineGetAddressCaps</b> function, TAPI sets the <b>dwCallInfoStates</b> and <b>dwCallStates</b> members of the 
-<a href="https://msdn.microsoft.com/c1fe1aaf-2f50-4423-bacf-6a3cf218a809">LINEADDRESSCAPS</a> structure as follows:
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps_tag">LINEADDRESSCAPS</a> structure as follows:
 
 <pre class="syntax" xml:space="preserve"><code>LINEADDRESSCAPS.dwCallInfoStates |=
     LINECALLINFOSTATE_NUMOWNERINCR |
@@ -123,11 +123,11 @@ LINEADDRESSCAPS.dwCallStates |= LINECALLSTATE_UNKNOWN;</code></pre>
 
 
 
-<a href="https://msdn.microsoft.com/c1fe1aaf-2f50-4423-bacf-6a3cf218a809">LINEADDRESSCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps_tag">LINEADDRESSCAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/6cb7817b-6df3-4a6a-a666-b41c2eb0b118">TSPI_providerInit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providerinit">TSPI_providerInit</a>
  
 
  

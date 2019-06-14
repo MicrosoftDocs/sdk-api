@@ -47,7 +47,7 @@ ms.custom: 19H1
 
 ## -description
 
-Initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420216(v=VS.85).aspx">XMSHORTN4</a> from a four element <code>int16_t</code> array argument.
+Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshortn4">XMSHORTN4</a> from a four element <code>int16_t</code> array argument.
 
 This constructor initializes a new instance of **XMSHORTN4** from a four element <code>int16_t</code> array argument.
 
@@ -73,6 +73,6 @@ instance.w = pArray[3];
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420216(v=VS.85).aspx">XMSHORTN4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshortn4">XMSHORTN4</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415434(v=VS.85).aspx">XMSHORTN4 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmshortn4-ctor">XMSHORTN4 Constructors</a>

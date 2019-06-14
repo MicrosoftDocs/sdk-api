@@ -63,14 +63,14 @@ Sets or retrieves Shell state settings.
 
 Type: <b>LPSHELLSTATE</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/a5ba0e9f-d164-4fe6-97ab-34d61289ce1c">SHELLSTATE</a> structure that provides or receives the Shell state settings.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-shellstatea">SHELLSTATE</a> structure that provides or receives the Shell state settings.
 
 
 ### -param dwMask [in]
 
 Type: <b>DWORD</b>
 
-One or more of the <a href="https://msdn.microsoft.com/2a883110-fdc3-4451-9e47-e58894600e3b">SSF</a> flags that indicate which settings should be set or retrieved.
+One or more of the <a href="https://docs.microsoft.com/windows/desktop/shell/ssf-constants">SSF</a> flags that indicate which settings should be set or retrieved.
 
 
 ### -param bSet [in]
@@ -94,7 +94,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/728a4004-f35d-4592-baf1-456a613a3344">SHGetSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsettings">SHGetSettings</a>
  
 
  

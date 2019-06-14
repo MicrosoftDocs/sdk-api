@@ -63,7 +63,7 @@ The <code>GetCurrentVideoAttributes</code> method retrieves the video attributes
 
 ### -param pATR [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/b395a322-d63e-41a0-b97a-88f99aeba0e5">DVD_VideoAttributes</a> structure that receives the attributes.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_videoattributes">DVD_VideoAttributes</a> structure that receives the attributes.
 
 
 ## -returns
@@ -106,7 +106,7 @@ Invalid argument.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/3b2c01a2-d52c-4497-8fc9-d1113e8507e8">DVD Navigator</a> is not initialized.
+The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> is not initialized.
 
 </td>
 </tr>
@@ -130,15 +130,15 @@ The use of this method is demonstrated in the DVDSample application in <b>CDvdCo
 
 
 
-<a href="https://msdn.microsoft.com/6f41e0f1-e550-4ca6-9a80-ce4d498289e2">DVD Applications</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/da30d3dc-feec-4f54-b2db-a771ce404286">IDvdInfo2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
  
 
  

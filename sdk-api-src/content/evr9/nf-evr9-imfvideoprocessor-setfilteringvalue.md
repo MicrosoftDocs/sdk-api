@@ -63,12 +63,12 @@ Sets a parameter for an image filter.
 
 ### -param dwProperty [in]
 
-The image filtering parameter to set. For a list of possible values, see <a href="https://msdn.microsoft.com/6514992e-8188-4d28-879c-547e9b340b28">DXVA Image Filter Settings</a>.
+The image filtering parameter to set. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-image-filter-settings">DXVA Image Filter Settings</a>.
 
 
 ### -param pValue [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/5f8f4515-1cf4-4060-813b-c746649c5c40">DXVA2_Fixed32</a> structure that specifies the new value. To get the valid range of values for each parameter, call <a href="https://msdn.microsoft.com/1e5f1635-51fe-4394-8a25-dcee3f55c711">IMFVideoProcessor::GetFilteringRange</a>.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_fixed32">DXVA2_Fixed32</a> structure that specifies the new value. To get the valid range of values for each parameter, call <a href="https://docs.microsoft.com/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getfilteringrange">IMFVideoProcessor::GetFilteringRange</a>.
 
 
 ## -returns
@@ -125,9 +125,9 @@ The media type for the reference stream is not set.
 
 
 
-Before calling this method, set the video processor mode. To select a video processor mode, call <a href="https://msdn.microsoft.com/4b353576-c8ee-4f73-9ee6-ba4545a6f4fc">IMFVideoProcessor::SetVideoProcessorMode</a>. Otherwise, the EVR automatically selects a mode when streaming begins.
+Before calling this method, set the video processor mode. To select a video processor mode, call <a href="https://docs.microsoft.com/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-setvideoprocessormode">IMFVideoProcessor::SetVideoProcessorMode</a>. Otherwise, the EVR automatically selects a mode when streaming begins.
 
-To find out which image filters the driver supports, call <a href="https://msdn.microsoft.com/9a02aed2-8225-4416-ae54-7ed51c67a149">IMFVideoProcessor::GetVideoProcessorCaps</a>.
+To find out which image filters the driver supports, call <a href="https://docs.microsoft.com/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getvideoprocessorcaps">IMFVideoProcessor::GetVideoProcessorCaps</a>.
 
 
 
@@ -137,11 +137,11 @@ To find out which image filters the driver supports, call <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/1c985558-d25d-4f51-978a-58c05943dab9">Enhanced Video Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://msdn.microsoft.com/0a63c4f8-eb32-4f0c-b69b-0c16243f2f21">IMFVideoProcessor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evr9/nn-evr9-imfvideoprocessor">IMFVideoProcessor</a>
  
 
  

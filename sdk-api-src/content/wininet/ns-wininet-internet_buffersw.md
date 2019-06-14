@@ -117,7 +117,7 @@ Reserved; do not use.
 
 
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
@@ -127,11 +127,11 @@ Reserved; do not use.
 
 
 
-<a href="https://msdn.microsoft.com/3362fcd2-e8df-4886-9525-bf60589b2c1f">HttpSendRequestEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpsendrequestexa">HttpSendRequestEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/04e7bb7e-d925-41fd-8333-3cb443a04c5b">InternetReadFileEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetreadfileexa">InternetReadFileEx</a>
  
 
  

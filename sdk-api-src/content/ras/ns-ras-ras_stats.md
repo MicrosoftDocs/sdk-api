@@ -151,27 +151,27 @@ The amount of time, in milliseconds, that the connection or link has been connec
 
 
 
-<a href="https://msdn.microsoft.com/b5c87ecd-4f21-46b5-91a3-41706907157a">RasClearConnectionStatistics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasclearconnectionstatistics">RasClearConnectionStatistics</a>
 
 
 
-<a href="https://msdn.microsoft.com/cac356a9-092c-4db2-b0a4-aaacfc514e29">RasClearLinkStatistics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasclearlinkstatistics">RasClearLinkStatistics</a>
 
 
 
-<a href="https://msdn.microsoft.com/2db03535-c2bd-4e04-a86f-e68fe5c1f805">RasGetConnectionStatistics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetconnectionstatistics">RasGetConnectionStatistics</a>
 
 
 
-<a href="https://msdn.microsoft.com/825a80c9-8023-4b7f-a303-f1eaa650e1d8">RasGetLinkStatistics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetlinkstatistics">RasGetLinkStatistics</a>
 
 
 
-<a href="https://msdn.microsoft.com/5016fa0b-72eb-484e-b8d7-af9de2e25689">Remote Access Service (RAS) Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/c20e8892-7c5e-48cc-939a-9b747fefe09d">Remote Access Service Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-structures">Remote Access Service Structures</a>
  
 
  

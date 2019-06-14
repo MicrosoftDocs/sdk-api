@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IADsServiceOperations::Continue</b> method resumes a service operation paused by the  <a href="https://msdn.microsoft.com/119ad6df-551c-48f9-8ad4-0ab18f5d939c">IADsServiceOperations::Pause</a> method.
+The <b>IADsServiceOperations::Continue</b> method resumes a service operation paused by the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsserviceoperations-pause">IADsServiceOperations::Pause</a> method.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The <b>IADsServiceOperations::Continue</b> method resumes a service operation pa
 
 
 
-This method supports the standard return values, including S_OK. For more information about other return values, see  <a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>.
+This method supports the standard return values, including S_OK. For more information about other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 
 
@@ -73,15 +73,15 @@ This method supports the standard return values, including S_OK. For more inform
 
 
 
-<a href="https://msdn.microsoft.com/b59a6594-1109-4913-8a83-4888e56e71d0">IADsService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsservice">IADsService</a>
 
 
 
-<a href="https://msdn.microsoft.com/f2459ca2-8a14-4343-bec6-ef3775dbf415">IADsServiceOperations</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsserviceoperations">IADsServiceOperations</a>
 
 
 
-<a href="https://msdn.microsoft.com/119ad6df-551c-48f9-8ad4-0ab18f5d939c">IADsServiceOperations::Pause</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsserviceoperations-pause">IADsServiceOperations::Pause</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CertEnumCTLContextProperties</b> function retrieves the first or next extended property associated with a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate trust list</a> (CTL) context. Used in a loop, this function can retrieve in sequence all extended properties associated with a CTL context.
+The <b>CertEnumCTLContextProperties</b> function retrieves the first or next extended property associated with a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) context. Used in a loop, this function can retrieve in sequence all extended properties associated with a CTL context.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>CertEnumCTLContextProperties</b> function retrieves the first or next ext
 ### -param pCtlContext [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/780edddf-1b44-4292-9156-4dfd5100adb8">CTL_CONTEXT</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">CTL_CONTEXT</a> structure.
 
 
 ### -param dwPropId [in]
@@ -71,7 +71,7 @@ Property number of the last property enumerated. To get the first property, <i>d
 
 
 Applications can call 
-<a href="https://msdn.microsoft.com/16e45fe1-2710-4fa1-82da-c298645d7379">CertGetCTLContextProperty</a> with the <i>dwPropId</i> returned by this function to retrieved that property's data.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetctlcontextproperty">CertGetCTLContextProperty</a> with the <i>dwPropId</i> returned by this function to retrieved that property's data.
 
 
 ## -returns
@@ -88,11 +88,11 @@ The return value is a <b>DWORD</b> value that identifies a CTL context's propert
 
 
 
-<a href="https://msdn.microsoft.com/16e45fe1-2710-4fa1-82da-c298645d7379">CertGetCTLContextProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetctlcontextproperty">CertGetCTLContextProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Extended Property Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Extended Property Functions</a>
  
 
  

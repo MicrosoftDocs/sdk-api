@@ -74,10 +74,10 @@ Number of UTF-16 units of the reported range.
 
 ### -param glyphOrientationAngle
 
-Type: <b><a href="https://msdn.microsoft.com/BD9D0C11-B286-4E4A-B641-1DB9F75803B0">DWRITE_GLYPH_ORIENTATION_ANGLE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ne-dwrite_1-dwrite_glyph_orientation_angle">DWRITE_GLYPH_ORIENTATION_ANGLE</a></b>
 
-A <a href="https://msdn.microsoft.com/BD9D0C11-B286-4E4A-B641-1DB9F75803B0">DWRITE_GLYPH_ORIENTATION_ANGLE</a>-typed value that specifies the angle of the glyphs within the text
-    range (pass to <a href="https://msdn.microsoft.com/583AFE54-F816-4098-844B-C3F838BE46B0">IDWriteTextAnalyzer1::GetGlyphOrientationTransform</a> to get the world
+A <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ne-dwrite_1-dwrite_glyph_orientation_angle">DWRITE_GLYPH_ORIENTATION_ANGLE</a>-typed value that specifies the angle of the glyphs within the text
+    range (pass to <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-getglyphorientationtransform">IDWriteTextAnalyzer1::GetGlyphOrientationTransform</a> to get the world
     relative transform).
 
 
@@ -126,7 +126,7 @@ Returns a successful code or an error code to abort analysis.
 
 
 
-<a href="https://msdn.microsoft.com/46882D89-CD59-4C4F-A8BD-1ABC8B8C5C4B">IDWriteTextAnalysisSink1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritetextanalysissink1">IDWriteTextAnalysisSink1</a>
  
 
  

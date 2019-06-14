@@ -69,7 +69,7 @@ The <b>IESRequestTunerEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/39588da7-90e7-4544-b53c-0f0ddb6cd951">GetConsequences</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iesrequesttunerevent-getconsequences">GetConsequences</a>
 </td>
 <td align="left" width="63%">
 Gets a code that indicates consquences of a device request for exclusive access to a tuner and its CAS.
@@ -78,7 +78,7 @@ Gets a code that indicates consquences of a device request for exclusive access 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9968c1b1-5a4d-45a1-a083-afdbcc616f6d">GetEstimatedTime</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iesrequesttunerevent-getestimatedtime">GetEstimatedTime</a>
 </td>
 <td align="left" width="63%">
 Gets the amount of time a device estimates it  needs exclusive access to a tuner and its CAS.
@@ -88,7 +88,7 @@ Gets the amount of time a device estimates it  needs exclusive access to a tuner
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a0edc656-0628-4020-bf8e-a5cd0bedd7c3">GetPriority</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iesrequesttunerevent-getpriority">GetPriority</a>
 </td>
 <td align="left" width="63%">
 Gets a code that indicates the the priority of a device request for exclusive access to a tuner and its Conditional Access Services (CAS).
@@ -98,7 +98,7 @@ Gets a code that indicates the the priority of a device request for exclusive ac
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ff8b9080-0299-4ba9-a49d-9ef142e91eb8">GetReason</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iesrequesttunerevent-getreason">GetReason</a>
 </td>
 <td align="left" width="63%">
 Gets a code that indicates the reason a device is requesting exclusive access to a tuner and its CAS.

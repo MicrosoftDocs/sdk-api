@@ -121,11 +121,11 @@ The <b>RemoveStream</b> method also removes the stream from any mutual exclusion
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798569(v=VS.85).aspx">IWMStreamList Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamlist">IWMStreamList Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798570(v=VS.85).aspx">IWMStreamList::AddStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamlist-addstream">IWMStreamList::AddStream</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Contains identification information for a file. This structure is returned from the 
-    <a href="https://msdn.microsoft.com/e261ea45-d084-490e-94b4-129bd76f6a04">GetFileInformationByHandleEx</a> function when 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a> function when 
     <b>FileIdExtdDirectoryInfo</b> (0x13) or <b>FileIdExtdDirectoryRestartInfo</b> (0x14) 
     is passed in the <i>FileInformationClass</i> parameter.
 
@@ -313,7 +313,7 @@ If the <b>FileAttributes</b> member includes the
 
 Otherwise, this value is undefined and should not be used.
 
-For more information see <a href="https://msdn.microsoft.com/d02a2f50-d374-4149-bc04-49b7db052f62">Reparse Point Tags</a>.
+For more information see <a href="https://docs.microsoft.com/windows/desktop/FileIO/reparse-point-tags">Reparse Point Tags</a>.
 
 
 
@@ -376,19 +376,19 @@ The first character of the file name string. This is followed in memory by the r
 
 
 
-<a href="https://msdn.microsoft.com/254ea6a9-e1dd-4b97-91f7-2693065c4bb8">FILE_ID_128</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_file_id_128">FILE_ID_128</a>
 
 
 
-<a href="https://msdn.microsoft.com/8f02e824-ca41-48c1-a5e8-5b12d81886b5">FILE_INFO_BY_HANDLE_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ne-minwinbase-file_info_by_handle_class">FILE_INFO_BY_HANDLE_CLASS</a>
 
 
 
-<a href="https://msdn.microsoft.com/406d5c0f-b49a-4075-ac3e-c5b55a0c3fe9">File Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-structures">File Management Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/e261ea45-d084-490e-94b4-129bd76f6a04">GetFileInformationByHandleEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>
  
 
  

@@ -69,7 +69,7 @@ The count of <i>taskIds</i> and <i>taskNames</i> entries.
 
 ### -param taskIds [out]
 
-An array of background task identifiers. You can use these identifiers in the <a href="https://msdn.microsoft.com/30ef83f0-cad1-4aee-9b70-0fe7189aff9e">ActivateBackgroundTask</a> method to activate specified tasks.
+An array of background task identifiers. You can use these identifiers in the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-activatebackgroundtask">ActivateBackgroundTask</a> method to activate specified tasks.
 
 
 ### -param taskNames [out]
@@ -100,7 +100,7 @@ Both parameters <i>taskIds</i> and <i>taskNames</i> have the same ordering of ta
 
 
 
-<a href="https://msdn.microsoft.com/e407c4ca-0de1-4b17-bb83-5c4128952d48">IPackageDebugSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipackagedebugsettings">IPackageDebugSettings</a>
  
 
  

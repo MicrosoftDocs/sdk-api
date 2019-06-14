@@ -89,7 +89,7 @@ If the function succeeds, the return value is 1. If the function fails, the retu
 
 
 
-When using the SYSRGN flag, note that the system clipping region might not be current because of window movements. Nonetheless, it is safe to retrieve and use the system clipping region within the <a href="https://msdn.microsoft.com/513341d7-bed8-469c-a067-ee71dc8860f9">BeginPaint</a>-<a href="https://msdn.microsoft.com/b07cfed9-21c4-4459-855a-eaf4d1d34ab8">EndPaint</a> block during <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> processing. In this case, the system region is the intersection of the update region and the current visible area of the window. Any window movement following the return of <b>GetRandomRgn</b> and before <b>EndPaint</b> will result in a new <b>WM_PAINT</b> message. Any other use of the SYSRGN flag may result in painting errors in your application.
+When using the SYSRGN flag, note that the system clipping region might not be current because of window movements. Nonetheless, it is safe to retrieve and use the system clipping region within the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a>-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-endpaint">EndPaint</a> block during <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a> processing. In this case, the system region is the intersection of the update region and the current visible area of the window. Any window movement following the return of <b>GetRandomRgn</b> and before <b>EndPaint</b> will result in a new <b>WM_PAINT</b> message. Any other use of the SYSRGN flag may result in painting errors in your application.
 
 The region returned is in screen coordinates.
 
@@ -101,39 +101,39 @@ The region returned is in screen coordinates.
 
 
 
-<a href="https://msdn.microsoft.com/513341d7-bed8-469c-a067-ee71dc8860f9">BeginPaint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a>
 
 
 
-<a href="https://msdn.microsoft.com/de9e5786-63d8-47be-8522-e96d7c0f8634">Clipping Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/clipping-functions">Clipping Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e966369-9988-4bfa-af37-b1bbb3488880">Clipping Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/clipping">Clipping Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/b07cfed9-21c4-4459-855a-eaf4d1d34ab8">EndPaint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-endpaint">EndPaint</a>
 
 
 
-<a href="https://msdn.microsoft.com/d222defe-2ef9-4622-b2e1-462a91cb1b0a">ExtSelectClipRgn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extselectcliprgn">ExtSelectClipRgn</a>
 
 
 
-<a href="https://msdn.microsoft.com/b4ee68ab-b99e-48b6-90ce-6d6c0ae144e2">GetClipBox</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getclipbox">GetClipBox</a>
 
 
 
-<a href="https://msdn.microsoft.com/66c807b8-129f-40f2-b8d8-995e0a5e22e4">GetClipRgn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcliprgn">GetClipRgn</a>
 
 
 
-<a href="https://msdn.microsoft.com/e0d4862d-a405-4c00-b7b0-af4dd60407c0">GetRegionData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getregiondata">GetRegionData</a>
 
 
 
-<a href="https://msdn.microsoft.com/5228c614-3278-4852-a867-7eed57359aef">OffsetRgn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-offsetrgn">OffsetRgn</a>
  
 
  

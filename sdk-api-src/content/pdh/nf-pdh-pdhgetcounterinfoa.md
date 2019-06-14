@@ -63,7 +63,7 @@ Retrieves information about a counter, such as data size, counter type, path, an
 ### -param hCounter [in]
 
 Handle of the counter from which you want to retrieve information. The 
-<a href="https://msdn.microsoft.com/b8b9a332-ce28-46d4-92e2-91f9f6c24da5">PdhAddCounter</a> function returns this handle.
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhaddcountera">PdhAddCounter</a> function returns this handle.
 
 
 ### -param bRetrieveExplainText [in]
@@ -79,7 +79,7 @@ Size of the <i>lpBuffer</i> buffer, in bytes. If zero on input, the function ret
 ### -param lpBuffer [out]
 
 Caller-allocated buffer that receives a 
-<a href="https://msdn.microsoft.com/c9ede50e-85de-4a68-b539-54285c2599cb">PDH_COUNTER_INFO</a> structure. The structure is variable-length, because the string data is appended to the end of the fixed-format portion of the structure. This is done so that all data is returned in a single buffer allocated by the caller. Set to <b>NULL</b> if <i>pdwBufferSize</i> is zero.
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_counter_info_a">PDH_COUNTER_INFO</a> structure. The structure is variable-length, because the string data is appended to the end of the fixed-format portion of the structure. This is done so that all data is returned in a single buffer allocated by the caller. Set to <b>NULL</b> if <i>pdwBufferSize</i> is zero.
 
 
 ## -returns
@@ -90,8 +90,8 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> or a 
-<a href="https://msdn.microsoft.com/ea67d798-81db-44ad-b0fb-24e0c3be7388">PDH error code</a>. The following are possible values.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
 
 <table>
 <tr>
@@ -151,7 +151,7 @@ You should call this function twice, the first time to get the required buffer s
 
 
 
-<a href="https://msdn.microsoft.com/c9ede50e-85de-4a68-b539-54285c2599cb">PDH_COUNTER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_counter_info_a">PDH_COUNTER_INFO</a>
  
 
  

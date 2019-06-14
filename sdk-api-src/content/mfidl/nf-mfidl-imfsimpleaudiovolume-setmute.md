@@ -120,7 +120,7 @@ The audio renderer was removed from the pipeline.
 
 
 
-This method does not change the volume level returned by the <a href="https://msdn.microsoft.com/03ce097e-c4e5-4dac-84c0-b569efc420bc">IMFSimpleAudioVolume::GetMasterVolume</a> function.
+This method does not change the volume level returned by the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsimpleaudiovolume-getmastervolume">IMFSimpleAudioVolume::GetMasterVolume</a> function.
 
 
 
@@ -130,11 +130,11 @@ This method does not change the volume level returned by the <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/002d85a7-8bc3-422e-8ced-1907ac121d7b">IMFSimpleAudioVolume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsimpleaudiovolume">IMFSimpleAudioVolume</a>
 
 
 
-<a href="https://msdn.microsoft.com/5884a128-597d-432b-a706-e10c894d7965">Streaming Audio Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/streaming-audio-renderer">Streaming Audio Renderer</a>
  
 
  

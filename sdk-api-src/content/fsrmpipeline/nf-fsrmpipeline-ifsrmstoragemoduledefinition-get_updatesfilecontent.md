@@ -64,7 +64,7 @@ This property is read/write.
 
 
 Setting this property to <b>VARIANT_TRUE</b> does not require that the 
-    <a href="https://msdn.microsoft.com/4c4aaacf-d121-412c-9152-5787f351c19c">IFsrmStorageModuleDefinition::StorageType</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmstoragemoduledefinition-get_storagetype">IFsrmStorageModuleDefinition::StorageType</a> 
     property to be set to <b>FsrmStorageModuleType_InFile</b>. For example, you can set this 
     property to <b>VARIANT_TRUE</b> if you need to update the file to let another process know that 
     you have processed the file.
@@ -77,7 +77,7 @@ Setting this property to <b>VARIANT_TRUE</b> does not require that the
 
 
 
-<a href="https://msdn.microsoft.com/68ecb5e6-61b0-488f-b6bb-181f253de70e">IFsrmStorageModuleDefinition</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmstoragemoduledefinition">IFsrmStorageModuleDefinition</a>
  
 
  

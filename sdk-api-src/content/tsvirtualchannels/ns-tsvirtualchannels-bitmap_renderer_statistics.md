@@ -72,7 +72,7 @@ The number of frames dropped.
 
 
 
-<a href="https://msdn.microsoft.com/9BC4C091-053E-4E94-BF65-91AEB03C355F">GetRendererStatistics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsbitmaprenderer-getrendererstatistics">GetRendererStatistics</a>
  
 
  

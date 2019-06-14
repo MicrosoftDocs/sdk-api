@@ -54,7 +54,7 @@ Describes a rounded rectangle.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1RoundedRectangleGeometry</b> interface inherits from <a href="https://msdn.microsoft.com/be4ab801-64f6-48f9-8f62-d0492cc438b1">ID2D1Geometry</a>. <b>ID2D1RoundedRectangleGeometry</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1RoundedRectangleGeometry</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>. <b>ID2D1RoundedRectangleGeometry</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1RoundedRectangleGeometry</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6f9abc57-bb0b-4e90-8478-eef05456f9d8">GetRoundedRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1roundedrectanglegeometry-getroundedrect">GetRoundedRect</a>
 </td>
 <td align="left" width="63%">
 Retrieves a rounded rectangle that describes this rounded rectangle geometry.
@@ -84,9 +84,9 @@ Retrieves a rounded rectangle that describes this rounded rectangle geometry.
 
 
 <h3><a id="Creating_ID2D1RoundedRectangleGeometry_Objects"></a><a id="creating_id2d1roundedrectanglegeometry_objects"></a><a id="CREATING_ID2D1ROUNDEDRECTANGLEGEOMETRY_OBJECTS"></a>Creating ID2D1RoundedRectangleGeometry Objects</h3>
-To create a rectangle geometry, use the <a href="https://msdn.microsoft.com/en-us/library/Dd742728(v=VS.85).aspx">ID2D1Factory::CreateRoundedRectangleGeometry</a> method.
+To create a rectangle geometry, use the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createroundedrectanglegeometry">ID2D1Factory::CreateRoundedRectangleGeometry</a> method.
 
-Direct2D geometries are immutable and device-independent resources created by <a href="https://msdn.microsoft.com/cef6115c-98e8-49e6-b419-271b43ce2938">ID2D1Factory</a>.  In general, you should create geometries once and retain them for the life of the application, or until they need to be modified. For more information about device-independent and device-dependent resources, see  the <a href="https://msdn.microsoft.com/afd308a7-9524-4436-9a0e-8575383d96fa">Resources Overview</a>. 
+Direct2D geometries are immutable and device-independent resources created by <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>.  In general, you should create geometries once and retain them for the life of the application, or until they need to be modified. For more information about device-independent and device-dependent resources, see  the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/resources-and-resource-domains">Resources Overview</a>. 
 
 
 
@@ -96,7 +96,7 @@ Direct2D geometries are immutable and device-independent resources created by <a
 
 
 
-<a href="https://msdn.microsoft.com/be4ab801-64f6-48f9-8f62-d0492cc438b1">ID2D1Geometry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>
  
 
  

@@ -59,23 +59,23 @@ Describes the blend state for a Direct3D 10.1 device.
 
 ### -field AlphaToCoverageEnable
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
-Determines whether or not to use the <a href="https://msdn.microsoft.com/en-us/library/Bb205072(v=VS.85).aspx">alpha-to-coverage</a>multisampling technique when setting a render-target pixel.
+Determines whether or not to use the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-blend-state">alpha-to-coverage</a>multisampling technique when setting a render-target pixel.
 
 
 ### -field IndependentBlendEnable
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Set to <b>TRUE</b> to enable independent blending in simultaneous render targets. If set to <b>FALSE</b>, only the RenderTarget[0] members are used. RenderTarget[1..7] are ignored.
 
 
 ### -field RenderTarget
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb694533(v=VS.85).aspx">D3D10_RENDER_TARGET_BLEND_DESC1</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1/ns-d3d10_1-d3d10_render_target_blend_desc1">D3D10_RENDER_TARGET_BLEND_DESC1</a></b>
 
-An array of render-target-blend descriptions (see <a href="https://msdn.microsoft.com/en-us/library/Bb694533(v=VS.85).aspx">D3D10_RENDER_TARGET_BLEND_DESC1</a>); these correspond to the eight rendertargets 
+An array of render-target-blend descriptions (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1/ns-d3d10_1-d3d10_render_target_blend_desc1">D3D10_RENDER_TARGET_BLEND_DESC1</a>); these correspond to the eight rendertargets 
         that can be set to the output-merger stage at one time.
 
 
@@ -83,7 +83,7 @@ An array of render-target-blend descriptions (see <a href="https://msdn.microsof
 
 
 
-To see how blending is done, see <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">Output-Merger Stage (Direct3D 10)</a>.
+To see how blending is done, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage">Output-Merger Stage (Direct3D 10)</a>.
 
 These are the default values for the blend description.
 
@@ -137,7 +137,7 @@ These are the default values for the blend description.
 
 This structure requires Windows Vista Service Pack 1.
 
-If the driver type is set to <a href="https://msdn.microsoft.com/ceeec7d6-4bdc-488c-80a8-6c5e11986d6a">D3D_DRIVER_TYPE_HARDWARE</a>, the feature level is set to less than or equal to <a href="https://msdn.microsoft.com/afbc1a02-1730-4502-af15-b668412d664c">D3D_FEATURE_LEVEL_9_3</a>, and the pixel format of the render target is set to <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT_R8G8B8A8_UNORM_SRGB</a>, <b>DXGI_FORMAT_B8G8R8A8_UNORM_SRGB</b>, or <b>DXGI_FORMAT_B8G8R8X8_UNORM_SRGB</b>, the device performs the blend in standard RGB (sRGB) space and not in linear space. However, if the feature level is set to greater than <b>D3D_FEATURE_LEVEL_9_3</b>, the device performs the blend in linear space.
+If the driver type is set to <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_driver_type">D3D_DRIVER_TYPE_HARDWARE</a>, the feature level is set to less than or equal to <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_feature_level">D3D_FEATURE_LEVEL_9_3</a>, and the pixel format of the render target is set to <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT_R8G8B8A8_UNORM_SRGB</a>, <b>DXGI_FORMAT_B8G8R8A8_UNORM_SRGB</b>, or <b>DXGI_FORMAT_B8G8R8X8_UNORM_SRGB</b>, the device performs the blend in standard RGB (sRGB) space and not in linear space. However, if the feature level is set to greater than <b>D3D_FEATURE_LEVEL_9_3</b>, the device performs the blend in linear space.
 
 
 
@@ -147,7 +147,7 @@ If the driver type is set to <a href="https://msdn.microsoft.com/ceeec7d6-4bdc-4
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205153(v=VS.85).aspx">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-structures">Core Structures</a>
  
 
  

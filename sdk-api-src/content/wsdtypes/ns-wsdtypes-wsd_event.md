@@ -74,17 +74,17 @@ Pointer to the protocol string when dispatch by tags is required.
 
 ### -field HandlerContext
 
-Reference to a <a href="https://msdn.microsoft.com/d7b69627-5847-47ec-8ada-2df9b427e870">WSD_HANDLER_CONTEXT</a> structure that specifies the handler context.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_handler_context">WSD_HANDLER_CONTEXT</a> structure that specifies the handler context.
 
 
 ### -field Soap
 
-Reference to a <a href="https://msdn.microsoft.com/e5352a78-3ece-45d3-bf95-2d922065e3d5">WSD_SOAP_MESSAGE</a> structure that describes the event.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_soap_message">WSD_SOAP_MESSAGE</a> structure that describes the event.
 
 
 ### -field Operation
 
-Reference to a <a href="https://msdn.microsoft.com/fcd4895d-5357-4b73-90b9-e506e3d7f16e">WSD_OPERATION</a> structure that specifies the operation performed.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_operation">WSD_OPERATION</a> structure that specifies the operation performed.
 
 
 ### -field MessageParameters

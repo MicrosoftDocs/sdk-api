@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Specifies where to attach the new <a href="https://msdn.microsoft.com/61191ab3-075e-458b-9e0f-4bc255687b3c">InkOverlay</a> object, behind or in front of the active layer.
+Specifies where to attach the new <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object, behind or in front of the active layer.
 
 
 
@@ -62,14 +62,14 @@ Specifies where to attach the new <a href="https://msdn.microsoft.com/61191ab3-0
 
 ### -field IOAM_Behind
 
-The new <a href="https://msdn.microsoft.com/61191ab3-075e-458b-9e0f-4bc255687b3c">InkOverlay</a> object is attached behind the active window.
+The new <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object is attached behind the active window.
 
 This is the default value.
 
 
 ### -field IOAM_InFront
 
-The new <a href="https://msdn.microsoft.com/61191ab3-075e-458b-9e0f-4bc255687b3c">InkOverlay</a> object is attached in front of the active window.
+The new <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object is attached in front of the active window.
 
 
 ## -see-also
@@ -77,11 +77,11 @@ The new <a href="https://msdn.microsoft.com/61191ab3-075e-458b-9e0f-4bc255687b3c
 
 
 
-<a href="https://msdn.microsoft.com/638da0e4-10cc-47e7-91ad-807be3ff8c2d">AttachMode Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_attachmode">AttachMode Property</a>
 
 
 
-<a href="https://msdn.microsoft.com/61191ab3-075e-458b-9e0f-4bc255687b3c">InkOverlay Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
  
 
  

@@ -65,14 +65,14 @@ The
 ### -param arg1 [in]
 
 A handle to the RAS connection that receives the notifications. This can be a handle returned by the 
-<a href="https://msdn.microsoft.com/579a9038-8216-4948-a065-fd45b97da73a">RasDial</a> or 
-<a href="https://msdn.microsoft.com/b581cfbf-a55e-4f56-89cd-168aa23af550">RasEnumConnections</a> function. If this parameter is <b>INVALID_HANDLE_VALUE</b>, notifications are received for all RAS connections on the local client.
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasenumconnectionsa">RasEnumConnections</a> function. If this parameter is <b>INVALID_HANDLE_VALUE</b>, notifications are received for all RAS connections on the local client.
 
 
 ### -param arg2 [in]
 
 Specifies the handle of an event object. Use the 
-<a href="https://msdn.microsoft.com/en-us/library/ms682396(v=VS.85).aspx">CreateEvent</a> function to create an event object.
+<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> function to create an event object.
 
 
 ### -param arg3 [in]
@@ -136,7 +136,7 @@ If <i>hrasconn</i> is <b>INVALID_HANDLE_VALUE</b>, <i>hEvent</i> is signaled whe
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is a non-zero error code from <a href="https://msdn.microsoft.com/1fa41438-7c93-4e9c-851c-652fba23da4f">Routing and Remote Access Error Codes</a> or Winerror.h.
+If the function fails, the return value is a non-zero error code from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 
 
@@ -146,10 +146,10 @@ If the function fails, the return value is a non-zero error code from <a href="h
 
 
 To determine when the event object is signaled, use any of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms687069(v=VS.85).aspx">wait functions</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">wait functions</a>.
 
 When the event is signaled, use other RAS functions, such as 
-<a href="https://msdn.microsoft.com/b581cfbf-a55e-4f56-89cd-168aa23af550">RasEnumConnections</a>, to get more information about the RAS connection that was created or terminated.
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasenumconnectionsa">RasEnumConnections</a>, to get more information about the RAS connection that was created or terminated.
 
 
 
@@ -159,19 +159,19 @@ When the event is signaled, use other RAS functions, such as
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms682396(v=VS.85).aspx">CreateEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/b581cfbf-a55e-4f56-89cd-168aa23af550">RasEnumConnections</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasenumconnectionsa">RasEnumConnections</a>
 
 
 
-<a href="https://msdn.microsoft.com/5016fa0b-72eb-484e-b8d7-af9de2e25689">Remote Access Service (RAS) Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/5883a77a-6af8-47a8-bb28-6ef60a5aa2f1">Remote Access Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
  
 
  

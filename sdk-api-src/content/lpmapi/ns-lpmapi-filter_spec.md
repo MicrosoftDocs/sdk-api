@@ -60,7 +60,7 @@ The
 
 ### -field filt_header
 
-RSVP Object Header for the FILTERSPEC, in the form of an <a href="https://msdn.microsoft.com/90a237c0-0e62-4f27-927a-e3f3c1ac629e">RsvpObjHdr</a> structure.
+RSVP Object Header for the FILTERSPEC, in the form of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a> structure.
 
 
 ### -field filt_u
@@ -69,13 +69,13 @@ RSVP Object Header for the FILTERSPEC, in the form of an <a href="https://msdn.m
 
 #### filt_ipv4
 
-FILTERSPEC, in the form of a <a href="https://msdn.microsoft.com/b17a45b2-e50b-4ec2-9f1c-e1ab80ce572e">Filter_Spec_IPv4</a> header.
+FILTERSPEC, in the form of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-filter_spec_ipv4">Filter_Spec_IPv4</a> header.
 
 
 
 #### filt_ipv4gpi
 
-FILTERSPEC GPI information, in the form of a <a href="https://msdn.microsoft.com/c1546673-d1b5-4a7f-82d0-a8cc1c7c8752">Filter_Spec_IPv4GPI</a> header.
+FILTERSPEC GPI information, in the form of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-filter_spec_ipv4gpi">Filter_Spec_IPv4GPI</a> header.
 
 
 ### -field filt_ipv4
@@ -95,15 +95,15 @@ FILTERSPEC GPI information, in the form of a <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/b17a45b2-e50b-4ec2-9f1c-e1ab80ce572e">Filter_Spec_IPv4</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-filter_spec_ipv4">Filter_Spec_IPv4</a>
 
 
 
-<a href="https://msdn.microsoft.com/c1546673-d1b5-4a7f-82d0-a8cc1c7c8752">Filter_Spec_IPv4GPI</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-filter_spec_ipv4gpi">Filter_Spec_IPv4GPI</a>
 
 
 
-<a href="https://msdn.microsoft.com/90a237c0-0e62-4f27-927a-e3f3c1ac629e">RsvpObjHdr</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a>
  
 
  

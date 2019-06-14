@@ -59,7 +59,7 @@ Sets the priority of Direct2D rendering operations performed on any device conte
 
 ### -param renderingPriority
 
-Type: <b><a href="https://msdn.microsoft.com/25DC645B-7693-468C-AE11-05F6D1B11741">D2D1_RENDERING_PRIORITY</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_2/ne-d2d1_2-d2d1_rendering_priority">D2D1_RENDERING_PRIORITY</a></b>
 
 The desired rendering priority for the device and associated contexts.
 
@@ -99,7 +99,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 
-Calling this method affects the rendering priority of all device contexts associated with the device. This method can be called at any time, but is not guaranteed to take effect until the beginning of the next frame. The recommended usage is to call this method outside of <a href="https://msdn.microsoft.com/0562b286-7427-4d76-b699-a39356496a0f">BeginDraw</a> and <a href="https://msdn.microsoft.com/a8f24501-4e85-4981-bb38-2bd6333a7b49">EndDraw</a> blocks. Cycling this property frequently within drawing blocks will effectively reduce the benefits of any throttling that is applied.
+Calling this method affects the rendering priority of all device contexts associated with the device. This method can be called at any time, but is not guaranteed to take effect until the beginning of the next frame. The recommended usage is to call this method outside of <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-begindraw">BeginDraw</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">EndDraw</a> blocks. Cycling this property frequently within drawing blocks will effectively reduce the benefits of any throttling that is applied.
 
 
 
@@ -109,7 +109,7 @@ Calling this method affects the rendering priority of all device contexts associ
 
 
 
-<a href="https://msdn.microsoft.com/D0CC0F2C-2BAA-4BD6-AE67-BF99458160F9">ID2D1Device1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_2/nn-d2d1_2-id2d1device1">ID2D1Device1</a>
  
 
  

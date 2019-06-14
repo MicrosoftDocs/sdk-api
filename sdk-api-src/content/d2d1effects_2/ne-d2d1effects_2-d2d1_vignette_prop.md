@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/34da221f-44a2-1d01-d88d-d7846b9770b9">Vignette effect</a>.
+Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/vignette-effect">Vignette effect</a>.
 
 
 ## -enum-fields

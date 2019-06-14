@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Marshals a <a href="https://msdn.microsoft.com/1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a> object into the RPC buffer.
+Marshals a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a> object into the RPC buffer.
 
 
 ## -parameters

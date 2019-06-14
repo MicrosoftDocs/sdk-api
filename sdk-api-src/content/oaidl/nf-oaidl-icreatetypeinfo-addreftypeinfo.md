@@ -159,7 +159,7 @@ Type mismatch.
 
 
 
-The second parameter returns a pointer to the handle of the added type information. If <b>AddRefTypeInfo</b> has been called previously for the same type information, the index that was returned by the previous call is returned in <i>phRefType</i>. If the referenced type description is in the type library being created, its type information can be obtained by calling IUnknown::QueryInterface(IID_ITypeInfo, ...) on the <a href="https://msdn.microsoft.com/c8bbb677-2666-4900-8fb9-788742eef656">ICreateTypeInfo</a> interface of that type description.
+The second parameter returns a pointer to the handle of the added type information. If <b>AddRefTypeInfo</b> has been called previously for the same type information, the index that was returned by the previous call is returned in <i>phRefType</i>. If the referenced type description is in the type library being created, its type information can be obtained by calling IUnknown::QueryInterface(IID_ITypeInfo, ...) on the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a> interface of that type description.
 
 
 
@@ -170,7 +170,7 @@ The second parameter returns a pointer to the handle of the added type informati
 
 
 
-<a href="https://msdn.microsoft.com/c8bbb677-2666-4900-8fb9-788742eef656">ICreateTypeInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>
  
 
  

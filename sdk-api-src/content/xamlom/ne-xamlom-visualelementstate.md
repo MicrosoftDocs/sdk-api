@@ -77,7 +77,7 @@ The resource was found, but does not match the property.
 
 
 
-<a href="https://msdn.microsoft.com/A832FDC6-1485-432C-9A87-A3C94D0AF8CA">OnElementStateChanged</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/xaml_diagnostics/ivisualtreeservicecallback2-onelementstatechanged">OnElementStateChanged</a>
  
 
  

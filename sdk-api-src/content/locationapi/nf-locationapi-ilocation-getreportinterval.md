@@ -135,7 +135,7 @@ The caller is not registered to receive events for the specified report type.
 
 
 
-You must call <a href="https://msdn.microsoft.com/1aca3e5b-20cb-4fa9-b28d-7d992601df96">RegisterForReport</a> before calling this method.
+You must call <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocation-registerforreport">RegisterForReport</a> before calling this method.
 
 
 #### Examples
@@ -158,7 +158,7 @@ HRESULT hr = spLocation->GetReportInterval(IID_ILatLongReport, &reportInterval);
 
 
 
-<a href="https://msdn.microsoft.com/beeedbbd-df93-4c05-a215-4cfd14e03076">ILocation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilocation">ILocation</a>
  
 
  

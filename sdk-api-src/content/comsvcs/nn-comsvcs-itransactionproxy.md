@@ -55,7 +55,7 @@ Provides a way for a COM+ transaction context to work with a non-DTC transaction
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITransactionProxy</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITransactionProxy</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITransactionProxy</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITransactionProxy</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ITransactionProxy</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/15ad94ac-311f-486d-988b-9071396f6e34">Abort</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-itransactionproxy-abort">Abort</a>
 </td>
 <td align="left" width="63%">
 Aborts the transaction.
@@ -79,7 +79,7 @@ Aborts the transaction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/00b8fe43-22d3-44fd-a1c4-cf3cd36873c6">Commit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-itransactionproxy-commit">Commit</a>
 </td>
 <td align="left" width="63%">
 Commits the transaction.
@@ -88,7 +88,7 @@ Commits the transaction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dd837082-881e-4f7e-b71e-c0f6068e3cdb">CreateVoter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-itransactionproxy-createvoter">CreateVoter</a>
 </td>
 <td align="left" width="63%">
 Provides a ballot so that a COM+ transaction context can vote on the transaction.
@@ -97,7 +97,7 @@ Provides a ballot so that a COM+ transaction context can vote on the transaction
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8045989b-7b66-4340-a06e-4b4102d09784">GetIdentifier</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-itransactionproxy-getidentifier">GetIdentifier</a>
 </td>
 <td align="left" width="63%">
 Retrieves the identifier of the non-DTC transaction.
@@ -106,7 +106,7 @@ Retrieves the identifier of the non-DTC transaction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a2b0e99a-0d35-4103-b7a0-407d09a2746e">GetIsolationLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-itransactionproxy-getisolationlevel">GetIsolationLevel</a>
 </td>
 <td align="left" width="63%">
 Retrieves the isolation level of the non-DTC transaction.
@@ -115,7 +115,7 @@ Retrieves the isolation level of the non-DTC transaction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c642d329-c996-4207-bdcf-7c79d955b2c4">IsReusable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-itransactionproxy-isreusable">IsReusable</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the non-DTC transaction context can be reused for multiple transactions.
@@ -124,7 +124,7 @@ Indicates whether the non-DTC transaction context can be reused for multiple tra
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/861103b4-b5fa-4543-b26b-ad0c89d4473d">Promote</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-itransactionproxy-promote">Promote</a>
 </td>
 <td align="left" width="63%">
 Promotes a non-DTC transaction to a DTC transaction.

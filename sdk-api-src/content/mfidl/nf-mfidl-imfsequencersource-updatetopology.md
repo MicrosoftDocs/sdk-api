@@ -68,7 +68,7 @@ Sequencer element identifier of the topology to update.
 
 ### -param pTopology [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/f293e9ee-9bd2-4b3e-a4ff-53457ee910f6">IMFTopology</a> interface of the updated topology object.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a> interface of the updated topology object.
 
 
 ## -returns
@@ -114,7 +114,7 @@ The sequencer source has been shut down.
 
 
 
-This method is asynchronous. When the operation is completed, the sequencer source sends an <a href="https://msdn.microsoft.com/f573cbd0-689c-4bfe-846b-6fc8008101c8">MESequencerSourceTopologyUpdated</a> event.
+This method is asynchronous. When the operation is completed, the sequencer source sends an <a href="https://docs.microsoft.com/windows/desktop/medfound/mesequencersourcetopologyupdated">MESequencerSourceTopologyUpdated</a> event.
 
 
 
@@ -124,11 +124,11 @@ This method is asynchronous. When the operation is completed, the sequencer sour
 
 
 
-<a href="https://msdn.microsoft.com/ba5e8e7b-5b0e-4807-a459-75bd5727d1e2">IMFSequencerSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsequencersource">IMFSequencerSource</a>
 
 
 
-<a href="https://msdn.microsoft.com/788ede68-2fd7-45f6-90cb-2426c40f7d4c">Sequencer Source</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/sequencer-source">Sequencer Source</a>
  
 
  

@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Provides methods used to get and set shortcut menu information. This information is the same as that provided to <a href="https://msdn.microsoft.com/055ff0a0-9ba7-463d-9684-3fd072b190da">SHCreateDefaultContextMenu</a> through the <a href="https://msdn.microsoft.com/007861f6-1e66-4c5f-a459-3cfbe9f8cec2">DEFCONTEXTMENU</a> structure.
-<div class="alert"><b>Note</b>  Do not use this method to reinitialize a shortcut menu; use <a href="https://msdn.microsoft.com/1997a32e-562a-4d20-ad09-c40446a8feed">IShellExtInit::Initialize</a> instead.</div><div> </div>
+Provides methods used to get and set shortcut menu information. This information is the same as that provided to <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatedefaultcontextmenu">SHCreateDefaultContextMenu</a> through the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-defcontextmenu">DEFCONTEXTMENU</a> structure.
+<div class="alert"><b>Note</b>  Do not use this method to reinitialize a shortcut menu; use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize">IShellExtInit::Initialize</a> instead.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDefaultFolderMenuInitialize</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDefaultFolderMenuInitialize</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDefaultFolderMenuInitialize</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDefaultFolderMenuInitialize</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,25 +69,25 @@ The <b>IDefaultFolderMenuInitialize</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/373240B8-E99E-4ff9-B47A-3B31B4F0B81E">GetMenuRestrictions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idefaultfoldermenuinitialize-getmenurestrictions">GetMenuRestrictions</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D837712B-1FF3-4021-BA50-E433BF5B24C2">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idefaultfoldermenuinitialize-initialize">Initialize</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/90D861DA-33B7-4054-888E-86B504B2C5D1">SetHandlerClsid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idefaultfoldermenuinitialize-sethandlerclsid">SetHandlerClsid</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7D907B01-E0C4-428b-A8A4-FA383B0970BF">SetMenuRestrictions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idefaultfoldermenuinitialize-setmenurestrictions">SetMenuRestrictions</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>
@@ -99,7 +99,7 @@ The <b>IDefaultFolderMenuInitialize</b> interface has these methods.
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

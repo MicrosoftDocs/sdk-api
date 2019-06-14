@@ -54,7 +54,7 @@ Represents a sequence of commands that can be recorded and played back.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1CommandList</b> interface inherits from <a href="https://msdn.microsoft.com/9f7b4546-edbe-4000-a4ce-1a69563ebf9d">ID2D1Image</a>. <b>ID2D1CommandList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1CommandList</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>. <b>ID2D1CommandList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,17 +69,17 @@ The <b>ID2D1CommandList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/161A8E33-25C7-4007-8397-D86EBA777D4D">Close</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1commandlist-close">Close</a>
 </td>
 <td align="left" width="63%">
-Instructs the command list to stop accepting commands so that you can use it as an input to an effect or in a call to <a href="https://msdn.microsoft.com/1235dd6d-8495-4a92-96b7-4d741d9e296f">ID2D1DeviceContext::DrawImage</a>
+Instructs the command list to stop accepting commands so that you can use it as an input to an effect or in a call to <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1commandsink-drawimage">ID2D1DeviceContext::DrawImage</a>
 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/52e6da86-c7c6-48e7-b0ff-a54770663f14">Stream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1commandlist-stream">Stream</a>
 </td>
 <td align="left" width="63%">
 Streams the contents of the command list  to the specified command sink. 
@@ -174,8 +174,8 @@ pD2D1DeviceContext-&gt;BeginDraw();
 pD2D1DeviceContext-&gt;DrawImage(pCommandList1);
 pD2D1DeviceContext-&gt;EndDraw();</code></pre>
 <ul>
-<li><b>Set the bitmap as the target:</b>In this case, all contents rendered to the bitmap are rasterized. If this bitmap is used somewhere else, it will not be resolution independent and if a transformation like <a href="https://msdn.microsoft.com/99DFA8DB-384B-4F64-90A2-0D3D7E1ACF27">High Quality Scale</a> is used, it will not maintain fidelity.</li>
-<li><b>Set the command list as the target:</b>In this case, instead of the scene being rasterized, all of the commands are recorded. When the command list is used later for screen drawing using <a href="https://msdn.microsoft.com/c41d8a79-280a-451e-b07b-f904d07da5c7">ID2D1DeviceContext::DrawImage</a> or passed to an XPS print control, the vector content is replayed with no loss of fidelity.</li>
+<li><b>Set the bitmap as the target:</b>In this case, all contents rendered to the bitmap are rasterized. If this bitmap is used somewhere else, it will not be resolution independent and if a transformation like <a href="https://docs.microsoft.com/windows/desktop/Direct2D/high-quality-scale">High Quality Scale</a> is used, it will not maintain fidelity.</li>
+<li><b>Set the command list as the target:</b>In this case, instead of the scene being rasterized, all of the commands are recorded. When the command list is used later for screen drawing using <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawimage(id2d1effect_constd2d1_point_2f_constd2d1_rect_f_d2d1_interpolation_mode_d2d1_composite_mode)">ID2D1DeviceContext::DrawImage</a> or passed to an XPS print control, the vector content is replayed with no loss of fidelity.</li>
 <li><b>Drawing a command list to a bitmap target:</b>In this case because the target is a bitmap, the command list is drawn to the bitmap and is no longer resolution independent.</li>
 </ul>
 The only way to retain vector content for later playback with full fidelity is to set the target type as a command list. When a bitmap is set as a target, any drawing on that target will get rasterized.
@@ -183,7 +183,7 @@ The only way to retain vector content for later playback with full fidelity is t
 <h3><a id="Using_a_CommandList_to_Create_a_Brush"></a><a id="using_a_commandlist_to_create_a_brush"></a><a id="USING_A_COMMANDLIST_TO_CREATE_A_BRUSH"></a>Using a CommandList to Create a Brush</h3>
 Command lists are a good way to support pattern brushes, because they are capable of retaining fidelity on replay. The desired pattern can be stored as a command list, which can be used to create an image brush. This brush can then be used to paint paths.
 
-The type of brush that supports filling a path with a command list is called an <a href="https://msdn.microsoft.com/c5088ce2-5744-4061-957b-25831478a714">image brush</a>.
+The type of brush that supports filling a path with a command list is called an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1imagebrush">image brush</a>.
 
 The following psuedocode illustrates the process of using a command list with an image brush.<pre class="syntax" xml:space="preserve"><code>//Draw the pattern to the command list
 ID2D1CommandList *pCommandList;
@@ -282,13 +282,13 @@ pD2D1DeviceContext-&gt;DrawImage(pCommandList2);
 pD2D1DeviceContext-&gt;EndDraw();
 </code></pre>
 <h3><a id="Working_with_Other_APIs"></a><a id="working_with_other_apis"></a><a id="WORKING_WITH_OTHER_APIS"></a>Working with Other APIs</h3>
-Direct2D employs a simple model when interoperating with GDI and Direct3D/DXGI APIs. The command list does not record these commands. It instead rasterizes the contents in place and stores them as an <a href="https://msdn.microsoft.com/e58216ea-e6b5-450f-a0ea-b879aa5dff38">ID2D1Bitmap</a>. Because the contents are rasterized, these interop points do not maintain high fidelity.
+Direct2D employs a simple model when interoperating with GDI and Direct3D/DXGI APIs. The command list does not record these commands. It instead rasterizes the contents in place and stores them as an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>. Because the contents are rasterized, these interop points do not maintain high fidelity.
 
-<b>GDI:</b> The command sink interface does not support Get/ReleaseDC() calls. When a call to <a href="https://msdn.microsoft.com/802bd023-f223-4505-9911-95b43f3490e3">ID2D1GdiInteropRenderTarget::ReleaseDC</a> is made, Direct2D renders the contents of the updated  region into a <a href="https://msdn.microsoft.com/e58216ea-e6b5-450f-a0ea-b879aa5dff38">D2D1Bitmap</a>. This will be replayed as an aliased <a href="https://msdn.microsoft.com/241df698-ca5e-4d94-902a-a9e140820c14">DrawBitmap</a> call with a copy composite mode. 
-To rasterize the bitmap at the correct DPI, at the time of playback of the commands, whatever DPI value is set using the SetDPI() function is used. This is the only case where the <a href="https://msdn.microsoft.com/4e0ce837-7f4e-4b93-8dd7-68f60cfb1105">sink</a> respects the SetDPI() call.
+<b>GDI:</b> The command sink interface does not support Get/ReleaseDC() calls. When a call to <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1gdiinteroprendertarget-releasedc">ID2D1GdiInteropRenderTarget::ReleaseDC</a> is made, Direct2D renders the contents of the updated  region into a <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">D2D1Bitmap</a>. This will be replayed as an aliased <a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1rendertarget-drawbitmap">DrawBitmap</a> call with a copy composite mode. 
+To rasterize the bitmap at the correct DPI, at the time of playback of the commands, whatever DPI value is set using the SetDPI() function is used. This is the only case where the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandsink">sink</a> respects the SetDPI() call.
 
 
-<b>DX:</b> Direct3D cannot render directly to the command list. To render Direct3D content in this case, the application can call <a href="https://msdn.microsoft.com/241df698-ca5e-4d94-902a-a9e140820c14">DrawBitmap</a> with the <a href="https://msdn.microsoft.com/e58216ea-e6b5-450f-a0ea-b879aa5dff38">ID2D1Bitmap</a> backed by a Direct3D surface.
+<b>DX:</b> Direct3D cannot render directly to the command list. To render Direct3D content in this case, the application can call <a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1rendertarget-drawbitmap">DrawBitmap</a> with the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a> backed by a Direct3D surface.
 
 
 
@@ -298,19 +298,19 @@ To rasterize the bitmap at the correct DPI, at the time of playback of the comma
 
 
 
-<a href="https://msdn.microsoft.com/4f581bc7-6c5e-4e56-b768-7f3cc5dbcb3e">Command List</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-render-multi-thread-command-list">Command List</a>
 
 
 
-<a href="https://msdn.microsoft.com/e58216ea-e6b5-450f-a0ea-b879aa5dff38">ID2D1Bitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/9f7b4546-edbe-4000-a4ce-1a69563ebf9d">ID2D1Image</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/C51ACCDE-B205-4F79-A2FD-D112BAAD1616">Printing and Command Lists</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/printing-and-command-lists">Printing and Command Lists</a>
  
 
  

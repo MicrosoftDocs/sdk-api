@@ -101,7 +101,7 @@ Type: <b>int</b>
 If the function succeeds, the return value is the length, in 
 						characters, of the string copied to the buffer.
 
-If the function fails, the return value is zero, indicating that the requested format does not exist or is predefined. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is zero, indicating that the requested format does not exist or is predefined. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -116,7 +116,7 @@ Using this function incorrectly might compromise the security of your program. F
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v=VS.85).aspx">Example of a Clipboard Viewer</a>. 
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg/using-the-clipboard">Example of a Clipboard Viewer</a>. 
 
 <div class="code"></div>
 
@@ -127,7 +127,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648709(v=VS.85).aspx">Clipboard</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/clipboard">Clipboard</a>
 
 
 
@@ -135,7 +135,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649038(v=VS.85).aspx">EnumClipboardFormats</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumclipboardformats">EnumClipboardFormats</a>
 
 
 
@@ -143,7 +143,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649049(v=VS.85).aspx">RegisterClipboardFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclipboardformata">RegisterClipboardFormat</a>
  
 
  

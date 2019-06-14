@@ -64,15 +64,15 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/bd2a49c1-8e18-4a14-a797-07f2b9c25812">ITraceDataProvider</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovider">ITraceDataProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/a5b1c141-d820-4435-be1e-93f2ae69d1e1">ITraceDataProvider::FilterData</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-get_filterdata">ITraceDataProvider::FilterData</a>
 
 
 
-<a href="https://msdn.microsoft.com/adc9f89f-fffe-4df0-a9fd-72ae80fdf9b5">ITraceDataProvider::FilterType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-get_filtertype">ITraceDataProvider::FilterType</a>
  
 
  

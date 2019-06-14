@@ -61,7 +61,7 @@ Synchronizes the information in the log file catalog with the performance data i
 ### -param hLog [in]
 
 Handle to the log file containing the file catalog to update. The 
-<a href="https://msdn.microsoft.com/a8457959-af3a-497f-91ca-0876cbb552cc">PdhOpenLog</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenloga">PdhOpenLog</a> function.
 
 
 ## -returns
@@ -72,8 +72,8 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> or a 
-<a href="https://msdn.microsoft.com/ea67d798-81db-44ad-b0fb-24e0c3be7388">PDH error code</a>. The following are possible values.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
 
 <table>
 <tr>
@@ -137,11 +137,11 @@ Perfmon, CSV, and TSV log files do not have catalogs. Specifying a handle to the
 
 
 
-<a href="https://msdn.microsoft.com/2bb94019-c664-4144-98b6-a0a545f7e4c1">PdhGetLogFileSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetlogfilesize">PdhGetLogFileSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/b2052275-6944-41f4-92ac-38967ed270f3">PdhUpdateLog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhupdateloga">PdhUpdateLog</a>
  
 
  

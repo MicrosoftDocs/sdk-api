@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>put_Presenter</b> method sets the presenter object for the <a href="https://msdn.microsoft.com/ead99cb3-2be2-42c6-ac22-be0c2ddf28d5">Enhanced Video Renderer</a> (EVR) filter.
+The <b>put_Presenter</b> method sets the presenter object for the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/enhanced-video-renderer-filter">Enhanced Video Renderer</a> (EVR) filter.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>put_Presenter</b> method sets the presenter object for the <a href="https
 
 ### -param pAllocPresent [in]
 
-Pointer to a presenter's <a href="https://msdn.microsoft.com/8f6e3132-03e9-4a2e-9160-e39d29cf2408">IMFVideoPresenter</a> interface. This interface is documented in this Media Foundation SDK documentaion.
+Pointer to a presenter's <a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideopresenter">IMFVideoPresenter</a> interface. This interface is documented in this Media Foundation SDK documentaion.
 
 
 ## -returns
@@ -76,7 +76,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/437f515b-0353-4ff2-b8c2-5dd27d4e12f7">IMSVidEVR</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidevr">IMSVidEVR</a>
  
 
  

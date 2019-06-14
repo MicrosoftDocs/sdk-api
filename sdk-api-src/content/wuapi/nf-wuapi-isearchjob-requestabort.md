@@ -73,7 +73,7 @@ Returns <b>S_OK</b> if successful. Otherwise, returns  a COM or Windows error co
 
 
 
-<a href="https://msdn.microsoft.com/aec4a812-cf5d-4986-a776-29c366bb1771">ISearchJob</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-isearchjob">ISearchJob</a>
  
 
  

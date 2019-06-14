@@ -107,7 +107,7 @@ The returned string has the following format: "<i>X</i>.0.0.<i>YYYY</i>" where <
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563216(v=VS.85).aspx">IWMPCore Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore Interface</a>
  
 
  

@@ -66,12 +66,12 @@ The length, in bytes, of the data in <i>pBuffer</i>.
 
 A pointer to a buffer that contains the data that was sent. The <i>cbBuffer</i> parameter contains the length of this buffer.
 
-The implementation will take ownership of this buffer until the <a href="https://msdn.microsoft.com/eb5af337-a412-4bda-862f-7e12705d0446">IWRdsGraphicsChannelEvents::OnDataSent</a> method is called. Before that time, this buffer must not be modified or freed.
+The implementation will take ownership of this buffer until the <a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/nf-wrdsgraphicschannels-iwrdsgraphicschannelevents-ondatasent">IWRdsGraphicsChannelEvents::OnDataSent</a> method is called. Before that time, this buffer must not be modified or freed.
 
 
 ### -param pContext [in]
 
-A user-defined interface pointer that is passed as the <i>pWriteContext</i> parameter in the <a href="https://msdn.microsoft.com/eb5af337-a412-4bda-862f-7e12705d0446">IWRdsGraphicsChannelEvents::OnDataSent</a> method.
+A user-defined interface pointer that is passed as the <i>pWriteContext</i> parameter in the <a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/nf-wrdsgraphicschannels-iwrdsgraphicschannelevents-ondatasent">IWRdsGraphicsChannelEvents::OnDataSent</a> method.
 
 
 ## -returns
@@ -88,11 +88,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/5d1e88b4-3dff-4f88-a6de-abc02da57ece">IWRdsGraphicsChannel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/nn-wrdsgraphicschannels-iwrdsgraphicschannel">IWRdsGraphicsChannel</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb5af337-a412-4bda-862f-7e12705d0446">IWRdsGraphicsChannelEvents::OnDataSent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/nf-wrdsgraphicschannels-iwrdsgraphicschannelevents-ondatasent">IWRdsGraphicsChannelEvents::OnDataSent</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<a href="https://msdn.microsoft.com/af7186f8-7921-48e3-a4fd-23259a6e9018">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>InventoryNtmsLibrary</b> function queues an inventory of the specified library. If the library is busy, RSM queues 
@@ -64,7 +64,7 @@ The
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://msdn.microsoft.com/5a323911-e99c-4f81-9580-0feac2f0a54e">OpenNtmsSession</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 
 ### -param lpLibraryId [in]
@@ -110,7 +110,7 @@ If the library has a bar-code reader installed, this flag causes a bar-code inve
 </td>
 <td width="60%">
 Use the <b>InventoryMethod</b> specified in the library object (see 
-<a href="https://msdn.microsoft.com/f8ca33ba-35e2-4fd9-a9a0-1393bbbede80">NTMS_LIBRARYINFORMATION</a>).
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_libraryinformation">NTMS_LIBRARYINFORMATION</a>).
 
 </td>
 </tr>
@@ -240,11 +240,11 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/c7bc4582-4405-4e42-a8bf-e2e8c68bbd7e">AccessNtmsLibraryDoor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-accessntmslibrarydoor">AccessNtmsLibraryDoor</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Library Control Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Library Control Functions</a>
  
 
  

@@ -59,7 +59,7 @@ Specifies properties used to identify and execute typographic features in the cu
 
 ### -field nameTag
 
-Type: <b><a href="https://msdn.microsoft.com/31f0d1b5-36f2-4bde-b39c-b1392f9d925f">DWRITE_FONT_FEATURE_TAG</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_feature_tag">DWRITE_FONT_FEATURE_TAG</a></b>
 
 The feature OpenType name identifier.
 

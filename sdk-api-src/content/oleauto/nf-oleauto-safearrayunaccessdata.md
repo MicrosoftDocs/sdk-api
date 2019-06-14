@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Decrements the lock count of an array, and invalidates the pointer retrieved by <a href="https://msdn.microsoft.com/ded2112e-f6cd-4982-bacb-b95370e80187">SafeArrayAccessData</a>.
+Decrements the lock count of an array, and invalidates the pointer retrieved by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayaccessdata">SafeArrayAccessData</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Decrements the lock count of an array, and invalidates the pointer retrieved by 
 
 ### -param psa [in]
 
-An array descriptor created by <a href="https://msdn.microsoft.com/5b94f1a2-a558-473f-85dd-9545c0464cc7">SafeArrayCreate</a>.
+An array descriptor created by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraycreate">SafeArrayCreate</a>.
 
 
 ## -returns

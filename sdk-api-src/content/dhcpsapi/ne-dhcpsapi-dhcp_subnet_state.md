@@ -87,7 +87,7 @@ The subnet is in an invalid state.
 
 
 
-<a href="https://msdn.microsoft.com/030b4743-7558-493c-931c-1ad28a6b435a">DHCP_SUBNET_INFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_subnet_info">DHCP_SUBNET_INFO</a>
  
 
  

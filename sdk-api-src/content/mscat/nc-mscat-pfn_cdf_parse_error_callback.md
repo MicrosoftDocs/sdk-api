@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PFN_CDF_PARSE_ERROR_CALLBACK</b> function is called for <a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Catalog Definition Function</a> errors while parsing a catalog definition file (CDF).
+The <b>PFN_CDF_PARSE_ERROR_CALLBACK</b> function is called for <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Catalog Definition Function</a> errors while parsing a catalog definition file (CDF).
 
 
 ## -parameters
@@ -144,7 +144,7 @@ The <i>dwLocalError</i> parameter can have the following possible values.
 </tr>
 <tr>
 <td>CRYPTCAT_E_CDF_ATTR_TOOFEWVALUES</td>
-<td>The attribute line is missing one or more elements of its composition including type, <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) or name, or value.</td>
+<td>The attribute line is missing one or more elements of its composition including type, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) or name, or value.</td>
 </tr>
 <tr>
 <td>CRYPTCAT_E_CDF_ATTR_TYPECOMBO</td>
@@ -161,7 +161,7 @@ The <i>dwLocalError</i> parameter can have the following possible values.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Catalog Definition Function</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Catalog Definition Function</a>
  
 
  

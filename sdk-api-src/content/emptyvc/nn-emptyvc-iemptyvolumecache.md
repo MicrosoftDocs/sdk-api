@@ -54,7 +54,7 @@ Used by the disk cleanup manager to communicate with a disk cleanup handler. Exp
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEmptyVolumeCache</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEmptyVolumeCache</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEmptyVolumeCache</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEmptyVolumeCache</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IEmptyVolumeCache</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fb374e09-92f5-4efb-8e93-0ddc2975c2c1">Deactivate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-deactivate">Deactivate</a>
 </td>
 <td align="left" width="63%">
 Notifies the handler that the disk cleanup manager is shutting down. 
@@ -78,7 +78,7 @@ Notifies the handler that the disk cleanup manager is shutting down.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c8ec2f70-f327-49d4-babb-a9640f105003">GetSpaceUsed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-getspaceused">GetSpaceUsed</a>
 </td>
 <td align="left" width="63%">
 Requests the amount of disk space that the disk cleanup handler can free.
@@ -87,7 +87,7 @@ Requests the amount of disk space that the disk cleanup handler can free.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e0d66c58-6963-4694-984f-6f4a710d08c0">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the disk cleanup handler, based on the information stored under the specified registry key.
@@ -96,7 +96,7 @@ Initializes the disk cleanup handler, based on the information stored under the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c42430da-9d6a-42e9-bc4f-325d986c7c48">Purge</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-purge">Purge</a>
 </td>
 <td align="left" width="63%">
 Notifies the handler to start deleting its unneeded files.
@@ -105,7 +105,7 @@ Notifies the handler to start deleting its unneeded files.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3bce6251-b209-405a-8ac2-fd385f1c69ee">ShowProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-showproperties">ShowProperties</a>
 </td>
 <td align="left" width="63%">
 Notifies the handler to display its UI. 
@@ -119,7 +119,7 @@ Notifies the handler to display its UI.
 
 
 
-This interface must be implemented by disk cleanup handlers running on Windows 98. Handlers running on Windows 2000 should also expose <a href="https://msdn.microsoft.com/a3e941ee-0477-48a8-96bd-c9d74c66ca41">IEmptyVolumeCache2</a>.
+This interface must be implemented by disk cleanup handlers running on Windows 98. Handlers running on Windows 2000 should also expose <a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nn-emptyvc-iemptyvolumecache2">IEmptyVolumeCache2</a>.
 
 
 
@@ -129,7 +129,7 @@ This interface must be implemented by disk cleanup handlers running on Windows 
 
 
 
-<a href="https://msdn.microsoft.com/d6775458-3b39-4ee8-90f9-d8a749bd1800">IEmptyVolumeCacheCallBack</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nn-emptyvc-iemptyvolumecachecallback">IEmptyVolumeCacheCallBack</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the behavior of a <a href="https://docs.microsoft.com/en-us/uwp/api/windows.storage.streams.randomaccessstream">RandomAccessStream</a> that encapsulates a Component Object Model (COM) <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>.
+Specifies the behavior of a <a href="https://docs.microsoft.com/en-us/uwp/api/windows.storage.streams.randomaccessstream">RandomAccessStream</a> that encapsulates a Component Object Model (COM) <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>.
 
 
 ## -enum-fields
@@ -59,12 +59,12 @@ Specifies the behavior of a <a href="https://docs.microsoft.com/en-us/uwp/api/wi
 
 ### -field BSOS_DEFAULT
 
-When creating a <a href="https://docs.microsoft.com/en-us/uwp/api/windows.storage.streams.randomaccessstream">RandomAccessStream</a> over a stream, use the base <a href="https://msdn.microsoft.com/D2ECEB3D-D13E-44C1-BFE2-1AA57F7432C6">IRandomAccessStream</a> behavior on the <a href="https://msdn.microsoft.com/f55c376b-f150-406a-b960-f096c2deeff1">STGM</a> mode from the <a href="https://msdn.microsoft.com/c22ab396-dbc5-43a0-8448-35a2c094464f">Stat</a> method.
+When creating a <a href="https://docs.microsoft.com/en-us/uwp/api/windows.storage.streams.randomaccessstream">RandomAccessStream</a> over a stream, use the base <a href="https://docs.microsoft.com/previous-versions//hh438400(v=vs.85)">IRandomAccessStream</a> behavior on the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagstgmove">STGM</a> mode from the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-stat">Stat</a> method.
 
 
 ### -field BSOS_PREFERDESTINATIONSTREAM
 
-Use the <a href="https://msdn.microsoft.com/4903a3a1-12b7-4094-aac8-6e8525998c3c">GetDestinationStream</a> method.
+Use the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idestinationstreamfactory-getdestinationstream">GetDestinationStream</a> method.
 
 
 ## -see-also
@@ -72,11 +72,11 @@ Use the <a href="https://msdn.microsoft.com/4903a3a1-12b7-4094-aac8-6e8525998c3c
 
 
 
-<a href="https://msdn.microsoft.com/D2ECEB3D-D13E-44C1-BFE2-1AA57F7432C6">IRandomAccessStream</a>
+<a href="https://docs.microsoft.com/previous-versions//hh438400(v=vs.85)">IRandomAccessStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>
  
 
  

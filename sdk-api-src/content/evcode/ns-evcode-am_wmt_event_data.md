@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>AM_WMT_EVENT_DATA</b> structure contains information pertaining to an <a href="https://msdn.microsoft.com/51d51659-8e7d-49b7-83f2-a80e99d39d78">EC_WMT_EVENT</a> and the associated status code returned by the Windows Media Format SDK.
+The <b>AM_WMT_EVENT_DATA</b> structure contains information pertaining to an <a href="https://docs.microsoft.com/windows/desktop/wmformat/ec-wmt-event">EC_WMT_EVENT</a> and the associated status code returned by the Windows Media Format SDK.
 
 
 
@@ -67,14 +67,14 @@ The status code returned by the Windows Media Format SDK.
 
 ### -field pData
 
-Pointer whose data is dependent on the value of the <b>WMT_STATUS</b> message in <i>lParam1</i> of the <b>EC_WMT_EVENT</b> event. For more information, see <a href="https://msdn.microsoft.com/51d51659-8e7d-49b7-83f2-a80e99d39d78">EC_WMT_EVENT</a>.
+Pointer whose data is dependent on the value of the <b>WMT_STATUS</b> message in <i>lParam1</i> of the <b>EC_WMT_EVENT</b> event. For more information, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/ec-wmt-event">EC_WMT_EVENT</a>.
 
 
 ## -remarks
 
 
 
-This structure is relevant when using the <a href="https://msdn.microsoft.com/3d5ca88a-86bd-4d84-b4f4-782564ced58d">WM ASF Reader</a> filter to read files protected with Digital Rights Management.
+This structure is relevant when using the <a href="https://docs.microsoft.com/windows/desktop/wmformat/wm-asf-reader-filter">WM ASF Reader</a> filter to read files protected with Digital Rights Management.
 
 
 

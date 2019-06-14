@@ -54,7 +54,7 @@ Interface describing an SVG stroke-dasharray value.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1SvgStrokeDashArray</b> interface inherits from <a href="https://msdn.microsoft.com/7B11D05C-6CD5-4609-B76A-719B92437314">ID2D1SvgAttribute</a>. <b>ID2D1SvgStrokeDashArray</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1SvgStrokeDashArray</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgattribute">ID2D1SvgAttribute</a>. <b>ID2D1SvgStrokeDashArray</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1SvgStrokeDashArray</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt492672(v=VS.85).aspx">GetDashes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-getdashes">GetDashes</a>
 </td>
 <td align="left" width="63%">Overloaded. Gets dashes from the array.
 
@@ -77,7 +77,7 @@ The <b>ID2D1SvgStrokeDashArray</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D43F005C-FC19-47B9-AAC0-E620FCAECADE">GetDashesCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgstrokedasharray-getdashescount">GetDashesCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of the dashes in the array.
@@ -86,7 +86,7 @@ Gets the number of the dashes in the array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/BF695850-55E2-420E-84B2-075174C0EB8B">RemoveDashesAtEnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgstrokedasharray-removedashesatend">RemoveDashesAtEnd</a>
 </td>
 <td align="left" width="63%">
 Removes dashes from the end of the array.
@@ -95,7 +95,7 @@ Removes dashes from the end of the array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt492673(v=VS.85).aspx">UpdateDashes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-updatedashes">UpdateDashes</a>
 </td>
 <td align="left" width="63%">Overloaded. Updates the array.
 

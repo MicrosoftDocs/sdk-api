@@ -51,9 +51,9 @@ ms.custom: 19H1
 
 Sets a spoofed native display size to be used for a Windows Store app running in design mode.
 
-You must call <a href="https://msdn.microsoft.com/429E5D12-9ED9-4f4f-A0E6-F95953C9113A">IInitializeWithWindow::Initialize</a> to set a proxy core window before calling this method.
+You must call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinitializewithwindow-initialize">IInitializeWithWindow::Initialize</a> to set a proxy core window before calling this method.
 
-<b>SetNativeDisplaySize</b> must be called before calling <a href="https://msdn.microsoft.com/1ac42bb8-1c24-4369-8d0d-db3ad4062501">ComputeApplicationSize</a>.
+<b>SetNativeDisplaySize</b> must be called before calling <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings-computeapplicationsize">ComputeApplicationSize</a>.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ You must call <a href="https://msdn.microsoft.com/429E5D12-9ED9-4f4f-A0E6-F95953
 
 ### -param nativeDisplaySizePixels [in]
 
-The native size of the display to spoof, as a <a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a> structure. The specified size will be normalized to a landscape orientation. To spoof orientation, see <a href="https://msdn.microsoft.com/37e1845c-a58a-4da3-b259-bbf5bbf5ff6d">SetApplicationViewState</a>.
+The native size of the display to spoof, as a <a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a> structure. The specified size will be normalized to a landscape orientation. To spoof orientation, see <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings-setapplicationviewstate">SetApplicationViewState</a>.
 
 
 ## -returns
@@ -85,7 +85,7 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/429E5D12-9ED9-4f4f-A0E6-F95953C9113A">IInitializeWithWindow::Initialize</a> has not been called to set a proxy core window.
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinitializewithwindow-initialize">IInitializeWithWindow::Initialize</a> has not been called to set a proxy core window.
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ You cannot launch or switch to an immersive app when the resolution is this low.
 
 
 
-<a href="https://msdn.microsoft.com/D26C9A87-8C29-4029-BF8A-E0566DC2DF2A">IApplicationDesignModeSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdesignmodesettings">IApplicationDesignModeSettings</a>
  
 
  

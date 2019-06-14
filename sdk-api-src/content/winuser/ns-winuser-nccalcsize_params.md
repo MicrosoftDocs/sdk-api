@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information that an application can use while processing the <a href="https://msdn.microsoft.com/en-us/library/ms632634(v=VS.85).aspx">WM_NCCALCSIZE</a> message to calculate the size, position, and valid contents of the client area of a window. 
+Contains information that an application can use while processing the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-nccalcsize">WM_NCCALCSIZE</a> message to calculate the size, position, and valid contents of the client area of a window. 
 
 
 ## -struct-fields
@@ -61,18 +61,18 @@ Contains information that an application can use while processing the <a href="h
 
 Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>[3]</b>
 
-An array of rectangles. The meaning of the array of rectangles changes during the processing of the <a href="https://msdn.microsoft.com/en-us/library/ms632634(v=VS.85).aspx">WM_NCCALCSIZE</a> message.
+An array of rectangles. The meaning of the array of rectangles changes during the processing of the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-nccalcsize">WM_NCCALCSIZE</a> message.
 
-When the window procedure receives the <a href="https://msdn.microsoft.com/en-us/library/ms632634(v=VS.85).aspx">WM_NCCALCSIZE</a> message, the first rectangle contains the new coordinates of a window that has been moved or resized, that is, it is the proposed new window coordinates. The second contains the coordinates of the window before it was moved or resized. The third contains the coordinates of the window's client area before the window was moved or resized. If the window is a child window, the coordinates are relative to the client area of the parent window. If the window is a top-level window, the coordinates are relative to the screen origin.
+When the window procedure receives the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-nccalcsize">WM_NCCALCSIZE</a> message, the first rectangle contains the new coordinates of a window that has been moved or resized, that is, it is the proposed new window coordinates. The second contains the coordinates of the window before it was moved or resized. The third contains the coordinates of the window's client area before the window was moved or resized. If the window is a child window, the coordinates are relative to the client area of the parent window. If the window is a top-level window, the coordinates are relative to the screen origin.
 
-When the window procedure returns, the first rectangle contains the coordinates of the new client rectangle resulting from the move or resize.  The second rectangle contains the valid destination rectangle, and the third rectangle contains the valid source rectangle.  The last two rectangles are used in conjunction with the return value of the <a href="https://msdn.microsoft.com/en-us/library/ms632634(v=VS.85).aspx">WM_NCCALCSIZE</a> message to determine the area of the window to be preserved.
+When the window procedure returns, the first rectangle contains the coordinates of the new client rectangle resulting from the move or resize.  The second rectangle contains the valid destination rectangle, and the third rectangle contains the valid source rectangle.  The last two rectangles are used in conjunction with the return value of the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-nccalcsize">WM_NCCALCSIZE</a> message to determine the area of the window to be preserved.
 
 
 ### -field lppos
 
 Type: <b>PWINDOWPOS</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms632612(v=VS.85).aspx">WINDOWPOS</a> structure that contains the size and position values specified in the operation that moved or resized the window. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwindowpos">WINDOWPOS</a> structure that contains the size and position values specified in the operation that moved or resized the window. 
 
 
 ## -see-also
@@ -84,7 +84,7 @@ A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms632612(v=VS.8
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633534(v=VS.85).aspx">MoveWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-movewindow">MoveWindow</a>
 
 
 
@@ -100,19 +100,19 @@ A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms632612(v=VS.8
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633545(v=VS.85).aspx">SetWindowPos</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowpos">SetWindowPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632612(v=VS.85).aspx">WINDOWPOS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwindowpos">WINDOWPOS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632634(v=VS.85).aspx">WM_NCCALCSIZE</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-nccalcsize">WM_NCCALCSIZE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>WINHTTP_CREDS</b> structure contains user credential information used for server and proxy authentication.
-<div class="alert"><b>Note</b>  This structure has been deprecated. Instead, the use of the <a href="https://msdn.microsoft.com/e9a9e882-383c-4f4f-ae1e-3e9e7fa957ad">WINHTTP_CREDS_EX</a> structure is recommended.</div><div> </div>
+<div class="alert"><b>Note</b>  This structure has been deprecated. Instead, the use of the <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-tagwinhttp_creds_ex">WINHTTP_CREDS_EX</a> structure is recommended.</div><div> </div>
 
 ## -struct-fields
 
@@ -140,7 +140,7 @@ The server connection port.
 
 
 This structure is used with options <b>WINHTTP_OPTION_GLOBAL_SERVER_CREDS</b> and <b>WINHTTP_OPTION_GLOBAL_PROXY_CREDS</b>
-<a href="https://msdn.microsoft.com/2d0441f4-ddba-4f2a-8861-8803cad6f1ac">option flags</a>. These options require the registry key <b>HKLM\Software\Microsoft\Windows\CurrentVersion\Internet Settings!ShareCredsWithWinHttp</b>. This registry key is not present by default.
+<a href="https://docs.microsoft.com/windows/desktop/WinHttp/option-flags">option flags</a>. These options require the registry key <b>HKLM\Software\Microsoft\Windows\CurrentVersion\Internet Settings!ShareCredsWithWinHttp</b>. This registry key is not present by default.
 
 When it is set, WinINet will send credentials  down to WinHTTP. Whenever WinHttp gets an authentication challenge and if there are no credentials set on the current handle, it will use the credentials provided by WinINet. In order to share server credentials in addition to proxy credentials, users needs to set  the <b>WINHTTP_OPTION_USE_GLOBAL_SERVER_CREDENTIALS</b>option flag.
 
@@ -152,7 +152,7 @@ When it is set, WinINet will send credentials  down to WinHTTP. Whenever WinHttp
 
 
 
-<a href="https://msdn.microsoft.com/e9a9e882-383c-4f4f-ae1e-3e9e7fa957ad">WINHTTP_CREDS_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-tagwinhttp_creds_ex">WINHTTP_CREDS_EX</a>
  
 
  

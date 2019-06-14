@@ -64,9 +64,9 @@ Removes a dynamic function table from the dynamic function table list.
 ### -param FunctionTable [in]
 
 A pointer to an array of function entries that were previously passed to 
-      <a href="https://msdn.microsoft.com/4717f29e-c5f8-4b02-a7c8-edd065f1c793">RtlAddFunctionTable</a> or an identifier previously 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-rtladdfunctiontable">RtlAddFunctionTable</a> or an identifier previously 
       passed to 
-      <a href="https://msdn.microsoft.com/63b35b17-0b0e-46ed-9dbf-98290ab08bd1">RtlInstallFunctionTableCallback</a>. For 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-rtlinstallfunctiontablecallback">RtlInstallFunctionTableCallback</a>. For 
       a definition of the <b>PRUNTIME_FUNCTION</b> type, see WinNT.h.
 
 
@@ -97,11 +97,11 @@ Function tables are used on 64-bit Windows to determine how to unwind or walk th
 
 
 
-<a href="https://msdn.microsoft.com/4717f29e-c5f8-4b02-a7c8-edd065f1c793">RtlAddFunctionTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-rtladdfunctiontable">RtlAddFunctionTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/63b35b17-0b0e-46ed-9dbf-98290ab08bd1">RtlInstallFunctionTableCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-rtlinstallfunctiontablecallback">RtlInstallFunctionTableCallback</a>
  
 
  

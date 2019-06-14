@@ -63,7 +63,7 @@ The <code>GetAvailableModes</code> method retrieves the tuner's supported modes.
 
 ### -param plModes [out]
 
-Pointer to a variable that receives any combination of the values as specified in the <a href="https://msdn.microsoft.com/ce5e6f6d-da79-4a86-abd4-bb28e66d5947">AMTunerModeType</a> enumeration.
+Pointer to a variable that receives any combination of the values as specified in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagamtunermodetype">AMTunerModeType</a> enumeration.
 
 
 ## -returns
@@ -80,11 +80,11 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/997d39c5-a1a5-4d2d-8704-9846f149712c">IAMTuner Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner Interface</a>
  
 
  

@@ -90,7 +90,7 @@ The address of the first instruction in the line.
 
 
 This structure supersedes the <b>IMAGEHLP_LINE</b> structure. For more information, see 
-<a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>IMAGEHLP_LINE</b> is defined as follows in DbgHelp.h. 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <b>IMAGEHLP_LINE</b> is defined as follows in DbgHelp.h. 
 
 
 ```cpp
@@ -125,19 +125,19 @@ typedef struct _IMAGEHLP_LINEW {
 
 
 
-<a href="https://msdn.microsoft.com/a1dad8e0-cd85-41f7-b0e3-e359be94c0ac">SymGetLineFromAddr64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetlinefromaddr">SymGetLineFromAddr64</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb8870f6-1bae-40df-842e-ec3ca0167691">SymGetLineFromName64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetlinefromname">SymGetLineFromName64</a>
 
 
 
-<a href="https://msdn.microsoft.com/82adafc3-1080-43bc-b343-eaf59bdef6cb">SymGetLineNext64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetlinenext">SymGetLineNext64</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f6d0f20-5dfa-4d6c-8551-1dbc3cc54176">SymGetLinePrev64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetlineprev">SymGetLinePrev64</a>
  
 
  

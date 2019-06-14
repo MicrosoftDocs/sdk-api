@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Called by the Windows Biometric Framework to perform a vendor-defined control operation that does not require elevated privilege. Call the <a href="https://msdn.microsoft.com/373233e6-b3d0-40ce-8698-77841963d5f3">SensorAdapterControlUnitPrivileged</a> function to perform a vendor-defined control operation that requires elevated privilege.
+Called by the Windows Biometric Framework to perform a vendor-defined control operation that does not require elevated privilege. Call the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_control_unit_privileged_fn">SensorAdapterControlUnitPrivileged</a> function to perform a vendor-defined control operation that requires elevated privilege.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Called by the Windows Biometric Framework to perform a vendor-defined control op
 
 ### -param Pipeline [in, out]
 
-Pointer to a <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae41c3e12a">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 
 ### -param ControlCode [in]
@@ -186,7 +186,7 @@ The value specified in the <i>ControlCode</i> parameter is not recognized by the
 
 
 
-Your implementation of this function should be identical to your implementation of the <a href="https://msdn.microsoft.com/373233e6-b3d0-40ce-8698-77841963d5f3">SensorAdapterControlUnitPrivileged</a> function except that elevated privileges are not required to perform the operations specified by the <i>ControlCode</i> parameter. You are responsible for defining the operations and deciding which will not require elevated privilege.
+Your implementation of this function should be identical to your implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_control_unit_privileged_fn">SensorAdapterControlUnitPrivileged</a> function except that elevated privileges are not required to perform the operations specified by the <i>ControlCode</i> parameter. You are responsible for defining the operations and deciding which will not require elevated privilege.
 
 This function must check the value of the <i>ReceiveBufferSize</i> parameter to be certain that the buffer specified by the <i>ReceiveBuffer</i> parameter is large enough to hold the data being returned.
 
@@ -382,15 +382,15 @@ cleanup:
 
 
 
-<a href="https://msdn.microsoft.com/5f04d912-f9bc-41d4-aa9e-b843e4b5a994">Plug-in Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/373233e6-b3d0-40ce-8698-77841963d5f3">SensorAdapterControlUnitPrivileged</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_control_unit_privileged_fn">SensorAdapterControlUnitPrivileged</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d11f72a-3392-4089-a563-1771f8c2c8f7">WinBioControlUnit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiocontrolunit">WinBioControlUnit</a>
  
 
  

@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-The <b>GetRecordName</b> method retrieves the name of the specified record. A record has a name only if a name has been assigned using the <a href="https://msdn.microsoft.com/en-us/library/Dd757249(v=VS.85).aspx">IWMMutualExclusion2::SetRecordName</a> method.
+The <b>GetRecordName</b> method retrieves the name of the specified record. A record has a name only if a name has been assigned using the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-setrecordname">IWMMutualExclusion2::SetRecordName</a> method.
 
 
 
@@ -148,7 +148,7 @@ Records are assigned numbers sequentially in the order they are created.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757239(v=VS.85).aspx">IWMMutualExclusion2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion2">IWMMutualExclusion2 Interface</a>
  
 
  

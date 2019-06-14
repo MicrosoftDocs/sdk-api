@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6</b> structure contains data that defines an array of <a href="https://msdn.microsoft.com/de5fa8c5-5cd7-4358-bacd-f27f4b7f3761">DHCP_SUBNET_ELEMENT_DATA_V6</a> IPv6 prefix elements.
+The <b>DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6</b> structure contains data that defines an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_subnet_element_data_v6">DHCP_SUBNET_ELEMENT_DATA_V6</a> IPv6 prefix elements.
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ A <b>DWORD</b> value containing the number of IPv6 subnet elements in the <b>Ele
 
 ### -field Elements
 
-Pointer to an array of <a href="https://msdn.microsoft.com/de5fa8c5-5cd7-4358-bacd-f27f4b7f3761">DHCP_SUBNET_ELEMENT_DATA_V6</a> structures that contain IPv6 prefix elements.
+Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_subnet_element_data_v6">DHCP_SUBNET_ELEMENT_DATA_V6</a> structures that contain IPv6 prefix elements.
 
 
 ### -field Elements.size_is
@@ -84,7 +84,7 @@ Pointer to an array of <a href="https://msdn.microsoft.com/de5fa8c5-5cd7-4358-ba
 
 
 
-<a href="https://msdn.microsoft.com/de5fa8c5-5cd7-4358-bacd-f27f4b7f3761">DHCP_SUBNET_ELEMENT_DATA_V6</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_subnet_element_data_v6">DHCP_SUBNET_ELEMENT_DATA_V6</a>
  
 
  

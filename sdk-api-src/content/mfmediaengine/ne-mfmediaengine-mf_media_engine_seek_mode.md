@@ -71,7 +71,7 @@ Specifies an approximate seek.
 
 
 
-This enumeration is used with the <a href="https://msdn.microsoft.com/ee594f0c-af49-44c2-8c68-16120f76c5e1">MediaEngineEx::SetCurrentTimeEx</a>.
+This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-setcurrenttimeex">MediaEngineEx::SetCurrentTimeEx</a>.
 
 
 
@@ -81,7 +81,7 @@ This enumeration is used with the <a href="https://msdn.microsoft.com/ee594f0c-a
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

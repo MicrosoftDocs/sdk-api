@@ -103,7 +103,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://msdn.microsoft.com/6ea374e3-cb09-44e5-b80a-b68447589191">MIB_IPMCAST_IF_TABLE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_if_table">MIB_IPMCAST_IF_TABLE</a>
  
 
  

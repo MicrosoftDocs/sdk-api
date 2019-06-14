@@ -60,7 +60,7 @@ The <b>DHCP_FILTER_ADD_INFO</b> structure contains information regarding the lin
 ### -field AddrPatt
 
 
-<a href="https://msdn.microsoft.com/8c645b03-9859-48e9-8974-2dbdc9cfcac6">DHCP_ADDR_PATTERN</a> structure that contains the address/pattern-related information of the link-layer filter.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_addr_pattern">DHCP_ADDR_PATTERN</a> structure that contains the address/pattern-related information of the link-layer filter.
 
 
 ### -field Comment
@@ -71,7 +71,7 @@ Pointer to a Unicode string that contains a text comment for the filter.
 ### -field ListType
 
 
-<a href="https://msdn.microsoft.com/369b705c-2322-4be7-8550-41a42318204b">DHCP_FILTER_LIST_TYPE</a> enumeration value that specifies the list type to which the filter is to be added.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-_dhcp_filter_list_type">DHCP_FILTER_LIST_TYPE</a> enumeration value that specifies the list type to which the filter is to be added.
 
 
 ## -see-also
@@ -79,11 +79,11 @@ Pointer to a Unicode string that contains a text comment for the filter.
 
 
 
-<a href="https://msdn.microsoft.com/8c645b03-9859-48e9-8974-2dbdc9cfcac6">DHCP_ADDR_PATTERN</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_addr_pattern">DHCP_ADDR_PATTERN</a>
 
 
 
-<a href="https://msdn.microsoft.com/369b705c-2322-4be7-8550-41a42318204b">DHCP_FILTER_LIST_TYPE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-_dhcp_filter_list_type">DHCP_FILTER_LIST_TYPE</a>
  
 
  

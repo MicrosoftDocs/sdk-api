@@ -96,7 +96,7 @@ Value: 0x80004003
 
 
 
-This is the value specified in the most recent call to the <a href="https://msdn.microsoft.com/a3e03af5-bda2-49a3-80d9-52acfe390708">IDiscFormat2Data::SetWriteSpeed</a> method.
+This is the value specified in the most recent call to the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-setwritespeed">IDiscFormat2Data::SetWriteSpeed</a> method.
 
 
 
@@ -106,15 +106,15 @@ This is the value specified in the most recent call to the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/6bb871c2-1a6e-4cf6-94e1-7a566ce7a88e">IDiscFormat2Data</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3e03af5-bda2-49a3-80d9-52acfe390708">IDiscFormat2Data::SetWriteSpeed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-setwritespeed">IDiscFormat2Data::SetWriteSpeed</a>
 
 
 
-<a href="https://msdn.microsoft.com/4740a631-d5e1-496a-9631-0398a7709319">IDiscFormat2Data::get_CurrentRotationTypeIsPureCAV</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_currentrotationtypeispurecav">IDiscFormat2Data::get_CurrentRotationTypeIsPureCAV</a>
  
 
  

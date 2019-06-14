@@ -59,7 +59,7 @@ Contains the raw input from a device.
 
 ### -field header
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms645571(v=VS.85).aspx">RAWINPUTHEADER</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinputheader">RAWINPUTHEADER</a></b>
 
 The raw input data. 
 
@@ -69,21 +69,21 @@ The raw input data.
 
 ### -field data.mouse
 
-<b>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms645578(v=VS.85).aspx">RAWMOUSE</a></b>
+<b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawmouse">RAWMOUSE</a></b>
 </b>
 If the data comes from a mouse, this is the raw input data. 
 
 
 ### -field data.keyboard
 
-<b>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms645575(v=VS.85).aspx">RAWKEYBOARD</a></b>
+<b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawkeyboard">RAWKEYBOARD</a></b>
 </b>
 If the data comes from a keyboard, this is the raw input data. 
 
 
 ### -field data.hid
 
-<b>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms645549(v=VS.85).aspx">RAWHID</a></b>
+<b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawhid">RAWHID</a></b>
 </b>
 If the data comes from an HID, this is the raw input data. 
 
@@ -92,15 +92,15 @@ If the data comes from an HID, this is the raw input data.
 
 
 
-The handle to this structure is passed in the <i>lParam</i> parameter of <a href="https://msdn.microsoft.com/en-us/library/ms645590(v=VS.85).aspx">WM_INPUT</a>.
+The handle to this structure is passed in the <i>lParam</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-input">WM_INPUT</a>.
 
-To get detailed information -- such as the header and the content of the raw input -- call <a href="https://msdn.microsoft.com/en-us/library/ms645596(v=VS.85).aspx">GetRawInputData</a>.
+To get detailed information -- such as the header and the content of the raw input -- call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getrawinputdata">GetRawInputData</a>.
 
-To read the <b>RAWINPUT</b> in the message loop as a buffered read, call <a href="https://msdn.microsoft.com/en-us/library/ms645595(v=VS.85).aspx">GetRawInputBuffer</a>. 
+To read the <b>RAWINPUT</b> in the message loop as a buffered read, call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getrawinputbuffer">GetRawInputBuffer</a>. 
 
-To get device specific information, call <a href="https://msdn.microsoft.com/en-us/library/ms645597(v=VS.85).aspx">GetRawInputDeviceInfo</a> with the <i>hDevice</i> from <a href="https://msdn.microsoft.com/en-us/library/ms645571(v=VS.85).aspx">RAWINPUTHEADER</a>.
+To get device specific information, call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getrawinputdeviceinfoa">GetRawInputDeviceInfo</a> with the <i>hDevice</i> from <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinputheader">RAWINPUTHEADER</a>.
 
-Raw input is available only when the application calls <a href="https://msdn.microsoft.com/en-us/library/ms645600(v=VS.85).aspx">RegisterRawInputDevices</a> with valid device specifications. 
+Raw input is available only when the application calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerrawinputdevices">RegisterRawInputDevices</a> with valid device specifications. 
 
 
 
@@ -114,31 +114,31 @@ Raw input is available only when the application calls <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645595(v=VS.85).aspx">GetRawInputBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getrawinputbuffer">GetRawInputBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645596(v=VS.85).aspx">GetRawInputData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getrawinputdata">GetRawInputData</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645549(v=VS.85).aspx">RAWHID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawhid">RAWHID</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645571(v=VS.85).aspx">RAWINPUTHEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinputheader">RAWINPUTHEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645575(v=VS.85).aspx">RAWKEYBOARD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawkeyboard">RAWKEYBOARD</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645578(v=VS.85).aspx">RAWMOUSE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawmouse">RAWMOUSE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645536(v=VS.85).aspx">Raw Input</a>
+<a href="https://docs.microsoft.com/windows/desktop/inputdev/raw-input">Raw Input</a>
 
 
 

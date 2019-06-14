@@ -59,7 +59,7 @@ Retrieves the parent effect group of enumeration.
 
 ### -param ppEffect [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735291(v=VS.85).aspx">IMILBitmapEffectGroup</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffectgroup">IMILBitmapEffectGroup</a>**</b>
 
 A pointer that receives a pointer to the parent group.
 

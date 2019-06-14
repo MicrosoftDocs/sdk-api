@@ -96,22 +96,22 @@ Reserved for future use.
 
 ### -field AcceptSecurityContext
 
-Pointer to the <a href="https://msdn.microsoft.com/eaa15fed-4438-4e43-9be3-aa100ca453c7">AcceptSecurityContext (General)</a> function.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (General)</a> function.
 
 
 ### -field CompleteAuthToken
 
-Pointer to the <a href="https://msdn.microsoft.com/a404d0a3-d1ea-4708-87d7-2d216e9a5f5f">CompleteAuthToken</a> function.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-completeauthtoken">CompleteAuthToken</a> function.
 
 
 ### -field DeleteSecurityContext
 
-Pointer to the <a href="https://msdn.microsoft.com/2a4dd697-ef90-4c37-ab74-0e5ab92794cd">DeleteSecurityContext</a> function.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-deletesecuritycontext">DeleteSecurityContext</a> function.
 
 
 ### -field ApplyControlToken
 
-Pointer to the <a href="https://msdn.microsoft.com/5ce13a05-874c-4e1a-9be8-aed98609791e">ApplyControlToken</a> function.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-applycontroltoken">ApplyControlToken</a> function.
 
 
 ### -field QueryContextAttributesA
@@ -121,27 +121,27 @@ Pointer to the <a href="https://msdn.microsoft.com/5ce13a05-874c-4e1a-9be8-aed98
 
 ### -field ImpersonateSecurityContext
 
-Pointer to the <a href="https://msdn.microsoft.com/167eaf3b-b794-4587-946d-fa596f1f9411">ImpersonateSecurityContext</a> function.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-impersonatesecuritycontext">ImpersonateSecurityContext</a> function.
 
 
 ### -field RevertSecurityContext
 
-Pointer to the <a href="https://msdn.microsoft.com/d4ed1fe9-2e0a-4648-a010-1eae49ba03ee">RevertSecurityContext</a> function.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-revertsecuritycontext">RevertSecurityContext</a> function.
 
 
 ### -field MakeSignature
 
-Pointer to the <a href="https://msdn.microsoft.com/d17824b0-6121-48a3-b19b-d4fae3e1348e">MakeSignature</a> function.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-makesignature">MakeSignature</a> function.
 
 
 ### -field VerifySignature
 
-Pointer to the <a href="https://msdn.microsoft.com/bebeef92-1d6e-4879-846f-12d706db0653">VerifySignature</a> function.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-verifysignature">VerifySignature</a> function.
 
 
 ### -field FreeContextBuffer
 
-Pointer to the <a href="https://msdn.microsoft.com/3c3d27bb-4f9a-4979-b679-1e10fa1ff221">FreeContextBuffer</a> function.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a> function.
 
 
 ### -field QuerySecurityPackageInfoA
@@ -161,7 +161,7 @@ Reserved for future use.
 
 ### -field ExportSecurityContext
 
-Pointer to the <a href="https://msdn.microsoft.com/4ebc7f37-b948-4c78-973f-0a74e55c7ee2">ExportSecurityContext</a> function.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-exportsecuritycontext">ExportSecurityContext</a> function.
 
 
 ### -field ImportSecurityContextA
@@ -181,17 +181,17 @@ Reserved for future use.
 
 ### -field QuerySecurityContextToken
 
-Pointer to the  <a href="https://msdn.microsoft.com/5dc23608-9ce3-4fee-8161-2e409cef4063">QuerySecurityContextToken</a> function.
+Pointer to the  <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querysecuritycontexttoken">QuerySecurityContextToken</a> function.
 
 
 ### -field EncryptMessage
 
-Pointer to the  <a href="https://msdn.microsoft.com/2e09f262-9c3e-4db2-9285-017f5e1810c7">EncryptMessage (General)</a> function.
+Pointer to the  <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-encryptmessage">EncryptMessage (General)</a> function.
 
 
 ### -field DecryptMessage
 
-Pointer to the   <a href="https://msdn.microsoft.com/ea271d0c-9167-41c5-8919-09611206fc71">DecryptMessage (General)</a> function.
+Pointer to the   <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-decryptmessage">DecryptMessage (General)</a> function.
 
 
 ### -field SetContextAttributesA
@@ -228,47 +228,47 @@ Pointer to the   <a href="https://msdn.microsoft.com/ea271d0c-9167-41c5-8919-096
 
 #### - AcquireCredentialsHandle
 
-Pointer to the <a href="https://msdn.microsoft.com/acda4cf3-39a6-4bd2-91a0-db1f191b57b5">AcquireCredentialsHandle</a> function.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle</a> function.
 
 
 #### - AddCredentials
 
-Pointer to the  <a href="https://msdn.microsoft.com/ea6ddd18-818e-43f5-9453-de2b3f994325">AddCredential</a> function.
+Pointer to the  <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_add_credential">AddCredential</a> function.
 
 
 #### - EnumerateSecurityPackages
 
-Pointer to the <a href="https://msdn.microsoft.com/900790a6-111d-43f5-9316-e85aab03a3bc">EnumerateSecurityPackages</a> function.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-enumeratesecuritypackagesa">EnumerateSecurityPackages</a> function.
 
 
 #### - FreeCredentialsHandle
 
-Pointer to the <a href="https://msdn.microsoft.com/e089618c-8233-475a-9725-39265c6427ab">FreeCredentialsHandle</a> function.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecredentialshandle">FreeCredentialsHandle</a> function.
 
 
 #### - ImportSecurityContext
 
-Pointer to the <a href="https://msdn.microsoft.com/0f8e65d0-69cf-42ba-a903-1922d731e5ec">ImportSecurityContext</a> function.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-importsecuritycontexta">ImportSecurityContext</a> function.
 
 
 #### - InitializeSecurityContext
 
-Pointer to the  <a href="https://msdn.microsoft.com/21d965d4-3c03-4e29-a70d-4538c5c366b0">InitializeSecurityContext (General)</a> function.
+Pointer to the  <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (General)</a> function.
 
 
 #### - QueryContextAttributes
 
-Pointer to the  <a href="https://msdn.microsoft.com/67bc087f-7519-4c8a-9b34-b3ecd306a334">QueryContextAttributes (General)</a> function.
+Pointer to the  <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function.
 
 
 #### - QueryCredentialsAttributes
 
-Pointer to the  <a href="https://msdn.microsoft.com/a8ba6f73-8469-431b-b185-183b45b2c533">QueryCredentialsAttributes</a> function.
+Pointer to the  <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycredentialsattributesa">QueryCredentialsAttributes</a> function.
 
 
 #### - QuerySecurityPackageInfo
 
-Pointer to the   <a href="https://msdn.microsoft.com/130ef0fe-bb13-4a65-b476-cd25ed234da1">QuerySecurityPackageInfo</a> function.
+Pointer to the   <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querysecuritypackageinfoa">QuerySecurityPackageInfo</a> function.
 
 
 #### - Reserved1
@@ -278,7 +278,7 @@ Reserved for future use.
 
 #### - SetContextAttributes
 
-Pointer to the   <a href="https://msdn.microsoft.com/e3246c3e-3e8c-49fe-99d8-dfff1a10ab83">SetContextAttributes</a> function.
+Pointer to the   <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-setcontextattributesa">SetContextAttributes</a> function.
 
 
 ## -see-also
@@ -286,7 +286,7 @@ Pointer to the   <a href="https://msdn.microsoft.com/e3246c3e-3e8c-49fe-99d8-dff
 
 
 
-<a href="https://msdn.microsoft.com/1026eeab-e2d6-45f2-9677-82d6cfbf4e12">InitSecurityInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initsecurityinterfacea">InitSecurityInterface</a>
  
 
  

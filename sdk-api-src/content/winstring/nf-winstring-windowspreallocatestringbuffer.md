@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Allocates a mutable character buffer for use in <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a> creation.
+Allocates a mutable character buffer for use in <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> creation.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ The mutable buffer that holds the characters. Note that the buffer already conta
 
 ### -param bufferHandle [out]
 
-Type: <b><a href="https://msdn.microsoft.com/D173CE70-ABF3-4703-A229-0753F2AF6F70">HSTRING_BUFFER</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring-buffer">HSTRING_BUFFER</a>*</b>
 
 The preallocated string buffer, or <b>NULL</b> if  <i>length</i> is 0.
 
@@ -100,7 +100,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-The  <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a> was created successfully.
+The  <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> was created successfully.
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ The  <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">H
 </dl>
 </td>
 <td width="60%">
-The requested <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a> allocation size is too large.
+The requested <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> allocation size is too large.
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ The requested <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D77
 </dl>
 </td>
 <td width="60%">
-Failed to allocate the <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a> buffer.
+Failed to allocate the <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> buffer.
 
 </td>
 </tr>
@@ -147,9 +147,9 @@ Failed to allocate the <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-85
 
 
 
-Use the <b>WindowsPreallocateStringBuffer</b> function to create a mutable character buffer that you can manipulate prior to committing it to  an immutable <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a>. When you have finished populating the <i>mutableBuffer</i> with your string, call the <a href="https://msdn.microsoft.com/ac5261fd-2d31-4c65-84f2-4c6b4c3566bb">WindowsPromoteStringBuffer</a>  function with the <i>bufferHandle</i> parameter  to create the <b>HSTRING</b>. You must write exactly <i>length</i> characters into the buffer.
+Use the <b>WindowsPreallocateStringBuffer</b> function to create a mutable character buffer that you can manipulate prior to committing it to  an immutable <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>. When you have finished populating the <i>mutableBuffer</i> with your string, call the <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowspromotestringbuffer">WindowsPromoteStringBuffer</a>  function with the <i>bufferHandle</i> parameter  to create the <b>HSTRING</b>. You must write exactly <i>length</i> characters into the buffer.
 
-Call the <a href="https://msdn.microsoft.com/c543b2ff-56be-48b5-8b44-3d7549c75df2">WindowsDeleteStringBuffer</a> function to discard the mutable buffer prior to promotion. If the buffer has already been promoted by a call to <a href="https://msdn.microsoft.com/ac5261fd-2d31-4c65-84f2-4c6b4c3566bb">WindowsPromoteStringBuffer</a>, call the <a href="https://msdn.microsoft.com/79B9E5CF-396C-45FB-931B-7B50281A0446">WindowsDeleteString</a> function to discard the string. If the <b>WindowsPromoteStringBuffer</b> call fails, you can call the <b>WindowsDeleteStringBuffer</b> function to discard the mutable buffer.
+Call the <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsdeletestringbuffer">WindowsDeleteStringBuffer</a> function to discard the mutable buffer prior to promotion. If the buffer has already been promoted by a call to <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowspromotestringbuffer">WindowsPromoteStringBuffer</a>, call the <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a> function to discard the string. If the <b>WindowsPromoteStringBuffer</b> call fails, you can call the <b>WindowsDeleteStringBuffer</b> function to discard the mutable buffer.
 
 
 
@@ -193,19 +193,19 @@ int main()
 
 
 
-<a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>
 
 
 
-<a href="https://msdn.microsoft.com/D173CE70-ABF3-4703-A229-0753F2AF6F70">HSTRING_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring-buffer">HSTRING_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/c543b2ff-56be-48b5-8b44-3d7549c75df2">WindowsDeleteStringBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsdeletestringbuffer">WindowsDeleteStringBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/ac5261fd-2d31-4c65-84f2-4c6b4c3566bb">WindowsPromoteStringBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowspromotestringbuffer">WindowsPromoteStringBuffer</a>
  
 
  

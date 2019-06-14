@@ -65,7 +65,7 @@ The <b>GetImage</b> method retrieves an image stored in a file as an ID3v2 "APIC
 
 ### -param wIndex [in]
 
-<b>WORD</b> containing the image index. This is a number between zero, and one less than the image count retrieved by <a href="https://msdn.microsoft.com/en-us/library/Dd798530(v=VS.85).aspx">IWMImageInfo::GetImageCount</a>.
+<b>WORD</b> containing the image index. This is a number between zero, and one less than the image count retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmimageinfo-getimagecount">IWMImageInfo::GetImageCount</a>.
 
 
 ### -param pcchMIMEType [in, out]
@@ -275,11 +275,11 @@ The value referenced by one of the following parameters is less than the require
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798530(v=VS.85).aspx">GetImageCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmimageinfo-getimagecount">GetImageCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798528(v=VS.85).aspx">IWMImageInfo Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmimageinfo">IWMImageInfo Interface</a>
  
 
  

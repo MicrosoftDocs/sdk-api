@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/07f97bc9-9da2-4655-9ab9-5e17abc57d6d">IMFMediaKeySession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediakeysession">IMFMediaKeySession</a>
  
 
  

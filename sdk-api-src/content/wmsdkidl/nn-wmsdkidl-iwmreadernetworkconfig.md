@@ -59,7 +59,7 @@ An <b>IWMReaderNetworkConfig</b> interface exists for every reader object. You c
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMReaderNetworkConfig</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMReaderNetworkConfig</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMReaderNetworkConfig</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMReaderNetworkConfig</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IWMReaderNetworkConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743519(v=VS.85).aspx">AddLoggingUrl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-addloggingurl">AddLoggingUrl</a>
 </td>
 <td align="left" width="63%">
 Adds the specified URL to the list of URLs to receive logging data.
@@ -83,7 +83,7 @@ Adds the specified URL to the list of URLs to receive logging data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743520(v=VS.85).aspx">GetBufferingTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getbufferingtime">GetBufferingTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the amount of time required by the network source to buffer data before rendering it.
@@ -92,7 +92,7 @@ Retrieves the amount of time required by the network source to buffer data befor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743521(v=VS.85).aspx">GetConnectionBandwidth</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getconnectionbandwidth">GetConnectionBandwidth</a>
 </td>
 <td align="left" width="63%">
 Retrieves the connection bandwidth for the client.
@@ -101,7 +101,7 @@ Retrieves the connection bandwidth for the client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743522(v=VS.85).aspx">GetEnableHTTP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getenablehttp">GetEnableHTTP</a>
 </td>
 <td align="left" width="63%">
 Ascertains whether Hypertext Transfer Protocol (HTTP) is enabled.
@@ -110,7 +110,7 @@ Ascertains whether Hypertext Transfer Protocol (HTTP) is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743523(v=VS.85).aspx">GetEnableMulticast</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getenablemulticast">GetEnableMulticast</a>
 </td>
 <td align="left" width="63%">
 Ascertains whether multicast is enabled.
@@ -119,7 +119,7 @@ Ascertains whether multicast is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743524(v=VS.85).aspx">GetEnableTCP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getenabletcp">GetEnableTCP</a>
 </td>
 <td align="left" width="63%">
 Ascertains whether TCP is enabled.
@@ -128,16 +128,16 @@ Ascertains whether TCP is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743525(v=VS.85).aspx">GetEnableUDP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getenableudp">GetEnableUDP</a>
 </td>
 <td align="left" width="63%">
-Ascertains whether <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">UDP</a> is enabled.
+Ascertains whether <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">UDP</a> is enabled.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743526(v=VS.85).aspx">GetForceRerunAutoProxyDetection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getforcererunautoproxydetection">GetForceRerunAutoProxyDetection</a>
 </td>
 <td align="left" width="63%">
 Ascertains whether forced rerun detection is enabled.
@@ -146,7 +146,7 @@ Ascertains whether forced rerun detection is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743527(v=VS.85).aspx">GetLoggingUrl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getloggingurl">GetLoggingUrl</a>
 </td>
 <td align="left" width="63%">
 Retrieves the URL corresponding to the specified index.
@@ -155,7 +155,7 @@ Retrieves the URL corresponding to the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743528(v=VS.85).aspx">GetLoggingUrlCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getloggingurlcount">GetLoggingUrlCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of URLs in the current list of logging URLs.
@@ -164,7 +164,7 @@ Retrieves the number of URLs in the current list of logging URLs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743529(v=VS.85).aspx">GetNumProtocolsSupported</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getnumprotocolssupported">GetNumProtocolsSupported</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of supported protocols.
@@ -173,7 +173,7 @@ Retrieves the number of supported protocols.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743530(v=VS.85).aspx">GetProxyBypassForLocal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getproxybypassforlocal">GetProxyBypassForLocal</a>
 </td>
 <td align="left" width="63%">
 Retrieves the configuration setting for bypassing the proxy for local hosts.
@@ -182,7 +182,7 @@ Retrieves the configuration setting for bypassing the proxy for local hosts.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743531(v=VS.85).aspx">GetProxyExceptionList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getproxyexceptionlist">GetProxyExceptionList</a>
 </td>
 <td align="left" width="63%">
 Retrieves the proxy exception list.
@@ -191,7 +191,7 @@ Retrieves the proxy exception list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743532(v=VS.85).aspx">GetProxyHostName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getproxyhostname">GetProxyHostName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the host to be used as the proxy.
@@ -200,7 +200,7 @@ Retrieves the name of the host to be used as the proxy.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743533(v=VS.85).aspx">GetProxyPort</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getproxyport">GetProxyPort</a>
 </td>
 <td align="left" width="63%">
 Retrieves the port to be used as the proxy.
@@ -209,7 +209,7 @@ Retrieves the port to be used as the proxy.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743534(v=VS.85).aspx">GetProxySettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getproxysettings">GetProxySettings</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current proxy settings.
@@ -218,7 +218,7 @@ Retrieves the current proxy settings.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743535(v=VS.85).aspx">GetSupportedProtocolName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getsupportedprotocolname">GetSupportedProtocolName</a>
 </td>
 <td align="left" width="63%">
 Retrieves a protocol name by index.
@@ -227,7 +227,7 @@ Retrieves a protocol name by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743536(v=VS.85).aspx">GetUDPPortRanges</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getudpportranges">GetUDPPortRanges</a>
 </td>
 <td align="left" width="63%">
 Retrieves the UDP port number ranges that are used for receiving data.
@@ -236,7 +236,7 @@ Retrieves the UDP port number ranges that are used for receiving data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743537(v=VS.85).aspx">ResetLoggingUrlList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-resetloggingurllist">ResetLoggingUrlList</a>
 </td>
 <td align="left" width="63%">
 Clears the list of logging URLs.
@@ -245,7 +245,7 @@ Clears the list of logging URLs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743538(v=VS.85).aspx">ResetProtocolRollover</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-resetprotocolrollover">ResetProtocolRollover</a>
 </td>
 <td align="left" width="63%">
 Forces the reader object to use the normal protocol rollover algorithm.
@@ -254,7 +254,7 @@ Forces the reader object to use the normal protocol rollover algorithm.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743539(v=VS.85).aspx">SetBufferingTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setbufferingtime">SetBufferingTime</a>
 </td>
 <td align="left" width="63%">
 Specifies how long the network source buffers data before rendering it.
@@ -263,7 +263,7 @@ Specifies how long the network source buffers data before rendering it.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743540(v=VS.85).aspx">SetConnectionBandwidth</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setconnectionbandwidth">SetConnectionBandwidth</a>
 </td>
 <td align="left" width="63%">
 Specifies the connection bandwidth for the client.
@@ -272,7 +272,7 @@ Specifies the connection bandwidth for the client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743541(v=VS.85).aspx">SetEnableHTTP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setenablehttp">SetEnableHTTP</a>
 </td>
 <td align="left" width="63%">
 Enables or disables HTTP.
@@ -281,7 +281,7 @@ Enables or disables HTTP.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743542(v=VS.85).aspx">SetEnableMulticast</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setenablemulticast">SetEnableMulticast</a>
 </td>
 <td align="left" width="63%">
 Enables or disables multicast.
@@ -290,7 +290,7 @@ Enables or disables multicast.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743543(v=VS.85).aspx">SetEnableTCP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setenabletcp">SetEnableTCP</a>
 </td>
 <td align="left" width="63%">
 Enables or disables TCP.
@@ -299,7 +299,7 @@ Enables or disables TCP.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743544(v=VS.85).aspx">SetEnableUDP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setenableudp">SetEnableUDP</a>
 </td>
 <td align="left" width="63%">
 Enables or disables UDP.
@@ -308,7 +308,7 @@ Enables or disables UDP.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743545(v=VS.85).aspx">SetForceRerunAutoProxyDetection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setforcererunautoproxydetection">SetForceRerunAutoProxyDetection</a>
 </td>
 <td align="left" width="63%">
 Enables or disables forced rerun detection.
@@ -317,7 +317,7 @@ Enables or disables forced rerun detection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743546(v=VS.85).aspx">SetProxyBypassForLocal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setproxybypassforlocal">SetProxyBypassForLocal</a>
 </td>
 <td align="left" width="63%">
 Specifies the configuration setting for bypassing the proxy for local hosts.
@@ -326,7 +326,7 @@ Specifies the configuration setting for bypassing the proxy for local hosts.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743547(v=VS.85).aspx">SetProxyExceptionList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setproxyexceptionlist">SetProxyExceptionList</a>
 </td>
 <td align="left" width="63%">
 Specifies the proxy exception list.
@@ -335,7 +335,7 @@ Specifies the proxy exception list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743548(v=VS.85).aspx">SetProxyHostName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setproxyhostname">SetProxyHostName</a>
 </td>
 <td align="left" width="63%">
 Specifies the name of the host to be used as the proxy.
@@ -344,7 +344,7 @@ Specifies the name of the host to be used as the proxy.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743549(v=VS.85).aspx">SetProxyPort</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setproxyport">SetProxyPort</a>
 </td>
 <td align="left" width="63%">
 Specifies the port to be used as the proxy.
@@ -353,7 +353,7 @@ Specifies the port to be used as the proxy.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743550(v=VS.85).aspx">SetProxySettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setproxysettings">SetProxySettings</a>
 </td>
 <td align="left" width="63%">
 Specifies the proxy settings.
@@ -362,7 +362,7 @@ Specifies the proxy settings.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743551(v=VS.85).aspx">SetUDPPortRanges</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setudpportranges">SetUDPPortRanges</a>
 </td>
 <td align="left" width="63%">
 Specifies the UDP port number ranges that are used for receiving data.
@@ -371,7 +371,7 @@ Specifies the UDP port number ranges that are used for receiving data.
 </tr>
 </table> 
 
-For information about which interfaces can be obtained by using the QueryInterface method of this interface, see <a href="https://msdn.microsoft.com/b5edbf8b-820f-4e09-a482-8efc2283360e">Reader Object</a>.
+For information about which interfaces can be obtained by using the QueryInterface method of this interface, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/reader-object">Reader Object</a>.
 
 
 
@@ -380,11 +380,11 @@ For information about which interfaces can be obtained by using the QueryInterfa
 
 
 
-<a href="https://msdn.microsoft.com/c61a0739-09f2-497f-a2cd-d3f2472738e3">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/b5edbf8b-820f-4e09-a482-8efc2283360e">Reader Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/reader-object">Reader Object</a>
  
 
  

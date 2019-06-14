@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>QOS_QUERY_FLOW</b> enumeration indicates the type of information a <a href="https://msdn.microsoft.com/8cae3ba2-beca-45e2-9526-2d917abc2606">QOSQueryFlow</a> function will request.
+The <b>QOS_QUERY_FLOW</b> enumeration indicates the type of information a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosqueryflow">QOSQueryFlow</a> function will request.
 
 
 ## -enum-fields
@@ -69,7 +69,7 @@ Indicates a request for information detailing the QoS priority being added to fl
 
 ### -field QOSQueryOutgoingRate
 
-Indicates a request for the flow rate specified during the creation of an agreement with the QoS subsystem via the <a href="https://msdn.microsoft.com/b30e8887-4445-480d-aba8-79ec36384648">QOSSetFlow</a>  function.
+Indicates a request for the flow rate specified during the creation of an agreement with the QoS subsystem via the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qossetflow">QOSSetFlow</a>  function.
 
 
 ## -see-also
@@ -77,11 +77,11 @@ Indicates a request for the flow rate specified during the creation of an agreem
 
 
 
-<a href="https://msdn.microsoft.com/8cae3ba2-beca-45e2-9526-2d917abc2606">QOSQueryFlow</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosqueryflow">QOSQueryFlow</a>
 
 
 
-<a href="https://msdn.microsoft.com/022fde13-415e-49aa-8df4-472c4eadd6a0">Quality Windows Audio/Video Experience (qWAVE)</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
  
 
  

@@ -67,12 +67,12 @@ Character set value.
 
 ### -field ciACP
 
-Windows ANSI code page identifier. For a list of identifiers, see <a href="https://msdn.microsoft.com/5d6fc86a-f205-4d14-bb7c-ecd71682e0fe">Code Page Identifiers</a>.
+Windows ANSI code page identifier. For a list of identifiers, see <a href="https://docs.microsoft.com/windows/desktop/Intl/code-page-identifiers">Code Page Identifiers</a>.
 
 
 ### -field fs
 
-A <a href="https://msdn.microsoft.com/5331da53-7e3d-46e9-a922-da04fedc8382">FONTSIGNATURE</a> structure that identifies the Unicode subrange and the specific Windows ANSI character set/code page. Only one code page will be set when this structure is set by the function.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagfontsignature">FONTSIGNATURE</a> structure that identifies the Unicode subrange and the specific Windows ANSI character set/code page. Only one code page will be set when this structure is set by the function.
 
 
 ## -see-also
@@ -80,19 +80,19 @@ A <a href="https://msdn.microsoft.com/5331da53-7e3d-46e9-a922-da04fedc8382">FONT
 
 
 
-<a href="https://msdn.microsoft.com/866f09f4-629e-4097-a974-fbda9389d077">Code Pages</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/code-pages">Code Pages</a>
 
 
 
-<a href="https://msdn.microsoft.com/5331da53-7e3d-46e9-a922-da04fedc8382">FONTSIGNATURE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagfontsignature">FONTSIGNATURE</a>
 
 
 
-<a href="https://msdn.microsoft.com/0e6e81f1-ec7b-42ba-8706-a352349fa6ab">TranslateCharsetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-translatecharsetinfo">TranslateCharsetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/0c8120dd-3270-4343-8b0c-b91ff555f276">Unicode and Character Set Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/unicode-and-character-set-structures">Unicode and Character Set Structures</a>
  
 
  

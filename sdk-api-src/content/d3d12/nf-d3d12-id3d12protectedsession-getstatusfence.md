@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the fence for the protected session. From the fence, you can retrieve the current uniqueness validity value (using <a href="https://msdn.microsoft.com/2F2DDFC5-8D31-4BCE-B378-610C95D7805F">ID3D12Fence::GetCompletedValue</a>), and add monitors for changes to its value. This is a read-only fence.
+Retrieves the fence for the protected session. From the fence, you can retrieve the current uniqueness validity value (using <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12fence-getcompletedvalue">ID3D12Fence::GetCompletedValue</a>), and add monitors for changes to its value. This is a read-only fence.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Retrieves the fence for the protected session. From the fence, you can retrieve 
 
 ### -param riid
 
-The GUID of the interface to a fence. Most commonly, <a href="https://msdn.microsoft.com/2B388352-EF43-4D1E-851C-A670B4681F0F">ID3D12Fence</a>, although it may be any GUID for any interface. If the protected session object doesn’t support the interface for this GUID, the function returns <b>E_NOINTERFACE</b>.
+The GUID of the interface to a fence. Most commonly, <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12fence">ID3D12Fence</a>, although it may be any GUID for any interface. If the protected session object doesn’t support the interface for this GUID, the function returns <b>E_NOINTERFACE</b>.
 
 
 ### -param ppFence [optional]

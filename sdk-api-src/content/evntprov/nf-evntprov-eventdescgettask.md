@@ -63,7 +63,7 @@ Retrieves
 
 ### -param EventDescriptor [in]
 
-Event descriptor from which to retrieve the task. See <a href="https://msdn.microsoft.com/907e6c38-5eaa-49da-9dc0-d055dcc69d1a">EVENT_DESCRIPTOR</a>.
+Event descriptor from which to retrieve the task. See <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_descriptor">EVENT_DESCRIPTOR</a>.
 
 
 ## -returns
@@ -79,7 +79,7 @@ Task that identifies the logical component of the application whose events you w
 
 
 
-This is a convenience macro for retrieving the member of the <a href="https://msdn.microsoft.com/907e6c38-5eaa-49da-9dc0-d055dcc69d1a">EVENT_DESCRIPTOR</a> structure.
+This is a convenience macro for retrieving the member of the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_descriptor">EVENT_DESCRIPTOR</a> structure.
 
 
 
@@ -89,7 +89,7 @@ This is a convenience macro for retrieving the member of the <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/907e6c38-5eaa-49da-9dc0-d055dcc69d1a">EVENT_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_descriptor">EVENT_DESCRIPTOR</a>
  
 
  

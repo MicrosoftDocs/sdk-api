@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a new <a href="https://msdn.microsoft.com/en-us/library/Dn904598(v=VS.85).aspx">TraceLoggingActivity</a> object.
+Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity~r1">TraceLoggingActivity</a> object.
 
 <b>TraceLoggingActivity</b> is a class template.
 
@@ -96,7 +96,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn904598(v=VS.85).aspx">TraceLoggingActivity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity~r1">TraceLoggingActivity</a>
  
 
  

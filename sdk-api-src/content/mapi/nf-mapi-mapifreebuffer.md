@@ -61,7 +61,7 @@ The <b>MAPIFreeBuffer</b> function frees memory allocated by the messaging syste
 
 ### -param pv [in]
 
-Pointer to memory allocated by the messaging system. This pointer is returned by the <a href="https://msdn.microsoft.com/46a8ff9f-17d9-4c33-8ca4-0a3978013f52">MAPIReadMail</a>, <a href="https://msdn.microsoft.com/4f01763d-22a2-4ee4-a559-f875cb06ea6b">MAPIAddress</a>, and <a href="https://msdn.microsoft.com/c834ea40-62c6-44a8-b0e1-f569a92b4c83">MAPIResolveName</a> functions.
+Pointer to memory allocated by the messaging system. This pointer is returned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapireadmail">MAPIReadMail</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapiaddress">MAPIAddress</a>, and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapiresolvename">MAPIResolveName</a> functions.
 
 
 ## -returns
@@ -108,11 +108,11 @@ The call succeeded and the memory was freed.
 
 
 
-<a href="https://msdn.microsoft.com/d04316cf-31f5-4f5f-ad20-01ce720fdf4c">MAPILogoff</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapilogoff">MAPILogoff</a>
 
 
 
-<a href="https://msdn.microsoft.com/a8330f38-3ef0-4b36-a5e7-89837088cbef">Simple MAPI</a>
+<a href="https://docs.microsoft.com/previous-versions//dd296734(v=vs.85)">Simple MAPI</a>
  
 
  

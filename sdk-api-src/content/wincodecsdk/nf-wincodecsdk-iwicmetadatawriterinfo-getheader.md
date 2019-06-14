@@ -73,9 +73,9 @@ The size of the <i>pHeader</i> buffer.
 
 ### -param pHeader [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/f643b163-55b2-4691-a4eb-fc162949e936">WICMetadataHeader</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/ns-wincodecsdk-wicmetadataheader">WICMetadataHeader</a>*</b>
 
-Pointer that receives the <a href="https://msdn.microsoft.com/f643b163-55b2-4691-a4eb-fc162949e936">WICMetadataHeader</a>.
+Pointer that receives the <a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/ns-wincodecsdk-wicmetadataheader">WICMetadataHeader</a>.
 
 
 ### -param pcbActual [in, out]

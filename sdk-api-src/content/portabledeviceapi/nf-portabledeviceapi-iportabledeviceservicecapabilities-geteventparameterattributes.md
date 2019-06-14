@@ -64,7 +64,7 @@ The event that contains the parameter whose attributes are retrieved.
 
 ### -param ppAttributes [out]
 
-The <a href="https://msdn.microsoft.com/a73cbb4e-15d2-4c8d-9267-aaec9a0fd09f">IPortableDeviceValues</a> interface that receives the list of attributes.
+The <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicevalues">IPortableDeviceValues</a> interface that receives the list of attributes.
 
 
 ### -param Parameter [in]
@@ -86,12 +86,12 @@ If the method succeeds, it returns <b>S_OK</b>. Any other <b>HRESULT</b> value i
 
 
 
-Possible attribute values include the <a href="https://msdn.microsoft.com/en-us/library/Dd389006(v=VS.85).aspx">WPD_PARAMETER_ATTRIBUTE_VARTYPE</a> and WPD_PARAMETER_ATTRIBUTE_FORM properties.
+Possible attribute values include the <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-attributes">WPD_PARAMETER_ATTRIBUTE_VARTYPE</a> and WPD_PARAMETER_ATTRIBUTE_FORM properties.
 
 
 #### Examples
 
-For an example of how to use this method, see <a href="https://msdn.microsoft.com/1bf3aa08-7ffc-417f-a67e-9eee042337b9">Retrieving Supported Service Events</a>.
+For an example of how to use this method, see <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/retrieving-supported-events">Retrieving Supported Service Events</a>.
 
 <div class="code"></div>
 
@@ -102,11 +102,11 @@ For an example of how to use this method, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/d472d31c-90da-4ecc-9cf7-4474457a244f">IPortableDeviceServiceCapabilities Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicecapabilities">IPortableDeviceServiceCapabilities Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/1bf3aa08-7ffc-417f-a67e-9eee042337b9">Retrieving Supported Service Events</a>
+<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/retrieving-supported-events">Retrieving Supported Service Events</a>
  
 
  

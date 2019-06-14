@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Enables a container to control the running of its embedded objects. In the case of an object implemented with a local server, calling the <a href="https://msdn.microsoft.com/fb79e81c-0655-48ea-afb5-dab3529676d0">Run</a> method launches the server's .EXE file. In the case of an object implemented with an in-process server, calling <b>Run</b> causes the object .DLL file to transition into the running state.
+Enables a container to control the running of its embedded objects. In the case of an object implemented with a local server, calling the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunnableobject-run">Run</a> method launches the server's .EXE file. In the case of an object implemented with an in-process server, calling <b>Run</b> causes the object .DLL file to transition into the running state.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRunnableObject</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IRunnableObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRunnableObject</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRunnableObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IRunnableObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dfe80741-ceda-44cd-8506-1807bb664ad0">GetRunningClass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunnableobject-getrunningclass">GetRunningClass</a>
 </td>
 <td align="left" width="63%">
 Retrieves the CLSID of a running object.
@@ -78,7 +78,7 @@ Retrieves the CLSID of a running object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0a4cdd21-8256-4533-9cad-d9e8450a17e9">IsRunning</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunnableobject-isrunning">IsRunning</a>
 </td>
 <td align="left" width="63%">
 Determines whether an object is currently in the running state.
@@ -87,7 +87,7 @@ Determines whether an object is currently in the running state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ce501785-16ad-4120-abea-41e2d6ca67df">LockRunning</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunnableobject-lockrunning">LockRunning</a>
 </td>
 <td align="left" width="63%">
 Locks an already running object into its running state or unlocks it from its running state.
@@ -96,7 +96,7 @@ Locks an already running object into its running state or unlocks it from its ru
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fb79e81c-0655-48ea-afb5-dab3529676d0">Run</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunnableobject-run">Run</a>
 </td>
 <td align="left" width="63%">
 Forces an object to run.
@@ -105,7 +105,7 @@ Forces an object to run.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dbd3f632-2b81-44d1-8376-4b507316895f">SetContainedObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunnableobject-setcontainedobject">SetContainedObject</a>
 </td>
 <td align="left" width="63%">
 Notifies an object that it is embedded in an OLE container.

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[This function is retained only for backward compatibility. Use <a href="https://msdn.microsoft.com/b563e8ed-311d-4971-94f3-9c9fde4a2f30">ExpandEnvironmentStrings</a> instead.]
+<p class="CCE_Message">[This function is retained only for backward compatibility. Use <a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">ExpandEnvironmentStrings</a> instead.]
 
 Parses an input string that contains references to one or more environment variables and replaces them with their fully expanded values.
         
@@ -141,7 +141,7 @@ The following are only available to interactive applications.
 <li>USERDOMAIN</li>
 <li>USERNAME</li>
 </ul>
-The environment variables that correspond to file system folders can be mapped to an equivalent <a href="https://msdn.microsoft.com/33d92271-2865-4ebd-b96c-bf293deb4310">CSIDL</a> or <a href="https://msdn.microsoft.com/f2c08ade-3083-44e4-82b0-dde45f0e3094">KNOWNFOLDERID</a>value can be obtained through <a href="https://msdn.microsoft.com/6fcac066-1ab0-443a-9994-b68ead3bbc20">SHGetFolderLocation</a> or <a href="https://msdn.microsoft.com/5434c744-484b-4c34-9a76-dddbcb81eb29">SHGetKnownFolderPath</a>. CSIDLs and KNOWNFOLDERIDs are more reliable than environment variable names and should be used whenever possible.
+The environment variables that correspond to file system folders can be mapped to an equivalent <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL</a> or <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a>value can be obtained through <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderlocation">SHGetFolderLocation</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath">SHGetKnownFolderPath</a>. CSIDLs and KNOWNFOLDERIDs are more reliable than environment variable names and should be used whenever possible.
 
 
 #### Examples

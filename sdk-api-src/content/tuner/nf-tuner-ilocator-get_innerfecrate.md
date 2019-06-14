@@ -62,7 +62,7 @@ The <b>get_InnerFECRate</b> method gets the inner FEC rate.
 
 ### -param FEC [out]
 
-Pointer to a variable of type <a href="https://msdn.microsoft.com/161c963f-55b2-4a17-a537-47de3326df0e">BinaryConvolutionCodeRate</a> that receives the inner FEC rate.
+Pointer to a variable of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/binaryconvolutioncoderate">BinaryConvolutionCodeRate</a> that receives the inner FEC rate.
 
 
 ## -returns
@@ -79,19 +79,19 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="https://msdn.microsoft.com/1d6c18f0-e7f1-4a1c-9edb-e4b66297becf">ILocator</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator">ILocator</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd693580(v=VS.85).aspx">get_InnerFEC</a>
+<a href="https://docs.microsoft.com/previous-versions//dd693580(v=vs.85)">get_InnerFEC</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd693583(v=VS.85).aspx">get_OuterFECRate</a>
+<a href="https://docs.microsoft.com/previous-versions//dd693583(v=vs.85)">get_OuterFECRate</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd693586(v=VS.85).aspx">put_InnerFECRate</a>
+<a href="https://docs.microsoft.com/previous-versions//dd693586(v=vs.85)">put_InnerFECRate</a>
  
 
  

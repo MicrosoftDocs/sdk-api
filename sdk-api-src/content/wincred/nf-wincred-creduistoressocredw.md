@@ -71,7 +71,7 @@ Pointer to a <b>null</b>-terminated string that specifies the user's name.
 
 ### -param pszPassword [in]
 
-Pointer to a <b>null</b>-terminated string that specifies the user's password. When you have finished using the password, clear the password from memory by calling the <a href="https://msdn.microsoft.com/2c4090a6-025b-4b7b-8f31-7e744ad51b39">SecureZeroMemory</a> function. For more information about protecting passwords, see <a href="https://msdn.microsoft.com/1d810f71-9bf5-4c5c-a573-c35081f604cf">Handling Passwords</a>.
+Pointer to a <b>null</b>-terminated string that specifies the user's password. When you have finished using the password, clear the password from memory by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function. For more information about protecting passwords, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
 
 
 ### -param bPersist [in]
@@ -93,7 +93,7 @@ The return value is a <b>DWORD</b>. A return value of ERROR_SUCCESS indicates th
 
 
 
-<a href="https://msdn.microsoft.com/875be45d-ad33-4a51-80ad-8217ca0446dc">CredUIReadSSOCredW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduireadssocredw">CredUIReadSSOCredW</a>
  
 
  

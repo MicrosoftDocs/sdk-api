@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines a set of extended options for the session. These options are used with the <a href="https://msdn.microsoft.com/e6d21412-49c5-4e04-974d-28e0165ddb69">WSManSetSessionOption</a> method.
+Defines a set of extended options for the session. These options are used with the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmansetsessionoption">WSManSetSessionOption</a> method.
 
 
 
@@ -68,32 +68,32 @@ Default time-out in milliseconds that applies to all operations on the client si
 
 ### -field WSMAN_OPTION_TIMEOUTMS_CREATE_SHELL
 
-Time-out in milliseconds for <a href="https://msdn.microsoft.com/901c0a2d-d25f-451c-8d6c-83662f1f1061">WSManCreateShell</a> operations.
+Time-out in milliseconds for <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmancreateshell">WSManCreateShell</a> operations.
 
 
 ### -field WSMAN_OPTION_TIMEOUTMS_RUN_SHELL_COMMAND
 
-Time-out in milliseconds for <a href="https://msdn.microsoft.com/8f5c89f8-418c-4a4d-9a52-0fc01ec636b2">WSManRunShellCommand</a> operations.
+Time-out in milliseconds for <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanrunshellcommand">WSManRunShellCommand</a> operations.
 
 
 ### -field WSMAN_OPTION_TIMEOUTMS_RECEIVE_SHELL_OUTPUT
 
-Time-out in milliseconds for <a href="https://msdn.microsoft.com/cc64f212-9897-4a58-b3f1-bc2093f593ba">WSManReceiveShellOutput</a> operations.
+Time-out in milliseconds for <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanreceiveshelloutput">WSManReceiveShellOutput</a> operations.
 
 
 ### -field WSMAN_OPTION_TIMEOUTMS_SEND_SHELL_INPUT
 
-Time-out in milliseconds for <a href="https://msdn.microsoft.com/2336671e-0f60-407f-86a2-9918bbf7f66b">WSManSendShellInput</a> operations.
+Time-out in milliseconds for <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmansendshellinput">WSManSendShellInput</a> operations.
 
 
 ### -field WSMAN_OPTION_TIMEOUTMS_SIGNAL_SHELL
 
-Time-out in milliseconds for <a href="https://msdn.microsoft.com/9954097d-3e27-4f56-bf8c-3d9aba5c19b5">WSManSignalShell</a> and <a href="https://msdn.microsoft.com/41ef2a6d-af1a-4a51-b01d-262380f01187">WSManCloseCommand</a> operations.
+Time-out in milliseconds for <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmansignalshell">WSManSignalShell</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanclosecommand">WSManCloseCommand</a> operations.
 
 
 ### -field WSMAN_OPTION_TIMEOUTMS_CLOSE_SHELL
 
-Time-out in milliseconds for <a href="https://msdn.microsoft.com/1da452ef-5842-4d8d-941b-09fa57393ebb">WSManCloseShell</a> operations connection options.
+Time-out in milliseconds for <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmancloseshell">WSManCloseShell</a> operations connection options.
 
 
 ### -field WSMAN_OPTION_SKIP_CA_CHECK

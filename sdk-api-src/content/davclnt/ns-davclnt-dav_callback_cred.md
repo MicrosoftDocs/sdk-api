@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Stores user credential information  that was retrieved by the <a href="https://msdn.microsoft.com/6ac191ac-e63f-431f-893b-92c69320db58">DavAuthCallback</a> callback function.
+Stores user credential information  that was retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback">DavAuthCallback</a> callback function.
 
 
 ## -struct-fields
@@ -59,12 +59,12 @@ Stores user credential information  that was retrieved by the <a href="https://m
 
 ### -field AuthBlob
 
-If the <b>bAuthBlobValid</b> member is <b>TRUE</b>, this member is a <a href="https://msdn.microsoft.com/59976cb0-ed68-4db0-b8f8-cfe5e778916b">DAV_CALLBACK_AUTH_BLOB</a> structure that contains the user credential information.
+If the <b>bAuthBlobValid</b> member is <b>TRUE</b>, this member is a <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-_dav_callback_auth_blob">DAV_CALLBACK_AUTH_BLOB</a> structure that contains the user credential information.
 
 
 ### -field UNPBlob
 
-If the <b>bAuthBlobValid</b> member is <b>FALSE</b>, this member is a <a href="https://msdn.microsoft.com/47420a67-bf3f-40d9-bfc4-ac2cb2776a40">DAV_CALLBACK_AUTH_UNP</a> structure that contains the user credential information.
+If the <b>bAuthBlobValid</b> member is <b>FALSE</b>, this member is a <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-_dav_callback_auth_unp">DAV_CALLBACK_AUTH_UNP</a> structure that contains the user credential information.
 
 
 ### -field bAuthBlobValid
@@ -74,14 +74,14 @@ If the <b>bAuthBlobValid</b> member is <b>FALSE</b>, this member is a <a href="h
 
 ### -field bSave
 
-<b>TRUE</b> if the credential information was written to the <a href="https://msdn.microsoft.com/a1105754-a57f-4a0d-9797-bec22b99900c">credential manager</a>, or <b>FALSE</b> otherwise.
+<b>TRUE</b> if the credential information was written to the <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/credential-manager">credential manager</a>, or <b>FALSE</b> otherwise.
 
 
 ## -remarks
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/6ac191ac-e63f-431f-893b-92c69320db58">DavAuthCallback</a> callback function.
+This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback">DavAuthCallback</a> callback function.
 
 
 
@@ -91,19 +91,19 @@ This structure is used by the <a href="https://msdn.microsoft.com/6ac191ac-e63f-
 
 
 
-<a href="https://msdn.microsoft.com/59976cb0-ed68-4db0-b8f8-cfe5e778916b">DAV_CALLBACK_AUTH_BLOB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-_dav_callback_auth_blob">DAV_CALLBACK_AUTH_BLOB</a>
 
 
 
-<a href="https://msdn.microsoft.com/47420a67-bf3f-40d9-bfc4-ac2cb2776a40">DAV_CALLBACK_AUTH_UNP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-_dav_callback_auth_unp">DAV_CALLBACK_AUTH_UNP</a>
 
 
 
-<a href="https://msdn.microsoft.com/6ac191ac-e63f-431f-893b-92c69320db58">DavAuthCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback">DavAuthCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/96bacda5-8f24-4119-b0ae-82ff8aff54b4">DavFreeCredCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback_freecred">DavFreeCredCallback</a>
  
 
  

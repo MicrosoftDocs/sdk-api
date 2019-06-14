@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndStep</b> macro moves the current position in the content forward or backward by a specified increment. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/8d976840-fe9d-4393-b9fc-10f847166b1b">MCI_STEP</a> command.
+The <b>MCIWndStep</b> macro moves the current position in the content forward or backward by a specified increment. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-step">MCI_STEP</a> command.
 
 
 

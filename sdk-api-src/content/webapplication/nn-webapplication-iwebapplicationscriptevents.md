@@ -54,7 +54,7 @@ Enables a debugging or authoring app to receive notification of scripting engine
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWebApplicationScriptEvents</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWebApplicationScriptEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWebApplicationScriptEvents</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWebApplicationScriptEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWebApplicationScriptEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dfb3cc08-e166-455a-b26b-e6f36b394df0">BeforeScriptExecuted</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/debug_wwahost/iwebapplicationscriptevents-beforescriptexecuted">BeforeScriptExecuted</a>
 </td>
 <td align="left" width="63%">
 Fired before any script is executed on the page.
@@ -78,7 +78,7 @@ Fired before any script is executed on the page.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4f1e6260-804d-4881-b2d8-70a1463a46bd">ScriptError</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/webapplication/nf-webapplication-iwebapplicationscriptevents-scripterror">ScriptError</a>
 </td>
 <td align="left" width="63%">
 Fired when an unhandled script error occurs.

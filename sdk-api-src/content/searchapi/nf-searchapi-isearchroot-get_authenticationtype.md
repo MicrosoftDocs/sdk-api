@@ -59,9 +59,9 @@ Retrieves the type of authentication needed to access the URLs under this this s
 
 ### -param pAuthType [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965687(v=VS.85).aspx">AUTH_TYPE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-_auth_type">AUTH_TYPE</a>*</b>
 
-A pointer to a value from the <a href="https://msdn.microsoft.com/en-us/library/Aa965687(v=VS.85).aspx">AUTH_TYPE</a> enumeration that indicates the authentication type required to access URLs under this search root.
+A pointer to a value from the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-_auth_type">AUTH_TYPE</a> enumeration that indicates the authentication type required to access URLs under this search root.
 
 
 ## -returns

@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 <span>This topic lists the 
 			Inflate methods of the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a> class. For a complete list of methods for the 
-			<b>Rect</b> class, see <a href="https://msdn.microsoft.com/en-us/library/ms534961(v=VS.85).aspx">Rect Methods</a>. 
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a> class. For a complete list of methods for the 
+			<b>Rect</b> class, see <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-class-rect-methods">Rect Methods</a>. 
 </span><h3>Overload list</h3><table>
 <tr>
 <th align="left" width="37%">Method</th>
@@ -60,19 +60,19 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534983(v=VS.85).aspx">Inflate(Point&)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-inflate(inconstpoint_)">Inflate(Point&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534983(v=VS.85).aspx">Rect::Inflate</a> method expands the rectangle by the value of <i>point</i>.<b>X</b><i>point</i>.<b>Y</b> on the top and bottom edges.
+The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-inflate(inconstpoint_)">Rect::Inflate</a> method expands the rectangle by the value of <i>point</i>.<b>X</b><i>point</i>.<b>Y</b> on the top and bottom edges.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534982(v=VS.85).aspx">Inflate(INT,INT)</a>
+<a href="https://docs.microsoft.com/previous-versions//ms534982(v=vs.85)">Inflate(INT,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534982(v=VS.85).aspx">Rect::Inflate</a><i>dx</i><i>dy</i> on the top and bottom edges.
+The <a href="https://docs.microsoft.com/previous-versions//ms534982(v=vs.85)">Rect::Inflate</a><i>dx</i><i>dy</i> on the top and bottom edges.
 
 </td>
 </tr>

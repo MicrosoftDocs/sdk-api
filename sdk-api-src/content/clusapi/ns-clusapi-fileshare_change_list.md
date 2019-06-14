@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Describes an event notification list for file shares managed by the File Server 
-    <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a>.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a>.
 
 
 ## -struct-fields
@@ -66,7 +66,7 @@ The number of entries the event notification list contains.
 ### -field ChangeEntry
 
 An entry in the event notification list. The format of this member comes from the 
-       <a href="https://msdn.microsoft.com/f317f162-49b2-43df-a298-e2de707e089a">FILESHARE_CHANGE</a> structure.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-_fileshare_change">FILESHARE_CHANGE</a> structure.
 
 
 ## -see-also
@@ -74,11 +74,11 @@ An entry in the event notification list. The format of this member comes from th
 
 
 
-<a href="https://msdn.microsoft.com/f317f162-49b2-43df-a298-e2de707e089a">FILESHARE_CHANGE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-_fileshare_change">FILESHARE_CHANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/45da8dbc-dd70-4f95-b933-66d8e4340448">Utility Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/utility-structures">Utility Structures</a>
  
 
  

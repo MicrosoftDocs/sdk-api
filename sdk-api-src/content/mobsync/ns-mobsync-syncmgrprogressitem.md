@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Provides status information while a synchronization is in progress. This structure is used with the <a href="https://msdn.microsoft.com/924310aa-e210-476d-b532-f235de943498">ISyncMgrSynchronizeCallback::Progress</a> method and corresponds to a single synchronization item.
+Provides status information while a synchronization is in progress. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-progress">ISyncMgrSynchronizeCallback::Progress</a> method and corresponds to a single synchronization item.
 
 
 ## -struct-fields
@@ -68,7 +68,7 @@ The size of the structure, in bytes.
 
 Type: <b>UINT</b>
 
-Flags from the <a href="https://msdn.microsoft.com/a2bdc883-2e61-42a4-a88b-8fab42f018e1">SYNCMGRSTATUS</a> enumeration that specify which members of this structure are used.
+Flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-_tagsyncmgrstatus">SYNCMGRSTATUS</a> enumeration that specify which members of this structure are used.
 
 
 ### -field lpcStatusText
@@ -82,7 +82,7 @@ Status text.
 
 Type: <b>DWORD</b>
 
-One of the values from the <a href="https://msdn.microsoft.com/a2bdc883-2e61-42a4-a88b-8fab42f018e1">SYNCMGRSTATUS</a> enumeration.
+One of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-_tagsyncmgrstatus">SYNCMGRSTATUS</a> enumeration.
 
 
 ### -field iProgValue
@@ -104,7 +104,7 @@ An integer that indicates the maximum progress value.
 
 
 
-<a href="https://msdn.microsoft.com/924310aa-e210-476d-b532-f235de943498">ISyncMgrSynchronizeCallback::Progress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-progress">ISyncMgrSynchronizeCallback::Progress</a>
  
 
  

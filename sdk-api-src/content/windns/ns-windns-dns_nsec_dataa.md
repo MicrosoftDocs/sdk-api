@@ -84,7 +84,7 @@ Reserved. Do not use.
 
 ### -field TypeBitMaps
 
-A <b>BYTE</b> array that contains a bitmap that specifies which RR types are supported by the NSEC RR owner. Each bit in the array corresponds to a <a href="https://msdn.microsoft.com/95bc9193-7962-498a-9abd-c4718ac35f0f">DNS Record Type</a> as defined in section in section 4.1.2 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>.
+A <b>BYTE</b> array that contains a bitmap that specifies which RR types are supported by the NSEC RR owner. Each bit in the array corresponds to a <a href="https://docs.microsoft.com/windows/desktop/DNS/dns-constants">DNS Record Type</a> as defined in section in section 4.1.2 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>.
 
 
 ## -remarks
@@ -93,7 +93,7 @@ A <b>BYTE</b> array that contains a bitmap that specifies which RR types are sup
 
 The 
 <b>DNS_NSEC_DATA</b> structure is used in conjunction with the 
-<a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a> structure to programmatically manage DNS entries.
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 
 
@@ -103,11 +103,11 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/636399be-43a5-4ddf-b652-f8efb81fbf42">DNS Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DNS/dns-structures">DNS Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a>
  
 
  

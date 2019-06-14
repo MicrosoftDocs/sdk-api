@@ -54,7 +54,7 @@ The <b>ITfUIElementMgr</b> interface is implemented by TSF manager and used by a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfUIElementMgr</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfUIElementMgr</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfUIElementMgr</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfUIElementMgr</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfUIElementMgr</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7c522920-8bd7-4385-b77d-34df26967179">BeginUIElement</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfuielementmgr-beginuielement">BeginUIElement</a>
 </td>
 <td align="left" width="63%">
 A text service calls this method before showing UI. It returns if the text service’s UI should be shown or not.
@@ -78,7 +78,7 @@ A text service calls this method before showing UI. It returns if the text servi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cec22994-c233-4f84-8237-749ef3cc8aff">EndUIElement</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfuielementmgr-enduielement">EndUIElement</a>
 </td>
 <td align="left" width="63%">
 A text service calls this method when the element of UI is hidden.
@@ -87,7 +87,7 @@ A text service calls this method when the element of UI is hidden.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cdede376-be18-4deb-ae79-594aebb085a6">EnumUIElements</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfuielementmgr-enumuielements">EnumUIElements</a>
 </td>
 <td align="left" width="63%">
 Return IEnumTfUIElements interface poinssster to enumerate the ITfUIElement.
@@ -96,7 +96,7 @@ Return IEnumTfUIElements interface poinssster to enumerate the ITfUIElement.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e3a2a7ae-1ca2-4c1e-83af-207821966147">GetUIElement</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfuielementmgr-getuielement">GetUIElement</a>
 </td>
 <td align="left" width="63%">
 Get ITfUIElement interface of the element id.
@@ -105,7 +105,7 @@ Get ITfUIElement interface of the element id.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c7df9abf-53a0-41a4-aac5-d90b9abfbeec">UpdateUIElement</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfuielementmgr-updateuielement">UpdateUIElement</a>
 </td>
 <td align="left" width="63%">
 A text service calls this method when the element of UI must be updated.

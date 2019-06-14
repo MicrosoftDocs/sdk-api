@@ -94,7 +94,7 @@ Success
 
 You should not have to call this method.
 
-BITS automatically discovers new peers when a job requests content from a peer. You can also call the <a href="https://msdn.microsoft.com/c83632c2-5d01-48ab-93ef-961778c2379a">IBitsPeerCacheAdministration::DiscoverPeers</a> method to force discovery of peers.
+BITS automatically discovers new peers when a job requests content from a peer. You can also call the <a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-discoverpeers">IBitsPeerCacheAdministration::DiscoverPeers</a> method to force discovery of peers.
 
 
 
@@ -104,15 +104,15 @@ BITS automatically discovers new peers when a job requests content from a peer. 
 
 
 
-<a href="https://msdn.microsoft.com/5fa30b4e-f13c-4341-af65-a2e3d2703b96">IBitsPeerCacheAdministration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ibitspeercacheadministration">IBitsPeerCacheAdministration</a>
 
 
 
-<a href="https://msdn.microsoft.com/c83632c2-5d01-48ab-93ef-961778c2379a">IBitsPeerCacheAdministration::DiscoverPeers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-discoverpeers">IBitsPeerCacheAdministration::DiscoverPeers</a>
 
 
 
-<a href="https://msdn.microsoft.com/8786d7d8-9ffb-4492-9834-90b97f97e4cf">IBitsPeerCacheAdministration::EnumPeers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-enumpeers">IBitsPeerCacheAdministration::EnumPeers</a>
  
 
  

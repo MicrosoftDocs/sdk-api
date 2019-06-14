@@ -99,7 +99,7 @@ The method succeeded.
 
 
 
-See  <a href="https://msdn.microsoft.com/979A5FE5-0DED-4C5A-A27D-CDD10A4A8D5C">MFLoadSignedLibrary</a> for an example of how to create an <a href="https://msdn.microsoft.com/1170fd74-7da4-49a8-b095-dd1572db382d">IMFSignedLibrary</a> object and call the <b>GetProcedureAddress</b> method.
+See  <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfloadsignedlibrary">MFLoadSignedLibrary</a> for an example of how to create an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsignedlibrary">IMFSignedLibrary</a> object and call the <b>GetProcedureAddress</b> method.
 
 
 
@@ -109,11 +109,11 @@ See  <a href="https://msdn.microsoft.com/979A5FE5-0DED-4C5A-A27D-CDD10A4A8D5C">M
 
 
 
-<a href="https://msdn.microsoft.com/1170fd74-7da4-49a8-b095-dd1572db382d">IMFSignedLibrary</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsignedlibrary">IMFSignedLibrary</a>
 
 
 
-<a href="https://msdn.microsoft.com/979A5FE5-0DED-4C5A-A27D-CDD10A4A8D5C">MFLoadSignedLibrary</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfloadsignedlibrary">MFLoadSignedLibrary</a>
  
 
  

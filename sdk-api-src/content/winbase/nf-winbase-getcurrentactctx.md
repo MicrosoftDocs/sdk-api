@@ -63,7 +63,7 @@ The
 ### -param lphActCtx [out]
 
 Pointer to the returned 
-<a href="https://msdn.microsoft.com/b6f97f25-1834-44f7-86b7-33339481ba60">ACTCTX</a> structure that contains information on the active activation context.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-tagactctxa">ACTCTX</a> structure that contains information on the active activation context.
 
 
 ## -returns
@@ -73,9 +73,9 @@ Pointer to the returned
 If the function succeeds, it returns <b>TRUE</b>. Otherwise, it returns <b>FALSE</b>.
 
 This function sets errors that can be retrieved by calling 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. For an example, see 
-<a href="https://msdn.microsoft.com/4cc626ac-7574-44ce-8377-e0bdd8e74b7e">Retrieving the Last-Error Code</a>. For a complete list of error codes, see 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. For an example, see 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/retrieving-the-last-error-code">Retrieving the Last-Error Code</a>. For a complete list of error codes, see 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -94,7 +94,7 @@ The calling thread is responsible for releasing the handle of the returned activ
 
 
 
-<a href="https://msdn.microsoft.com/b6f97f25-1834-44f7-86b7-33339481ba60">ACTCTX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-tagactctxa">ACTCTX</a>
  
 
  

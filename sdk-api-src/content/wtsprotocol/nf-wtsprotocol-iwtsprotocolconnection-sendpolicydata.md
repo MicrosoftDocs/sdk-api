@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>IWTSProtocolConnection::SendPolicyData</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://msdn.microsoft.com/80292d9b-fced-4726-8f83-5ba355df06a2">IWRdsProtocolManager::NotifySettingsChange</a>.]
+<p class="CCE_Message">[<b>IWTSProtocolConnection::SendPolicyData</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolmanager-notifysettingschange">IWRdsProtocolManager::NotifySettingsChange</a>.]
 
 Sends computer policy settings to the custom protocol. These settings are a combination of listener policies and Group Policy settings.
 
@@ -61,14 +61,14 @@ Sends computer policy settings to the custom protocol. These settings are a comb
 
 ### -param pPolicyData [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/407de671-f6e3-407e-9c97-11ea9ac8bdde">WTS_POLICY_DATA</a> structure that contains computer policy settings.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_policy_data">WTS_POLICY_DATA</a> structure that contains computer policy settings.
 
 
 ## -remarks
 
 
 
-The <b>SendPolicyData</b> method is the second method called by the Remote Desktop Services service during a connection sequence.  The protocol must call the <a href="https://msdn.microsoft.com/a1289aca-bcf6-4fd2-a288-d401bece005d">OnReady</a> method after this method is called, or the connection is dropped. 
+The <b>SendPolicyData</b> method is the second method called by the Remote Desktop Services service during a connection sequence.  The protocol must call the <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnectioncallback-onready">OnReady</a> method after this method is called, or the connection is dropped. 
 
 
 
@@ -78,7 +78,7 @@ The <b>SendPolicyData</b> method is the second method called by the Remote Deskt
 
 
 
-<a href="https://msdn.microsoft.com/584a6874-0df4-480e-a10a-4b603643870e">IWTSProtocolConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>
  
 
  

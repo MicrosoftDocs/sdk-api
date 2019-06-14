@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>NCryptNotifyChangeKey</b> function creates or removes a key change notification.
 
-The handle provided by this function is the same handle that is returned by the <a href="https://msdn.microsoft.com/dde4dd17-0f8c-41b5-8685-4e4c6b3def3c">FindFirstChangeNotification</a> function. You use the <a href="https://msdn.microsoft.com/9c66c71d-fdfd-42ae-895c-2fc842b5bc7a">wait functions</a> to wait for the notification handle to be signaled.
+The handle provided by this function is the same handle that is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstchangenotificationa">FindFirstChangeNotification</a> function. You use the <a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">wait functions</a> to wait for the notification handle to be signaled.
 
 
 ## -parameters
@@ -61,12 +61,12 @@ The handle provided by this function is the same handle that is returned by the 
 
 ### -param hProvider [in]
 
-The handle of the key storage provider. This handle is obtained by using the <a href="https://msdn.microsoft.com/febcf440-78b3-420b-b13d-030e8071cd50">NCryptOpenStorageProvider</a> function.
+The handle of the key storage provider. This handle is obtained by using the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenstorageprovider">NCryptOpenStorageProvider</a> function.
 
 
 ### -param phEvent [in, out]
 
-The address of a <b>HANDLE</b> variable that either receives or contains the key change notification event handle. This is the same handle that is returned by the <a href="https://msdn.microsoft.com/dde4dd17-0f8c-41b5-8685-4e4c6b3def3c">FindFirstChangeNotification</a> function. For more information, see the <i>dwFlags</i> parameter description.
+The address of a <b>HANDLE</b> variable that either receives or contains the key change notification event handle. This is the same handle that is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstchangenotificationa">FindFirstChangeNotification</a> function. For more information, see the <i>dwFlags</i> parameter description.
 
 
 ### -param dwFlags [in]
@@ -195,7 +195,7 @@ A service must not call this function from its <a href="http://go.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/dde4dd17-0f8c-41b5-8685-4e4c6b3def3c">FindFirstChangeNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstchangenotificationa">FindFirstChangeNotification</a>
  
 
  

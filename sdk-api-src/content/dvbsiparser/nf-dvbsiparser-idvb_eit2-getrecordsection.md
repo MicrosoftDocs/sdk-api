@@ -59,7 +59,7 @@ Gets the number of a section containing an event information table (EIT) record.
 
 ### -param dwRecordIndex [in]
 
-The record number, indexed from 0. Call <a href="https://msdn.microsoft.com/1ea8c91b-f1a2-4c04-933c-c8a2fbfda86f">IDVB_EIT::GetCountOfRecords</a> to get the number of records in the EIT.
+The record number, indexed from 0. Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_eit-getcountofrecords">IDVB_EIT::GetCountOfRecords</a> to get the number of records in the EIT.
 
 
 ### -param pbVal [out]
@@ -118,7 +118,7 @@ Index out of bounds.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/a0ffa39a-9e91-4229-8dee-b31f3973f384">Initialize</a> method was not called.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_eit-initialize">Initialize</a> method was not called.
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ The <a href="https://msdn.microsoft.com/a0ffa39a-9e91-4229-8dee-b31f3973f384">In
 
 
 
-<a href="https://msdn.microsoft.com/9d93130c-12fb-4c76-98c1-cdfae113cf2c">IDVB_EIT2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_eit2">IDVB_EIT2</a>
  
 
  

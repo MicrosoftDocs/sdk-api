@@ -51,10 +51,10 @@ ms.custom: 19H1
 
 The 
 <b>IGPMConstants2</b> interface supports methods that retrieve the value of multiple Group Policy Management Console (GPMC) constants. The constants that are supported by <b>IGPMConstants2</b> provide Starter Group Policy object (GPO) and comment support. To create a <b>GPMConstants2</b> object, call the 
-<a href="https://msdn.microsoft.com/ba271dbb-320f-409c-aff4-b7dde57f9062">IGPM::GetConstants</a> method.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpm-getconstants">IGPM::GetConstants</a> method.
 
 The <b>GPMConstants</b> object that implements the 
-<a href="https://msdn.microsoft.com/e9137167-4a2d-4cc4-940e-20f9991c4187">IGPMConstants2</a> interface does not introduce new constants. All the constant values and the enumeration types that are  returned by the <b>GPMConstants</b> object can be found in either the GPMC header file (Gpmgmt.idl or Gpmgmt.h) or in the GPMC type library that is embedded in the Gpmgmt.dll dynamic-link library. Use the <b>GPMConstants</b> object only if you do not have access to the header or to the type library.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmconstants">IGPMConstants2</a> interface does not introduce new constants. All the constant values and the enumeration types that are  returned by the <b>GPMConstants</b> object can be found in either the GPMC header file (Gpmgmt.idl or Gpmgmt.h) or in the GPMC type library that is embedded in the Gpmgmt.dll dynamic-link library. Use the <b>GPMConstants</b> object only if you do not have access to the header or to the type library.
 
 
 ## -remarks
@@ -62,7 +62,7 @@ The <b>GPMConstants</b> object that implements the
 
 
 For more information about policy-related permissions, see 
-<a href="https://msdn.microsoft.com/8da90ca3-1c81-414f-b1a0-a0dfcae745ba">IGPM::CreatePermission</a> (<b>GPM.CreatePermission</b>).
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpm-createpermission">IGPM::CreatePermission</a> (<b>GPM.CreatePermission</b>).
 
 
 
@@ -72,11 +72,11 @@ For more information about policy-related permissions, see
 
 
 
-<a href="https://msdn.microsoft.com/2780760e-7114-46b0-a264-00ed58a556cb">IGPM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9137167-4a2d-4cc4-940e-20f9991c4187">IGPMConstants</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmconstants">IGPMConstants</a>
  
 
  

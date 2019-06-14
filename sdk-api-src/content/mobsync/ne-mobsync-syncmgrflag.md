@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SYNCMGRFLAG</b> enumeration values are used in the <a href="https://msdn.microsoft.com/4357d66e-b1f5-4a3c-b1a9-3a40aa6d8e10">ISyncMgrSynchronize::Initialize</a> method to indicate how the synchronization event was initiated.
+The <b>SYNCMGRFLAG</b> enumeration values are used in the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-initialize">ISyncMgrSynchronize::Initialize</a> method to indicate how the synchronization event was initiated.
 
 
 ## -enum-fields
@@ -99,7 +99,7 @@ Synchronization was initiated for configuration purposes only in the <b>System P
 
 ### -field SYNCMGRFLAG_MAYBOTHERUSER
 
-Interaction with the user is permitted. The application is allowed to show user interface elements and interact with the user. If this flag is not set, the application must not display any user interface elements other than using the <a href="https://msdn.microsoft.com/1c817a21-be91-43af-86c8-aa7909ae2fa2">ISyncMgrSynchronizeCallback</a> interface. If an application cannot complete the synchronization without displaying user interface elements and this flag is not set, the application fails the synchronization.
+Interaction with the user is permitted. The application is allowed to show user interface elements and interact with the user. If this flag is not set, the application must not display any user interface elements other than using the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizecallback">ISyncMgrSynchronizeCallback</a> interface. If an application cannot complete the synchronization without displaying user interface elements and this flag is not set, the application fails the synchronization.
 
 
 ## -see-also
@@ -107,7 +107,7 @@ Interaction with the user is permitted. The application is allowed to show user 
 
 
 
-<a href="https://msdn.microsoft.com/4357d66e-b1f5-4a3c-b1a9-3a40aa6d8e10">ISyncMgrSynchronize::Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-initialize">ISyncMgrSynchronize::Initialize</a>
  
 
  

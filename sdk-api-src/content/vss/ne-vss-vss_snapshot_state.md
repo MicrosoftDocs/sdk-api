@@ -188,24 +188,24 @@ Reserved value.
 
 
 The shadow copy state is contained in the <b>m_eStatus</b> member of a 
-    <a href="https://msdn.microsoft.com/070ec204-e751-4ebf-8f99-3c415f203cb2">VSS_SNAPSHOT_PROP</a> object, which can be obtained for a 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> object, which can be obtained for a 
     single shadow copy by calling 
-    <a href="https://msdn.microsoft.com/a4e2f9f3-7dee-4324-a48a-6de2a32eabf7">IVssBackupComponents::GetSnapshotProperties</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getsnapshotproperties">IVssBackupComponents::GetSnapshotProperties</a>.
 
 Because 
-    <a href="https://msdn.microsoft.com/a4e2f9f3-7dee-4324-a48a-6de2a32eabf7">IVssBackupComponents::GetSnapshotProperties</a> 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getsnapshotproperties">IVssBackupComponents::GetSnapshotProperties</a> 
     fails during shadow copy creation with <b>VSS_E_OBJECT_NOT_FOUND</b>, a requester cannot obtain 
     any <b>VSS_SNAPSHOT_STATE</b> value other than 
     <b>VSS_SS_CREATED</b>.
 
-Calls to <a href="https://msdn.microsoft.com/3f79bf84-c7b9-4291-ae3b-7061fe3199e9">IVssBackupComponents::Query</a> can 
+Calls to <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-query">IVssBackupComponents::Query</a> can 
     also be used to obtain the shadow copy state. 
     <b>IVssBackupComponents::Query</b> is used to return 
     lists of shadow copies, which may be iterated over by means of the 
-    <a href="https://msdn.microsoft.com/b8e80909-a28a-45d7-87e2-4f44bf6990f4">IVssEnumObject</a> interface to obtain 
-    <a href="https://msdn.microsoft.com/070ec204-e751-4ebf-8f99-3c415f203cb2">VSS_SNAPSHOT_PROP</a> objects for each shadow copy that 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssenumobject">IVssEnumObject</a> interface to obtain 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> objects for each shadow copy that 
     have completed on a given system. This means that, like 
-    <a href="https://msdn.microsoft.com/a4e2f9f3-7dee-4324-a48a-6de2a32eabf7">IVssBackupComponents::GetSnapshotProperties</a>, 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getsnapshotproperties">IVssBackupComponents::GetSnapshotProperties</a>, 
     the <b>IVssBackupComponents::Query</b> method can 
     return only a shadow copy state of <b>VSS_SS_CREATED</b>.
 
@@ -217,27 +217,27 @@ Calls to <a href="https://msdn.microsoft.com/3f79bf84-c7b9-4291-ae3b-7061fe3199e
 
 
 
-<a href="https://msdn.microsoft.com/a4e2f9f3-7dee-4324-a48a-6de2a32eabf7">IVssBackupComponents::GetSnapshotProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getsnapshotproperties">IVssBackupComponents::GetSnapshotProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f79bf84-c7b9-4291-ae3b-7061fe3199e9">IVssBackupComponents::Query</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-query">IVssBackupComponents::Query</a>
 
 
 
-<a href="https://msdn.microsoft.com/b8e80909-a28a-45d7-87e2-4f44bf6990f4">IVssEnumObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssenumobject">IVssEnumObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/90664042-e9a0-4959-a975-9289477d2394">VSS_OBJECT_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_object_prop">VSS_OBJECT_PROP</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384960(v=VS.85).aspx">VSS_OBJECT_UNION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-__midl___midl_itf_vss_0000_0000_0001">VSS_OBJECT_UNION</a>
 
 
 
-<a href="https://msdn.microsoft.com/070ec204-e751-4ebf-8f99-3c415f203cb2">VSS_SNAPSHOT_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a>
  
 
  

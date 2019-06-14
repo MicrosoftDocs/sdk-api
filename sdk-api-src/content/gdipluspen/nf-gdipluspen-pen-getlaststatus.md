@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>Pen::GetLastStatus</b> method returns a value that indicates the nature of this 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object's most recent method failure.
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object's most recent method failure.
 
 
 ## -parameters
@@ -65,16 +65,16 @@ The <b>Pen::GetLastStatus</b> method returns a value that indicates the nature o
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 </strong>
 
-The <b>Pen::GetLastStatus</b> method returns an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+The <b>Pen::GetLastStatus</b> method returns an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 If no methods invoked on this 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object have failed since the previous call to <b>Pen::GetLastStatus</b>, then <b>Pen::GetLastStatus</b> returns <b>Ok</b>.
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object have failed since the previous call to <b>Pen::GetLastStatus</b>, then <b>Pen::GetLastStatus</b> returns <b>Ok</b>.
 
 If at least one method invoked on this 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object has failed since the previous call to <b>Pen::GetLastStatus</b>, then <b>Pen::GetLastStatus</b> returns a value that indicates the nature of the most recent failure.
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object has failed since the previous call to <b>Pen::GetLastStatus</b>, then <b>Pen::GetLastStatus</b> returns a value that indicates the nature of the most recent failure.
 
 
 
@@ -84,10 +84,10 @@ If at least one method invoked on this
 
 
 You can call <b>Pen::GetLastStatus</b> immediately after constructing a 
-				<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object to determine whether the constructor succeeded.
+				<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object to determine whether the constructor succeeded.
 
 The first time you call the <b>Pen::GetLastStatus</b> method of a 
-				<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object, it returns <b>Ok</b> if the constructor succeeded and all methods invoked so far on the 
+				<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object, it returns <b>Ok</b> if the constructor succeeded and all methods invoked so far on the 
 				<b>Pen</b> object succeeded. Otherwise, it returns a value that indicates the nature of the most recent failure.
 
 
@@ -96,7 +96,7 @@ The first time you call the <b>Pen::GetLastStatus</b> method of a
 
 
 The following example creates a 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object, sets the dash style, and draws a dashed line. The code then checks the status of the method that sets the dash style for the pen.
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object, sets the dash style, and draws a dashed line. The code then checks the status of the method that sets the dash style for the pen.
 
 
 ```cpp
@@ -134,11 +134,11 @@ VOID Example_GetLastStatus(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
  
 
  

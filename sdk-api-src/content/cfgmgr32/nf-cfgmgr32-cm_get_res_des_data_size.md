@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CM_Get_Res_Des_Data_Size</b> function obtains the buffer size required to hold the information contained in a specified <a href="https://msdn.microsoft.com/004698f5-cb0e-4995-a19c-7075aa226000">resource descriptor</a> on the local machine.
+The <b>CM_Get_Res_Des_Data_Size</b> function obtains the buffer size required to hold the information contained in a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/">resource descriptor</a> on the local machine.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ Caller-supplied address of a location to receive the required buffer size.
 
 ### -param rdResDes [in]
 
-Caller-supplied handle to a resource descriptor, obtained by a previous call to <a href="https://msdn.microsoft.com/2ce2a84c-a9fe-42ff-920f-47dd0f54a820">CM_Get_Next_Res_Des</a>.
+Caller-supplied handle to a resource descriptor, obtained by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_next_res_des">CM_Get_Next_Res_Des</a>.
 
 
 ### -param ulFlags [in]
@@ -87,7 +87,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-The returned size value represents the size of the appropriate resource structure (see <a href="https://msdn.microsoft.com/0097b53a-c1c8-4e76-beef-812a953073b6">CM_Add_Res_Des</a>). If the resource descriptor resides in a resource requirements list, the returned size includes both the size of the resource structure and the space allocated for associated range arrays.
+The returned size value represents the size of the appropriate resource structure (see <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_add_res_des">CM_Add_Res_Des</a>). If the resource descriptor resides in a resource requirements list, the returned size includes both the size of the resource structure and the space allocated for associated range arrays.
 
 
 
@@ -97,7 +97,7 @@ The returned size value represents the size of the appropriate resource structur
 
 
 
-<a href="https://msdn.microsoft.com/59b96655-aea9-4f98-9f6a-1a9093db9c63">CM_Get_Res_Des_Data_Size_Ex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_res_des_data_size_ex">CM_Get_Res_Des_Data_Size_Ex</a>
  
 
  

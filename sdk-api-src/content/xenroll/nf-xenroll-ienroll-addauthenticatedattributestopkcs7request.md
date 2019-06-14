@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>AddAuthenticatedAttributesToPKCS7Request</b> method adds authenticated attributes to a PKCS #7 certificate request. This method was first defined in the <a href="https://msdn.microsoft.com/5be210b8-475a-4504-9cc0-5b02384e114e">IEnroll</a> interface.
+The <b>AddAuthenticatedAttributesToPKCS7Request</b> method adds authenticated attributes to a PKCS #7 certificate request. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll">IEnroll</a> interface.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>AddAuthenticatedAttributesToPKCS7Request</b> method adds authenticated at
 
 ### -param pAttributes [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/782f3022-d852-4ad7-8e0f-afbccc25928a">CRYPT_ATTRIBUTES</a> structure that represents the authenticated attributes to add to the PKCS #7 certificate request.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_attributes">CRYPT_ATTRIBUTES</a> structure that represents the authenticated attributes to add to the PKCS #7 certificate request.
 
 
 ## -returns
@@ -78,7 +78,7 @@ The return value is an <b>HRESULT</b>, with S_OK returned if the call is success
 
 
 
-<a href="https://msdn.microsoft.com/133529fb-e02a-41a2-83df-646cbc01dbe9">IEnroll</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
  
 
  

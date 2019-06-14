@@ -134,7 +134,7 @@ Specifies device-specific information associated with a keyboard event.
 
 
 
-In response to an <a href="https://msdn.microsoft.com/9b009d0a-6654-4fed-99d7-c0fd3fb0fb33">IRP_MJ_READ (Kbdclass)</a> request, Kbdclass transfers zero or more <b>KEYBOARD_INPUT_DATA</b> structures from its internal data queue to the Win32 subsystem buffer.
+In response to an <a href="https://docs.microsoft.com/previous-versions//ff542213(v=vs.85)">IRP_MJ_READ (Kbdclass)</a> request, Kbdclass transfers zero or more <b>KEYBOARD_INPUT_DATA</b> structures from its internal data queue to the Win32 subsystem buffer.
 
 
 
@@ -144,11 +144,11 @@ In response to an <a href="https://msdn.microsoft.com/9b009d0a-6654-4fed-99d7-c0
 
 
 
-<a href="https://msdn.microsoft.com/9b009d0a-6654-4fed-99d7-c0fd3fb0fb33">IRP_MJ_READ (Kbdclass)</a>
+<a href="https://docs.microsoft.com/previous-versions//ff542213(v=vs.85)">IRP_MJ_READ (Kbdclass)</a>
 
 
 
-<a href="https://msdn.microsoft.com/02815805-47cf-454c-8117-f5686a855e25">KeyboardClassServiceCallback</a>
+<a href="https://docs.microsoft.com/previous-versions//ff542324(v=vs.85)">KeyboardClassServiceCallback</a>
  
 
  

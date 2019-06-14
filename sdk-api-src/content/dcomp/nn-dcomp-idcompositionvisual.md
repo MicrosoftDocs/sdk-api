@@ -54,7 +54,7 @@ Represents a Microsoft DirectComposition visual.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionVisual</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDCompositionVisual</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionVisual</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDCompositionVisual</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDCompositionVisual</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e1124df5-7795-49c3-a640-f218cfdd4f1d">AddVisual</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-addvisual">AddVisual</a>
 </td>
 <td align="left" width="63%">
 Adds a new child visual to the children list of this visual.
@@ -78,7 +78,7 @@ Adds a new child visual to the children list of this visual.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b3872d6a-f3f8-4343-b01d-6db5490abb13">RemoveAllVisuals</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-removeallvisuals">RemoveAllVisuals</a>
 </td>
 <td align="left" width="63%">
 Removes all visuals from the children list of this visual.
@@ -87,7 +87,7 @@ Removes all visuals from the children list of this visual.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d77161b1-cb35-40a7-a51c-4b44ea320e78">RemoveVisual</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-removevisual">RemoveVisual</a>
 </td>
 <td align="left" width="63%">
 Removes a child visual from the children list of this visual.
@@ -96,7 +96,7 @@ Removes a child visual from the children list of this visual.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F45A3619-556B-4D2C-BCB0-8D55A1397579">SetBitmapInterpolationMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-setbitmapinterpolationmode">SetBitmapInterpolationMode</a>
 </td>
 <td align="left" width="63%">
 Sets the BitmapInterpolationMode property, which specifies the mode for DirectComposition to use when interpolating pixels from bitmaps that are not axis-aligned or drawn exactly at scale. 
@@ -105,7 +105,7 @@ Sets the BitmapInterpolationMode property, which specifies the mode for DirectCo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/88C77869-B08D-43F6-8A1E-A112743C0404">SetBorderMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-setbordermode">SetBorderMode</a>
 </td>
 <td align="left" width="63%">
 Sets the BorderMode property, which specifies how to compose the edges of bitmaps and clips associated with this visual, or with visuals in the subtree rooted at this visual.
@@ -114,7 +114,7 @@ Sets the BorderMode property, which specifies how to compose the edges of bitmap
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh449155(v=VS.85).aspx">SetClip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setclip">SetClip</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the Clip property of this visual to the specified rectangular region or clip object.
 
@@ -122,7 +122,7 @@ Sets the BorderMode property, which specifies how to compose the edges of bitmap
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2F8C7930-6BBC-4CA9-86C0-168BF0F9C0BD">SetCompositeMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-setcompositemode">SetCompositeMode</a>
 </td>
 <td align="left" width="63%">
 Sets the blending mode for this visual.
@@ -131,7 +131,7 @@ Sets the blending mode for this visual.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/894E6E30-6C28-476D-9AE5-D0664A69E03C">SetContent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-setcontent">SetContent</a>
 </td>
 <td align="left" width="63%">
 Sets the Content property of this visual to the specified bitmap or window wrapper.
@@ -140,7 +140,7 @@ Sets the Content property of this visual to the specified bitmap or window wrapp
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/CCA785F6-869C-460A-AF54-573BDE798685">SetEffect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-seteffect">SetEffect</a>
 </td>
 <td align="left" width="63%">
 Sets the Effect property of this visual.
@@ -149,7 +149,7 @@ Sets the Effect property of this visual.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0EFCDE12-3BF1-4D1F-8E28-54F3D7EEFFC1">SetOffsetX</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh449165(v=vs.85)">SetOffsetX</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the OffsetX property of this visual, altering the horizontal position of the visual relative to its parent. 
 
@@ -157,7 +157,7 @@ Sets the Effect property of this visual.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E364BDB4-57E0-4206-9095-F39E6B5B9190">SetOffsetY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh449171(v=vs.85)">SetOffsetY</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the OffsetY property of this visual, altering the vertical position of the visual relative to its parent.
 
@@ -165,7 +165,7 @@ Sets the Effect property of this visual.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/DA3CBBB6-DB0A-4FCE-9DAC-7A767783A18D">SetTransform</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh449178(v=vs.85)">SetTransform</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the Transform property of this visual. The Transform  property specifies a 2D transform used to modify the coordinate system of this visual. The property can specify either a  3-by-2 transform matrix or a transform object.
 
@@ -175,7 +175,7 @@ Sets the Effect property of this visual.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/06C02E3D-27FF-4E11-87C2-7D8281A69601">SetTransformParent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-settransformparent">SetTransformParent</a>
 </td>
 <td align="left" width="63%">
 Sets the TransformParent property of this visual. The TransformParent property establishes the coordinate system relative to which this visual is composed.
@@ -190,7 +190,7 @@ Sets the TransformParent property of this visual. The TransformParent property e
 
 
 
-<a href="https://msdn.microsoft.com/3b4fefe0-772e-42bd-8e81-37d0b128c418">IDCompositionDevice::CreateVisual</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice-createvisual">IDCompositionDevice::CreateVisual</a>
  
 
  

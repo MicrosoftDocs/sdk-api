@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the "today" selection for a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761016(v=VS.85).aspx">MCM_SETTODAY</a> message explicitly. 
+Sets the "today" selection for a month calendar control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcm-settoday">MCM_SETTODAY</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Sets the "today" selection for a month calendar control. You can use this macro 
 
 ### -param hmc
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a month calendar control. 
 
@@ -68,7 +68,7 @@ Handle to a month calendar control.
 
 Type: <b>LPSYSTEMTIME</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure that contains the date to be set as the "today" selection for the control. If this parameter is set to <b>NULL</b>, the control returns to the default setting. The time members of this structure are ignored. If the "today" selection is set to any date other than the default, the following conditions apply:
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that contains the date to be set as the "today" selection for the control. If this parameter is set to <b>NULL</b>, the control returns to the default setting. The time members of this structure are ignored. If the "today" selection is set to any date other than the default, the following conditions apply:
  
 
 <ul>

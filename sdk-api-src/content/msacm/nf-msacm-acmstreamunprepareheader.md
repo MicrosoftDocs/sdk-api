@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>acmStreamUnprepareHeader</b> function cleans up the preparation performed by the <a href="https://msdn.microsoft.com/ab90ac5f-6f39-4d26-96fc-5258d4e353cd">acmStreamPrepareHeader</a> function for an ACM stream. This function must be called after the ACM is finished with the given buffers. An application must call this function before freeing the source and destination buffers.
+The <b>acmStreamUnprepareHeader</b> function cleans up the preparation performed by the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmstreamprepareheader">acmStreamPrepareHeader</a> function for an ACM stream. This function must be called after the ACM is finished with the given buffers. An application must call this function before freeing the source and destination buffers.
 
 
 
@@ -68,7 +68,7 @@ Handle to the conversion steam.
 
 ### -param pash
 
-Pointer to an <a href="https://msdn.microsoft.com/723e96d8-f098-4e08-862a-a9fea8d2fbe3">ACMSTREAMHEADER</a> structure that identifies the source and destination buffers to be unprepared.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmstreamheader">ACMSTREAMHEADER</a> structure that identifies the source and destination buffers to be unprepared.
 
 
 ### -param fdwUnprepare
@@ -105,7 +105,7 @@ The stream header specified in <i>pash</i> is currently in use and cannot be unp
 </dl>
 </td>
 <td width="60%">
-The stream header specified in <i>pash</i> is currently not prepared by the <a href="https://msdn.microsoft.com/ab90ac5f-6f39-4d26-96fc-5258d4e353cd">acmStreamPrepareHeader</a> function.
+The stream header specified in <i>pash</i> is currently not prepared by the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmstreamprepareheader">acmStreamPrepareHeader</a> function.
 
 </td>
 </tr>
@@ -152,7 +152,7 @@ At least one parameter is invalid.
 
 
 
-Unpreparing a stream header that has already been unprepared is an error. An application must specify the source and destination buffer lengths (<b>cbSrcLength</b> and <b>cbDstLength</b>, respectively) that were used during a call to the corresponding <a href="https://msdn.microsoft.com/ab90ac5f-6f39-4d26-96fc-5258d4e353cd">acmStreamPrepareHeader</a>. Failing to reset these member values will cause <b>acmStreamUnprepareHeader</b> to fail with an MMSYSERR_INVALPARAM error.
+Unpreparing a stream header that has already been unprepared is an error. An application must specify the source and destination buffer lengths (<b>cbSrcLength</b> and <b>cbDstLength</b>, respectively) that were used during a call to the corresponding <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmstreamprepareheader">acmStreamPrepareHeader</a>. Failing to reset these member values will cause <b>acmStreamUnprepareHeader</b> to fail with an MMSYSERR_INVALPARAM error.
 
 The ACM can recover from some errors. The ACM will return a nonzero error, yet the stream header will be properly unprepared. To determine whether the stream header was actually unprepared, an application can examine the ACMSTREAMHEADER_STATUSF_PREPARED flag. If <b>acmStreamUnprepareHeader</b> returns success, the header will always be unprepared.
 
@@ -164,11 +164,11 @@ The ACM can recover from some errors. The ACM will return a nonzero error, yet t
 
 
 
-<a href="https://msdn.microsoft.com/da207a50-9c67-4cf3-920b-5878637060db">Audio Compression Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f9a4540-86c0-40e6-b4da-24a9d31b56bf">Audio Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
  
 
  

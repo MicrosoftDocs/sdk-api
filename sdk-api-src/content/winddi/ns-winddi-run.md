@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The RUN structure is used to describe a linear set of pixels that is not clipped by the <a href="https://msdn.microsoft.com/ec938519-3c0c-4664-9e9a-b7fb338920f5">CLIPLINE</a> structure.
+The RUN structure is used to describe a linear set of pixels that is not clipped by the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_clipline">CLIPLINE</a> structure.
 
 
 ## -struct-fields
@@ -71,7 +71,7 @@ Specifies the stopping point for a field of pixels to be drawn.
 
 
 
-If the <a href="https://msdn.microsoft.com/ac439eb8-b491-4215-877d-5ee177fbdb39">clip region</a> is complex, a single line segment can be broken into many RUNs. The same segment is returned as many times as necessary to list all of its RUNs.
+If the <a href="https://docs.microsoft.com/windows-hardware/drivers/">clip region</a> is complex, a single line segment can be broken into many RUNs. The same segment is returned as many times as necessary to list all of its RUNs.
 
 
 
@@ -81,7 +81,7 @@ If the <a href="https://msdn.microsoft.com/ac439eb8-b491-4215-877d-5ee177fbdb39"
 
 
 
-<a href="https://msdn.microsoft.com/edc64b1e-dd3f-4b6a-858c-91c49a819b0a">PATHOBJ_bEnumClipLines</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_benumcliplines">PATHOBJ_bEnumClipLines</a>
  
 
  

@@ -76,7 +76,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-Call this method only after calling <a href="https://msdn.microsoft.com/en-us/library/Dd406804(v=VS.85).aspx">IDirectDrawMediaSample::GetSurfaceAndReleaseLock</a>.
+Call this method only after calling <a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-idirectdrawmediasample-getsurfaceandreleaselock">IDirectDrawMediaSample::GetSurfaceAndReleaseLock</a>.
 
 
 
@@ -86,11 +86,11 @@ Call this method only after calling <a href="https://msdn.microsoft.com/en-us/li
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406801(v=VS.85).aspx">IDirectDrawMediaSample Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-idirectdrawmediasample">IDirectDrawMediaSample Interface</a>
  
 
  

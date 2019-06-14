@@ -187,10 +187,10 @@ Reserved. This member forces the enumeration type to compile as a <b>DWORD</b> v
 
 
 
-These flags are used with the <a href="https://msdn.microsoft.com/c64c2135-f588-4d7a-9ca8-ae4f7b290572">MF_MT_TRANSFER_FUNCTION</a> attribute.
+These flags are used with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-transfer-function-attribute">MF_MT_TRANSFER_FUNCTION</a> attribute.
       
 
-For more information about these values, see the remarks for the <a href="https://msdn.microsoft.com/43b99d5f-ea28-4de2-b118-e2277f283dee">DXVA2_VideoTransferFunction</a> enumeration, which is the DirectX Video Acceleration (DXVA) equivalent of this enumeration.
+For more information about these values, see the remarks for the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ne-dxva2api-_dxva2_videotransferfunction">DXVA2_VideoTransferFunction</a> enumeration, which is the DirectX Video Acceleration (DXVA) equivalent of this enumeration.
       
 
 
@@ -201,15 +201,15 @@ For more information about these values, see the remarks for the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/05ca73c6-d105-47bc-96bc-b784f669febe">Extended Color Information</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/extended-color-information">Extended Color Information</a>
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/b8cfe0d1-013d-4706-bb76-6d426836ab6a">Video Media Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/video-media-types">Video Media Types</a>
  
 
  

@@ -54,8 +54,8 @@ MMC_ACTION_TYPE enumeration is introduced in MMC 1.1.
 
 The 
 MMC_ACTION_TYPE enumeration defines the types of action that can be triggered when a user clicks a task on a taskpad. These values are used in the eActionType member of the 
-<a href="https://msdn.microsoft.com/bb101c09-947f-4316-890a-86e09358d88c">MMC_TASK</a> structure, which is filled in by the 
-<a href="https://msdn.microsoft.com/cb568307-7172-4941-a888-ff059f5256b6">IEnumTASK::Next</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task">MMC_TASK</a> structure, which is filled in by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ienumtask-next">IEnumTASK::Next</a> method.
 
 
 ## -enum-fields
@@ -71,8 +71,8 @@ No actions specified.
 ### -field MMC_ACTION_ID
 
 When the user clicks the task, MMC calls 
-<a href="https://msdn.microsoft.com/c20d87f9-a5a0-41b9-b343-a11e8b41ed71">IExtendTaskPad::TaskNotify</a> and returns the command ID specified in the nCommandID member of the 
-MMC_TASK structure that was filled in when MMC called <a href="https://msdn.microsoft.com/cb568307-7172-4941-a888-ff059f5256b6">IEnumTASK::Next</a> to add the task to the taskpad.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-tasknotify">IExtendTaskPad::TaskNotify</a> and returns the command ID specified in the nCommandID member of the 
+MMC_TASK structure that was filled in when MMC called <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ienumtask-next">IEnumTASK::Next</a> to add the task to the taskpad.
 
 
 ### -field MMC_ACTION_LINK

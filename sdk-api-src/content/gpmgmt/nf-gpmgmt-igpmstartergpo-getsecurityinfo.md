@@ -60,7 +60,7 @@ Retrieves the set of permissions for the Starter GPO, such as who is granted per
 ### -param ppSecurityInfo [out]
 
 Address of a pointer to the 
-<a href="https://msdn.microsoft.com/1205b1d7-3dc1-4ecd-b4fa-c833dd4e1a74">IGPMSecurityInfo</a> interface.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsecurityinfo">IGPMSecurityInfo</a> interface.
 
 
 ## -returns
@@ -77,7 +77,7 @@ Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 
 
 For more information about policy-related permissions, see 
-<a href="https://msdn.microsoft.com/8da90ca3-1c81-414f-b1a0-a0dfcae745ba">IGPM::CreatePermission</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpm-createpermission">IGPM::CreatePermission</a>.
 
 
 
@@ -87,7 +87,7 @@ For more information about policy-related permissions, see
 
 
 
-<a href="https://msdn.microsoft.com/5ce7a7b4-e1c0-4e76-98c2-41462ec4ea17">IGPMStarterGPO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpo">IGPMStarterGPO</a>
  
 
  

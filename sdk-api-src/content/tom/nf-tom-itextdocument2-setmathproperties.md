@@ -61,14 +61,14 @@ Specifies the math properties to use for the document.
 
 Type: <b>long</b>
 
-The math properties to set. For a list of possible properties, see <a href="https://msdn.microsoft.com/7686d0d6-5f49-4ab6-8a9e-1e53447ffe27">GetMathProperties</a>.
+The math properties to set. For a list of possible properties, see <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-getmathproperties">GetMathProperties</a>.
 
 
 ### -param Mask [in]
 
 Type: <b>long</b>
 
-The math mask. For a list of possible masks, see <a href="https://msdn.microsoft.com/7686d0d6-5f49-4ab6-8a9e-1e53447ffe27">GetMathProperties</a>
+The math mask. For a list of possible masks, see <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-getmathproperties">GetMathProperties</a>
 
 
 
@@ -76,7 +76,7 @@ The math mask. For a list of possible masks, see <a href="https://msdn.microsoft
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -88,11 +88,11 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-<a href="https://msdn.microsoft.com/0b0a54d7-7606-41f6-b8be-6367d9180ef4">ITextDocument2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument2">ITextDocument2</a>
 
 
 
-<a href="https://msdn.microsoft.com/7686d0d6-5f49-4ab6-8a9e-1e53447ffe27">ITextDocument2::GetMathProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-getmathproperties">ITextDocument2::GetMathProperties</a>
  
 
  

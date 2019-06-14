@@ -91,7 +91,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/347a209e-be6f-42a9-978f-f40e628fc34b">IAssemblyLocator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iassemblylocator">IAssemblyLocator</a>
  
 
  

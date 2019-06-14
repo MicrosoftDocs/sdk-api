@@ -60,7 +60,7 @@ The <b>LSA_TRUST_INFORMATION</b> structure identifies a domain.
 ### -field Name
 
 An 
-<a href="https://msdn.microsoft.com/9e1cf20f-01f9-4813-bf95-e47c5d57dcdc">LSA_UNICODE_STRING</a> structure that contains the name of the domain.
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the name of the domain.
 
 
 ### -field Sid
@@ -73,10 +73,10 @@ Pointer to the SID of the domain.
 
 
 
-<a href="https://msdn.microsoft.com/9363fb34-4eb8-4811-a421-7ed16820eabc">TRUSTED_DOMAIN_INFORMATION_BASIC</a> is an alias for this structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms722475(v=vs.85)">TRUSTED_DOMAIN_INFORMATION_BASIC</a> is an alias for this structure.
 
-The <a href="https://msdn.microsoft.com/9363fb34-4eb8-4811-a421-7ed16820eabc">TRUSTED_DOMAIN_INFORMATION_BASIC</a> structure identifies a domain. This structure is used by the 
-<a href="https://msdn.microsoft.com/62925515-a6f3-4b5f-bf97-edb968af19a3">LsaQueryTrustedDomainInfo</a> function when its <i>InformationClass</i> parameter is set to <b>TrustedDomainInformationBasic</b>.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms722475(v=vs.85)">TRUSTED_DOMAIN_INFORMATION_BASIC</a> structure identifies a domain. This structure is used by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaquerytrusteddomaininfo">LsaQueryTrustedDomainInfo</a> function when its <i>InformationClass</i> parameter is set to <b>TrustedDomainInformationBasic</b>.
 
 
 
@@ -86,11 +86,11 @@ The <a href="https://msdn.microsoft.com/9363fb34-4eb8-4811-a421-7ed16820eabc">TR
 
 
 
-<a href="https://msdn.microsoft.com/ddf0afcb-7ec4-42ed-bf40-38ef33f33a0c">LSA_REFERENCED_DOMAIN_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_referenced_domain_list">LSA_REFERENCED_DOMAIN_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e1cf20f-01f9-4813-bf95-e47c5d57dcdc">LSA_UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string">LSA_UNICODE_STRING</a>
  
 
  

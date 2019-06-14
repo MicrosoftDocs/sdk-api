@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
- The <b>CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO</b> structure contains optional extra information that can be passed to the <a href="https://msdn.microsoft.com/dd639b43-1560-4e9f-a778-9e20484ae012">CryptGetTimeValidObject</a> function in the <i>pExtraInfo</i> parameter.
+ The <b>CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO</b> structure contains optional extra information that can be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgettimevalidobject">CryptGetTimeValidObject</a> function in the <i>pExtraInfo</i> parameter.
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ The size, in bytes, of this structure.
 
 ### -field iDeltaCrlIndicator
 
-A value used to compare to the base <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL) number. If the base CRL number is less than this value, the caller should attempt to retrieve a newer base CRL.
+A value used to compare to the base <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) number. If the base CRL number is less than this value, the caller should attempt to retrieve a newer base CRL.
 
 If the <b>pDeltaCrlIndicator</b> member is non-<b>NULL</b>  the value of this member must be 0x7fffffff.<b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>Because the <b>pDeltaCrlIndicator</b> member does not exist, the  <b>iDeltaCrlIndicator</b> value requirement does not apply.
 
@@ -73,27 +73,27 @@ If the <b>pDeltaCrlIndicator</b> member is non-<b>NULL</b>  the value of this me
 
 ### -field pftCacheResync
 
-A pointer to a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that governs the use of cached information. Any information cached  before this time is considered invalid and new information is retrieved.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that governs the use of cached information. Any information cached  before this time is considered invalid and new information is retrieved.
 
 
 ### -field pLastSyncTime
 
-A pointer to a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that contains the time of the last synchronization of the data retrieved for the object.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time of the last synchronization of the data retrieved for the object.
 
 
 ### -field pMaxAgeTime
 
-A pointer to a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that specifies an expiration time of the data retrieved based on the <b>dwMaxAge</b> member of the <a href="https://msdn.microsoft.com/26cd6065-8be9-4b3b-8207-5ad620e9b537">CRYPTNET_URL_CACHE_RESPONSE_INFO</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that specifies an expiration time of the data retrieved based on the <b>dwMaxAge</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cryptnet_url_cache_response_info">CRYPTNET_URL_CACHE_RESPONSE_INFO</a> structure.
 
 
 ### -field pChainPara
 
-A pointer to a <a href="https://msdn.microsoft.com/9cdcc81a-aef1-4a1e-94f8-7aa461225dae">CERT_REVOCATION_CHAIN_PARA</a> structure that contains the <a href="https://msdn.microsoft.com/8c93036c-0b93-40d4-b0e3-ba1f2fc72db1">CertGetCertificateChain</a> function parameters used by the caller. The data in this member enables independent <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">online certificate status protocol</a> (OCSP) signer certificate chain verification.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_revocation_chain_para">CERT_REVOCATION_CHAIN_PARA</a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a> function parameters used by the caller. The data in this member enables independent <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) signer certificate chain verification.
 
 
 ### -field pDeltaCrlIndicator
 
-A pointer to a <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_INTEGER_BLOB</a> structure that contains a CRL with a length of more than 4 bytes. If this member is  non-<b>NULL</b> and the <b>iDeltaCrlIndicator</b> member is equal to <b>MAXLONG</b>, then if the base CRL number is less than this value, the caller should attempt to retrieve a newer base CRL.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure that contains a CRL with a length of more than 4 bytes. If this member is  non-<b>NULL</b> and the <b>iDeltaCrlIndicator</b> member is equal to <b>MAXLONG</b>, then if the base CRL number is less than this value, the caller should attempt to retrieve a newer base CRL.
 
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This member is not supported.

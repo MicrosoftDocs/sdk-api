@@ -95,7 +95,7 @@ Type: <b>int</b>
 
 
 
-This function's ordering schema differs somewhat from <a href="https://msdn.microsoft.com/d059b6bd-8f03-4273-aa7a-b8b07f84d268">StrCmpI</a>, which also compares strings without regard to case sensitivity. Considering digits by their numerical value—as <b>StrCmpLogicalW</b> does—strings are ordered as follows:
+This function's ordering schema differs somewhat from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strcmpiw">StrCmpI</a>, which also compares strings without regard to case sensitivity. Considering digits by their numerical value—as <b>StrCmpLogicalW</b> does—strings are ordered as follows:
 		
                 
 

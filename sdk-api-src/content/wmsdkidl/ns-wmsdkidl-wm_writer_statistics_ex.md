@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>WM_WRITER_STATISTICS_EX</b> structure is used by <a href="https://msdn.microsoft.com/en-us/library/Dd798725(v=VS.85).aspx">IWMWriterAdvanced3::GetStatisticsEx</a> to obtain extended writer statistics.
+The <b>WM_WRITER_STATISTICS_EX</b> structure is used by <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced3-getstatisticsex">IWMWriterAdvanced3::GetStatisticsEx</a> to obtain extended writer statistics.
 
 
 
@@ -72,7 +72,7 @@ The <b>WM_WRITER_STATISTICS_EX</b> structure is used by <a href="https://msdn.mi
 
 ### -field dwCurrentSampleDropRateInCodec
 
-<b>DWORD</b> containing the current rate at which samples are dropped in the codec. Samples can be dropped when they contain little new data. To prevent this from happening, call <a href="https://msdn.microsoft.com/en-us/library/Dd798723(v=VS.85).aspx">IWMWriterAdvanced2::SetInputSetting</a> to set the g_wszFixedFrameRate setting to <b>TRUE</b>.
+<b>DWORD</b> containing the current rate at which samples are dropped in the codec. Samples can be dropped when they contain little new data. To prevent this from happening, call <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-setinputsetting">IWMWriterAdvanced2::SetInputSetting</a> to set the g_wszFixedFrameRate setting to <b>TRUE</b>.
 
 
 ### -field dwCurrentSampleDropRateInMultiplexer
@@ -101,7 +101,7 @@ The <b>WM_WRITER_STATISTICS_EX</b> structure is used by <a href="https://msdn.mi
 
 Sample rates are given in kilohertz.
 
-Basic writer statistics are contained within a <a href="https://msdn.microsoft.com/en-us/library/Dd758025(v=VS.85).aspx">WM_WRITER_STATISTICS</a> structure and must be obtained by calling <a href="https://msdn.microsoft.com/en-us/library/Dd798730(v=VS.85).aspx">IWMWriterAdvanced::GetStatistics</a>.
+Basic writer statistics are contained within a <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmwriterstatistics">WM_WRITER_STATISTICS</a> structure and must be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-getstatistics">IWMWriterAdvanced::GetStatistics</a>.
 
 
 
@@ -111,7 +111,7 @@ Basic writer statistics are contained within a <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/118ef278-ca4f-4c30-9633-a2d851f5c758">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
  
 
  

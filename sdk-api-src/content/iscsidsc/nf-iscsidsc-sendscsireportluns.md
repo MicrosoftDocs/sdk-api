@@ -60,7 +60,7 @@ ms.custom: 19H1
 
 ### -param UniqueSessionId [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/d13975f9-58d0-425c-a2de-a0d1d70850d3">ISCSI_UNIQUE_SESSION_ID</a> structure that contains the session identifier for the login session of the target to query with the SCSI REPORT LUNS command.  
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-_iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a> structure that contains the session identifier for the login session of the target to query with the SCSI REPORT LUNS command.  
 
 
 
@@ -114,7 +114,7 @@ Otherwise, this function returns the appropriate Win32 or iSCSI error code on fa
 
 
 
-<a href="https://msdn.microsoft.com/d13975f9-58d0-425c-a2de-a0d1d70850d3">ISCSI_UNIQUE_SESSION_ID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-_iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a>
  
 
  

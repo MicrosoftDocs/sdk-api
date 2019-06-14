@@ -59,7 +59,7 @@ Deletes a set of SMS messages from a device.
 
 ### -param smsFilter [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/f8dffd7b-3c12-43da-b61c-3c9aa8f1136f">MBN_SMS_FILTER</a> structure that defines the set of messages to delete.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_sms_filter">MBN_SMS_FILTER</a> structure that defines the set of messages to delete.
 
 
 ### -param requestID [out]
@@ -132,7 +132,7 @@ The interface is invalid. Most likely the Mobile Broadband device has been remov
 
 
 
-This is an asynchronous operation that will return immediately. If the method returns without error,  then the Mobile Broadband service will call the <a href="https://msdn.microsoft.com/bac1c7b3-fedc-47fb-822c-712805a86f6e">OnSmsDeleteComplete</a> method of the  <a href="https://msdn.microsoft.com/06dfb631-fe5a-45d9-89f9-1f13990500ee">IMbnSmsEvents</a> interface.
+This is an asynchronous operation that will return immediately. If the method returns without error,  then the Mobile Broadband service will call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsevents-onsmsdeletecomplete">OnSmsDeleteComplete</a> method of the  <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsevents">IMbnSmsEvents</a> interface.
 
 
 
@@ -142,7 +142,7 @@ This is an asynchronous operation that will return immediately. If the method re
 
 
 
-<a href="https://msdn.microsoft.com/4a5fae5a-91d5-4a94-ac54-cb641147e8dc">IMbnSms</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsms">IMbnSms</a>
  
 
  

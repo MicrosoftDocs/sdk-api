@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Closes a communication channel to the File History Service opened with <a href="https://msdn.microsoft.com/D0927124-0568-4897-9169-445C252E8ED4">FhServiceOpenPipe</a>.
+Closes a communication channel to the File History Service opened with <a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceopenpipe">FhServiceOpenPipe</a>.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Closes a communication channel to the File History Service opened with <a href="
 
 ### -param Pipe [in]
 
-The communication channel handle returned by an earlier <a href="https://msdn.microsoft.com/D0927124-0568-4897-9169-445C252E8ED4">FhServiceOpenPipe</a> call.
+The communication channel handle returned by an earlier <a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceopenpipe">FhServiceOpenPipe</a> call.
 
 
 ## -returns
@@ -76,7 +76,7 @@ The communication channel handle returned by an earlier <a href="https://msdn.mi
 
 
 
-An application should call <b>FhServiceClosePipe</b> once for each communication channel handle it opens with <a href="https://msdn.microsoft.com/D0927124-0568-4897-9169-445C252E8ED4">FhServiceOpenPipe</a>. Closing a communication channel handle multiple times is not supported and may lead to unpredictable behavior.
+An application should call <b>FhServiceClosePipe</b> once for each communication channel handle it opens with <a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceopenpipe">FhServiceOpenPipe</a>. Closing a communication channel handle multiple times is not supported and may lead to unpredictable behavior.
 
 
 
@@ -86,7 +86,7 @@ An application should call <b>FhServiceClosePipe</b> once for each communication
 
 
 
-<a href="https://msdn.microsoft.com/D0927124-0568-4897-9169-445C252E8ED4">FhServiceOpenPipe</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceopenpipe">FhServiceOpenPipe</a>
  
 
  

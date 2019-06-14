@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>Initialize</b> method formats the storage medium. This method is optional. However, this method should be implemented if the device supports this functionality. If this method is not implemented, <a href="https://msdn.microsoft.com/83204c04-503d-4687-8a4d-3c95a6def8d1">IMDSPStorageGlobals::GetCapabilities</a> must return WMDM_STORAGECAP_NOT_INITIALIZABLE in addition to any other flags. For more information, see <a href="https://msdn.microsoft.com/582c9dd5-f8ab-48df-afb3-fba931ee0dea">Mandatory and Optional Interfaces</a>.
+The <b>Initialize</b> method formats the storage medium. This method is optional. However, this method should be implemented if the device supports this functionality. If this method is not implemented, <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorageglobals-getcapabilities">IMDSPStorageGlobals::GetCapabilities</a> must return WMDM_STORAGECAP_NOT_INITIALIZABLE in addition to any other flags. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/mandatory-and-optional-interfaces">Mandatory and Optional Interfaces</a>.
 
 
 
@@ -100,7 +100,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 
 
@@ -119,19 +119,19 @@ If WMDM_MODE_BLOCK is specified, <b>Initialize</b> does not return until formatt
 
 
 
-<a href="https://msdn.microsoft.com/70653352-a467-4197-93e3-e8fb45f99d34">IMDSPStorageGlobals Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorageglobals">IMDSPStorageGlobals Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/83204c04-503d-4687-8a4d-3c95a6def8d1">IMDSPStorageGlobals::GetCapabilities</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorageglobals-getcapabilities">IMDSPStorageGlobals::GetCapabilities</a>
 
 
 
-<a href="https://msdn.microsoft.com/572b5de6-62d7-450f-851f-d09b1864a86c">IMDSPStorageGlobals::GetStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorageglobals-getstatus">IMDSPStorageGlobals::GetStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/9af022a6-19b4-41b7-b951-0acad6aab4a2">IWMDMProgress Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress">IWMDMProgress Interface</a>
  
 
  

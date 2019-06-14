@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CREATE_ASM_NAME_OBJ_FLAGS</b> enumeration is used by the <a href="https://msdn.microsoft.com/1290a0b3-28f9-46fb-a98f-40b43bc0df1a">CreateAssemblyNameObject</a> function.
+The <b>CREATE_ASM_NAME_OBJ_FLAGS</b> enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-createassemblynameobject">CreateAssemblyNameObject</a> function.
 
-If no  value is specified, the <i>szAssemblyName</i> parameter of the <a href="https://msdn.microsoft.com/1290a0b3-28f9-46fb-a98f-40b43bc0df1a">CreateAssemblyNameObject</a> function is the "Name" portion of the fully-specified assembly name.
+If no  value is specified, the <i>szAssemblyName</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-createassemblynameobject">CreateAssemblyNameObject</a> function is the "Name" portion of the fully-specified assembly name.
 
 
 ## -enum-fields
@@ -61,7 +61,7 @@ If no  value is specified, the <i>szAssemblyName</i> parameter of the <a href="h
 
 ### -field CANOF_PARSE_DISPLAY_NAME
 
-If this flag is specified, the <i>szAssemblyName</i> parameter of <a href="https://msdn.microsoft.com/1290a0b3-28f9-46fb-a98f-40b43bc0df1a">CreateAssemblyNameObject</a> is a fully-specified side-by-side assembly name and is parsed to the individual properties.
+If this flag is specified, the <i>szAssemblyName</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-createassemblynameobject">CreateAssemblyNameObject</a> is a fully-specified side-by-side assembly name and is parsed to the individual properties.
 
 
 ### -field CANOF_SET_DEFAULT_VALUES

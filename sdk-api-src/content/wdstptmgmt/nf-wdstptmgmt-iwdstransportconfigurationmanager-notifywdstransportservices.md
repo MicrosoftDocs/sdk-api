@@ -61,7 +61,7 @@ Sends a notification to WDS transport services. The notification value is transl
 
 ### -param ServiceNotification [in]
 
-A value of the <a href="https://msdn.microsoft.com/en-us/library/Bb736541(v=VS.85).aspx">WDSTRANSPORT_SERVICE_NOTIFICATION</a> enumeration that specifies the type of service notification to be sent.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/ne-wdstptmgmt-__midl___midl_itf_wdstptmgmt_0000_0000_0005">WDSTRANSPORT_SERVICE_NOTIFICATION</a> enumeration that specifies the type of service notification to be sent.
 
 
 ## -returns
@@ -78,11 +78,11 @@ Standard HRESULT error values are used: S_OK for success; others for failure.
 
 
 
-<a href="https://msdn.microsoft.com/b86f9bc7-ddee-4d18-b5cb-28d28fa7ae7e">IWdsTransportConfigurationManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportconfigurationmanager">IWdsTransportConfigurationManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736541(v=VS.85).aspx">WDSTRANSPORT_SERVICE_NOTIFICATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/ne-wdstptmgmt-__midl___midl_itf_wdstptmgmt_0000_0000_0005">WDSTRANSPORT_SERVICE_NOTIFICATION</a>
  
 
  

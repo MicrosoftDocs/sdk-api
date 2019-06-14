@@ -78,11 +78,11 @@ If the function fails, the return value is zero, indicating that an error occurr
 
 
 
-The purpose of the <b>LockWindowUpdate</b> function is to permit drag/drop feedback to be drawn over a window without interference from the window itself. The intent is that the window is locked when feedback is drawn and unlocked when feedback is complete. <b>LockWindowUpdate</b> is not intended for general-purpose suppression of window redraw. Use the <a href="https://msdn.microsoft.com/0085a55e-7bf6-4eb6-a649-832b685db1cc">WM_SETREDRAW</a> message to disable redrawing of a particular window.
+The purpose of the <b>LockWindowUpdate</b> function is to permit drag/drop feedback to be drawn over a window without interference from the window itself. The intent is that the window is locked when feedback is drawn and unlocked when feedback is complete. <b>LockWindowUpdate</b> is not intended for general-purpose suppression of window redraw. Use the <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-setredraw">WM_SETREDRAW</a> message to disable redrawing of a particular window.
 
-If an application with a locked window (or any locked child windows) calls the <a href="https://msdn.microsoft.com/50b2387b-c8e4-42a8-8f0f-0bdb355adbfd">GetDC</a>, <a href="https://msdn.microsoft.com/590cf928-0ad6-43f8-97e9-1dafbcfa9f49">GetDCEx</a>, or <a href="https://msdn.microsoft.com/513341d7-bed8-469c-a067-ee71dc8860f9">BeginPaint</a> function, the called function returns a device context with a visible region that is empty. This will occur until the application unlocks the window by calling <b>LockWindowUpdate</b>, specifying a value of <b>NULL</b> for <i>hWndLock</i>.
+If an application with a locked window (or any locked child windows) calls the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdc">GetDC</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdcex">GetDCEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a> function, the called function returns a device context with a visible region that is empty. This will occur until the application unlocks the window by calling <b>LockWindowUpdate</b>, specifying a value of <b>NULL</b> for <i>hWndLock</i>.
 
-If an application attempts to draw within a locked window, the system records the extent of the attempted operation in a bounding rectangle. When the window is unlocked, the system invalidates the area within this bounding rectangle, forcing an eventual <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> message to be sent to the previously locked window and its child windows. If no drawing has occurred while the window updates were locked, no area is invalidated.
+If an application attempts to draw within a locked window, the system records the extent of the attempted operation in a bounding rectangle. When the window is unlocked, the system invalidates the area within this bounding rectangle, forcing an eventual <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a> message to be sent to the previously locked window and its child windows. If no drawing has occurred while the window updates were locked, no area is invalidated.
 
 <b>LockWindowUpdate</b> does not make the specified window invisible and does not clear the WS_VISIBLE style bit.
 
@@ -96,27 +96,27 @@ A locked window cannot be moved.
 
 
 
-<a href="https://msdn.microsoft.com/513341d7-bed8-469c-a067-ee71dc8860f9">BeginPaint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a>
 
 
 
-<a href="https://msdn.microsoft.com/50b2387b-c8e4-42a8-8f0f-0bdb355adbfd">GetDC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdc">GetDC</a>
 
 
 
-<a href="https://msdn.microsoft.com/590cf928-0ad6-43f8-97e9-1dafbcfa9f49">GetDCEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdcex">GetDCEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/ec18323e-c13b-4328-83bf-9e4ed4a712b8">Painting and Drawing Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e6034af-4dea-4579-b476-52f6dd3d5bc7">Painting and Drawing Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a>
  
 
  

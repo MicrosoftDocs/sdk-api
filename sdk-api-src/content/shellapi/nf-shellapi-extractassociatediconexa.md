@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[<b>ExtractAssociatedIconEx</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Gets a handle to an icon stored as a resource in a file or an icon stored in a file's associated executable file. It extends the <a href="https://msdn.microsoft.com/157ce603-9988-4cae-a2cd-51db290268c3">ExtractAssociatedIcon</a> function by retrieving the icon's ID when that icon is extracted from an executable file.
+Gets a handle to an icon stored as a resource in a file or an icon stored in a file's associated executable file. It extends the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extractassociatedicona">ExtractAssociatedIcon</a> function by retrieving the icon's ID when that icon is extracted from an executable file.
 
 
 ## -parameters
@@ -116,7 +116,7 @@ Returns the icon's handle if successful, otherwise <b>NULL</b>.
 
 
 
-The icon handle returned by this function must be released by calling <a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a> when it is no longer needed.
+The icon handle returned by this function must be released by calling <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> when it is no longer needed.
 
 
 
@@ -126,15 +126,15 @@ The icon handle returned by this function must be released by calling <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/157ce603-9988-4cae-a2cd-51db290268c3">ExtractAssociatedIcon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extractassociatedicona">ExtractAssociatedIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0314423-79d6-416e-8be0-be946477da3e">ExtractIcon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extracticona">ExtractIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/1c4d760a-79b5-4646-9cf2-6cd32c5d05ee">ExtractIconEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extracticonexa">ExtractIconEx</a>
  
 
  

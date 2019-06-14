@@ -63,7 +63,7 @@ The <b>SetAlphaBitmap</b> method specifies a new bitmap image and the source loc
 
 ### -param pBmpParms [in]
 
-A oointer to a <a href="https://msdn.microsoft.com/03b3e619-4804-42de-88d5-5422089e875a">VMRALPHABITMAP</a> structure that contains information about the bitmap.
+A oointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_vmralphabitmap">VMRALPHABITMAP</a> structure that contains information about the bitmap.
 
 
 ## -returns
@@ -131,13 +131,13 @@ BitBlt to bitmap surface failed.
 
 
 
-To remove the bitmap, set the <b>VMRBITMAP_DISABLE</b> flag in the <a href="https://msdn.microsoft.com/03b3e619-4804-42de-88d5-5422089e875a">VMRALPHABITMAP</a> structure and call <b>SetAlphaBitmap</b> again.
+To remove the bitmap, set the <b>VMRBITMAP_DISABLE</b> flag in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_vmralphabitmap">VMRALPHABITMAP</a> structure and call <b>SetAlphaBitmap</b> again.
 
 The method might return <b>E_INVALIDARG</b> for several reasons:
 
 <ul>
-<li>The <b>dwFlags</b> member of the <a href="https://msdn.microsoft.com/03b3e619-4804-42de-88d5-5422089e875a">VMRALPHABITMAP</a> structure contains an invalid combination of flags.</li>
-<li>The <a href="https://msdn.microsoft.com/03b3e619-4804-42de-88d5-5422089e875a">VMRALPHABITMAP</a> structure does not specify a valid HDC or DirectDraw surface.</li>
+<li>The <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_vmralphabitmap">VMRALPHABITMAP</a> structure contains an invalid combination of flags.</li>
+<li>The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_vmralphabitmap">VMRALPHABITMAP</a> structure does not specify a valid HDC or DirectDraw surface.</li>
 <li>The value of <b>fAlpha</b> is invalid.</li>
 </ul>
 
@@ -148,23 +148,23 @@ The method might return <b>E_INVALIDARG</b> for several reasons:
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/ac7da3f9-2c17-4517-bb64-6b56257a65c3">IVMRMixerBitmap Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/d03cc6ad-e09b-4af7-93b7-51880465c0b6">IVMRMixerBitmap::GetAlphaBitmapParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrmixerbitmap-getalphabitmapparameters">IVMRMixerBitmap::GetAlphaBitmapParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d0fdfac-ec7e-4e02-886b-2039c607dac7">Using the Video Mixing Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
 
 
 
-<a href="https://msdn.microsoft.com/c83e6c50-76f2-4aeb-944b-5b244c6bf776">Video Mixing Renderer Filter 7</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a>
  
 
  

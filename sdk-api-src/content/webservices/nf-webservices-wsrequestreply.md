@@ -69,20 +69,20 @@ The channel to do the request-reply operation on.
 The message object to use to send the request.
                 
 
-The message object should be in <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a> or
+The message object should be in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a> or
                     <b>WS_MESSAGE_STATE_INITIALIZED</b>.
                 
 
 
 ### -param requestMessageDescription [in]
 
-The action field of the <a href="https://msdn.microsoft.com/399b3363-004b-499a-9726-0b2513826f43">WS_MESSAGE_DESCRIPTION</a> is used as the
+The action field of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_description">WS_MESSAGE_DESCRIPTION</a> is used as the
                     action header for the request message.  This field may be <b>NULL</b> if no action
                     is required.
                 
 
-The bodyElementDescription field of the <a href="https://msdn.microsoft.com/399b3363-004b-499a-9726-0b2513826f43">WS_MESSAGE_DESCRIPTION</a>is used to serialize the body of the request message.  This field may be 
-                    <b>NULL</b> if no body element is desired.  See <a href="https://msdn.microsoft.com/70ff43f5-6f1a-4bbb-aa39-6fb9476e6a37">WsWriteBody</a> for
+The bodyElementDescription field of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_description">WS_MESSAGE_DESCRIPTION</a>is used to serialize the body of the request message.  This field may be 
+                    <b>NULL</b> if no body element is desired.  See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritebody">WsWriteBody</a> for
                     information about how the body is serialized according to the bodyElementDescription.
                 
 
@@ -90,7 +90,7 @@ The bodyElementDescription field of the <a href="https://msdn.microsoft.com/399b
 ### -param writeOption [in]
 
 Whether the body element is required, and how the value is allocated.
-                    See <a href="https://msdn.microsoft.com/24a0ad2c-fcec-42c5-8f72-bea431b06d2e">WS_WRITE_OPTION</a> for more information.
+                    See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_write_option">WS_WRITE_OPTION</a> for more information.
                 
 
 
@@ -111,27 +111,27 @@ The size of the request value being serialized, in bytes.
 The message object to use to receive the reply.
                 
 
-The message object should be in <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a>.
+The message object should be in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
                 
 
 
 ### -param replyMessageDescription [in]
 
-The action field of the <a href="https://msdn.microsoft.com/399b3363-004b-499a-9726-0b2513826f43">WS_MESSAGE_DESCRIPTION</a> is used to verify
+The action field of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_description">WS_MESSAGE_DESCRIPTION</a> is used to verify
                     the action header of the received reply message.  This field may be <b>NULL</b> if no action
                     is required.  If <b>NULL</b>, the action header of the received message is ignored
                     if present.
                 
 
-The bodyElementDescription field of the <a href="https://msdn.microsoft.com/399b3363-004b-499a-9726-0b2513826f43">WS_MESSAGE_DESCRIPTION</a>is used to deserialize the body of the reply message.  This field may be 
-                    <b>NULL</b> if no body element is desired.  See <a href="https://msdn.microsoft.com/43ceeb1e-aeb2-4482-90f0-d7f6013b239f">WsReadBody</a> for 
+The bodyElementDescription field of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_description">WS_MESSAGE_DESCRIPTION</a>is used to deserialize the body of the reply message.  This field may be 
+                    <b>NULL</b> if no body element is desired.  See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadbody">WsReadBody</a> for 
                     information about how the body is deserialized according to the bodyElementDescription.
                 
 
 
 ### -param readOption [in]
 
-Whether the reply body element is required, and how to allocate the value.                    For more information, see <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a> and <a href="https://msdn.microsoft.com/43ceeb1e-aeb2-4482-90f0-d7f6013b239f">WsReadBody</a>.
+Whether the reply body element is required, and how to allocate the value.                    For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadbody">WsReadBody</a>.
 
                 
 
@@ -149,10 +149,10 @@ The heap used to allocate deserialized reply body values.
 Where to store the deserialized values of the body.
                 
 
-The interpretation of this parameter depends on the <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a>.
+The interpretation of this parameter depends on the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a>.
                 
 
-If the bodyElementDescription of the reply <a href="https://msdn.microsoft.com/399b3363-004b-499a-9726-0b2513826f43">WS_MESSAGE_DESCRIPTION</a> 
+If the bodyElementDescription of the reply <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_description">WS_MESSAGE_DESCRIPTION</a> 
                     is <b>NULL</b>, then this parameter is not touched.  In this case, the
                     parameter does not need to be specified.
                 
@@ -160,7 +160,7 @@ If the bodyElementDescription of the reply <a href="https://msdn.microsoft.com/3
 
 ### -param valueSize [in]
 
-The interpretation of this parameter depends on the <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a>.
+The interpretation of this parameter depends on the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a>.
                 
 
 
@@ -195,7 +195,7 @@ This function can return one of these values.
 </td>
 <td width="60%">
 The reply message contained a fault.  The fault can be extracted from the
-                    <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> using <a href="https://msdn.microsoft.com/35a1f4a8-aad6-43ad-81db-b1071a77d5f4">WsGetErrorProperty</a>.
+                    <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgeterrorproperty">WsGetErrorProperty</a>.
                 
 
 </td>
@@ -596,8 +596,8 @@ This function may return other errors not listed above.
 
 
 
-The messages are correlated as appropriate to the <a href="https://msdn.microsoft.com/87f60067-109c-456c-b060-33ab840872e0">WS_ADDRESSING_VERSION</a>.
-                See <a href="https://msdn.microsoft.com/d7dddcc6-8eb0-4ee6-8cf5-7701a2be7a19">Channel Layer Overview</a> for more information about correlating
+The messages are correlated as appropriate to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION</a>.
+                See <a href="https://docs.microsoft.com/windows/desktop/wsw/channel-layer-overview">Channel Layer Overview</a> for more information about correlating
                 request reply messages.
             
 

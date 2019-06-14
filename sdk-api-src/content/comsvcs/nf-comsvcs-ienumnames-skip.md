@@ -106,7 +106,7 @@ The number of elements skipped was not the same as the number requested.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685055(v=VS.85).aspx">IEnumNames</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-ienumnames">IEnumNames</a>
  
 
  

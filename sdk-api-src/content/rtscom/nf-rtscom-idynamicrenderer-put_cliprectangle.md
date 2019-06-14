@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 
 
-Gets or sets the clipping rectangle for the <a href="https://msdn.microsoft.com/938e1eb2-3dd4-4e21-9c46-9ef840172b05">DynamicRenderer Class</a> object.
+Gets or sets the clipping rectangle for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a> object.
 
 
 
@@ -68,11 +68,11 @@ This property is read/write.
 
 
 
-The <b>ClipRectangle</b> property is set immediately and applies to the stroke that is being drawn. It differs from the <a href="https://msdn.microsoft.com/d67a85e7-6dfc-4444-bb69-a46e1234d021">IDynamicRenderer::DrawingAttributes Property</a> property, which applies to the next stroke drawn. This allows the clip rectangle to grow as the stroke is drawn.
+The <b>ClipRectangle</b> property is set immediately and applies to the stroke that is being drawn. It differs from the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer-get_drawingattributes">IDynamicRenderer::DrawingAttributes Property</a> property, which applies to the next stroke drawn. This allows the clip rectangle to grow as the stroke is drawn.
 
-When calling the <a href="https://msdn.microsoft.com/409d4353-fc85-49ff-99a4-d8393a3c0ec4">IDynamicRenderer::Refresh Method</a> from within a Paint event handler, set the <b>IDynamicRenderer::ClipRectangle Property</b> to the Paint event's rectangle.
+When calling the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer-refresh">IDynamicRenderer::Refresh Method</a> from within a Paint event handler, set the <b>IDynamicRenderer::ClipRectangle Property</b> to the Paint event's rectangle.
 
-<div class="alert"><b>Note</b>  If the <b>ClipRectangle</b> is expanded in mid-stroke, then a <a href="https://msdn.microsoft.com/409d4353-fc85-49ff-99a4-d8393a3c0ec4">IDynamicRenderer::Refresh Method</a> call is required in order to display the new ink. This refresh call must be made every time new ink appears in a new area; however, doing so may cause performance problems when inking in the new area.</div>
+<div class="alert"><b>Note</b>  If the <b>ClipRectangle</b> is expanded in mid-stroke, then a <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer-refresh">IDynamicRenderer::Refresh Method</a> call is required in order to display the new ink. This refresh call must be made every time new ink appears in a new area; however, doing so may cause performance problems when inking in the new area.</div>
 <div> </div>
 
 
@@ -82,15 +82,15 @@ When calling the <a href="https://msdn.microsoft.com/409d4353-fc85-49ff-99a4-d83
 
 
 
-<a href="https://msdn.microsoft.com/938e1eb2-3dd4-4e21-9c46-9ef840172b05">DynamicRenderer Class</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/6435b297-d6a7-418b-afc0-f8cc0b329842">IDynamicRenderer Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-idynamicrenderer">IDynamicRenderer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/cf11d03d-8f60-44aa-a296-cc44ddc3930a">IDynamicRenderer::ClipRegion Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer-get_clipregion">IDynamicRenderer::ClipRegion Property</a>
  
 
  

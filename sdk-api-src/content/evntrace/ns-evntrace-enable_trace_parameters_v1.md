@@ -64,7 +64,7 @@ Set to <b>ENABLE_TRACE_PARAMETERS_VERSION</b>.
 
 ### -field EnableProperty
 
-Optional information that ETW can include when writing the event. The data is written to the <a href="https://msdn.microsoft.com/130dc14b-7488-48ab-a31d-310c0f4ee13f">extended data item</a> section of the event. To include the optional information, specify one or more of the following flags; otherwise, set to zero.
+Optional information that ETW can include when writing the event. The data is written to the <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_header_extended_data_item">extended data item</a> section of the event. To include the optional information, specify one or more of the following flags; otherwise, set to zero.
 
 <table>
 <tr>
@@ -97,13 +97,13 @@ Include in the extended data the terminal session identifier.
 </dl>
 </td>
 <td width="60%">
-Include in the extended data a call stack trace for events written using <a href="https://msdn.microsoft.com/93070eb7-c167-4419-abff-e861877dad07">EventWrite</a>.
+Include in the extended data a call stack trace for events written using <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwrite">EventWrite</a>.
 
 If you set <b>EVENT_ENABLE_PROPERTY_STACK_TRACE</b>, ETW will drop the event if the total event size exceeds 64K. If the provider is logging events close in size to 64K maximum, it is possible that enabling stack capture will cause the event to be lost.
 
 If the stack is longer than the maximum number of frames (192), the frames will be cut from the bottom of the stack.
 
-For consumers,  the events will include the <a href="https://msdn.microsoft.com/en-us/library/Dd392308(v=VS.85).aspx">EVENT_EXTENDED_ITEM_STACK_TRACE32</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd392309(v=VS.85).aspx">EVENT_EXTENDED_ITEM_STACK_TRACE64</a> extended item. Note that on 64-bit computers, 32-bit processes will receive 64-bit stack traces.
+For consumers,  the events will include the <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_extended_item_stack_trace32">EVENT_EXTENDED_ITEM_STACK_TRACE32</a> or <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_extended_item_stack_trace64">EVENT_EXTENDED_ITEM_STACK_TRACE64</a> extended item. Note that on 64-bit computers, 32-bit processes will receive 64-bit stack traces.
 
 </td>
 </tr>
@@ -118,21 +118,21 @@ Reserved. Set to 0.
 
 ### -field SourceId
 
-A GUID that uniquely identifies the session that is enabling or disabling the provider. If the provider does not implement <a href="https://msdn.microsoft.com/f339323e-9da9-495f-aac5-f44969a018eb">EnableCallback</a>, the GUID is not used.
+A GUID that uniquely identifies the session that is enabling or disabling the provider. If the provider does not implement <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nc-evntprov-penablecallback">EnableCallback</a>, the GUID is not used.
 
 
 ### -field EnableFilterDesc
 
-An <a href="https://msdn.microsoft.com/9318868a-29d8-4a5e-9579-c06a7c0fd78f">EVENT_FILTER_DESCRIPTOR</a> structure that points to the filter data. The provider uses filter data to prevent events that match the filter criteria from being written to the session. The provider determines the layout of the data and how it applies the filter to the event's data. A session can pass only one filter to the provider.
+An <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structure that points to the filter data. The provider uses filter data to prevent events that match the filter criteria from being written to the session. The provider determines the layout of the data and how it applies the filter to the event's data. A session can pass only one filter to the provider.
 
-A session can call the <a href="https://msdn.microsoft.com/bc0f4286-1f6e-4d99-ad84-af8ab5dbba2b">TdhEnumerateProviderFilters</a> function to determine the schematized filters that it can pass to the provider.
+A session can call the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhenumerateproviderfilters">TdhEnumerateProviderFilters</a> function to determine the schematized filters that it can pass to the provider.
 
 
 ## -remarks
 
 
 
-The <b>ENABLE_TRACE_PARAMETERS_V1</b> structure  is used with the <a href="https://msdn.microsoft.com/d75f18e1-e5fa-4039-bb74-76dea334b0fd">EnableTrace</a> and <a href="https://msdn.microsoft.com/1c675bf7-f292-49b1-8b60-720499a497fd">EnableTraceEx</a> functions. The <a href="https://msdn.microsoft.com/bc7cf886-f763-428a-9e75-031e8df26554">ENABLE_TRACE_PARAMETERS</a> structure is a version 2 structure and replaces the <b>ENABLE_TRACE_PARAMETERS_V1</b> structure for use with the <a href="https://msdn.microsoft.com/3aceffb6-614f-4cad-bbec-f181f0cbdbff">EnableTraceEx2</a> function.
+The <b>ENABLE_TRACE_PARAMETERS_V1</b> structure  is used with the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletrace">EnableTrace</a> and <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a> functions. The <a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a> structure is a version 2 structure and replaces the <b>ENABLE_TRACE_PARAMETERS_V1</b> structure for use with the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function.
 
 Typically, on 64-bit computers, you cannot capture the kernel stack in certain contexts when page faults are not allowed. To enable walking the kernel stack on x64, set the <b>DisablePagingExecutive</b> Memory Management registry value to 1. The <b>DisablePagingExecutive</b> registry value is located under the following registry key:<b>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Memory Management</b></p>You should consider the cost of setting this registry value before doing so.
 
@@ -144,23 +144,23 @@ Typically, on 64-bit computers, you cannot capture the kernel stack in certain c
 
 
 
-<a href="https://msdn.microsoft.com/bc7cf886-f763-428a-9e75-031e8df26554">ENABLE_TRACE_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/9318868a-29d8-4a5e-9579-c06a7c0fd78f">EVENT_FILTER_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/d75f18e1-e5fa-4039-bb74-76dea334b0fd">EnableTrace</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/enabletrace">EnableTrace</a>
 
 
 
-<a href="https://msdn.microsoft.com/1c675bf7-f292-49b1-8b60-720499a497fd">EnableTraceEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/3aceffb6-614f-4cad-bbec-f181f0cbdbff">EnableTraceEx2</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a>
  
 
  

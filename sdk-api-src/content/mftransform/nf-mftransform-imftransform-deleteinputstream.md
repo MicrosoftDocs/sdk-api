@@ -150,13 +150,13 @@ The transform has unprocessed input buffers for the specified stream.
 If the transform has a fixed number of input streams, the method returns <b>E_NOTIMPL</b>.
       
 
-An MFT might support this method but not allow certain input streams to be removed. If an input stream can be removed, the <a href="https://msdn.microsoft.com/d57ffac7-1a92-4c6b-bd59-0acd7239c0a6">IMFTransform::GetInputStreamInfo</a> method returns the <b>MFT_INPUT_STREAM_REMOVABLE</b> flag for that stream. Otherwise, the stream cannot be removed, and the method returns <b>MF_E_INVALIDREQUEST</b>. The method also fails if the MFT currently has the minimum number of input streams that it requires. To find the minimum number of streams, call <a href="https://msdn.microsoft.com/4d9585f0-5818-4e7f-925c-4c50ae6a6edc">IMFTransform::GetStreamLimits</a>.
+An MFT might support this method but not allow certain input streams to be removed. If an input stream can be removed, the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-getinputstreaminfo">IMFTransform::GetInputStreamInfo</a> method returns the <b>MFT_INPUT_STREAM_REMOVABLE</b> flag for that stream. Otherwise, the stream cannot be removed, and the method returns <b>MF_E_INVALIDREQUEST</b>. The method also fails if the MFT currently has the minimum number of input streams that it requires. To find the minimum number of streams, call <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-getstreamlimits">IMFTransform::GetStreamLimits</a>.
       
 
-If the transform still has unprocessed input for that stream, the method might succeed or it might return <b>MF_E_TRANSFORM_INPUT_REMAINING</b>. If the method succeeds, the MFT will continue to process the remaining input after the stream is removed. If the method returns <b>MF_E_TRANSFORM_INPUT_REMAINING</b>, you must clear the input buffers before removing the stream. To clear the input buffers, either call <a href="https://msdn.microsoft.com/dc58cc75-7e01-4f47-a572-8e3ca1bc43b4">IMFTransform::ProcessOutput</a> or else call <a href="https://msdn.microsoft.com/a6dc67e5-8473-444a-8463-24f411e59565">IMFTransform::ProcessMessage</a> with the <b>MFT_MESSAGE_COMMAND_FLUSH</b> to flush the MFT. Then call the <b>DeleteInputStream</b> again. An MFT should never discard input buffers when <b>DeleteInputStream</b> is called.
+If the transform still has unprocessed input for that stream, the method might succeed or it might return <b>MF_E_TRANSFORM_INPUT_REMAINING</b>. If the method succeeds, the MFT will continue to process the remaining input after the stream is removed. If the method returns <b>MF_E_TRANSFORM_INPUT_REMAINING</b>, you must clear the input buffers before removing the stream. To clear the input buffers, either call <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">IMFTransform::ProcessOutput</a> or else call <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processmessage">IMFTransform::ProcessMessage</a> with the <b>MFT_MESSAGE_COMMAND_FLUSH</b> to flush the MFT. Then call the <b>DeleteInputStream</b> again. An MFT should never discard input buffers when <b>DeleteInputStream</b> is called.
       
 
-If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTDeleteInputStream</b>. See <a href="https://msdn.microsoft.com/en-us/library/Bb250374(v=VS.85).aspx">Creating Hybrid DMO/MFT Objects</a>.
+If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTDeleteInputStream</b>. See <a href="https://docs.microsoft.com/windows/desktop/medfound/comparison-of-mfts-and-dmos">Creating Hybrid DMO/MFT Objects</a>.
 
 
 
@@ -166,11 +166,11 @@ If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, thi
 
 
 
-<a href="https://msdn.microsoft.com/3cc502d8-d364-43b9-b0b6-d9474c002b20">IMFTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb23fe0a-c42c-4912-a0bf-1f0b18a6f4e0">Media Foundation Transforms</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
  
 
  

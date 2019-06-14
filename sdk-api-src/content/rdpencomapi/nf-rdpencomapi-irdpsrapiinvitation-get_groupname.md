@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-The group name is set when calling the <a href="https://msdn.microsoft.com/169d220b-3a2a-490e-9c1c-03a707d59f6c">IRDPSRAPIInvitationManager::CreateInvitation</a> method. Applications typically use this property to separate attendees into groups that can be granted different authorization levels.
+The group name is set when calling the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiinvitationmanager-createinvitation">IRDPSRAPIInvitationManager::CreateInvitation</a> method. Applications typically use this property to separate attendees into groups that can be granted different authorization levels.
 
 
 
@@ -73,7 +73,7 @@ The group name is set when calling the <a href="https://msdn.microsoft.com/169d2
 
 
 
-<a href="https://msdn.microsoft.com/66cd8251-726a-4368-8da5-4d3f6899bdc8">IRDPSRAPIInvitation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiinvitation">IRDPSRAPIInvitation</a>
  
 
  

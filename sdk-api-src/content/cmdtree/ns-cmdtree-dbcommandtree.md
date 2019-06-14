@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href="http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
-The <b>DBCOMMANDTREE</b> structure is the primary data structure used to represent any node in an OLE DB command tree, as described in the <a href="https://msdn.microsoft.com/en-us/library/ms690326(v=VS.85).aspx">Data Manipulation Operators</a> and Data Definition Operators section of this reference. This structure is used for each data manipulation language (DML) or data definition language (DDL) node in an OLE DB command tree. 
+The <b>DBCOMMANDTREE</b> structure is the primary data structure used to represent any node in an OLE DB command tree, as described in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/data-manipulation-operators">Data Manipulation Operators</a> and Data Definition Operators section of this reference. This structure is used for each data manipulation language (DML) or data definition language (DDL) node in an OLE DB command tree. 
 
 
 ## -struct-fields
@@ -63,14 +63,14 @@ The <b>DBCOMMANDTREE</b> structure is the primary data structure used to represe
 
 Operator identifier (2 bytes)
 
-A value of type <a href="https://msdn.microsoft.com/en-us/library/ms690290(v=VS.85).aspx">DBCOMMANDOP</a> from the <a href="https://msdn.microsoft.com/en-us/library/ms690255(v=VS.85).aspx">DBCOMMANDOPENUM</a> enumeration. It specifies an operator from the <a href="https://msdn.microsoft.com/en-us/library/ms690326(v=VS.85).aspx">Data Manipulation Operators</a> or the Data Definition Operators that defines the operation to take place on the associated field.
+A value of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/dbcommandop">DBCOMMANDOP</a> from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cmdtree/ne-cmdtree-dbcommandopenum">DBCOMMANDOPENUM</a> enumeration. It specifies an operator from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/data-manipulation-operators">Data Manipulation Operators</a> or the Data Definition Operators that defines the operation to take place on the associated field.
 
 
 ### -field wKind
 
 Discriminator for the following union (2 bytes)
 
-A value of type <a href="https://msdn.microsoft.com/en-us/library/ms690322(v=VS.85).aspx">DBVALUEKIND</a> from the <a href="https://msdn.microsoft.com/en-us/library/ms690295(v=VS.85).aspx">DBVALUEKINDENUM</a> enumerated type. It defines the data type of the associated union member so that the command processor knows how to interpret it. 
+A value of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/dbvaluekind">DBVALUEKIND</a> from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cmdtree/ne-cmdtree-dbvaluekindenum">DBVALUEKINDENUM</a> enumerated type. It defines the data type of the associated union member so that the command processor knows how to interpret it. 
 
 
 ### -field pctFirstChild
@@ -99,9 +99,9 @@ A <b>pwszValue</b> member is a string; its interpretation is left to the provide
 
 The <b>pMoniker</b> member is used for unresolved linked objects, in particular tables and functions.
 
-The <b>pRowset</b> member is used to reference a currently open rowset as input for a command. Most providers will fail if an <a href="https://msdn.microsoft.com/en-us/library/ms688695(v=VS.85).aspx">IPersist</a> method is invoked while the command tree refers to an open rowset.
+The <b>pRowset</b> member is used to reference a currently open rowset as input for a command. Most providers will fail if an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersist">IPersist</a> method is invoked while the command tree refers to an open rowset.
 
-The <b>pCommand</b> member references another command object as input for a command. Most providers will fail if an <a href="https://msdn.microsoft.com/en-us/library/ms688695(v=VS.85).aspx">IPersist</a> method is invoked while the command tree refers to a command object that does not support monikers.
+The <b>pCommand</b> member references another command object as input for a command. Most providers will fail if an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersist">IPersist</a> method is invoked while the command tree refers to a command object that does not support monikers.
 
 
 ### -field value.llValue
@@ -360,9 +360,9 @@ Error indicator, details in Extended Error info (4 bytes)
 
 
 
-Many operations create a binding environment. For example, a DBOP_select operation has two inputs — a table and a Boolean predicate. (For more information on this operation, see <a href="https://msdn.microsoft.com/en-us/library/ms689901(v=VS.85).aspx">Operators with Two Variants for Ordered and Non-Ordered Tables</a>.) By virtue of the "select" operation, the table becomes the binding environment for the predicate. That means that the predicate may freely reference column names defined in the table. Note that not all bindings must come from the nearest table operation. For example, there might be multiple table operations within an "exist" expression, and any predicate may reference a column defined outside the "exist" expression. (In SQL, this is called a "correlated subquery.")
+Many operations create a binding environment. For example, a DBOP_select operation has two inputs — a table and a Boolean predicate. (For more information on this operation, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/operators-with-two-variants-for-ordered-and-non-ordered-tables">Operators with Two Variants for Ordered and Non-Ordered Tables</a>.) By virtue of the "select" operation, the table becomes the binding environment for the predicate. That means that the predicate may freely reference column names defined in the table. Note that not all bindings must come from the nearest table operation. For example, there might be multiple table operations within an "exist" expression, and any predicate may reference a column defined outside the "exist" expression. (In SQL, this is called a "correlated subquery.")
 
-The typical size of a <b>DBCOMMANDTREE</b> structure for a node is 24 bytes. However, operators may store some specific information in the value field of the node. For programming convenience, the union field includes branches representing some common types that can fit within 8 bytes. Variable-length types are referenced via a pointer to the corresponding structure (such as <a href="https://msdn.microsoft.com/en-us/library/ms689896(v=VS.85).aspx">DBTEXT</a>). The discriminator for the union is of type <b>WORD</b> rather than <a href="https://msdn.microsoft.com/en-us/library/ms690322(v=VS.85).aspx">DBVALUEKIND</a> so that it is possible to store node values such as DBVALUEKIND_VECTOR | DBVALUEKIND_GUID, DBVALUEKIND_BYREF | DBVALUEKIND_UI4, or DBVALUEKIND_SAFEARRAY | DBVALUEKIND_I4.
+The typical size of a <b>DBCOMMANDTREE</b> structure for a node is 24 bytes. However, operators may store some specific information in the value field of the node. For programming convenience, the union field includes branches representing some common types that can fit within 8 bytes. Variable-length types are referenced via a pointer to the corresponding structure (such as <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/dbtext">DBTEXT</a>). The discriminator for the union is of type <b>WORD</b> rather than <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/dbvaluekind">DBVALUEKIND</a> so that it is possible to store node values such as DBVALUEKIND_VECTOR | DBVALUEKIND_GUID, DBVALUEKIND_BYREF | DBVALUEKIND_UI4, or DBVALUEKIND_SAFEARRAY | DBVALUEKIND_I4.
 
 
 

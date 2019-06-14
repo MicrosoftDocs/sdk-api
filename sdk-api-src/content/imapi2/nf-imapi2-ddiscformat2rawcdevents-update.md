@@ -59,14 +59,14 @@ Implement this method to receive progress notification of the current raw-image 
 
 ### -param object [in]
 
-The <a href="https://msdn.microsoft.com/58d9b83c-a528-4b39-b08d-a0fb8c1aece8">IDiscFormat2RawCD</a> interface that initiated the write operation. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a> interface that initiated the write operation. 
 
 This parameter is a <b>MsftDiscFormat2RawCD</b> object in script.
 
 
 ### -param progress [in]
 
-An <a href="https://msdn.microsoft.com/b1988883-459c-46f1-a0d1-df9500a000e1">IDiscFormat2RawCDEventArgs</a> interface that you use to determine the progress of the write operation. 
+An <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcdeventargs">IDiscFormat2RawCDEventArgs</a> interface that you use to determine the progress of the write operation. 
 
 This parameter is a <b>MsftDiscFormat2RawCD</b> object in script.
 
@@ -84,9 +84,9 @@ Return values are ignored.
 
 
 
-Notifications are sent in response to calling the <a href="https://msdn.microsoft.com/137395f1-b0cf-4bd0-9d3b-a21122eb8b57">IDiscFormat2RawCD::WriteMedia</a> or <a href="https://msdn.microsoft.com/636d04dd-081d-407c-827e-55e443516d9b">IDiscFormat2RawCD::WriteMedia2</a> method.
+Notifications are sent in response to calling the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-writemedia">IDiscFormat2RawCD::WriteMedia</a> or <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-writemedia2">IDiscFormat2RawCD::WriteMedia2</a> method.
 
-To stop the write process, call the <a href="https://msdn.microsoft.com/12cd6797-dcb8-496d-a141-9d3a805266e9">IDiscFormat2RawCD::CancelWrite</a> method.
+To stop the write process, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-cancelwrite">IDiscFormat2RawCD::CancelWrite</a> method.
 
 
 
@@ -96,15 +96,15 @@ To stop the write process, call the <a href="https://msdn.microsoft.com/12cd6797
 
 
 
-<a href="https://msdn.microsoft.com/3a06911e-8a50-4e41-874c-478ad05f6488">DDiscFormat2RawCDEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-ddiscformat2rawcdevents">DDiscFormat2RawCDEvents</a>
 
 
 
-<a href="https://msdn.microsoft.com/58d9b83c-a528-4b39-b08d-a0fb8c1aece8">IDiscFormat2RawCD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
 
 
 
-<a href="https://msdn.microsoft.com/12cd6797-dcb8-496d-a141-9d3a805266e9">IDiscFormat2RawCD::CancelWrite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-cancelwrite">IDiscFormat2RawCD::CancelWrite</a>
  
 
  

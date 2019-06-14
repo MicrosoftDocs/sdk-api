@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 The 
 <b>IWbemContext::DeleteValue</b> method deletes a named context value created by 
-<a href="https://msdn.microsoft.com/074d5ac7-aa86-44d8-99f9-959ef99a8004">IWbemContext::SetValue</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-setvalue">IWbemContext::SetValue</a>.
 
 
 ## -parameters
@@ -90,15 +90,15 @@ This method returns an <b>HRESULT</b>HRESULT indicating the status of the method
 
 
 
-<a href="https://msdn.microsoft.com/458bd455-6984-414b-a0b7-62887d9dad7c">IWbemContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/e11fff37-aeb7-41c5-8639-ca0a7a144263">IWbemContext::GetValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-getvalue">IWbemContext::GetValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/074d5ac7-aa86-44d8-99f9-959ef99a8004">IWbemContext::SetValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-setvalue">IWbemContext::SetValue</a>
  
 
  

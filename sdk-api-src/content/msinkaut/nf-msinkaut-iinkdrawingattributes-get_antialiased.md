@@ -85,7 +85,7 @@ Antialiasing improves the quality of rendering by making ink appear smoother and
 
 
 
-<a href="https://msdn.microsoft.com/10ca7ae5-28dd-42a2-98d9-852d4de5869d">InkDrawingAttribute Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttribute Class</a>
  
 
  

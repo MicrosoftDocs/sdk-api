@@ -56,7 +56,7 @@ ms.custom: 19H1
 ]
 
 
-The <b>GetDRMProperty</b> method retrieves the specified <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">DRM</a> property.
+The <b>GetDRMProperty</b> method retrieves the specified <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">DRM</a> property.
 
 
 
@@ -99,72 +99,72 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-This method retrieves only DRM properties listed below. The file must first be opened using <a href="https://msdn.microsoft.com/en-us/library/Dd757237(v=VS.85).aspx">IWMMetadataEditor::Open</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd757234(v=VS.85).aspx">IWMMetadataEditor2::OpenEx</a>.
+This method retrieves only DRM properties listed below. The file must first be opened using <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmetadataeditor-open">IWMMetadataEditor::Open</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmetadataeditor2-openex">IWMMetadataEditor2::OpenEx</a>.
 
-Also, before calling <b>GetDRMProperty</b> on an opened file, always call the helper function <a href="https://msdn.microsoft.com/en-us/library/Dd757830(v=VS.85).aspx">WMIsContentProtected</a> to ensure that the file is protected with DRM. It is important to do this because in some cases this method might succeed when called on unprotected content.
+Also, before calling <b>GetDRMProperty</b> on an opened file, always call the helper function <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmiscontentprotected">WMIsContentProtected</a> to ensure that the file is protected with DRM. It is important to do this because in some cases this method might succeed when called on unprotected content.
 
 The following properties are accessible from this method:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/1d728135-25e9-4ab8-873d-b7df3e8cae83">DRM_IsDRM</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-isdrm">DRM_IsDRM</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/868e3ada-d608-41d6-93d7-0b7930cbf2f9">DRM_IsDRMCached</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-isdrmcached">DRM_IsDRMCached</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/9acaac44-81b2-467c-9510-023fbb47dd04">DRM_BaseLicenseAcqURL</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-baselicenseacqurl">DRM_BaseLicenseAcqURL</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/fbf62e8d-069e-427b-9093-6c579cdaa96a">DRM_Rights</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-rights">DRM_Rights</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/d5967f5b-99b6-41ea-8494-ac4a7331bbfe">DRM_LicenseID</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-licenseid">DRM_LicenseID</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/7c8d7631-7edc-482d-afdb-758c4a0ecc22">DRM_ActionAllowed_Playback</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-actionallowed-playback">DRM_ActionAllowed_Playback</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/c650bb2e-6cec-404a-8ece-7a5687cda99f">DRM_ActionAllowed_CopyToCD</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-actionallowed-copytocd">DRM_ActionAllowed_CopyToCD</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/3ffb9c8f-5640-4ab5-9939-f9525ab960c6">DRM_ActionAllowed_CopyToSDMIDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-actionallowed-copytosdmidevice">DRM_ActionAllowed_CopyToSDMIDevice</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/517ceeb5-4979-4667-ba54-8b9b1c6069f2">DRM_ActionAllowed_CopyToNonSDMIDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-actionallowed-copytononsdmidevice">DRM_ActionAllowed_CopyToNonSDMIDevice</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/49b503ff-a2ca-405c-a8ac-49653c62e13e">DRM_ActionAllowed_Backup</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-actionallowed-backup">DRM_ActionAllowed_Backup</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/cf9fe829-8473-4dd5-9a99-48b709fec0d8">DRM_DRMHeader_KeyID</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-drmheader-keyid">DRM_DRMHeader_KeyID</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/00c788b4-b291-4df5-9926-0badc7357faf">DRM_DRMHeader_LicenseAcqURL</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-drmheader-licenseacqurl">DRM_DRMHeader_LicenseAcqURL</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/fda38778-2fdf-4218-aad2-e4cf351d74e9">DRM_DRMHeader_ContentID</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-drmheader-contentid">DRM_DRMHeader_ContentID</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/2ac24660-8b7a-4dba-9f9f-ad8b13a22f5c">DRM_DRMHeader_IndividualizedVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-drmheader-individualizedversion">DRM_DRMHeader_IndividualizedVersion</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/ea9ae7ba-35cc-4e86-995c-9abcdae48f9c">DRM_DRMHeader_ContentDistributor</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-drmheader-contentdistributor">DRM_DRMHeader_ContentDistributor</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/e582d841-4865-40d3-889e-847d3aac0a7c">DRM_DRMHeader_SubscriptionContentID</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-drmheader-subscriptioncontentid">DRM_DRMHeader_SubscriptionContentID</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/deb559e6-1854-4ac7-bc77-c641e9579fde">DRM_LicenseState_Playback</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-licensestate-playback">DRM_LicenseState_Playback</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/0a32ce53-87ce-4b63-bfd6-3a0dd629dabc">DRM_LicenseState_CopyToCD</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-licensestate-copytocd">DRM_LicenseState_CopyToCD</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/16d6748f-7998-4239-925d-d9d3952aab1b">DRM_LicenseState_CopyToSDMIDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-licensestate-copytosdmidevice">DRM_LicenseState_CopyToSDMIDevice</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/aa0099b0-c6f8-4e27-a1f4-b98155d277aa">DRM_LicenseState_CopyToNonSDMIDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-licensestate-copytononsdmidevice">DRM_LicenseState_CopyToNonSDMIDevice</a>
 </li>
 </ul>
 
@@ -175,15 +175,15 @@ The following properties are accessible from this method:
 
 
 
-<a href="https://msdn.microsoft.com/222ef91c-b776-4de8-b1ad-88c2beca05aa">DRM Attribute List</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-attribute-list">DRM Attribute List</a>
 
 
 
-<a href="https://msdn.microsoft.com/862fc8bc-6e40-4496-862a-c12c8a382116">DRM Properties</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-properties">DRM Properties</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798279(v=VS.85).aspx">IWMDRMEditor Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmeditor">IWMDRMEditor Interface</a>
  
 
  

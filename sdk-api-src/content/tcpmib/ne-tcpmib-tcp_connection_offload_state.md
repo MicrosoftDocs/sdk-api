@@ -82,7 +82,7 @@ The TCP connection is in the process of being uploaded back to the network stack
 
 ### -field TcpConnectionOffloadStateMax
 
-The maximum possible value for the <a href="https://msdn.microsoft.com/cef633e7-1577-4f10-bd14-8d8e85aa78e6">TCP_CONNECTION_OFFLOAD_STATE</a> enumeration type. This is not a legal value for the possible TCP connection offload state.
+The maximum possible value for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ne-tcpmib-tcp_connection_offload_state">TCP_CONNECTION_OFFLOAD_STATE</a> enumeration type. This is not a legal value for the possible TCP connection offload state.
 
 
 ## -remarks
@@ -101,27 +101,27 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://msdn.microsoft.com/77150609-d06d-4492-bbd7-21eecd825bde">GetTcp6Table</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcp6table">GetTcp6Table</a>
 
 
 
-<a href="https://msdn.microsoft.com/435b9198-b921-407c-9441-31cfe77c03f1">GetTcp6Table2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcp6table2">GetTcp6Table2</a>
 
 
 
-<a href="https://msdn.microsoft.com/bbec3397-0317-40f7-926f-2ec48cf5386d">MIB_TCP6ROW2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6row2">MIB_TCP6ROW2</a>
 
 
 
-<a href="https://msdn.microsoft.com/3cb8568e-ce31-4ed1-aa9e-abcb826c0cea">MIB_TCP6TABLE2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6table2">MIB_TCP6TABLE2</a>
 
 
 
-<a href="https://msdn.microsoft.com/cff343cd-fe85-4e60-87bd-c1e9833cea38">MIB_TCPROW2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcprow2">MIB_TCPROW2</a>
 
 
 
-<a href="https://msdn.microsoft.com/e07de994-0bd5-4d18-9012-8ff191dd6939">MIB_TCPTABLE2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcptable2">MIB_TCPTABLE2</a>
  
 
  

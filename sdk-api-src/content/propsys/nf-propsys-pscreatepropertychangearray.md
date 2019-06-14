@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a container for a set of <a href="https://msdn.microsoft.com/en-us/library/Bb775244(v=VS.85).aspx">IPropertyChange</a> objects. This container can be used with <a href="https://msdn.microsoft.com/6596607e-0699-4eb6-b0d6-7cc2e5eb49c7">IFileOperation</a> to apply a set of property changes to a set of files.
+Creates a container for a set of <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertychange">IPropertyChange</a> objects. This container can be used with <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation">IFileOperation</a> to apply a set of property changes to a set of files.
 
 
 ## -parameters
@@ -59,23 +59,23 @@ Creates a container for a set of <a href="https://msdn.microsoft.com/en-us/libra
 
 ### -param rgpropkey [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a>*</b>
 
-Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structures that name the specific properties whose changes are being stored. If this value is <b>NULL</b>, <i>cChanges</i> must be 0.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structures that name the specific properties whose changes are being stored. If this value is <b>NULL</b>, <i>cChanges</i> must be 0.
 
 
 ### -param rgflags [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb762521(v=VS.85).aspx">PKA_FLAGS</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-propsys-pka_flags">PKA_FLAGS</a>*</b>
 
-Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Bb762521(v=VS.85).aspx">PKA_FLAGS</a> values. If this value is <b>NULL</b>, <i>cChanges</i> must be 0.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-propsys-pka_flags">PKA_FLAGS</a> values. If this value is <b>NULL</b>, <i>cChanges</i> must be 0.
 
 
 ### -param rgpropvar [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>*</b>
 
-Pointer to an array of <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structures. If this value is <b>NULL</b>, <i>cChanges</i> must be 0.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structures. If this value is <b>NULL</b>, <i>cChanges</i> must be 0.
 
 
 ### -param cChanges [in]
@@ -96,7 +96,7 @@ Reference to the ID of the requested interface.
 
 Type: <b>void**</b>
 
-When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://msdn.microsoft.com/en-us/library/Bb775223(v=VS.85).aspx">IPropertyChangeArray</a>.
+When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertychangearray">IPropertyChangeArray</a>.
 
 
 ## -returns
@@ -114,21 +114,21 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-This function creates a Component Object Model (COM) object that implements <a href="https://msdn.microsoft.com/en-us/library/Bb775223(v=VS.85).aspx">IPropertyChangeArray</a>. This object is a container for a set of <a href="https://msdn.microsoft.com/en-us/library/Bb775244(v=VS.85).aspx">IPropertyChange</a> interfaces and can be used with <a href="https://msdn.microsoft.com/6596607e-0699-4eb6-b0d6-7cc2e5eb49c7">IFileOperation</a> to apply a set of property changes to a set of files.
+This function creates a Component Object Model (COM) object that implements <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertychangearray">IPropertyChangeArray</a>. This object is a container for a set of <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertychange">IPropertyChange</a> interfaces and can be used with <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation">IFileOperation</a> to apply a set of property changes to a set of files.
 
-You must initialize COM with <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> before you call <a href="https://msdn.microsoft.com/en-us/library/Bb776491(v=VS.85).aspx">PSCreatePropertyChangeArray</a>. COM must remain initialized for the lifetime of this object. The property change array executes in a single-threaded apartment (STA).
+You must initialize COM with <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleinitialize">OleInitialize</a> before you call <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-pscreatepropertychangearray">PSCreatePropertyChangeArray</a>. COM must remain initialized for the lifetime of this object. The property change array executes in a single-threaded apartment (STA).
 
-A property change array can be initialized either by specifying simple changes by using the parameters, or by using various <a href="https://msdn.microsoft.com/en-us/library/Bb775223(v=VS.85).aspx">IPropertyChangeArray</a> methods to insert or append additional changes.
+A property change array can be initialized either by specifying simple changes by using the parameters, or by using various <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertychangearray">IPropertyChangeArray</a> methods to insert or append additional changes.
 
 The parameters are tied together by their index value. For instance, for property rgpropkey[0], the new value rgpropvar[0] is applied as specified by rgflags[0]. The <i>cChanges</i> parameter states how many of these sets there are. Therefore, the number of elements in each array should be the same: ARRAYSIZE(rgpropkey) = ARRAYSIZE(rgflags) = ARRAYSIZE(rgpropvar) = cChanges.
 
 
-<a href="https://msdn.microsoft.com/6596607e-0699-4eb6-b0d6-7cc2e5eb49c7">IFileOperation</a> applies all changes in the property change array to a file simultaneously to avoid opening the file multiple times.
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation">IFileOperation</a> applies all changes in the property change array to a file simultaneously to avoid opening the file multiple times.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776491(v=VS.85).aspx">PSCreatePropertyChangeArray</a> to set the <a href="https://msdn.microsoft.com/en-us/library/ms726934(v=VS.85).aspx">Comment</a> property to "Fun" and <a href="https://msdn.microsoft.com/en-us/library/Dd757585(v=VS.85).aspx">Rating</a> to 4 on one or more files.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-pscreatepropertychangearray">PSCreatePropertyChangeArray</a> to set the <a href="https://docs.microsoft.com/windows/desktop/Tapi/comment-ovr">Comment</a> property to "Fun" and <a href="https://docs.microsoft.com/windows/desktop/wmformat/rating">Rating</a> to 4 on one or more files.
 
 
 ```cpp
@@ -176,7 +176,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776494(v=VS.85).aspx">PSCreateSimplePropertyChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-pscreatesimplepropertychange">PSCreateSimplePropertyChange</a>
  
 
  

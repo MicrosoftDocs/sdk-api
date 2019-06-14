@@ -79,7 +79,7 @@ For GSM devices these error codes are defined in 3GPP specification 24.008 as ca
 
 The error codes are cleared when the context activation operation completes successfully. When there is no network error or the error is not known, then the value is set to 0.
 
-Whenever there is a change in the network error value, the Mobile Broadband service will call the <a href="https://msdn.microsoft.com/5392e5b7-eac7-40f1-b5cd-adde5a6ff1b8">OnConnectStateChange</a> member of <a href="https://msdn.microsoft.com/9135ba2e-62f6-495e-b136-9efc5f260581">IMbnConnectionEvents</a>.
+Whenever there is a change in the network error value, the Mobile Broadband service will call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionevents-onconnectstatechange">OnConnectStateChange</a> member of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionevents">IMbnConnectionEvents</a>.
 
 
 
@@ -90,7 +90,7 @@ Whenever there is a change in the network error value, the Mobile Broadband serv
 
 
 
-<a href="https://msdn.microsoft.com/dae6ce6f-2534-4799-8ed3-53cd1f2eca13">IMbnConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a>
  
 
  

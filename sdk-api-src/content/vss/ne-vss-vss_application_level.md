@@ -53,7 +53,7 @@ The <b>VSS_APPLICATION_LEVEL</b> enumeration indicates
     the application level, the point in the course of the creation of a shadow copy that a writer is notified of a 
     freeze.
 
-VSS first sends a <a href="https://msdn.microsoft.com/en-us/library/Aa384656(v=VS.85).aspx">Freeze</a> event to writers 
+VSS first sends a <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-f">Freeze</a> event to writers 
     initialized with <b>VSS_APP_FRONT_END</b> (called front-end level applications), then to 
     writers initialized with <b>VSS_APP_BACK_END</b> (called back-end level applications), and 
     finally to writers initialized with <b>VSS_APP_SYSTEM</b> (called system-level 
@@ -113,8 +113,8 @@ In this example, when freezing applications that participate in a shadow copy, y
     <i>Y </i>(the back-end application), the database service itself.
 
 The application level of a writer is set by 
-    <a href="https://msdn.microsoft.com/a427ebbd-b7c4-46ba-ba16-dd601b1f956e">CVssWriter::Initialize</a> and retrieved by 
-    <a href="https://msdn.microsoft.com/09540f57-832a-49ca-9b64-e7660b331192">CVssWriter::GetCurrentLevel</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-initialize">CVssWriter::Initialize</a> and retrieved by 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-getcurrentlevel">CVssWriter::GetCurrentLevel</a>.
 
 
 
@@ -124,11 +124,11 @@ The application level of a writer is set by
 
 
 
-<a href="https://msdn.microsoft.com/09540f57-832a-49ca-9b64-e7660b331192">CVssWriter::GetCurrentLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-getcurrentlevel">CVssWriter::GetCurrentLevel</a>
 
 
 
-<a href="https://msdn.microsoft.com/a427ebbd-b7c4-46ba-ba16-dd601b1f956e">CVssWriter::Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-initialize">CVssWriter::Initialize</a>
  
 
  

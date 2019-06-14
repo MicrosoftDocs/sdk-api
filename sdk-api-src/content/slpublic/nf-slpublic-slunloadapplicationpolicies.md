@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Releases the policy context handle returned by the <a href="https://msdn.microsoft.com/a0852c0c-3d7d-4cca-a30b-b413c653b284">SLLoadApplicationPolicies</a> function.
+Releases the policy context handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slloadapplicationpolicies">SLLoadApplicationPolicies</a> function.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Releases the policy context handle returned by the <a href="https://msdn.microso
 
 Type: <b>HSLP</b>
 
-The context handle returned by the <a href="https://msdn.microsoft.com/a0852c0c-3d7d-4cca-a30b-b413c653b284">SLLoadApplicationPolicies</a> function.
+The context handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slloadapplicationpolicies">SLLoadApplicationPolicies</a> function.
 
 
 ### -param dwFlags [in]

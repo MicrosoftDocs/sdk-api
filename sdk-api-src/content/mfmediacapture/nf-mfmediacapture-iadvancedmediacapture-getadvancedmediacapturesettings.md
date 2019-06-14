@@ -74,7 +74,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/932b0cbf-c264-4c3b-b143-023dd7f809f1">IAdvancedMediaCapture</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediacapture/nn-mfmediacapture-iadvancedmediacapture">IAdvancedMediaCapture</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Describes a function table for any version of the 
-    <a href="https://msdn.microsoft.com/764a35dd-a681-4af0-8e2c-281a254a3a30">Resource API</a>.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-api">Resource API</a>.
 
 
 ## -struct-fields
@@ -127,13 +127,13 @@ Resource API version 3.0.
 
 ### -field DUMMYUNIONNAME.V1Functions
 
-A <a href="https://msdn.microsoft.com/54299e92-8b9d-4611-8147-8e7a5e1c8e34">CLRES_V1_FUNCTIONS</a> structure that contains the 
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-clres_v1_functions">CLRES_V1_FUNCTIONS</a> structure that contains the 
         table of entry points included in the Resource API version 1.0.
 
 
 ### -field DUMMYUNIONNAME.V2Functions
 
-A <a href="https://msdn.microsoft.com/81A5169E-C2AB-4666-9D9F-9DE4A639D0D6">CLRES_V2_FUNCTIONS</a> structure that contains the 
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-clres_v2_functions">CLRES_V2_FUNCTIONS</a> structure that contains the 
         table of entry points included in the Resource API version 2.0.
 
 <b>Windows Server 2008 R2:  </b>This member was added in Windows Server 2012.
@@ -141,7 +141,7 @@ A <a href="https://msdn.microsoft.com/81A5169E-C2AB-4666-9D9F-9DE4A639D0D6">CLRE
 
 ### -field DUMMYUNIONNAME.V3Functions
 
-A <a href="https://msdn.microsoft.com/5D4B5494-5F75-4864-9BA5-EF1A88DFE143">CLRES_V3_FUNCTIONS</a> structure that contains the 
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-clres_v3_functions">CLRES_V3_FUNCTIONS</a> structure that contains the 
         table of entry points included in the Resource API version 3.0.
 
 <b>Windows Server 2008 R2 and Windows Server 2012:  </b>This member was added in Windows Server 2012 R2.
@@ -161,32 +161,32 @@ A <a href="https://msdn.microsoft.com/5D4B5494-5F75-4864-9BA5-EF1A88DFE143">CLRE
 Only the first two members are guaranteed to be at the same offset within the 
      <b>CLRES_FUNCTION_TABLE</b> structure. All other entries 
      within this structure are dependent on the 
-     <a href="https://msdn.microsoft.com/764a35dd-a681-4af0-8e2c-281a254a3a30">Resource API</a> version supported.
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-api">Resource API</a> version supported.
 
 The <b>V1Functions</b> member is a 
-     <a href="https://msdn.microsoft.com/54299e92-8b9d-4611-8147-8e7a5e1c8e34">CLRES_V1_FUNCTIONS</a> structure containing pointers to 
-     all Resource API entry points except <a href="https://msdn.microsoft.com/b07a2c32-2ff5-4917-9bcb-e1cfe445b3b3">Startup</a>. All pointers 
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-clres_v1_functions">CLRES_V1_FUNCTIONS</a> structure containing pointers to 
+     all Resource API entry points except <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pstartup_routine">Startup</a>. All pointers 
      must be non-<b>NULL</b> except for pointers to the following entry point functions:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/dc16b785-bbb1-4917-a826-e49445a86c26">Arbitrate</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-parbitrate_routine">Arbitrate</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/9e8e4557-b223-4f8f-9393-67f589181754">Release</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-prelease_routine">Release</a>
 </li>
 </ul>
 For more information, see 
-     <a href="https://msdn.microsoft.com/400862c3-73c4-443d-bc60-1c1b6b34534f">Implementing Resource DLLs</a>.
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/implementing-resource-dlls">Implementing Resource DLLs</a>.
 
 To create a function table for version 1.0 of the Resource API, use the 
-     <a href="https://msdn.microsoft.com/2c390cbb-3bff-4850-9496-8991c112c233">CLRES_V1_FUNCTION_TABLE</a> macro.
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nf-resapi-clres_v1_function_table">CLRES_V1_FUNCTION_TABLE</a> macro.
 
 
 #### Examples
 
-See <a href="https://msdn.microsoft.com/20b150b4-293f-408b-888e-bac2b2fa4fb8">Defining Structures and Constants</a> 
-      in <a href="https://msdn.microsoft.com/400862c3-73c4-443d-bc60-1c1b6b34534f">Implementing Resource DLLs</a>.
+See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/defining-structures-and-constants">Defining Structures and Constants</a> 
+      in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/implementing-resource-dlls">Implementing Resource DLLs</a>.
 
 <div class="code"></div>
 
@@ -197,27 +197,27 @@ See <a href="https://msdn.microsoft.com/20b150b4-293f-408b-888e-bac2b2fa4fb8">De
 
 
 
-<a href="https://msdn.microsoft.com/dc16b785-bbb1-4917-a826-e49445a86c26">Arbitrate</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-parbitrate_routine">Arbitrate</a>
 
 
 
-<a href="https://msdn.microsoft.com/54299e92-8b9d-4611-8147-8e7a5e1c8e34">CLRES_V1_FUNCTIONS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-clres_v1_functions">CLRES_V1_FUNCTIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/2c390cbb-3bff-4850-9496-8991c112c233">CLRES_V1_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nf-resapi-clres_v1_function_table">CLRES_V1_FUNCTION_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e8e4557-b223-4f8f-9393-67f589181754">Release</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-prelease_routine">Release</a>
 
 
 
-<a href="https://msdn.microsoft.com/a9c64471-41fa-4101-9a02-ad57add8124c">ResourceControl</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-presource_control_routine">ResourceControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc4a6e6e-f968-4502-88d0-dc692341528d">ResourceTypeControl</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-presource_type_control_routine">ResourceTypeControl</a>
  
 
  

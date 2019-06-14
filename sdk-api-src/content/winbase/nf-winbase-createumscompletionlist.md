@@ -71,7 +71,7 @@ A <b>PUMS_COMPLETION_LIST</b> variable. On output, this parameter receives a poi
 If the function succeeds, it returns a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. Possible error values include the 
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible error values include the 
        following.
 
 <table>
@@ -101,21 +101,21 @@ Not enough memory is available to create the completion list.
 
 
 A completion list is associated with a UMS scheduler thread when the 
-    <a href="https://msdn.microsoft.com/792bd7fa-0ae9-4c38-a664-5fb3e3d0c52b">EnterUmsSchedulingMode</a> function is called to 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-enterumsschedulingmode">EnterUmsSchedulingMode</a> function is called to 
      create the scheduler thread. The system queues newly created UMS worker threads to the completion list. It also 
      queues previously blocked UMS worker threads to the completion list when the threads are no longer blocked.
 
-When an application's <a href="https://msdn.microsoft.com/10de1c48-255d-45c3-acf0-25f8a564b585">UmsSchedulerProc</a> entry 
+When an application's <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nc-winnt-rtl_ums_scheduler_entry_point">UmsSchedulerProc</a> entry 
      point function is called, the application's scheduler should retrieve items from the completion list by calling 
-     <a href="https://msdn.microsoft.com/91499eb9-9fc5-4135-95f6-1bced78f1e07">DequeueUmsCompletionListItems</a>.
+     <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-dequeueumscompletionlistitems">DequeueUmsCompletionListItems</a>.
 
 Each completion list has an associated completion list event which is signaled whenever the system queues 
      items to an empty list. Use the 
-     <a href="https://msdn.microsoft.com/393f6e0a-fbea-4aa0-9c18-f96da18e61e9">GetUmsCompletionListEvent</a> to obtain a 
+     <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getumscompletionlistevent">GetUmsCompletionListEvent</a> to obtain a 
      handle to the event for a specified completion list.
 
 When a completion list is no longer needed, use the 
-     <a href="https://msdn.microsoft.com/98124359-ddd1-468c-9f99-74dd3f631fa1">DeleteUmsCompletionList</a> to release the list. 
+     <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-deleteumscompletionlist">DeleteUmsCompletionList</a> to release the list. 
      The list must be empty before it can be released.
 
 
@@ -126,15 +126,15 @@ When a completion list is no longer needed, use the
 
 
 
-<a href="https://msdn.microsoft.com/91499eb9-9fc5-4135-95f6-1bced78f1e07">DequeueUmsCompletionListItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-dequeueumscompletionlistitems">DequeueUmsCompletionListItems</a>
 
 
 
-<a href="https://msdn.microsoft.com/792bd7fa-0ae9-4c38-a664-5fb3e3d0c52b">EnterUmsSchedulingMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-enterumsschedulingmode">EnterUmsSchedulingMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/393f6e0a-fbea-4aa0-9c18-f96da18e61e9">GetUmsCompletionListEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getumscompletionlistevent">GetUmsCompletionListEvent</a>
  
 
  

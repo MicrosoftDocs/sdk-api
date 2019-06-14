@@ -90,7 +90,7 @@ Type of UUID being searched. Must be one of the three valid values from the SDP_
 
 
 
-<a href="https://msdn.microsoft.com/b208b7d6-305c-4acc-9c89-75721ff5dcb2">BTH_QUERY_SERVICE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2bth/ns-ws2bth-_bth_query_service">BTH_QUERY_SERVICE</a>
  
 
  

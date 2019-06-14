@@ -59,7 +59,7 @@ Represents a generated SOAP fault subcode.  Subcodes can be nested.
 
 ### -field Value
 
-A <a href="https://msdn.microsoft.com/9dce71d2-700c-4f86-9308-dee6a69010bb">WSDXML_NAME</a> structure that contains the  qualified name of the SOAP fault subcode.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_name">WSDXML_NAME</a> structure that contains the  qualified name of the SOAP fault subcode.
 
 
 ### -field Subcode
@@ -72,7 +72,7 @@ A <b>WSD_SOAP_FAULT_SUBCODE</b> structure that contains a fault subcode.
 
 
 
-<a href="https://msdn.microsoft.com/b71f4bcc-d125-4091-a491-1a5a2aea2310">WSD_SOAP_FAULT_CODE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_soap_fault_code">WSD_SOAP_FAULT_CODE</a>
  
 
  

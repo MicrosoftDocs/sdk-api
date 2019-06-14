@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves some or all of a tree-view item's attributes. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773596(v=VS.85).aspx">TVM_GETITEM</a> message explicitly.
+Retrieves some or all of a tree-view item's attributes. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getitem">TVM_GETITEM</a> message explicitly.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Retrieves some or all of a tree-view item's attributes. You can use this macro o
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control. 
 
@@ -68,18 +68,18 @@ Handle to the tree-view control.
 
 Type: <b>LPTVITEM</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb773456(v=VS.85).aspx">TVITEM</a> structure that specifies the information to retrieve and receives information about the item. With <a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">version 4.71</a> and later, you can use a <a href="https://msdn.microsoft.com/en-us/library/Bb773459(v=VS.85).aspx">TVITEMEX</a> structure instead. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvitema">TVITEM</a> structure that specifies the information to retrieve and receives information about the item. With <a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">version 4.71</a> and later, you can use a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvitemexa">TVITEMEX</a> structure instead. 
 
 
 ## -remarks
 
 
 
-When the <a href="https://msdn.microsoft.com/en-us/library/Bb773596(v=VS.85).aspx">TVM_GETITEM</a> message is sent, the 
-				<b>hItem</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb773456(v=VS.85).aspx">TVITEM</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb773459(v=VS.85).aspx">TVITEMEX</a> structure identifies the item to retrieve information about, and the <b>mask</b> member specifies the attributes to retrieve.
+When the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getitem">TVM_GETITEM</a> message is sent, the 
+				<b>hItem</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvitema">TVITEM</a> or <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvitemexa">TVITEMEX</a> structure identifies the item to retrieve information about, and the <b>mask</b> member specifies the attributes to retrieve.
 
 If the TVIF_TEXT flag is set in the 
-				<b>mask</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb773456(v=VS.85).aspx">TVITEM</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb773459(v=VS.85).aspx">TVITEMEX</a> structure, the <b>pszText</b> member must point to a valid buffer and the <b>cchTextMax</b> member must be set to the number of characters in that buffer. The returned text will not necessarily be stored in the original buffer passed by the application. It is possible that <b>pszText</b> will point to text in a new buffer rather than place it in the old buffer. 
+				<b>mask</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvitema">TVITEM</a> or <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvitemexa">TVITEMEX</a> structure, the <b>pszText</b> member must point to a valid buffer and the <b>cchTextMax</b> member must be set to the number of characters in that buffer. The returned text will not necessarily be stored in the original buffer passed by the application. It is possible that <b>pszText</b> will point to text in a new buffer rather than place it in the old buffer. 
 
 
 

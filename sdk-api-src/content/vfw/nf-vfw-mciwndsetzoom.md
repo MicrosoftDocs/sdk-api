@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndSetZoom</b> macro resizes a video image according to a zoom factor. This marco adjusts the size of an MCIWnd window while maintaining a constant aspect ratio. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/c899b678-5ba7-4f0a-9ef9-c5370b3b4ea8">MCIWNDM_SETZOOM</a> message.
+The <b>MCIWndSetZoom</b> macro resizes a video image according to a zoom factor. This marco adjusts the size of an MCIWnd window while maintaining a constant aspect ratio. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-setzoom">MCIWNDM_SETZOOM</a> message.
 
 
 

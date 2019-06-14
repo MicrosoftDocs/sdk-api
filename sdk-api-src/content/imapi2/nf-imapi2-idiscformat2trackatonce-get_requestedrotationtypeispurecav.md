@@ -96,7 +96,7 @@ Value: 0x80004003
 
 
 
-This is the value specified in the most recent call to the <a href="https://msdn.microsoft.com/29c4487a-4247-45cf-af95-dc85fafb05c5">IDiscFormat2TrackAtOnce::SetWriteSpeed</a> method.
+This is the value specified in the most recent call to the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-setwritespeed">IDiscFormat2TrackAtOnce::SetWriteSpeed</a> method.
 
 
 
@@ -106,15 +106,15 @@ This is the value specified in the most recent call to the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/27f2d248-1c83-4784-82f9-75ce0a038b87">IDiscFormat2TrackAtOnce</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonce">IDiscFormat2TrackAtOnce</a>
 
 
 
-<a href="https://msdn.microsoft.com/29c4487a-4247-45cf-af95-dc85fafb05c5">IDiscFormat2TrackAtOnce::SetWriteSpeed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-setwritespeed">IDiscFormat2TrackAtOnce::SetWriteSpeed</a>
 
 
 
-<a href="https://msdn.microsoft.com/3a80eee3-6b85-432a-878c-c8e4cade7be1">IDiscFormat2TrackAtOnce::get_CurrentRotationTypeIsPureCAV</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_currentrotationtypeispurecav">IDiscFormat2TrackAtOnce::get_CurrentRotationTypeIsPureCAV</a>
  
 
  

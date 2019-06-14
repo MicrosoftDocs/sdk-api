@@ -86,7 +86,7 @@ The <b>WriteSample</b> method passes in uncompressed data to be compressed and a
 </tr>
 <tr>
 <td>No flag set</td>
-<td>None of the conditions for the other flags applies. For example, a <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">delta frame</a> in most cases would not have any flags set for it.</td>
+<td>None of the conditions for the other flags applies. For example, a <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">delta frame</a> in most cases would not have any flags set for it.</td>
 </tr>
 <tr>
 <td>WM_SF_CLEANPOINT</td>
@@ -106,7 +106,7 @@ The <b>WriteSample</b> method passes in uncompressed data to be compressed and a
 
 ### -param pSample [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer</a> interface representing a sample.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface representing a sample.
 
 
 ## -returns
@@ -195,7 +195,7 @@ Typically, this error will be returned if the stream configuration requires a pr
 </dl>
 </td>
 <td width="60%">
-The writer has received samples whose presentation times differ by an amount greater than the maximum synchronization tolerance. You can set the synchronization tolerance by calling <a href="https://msdn.microsoft.com/en-us/library/Dd798739(v=VS.85).aspx">IWMWriterAdvanced::SetSyncTolerance</a>.
+The writer has received samples whose presentation times differ by an amount greater than the maximum synchronization tolerance. You can set the synchronization tolerance by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-setsynctolerance">IWMWriterAdvanced::SetSyncTolerance</a>.
 
 This error can occur when there is more than one stream, and the application sends samples for one stream at a faster rate than the other stream. At some point, the second stream will lag too far behind the first, and the writer will return this error code.
 
@@ -208,7 +208,7 @@ This error can occur when there is more than one stream, and the application sen
 </dl>
 </td>
 <td width="60%">
-Samples from a real-time source are arriving faster than expected. This error is returned only if <a href="https://msdn.microsoft.com/en-us/library/Dd798737(v=VS.85).aspx">IWMWriterAdvanced::SetLiveSource</a> has been called to indicate a live source.
+Samples from a real-time source are arriving faster than expected. This error is returned only if <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-setlivesource">IWMWriterAdvanced::SetLiveSource</a> has been called to indicate a live source.
 
 </td>
 </tr>
@@ -232,11 +232,11 @@ If the output stream has a time code data unit extension and there is no time co
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798719(v=VS.85).aspx">IWMWriter Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ce10a77-9e80-45e0-a7e7-2ffdf8b57773">To Write Samples</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/to-write-samples">To Write Samples</a>
  
 
  

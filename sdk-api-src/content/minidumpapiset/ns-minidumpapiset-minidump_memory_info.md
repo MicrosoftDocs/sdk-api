@@ -70,7 +70,7 @@ The base address of a range of pages in this region. The page is contained withi
 ### -field AllocationProtect
 
 The memory protection when the region was initially allocated. This member can be one of the 
-<a href="https://msdn.microsoft.com/70ded07a-7be6-4189-a1ae-281917f42a1e">memory protection</a> options, along with PAGE_GUARD or PAGE_NOCACHE, as needed.
+<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-protection">memory protection</a> options, along with PAGE_GUARD or PAGE_NOCACHE, as needed.
 
 
 ### -field __alignment1
@@ -194,7 +194,7 @@ A variable for alignment.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680385(v=VS.85).aspx">MINIDUMP_MEMORY_INFO_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_memory_info_list">MINIDUMP_MEMORY_INFO_LIST</a>
  
 
  

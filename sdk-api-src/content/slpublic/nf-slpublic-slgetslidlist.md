@@ -66,7 +66,7 @@ The handle to the current SLC context.
 
 ### -param eQueryIdType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/8267203c-959e-4626-bac1-8336de392d19">SLIDTYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-_tagslidtype">SLIDTYPE</a></b>
 
 The type of input ID.
 
@@ -80,7 +80,7 @@ A pointer to the input ID.
 
 ### -param eReturnIdType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/8267203c-959e-4626-bac1-8336de392d19">SLIDTYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-_tagslidtype">SLIDTYPE</a></b>
 
 The type of returned IDs.
 

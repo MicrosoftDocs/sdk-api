@@ -51,12 +51,12 @@ ms.custom: 19H1
 
 A specialized implementation of the Shantzis calculations to a transform implemented on the GPU. These  calculations are described in the paper <a href="http://dl.acm.org/citation.cfm?id=192191">A model for efficient and flexible image computing</a>.
 
-The information required to specify a “Pass” in the rendering algorithm on a Pixel Shader is passed to the implementation through the <a href="https://msdn.microsoft.com/9B7336B0-59D8-416F-822C-0AD5C1B40EAA">SetDrawInfo</a> method. 
+The information required to specify a “Pass” in the rendering algorithm on a Pixel Shader is passed to the implementation through the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1drawtransform-setdrawinfo">SetDrawInfo</a> method. 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1DrawTransform</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID2D1DrawTransform</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1DrawTransform</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1DrawTransform</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ID2D1DrawTransform</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9B7336B0-59D8-416F-822C-0AD5C1B40EAA">SetDrawInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1drawtransform-setdrawinfo">SetDrawInfo</a>
 </td>
 <td align="left" width="63%">
     Provides the GPU render info interface to the transform implementation.

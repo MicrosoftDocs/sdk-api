@@ -56,7 +56,7 @@ Configures a network scheme plug-in.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFNetSchemeHandlerConfig</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFNetSchemeHandlerConfig</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFNetSchemeHandlerConfig</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFNetSchemeHandlerConfig</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IMFNetSchemeHandlerConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a0cbb01c-c86c-4186-81ca-6055aab5d361">GetNumberOfSupportedProtocols</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfnetschemehandlerconfig-getnumberofsupportedprotocols">GetNumberOfSupportedProtocols</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of protocols supported by the network scheme plug-in.
@@ -80,7 +80,7 @@ Retrieves the number of protocols supported by the network scheme plug-in.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/51cd90cf-a3ae-45dd-bc27-c91d44cab9f5">GetSupportedProtocolType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfnetschemehandlerconfig-getsupportedprotocoltype">GetSupportedProtocolType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the protocol type for a given protocol index.
@@ -89,7 +89,7 @@ Retrieves the protocol type for a given protocol index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f2f792a4-811b-4eec-849b-bdd22774c4a8">ResetProtocolRolloverSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfnetschemehandlerconfig-resetprotocolrolloversettings">ResetProtocolRolloverSettings</a>
 </td>
 <td align="left" width="63%">
 Not implemented in this release.
@@ -104,11 +104,11 @@ Not implemented in this release.
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/3c026426-c2b7-4909-9524-9cc0bd45347e">Supported Protocols</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/supported-protocols">Supported Protocols</a>
  
 
  

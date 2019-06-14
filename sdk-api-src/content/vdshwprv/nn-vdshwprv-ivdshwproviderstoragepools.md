@@ -50,14 +50,14 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
-Provides methods to create LUNs in a <a href="https://msdn.microsoft.com/a6104742-3ef9-4570-9728-3e6580953117">storage pool</a> and enumerate the storage pools managed by a hardware provider.
+Provides methods to create LUNs in a <a href="https://docs.microsoft.com/windows/desktop/VDS/storage-pool-object">storage pool</a> and enumerate the storage pools managed by a hardware provider.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsHwProviderStoragePools</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IVdsHwProviderStoragePools</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsHwProviderStoragePools</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsHwProviderStoragePools</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IVdsHwProviderStoragePools</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/17377671-1a30-4aeb-bc89-3c1e3823d3fe">CreateLunInStoragePool</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwproviderstoragepools-createluninstoragepool">CreateLunInStoragePool</a>
 </td>
 <td align="left" width="63%">
 Creates a LUN in a storage pool.
@@ -81,7 +81,7 @@ Creates a LUN in a storage pool.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/37a802e2-4573-4f47-bf54-b2197034722d">QueryMaxLunCreateSizeInStoragePool</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwproviderstoragepools-querymaxluncreatesizeinstoragepool">QueryMaxLunCreateSizeInStoragePool</a>
 </td>
 <td align="left" width="63%">
 Returns the maximum size of the LUN that can be created in the storage pool based on the specified LUN type and hints.
@@ -90,10 +90,10 @@ Returns the maximum size of the LUN that can be created in the storage pool base
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/308c9821-927d-4b90-854d-b050f3730c22">QueryStoragePools</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwproviderstoragepools-querystoragepools">QueryStoragePools</a>
 </td>
 <td align="left" width="63%">
-Returns an <a href="https://msdn.microsoft.com/08379071-b3cc-495a-bc8e-ad6cfacd432c">IEnumVdsObject</a> enumeration object containing a list of the storage pools managed by the hardware provider.
+Returns an <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ienumvdsobject">IEnumVdsObject</a> enumeration object containing a list of the storage pools managed by the hardware provider.
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ Returns an <a href="https://msdn.microsoft.com/08379071-b3cc-495a-bc8e-ad6cfacd4
 
 
 
-<a href="https://msdn.microsoft.com/1518ab95-1f0a-4f28-b2ae-e75bb4d19790">IVdsStoragePool</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsstoragepool">IVdsStoragePool</a>
  
 
  

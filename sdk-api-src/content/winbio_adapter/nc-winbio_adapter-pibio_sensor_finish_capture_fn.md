@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Called by the Windows Biometric Framework to wait for the completion of a capture operation initiated by the  <a href="https://msdn.microsoft.com/79922878-f5d3-4400-8c4f-2636323d7dcf">SensorAdapterStartCapture</a> function.
+Called by the Windows Biometric Framework to wait for the completion of a capture operation initiated by the  <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_start_capture_fn">SensorAdapterStartCapture</a> function.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Called by the Windows Biometric Framework to wait for the completion of a captur
 
 ### -param Pipeline [in, out]
 
-Pointer to a <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae41c3e12a">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 
 
@@ -131,7 +131,7 @@ There was a device failure.
 </dl>
 </td>
 <td width="60%">
-The <b>SensorContext</b> member of the <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae41c3e12a">WINBIO_PIPELINE</a> structure pointed to by the <i>Pipeline</i> argument is <b>NULL</b> or the <b>SensorHandle</b> member is set to <b>INVALID_HANDLE_VALUE</b>.
+The <b>SensorContext</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_pipeline">WINBIO_PIPELINE</a> structure pointed to by the <i>Pipeline</i> argument is <b>NULL</b> or the <b>SensorHandle</b> member is set to <b>INVALID_HANDLE_VALUE</b>.
 
 </td>
 </tr>
@@ -145,11 +145,11 @@ The <b>SensorContext</b> member of the <a href="https://msdn.microsoft.com/b5fc2
 
 
 
-The Windows Biometric Framework calls this function after it successfully calls <a href="https://msdn.microsoft.com/79922878-f5d3-4400-8c4f-2636323d7dcf">SensorAdapterStartCapture</a> or it calls <a href="https://msdn.microsoft.com/11a0728e-1833-43b3-8ae2-0393743bb19b">SensorAdapterCancel</a>. It does not call this function if the call to <i>SensorAdapterStartCapture</i> fails.
+The Windows Biometric Framework calls this function after it successfully calls <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_start_capture_fn">SensorAdapterStartCapture</a> or it calls <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_cancel_fn">SensorAdapterCancel</a>. It does not call this function if the call to <i>SensorAdapterStartCapture</i> fails.
 
-When your implementation of this function  returns, the data in the pipeline should be ready for subsequent calls to functions such as <a href="https://msdn.microsoft.com/dea49f4b-668d-4b30-a16f-b74f260785c2">SensorAdapterPushDataToEngine</a> or <a href="https://msdn.microsoft.com/a6e45371-169b-42a8-9a53-dd7b2928a754">SensorAdapterExportSensorData</a>.
+When your implementation of this function  returns, the data in the pipeline should be ready for subsequent calls to functions such as <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_push_data_to_engine_fn">SensorAdapterPushDataToEngine</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_export_sensor_data_fn">SensorAdapterExportSensorData</a>.
 
-This is a blocking function that should return only after the sensor I/O operation has succeeded, failed, or been canceled. Typically, you will make this function block by passing the <b>OVERLAPPED</b> structure in the sensor adapter context to the <a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a> function. The <b>hEvent</b> handle in the <b>OVERLAPPED</b> structure must be signaled when <i>SensorAdapterFinishCapture</i> returns. The <i>GetOverlappedResult</i> function sets this handle automatically when it detects the end of a sensor I/O operation. If your adapter uses some other mechanism to detect I/O completion, you must signal the event yourself.
+This is a blocking function that should return only after the sensor I/O operation has succeeded, failed, or been canceled. Typically, you will make this function block by passing the <b>OVERLAPPED</b> structure in the sensor adapter context to the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> function. The <b>hEvent</b> handle in the <b>OVERLAPPED</b> structure must be signaled when <i>SensorAdapterFinishCapture</i> returns. The <i>GetOverlappedResult</i> function sets this handle automatically when it detects the end of a sensor I/O operation. If your adapter uses some other mechanism to detect I/O completion, you must signal the event yourself.
 
 
 #### Examples
@@ -308,23 +308,23 @@ SensorAdapterFinishCapture(
 
 
 
-<a href="https://msdn.microsoft.com/5f04d912-f9bc-41d4-aa9e-b843e4b5a994">Plug-in Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/11a0728e-1833-43b3-8ae2-0393743bb19b">SensorAdapterCancel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_cancel_fn">SensorAdapterCancel</a>
 
 
 
-<a href="https://msdn.microsoft.com/a6e45371-169b-42a8-9a53-dd7b2928a754">SensorAdapterExportSensorData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_export_sensor_data_fn">SensorAdapterExportSensorData</a>
 
 
 
-<a href="https://msdn.microsoft.com/dea49f4b-668d-4b30-a16f-b74f260785c2">SensorAdapterPushDataToEngine</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_push_data_to_engine_fn">SensorAdapterPushDataToEngine</a>
 
 
 
-<a href="https://msdn.microsoft.com/79922878-f5d3-4400-8c4f-2636323d7dcf">SensorAdapterStartCapture</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_start_capture_fn">SensorAdapterStartCapture</a>
  
 
  

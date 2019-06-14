@@ -52,13 +52,13 @@ ms.custom: 19H1
 
 The <b>IMDSPEnumStorage</b> interface is used to enumerate the storage media on a device. For more information on the standard implementation of enumeration interfaces, see the Microsoft COM documentation, available at the <a href="http://go.microsoft.com/fwlink/p/?linkid=3282">Microsoft Web site</a>. The storage media on a device are organized in a hierarchical manner similar to disk drives on a computer.
 
-When accessed from the <a href="https://msdn.microsoft.com/bbf19979-8e09-476e-9401-443ab5e84866">IMDSPDevice::EnumStorage</a> method, this interface enumerates the individual storage media on the device in the same way that you would see the individual disk drives on a computer.
+When accessed from the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice-enumstorage">IMDSPDevice::EnumStorage</a> method, this interface enumerates the individual storage media on the device in the same way that you would see the individual disk drives on a computer.
 
-When accessed from the <a href="https://msdn.microsoft.com/ab3c6a17-5a86-419b-b528-fd0db718de8f">IWMDMStorage::EnumStorage</a> method, this interface enumerates the contents of the storage medium. <b>EnumStorage</b> can be called on the enumerated storage objects recursively, and thus the contents of a storage medium are returned in the hierarchical fashion in which they are stored on the storage medium. If the file system of the storage medium supports a notion of order among the content, the enumerator will return the contents in the same order.
+When accessed from the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-enumstorage">IWMDMStorage::EnumStorage</a> method, this interface enumerates the contents of the storage medium. <b>EnumStorage</b> can be called on the enumerated storage objects recursively, and thus the contents of a storage medium are returned in the hierarchical fashion in which they are stored on the storage medium. If the file system of the storage medium supports a notion of order among the content, the enumerator will return the contents in the same order.
 
 The storage enumerator returns a snapshot of the state of storages. It may not reflect the effect of storage media insertion and removal and may not reflect the effects of subsequent <b>Insert</b>, <b>Move</b> and <b>Delete</b> methods. The client should obtain a new enumerator to get the new state of the storage media.
 
-The <b>Insert</b>, <b>Move</b>, and <b>Delete</b> methods of the <a href="https://msdn.microsoft.com/b56edc7a-0764-449a-95b4-da759e99fadd">IWMDMStorageControl</a> interface change the order of files. If these operations are invoked, then the order of objects as originally returned by the <b>IMDSPEnumStorage</b> interface can be changed.
+The <b>Insert</b>, <b>Move</b>, and <b>Delete</b> methods of the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstoragecontrol">IWMDMStorageControl</a> interface change the order of files. If these operations are invoked, then the order of objects as originally returned by the <b>IMDSPEnumStorage</b> interface can be changed.
 
 If an application is going to display the order of content on a media device, the application programmer must take into account order changes that can occur as a result of <b>IWMDMStorageControl</b> operations. There are two ways to deal with this situation. One way is to simply re-enumerate whenever a change to content occurs. Another way is to maintain the order of <b>IWMDMStorage</b> objects programmatically.
 
@@ -69,7 +69,7 @@ No matter how this issue is handled, it must be handled by the application if th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDSPEnumStorage</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMDSPEnumStorage</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDSPEnumStorage</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMDSPEnumStorage</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -84,7 +84,7 @@ The <b>IMDSPEnumStorage</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8621c5fa-7739-4f90-b856-76880f8dd07b">Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspenumstorage-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates another enumerator that contains the same enumeration state as the current one.
@@ -93,16 +93,16 @@ Creates another enumerator that contains the same enumeration state as the curre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7874912a-6350-445c-a7c8-0f885d756aa0">Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspenumstorage-next">Next</a>
 </td>
 <td align="left" width="63%">
-Retrieves a pointer to the next <a href="https://msdn.microsoft.com/f22b8a6d-7df8-4fea-9436-79b9ded25a40">IMDSPStorage</a> interface.
+Retrieves a pointer to the next <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage">IMDSPStorage</a> interface.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1296406c-2c5d-4db8-965e-db11a9759560">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspenumstorage-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning.
@@ -111,7 +111,7 @@ Resets the enumeration sequence to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/68025a40-a423-4a11-87c6-ae8c2d7b3765">Skip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspenumstorage-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over the next specified number of storage interface(s) in the enumeration sequence.
@@ -126,27 +126,27 @@ Skips over the next specified number of storage interface(s) in the enumeration 
 
 
 
-<a href="https://msdn.microsoft.com/bbf19979-8e09-476e-9401-443ab5e84866">IMDSPDevice::EnumStorage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice-enumstorage">IMDSPDevice::EnumStorage</a>
 
 
 
-<a href="https://msdn.microsoft.com/f22b8a6d-7df8-4fea-9436-79b9ded25a40">IMDSPStorage Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage">IMDSPStorage Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/1ede7c68-0169-4375-9b45-b0995ad14e44">IWMDMStorage Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/ab3c6a17-5a86-419b-b528-fd0db718de8f">IWMDMStorage::EnumStorage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-enumstorage">IWMDMStorage::EnumStorage</a>
 
 
 
-<a href="https://msdn.microsoft.com/b56edc7a-0764-449a-95b4-da759e99fadd">IWMDMStorageControl Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstoragecontrol">IWMDMStorageControl Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/bd61c5fa-047c-4d93-bae1-f3433696b95b">Interfaces for Service Providers</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-service-providers">Interfaces for Service Providers</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DHPRIVKEY_VER3</b> structure contains information specific to the particular <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> contained in the <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33">key BLOB</a>.
+The <b>DHPRIVKEY_VER3</b> structure contains information specific to the particular <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> contained in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key BLOB</a>.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ The <b>DHPRIVKEY_VER3</b> structure contains information specific to the particu
 
 ### -field magic
 
-This must always be set to 0x34484400, the <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">ASCII</a> encoding of "DH4".
+This must always be set to 0x34484400, the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">ASCII</a> encoding of "DH4".
 
 
 ### -field bitlenP
@@ -84,7 +84,7 @@ Number of bits in the DH key BLOB private exponent, X.
 
 ### -field DSSSeed
 
-Seed structure holding the seed and counter values used to generate the primes Q and P. If values in the <a href="https://msdn.microsoft.com/fbf2b5e4-b572-4b2c-907d-281570a0f26b">DSSSEED</a> structure are not available, then the counter element of the structure should be 0xFFFFFFFF.
+Seed structure holding the seed and counter values used to generate the primes Q and P. If values in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_dssseed">DSSSEED</a> structure are not available, then the counter element of the structure should be 0xFFFFFFFF.
 
 
 ## -remarks
@@ -101,11 +101,11 @@ Seed structure holding the seed and counter values used to generate the primes Q
 
 
 
-<a href="https://msdn.microsoft.com/99d41222-b4ca-40f3-a240-52b0a9b3a9aa">BLOBHEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_publickeystruc">BLOBHEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/fbf2b5e4-b572-4b2c-907d-281570a0f26b">DSSSEED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_dssseed">DSSSEED</a>
  
 
  

@@ -102,9 +102,9 @@ The method succeeded.
 
 
 
-<i>pSessionState</i> will be equal to the <b>ISyncSessionState</b> object that was provided to the previous corresponding call to <a href="https://msdn.microsoft.com/15aae98e-96c6-45f3-906f-1729fa79ebdb">IKnowledgeSyncProvider::BeginSession</a>.
+<i>pSessionState</i> will be equal to the <b>ISyncSessionState</b> object that was provided to the previous corresponding call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iknowledgesyncprovider-beginsession">IKnowledgeSyncProvider::BeginSession</a>.
 
-<div class="alert"><b>Note</b>  This method must return an error, typically <a href="https://msdn.microsoft.com/da86cf89-885b-42bc-9fcb-0c9114a36f78">SYNC_E_INVALIDOPERATION</a>, if the provider did not receive a previous call to <a href="https://msdn.microsoft.com/15aae98e-96c6-45f3-906f-1729fa79ebdb">BeginSession</a> for the specified session.
+<div class="alert"><b>Note</b>  This method must return an error, typically <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-error-codes">SYNC_E_INVALIDOPERATION</a>, if the provider did not receive a previous call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iknowledgesyncprovider-beginsession">BeginSession</a> for the specified session.
 
 <p class="note">When this method is called, the provider must release any references it has to the <b>ISyncSessionState</b> object that is specified by <i>pSessionState</i>.
 
@@ -118,7 +118,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/396bbf7e-7fd0-4a2e-8304-f87097cd5e50">IKnowledgeSyncProvider Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-iknowledgesyncprovider">IKnowledgeSyncProvider Interface</a>
  
 
  

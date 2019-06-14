@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DSPROPERTYPAGEINFO</b> structure is used by an Active Directory property sheet extension to obtain static registration data for the extension. This structure is  supplied by the <a href="https://msdn.microsoft.com/84ed1322-fee3-44ee-873e-57586261ff62">CFSTR_DSPROPERTYPAGEINFO</a> clipboard format.
+The <b>DSPROPERTYPAGEINFO</b> structure is used by an Active Directory property sheet extension to obtain static registration data for the extension. This structure is  supplied by the <a href="https://docs.microsoft.com/windows/desktop/AD/cfstr-dspropertypageinfo">CFSTR_DSPROPERTYPAGEINFO</a> clipboard format.
 
 
 ## -struct-fields
@@ -66,7 +66,7 @@ Contains the offset, in bytes, from the start of the <b>DSPROPERTYPAGEINFO</b> s
 
 
 
-The  <b>DSPROPETYPAGEINFO</b> structure contains the optional string that the extension added to the <b>adminPropertySheet</b> and/or <b>shellPropertySheet</b> attributes when the extension was registered. For more information about how this string is set, see <a href="https://msdn.microsoft.com/e2d6142b-c2fe-4435-b4af-83f7cd45218b">Registering the Property Page COM Object in a Display Specifier</a>.
+The  <b>DSPROPETYPAGEINFO</b> structure contains the optional string that the extension added to the <b>adminPropertySheet</b> and/or <b>shellPropertySheet</b> attributes when the extension was registered. For more information about how this string is set, see <a href="https://docs.microsoft.com/windows/desktop/AD/registering-the-property-page-com-object-in-a-display-specifier">Registering the Property Page COM Object in a Display Specifier</a>.
 
 
 
@@ -76,15 +76,15 @@ The  <b>DSPROPETYPAGEINFO</b> structure contains the optional string that the ex
 
 
 
-<a href="https://msdn.microsoft.com/84ed1322-fee3-44ee-873e-57586261ff62">CFSTR_DSPROPERTYPAGEINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/cfstr-dspropertypageinfo">CFSTR_DSPROPERTYPAGEINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf6aa066-ee7e-4b13-9a4b-1e097632ec5a">Display Structures in Active Directory Domain Services</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/display-structures-in-active-directory-domain-services">Display Structures in Active Directory Domain Services</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2d6142b-c2fe-4435-b4af-83f7cd45218b">Registering the Property Page COM Object in a Display Specifier</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/registering-the-property-page-com-object-in-a-display-specifier">Registering the Property Page COM Object in a Display Specifier</a>
  
 
  

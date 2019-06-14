@@ -69,7 +69,7 @@ Writer class identifier.
 ### -param componentType [in]
 
 Identifies the type of the component. Refer to the documentation for 
-      <a href="https://msdn.microsoft.com/ba3b726c-448a-46c0-8fa5-5793497aa385">VSS_COMPONENT_TYPE</a> for possible return values.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a> for possible return values.
 
 
 ### -param wszLogicalPath [in]
@@ -187,7 +187,7 @@ The backup components object is not initialized, this method has not been called
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more 
         information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -210,7 +210,7 @@ The component does not exist.
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -230,10 +230,10 @@ Before calling
     <b>AddRestoreSubcomponent</b>, the 
     root component defined by the <i>wszLogicalPath</i> and 
     <i>wszComponentName</i> parameters must first be selected for restore using 
-    <a href="https://msdn.microsoft.com/8f8051d3-b1b6-418b-8a53-0ddc82a20bb3">IVssBackupComponents::SetSelectedForRestore</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setselectedforrestore">IVssBackupComponents::SetSelectedForRestore</a>.
 
 If a requester is to support restoring subcomponents, this method must be called before 
-    <a href="https://msdn.microsoft.com/7a4c8869-9655-49a7-818b-98a08103f4b4">IVssBackupComponents::PreRestore</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">IVssBackupComponents::PreRestore</a>.
 
 <b>AddRestoreSubcomponent</b> 
     is intended for the case in which all the files in a writer's component set must be backed up as a unit, but where 
@@ -241,12 +241,12 @@ If a requester is to support restoring subcomponents, this method must be called
 
 To participate in such a restore, a subcomponent must have the 
     <b>bSelectableForRestore</b> member of 
-    <a href="https://msdn.microsoft.com/9723e90e-cd5e-4815-843b-8ed8632ebe45">VSS_COMPONENTINFO</a> set to <b>TRUE</b>. The component defined 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/ns-vsbackup-_vss_componentinfo">VSS_COMPONENTINFO</a> set to <b>TRUE</b>. The component defined 
     by the <i>wszLogicalPath</i> and <i>wszComponentName</i> parameters must 
     also be selected for restore using 
-    <a href="https://msdn.microsoft.com/8f8051d3-b1b6-418b-8a53-0ddc82a20bb3">IVssBackupComponents::SetSelectedForRestore</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setselectedforrestore">IVssBackupComponents::SetSelectedForRestore</a>.
 
-See <a href="https://msdn.microsoft.com/684dc50f-5d7b-4c95-85dd-77c320d65fff">Working with 
+See <a href="https://docs.microsoft.com/windows/desktop/VSS/working-with-selectability-for-restore-and-subcomponents">Working with 
     Selectability for Restore and Subcomponents</a> for more information.
 
 
@@ -257,15 +257,15 @@ See <a href="https://msdn.microsoft.com/684dc50f-5d7b-4c95-85dd-77c320d65fff">Wo
 
 
 
-<a href="https://msdn.microsoft.com/fe1220c7-11e5-4872-b7a9-61558f7c75c0">IVssBackupComponents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a4c8869-9655-49a7-818b-98a08103f4b4">IVssBackupComponents::PreRestore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">IVssBackupComponents::PreRestore</a>
 
 
 
-<a href="https://msdn.microsoft.com/ba3b726c-448a-46c0-8fa5-5793497aa385">VSS_COMPONENT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a>
  
 
  

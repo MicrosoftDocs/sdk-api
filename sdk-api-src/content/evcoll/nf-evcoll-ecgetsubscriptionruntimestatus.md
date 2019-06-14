@@ -64,7 +64,7 @@ The name of the subscription to get the run time status information from.
 
 ### -param StatusInfoId [in]
 
-An identifier that specifies which run time status information to get from the subscription. Specify a value from the <a href="https://msdn.microsoft.com/en-us/library/Aa382727(v=VS.85).aspx">EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID</a> enumeration. The <b>EcSubscriptionRunTimeStatusEventSources</b> value can be used to obtain the list of event sources associated with a subscription.
+An identifier that specifies which run time status information to get from the subscription. Specify a value from the <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/ne-evcoll-_ec_subscription_runtime_status_info_id">EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID</a> enumeration. The <b>EcSubscriptionRunTimeStatusEventSources</b> value can be used to obtain the list of event sources associated with a subscription.
 
 
 ### -param EventSourceName [in]
@@ -84,7 +84,7 @@ The size of the user-supplied buffer that will hold the run time status informat
 
 ### -param StatusValueBuffer [in]
 
-The user-supplied buffer that will hold the run time status information. The buffer will hold the appropriate value depending on the <a href="https://msdn.microsoft.com/en-us/library/Aa382727(v=VS.85).aspx">EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID</a> value passed into the <i>StatusInfoId</i> parameter.
+The user-supplied buffer that will hold the run time status information. The buffer will hold the appropriate value depending on the <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/ne-evcoll-_ec_subscription_runtime_status_info_id">EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID</a> value passed into the <i>StatusInfoId</i> parameter.
 
 
 ### -param StatusValueBufferUsed [out]
@@ -106,7 +106,7 @@ This function returns BOOL.
 
 
 
-<a href="https://msdn.microsoft.com/48155df6-ba9c-4abe-ba84-6190cee95878">Windows Event Collector Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WEC/windows-event-collector-functions">Windows Event Collector Functions</a>
  
 
  

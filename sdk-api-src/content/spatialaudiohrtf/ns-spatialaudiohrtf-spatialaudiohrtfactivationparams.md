@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the activation parameters for an <a href="https://msdn.microsoft.com/9DFEF82A-1571-47AB-BE0E-059BCCC8289A">ISpatialAudioRenderStreamForHrtf</a>.
+Specifies the activation parameters for an <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectrenderstreamforhrtf">ISpatialAudioRenderStreamForHrtf</a>.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ Specifies the activation parameters for an <a href="https://msdn.microsoft.com/9
 
 ### -field ObjectFormat
 
-Format descriptor for spatial audio objects associated with the stream. All objects must have the same format and must be of type <a href="https://msdn.microsoft.com/4f3bf6fb-b15f-43b3-82f1-e7a8a3007057">WAVEFORMATEX</a> or <a href="https://msdn.microsoft.com/b16cdcab-fa4f-4c9a-b1f3-af459bd33245">WAVEFORMATEXTENSIBLE</a>.
+Format descriptor for spatial audio objects associated with the stream. All objects must have the same format and must be of type <a href="https://docs.microsoft.com/previous-versions/dd757713(v%3dvs.85)">WAVEFORMATEX</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd390971(v=vs.85)">WAVEFORMATEXTENSIBLE</a>.
 
 
 ### -field StaticObjectTypeMask
@@ -74,7 +74,7 @@ Format descriptor for spatial audio objects associated with the stream. All obje
 
 ### -field MaxDynamicObjectCount
 
- The maximum number of concurrent dynamic objects that can be activated with <a href="https://msdn.microsoft.com/9DFEF82A-1571-47AB-BE0E-059BCCC8289A">ISpatialAudioRenderStreamForHrtf</a>. 
+ The maximum number of concurrent dynamic objects that can be activated with <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectrenderstreamforhrtf">ISpatialAudioRenderStreamForHrtf</a>. 
 
 
 ### -field Category
@@ -89,25 +89,25 @@ Format descriptor for spatial audio objects associated with the stream. All obje
 
 ### -field NotifyObject
 
- The object that provides notifications for spatial audio clients to respond to changes in the state of an  <a href="https://msdn.microsoft.com/9DFEF82A-1571-47AB-BE0E-059BCCC8289A">ISpatialAudioRenderStreamForHrtf</a>. This object is used to notify clients that the number of dynamic spatial audio objects that can be activated concurrently is about to change.
+ The object that provides notifications for spatial audio clients to respond to changes in the state of an  <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectrenderstreamforhrtf">ISpatialAudioRenderStreamForHrtf</a>. This object is used to notify clients that the number of dynamic spatial audio objects that can be activated concurrently is about to change.
 
 
 ### -field DistanceDecay
 
-Optional default value for the decay model used for <a href="https://msdn.microsoft.com/E69F1D09-B937-4BCC-A040-18EF8A838289">ISpatialAudioObjectForHrtf</a> objects associated with the stream. <b>nullptr</b> if unused.
+Optional default value for the decay model used for <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a> objects associated with the stream. <b>nullptr</b> if unused.
 
 
 ### -field Directivity
 
-Optional default value for the spatial audio directivity model used for <a href="https://msdn.microsoft.com/E69F1D09-B937-4BCC-A040-18EF8A838289">ISpatialAudioObjectForHrtf</a> objects associated with the stream. <b>nullptr</b> if unused.
+Optional default value for the spatial audio directivity model used for <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a> objects associated with the stream. <b>nullptr</b> if unused.
 
 
 ### -field Environment
 
-Optional default value for the type of environment that is simulated when audio is processed for <a href="https://msdn.microsoft.com/E69F1D09-B937-4BCC-A040-18EF8A838289">ISpatialAudioObjectForHrtf</a> objects associated with the stream. <b>nullptr</b> if unused.
+Optional default value for the type of environment that is simulated when audio is processed for <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a> objects associated with the stream. <b>nullptr</b> if unused.
 
 
 ### -field Orientation
 
-Optional default value for the orientation of <a href="https://msdn.microsoft.com/E69F1D09-B937-4BCC-A040-18EF8A838289">ISpatialAudioObjectForHrtf</a> objects associated with the stream. <b>nullptr</b> if unused.
+Optional default value for the orientation of <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a> objects associated with the stream. <b>nullptr</b> if unused.
 

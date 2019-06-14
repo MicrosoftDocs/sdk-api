@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 the client in Msdrm.dll is available for use in Windows Server 2008, Windows Vista, Windows Server 2008 R2, Windows 7, Windows Server 2012, and Windows 8. It may be altered or 
 
-unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/a7900f40-4c53-4760-8e5a-9c88149f86d0">Active Directory Rights Management Services SDK 2.1</a>, 
+unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
 
 which leverages functionality exposed by the client in Msipc.dll.]
 
@@ -77,7 +77,7 @@ A handle to an environment.
 
  If the function succeeds, the function returns S_OK.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -86,7 +86,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 
-This function is the last function an application should call in a secure environment. Close embedded handles first by calling <a href="https://msdn.microsoft.com/422f286c-edf6-488f-8776-359ab2695be3">DRMCloseHandle</a>. Calling <b>DRMClose</b>* functions clears out sensitive information from memory and allows the Active Directory Rights Management system to keep an accurate reference count on objects used.
+This function is the last function an application should call in a secure environment. Close embedded handles first by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmclosehandle">DRMCloseHandle</a>. Calling <b>DRMClose</b>* functions clears out sensitive information from memory and allows the Active Directory Rights Management system to keep an accurate reference count on objects used.
 
 If this function fails, an application should destroy the current process before reinitializing an environment to use.
 
@@ -98,7 +98,7 @@ If this function fails, an application should destroy the current process before
 
 
 
-<a href="https://msdn.microsoft.com/b3b4e7c6-d3d3-4bf7-b6c4-9502a56a7223">AD RMS Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
  
 
  

@@ -59,7 +59,7 @@ Retrieves the list of MMC profiles that the device supports.
 
 ### -param value [out]
 
-List of MMC profiles that the device supports. Each element of the list is a <b>VARIANT</b> of type <b>VT_I4</b>. The <b>lVal</b> member of the variant contains the profile type value. For possible values, see the <a href="https://msdn.microsoft.com/3b5f940b-a2de-4029-a502-c12ff8290749">IMAPI_PROFILE_TYPE</a> enumeration type.
+List of MMC profiles that the device supports. Each element of the list is a <b>VARIANT</b> of type <b>VT_I4</b>. The <b>lVal</b> member of the variant contains the profile type value. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_profile_type">IMAPI_PROFILE_TYPE</a> enumeration type.
 
 
 ## -returns
@@ -383,19 +383,19 @@ Value: 0xC0AA0210
 
 
 
-<a href="https://msdn.microsoft.com/34f858b8-74eb-4725-8815-7954cb98cff0">IDiscRecorder2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd8dd2fd-531b-4ed5-9a28-d6b24469e5e7">IDiscRecorder2::get_CurrentProfiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_currentprofiles">IDiscRecorder2::get_CurrentProfiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/1295d536-8531-4470-a8b4-1e589736e0b1">IDiscRecorder2Ex::GetSupportedProfiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedprofiles">IDiscRecorder2Ex::GetSupportedProfiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b5f940b-a2de-4029-a502-c12ff8290749">IMAPI_PROFILE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_profile_type">IMAPI_PROFILE_TYPE</a>
  
 
  

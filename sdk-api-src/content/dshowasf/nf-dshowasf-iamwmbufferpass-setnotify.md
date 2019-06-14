@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>SetNotify</b> method is used by applications to provide the WM ASF Writer or <a href="https://msdn.microsoft.com/3d5ca88a-86bd-4d84-b4f4-782564ced58d">WM ASF Reader</a> filter with a pointer to the application's <a href="https://msdn.microsoft.com/5bf0ae2e-504b-471b-bfc9-aa48f534e03f">IAMWMBufferPassCallback</a> interface.
+The <b>SetNotify</b> method is used by applications to provide the WM ASF Writer or <a href="https://docs.microsoft.com/windows/desktop/wmformat/wm-asf-reader-filter">WM ASF Reader</a> filter with a pointer to the application's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd798277(v=vs.85)">IAMWMBufferPassCallback</a> interface.
 
 
 
@@ -88,7 +88,7 @@ Call this method before putting the filter graph into the run state.
 
 
 
-<a href="https://msdn.microsoft.com/aa7513d4-9341-4ddf-ac82-54eb0c6eb5f4">IAMWMBufferPass Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd798276(v=vs.85)">IAMWMBufferPass Interface</a>
  
 
  

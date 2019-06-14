@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The 
-<b>TAPE_SET_MEDIA_PARAMETERS</b> structure describes the tape in the tape drive. It is used by the <a href="https://msdn.microsoft.com/2043249b-b4ff-4bdd-9e6e-13c432a183cb">SetTapeParameters</a>function.
+<b>TAPE_SET_MEDIA_PARAMETERS</b> structure describes the tape in the tape drive. It is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-settapeparameters">SetTapeParameters</a>function.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ The
 ### -field BlockSize
 
 Number of bytes per block. Maximum and minimum block sizes can be obtained by calling the 
-<a href="https://msdn.microsoft.com/87e59e29-e174-4462-b692-512c3380eb4d">GetTapeParameters</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a> function.
 
 
 ## -see-also
@@ -69,7 +69,7 @@ Number of bytes per block. Maximum and minimum block sizes can be obtained by ca
 
 
 
-<a href="https://msdn.microsoft.com/2043249b-b4ff-4bdd-9e6e-13c432a183cb">SetTapeParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-settapeparameters">SetTapeParameters</a>
  
 
  

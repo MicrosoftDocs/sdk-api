@@ -64,7 +64,7 @@ Contains the key portion of the registration.
 
 ### -field appData
 
-The application data associated with the key. The <a href="https://msdn.microsoft.com/ee81daca-e889-471e-b43b-4593380a55dd">DRT_DATA</a> structure containing this application data must point to a buffer less than 4KB in size.
+The application data associated with the key. The <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_data_tag">DRT_DATA</a> structure containing this application data must point to a buffer less than 4KB in size.
 
 
 ## -see-also
@@ -72,15 +72,15 @@ The application data associated with the key. The <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/23cf713e-2730-456c-a3da-649c5ed00ffb">DRT_SEARCH_RESULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_search_result_tag">DRT_SEARCH_RESULT</a>
 
 
 
-<a href="https://msdn.microsoft.com/069358e0-4b61-44ed-b235-37f1d038feff">DrtCreateDerivedKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtcreatederivedkey">DrtCreateDerivedKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/9aa1ee16-648d-4769-a464-4659dea14dba">DrtRegisterKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a>
  
 
  

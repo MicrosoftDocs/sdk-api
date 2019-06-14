@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>AddStringSids</b> method adds an array of string representations of <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifiers</a> (SIDs) to the client context.
+The <b>AddStringSids</b> method adds an array of string representations of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifiers</a> (SIDs) to the client context.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ The array of string representations of SIDs to add to the client context.
 
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 

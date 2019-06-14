@@ -110,7 +110,7 @@ The database was successfully opened.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> interface errors that can occur as storage is opened.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface errors that can occur as storage is opened.
 
 
 
@@ -127,7 +127,7 @@ The database was successfully opened.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms670034(v=VS.85).aspx">IITDatabase</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nn-infotech-iitdatabase">IITDatabase</a>
  
 
  

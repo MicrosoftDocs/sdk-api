@@ -50,14 +50,14 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides methods to uninstall basic and dynamic disks.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsServiceUninstallDisk</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IVdsServiceUninstallDisk</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsServiceUninstallDisk</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsServiceUninstallDisk</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IVdsServiceUninstallDisk</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0059bb30-2799-4a41-8a5c-bae3aa2bcfc4">GetDiskIdFromLunInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsserviceuninstalldisk-getdiskidfromluninfo">GetDiskIdFromLunInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves the VDS object ID for the disk that corresponds to a specified LUN.
@@ -81,7 +81,7 @@ Retrieves the VDS object ID for the disk that corresponds to a specified LUN.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/65c5444f-7e97-4746-9d74-561dc435212d">UninstallDisks</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsserviceuninstalldisk-uninstalldisks">UninstallDisks</a>
 </td>
 <td align="left" width="63%">
 Uninstalls a set of disks.
@@ -96,11 +96,11 @@ Uninstalls a set of disks.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383123(v=VS.85).aspx">Service Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/startup-and-service-objects">Service Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/0bddfd62-881d-4fda-b303-ed38d434af55">VDS Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
  
 
  

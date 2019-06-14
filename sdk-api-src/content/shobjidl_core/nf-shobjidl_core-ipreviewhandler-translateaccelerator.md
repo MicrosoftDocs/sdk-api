@@ -59,7 +59,7 @@ Directs the preview handler to handle a keystroke passed up from the message pum
 
 ### -param pmsg [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a>*</b>
 
 A pointer to a window message.
 
@@ -70,7 +70,7 @@ A pointer to a window message.
 
 Type: <b>HRESULT</b>
 
-If the keystroke message can be processed by the preview handler, the handler will process it and return <b>S_OK</b>.  If the preview handler cannot process the keystroke message, it will offer it to the host using <a href="https://msdn.microsoft.com/4f33a0b1-28ad-4e2d-9e2a-e58f44ab6f00">TranslateAccelerator</a>.  If the host processes the message, this method will return <b>S_OK</b>.  If the host does not process the message, this method will return <b>S_FALSE</b>.
+If the keystroke message can be processed by the preview handler, the handler will process it and return <b>S_OK</b>.  If the preview handler cannot process the keystroke message, it will offer it to the host using <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandlerframe-translateaccelerator">TranslateAccelerator</a>.  If the host processes the message, this method will return <b>S_OK</b>.  If the host does not process the message, this method will return <b>S_FALSE</b>.
 
 
 
@@ -79,13 +79,13 @@ If the keystroke message can be processed by the preview handler, the handler wi
 
 
 
-This function will only be called from the message pump of the process in which the preview handler is running. This function allows forwarding keystroke messages from the message pump to the host using <a href="https://msdn.microsoft.com/4f33a0b1-28ad-4e2d-9e2a-e58f44ab6f00">TranslateAccelerator</a>.
+This function will only be called from the message pump of the process in which the preview handler is running. This function allows forwarding keystroke messages from the message pump to the host using <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandlerframe-translateaccelerator">TranslateAccelerator</a>.
 
 When the preview handler receives a message (a keystroke) from its message pump, it is responsible for forwarding it to its host.
 
-When <a href="https://msdn.microsoft.com/5e95b2a6-85b3-4899-9e23-54ed9e69e821">IObjectWithSite::SetSite</a> is called on the preview handler, a reference to the preview handler's host is passed in.  The object should immediately <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> that site for <a href="https://msdn.microsoft.com/4e1316e5-f736-4a9b-887b-ddc48a615c42">IPreviewHandlerFrame</a>, and store that pointer.
+When <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-setsite">IObjectWithSite::SetSite</a> is called on the preview handler, a reference to the preview handler's host is passed in.  The object should immediately <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> that site for <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipreviewhandlerframe">IPreviewHandlerFrame</a>, and store that pointer.
 
-The preview handler then has the option to call <a href="https://msdn.microsoft.com/953b7571-0da1-4e31-bb6f-1761f8103c6e">GetWindowContext</a> to get an accelerator table to filter keystrokes. The preview can then compare keystrokes against that accelerator table using <a href="https://msdn.microsoft.com/2d09f81a-b422-4379-89c8-d50992ebb24c">IsAccelerator</a> and only call <b>IPreviewHandler::TranslateAccelerator</b> for keystrokes that match.  This can cause a modest performance increase.  The preview handler must release the accelerator table using <a href="https://msdn.microsoft.com/en-us/library/ms646368(v=VS.85).aspx">DestroyAcceleratorTable</a> function.
+The preview handler then has the option to call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandlerframe-getwindowcontext">GetWindowContext</a> to get an accelerator table to filter keystrokes. The preview can then compare keystrokes against that accelerator table using <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-isaccelerator">IsAccelerator</a> and only call <b>IPreviewHandler::TranslateAccelerator</b> for keystrokes that match.  This can cause a modest performance increase.  The preview handler must release the accelerator table using <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyacceleratortable">DestroyAcceleratorTable</a> function.
 
 It is also acceptable for the preview handler to avoid using the table altogether and call <b>IPreviewHandler::TranslateAccelerator</b> for every keystroke. Note that all preview handlers running in low-integrity processes must use this method.
 

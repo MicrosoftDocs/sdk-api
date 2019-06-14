@@ -74,5 +74,5 @@ Fail on unknown metadata creation.
 
 ### -field WICMetadataCreationMask
 
-The <a href="https://msdn.microsoft.com/41fece55-1ce4-455a-99b5-5ff0ecd27e07">WICMetadataCreationOptions</a> mask.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/ne-wincodecsdk-wicmetadatacreationoptions">WICMetadataCreationOptions</a> mask.
 

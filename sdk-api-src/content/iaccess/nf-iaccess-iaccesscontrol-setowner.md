@@ -59,12 +59,12 @@ Sets the owner or the group of an item.
 
 ### -param pOwner [in]
 
-The address of the <a href="https://msdn.microsoft.com/120e93eb-680f-4f86-879d-bc2de10d4641">TRUSTEE</a> structure for the owner.
+The address of the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a> structure for the owner.
 
 
 ### -param pGroup [in]
 
-The address of the <a href="https://msdn.microsoft.com/120e93eb-680f-4f86-879d-bc2de10d4641">TRUSTEE</a> structure for the group.
+The address of the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a> structure for the group.
 
 
 ## -returns
@@ -91,7 +91,7 @@ The <b>SetOwner</b> method is not implemented by CLSID_DCOMAccessControl.
 
 
 
-<a href="https://msdn.microsoft.com/f7f19a9d-27ed-479f-b5d4-562cab5be12a">IAccessControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iaccess/nn-iaccess-iaccesscontrol">IAccessControl</a>
  
 
  

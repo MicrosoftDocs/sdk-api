@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Notification method called by the Mobile Broadband service to indicate the completion of an asynchronous operation triggered by a call to the <a href="https://msdn.microsoft.com/34378403-cf58-4ada-9eb6-f5dad5f69bc9">GetPinState</a> method of <a href="https://msdn.microsoft.com/b5cfabc7-81f8-4ea0-b6f4-5de011320f0b">IMbnPinManager</a>.
+Notification method called by the Mobile Broadband service to indicate the completion of an asynchronous operation triggered by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnpinmanager-getpinstate">GetPinState</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnpinmanager">IMbnPinManager</a>.
 
 
 ## -parameters
@@ -59,12 +59,12 @@ Notification method called by the Mobile Broadband service to indicate the compl
 
 ### -param pinManager [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/b5cfabc7-81f8-4ea0-b6f4-5de011320f0b">IMbnPinManager</a> interface that represents the Mobile Broadband device for which the operation was performed.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnpinmanager">IMbnPinManager</a> interface that represents the Mobile Broadband device for which the operation was performed.
 
 
 ### -param pinInfo [in]
 
-A <a href="https://msdn.microsoft.com/c70b45ea-c16b-4d0d-946a-f543c827c458">MBN_PIN_INFO</a> structure that contains the device PIN information.
+A <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_pin_info">MBN_PIN_INFO</a> structure that contains the device PIN information.
 
 If <b>pinInfo.pinState</b> is set to <b>MBN_PIN_STATE_NONE</b> then no PIN is expected to be entered by device.
 
@@ -150,7 +150,7 @@ This method must return <b>S_OK</b>.
 
 
 
-This method is called by the Mobile Broadband service to notify an application of the  completion of an asynchronous operation triggered by a call to the <a href="https://msdn.microsoft.com/34378403-cf58-4ada-9eb6-f5dad5f69bc9">GetPinState</a> method of <a href="https://msdn.microsoft.com/b5cfabc7-81f8-4ea0-b6f4-5de011320f0b">IMbnPinManager</a>.    
+This method is called by the Mobile Broadband service to notify an application of the  completion of an asynchronous operation triggered by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnpinmanager-getpinstate">GetPinState</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnpinmanager">IMbnPinManager</a>.    
 On successful completion, <i>pinInfo</i> contains information about PIN next expected by the device.
 
 
@@ -161,7 +161,7 @@ On successful completion, <i>pinInfo</i> contains information about PIN next exp
 
 
 
-<a href="https://msdn.microsoft.com/2942bd4d-5bdb-45eb-a008-352bf44eec80">IMbnPinManagerEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnpinmanagerevents">IMbnPinManagerEvents</a>
  
 
  

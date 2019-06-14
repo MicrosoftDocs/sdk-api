@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used by <a href="https://msdn.microsoft.com/1ac911bb-28d6-4cb6-a66a-1a0c8a4bd6a1">SHShowManageLibraryUI</a> to define options for handling a name collision when saving a library.
+Used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shshowmanagelibraryui">SHShowManageLibraryUI</a> to define options for handling a name collision when saving a library.
 
 
 ## -enum-fields

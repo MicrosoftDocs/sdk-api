@@ -56,9 +56,9 @@ ms.custom: 19H1
 
 Gets the pen-based information associated with the individual inputs, if any, that were coalesced into 
     the current message for the specified pointer (of type 
-    <a href="https://msdn.microsoft.com/3334DCD0-DAE1-4AC2-AB36-23D114803100">PT_PEN</a>). The most recent input is included in 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-tagpointer_input_type">PT_PEN</a>). The most recent input is included in 
     the returned history and is the same as the most recent input returned by the 
-    <a href="https://msdn.microsoft.com/5f1f7252-a4aa-4b06-94c9-2aa365cf0100">GetPointerPenInfo</a> function.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerpeninfo">GetPointerPenInfo</a> function.
 
 
 ## -parameters
@@ -78,14 +78,14 @@ A pointer to a variable that specifies the count of structures in the buffer to 
        <b>GetPointerPenInfoHistory</b> succeeds, 
        <i>entriesCount</i> is updated with the total count of structures available. The total 
        count of structures available is the same as the <i>historyCount</i> field in the 
-       <a href="https://msdn.microsoft.com/fee176ba-ad07-4141-ab4d-1b8c335fd111">POINTER_PEN_INFO</a> structure returned by a 
-       call to  <a href="https://msdn.microsoft.com/5f1f7252-a4aa-4b06-94c9-2aa365cf0100">GetPointerPenInfo</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_pen_info">POINTER_PEN_INFO</a> structure returned by a 
+       call to  <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerpeninfo">GetPointerPenInfo</a>.
 
 
 ### -param penInfo [out, optional]
 
 Address of an array of 
-       <a href="https://msdn.microsoft.com/fee176ba-ad07-4141-ab4d-1b8c335fd111">POINTER_PEN_INFO</a> structures to receive 
+       <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_pen_info">POINTER_PEN_INFO</a> structures to receive 
        the pointer information. This parameter can be NULL if <i>*entriesCount</i> is zero.
 
 
@@ -96,7 +96,7 @@ Address of an array of
 If the function succeeds, the return value is non-zero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -107,7 +107,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 If the application does not process pointer input messages as fast as they are generated, some moves may be 
     coalesced. When an application receives a coalescable pointer (of type 
-    <a href="https://msdn.microsoft.com/3334DCD0-DAE1-4AC2-AB36-23D114803100">PT_PEN</a>) message, it can use the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-tagpointer_input_type">PT_PEN</a>) message, it can use the 
     <b>GetPointerPenInfoHistory</b> function to 
     retrieve information for all the individual inputs, if any, that were coalesced into the message. Note that the 
     information retrieved is associated with the pointer message most recently retrieved by the calling thread. Once 
@@ -116,7 +116,7 @@ If the application does not process pointer input messages as fast as they are g
 
 The information retrieved appears in reverse chronological order, with the most recent 
     entry in the first row of the returned array. The most recent entry is the same as that returned by the 
-    <a href="https://msdn.microsoft.com/5f1f7252-a4aa-4b06-94c9-2aa365cf0100">GetPointerPenInfo</a> function.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerpeninfo">GetPointerPenInfo</a> function.
 
 If the count of rows in the buffer provided is insufficient to hold all available history entries, this 
     function succeeds with the buffer containing the most recent entries and <i>*entriesCount</i> 
@@ -133,7 +133,7 @@ If the calling thread does not own the window (where the input was originally de
     <b>ERROR_ACCESS_DENIED</b>.
 
 If the specified pointer is not of type 
-    <a href="https://msdn.microsoft.com/3334DCD0-DAE1-4AC2-AB36-23D114803100">PT_PEN</a>, this function fails with the last 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-tagpointer_input_type">PT_PEN</a>, this function fails with the last 
      error set to <b>ERROR_DATATYPE_MISMATCH</b>.
 
 
@@ -144,19 +144,19 @@ If the specified pointer is not of type
 
 
 
-<a href="https://msdn.microsoft.com/0123DCD0-DAE1-4AC2-AB36-23D114803138">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/52db9b96-7f9e-41d7-88f7-b9c7691a6511">GetPointerFramePenInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerframepeninfo">GetPointerFramePenInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4f6a9f3-dfbd-4413-aae7-f58e1521ef1d">GetPointerFramePenInfoHistory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerframepeninfohistory">GetPointerFramePenInfoHistory</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f1f7252-a4aa-4b06-94c9-2aa365cf0100">GetPointerPenInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerpeninfo">GetPointerPenInfo</a>
  
 
  

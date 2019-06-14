@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>AM_SAMPLE2_PROPERTIES</b> structure describes the properties of a media sample. The <a href="https://msdn.microsoft.com/638cb75d-9be6-4ba1-a116-47e2d62b689d">IMediaSample2</a> interface uses this structure.
+The <b>AM_SAMPLE2_PROPERTIES</b> structure describes the properties of a media sample. The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediasample2">IMediaSample2</a> interface uses this structure.
 
 
 
@@ -158,7 +158,7 @@ If this flag is set, display the first field again after displaying the second f
 </dl>
 </td>
 <td width="60%">
-Signals the start of a VOBU during reverse playback of DVD video.  For more information, see <a href="https://msdn.microsoft.com/b3cf043f-c974-4240-8291-5c717bd8afaa">DVD Playback Enhancements in Windows Vista</a>. 
+Signals the start of a VOBU during reverse playback of DVD video.  For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-playback-enhancements-in-windows-vista">DVD Playback Enhancements in Windows Vista</a>. 
 
 </td>
 </tr>
@@ -169,7 +169,7 @@ Signals the start of a VOBU during reverse playback of DVD video.  For more info
 </dl>
 </td>
 <td width="60%">
-Signals the end of a VOBU during reverse playback of DVD video. The DVD Navigator sets this flag on an empty sample to signal the end of a VOBU. For more information, see <a href="https://msdn.microsoft.com/b3cf043f-c974-4240-8291-5c717bd8afaa">DVD Playback Enhancements in Windows Vista</a>.
+Signals the end of a VOBU during reverse playback of DVD video. The DVD Navigator sets this flag on an empty sample to signal the end of a VOBU. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-playback-enhancements-in-windows-vista">DVD Playback Enhancements in Windows Vista</a>.
 
 </td>
 </tr>
@@ -182,9 +182,9 @@ Signals the end of a VOBU during reverse playback of DVD video. The DVD Navigato
 <td width="60%">
 For DVD playback, indicates the point in the stream when the decoder should apply a new Content Scramble System (CSS) key.
 
-The <a href="https://msdn.microsoft.com/3b2c01a2-d52c-4497-8fc9-d1113e8507e8">DVD Navigator</a> sets this flag on an empty media sample just before it renegotiate a CSS title key.
+The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> sets this flag on an empty media sample just before it renegotiate a CSS title key.
 
-Previously, the DVD Navigator incorrectly sent this key before negotiating the disc key. Starting in Windows 7, if the decoder's <b>AM_PROPERTY_DVDCOPY_SUPPORTS_NEW_KEYCOUNT</b> property returns <b>TRUE</b>, the DVD Navigator does not send this flag before negotiating the disc key. See <a href="https://msdn.microsoft.com/da3abefd-8f25-449d-8787-84d2cef928da">DVD Copy Protection Property Set</a>.
+Previously, the DVD Navigator incorrectly sent this key before negotiating the disc key. Starting in Windows 7, if the decoder's <b>AM_PROPERTY_DVDCOPY_SUPPORTS_NEW_KEYCOUNT</b> property returns <b>TRUE</b>, the DVD Navigator does not send this flag before negotiating the disc key. See <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-copy-protection-property-set">DVD Copy Protection Property Set</a>.
 
 </td>
 </tr>
@@ -196,7 +196,7 @@ Other flags are defined but not currently used. See dvdmedia.h.
 
 ### -field dwSampleFlags
 
-Bitwise combination of flags the <a href="https://msdn.microsoft.com/d2aa2fc6-282f-4b8d-8bed-4955f60537db">AM_SAMPLE_PROPERTY_FLAGS</a> enumerated data type. Undefined bits are reserved and must be zero.
+Bitwise combination of flags the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagam_sample_property_flags">AM_SAMPLE_PROPERTY_FLAGS</a> enumerated data type. Undefined bits are reserved and must be zero.
 
 
 ### -field lActual
@@ -216,12 +216,12 @@ Stop time, if valid. The <b>dwSampleFlags</b> member specifies whether this memb
 
 ### -field dwStreamId
 
-Stream identifier. If the value is AM_STREAM_MEDIA, the stream contains media data. If the value is AM_STREAM_CONTROL, the stream contains control information. Applications can define values of 0x80000000 or greater for their own use. (See <a href="https://msdn.microsoft.com/d2aa2fc6-282f-4b8d-8bed-4955f60537db">AM_SAMPLE_PROPERTY_FLAGS</a>.)
+Stream identifier. If the value is AM_STREAM_MEDIA, the stream contains media data. If the value is AM_STREAM_CONTROL, the stream contains control information. Applications can define values of 0x80000000 or greater for their own use. (See <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagam_sample_property_flags">AM_SAMPLE_PROPERTY_FLAGS</a>.)
 
 
 ### -field pMediaType
 
-Pointer to an <a href="https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02">AM_MEDIA_TYPE</a> structure that specifies the media type if the format has changed. If this format has not changed, this member is <b>NULL</b>.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_ammediatype">AM_MEDIA_TYPE</a> structure that specifies the media type if the format has changed. If this format has not changed, this member is <b>NULL</b>.
 
 
 ### -field pbBuffer
@@ -239,7 +239,7 @@ Size of the sample buffer, in bytes.
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
  
 
  

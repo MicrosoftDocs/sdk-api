@@ -75,7 +75,7 @@ The distance to translate along the y-axis.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/54b9e75c-6316-44d3-b725-2039f39eeda5">Matrix3x2F</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a></b>
 
 A transformation matrix that translates an object the specified horizontal and vertical distance.
 
@@ -88,10 +88,10 @@ A transformation matrix that translates an object the specified horizontal and v
 
  Translation  is an affine transformation, which moves every point by a fixed distance in the same direction. It is similar to shifting the origin of the coordinate space. You can translate an object along the x-axis, the y-axis, or both. 
 
-When calling this method, specify the x and y displacements. If you prefer to define both displacements in an ordered pair by using the <a href="https://msdn.microsoft.com/c2fd41fb-72b3-418b-ad87-65549b04657d">D2D1_SIZE_F</a> structure, call the  other <a href="https://msdn.microsoft.com/eb289287-4f33-42cf-a306-120adda70371">Translation</a> method. The following illustration shows a square moved 20 pixels to the right along the x-axis, and 10 pixels downward along the y-axis.
+When calling this method, specify the x and y displacements. If you prefer to define both displacements in an ordered pair by using the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-size-f">D2D1_SIZE_F</a> structure, call the  other <a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-translation">Translation</a> method. The following illustration shows a square moved 20 pixels to the right along the x-axis, and 10 pixels downward along the y-axis.
 
 <img alt="Illustration of the square moved to the right and downward" src="images/translation_ovw.png"/>
- For an example, see <a href="https://msdn.microsoft.com/0fc48801-de14-4398-816d-6e7ddf4ffdd7">How to Translate an Object</a>.
+ For an example, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-translate">How to Translate an Object</a>.
 
 
 
@@ -101,7 +101,7 @@ When calling this method, specify the x and y displacements. If you prefer to de
 
 
 
-<a href="https://msdn.microsoft.com/54b9e75c-6316-44d3-b725-2039f39eeda5">Matrix3x2F</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a>
  
 
  

@@ -64,7 +64,7 @@ The Plug and Play (PnP) identifier of the device.
 
 ### -param guidServiceCategory [in]
 
-A reference to a globally unique identifier (GUID) that specifies the category of services to retrieve. If the  referenced identifier is <a href="https://msdn.microsoft.com/47b8d3dd-ea12-461d-935d-2de2c0157f88">GUID_DEVINTERFACE_WPD_SERVICE</a>, this method will retrieve all services supported by the device.
+A reference to a globally unique identifier (GUID) that specifies the category of services to retrieve. If the  referenced identifier is <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/device-interface-guids">GUID_DEVINTERFACE_WPD_SERVICE</a>, this method will retrieve all services supported by the device.
 
 
 ### -param pServices [in, out]
@@ -132,9 +132,9 @@ The <i>pcServices</i> parameter was <b>NULL</b>.
 
 
 
-If this method succeeds, the application should call the <a href="https://msdn.microsoft.com/b86f7733-81a3-4b60-bb7c-840c75f8d03f">FreePortableDevicePnPIDs</a> function to free the array referenced by the <i>pServices</i> parameter.
+If this method succeeds, the application should call the <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/freeportabledevicepnpids">FreePortableDevicePnPIDs</a> function to free the array referenced by the <i>pServices</i> parameter.
 
-An application can retrieve the PnP identifier for a device by calling the <a href="https://msdn.microsoft.com/5061b3c0-8b93-480d-b1c6-0a6b616a2c8d">IPortableDeviceManager::GetDevices</a> method.
+An application can retrieve the PnP identifier for a device by calling the <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicemanager-getdevices">IPortableDeviceManager::GetDevices</a> method.
   
 
 Applications that use Single Threaded Apartments should use <b>CLSID_PortableDeviceServiceFTM</b> as this eliminates the overhead of interface pointer marshaling.  <b>CLSID_PortableDeviceService</b> is still supported for legacy applications.
@@ -398,15 +398,15 @@ HRESULT GetServiceName( LPCWSTR    pszPnpServiceID,
 
 
 
-<a href="https://msdn.microsoft.com/6ee6eecb-3812-45c6-8b27-7dfd6fa82758">Enumerating Services</a>
+<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/enumerating-services">Enumerating Services</a>
 
 
 
-<a href="https://msdn.microsoft.com/8df23343-26f0-4fb0-90b9-e8b75bcadffa">IPortableDeviceServiceManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicemanager">IPortableDeviceServiceManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/722d657d-332a-40df-ac30-bc2050deda74">Opening a Service</a>
+<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/opening-a-service">Opening a Service</a>
  
 
  

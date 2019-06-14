@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates simplified type information for use in an implementation of <a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>.
+Creates simplified type information for use in an implementation of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ The locale identifier for the names used in the type information.
 
 ### -param pptinfo
 
-On return, pointer to a type information implementation for use in <a href="https://msdn.microsoft.com/720a0237-9c68-4252-9f66-43610d4be106">DispGetIDsOfNames</a> and <a href="https://msdn.microsoft.com/69b89e5c-2a04-4a6a-beb0-18e68f8866ac">DispInvoke</a>.
+On return, pointer to a type information implementation for use in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-dispgetidsofnames">DispGetIDsOfNames</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-dispinvoke">DispInvoke</a>.
 
 
 ## -returns
@@ -135,11 +135,11 @@ Insufficient memory to complete the operation.
 
 You can construct type information at run time by using <b>CreateDispTypeInfo</b> and an INTERFACEDATA structure that describes the object being exposed.
 
-The type information returned by this function is primarily designed to automate the implementation of <a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>. <b>CreateDispTypeInfo</b> does not return all of the type information described in <a href="https://msdn.microsoft.com/ab44422c-97d6-4a63-ade1-db919d53aae7">Type Description Interfaces</a>. The argument <i>pidata</i> is not a complete description of an interface. It does not include Help information, comments, optional parameters, and other type information that is useful in different contexts.
+The type information returned by this function is primarily designed to automate the implementation of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>. <b>CreateDispTypeInfo</b> does not return all of the type information described in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/type-description-interfaces">Type Description Interfaces</a>. The argument <i>pidata</i> is not a complete description of an interface. It does not include Help information, comments, optional parameters, and other type information that is useful in different contexts.
 
 Accordingly, the recommended method for providing type information about an object is to describe the object using the Object Description Language (ODL), and to compile the object description into a type library using the Microsoft Interface Definition Language (MIDL) compiler.
 
-To use type information from a type library, use the <a href="https://msdn.microsoft.com/155b48e5-5438-409e-9342-630a6a500f60">LoadTypeLib</a> and <a href="https://msdn.microsoft.com/58f96322-f1cd-448c-906d-b7faa65ab9a0">GetTypeInfoOfGuid</a> functions instead of <b>CreateDispTypeInfo</b>. For more information <a href="https://msdn.microsoft.com/ab44422c-97d6-4a63-ade1-db919d53aae7">Type Description Interfaces</a>. 
+To use type information from a type library, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-loadtypelib">LoadTypeLib</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib-gettypeinfoofguid">GetTypeInfoOfGuid</a> functions instead of <b>CreateDispTypeInfo</b>. For more information <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/type-description-interfaces">Type Description Interfaces</a>. 
 
 
 #### Examples
@@ -223,11 +223,11 @@ LError0:;
 
 
 
-<a href="https://msdn.microsoft.com/2c66b04e-9d96-45e9-8105-82d58a5a4085">Creation of Dispatch API Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/dispatch-functions">Creation of Dispatch API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

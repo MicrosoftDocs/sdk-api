@@ -77,12 +77,12 @@ This method supports the standard return value E_UNEXPECTED, in addition to the 
 
 Assigns a CLSID to the current property storage object. The CLSID has no relationship to the stored property IDs. Assigning a CLSID allows a piece of code to be associated with a given instance of a property set; such code, for example, might manage the user interface (UI). Different CLSIDs can be associated with different property set instances that have the same FMTID.
 
-If the property set is created with the <i>pclsid</i> parameter of the <a href="https://msdn.microsoft.com/9307788d-bce6-4025-8043-8b68e874a62b">IPropertySetStorage::Create</a> method specified as <b>NULL</b>, the CLSID is set to all zeroes.
+If the property set is created with the <i>pclsid</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertysetstorage-create">IPropertySetStorage::Create</a> method specified as <b>NULL</b>, the CLSID is set to all zeroes.
 
 The current CLSID on a property storage object can be retrieved with a call to 
-<a href="https://msdn.microsoft.com/46985c49-cb9b-4f67-8dff-e6fad9e188da">IPropertyStorage::Stat</a>. The initial value for the CLSID can be specified at the time that the storage is created with a call to <a href="https://msdn.microsoft.com/9307788d-bce6-4025-8043-8b68e874a62b">IPropertySetStorage::Create</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-stat">IPropertyStorage::Stat</a>. The initial value for the CLSID can be specified at the time that the storage is created with a call to <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertysetstorage-create">IPropertySetStorage::Create</a>.
 
-Setting the CLSID on a nonsimple property set (one that can legally contain storage- or stream-valued properties, as described in <a href="https://msdn.microsoft.com/9307788d-bce6-4025-8043-8b68e874a62b">IPropertySetStorage::Create</a>) also sets the CLSID on the underlying sub-storage.
+Setting the CLSID on a nonsimple property set (one that can legally contain storage- or stream-valued properties, as described in <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertysetstorage-create">IPropertySetStorage::Create</a>) also sets the CLSID on the underlying sub-storage.
 
 
 
@@ -92,15 +92,15 @@ Setting the CLSID on a nonsimple property set (one that can legally contain stor
 
 
 
-<a href="https://msdn.microsoft.com/9307788d-bce6-4025-8043-8b68e874a62b">IPropertySetStorage::Create</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertysetstorage-create">IPropertySetStorage::Create</a>
 
 
 
-<a href="https://msdn.microsoft.com/c021f695-db54-4861-9f30-35a81d2dccd5">IPropertyStorage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a>
 
 
 
-<a href="https://msdn.microsoft.com/46985c49-cb9b-4f67-8dff-e6fad9e188da">IPropertyStorage::Stat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-stat">IPropertyStorage::Stat</a>
  
 
  

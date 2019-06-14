@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Decode</b> method decodes an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1)-encoded alternate name extension and stores the resulting array of strings in the <b>CertEncodeAltName</b> object.
+The <b>Decode</b> method decodes an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1)-encoded alternate name extension and stores the resulting array of strings in the <b>CertEncodeAltName</b> object.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ Represents an ASN.1-encoded alternate name extension.
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -80,11 +80,11 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-<a href="https://msdn.microsoft.com/e0ecfcb0-f2ca-4e1c-a054-c83c03d55465">ICertEncodeAltName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nn-certenc-icertencodealtname">ICertEncodeAltName</a>
 
 
 
-<a href="https://msdn.microsoft.com/34136053-1c25-4f6b-8bd6-699fffb6670b">ICertEncodeAltName::Encode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodealtname-encode">ICertEncodeAltName::Encode</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>HTTP_LOGGING_INFO</b> structure is used to enable server side logging on a URL Group or on a server session.
 
-This structure must be used when setting or querying  the <a href="https://msdn.microsoft.com/14865796-135c-43c2-955a-fdeae05a8278">HttpServerLoggingProperty</a> on a URL Group or server session.
+This structure must be used when setting or querying  the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_server_property">HttpServerLoggingProperty</a> on a URL Group or server session.
 
 
 ## -struct-fields
@@ -61,14 +61,14 @@ This structure must be used when setting or querying  the <a href="https://msdn.
 
 ### -field Flags
 
-The <a href="https://msdn.microsoft.com/cafa3b04-ac8b-4269-bfa9-fe8e9ab65936">HTTP_PROPERTY_FLAGS</a> structure that specifies whether the property is present.
+The <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_property_flags">HTTP_PROPERTY_FLAGS</a> structure that specifies whether the property is present.
 
 
 ### -field LoggingFlags
 
 The optional logging flags change the default logging behavior.
 
-These  can be one or more of the following <a href="https://msdn.microsoft.com/b6afef7a-5426-4ccd-9785-169e83812c07">HTTP_LOGGING_FLAG</a> values:
+These  can be one or more of the following <a href="https://docs.microsoft.com/windows/desktop/Http/http-logging-flag--constants">HTTP_LOGGING_FLAG</a> values:
 
 <table>
 <tr>
@@ -149,7 +149,7 @@ The logging directory under which the log files are created. The directory strin
 
 ### -field Format
 
-A member of the <a href="https://msdn.microsoft.com/74a32957-7305-4f2b-a509-7d6aa11d2052">HTTP_LOGGING_TYPE</a> enumeration specifying one of the following log file formats.
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_logging_type">HTTP_LOGGING_TYPE</a> enumeration specifying one of the following log file formats.
 
 <table>
 <tr>
@@ -202,7 +202,7 @@ The log format is centralized binary logging. This format has fixed field defini
 
 ### -field Fields
 
-The fields that are logged when the format is set to W3C. These  can be one or more of the <a href="https://msdn.microsoft.com/44307d5a-f413-4ee9-9f9c-586c824d5493">HTTP_LOG_FIELD_ Constants</a> values.
+The fields that are logged when the format is set to W3C. These  can be one or more of the <a href="https://docs.microsoft.com/windows/desktop/Http/http-log-field--constants">HTTP_LOG_FIELD_ Constants</a> values.
 
 When the logging format is W3C is , applications must specify the log fields otherwise no fields are logged.
 
@@ -224,7 +224,7 @@ Reserved. Set to 0 (zero) or <b>NULL</b>.
 
 ### -field RolloverType
 
-One of the following members of the <a href="https://msdn.microsoft.com/f1560f05-f7c4-46f1-ad9e-d737d0019b41">HTTP_LOGGING_ROLLOVER_TYPE</a> enumeration specifying the criteria for log file rollover.
+One of the following members of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_logging_rollover_type">HTTP_LOGGING_ROLLOVER_TYPE</a> enumeration specifying the criteria for log file rollover.
 
 <table>
 <tr>
@@ -303,7 +303,7 @@ The security descriptor that is applied to the log files directory and all sub-d
 
 
 
-The <a href="https://msdn.microsoft.com/14865796-135c-43c2-955a-fdeae05a8278">HttpServerLoggingProperty</a> property sets one of four types of server side logging: HttpLoggingTypeW3C, HttpLoggingTypeIIS, HttpLoggingTypeNCSA, or HttpLoggingTypeRaw. When this property is set on a server session it functions as centralized form of logging for all of the URL groups under that server session. Requests that are routed to one of the URL groups under the server session are logged in one centralized log file. The configuration parameters for the log file are passed in the  <b>HTTP_LOGGING_INFO</b> structure in the call to   <a href="https://msdn.microsoft.com/d655832c-68a1-42d1-ac91-964884bf2dac">HttpSetServerSessionProperty</a>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_server_property">HttpServerLoggingProperty</a> property sets one of four types of server side logging: HttpLoggingTypeW3C, HttpLoggingTypeIIS, HttpLoggingTypeNCSA, or HttpLoggingTypeRaw. When this property is set on a server session it functions as centralized form of logging for all of the URL groups under that server session. Requests that are routed to one of the URL groups under the server session are logged in one centralized log file. The configuration parameters for the log file are passed in the  <b>HTTP_LOGGING_INFO</b> structure in the call to   <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserversessionproperty">HttpSetServerSessionProperty</a>.
 
 When this property is set on a URL Group, logging is performed only on  requests that are routed to the URL Group. 
 Log files are created when the request arrives on the URL Group or server session, they are not created when logging is configured.
@@ -408,7 +408,7 @@ The letters yy, mm, ww, dd, hh, and nn in the table represent the following digi
 </ul>
 
 
-Please note that in the HTTP version 2.0 API, the <a href="https://msdn.microsoft.com/0183584f-105e-4fa3-8991-d3f2dfca1d62">HttpSendHttpResponse</a> and <a href="https://msdn.microsoft.com/f2ff2e40-ef1f-4c35-a615-f31ac63ab738">HttpSendResponseEntityBody</a> have been revisioned to allow applications to pass an <a href="https://msdn.microsoft.com/5d1b86fe-161d-4182-b3fe-9a03a843e62e">HTTP_LOG_FIELDS_DATA</a> structure so the response can be logged. Setting the <b>HttpServerLoggingProperty</b>  property on a server session or a URL group does not mean that HTTP responses are logged. Logging on the URL group or the server session will not take place unless the calls to <b>HttpSendResponseEntityBody</b> and <b>HttpSendHttpResponse</b> include an optional <b>HTTP_LOG_FIELDS_DATA</b> structure. For more information, see the <b>HTTP_LOG_FIELDS_DATA</b> topic.
+Please note that in the HTTP version 2.0 API, the <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsendhttpresponse">HttpSendHttpResponse</a> and <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsendresponseentitybody">HttpSendResponseEntityBody</a> have been revisioned to allow applications to pass an <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_log_fields_data">HTTP_LOG_FIELDS_DATA</a> structure so the response can be logged. Setting the <b>HttpServerLoggingProperty</b>  property on a server session or a URL group does not mean that HTTP responses are logged. Logging on the URL group or the server session will not take place unless the calls to <b>HttpSendResponseEntityBody</b> and <b>HttpSendHttpResponse</b> include an optional <b>HTTP_LOG_FIELDS_DATA</b> structure. For more information, see the <b>HTTP_LOG_FIELDS_DATA</b> topic.
 
 For information on the log file formats, see the <a href="Http://go.microsoft.com/fwlink/p/?linkid=83889">IIS Log File Formats</a> topic.
 
@@ -420,43 +420,43 @@ For information on the log file formats, see the <a href="Http://go.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/5a8e28e9-f85b-4550-929e-53f38eca6a8c">HTTP Server API Version 2.0 Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-structures">HTTP Server API Version 2.0 Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/b6afef7a-5426-4ccd-9785-169e83812c07">HTTP_LOGGING_FLAG_ Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-logging-flag--constants">HTTP_LOGGING_FLAG_ Constants</a>
 
 
 
-<a href="https://msdn.microsoft.com/f1560f05-f7c4-46f1-ad9e-d737d0019b41">HTTP_LOGGING_ROLLOVER_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_logging_rollover_type">HTTP_LOGGING_ROLLOVER_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/74a32957-7305-4f2b-a509-7d6aa11d2052">HTTP_LOGGING_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_logging_type">HTTP_LOGGING_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/44307d5a-f413-4ee9-9f9c-586c824d5493">HTTP_LOG_FIELD_ Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-log-field--constants">HTTP_LOG_FIELD_ Constants</a>
 
 
 
-<a href="https://msdn.microsoft.com/14865796-135c-43c2-955a-fdeae05a8278">HTTP_SERVER_PROPERTY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_server_property">HTTP_SERVER_PROPERTY</a>
 
 
 
-<a href="https://msdn.microsoft.com/dfbc2d32-c1f6-41b1-8f4f-9e5e9f6dd9e1">HttpCloseRequestQueue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcloserequestqueue">HttpCloseRequestQueue</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0f4112e-db81-4eda-afeb-d00117f7240c">HttpCreateRequestQueue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a>
 
 
 
-<a href="https://msdn.microsoft.com/56111cc0-94c8-47dc-a3bb-ffc5dae772fe">HttpSetRequestQueueProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetrequestqueueproperty">HttpSetRequestQueueProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/f6640565-a5a1-4a71-938c-1adf54beb40a">HttpShutdownRequestQueue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpshutdownrequestqueue">HttpShutdownRequestQueue</a>
  
 
  

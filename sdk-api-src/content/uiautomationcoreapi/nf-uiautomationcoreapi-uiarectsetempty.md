@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<div class="alert"><b>Note</b>  This function is deprecated. Client applications should use the Microsoft UI Automation Component Object Model (COM) interfaces instead.</div><div> </div>Sets the elements of a <a href="https://msdn.microsoft.com/99cf7e3e-6b36-41ca-ac27-a7b332e7c91e">UiaRect</a> structure to 0.
+<div class="alert"><b>Note</b>  This function is deprecated. Client applications should use the Microsoft UI Automation Component Object Model (COM) interfaces instead.</div><div> </div>Sets the elements of a <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ns-uiautomationcore-uiarect">UiaRect</a> structure to 0.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ ms.custom: 19H1
 
 ### -param rc [in, ref]
 
-Type: <b><a href="https://msdn.microsoft.com/99cf7e3e-6b36-41ca-ac27-a7b332e7c91e">UiaRect</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ns-uiautomationcore-uiarect">UiaRect</a></b>
 
-A reference to a <a href="https://msdn.microsoft.com/99cf7e3e-6b36-41ca-ac27-a7b332e7c91e">UiaRect</a> structure.
+A reference to a <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ns-uiautomationcore-uiarect">UiaRect</a> structure.
 
 
 ## -returns

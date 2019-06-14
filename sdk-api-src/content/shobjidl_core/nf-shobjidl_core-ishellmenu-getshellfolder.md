@@ -154,7 +154,7 @@ Specifies a horizontal band.
 
 Type: <b>PCIDLIST_ABSOLUTE*</b>
 
-When this method returns, contains the address of the folder's fully qualified <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a>.
+When this method returns, contains the address of the folder's fully qualified <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a>.
 
 
 ### -param riid [in]

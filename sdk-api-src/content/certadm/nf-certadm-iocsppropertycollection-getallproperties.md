@@ -72,7 +72,7 @@ This array is a two-dimensional array of elements, each of type <b>VARIANT</b>. 
 If the method succeeds, it returns <b>S_OK</b>.
 
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
 A safe array that contains the properties as name-value pairs.
@@ -87,7 +87,7 @@ This array is a two-dimensional array of elements, each of type <b>Variant</b>. 
 
 
 
-<a href="https://msdn.microsoft.com/8c700357-0cb4-4780-9ff1-ac57c46f9183">IOCSPPropertyCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocsppropertycollection">IOCSPPropertyCollection</a>
  
 
  

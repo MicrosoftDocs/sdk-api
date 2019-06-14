@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Extends <a href="https://msdn.microsoft.com/15244d6e-6cd7-4dee-8e4e-2533d5a60ae7">INamespaceWalkCB</a> with a method that is required in order to complete a namespace walk. This method removes data collected during the walk.    
+Extends <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb">INamespaceWalkCB</a> with a method that is required in order to complete a namespace walk. This method removes data collected during the walk.    
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INamespaceWalkCB2</b> interface inherits from <a href="https://msdn.microsoft.com/15244d6e-6cd7-4dee-8e4e-2533d5a60ae7">INamespaceWalkCB</a>. <b>INamespaceWalkCB2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INamespaceWalkCB2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb">INamespaceWalkCB</a>. <b>INamespaceWalkCB2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>INamespaceWalkCB2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4a41d460-71c9-4add-86e4-8ce27b3632d0">WalkComplete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacewalkcb2-walkcomplete">WalkComplete</a>
 </td>
 <td align="left" width="63%">
 Removes data collected during a namespace walk.
@@ -83,7 +83,7 @@ Removes data collected during a namespace walk.
 
 
 
-This interface also provides the methods of the <a href="https://msdn.microsoft.com/15244d6e-6cd7-4dee-8e4e-2533d5a60ae7">INamespaceWalkCB</a> interface, from which it inherits.
+This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb">INamespaceWalkCB</a> interface, from which it inherits.
 
 
 
@@ -93,11 +93,11 @@ This interface also provides the methods of the <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/164732ae-1c72-465c-a16b-a8eeaa9cc185">INamespaceWalk</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalk">INamespaceWalk</a>
 
 
 
-<a href="https://msdn.microsoft.com/15244d6e-6cd7-4dee-8e4e-2533d5a60ae7">INamespaceWalkCB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb">INamespaceWalkCB</a>
  
 
  

@@ -53,12 +53,12 @@ ms.custom: 19H1
 Use <b>IEnumBitsPeerCacheRecords</b> to enumerate the records of the cache. 
 
 To get this interface, call the 
-<a href="https://msdn.microsoft.com/b471cee0-0ad0-4488-9819-e524e50dbc76">IBitsPeerCacheAdministration::EnumRecords</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-enumrecords">IBitsPeerCacheAdministration::EnumRecords</a> method.
 <div class="alert"><b>Note</b>  This interface is deprecated in BITS 4.0, and all of the API methods will return <b>S_FALSE</b>.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumBitsPeerCacheRecords</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnumBitsPeerCacheRecords</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumBitsPeerCacheRecords</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumBitsPeerCacheRecords</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IEnumBitsPeerCacheRecords</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4eb19401-119d-4ce6-92b1-aa41b6dcb97c">Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ienumbitspeercacherecords-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates another enumerator that contains the same enumeration state as the current enumerator.
@@ -82,7 +82,7 @@ Creates another enumerator that contains the same enumeration state as the curre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/40c4e7da-031f-4c3b-ab18-2476b54ae972">GetCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ienumbitspeercacherecords-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of items in the enumeration.
@@ -91,7 +91,7 @@ Retrieves the number of items in the enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a8117baa-9f77-4735-bd15-2c7e1e759e9b">Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ienumbitspeercacherecords-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified number of items in the enumeration sequence.
@@ -100,7 +100,7 @@ Retrieves a specified number of items in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d1e1dbdc-a90d-4ac8-8b52-8e4f914a81dd">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ienumbitspeercacherecords-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning.
@@ -109,7 +109,7 @@ Resets the enumeration sequence to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f1204e4b-985e-4d3e-8a1f-d13d46e8f1ce">Skip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ienumbitspeercacherecords-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips a specified number of items in the enumeration sequence.

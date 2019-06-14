@@ -224,7 +224,7 @@ Identifies a content string pertaining to a particular take in a movie or video.
 
 
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd388628(v=VS.85).aspx">DVD_TextStringType</a> value is returned in the <a href="https://msdn.microsoft.com/en-us/library/Dd693066(v=VS.85).aspx">DVDTextStringType</a> method to identify how the disc authors have categorized the specified text string. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_textstringtype">DVD_TextStringType</a> value is returned in the <a href="https://docs.microsoft.com/windows/desktop/api/segment/ne-segment-dvdtextstringtype">DVDTextStringType</a> method to identify how the disc authors have categorized the specified text string. 
 
 Not every DVD text string identifier is included in this enumeration, so an authored DVD might include other values.
 
@@ -238,15 +238,15 @@ One important text string type not defined in this enumeration is 0xF0, the exte
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693066(v=VS.85).aspx">DVDTextStringType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/ne-segment-dvdtextstringtype">DVDTextStringType</a>
 
 
 
-<a href="https://msdn.microsoft.com/3c21f2c6-8eff-4fe5-a383-057f3394d9ee">Video Control Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-enumerations">Video Control Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390995(v=VS.85).aspx">Working with DVD Text Strings</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/working-with-dvd-text-strings">Working with DVD Text Strings</a>
  
 
  

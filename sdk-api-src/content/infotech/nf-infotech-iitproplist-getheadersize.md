@@ -95,11 +95,11 @@ The size was successfully returned.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms670040(v=VS.85).aspx">IITPropList</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nn-infotech-iitproplist">IITPropList</a>
 
 
 
-<a href="https://msdn.microsoft.com/83d9fa7b-d814-4293-93b9-9454c01c1503">IITPropList::GetDataSize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nf-infotech-iitproplist-getdatasize">IITPropList::GetDataSize</a>
  
 
  

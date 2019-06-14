@@ -50,14 +50,14 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides methods to perform access-path and file-system activities on the volume object.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsVolumeMF</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IVdsVolumeMF</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsVolumeMF</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsVolumeMF</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IVdsVolumeMF</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cf29639e-33fd-42f6-b616-7145521da347">AddAccessPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumemf-addaccesspath">AddAccessPath</a>
 </td>
 <td align="left" width="63%">
 Adds an access path. An access path can be a path to an empty folder or a drive letter.
@@ -81,7 +81,7 @@ Adds an access path. An access path can be a path to an empty folder or a drive 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f3b02b4a-109c-419f-94c1-fc2f15ea5291">ClearFileSystemFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumemf-clearfilesystemflags">ClearFileSystemFlags</a>
 </td>
 <td align="left" width="63%">
 Clears the file-system flags.
@@ -90,7 +90,7 @@ Clears the file-system flags.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/05020390-475f-4528-ba44-ecdfe008149f">DeleteAccessPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumemf-deleteaccesspath">DeleteAccessPath</a>
 </td>
 <td align="left" width="63%">
 Deletes an access path from the current volume.
@@ -99,7 +99,7 @@ Deletes an access path from the current volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1ef5a1e6-0e41-4077-9ae8-fe266f2623cc">Dismount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumemf-dismount">Dismount</a>
 </td>
 <td align="left" width="63%">
 Dismounts a mounted volume.
@@ -108,7 +108,7 @@ Dismounts a mounted volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8203ac16-99af-4962-bafc-12c0d238d062">Format</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumemf-format">Format</a>
 </td>
 <td align="left" width="63%">
 Formats the file system on the current volume.
@@ -117,7 +117,7 @@ Formats the file system on the current volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/43f5495c-5a60-44fd-b217-16464c4693a4">GetFileSystemProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumemf-getfilesystemproperties">GetFileSystemProperties</a>
 </td>
 <td align="left" width="63%">
 Returns property details about the file system on the current volume.
@@ -126,7 +126,7 @@ Returns property details about the file system on the current volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1de3bbd7-cd81-42f9-9e25-48a0a07e9ccc">Mount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumemf-mount">Mount</a>
 </td>
 <td align="left" width="63%">
 Mounts a volume.
@@ -135,7 +135,7 @@ Mounts a volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7d541245-c189-4abe-ac72-2928c7aeed95">QueryAccessPaths</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumemf-queryaccesspaths">QueryAccessPaths</a>
 </td>
 <td align="left" width="63%">
 Returns a list of all access paths, including the drive letter, to the current volume.
@@ -144,7 +144,7 @@ Returns a list of all access paths, including the drive letter, to the current v
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ae79355d-2012-42bf-930d-2915c4ca502c">QueryReparsePoints</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumemf-queryreparsepoints">QueryReparsePoints</a>
 </td>
 <td align="left" width="63%">
 Returns all reparse points for the current volume.
@@ -153,7 +153,7 @@ Returns all reparse points for the current volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/836f4a8d-8736-4876-8de3-a6265d7eb66a">SetFileSystemFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumemf-setfilesystemflags">SetFileSystemFlags</a>
 </td>
 <td align="left" width="63%">
 Sets the file-system flags.
@@ -168,11 +168,11 @@ Sets the file-system flags.
 
 
 
-<a href="https://msdn.microsoft.com/0bddfd62-881d-4fda-b303-ed38d434af55">VDS Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/92013015-b0f5-4b92-937b-c2637f65810c">Volume Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/volume-object">Volume Object</a>
  
 
  

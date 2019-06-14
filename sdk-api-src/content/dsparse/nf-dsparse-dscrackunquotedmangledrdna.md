@@ -62,7 +62,7 @@ The <b>DsCrackUnquotedMangledRdn</b> function unmangles (unencodes) a given rela
 ### -param pszRDN [in]
 
 Pointer to a string that contains the relative distinguished name (RDN) to translate. This string length is specified by the <i>cchRDN</i> parameter, so this string is not required to be null-terminated. This string must be in unquoted form. For more information about unquoted relative distinguished names, see 
-<a href="https://msdn.microsoft.com/6e3dd220-ba98-46b5-8522-93cbe2029aa4">DsUnquoteRdnValue</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/dsparse/nf-dsparse-dsunquoterdnvaluea">DsUnquoteRdnValue</a>.
 
 
 ### -param cchRDN [in]
@@ -78,7 +78,7 @@ Pointer to <b>GUID</b> value that receives the GUID of the unmangled relative di
 ### -param peDsMangleFor [out, optional]
 
 Pointer 
-to a <a href="https://msdn.microsoft.com/79a66a54-889e-464e-8199-ad911ea84a86">DS_MANGLE_FOR</a> value that receives the type of mangling used in the mangled relative distinguished name.  This parameter can be <b>NULL</b>.
+to a <a href="https://docs.microsoft.com/windows/desktop/api/dsparse/ne-dsparse-_ds_mangle_for">DS_MANGLE_FOR</a> value that receives the type of mangling used in the mangled relative distinguished name.  This parameter can be <b>NULL</b>.
 
 
 ## -returns
@@ -105,23 +105,23 @@ This function attempts to
 
 
 
-<a href="https://msdn.microsoft.com/79a66a54-889e-464e-8199-ad911ea84a86">DS_MANGLE_FOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsparse/ne-dsparse-_ds_mangle_for">DS_MANGLE_FOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/a92783c2-ffb8-473e-8484-1c05ca5453ff">Domain Controller and Replication Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/e4aaa83c-3bd6-48db-9d34-367b76ba629c">DsIsMangledDn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsparse/nf-dsparse-dsismangleddna">DsIsMangledDn</a>
 
 
 
-<a href="https://msdn.microsoft.com/adf5e133-9e48-4e97-af0c-4f8ea9b8bf8f">DsIsMangledRdnValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsparse/nf-dsparse-dsismangledrdnvaluea">DsIsMangledRdnValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/6e3dd220-ba98-46b5-8522-93cbe2029aa4">DsUnquoteRdnValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsparse/nf-dsparse-dsunquoterdnvaluea">DsUnquoteRdnValue</a>
  
 
  

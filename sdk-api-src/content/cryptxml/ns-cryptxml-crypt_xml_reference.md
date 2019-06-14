@@ -84,12 +84,12 @@ A pointer to a null-terminated Unicode string that contains the value of the <b>
 
 ### -field DigestMethod
 
-A <a href="https://msdn.microsoft.com/4eb99c1e-fa06-41ec-906c-a3ba34e7aaeb">CRYPT_XML_ALGORITHM</a> structure that specifies the digest method.
+A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structure that specifies the digest method.
 
 
 ### -field DigestValue
 
-A <a href="https://msdn.microsoft.com/1c2a07b8-f702-47f3-8d4c-6ac0cbc63f0f">CRYPT_DATA_BLOB</a> structure that specifies the hash value.
+A <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/ns-dpapi-_cryptoapi_blob">CRYPT_DATA_BLOB</a> structure that specifies the hash value.
 
 
 ### -field cTransform
@@ -99,5 +99,5 @@ The number of elements in the array pointed to by the <b>rgTransform</b> member.
 
 ### -field rgTransform
 
-An array of <a href="https://msdn.microsoft.com/4821dc8f-11d4-4083-bb17-9d9637d99af5">CRYPT_XML_TRANSFORM_INFO</a> structures  that contain information about the transform applied to the signed data.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_transform_info">CRYPT_XML_TRANSFORM_INFO</a> structures  that contain information about the transform applied to the signed data.
 

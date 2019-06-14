@@ -59,7 +59,7 @@ Specifies a session that the connection should be reconnected to.
 
 ### -param SessionId [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/fe0714ec-c670-40b7-9808-2171abae79a8">WRDS_SESSION_ID</a> structure that uniquely identifies the session.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_session_id">WRDS_SESSION_ID</a> structure that uniquely identifies the session.
 
 
 ## -returns
@@ -78,7 +78,7 @@ Upon receiving an error, the Remote Desktop Services service continues the conne
 
 
 
-<a href="https://msdn.microsoft.com/2b8a5b2f-5a54-4d60-8b5a-8a914728087c">IWRdsProtocolConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnection">IWRdsProtocolConnection</a>
  
 
  

@@ -60,9 +60,9 @@ Copy the contents of the source rectangle to the destination rectangle. The sour
 
 ### -param pSourceSurface [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a>*</b>
 
-Pointer to the source surface. See <a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>.
+Pointer to the source surface. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a>.
 
 
 ### -param pSourceRect [in]
@@ -74,9 +74,9 @@ Pointer to the source rectangle. A <b>NULL</b> for this parameter causes the ent
 
 ### -param pDestSurface [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a>*</b>
 
-Pointer to the destination surface. See <a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>.
+Pointer to the destination surface. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a>.
 
 
 ### -param pDestRect [in]
@@ -88,16 +88,16 @@ Pointer to the destination rectangle. A <b>NULL</b> for this parameter causes th
 
 ### -param Filter [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172615(v=VS.85).aspx">D3DTEXTUREFILTERTYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dtexturefiltertype">D3DTEXTUREFILTERTYPE</a></b>
 
-Filter type. Allowable values are D3DTEXF_NONE, D3DTEXF_POINT, or D3DTEXF_LINEAR. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb172615(v=VS.85).aspx">D3DTEXTUREFILTERTYPE</a>.
+Filter type. Allowable values are D3DTEXF_NONE, D3DTEXF_POINT, or D3DTEXF_LINEAR. For more information, see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dtexturefiltertype">D3DTEXTUREFILTERTYPE</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be:
      D3DERR_INVALIDCALL.
@@ -114,17 +114,17 @@ StretchRect Restrictions
 <ul>
 <li>Driver support varies. See the section on driver support (below) to see which drivers support which source and destination formats.</li>
 <li>The source and destination surfaces must be created in the default memory pool.</li>
-<li>If filtering is specified, you must set the appropriate filter caps (see StretchRectFilterCaps in <a href="https://msdn.microsoft.com/en-us/library/Bb172513(v=VS.85).aspx">D3DCAPS9</a>).</li>
+<li>If filtering is specified, you must set the appropriate filter caps (see StretchRectFilterCaps in <a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3dcaps9">D3DCAPS9</a>).</li>
 <li>Stretching is not supported between source and destination rectangles on the same surface.</li>
 <li>Stretching is not supported if the destination surface is an off-screen plain surface but the source is not.</li>
-<li>You many not stretch between source and destination rectangles if either surface is in a compressed format (see <a href="https://msdn.microsoft.com/en-us/library/Bb206307(v=VS.85).aspx">Using Compressed Textures (Direct3D 9)</a>).</li>
-<li>Stretching supports color-space conversion from YUV to high-precision RGBA only. Since color conversion support is not supported by software emulation, use <a href="https://msdn.microsoft.com/en-us/library/Bb174310(v=VS.85).aspx">IDirect3D9::CheckDeviceFormatConversion</a> to test the hardware for color conversion support.</li>
-<li>If the source or destination surface is a texture surface (or a cube texture surface), you must use a Direct3D 9 driver that supports D3DDEVCAPS2_CAN_STRETCHRECT_FROM_TEXTURES (see <a href="https://msdn.microsoft.com/en-us/library/Bb172537(v=VS.85).aspx">D3DDEVCAPS2</a>).</li>
+<li>You many not stretch between source and destination rectangles if either surface is in a compressed format (see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/using-compressed-textures">Using Compressed Textures (Direct3D 9)</a>).</li>
+<li>Stretching supports color-space conversion from YUV to high-precision RGBA only. Since color conversion support is not supported by software emulation, use <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-checkdeviceformatconversion">IDirect3D9::CheckDeviceFormatConversion</a> to test the hardware for color conversion support.</li>
+<li>If the source or destination surface is a texture surface (or a cube texture surface), you must use a Direct3D 9 driver that supports D3DDEVCAPS2_CAN_STRETCHRECT_FROM_TEXTURES (see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddevcaps2">D3DDEVCAPS2</a>).</li>
 </ul>
 Additional Restrictions for Depth and Stencil Surfaces
 
 <ul>
-<li>The source and destination surfaces must be plain depth stencil surfaces (not textures) (see <a href="https://msdn.microsoft.com/en-us/library/Bb174356(v=VS.85).aspx">IDirect3DDevice9::CreateDepthStencilSurface</a>).</li>
+<li>The source and destination surfaces must be plain depth stencil surfaces (not textures) (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createdepthstencilsurface">IDirect3DDevice9::CreateDepthStencilSurface</a>).</li>
 <li>Neither of the surfaces can be discardable.</li>
 <li>The entire surface must be copied (that is: sub-rectangle copies are not allowed).</li>
 <li>Format conversion, stretching, and shrinking are not supported.</li>
@@ -143,7 +143,7 @@ Note that use of the extra surface involved in using StretchRect to downsample a
 
 Driver Support
 
-There are many restrictions as to which surface combinations are valid for StretchRect. Factors include whether the driver is a Direct3D 9 driver or older, and whether the operation will result in stretching/shrinking.  Since applications are not expected to recognize if the driver is a Direct3D 9 driver or not, the runtime will automatically set a new cap, D3DDEVCAPS2_CAN_STRETCHRECT_FROM_TEXTURES cap (see <a href="https://msdn.microsoft.com/en-us/library/Bb172537(v=VS.85).aspx">D3DDEVCAPS2</a>), for Direct3D 9-level drivers and above.
+There are many restrictions as to which surface combinations are valid for StretchRect. Factors include whether the driver is a Direct3D 9 driver or older, and whether the operation will result in stretching/shrinking.  Since applications are not expected to recognize if the driver is a Direct3D 9 driver or not, the runtime will automatically set a new cap, D3DDEVCAPS2_CAN_STRETCHRECT_FROM_TEXTURES cap (see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddevcaps2">D3DDEVCAPS2</a>), for Direct3D 9-level drivers and above.
 
 <table>
 <tr>
@@ -393,15 +393,15 @@ There are many restrictions as to which surface combinations are valid for Stret
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174350(v=VS.85).aspx">IDirect3DDevice9::BeginScene</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-beginscene">IDirect3DDevice9::BeginScene</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174375(v=VS.85).aspx">IDirect3DDevice9::EndScene</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-endscene">IDirect3DDevice9::EndScene</a>
  
 
  

@@ -57,7 +57,7 @@ An <b>IInkD2DRenderer</b> object enables the rendering of ink strokes onto the d
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkD2DRenderer</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IInkD2DRenderer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkD2DRenderer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkD2DRenderer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IInkD2DRenderer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/013f3b95-d5da-44e3-b2da-64a49cc8908e">Draw</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inkrenderer/nf-inkrenderer-iinkd2drenderer-draw">Draw</a>
 </td>
 <td align="left" width="63%">
 Renders the ink stroke to the designated  Direct2D device context of the app.
@@ -91,7 +91,7 @@ Renders the ink stroke to the designated  Direct2D device context of the app.
 
 
 
-<a href="https://msdn.microsoft.com/8589130C-AC31-42A1-B248-11AA26EC34D4">Ink renderer interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_ink/ink-renderer-interfaces">Ink renderer interfaces</a>
 
 
 
@@ -99,7 +99,7 @@ Renders the ink stroke to the designated  Direct2D device context of the app.
 
 
 
-<a href="https://msdn.microsoft.com/3DA4F2D2-5405-42A1-9ED9-3A87BCD84C43">Pen and stylus interactions</a>
+<a href="https://docs.microsoft.com/windows/uwp/input-and-devices/pen-and-stylus-interactions">Pen and stylus interactions</a>
 
 
 

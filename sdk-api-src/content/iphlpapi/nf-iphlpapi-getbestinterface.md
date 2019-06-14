@@ -60,7 +60,7 @@ The
 
 ### -param dwDestAddr [in]
 
-The destination IPv4 address for which to retrieve the interface that has the best route, in the form of an <a href="https://msdn.microsoft.com/00d4823d-114d-4cc7-afdf-54c7fed3fe45">IPAddr</a> structure.
+The destination IPv4 address for which to retrieve the interface that has the best route, in the form of an <a href="https://docs.microsoft.com/windows/desktop/api/inaddr/ns-inaddr-in_addr">IPAddr</a> structure.
 
 
 ### -param pdwBestIfIndex [out]
@@ -122,7 +122,7 @@ The request is not supported. This error is returned if no IPv4 stack is on the 
 </td>
 <td width="60%">
 Use 
-the <a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> function to obtain the message string for the returned error.
+the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function to obtain the message string for the returned error.
 
 </td>
 </tr>
@@ -136,12 +136,12 @@ the <a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">Fo
 
 
 
-The <b>GetBestInterface</b> function only works with IPv4 addresses. For use with IPv6 addresses, the <a href="https://msdn.microsoft.com/cfd1108e-d7a0-4fe5-be3f-299189089d37">GetBestInterfaceEx</a> must be used. 
+The <b>GetBestInterface</b> function only works with IPv4 addresses. For use with IPv6 addresses, the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getbestinterfaceex">GetBestInterfaceEx</a> must be used. 
 
 For information about the <b>IPAddr</b> data type, see 
-<a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">Windows Data Types</a>. To convert an IP address between dotted decimal notation and <b>IPAddr</b> format, use the 
-<a href="https://msdn.microsoft.com/7d6df658-9d83-45c7-97e7-b2a016a73847">inet_addr</a> and 
-<a href="https://msdn.microsoft.com/01cd32e7-a01d-40e8-afb5-69223d643a0e">inet_ntoa</a> functions.
+<a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">Windows Data Types</a>. To convert an IP address between dotted decimal notation and <b>IPAddr</b> format, use the 
+<a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_addr">inet_addr</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa">inet_ntoa</a> functions.
 
 On Windows Vista and later, the <i>pdwBestIfIndex</i> parameter is treated internally by IP Helper as a pointer to a <b>NET_IFINDEX</b> datatype. 
 
@@ -153,31 +153,31 @@ On Windows Vista and later, the <i>pdwBestIfIndex</i> parameter is treated inte
 
 
 
-<a href="https://msdn.microsoft.com/cfd1108e-d7a0-4fe5-be3f-299189089d37">GetBestInterfaceEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getbestinterfaceex">GetBestInterfaceEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/5e507d14-f603-467d-9c37-bb048658d0b1">GetBestRoute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getbestroute">GetBestRoute</a>
 
 
 
-<a href="https://msdn.microsoft.com/2de88e92-5fa5-4d8d-9448-67a33bf02f05">IP Helper Function Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/4896a9f8-0486-4380-bf49-d1c9ef114acc">IP Helper Start Page</a>
+<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
 
 
 
-<a href="https://msdn.microsoft.com/00d4823d-114d-4cc7-afdf-54c7fed3fe45">IPAddr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inaddr/ns-inaddr-in_addr">IPAddr</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa366822(v=VS.85).aspx">MIB_BEST_IF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ns-iprtrmib-_mib_best_if">MIB_BEST_IF</a>
 
 
 
-<a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">Windows Data Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">Windows Data Types</a>
  
 
  

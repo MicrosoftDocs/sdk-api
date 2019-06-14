@@ -59,9 +59,9 @@ ms.custom: 19H1
 
 ### -param lineSpacingMethod
 
-Type: <b><a href="https://msdn.microsoft.com/b75e8fee-ed6c-455d-8733-e6972792572c">DWRITE_LINE_SPACING_METHOD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_line_spacing_method">DWRITE_LINE_SPACING_METHOD</a></b>
 
-Specifies how line height is being determined; see <a href="https://msdn.microsoft.com/b75e8fee-ed6c-455d-8733-e6972792572c">DWRITE_LINE_SPACING_METHOD</a> for more information.
+Specifies how line height is being determined; see <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_line_spacing_method">DWRITE_LINE_SPACING_METHOD</a> for more information.
 
 
 ### -param lineSpacing
@@ -104,7 +104,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/64b2cac3-c4cb-4213-b808-7b279d296939">IDWriteTextFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a>
  
 
  

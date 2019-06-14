@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines the types of process security identifier (SID) that can be used by tasks. These changes are used to specify the type of process SID in the <a href="https://msdn.microsoft.com/480f8038-0f67-4a69-b6f6-d7ba881d9d57">IPrincipal2</a> interface.
+Defines the types of process security identifier (SID) that can be used by tasks. These changes are used to specify the type of process SID in the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iprincipal2">IPrincipal2</a> interface.
 
 
 ## -enum-fields
@@ -77,11 +77,11 @@ A Task Scheduler will apply default settings to the task process.
 
 
 
-<a href="https://msdn.microsoft.com/480f8038-0f67-4a69-b6f6-d7ba881d9d57">IPrincipal2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iprincipal2">IPrincipal2</a>
 
 
 
-<a href="https://msdn.microsoft.com/9779d32b-0142-41bb-88e2-df79a3b0c1b2">Task Scheduler Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-enumerated-types">Task Scheduler Enumerated Types</a>
  
 
  

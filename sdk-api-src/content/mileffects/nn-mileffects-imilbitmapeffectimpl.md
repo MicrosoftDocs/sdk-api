@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Exposes methods that define an an out <a href="https://msdn.microsoft.com/en-us/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a> object.
+Exposes methods that define an an out <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffect">IMILBitmapEffect</a> object.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMILBitmapEffectImpl</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMILBitmapEffectImpl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMILBitmapEffectImpl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMILBitmapEffectImpl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMILBitmapEffectImpl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735275(v=VS.85).aspx">GetInputBitmapSource</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectimpl-getinputbitmapsource">GetInputBitmapSource</a>
 </td>
 <td align="left" width="63%">
 Gets the input bitmap source of the effect of the given render context.
@@ -78,16 +78,16 @@ Gets the input bitmap source of the effect of the given render context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735276(v=VS.85).aspx">GetInputSource</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectimpl-getinputsource">GetInputSource</a>
 </td>
 <td align="left" width="63%">
-Retrieves the input <a href="https://msdn.microsoft.com/en-us/library/Ee690171(v=VS.85).aspx">IWICBitmapSource Interface</a>.
+Retrieves the input <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource Interface</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735277(v=VS.85).aspx">GetInputSourceBounds</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectimpl-getinputsourcebounds">GetInputSourceBounds</a>
 </td>
 <td align="left" width="63%">
 Gets the bounds of the input source.
@@ -96,7 +96,7 @@ Gets the bounds of the input source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735278(v=VS.85).aspx">GetOutputBitmapSource</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectimpl-getoutputbitmapsource">GetOutputBitmapSource</a>
 </td>
 <td align="left" width="63%">
 Gets the output bitmap source of the effect of the given render context.
@@ -105,7 +105,7 @@ Gets the output bitmap source of the effect of the given render context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735280(v=VS.85).aspx">Initialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectimpl-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the effect with the given object.
@@ -114,7 +114,7 @@ Initializes the effect with the given object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735282(v=VS.85).aspx">IsInPlaceModificationAllowed</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectimpl-isinplacemodificationallowed">IsInPlaceModificationAllowed</a>
 </td>
 <td align="left" width="63%">
 Determines whether the effect allows in-place modifications.
@@ -123,7 +123,7 @@ Determines whether the effect allows in-place modifications.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735283(v=VS.85).aspx">SetParentEffect</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectimpl-setparenteffect">SetParentEffect</a>
 </td>
 <td align="left" width="63%">
 Sets the parent of the effect.
@@ -137,7 +137,7 @@ Sets the parent of the effect.
 
 
 
-This interface must be implemented if a custom effect also exposes <a href="https://msdn.microsoft.com/en-us/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a>.
+This interface must be implemented if a custom effect also exposes <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffect">IMILBitmapEffect</a>.
 
 
 

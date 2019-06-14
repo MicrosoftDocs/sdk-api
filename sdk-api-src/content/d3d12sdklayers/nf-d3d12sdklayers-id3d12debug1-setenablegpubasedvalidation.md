@@ -79,7 +79,7 @@ This method does not return a value.
 
 GPU-Based Validation can only be enabled/disabled prior to creating a device.  By default, GPU-Based Validation is disabled.  To disable GPU-Based Validation after initially enabling it the device must be fully released and recreated.  
 
-For more information, see <a href="https://msdn.microsoft.com/01D1F94F-4DD4-4781-86EF-6C639E8B1069">Using D3D12 Debug Layer GPU-Based Validation</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/direct3d12/using-d3d12-debug-layer-gpu-based-validation">Using D3D12 Debug Layer GPU-Based Validation</a>.
 
 
 
@@ -89,7 +89,7 @@ For more information, see <a href="https://msdn.microsoft.com/01D1F94F-4DD4-4781
 
 
 
-<a href="https://msdn.microsoft.com/3D69D0CA-5D45-49EA-BCF0-5B0ABB916261">ID3D12Debug1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debug1">ID3D12Debug1</a>
  
 
  

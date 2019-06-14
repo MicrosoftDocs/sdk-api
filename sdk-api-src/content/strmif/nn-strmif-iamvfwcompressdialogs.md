@@ -51,14 +51,14 @@ ms.custom: 19H1
 
 
 
-The <code>IAMVfwCompressDialogs</code> interface displays a dialog box provided by a Video for Windows (VFW) codec. The <a href="https://msdn.microsoft.com/addde51d-2982-4964-b16a-406fea89a0ce">AVI Compressor</a> filter implements this interface. Applications can use it to display one of the dialog boxes (Configure or About) provided by VFW codecs, and to set and retrieve compressor status.
+The <code>IAMVfwCompressDialogs</code> interface displays a dialog box provided by a Video for Windows (VFW) codec. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avi-compressor-filter">AVI Compressor</a> filter implements this interface. Applications can use it to display one of the dialog boxes (Configure or About) provided by VFW codecs, and to set and retrieve compressor status.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMVfwCompressDialogs</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAMVfwCompressDialogs</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMVfwCompressDialogs</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMVfwCompressDialogs</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IAMVfwCompressDialogs</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a010fd8a-ad4a-4b52-abfe-a2db8cd15b65">GetState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamvfwcompressdialogs-getstate">GetState</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current configuration settings for the VCM codec currently being used.
@@ -82,7 +82,7 @@ Retrieves the current configuration settings for the VCM codec currently being u
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b1558888-a8aa-416a-bb5b-a33a66dcb913">SendDriverMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamvfwcompressdialogs-senddrivermessage">SendDriverMessage</a>
 </td>
 <td align="left" width="63%">
 Sends a driver-specific message.
@@ -91,7 +91,7 @@ Sends a driver-specific message.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9b27bbaa-4e2f-4567-a6fc-62fb3f5f31a8">SetState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamvfwcompressdialogs-setstate">SetState</a>
 </td>
 <td align="left" width="63%">
 Sets configuration for the VCM codec.
@@ -100,7 +100,7 @@ Sets configuration for the VCM codec.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4826bd47-0091-4a74-b88d-72a5b0f1c5ac">ShowDialog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamvfwcompressdialogs-showdialog">ShowDialog</a>
 </td>
 <td align="left" width="63%">
 Displays the specified dialog box.

@@ -59,14 +59,14 @@ Reserved for Microsoft use.
 
 ### -param status [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Mt709259(v=VS.85).aspx">XBL_IDP_AUTH_TOKEN_STATUS</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xblidpauthmanager/ne-xblidpauthmanager-_xbl_idp_auth_token_status">XBL_IDP_AUTH_TOKEN_STATUS</a>*</b>
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -78,7 +78,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/F3E2F3FD-0258-4AB9-B86E-5B12AD8ECA52">IXblIdpAuthTokenResult</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xblidpauthmanager/nn-xblidpauthmanager-ixblidpauthtokenresult">IXblIdpAuthTokenResult</a>
  
 
  

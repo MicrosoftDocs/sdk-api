@@ -66,7 +66,7 @@ The display supports tearing, a requirement of variable refresh rate displays.
 
 
 
-This enum is used by the <a href="https://msdn.microsoft.com/959F83F8-ADC6-4609-8F63-BEDDFC2EF088">CheckFeatureSupport</a> method.
+This enum is used by the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/nf-dxgi1_5-idxgifactory5-checkfeaturesupport">CheckFeatureSupport</a> method.
 
 
 
@@ -76,7 +76,7 @@ This enum is used by the <a href="https://msdn.microsoft.com/959F83F8-ADC6-4609-
 
 
 
-<a href="https://msdn.microsoft.com/c4574c89-dee2-4841-9318-5383cf417111">DXGI Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-enums">DXGI Enumerations</a>
  
 
  

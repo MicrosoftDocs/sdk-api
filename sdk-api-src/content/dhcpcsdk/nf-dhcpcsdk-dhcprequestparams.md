@@ -198,11 +198,11 @@ Clients can also specify that DHCP data be retrieved from the DHCP server each t
 <div class="alert"><b>Note</b>  The callers of this API must not make blocking calls to this API, since it can take up to a maximum of 2 minutes to return a code or status. UI behaviors in particular should not block on the return of this call, since it can introduce a significant delay in UI response time.</div>
 <div> </div>
 For more information about DHCP INFORM messages, and other standards-based information about DHCP, consult 
-<a href="https://msdn.microsoft.com/d8eb3dde-1a69-4b10-9367-769978b25e45">DHCP Standards</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/about-dynamic-host-configuration-protocol">DHCP Standards</a>.
 
 To see the 
 <b>DhcpRequestParams</b> function in use, see 
-<a href="https://msdn.microsoft.com/85b1ca3a-b004-4cea-b01e-73adda466f13">DHCP Examples</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-client-api-examples">DHCP Examples</a>.
 
 
 
@@ -212,19 +212,19 @@ To see the
 
 
 
-<a href="https://msdn.microsoft.com/ca859a72-51d3-4bd5-96b9-7a9a2df95595">DHCP Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-functions">DHCP Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/84eafc6b-e9ee-4c73-b872-b2abc7e257df">DHCPCAPI_PARAMS_ARRAY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpcsdk/ns-dhcpcsdk-_dhcpcapi_params_araray">DHCPCAPI_PARAMS_ARRAY</a>
 
 
 
-<a href="https://msdn.microsoft.com/b4bc8b02-63b4-4751-a963-25336e8ae426">DhcpCApiInitialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpcsdk/nf-dhcpcsdk-dhcpcapiinitialize">DhcpCApiInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/a70fc72e-0fbd-4ee7-ae87-780fdc942384">DhcpUndoRequestParams</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpcsdk/nf-dhcpcsdk-dhcpundorequestparams">DhcpUndoRequestParams</a>
  
 
  

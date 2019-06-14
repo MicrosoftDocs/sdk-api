@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CryptEnumOIDInfo</b> function enumerates predefined and registered <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) 
-<a href="https://msdn.microsoft.com/06ba0f60-778d-450b-8f71-23471b8c4e2c">CRYPT_OID_INFO</a> structures. This function enumerates either all of the predefined and registered structures or only structures identified by a selected OID group. For each OID information structure enumerated, an application provided callback function, <i>pfnEnumOIDInfo</i>, is called.
+The <b>CryptEnumOIDInfo</b> function enumerates predefined and registered <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_oid_info">CRYPT_OID_INFO</a> structures. This function enumerates either all of the predefined and registered structures or only structures identified by a selected OID group. For each OID information structure enumerated, an application provided callback function, <i>pfnEnumOIDInfo</i>, is called.
 		
 
 
@@ -98,7 +98,7 @@ A pointer to arguments to be passed through to the callback function.
 
 ### -param pfnEnumOIDInfo [in]
 
-A pointer to the callback function that is executed for each OID information entry enumerated. For information about the callback parameters, see <a href="https://msdn.microsoft.com/30ae4274-631d-4c6a-96c5-18f096607cad">CRYPT_ENUM_OID_INFO</a>.
+A pointer to the callback function that is executed for each OID information entry enumerated. For information about the callback parameters, see <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_enum_oid_info">CRYPT_ENUM_OID_INFO</a>.
 
 
 ## -returns
@@ -117,7 +117,7 @@ If the callback function has stopped the enumeration, this function returns <b>F
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a>
  
 
  

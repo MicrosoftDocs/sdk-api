@@ -126,19 +126,19 @@ If the rectangle does not intersect a display monitor, the return value depends 
 
 
 
-<a href="https://msdn.microsoft.com/c46281bf-7e45-4628-be92-736850225a9e">MonitorFromPoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-monitorfrompoint">MonitorFromPoint</a>
 
 
 
-<a href="https://msdn.microsoft.com/fe6505c9-b481-4fec-ae9d-995943234a3a">MonitorFromWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-monitorfromwindow">MonitorFromWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/a64b256c-e7a1-4ee2-a346-4b7abcab9e90">Multiple Display Monitors Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/multiple-display-monitors-functions">Multiple Display Monitors Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/901c8fbe-a29c-4382-80d4-5e3667a031da">Multiple Display Monitors Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/multiple-display-monitors">Multiple Display Monitors Overview</a>
  
 
  

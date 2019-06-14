@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ### -param pvarValue [out]
 
-Pointer to a <b>VARIANT</b> structure that receives the data. This receives VT_EMPTY if the compartment has no value. The caller must free this data when it is no longer required by calling <a href="https://msdn.microsoft.com/en-us/library/ms221165(v=VS.85).aspx">VariantClear</a>.
+Pointer to a <b>VARIANT</b> structure that receives the data. This receives VT_EMPTY if the compartment has no value. The caller must free this data when it is no longer required by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>.
 
 
 ## -returns
@@ -101,7 +101,7 @@ The compartment has no value. <i>pvarValue</i> receives VT_EMPTY.
 </dl>
 </td>
 <td width="60%">
-The compartment has been cleared by a call to <a href="https://msdn.microsoft.com/862ec077-b192-412a-b80c-6105f503ed21">ITfCompartmentMgr::ClearCompartment</a>.
+The compartment has been cleared by a call to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcompartmentmgr-clearcompartment">ITfCompartmentMgr::ClearCompartment</a>.
 
 </td>
 </tr>
@@ -136,16 +136,16 @@ The caller must recognize the supplied data format in order to use the data. The
 
 
 
-<a href="https://msdn.microsoft.com/c9ca3eb5-1fb1-4e45-9ec4-a0296f1bc8c3">ITfCompartment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompartment">ITfCompartment</a>
 
 
 
-<a href="https://msdn.microsoft.com/862ec077-b192-412a-b80c-6105f503ed21">ITfCompartmentMgr::ClearCompartment
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcompartmentmgr-clearcompartment">ITfCompartmentMgr::ClearCompartment
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221165(v=VS.85).aspx">VariantClear</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>
  
 
  

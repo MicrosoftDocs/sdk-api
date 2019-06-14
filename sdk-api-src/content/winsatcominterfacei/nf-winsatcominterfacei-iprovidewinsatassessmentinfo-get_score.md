@@ -68,12 +68,12 @@ The score represents the subcomponent's metrics as normalized by WinSAT.    The 
 
 A user can use the score to determine if a subcomponent of the computer can support a specific type of application.  For example, a user that spends more time reading or writing documents may require a higher score for the disk than a user who runs scientific applications, and a user who runs scientific applications would probably want a higher CPU subcomponent score and may not be concerned with a lower disk score.
 
-To get the base score for the computer, call the <a href="https://msdn.microsoft.com/4fe20830-bf86-4551-ba73-534740cabab5">IProvideWinSATResultsInfo::get_SystemRating</a> method. 
+To get the base score for the computer, call the <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-get_systemrating">IProvideWinSATResultsInfo::get_SystemRating</a> method. 
 
 
 #### Examples
 
-For an example, see the <a href="https://msdn.microsoft.com/dfa4d740-2dfd-41b5-a0be-a241f9ece939">IProvideWinSATResultsInfo::GetAssessmentInfo</a> method.
+For an example, see the <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-getassessmentinfo">IProvideWinSATResultsInfo::GetAssessmentInfo</a> method.
 
 <div class="code"></div>
 
@@ -84,11 +84,11 @@ For an example, see the <a href="https://msdn.microsoft.com/dfa4d740-2dfd-41b5-a
 
 
 
-<a href="https://msdn.microsoft.com/90036c75-6e9e-4d25-804b-02c423616de1">IProvideWinSATAssessmentInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iprovidewinsatassessmentinfo">IProvideWinSATAssessmentInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/adf4de42-9dfd-46a7-ae75-3bbcfd15dd68">Win32_WinSAT</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSAT/win32-winsat">Win32_WinSAT</a>
  
 
  

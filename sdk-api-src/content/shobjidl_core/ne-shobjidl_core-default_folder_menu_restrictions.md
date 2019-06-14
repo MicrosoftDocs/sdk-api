@@ -112,11 +112,11 @@ Default. 0x0000. No restrictions.
 
 
 
-<a href="https://msdn.microsoft.com/373240B8-E99E-4ff9-B47A-3B31B4F0B81E">IDefaultFolderMenuInitialize::GetMenuRestrictions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idefaultfoldermenuinitialize-getmenurestrictions">IDefaultFolderMenuInitialize::GetMenuRestrictions</a>
 
 
 
-<a href="https://msdn.microsoft.com/7D907B01-E0C4-428b-A8A4-FA383B0970BF">IDefaultFolderMenuInitialize::SetMenuRestrictions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idefaultfoldermenuinitialize-setmenurestrictions">IDefaultFolderMenuInitialize::SetMenuRestrictions</a>
  
 
  

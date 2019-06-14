@@ -64,7 +64,7 @@ Do not decorate the name.
 
 ### -field plaPattern
 
-Add a pattern to the name. The pattern is specified in  the <a href="https://msdn.microsoft.com/94e6bb13-fb99-4968-8a7f-fbda1f6ea42e">IDataCollector::FileNameFormatPattern</a> or <a href="https://msdn.microsoft.com/83b7df10-8b00-4d64-bf71-2c68e037ab3f">IDataCollectorSet::SubdirectoryFormatPattern</a> property.
+Add a pattern to the name. The pattern is specified in  the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filenameformatpattern">IDataCollector::FileNameFormatPattern</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_subdirectoryformatpattern">IDataCollectorSet::SubdirectoryFormatPattern</a> property.
 
 
 ### -field plaComputer
@@ -79,7 +79,7 @@ Append the month, day, and hour to the name, in the form MMddHH.
 
 ### -field plaSerialNumber
 
-Append the serial number specified in the <a href="https://msdn.microsoft.com/92bfd307-362e-4d60-9a61-d2096fbb3d19">IDataCollectorSet::SerialNumber</a> property to the subdirectory name in the form NNNNNN. 
+Append the serial number specified in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_serialnumber">IDataCollectorSet::SerialNumber</a> property to the subdirectory name in the form NNNNNN. 
 
 
 ### -field plaYearDayOfYear
@@ -113,7 +113,7 @@ Append the month, day, hour, and minute to the name, in the form MMddHHmm.
 
 Patterns apply to files and subdirectories in the same way.
 
-For details on patterns, see the Remarks section of <a href="https://msdn.microsoft.com/94e6bb13-fb99-4968-8a7f-fbda1f6ea42e">FileNameFormatPattern</a>.
+For details on patterns, see the Remarks section of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filenameformatpattern">FileNameFormatPattern</a>.
 
 
 
@@ -123,11 +123,11 @@ For details on patterns, see the Remarks section of <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/3a7744a6-feb3-4aea-856d-8496aecc0176">IDataCollector::FileNameFormat</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filenameformat">IDataCollector::FileNameFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/f9e6eb88-ac38-4b99-ab64-a408f75f7969">IDataCollectorSet::SubdirectoryFormat</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_subdirectoryformat">IDataCollectorSet::SubdirectoryFormat</a>
  
 
  

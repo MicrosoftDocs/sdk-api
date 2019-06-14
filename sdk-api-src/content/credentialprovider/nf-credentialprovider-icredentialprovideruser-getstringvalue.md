@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves string properties from the <a href="https://msdn.microsoft.com/8EE5FA54-E20E-4d24-AD73-2AE1F0090950">ICredentialProviderUser</a> object based on the input value.
+Retrieves string properties from the <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovideruser">ICredentialProviderUser</a> object based on the input value.
 
 
 ## -parameters
@@ -71,42 +71,42 @@ One of the following values that specify the property to retrieve.
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/17bf848f-6d45-4588-aaa7-50fe99579440">PKEY_Identity_DisplayName</a>
+<a href="https://docs.microsoft.com/windows/desktop/properties/props-system-identity-displayname">PKEY_Identity_DisplayName</a>
 </td>
 <td>The friendly user name.</td>
 <td>Logon UI and Credential UI</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/8B12E452-790D-4924-98E7-9368CC525674">PKEY_Identity_LogonStatusString</a>
+<a href="https://docs.microsoft.com/windows/desktop/properties/props-system-identity-logonstatusstring">PKEY_Identity_LogonStatusString</a>
 </td>
 <td>A localized string that indicates the user's logged on status.</td>
 <td>Logon UI only</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/F4808C32-2C07-4B88-B672-300AA3BFD162">PKEY_Identity_PrimarySid</a>
+<a href="https://docs.microsoft.com/windows/desktop/properties/props-system-identity-primarysid">PKEY_Identity_PrimarySid</a>
 </td>
 <td>The user's SID.</td>
 <td>Logon UI and Credential UI</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/837ba603-76dc-442d-ba4a-0f87ac116dfd">PKEY_Identity_ProviderID</a>
+<a href="https://docs.microsoft.com/windows/desktop/properties/props-system-identity-providerid">PKEY_Identity_ProviderID</a>
 </td>
 <td>The user's provider ID.</td>
 <td>Logon UI and Credential UI</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/08AC11E1-1C0B-4D8A-94B0-F1EDA1B02F43">PKEY_Identity_QualifiedUserName</a>
+<a href="https://docs.microsoft.com/windows/desktop/properties/props-system-identity-qualifiedusername">PKEY_Identity_QualifiedUserName</a>
 </td>
 <td>The name used to pack an authentication buffer.</td>
 <td>Logon UI and Credential UI</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/da13b18d-0450-49fd-8c10-08413d55587e">PKEY_Identity_UserName</a>
+<a href="https://docs.microsoft.com/windows/desktop/properties/props-system-identity-username">PKEY_Identity_UserName</a>
 </td>
 <td>The user name.</td>
 <td>Logon UI and Credential UI</td>
@@ -133,7 +133,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Each of these values can also be retrieved as a <b>PROPVARIANT</b> through <a href="https://msdn.microsoft.com/CA8CD897-127E-4113-A5A5-08110E0E6C17">ICredentialProviderUser::GetValue</a>.
+Each of these values can also be retrieved as a <b>PROPVARIANT</b> through <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovideruser-getvalue">ICredentialProviderUser::GetValue</a>.
 
 Consider a scenario with the following users.
 
@@ -167,7 +167,7 @@ In this scenario, the following table provides some sample data for each of the 
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/17bf848f-6d45-4588-aaa7-50fe99579440">PKEY_Identity_DisplayName</a>
+<a href="https://docs.microsoft.com/windows/desktop/properties/props-system-identity-displayname">PKEY_Identity_DisplayName</a>
 </td>
 <td>"Lisa Andrews"</td>
 <td>"Lisa Andrews"</td>
@@ -175,7 +175,7 @@ In this scenario, the following table provides some sample data for each of the 
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/8B12E452-790D-4924-98E7-9368CC525674">PKEY_Identity_LogonStatusString</a>
+<a href="https://docs.microsoft.com/windows/desktop/properties/props-system-identity-logonstatusstring">PKEY_Identity_LogonStatusString</a>
 </td>
 <td>"Signed-in"</td>
 <td>"Locked"</td>
@@ -183,7 +183,7 @@ In this scenario, the following table provides some sample data for each of the 
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/F4808C32-2C07-4B88-B672-300AA3BFD162">PKEY_Identity_PrimarySid</a>
+<a href="https://docs.microsoft.com/windows/desktop/properties/props-system-identity-primarysid">PKEY_Identity_PrimarySid</a>
 </td>
 <td>"{S-1-5-21-2279990834-2601404236-735077814-1001}"</td>
 <td>"{S-1-5-21-2279990834-2601404236-735077814-1001}"</td>
@@ -191,7 +191,7 @@ In this scenario, the following table provides some sample data for each of the 
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/837ba603-76dc-442d-ba4a-0f87ac116dfd">PKEY_Identity_ProviderID</a>
+<a href="https://docs.microsoft.com/windows/desktop/properties/props-system-identity-providerid">PKEY_Identity_ProviderID</a>
 </td>
 <td>"{A198529B-730F-4089-B646-A12557F5665E}"</td>
 <td>"{A198529B-730F-4089-B646-A12557F5665E}"</td>
@@ -199,7 +199,7 @@ In this scenario, the following table provides some sample data for each of the 
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/08AC11E1-1C0B-4D8A-94B0-F1EDA1B02F43">PKEY_Identity_QualifiedUserName</a>
+<a href="https://docs.microsoft.com/windows/desktop/properties/props-system-identity-qualifiedusername">PKEY_Identity_QualifiedUserName</a>
 </td>
 <td>"contoso\lisa"</td>
 <td>"lisa-pc\lisa"</td>
@@ -207,7 +207,7 @@ In this scenario, the following table provides some sample data for each of the 
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/da13b18d-0450-49fd-8c10-08413d55587e">PKEY_Identity_UserName</a>
+<a href="https://docs.microsoft.com/windows/desktop/properties/props-system-identity-username">PKEY_Identity_UserName</a>
 </td>
 <td>"contoso\lisa"</td>
 <td>"lisa"</td>
@@ -224,11 +224,11 @@ In this scenario, the following table provides some sample data for each of the 
 
 
 
-<a href="https://msdn.microsoft.com/8EE5FA54-E20E-4d24-AD73-2AE1F0090950">ICredentialProviderUser</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovideruser">ICredentialProviderUser</a>
 
 
 
-<a href="https://msdn.microsoft.com/CA8CD897-127E-4113-A5A5-08110E0E6C17">ICredentialProviderUser::GetValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovideruser-getvalue">ICredentialProviderUser::GetValue</a>
  
 
  

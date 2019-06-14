@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains strings returned from the <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a> interface methods.
+Contains strings returned from the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> interface methods.
 
 
 ## -struct-fields
@@ -91,7 +91,7 @@ The string is at the address specified by <b>pOleStr</b> member.
 
 Type: <b>LPWSTR</b>
 
-A pointer to the string. This memory must be allocated with <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>. It is the calling application's responsibility to free this memory with <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> when it is no longer needed.
+A pointer to the string. This memory must be allocated with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>. It is the calling application's responsibility to free this memory with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> when it is no longer needed.
 
 
 ### -field DUMMYUNIONNAME.uOffset
@@ -113,7 +113,7 @@ The buffer to receive the display name.
 
 
 
-<a href="https://msdn.microsoft.com/2164bbe6-e030-4a64-85db-9ee1cd3c136d">IShellFolder::GetDisplayNameOf</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof">IShellFolder::GetDisplayNameOf</a>
  
 
  

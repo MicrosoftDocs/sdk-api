@@ -81,7 +81,7 @@ Returns S_OK if successful; otherwise, returns one of the following values:
 
 <ul>
 <li>E_NOINTERFACE if the object does not implement the GUID that the <i>riid</i> parameter specifies.</li>
-<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.</li>
+<li>Possibly other error codes that are described in the <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a> topic.</li>
 </ul>
 
 
@@ -90,9 +90,9 @@ Returns S_OK if successful; otherwise, returns one of the following values:
 
 
 
-For subresource surface objects that the <a href="https://msdn.microsoft.com/99730AB1-C5D9-41D6-8001-495FF26E8232">IDXGIResource1::CreateSubresourceSurface</a> method creates, <b>GetResource</b> simply returns the values that were used to create the subresource surface.
+For subresource surface objects that the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiresource1-createsubresourcesurface">IDXGIResource1::CreateSubresourceSurface</a> method creates, <b>GetResource</b> simply returns the values that were used to create the subresource surface.
 
-Current objects that implement <a href="https://msdn.microsoft.com/en-us/library/Bb174565(v=VS.85).aspx">IDXGISurface</a> are either resources or views.  <b>GetResource</b> for these objects returns “this” or the resource that supports the view respectively.  In this situation, the subresource index is 0.
+Current objects that implement <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgisurface">IDXGISurface</a> are either resources or views.  <b>GetResource</b> for these objects returns “this” or the resource that supports the view respectively.  In this situation, the subresource index is 0.
 
 
 
@@ -102,7 +102,7 @@ Current objects that implement <a href="https://msdn.microsoft.com/en-us/library
 
 
 
-<a href="https://msdn.microsoft.com/EBBB2EE1-C5EA-4F98-AA8B-BCAA8C188F26">IDXGISurface2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgisurface2">IDXGISurface2</a>
  
 
  

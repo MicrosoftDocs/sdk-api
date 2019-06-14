@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Determines whether the data object pointer previously placed on the clipboard by the <a href="https://msdn.microsoft.com/741def10-d2b5-4395-8049-1eba2e29b0e8">OleSetClipboard</a> function is still on the clipboard.
+Determines whether the data object pointer previously placed on the clipboard by the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olesetclipboard">OleSetClipboard</a> function is still on the clipboard.
 
 
 
@@ -65,7 +65,7 @@ Determines whether the data object pointer previously placed on the clipboard by
 
 ### -param pDataObj [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> interface on the data object containing clipboard data of interest, which the caller previously placed on the clipboard.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the data object containing clipboard data of interest, which the caller previously placed on the clipboard.
 
 
 ## -returns
@@ -101,7 +101,7 @@ The specified pointer is not on the clipboard.
 
 
 
-<b>OleIsCurrentClipboard</b> only works for the data object used in the <a href="https://msdn.microsoft.com/741def10-d2b5-4395-8049-1eba2e29b0e8">OleSetClipboard</a> function. It cannot be called by the consumer of the data object to determine if the object that was on the clipboard at the previous <a href="https://msdn.microsoft.com/c5e7badb-339b-48d5-8c9a-3950e2ffe6bf">OleGetClipboard</a> call is still on the clipboard.
+<b>OleIsCurrentClipboard</b> only works for the data object used in the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olesetclipboard">OleSetClipboard</a> function. It cannot be called by the consumer of the data object to determine if the object that was on the clipboard at the previous <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olegetclipboard">OleGetClipboard</a> call is still on the clipboard.
 
 
 
@@ -111,11 +111,11 @@ The specified pointer is not on the clipboard.
 
 
 
-<a href="https://msdn.microsoft.com/18291a91-be7d-42ec-a44a-d1bbfb017c6e">OleFlushClipboard</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleflushclipboard">OleFlushClipboard</a>
 
 
 
-<a href="https://msdn.microsoft.com/741def10-d2b5-4395-8049-1eba2e29b0e8">OleSetClipboard</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olesetclipboard">OleSetClipboard</a>
  
 
  

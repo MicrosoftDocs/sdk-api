@@ -76,7 +76,7 @@ Note that FSRM supports only NTFS file systems—you cannot specify paths on ReF
 
 
 
-<a href="https://msdn.microsoft.com/e1de871f-a2c9-4787-a3e8-8c3428e9249e">IFsrmRule</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmrule">IFsrmRule</a>
  
 
  

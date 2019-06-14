@@ -86,7 +86,7 @@ The null-terminated Unicode string that contains the name of the class of which 
 
 
 
-To obtain the object data, non-Automation clients call the  <a href="https://msdn.microsoft.com/5a2d7fee-666e-4b3b-b6fa-b9f6d785c2c1">IDirectoryObject::GetObjectInformation</a> method, which takes an out parameter, a pointer to an <b>ADS_OBJECT_INFO</b> structure allocated in the heap. Automation clients can accomplish the same task by calling  <a href="https://msdn.microsoft.com/73ceaeb1-9a6b-449a-9851-3756736dbad7">IADs::GetInfo</a>.
+To obtain the object data, non-Automation clients call the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectoryobject-getobjectinformation">IDirectoryObject::GetObjectInformation</a> method, which takes an out parameter, a pointer to an <b>ADS_OBJECT_INFO</b> structure allocated in the heap. Automation clients can accomplish the same task by calling  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfo">IADs::GetInfo</a>.
 
 
 
@@ -96,15 +96,15 @@ To obtain the object data, non-Automation clients call the  <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/3ee0e469-9932-4135-8798-27d318011786">ADSI Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/73ceaeb1-9a6b-449a-9851-3756736dbad7">IADs::GetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfo">IADs::GetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a2d7fee-666e-4b3b-b6fa-b9f6d785c2c1">IDirectoryObject::GetObjectInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectoryobject-getobjectinformation">IDirectoryObject::GetObjectInformation</a>
  
 
  

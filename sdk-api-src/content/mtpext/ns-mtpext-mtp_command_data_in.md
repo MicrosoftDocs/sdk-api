@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MTP_COMMAND_DATA_IN</b> structure contains Media Transport Protocol (MTP) custom commands that are sent to the device by using the <a href="https://msdn.microsoft.com/3ef6a95d-d4e2-4608-9a02-98b497e1fdbb">IWMDMDevice3::DeviceIoControl</a> method.
+The <b>MTP_COMMAND_DATA_IN</b> structure contains Media Transport Protocol (MTP) custom commands that are sent to the device by using the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-deviceiocontrol">IWMDMDevice3::DeviceIoControl</a> method.
 
 
 
@@ -121,7 +121,7 @@ It is assumed that all commands are self-contained, that is, they can be process
 
 
 
-<a href="https://msdn.microsoft.com/3ef6a95d-d4e2-4608-9a02-98b497e1fdbb">IWMDMDevice3::DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-deviceiocontrol">IWMDMDevice3::DeviceIoControl</a>
 
 
 
@@ -129,7 +129,7 @@ It is assumed that all commands are self-contained, that is, they can be process
 
 
 
-<a href="https://msdn.microsoft.com/3068359f-5ac0-41e0-a09b-283b439527a0">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/structures">Structures</a>
  
 
  

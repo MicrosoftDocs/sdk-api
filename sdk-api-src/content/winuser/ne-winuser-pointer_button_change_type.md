@@ -64,52 +64,52 @@ No change in button state.
 
 ### -field POINTER_CHANGE_FIRSTBUTTON_DOWN
 
-The first button (see <a href="https://msdn.microsoft.com/CC3F8E21-F4FF-495C-922E-A3708D3F2093">POINTER_FLAG_FIRSTBUTTON</a>) transitioned to a pressed state.
+The first button (see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">POINTER_FLAG_FIRSTBUTTON</a>) transitioned to a pressed state.
 
 
 ### -field POINTER_CHANGE_FIRSTBUTTON_UP
 
-The first button (see <a href="https://msdn.microsoft.com/CC3F8E21-F4FF-495C-922E-A3708D3F2093">POINTER_FLAG_FIRSTBUTTON</a>) transitioned to a released state.
+The first button (see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">POINTER_FLAG_FIRSTBUTTON</a>) transitioned to a released state.
 
 
 ### -field POINTER_CHANGE_SECONDBUTTON_DOWN
 
-The second button (see <a href="https://msdn.microsoft.com/CC3F8E21-F4FF-495C-922E-A3708D3F2093">POINTER_FLAG_SECONDBUTTON</a>) transitioned to a pressed state.
+The second button (see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">POINTER_FLAG_SECONDBUTTON</a>) transitioned to a pressed state.
 
 
 ### -field POINTER_CHANGE_SECONDBUTTON_UP
 
-The second button (see <a href="https://msdn.microsoft.com/CC3F8E21-F4FF-495C-922E-A3708D3F2093">POINTER_FLAG_SECONDBUTTON</a>) transitioned to a released state.
+The second button (see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">POINTER_FLAG_SECONDBUTTON</a>) transitioned to a released state.
 
 
 ### -field POINTER_CHANGE_THIRDBUTTON_DOWN
 
-The third button (see <a href="https://msdn.microsoft.com/CC3F8E21-F4FF-495C-922E-A3708D3F2093">POINTER_FLAG_THIRDBUTTON</a>) transitioned to a pressed state.
+The third button (see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">POINTER_FLAG_THIRDBUTTON</a>) transitioned to a pressed state.
 
 
 ### -field POINTER_CHANGE_THIRDBUTTON_UP
 
-The third button (see <a href="https://msdn.microsoft.com/CC3F8E21-F4FF-495C-922E-A3708D3F2093">POINTER_FLAG_THIRDBUTTON</a>) transitioned to a released state.
+The third button (see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">POINTER_FLAG_THIRDBUTTON</a>) transitioned to a released state.
 
 
 ### -field POINTER_CHANGE_FOURTHBUTTON_DOWN
 
-The fourth button (see <a href="https://msdn.microsoft.com/CC3F8E21-F4FF-495C-922E-A3708D3F2093">POINTER_FLAG_FOURTHBUTTON</a>) transitioned to a pressed state.
+The fourth button (see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">POINTER_FLAG_FOURTHBUTTON</a>) transitioned to a pressed state.
 
 
 ### -field POINTER_CHANGE_FOURTHBUTTON_UP
 
-The fourth button (see <a href="https://msdn.microsoft.com/CC3F8E21-F4FF-495C-922E-A3708D3F2093">POINTER_FLAG_FOURTHBUTTON</a>) transitioned to a released state.
+The fourth button (see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">POINTER_FLAG_FOURTHBUTTON</a>) transitioned to a released state.
 
 
 ### -field POINTER_CHANGE_FIFTHBUTTON_DOWN
 
-The fifth button (see <a href="https://msdn.microsoft.com/CC3F8E21-F4FF-495C-922E-A3708D3F2093">POINTER_FLAG_FIFTHBUTTON</a>) transitioned to a pressed state.
+The fifth button (see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">POINTER_FLAG_FIFTHBUTTON</a>) transitioned to a pressed state.
 
 
 ### -field POINTER_CHANGE_FIFTHBUTTON_UP
 
-The fifth button (see <a href="https://msdn.microsoft.com/CC3F8E21-F4FF-495C-922E-A3708D3F2093">POINTER_FLAG_FIFTHBUTTON</a>) transitioned to a released state.
+The fifth button (see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">POINTER_FLAG_FIFTHBUTTON</a>) transitioned to a released state.
 
 
 ## -see-also
@@ -117,11 +117,11 @@ The fifth button (see <a href="https://msdn.microsoft.com/CC3F8E21-F4FF-495C-922
 
 
 
-<a href="https://msdn.microsoft.com/22241CD0-DAE1-4AC2-AB36-23D114803133">Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/enums">Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/fee176ba-ad07-4145-0b4d-1b8c335fd102">POINTER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_info">POINTER_INFO</a>
  
 
  

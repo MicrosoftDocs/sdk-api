@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The <code>IDirectDrawMediaSampleAllocator</code> interface allocates samples that contain DirectDraw surfaces.
 
-The <a href="https://msdn.microsoft.com/e80938b7-31f0-467b-a3fa-c4511d14758d">Overlay Mixer</a> filter's input pin creates an allocator that implements this interface. This allocator allocates <a href="https://msdn.microsoft.com/en-us/library/Dd406801(v=VS.85).aspx">IDirectDrawMediaSample</a> media samples that also support the <a href="https://msdn.microsoft.com/en-us/library/Dd407001(v=VS.85).aspx">IMediaSample</a> interface.
+The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> filter's input pin creates an allocator that implements this interface. This allocator allocates <a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-idirectdrawmediasample">IDirectDrawMediaSample</a> media samples that also support the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample</a> interface.
 
 Decoder filters should not have to use this interface to connect to the Overlay Mixer. Applications never use this interface.
 
@@ -62,7 +62,7 @@ Decoder filters should not have to use this interface to connect to the Overlay 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectDrawMediaSampleAllocator</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDirectDrawMediaSampleAllocator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectDrawMediaSampleAllocator</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectDrawMediaSampleAllocator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IDirectDrawMediaSampleAllocator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406803(v=VS.85).aspx">GetDirectDraw</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-idirectdrawmediasampleallocator-getdirectdraw">GetDirectDraw</a>
 </td>
 <td align="left" width="63%">
 Retrieves the DirectDraw instance used to allocate surfaces.

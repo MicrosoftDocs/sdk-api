@@ -103,7 +103,7 @@ The knowledge object that is associated with this object has changed since this 
 
 
 
-<a href="https://msdn.microsoft.com/10c22b92-bda8-42f6-9fd6-58e77e5a18d4">ICoreFragmentInspector Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-icorefragmentinspector">ICoreFragmentInspector Interface</a>
  
 
  

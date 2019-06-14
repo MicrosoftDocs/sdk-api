@@ -63,7 +63,7 @@ Retrieves the media sink that owns this stream sink.
 
 ### -param ppMediaSink [out]
 
-Receives a pointer to the media sink's <a href="https://msdn.microsoft.com/103e6fd8-a18f-480a-8261-099623014659">IMFMediaSink</a> interface. The caller must release the interface.
+Receives a pointer to the media sink's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasink">IMFMediaSink</a> interface. The caller must release the interface.
 
 
 ## -returns
@@ -95,7 +95,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The media sink's <a href="https://msdn.microsoft.com/acda4e37-2dd0-4322-90fc-8f48d6842054">Shutdown</a> method has been called.
+The media sink's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown">Shutdown</a> method has been called.
 
 </td>
 </tr>
@@ -121,11 +121,11 @@ This stream was removed from the media sink and is no longer valid.
 
 
 
-<a href="https://msdn.microsoft.com/fe403cab-b901-4c8e-a23c-788ee65c4689">IMFStreamSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfstreamsink">IMFStreamSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0fbce1b-0a16-4449-9eca-906fd9056a1c">Media Sinks</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-sinks">Media Sinks</a>
  
 
  

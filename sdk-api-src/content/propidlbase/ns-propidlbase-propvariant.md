@@ -51,16 +51,16 @@ ms.custom: 19H1
 
 The 
 <b>PROPVARIANT</b> structure is used in the 
-<a href="https://msdn.microsoft.com/a3d708fe-53af-4f1b-94ac-edc40d59a034">ReadMultiple</a> and 
-<a href="https://msdn.microsoft.com/480a2be3-ccb0-4135-a085-733f6ab48ccd">WriteMultiple</a> methods of 
-<a href="https://msdn.microsoft.com/c021f695-db54-4861-9f30-35a81d2dccd5">IPropertyStorage</a> to define the type tag and the value of a property in a property set.
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-readmultiple">ReadMultiple</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-writemultiple">WriteMultiple</a> methods of 
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> to define the type tag and the value of a property in a property set.
 
-The <b>PROPVARIANT</b> structure is also used by the <a href="http://go.microsoft.com/fwlink/p/?linkid=101713">GetValue</a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=101711">SetValue</a> methods of <a href="http://go.microsoft.com/fwlink/p/?linkid=101712">IPropertyStore</a>, which replaces <a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a> as the primary way to program item properties in Windows Vista. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=101710">Property Handlers</a>.
+The <b>PROPVARIANT</b> structure is also used by the <a href="http://go.microsoft.com/fwlink/p/?linkid=101713">GetValue</a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=101711">SetValue</a> methods of <a href="http://go.microsoft.com/fwlink/p/?linkid=101712">IPropertyStore</a>, which replaces <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a> as the primary way to program item properties in Windows Vista. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=101710">Property Handlers</a>.
 
 There are five members. The first member, the value-type tag, and the last member, the value of the property, are significant. The middle three members are reserved for future use.
 <div class="alert"><b>Note</b>  The <b>bool</b> member in previous definitions of this structure has been renamed to <b>boolVal</b>, because some compilers now recognize <b>bool</b> as a keyword.</div><div> </div><div class="alert"><b>Note</b>  The 
 <b>PROPVARIANT</b> structure, defined below, includes types that can be serialized in the version 1 property set serialization format. The version 1 format supports all types allowed in the version 0 format plus some additional types. The added types include "Version 1" in the comment field below. Use these types only if a version 1 property set is intended. For more information, see 
-<a href="https://msdn.microsoft.com/10544118-5e80-47e2-b75b-c1a43be15b2e">Property Set Serialization</a>.</div><div> </div>The 
+<a href="https://docs.microsoft.com/windows/desktop/Stg/version-0-vs--version-1-property-set-serialization">Property Set Serialization</a>.</div><div> </div>The 
 <b>PROPVARIANT</b> structure is defined as follows:
 
 
@@ -858,7 +858,7 @@ However, the value of the <b>DECIMAL</b> structure requires special handling. Th
 <b>PROPVARIANT</b> structure, the value must be loaded into the <b>decVal</b> member and the <b>vt</b> member is set to <b>VT_DECIMAL</b>, just as for any other value.
 
 <b>PROPVARIANT</b> is the fundamental data type by which property values are read and written through the 
-<a href="https://msdn.microsoft.com/c021f695-db54-4861-9f30-35a81d2dccd5">IPropertyStorage</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> interface.
 
 The data type 
 <b>PROPVARIANT</b> is related to the data type <b>VARIANT</b>, defined as part of Automation in OLE2. Several definitions are reused from Automation, as follows:
@@ -1105,7 +1105,7 @@ The only significant difference between <b>VT_BLOB_OBJECT</b> and <b>VT_STREAMED
 <td>66</td>
 <td><b>pStream</b></td>
 <td>A pointer to an 
-<a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> interface that represents a stream which is a sibling to the "Contents" stream.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface that represents a stream which is a sibling to the "Contents" stream.</td>
 </tr>
 <tr>
 <td><b>VT_STREAMED_OBJECT</b></td>
@@ -1118,14 +1118,14 @@ The only significant difference between <b>VT_BLOB_OBJECT</b> and <b>VT_STREAMED
 <td>67</td>
 <td><b>pStorage</b></td>
 <td>A pointer to an 
-<a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> interface, representing a storage object that is a sibling to the "Contents" stream.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface, representing a storage object that is a sibling to the "Contents" stream.</td>
 </tr>
 <tr>
 <td><b>VT_STORED_OBJECT</b></td>
 <td>69</td>
 <td><b>pStorage</b></td>
 <td>As in <b>VT_STORAGE</b>, but indicates that the designated 
-<a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> contains a loadable object.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> contains a loadable object.</td>
 </tr>
 <tr>
 <td><b>VT_VERSIONED_STREAM</b></td>

@@ -59,12 +59,12 @@ The <b>WinUsb_GetCurrentFrameNumberAndQpc</b> function retrieves the system quer
 
 ### -param InterfaceHandle [in]
 
-An opaque handle retrieved in the previous call to <a href="https://msdn.microsoft.com/258cf508-036a-4ade-95b2-4b36d1149ffd">WinUsb_Initialize</a>. 
+An opaque handle retrieved in the previous call to <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>. 
 
 
 ### -param FrameQpcInfo [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/F602B738-4D04-4A75-BE69-CFEC4F76904C">USB_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC_INFORMATION</a> structure. On output, <b>CurrentQueryPerformanceCounter</b> set to the system QPC  value (in microseconds) predicted by the USB driver stack. Optionally, on input, the caller can specify a frame and microframe number for which to retrieve the QPC value. 
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ns-usbioctl-_usb_frame_number_and_qpc_for_time_sync_information">USB_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC_INFORMATION</a> structure. On output, <b>CurrentQueryPerformanceCounter</b> set to the system QPC  value (in microseconds) predicted by the USB driver stack. Optionally, on input, the caller can specify a frame and microframe number for which to retrieve the QPC value. 
 
 On output, the <b>QueryPerformanceCounterAtInputFrameOrMicroFrame</b> member  is set to the QPC value for that frame or microframe.
 
@@ -107,7 +107,7 @@ The caller passed <b>NULL</b> in the  <i>InterfaceHandle</i> or <i>FrameQpcInfo<
 
 
 
-<a href="https://msdn.microsoft.com/8234d0b4-2c73-45fa-a8bf-566c64cc2858">WinUSB</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WinUSB</a>
 
 
 
@@ -115,11 +115,11 @@ The caller passed <b>NULL</b> in the  <i>InterfaceHandle</i> or <i>FrameQpcInfo<
 
 
 
-<a href="https://msdn.microsoft.com/258cf508-036a-4ade-95b2-4b36d1149ffd">WinUsb_Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/FC19CDFD-76F1-49E3-A212-E4F490D679E6">WinUsb_StartTrackingForTimeSync</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_starttrackingfortimesync">WinUsb_StartTrackingForTimeSync</a>
  
 
  

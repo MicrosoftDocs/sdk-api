@@ -57,11 +57,11 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>GetVersion</b> may be altered or unavailable for releases after Windows 8.1. Instead, use the <a href="https://msdn.microsoft.com/2FAF67CD-CEEA-4096-B482-F5E2DF8D6C34">Version Helper functions</a>]
+<p class="CCE_Message">[<b>GetVersion</b> may be altered or unavailable for releases after Windows 8.1. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/SysInfo/version-helper-apis">Version Helper functions</a>]
 
 With the release of Windows 8.1, the behavior of the <b>GetVersion</b> API has changed in the value it will return for the operating system version. The value returned by the <b>GetVersion</b> function now depends on how the application is manifested. 
 
-Applications not manifested for Windows 8.1 or Windows 10 will return the Windows 8 OS version value (6.2).  Once an application is manifested for a given operating system version, <b>GetVersion</b> will always return the version that the application is manifested for in future releases.  To manifest your applications for Windows 8.1 or Windows 10, refer to <a href="https://msdn.microsoft.com/E7A1A16A-95B3-4B45-81AD-A19E33F15AE4">Targeting your application for Windows</a>.
+Applications not manifested for Windows 8.1 or Windows 10 will return the Windows 8 OS version value (6.2).  Once an application is manifested for a given operating system version, <b>GetVersion</b> will always return the version that the application is manifested for in future releases.  To manifest your applications for Windows 8.1 or Windows 10, refer to <a href="https://docs.microsoft.com/windows/desktop/SysInfo/targeting-your-application-at-windows-8-1">Targeting your application for Windows</a>.
 
 
 ## -parameters
@@ -87,16 +87,16 @@ For all platforms, the low-order word contains the version number of the operati
 
 
 The 
-<a href="https://msdn.microsoft.com/8e3ab4d6-bacd-4bc5-b8f6-dd49289354de">GetVersionEx</a> function was developed because many existing applications err when examining the packed <b>DWORD</b> value returned by 
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getversionexa">GetVersionEx</a> function was developed because many existing applications err when examining the packed <b>DWORD</b> value returned by 
 <b>GetVersion</b>, transposing the major and minor version numbers. 
 <b>GetVersionEx</b> forces applications to explicitly examine each element of version information. 
-<a href="https://msdn.microsoft.com/791bc6bf-f486-4110-b6ea-30a0935040b2">VerifyVersionInfo</a> eliminates further potential for error by comparing the required system version with the current system version for you.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a> eliminates further potential for error by comparing the required system version with the current system version for you.
 
 
 #### Examples
 
 The following code fragment illustrates how to extract information from the 
-<b>GetVersion</b> return value: <a href="https://msdn.microsoft.com/4ab07a72-404d-459b-b061-b3b06b5db37e">OSVERSIONINFOEX</a>
+<b>GetVersion</b> return value: <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_osversioninfoexa">OSVERSIONINFOEX</a>
 
 
 
@@ -140,31 +140,31 @@ void main()
 
 
 
-<a href="https://msdn.microsoft.com/8e3ab4d6-bacd-4bc5-b8f6-dd49289354de">GetVersionEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getversionexa">GetVersionEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/a173df17-dad2-4330-aa66-4ff789fd7cc2">OSVERSIONINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_osversioninfoa">OSVERSIONINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ab07a72-404d-459b-b061-b3b06b5db37e">OSVERSIONINFOEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_osversioninfoexa">OSVERSIONINFOEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/1a70b1d9-ed66-4201-9921-4e26e4001020">Operating System Version</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/operating-system-version">Operating System Version</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa7deebf-7dce-4147-8a15-1d7411aea0fa">System Information Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/791bc6bf-f486-4110-b6ea-30a0935040b2">VerifyVersionInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/2FAF67CD-CEEA-4096-B482-F5E2DF8D6C34">Version Helper functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/version-helper-apis">Version Helper functions</a>
  
 
  

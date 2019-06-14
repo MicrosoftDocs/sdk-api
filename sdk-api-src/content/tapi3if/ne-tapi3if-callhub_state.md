@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>CALLHUB_STATE</b> enum is a state indicator returned by the 
-<a href="https://msdn.microsoft.com/0ca4bbad-6822-4a8b-8df4-da6e630752f0">ITCallHub::get_State</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallhub-get_state">ITCallHub::get_State</a> method.
 
 
 ## -enum-fields
@@ -74,7 +74,7 @@ All calls associated with this CallHub are in the CS_DISCONNECTED state.
 
 
 
-<a href="https://msdn.microsoft.com/0ca4bbad-6822-4a8b-8df4-da6e630752f0">ITCallHub::get_State</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallhub-get_state">ITCallHub::get_State</a>
  
 
  

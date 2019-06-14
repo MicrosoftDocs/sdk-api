@@ -60,25 +60,25 @@ Creates a byte stream that is backed by a temporary local file.
 
 ### -param AccessMode
 
-The requested access mode, specified as a member of the <a href="https://msdn.microsoft.com/en-us/library/ms696239(v=VS.85).aspx">MF_FILE_ACCESSMODE</a> enumeration.
+The requested access mode, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-__midl___midl_itf_mfobjects_0000_0017_0001">MF_FILE_ACCESSMODE</a> enumeration.
           
 
 
 ### -param OpenMode
 
-The behavior of the function if the file already exists or does not exist, specified as a member of the <a href="https://msdn.microsoft.com/en-us/library/ms694164(v=VS.85).aspx">MF_FILE_OPENMODE</a> enumeration.
+The behavior of the function if the file already exists or does not exist, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-__midl___midl_itf_mfobjects_0000_0017_0002">MF_FILE_OPENMODE</a> enumeration.
           
 
 
 ### -param fFlags
 
-Bitwise <b>OR</b> of values from the <a href="https://msdn.microsoft.com/en-us/library/ms694926(v=VS.85).aspx">MF_FILE_FLAGS</a> enumeration.
+Bitwise <b>OR</b> of values from the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-__midl___midl_itf_mfobjects_0000_0017_0003">MF_FILE_FLAGS</a> enumeration.
           
 
 
 ### -param ppIByteStream
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/690035b7-2855-4714-938f-f8250ec70d24">IMFByteStream</a> interface of the byte stream. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a> interface of the byte stream. The caller must release the interface.
           
 
 
@@ -96,7 +96,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 This function creates a file in the system temporary folder, and then returns a byte stream object for that file.
-      The full path name of the file is storted in the <a href="https://msdn.microsoft.com/31d7de71-5bbb-4c29-8ce0-df3684c56916">MF_BYTESTREAM_ORIGIN_NAME</a> attribute. The file is created with the <b>FILE_FLAG_DELETE_ON_CLOSE</b> flag, and is deleted after the byte stream is released.
+      The full path name of the file is storted in the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-bytestream-origin-name-attribute">MF_BYTESTREAM_ORIGIN_NAME</a> attribute. The file is created with the <b>FILE_FLAG_DELETE_ON_CLOSE</b> flag, and is deleted after the byte stream is released.
 
 This function is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -112,11 +112,11 @@ This function is available on the following platforms if the Windows Media Forma
 
 
 
-<a href="https://msdn.microsoft.com/690035b7-2855-4714-938f-f8250ec70d24">IMFByteStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

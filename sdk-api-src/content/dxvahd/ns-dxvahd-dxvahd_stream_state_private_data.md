@@ -72,7 +72,7 @@ A GUID that identifies the private stream state. The following GUID is defined.
 </dl>
 </td>
 <td width="60%">
-Retrieves statistics about inverse telecine. The state data (<b>pData</b>) is a <a href="https://msdn.microsoft.com/en-us/library/Dd318770(v=VS.85).aspx">DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA</a> structure.
+Retrieves statistics about inverse telecine. The state data (<b>pData</b>) is a <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_stream_state_private_ivtc_data">DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA</a> structure.
 
 </td>
 </tr>
@@ -110,23 +110,23 @@ The caller allocates the <b>pData</b> array. Set the <b>DataSize</b> member to t
 
 
 
-<a href="https://msdn.microsoft.com/38ebec28-c4fc-4e72-ac87-1e41707d1908">DXVA-HD</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
 
 
-<a href="https://msdn.microsoft.com/75036101-7498-4d66-afc3-df76ae3cca39">DXVAHD_STREAM_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-_dxvahd_stream_state">DXVAHD_STREAM_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/584c087e-53f0-42d8-99ed-a0d013379363">Direct3D Video Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-video-structures">Direct3D Video Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/40a8444f-576e-40ff-804e-0912812f0ee6">IDXVAHD_VideoProcessor::SetVideoProcessStreamState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-setvideoprocessstreamstate">IDXVAHD_VideoProcessor::SetVideoProcessStreamState</a>
 
 
 
-<a href="https://msdn.microsoft.com/39fdd724-13ca-48ab-8a55-93529d1da3b4">Media Foundation Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
  
 
  

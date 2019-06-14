@@ -77,7 +77,7 @@ The resource identifier of the value of the status entry.
 ### -field m_cValueTypePair
 
 The number of 
-      <a href="https://msdn.microsoft.com/en-us/library/Hh437334(v=VS.85).aspx">WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR</a> 
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wsbonline/ns-wsbonline-_wsb_ob_status_entry_value_type_pair">WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR</a> 
       structures pointed to by the <b>m_rgValueTypePair</b> member.
 
 
@@ -105,11 +105,11 @@ The resources indicated by the resource IDs contained in the <b>m_dwIcon</b>,
 
 
 
-<a href="https://msdn.microsoft.com/C1AC87C6-37B7-4675-AB51-45C292239EB5">Cloud  Backup Provider API Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wsb/windows-server-backup-api-structures">Cloud  Backup Provider API Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437334(v=VS.85).aspx">WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wsbonline/ns-wsbonline-_wsb_ob_status_entry_value_type_pair">WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR</a>
  
 
  

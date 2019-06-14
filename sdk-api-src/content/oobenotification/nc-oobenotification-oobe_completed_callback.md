@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Application-defined callback function used with the <a href="https://msdn.microsoft.com/D1581B09-06A7-483F-929D-1AF93832942D">RegisterWaitUntilOOBECompleted</a> function.
+Application-defined callback function used with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oobenotification/nf-oobenotification-registerwaituntiloobecompleted">RegisterWaitUntilOOBECompleted</a> function.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Application-defined callback function used with the <a href="https://msdn.micros
 
 ### -param CallbackContext
 
-Pointer to the callback context. This is the value passed to the <a href="https://msdn.microsoft.com/D1581B09-06A7-483F-929D-1AF93832942D">RegisterWaitUntilOOBECompleted</a> function as the <i>CallbackContext</i> parameter.
+Pointer to the callback context. This is the value passed to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oobenotification/nf-oobenotification-registerwaituntiloobecompleted">RegisterWaitUntilOOBECompleted</a> function as the <i>CallbackContext</i> parameter.
 
 
 ## -returns
@@ -75,7 +75,7 @@ This callback function does not return a value.
 
 
 
-Once the callback function has completed, <a href="https://msdn.microsoft.com/966803DF-744A-430F-86C0-F6ACA754C603">UnregisterWaitUntilOOBECompleted</a> should be called.
+Once the callback function has completed, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oobenotification/nf-oobenotification-unregisterwaituntiloobecompleted">UnregisterWaitUntilOOBECompleted</a> should be called.
 
 
 

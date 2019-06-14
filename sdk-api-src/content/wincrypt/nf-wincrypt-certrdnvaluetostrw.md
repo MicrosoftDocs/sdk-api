@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>CertRDNValueToStr</b> function converts a name in a 
-<a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CERT_RDN_VALUE_BLOB</a> to a <b>null</b>-terminated character string.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_RDN_VALUE_BLOB</a> to a <b>null</b>-terminated character string.
 
 
 ## -parameters
@@ -90,7 +90,7 @@ This can be one of the following values:
 ### -param pValue [in]
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CERT_RDN_VALUE_BLOB</a> of a type appropriate for the <i>dwValueType</i>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_RDN_VALUE_BLOB</a> of a type appropriate for the <i>dwValueType</i>.
 
 
 ### -param psz [out]
@@ -127,11 +127,11 @@ If <i>psz</i> is not <b>NULL</b> and <i>csz</i> is not zero, the returned <i>psz
 
 
 
-<a href="https://msdn.microsoft.com/b3d96de8-5cbc-4ccb-b759-6757520bbda3">CertNameToStr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certnametostra">CertNameToStr</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Conversion Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Conversion Functions</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CertSerializeCTLStoreElement</b> function serializes an encoded <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate trust list</a> (CTL) <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a> and the encoded representation of its properties. The result can be persisted to storage so that the CTL and properties can be retrieved later.
+The <b>CertSerializeCTLStoreElement</b> function serializes an encoded <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> and the encoded representation of its properties. The result can be persisted to storage so that the CTL and properties can be retrieved later.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>CertSerializeCTLStoreElement</b> function serializes an encoded <a href="
 ### -param pCtlContext [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/780edddf-1b44-4292-9156-4dfd5100adb8">CTL_CONTEXT</a> structure being serialized.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">CTL_CONTEXT</a> structure being serialized.
 
 
 ### -param dwFlags [in]
@@ -76,7 +76,7 @@ A pointer to a buffer that receives the serialized output, including the encoded
 
 
 This parameter can be <b>NULL</b> to set the size of this information for memory allocation purposes. For more information, see 
-<a href="https://msdn.microsoft.com/ef99edef-39b2-4d78-9c01-13720215d47f">Retrieving Data of Unknown Length</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 
 ### -param pcbElement [in, out]
@@ -96,7 +96,7 @@ A pointer to a <b>DWORD</b> value that specifies the size, in bytes, of the buff
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -106,11 +106,11 @@ If the function fails, the return value is <b>FALSE</b>. For extended error info
 
 
 
-<a href="https://msdn.microsoft.com/2726cd34-51ba-4f68-9a3c-7cd505eb32a1">CertAddSerializedElementToStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddserializedelementtostore">CertAddSerializedElementToStore</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Trust List Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Trust List Functions</a>
  
 
  

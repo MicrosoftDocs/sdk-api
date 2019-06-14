@@ -86,7 +86,7 @@ A pointer that, when this function returns successfully, points to the beginning
 
 
 
-<a href="https://msdn.microsoft.com/187bc49e-c5ae-42b8-acbd-a765f871d73b">PathCchSkipRoot</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchskiproot">PathCchSkipRoot</a>
  
 
  

@@ -54,7 +54,7 @@ The <b>IEnhancedStorageACT2</b> interface is used to obtain information for a 16
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnhancedStorageACT2</b> interface inherits from <a href="https://msdn.microsoft.com/33d5df30-f877-4852-ad2f-af1bb58d0044">IEnhancedStorageACT</a>. <b>IEnhancedStorageACT2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnhancedStorageACT2</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a>. <b>IEnhancedStorageACT2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IEnhancedStorageACT2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8603a7c3-b3b9-4b84-9f74-96b639c6c961">GetDeviceName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nf-ehstorapi-ienhancedstorageact2-getdevicename">GetDeviceName</a>
 </td>
 <td align="left" width="63%">
 Returns the device name associated with the ACT.
@@ -78,7 +78,7 @@ Returns the device name associated with the ACT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1118756d-56d7-4f59-8e2a-2cb970a7a62a">IsDeviceRemovable</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nf-ehstorapi-ienhancedstorageact2-isdeviceremovable">IsDeviceRemovable</a>
 </td>
 <td align="left" width="63%">
 Returns information that indicates if the device associated with the ACT is removable.
@@ -93,7 +93,7 @@ Returns information that indicates if the device associated with the ACT is remo
 
 
 
-<a href="https://msdn.microsoft.com/33d5df30-f877-4852-ad2f-af1bb58d0044">IEnhancedStorageACT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a>
  
 
  

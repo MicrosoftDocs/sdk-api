@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The DD_SYNCVIDEOPORTDATA structure contains the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">video port extensions (VPE)</a> object information. 
+The DD_SYNCVIDEOPORTDATA structure contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object information. 
 
 
 ## -struct-fields
@@ -59,12 +59,12 @@ The DD_SYNCVIDEOPORTDATA structure contains the <a href="https://msdn.microsoft.
 
 ### -field lpDD
 
-Points to a <a href="https://msdn.microsoft.com/58e378b7-863a-46d4-91cb-904ed4e892a3">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
 
 
 ### -field lpVideoPort
 
-Points to a <a href="https://msdn.microsoft.com/c497d1ef-0eb1-465f-978c-60cf5606de93">DD_VIDEOPORT_LOCAL</a> structure that describes the hardware video port with which to sync. 
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_videoport_local">DD_VIDEOPORT_LOCAL</a> structure that describes the hardware video port with which to sync. 
 
 
 ### -field dwOriginOffset
@@ -79,7 +79,7 @@ Contains the height in pixels of the VPE object data. By default, this is twice 
 
 ### -field dwVBIHeight
 
-Contains the number of lines in the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">VBI</a> region. This value is used only by the video miniport driver. This member can be modified by the driver, but does not need to be. 
+Contains the number of lines in the <a href="https://docs.microsoft.com/windows-hardware/drivers/">VBI</a> region. This value is used only by the video miniport driver. This member can be modified by the driver, but does not need to be. 
 
 
 ### -field dwDriverReserved1
@@ -99,7 +99,7 @@ Reserved for use by the display driver.
 
 ### -field ddRVal
 
-Specifies the location in which the driver writes the return value of the <a href="https://msdn.microsoft.com/3726a505-c3cf-4784-886e-2f4524fb0c5b">DdSyncVideoPortData</a> callback. A return code of DD_OK indicates success. For more information, see <a href="https://msdn.microsoft.com/da4cc7d7-6826-48aa-96c6-004e31fc3e3e">Return Values for DirectDraw</a>.
+Specifies the location in which the driver writes the return value of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_kernelcb_syncvideoport">DdSyncVideoPortData</a> callback. A return code of DD_OK indicates success. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/return-values-for-directdraw">Return Values for DirectDraw</a>.
 
 
 ## -see-also
@@ -107,7 +107,7 @@ Specifies the location in which the driver writes the return value of the <a hre
 
 
 
-<a href="https://msdn.microsoft.com/3726a505-c3cf-4784-886e-2f4524fb0c5b">DdSyncVideoPortData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_kernelcb_syncvideoport">DdSyncVideoPortData</a>
  
 
  

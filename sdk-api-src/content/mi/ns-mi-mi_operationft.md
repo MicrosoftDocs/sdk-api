@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-A support structure used in the <a href="https://msdn.microsoft.com/a62b3656-c281-4f30-9690-de453df9f2db">MI_Operation</a> 
+A support structure used in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operation">MI_Operation</a> 
      structure.  Use the functions with the name prefix "MI_Operation_" to manipulate these 
      structures.
 
@@ -69,35 +69,35 @@ TBD
 #### - Cancel
 
 Cancels a running operation. See 
-       <a href="https://msdn.microsoft.com/11a9f9f6-9dfa-4f7c-9562-f4793c007f04">MI_Operation_Cancel</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_cancel">MI_Operation_Cancel</a>.
 
 
 #### - Close
 
 Closes an operation handle. See 
-       <a href="https://msdn.microsoft.com/3e698e34-d537-4ea4-9345-cc4f493ff823">MI_Operation_Close</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_close">MI_Operation_Close</a>.
 
 
 #### - GetClass
 
 Closes an operation handle. See 
-       <a href="https://msdn.microsoft.com/3e698e34-d537-4ea4-9345-cc4f493ff823">MI_Operation_Close</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_close">MI_Operation_Close</a>.
 
 
 #### - GetIndication
 
 Get the synchronous results from a subscription. See 
-       <a href="https://msdn.microsoft.com/3e3e8472-ea33-485b-9e86-b5ba770af95b">MI_Operation_GetIndication</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_getindication">MI_Operation_GetIndication</a>.
 
 
 #### - GetInstance
 
 Gets a synchronous result for an instance operation. See 
-       <a href="https://msdn.microsoft.com/25c2d3fa-276d-4506-a044-4057c8cdc863">MI_Operation_GetInstance</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_getinstance">MI_Operation_GetInstance</a>.
 
 
 #### - GetSession
 
 Gets the session associated with an operation. See 
-       <a href="https://msdn.microsoft.com/710ccbc5-956c-4bb3-b93b-f61a449c08ef">MI_Operation_GetSession</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_getsession">MI_Operation_GetSession</a>.
 

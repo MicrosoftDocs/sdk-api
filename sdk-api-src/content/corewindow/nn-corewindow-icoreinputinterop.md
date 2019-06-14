@@ -54,7 +54,7 @@ Enables an input source on a Windows Store app's <a href="w_ui_core.coreinput">C
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICoreInputInterop</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ICoreInputInterop</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICoreInputInterop</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICoreInputInterop</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>ICoreInputInterop</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/693180F5-2C19-47CD-9514-F0CEA1849A4A">SetInputSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/corewindow/nf-corewindow-icoreinputinterop-setinputsource">SetInputSource</a>
 </td>
 <td align="left" width="63%">
 Sets the input source for an app's <a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.toolkit.win32.ui.controls.interop.winrt.coreindependentinputsource">CoreIndependentInputSource</a> or <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.core.corecomponentinputsource">CoreComponentInputSource</a>.
@@ -88,7 +88,7 @@ Sets the input source for an app's <a href="https://docs.microsoft.com/en-us/dot
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/94575082-014D-42E3-8191-F79912CBDB2A">MessageHandled</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/corewindow/nf-corewindow-icoreinputinterop-put_messagehandled">MessageHandled</a>
 
 
 </td>

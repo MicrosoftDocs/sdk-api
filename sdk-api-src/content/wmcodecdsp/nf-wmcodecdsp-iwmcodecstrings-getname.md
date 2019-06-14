@@ -111,7 +111,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/84b6223e-d42a-47b0-8553-2b4d69de2da3">IWMCodecStrings Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecstrings">IWMCodecStrings Interface</a>
  
 
  

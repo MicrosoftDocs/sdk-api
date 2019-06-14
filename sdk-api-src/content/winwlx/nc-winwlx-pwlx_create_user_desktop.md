@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The WlxCreateUserDesktop function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-Called by <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> to create alternate application desktops for the user.
+Called by <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> to create alternate application desktops for the user.
 <div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>
 
 ## -parameters
@@ -62,7 +62,7 @@ Called by <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a684
 ### -param hWlx [in]
 
 Specifies the Winlogon handle passed to GINA in the 
-<a href="https://msdn.microsoft.com/db03f2b3-0719-40be-8a42-04ab7110f711">WlxInitialize</a> call.
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> call.
 
 
 ### -param hToken [in]
@@ -114,8 +114,8 @@ Specifies the name of the desktop to be created.
 ### -param *ppDesktop [out]
 
 If the desktop is created, returns a pointer to a 
-<a href="https://msdn.microsoft.com/3cde1b9e-5109-400d-a67f-1e263f2283d1">WLX_DESKTOP</a> structure for the new desktop. This pointer can be used in a call to 
-<a href="https://msdn.microsoft.com/539e81d9-6362-4476-bdbc-849fb905b268">WlxSetReturnDesktop</a> to make this the current desktop after a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">SAS</a> event is processed.
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_desktop">WLX_DESKTOP</a> structure for the new desktop. This pointer can be used in a call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_set_return_desktop">WlxSetReturnDesktop</a> to make this the current desktop after a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">SAS</a> event is processed.
 
 
 ## -returns
@@ -162,11 +162,11 @@ The desktop has not been created.
 
 
 
-<a href="https://msdn.microsoft.com/db03f2b3-0719-40be-8a42-04ab7110f711">WlxInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/539e81d9-6362-4476-bdbc-849fb905b268">WlxSetReturnDesktop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_set_return_desktop">WlxSetReturnDesktop</a>
  
 
  

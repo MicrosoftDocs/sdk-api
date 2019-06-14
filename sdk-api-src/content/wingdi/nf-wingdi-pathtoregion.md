@@ -79,7 +79,7 @@ If the function fails, the return value is zero.
 
 
 
-When you no longer need the <b>HRGN</b> object call the <a href="https://msdn.microsoft.com/cc679af0-6839-4c83-9c42-39d7ededda40">DeleteObject</a> function to delete it.
+When you no longer need the <b>HRGN</b> object call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete it.
 
 The device context identified by the <i>hdc</i> parameter must contain a closed path.
 

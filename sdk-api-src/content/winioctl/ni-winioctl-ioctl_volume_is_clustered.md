@@ -51,7 +51,7 @@ req.redist:
 Determines whether the specified volume is clustered.
 
 To perform this operation, call the 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -150,12 +150,12 @@ The <b>ERROR_GEN_FAILURE</b> error indicates that the computer that currently ow
 
 <ol>
 <li>Call the 
-<a href="https://msdn.microsoft.com/a7511ac6-04cb-407b-90aa-3382c5160cb6">ClusterEnum</a> function to enumerate all Physical Disk resources in the cluster.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterenum">ClusterEnum</a> function to enumerate all Physical Disk resources in the cluster.</li>
 <li>Search each enumerated Physical Disk resource for the volume by calling the 
-<a href="https://msdn.microsoft.com/a98ca55a-6535-48cf-a925-5005baa01b94">ClusterResourceControl</a> function with <a href="https://msdn.microsoft.com/e80dfab7-448a-4d68-aae8-c6b42c5dc6f9">CLUSCTL_RESOURCE_STORAGE_GET_DISK_INFO</a>. If you cannot find the volume among the Physical Disk resources in the cluster, the volume does not reside on a Physical Disk resource.</li>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecontrol">ClusterResourceControl</a> function with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-storage-get-disk-info">CLUSCTL_RESOURCE_STORAGE_GET_DISK_INFO</a>. If you cannot find the volume among the Physical Disk resources in the cluster, the volume does not reside on a Physical Disk resource.</li>
 </ol>
 The <b>ERROR_INVALID_FUNCTION</b> error indicates that the computer that currently owns the disk on which the volume resides is not a server cluster node or the disk is not a Physical Disk resource. To determine whether a computer is a server cluster node, call the 
-<a href="https://msdn.microsoft.com/67534bc8-f19e-4330-850a-788a7f031f5b">GetNodeClusterState</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getnodeclusterstate">GetNodeClusterState</a> function.
 
 In Windows 8 and Windows Server 2012, this code is supported by the following technologies.
 
@@ -215,11 +215,11 @@ Yes
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/87f39e1c-3ebf-4c6f-a842-699ec3c45e76">Volume
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes">Volume
 		  Management Control Codes</a>
  
 

@@ -66,7 +66,7 @@ Returns the user-mode scheduling (UMS) thread context of the calling UMS thread.
 
 The function returns a pointer to the UMS thread context of the calling thread.
 
-If calling thread is not a UMS thread, the function returns NULL. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If calling thread is not a UMS thread, the function returns NULL. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 

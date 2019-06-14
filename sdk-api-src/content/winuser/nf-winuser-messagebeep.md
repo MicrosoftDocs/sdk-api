@@ -206,7 +206,7 @@ The sound specified as the Windows Default Beep sound.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -225,7 +225,7 @@ If it cannot play the specified alert sound,
 
 The user can disable the warning beep by using the Sound control panel application.
 
-<b>Note</b>  To send a beep to a remote client, use the <a href="https://msdn.microsoft.com/ea74fe2a-759e-4466-bef4-6061643ddd26">Beep</a> function. 
+<b>Note</b>  To send a beep to a remote client, use the <a href="https://docs.microsoft.com/windows/desktop/api/utilapiset/nf-utilapiset-beep">Beep</a> function. 
      The <b>Beep</b> function is redirected to the client, whereas 
      <b>MessageBeep</b> is not.
 
@@ -237,19 +237,19 @@ The user can disable the warning beep by using the Sound control panel applicati
 
 
 
-<a href="https://msdn.microsoft.com/ea74fe2a-759e-4466-bef4-6061643ddd26">Beep</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/utilapiset/nf-utilapiset-beep">Beep</a>
 
 
 
-<a href="https://msdn.microsoft.com/ae8ad3a2-1f1a-46d6-adaa-74c50c07dcc5">Error Handling Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/error-handling-functions">Error Handling Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4af997d-5cb8-4d5d-ae8d-1e0cc724fe02">FlashWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-flashwindow">FlashWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/35b6e93c-323a-4592-9394-a2e9dd79d9e6">Notifying the User</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/notifying-the-user">Notifying the User</a>
  
 
  

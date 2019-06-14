@@ -101,11 +101,11 @@ Call <b>SetupDiClassGuidsFromNameEx</b> to retrieve the class GUIDs for a class 
 
 
 
-<a href="https://msdn.microsoft.com/5a692ed0-2e3a-464e-934e-2fe98d9c217b">SetupDiClassGuidsFromNameEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiclassguidsfromnameexa">SetupDiClassGuidsFromNameEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/e23631b4-eb7f-4a75-ac23-25d3d974a3e3">SetupDiClassNameFromGuid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiclassnamefromguida">SetupDiClassNameFromGuid</a>
  
 
  

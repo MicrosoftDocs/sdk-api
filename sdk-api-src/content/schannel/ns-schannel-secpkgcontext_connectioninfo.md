@@ -50,9 +50,9 @@ ms.custom: 19H1
 
 
 The <b>SecPkgContext_ConnectionInfo</b> structure contains protocol and cipher information. This structure is used by the 
-<a href="https://msdn.microsoft.com/c451089a-d10d-469c-99dd-43d75a6b0b2a">InitializeSecurityContext (Schannel)</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">InitializeSecurityContext (Schannel)</a> function.
 
-This attribute is supported only by the Schannel <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security support provider</a> (SSP).
+This attribute is supported only by the Schannel <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP).
 
 
 ## -struct-fields
@@ -76,7 +76,7 @@ Protocol used to establish this connection. The following table describes the co
 </dl>
 </td>
 <td width="60%">
-<a href="https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f">Transport Layer Security</a> 1.0 client-side.
+<a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">Transport Layer Security</a> 1.0 client-side.
 
 </td>
 </tr>
@@ -207,7 +207,7 @@ Secure Sockets Layer 2.0 server-side. Superseded by SP_PROT_TLS1_SERVER.
 
 ### -field aiCipher
 
-Algorithm identifier (<a href="https://msdn.microsoft.com/557436b4-f7f1-4708-acc7-c6b47e6322ad">ALG_ID</a>) for the bulk encryption cipher used by this connection. The following table describes the constants valid for this member.
+Algorithm identifier (<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a>) for the bulk encryption cipher used by this connection. The following table describes the constants valid for this member.
 
 <table>
 <tr>
@@ -295,7 +295,7 @@ Strength of the bulk encryption cipher, in bits. Can be one of the following val
 
 ### -field aiHash
 
-<b>ALG_ID</b> indicating the <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> used for generating <a href="https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1">Message Authentication Codes</a> (MACs). The following table describes the constants valid for this member.
+<b>ALG_ID</b> indicating the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> used for generating <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">Message Authentication Codes</a> (MACs). The following table describes the constants valid for this member.
 
 <table>
 <tr>
@@ -333,7 +333,7 @@ Strength of the hash, in bits: 128 or 160.
 
 ### -field aiExch
 
-<b>ALG_ID</b> indicating the <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33">key exchange algorithm</a> used to generate the shared master secret. The following table describes the constants valid for this member.
+<b>ALG_ID</b> indicating the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key exchange algorithm</a> used to generate the shared master secret. The following table describes the constants valid for this member.
 
 <table>
 <tr>

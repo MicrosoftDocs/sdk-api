@@ -63,9 +63,9 @@ Gets the rendering mode.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/CAA88479-FE39-48D0-89D8-CEA0C922428A">DWRITE_RENDERING_MODE1</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/ne-dwrite_3-dwrite_rendering_mode1">DWRITE_RENDERING_MODE1</a></b>
 
-Returns a <a href="https://msdn.microsoft.com/CAA88479-FE39-48D0-89D8-CEA0C922428A">DWRITE_RENDERING_MODE1</a>-typed value for the rendering mode.
+Returns a <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/ne-dwrite_3-dwrite_rendering_mode1">DWRITE_RENDERING_MODE1</a>-typed value for the rendering mode.
 
 
 
@@ -75,7 +75,7 @@ Returns a <a href="https://msdn.microsoft.com/CAA88479-FE39-48D0-89D8-CEA0C92242
 
 
 
-<a href="https://msdn.microsoft.com/A083377C-7315-40F4-AD94-9B65B98DE0D6">IDWriteRenderingParams3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwriterenderingparams3">IDWriteRenderingParams3</a>
  
 
  

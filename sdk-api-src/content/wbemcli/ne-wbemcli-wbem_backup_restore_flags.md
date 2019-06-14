@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains flags used for the <a href="https://msdn.microsoft.com/73a61c69-0a78-4c38-aaec-a72b644f19b4">IWbemBackupRestore::Restore</a> method and the <a href="https://msdn.microsoft.com/9cc85100-5964-4c76-a0e5-305ee7b1638d">IWbemBackupRestoreEx::Restore</a> method.
+Contains flags used for the <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbembackuprestore-restore">IWbemBackupRestore::Restore</a> method and the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa391421(v=vs.85)">IWbemBackupRestoreEx::Restore</a> method.
 
 
 ## -enum-fields

@@ -72,7 +72,7 @@ The AutoSelection property indicates whether the update will be automatically se
 
 
 
-<a href="https://msdn.microsoft.com/ff290e39-7d7c-42da-a522-ba9e672721b8">IUpdate5</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate5">IUpdate5</a>
  
 
  

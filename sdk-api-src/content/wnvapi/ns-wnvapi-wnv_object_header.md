@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the major version, minor version, and buffer size of the <a href="https://msdn.microsoft.com/C8A27B21-462A-4D70-AA19-743023FD1810">WNV_NOTIFICATION_PARAM</a> structure that is passed to the <a href="https://msdn.microsoft.com/CA0F9AAE-95E5-4A62-8A26-11F933B2D09E">WnvRequestNotification</a> function.
+Specifies the major version, minor version, and buffer size of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ns-wnvapi-_wnv_notification_param">WNV_NOTIFICATION_PARAM</a> structure that is passed to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/nf-wnvapi-wnvrequestnotification">WnvRequestNotification</a> function.
 
 
 ## -struct-fields
@@ -75,7 +75,7 @@ The minor version number. This value must be <b>WNV_API_MINOR_VERSION_0</b>.
 
 Type: <b>ULONG</b>
 
-The size of the <b>Buffer</b> field in the <a href="https://msdn.microsoft.com/C8A27B21-462A-4D70-AA19-743023FD1810">WNV_NOTIFICATION_PARAM</a> structure that is passed to the <a href="https://msdn.microsoft.com/CA0F9AAE-95E5-4A62-8A26-11F933B2D09E">WnvRequestNotification</a> function.
+The size of the <b>Buffer</b> field in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ns-wnvapi-_wnv_notification_param">WNV_NOTIFICATION_PARAM</a> structure that is passed to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/nf-wnvapi-wnvrequestnotification">WnvRequestNotification</a> function.
 
 
 ## -remarks

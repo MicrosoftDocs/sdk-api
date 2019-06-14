@@ -49,10 +49,10 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The <b>RtlDecryptMemory</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/1c7980ac-4e9e-43fd-b6d7-c0d0a69c8040">CryptUnprotectMemory</a> function.]
+<p class="CCE_Message">[The <b>RtlDecryptMemory</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectmemory">CryptUnprotectMemory</a> function.]
 
-The <b>RtlDecryptMemory</b> function decrypts memory contents previously encrypted by the <a href="https://msdn.microsoft.com/b124a7fe-c62c-42f7-9d2b-cbf74d17186a">RtlEncryptMemory</a> function.
-<div class="alert"><b>Note</b>  This function has no associated import library. This function is available as a resource named <b>SystemFunction041</b> in Advapi32.dll. You must use the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> functions to dynamically link to Advapi32.dll.</div><div> </div>
+The <b>RtlDecryptMemory</b> function decrypts memory contents previously encrypted by the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-rtlencryptmemory">RtlEncryptMemory</a> function.
+<div class="alert"><b>Note</b>  This function has no associated import library. This function is available as a resource named <b>SystemFunction041</b> in Advapi32.dll. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Advapi32.dll.</div><div> </div>
 
 ## -parameters
 

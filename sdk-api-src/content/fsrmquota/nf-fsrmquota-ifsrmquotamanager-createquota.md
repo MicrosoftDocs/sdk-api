@@ -52,8 +52,8 @@ ms.custom: 19H1
 
 
 <p class="CCE_Message">[This method is supported for compatibility but it's recommended to use the 
-    <a href="https://msdn.microsoft.com/1CE772FA-CE33-4900-A499-058175A7C37E">FSRM WMI Classes</a> to manage FSRM. Please see the 
-    <a href="https://msdn.microsoft.com/9308f1de-ba8e-45f5-81ec-d8203839ee79">MSFT_FSRMQuota</a> class.]
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a> class.]
 
 Creates a quota for the specified directory.
 
@@ -70,9 +70,9 @@ The local directory path to which the quota applies. The string is limited to 26
 
 ### -param quota [out]
 
-An <a href="https://msdn.microsoft.com/91ced22a-01b9-4fcf-b61a-c99e6f0286f3">IFsrmQuota</a> interface to the newly created quota 
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nn-fsrmquota-ifsrmquota">IFsrmQuota</a> interface to the newly created quota 
       object. Use this interface to define the quota. To add the quota to FSRM, call 
-      <a href="https://msdn.microsoft.com/81c9b1db-7756-47b2-98e6-8e819d93cd0f">IFsrmQuota::Commit</a> method.
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmobject-commit">IFsrmQuota::Commit</a> method.
 
 
 ## -returns
@@ -92,16 +92,16 @@ The quota applies to the directory and all its subdirectories (recursively). Quo
     higher in the directory tree further restrict the quota specified on this directory.
 
 If the quota specifies the <b>FsrmQuotaFlags_Enforce</b>
-<a href="https://msdn.microsoft.com/af856281-8161-4165-bf24-0c160f7394d2">quota flag</a>, the file IO is blocked when the quota 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotabase-get_quotaflags">quota flag</a>, the file IO is blocked when the quota 
     is exceeded, but there are no actions taken, such as a command being run or a report generated. To perform actions 
-    when the quota is exceeded, <a href="https://msdn.microsoft.com/9571e169-01a3-4b72-bc84-2f9b2609a6e2">create a threshold</a> 
+    when the quota is exceeded, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotabase-addthreshold">create a threshold</a> 
     and specify an action to run. To perform the action when the quota is exceeded, set the threshold to 
     100 (percent).
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/b4471a75-f8c9-48aa-8ce3-1e998dbe6952">Defining a Quota</a>.
+For an example, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/defining-a-quota">Defining a Quota</a>.
 
 <div class="code"></div>
 
@@ -112,19 +112,19 @@ For an example, see <a href="https://msdn.microsoft.com/b4471a75-f8c9-48aa-8ce3-
 
 
 
-<a href="https://msdn.microsoft.com/a61a4797-b3f5-4f50-9b7c-6e30d4615b56">FsrmQuotaManager</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmquotamanager">FsrmQuotaManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/20bda7d6-5c7b-4066-82e2-83ad52515568">IFsrmQuotaManager</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nn-fsrmquota-ifsrmquotamanager">IFsrmQuotaManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa665a9d-d053-49e4-82a7-d6ba27406a7c">IFsrmQuotaManagerEx</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nn-fsrmquota-ifsrmquotamanagerex">IFsrmQuotaManagerEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/9308f1de-ba8e-45f5-81ec-d8203839ee79">MSFT_FSRMQuota</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
  
 
  

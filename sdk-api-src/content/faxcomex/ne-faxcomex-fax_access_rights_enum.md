@@ -117,7 +117,7 @@ The user can manage all fax messages in the outgoing archive.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689131(v=VS.85).aspx">IFaxSecurity::get_GrantedRights</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxsecurity-grantedrights-vb">IFaxSecurity::get_GrantedRights</a>
  
 
  

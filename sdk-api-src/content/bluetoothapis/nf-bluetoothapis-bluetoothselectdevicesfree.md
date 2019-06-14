@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>BluetoothSelectDevicesFree</b> function frees resources associated with a previous call to 
-<a href="https://msdn.microsoft.com/97fcbd72-99d5-4c5b-bf16-75eea97cbc77">BluetoothSelectDevices</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothselectdevices">BluetoothSelectDevices</a>.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param pbtsdp
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362931(v=VS.85).aspx">BLUETOOTH_SELECT_DEVICE_PARAMS</a> structure that identifies the Bluetooth device resources to free.
+<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluetoothapis-_bluetooth_select_device_params">BLUETOOTH_SELECT_DEVICE_PARAMS</a> structure that identifies the Bluetooth device resources to free.
 
 
 ## -returns
@@ -78,7 +78,7 @@ Returns <b>TRUE</b> upon success. Returns <b>FALSE</b> if there are no resources
 
 
 
-Only call the <b>BluetoothSelectDevicesFree</b> function if a previous call to the <a href="https://msdn.microsoft.com/97fcbd72-99d5-4c5b-bf16-75eea97cbc77">BluetoothSelectDevices</a> function returned <b>TRUE</b>.
+Only call the <b>BluetoothSelectDevicesFree</b> function if a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothselectdevices">BluetoothSelectDevices</a> function returned <b>TRUE</b>.
 
 
 
@@ -88,11 +88,11 @@ Only call the <b>BluetoothSelectDevicesFree</b> function if a previous call to t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362931(v=VS.85).aspx">BLUETOOTH_SELECT_DEVICE_PARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluetoothapis-_bluetooth_select_device_params">BLUETOOTH_SELECT_DEVICE_PARAMS</a>
 
 
 
-<a href="https://msdn.microsoft.com/97fcbd72-99d5-4c5b-bf16-75eea97cbc77">BluetoothSelectDevices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothselectdevices">BluetoothSelectDevices</a>
  
 
  

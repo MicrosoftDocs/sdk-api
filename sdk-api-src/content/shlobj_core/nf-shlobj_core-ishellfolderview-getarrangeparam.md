@@ -52,7 +52,7 @@ ms.custom: 19H1
 Gets the arrangement parameter of the view, which is how the view has been sorted.
         
             
-<div class="alert"><b>Note</b>  This method is deprecated as of Windows Vista. It might be altered or unavailable in subsequent versions of Windows. We recommend that you use <a href="https://msdn.microsoft.com/33d005bd-3ea0-42d0-ae87-417fb7c087d4">IFolderView2::GetSortColumns</a> instead.</div><div> </div>
+<div class="alert"><b>Note</b>  This method is deprecated as of Windows Vista. It might be altered or unavailable in subsequent versions of Windows. We recommend that you use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-getsortcolumns">IFolderView2::GetSortColumns</a> instead.</div><div> </div>
 
 ## -parameters
 
@@ -76,14 +76,14 @@ The upper sixteen bits of <i>plParamSort</i> are used for flags that modify the 
 #### SHCIDS_ALLFIELDS
 
 
-<a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Version 5.0</a>. Arrange all the information contained in the <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure, not just the display names. This flag is valid only for folder objects that support the <a href="https://msdn.microsoft.com/9b008034-3576-429e-b67c-e2222592ca46">IShellFolder2</a> interface. For instance, if the two items are files, the folder arranges their names, sizes, file times, attributes, and any other information in the structures. If this flag is set, the lower sixteen bits of <i>plParamSort</i> must be zero.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a>. Arrange all the information contained in the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure, not just the display names. This flag is valid only for folder objects that support the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2">IShellFolder2</a> interface. For instance, if the two items are files, the folder arranges their names, sizes, file times, attributes, and any other information in the structures. If this flag is set, the lower sixteen bits of <i>plParamSort</i> must be zero.
 
 
 
 #### SHCIDS_CANONICALONLY
 
 
-<a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Version 5.0</a>. When arranging by name, arrange the system names but not the display names. When this flag is passed, the two items are arranged by whatever criteria the Shell folder determines most efficient, as long as it implements a consistent sort function. This flag cannot be combined with other flags.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a>. When arranging by name, arrange the system names but not the display names. When this flag is passed, the two items are arranged by whatever criteria the Shell folder determines most efficient, as long as it implements a consistent sort function. This flag cannot be combined with other flags.
 
 
 ## -returns

@@ -59,7 +59,7 @@ Sets the properties of this object by copying the properties of another text par
 
 ### -param pPara [in]
 
-Type: <b><a href="https://msdn.microsoft.com/31a0849f-c651-4178-b1ff-a4333bcde5d9">ITextPara2</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara2">ITextPara2</a>*</b>
 
 The text paragraph object to copy from. 
 
@@ -70,7 +70,7 @@ The text paragraph object to copy from.
 
 Type: <b>HRESULT</b>
 
-If <b>ITextPara2::SetDuplicate2</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling in COM</a>.
+If <b>ITextPara2::SetDuplicate2</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -130,11 +130,11 @@ Insufficient memory.
 
 
 
-<a href="https://msdn.microsoft.com/31a0849f-c651-4178-b1ff-a4333bcde5d9">ITextPara2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara2">ITextPara2</a>
 
 
 
-<a href="https://msdn.microsoft.com/1b7855ca-1e69-48c8-b186-99b191a7ee29">ITextPara2::GetDuplicate2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara2-getduplicate2">ITextPara2::GetDuplicate2</a>
  
 
  

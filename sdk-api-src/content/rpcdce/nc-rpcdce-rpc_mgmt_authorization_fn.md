@@ -158,11 +158,11 @@ When a client requests one of the server's remote management functions, the serv
 
 
 
-<a href="https://msdn.microsoft.com/e3edbf6f-2876-49ac-a93e-14fd0b5adf53">Authorization Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/authorization-functions">Authorization Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/bb381a52-17e4-4ebe-9a1a-a561c12d73d4">RpcMgmtSetAuthorizationFn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtsetauthorizationfn">RpcMgmtSetAuthorizationFn</a>
  
 
  

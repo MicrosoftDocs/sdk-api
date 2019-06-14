@@ -49,7 +49,7 @@ req.redist:
 
 
 Contains information that the 
-<a href="https://msdn.microsoft.com/567817d5-60cd-494c-94d9-0899e1142242">IOCTL_CHANGER_SET_ACCESS</a> control code needs to set the state of the device's insert/eject port, door, or keypad.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_set_access">IOCTL_CHANGER_SET_ACCESS</a> control code needs to set the state of the device's insert/eject port, door, or keypad.
 
 
 ## -struct-fields
@@ -60,7 +60,7 @@ Contains information that the
 ### -field Element
 
 A 
-<a href="https://msdn.microsoft.com/96e9803b-16c4-415c-940a-f5df3edff3b3">CHANGER_ELEMENT</a> structure that represents the changer element. The <b>ElementType</b> member can be one of the following values: ChangerDoor, ChangerIEPort, or ChangerKeypad.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_changer_element">CHANGER_ELEMENT</a> structure that represents the changer element. The <b>ElementType</b> member can be one of the following values: ChangerDoor, ChangerIEPort, or ChangerKeypad.
 
 
 ### -field Control
@@ -145,11 +145,11 @@ Requires that <b>Features0</b> is CHANGER_LOCK_UNLOCK.
 
 
 
-<a href="https://msdn.microsoft.com/96e9803b-16c4-415c-940a-f5df3edff3b3">CHANGER_ELEMENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_changer_element">CHANGER_ELEMENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/567817d5-60cd-494c-94d9-0899e1142242">IOCTL_CHANGER_SET_ACCESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_set_access">IOCTL_CHANGER_SET_ACCESS</a>
  
 
  

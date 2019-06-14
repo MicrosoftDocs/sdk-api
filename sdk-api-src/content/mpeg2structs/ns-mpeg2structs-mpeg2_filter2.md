@@ -129,7 +129,7 @@ If <b>TRUE</b>, the <b>current_next_indicator</b> bit in the header must match t
 
 ### -field fNext
 
-A value for the <b>current_next_indicator</b> bit. You can use the <a href="https://msdn.microsoft.com/b35ced88-92b3-4f70-842b-9664a714823c">MPEG_CURRENT_NEXT_BIT</a> enumeration type to specify this value.
+A value for the <b>current_next_indicator</b> bit. You can use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ne-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0004">MPEG_CURRENT_NEXT_BIT</a> enumeration type to specify this value.
           
 
 
@@ -140,7 +140,7 @@ If <b>TRUE</b>, the <b>Dsmcc</b> member contains additional filtering criteria f
 
 ### -field Dsmcc
 
-A <a href="https://msdn.microsoft.com/a8be6d69-1b41-49f0-8588-624b8de98678">DSMCC_FILTER_OPTIONS</a> structure that contains additional filtering criteria for the DSM-CC portions of the section header.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0016">DSMCC_FILTER_OPTIONS</a> structure that contains additional filtering criteria for the DSM-CC portions of the section header.
           
 
 
@@ -151,7 +151,7 @@ If <b>TRUE</b>, the <b>Atsc</b> member contains additional filtering criteria. O
 
 ### -field Atsc
 
-An <a href="https://msdn.microsoft.com/16e33f92-9e25-4a03-a21f-0ea5a99470ee">ATSC_FILTER_OPTIONS</a> structure that contains additional filtering criteria.
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0017">ATSC_FILTER_OPTIONS</a> structure that contains additional filtering criteria.
 
 
 ### -field bVersion1Bytes
@@ -175,7 +175,7 @@ If <b>TRUE</b>, the <b>Dvb_Eit</b> member contains additional filtering criteria
 
 #### - Dvb_Eit
 
-An <a href="https://msdn.microsoft.com/7bdbb67b-ff20-4f2a-ad8a-8bb8dba3da65">DVB_EIT_FILTER_OPTIONS</a> structure that contains additional filtering criteria. 
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0018">DVB_EIT_FILTER_OPTIONS</a> structure that contains additional filtering criteria. 
           
 
 <div class="alert"><b>Note</b>  Requires Windows 7 or later.</div>
@@ -186,7 +186,7 @@ An <a href="https://msdn.microsoft.com/7bdbb67b-ff20-4f2a-ad8a-8bb8dba3da65">DVB
 
 
 
-<a href="https://msdn.microsoft.com/5ae43ac6-519d-486b-aaa5-c766f3194ef2">BDA Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-structures">BDA Structures</a>
  
 
  

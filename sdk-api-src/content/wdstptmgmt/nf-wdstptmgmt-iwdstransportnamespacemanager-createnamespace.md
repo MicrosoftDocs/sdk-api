@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an object of an <a href="https://msdn.microsoft.com/eadb7b1b-aaef-4a4e-a2de-c641a4e10173">IWdsTransportNamespace</a> interface that can be registered on the current WDS transport server.
+Creates an object of an <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a> interface that can be registered on the current WDS transport server.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Creates an object of an <a href="https://msdn.microsoft.com/eadb7b1b-aaef-4a4e-a
 
 ### -param NamespaceType [in]
 
-The type of the new namespace object. This can be one of the namespace types listed by the <a href="https://msdn.microsoft.com/en-us/library/Bb736538(v=VS.85).aspx">WDSTRANSPORT_NAMESPACE_TYPE</a> enumeration. 
+The type of the new namespace object. This can be one of the namespace types listed by the <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/ne-wdstptmgmt-__midl___midl_itf_wdstptmgmt_0000_0000_0003">WDSTRANSPORT_NAMESPACE_TYPE</a> enumeration. 
 
 
 ### -param bszNamespaceName [in]
@@ -79,7 +79,7 @@ The configuration information used by the content provider. The format of this i
 
 ### -param ppWdsTransportNamespace [out]
 
-A pointer to the object of an <a href="https://msdn.microsoft.com/eadb7b1b-aaef-4a4e-a2de-c641a4e10173">IWdsTransportNamespace</a> interface created by this method. 
+A pointer to the object of an <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a> interface created by this method. 
 
 
 ## -returns
@@ -96,15 +96,15 @@ Standard HRESULT error values are used: S_OK for success; others for failure.
 
 
 
-<a href="https://msdn.microsoft.com/eadb7b1b-aaef-4a4e-a2de-c641a4e10173">IWdsTransportNamespace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a>
 
 
 
-<a href="https://msdn.microsoft.com/de5fc470-af9f-4f9f-bc17-a347dc702e36">IWdsTransportNamespaceManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespacemanager">IWdsTransportNamespaceManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736538(v=VS.85).aspx">WDSTRANSPORT_NAMESPACE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/ne-wdstptmgmt-__midl___midl_itf_wdstptmgmt_0000_0000_0003">WDSTRANSPORT_NAMESPACE_TYPE</a>
  
 
  

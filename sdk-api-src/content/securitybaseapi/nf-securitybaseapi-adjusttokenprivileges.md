@@ -56,7 +56,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>AdjustTokenPrivileges</b> function enables or disables privileges in the specified <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access token</a>. Enabling or disabling privileges in an access token requires TOKEN_ADJUST_PRIVILEGES access.
+The <b>AdjustTokenPrivileges</b> function enables or disables privileges in the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access token</a>. Enabling or disabling privileges in an access token requires TOKEN_ADJUST_PRIVILEGES access.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ Specifies whether the function disables all of the token's privileges. If this v
 ### -param NewState [in, optional]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/c9016511-740f-44f3-92ed-17cc518c6612">TOKEN_PRIVILEGES</a> structure that specifies an array of privileges and their attributes. If the <i>DisableAllPrivileges</i> parameter is <b>FALSE</b>, the  <b>AdjustTokenPrivileges</b>  function enables, disables, or removes these privileges for the token. The following table describes the action taken by the <b>AdjustTokenPrivileges</b> function, based on the privilege attribute.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_privileges">TOKEN_PRIVILEGES</a> structure that specifies an array of privileges and their attributes. If the <i>DisableAllPrivileges</i> parameter is <b>FALSE</b>, the  <b>AdjustTokenPrivileges</b>  function enables, disables, or removes these privileges for the token. The following table describes the action taken by the <b>AdjustTokenPrivileges</b> function, based on the privilege attribute.
 
 <table>
 <tr>
@@ -140,7 +140,7 @@ Specifies the size, in bytes, of the buffer pointed to by the <i>PreviousState</
 
 ### -param PreviousState [out, optional]
 
-A pointer to a buffer that the function fills with a <a href="https://msdn.microsoft.com/c9016511-740f-44f3-92ed-17cc518c6612">TOKEN_PRIVILEGES</a> structure that contains the previous state of any privileges that the function modifies.  That is, if a privilege has been modified by this function, the privilege and its previous state are contained in the <b>TOKEN_PRIVILEGES</b> structure referenced by <i>PreviousState</i>. If the <b>PrivilegeCount</b> member of <b>TOKEN_PRIVILEGES</b> is zero, then no privileges have been changed by this function. This parameter can be <b>NULL</b>. 
+A pointer to a buffer that the function fills with a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_privileges">TOKEN_PRIVILEGES</a> structure that contains the previous state of any privileges that the function modifies.  That is, if a privilege has been modified by this function, the privilege and its previous state are contained in the <b>TOKEN_PRIVILEGES</b> structure referenced by <i>PreviousState</i>. If the <b>PrivilegeCount</b> member of <b>TOKEN_PRIVILEGES</b> is zero, then no privileges have been changed by this function. This parameter can be <b>NULL</b>. 
 
 
 
@@ -158,7 +158,7 @@ A pointer to a variable that receives the required size, in bytes, of the buffer
 
 
 If the function succeeds, the return value is nonzero. To determine whether the function adjusted all of the specified privileges, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>, which returns one of the following values when the function succeeds:
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which returns one of the following values when the function succeeds:
 
 <table>
 <tr>
@@ -190,7 +190,7 @@ The token does not have one or more of the privileges specified in the <i>NewSta
 </table>
  
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -200,17 +200,17 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 The <b>AdjustTokenPrivileges</b> function cannot add new privileges to the access token. It can only enable or disable the token's existing privileges. To determine the token's privileges, call the 
-<a href="https://msdn.microsoft.com/e94de19c-de12-40fb-a72c-060f7ad12f75">GetTokenInformation</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a> function.
 
-The <i>NewState</i> parameter can specify privileges that the token does not have, without causing the function to fail. In this case, the function adjusts the privileges that the token does have and ignores the other privileges so that the function succeeds. Call the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function to determine whether the function adjusted all of the specified privileges. The <i>PreviousState</i> parameter indicates the privileges that were adjusted.
+The <i>NewState</i> parameter can specify privileges that the token does not have, without causing the function to fail. In this case, the function adjusts the privileges that the token does have and ignores the other privileges so that the function succeeds. Call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to determine whether the function adjusted all of the specified privileges. The <i>PreviousState</i> parameter indicates the privileges that were adjusted.
 
 The <i>PreviousState</i> parameter retrieves a 
-<a href="https://msdn.microsoft.com/c9016511-740f-44f3-92ed-17cc518c6612">TOKEN_PRIVILEGES</a> structure that contains the original state of the adjusted privileges. To restore the original state, pass the <i>PreviousState</i> pointer as the <i>NewState</i> parameter in a subsequent call to the <b>AdjustTokenPrivileges</b> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_privileges">TOKEN_PRIVILEGES</a> structure that contains the original state of the adjusted privileges. To restore the original state, pass the <i>PreviousState</i> pointer as the <i>NewState</i> parameter in a subsequent call to the <b>AdjustTokenPrivileges</b> function.
 
 
 #### Examples
 
-For an example that uses this function, see <a href="https://msdn.microsoft.com/aa2d3fe7-01ee-4243-b72c-3e8b90068e22">Enabling and Disabling Privileges</a>.
+For an example that uses this function, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/enabling-and-disabling-privileges-in-c--">Enabling and Disabling Privileges</a>.
 
 <div class="code"></div>
 
@@ -221,35 +221,35 @@ For an example that uses this function, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/d9ce4ec5-5c09-4b33-93a1-39638a925986">Access Control Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/839c4b58-4c61-4f72-8337-1e3dfa267ee5">AdjustTokenGroups</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokengroups">AdjustTokenGroups</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/e94de19c-de12-40fb-a72c-060f7ad12f75">GetTokenInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/1e760ad8-7e46-4748-8c45-36ad8efe936a">OpenProcessToken</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocesstoken">OpenProcessToken</a>
 
 
 
-<a href="https://msdn.microsoft.com/5003f0c4-41e9-4a14-b6a9-4f259c4af08b">OpenThreadToken</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthreadtoken">OpenThreadToken</a>
 
 
 
-<a href="https://msdn.microsoft.com/cdb8af74-540d-4059-ac64-6243f6aabaa6">SetTokenInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-settokeninformation">SetTokenInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/c9016511-740f-44f3-92ed-17cc518c6612">TOKEN_PRIVILEGES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_privileges">TOKEN_PRIVILEGES</a>
  
 
  

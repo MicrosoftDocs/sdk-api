@@ -84,7 +84,7 @@ This method returns <b>S_OK</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774062(v=VS.85).aspx">ITextStoryRanges</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextstoryranges">ITextStoryRanges</a>
 
 
 
@@ -92,7 +92,7 @@ This method returns <b>S_OK</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
  
 
  

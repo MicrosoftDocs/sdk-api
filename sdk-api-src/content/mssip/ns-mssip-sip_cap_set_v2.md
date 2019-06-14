@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SIP_CAP_SET</b> structure defines the capabilities of a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">subject interface package</a> (SIP).
+The <b>SIP_CAP_SET</b> structure defines the capabilities of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">subject interface package</a> (SIP).
 
 
 ## -struct-fields

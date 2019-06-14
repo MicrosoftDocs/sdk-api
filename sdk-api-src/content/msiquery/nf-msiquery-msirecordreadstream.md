@@ -118,7 +118,7 @@ while (cbBuf == 8);  //continue reading the stream while you receive a full buff
 
 
 See also 
-<a href="https://msdn.microsoft.com/ebd5fcac-0238-4f30-9fd5-a0c5cf9028ef">OLE Limitations on Streams</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/ole-limitations-on-streams">OLE Limitations on Streams</a>.
 
 
 
@@ -128,7 +128,7 @@ See also
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Record Processing Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Record Processing Functions</a>
  
 
  

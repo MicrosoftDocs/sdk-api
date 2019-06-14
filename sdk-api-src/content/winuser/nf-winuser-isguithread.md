@@ -92,7 +92,7 @@ If <i>bConvert</i> is <b>TRUE</b> and the function cannot successfully convert t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows Overview</a>
  
 
  

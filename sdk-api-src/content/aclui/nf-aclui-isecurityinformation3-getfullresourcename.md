@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>GetFullResourceName</b> method retrieves the full path and file name of the object associated with the access control editor that is displayed by calling the <a href="https://msdn.microsoft.com/4ed50e6b-4c4a-48bf-ad7c-133064a4be47">OpenElevatedEditor</a> method.
+The <b>GetFullResourceName</b> method retrieves the full path and file name of the object associated with the access control editor that is displayed by calling the <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation3-openelevatededitor">OpenElevatedEditor</a> method.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ The full path and file name of the object for which permissions are to be edited
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an error code. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -78,11 +78,11 @@ If the method fails, it returns an error code. For a list of common error codes,
 
 
 
-<a href="https://msdn.microsoft.com/e6cf92da-ebd2-4960-9df1-7124745df616">ISecurityInformation3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation3">ISecurityInformation3</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ed50e6b-4c4a-48bf-ad7c-133064a4be47">OpenElevatedEditor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation3-openelevatededitor">OpenElevatedEditor</a>
  
 
  

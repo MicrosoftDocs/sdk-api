@@ -80,7 +80,7 @@ A copy of the string, or <b>NULL</b> if there is insufficient memory to complete
 
 
 
-The string can contain embedded null characters and does not need to end with a <b>NULL</b>. Free the returned string later with <a href="https://msdn.microsoft.com/8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>. If <i>strIn</i> is not <b>NULL</b>, then the memory allocated to <i>strIn</i> must be at least <i>ui</i> characters long.
+The string can contain embedded null characters and does not need to end with a <b>NULL</b>. Free the returned string later with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>. If <i>strIn</i> is not <b>NULL</b>, then the memory allocated to <i>strIn</i> must be at least <i>ui</i> characters long.
 
 <div class="alert"><b>Note</b>  This function does not convert a <b>char *</b> string into a Unicode <b>BSTR</b>.</div>
 <div> </div>
@@ -92,7 +92,7 @@ The string can contain embedded null characters and does not need to end with a 
 
 
 
-<a href="https://msdn.microsoft.com/323cefbf-836c-4c9d-bcbe-f2663a57d2b5">String Manipulation Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/string-manipulation-functions">String Manipulation Functions</a>
  
 
  

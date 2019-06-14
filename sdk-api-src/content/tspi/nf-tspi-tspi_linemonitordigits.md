@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>TSPI_lineMonitorDigits</b> function enables and disables the unbuffered detection of digits received on the call. Each time a digit of the specified digit mode(s) is detected, a 
-<a href="https://msdn.microsoft.com/f1771e15-6356-4455-a951-ce0a2803bcfc">LINE_MONITORDIGITS</a> message is sent to the application by TAPI, indicating which digit is detected.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725232(v=vs.85)">LINE_MONITORDIGITS</a> message is sent to the application by TAPI, indicating which digit is detected.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ The handle to the call on which digits are to be detected. The call state of <i>
 ### -param dwDigitModes
 
 The digit mode(s) that are to be monitored. A <i>dwDigitModes</i> parameter with a value of 0 cancels digit monitoring. The <i>dwDigitModes</i> parameter can have one of the 
-<a href="https://msdn.microsoft.com/d603ea28-2b93-4548-bb16-78e93087f828">LINEDIGITMODE_ constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linedigitmode--constants">LINEDIGITMODE_ constants</a>.
 
 
 ## -returns
@@ -92,12 +92,12 @@ This function returns zero (success) when digit monitoring is correctly initiate
 Although this function can be invoked in any call state, digits typically are detected only while the call is in the <i>connected</i> state.
 
 Each time a digit is detected, the service provider sends a 
-<a href="https://msdn.microsoft.com/f1771e15-6356-4455-a951-ce0a2803bcfc">LINE_MONITORDIGITS</a> message to TAPI, passing the detected digit as a parameter. If both LINEDIGITMODE_DTMF and LINEDIGITMODE_DTMFEND are set in <i>dwDigitModes</i>, the two LINE_MONITORDIGITS messages are sent for each digit.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725232(v=vs.85)">LINE_MONITORDIGITS</a> message to TAPI, passing the detected digit as a parameter. If both LINEDIGITMODE_DTMF and LINEDIGITMODE_DTMFEND are set in <i>dwDigitModes</i>, the two LINE_MONITORDIGITS messages are sent for each digit.
 
 TAPI can use 
 <b>TSPI_lineMonitorDigits</b> to enable or disable unbuffered digit detection. It can use 
-<a href="https://msdn.microsoft.com/a7035e4d-dbb3-48b2-b44a-a7acb85e2d8a">TSPI_lineGatherDigits</a> for buffered digit detection. After buffered digit gathering is complete, a 
-<a href="https://msdn.microsoft.com/bc625ff5-4af4-4e70-ab3a-1c12c74cff1c">LINE_GATHERDIGITS</a> message is sent. Both buffered and unbuffered digit detection can be enabled on the same call simultaneously.
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegatherdigits">TSPI_lineGatherDigits</a> for buffered digit detection. After buffered digit gathering is complete, a 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725229(v=vs.85)">LINE_GATHERDIGITS</a> message is sent. Both buffered and unbuffered digit detection can be enabled on the same call simultaneously.
 
 
 
@@ -107,31 +107,31 @@ TAPI can use
 
 
 
-<a href="https://msdn.microsoft.com/83e38453-bb93-4cc5-923f-d0cd2898350a">LINEDEVCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/d603ea28-2b93-4548-bb16-78e93087f828">LINEDIGITMODE_ Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linedigitmode--constants">LINEDIGITMODE_ Constants</a>
 
 
 
-<a href="https://msdn.microsoft.com/bc625ff5-4af4-4e70-ab3a-1c12c74cff1c">LINE_GATHERDIGITS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725229(v=vs.85)">LINE_GATHERDIGITS</a>
 
 
 
-<a href="https://msdn.microsoft.com/f1771e15-6356-4455-a951-ce0a2803bcfc">LINE_MONITORDIGITS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725232(v=vs.85)">LINE_MONITORDIGITS</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7035e4d-dbb3-48b2-b44a-a7acb85e2d8a">TSPI_lineGatherDigits</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegatherdigits">TSPI_lineGatherDigits</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c5a668e-9a9a-4a7a-98e9-bd8ec4b819b2">TSPI_lineGetDevCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetdevcaps">TSPI_lineGetDevCaps</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9273bd6-8dc3-4b45-bf0e-a1a10d78a604">TSPI_lineSetMediaControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetmediacontrol">TSPI_lineSetMediaControl</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CertGetServerOcspResponseContext</b> function retrieves a non-blocking, time valid <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">online certificate status protocol</a> (OCSP) response context for the specified handle.
+The <b>CertGetServerOcspResponseContext</b> function retrieves a non-blocking, time valid <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) response context for the specified handle.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>CertGetServerOcspResponseContext</b> function retrieves a non-blocking, t
 
 ### -param hServerOcspResponse [in]
 
-The OCSP server response handle for which to retrieve a response context. This handle is returned by the <a href="https://msdn.microsoft.com/c29d1972-b329-4e32-aead-a038130fb85e">CertOpenServerOcspResponse</a> function.
+The OCSP server response handle for which to retrieve a response context. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenserverocspresponse">CertOpenServerOcspResponse</a> function.
 
 
 ### -param dwFlags [in]
@@ -76,9 +76,9 @@ This parameter is reserved for future use and must be <b>NULL</b>.
 
 
 
-If the function succeeds, it returns a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb540821(v=VS.85).aspx">CERT_SERVER_OCSP_RESPONSE_CONTEXT</a> structure.
+If the function succeeds, it returns a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_server_ocsp_response_context">CERT_SERVER_OCSP_RESPONSE_CONTEXT</a> structure.
 
-For a response to be time valid, the current time on the system hosting this function call must be less than the next update time for the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL) context. When a time valid OCSP response
+For a response to be time valid, the current time on the system hosting this function call must be less than the next update time for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) context. When a time valid OCSP response
 is not available, this function returns <b>NULL</b> with the last error set to
 CRYPT_E_REVOCATION_OFFLINE.
 
@@ -89,7 +89,7 @@ CRYPT_E_REVOCATION_OFFLINE.
 
 
 
-If you use the <b>CertGetServerOcspResponseContext</b> function to create multiple references to an OCSP response context, you must call <a href="https://msdn.microsoft.com/b7cdce9b-25fe-4fb9-b266-61989793699b">CertAddRefServerOcspResponseContext</a> to increment the reference count for the <a href="https://msdn.microsoft.com/en-us/library/Bb540821(v=VS.85).aspx">CERT_SERVER_OCSP_RESPONSE_CONTEXT</a> structure. When you have finished using the structure, you must free it by calling the <a href="https://msdn.microsoft.com/a07fc1e0-6f06-4336-b33c-d4d6a838b609">CertFreeServerOcspResponseContext</a> function.
+If you use the <b>CertGetServerOcspResponseContext</b> function to create multiple references to an OCSP response context, you must call <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddrefserverocspresponsecontext">CertAddRefServerOcspResponseContext</a> to increment the reference count for the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_server_ocsp_response_context">CERT_SERVER_OCSP_RESPONSE_CONTEXT</a> structure. When you have finished using the structure, you must free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreeserverocspresponsecontext">CertFreeServerOcspResponseContext</a> function.
 
 
 

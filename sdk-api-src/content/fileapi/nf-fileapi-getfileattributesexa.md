@@ -61,7 +61,7 @@ ms.custom: 19H1
 Retrieves attributes for a specified file or directory.
 
 To perform this operation as a transacted operation, use the 
-    <a href="https://msdn.microsoft.com/dd1435da-93e5-440a-913a-9e40e39b4a01">GetFileAttributesTransacted</a> function.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileattributestransacteda">GetFileAttributesTransacted</a> function.
 
 
 ## -parameters
@@ -76,9 +76,9 @@ The name of the file or directory.
 In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
        To extend this limit to 32,767 wide characters, call the Unicode version of the function (<b>GetFileAttributesExW</b>), and prepend 
        "\\?\" to the path. For more information, see 
-       <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">Naming a File</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
 
-<div class="alert"><b>Tip</b>  Starting in Windows 10, version 1607, for the unicode version of this function (<b>GetFileAttributesExW</b>), you can opt-in to remove the <b>MAX_PATH</b> character limitation without prepending "\\?\". See the "Maximum Path Limitation" section of  <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">Naming Files, Paths, and Namespaces</a> for details. </div>
+<div class="alert"><b>Tip</b>  Starting in Windows 10, version 1607, for the unicode version of this function (<b>GetFileAttributesExW</b>), you can opt-in to remove the <b>MAX_PATH</b> character limitation without prepending "\\?\". See the "Maximum Path Limitation" section of  <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details. </div>
 <div> </div>
 
 ### -param fInfoLevelId [in]
@@ -86,7 +86,7 @@ In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> cha
 A class of attribute information to retrieve.
 
 This parameter can be the following value from the 
-      <a href="https://msdn.microsoft.com/1004ab99-9c08-4ed4-ba5f-d72f1b44a415">GET_FILEEX_INFO_LEVELS</a> enumeration.
+      <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ne-minwinbase-get_fileex_info_levels">GET_FILEEX_INFO_LEVELS</a> enumeration.
 
 <table>
 <tr>
@@ -100,7 +100,7 @@ This parameter can be the following value from the
 </td>
 <td width="60%">
 The <i>lpFileInformation</i> parameter is a 
-        <a href="https://msdn.microsoft.com/e1a7fb5c-2d69-40e3-b9d8-b583a03d828a">WIN32_FILE_ATTRIBUTE_DATA</a> 
+        <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-_win32_file_attribute_data">WIN32_FILE_ATTRIBUTE_DATA</a> 
         structure.
 
 </td>
@@ -124,7 +124,7 @@ The type of attribute information that is stored into this buffer is determined 
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero (0). To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -133,7 +133,7 @@ If the function fails, the return value is zero (0). To get extended error infor
 
 
 
-The <a href="https://msdn.microsoft.com/9f9bcdbb-1ffd-49c2-92f4-181fdcc9c690">GetFileAttributes</a> function retrieves file 
+The <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a> function retrieves file 
     system attribute information. <b>GetFileAttributesEx</b> 
     can obtain other sets of file or directory attribute information. Currently, 
     <b>GetFileAttributesEx</b> retrieves a set of standard 
@@ -143,7 +143,7 @@ When the <b>GetFileAttributesEx</b> function is
     called on a directory that is a mounted folder, it returns the attributes of the directory, not those of the root 
     directory in the volume that the mounted folder associates with the directory. To obtain the attributes of the 
     associated volume, call 
-    <a href="https://msdn.microsoft.com/3f749042-bdc9-4087-bb8a-d833713472eb">GetVolumeNameForVolumeMountPoint</a> to 
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumenameforvolumemountpointw">GetVolumeNameForVolumeMountPoint</a> to 
     obtain the name of the associated volume. Then use the resulting name in a call to 
     <b>GetFileAttributesEx</b>. The results are the attributes 
     of the root directory on the associated volume.
@@ -226,27 +226,27 @@ If a file is open for modification in a transaction, no other thread can open th
 
 
 
-<a href="https://msdn.microsoft.com/ed9a73d2-7fb6-4fb7-97f6-4dbf89e2f156">File Attribute Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>
 
 
 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9f9bcdbb-1ffd-49c2-92f4-181fdcc9c690">GetFileAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd1435da-93e5-440a-913a-9e40e39b4a01">GetFileAttributesTransacted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileattributestransacteda">GetFileAttributesTransacted</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d5400c3-555f-44fc-9470-52a36d04d90b">SetFileAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileattributesa">SetFileAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/d6bf5df7-bc12-4dec-b116-95d9109f5eb4">Symbolic Links</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>
  
 
  

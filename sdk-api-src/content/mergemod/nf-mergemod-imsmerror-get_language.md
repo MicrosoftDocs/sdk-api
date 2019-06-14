@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>get_Language</b> method retrieves the 
-<a href="https://msdn.microsoft.com/9b0608d1-b6e8-4cf9-8119-3c2909156516">Language</a> property of the 
-<a href="https://msdn.microsoft.com/38025e21-2d31-40f8-a088-2d3912c2893e">Error</a> object. This function returns the <b>LANGID</b> of the error.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/dependency-language">Language</a> property of the 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/error-object">Error</a> object. This function returns the <b>LANGID</b> of the error.
 
 
 ## -parameters
@@ -108,7 +108,7 @@ The function succeeded.
 
 
 
-The function returns -1 unless the error is of type msmErrorLanguageUnsupported or msmErrorLanguageFailed. You can determine the type of error by calling <a href="https://msdn.microsoft.com/733a5390-419d-414a-b50e-8400d179bfb6">IMsmError::get_Type</a>.
+The function returns -1 unless the error is of type msmErrorLanguageUnsupported or msmErrorLanguageFailed. You can determine the type of error by calling <a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_type">IMsmError::get_Type</a>.
 
 
 
@@ -118,7 +118,7 @@ The function returns -1 unless the error is of type msmErrorLanguageUnsupported 
 
 
 
-<a href="https://msdn.microsoft.com/877d3691-948f-4aea-89d8-0ff008126ccc">Merge Module Automation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
  
 
  

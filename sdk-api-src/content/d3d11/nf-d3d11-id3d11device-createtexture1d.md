@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an array of <a href="https://msdn.microsoft.com/d745093e-2d51-4d45-a88a-caa0ca58b2ba">1D textures</a>.
+Creates an array of <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-resources-textures-intro">1D textures</a>.
 
 
 ## -parameters
@@ -60,20 +60,20 @@ Creates an array of <a href="https://msdn.microsoft.com/d745093e-2d51-4d45-a88a-
 
 ### -param pDesc [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/8523d7b1-856e-4ec8-9286-4f1f2730a428">D3D11_TEXTURE1D_DESC</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_texture1d_desc">D3D11_TEXTURE1D_DESC</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/8523d7b1-856e-4ec8-9286-4f1f2730a428">D3D11_TEXTURE1D_DESC</a> structure that describes a 1D texture resource. To create a typeless resource that can be interpreted at runtime into different, compatible formats, specify a typeless format in the texture description. To generate mipmap levels automatically, set the number of mipmap levels to 0.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_texture1d_desc">D3D11_TEXTURE1D_DESC</a> structure that describes a 1D texture resource. To create a typeless resource that can be interpreted at runtime into different, compatible formats, specify a typeless format in the texture description. To generate mipmap levels automatically, set the number of mipmap levels to 0.
 
 
 ### -param pInitialData [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/0ae10f12-4ef7-4dab-a7d7-fb4f2fd72a73">D3D11_SUBRESOURCE_DATA</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_subresource_data">D3D11_SUBRESOURCE_DATA</a>*</b>
 
-A pointer to an array of <a href="https://msdn.microsoft.com/0ae10f12-4ef7-4dab-a7d7-fb4f2fd72a73">D3D11_SUBRESOURCE_DATA</a> structures that describe subresources for the 1D texture resource. Applications can't specify <b>NULL</b> for <i>pInitialData</i> when creating IMMUTABLE resources (see <a href="https://msdn.microsoft.com/251d462e-964e-42db-8554-dba8f5a9b1ef">D3D11_USAGE</a>). If the resource is multisampled, <i>pInitialData</i> must be <b>NULL</b> because multisampled resources cannot be initialized with data when they are created. 
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_subresource_data">D3D11_SUBRESOURCE_DATA</a> structures that describe subresources for the 1D texture resource. Applications can't specify <b>NULL</b> for <i>pInitialData</i> when creating IMMUTABLE resources (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_usage">D3D11_USAGE</a>). If the resource is multisampled, <i>pInitialData</i> must be <b>NULL</b> because multisampled resources cannot be initialized with data when they are created. 
 
 If you don't pass anything to <i>pInitialData</i>, the initial content of the memory for the resource is undefined. In this case, you need to write the resource content some other way before the resource is read.
 
-You can determine the size of this array from values in the <b>MipLevels</b> and <b>ArraySize</b> members of the <a href="https://msdn.microsoft.com/8523d7b1-856e-4ec8-9286-4f1f2730a428">D3D11_TEXTURE1D_DESC</a> structure to which <i>pDesc</i> points by using the following calculation:
+You can determine the size of this array from values in the <b>MipLevels</b> and <b>ArraySize</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_texture1d_desc">D3D11_TEXTURE1D_DESC</a> structure to which <i>pDesc</i> points by using the following calculation:
 
 MipLevels * ArraySize
 
@@ -82,18 +82,18 @@ For more information about this array size, see Remarks.
 
 ### -param ppTexture1D [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/8f375031-014e-4eca-84d5-ebe40058f121">ID3D11Texture1D</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11texture1d">ID3D11Texture1D</a>**</b>
 
-A pointer to a buffer that receives a pointer to a <a href="https://msdn.microsoft.com/8f375031-014e-4eca-84d5-ebe40058f121">ID3D11Texture1D</a> interface for the created texture. Set this parameter to <b>NULL</b> to validate the other input parameters (the method will return S_FALSE if the other input parameters pass validation).
+A pointer to a buffer that receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11texture1d">ID3D11Texture1D</a> interface for the created texture. Set this parameter to <b>NULL</b> to validate the other input parameters (the method will return S_FALSE if the other input parameters pass validation).
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-If the method succeeds, the return code is S_OK. See <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a> for failing error codes.
+If the method succeeds, the return code is S_OK. See <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a> for failing error codes.
 
 
 
@@ -104,7 +104,7 @@ If the method succeeds, the return code is S_OK. See <a href="https://msdn.micro
 
 <b>CreateTexture1D</b> creates a 1D texture resource, which can contain a number of 1D subresources. The number of textures is specified in the texture description. All textures in a resource must have the same format, size, and number of mipmap levels.
 
-All resources are made up of one or more subresources. To load data into the texture, applications can supply the data initially as an array of <a href="https://msdn.microsoft.com/0ae10f12-4ef7-4dab-a7d7-fb4f2fd72a73">D3D11_SUBRESOURCE_DATA</a> structures pointed to by <i>pInitialData</i>, or they can use one of the D3DX texture functions such as <a href="https://msdn.microsoft.com/a84ea166-2296-48d9-a028-b65fd68f2371">D3DX11CreateTextureFromFile</a>.
+All resources are made up of one or more subresources. To load data into the texture, applications can supply the data initially as an array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_subresource_data">D3D11_SUBRESOURCE_DATA</a> structures pointed to by <i>pInitialData</i>, or they can use one of the D3DX texture functions such as <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3dx11createtexturefromfile">D3DX11CreateTextureFromFile</a>.
 
 For a 32 width texture with a full mipmap chain, the <i>pInitialData</i> array has the following 6 elements:
 
@@ -128,7 +128,7 @@ For a 32 width texture with a full mipmap chain, the <i>pInitialData</i> array h
 
 
 
-<a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>
  
 
  

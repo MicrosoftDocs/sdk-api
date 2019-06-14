@@ -53,18 +53,18 @@ ms.custom: 19H1
 
 Enumerates pins on a filter.
 
-The <a href="https://msdn.microsoft.com/02675c93-7901-40f6-a9fc-f6f13f56acca">IBaseFilter::EnumPins</a> method returns this interface. It is based on the standard Component Object Model (COM) enumerators. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ibasefilter-enumpins">IBaseFilter::EnumPins</a> method returns this interface. It is based on the standard Component Object Model (COM) enumerators. 
 
-The filter graph manager uses this interface when it connects filters. Applications can use it to retrieve pins on a filter. For more information, see <a href="https://msdn.microsoft.com/04a3dbc8-33c4-4b70-930e-686be2f8301f">Enumerating Objects in a Filter Graph</a>.
+The filter graph manager uses this interface when it connects filters. Applications can use it to retrieve pins on a filter. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/enumerating-objects-in-a-filter-graph">Enumerating Objects in a Filter Graph</a>.
 
-If the number of pins on the filter changes, some methods on this interface return VFW_E_ENUM_OUT_OF_SYNC. Call the <a href="https://msdn.microsoft.com/c2147884-aec2-43ae-b85a-61383ad6ca15">IEnumPins::Reset</a> method to resynchronize the enumerator.
+If the number of pins on the filter changes, some methods on this interface return VFW_E_ENUM_OUT_OF_SYNC. Call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ienumpins-reset">IEnumPins::Reset</a> method to resynchronize the enumerator.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumPins</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnumPins</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumPins</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumPins</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -79,7 +79,7 @@ The <b>IEnumPins</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/946bb08e-6866-46b3-b2d7-de2ab6c5e608">Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ienumpins-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Makes a copy of the enumerator with the same enumeration state.
@@ -88,7 +88,7 @@ Makes a copy of the enumerator with the same enumeration state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/03a30eb6-b39f-4497-ad3f-8af2c3ecf2f0">Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ienumpins-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified number of pins.
@@ -97,7 +97,7 @@ Retrieves a specified number of pins.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c2147884-aec2-43ae-b85a-61383ad6ca15">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ienumpins-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning.
@@ -106,7 +106,7 @@ Resets the enumeration sequence to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/501d08ee-ebd1-48dc-8cc9-bf017034b4cd">Skip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ienumpins-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over a specified number of pins.

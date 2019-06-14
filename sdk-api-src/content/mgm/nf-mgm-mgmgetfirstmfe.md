@@ -78,7 +78,7 @@ On input, the client must supply a pointer to a buffer.
 
 
 On output, <i>pbBuffer</i> contains one or more MFEs. Each MFE is a 
-<a href="https://msdn.microsoft.com/731e2c88-5c4f-4165-a9f2-287b4c10c76b">MIB_IPMCAST_MFE</a> structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_mfe">MIB_IPMCAST_MFE</a> structure.
 
 
 ### -param pdwNumEntries [in, out]
@@ -163,17 +163,17 @@ No more MFEs are available. Zero or more MFEs were returned; check the value of 
 
 
 This function is used to begin sequential retrieval of MFEs; use 
-<a href="https://msdn.microsoft.com/067003ef-bb92-48cc-bc13-5b90066c9123">MgmGetNextMfe</a> to continue the retrieval process.
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgetnextmfe">MgmGetNextMfe</a> to continue the retrieval process.
 
 In general, to retrieve MFEs, first call 
 <b>MgmGetFirstMfe</b>. Then, call 
-<a href="https://msdn.microsoft.com/067003ef-bb92-48cc-bc13-5b90066c9123">MgmGetNextMfe</a> one or more times, until there are no more MFEs to return. Each call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgetnextmfe">MgmGetNextMfe</a> one or more times, until there are no more MFEs to return. Each call to 
 <b>MgmGetNextMfe</b> should begin after the last MFE returned by the previous call to 
 <b>MgmGetNextMfe</b> (or the initial call to 
 <b>MgmGetFirstMfe</b>). To do this, the client specifies the last source and group in the buffer returned by a previous call.
 
 <div class="alert"><b>Note</b>  The minimum size of the buffer pointed to by <i>pbBuffer</i> is not fixed; it is different for each MFE. Use the 
-sizeof(<a href="https://msdn.microsoft.com/731e2c88-5c4f-4165-a9f2-287b4c10c76b">MIB_IPMCAST_MFE</a>) macro to determine the size of each MFE returned in the buffer.</div>
+sizeof(<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_mfe">MIB_IPMCAST_MFE</a>) macro to determine the size of each MFE returned in the buffer.</div>
 <div> </div>
 
 
@@ -183,15 +183,15 @@ sizeof(<a href="https://msdn.microsoft.com/731e2c88-5c4f-4165-a9f2-287b4c10c76b"
 
 
 
-<a href="https://msdn.microsoft.com/731e2c88-5c4f-4165-a9f2-287b4c10c76b">MIB_IPMCAST_MFE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_mfe">MIB_IPMCAST_MFE</a>
 
 
 
-<a href="https://msdn.microsoft.com/15b1b096-9044-4983-9039-e7a13c2cca25">MgmGetMfe</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgetmfe">MgmGetMfe</a>
 
 
 
-<a href="https://msdn.microsoft.com/067003ef-bb92-48cc-bc13-5b90066c9123">MgmGetNextMfe</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgetnextmfe">MgmGetNextMfe</a>
  
 
  

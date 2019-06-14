@@ -121,11 +121,11 @@ The method succeeded.
 
 
 
-If the call is successful, all streams are synchronized to the same position based on the presentation time of the selected frame. Subsequent calls to <a href="https://msdn.microsoft.com/en-us/library/Dd798587(v=VS.85).aspx">GetNextSample</a> will retrieve samples for all active streams, not just the stream specified in the call to <b>SetRangeByFrame</b>. If you want to receive only samples for a single video stream by frame, you must call <a href="https://msdn.microsoft.com/en-us/library/Dd798707(v=VS.85).aspx">SetStreamsSelected</a> and pass the desired stream number prior to calling <b>GetNextSample</b>.
+If the call is successful, all streams are synchronized to the same position based on the presentation time of the selected frame. Subsequent calls to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getnextsample">GetNextSample</a> will retrieve samples for all active streams, not just the stream specified in the call to <b>SetRangeByFrame</b>. If you want to receive only samples for a single video stream by frame, you must call <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setstreamsselected">SetStreamsSelected</a> and pass the desired stream number prior to calling <b>GetNextSample</b>.
 
-To use <b>SetRangeByFrame</b>, the file in the synchronous reader must be indexed by frame numbers. You can configure the indexer object to index by frame numbers with a call to <a href="https://msdn.microsoft.com/en-us/library/Dd798533(v=VS.85).aspx">IWMIndexer2::Configure</a>. Then make a call to <a href="https://msdn.microsoft.com/en-us/library/Dd757208(v=VS.85).aspx">IWMIndexer::StartIndexing</a> to index the file with the new settings.
+To use <b>SetRangeByFrame</b>, the file in the synchronous reader must be indexed by frame numbers. You can configure the indexer object to index by frame numbers with a call to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmindexer2-configure">IWMIndexer2::Configure</a>. Then make a call to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmindexer-startindexing">IWMIndexer::StartIndexing</a> to index the file with the new settings.
 
-When you set a range for compressed sample delivery using a starting frame number, the synchronous reader will deliver samples starting at the first key frame before the specified frame. If you want to identify the presentation time of a frame, use <a href="https://msdn.microsoft.com/en-us/library/Dd798582(v=VS.85).aspx">IWMSyncReader2::SetRangeByFrameEx</a>.
+When you set a range for compressed sample delivery using a starting frame number, the synchronous reader will deliver samples starting at the first key frame before the specified frame. If you want to identify the presentation time of a frame, use <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader2-setrangebyframeex">IWMSyncReader2::SetRangeByFrameEx</a>.
 
 Passing a negative number results in an error.
 
@@ -139,19 +139,19 @@ You can call <b>SetRangeByFrame</b> at any time after a file has been loaded in 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798531(v=VS.85).aspx">IWMIndexer Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmindexer">IWMIndexer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798576(v=VS.85).aspx">IWMSyncReader Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798582(v=VS.85).aspx">IWMSyncReader2::SetRangeByFrameEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader2-setrangebyframeex">IWMSyncReader2::SetRangeByFrameEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798704(v=VS.85).aspx">IWMSyncReader::SetRange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setrange">IWMSyncReader::SetRange</a>
  
 
  

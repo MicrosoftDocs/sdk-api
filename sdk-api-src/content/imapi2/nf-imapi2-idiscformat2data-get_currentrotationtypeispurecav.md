@@ -369,7 +369,7 @@ Value: 0xC0AA0210
 
 
 
-To retrieve the requested rotational-speed control, call the <a href="https://msdn.microsoft.com/edf3a5a7-3164-4fba-bbbe-525932b0284d">IDiscFormat2Data::get_RequestedRotationTypeIsPureCAV</a> method.
+To retrieve the requested rotational-speed control, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_requestedrotationtypeispurecav">IDiscFormat2Data::get_RequestedRotationTypeIsPureCAV</a> method.
 
 Rotational-speed control types include the following:
 
@@ -387,15 +387,15 @@ Rotational-speed control types include the following:
 
 
 
-<a href="https://msdn.microsoft.com/6bb871c2-1a6e-4cf6-94e1-7a566ce7a88e">IDiscFormat2Data</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3e03af5-bda2-49a3-80d9-52acfe390708">IDiscFormat2Data::SetWriteSpeed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-setwritespeed">IDiscFormat2Data::SetWriteSpeed</a>
 
 
 
-<a href="https://msdn.microsoft.com/edf3a5a7-3164-4fba-bbbe-525932b0284d">IDiscFormat2Data::get_RequestedRotationTypeIsPureCAV</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_requestedrotationtypeispurecav">IDiscFormat2Data::get_RequestedRotationTypeIsPureCAV</a>
  
 
  

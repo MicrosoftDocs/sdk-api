@@ -50,9 +50,9 @@ ms.custom: 19H1
 ## -description
 
 
-Reports any <a href="https://msdn.microsoft.com/en-us/library/Aa384656(v=VS.85).aspx">file sets</a> that will be explicitly excluded by the writer when a shadow copy is created.
+Reports any <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-f">file sets</a> that will be explicitly excluded by the writer when a shadow copy is created.
 
-Calling this method does not cause the files to be excluded. The writer is responsible for deleting the files from the shadow copy in its <a href="https://msdn.microsoft.com/d97d4246-882e-49c3-a214-d8d3887c1508">CVssWriter::OnPostSnapshot</a> method.
+Calling this method does not cause the files to be excluded. The writer is responsible for deleting the files from the shadow copy in its <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostsnapshot">CVssWriter::OnPostSnapshot</a> method.
 
 
 ## -parameters
@@ -94,7 +94,7 @@ A Boolean value specifying whether the path specified by the <i>wszPath</i> para
 
 
 For information on traversing over mounted folders, see 
-<a href="https://msdn.microsoft.com/d0e08598-a8a2-489b-9cb2-e989bed1ce53">Working with Mounted Folders and Reparse Points</a>.
+<a href="https://docs.microsoft.com/windows/desktop/VSS/working-with-reparse-and-mount-points">Working with Mounted Folders and Reparse Points</a>.
 
 
 ## -returns
@@ -153,7 +153,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more information, see 
-<a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+<a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -177,7 +177,7 @@ This method is not supported for express writers.
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -197,10 +197,10 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 The use of the <b>AddExcludeFilesFromSnapshot</b> method is optional. Writers should use this method only for large files that change significantly between shadow copy operations.
 
-This method is not a substitute for the <a href="https://msdn.microsoft.com/705bb666-9080-4b42-af58-9cc21fbf88cf">IVssCreateWriterMetadata::AddExcludeFiles</a> method. Writers should continue to use the <b>AddExcludeFiles</b> method to report which <a href="https://msdn.microsoft.com/en-us/library/Aa384656(v=VS.85).aspx">file sets</a> are excluded from backup.
+This method is not a substitute for the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addexcludefiles">IVssCreateWriterMetadata::AddExcludeFiles</a> method. Writers should continue to use the <b>AddExcludeFiles</b> method to report which <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-f">file sets</a> are excluded from backup.
 
-The caller is responsible for calling the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method to release the resources of the returned 
-<a href="https://msdn.microsoft.com/0b86882d-af1b-4a09-8c25-5b806c9ca909">IVssWMFiledesc</a> object.
+The caller is responsible for calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method to release the resources of the returned 
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> object.
 
 
 
@@ -210,19 +210,19 @@ The caller is responsible for calling the <a href="https://msdn.microsoft.com/en
 
 
 
-<a href="https://msdn.microsoft.com/705bb666-9080-4b42-af58-9cc21fbf88cf">IVssCreateWriterMetadata::AddExcludeFiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addexcludefiles">IVssCreateWriterMetadata::AddExcludeFiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/eec0a7ef-ad7c-4fb6-a101-573c2d0943c2">IVssCreateWriterMetadataEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadataex">IVssCreateWriterMetadataEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/77f21feb-bd7c-4fd0-820b-9dabb1bcbc89">IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadataex2-getexcludefromsnapshotcount">IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/3df57749-9a26-4187-b1fc-aeb68a4d1d06">IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadataex2-getexcludefromsnapshotfile">IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotFile</a>
  
 
  

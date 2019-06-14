@@ -61,7 +61,7 @@ The
 ### -param pGatherTermination [out]
 
 Pointer to a value from the 
-<a href="https://msdn.microsoft.com/781266db-73a3-4202-922f-5c2d13bd3009">TAPI_GATHERTERM</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-tapi_gatherterm">TAPI_GATHERTERM</a> enumeration.
 
 
 ## -returns
@@ -108,7 +108,7 @@ The <i>pGatherTermination</i> parameter is not a valid pointer.
 
 
 
-<a href="https://msdn.microsoft.com/2d710bea-a0fd-492b-81a3-03b741685c91">ITDigitsGatheredEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itdigitsgatheredevent">ITDigitsGatheredEvent</a>
  
 
  

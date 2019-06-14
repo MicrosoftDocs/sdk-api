@@ -67,17 +67,17 @@ The number of levels of signatures to generate. The valid range is from
 ### -param iGeneratorParametersArray [in]
 
 Pointer to an array of initialized 
-    <a href="https://msdn.microsoft.com/1b2db5c5-79eb-490a-ae03-36b0e926725d">IRdcGeneratorParameters</a> interface pointers. Each 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgeneratorparameters">IRdcGeneratorParameters</a> interface pointers. Each 
     <b>IRdcGeneratorParameters</b> interface pointer would 
     have been initialized by 
-    <a href="https://msdn.microsoft.com/a39e26bc-7493-4def-af6d-cf3620ec8a9f">IRdcLibrary::CreateGeneratorParameters</a> or 
-    <a href="https://msdn.microsoft.com/c2ee5aea-c186-4017-bc35-2f83f5c05824">IRdcGenerator::GetGeneratorParameters</a>.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-creategeneratorparameters">IRdcLibrary::CreateGeneratorParameters</a> or 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgenerator-getgeneratorparameters">IRdcGenerator::GetGeneratorParameters</a>.
 
 
 ### -param iGenerator [out]
 
 Pointer to a location that will receive the returned 
-      <a href="https://msdn.microsoft.com/0288318a-0974-4870-b423-87c52090eb33">IRdcGenerator</a> interface pointer. Callers must release the 
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgenerator">IRdcGenerator</a> interface pointer. Callers must release the 
       interface.
 
 
@@ -95,19 +95,19 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/a39e26bc-7493-4def-af6d-cf3620ec8a9f">CreateGeneratorParameters</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-creategeneratorparameters">CreateGeneratorParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/1b2db5c5-79eb-490a-ae03-36b0e926725d">IRdcGeneratorParameters</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgeneratorparameters">IRdcGeneratorParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/941fa35c-20fa-4843-89be-26112ff7eec5">IRdcLibrary</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdclibrary">IRdcLibrary</a>
 
 
 
-<a href="https://msdn.microsoft.com/6fbced31-a230-44d4-a9ee-bb3e15df2563">OpenGeneratorParameters</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-opengeneratorparameters">OpenGeneratorParameters</a>
  
 
  

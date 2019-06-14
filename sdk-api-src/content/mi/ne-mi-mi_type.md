@@ -121,7 +121,7 @@ unsigned short
 
 ### -field MI_DATETIME
 
-Structure holding a union of <a href="https://msdn.microsoft.com/f06f1b0e-d21c-4b60-8099-222a1582fde1">MI_Timestamp</a> or <a href="https://msdn.microsoft.com/b6bf3d47-c292-4140-8bc6-f15ad8a8019f">MI_Interval</a>.
+Structure holding a union of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_timestamp">MI_Timestamp</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_interval">MI_Interval</a>.
 
 
 ### -field MI_STRING
@@ -131,7 +131,7 @@ MI_CHAR*
 
 ### -field MI_REFERENCE
 
-This is encoded as an <a href="https://msdn.microsoft.com/3dce1817-7995-49e5-8cc0-ee9496665e5c">MI_Instance</a>, but usually only the key properties are set.
+This is encoded as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a>, but usually only the key properties are set.
 
 
 ### -field MI_INSTANCE

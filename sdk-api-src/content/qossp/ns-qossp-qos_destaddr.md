@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The QOS object 
 <b>QOS_DESTADDR</b> is used during a call to the 
-<a href="https://msdn.microsoft.com/038aeca6-d7b7-4f74-ac69-4536c2e5118b">WSAIoctl</a> (SIO_SET_QOS) function in order to avoid issuing a <b>connect</b> function call for a sending socket.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a> (SIO_SET_QOS) function in order to avoid issuing a <b>connect</b> function call for a sending socket.
 
 
 ## -struct-fields
@@ -62,7 +62,7 @@ The QOS object
 ### -field ObjectHdr
 
 The QOS object 
-<a href="https://msdn.microsoft.com/a2021d70-e7ef-4c2a-8800-1a1d7540ce02">QOS_OBJECT_HDR</a>. The object type for this QOS object should be 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>. The object type for this QOS object should be 
 <b>QOS_DESTADDR</b>.
 
 
@@ -86,11 +86,11 @@ Length of the <b>SocketAddress</b> structure.
 
 
 
-<a href="https://msdn.microsoft.com/a2021d70-e7ef-4c2a-8800-1a1d7540ce02">QOS_OBJECT_HDR</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>
 
 
 
-<a href="https://msdn.microsoft.com/038aeca6-d7b7-4f74-ac69-4536c2e5118b">WSAIoctl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a>
  
 
  

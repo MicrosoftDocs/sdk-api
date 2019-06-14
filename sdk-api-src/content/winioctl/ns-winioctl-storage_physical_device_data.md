@@ -68,22 +68,22 @@ Value(s) of bitmask from STORAGE_COMPONENT_ROLE_xxx
 
 ### -field HealthStatus
 
-A <a href="https://msdn.microsoft.com/ECC5A745-EA8B-4FBE-840D-0D959C9ED5BA">STORAGE_COMPONENT_HEALTH_STATUS</a> enumeration.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_component_health_status">STORAGE_COMPONENT_HEALTH_STATUS</a> enumeration.
 
 
 ### -field CommandProtocol
 
-A <a href="https://msdn.microsoft.com/8055B633-99EF-4AAE-AA80-FC09F357BEAB">STORAGE_PROTOCOL_TYPE</a> enumeration.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_protocol_type">STORAGE_PROTOCOL_TYPE</a> enumeration.
 
 
 ### -field SpecVersion
 
-A <a href="https://msdn.microsoft.com/470DBBC0-A7D7-42A6-97D0-44AEAC990576">STORAGE_SPEC_VERSION</a> structure that specifies the supported storage spec version. For example: SBC 3, SATA 3.2, NVMe 1.2
+A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_spec_version">STORAGE_SPEC_VERSION</a> structure that specifies the supported storage spec version. For example: SBC 3, SATA 3.2, NVMe 1.2
 
 
 ### -field FormFactor
 
-A <a href="https://msdn.microsoft.com/B8FCDC58-D599-4EEE-8096-818345FCD75F">STORAGE_DEVICE_FORM_FACTOR</a> enumeration.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_device_form_factor">STORAGE_DEVICE_FORM_FACTOR</a> enumeration.
 
 
 ### -field Vendor

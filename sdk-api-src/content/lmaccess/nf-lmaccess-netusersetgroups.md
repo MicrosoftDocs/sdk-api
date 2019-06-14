@@ -90,7 +90,7 @@ The information level of the data. This parameter can be one of the following va
 </td>
 <td width="60%">
 The <i>buf</i> parameter points to an array of 
-<a href="https://msdn.microsoft.com/cc0e5d27-91f1-4640-bb80-e73899fabba9">GROUP_USERS_INFO_0</a> structures that specifies global group names.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_users_info_0">GROUP_USERS_INFO_0</a> structures that specifies global group names.
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ The <i>buf</i> parameter points to an array of
 </td>
 <td width="60%">
 The <i>buf</i> parameter points to an array of 
-<a href="https://msdn.microsoft.com/d92e7c18-f2c7-4ea5-8bb6-fec023272dbb">GROUP_USERS_INFO_1</a> structures that specifies global group names with attributes.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_users_info_1">GROUP_USERS_INFO_1</a> structures that specifies global group names with attributes.
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ The <i>buf</i> parameter points to an array of
 ### -param buf [in]
 
 A pointer to the buffer that specifies the data. For more information, see 
-<a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a>.
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a>.
 
 
 ### -param num_entries [in]
@@ -206,7 +206,7 @@ The operation is allowed only on the primary domain controller of the domain.
 </dl>
 </td>
 <td width="60%">
-The group group name specified by the <b>grui0_name</b> in the <a href="https://msdn.microsoft.com/cc0e5d27-91f1-4640-bb80-e73899fabba9">GROUP_USERS_INFO_0</a> structure or <b>grui1_name</b> member in the <a href="https://msdn.microsoft.com/d92e7c18-f2c7-4ea5-8bb6-fec023272dbb">GROUP_USERS_INFO_1</a> structure pointed to by the <i>buf</i> parameter does not exist.
+The group group name specified by the <b>grui0_name</b> in the <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_users_info_0">GROUP_USERS_INFO_0</a> structure or <b>grui1_name</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_users_info_1">GROUP_USERS_INFO_1</a> structure pointed to by the <i>buf</i> parameter does not exist.
 
 </td>
 </tr>
@@ -243,17 +243,17 @@ The user name could not be found.
 
 
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management user functions. For more information, see 
-<a href="https://msdn.microsoft.com/6eea74c2-2d6d-4dfd-9a22-3da2d5ce49bf">IADsUser</a> and 
-<a href="https://msdn.microsoft.com/e2b90a98-5777-42c2-95dd-4623e738c4da">IADsComputer</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsuser">IADsUser</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscomputer">IADsComputer</a>.
 
-If you call this function on a domain controller that is running Active Directory, access is allowed or denied based on the access control list (ACL) for the <a href="https://msdn.microsoft.com/32f2ec06-822f-4d1e-bf51-5ae1d7355e60">securable object</a>. The default ACL permits only Domain Admins and Account Operators to call this function. On a member server or workstation, only Administrators and Power Users can call this function. For more information, see 
-<a href="https://msdn.microsoft.com/846a5b81-d5bf-4275-a898-38e6ba308b8f">Security Requirements for the Network Management Functions</a>. For more information on ACLs, ACEs, and access tokens, see 
-<a href="https://msdn.microsoft.com/fd3b718a-5eff-4894-9fc6-d157ddb67330">Access Control Model</a>.
+If you call this function on a domain controller that is running Active Directory, access is allowed or denied based on the access control list (ACL) for the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/securable-objects">securable object</a>. The default ACL permits only Domain Admins and Account Operators to call this function. On a member server or workstation, only Administrators and Power Users can call this function. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/security-requirements-for-the-network-management-functions">Security Requirements for the Network Management Functions</a>. For more information on ACLs, ACEs, and access tokens, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-model">Access Control Model</a>.
 
 The security descriptor of the User object is used to perform the access check for this function.
 
 To grant a user membership in one existing global group, you can call the 
-<a href="https://msdn.microsoft.com/a2eefde8-29e3-4fa1-87db-c7f6d24b699d">NetGroupAddUser</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netgroupadduser">NetGroupAddUser</a> function.
 
 User account names are limited to 20 characters and group names are limited to 256 characters. In addition, account names cannot be terminated by a period and they cannot include commas or any of the following printable characters: ", /, \, [, ], :, |, &lt;, &gt;, +, =, ;, ?, *. Names also cannot include characters in the range 1-31, which are nonprintable.
 
@@ -262,7 +262,7 @@ User account names are limited to 20 characters and group names are limited to 2
 
 The following code sample demonstrates how to set global group memberships for a user account with a call to the 
 <b>NetUserSetGroups</b> function. The code sample fills in the <b>grui0_name</b> member of the 
-<a href="https://msdn.microsoft.com/cc0e5d27-91f1-4640-bb80-e73899fabba9">GROUP_USERS_INFO_0</a> structure and calls 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_users_info_0">GROUP_USERS_INFO_0</a> structure and calls 
 <b>NetUserSetGroups</b>, specifying information level 0.
 
 
@@ -324,33 +324,33 @@ int wmain(int argc, wchar_t *argv[])
 
 
 
-<a href="https://msdn.microsoft.com/cc0e5d27-91f1-4640-bb80-e73899fabba9">GROUP_USERS_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_users_info_0">GROUP_USERS_INFO_0</a>
 
 
 
-<a href="https://msdn.microsoft.com/d92e7c18-f2c7-4ea5-8bb6-fec023272dbb">GROUP_USERS_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_users_info_1">GROUP_USERS_INFO_1</a>
 
 
 
-<a href="https://msdn.microsoft.com/a2eefde8-29e3-4fa1-87db-c7f6d24b699d">NetGroupAddUser</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netgroupadduser">NetGroupAddUser</a>
 
 
 
-<a href="https://msdn.microsoft.com/ecf1a94c-5dda-4f49-81bd-93e551e089f1">NetUserGetGroups</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusergetgroups">NetUserGetGroups</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd159e2e-f37e-46b2-b980-008b73d40b39">Network
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/cf0e5102-3924-46c0-8124-0aa04e95f48d">User Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/user-functions">User Functions</a>
  
 
  

@@ -63,17 +63,17 @@ Initializes sample protection on the downstream component.
 
 ### -param dwVersion [in]
 
-Specifies the version number of the sample protection scheme. The version number is specified as a <a href="https://msdn.microsoft.com/5244ac44-5738-4d77-9dc5-371efe52ced9">SAMPLE_PROTECTION_VERSION</a> enumeration value.
+Specifies the version number of the sample protection scheme. The version number is specified as a <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-sample_protection_version">SAMPLE_PROTECTION_VERSION</a> enumeration value.
 
 
 ### -param dwInputId [in]
 
-Identifier of the input stream. The identifier corresponds to the output stream identifier returned by the <a href="https://msdn.microsoft.com/3cc502d8-d364-43b9-b0b6-d9474c002b20">IMFTransform</a> interface.
+Identifier of the input stream. The identifier corresponds to the output stream identifier returned by the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> interface.
 
 
 ### -param pbSeed [in]
 
-Pointer to a buffer that contains the initialization data provided by the upstream component. To retrieve this buffer, call <a href="https://msdn.microsoft.com/03bee13d-1c51-4b26-98bb-bac15264aa54">IMFSampleProtection::InitOutputProtection</a>.
+Pointer to a buffer that contains the initialization data provided by the upstream component. To retrieve this buffer, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsampleprotection-initoutputprotection">IMFSampleProtection::InitOutputProtection</a>.
 
 
 ### -param cbSeed [in]
@@ -114,7 +114,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/bebe24cd-657b-4c6c-9fe9-5d6dd58827a3">IMFSampleProtection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsampleprotection">IMFSampleProtection</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>EMI_METADATA_SIZE</b> structure specifies the size of the  Energy Metering Interface (EMI) metadata object that can be obtained from the device by issuing an <a href="https://msdn.microsoft.com/3A1A76B0-2A46-4C15-84BC-CE75701C30B7">IOCTL_EMI_GET_METADATA</a> request.
+The <b>EMI_METADATA_SIZE</b> structure specifies the size of the  Energy Metering Interface (EMI) metadata object that can be obtained from the device by issuing an <a href="https://docs.microsoft.com/windows/desktop/api/emi/ni-emi-ioctl_emi_get_metadata">IOCTL_EMI_GET_METADATA</a> request.
 
 
 ## -struct-fields
@@ -59,14 +59,14 @@ The <b>EMI_METADATA_SIZE</b> structure specifies the size of the  Energy Meterin
 
 ### -field MetadataSize
 
-The size of the  EMI metadata (an <a href="https://msdn.microsoft.com/en-us/library/Dn957428(v=VS.85).aspx">EMI_METADATA</a> structure) that can be obtained from the device.
+The size of the  EMI metadata (an <a href="https://docs.microsoft.com/windows/desktop/api/emi/ns-emi-emi_metadata">EMI_METADATA</a> structure) that can be obtained from the device.
 
 
 ## -remarks
 
 
 
-This structure is returned through a successful completion of an <a href="https://msdn.microsoft.com/7A3E5BE5-F567-408A-B4AC-347E052957D9">IOCTL_EMI_GET_METADATA_SIZE</a> IOCTL request.
+This structure is returned through a successful completion of an <a href="https://docs.microsoft.com/windows/desktop/api/emi/ni-emi-ioctl_emi_get_metadata_size">IOCTL_EMI_GET_METADATA_SIZE</a> IOCTL request.
 
 
 
@@ -76,11 +76,11 @@ This structure is returned through a successful completion of an <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/D11C97E8-8E7F-41D7-A8A9-0B5426B20818">Energy Metering Interface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/powermeter/energy-meter-interface">Energy Metering Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/7A3E5BE5-F567-408A-B4AC-347E052957D9">IOCTL_EMI_GET_METADATA_SIZE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/emi/ni-emi-ioctl_emi_get_metadata_size">IOCTL_EMI_GET_METADATA_SIZE</a>
  
 
  

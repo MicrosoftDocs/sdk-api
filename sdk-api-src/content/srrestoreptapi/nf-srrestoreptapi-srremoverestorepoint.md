@@ -77,7 +77,7 @@ If the specified restore point does not exist or cannot be removed, the return v
 
 
 
-Applications should not call System Restore functions using load-time dynamic linking. Instead, use the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> function to load SrClient.dll and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> to call the function.
+Applications should not call System Restore functions using load-time dynamic linking. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function to load SrClient.dll and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to call the function.
 
 
 
@@ -87,7 +87,7 @@ Applications should not call System Restore functions using load-time dynamic li
 
 
 
-<a href="https://msdn.microsoft.com/46f0094d-9079-41b5-9efc-ef07082653d3">SRSetRestorePoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/srrestoreptapi/nf-srrestoreptapi-srsetrestorepointa">SRSetRestorePoint</a>
  
 
  

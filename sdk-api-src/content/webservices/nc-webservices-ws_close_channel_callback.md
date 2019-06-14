@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-Handles the <a href="https://msdn.microsoft.com/e4928371-a172-4cc8-968b-12ae2ee2e0c6">WsCloseChannel</a> call
-                for a <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CUSTOM_CHANNEL_BINDING</a>.
+Handles the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsclosechannel">WsCloseChannel</a> call
+                for a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CUSTOM_CHANNEL_BINDING</a>.
             
 
 
@@ -62,7 +62,7 @@ Handles the <a href="https://msdn.microsoft.com/e4928371-a172-4cc8-968b-12ae2ee2
 ### -param *channelInstance [in]
 
 The pointer to the state specific to this channel instance,
-                    as created by the <a href="https://msdn.microsoft.com/440114f9-2258-4c33-93cd-7185ccf36f76">WS_CREATE_CHANNEL_CALLBACK</a>.
+                    as created by the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_create_channel_callback">WS_CREATE_CHANNEL_CALLBACK</a>.
                 
 
 
@@ -106,7 +106,7 @@ The asynchronous operation is still pending.
 </dl>
 </td>
 <td width="60%">
-The close was aborted by a call to <a href="https://msdn.microsoft.com/67af85d7-db75-4e26-a7cc-8115ac3f2d59">WsAbortChannel</a> as it was closing.
+The close was aborted by a call to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsabortchannel">WsAbortChannel</a> as it was closing.
                 
 
 </td>
@@ -243,7 +243,7 @@ This function may return other errors not listed above.
 
 
 
-See <a href="https://msdn.microsoft.com/e4928371-a172-4cc8-968b-12ae2ee2e0c6">WsCloseChannel</a> for information about the contract
+See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsclosechannel">WsCloseChannel</a> for information about the contract
                 of this API.
             
 

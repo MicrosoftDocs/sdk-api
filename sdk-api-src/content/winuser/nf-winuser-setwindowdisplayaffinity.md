@@ -86,7 +86,7 @@ The display affinity setting. This setting specifies where the window's
 Type: <strong>Type: <b>BOOL</b>
 </strong>
 
-If the function succeeds, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b> when, for example,  the function call is made on a non top-level window. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function succeeds, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b> when, for example,  the function call is made on a non top-level window. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -95,14 +95,14 @@ If the function succeeds, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE
 
 
 
-This function and <a href="https://msdn.microsoft.com/en-us/library/Dd375338(v=VS.85).aspx">GetWindowDisplayAffinity</a> are designed to support the window content protection feature that is new to Windows 7. This feature enables applications to protect their
+This function and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowdisplayaffinity">GetWindowDisplayAffinity</a> are designed to support the window content protection feature that is new to Windows 7. This feature enables applications to protect their
 		own onscreen window content from being captured or copied through a specific set of public operating system features 
 		and APIs. However, it works only when the Desktop Window Manager(DWM) is composing the desktop. 
 		
 
 It is important to note that unlike a security feature or an implementation of Digital Rights Management (DRM), there is no guarantee that 
 		 using <b>SetWindowDisplayAffinity</b> 
-		and <a href="https://msdn.microsoft.com/en-us/library/Dd375338(v=VS.85).aspx">GetWindowDisplayAffinity</a>, and other necessary functions such as <a href="https://msdn.microsoft.com/en-us/library/Aa969518(v=VS.85).aspx">DwmIsCompositionEnabled</a>, will strictly protect windowed content, for example where someone takes a photograph of the screen.
+		and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowdisplayaffinity">GetWindowDisplayAffinity</a>, and other necessary functions such as <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmiscompositionenabled">DwmIsCompositionEnabled</a>, will strictly protect windowed content, for example where someone takes a photograph of the screen.
 
 
 
@@ -120,11 +120,11 @@ It is important to note that unlike a security feature or an implementation of D
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375340(v=VS.85).aspx">SetWindowDisplayAffinity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowdisplayaffinity">SetWindowDisplayAffinity</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
  
 
  

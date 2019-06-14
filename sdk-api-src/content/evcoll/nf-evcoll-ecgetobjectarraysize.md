@@ -59,7 +59,7 @@ The <b>EcGetObjectArraySize</b> function retrieves the size (the number of index
 
 ### -param ObjectArray [in]
 
-A handle to the array from which to get the size. The array contains property values for the event sources of a subscription. The array handle is returned by the <a href="https://msdn.microsoft.com/984d986d-1c59-4d0c-88f3-40c66ffe43dd">EcGetSubscriptionProperty</a> method when the <b>EcSubscriptionEventSources</b> value is passed into the <i>PropertyId</i> parameter.
+A handle to the array from which to get the size. The array contains property values for the event sources of a subscription. The array handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/nf-evcoll-ecgetsubscriptionproperty">EcGetSubscriptionProperty</a> method when the <b>EcSubscriptionEventSources</b> value is passed into the <i>PropertyId</i> parameter.
 
 
 ### -param ObjectArraySize [out]
@@ -85,7 +85,7 @@ Arrays are zero-based, so the index for the first item in the array is 0.
 
 #### Examples
 
-For example code using the <b>EcGetObjectArraySize</b> function, see <a href="https://msdn.microsoft.com/984e21cf-3671-4aca-9e8e-bcad1fa2f02c">Displaying the Properties of an Event Collector Subscription</a>.
+For example code using the <b>EcGetObjectArraySize</b> function, see <a href="https://docs.microsoft.com/windows/desktop/WEC/displaying-the-properties-of-an-event-collector-subscription">Displaying the Properties of an Event Collector Subscription</a>.
 
 <div class="code"></div>
 
@@ -96,7 +96,7 @@ For example code using the <b>EcGetObjectArraySize</b> function, see <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/48155df6-ba9c-4abe-ba84-6190cee95878">Windows Event Collector Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WEC/windows-event-collector-functions">Windows Event Collector Functions</a>
  
 
  

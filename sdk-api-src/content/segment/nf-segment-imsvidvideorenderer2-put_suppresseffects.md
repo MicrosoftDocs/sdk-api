@@ -112,11 +112,11 @@ If <i>bSuppress</i> equals VARIANT_FALSE, the Video Control uses the existing sy
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694713(v=VS.85).aspx">IMSVidVideoRenderer2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidvideorenderer2">IMSVidVideoRenderer2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694756(v=VS.85).aspx">IMSVidVideoRenderer::put_UsingOverlay</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_usingoverlay">IMSVidVideoRenderer::put_UsingOverlay</a>
  
 
  

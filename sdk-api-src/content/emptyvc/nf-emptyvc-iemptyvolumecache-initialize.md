@@ -105,7 +105,7 @@ If this flag is set, the user is out of disk space on the drive. When this flag 
 
 #### EVCF_SETTINGSMODE
 
-If the disk cleanup manager is being run on a schedule, it will set this flag. You must assign values to the <i>ppwszDisplayName</i> and <i>ppwszDescription</i> parameters. If this flag is set, the disk cleanup manager will not call <a href="https://msdn.microsoft.com/c8ec2f70-f327-49d4-babb-a9640f105003">IEmptyVolumeCache::GetSpaceUsed</a>, <a href="https://msdn.microsoft.com/c42430da-9d6a-42e9-bc4f-325d986c7c48">IEmptyVolumeCache::Purge</a>, or <a href="https://msdn.microsoft.com/3bce6251-b209-405a-8ac2-fd385f1c69ee">IEmptyVolumeCache::ShowProperties</a>. Because <b>IEmptyVolumeCache::Purge</b> will not be called, cleanup must be handled by <b>IEmptyVolumeCache::Initialize</b>. The handler should ignore the <i>pcwszVolume</i> parameter and clean up any unneeded files regardless of what drive they are on. Because there is no opportunity for user feedback, only those files that are extremely safe to clean up should be touched.
+If the disk cleanup manager is being run on a schedule, it will set this flag. You must assign values to the <i>ppwszDisplayName</i> and <i>ppwszDescription</i> parameters. If this flag is set, the disk cleanup manager will not call <a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-getspaceused">IEmptyVolumeCache::GetSpaceUsed</a>, <a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-purge">IEmptyVolumeCache::Purge</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-showproperties">IEmptyVolumeCache::ShowProperties</a>. Because <b>IEmptyVolumeCache::Purge</b> will not be called, cleanup must be handled by <b>IEmptyVolumeCache::Initialize</b>. The handler should ignore the <i>pcwszVolume</i> parameter and clean up any unneeded files regardless of what drive they are on. Because there is no opportunity for user feedback, only those files that are extremely safe to clean up should be touched.
 
 
 
@@ -115,7 +115,7 @@ If the disk cleanup manager is being run on a schedule, it will set this flag. Y
 
 #### EVCF_DONTSHOWIFZERO
 
-Set this flag when there are no files to delete. When <a href="https://msdn.microsoft.com/c8ec2f70-f327-49d4-babb-a9640f105003">IEmptyVolumeCache::GetSpaceUsed</a> is called, set the <i>pdwSpaceUsed</i> parameter to zero, and the disk cleanup manager will omit the handler from its list. 
+Set this flag when there are no files to delete. When <a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-getspaceused">IEmptyVolumeCache::GetSpaceUsed</a> is called, set the <i>pdwSpaceUsed</i> parameter to zero, and the disk cleanup manager will omit the handler from its list. 
 
 
 
@@ -209,9 +209,9 @@ The cleanup operation failed.
 
 
 
-This method is used by the Windows 98 disk cleanup manager. Windows 2000 uses the <a href="https://msdn.microsoft.com/42f39dcd-0292-4121-89e9-80145b1c1c7d">InitializeEx</a> method exported by <a href="https://msdn.microsoft.com/a3e941ee-0477-48a8-96bd-c9d74c66ca41">IEmptyVolumeCache2</a>. 
+This method is used by the Windows 98 disk cleanup manager. Windows 2000 uses the <a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache2-initializeex">InitializeEx</a> method exported by <a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nn-emptyvc-iemptyvolumecache2">IEmptyVolumeCache2</a>. 
 
-Use <a href="https://msdn.microsoft.com/en-us/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a> to allocate memory for the strings returned through <i>ppwszDisplayName</i> and <i>ppwszDescription</i>. The disk cleanup manager will free the memory when it is no longer needed.
+Use <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> to allocate memory for the strings returned through <i>ppwszDisplayName</i> and <i>ppwszDescription</i>. The disk cleanup manager will free the memory when it is no longer needed.
 
 
 

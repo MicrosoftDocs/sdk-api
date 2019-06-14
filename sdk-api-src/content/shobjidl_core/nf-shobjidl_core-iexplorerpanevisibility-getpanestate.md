@@ -126,9 +126,9 @@ Additional fields and options to aid in a search.
 
 ### -param peps [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4caa2fe7-5bb3-4940-a429-fd32128eea84">EXPLORERPANESTATE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_explorerpanestate">EXPLORERPANESTATE</a>*</b>
 
-When this method returns, contains the visibility state of the given Windows Explorer pane as one of the <a href="https://msdn.microsoft.com/4caa2fe7-5bb3-4940-a429-fd32128eea84">EXPLORERPANESTATE</a> constants.
+When this method returns, contains the visibility state of the given Windows Explorer pane as one of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_explorerpanestate">EXPLORERPANESTATE</a> constants.
 
 
 ## -returns

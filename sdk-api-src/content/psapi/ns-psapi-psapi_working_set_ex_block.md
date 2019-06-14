@@ -76,7 +76,7 @@ The number of processes that share this page. The maximum value of this member i
 ### -field Win32Protection
 
 The memory protection attributes of the page. For a list of values, see
-       <a href="https://msdn.microsoft.com/09839db7-2118-4a7d-a707-a08c92bd600c">Memory Protection Constants</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/Memory/memory-protection-constants">Memory Protection Constants</a>.
 
 
 ### -field Shared
@@ -160,15 +160,15 @@ Reserved. This member is only available on 64-bit code running on 64-bit edition
 
 
 
-<a href="https://msdn.microsoft.com/08e53ebf-f694-46ad-b8b7-3dc179ab80ff">PSAPI Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/psapi/psapi-structures">PSAPI Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/d3500737-b9af-41a8-bf69-61d0bfbd6ce4">PSAPI_WORKING_SET_EX_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_psapi_working_set_ex_information">PSAPI_WORKING_SET_EX_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/59ae76c9-e954-4648-9c9f-787136375b02">QueryWorkingSetEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-queryworkingsetex">QueryWorkingSetEx</a>
  
 
  

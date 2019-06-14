@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndGetDevice</b> macro retrieves the name of the current MCI device. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/e69a73a6-a927-4536-98c7-ee7d5b16668a">MCIWNDM_GETDEVICE</a> message.
+The <b>MCIWndGetDevice</b> macro retrieves the name of the current MCI device. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getdevice">MCIWNDM_GETDEVICE</a> message.
 
 
 
@@ -89,7 +89,7 @@ If the null-terminated string containing the device name is longer than the buff
 
 
 
-<a href="https://msdn.microsoft.com/e69a73a6-a927-4536-98c7-ee7d5b16668a">MCIWNDM_GETDEVICE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getdevice">MCIWNDM_GETDEVICE</a>
  
 
  

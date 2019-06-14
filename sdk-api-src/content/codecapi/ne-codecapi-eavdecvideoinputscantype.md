@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Specifies how the decoded video stream is interlaced. This enumeration is used with the <a href="https://msdn.microsoft.com/a2b95b90-1c58-47f3-b6a8-0f3f6f1a416c">AVDecVideoInputScanType</a> property.
+Specifies how the decoded video stream is interlaced. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avdecvideoinputscantype-property">AVDecVideoInputScanType</a> property.
 
 
 
@@ -85,11 +85,11 @@ Decoded frames are interlaced, with the lower field appearing first.
 
 
 
-<a href="https://msdn.microsoft.com/5d6e48cb-d181-448e-a96e-e5ab500427d7">Codec API Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
  
 
  

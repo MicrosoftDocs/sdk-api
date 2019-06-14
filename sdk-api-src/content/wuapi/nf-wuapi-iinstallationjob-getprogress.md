@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns an <a href="https://msdn.microsoft.com/aa7e0c4d-9cb3-4473-a3b9-02ff9643f7de">IInstallationProgress</a> interface that describes the current progress of an installation or uninstallation.
+Returns an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iinstallationprogress">IInstallationProgress</a> interface that describes the current progress of an installation or uninstallation.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Returns an <a href="https://msdn.microsoft.com/aa7e0c4d-9cb3-4473-a3b9-02ff9643f
 
 ### -param retval [out]
 
-An <a href="https://msdn.microsoft.com/aa7e0c4d-9cb3-4473-a3b9-02ff9643f7de">IInstallationProgress</a> interface that describes the current progress of an installation or uninstallation.
+An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iinstallationprogress">IInstallationProgress</a> interface that describes the current progress of an installation or uninstallation.
 
 
 ## -returns
@@ -76,7 +76,7 @@ Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error cod
 
 
 You must make repeated calls to the <b>GetProgress</b> method to track the progress of a download. You must do this because  
-the <a href="https://msdn.microsoft.com/6c27d691-d9b1-41ce-b3e8-dd2574c19b8b">IUpdateInstallationResult</a> interface is not automatically updated during a download.
+the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateinstallationresult">IUpdateInstallationResult</a> interface is not automatically updated during a download.
 
 
 
@@ -86,7 +86,7 @@ the <a href="https://msdn.microsoft.com/6c27d691-d9b1-41ce-b3e8-dd2574c19b8b">IU
 
 
 
-<a href="https://msdn.microsoft.com/1a83a44e-cd3b-43b0-8741-a73fe9954063">IInstallationJob</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iinstallationjob">IInstallationJob</a>
  
 
  

@@ -104,7 +104,7 @@ The service exists in the table.
 </td>
 <td width="60%">
 No such service exists, or the operation failed. Call 
-<a href="https://msdn.microsoft.com/en-us/library/ms629690(v=VS.85).aspx">GetLastError</a> for more information about the failure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iabcontainer-getlasterror">GetLastError</a> for more information about the failure.
 
 </td>
 </tr>
@@ -145,19 +145,19 @@ The service type or name is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629690(v=VS.85).aspx">GetLastError</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iabcontainer-getlasterror">GetLastError</a>
 
 
 
-<a href="https://msdn.microsoft.com/e93e3bf2-80a2-44ec-a067-58220cdd31b4">IPX Service Table Management</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/ipx-service-table-management">IPX Service Table Management</a>
 
 
 
-<a href="https://msdn.microsoft.com/37da1071-b665-405c-a4ce-f1a484aeb19b">IPX_SERVICE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-_ipx_service">IPX_SERVICE</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb31f1ad-5761-4112-8c05-51a627b9e0b7">Service Table Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/service-table-management-functions">Service Table Management Functions</a>
  
 
  

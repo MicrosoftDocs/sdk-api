@@ -54,7 +54,7 @@ Exposes methods that allow control of folder view options specific to the Window
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFolderViewOptions</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IFolderViewOptions</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFolderViewOptions</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFolderViewOptions</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IFolderViewOptions</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9733c2b0-608f-4f20-b379-81de0c333473">GetFolderViewOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ifolderviewoptions-getfolderviewoptions">GetFolderViewOptions</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current set of options for the view.
@@ -78,7 +78,7 @@ Retrieves the current set of options for the view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e170f60f-9b6c-4765-8aad-b370b08db053">SetFolderViewOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ifolderviewoptions-setfolderviewoptions">SetFolderViewOptions</a>
 </td>
 <td align="left" width="63%">
 Sets specified options for the view.

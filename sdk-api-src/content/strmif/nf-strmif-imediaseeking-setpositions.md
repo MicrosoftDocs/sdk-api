@@ -218,12 +218,12 @@ If the AM_SEEKING_ReturnTime flag is specified, the method converts the position
 The AM_SEEKING_Segment and AM_SEEKING_NoFlush flags support seamless looping:
 
 <ul>
-<li>If the AM_SEEKING_Segment flag is present, the source filter sends an <a href="https://msdn.microsoft.com/07f141b1-2e96-49e2-9cf7-581690e245b5">EC_END_OF_SEGMENT</a> event when it reaches the stop position, instead of calling <a href="https://msdn.microsoft.com/b0cca250-9603-4d58-8af5-5b272730e5fa">IPin::EndOfStream</a>. The application can wait for this event and then issue another seek command.</li>
+<li>If the AM_SEEKING_Segment flag is present, the source filter sends an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-end-of-segment">EC_END_OF_SEGMENT</a> event when it reaches the stop position, instead of calling <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-endofstream">IPin::EndOfStream</a>. The application can wait for this event and then issue another seek command.</li>
 <li>If the AM_SEEKING_NoFlush flag is present, the graph does not flush data during the seek. Use this flag with AM_SEEKING_Segment.</li>
 </ul>
-To perform looping, the graph must report AM_SEEKING_CanDoSegments in the <a href="https://msdn.microsoft.com/84dd3c21-9c72-4433-bd03-29520dc138ca">IMediaSeeking::GetCapabilities</a> method. Currently, only the <a href="https://msdn.microsoft.com/53a9538d-7a79-40bb-9468-d710eb238925">WAVE Parser Filter</a> supports this feature.
+To perform looping, the graph must report AM_SEEKING_CanDoSegments in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediaseeking-getcapabilities">IMediaSeeking::GetCapabilities</a> method. Currently, only the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/wave-parser-filter">WAVE Parser Filter</a> supports this feature.
 
-The incoming values of <i>pCurrent</i> and <i>pStop</i> are expressed in the current time format. The default time format is <a href="https://msdn.microsoft.com/862c95bc-2e0a-42c0-b907-45f64f27bd41">REFERENCE_TIME</a> units (100 nanoseconds). To change time formats, use the <a href="https://msdn.microsoft.com/b6f64f8a-67b8-4297-8f0d-389001fa1681">IMediaSeeking::SetTimeFormat</a> method. If the AM_SEEKING_ReturnTime flag is present, the method converts the outgoing value to <b>REFERENCE_TIME</b> units.
+The incoming values of <i>pCurrent</i> and <i>pStop</i> are expressed in the current time format. The default time format is <a href="https://docs.microsoft.com/windows/desktop/DirectShow/reference-time">REFERENCE_TIME</a> units (100 nanoseconds). To change time formats, use the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediaseeking-settimeformat">IMediaSeeking::SetTimeFormat</a> method. If the AM_SEEKING_ReturnTime flag is present, the method converts the outgoing value to <b>REFERENCE_TIME</b> units.
 
 <h3><a id="Filter_Developers"></a><a id="filter_developers"></a><a id="FILTER_DEVELOPERS"></a>Filter Developers</h3>
 If you implement this method, you can check whether the caller is requesting a change in the current or stop position, by using the value AM_SEEKING_PositioningBitsMask to mask out the modifier flags. For example:
@@ -249,7 +249,7 @@ else if (dwCurrentPos == AM_SEEKING_RelativePositioning)
 </td>
 </tr>
 </table></span></div>
-For more information, see the source code for the <a href="https://msdn.microsoft.com/4359fe1f-f922-4a4d-beaa-8e13c72f407c">CSourceSeeking::SetPositions</a> method in the base class library.
+For more information, see the source code for the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/csourceseeking-setpositions">CSourceSeeking::SetPositions</a> method in the base class library.
 
 
 
@@ -259,11 +259,11 @@ For more information, see the source code for the <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/32adad53-d1ac-495f-9347-7bdd4ae4b78d">IMediaSeeking Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking Interface</a>
  
 
  

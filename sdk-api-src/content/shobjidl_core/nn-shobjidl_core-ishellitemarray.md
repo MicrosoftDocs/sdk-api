@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Exposes methods that create and manipulate <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">Shell item</a> arrays.
+Exposes methods that create and manipulate <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">Shell item</a> arrays.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellItemArray</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IShellItemArray</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellItemArray</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellItemArray</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IShellItemArray</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7632d876-c00b-4dfc-862b-9a68f01bd8da">BindToHandler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitemarray-bindtohandler">BindToHandler</a>
 </td>
 <td align="left" width="63%">
 Binds to an object by means of the specified handler.
@@ -78,7 +78,7 @@ Binds to an object by means of the specified handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c8ee210c-dab9-4678-9c62-d06677cbb395">EnumItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitemarray-enumitems">EnumItems</a>
 </td>
 <td align="left" width="63%">
 Gets an enumerator of the items in the array.
@@ -87,7 +87,7 @@ Gets an enumerator of the items in the array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0498ce03-9949-48bb-a1eb-b569f4171884">GetAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitemarray-getattributes">GetAttributes</a>
 </td>
 <td align="left" width="63%">
 Gets the attributes of the set of items contained in an <b>IShellItemArray</b>. If the array contains more than one item, the attributes retrieved by this method are not the attributes of single items, but a logical combination of all of the requested attributes of all of the items.
@@ -96,16 +96,16 @@ Gets the attributes of the set of items contained in an <b>IShellItemArray</b>. 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/84d20695-bd51-4727-bd82-bd104de99067">GetCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitemarray-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
-Gets the number of items in the given <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a> array.
+Gets the number of items in the given <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> array.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/58307102-1ae3-4249-81e0-25c1166500d0">GetItemAt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitemarray-getitemat">GetItemAt</a>
 </td>
 <td align="left" width="63%">
 Gets the item at the given index in the <b>IShellItemArray</b>.
@@ -114,7 +114,7 @@ Gets the item at the given index in the <b>IShellItemArray</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/abedf6a4-dfad-4add-8464-571542b068cb">GetPropertyDescriptionList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitemarray-getpropertydescriptionlist">GetPropertyDescriptionList</a>
 </td>
 <td align="left" width="63%">
 Gets a property description list for the items in the shell item array.
@@ -123,7 +123,7 @@ Gets a property description list for the items in the shell item array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/138a604f-e8dd-48ee-9678-a0530c1a16f2">GetPropertyStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitemarray-getpropertystore">GetPropertyStore</a>
 </td>
 <td align="left" width="63%">
 Gets a property store.
@@ -142,16 +142,16 @@ A shell item array may be created using one of the following functions:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/024ccbc7-97f1-4cb5-8588-9c9b1f747336">SHCreateShellItemArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateshellitemarray">SHCreateShellItemArray</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/91e65c9a-0600-42e3-97f5-2a5960e1ec89">SHCreateShellItemArrayFromDataObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateshellitemarrayfromdataobject">SHCreateShellItemArrayFromDataObject</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/af462941-8c23-4f48-baf5-1ead9739a2c5">SHCreateShellItemArrayFromIDLists</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateshellitemarrayfromidlists">SHCreateShellItemArrayFromIDLists</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/93401708-6f11-474d-8009-24554f316e79">SHCreateShellItemArrayFromShellItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateshellitemarrayfromshellitem">SHCreateShellItemArrayFromShellItem</a>
 </li>
 </ul>
 
@@ -162,11 +162,11 @@ A shell item array may be created using one of the following functions:
 
 
 
-<a href="https://msdn.microsoft.com/07aed597-359f-4f4b-9edf-168c15bdc58e">IEnumShellItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumshellitems">IEnumShellItems</a>
 
 
 
-<a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>
  
 
  

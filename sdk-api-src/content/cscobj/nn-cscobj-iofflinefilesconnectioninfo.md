@@ -55,7 +55,7 @@ Presents query and action capabilities associated with the online-offline transi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesConnectionInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IOfflineFilesConnectionInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesConnectionInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOfflineFilesConnectionInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IOfflineFilesConnectionInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/83b082b4-5845-44b7-9456-f00b357e345a">GetConnectState</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesconnectioninfo-getconnectstate">GetConnectState</a>
 </td>
 <td align="left" width="63%">
 Determines whether an item is online or offline and, if offline, why.
@@ -79,7 +79,7 @@ Determines whether an item is online or offline and, if offline, why.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/42412f42-7a70-4110-88ec-a38b3df7d2da">SetConnectState</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesconnectioninfo-setconnectstate">SetConnectState</a>
 </td>
 <td align="left" width="63%">
 Sets the connection state for an item.
@@ -88,7 +88,7 @@ Sets the connection state for an item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cb32238d-c8f2-4228-8472-4a699b24c621">TransitionOffline</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesconnectioninfo-transitionoffline">TransitionOffline</a>
 </td>
 <td align="left" width="63%">
 Transitions an item offline if possible.
@@ -97,7 +97,7 @@ Transitions an item offline if possible.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b8cac664-598d-43fd-a77e-e8406c197afc">TransitionOnline</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesconnectioninfo-transitiononline">TransitionOnline</a>
 </td>
 <td align="left" width="63%">
 Transitions an item online if possible.
@@ -112,7 +112,7 @@ Transitions an item online if possible.
 
 
 
-<a href="https://msdn.microsoft.com/9dea396f-ab71-4b2e-b5d3-776c16614f26">Offline Files API Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/offlinefiles/offline-files-api-interfaces">Offline Files API Interfaces</a>
  
 
  

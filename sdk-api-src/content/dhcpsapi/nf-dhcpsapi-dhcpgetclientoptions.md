@@ -65,20 +65,20 @@ Unicode string that specifies the IP address or hostname of the DHCP server.
 ### -param ClientIpAddress [in]
 
 
-<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_ADDRESS</a> value that specifies the IP address or hostname of the DHCP client  whose option values will be returned.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that specifies the IP address or hostname of the DHCP client  whose option values will be returned.
 
 
 ### -param ClientSubnetMask [in]
 
 
-<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_MASK</a> value that specifies the subnet mask of the DHCP client whose option values will be returned.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_MASK</a> value that specifies the subnet mask of the DHCP client whose option values will be returned.
 
 
 ### -param ClientOptions [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/ffe9ed82-1aec-4e09-8258-399099c87b5a">DHCP_OPTION_LIST</a> structure that contains the returned option values for the DHCP client.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_option_list">DHCP_OPTION_LIST</a> structure that contains the returned option values for the DHCP client.
 
-<div class="alert"><b>Note</b>  <p class="note">The memory for this parameter must be free using <a href="https://msdn.microsoft.com/bf22a0a6-2ecd-4460-89c4-3f870c6275dc">DhcpRpcFreeMemory</a>.
+<div class="alert"><b>Note</b>  <p class="note">The memory for this parameter must be free using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcprpcfreememory">DhcpRpcFreeMemory</a>.
 
 </div>
 <div> </div>
@@ -87,7 +87,7 @@ Pointer to a <a href="https://msdn.microsoft.com/ffe9ed82-1aec-4e09-8258-399099c
 
 
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://msdn.microsoft.com/6370313f-d7db-4ff1-b0e0-7fa47474facb">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -116,7 +116,7 @@ This function is not implemented and is not supported.
 
 
 
-<a href="https://msdn.microsoft.com/ffe9ed82-1aec-4e09-8258-399099c87b5a">DHCP_OPTION_LIST</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_option_list">DHCP_OPTION_LIST</a>
  
 
  

@@ -50,12 +50,12 @@ ms.custom: 19H1
 
 
 The 
-<b>IWbemHiPerfProvider</b> interface enables providers to supply refreshable objects and enumerators. High-performance providers can be loaded in-process to either WMI or a client process. When the provider is loaded in-process to a client process, it uses the CLSID specified as the <b>ClientLoadableCLSID</b> value in the <a href="https://msdn.microsoft.com/41e0d938-00c6-4f4c-8027-8b8512398dee">__Win32Provider</a>  representing the provider instance definition.
+<b>IWbemHiPerfProvider</b> interface enables providers to supply refreshable objects and enumerators. High-performance providers can be loaded in-process to either WMI or a client process. When the provider is loaded in-process to a client process, it uses the CLSID specified as the <b>ClientLoadableCLSID</b> value in the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/--win32provider">__Win32Provider</a>  representing the provider instance definition.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemHiPerfProvider</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWbemHiPerfProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemHiPerfProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemHiPerfProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IWbemHiPerfProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/086a1717-b6e8-45c1-9397-ec894ee900a0">CreateRefreshableEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemhiperfprovider-createrefreshableenum">CreateRefreshableEnum</a>
 </td>
 <td align="left" width="63%">
 Creates a refreshable enumerator.
@@ -79,7 +79,7 @@ Creates a refreshable enumerator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1eb414e0-cdf6-4caa-88a5-8da17a32449c">CreateRefreshableObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemhiperfprovider-createrefreshableobject">CreateRefreshableObject</a>
 </td>
 <td align="left" width="63%">
 Creates a refreshable instance object.
@@ -88,7 +88,7 @@ Creates a refreshable instance object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5962f5f6-a121-4234-8dcd-24c0e2b53990">CreateRefresher</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemhiperfprovider-createrefresher">CreateRefresher</a>
 </td>
 <td align="left" width="63%">
 Creates a refresher.
@@ -97,7 +97,7 @@ Creates a refresher.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ba56b029-95d4-4c79-8385-0a5adb9f7dcc">GetObjects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemhiperfprovider-getobjects">GetObjects</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified objects.
@@ -106,17 +106,17 @@ Retrieves the specified objects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8962fe9d-4b3e-469b-83e7-9c3f62a24308">QueryInstances</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemhiperfprovider-queryinstances">QueryInstances</a>
 </td>
 <td align="left" width="63%">
 Returns instances of the specified class by using the supplied 
-<a href="https://msdn.microsoft.com/987aea1d-912a-4691-987f-181c1ef1a8a9">IWbemObjectSink</a> object.
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d1de54de-b57b-4e15-84b3-96cc36bf023b">StopRefreshing</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemhiperfprovider-stoprefreshing">StopRefreshing</a>
 </td>
 <td align="left" width="63%">
 Stops refreshing an enumerator or instance object.
@@ -131,23 +131,23 @@ Stops refreshing an enumerator or instance object.
 
 
 
-<a href="https://msdn.microsoft.com/ee0a2ead-f53a-4651-a287-04a62eba3f84">Accessing Performance Data in C++</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/accessing-performance-data-in-c--">Accessing Performance Data in C++</a>
 
 
 
-<a href="https://msdn.microsoft.com/2158385f-d0dc-4102-84db-ce02d2b0ee53">Accessing WMI Preinstalled Performance Classes</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/accessing-wmi-preinstalled-performance-classes">Accessing WMI Preinstalled Performance Classes</a>
 
 
 
-<a href="https://msdn.microsoft.com/5fa8f1b5-fd19-4d45-9b53-bc7089eecdb1">COM API for WMI</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/com-api-for-wmi">COM API for WMI</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4f537ba-9081-43b4-acff-4d206de3d9d7">Developing a WMI Provider</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/developing-a-wmi-provider">Developing a WMI Provider</a>
 
 
 
-<a href="https://msdn.microsoft.com/cd1d652a-f0ce-401c-9a5e-074e6bb4d9ed">IWbemRefresher</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemrefresher">IWbemRefresher</a>
 
 
 
@@ -155,7 +155,7 @@ Making an Instance Provider into a High-Performance Provider
 
 
 
-<a href="https://msdn.microsoft.com/6a22d6f7-d9e2-45fa-876d-921a4bc4f574">Writing an Instance Provider</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/making-an-instance-provider-into-a-high-performance-provider">Writing an Instance Provider</a>
  
 
  

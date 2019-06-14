@@ -72,7 +72,7 @@ The result of the scheduling request.
 
 
 
-If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/38f15d61-d415-4c7d-b454-5144fc7c9b1e">Windows Animation Error Codes</a> for a list of error codes.
+If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
 
 
 
@@ -97,14 +97,14 @@ If the storyboard does not have priority, the attempt fails and the <i>schedulin
 
 </li>
 </ul>
-If this method is called from a handler for <a href="https://msdn.microsoft.com/e1ccf0e3-64fc-444e-a27b-1a5bc1d9d6fd">OnStoryboardStatusChanged</a> events, the <i>schedulingResult</i> parameter is set to <b>UI_ANIMATION_SCHEDULING_DEFERRED</b>.  The only way to determine whether the storyboard is successfully scheduled is to set a storyboard event handler and check whether the storyboard's status ever becomes <b>UI_ANIMATION_STORYBOARD_INSUFFICIENT_PRIORITY</b>.
+If this method is called from a handler for <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboardeventhandler-onstoryboardstatuschanged">OnStoryboardStatusChanged</a> events, the <i>schedulingResult</i> parameter is set to <b>UI_ANIMATION_SCHEDULING_DEFERRED</b>.  The only way to determine whether the storyboard is successfully scheduled is to set a storyboard event handler and check whether the storyboard's status ever becomes <b>UI_ANIMATION_STORYBOARD_INSUFFICIENT_PRIORITY</b>.
 
 It is possible reuse a storyboard by calling <b>Schedule</b> again after its status has reached <b>UI_ANIMATION_STORYBOARD_READY</b>.  An attempt to schedule a storyboard when it is in any state other than <b>UI_ANIMATION_STORYBOARD_BUILDING</b> or <b>UI_ANIMATION_STORYBOARD_READY</b> fails, and  <i>schedulingResult</i> is set to <b>UI_ANIMATION_SCHEDULING_ALREADY_SCHEDULED</b>.
 
 
 #### Examples
 
-The following example gets the current time and schedules the storyboard. For an additional example, see <a href="https://msdn.microsoft.com/f3c8fe34-8bca-4421-a390-9e0ba9af27b4">Schedule a Storyboard</a>.
+The following example gets the current time and schedules the storyboard. For an additional example, see <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/scheduling-a-storyboard">Schedule a Storyboard</a>.
 
 
 ```cpp
@@ -143,35 +143,35 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/6b30b660-dfa4-410f-a8de-58ea5c9a104d">IUIAnimationStoryboard</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationstoryboard">IUIAnimationStoryboard</a>
 
 
 
-<a href="https://msdn.microsoft.com/2350dbd0-3a67-4832-94dd-56adce80a387">IUIAnimationStoryboard::Abandon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-abandon">IUIAnimationStoryboard::Abandon</a>
 
 
 
-<a href="https://msdn.microsoft.com/82f915df-c031-41e9-8347-044b37793182">IUIAnimationStoryboard::Conclude</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-conclude">IUIAnimationStoryboard::Conclude</a>
 
 
 
-<a href="https://msdn.microsoft.com/45d0872a-dbcf-4151-a880-80b2c6fb884c">IUIAnimationStoryboard::Finish</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-finish">IUIAnimationStoryboard::Finish</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ee9a17f-c57c-49df-950d-491e05ba8768">IUIAnimationStoryboard::GetStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-getstatus">IUIAnimationStoryboard::GetStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/32654e4b-158b-4d1a-afc7-98f90212b33b">IUIAnimationTimer::GetTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtimer-gettime">IUIAnimationTimer::GetTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371967(v=VS.85).aspx">UI_ANIMATION_SCHEDULING_RESULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/ne-uianimation-__midl___midl_itf_uianimation_0000_0002_0002">UI_ANIMATION_SCHEDULING_RESULT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371971(v=VS.85).aspx">UI_ANIMATION_STORYBOARD_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/ne-uianimation-__midl___midl_itf_uianimation_0000_0002_0001">UI_ANIMATION_STORYBOARD_STATUS</a>
  
 
  

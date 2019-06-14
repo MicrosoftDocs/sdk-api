@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SECPKG_SUPPLEMENTAL_CRED_ARRAY</b> structure contains <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">supplemental credentials</a> information. This structure is used by the 
-<a href="https://msdn.microsoft.com/002ac773-bd46-49b5-b54c-6b8f5d5ef9f7">LsaApLogonUserEx2</a> and 
-<a href="https://msdn.microsoft.com/952ed682-775a-4370-8a89-15ca35553667">UpdateCredentials</a> functions.
+The <b>SECPKG_SUPPLEMENTAL_CRED_ARRAY</b> structure contains <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">supplemental credentials</a> information. This structure is used by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_ap_logon_user_ex2">LsaApLogonUserEx2</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_update_primary_credentials">UpdateCredentials</a> functions.
 
 
 ## -struct-fields

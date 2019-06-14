@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Opens the property store of the provider. This method is called whenever <a href="https://msdn.microsoft.com/3e03567b-7bac-4bef-ae62-a040f0c33cfb">IFunctionInstance::OpenPropertyStore</a> is called if the provider did not provide a property store at creation time.  The provider can provide the property store at this time, or handle the <a href="https://msdn.microsoft.com/d6d3d1d1-d2fb-409c-be37-3cd286e325a3">IProviderProperties</a> methods as they are called.
+Opens the property store of the provider. This method is called whenever <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstance-openpropertystore">IFunctionInstance::OpenPropertyStore</a> is called if the provider did not provide a property store at creation time.  The provider can provide the property store at this time, or handle the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderproperties">IProviderProperties</a> methods as they are called.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Opens the property store of the provider. This method is called whenever <a href
 
 ### -param pIFunctionInstance [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/cc421719-73a6-4d4d-9bf8-171e46c4e275">IFunctionInstance</a> interface for the store that is to be opened. Each property store is associated with a function instance.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a> interface for the store that is to be opened. Each property store is associated with a function instance.
 
 
 ### -param iProviderInstanceContext [in]
@@ -174,7 +174,7 @@ The method is unable to allocate the memory required to perform this operation.
 
 
 
-<a href="https://msdn.microsoft.com/e0019d0d-1495-4a0e-a7d9-7772046a4a26">IFunctionDiscoveryProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryprovider">IFunctionDiscoveryProvider</a>
  
 
  

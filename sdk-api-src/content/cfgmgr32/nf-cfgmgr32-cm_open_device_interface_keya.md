@@ -125,7 +125,7 @@ Close the handle returned from this function by calling <b>RegCloseKey</b>.
 
 
 
-<a href="https://msdn.microsoft.com/950dddcb-2a59-4c2d-826b-147e9acf401a">SetupDiOpenDeviceInterfaceRegKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiopendeviceinterfaceregkey">SetupDiOpenDeviceInterfaceRegKey</a>
  
 
  

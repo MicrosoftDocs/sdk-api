@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The DD_VIDEOPORT_LOCAL structure contains <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">video port extensions (VPE)</a>-related data that is unique to an individual Microsoft DirectDraw VPE object.
+The DD_VIDEOPORT_LOCAL structure contains <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a>-related data that is unique to an individual Microsoft DirectDraw VPE object.
 
 
 ## -struct-fields
@@ -59,27 +59,27 @@ The DD_VIDEOPORT_LOCAL structure contains <a href="https://msdn.microsoft.com/a1
 
 ### -field lpDD
 
-Points to a <a href="https://msdn.microsoft.com/58e378b7-863a-46d4-91cb-904ed4e892a3">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current DirectDraw process only.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current DirectDraw process only.
 
 
 ### -field ddvpDesc
 
-Specifies a <a href="https://msdn.microsoft.com/efd5907c-ed75-40be-b568-7c305310f79b">DDVIDEOPORTDESC</a> structure that describes the VPE object.
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-_ddvideoportdesc">DDVIDEOPORTDESC</a> structure that describes the VPE object.
 
 
 ### -field ddvpInfo
 
-Specifies a <a href="https://msdn.microsoft.com/65423d9e-d3b8-4545-8afe-09b3375dbac2">DDVIDEOPORTINFO</a> structure that describes the transfer of video data to a surface.
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-_ddvideoportinfo">DDVIDEOPORTINFO</a> structure that describes the transfer of video data to a surface.
 
 
 ### -field lpSurface
 
-Points to a <a href="https://msdn.microsoft.com/b06f204c-e59a-4f13-ac6d-ff0860378312">DD_SURFACE_INT</a> structure for the surface receiving the video data.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_int">DD_SURFACE_INT</a> structure for the surface receiving the video data.
 
 
 ### -field lpVBISurface
 
-Points to a DD_SURFACE_INT structure for the surface receiving the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">VBI</a> data.
+Points to a DD_SURFACE_INT structure for the surface receiving the <a href="https://docs.microsoft.com/windows-hardware/drivers/">VBI</a> data.
 
 
 ### -field dwNumAutoflip

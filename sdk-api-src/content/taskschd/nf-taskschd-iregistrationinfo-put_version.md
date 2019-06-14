@@ -63,7 +63,7 @@ This property is read/write.
 
 
 
-When reading or writing XML for a task, the version number of the task is specified using the <a href="https://msdn.microsoft.com/0a7223ae-dfc7-4356-aea4-88ff3b3b9148">Version</a> element of the Task Scheduler schema.
+When reading or writing XML for a task, the version number of the task is specified using the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-version-registrationinfotype-element">Version</a> element of the Task Scheduler schema.
 
 
 
@@ -73,11 +73,11 @@ When reading or writing XML for a task, the version number of the task is specif
 
 
 
-<a href="https://msdn.microsoft.com/e04f0c47-ab89-49e4-aac6-028d2555ecf1">IRegistrationInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iregistrationinfo">IRegistrationInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
  
 
  

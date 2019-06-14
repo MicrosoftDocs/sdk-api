@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Gets or sets IKEv2 tunnel configuration parameter for IKEv2 tunnel based demand dial interfaces. 
 
-Do not use the <b>ROUTER_IKEv2_IF_CUSTOM_CONFIG0</b> structure directly in your code; using <a href="https://msdn.microsoft.com/6CF919BD-E1E9-423F-8186-C992A5E6AB89">ROUTER_IKEv2_IF_CUSTOM_CONFIG</a> instead ensures that the proper version, based on the operating system the code in compiled under, is used.
+Do not use the <b>ROUTER_IKEv2_IF_CUSTOM_CONFIG0</b> structure directly in your code; using <a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-data-types">ROUTER_IKEv2_IF_CUSTOM_CONFIG</a> instead ensures that the proper version, based on the operating system the code in compiled under, is used.
 
 
 ## -struct-fields

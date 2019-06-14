@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DrvIcmSetDeviceGammaRamp</b> function sets the hardware <a href="https://msdn.microsoft.com/f67c673d-c6f0-49f0-850a-d8b00e99ddd4">gamma ramp</a> of the specified display device.
+The <b>DrvIcmSetDeviceGammaRamp</b> function sets the hardware <a href="https://docs.microsoft.com/windows-hardware/drivers/">gamma ramp</a> of the specified display device.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>DrvIcmSetDeviceGammaRamp</b> function sets the hardware <a href="https://
 
 ### -param dhpdev
 
-Handle to the physical device's <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDEV</a>. This identifies the physical device whose gamma ramp is to be set.
+Handle to the physical device's <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a>. This identifies the physical device whose gamma ramp is to be set.
 
 
 ### -param iFormat
@@ -71,7 +71,7 @@ Specifies the data format of the buffer to which <i>lpRamp</i> points. This para
 
 Pointer to the buffer containing the gamma ramp to be set on the device. The format of the data in this buffer is determined by <i>iFormat</i>.
 
-When <i>iFormat</i> is IGRF_RGB_256WORDS, <i>lpRamp</i> points to a <a href="https://msdn.microsoft.com/cc082911-5089-4335-93d2-1405ca390741">GAMMARAMP</a> structure that defines the 256-entry ramps to be set for each of the red, blue, and green color channels. Each value is described using 16-bit precision. If the hardware has fewer bits of precision, it should downshift and use the most significant bits, without rounding.
+When <i>iFormat</i> is IGRF_RGB_256WORDS, <i>lpRamp</i> points to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_gammaramp">GAMMARAMP</a> structure that defines the 256-entry ramps to be set for each of the red, blue, and green color channels. Each value is described using 16-bit precision. If the hardware has fewer bits of precision, it should downshift and use the most significant bits, without rounding.
 
 
 ## -returns
@@ -91,7 +91,7 @@ Drivers for display devices with loadable hardware gamma ramps should implement 
 
 <b>DrvIcmSetDeviceGammaRamp</b> should fail if it is called with any other value besides IGRF_RGB_256WORDS in <i>iFormat</i>.
 
-The driver hooks this function by setting the GCAPS2_CHANGEGAMMARAMP flag in the <b>flGraphicsCaps2</b> field of the DEVINFO structure passed to <a href="https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e">DrvEnablePDEV</a>. If the driver is running in a palettized 8bpp mode, this capability is optional. 
+The driver hooks this function by setting the GCAPS2_CHANGEGAMMARAMP flag in the <b>flGraphicsCaps2</b> field of the DEVINFO structure passed to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>. If the driver is running in a palettized 8bpp mode, this capability is optional. 
 
 
 
@@ -101,7 +101,7 @@ The driver hooks this function by setting the GCAPS2_CHANGEGAMMARAMP flag in the
 
 
 
-<a href="https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e">DrvEnablePDEV</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
  
 
  

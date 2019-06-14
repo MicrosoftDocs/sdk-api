@@ -137,11 +137,11 @@ A quota was exceeded.
 
 
 Occasionally, it is useful to explicitly force the completion of an element.  This can be used to force the writer
-        to write a full element and pair.  It also may be useful when obtaining positions when writing to a <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a>.
+        to write a full element and pair.  It also may be useful when obtaining positions when writing to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a>.
       
 
 Calling this API when there is no element to commit will cause it to return <b>WS_E_INVALID_OPERATION</b>.
-      (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.)
+      (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 
 
 

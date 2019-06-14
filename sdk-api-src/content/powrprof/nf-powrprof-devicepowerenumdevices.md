@@ -399,7 +399,7 @@ The values of the <i>QueryFlags</i> parameter may be combined to query for devic
 #### Examples
 
 For an example that uses this function, see 
-     <a href="https://msdn.microsoft.com/44479f5d-2e92-4802-a633-3e0bb7d61e94">Using the Device Power API</a>.
+     <a href="https://docs.microsoft.com/windows/desktop/Power/using-the-device-power-api">Using the Device Power API</a>.
 
 <div class="code"></div>
 
@@ -410,7 +410,7 @@ For an example that uses this function, see
 
 
 
-<a href="https://msdn.microsoft.com/aaa776e5-3fc2-41bd-a805-6c09ef73807b">Device Power Management</a>
+<a href="https://docs.microsoft.com/windows/desktop/Power/device-power-management">Device Power Management</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deprecated. Implemented by a derived class to define menu accelerators that can be used in a call to <a href="https://msdn.microsoft.com/dda5c085-7199-4b83-b03e-e4c715665157">TranslateAcceleratorSB</a>.
+Deprecated. Implemented by a derived class to define menu accelerators that can be used in a call to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-translateacceleratorsb">TranslateAcceleratorSB</a>.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Deprecated. Implemented by a derived class to define menu accelerators that can 
 
 Type: <b>HACCEL</b>
 
-A handle to an array of <a href="https://msdn.microsoft.com/en-us/library/ms646340(v=VS.85).aspx">ACCEL</a> structures, each structure describing a keyboard mnemonic.
+A handle to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagaccel">ACCEL</a> structures, each structure describing a keyboard mnemonic.
         
 
 

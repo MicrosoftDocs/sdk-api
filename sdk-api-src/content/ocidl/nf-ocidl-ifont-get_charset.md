@@ -109,11 +109,11 @@ The address in the <i>pCharset</i> parameter is not valid. For example, it may b
 
 
 
-<a href="https://msdn.microsoft.com/3a04d2b7-b2eb-4c6c-8863-1e88321fa382">IFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
 
 
 
-<a href="https://msdn.microsoft.com/da48fefa-28d2-41aa-a324-dc259504c9ed">IFont::put_Charset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-put_charset">IFont::put_Charset</a>
  
 
  

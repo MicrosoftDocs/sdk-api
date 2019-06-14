@@ -64,12 +64,12 @@ The function ID of the DRM command. The values and meanings of the function ID a
 
 ### -field pInputData
 
-Pointer to a buffer containing a <a href="https://msdn.microsoft.com/B3F587BC-0DA8-496B-A3F5-ADFD16ABABB9">D3D11_KEY_EXCHANGE_HW_PROTECTION_INPUT_DATA</a> structure that specifies memory reserved for IHV use and the input data for the DRM command.
+Pointer to a buffer containing a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_key_exchange_hw_protection_input_data">D3D11_KEY_EXCHANGE_HW_PROTECTION_INPUT_DATA</a> structure that specifies memory reserved for IHV use and the input data for the DRM command.
 
 
 ### -field pOutputData
 
-Pointer to a buffer containing a <a href="https://msdn.microsoft.com/D8F987CA-0BD2-42D1-AE95-8D2D118655B1">D3D11_KEY_EXCHANGE_HW_PROTECTION_OUTPUT_DATA</a> structure that specifies memory reserved for IHV use and the input data for the DRM command.
+Pointer to a buffer containing a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_key_exchange_hw_protection_output_data">D3D11_KEY_EXCHANGE_HW_PROTECTION_OUTPUT_DATA</a> structure that specifies memory reserved for IHV use and the input data for the DRM command.
 
 
 ### -field Status
@@ -81,7 +81,7 @@ The result of the hardware DRM command.
 
 
 
-A pointer to this structure is passed in the <i>pData</i> parameter of <a href="https://msdn.microsoft.com/76160B03-6F7F-4618-859B-0A7E73540CA4">ID3D11VideoContext::NegotiateCryptoSessionKeyExchange</a> method when the <a href="https://msdn.microsoft.com/E17F39CB-61E3-44EF-805D-AD386743744E">ID3D11CryptoSession</a> is creating using the <b>D3D11_KEY_EXCHANGE_HW_PROTECTION</b> key exchange type.
+A pointer to this structure is passed in the <i>pData</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-negotiatecryptosessionkeyexchange">ID3D11VideoContext::NegotiateCryptoSessionKeyExchange</a> method when the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11cryptosession">ID3D11CryptoSession</a> is creating using the <b>D3D11_KEY_EXCHANGE_HW_PROTECTION</b> key exchange type.
 
 
 
@@ -91,7 +91,7 @@ A pointer to this structure is passed in the <i>pData</i> parameter of <a href="
 
 
 
-<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>
  
 
  

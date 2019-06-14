@@ -71,7 +71,7 @@ When set, GPU-based validation does not perform resource state validation which 
 
 
 
-This enumeration is used with the <a href="https://msdn.microsoft.com/EA774CC4-7675-46AA-9CDF-56C8B9507702">ID3D12Debug2::SetGPUBasedValidationFlags</a> method to configure the amount of runtime validation that will occur.
+This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug2-setgpubasedvalidationflags">ID3D12Debug2::SetGPUBasedValidationFlags</a> method to configure the amount of runtime validation that will occur.
 
 
 
@@ -81,7 +81,7 @@ This enumeration is used with the <a href="https://msdn.microsoft.com/EA774CC4-7
 
 
 
-<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
  
 
  

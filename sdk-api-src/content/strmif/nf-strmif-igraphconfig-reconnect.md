@@ -63,17 +63,17 @@ The <code>Reconnect</code> method performs a dynamic reconnection between two pi
 
 ### -param pOutputPin [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/ad0ead4e-9f8e-4935-b220-306d665e50f4">IPin</a> interface of an output pin. Can be <b>NULL</b>, in which case <i>pInputPin</i> must not be <b>NULL</b>.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface of an output pin. Can be <b>NULL</b>, in which case <i>pInputPin</i> must not be <b>NULL</b>.
 
 
 ### -param pInputPin [in]
 
-Pointer the <a href="https://msdn.microsoft.com/ad0ead4e-9f8e-4935-b220-306d665e50f4">IPin</a> interface to an input pin. Can be <b>NULL</b>, in which case <i>pOutputPin</i> must not be <b>NULL</b>.
+Pointer the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface to an input pin. Can be <b>NULL</b>, in which case <i>pOutputPin</i> must not be <b>NULL</b>.
 
 
 ### -param pmtFirstConnection [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02">AM_MEDIA_TYPE</a> structure that specifies the media type for the first pin connection made during the reconnection. If this parameter is <b>NULL</b>, the first connection can have any media type.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_ammediatype">AM_MEDIA_TYPE</a> structure that specifies the media type for the first pin connection made during the reconnection. If this parameter is <b>NULL</b>, the first connection can have any media type.
 
 
 ### -param pUsingFilter [in]
@@ -88,7 +88,7 @@ Handle to an event. If the caller is a filter calling on one of its data process
 
 ### -param dwFlags [in]
 
-Combination of flags from the <a href="https://msdn.microsoft.com/59f47597-3270-48b3-b927-09b434373eac">AM_GRAPH_CONFIG_RECONNECT_FLAGS</a> enumeration, specifying how to perform the reconnection.
+Combination of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-_am_graph_config_reconnect_flags">AM_GRAPH_CONFIG_RECONNECT_FLAGS</a> enumeration, specifying how to perform the reconnection.
 
 
 ## -returns
@@ -120,7 +120,7 @@ Invalid argument. (For example, both <i>pInputPin</i> and <i>pOutputPin</i> are 
 </dl>
 </td>
 <td width="60%">
-Input pin does not support <a href="https://msdn.microsoft.com/0843a01c-6f6a-4765-abca-dd562175fcee">IPinConnection</a>.
+Input pin does not support <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipinconnection">IPinConnection</a>.
 
 </td>
 </tr>
@@ -156,18 +156,18 @@ The state of the filter changed. Unable to complete the operation.
 
 
 
-If you specify only one pin, the method will search for the other pin. By default, however, the search fails if it reaches a filter that was added to the graph by means of the <a href="https://msdn.microsoft.com/8f837917-015f-427f-b234-b0ccbcf943eb">IFilterGraph::AddFilter</a> method. To override this behavior, call <a href="https://msdn.microsoft.com/1f2ed50e-8bb9-4076-ad0e-a7311acb8285">IGraphConfig::SetFilterFlags</a> and set the AM_FILTER_FLAGS_REMOVABLE flag on the filter.
+If you specify only one pin, the method will search for the other pin. By default, however, the search fails if it reaches a filter that was added to the graph by means of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltergraph-addfilter">IFilterGraph::AddFilter</a> method. To override this behavior, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphconfig-setfilterflags">IGraphConfig::SetFilterFlags</a> and set the AM_FILTER_FLAGS_REMOVABLE flag on the filter.
 
 The reconnection process involves several steps, most of them handled inside this method:
 
 <ol>
-<li>First, before calling the method, make sure to block the flow of data along the path that is being reconfigured. Applications should call the <a href="https://msdn.microsoft.com/9bcd325d-41fc-4166-8fce-50fc921efdba">IPinFlowControl::Block</a> method to do this. If the caller is a filter, rather than an application, possibly the filter can control the data flow internally.</li>
-<li>The specified output and input pins define the starting and ending points for the reconnection. The input pin must support the <a href="https://msdn.microsoft.com/0843a01c-6f6a-4765-abca-dd562175fcee">IPinConnection</a> interface. If you leave one of these pins unspecified (by passing a <b>NULL</b> parameter), the method searches the filter graph to find a candidate pin for reconnection. (To find an input pin, it searches downstream from the output pin; to find an output pin, it searches upstream from the input pin.)</li>
-<li>The method pushes any pending data through the filter graph (through an internal call to <a href="https://msdn.microsoft.com/f3d72a32-f43a-4a61-b25e-6d472aa629de">IGraphConfig::PushThroughData</a>).</li>
+<li>First, before calling the method, make sure to block the flow of data along the path that is being reconfigured. Applications should call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipinflowcontrol-block">IPinFlowControl::Block</a> method to do this. If the caller is a filter, rather than an application, possibly the filter can control the data flow internally.</li>
+<li>The specified output and input pins define the starting and ending points for the reconnection. The input pin must support the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipinconnection">IPinConnection</a> interface. If you leave one of these pins unspecified (by passing a <b>NULL</b> parameter), the method searches the filter graph to find a candidate pin for reconnection. (To find an input pin, it searches downstream from the output pin; to find an output pin, it searches upstream from the input pin.)</li>
+<li>The method pushes any pending data through the filter graph (through an internal call to <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphconfig-pushthroughdata">IGraphConfig::PushThroughData</a>).</li>
 <li>If you have specified a filter to insert into the graph, the method connects the starting output pin to the filter's input pin, and connects the filter's output pin to the final input pin. If you do not specify a filter, the method simply connects the output pin to the input pin. In either case, the method inserts any transform filters required to complete the connections. (However, you can override this behavior by setting the appropriate flag; for more information see the description of the <i>dwFlags</i> parameter.)</li>
-<li>Finally, the method places the new filters into a running state. It is up to the caller to restart the data flow. Applications can do this by calling <a href="https://msdn.microsoft.com/9bcd325d-41fc-4166-8fce-50fc921efdba">IPinFlowControl::Block</a> with no flags.</li>
+<li>Finally, the method places the new filters into a running state. It is up to the caller to restart the data flow. Applications can do this by calling <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipinflowcontrol-block">IPinFlowControl::Block</a> with no flags.</li>
 </ol>
-If a filter calls this method on one of its own data processing threads, it creates the potential for a deadlock. The method obtains a lock on the filter graph, which can block the filter from stopping on receiving a call to <a href="https://msdn.microsoft.com/8c415b5c-1aee-4ea4-b182-fd95da4898aa">IMediaFilter::Stop</a>. To prevent this situation, the method takes a handle to an event object provided by filter. The filter should signal the event if it receives a call to its <b>Stop</b> method.
+If a filter calls this method on one of its own data processing threads, it creates the potential for a deadlock. The method obtains a lock on the filter graph, which can block the filter from stopping on receiving a call to <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediafilter-stop">IMediaFilter::Stop</a>. To prevent this situation, the method takes a handle to an event object provided by filter. The filter should signal the event if it receives a call to its <b>Stop</b> method.
 
 
 
@@ -177,11 +177,11 @@ If a filter calls this method on one of its own data processing threads, it crea
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/7df22157-9dd1-410e-b037-a155f7b9a01b">IGraphConfig Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphconfig">IGraphConfig Interface</a>
  
 
  

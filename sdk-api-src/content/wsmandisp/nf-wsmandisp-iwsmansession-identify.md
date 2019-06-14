@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IWSManSession::Identify</b> method queries a remote computer to determine if it supports the WS-Management protocol. For more information, see <a href="https://msdn.microsoft.com/4d11ac02-fa8b-45d7-bceb-a18f561bc928">Detecting Whether a Remote Computer Supports WS-Management Protocol</a>.
+The <b>IWSManSession::Identify</b> method queries a remote computer to determine if it supports the WS-Management protocol. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinRM/detecting-whether-a-remote-computer-supports-ws-management-protocol">Detecting Whether a Remote Computer Supports WS-Management Protocol</a>.
 
 
 ## -parameters
@@ -81,11 +81,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/3e016080-339f-4bda-bfd2-f912e090981f">IWSManSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a>
 
 
 
-<a href="https://msdn.microsoft.com/b86ec9b8-8fc4-4c3e-aca7-2f7d039749df">Session.Identify</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinRM/session-identify">Session.Identify</a>
  
 
  

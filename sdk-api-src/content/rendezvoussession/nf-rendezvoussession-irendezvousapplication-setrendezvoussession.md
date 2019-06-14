@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Passes <a href="https://msdn.microsoft.com/3e6dc5c7-2238-4ea8-a4fb-75e4b56d3cfd">IRendezvousSession</a> to the Windows Remote Assistance application. This method is used by the instant messaging application. 
+Passes <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rendezvoussession/nn-rendezvoussession-irendezvoussession">IRendezvousSession</a> to the Windows Remote Assistance application. This method is used by the instant messaging application. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Passes <a href="https://msdn.microsoft.com/3e6dc5c7-2238-4ea8-a4fb-75e4b56d3cfd"
 
 ### -param pRendezvousSession [in]
 
-<a href="https://msdn.microsoft.com/3e6dc5c7-2238-4ea8-a4fb-75e4b56d3cfd">IRendezvousSession</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rendezvoussession/nn-rendezvoussession-irendezvoussession">IRendezvousSession</a>
 
 ## -returns
 
@@ -79,7 +79,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/3e6dc5c7-2238-4ea8-a4fb-75e4b56d3cfd">IRendezvousSession</a> was passed to the Windows Remote Assistance application successfully. 
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rendezvoussession/nn-rendezvoussession-irendezvoussession">IRendezvousSession</a> was passed to the Windows Remote Assistance application successfully. 
 
 </td>
 </tr>

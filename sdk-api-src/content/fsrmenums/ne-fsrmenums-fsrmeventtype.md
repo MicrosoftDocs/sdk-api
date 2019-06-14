@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Defines the event types that an event logging action (see 
-    <a href="https://msdn.microsoft.com/3e34395e-b8e6-4288-a040-dff6cf7f5fe6">FsrmActionType</a>) can log.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmactiontype">FsrmActionType</a>) can log.
 
 
 ## -enum-fields
@@ -83,15 +83,15 @@ The event is an error event.
 
 
 
-<a href="https://msdn.microsoft.com/93fdf667-8959-40a9-a374-c54ed73bbe89">FSRM Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-enumerations">FSRM Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb76fa86-2d82-46a5-ae76-c2f00f812e48">IFsrmActionEventLog::EventType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmactioneventlog-get_eventtype">IFsrmActionEventLog::EventType</a>
 
 
 
-<a href="https://msdn.microsoft.com/55bacec3-c6d1-40ce-902c-8c38eb9a9e7b">MSFT_FSRMAction</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmaction">MSFT_FSRMAction</a>
  
 
  

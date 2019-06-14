@@ -123,7 +123,7 @@ All symbol searches are insensitive to case.
 </dl>
 </td>
 <td width="60%">
-Pass debug output through <a href="https://msdn.microsoft.com/ca23d9a9-65b7-4a36-bd09-857a6997f482">OutputDebugString</a> or the  <a href="https://msdn.microsoft.com/f3ba952b-ecc5-4235-a806-00c82d40e611">SymRegisterCallbackProc64</a> callback function.
+Pass debug output through <a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-outputdebugstringw">OutputDebugString</a> or the  <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-psymbol_registered_callback">SymRegisterCallbackProc64</a> callback function.
 
 </td>
 </tr>
@@ -229,7 +229,7 @@ Ignore the image directory.
 </td>
 <td width="60%">
 Do not use the path specified by <b>_NT_SYMBOL_PATH</b> if the user calls 
-<a href="https://msdn.microsoft.com/564ba1f6-65c6-4c45-bdbf-41ef0dd8a39d">SymSetSearchPath</a> without a valid path.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetsearchpath">SymSetSearchPath</a> without a valid path.
 
 <b>DbgHelp 5.1:  </b>This value is not supported.
 
@@ -404,7 +404,7 @@ The function returns the current options mask.
 The options value can be changed any number of times while the library is in use by an application. The option change affects all future calls to the symbol handler.
 
 To get the current options mask, call the 
-<a href="https://msdn.microsoft.com/3d9db826-1c4a-46d6-b007-c0dd5e6b17cc">SymGetOptions</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetoptions">SymGetOptions</a> function.
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
@@ -412,7 +412,7 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/e8c8f648-c3b0-4595-ac07-f508dd576d9f">Initializing the Symbol Handler</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/initializing-the-symbol-handler">Initializing the Symbol Handler</a>.
 
 <div class="code"></div>
 
@@ -423,11 +423,11 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/7b28f70b-2d97-4cc2-8064-dfb806f9cffa">DbgHelp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d9db826-1c4a-46d6-b007-c0dd5e6b17cc">SymGetOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetoptions">SymGetOptions</a>
  
 
  

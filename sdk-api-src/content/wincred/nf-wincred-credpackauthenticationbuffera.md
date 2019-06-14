@@ -56,7 +56,7 @@ ms.custom: 19H1
 
 The <b>CredPackAuthenticationBuffer</b> function converts a string user name and password into an authentication buffer.
 
-Beginning with Windows 8 and Windows Server 2012, the <b>CredPackAuthenticationBuffer</b> function converts an identity credential into an authentication buffer, which is a <a href="https://msdn.microsoft.com/a6083d76-1774-428c-85ca-fea817827d6a">SEC_WINNT_AUTH_IDENTITY_EX2</a> structure. This buffer can be passed to <a href="https://msdn.microsoft.com/75968d53-5af2-4d77-9486-26403b73c954">LsaLogonUser</a>, <a href="https://msdn.microsoft.com/acda4cf3-39a6-4bd2-91a0-db1f191b57b5">AcquireCredentialsHandle</a>, or other identity provider interfaces.
+Beginning with Windows 8 and Windows Server 2012, the <b>CredPackAuthenticationBuffer</b> function converts an identity credential into an authentication buffer, which is a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_winnt_auth_identity_ex2">SEC_WINNT_AUTH_IDENTITY_EX2</a> structure. This buffer can be passed to <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a>, <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle</a>, or other identity provider interfaces.
 
 
 ## -parameters
@@ -109,7 +109,7 @@ Encrypts the credential in a CRED_GENERIC buffer.
 </dl>
 </td>
 <td width="60%">
- Encrypts the credential of an online identity into a <a href="https://msdn.microsoft.com/a6083d76-1774-428c-85ca-fea817827d6a">SEC_WINNT_AUTH_IDENTITY_EX2</a> structure.  If CRED_PACK_GENERIC_CREDENTIALS and CRED_PACK_ID_PROVIDER_CREDENTIALS are not set, encrypts the credentials in a KERB_INTERACTIVE_LOGON buffer.
+ Encrypts the credential of an online identity into a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_winnt_auth_identity_ex2">SEC_WINNT_AUTH_IDENTITY_EX2</a> structure.  If CRED_PACK_GENERIC_CREDENTIALS and CRED_PACK_ID_PROVIDER_CREDENTIALS are not set, encrypts the credentials in a KERB_INTERACTIVE_LOGON buffer.
 
 <b>Windows 7, Windows Server 2008 R2, Windows Vista, Windows Server 2008:  </b>This value is not supported.
 
@@ -125,9 +125,9 @@ A pointer to a null-terminated string that specifies the user name to be convert
 
 <i>DomainName</i><b>\</b><i>UserName</i>
 
-For online identities, if the credential is a plaintext password, the user name format is <i>ProviderName</i><b>\</b><i>UserName</i>. If the credential is a <a href="https://msdn.microsoft.com/a6083d76-1774-428c-85ca-fea817827d6a">SEC_WINNT_AUTH_IDENTITY_EX2</a> structure, the user name is an encoded string that is the <i>UserName</i> parameter output of a function call to <a href="https://msdn.microsoft.com/0610a7b8-67e9-4c01-893f-da579eeea2f8">SspiEncodeAuthIdentityAsStrings</a>.
+For online identities, if the credential is a plaintext password, the user name format is <i>ProviderName</i><b>\</b><i>UserName</i>. If the credential is a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_winnt_auth_identity_ex2">SEC_WINNT_AUTH_IDENTITY_EX2</a> structure, the user name is an encoded string that is the <i>UserName</i> parameter output of a function call to <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspiencodeauthidentityasstrings">SspiEncodeAuthIdentityAsStrings</a>.
 
-For <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">smart card</a> or certificate credentials, the user name is an encoded string that is the output of a function call to <a href="https://msdn.microsoft.com/20a1d54b-04a7-4b0a-88e4-1970d1f71502">CredMarshalCredential</a> with the CertCredential option.
+For <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> or certificate credentials, the user name is an encoded string that is the output of a function call to <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credmarshalcredentiala">CredMarshalCredential</a> with the CertCredential option.
 
 <b>Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:  </b>Online identities are not supported.
 
@@ -136,9 +136,9 @@ For <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">sm
 
 A pointer to a null-terminated string that specifies the password to be converted.
 
-For <a href="https://msdn.microsoft.com/a6083d76-1774-428c-85ca-fea817827d6a">SEC_WINNT_AUTH_IDENTITY_EX2</a> credentials, the password is an encoded string that is in the <i>ppszPackedCredentialsString</i> output of a function call to <a href="https://msdn.microsoft.com/0610a7b8-67e9-4c01-893f-da579eeea2f8">SspiEncodeAuthIdentityAsStrings</a>.
+For <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_winnt_auth_identity_ex2">SEC_WINNT_AUTH_IDENTITY_EX2</a> credentials, the password is an encoded string that is in the <i>ppszPackedCredentialsString</i> output of a function call to <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspiencodeauthidentityasstrings">SspiEncodeAuthIdentityAsStrings</a>.
 
-For <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">smart card</a>  credentials, this is the <i>smart card</i> PIN.
+For <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a>  credentials, this is the <i>smart card</i> PIN.
 
 <b>Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:  </b>Online identities are not supported.
 
@@ -160,7 +160,7 @@ A pointer to a <b>DWORD</b> value that specifies the size, in bytes, of the <i>p
 <b>TRUE</b> if the function succeeds; otherwise, <b>FALSE</b>.
 
 For extended error information, call the 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function, which may return the following error codes.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function, which may return the following error codes.
 
 <table>
 <tr>

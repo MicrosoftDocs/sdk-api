@@ -107,11 +107,11 @@ Pointer to a null-terminated wide-character string containing the instance name 
 
 
 
-<b>FilterDetach</b> is the Win32 equivalent of <a href="https://msdn.microsoft.com/889750fc-69a9-4fe6-8905-6a7edc5c04fb">FltDetachVolume</a>. 
+<b>FilterDetach</b> is the Win32 equivalent of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltdetachvolume">FltDetachVolume</a>. 
 
 <b>FilterDetach</b> detaches a minifilter instance from a volume and tears down the instance. 
 
-To attach a minifilter instance to a volume, call <a href="https://msdn.microsoft.com/8f52fdd5-dfea-42c1-85ed-7431015eece8">FilterAttach</a> or <a href="https://msdn.microsoft.com/7ffbcea4-2047-40a2-9dab-4b91f77c6ce7">FilterAttachAtAltitude</a>. 
+To attach a minifilter instance to a volume, call <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterattach">FilterAttach</a> or <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterattachataltitude">FilterAttachAtAltitude</a>. 
 
 
 
@@ -121,15 +121,15 @@ To attach a minifilter instance to a volume, call <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/8f52fdd5-dfea-42c1-85ed-7431015eece8">FilterAttach</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterattach">FilterAttach</a>
 
 
 
-<a href="https://msdn.microsoft.com/7ffbcea4-2047-40a2-9dab-4b91f77c6ce7">FilterAttachAtAltitude</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterattachataltitude">FilterAttachAtAltitude</a>
 
 
 
-<a href="https://msdn.microsoft.com/889750fc-69a9-4fe6-8905-6a7edc5c04fb">FltDetachVolume</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltdetachvolume">FltDetachVolume</a>
  
 
  

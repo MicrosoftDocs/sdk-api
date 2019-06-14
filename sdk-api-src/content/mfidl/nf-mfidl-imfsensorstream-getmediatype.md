@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves an <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> representing a supported media type for the sensor stream.
+Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> representing a supported media type for the sensor stream.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Retrieves an <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6
 
 ### -param dwIndex [in]
 
-The 0-based index of the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> to retrieve. This value must be between 0 and the value returned by <a href="https://msdn.microsoft.com/DCC5645E-2E0C-4AA7-8790-3552AD343F90">GetMediaTypeCount</a> - 1.
+The 0-based index of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> to retrieve. This value must be between 0 and the value returned by <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensorstream-getmediatypecount">GetMediaTypeCount</a> - 1.
 
 
 ### -param ppMediaType [out]
@@ -127,7 +127,7 @@ The <i>dwIndex</i> is not in the allowed range.
 
 
 
-<a href="https://msdn.microsoft.com/9A5F6E25-796A-4798-8E4A-ABB9EB6A3B84">IMFSensorStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorstream">IMFSensorStream</a>
  
 
  

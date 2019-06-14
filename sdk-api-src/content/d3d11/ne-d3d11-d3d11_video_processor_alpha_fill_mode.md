@@ -66,7 +66,7 @@ Alpha values inside the target rectangle are set to opaque.
 
 ### -field D3D11_VIDEO_PROCESSOR_ALPHA_FILL_MODE_BACKGROUND
 
-Alpha values inside the target rectangle are set to the alpha value specified in the background color. To set the background color, call the <a href="https://msdn.microsoft.com/6D6DAECC-8D20-4ABB-A20B-55EC4F68D8F1">ID3D11VideoContext::VideoProcessorSetOutputBackgroundColor</a> method.
+Alpha values inside the target rectangle are set to the alpha value specified in the background color. To set the background color, call the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetoutputbackgroundcolor">ID3D11VideoContext::VideoProcessorSetOutputBackgroundColor</a> method.
 
 
 ### -field D3D11_VIDEO_PROCESSOR_ALPHA_FILL_MODE_DESTINATION
@@ -76,7 +76,7 @@ Existing alpha values remain unchanged in the output surface.
 
 ### -field D3D11_VIDEO_PROCESSOR_ALPHA_FILL_MODE_SOURCE_STREAM
 
-Alpha values are taken from an  input stream, scaled, and copied to the corresponding destination rectangle for that stream. The input stream is specified in the <i>StreamIndex</i> parameter of the <a href="https://msdn.microsoft.com/898604FA-B857-4D84-AA0D-3BC517F75A36">ID3D11VideoContext::VideoProcessorSetOutputAlphaFillMode</a> method. 
+Alpha values are taken from an  input stream, scaled, and copied to the corresponding destination rectangle for that stream. The input stream is specified in the <i>StreamIndex</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetoutputalphafillmode">ID3D11VideoContext::VideoProcessorSetOutputAlphaFillMode</a> method. 
 
 If the input stream does not have alpha data, the video processor sets the alpha values in the target rectangle to opaque. If the input stream is disabled or the source rectangle is empty, the alpha values in the target rectangle are not modified.
 
@@ -86,11 +86,11 @@ If the input stream does not have alpha data, the video processor sets the alpha
 
 
 
-<a href="https://msdn.microsoft.com/40061AD1-BCD9-4170-A442-34B4C792BB55">Direct3D 11 Video Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-enumerations">Direct3D 11 Video Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/898604FA-B857-4D84-AA0D-3BC517F75A36">ID3D11VideoContext::VideoProcessorSetOutputAlphaFillMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetoutputalphafillmode">ID3D11VideoContext::VideoProcessorSetOutputAlphaFillMode</a>
  
 
  

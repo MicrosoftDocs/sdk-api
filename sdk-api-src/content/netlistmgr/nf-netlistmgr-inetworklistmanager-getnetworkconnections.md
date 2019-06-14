@@ -59,7 +59,7 @@ The <b>GetNetworkConnections</b> method enumerates a complete list of the networ
 
 ### -param ppEnum [out]
 
-Pointer to a pointer that receives an <a href="https://msdn.microsoft.com/f7e69ede-c567-4285-a017-096c94fb3fe4">IEnumNetworkConnections</a> interface instance that enumerates all network connections on the machine.
+Pointer to a pointer that receives an <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-ienumnetworkconnections">IEnumNetworkConnections</a> interface instance that enumerates all network connections on the machine.
 
 
 ## -returns
@@ -95,7 +95,7 @@ The pointer passed is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/a9f76b6a-ea15-47b7-a4ef-14ea60b7810d">INetworkListManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworklistmanager">INetworkListManager</a>
  
 
  

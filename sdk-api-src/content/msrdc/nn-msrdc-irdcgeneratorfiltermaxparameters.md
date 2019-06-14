@@ -55,7 +55,7 @@ The <b>IRdcGeneratorFilterMaxParameters</b>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRdcGeneratorFilterMaxParameters</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IRdcGeneratorFilterMaxParameters</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRdcGeneratorFilterMaxParameters</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRdcGeneratorFilterMaxParameters</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IRdcGeneratorFilterMaxParameters</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c1a0460c-ca48-48ca-bd5b-1213e8279366">GetHashWindowSize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgeneratorfiltermaxparameters-gethashwindowsize">GetHashWindowSize</a>
 </td>
 <td align="left" width="63%">
 Returns the hash window size—the size of the sliding window used by the 
@@ -78,7 +78,7 @@ Returns the hash window size—the size of the sliding window used by the
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6509330a-9592-4e10-91fb-43e4b63dceb9">GetHorizonSize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgeneratorfiltermaxparameters-gethorizonsize">GetHorizonSize</a>
 </td>
 <td align="left" width="63%">
 Returns the horizon size—the length over which the FilterMax generator looks 
@@ -86,7 +86,7 @@ Returns the horizon size—the length over which the FilterMax generator looks
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b18a5db1-f480-46c4-bac3-b0b2f0da6cfa">SetHashWindowSize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgeneratorfiltermaxparameters-sethashwindowsize">SetHashWindowSize</a>
 </td>
 <td align="left" width="63%">
 Sets the hash window size—the size of the sliding window used by the 
@@ -94,7 +94,7 @@ Sets the hash window size—the size of the sliding window used by the
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/becd1edd-d06d-4328-8a7a-678f893bad3a">SetHorizonSize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgeneratorfiltermaxparameters-sethorizonsize">SetHorizonSize</a>
 </td>
 <td align="left" width="63%">
 Sets the horizon size—the length over which the FilterMax generator looks 
@@ -108,11 +108,11 @@ Sets the horizon size—the length over which the FilterMax generator looks
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3131654-e849-4a88-acec-c49a61653bad">Remote Differential Compression Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdc/remote-differential-compression-interfaces">Remote Differential Compression Interfaces</a>
  
 
  

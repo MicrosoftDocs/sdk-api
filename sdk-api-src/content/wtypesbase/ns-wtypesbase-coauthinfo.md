@@ -59,12 +59,12 @@ Contains the authentication settings used while making a remote activation reque
 
 ### -field dwAuthnSvc
 
-The authentication service to be used. For a list of values, see <a href="https://msdn.microsoft.com/c16a8e52-a7f9-40d9-99ef-10b382b5cb3c">Authentication Service Constants</a>. Use RPC_C_AUTHN_NONE if no authentication is required. RPC_C_AUTHN_WINNT is the default and RPC_C_AUTHN_GSS_KERBEROS is also supported.
+The authentication service to be used. For a list of values, see <a href="https://docs.microsoft.com/windows/desktop/com/com-authentication-service-constants">Authentication Service Constants</a>. Use RPC_C_AUTHN_NONE if no authentication is required. RPC_C_AUTHN_WINNT is the default and RPC_C_AUTHN_GSS_KERBEROS is also supported.
 
 
 ### -field dwAuthzSvc
 
-The authorization service to be used. For a list of values, see <a href="https://msdn.microsoft.com/a0bc9337-b7e4-41c5-ae36-4843fa7d98ce">Authorization Constants</a>. To use the NT authentication service, specify RPC_C_AUTHZ_NONE.
+The authorization service to be used. For a list of values, see <a href="https://docs.microsoft.com/windows/desktop/com/com-authorization-constants">Authorization Constants</a>. To use the NT authentication service, specify RPC_C_AUTHZ_NONE.
 
 
 ### -field pwszServerPrincName
@@ -74,19 +74,19 @@ The server principal name to use with the authentication service. If you are usi
 
 ### -field dwAuthnLevel
 
-The authentication level to be used. For a list of values, see <a href="https://msdn.microsoft.com/06c409e4-3772-45cf-8c31-c64f99aca244">Authentication Level Constants</a>.
+The authentication level to be used. For a list of values, see <a href="https://docs.microsoft.com/windows/desktop/com/com-authentication-level-constants">Authentication Level Constants</a>.
 
-As of Windows Server 2003, remote activations use the default authentication level specified in the <a href="https://msdn.microsoft.com/e0933741-6b75-4ce1-aa63-6240e4a7130f">CoInitializeSecurity</a> <i>dwAuthnLevel</i> parameter. In previous versions of Windows, RPC_C_AUTHN_LEVEL_CONNECT was always used for the security level unless another level was explicitly specified.
+As of Windows Server 2003, remote activations use the default authentication level specified in the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity">CoInitializeSecurity</a> <i>dwAuthnLevel</i> parameter. In previous versions of Windows, RPC_C_AUTHN_LEVEL_CONNECT was always used for the security level unless another level was explicitly specified.
 
 
 ### -field dwImpersonationLevel
 
-The impersonation level to be used. For a list of values, see <a href="https://msdn.microsoft.com/ea5a3b46-b607-4192-a3cc-b2ec55ca94a6">Impersonation Level Constants</a>. This value must be RPC_C_IMP_LEVEL_IMPERSONATE or above.
+The impersonation level to be used. For a list of values, see <a href="https://docs.microsoft.com/windows/desktop/com/com-impersonation-level-constants">Impersonation Level Constants</a>. This value must be RPC_C_IMP_LEVEL_IMPERSONATE or above.
 
 
 ### -field pAuthIdentityData
 
-A pointer to a <a href="https://msdn.microsoft.com/ce14f8a6-0495-491a-a5c7-de7c1d3efd95">COAUTHIDENTITY</a> structure that establishes a nondefault client identity. If this parameter is <b>NULL</b>, the actual identity of the client is used. Values of structure members are authentication-service specific. This value must be <b>NULL</b> if <b>dwAuthnSvc</b> does not specify either the NTLMSSP or Kerberos network authentication protocol is used as the authorization service.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ns-wtypesbase-_coauthidentity">COAUTHIDENTITY</a> structure that establishes a nondefault client identity. If this parameter is <b>NULL</b>, the actual identity of the client is used. Values of structure members are authentication-service specific. This value must be <b>NULL</b> if <b>dwAuthnSvc</b> does not specify either the NTLMSSP or Kerberos network authentication protocol is used as the authorization service.
 
 
 ### -field dwCapabilities
@@ -98,7 +98,7 @@ Indicates additional capabilities of this proxy. Currently, this member must be 
 
 
 
-If <b>pAuthInfo</b> in <a href="https://msdn.microsoft.com/88c94a7f-5cf0-4d61-833f-91cba45d8624">COSERVERINFO</a> is set to <b>NULL</b>, Snego will be used to negotiate an authentication service that will work between the client and server. However, a non-<b>NULL</b><b>COAUTHINFO</b> structure can be specified for <b>pAuthInfo</b> to meet any one of the following needs:
+If <b>pAuthInfo</b> in <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-_coserverinfo">COSERVERINFO</a> is set to <b>NULL</b>, Snego will be used to negotiate an authentication service that will work between the client and server. However, a non-<b>NULL</b><b>COAUTHINFO</b> structure can be specified for <b>pAuthInfo</b> to meet any one of the following needs:
 
 <ul>
 <li>To specify a different client identity for computer remote activations. The specified identity will be used for the launch permission check on the server rather than the real client identity.
@@ -111,7 +111,7 @@ If <b>pAuthInfo</b> in <a href="https://msdn.microsoft.com/88c94a7f-5cf0-4d61-83
 </ul>
 Specifying a <b>COAUTHINFO</b> structure allows DCOM activations to work correctly with security providers other than NTLMSSP. You can also specify additional security information used during remote activations for interoperability with alternate implementations of DCOM. 
 
-If you set <b>dwAuthzSvc</b>, <b>pwszServerPrincName</b>, <b>dwImpersonationLevel</b>, or <b>dwCapabilities</b> to incorrect values and call either <a href="https://msdn.microsoft.com/65e758ce-50a4-49e8-b3b2-0cd148d2781a">CoGetClassObject</a> or <a href="https://msdn.microsoft.com/3b414b95-e8d2-42e8-b4f2-5cc5189a3d08">CoCreateInstanceEx</a>, these functions do not return E_INVALIDARG or a similar error. Default values are used instead of the incorrect values.
+If you set <b>dwAuthzSvc</b>, <b>pwszServerPrincName</b>, <b>dwImpersonationLevel</b>, or <b>dwCapabilities</b> to incorrect values and call either <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject">CoGetClassObject</a> or <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a>, these functions do not return E_INVALIDARG or a similar error. Default values are used instead of the incorrect values.
 
 
 
@@ -121,7 +121,7 @@ If you set <b>dwAuthzSvc</b>, <b>pwszServerPrincName</b>, <b>dwImpersonationLeve
 
 
 
-<a href="https://msdn.microsoft.com/88c94a7f-5cf0-4d61-833f-91cba45d8624">COSERVERINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-_coserverinfo">COSERVERINFO</a>
  
 
  

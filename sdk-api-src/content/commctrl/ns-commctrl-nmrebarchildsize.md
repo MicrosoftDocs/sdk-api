@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information used in handling the <a href="https://msdn.microsoft.com/en-us/library/Bb774411(v=VS.85).aspx">RBN_CHILDSIZE</a> notification code. 
+Contains information used in handling the <a href="https://docs.microsoft.com/windows/desktop/Controls/rbn-childsize">RBN_CHILDSIZE</a> notification code. 
 
 
 ## -struct-fields
@@ -59,22 +59,22 @@ Contains information used in handling the <a href="https://msdn.microsoft.com/en
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about the notification. 
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that contains additional information about the notification. 
 
 
 ### -field uBand
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Zero-based index of the band affected by the notification. This will be -1 if no band is affected. 
 
 
 ### -field wID
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Application-defined identifier of the band. 
 

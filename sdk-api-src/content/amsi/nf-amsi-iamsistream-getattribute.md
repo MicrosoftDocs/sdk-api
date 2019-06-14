@@ -193,11 +193,11 @@ Depending on the attribute requested in <i>attribute</i>, the following data sho
 
 
 
-<a href="https://msdn.microsoft.com/19DD293C-71FF-4E40-A2B7-12B4A2D00DBD">AMSI_ATTRIBUTE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amsi/ne-amsi-amsi_attribute">AMSI_ATTRIBUTE</a>
 
 
 
-<a href="https://msdn.microsoft.com/409CE6BF-57A5-454E-91F9-3D66FE7E323F">IAmsiStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amsi/nn-amsi-iamsistream">IAmsiStream</a>
  
 
  

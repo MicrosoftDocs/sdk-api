@@ -50,29 +50,29 @@ ms.custom: 19H1
 
 
 Derived from 
-<a href="https://msdn.microsoft.com/77b53b66-38fa-4823-9051-e857da8a7dd7">CMSPCallBase</a>, this class defines a call that uses a filter graph for each stream. This extra increased specificity allows this class to implement more of the call's functionality than 
+<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nl-mspcall-cmspcallbase">CMSPCallBase</a>, this class defines a call that uses a filter graph for each stream. This extra increased specificity allows this class to implement more of the call's functionality than 
 <b>CMSPCallBase</b>. Defined in MSPcall.h.
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/7be01f6a-dab2-4256-9a28-65606ea4392f">CMSPCallMultiGraph Type Definitions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspcallmultigraph-type-definitions">CMSPCallMultiGraph Type Definitions</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/49451585-3084-4426-8617-79b60eb77518">CMSPCallMultiGraph Members</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspcallmultigraph-members">CMSPCallMultiGraph Members</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/340b3d46-8a60-4d55-81a6-bd47431fae59">CMSPCallMultiGraph MSPI Methods Implemented</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspcallmultigraph-mspi-methods-implemented">CMSPCallMultiGraph MSPI Methods Implemented</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/3002f307-ce8a-43d2-9da4-c1611854c1ad">CMSPCallMultiGraph Public Methods, Called by MSPAddress Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspcallmultigraph-public-methods-called-by-mspaddress-object">CMSPCallMultiGraph Public Methods, Called by MSPAddress Object</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/f0a5f621-99c4-40f0-8a0e-0e43792e00a1">CMSPCallMultiGraph Public Methods, Called by Thread Pool</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspcallmultigraph-public-methods-called-by-thread-pool">CMSPCallMultiGraph Public Methods, Called by Thread Pool</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/317e3fba-3af5-4fd6-8e4d-276643960930">CMSPCallMultiGraph Overriden CComObject Methods</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspcallmultigraph-overriden-ccomobject-methods">CMSPCallMultiGraph Overriden CComObject Methods</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/54916766-b9b9-47cf-bae1-14dadee2b2d5">CMSPCallMultiGraph Protected Helper Methods</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspcallmultigraph-protected-helper-methods">CMSPCallMultiGraph Protected Helper Methods</a>
 </li>
 </ul><b xmlns:loc="http://microsoft.com/wdcml/l10n">CMSPCallMultiGraph</b> has these types of members:
 
@@ -82,7 +82,7 @@ Derived from
 
 
 
-<a href="https://msdn.microsoft.com/77b53b66-38fa-4823-9051-e857da8a7dd7">CMSPCallBase</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nl-mspcall-cmspcallbase">CMSPCallBase</a>
  
 
  

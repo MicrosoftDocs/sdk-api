@@ -93,7 +93,7 @@ Specifies a user-defined, custom dashed line.
 
 
 A custom dashed line is created by calling the 
-				<a href="https://msdn.microsoft.com/en-us/library/ms535049(v=VS.85).aspx">Pen::SetDashPattern</a> method, which takes an array of values for the dash lengths and the space lengths.
+				<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-setdashpattern">Pen::SetDashPattern</a> method, which takes an array of values for the dash lengths and the space lengths.
 
 
 

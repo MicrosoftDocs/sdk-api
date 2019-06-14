@@ -86,27 +86,27 @@ Because the smallest chunk of memory that can normally be allocated is a byte, t
 
 
 
-<a href="https://msdn.microsoft.com/6603b627-5e5d-48bc-b200-c8dcdd646994">CERT_BASIC_CONSTRAINTS_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_basic_constraints_info">CERT_BASIC_CONSTRAINTS_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/8d0a3053-52d4-437a-bf55-6724b5825cdc">CERT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info">CERT_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/cedf0321-4f5a-48a9-abfd-d8642bb89576">CERT_KEY_ATTRIBUTES_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_key_attributes_info">CERT_KEY_ATTRIBUTES_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/f949c8e5-055d-4919-abcc-441880ccce56">CERT_KEY_USAGE_RESTRICTION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_key_usage_restriction_info">CERT_KEY_USAGE_RESTRICTION_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/bab6c147-b7cd-408a-acac-90f05921e065">CERT_PUBLIC_KEY_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_public_key_info">CERT_PUBLIC_KEY_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/f650765e-7a72-42a3-baf7-29779fd04adc">CERT_SIGNED_CONTENT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_signed_content_info">CERT_SIGNED_CONTENT_INFO</a>
  
 
  

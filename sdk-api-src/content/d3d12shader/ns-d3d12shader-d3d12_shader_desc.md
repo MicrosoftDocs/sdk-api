@@ -62,7 +62,7 @@ Describes a shader.
 
 The Shader version, as an encoded UINT that corresponds to a shader model, such as "ps_5_0".
             <b>Version</b> describes the program type, a major version number, and a minor version number.
-            The program type is a <a href="https://msdn.microsoft.com/4691452D-3A7B-4890-AE41-B6AF5C541A3B">D3D12_SHADER_VERSION_TYPE</a> enumeration constant.
+            The program type is a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/ne-d3d12shader-d3d12_shader_version_type">D3D12_SHADER_VERSION_TYPE</a> enumeration constant.
             <b>Version</b> is decoded in the following way:
             
 
@@ -224,7 +224,7 @@ Number of emit instructions used.
 
 ### -field GSOutputTopology
 
-The <a href="https://msdn.microsoft.com/b4becdcc-cc19-4d5a-940b-b232ebedce68">D3D_PRIMITIVE_TOPOLOGY</a>-typed value that represents the geometry shader output topology.
+The <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_primitive_topology">D3D_PRIMITIVE_TOPOLOGY</a>-typed value that represents the geometry shader output topology.
           
 
 
@@ -236,7 +236,7 @@ Geometry shader maximum output vertex count.
 
 ### -field InputPrimitive
 
-The <a href="https://msdn.microsoft.com/d7a83edb-48ab-4e9f-bf2b-790ebb4a14c4">D3D_PRIMITIVE</a>-typed value that represents the input primitive for a  geometry shader or hull shader.
+The <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_primitive">D3D_PRIMITIVE</a>-typed value that represents the input primitive for a  geometry shader or hull shader.
           
 
 
@@ -260,19 +260,19 @@ Number of control points in the hull shader and domain shader.
 
 ### -field HSOutputPrimitive
 
-The <a href="https://msdn.microsoft.com/5fdaa41f-0612-4d2e-bb3e-60222f92bc96">D3D_TESSELLATOR_OUTPUT_PRIMITIVE</a>-typed value that represents the tessellator output-primitive type.
+The <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_tessellator_output_primitive">D3D_TESSELLATOR_OUTPUT_PRIMITIVE</a>-typed value that represents the tessellator output-primitive type.
           
 
 
 ### -field HSPartitioning
 
-The <a href="https://msdn.microsoft.com/2a33c1c2-cdd6-48d0-8bd1-a3108c4b9449">D3D_TESSELLATOR_PARTITIONING</a>-typed value that represents the tessellator partitioning mode.
+The <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_tessellator_partitioning">D3D_TESSELLATOR_PARTITIONING</a>-typed value that represents the tessellator partitioning mode.
           
 
 
 ### -field TessellatorDomain
 
-The <a href="https://msdn.microsoft.com/9a62f3f4-b9d9-4aed-952e-00f3ad6aafd1">D3D_TESSELLATOR_DOMAIN</a>-typed value that represents the tessellator domain.
+The <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_tessellator_domain">D3D_TESSELLATOR_DOMAIN</a>-typed value that represents the tessellator domain.
           
 
 
@@ -300,7 +300,7 @@ Number of texture writes in a compute shader.
 
 A shader is written in HLSL and compiled into an intermediate language by the HLSL compiler.
         The shader description returns information about the compiled shader.
-        To get a shader description, call <a href="https://msdn.microsoft.com/D84DC99E-4E0C-4CFC-B061-FCD3C42D7937">ID3D12ShaderReflection::GetDesc</a>.
+        To get a shader description, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getdesc">ID3D12ShaderReflection::GetDesc</a>.
       
 
 
@@ -311,7 +311,7 @@ A shader is written in HLSL and compiled into an intermediate language by the HL
 
 
 
-<a href="https://msdn.microsoft.com/b8ece5c3-5065-4711-b12c-6cf7ea0e1ba0">Shader Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-shader-structures">Shader Structures</a>
  
 
  

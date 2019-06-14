@@ -169,16 +169,16 @@ You can use HLSL intrinsic texture-sampling functions that implement texture fil
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Bb509695(v=VS.85).aspx">sample</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-sample">sample</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Bb509696(v=VS.85).aspx">samplecmp</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb509697(v=VS.85).aspx">samplecmplevelzero</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-samplecmp">samplecmp</a> or <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-samplecmplevelzero">samplecmplevelzero</a>
 </td>
 </tr>
 </table>
  
 
-Comparison filters only work with textures that have the following <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">formats</a>: R32_FLOAT_X8X24_TYPELESS, R32_FLOAT, R24_UNORM_X8_TYPELESS, R16_UNORM.
+Comparison filters only work with textures that have the following <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">formats</a>: R32_FLOAT_X8X24_TYPELESS, R32_FLOAT, R24_UNORM_X8_TYPELESS, R16_UNORM.
 
 
 
@@ -188,7 +188,7 @@ Comparison filters only work with textures that have the following <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-enums">Core Enumerations</a>
  
 
  

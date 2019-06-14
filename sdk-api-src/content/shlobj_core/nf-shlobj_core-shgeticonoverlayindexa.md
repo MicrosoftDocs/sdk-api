@@ -112,7 +112,7 @@ Returns the index of the overlay icon in the system image list if successful, or
 
 
 
-Icon overlays are part of the system image list. They have two identifiers. The first is a one-based overlay index that identifies the overlay relative to other overlays in the image list. The other is an image index that identifies the actual image. These two indexes are equivalent to the values that you assign to the <i>iOverlay</i> and <i>iImage</i> parameters, respectively, when you add an icon overlay to a private image list with <a href="https://msdn.microsoft.com/en-us/library/Bb775227(v=VS.85).aspx">ImageList_SetOverlayImage</a>. <b>SHGetIconOverlayIndex</b> returns the overlay index. To convert an overlay index to its equivalent image index, call <a href="https://msdn.microsoft.com/en-us/library/Bb761408(v=VS.85).aspx">INDEXTOOVERLAYMASK</a>.
+Icon overlays are part of the system image list. They have two identifiers. The first is a one-based overlay index that identifies the overlay relative to other overlays in the image list. The other is an image index that identifies the actual image. These two indexes are equivalent to the values that you assign to the <i>iOverlay</i> and <i>iImage</i> parameters, respectively, when you add an icon overlay to a private image list with <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_setoverlayimage">ImageList_SetOverlayImage</a>. <b>SHGetIconOverlayIndex</b> returns the overlay index. To convert an overlay index to its equivalent image index, call <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-indextooverlaymask">INDEXTOOVERLAYMASK</a>.
 
 <div class="alert"><b>Note</b>  After the image has been loaded into the system image list during initialization, it cannot be changed. The file name and index specified by <i>pszIconPath</i> and <i>iIconIndex</i> are used only to identify the icon overlay. <b>SHGetIconOverlayIndex</b> cannot be used to modify the system image list.</div>
 <div> </div>
@@ -124,11 +124,11 @@ Icon overlays are part of the system image list. They have two identifiers. The 
 
 
 
-<a href="https://msdn.microsoft.com/1a1d03ca-0922-41df-8cec-e74a16ed3bd6">IShellIconOverlay</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelliconoverlay">IShellIconOverlay</a>
 
 
 
-<a href="https://msdn.microsoft.com/c093bc13-def7-411d-b741-50996ffad84b">IShellIconOverlayIdentifier</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelliconoverlayidentifier">IShellIconOverlayIdentifier</a>
  
 
  

@@ -53,7 +53,7 @@ ms.custom: 19H1
 The <b>SetNameEntry</b> method sets a name at a specified index of the  alternate name array.
 
 Before using this method, you must call 
-<a href="https://msdn.microsoft.com/99aa43fe-534b-4696-8bfc-7049b16be1cf">ICertEncodeAltName::Reset</a> so that the object knows how many elements are in the array.
+<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodealtname-reset">ICertEncodeAltName::Reset</a> so that the object knows how many elements are in the array.
 
 
 ## -parameters
@@ -113,7 +113,7 @@ The name is an octet string that represents an Internet Protocol address.
 </dl>
 </td>
 <td width="60%">
-The name is a registered <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID).
+The name is a registered <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID).
 
 </td>
 </tr>
@@ -143,7 +143,7 @@ The name is an IA5 string that contains a URL in the format <i>Service</i><b>://
 </dl>
 </td>
 <td width="60%">
-The name consists of an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) and a binary <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a>.
+The name consists of an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and a binary <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a>.
 
 </td>
 </tr>
@@ -163,7 +163,7 @@ Specifies the alternate name.
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -173,7 +173,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-<a href="https://msdn.microsoft.com/e0ecfcb0-f2ca-4e1c-a054-c83c03d55465">ICertEncodeAltName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nn-certenc-icertencodealtname">ICertEncodeAltName</a>
  
 
  

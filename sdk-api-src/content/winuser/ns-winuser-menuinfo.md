@@ -82,7 +82,7 @@ Indicates the members to be retrieved or set (except for <b>MIM_APPLYTOSUBMENUS<
 </dl>
 </td>
 <td width="60%">
-Settings apply to the menu and all of its submenus. <a href="https://msdn.microsoft.com/en-us/library/ms647997(v=VS.85).aspx">SetMenuInfo</a> uses this flag and <a href="https://msdn.microsoft.com/en-us/library/ms647977(v=VS.85).aspx">GetMenuInfo</a> ignores this flag
+Settings apply to the menu and all of its submenus. <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenuinfo">SetMenuInfo</a> uses this flag and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmenuinfo">GetMenuInfo</a> ignores this flag
 
 </td>
 </tr>
@@ -190,7 +190,7 @@ The same space is reserved for the check mark and the bitmap. If the check mark 
 </dl>
 </td>
 <td width="60%">
-Menu items are OLE drop targets or drag sources. Menu owner receives <a href="https://msdn.microsoft.com/en-us/library/ms647606(v=VS.85).aspx">WM_MENUDRAG</a> and <a href="https://msdn.microsoft.com/en-us/library/ms647607(v=VS.85).aspx">WM_MENUGETOBJECT</a> messages.
+Menu items are OLE drop targets or drag sources. Menu owner receives <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-menudrag">WM_MENUDRAG</a> and <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-menugetobject">WM_MENUGETOBJECT</a> messages.
 
 </td>
 </tr>
@@ -223,7 +223,7 @@ No space is reserved to the left of an item for a check mark. The item can still
 </dl>
 </td>
 <td width="60%">
-Menu owner receives a <a href="https://msdn.microsoft.com/en-us/library/ms647603(v=VS.85).aspx">WM_MENUCOMMAND</a> message instead of a <a href="https://msdn.microsoft.com/en-us/library/ms647591(v=VS.85).aspx">WM_COMMAND</a> message when the user makes a selection. <b>MNS_NOTIFYBYPOS</b> is a menu header style and has no effect when applied to individual sub menus.
+Menu owner receives a <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-menucommand">WM_MENUCOMMAND</a> message instead of a <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command">WM_COMMAND</a> message when the user makes a selection. <b>MNS_NOTIFYBYPOS</b> is a menu header style and has no effect when applied to individual sub menus.
 
 </td>
 </tr>
@@ -250,8 +250,8 @@ A handle to the brush to be used for the menu's background.
 Type: <b>DWORD</b>
 
 The context help identifier. This is the same value used in 
-					the <a href="https://msdn.microsoft.com/2b8d3e94-6860-4a75-8373-38afb641eb3b">GetMenuContextHelpId</a> and 
-					<a href="https://msdn.microsoft.com/55d944db-d889-468a-991a-b9779c90b44f">SetMenuContextHelpId</a> functions. 
+					the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmenucontexthelpid">GetMenuContextHelpId</a> and 
+					<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenucontexthelpid">SetMenuContextHelpId</a> functions. 
 
 
 ### -field dwMenuData
@@ -266,7 +266,7 @@ An application-defined value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus Overview</a>
  
 
  

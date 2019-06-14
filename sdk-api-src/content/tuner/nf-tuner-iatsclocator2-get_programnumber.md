@@ -79,11 +79,11 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="https://msdn.microsoft.com/dbb830bf-db46-4981-8a96-ae33b1de3883">IATSCLocator2 Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iatsclocator2">IATSCLocator2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/af4eeac6-4eee-41d7-a35d-439e4143f046">put_ProgramNumber</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iatsclocator2-put_programnumber">put_ProgramNumber</a>
  
 
  

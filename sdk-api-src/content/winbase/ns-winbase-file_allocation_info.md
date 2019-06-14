@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains the total number of bytes that should be allocated for a file. This structure is used when calling the <a href="https://msdn.microsoft.com/ea4981e6-a8f1-4977-aca9-b2f53604d449">SetFileInformationByHandle</a> function.
+Contains the total number of bytes that should be allocated for a file. This structure is used when calling the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a> function.
 
 
 ## -struct-fields
@@ -77,11 +77,11 @@ The end-of-file (EOF) position for a file must always be less than or equal to t
 
 
 
-<a href="https://msdn.microsoft.com/8f02e824-ca41-48c1-a5e8-5b12d81886b5">FILE_INFO_BY_HANDLE_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ne-minwinbase-file_info_by_handle_class">FILE_INFO_BY_HANDLE_CLASS</a>
 
 
 
-<a href="https://msdn.microsoft.com/ea4981e6-a8f1-4977-aca9-b2f53604d449">SetFileInformationByHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a>
  
 
  

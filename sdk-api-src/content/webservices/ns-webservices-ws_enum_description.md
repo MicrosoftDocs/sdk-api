@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-A type description that is used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_ENUM_TYPE</a> and is required. 
+A type description that is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_ENUM_TYPE</a> and is required. 
                 It provides information used in serializing and deserializing
                 values of an enumeration.
             

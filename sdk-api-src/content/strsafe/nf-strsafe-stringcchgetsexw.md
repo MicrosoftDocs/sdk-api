@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Gets one line of text from stdin, up to and including the newline character ('\n'). The line of text is copied to the destination buffer, and the newline character  is replaced with a null character. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
-<div class="alert"><b>Note</b>  This function can only be used inline.</div><div> </div><b>StringCchGetsEx</b> adds to the functionality of <a href="https://msdn.microsoft.com/en-us/library/ms647536(v=VS.85).aspx">StringCchGets</a> by returning a pointer to the end of the destination string as well as the number of characters left unused in that string. Flags may also be passed to the function for additional control.
+<div class="alert"><b>Note</b>  This function can only be used inline.</div><div> </div><b>StringCchGetsEx</b> adds to the functionality of <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchgetsa">StringCchGets</a> by returning a pointer to the end of the destination string as well as the number of characters left unused in that string. Flags may also be passed to the function for additional control.
 
 <b>StringCchGetsEx</b> is a replacement for the following functions:
 <ul>
@@ -122,7 +122,7 @@ If the function succeeds, the low byte of <i>dwFlags</i> (0) is used to fill the
 </dl>
 </td>
 <td width="60%">
-Treat <b>NULL</b> string pointers like empty strings (TEXT("")). This flag is useful for emulating functions such as <a href="https://msdn.microsoft.com/en-us/library/ms647490(v=VS.85).aspx">lstrcpy</a>.
+Treat <b>NULL</b> string pointers like empty strings (TEXT("")). This flag is useful for emulating functions such as <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcpya">lstrcpy</a>.
 
 </td>
 </tr>
@@ -169,7 +169,7 @@ As in the case of STRSAFE_NULL_ON_FAILURE, if the function fails, <i>pszDest</i>
 
 Type: <b>HRESULT</b>
 
-This function can return one of the following values. It is strongly recommended that you use the <a href="https://msdn.microsoft.com/7a258b0b-d214-46c5-be0a-6493cd14a0e5">SUCCEEDED</a> and <a href="https://msdn.microsoft.com/d9c4ff73-c255-4a82-b901-23bd5b41ee6c">FAILED</a> macros to test the return value of this function.
+This function can return one of the following values. It is strongly recommended that you use the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros to test the return value of this function.
 
 <table>
 <tr>
@@ -194,7 +194,7 @@ Characters were read from stdin, were copied to the buffer at <i>pszDest</i>, an
 </dl>
 </td>
 <td width="60%">
-Indicates an error or end-of-file condition. Use <a href="https://msdn.microsoft.com/library/xssktc6e(v=VS.100).aspx">feof</a> or <a href="https://msdn.microsoft.com/library/y2wc3w90(v=VS.100).aspx">ferror</a> to determine which one has occurred.
+Indicates an error or end-of-file condition. Use <a href="https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/xssktc6e(v=vs.100)">feof</a> or <a href="https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/y2wc3w90(v=vs.100)">ferror</a> to determine which one has occurred.
 
 </td>
 </tr>
@@ -274,11 +274,11 @@ The value of <i>pszDest</i> should not be <b>NULL</b> unless the <b>STRSAFE_IGNO
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647507(v=VS.85).aspx">StringCbGetsEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbgetsexa">StringCbGetsEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647536(v=VS.85).aspx">StringCchGets</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchgetsa">StringCchGets</a>
  
 
  

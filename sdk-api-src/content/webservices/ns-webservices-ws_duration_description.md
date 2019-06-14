@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-An optional type description  used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_DURATION_TYPE</a>.
+An optional type description  used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_DURATION_TYPE</a>.
                 It is used to specify constraints on the set of values
                 which can be deserialized.
             
@@ -74,11 +74,11 @@ The maximum value.
 
 ### -field comparer
 
-Specifies a function which can be used to compare <a href="https://msdn.microsoft.com/ccb08c23-8c6f-4ea7-a43b-c30a0df75805">WS_DURATION</a>. If <b>NULL</b>, a default
+Specifies a function which can be used to compare <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_duration">WS_DURATION</a>. If <b>NULL</b>, a default
                     comparer is used.
                 
 
-Because <a href="https://msdn.microsoft.com/ccb08c23-8c6f-4ea7-a43b-c30a0df75805">WS_DURATION</a> has a partial ordering, not all durations can be unambiguously compared
+Because <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_duration">WS_DURATION</a> has a partial ordering, not all durations can be unambiguously compared
                     (for example, 1 month and 30 days).  The default comparer function can compare durations that specify
                     years and months (but no other components), or durations that specify no years or months (but any other
                     component).

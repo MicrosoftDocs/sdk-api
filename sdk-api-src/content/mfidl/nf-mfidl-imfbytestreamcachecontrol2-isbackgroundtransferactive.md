@@ -75,7 +75,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Background transfer might stop because the cache limit was reached (see <a href="https://msdn.microsoft.com/1DDC3D76-E28B-4B8C-B2CD-FE77E840D949">IMFByteStreamCacheControl2::SetCacheLimit</a>) or because the <a href="https://msdn.microsoft.com/9f0f7102-c839-4e92-a798-5ea31ceba013">IMFByteStreamCacheControl::StopBackgroundTransfer</a> method was called.
+Background transfer might stop because the cache limit was reached (see <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamcachecontrol2-setcachelimit">IMFByteStreamCacheControl2::SetCacheLimit</a>) or because the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamcachecontrol-stopbackgroundtransfer">IMFByteStreamCacheControl::StopBackgroundTransfer</a> method was called.
 
 
 
@@ -85,7 +85,7 @@ Background transfer might stop because the cache limit was reached (see <a href=
 
 
 
-<a href="https://msdn.microsoft.com/A901F679-B6F2-4DB7-8EFC-EA61249B64FB">IMFByteStreamCacheControl2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfbytestreamcachecontrol2">IMFByteStreamCacheControl2</a>
  
 
  

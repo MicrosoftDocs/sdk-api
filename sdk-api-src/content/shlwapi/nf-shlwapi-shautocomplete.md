@@ -61,7 +61,7 @@ Instructs system edit controls to use AutoComplete to help complete URLs or file
 
 Type: <b>HWND</b>
 
-The window handle of a system edit control. Typically, this parameter is the handle of an edit control or the edit control embedded in a <a href="https://msdn.microsoft.com/en-us/library/Bb775740(v=VS.85).aspx">ComboBoxEx</a> control.
+The window handle of a system edit control. Typically, this parameter is the handle of an edit control or the edit control embedded in a <a href="https://docs.microsoft.com/windows/desktop/Controls/comboboxex-control-reference">ComboBoxEx</a> control.
 
 
 ### -param dwFlags
@@ -162,13 +162,13 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<b>SHAutoComplete</b> works on any system edit control, including the edit control and controls that contain edit controls such as <a href="https://msdn.microsoft.com/en-us/library/Bb775740(v=VS.85).aspx">ComboBoxEx</a> controls. To retrieve a handle to an edit control embedded in a ComboBoxEx control, send the ComboBoxEx control a <a href="https://msdn.microsoft.com/en-us/library/Bb775772(v=VS.85).aspx">CBEM_GETEDITCONTROL</a> message.
+<b>SHAutoComplete</b> works on any system edit control, including the edit control and controls that contain edit controls such as <a href="https://docs.microsoft.com/windows/desktop/Controls/comboboxex-control-reference">ComboBoxEx</a> controls. To retrieve a handle to an edit control embedded in a ComboBoxEx control, send the ComboBoxEx control a <a href="https://docs.microsoft.com/windows/desktop/Controls/cbem-geteditcontrol">CBEM_GETEDITCONTROL</a> message.
 
-An application must have invoked either <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> prior to calling this function. <a href="https://msdn.microsoft.com/9411cbed-fa3b-46f7-b677-6ada53324edc">CoUninitialize</a> or <a href="https://msdn.microsoft.com/b2a8233f-7e1b-4c54-9363-7478c40c3830">OleUninitialize</a> cannot be called until the edit box has finished processing the <a href="https://msdn.microsoft.com/en-us/library/ms632620(v=VS.85).aspx">WM_DESTROY</a> message for <i>hwndEdit</i>.
+An application must have invoked either <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleinitialize">OleInitialize</a> prior to calling this function. <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleuninitialize">OleUninitialize</a> cannot be called until the edit box has finished processing the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-destroy">WM_DESTROY</a> message for <i>hwndEdit</i>.
 
 The maximum number of items that can be displayed in an autosuggest drop-down list box is 1000.
 
-On versions of Windows prior to Windows Vista and server versions prior to Windows Server 2008, <b>SHAutoComplete</b> should not be called more than once with the same <b>HWND</b>. Doing so results in a memory leak. It prevents the original resources from being released, including the previous instance of the AutoComplete object, enumerator objects that the previous AutoComplete object has referenced, and Windows Graphics Device Interface (GDI) resources. Rather than call <b>SHAutoComplete</b> again with a different set of flags to change the AutoComplete list, call <a href="https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a> with CLSID_AutoComplete to obtain the AutoComplete object. Then pass the <b>HWND</b> to the object to initialize it and provide your own custom enumerator. You can use CLSID_ACLMulti if you want AutoComplete to use multiple lists.
+On versions of Windows prior to Windows Vista and server versions prior to Windows Server 2008, <b>SHAutoComplete</b> should not be called more than once with the same <b>HWND</b>. Doing so results in a memory leak. It prevents the original resources from being released, including the previous instance of the AutoComplete object, enumerator objects that the previous AutoComplete object has referenced, and Windows Graphics Device Interface (GDI) resources. Rather than call <b>SHAutoComplete</b> again with a different set of flags to change the AutoComplete list, call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with CLSID_AutoComplete to obtain the AutoComplete object. Then pass the <b>HWND</b> to the object to initialize it and provide your own custom enumerator. You can use CLSID_ACLMulti if you want AutoComplete to use multiple lists.
 
 
 
@@ -178,7 +178,7 @@ On versions of Windows prior to Windows Vista and server versions prior to Wind
 
 
 
-<a href="https://msdn.microsoft.com/b990395b-fc10-48f9-a718-7cc006e37eb7">Using Autocomplete</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776884(v=vs.85)">Using Autocomplete</a>
  
 
  

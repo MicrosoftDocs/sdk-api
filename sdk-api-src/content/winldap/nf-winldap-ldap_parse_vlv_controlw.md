@@ -66,18 +66,18 @@ The LDAP session handle.
 
 ### -param Control [in]
 
-The address of a NULL-terminated array of <a href="https://msdn.microsoft.com/c0b4d712-021d-46f3-8bda-aaf660ec1acc">LDAPControl</a> structures, typically obtained by a call to 
-<a href="https://msdn.microsoft.com/6cadfbe0-0b69-4c43-a2ca-d8b3a12bf0a9">ldap_parse_result</a>.
+The address of a NULL-terminated array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapcontrola">LDAPControl</a> structures, typically obtained by a call to 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_parse_result">ldap_parse_result</a>.
 
 
 ### -param TargetPos [out]
 
-The numeric position of the target entry in the result set list, as provided by the targetPosition element of the BER-encoded response control (<a href="https://msdn.microsoft.com/bd7906bd-9e2d-4941-9a63-3e530cb9583b">LDAP_CONTROL_VLVRESPONSE</a>). If this parameter is <b>NULL</b>, the target position is not returned.
+The numeric position of the target entry in the result set list, as provided by the targetPosition element of the BER-encoded response control (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-control-vlvresponse">LDAP_CONTROL_VLVRESPONSE</a>). If this parameter is <b>NULL</b>, the target position is not returned.
 
 
 ### -param ListCount [out]
 
-The server estimate of the number of entries in the list as provided by the contentCount element of the BER-encoded response control (<a href="https://msdn.microsoft.com/bd7906bd-9e2d-4941-9a63-3e530cb9583b">LDAP_CONTROL_VLVRESPONSE</a>). If this parameter is <b>NULL</b>, the size is not returned.
+The server estimate of the number of entries in the list as provided by the contentCount element of the BER-encoded response control (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-control-vlvresponse">LDAP_CONTROL_VLVRESPONSE</a>). If this parameter is <b>NULL</b>, the size is not returned.
 
 
 ### -param Context [out]
@@ -87,7 +87,7 @@ The server-generated context identifier. If the server does not return a context
 
 ### -param ErrCode [out]
 
-The VLV result code, as provided by the virtualListViewResult element of the BER-encoded response control (<a href="https://msdn.microsoft.com/bd7906bd-9e2d-4941-9a63-3e530cb9583b">LDAP_CONTROL_VLVRESPONSE</a>). If this parameter is <b>NULL</b>, the result code is not returned.
+The VLV result code, as provided by the virtualListViewResult element of the BER-encoded response control (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-control-vlvresponse">LDAP_CONTROL_VLVRESPONSE</a>). If this parameter is <b>NULL</b>, the result code is not returned.
 
 
 ## -returns
@@ -95,7 +95,7 @@ The VLV result code, as provided by the virtualListViewResult element of the BER
 
 
 This function returns an 
-<a href="https://msdn.microsoft.com/822411b7-fc49-4b93-8e54-353350ed5de9">LDAP error code</a> that indicates whether a VLV result control was found and parsed successfully. <b>LDAP_SUCCESS</b> is returned if all goes well, <b>LDAP_CONTROL_MISSING</b> is returned if the <i>ctrls</i> array does not include a response control (<a href="https://msdn.microsoft.com/bd7906bd-9e2d-4941-9a63-3e530cb9583b">LDAP_CONTROL_VLVRESPONSE</a>), and another LDAP error code is returned if a parsing error or other issue occurs.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">LDAP error code</a> that indicates whether a VLV result control was found and parsed successfully. <b>LDAP_SUCCESS</b> is returned if all goes well, <b>LDAP_CONTROL_MISSING</b> is returned if the <i>ctrls</i> array does not include a response control (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-control-vlvresponse">LDAP_CONTROL_VLVRESPONSE</a>), and another LDAP error code is returned if a parsing error or other issue occurs.
 
 VLV uses the following LDAP return value codes:
 
@@ -122,11 +122,11 @@ In addition, the following two codes have been added to support VLV:
 
 
 
-This control parses the search results returned by the server in the response control (<a href="https://msdn.microsoft.com/bd7906bd-9e2d-4941-9a63-3e530cb9583b">LDAP_CONTROL_VLVRESPONSE</a>). A context identifier is passed from the server to the client to identify the control, which must be freed at the end of the session by calling 
-<a href="https://msdn.microsoft.com/9e5a4bb9-568d-48ee-be75-952916c021b1">ber_bvfree</a>.
+This control parses the search results returned by the server in the response control (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-control-vlvresponse">LDAP_CONTROL_VLVRESPONSE</a>). A context identifier is passed from the server to the client to identify the control, which must be freed at the end of the session by calling 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_bvfree">ber_bvfree</a>.
 
 For more information and a code example, see 
-<a href="https://msdn.microsoft.com/d4c4f5ca-13a2-45f6-8b4f-2ff0cb67eb8d">Example Code for Using LDAP VLV</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/example-code-for-using-ldap-vlv">Example Code for Using LDAP VLV</a>.
 
 
 
@@ -136,39 +136,39 @@ For more information and a code example, see
 
 
 
-<a href="https://msdn.microsoft.com/c0b4d712-021d-46f3-8bda-aaf660ec1acc">LDAPControl</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapcontrola">LDAPControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/2018ecb1-9b32-4afa-ad20-5cdae396376d">LDAPVLVInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapvlvinfo">LDAPVLVInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/9f00ca19-544e-4616-a70a-e7e62fa84f53">LDAP_CONTROL_VLVREQUEST</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-control-vlvrequest">LDAP_CONTROL_VLVREQUEST</a>
 
 
 
-<a href="https://msdn.microsoft.com/bd7906bd-9e2d-4941-9a63-3e530cb9583b">LDAP_CONTROL_VLVRESPONSE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-control-vlvresponse">LDAP_CONTROL_VLVRESPONSE</a>
 
 
 
-<a href="https://msdn.microsoft.com/b2b03021-7e6a-413b-8e0a-df037d9a71de">Searching with the LDAP VLV Control</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/searching-with-the-ldap-vlv-control">Searching with the LDAP VLV Control</a>
 
 
 
-<a href="https://msdn.microsoft.com/bbf8f860-ead8-4b22-8efa-0697076267ad">ldap_create_sort_control</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_create_sort_control">ldap_create_sort_control</a>
 
 
 
-<a href="https://msdn.microsoft.com/f4305aa9-e967-45a8-8b8b-49b1e60994e8">ldap_create_vlv_control</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_create_vlv_controla">ldap_create_vlv_control</a>
 
 
 
-<a href="https://msdn.microsoft.com/25ba88f3-44f6-42b8-9d33-6e57f2484738">ldap_search_ext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_ext">ldap_search_ext</a>
 
 
 
-<a href="https://msdn.microsoft.com/7ce74c35-7a30-4757-a4f7-d5cd4a389584">ldap_search_ext_s</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_ext_s">ldap_search_ext_s</a>
  
 
  

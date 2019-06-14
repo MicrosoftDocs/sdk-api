@@ -115,7 +115,7 @@ Certificate revoked.
 </td>
 <td width="60%">
 Successful call to 
-<a href="https://msdn.microsoft.com/07a9ac57-f90e-4c5c-b563-8aebbcf8f42e">ICertRequest::RetrievePending</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest-retrievepending">ICertRequest::RetrievePending</a>.
 
 </td>
 </tr>
@@ -125,7 +125,7 @@ Successful call to
 </dl>
 </td>
 <td width="60%">
-<a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">Certificate revocation list</a> (CRL) issued.
+<a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certificate revocation list</a> (CRL) issued.
 
 </td>
 </tr>
@@ -146,7 +146,7 @@ Certificate Services shutdown.
 ### -param Context [in]
 
 Specifies a context handle that can be used to get properties associated with the event from the 
-<a href="https://msdn.microsoft.com/1554c09c-a7c1-44ad-9821-93c0913212fc">ICertServerExit</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverexit">ICertServerExit</a> interface.
 
 
 ## -returns
@@ -156,7 +156,7 @@ Specifies a context handle that can be used to get properties associated with th
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -165,8 +165,8 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-If a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> is using multiple exit modules, Certificate Services will notify each exit module of the event (provided the exit module requested notification by means of 
-<a href="https://msdn.microsoft.com/61d27de8-f940-4f18-ba44-7e91378f035c">Initialize</a>). The order in which the exit modules are notified should not be assumed, nor should one exit module depend on the processing of another exit module. Each notified exit module must return from 
+If a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> is using multiple exit modules, Certificate Services will notify each exit module of the event (provided the exit module requested notification by means of 
+<a href="https://docs.microsoft.com/windows/desktop/api/certexit/nf-certexit-icertexit-initialize">Initialize</a>). The order in which the exit modules are notified should not be assumed, nor should one exit module depend on the processing of another exit module. Each notified exit module must return from 
 <b>Notify</b> before the next exit module will be notified.
 
 
@@ -247,11 +247,11 @@ STDMETHODIMP CCertExit::Notify(
 
 
 
-<a href="https://msdn.microsoft.com/731c4f3c-20b4-4f3d-8241-a94cdf656fe5">ICertExit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certexit/nn-certexit-icertexit">ICertExit</a>
 
 
 
-<a href="https://msdn.microsoft.com/a9d66aeb-b596-4d50-9c07-b760cdf4f8c0">ICertExit2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certexit/nn-certexit-icertexit2">ICertExit2</a>
  
 
  

@@ -71,7 +71,7 @@ The handle to the call whose parameters are to be changed. The call state can be
 ### -param dwBearerMode
 
 The new bearer mode for the call. The <i>dwBearerMode</i> parameter can have only one of the 
-<a href="https://msdn.microsoft.com/87e46ec9-ed5f-4ff5-a382-34eb164f4e66">LINEBEARERMODE_ constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linebearermode--constants">LINEBEARERMODE_ constants</a>.
 
 
 ### -param dwMinRate
@@ -87,7 +87,7 @@ An upper bound for the call's new data rate. This is the maximum data rate TAPI 
 ### -param lpDialParams
 
 A pointer to the new dial parameters for the call, of type 
-<a href="https://msdn.microsoft.com/efb65462-abe5-46db-9299-97871e0d011e">LINEDIALPARAMS</a>. If this parameter is <b>NULL</b>, it indicates that the call's current dialing parameters are to be used.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedialparams_tag">LINEDIALPARAMS</a>. If this parameter is <b>NULL</b>, it indicates that the call's current dialing parameters are to be used.
 
 
 ## -returns
@@ -95,7 +95,7 @@ A pointer to the new dial parameters for the call, of type
 
 
 Returns <i>dwRequestID</i>, or an error number if an error occurs. The <i>lResult</i> actual parameter of the corresponding 
-<a href="https://msdn.microsoft.com/673c9d23-e380-49f7-bd06-23552634d5b9">ASYNC_COMPLETION</a> is zero if the function succeeds, or an error number if an error occurs. Possible return values are as follows:
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> is zero if the function succeeds, or an error number if an error occurs. Possible return values are as follows:
 
 LINEERR_INVALCALLHANDLE, LINEERR_RATEUNAVAIL, LINEERR_INVALCALLSTATE, LINEERR_NOMEM, LINEERR_INVALBEARERMODE, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALPOINTER, LINEERR_OPERATIONFAILED, LINEERR_INVALRATE, LINEERR_RESOURCEUNAVAIL, LINEERR_BEARERMODEUNAVAIL.
 
@@ -116,19 +116,19 @@ This operation is used to change the parameters of an existing call. Examples of
 
 
 
-<a href="https://msdn.microsoft.com/673c9d23-e380-49f7-bd06-23552634d5b9">ASYNC_COMPLETION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a>
 
 
 
-<a href="https://msdn.microsoft.com/e7bc5604-20eb-48d8-a857-df8962c6b2ae">LINECALLPARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams_tag">LINECALLPARAMS</a>
 
 
 
-<a href="https://msdn.microsoft.com/efb65462-abe5-46db-9299-97871e0d011e">LINEDIALPARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedialparams_tag">LINEDIALPARAMS</a>
 
 
 
-<a href="https://msdn.microsoft.com/9c3d6a7d-b0bf-4068-9d64-e0c715a8c011">TSPI_lineMakeCall</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linemakecall">TSPI_lineMakeCall</a>
  
 
  

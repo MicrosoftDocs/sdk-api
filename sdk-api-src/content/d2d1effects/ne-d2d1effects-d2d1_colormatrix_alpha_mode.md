@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The alpha mode of the output of the <a href="https://msdn.microsoft.com/093EEEF1-8C38-414E-8261-58A6C3DD930D">Color matrix effect</a>.
+The alpha mode of the output of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/color-matrix">Color matrix effect</a>.
 
 
 ## -enum-fields

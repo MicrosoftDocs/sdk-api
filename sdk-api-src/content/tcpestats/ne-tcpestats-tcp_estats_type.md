@@ -124,7 +124,7 @@ Only read-only dynamic information and read/write information are available for 
 
 ### -field TcpConnectionEstatsMaximum
 
-The maximum possible value for the <a href="https://msdn.microsoft.com/96f55528-e74a-4360-a7a2-54ba19c3a284">TCP_ESTATS_TYPE</a>_STATE enumeration type. This is not a legal value for the possible type of extended statistics for a TCP connection.
+The maximum possible value for the <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ne-tcpestats-tcp_estats_type">TCP_ESTATS_TYPE</a>_STATE enumeration type. This is not a legal value for the possible type of extended statistics for a TCP connection.
 
 
 ## -remarks
@@ -133,7 +133,7 @@ The maximum possible value for the <a href="https://msdn.microsoft.com/96f55528-
 
 The <b>TCP_ESTATS_TYPE</b> enumeration is defined on Windows Vista and later. 
 
-The <a href="https://msdn.microsoft.com/291aabe7-a4e7-4cc7-9cf3-4a4bc021e15e">GetPerTcp6ConnectionEStats</a> and <b>GetPerTcp6ConnectionEStats</b> functions are designed to use TCP to diagnose performance
+The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcp6connectionestats">GetPerTcp6ConnectionEStats</a> and <b>GetPerTcp6ConnectionEStats</b> functions are designed to use TCP to diagnose performance
    problems in both the network and the application.  If a network based
    application is performing poorly, TCP can determine if the bottleneck
    is in the sender, the receiver or the network itself.  If the
@@ -141,7 +141,7 @@ The <a href="https://msdn.microsoft.com/291aabe7-a4e7-4cc7-9cf3-4a4bc021e15e">Ge
    about its nature.
 
 
-The <a href="https://msdn.microsoft.com/291aabe7-a4e7-4cc7-9cf3-4a4bc021e15e">GetPerTcp6ConnectionEStats</a> and <b>GetPerTcp6ConnectionEStats</b> functions  are used to retrieve extended statistics for a TCP connection based on the type of extended statistics specified using one of values from the <b>TCP_ESTATS_TYPE</b> enumeration type. The collection of extended statistics on a TCP connection are enabled and disabled using calls to the <a href="https://msdn.microsoft.com/89ace750-ec32-46cb-8526-233f847ba9f4">SetPerTcp6ConnectionEStats</a> and <a href="https://msdn.microsoft.com/96d838ca-69e3-4a73-b969-3e6e810a0a69">SetPerTcpConnectionEStats</a> functions where the type of extended statistics specified is one of values from the <b>TCP_ESTATS_TYPE</b> enumeration type.
+The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcp6connectionestats">GetPerTcp6ConnectionEStats</a> and <b>GetPerTcp6ConnectionEStats</b> functions  are used to retrieve extended statistics for a TCP connection based on the type of extended statistics specified using one of values from the <b>TCP_ESTATS_TYPE</b> enumeration type. The collection of extended statistics on a TCP connection are enabled and disabled using calls to the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-setpertcp6connectionestats">SetPerTcp6ConnectionEStats</a> and <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-setpertcpconnectionestats">SetPerTcpConnectionEStats</a> functions where the type of extended statistics specified is one of values from the <b>TCP_ESTATS_TYPE</b> enumeration type.
 
 
 
@@ -151,91 +151,91 @@ The <a href="https://msdn.microsoft.com/291aabe7-a4e7-4cc7-9cf3-4a4bc021e15e">Ge
 
 
 
-<a href="https://msdn.microsoft.com/291aabe7-a4e7-4cc7-9cf3-4a4bc021e15e">GetPerTcp6ConnectionEStats</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcp6connectionestats">GetPerTcp6ConnectionEStats</a>
 
 
 
-<a href="https://msdn.microsoft.com/71b9d795-6050-4a1a-9949-2c970801f52c">GetPerTcpConnectionEStats</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcpconnectionestats">GetPerTcpConnectionEStats</a>
 
 
 
-<a href="https://msdn.microsoft.com/89ace750-ec32-46cb-8526-233f847ba9f4">SetPerTcp6ConnectionEStats</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-setpertcp6connectionestats">SetPerTcp6ConnectionEStats</a>
 
 
 
-<a href="https://msdn.microsoft.com/96d838ca-69e3-4a73-b969-3e6e810a0a69">SetPerTcpConnectionEStats</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-setpertcpconnectionestats">SetPerTcpConnectionEStats</a>
 
 
 
-<a href="https://msdn.microsoft.com/330d06a2-9966-4e2b-b1bd-44c0f1b9416d">TCP_ESTATS_BANDWIDTH_ROD_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_bandwidth_rod_v0">TCP_ESTATS_BANDWIDTH_ROD_v0</a>
 
 
 
-<a href="https://msdn.microsoft.com/a9bf5ad3-a8db-4194-8e47-5a7409391f4c">TCP_ESTATS_BANDWIDTH_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_bandwidth_rw_v0">TCP_ESTATS_BANDWIDTH_RW_v0</a>
 
 
 
-<a href="https://msdn.microsoft.com/1e896660-10dd-471a-b4ae-116caa7a9d48">TCP_ESTATS_DATA_ROD_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_data_rod_v0">TCP_ESTATS_DATA_ROD_v0</a>
 
 
 
-<a href="https://msdn.microsoft.com/823cea66-f719-40f6-82bd-572623188446">TCP_ESTATS_DATA_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_data_rw_v0">TCP_ESTATS_DATA_RW_v0</a>
 
 
 
-<a href="https://msdn.microsoft.com/e33cd21f-1ec8-4715-a5e1-431a8a7e61df">TCP_ESTATS_FINE_RTT_ROD_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_fine_rtt_rod_v0">TCP_ESTATS_FINE_RTT_ROD_v0</a>
 
 
 
-<a href="https://msdn.microsoft.com/35834c9a-2896-4c11-aef7-c55af7f6fef3">TCP_ESTATS_FINE_RTT_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_fine_rtt_rw_v0">TCP_ESTATS_FINE_RTT_RW_v0</a>
 
 
 
-<a href="https://msdn.microsoft.com/f790e107-0db3-4691-98fc-378518b04a8a">TCP_ESTATS_OBS_REC_ROD_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_obs_rec_rod_v0">TCP_ESTATS_OBS_REC_ROD_v0</a>
 
 
 
-<a href="https://msdn.microsoft.com/91c2d5d9-3198-42a7-abf7-077281b491f2">TCP_ESTATS_OBS_REC_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_obs_rec_rw_v0">TCP_ESTATS_OBS_REC_RW_v0</a>
 
 
 
-<a href="https://msdn.microsoft.com/35ed2a10-caac-4004-80ac-f62c3880f5de">TCP_ESTATS_PATH_ROD_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_path_rod_v0">TCP_ESTATS_PATH_ROD_v0</a>
 
 
 
-<a href="https://msdn.microsoft.com/460ad710-06aa-490a-9bac-5a8c731687e9">TCP_ESTATS_PATH_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_path_rw_v0">TCP_ESTATS_PATH_RW_v0</a>
 
 
 
-<a href="https://msdn.microsoft.com/1481f108-1ea3-4952-9131-8b15e373d83e">TCP_ESTATS_REC_ROD_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_rec_rod_v0">TCP_ESTATS_REC_ROD_v0</a>
 
 
 
-<a href="https://msdn.microsoft.com/e780ae7b-30c6-4890-8a8b-9e0b2739c176">TCP_ESTATS_REC_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_rec_rw_v0">TCP_ESTATS_REC_RW_v0</a>
 
 
 
-<a href="https://msdn.microsoft.com/7cda7378-95e4-4f1d-88b3-27974fedec83">TCP_ESTATS_SEND_BUFF_ROD_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_send_buff_rod_v0">TCP_ESTATS_SEND_BUFF_ROD_v0</a>
 
 
 
-<a href="https://msdn.microsoft.com/1bc88d95-24d2-4ca3-9f4a-298d5c08f4de">TCP_ESTATS_SEND_BUFF_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_send_buff_rw_v0">TCP_ESTATS_SEND_BUFF_RW_v0</a>
 
 
 
-<a href="https://msdn.microsoft.com/5eb2d1c6-d4ba-4038-b598-ead517679ae7">TCP_ESTATS_SND_CONG_ROD_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_snd_cong_rod_v0">TCP_ESTATS_SND_CONG_ROD_v0</a>
 
 
 
-<a href="https://msdn.microsoft.com/4c92af92-ed51-4548-873f-b25207ea46dc">TCP_ESTATS_SND_CONG_ROS_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_snd_cong_ros_v0">TCP_ESTATS_SND_CONG_ROS_v0</a>
 
 
 
-<a href="https://msdn.microsoft.com/7fc7fb6a-4486-450f-b60e-8cf07b33c79a">TCP_ESTATS_SND_CONG_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_snd_cong_rw_v0">TCP_ESTATS_SND_CONG_RW_v0</a>
 
 
 
-<a href="https://msdn.microsoft.com/e183b23c-ce87-4818-b6d6-2305a3aa345d">TCP_ESTATS_SYN_OPTS_ROS_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_syn_opts_ros_v0">TCP_ESTATS_SYN_OPTS_ROS_v0</a>
  
 
  

@@ -60,12 +60,12 @@ The <b>SetupDiDestroyDriverInfoList</b> function deletes a driver list.
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains the driver list to delete.
+A handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains the driver list to delete.
 
 
 ### -param DeviceInfoData [in, optional]
 
-A pointer to an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>. This parameter is optional and can be set to <b>NULL</b>. If this parameter is specified, <b>SetupDiDestroyDriverInfoList</b> deletes the driver list for the specified device. If this parameter is <b>NULL</b>, <b>SetupDiDestroyDriverInfoList</b> deletes the global class driver list that is associated with <i>DeviceInfoSet</i>.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>. This parameter is optional and can be set to <b>NULL</b>. If this parameter is specified, <b>SetupDiDestroyDriverInfoList</b> deletes the driver list for the specified device. If this parameter is <b>NULL</b>, <b>SetupDiDestroyDriverInfoList</b> deletes the global class driver list that is associated with <i>DeviceInfoSet</i>.
 
 
 ### -param DriverType [in]
@@ -114,7 +114,7 @@ If a compatible driver list is being destroyed, the DI_FLAGSEX_DIDCOMPATINFO and
 
 
 
-<a href="https://msdn.microsoft.com/9e377865-8029-41c1-85b9-fdb2cbc09346">SetupDiBuildDriverInfoList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdibuilddriverinfolist">SetupDiBuildDriverInfoList</a>
  
 
  

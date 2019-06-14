@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Creates a <a href="https://msdn.microsoft.com/fffda587-23f5-4c7a-93c5-f03d9d3fafb2">listener</a> with the specified properties.
+Creates a <a href="https://docs.microsoft.com/windows/desktop/wsw/listener">listener</a> with the specified properties.
             
 
 
@@ -63,21 +63,21 @@ Creates a <a href="https://msdn.microsoft.com/fffda587-23f5-4c7a-93c5-f03d9d3faf
 
 ### -param channelType [in]
 
-The type of channel the listener listens for. For channel types, see the <a href="https://msdn.microsoft.com/7e1092f9-10e8-485c-a286-770e1c74d8ca">WS_CHANNEL_TYPE</a> enumeration.
+The type of channel the listener listens for. For channel types, see the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE</a> enumeration.
 
 
 ### -param channelBinding [in]
 
 The channel protocol for the listener.
-                For possible bindings, see the <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CHANNEL_BINDING</a> enumeration.
+                For possible bindings, see the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CHANNEL_BINDING</a> enumeration.
 
 
 ### -param properties
 
-Pointer to a <a href="https://msdn.microsoft.com/52e4a5d3-e584-40d1-b71f-b4ef61104883">WS_LISTENER_PROPERTY</a> structure containing optional properties for the  listener.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_listener_property">WS_LISTENER_PROPERTY</a> structure containing optional properties for the  listener.
                 
 
-For information on which properties you can specify when creating a listener, see the  <a href="https://msdn.microsoft.com/4998d538-628f-4939-9db9-612e882e68b1">WS_LISTENER_PROPERTY_ID</a> enumeration. 
+For information on which properties you can specify when creating a listener, see the  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_listener_property_id">WS_LISTENER_PROPERTY_ID</a> enumeration. 
 
 For information on creating a custom listener, see the Remarks section.
 
@@ -90,20 +90,20 @@ The number of properties in the <i>properties</i> array.
 
 ### -param securityDescription [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/b9490f00-877c-4d9f-b361-eaca343cdee0">WS_SECURITY_DESCRIPTION</a>  structure specifying the security for the listener.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_description">WS_SECURITY_DESCRIPTION</a>  structure specifying the security for the listener.
 
-If you are creating a custom channel (using the WS_CUSTOM_CHANNEL_BINDING value of the <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CHANNEL_BINDING</a> enumeration), the security description must be <b>NULL</b>. See the Remarks section.
+If you are creating a custom channel (using the WS_CUSTOM_CHANNEL_BINDING value of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CHANNEL_BINDING</a> enumeration), the security description must be <b>NULL</b>. See the Remarks section.
 
 
 ### -param listener
 
-On   success, a pointer that receives the address of the  <a href="https://msdn.microsoft.com/2e771c56-4a07-4c8e-92c1-ffcbf74cd1aa">WS_LISTENER</a> structure representing the new listener.
+On   success, a pointer that receives the address of the  <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-listener">WS_LISTENER</a> structure representing the new listener.
                 
 
 
 ### -param error [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> structure  that receives additional error information if the function fails.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
                 
 
 
@@ -172,16 +172,16 @@ This function may return other errors not listed above.
 
 
 
-When you create a custom listener (using the WS_CUSTOM_CHANNEL_BINDING value of the <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CHANNEL_BINDING</a> enumeration), you can specify only the following channel properties: 
+When you create a custom listener (using the WS_CUSTOM_CHANNEL_BINDING value of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CHANNEL_BINDING</a> enumeration), you can specify only the following channel properties: 
 
 <ul>
 <li>WS_LISTENER_PROPERTY_CUSTOM_LISTENER_CALLBACKS</li>
 <li>WS_LISTENER_PROPERTY_CUSTOM_LISTENER_PARAMETERS</li>
-</ul>(See the <a href="https://msdn.microsoft.com/4998d538-628f-4939-9db9-612e882e68b1">WS_LISTENER_PROPERTY_ID</a> enumeration.) If other initial properties are required to create the custom listener, specify them by using the WS_LISTENER_PROPERTY_CUSTOM_LISTENER_PARAMETERS property. 
+</ul>(See the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_listener_property_id">WS_LISTENER_PROPERTY_ID</a> enumeration.) If other initial properties are required to create the custom listener, specify them by using the WS_LISTENER_PROPERTY_CUSTOM_LISTENER_PARAMETERS property. 
 
 
 
-To pass security information to a custom listener implementation, use the WS_LISTENER_PROPERTY_CUSTOM_LISTENER_PARAMETERS value of the  <a href="https://msdn.microsoft.com/4998d538-628f-4939-9db9-612e882e68b1">WS_LISTENER_PROPERTY_ID</a> enumeration.
+To pass security information to a custom listener implementation, use the WS_LISTENER_PROPERTY_CUSTOM_LISTENER_PARAMETERS value of the  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_listener_property_id">WS_LISTENER_PROPERTY_ID</a> enumeration.
 
 
 

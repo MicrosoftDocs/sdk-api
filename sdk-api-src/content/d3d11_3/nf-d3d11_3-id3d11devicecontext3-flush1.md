@@ -61,9 +61,9 @@ Sends queued-up commands in the command buffer to the graphics processing unit (
 
 ### -param ContextType
 
-Type: <b><a href="https://msdn.microsoft.com/5467F07C-E429-4324-B52E-FDC25B4DB9FE">D3D11_CONTEXT_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/ne-d3d11_3-d3d11_context_type">D3D11_CONTEXT_TYPE</a></b>
 
-A <a href="https://msdn.microsoft.com/5467F07C-E429-4324-B52E-FDC25B4DB9FE">D3D11_CONTEXT_TYPE</a> that specifies the context in which a query occurs, such as a 3D command queue, 3D compute queue, 3D copy queue, video, or image.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/ne-d3d11_3-d3d11_context_type">D3D11_CONTEXT_TYPE</a> that specifies the context in which a query occurs, such as a 3D command queue, 3D compute queue, 3D copy queue, video, or image.
           
 
 
@@ -75,10 +75,10 @@ An optional event handle. When specified, this method creates an event query.
             
 
 <b>Flush1</b> operates asynchronously, therefore it can return either before or after the GPU finishes executing the queued graphics commands, which will eventually complete.
-              To create an event query, you can call <a href="https://msdn.microsoft.com/ad09a309-862f-462d-8268-62e44397c298">ID3D11Device::CreateQuery</a> with the
-              value <a href="https://msdn.microsoft.com/en-us/library/Ff476191(v=VS.85).aspx">D3D11_QUERY_EVENT</a> value.
+              To create an event query, you can call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createquery">ID3D11Device::CreateQuery</a> with the
+              value <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_query">D3D11_QUERY_EVENT</a> value.
               To determine when the GPU is finished processing the graphics commands,
-              you can then use that event query in a call to <a href="https://msdn.microsoft.com/338d02ad-2227-49e5-9b4f-fb86a3898f73">ID3D11DeviceContext::GetData</a>.
+              you can then use that event query in a call to <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-getdata">ID3D11DeviceContext::GetData</a>.
             
 
 
@@ -98,7 +98,7 @@ This method does not return a value.
 
 <b>Flush1</b> has parameters.
           For more information, see
-          <a href="https://msdn.microsoft.com/e204c585-4996-4274-a654-b9912e957fe6">ID3D11DeviceContext::Flush</a>, which doesn't have parameters.
+          <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-flush">ID3D11DeviceContext::Flush</a>, which doesn't have parameters.
         
 
 
@@ -109,11 +109,11 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/65F462DB-5546-4B23-B438-60067FD60103">ID3D11DeviceContext3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11devicecontext3">ID3D11DeviceContext3</a>
 
 
 
-<a href="https://msdn.microsoft.com/e204c585-4996-4274-a654-b9912e957fe6">ID3D11DeviceContext::Flush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-flush">ID3D11DeviceContext::Flush</a>
  
 
  

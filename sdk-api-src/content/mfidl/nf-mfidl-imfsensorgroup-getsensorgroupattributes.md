@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> for the sensor group. The returned object is a live reference to the internal attribute store.
+Gets the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> for the sensor group. The returned object is a live reference to the internal attribute store.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Gets the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b96
 
 ### -param ppAttributes [out]
 
-The <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> interface representing the internal attribute store of the sensor group.
+The <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface representing the internal attribute store of the sensor group.
 
 
 ## -returns
@@ -121,10 +121,10 @@ The sensor group has not been initialized.
 
 
 
-The caller may optionally use this attribute store to query for attributes set on the sensor group or modify/add attributes to the sensor group.  Modification of this attribute set is not persisted and will only be valid for the instance of the <a href="https://msdn.microsoft.com/7CED3EF6-E844-4B3A-8181-CA44FC4675EC">IMFSensorGroup</a>.
+The caller may optionally use this attribute store to query for attributes set on the sensor group or modify/add attributes to the sensor group.  Modification of this attribute set is not persisted and will only be valid for the instance of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a>.
 
 
-This attribute store can be used to add runtime attributes for the <a href="https://msdn.microsoft.com/8b579f61-6fea-4b20-a051-7633fc01fa05">IMFMediaSource</a> that can be created using the <a href="https://msdn.microsoft.com/2C69A81E-7159-43AA-92EA-7B1EB4A7A681">IMFSensorGroup::CreateMediaSource</a> method. 
+This attribute store can be used to add runtime attributes for the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a> that can be created using the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensorgroup-createmediasource">IMFSensorGroup::CreateMediaSource</a> method. 
 
 
 
@@ -135,7 +135,7 @@ This attribute store can be used to add runtime attributes for the <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/7CED3EF6-E844-4B3A-8181-CA44FC4675EC">IMFSensorGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a>
  
 
  

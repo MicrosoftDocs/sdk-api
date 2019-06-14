@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Terminates the host and releases any attached services. If a notification sink was passed to the <a href="https://msdn.microsoft.com/06fea296-2551-46b1-9cd7-54187bca5fe8">Start</a> method, then the notification sink is released.
+Terminates the host and releases any attached services. If a notification sink was passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-start">Start</a> method, then the notification sink is released.
 
 
 ## -parameters
@@ -104,9 +104,9 @@ The host is uninitialized or the host has already been terminated.
 
 Services and notification sinks will not receive messages after the <b>Terminate</b> method has completed.
 
-If this device host was started by calling <a href="https://msdn.microsoft.com/06fea296-2551-46b1-9cd7-54187bca5fe8">IWSDDeviceHost::Start</a>, it must first be stopped by calling <a href="https://msdn.microsoft.com/7a31e45a-7d38-44b7-84c7-7471bc14cc94">IWSDDeviceHost::Stop</a> before <b>Terminate</b> can be called.
+If this device host was started by calling <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-start">IWSDDeviceHost::Start</a>, it must first be stopped by calling <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-stop">IWSDDeviceHost::Stop</a> before <b>Terminate</b> can be called.
 
-	<b>Terminate</b> must be called before releasing the <a href="https://msdn.microsoft.com/497d0331-c88d-4381-8990-94227a9b9659">IWSDDeviceHost</a>.
+	<b>Terminate</b> must be called before releasing the <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>.
 
 
 
@@ -117,7 +117,7 @@ If this device host was started by calling <a href="https://msdn.microsoft.com/0
 
 
 
-<a href="https://msdn.microsoft.com/497d0331-c88d-4381-8990-94227a9b9659">IWSDDeviceHost</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>
  
 
  

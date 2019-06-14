@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Retrieves the size of the buffer needed for the <a href="https://msdn.microsoft.com/1a3bd860-1022-481f-8615-5a73c16dd77b">MFGetAttributesAsBlob</a> function.
+Retrieves the size of the buffer needed for the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfgetattributesasblob">MFGetAttributesAsBlob</a> function.
 
 
 
@@ -62,7 +62,7 @@ Retrieves the size of the buffer needed for the <a href="https://msdn.microsoft.
 
 ### -param pAttributes [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> interface of the attribute store.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of the attribute store.
 
 
 ### -param pcbBufSize [out]
@@ -102,7 +102,7 @@ The function succeeded.
 
 
 
-Use this function to find the size of the array that is needed for the <a href="https://msdn.microsoft.com/1a3bd860-1022-481f-8615-5a73c16dd77b">MFGetAttributesAsBlob</a> function.
+Use this function to find the size of the array that is needed for the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfgetattributesasblob">MFGetAttributesAsBlob</a> function.
 
 
 
@@ -112,11 +112,11 @@ Use this function to find the size of the array that is needed for the <a href="
 
 
 
-<a href="https://msdn.microsoft.com/44af5e03-5f0a-4564-b9d6-b8c935df35b2">Attributes and Properties</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

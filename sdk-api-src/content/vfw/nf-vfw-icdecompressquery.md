@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>ICDecompressQuery</b> macro queries a video decompression driver to determine if it supports a specific input format or if it can decompress a specific input format to a specific output format. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/622dd1de-3f7a-4841-913c-282c2ad766f4">ICM_DECOMPRESS_QUERY</a> message.
+The <b>ICDecompressQuery</b> macro queries a video decompression driver to determine if it supports a specific input format or if it can decompress a specific input format to a specific output format. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-decompress-query">ICM_DECOMPRESS_QUERY</a> message.
 
 
 
@@ -67,12 +67,12 @@ Handle to a decompressor.
 
 ### -param lpbiInput
 
-Pointer to a <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure containing the input format. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO</a> structure containing the input format. 
 
 
 ### -param lpbiOutput
 
-Pointer to a <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure containing the output format. You can specify zero for this parameter to indicate any output format is acceptable. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO</a> structure containing the output format. You can specify zero for this parameter to indicate any output format is acceptable. 
 
 
 ## -see-also
@@ -80,11 +80,11 @@ Pointer to a <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff8
 
 
 
-<a href="https://msdn.microsoft.com/e8ee41fa-180a-432a-933b-b4a525b9df8c">Video Compression Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://msdn.microsoft.com/df876309-68d3-43a3-9d83-6fdb8f345fdc">Video Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
  
 
  

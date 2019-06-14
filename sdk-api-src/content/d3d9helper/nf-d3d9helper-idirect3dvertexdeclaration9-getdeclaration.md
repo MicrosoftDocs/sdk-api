@@ -65,23 +65,23 @@ TBD
 
 ### -param pNumElements [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
 Number of elements in the array. The application needs to allocate enough room for this. 
 
 
 #### - pElement [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172630(v=VS.85).aspx">D3DVERTEXELEMENT9</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dvertexelement9">D3DVERTEXELEMENT9</a>*</b>
 
-Array of vertex elements (see <a href="https://msdn.microsoft.com/en-us/library/Bb172630(v=VS.85).aspx">D3DVERTEXELEMENT9</a>) that make up a vertex shader declaration. The application needs to allocate enough room for this. The vertex element array ends with the <a href="https://msdn.microsoft.com/en-us/library/Bb172535(v=VS.85).aspx">D3DDECL_END</a> macro.
+Array of vertex elements (see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dvertexelement9">D3DVERTEXELEMENT9</a>) that make up a vertex shader declaration. The application needs to allocate enough room for this. The vertex element array ends with the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddecl-end">D3DDECL_END</a> macro.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be:
      D3DERR_INVALIDCALL.
@@ -93,7 +93,7 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-The number of elements, pNumElements, includes the <a href="https://msdn.microsoft.com/en-us/library/Bb172535(v=VS.85).aspx">D3DDECL_END</a> macro, which ends the declaration. So the element count is actually one higher than the number of valid vertex elements.
+The number of elements, pNumElements, includes the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddecl-end">D3DDECL_END</a> macro, which ends the declaration. So the element count is actually one higher than the number of valid vertex elements.
 
 Here's an example that will return the vertex declaration array of up to 256 elements:
 
@@ -117,7 +117,7 @@ Specify <b>NULL</b> for pDeclto get the number of elements in the declaration.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205919(v=VS.85).aspx">IDirect3DVertexDeclaration9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvertexdeclaration9">IDirect3DVertexDeclaration9</a>
  
 
  

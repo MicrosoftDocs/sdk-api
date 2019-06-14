@@ -66,7 +66,7 @@ Initializes the Aux_ulib library. This function must be called before any
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
-If the function fails, the return value is <b>FALSE</b>. To retrieve extended information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is <b>FALSE</b>. To retrieve extended information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -76,7 +76,7 @@ If the function fails, the return value is <b>FALSE</b>. To retrieve extended in
 
 
 
-<a href="https://msdn.microsoft.com/2a6ee33e-91dc-4f6d-bdb7-a93b7478b58e">AuxUlibSetSystemFileCacheSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aux_ulib/nf-aux_ulib-auxulibsetsystemfilecachesize">AuxUlibSetSystemFileCacheSize</a>
  
 
  

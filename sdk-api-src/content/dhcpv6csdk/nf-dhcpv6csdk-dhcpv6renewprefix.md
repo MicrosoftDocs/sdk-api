@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Dhcpv6RenewPrefix</b> function renews a prefix previously acquired with the <a href="https://msdn.microsoft.com/60f18e54-a0a4-4fbe-a416-16b924ce4616">Dhcpv6RequestPrefix</a> function.
+The <b>Dhcpv6RenewPrefix</b> function renews a prefix previously acquired with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpv6csdk/nf-dhcpv6csdk-dhcpv6requestprefix">Dhcpv6RequestPrefix</a> function.
 
 
 ## -parameters
@@ -64,14 +64,14 @@ Name of the adapter on which the prefix renewal must be sent.
 
 ### -param pclassId [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/90dbc386-02d9-4631-8af3-edd34537fefc">DHCPV6CAPI_CLASSID</a> structure that contains the binary ClassId information to send on the wire.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-_dhcpv6capi_classid">DHCPV6CAPI_CLASSID</a> structure that contains the binary ClassId information to send on the wire.
 
 <div class="alert"><b>Note</b>  DHCPv6 Option Code 15 (0x000F) is not supported by this API. Typically, the User Class option is used by a client to identify the type or category of user or application it represents. A server selects the configuration information for the client based on the classes identified in this option.</div>
 <div> </div>
 
 ### -param prefixleaseInfo [in, out]
 
-Pointer to a <a href="https://msdn.microsoft.com/d3e76716-a8cc-4618-a85f-d8fb9ca3257e">DHCPV6PrefixLeaseInformation</a> structure that contains the prefix lease information.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-_dhcpv6prefixleaseinformation">DHCPV6PrefixLeaseInformation</a> structure that contains the prefix lease information.
 
 
 ### -param pdwTimeToWait [out]

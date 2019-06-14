@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <code>USER_INPUT_STRING_TYPE</code> enumeration type indicates the type of string to obtain from the user in <a href="https://msdn.microsoft.com/db0d924b-a586-4f81-a367-e8fbdf3e9bd9">IPhotoAcquireProgressCB::GetUserInput</a>.
+The <code>USER_INPUT_STRING_TYPE</code> enumeration type indicates the type of string to obtain from the user in <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-getuserinput">IPhotoAcquireProgressCB::GetUserInput</a>.
 
 
 
@@ -75,15 +75,15 @@ Indicates that the string will not accept characters that are illegal in file or
 
 
 
-<a href="https://msdn.microsoft.com/767d20df-aeb4-4f86-a705-bfbb7dc254ff">Enumeration Types</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/acquisition/enumeration-types">Enumeration Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/db0d924b-a586-4f81-a367-e8fbdf3e9bd9">IPhotoAcquireProgressCB::GetUserInput</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-getuserinput">IPhotoAcquireProgressCB::GetUserInput</a>
 
 
 
-<a href="https://msdn.microsoft.com/57f0c750-9c66-4c30-adc1-0cfd23d878d1">IUserInputString::GetStringType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iuserinputstring-getstringtype">IUserInputString::GetStringType</a>
  
 
  

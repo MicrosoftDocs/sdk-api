@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Specifies values for the <b>dwSampleFlags</b> and <b>dwStreamId</b> members of the <a href="https://msdn.microsoft.com/4fda7f64-130c-42c8-a671-2e24bdd0b09b">AM_SAMPLE2_PROPERTIES</a> structure. These values describe the properties of media samples.
+Specifies values for the <b>dwSampleFlags</b> and <b>dwStreamId</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagam_sample2_properties">AM_SAMPLE2_PROPERTIES</a> structure. These values describe the properties of media samples.
 
 
 
@@ -92,7 +92,7 @@ Time is valid.
 
 ### -field AM_SAMPLE_TIMEDISCONTINUITY
 
-A time gap in the data starts after this sample. The <b>pbBuffer</b> member of the <a href="https://msdn.microsoft.com/4fda7f64-130c-42c8-a671-2e24bdd0b09b">AM_SAMPLE2_PROPERTIES</a> structure can be <b>NULL</b> in this case.
+A time gap in the data starts after this sample. The <b>pbBuffer</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagam_sample2_properties">AM_SAMPLE2_PROPERTIES</a> structure can be <b>NULL</b> in this case.
 
 
 ### -field AM_SAMPLE_FLUSH_ON_PAUSE
@@ -135,7 +135,7 @@ For example, a video decompressor filter might receive a media sample with the <
 
 The <b>AM_SAMPLE_DATADISCONTINUITY</b> flag is set on the first sample received following a flush or a stop. In addition, you should use the <b>AM_SAMPLE_DATADISCONTINUITY</b> flag when content is switched in the source, when a channel change occurs (when there might also be a format change), or when there is missing data because of stream interruptions.
 
-The <b>AM_SAMPLE_DATADISCONTINUITY</b> flag is equivalent to the <a href="https://msdn.microsoft.com/0bab511e-a744-4b6e-afe3-0ceb473dfcae">IMediaSample::IsDiscontinuity</a> method returning <b>S_OK</b>.
+The <b>AM_SAMPLE_DATADISCONTINUITY</b> flag is equivalent to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediasample-isdiscontinuity">IMediaSample::IsDiscontinuity</a> method returning <b>S_OK</b>.
 
 
 
@@ -145,7 +145,7 @@ The <b>AM_SAMPLE_DATADISCONTINUITY</b> flag is equivalent to the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
  
 
  

@@ -59,7 +59,7 @@ Notification method that indicates a connection profile has been removed from th
 
 ### -param oldConnectionProfile [in]
 
-An <a href="https://msdn.microsoft.com/f7730efe-e367-4642-8482-2a23052bab0c">IMbnConnectionProfile</a> interface that represents a connection profile that has been removed.
+An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofile">IMbnConnectionProfile</a> interface that represents a connection profile that has been removed.
 
 
 ## -returns
@@ -76,7 +76,7 @@ This method must return <b>S_OK</b>.
 
 
 
-<a href="https://msdn.microsoft.com/08ec0bff-898f-4a54-b711-ceae80e7329d">IMbnConnectionProfileManagerEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofilemanagerevents">IMbnConnectionProfileManagerEvents</a>
  
 
  

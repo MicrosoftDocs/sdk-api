@@ -50,14 +50,14 @@ ms.custom: 19H1
 ## -description
 
 
-Controls the work queues created by the <a href="https://msdn.microsoft.com/dac99908-be90-415d-8837-2f97d573feb5">Media Session</a>.
+Controls the work queues created by the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a>.
 
-The Media Session exposes this interface as a service. To obtain a pointer to this interface, call <a href="https://msdn.microsoft.com/4287dd1f-1718-4231-bc62-b58e0e61d688">IMFGetService::GetService</a> on the Media Session with the service identifier MF_WORKQUEUE_SERVICES.
+The Media Session exposes this interface as a service. To obtain a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> on the Media Session with the service identifier MF_WORKQUEUE_SERVICES.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFWorkQueueServices</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFWorkQueueServices</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFWorkQueueServices</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFWorkQueueServices</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMFWorkQueueServices</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/aea9f946-dd59-4e51-a1de-b086e70ea083">BeginRegisterPlatformWorkQueueWithMMCSS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-beginregisterplatformworkqueuewithmmcss">BeginRegisterPlatformWorkQueueWithMMCSS</a>
 </td>
 <td align="left" width="63%">
 Associates a platform work queue with a Multimedia Class Scheduler Service (MMCSS) task.
@@ -81,7 +81,7 @@ Associates a platform work queue with a Multimedia Class Scheduler Service (MMCS
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/62256ae8-a18a-4160-9f3f-a08ab3e93d6b">BeginRegisterTopologyWorkQueuesWithMMCSS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-beginregistertopologyworkqueueswithmmcss">BeginRegisterTopologyWorkQueuesWithMMCSS</a>
 </td>
 <td align="left" width="63%">
 Registers the topology work queues with the MMCSS.
@@ -90,7 +90,7 @@ Registers the topology work queues with the MMCSS.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e15c6ff9-b72e-4e5d-a738-6bef08782e1b">BeginUnregisterPlatformWorkQueueWithMMCSS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-beginunregisterplatformworkqueuewithmmcss">BeginUnregisterPlatformWorkQueueWithMMCSS</a>
 </td>
 <td align="left" width="63%">
 Unregisters a platform work queue from an MMCSS task.
@@ -99,7 +99,7 @@ Unregisters a platform work queue from an MMCSS task.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/af68b792-6e00-4ed1-91f8-f275288dc680">BeginUnregisterTopologyWorkQueuesWithMMCSS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-beginunregistertopologyworkqueueswithmmcss">BeginUnregisterTopologyWorkQueuesWithMMCSS</a>
 </td>
 <td align="left" width="63%">
 Unregisters the topology work queues from the MMCSS.
@@ -108,7 +108,7 @@ Unregisters the topology work queues from the MMCSS.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b9d65d6c-495a-4ca0-b0fd-0a4199e2a7d5">EndRegisterPlatformWorkQueueWithMMCSS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-endregisterplatformworkqueuewithmmcss">EndRegisterPlatformWorkQueueWithMMCSS</a>
 </td>
 <td align="left" width="63%">
 Completes an asynchronous request to associate a platform work queue with an MMCSS task.
@@ -117,7 +117,7 @@ Completes an asynchronous request to associate a platform work queue with an MMC
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/42eb1a1c-3287-4dee-ab95-fd047a16e345">EndRegisterTopologyWorkQueuesWithMMCSS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-endregistertopologyworkqueueswithmmcss">EndRegisterTopologyWorkQueuesWithMMCSS</a>
 </td>
 <td align="left" width="63%">
 Completes an asynchronous request to register the topology work queues with the MMCSS.
@@ -126,7 +126,7 @@ Completes an asynchronous request to register the topology work queues with the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e6cce9d8-7f6c-4835-96a4-a2e836c61d08">EndUnregisterPlatformWorkQueueWithMMCSS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-endunregisterplatformworkqueuewithmmcss">EndUnregisterPlatformWorkQueueWithMMCSS</a>
 </td>
 <td align="left" width="63%">
 Completes an asynchronous request to unregister a platform work queue from an MMCSS task.
@@ -135,7 +135,7 @@ Completes an asynchronous request to unregister a platform work queue from an MM
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6b767e34-172c-4845-91f9-0af92a3347ab">EndUnregisterTopologyWorkQueuesWithMMCSS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-endunregistertopologyworkqueueswithmmcss">EndUnregisterTopologyWorkQueuesWithMMCSS</a>
 </td>
 <td align="left" width="63%">
 Completes an asynchronous request to unregister the topology work queues from the MMCSS.
@@ -144,7 +144,7 @@ Completes an asynchronous request to unregister the topology work queues from th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f953a54b-2bc0-4ddc-9837-57f72e564c02">GetPlaftormWorkQueueMMCSSClass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-getplaftormworkqueuemmcssclass">GetPlaftormWorkQueueMMCSSClass</a>
 </td>
 <td align="left" width="63%">
 Retrieves the MMCSS class for a specified platform work queue.
@@ -153,7 +153,7 @@ Retrieves the MMCSS class for a specified platform work queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/897a048a-44fc-4176-acd9-5944f184b34a">GetPlatformWorkQueueMMCSSTaskId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-getplatformworkqueuemmcsstaskid">GetPlatformWorkQueueMMCSSTaskId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the MMCSS task identifier for a specified platform work queue.
@@ -162,7 +162,7 @@ Retrieves the MMCSS task identifier for a specified platform work queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e815bde7-e17e-4616-8a3f-688f357e8009">GetTopologyWorkQueueMMCSSClass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-gettopologyworkqueuemmcssclass">GetTopologyWorkQueueMMCSSClass</a>
 </td>
 <td align="left" width="63%">
 Retrieves the MMCSS class for a specified branch of the current topology.
@@ -171,7 +171,7 @@ Retrieves the MMCSS class for a specified branch of the current topology.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0d519b96-428f-4cad-affc-2e94cdf28ae7">GetTopologyWorkQueueMMCSSTaskId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-gettopologyworkqueuemmcsstaskid">GetTopologyWorkQueueMMCSSTaskId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the MMCSS task identifier for a specified branch of the current topology.
@@ -180,73 +180,73 @@ Retrieves the MMCSS task identifier for a specified branch of the current topolo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/158497a9-9d66-4e58-919d-e35765fd29e4">RemoteBeginRegisterPlatformWorkQueueWithMMCSS</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/imfworkqueueservices-remotebeginregisterplatformworkqueuewithmmcss">RemoteBeginRegisterPlatformWorkQueueWithMMCSS</a>
 </td>
 <td align="left" width="63%">
-Remotable version of <a href="https://msdn.microsoft.com/aea9f946-dd59-4e51-a1de-b086e70ea083">BeginRegisterPlatformWorkQueueWithMMCSS</a>. (Not used by applications.)
+Remotable version of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-beginregisterplatformworkqueuewithmmcss">BeginRegisterPlatformWorkQueueWithMMCSS</a>. (Not used by applications.)
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1ea258c9-1f7f-4324-a17a-d044a4864ea4">RemoteBeginRegisterTopologyWorkQueuesWithMMCSS</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/imfworkqueueservices-remotebeginregistertopologyworkqueueswithmmcss">RemoteBeginRegisterTopologyWorkQueuesWithMMCSS</a>
 </td>
 <td align="left" width="63%">
-Remotable version of <a href="https://msdn.microsoft.com/62256ae8-a18a-4160-9f3f-a08ab3e93d6b">BeginRegisterTopologyWorkQueuesWithMMCSS</a>. (Not used by applications.)
+Remotable version of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-beginregistertopologyworkqueueswithmmcss">BeginRegisterTopologyWorkQueuesWithMMCSS</a>. (Not used by applications.)
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c3117086-268e-4e52-acfb-2c8167adaa07">RemoteBeginUnregisterPlatformWorkQueueWithMMCSS</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/imfworkqueueservices-remotebeginunregisterplatformworkqueuewithmmcss">RemoteBeginUnregisterPlatformWorkQueueWithMMCSS</a>
 </td>
 <td align="left" width="63%">
-Remotable version of <a href="https://msdn.microsoft.com/e15c6ff9-b72e-4e5d-a738-6bef08782e1b">BeginUnregisterPlatformWorkQueueWithMMCSS</a>. (Not used by applications.)
+Remotable version of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-beginunregisterplatformworkqueuewithmmcss">BeginUnregisterPlatformWorkQueueWithMMCSS</a>. (Not used by applications.)
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1a168462-400d-46c9-a489-7b861770469f">RemoteBeginUnregisterTopologyWorkQueuesWithMMCSS</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/imfworkqueueservices-remotebeginunregistertopologyworkqueueswithmmcss">RemoteBeginUnregisterTopologyWorkQueuesWithMMCSS</a>
 </td>
 <td align="left" width="63%">
-Remotable version of <a href="https://msdn.microsoft.com/af68b792-6e00-4ed1-91f8-f275288dc680">BeginUnregisterTopologyWorkQueuesWithMMCSS</a>. (Not used by applications.)
+Remotable version of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-beginunregistertopologyworkqueueswithmmcss">BeginUnregisterTopologyWorkQueuesWithMMCSS</a>. (Not used by applications.)
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cb15129e-a3ad-4351-a7d6-dd4b883437bd">RemoteEndRegisterPlatformWorkQueueWithMMCSS</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/imfworkqueueservices-remoteendregisterplatformworkqueuewithmmcss">RemoteEndRegisterPlatformWorkQueueWithMMCSS</a>
 </td>
 <td align="left" width="63%">
-Remotable version of <a href="https://msdn.microsoft.com/b9d65d6c-495a-4ca0-b0fd-0a4199e2a7d5">EndRegisterPlatformWorkQueueWithMMCSS</a>. (Not used by applications.)
+Remotable version of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-endregisterplatformworkqueuewithmmcss">EndRegisterPlatformWorkQueueWithMMCSS</a>. (Not used by applications.)
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/94dce412-6a72-4ddf-86a3-5176ee1eb6d2">RemoteEndRegisterTopologyWorkQueuesWithMMCSS</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/imfworkqueueservices-remoteendregistertopologyworkqueueswithmmcss">RemoteEndRegisterTopologyWorkQueuesWithMMCSS</a>
 </td>
 <td align="left" width="63%">
-Remotable version of <a href="https://msdn.microsoft.com/42eb1a1c-3287-4dee-ab95-fd047a16e345">EndRegisterTopologyWorkQueuesWithMMCSS</a>. (Not used by applications.)
+Remotable version of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-endregistertopologyworkqueueswithmmcss">EndRegisterTopologyWorkQueuesWithMMCSS</a>. (Not used by applications.)
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/92eef511-0af0-4146-ac81-7dfa4a649016">RemoteEndUnregisterPlatformWorkQueueWithMMCSS</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/imfworkqueueservices-remoteendunregisterplatformworkqueuewithmmcss">RemoteEndUnregisterPlatformWorkQueueWithMMCSS</a>
 </td>
 <td align="left" width="63%">
-Remotable version of <a href="https://msdn.microsoft.com/e6cce9d8-7f6c-4835-96a4-a2e836c61d08">EndUnregisterPlatformWorkQueueWithMMCSS</a>. (Not used by applications.)
+Remotable version of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-endunregisterplatformworkqueuewithmmcss">EndUnregisterPlatformWorkQueueWithMMCSS</a>. (Not used by applications.)
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8767a145-07b9-4427-9446-cee25e9074fa">RemoteEndUnregisterTopologyWorkQueuesWithMMCSS</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/imfworkqueueservices-remoteendunregistertopologyworkqueueswithmmcss">RemoteEndUnregisterTopologyWorkQueuesWithMMCSS</a>
 </td>
 <td align="left" width="63%">
-Remotable version of <a href="https://msdn.microsoft.com/6b767e34-172c-4845-91f9-0af92a3347ab">EndUnregisterTopologyWorkQueuesWithMMCSS</a>. (Not used by applications.)
+Remotable version of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-endunregistertopologyworkqueueswithmmcss">EndUnregisterTopologyWorkQueuesWithMMCSS</a>. (Not used by applications.)
 
 </td>
 </tr>
@@ -267,7 +267,7 @@ If the application is using the protected media path (PMP) session, the methods 
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

@@ -59,7 +59,7 @@ The <b>FaceRectInfoBlobHeader</b> structure describes the size and count informa
 
 ### -field Size
 
-Size of this header + all following <a href="https://msdn.microsoft.com/63F31CDC-CB44-4ED8-BDA0-89F7DCF77965">FaceRectInfo</a> structures.
+Size of this header + all following <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-tagfacerectinfo">FaceRectInfo</a> structures.
 
 
 ### -field Count

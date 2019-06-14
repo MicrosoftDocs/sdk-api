@@ -63,7 +63,7 @@ The <b>QueryDirection</b> method gets the direction of the pin (input or output)
 
 ### -param pPinDir [out]
 
-Receives a member of the <a href="https://msdn.microsoft.com/87f4e2e8-543f-46a3-b385-cc2e6af39770">PIN_DIRECTION</a> enumerated type.
+Receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-_pindirection">PIN_DIRECTION</a> enumerated type.
           
 
 
@@ -111,11 +111,11 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/ad0ead4e-9f8e-4935-b220-306d665e50f4">IPin Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
  
 
  

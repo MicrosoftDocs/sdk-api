@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[<b>GetAudioFormat</b> is no longer available for use as of Windows 7. Instead, use the media type attributes to get the properties of the audio format.]
 
-Returns a pointer to a <a href="https://msdn.microsoft.com/4f3bf6fb-b15f-43b3-82f1-e7a8a3007057">WAVEFORMATEX</a> structure that describes the audio format.
+Returns a pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v%3dvs.85)">WAVEFORMATEX</a> structure that describes the audio format.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ Returns a pointer to a <a href="https://msdn.microsoft.com/4f3bf6fb-b15f-43b3-82
 
 
 
-This method returns a pointer to a <a href="https://msdn.microsoft.com/4f3bf6fb-b15f-43b3-82f1-e7a8a3007057">WAVEFORMATEX</a> structure.
+This method returns a pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v%3dvs.85)">WAVEFORMATEX</a> structure.
 
 
 
@@ -75,7 +75,7 @@ This method returns a pointer to a <a href="https://msdn.microsoft.com/4f3bf6fb-
 
 
 
-If you need to convert the media type into a <a href="https://msdn.microsoft.com/4f3bf6fb-b15f-43b3-82f1-e7a8a3007057">WAVEFORMATEX</a> structure, call <a href="https://msdn.microsoft.com/b124bac2-90de-4358-a079-f509a89c3776">MFCreateWaveFormatExFromMFMediaType</a>.
+If you need to convert the media type into a <a href="https://docs.microsoft.com/previous-versions/dd757713(v%3dvs.85)">WAVEFORMATEX</a> structure, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreatewaveformatexfrommfmediatype">MFCreateWaveFormatExFromMFMediaType</a>.
 
 There are no guarantees about how long the returned pointer is valid.
 
@@ -93,15 +93,15 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 
-<a href="https://msdn.microsoft.com/15aad4ea-7b4b-4a6f-bac7-18e0c281f2a6">Audio Media Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/audio-media-types">Audio Media Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/425a4a37-6fd3-4724-9d18-c39cc2862ef7">IMFAudioMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfaudiomediatype">IMFAudioMediaType</a>
 
 
 
-<a href="https://msdn.microsoft.com/690fda6e-dcbd-44dc-968d-cc949126da81">Media Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-types">Media Types</a>
  
 
  

@@ -59,9 +59,9 @@ Appends an object to the collection of managed objects.
 
 ### -param punk [in]
 
-Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-The address of the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface of the object to be added to the list.
+The address of the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the object to be added to the list.
         
 
 
@@ -81,11 +81,11 @@ Returns S_OK if successful, or a COM error code otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/c0556a87-2be5-43dc-9ca6-dfbdae7e7137">IObjMgr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iobjmgr">IObjMgr</a>
 
 
 
-<a href="https://msdn.microsoft.com/21f8cce6-0d48-4b8e-8f15-1f95b112892d">IObjMgr::Remove</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iobjmgr-remove">IObjMgr::Remove</a>
  
 
  

@@ -59,7 +59,7 @@ Provides access to a rectangular area of the bitmap.
 
 ### -param prcLock [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/e07c26bf-b645-4382-bb93-8472ba397026">WICRect</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-wincodec-wicrect">WICRect</a>*</b>
 
 The rectangle to be accessed.
 
@@ -68,7 +68,7 @@ The rectangle to be accessed.
 
 Type: <b>DWORD</b>
 
-The access mode you wish to obtain for the lock. This is a bitwise combination of <a href="https://msdn.microsoft.com/d4d1bb38-3d1a-4e1e-a889-0491f3c01822">WICBitmapLockFlags</a> for read, write, or read and write access.
+The access mode you wish to obtain for the lock. This is a bitwise combination of <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicbitmaplockflags">WICBitmapLockFlags</a> for read, write, or read and write access.
 
 <table>
 <tr>
@@ -101,7 +101,7 @@ The write access lock.
 
 ### -param ppILock [out]
 
-Type: <b><a href="https://msdn.microsoft.com/c0ddbc25-6abe-484b-a545-3b9376c514df">IWICBitmapLock</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmaplock">IWICBitmapLock</a>**</b>
 
 A pointer that receives the locked memory location.
 
@@ -121,14 +121,14 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Locks are exclusive for writing but can be shared for reading. You cannot call <a href="https://msdn.microsoft.com/d4908a75-e7de-4b8f-bdc8-d86cf6b49f8c">CopyPixels</a> while the <a href="https://msdn.microsoft.com/15dcc80d-ef58-453d-a57a-348ffc7ddc6b">IWICBitmap</a> is locked for writing. Doing so will return an error, since locks are exclusive.
+Locks are exclusive for writing but can be shared for reading. You cannot call <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">CopyPixels</a> while the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a> is locked for writing. Doing so will return an error, since locks are exclusive.
 
 
 #### Examples
 
 
 
-In the following example, an <a href="https://msdn.microsoft.com/15dcc80d-ef58-453d-a57a-348ffc7ddc6b">IWICBitmap</a> is created and the image data is cleared using an <a href="https://msdn.microsoft.com/c0ddbc25-6abe-484b-a545-3b9376c514df">IWICBitmapLock</a>.
+In the following example, an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a> is created and the image data is cleared using an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmaplock">IWICBitmapLock</a>.
 
 
 ```cpp

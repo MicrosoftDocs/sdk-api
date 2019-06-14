@@ -191,7 +191,7 @@ The association between the <i>pwszVolumeName</i> and
 </td>
 <td width="60%">
 An expected provider error has occurred. The error code is logged in the event log. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -203,7 +203,7 @@ An expected provider error has occurred. The error code is logged in the event l
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -230,9 +230,9 @@ A shadow copy is currently using the shadow copy storage area.
 
 
 
-The <b>ChangeDiffAreaMaximumSizeEx</b> method is identical to the <a href="https://msdn.microsoft.com/c7773fa8-6b43-46bf-b644-0016b261c080">IVssDifferentialSoftwareSnapshotMgmt::ChangeDiffAreaMaximumSize</a> method except for the <i>bVolatile</i> parameter.
+The <b>ChangeDiffAreaMaximumSizeEx</b> method is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-changediffareamaximumsize">IVssDifferentialSoftwareSnapshotMgmt::ChangeDiffAreaMaximumSize</a> method except for the <i>bVolatile</i> parameter.
 
-Calling the <b>ChangeDiffAreaMaximumSizeEx</b> method with the <i>bVolatile</i> parameter set to <b>FALSE</b> is the same as calling the <a href="https://msdn.microsoft.com/c7773fa8-6b43-46bf-b644-0016b261c080">ChangeDiffAreaMaximumSize</a> method.
+Calling the <b>ChangeDiffAreaMaximumSizeEx</b> method with the <i>bVolatile</i> parameter set to <b>FALSE</b> is the same as calling the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-changediffareamaximumsize">ChangeDiffAreaMaximumSize</a> method.
 
 <b>ChangeDiffAreaMaximumSizeEx</b> makes the shadow copy storage area explicit, which means that it is not deleted automatically when all shadow copies are deleted.
 
@@ -240,7 +240,7 @@ If the shadow copy storage area does not exist, this method creates it.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>If the shadow copy storage area does not exist, this method does not create it.
 
-To create a shadow copy storage area, use the <a href="https://msdn.microsoft.com/7b58331c-b8a2-4333-a05d-563395d5f0c2">IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea</a> method.
+To create a shadow copy storage area, use the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-adddiffarea">IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea</a> method.
 
 
 
@@ -250,11 +250,11 @@ To create a shadow copy storage area, use the <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/b11d53cb-5b08-4798-acca-45237fc3e170">IVssDifferentialSoftwareSnapshotMgmt2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt2">IVssDifferentialSoftwareSnapshotMgmt2</a>
 
 
 
-<a href="https://msdn.microsoft.com/c7773fa8-6b43-46bf-b644-0016b261c080">IVssDifferentialSoftwareSnapshotMgmt::ChangeDiffAreaMaximumSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-changediffareamaximumsize">IVssDifferentialSoftwareSnapshotMgmt::ChangeDiffAreaMaximumSize</a>
  
 
  

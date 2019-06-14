@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>get_Name</b> method retrieves the 
-<a href="https://msdn.microsoft.com/c28f508f-0788-4b60-a383-65c508ceef5f">Name</a> property of the 
-<a href="https://msdn.microsoft.com/bbd0d9bc-a463-4cd8-93ee-963dcee8efa6">ConfigurableItem</a> object.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/configurableitem-name">Name</a> property of the 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/configurableitem-object">ConfigurableItem</a> object.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The
 ### -param Name [out]
 
 A pointer to a location in memory with the name of a configurable item as listed in the Name column of the 
-<a href="https://msdn.microsoft.com/3b77cc23-c104-4adc-868c-3aa2b5794bc7">ModuleConfiguration table</a>. The client must free the <b>BSTR</b> when it is no longer needed.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/moduleconfiguration-table">ModuleConfiguration table</a>. The client must free the <b>BSTR</b> when it is no longer needed.
 
 
 ## -returns
@@ -154,11 +154,11 @@ The function failed.
 
 
 
-<a href="https://msdn.microsoft.com/d10bfd31-22a8-4100-ac0b-dd0795622808">IMsmConfigurableItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nn-mergemod-imsmconfigurableitem">IMsmConfigurableItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/877d3691-948f-4aea-89d8-0ff008126ccc">Merge Module Automation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
  
 
  

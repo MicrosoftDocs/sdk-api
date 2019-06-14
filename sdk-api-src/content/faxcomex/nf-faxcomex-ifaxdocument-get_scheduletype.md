@@ -65,7 +65,7 @@ This property is read/write.
 
 
 
-By default, <b>IFaxDocument::get_ScheduleType</b> is set to <a href="https://msdn.microsoft.com/en-us/library/ms689199(v=VS.85).aspx">fstNOW</a>, indicating that the fax will be sent as soon as the device is available.
+By default, <b>IFaxDocument::get_ScheduleType</b> is set to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_schedule_type_enum">fstNOW</a>, indicating that the fax will be sent as soon as the device is available.
 
 
 
@@ -75,15 +75,15 @@ By default, <b>IFaxDocument::get_ScheduleType</b> is set to <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685958(v=VS.85).aspx">FaxDocument</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument">FaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685960(v=VS.85).aspx">IFaxDocument</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdocument">IFaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692936(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>
  
 
  

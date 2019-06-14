@@ -95,7 +95,7 @@ Pointer <i>pcJacks</i> is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/9a3d7631-6892-457a-91ab-484ae867fd9f">IKsJackDescription2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iksjackdescription2">IKsJackDescription2</a>
  
 
  

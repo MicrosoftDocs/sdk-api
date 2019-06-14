@@ -137,19 +137,19 @@ Vendor-unique identifier.
 
 
 
-<a href="https://msdn.microsoft.com/c9531c07-ad55-42b6-8685-7f55a47e8485">About VHD</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-<a href="https://msdn.microsoft.com/3655946d-f8b5-46a1-97e3-82b0831124b3">IVdsVdProvider::CreateVDisk</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvdprovider-createvdisk">IVdsVdProvider::CreateVDisk</a>
 
 
 
-<a href="https://msdn.microsoft.com/e4cdab29-2bb7-4754-9ac8-d6f088910b0d">VDS_VDISK_PROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_vdisk_properties">VDS_VDISK_PROPERTIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b5d0da0-2b23-4b7c-b007-ed3fe030926c">VHD Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
  
 
  

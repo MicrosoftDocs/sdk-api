@@ -59,14 +59,14 @@ The <b>PeerPnrpGetEndpoint</b> function retrieves a peer endpoint address resolv
 
 ### -param hResolve [in]
 
-The handle to the asynchronous peer name resolution operation returned by a previous call to <a href="https://msdn.microsoft.com/140ecca5-85fe-480e-bc69-86e0bc69ad2e">PeerPnrpStartResolve</a>.
+The handle to the asynchronous peer name resolution operation returned by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpstartresolve">PeerPnrpStartResolve</a>.
 
 
 ### -param ppEndpoint [out]
 
-Pointer to the address of a <a href="https://msdn.microsoft.com/986e3bec-9915-4a7c-8f54-faf25fa2848c">PEER_PNRP_ENDPOINT_INFO</a> structure that contains an endpoint address for the peer name supplied in the previous call to <a href="https://msdn.microsoft.com/140ecca5-85fe-480e-bc69-86e0bc69ad2e">PeerPnrpStartResolve</a>.
+Pointer to the address of a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_pnrp_endpoint_info_tag">PEER_PNRP_ENDPOINT_INFO</a> structure that contains an endpoint address for the peer name supplied in the previous call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpstartresolve">PeerPnrpStartResolve</a>.
 
-This data returned by this parameter must be freed by calling <a href="https://msdn.microsoft.com/54288829-c991-42d6-a7c4-874ed28dd106">PeerFreeData</a>.
+This data returned by this parameter must be freed by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
 
 
 ## -returns
@@ -124,11 +124,11 @@ All endpoint addresses have been retrieved for the peer.
 
 
 
-<a href="https://msdn.microsoft.com/140ecca5-85fe-480e-bc69-86e0bc69ad2e">PeerPnrpStartResolve</a> creates a handle to an asynchronous peer name resolution operation. 
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpstartresolve">PeerPnrpStartResolve</a> creates a handle to an asynchronous peer name resolution operation. 
 
 Whenever an endpoint is found, the event handle provided in <i>hEvent</i> is signaled, and <b>PeerPnrpGetEndpoint</b> must be called with the <i>phResolve</i> handle by the application to obtain that endpoint.
 
-The last event specifies the PEER_E_NO_MORE error code, indicating that all endpoints corresponding to the peer name supplied to <a href="https://msdn.microsoft.com/140ecca5-85fe-480e-bc69-86e0bc69ad2e">PeerPnrpStartResolve</a> have been found. At this time, the application must close the handle with a call to <a href="https://msdn.microsoft.com/b700a195-57c4-481a-93d2-82d543f5c6c6">PeerPnrpEndResolve</a>.
+The last event specifies the PEER_E_NO_MORE error code, indicating that all endpoints corresponding to the peer name supplied to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpstartresolve">PeerPnrpStartResolve</a> have been found. At this time, the application must close the handle with a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpendresolve">PeerPnrpEndResolve</a>.
 
 
 
@@ -138,11 +138,11 @@ The last event specifies the PEER_E_NO_MORE error code, indicating that all endp
 
 
 
-<a href="https://msdn.microsoft.com/b700a195-57c4-481a-93d2-82d543f5c6c6">PeerPnrpEndResolve</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpendresolve">PeerPnrpEndResolve</a>
 
 
 
-<a href="https://msdn.microsoft.com/140ecca5-85fe-480e-bc69-86e0bc69ad2e">PeerPnrpStartResolve</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpstartresolve">PeerPnrpStartResolve</a>
  
 
  

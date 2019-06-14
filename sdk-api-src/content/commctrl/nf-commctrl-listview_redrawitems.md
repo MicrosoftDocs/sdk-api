@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Forces a list-view control to redraw a range of items. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761145(v=VS.85).aspx">LVM_REDRAWITEMS</a> message explicitly. 
+Forces a list-view control to redraw a range of items. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-redrawitems">LVM_REDRAWITEMS</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Forces a list-view control to redraw a range of items. You can use this macro or
 
 ### -param hwndLV
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control. 
 
@@ -82,7 +82,7 @@ The index of the last item to redraw.
 
 
 
-The specified items are not actually redrawn until the list-view window receives a <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> message to repaint. To repaint immediately, call the <a href="https://msdn.microsoft.com/51a50f1f-7b4d-4acd-83a0-1877f5181766">UpdateWindow</a> function after using this macro. 
+The specified items are not actually redrawn until the list-view window receives a <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a> message to repaint. To repaint immediately, call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-updatewindow">UpdateWindow</a> function after using this macro. 
 
 
 

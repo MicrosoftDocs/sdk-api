@@ -79,7 +79,7 @@ Number of properties to retrieve.
 
 ### -param pProperties [in]
 
-Array of <a href="https://msdn.microsoft.com/2c96379e-7c9f-440c-a98b-bda38bacd33f">POINTER_DEVICE_PROPERTY</a> structures that contain raw data reported by the device.
+Array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_device_property">POINTER_DEVICE_PROPERTY</a> structures that contain raw data reported by the device.
 
 
 ### -param pValues [out]
@@ -91,7 +91,7 @@ The values for <i>pProperties</i>.
 
 
 
-TRUE if the function succeeds; otherwise, FALSE. If the function fails, call the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function for more information.
+TRUE if the function succeeds; otherwise, FALSE. If the function fails, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function for more information.
 
 
 
@@ -101,7 +101,7 @@ TRUE if the function succeeds; otherwise, FALSE. If the function fails, call the
 
 
 
-<a href="https://msdn.microsoft.com/44942954-3EA6-4C33-8CF1-E8BF72A914CB">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_pointerdevice/functions">Functions</a>
  
 
  

@@ -59,7 +59,7 @@ Gets various flags that describe the media resource.
 
 ### -param pCharacteristics [out]
 
-Receives a bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/115f4a6b-99c2-436e-9483-c44003e61a7d">MFMEDIASOURCE_CHARACTERISTICS enumeration</a>.
+Receives a bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-_mfmediasource_characteristics">MFMEDIASOURCE_CHARACTERISTICS enumeration</a>.
 
 
 ## -returns
@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/EE3591FD-4FE8-4F20-A4E2-52C896229571">IMFMediaEngineEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineex">IMFMediaEngineEx</a>
  
 
  

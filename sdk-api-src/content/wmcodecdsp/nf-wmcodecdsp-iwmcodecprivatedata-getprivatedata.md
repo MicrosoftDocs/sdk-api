@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the codec data for the video content based on the output type passed using the <a href="https://msdn.microsoft.com/c906ac2d-b3e0-4ecd-8f0e-3fa1a2a0beea">IWMCodecPrivateData::SetPartialOutputType</a> method.
+Retrieves the codec data for the video content based on the output type passed using the <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcodecprivatedata-setpartialoutputtype">IWMCodecPrivateData::SetPartialOutputType</a> method.
 
 
 
@@ -102,7 +102,7 @@ The method succeeded.
 
 If you are setting properties on the encoder object, you must finish that configuration before getting the private data. Changing properties invalidates any private data that was previously retrieved. If you change properties after getting the private data, retrieve it again and reset the output type.
 
-You must call this method after providing the codec with the output media type (without the private data appended) by calling <a href="https://msdn.microsoft.com/c906ac2d-b3e0-4ecd-8f0e-3fa1a2a0beea">IWMCodecPrivateData::SetPartialOutputType</a>.
+You must call this method after providing the codec with the output media type (without the private data appended) by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcodecprivatedata-setpartialoutputtype">IWMCodecPrivateData::SetPartialOutputType</a>.
 
 After retrieving the private data, allocate a buffer the size of VIDEOINFOHEADER plus <i>pcbData</i>. Then copy the data from your partial output type to the beginning of the buffer and append the private data. 
 
@@ -114,7 +114,7 @@ After retrieving the private data, allocate a buffer the size of VIDEOINFOHEADER
 
 
 
-<a href="https://msdn.microsoft.com/c1216fd7-7cbd-45cf-b694-a5fd9a972fcd">IWMCodecPrivateData Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecprivatedata">IWMCodecPrivateData Interface</a>
  
 
  

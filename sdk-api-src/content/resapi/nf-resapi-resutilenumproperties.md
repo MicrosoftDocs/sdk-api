@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Enumerates the property names of a  <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a802-8f7bdbb11b90">cluster object</a>. The <b>PRESUTIL_ENUM_PROPERTIES</b> type defines a pointer to this function.
+Enumerates the property names of a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">cluster object</a>. The <b>PRESUTIL_ENUM_PROPERTIES</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Enumerates the property names of a  <a href="https://msdn.microsoft.com/609cc002
 
 ### -param pPropertyTable [in]
 
-Pointer to an array of  <a href="https://msdn.microsoft.com/f65ee50f-59f7-44db-ad69-b29b3e693c7e">RESUTIL_PROPERTY_ITEM</a> structures describing properties to enumerate.
+Pointer to an array of  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a> structures describing properties to enumerate.
 
 
 ### -param pszOutProperties [out]
@@ -89,7 +89,7 @@ Number of bytes required if the output buffer is too small.
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following are possible error codes.
+the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following are possible error codes.
 
 <table>
 <tr>
@@ -140,7 +140,7 @@ The size of the output buffer is too small to hold the resulting data. The <i>pc
 
 
 
-<a href="https://msdn.microsoft.com/f65ee50f-59f7-44db-ad69-b29b3e693c7e">RESUTIL_PROPERTY_ITEM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a>
  
 
  

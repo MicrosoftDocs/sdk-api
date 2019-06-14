@@ -79,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method is analogous to <a href="https://msdn.microsoft.com/94731c78-b7cf-4ad2-afe5-6355830a5550">UpdateAll</a>.
+This method is analogous to <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizeinvoke-updateall">UpdateAll</a>.
 
 
 #### Examples

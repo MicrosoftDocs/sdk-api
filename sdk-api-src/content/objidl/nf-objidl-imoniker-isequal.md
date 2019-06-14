@@ -59,7 +59,7 @@ Determines whether this moniker is identical to the specified moniker.
 
 ### -param pmkOtherMoniker [in]
 
-A  pointer to the <a href="https://msdn.microsoft.com/17f4c1df-7a9c-42ef-a888-70cd8d85f070">IMoniker</a> interface on the moniker to be used for comparison with this one (the one from which this method is called).
+A  pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface on the moniker to be used for comparison with this one (the one from which this method is called).
 
 
 ## -returns
@@ -75,15 +75,15 @@ This method returns S_OK to indicate that the two monikers are identical, and S_
 
 
 
-Previous implementations of the running object table (ROT) called this method. The current implementation of the ROT uses the <a href="https://msdn.microsoft.com/44ae8377-c375-4dc3-9f54-a5674e24763f">IROTData</a> interface instead.
+Previous implementations of the running object table (ROT) called this method. The current implementation of the ROT uses the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irotdata">IROTData</a> interface instead.
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-Call this method to determine whether two monikers are identical. The reduced form of a moniker is considered different from the unreduced form. You should call the <a href="https://msdn.microsoft.com/1d34da7b-e6cb-4daa-a155-45beb36e035b">IMoniker::Reduce</a> method before calling <b>IsEqual</b>, because a reduced moniker is in its most specific form. <b>IsEqual</b> may return S_FALSE on two monikers before they are reduced, and S_OK after they are reduced.
+Call this method to determine whether two monikers are identical. The reduced form of a moniker is considered different from the unreduced form. You should call the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-reduce">IMoniker::Reduce</a> method before calling <b>IsEqual</b>, because a reduced moniker is in its most specific form. <b>IsEqual</b> may return S_FALSE on two monikers before they are reduced, and S_OK after they are reduced.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-Your implementation should not reduce the current moniker before performing the comparison. It is the caller's responsibility to call <a href="https://msdn.microsoft.com/1d34da7b-e6cb-4daa-a155-45beb36e035b">IMoniker::Reduce</a> to compare reduced monikers.
+Your implementation should not reduce the current moniker before performing the comparison. It is the caller's responsibility to call <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-reduce">IMoniker::Reduce</a> to compare reduced monikers.
 
-Two monikers that compare as equal must hash to the same value using <a href="https://msdn.microsoft.com/5073c909-d3bc-480e-97fb-d096e60787e5">IMoniker::Hash</a>.
+Two monikers that compare as equal must hash to the same value using <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-hash">IMoniker::Hash</a>.
 
 <h3><a id="Implementation-specific_Notes"></a><a id="implementation-specific_notes"></a><a id="IMPLEMENTATION-SPECIFIC_NOTES"></a>Implementation-specific Notes</h3>
 <table>
@@ -121,7 +121,7 @@ Two monikers that compare as equal must hash to the same value using <a href="ht
 </tr>
 <tr>
 <td>URL moniker</td>
-<td>Returns S_FALSE if the other moniker (<i>pmkOtherMoniker</i>) is not an URL moniker, which it checks using <a href="https://msdn.microsoft.com/921a3b86-a240-454e-9411-8d653e02b90e">IPersist::GetClassID</a> to see whether the CLSID is CLSID_URLMoniker. If the other moniker is an URL moniker, it compares the display names of the monikers for equality, returning S_OK if they are identical or S_FALSE otherwise.</td>
+<td>Returns S_FALSE if the other moniker (<i>pmkOtherMoniker</i>) is not an URL moniker, which it checks using <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersist-getclassid">IPersist::GetClassID</a> to see whether the CLSID is CLSID_URLMoniker. If the other moniker is an URL moniker, it compares the display names of the monikers for equality, returning S_OK if they are identical or S_FALSE otherwise.</td>
 </tr>
 </table>
  
@@ -134,11 +134,11 @@ Two monikers that compare as equal must hash to the same value using <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/17f4c1df-7a9c-42ef-a888-70cd8d85f070">IMoniker</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
 
 
 
-<a href="https://msdn.microsoft.com/44ae8377-c375-4dc3-9f54-a5674e24763f">IROTData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irotdata">IROTData</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the length of the note text that may be displayed in the description for a command link. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775967(v=VS.85).aspx">BCM_GETNOTELENGTH</a> message explicitly.
+Gets the length of the note text that may be displayed in the description for a command link. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/bcm-getnotelength">BCM_GETNOTELENGTH</a> message explicitly.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets the length of the note text that may be displayed in the description for a 
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the button control.
 
@@ -68,9 +68,9 @@ A handle to the button control.
 
 
 
-Beginning with comctl32 DLL version 6.01, command link buttons may have a note. For information on DLL versions, see <a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Common Control Versions</a>.
+Beginning with comctl32 DLL version 6.01, command link buttons may have a note. For information on DLL versions, see <a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Common Control Versions</a>.
 
-The <b>Button_GetNoteLength</b> macro works only with the <a href="https://msdn.microsoft.com/en-us/library/Bb775951(v=VS.85).aspx">BS_COMMANDLINK</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb775951(v=VS.85).aspx">BS_DEFCOMMANDLINK</a> button styles.
+The <b>Button_GetNoteLength</b> macro works only with the <a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">BS_COMMANDLINK</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">BS_DEFCOMMANDLINK</a> button styles.
 
 
 
@@ -80,11 +80,11 @@ The <b>Button_GetNoteLength</b> macro works only with the <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775951(v=VS.85).aspx">Button Styles</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">Button Styles</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775947(v=VS.85).aspx">Button Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/button-types-and-styles">Button Types</a>
 
 
 

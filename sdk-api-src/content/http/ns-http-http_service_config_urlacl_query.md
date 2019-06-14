@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>HTTP_SERVICE_CONFIG_URLACL_QUERY</b> structure is used to specify a particular reservation record to query in the URL namespace reservation store. It is passed to the 
-<a href="https://msdn.microsoft.com/bbd2c3c4-d2d0-4590-9b5c-6916b91600cd">HttpQueryServiceConfiguration</a> function using the <i>pInputConfigInfo</i> parameter when the <i>ConfigId</i> parameter is equal to <b>HttpServiceConfigUrlAclInfo</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a> function using the <i>pInputConfigInfo</i> parameter when the <i>ConfigId</i> parameter is equal to <b>HttpServiceConfigUrlAclInfo</b>.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ The
 
 ### -field QueryDesc
 
-One of the following values from the <a href="https://msdn.microsoft.com/63b2503f-7e71-4c62-8e9c-ad0f5103a9e8">HTTP_SERVICE_CONFIG_QUERY_TYPE</a> enumeration. 
+One of the following values from the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_service_config_query_type">HTTP_SERVICE_CONFIG_QUERY_TYPE</a> enumeration. 
 
 
 
@@ -83,7 +83,7 @@ Returns a sequence of records in a sequence of calls, controlled by the <i>dwTok
 ### -field KeyDesc
 
 If the <i>QueryDesc</i> parameter is equal to <b>HttpServiceConfigQueryExact</b>, then <i>KeyDesc</i> should contain an 
-<a href="https://msdn.microsoft.com/ab739046-c25c-43bd-8c1f-da3aab374a05">HTTP_SERVICE_CONFIG_URLACL_KEY</a> structure that identifies the reservation record queried. 
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_urlacl_key">HTTP_SERVICE_CONFIG_URLACL_KEY</a> structure that identifies the reservation record queried. 
 
 
 
@@ -94,7 +94,7 @@ If the <i>QueryDesc</i> parameter is equal to <b>HttpServiceConfigQueryNext</b>,
 ### -field dwToken
 
 If the <i>QueryDesc</i> parameter is equal to <b>HttpServiceConfigQueryNext</b>, then <i>dwToken</i> must be equal to zero on the first call to the 
-<a href="https://msdn.microsoft.com/bbd2c3c4-d2d0-4590-9b5c-6916b91600cd">HttpQueryServiceConfiguration</a> function, one on the second call, two on the third call, and so forth until all reservation records are returned, at which point 
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a> function, one on the second call, two on the third call, and so forth until all reservation records are returned, at which point 
 <b>HttpQueryServiceConfiguration</b> returns ERROR_NO_MORE_ITEMS. 
 
 
@@ -108,19 +108,19 @@ If the <i>QueryDesc</i> parameter is equal to <b>HttpServiceConfigQueryExact</b>
 
 
 
-<a href="https://msdn.microsoft.com/63b2503f-7e71-4c62-8e9c-ad0f5103a9e8">HTTP_SERVICE_CONFIG_QUERY_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_service_config_query_type">HTTP_SERVICE_CONFIG_QUERY_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/ab739046-c25c-43bd-8c1f-da3aab374a05">HTTP_SERVICE_CONFIG_URLACL_KEY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_urlacl_key">HTTP_SERVICE_CONFIG_URLACL_KEY</a>
 
 
 
-<a href="https://msdn.microsoft.com/92fc3f65-0153-4075-a61b-48a63c8e0ffe">HTTP_SERVICE_CONFIG_URLACL_SET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_urlacl_set">HTTP_SERVICE_CONFIG_URLACL_SET</a>
 
 
 
-<a href="https://msdn.microsoft.com/bbd2c3c4-d2d0-4590-9b5c-6916b91600cd">HttpQueryServiceConfiguration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a>
  
 
  

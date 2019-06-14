@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines values that are used with the <a href="https://msdn.microsoft.com/a142b8fd-b71c-4449-a8c6-fb23715d1576">FILE_IO_PRIORITY_HINT_INFO</a> structure to specify the priority hint for a file I/O operation.
+Defines values that are used with the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_io_priority_hint_info">FILE_IO_PRIORITY_HINT_INFO</a> structure to specify the priority hint for a file I/O operation.
 
 
 ## -enum-fields
@@ -82,11 +82,11 @@ This value is used for validation. Supported values are less than this value.
 
 
 
-<a href="https://msdn.microsoft.com/a142b8fd-b71c-4449-a8c6-fb23715d1576">FILE_IO_PRIORITY_HINT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_io_priority_hint_info">FILE_IO_PRIORITY_HINT_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/ea4981e6-a8f1-4977-aca9-b2f53604d449">SetFileInformationByHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a>
  
 
  

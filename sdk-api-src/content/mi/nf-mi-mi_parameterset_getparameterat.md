@@ -60,7 +60,7 @@ Gets a method's parameter information at the specified index.
 ### -param self [in]
 
 
-<a href="https://msdn.microsoft.com/14b5773c-4741-453b-824a-226aab9b8a10">MI_ParameterSet</a> structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_parameterset">MI_ParameterSet</a> structure.
 
 
 ### -param index

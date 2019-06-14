@@ -99,11 +99,11 @@ Specifies the number of bytes in <i>MultiByteString</i>. If <i>MultiByteString</
 
 
 
-<a href="https://msdn.microsoft.com/7ed4f718-e28d-40d9-a3e0-c6961281a319">EngMultiByteToWideChar</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmultibytetowidechar">EngMultiByteToWideChar</a>
 
 
 
-<a href="https://msdn.microsoft.com/5c36322f-7a88-4c24-9f98-aaf3d30f3be4">EngUnicodeToMultiByteN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engunicodetomultibyten">EngUnicodeToMultiByteN</a>
  
 
  

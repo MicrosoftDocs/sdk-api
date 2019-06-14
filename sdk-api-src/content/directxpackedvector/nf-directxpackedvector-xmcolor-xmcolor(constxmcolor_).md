@@ -49,7 +49,7 @@ ms.custom: 19H1
 
 A constructor for <code>XMCOLOR</code>
 
-A constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419292(v=VS.85).aspx">XMCOLOR</a>
+A constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a>
 
 <div class="alert"><b>Note</b>  This is only available for C++ based development.</div>
 
@@ -63,6 +63,6 @@ A value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419292(v=VS.85).aspx">XMCOLOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415264(v=VS.85).aspx">XMCOLOR Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmcolor-ctor">XMCOLOR Constructors</a>

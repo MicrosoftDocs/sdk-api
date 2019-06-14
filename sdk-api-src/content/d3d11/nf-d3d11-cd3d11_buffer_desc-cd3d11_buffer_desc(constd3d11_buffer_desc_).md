@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Instantiates a new instance of a <a href="https://msdn.microsoft.com/A6ED5755-AB4A-4C35-A344-1693D78F7A4B">CD3D11_BUFFER_DESC</a> structure that is initialized with a <a href="https://msdn.microsoft.com/a5e470bb-011b-4a2a-96d6-cbf76fe12638">D3D11_BUFFER_DESC</a> structure.
+Instantiates a new instance of a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-cd3d11_buffer_desc">CD3D11_BUFFER_DESC</a> structure that is initialized with a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_buffer_desc">D3D11_BUFFER_DESC</a> structure.
 
 
 ## -parameters
@@ -60,9 +60,9 @@ Instantiates a new instance of a <a href="https://msdn.microsoft.com/A6ED5755-AB
 
 ### -param o [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/a5e470bb-011b-4a2a-96d6-cbf76fe12638">D3D11_BUFFER_DESC</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_buffer_desc">D3D11_BUFFER_DESC</a></b>
 
-Address of the <a href="https://msdn.microsoft.com/a5e470bb-011b-4a2a-96d6-cbf76fe12638">D3D11_BUFFER_DESC</a> structure that initializes the <a href="https://msdn.microsoft.com/A6ED5755-AB4A-4C35-A344-1693D78F7A4B">CD3D11_BUFFER_DESC</a> structure.
+Address of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_buffer_desc">D3D11_BUFFER_DESC</a> structure that initializes the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-cd3d11_buffer_desc">CD3D11_BUFFER_DESC</a> structure.
 
 
 ## -returns
@@ -79,7 +79,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/A6ED5755-AB4A-4C35-A344-1693D78F7A4B">CD3D11_BUFFER_DESC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-cd3d11_buffer_desc">CD3D11_BUFFER_DESC</a>
  
 
  

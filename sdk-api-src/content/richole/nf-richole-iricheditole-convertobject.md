@@ -59,7 +59,7 @@ Converts an object to a new type. This call reloads the object but does not forc
 
 ### -param iob
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Index of the object to convert. If this parameter is REO_IOB_SELECTION, the selected object is to be converted. 
 
@@ -73,7 +73,7 @@ Class identifier of the class to which the object is converted.
 
 ### -param lpstrUserTypeNew
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
 User-visible type name of the class to which the object is converted. 
 
@@ -82,7 +82,7 @@ User-visible type name of the class to which the object is converted.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK on success, or a failure code otherwise. E_INVALIDARG is returned if the index is invalid.
 
@@ -94,7 +94,7 @@ Returns S_OK on success, or a failure code otherwise. E_INVALIDARG is returned i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774306(v=VS.85).aspx">IRichEditOle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/nn-richole-iricheditole">IRichEditOle</a>
  
 
  

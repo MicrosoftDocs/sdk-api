@@ -60,7 +60,7 @@ The <b>SCOPE_MIB_INFO_V5</b> structure contains information about a specific DHC
 ### -field Subnet
 
 
-<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_ADDRESS</a> value that contains the IP address of the subnet gateway that defines the scope.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that contains the IP address of the subnet gateway that defines the scope.
 
 
 ### -field NumAddressesInuse
@@ -88,11 +88,11 @@ The number of IP addresses in the scope that are currently assigned to DHCP clie
 
 
 
-<a href="https://msdn.microsoft.com/5081ebce-d3b9-4548-8d80-23d994bce7ab">DHCP_MIB_INFO_V5</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_mib_info_v5">DHCP_MIB_INFO_V5</a>
 
 
 
-<a href="https://msdn.microsoft.com/3439198d-5391-4f9b-a6fe-9a600e7dc77b">DhcpGetMibInfoV5</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpgetmibinfov5">DhcpGetMibInfoV5</a>
  
 
  

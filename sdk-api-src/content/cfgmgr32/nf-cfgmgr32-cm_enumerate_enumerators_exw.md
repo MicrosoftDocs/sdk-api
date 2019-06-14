@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://msdn.microsoft.com/85fbca44-bd3b-4654-bba2-099135c42d23">CM_Enumerate_Enumerators</a> instead.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_enumerate_enumeratorsw">CM_Enumerate_Enumerators</a> instead.]
 
 The <b>CM_Enumerate_Enumerators_Ex</b> function enumerates a local or a remote machine's device enumerators, by supplying each enumerator's name.
 
@@ -83,7 +83,7 @@ Not used, must be zero.
 
 ### -param hMachine [in, optional]
 
-Caller-supplied machine handle, obtained from a previous call to <a href="https://msdn.microsoft.com/4108a35f-0861-4142-a798-731287515910">CM_Connect_Machine</a>.
+Caller-supplied machine handle, obtained from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_connect_machinew">CM_Connect_Machine</a>.
 
 <div class="alert"><b>Note</b>  Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.</div>
 <div> </div>
@@ -103,7 +103,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 To enumerate the local or a remote machine's device enumerators, call <b>CM_Enumerate_Enumerators_Ex</b> repeatedly, starting with a <i>ulEnumIndex</i> index value of zero, and incrementing the index value with each subsequent call until the function returns CR_NO_SUCH_VALUE.
 
-After enumerator names have been obtained, the names can be used as input to <a href="https://msdn.microsoft.com/aa0ab004-3813-4339-90bb-afd9acf200c8">CM_Get_Device_ID_List</a>.
+After enumerator names have been obtained, the names can be used as input to <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_id_lista">CM_Get_Device_ID_List</a>.
 
  Functionality to access remote machines has been removed in Windows 8 and Windows Server 2012 and later operating systems thus you cannot access remote machines when running on these versions of Windows.
 
@@ -115,7 +115,7 @@ After enumerator names have been obtained, the names can be used as input to <a 
 
 
 
-<a href="https://msdn.microsoft.com/85fbca44-bd3b-4654-bba2-099135c42d23">CM_Enumerate_Enumerators</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_enumerate_enumeratorsw">CM_Enumerate_Enumerators</a>
  
 
  

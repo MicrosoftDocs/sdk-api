@@ -98,7 +98,7 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an error c
 
 
 
-<a href="https://msdn.microsoft.com/F07138FE-340F-4493-A3A9-AED075B2CEEA">IAppxEncryptionFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxencryptionfactory">IAppxEncryptionFactory</a>
  
 
  

@@ -68,7 +68,7 @@ Receives the language information.
 
 ### -param pSubpictureExtension [out]
 
-Pointer to a variable of type <a href="https://msdn.microsoft.com/314c6187-a475-44c9-b22a-b168211fceb3">DVD_SUBPICTURE_LANG_EXT</a> that receives one of the allowable values indicating the default language extension.
+Pointer to a variable of type <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagdvd_subpicture_lang_ext">DVD_SUBPICTURE_LANG_EXT</a> that receives one of the allowable values indicating the default language extension.
 
 
 ## -returns
@@ -122,7 +122,7 @@ The <i>pLanguage</i> parameter is <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/3b2c01a2-d52c-4497-8fc9-d1113e8507e8">DVD Navigator</a> is not initialized.
+The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> is not initialized.
 
 </td>
 </tr>
@@ -148,15 +148,15 @@ DVD Navigator is not in a valid domain.
 
 
 
-<a href="https://msdn.microsoft.com/6f41e0f1-e550-4ca6-9a80-ce4d498289e2">DVD Applications</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/da30d3dc-feec-4f54-b2db-a771ce404286">IDvdInfo2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
  
 
  

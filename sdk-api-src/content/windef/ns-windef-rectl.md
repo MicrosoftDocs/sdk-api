@@ -81,7 +81,7 @@ Specifies the <i>y</i>-coordinate of the lower-right corner of the rectangle.
 
 
 
-The RECTL structure is identical to the <a href="https://msdn.microsoft.com/a44f33f4-49b2-4a36-a7bd-fc4a9d3a3943">RECT</a> structure.
+The RECTL structure is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure.
 
 
 
@@ -91,7 +91,7 @@ The RECTL structure is identical to the <a href="https://msdn.microsoft.com/a44f
 
 
 
-<a href="https://msdn.microsoft.com/a44f33f4-49b2-4a36-a7bd-fc4a9d3a3943">RECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>
  
 
  

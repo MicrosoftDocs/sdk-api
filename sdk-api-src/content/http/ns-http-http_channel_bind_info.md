@@ -59,7 +59,7 @@ The <b>HTTP_CHANNEL_BIND_INFO</b>  structure is used to set or query channel bin
 
 ### -field Hardening
 
-An <a href="https://msdn.microsoft.com/da61e548-388a-4cb7-81bf-30bd312e27a6">HTTP_AUTHENTICATION_HARDENING_LEVELS</a> value indicating the hardening level  levels to be set or queried per server session or URL group.
+An <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_authentication_hardening_levels">HTTP_AUTHENTICATION_HARDENING_LEVELS</a> value indicating the hardening level  levels to be set or queried per server session or URL group.
 
 
 ### -field Flags
@@ -98,12 +98,12 @@ The following values are supported.
 <tr>
 <td>HTTP_CHANNEL_BIND_SECURE_CHANNEL_TOKEN</td>
 <td>0x8</td>
-<td>Server session, URL group, or response is configured to retrieve secure channel endpoint binding for each request and pass it to user the mode application. When set, a pointer to a buffer with the secure channel endpoint binding is stored in an <a href="https://msdn.microsoft.com/70f52486-2632-4e15-998b-4d87a86cb11f">HTTP_REQUEST_CHANNEL_BIND_STATUS</a> structure. </td>
+<td>Server session, URL group, or response is configured to retrieve secure channel endpoint binding for each request and pass it to user the mode application. When set, a pointer to a buffer with the secure channel endpoint binding is stored in an <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_request_channel_bind_status">HTTP_REQUEST_CHANNEL_BIND_STATUS</a> structure. </td>
 </tr>
 <tr>
 <td>HTTP_CHANNEL_BIND_CLIENT_SERVICE</td>
 <td>0x10</td>
-<td>Server session, URL group, or response is configured to retrieve SPN for each request and pass it to the user mode application. The SPN is stored in the <b>ServiceName</b> field of the <a href="https://msdn.microsoft.com/70f52486-2632-4e15-998b-4d87a86cb11f">HTTP_REQUEST_CHANNEL_BIND_STATUS</a> structure. The  type is always <b>HttpServiceBindingTypeW</b> (Unicode). 
+<td>Server session, URL group, or response is configured to retrieve SPN for each request and pass it to the user mode application. The SPN is stored in the <b>ServiceName</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_request_channel_bind_status">HTTP_REQUEST_CHANNEL_BIND_STATUS</a> structure. The  type is always <b>HttpServiceBindingTypeW</b> (Unicode). 
 </td>
 </tr>
 </table>
@@ -114,7 +114,7 @@ The following values are supported.
 
 ### -field ServiceNames
 
-  Pointer to a buffer holding an array of 1 or more service names.  Each service name is represented by either an <a href="https://msdn.microsoft.com/bad1a042-fda8-4a2a-a8c1-26ed1f87c442">HTTP_SERVICE_BINDING_A</a> structure or an <a href="https://msdn.microsoft.com/0d840097-82d3-4ee3-b0d9-bcac4cf3e935">HTTP_SERVICE_BINDING_W</a> structure, dependent upon whether the name is ASCII or Unicode.  Regardless of which structure type is used, the array is cast into a pointer to an <a href="https://msdn.microsoft.com/c9d3ed21-8987-4b98-99a1-dc1e776b0dab">HTTP_SERVICE_BINDING_BASE</a> structure.
+  Pointer to a buffer holding an array of 1 or more service names.  Each service name is represented by either an <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_binding_a">HTTP_SERVICE_BINDING_A</a> structure or an <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_binding_w">HTTP_SERVICE_BINDING_W</a> structure, dependent upon whether the name is ASCII or Unicode.  Regardless of which structure type is used, the array is cast into a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_binding_base">HTTP_SERVICE_BINDING_BASE</a> structure.
 
 
 ### -field NumberOfServiceNames
@@ -127,7 +127,7 @@ The number of names in <b>ServiceNames</b>.
 
 
 
-<div class="alert"><b>Note</b>  <p class="note">This structure is used to set server session or URL group properties by passing it to <a href="https://msdn.microsoft.com/d655832c-68a1-42d1-ac91-964884bf2dac">HttpSetServerSessionProperty</a>  or <a href="https://msdn.microsoft.com/e0826a25-1c50-4757-9355-69eb4946e8dd">HttpSetUrlGroupProperty</a>.
+<div class="alert"><b>Note</b>  <p class="note">This structure is used to set server session or URL group properties by passing it to <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserversessionproperty">HttpSetServerSessionProperty</a>  or <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpseturlgroupproperty">HttpSetUrlGroupProperty</a>.
 
 <p class="note">The <b>HTTP_CHANNEL_BIND_INFO</b> structure is also returned when server session or URL group properties are queried
 

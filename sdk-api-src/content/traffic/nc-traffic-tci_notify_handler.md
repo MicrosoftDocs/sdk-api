@@ -64,13 +64,13 @@ The
 ### -param ClRegCtx [in]
 
 Client registration context, provided to traffic control by the client with the client's call to the 
-<a href="https://msdn.microsoft.com/10bbc08d-4bfa-4a64-b5b8-b720d7bc3185">TcRegisterClient</a> function.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcregisterclient">TcRegisterClient</a> function.
 
 
 ### -param ClIfcCtx [in]
 
 Client interface context, provided to traffic control by the client with the client's call to the 
-<a href="https://msdn.microsoft.com/8c7e658c-862f-4715-9ba5-ac079db924a1">TcOpenInterface</a> function. Note that during a TC_NOTIFY_IFC_UP event, <i>ClIfcCtx</i> is not available and will be set to <b>NULL</b>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a> function. Note that during a TC_NOTIFY_IFC_UP event, <i>ClIfcCtx</i> is not available and will be set to <b>NULL</b>.
 
 
 ### -param Event [in]
@@ -134,12 +134,12 @@ The following table describes the various notification events.
 <td>None</td>
 <td>New parameter value</td>
 <td>Used to notify clients that have registered for interface change notification through the <i>NotifyChange</i> parameter of the 
-<a href="https://msdn.microsoft.com/7cbee5e9-fecc-4bfc-8b65-f3fc3427c85d">TcQueryInterface</a> function.</td>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcqueryinterface">TcQueryInterface</a> function.</td>
 </tr>
 <tr>
 <td>TC_NOTIFY_PARAM_CHANGED</td>
 <td>Pointer to the GUID for a traffic control parameter queried using the 
-<a href="https://msdn.microsoft.com/7cbee5e9-fecc-4bfc-8b65-f3fc3427c85d">TcQueryInterface</a> function.</td>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcqueryinterface">TcQueryInterface</a> function.</td>
 <td>New parameter value</td>
 <td>This event is notified as a result of a change in a parameter previously queried with the <i>NotifyChange</i> flag set.</td>
 </tr>
@@ -163,15 +163,15 @@ The following table describes the various notification events.
 
 
 
-<a href="https://msdn.microsoft.com/8c7e658c-862f-4715-9ba5-ac079db924a1">TcOpenInterface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a>
 
 
 
-<a href="https://msdn.microsoft.com/7cbee5e9-fecc-4bfc-8b65-f3fc3427c85d">TcQueryInterface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcqueryinterface">TcQueryInterface</a>
 
 
 
-<a href="https://msdn.microsoft.com/10bbc08d-4bfa-4a64-b5b8-b720d7bc3185">TcRegisterClient</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcregisterclient">TcRegisterClient</a>
  
 
  

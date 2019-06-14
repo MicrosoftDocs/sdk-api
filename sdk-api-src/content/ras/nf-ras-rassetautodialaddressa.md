@@ -80,7 +80,7 @@ Reserved; must be zero.
 ### -param arg3 [in]
 
 Pointer to an array of one or more 
-<a href="https://msdn.microsoft.com/a62a1e86-a433-44dd-8068-cb4d60b124c3">RASAUTODIALENTRY</a> structures to be associated with the <i>lpszAddress</i> address. If <i>lpAutoDialEntries</i> is <b>NULL</b> and <i>dwcbAutoDialEntries</i> is zero, 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376721(v=vs.85)">RASAUTODIALENTRY</a> structures to be associated with the <i>lpszAddress</i> address. If <i>lpAutoDialEntries</i> is <b>NULL</b> and <i>dwcbAutoDialEntries</i> is zero, 
 <b>RasSetAutodialAddress</b> deletes all structures associated with <i>lpszAddress</i> from the mapping database. 
 
 
@@ -96,7 +96,7 @@ Specifies the size, in bytes, of the <i>lpAutoDialEntries</i> buffer.
 ### -param arg5 [in]
 
 Specifies the number of 
-<a href="https://msdn.microsoft.com/a62a1e86-a433-44dd-8068-cb4d60b124c3">RASAUTODIALENTRY</a> structures in the <i>lpAutoDialEntries</i> buffer. 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376721(v=vs.85)">RASAUTODIALENTRY</a> structures in the <i>lpAutoDialEntries</i> buffer. 
 
 
 
@@ -109,7 +109,7 @@ Specifies the number of
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is one of the following error codes or a value from <a href="https://msdn.microsoft.com/1fa41438-7c93-4e9c-851c-652fba23da4f">Routing and Remote Access Error Codes</a> or Winerror.h.
+If the function fails, the return value is one of the following error codes or a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 <table>
 <tr>
@@ -124,7 +124,7 @@ If the function fails, the return value is one of the following error codes or a
 </td>
 <td width="60%">
 The <b>dwSize</b> member of the 
-<a href="https://msdn.microsoft.com/a62a1e86-a433-44dd-8068-cb4d60b124c3">RASAUTODIALENTRY</a> structure is an invalid value.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376721(v=vs.85)">RASAUTODIALENTRY</a> structure is an invalid value.
 
 </td>
 </tr>
@@ -161,7 +161,7 @@ The connection name specified in <i>lpAutoDialEntries</i> does not exist.
 
 
 An address in the AutoDial mapping database can have any number of associated 
-<a href="https://msdn.microsoft.com/a62a1e86-a433-44dd-8068-cb4d60b124c3">RASAUTODIALENTRY</a> entries. Each entry specifies AutoDial information for a particular TAPI dialing location.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376721(v=vs.85)">RASAUTODIALENTRY</a> entries. Each entry specifies AutoDial information for a particular TAPI dialing location.
 
 If the address specified by the <i>lpszAddress</i> parameter is an existing address in the database and the <i>lpAutoDialEntries</i> parameter is not <b>NULL</b>, the 
 <b>RasSetAutodialAddress</b> function modifies the set of AutoDial entries associated with the address. If an entry in the <i>lpAutoDialEntries</i> array specifies a dialing location for which the address already has an entry, the function replaces the existing entry with the new entry. Otherwise, the function simply adds the <i>lpAutoDialEntries</i> entries to the set of entries for the address.
@@ -178,7 +178,7 @@ When the <i>lpszAddress</i> parameter is <b>NULL</b>, and the <i>lpAutoDialEntri
 
 When the <i>lpszAddress</i> parameter is a zero-length string and the <i>lpAutoDialEntries</i> parameter specifies an empty connection name with one entry, <b>RasSetAutodialAddress</b> deletes the default internet connection.
 
-On non-domain client machines, if a user wants to set a connection as the default internet connection and specifies a "for-all-users" connection in the <b>szEntry</b> member of the <a href="https://msdn.microsoft.com/a62a1e86-a433-44dd-8068-cb4d60b124c3">RASAUTODIALENTRY</a> structure, then the default internet connection is set globally on the local computer.  In all other cases the default internet connection is set for each user of the machine individually.
+On non-domain client machines, if a user wants to set a connection as the default internet connection and specifies a "for-all-users" connection in the <b>szEntry</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376721(v=vs.85)">RASAUTODIALENTRY</a> structure, then the default internet connection is set globally on the local computer.  In all other cases the default internet connection is set for each user of the machine individually.
 
 It is possible to have two connections that have the same name if one is configured as a "for-all-users" connection and the other is configured as a "for-me-only" connection. If the <i>lpAutoDialEntries</i> parameter specifies a connection name that corresponds to both a global and a per-user connection, the per-user connection is set.
 
@@ -190,23 +190,23 @@ It is possible to have two connections that have the same name if one is configu
 
 
 
-<a href="https://msdn.microsoft.com/a62a1e86-a433-44dd-8068-cb4d60b124c3">RASAUTODIALENTRY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376721(v=vs.85)">RASAUTODIALENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/bd4fb897-5cc0-452f-b6a2-ec0540c59b90">RasEnumAutodialAddresses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasenumautodialaddressesa">RasEnumAutodialAddresses</a>
 
 
 
-<a href="https://msdn.microsoft.com/b7182760-30c0-4c09-ae99-f656d868e150">RasGetAutodialAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetautodialaddressa">RasGetAutodialAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/5016fa0b-72eb-484e-b8d7-af9de2e25689">Remote Access Service (RAS) Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/5883a77a-6af8-47a8-bb28-6ef60a5aa2f1">Remote Access Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
  
 
  

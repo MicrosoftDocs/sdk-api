@@ -107,7 +107,7 @@ If the peer stays offline for an extended period of time, BITS removes the peer 
 
 
 
-<a href="https://msdn.microsoft.com/617b88d4-6c3e-4c33-9bfa-6d9f6f629866">IBitsPeer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ibitspeer">IBitsPeer</a>
  
 
  

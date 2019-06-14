@@ -199,7 +199,7 @@ Returns <b>ERROR_SUCCESS</b> (zero) if the call was successful, and a nonzero va
 
 
 
-<a href="https://msdn.microsoft.com/eae96a9e-ced2-4e13-b250-33c5acbbae48">Power Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
  
 
  

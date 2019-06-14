@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>Info</b> method fills and returns an <a href="https://msdn.microsoft.com/dca6d9ca-a825-4bd0-a19d-0655d775fdfb">AVISTREAMINFO</a> structure with information about a stream. Called when an application uses the <a href="https://msdn.microsoft.com/7a1ba29b-e8ba-435d-a551-c9184631971c">AVIStreamInfo</a> function.
+The <b>Info</b> method fills and returns an <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-_avistreaminfoa">AVISTREAMINFO</a> structure with information about a stream. Called when an application uses the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avistreaminfoa">AVIStreamInfo</a> function.
 
 
 
@@ -63,7 +63,7 @@ The <b>Info</b> method fills and returns an <a href="https://msdn.microsoft.com/
 
 ### -param psi
 
-Pointer to an <a href="https://msdn.microsoft.com/dca6d9ca-a825-4bd0-a19d-0655d775fdfb">AVISTREAMINFO</a> structure to contain stream information.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-_avistreaminfoa">AVISTREAMINFO</a> structure to contain stream information.
 
 
 ### -param lSize
@@ -110,11 +110,11 @@ HRESULT Info(AVIFILEINFO *psi, LONG lSize)
 
 
 
-<a href="https://msdn.microsoft.com/ced6f7d1-5f27-47f4-a912-8c17ea5fa685">Custom File and Stream Handler Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/c61e0118-d405-4c1e-9ae8-ed6a145a5d6b">Custom File and Stream Handlers</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
  
 
  

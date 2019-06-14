@@ -145,7 +145,7 @@ Used by NPS user interface to mark whether an attribute is used in profiles for 
 
 ### -field PROPERTY_ATTRIBUTE_ENUM_FILTERS
 
-Used by filter configuration attributes <a href="https://msdn.microsoft.com/42a74deb-6d6e-493a-b9e0-d9549a5530d3">MS_ATTRIBUTE_FILTER</a> and <a href="https://msdn.microsoft.com/42a74deb-6d6e-493a-b9e0-d9549a5530d3">MS_ATTRIBUTE_QUARANTINE_IPFILTER</a>. See MS-Filter section in <a href="Http://go.microsoft.com/fwlink/p/?linkid=90366">RFC 2548</a> for more information.
+Used by filter configuration attributes <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_attributeid">MS_ATTRIBUTE_FILTER</a> and <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_attributeid">MS_ATTRIBUTE_QUARANTINE_IPFILTER</a>. See MS-Filter section in <a href="Http://go.microsoft.com/fwlink/p/?linkid=90366">RFC 2548</a> for more information.
 
 
 ## -remarks
@@ -153,7 +153,7 @@ Used by filter configuration attributes <a href="https://msdn.microsoft.com/42a7
 
 
 The 
-<a href="https://msdn.microsoft.com/47da09d8-9b45-4910-a6b1-1759c5000482">DICTIONARYPROPERTIES</a> enumeration type contains the attributes collection property, <b>PROPERTY_DICTIONARY_ATTRIBUTES_COLLECTION</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_dictionaryproperties">DICTIONARYPROPERTIES</a> enumeration type contains the attributes collection property, <b>PROPERTY_DICTIONARY_ATTRIBUTES_COLLECTION</b>.
 
 
 
@@ -163,15 +163,15 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/42a74deb-6d6e-493a-b9e0-d9549a5530d3">ATTRIBUTEID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_attributeid">ATTRIBUTEID</a>
 
 
 
-<a href="https://msdn.microsoft.com/50d56c43-6552-4bb0-a204-a0cfc3ee7202">ATTRIBUTESYNTAX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_attributesyntax">ATTRIBUTESYNTAX</a>
 
 
 
-<a href="https://msdn.microsoft.com/47da09d8-9b45-4910-a6b1-1759c5000482">DICTIONARYPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_dictionaryproperties">DICTIONARYPROPERTIES</a>
  
 
  

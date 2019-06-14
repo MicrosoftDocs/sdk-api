@@ -59,7 +59,7 @@ To use this interface, you must create a remoted instance of the Windows Media P
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPSyncDevice</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMPSyncDevice</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPSyncDevice</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPSyncDevice</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IWMPSyncDevice</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563716(v=VS.85).aspx">createPartnership</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-createpartnership">createPartnership</a>
 </td>
 <td align="left" width="63%">
 Creates a partnership between Windows Media Player and the device.
@@ -83,7 +83,7 @@ Creates a partnership between Windows Media Player and the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563717(v=VS.85).aspx">deletePartnership</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-deletepartnership">deletePartnership</a>
 </td>
 <td align="left" width="63%">
 Terminates the partnership between Windows Media Player and the device.
@@ -92,7 +92,7 @@ Terminates the partnership between Windows Media Player and the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563719(v=VS.85).aspx">get_connected</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_connected">get_connected</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether the device is connected to Windows Media Player.
@@ -101,7 +101,7 @@ Retrieves a value indicating whether the device is connected to Windows Media Pl
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563720(v=VS.85).aspx">get_deviceId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_deviceid">get_deviceId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device identifier string.
@@ -110,7 +110,7 @@ Retrieves the device identifier string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563721(v=VS.85).aspx">get_deviceName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_devicename">get_deviceName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the device.
@@ -119,7 +119,7 @@ Retrieves the name of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563722(v=VS.85).aspx">get_friendlyName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_friendlyname">get_friendlyName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the user-defined name of the device.
@@ -128,7 +128,7 @@ Retrieves the user-defined name of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a7f04b97-8a09-4feb-b776-649aa9d6f407">get_partnershipIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_partnershipindex">get_partnershipIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves the index of the device partnership.
@@ -137,7 +137,7 @@ Retrieves the index of the device partnership.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563724(v=VS.85).aspx">get_progress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_progress">get_progress</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating the synchronization progress as percent complete.
@@ -146,7 +146,7 @@ Retrieves a value indicating the synchronization progress as percent complete.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563741(v=VS.85).aspx">get_status</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_status">get_status</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating the status of the relationship between Windows Media Player and the device.
@@ -155,7 +155,7 @@ Retrieves a value indicating the status of the relationship between Windows Medi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563742(v=VS.85).aspx">get_syncState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_syncstate">get_syncState</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating the current synchronization state for the device.
@@ -164,7 +164,7 @@ Retrieves a value indicating the current synchronization state for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563718(v=VS.85).aspx">getItemInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-getiteminfo">getItemInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves a metadata value from the device.
@@ -173,7 +173,7 @@ Retrieves a metadata value from the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563743(v=VS.85).aspx">isIdentical</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-isidentical">isIdentical</a>
 </td>
 <td align="left" width="63%">
 Compares the device to the specified device and retrieves a value indicating whether they are the same device.
@@ -182,7 +182,7 @@ Compares the device to the specified device and retrieves a value indicating whe
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563744(v=VS.85).aspx">put_friendlyName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-put_friendlyname">put_friendlyName</a>
 </td>
 <td align="left" width="63%">
 Specifies the user defined name of the device.
@@ -191,7 +191,7 @@ Specifies the user defined name of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563745(v=VS.85).aspx">showSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-showsettings">showSettings</a>
 </td>
 <td align="left" width="63%">
 Displays the Windows Media Player synchronization settings dialog box.
@@ -200,7 +200,7 @@ Displays the Windows Media Player synchronization settings dialog box.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563746(v=VS.85).aspx">start</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-start">start</a>
 </td>
 <td align="left" width="63%">
 Begins synchronization.
@@ -209,7 +209,7 @@ Begins synchronization.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563747(v=VS.85).aspx">stop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-stop">stop</a>
 </td>
 <td align="left" width="63%">
 Ends synchronization.
@@ -218,7 +218,7 @@ Ends synchronization.
 </tr>
 </table> 
 
-Retrieve a pointer to <b>IWMPSyncDevice</b> by calling  <a href="https://msdn.microsoft.com/en-us/library/Dd563749(v=VS.85).aspx">IWMPSyncServices::getDevice</a>.
+Retrieve a pointer to <b>IWMPSyncDevice</b> by calling  <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncservices-getdevice">IWMPSyncServices::getDevice</a>.
 
 	
 
@@ -228,11 +228,11 @@ Retrieve a pointer to <b>IWMPSyncDevice</b> by calling  <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/68a0bdaf-ae1b-4ba1-817b-a31c68b9fddd">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/d543b2a0-a2cb-47e2-b50e-4513fc061b46">Remoting the Windows Media Player Control</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>
  
 
  

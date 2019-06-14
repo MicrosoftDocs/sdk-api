@@ -119,7 +119,7 @@ Returns zero if successful or an error otherwise.
 
 
 
-Applications should not call any system-defined functions from inside a callback function, except for <b>PostMessage</b>, <a href="https://msdn.microsoft.com/57871ada-d2b7-48a9-bed0-3780b836c77a">timeGetSystemTime</a>, <a href="https://msdn.microsoft.com/f9d3a7a9-1457-4993-92f1-f888780a565e">timeGetTime</a>, <a href="https://msdn.microsoft.com/466fc196-a2bf-4fad-80bc-c18013d1c860">timeSetEvent</a>, <a href="https://msdn.microsoft.com/6b1d5163-359e-426f-9edc-3936accc57ee">timeKillEvent</a>, <a href="https://msdn.microsoft.com/b46d342a-7bfc-495a-98d3-e0c93ae4fd59">midiOutShortMsg</a>, <a href="https://msdn.microsoft.com/7fda802b-eed5-4a27-8bc0-1f43f4722d33">midiOutLongMsg</a>, and <b>OutputDebugStr</b>.
+Applications should not call any system-defined functions from inside a callback function, except for <b>PostMessage</b>, <a href="https://docs.microsoft.com/windows/desktop/api/timeapi/nf-timeapi-timegetsystemtime">timeGetSystemTime</a>, <a href="https://docs.microsoft.com/windows/desktop/api/timeapi/nf-timeapi-timegettime">timeGetTime</a>, <a href="https://docs.microsoft.com/previous-versions//dd757634(v=vs.85)">timeSetEvent</a>, <a href="https://docs.microsoft.com/previous-versions//dd757630(v=vs.85)">timeKillEvent</a>, <a href="https://docs.microsoft.com/previous-versions//dd798481(v=vs.85)">midiOutShortMsg</a>, <a href="https://docs.microsoft.com/previous-versions//dd798474(v=vs.85)">midiOutLongMsg</a>, and <b>OutputDebugStr</b>.
 
 
 
@@ -129,11 +129,11 @@ Applications should not call any system-defined functions from inside a callback
 
 
 
-<a href="https://msdn.microsoft.com/da207a50-9c67-4cf3-920b-5878637060db">Audio Compression Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f9a4540-86c0-40e6-b4da-24a9d31b56bf">Audio Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
  
 
  

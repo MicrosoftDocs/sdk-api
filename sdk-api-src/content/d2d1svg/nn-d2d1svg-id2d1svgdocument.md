@@ -54,7 +54,7 @@ Represents an SVG document.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1SvgDocument</b> interface inherits from <a href="https://msdn.microsoft.com/8f19e74a-f010-4082-a4da-d1dc3cfe3192">ID2D1Resource</a>. <b>ID2D1SvgDocument</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1SvgDocument</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1SvgDocument</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1SvgDocument</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt492668(v=VS.85).aspx">CreatePaint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-createpaint">CreatePaint</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates a paint object which can be used to set the 'fill' or 'stroke' properties.
 
@@ -77,7 +77,7 @@ The <b>ID2D1SvgDocument</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3BF28252-AC33-4B16-9A72-2838006C4A21">CreatePathData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgdocument-createpathdata">CreatePathData</a>
 </td>
 <td align="left" width="63%">
 Creates a path data object which can be used to set a 'd' attribute on a 'path' element.
@@ -86,7 +86,7 @@ Creates a path data object which can be used to set a 'd' attribute on a 'path' 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A7AB02F2-32B0-4FF5-8A3A-CE7A6AD9DB57">CreatePointCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgdocument-createpointcollection">CreatePointCollection</a>
 </td>
 <td align="left" width="63%">
 Creates a points object which can be used to set a points attribute on a polygon or polyline element.
@@ -95,7 +95,7 @@ Creates a points object which can be used to set a points attribute on a polygon
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/559330E4-A0B9-437A-AD83-02C9409B5BE2">CreateStrokeDashArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgdocument-createstrokedasharray">CreateStrokeDashArray</a>
 </td>
 <td align="left" width="63%">
 Creates a dash array object which can be used to set the stroke-dasharray property.
@@ -104,7 +104,7 @@ Creates a dash array object which can be used to set the stroke-dasharray proper
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/576A1D80-3FB5-4495-85CD-2E1DDBCA1C99">Deserialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgdocument-deserialize">Deserialize</a>
 </td>
 <td align="left" width="63%">
 Deserializes a subtree from the stream. The stream must have only one root element, but that root element need not be an 'svg' element.
@@ -115,7 +115,7 @@ Deserializes a subtree from the stream. The stream must have only one root eleme
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B4E4EE0E-0A2B-479A-B101-AC9DF8546A4F">FindElementById</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgdocument-findelementbyid">FindElementById</a>
 </td>
 <td align="left" width="63%">
 Gets the SVG element with the specified ID. 
@@ -124,7 +124,7 @@ Gets the SVG element with the specified ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/01E11639-7564-41F4-BFA4-28B05FC50583">GetRoot</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgdocument-getroot">GetRoot</a>
 </td>
 <td align="left" width="63%">
 Gets the root element of the document.
@@ -133,7 +133,7 @@ Gets the root element of the document.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3CE19841-86BD-4122-B2B0-F4F3A530523D">GetViewportSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgdocument-getviewportsize">GetViewportSize</a>
 </td>
 <td align="left" width="63%">
 Returns the size of the initial viewport.
@@ -142,7 +142,7 @@ Returns the size of the initial viewport.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/799E975A-F3BF-4832-AE51-DA064E5C698E">Serialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgdocument-serialize">Serialize</a>
 </td>
 <td align="left" width="63%">
 Serializes an element and its subtree to XML. The output XML is encoded as UTF-8.
@@ -151,7 +151,7 @@ Serializes an element and its subtree to XML. The output XML is encoded as UTF-8
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/076DC8F7-E358-484D-A567-60E80F9D2FC3">SetRoot</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgdocument-setroot">SetRoot</a>
 </td>
 <td align="left" width="63%">
 Sets the root element of the document.
@@ -160,7 +160,7 @@ Sets the root element of the document.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2915630B-A76B-40E7-8586-B0B0EFD30780">SetViewportSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgdocument-setviewportsize">SetViewportSize</a>
 </td>
 <td align="left" width="63%">
 Sets the size of the initial viewport.

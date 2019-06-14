@@ -52,8 +52,8 @@ ms.custom: 19H1
 
 
 The <b>EXPLICIT_ACCESS</b> structure defines access control information for a specified trustee. Access control functions, such as 
-<a href="https://msdn.microsoft.com/05960fc1-1ad2-4c19-a65c-62259af5e18c">SetEntriesInAcl</a> and 
-<a href="https://msdn.microsoft.com/186aa6aa-efc3-4f8a-acad-e257da3dac0b">GetExplicitEntriesFromAcl</a>, use this structure to describe the information in an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entry</a>(ACE) of an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control list</a> (ACL).
+<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setentriesinacla">SetEntriesInAcl</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getexplicitentriesfromacla">GetExplicitEntriesFromAcl</a>, use this structure to describe the information in an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a>(ACE) of an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL).
 
 
 ## -struct-fields
@@ -64,13 +64,13 @@ The <b>EXPLICIT_ACCESS</b> structure defines access control information for a sp
 ### -field grfAccessPermissions
 
 A set of bit flags that use the 
-<a href="https://msdn.microsoft.com/f115ee54-3333-4109-8004-d71904a7a943">ACCESS_MASK</a> format to specify the access rights that an ACE allows, denies, or audits for the trustee. The functions that use the <b>EXPLICIT_ACCESS</b> structure do not convert, interpret, or validate the bits in this mask.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a> format to specify the access rights that an ACE allows, denies, or audits for the trustee. The functions that use the <b>EXPLICIT_ACCESS</b> structure do not convert, interpret, or validate the bits in this mask.
 
 
 ### -field grfAccessMode
 
 A value from the 
-<a href="https://msdn.microsoft.com/52d1b3a3-eed5-4603-9056-520320da2a52">ACCESS_MODE</a> enumeration. For a <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">discretionary access control list</a> (DACL), this flag indicates whether the ACL allows or denies the specified access rights. For a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">system access control list</a> (SACL), this flag indicates whether the ACL generates audit messages for successful attempts to use the specified access rights, or failed attempts, or both. When modifying an existing ACL, you can specify the REVOKE_ACCESS flag to remove any existing ACEs for the specified trustee.
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_access_mode">ACCESS_MODE</a> enumeration. For a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL), this flag indicates whether the ACL allows or denies the specified access rights. For a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL), this flag indicates whether the ACL generates audit messages for successful attempts to use the specified access rights, or failed attempts, or both. When modifying an existing ACL, you can specify the REVOKE_ACCESS flag to remove any existing ACEs for the specified trustee.
 
 
 ### -field grfInheritance
@@ -78,7 +78,7 @@ A value from the
 A set of bit flags that determines whether other containers or objects can inherit the 
 ACE from the primary object to which the 
 ACL is attached. The value of this member corresponds to the inheritance portion (low-order byte) of the <b>AceFlags</b> member of the 
-<a href="https://msdn.microsoft.com/d23f15d6-0453-4aaf-a2db-7528b551a992">ACE_HEADER</a> structure. This parameter can be NO_INHERITANCE to indicate that the ACE is not inheritable; or it can be a combination of the following values.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a> structure. This parameter can be NO_INHERITANCE to indicate that the ACE is not inheritable; or it can be a combination of the following values.
 
 <table>
 <tr>
@@ -191,7 +191,7 @@ Noncontainer objects contained by the primary object inherit the ACE. This flag 
 
 ### -field Trustee
 
-A <a href="https://msdn.microsoft.com/120e93eb-680f-4f86-879d-bc2de10d4641">TRUSTEE</a> structure that identifies the user, group, or program (such as a Windows service) to which the ACE applies.
+A <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a> structure that identifies the user, group, or program (such as a Windows service) to which the ACE applies.
 
 
 ## -see-also
@@ -199,47 +199,47 @@ A <a href="https://msdn.microsoft.com/120e93eb-680f-4f86-879d-bc2de10d4641">TRUS
 
 
 
-<a href="https://msdn.microsoft.com/f115ee54-3333-4109-8004-d71904a7a943">ACCESS_MASK</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a>
 
 
 
-<a href="https://msdn.microsoft.com/52d1b3a3-eed5-4603-9056-520320da2a52">ACCESS_MODE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_access_mode">ACCESS_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/980b8242-2ba2-469f-b834-da7d3fb22e14">ACE</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/ace">ACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/d23f15d6-0453-4aaf-a2db-7528b551a992">ACE_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/0073659f-c4d5-4aaf-aaa6-ea596d3bd8b9">ACL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f12db19-63cf-4be6-9450-3c36e425967b">BuildExplicitAccessWithName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-buildexplicitaccesswithnamea">BuildExplicitAccessWithName</a>
 
 
 
-<a href="https://msdn.microsoft.com/becc1218-5bc3-4ab2-86f8-3ebd10e16966">BuildSecurityDescriptor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-buildsecuritydescriptora">BuildSecurityDescriptor</a>
 
 
 
-<a href="https://msdn.microsoft.com/186aa6aa-efc3-4f8a-acad-e257da3dac0b">GetExplicitEntriesFromAcl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getexplicitentriesfromacla">GetExplicitEntriesFromAcl</a>
 
 
 
-<a href="https://msdn.microsoft.com/68c3f56b-6c48-4f4b-bd38-9f4e346c663b">LookupSecurityDescriptorParts</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-lookupsecuritydescriptorpartsa">LookupSecurityDescriptorParts</a>
 
 
 
-<a href="https://msdn.microsoft.com/05960fc1-1ad2-4c19-a65c-62259af5e18c">SetEntriesInAcl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setentriesinacla">SetEntriesInAcl</a>
 
 
 
-<a href="https://msdn.microsoft.com/120e93eb-680f-4f86-879d-bc2de10d4641">TRUSTEE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a>
  
 
  

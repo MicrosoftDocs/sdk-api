@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>SAFER_CODE_PROPERTIES_V1</b> structure contains code image information and criteria to be checked on the code image. An array of <b>SAFER_CODE_PROPERTIES_V1</b> structures is passed to the 
-<a href="https://msdn.microsoft.com/f82c4f40-5c37-4f97-95a2-4b2cc26bf41e">SaferIdentifyLevel</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsafer/nf-winsafer-saferidentifylevel">SaferIdentifyLevel</a> function.
 			
 		
 			
@@ -206,7 +206,7 @@ The memory block that contains the image of the code being checked. This member 
 
 ### -field hWndParent
 
-The arguments used for Authenticode signer certificate verification. These arguments are passed to the <a href="https://msdn.microsoft.com/b7efac6a-ac9f-477a-aada-63fe32208e6f">WinVerifyTrust</a> function and control the UI that prompts the user to accept or reject entrusted certificates.
+The arguments used for Authenticode signer certificate verification. These arguments are passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> function and control the UI that prompts the user to accept or reject entrusted certificates.
 
 
 ### -field dwWVTUIChoice
@@ -272,7 +272,7 @@ Display UI only if an error occurs.
 
 
 
-<a href="https://msdn.microsoft.com/039a37a9-1744-4cff-919e-e0da50d7b291">SAFER_CODE_PROPERTIES</a>  was redefined to include additional members that allow Windows Store app to use the structure. Check the <b>cbSize</b> member for the appropriate size of the structure and for whether you should use the <b>SAFER_CODE_PROPERTIES</b> structure or the <b>SAFER_CODE_PROPERTIES_V1</b> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-_safer_code_properties_v2">SAFER_CODE_PROPERTIES</a>  was redefined to include additional members that allow Windows Store app to use the structure. Check the <b>cbSize</b> member for the appropriate size of the structure and for whether you should use the <b>SAFER_CODE_PROPERTIES</b> structure or the <b>SAFER_CODE_PROPERTIES_V1</b> structure.
 
 
 

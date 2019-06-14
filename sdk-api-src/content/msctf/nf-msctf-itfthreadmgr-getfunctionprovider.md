@@ -91,7 +91,7 @@ Obtains the function provider implemented by the current application. This objec
 
 ### -param ppFuncProv [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/e63fd561-1157-49b1-a981-e578d9538876">ITfFunctionProvider</a> interface that receives the function provider.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itffunctionprovider">ITfFunctionProvider</a> interface that receives the function provider.
 
 
 ## -returns
@@ -148,7 +148,7 @@ GUID_SYSTEM_FUNCTIONPROVIDER was requested, but cannot be obtained.
 
 
 
-A function provider registers by calling the TSF manager <a href="https://msdn.microsoft.com/d9231f36-24c4-4d46-97e7-518f5fcc1ce2">ITfSourceSingle::AdviseSingleSink</a> method with IID_ITfFunctionProvider.
+A function provider registers by calling the TSF manager <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsourcesingle-advisesinglesink">ITfSourceSingle::AdviseSingleSink</a> method with IID_ITfFunctionProvider.
 
 
 
@@ -158,21 +158,21 @@ A function provider registers by calling the TSF manager <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/e63fd561-1157-49b1-a981-e578d9538876">ITfFunctionProvider
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itffunctionprovider">ITfFunctionProvider
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/d9231f36-24c4-4d46-97e7-518f5fcc1ce2">ITfSourceSingle::AdviseSingleSink
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsourcesingle-advisesinglesink">ITfSourceSingle::AdviseSingleSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/3a2ba59c-3565-4f54-ac10-923dcb4882cb">ITfThreadMgr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr</a>
 
 
 
-<a href="https://msdn.microsoft.com/6581cd4d-75ad-4a2c-a919-8e2eed6b3939">ITfThreadMgr::EnumFunctionProviders
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-enumfunctionproviders">ITfThreadMgr::EnumFunctionProviders
       </a>
  
 

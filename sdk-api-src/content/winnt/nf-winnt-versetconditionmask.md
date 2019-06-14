@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 
 Sets the bits of a 64-bit value to indicate the comparison operator to use for a specified operating system version attribute. This function is used to build the <i>dwlConditionMask</i> parameter of the 
-<a href="https://msdn.microsoft.com/791bc6bf-f486-4110-b6ea-30a0935040b2">VerifyVersionInfo</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a> function.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ Sets the bits of a 64-bit value to indicate the comparison operator to use for a
 ### -param ConditionMask [in]
 
 A value to be passed as the <i>dwlConditionMask</i> parameter of the 
-<a href="https://msdn.microsoft.com/791bc6bf-f486-4110-b6ea-30a0935040b2">VerifyVersionInfo</a> function. The function stores the comparison information in the bits of this variable. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a> function. The function stores the comparison information in the bits of this variable. 
 
 
 
@@ -80,8 +80,8 @@ Before the first call to <b>VerSetCondition</b>, initialize this variable to zer
 ### -param TypeMask [in]
 
 A mask that indicates the member of the 
-<a href="https://msdn.microsoft.com/4ab07a72-404d-459b-b061-b3b06b5db37e">OSVERSIONINFOEX</a> structure whose comparison operator is being set. This value corresponds to one of the bits specified in the <i>dwTypeMask</i> parameter for the 
-<a href="https://msdn.microsoft.com/791bc6bf-f486-4110-b6ea-30a0935040b2">VerifyVersionInfo</a> function. This parameter can be one of the following values.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_osversioninfoexa">OSVERSIONINFOEX</a> structure whose comparison operator is being set. This value corresponds to one of the bits specified in the <i>dwTypeMask</i> parameter for the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a> function. This parameter can be one of the following values.
 
 <table>
 <tr>
@@ -183,7 +183,7 @@ wSuiteMask
 ### -param Condition [in]
 
 The operator to be used for the comparison. The 
-<a href="https://msdn.microsoft.com/791bc6bf-f486-4110-b6ea-30a0935040b2">VerifyVersionInfo</a> function uses this operator to compare a specified attribute value to the corresponding value for the currently running system. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a> function uses this operator to compare a specified attribute value to the corresponding value for the currently running system. 
 
 
 
@@ -300,13 +300,13 @@ The function returns the condition mask value.
 
 
 Call this function once for each bit set in the <i>dwTypeMask</i> parameter of the 
-<a href="https://msdn.microsoft.com/791bc6bf-f486-4110-b6ea-30a0935040b2">VerifyVersionInfo</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a> function.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/f39c35ae-9be5-4a03-9079-6fcc63387f6b">Verifying the System Version</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/verifying-the-system-version">Verifying the System Version</a>.
 
 <div class="code"></div>
 
@@ -317,19 +317,19 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/4ab07a72-404d-459b-b061-b3b06b5db37e">OSVERSIONINFOEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_osversioninfoexa">OSVERSIONINFOEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/1a70b1d9-ed66-4201-9921-4e26e4001020">Operating System Version</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/operating-system-version">Operating System Version</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa7deebf-7dce-4147-8a15-1d7411aea0fa">System Information Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/791bc6bf-f486-4110-b6ea-30a0935040b2">VerifyVersionInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>FWPM_NET_EVENT_CLASSIFY_DROP0</b> structure contains information that describes a layer drop  failure.
-<div class="alert"><b>Note</b>  <b>FWPM_NET_EVENT_CLASSIFY_DROP0</b> is the specific implementation of FWPM_NET_EVENT_CLASSIFY_DROP used in Windows Vista. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://msdn.microsoft.com/2bc38e75-450e-4ad7-8954-ff339ae769f5">FWPM_NET_EVENT_CLASSIFY_DROP1</a> is available. For Windows 8, <a href="https://msdn.microsoft.com/1e018d6c-ed56-43f9-90b3-f2af42861617">FWPM_NET_EVENT_CLASSIFY_DROP2</a> is available. </div><div> </div>
+<div class="alert"><b>Note</b>  <b>FWPM_NET_EVENT_CLASSIFY_DROP0</b> is the specific implementation of FWPM_NET_EVENT_CLASSIFY_DROP used in Windows Vista. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop1_">FWPM_NET_EVENT_CLASSIFY_DROP1</a> is available. For Windows 8, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop2_">FWPM_NET_EVENT_CLASSIFY_DROP2</a> is available. </div><div> </div>
 
 ## -struct-fields
 
@@ -64,7 +64,7 @@ A LUID identifying the filter where the failure occurred.
 
 ### -field layerId
 
-Indicates the identifier of the filtering layer where the failure occurred.  For more information, see <a href="https://msdn.microsoft.com/3b2daef1-558b-4e3a-a98a-f4dfa80a29c0">Filtering Layer Identifiers</a>.
+Indicates the identifier of the filtering layer where the failure occurred.  For more information, see <a href="https://docs.microsoft.com/windows/desktop/FWP/management-filtering-layer-identifiers-">Filtering Layer Identifiers</a>.
 
 
 ## -see-also
@@ -72,7 +72,7 @@ Indicates the identifier of the filtering layer where the failure occurred.  For
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

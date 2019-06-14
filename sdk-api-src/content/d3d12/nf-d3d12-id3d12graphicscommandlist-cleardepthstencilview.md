@@ -59,7 +59,7 @@ Clears the depth-stencil resource.
 
 ### -param DepthStencilView [in]
 
-Type: <b><a href="https://msdn.microsoft.com/92451E4C-5E70-4015-8760-3F75066A44FD">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
 
 Describes the CPU descriptor handle that represents the start of the heap for the depth stencil to be cleared.
           
@@ -67,15 +67,15 @@ Describes the CPU descriptor handle that represents the start of the heap for th
 
 ### -param ClearFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/F66672BC-1610-43F2-BF39-5F498183E3A5">D3D12_CLEAR_FLAGS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_clear_flags">D3D12_CLEAR_FLAGS</a></b>
 
-A combination of <a href="https://msdn.microsoft.com/F66672BC-1610-43F2-BF39-5F498183E3A5">D3D12_CLEAR_FLAGS</a> values that are combined by using a bitwise OR operation. The resulting value identifies the type of data to clear (depth buffer, stencil buffer, or both).
+A combination of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_clear_flags">D3D12_CLEAR_FLAGS</a> values that are combined by using a bitwise OR operation. The resulting value identifies the type of data to clear (depth buffer, stencil buffer, or both).
           
 
 
 ### -param Depth [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 A value to clear the depth buffer with. This value will be clamped between 0 and 1.
           
@@ -91,7 +91,7 @@ A value to clear the stencil buffer with.
 
 ### -param NumRects [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The number of rectangles in the array that the <i>pRects</i> parameter specifies.
           
@@ -119,13 +119,13 @@ Returns nothing.
 
 
 
-<b>ClearDepthStencilView</b> may be used to initialize resources which alias the same heap memory. See <a href="https://msdn.microsoft.com/4581A82D-D2B6-4CAE-A336-07B8CF90A0BA">CreatePlacedResource</a> for more details.
+<b>ClearDepthStencilView</b> may be used to initialize resources which alias the same heap memory. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createplacedresource">CreatePlacedResource</a> for more details.
 
 <h3><a id="Runtime_validation"></a><a id="runtime_validation"></a><a id="RUNTIME_VALIDATION"></a>Runtime validation</h3>
 For floating-point inputs, the runtime will set denormalized values to 0 (while preserving NANs).
           
 
-Validation failure will result in the call to <a href="https://msdn.microsoft.com/EA9F00AD-8506-4F3C-871E-A51ED69005BB">Close</a> returning <b>E_INVALIDARG</b>.
+Validation failure will result in the call to <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close">Close</a> returning <b>E_INVALIDARG</b>.
           
 
 <h3><a id="Debug_layer"></a><a id="debug_layer"></a><a id="DEBUG_LAYER"></a>Debug layer</h3>
@@ -133,13 +133,13 @@ The debug layer will issue errors if the input colors are denormalized.
           
 
 The debug layer will issue an error if the subresources referenced by the view are not in the appropriate state.
-            For <b>ClearDepthStencilView</b>, the state must be in the state <a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATE_DEPTH_WRITE</a>.
+            For <b>ClearDepthStencilView</b>, the state must be in the state <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_DEPTH_WRITE</a>.
           
 
 
 #### Examples
 
-The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12Bundles</a> sample uses <b>ID3D12GraphicsCommandList::ClearDepthStencilView</b> as follows:
+The <a href="https://docs.microsoft.com/windows/desktop/direct3d12/working-samples">D3D12Bundles</a> sample uses <b>ID3D12GraphicsCommandList::ClearDepthStencilView</b> as follows:
         
 
 
@@ -221,7 +221,7 @@ void D3D12Bundles::PopulateCommandList(FrameResource* pFrameResource)
 ```
 
 
-The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12Multithreading</a> sample uses <b>ID3D12GraphicsCommandList::ClearDepthStencilView</b> as follows:
+The <a href="https://docs.microsoft.com/windows/desktop/direct3d12/working-samples">D3D12Multithreading</a> sample uses <b>ID3D12GraphicsCommandList::ClearDepthStencilView</b> as follows:
         
 
 
@@ -283,7 +283,7 @@ void D3D12Multithreading::MidFrame()
 ```
 
 
-See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
+See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
         
 
 <div class="code"></div>
@@ -295,7 +295,7 @@ See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Ex
 
 
 
-<a href="https://msdn.microsoft.com/1BF282A7-F6D4-43A9-BDAD-D877564A1C6B">ID3D12GraphicsCommandList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
  
 
  

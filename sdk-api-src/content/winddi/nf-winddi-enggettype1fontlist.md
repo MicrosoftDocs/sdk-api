@@ -59,12 +59,12 @@ The <b>EngGetType1FontList</b> function retrieves a list of PostScript Type 1 fo
 
 ### -param hdev [in]
 
-Handle to the device. This is the GDI handle received by the driver as the <i>hdev</i> parameter for <a href="https://msdn.microsoft.com/6343c6cc-f2f3-4776-a747-7a5b5cebef5f">DrvCompletePDEV</a>.
+Handle to the device. This is the GDI handle received by the driver as the <i>hdev</i> parameter for <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvcompletepdev">DrvCompletePDEV</a>.
 
 
 ### -param pType1Buffer [out, optional]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/c852a814-3ebc-4688-aa42-c99b0ee63918">TYPE1_FONT</a> structures in which to store the Type 1 font list. This parameter can be <b>NULL</b>.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_type1_font">TYPE1_FONT</a> structures in which to store the Type 1 font list. This parameter can be <b>NULL</b>.
 
 
 ### -param cjType1Buffer [in]
@@ -112,7 +112,7 @@ If <i>pType1Buffer</i> is <b>NULL</b>, <b>EngGetType1FontList</b> returns only t
 
 
 
-<a href="https://msdn.microsoft.com/c852a814-3ebc-4688-aa42-c99b0ee63918">TYPE1_FONT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_type1_font">TYPE1_FONT</a>
  
 
  

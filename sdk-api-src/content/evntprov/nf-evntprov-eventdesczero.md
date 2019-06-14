@@ -59,7 +59,7 @@ Initializes an event descriptor to zero.
 
 ### -param EventDescriptor [out]
 
-The event descriptor. See <a href="https://msdn.microsoft.com/907e6c38-5eaa-49da-9dc0-d055dcc69d1a">EVENT_DESCRIPTOR</a>.
+The event descriptor. See <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_descriptor">EVENT_DESCRIPTOR</a>.
 
 
 ## -returns
@@ -75,7 +75,7 @@ This function does not return a value.
 
 
 
-This is a convenience macro for initializing the memory of the <a href="https://msdn.microsoft.com/907e6c38-5eaa-49da-9dc0-d055dcc69d1a">EVENT_DESCRIPTOR</a> structure to zero.
+This is a convenience macro for initializing the memory of the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_descriptor">EVENT_DESCRIPTOR</a> structure to zero.
 
 
 
@@ -85,7 +85,7 @@ This is a convenience macro for initializing the memory of the <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/907e6c38-5eaa-49da-9dc0-d055dcc69d1a">EVENT_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_descriptor">EVENT_DESCRIPTOR</a>
  
 
  

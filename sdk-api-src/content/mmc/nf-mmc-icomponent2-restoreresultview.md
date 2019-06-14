@@ -51,10 +51,10 @@ ms.custom: 19H1
 
 The 
 <b>RestoreResultView</b> method restores the result view. This method enables a snap-in to restore snap-in-specific details of a result view. For more information, see 
-<a href="https://msdn.microsoft.com/dee09c50-76f1-4186-846c-1cde3d05fd03">Restoring Result Views</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/restoring-result-views">Restoring Result Views</a>.
 
 This method supersedes the use of the 
-<a href="https://msdn.microsoft.com/5b6c6d7c-af9f-4773-b9b1-1e11f4a1c1f8">MMCN_RESTORE_VIEW</a> notification.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-restore-view">MMCN_RESTORE_VIEW</a> notification.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A value that specifies the unique identifier whose result view will be restored.
 ### -param pResultViewType [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/50357902-6999-4d65-8e12-81277b66d5ee">RESULT_VIEW_TYPE_INFO</a> structure for the result view.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_result_view_type_info">RESULT_VIEW_TYPE_INFO</a> structure for the result view.
 
 
 ## -returns
@@ -87,9 +87,9 @@ If successful, the return value is S_OK. The snap-in can return S_FALSE to preve
 
 
 The <b>pstrPersistableViewDescription</b> member of *<i>pResultViewType</i> specifies the name assigned to the result view.  To restore the result view identified by the <b>pstrPersistableViewDescription</b> member, the snap-in fills in the remaining members of *<i>pResultViewType</i>. The name of the result view is originally assigned during the snap-in's implementation of 
-<a href="https://msdn.microsoft.com/687ddb0a-6e10-4553-9885-fd85bf8dd6ff">IComponent2::GetResultViewType2</a>. MMC calls <b>IComponent2::RestoreResultView</b> so that the snap-in can restore internal view settings when the result view is revisited by the user.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent2-getresultviewtype2">IComponent2::GetResultViewType2</a>. MMC calls <b>IComponent2::RestoreResultView</b> so that the snap-in can restore internal view settings when the result view is revisited by the user.
 
-When the user customizes the view, some of the settings (such as view options or view mode) are known by MMC, and some (such as <b>Oldest First</b> in the Event Viewer snap-in) are internal to the snap-in. Prior to MMC 2.0, there was no mechanism for MMC to communicate to the snap-in to restore the internal view settings. The <a href="https://msdn.microsoft.com/687ddb0a-6e10-4553-9885-fd85bf8dd6ff">IComponent2::GetResultViewType2</a> and <b>IComponent2::RestoreResultView</b> methods in MMC 2.0, however, provide the mechanism whereby internal view settings are restored. The snap-in persists internal view settings against the <b>pstrPersistableViewDescription</b> member of the <a href="https://msdn.microsoft.com/50357902-6999-4d65-8e12-81277b66d5ee">RESULT_VIEW_TYPE_INFO</a> structure. When MMC calls <b>IComponent2::RestoreResultView</b> to restore the result view, the snap-in uses the persisted settings to complete the view restoration.
+When the user customizes the view, some of the settings (such as view options or view mode) are known by MMC, and some (such as <b>Oldest First</b> in the Event Viewer snap-in) are internal to the snap-in. Prior to MMC 2.0, there was no mechanism for MMC to communicate to the snap-in to restore the internal view settings. The <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent2-getresultviewtype2">IComponent2::GetResultViewType2</a> and <b>IComponent2::RestoreResultView</b> methods in MMC 2.0, however, provide the mechanism whereby internal view settings are restored. The snap-in persists internal view settings against the <b>pstrPersistableViewDescription</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_result_view_type_info">RESULT_VIEW_TYPE_INFO</a> structure. When MMC calls <b>IComponent2::RestoreResultView</b> to restore the result view, the snap-in uses the persisted settings to complete the view restoration.
 
 The user revisits the result view by pressing the MMC <b>Back/Forward</b> buttons or loading a saved console file.
 
@@ -101,15 +101,15 @@ The user revisits the result view by pressing the MMC <b>Back/Forward</b> button
 
 
 
-<a href="https://msdn.microsoft.com/687ddb0a-6e10-4553-9885-fd85bf8dd6ff">IComponent2::GetResultViewType2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent2-getresultviewtype2">IComponent2::GetResultViewType2</a>
 
 
 
-<a href="https://msdn.microsoft.com/50357902-6999-4d65-8e12-81277b66d5ee">RESULT_VIEW_TYPE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_result_view_type_info">RESULT_VIEW_TYPE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/dee09c50-76f1-4186-846c-1cde3d05fd03">Restoring Result Views</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/restoring-result-views">Restoring Result Views</a>
  
 
  

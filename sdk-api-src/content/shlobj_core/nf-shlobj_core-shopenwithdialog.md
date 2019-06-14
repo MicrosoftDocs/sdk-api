@@ -68,9 +68,9 @@ The handle of the parent window. This value can be <b>NULL</b>.
 
 ### -param poainfo [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/5486c4d3-c6c5-459d-aa7f-426971184876">OPENASINFO</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_openasinfo">OPENASINFO</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/5486c4d3-c6c5-459d-aa7f-426971184876">OPENASINFO</a> structure, which specifies the contents of the resulting dialog.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_openasinfo">OPENASINFO</a> structure, which specifies the contents of the resulting dialog.
 
 
 ## -returns

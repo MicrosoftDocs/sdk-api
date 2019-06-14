@@ -59,12 +59,12 @@ Gets a service identifier from a specified service record in an Integrated Servi
 
 ### -param bRecordIndex [in]
 
-Zero-based index of the descriptor to return. To get the number of descriptors, call <a href="https://msdn.microsoft.com/97e0d307-f41d-44e3-8f42-d00fecbcd61e">IIsdbTSInformationDescriptor::GetCountOfRecords</a>.
+Zero-based index of the descriptor to return. To get the number of descriptors, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbtsinformationdescriptor-getcountofrecords">IIsdbTSInformationDescriptor::GetCountOfRecords</a>.
 
 
 ### -param bServiceIndex [in]
 
-Zero-based index of the service identifier to return. To get the number of identifiers, call <a href="https://msdn.microsoft.com/bf9ec856-951e-4a75-a136-9fa6eaf9e8cd">IIsdbTSInformationDescriptor::GetRecordNumberOfServices</a>.
+Zero-based index of the service identifier to return. To get the number of identifiers, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbtsinformationdescriptor-getrecordnumberofservices">IIsdbTSInformationDescriptor::GetRecordNumberOfServices</a>.
 
 
 ### -param pdwVal [out]
@@ -86,15 +86,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/3c8cd33c-5c2a-48a4-9e8a-f7dd03560848">IIsdbTSInformationDescriptor</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbtsinformationdescriptor">IIsdbTSInformationDescriptor</a>
 
 
 
-<a href="https://msdn.microsoft.com/97e0d307-f41d-44e3-8f42-d00fecbcd61e">IIsdbTSInformationDescriptor::GetCountOfRecords</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbtsinformationdescriptor-getcountofrecords">IIsdbTSInformationDescriptor::GetCountOfRecords</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf9ec856-951e-4a75-a136-9fa6eaf9e8cd">IIsdbTSInformationDescriptor::GetRecordNumberOfServices</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbtsinformationdescriptor-getrecordnumberofservices">IIsdbTSInformationDescriptor::GetRecordNumberOfServices</a>
  
 
  

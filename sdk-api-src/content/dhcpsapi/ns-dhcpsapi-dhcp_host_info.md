@@ -60,7 +60,7 @@ The <b>DHCP_HOST_INFO</b> structure defines information on a DHCP server (host).
 ### -field IpAddress
 
 
-<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_ADDRESS</a> value that contains the IP address of the DHCP server.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that contains the IP address of the DHCP server.
 
 
 ### -field NetBiosName
@@ -87,7 +87,7 @@ When this structure is populated by the DHCP Server, the <b>HostName</b> and <b>
 
 
 
-<a href="https://msdn.microsoft.com/ea6df1bc-2d15-4a09-8100-ee17d3de34d9">DHCP_SUBNET_ELEMENT_DATA_V5</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_subnet_element_data_v5">DHCP_SUBNET_ELEMENT_DATA_V5</a>
  
 
  

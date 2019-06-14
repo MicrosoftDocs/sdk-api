@@ -105,11 +105,11 @@ The algorithm identifies objects within a sequence of video fields. Before it re
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd407362(v=VS.85).aspx">VMR9DeinterlaceCaps Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ns-vmr9-_vmr9deinterlacecaps">VMR9DeinterlaceCaps Structure</a>
  
 
  

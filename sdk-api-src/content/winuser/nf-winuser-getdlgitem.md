@@ -82,7 +82,7 @@ Type: <b>HWND</b>
 
 If the function succeeds, the return value is the window handle of the specified control. 
 
-If the function fails, the return value is <b>NULL</b>, indicating an invalid dialog box handle or a nonexistent control. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is <b>NULL</b>, indicating an invalid dialog box handle or a nonexistent control. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -91,12 +91,12 @@ If the function fails, the return value is <b>NULL</b>, indicating an invalid di
 
 
 
-You can use the <b>GetDlgItem</b> function with any parent-child window pair, not just with dialog boxes. As long as the <i>hDlg</i> parameter specifies a parent window and the child window has a unique identifier (as specified by the <i>hMenu</i> parameter in the <a href="https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx">CreateWindow</a> or <a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a> function that created the child window), <b>GetDlgItem</b> returns a valid handle to the child window. 
+You can use the <b>GetDlgItem</b> function with any parent-child window pair, not just with dialog boxes. As long as the <i>hDlg</i> parameter specifies a parent window and the child window has a unique identifier (as specified by the <i>hMenu</i> parameter in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> function that created the child window), <b>GetDlgItem</b> returns a valid handle to the child window. 
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644996(v=VS.85).aspx">Initializing a Dialog Box</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/using-dialog-boxes">Initializing a Dialog Box</a>.
 
 <div class="code"></div>
 
@@ -111,23 +111,23 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644996(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx">CreateWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632588(v=VS.85).aspx">Dialog Boxes</a>
+<a href="https://docs.microsoft.com/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645485(v=VS.85).aspx">GetDlgItemInt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdlgitemint">GetDlgItemInt</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645489(v=VS.85).aspx">GetDlgItemText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdlgitemtexta">GetDlgItemText</a>
 
 
 

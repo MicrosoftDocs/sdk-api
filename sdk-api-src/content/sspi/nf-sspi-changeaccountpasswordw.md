@@ -51,9 +51,9 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ChangeAccountPassword</b> function changes the password for a Windows domain account by using the specified <a href="https://msdn.microsoft.com/91d2389b-1238-49d3-9fef-f1017a8072df">Security Support Provider</a>.
+The <b>ChangeAccountPassword</b> function changes the password for a Windows domain account by using the specified <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi">Security Support Provider</a>.
 
-This function is supported only by the <a href="https://msdn.microsoft.com/e7870e72-1386-4818-bf6f-73430ae942a8">Microsoft Kerberos</a>, <a href="https://msdn.microsoft.com/3aa7e979-8b55-416d-bed1-28296055d38e">Microsoft Negotiate</a>, and <a href="https://msdn.microsoft.com/35a38858-d36f-45c9-95f4-2541a182f5ac">Microsoft NTLM</a> providers.
+This function is supported only by the <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/microsoft-kerberos">Microsoft Kerberos</a>, <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/microsoft-negotiate">Microsoft Negotiate</a>, and <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/microsoft-ntlm">Microsoft NTLM</a> providers.
 
 
 ## -parameters
@@ -98,7 +98,7 @@ Reserved. Must be set to zero.
 
 ### -param pOutput [in, out]
 
-On input, a pointer to a <a href="https://msdn.microsoft.com/fc6ef09c-3ba9-4bcb-a3c2-07422af8eaa9">SecBufferDesc</a> structure. The <b>SecBufferDesc</b> structure must contain a single buffer of type <b>SECBUFFER_CHANGE_PASS_RESPONSE</b>. On output, the <b>pvBuffer</b> member of that structure points to a <a href="https://msdn.microsoft.com/7dceaf70-d8de-47c0-b940-f0d6a0cca101">DOMAIN_PASSWORD_INFORMATION</a> structure.
+On input, a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbufferdesc">SecBufferDesc</a> structure. The <b>SecBufferDesc</b> structure must contain a single buffer of type <b>SECBUFFER_CHANGE_PASS_RESPONSE</b>. On output, the <b>pvBuffer</b> member of that structure points to a <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_domain_password_information">DOMAIN_PASSWORD_INFORMATION</a> structure.
 
 
 ## -returns

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <code>GetOutputFormat</code> method retrieves the <a href="https://msdn.microsoft.com/48fa5484-1f8c-4133-b2e1-888cb1834402">Line 21 Decoder</a> filter's output format.
+The <code>GetOutputFormat</code> method retrieves the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/line-21-decoder-filter">Line 21 Decoder</a> filter's output format.
 
 
 
@@ -63,7 +63,7 @@ The <code>GetOutputFormat</code> method retrieves the <a href="https://msdn.micr
 
 ### -param lpbmih
 
-Pointer to a caller-allocated <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure.
+Pointer to a caller-allocated <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader">BITMAPINFOHEADER</a> structure.
 
 
 ## -returns
@@ -121,11 +121,11 @@ The output format has not been set.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389385(v=VS.85).aspx">IAMLine21Decoder Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder">IAMLine21Decoder Interface</a>
  
 
  

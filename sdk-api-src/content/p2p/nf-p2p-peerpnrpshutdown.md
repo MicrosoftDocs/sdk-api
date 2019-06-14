@@ -103,7 +103,7 @@ There is not enough memory to perform the specified operation.
 
 
 
-<a href="https://msdn.microsoft.com/27d8d6ab-679d-4b7b-bf90-7b0859e7e048">PeerPnrpStartup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpstartup">PeerPnrpStartup</a>
  
 
  

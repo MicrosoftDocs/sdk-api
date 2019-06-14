@@ -60,25 +60,25 @@ Describes a static sampler.
 
 ### -field Filter
 
-The filtering method to use when sampling a texture, as a <a href="https://msdn.microsoft.com/3755A722-34E5-415E-8760-93094D033E05">D3D12_FILTER</a> enumeration constant.
+The filtering method to use when sampling a texture, as a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_filter">D3D12_FILTER</a> enumeration constant.
           
 
 
 ### -field AddressU
 
-Specifies the <a href="https://msdn.microsoft.com/7F67C8B6-1B01-49C0-9900-AFDBEDE5508F">D3D12_TEXTURE_ADDRESS_MODE</a> mode to use for resolving a <i>u</i> texture coordinate that is outside the 0 to 1 range.
+Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_texture_address_mode">D3D12_TEXTURE_ADDRESS_MODE</a> mode to use for resolving a <i>u</i> texture coordinate that is outside the 0 to 1 range.
          
 
 
 ### -field AddressV
 
-Specifies the <a href="https://msdn.microsoft.com/7F67C8B6-1B01-49C0-9900-AFDBEDE5508F">D3D12_TEXTURE_ADDRESS_MODE</a> mode to use for resolving a <i>v</i> texture coordinate that is outside the 0 to 1 range.
+Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_texture_address_mode">D3D12_TEXTURE_ADDRESS_MODE</a> mode to use for resolving a <i>v</i> texture coordinate that is outside the 0 to 1 range.
           
 
 
 ### -field AddressW
 
-Specifies the <a href="https://msdn.microsoft.com/7F67C8B6-1B01-49C0-9900-AFDBEDE5508F">D3D12_TEXTURE_ADDRESS_MODE</a> mode to use for resolving a <i>w</i> texture coordinate that is outside the 0 to 1 range.
+Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_texture_address_mode">D3D12_TEXTURE_ADDRESS_MODE</a> mode to use for resolving a <i>w</i> texture coordinate that is outside the 0 to 1 range.
           
 
 
@@ -97,13 +97,13 @@ Clamping value used if D3D12_FILTER_ANISOTROPIC or D3D12_FILTER_COMPARISON_ANISO
 ### -field ComparisonFunc
 
 A function that compares sampled data against existing sampled data. 
-            The function options are listed in <a href="https://msdn.microsoft.com/68223746-59B3-4FDD-B7EF-44557F1C46E3">D3D12_COMPARISON_FUNC</a>.
+            The function options are listed in <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_comparison_func">D3D12_COMPARISON_FUNC</a>.
           
 
 
 ### -field BorderColor
 
-One member of <a href="https://msdn.microsoft.com/E5D3E447-F1C7-4AAF-B9AB-829C33622E34">D3D12_STATIC_BORDER_COLOR</a>, the border color to use if D3D12_TEXTURE_ADDRESS_MODE_BORDER is specified for AddressU, AddressV, or AddressW. 
+One member of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_static_border_color">D3D12_STATIC_BORDER_COLOR</a>, the border color to use if D3D12_TEXTURE_ADDRESS_MODE_BORDER is specified for AddressU, AddressV, or AddressW. 
             Range must be between 0.0 and 1.0 inclusive.
           
 
@@ -142,7 +142,7 @@ See the description for <i>ShaderRegister</i>.
 
 ### -field ShaderVisibility
 
-Specifies the visibility of the sampler to the pipeline shaders, one member of <a href="https://msdn.microsoft.com/1D66344A-110E-4190-BC00-9F88F1A3F8FB">D3D12_SHADER_VISIBILITY</a>.
+Specifies the visibility of the sampler to the pipeline shaders, one member of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_shader_visibility">D3D12_SHADER_VISIBILITY</a>.
           
 
 
@@ -150,7 +150,7 @@ Specifies the visibility of the sampler to the pipeline shaders, one member of <
 
 
 
-Use this structure with the <a href="https://msdn.microsoft.com/D74D9D3B-96AB-489A-A91C-4F68AC3D05EE">D3D12_ROOT_SIGNATURE_DESC</a> structure.
+Use this structure with the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_signature_desc">D3D12_ROOT_SIGNATURE_DESC</a> structure.
       
 
 
@@ -161,11 +161,11 @@ Use this structure with the <a href="https://msdn.microsoft.com/D74D9D3B-96AB-48
 
 
 
-<a href="https://msdn.microsoft.com/C402415D-7BD5-4E23-82C9-B29B0B5669B8">CD3DX12_STATIC_SAMPLER_DESC</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/cd3dx12-static-sampler-desc">CD3DX12_STATIC_SAMPLER_DESC</a>
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
  
 
  

@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-The <b>GetPropertyCount</b> method retrieves the total number of buffer properties, also called data unit extensions, associated with the sample contained in the buffer object. When using <a href="https://msdn.microsoft.com/8812b7c9-610b-4c17-a274-55e043cfb091">INSSBuffer4::GetPropertyByIndex</a> to retrieve properties, the index used is between zero and the number specified by this method.
+The <b>GetPropertyCount</b> method retrieves the total number of buffer properties, also called data unit extensions, associated with the sample contained in the buffer object. When using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer4-getpropertybyindex">INSSBuffer4::GetPropertyByIndex</a> to retrieve properties, the index used is between zero and the number specified by this method.
 
 
 
@@ -82,7 +82,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743256(v=VS.85).aspx">INSSBuffer4 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer4">INSSBuffer4 Interface</a>
  
 
  

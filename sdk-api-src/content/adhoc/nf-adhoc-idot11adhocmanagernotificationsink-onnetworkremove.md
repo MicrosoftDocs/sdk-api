@@ -59,7 +59,7 @@ Notifies the client that a wireless ad hoc network destination is no longer  ava
 
 ### -param Signature [in]
 
-A pointer to a signature that uniquely identifies the newly unavailable network. For more information about signatures, see <a href="https://msdn.microsoft.com/0a59a8bd-d2eb-48c6-8480-dc4dea335d22">IDot11AdHocNetwork::GetSignature</a>.
+A pointer to a signature that uniquely identifies the newly unavailable network. For more information about signatures, see <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-getsignature">IDot11AdHocNetwork::GetSignature</a>.
 
 
 ## -returns
@@ -106,7 +106,7 @@ The method failed.
 
 
 
-<a href="https://msdn.microsoft.com/a79931ad-deeb-4e46-a051-80a57fe5935c">IDot11AdHocManagerNotificationSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocmanagernotificationsink">IDot11AdHocManagerNotificationSink</a>
  
 
  

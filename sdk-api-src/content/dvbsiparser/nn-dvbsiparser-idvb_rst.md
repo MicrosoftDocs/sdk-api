@@ -53,14 +53,14 @@ ms.custom: 19H1
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
 
-The <b>IDVB_RST</b> interface enables the client to get information from a running status table (RST). The <a href="https://msdn.microsoft.com/263abb39-3f8d-4501-985c-d5ac9b1c9ea1">IDvbSiParser::GetRST</a> method returns a pointer to this interface. The RST enables the provider to update the timing status for one or more events, which may be needed if the schedule changes.
+The <b>IDVB_RST</b> interface enables the client to get information from a running status table (RST). The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-getrst">IDvbSiParser::GetRST</a> method returns a pointer to this interface. The RST enables the provider to update the timing status for one or more events, which may be needed if the schedule changes.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVB_RST</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDVB_RST</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVB_RST</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDVB_RST</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IDVB_RST</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/98e71d2e-d84e-4be5-b779-0d7c10a823d5">GetCountOfRecords</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_rst-getcountofrecords">GetCountOfRecords</a>
 </td>
 <td align="left" width="63%">
 Returns the number of records in the RST.
@@ -84,7 +84,7 @@ Returns the number of records in the RST.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4263160a-dd00-42a8-9ed3-6b266c0d6355">GetRecordEventId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_rst-getrecordeventid">GetRecordEventId</a>
 </td>
 <td align="left" width="63%">
 Returns the event identifier for a record in the RST.
@@ -93,7 +93,7 @@ Returns the event identifier for a record in the RST.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/949dafeb-f59d-4507-a3eb-4a381f4108ff">GetRecordOriginalNetworkId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_rst-getrecordoriginalnetworkid">GetRecordOriginalNetworkId</a>
 </td>
 <td align="left" width="63%">
 Returns the original network identifier for a record in the RST.
@@ -102,7 +102,7 @@ Returns the original network identifier for a record in the RST.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ca0a0b3b-14a8-4456-85a0-51df559d04b8">GetRecordRunningStatus</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_rst-getrecordrunningstatus">GetRecordRunningStatus</a>
 </td>
 <td align="left" width="63%">
 Returns the running status for a record in the RST.
@@ -111,7 +111,7 @@ Returns the running status for a record in the RST.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f9592e18-5cf6-4359-9654-2535070cdce9">GetRecordServiceId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_rst-getrecordserviceid">GetRecordServiceId</a>
 </td>
 <td align="left" width="63%">
 Returns the service identifier for a record in the RST.
@@ -120,7 +120,7 @@ Returns the service identifier for a record in the RST.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/40fd889e-eae8-4532-935e-07a7a5b2b6c2">GetRecordTransportStreamId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_rst-getrecordtransportstreamid">GetRecordTransportStreamId</a>
 </td>
 <td align="left" width="63%">
 Returns the transport stream identifier (TSID) for a record in the RST.
@@ -129,7 +129,7 @@ Returns the transport stream identifier (TSID) for a record in the RST.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8efbb9c0-8b21-476c-88ad-1c8a5408b32f">Initialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_rst-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object.
@@ -144,7 +144,7 @@ Initializes the object.
 
 
 
-<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
  
 
  

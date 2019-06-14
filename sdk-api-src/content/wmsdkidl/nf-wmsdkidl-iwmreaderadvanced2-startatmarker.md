@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-The <b>StartAtMarker</b> method starts the reader from a specified <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">marker</a>.
+The <b>StartAtMarker</b> method starts the reader from a specified <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">marker</a>.
 
 
 
@@ -148,7 +148,7 @@ The method failed for an unspecified reason.
 
 
 
-This method is very similar to <a href="https://msdn.microsoft.com/en-us/library/Dd743608(v=VS.85).aspx">IWMReader::Start</a>. The difference is that this method uses a marker index but <b>IWMReader::Start</b> uses a start time.
+This method is very similar to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-start">IWMReader::Start</a>. The difference is that this method uses a marker index but <b>IWMReader::Start</b> uses a start time.
 
 
 
@@ -158,15 +158,15 @@ This method is very similar to <a href="https://msdn.microsoft.com/en-us/library
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757430(v=VS.85).aspx">IWMReaderAdvanced2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2">IWMReaderAdvanced2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/ba9bc93e-76a9-4a49-951f-c38dbcceef8c">Markers</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/markers">Markers</a>
 
 
 
-<a href="https://msdn.microsoft.com/b801c985-4ec7-441e-9f8a-40c69b1299a9">Using Markers</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/using-markers">Using Markers</a>
  
 
  

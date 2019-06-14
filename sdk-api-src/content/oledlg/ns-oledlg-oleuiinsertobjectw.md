@@ -286,37 +286,37 @@ Pointer to a list of CLSIDs to exclude from listing.
 
 ### -field iid
 
-Identifier of the requested interface. If <a href="https://msdn.microsoft.com/f0ca8c0d-2538-4197-a830-d5ffb9f8b635">OleUIInsertObject</a> creates the object, then it will return a pointer to this interface. This parameter is ignored if <b>OleUIInsertObject</b> does not create the object.
+Identifier of the requested interface. If <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiinsertobjecta">OleUIInsertObject</a> creates the object, then it will return a pointer to this interface. This parameter is ignored if <b>OleUIInsertObject</b> does not create the object.
 
 
 ### -field oleRender
 
-Rendering option. If <a href="https://msdn.microsoft.com/f0ca8c0d-2538-4197-a830-d5ffb9f8b635">OleUIInsertObject</a> creates the object, then it selects the rendering option when it creates the object. This parameter is ignored if <b>OleUIInsertObject</b> does not create the object.
+Rendering option. If <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiinsertobjecta">OleUIInsertObject</a> creates the object, then it selects the rendering option when it creates the object. This parameter is ignored if <b>OleUIInsertObject</b> does not create the object.
 
 
 ### -field lpFormatEtc
 
-Desired format. If <a href="https://msdn.microsoft.com/f0ca8c0d-2538-4197-a830-d5ffb9f8b635">OleUIInsertObject</a> creates the object, then it selects the format when it creates the object. This parameter is ignored if <b>OleUIInsertObject</b> does not create the object.
+Desired format. If <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiinsertobjecta">OleUIInsertObject</a> creates the object, then it selects the format when it creates the object. This parameter is ignored if <b>OleUIInsertObject</b> does not create the object.
 
 
 ### -field lpIOleClientSite
 
-Pointer to the client site to be used for the object. This parameter is ignored if <a href="https://msdn.microsoft.com/f0ca8c0d-2538-4197-a830-d5ffb9f8b635">OleUIInsertObject</a> does not create the object.
+Pointer to the client site to be used for the object. This parameter is ignored if <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiinsertobjecta">OleUIInsertObject</a> does not create the object.
 
 
 ### -field lpIStorage
 
-Pointer to the storage to be used for the object. This parameter is ignored if <a href="https://msdn.microsoft.com/f0ca8c0d-2538-4197-a830-d5ffb9f8b635">OleUIInsertObject</a> does not create the object.
+Pointer to the storage to be used for the object. This parameter is ignored if <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiinsertobjecta">OleUIInsertObject</a> does not create the object.
 
 
 ### -field ppvObj
 
-Address of output pointer variable that contains the interface pointer for the object being inserted. This parameter is ignored if <a href="https://msdn.microsoft.com/f0ca8c0d-2538-4197-a830-d5ffb9f8b635">OleUIInsertObject</a> does not create the object.
+Address of output pointer variable that contains the interface pointer for the object being inserted. This parameter is ignored if <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiinsertobjecta">OleUIInsertObject</a> does not create the object.
 
 
 ### -field sc
 
-Result of creation calls. This parameter is ignored if <a href="https://msdn.microsoft.com/f0ca8c0d-2538-4197-a830-d5ffb9f8b635">OleUIInsertObject</a> does not create the object.
+Result of creation calls. This parameter is ignored if <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiinsertobjecta">OleUIInsertObject</a> does not create the object.
 
 
 ### -field hMetaPict
@@ -330,7 +330,7 @@ MetafilePict structure containing the iconic aspect, if it wasn't placed in the 
 
 
 
-<a href="https://msdn.microsoft.com/f0ca8c0d-2538-4197-a830-d5ffb9f8b635">OleUIInsertObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiinsertobjecta">OleUIInsertObject</a>
  
 
  

@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-The <b>timeGetSystemTime</b> function retrieves the system time, in milliseconds. The system time is the time elapsed since Windows was started. This function works very much like the <a href="https://msdn.microsoft.com/f9d3a7a9-1457-4993-92f1-f888780a565e">timeGetTime</a> function. See <b>timeGetTime</b> for details of these functions' operation.
+The <b>timeGetSystemTime</b> function retrieves the system time, in milliseconds. The system time is the time elapsed since Windows was started. This function works very much like the <a href="https://docs.microsoft.com/windows/desktop/api/timeapi/nf-timeapi-timegettime">timeGetTime</a> function. See <b>timeGetTime</b> for details of these functions' operation.
 
 
 
@@ -65,13 +65,13 @@ The <b>timeGetSystemTime</b> function retrieves the system time, in milliseconds
 
 ### -param pmmt
 
-Pointer to an <a href="https://msdn.microsoft.com/94bb7235-2477-4923-add8-f0c8ac8195c2">MMTIME</a> structure.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions//dd757347(v=vs.85)">MMTIME</a> structure.
           
 
 
 ### -param cbmmt
 
-Size, in bytes, of the <a href="https://msdn.microsoft.com/94bb7235-2477-4923-add8-f0c8ac8195c2">MMTIME</a> structure.
+Size, in bytes, of the <a href="https://docs.microsoft.com/previous-versions//dd757347(v=vs.85)">MMTIME</a> structure.
           
 
 
@@ -88,7 +88,7 @@ If successful, returns <b>TIMERR_NOERROR</b>. Otherwise, returns an error code.
 
 
 
-The system time is returned in the <b>ms</b> member of the <a href="https://msdn.microsoft.com/94bb7235-2477-4923-add8-f0c8ac8195c2">MMTIME</a> structure.
+The system time is returned in the <b>ms</b> member of the <a href="https://docs.microsoft.com/previous-versions//dd757347(v=vs.85)">MMTIME</a> structure.
 
 
 
@@ -98,11 +98,11 @@ The system time is returned in the <b>ms</b> member of the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/71680295-7fd3-4a8b-a574-78ea05e1d11d">Multimedia Timer Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/multimedia-timer-functions">Multimedia Timer Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/25e0b313-64ff-4f30-ae0a-ac364ce3f0cf">Multimedia Timers</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/multimedia-timers">Multimedia Timers</a>
  
 
  

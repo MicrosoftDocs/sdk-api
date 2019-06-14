@@ -59,23 +59,23 @@ Called from the save dialog when the user chooses to overwrite a file.
 
 ### -param pfd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/9341bb68-2410-4e03-8acd-fef29287b61c">IFileDialog</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog">IFileDialog</a>*</b>
 
 A pointer to the interface that represents the dialog.
 
 
 ### -param psi [in]
 
-Type: <b><a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
 A pointer to the interface that represents the item that will be overwritten.
 
 
 ### -param pResponse [out]
 
-Type: <b><a href="https://msdn.microsoft.com/976965f5-7806-41de-b1d4-f5bb6dc4f79b">FDE_SHAREVIOLATION_RESPONSE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-fde_shareviolation_response">FDE_SHAREVIOLATION_RESPONSE</a>*</b>
 
-A pointer to a value from the <a href="https://msdn.microsoft.com/2f278004-7f86-4b08-a724-bb95606c5d51">FDE_OVERWRITE_RESPONSE</a> enumeration indicating the response to the potential overwrite action.
+A pointer to a value from the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-fde_overwrite_response">FDE_OVERWRITE_RESPONSE</a> enumeration indicating the response to the potential overwrite action.
 
 
 ## -returns
@@ -93,7 +93,7 @@ The implementer should return E_NOTIMPL if this method is not implemented; S_OK 
 
 
 
-The <b>FOS_OVERWRITEPROMPT</b> flag must be set through <a href="https://msdn.microsoft.com/99def5c2-3fc3-416c-80a6-6009927ab63e">IFileDialog::SetOptions</a> before this method is called.
+The <b>FOS_OVERWRITEPROMPT</b> flag must be set through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setoptions">IFileDialog::SetOptions</a> before this method is called.
 
 
 

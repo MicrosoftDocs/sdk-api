@@ -61,7 +61,7 @@ The
 ### -param pEvent [out]
 
 Pointer to the 
-<a href="https://msdn.microsoft.com/6d8340a9-dfe5-43bc-a223-d534f5b90cba">AGENTHANDLER_EVENT</a> descriptor.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/ne-tapi3-agenthandler_event">AGENTHANDLER_EVENT</a> descriptor.
 
 
 ## -returns
@@ -119,11 +119,11 @@ The <i>pEvent</i> parameter is not a valid pointer.
 
 
 
-<a href="https://msdn.microsoft.com/6d8340a9-dfe5-43bc-a223-d534f5b90cba">AGENTHANDLER_EVENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/ne-tapi3-agenthandler_event">AGENTHANDLER_EVENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/c61becce-09fd-4b12-bbc9-98df57d5f0d3">ITAgentHandlerEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagenthandlerevent">ITAgentHandlerEvent</a>
  
 
  

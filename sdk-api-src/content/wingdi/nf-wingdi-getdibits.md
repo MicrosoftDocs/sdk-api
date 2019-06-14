@@ -84,17 +84,17 @@ The number of scan lines to retrieve.
 
 ### -param lpvBits [out]
 
-A pointer to a buffer to receive the bitmap data. If this parameter is <b>NULL</b>, the function passes the dimensions and format of the bitmap to the <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure pointed to by the <i>lpbi</i> parameter.
+A pointer to a buffer to receive the bitmap data. If this parameter is <b>NULL</b>, the function passes the dimensions and format of the bitmap to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO</a> structure pointed to by the <i>lpbi</i> parameter.
 
 
 ### -param lpbmi [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure that specifies the desired format for the DIB data.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO</a> structure that specifies the desired format for the DIB data.
 
 
 ### -param usage [in]
 
-The format of the <b>bmiColors</b> member of the <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure. It must be one of the following values.
+The format of the <b>bmiColors</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO</a> structure. It must be one of the following values.
 
 <table>
 <tr>
@@ -131,7 +131,7 @@ The color table should consist of literal red, green, blue (RGB) values.
 
 If the <i>lpvBits</i> parameter is non-<b>NULL</b> and the function succeeds, the return value is the number of scan lines copied from the bitmap.
 
-If the <i>lpvBits</i> parameter is <b>NULL</b> and <b>GetDIBits</b> successfully fills the <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure, the return value is nonzero.
+If the <i>lpvBits</i> parameter is <b>NULL</b> and <b>GetDIBits</b> successfully fills the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO</a> structure, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
@@ -189,13 +189,13 @@ If the requested format for the DIB matches its internal format, the RGB values 
 </table>
  
 
-If the <i>lpvBits</i> parameter is a valid pointer, the first six members of the <a href="https://msdn.microsoft.com/02f8ed65-8fed-4dda-9b94-7343a0cfa8c1">BITMAPINFOHEADER</a> structure must be initialized to specify the size and format of the DIB. The scan lines must be aligned on a <b>DWORD</b> except for RLE compressed bitmaps.
+If the <i>lpvBits</i> parameter is a valid pointer, the first six members of the <a href="https://docs.microsoft.com/previous-versions//dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure must be initialized to specify the size and format of the DIB. The scan lines must be aligned on a <b>DWORD</b> except for RLE compressed bitmaps.
 
-A bottom-up DIB is specified by setting the height to a positive number, while a top-down DIB is specified by setting the height to a negative number. The bitmap color table will be appended to the <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure.
+A bottom-up DIB is specified by setting the height to a positive number, while a top-down DIB is specified by setting the height to a negative number. The bitmap color table will be appended to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO</a> structure.
 
-If <i>lpvBits</i> is <b>NULL</b>, <b>GetDIBits</b> examines the first member of the first structure pointed to by <i>lpbi</i>. This member must specify the size, in bytes, of a <a href="https://msdn.microsoft.com/0182adcd-dbba-43de-b41b-ab2f0fd8f7bf">BITMAPCOREHEADER</a> or a <a href="https://msdn.microsoft.com/02f8ed65-8fed-4dda-9b94-7343a0cfa8c1">BITMAPINFOHEADER</a> structure. The function uses the specified size to determine how the remaining members should be initialized.
+If <i>lpvBits</i> is <b>NULL</b>, <b>GetDIBits</b> examines the first member of the first structure pointed to by <i>lpbi</i>. This member must specify the size, in bytes, of a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapcoreheader">BITMAPCOREHEADER</a> or a <a href="https://docs.microsoft.com/previous-versions//dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure. The function uses the specified size to determine how the remaining members should be initialized.
 
-If <i>lpvBits</i> is <b>NULL</b> and the bit count member of <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> is initialized to zero, <b>GetDIBits</b> fills in a <a href="https://msdn.microsoft.com/02f8ed65-8fed-4dda-9b94-7343a0cfa8c1">BITMAPINFOHEADER</a> structure or <a href="https://msdn.microsoft.com/0182adcd-dbba-43de-b41b-ab2f0fd8f7bf">BITMAPCOREHEADER</a> without the color table. This technique can be used to query bitmap attributes.
+If <i>lpvBits</i> is <b>NULL</b> and the bit count member of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO</a> is initialized to zero, <b>GetDIBits</b> fills in a <a href="https://docs.microsoft.com/previous-versions//dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure or <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapcoreheader">BITMAPCOREHEADER</a> without the color table. This technique can be used to query bitmap attributes.
 
 The bitmap identified by the <i>hbmp</i> parameter must not be selected into a device context when the application calls this function.
 
@@ -204,7 +204,7 @@ The origin for a bottom-up DIB is the lower-left corner of the bitmap; the origi
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/672fc2e4-c35c-4d5d-98fa-85f2ad56d9b0">Capturing an Image</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/capturing-an-image">Capturing an Image</a>.
 
 <div class="code"></div>
 
@@ -215,27 +215,27 @@ For an example, see <a href="https://msdn.microsoft.com/672fc2e4-c35c-4d5d-98fa-
 
 
 
-<a href="https://msdn.microsoft.com/0182adcd-dbba-43de-b41b-ab2f0fd8f7bf">BITMAPCOREHEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapcoreheader">BITMAPCOREHEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/02f8ed65-8fed-4dda-9b94-7343a0cfa8c1">BITMAPINFOHEADER</a>
+<a href="https://docs.microsoft.com/previous-versions//dd183376(v=vs.85)">BITMAPINFOHEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/ef3abc8a-5d95-41d0-8eb6-47719d472414">Bitmap Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/ff0a5ae3-ae2e-4417-b5e5-0f9871c03964">Bitmaps Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/706f4532-4073-4d5c-ae2d-e33aea9163e9">SetDIBits</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a>
  
 
  

@@ -101,7 +101,7 @@ The system does not display the critical-error-handler message box. Instead, the
 The system automatically fixes memory alignment faults and makes them invisible to the application. It 
         does this for the calling process and any descendant processes. This feature is only supported by certain 
         processor architectures. For more information, see 
-        <a href="https://msdn.microsoft.com/b88f5577-9124-433c-a7e8-a7f713b7b27d">SetErrorMode</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a>.
 
 </td>
 </tr>
@@ -144,11 +144,11 @@ Each process has an associated error mode that indicates to the system how the a
     to serious errors. A child process inherits the error mode of its parent process.
 
 To change the error mode for the process, use the 
-    <a href="https://msdn.microsoft.com/b88f5577-9124-433c-a7e8-a7f713b7b27d">SetErrorMode</a> function.
+    <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a> function.
 
-<b>Windows 7:  </b>Callers should favor <a href="https://msdn.microsoft.com/f5acb4ba-d328-47c2-8c41-17df197f12ea">SetThreadErrorMode</a> over 
-      <a href="https://msdn.microsoft.com/b88f5577-9124-433c-a7e8-a7f713b7b27d">SetErrorMode</a> since it is less disruptive to the normal 
-      behavior of the system. <a href="https://msdn.microsoft.com/246d838a-ba16-4ba4-8cd3-f25dfc7d2f23">GetThreadErrorMode</a> is the 
+<b>Windows 7:  </b>Callers should favor <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setthreaderrormode">SetThreadErrorMode</a> over 
+      <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a> since it is less disruptive to the normal 
+      behavior of the system. <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getthreaderrormode">GetThreadErrorMode</a> is the 
       call function that corresponds to <b>GetErrorMode</b>.
 
 
@@ -161,19 +161,19 @@ To change the error mode for the process, use the
 
 
 
-<a href="https://msdn.microsoft.com/ae8ad3a2-1f1a-46d6-adaa-74c50c07dcc5">Error Handling Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/error-handling-functions">Error Handling Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/288be838-6094-4824-9cae-99b7ff9eea74">Error Mode</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/error-mode">Error Mode</a>
 
 
 
-<a href="https://msdn.microsoft.com/246d838a-ba16-4ba4-8cd3-f25dfc7d2f23">GetThreadErrorMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getthreaderrormode">GetThreadErrorMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/b88f5577-9124-433c-a7e8-a7f713b7b27d">SetErrorMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a>
  
 
  

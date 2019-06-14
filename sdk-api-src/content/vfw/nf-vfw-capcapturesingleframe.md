@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>capCaptureSingleFrame</b> macro appends a single frame to a capture file that was opened using the <a href="https://msdn.microsoft.com/980ba1ef-d86a-47f6-9876-84b5a099d14d">capCaptureSingleFrameOpen</a> macro. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/95466961-0719-4ff7-afc8-f7bf0e0974ac">WM_CAP_SINGLE_FRAME</a> message.
+The <b>capCaptureSingleFrame</b> macro appends a single frame to a capture file that was opened using the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capcapturesingleframeopen">capCaptureSingleFrameOpen</a> macro. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-single-frame">WM_CAP_SINGLE_FRAME</a> message.
 
 
 
@@ -70,11 +70,11 @@ Handle to a capture window.
 
 
 
-<a href="https://msdn.microsoft.com/c93ecc51-e2c5-4b69-8625-c8385d53fab2">Video Capture</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://msdn.microsoft.com/21061f06-d58b-4800-a9f5-9821494fabd6">Video Capture Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
  
 
  

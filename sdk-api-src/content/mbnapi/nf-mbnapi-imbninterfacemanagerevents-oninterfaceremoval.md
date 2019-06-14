@@ -59,7 +59,7 @@ Notification method that signals that a device has been removed from the system.
 
 ### -param oldInterface [in]
 
-An <a href="https://msdn.microsoft.com/958bce42-4772-4706-8900-1f83c5d3d52b">IMbnInterface</a> that represents the device that was removed.
+An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a> that represents the device that was removed.
 
 
 ## -returns
@@ -76,7 +76,7 @@ This method must return <b>S_OK</b>.
 
 
 
-<a href="https://msdn.microsoft.com/1d421668-cbea-4457-bbc3-dad1b53a5d70">IMbnInterfaceManagerEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterfacemanagerevents">IMbnInterfaceManagerEvents</a>
  
 
  

@@ -59,12 +59,12 @@ The <b>GetJackDescription2</b> method gets the description of a specified audio 
 
 ### -param nJack [in]
 
-The index of the jack to get a description for. If the connection consists of <i>n</i> jacks, the jacks are numbered from 0 to <i>n</i>– 1. To get the number of jacks, call the <a href="https://msdn.microsoft.com/b7ebe746-4680-4921-a1fd-1940e306f4eb">IKsJackDescription::GetJackCount</a> method.
+The index of the jack to get a description for. If the connection consists of <i>n</i> jacks, the jacks are numbered from 0 to <i>n</i>– 1. To get the number of jacks, call the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iksjackdescription2-getjackcount">IKsJackDescription::GetJackCount</a> method.
 
 
 ### -param pDescription2 [out]
 
-Pointer to a caller-allocated buffer into which the method writes a structure of type <a href="https://msdn.microsoft.com/en-us/library/Dd316545(v=VS.85).aspx">KSJACK_DESCRIPTION2</a> that contains information about the jack. The buffer size must be at least <code>sizeof(KSJACK_DESCRIPTION2)</code>.
+Pointer to a caller-allocated buffer into which the method writes a structure of type <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/ns-devicetopology-_tagksjack_description2">KSJACK_DESCRIPTION2</a> that contains information about the jack. The buffer size must be at least <code>sizeof(KSJACK_DESCRIPTION2)</code>.
 
 
 ## -returns
@@ -111,7 +111,7 @@ Pointer <i>pDescription</i> is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/9a3d7631-6892-457a-91ab-484ae867fd9f">IKsJackDescription2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iksjackdescription2">IKsJackDescription2</a>
  
 
  

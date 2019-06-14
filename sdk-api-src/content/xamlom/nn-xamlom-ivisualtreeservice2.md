@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Represents additional capabilities of an <a href="https://msdn.microsoft.com/5C0896E4-E37E-49DF-B303-1814BCA6F5B3">IVisualTreeService</a> object.
+Represents additional capabilities of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice">IVisualTreeService</a> object.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVisualTreeService2</b> interface inherits from <a href="https://msdn.microsoft.com/5C0896E4-E37E-49DF-B303-1814BCA6F5B3">IVisualTreeService</a>. <b>IVisualTreeService2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVisualTreeService2</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice">IVisualTreeService</a>. <b>IVisualTreeService2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IVisualTreeService2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6FC5A7CF-A5EF-48B1-8DCD-4885BAFA0055">GetProperty</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/xaml_diagnostics/ivisualtreeservice2-getproperty">GetProperty</a>
 </td>
 <td align="left" width="63%">
 Gets the effective value of the specified dependency property.
@@ -78,7 +78,7 @@ Gets the effective value of the specified dependency property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E23FA0C6-7822-4CEA-AF0C-75B42941B143">GetPropertyIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt846442(v=vs.85)">GetPropertyIndex</a>
 </td>
 <td align="left" width="63%">
 Gets the property index for the specified property name.
@@ -87,7 +87,7 @@ Gets the property index for the specified property name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/BE5DA08C-46F9-44E1-89CD-85613DD3BDE4">RenderTargetBitmap</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/xaml_diagnostics/ivisualtreeservice2-rendertargetbitmap">RenderTargetBitmap</a>
 </td>
 <td align="left" width="63%">
 Returns an image that represents the object described by handle, or
@@ -99,7 +99,7 @@ such an image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/DD2066B0-C91E-4299-AFD3-13E74E75E94B">ReplaceResource</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/xaml_diagnostics/ivisualtreeservice2-replaceresource">ReplaceResource</a>
 </td>
 <td align="left" width="63%">
 Replaces an existing resource with a new one of the same type.
@@ -114,7 +114,7 @@ Replaces an existing resource with a new one of the same type.
 
 
 
-<a href="https://msdn.microsoft.com/5C0896E4-E37E-49DF-B303-1814BCA6F5B3">IVisualTreeService</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice">IVisualTreeService</a>
  
 
  

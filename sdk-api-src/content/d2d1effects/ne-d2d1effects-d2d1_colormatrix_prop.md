@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifiers for the properties of the <a href="https://msdn.microsoft.com/093EEEF1-8C38-414E-8261-58A6C3DD930D">Color matrix effect</a>.
+Identifiers for the properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/color-matrix">Color matrix effect</a>.
 
 
 ## -enum-fields
@@ -62,7 +62,7 @@ Identifiers for the properties of the <a href="https://msdn.microsoft.com/093EEE
 A 5x4 matrix of float values. The elements in the matrix are not bounded and are unitless.
           
 
-The type is <a href="https://msdn.microsoft.com/c6f57691-1530-e57a-c1b4-b68b4d8967e3">D2D1_MATRIX_5X4_F</a>.
+The type is <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-5x4-f">D2D1_MATRIX_5X4_F</a>.
 
 The default value is the identity matrix, Matrix5x4F(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0).
 
@@ -72,7 +72,7 @@ The default value is the identity matrix, Matrix5x4F(1, 0, 0, 0, 0, 1, 0, 0, 0, 
 The alpha mode of the output. 
           
 
-The type is <a href="https://msdn.microsoft.com/7D7CB142-5758-4745-A4CD-41B3E2465562">D2D1_COLORMATRIX_ALPHA_MODE</a>.
+The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_colormatrix_alpha_mode">D2D1_COLORMATRIX_ALPHA_MODE</a>.
 
 The default value is D2D1_COLORMATRIX_ALPHA_MODE_PREMULTIPLIED.
 

@@ -62,7 +62,7 @@ This property is read-only.
 
 
 
-The following values from the <a href="https://msdn.microsoft.com/79b675cc-c979-46ab-aee1-0031af2efd40">AlternativeNameType</a> enumeration can be returned. The  <b>XCN_CERT_ALT_NAME_UNKNOWN</b> value is never returned.
+The following values from the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-alternativenametype">AlternativeNameType</a> enumeration can be returned. The  <b>XCN_CERT_ALT_NAME_UNKNOWN</b> value is never returned.
 
 <table>
 <tr>
@@ -71,7 +71,7 @@ The following values from the <a href="https://msdn.microsoft.com/79b675cc-c979-
 </tr>
 <tr>
 <td><b>XCN_CERT_ALT_NAME_OTHER_NAME</b></td>
-<td>The name consists of an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) and a byte array.</td>
+<td>The name consists of an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and a byte array.</td>
 </tr>
 <tr>
 <td><b>XCN_CERT_ALT_NAME_RFC822_NAME</b></td>
@@ -83,7 +83,7 @@ The following values from the <a href="https://msdn.microsoft.com/79b675cc-c979-
 </tr>
 <tr>
 <td><b>XCN_CERT_ALT_NAME_DIRECTORY_NAME</b></td>
-<td>The name is an <a href="https://msdn.microsoft.com/28dba6ef-939f-4789-9789-ee6e0fef0177">X.500</a> directory name.</td>
+<td>The name is an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.500</a> directory name.</td>
 </tr>
 <tr>
 <td><b>XCN_CERT_ALT_NAME_URL</b></td>
@@ -103,7 +103,7 @@ The following values from the <a href="https://msdn.microsoft.com/79b675cc-c979-
 </tr>
 <tr>
 <td><b>XCN_CERT_ALT_NAME_USER_PRINCIPLE_NAME</b></td>
-<td>The name is a <a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">user principal name</a> (UPN).</td>
+<td>The name is a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">user principal name</a> (UPN).</td>
 </tr>
 </table>
  
@@ -116,7 +116,7 @@ The following values from the <a href="https://msdn.microsoft.com/79b675cc-c979-
 
 
 
-<a href="https://msdn.microsoft.com/2a6cfda8-b3cb-4a0f-bb65-b182c16207be">IAlternativeName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ialternativename">IAlternativeName</a>
  
 
  

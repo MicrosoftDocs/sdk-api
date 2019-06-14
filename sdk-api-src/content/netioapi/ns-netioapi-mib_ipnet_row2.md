@@ -60,7 +60,7 @@ The
 
 ### -field Address
 
-Type: <b><a href="https://msdn.microsoft.com/7278dcb4-65c6-4aea-a474-cb7fae4d7672">SOCKADDR_INET</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-_sockaddr_inet">SOCKADDR_INET</a></b>
 
 The neighbor IP address. This member can be an IPv6 address or an IPv4 address.
 
@@ -257,11 +257,11 @@ The time, in
 
 The <b>MIB_IPNET_ROW2</b> structure is defined on Windows Vista and later. 
 
-The <b>GetIpNetTable2</b> function enumerates the neighbor IP addresses on a local system and returns this information in an <a href="https://msdn.microsoft.com/39b87d81-69ce-4f9b-8af6-5e0c5051657c">MIB_IPNET_TABLE2</a> structure. 
+The <b>GetIpNetTable2</b> function enumerates the neighbor IP addresses on a local system and returns this information in an <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipnet_table2">MIB_IPNET_TABLE2</a> structure. 
 
 For IPv4, this includes addresses determined used the Address Resolution Protocol (ARP). For IPv6, this includes addresses determined using the Neighbor Discovery (ND) protocol for IPv6 as specified in RFC 2461. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84044">http://www.ietf.org/rfc/rfc2461.txt</a>. 
 
-The <a href="https://msdn.microsoft.com/c77e01da-2d5a-4c74-b581-62fa6ee52c9e">GetIpNetEntry2</a> function retrieves a single neighbor IP address and returns this information in a <b>MIB_IPNET_ROW2</b> structure.
+The <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipnetentry2">GetIpNetEntry2</a> function retrieves a single neighbor IP address and returns this information in a <b>MIB_IPNET_ROW2</b> structure.
 
 Note that the <i>Netioapi.h</i> header file is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Netioapi.h</i> header file should never be used directly.
 
@@ -273,23 +273,23 @@ Note that the <i>Netioapi.h</i> header file is automatically included in the <i>
 
 
 
-<a href="https://msdn.microsoft.com/ca92b9f8-ec3c-4889-b649-f606c3920f92">CreateIpNetEntry2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createipnetentry2">CreateIpNetEntry2</a>
 
 
 
-<a href="https://msdn.microsoft.com/c77e01da-2d5a-4c74-b581-62fa6ee52c9e">GetIpNetEntry2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipnetentry2">GetIpNetEntry2</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c45d735-9a07-41ca-8d8a-919f32c98a3c">GetIpNetTable2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipnettable2">GetIpNetTable2</a>
 
 
 
-<a href="https://msdn.microsoft.com/39b87d81-69ce-4f9b-8af6-5e0c5051657c">MIB_IPNET_TABLE2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipnet_table2">MIB_IPNET_TABLE2</a>
 
 
 
-<a href="https://msdn.microsoft.com/7278dcb4-65c6-4aea-a474-cb7fae4d7672">SOCKADDR_INET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-_sockaddr_inet">SOCKADDR_INET</a>
  
 
  

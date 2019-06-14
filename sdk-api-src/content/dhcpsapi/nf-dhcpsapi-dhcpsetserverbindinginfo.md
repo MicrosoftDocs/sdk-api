@@ -89,14 +89,14 @@ The endpoints cannot be modified.
 ### -param BindElementInfo [in]
 
 
-<a href="https://msdn.microsoft.com/9e43b2ab-f69d-4024-b6b1-8a36a3577767">DHCP_BIND_ELEMENT_ARRAY</a> structure that contains the endpoint bindings for the DHCP server.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_bind_element_array">DHCP_BIND_ELEMENT_ARRAY</a> structure that contains the endpoint bindings for the DHCP server.
 
 
 ## -returns
 
 
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://msdn.microsoft.com/6370313f-d7db-4ff1-b0e0-7fa47474facb">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 
 
@@ -105,7 +105,7 @@ This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it
 
 
 
-This function requires network byte ordering for all <a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_ADDRESS</a> values in parameter structures.
+This function requires network byte ordering for all <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> values in parameter structures.
 
 
 
@@ -115,11 +115,11 @@ This function requires network byte ordering for all <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/9e43b2ab-f69d-4024-b6b1-8a36a3577767">DHCP_BIND_ELEMENT_ARRAY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_bind_element_array">DHCP_BIND_ELEMENT_ARRAY</a>
 
 
 
-<a href="https://msdn.microsoft.com/c0f5c9c1-d421-4977-aa26-1b8b7406802d">DhcpGetServerBindingInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpgetserverbindinginfo">DhcpGetServerBindingInfo</a>
  
 
  

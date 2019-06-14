@@ -174,16 +174,16 @@ vlv.lpContextID = vlvResp.lpContextID;
 
 
 
-<a href="https://msdn.microsoft.com/f3ab3d53-e53c-459e-929f-f2a3fc95c3ff">ADS_SEARCHPREF_ENUM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0025">ADS_SEARCHPREF_ENUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/fea04190-0846-4b62-99f4-7d8fb35fd510">How to Search
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/how-to-search-using-vlv">How to Search
   Using VLV</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8989795-8f72-476a-a69e-c0e8800289ab">IDirectorySearch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectorysearch">IDirectorySearch</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>GetDescriptionData</b> method gets a description data block that was previously associated with the entry by a call to <a href="https://msdn.microsoft.com/260d7699-cf75-4179-9f2b-bc3bc49c94e6">SetDescriptionData</a>.
+The <b>GetDescriptionData</b> method gets a description data block that was previously associated with the entry by a call to <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-setdescriptiondata">SetDescriptionData</a>.
 
 
 ## -parameters
@@ -115,7 +115,7 @@ The method returns this error code if <i>pbtDescriptionData</i> is not <b>NULL</
 
 
 
-You can associate only one description data block with a given entry at a given time. However, you might want to design different types of description data blocks and identfy each type of block with a globally unique identifier (GUID). That way, when you call <a href="https://msdn.microsoft.com/260d7699-cf75-4179-9f2b-bc3bc49c94e6">SetDescriptionData</a>, you can mark the data block as being of a specific type. When you call <b>GetDescriptionData</b>, you can determine the type of the data block retrieved by inspecting the value returned in <i>pGuidType</i>.
+You can associate only one description data block with a given entry at a given time. However, you might want to design different types of description data blocks and identfy each type of block with a globally unique identifier (GUID). That way, when you call <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-setdescriptiondata">SetDescriptionData</a>, you can mark the data block as being of a specific type. When you call <b>GetDescriptionData</b>, you can determine the type of the data block retrieved by inspecting the value returned in <i>pGuidType</i>.
 
 
 
@@ -125,11 +125,11 @@ You can associate only one description data block with a given entry at a given 
 
 
 
-<a href="https://msdn.microsoft.com/82a1a390-50b1-4699-9baa-60cea322ce7c">ITocEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocentry">ITocEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/260d7699-cf75-4179-9f2b-bc3bc49c94e6">SetDescriptionData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-setdescriptiondata">SetDescriptionData</a>
  
 
  

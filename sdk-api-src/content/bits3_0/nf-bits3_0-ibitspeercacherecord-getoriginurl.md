@@ -61,7 +61,7 @@ Gets the origin URL of the cached file.
 ### -param pVal [in]
 
 Null-terminated string that contains the origin URL of the cached file. Call the 
-<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a> function to free <i>ppOriginUrl</i> when done.
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>ppOriginUrl</i> when done.
 
 
 ## -returns
@@ -96,7 +96,7 @@ Success
 
 
 
-This URL may be different than the URL originally specified in the BITS job if <a href="https://msdn.microsoft.com/afac84cb-28ab-4c80-ab39-eefe450ae3e5">IBackgroundCopyJobHttpOptions::SetSecurityFlags</a> is set to BG_HTTP_REDIRECT_POLICY_ALLOW_REPORT or BG_HTTP_REDIRECT_POLICY_DISALLOW.
+This URL may be different than the URL originally specified in the BITS job if <a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setsecurityflags">IBackgroundCopyJobHttpOptions::SetSecurityFlags</a> is set to BG_HTTP_REDIRECT_POLICY_ALLOW_REPORT or BG_HTTP_REDIRECT_POLICY_DISALLOW.
 
 
 
@@ -106,7 +106,7 @@ This URL may be different than the URL originally specified in the BITS job if <
 
 
 
-<a href="https://msdn.microsoft.com/61db33de-a38c-4c52-9f1b-66d46f25c297">IBitsPeerCacheRecord</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ibitspeercacherecord">IBitsPeerCacheRecord</a>
  
 
  

@@ -59,7 +59,7 @@ Loads data from an input stream using the given parameters.
 
 ### -param pIStream [in]
 
-Type: <b><a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
 Pointer to the input stream.
 
@@ -75,7 +75,7 @@ Pointer to the GUID of the preferred vendor .
 
 Type: <b>DWORD</b>
 
-The <a href="https://msdn.microsoft.com/8c17cfcc-4f09-4cb5-a3fa-4eb865123ad6">WICPersistOptions</a> used to load the stream.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/ne-wincodecsdk-wicpersistoptions">WICPersistOptions</a> used to load the stream.
 
 
 ## -returns

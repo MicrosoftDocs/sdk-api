@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>NdrProxyGetBuffer</b> function obtains a network buffer from COM through the use of an <a href="https://msdn.microsoft.com/en-us/library/ms686644(v=VS.85).aspx">IRpcChannelBuffer::GetBuffer</a> method call.
+The <b>NdrProxyGetBuffer</b> function obtains a network buffer from COM through the use of an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-getbuffer">IRpcChannelBuffer::GetBuffer</a> method call.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ Pointer to the interface proxy.
 
 ### -param pStubMsg [in, out]
 
-Pointer to a <a href="https://msdn.microsoft.com/9bd021f6-10c9-4e77-be75-9a89a3a016e0">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. The  <b>pRpcMsg</b> member points to a structure whose <b>Buffer</b> member points to the newly allocated buffer. Structure is for internal use only; do not modify.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-_midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. The  <b>pRpcMsg</b> member points to a structure whose <b>Buffer</b> member points to the newly allocated buffer. Structure is for internal use only; do not modify.
 
 
 ## -returns

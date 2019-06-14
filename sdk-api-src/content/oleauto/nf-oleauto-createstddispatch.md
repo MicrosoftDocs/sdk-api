@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a standard implementation of the <a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface through a single function call. This simplifies exposing objects through Automation.
+Creates a standard implementation of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface through a single function call. This simplifies exposing objects through Automation.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ The type information that describes the exposed object.
 
 ### -param ppunkStdDisp
 
-The private unknown for the object that implements the <a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface QueryInterface call. This pointer is null if the function fails.
+The private unknown for the object that implements the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface QueryInterface call. This pointer is null if the function fails.
 
 
 ## -returns
@@ -137,7 +137,7 @@ There was insufficient memory to complete the operation.
 
 
 
-You can use <b>CreateStdDispatch</b> when creating an object instead of implementing the <a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> member functions for the object. However, the implementation that <b>CreateStdDispatch</b> creates has these limitations:  
+You can use <b>CreateStdDispatch</b> when creating an object instead of implementing the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> member functions for the object. However, the implementation that <b>CreateStdDispatch</b> creates has these limitations:  
 
 <ul>
 <li>
@@ -145,15 +145,15 @@ Supports only one national language.
 
 </li>
 <li>
-Supports only dispatch-defined exception codes returned from <a href="https://msdn.microsoft.com/964ade8e-9d8a-4d32-bd47-aa678912a54d">Invoke</a>.
+Supports only dispatch-defined exception codes returned from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">Invoke</a>.
 
 </li>
 </ul>
 
-<a href="https://msdn.microsoft.com/155b48e5-5438-409e-9342-630a6a500f60">LoadTypeLib</a>, <a href="https://msdn.microsoft.com/58f96322-f1cd-448c-906d-b7faa65ab9a0">GetTypeInfoOfGuid</a>, and <b>CreateStdDispatch</b> comprise the minimum set of functions that you need to call to expose an object using a type library. For more information on <b>LoadTypeLib</b> and <b>GetTypeInfoOfGuid</b>, see <a href="https://msdn.microsoft.com/ab44422c-97d6-4a63-ade1-db919d53aae7">Type Description Interfaces</a>. 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-loadtypelib">LoadTypeLib</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib-gettypeinfoofguid">GetTypeInfoOfGuid</a>, and <b>CreateStdDispatch</b> comprise the minimum set of functions that you need to call to expose an object using a type library. For more information on <b>LoadTypeLib</b> and <b>GetTypeInfoOfGuid</b>, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/type-description-interfaces">Type Description Interfaces</a>. 
 
 
-<a href="https://msdn.microsoft.com/603e00e8-0370-4ebf-b9d2-85e6e58c2b3a">CreateDispTypeInfo</a> and <b>CreateStdDispatch</b> comprise the minimum set of dispatch components you need to call to expose an object using type information provided by the INTERFACEDATA structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createdisptypeinfo">CreateDispTypeInfo</a> and <b>CreateStdDispatch</b> comprise the minimum set of dispatch components you need to call to expose an object using type information provided by the INTERFACEDATA structure.
 
 
 #### Examples
@@ -218,11 +218,11 @@ LError0:;
 
 
 
-<a href="https://msdn.microsoft.com/2c66b04e-9d96-45e9-8105-82d58a5a4085">Creation of Dispatch API Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/dispatch-functions">Creation of Dispatch API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

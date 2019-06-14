@@ -76,7 +76,7 @@ The message number.
 
 
 
-The application sequencing header block allows a receiver to maintain the sequence messages that contain this header block though they may have been received out of order. This allows proper sequencing of <a href="https://msdn.microsoft.com/a7402e02-9bdc-49ec-ba93-8a32f55b9dd8">Hello</a> and <a href="https://msdn.microsoft.com/7b9abfcc-28ab-4f29-af69-6dc68e3f51b6">Bye</a> messages from a target service.
+The application sequencing header block allows a receiver to maintain the sequence messages that contain this header block though they may have been received out of order. This allows proper sequencing of <a href="https://docs.microsoft.com/windows/desktop/WsdApi/hello-message">Hello</a> and <a href="https://docs.microsoft.com/windows/desktop/WsdApi/bye-message">Bye</a> messages from a target service.
 
 The normative outline for the application sequence header block is:
 
@@ -115,7 +115,7 @@ This setting identifies a message within the context of a sequence identifier an
 
 
 
-<a href="https://msdn.microsoft.com/f54eaa09-7ce8-4948-a0c5-edf2d054f6d5">AppSequence Validation Rules</a>
+<a href="https://docs.microsoft.com/windows/desktop/WsdApi/appsequence-validation-rules">AppSequence Validation Rules</a>
  
 
  

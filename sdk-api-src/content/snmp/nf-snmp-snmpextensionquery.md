@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/6429e748-e0bf-431a-8989-db5b211665d5">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The Microsoft SNMP service calls the 
 <b>SnmpExtensionQuery</b> function to resolve SNMP requests that contain variables within one or more of the SNMP extension agent's registered MIB subtrees. This function is an element of the SNMP Extension Agent API.
 <div class="alert"><b>Note</b>  It is recommended that you use the 
-<a href="https://msdn.microsoft.com/2479c6ea-93f8-4b23-a0b7-645bf27f252f">SnmpExtensionQueryEx</a> function, which supports SNMP version 2C (SNMPv2C) data types and multiphase SNMP SET operations.</div><div> </div>
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmpextensionqueryex">SnmpExtensionQueryEx</a> function, which supports SNMP version 2C (SNMPv2C) data types and multiphase SNMP SET operations.</div><div> </div>
 
 ## -parameters
 
@@ -106,7 +106,7 @@ Write a value within a specific variable.
  
 
 Note that PDU request types have been renamed. For additional information, see 
-<a href="https://msdn.microsoft.com/2d87aeee-6fcb-4837-b091-6a9def8a9acb">SNMP Variable Types and Request PDU Types</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/snmp-variable-types-and-request-pdu-types">SNMP Variable Types and Request PDU Types</a>.
 
 
 ### -param pVarBindList [in, out]
@@ -213,15 +213,15 @@ When the SNMP service receives an SNMP PDU request, it calls the
 <b>SnmpExtensionQuery</b> function to process the request. The extension agent must follow the rules in RFC 1157 to either resolve the variable bindings or generate an error.
 
 If the extension agent cannot resolve the variable bindings on a <b>Get Next</b> request, it must change the <b>name</b> field of the 
-<a href="https://msdn.microsoft.com/40f9930d-93d1-45eb-aa3a-499947004fcf">SnmpVarBind</a> structure to the value of the object identifier immediately following that of the currently supported MIB subtree view. For example, if the extension agent supports view ".1.3.6.1.4.1.77.1", a <b>Get Next</b> request on ".1.3.6.1.4.1.77.1.5.1" would result in a modified <b>name</b> field of ".1.3.6.1.4.1.77.2". This signals the SNMP service to continue the attempt to resolve the variable bindings with other extension agents.
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-snmpvarbind">SnmpVarBind</a> structure to the value of the object identifier immediately following that of the currently supported MIB subtree view. For example, if the extension agent supports view ".1.3.6.1.4.1.77.1", a <b>Get Next</b> request on ".1.3.6.1.4.1.77.1.5.1" would result in a modified <b>name</b> field of ".1.3.6.1.4.1.77.2". This signals the SNMP service to continue the attempt to resolve the variable bindings with other extension agents.
 
 It is important to note that the SNMP service and the extension agent may need to exchange dynamically allocated memory during a call to the 
 <b>SnmpExtensionQuery</b> function. The service dynamically allocates the object identifier in each 
-<a href="https://msdn.microsoft.com/40f9930d-93d1-45eb-aa3a-499947004fcf">SnmpVarBind</a> structure it passes to the extension agent. However, the extension agent must release this memory in order to replace the object identifier when it processes a <b>Get Next</b> request. The extension agent allocates dynamic memory for variable-length object types. The SNMP service releases this memory after the object is placed in the response PDU.
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-snmpvarbind">SnmpVarBind</a> structure it passes to the extension agent. However, the extension agent must release this memory in order to replace the object identifier when it processes a <b>Get Next</b> request. The extension agent allocates dynamic memory for variable-length object types. The SNMP service releases this memory after the object is placed in the response PDU.
 
 In order to avoid heap corruption and memory leaks, both the SNMP service and the extension agent must use memory allocation routines that resolve to the same heap. The extension agent must use the 
-<a href="https://msdn.microsoft.com/85e293da-4c5b-4b32-9b86-e63074d37274">SnmpUtilMemAlloc</a> function to allocate memory that it passes to the SNMP service. It must use the 
-<a href="https://msdn.microsoft.com/57cf0398-d2c1-4dd9-ad77-0c453412034a">SnmpUtilMemFree</a> function to release the memory the service passes back to the extension agent. These functions are located in the utility dynamic-link library SNMPAPI.DLL.
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputilmemalloc">SnmpUtilMemAlloc</a> function to allocate memory that it passes to the SNMP service. It must use the 
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputilmemfree">SnmpUtilMemFree</a> function to release the memory the service passes back to the extension agent. These functions are located in the utility dynamic-link library SNMPAPI.DLL.
 
 
 
@@ -231,27 +231,27 @@ In order to avoid heap corruption and memory leaks, both the SNMP service and th
 
 
 
-<a href="https://msdn.microsoft.com/8913caa9-6b2c-424c-a778-bd54d6584dac">SNMP Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/499e912b-0821-452e-81f6-8a8250875979">Simple Network Management Protocol (SNMP) Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/015f2be2-8e10-4abd-afd0-f76834856733">SnmpExtensionInit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmpextensioninit">SnmpExtensionInit</a>
 
 
 
-<a href="https://msdn.microsoft.com/85e293da-4c5b-4b32-9b86-e63074d37274">SnmpUtilMemAlloc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputilmemalloc">SnmpUtilMemAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/57cf0398-d2c1-4dd9-ad77-0c453412034a">SnmpUtilMemFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputilmemfree">SnmpUtilMemFree</a>
 
 
 
-<a href="https://msdn.microsoft.com/40f9930d-93d1-45eb-aa3a-499947004fcf">SnmpVarBind</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-snmpvarbind">SnmpVarBind</a>
  
 
  

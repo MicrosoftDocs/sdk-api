@@ -66,9 +66,9 @@ The column's zero-based index. It is an arbitrary value that is used to enumerat
 
 ### -param psci [out]
 
-Type: <b><a href="https://msdn.microsoft.com/6d7caeca-38fe-4477-a278-abf483d8d42c">SHCOLUMNINFO</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlobj/ns-shlobj-shcolumninfo">SHCOLUMNINFO</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/6d7caeca-38fe-4477-a278-abf483d8d42c">SHCOLUMNINFO</a> structure to hold the column information.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/ns-shlobj-shcolumninfo">SHCOLUMNINFO</a> structure to hold the column information.
 
 
 ## -returns
@@ -126,7 +126,7 @@ This method is called to assign an index to the column and to ask for details on
 
 
 
-<a href="https://msdn.microsoft.com/06993217-2867-43f2-aa76-04b500bf8c17">IColumnProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-icolumnprovider">IColumnProvider</a>
  
 
  

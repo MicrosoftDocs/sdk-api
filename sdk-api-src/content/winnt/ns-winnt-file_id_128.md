@@ -67,19 +67,19 @@ A byte array containing  the 128 bit identifier.
 
 
 
-<a href="https://msdn.microsoft.com/9092a701-3b47-4c4c-8221-54fa3220d322">FILE_ID_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_id_descriptor">FILE_ID_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/68f222c4-beb6-4be1-a31a-c5fbebbf76f7">FILE_ID_EXTD_DIR_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_id_extd_dir_info">FILE_ID_EXTD_DIR_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2774e29-1a90-44d6-9001-f73a98be6624">FILE_ID_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_id_info">FILE_ID_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/406d5c0f-b49a-4075-ac3e-c5b55a0c3fe9">File Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-structures">File Management Structures</a>
  
 
  

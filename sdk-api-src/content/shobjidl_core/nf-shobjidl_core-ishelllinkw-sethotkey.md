@@ -63,7 +63,7 @@ Sets a keyboard shortcut (hot key) for a Shell link object.
 
 Type: <b>WORD</b>
 
-The new keyboard shortcut. The virtual key code is in the low-order byte, and the modifier flags are in the high-order byte. The modifier flags can be a combination of the values specified in the description of the <a href="https://msdn.microsoft.com/4e3572bf-8d68-4485-99e8-bf47192be821">IShellLink::GetHotkey</a> method.
+The new keyboard shortcut. The virtual key code is in the low-order byte, and the modifier flags are in the high-order byte. The modifier flags can be a combination of the values specified in the description of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-gethotkey">IShellLink::GetHotkey</a> method.
 
 
 ## -returns

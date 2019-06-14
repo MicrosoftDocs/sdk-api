@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>IPSEC_TRAFFIC_STATISTICS1</b> structure stores IPsec traffic statistics.
-<div class="alert"><b>Note</b>  <b>IPSEC_TRAFFIC_STATISTICS1</b> is the specific implementation of IPSEC_TRAFFIC_STATISTICS used in Windows 7 and later. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <a href="https://msdn.microsoft.com/70f67966-0ced-49a7-9d27-6976ee0bd89c">IPSEC_TRAFFIC_STATISTICS0</a> is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>IPSEC_TRAFFIC_STATISTICS1</b> is the specific implementation of IPSEC_TRAFFIC_STATISTICS used in Windows 7 and later. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic_statistics0_">IPSEC_TRAFFIC_STATISTICS0</a> is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -97,7 +97,7 @@ The total number of packets that were successfully transmitted.
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

@@ -61,7 +61,7 @@ Retrieves a text range subset that has the specified text attribute value.
 
 Type: <b>TEXTATTRIBUTEID</b>
 
-The identifier of the text attribute for the text range subset being retrieved. For a list of text attribute IDs, see <a href="https://msdn.microsoft.com/67d86817-6a3f-4047-88d9-34f33f52a563">Text Attribute Identifiers</a>.
+The identifier of the text attribute for the text range subset being retrieved. For a list of text attribute IDs, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-textattribute-ids">Text Attribute Identifiers</a>.
 
 
 ### -param val [in]
@@ -73,14 +73,14 @@ The value of the attribute. This value must match the type specified for the att
 
 ### -param backward [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> if the last occurring text range should be returned instead of the first; otherwise <b>FALSE</b>.
 
 
 ### -param found [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/1037919d-c8df-4d46-b3ce-62ee23c92145">IUIAutomationTextRange</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextrange">IUIAutomationTextRange</a>**</b>
 
 Receives a pointer to the text range having a matching attribute and attribute value; otherwise <b>NULL</b>.
 
@@ -89,7 +89,7 @@ Receives a pointer to the text range having a matching attribute and attribute v
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -100,7 +100,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The <b>FindAttribute</b> method retrieves matching text regardless of whether the text is hidden or visible. Use <a href="https://msdn.microsoft.com/en-us/library/Ee671662(v=VS.85).aspx">UIA_IsHiddenAttributeId</a> to check text visibility.
+The <b>FindAttribute</b> method retrieves matching text regardless of whether the text is hidden or visible. Use <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-textattribute-ids">UIA_IsHiddenAttributeId</a> to check text visibility.
 
 
 
@@ -110,11 +110,11 @@ The <b>FindAttribute</b> method retrieves matching text regardless of whether th
 
 
 
-<a href="https://msdn.microsoft.com/1037919d-c8df-4d46-b3ce-62ee23c92145">IUIAutomationTextRange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextrange">IUIAutomationTextRange</a>
 
 
 
-<a href="https://msdn.microsoft.com/98a82ff8-f4b9-4f62-ae69-31a2c18de70e">UI Automation Support for Textual Content</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>
  
 
  

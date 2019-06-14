@@ -92,7 +92,7 @@ Bevel effect
 
 
 
-<a href="https://msdn.microsoft.com/6D05705E-B249-4C6F-9F13-C3A1F52EBF7F">FillType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-filltype">FillType</a>
  
 
  

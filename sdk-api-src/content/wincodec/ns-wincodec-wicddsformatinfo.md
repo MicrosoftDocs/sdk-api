@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> and block information of a DDS format.
+Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> and block information of a DDS format.
 
 
 ## -struct-fields
@@ -59,9 +59,9 @@ Specifies the <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85
 
 ### -field DxgiFormat
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a></b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>
+The <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>
 
 
 
@@ -69,21 +69,21 @@ The <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DX
 
 Type: <b>UINT</b>
 
-The size of a single block in bytes. For <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> values that are not block-based, the value is equal to the size of a single pixel in bytes.
+The size of a single block in bytes. For <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> values that are not block-based, the value is equal to the size of a single pixel in bytes.
 
 
 ### -field BlockWidth
 
 Type: <b>UINT</b>
 
-The width of a single block in pixels. For <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> values that are not block-based, the value is 1.
+The width of a single block in pixels. For <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> values that are not block-based, the value is 1.
 
 
 ### -field BlockHeight
 
 Type: <b>UINT</b>
 
-The height of a single block in pixels. For <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> values that are not block-based, the value is 1.
+The height of a single block in pixels. For <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> values that are not block-based, the value is 1.
 
 
 ## -see-also
@@ -91,7 +91,7 @@ The height of a single block in pixels. For <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>
  
 
  

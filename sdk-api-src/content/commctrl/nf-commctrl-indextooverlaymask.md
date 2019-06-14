@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Prepares the index of an overlay mask so that the <a href="https://msdn.microsoft.com/en-us/library/Bb761533(v=VS.85).aspx">ImageList_Draw</a> function can use it. 
+Prepares the index of an overlay mask so that the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_draw">ImageList_Draw</a> function can use it. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Prepares the index of an overlay mask so that the <a href="https://msdn.microsof
 
 ### -param i
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 An index of an overlay mask. 
 

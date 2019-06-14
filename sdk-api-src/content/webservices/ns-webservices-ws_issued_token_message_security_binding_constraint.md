@@ -97,7 +97,7 @@ If this value is 0, then the claimConstraints array may be
 A set of property constraints relating to how to request a security token.
                 
 
-See <a href="https://msdn.microsoft.com/en-us/library/Dd323366(v=VS.85).aspx">WS_REQUEST_SECURITY_TOKEN_PROPERTY_CONSTRAINT</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_request_security_token_property_constraint">WS_REQUEST_SECURITY_TOKEN_PROPERTY_CONSTRAINT</a> for more information.
                 
 
 
@@ -112,7 +112,7 @@ If the array has zero elements, the requestSecurityTokenPropertyConstraints fiel
 
 ### -field out
 
-When <a href="https://msdn.microsoft.com/6e5f352b-5422-4bba-9525-7850bdddf0a5">WsMatchPolicyAlternative</a> returns NOERROR, the
+When <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsmatchpolicyalternative">WsMatchPolicyAlternative</a> returns NOERROR, the
                     entire contents of this structure will be filled out.
                 
 
@@ -134,9 +134,9 @@ When <a href="https://msdn.microsoft.com/6e5f352b-5422-4bba-9525-7850bdddf0a5">W
 
 
 The information extracted using this binding constraint can be used
-                with <a href="https://msdn.microsoft.com/ee754a7d-73a9-49ae-afc7-b443fbbe0cce">WsRequestSecurityToken</a> to obtain an issued token.
+                with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsrequestsecuritytoken">WsRequestSecurityToken</a> to obtain an issued token.
                 The issued token can then be used with the 
-                <a href="https://msdn.microsoft.com/en-us/library/Dd323568(v=VS.85).aspx">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a> security binding.
+                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_token_message_security_binding">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a> security binding.
             
 
 This binding constraint is typically used in federated security

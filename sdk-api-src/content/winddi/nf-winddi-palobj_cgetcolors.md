@@ -59,7 +59,7 @@ The <b>PALOBJ_cGetColors</b> function copies RGB colors from an indexed palette.
 
 ### -param ppalo
 
-Pointer to the <a href="https://msdn.microsoft.com/7c126067-eff8-4387-9fa7-2cde60796471">PALOBJ</a> structure that contains the RGB colors to be copied.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_palobj">PALOBJ</a> structure that contains the RGB colors to be copied.
 
 
 ### -param iStart
@@ -90,7 +90,7 @@ The return value is the number of colors written if the function is successful. 
 
 
 
-A graphics driver can call this function in its implementation of <a href="https://msdn.microsoft.com/b7be48e6-188b-4b23-a494-30adcc18f12e">DrvSetPalette</a>.
+A graphics driver can call this function in its implementation of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvsetpalette">DrvSetPalette</a>.
 
 
 
@@ -100,11 +100,11 @@ A graphics driver can call this function in its implementation of <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/b7be48e6-188b-4b23-a494-30adcc18f12e">DrvSetPalette</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvsetpalette">DrvSetPalette</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c126067-eff8-4387-9fa7-2cde60796471">PALOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_palobj">PALOBJ</a>
  
 
  

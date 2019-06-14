@@ -85,7 +85,7 @@ You can use this handle to associate the session with a decoder. This enables th
 
 
 
-<a href="https://msdn.microsoft.com/E17F39CB-61E3-44EF-805D-AD386743744E">ID3D11CryptoSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11cryptosession">ID3D11CryptoSession</a>
  
 
  

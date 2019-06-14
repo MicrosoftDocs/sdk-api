@@ -59,7 +59,7 @@ Sets properties that should be applied to an item.
 
 ### -param pproparray [in]
 
-Type: <b><a href="https://msdn.microsoft.com/c7de40d0-9fe6-4c4b-ba17-c4648501ce0a">IPropertyChangeArray</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertychangearray">IPropertyChangeArray</a>*</b>
 
 An array of properties and their changed values.
 

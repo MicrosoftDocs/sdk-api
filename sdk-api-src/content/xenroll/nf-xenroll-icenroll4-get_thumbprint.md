@@ -54,9 +54,9 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>ThumbPrint</b> property sets or retrieves a <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> of the certificate data.
+The <b>ThumbPrint</b> property sets or retrieves a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> of the certificate data.
 
-This property was first defined in the <a href="https://msdn.microsoft.com/4e3e3792-aa41-46fe-bf75-26c2b8959f7a">ICEnroll4</a> interface.
+This property was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a> interface.
 
 This property is read/write.
 

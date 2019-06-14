@@ -64,7 +64,7 @@ Returns the result of the asynchronous operation. The return value is E_PENDING 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 Returns the result of the asynchronous operation. The return value is E_PENDING if the operation has not yet completed.
 
@@ -76,7 +76,7 @@ Returns the result of the asynchronous operation. The return value is E_PENDING 
 
 
 
-<a href="https://msdn.microsoft.com/8F267213-EB98-4AD9-826A-7D4E34FEB3E4">IDWriteAsyncResult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwriteasyncresult">IDWriteAsyncResult</a>
  
 
  

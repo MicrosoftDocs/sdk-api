@@ -63,7 +63,7 @@ The <code>put_Mode</code> method sets a multifunction tuner to the specified mod
 
 ### -param lMode [in]
 
-Flag indicating which mode to switch to. Possible values are defined in the <a href="https://msdn.microsoft.com/ce5e6f6d-da79-4a86-abd4-bb28e66d5947">AMTunerModeType</a> enumeration.
+Flag indicating which mode to switch to. Possible values are defined in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagamtunermodetype">AMTunerModeType</a> enumeration.
 
 You can also set the mode to digital TV if the card supports it. To do this, define AMTUNER_MODE_DTV with a value of 0x0010.
 
@@ -82,15 +82,15 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/997d39c5-a1a5-4d2d-8704-9846f149712c">IAMTuner Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/74025309-2aab-4e0f-95bc-8e6a1e2a5bb4">IAMTuner::GetAvailableModes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtuner-getavailablemodes">IAMTuner::GetAvailableModes</a>
  
 
  

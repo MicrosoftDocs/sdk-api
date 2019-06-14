@@ -82,11 +82,11 @@ The Media Engine has started the resource selection algorithm, but has not selec
 
 
 
-<a href="https://msdn.microsoft.com/7CCA902A-51E9-4B6D-B16C-643177BE1BC9">IMFMediaEngine::GetNetworkState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getnetworkstate">IMFMediaEngine::GetNetworkState</a>
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

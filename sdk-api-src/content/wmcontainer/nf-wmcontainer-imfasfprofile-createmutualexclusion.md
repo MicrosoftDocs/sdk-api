@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Creates a new Advanced Systems Format (ASF) mutual exclusion object. Mutual exclusion objects can be added to a profile by calling the <a href="https://msdn.microsoft.com/d9069feb-7d39-4b40-b95e-0112d959bbae">AddMutualExclusion</a> method.
+Creates a new Advanced Systems Format (ASF) mutual exclusion object. Mutual exclusion objects can be added to a profile by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-addmutualexclusion">AddMutualExclusion</a> method.
 
 
 
@@ -63,7 +63,7 @@ Creates a new Advanced Systems Format (ASF) mutual exclusion object. Mutual excl
 
 ### -param ppIMutex [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/9c2278ec-77d1-445e-94bc-44e5d48f14ae">IMFASFMutualExclusion</a> interface of the new object. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmutualexclusion">IMFASFMutualExclusion</a> interface of the new object. The caller must release the interface.
 
 
 ## -returns
@@ -98,7 +98,7 @@ The method succeeded.
 
 
 
-The ASF mutual exclusion object created by this method is not associated with the profile. Call <a href="https://msdn.microsoft.com/d9069feb-7d39-4b40-b95e-0112d959bbae">IMFASFProfile::AddMutualExclusion</a> after configuring the object to make this association.
+The ASF mutual exclusion object created by this method is not associated with the profile. Call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-addmutualexclusion">IMFASFProfile::AddMutualExclusion</a> after configuring the object to make this association.
 
 
 
@@ -108,15 +108,15 @@ The ASF mutual exclusion object created by this method is not associated with th
 
 
 
-<a href="https://msdn.microsoft.com/03a0981b-29c3-450d-aa58-bc56a76e6cb6">ASF Profile</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-profile">ASF Profile</a>
 
 
 
-<a href="https://msdn.microsoft.com/9c2278ec-77d1-445e-94bc-44e5d48f14ae">IMFASFMutualExclusion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmutualexclusion">IMFASFMutualExclusion</a>
 
 
 
-<a href="https://msdn.microsoft.com/fe441c61-1be7-4fda-a2a3-bd79ecf4e54c">IMFASFProfile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfprofile">IMFASFProfile</a>
  
 
  

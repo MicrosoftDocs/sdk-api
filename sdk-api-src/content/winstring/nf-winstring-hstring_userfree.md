@@ -83,7 +83,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>
  
 
  

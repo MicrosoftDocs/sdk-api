@@ -59,51 +59,51 @@ Describes the blend state for a render target for a Direct3D 10.1 device
 
 ### -field BlendEnable
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Enable (or disable) blending.
 
 
 ### -field SrcBlend
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb204892(v=VS.85).aspx">D3D10_BLEND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_blend">D3D10_BLEND</a></b>
 
-This <a href="https://msdn.microsoft.com/en-us/library/Bb204892(v=VS.85).aspx">blend option</a> specifies the first RGB data source and includes an optional pre-blend operation.
+This <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_blend">blend option</a> specifies the first RGB data source and includes an optional pre-blend operation.
 
 
 ### -field DestBlend
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb204892(v=VS.85).aspx">D3D10_BLEND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_blend">D3D10_BLEND</a></b>
 
-This <a href="https://msdn.microsoft.com/en-us/library/Bb204892(v=VS.85).aspx">blend option</a> specifies the second RGB data source and includes an optional pre-blend operation.
+This <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_blend">blend option</a> specifies the second RGB data source and includes an optional pre-blend operation.
 
 
 ### -field BlendOp
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb204894(v=VS.85).aspx">D3D10_BLEND_OP</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_blend_op">D3D10_BLEND_OP</a></b>
 
-This <a href="https://msdn.microsoft.com/en-us/library/Bb204894(v=VS.85).aspx">blend operation</a> defines how to combine the RGB data sources.
+This <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_blend_op">blend operation</a> defines how to combine the RGB data sources.
 
 
 ### -field SrcBlendAlpha
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb204892(v=VS.85).aspx">D3D10_BLEND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_blend">D3D10_BLEND</a></b>
 
-This <a href="https://msdn.microsoft.com/en-us/library/Bb204892(v=VS.85).aspx">blend option</a> specifies the first alpha data source and includes an optional pre-blend operation. Blend options that end in _COLOR are not allowed.
+This <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_blend">blend option</a> specifies the first alpha data source and includes an optional pre-blend operation. Blend options that end in _COLOR are not allowed.
 
 
 ### -field DestBlendAlpha
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb204892(v=VS.85).aspx">D3D10_BLEND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_blend">D3D10_BLEND</a></b>
 
-This <a href="https://msdn.microsoft.com/en-us/library/Bb204892(v=VS.85).aspx">blend option</a> specifies the second alpha data source and includes an optional pre-blend operation. Blend options that end in _COLOR are not allowed.
+This <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_blend">blend option</a> specifies the second alpha data source and includes an optional pre-blend operation. Blend options that end in _COLOR are not allowed.
 
 
 ### -field BlendOpAlpha
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb204894(v=VS.85).aspx">D3D10_BLEND_OP</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_blend_op">D3D10_BLEND_OP</a></b>
 
-This <a href="https://msdn.microsoft.com/en-us/library/Bb204894(v=VS.85).aspx">blend operation</a> defines how to combine the alpha data sources.
+This <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_blend_op">blend operation</a> defines how to combine the alpha data sources.
 
 
 ### -field RenderTargetWriteMask
@@ -117,7 +117,7 @@ A write mask.
 
 
 
-To see how blending is done, see <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">Output-Merger Stage (Direct3D 10)</a>.
+To see how blending is done, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage">Output-Merger Stage (Direct3D 10)</a>.
 
 These are the default values for blend state.
 
@@ -169,7 +169,7 @@ These are the default values for blend state.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205153(v=VS.85).aspx">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-structures">Core Structures</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains flags for the <a href="https://msdn.microsoft.com/84885FEF-7F6D-4BE3-BF63-F9EC0C7E2D88">IMF2DBuffer2::Lock2DSize</a> method.
+Contains flags for the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imf2dbuffer2-lock2dsize">IMF2DBuffer2::Lock2DSize</a> method.
 
 
 ## -enum-fields
@@ -87,7 +87,7 @@ Reserved. This member forces the enumeration type to compile as a <b>DWORD</b> v
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

@@ -66,7 +66,7 @@ The token (name) for the command.
 ### -field pfnCmdHandler
 
 A function that handles the command. For more information, see 
-<a href="https://msdn.microsoft.com/5058e202-9ad4-4789-97db-3c13b4a1c337">FN_HANDLE_CMD</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nc-netsh-fn_handle_cmd">FN_HANDLE_CMD</a>.
 
 
 ### -field dwShortCmdHelpToken
@@ -82,13 +82,13 @@ The message to display if the command is followed only by a help token (HELP, /?
 ### -field dwFlags
 
 The flags for the command. For more information, see 
-<a href="https://msdn.microsoft.com/61dfa4ae-cf70-4858-be10-f77a318eaa28">Netshell Flags</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netshell/netshell-flags">Netshell Flags</a>.
 
 
 ### -field pOsVersionCheck
 
 The operating system version check function. This is the function used to determine whether the command can be run on the operating system running on the local and/or remote context before invoking or displaying commands. For more information, see 
-<a href="https://msdn.microsoft.com/d58258ac-a16a-4983-bf35-71153dcbe652">NS_OSVERSIONCHECK</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nc-netsh-ns_osversioncheck">NS_OSVERSIONCHECK</a>.
 
 
 ## -remarks
@@ -167,15 +167,15 @@ CMD_ENTRY  g_SampleShowCmdTable[] =
 
 
 
-<a href="https://msdn.microsoft.com/dc0d6449-f635-417c-8363-51e61c417051">CMD_GROUP_ENTRY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/ns-netsh-_cmd_group_entry">CMD_GROUP_ENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/2380cd4e-5e41-4bfb-874c-50be09044c85">NS_CONTEXT_COMMIT_FN</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nc-netsh-ns_context_commit_fn">NS_CONTEXT_COMMIT_FN</a>
 
 
 
-<a href="https://msdn.microsoft.com/61dfa4ae-cf70-4858-be10-f77a318eaa28">NetShell Flags</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netshell/netshell-flags">NetShell Flags</a>
  
 
  

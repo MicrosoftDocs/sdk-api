@@ -60,12 +60,12 @@ The <b>GetNetworks</b> method retrieves the list of networks available on the lo
 ### -param Flags [in]
 
 
-<a href="https://msdn.microsoft.com/37eb1e2e-d769-4e58-b93d-582312bd500a">NLM_ENUM_NETWORK</a> enumeration value that specifies the flags for the network (specifically, connected or not connected).
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ne-netlistmgr-nlm_enum_network">NLM_ENUM_NETWORK</a> enumeration value that specifies the flags for the network (specifically, connected or not connected).
 
 
 ### -param ppEnumNetwork [out]
 
-Pointer to a pointer that receives an <a href="https://msdn.microsoft.com/ce2b65e5-89fe-48c9-aa00-373406891d02">IEnumNetworks</a> interface instance that contains the enumerator for the list of available networks.
+Pointer to a pointer that receives an <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-ienumnetworks">IEnumNetworks</a> interface instance that contains the enumerator for the list of available networks.
 
 
 ## -returns
@@ -112,7 +112,7 @@ The GUID is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/a9f76b6a-ea15-47b7-a4ef-14ea60b7810d">INetworkListManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworklistmanager">INetworkListManager</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents service status notification information. It is used by the <a href="https://msdn.microsoft.com/e22b7f69-f096-486f-97fa-0465bef499cd">NotifyServiceStatusChange</a>function.
+Represents service status notification information. It is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-notifyservicestatuschangea">NotifyServiceStatusChange</a>function.
 
 
 ## -struct-fields
@@ -76,12 +76,12 @@ Any user-defined data to be passed to the callback function.
 
 ### -field dwNotificationStatus
 
-A value that indicates the notification status. If this member is <b>ERROR_SUCCESS</b>, the notification has succeeded and the <b>ServiceStatus</b> member contains valid information. If this member is <b>ERROR_SERVICE_MARKED_FOR_DELETE</b>, the service has been marked for deletion and the service handle used by <a href="https://msdn.microsoft.com/e22b7f69-f096-486f-97fa-0465bef499cd">NotifyServiceStatusChange</a> must be closed.
+A value that indicates the notification status. If this member is <b>ERROR_SUCCESS</b>, the notification has succeeded and the <b>ServiceStatus</b> member contains valid information. If this member is <b>ERROR_SERVICE_MARKED_FOR_DELETE</b>, the service has been marked for deletion and the service handle used by <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-notifyservicestatuschangea">NotifyServiceStatusChange</a> must be closed.
 
 
 ### -field ServiceStatus
 
-A <a href="https://msdn.microsoft.com/303986a0-c51e-4078-a3ca-d59e5a302b36">SERVICE_STATUS_PROCESS</a> structure that contains the service status information. This member is only valid if <b>dwNotificationStatus</b> is <b>ERROR_SUCCESS</b>.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_status_process">SERVICE_STATUS_PROCESS</a> structure that contains the service status information. This member is only valid if <b>dwNotificationStatus</b> is <b>ERROR_SUCCESS</b>.
 
 
 ### -field dwNotificationTriggered
@@ -93,7 +93,7 @@ If <b>dwNotificationStatus</b> is <b>ERROR_SUCCESS</b>, this member contains a b
 
 If <b>dwNotificationStatus</b> is <b>ERROR_SUCCESS</b> and the notification is <b>SERVICE_NOTIFY_CREATED</b> or <b>SERVICE_NOTIFY_DELETED</b>, this member is valid and it is a <b>MULTI_SZ</b> string that contains one or more service names. The names of the created services will have a '/' prefix so you can distinguish them from the names of the deleted services.
 
-If this member is valid, the notification callback function must free the string using the <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a> function.
+If this member is valid, the notification callback function must free the string using the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
 
 ## -remarks
@@ -115,11 +115,11 @@ The callback function receives a pointer to the <b>SERVICE_NOTIFY</b> structure 
 
 
 
-<a href="https://msdn.microsoft.com/e22b7f69-f096-486f-97fa-0465bef499cd">NotifyServiceStatusChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-notifyservicestatuschangea">NotifyServiceStatusChange</a>
 
 
 
-<a href="https://msdn.microsoft.com/303986a0-c51e-4078-a3ca-d59e5a302b36">SERVICE_STATUS_PROCESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_status_process">SERVICE_STATUS_PROCESS</a>
  
 
  

@@ -64,7 +64,7 @@ A pointer to a <b>RECT</b> structure that identifies the region of the surface t
 
 ### -param arg2 [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550340">DDSURFACEDESC2</a> structure that describes relevant details about the surface and that receives information about the surface.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550340(v=vs.85)">DDSURFACEDESC2</a> structure that describes relevant details about the surface and that receives information about the surface.
 
 
 ### -param arg3 [in]
@@ -75,7 +75,7 @@ A combination of flags that determine how to lock the surface. The following fla
 
 #### DDLOCK_DONOTWAIT
 
-On <a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f764ad29756">IDirectDrawSurface7</a> interfaces, the default is DDLOCK_WAIT. If you want to override the default and use time when the accelerator is busy (as denoted by the DDERR_WASSTILLDRAWING return value), use DDLOCK_DONOTWAIT.
+On <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a> interfaces, the default is DDLOCK_WAIT. If you want to override the default and use time when the accelerator is busy (as denoted by the DDERR_WASSTILLDRAWING return value), use DDLOCK_DONOTWAIT.
 
 
 
@@ -162,19 +162,19 @@ If it fails, the method can return one of the following error values:
 
 
 
-In <a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f764ad29756">IDirectDrawSurface7</a>, the default behavior of <b>Lock</b> is to wait for the accelerator to finish. Therefore, under default conditions, <b>Lock</b> never returns DDERR_WASSTILLDRAWING. If you want to see the error codes and not wait until the bitblt operation succeeds, use the DDLOCK_DONOTWAIT flag.
+In <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>, the default behavior of <b>Lock</b> is to wait for the accelerator to finish. Therefore, under default conditions, <b>Lock</b> never returns DDERR_WASSTILLDRAWING. If you want to see the error codes and not wait until the bitblt operation succeeds, use the DDLOCK_DONOTWAIT flag.
 
-After retrieving a surface memory pointer, you can access the surface memory until a corresponding <a href="https://msdn.microsoft.com/1606869a-83b1-4278-a0b5-c183cc7ea285">IDirectDrawSurface7::Unlock</a> method is called. When the surface is unlocked, the pointer to the surface memory is invalid.
+After retrieving a surface memory pointer, you can access the surface memory until a corresponding <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-unlock">IDirectDrawSurface7::Unlock</a> method is called. When the surface is unlocked, the pointer to the surface memory is invalid.
 
 Do not call DirectDraw bitblt functions to bitblt from a locked region of a surface. If you do, the bitblt returns either DDERR_SURFACEBUSY or DDERR_LOCKEDSURFACES. GDI blit functions also silently fail when used on a locked video memory surface.
 
 
 
-Unless you include the DDLOCK_NOSYSLOCK flag, <b>Lock</b> causes DirectDraw to hold the Win16Mutex (also known as Win16Lock) until you call the <a href="https://msdn.microsoft.com/1606869a-83b1-4278-a0b5-c183cc7ea285">IDirectDrawSurface7::Unlock</a> method. GUI debuggers cannot operate while the Win16Mutex is held.
+Unless you include the DDLOCK_NOSYSLOCK flag, <b>Lock</b> causes DirectDraw to hold the Win16Mutex (also known as Win16Lock) until you call the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-unlock">IDirectDrawSurface7::Unlock</a> method. GUI debuggers cannot operate while the Win16Mutex is held.
 
 
 
-You must use <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> to access the <b>Lock</b> method.
+You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>Lock</b> method.
 
 
 
@@ -184,7 +184,7 @@ You must use <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d
 
 
 
-<a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f764ad29756">IDirectDrawSurface7</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
  
 
  

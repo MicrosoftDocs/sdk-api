@@ -68,9 +68,9 @@ The new offset of the visual along the x-axis, in pixels.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/8DFBFC34-DBD0-4731-8305-B33E90C96C54">DirectComposition Error Codes</a>  for a list of error codes.
+If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/directcomp/directcomposition-error-codes">DirectComposition Error Codes</a>  for a list of error codes.
 
 
 
@@ -89,7 +89,7 @@ Changing the OffsetX property of a visual transforms the coordinate system of th
 
 
 
-A transformation that is specified by the Transform property is applied after the OffsetX property.  In other words, the effect of setting the Transform property and the OffsetX property is the same as setting only the Transform property on a transform group  object where the first member of the group is an <a href="https://msdn.microsoft.com/2215721e-a10d-4c9e-b5b7-1698afa547d8">IDCompositionTranslateTransform</a> object that has the same OffsetX value as <i>offsetX</i>. However, you should use  <b>IDCompositionVisual::SetOffsetX</b> whenever possible because it is slightly faster.
+A transformation that is specified by the Transform property is applied after the OffsetX property.  In other words, the effect of setting the Transform property and the OffsetX property is the same as setting only the Transform property on a transform group  object where the first member of the group is an <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiontranslatetransform">IDCompositionTranslateTransform</a> object that has the same OffsetX value as <i>offsetX</i>. However, you should use  <b>IDCompositionVisual::SetOffsetX</b> whenever possible because it is slightly faster.
 
 If the OffsetX and OffsetY properties are set to 0, and the Transform property is set to NULL, the coordinate system of the visual is the same as that of its parent.
 
@@ -99,7 +99,7 @@ If the OffsetX property was previously animated, this method removes the animati
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/86006C3C-67A8-4931-BE76-D0CA9DB19505">How to Build a Simple Visual Tree</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/directcomp/how-to--build-a-visual-tree">How to Build a Simple Visual Tree</a>.
 
 <div class="code"></div>
 
@@ -110,15 +110,15 @@ For an example, see <a href="https://msdn.microsoft.com/86006C3C-67A8-4931-BE76-
 
 
 
-<a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual">IDCompositionVisual</a>
 
 
 
-<a href="https://msdn.microsoft.com/E364BDB4-57E0-4206-9095-F39E6B5B9190">IDCompositionVisual::SetOffsetY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh449171(v=vs.85)">IDCompositionVisual::SetOffsetY</a>
 
 
 
-<a href="https://msdn.microsoft.com/DA3CBBB6-DB0A-4FCE-9DAC-7A767783A18D">IDCompositionVisual::SetTransform</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh449178(v=vs.85)">IDCompositionVisual::SetTransform</a>
  
 
  

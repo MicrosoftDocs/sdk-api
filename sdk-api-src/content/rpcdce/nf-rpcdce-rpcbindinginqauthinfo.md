@@ -71,7 +71,7 @@ Returns a pointer to a pointer to the expected principal name of the server refe
 
 Specify a null value to prevent 
 <b>RpcBindingInqAuthInfo</b> from returning the <i>ServerPrincName</i> parameter. In this case, the application does not call the 
-<a href="https://msdn.microsoft.com/07226282-1091-4479-adc8-b2f604c645e7">RpcStringFree</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a> function.
 
 
 ### -param AuthnLevel
@@ -81,7 +81,7 @@ Returns a pointer set to the level of authentication used for remote procedure c
 Specify a null value to prevent the function from returning the <i>AuthnLevel</i> parameter.
 
 The level returned in the <i>AuthnLevel</i> parameter may be different from the level specified when the client called the 
-<a href="https://msdn.microsoft.com/2db946b6-6a0d-402c-89ef-68c7489aa7ee">RpcBindingSetAuthInfo</a> function. This discrepancy occurs when the RPC run-time library does not support the authentication level specified by the client and automatically upgrades to the next higher authentication level.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfo">RpcBindingSetAuthInfo</a> function. This discrepancy occurs when the RPC run-time library does not support the authentication level specified by the client and automatically upgrades to the next higher authentication level.
 
 
 ### -param AuthnSvc
@@ -108,7 +108,7 @@ Specify a null value to prevent
 <b>RpcBindingInqAuthInfo</b> from returning the <i>AuthzSvc</i> parameter.
 
 <div class="alert"><b>Note</b>  For a list of the RPC-supported authentication services, see 
-<a href="https://msdn.microsoft.com/ac95276f-230d-4993-92fe-1739d022c8b3">Authentication-Service Constants</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/authentication-service-constants">Authentication-Service Constants</a>.</div>
 <div> </div>
 
 ## -returns
@@ -168,7 +168,7 @@ Binding has no authentication information.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -179,10 +179,10 @@ Binding has no authentication information.
 
 A client application calls the 
 <b>RpcBindingInqAuthInfo</b> function to view the authentication and authorization information associated with a server binding handle. A similar function, 
-<a href="https://msdn.microsoft.com/e75f5ba6-7a1c-4069-8810-05aa38a47e9c">RpcBindingInqAuthInfoEx</a> additionally provides security quality-of-service information on the binding handle.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindinginqauthinfoexa">RpcBindingInqAuthInfoEx</a> additionally provides security quality-of-service information on the binding handle.
 
 The RPC run-time library allocates memory for the returned <i>ServerPrincName</i> parameter. The application is responsible for calling the 
-<a href="https://msdn.microsoft.com/07226282-1091-4479-adc8-b2f604c645e7">RpcStringFree</a> function for that returned argument string.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a> function for that returned argument string.
 
 
 
@@ -192,23 +192,23 @@ The RPC run-time library allocates memory for the returned <i>ServerPrincName</i
 
 
 
-<a href="https://msdn.microsoft.com/2834a6a8-8bd6-4829-84ea-e3f35c917ab7">RpcBindingInqAuthClient</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindinginqauthclient">RpcBindingInqAuthClient</a>
 
 
 
-<a href="https://msdn.microsoft.com/e75f5ba6-7a1c-4069-8810-05aa38a47e9c">RpcBindingInqAuthInfoEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindinginqauthinfoexa">RpcBindingInqAuthInfoEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/f148c827-d18a-41f2-834a-f6b77b331bcc">RpcBindingInqOption</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindinginqoption">RpcBindingInqOption</a>
 
 
 
-<a href="https://msdn.microsoft.com/2db946b6-6a0d-402c-89ef-68c7489aa7ee">RpcBindingSetAuthInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfo">RpcBindingSetAuthInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/07226282-1091-4479-adc8-b2f604c645e7">RpcStringFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a>
  
 
  

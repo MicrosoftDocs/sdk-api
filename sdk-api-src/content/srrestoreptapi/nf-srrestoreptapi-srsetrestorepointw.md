@@ -55,7 +55,7 @@ ms.custom: 19H1
 Specifies the beginning and the ending of a set of changes so that System Restore can create a restore point.
 
 For a scriptable equivalent, see 
-<a href="https://msdn.microsoft.com/30e1ff03-816c-463f-9f80-6d84149f0e0b">CreateRestorePoint</a>.
+<a href="https://docs.microsoft.com/windows/desktop/sr/createrestorepoint-systemrestore">CreateRestorePoint</a>.
 
 
 ## -parameters
@@ -66,13 +66,13 @@ For a scriptable equivalent, see
 ### -param pRestorePtSpec [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/6f3c1fab-5298-47bb-ba38-87d11f111245">RESTOREPOINTINFO</a> structure that specifies the restore point.
+<a href="https://docs.microsoft.com/windows/desktop/api/srrestoreptapi/ns-srrestoreptapi-_restoreptinfoa">RESTOREPOINTINFO</a> structure that specifies the restore point.
 
 
 ### -param pSMgrStatus [out]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/3531474b-1499-4c83-ab32-8c464c0eece0">STATEMGRSTATUS</a> structure that receives the status information.
+<a href="https://docs.microsoft.com/windows/desktop/api/srrestoreptapi/ns-srrestoreptapi-_smgrstatus">STATEMGRSTATUS</a> structure that receives the status information.
 
 
 ## -returns
@@ -90,32 +90,32 @@ If the function fails, the return value is <b>FALSE</b>. The <b>nStatus</b> memb
 
 
 
-You must initialize COM security to allow NetworkService, LocalService and System to call back into any process that uses <b>SRSetRestorePoint</b>. This is necessary for <b>SRSetRestorePoint</b> to operate properly. For information on setting up the COM calls to <a href="https://msdn.microsoft.com/en-us/library/ms695279(v=VS.85).aspx">CoInitializeEx</a> and <a href="https://msdn.microsoft.com/en-us/library/ms693736(v=VS.85).aspx">CoInitializeSecurity</a>, see <a href="https://msdn.microsoft.com/98c79305-3659-4d1a-8165-bb6e451e2d1e">Using System Restore</a>.
+You must initialize COM security to allow NetworkService, LocalService and System to call back into any process that uses <b>SRSetRestorePoint</b>. This is necessary for <b>SRSetRestorePoint</b> to operate properly. For information on setting up the COM calls to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> and <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity">CoInitializeSecurity</a>, see <a href="https://docs.microsoft.com/windows/desktop/sr/using-system-restore">Using System Restore</a>.
 
 This function cannot be called in safe mode. It also fails if System Restore has been disabled (see 
-<a href="https://msdn.microsoft.com/2ad37dd4-7d80-4697-9dbb-abb329a34ff7">Disable</a>).
+<a href="https://docs.microsoft.com/windows/desktop/sr/disable-systemrestore">Disable</a>).
 
 When you call this function, System Restore takes a full snapshot of the registry and other system databases.
 
-Applications should not call System Restore functions using load-time dynamic linking. Instead, use the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> function to load SrClient.dll and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> to call the function.
+Applications should not call System Restore functions using load-time dynamic linking. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function to load SrClient.dll and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to call the function.
 
 Create restore points just prior to a system change, by calling 
 <b>SRSetRestorePoint</b> with the <b>dwEventType</b> member of the 
-<a href="https://msdn.microsoft.com/6f3c1fab-5298-47bb-ba38-87d11f111245">RESTOREPOINTINFO</a> structure set to BEGIN_SYSTEM_CHANGE. After the changes to the system have been completed, call 
+<a href="https://docs.microsoft.com/windows/desktop/api/srrestoreptapi/ns-srrestoreptapi-_restoreptinfoa">RESTOREPOINTINFO</a> structure set to BEGIN_SYSTEM_CHANGE. After the changes to the system have been completed, call 
 <b>SRSetRestorePoint</b> with <b>dwEventType</b> set to END_SYSTEM_CHANGE.
 
 If the user cancels the application installation, the installer may remove the restore point it created when the installation began. Removing the restore point is optional and can prevent the user from recovering from unintentional changes made by the installer during the cancellation. If the installer is to remove a restore point, it can call the 
-<a href="https://msdn.microsoft.com/e0f27947-7d88-4d15-8a92-85f88c3b60d4">SRRemoveRestorePoint</a> function, or call 
+<a href="https://docs.microsoft.com/windows/desktop/api/srrestoreptapi/nf-srrestoreptapi-srremoverestorepoint">SRRemoveRestorePoint</a> function, or call 
 <b>SRSetRestorePoint</b> with <b>dwRestorePointType</b> set to CANCELLED_OPERATION, <b>dwEventType</b> set to END_SYSTEM_CHANGE, and <b>llSequenceNumber</b> set to the value returned by the initial call to <b>SRSetRestorePoint</b>.
 
 Be careful when making nested calls to 
 <b>SRSetRestorePoint</b>. For more information, see 
-<a href="https://msdn.microsoft.com/ee2dea47-f95d-4293-ac33-eff622b84db6">Nested calls to SRSetRestorePoint</a>.
+<a href="https://docs.microsoft.com/windows/desktop/sr/nested-calls-to-srsetrestorepoint">Nested calls to SRSetRestorePoint</a>.
 
 
 <b>Windows 8:  </b><p class="note">A new registry key enables application developers to change the frequency of restore-point creation. 
 
-<p class="note">Applications should create this key to use it because it  will not preexist in the system. The following applies by default if the key does not exist. If an application calls the <b>SRSetRestorePoint</b> function to create a restore point, Windows skips creating this new restore point if any restore points have been created in the last 24 hours.   System Restore sets the <b>IISequenceNumber</b> member of the <a href="https://msdn.microsoft.com/3531474b-1499-4c83-ab32-8c464c0eece0">STATEMGRSTATUS</a> structure to the sequence number for the restore point created previously in the day and sets the value of the <b>nStatus</b> member to <b>ERROR_SUCCESS</b>.
+<p class="note">Applications should create this key to use it because it  will not preexist in the system. The following applies by default if the key does not exist. If an application calls the <b>SRSetRestorePoint</b> function to create a restore point, Windows skips creating this new restore point if any restore points have been created in the last 24 hours.   System Restore sets the <b>IISequenceNumber</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/srrestoreptapi/ns-srrestoreptapi-_smgrstatus">STATEMGRSTATUS</a> structure to the sequence number for the restore point created previously in the day and sets the value of the <b>nStatus</b> member to <b>ERROR_SUCCESS</b>.
 
 The <b>SRSetRestorePoint</b> function returns <b>TRUE</b>.
 
@@ -141,7 +141,7 @@ The <b>SRSetRestorePoint</b> function returns <b>TRUE</b>.
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/98c79305-3659-4d1a-8165-bb6e451e2d1e">Using System Restore</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/sr/using-system-restore">Using System Restore</a>.
 
 <div class="code"></div>
 
@@ -152,7 +152,7 @@ For an example, see <a href="https://msdn.microsoft.com/98c79305-3659-4d1a-8165-
 
 
 
-<a href="https://msdn.microsoft.com/e0f27947-7d88-4d15-8a92-85f88c3b60d4">SRRemoveRestorePoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/srrestoreptapi/nf-srrestoreptapi-srremoverestorepoint">SRRemoveRestorePoint</a>
  
 
  

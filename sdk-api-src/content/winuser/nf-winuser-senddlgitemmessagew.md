@@ -82,7 +82,7 @@ Type: <b>UINT</b>
 
 The message to be sent.
 
-For lists of the system-provided messages, see <a href="https://msdn.microsoft.com/en-us/library/ms644927(v=VS.85).aspx">System-Defined Messages</a>.
+For lists of the system-provided messages, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/about-messages-and-message-queues">System-Defined Messages</a>.
 
 
 ### -param wParam [in]
@@ -116,12 +116,12 @@ The return value specifies the result of the message processing and depends on t
 
 The <b>SendDlgItemMessage</b> function does not return until the message has been processed. 
 
-Using <b>SendDlgItemMessage</b> is identical to retrieving a handle to the specified control and calling the <a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a> function. 
+Using <b>SendDlgItemMessage</b> is identical to retrieving a handle to the specified control and calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> function. 
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644996(v=VS.85).aspx">Creating a Modeless Dialog Box</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/using-dialog-boxes">Creating a Modeless Dialog Box</a>.
 
 <div class="code"></div>
 
@@ -136,7 +136,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644996(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632588(v=VS.85).aspx">Dialog Boxes</a>
+<a href="https://docs.microsoft.com/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
 
 
 
@@ -144,7 +144,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644996(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>
  
 
  

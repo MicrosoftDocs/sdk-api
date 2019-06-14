@@ -49,15 +49,15 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/6429e748-e0bf-431a-8989-db5b211665d5">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 A WinSNMP application calls the 
 <b>SnmpSendMsg</b> function to request that the Microsoft WinSNMP implementation transmit an SNMP protocol data unit (PDU), in the form of an SNMP message. The WinSNMP application specifies a source entity, a destination entity, and a context for the request.
 
 If a WinSNMP application expects a PDU in response to a 
 <b>SnmpSendMsg</b> request, it must retrieve the PDU. To do this, the application must call the 
-<a href="https://msdn.microsoft.com/0e306e40-cccc-4083-b3ba-97b8ece0ae35">SnmpRecvMsg</a> function using the session handle returned by 
-<a href="https://msdn.microsoft.com/8d982eb5-a7b5-418e-94ad-3e5dc43d225c">SnmpCreateSession</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmprecvmsg">SnmpRecvMsg</a> function using the session handle returned by 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcreatesession">SnmpCreateSession</a>.
 
 
 ## -parameters
@@ -97,7 +97,7 @@ Handle to the protocol data unit that contains the SNMP operation request.
 If the function succeeds, the return value is SNMPAPI_SUCCESS.
 
 If the function fails, the return value is SNMPAPI_FAILURE. To get extended error information, call 
-<a href="https://msdn.microsoft.com/0cfb2bc3-cfa5-4806-9dcf-119541463e7b">SnmpGetLastError</a>. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpgetlasterror">SnmpGetLastError</a>. The 
 <b>SnmpGetLastError</b> function may return one of the following WinSNMP or network transport layer errors.
 
 <table>
@@ -113,7 +113,7 @@ If the function fails, the return value is SNMPAPI_FAILURE. To get extended erro
 </td>
 <td width="60%">
 The 
-<a href="https://msdn.microsoft.com/7b8a4a1e-871f-424b-8bcb-c0b3bfaae9ce">SnmpStartup</a> function did not complete successfully.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstartup">SnmpStartup</a> function did not complete successfully.
 
 </td>
 </tr>
@@ -286,7 +286,7 @@ An unknown or undefined error occurred.
  
 
 For additional information, see 
-<a href="https://msdn.microsoft.com/2ff535b1-76cb-42aa-baeb-14c1a1bc41ce">Network Transport Errors</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/network-transport-errors">Network Transport Errors</a>.
 
 
 
@@ -299,9 +299,9 @@ The
 <b>SnmpSendMsg</b> function executes asynchronously and therefore returns immediately.
 
 The implementation notifies the WinSNMP application when the asynchronous request is completed. The implementation does this by sending a notification message to the window specified by the <i>wMsg</i> and <i>hWnd</i> parameters, respectively, in the initial call to 
-<a href="https://msdn.microsoft.com/8d982eb5-a7b5-418e-94ad-3e5dc43d225c">SnmpCreateSession</a> for the session. When the application window receives the notification message, the WinSNMP application must retrieve the incoming PDU. The application does this by calling the 
-<a href="https://msdn.microsoft.com/0e306e40-cccc-4083-b3ba-97b8ece0ae35">SnmpRecvMsg</a> function with the session handle returned by 
-<a href="https://msdn.microsoft.com/8d982eb5-a7b5-418e-94ad-3e5dc43d225c">SnmpCreateSession</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcreatesession">SnmpCreateSession</a> for the session. When the application window receives the notification message, the WinSNMP application must retrieve the incoming PDU. The application does this by calling the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmprecvmsg">SnmpRecvMsg</a> function with the session handle returned by 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcreatesession">SnmpCreateSession</a>.
 
 When a WinSNMP application calls the 
 <b>SnmpSendMsg</b> function, the implementation determines which network transport protocol and SNMP version framework to use to complete the transmission request. The implementation determines this by matching its capabilities with properties associated with the requesting session and with the target management entity. This information is available from values in the implementation's database.
@@ -310,8 +310,8 @@ If a WinSNMP application requests functionality that is available under the SNMP
 <b>SnmpSendMsg</b> fails with the extended error code SNMPAPI_OPERATION_INVALID. This situation occurs, for example, when an application attempts to send a PDU with the <b>SNMP_PDU_InformRequest</b> data type to an SNMPv1 destination entity.
 
 For additional information, see 
-<a href="https://msdn.microsoft.com/70c24042-bf44-4484-8e5e-d117e2ba28d5">WinSNMP Programming Tasks</a> and 
-<a href="https://msdn.microsoft.com/9ba4b854-fc02-40c1-a92f-7c102c900e95">About SNMP Messages</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-programming-tasks">WinSNMP Programming Tasks</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/about-snmp-messages">About SNMP Messages</a>.
 
 
 
@@ -321,20 +321,20 @@ For additional information, see
 
 
 
-<a href="https://msdn.microsoft.com/8d982eb5-a7b5-418e-94ad-3e5dc43d225c">SnmpCreateSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcreatesession">SnmpCreateSession</a>
 
 
 
-<a href="https://msdn.microsoft.com/0e306e40-cccc-4083-b3ba-97b8ece0ae35">SnmpRecvMsg</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmprecvmsg">SnmpRecvMsg</a>
 
 
 
-<a href="https://msdn.microsoft.com/ae95ac47-81ff-4715-b3e9-e19c07223712">WinSNMP
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-functions">WinSNMP
 		  Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/54d9b61a-815a-41c3-9365-ec4478acc3f2">WinSNMP API Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>
  
 
  

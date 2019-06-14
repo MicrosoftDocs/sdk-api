@@ -73,7 +73,7 @@ Indicates whether the event is classic or crimson.
 
 ### -param Event [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/29b6f72a-ae81-4292-a023-a4bab16ae143">ITraceEvent</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itraceevent">ITraceEvent</a>**</b>
 
 The newly generated event.
 
@@ -103,11 +103,11 @@ Event metadata will be pulled from <i>TraceHandle</i> but can be modified by the
 
 
 
-<a href="https://msdn.microsoft.com/29b6f72a-ae81-4292-a023-a4bab16ae143">ITraceEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itraceevent">ITraceEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/08073b9a-5ae0-4e88-a502-647567418005">ITraceRelogger</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itracerelogger">ITraceRelogger</a>
  
 
  

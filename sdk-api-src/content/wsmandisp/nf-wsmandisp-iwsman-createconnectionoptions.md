@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an  <a href="https://msdn.microsoft.com/940097da-c5bb-4170-a2aa-fcbbee622fe6">IWSManConnectionOptions</a> object that specifies the user name and password used when  creating a session.
+Creates an  <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanconnectionoptions">IWSManConnectionOptions</a> object that specifies the user name and password used when  creating a session.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Creates an  <a href="https://msdn.microsoft.com/940097da-c5bb-4170-a2aa-fcbbee62
 
 ### -param connectionOptions [out]
 
-A pointer to a new <a href="https://msdn.microsoft.com/940097da-c5bb-4170-a2aa-fcbbee622fe6">IWSManConnectionOptions</a> object.
+A pointer to a new <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanconnectionoptions">IWSManConnectionOptions</a> object.
 
 
 ## -returns
@@ -76,11 +76,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/4e5acfa6-9883-4716-ac69-92161c926c66">IWSMan</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsman">IWSMan</a>
 
 
 
-<a href="https://msdn.microsoft.com/3669a5fe-8305-4fa3-aa75-fafefcd8b33d">WSMan.CreateConnectionOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinRM/wsman-createconnectionoptions">WSMan.CreateConnectionOptions</a>
  
 
  

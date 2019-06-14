@@ -121,17 +121,17 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/26139c8c-e1d9-4d7a-a0c0-ef73e572fbe4">ITfCategoryMgr
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcategorymgr">ITfCategoryMgr
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/d0de17d9-be3a-4f68-a77d-880047775952">ITfCategoryMgr::RegisterGUID
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registerguid">ITfCategoryMgr::RegisterGUID
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/91696612-1829-4052-81d1-eddc23278d35">TfGuidAtom
+<a href="https://docs.microsoft.com/windows/desktop/TSF/tfguidatom">TfGuidAtom
       </a>
  
 

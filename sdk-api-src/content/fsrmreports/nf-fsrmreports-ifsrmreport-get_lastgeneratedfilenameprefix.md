@@ -64,7 +64,7 @@ This property is read-only.
 
 The file names are generated to identify the collection of files that were generated for a report job the last time the report job ran.
 
-To determine where the reports are stored, access the <a href="https://msdn.microsoft.com/b72ce871-41e0-4321-8c9c-0ae77a02c7ff">IFsrmReportJob::LastGeneratedInDirectory</a> property.
+To determine where the reports are stored, access the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-get_lastgeneratedindirectory">IFsrmReportJob::LastGeneratedInDirectory</a> property.
 
 
 
@@ -74,7 +74,7 @@ To determine where the reports are stored, access the <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/2172a543-b3b7-453e-887b-05c8ee74f197">IFsrmReport</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreport">IFsrmReport</a>
  
 
  

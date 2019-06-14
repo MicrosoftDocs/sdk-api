@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SetProperty</b> method sets the specified value to the <a href="https://msdn.microsoft.com/f848cca6-3838-46bc-b1f4-d6eab5096046">AzAuthorizationStore</a> object property  with the specified property ID.
+The <b>SetProperty</b> method sets the specified value to the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore">AzAuthorizationStore</a> object property  with the specified property ID.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>SetProperty</b> method sets the specified value to the <a href="https://m
 
 ### -param lPropId [in]
 
-Property ID of the <a href="https://msdn.microsoft.com/f848cca6-3838-46bc-b1f4-d6eab5096046">AzAuthorizationStore</a> object property  to set. The following table shows the possible values.
+Property ID of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore">AzAuthorizationStore</a> object property  to set. The following table shows the possible values.
 
 <table>
 <tr>
@@ -73,7 +73,7 @@ Property ID of the <a href="https://msdn.microsoft.com/f848cca6-3838-46bc-b1f4-d
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/e512641d-a282-41f6-a7d8-5383ad43cd5b">DomainTimeout</a> property
+Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_domaintimeout">DomainTimeout</a> property
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/e512641d-a282-41f6
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/d18fe030-5177-4516-b4bf-6fea78abea52">MaxScriptEngines</a> property
+Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_maxscriptengines">MaxScriptEngines</a> property
 
 </td>
 </tr>
@@ -93,7 +93,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/d18fe030-5177-4516
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/7ac3db2d-11a6-4481-a86d-4b3a1063dee3">ScriptEngineTimeout</a> property
+Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_scriptenginetimeout">ScriptEngineTimeout</a> property
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/7ac3db2d-11a6-4481
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/21a76185-6bcf-405a-a2c5-5509b51ed16e">ApplicationData</a> property
+Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_applicationdata">ApplicationData</a> property
 
 </td>
 </tr>
@@ -113,7 +113,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/21a76185-6bcf-405a
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/fdace7a9-4b6b-4698-812d-c53fc3b8f0d8">ApplyStoreSacl</a> property
+Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_applystoresacl">ApplyStoreSacl</a> property
 
 </td>
 </tr>
@@ -123,7 +123,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/fdace7a9-4b6b-4698
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/79ef0e2f-3178-4310-832c-b0eea06cf1b0">Description</a> property
+Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_description">Description</a> property
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/79ef0e2f-3178-4310
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/e9362ae0-488d-4b6b-9a7b-c70fd85042ca">GenerateAudits</a> property
+Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_generateaudits">GenerateAudits</a> property
 
 </td>
 </tr>
@@ -143,7 +143,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/e9362ae0-488d-4b6b
 
 ### -param varProp [in]
 
-Value to set to the <a href="https://msdn.microsoft.com/f848cca6-3838-46bc-b1f4-d6eab5096046">AzAuthorizationStore</a> object property  specified by the <i>lPropId</i> parameter. The following table shows the type of data that must be used depending on the value of the <i>lPropId</i> parameter.
+Value to set to the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore">AzAuthorizationStore</a> object property  specified by the <i>lPropId</i> parameter. The following table shows the type of data that must be used depending on the value of the <i>lPropId</i> parameter.
 
 <table>
 <tr>
@@ -251,7 +251,7 @@ Any other <b>HRESULT</b> value indicates that the operation failed.
 
 
 
-You must call the <a href="https://msdn.microsoft.com/bf2962af-0e8f-4c4c-a63a-dfd623308e4d">Submit</a> method to persist any changes made by this method.
+You must call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-submit">Submit</a> method to persist any changes made by this method.
 
 
 

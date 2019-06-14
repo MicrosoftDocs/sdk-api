@@ -81,8 +81,8 @@ A unicode string that identifies the new context. This string is the command ava
 ### -field guidHelper
 
 A pointer to the GUID of this helper. Identical to the value passed to the 
-<a href="https://msdn.microsoft.com/9c9ac64a-6edd-4348-80c7-4192726e5108">RegisterHelper</a> function as the <b>pguidHelper</b> member of the 
-<a href="https://msdn.microsoft.com/b2a3ae40-4aaa-41b2-965c-1467a07ab2de">NS_HELPER_ATTRIBUTES</a> structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-registerhelper">RegisterHelper</a> function as the <b>pguidHelper</b> member of the 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/ns-netsh-_ns_helper_attributes">NS_HELPER_ATTRIBUTES</a> structure.
 
 
 ### -field dwFlags
@@ -178,18 +178,18 @@ A number of entries in the <b>pCmdGroups</b> member.
 ### -field pfnCommitFn
 
 A function called to commit changes from offline mode. Can be null. For more information about the commit function, see 
-<a href="https://msdn.microsoft.com/2380cd4e-5e41-4bfb-874c-50be09044c85">NS_CONTEXT_COMMIT_FN</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nc-netsh-ns_context_commit_fn">NS_CONTEXT_COMMIT_FN</a>.
 
 
 ### -field pfnDumpFn
 
 A function called to dump the current configuration. Can be null. For more information about the dump function, see 
-<a href="https://msdn.microsoft.com/4833c65d-1de3-4a02-9489-6e82a6145e28">NS_CONTEXT_DUMP_FN</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nc-netsh-ns_context_dump_fn">NS_CONTEXT_DUMP_FN</a>.
 
 
 ### -field pfnConnectFn
 
-A function called to connect to a remote computer, or to update the set of available commands. Can be null. For more information about the connect function, see <a href="https://msdn.microsoft.com/bbdc4a1c-4deb-44d0-bd87-0f3fce4d9883">NS_CONTEXT_CONNECT_FN</a>.
+A function called to connect to a remote computer, or to update the set of available commands. Can be null. For more information about the connect function, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nc-netsh-ns_context_connect_fn">NS_CONTEXT_CONNECT_FN</a>.
 
 
 ### -field pReserved
@@ -206,13 +206,13 @@ Reserved. Must be null.
 
 #### - (pCmdGroups)
 
-An array of <a href="https://msdn.microsoft.com/dc0d6449-f635-417c-8363-51e61c417051">CMD_GROUP_ENTRY</a> structures that contain helper command groups.
+An array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/ns-netsh-_cmd_group_entry">CMD_GROUP_ENTRY</a> structures that contain helper command groups.
 					
 
 
 #### - (pTopCmds)
 
-An array of <a href="https://msdn.microsoft.com/299962c8-8f93-4b22-a232-8230eb64cc12">CMD_ENTRY</a> structures that contain helper commands.
+An array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/ns-netsh-_cmd_entry">CMD_ENTRY</a> structures that contain helper commands.
 					
 
 
@@ -221,31 +221,31 @@ An array of <a href="https://msdn.microsoft.com/299962c8-8f93-4b22-a232-8230eb64
 
 
 
-<a href="https://msdn.microsoft.com/299962c8-8f93-4b22-a232-8230eb64cc12">CMD_ENTRY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/ns-netsh-_cmd_entry">CMD_ENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc0d6449-f635-417c-8363-51e61c417051">CMD_GROUP_ENTRY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/ns-netsh-_cmd_group_entry">CMD_GROUP_ENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/2380cd4e-5e41-4bfb-874c-50be09044c85">NS_CONTEXT_COMMIT_FN</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nc-netsh-ns_context_commit_fn">NS_CONTEXT_COMMIT_FN</a>
 
 
 
-<a href="https://msdn.microsoft.com/bbdc4a1c-4deb-44d0-bd87-0f3fce4d9883">NS_CONTEXT_CONNECT_FN</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nc-netsh-ns_context_connect_fn">NS_CONTEXT_CONNECT_FN</a>
 
 
 
-<a href="https://msdn.microsoft.com/4833c65d-1de3-4a02-9489-6e82a6145e28">NS_CONTEXT_DUMP_FN</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nc-netsh-ns_context_dump_fn">NS_CONTEXT_DUMP_FN</a>
 
 
 
-<a href="https://msdn.microsoft.com/b2a3ae40-4aaa-41b2-965c-1467a07ab2de">NS_HELPER_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/ns-netsh-_ns_helper_attributes">NS_HELPER_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/61dfa4ae-cf70-4858-be10-f77a318eaa28">NetShell Flags</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netshell/netshell-flags">NetShell Flags</a>
  
 
  

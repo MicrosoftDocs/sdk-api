@@ -61,7 +61,7 @@ Contains information about the background image of a list-view control. This str
 
 ### -field ulFlags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">ULONG</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">ULONG</a></b>
 
 This member may be one or more of the following flags. You can use the LVBKIF_SOURCE_MASK value to mask off all but the source flags. You can use the LVBKIF_STYLE_MASK value to mask off all but the style flags. 
 
@@ -86,7 +86,7 @@ The list-view control has no background image.
 </dl>
 </td>
 <td width="60%">
-A background bitmap is supplied via the <b>hbm</b> member of <b>LVBKIMAGE</b>.  If the message <a href="https://msdn.microsoft.com/en-us/library/Bb761155(v=VS.85).aspx">LVM_SETBKIMAGE</a> succeeds, then the list-view takes ownership of the bitmap.
+A background bitmap is supplied via the <b>hbm</b> member of <b>LVBKIMAGE</b>.  If the message <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setbkimage">LVM_SETBKIMAGE</a> succeeds, then the list-view takes ownership of the bitmap.
 
 </td>
 </tr>
@@ -126,7 +126,7 @@ The background image will be tiled to fill the entire background of the control.
 </dl>
 </td>
 <td width="60%">
-Specify the coordinates of the first tile. This flag is valid only if the <b>LVBKIF_STYLE_TILE</b> flag is also specified. If this flag is not specified, the first tile begins at the upper-left corner of the client area. If you use ComCtl32.dll <a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C"> Version 6.0 </a> the <b>xOffsetPercent</b> and <b>yOffsetPercent</b> fields contain pixels, not percentage values, to specify the coordinates of the first tile. Comctl32.dll version 6 is not redistributable but it is included in Windows or later. Also, you must specify Comctl32.dll version 6 in a manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.
+Specify the coordinates of the first tile. This flag is valid only if the <b>LVBKIF_STYLE_TILE</b> flag is also specified. If this flag is not specified, the first tile begins at the upper-left corner of the client area. If you use ComCtl32.dll <a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions"> Version 6.0 </a> the <b>xOffsetPercent</b> and <b>yOffsetPercent</b> fields contain pixels, not percentage values, to specify the coordinates of the first tile. Comctl32.dll version 6 is not redistributable but it is included in Windows or later. Also, you must specify Comctl32.dll version 6 in a manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
 
 </td>
 </tr>
@@ -136,7 +136,7 @@ Specify the coordinates of the first tile. This flag is valid only if the <b>LVB
 </dl>
 </td>
 <td width="60%">
-A watermark background bitmap is supplied via the <b>hbm</b> member of <b>LVBKIMAGE</b>. If the <a href="https://msdn.microsoft.com/en-us/library/Bb761155(v=VS.85).aspx">LVM_SETBKIMAGE</a> message succeeds, then the list-view control takes ownership of the bitmap.
+A watermark background bitmap is supplied via the <b>hbm</b> member of <b>LVBKIMAGE</b>. If the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setbkimage">LVM_SETBKIMAGE</a> message succeeds, then the list-view control takes ownership of the bitmap.
 
 </td>
 </tr>
@@ -156,7 +156,7 @@ Valid only when LVBKIF_TYPE_WATERMARK is also specified.  This flag indicates th
 
 ### -field hbm
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HBITMAP</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HBITMAP</a></b>
 
 The handle of the background bitmap. This member is valid only if the 
 					<b>LVBKIF_SOURCE_HBITMAP</b> flag is set in 
@@ -165,7 +165,7 @@ The handle of the background bitmap. This member is valid only if the
 
 ### -field pszImage
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPTSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
 Address of a NULL-terminated string that contains the URL of the background image. This member is valid only if the 
 					<b>LVBKIF_SOURCE_URL</b> flag is set in 
@@ -174,7 +174,7 @@ Address of a NULL-terminated string that contains the URL of the background imag
 
 ### -field cchImageMax
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Size of the buffer at the address in 
 					<b>pszImage</b>. If information is being sent to the control, this member is ignored. 
@@ -202,7 +202,7 @@ Percentage of the control's client area that the image should be offset vertical
 
 
 
-This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb774907(v=VS.85).aspx">LVM_GETBKIMAGE</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb761155(v=VS.85).aspx">LVM_SETBKIMAGE</a> messages. 
+This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getbkimage">LVM_GETBKIMAGE</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setbkimage">LVM_SETBKIMAGE</a> messages. 
 
 
 

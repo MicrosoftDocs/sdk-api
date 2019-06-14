@@ -59,12 +59,12 @@ Gets the media type of a stream that appears at a specific index in a media type
 
 ### -param Index [in]
 
-The index of the stream. To get the number of the streams in the profile, call the <a href="https://msdn.microsoft.com/9f129ed8-3b61-4291-8400-a5f0905c8b49">ISBE2MediaTypeProfile::GetStreamCount</a> method.
+The index of the stream. To get the number of the streams in the profile, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2mediatypeprofile-getstreamcount">ISBE2MediaTypeProfile::GetStreamCount</a> method.
 
 
 ### -param ppMediaType [out]
 
-Receives a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd373477(v=VS.85).aspx">AM_MEDIA_TYPE</a> structure. The caller must not modify this structure or release the memory allocated for it.
+Receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_ammediatype">AM_MEDIA_TYPE</a> structure. The caller must not modify this structure or release the memory allocated for it.
 
 
 ## -returns
@@ -133,7 +133,7 @@ Null media type pointer.
 
 
 
-<a href="https://msdn.microsoft.com/b2fb3d08-cbef-4dbf-a60b-8363ccee4fbf">ISBE2MediaTypeProfile</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2mediatypeprofile">ISBE2MediaTypeProfile</a>
  
 
  

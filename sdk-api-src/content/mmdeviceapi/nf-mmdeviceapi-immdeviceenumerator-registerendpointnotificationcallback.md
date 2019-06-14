@@ -62,7 +62,7 @@ The <b>RegisterEndpointNotificationCallback</b> method registers a client's noti
 
 ### -param pClient [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/76d3cd52-30bd-48b0-8adc-c23991a60d1b">IMMNotificationClient</a> interface that the client is registering for notification callbacks. 
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immnotificationclient">IMMNotificationClient</a> interface that the client is registering for notification callbacks. 
 
 
 ## -returns
@@ -110,9 +110,9 @@ Out of memory.
 
 This method registers an IMMNotificationClient interface to be called by the system when the roles, state, existence, or properties of an endpoint device change. The caller implements the IMMNotificationClient interface.
 
-When notifications are no longer needed, the client can call the <a href="https://msdn.microsoft.com/dc1e85af-f399-469d-806a-a2d80b700b75">IMMDeviceEnumerator::UnregisterEndpointNotificationCallback</a> method to terminate the notifications.
+When notifications are no longer needed, the client can call the <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-unregisterendpointnotificationcallback">IMMDeviceEnumerator::UnregisterEndpointNotificationCallback</a> method to terminate the notifications.
 
-The client must ensure that the <a href="https://msdn.microsoft.com/76d3cd52-30bd-48b0-8adc-c23991a60d1b">IMMNotificationClient</a> object is not released after the <b>RegisterEndpointNotificationCallback</b> call and before calling <a href="https://msdn.microsoft.com/dc1e85af-f399-469d-806a-a2d80b700b75">UnregisterEndpointNotificationCallback</a>. These methods do not call the client's <b>IMMNotificationClient::AddRef</b> and <b>IMMNotificationClient::Release</b> implementations. The client is responsible for maintaining the reference count of the <b>IMMNotificationClient</b> object. The client must increment the count if the <b>RegisterEndpointNotificationCallback</b> call succeeds and release the final reference only after calling <b>UnregisterEndpointNotificationCallback</b> or implement some other mechanism to ensure that the object is not deleted before <b>UnregisterEndpointNotificationCallback</b> is called. Otherwise, the application leaks the resources held by the <b>IMMNotificationClient</b> and any other object that is implemented in the same container. 
+The client must ensure that the <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immnotificationclient">IMMNotificationClient</a> object is not released after the <b>RegisterEndpointNotificationCallback</b> call and before calling <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-unregisterendpointnotificationcallback">UnregisterEndpointNotificationCallback</a>. These methods do not call the client's <b>IMMNotificationClient::AddRef</b> and <b>IMMNotificationClient::Release</b> implementations. The client is responsible for maintaining the reference count of the <b>IMMNotificationClient</b> object. The client must increment the count if the <b>RegisterEndpointNotificationCallback</b> call succeeds and release the final reference only after calling <b>UnregisterEndpointNotificationCallback</b> or implement some other mechanism to ensure that the object is not deleted before <b>UnregisterEndpointNotificationCallback</b> is called. Otherwise, the application leaks the resources held by the <b>IMMNotificationClient</b> and any other object that is implemented in the same container. 
 
 
 
@@ -127,15 +127,15 @@ For more information about the <b>AddRef</b> and <b>Release</b> methods, see the
 
 
 
-<a href="https://msdn.microsoft.com/1abdeac1-c156-40b8-8b8c-5ddb51e410aa">IMMDeviceEnumerator Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator">IMMDeviceEnumerator Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc1e85af-f399-469d-806a-a2d80b700b75">IMMDeviceEnumerator::UnregisterEndpointNotificationCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-unregisterendpointnotificationcallback">IMMDeviceEnumerator::UnregisterEndpointNotificationCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/76d3cd52-30bd-48b0-8adc-c23991a60d1b">IMMNotificationClient Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immnotificationclient">IMMNotificationClient Interface</a>
  
 
  

@@ -59,7 +59,7 @@ The <b>PeerDistServerPublishStream</b> function initializes a new stream to be p
 
 ### -param hPeerDist [in]
 
-A PEERDIST_INSTANCE_HANDLE returned by <a href="https://msdn.microsoft.com/62d4f139-ab18-4d65-bda5-1cf09d7ddab9">PeerDistStartup</a>.
+A PEERDIST_INSTANCE_HANDLE returned by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
 
 
 ### -param cbContentIdentifier
@@ -74,17 +74,17 @@ A pointer to an array that contains a content identifier data.
 
 ### -param cbContentLength
 
-The length, in bytes, of the content to be published. This value can be 0 if the content length is not yet known.  If a non-zero argument is provided then it must match to the total data length added by <a href="https://msdn.microsoft.com/296e21b9-9488-408a-b470-bbde1a18e6f0">PeerDistServerPublishAddToStream</a> function calls. 
+The length, in bytes, of the content to be published. This value can be 0 if the content length is not yet known.  If a non-zero argument is provided then it must match to the total data length added by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverpublishaddtostream">PeerDistServerPublishAddToStream</a> function calls. 
 
 
 ### -param pPublishOptions [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/990b6551-eaf6-47f7-bc35-ea91820f917b">PEERDIST_PUBLICATION_OPTIONS</a> structure that specifies content publishing rules.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/ns-peerdist-peerdist_publication_options_tag">PEERDIST_PUBLICATION_OPTIONS</a> structure that specifies content publishing rules.
 
 
 ### -param hCompletionPort [in, optional]
 
-A handle to the completion port that can be used for retrieving the completion notification of the asynchronous function. To create a completion port, use the <a href="https://msdn.microsoft.com/40cb47fc-7b15-47f6-bee2-2611d4686053">CreateIoCompletionPort</a> function. This parameter can be <b>NULL</b>.
+A handle to the completion port that can be used for retrieving the completion notification of the asynchronous function. To create a completion port, use the <a href="https://docs.microsoft.com/windows/desktop/FileIO/createiocompletionport">CreateIoCompletionPort</a> function. This parameter can be <b>NULL</b>.
 
 
 ### -param ulCompletionKey [in, optional]
@@ -173,9 +173,9 @@ The service is unavailable.
 
 
 
-A content identifier is a user defined label for the content being published. This content identifier is used for <a href="https://msdn.microsoft.com/17b07141-2786-4192-ba7b-f3210c10aad4">PeerDistServerOpenContentInformation</a>, <a href="https://msdn.microsoft.com/880927c4-f7d7-4c75-b371-2fe401a50b20">PeerDistServerUnpublish</a>, and <a href="https://msdn.microsoft.com/b8daa90a-f184-40cb-a62b-b1d122eb7781">PeerDistServerCancelAsyncOperation</a> calls.
+A content identifier is a user defined label for the content being published. This content identifier is used for <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserveropencontentinformation">PeerDistServerOpenContentInformation</a>, <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverunpublish">PeerDistServerUnpublish</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistservercancelasyncoperation">PeerDistServerCancelAsyncOperation</a> calls.
 
-The handle received by phStream can be used in <a href="https://msdn.microsoft.com/296e21b9-9488-408a-b470-bbde1a18e6f0">PeerDistServerPublishAddToStream</a> and <a href="https://msdn.microsoft.com/ad66025e-cc4f-49b7-9749-de97f4a55078">PeerDistServerPublishCompleteStream</a> to publish data into the Peer Distribution service. This handle should be closed by <a href="https://msdn.microsoft.com/599b4694-3d03-4d25-9d02-313599aaaf0b">PeerDistServerCloseStreamHandle</a>.
+The handle received by phStream can be used in <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverpublishaddtostream">PeerDistServerPublishAddToStream</a> and <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverpublishcompletestream">PeerDistServerPublishCompleteStream</a> to publish data into the Peer Distribution service. This handle should be closed by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverclosestreamhandle">PeerDistServerCloseStreamHandle</a>.
 
 A publication is accessible only to the User Account that originally published the content. If a different user calls <b>PeerDistServerPublishStream</b> with the same content identifier, a separate publication will be created under the context of that user.
 
@@ -187,27 +187,27 @@ A publication is accessible only to the User Account that originally published t
 
 
 
-<a href="https://msdn.microsoft.com/b8daa90a-f184-40cb-a62b-b1d122eb7781">PeerDistServerCancelAsyncOperation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistservercancelasyncoperation">PeerDistServerCancelAsyncOperation</a>
 
 
 
-<a href="https://msdn.microsoft.com/599b4694-3d03-4d25-9d02-313599aaaf0b">PeerDistServerCloseStreamHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverclosestreamhandle">PeerDistServerCloseStreamHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/17b07141-2786-4192-ba7b-f3210c10aad4">PeerDistServerOpenContentInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserveropencontentinformation">PeerDistServerOpenContentInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/296e21b9-9488-408a-b470-bbde1a18e6f0">PeerDistServerPublishAddToStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverpublishaddtostream">PeerDistServerPublishAddToStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/ad66025e-cc4f-49b7-9749-de97f4a55078">PeerDistServerPublishCompleteStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverpublishcompletestream">PeerDistServerPublishCompleteStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/880927c4-f7d7-4c75-b371-2fe401a50b20">PeerDistServerUnpublish</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverunpublish">PeerDistServerUnpublish</a>
  
 
  

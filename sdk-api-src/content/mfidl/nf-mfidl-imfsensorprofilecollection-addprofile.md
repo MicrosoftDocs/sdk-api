@@ -59,7 +59,7 @@ Adds the specified profile to the collection.
 
 ### -param pProfile [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Mt845815(v=VS.85).aspx">IMFSensorProfile</a> object describing the profile to add.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorprofile">IMFSensorProfile</a> object describing the profile to add.
 
 
 ## -returns
@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt845816(v=VS.85).aspx">IMFSensorProfileCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorprofilecollection">IMFSensorProfileCollection</a>
  
 
  

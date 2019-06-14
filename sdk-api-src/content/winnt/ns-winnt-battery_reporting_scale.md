@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains the granularity of the battery capacity that is reported by <a href="https://msdn.microsoft.com/7a7bf429-9b2c-4faf-9f27-fb5fd8dd18df">IOCTL_BATTERY_QUERY_STATUS</a>. A variable-length array of <b>BATTERY_REPORTING_SCALE</b> structures is returned from <a href="https://msdn.microsoft.com/4cc89b89-ab33-47c2-8327-9627cbd1595e">IOCTL_BATTERY_QUERY_INFORMATION</a> when the <b>InformationLevel</b> is set to <b>BatteryGranularityInformation</b>.   Multiple entries are returned when the granularity depends on the present capacity of the battery.
+Contains the granularity of the battery capacity that is reported by <a href="https://docs.microsoft.com/windows/desktop/Power/ioctl-battery-query-status">IOCTL_BATTERY_QUERY_STATUS</a>. A variable-length array of <b>BATTERY_REPORTING_SCALE</b> structures is returned from <a href="https://docs.microsoft.com/windows/desktop/Power/ioctl-battery-query-information">IOCTL_BATTERY_QUERY_INFORMATION</a> when the <b>InformationLevel</b> is set to <b>BatteryGranularityInformation</b>.   Multiple entries are returned when the granularity depends on the present capacity of the battery.
 		
 
 
@@ -60,19 +60,19 @@ Contains the granularity of the battery capacity that is reported by <a href="ht
 
 ### -field Granularity
 
-The granularity of the capacity reading returned by <a href="https://msdn.microsoft.com/7a7bf429-9b2c-4faf-9f27-fb5fd8dd18df">IOCTL_BATTERY_QUERY_STATUS</a> in milliwatt-hours (mWh).  Granularity may change over time as battery discharge and recharge lowers the range of readings.
+The granularity of the capacity reading returned by <a href="https://docs.microsoft.com/windows/desktop/Power/ioctl-battery-query-status">IOCTL_BATTERY_QUERY_STATUS</a> in milliwatt-hours (mWh).  Granularity may change over time as battery discharge and recharge lowers the range of readings.
 
 
 ### -field Capacity
 
-The upper capacity limit for <i>Granularity</i>.   The value of <i>Granularity</i> is valid for capacities reported by <a href="https://msdn.microsoft.com/7a7bf429-9b2c-4faf-9f27-fb5fd8dd18df">IOCTL_BATTERY_QUERY_STATUS</a> that are less than or equal to this capacity (mWh), but greater than or equal to the capacity given in the previous array element, or zero if this is the first array element.
+The upper capacity limit for <i>Granularity</i>.   The value of <i>Granularity</i> is valid for capacities reported by <a href="https://docs.microsoft.com/windows/desktop/Power/ioctl-battery-query-status">IOCTL_BATTERY_QUERY_STATUS</a> that are less than or equal to this capacity (mWh), but greater than or equal to the capacity given in the previous array element, or zero if this is the first array element.
 
 
 ## -remarks
 
 
 
-The total number of <b>BATTERY_REPORTING_SCALE</b> entries returned from <a href="https://msdn.microsoft.com/4cc89b89-ab33-47c2-8327-9627cbd1595e">IOCTL_BATTERY_QUERY_INFORMATION</a> is indicated by the value of the <i>lpBytesReturned</i> parameter of <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>. To determine the number of elements in the array, divide the value of <i>lpBytesReturned</i> by the size of the 
+The total number of <b>BATTERY_REPORTING_SCALE</b> entries returned from <a href="https://docs.microsoft.com/windows/desktop/Power/ioctl-battery-query-information">IOCTL_BATTERY_QUERY_INFORMATION</a> is indicated by the value of the <i>lpBytesReturned</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>. To determine the number of elements in the array, divide the value of <i>lpBytesReturned</i> by the size of the 
 <b>BATTERY_REPORTING_SCALE</b> structure. The maximum number of array entries that can be returned is four.
 
 
@@ -83,11 +83,11 @@ The total number of <b>BATTERY_REPORTING_SCALE</b> entries returned from <a href
 
 
 
-<a href="https://msdn.microsoft.com/4cc89b89-ab33-47c2-8327-9627cbd1595e">IOCTL_BATTERY_QUERY_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/Power/ioctl-battery-query-information">IOCTL_BATTERY_QUERY_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a7bf429-9b2c-4faf-9f27-fb5fd8dd18df">IOCTL_BATTERY_QUERY_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/Power/ioctl-battery-query-status">IOCTL_BATTERY_QUERY_STATUS</a>
  
 
  

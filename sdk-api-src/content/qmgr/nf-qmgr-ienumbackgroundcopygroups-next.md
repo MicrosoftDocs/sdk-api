@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>IEnumBackgroundCopyGroups</b> is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/72668c9b-e6f3-4f3f-9d4b-50d930d1889d">BITS interfaces</a>.]
+<p class="CCE_Message">[<b>IEnumBackgroundCopyGroups</b> is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/Bits/bits-interfaces">BITS interfaces</a>.]
 
 Use the <b>Next</b> method to retrieve the specified number of items in the enumeration sequence. If there are fewer than the requested number of elements left in the sequence, it retrieves the remaining elements.
 
@@ -66,7 +66,7 @@ Number of elements requested.
 
 ### -param rgelt [out]
 
-Array of GUIDs that identify the groups. To retrieve a group, call the <a href="https://msdn.microsoft.com/36836fe5-4858-4c6e-8ce8-1bb71c8e9f5a">IBackgroundCopyQMgr::GetGroup</a> method with the GUID.
+Array of GUIDs that identify the groups. To retrieve a group, call the <a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopyqmgr-getgroup">IBackgroundCopyQMgr::GetGroup</a> method with the GUID.
 
 
 ### -param pceltFetched [out]
@@ -118,7 +118,7 @@ Returned less than the number of requested elements.
 
 
 
-<a href="https://msdn.microsoft.com/64a05103-9749-41fd-9987-8bb17b9284f7">IEnumBackgroundCopyGroups</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nn-qmgr-ienumbackgroundcopygroups">IEnumBackgroundCopyGroups</a>
  
 
  

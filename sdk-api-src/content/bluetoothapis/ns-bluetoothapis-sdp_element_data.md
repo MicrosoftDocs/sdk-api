@@ -169,7 +169,7 @@ Value for type equals SDP_TYPE_UUID, value for <b>specificType</b> equals SDP_ST
 
 ### -field data.string.value
 
-Value for type equals SDP_TYPE_STRING, which is a raw string buffer. Cannot be encoded as ANSI. Use the <a href="https://msdn.microsoft.com/26a68fe3-6ffb-44ff-b9db-757d35022a41">BluetoothSdpGetString</a> function to convert the value if it is described by the base language attribute identifier list.
+Value for type equals SDP_TYPE_STRING, which is a raw string buffer. Cannot be encoded as ANSI. Use the <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothsdpgetstring">BluetoothSdpGetString</a> function to convert the value if it is described by the base language attribute identifier list.
 
 
 ### -field data.string.length
@@ -221,27 +221,27 @@ Length of the raw alternative. Cannot be null terminated.
 
 
 
-<a href="https://msdn.microsoft.com/3113db03-a32f-47ad-a442-3769f41ee8e7">BluetoothSdpEnumAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothsdpenumattributes">BluetoothSdpEnumAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/79368265-3d01-4bfd-ba71-930696e0bc08">BluetoothSdpGetAttributeValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothsdpgetattributevalue">BluetoothSdpGetAttributeValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/7dbf44f6-8a80-419e-9db7-60ada9ca9647">BluetoothSdpGetContainerElementData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothsdpgetcontainerelementdata">BluetoothSdpGetContainerElementData</a>
 
 
 
-<a href="https://msdn.microsoft.com/65de8f2f-1781-44fa-87a9-21aa461eb8ee">BluetoothSdpGetElementData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothsdpgetelementdata">BluetoothSdpGetElementData</a>
 
 
 
-<a href="https://msdn.microsoft.com/26a68fe3-6ffb-44ff-b9db-757d35022a41">BluetoothSdpGetString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothsdpgetstring">BluetoothSdpGetString</a>
 
 
 
-<a href="https://msdn.microsoft.com/4d728467-1866-428f-9e66-a45b597a226a">PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nc-bluetoothapis-pfn_bluetooth_enum_attributes_callback">PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK</a>
  
 
  

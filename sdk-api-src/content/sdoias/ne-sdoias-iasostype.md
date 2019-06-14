@@ -118,11 +118,11 @@ The SDO computer is running Windows Server 2008.
 
 
 
-<a href="https://msdn.microsoft.com/d6c36f76-d265-446b-986e-b23d9550ba3b">IASDOMAINTYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_domaintype">IASDOMAINTYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa4f31af-57b0-4ce2-b8b9-981e4ef30d31">ISdoMachine::GetOSType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getostype">ISdoMachine::GetOSType</a>
  
 
  

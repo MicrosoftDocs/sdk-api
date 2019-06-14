@@ -56,7 +56,7 @@ ms.custom: 19H1
 
 Converts a string into a moniker that identifies the object named by the string.
 
-This function is the inverse of the <a href="https://msdn.microsoft.com/424036c9-c097-4507-b562-4a01f9199b1f">IMoniker::GetDisplayName</a> operation, which retrieves the display name associated with a moniker.
+This function is the inverse of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-getdisplayname">IMoniker::GetDisplayName</a> operation, which retrieves the display name associated with a moniker.
 
 
 
@@ -67,7 +67,7 @@ This function is the inverse of the <a href="https://msdn.microsoft.com/424036c9
 
 ### -param pbc [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a> interface on the bind context object to be used in this binding operation.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> interface on the bind context object to be used in this binding operation.
 
 
 ### -param szUserName [in]
@@ -82,7 +82,7 @@ A pointer to the number of characters of <i>szUserName</i> that were consumed. I
 
 ### -param ppmk [out]
 
-The address of the <a href="https://msdn.microsoft.com/17f4c1df-7a9c-42ef-a888-70cd8d85f070">IMoniker</a>* pointer variable that receives the interface pointer to the moniker that was built from <i>szUserName</i>. When successful, the function has called <a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63">AddRef</a> on the moniker and the caller is responsible for calling <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a>. If an error occurs, the specified interface pointer will contain as much of the moniker that the method was able to create before the error occurred.
+The address of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>* pointer variable that receives the interface pointer to the moniker that was built from <i>szUserName</i>. When successful, the function has called <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on the moniker and the caller is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>. If an error occurs, the specified interface pointer will contain as much of the moniker that the method was able to create before the error occurred.
 
 
 ## -returns
@@ -121,7 +121,7 @@ Error in the syntax of a file name or an error in the syntax of the resulting co
 </table>
  
 
-This function can also return any of the error values returned by <a href="https://msdn.microsoft.com/b5ce39ff-3387-4f72-9aea-5a26eed3810c">IMoniker::BindToObject</a>, <a href="https://msdn.microsoft.com/08569037-7ecd-4e63-9f94-c2552c327800">IOleItemContainer::GetObject</a>, or <a href="https://msdn.microsoft.com/bf18320c-1ff3-4280-bd67-70f6c2998285">IParseDisplayName::ParseDisplayName</a>.
+This function can also return any of the error values returned by <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">IMoniker::BindToObject</a>, <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleitemcontainer-getobject">IOleItemContainer::GetObject</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iparsedisplayname-parsedisplayname">IParseDisplayName::ParseDisplayName</a>.
 
 
 
@@ -141,7 +141,7 @@ The most common use of <b>MkParseDisplayName</b> is in the implementation of the
 
 Parsing a display name often requires activating the same objects that would be activated during a binding operation, so it can be just as expensive (in terms of performance) as binding. Objects that are bound during the parsing operation are cached in the bind context passed to the function. If you plan to bind the moniker returned by <b>MkParseDisplayName</b>, it is best to do so immediately after the function returns, using the same bind context, which removes the need to activate objects a second time.
 
-<b>MkParseDisplayName</b> parses as much of the display name as it understands into a moniker. The function then calls <a href="https://msdn.microsoft.com/6a5a1f14-f14f-404b-90d8-0afceafc087c">IMoniker::ParseDisplayName</a> on the newly created moniker, passing the remainder of the display name. The moniker returned by <b>ParseDisplayName</b> is composed onto the end of the existing moniker and, if any of the display name remains unparsed, <b>ParseDisplayName</b> is called on the result of the composition. This process is repeated until the entire display name has been parsed.
+<b>MkParseDisplayName</b> parses as much of the display name as it understands into a moniker. The function then calls <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-parsedisplayname">IMoniker::ParseDisplayName</a> on the newly created moniker, passing the remainder of the display name. The moniker returned by <b>ParseDisplayName</b> is composed onto the end of the existing moniker and, if any of the display name remains unparsed, <b>ParseDisplayName</b> is called on the result of the composition. This process is repeated until the entire display name has been parsed.
 
 <b>MkParseDisplayName</b> attempts the following strategies to parse the beginning of the display name, using the first one that succeeds:
 
@@ -159,7 +159,7 @@ The function consults the file system to check whether a prefix of the display n
 
 </li>
 <li>
-If the initial character of the display name is '@', the function finds the longest string immediately following it  that conforms to the legal ProgID syntax. The function converts this string to a CLSID using the <a href="https://msdn.microsoft.com/89fb20af-65bf-4ed4-9f71-eb707ee8eb09">CLSIDFromProgID</a> function. If the CLSID represents an OLE 2 class, the function loads the corresponding class object and asks for an <a href="https://msdn.microsoft.com/37844d9b-35ce-4d30-8a58-dac4c671896f">IParseDisplayName</a> interface pointer. The resulting <b>IParseDisplayName</b> interface is then given the whole string to parse, starting with the '@'. If the CLSID represents an OLE 1 class, then the function treats the string following the ProgID as an OLE1/DDE link designator having <i>filename</i>|<i>item</i> syntax.
+If the initial character of the display name is '@', the function finds the longest string immediately following it  that conforms to the legal ProgID syntax. The function converts this string to a CLSID using the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-clsidfromprogid">CLSIDFromProgID</a> function. If the CLSID represents an OLE 2 class, the function loads the corresponding class object and asks for an <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iparsedisplayname">IParseDisplayName</a> interface pointer. The resulting <b>IParseDisplayName</b> interface is then given the whole string to parse, starting with the '@'. If the CLSID represents an OLE 1 class, then the function treats the string following the ProgID as an OLE1/DDE link designator having <i>filename</i>|<i>item</i> syntax.
 
 </li>
 </ol>
@@ -171,15 +171,15 @@ If the initial character of the display name is '@', the function finds the long
 
 
 
-<a href="https://msdn.microsoft.com/424036c9-c097-4507-b562-4a01f9199b1f">IMoniker::GetDisplayName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-getdisplayname">IMoniker::GetDisplayName</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a5a1f14-f14f-404b-90d8-0afceafc087c">IMoniker::ParseDisplayName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-parsedisplayname">IMoniker::ParseDisplayName</a>
 
 
 
-<a href="https://msdn.microsoft.com/37844d9b-35ce-4d30-8a58-dac4c671896f">IParseDisplayName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iparsedisplayname">IParseDisplayName</a>
  
 
  

@@ -114,9 +114,9 @@ Success.
 
 
 
-If the parameter is currently within an envelope segment, the envelope segment will overwrite the new value. To remove an envelope segment, call the <a href="https://msdn.microsoft.com/en-us/library/Dd406973(v=VS.85).aspx">FlushEnvelope</a> method.
+If the parameter is currently within an envelope segment, the envelope segment will overwrite the new value. To remove an envelope segment, call the <a href="https://docs.microsoft.com/windows/desktop/api/medparam/nf-medparam-imediaparams-flushenvelope">FlushEnvelope</a> method.
 
-To enumerate the parameters supported by this object, along with their index values, use the <a href="https://msdn.microsoft.com/en-us/library/Dd406964(v=VS.85).aspx">IMediaParamInfo</a> interface.
+To enumerate the parameters supported by this object, along with their index values, use the <a href="https://docs.microsoft.com/windows/desktop/api/medparam/nn-medparam-imediaparaminfo">IMediaParamInfo</a> interface.
 
 
 
@@ -126,7 +126,7 @@ To enumerate the parameters supported by this object, along with their index val
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406971(v=VS.85).aspx">IMediaParams Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/medparam/nn-medparam-imediaparams">IMediaParams Interface</a>
  
 
  

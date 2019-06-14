@@ -61,14 +61,14 @@ The <b>RenameElement</b> method renames the specified substorage or stream in th
 
 Pointer to a wide character null-terminated Unicode string that contains the name of the substorage or stream to be changed.
 
-<div class="alert"><b>Note</b>  The <i>pwcsName</i>, created in <a href="https://msdn.microsoft.com/8c74cacf-8d3c-4d57-b1e9-dc5e4f281717">CreateStorage</a> or <a href="https://msdn.microsoft.com/168f5ac9-8a72-4356-82a4-de3a7ec72c05">CreateStream</a> must not exceed 31 characters in length, not including the string terminator.</div>
+<div class="alert"><b>Note</b>  The <i>pwcsName</i>, created in <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-createstorage">CreateStorage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-createstream">CreateStream</a> must not exceed 31 characters in length, not including the string terminator.</div>
 <div> </div>
 
 ### -param pwcsNewName [in]
 
 Pointer to a wide character null-terminated unicode string that contains the new name for the specified substorage or stream.
 
-<div class="alert"><b>Note</b>  The <i>pwcsName</i>, created in <a href="https://msdn.microsoft.com/8c74cacf-8d3c-4d57-b1e9-dc5e4f281717">CreateStorage</a> or <a href="https://msdn.microsoft.com/168f5ac9-8a72-4356-82a4-de3a7ec72c05">CreateStream</a> must not exceed 31 characters in length, not including the string terminator.</div>
+<div class="alert"><b>Note</b>  The <i>pwcsName</i>, created in <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-createstorage">CreateStorage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-createstream">CreateStream</a> must not exceed 31 characters in length, not including the string terminator.</div>
 <div> </div>
 
 ## -returns
@@ -96,7 +96,7 @@ The <b>IStorage::RenameElement</b> method is not guaranteed to work in low memor
 
 
 
-<a href="https://msdn.microsoft.com/2a2253f6-d3d3-403e-a9ba-53a541c7a31e">IStorage - Compound File Implementation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Stg/istorage-compound-file-implementation">IStorage - Compound File Implementation</a>
  
 
  

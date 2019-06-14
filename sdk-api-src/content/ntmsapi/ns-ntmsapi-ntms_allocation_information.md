@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<a href="https://msdn.microsoft.com/af7186f8-7921-48e3-a4fd-23259a6e9018">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>NTMS_ALLOCATION_INFORMATION</b> structure contains information about the source media pool from which a medium was taken.
@@ -85,7 +85,7 @@ Unique identifier of the original source of the media.
 
 
 
-<a href="https://msdn.microsoft.com/a0afe0ca-61ad-4ac8-8e3e-4a7e9ddd6600">AllocateNtmsMedia</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/media">AllocateNtmsMedia</a>
  
 
  

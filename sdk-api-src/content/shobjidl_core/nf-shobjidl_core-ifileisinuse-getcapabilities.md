@@ -91,7 +91,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The capabilities returned by this method can be used in the composition of the dialog box presented to the user that informs them of the sharing conflict. For instance, if the OF_CAP_CANSWITCHTO flag is retrieved, a button can be added to the dialog box that will switch the user to the conflicting application window (based on the <b>HWND</b> information retrieved by <a href="https://msdn.microsoft.com/b4223cb0-2027-4073-9558-99ae27f4e52a">IFileIsInUse::GetSwitchToHWND</a>) so that the user can address the situation as they see fit. If the OF_CAP_CANCLOSE flag is retrieved, the dialog box can present a <b>Close</b> button that calls the <a href="https://msdn.microsoft.com/27338e5a-b303-4b72-b316-3059ec6f1698">CloseFile</a> method.
+The capabilities returned by this method can be used in the composition of the dialog box presented to the user that informs them of the sharing conflict. For instance, if the OF_CAP_CANSWITCHTO flag is retrieved, a button can be added to the dialog box that will switch the user to the conflicting application window (based on the <b>HWND</b> information retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileisinuse-getswitchtohwnd">IFileIsInUse::GetSwitchToHWND</a>) so that the user can address the situation as they see fit. If the OF_CAP_CANCLOSE flag is retrieved, the dialog box can present a <b>Close</b> button that calls the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileisinuse-closefile">CloseFile</a> method.
 
 
 

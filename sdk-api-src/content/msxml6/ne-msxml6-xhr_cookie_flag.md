@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines a set of flags that you can assign to a cookie in the HTTP cookie jar by calling the <a href="https://msdn.microsoft.com/E150B7CA-A881-4CD5-896F-7E3B6770E105">SetCookie</a> method or query from the HTTP cookie jar by calling the <a href="https://msdn.microsoft.com/A2A9C54B-92A2-41EA-A741-797BA219BCDA">GetCookie</a> method.
+Defines a set of flags that you can assign to a cookie in the HTTP cookie jar by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-setcookie">SetCookie</a> method or query from the HTTP cookie jar by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-getcookie">GetCookie</a> method.
 
 
 ## -enum-fields
@@ -124,15 +124,15 @@ Do not use this flag if you expose a scriptable interface, because this has secu
 
 
 
-<a href="https://msdn.microsoft.com/A2A9C54B-92A2-41EA-A741-797BA219BCDA">GetCookie</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-getcookie">GetCookie</a>
 
 
 
-<a href="https://msdn.microsoft.com/E150B7CA-A881-4CD5-896F-7E3B6770E105">SetCookie</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-setcookie">SetCookie</a>
 
 
 
-<a href="https://msdn.microsoft.com/208829B0-DBCC-4C22-910D-D6826283F8A0">XHR_COOKIE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/ns-msxml6-tagxhr_cookie">XHR_COOKIE</a>
  
 
  

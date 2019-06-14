@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndOpenDialog</b> macro opens a user-specified data file and corresponding type of MCI device, and associates them with an MCIWnd window. This macro displays the Open dialog box for the user to select the data file to associate with an MCI window. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/ad1dfe0f-015b-45a9-ab88-cc0bdf0aa057">MCIWNDM_OPEN</a> message.
+The <b>MCIWndOpenDialog</b> macro opens a user-specified data file and corresponding type of MCI device, and associates them with an MCIWnd window. This macro displays the Open dialog box for the user to select the data file to associate with an MCI window. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-open">MCIWNDM_OPEN</a> message.
 
 
 

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deprecated. Used by <a href="https://msdn.microsoft.com/3cdbe902-f208-43f8-9019-d61c22635196">IBrowserService::SetNavigateState</a> and <a href="https://msdn.microsoft.com/5a8aac75-3e0b-4ff2-a1ec-e08379e67c84">IBrowserService::GetNavigateState</a> to specify navigation states.
+Deprecated. Used by <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice-setnavigatestate">IBrowserService::SetNavigateState</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice-getnavigatestate">IBrowserService::GetNavigateState</a> to specify navigation states.
 
 
 ## -enum-fields

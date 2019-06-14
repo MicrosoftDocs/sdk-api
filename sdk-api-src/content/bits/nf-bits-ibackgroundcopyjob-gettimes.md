@@ -60,7 +60,7 @@ Retrieves job-related time stamps, such as the time that the job was created or 
 ### -param pVal [out]
 
 Contains job-related time stamps. For available time stamps, see the 
-<a href="https://msdn.microsoft.com/d7ee63f7-e2d1-451d-b200-cccb86816f21">BG_JOB_TIMES</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-_bg_job_times">BG_JOB_TIMES</a> structure.
 
 
 ## -returns
@@ -107,7 +107,7 @@ The <i>pTimes</i> parameter cannot be <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/d7ee63f7-e2d1-451d-b200-cccb86816f21">BG_JOB_TIMES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-_bg_job_times">BG_JOB_TIMES</a>
  
 
  

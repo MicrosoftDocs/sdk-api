@@ -81,7 +81,7 @@ The namespace that the element should be.  If <b>NULL</b>, any namespace is perm
 
 If specified then this will indicate whether an element is found and the localName and namespace, if also specified, match.
           If not specified, and an element is not found or the localName and namespace don't match, then it will return 
-          <b>WS_E_INVALID_FORMAT</b>. (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.)
+          <b>WS_E_INVALID_FORMAT</b>. (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 
 
 ### -param error [in, optional]
@@ -184,16 +184,16 @@ BOOL found;
 HRESULT hr = WsReadToStartElement(reader, NULL, NULL, &amp;found, error);
 // hr = NOERROR, found = FALSE, the reader is positioned on &lt;/Item&gt;
 </code></pre>
-If <b>WsReadToStartElement</b> indicates an element has been found, then <a href="https://msdn.microsoft.com/88661ae5-2112-4a41-8fcd-03c74f6ec170">WsReadStartElement</a> 
-        or <a href="https://msdn.microsoft.com/60dacf3e-ebde-4247-be58-835565874ab6">WsReadNode</a> may be used to move the reader past the start element into the content of the element.
+If <b>WsReadToStartElement</b> indicates an element has been found, then <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadstartelement">WsReadStartElement</a> 
+        or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadnode">WsReadNode</a> may be used to move the reader past the start element into the content of the element.
       
 
 
-<a href="https://msdn.microsoft.com/90eda6f1-dda2-4595-90f5-029768278f5b">WsSkipNode</a> may be used to skip the element and all its children leaving the reader positioned on
-        the <a href="https://msdn.microsoft.com/98c40d57-ee71-40f8-9416-5b29adc30489">WS_XML_NODE</a> following the corresponding end element.
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsskipnode">WsSkipNode</a> may be used to skip the element and all its children leaving the reader positioned on
+        the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_node">WS_XML_NODE</a> following the corresponding end element.
       
 
-This function can fail for any of the reasons listed in <a href="https://msdn.microsoft.com/60dacf3e-ebde-4247-be58-835565874ab6">WsReadNode</a>.
+This function can fail for any of the reasons listed in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadnode">WsReadNode</a>.
       
 
 

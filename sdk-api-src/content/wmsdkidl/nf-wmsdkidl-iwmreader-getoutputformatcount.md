@@ -86,9 +86,9 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-The number of formats that can be delivered on output is determined by the decoding codec. The Windows Media codecs can deliver media samples for a stream in a number of formats. For example, the Windows Media Video 9 codec can deliver samples as bitmapped images or as <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">YUV</a> images with varying properties to suit your needs.
+The number of formats that can be delivered on output is determined by the decoding codec. The Windows Media codecs can deliver media samples for a stream in a number of formats. For example, the Windows Media Video 9 codec can deliver samples as bitmapped images or as <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">YUV</a> images with varying properties to suit your needs.
 
-Every compressed media type has a default output format determined by the codec. You can obtain the properties of the default output format by calling <a href="https://msdn.microsoft.com/en-us/library/Dd743595(v=VS.85).aspx">IWMReader::GetOutputProps</a>.
+Every compressed media type has a default output format determined by the codec. You can obtain the properties of the default output format by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-getoutputprops">IWMReader::GetOutputProps</a>.
 
 This method is synchronous and does not result in any messages being sent to the status callback.
 
@@ -100,11 +100,11 @@ This method is synchronous and does not result in any messages being sent to the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757425(v=VS.85).aspx">IWMReader Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreader">IWMReader Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743592(v=VS.85).aspx">IWMReader::GetOutputFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-getoutputformat">IWMReader::GetOutputFormat</a>
  
 
  

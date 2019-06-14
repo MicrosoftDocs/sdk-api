@@ -52,7 +52,7 @@ ms.custom: 19H1
 The <b>IWbemUnsecuredApartment</b> interface 
    allows client applications to determine whether Unsecapp.exe performs access 
    checks on asynchronous callbacks. Unsecapp.exe supports both 
-   <a href="https://msdn.microsoft.com/6293d8e3-cc5b-4401-8fdc-86f5d03720ea">IUnsecuredApartment</a> and 
+   <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iunsecuredapartment">IUnsecuredApartment</a> and 
    <b>IWbemUnsecuredApartment</b> interfaces.
 
 
@@ -73,12 +73,12 @@ The <b>IWbemUnsecuredApartment</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/546ae2f8-c208-4846-a3ba-e124aefe619d">CreateSinkStub</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemunsecuredapartment-createsinkstub">CreateSinkStub</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/546ae2f8-c208-4846-a3ba-e124aefe619d">CreateSinkStub</a> method is 
+The <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemunsecuredapartment-createsinkstub">CreateSinkStub</a> method is 
      similar to the 
-     <a href="https://msdn.microsoft.com/76a376e4-bd0d-4b8b-b49a-162630c47220">IUnsecuredApartment::CreateObjectStub</a> 
+     <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iunsecuredapartment-createobjectstub">IUnsecuredApartment::CreateObjectStub</a> 
      method. It creates an object forwarder sink and performs access checks for receiving asynchronous calls from 
      WMI.
 
@@ -92,9 +92,9 @@ The <a href="https://msdn.microsoft.com/546ae2f8-c208-4846-a3ba-e124aefe619d">Cr
 
 
 <b>IWbemUnsecuredApartment</b> is similar to 
-     <a href="https://msdn.microsoft.com/6293d8e3-cc5b-4401-8fdc-86f5d03720ea">IUnsecuredApartment</a>, which also creates a sink in a 
+     <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iunsecuredapartment">IUnsecuredApartment</a>, which also creates a sink in a 
      separate process. For more information, see 
-     <a href="https://msdn.microsoft.com/d0259bb1-fd74-4440-ac2a-d6aa84a48d9b">Performing Access Checks</a>.
+     <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/performing-access-checks">Performing Access Checks</a>.
 
 
 <b>HKEY_LOCAL_MACHINE</b>\<b>SOFTWARE</b>\<b>Microsoft</b>\<b>WBEM</b>\<b>CIMOM</b>\<b>UnsecAppAccessControlDefault</b>
@@ -109,19 +109,19 @@ The <a href="https://msdn.microsoft.com/546ae2f8-c208-4846-a3ba-e124aefe619d">Cr
 
 
 
-<a href="https://msdn.microsoft.com/6293d8e3-cc5b-4401-8fdc-86f5d03720ea">IUnsecuredApartment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iunsecuredapartment">IUnsecuredApartment</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d3111ac-7d83-48d6-94e4-36cb46a506fa">Lowering the Security for a Sink in a Separate Process</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/lowering-the-security-for-a-sink-in-a-separate-process">Lowering the Security for a Sink in a Separate Process</a>
 
 
 
-<a href="https://msdn.microsoft.com/d0259bb1-fd74-4440-ac2a-d6aa84a48d9b">Performing Access Checks</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/performing-access-checks">Performing Access Checks</a>
 
 
 
-<a href="https://msdn.microsoft.com/2b839ea9-e1e6-4123-a98a-04ebee907b3b">Setting Security on an Asynchronous Call</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/setting-security-on-an-asynchronous-call">Setting Security on an Asynchronous Call</a>
  
 
  

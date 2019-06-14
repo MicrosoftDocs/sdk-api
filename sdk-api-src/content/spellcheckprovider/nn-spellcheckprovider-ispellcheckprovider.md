@@ -54,7 +54,7 @@ Represents a particular spell checker provider for a particular language, to be 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpellCheckProvider</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISpellCheckProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpellCheckProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISpellCheckProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>ISpellCheckProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B8C62B56-FF72-4C94-AC77-A6BEFCFE2589">Check</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nf-spellcheckprovider-ispellcheckprovider-check">Check</a>
 </td>
 <td align="left" width="63%">
 Checks the spelling of the supplied text and returns a collection of spelling errors.
@@ -79,7 +79,7 @@ Checks the spelling of the supplied text and returns a collection of spelling er
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0F2ED4B7-AE71-4431-83FE-739F7D0D5CD2">GetOptionDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nf-spellcheckprovider-ispellcheckprovider-getoptiondescription">GetOptionDescription</a>
 </td>
 <td align="left" width="63%">
 Retrieves the information (id, description, heading and labels) of a specific option.
@@ -88,7 +88,7 @@ Retrieves the information (id, description, heading and labels) of a specific op
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4EE5DE54-DCA2-4DDC-BDE1-6417E4ADF4A2">GetOptionValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nf-spellcheckprovider-ispellcheckprovider-getoptionvalue">GetOptionValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value associated with the given option.
@@ -97,7 +97,7 @@ Retrieves the value associated with the given option.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B1E3D0F9-8A6B-431F-A8AF-46D783E23FEF">InitializeWordlist</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nf-spellcheckprovider-ispellcheckprovider-initializewordlist">InitializeWordlist</a>
 </td>
 <td align="left" width="63%">
 Initialize the specified word list to contain only the specified words.
@@ -106,7 +106,7 @@ Initialize the specified word list to contain only the specified words.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/635E6024-DD9F-403D-B05F-B719EFE78FC0">SetOptionValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nf-spellcheckprovider-ispellcheckprovider-setoptionvalue">SetOptionValue</a>
 </td>
 <td align="left" width="63%">
 Sets the value associated with the given option.
@@ -115,7 +115,7 @@ Sets the value associated with the given option.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4A66619C-8A12-4465-889C-B880C43031AB">Suggest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nf-spellcheckprovider-ispellcheckprovider-suggest">Suggest</a>
 </td>
 <td align="left" width="63%">
 Retrieves spelling suggestions for the supplied text.
@@ -133,7 +133,7 @@ Retrieves spelling suggestions for the supplied text.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/4FB41CF0-1F08-42F8-86A7-F38FE740F436">Id</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nf-spellcheckprovider-ispellcheckprovider-get_id">Id</a>
 
 
 </td>
@@ -149,7 +149,7 @@ Gets the identifier for this spell checker engine.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/74ED381D-3BF5-4E43-85DA-8CD53C821979">LanguageTag</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nf-spellcheckprovider-ispellcheckprovider-get_languagetag">LanguageTag</a>
 
 
 </td>
@@ -165,7 +165,7 @@ Gets the <a href="http://go.microsoft.com/fwlink/p/?linkid=227302">BCP47</a> lan
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/05776188-1299-40BC-AD53-88DD01B65331">LocalizedName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nf-spellcheckprovider-ispellcheckprovider-get_localizedname">LocalizedName</a>
 
 
 </td>
@@ -181,7 +181,7 @@ Gets text, suitable to display to the user, that describes this spell checker.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/E776D178-D5F0-4761-8A0C-7108C36AE3B1">OptionIds</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nf-spellcheckprovider-ispellcheckprovider-get_optionids">OptionIds</a>
 
 
 </td>
@@ -202,7 +202,7 @@ Gets all of the declared option identifiers recognized by the spell checker.
 
 
 
-<a href="https://msdn.microsoft.com/680EC2D1-740E-40A8-9721-AC53AF17AC09">ISpellCheckProviderFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckproviderfactory">ISpellCheckProviderFactory</a>
  
 
  

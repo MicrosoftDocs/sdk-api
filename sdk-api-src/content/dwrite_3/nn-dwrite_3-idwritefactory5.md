@@ -55,7 +55,7 @@ The root factory interface for all DirectWrite objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFactory5</b> interface inherits from <a href="https://msdn.microsoft.com/D3C5E48A-A062-430A-A196-CAC621F346FC">IDWriteFactory4</a>. <b>IDWriteFactory5</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFactory5</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefactory4">IDWriteFactory4</a>. <b>IDWriteFactory5</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IDWriteFactory5</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A13656C9-E793-40E2-81BD-0F9C0F437F1E">AnalyzeContainerType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefactory5-analyzecontainertype">AnalyzeContainerType</a>
 </td>
 <td align="left" width="63%">
 The AnalyzeContainerType method analyzes the specified file data to determine whether it is a known font container format (e.g., WOFF or WOFF2).
@@ -79,7 +79,7 @@ The AnalyzeContainerType method analyzes the specified file data to determine wh
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/80E2E906-7596-4E39-808A-5CCA69376903">CreateFontSetBuilder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefactory5-createfontsetbuilder">CreateFontSetBuilder</a>
 </td>
 <td align="left" width="63%">
 Creates an empty font set builder to add font face references and create a custom font set.
@@ -88,7 +88,7 @@ Creates an empty font set builder to add font face references and create a custo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7C8D581E-489D-48BE-8B3F-278E1C246BBA">CreateHttpFontFileLoader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefactory5-createhttpfontfileloader">CreateHttpFontFileLoader</a>
 </td>
 <td align="left" width="63%">
 Creates a remote font file loader that can create font file references from HTTP or HTTPS URLs. The caller is responsible for registering and unregistering the loader.
@@ -97,7 +97,7 @@ Creates a remote font file loader that can create font file references from HTTP
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/BA36B91C-C6B8-43B8-BEDA-0089FAE1BAAD">CreateInMemoryFontFileLoader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefactory5-createinmemoryfontfileloader">CreateInMemoryFontFileLoader</a>
 </td>
 <td align="left" width="63%">
 Creates a loader object that can be used to create font file references to in-memory fonts. The caller is responsible for registering and unregistering the loader.
@@ -106,7 +106,7 @@ Creates a loader object that can be used to create font file references to in-me
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F82863DC-BFC8-49D3-93C5-DCA45093F81A">UnpackFontFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefactory5-unpackfontfile">UnpackFontFile</a>
 </td>
 <td align="left" width="63%">
 The UnpackFontFile method unpacks font data from a container file (WOFF or WOFF2) and returns the unpacked font data in the form of a font file stream.
@@ -121,11 +121,11 @@ The UnpackFontFile method unpacks font data from a container file (WOFF or WOFF2
 
 
 
-<a href="https://msdn.microsoft.com/50842838-d150-df9a-f1b7-67ce5ea2bc80">Custom Font Sets</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/custom-font-sets-win10">Custom Font Sets</a>
 
 
 
-<a href="https://msdn.microsoft.com/D3C5E48A-A062-430A-A196-CAC621F346FC">IDWriteFactory4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefactory4">IDWriteFactory4</a>
  
 
  

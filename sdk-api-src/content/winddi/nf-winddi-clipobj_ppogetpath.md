@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CLIPOBJ_ppoGetPath</b> function creates a <a href="https://msdn.microsoft.com/ceccca92-3312-49b4-b0f6-a3d0cd4bbef5">PATHOBJ</a> structure that contains the outline of the specified clip region.
+The <b>CLIPOBJ_ppoGetPath</b> function creates a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_pathobj">PATHOBJ</a> structure that contains the outline of the specified clip region.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>CLIPOBJ_ppoGetPath</b> function creates a <a href="https://msdn.microsoft
 
 ### -param pco [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/c3f632ed-f8d1-44bb-b2fb-6f7f2c71fd63">CLIPOBJ</a> structure that defines the specified clip region.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_clipobj">CLIPOBJ</a> structure that defines the specified clip region.
 
 
 ## -returns
@@ -75,7 +75,7 @@ The return value is a pointer to a PATHOBJ structure if the function is successf
 
 
 
-The returned PATHOBJ structure should be deleted using <a href="https://msdn.microsoft.com/65ecf4bc-5180-4b4b-a359-298f385b849e">EngDeletePath</a> when the driver no longer needs it.
+The returned PATHOBJ structure should be deleted using <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engdeletepath">EngDeletePath</a> when the driver no longer needs it.
 
 A driver for a device that can download a clipping path might prefer this function for defining complex regions.
 
@@ -87,15 +87,15 @@ A driver for a device that can download a clipping path might prefer this functi
 
 
 
-<a href="https://msdn.microsoft.com/c3f632ed-f8d1-44bb-b2fb-6f7f2c71fd63">CLIPOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_clipobj">CLIPOBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/65ecf4bc-5180-4b4b-a359-298f385b849e">EngDeletePath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engdeletepath">EngDeletePath</a>
 
 
 
-<a href="https://msdn.microsoft.com/ceccca92-3312-49b4-b0f6-a3d0cd4bbef5">PATHOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_pathobj">PATHOBJ</a>
  
 
  

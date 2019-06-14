@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Converts a print ticket into a <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structure.
+Converts a print ticket into a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> structure.
 
 
 ## -parameters
@@ -59,17 +59,17 @@ Converts a print ticket into a <a href="https://msdn.microsoft.com/85741025-9393
 
 ### -param hProvider [in]
 
-A handle to an opened print ticket provider. This handle is returned by the <a href="https://msdn.microsoft.com/6821b1b0-74b0-4caf-b8e6-a9df4d7693d7">PTOpenProvider</a> or the <a href="https://msdn.microsoft.com/0e65170b-66f6-4238-bdde-0a0b7108a686">PTOpenProviderEx</a> function.
+A handle to an opened print ticket provider. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptopenprovider">PTOpenProvider</a> or the <a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptopenproviderex">PTOpenProviderEx</a> function.
 
 
 ### -param pPrintTicket [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/52474e37-0e14-4dcc-8e04-4442cfd26eb3">IStream</a> with its seek position at the beginning of the print ticket.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/Stg/istream-compound-file-implementation">IStream</a> with its seek position at the beginning of the print ticket.
 
 
 ### -param baseDevmodeType
 
-A value indicating whether the user's default <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> or the print queue's default <b>DEVMODE</b> is used to provide values to the output <b>DEVMODE</b> when <i>pPrintTicket</i> does not specify every possible setting for a <b>DEVMODE</b>.
+A value indicating whether the user's default <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> or the print queue's default <b>DEVMODE</b> is used to provide values to the output <b>DEVMODE</b> when <i>pPrintTicket</i> does not specify every possible setting for a <b>DEVMODE</b>.
 
 
 ### -param scope [in]
@@ -79,12 +79,12 @@ A value that specifies the scope of <i>pPrintTicket</i>. This value can specify 
 
 ### -param pcbDevmode [out]
 
-A pointer to the size of the <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> in bytes.
+A pointer to the size of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> in bytes.
 
 
 ### -param ppDevmode [out]
 
-A pointer to the newly created <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a>.
+A pointer to the newly created <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a>.
 
 
 ### -param pbstrErrorMessage [out]
@@ -102,7 +102,7 @@ If <i>hProvider</i> was opened in a different thread, the <b>HRESULT</b> is E_IN
 
 If <i>pPrintTicket</i> is invalid, the <b>HRESULT</b> is E_PRINTTICKET_FORMAT.
 
-Otherwise, some other error code is returned in the <b>HRESULT</b>. For more information about COM error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa376932(v=VS.85).aspx">Error Handling</a>.
+Otherwise, some other error code is returned in the <b>HRESULT</b>. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/SetupApi/error-handling">Error Handling</a>.
 
 
 
@@ -118,13 +118,13 @@ The <i>hProvider</i> parameter must be a handle that was opened in the same thre
 
 If <i>baseDevmodeType</i> is kUserDefaultDevmode, but the user's default is not available, then the device's default will be used.
 
-The returned <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> may be internally inconsistent or conflict with hard printer settings even though each setting within it is viable individually. For example, if the printer supports an optional duplexer but the <i>pPrintTicket</i> calls for duplexing, then the returned <b>DEVMODE</b> will also call for duplexing, even if the duplexer is not installed. Use <a href="https://msdn.microsoft.com/e89a2f6f-2bac-4369-b526-f8e15028698b">DocumentProperties</a> to correct the returned <b>DEVMODE</b>.
+The returned <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> may be internally inconsistent or conflict with hard printer settings even though each setting within it is viable individually. For example, if the printer supports an optional duplexer but the <i>pPrintTicket</i> calls for duplexing, then the returned <b>DEVMODE</b> will also call for duplexing, even if the duplexer is not installed. Use <a href="https://docs.microsoft.com/windows/desktop/printdocs/documentproperties">DocumentProperties</a> to correct the returned <b>DEVMODE</b>.
 
-The buffer in the returned <i>ppDevmode</i> should be released with <a href="https://msdn.microsoft.com/d568b3a9-7f13-4e4e-8bbc-f4ab0009fe83">PTReleaseMemory</a>.
+The buffer in the returned <i>ppDevmode</i> should be released with <a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptreleasememory">PTReleaseMemory</a>.
 
 Values of <i>pPrintTicket</i> that are outside of the <i>scope</i> are ignored. For example, if the scope is only a single page, then job-wide settings and document-wide settings are ignored. Job scope includes document scope and page scope. Document scope includes page scope.
 
-If <i>pbstrErrorMessage</i> is not <b>NULL</b> when the function returns, the caller must free the string with <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+If <i>pbstrErrorMessage</i> is not <b>NULL</b> when the function returns, the caller must free the string with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
 
 
 
@@ -134,15 +134,15 @@ If <i>pbstrErrorMessage</i> is not <b>NULL</b> when the function returns, the ca
 
 
 
-<a href="https://msdn.microsoft.com/98d5f8ec-54bd-4e88-b632-ed427b599cb6">Print Schema</a>
+<a href="https://docs.microsoft.com/windows/desktop/printdocs/printschema">Print Schema</a>
 
 
 
-<a href="https://msdn.microsoft.com/d859f84d-af0e-4b8b-b7fa-d7b1fc35ed39">Print Spooler API Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/printdocs/printing-and-print-spooler-functions">Print Spooler API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5c115b0-9c1e-46e7-8fb5-eddbc2c75298">Printing</a>
+<a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
  
 
  

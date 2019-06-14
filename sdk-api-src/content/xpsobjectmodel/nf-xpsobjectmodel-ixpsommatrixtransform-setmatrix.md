@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the <a href="https://msdn.microsoft.com/en-us/library/Dd372964(v=VS.85).aspx">XPS_MATRIX</a> structure, which specifies the transform matrix.
+Sets the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0023">XPS_MATRIX</a> structure, which specifies the transform matrix.
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Sets the <a href="https://msdn.microsoft.com/en-us/library/Dd372964(v=VS.85).asp
 
 ### -param matrix [in]
 
-The address of the <a href="https://msdn.microsoft.com/en-us/library/Dd372964(v=VS.85).aspx">XPS_MATRIX</a> structure.
+The address of the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0023">XPS_MATRIX</a> structure.
 
 
 ## -returns
 
 
 
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -117,7 +117,7 @@ The matrix referenced by <i>matrix</i> is not valid.
 
 
 
-<a href="https://msdn.microsoft.com/d21457bc-9445-4ca2-ab9f-1e3f55e2e635">IXpsOMMatrixTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsommatrixtransform">IXpsOMMatrixTransform</a>
 
 
 
@@ -125,11 +125,11 @@ The matrix referenced by <i>matrix</i> is not valid.
 
 
 
-<a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd372964(v=VS.85).aspx">XPS_MATRIX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0023">XPS_MATRIX</a>
  
 
  

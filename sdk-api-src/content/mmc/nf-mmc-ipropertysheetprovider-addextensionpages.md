@@ -73,7 +73,7 @@ This method can return one of these values.
 
 
 Snap-ins that use the 
-<a href="https://msdn.microsoft.com/c63d5d5f-a334-4367-8a1e-252b4eb5b50d">IPropertySheetProvider</a> interface directly must add at least one page before extensions can add pages. They must also call the <b>IPropertySheetProvider::AddExtensionPages</b> method to allow extensions to add their own property pages.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-ipropertysheetprovider">IPropertySheetProvider</a> interface directly must add at least one page before extensions can add pages. They must also call the <b>IPropertySheetProvider::AddExtensionPages</b> method to allow extensions to add their own property pages.
 
 
 
@@ -83,7 +83,7 @@ Snap-ins that use the
 
 
 
-<a href="https://msdn.microsoft.com/c63d5d5f-a334-4367-8a1e-252b4eb5b50d">IPropertySheetProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-ipropertysheetprovider">IPropertySheetProvider</a>
  
 
  

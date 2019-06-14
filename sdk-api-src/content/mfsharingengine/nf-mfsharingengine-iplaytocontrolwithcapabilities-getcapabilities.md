@@ -76,11 +76,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/d670f320-30b5-4712-9192-d0976b65dd65">IPlayToControlWithCapabilities</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nn-mfsharingengine-iplaytocontrolwithcapabilities">IPlayToControlWithCapabilities</a>
 
 
 
-<a href="https://msdn.microsoft.com/F8F9FEC6-836C-429A-BADD-5CD1E550AED0">IPlayToSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nn-mfsharingengine-iplaytosourceclassfactory">IPlayToSource</a>
  
 
  

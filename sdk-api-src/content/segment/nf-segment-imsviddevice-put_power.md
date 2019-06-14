@@ -133,11 +133,11 @@ Not all device types implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694519(v=VS.85).aspx">IMSVidDevice Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsviddevice">IMSVidDevice Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694527(v=VS.85).aspx">IMSVidDevice::get_Power</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsviddevice-get_power">IMSVidDevice::get_Power</a>
  
 
  

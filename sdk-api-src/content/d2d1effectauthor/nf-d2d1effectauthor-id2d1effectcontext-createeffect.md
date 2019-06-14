@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 Creates a Direct2D effect for the specified  class ID.
-      This is the same as <a href="https://msdn.microsoft.com/dfe587f9-e92f-4367-a503-edd446a91cb8">ID2D1DeviceContext::CreateEffect</a> so custom effects can create other effects and wrap them in a transform.
+      This is the same as <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createeffect">ID2D1DeviceContext::CreateEffect</a> so custom effects can create other effects and wrap them in a transform.
 
 
 ## -parameters
@@ -63,12 +63,12 @@ Creates a Direct2D effect for the specified  class ID.
 
 Type: <b>REFCLSID</b>
 
-The built-in or registered effect ID to create the effect. See <a href="https://msdn.microsoft.com/A76F6AB8-16E9-45C9-A768-5E4AA072D534">Built-in Effects</a> for a list of effect IDs.
+The built-in or registered effect ID to create the effect. See <a href="https://docs.microsoft.com/windows/desktop/Direct2D/built-in-effects">Built-in Effects</a> for a list of effect IDs.
 
 
 ### -param effect [out]
 
-Type: <b><a href="https://msdn.microsoft.com/e90d1830-c356-48f1-ac7b-1d94c8c26569">ID2D1Effect</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect">ID2D1Effect</a>**</b>
 
 When this method returns, contains the address of a pointer to the effect.
 
@@ -128,19 +128,19 @@ The created effect does not reference count the DLL from which the effect was cr
 
 
 
-<a href="https://msdn.microsoft.com/5f4c7248-9303-4451-92f1-4b230efd627a">D2D1_BLEND_DESCRIPTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/ns-d2d1effectauthor-d2d1_blend_description">D2D1_BLEND_DESCRIPTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/1446BDA9-AD4C-472C-8F1D-82ABC1880E13">Effects</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/effects-overview">Effects</a>
 
 
 
-<a href="https://msdn.microsoft.com/0DC46758-6005-4A33-9539-9C95CF8CFB6A">ID2D1BlendTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1blendtransform">ID2D1BlendTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/6BE6DF90-C5B7-4377-9DBF-804AB1C91FEE">ID2D1EffectContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectcontext">ID2D1EffectContext</a>
  
 
  

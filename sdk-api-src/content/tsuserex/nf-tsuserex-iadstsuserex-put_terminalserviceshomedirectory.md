@@ -63,12 +63,12 @@ This property is read/write.
 
 
 
-To set a root directory on the local computer, specify a local path; for example, C:\Path. To set a root directory in a network environment, you must first set the <a href="https://msdn.microsoft.com/e5cfa526-eff8-4a89-9b13-c4a06a416fe5">TerminalServicesHomeDrive</a> property, and then set this property to a UNC path.
+To set a root directory on the local computer, specify a local path; for example, C:\Path. To set a root directory in a network environment, you must first set the <a href="https://docs.microsoft.com/windows/desktop/api/tsuserex/nf-tsuserex-iadstsuserex-get_terminalserviceshomedrive">TerminalServicesHomeDrive</a> property, and then set this property to a UNC path.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/e5cfa526-eff8-4a89-9b13-c4a06a416fe5">TerminalServicesHomeDrive</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/api/tsuserex/nf-tsuserex-iadstsuserex-get_terminalserviceshomedrive">TerminalServicesHomeDrive</a>.
 
 <div class="code"></div>
 
@@ -79,7 +79,7 @@ For an example, see <a href="https://msdn.microsoft.com/e5cfa526-eff8-4a89-9b13-
 
 
 
-<a href="https://msdn.microsoft.com/7af8fe94-15db-49dc-ba4a-b79601205f59">IADsTSUserEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tsuserex/nn-tsuserex-iadstsuserex">IADsTSUserEx</a>
  
 
  

@@ -50,14 +50,14 @@ ms.custom: 19H1
 ## -description
 
 
-Provides an event queue for applications that need to implement the <a href="https://msdn.microsoft.com/a37d0840-c896-43a0-b3d1-c2a6aaff1b25">IMFMediaEventGenerator</a> interface.
+Provides an event queue for applications that need to implement the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator">IMFMediaEventGenerator</a> interface.
 
-This interface is exposed by a helper object that implements an event queue. If you are writing a component that implements the <a href="https://msdn.microsoft.com/a37d0840-c896-43a0-b3d1-c2a6aaff1b25">IMFMediaEventGenerator</a> interface, you can use this object in your implementation. The event queue object is thread safe and provides methods to queue events and to pull them from the queue either synchronously or asynchronously. To create the event queue object, call <a href="https://msdn.microsoft.com/214cea99-37cf-4571-aa00-7b3e220a6b84">MFCreateEventQueue</a>.
+This interface is exposed by a helper object that implements an event queue. If you are writing a component that implements the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator">IMFMediaEventGenerator</a> interface, you can use this object in your implementation. The event queue object is thread safe and provides methods to queue events and to pull them from the queue either synchronously or asynchronously. To create the event queue object, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreateeventqueue">MFCreateEventQueue</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaEventQueue</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFMediaEventQueue</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaEventQueue</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaEventQueue</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMFMediaEventQueue</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/454d4b3b-6251-4b7e-b8f3-ff7cff5269b5">BeginGetEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventqueue-begingetevent">BeginGetEvent</a>
 </td>
 <td align="left" width="63%">
 Begins an asynchronous request for the next event in the queue.
@@ -81,7 +81,7 @@ Begins an asynchronous request for the next event in the queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bb0ea226-9dc0-43e3-a482-cfec531b5734">EndGetEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventqueue-endgetevent">EndGetEvent</a>
 </td>
 <td align="left" width="63%">
 Completes an asynchronous request for the next event in the queue.
@@ -90,7 +90,7 @@ Completes an asynchronous request for the next event in the queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b7c48607-f410-47ee-8cc6-38123919da55">GetEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventqueue-getevent">GetEvent</a>
 </td>
 <td align="left" width="63%">
 Retrieves the next event in the queue.
@@ -99,7 +99,7 @@ Retrieves the next event in the queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/eb04ce9f-fb64-438f-ad4d-ba1fb849d59c">QueueEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventqueue-queueevent">QueueEvent</a>
 </td>
 <td align="left" width="63%">
 Puts an event in the queue.
@@ -108,7 +108,7 @@ Puts an event in the queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e51653a4-8f71-44f3-90e8-2052db521307">QueueEventParamUnk</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventqueue-queueeventparamunk">QueueEventParamUnk</a>
 </td>
 <td align="left" width="63%">
 Creates an event, sets an <b>IUnknown</b> pointer as the event data, and puts the event in the queue.
@@ -117,7 +117,7 @@ Creates an event, sets an <b>IUnknown</b> pointer as the event data, and puts th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e2bafeca-76e7-4df4-94a7-86aef04f3a35">QueueEventParamVar</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventqueue-queueeventparamvar">QueueEventParamVar</a>
 </td>
 <td align="left" width="63%">
 Creates an event, sets a <b>PROPVARIANT</b> as the event data, and puts the event in the queue.
@@ -126,7 +126,7 @@ Creates an event, sets a <b>PROPVARIANT</b> as the event data, and puts the even
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6ec52973-0d90-463b-b2be-08d5d6fdcc05">Shutdown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventqueue-shutdown">Shutdown</a>
 </td>
 <td align="left" width="63%">
 Shuts down the event queue.
@@ -154,11 +154,11 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 
-<a href="https://msdn.microsoft.com/2e003ad4-9fcb-4834-a335-e4969ffd3a00">Media Event Generators</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-event-generators">Media Event Generators</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

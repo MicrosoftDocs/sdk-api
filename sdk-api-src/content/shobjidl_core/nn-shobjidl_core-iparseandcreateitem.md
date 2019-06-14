@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IParseAndCreateItem</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IParseAndCreateItem</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IParseAndCreateItem</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IParseAndCreateItem</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -68,13 +68,13 @@ The <b>IParseAndCreateItem</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7071621c-8311-45a2-afd5-144bcf707727">GetItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iparseandcreateitem-getitem">GetItem</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4a9f2d58-2959-40bd-ba82-74ca0e504145">SetItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iparseandcreateitem-setitem">SetItem</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>

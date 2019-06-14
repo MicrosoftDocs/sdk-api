@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 
-<b>StringCbVPrintf_lEx</b> is similar to <a href="https://msdn.microsoft.com/en-us/library/ms647516(v=VS.85).aspx">StringCbVPrintfEx</a> but includes a parameter for locale information.
+<b>StringCbVPrintf_lEx</b> is similar to <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbvprintfexa">StringCbVPrintfEx</a> but includes a parameter for locale information.
 
 
 ## -parameters
@@ -151,7 +151,7 @@ As in the case of <b>STRSAFE_NULL_ON_FAILURE</b>, if the function fails, <i>pszD
 
 ### -param pszFormat [in]
 
-The format string. This string must be null-terminated. For more information, see <a href="https://msdn.microsoft.com/en-us/library/56e442dc.aspx">Format Specification Syntax</a>.
+The format string. This string must be null-terminated. For more information, see <a href="https://docs.microsoft.com/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions">Format Specification Syntax</a>.
 
 
 ### -param locale [in]
@@ -168,7 +168,7 @@ The arguments to be inserted into the <i>pszFormat</i> string.
 
 
 
-This function can return one of the following values. It is strongly recommended that you use the <a href="https://msdn.microsoft.com/7a258b0b-d214-46c5-be0a-6493cd14a0e5">SUCCEEDED</a> and <a href="https://msdn.microsoft.com/d9c4ff73-c255-4a82-b901-23bd5b41ee6c">FAILED</a> macros to test the return value of this function.
+This function can return one of the following values. It is strongly recommended that you use the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros to test the return value of this function.
 
 <table>
 <tr>

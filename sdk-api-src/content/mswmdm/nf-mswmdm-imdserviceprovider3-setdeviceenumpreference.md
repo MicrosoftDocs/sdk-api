@@ -78,7 +78,7 @@ Contains a bitwise <b>OR</b> combination of one or more of the following bit val
 </tr>
 <tr>
 <td>ALLOW_OUTOFBAND_NOTIFICATION</td>
-<td>By default, the <a href="https://msdn.microsoft.com/3089a04d-24f5-4a4c-9df5-b4073fef358a">IWMDMNotification</a> callback mechanism provides applications with device arrival and removal events. When this bit is set, the service provider is free to notify the application by a separate mechanism, such as by using a window message. This behavior is in addition to the Windows Media Device Manager notifications. This flag does not suppress Windows Media Device Manager notifications.</td>
+<td>By default, the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmnotification">IWMDMNotification</a> callback mechanism provides applications with device arrival and removal events. When this bit is set, the service provider is free to notify the application by a separate mechanism, such as by using a window message. This behavior is in addition to the Windows Media Device Manager notifications. This flag does not suppress Windows Media Device Manager notifications.</td>
 </tr>
 </table>
  
@@ -140,7 +140,7 @@ The method was called after an enumeration operation. It must be called before t
 
 This API provides clients the ability to override the default device enumeration behavior of Windows Media Device Manager.
 
-Client applications must call this method immediately after creating the device manager object by querying for the <a href="https://msdn.microsoft.com/cac68821-42fc-4833-bf2e-eec1768869e6">IWMDeviceManager</a> interface from Windows Media Device Manager. The call must be made before any enumeration occurs, either explicitly or implicitly as a result of another operation.
+Client applications must call this method immediately after creating the device manager object by querying for the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager">IWMDeviceManager</a> interface from Windows Media Device Manager. The call must be made before any enumeration occurs, either explicitly or implicitly as a result of another operation.
 
 After a preference flag is set, it cannot be changed for the lifetime of the application (not just the lifetime of the Windows Media Device Manager object). Attempting to change a preference flag will result in an error. Calling this API again with the same flag settings does not return an error, and also does have any effect on enumeration.
 
@@ -154,7 +154,7 @@ The DO_NOT_VIRTUALIZE_STORAGES_AS_DEVICES flag has to be honored by the service 
 
 
 
-<a href="https://msdn.microsoft.com/94d4c323-07a9-406b-84e1-89703d2a8d10">IMDServiceProvider3 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdserviceprovider3">IMDServiceProvider3 Interface</a>
  
 
  

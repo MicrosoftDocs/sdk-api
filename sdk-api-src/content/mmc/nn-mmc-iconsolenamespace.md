@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The snap-in can query for a pointer to the 
 <b>IConsoleNameSpace</b> interface during a call to its 
-<a href="https://msdn.microsoft.com/7893b3d6-f576-41cc-bbe5-2fcef7c327d7">IComponentData::Initialize</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponentdata-initialize">IComponentData::Initialize</a> method.
 
 
 ## -inheritance
@@ -73,7 +73,7 @@ The <b>IConsoleNameSpace</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb970486(v=VS.85).aspx">DeleteItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-deleteitem">DeleteItem</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to delete a single item from the scope pane.
@@ -91,7 +91,7 @@ Enables the snap-in to get the handle to the first child item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa965805(v=VS.85).aspx">GetItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/lwef/-search-2x-ipropertyfiltercollection-getitem">GetItem</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to get the attributes of a single scope pane item.
@@ -100,7 +100,7 @@ Enables the snap-in to get the attributes of a single scope pane item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb761626(v=VS.85).aspx">GetNextItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrol-getnextitem">GetNextItem</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to get the handle to the next item.
@@ -109,7 +109,7 @@ Enables the snap-in to get the handle to the next item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629987(v=VS.85).aspx">GetParentItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/wia/-wia-iwiaitem2-getparentitem">GetParentItem</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to get the handle to the parent item.
@@ -127,7 +127,7 @@ Enables the snap-in to insert a single item into the scope pane.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb970346(v=VS.85).aspx">SetItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setitem">SetItem</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to set the attributes of a single scope pane item.
@@ -142,11 +142,11 @@ Enables the snap-in to set the attributes of a single scope pane item.
 
 
 
-<a href="https://msdn.microsoft.com/894f99a6-2189-458d-a50f-497930d4a9dd">IConsoleNameSpace2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsolenamespace2">IConsoleNameSpace2</a>
 
 
 
-<a href="https://msdn.microsoft.com/c95742a4-ae9b-40f3-8d88-c4955e5a3032">MMC 2.0 Interfaces and Methods</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmc-interfaces-and-methods">MMC 2.0 Interfaces and Methods</a>
  
 
  

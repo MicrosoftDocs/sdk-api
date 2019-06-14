@@ -83,17 +83,17 @@ Length of the byte array to which <i>pbSPSessionKey</i> points.
 
 ### -param pStgGlobals [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/fe164271-58f0-4b28-a200-6b15f8b42d36">IWMDMStorageGlobals</a> interface on the root storage of the media or device to or from which the file is being transferred.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorageglobals">IWMDMStorageGlobals</a> interface on the root storage of the media or device to or from which the file is being transferred.
 
 
 ### -param pProgressCallback [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/fc3a7031-ac1b-45cf-889b-2d40d50b347d">IWMDMProgress3</a> interface.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress3">IWMDMProgress3</a> interface.
 
 
 ### -param ppRights [out]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/1be9167b-0d20-4a17-a42b-9696ada2b539">WMDMRIGHTS</a> structures containing the rights information for this object. The array is allocated by this method and must be freed using <b>CoTaskMemFree</b>.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/WMDM/wmdmrights">WMDMRIGHTS</a> structures containing the rights information for this object. The array is allocated by this method and must be freed using <b>CoTaskMemFree</b>.
 
 
 ### -param pnRightsCount [out]
@@ -119,7 +119,7 @@ If the method succeeds, it returns S_OK. If the method fails, it returns an <b>H
 </dl>
 </td>
 <td width="60%">
-This method was called out of sequence. <a href="https://msdn.microsoft.com/c4ed4da1-9378-4c35-8f03-b028e37c1707">ISCPSecureQuery::GetDataDemands</a> and then <a href="https://msdn.microsoft.com/e12d8b55-5600-4178-8b2b-8afe8ade6818">ISCPSecureQuery::ExamineData</a>must be called, in that order.
+This method was called out of sequence. <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-getdatademands">ISCPSecureQuery::GetDataDemands</a> and then <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-examinedata">ISCPSecureQuery::ExamineData</a>must be called, in that order.
 
 </td>
 </tr>
@@ -187,19 +187,19 @@ This method is identical to <b>ISCPSecureQuery::GetRights</b> except that the pa
 
 
 
-<a href="https://msdn.microsoft.com/3d600ae9-5d5b-48f6-a162-e52f78beb983">ISCPSecureQuery3 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery3">ISCPSecureQuery3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d9991f4-ce20-45c4-a408-d7a846b019ef">ISCPSecureQuery::GetRights</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-getrights">ISCPSecureQuery::GetRights</a>
 
 
 
-<a href="https://msdn.microsoft.com/fe164271-58f0-4b28-a200-6b15f8b42d36">IWMDMStorageGlobals Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorageglobals">IWMDMStorageGlobals Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/1be9167b-0d20-4a17-a42b-9696ada2b539">WMDMRIGHTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/wmdmrights">WMDMRIGHTS</a>
  
 
  

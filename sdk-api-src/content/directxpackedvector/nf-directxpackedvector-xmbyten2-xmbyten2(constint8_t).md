@@ -47,7 +47,7 @@ ms.custom: 19H1
 
 ## -description
 
-Initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Hh437850(v=VS.85).aspx">XMBYTEN2</a> from a two-element <code>int8_t</code> array argument.
+Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyten2">XMBYTEN2</a> from a two-element <code>int8_t</code> array argument.
 
 This constructor initializes a new instance of **XMBYTEN2** from a two-element <code>int8_t</code> array argument.
 
@@ -63,6 +63,6 @@ Two-element <code>int8_t</code> array containing the values used to initialize t
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437850(v=VS.85).aspx">XMBYTEN2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyten2">XMBYTEN2</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449498(v=VS.85).aspx">XMBYTEN2 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmbyten2-ctor">XMBYTEN2 Constructors</a>

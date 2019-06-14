@@ -59,7 +59,7 @@ The <b>GetEASEventCode</b> method returns the EAS event code.
 
 ### -param pbVal [out]
 
-A pointer to a buffer that receives the EAS_event_code field. The caller must allocate the buffer, which must be large enough to hold the event code. To get the required size of the buffer, call <a href="https://msdn.microsoft.com/d6e05cd0-d043-4f15-b25b-28402035943b">ISCTE_EAS::GetEASEventCodeLen</a>. The event code consists of ASCII characters.
+A pointer to a buffer that receives the EAS_event_code field. The caller must allocate the buffer, which must be large enough to hold the event code. To get the required size of the buffer, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iscte_eas-geteaseventcodelen">ISCTE_EAS::GetEASEventCodeLen</a>. The event code consists of ASCII characters.
           
 
 
@@ -81,7 +81,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/f40e89f4-6a33-44a9-933c-bf38978f1cb2">ISCTE_EAS::Initialize</a> method was not called.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iscte_eas-initialize">ISCTE_EAS::Initialize</a> method was not called.
 
 </td>
 </tr>
@@ -107,11 +107,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/d6e05cd0-d043-4f15-b25b-28402035943b">GetEASEventCodeLen</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iscte_eas-geteaseventcodelen">GetEASEventCodeLen</a>
 
 
 
-<a href="https://msdn.microsoft.com/7b5620c3-f460-4118-a8a2-9b2561bd12cf">ISCTE_EAS Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iscte_eas">ISCTE_EAS Interface</a>
  
 
  

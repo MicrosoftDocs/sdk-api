@@ -59,14 +59,14 @@ Renders a given geometry realization to the target with the specified brush.
 
 ### -param geometryRealization [in]
 
-Type: <b><a href="https://msdn.microsoft.com/EC2CF78B-5CED-494A-9ED3-407A4B6CD113">ID2D1GeometryRealization</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_2/nn-d2d1_2-id2d1geometryrealization">ID2D1GeometryRealization</a>*</b>
 
 The geometry realization to be rendered.
 
 
 ### -param brush [in]
 
-Type: <b><a href="https://msdn.microsoft.com/5b8f6ff8-ba52-4d30-9bea-3de89793c868">ID2D1Brush</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>*</b>
 
 The brush to render the realization with.
 
@@ -110,8 +110,8 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 This method respects all currently set state (transform, DPI, unit mode, target image, clips, layers); 
         however, artifacts such as faceting may appear when rendering the realizations with a large effective scale (either via the transform or the DPI). 
-        Callers should create their realizations with an appropriate flattening tolerance using either <a href="https://msdn.microsoft.com/98a443af-4bb7-486d-bc87-ff34c3671bdd">D2D1_DEFAULT_FLATTENING_TOLERANCE</a> 
-        or <a href="https://msdn.microsoft.com/62461D91-FAAF-4ABC-A852-6CD4B9B8182B">ComputeFlatteningTolerance</a> to compensate for this.
+        Callers should create their realizations with an appropriate flattening tolerance using either <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-constants">D2D1_DEFAULT_FLATTENING_TOLERANCE</a> 
+        or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn280327(v=vs.85)">ComputeFlatteningTolerance</a> to compensate for this.
       
 
 Additionally, callers should be aware of the safe render bounds when creating geometry realizations. 
@@ -126,7 +126,7 @@ Additionally, callers should be aware of the safe render bounds when creating ge
 
 
 
-<a href="https://msdn.microsoft.com/E08FDAE4-05D3-472C-9AD9-228BAF989F1D">ID2D1DeviceContext1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_2/nn-d2d1_2-id2d1devicecontext1">ID2D1DeviceContext1</a>
  
 
  

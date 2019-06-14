@@ -62,7 +62,7 @@ The <b>put_SystemType</b> method sets the system type.
 
 ### -param SysType [in]
 
-Variable of type <a href="https://msdn.microsoft.com/b547ace8-5c6d-43c1-bfa8-2dd162227730">DVBSystemType</a> that specifies the system type.
+Variable of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/dvbsystemtype">DVBSystemType</a> that specifies the system type.
 
 
 ## -returns
@@ -79,7 +79,7 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="https://msdn.microsoft.com/fba3c7f3-61f8-4704-8068-cb1d3171345a">IDVBTuningSpace Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-idvbtuningspace">IDVBTuningSpace Interface</a>
  
 
  

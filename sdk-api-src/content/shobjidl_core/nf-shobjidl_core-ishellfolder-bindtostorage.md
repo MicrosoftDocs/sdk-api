@@ -63,21 +63,21 @@ Requests a pointer to an object's storage interface.
 
 Type: <b>PCUIDLIST_RELATIVE</b>
 
-The address of an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure that identifies the subfolder relative to its parent folder. The structure must contain exactly one <a href="https://msdn.microsoft.com/794c8425-2319-4339-881c-c5083ab05638">SHITEMID</a> structure followed by a terminating zero.
+The address of an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure that identifies the subfolder relative to its parent folder. The structure must contain exactly one <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a> structure followed by a terminating zero.
 
 
 ### -param pbc [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>*</b>
 
-The optional address of an <a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a> interface on a bind context object to be used during this operation. If this parameter is not used, set it to <b>NULL</b>. Because support for <i>pbc</i> is optional for folder object implementations, some folders may not support the use of bind contexts.
+The optional address of an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> interface on a bind context object to be used during this operation. If this parameter is not used, set it to <b>NULL</b>. Because support for <i>pbc</i> is optional for folder object implementations, some folders may not support the use of bind contexts.
 
 
 ### -param riid [in]
 
 Type: <b>REFIID</b>
 
-The IID of the requested storage interface. To retrieve an <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>, <a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a>, or <a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a> interface pointer, set <i>riid</i> to <b>IID_IStream</b>, <b>IID_IStorage</b>, or <b>IID_IPropertySetStorage</b>, respectively.
+The IID of the requested storage interface. To retrieve an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>, <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a> interface pointer, set <i>riid</i> to <b>IID_IStream</b>, <b>IID_IStorage</b>, or <b>IID_IPropertySetStorage</b>, respectively.
 
 
 ### -param ppv [out]
@@ -102,7 +102,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Namespace extensions have the option of allowing applications to bind to an object that represents an item's storage. If this option is supported, <b>IShellFolder::BindToStorage</b> returns a specified interface pointer that can then be used to access the contents of object. See the <a href="https://msdn.microsoft.com/94c8219f-8131-45dd-b350-878ffd6161ea">IMoniker::BindToStorage</a> reference for further discussion.
+Namespace extensions have the option of allowing applications to bind to an object that represents an item's storage. If this option is supported, <b>IShellFolder::BindToStorage</b> returns a specified interface pointer that can then be used to access the contents of object. See the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-bindtostorage">IMoniker::BindToStorage</a> reference for further discussion.
 
 
 

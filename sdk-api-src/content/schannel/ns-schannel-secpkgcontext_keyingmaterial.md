@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SecPkgContext_KeyingMaterial</b> structure  specifies the exportable keying material for the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a>.
+The <b>SecPkgContext_KeyingMaterial</b> structure  specifies the exportable keying material for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>.
 
 
 ## -struct-fields
@@ -66,5 +66,5 @@ The length, in bytes, of the keying material to be exported. Must be greater tha
 
 ### -field pbKeyingMaterial
 
-A pointer to the buffer containing the exported keying material. After use, deallocate the buffer by calling <a href="https://msdn.microsoft.com/3c3d27bb-4f9a-4979-b679-1e10fa1ff221">FreeContextBuffer</a>.
+A pointer to the buffer containing the exported keying material. After use, deallocate the buffer by calling <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a>.
 

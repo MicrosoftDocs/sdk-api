@@ -51,14 +51,14 @@ ms.custom: 19H1
 
 The 
 <b>IConsole3</b> interface supersedes the 
-<a href="https://msdn.microsoft.com/9a20d09d-219c-4bcb-95b3-67a44e41629e">IConsole2</a> interface. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a> interface. The 
 <b>IConsole3</b> interface contains the 
-<a href="https://msdn.microsoft.com/ebbdc395-e94f-4e86-965c-59bf7a49bbeb">IConsole3::RenameScopeItem</a> method, which allows a scope node to programmatically be placed in rename mode.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsole3-renamescopeitem">IConsole3::RenameScopeItem</a> method, which allows a scope node to programmatically be placed in rename mode.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConsole3</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IConsole3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConsole3</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IConsole3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,71 +73,71 @@ The <b>IConsole3</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/958c9611-fd9c-4895-903b-145eacf76901">Expand</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsole2-expand">Expand</a>
 </td>
 <td align="left" width="63%">
-Enables the snap-in to expand or collapse an item in the scope pane.</p> (Inherited from <a href="https://msdn.microsoft.com/9a20d09d-219c-4bcb-95b3-67a44e41629e">IConsole2</a>)</td>
+Enables the snap-in to expand or collapse an item in the scope pane.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f0159545-0f39-4f3b-ace8-29ffb4ef638c">GetMainWindow</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814784(v=vs.85)">GetMainWindow</a>
 </td>
 <td align="left" width="63%">
-Returns a handle to the main frame window.</p> (Inherited from <a href="https://msdn.microsoft.com/9a20d09d-219c-4bcb-95b3-67a44e41629e">IConsole2</a>)</td>
+Returns a handle to the main frame window.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9c9221db-54d5-4dd2-8577-27915b313046">IsTaskpadViewPreferred</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsole2-istaskpadviewpreferred">IsTaskpadViewPreferred</a>
 </td>
 <td align="left" width="63%">
-Determines if the user prefers taskpad views by default.</p> (Inherited from <a href="https://msdn.microsoft.com/9a20d09d-219c-4bcb-95b3-67a44e41629e">IConsole2</a>)</td>
+Determines if the user prefers taskpad views by default.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3cc90072-2766-43ec-8f3d-4bc1ca68325b">MessageBox</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814786(v=vs.85)">MessageBox</a>
 </td>
 <td align="left" width="63%">
-Displays a message box.</p> (Inherited from <a href="https://msdn.microsoft.com/9a20d09d-219c-4bcb-95b3-67a44e41629e">IConsole2</a>)</td>
+Displays a message box.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/da0cbb4f-7374-4290-880d-ab81cb2ba3c0">NewWindow</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814787(v=vs.85)">NewWindow</a>
 </td>
 <td align="left" width="63%">
-Creates a new window rooted at the specified scope item.</p> (Inherited from <a href="https://msdn.microsoft.com/9a20d09d-219c-4bcb-95b3-67a44e41629e">IConsole2</a>)</td>
+Creates a new window rooted at the specified scope item.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/439043b1-65a9-4208-94eb-e2aa1658ea81">QueryConsoleVerb</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814788(v=vs.85)">QueryConsoleVerb</a>
 </td>
 <td align="left" width="63%">
 Queries for the 
-<a href="https://msdn.microsoft.com/9c4338c1-eb5e-47f3-8b5b-0623690bd5f6">IConsoleVerb</a> interface.</p> (Inherited from <a href="https://msdn.microsoft.com/9a20d09d-219c-4bcb-95b3-67a44e41629e">IConsole2</a>)</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsoleverb">IConsoleVerb</a> interface.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/eaf91ea6-9389-4155-805c-72bbae99ca04">QueryResultImageList</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814789(v=vs.85)">QueryResultImageList</a>
 </td>
 <td align="left" width="63%">
-Queries the console-provided result pane's image list.</p> (Inherited from <a href="https://msdn.microsoft.com/9a20d09d-219c-4bcb-95b3-67a44e41629e">IConsole2</a>)</td>
+Queries the console-provided result pane's image list.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/26d4859c-e79f-4c63-92ad-b66de7d0fa13">QueryResultView</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814790(v=vs.85)">QueryResultView</a>
 </td>
 <td align="left" width="63%">
-Queries IConsole for the result view object's <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface pointer.</p> (Inherited from <a href="https://msdn.microsoft.com/9a20d09d-219c-4bcb-95b3-67a44e41629e">IConsole2</a>)</td>
+Queries IConsole for the result view object's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b5cc356f-c8ea-4c4f-b643-3bfb6d7fb15b">QueryScopeImageList</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814791(v=vs.85)">QueryScopeImageList</a>
 </td>
 <td align="left" width="63%">
-Queries the console-provided scope pane's image list.</p> (Inherited from <a href="https://msdn.microsoft.com/9a20d09d-219c-4bcb-95b3-67a44e41629e">IConsole2</a>)</td>
+Queries the console-provided scope pane's image list.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>)</td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ebbdc395-e94f-4e86-965c-59bf7a49bbeb">RenameScopeItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsole3-renamescopeitem">RenameScopeItem</a>
 </td>
 <td align="left" width="63%">
 Allows a specified scope node to programmatically be placed in rename mode.
@@ -146,42 +146,42 @@ Allows a specified scope node to programmatically be placed in rename mode.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e68e8473-a7ec-4e31-aef7-3e68c6a849c1">SelectScopeItem</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814792(v=vs.85)">SelectScopeItem</a>
 </td>
 <td align="left" width="63%">
-Selects the given scope item.</p> (Inherited from <a href="https://msdn.microsoft.com/9a20d09d-219c-4bcb-95b3-67a44e41629e">IConsole2</a>)</td>
+Selects the given scope item.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bca6fbef-d00b-4f25-823e-fff76a96f59d">SetHeader</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814793(v=vs.85)">SetHeader</a>
 </td>
 <td align="left" width="63%">
 Used by instances of 
-<a href="https://msdn.microsoft.com/65eaa5ef-182b-4fec-bb3d-a308ac9dc660">IComponent</a> only. Sets the header interface to be used for this 
-IComponent interface.</p> (Inherited from <a href="https://msdn.microsoft.com/9a20d09d-219c-4bcb-95b3-67a44e41629e">IConsole2</a>)</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a> only. Sets the header interface to be used for this 
+IComponent interface.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/31c95dcc-8bb8-4a11-9977-d4fa2ca30992">SetStatusText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsole2-setstatustext">SetStatusText</a>
 </td>
 <td align="left" width="63%">
-Enables the snap-in to change the text on the status bar.</p> (Inherited from <a href="https://msdn.microsoft.com/9a20d09d-219c-4bcb-95b3-67a44e41629e">IConsole2</a>)</td>
+Enables the snap-in to change the text on the status bar.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c7a6d5ae-2541-4f64-8cc8-32ba2ae12605">SetToolbar</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814795(v=vs.85)">SetToolbar</a>
 </td>
 <td align="left" width="63%">
 Used by instances of 
-<a href="https://msdn.microsoft.com/65eaa5ef-182b-4fec-bb3d-a308ac9dc660">IComponent</a> only. Sets the toolbar interface to be used for this 
-IComponent interface.</p> (Inherited from <a href="https://msdn.microsoft.com/9a20d09d-219c-4bcb-95b3-67a44e41629e">IConsole2</a>)</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a> only. Sets the toolbar interface to be used for this 
+IComponent interface.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/80ec84c1-111c-4605-9fa3-f5806fdc6fac">UpdateAllViews</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814796(v=vs.85)">UpdateAllViews</a>
 </td>
 <td align="left" width="63%">
-Generates a notification to update views when the content changes.</p> (Inherited from <a href="https://msdn.microsoft.com/9a20d09d-219c-4bcb-95b3-67a44e41629e">IConsole2</a>)</td>
+Generates a notification to update views when the content changes.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>)</td>
 </tr>
 </table> 
 

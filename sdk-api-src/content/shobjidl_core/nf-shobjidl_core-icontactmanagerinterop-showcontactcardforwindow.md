@@ -61,21 +61,21 @@ Displays the UI for a contact on the specified window.
 
 Type: <b>HWND</b>
 
-The <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a> of the foreground window of the app from which the contact card is launched and where focus is returned when the contact card is dismissed.
+The <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a> of the foreground window of the app from which the contact card is launched and where focus is returned when the contact card is dismissed.
 
 
 ### -param contact [in]
 
 Type: <b>IUnknown*</b>
 
-A pointer to the contact object. Use a <a href="https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.contacts.contact">Windows.ApplicationModel.Contacts.Contact</a> object but cast to <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> here because classic COM IDL can't use Windows Runtime types.
+A pointer to the contact object. Use a <a href="https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.contacts.contact">Windows.ApplicationModel.Contacts.Contact</a> object but cast to <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> here because classic COM IDL can't use Windows Runtime types.
 
 
 ### -param selection [in]
 
 Type: <b>RECT const*</b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a> is the rectangular area of user selection (for example, pressing a button), around which the operating system displays the contact card, not within that rectangular area. For example, if an app uses a button to show the contact card, pass the <b>Rect</b> of the button so the contact card displays around the button, not overlapping it.
+The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a> is the rectangular area of user selection (for example, pressing a button), around which the operating system displays the contact card, not within that rectangular area. For example, if an app uses a button to show the contact card, pass the <b>Rect</b> of the button so the contact card displays around the button, not overlapping it.
 
 
 ### -param preferredPlacement [in]
@@ -155,7 +155,7 @@ Prefer to place the contact card to the right of the rectangular area of user se
 Type: <b>HRESULT</b>
 
 
-<a href="https://msdn.microsoft.com/4BF4A5A4-9BF0-4BF0-BC2B-04C4C0C25C36">ShowContactCardForWindow</a> returns:
+<a href="https://docs.microsoft.com/previous-versions//dn302110(v=vs.85)">ShowContactCardForWindow</a> returns:
             
           
 
@@ -164,7 +164,7 @@ Type: <b>HRESULT</b>
 <li>E_POINTER if <i>appWindow</i> is NULL or <i>contact</i> is NULL or <i>selection</i> is NULL</li>
 <li>E_INVALIDARG if <i>contact</i> isn't a <a href="https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.contacts.contact">Windows.ApplicationModel.Contacts.Contact</a> object or <i>preferredPlacement</i> is an invalid enumeration value</li>
 </ul>
-Other <a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a> values are possible.
+Other <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a> values are possible.
 
 
 
@@ -174,11 +174,11 @@ Other <a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">
 
 
 
-<a href="https://msdn.microsoft.com/8E854BA3-C29E-4911-9D6E-915D1959244C">IContactManagerInterop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontactmanagerinterop">IContactManagerInterop</a>
 
 
 
-<a href="https://msdn.microsoft.com/4BF4A5A4-9BF0-4BF0-BC2B-04C4C0C25C36">ShowContactCardForWindow</a>
+<a href="https://docs.microsoft.com/previous-versions//dn302110(v=vs.85)">ShowContactCardForWindow</a>
  
 
  

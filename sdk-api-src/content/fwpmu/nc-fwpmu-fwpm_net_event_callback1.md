@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>FWPM_NET_EVENT_CALLBACK1</b> function is used to add custom behavior to the net event subscription process.
-<div class="alert"><b>Note</b>  <b>FWPM_NET_EVENT_CALLBACK1</b> is the specific implementation of FWPM_NET_EVENT_CALLBACK used in Windows 8 and later. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://msdn.microsoft.com/69b311c5-ac08-490b-823b-4049f7c46975">FWPM_NET_EVENT_CALLBACK0</a> is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FWPM_NET_EVENT_CALLBACK1</b> is the specific implementation of FWPM_NET_EVENT_CALLBACK used in Windows 8 and later. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_net_event_callback0">FWPM_NET_EVENT_CALLBACK0</a> is available.</div><div> </div>
 
 ## -parameters
 
@@ -61,12 +61,12 @@ The <b>FWPM_NET_EVENT_CALLBACK1</b> function is used to add custom behavior to t
 
 Type: <b>void*</b>
 
-Optional context pointer. It contains the value of the <i>context</i> parameter of the <a href="https://msdn.microsoft.com/1e079574-3ab0-48d4-84ab-b2b3f34f757b">FwpmNetEventSubscribe1</a> function.
+Optional context pointer. It contains the value of the <i>context</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmneteventsubscribe1">FwpmNetEventSubscribe1</a> function.
 
 
 ### -param *event [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/fbcacfb1-b471-474e-bdee-12a481fadc63">FWPM_NET_EVENT2</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event2_">FWPM_NET_EVENT2</a>*</b>
 
 The net event information.
 
@@ -84,7 +84,7 @@ This callback function does not return a value.
 
 
 
-Call <a href="https://msdn.microsoft.com/1e079574-3ab0-48d4-84ab-b2b3f34f757b">FwpmNetEventSubscribe1</a> to register this callback function.
+Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmneteventsubscribe1">FwpmNetEventSubscribe1</a> to register this callback function.
 
 
 

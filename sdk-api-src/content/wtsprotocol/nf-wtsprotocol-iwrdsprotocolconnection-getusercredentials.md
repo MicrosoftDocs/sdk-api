@@ -59,7 +59,7 @@ Returns user credentials.
 
 ### -param pUserCreds [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/79474bc1-3626-4c0e-ae63-6180404369ea">WRDS_USER_CREDENTIAL</a> structure that contains the credentials. Currently, only the user name, password, and domain are supported. The user name and password are plaintext.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_user_credential">WRDS_USER_CREDENTIAL</a> structure that contains the credentials. Currently, only the user name, password, and domain are supported. The user name and password are plaintext.
 
 
 ## -returns
@@ -85,7 +85,7 @@ If your protocol returns an <b>HRESULT</b> error code, or the user provides inco
 
 
 
-<a href="https://msdn.microsoft.com/2b8a5b2f-5a54-4d60-8b5a-8a914728087c">IWRdsProtocolConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnection">IWRdsProtocolConnection</a>
  
 
  

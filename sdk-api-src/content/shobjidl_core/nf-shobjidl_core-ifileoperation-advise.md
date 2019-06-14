@@ -59,16 +59,16 @@ Enables a handler to provide status and error information for all operations.
 
 ### -param pfops [in]
 
-Type: <b><a href="https://msdn.microsoft.com/24b20e05-d8be-4060-a966-7b32d9225403">IFileOperationProgressSink</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperationprogresssink">IFileOperationProgressSink</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/24b20e05-d8be-4060-a966-7b32d9225403">IFileOperationProgressSink</a> object to be used for progress status and error notifications.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperationprogresssink">IFileOperationProgressSink</a> object to be used for progress status and error notifications.
 
 
 ### -param pdwCookie [out]
 
 Type: <b>DWORD*</b>
 
-When this method returns, this parameter points to a returned token that uniquely identifies this connection. The calling application uses this token later to delete the connection by passing it to <a href="https://msdn.microsoft.com/684b3e94-50b9-465e-b4c3-b244fc7209f5">IFileOperation::Unadvise</a>. If the call to <b>Advise</b> fails, this value is meaningless.
+When this method returns, this parameter points to a returned token that uniquely identifies this connection. The calling application uses this token later to delete the connection by passing it to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-unadvise">IFileOperation::Unadvise</a>. If the call to <b>Advise</b> fails, this value is meaningless.
 
 
 ## -returns
@@ -96,11 +96,11 @@ Several individual methods have the ability to declare their own progress sinks,
 
 
 
-<a href="https://msdn.microsoft.com/6596607e-0699-4eb6-b0d6-7cc2e5eb49c7">IFileOperation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation">IFileOperation</a>
 
 
 
-<a href="https://msdn.microsoft.com/684b3e94-50b9-465e-b4c3-b244fc7209f5">IFileOperation::Unadvise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-unadvise">IFileOperation::Unadvise</a>
  
 
  

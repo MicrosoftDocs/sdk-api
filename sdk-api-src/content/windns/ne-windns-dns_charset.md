@@ -82,15 +82,15 @@ The character set is ANSI.
 
 
 
-<a href="https://msdn.microsoft.com/6ab53b19-7838-4e9f-9923-96a9267d2dbb">DNS Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/DNS/dns-enumerations">DNS Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/b5a74799-75fc-4489-9efa-c15b2def2ae7">DnsRecordCopyEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsrecordcopyex">DnsRecordCopyEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/bdf9d6b4-b9d7-4886-8ea6-1e1f4dbcc99a">DnsRecordSetCopyEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsrecordsetcopyex">DnsRecordSetCopyEx</a>
  
 
  

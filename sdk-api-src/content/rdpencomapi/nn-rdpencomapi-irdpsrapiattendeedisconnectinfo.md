@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Contains information about the reason an attendee disconnected.
 
-Applications obtain access to this object through <a href="https://msdn.microsoft.com/4edcd497-8821-46c0-8d44-0b24e4f3f285">_IRDPSessionEvents::OnAttendeeDisconnected</a>.
+Applications obtain access to this object through <a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdp/onattendeedisconnected">_IRDPSessionEvents::OnAttendeeDisconnected</a>.
 
 
 ## -see-also
@@ -59,11 +59,11 @@ Applications obtain access to this object through <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9edd9f2-ccbf-45b2-b71c-e30368435a60">IRDPSRAPIAttendee</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendee">IRDPSRAPIAttendee</a>
  
 
  

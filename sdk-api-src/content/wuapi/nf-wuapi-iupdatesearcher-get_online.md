@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets and sets a Boolean value that indicates  whether the <a href="https://msdn.microsoft.com/f41b1689-d9fe-4697-91e9-a176d3b592c7">UpdateSearcher</a> goes online to search for updates.
+Gets and sets a Boolean value that indicates  whether the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">UpdateSearcher</a> goes online to search for updates.
 
 This property is read/write.
 
@@ -64,7 +64,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/f41b1689-d9fe-4697-91e9-a176d3b592c7">IUpdateSearcher</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a>
  
 
  

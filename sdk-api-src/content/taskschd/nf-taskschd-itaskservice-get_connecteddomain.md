@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the name of the domain to which the <a href="https://msdn.microsoft.com/2b8c55d7-72e2-4b75-8850-3f042ba83c60">TargetServer</a> computer is connected.
+Gets the name of the domain to which the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskservice-get_targetserver">TargetServer</a> computer is connected.
 
 This property is read-only.
 
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/2459aaae-4c3a-458a-ad2c-bfff3a0322d3">ITaskService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskservice">ITaskService</a>
  
 
  

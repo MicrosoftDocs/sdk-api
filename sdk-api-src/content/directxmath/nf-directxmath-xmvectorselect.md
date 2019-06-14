@@ -75,10 +75,10 @@ Vector mask used to select a vector component from either <i>V1</i> or <i>V2</i>
         vector's component. For full details on how the vector mask works, see the "Remarks".
 
 Typically, the vector used for <i>Control</i> will be either the output of a vector comparison function (such as
-        <a href="https://msdn.microsoft.com/en-us/library/Ee421013(v=VS.85).aspx">XMVectorEqual</a>,
-        <a href="https://msdn.microsoft.com/en-us/library/Ee421173(v=VS.85).aspx">XMVectorLess</a>, or
-        <a href="https://msdn.microsoft.com/en-us/library/Ee421155(v=VS.85).aspx">XMVectorGreater</a>) or it will be the output
-        of <a href="https://msdn.microsoft.com/en-us/library/Hh404808(v=VS.85).aspx">XMVectorSelectControl</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorequal">XMVectorEqual</a>,
+        <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorless">XMVectorLess</a>, or
+        <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorgreater">XMVectorGreater</a>) or it will be the output
+        of <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorselectcontrol">XMVectorSelectControl</a>.
 
 
 ## -returns
@@ -115,7 +115,7 @@ Manual construction of a control vector is not necessary. There are two simple w
 
 <ul>
 <li>
-Using the <a href="https://msdn.microsoft.com/en-us/library/Hh404808(v=VS.85).aspx">XMVectorSelectControl</a>function to construct a control vector.
+Using the <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorselectcontrol">XMVectorSelectControl</a>function to construct a control vector.
 
 See <a href="https://msdn.microsoft.com/307660ea-09d4-49ce-b4ed-4a0e5ad1f021">Using XMVectorSelect and
        XMVectorSelectControl</a> for a demonstration of how this function can be used.
@@ -123,7 +123,7 @@ See <a href="https://msdn.microsoft.com/307660ea-09d4-49ce-b4ed-4a0e5ad1f021">Us
 </li>
 <li>
 The control vector can be constructed using the XM_SELECT_[0,1] constant (see
-       <a href="https://msdn.microsoft.com/a206fe22-12c8-ac2b-ee37-20cfff35841a">DirectXMath Library Constants</a>). As an example, in pseudo-code, an instance of
+       <a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-constants">DirectXMath Library Constants</a>). As an example, in pseudo-code, an instance of
        <i>Control</i> with the elements:
 
 
@@ -153,11 +153,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/f5464614-f6bb-427d-5488-3ba0fd4c6e8d">Component-Wise Vector Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-component-wise">Component-Wise Vector Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404808(v=VS.85).aspx">XMVectorSelectControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorselectcontrol">XMVectorSelectControl</a>
  
 
  

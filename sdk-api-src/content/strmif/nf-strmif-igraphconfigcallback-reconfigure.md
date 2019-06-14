@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <code>Reconfigure</code> method is a callback method passed to <a href="https://msdn.microsoft.com/924087c0-e3ad-437b-96e5-de39bbce2ea7">IGraphConfig::Reconfigure</a>.
+The <code>Reconfigure</code> method is a callback method passed to <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphconfig-reconfigure">IGraphConfig::Reconfigure</a>.
 
 
 
@@ -88,7 +88,7 @@ If your application or filter calls <b>IGraphConfig::Reconfigure</b>, you must i
 
 If this method succeeds, <b>IGraphConfig::Reconfigure</b> tries to put all the filters in the graph back into a running state. If the method fails, <b>IGraphConfig::Reconfigure</b> returns whatever error code this method returned.
 
-This method allows for specialized graph rebuilding. For a more straightforward approach to dynamic graph building, see <a href="https://msdn.microsoft.com/e8cfac8e-df89-444d-bcc7-0cbc7ab5a592">IGraphConfig::Reconnect</a>.
+This method allows for specialized graph rebuilding. For a more straightforward approach to dynamic graph building, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphconfig-reconnect">IGraphConfig::Reconnect</a>.
 
 
 
@@ -98,11 +98,11 @@ This method allows for specialized graph rebuilding. For a more straightforward 
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/b7856181-1616-4984-bf5e-402140ab7b4e">IGraphConfigCallback Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphconfigcallback">IGraphConfigCallback Interface</a>
  
 
  

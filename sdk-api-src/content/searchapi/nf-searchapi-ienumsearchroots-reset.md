@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Moves the internal counter to the beginning of the list so a subsequent call to <a href="https://msdn.microsoft.com/en-us/library/Bb266505(v=VS.85).aspx">IEnumSearchRoots::Next</a> retrieves from the beginning.
+Moves the internal counter to the beginning of the list so a subsequent call to <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-ienumsearchroots-next">IEnumSearchRoots::Next</a> retrieves from the beginning.
         
 
 

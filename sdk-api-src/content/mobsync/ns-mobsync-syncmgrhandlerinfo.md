@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Provides information about the handler for use in the <a href="https://msdn.microsoft.com/bae3ead8-632c-45bf-a24e-bf07922039bd">ISyncMgrSynchronize::GetHandlerInfo</a> method.
+Provides information about the handler for use in the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-gethandlerinfo">ISyncMgrSynchronize::GetHandlerInfo</a> method.
 
 
 ## -struct-fields
@@ -75,7 +75,7 @@ The icon for the handler.
 
 Type: <b>DWORD</b>
 
-The value of the <a href="https://msdn.microsoft.com/9e5f7f49-f2f0-4fa3-8822-8e6074cd4f47">SYNCMGRHANDLERFLAGS</a> enumeration.
+The value of the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-_tagsyncmgrhandlerflags">SYNCMGRHANDLERFLAGS</a> enumeration.
 
 
 ### -field wszHandlerName
@@ -90,11 +90,11 @@ The name to use for the handler.
 
 
 
-<a href="https://msdn.microsoft.com/bae3ead8-632c-45bf-a24e-bf07922039bd">ISyncMgrSynchronize::GetHandlerInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-gethandlerinfo">ISyncMgrSynchronize::GetHandlerInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e5f7f49-f2f0-4fa3-8822-8e6074cd4f47">SYNCMGRHANDLERFLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-_tagsyncmgrhandlerflags">SYNCMGRHANDLERFLAGS</a>
  
 
  

@@ -68,12 +68,12 @@ Currently unused. Should be set to zero.
 
 Type: <b>const GUID*</b>
 
-Specifies a unique identifier that specifies the command to send to the WIA hardware device. For a list of valid device commands, see <a href="https://msdn.microsoft.com/en-us/library/ms630185(v=VS.85).aspx">WIA Device Commands</a>.
+Specifies a unique identifier that specifies the command to send to the WIA hardware device. For a list of valid device commands, see <a href="https://docs.microsoft.com/windows/desktop/wia/-wia-wia-device-commands">WIA Device Commands</a>.
 
 
 ### -param pIWiaItem [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a>**</b>
 
 On output, this pointer points to the item created by the command, if any.
 
@@ -95,9 +95,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 Applications use this method to send WIA commands to hardware devices. 
 
-When the application sends the WIA_CMD_TAKE_PICTURE command to the device, <b>IWiaItem::DeviceCommand</b>, the WIA run-time system creates the <a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a> object to represent the image. The <b>IWiaItem::DeviceCommand</b> method stores the address of the interface in the <i>pIWiaItem</i>  parameter. 
+When the application sends the WIA_CMD_TAKE_PICTURE command to the device, <b>IWiaItem::DeviceCommand</b>, the WIA run-time system creates the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> object to represent the image. The <b>IWiaItem::DeviceCommand</b> method stores the address of the interface in the <i>pIWiaItem</i>  parameter. 
 
-Applications must call the <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a> method on the interface pointers they receive through the <i>pIWiaItem</i> parameter.
+Applications must call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on the interface pointers they receive through the <i>pIWiaItem</i> parameter.
 
 
 

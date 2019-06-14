@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>ICCompressEnd</b> macro notifies a video compression driver to end compression and free resources allocated for compression. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/5d4b5962-c4f0-44eb-a3a9-36026f167a5a">ICM_COMPRESS_END</a> message.
+The <b>ICCompressEnd</b> macro notifies a video compression driver to end compression and free resources allocated for compression. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-compress-end">ICM_COMPRESS_END</a> message.
 
 
 
@@ -79,11 +79,11 @@ VCM saves the settings of the most recent <b>ICCompressBegin</b> macro. <b>ICCom
 
 
 
-<a href="https://msdn.microsoft.com/e8ee41fa-180a-432a-933b-b4a525b9df8c">Video Compression Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://msdn.microsoft.com/df876309-68d3-43a3-9d83-6fdb8f345fdc">Video Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
  
 
  

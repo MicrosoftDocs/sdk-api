@@ -59,7 +59,7 @@ The <b>FLOWDESCRIPTOR</b> structure specifies one or more filters for a given FL
 
 ### -field FlowSpec
 
-Flow specification (FLOWSPEC), provided as a <a href="https://msdn.microsoft.com/268e0d3a-2b04-40fd-91eb-f1780236b3e4">FLOWSPEC</a> structure.
+Flow specification (FLOWSPEC), provided as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a> structure.
 
 
 ### -field NumFilters
@@ -69,7 +69,7 @@ Number of filters provided in <b>FilterList</b>.
 
 ### -field FilterList
 
-Pointer to a <a href="https://msdn.microsoft.com/ce4af25d-6c31-43a2-a30a-1d28b18e8f8b">RSVP_FILTERSPEC</a> structure containing FILTERSPEC information.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_filterspec">RSVP_FILTERSPEC</a> structure containing FILTERSPEC information.
 
 
 ## -see-also
@@ -77,11 +77,11 @@ Pointer to a <a href="https://msdn.microsoft.com/ce4af25d-6c31-43a2-a30a-1d28b18
 
 
 
-<a href="https://msdn.microsoft.com/268e0d3a-2b04-40fd-91eb-f1780236b3e4">FLOWSPEC</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a>
 
 
 
-<a href="https://msdn.microsoft.com/ce4af25d-6c31-43a2-a30a-1d28b18e8f8b">RSVP_FILTERSPEC</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_filterspec">RSVP_FILTERSPEC</a>
  
 
  

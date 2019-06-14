@@ -166,7 +166,7 @@ If the new rectangle's size isn't the same as the current rectangle, a call to t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406813(v=VS.85).aspx">IDirectDrawStreamSample Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddstream/nn-ddstream-idirectdrawstreamsample">IDirectDrawStreamSample Interface</a>
  
 
  

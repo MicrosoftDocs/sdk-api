@@ -59,7 +59,7 @@ Sets the color that is visible on the desktop when no image is displayed or when
 
 ### -param color [in]
 
-A <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> value that specifies the background RGB color value.
+A <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> value that specifies the background RGB color value.
 
 
 ## -returns
@@ -76,11 +76,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/A83903B5-314B-4a8b-8D37-F8A8995DE0CB">IDesktopWallpaper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idesktopwallpaper">IDesktopWallpaper</a>
 
 
 
-<a href="https://msdn.microsoft.com/92666512-BE10-4ee7-B670-18F0C714A4C9">IDesktopWallpaper::GetBackgroundColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getbackgroundcolor">IDesktopWallpaper::GetBackgroundColor</a>
  
 
  

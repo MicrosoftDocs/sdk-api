@@ -66,12 +66,12 @@ Resource class is unknown.
 ### -field CLUS_RESCLASS_STORAGE
 
 Resource is a storage device, such as a 
-           <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">Physical Disk resource</a>.
+           <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/p-gly">Physical Disk resource</a>.
 
 
 ### -field CLUS_RESCLASS_NETWORK
 
-Resource is a <a href="https://msdn.microsoft.com/en-us/library/Aa371763(v=VS.85).aspx">network</a> device.
+Resource is a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/n-gly">network</a> device.
 
 
 ### -field CLUS_RESCLASS_USER
@@ -84,15 +84,15 @@ Resource classes beginning at this value are user-defined.
 
 
 
-<a href="https://msdn.microsoft.com/b8b6c479-2e35-4cc9-b864-d495c3bded25">CLUS_RESOURCE_CLASS_INFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_resource_class_info">CLUS_RESOURCE_CLASS_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/0af280ef-ea5a-4cca-8065-2ee74d2dafc1">ClassInfo Property of the ClusResource Object</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusresource-classinfo">ClassInfo Property of the ClusResource Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
  
 
  

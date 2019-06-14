@@ -70,7 +70,7 @@ A combination of the following math properties.
 </tr>
 <tr>
 <td width="40%"><a id="tomMathDispAlignMask"></a><a id="tommathdispalignmask"></a><a id="TOMMATHDISPALIGNMASK"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathDispAlignMask</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathDispAlignMask</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -80,7 +80,7 @@ Display-mode alignment mask.
 </tr>
 <tr>
 <td width="40%"><a id="tomMathDispAlignCenter"></a><a id="tommathdispaligncenter"></a><a id="TOMMATHDISPALIGNCENTER"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathDispAlignCenter</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathDispAlignCenter</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -90,7 +90,7 @@ Center (default) alignment.
 </tr>
 <tr>
 <td width="40%"><a id="tomMathDispAlignLeft"></a><a id="tommathdispalignleft"></a><a id="TOMMATHDISPALIGNLEFT"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathDispAlignLeft</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathDispAlignLeft</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -100,7 +100,7 @@ Left alignment.
 </tr>
 <tr>
 <td width="40%"><a id="tomMathDispAlignRight"></a><a id="tommathdispalignright"></a><a id="TOMMATHDISPALIGNRIGHT"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathDispAlignRight</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathDispAlignRight</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -110,7 +110,7 @@ Right alignment.
 </tr>
 <tr>
 <td width="40%"><a id="tomMathDispIntUnderOver"></a><a id="tommathdispintunderover"></a><a id="TOMMATHDISPINTUNDEROVER"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathDispIntUnderOver</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathDispIntUnderOver</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -120,7 +120,7 @@ Display-mode integral limits location.
 </tr>
 <tr>
 <td width="40%"><a id="tomMathDispFracTeX"></a><a id="tommathdispfractex"></a><a id="TOMMATHDISPFRACTEX"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathDispFracTeX</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathDispFracTeX</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -130,7 +130,7 @@ Display-mode nested fraction script size.
 </tr>
 <tr>
 <td width="40%"><a id="tomMathDispNaryGrow"></a><a id="tommathdispnarygrow"></a><a id="TOMMATHDISPNARYGROW"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathDispNaryGrow</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathDispNaryGrow</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -140,7 +140,7 @@ Math-paragraph n-ary grow.
 </tr>
 <tr>
 <td width="40%"><a id="tomMathDocEmptyArgMask"></a><a id="tommathdocemptyargmask"></a><a id="TOMMATHDOCEMPTYARGMASK"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathDocEmptyArgMask</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathDocEmptyArgMask</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -150,7 +150,7 @@ Empty arguments display mask.
 </tr>
 <tr>
 <td width="40%"><a id="tomMathDocEmptyArgAuto_"></a><a id="tommathdocemptyargauto_"></a><a id="TOMMATHDOCEMPTYARGAUTO_"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathDocEmptyArgAuto </a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathDocEmptyArgAuto </a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -160,7 +160,7 @@ Automatically use a dotted square to denote empty arguments, if necessary.
 </tr>
 <tr>
 <td width="40%"><a id="tomMathDocEmptyArgAlways"></a><a id="tommathdocemptyargalways"></a><a id="TOMMATHDOCEMPTYARGALWAYS"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathDocEmptyArgAlways</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathDocEmptyArgAlways</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -170,7 +170,7 @@ Always use a dotted square to denote empty arguments..
 </tr>
 <tr>
 <td width="40%"><a id="tomMathDocEmptyArgNever"></a><a id="tommathdocemptyargnever"></a><a id="TOMMATHDOCEMPTYARGNEVER"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathDocEmptyArgNever</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathDocEmptyArgNever</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -180,7 +180,7 @@ Don't denote empty arguments.
 </tr>
 <tr>
 <td width="40%"><a id="tomMathDocSbSpOpUnchanged"></a><a id="tommathdocsbspopunchanged"></a><a id="TOMMATHDOCSBSPOPUNCHANGED"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathDocSbSpOpUnchanged</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathDocSbSpOpUnchanged</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -190,7 +190,7 @@ Display the underscore (_) and caret (^) as themselves.
 </tr>
 <tr>
 <td width="40%"><a id="tomMathDocDiffMask"></a><a id="tommathdocdiffmask"></a><a id="TOMMATHDOCDIFFMASK"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathDocDiffMask</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathDocDiffMask</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -200,7 +200,7 @@ Style mask for the <b>tomMathDocDiffUpright</b>, <b>tomMathDocDiffItalic</b>, <b
 </tr>
 <tr>
 <td width="40%"><a id="tomMathDocDiffItalic"></a><a id="tommathdocdiffitalic"></a><a id="TOMMATHDOCDIFFITALIC"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathDocDiffItalic</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathDocDiffItalic</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -210,7 +210,7 @@ Use italic (default) for math differentials.
 </tr>
 <tr>
 <td width="40%"><a id="tomMathDocDiffUpright"></a><a id="tommathdocdiffupright"></a><a id="TOMMATHDOCDIFFUPRIGHT"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathDocDiffUpright</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathDocDiffUpright</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -220,7 +220,7 @@ Use an upright font for math differentials.
 </tr>
 <tr>
 <td width="40%"><a id="tomMathDocDiffOpenItalic"></a><a id="tommathdocdiffopenitalic"></a><a id="TOMMATHDOCDIFFOPENITALIC"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathDocDiffOpenItalic</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathDocDiffOpenItalic</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -230,7 +230,7 @@ Use open italic (default) for math differentials.
 </tr>
 <tr>
 <td width="40%"><a id="tomMathDispNarySubSup"></a><a id="tommathdispnarysubsup"></a><a id="TOMMATHDISPNARYSUBSUP"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathDispNarySubSup</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathDispNarySubSup</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -240,7 +240,7 @@ Math-paragraph non-integral n-ary limits location.
 </tr>
 <tr>
 <td width="40%"><a id="tomMathDispDef"></a><a id="tommathdispdef"></a><a id="TOMMATHDISPDEF"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathDispDef</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathDispDef</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -250,7 +250,7 @@ Math-paragraph spacing defaults.
 </tr>
 <tr>
 <td width="40%"><a id="tomMathEnableRtl"></a><a id="tommathenablertl"></a><a id="TOMMATHENABLERTL"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathEnableRtl</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathEnableRtl</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -260,7 +260,7 @@ Enable right-to-left (RTL) math zones in RTL paragraphs.
 </tr>
 <tr>
 <td width="40%"><a id="tomMathBrkBinMask"></a><a id="tommathbrkbinmask"></a><a id="TOMMATHBRKBINMASK"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathBrkBinMask</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathBrkBinMask</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -270,7 +270,7 @@ Equation line break mask.
 </tr>
 <tr>
 <td width="40%"><a id="tomMathBrkBinBefore"></a><a id="tommathbrkbinbefore"></a><a id="TOMMATHBRKBINBEFORE"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathBrkBinBefore</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathBrkBinBefore</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -280,7 +280,7 @@ Break before binary/relational operator.
 </tr>
 <tr>
 <td width="40%"><a id="tomMathBrkBinAfter"></a><a id="tommathbrkbinafter"></a><a id="TOMMATHBRKBINAFTER"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathBrkBinAfter</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathBrkBinAfter</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -290,7 +290,7 @@ Break after binary/relational operator.
 </tr>
 <tr>
 <td width="40%"><a id="tomMathBrkBinDup"></a><a id="tommathbrkbindup"></a><a id="TOMMATHBRKBINDUP"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathBrkBinDup</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathBrkBinDup</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -300,7 +300,7 @@ Duplicate binary/relational before/after.
 </tr>
 <tr>
 <td width="40%"><a id="tomMathBrkBinSubMask"></a><a id="tommathbrkbinsubmask"></a><a id="TOMMATHBRKBINSUBMASK"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathBrkBinSubMask</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathBrkBinSubMask</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -310,7 +310,7 @@ Duplicate mask for minus operator.
 </tr>
 <tr>
 <td width="40%"><a id="tomMathBrkBinSubMM"></a><a id="tommathbrkbinsubmm"></a><a id="TOMMATHBRKBINSUBMM"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathBrkBinSubMM</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathBrkBinSubMM</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -320,7 +320,7 @@ Duplicate mask for minus operator.
 </tr>
 <tr>
 <td width="40%"><a id="tomMathBrkBinSubPM"></a><a id="tommathbrkbinsubpm"></a><a id="TOMMATHBRKBINSUBPM"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathBrkBinSubPM</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathBrkBinSubPM</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -330,7 +330,7 @@ Duplicate mask for minus operator.
 </tr>
 <tr>
 <td width="40%"><a id="tomMathBrkBinSubMP"></a><a id="tommathbrkbinsubmp"></a><a id="TOMMATHBRKBINSUBMP"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathBrkBinSubMP</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathBrkBinSubMP</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -346,7 +346,7 @@ Duplicate mask for minus operator.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -358,15 +358,15 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-<a href="https://msdn.microsoft.com/0b0a54d7-7606-41f6-b8be-6367d9180ef4">ITextDocument2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument2">ITextDocument2</a>
 
 
 
-<a href="https://msdn.microsoft.com/30775a51-0e63-453e-ac94-39d4510002f0">  ITextDocument2::GetProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-getproperty">  ITextDocument2::GetProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/a688354b-b231-44fc-9cfb-32c8e8b1361f">  ITextDocument2::SetMathProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-setmathproperties">  ITextDocument2::SetMathProperties</a>
  
 
  

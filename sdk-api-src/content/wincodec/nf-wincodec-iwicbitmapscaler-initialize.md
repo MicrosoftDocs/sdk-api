@@ -59,7 +59,7 @@ Initializes the bitmap scaler with the provided parameters.
 
 ### -param pISource [in]
 
-Type: <b><a href="https://msdn.microsoft.com/abcc84af-6067-4856-8618-fb66aff4255a">IWICBitmapSource</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>*</b>
 
 The input bitmap source.
 
@@ -80,9 +80,9 @@ The desination height.
 
 ### -param mode [in]
 
-Type: <b><a href="https://msdn.microsoft.com/7c707ab7-7cd5-418f-921c-e9114da92f2a">WICBitmapInterpolationMode</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicbitmapinterpolationmode">WICBitmapInterpolationMode</a></b>
 
-The <a href="https://msdn.microsoft.com/7c707ab7-7cd5-418f-921c-e9114da92f2a">WICBitmapInterpolationMode</a> to use when scaling.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicbitmapinterpolationmode">WICBitmapInterpolationMode</a> to use when scaling.
 
 
 ## -returns
@@ -101,12 +101,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/cc14be9d-d750-40db-a95f-309b392cefe8">IWICBitmapScaler</a> can't be initialized multiple times. For example, when scaling every frame in a multi-frame image, a new <b>IWICBitmapScaler</b> must be created and initialized for each frame.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapscaler">IWICBitmapScaler</a> can't be initialized multiple times. For example, when scaling every frame in a multi-frame image, a new <b>IWICBitmapScaler</b> must be created and initialized for each frame.
 
 
 #### Examples
 
-For an example using an <a href="https://msdn.microsoft.com/cc14be9d-d750-40db-a95f-309b392cefe8">IWICBitmapScaler</a>, see the <a href="https://msdn.microsoft.com/d2c65c9b-6f52-46f7-935d-0c582ca83867">How to Scale a Bitmap Source</a> topic.
+For an example using an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapscaler">IWICBitmapScaler</a>, see the <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-bitmapsources-howto-scale">How to Scale a Bitmap Source</a> topic.
 
 <div class="code"></div>
 

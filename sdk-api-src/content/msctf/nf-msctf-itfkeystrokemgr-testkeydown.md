@@ -58,12 +58,12 @@ ms.custom: 19H1
 
 ### -param wParam [in]
 
-Specifies the virtual-key code of the key. For more information about this parameter, see the <i>wParam</i> parameter in <a href="https://msdn.microsoft.com/en-us/library/ms646280(v=VS.85).aspx">WM_KEYDOWN</a>.
+Specifies the virtual-key code of the key. For more information about this parameter, see the <i>wParam</i> parameter in <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>.
 
 
 ### -param lParam [in]
 
-Specifies the repeat count, scan code, extended-key flag, context code, previous key-state flag, and transition-state flag of the key. For more information about this parameter, see the <i>lParam</i> parameter in <a href="https://msdn.microsoft.com/en-us/library/ms646280(v=VS.85).aspx">WM_KEYDOWN</a>.
+Specifies the repeat count, scan code, extended-key flag, context code, previous key-state flag, and transition-state flag of the key. For more information about this parameter, see the <i>lParam</i> parameter in <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>.
 
 
 ### -param pfEaten [out]
@@ -125,7 +125,7 @@ One or more parameters are invalid.
 
 
 
-An application can determine if a key event will be handled by the keystroke manager with this method. If this method is successful and <i>pfEaten</i> receives <b>TRUE</b>, the application should call <a href="https://msdn.microsoft.com/6eb4ad91-9431-4dec-b6cb-e58707318095">ITfKeystrokeMgr::KeyDown</a>. If this method does not return S_OK or <i>pfEaten</i> receives <b>FALSE</b>, the application should not call <b>ITfKeystrokeMgr::KeyDown</b> . The following is an example of how this is implemented.
+An application can determine if a key event will be handled by the keystroke manager with this method. If this method is successful and <i>pfEaten</i> receives <b>TRUE</b>, the application should call <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-keydown">ITfKeystrokeMgr::KeyDown</a>. If this method does not return S_OK or <i>pfEaten</i> receives <b>FALSE</b>, the application should not call <b>ITfKeystrokeMgr::KeyDown</b> . The following is an example of how this is implemented.
 
 <pre class="syntax" xml:space="preserve"><code>
 if(msg.message == WM_KEYDOWN)
@@ -144,7 +144,7 @@ if(msg.message == WM_KEYDOWN)
     }
 }
 </code></pre>
-If the keystroke manager does not handle the key event, it passes the key event to the TSF text services by calling the text service <a href="https://msdn.microsoft.com/3d8056ef-c012-4989-91ce-65ae8cd39404">ITfKeyEventSink::OnTestKeyDown</a> method.
+If the keystroke manager does not handle the key event, it passes the key event to the TSF text services by calling the text service <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeyeventsink-ontestkeydown">ITfKeyEventSink::OnTestKeyDown</a> method.
 
 
 
@@ -154,23 +154,23 @@ If the keystroke manager does not handle the key event, it passes the key event 
 
 
 
-<a href="https://msdn.microsoft.com/3d8056ef-c012-4989-91ce-65ae8cd39404">ITfKeyEventSink::OnTestKeyDown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeyeventsink-ontestkeydown">ITfKeyEventSink::OnTestKeyDown</a>
 
 
 
-<a href="https://msdn.microsoft.com/93c1591d-2c95-45cb-8fc5-5726e905f202">ITfKeystrokeMgr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfkeystrokemgr">ITfKeystrokeMgr</a>
 
 
 
-<a href="https://msdn.microsoft.com/6eb4ad91-9431-4dec-b6cb-e58707318095">ITfKeystrokeMgr::KeyDown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-keydown">ITfKeystrokeMgr::KeyDown</a>
 
 
 
-<a href="https://msdn.microsoft.com/34a2b34b-3c3d-4609-a9e1-9b01ab349ae7">ITfKeystrokeMgr::TestKeyUp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-testkeyup">ITfKeystrokeMgr::TestKeyUp</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646280(v=VS.85).aspx">WM_KEYDOWN</a>
+<a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>
  
 
  

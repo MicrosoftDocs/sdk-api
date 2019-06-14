@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies a type of credential field. Used by <a href="https://msdn.microsoft.com/en-us/library/Bb773243(v=VS.85).aspx">CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR</a>.
+Specifies a type of credential field. Used by <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/ns-credentialprovider-_credential_provider_field_descriptor">CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR</a>.
 
 
 ## -enum-fields
@@ -74,7 +74,7 @@ A stand-alone text label is drawn in the smaller of two font sizes.
 
 ### -field CPFT_COMMAND_LINK
 
-An uneditable string that a user may click to perform an action. The credential provider is informed of the user's click, and then performs the requested action. Use <a href="https://msdn.microsoft.com/04e371cb-f968-4a15-9285-e676dff59899">CommandLinkClicked</a> in your credential provider to respond to the click.
+An uneditable string that a user may click to perform an action. The credential provider is informed of the user's click, and then performs the requested action. Use <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-commandlinkclicked">CommandLinkClicked</a> in your credential provider to respond to the click.
 
 
 ### -field CPFT_EDIT_TEXT

@@ -112,11 +112,11 @@ A <b>NULL</b> pointer was provided in one of the parameters.
 
 
 
-<a href="https://msdn.microsoft.com/A83903B5-314B-4a8b-8D37-F8A8995DE0CB">IDesktopWallpaper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idesktopwallpaper">IDesktopWallpaper</a>
 
 
 
-<a href="https://msdn.microsoft.com/B3106354-C321-4770-834F-D2EF790AE114">IDesktopWallpaper::SetSlideshowOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-setslideshowoptions">IDesktopWallpaper::SetSlideshowOptions</a>
  
 
  

@@ -59,12 +59,12 @@ The <b>PeerCollabEnumApplicationRegistrationInfo</b> function obtains the enumer
 
 ### -param registrationType [in]
 
-A <a href="https://msdn.microsoft.com/58f14e46-377e-494b-93ef-fc19e8d87fcc">PEER_APPLICATION_REGISTRATION_TYPE</a> value that specifies whether the peer's application is registered to the <b>current user</b> or <b>all users</b> of the peer's machine.
+A <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_application_registration_type_tag">PEER_APPLICATION_REGISTRATION_TYPE</a> value that specifies whether the peer's application is registered to the <b>current user</b> or <b>all users</b> of the peer's machine.
 
 
 ### -param phPeerEnum [out]
 
-Pointer to a peer enumeration handle for the peer application registration information. This data is obtained by passing this handle to <a href="https://msdn.microsoft.com/015faeb3-82d9-49e5-a451-7394bf83240f">PeerGetNextItem</a>.
+Pointer to a peer enumeration handle for the peer application registration information. This data is obtained by passing this handle to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergetnextitem">PeerGetNextItem</a>.
 
 
 ## -returns
@@ -121,13 +121,13 @@ The Windows Peer infrastructure is not initialized. Calling the relevant initial
 
 
 
-To obtain the individual peer applications, pass the returned handle to <a href="https://msdn.microsoft.com/015faeb3-82d9-49e5-a451-7394bf83240f">PeerGetNextItem</a>. An array of <a href="https://msdn.microsoft.com/64c9eb02-3235-4824-8de1-352b0a1ffbb4">PEER_APPLICATION_REGISTRATION_INFO</a> structures will be returned. To close the enumeration and release the resources associated with it, pass this handle to <a href="https://msdn.microsoft.com/cc9484fb-57b9-4970-91b8-c74db6bf2248">PeerEndEnumeration</a>. Individual items returned by the enumeration must be released with <a href="https://msdn.microsoft.com/54288829-c991-42d6-a7c4-874ed28dd106">PeerFreeData</a>.
+To obtain the individual peer applications, pass the returned handle to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergetnextitem">PeerGetNextItem</a>. An array of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_application_registration_info_tag">PEER_APPLICATION_REGISTRATION_INFO</a> structures will be returned. To close the enumeration and release the resources associated with it, pass this handle to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerendenumeration">PeerEndEnumeration</a>. Individual items returned by the enumeration must be released with <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
 
 An <i>application</i> is a set of software or software  features available on the peer's endpoint. Commonly, this refers to software packages that support peer networking activities, like games or other collaborative applications.
 
-A peer's application has a GUID representing a single specific application. When an application is registered for a peer, this GUID and the corresponding application can be made available to all trusted contacts of the peer, indicating the activities the peer can participate in. To unregister a peer's application, call <a href="https://msdn.microsoft.com/2479b726-20f1-4370-9fcf-f29cec44c3ec">PeerCollabUnregisterApplication</a> with this GUID.
+A peer's application has a GUID representing a single specific application. When an application is registered for a peer, this GUID and the corresponding application can be made available to all trusted contacts of the peer, indicating the activities the peer can participate in. To unregister a peer's application, call <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabunregisterapplication">PeerCollabUnregisterApplication</a> with this GUID.
 
-Peer application registration information items are returned as individual <a href="https://msdn.microsoft.com/64c9eb02-3235-4824-8de1-352b0a1ffbb4">PEER_APPLICATION_REGISTRATION_INFO</a> structures.
+Peer application registration information items are returned as individual <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_application_registration_info_tag">PEER_APPLICATION_REGISTRATION_INFO</a> structures.
 
 
 
@@ -137,19 +137,19 @@ Peer application registration information items are returned as individual <a hr
 
 
 
-<a href="https://msdn.microsoft.com/64c9eb02-3235-4824-8de1-352b0a1ffbb4">PEER_APPLICATION_REGISTRATION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_application_registration_info_tag">PEER_APPLICATION_REGISTRATION_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/58f14e46-377e-494b-93ef-fc19e8d87fcc">PEER_APPLICATION_REGISTRATION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_application_registration_type_tag">PEER_APPLICATION_REGISTRATION_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/00c3c1f1-c36c-469a-a644-0ec60f02d25e">Peer Collaboration API Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/2479b726-20f1-4370-9fcf-f29cec44c3ec">PeerCollabUnregisterApplication</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabunregisterapplication">PeerCollabUnregisterApplication</a>
  
 
  

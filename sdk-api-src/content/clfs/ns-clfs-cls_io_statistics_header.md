@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Header for information retrieved by the <a href="https://msdn.microsoft.com/1d4a5486-8a9e-480a-952c-12fc7386af3e">GetLogIoStatistics</a> function, which defines the I/O performance counters of a log.
+Header for information retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-getlogiostatistics">GetLogIoStatistics</a> function, which defines the I/O performance counters of a log.
 
 
 ## -struct-fields
@@ -96,15 +96,15 @@ This header is followed by the I/O statistics counters.
 
 
 
-<a href="https://msdn.microsoft.com/8ba1f5e4-9af3-4c8a-8b57-b6075d0560d6">CLFS_IOSTATS_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ne-clfs-_clfs_iostats_class">CLFS_IOSTATS_CLASS</a>
 
 
 
-<a href="https://msdn.microsoft.com/99544331-0a7c-4efd-93a7-e94011375394">CLFS_IO_STATISTICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_io_statistics">CLFS_IO_STATISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d4a5486-8a9e-480a-952c-12fc7386af3e">GetLogIoStatistics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-getlogiostatistics">GetLogIoStatistics</a>
  
 
  

@@ -52,7 +52,7 @@ ms.custom: 19H1
 The <b>CERT_POLICY_ID</b> structure contains a list of certificate policies that the certificate expressly supports, together with optional qualifier information pertaining to these policies.
 
 <b>CERT_POLICY_ID</b> is a component of 
-<a href="https://msdn.microsoft.com/f949c8e5-055d-4919-abcc-441880ccce56">CERT_KEY_USAGE_RESTRICTION_INFO</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_key_usage_restriction_info">CERT_KEY_USAGE_RESTRICTION_INFO</a>.
 
 
 ## -struct-fields
@@ -76,7 +76,7 @@ Array of pointers to policy element identifier strings.
 
 
 
-<a href="https://msdn.microsoft.com/f949c8e5-055d-4919-abcc-441880ccce56">CERT_KEY_USAGE_RESTRICTION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_key_usage_restriction_info">CERT_KEY_USAGE_RESTRICTION_INFO</a>
  
 
  

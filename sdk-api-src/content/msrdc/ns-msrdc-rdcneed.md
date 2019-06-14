@@ -78,15 +78,15 @@ Length, in bytes, of the chunk of data that is to be copied to the target data.
 
 
 
-<a href="https://msdn.microsoft.com/92a1fae7-5ada-4f7d-a736-c93bc404a418">RdcNeedPointer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0006">RdcNeedPointer</a>
 
 
 
-<a href="https://msdn.microsoft.com/93173b2e-a0df-445e-98a8-f7df02fbc7a8">RdcNeedType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ne-msrdc-__midl___midl_itf_msrdc_0000_0000_0003">RdcNeedType</a>
 
 
 
-<a href="https://msdn.microsoft.com/5144a94b-4af8-4ac2-b5b3-f0674a51c03b">Remote Differential Compression Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdc/remote-differential-compression-structures">Remote Differential Compression Structures</a>
  
 
  

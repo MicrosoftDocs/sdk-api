@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Default constructor for <code>XMFLOAT4X3</code>
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419611(v=VS.85).aspx">XMFLOAT4X3</a>
+Default constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3">XMFLOAT4X3</a>
 
 <div class="alert"><b>Note</b>  This is only available for C++ based development.
     </div><div> </div>
@@ -82,11 +82,11 @@ Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee4196
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419611(v=VS.85).aspx">XMFLOAT4X3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3">XMFLOAT4X3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415297(v=VS.85).aspx">XMFLOAT4X3 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmfloat4x3-ctor">XMFLOAT4X3 Constructors</a>
  
 
  

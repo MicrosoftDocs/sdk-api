@@ -68,7 +68,7 @@ Specifies the DirectShow event code.
 
 ### -param Param1 [in]
 
-Specifies the first event parameter. The meaning depends on the event code. See <a href="https://msdn.microsoft.com/339ffcd9-7724-4c92-b241-afbed81d9380">Event Notification Codes</a>.
+Specifies the first event parameter. The meaning depends on the event code. See <a href="https://docs.microsoft.com/windows/desktop/DirectShow/event-notification-codes">Event Notification Codes</a>.
 
 
 ### -param Param2 [in]
@@ -108,7 +108,7 @@ The method succeeded.
 
 
 
-The VMR provides the allocator-presenter with a pointer to this interface in a call to <a href="https://msdn.microsoft.com/en-us/library/Dd390501(v=VS.85).aspx">IVMRSurfaceAllocator9::AdviseNotify</a>. When the allocator-presenter calls this method and specifies some regular DirectShow event, such as EC_ERRORABORT or EC_VMR_RENDERDEVICE_SET, the VMR will pass the event to the filter graph manager.
+The VMR provides the allocator-presenter with a pointer to this interface in a call to <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrsurfaceallocator9-advisenotify">IVMRSurfaceAllocator9::AdviseNotify</a>. When the allocator-presenter calls this method and specifies some regular DirectShow event, such as EC_ERRORABORT or EC_VMR_RENDERDEVICE_SET, the VMR will pass the event to the filter graph manager.
 
 Include DShow.h and D3d9.h before Vmr9.h.
 
@@ -120,11 +120,11 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390508(v=VS.85).aspx">IVMRSurfaceAllocatorNotify9 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrsurfaceallocatornotify9">IVMRSurfaceAllocatorNotify9 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d0fdfac-ec7e-4e02-886b-2039c607dac7">Using the Video Mixing Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
  
 
  

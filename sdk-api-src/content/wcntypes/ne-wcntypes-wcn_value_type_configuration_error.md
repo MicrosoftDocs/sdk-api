@@ -173,7 +173,7 @@ Device password authentication failed.
 
 
 
-<a href="https://msdn.microsoft.com/214b64c3-b1f0-46b1-b52a-b1df1bb40cf7">WCN_ATTRIBUTE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_attribute_type">WCN_ATTRIBUTE_TYPE</a>
  
 
  

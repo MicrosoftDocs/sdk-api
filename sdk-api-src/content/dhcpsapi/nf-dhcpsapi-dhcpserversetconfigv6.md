@@ -64,7 +64,7 @@ Unicode string that specifies the IP address or hostname of the DHCP server.
 
 ### -param ScopeInfo [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/d5c0cff9-7164-4f14-a0a9-58311390ebd9">DHCP_OPTION_SCOPE_INFO6</a> structure that contains the configuration information at the scope or server level.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_option_scope_info6">DHCP_OPTION_SCOPE_INFO6</a> structure that contains the configuration information at the scope or server level.
 
 
 ### -param FieldsToSet [in]
@@ -181,14 +181,14 @@ Sets the audit log state in the registry.
 
 ### -param ConfigInfo [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/9862f0c1-3c42-4ad7-af3c-15868e4a9314">DHCP_SERVER_CONFIG_INFO_V6</a> structure that contains configuration information of the type indicated by the value supplied in <i>FieldsToSet</i>.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_server_config_info_v6">DHCP_SERVER_CONFIG_INFO_V6</a> structure that contains configuration information of the type indicated by the value supplied in <i>FieldsToSet</i>.
 
 
 ## -returns
 
 
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://msdn.microsoft.com/6370313f-d7db-4ff1-b0e0-7fa47474facb">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -228,7 +228,7 @@ An error occurred while accessing the DHCP server's database.
 
 
 
-<a href="https://msdn.microsoft.com/9862f0c1-3c42-4ad7-af3c-15868e4a9314">DHCP_SERVER_CONFIG_INFO_V6</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_server_config_info_v6">DHCP_SERVER_CONFIG_INFO_V6</a>
  
 
  

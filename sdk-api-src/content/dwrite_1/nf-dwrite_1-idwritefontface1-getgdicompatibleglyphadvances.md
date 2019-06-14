@@ -76,7 +76,7 @@ Number of physical pixels per DIP. For
 
 ### -param transform [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/fe4bd8ba-fc3b-4a04-8a72-9983d52f4404">DWRITE_MATRIX</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_matrix">DWRITE_MATRIX</a>*</b>
 
 Optional transform applied to the glyphs and
     their positions. This transform is applied after the scaling
@@ -138,9 +138,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This is equivalent to calling <a href="https://msdn.microsoft.com/7bda3916-6db3-4f56-b18c-288506c0b646">GetGdiCompatibleGlyphMetrics</a> and using only the advance width and height. 
+This is equivalent to calling <a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritefontface-getgdicompatibleglyphmetrics">GetGdiCompatibleGlyphMetrics</a> and using only the advance width and height. 
 
-Like <a href="https://msdn.microsoft.com/7bda3916-6db3-4f56-b18c-288506c0b646">GetGdiCompatibleGlyphMetrics</a>, these are in
+Like <a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritefontface-getgdicompatibleglyphmetrics">GetGdiCompatibleGlyphMetrics</a>, these are in
     design units, meaning they must be scaled down by
     DWRITE_FONT_METRICS::designUnitsPerEm.
 
@@ -152,7 +152,7 @@ Like <a href="https://msdn.microsoft.com/7bda3916-6db3-4f56-b18c-288506c0b646">G
 
 
 
-<a href="https://msdn.microsoft.com/1DB7156F-0578-46A0-8C96-E1E34FF4E49E">IDWriteFontFace1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritefontface1">IDWriteFontFace1</a>
  
 
  

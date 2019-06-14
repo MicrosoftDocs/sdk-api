@@ -65,7 +65,7 @@ A pointer to an <b>ANSI_STRING</b> structure to hold the converted ANSI string. 
 
 ### -param SourceString [in]
 
-The <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> structure that contains the source string to be converted to ANSI.
+The <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> structure that contains the source string to be converted to ANSI.
 
 
 ### -param AllocateDestinationString [in]
@@ -76,7 +76,7 @@ Controls allocation of the buffer space for the <i>DestinationString</i>.
 
 #### TRUE
 
-Buffer space is allocated for <i>DestinationString</i>. If set to <b>TRUE</b>, the buffer must be deallocated using <a href="https://msdn.microsoft.com/en-us/library/ms648416(v=VS.85).aspx">RtlFreeAnsiString</a>.
+Buffer space is allocated for <i>DestinationString</i>. If set to <b>TRUE</b>, the buffer must be deallocated using <a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-rtlfreeansistring">RtlFreeAnsiString</a>.
 
 
 
@@ -121,7 +121,7 @@ The translation is done with respect to the
     current system locale information.
 		
 
-Because there is no import library for this function, you must use <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a>.
+Because there is no import library for this function, you must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.
 		
 
 

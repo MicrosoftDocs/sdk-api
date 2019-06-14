@@ -64,7 +64,7 @@ A handle to the resource instance.
 
 ### -param FailureType [in]
 
-A <a href="https://msdn.microsoft.com/C838BE66-5CAB-4884-AC64-EC5EC3A87679">FAILURE_TYPE</a> enumeration value that describes the failure type.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ne-resapi-_failure_type">FAILURE_TYPE</a> enumeration value that describes the failure type.
 
 <b>Windows Server 2012:  </b>Not supported.
 
@@ -95,7 +95,7 @@ Returns <b>ERROR_SUCCESS</b> (0), if the operation succeeds; otherwise returns a
 
 
 
-<a href="https://msdn.microsoft.com/6c7de7e6-a0f5-4308-8cf3-21968bd339a4">Resource DLL Callback Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-callback-functions">Resource DLL Callback Functions</a>
  
 
  

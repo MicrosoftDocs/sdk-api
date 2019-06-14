@@ -50,8 +50,8 @@ ms.custom: 19H1
 
 
 Sets a file position for 
-<a href="https://msdn.microsoft.com/1ec0fe70-4749-4251-9c58-44efdab74688">InternetReadFile</a>. This is a synchronous call; however, subsequent calls to 
-<a href="https://msdn.microsoft.com/1ec0fe70-4749-4251-9c58-44efdab74688">InternetReadFile</a> might block or return pending if the data is not available from the cache and the server does not support random access.
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetreadfile">InternetReadFile</a>. This is a synchronous call; however, subsequent calls to 
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetreadfile">InternetReadFile</a> might block or return pending if the data is not available from the cache and the server does not support random access.
 
 
 ## -parameters
@@ -62,13 +62,13 @@ Sets a file position for
 ### -param hFile [in]
 
 Handle returned from a previous call to 
-<a href="https://msdn.microsoft.com/73f969c3-3fa7-43f5-88c5-ba78e59a8d1c">InternetOpenUrl</a> (on an HTTP or HTTPS
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetopenurla">InternetOpenUrl</a> (on an HTTP or HTTPS
 						URL) or 
-<a href="https://msdn.microsoft.com/caaff8e8-7db9-4d6d-8ba2-d8d19475173a">HttpOpenRequest</a> (using the GET or HEAD HTTP verb and passed to 
-<a href="https://msdn.microsoft.com/f53d9ff7-43b1-452f-a6cb-754d0229ab9a">HttpSendRequest</a> or 
-<a href="https://msdn.microsoft.com/3362fcd2-e8df-4886-9525-bf60589b2c1f">HttpSendRequestEx</a>). This handle must not have been created with the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383661(v=VS.85).aspx">INTERNET_FLAG_DONT_CACHE</a> or 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383661(v=VS.85).aspx">INTERNET_FLAG_NO_CACHE_WRITE</a> value set.
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpopenrequesta">HttpOpenRequest</a> (using the GET or HEAD HTTP verb and passed to 
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpsendrequesta">HttpSendRequest</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpsendrequestexa">HttpSendRequestEx</a>). This handle must not have been created with the 
+<a href="https://docs.microsoft.com/windows/desktop/WinInet/api-flags">INTERNET_FLAG_DONT_CACHE</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/WinInet/api-flags">INTERNET_FLAG_NO_CACHE_WRITE</a> value set.
 
 
 ### -param lDistanceToMove [in]
@@ -144,16 +144,16 @@ This parameter is reserved and must be 0.
 
 
 
-I the function succeeds, it returns the current file position.     A return value of <b>INVALID_SET_FILE_POINTER</b> indicates a potential failure and needs to be followed by be a call to <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.  
+I the function succeeds, it returns the current file position.     A return value of <b>INVALID_SET_FILE_POINTER</b> indicates a potential failure and needs to be followed by be a call to <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.  
 
 Since <b>INVALID_SET_FILE_POINTER</b> is a valid value for the  low-order DWORD of the new file pointer, the caller must check both the
-return value of the function and the error code returned by <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> to determine whether or not an error has occurred.   If an error has occurred, the return value of InternetSetFilePointer        is <b>INVALID_SET_FILE_POINTER</b> and <b>GetLastError</b> returns a value other than <b>NO_ERROR</b>.
+return value of the function and the error code returned by <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to determine whether or not an error has occurred.   If an error has occurred, the return value of InternetSetFilePointer        is <b>INVALID_SET_FILE_POINTER</b> and <b>GetLastError</b> returns a value other than <b>NO_ERROR</b>.
 
 If the function succeeds and <i>lpDistanceToMoveHigh</i> is <b>NULL</b>, the return
     value is the low-order <b>DWORD</b> of the new file pointer.
 
         Note that if the function returns a value other than
-        <b>INVALID_SET_FILE_POINTER</b>, the call to <b>InternetSetFilePointer</b>has succeeded and there is no need to call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+        <b>INVALID_SET_FILE_POINTER</b>, the call to <b>InternetSetFilePointer</b>has succeeded and there is no need to call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 If the function succeeds and <i>lpDistanceToMoveHigh</i> is not <b>NULL</b>, the
     return value is the lower-order <b>DWORD</b> of the new file pointer and
@@ -161,7 +161,7 @@ If the function succeeds and <i>lpDistanceToMoveHigh</i> is not <b>NULL</b>, the
     pointer.
 
 If a new file pointer is a negative value, the function fails, the file
-    pointer is not moved, and the code returned by <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> is
+    pointer is not moved, and the code returned by <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> is
     <b>ERROR_NEGATIVE_SEEK</b>.
 
 If <i>lpDistanceToMoveHigh</i> is <b>NULL</b> and the new file position does not fit
@@ -175,13 +175,13 @@ If <i>lpDistanceToMoveHigh</i> is <b>NULL</b> and the new file position does not
 
 
 This function cannot be used once the end of the file has been reached by 
-<a href="https://msdn.microsoft.com/1ec0fe70-4749-4251-9c58-44efdab74688">InternetReadFile</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetreadfile">InternetReadFile</a>.
 
 For 
-<a href="https://msdn.microsoft.com/8a9788ed-eb25-42cb-b912-8dffa3df1850">HINTERNET</a> handles created by 
-<a href="https://msdn.microsoft.com/caaff8e8-7db9-4d6d-8ba2-d8d19475173a">HttpOpenRequest</a> and sent by 
-<a href="https://msdn.microsoft.com/3362fcd2-e8df-4886-9525-bf60589b2c1f">HttpSendRequestEx</a>, a call to 
-<a href="https://msdn.microsoft.com/6ea91da6-0bc2-49b6-a56b-c4224ad73b81">HttpEndRequest</a> must be made on the handle before 
+<a href="https://docs.microsoft.com/windows/desktop/WinInet/appendix-a-hinternet-handles">HINTERNET</a> handles created by 
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpopenrequesta">HttpOpenRequest</a> and sent by 
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpsendrequestexa">HttpSendRequestEx</a>, a call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpendrequesta">HttpEndRequest</a> must be made on the handle before 
 <b>InternetSetFilePointer</b> is used.
 
 <b>InternetSetFilePointer</b> cannot be used reliably if the content length is unknown.
@@ -190,7 +190,7 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 <b>InternetSetFilePointer</b> has changed over time. In Internet Explorer 7 and earlier, it  used to move the pointer only within the bounds of  a LONG. When calling this older version of the function, <i>lDistanceToMove</i> contains the entire value. A positive value moves the pointer forward in the file; a negative value moves it backward.  <i>lpDistanceToMoveHigh</i> is reserved and is set to <b>0</b>.  In current versions, <i>lpDistanceToMoveHigh</i> is a significant value and where any negative value would be indicated.
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
@@ -200,11 +200,11 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 
-<a href="https://msdn.microsoft.com/c80768cf-c8c0-4bdf-9ea2-f82c92ade05a">Common Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinInet/common-functions">Common Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/2e0da5c6-29e4-47b5-8ed2-8712c9ca2c97">WinINet Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
  
 
  

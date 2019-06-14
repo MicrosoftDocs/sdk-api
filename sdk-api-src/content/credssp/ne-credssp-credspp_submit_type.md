@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CREDSPP_SUBMIT_TYPE</b> enumeration specifies the type of credentials specified by a <a href="https://msdn.microsoft.com/b22bd22c-e6e1-4817-b5cf-ab49f574e75f">CREDSSP_CRED</a> structure.
+The <b>CREDSPP_SUBMIT_TYPE</b> enumeration specifies the type of credentials specified by a <a href="https://docs.microsoft.com/windows/desktop/api/credssp/ns-credssp-_credssp_cred">CREDSSP_CRED</a> structure.
 
 
 ## -enum-fields
@@ -90,7 +90,7 @@ The credentials contain both certificate and Schannel credentials.
 
 
 
-<a href="https://msdn.microsoft.com/b22bd22c-e6e1-4817-b5cf-ab49f574e75f">CREDSSP_CRED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/credssp/ns-credssp-_credssp_cred">CREDSSP_CRED</a>
  
 
  

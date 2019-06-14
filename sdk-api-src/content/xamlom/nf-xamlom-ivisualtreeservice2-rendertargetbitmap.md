@@ -104,7 +104,7 @@ The possible return codes include, but are not limited to, the values shown in t
 </td>
 <td width="60%">
 The method succeeded. <i>ppBitmapData</i> will be set to
-an <a href="https://msdn.microsoft.com/5B833E2A-D150-4ECA-88C8-CEEDBF2E23C6">IBitmapData</a> containing an image.
+an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ibitmapdata">IBitmapData</a> containing an image.
 
 
 </td>
@@ -162,7 +162,7 @@ The returned image will have
 
 
 
-<a href="https://msdn.microsoft.com/022E495B-2609-4CA0-A69D-BFC4A04A6F9B">IVisualTreeService2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice2">IVisualTreeService2</a>
  
 
  

@@ -55,7 +55,7 @@ Filter Plugin Store
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbFilterPluginStore</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITsSbFilterPluginStore</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbFilterPluginStore</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbFilterPluginStore</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ITsSbFilterPluginStore</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/25c2ab34-0879-4dda-9ccb-fb5d7baea61c">DeleteProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbfilterpluginstore-deleteproperties">DeleteProperties</a>
 </td>
 <td align="left" width="63%">
 Deletes a property.
@@ -79,7 +79,7 @@ Deletes a property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0eb489d2-2644-4d34-83a7-132d28a7b871">EnumerateProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbfilterpluginstore-enumerateproperties">EnumerateProperties</a>
 </td>
 <td align="left" width="63%">
 Enumerates a property set.
@@ -88,7 +88,7 @@ Enumerates a property set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/79e5e519-e004-49c8-9d1b-705704446628">SaveProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbfilterpluginstore-saveproperties">SaveProperties</a>
 </td>
 <td align="left" width="63%">
 Saves a property set.
@@ -103,7 +103,7 @@ Saves a property set.
 
 
 
-<a href="https://msdn.microsoft.com/150a3c9a-d504-4854-adaa-92e3a7e8ea70">Remote Desktop Virtualization Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>
  
 
  

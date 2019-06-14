@@ -59,7 +59,7 @@ Creates a trace data provider object.
 
 ### -param Provider [out]
 
-An <a href="https://msdn.microsoft.com/bd2a49c1-8e18-4a14-a797-07f2b9c25812">ITraceDataProvider</a> interface that you use to specify a trace provider to enable in the trace session.
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovider">ITraceDataProvider</a> interface that you use to specify a trace provider to enable in the trace session.
 
 
 ## -returns
@@ -76,7 +76,7 @@ Returns S_OK if successful.
 
 
 
-<a href="https://msdn.microsoft.com/74300222-dca4-4871-bae3-0c3182fbc539">ITraceDataProviderCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovidercollection">ITraceDataProviderCollection</a>
  
 
  

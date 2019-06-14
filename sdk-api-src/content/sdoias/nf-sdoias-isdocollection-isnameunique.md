@@ -93,23 +93,23 @@ Neither of the parameters may be <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/fc62698d-0bb9-478c-91cf-9f8fec36dba4">Adding an Object to a Collection</a>
+<a href="https://docs.microsoft.com/windows/desktop/Nps/sdo-adding-an-object-to-a-collection">Adding an Object to a Collection</a>
 
 
 
-<a href="https://msdn.microsoft.com/9c7ee4d7-987f-45ae-810f-fc310955f36d">IASCOMMONPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iascommonproperties">IASCOMMONPROPERTIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/26470906-1cba-41fc-96f3-078208ab3d51">ISdoCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdocollection">ISdoCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/a575b224-9827-47f3-a819-bd793200c901">ISdoCollection::Add</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdocollection-add">ISdoCollection::Add</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a>
  
 
  

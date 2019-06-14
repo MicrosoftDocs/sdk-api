@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[<b>GetReverseConversion</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For internal use only.]
 
-Retrieves an <a href="https://msdn.microsoft.com/ca2e036a-d0f8-4372-872a-388217050d15">ITfReverseConversion</a> object that can perform reverse conversions. 
+Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfreverseconversion">ITfReverseConversion</a> object that can perform reverse conversions. 
 
 
 ## -parameters
@@ -147,7 +147,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-An <a href="https://msdn.microsoft.com/ca2e036a-d0f8-4372-872a-388217050d15">ITfReverseConversion</a> for the specified <i>langid</i> and <i>guidProfile</i> combination is available.
+An <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfreverseconversion">ITfReverseConversion</a> for the specified <i>langid</i> and <i>guidProfile</i> combination is available.
 
 </td>
 </tr>
@@ -195,7 +195,7 @@ When niether the <b>TF_RCM_HINT_COLLISION</b> or <b>TF_RCM_HINT_READING_LENGTH</
 
 
 
-<a href="https://msdn.microsoft.com/b02f3966-4bbf-4266-b5a5-237d975f69c9">ITfReverseConversionMgr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfreverseconversionmgr">ITfReverseConversionMgr</a>
  
 
  

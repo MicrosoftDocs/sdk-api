@@ -118,7 +118,7 @@ case WM_TOUCH:
 
 
 
-<a href="https://msdn.microsoft.com/3f10887f-5679-43b6-8bd0-f30e3bf715a1">Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/wintouch/touch-macros">Macros</a>
  
 
  

@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IX509MachineEnrollmentFactory</b> interface can be used to create an <a href="https://msdn.microsoft.com/19124591-be1a-401e-9b83-c640d00de34a">IX509EnrollmentHelper</a> object on a webpage. This object cannot be created directly inside of a script.
+The <b>IX509MachineEnrollmentFactory</b> interface can be used to create an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmenthelper">IX509EnrollmentHelper</a> object on a webpage. This object cannot be created directly inside of a script.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509MachineEnrollmentFactory</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IX509MachineEnrollmentFactory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509MachineEnrollmentFactory</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509MachineEnrollmentFactory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,10 +69,10 @@ The <b>IX509MachineEnrollmentFactory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f9a45219-1c88-4946-ad57-81b95c609066">CreateObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509machineenrollmentfactory-createobject">CreateObject</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/19124591-be1a-401e-9b83-c640d00de34a">IX509EnrollmentHelper</a> object on a webpage.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmenthelper">IX509EnrollmentHelper</a> object on a webpage.
 
 [WebEnabled]
 

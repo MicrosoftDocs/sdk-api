@@ -66,7 +66,7 @@ This is of type <b>DWORD</b>, specifying the number of classes whose information
 
 ### -field Classes
 
-A pointer to an array of structures <a href="https://msdn.microsoft.com/76d9a46b-6958-4c29-8512-e6299b28ca01">DHCP_CLASS_INFO_V6</a> (section 2.2.1.2.70) that contains information regarding the various user classes and vendor classes.
+A pointer to an array of structures <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_class_info_v6">DHCP_CLASS_INFO_V6</a> (section 2.2.1.2.70) that contains information regarding the various user classes and vendor classes.
 
 
 ### -field Classes.size_is
@@ -86,7 +86,7 @@ A pointer to an array of structures <a href="https://msdn.microsoft.com/76d9a46b
 
 
 
-<a href="https://msdn.microsoft.com/76d9a46b-6958-4c29-8512-e6299b28ca01">DHCP_CLASS_INFO_V6</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_class_info_v6">DHCP_CLASS_INFO_V6</a>
  
 
  

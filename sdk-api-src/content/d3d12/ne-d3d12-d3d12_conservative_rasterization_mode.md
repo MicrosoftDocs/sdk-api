@@ -71,7 +71,7 @@ Conservative rasterization is on.
 
 
 
-This enum is used by the <a href="https://msdn.microsoft.com/52ECF841-72BE-44B7-BFB1-305B6981C1F4">D3D12_RASTERIZER_DESC</a> structure. 
+This enum is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_rasterizer_desc">D3D12_RASTERIZER_DESC</a> structure. 
 
 
 
@@ -81,15 +81,15 @@ This enum is used by the <a href="https://msdn.microsoft.com/52ECF841-72BE-44B7-
 
 
 
-<a href="https://msdn.microsoft.com/081199AD-1702-4EC8-95AD-B1148C676199">Conservative Rasterization</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/conservative-rasterization">Conservative Rasterization</a>
 
 
 
-<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/274C3926-6E02-414A-8BF8-7535F1B4F097">D3D12_CONSERVATIVE_RASTERIZATION_TIER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_conservative_rasterization_tier">D3D12_CONSERVATIVE_RASTERIZATION_TIER</a>
  
 
  

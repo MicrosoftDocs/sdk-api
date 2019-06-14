@@ -85,11 +85,11 @@ This method is intended for diagnostic and testing purposes.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375973(v=VS.85).aspx">IAMTVTuner::get_AudioFrequency</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtvtuner-get_audiofrequency">IAMTVTuner::get_AudioFrequency</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694420(v=VS.85).aspx">IMSVidAnalogTuner Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidanalogtuner">IMSVidAnalogTuner Interface</a>
  
 
  

@@ -77,7 +77,7 @@ Number of destination channels.
 
 ### -field dwChannelMask
 
-Specifies the assignment of audio channels to speaker positions in the transformed audio. This member is a bitwise <b>OR</b> of flags that define the speaker positions. For a list of valid flags, see <a href="https://msdn.microsoft.com/fa5f6baa-0a21-4162-8870-38e71763aba0">MF_MT_AUDIO_CHANNEL_MASK</a> attribute.
+Specifies the assignment of audio channels to speaker positions in the transformed audio. This member is a bitwise <b>OR</b> of flags that define the speaker positions. For a list of valid flags, see <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-audio-channel-mask-attribute">MF_MT_AUDIO_CHANNEL_MASK</a> attribute.
 
 
 ### -field Coeff
@@ -89,7 +89,7 @@ Array that contains the fold-down coefficients. The number of coefficients is <b
 
 
 
-To specify this information in the media type, set the <a href="https://msdn.microsoft.com/6dfe2b97-1ebc-4954-b478-85b3bbba89e3">MF_MT_AUDIO_FOLDDOWN_MATRIX</a> attribute.
+To specify this information in the media type, set the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-audio-folddown-matrix-attribute">MF_MT_AUDIO_FOLDDOWN_MATRIX</a> attribute.
 
 The ASF media source supports fold-down from six channels (5.1 audio) to two channels (stereo). It gets the information from the g_wszFold6To2Channels3 attribute in the ASF header. This attribute is documented in the Windows Media Format SDK documentation.
 
@@ -101,7 +101,7 @@ The ASF media source supports fold-down from six channels (5.1 audio) to two cha
 
 
 
-<a href="https://msdn.microsoft.com/39fdd724-13ca-48ab-8a55-93529d1da3b4">Media Foundation Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
  
 
  

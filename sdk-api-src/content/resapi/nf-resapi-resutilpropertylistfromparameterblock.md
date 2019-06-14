@@ -51,9 +51,9 @@ ms.custom: 19H1
 
 
 Constructs a 
-    <a href="https://msdn.microsoft.com/57312b32-01cf-48e8-b61f-6095e23bb580">property list</a> from a 
-    <a href="https://msdn.microsoft.com/48591d73-606b-42b4-9711-4f7a84e9e971">property table</a> and a 
-    <a href="https://msdn.microsoft.com/fd77397b-36dd-4a20-b3f4-7dbbee1fd787">parameter block</a>.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-lists">property list</a> from a 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-tables">property table</a> and a 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/parameter-blocks">parameter block</a>.
 
 
 ## -parameters
@@ -98,7 +98,7 @@ If the function returns <b>ERROR_MORE_DATA</b>, <i>pcbRequired</i> points to the
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, the function returns a 
-       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following are possible error 
+       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following are possible error 
        codes.
 
 <table>
@@ -158,7 +158,7 @@ The parameter block provides the property values.
 
 The following example defines three properties (Protocol, PortNumber, and ConnectionName). It uses the 
      <b>ResUtilPropertyListFromParameterBlock</b> function to create a property list. This 
-     example uses the <a href="https://msdn.microsoft.com/fc2032d2-40a5-45bd-8661-1e778789bad6">ClusDocEx.h</a> header file defined in the 
+     example uses the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusdocex-h">ClusDocEx.h</a> header file defined in the 
      Failover Cluster documentation.
 
 
@@ -296,7 +296,7 @@ The following example defines three properties (Protocol, PortNumber, and Connec
 
 
 
-<a href="https://msdn.microsoft.com/f65ee50f-59f7-44db-ad69-b29b3e693c7e">RESUTIL_PROPERTY_ITEM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a>
  
 
  

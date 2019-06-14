@@ -59,7 +59,7 @@ The <b>HTTP_QOS_SETTING_INFO</b> structurecontains information about a QOS setti
 
 ### -field QosType
 
-An <a href="https://msdn.microsoft.com/d1593670-9f5c-48a9-93d9-d5ff744cfc8b">HTTP_QOS_SETTING_TYPE</a> enumeration value that specifies the type of the QOS setting.
+An <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_qos_setting_type">HTTP_QOS_SETTING_TYPE</a> enumeration value that specifies the type of the QOS setting.
 
 
 ### -field QosSetting
@@ -72,7 +72,7 @@ A pointer to a structure that contains the setting.
 
 
 
-<a href="https://msdn.microsoft.com/d1593670-9f5c-48a9-93d9-d5ff744cfc8b">HTTP_QOS_SETTING_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_qos_setting_type">HTTP_QOS_SETTING_TYPE</a>
  
 
  

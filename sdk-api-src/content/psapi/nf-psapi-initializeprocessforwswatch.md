@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 
 Initiates monitoring of the working set of the specified process. You must call this function before calling the 
-<a href="https://msdn.microsoft.com/ace5106c-9c7b-4d5f-a69a-c3a8bff0bb2d">GetWsChanges</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-getwschanges">GetWsChanges</a> function.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Initiates monitoring of the working set of the specified process. You must call 
 
 ### -param hProcess [in]
 
-A handle to the process. The handle must have the PROCESS_QUERY_INFORMATION access right. For more information, see <a href="https://msdn.microsoft.com/508a17c4-88cd-431a-a102-00180a7f7ab5">Process Security and Access Rights</a>.
+A handle to the process. The handle must have the PROCESS_QUERY_INFORMATION access right. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
 
 ## -returns
@@ -75,7 +75,7 @@ A handle to the process. The handle must have the PROCESS_QUERY_INFORMATION acce
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -109,19 +109,19 @@ Programs that must run on earlier versions of Windows as
 
 
 
-<a href="https://msdn.microsoft.com/0c0445cb-27d2-4857-a4a5-7a4c180b068b">EnumProcesses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-enumprocesses">EnumProcesses</a>
 
 
 
-<a href="https://msdn.microsoft.com/ace5106c-9c7b-4d5f-a69a-c3a8bff0bb2d">GetWsChanges</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-getwschanges">GetWsChanges</a>
 
 
 
-<a href="https://msdn.microsoft.com/e158792b-fec2-498d-aae3-d5679fa55783">PSAPI Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/33c42f79-cc77-4d44-84c3-8bf0a4a60019">Working Set Information</a>
+<a href="https://docs.microsoft.com/windows/desktop/psapi/working-set-information">Working Set Information</a>
  
 
  

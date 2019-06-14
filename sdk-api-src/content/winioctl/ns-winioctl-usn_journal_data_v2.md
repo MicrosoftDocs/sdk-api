@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Represents an update sequence number (USN) change journal, its records, and its capacity. This structure is the output buffer for the <a href="https://msdn.microsoft.com/9491b054-934a-4b76-bf77-f397b6386f82">FSCTL_QUERY_USN_JOURNAL</a> control code.
+Represents an update sequence number (USN) change journal, its records, and its capacity. This structure is the output buffer for the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_usn_journal">FSCTL_QUERY_USN_JOURNAL</a> control code.
 
 
 ## -struct-fields
@@ -163,19 +163,19 @@ File size threshold to start tracking range for files with equal or larger size.
 
 
 
-<a href="https://msdn.microsoft.com/9491b054-934a-4b76-bf77-f397b6386f82">FSCTL_QUERY_USN_JOURNAL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_usn_journal">FSCTL_QUERY_USN_JOURNAL</a>
 
 
 
-<a href="https://msdn.microsoft.com/6b75eab2-aa10-4b48-8918-e4b03b5d8564">USN_JOURNAL_DATA_V0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_journal_data_v0">USN_JOURNAL_DATA_V0</a>
 
 
 
-<a href="https://msdn.microsoft.com/3ee0a76e-848c-4f41-9e8b-1ff023c7f3b3">USN_JOURNAL_DATA_V1</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh802707(v=vs.85)">USN_JOURNAL_DATA_V1</a>
 
 
 
-<a href="https://msdn.microsoft.com/bbde9dfb-c205-4432-be71-250d73b881f1">Volume Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
  
 
  

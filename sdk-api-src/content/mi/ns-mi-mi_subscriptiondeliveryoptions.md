@@ -76,7 +76,7 @@ Pointer to the <b>MI_SubscriptionDeliveryOptions</b> function table.
 
 
 
-This structure is created by calling the <a href="https://msdn.microsoft.com/ac84ec09-7d91-42fc-8271-3e0e54bbb788">MI_Application_NewSubscriptionDeliveryOptions</a> function.
+This structure is created by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newsubscriptiondeliveryoptions">MI_Application_NewSubscriptionDeliveryOptions</a> function.
 
 
 
@@ -86,7 +86,7 @@ This structure is created by calling the <a href="https://msdn.microsoft.com/ac8
 
 
 
-<a href="https://msdn.microsoft.com/ac84ec09-7d91-42fc-8271-3e0e54bbb788">MI_Application_NewSubscriptionDeliveryOptions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newsubscriptiondeliveryoptions">MI_Application_NewSubscriptionDeliveryOptions</a>
  
 
  

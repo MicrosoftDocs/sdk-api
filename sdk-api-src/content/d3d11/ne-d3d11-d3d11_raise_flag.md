@@ -66,7 +66,7 @@ Raise an internal driver error to a non-continuable exception.
 
 
 
-These flags are used by <a href="https://msdn.microsoft.com/c5deddde-4355-4a34-b40a-50006029d590">ID3D11Device::GetExceptionMode</a> and <a href="https://msdn.microsoft.com/a442a5dc-7931-4464-a6e7-76441e61da5b">ID3D11Device::SetExceptionMode</a>. Use 0 to indicate no flags; multiple flags can be logically OR'ed together.
+These flags are used by <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-getexceptionmode">ID3D11Device::GetExceptionMode</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-setexceptionmode">ID3D11Device::SetExceptionMode</a>. Use 0 to indicate no flags; multiple flags can be logically OR'ed together.
 
 
 
@@ -76,7 +76,7 @@ These flags are used by <a href="https://msdn.microsoft.com/c5deddde-4355-4a34-b
 
 
 
-<a href="https://msdn.microsoft.com/1641713a-5ac8-4597-900b-1bba54f9f522">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-enums">Core Enumerations</a>
  
 
  

@@ -64,5 +64,5 @@ Points to the next attached surface.
 
 ### -field lpAttached
 
-Points to a <a href="https://msdn.microsoft.com/45a41cec-0257-4e26-809d-c2fc4c247328">DD_SURFACE_LOCAL</a> structure that contains the attached surface local object.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_local">DD_SURFACE_LOCAL</a> structure that contains the attached surface local object.
 

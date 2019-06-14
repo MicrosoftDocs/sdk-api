@@ -66,7 +66,7 @@ The file is faxed as it is. The user cannot add typed material preceding it or f
 
 
 
-This enumeration is used primarily as a parameter for the <a href="https://msdn.microsoft.com/en-us/library/Aa358864(v=VS.85).aspx">SendToFaxRecipient</a> function. 
+This enumeration is used primarily as a parameter for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fxsutility/nf-fxsutility-sendtofaxrecipient">SendToFaxRecipient</a> function. 
 
 
 
@@ -76,11 +76,11 @@ This enumeration is used primarily as a parameter for the <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358864(v=VS.85).aspx">SendToFaxRecipient</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fxsutility/nf-fxsutility-sendtofaxrecipient">SendToFaxRecipient</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358863(v=VS.85).aspx">Shell Fax Extension Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-shell-fax-extension-functions">Shell Fax Extension Functions</a>
  
 
  

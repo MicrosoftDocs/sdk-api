@@ -59,7 +59,7 @@ The <b>EngLockDriverObj</b> function creates an exclusive lock on this object fo
 
 ### -param hdo
 
-Handle to the <a href="https://msdn.microsoft.com/313ee1bf-ee0c-4283-b5e1-5bbabb944a4a">DRIVEROBJ</a> structure to be locked by GDI.
+Handle to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_driverobj">DRIVEROBJ</a> structure to be locked by GDI.
 
 
 ## -returns
@@ -85,7 +85,7 @@ This function will fail if the handle is invalid, if the object is already locke
 
 
 
-<a href="https://msdn.microsoft.com/313ee1bf-ee0c-4283-b5e1-5bbabb944a4a">DRIVEROBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_driverobj">DRIVEROBJ</a>
  
 
  

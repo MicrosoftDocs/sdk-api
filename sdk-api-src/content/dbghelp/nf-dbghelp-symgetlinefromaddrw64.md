@@ -64,7 +64,7 @@ Locates the source line for the specified address.
 ### -param hProcess [in]
 
 A handle to the process that was originally passed to the 
-      <a href="https://msdn.microsoft.com/fb1c98cb-6cd0-4218-aea4-384c24c66395">SymInitialize</a> function.
+      <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 
 #### - dwAddr [in]
@@ -81,7 +81,7 @@ The displacement in bytes from the beginning of the line, or zero.
 
 #### - Line [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/62124983-8381-4eb4-94f6-220b844aca45">IMAGEHLP_LINE64</a> 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_line">IMAGEHLP_LINE64</a> 
       structure.
 
 
@@ -92,7 +92,7 @@ A pointer to an <a href="https://msdn.microsoft.com/62124983-8381-4eb4-94f6-220b
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error 
-       information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -102,7 +102,7 @@ If the function fails, the return value is <b>FALSE</b>. To retrieve extended er
 
 
 The caller must allocate the <i>Line</i> buffer properly and fill in the required members 
-    of the <a href="https://msdn.microsoft.com/62124983-8381-4eb4-94f6-220b844aca45">IMAGEHLP_LINE64</a> structure before 
+    of the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_line">IMAGEHLP_LINE64</a> structure before 
     calling <b>SymGetLineFromAddr64</b>.
 
 This function returns a pointer to a buffer that may be reused by another function. Therefore, be sure to copy 
@@ -135,7 +135,7 @@ SymGetLineFromAddrW64(
 
 
 This function supersedes the <b>SymGetLineFromAddr</b> function. For more information, see 
-<a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>SymGetLineFromAddr</b> is defined as follows in Dbghelp.h. 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <b>SymGetLineFromAddr</b> is defined as follows in Dbghelp.h. 
 
 
 ```cpp
@@ -168,7 +168,7 @@ SymGetLineFromAddrW(
 #### Examples
 
 For an example, see 
-     <a href="https://msdn.microsoft.com/63dfadea-b0c4-4050-add8-d1f3aef7a495">Retrieving Symbol Information by Address</a>.
+     <a href="https://docs.microsoft.com/windows/desktop/Debug/retrieving-symbol-information-by-address">Retrieving Symbol Information by Address</a>.
 
 <div class="code"></div>
 
@@ -179,19 +179,19 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/7b28f70b-2d97-4cc2-8064-dfb806f9cffa">DbgHelp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/62124983-8381-4eb4-94f6-220b844aca45">IMAGEHLP_LINE64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_line">IMAGEHLP_LINE64</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb8870f6-1bae-40df-842e-ec3ca0167691">SymGetLineFromName64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetlinefromname">SymGetLineFromName64</a>
 
 
 
-<a href="https://msdn.microsoft.com/fb1c98cb-6cd0-4218-aea4-384c24c66395">SymInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a>
  
 
  

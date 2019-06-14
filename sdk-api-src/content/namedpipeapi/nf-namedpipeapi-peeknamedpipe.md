@@ -67,9 +67,9 @@ Copies data from a named or anonymous pipe into a buffer without removing it fro
 ### -param hNamedPipe [in]
 
 A handle to the pipe. This parameter can be a handle to a named pipe instance, as returned by the 
-<a href="https://msdn.microsoft.com/00d79639-3f14-4964-90f3-9462a23e68df">CreateNamedPipe</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> or 
 <a href="base.createfile">CreateFile</a> function, or it can be a handle to the read end of an anonymous pipe, as returned by the 
-<a href="https://msdn.microsoft.com/a2d2fee8-c174-49d3-9e5a-2ce3bb763932">CreatePipe</a> function. The handle must have GENERIC_READ access to the pipe.
+<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-createpipe">CreatePipe</a> function. The handle must have GENERIC_READ access to the pipe.
 
 
 ### -param lpBuffer [out, optional]
@@ -104,7 +104,7 @@ A pointer to a variable that receives the number of bytes remaining in this mess
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -119,14 +119,14 @@ The
 
 <ul>
 <li>The data is read in the mode specified with 
-<a href="https://msdn.microsoft.com/00d79639-3f14-4964-90f3-9462a23e68df">CreateNamedPipe</a>. For example, create a pipe with PIPE_TYPE_MESSAGE | PIPE_READMODE_MESSAGE. If you change the mode to PIPE_READMODE_BYTE with 
-<a href="https://msdn.microsoft.com/1e62c98e-cecb-4f42-9269-e58ca69e5d39">SetNamedPipeHandleState</a>, <a href="base.readfile">ReadFile</a> will read in byte mode, but 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a>. For example, create a pipe with PIPE_TYPE_MESSAGE | PIPE_READMODE_MESSAGE. If you change the mode to PIPE_READMODE_BYTE with 
+<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-setnamedpipehandlestate">SetNamedPipeHandleState</a>, <a href="base.readfile">ReadFile</a> will read in byte mode, but 
 <b>PeekNamedPipe</b> will continue to read in message mode.</li>
 <li>The data read from the pipe is not removed from the pipe's buffer.</li>
 <li>The function can return additional information about the contents of the pipe.</li>
 <li>The function always returns immediately in a single-threaded application, even if there is no data in the pipe. The wait mode of a named pipe handle (blocking or nonblocking) has no effect on the function.</li>
 </ul>
-<div class="alert"><b>Note</b>  The <b>PeekNamedPipe</b> function can block thread execution the same way any I/O function can when called on a synchronous handle in a multi-threaded application. To avoid this condition, use a pipe handle created for <a href="https://msdn.microsoft.com/ade51d98-cc9d-4b33-9c52-559a9cb14707">asynchronous I/O</a>.</div>
+<div class="alert"><b>Note</b>  The <b>PeekNamedPipe</b> function can block thread execution the same way any I/O function can when called on a synchronous handle in a multi-threaded application. To avoid this condition, use a pipe handle created for <a href="https://docs.microsoft.com/windows/desktop/FileIO/synchronous-and-asynchronous-i-o">asynchronous I/O</a>.</div>
 <div> </div>
 If the specified handle is a named pipe handle in byte-read mode, the function reads all available bytes up to the size specified in <i>nBufferSize</i>. For a named pipe handle in message-read mode, the function reads the next message in the pipe. If the message is larger than <i>nBufferSize</i>, the function returns <b>TRUE</b> after reading the specified number of bytes. In this situation, <i>lpBytesLeftThisMessage</i> will receive the number of bytes remaining in the message.
 
@@ -144,19 +144,19 @@ If the specified handle is a named pipe handle in byte-read mode, the function r
 
 
 
-<a href="https://msdn.microsoft.com/00d79639-3f14-4964-90f3-9462a23e68df">CreateNamedPipe</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a>
 
 
 
-<a href="https://msdn.microsoft.com/a2d2fee8-c174-49d3-9e5a-2ce3bb763932">CreatePipe</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-createpipe">CreatePipe</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e80783e-9641-4cbd-9c28-a8efe6b9efaa">Pipe Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/ipc/pipe-functions">Pipe Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/7cb8cbe4-eec8-4dda-9cb7-8d37abcee6f4">Pipes Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/ipc/pipes">Pipes Overview</a>
 
 
 

@@ -66,7 +66,7 @@ The security descriptor that is used as credentials for the registered task.
 
 ### -param flags [in]
 
-Flags that specify how to set the security descriptor. The TASK_DONT_ADD_PRINCIPAL_ACE flag from the <a href="https://msdn.microsoft.com/e8da4d76-25c8-4209-a75b-c77217c366d4">TASK_CREATION</a> enumeration can be specified.
+Flags that specify how to set the security descriptor. The TASK_DONT_ADD_PRINCIPAL_ACE flag from the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/ne-taskschd-_task_creation">TASK_CREATION</a> enumeration can be specified.
 
 
 ## -returns
@@ -92,15 +92,15 @@ You can specify the access control list (ACL) in the security descriptor for a t
 
 
 
-<a href="https://msdn.microsoft.com/3743d012-ad7c-402f-8859-939bb01ee447">IRegisteredTask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iregisteredtask">IRegisteredTask</a>
 
 
 
-<a href="https://msdn.microsoft.com/9c8ebfdb-3c23-4fec-9023-7a944d99a409">IRegisteredTask::SetSecurityDescriptor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-setsecuritydescriptor">IRegisteredTask::SetSecurityDescriptor</a>
 
 
 
-<a href="https://msdn.microsoft.com/9360746e-0f6d-40cb-9135-b12bd8b7d760">ITaskFolder::GetSecurityDescriptor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-getsecuritydescriptor">ITaskFolder::GetSecurityDescriptor</a>
  
 
  

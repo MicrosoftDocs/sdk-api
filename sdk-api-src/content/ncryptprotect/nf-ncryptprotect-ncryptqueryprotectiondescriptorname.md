@@ -59,7 +59,7 @@ The <b>NCryptQueryProtectionDescriptorName</b> function retrieves the protection
 
 ### -param pwszName [in]
 
-The registered display name for the protection descriptor. Register a name by calling the <a href="https://msdn.microsoft.com/DAB03CB2-630F-4BB3-93BD-06BE9126B1C4">NCryptRegisterProtectionDescriptorName</a> function.
+The registered display name for the protection descriptor. Register a name by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptregisterprotectiondescriptorname">NCryptRegisterProtectionDescriptorName</a> function.
 
 
 ### -param pwszDescriptorString [out]
@@ -141,11 +141,11 @@ To retrieve a protection descriptor rule string, you must call this function twi
 
 
 
-<a href="https://msdn.microsoft.com/591C7361-334E-4A65-8616-C0ED3BBC2297">CNG DPAPI Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-dpapi-functions">CNG DPAPI Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/DAB03CB2-630F-4BB3-93BD-06BE9126B1C4">NCryptRegisterProtectionDescriptorName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptregisterprotectiondescriptorname">NCryptRegisterProtectionDescriptorName</a>
  
 
  

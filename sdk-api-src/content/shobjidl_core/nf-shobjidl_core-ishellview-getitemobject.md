@@ -61,7 +61,7 @@ Gets an interface that refers to data presented in the view.
 
 Type: <b>UINT</b>
 
-The constants that refer to an aspect of the view. This parameter can be any one of the <a href="https://msdn.microsoft.com/06ed616b-8121-4ea0-bd05-632888d0f376">_SVGIO</a> constants.
+The constants that refer to an aspect of the view. This parameter can be any one of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_svgio">_SVGIO</a> constants.
 
 
 ### -param riid
@@ -103,7 +103,7 @@ Used by the common dialog boxes to retrieve the selected items from the view.
 
 
 
-<a href="https://msdn.microsoft.com/91438583-e4f1-456f-a130-2a45846fd725">IShellView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>
  
 
  

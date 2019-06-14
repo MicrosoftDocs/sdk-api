@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>ICDrawWindow</b> macro notifies a rendering driver that the window specified for the <a href="https://msdn.microsoft.com/e5ecd7dd-376b-422c-bbb8-4e7c41e3cac8">ICM_DRAW_BEGIN</a> message needs to be redrawn. The window has moved or become temporarily obscured. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/4df1b9a7-8d61-4e79-8f43-1e7ee266375c">ICM_DRAW_WINDOW</a> message.
+The <b>ICDrawWindow</b> macro notifies a rendering driver that the window specified for the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-begin">ICM_DRAW_BEGIN</a> message needs to be redrawn. The window has moved or become temporarily obscured. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-window">ICM_DRAW_WINDOW</a> message.
 
 
 
@@ -76,7 +76,7 @@ Pointer to the destination rectangle in screen coordinates. If this parameter po
 
 This message is supported by hardware that performs its own asynchronous decompression, timing, and drawing.
 
-Video-overlay drivers use this message to draw when the window is obscured or moved. When a window specified for <a href="https://msdn.microsoft.com/e5ecd7dd-376b-422c-bbb8-4e7c41e3cac8">ICM_DRAW_BEGIN</a> is completely hidden by other windows, the destination rectangle is empty. Drivers should turn off video-overlay hardware when this condition occurs.
+Video-overlay drivers use this message to draw when the window is obscured or moved. When a window specified for <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-begin">ICM_DRAW_BEGIN</a> is completely hidden by other windows, the destination rectangle is empty. Drivers should turn off video-overlay hardware when this condition occurs.
 
 
 
@@ -86,11 +86,11 @@ Video-overlay drivers use this message to draw when the window is obscured or mo
 
 
 
-<a href="https://msdn.microsoft.com/e8ee41fa-180a-432a-933b-b4a525b9df8c">Video Compression Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://msdn.microsoft.com/df876309-68d3-43a3-9d83-6fdb8f345fdc">Video Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
  
 
  

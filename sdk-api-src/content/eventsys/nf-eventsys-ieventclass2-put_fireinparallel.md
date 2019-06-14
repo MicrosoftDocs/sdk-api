@@ -64,7 +64,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/b01f8d96-c0e6-45a7-9365-792f6233686e">IEventClass2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventclass2">IEventClass2</a>
  
 
  

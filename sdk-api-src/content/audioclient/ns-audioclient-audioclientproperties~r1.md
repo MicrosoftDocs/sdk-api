@@ -62,7 +62,7 @@ An enumeration that is used to specify the category of the audio stream.
 
 ### - Options
 
-A member of the <a href="https://msdn.microsoft.com/C9A51FB2-46F5-4F20-B9F2-63EC53CAB3D7">AUDCLNT_STREAMOPTIONS</a> enumeration describing the characteristics of the stream.
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/ne-audioclient-audclnt_streamoptions">AUDCLNT_STREAMOPTIONS</a> enumeration describing the characteristics of the stream.
 
 Supported in Windows 8.1 and later.
 
@@ -71,7 +71,7 @@ Supported in Windows 8.1 and later.
 
 
 
-Starting with Windows 10, hardware-offloaded audio streams must be event driven. This means that if you call <a href="https://msdn.microsoft.com/B9B98EF9-C0E1-430A-9C79-1B414F4D67B5">IAudioClient2::SetClientProperties</a> and set the <i>bIsOffload</i> parameter of the <b>AudioClientProperties</b> to TRUE, you must specify the <b>AUDCLNT_STREAMFLAGS_EVENTCALLBACK</b> flag in the <i>StreamFlags</i> parameter to <a href="https://msdn.microsoft.com/eb778503-06f8-4705-9f8d-9a4fd886ae27">IAudioClient::Initialize</a>.
+Starting with Windows 10, hardware-offloaded audio streams must be event driven. This means that if you call <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient2-setclientproperties">IAudioClient2::SetClientProperties</a> and set the <i>bIsOffload</i> parameter of the <b>AudioClientProperties</b> to TRUE, you must specify the <b>AUDCLNT_STREAMFLAGS_EVENTCALLBACK</b> flag in the <i>StreamFlags</i> parameter to <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>.
 
 
 
@@ -81,19 +81,19 @@ Starting with Windows 10, hardware-offloaded audio streams must be event driven
 
 
 
-<a href="https://msdn.microsoft.com/C9A51FB2-46F5-4F20-B9F2-63EC53CAB3D7">AUDCLNT_STREAMOPTIONS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/ne-audioclient-audclnt_streamoptions">AUDCLNT_STREAMOPTIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404178(v=VS.85).aspx">AUDIO_STREAM_CATEGORY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiosessiontypes/ne-audiosessiontypes-_audio_stream_category">AUDIO_STREAM_CATEGORY</a>
 
 
 
-<a href="https://msdn.microsoft.com/92585cd4-baa9-4f75-816e-b83f5badad37">Core Audio Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-structures">Core Audio Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/B9B98EF9-C0E1-430A-9C79-1B414F4D67B5">IAudioClient2::SetClientProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient2-setclientproperties">IAudioClient2::SetClientProperties</a>
  
 
  

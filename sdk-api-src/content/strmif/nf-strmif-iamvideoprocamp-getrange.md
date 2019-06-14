@@ -63,7 +63,7 @@ The <code>GetRange</code> method gets the range and default value of a specified
 
 ### -param Property [in]
 
-Specifies the property to query, as a value from the <a href="https://msdn.microsoft.com/113e3896-4920-41a3-9ce2-a26c34af4896">VideoProcAmpProperty</a> enumeration.
+Specifies the property to query, as a value from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagvideoprocampproperty">VideoProcAmpProperty</a> enumeration.
 
 
 ### -param pMin [out]
@@ -92,7 +92,7 @@ Receives the default value of the property.
 
 ### -param pCapsFlags [out]
 
-Receives a member of the <a href="https://msdn.microsoft.com/42876f3b-d2b9-4ddb-85c0-80f5177eef6b">VideoProcAmpFlags</a> enumeration, indicating whether the property is controlled automatically or manually.
+Receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagvideoprocampflags">VideoProcAmpFlags</a> enumeration, indicating whether the property is controlled automatically or manually.
           
 
 
@@ -162,15 +162,15 @@ No error.
 
 
 
-<a href="https://msdn.microsoft.com/f789db78-292e-4092-a5dc-1906845fb1dd">Configure the Video Quality</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/configure-the-video-quality">Configure the Video Quality</a>
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/28c45790-2e5a-4acb-8a53-93f19c51dc6a">IAMVideoProcAmp Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamvideoprocamp">IAMVideoProcAmp Interface</a>
  
 
  

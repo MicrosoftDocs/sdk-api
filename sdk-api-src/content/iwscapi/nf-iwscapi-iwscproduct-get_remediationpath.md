@@ -78,7 +78,7 @@ If the method  fails, returns a Win32 error code.
 
 
 
-<a href="https://msdn.microsoft.com/C637E67A-CED7-4235-AAF3-22730E9C7E91">IWscProduct</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iwscapi/nn-iwscapi-iwscproduct">IWscProduct</a>
  
 
  

@@ -59,12 +59,12 @@ Registers a callback with the multicast client.
 
 ### -param hSessionKey [in]
 
-Unique handle returned by the call to <a href="https://msdn.microsoft.com/0ece4ac8-372c-46ec-a6a1-ff1b547a85ef">WdsTransportClientInitializeSession</a>.
+Unique handle returned by the call to <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nf-wdstci-wdstransportclientinitializesession">WdsTransportClientInitializeSession</a>.
 
 
 ### -param CallbackId [in]
 
-Identifier specifying which callback is being registered. This parameter receives a <a href="https://msdn.microsoft.com/6dd5e1ed-a9f8-4c6b-8bbb-8e3e6551d980">TRANSPORTCLIENT_CALLBACK_ID</a> enumeration value. 
+Identifier specifying which callback is being registered. This parameter receives a <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/ne-wdstci-_transportclient_callback_id">TRANSPORTCLIENT_CALLBACK_ID</a> enumeration value. 
 
 <table>
 <tr>
@@ -78,7 +78,7 @@ Identifier specifying which callback is being registered. This parameter receive
 </dl>
 </td>
 <td width="60%">
-Identifies the <a href="https://msdn.microsoft.com/47a053e3-f457-4d0a-80a8-1b93d5e8688f">PFN_WdsTransportClientSessionStart</a> callback. This callback is required.
+Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nc-wdstci-pfn_wdstransportclientsessionstart">PFN_WdsTransportClientSessionStart</a> callback. This callback is required.
 
 </td>
 </tr>
@@ -89,7 +89,7 @@ Identifies the <a href="https://msdn.microsoft.com/47a053e3-f457-4d0a-80a8-1b93d
 </dl>
 </td>
 <td width="60%">
-Identifies the <a href="https://msdn.microsoft.com/3a1cd9bb-c0da-4d66-9338-1f284fc15499">PFN_WdsTransportClientReceiveContents</a> callback. This callback is required.
+Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nc-wdstci-pfn_wdstransportclientreceivecontents">PFN_WdsTransportClientReceiveContents</a> callback. This callback is required.
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ Identifies the <a href="https://msdn.microsoft.com/3a1cd9bb-c0da-4d66-9338-1f284
 </dl>
 </td>
 <td width="60%">
-Identifies the <a href="https://msdn.microsoft.com/1c7b8137-bf74-486c-a90e-6becfec5ddc8">PFN_WdsTransportClientSessionComplete</a> callback. This callback is required.
+Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nc-wdstci-pfn_wdstransportclientsessioncomplete">PFN_WdsTransportClientSessionComplete</a> callback. This callback is required.
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ Identifies the <a href="https://msdn.microsoft.com/1c7b8137-bf74-486c-a90e-6becf
 </dl>
 </td>
 <td width="60%">
-Identifies the <a href="https://msdn.microsoft.com/9acde77b-5360-4c55-b11d-bf85e5c8d00e">PFN_WdsTransportClientReceiveMetadata</a> callback. This callback is optional.
+Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nc-wdstci-pfn_wdstransportclientreceivemetadata">PFN_WdsTransportClientReceiveMetadata</a> callback. This callback is optional.
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 
 
-All callbacks must be registered with the client before the consumer calls <a href="https://msdn.microsoft.com/aa89899f-8f50-4617-84a1-4013412f0292">WdsTransportClientStartSession</a>.  Once the session is started, no further callbacks may be registered. 
+All callbacks must be registered with the client before the consumer calls <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nf-wdstci-wdstransportclientstartsession">WdsTransportClientStartSession</a>.  Once the session is started, no further callbacks may be registered. 
 
 
 

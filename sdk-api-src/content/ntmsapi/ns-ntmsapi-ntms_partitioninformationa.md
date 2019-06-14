@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<a href="https://msdn.microsoft.com/af7186f8-7921-48e3-a4fd-23259a6e9018">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>NTMS_PARTITIONINFORMATION</b> structure defines the properties specific to the side object.
@@ -170,7 +170,7 @@ The media is waiting for a free label to be applied.
 </td>
 <td width="60%">
 The side has been reserved by the 
-<a href="https://msdn.microsoft.com/a0afe0ca-61ad-4ac8-8e3e-4a7e9ddd6600">AllocateNtmsMedia</a> function with the <i>dwOption</i> parameter set to NTMS_ALLOCATE_NEW.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/media">AllocateNtmsMedia</a> function with the <i>dwOption</i> parameter set to NTMS_ALLOCATE_NEW.
 
 </td>
 </tr>
@@ -224,7 +224,7 @@ Number bytes of storage available on this side.
 
 The 
 <b>NTMS_PARTITIONINFORMATION</b> structure is included in the 
-<a href="https://msdn.microsoft.com/56e3380b-47c7-4861-bb2b-31d67ac10fe1">NTMS_OBJECTINFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
 
 
 
@@ -234,7 +234,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/56e3380b-47c7-4861-bb2b-31d67ac10fe1">NTMS_OBJECTINFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
  
 
  

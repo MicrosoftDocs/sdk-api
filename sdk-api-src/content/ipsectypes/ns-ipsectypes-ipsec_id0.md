@@ -69,12 +69,12 @@ Optional extended mode target SPN.
 
 ### -field numTokens
 
-Optional.  Number of <a href="https://msdn.microsoft.com/12adf88e-05c7-4e08-bbf7-6da529387af1">IPSEC_TOKEN0</a> structures present in the <b>tokens</b> member.
+Optional.  Number of <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_token0_">IPSEC_TOKEN0</a> structures present in the <b>tokens</b> member.
 
 
 ### -field tokens
 
-Optional array of <a href="https://msdn.microsoft.com/12adf88e-05c7-4e08-bbf7-6da529387af1">IPSEC_TOKEN0</a> structures.
+Optional array of <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_token0_">IPSEC_TOKEN0</a> structures.
 
 
 ### -field explicitCredentials
@@ -91,7 +91,7 @@ Unused parameter. This should always be 0.
 
 
 
-<b>IPSEC_ID0</b> is a specific implementation of IPSEC_ID. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>IPSEC_ID0</b> is a specific implementation of IPSEC_ID. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -101,7 +101,7 @@ Unused parameter. This should always be 0.
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

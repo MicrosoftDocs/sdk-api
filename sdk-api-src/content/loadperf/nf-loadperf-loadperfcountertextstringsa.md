@@ -80,7 +80,7 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is one of the 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 
 
@@ -89,7 +89,7 @@ If the function fails, the return value is one of the
 
 
 
-This function provides an API to the functionality provided by the <b>Lodctr</b> tool. For information on <b>Lodctr</b>, see <a href="https://msdn.microsoft.com/6fdaccb0-45bc-48f2-8f63-3df0bdf1dca4">Adding Counter Names and Descriptions to the Registry</a>.
+This function provides an API to the functionality provided by the <b>Lodctr</b> tool. For information on <b>Lodctr</b>, see <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/adding-counter-names-and-descriptions-to-the-registry">Adding Counter Names and Descriptions to the Registry</a>.
 
 
 
@@ -99,7 +99,7 @@ This function provides an API to the functionality provided by the <b>Lodctr</b>
 
 
 
-<a href="https://msdn.microsoft.com/f78858ca-d8d0-4178-9f9a-731b89cf5a61">UnloadPerfCounterTextStrings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/loadperf/nf-loadperf-unloadperfcountertextstringsa">UnloadPerfCounterTextStrings</a>
  
 
  

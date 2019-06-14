@@ -54,7 +54,7 @@ Exposes a method that determines whether a window that is launched by another wi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INewWindowManager</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>INewWindowManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INewWindowManager</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INewWindowManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>INewWindowManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0721298f-99c2-463b-8ffa-7527844dcab4">EvaluateNewWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inewwindowmanager-evaluatenewwindow">EvaluateNewWindow</a>
 </td>
 <td align="left" width="63%">
 Accepts data about a new window that is attempting to display and determines whether that window should be allowed to open based on the user's preferences.
@@ -84,9 +84,9 @@ Accepts data about a new window that is attempting to display and determines whe
 
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
-Implement <b>INewWindowManager</b> when your application hosts a <a href="https://msdn.microsoft.com/library/Aa752040(v=VS.85).aspx">WebBrowser</a> control and you want to include pop-up management functionality.
+Implement <b>INewWindowManager</b> when your application hosts a <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa752040(v=vs.85)">WebBrowser</a> control and you want to include pop-up management functionality.
 
-When you implement <b>INewWindowManager</b>, you can override some or all of the Windows Internet Explorer pop-up blocking logic. To use the default Internet Explorer pop-up blocking logic, implement <a href="https://msdn.microsoft.com/0721298f-99c2-463b-8ffa-7527844dcab4">INewWindowManager::EvaluateNewWindow</a> to return E_FAIL. This instructs the <a href="https://msdn.microsoft.com/library/Aa752040(v=VS.85).aspx">WebBrowser</a> control to use the default Internet Explorer implementation. Alternately, the application hosting the WebBrowser control can call <a href="https://msdn.microsoft.com/library/ms537168(v=VS.85).aspx">CoInternetSetFeatureEnabled</a> with the <b>FEATURE_WEBOC_POPUPMANAGEMENT</b> flag for the same result.
+When you implement <b>INewWindowManager</b>, you can override some or all of the Windows Internet Explorer pop-up blocking logic. To use the default Internet Explorer pop-up blocking logic, implement <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inewwindowmanager-evaluatenewwindow">INewWindowManager::EvaluateNewWindow</a> to return E_FAIL. This instructs the <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa752040(v=vs.85)">WebBrowser</a> control to use the default Internet Explorer implementation. Alternately, the application hosting the WebBrowser control can call <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537168(v=vs.85)">CoInternetSetFeatureEnabled</a> with the <b>FEATURE_WEBOC_POPUPMANAGEMENT</b> flag for the same result.
 
 
 
@@ -96,7 +96,7 @@ When you implement <b>INewWindowManager</b>, you can override some or all of the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms537168(v=VS.85).aspx">CoInternetSetFeatureEnabled</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537168(v=vs.85)">CoInternetSetFeatureEnabled</a>
  
 
  

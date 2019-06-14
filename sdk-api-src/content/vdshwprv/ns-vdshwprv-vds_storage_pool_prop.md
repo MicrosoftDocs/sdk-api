@@ -50,9 +50,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
-Defines the properties of a <a href="https://msdn.microsoft.com/a6104742-3ef9-4570-9728-3e6580953117">storage pool object</a>.
+Defines the properties of a <a href="https://docs.microsoft.com/windows/desktop/VDS/storage-pool-object">storage pool object</a>.
 
 
 ## -struct-fields
@@ -62,17 +62,17 @@ Defines the properties of a <a href="https://msdn.microsoft.com/a6104742-3ef9-45
 
 ### -field id
 
-A <a href="https://msdn.microsoft.com/f17e8c7e-e3cb-49ca-9060-2299dda55770">VDS_OBJECT_ID</a> value that identifies the storage pool object.
+A <a href="https://docs.microsoft.com/windows/desktop/VDS/vds-data-types">VDS_OBJECT_ID</a> value that identifies the storage pool object.
 
 
 ### -field status
 
-A <a href="https://msdn.microsoft.com/b2af30c8-116c-4e51-bffc-0dee9a4bd04e">VDS_STORAGE_POOL_STATUS</a> enumeration value that specifies the status of the storage pool.
+A <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_storage_pool_status">VDS_STORAGE_POOL_STATUS</a> enumeration value that specifies the status of the storage pool.
 
 
 ### -field health
 
-A <a href="https://msdn.microsoft.com/c65d9266-d691-4711-8225-a442e90d8ba3">VDS_HEALTH</a> enumeration value that specifies the health of the storage pool. The following are the valid values for this member.
+A <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_health">VDS_HEALTH</a> enumeration value that specifies the health of the storage pool. The following are the valid values for this member.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b><b>VDS_H_DEGRADED</b> is not supported.
 
@@ -91,7 +91,7 @@ A <a href="https://msdn.microsoft.com/c65d9266-d691-4711-8225-a442e90d8ba3">VDS_
 
 ### -field type
 
-A <a href="https://msdn.microsoft.com/813d3452-46ad-4f7a-ab53-e3f6577b00ba">VDS_STORAGE_POOL_TYPE</a> enumeration value that specifies the type of the storage pool.
+A <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_storage_pool_type">VDS_STORAGE_POOL_TYPE</a> enumeration value that specifies the type of the storage pool.
 
 
 ### -field pwszName
@@ -106,7 +106,7 @@ A string that contains a description of the storage pool.
 
 ### -field ullTotalConsumedSpace
 
-The amount of physical storage backing  the storage pool, in bytes. The value of this member must be less than or equal to the value of the <b>ullProvisionedSpace</b> member of the <a href="https://msdn.microsoft.com/3dfbd3d9-ec2e-44ac-9d0f-7aa6c530db18">VDS_POOL_ATTRIBUTES</a> structure.
+The amount of physical storage backing  the storage pool, in bytes. The value of this member must be less than or equal to the value of the <b>ullProvisionedSpace</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_pool_attributes">VDS_POOL_ATTRIBUTES</a> structure.
 
 
 ### -field ullTotalManagedSpace
@@ -132,7 +132,7 @@ The maximum size that may be used to create new LUNs or child storage pools from
 
 
 
-The <a href="https://msdn.microsoft.com/9c37b5b1-4958-4b63-ba30-65b394dd05b7">IVdsStoragePool::GetProperties</a> returns this structure to report the properties of a <a href="https://msdn.microsoft.com/a6104742-3ef9-4570-9728-3e6580953117">storage pool object</a>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsstoragepool-getproperties">IVdsStoragePool::GetProperties</a> returns this structure to report the properties of a <a href="https://docs.microsoft.com/windows/desktop/VDS/storage-pool-object">storage pool object</a>.
 
 The following examples show how the <b>ullTotalConsumedSpace</b>, <b>ullTotalManagedSpace</b>, and <b>ullRemainingFreeSpace</b> members work together.
 
@@ -178,7 +178,7 @@ Suppose you have 2 drives of 1 TB each. Suppose further that you do the followin
 
 
 
-<a href="https://msdn.microsoft.com/9c37b5b1-4958-4b63-ba30-65b394dd05b7">IVdsStoragePool::GetProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsstoragepool-getproperties">IVdsStoragePool::GetProperties</a>
  
 
  

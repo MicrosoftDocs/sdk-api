@@ -59,12 +59,12 @@ The <b>DrtGetSearchResult</b> function allows the caller to retrieve the search 
 
 ### -param hSearchContext [in]
 
-Handle to the search context to close. This parameter is returned by the <a href="https://msdn.microsoft.com/d43634d5-eb0a-4f84-9248-977c544db984">DrtStartSearch</a> function.
+Handle to the search context to close. This parameter is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtstartsearch">DrtStartSearch</a> function.
 
 
 ### -param ulSearchResultSize [out]
 
-Pointer to the <a href="https://msdn.microsoft.com/23cf713e-2730-456c-a3da-649c5ed00ffb">DRT_SEARCH_RESULT</a> structure containing the search result.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_search_result_tag">DRT_SEARCH_RESULT</a> structure containing the search result.
 
 
 ### -param pSearchResult
@@ -92,7 +92,7 @@ This function returns S_OK on success. Other possible values include:
 </dl>
 </td>
 <td width="60%">
-<i>ulSearchPathSize</i>  is less than the  size of <a href="https://msdn.microsoft.com/23cf713e-2730-456c-a3da-649c5ed00ffb">DRT_SEARCH_RESULT</a>.
+<i>ulSearchPathSize</i>  is less than the  size of <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_search_result_tag">DRT_SEARCH_RESULT</a>.
 
 </td>
 </tr>
@@ -173,7 +173,7 @@ The search is currently in progress.
 
 
 
-<a href="https://msdn.microsoft.com/d43634d5-eb0a-4f84-9248-977c544db984">DrtStartSearch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtstartsearch">DrtStartSearch</a>
  
 
  

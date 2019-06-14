@@ -120,7 +120,7 @@ One or more of the parameters are invalid.
 </td>
 <td width="60%">
 The buffer pointed to by <i>lpszName</i> is too small to hold the requested name. 
-         <a href="https://msdn.microsoft.com/711a193f-de29-4e90-adf1-6dc6e95c0c61">GetClusterName</a> returns the 
+         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusterdatainfo-getclustername">GetClusterName</a> returns the 
          required number of characters in the content of <i>pcchName</i>.
 
 </td>
@@ -148,7 +148,7 @@ If the <i>lpszName</i> parameter is set to <b>NULL</b> and the
 
 
 
-<a href="https://msdn.microsoft.com/a2800ac8-a865-4e66-8147-90e95b54cb0c">IGetClusterDataInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclusterdatainfo">IGetClusterDataInfo</a>
  
 
  

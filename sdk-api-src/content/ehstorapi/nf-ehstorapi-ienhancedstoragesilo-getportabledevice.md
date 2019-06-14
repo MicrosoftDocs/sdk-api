@@ -106,7 +106,7 @@ Pointer to <a href="http://go.microsoft.com/fwlink/p/?linkid=134792">IPortableDe
 
 
 
-<a href="https://msdn.microsoft.com/041e66d2-f772-407d-85f7-71f226c7ec4b">IEnhancedStorageSilo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstoragesilo">IEnhancedStorageSilo</a>
  
 
  

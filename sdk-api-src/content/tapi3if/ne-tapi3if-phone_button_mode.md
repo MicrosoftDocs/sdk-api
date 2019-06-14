@@ -93,11 +93,11 @@ Display button.
 
 
 
-<a href="https://msdn.microsoft.com/5b3173bf-1c79-4c5d-a2bc-3b3ae4f0ae8a">ITPhone::get_ButtonMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_buttonmode">ITPhone::get_ButtonMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/d2287c86-5884-4890-956c-fcc26c426cd3">ITPhone::put_ButtonMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-put_buttonmode">ITPhone::put_ButtonMode</a>
  
 
  

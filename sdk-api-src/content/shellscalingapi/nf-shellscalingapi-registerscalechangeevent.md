@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Registers for an event that is triggered when the scale has possibly changed. This function replaces <a href="https://msdn.microsoft.com/79FB0A54-EBF0-4aab-B631-B4D3EA54D20B">RegisterScaleChangeNotifications</a>.
+Registers for an event that is triggered when the scale has possibly changed. This function replaces <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-registerscalechangenotifications">RegisterScaleChangeNotifications</a>.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ Handle of the event to register for scale change notifications.
 
 ### -param pdwCookie [out]
 
-When this function returns successfully, this value receives the address of a pointer to a cookie that can be used later to unregister for the scale change notifications through <a href="https://msdn.microsoft.com/4BF2F912-857A-4122-A9E1-6704F92240E6">UnregisterScaleChangeEvent</a>.
+When this function returns successfully, this value receives the address of a pointer to a cookie that can be used later to unregister for the scale change notifications through <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-unregisterscalechangeevent">UnregisterScaleChangeEvent</a>.
 
 
 ## -returns
@@ -93,11 +93,11 @@ The event is raised whenever something that can affect scale changes, but just b
 
 
 
-<a href="https://msdn.microsoft.com/2F214512-704D-41A2-86A6-1EF880CD3DB4">GetScaleFactorForMonitor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-getscalefactorformonitor">GetScaleFactorForMonitor</a>
 
 
 
-<a href="https://msdn.microsoft.com/4BF2F912-857A-4122-A9E1-6704F92240E6">UnregisterScaleChangeEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-unregisterscalechangeevent">UnregisterScaleChangeEvent</a>
  
 
  

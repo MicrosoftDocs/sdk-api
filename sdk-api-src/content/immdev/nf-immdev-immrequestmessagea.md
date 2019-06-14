@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Generates a <a href="https://msdn.microsoft.com/c5e9f256-eed2-46cb-bb33-0e640a975f1f">WM_IME_REQUEST</a> message.
+Generates a <a href="https://docs.microsoft.com/windows/desktop/Intl/wm-ime-request">WM_IME_REQUEST</a> message.
 
 
 ## -parameters
@@ -66,12 +66,12 @@ Handle to the target input context.
 
 ### -param WPARAM [in]
 
-Value of the <i>wParam</i> parameter for the <a href="https://msdn.microsoft.com/c5e9f256-eed2-46cb-bb33-0e640a975f1f">WM_IME_REQUEST</a> message.
+Value of the <i>wParam</i> parameter for the <a href="https://docs.microsoft.com/windows/desktop/Intl/wm-ime-request">WM_IME_REQUEST</a> message.
 
 
 ### -param LPARAM [in]
 
-Value of the <i>lParam</i> parameter for the <a href="https://msdn.microsoft.com/c5e9f256-eed2-46cb-bb33-0e640a975f1f">WM_IME_REQUEST</a> message.
+Value of the <i>lParam</i> parameter for the <a href="https://docs.microsoft.com/windows/desktop/Intl/wm-ime-request">WM_IME_REQUEST</a> message.
 
 
 ## -returns
@@ -87,7 +87,7 @@ Returns an operation-specific value if successful, or 0 otherwise.
 
 
 
-IME must use this function instead of sending the <a href="https://msdn.microsoft.com/c5e9f256-eed2-46cb-bb33-0e640a975f1f">WM_IME_REQUEST</a> message to the application in a call to <a href="https://msdn.microsoft.com/en-us/library/ms714170(v=VS.85).aspx">SendMessage</a>.
+IME must use this function instead of sending the <a href="https://docs.microsoft.com/windows/desktop/Intl/wm-ime-request">WM_IME_REQUEST</a> message to the application in a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/oe/oe-ihttpmailtransport-sendmessage">SendMessage</a>.
 
 
 
@@ -97,15 +97,15 @@ IME must use this function instead of sending the <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/3e23e004-514a-4021-bd20-5ac55547258f">Input Method Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://msdn.microsoft.com/833c07eb-0ecf-41e2-9e01-8d83e51ffcef">Input Method Manager Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/c5e9f256-eed2-46cb-bb33-0e640a975f1f">WM_IME_REQUEST</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/wm-ime-request">WM_IME_REQUEST</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Registers an event handler for the <a href="https://msdn.microsoft.com/D1F04FA5-895E-4E86-9643-E880388DCDED">ConnectionStatusChanged</a> event.
+Registers an event handler for the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/connectionstatuschanged">ConnectionStatusChanged</a> event.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Registers an event handler for the <a href="https://msdn.microsoft.com/D1F04FA5-
 
 ### -param handler [in]
 
-A <a href="https://msdn.microsoft.com/ca659186-ae24-4823-b799-c96c84c5cfc1">ConnectionStatusHandler</a> event handler function.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828836(v=vs.85)">ConnectionStatusHandler</a> event handler function.
 
 
 ### -param token [out, retval]
@@ -99,7 +99,7 @@ The method succeeded.
 
 
 
-To unregister the event handler that was registered by this method, pass the <i>token</i> value to the <a href="https://msdn.microsoft.com/577D9C50-486D-441A-A9FE-AF79D1FC2B52">remove_ConnectionStatusChanged</a> method.
+To unregister the event handler that was registered by this method, pass the <i>token</i> value to the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice-remove-connectionstatuschanged">remove_ConnectionStatusChanged</a> method.
 
 
 
@@ -109,7 +109,7 @@ To unregister the event handler that was registered by this method, pass the <i>
 
 
 
-<a href="https://msdn.microsoft.com/E4F99A11-4ED5-44CB-BE16-CBB558412ED4">IBasicDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice">IBasicDevice</a>
  
 
  

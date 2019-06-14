@@ -54,7 +54,7 @@ Provides methods to monitor and debug a command list.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12DebugCommandList</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID3D12DebugCommandList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12DebugCommandList</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D12DebugCommandList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID3D12DebugCommandList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9190760D-B624-4E3E-8C33-B5D888895499">AssertResourceState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debugcommandlist-assertresourcestate">AssertResourceState</a>
 </td>
 <td align="left" width="63%">
 Checks whether a resource, or subresource, is in a specified state, or not.
@@ -78,7 +78,7 @@ Checks whether a resource, or subresource, is in a specified state, or not.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/98FE1D2C-648B-4689-BE52-A53C969D9281">GetFeatureMask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debugcommandlist-getfeaturemask">GetFeatureMask</a>
 </td>
 <td align="left" width="63%">
 Returns the debug feature flags that have been set on a command list.
@@ -88,7 +88,7 @@ Returns the debug feature flags that have been set on a command list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D2273A6C-7401-44D6-A0E3-F3F2C5DBCB8B">SetFeatureMask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debugcommandlist-setfeaturemask">SetFeatureMask</a>
 </td>
 <td align="left" width="63%">
 Turns the debug features for a command list on or off.
@@ -103,11 +103,11 @@ Turns the debug features for a command list on or off.
 
 
 
-<a href="https://msdn.microsoft.com/9BD5910A-8FF2-4540-BB8E-8EA5C10528CE">Debug Layer Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-sdklayers-interfaces">Debug Layer Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

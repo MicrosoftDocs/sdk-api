@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-<div class="alert"><b>Note</b>  This interface has been deprecated. It will continue to be supported for backward compatibility with existing applications, but new applications should use the <a href="https://msdn.microsoft.com/abdf6fb2-e98f-4df8-98ec-06d33798abb5">ICaptureGraphBuilder2</a> interface.</div>
+<div class="alert"><b>Note</b>  This interface has been deprecated. It will continue to be supported for backward compatibility with existing applications, but new applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icapturegraphbuilder2">ICaptureGraphBuilder2</a> interface.</div>
 <div> </div>
 The <code>ICaptureGraphBuilder</code> interface enables you to build capture graphs, preview graphs, file recompression graphs, or other custom graphs.
 
@@ -59,7 +59,7 @@ The <code>ICaptureGraphBuilder</code> interface enables you to build capture gra
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICaptureGraphBuilder</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ICaptureGraphBuilder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICaptureGraphBuilder</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICaptureGraphBuilder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>ICaptureGraphBuilder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/116ee108-ae03-4761-84db-9391ebddaae2">AllocCapFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icapturegraphbuilder-alloccapfile">AllocCapFile</a>
 </td>
 <td align="left" width="63%">
 Preallocates a capture file to a specified size.
@@ -83,7 +83,7 @@ Preallocates a capture file to a specified size.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8d7d3a4d-3071-4829-99df-f0bcc9197b38">ControlStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icapturegraphbuilder-controlstream">ControlStream</a>
 </td>
 <td align="left" width="63%">
 Sends stream control messages to the pin of the specified category on one or more capture filters in a graph.
@@ -92,7 +92,7 @@ Sends stream control messages to the pin of the specified category on one or mor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6eb4a3ed-6914-4839-ab1f-18510483ab49">CopyCaptureFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icapturegraphbuilder-copycapturefile">CopyCaptureFile</a>
 </td>
 <td align="left" width="63%">
 Copies the valid media data from the preallocated capture file.
@@ -101,7 +101,7 @@ Copies the valid media data from the preallocated capture file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/23fe9a5a-0f3b-44b3-9d37-6889214657bf">FindInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icapturegraphbuilder-findinterface">FindInterface</a>
 </td>
 <td align="left" width="63%">
 Looks for the specified interface on the filter, upstream and downstream from the filter, and, optionally, only on the output pin of the given category.
@@ -110,7 +110,7 @@ Looks for the specified interface on the filter, upstream and downstream from th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9cb43dca-79f1-4467-8e17-6f2a0b4db785">GetFiltergraph</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icapturegraphbuilder-getfiltergraph">GetFiltergraph</a>
 </td>
 <td align="left" width="63%">
 Retrieves the filter graph that the builder is using.
@@ -119,7 +119,7 @@ Retrieves the filter graph that the builder is using.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2b174f31-d7bb-4934-9d5b-2e4fd6ae8bf5">RenderStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icapturegraphbuilder-renderstream">RenderStream</a>
 </td>
 <td align="left" width="63%">
 Connects a source filter's pin, of an optionally specified category, to the rendering filter, and optionally through another filter.
@@ -128,7 +128,7 @@ Connects a source filter's pin, of an optionally specified category, to the rend
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/01cb7f09-6ff2-46c1-b6f2-76583785b242">SetFiltergraph</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icapturegraphbuilder-setfiltergraph">SetFiltergraph</a>
 </td>
 <td align="left" width="63%">
 Tells the graph builder object which filter graph to use.
@@ -137,7 +137,7 @@ Tells the graph builder object which filter graph to use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f410465f-c560-49ab-9194-66d708274f77">SetOutputFileName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icapturegraphbuilder-setoutputfilename">SetOutputFileName</a>
 </td>
 <td align="left" width="63%">
 Creates the rendering section of the filter graph, which will save bits to disk with the specified file name.
@@ -152,7 +152,7 @@ Creates the rendering section of the filter graph, which will save bits to disk 
 
 
 
-<a href="https://msdn.microsoft.com/5b798477-9b36-4f59-b9cc-2938b5e4009f">Deprecated Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/deprecated-interfaces">Deprecated Interfaces</a>
  
 
  

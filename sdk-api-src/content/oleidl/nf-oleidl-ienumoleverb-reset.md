@@ -82,7 +82,7 @@ There is no guarantee that the same set of objects will be enumerated after the 
 
 
 
-<a href="https://msdn.microsoft.com/fc9b3474-6f56-4274-af7d-72e0920c0457">IEnumOLEVERB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ienumoleverb">IEnumOLEVERB</a>
  
 
  

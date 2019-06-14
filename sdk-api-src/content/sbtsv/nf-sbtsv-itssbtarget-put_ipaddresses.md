@@ -72,7 +72,7 @@ This property is read/write.
 
 This property was formerly known as <b>TargetExternalIpAddresses</b> in Windows Server 2008 R2.
 
-If the number of external IP addresses is unknown, you can call this method with <i>sockaddr</i> set to <b>NULL</b>. The method will then return, in the <i>numAddresses</i> parameter, the number of <a href="https://msdn.microsoft.com/en-us/library/Ee351748(v=VS.85).aspx">TSSD_ConnectionPoint</a> structures necessary to receive all the external IP addresses. Allocate the array for <i>sockaddr</i> based on this number, and then call the method again, setting <i>sockaddr</i> to the newly allocated array and <i>numAddresses</i> to the number returned by the first call.
+If the number of external IP addresses is unknown, you can call this method with <i>sockaddr</i> set to <b>NULL</b>. The method will then return, in the <i>numAddresses</i> parameter, the number of <a href="https://docs.microsoft.com/windows/desktop/api/sessdirpublictypes/ns-sessdirpublictypes-__midl___midl_itf_sessdirpublictypes_0000_0000_0002">TSSD_ConnectionPoint</a> structures necessary to receive all the external IP addresses. Allocate the array for <i>sockaddr</i> based on this number, and then call the method again, setting <i>sockaddr</i> to the newly allocated array and <i>numAddresses</i> to the number returned by the first call.
 
 
 
@@ -82,15 +82,15 @@ If the number of external IP addresses is unknown, you can call this method with
 
 
 
-<a href="https://msdn.microsoft.com/bcb26b43-ec6e-4cc8-9d40-15a7a3a62582">ITsSbTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbtarget">ITsSbTarget</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f0f26fb-e8bc-47eb-8038-e51792ad4376">ITsSbTargetEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/TermServ/itssbtargetex">ITsSbTargetEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351748(v=VS.85).aspx">TSSD_ConnectionPoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sessdirpublictypes/ns-sessdirpublictypes-__midl___midl_itf_sessdirpublictypes_0000_0000_0002">TSSD_ConnectionPoint</a>
  
 
  

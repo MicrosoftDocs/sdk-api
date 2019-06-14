@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/4d6b1fc8-91b4-4a49-b3aa-ce719ca23d32">IRDPSRAPITcpConnectionInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitcpconnectioninfo">IRDPSRAPITcpConnectionInfo</a>
  
 
  

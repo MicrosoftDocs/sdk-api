@@ -67,7 +67,7 @@ The <b>Font::GetStyle</b> method gets the style of this font's typeface.
 Type: <strong>Type: <b>INT</b>
 </strong>
 
-This method returns a value that is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534124(v=VS.85).aspx">FontStyle</a> enumeration or the result of a bitwise 
+This method returns a value that is an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-fontstyle">FontStyle</a> enumeration or the result of a bitwise 
 						<b>OR</b> applied to two or more elements of the <b>FontStyle</b> enumeration. 
 
 
@@ -78,31 +78,31 @@ This method returns a value that is an element of the <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536193(v=VS.85).aspx">Font::GetFamily</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-font-getfamily">Font::GetFamily</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536202(v=VS.85).aspx">Font::GetHeight</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-font-getheight(inreal)">Font::GetHeight</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536197(v=VS.85).aspx">Font::GetSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-font-getsize">Font::GetSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536199(v=VS.85).aspx">Font::GetUnit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-font-getunit">Font::GetUnit</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534124(v=VS.85).aspx">FontStyle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-fontstyle">FontStyle</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533817(v=VS.85).aspx">Using Text and Fonts</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>
  
 
  

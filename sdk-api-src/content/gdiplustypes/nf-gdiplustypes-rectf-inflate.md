@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 <span>This topic lists the 
 			Inflate methods of the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a> class. For a complete list of methods for the 
-			<b>RectF</b> class, see <a href="https://msdn.microsoft.com/en-us/library/ms534931(v=VS.85).aspx">RectF Methods</a>. 
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a> class. For a complete list of methods for the 
+			<b>RectF</b> class, see <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-class-rectf-methods">RectF Methods</a>. 
 </span><h3>Overload list</h3><table>
 <tr>
 <th align="left" width="37%">Method</th>
@@ -60,19 +60,19 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534952(v=VS.85).aspx">Inflate(PointF&)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-inflate(inconstpointf_)">Inflate(PointF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534952(v=VS.85).aspx">RectF::Inflate</a><i>point</i>.<b>X</b><i>point</i>.<b>Y</b> on the top and bottom edges.
+The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-inflate(inconstpointf_)">RectF::Inflate</a><i>point</i>.<b>X</b><i>point</i>.<b>Y</b> on the top and bottom edges.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534953(v=VS.85).aspx">Inflate(REAL,REAL)</a>
+<a href="https://docs.microsoft.com/previous-versions//ms534953(v=vs.85)">Inflate(REAL,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534953(v=VS.85).aspx">RectF::Inflate</a><i>dx</i><i>dy</i> on the top and bottom edges.
+The <a href="https://docs.microsoft.com/previous-versions//ms534953(v=vs.85)">RectF::Inflate</a><i>dx</i><i>dy</i> on the top and bottom edges.
 
 </td>
 </tr>

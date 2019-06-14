@@ -67,7 +67,7 @@ A GUID that identifies which value to retrieve. The attribute type must be <b>MF
 
 ### -param ppwszValue [out]
 
-If the key is found and the value is a string type, this parameter receives a copy of the string. The caller must free the memory for the string by calling <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
+If the key is found and the value is a string type, this parameter receives a copy of the string. The caller must free the memory for the string by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
           
 
 
@@ -135,7 +135,7 @@ The attribute value is not a string.
 
 
 
-To copy a string value into a caller-allocated buffer, use the <a href="https://msdn.microsoft.com/756d8fba-d372-46f9-8035-f657d7ff133f">IMFAttributes::GetString</a> method.
+To copy a string value into a caller-allocated buffer, use the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getstring">IMFAttributes::GetString</a> method.
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -153,15 +153,15 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 
-<a href="https://msdn.microsoft.com/44af5e03-5f0a-4564-b9d6-b8c935df35b2">Attributes and Properties</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
 
 
 
-<a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/1844fbe2-0a07-4c0c-9ffe-4c59fc01f793">MF_ATTRIBUTE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-_mf_attribute_type">MF_ATTRIBUTE_TYPE</a>
  
 
  

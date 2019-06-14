@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the subtitle text for the header of a wizard's interior page. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774621(v=VS.85).aspx">PSM_SETHEADERSUBTITLE</a> message explicitly.
+Sets the subtitle text for the header of a wizard's interior page. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-setheadersubtitle">PSM_SETHEADERSUBTITLE</a> message explicitly.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Sets the subtitle text for the header of a wizard's interior page. You can use t
 
 ### -param hDlg
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the wizard's window.
 
@@ -73,7 +73,7 @@ Zero-based index of the page.
 
 ### -param lpszText
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
 New header subtitle.
 
@@ -84,7 +84,7 @@ New header subtitle.
 
 If you specify the current page, it will immediately be repainted to display the new subtitle.
 
-<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PSH_AEROWIZARD</a>).</div>
+<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetheadera_v2">PSH_AEROWIZARD</a>).</div>
 <div> </div>
 
 
@@ -94,15 +94,15 @@ If you specify the current page, it will immediately be repainted to display the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774651(v=VS.85).aspx">PropSheet_HwndToIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-propsheet_hwndtoindex">PropSheet_HwndToIndex</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774653(v=VS.85).aspx">PropSheet_IdToIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-propsheet_idtoindex">PropSheet_IdToIndex</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774664(v=VS.85).aspx">PropSheet_PageToIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-propsheet_pagetoindex">PropSheet_PageToIndex</a>
 
 
 

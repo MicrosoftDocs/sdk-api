@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>MBN_SMS_STATUS_FLAG</b> enumerated type indicates the status of  a device's SMS message store.
 
-These enumerated values are used in a bitfield by the <a href="https://msdn.microsoft.com/9146d230-c96c-4d70-9bc5-e91896e19d35">MBN_SMS_STATUS_INFO</a> structure.
+These enumerated values are used in a bitfield by the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_sms_status_info">MBN_SMS_STATUS_INFO</a> structure.
 
 
 ## -enum-fields

@@ -128,7 +128,7 @@ An unspecified error occurred.
 
 
 
-This method is identical to <a href="https://msdn.microsoft.com/8a7a6de0-ab37-4764-8feb-82676e1e62ab">ISCPSecureExchange::TransferComplete</a> except that this method is called when transfer is completed within a transfer session.
+This method is identical to <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-transfercomplete">ISCPSecureExchange::TransferComplete</a> except that this method is called when transfer is completed within a transfer session.
 
 In that case, the secure content provider needs to know which device the transfer was completed for, so this method accepts a <i>pDevice</i> parameter.
 
@@ -140,11 +140,11 @@ In that case, the secure content provider needs to know which device the transfe
 
 
 
-<a href="https://msdn.microsoft.com/2617a6af-c91d-4416-8bef-fe69404e7c3f">ISCPSecureExchange3 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange3">ISCPSecureExchange3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a7a6de0-ab37-4764-8feb-82676e1e62ab">ISCPSecureExchange::TransferComplete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-transfercomplete">ISCPSecureExchange::TransferComplete</a>
  
 
  

@@ -76,7 +76,7 @@ This method can return one of these values.
 
 
 Memory for out parameters must be allocated using the COM function 
-<a href="https://msdn.microsoft.com/en-us/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>.
 
 
 
@@ -86,7 +86,7 @@ Memory for out parameters must be allocated using the COM function
 
 
 
-<a href="https://msdn.microsoft.com/39732334-f849-433b-a313-0c4a675bf408">ISnapinAbout</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-isnapinabout">ISnapinAbout</a>
  
 
  

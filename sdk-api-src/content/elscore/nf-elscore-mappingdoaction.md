@@ -59,7 +59,7 @@ Causes an ELS service to perform an action after text recognition has occurred. 
 
 ### -param pBag [in, out]
 
-Pointer to a <a href="https://msdn.microsoft.com/08e55e27-5118-40ea-b973-cea0b1c263da">MAPPING_PROPERTY_BAG</a> structure containing the results of a previous call to <a href="https://msdn.microsoft.com/49f30bdd-4612-423b-9913-9c35ad8a88d5">MappingRecognizeText</a>. This parameter cannot be set to <b>NULL</b>.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-_mapping_property_bag">MAPPING_PROPERTY_BAG</a> structure containing the results of a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingrecognizetext">MappingRecognizeText</a>. This parameter cannot be set to <b>NULL</b>.
 
 
 ### -param dwRangeIndex [in]
@@ -85,13 +85,13 @@ Returns S_OK if successful. The function returns an error HRESULT value if it do
 
 
 
-The application must precede the call to <b>MappingDoAction</b> with a call to <a href="https://msdn.microsoft.com/49f30bdd-4612-423b-9913-9c35ad8a88d5">MappingRecognizeText</a>.
+The application must precede the call to <b>MappingDoAction</b> with a call to <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingrecognizetext">MappingRecognizeText</a>.
 
-<div class="alert"><b>Warning</b>  The data referred to by the <i>pszText</i> and <i>pOptions</i> arguments passed to <a href="https://msdn.microsoft.com/49f30bdd-4612-423b-9913-9c35ad8a88d5">MappingRecognizeText</a> 
+<div class="alert"><b>Warning</b>  The data referred to by the <i>pszText</i> and <i>pOptions</i> arguments passed to <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingrecognizetext">MappingRecognizeText</a> 
 
 must remain valid until the property bag structure passed by <i>pBag</i> is freed via 
 
-<a href="https://msdn.microsoft.com/7e06e85d-109a-4c5f-be18-3750e25c4986">MappingFreePropertyBag</a>. This is because both synchronous and asynchronous calls to 
+<a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingfreepropertybag">MappingFreePropertyBag</a>. This is because both synchronous and asynchronous calls to 
 
 <b>MappingRecognizeText</b> and <b>MappingDoAction</b> will attempt to use the data passed to the initial 
 
@@ -105,19 +105,19 @@ call to <b>MappingRecognizeText</b>.</div>
 
 
 
-<a href="https://msdn.microsoft.com/90bc1757-ec94-425e-927f-9ae2e1ab8af8">Extended Linguistic Services</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/extended-linguistic-services">Extended Linguistic Services</a>
 
 
 
-<a href="https://msdn.microsoft.com/d62ab664-a75a-4d06-aefb-a3311ea7d4a7">Extended Linguistic Services Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/extended-linguistic-services-functions">Extended Linguistic Services Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/08e55e27-5118-40ea-b973-cea0b1c263da">MAPPING_PROPERTY_BAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-_mapping_property_bag">MAPPING_PROPERTY_BAG</a>
 
 
 
-<a href="https://msdn.microsoft.com/49f30bdd-4612-423b-9913-9c35ad8a88d5">MappingRecognizeText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingrecognizetext">MappingRecognizeText</a>
  
 
  

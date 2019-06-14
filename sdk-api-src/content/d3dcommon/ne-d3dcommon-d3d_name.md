@@ -175,14 +175,14 @@ This parameter signifies that the value is less than or equal to a reference val
 ### -field D3D_NAME_STENCIL_REF
 
 This parameter contains a stencil reference.
-            See <a href="https://msdn.microsoft.com/6E336623-9746-4872-ADC1-C5489F53D7AE">Shader Specified Stencil Reference Value</a>.
+            See <a href="https://docs.microsoft.com/windows/desktop/direct3d11/shader-specified-stencil-reference-value">Shader Specified Stencil Reference Value</a>.
           
 
 
 ### -field D3D_NAME_INNER_COVERAGE
 
 This parameter contains inner input coverage data.
-            See <a href="https://msdn.microsoft.com/83F223C0-9282-4149-86CF-471B88829F76">Conservative Rasterization</a>.
+            See <a href="https://docs.microsoft.com/windows/desktop/direct3d11/conservative-rasterization">Conservative Rasterization</a>.
           
 
 
@@ -299,14 +299,14 @@ This parameter signifies that the value is less than or equal to a reference val
 ### -field D3D11_NAME_STENCIL_REF
 
 This parameter contains a stencil reference.
-            See <a href="https://msdn.microsoft.com/6E336623-9746-4872-ADC1-C5489F53D7AE">Shader Specified Stencil Reference Value</a>.
+            See <a href="https://docs.microsoft.com/windows/desktop/direct3d11/shader-specified-stencil-reference-value">Shader Specified Stencil Reference Value</a>.
           
 
 
 ### -field D3D11_NAME_INNER_COVERAGE
 
 This parameter contains inner input coverage data.
-            See <a href="https://msdn.microsoft.com/83F223C0-9282-4149-86CF-471B88829F76">Conservative Rasterization</a>.
+            See <a href="https://docs.microsoft.com/windows/desktop/direct3d11/conservative-rasterization">Conservative Rasterization</a>.
           
 
 
@@ -320,7 +320,7 @@ This parameter contains barycentric coordinate data.
 
 
 
-The <b>D3D_NAME</b> values identify shader parameters that have <a href="https://msdn.microsoft.com/en-us/library/Bb509647(v=VS.85).aspx">predefined system-value</a> semantics. These values are used in a shader-signature description. For more information about shader-signature description, see <a href="https://msdn.microsoft.com/en-us/library/Ff476215(v=VS.85).aspx">D3D11_SIGNATURE_PARAMETER_DESC</a>.
+The <b>D3D_NAME</b> values identify shader parameters that have <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-semantics">predefined system-value</a> semantics. These values are used in a shader-signature description. For more information about shader-signature description, see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-_d3d11_signature_parameter_desc">D3D11_SIGNATURE_PARAMETER_DESC</a>.
         
 
 
@@ -331,11 +331,11 @@ The <b>D3D_NAME</b> values identify shader parameters that have <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/002154d5-74a6-48fb-b55f-8687e4505fc7">Common Version Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-common-enumerations">Common Version Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476215(v=VS.85).aspx">D3D11_SIGNATURE_PARAMETER_DESC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-_d3d11_signature_parameter_desc">D3D11_SIGNATURE_PARAMETER_DESC</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns a <a href="https://msdn.microsoft.com/5f8f4515-1cf4-4060-813b-c746649c5c40">DXVA2_Fixed32</a> structure that contains an opaque alpha value.
+Returns a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_fixed32">DXVA2_Fixed32</a> structure that contains an opaque alpha value.
 
 You can use this function for DirectX Video Acceleration (DXVA) operations that require alpha values expressed as fixed-point numbers.
 
@@ -65,7 +65,7 @@ You can use this function for DirectX Video Acceleration (DXVA) operations that 
 
 
 
-The function returns a <a href="https://msdn.microsoft.com/5f8f4515-1cf4-4060-813b-c746649c5c40">DXVA2_Fixed32</a> structure that contains an opaque alpha value.
+The function returns a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_fixed32">DXVA2_Fixed32</a> structure that contains an opaque alpha value.
 
 
 
@@ -75,15 +75,15 @@ The function returns a <a href="https://msdn.microsoft.com/5f8f4515-1cf4-4060-81
 
 
 
-<a href="https://msdn.microsoft.com/6929fa8b-3cab-4d4e-ab2a-a3059b00905f">DXVA2_VideoProcessBltParams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_videoprocessbltparams">DXVA2_VideoProcessBltParams</a>
 
 
 
-<a href="https://msdn.microsoft.com/040ade10-8573-4375-829d-938efa750a12">DXVA2_VideoSample</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_videosample">DXVA2_VideoSample</a>
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

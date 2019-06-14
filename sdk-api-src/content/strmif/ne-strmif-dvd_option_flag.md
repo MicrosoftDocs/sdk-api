@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>DVD_OPTION_FLAG</b> enumeration defines flags that control the behavior of the <a href="https://msdn.microsoft.com/3b2c01a2-d52c-4497-8fc9-d1113e8507e8">DVD Navigator Filter</a>. To set any of these flags, call <a href="https://msdn.microsoft.com/b3b28da8-b0cb-4d76-8184-93572e4b6d06">IDvdControl2::SetOption</a>.
+The <b>DVD_OPTION_FLAG</b> enumeration defines flags that control the behavior of the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator Filter</a>. To set any of these flags, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-setoption">IDvdControl2::SetOption</a>.
 
 
 
@@ -85,7 +85,7 @@ Specifies whether the DVD Navigator returns to the start of the disc when the gr
 
 The default value is <b>TRUE</b>.
 
-The default behavior is not always desirable, because the filter graph might be stopped unexpectedly. This can happen, for example, if the screen resolution changes, a screen saver starts, or the computer goes into suspended mode. In these situations, the user probably wants playback to restart from the same point. Typically, the application should set this flag to <b>FALSE</b> immediately before calling <a href="https://msdn.microsoft.com/b52a5fa7-96f8-4949-9cf0-2d526f23bee1">IMediaControl::Run</a>. It should set the flag to <b>TRUE</b> before calling <a href="https://msdn.microsoft.com/89e48d43-a31f-4912-98ff-36ba2069812d">IMediaControl::Stop</a> in response to an explicit user to command to stop playback.
+The default behavior is not always desirable, because the filter graph might be stopped unexpectedly. This can happen, for example, if the screen resolution changes, a screen saver starts, or the computer goes into suspended mode. In these situations, the user probably wants playback to restart from the same point. Typically, the application should set this flag to <b>FALSE</b> immediately before calling <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-run">IMediaControl::Run</a>. It should set the flag to <b>TRUE</b> before calling <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-stop">IMediaControl::Stop</a> in response to an explicit user to command to stop playback.
 
 
 ### -field DVD_NotifyParentalLevelChange
@@ -100,11 +100,11 @@ Specifies whether the DVD Navigator notifies the application when the parental l
 </tr>
 <tr>
 <td><b>TRUE</b></td>
-<td>If the DVD Navigator reaches a temporary parental management level command, it sends the application an <a href="https://msdn.microsoft.com/c6817e1a-f860-4ba2-9e0f-e195624230c5">EC_DVD_PARENTAL_LEVEL_CHANGE</a> event. It blocks playback until it the application responds by calling <a href="https://msdn.microsoft.com/a990544e-6600-44b1-91f2-8b88fa43ccaf">IDvdControl2::AcceptParentalLevelChange</a>.</td>
+<td>If the DVD Navigator reaches a temporary parental management level command, it sends the application an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-parental-level-change">EC_DVD_PARENTAL_LEVEL_CHANGE</a> event. It blocks playback until it the application responds by calling <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-acceptparentallevelchange">IDvdControl2::AcceptParentalLevelChange</a>.</td>
 </tr>
 <tr>
 <td><b>FALSE</b></td>
-<td>When the DVD Navigator encounters a temporary parental management level command and the current parental level is too low, the Navigator automatically rejects the command and branches to whatever path the disc specifies. The Navigator sends an <a href="https://msdn.microsoft.com/c6817e1a-f860-4ba2-9e0f-e195624230c5">EC_DVD_PARENTAL_LEVEL_CHANGE</a> event indicating the required level. The application can stop playback, put up a password dialog box, and restart playback so that it can succeed on the next attempt.</td>
+<td>When the DVD Navigator encounters a temporary parental management level command and the current parental level is too low, the Navigator automatically rejects the command and branches to whatever path the disc specifies. The Navigator sends an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-parental-level-change">EC_DVD_PARENTAL_LEVEL_CHANGE</a> event indicating the required level. The application can stop playback, put up a password dialog box, and restart playback so that it can succeed on the next attempt.</td>
 </tr>
 </table>
  
@@ -126,18 +126,18 @@ Specifies the format for timecode information.
 </tr>
 <tr>
 <td><b>TRUE</b></td>
-<td>The DVD Navigator sends all timecode information using the <a href="https://msdn.microsoft.com/8f2990f6-a8f5-4b16-ae30-d51ea55496ea">DVD_HMSF_TIMECODE</a> structure.</td>
+<td>The DVD Navigator sends all timecode information using the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_hmsf_timecode">DVD_HMSF_TIMECODE</a> structure.</td>
 </tr>
 <tr>
 <td><b>FALSE</b></td>
-<td>The DVD Navigator sends timecode information using binary coded decimal (BCD) format, which is defined in the <a href="https://msdn.microsoft.com/7ad0b11e-5bb7-426f-9a2c-fbc34b2f45b4">DVD_TIMECODE</a> structure. </td>
+<td>The DVD Navigator sends timecode information using binary coded decimal (BCD) format, which is defined in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_timecode">DVD_TIMECODE</a> structure. </td>
 </tr>
 </table>
  
 
 
 
-For backward compatibility, the default value is <b>FALSE</b>, but the <a href="https://msdn.microsoft.com/8f2990f6-a8f5-4b16-ae30-d51ea55496ea">DVD_HMSF_TIMECODE</a> format is easier to use.
+For backward compatibility, the default value is <b>FALSE</b>, but the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_hmsf_timecode">DVD_HMSF_TIMECODE</a> format is easier to use.
 
 
 ### -field DVD_AudioDuringFFwdRew
@@ -184,7 +184,7 @@ If this flag is <b>FALSE</b>, certain DVD Navigator functions block until the DV
 
 If this flag is <b>TRUE</b>, those functions no longer block. Instead, if the DVD Navigator cannot complete the operation immediately, the function returns <b>VFW_E_DVD_NONBLOCKING</b>. If the application sets this flag to <b>TRUE</b>, it must handle the <b>VFW_E_DVD_NONBLOCKING</b> error code. Usually the correct behavior is to poll the function until the function succeeds or returns some other error code.
 
-This flag affects at least the following methods: <a href="https://msdn.microsoft.com/ff9eb02c-09c0-4b58-8e38-ec84ab1f1c42">IDvdControl2::ActivateAtPosition</a>, <a href="https://msdn.microsoft.com/f6cb9cb4-0792-43f5-b53b-02a38ccf0398">IDvdControl2::SelectAtPosition</a>, <a href="https://msdn.microsoft.com/54005c07-1689-411c-88a9-bcd19cc065dd">IDvdInfo2::GetCurrentLocation</a>, <a href="https://msdn.microsoft.com/403add2b-3dfd-436d-8184-7a14f30f6ea3">IDvdInfo2::GetState</a>. This list may be expanded in the future.
+This flag affects at least the following methods: <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-activateatposition">IDvdControl2::ActivateAtPosition</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-selectatposition">IDvdControl2::SelectAtPosition</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getcurrentlocation">IDvdInfo2::GetCurrentLocation</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getstate">IDvdInfo2::GetState</a>. This list may be expanded in the future.
 
 
 ### -field DVD_CacheSizeInMB
@@ -194,7 +194,7 @@ This flag affects at least the following methods: <a href="https://msdn.microsof
 <div> </div>
 
 
-Specifies how much data the DVD Navigator reads in advance, in MB. For this flag, the <i>bEnable</i> parameter of <a href="https://msdn.microsoft.com/b3b28da8-b0cb-4d76-8184-93572e4b6d06">SetOption</a> is interpreted as a <b>DWORD</b> value, rather than a Boolean.
+Specifies how much data the DVD Navigator reads in advance, in MB. For this flag, the <i>bEnable</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-setoption">SetOption</a> is interpreted as a <b>DWORD</b> value, rather than a Boolean.
 
 If the application sets this flag to a large value (&gt; 50 MB), the DVD drive may spin down after the initial pre-fetch, depending on the hardware.
 
@@ -217,7 +217,7 @@ You can also set the cache size by creating the following registry key: <code>HK
 </tr>
 <tr>
 <td><b>TRUE</b></td>
-<td>DVD bookmarks can be used on another computer. See <a href="https://msdn.microsoft.com/65180fe2-0faf-47c0-bccd-728e01056c46">Saving and Restoring DvdState Objects</a>.</td>
+<td>DVD bookmarks can be used on another computer. See <a href="https://docs.microsoft.com/windows/desktop/DirectShow/saving-and-restoring-dvdstate-objects">Saving and Restoring DvdState Objects</a>.</td>
 </tr>
 <tr>
 <td><b>FALSE</b></td>
@@ -239,13 +239,13 @@ The default value is <b>FALSE</b>.
 <div> </div>
 
 
-If this flag <b>TRUE</b>, the DVD Navigator supports an extended set of errors related to copy protection failures. These errors are conveyed through the <a href="https://msdn.microsoft.com/2cd3e0c4-e2b7-4aa1-9f3c-9003eabfb08a">EC_DVD_ERROR</a> event, and include the following:
+If this flag <b>TRUE</b>, the DVD Navigator supports an extended set of errors related to copy protection failures. These errors are conveyed through the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-error">EC_DVD_ERROR</a> event, and include the following:
 
 <ul>
 <li>DVD_PB_STOPPED_CopyProtectOutputNotSupported</li>
 <li>DVD_PB_STOPPED_CopyProtectOutputFailure</li>
 </ul>
-(See <a href="https://msdn.microsoft.com/7f095629-9d44-4666-b14a-932122959f4e">DVD_PB_STOPPED</a>.)
+(See <a href="https://docs.microsoft.com/windows/desktop/api/dvdevcod/ne-dvdevcod-_tagdvd_pb_stopped">DVD_PB_STOPPED</a>.)
 
 If this flag is <b>FALSE</b>, all copy protection errors are reported using the general <b>DVD_PB_STOPPED_CopyProtectFailure</b> error code.
 
@@ -264,13 +264,13 @@ If this flag is <b>TRUE</b>, the following events are enabled:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/a500e86d-cd42-4716-9c57-828a72c4e1df">EC_DVD_PROGRAM_CELL_CHANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-program-cell-change">EC_DVD_PROGRAM_CELL_CHANGE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/80fcd059-6ab4-4116-ac3a-012c451237b3">EC_DVD_PROGRAM_CHAIN_CHANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-program-chain-change">EC_DVD_PROGRAM_CHAIN_CHANGE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/7b8849c8-c71e-44d6-b33a-8e80247bdb22">EC_DVD_TITLE_SET_CHANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-title-set-change">EC_DVD_TITLE_SET_CHANGE</a>
 </li>
 </ul>
 The default value for this flag is <b>FALSE</b>.
@@ -316,7 +316,7 @@ The default value is zero. These flags are intended for purposes. The recommende
 <div> </div>
 
 
-Enables or disables <i>streaming mode</i>. In streaming mode, bad blocks on the disc are skipped. The <a href="https://msdn.microsoft.com/3b2c01a2-d52c-4497-8fc9-d1113e8507e8">DVD Navigator</a> receives partially corrected data. This mode generally produces better results when playing scratched or damaged disks, because it results in brief video corruption, rather than long waits that block playback. The DVD drive must support streaming I/O.
+Enables or disables <i>streaming mode</i>. In streaming mode, bad blocks on the disc are skipped. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> receives partially corrected data. This mode generally produces better results when playing scratched or damaged disks, because it results in brief video corruption, rather than long waits that block playback. The DVD drive must support streaming I/O.
 
 The default value is <b>TRUE</b>.
 
@@ -329,7 +329,7 @@ The default value is <b>TRUE</b>.
 <div> </div>
 
 
-Enables the <a href="https://msdn.microsoft.com/14f9cfa3-5ef6-419c-9196-2e4060549c03">DVD Navigator</a> to output elementary streams. For more information, see the media types listed in the topic <a href="https://msdn.microsoft.com/14f9cfa3-5ef6-419c-9196-2e4060549c03">DVD Navigator Filter</a>.
+Enables the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/data-flow-in-the-dvd-navigator">DVD Navigator</a> to output elementary streams. For more information, see the media types listed in the topic <a href="https://docs.microsoft.com/windows/desktop/DirectShow/data-flow-in-the-dvd-navigator">DVD Navigator Filter</a>.
 
 The default value is <b>FALSE</b>.
 
@@ -352,11 +352,11 @@ The default value is <b>FALSE</b>.
 </tr>
 <tr>
 <td><b>TRUE</b></td>
-<td>The <a href="https://msdn.microsoft.com/4e901e14-9e98-4ca5-ae37-7a4564b187ab">IDvdInfo2::GetTitleAttributes</a> method returns the length of the title in the <a href="https://msdn.microsoft.com/e80baf09-93b7-4285-ac9a-af72cae137de">DVD_TitleAttributes</a> structure.</td>
+<td>The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-gettitleattributes">IDvdInfo2::GetTitleAttributes</a> method returns the length of the title in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_titlemainattributes">DVD_TitleAttributes</a> structure.</td>
 </tr>
 <tr>
 <td><b>FALSE</b></td>
-<td>The <a href="https://msdn.microsoft.com/4e901e14-9e98-4ca5-ae37-7a4564b187ab">GetTitleAttributes</a> method returns the title mode (karaoke mode or other mode) and not the title length.</td>
+<td>The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-gettitleattributes">GetTitleAttributes</a> method returns the title mode (karaoke mode or other mode) and not the title length.</td>
 </tr>
 </table>
  
@@ -391,22 +391,22 @@ If this flag is <b>TRUE</b>, the following events are enabled:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/9cdcb211-a9e3-4a15-81bd-7ada2b9d823a">EC_DVD_BeginNavigationCommands</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-beginnavigationcommands">EC_DVD_BeginNavigationCommands</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/3e0c400e-9ea5-458c-9eca-97d66a440590">EC_DVD_GPRM_Change</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-gprm-change">EC_DVD_GPRM_Change</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/95e502b6-330f-4bc7-8adc-851913987370">EC_DVD_NavigationCommand</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-navigationcommand">EC_DVD_NavigationCommand</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/266b6de1-740d-4b3d-8487-5a9570d6c852">EC_DVD_SPRM_Change</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-sprm-change">EC_DVD_SPRM_Change</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/e2e65007-7c34-4be4-86b9-9491061891e5">EC_DVD_VOBU_Offset</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-vobu-offset">EC_DVD_VOBU_Offset</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/25548c23-22f0-47cb-9062-273ad39d3007">EC_DVD_VOBU_Timestamp</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-vobu-timestamp">EC_DVD_VOBU_Timestamp</a>
 </li>
 </ul>
 The default value for this flag is <b>FALSE</b>.
@@ -420,7 +420,7 @@ The default value for this flag is <b>FALSE</b>.
 <div> </div>
 
 
-The maximum amount of data that the <a href="https://msdn.microsoft.com/3b2c01a2-d52c-4497-8fc9-d1113e8507e8">DVD Navigator</a> will read ahead in a single burst, in kilobytes. For this flag, the <i>bEnable</i> parameter of <a href="https://msdn.microsoft.com/b3b28da8-b0cb-4d76-8184-93572e4b6d06">SetOption</a> is interpreted as a <b>DWORD</b> value.
+The maximum amount of data that the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> will read ahead in a single burst, in kilobytes. For this flag, the <i>bEnable</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-setoption">SetOption</a> is interpreted as a <b>DWORD</b> value.
 
 The default value is 128 KB.
 
@@ -433,7 +433,7 @@ The default value is 128 KB.
 <div> </div>
 
 
-How often to perform burst reads into the cache, in milliseconds. For this flag, the <i>bEnable</i> parameter of <a href="https://msdn.microsoft.com/b3b28da8-b0cb-4d76-8184-93572e4b6d06">SetOption</a> is interpreted as a <b>DWORD</b> value.
+How often to perform burst reads into the cache, in milliseconds. For this flag, the <i>bEnable</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-setoption">SetOption</a> is interpreted as a <b>DWORD</b> value.
 
 The default value is 250 milliseconds.
 
@@ -522,11 +522,11 @@ The following table lists the default values for the Boolean flags.
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/b3b28da8-b0cb-4d76-8184-93572e4b6d06">IDvdControl2::SetOption</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-setoption">IDvdControl2::SetOption</a>
  
 
  

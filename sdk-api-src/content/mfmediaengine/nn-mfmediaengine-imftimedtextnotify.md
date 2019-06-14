@@ -54,7 +54,7 @@ Interface that defines callbacks  for Microsoft Media Foundation Timed Text noti
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTimedTextNotify</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFTimedTextNotify</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTimedTextNotify</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTimedTextNotify</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFTimedTextNotify</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/EE577250-2D75-4130-BA50-95D3E455A574">Cue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextnotify-cue">Cue</a>
 </td>
 <td align="left" width="63%">
 Called when a cue event occurs in a text track.
@@ -78,7 +78,7 @@ Called when a cue event occurs in a text track.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3658EE26-497D-4D33-BE68-572BCE1B28B1">Error</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextnotify-error">Error</a>
 </td>
 <td align="left" width="63%">
 Called when an error occurs in a text track.
@@ -87,7 +87,7 @@ Called when an error occurs in a text track.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2743B39A-7C57-418C-897F-5B4952840135">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextnotify-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the timed-text-notify object.
@@ -96,7 +96,7 @@ Resets the timed-text-notify object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/79F33B32-3C64-4E46-A94E-D0C1BB695AC5">TrackAdded</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextnotify-trackadded">TrackAdded</a>
 </td>
 <td align="left" width="63%">
 Called when a text track is added
@@ -105,7 +105,7 @@ Called when a text track is added
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6C88C832-5C18-4196-B142-4E398D498A36">TrackRemoved</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextnotify-trackremoved">TrackRemoved</a>
 </td>
 <td align="left" width="63%">
 Called when a text track is removed.
@@ -114,7 +114,7 @@ Called when a text track is removed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C4757863-3D92-4D49-A2CA-8AD7C65461E6">TrackSelected</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextnotify-trackselected">TrackSelected</a>
 </td>
 <td align="left" width="63%">
 Called when a track is selected or deselected.
@@ -129,7 +129,7 @@ Called when a track is selected or deselected.
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

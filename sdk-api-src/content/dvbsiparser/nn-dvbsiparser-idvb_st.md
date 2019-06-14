@@ -53,7 +53,7 @@ ms.custom: 19H1
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
 
-The <b>IDVB_ST</b> interface enables the client to get information from a stuffing table (ST). The <a href="https://msdn.microsoft.com/417f7651-dd6f-4399-8a32-d1b7505efb71">IDvbSiParser::GetST</a> method returns a pointer to this interface.
+The <b>IDVB_ST</b> interface enables the client to get information from a stuffing table (ST). The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-getst">IDvbSiParser::GetST</a> method returns a pointer to this interface.
 
 The purpose of an ST is to invalidate existing table sections when the transport stream crosses the boundary between delivery systems. To invalidate a table section, the section is overwritten with an ST.
 
@@ -62,7 +62,7 @@ The purpose of an ST is to invalidate existing table sections when the transport
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVB_ST</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDVB_ST</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVB_ST</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDVB_ST</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IDVB_ST</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3afdafad-462c-4fad-a9c6-ec820bedf31a">GetData</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_st-getdata">GetData</a>
 </td>
 <td align="left" width="63%">
 Returns the data in the ST.
@@ -86,7 +86,7 @@ Returns the data in the ST.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6d42f147-b82d-4236-9e58-c42019d6b413">GetDataLength</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_st-getdatalength">GetDataLength</a>
 </td>
 <td align="left" width="63%">
 Returns the length of the data in the ST.
@@ -95,7 +95,7 @@ Returns the length of the data in the ST.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/eda69656-9e66-4366-84fe-e8ffecc93fc3">Initialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_st-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object.
@@ -110,7 +110,7 @@ Initializes the object.
 
 
 
-<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
  
 
  

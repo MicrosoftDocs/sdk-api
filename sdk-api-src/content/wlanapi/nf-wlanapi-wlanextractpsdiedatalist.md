@@ -59,7 +59,7 @@ The <b>WlanExtractPsdIEDataList</b> function extracts the proximity service disc
 
 ### -param hClientHandle [in]
 
-The client's session handle, obtained by a previous call to the <a href="https://msdn.microsoft.com/27bfa0c1-4443-47a4-a374-326f553fa3bb">WlanOpenHandle</a> function.
+The client's session handle, obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
 
 
 ### -param dwIeDataSize [in]
@@ -84,7 +84,7 @@ Reserved for future use.  Must be set to <b>NULL</b>.
 
 ### -param ppPsdIEDataList [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/e0e59abf-1a78-4c7f-b044-2d4c75328329">PWLAN_RAW_DATA_LIST</a> structure that contains the formatted data list.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_raw_data_list">PWLAN_RAW_DATA_LIST</a> structure that contains the formatted data list.
 
 
 ## -returns
@@ -154,7 +154,7 @@ Various error codes.
 
 
 
-For more information about PSD IEs, including a discussion of the format of an IE, see <a href="https://msdn.microsoft.com/eea402d3-9a5f-4446-bf6c-9ab8430f9c60">WlanSetPsdIEDataList</a>.
+For more information about PSD IEs, including a discussion of the format of an IE, see <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetpsdiedatalist">WlanSetPsdIEDataList</a>.
 
 
 
@@ -164,11 +164,11 @@ For more information about PSD IEs, including a discussion of the format of an I
 
 
 
-<a href="https://msdn.microsoft.com/e0e59abf-1a78-4c7f-b044-2d4c75328329">WLAN_RAW_DATA_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_raw_data_list">WLAN_RAW_DATA_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/eea402d3-9a5f-4446-bf6c-9ab8430f9c60">WlanSetPsdIEDataList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetpsdiedatalist">WlanSetPsdIEDataList</a>
  
 
  

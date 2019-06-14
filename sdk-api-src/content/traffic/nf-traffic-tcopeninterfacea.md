@@ -54,7 +54,7 @@ ms.custom: 19H1
 The 
 <b>TcOpenInterface</b> function opens an interface. The 
 <b>TcOpenInterface</b> function identifies and opens an interface based on its text string, which is available from a call to 
-<a href="https://msdn.microsoft.com/e6fbaa17-6b4b-45a2-baf7-898864a797b7">TcEnumerateInterfaces</a>. Once an interface is opened, the client must be prepared to receive notification regarding the open interface, through traffic control's use of the interface context.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcenumerateinterfaces">TcEnumerateInterfaces</a>. Once an interface is opened, the client must be prepared to receive notification regarding the open interface, through traffic control's use of the interface context.
 
 
 ## -parameters
@@ -65,13 +65,13 @@ The
 ### -param pInterfaceName [in]
 
 Pointer to the text string identifying the interface to be opened. This text string is part of the information returned in a previous call to 
-<a href="https://msdn.microsoft.com/e6fbaa17-6b4b-45a2-baf7-898864a797b7">TcEnumerateInterfaces</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcenumerateinterfaces">TcEnumerateInterfaces</a>.
 
 
 ### -param ClientHandle [in]
 
 Handle used by traffic control to identify the client, obtained through the <i>pClientHandle</i> parameter of the client's call to 
-<a href="https://msdn.microsoft.com/10bbc08d-4bfa-4a64-b5b8-b720d7bc3185">TcRegisterClient</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcregisterclient">TcRegisterClient</a>.
 
 
 ### -param ClIfcCtx [in]
@@ -169,15 +169,15 @@ Use of the
 
 
 
-<a href="https://msdn.microsoft.com/cacf4c21-d831-462c-b9e8-fd51fcf8e4e4">ClNotifyHandler</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_notify_handler">ClNotifyHandler</a>
 
 
 
-<a href="https://msdn.microsoft.com/e6fbaa17-6b4b-45a2-baf7-898864a797b7">TcEnumerateInterfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcenumerateinterfaces">TcEnumerateInterfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/10bbc08d-4bfa-4a64-b5b8-b720d7bc3185">TcRegisterClient</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcregisterclient">TcRegisterClient</a>
  
 
  

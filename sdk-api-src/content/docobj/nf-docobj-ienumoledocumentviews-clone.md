@@ -61,7 +61,7 @@ This method makes it possible to record a particular point in the enumeration se
 
 ### -param ppEnum [out]
 
-A pointer to the <a href="https://msdn.microsoft.com/cd8fa8b8-17b1-4d77-9611-473725899351">IEnumOleDocumentViews</a> interface pointer on the newly created enumerator. The caller must release this enumerator separately from the one from which it was cloned.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ienumoledocumentviews">IEnumOleDocumentViews</a> interface pointer on the newly created enumerator. The caller must release this enumerator separately from the one from which it was cloned.
 
 
 ## -returns
@@ -119,7 +119,7 @@ Insufficient memory available for this operation.
 
 
 
-<a href="https://msdn.microsoft.com/cd8fa8b8-17b1-4d77-9611-473725899351">IEnumOleDocumentViews</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ienumoledocumentviews">IEnumOleDocumentViews</a>
  
 
  

@@ -70,7 +70,7 @@ The <b>ISyncChangeBatch</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e7f83c35-754a-4211-b893-2df6f65266a6">AddLoggedConflict</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatch-addloggedconflict">AddLoggedConflict</a>
 </td>
 <td align="left" width="63%">
 Adds metadata that represents a conflict to the change batch.
@@ -80,7 +80,7 @@ Adds metadata that represents a conflict to the change batch.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8d44451a-9150-4b2c-b126-d4fa90c2e192">BeginUnorderedGroup</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatch-beginunorderedgroup">BeginUnorderedGroup</a>
 </td>
 <td align="left" width="63%">
 Opens an unordered group in the change batch. Item changes in this group can be in any order.
@@ -90,7 +90,7 @@ Opens an unordered group in the change batch. Item changes in this group can be 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ca9c37ca-6aa0-437d-b933-ca7d943e4ef2">EndUnorderedGroup</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatch-endunorderedgroup">EndUnorderedGroup</a>
 </td>
 <td align="left" width="63%">
 Closes a previously opened unordered group in the change batch.
@@ -115,23 +115,23 @@ Change batches are used by synchronization providers to communicate metadata for
 
 
 
-<a href="https://msdn.microsoft.com/b78bc885-ed4e-4c83-ad1b-043c5b226337">ISyncChangeBatchAdvanced Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchadvanced">ISyncChangeBatchAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/14ca01a1-04eb-4282-adf0-e775d6ff0801">ISyncChangeBatchBase Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/45f10ed0-b3ce-41f5-b2d9-9166bff2abec">ISyncChangeBatchBase2 Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase2">ISyncChangeBatchBase2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/29d767cf-3261-4550-8b28-5d3950b8ded1">ISyncChangeBatchWithPrerequisite Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchwithprerequisite">ISyncChangeBatchWithPrerequisite Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/2c185fe2-1bbe-4409-aea0-6e138430b304">Windows Sync Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
  
 
  

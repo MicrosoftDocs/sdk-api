@@ -55,7 +55,7 @@ The
 <b>SetService</b> function registers or removes from the registry a network service within one or more namespaces. The function can also add or remove a network service type within one or more namespaces.
 <div class="alert"><b>Note</b>  The 
 <b>SetService</b> function is obsolete. The functions detailed in 
-<a href="https://msdn.microsoft.com/f55219b9-1518-4b49-a0da-6a3fa025cca3">Protocol-Independent Name Resolution</a> provide equivalent functionality in Windows Sockets 2. For the convenience of Windows Sockets 1.1 developers, the reference material is as follows.</div><div> </div>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/protocol-independent-name-resolution-2">Protocol-Independent Name Resolution</a> provide equivalent functionality in Windows Sockets 2. For the convenience of Windows Sockets 1.1 developers, the reference material is as follows.</div><div> </div>
 
 ## -parameters
 
@@ -203,8 +203,8 @@ Add a service type to the namespace.
 
 
 For this operation, use the <b>ServiceSpecificInfo</b> member of the 
-<a href="https://msdn.microsoft.com/e76e0c1b-8cbf-45ad-a685-fb672801c24d">SERVICE_INFO</a> structure pointed to by <i>lpServiceInfo</i> to pass a 
-<a href="https://msdn.microsoft.com/9adf92b0-1268-48c1-91e4-d05ad696ff06">SERVICE_TYPE_INFO_ABS</a> structure. You must also set the <b>ServiceType</b> member of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_infoa">SERVICE_INFO</a> structure pointed to by <i>lpServiceInfo</i> to pass a 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_type_info_absa">SERVICE_TYPE_INFO_ABS</a> structure. You must also set the <b>ServiceType</b> member of the 
 <b>SERVICE_INFO</b> structure. Other 
 <b>SERVICE_INFO</b> members are ignored.
 
@@ -274,7 +274,7 @@ For example: If the operation involves deregistration in a namespace that uses a
 ### -param lpServiceInfo [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/e76e0c1b-8cbf-45ad-a685-fb672801c24d">SERVICE_INFO</a> structure that contains information about the network service or service type.
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_infoa">SERVICE_INFO</a> structure that contains information about the network service or service type.
 
 
 ### -param lpServiceAsyncInfo [in, optional]
@@ -313,7 +313,7 @@ One or more namespace providers were unable to successfully perform the requeste
 
 
 If the function fails, the return value is SOCKET_ERROR. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. <b>GetLastError</b> can return the following extended error value.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. <b>GetLastError</b> can return the following extended error value.
 
 <table>
 <tr>
@@ -343,23 +343,23 @@ The function tried to register a service that was already registered.
 
 
 
-<a href="https://msdn.microsoft.com/d09ffe2d-33c3-4ca3-bc99-d7d78fd83620">GetService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-getservicea">GetService</a>
 
 
 
-<a href="https://msdn.microsoft.com/e76e0c1b-8cbf-45ad-a685-fb672801c24d">SERVICE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_infoa">SERVICE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/9adf92b0-1268-48c1-91e4-d05ad696ff06">SERVICE_TYPE_INFO_ABS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_type_info_absa">SERVICE_TYPE_INFO_ABS</a>
 
 
 
-<a href="https://msdn.microsoft.com/edafb5f9-09fe-4f8e-9651-4002b6f622f4">Winsock Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/baae2bf9-f505-4365-b60e-e3247a0218c8">Winsock Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
  
 
  

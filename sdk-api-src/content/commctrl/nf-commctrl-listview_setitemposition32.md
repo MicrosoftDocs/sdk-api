@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Moves an item to a specified position in a list-view control (in icon or small icon view). This macro differs from the <a href="https://msdn.microsoft.com/en-us/library/Bb775098(v=VS.85).aspx">ListView_SetItemPosition</a> macro in that it uses 32-bit coordinates. You can use the <b>ListView_SetItemPosition32</b> macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761194(v=VS.85).aspx">LVM_SETITEMPOSITION32</a> message explicitly. 
+Moves an item to a specified position in a list-view control (in icon or small icon view). This macro differs from the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-listview_setitemposition">ListView_SetItemPosition</a> macro in that it uses 32-bit coordinates. You can use the <b>ListView_SetItemPosition32</b> macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setitemposition32">LVM_SETITEMPOSITION32</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Moves an item to a specified position in a list-view control (in icon or small i
 
 ### -param hwndLV
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control. 
 
@@ -90,7 +90,7 @@ New vertical coordinates of the item.
 
 
 
-<a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>
+<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>POLICY_INFORMATION_CLASS</b> enumeration  defines values that indicate the type of information to set or query in a <a href="https://msdn.microsoft.com/4253c7fb-85f5-441d-90bf-492e802ad0f8">Policy</a> object.
+The <b>POLICY_INFORMATION_CLASS</b> enumeration  defines values that indicate the type of information to set or query in a <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object.
 
 
 ## -enum-fields
@@ -65,7 +65,7 @@ This value is obsolete.
 ### -field PolicyAuditEventsInformation
 
 Query or set the auditing rules of the system. You can enable or disable auditing and specify the types of events that are audited. Use the 
-<a href="https://msdn.microsoft.com/3442e5e5-78cf-4bda-ba11-0f51ee40df16">POLICY_AUDIT_EVENTS_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_policy_audit_events_info">POLICY_AUDIT_EVENTS_INFO</a> structure.
 
 
 ### -field PolicyPrimaryDomainInformation
@@ -82,13 +82,13 @@ This value is obsolete.
 ### -field PolicyAccountDomainInformation
 
 Query or set the name and SID of the account domain of the system. Use the 
-<a href="https://msdn.microsoft.com/0e38ac5f-40db-405d-9394-b6bcb7c652b5">POLICY_ACCOUNT_DOMAIN_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_policy_account_domain_info">POLICY_ACCOUNT_DOMAIN_INFO</a> structure.
 
 
 ### -field PolicyLsaServerRoleInformation
 
 Query or set the role of an LSA server. Use the 
-<a href="https://msdn.microsoft.com/f66abe33-d8c8-45b8-9b94-d6890d786aaa">POLICY_LSA_SERVER_ROLE_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_policy_lsa_server_role_info">POLICY_LSA_SERVER_ROLE_INFO</a> structure.
 
 
 ### -field PolicyReplicaSourceInformation
@@ -104,7 +104,7 @@ This value is obsolete.
 ### -field PolicyModificationInformation
 
 Query or set information about the creation time and last modification of the LSA database. Use the 
-<a href="https://msdn.microsoft.com/ef4d1d1d-9b1b-4d67-80b8-2b548ec31a87">POLICY_MODIFICATION_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_policy_modification_info">POLICY_MODIFICATION_INFO</a> structure.
 
 
 ### -field PolicyAuditFullSetInformation
@@ -119,8 +119,8 @@ This value is obsolete.
 
 ### -field PolicyDnsDomainInformation
 
-Query or set Domain Name System (DNS) information about the account domain associated with a <a href="https://msdn.microsoft.com/4253c7fb-85f5-441d-90bf-492e802ad0f8">Policy</a> object. Use the 
-<a href="https://msdn.microsoft.com/5b2879cf-e0dc-4844-bfe8-bf45460285f1">POLICY_DNS_DOMAIN_INFO</a> structure. 
+Query or set Domain Name System (DNS) information about the account domain associated with a <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object. Use the 
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_policy_dns_domain_info">POLICY_DNS_DOMAIN_INFO</a> structure. 
 
 
 ### -field PolicyDnsDomainInformationInt
@@ -142,35 +142,35 @@ Query or set Domain Name System (DNS) information about the account domain assoc
 
 
 
-<a href="https://msdn.microsoft.com/2d543500-f639-4ef7-91f4-cdc5060dd567">LsaQueryInformationPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaqueryinformationpolicy">LsaQueryInformationPolicy</a>
 
 
 
-<a href="https://msdn.microsoft.com/2aa3b09e-2cd9-4a09-bfd6-b37c97266dcb">LsaSetInformationPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsasetinformationpolicy">LsaSetInformationPolicy</a>
 
 
 
-<a href="https://msdn.microsoft.com/0e38ac5f-40db-405d-9394-b6bcb7c652b5">POLICY_ACCOUNT_DOMAIN_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_policy_account_domain_info">POLICY_ACCOUNT_DOMAIN_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/3442e5e5-78cf-4bda-ba11-0f51ee40df16">POLICY_AUDIT_EVENTS_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_policy_audit_events_info">POLICY_AUDIT_EVENTS_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/5b2879cf-e0dc-4844-bfe8-bf45460285f1">POLICY_DNS_DOMAIN_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_policy_dns_domain_info">POLICY_DNS_DOMAIN_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/f66abe33-d8c8-45b8-9b94-d6890d786aaa">POLICY_LSA_SERVER_ROLE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_policy_lsa_server_role_info">POLICY_LSA_SERVER_ROLE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/ef4d1d1d-9b1b-4d67-80b8-2b548ec31a87">POLICY_MODIFICATION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_policy_modification_info">POLICY_MODIFICATION_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/20102da1-bc05-4ea5-9a2d-a50ecba5fd88">POLICY_PRIMARY_DOMAIN_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_policy_primary_domain_info">POLICY_PRIMARY_DOMAIN_INFO</a>
  
 
  

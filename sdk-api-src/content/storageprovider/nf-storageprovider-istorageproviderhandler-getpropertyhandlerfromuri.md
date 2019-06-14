@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an instance of <a href="https://msdn.microsoft.com/8CB56726-DABA-44A4-ADAE-DAD8ECB047E6">IStorageProviderPropertyHandler</a> associated with the provided URI.
+Gets an instance of <a href="https://docs.microsoft.com/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderpropertyhandler">IStorageProviderPropertyHandler</a> associated with the provided URI.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ The URI for the relevant file.
 
 ### -param propertyHandler [out]
 
-An <a href="https://msdn.microsoft.com/8CB56726-DABA-44A4-ADAE-DAD8ECB047E6">IStorageProviderPropertyHandler</a> instance associated with the file specified by <i>uri</i>.
+An <a href="https://docs.microsoft.com/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderpropertyhandler">IStorageProviderPropertyHandler</a> instance associated with the file specified by <i>uri</i>.
 
 
 ## -returns
@@ -90,7 +90,7 @@ This method is used to convert a remote URI to a local file system path. That pa
 
 
 
-<a href="https://msdn.microsoft.com/96DEA181-8506-4FCC-85E0-A2EF79BA6C6D">IStorageProviderHandler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderhandler">IStorageProviderHandler</a>
  
 
  

@@ -63,7 +63,7 @@ This property is read/write.
 
 
 
-The <a href="https://msdn.microsoft.com/40afc3d4-24e3-40ad-869a-0f8e90b70b97">IUpdateSearcher2</a> interface  may require you to update Windows Update Agent (WUA). For more information, see <a href="https://msdn.microsoft.com/829112ab-b240-4cc4-8053-18b484934886">Updating Windows Update Agent</a>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher2">IUpdateSearcher2</a> interface  may require you to update Windows Update Agent (WUA). For more information, see <a href="https://docs.microsoft.com/windows/desktop/Wua_Sdk/updating-the-windows-update-agent">Updating Windows Update Agent</a>.
 
 
 
@@ -73,7 +73,7 @@ The <a href="https://msdn.microsoft.com/40afc3d4-24e3-40ad-869a-0f8e90b70b97">IU
 
 
 
-<a href="https://msdn.microsoft.com/40afc3d4-24e3-40ad-869a-0f8e90b70b97">IUpdateSearcher2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher2">IUpdateSearcher2</a>
  
 
  

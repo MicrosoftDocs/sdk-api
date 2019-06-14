@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PEER_MEMBER_FLAGS</b> flag allows an application to specify whether all members or only present ones should be enumerated when the <a href="https://msdn.microsoft.com/1201ce0b-961a-4848-9b9c-ad6491e3ff4a">PeerGroupEnumMembers</a> function is called, or to indicate whether or not a member is present within the peer group.
+The <b>PEER_MEMBER_FLAGS</b> flag allows an application to specify whether all members or only present ones should be enumerated when the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupenummembers">PeerGroupEnumMembers</a> function is called, or to indicate whether or not a member is present within the peer group.
 
 
 ## -enum-fields
@@ -67,7 +67,7 @@ The member is present in the peer group.
 
 
 
-<a href="https://msdn.microsoft.com/1201ce0b-961a-4848-9b9c-ad6491e3ff4a">PeerGroupEnumMembers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupenummembers">PeerGroupEnumMembers</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 
 A constructor for <code>XMFLOAT3SE</code>.
 
-A constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419489(v=VS.85).aspx">XMFLOAT3SE</a>.
+A constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3se">XMFLOAT3SE</a>.
 
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
@@ -63,6 +63,6 @@ A value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419489(v=VS.85).aspx">XMFLOAT3SE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3se">XMFLOAT3SE</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415285(v=VS.85).aspx">XMFLOAT3SE Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmfloat3se-ctor">XMFLOAT3SE Constructors</a>

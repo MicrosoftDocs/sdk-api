@@ -54,7 +54,7 @@ Exposes methods that reconcile a given document. The briefcase reconciler is res
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IReconcilableObject</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IReconcilableObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IReconcilableObject</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IReconcilableObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,16 +69,16 @@ The <b>IReconcilableObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fdaa7f59-3aba-4a9e-b394-a76029ddab13">GetProgressFeedbackMaxEstimate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/reconcil/nf-reconcil-ireconcilableobject-getprogressfeedbackmaxestimate">GetProgressFeedbackMaxEstimate</a>
 </td>
 <td align="left" width="63%">
-Retrieves an estimated measurement of the amount of work required to complete a reconciliation. Reconcilers typically use this method to estimate the work needed to reconcile an embedded document. This value corresponds to a similar value that is passed with the <a href="https://msdn.microsoft.com/faa685f1-e203-4d8a-a1c3-d544b8e5271d">IReconcileInitiator::SetProgressFeedback</a> method during reconciliation. 
+Retrieves an estimated measurement of the amount of work required to complete a reconciliation. Reconcilers typically use this method to estimate the work needed to reconcile an embedded document. This value corresponds to a similar value that is passed with the <a href="https://docs.microsoft.com/previous-versions//bb761347(v=vs.85)">IReconcileInitiator::SetProgressFeedback</a> method during reconciliation. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6dfeb68e-fd23-4812-8a3c-ab27fc00a4ad">Reconcile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/reconcil/nf-reconcil-ireconcilableobject-reconcile">Reconcile</a>
 </td>
 <td align="left" width="63%">
 Reconciles the state of an object with one or more other objects. The reconciliation updates the internal state of the object by merging the states of all objects to form a combined state. 

@@ -88,7 +88,7 @@ Use the system default, which is to display all error dialog boxes.
 <td width="60%">
 The system does not display the critical-error-handler message box. Instead, the system sends the error to the calling thread.
 
-Best practice is  that all applications call the process-wide <a href="https://msdn.microsoft.com/b88f5577-9124-433c-a7e8-a7f713b7b27d">SetErrorMode</a> function with a parameter of <b>SEM_FAILCRITICALERRORS</b> at startup.  This is to prevent error mode dialogs from hanging the application.
+Best practice is  that all applications call the process-wide <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a> function with a parameter of <b>SEM_FAILCRITICALERRORS</b> at startup.  This is to prevent error mode dialogs from hanging the application.
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ The system does not display the Windows Error Reporting dialog.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/800f4d40-252a-44fe-b10d-348c22d69355">OpenFile</a> function does not display a message box when it fails to find a file. Instead, the error is returned to the caller. This error mode overrides the <b>OF_PROMPT</b> flag.
+The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openfile">OpenFile</a> function does not display a message box when it fails to find a file. Instead, the error is returned to the caller. This error mode overrides the <b>OF_PROMPT</b> flag.
 
 </td>
 </tr>
@@ -130,7 +130,7 @@ If the function succeeds, this parameter is set to the thread's previous error m
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -139,7 +139,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-Each process has an associated error mode that indicates to the system how the application is going to respond to serious errors. A thread inherits the error mode of the process in which it is running. To retrieve the process error mode, use the <a href="https://msdn.microsoft.com/7673e4ab-bfc8-4c47-b40a-0ae1b4ec5506">GetErrorMode</a> function. To retrieve the error mode of the calling thread, use the <a href="https://msdn.microsoft.com/246d838a-ba16-4ba4-8cd3-f25dfc7d2f23">GetThreadErrorMode</a> function.
+Each process has an associated error mode that indicates to the system how the application is going to respond to serious errors. A thread inherits the error mode of the process in which it is running. To retrieve the process error mode, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-geterrormode">GetErrorMode</a> function. To retrieve the error mode of the calling thread, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getthreaderrormode">GetThreadErrorMode</a> function.
 
 
 
@@ -149,11 +149,11 @@ Each process has an associated error mode that indicates to the system how the a
 
 
 
-<a href="https://msdn.microsoft.com/246d838a-ba16-4ba4-8cd3-f25dfc7d2f23">GetThreadErrorMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getthreaderrormode">GetThreadErrorMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/b88f5577-9124-433c-a7e8-a7f713b7b27d">SetErrorMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a>
  
 
  

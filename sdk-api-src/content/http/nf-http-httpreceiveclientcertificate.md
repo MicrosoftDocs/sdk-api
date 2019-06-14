@@ -61,16 +61,16 @@ The
 ### -param RequestQueueHandle [in]
 
 A handle to the request queue with which the specified SSL client or CBT is associated. A request queue is created and its handle returned by a call to the 
-<a href="https://msdn.microsoft.com/a0f4112e-db81-4eda-afeb-d00117f7240c">HttpCreateRequestQueue</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a> function.
 
-<b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>The handle to the request queue is created by the <a href="https://msdn.microsoft.com/c3741092-c23a-465f-9a65-5bcbf977fad3">HttpCreateHttpHandle</a> function.
+<b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>The handle to the request queue is created by the <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreatehttphandle">HttpCreateHttpHandle</a> function.
 
 
 ### -param ConnectionId [in]
 
 A value that identifies the connection to the client. This value is obtained from the <b>ConnectionId</b> element of an 
-<a href="https://msdn.microsoft.com/e592cf54-df6d-472b-a736-c44a5ccdd3d2">HTTP_REQUEST</a> structure filled in by the 
-<a href="https://msdn.microsoft.com/ad9e80f7-04c4-4108-a7ab-40eb57d00e3b">HttpReceiveHttpRequest</a> function.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a> structure filled in by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpreceivehttprequest">HttpReceiveHttpRequest</a> function.
 
 
 ### -param Flags [in]
@@ -102,10 +102,10 @@ This value is supported on Windows 7, Windows Server 2008 R2, and later.
 ### -param SslClientCertInfo [out]
 
 If the <i>Flags</i> parameter is 0, then this parameter points to an 
-<a href="https://msdn.microsoft.com/bfe6a9a9-6117-4403-a83f-e9448615500b">HTTP_SSL_CLIENT_CERT_INFO</a> structure into which the function writes the requested client certificate information. The buffer pointed to by the <i>pSslClientCertInfo</i> should be sufficiently large enough to hold the <b>HTTP_SSL_CLIENT_CERT_INFO</b> structure plus the value of the <b>CertEncodedSize</b> member of this structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_ssl_client_cert_info">HTTP_SSL_CLIENT_CERT_INFO</a> structure into which the function writes the requested client certificate information. The buffer pointed to by the <i>pSslClientCertInfo</i> should be sufficiently large enough to hold the <b>HTTP_SSL_CLIENT_CERT_INFO</b> structure plus the value of the <b>CertEncodedSize</b> member of this structure.
 
 If the <i>Flags</i> parameter is <b>HTTP_RECEIVE_SECURE_CHANNEL_TOKEN</b>, then this parameter points to an 
-<a href="https://msdn.microsoft.com/70f52486-2632-4e15-998b-4d87a86cb11f">HTTP_REQUEST_CHANNEL_BIND_STATUS</a> structure into which the function writes the requested CBT information. The buffer pointed to by the <i>pSslClientCertInfo</i> should be sufficiently large enough to hold the <b>HTTP_REQUEST_CHANNEL_BIND_STATUS</b>  structure plus the value of the <b>ChannelTokenSize</b> member of this structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_request_channel_bind_status">HTTP_REQUEST_CHANNEL_BIND_STATUS</a> structure into which the function writes the requested CBT information. The buffer pointed to by the <i>pSslClientCertInfo</i> should be sufficiently large enough to hold the <b>HTTP_REQUEST_CHANNEL_BIND_STATUS</b>  structure plus the value of the <b>ChannelTokenSize</b> member of this structure.
 
 
 ### -param SslClientCertInfoSize [in]
@@ -126,15 +126,15 @@ When making an asynchronous call using <i>pOverlapped</i>, set <i>pBytesReceived
 ### -param Overlapped [in, optional]
 
 For asynchronous calls, set <i>pOverlapped</i> to point to an 
-<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure, or for synchronous calls, set it to <b>NULL</b>. 
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure, or for synchronous calls, set it to <b>NULL</b>. 
 
 
 
 
 A synchronous call blocks until the client certificate is retrieved, whereas an asynchronous call immediately returns <b>ERROR_IO_PENDING</b> and the calling application then uses 
-<a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a> or I/O completion ports to determine when the operation is completed. For more information about using 
-<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structures for synchronization, see the section 
-<a href="https://msdn.microsoft.com/db44990e-5a0f-4153-8ff6-79dd7cda48af">Synchronization and Overlapped Input and Output</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> or I/O completion ports to determine when the operation is completed. For more information about using 
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structures for synchronization, see the section 
+<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">Synchronization and Overlapped Input and Output</a>.
 
 
 ## -returns
@@ -201,9 +201,9 @@ The buffer pointed to by the <i>pSslClientCertInfo</i> parameter is too small to
 <td width="60%">
 The buffer pointed to by the <i>pSslClientCertInfo</i> parameter is not large enough to receive all the data. Only the basic structure has been written and only partially populated.
 
-When the <i>Flags</i> parameter is 0, the <a href="https://msdn.microsoft.com/bfe6a9a9-6117-4403-a83f-e9448615500b">HTTP_SSL_CLIENT_CERT_INFO</a>structure has been written with the <b>CertEncodedSize</b> member populated. The caller should call the function again with a buffer that is at least the size, in bytes, of  the <b>HTTP_SSL_CLIENT_CERT_INFO</b> structure plus the value of the <b>CertEncodedSize</b> member.
+When the <i>Flags</i> parameter is 0, the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_ssl_client_cert_info">HTTP_SSL_CLIENT_CERT_INFO</a>structure has been written with the <b>CertEncodedSize</b> member populated. The caller should call the function again with a buffer that is at least the size, in bytes, of  the <b>HTTP_SSL_CLIENT_CERT_INFO</b> structure plus the value of the <b>CertEncodedSize</b> member.
 
-When the <i>Flags</i> parameter is <b>HTTP_RECEIVE_SECURE_CHANNEL_TOKEN</b>, the <a href="https://msdn.microsoft.com/70f52486-2632-4e15-998b-4d87a86cb11f">HTTP_REQUEST_CHANNEL_BIND_STATUS</a>  structure has been written with the <b>ChannelTokenSize</b> member populated. The caller should call the function again with a buffer that is at least the size, in bytes, of the <b>HTTP_REQUEST_CHANNEL_BIND_STATUS</b>  plus  the value of the <b>ChannelTokenSize</b> member.
+When the <i>Flags</i> parameter is <b>HTTP_RECEIVE_SECURE_CHANNEL_TOKEN</b>, the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_request_channel_bind_status">HTTP_REQUEST_CHANNEL_BIND_STATUS</a>  structure has been written with the <b>ChannelTokenSize</b> member populated. The caller should call the function again with a buffer that is at least the size, in bytes, of the <b>HTTP_REQUEST_CHANNEL_BIND_STATUS</b>  plus  the value of the <b>ChannelTokenSize</b> member.
 
 </td>
 </tr>
@@ -225,7 +225,7 @@ The function cannot find the client certificate or CBT.
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> defined in the <i>WinError.h</i> header file.
+A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> defined in the <i>WinError.h</i> header file.
 
 </td>
 </tr>
@@ -244,7 +244,7 @@ The behavior of the <b>HttpReceiveClientCertificate</b> function varies based on
 In the case of a synchronous call to the <b>HttpReceiveClientCertificate</b> function , the number of bytes received is returned in the value pointed to by the <i>pBytesReceived</i> parameter.
 
 In the case of an asynchronous call to the <b>HttpReceiveClientCertificate</b> function, the number of bytes received is returned by the standard mechanisms used for asynchronous calls. The  <i>lpNumberOfBytesTransferred</i> parameter returned by the 
-<a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a> function contains the number of bytes received.
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> function contains the number of bytes received.
 
 
 
@@ -254,31 +254,31 @@ In the case of an asynchronous call to the <b>HttpReceiveClientCertificate</b> f
 
 
 
-<a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a>
 
 
 
-<a href="https://msdn.microsoft.com/1da9907d-a09d-41e1-aca1-9a8e2b91296f">HTTP Server API Version 1.0 Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-functions">HTTP Server API Version 1.0 Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/e592cf54-df6d-472b-a736-c44a5ccdd3d2">HTTP_REQUEST</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a>
 
 
 
-<a href="https://msdn.microsoft.com/70f52486-2632-4e15-998b-4d87a86cb11f">HTTP_REQUEST_CHANNEL_BIND_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_request_channel_bind_status">HTTP_REQUEST_CHANNEL_BIND_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/bfe6a9a9-6117-4403-a83f-e9448615500b">HTTP_SSL_CLIENT_CERT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_ssl_client_cert_info">HTTP_SSL_CLIENT_CERT_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
 
 
 
-<a href="https://msdn.microsoft.com/db44990e-5a0f-4153-8ff6-79dd7cda48af">Synchronization and Overlapped Input and Output</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">Synchronization and Overlapped Input and Output</a>
  
 
  

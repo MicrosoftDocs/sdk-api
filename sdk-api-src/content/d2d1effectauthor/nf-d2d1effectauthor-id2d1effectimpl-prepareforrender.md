@@ -60,7 +60,7 @@ Prepares an effect for the rendering process.
 
 ### -param changeType
 
-Type: <b><a href="https://msdn.microsoft.com/22960a80-1986-4ca0-98df-87f05e880e98">D2D1_CHANGE_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/ne-d2d1effectauthor-d2d1_change_type">D2D1_CHANGE_TYPE</a></b>
 
 Indicates the type of change the effect should expect.
 
@@ -138,11 +138,11 @@ private:
 
 
 
-<a href="https://msdn.microsoft.com/a54dd628-c2a2-4b04-9ced-7749a395f187">ID2D1DeviceContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/3D87A908-FC57-4AA9-A508-C402D8413363">ID2D1EffectImpl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectimpl">ID2D1EffectImpl</a>
  
 
  

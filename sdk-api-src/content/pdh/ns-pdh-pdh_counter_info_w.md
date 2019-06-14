@@ -81,7 +81,7 @@ Counter version information.
 ### -field CStatus
 
 Counter status that indicates if the counter value is valid. For a list of possible values, see 
-<a href="https://msdn.microsoft.com/00ea5521-bc28-4a87-aba9-46c911631503">Checking PDH Interface Return Values</a>.
+<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/checking-pdh-interface-return-values">Checking PDH Interface Return Values</a>.
 
 
 ### -field lScale
@@ -97,12 +97,12 @@ Default scale factor as suggested by the counter's provider.
 
 ### -field dwUserData
 
-The value passed in the <i>dwUserData</i> parameter when calling <a href="https://msdn.microsoft.com/b8b9a332-ce28-46d4-92e2-91f9f6c24da5">PdhAddCounter</a>. 
+The value passed in the <i>dwUserData</i> parameter when calling <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhaddcountera">PdhAddCounter</a>. 
 
 
 ### -field dwQueryUserData
 
-The value passed in the <i>dwUserData</i> parameter when calling <a href="https://msdn.microsoft.com/ec4e5353-c7f5-4957-b7f4-39df508846a0">PdhOpenQuery</a>. 
+The value passed in the <i>dwUserData</i> parameter when calling <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenquerya">PdhOpenQuery</a>. 
 
 
 ### -field szFullPath
@@ -114,13 +114,13 @@ The value passed in the <i>dwUserData</i> parameter when calling <a href="https:
 ### -field DataItemPath
 
 A 
-<a href="https://msdn.microsoft.com/7d80d9ac-0123-4743-93a2-fa9d609d81b2">PDH_DATA_ITEM_PATH_ELEMENTS</a> structure. Not used.
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_data_item_path_elements_a">PDH_DATA_ITEM_PATH_ELEMENTS</a> structure. Not used.
 
 
 ### -field CounterPath
 
 A 
-<a href="https://msdn.microsoft.com/ffa2a076-7267-406b-8eed-4a49504a7ad6">PDH_COUNTER_PATH_ELEMENTS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_counter_path_elements_a">PDH_COUNTER_PATH_ELEMENTS</a> structure.
 
 
 ### -field szMachineName
@@ -177,15 +177,15 @@ When you allocate memory for this structure, allocate enough memory for the memb
 
 
 
-<a href="https://msdn.microsoft.com/ffa2a076-7267-406b-8eed-4a49504a7ad6">PDH_COUNTER_PATH_ELEMENTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_counter_path_elements_a">PDH_COUNTER_PATH_ELEMENTS</a>
 
 
 
-<a href="https://msdn.microsoft.com/7d80d9ac-0123-4743-93a2-fa9d609d81b2">PDH_DATA_ITEM_PATH_ELEMENTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_data_item_path_elements_a">PDH_DATA_ITEM_PATH_ELEMENTS</a>
 
 
 
-<a href="https://msdn.microsoft.com/12e1a194-5418-4c2a-9853-ef2d2c666893">PdhGetCounterInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetcounterinfoa">PdhGetCounterInfo</a>
  
 
  

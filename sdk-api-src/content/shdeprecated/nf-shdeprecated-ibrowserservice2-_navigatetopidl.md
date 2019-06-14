@@ -69,7 +69,7 @@ The PIDL identifying the new location.
 
 Type: <b>DWORD</b>
 
-The value or values from the <a href="https://msdn.microsoft.com/library/Aa740922(v=VS.85).aspx">HLNF</a> enumeration. The following values are also supported.
+The value or values from the <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa740922(v=vs.85)">HLNF</a> enumeration. The following values are also supported.
 
 
 
@@ -155,11 +155,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/5c100b60-ef2e-4044-9f06-c1d01bcd88d2">IBrowserService2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice2">IBrowserService2</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb329a61-1c1a-49c6-9d5e-ccfc7fd8b10c">NavigateToPidl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice-navigatetopidl">NavigateToPidl</a>
  
 
  

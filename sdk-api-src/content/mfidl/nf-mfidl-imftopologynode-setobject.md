@@ -112,12 +112,12 @@ All node types support this method, but the object pointer is not used by every 
 <tr>
 <td>Transform node.</td>
 <td>
-<a href="https://msdn.microsoft.com/3cc502d8-d364-43b9-b0b6-d9474c002b20">IMFTransform</a> or <a href="https://msdn.microsoft.com/c0936e3c-3cd1-4c1e-a336-2dee7d943963">IMFActivate</a> interface.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface.</td>
 </tr>
 <tr>
 <td>Output node</td>
 <td>
-<a href="https://msdn.microsoft.com/fe403cab-b901-4c8e-a23c-788ee65c4689">IMFStreamSink</a> or <a href="https://msdn.microsoft.com/c0936e3c-3cd1-4c1e-a336-2dee7d943963">IMFActivate</a> interface.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfstreamsink">IMFStreamSink</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface.</td>
 </tr>
 <tr>
 <td>Tee node.</td>
@@ -126,7 +126,7 @@ All node types support this method, but the object pointer is not used by every 
 </table>
  
 
-If the object supports <b>IPersist</b>, <b>IPersistStorage</b>, or <b>IPersistPropertyBag</b>, the method gets the object's CLSID and sets the <a href="https://msdn.microsoft.com/6aa6e649-d23d-4d8d-be80-2b8814b07a57">MF_TOPONODE_TRANSFORM_OBJECTID</a> attribute on the node.
+If the object supports <b>IPersist</b>, <b>IPersistStorage</b>, or <b>IPersistPropertyBag</b>, the method gets the object's CLSID and sets the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-toponode-transform-objectid-attribute">MF_TOPONODE_TRANSFORM_OBJECTID</a> attribute on the node.
 
 
 
@@ -136,11 +136,11 @@ If the object supports <b>IPersist</b>, <b>IPersistStorage</b>, or <b>IPersistPr
 
 
 
-<a href="https://msdn.microsoft.com/01d7eb7c-a3d3-4924-a8ec-a67e9dc17424">IMFTopologyNode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a>
 
 
 
-<a href="https://msdn.microsoft.com/6fc19244-0f42-4d23-899d-c79e97018855">Topologies</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/topologies">Topologies</a>
  
 
  

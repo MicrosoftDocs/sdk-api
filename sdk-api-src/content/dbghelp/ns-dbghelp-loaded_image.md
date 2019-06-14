@@ -75,13 +75,13 @@ The base address of the mapped file.
 ### -field FileHeader
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/6511341f-252d-4f73-bb90-284bbb69b065">IMAGE_NT_HEADERS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_nt_headers">IMAGE_NT_HEADERS</a> structure.
 
 
 ### -field LastRvaSection
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/81ddf56d-66cc-4a0c-9cff-a84376a3223d">IMAGE_SECTION_HEADER</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_section_header">IMAGE_SECTION_HEADER</a> structure.
 
 
 ### -field NumberOfSections
@@ -92,7 +92,7 @@ The number of COFF section headers.
 ### -field Sections
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/81ddf56d-66cc-4a0c-9cff-a84376a3223d">IMAGE_SECTION_HEADER</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_section_header">IMAGE_SECTION_HEADER</a> structure.
 
 
 ### -field Characteristics
@@ -330,19 +330,19 @@ typedef struct _LIST_ENTRY {
 
 
 
-<a href="https://msdn.microsoft.com/6511341f-252d-4f73-bb90-284bbb69b065">IMAGE_NT_HEADERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_nt_headers">IMAGE_NT_HEADERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/81ddf56d-66cc-4a0c-9cff-a84376a3223d">IMAGE_SECTION_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_section_header">IMAGE_SECTION_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/e88e6417-a805-43c2-9f47-5180228cf175">ImageLoad</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-imageload">ImageLoad</a>
 
 
 
-<a href="https://msdn.microsoft.com/42d5ea46-4b89-4d93-b9a9-18c2855df193">MapAndLoad</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-mapandload">MapAndLoad</a>
  
 
  

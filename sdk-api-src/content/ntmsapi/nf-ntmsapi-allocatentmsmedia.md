@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<a href="https://msdn.microsoft.com/af7186f8-7921-48e3-a4fd-23259a6e9018">Removable Storage Manager</a> is no longer available for use as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available for use as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>AllocateNtmsMedia</b> function allocates a piece of available media.
@@ -63,7 +63,7 @@ The
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://msdn.microsoft.com/5a323911-e99c-4f81-9580-0feac2f0a54e">OpenNtmsSession</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 
 ### -param lpMediaPool [in]
@@ -139,7 +139,7 @@ Maximum time allowed to allocate the specified media, in milliseconds. If this p
 ### -param lpAllocateInformation [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/6861dcea-7f50-4175-85f1-b59478d6c119">NTMS_ALLOCATION_INFORMATION</a> structure that receives the source media pool from which the medium was taken. This parameter can be <b>NULL</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_allocation_information">NTMS_ALLOCATION_INFORMATION</a> structure that receives the source media pool from which the medium was taken. This parameter can be <b>NULL</b>.
 
 
 ## -returns
@@ -358,15 +358,15 @@ When an application requires new media containing data, a user or administrator 
 
 
 
-<a href="https://msdn.microsoft.com/e053c725-2da6-4eeb-b471-644847dd8db5">DeallocateNtmsMedia</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-deallocatentmsmedia">DeallocateNtmsMedia</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Media Services Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Media Services Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/6861dcea-7f50-4175-85f1-b59478d6c119">NTMS_ALLOCATION_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_allocation_information">NTMS_ALLOCATION_INFORMATION</a>
  
 
  

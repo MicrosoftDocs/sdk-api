@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information used to update and validate a <a href="https://msdn.microsoft.com/732CB125-F43A-4CC4-BC3F-EFB511BB7F2E">PaxosTagCStruct</a> structure.
+Contains information used to update and validate a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-_paxostagcstruct">PaxosTagCStruct</a> structure.
 
 
 ## -struct-fields
@@ -77,11 +77,11 @@ The Paxos tag to validate.
 
 
 
-<a href="https://msdn.microsoft.com/9ab4b974-28b5-4f33-a7c4-b9b2472059aa">Resource DLL Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-structures">Resource DLL Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/4737A2B0-E295-49B6-8A84-D38BC317011B">WitnessTagUpdateHelper</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-_witnesstagupdatehelper">WitnessTagUpdateHelper</a>
  
 
  

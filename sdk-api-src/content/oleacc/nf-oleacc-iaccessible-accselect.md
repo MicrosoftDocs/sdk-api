@@ -61,25 +61,25 @@ The <b>IAccessible::accSelect</b> method modifies the selection or moves the key
 
 Type: <b>long</b>
 
-Specifies which selection or focus operations are to be performed. This parameter must have a combination of the <a href="https://msdn.microsoft.com/52755540-dcf4-4e0b-bb5c-88b05f134d79">SELFLAG Constants</a>.
+Specifies which selection or focus operations are to be performed. This parameter must have a combination of the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/selflag">SELFLAG Constants</a>.
 
 
 ### -param varChild [in]
 
 Type: <b>VARIANT</b>
 
-Specifies the selected object. If the value is CHILDID_SELF, the object itself is selected; if a child ID, one of the object's child elements is selected. For more information about initializing the <a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT structure</a>, see <a href="https://msdn.microsoft.com/051ec5ba-540c-4ae1-b917-4c229557ca2f">How Child IDs Are Used in Parameters</a>.
+Specifies the selected object. If the value is CHILDID_SELF, the object itself is selected; if a child ID, one of the object's child elements is selected. For more information about initializing the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT structure</a>, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/how-child-ids-are-used-in-parameters">How Child IDs Are Used in Parameters</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If successful, returns S_OK.
 
-If not successful, returns one of the values in the table that follows, or another standard <a href="https://msdn.microsoft.com/e6deca92-42da-41ab-bfdb-75cbce3022bb">COM error code</a>.
+If not successful, returns one of the values in the table that follows, or another standard <a href="https://docs.microsoft.com/windows/desktop/WinAuto/return-values">COM error code</a>.
 
 <table>
 <tr>
@@ -104,7 +104,7 @@ The specified object is not selected.
 </dl>
 </td>
 <td width="60%">
-An argument is not valid. This return value means that the specified SELFLAG combination is not valid, or that the SELFLAG value does not make sense for the specified object. For example, the following flags are not allowed on a single-selection list box: <a href="https://msdn.microsoft.com/en-us/library/Dd373634(v=VS.85).aspx">SELFLAG_EXTENDSELECTION</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd373634(v=VS.85).aspx">SELFLAG_ADDSELECTION</a>, and <a href="https://msdn.microsoft.com/en-us/library/Dd373634(v=VS.85).aspx">SELFLAG_REMOVESELECTION</a>.
+An argument is not valid. This return value means that the specified SELFLAG combination is not valid, or that the SELFLAG value does not make sense for the specified object. For example, the following flags are not allowed on a single-selection list box: <a href="https://docs.microsoft.com/windows/desktop/WinAuto/selflag">SELFLAG_EXTENDSELECTION</a>, <a href="https://docs.microsoft.com/windows/desktop/WinAuto/selflag">SELFLAG_ADDSELECTION</a>, and <a href="https://docs.microsoft.com/windows/desktop/WinAuto/selflag">SELFLAG_REMOVESELECTION</a>.
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ The object does not support this method.
 
 
 
-Client applications use this method to perform complex selection operations. For more information, see <a href="https://msdn.microsoft.com/5e7ad1e9-b1b2-4e76-93e8-b58251930621">Selecting Child Objects</a>. This method provides the simplest way to programmatically switch the input focus between applications. This applies to applications running on Windows 2000.
+Client applications use this method to perform complex selection operations. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/selecting-child-objects">Selecting Child Objects</a>. This method provides the simplest way to programmatically switch the input focus between applications. This applies to applications running on Windows 2000.
 
 <b>Note:  </b>This method is for the selection of items, not text.
             
@@ -165,27 +165,27 @@ HRESULT SelectItemAtPoint(POINT point)
 
 
 
-<a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
 
 
 
-<a href="https://msdn.microsoft.com/42114c5d-8f28-458a-8d22-ac1531cd50d2">IAccessible::get_accFocus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accfocus">IAccessible::get_accFocus</a>
 
 
 
-<a href="https://msdn.microsoft.com/80df32de-a99f-4a5a-b354-f3e133f3e620">IAccessible::get_accSelection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accselection">IAccessible::get_accSelection</a>
 
 
 
-<a href="https://msdn.microsoft.com/52755540-dcf4-4e0b-bb5c-88b05f134d79">SELFLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/selflag">SELFLAG</a>
 
 
 
-<a href="https://msdn.microsoft.com/8170fe19-f157-4d7d-8eec-d384e51f1560">Selection and Focus Properties and Methods</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/selection-and-focus-properties-and-methods">Selection and Focus Properties and Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>
  
 
  

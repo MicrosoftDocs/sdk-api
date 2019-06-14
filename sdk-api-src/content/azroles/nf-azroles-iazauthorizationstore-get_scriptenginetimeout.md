@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ScriptEngineTimeout</b> property sets or retrieves the time in milliseconds that the <a href="https://msdn.microsoft.com/0bd16cdb-3dba-4656-b264-32e622732155">IAzClientContext::AccessCheck</a> method will wait for a Business Rule (BizRule) to complete execution before canceling it.
+The <b>ScriptEngineTimeout</b> property sets or retrieves the time in milliseconds that the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-accesscheck">IAzClientContext::AccessCheck</a> method will wait for a Business Rule (BizRule) to complete execution before canceling it.
 
 This property is read/write.
 

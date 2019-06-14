@@ -86,9 +86,9 @@ Receives the count of OUs returned in the list of joinable OUs.
 ### -param OUs [out]
 
 Pointer to an array that receives the list of joinable OUs. This array is allocated by the system and must be freed using a single call to the 
-<a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a> function. For more information, see 
-<a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a> and 
-<a href="https://msdn.microsoft.com/08599966-68a1-420b-bbc7-6daac833d08f">Network Management Function Buffer Lengths</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
 
 ## -returns
@@ -98,7 +98,7 @@ Pointer to an array that receives the list of joinable OUs. This array is alloca
 If the function succeeds, the return value is NERR_Success.
 
 If the function fails, the return value can be one of the following error codes or one of the 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 <table>
 <tr>
@@ -141,7 +141,7 @@ No special group membership is required to successfully execute the
 <b>NetGetJoinableOUs</b> function.
 
 For more information about organizational units, see 
-<a href="https://msdn.microsoft.com/57c83e4d-2d9f-4f22-97e2-27e2d277f014">Managing Users</a> in the Active Directory documentation.
+<a href="https://docs.microsoft.com/windows/desktop/AD/managing-users">Managing Users</a> in the Active Directory documentation.
 
 
 
@@ -151,16 +151,16 @@ For more information about organizational units, see
 
 
 
-<a href="https://msdn.microsoft.com/c7cc1cf2-4530-4039-806b-fbee572f564d">NetGetJoinInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netgetjoininformation">NetGetJoinInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd159e2e-f37e-46b2-b980-008b73d40b39">Network
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
  
 

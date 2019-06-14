@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information about an <a href="https://msdn.microsoft.com/en-us/library/Bb775572(v=VS.85).aspx">NM_TVSTATEIMAGECHANGING</a> notification code.
+Contains information about an <a href="https://docs.microsoft.com/windows/desktop/Controls/nm-tvstateimagechanging">NM_TVSTATEIMAGECHANGING</a> notification code.
 
 
 ## -struct-fields
@@ -59,10 +59,10 @@ Contains information about an <a href="https://msdn.microsoft.com/en-us/library/
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about this notification code.
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that contains information about this notification code.
 
 
 ### -field hti

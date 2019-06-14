@@ -55,14 +55,14 @@ ms.custom: 19H1
 <div> </div>
 
 
-The <b>IMSVidXDS</b> interface provides access to the extended data services. The <a href="https://msdn.microsoft.com/30b9709e-8f37-4b74-ad96-6da48efaff32">MSVidXDS</a> feature exposes this interface.
+The <b>IMSVidXDS</b> interface provides access to the extended data services. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd695263(v=vs.85)">MSVidXDS</a> feature exposes this interface.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidXDS</b> interface inherits from <a href="https://msdn.microsoft.com/0512e1d6-e10e-421e-846c-4bcd7e86d0e7">IMSVidFeature</a>. <b>IMSVidXDS</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidXDS</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidfeature">IMSVidFeature</a>. <b>IMSVidXDS</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IMSVidXDS</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694772(v=VS.85).aspx">get_ChannelChangeInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidxds-get_channelchangeinterface">get_ChannelChangeInterface</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the channel change interface.
@@ -101,11 +101,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/0512e1d6-e10e-421e-846c-4bcd7e86d0e7">IMSVidFeature</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidfeature">IMSVidFeature</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf6c3ce9-1e56-4109-93f1-5b313e6ca19b">Video Control Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
  
 
  

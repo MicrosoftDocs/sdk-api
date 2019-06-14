@@ -76,6 +76,6 @@ The VARDESC describes a symbolic constant. There is no memory associated with it
 
 ### -field VAR_DISPATCH
 
-The variable can only be accessed through <a href="https://msdn.microsoft.com/964ade8e-9d8a-4d32-bd47-aa678912a54d">IDispatch::Invoke</a>.
+The variable can only be accessed through <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">IDispatch::Invoke</a>.
 
 

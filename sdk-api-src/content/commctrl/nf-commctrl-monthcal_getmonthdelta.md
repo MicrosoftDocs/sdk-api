@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the scroll rate for a month calendar control. The scroll rate is the number of months that the control moves its display when the user clicks a scroll button. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760980(v=VS.85).aspx">MCM_GETMONTHDELTA</a> message explicitly. 
+Retrieves the scroll rate for a month calendar control. The scroll rate is the number of months that the control moves its display when the user clicks a scroll button. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcm-getmonthdelta">MCM_GETMONTHDELTA</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Retrieves the scroll rate for a month calendar control. The scroll rate is the n
 
 ### -param hmc
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a month calendar control. 
 

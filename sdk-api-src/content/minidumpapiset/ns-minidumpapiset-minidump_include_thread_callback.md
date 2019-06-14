@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Contains information for the 
-<a href="https://msdn.microsoft.com/8dc95b0a-6aee-4c38-ab25-a800153bbe91">MiniDumpCallback</a> function when the callback type is 
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a> function when the callback type is 
 <b>IncludeThreadCallback</b>.
 
 
@@ -69,15 +69,15 @@ The identifier of the thread.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680362(v=VS.85).aspx">MINIDUMP_CALLBACK_INPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_callback_input">MINIDUMP_CALLBACK_INPUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680364(v=VS.85).aspx">MINIDUMP_CALLBACK_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_callback_type">MINIDUMP_CALLBACK_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/8dc95b0a-6aee-4c38-ab25-a800153bbe91">MiniDumpCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a>
  
 
  

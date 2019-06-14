@@ -61,14 +61,14 @@ Initializes the stemmer.
 
 Type: <b>ULONG</b>
 
-Maximum number of characters for words that are added to the <a href="https://msdn.microsoft.com/81D52B0C-BADD-48C0-85DB-57CA82D7BBA8">IWordFormSink</a> object. Words that exceed this limit may be truncated.
+Maximum number of characters for words that are added to the <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-iwordformsink">IWordFormSink</a> object. Words that exceed this limit may be truncated.
 
 
 ### -param pfLicense [out]
 
 Type: <b>BOOL</b>
 
-Pointer to an output variable that receives a flag that indicates whether there are license restrictions for this <a href="https://msdn.microsoft.com/en-us/library/Bb266437(v=VS.85).aspx">IStemmer</a> implementation. <b>TRUE</b> indicates that the stemmer is restricted to authorized use only. <b>FALSE</b> indicates that this <b>IStemmer</b> implementation can be used freely.
+Pointer to an output variable that receives a flag that indicates whether there are license restrictions for this <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-istemmer">IStemmer</a> implementation. <b>TRUE</b> indicates that the stemmer is restricted to authorized use only. <b>FALSE</b> indicates that this <b>IStemmer</b> implementation can be used freely.
 
 
 ## -returns
@@ -138,7 +138,7 @@ Unsuccessful completion.
 
 
 
-You must initialize the stemmer. The <b>IStemmer::Init</b> method must be called before any other method of <a href="https://msdn.microsoft.com/en-us/library/Bb266437(v=VS.85).aspx">IStemmer</a>. If <i>pfLicense</i> is <b>TRUE</b>, and you want more information about possible license restrictions, call the <a href="https://msdn.microsoft.com/en-us/library/Bb266435(v=VS.85).aspx">IStemmer::GetLicenseToUse</a> method.
+You must initialize the stemmer. The <b>IStemmer::Init</b> method must be called before any other method of <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-istemmer">IStemmer</a>. If <i>pfLicense</i> is <b>TRUE</b>, and you want more information about possible license restrictions, call the <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nf-indexsrv-istemmer-getlicensetouse">IStemmer::GetLicenseToUse</a> method.
 
 
 
@@ -148,7 +148,7 @@ You must initialize the stemmer. The <b>IStemmer::Init</b> method must be called
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb266437(v=VS.85).aspx">IStemmer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-istemmer">IStemmer</a>
  
 
  

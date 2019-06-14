@@ -61,14 +61,14 @@ The
 ### -param ppNewEnum [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface on an enumerator object for the collection. 
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface on an enumerator object for the collection. 
 
 
 
 
 Call the 
-<a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> method on the returned <b>IUnknown</b> interface to obtain a pointer to an 
-<a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> enumeration interface on the collection. <b>IEnumVARIANT</b> provides a number of methods that you can use to iterate through the collection.
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method on the returned <b>IUnknown</b> interface to obtain a pointer to an 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> enumeration interface on the collection. <b>IEnumVARIANT</b> provides a number of methods that you can use to iterate through the collection.
 
 For more information, see the following Remarks section.
 
@@ -117,10 +117,10 @@ Insufficient memory exists to perform the operation.
 
 
 Each TAPI 3 interface that includes a method that returns a collection also includes a method that returns a pointer to a TAPI 3 enumerator interface. If you are programming in C/C++, it can be easier to call a collection's enumerator method directly to obtain an enumerator object, instead of calling the <b>ITCollection::get__NewEnum</b> method. For example, the 
-<a href="https://msdn.microsoft.com/b40a2071-24bf-470c-bfba-de23317e8652">ITTAPI::EnumerateAddresses</a> method returns a pointer to an 
-<a href="https://msdn.microsoft.com/bfe9f12e-ceb7-4120-8193-70feb2bc7c85">IEnumAddress</a> interface. 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-enumerateaddresses">ITTAPI::EnumerateAddresses</a> method returns a pointer to an 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumaddress">IEnumAddress</a> interface. 
 <b>IEnumAddress</b> provides enumeration methods for the 
-<a href="https://msdn.microsoft.com/ab6db262-f99e-4027-9525-7597fcf02e72">Address object</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address object</a>.
 
 If you are programming in Visual Basic, you do not need to call this method to enumerate a collection. This is because you can invoke the method's functionality implicitly using the <b>For...Each...in...Next...</b> construct.
 
@@ -132,7 +132,7 @@ If you are programming in Visual Basic, you do not need to call this method to e
 
 
 
-<a href="https://msdn.microsoft.com/2286678a-68b9-4f4a-b36b-7fdf8cdad6a6">ITCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a>
  
 
  

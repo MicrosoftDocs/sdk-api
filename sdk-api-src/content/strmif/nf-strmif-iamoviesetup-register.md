@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-<div class="alert"><b>Note</b>  The <b>IAMovieSetup</b> interface is deprecated. Use the <a href="https://msdn.microsoft.com/2122949d-0117-4c68-bfcd-c717b14dc970">AMovieDllRegisterServer2</a> function instead.</div>
+<div class="alert"><b>Note</b>  The <b>IAMovieSetup</b> interface is deprecated. Use the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/amoviedllregisterserver2">AMovieDllRegisterServer2</a> function instead.</div>
 <div> </div>
 Adds the filter to the registry.
 
@@ -77,7 +77,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-This method registers the filter, its pins, and the media type associated with the pins. It should be implemented to use <a href="https://msdn.microsoft.com/e2f32235-e331-4c3c-925a-7cfa531e9ab3">IFilterMapper</a> methods to accomplish this. See the <a href="https://msdn.microsoft.com/934e421a-25a6-40fa-a48b-6d7331f34b78">CBaseFilter::Register</a> member function for a description of its implementation.
+This method registers the filter, its pins, and the media type associated with the pins. It should be implemented to use <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltermapper">IFilterMapper</a> methods to accomplish this. See the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/cbasefilter-register">CBaseFilter::Register</a> member function for a description of its implementation.
 
 
 
@@ -87,11 +87,11 @@ This method registers the filter, its pins, and the media type associated with t
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/b200dbee-bab7-43d7-a204-751592fa2405">IAMovieSetup Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamoviesetup">IAMovieSetup Interface</a>
  
 
  

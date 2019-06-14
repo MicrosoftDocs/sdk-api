@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Activates the specified page in a property sheet based on the resource identifier of the page. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774613(v=VS.85).aspx">PSM_SETCURSELID</a> message explicitly.
+Activates the specified page in a property sheet based on the resource identifier of the page. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-setcurselid">PSM_SETCURSELID</a> message explicitly.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Activates the specified page in a property sheet based on the resource identifie
 
 ### -param hDlg
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the property sheet.
 
@@ -75,7 +75,7 @@ Resource identifier of the page to activate.
 
 
 
-The window that is losing the activation receives the <a href="https://msdn.microsoft.com/en-us/library/Bb774559(v=VS.85).aspx">PSN_KILLACTIVE</a> notification code, and the window that is gaining the activation receives the <a href="https://msdn.microsoft.com/en-us/library/Bb774568(v=VS.85).aspx">PSN_SETACTIVE</a> notification code.
+The window that is losing the activation receives the <a href="https://docs.microsoft.com/windows/desktop/Controls/psn-killactive">PSN_KILLACTIVE</a> notification code, and the window that is gaining the activation receives the <a href="https://docs.microsoft.com/windows/desktop/Controls/psn-setactive">PSN_SETACTIVE</a> notification code.
 
 
 

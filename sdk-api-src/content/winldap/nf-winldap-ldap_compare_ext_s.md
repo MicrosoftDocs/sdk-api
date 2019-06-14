@@ -82,7 +82,7 @@ A pointer to a null-terminated string that contains the string attribute value t
 ### -param Data [in]
 
 The 
-<a href="https://msdn.microsoft.com/1f279905-ab02-4a8b-9b77-e8ea2b56e882">berval</a> attribute value to be compared to the attribute value. Set to <b>NULL</b> if not used.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a> attribute value to be compared to the attribute value. Set to <b>NULL</b> if not used.
 
 
 ### -param ServerControls [in]
@@ -102,7 +102,7 @@ Optional. A list of LDAP client controls. Set to <b>NULL</b> if not used.
 If the function succeeds, and the attribute and known values match, <b>LDAP_COMPARE_TRUE</b> is returned; if the values do not match, <b>LDAP_COMPARE_FALSE</b> is returned.
 
 If the function fails, an error code is returned. For more information, see 
-<a href="https://msdn.microsoft.com/822411b7-fc49-4b93-8e54-353350ed5de9">Return Values</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>.
 
 
 
@@ -112,7 +112,7 @@ If the function fails, an error code is returned. For more information, see
 
 
 The <b>ldap_compare_ext_s</b> function initiates a synchronous compare operation, comparing the value of an attribute to a known value. The parameters and effects of <b>ldap_compare_ext_s</b> subsume those of 
-<a href="https://msdn.microsoft.com/44a7001d-d7ad-4b29-80bf-8d4b06e0fa43">ldap_compare_s</a>. The extended routine includes additional parameters to support client and server controls, and comparison of binary values.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_compare_s">ldap_compare_s</a>. The extended routine includes additional parameters to support client and server controls, and comparison of binary values.
 
 Use the <i>Value</i> parameter for comparing string values or use the <i>Data</i> parameter for comparing raw binary data. Set the unused parameter to <b>NULL</b>. If neither parameter is <b>NULL</b>, the compare operation will use the value in the <i>Data</i> parameter.
 
@@ -126,27 +126,27 @@ Multithreading: Calls to <b>ldap_compare_ext_s</b> are thread-safe.
 
 
 
-<a href="https://msdn.microsoft.com/3e1e29ff-43ec-4cc3-9414-41b7c61f8b42">Extended Controls</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/extended-controls">Extended Controls</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a0040ea-f8f3-4378-8371-49768714d762">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/822411b7-fc49-4b93-8e54-353350ed5de9">Return Values</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>
 
 
 
-<a href="https://msdn.microsoft.com/2c1f68e6-51b0-4270-b55a-88ba7292bbbc">Using Controls</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/using-controls">Using Controls</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f279905-ab02-4a8b-9b77-e8ea2b56e882">berval</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a>
 
 
 
-<a href="https://msdn.microsoft.com/44a7001d-d7ad-4b29-80bf-8d4b06e0fa43">ldap_compare_s</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_compare_s">ldap_compare_s</a>
  
 
  

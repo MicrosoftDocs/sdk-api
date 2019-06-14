@@ -75,7 +75,7 @@ Returns S_OK if successful.
 
 
 
-If the variant type is VT_DISPATCH, pass the <b>IDispatch</b> interface of the <a href="https://msdn.microsoft.com/e1860bcf-c62d-434b-b98b-38bad7f84d89">IDataCollector</a> to be removed.
+If the variant type is VT_DISPATCH, pass the <b>IDispatch</b> interface of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollector">IDataCollector</a> to be removed.
 
 Note that by removing the collector from the collection, you are also removing the collector from the data collector set.
 
@@ -87,15 +87,15 @@ Note that by removing the collector from the collection, you are also removing t
 
 
 
-<a href="https://msdn.microsoft.com/6b47fb9d-6ca4-4e6b-b117-027ef1e963ac">IDataCollectorCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorcollection">IDataCollectorCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/6302e144-74ef-4251-a857-d3e066c9763d">IDataCollectorCollection::Add</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorcollection-add">IDataCollectorCollection::Add</a>
 
 
 
-<a href="https://msdn.microsoft.com/be0840dc-e19a-454e-bbea-6968c7284cc8">IDataCollectorCollection::Clear</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorcollection-clear">IDataCollectorCollection::Clear</a>
  
 
  

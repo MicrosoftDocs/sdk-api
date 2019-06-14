@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a new <a href="https://msdn.microsoft.com/en-us/library/ms534430(v=VS.85).aspx">ColorLUT</a> object. 
+Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorlut">ColorLUT</a> object. 
 
 
 ## -parameters
@@ -65,15 +65,15 @@ Creates a new <a href="https://msdn.microsoft.com/en-us/library/ms534430(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534430(v=VS.85).aspx">ColorLUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorlut">ColorLUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536237(v=VS.85).aspx">ColorLUT::SetParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gdipluseffects-colorlut-setparameters">ColorLUT::SetParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534061(v=VS.85).aspx">ColorLUTParams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ns-gdipluseffects-colorlutparams">ColorLUTParams</a>
  
 
  

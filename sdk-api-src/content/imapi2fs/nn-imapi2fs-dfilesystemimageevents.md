@@ -54,7 +54,7 @@ Implement this interface to receive notifications of the current write operation
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">DFileSystemImageEvents</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>DFileSystemImageEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">DFileSystemImageEvents</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>DFileSystemImageEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>DFileSystemImageEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7d639391-77ee-4889-a11b-1bbd1b88b38e">Update</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-dfilesystemimageevents-update">Update</a>
 </td>
 <td align="left" width="63%">
 Implement this method to receive progress notification of the current write operation.
@@ -84,7 +84,7 @@ Implement this method to receive progress notification of the current write oper
 
 
 
-<a href="https://msdn.microsoft.com/0256f1d2-a3fb-45b2-bd84-e2b71148e4ec">IFileSystemImage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
  
 
  

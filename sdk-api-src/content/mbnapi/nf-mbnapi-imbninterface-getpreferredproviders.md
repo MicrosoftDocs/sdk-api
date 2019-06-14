@@ -59,7 +59,7 @@ Gets the list of preferred providers.
 
 ### -param preferredProviders [out, retval]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/f4a02ca2-6be4-4843-a657-5d5dde8be623">MBN_PROVIDER</a> structures that contains the list of preferred providers.  If this method returns any value other than <b>S_OK</b>, this parameter is <b>NULL</b>.   When <b>GetPreferredProviders</b> returns <b>S_OK</b>, the calling application must free the allocated memory by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=121490">SafeArrayDestroy</a>.  
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider">MBN_PROVIDER</a> structures that contains the list of preferred providers.  If this method returns any value other than <b>S_OK</b>, this parameter is <b>NULL</b>.   When <b>GetPreferredProviders</b> returns <b>S_OK</b>, the calling application must free the allocated memory by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=121490">SafeArrayDestroy</a>.  
 
 
 ## -returns
@@ -91,7 +91,7 @@ The method completed successfully.  <i>preferredProviders</i> contains valid val
 </dl>
 </td>
 <td width="60%">
-The information is not available.  The Mobile Broadband service is currently probing for the list of preferred providers.  The calling application can get notified when the data is available by registering for the <a href="https://msdn.microsoft.com/ccede3de-4dfd-469f-afb4-d1424c56c7bc">OnPreferredProvidersChange</a> method of <a href="https://msdn.microsoft.com/3c641f14-9f53-4d69-9faa-2491189083df">IMbnInterfaceEvents</a>.
+The information is not available.  The Mobile Broadband service is currently probing for the list of preferred providers.  The calling application can get notified when the data is available by registering for the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onpreferredproviderschange">OnPreferredProvidersChange</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterfaceevents">IMbnInterfaceEvents</a>.
 
 </td>
 </tr>
@@ -164,11 +164,11 @@ The device does not support this operation. CDMA devices will always return this
 
 For the recoverable errors <b>E_MBN_PIN_REQUIRED</b>, <b>E_MBN_SIM_NOT_INSERTED</b>, and <b>E_MBN_BAD_SIM</b>, the Mobile Broadband service will query the device again for the provider list when the error condition is over. For example, if the device requires a PIN to be entered to get the provider list, then <b>GetPreferredProviders</b> will return <b>E_MBN_PIN_REQUIRED</b>. When an application enters a PIN to unlock the device, then the Mobile Broadband service will again try to get this information from the device.
 
-When the operating system is querying the device to get the provider list after a recoverable error has occurred, <b>GetPreferredProviders</b> immediately returns <b>E_PENDING</b>. Once the new query has completed, a notification is sent to the calling application using the appropriate callback method.  For example, after a successful PIN unlock operation, the <a href="https://msdn.microsoft.com/6a4bc731-e498-4afb-a648-0b49d2f592ca">OnEnterComplete</a> method of <a href="https://msdn.microsoft.com/4bdaa4e5-880e-4d1f-aec1-36811a0f21c1">IMbnPinEvents</a>  would be called. After recovering from a SIM card error, the  <a href="https://msdn.microsoft.com/eb4364b8-cbbf-44c7-ae13-66950ce614e9">OnReadyStateChange</a> method of <a href="https://msdn.microsoft.com/3c641f14-9f53-4d69-9faa-2491189083df">IMbnInterfaceEvents</a> would be called.
+When the operating system is querying the device to get the provider list after a recoverable error has occurred, <b>GetPreferredProviders</b> immediately returns <b>E_PENDING</b>. Once the new query has completed, a notification is sent to the calling application using the appropriate callback method.  For example, after a successful PIN unlock operation, the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnpinevents-onentercomplete">OnEnterComplete</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnpinevents">IMbnPinEvents</a>  would be called. After recovering from a SIM card error, the  <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onreadystatechange">OnReadyStateChange</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterfaceevents">IMbnInterfaceEvents</a> would be called.
 
-The Mobile Broadband service will update the application about the status of any new query by calling the <a href="https://msdn.microsoft.com/ccede3de-4dfd-469f-afb4-d1424c56c7bc">OnPreferredProvidersChange</a> method of <a href="https://msdn.microsoft.com/3c641f14-9f53-4d69-9faa-2491189083df">IMbnInterfaceEvents</a>.
+The Mobile Broadband service will update the application about the status of any new query by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onpreferredproviderschange">OnPreferredProvidersChange</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterfaceevents">IMbnInterfaceEvents</a>.
 
-In some cases, the device's preferred provider list can be updated through the network by SMS or OTA (over-the-air update). The operating system will notify the application of any change in the preferred provider list by calling the <a href="https://msdn.microsoft.com/ccede3de-4dfd-469f-afb4-d1424c56c7bc">OnPreferredProvidersChange</a> method of <a href="https://msdn.microsoft.com/3c641f14-9f53-4d69-9faa-2491189083df">IMbnInterfaceEvents</a>.
+In some cases, the device's preferred provider list can be updated through the network by SMS or OTA (over-the-air update). The operating system will notify the application of any change in the preferred provider list by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onpreferredproviderschange">OnPreferredProvidersChange</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterfaceevents">IMbnInterfaceEvents</a>.
 
 
 
@@ -178,7 +178,7 @@ In some cases, the device's preferred provider list can be updated through the n
 
 
 
-<a href="https://msdn.microsoft.com/958bce42-4772-4706-8900-1f83c5d3d52b">IMbnInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>
  
 
  

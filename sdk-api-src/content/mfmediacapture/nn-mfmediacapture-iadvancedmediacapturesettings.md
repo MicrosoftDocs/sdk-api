@@ -54,7 +54,7 @@ Provides settings for advanced media capture.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAdvancedMediaCaptureSettings</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAdvancedMediaCaptureSettings</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAdvancedMediaCaptureSettings</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAdvancedMediaCaptureSettings</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAdvancedMediaCaptureSettings</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3fd6ead4-bc37-4ac9-bbdd-e7e2fbbcbcde">GetDirectxDeviceManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediacapture/nf-mfmediacapture-iadvancedmediacapturesettings-getdirectxdevicemanager">GetDirectxDeviceManager</a>
 </td>
 <td align="left" width="63%">
 Gets the DirectX device manager.
@@ -84,7 +84,7 @@ Gets the DirectX device manager.
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

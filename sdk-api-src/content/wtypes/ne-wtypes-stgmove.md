@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>STGMOVE</b> enumeration values indicate whether a storage element is to be moved or copied. They are used in the 
-<a href="https://msdn.microsoft.com/d9d33c64-edac-480f-b295-b2a06e51af2e">IStorage::MoveElementTo</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-moveelementto">IStorage::MoveElementTo</a> method.
 
 
 ## -enum-fields
@@ -79,7 +79,7 @@ Not implemented.
 
 
 
-<a href="https://msdn.microsoft.com/d9d33c64-edac-480f-b295-b2a06e51af2e">IStorage::MoveElementTo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-moveelementto">IStorage::MoveElementTo</a>
  
 
  

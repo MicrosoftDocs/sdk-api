@@ -59,7 +59,7 @@ Adds a new child visual to the children list of this visual.
 
 ### -param visual [in]
 
-Type: <b><a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual">IDCompositionVisual</a>*</b>
 
 The child visual to add. This parameter must not be NULL.
 
@@ -73,7 +73,7 @@ TRUE to place the new child visual in front of the visual specified by the <i>re
 
 ### -param referenceVisual [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual">IDCompositionVisual</a>*</b>
 
 The existing child visual next to which the new visual should be added.
 
@@ -82,9 +82,9 @@ The existing child visual next to which the new visual should be added.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/8DFBFC34-DBD0-4731-8305-B33E90C96C54">DirectComposition Error Codes</a>  for a list of error codes.
+If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/directcomp/directcomposition-error-codes">DirectComposition Error Codes</a>  for a list of error codes.
 
 
 
@@ -99,9 +99,9 @@ The <i>referenceVisual</i> parameter must be an existing child of the parent vis
 
 If the <i>referenceVisual</i> parameter is NULL, the specified visual is rendered above or below all children of the parent visual, depending on the value of the <i>insertAbove</i> parameter. If <i>insertAbove</i> is TRUE, the new child visual is above no sibling, therefore it is rendered  below all of its siblings. Conversely, if <i>insertAbove</i> is FALSE, the visual is below no sibling, therefore it is rendered above all of its siblings.
 
-The visual specified by the <i>visual</i> parameter cannot be either a child of a single other visual, or the root of a visual tree that is associated with a composition target. If <i>visual</i> is already a child of another visual, <b>AddVisual</b> fails. The child visual must be removed from the children list of its previous parent before adding it to the children list of the new parent. If <i>visual</i> is the root of a visual tree, the visual must be dissociated from that visual tree before adding it to the children list of the new parent. To dissociate the visual from a visual tree, call the <a href="https://msdn.microsoft.com/febbef70-fc21-4295-93c5-2f9f52434aae">IDCompositionTarget::SetRoot</a> method and specify either a different visual or NULL as the <i>visual</i> parameter.
+The visual specified by the <i>visual</i> parameter cannot be either a child of a single other visual, or the root of a visual tree that is associated with a composition target. If <i>visual</i> is already a child of another visual, <b>AddVisual</b> fails. The child visual must be removed from the children list of its previous parent before adding it to the children list of the new parent. If <i>visual</i> is the root of a visual tree, the visual must be dissociated from that visual tree before adding it to the children list of the new parent. To dissociate the visual from a visual tree, call the <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiontarget-setroot">IDCompositionTarget::SetRoot</a> method and specify either a different visual or NULL as the <i>visual</i> parameter.
 
-A child visual need not have been created by the same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface as its parent. When visuals from different devices are combined in the same visual tree,  Microsoft DirectComposition composes the  tree as it normally would, except that changes to a particular visual take effect only when <a href="https://msdn.microsoft.com/49a6d33d-7454-44be-b8ca-602b247d4eab">IDCompositionDevice::Commit</a> is called on the device object that created the visual. The ability to combine visuals from different devices  enables multiple threads to create and manipulate a single visual tree while maintaining independent devices that can be used to commit changes asynchronously
+A child visual need not have been created by the same <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiondevice">IDCompositionDevice</a> interface as its parent. When visuals from different devices are combined in the same visual tree,  Microsoft DirectComposition composes the  tree as it normally would, except that changes to a particular visual take effect only when <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice-commit">IDCompositionDevice::Commit</a> is called on the device object that created the visual. The ability to combine visuals from different devices  enables multiple threads to create and manipulate a single visual tree while maintaining independent devices that can be used to commit changes asynchronously
 
 This method fails if <i>visual</i> or <i>referenceVisual</i> is an invalid pointer, or if the visual referenced by the <i>referenceVisual</i> parameter is not a child of the parent visual. These  interfaces cannot be custom implementations; only interfaces created by DirectComposition can be used with this method.
 
@@ -109,7 +109,7 @@ This method fails if <i>visual</i> or <i>referenceVisual</i> is an invalid point
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/86006C3C-67A8-4931-BE76-D0CA9DB19505">How to Build a Simple Visual Tree</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/directcomp/how-to--build-a-visual-tree">How to Build a Simple Visual Tree</a>.
 
 <div class="code"></div>
 
@@ -120,23 +120,23 @@ For an example, see <a href="https://msdn.microsoft.com/86006C3C-67A8-4931-BE76-
 
 
 
-<a href="https://msdn.microsoft.com/3b4fefe0-772e-42bd-8e81-37d0b128c418">IDCompositionDevice::CreateVisual</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice-createvisual">IDCompositionDevice::CreateVisual</a>
 
 
 
-<a href="https://msdn.microsoft.com/febbef70-fc21-4295-93c5-2f9f52434aae">IDCompositionTarget::SetRoot</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiontarget-setroot">IDCompositionTarget::SetRoot</a>
 
 
 
-<a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual">IDCompositionVisual</a>
 
 
 
-<a href="https://msdn.microsoft.com/b3872d6a-f3f8-4343-b01d-6db5490abb13">IDCompositionVisual::RemoveAllVisuals</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-removeallvisuals">IDCompositionVisual::RemoveAllVisuals</a>
 
 
 
-<a href="https://msdn.microsoft.com/d77161b1-cb35-40a7-a51c-4b44ea320e78">IDCompositionVisual::RemoveVisual</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-removevisual">IDCompositionVisual::RemoveVisual</a>
  
 
  

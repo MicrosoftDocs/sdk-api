@@ -56,7 +56,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns the <a href="https://msdn.microsoft.com/076e2a43-256a-4646-a5c8-1d48ab08ce1a">language identifier</a> of the Region Format setting for the current user.
+Returns the <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">language identifier</a> of the Region Format setting for the current user.
 
 
 ## -parameters
@@ -70,9 +70,9 @@ Returns the <a href="https://msdn.microsoft.com/076e2a43-256a-4646-a5c8-1d48ab08
 
 
 
-Returns the <a href="https://msdn.microsoft.com/076e2a43-256a-4646-a5c8-1d48ab08ce1a">language identifier</a> for the current user as set under <b>Control Panel</b> &gt; <b>Clock, Language, and Region</b> &gt; <b>Change date, time, or number formats</b> &gt; <b>Formats</b> tab &gt; <b>Format</b> dropdown.
+Returns the <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">language identifier</a> for the current user as set under <b>Control Panel</b> &gt; <b>Clock, Language, and Region</b> &gt; <b>Change date, time, or number formats</b> &gt; <b>Formats</b> tab &gt; <b>Format</b> dropdown.
 
-For more information on language identifiers, see <a href="https://msdn.microsoft.com/8a6373e0-46c2-4b1b-bc67-543f426ef15a">Language Identifier Constants and Strings</a>.
+For more information on language identifiers, see <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifier-constants-and-strings">Language Identifier Constants and Strings</a>.
 
 
 
@@ -81,7 +81,7 @@ For more information on language identifiers, see <a href="https://msdn.microsof
 
 
 
-The return value is not necessarily the same as that returned by <a href="https://msdn.microsoft.com/cf9d2f64-a8ad-46f8-9e91-a927b6b3ce08">GetSystemDefaultLangID</a>, even for a single-user computer.
+The return value is not necessarily the same as that returned by <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getsystemdefaultlangid">GetSystemDefaultLangID</a>, even for a single-user computer.
 
 
 
@@ -91,15 +91,15 @@ The return value is not necessarily the same as that returned by <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/cf9d2f64-a8ad-46f8-9e91-a927b6b3ce08">GetSystemDefaultLangID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getsystemdefaultlangid">GetSystemDefaultLangID</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a548074-0782-45e1-8051-80c3b9d81885">National Language Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c72c4de-83be-4b7e-9ed8-b0236c1df8a4">National Language Support Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
  
 
  

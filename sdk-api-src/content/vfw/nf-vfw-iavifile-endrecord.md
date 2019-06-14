@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>EndRecord</b> method writes the "REC" chunk in a tightly interleaved AVI file (having a one-to-one interleave factor of audio to video). Called when an application uses the <a href="https://msdn.microsoft.com/0f04c384-7702-43d4-9c7e-e9e74d6f2796">AVIFileEndRecord</a> function.
+The <b>EndRecord</b> method writes the "REC" chunk in a tightly interleaved AVI file (having a one-to-one interleave factor of audio to video). Called when an application uses the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avifileendrecord">AVIFileEndRecord</a> function.
 
 
 
@@ -102,11 +102,11 @@ HRESULT EndRecord(VOID);
 
 
 
-<a href="https://msdn.microsoft.com/ced6f7d1-5f27-47f4-a912-8c17ea5fa685">Custom File and Stream Handler Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/c61e0118-d405-4c1e-9ae8-ed6a145a5d6b">Custom File and Stream Handlers</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
  
 
  

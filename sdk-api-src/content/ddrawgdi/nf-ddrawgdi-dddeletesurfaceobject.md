@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[This function is subject to change with each operating system revision. Instead, use the Microsoft DirectDraw and Microsoft Direct3DAPIs; these APIs insulate applications from such operating system changes, and hide many other difficulties involved in interacting directly with display drivers.]
 
-Wrapper for the <a href="https://msdn.microsoft.com/en-us/library/ms648499(v=VS.85).aspx">NtGdiDdDeleteSurfaceObject</a> function and deletes a kernel-mode surface object previously created by <a href="https://msdn.microsoft.com/en-us/library/ms648495(v=VS.85).aspx">NtGdiDdCreateSurfaceObject</a>.
+Wrapper for the <a href="https://docs.microsoft.com/windows/desktop/DevNotes/-dxgkernel-ntgdidddeletesurfaceobject">NtGdiDdDeleteSurfaceObject</a> function and deletes a kernel-mode surface object previously created by <a href="https://docs.microsoft.com/windows/desktop/DevNotes/-dxgkernel-ntgdiddcreatesurfaceobject">NtGdiDdCreateSurfaceObject</a>.
 
 
 <b>GdiEntry5</b> is defined as an alias for this function.
@@ -86,7 +86,7 @@ If successful, this function returns <b>TRUE</b>; otherwise it returns <b>FALSE<
 
 Applications are advised to use the 
 DirectDraw and 
-<a href="http://msdn.microsoft.com/en-us/library/bb205147(VS.85).aspx">Direct3D</a>APIs to create and manage graphics device objects. These constructs abstract the device creation process in a simplified and operating-system-independent way.
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference">Direct3D</a>APIs to create and manage graphics device objects. These constructs abstract the device creation process in a simplified and operating-system-independent way.
 
 
 
@@ -96,11 +96,11 @@ DirectDraw and
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648436(v=VS.85).aspx">DdCreateSurfaceObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawgdi/nf-ddrawgdi-ddcreatesurfaceobject">DdCreateSurfaceObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648408(v=VS.85).aspx">Graphics Low Level Client Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>
  
 
  

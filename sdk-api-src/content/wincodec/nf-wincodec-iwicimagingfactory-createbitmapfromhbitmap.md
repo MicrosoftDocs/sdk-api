@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/15dcc80d-ef58-453d-a57a-348ffc7ddc6b">IWICBitmap</a> from a bitmap handle.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a> from a bitmap handle.
 
 
 ## -parameters
@@ -73,14 +73,14 @@ A palette handle used to create the bitmap.
 
 ### -param options [in]
 
-Type: <b><a href="https://msdn.microsoft.com/caa10c35-9af4-4310-b031-3347cf795087">WICBitmapAlphaChannelOption</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicbitmapalphachanneloption">WICBitmapAlphaChannelOption</a></b>
 
 The alpha channel options to create the bitmap.
 
 
 ### -param ppIBitmap [out]
 
-Type: <b><a href="https://msdn.microsoft.com/15dcc80d-ef58-453d-a57a-348ffc7ddc6b">IWICBitmap</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a>**</b>
 
 A pointer that receives a pointer to the new bitmap.
 
@@ -110,19 +110,19 @@ For a non-palletized bitmap, set NULL for the <i>hPalette</i> parameter.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">GDI+ Bitmap class</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">GDI+ Bitmap class</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536295(v=VS.85).aspx">GDI+ Bitmap.GetHBITMAP method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-gethbitmap">GDI+ Bitmap.GetHBITMAP method</a>
 
 
 
-<a href="https://msdn.microsoft.com/30d155b1-a46c-46c4-9f8f-fb56dc6bf0a9">IWICImagingFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicimagingfactory">IWICImagingFactory</a>
 
 
 
-<a href="https://msdn.microsoft.com/caa10c35-9af4-4310-b031-3347cf795087">WICBitmapAlphaChannelOption</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicbitmapalphachanneloption">WICBitmapAlphaChannelOption</a>
  
 
  

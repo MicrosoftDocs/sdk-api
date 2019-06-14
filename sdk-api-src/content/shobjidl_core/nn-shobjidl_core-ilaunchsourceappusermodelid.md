@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Provides a method for retrieving an <a href="https://msdn.microsoft.com/ebce2d99-6f20-4545-9f12-d79cd8d0828f">AppUserModelId</a>.
+Provides a method for retrieving an <a href="https://docs.microsoft.com/windows/desktop/shell/appids">AppUserModelId</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILaunchSourceAppUserModelId</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ILaunchSourceAppUserModelId</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILaunchSourceAppUserModelId</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILaunchSourceAppUserModelId</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,10 +69,10 @@ The <b>ILaunchSourceAppUserModelId</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1B5E57E2-6870-4A52-BA61-3113385F03F5">GetAppUserModelId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ilaunchsourceappusermodelid-getappusermodelid">GetAppUserModelId</a>
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://msdn.microsoft.com/ebce2d99-6f20-4545-9f12-d79cd8d0828f">AppUserModelId</a> from the source application.
+Retrieves an <a href="https://docs.microsoft.com/windows/desktop/shell/appids">AppUserModelId</a> from the source application.
 
 </td>
 </tr>

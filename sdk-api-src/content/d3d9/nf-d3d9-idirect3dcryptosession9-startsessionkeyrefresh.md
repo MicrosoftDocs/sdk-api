@@ -80,9 +80,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To generate a new session key, perform a bitwise <b>XOR</b> between the previous session key and the random number. The new session key does not take affect until the application calls <a href="https://msdn.microsoft.com/b5e4522b-d5a5-4ece-9b78-2cebdf9f9364">IDirect3DCryptoSession9::FinishSessionKeyRefresh</a>.
+To generate a new session key, perform a bitwise <b>XOR</b> between the previous session key and the random number. The new session key does not take affect until the application calls <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-finishsessionkeyrefresh">IDirect3DCryptoSession9::FinishSessionKeyRefresh</a>.
 
-If the driver supports this method, the driver sets the <b>D3DCPCAPS_FRESHENSESSIONKEY</b>capabilities flag in  the <a href="https://msdn.microsoft.com/4093e64c-340d-4f66-97ed-45bae3b259eb">IDirect3DDevice9Video::GetContentProtectionCaps</a> method.
+If the driver supports this method, the driver sets the <b>D3DCPCAPS_FRESHENSESSIONKEY</b>capabilities flag in  the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-getcontentprotectioncaps">IDirect3DDevice9Video::GetContentProtectionCaps</a> method.
 
 
 
@@ -92,11 +92,11 @@ If the driver supports this method, the driver sets the <b>D3DCPCAPS_FRESHENSESS
 
 
 
-<a href="https://msdn.microsoft.com/FD0625BB-484A-43E6-8931-DB635D4F017F">GPU-Based Content Protection</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/gpu-based-content-protection">GPU-Based Content Protection</a>
 
 
 
-<a href="https://msdn.microsoft.com/2511c9da-e696-4e49-b180-7fc1317c1652">IDirect3DCryptoSession9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nn-d3d9-idirect3dcryptosession9">IDirect3DCryptoSession9</a>
  
 
  

@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the <a href="https://msdn.microsoft.com/061EF002-178E-42CA-9D32-7E1282297BA4">IMFSensorDevice</a> corresponding to a device in the sensor group.
+Gets the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensordevice">IMFSensorDevice</a> corresponding to a device in the sensor group.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Gets the <a href="https://msdn.microsoft.com/061EF002-178E-42CA-9D32-7E1282297BA
 
 ### -param dwIndex [in]
 
-The 0-based index of the device to be retrieved.  The index must be between 0 and the value returned by <a href="https://msdn.microsoft.com/687A4275-5963-486E-8D59-B1858D7E388D">GetSensorDeviceCount</a> - 1.
+The 0-based index of the device to be retrieved.  The index must be between 0 and the value returned by <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensorgroup-getsensordevicecount">GetSensorDeviceCount</a> - 1.
 
 
 ### -param ppDevice [out]
@@ -147,7 +147,7 @@ The term "device" in this context could refer to a physical device, a custom med
 
 
 
-<a href="https://msdn.microsoft.com/7CED3EF6-E844-4B3A-8181-CA44FC4675EC">IMFSensorGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a>
  
 
  

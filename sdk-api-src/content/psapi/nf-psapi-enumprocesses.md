@@ -84,7 +84,7 @@ The number of bytes returned in the <i>pProcessIds</i> array.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -98,7 +98,7 @@ It is a good idea to use a large array, because it is hard to predict how many p
 
 To determine how many processes were enumerated, divide the <i>pBytesReturned</i> value by sizeof(DWORD). There is no indication given when the buffer is too small to store all process identifiers. Therefore, if <i>pBytesReturned</i> equals <i>cb</i>, consider retrying the call with a larger array.
 
-To obtain process handles for the processes whose identifiers you have just obtained, call the <a href="https://msdn.microsoft.com/8f695c38-19c4-49e4-97de-8b64ea536cb1">OpenProcess</a> function.
+To obtain process handles for the processes whose identifiers you have just obtained, call the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocess">OpenProcess</a> function.
 
 Starting with Windows 7 and Windows Server 2008 R2, Psapi.h establishes version numbers for the PSAPI functions. The PSAPI version number affects  the name used to call the function and the library that a program must load. 
 
@@ -110,8 +110,8 @@ Programs that must run on earlier versions of Windows as well as Windows 7 and 
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/0ed81548-4936-40e9-bfc8-baa71492310e">Enumerating All Processes</a> or 
-<a href="https://msdn.microsoft.com/2e411eba-ba60-4678-bf6f-bc15b6e8b478">Enumerating All Modules for a Process</a>.
+<a href="https://docs.microsoft.com/windows/desktop/psapi/enumerating-all-processes">Enumerating All Processes</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/psapi/enumerating-all-modules-for-a-process">Enumerating All Modules for a Process</a>.
 
 <div class="code"></div>
 
@@ -122,19 +122,19 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/df643c25-7558-424c-b187-b3f86ba51358">CreateToolhelp32Snapshot</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-createtoolhelp32snapshot">CreateToolhelp32Snapshot</a>
 
 
 
-<a href="https://msdn.microsoft.com/8f695c38-19c4-49e4-97de-8b64ea536cb1">OpenProcess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocess">OpenProcess</a>
 
 
 
-<a href="https://msdn.microsoft.com/e158792b-fec2-498d-aae3-d5679fa55783">PSAPI Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/229c661e-9c33-47a3-9441-558cfe2a800d">Process Information</a>
+<a href="https://docs.microsoft.com/windows/desktop/psapi/process-information">Process Information</a>
  
 
  

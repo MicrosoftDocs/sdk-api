@@ -59,7 +59,7 @@ Notification method called by the Mobile Broadband service to indicate a change 
 
 ### -param newInterface [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/da5413b7-adf4-4a3d-893f-f51441460541">IMbnRegistration</a> interface that represents the applicable device.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnregistration">IMbnRegistration</a> interface that represents the applicable device.
 
 
 ## -returns
@@ -82,7 +82,7 @@ The <b>OnRegisterStateChange</b> method is called by the Mobile Broadband servic
 <li>There is a change in registered provider ID, name, or roaming text.</li>
 <li>There is a change in the last reported network error code for a registration operation.</li>
 </ul>
-An application can use the passed <a href="https://msdn.microsoft.com/da5413b7-adf4-4a3d-893f-f51441460541">IMbnRegistration</a> interface to get the updated registration state data.
+An application can use the passed <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnregistration">IMbnRegistration</a> interface to get the updated registration state data.
 
 
 
@@ -92,7 +92,7 @@ An application can use the passed <a href="https://msdn.microsoft.com/da5413b7-a
 
 
 
-<a href="https://msdn.microsoft.com/f3b60a93-3b57-4c2c-9114-912ca47f16b2">IMbnRegistrationEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnregistrationevents">IMbnRegistrationEvents</a>
  
 
  

@@ -105,7 +105,7 @@ Any samples waiting to be retrieved when <b>Flush</b> is called are lost.
 
 
 
-<a href="https://msdn.microsoft.com/75d8b2a3-7c50-4dd5-8927-b11eb9f12602">IMFASFSplitter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfsplitter">IMFASFSplitter</a>
  
 
  

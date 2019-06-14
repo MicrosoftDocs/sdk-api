@@ -53,10 +53,10 @@ ms.custom: 19H1
 
 The <b>MsiIsProductElevated</b> function returns whether or not the product is managed. Only applications that require elevated privileges for installation and being installed through advertisement are considered managed, which means that an application installed per-machine is always considered managed. 
 
-An application that is installed  per-user is only considered managed if it is advertised by a local system process that is impersonating the user. For more information, see <a href="https://msdn.microsoft.com/0d2bd2d9-0eac-4519-862c-15f0ee5cbc40">Advertising a Per-User Application to be Installed with Elevated Privileges</a>.
+An application that is installed  per-user is only considered managed if it is advertised by a local system process that is impersonating the user. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Msi/advertising-a-per-user-application-to-be-installed-with-elevated-privileges">Advertising a Per-User Application to be Installed with Elevated Privileges</a>.
      
 
-<b>MsiIsProductElevated</b> verifies that the local system owns the product registry data. The function does not refer to account policies such as <a href="https://msdn.microsoft.com/0bbec06a-0a2b-430a-a361-317a319da615">AlwaysInstallElevated</a>.
+<b>MsiIsProductElevated</b> verifies that the local system owns the product registry data. The function does not refer to account policies such as <a href="https://docs.microsoft.com/windows/desktop/Msi/alwaysinstallelevated">AlwaysInstallElevated</a>.
 
 
 ## -parameters
@@ -157,11 +157,11 @@ The function is not available for a specific platform.
 
 
 
-<a href="https://msdn.microsoft.com/162bda20-0c62-4eac-8c1f-fd107e42c528">Determining Installation Context</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/determining-installation-context">Determining Installation Context</a>
 
 
 
-<a href="https://msdn.microsoft.com/61b9297e-f45e-4f50-9001-9bae580e1bf4">Installing a Package with Elevated Privileges for a Non-Admin</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/installing-a-package-with-elevated-privileges-for-a-non-admin">Installing a Package with Elevated Privileges for a Non-Admin</a>
  
 
  

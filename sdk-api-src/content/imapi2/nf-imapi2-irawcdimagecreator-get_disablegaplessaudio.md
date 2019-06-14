@@ -87,11 +87,11 @@ This method is supported in Windows Server 2003 with Service Pack 1 (SP1), Win
 
 
 
-<a href="https://msdn.microsoft.com/b5fe1a32-545e-417d-9996-34d12862a0ea">IRawCDImageCreator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-irawcdimagecreator">IRawCDImageCreator</a>
 
 
 
-<a href="https://msdn.microsoft.com/c9e17ed7-f51a-4b28-82db-36cad1aedd39">IRawCDImageCreator::put_DisableGaplessAudio</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-irawcdimagecreator-put_disablegaplessaudio">IRawCDImageCreator::put_DisableGaplessAudio</a>
  
 
  

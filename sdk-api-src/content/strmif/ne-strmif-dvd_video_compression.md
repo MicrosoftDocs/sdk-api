@@ -82,7 +82,7 @@ MPEG-2 compression type.
 
 
 
-This enumeration is a member of the <a href="https://msdn.microsoft.com/b395a322-d63e-41a0-b97a-88f99aeba0e5">DVD_VideoAttributes</a> structure, which is filled by a call to the <a href="https://msdn.microsoft.com/92bd3af9-7057-4bf7-9026-d4862c271a03">IDvdInfo2::GetCurrentVideoAttributes</a> method.
+This enumeration is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_videoattributes">DVD_VideoAttributes</a> structure, which is filled by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getcurrentvideoattributes">IDvdInfo2::GetCurrentVideoAttributes</a> method.
 
 
 
@@ -92,7 +92,7 @@ This enumeration is a member of the <a href="https://msdn.microsoft.com/b395a322
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
  
 
  

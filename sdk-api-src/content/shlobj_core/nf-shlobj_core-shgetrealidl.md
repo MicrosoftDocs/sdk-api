@@ -61,9 +61,9 @@ Converts a simple pointer to an item identifier list (PIDL) into a full PIDL.
 
 ### -param psf [in]
 
-Type: <b><a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>*</b>
 
-A pointer to an instance of <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a> whose simple PIDL is to be converted.
+A pointer to an instance of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> whose simple PIDL is to be converted.
 
 
 ### -param pidlSimple [in]

@@ -69,7 +69,7 @@ The <b>IMFAsyncCallbackLogging</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a2628b3f-37b7-4317-960e-cbd2339aade6">GetObjectPointer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallbacklogging-getobjectpointer">GetObjectPointer</a>
 </td>
 <td align="left" width="63%">
 Gets the pointer to the parent object the async callback is associated with. 
@@ -78,7 +78,7 @@ Gets the pointer to the parent object the async callback is associated with.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f556a163-54d1-4353-ab9e-e8aa6bf35958">GetObjectTag</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallbacklogging-getobjecttag">GetObjectTag</a>
 </td>
 <td align="left" width="63%">
 Gets the tag of the parent object the async callback is associated object.
@@ -102,7 +102,7 @@ Gets the tag of the parent object the async callback is associated object.
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

@@ -122,7 +122,7 @@ Invalid pointer.
 
 
 
-<a href="https://msdn.microsoft.com/6c889a78-1a50-47b5-8e49-4aba741c0be0">ISyncChangeUnit Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangeunit">ISyncChangeUnit Interface</a>
  
 
  

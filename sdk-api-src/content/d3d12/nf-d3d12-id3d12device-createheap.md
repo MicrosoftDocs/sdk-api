@@ -60,9 +60,9 @@ Creates a heap that can be used with placed resources and reserved resources.
 
 ### -param pDesc [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/3A473476-F37E-4F01-B121-87E998EE9411">D3D12_HEAP_DESC</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_heap_desc">D3D12_HEAP_DESC</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/3A473476-F37E-4F01-B121-87E998EE9411">D3D12_HEAP_DESC</a> structure that describes the heap.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_heap_desc">D3D12_HEAP_DESC</a> structure that describes the heap.
           
 
 
@@ -73,7 +73,7 @@ Type: <b><b>REFIID</b></b>
 The globally unique identifier (<b>GUID</b>) for the heap interface.
             This is an input parameter.
             The <b>REFIID</b>, or <b>GUID</b>, of the interface to the heap can be obtained by using the __uuidof() macro.
-            For example, __uuidof(<a href="https://msdn.microsoft.com/3791C64F-76D7-4580-A444-F2CEA3EB10CE">ID3D12Heap</a>) will get the <b>GUID</b> of the interface to a heap.
+            For example, __uuidof(<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12heap">ID3D12Heap</a>) will get the <b>GUID</b> of the interface to a heap.
             <i>riid</i> is, most commonly, the GUID for <b>ID3D12Heap</b>, but it may be any GUID for any interface.
             If the resource object does not support the interface for the specified GUID, creation will fail with E_NOINTERFACE.
           
@@ -93,10 +93,10 @@ A pointer to a memory block that receives a pointer to the heap.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 This method returns <b>E_OUTOFMEMORY</b> if there is insufficient memory to create the heap.
-            See <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a> for other possible return values.
+            See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a> for other possible return values.
           
 
 
@@ -119,11 +119,11 @@ This method returns <b>E_OUTOFMEMORY</b> if there is insufficient memory to crea
 
 
 
-<a href="https://msdn.microsoft.com/D32B3397-A1E0-48AF-9251-2EDA96261A9F">ID3D12Device</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>
 
 
 
-<a href="https://msdn.microsoft.com/67C6B1D4-BF76-45A9-BADC-7C9520C900EB">Shared Heaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/shared-heaps">Shared Heaps</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Contains encoding statistics from the Digital Living Network Alliance (DLNA) media sink.
 
-This structure is used with the <a href="https://msdn.microsoft.com/1fa6ea9f-fd30-4fa2-a0e6-1647273bcc35">MF_MP2DLNA_STATISTICS</a> attribute.
+This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mp2dlna-statistics">MF_MP2DLNA_STATISTICS</a> attribute.
 
 
 ## -struct-fields
@@ -134,7 +134,7 @@ The number of audio frames that have been encoded.
 
 
 
-<a href="https://msdn.microsoft.com/39fdd724-13ca-48ab-8a55-93529d1da3b4">Media Foundation Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
  
 
  

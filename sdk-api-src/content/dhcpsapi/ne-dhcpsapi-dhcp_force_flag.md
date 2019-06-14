@@ -69,7 +69,7 @@ The operation only deletes the subnet element, leaving intact any client records
 
 ### -field DhcpFailoverForce
 
-The operation deletes all client records affected by the element, and then deletes the element from the DHCP server. But it does not delete any registered DNS records associated with the deleted client records from the DNS server. This flag is only valid when passed to <a href="https://msdn.microsoft.com/e000a81b-b61b-4ba9-adee-4940edc78050">DhcpDeleteSubnet</a>. Note that the minimum server OS requirement for this value is Windows Server 2012 R2 with KB 3100473 installed.
+The operation deletes all client records affected by the element, and then deletes the element from the DHCP server. But it does not delete any registered DNS records associated with the deleted client records from the DNS server. This flag is only valid when passed to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpdeletesubnet">DhcpDeleteSubnet</a>. Note that the minimum server OS requirement for this value is Windows Server 2012 R2 with KB 3100473 installed.
 
 
 ## -see-also
@@ -77,7 +77,7 @@ The operation deletes all client records affected by the element, and then delet
 
 
 
-<a href="https://msdn.microsoft.com/8232b2cc-0bb1-4509-ad5f-6d1d1ece9fe5">DhcpRemoveSubnetElementV5</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpremovesubnetelementv5">DhcpRemoveSubnetElementV5</a>
  
 
  

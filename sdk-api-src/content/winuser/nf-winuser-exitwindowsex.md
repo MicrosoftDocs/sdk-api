@@ -57,7 +57,7 @@ ms.custom: 19H1
 
 
 Logs off the interactive user, shuts down the system, or shuts down and restarts the system. It sends the 
-<a href="https://msdn.microsoft.com/7ad73444-f1f6-4b73-8450-0580b146a5a6">WM_QUERYENDSESSION</a> message to all applications to determine if they can be terminated.
+<a href="https://docs.microsoft.com/windows/desktop/Shutdown/wm-queryendsession">WM_QUERYENDSESSION</a> message to all applications to determine if they can be terminated.
 
 
 ## -parameters
@@ -140,7 +140,7 @@ The calling process must have the SE_SHUTDOWN_NAME privilege. For more informati
 </dl>
 </td>
 <td width="60%">
-Shuts down the system and then restarts it, as well as any applications that have been registered for restart using the <a href="https://msdn.microsoft.com/f4cd25b3-2aee-460f-9f9f-b45ecded094f">RegisterApplicationRestart</a> function. These application receive the <a href="https://msdn.microsoft.com/7ad73444-f1f6-4b73-8450-0580b146a5a6">WM_QUERYENDSESSION</a> message with <i>lParam</i> set to the ENDSESSION_CLOSEAPP value. For more information, see <a href="https://msdn.microsoft.com/97b1df63-65a9-47b4-891b-e4a754882b89">Guidelines for Applications</a>.
+Shuts down the system and then restarts it, as well as any applications that have been registered for restart using the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart">RegisterApplicationRestart</a> function. These application receive the <a href="https://docs.microsoft.com/windows/desktop/Shutdown/wm-queryendsession">WM_QUERYENDSESSION</a> message with <i>lParam</i> set to the ENDSESSION_CLOSEAPP value. For more information, see <a href="https://docs.microsoft.com/windows/desktop/RstMgr/guidelines-for-applications">Guidelines for Applications</a>.
 
 </td>
 </tr>
@@ -179,7 +179,7 @@ This parameter can optionally include one of the following values.
 </td>
 <td width="60%">
 This flag has no effect if terminal services is enabled. Otherwise, the system does not send the 
-<a href="https://msdn.microsoft.com/7ad73444-f1f6-4b73-8450-0580b146a5a6">WM_QUERYENDSESSION</a> message. This can cause applications to lose data. Therefore, you should only use this flag in an emergency.
+<a href="https://docs.microsoft.com/windows/desktop/Shutdown/wm-queryendsession">WM_QUERYENDSESSION</a> message. This can cause applications to lose data. Therefore, you should only use this flag in an emergency.
 
 </td>
 </tr>
@@ -191,8 +191,8 @@ This flag has no effect if terminal services is enabled. Otherwise, the system d
 </td>
 <td width="60%">
 Forces processes to terminate if they do not respond to the 
-<a href="https://msdn.microsoft.com/7ad73444-f1f6-4b73-8450-0580b146a5a6">WM_QUERYENDSESSION</a> or 
-<a href="https://msdn.microsoft.com/9bf04f24-da1e-4680-a47b-28e9c500635e">WM_ENDSESSION</a> message within the timeout interval. For more information, see the Remarks.
+<a href="https://docs.microsoft.com/windows/desktop/Shutdown/wm-queryendsession">WM_QUERYENDSESSION</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/Shutdown/wm-endsession">WM_ENDSESSION</a> message within the timeout interval. For more information, see the Remarks.
 
 </td>
 </tr>
@@ -203,7 +203,7 @@ Forces processes to terminate if they do not respond to the
 ### -param dwReason [in]
 
 The reason for initiating the shutdown. This parameter must be one of the 
-<a href="https://msdn.microsoft.com/db1ecee0-40eb-4761-b5d8-9cc3c1c98cdf">system shutdown reason codes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Shutdown/system-shutdown-reason-codes">system shutdown reason codes</a>.
 
 If this parameter is zero, the SHTDN_REASON_FLAG_PLANNED reason code  will not be set and therefore the default action is an undefined shutdown that is logged as "No title for this reason could be found". By default, it is also an unplanned shutdown. Depending on how the system is configured, an unplanned shutdown triggers the creation of a file that contains the system state information, which can delay shutdown. Therefore, do not use zero for this parameter.
 
@@ -215,7 +215,7 @@ If this parameter is zero, the SHTDN_REASON_FLAG_PLANNED reason code  will not b
 If the function succeeds, the return value is nonzero. Because the function executes asynchronously, a nonzero return value indicates that the shutdown has been initiated. It does not indicate whether the shutdown will succeed. It is possible that the system, the user, or another application will abort the shutdown.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -226,8 +226,8 @@ If the function fails, the return value is zero. To get extended error informati
 
 The 
 <b>ExitWindowsEx</b> function returns as soon as it has initiated the shutdown process. The shutdown or logoff then proceeds asynchronously. The function is designed to stop all processes in the caller's logon session. Therefore, if you are not the interactive user, the function can succeed without actually shutting down the computer. If you are not the interactive user, use the 
-<a href="https://msdn.microsoft.com/cad54fea-7f59-438c-83ac-f0160d81496b">InitiateSystemShutdown</a> or 
-<a href="https://msdn.microsoft.com/4536cf76-7669-42b1-8c44-9f5e368424cc">InitiateSystemShutdownEx</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-initiatesystemshutdowna">InitiateSystemShutdown</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-initiatesystemshutdownexa">InitiateSystemShutdownEx</a> function.
 
 A non-zero return value does not mean the logoff was or will be successful. The shutdown is an asynchronous process, and it can occur long  after the API call has returned, or not  at all. Even if the timeout value is zero,  the shutdown can still be aborted by applications, services, or even the system. The non-zero return value indicates that the validation of the rights and parameters was  successful and that the system accepted the shutdown request.
 
@@ -236,26 +236,26 @@ When this function is called, the caller must specify whether or not application
 Calling this function with the value of the <i>uFlags</i> parameter set to EWX_FORCE avoids this situation. Remember that doing this  may result in loss of data.
 
 To set a shutdown priority for an application relative to other applications in the system, use the 
-<a href="https://msdn.microsoft.com/c467950e-31e1-4608-a08a-0736a5524e0e">SetProcessShutdownParameters</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessshutdownparameters">SetProcessShutdownParameters</a> function.
 
 During a shutdown or log-off operation, running applications are allowed a specific amount of time to respond to the shutdown request. If this time expires before all applications have stopped, the system displays a user interface that allows the user to forcibly shut down the system or to cancel the shutdown request. If the EWX_FORCE value is specified, the system forces running applications to stop when the time expires.
 
 If the EWX_FORCEIFHUNG value is specified, the system forces hung applications to close and does not display the dialog box.
 
 Console processes receive a separate notification message, CTRL_SHUTDOWN_EVENT or CTRL_LOGOFF_EVENT, as the situation warrants. A console process routes these messages to its 
-<a href="https://msdn.microsoft.com/library/ms683242(v=VS.85).aspx">HandlerRoutine</a> function. 
+<a href="https://docs.microsoft.com/windows/console/handlerroutine">HandlerRoutine</a> function. 
 <b>ExitWindowsEx</b> sends these notification messages asynchronously; thus, an application cannot assume that the console notification messages have been handled when a call to 
 <b>ExitWindowsEx</b> returns.
 
 To shut down or restart the system, the calling process must use the 
-<a href="https://msdn.microsoft.com/8e3f70cd-814e-4aab-8f48-0ca482beef2e">AdjustTokenPrivileges</a> function to enable the SE_SHUTDOWN_NAME privilege. For more information, see 
-<a href="https://msdn.microsoft.com/b25db548-d5ab-4276-9b50-36d030909384">Running with Special Privileges</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges">AdjustTokenPrivileges</a> function to enable the SE_SHUTDOWN_NAME privilege. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/bf8723aa-1c7f-4761-9034-d5a9447a4bc4">How to Shut Down the System</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Shutdown/how-to-shut-down-the-system">How to Shut Down the System</a>.
 
 <div class="code"></div>
 
@@ -266,27 +266,27 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/8e3f70cd-814e-4aab-8f48-0ca482beef2e">AdjustTokenPrivileges</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges">AdjustTokenPrivileges</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms683242(v=VS.85).aspx">HandlerRoutine</a>
+<a href="https://docs.microsoft.com/windows/console/handlerroutine">HandlerRoutine</a>
 
 
 
-<a href="https://msdn.microsoft.com/906d92f1-7cbe-454e-9c71-34b4383aebab">Logging Off</a>
+<a href="https://docs.microsoft.com/windows/desktop/Shutdown/logging-off">Logging Off</a>
 
 
 
-<a href="https://msdn.microsoft.com/c467950e-31e1-4608-a08a-0736a5524e0e">SetProcessShutdownParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessshutdownparameters">SetProcessShutdownParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/acadf58f-3f68-4fa1-bdcf-8f85c8479263">Shutting Down</a>
+<a href="https://docs.microsoft.com/windows/desktop/Shutdown/shutting-down">Shutting Down</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a08a769-1acf-49eb-ba95-beaf56a374bf">System Shutdown
+<a href="https://docs.microsoft.com/windows/desktop/Shutdown/system-shutdown-functions">System Shutdown
 		  Functions</a>
  
 

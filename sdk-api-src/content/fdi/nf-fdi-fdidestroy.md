@@ -59,7 +59,7 @@ The <b>FDIDestroy</b> function deletes an open FDI context.
 
 ### -param hfdi [in]
 
- A valid FDI context handle returned by  the <a href="https://msdn.microsoft.com/90634725-b7a8-4369-8a91-684debee9548">FDICreate</a> function.
+ A valid FDI context handle returned by  the <a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fdicreate">FDICreate</a> function.
 
 
 ## -returns
@@ -68,7 +68,7 @@ The <b>FDIDestroy</b> function deletes an open FDI context.
 
 If the function succeeds, it returns <b>TRUE</b>; otherwise, <b>FALSE</b>.
 
-Extended error information is provided in the <a href="https://msdn.microsoft.com/ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b">ERF</a> structure used to create the FDI context.
+Extended error information is provided in the <a href="https://docs.microsoft.com/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf">ERF</a> structure used to create the FDI context.
 
 
 
@@ -78,7 +78,7 @@ Extended error information is provided in the <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/90634725-b7a8-4369-8a91-684debee9548">FDICreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fdicreate">FDICreate</a>
  
 
  

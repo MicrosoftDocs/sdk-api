@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Tests whether an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure is the parent of another <b>ITEMIDLIST</b> structure.
+Tests whether an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure is the parent of another <b>ITEMIDLIST</b> structure.
 
 
 ## -parameters
@@ -65,14 +65,14 @@ Tests whether an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894
 
 Type: <b>PCIDLIST_ABSOLUTE</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> (PIDL) structure that specifies the parent. This must be an absolute PIDL.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> (PIDL) structure that specifies the parent. This must be an absolute PIDL.
 
 
 ### -param pidl2 [in]
 
 Type: <b>PCIDLIST_ABSOLUTE</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> (PIDL) structure that specifies the child. This must be an absolute PIDL.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> (PIDL) structure that specifies the child. This must be an absolute PIDL.
 
 
 ### -param fImmediate [in]

@@ -59,16 +59,16 @@ Sets the library options.
 
 ### -param lofMask [in]
 
-Type: <b><a href="https://msdn.microsoft.com/205c40ff-a4dc-4a57-b51a-1e230fc170dd">LIBRARYOPTIONFLAGS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-libraryoptionflags">LIBRARYOPTIONFLAGS</a></b>
 
-A bitmask  that specifies   the   <a href="https://msdn.microsoft.com/205c40ff-a4dc-4a57-b51a-1e230fc170dd">LIBRARYOPTIONFLAGS</a> values  to change in  this call.
+A bitmask  that specifies   the   <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-libraryoptionflags">LIBRARYOPTIONFLAGS</a> values  to change in  this call.
 
 
 ### -param lofOptions [in]
 
-Type: <b><a href="https://msdn.microsoft.com/205c40ff-a4dc-4a57-b51a-1e230fc170dd">LIBRARYOPTIONFLAGS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-libraryoptionflags">LIBRARYOPTIONFLAGS</a></b>
 
-A bitmask that specifies the new value of each  <a href="https://msdn.microsoft.com/205c40ff-a4dc-4a57-b51a-1e230fc170dd">LIBRARYOPTIONFLAGS</a>  value to change. <b>LIBRARYOPTIONFLAGS</b>  values that are not set in <i>lofMask</i> are not changed by this call.
+A bitmask that specifies the new value of each  <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-libraryoptionflags">LIBRARYOPTIONFLAGS</a>  value to change. <b>LIBRARYOPTIONFLAGS</b>  values that are not set in <i>lofMask</i> are not changed by this call.
 
 
 ## -returns
@@ -87,7 +87,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/205c40ff-a4dc-4a57-b51a-1e230fc170dd">LIBRARYOPTIONFLAGS</a> is a bitwise enumerator, which means that more than one option flag can be set.
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-libraryoptionflags">LIBRARYOPTIONFLAGS</a> is a bitwise enumerator, which means that more than one option flag can be set.
 
 To change an option value, you must set the option value that you want to change in <i>lofMask</i> and then set or clear the value of the option in <i>lofOptions</i>.
 
@@ -124,15 +124,15 @@ hr = library->SetOptions (maskValue, optionValue);
 
 
 
-<a href="https://msdn.microsoft.com/c1ef3d22-7c88-42b0-93a2-5d1b75c327ba">IShellLibrary</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary">IShellLibrary</a>
 
 
 
-<a href="https://msdn.microsoft.com/205c40ff-a4dc-4a57-b51a-1e230fc170dd">LIBRARYOPTIONFLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-libraryoptionflags">LIBRARYOPTIONFLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/19DA68B2-FCB6-443d-A3CD-0BF2F429B149">Windows Libraries</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd758096(v=vs.85)">Windows Libraries</a>
  
 
  

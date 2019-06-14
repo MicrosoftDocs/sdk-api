@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndRealize</b> macro controls how an MCI window realized in the foreground or background. This macro also causes the palette for the MCI window to be realized in the process. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/fe8803b5-3500-44b4-97f7-784bedf0b362">MCIWNDM_REALIZE</a> message.
+The <b>MCIWndRealize</b> macro controls how an MCI window realized in the foreground or background. This macro also causes the palette for the MCI window to be realized in the process. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-realize">MCIWNDM_REALIZE</a> message.
 
 
 

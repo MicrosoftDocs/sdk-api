@@ -57,7 +57,7 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B3EBA5B1-1CAE-4021-8A18-90698F7C0B35">SetBottomLeftRadiusX(float)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionrectangleclip-setbottomleftradiusx(idcompositionanimation)">SetBottomLeftRadiusX(float)</a>
 </td>
 <td align="left" width="63%">
 Changes the value of the BottomLeftRadiusX property of this clip.
@@ -66,7 +66,7 @@ Changes the value of the BottomLeftRadiusX property of this clip.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9C3C5162-82C0-4114-8D9D-123B84215DE7">SetBottomLeftRadiusX(IDCompositionAnimation*)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionrectangleclip-setbottomleftradiusx(idcompositionanimation)">SetBottomLeftRadiusX(IDCompositionAnimation*)</a>
 </td>
 <td align="left" width="63%">
 Animates the value of the BottomLeftRadiusX property of this clip.
@@ -83,7 +83,7 @@ Animates the value of the BottomLeftRadiusX property of this clip.
 
 
 
-<a href="https://msdn.microsoft.com/486bcdb9-e353-4ca2-b24c-af863dda7470">IDCompositionRectangleClip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionrectangleclip">IDCompositionRectangleClip</a>
  
 
  

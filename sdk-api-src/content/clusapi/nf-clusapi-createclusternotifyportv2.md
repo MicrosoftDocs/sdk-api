@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 Creates 
     or modifies a notification port. For information about  notification ports, see 
-    <a href="https://msdn.microsoft.com/6d69cdd8-b29a-40c5-94c6-908b9bea22ef">Receiving Cluster Events</a>.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/receiving-cluster-events">Receiving Cluster Events</a>.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A handle to a notification port or <b>INVALID_HANDLE_VALUE</b>, indicating that 
 
 ### -param hCluster [in]
 
-A handle to the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> to be associated with the 
+A handle to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a> to be associated with the 
        notification port that is  identified by the  <i>hChange</i>    parameter or 
        <b>INVALID_HANDLE_VALUE</b>, indicating that the notification port should not be associated 
        with a cluster. If the  <i>hChange</i>  parameter  is not set to 
@@ -80,7 +80,7 @@ A handle to the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.
 
 ### -param Filters [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/E173F5D8-955B-44FF-980E-CEF536A87AF5">NOTIFY_FILTER_AND_TYPE</a> structure that specifies the  type of notifications that the port can accept.
+A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-_notify_filter_and_type">NOTIFY_FILTER_AND_TYPE</a> structure that specifies the  type of notifications that the port can accept.
 
 
 ### -param dwFilterCount [in]
@@ -92,7 +92,7 @@ The number of filters that are  specified by the <i>Filters</i> parameter.
 
 A user-specified value to associate with the retrieval of notifications from the notification port. The 
        <i>dwNotifyKey</i>  parameter is returned from 
-       <a href="https://msdn.microsoft.com/0AF127E1-D517-4F4B-B797-40822B3B236F">GetClusterNotifyV2</a> when an event of one of the types 
+       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusternotifyv2">GetClusterNotifyV2</a> when an event of one of the types 
        that are    specified in <i>Filters</i> occurs.
 
 
@@ -104,7 +104,7 @@ If the operation succeeds, the function returns a notification port handle.
 
 If the operation fails, the 
        function returns <b>NULL</b>. For more information about the error, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -114,7 +114,7 @@ If the operation fails, the
 
 
 
-<a href="https://msdn.microsoft.com/1b3a3b23-39db-47b7-b4a8-17fc1ee45df6">Failover Cluster Management Function</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-management-functions">Failover Cluster Management Function</a>
  
 
  

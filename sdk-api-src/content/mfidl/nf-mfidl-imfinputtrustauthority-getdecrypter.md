@@ -63,7 +63,7 @@ Retrieves a decrypter transform.
 
 ### -param riid [in]
 
-Interface identifier (IID) of the interface being requested. Currently this value must be IID_IMFTransform, which requests the <a href="https://msdn.microsoft.com/3cc502d8-d364-43b9-b0b6-d9474c002b20">IMFTransform</a> interface.
+Interface identifier (IID) of the interface being requested. Currently this value must be IID_IMFTransform, which requests the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> interface.
 
 
 ### -param ppv [out]
@@ -125,7 +125,7 @@ This input trust authority (ITA) does not provide a decrypter.
 
 
 
-The decrypter should be created in a disabled state, where any calls to <a href="https://msdn.microsoft.com/dc58cc75-7e01-4f47-a572-8e3ca1bc43b4">IMFTransform::ProcessOutput</a> automatically fail. After the input trust authority (ITA) has verified that it is running inside the protected media path (PMP), the ITA should enable the decrypter.
+The decrypter should be created in a disabled state, where any calls to <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">IMFTransform::ProcessOutput</a> automatically fail. After the input trust authority (ITA) has verified that it is running inside the protected media path (PMP), the ITA should enable the decrypter.
 
 An ITA is not required to provide a decrypter. If the source content is not encrypted, the method should return MF_E_NOT_PROTECTED. The PMP will then proceed without using a decrypter for that stream.
 
@@ -139,7 +139,7 @@ The ITA must create a new instance of its decrypter for each call to <b>GetDecry
 
 
 
-<a href="https://msdn.microsoft.com/637e0225-6fd8-4b83-b4fb-119e7a5ef5d2">IMFInputTrustAuthority</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfinputtrustauthority">IMFInputTrustAuthority</a>
  
 
  

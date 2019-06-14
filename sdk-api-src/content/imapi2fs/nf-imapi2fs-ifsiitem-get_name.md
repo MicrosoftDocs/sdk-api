@@ -96,7 +96,7 @@ Value: 0x80004003
 
 
 
-To get the full path to the item, call the <a href="https://msdn.microsoft.com/fb2d6f13-a833-42a3-abbd-39f86b95082d">IFsiItem::get_FullPath</a> method.
+To get the full path to the item, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-get_fullpath">IFsiItem::get_FullPath</a> method.
 
 
 
@@ -106,11 +106,11 @@ To get the full path to the item, call the <a href="https://msdn.microsoft.com/f
 
 
 
-<a href="https://msdn.microsoft.com/44494e66-e6b4-4acb-a2a6-0a3e5cc4a2a0">IFsiItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/fb2d6f13-a833-42a3-abbd-39f86b95082d">IFsiItem::get_FullPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-get_fullpath">IFsiItem::get_FullPath</a>
  
 
  

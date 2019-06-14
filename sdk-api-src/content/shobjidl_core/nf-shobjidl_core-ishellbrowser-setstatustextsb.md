@@ -79,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-It is also possible to send messages directly to the status window by using the <a href="https://msdn.microsoft.com/4494870b-45a8-478a-807a-7ed3674f69f3">IShellBrowser::SendControlMsg</a> method.
+It is also possible to send messages directly to the status window by using the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-sendcontrolmsg">IShellBrowser::SendControlMsg</a> method.
 
 <h3><a id="Notes_to_Calling_Applications"></a><a id="notes_to_calling_applications"></a><a id="NOTES_TO_CALLING_APPLICATIONS"></a>Notes to Calling Applications</h3>
 Use this method to set the contents of the status bar.
@@ -92,7 +92,7 @@ Use this method to set the contents of the status bar.
 
 
 
-<a href="https://msdn.microsoft.com/138d90e3-a1f0-4faf-88ca-16c7a46df0ca">IShellBrowser</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser">IShellBrowser</a>
  
 
  

@@ -68,7 +68,7 @@ The authentication method was preshared.
 
 
 
-Used in conjunction with the <a href="https://msdn.microsoft.com/db020346-45cf-4944-9776-81bb38c7ee6a">SetIScsiIKEInfo</a> function to establish the IPsec policy to use during iSCSI operations. 
+Used in conjunction with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-setiscsiikeinfoa">SetIScsiIKEInfo</a> function to establish the IPsec policy to use during iSCSI operations. 
 
 
 
@@ -80,7 +80,7 @@ Used in conjunction with the <a href="https://msdn.microsoft.com/db020346-45cf-4
 
 
 
-<a href="https://msdn.microsoft.com/d61036f5-a5e8-4c1a-8f99-57fe8e5c5bd0">IKE_AUTHENTICATION_INFORMATION</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-ike_authentication_information">IKE_AUTHENTICATION_INFORMATION</a>
  
 
  

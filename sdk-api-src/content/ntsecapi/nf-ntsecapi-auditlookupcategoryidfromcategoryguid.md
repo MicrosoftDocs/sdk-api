@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>AuditLookupCategoryIdFromCategoryGuid</b> function retrieves an element of the <a href="https://msdn.microsoft.com/e8dbd1d5-37d5-4a97-9d1c-c645871dc7a5">POLICY_AUDIT_EVENT_TYPE</a> enumeration that represents the specified audit-policy category. 
+The <b>AuditLookupCategoryIdFromCategoryGuid</b> function retrieves an element of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_policy_audit_event_type">POLICY_AUDIT_EVENT_TYPE</a> enumeration that represents the specified audit-policy category. 
 
 
 ## -parameters
@@ -64,7 +64,7 @@ A pointer to a <b>GUID</b> structure that specifies an audit-policy category.
 
 ### -param pAuditCategoryId [out]
 
-A pointer to an element of the <a href="https://msdn.microsoft.com/e8dbd1d5-37d5-4a97-9d1c-c645871dc7a5">POLICY_AUDIT_EVENT_TYPE</a> enumeration that represents the audit-policy category specified by the <i>pAuditCategoryGuid</i> parameter.
+A pointer to an element of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_policy_audit_event_type">POLICY_AUDIT_EVENT_TYPE</a> enumeration that represents the audit-policy category specified by the <i>pAuditCategoryGuid</i> parameter.
 
 
 ## -returns
@@ -74,7 +74,7 @@ A pointer to an element of the <a href="https://msdn.microsoft.com/e8dbd1d5-37d5
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -84,7 +84,7 @@ If the function fails, it returns <b>FALSE</b>. To get extended error informatio
 
 
 
-<a href="https://msdn.microsoft.com/2f00fe52-2e94-473a-be13-252b50b58522">AuditLookupCategoryGuidFromCategoryId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditlookupcategoryguidfromcategoryid">AuditLookupCategoryGuidFromCategoryId</a>
  
 
  

@@ -65,7 +65,7 @@ Writes data to the specified file.
 
 ### -param hFile
 
-A handle to the file that receives the data. This handle is created by <a href="https://msdn.microsoft.com/89e19823-c720-4bfc-95d5-18942573dd94">_lcreat</a>.
+A handle to the file that receives the data. This handle is created by <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-_lcreat">_lcreat</a>.
 
 
 ### -param lpBuffer
@@ -82,7 +82,7 @@ The number of bytes to write to the file.
 
 
 
-If the function succeeds, the return value is the number of bytes written to the file. Otherwise, the return value is HFILE_ERROR. To get extended error information, use the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+If the function succeeds, the return value is the number of bytes written to the file. Otherwise, the return value is HFILE_ERROR. To get extended error information, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 
 
@@ -92,7 +92,7 @@ If the function succeeds, the return value is the number of bytes written to the
 
 
 
-<a href="https://msdn.microsoft.com/9d6fa723-fe3e-4052-b0b3-2686eee076a7">WriteFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
  
 
  

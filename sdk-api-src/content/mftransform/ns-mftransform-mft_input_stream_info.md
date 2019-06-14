@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Contains information about an input stream on a Media Foundation transform (MFT). To get these values, call <a href="https://msdn.microsoft.com/d57ffac7-1a92-4c6b-bd59-0acd7239c0a6">IMFTransform::GetInputStreamInfo</a>.
+Contains information about an input stream on a Media Foundation transform (MFT). To get these values, call <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-getinputstreaminfo">IMFTransform::GetInputStreamInfo</a>.
 
 
 
@@ -67,12 +67,12 @@ Maximum amount of time between an input sample and the corresponding output samp
 
 ### -field dwFlags
 
-Bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/d9a05a0f-56a7-4a91-93dc-a5079e51deac">_MFT_INPUT_STREAM_INFO_FLAGS</a> enumeration.
+Bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ne-mftransform-_mft_input_stream_info_flags">_MFT_INPUT_STREAM_INFO_FLAGS</a> enumeration.
 
 
 ### -field cbSize
 
-The minimum size of each input buffer, in bytes. If the size is variable or the MFT does not require a specific size, the value is zero. For uncompressed audio, the value should be the audio frame size, which you can get from the <a href="https://msdn.microsoft.com/7d304826-ad81-4243-a675-2f55b668b348">MF_MT_AUDIO_BLOCK_ALIGNMENT</a> attribute in the media type.
+The minimum size of each input buffer, in bytes. If the size is variable or the MFT does not require a specific size, the value is zero. For uncompressed audio, the value should be the audio frame size, which you can get from the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-audio-block-alignment-attribute">MF_MT_AUDIO_BLOCK_ALIGNMENT</a> attribute in the media type.
           
 
 
@@ -102,7 +102,7 @@ The MFT_INPUT_STREAM_OPTIONAL flag indicates that the stream is optional and doe
 
 </li>
 </ul>
-After you set a media type on all of the input and output streams (not including optional streams), all of the values returned by the <a href="https://msdn.microsoft.com/d57ffac7-1a92-4c6b-bd59-0acd7239c0a6">GetInputStreamInfo</a> method are valid. They might change if you set different media types.
+After you set a media type on all of the input and output streams (not including optional streams), all of the values returned by the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-getinputstreaminfo">GetInputStreamInfo</a> method are valid. They might change if you set different media types.
 
 
 
@@ -112,11 +112,11 @@ After you set a media type on all of the input and output streams (not including
 
 
 
-<a href="https://msdn.microsoft.com/39fdd724-13ca-48ab-8a55-93529d1da3b4">Media Foundation Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb23fe0a-c42c-4912-a0bf-1f0b18a6f4e0">Media Foundation Transforms</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/6429e748-e0bf-431a-8989-db5b211665d5">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The
 				<b>SnmpUtilAsnAnyCpy</b> function copies the variable pointed to by the <i>pAnySrc</i> parameter to the <i>pAnyDst</i> parameter. The function allocates any necessary memory for the destination's copy. The 
@@ -64,7 +64,7 @@ The
 ### -param pAnyDst [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/ce8d002e-f357-499c-b976-f8ebaf1e7142">AsnAny</a> structure to receive the copy.
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-asnany">AsnAny</a> structure to receive the copy.
 
 
 ### -param pAnySrc [in]
@@ -89,7 +89,7 @@ If the function fails, the return value is zero.
 
 
 Call the 
-<a href="https://msdn.microsoft.com/b18c3722-398e-4659-ab1c-edd09d5c220d">SnmpUtilAsnAnyFree</a> function to free the memory that the 
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputilasnanyfree">SnmpUtilAsnAnyFree</a> function to free the memory that the 
 <b>SnmpUtilAsnAnyCpy</b> function allocates for the destination structure.
 
 
@@ -100,19 +100,19 @@ Call the
 
 
 
-<a href="https://msdn.microsoft.com/ce8d002e-f357-499c-b976-f8ebaf1e7142">AsnAny</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-asnany">AsnAny</a>
 
 
 
-<a href="https://msdn.microsoft.com/8913caa9-6b2c-424c-a778-bd54d6584dac">SNMP Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/499e912b-0821-452e-81f6-8a8250875979">Simple Network Management Protocol (SNMP) Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/b18c3722-398e-4659-ab1c-edd09d5c220d">SnmpUtilAsnAnyFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputilasnanyfree">SnmpUtilAsnAnyFree</a>
  
 
  

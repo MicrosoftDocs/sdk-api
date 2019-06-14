@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Computes the ceiling of each component of an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
+Computes the ceiling of each component of an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>.
 
 
 ## -parameters
@@ -96,11 +96,11 @@ return Result;
 
 
 
-<a href="https://msdn.microsoft.com/d7ed4516-74a6-81ec-79a2-2e39cf112d11">Vector Arithmetic Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-arithmetic">Vector Arithmetic Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee421024(v=VS.85).aspx">XMVectorFloor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorfloor">XMVectorFloor</a>
  
 
  

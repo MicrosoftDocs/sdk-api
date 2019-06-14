@@ -59,7 +59,7 @@ Describes buffer requirements for an FFT.
 
 ### -field NumTempBufferSizes
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of temporary buffers needed. 
             Allowed range is 0 to <b>D3DX11_FFT_MAX_TEMP_BUFFERS</b>.
@@ -68,7 +68,7 @@ Number of temporary buffers needed.
 
 ### -field TempBufferFloatSizes
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>[D3DX11_FFT_MAX_TEMP_BUFFERS]</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>[D3DX11_FFT_MAX_TEMP_BUFFERS]</b>
 
 Minimum sizes (in FLOATs) of temporary buffers.
           
@@ -76,7 +76,7 @@ Minimum sizes (in FLOATs) of temporary buffers.
 
 ### -field NumPrecomputeBufferSizes
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of precompute buffers required.  
             Allowed range is 0 to <b>D3DX11_FFT_MAX_PRECOMPUTE_BUFFERS</b>.
@@ -85,7 +85,7 @@ Number of precompute buffers required.
 
 ### -field PrecomputeBufferFloatSizes
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>[D3DX11_FFT_MAX_PRECOMPUTE_BUFFERS]</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>[D3DX11_FFT_MAX_PRECOMPUTE_BUFFERS]</b>
 
 Minimum sizes (in FLOATs) for precompute buffers.
           
@@ -96,11 +96,11 @@ Minimum sizes (in FLOATs) for precompute buffers.
 
 
 The <b>D3DX11_FFT_BUFFER_INFO</b> structure is initialized by a call to one of the create-FFT functions
-          (for example, <a href="https://msdn.microsoft.com/9a386221-b3ed-421d-aa98-933f7d267bdd">D3DX11CreateFFT</a>).
-          For more create-FFT functions, see <a href="https://msdn.microsoft.com/426A132F-E398-473E-BD4E-3D1B4EC92E3F">D3DCSX 11 Functions</a>.
+          (for example, <a href="https://docs.microsoft.com/windows/desktop/api/d3dcsx/nf-d3dcsx-d3dx11createfft">D3DX11CreateFFT</a>).
+          For more create-FFT functions, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3dcsx11-functions">D3DCSX 11 Functions</a>.
         
 
-Use the info in <b>D3DX11_FFT_BUFFER_INFO</b> to allocate raw buffers of the specified (or larger) sizes and then call the <a href="https://msdn.microsoft.com/50c714fc-91fb-4a7d-a430-40ff221a1a14">ID3DX11FFT::AttachBuffersAndPrecompute</a> method to register the buffers with the FFT object.
+Use the info in <b>D3DX11_FFT_BUFFER_INFO</b> to allocate raw buffers of the specified (or larger) sizes and then call the <a href="https://docs.microsoft.com/windows/desktop/api/d3dcsx/nf-d3dcsx-id3dx11fft-attachbuffersandprecompute">ID3DX11FFT::AttachBuffersAndPrecompute</a> method to register the buffers with the FFT object.
         
 
 Some FFT algorithms benefit from precomputing sin and cos. The FFT object might store precomputed data in the user-supplied buffers.
@@ -114,7 +114,7 @@ Some FFT algorithms benefit from precomputing sin and cos. The FFT object might 
 
 
 
-<a href="https://msdn.microsoft.com/ED42B8D1-F4C9-489F-999B-A53BC96BA337">D3DCSX 11 Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3dcsx11-structures">D3DCSX 11 Structures</a>
  
 
  

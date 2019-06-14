@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The optimization mode for the <a href="https://msdn.microsoft.com/6B8C9A0A-81D6-4CC2-B30B-995D4C2E59FC">Gaussian blur effect</a>.
+The optimization mode for the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/gaussian-blur">Gaussian blur effect</a>.
         
 
 

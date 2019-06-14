@@ -82,7 +82,7 @@ The type of process information to be retrieved. This parameter can be one of th
 <td width="60%">
 Retrieves a pointer to a PEB structure that can be used to determine whether the specified process is being debugged, and a unique value used by the system to identify the specified process. 
 
-Use the <a href="https://msdn.microsoft.com/e7eb2d48-4ef3-4708-8895-2bc33d2c3e91">CheckRemoteDebuggerPresent</a> and <a href="https://msdn.microsoft.com/9a024147-8bfe-427a-af12-a63f23328e38">GetProcessId</a>  functions to obtain this information.
+Use the <a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-checkremotedebuggerpresent">CheckRemoteDebuggerPresent</a> and <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessid">GetProcessId</a>  functions to obtain this information.
 
 </td>
 </tr>
@@ -95,7 +95,7 @@ Use the <a href="https://msdn.microsoft.com/e7eb2d48-4ef3-4708-8895-2bc33d2c3e91
 <td width="60%">
 Retrieves a <b>DWORD_PTR</b> value that is the port number of the debugger for the process. A nonzero value indicates that the process is being run under the control of a ring 3 debugger.
 
-Use the <a href="https://msdn.microsoft.com/e7eb2d48-4ef3-4708-8895-2bc33d2c3e91">CheckRemoteDebuggerPresent</a> or <a href="https://msdn.microsoft.com/7bc4bcb7-3f85-4349-a1da-c4ebee2d3e3f">IsDebuggerPresent</a> function.
+Use the <a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-checkremotedebuggerpresent">CheckRemoteDebuggerPresent</a> or <a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-isdebuggerpresent">IsDebuggerPresent</a> function.
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ Use the <a href="https://msdn.microsoft.com/e7eb2d48-4ef3-4708-8895-2bc33d2c3e91
 <td width="60%">
 Determines whether the process is running in the WOW64 environment (WOW64 is the x86 emulator that allows Win32-based applications to run on 64-bit Windows).
 
-Use the <a href="https://msdn.microsoft.com/77B4E3C8-F9DE-4674-9CEA-9C81AEEB393C">IsWow64Process2</a> function to obtain this information.
+Use the <a href="https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process2">IsWow64Process2</a> function to obtain this information.
 
 </td>
 </tr>
@@ -121,7 +121,7 @@ Use the <a href="https://msdn.microsoft.com/77B4E3C8-F9DE-4674-9CEA-9C81AEEB393C
 <td width="60%">
 Retrieves a <b>UNICODE_STRING</b> value containing the name of the image file for the process.
 
-Use the <a href="https://msdn.microsoft.com/49a9d1aa-30f3-45ea-a4ec-9f55df692b8b">QueryFullProcessImageName</a> or <a href="https://msdn.microsoft.com/819fc2f4-0801-417b-9cbb-d7fd2894634e">GetProcessImageFileName</a> function to obtain this information.
+Use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-queryfullprocessimagenamea">QueryFullProcessImageName</a> or <a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-getprocessimagefilenamea">GetProcessImageFileName</a> function to obtain this information.
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ Use the <a href="https://msdn.microsoft.com/49a9d1aa-30f3-45ea-a4ec-9f55df692b8b
 <td width="60%">
 Retrieves a <b>ULONG</b> value indicating whether the process is considered critical.
 
-<div class="alert"><b>Note</b>  This value can be used starting in Windows XP with SP3. Starting in Windows 8.1, <a href="https://msdn.microsoft.com/A5ED8672-B4C3-4A31-8B3F-A181628219A4">IsProcessCritical</a> should be used instead.</div>
+<div class="alert"><b>Note</b>  This value can be used starting in Windows XP with SP3. Starting in Windows 8.1, <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-isprocesscritical">IsProcessCritical</a> should be used instead.</div>
 <div> </div>
 </td>
 </tr>
@@ -145,7 +145,7 @@ Retrieves a <b>ULONG</b> value indicating whether the process is considered crit
 </dl>
 </td>
 <td width="60%">
-Retrieves a <b>SUBSYSTEM_INFORMATION_TYPE</b> value indicating the subsystem type of the process. The buffer pointed to by the <i>ProcessInformation</i> parameter should be large enough to hold a single <a href="https://msdn.microsoft.com/B1E334BF-AAB3-410D-8D10-A750E8459E42">SUBSYSTEM_INFORMATION_TYPE</a> enumeration.
+Retrieves a <b>SUBSYSTEM_INFORMATION_TYPE</b> value indicating the subsystem type of the process. The buffer pointed to by the <i>ProcessInformation</i> parameter should be large enough to hold a single <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ne-ntddk-_subsystem_information_type">SUBSYSTEM_INFORMATION_TYPE</a> enumeration.
 
 </td>
 </tr>
@@ -172,9 +172,9 @@ When the <i>ProcessInformationClass</i>  parameter is <b>ProcessBasicInformation
     ULONG_PTR UniqueProcessId;
     PVOID Reserved3;
 } PROCESS_BASIC_INFORMATION;</code></pre>
-The <b>UniqueProcessId</b> member points to the system's unique identifier for this process. Use the <a href="https://msdn.microsoft.com/9a024147-8bfe-427a-af12-a63f23328e38">GetProcessId</a> function to retrieve this information.
+The <b>UniqueProcessId</b> member points to the system's unique identifier for this process. Use the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessid">GetProcessId</a> function to retrieve this information.
 
-The <b>PebBaseAddress</b> member points to a <a href="https://msdn.microsoft.com/836a6b82-d3e8-4de6-808d-5476dfb51356">PEB</a> structure.
+The <b>PebBaseAddress</b> member points to a <a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-_peb">PEB</a> structure.
 
 The  other members of this structure are reserved for internal use by the operating system.
 
@@ -184,7 +184,7 @@ The  other members of this structure are reserved for internal use by the operat
 
 When the <i>ProcessInformationClass</i>  parameter is <b>ProcessWow64Information</b>,  the buffer pointed to by the <i>ProcessInformation</i> parameter should be large enough to hold a  <b>ULONG_PTR</b>. If this value is nonzero, the process is running in a WOW64 environment; otherwise, if the value is equal to zero, the process is not running in a WOW64 environment.
 
-Use the <a href="https://msdn.microsoft.com/77B4E3C8-F9DE-4674-9CEA-9C81AEEB393C">IsWow64Process2</a> function to determine whether a process is running in the WOW64 environment.
+Use the <a href="https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process2">IsWow64Process2</a> function to determine whether a process is running in the WOW64 environment.
 
 
 
@@ -222,9 +222,9 @@ The forms and significance of NTSTATUS error codes are listed in the Ntstatus.h 
 
 The <b>NtQueryInformationProcess</b> function and the structures that it returns are internal to the operating system and  subject to change from one  release of Windows to another.  To maintain the    compatibility of your application, it is better to use public functions mentioned in the description of the <i>ProcessInformationClass</i> parameter instead.
 
-If you do use <b>NtQueryInformationProcess</b>, access the function through <a href="https://msdn.microsoft.com/0ffce2b1-ce50-4550-aa68-6628fdcac01a">run-time dynamic linking</a>.  This gives  your code an opportunity to respond gracefully if the function has been   changed or removed from the operating system. Signature changes, however, may not be detectable.
+If you do use <b>NtQueryInformationProcess</b>, access the function through <a href="https://docs.microsoft.com/windows/desktop/Dlls/using-run-time-dynamic-linking">run-time dynamic linking</a>.  This gives  your code an opportunity to respond gracefully if the function has been   changed or removed from the operating system. Signature changes, however, may not be detectable.
 
-This function has no associated import library. You must use the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> functions to dynamically link to Ntdll.dll.
+This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Ntdll.dll.
 
 
 
@@ -234,23 +234,23 @@ This function has no associated import library. You must use the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/e7eb2d48-4ef3-4708-8895-2bc33d2c3e91">CheckRemoteDebuggerPresent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-checkremotedebuggerpresent">CheckRemoteDebuggerPresent</a>
 
 
 
-<a href="https://msdn.microsoft.com/9a024147-8bfe-427a-af12-a63f23328e38">GetProcessId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessid">GetProcessId</a>
 
 
 
-<a href="https://msdn.microsoft.com/7bc4bcb7-3f85-4349-a1da-c4ebee2d3e3f">IsDebuggerPresent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-isdebuggerpresent">IsDebuggerPresent</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a237542-e432-487c-aa59-2ede427dd1eb">IsWow64Process</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process">IsWow64Process</a>
 
 
 
-<a href="https://msdn.microsoft.com/77B4E3C8-F9DE-4674-9CEA-9C81AEEB393C">IsWow64Process2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process2">IsWow64Process2</a>
  
 
  

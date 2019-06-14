@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IADsDomain</b> interface is a dual interface that inherits from  <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. It is designed to represent a network domain and manage domain accounts. Use this interface to determine whether the domain is actually a Workgroup, to specify how frequently a user must change a password, and to specify the maximum number of invalid password logins allowed before a lockout on the account is set. To change a password, call the <b>ChangePassword</b> method on an ADSI object that supports password controls. For example, to change the password of a user account, call  <a href="https://msdn.microsoft.com/279087b1-450a-4089-a5f6-257849ae583f">IADsUser::ChangePassword</a> on the user object.
+The <b>IADsDomain</b> interface is a dual interface that inherits from  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>. It is designed to represent a network domain and manage domain accounts. Use this interface to determine whether the domain is actually a Workgroup, to specify how frequently a user must change a password, and to specify the maximum number of invalid password logins allowed before a lockout on the account is set. To change a password, call the <b>ChangePassword</b> method on an ADSI object that supports password controls. For example, to change the password of a user account, call  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsuser-changepassword">IADsUser::ChangePassword</a> on the user object.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsDomain</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsDomain</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsDomain</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> and <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>. <b>IADsDomain</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IADsDomain</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fd6d79b6-46f8-42dd-8525-a72a6e0a7672">Get</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-get">Get</a>
 </td>
 <td align="left" width="63%">
 Gets the value for a property by name.
@@ -79,7 +79,7 @@ Gets the value for a property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cda6b8e7-fadc-4e0b-8217-66b37bf7efbd">GetEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getex">GetEx</a>
 </td>
 <td align="left" width="63%">
 Gets the value for a single or multi-valued property by name.
@@ -88,7 +88,7 @@ Gets the value for a single or multi-valued property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/73ceaeb1-9a6b-449a-9851-3756736dbad7">GetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfo">GetInfo</a>
 </td>
 <td align="left" width="63%">
 Loads the property values of this object from the underlying directory store.
@@ -97,7 +97,7 @@ Loads the property values of this object from the underlying directory store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/306ab953-890a-4ec9-8ec2-bea73888ea20">GetInfoEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfoex">GetInfoEx</a>
 </td>
 <td align="left" width="63%">
 Loads specific property values of this object from the underlying directory store.
@@ -106,7 +106,7 @@ Loads specific property values of this object from the underlying directory stor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b543220d-939b-4ca5-9a27-90b04f14be5d">Put</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-put">Put</a>
 </td>
 <td align="left" width="63%">
 Sets the value for a property by name.
@@ -115,7 +115,7 @@ Sets the value for a property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fb9d9b2c-9efc-4462-ac4b-9a2fbf0b5ec7">PutEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-putex">PutEx</a>
 </td>
 <td align="left" width="63%">
 Sets the value for a single or multi-valued property by name.
@@ -124,7 +124,7 @@ Sets the value for a single or multi-valued property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e7ff6acd-b7c4-463d-a34f-fd793067c63a">SetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">SetInfo</a>
 </td>
 <td align="left" width="63%">
 Persists the changes on this object to the underlying directory store.
@@ -142,7 +142,7 @@ Persists the changes on this object to the underlying directory store.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d2f6f686-a35a-4a9a-9b57-2ceb2f26ef12">AdsPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">AdsPath</a>
 
 
 </td>
@@ -158,7 +158,7 @@ Retrieves the object ADsPath that uniquely identifies this object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/ff2c4cbc-a8d5-4db5-85d4-da3367f27fa0">AutoUnlockInterval</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsdomain-property-methods">AutoUnlockInterval</a>
 
 
 </td>
@@ -174,7 +174,7 @@ Gets and sets the minimum time that can elapse before an account is automaticall
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d2f6f686-a35a-4a9a-9b57-2ceb2f26ef12">Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Class</a>
 
 
 </td>
@@ -190,7 +190,7 @@ Retrieves the name of the object schema class.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d2f6f686-a35a-4a9a-9b57-2ceb2f26ef12">GUID</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">GUID</a>
 
 
 </td>
@@ -206,7 +206,7 @@ Retrieves the GUID of the object as stored in the underlying directory store.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/ff2c4cbc-a8d5-4db5-85d4-da3367f27fa0">IsWorkgroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsdomain-property-methods">IsWorkgroup</a>
 
 
 </td>
@@ -222,7 +222,7 @@ This property is no longer implemented.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/ff2c4cbc-a8d5-4db5-85d4-da3367f27fa0">LockoutObservationInterval</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsdomain-property-methods">LockoutObservationInterval</a>
 
 
 </td>
@@ -238,7 +238,7 @@ Gets and sets the time window for monitoring the account.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/ff2c4cbc-a8d5-4db5-85d4-da3367f27fa0">MaxBadPasswordsAllowed</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsdomain-property-methods">MaxBadPasswordsAllowed</a>
 
 
 </td>
@@ -254,7 +254,7 @@ Gets and sets the maximum number of bad password logins allowed before an accoun
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/ff2c4cbc-a8d5-4db5-85d4-da3367f27fa0">MaxPasswordAge</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsdomain-property-methods">MaxPasswordAge</a>
 
 
 </td>
@@ -270,7 +270,7 @@ Gets and sets the age at which the password must be changed.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/ff2c4cbc-a8d5-4db5-85d4-da3367f27fa0">MinPasswordAge</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsdomain-property-methods">MinPasswordAge</a>
 
 
 </td>
@@ -286,7 +286,7 @@ Gets and sets the minimum age that a password must have before it can be changed
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/ff2c4cbc-a8d5-4db5-85d4-da3367f27fa0">MinPasswordLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsdomain-property-methods">MinPasswordLength</a>
 
 
 </td>
@@ -302,7 +302,7 @@ Gets and sets the minimum number of characters required in the password.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d2f6f686-a35a-4a9a-9b57-2ceb2f26ef12">Name</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Name</a>
 
 
 </td>
@@ -318,7 +318,7 @@ Retrieves the object relative name.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d2f6f686-a35a-4a9a-9b57-2ceb2f26ef12">Parent</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Parent</a>
 
 
 </td>
@@ -334,7 +334,7 @@ Retrieves the ADsPath string for the object parent.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/ff2c4cbc-a8d5-4db5-85d4-da3367f27fa0">PasswordAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsdomain-property-methods">PasswordAttributes</a>
 
 
 </td>
@@ -350,7 +350,7 @@ Gets and sets password restrictions.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/ff2c4cbc-a8d5-4db5-85d4-da3367f27fa0">PasswordHistoryLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsdomain-property-methods">PasswordHistoryLength</a>
 
 
 </td>
@@ -366,7 +366,7 @@ Gets and sets the number of passwords saved.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d2f6f686-a35a-4a9a-9b57-2ceb2f26ef12">Schema</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Schema</a>
 
 
 </td>
@@ -396,20 +396,20 @@ For the WinNT provider supplied by Microsoft, this interface is implemented on t
 
 
 
-<a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
 
 
-<a href="https://msdn.microsoft.com/ff2c4cbc-a8d5-4db5-85d4-da3367f27fa0">IADsDomain Property
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsdomain-property-methods">IADsDomain Property
     Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/cad38632-9f0a-4707-9086-b1248d6f31a6">IADsUser::SetPassword</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsuser-setpassword">IADsUser::SetPassword</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

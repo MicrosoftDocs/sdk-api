@@ -55,7 +55,7 @@ Provides methods the Search service uses to send updates on catalog and index st
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchNotifyInlineSite</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISearchNotifyInlineSite</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchNotifyInlineSite</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISearchNotifyInlineSite</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ISearchNotifyInlineSite</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231459(v=VS.85).aspx">OnCatalogStatusChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchnotifyinlinesite-oncatalogstatuschange">OnCatalogStatusChange</a>
 </td>
 <td align="left" width="63%">
 Called by the search service to notify a client when the status of the catalog changes.
@@ -80,7 +80,7 @@ Called by the search service to notify a client when the status of the catalog c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231460(v=VS.85).aspx">OnItemIndexedStatusChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchnotifyinlinesite-onitemindexedstatuschange">OnItemIndexedStatusChange</a>
 </td>
 <td align="left" width="63%">
 Called by the search service to notify the client when the status of a particular document or item changes.
@@ -100,11 +100,11 @@ Called by the search service to notify the client when the status of a particula
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb266528(v=VS.85).aspx">Notifying the Index of Changes</a>
+<a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-notifyingofchanges">Notifying the Index of Changes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Cc678933(v=VS.85).aspx">The Indexing Process</a>
+<a href="https://docs.microsoft.com/windows/desktop/search/-search-indexing-process-overview">The Indexing Process</a>
  
 
  

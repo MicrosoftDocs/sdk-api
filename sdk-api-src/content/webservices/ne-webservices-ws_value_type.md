@@ -150,6 +150,6 @@ Used to indicate a GUID.
 
 ### -field WS_DURATION_VALUE_TYPE
 
-Used to indicate a <a href="https://msdn.microsoft.com/ccb08c23-8c6f-4ea7-a43b-c30a0df75805">WS_DURATION</a>.
+Used to indicate a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_duration">WS_DURATION</a>.
         
 

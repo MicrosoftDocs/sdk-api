@@ -56,7 +56,7 @@ Represents a cryptographic session.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11CryptoSession</b> interface inherits from <a href="https://msdn.microsoft.com/bed17239-0358-4768-8655-9a1d92f25a2e">ID3D11DeviceChild</a>. <b>ID3D11CryptoSession</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11CryptoSession</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>. <b>ID3D11CryptoSession</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ID3D11CryptoSession</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D6407570-62C0-45D0-9BCB-41EA007D86A6">GetCertificate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11cryptosession-getcertificate">GetCertificate</a>
 </td>
 <td align="left" width="63%">
 Gets the driver's certificate chain.
@@ -80,7 +80,7 @@ Gets the driver's certificate chain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C5FE51B8-A681-4B8C-BFC0-9D0B625292F1">GetCertificateSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11cryptosession-getcertificatesize">GetCertificateSize</a>
 </td>
 <td align="left" width="63%">
 Gets the size of the driver's certificate chain.
@@ -89,7 +89,7 @@ Gets the size of the driver's certificate chain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/AEF55A0B-7052-4264-BC82-DACE06D20A81">GetCryptoSessionHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11cryptosession-getcryptosessionhandle">GetCryptoSessionHandle</a>
 </td>
 <td align="left" width="63%">
 Gets a handle to the cryptographic session.
@@ -98,7 +98,7 @@ Gets a handle to the cryptographic session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D5F62BFA-EA46-4BDD-8D8C-5D9D5BB590B9">GetCryptoType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11cryptosession-getcryptotype">GetCryptoType</a>
 </td>
 <td align="left" width="63%">
 Gets the type of encryption that is supported by this session.
@@ -107,7 +107,7 @@ Gets the type of encryption that is supported by this session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/358025E4-FC6E-4ED1-B02A-ED875DE76BCF">GetDecoderProfile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11cryptosession-getdecoderprofile">GetDecoderProfile</a>
 </td>
 <td align="left" width="63%">
 Gets the decoding profile of the session.
@@ -121,7 +121,7 @@ Gets the decoding profile of the session.
 
 
 
-To get a pointer to this interface, call <a href="https://msdn.microsoft.com/384EE3E1-2B62-477B-8A3F-FDCD06959B74">ID3D11VideoDevice::CreateCryptoSession</a>.
+To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-createcryptosession">ID3D11VideoDevice::CreateCryptoSession</a>.
 
 
 
@@ -131,11 +131,11 @@ To get a pointer to this interface, call <a href="https://msdn.microsoft.com/384
 
 
 
-<a href="https://msdn.microsoft.com/2AE97FFE-0FA4-4CC0-8433-7BA46BCACE30">Direct3D 11 Video Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-interfaces">Direct3D 11 Video Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/bed17239-0358-4768-8655-9a1d92f25a2e">ID3D11DeviceChild</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>
  
 
  

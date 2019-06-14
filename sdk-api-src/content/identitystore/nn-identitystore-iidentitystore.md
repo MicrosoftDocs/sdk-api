@@ -55,7 +55,7 @@ provides methods to enumerate and manage identities and identity providers.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIdentityStore</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IIdentityStore</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIdentityStore</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIdentityStore</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IIdentityStore</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5ce977bc-41fa-4f80-bb82-76a8bdc40e7e">AddtoCache</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/identitystore/nf-identitystore-iidentitystore-addtocache">AddtoCache</a>
 </td>
 <td align="left" width="63%">
 Caches the specified identity in the registry.
@@ -79,34 +79,34 @@ Caches the specified identity in the registry.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/484365a9-aeaf-453f-9a5b-6f88b79f8a35">ConvertToSid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/identitystore/nf-identitystore-iidentitystore-converttosid">ConvertToSid</a>
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) associated with the specified identity and identity provider.
+Retrieves the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) associated with the specified identity and identity provider.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/df1a53e0-6296-49ed-b0f0-85e9dc9ab947">EnumerateIdentities</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/identitystore/nf-identitystore-iidentitystore-enumerateidentities">EnumerateIdentities</a>
 </td>
 <td align="left" width="63%">
-Gets a pointer to an <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms683764">IEnumUnknown</a> interface pointer that can be used to enumerate identities across identity providers.
+Gets a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a> interface pointer that can be used to enumerate identities across identity providers.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c62212bf-852b-43fb-9abf-b85f4d15b305">GetAt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/identitystore/nf-identitystore-iidentitystore-getat">GetAt</a>
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://msdn.microsoft.com/0f23e369-1501-4e72-94d1-dadb9dac5be6">IIdentityProvider</a> interface pointer for the specified identity provider.
+Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nn-identityprovider-iidentityprovider">IIdentityProvider</a> interface pointer for the specified identity provider.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f7f30ab9-f55d-44fa-9098-c6bf865125f8">GetCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/identitystore/nf-identitystore-iidentitystore-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of identity providers registered on the system.
@@ -115,7 +115,7 @@ Gets the number of identity providers registered on the system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3a01fde0-0ef6-401a-8af4-ee3310da568a">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/identitystore/nf-identitystore-iidentitystore-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Sets the current index of the identity enumeration to zero.
@@ -130,7 +130,7 @@ Sets the current index of the identity enumeration to zero.
 
 
 
-<a href="https://msdn.microsoft.com/0f23e369-1501-4e72-94d1-dadb9dac5be6">IIdentityProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nn-identityprovider-iidentityprovider">IIdentityProvider</a>
  
 
  

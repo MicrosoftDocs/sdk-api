@@ -64,7 +64,7 @@ The parameter number.
 
 ### -param pInfo [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/0f3a1e81-c8b6-4141-8712-c600b30a2779">CALLFRAMEPARAMINFO</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/callobj/ns-callobj-__midl_icallframe_0002">CALLFRAMEPARAMINFO</a> structure.
 
 
 ## -returns
@@ -111,7 +111,7 @@ An unexpected error has occurred.
 
 
 
-<a href="https://msdn.microsoft.com/56a75123-f402-4187-af13-d31f72a5f094">ICallFrame</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>
  
 
  

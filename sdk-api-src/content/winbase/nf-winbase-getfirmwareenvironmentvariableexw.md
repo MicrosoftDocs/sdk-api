@@ -83,7 +83,7 @@ The size of the <i>pValue</i> buffer, in bytes.
 
 ### -param pdwAttribubutes
 
-Bitmask identifying UEFI variable attributes associated with the variable. See <a href="https://msdn.microsoft.com/D3C2F03F-66F6-40A4-830E-058BBA925ACD">SetFirmwareEnvironmentVariableEx</a> for the bitmask definition.
+Bitmask identifying UEFI variable attributes associated with the variable. See <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setfirmwareenvironmentvariableexa">SetFirmwareEnvironmentVariableEx</a> for the bitmask definition.
 
 
 ## -returns
@@ -93,7 +93,7 @@ Bitmask identifying UEFI variable attributes associated with the variable. See <
 If the function succeeds, the return value is the number of bytes stored in the <i>pValue</i> buffer.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. Possible error codes include ERROR_INVALID_FUNCTION.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible error codes include ERROR_INVALID_FUNCTION.
 
 
 
@@ -102,9 +102,9 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-Starting with Windows 10, version 1803, Universal Windows apps can read and write UEFI firmware variables. See <a href="https://msdn.microsoft.com/en-us/library/Mt829375(v=VS.85).aspx">Access UEFI firmware variables from a Universal Windows App</a>for details.
+Starting with Windows 10, version 1803, Universal Windows apps can read and write UEFI firmware variables. See <a href="https://docs.microsoft.com/windows/desktop/SysInfo/access-uefi-firmware-variables-from-a-universal-windows-app">Access UEFI firmware variables from a Universal Windows App</a>for details.
 
-To read a UEFI firmware environment variable, the user account that the app is running under must have the <a href="https://msdn.microsoft.com/library/windows/desktop/bb530716(v=vs.85).aspx">SE_SYSTEM_ENVIRONMENT_NAME</a> privilege. A Universal Windows app must be run from an administrator account and follow the requirements outlined in <a href="https://msdn.microsoft.com/en-us/library/Mt829375(v=VS.85).aspx">Access UEFI firmware variables from a Universal Windows App</a>.
+To read a UEFI firmware environment variable, the user account that the app is running under must have the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/privilege-constants">SE_SYSTEM_ENVIRONMENT_NAME</a> privilege. A Universal Windows app must be run from an administrator account and follow the requirements outlined in <a href="https://docs.microsoft.com/windows/desktop/SysInfo/access-uefi-firmware-variables-from-a-universal-windows-app">Access UEFI firmware variables from a Universal Windows App</a>.
 
 Starting with Windows 10, version 1803, reading Unified Extensible Firmware Interface (UEFI) variables is also supported from User-Mode Driver Framework (UMDF) drivers. Writing UEFI variables from UMDF drivers is not supported.
 
@@ -112,7 +112,7 @@ The exact set of firmware environment variables is determined by the boot firmwa
 
 Firmware variables are not supported on a legacy BIOS-based system. The <b>GetFirmwareEnvironmentVariableEx</b> function will always fail on a legacy BIOS-based system, or if Windows was installed using legacy BIOS on a system that supports both legacy BIOS and UEFI. To identify these conditions, call the function with a dummy firmware environment name such as an empty string ("") for the <i>lpName</i> parameter and a dummy GUID such as "{00000000-0000-0000-0000-000000000000}" for the <i>lpGuid</i> parameter. On a legacy BIOS-based system, or on a system that supports both legacy BIOS and UEFI where Windows was installed using legacy BIOS, the function will fail with  ERROR_INVALID_FUNCTION. On a UEFI-based system, the function will  fail with an error specific to the firmware, such as ERROR_NOACCESS, to indicate that the dummy GUID namespace does not exist. 
 
-If you are creating a backup application, you can use this function to save all the boot settings for the system so they can be restored using the <a href="https://msdn.microsoft.com/42117632-61aa-4f83-abe1-c08f40cf3f0a">SetFirmwareEnvironmentVariable</a> 
+If you are creating a backup application, you can use this function to save all the boot settings for the system so they can be restored using the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setfirmwareenvironmentvariablea">SetFirmwareEnvironmentVariable</a> 
 	 function if needed. 
 
 
@@ -123,15 +123,15 @@ If you are creating a backup application, you can use this function to save all 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt829375(v=VS.85).aspx">Access UEFI firmware variables from a Universal Windows App</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/access-uefi-firmware-variables-from-a-universal-windows-app">Access UEFI firmware variables from a Universal Windows App</a>
 
 
 
-<a href="https://msdn.microsoft.com/18e74e54-ecfe-46bf-8c9d-9eb16d22f3ba">GetFirmwareEnvironmentVariable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfirmwareenvironmentvariablea">GetFirmwareEnvironmentVariable</a>
 
 
 
-<a href="https://msdn.microsoft.com/D3C2F03F-66F6-40A4-830E-058BBA925ACD">SetFirmwareEnvironmentVariableEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setfirmwareenvironmentvariableexa">SetFirmwareEnvironmentVariableEx</a>
  
 
  

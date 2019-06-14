@@ -73,7 +73,7 @@ Returns an <b>HRESULT</b> value that gives additional information about the last
 
 
 
-<a href="https://msdn.microsoft.com/08F161FE-C0E5-44EE-923E-646ADA534C42">IMFMediaError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaerror">IMFMediaError</a>
  
 
  

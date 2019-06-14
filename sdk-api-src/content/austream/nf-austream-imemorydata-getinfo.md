@@ -90,7 +90,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-This method determines how much data the object currently contains as last set by <a href="https://msdn.microsoft.com/en-us/library/Dd407082(v=VS.85).aspx">SetActual</a>.
+This method determines how much data the object currently contains as last set by <a href="https://docs.microsoft.com/windows/desktop/api/austream/nf-austream-imemorydata-setactual">SetActual</a>.
 
 
 
@@ -100,7 +100,7 @@ This method determines how much data the object currently contains as last set b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd407080(v=VS.85).aspx">IMemoryData Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/austream/nn-austream-imemorydata">IMemoryData Interface</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>IWTSProtocolConnection::Close</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://msdn.microsoft.com/8d159e3f-b429-4522-b608-0068b1f7fa4e">IWRdsProtocolConnection::Close</a>.]
+<p class="CCE_Message">[<b>IWTSProtocolConnection::Close</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnection-close">IWRdsProtocolConnection::Close</a>.]
 
 Closes a connection after the session is disconnected.
 
@@ -65,7 +65,7 @@ Closes a connection after the session is disconnected.
 
 
 
- The protocol should perform whatever cleanup is necessary to close the connection and delete the <a href="https://msdn.microsoft.com/ac8a2a66-fa1f-48bd-9502-def833e26f31">IWTSProtocolConnectionCallback</a>  object.
+ The protocol should perform whatever cleanup is necessary to close the connection and delete the <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnectioncallback">IWTSProtocolConnectionCallback</a>  object.
 
 
 
@@ -75,7 +75,7 @@ Closes a connection after the session is disconnected.
 
 
 
-<a href="https://msdn.microsoft.com/584a6874-0df4-480e-a10a-4b603643870e">IWTSProtocolConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>
  
 
  

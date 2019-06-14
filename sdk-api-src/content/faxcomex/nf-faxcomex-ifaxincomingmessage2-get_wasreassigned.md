@@ -62,7 +62,7 @@ Indicates if the fax has been reassigned.
 
 
 
-This property is always VARIANT_FALSE when the fax arrives at the server. If it is reassigned by a <a href="https://msdn.microsoft.com/en-us/library/Aa358860(v=VS.85).aspx">routing assistant</a>, the fax service sets it to VARIANT_TRUE.
+This property is always VARIANT_FALSE when the fax arrives at the server. If it is reassigned by a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-glossary">routing assistant</a>, the fax service sets it to VARIANT_TRUE.
 
 
 
@@ -72,11 +72,11 @@ This property is always VARIANT_FALSE when the fax arrives at the server. If it 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686126(v=VS.85).aspx">FaxIncomingMessage</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage">FaxIncomingMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358995(v=VS.85).aspx">IFaxIncomingMessage2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingmessage2">IFaxIncomingMessage2</a>
  
 
  

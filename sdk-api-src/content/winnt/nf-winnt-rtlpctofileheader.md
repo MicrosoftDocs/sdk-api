@@ -87,7 +87,7 @@ If no image contains the PC value, the function returns <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/624b97fb-0453-4f47-b6bd-92aa14705e78">RtlLookupFunctionEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-rtllookupfunctionentry">RtlLookupFunctionEntry</a>
  
 
  

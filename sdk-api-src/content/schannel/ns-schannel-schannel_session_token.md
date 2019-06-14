@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies whether reconnections are enabled for an authentication session created by calling either the <a href="https://msdn.microsoft.com/c451089a-d10d-469c-99dd-43d75a6b0b2a">InitializeSecurityContext (Schannel)</a> function or the <a href="https://msdn.microsoft.com/03fd5272-8476-4c93-8590-0d00acf6a130">AcceptSecurityContext (Schannel)</a>  function.
+Specifies whether reconnections are enabled for an authentication session created by calling either the <a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">InitializeSecurityContext (Schannel)</a> function or the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (Schannel)</a>  function.
 
 
 ## -struct-fields
@@ -101,7 +101,7 @@ Reconnections are disabled.
 
 
 
-Add a session token to a client context by using this structure as the value of the <i>pInput</i> parameter in a call to the <a href="https://msdn.microsoft.com/5ce13a05-874c-4e1a-9be8-aed98609791e">ApplyControlToken</a> function.
+Add a session token to a client context by using this structure as the value of the <i>pInput</i> parameter in a call to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-applycontroltoken">ApplyControlToken</a> function.
 
 This API only applies to Session ID-based reconnects.
 

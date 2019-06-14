@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PEER_NAME_PAIR</b> structure contains the results of a call to  <a href="https://msdn.microsoft.com/015faeb3-82d9-49e5-a451-7394bf83240f">PeerGetNextItem</a>.
+The <b>PEER_NAME_PAIR</b> structure contains the results of a call to  <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergetnextitem">PeerGetNextItem</a>.
 
 
 ## -struct-fields
@@ -90,15 +90,15 @@ When enumerating peer groups,  each <b>PEER_NAME_PAIR</b>  structure contains th
 
 
 
-<a href="https://msdn.microsoft.com/debb3c57-b5d2-440b-acf2-b6d8e712849b">PeerEnumGroups</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerenumgroups">PeerEnumGroups</a>
 
 
 
-<a href="https://msdn.microsoft.com/91f18185-0292-41a3-8aff-8b345cab5e82">PeerEnumIdentities</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerenumidentities">PeerEnumIdentities</a>
 
 
 
-<a href="https://msdn.microsoft.com/015faeb3-82d9-49e5-a451-7394bf83240f">PeerGetNextItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergetnextitem">PeerGetNextItem</a>
  
 
  

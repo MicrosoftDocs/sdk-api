@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Converts an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> with <b>float</b> components to an
+Converts an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> with <b>float</b> components to an
   <b>XMVECTOR</b> with <b>int32_t</b> components and applies a uniform bias.
 
 
@@ -93,15 +93,15 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/6a0a8422-991d-00aa-0fd7-b41387adc72e">DirectXMath Library Conversion Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-conversion">DirectXMath Library Conversion Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437933(v=VS.85).aspx">XMConvertVectorFloatToUInt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmconvertvectorfloattouint">XMConvertVectorFloatToUInt</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437934(v=VS.85).aspx">XMConvertVectorIntToFloat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmconvertvectorinttofloat">XMConvertVectorIntToFloat</a>
  
 
  

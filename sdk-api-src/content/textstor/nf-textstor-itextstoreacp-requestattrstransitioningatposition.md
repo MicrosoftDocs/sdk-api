@@ -69,12 +69,12 @@ Specifies the number of attributes to obtain.
 
 ### -param paFilterAttrs [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/5e375609-3d3c-4c12-ae05-dcaa70779162">TS_ATTRID</a> data type that specifies the attribute to verify.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/TSF/ts-attrid">TS_ATTRID</a> data type that specifies the attribute to verify.
 
 
 ### -param dwFlags [in]
 
-Specifies attributes for the call to the <a href="https://msdn.microsoft.com/6cd34ca5-6561-4161-beac-98248f0415f6">ITextStoreACP::RetrieveRequestedAttrs</a> method. If this parameter is not set, the method returns the attributes that start at the specified position. Other possible values for this parameter are the following.
+Specifies attributes for the call to the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-retrieverequestedattrs">ITextStoreACP::RetrieveRequestedAttrs</a> method. If this parameter is not set, the method returns the attributes that start at the specified position. Other possible values for this parameter are the following.
 
 <table>
 <tr>
@@ -97,7 +97,7 @@ Obtains the attributes that end at the specified application character position.
 </dl>
 </td>
 <td width="60%">
-Obtains the value of the attribute in addition to the attribute. The attribute value is put into the <b>varValue</b> member of the <a href="https://msdn.microsoft.com/9209ef60-6a1d-4aad-9f9f-775534116f37">TS_ATTRVAL</a> structure during the <b>ITextStoreACP::RetrieveRequestedAttrs</b> method call.
+Obtains the value of the attribute in addition to the attribute. The attribute value is put into the <b>varValue</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_attrval">TS_ATTRVAL</a> structure during the <b>ITextStoreACP::RetrieveRequestedAttrs</b> method call.
 
 </td>
 </tr>
@@ -149,26 +149,26 @@ If the flag TS_ATTR_FIND_WANT_END is set in <i>dwFlags</i>, the method would ret
 
 
 
-<a href="https://msdn.microsoft.com/21e011f7-6791-4eb9-85c9-18bd10107119">ITextStoreACP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a>
 
 
 
-<a href="https://msdn.microsoft.com/6cd34ca5-6561-4161-beac-98248f0415f6">ITextStoreACP::RetrieveRequestedAttrs
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-retrieverequestedattrs">ITextStoreACP::RetrieveRequestedAttrs
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/5e375609-3d3c-4c12-ae05-dcaa70779162">TS_ATTRID
+<a href="https://docs.microsoft.com/windows/desktop/TSF/ts-attrid">TS_ATTRID
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/9209ef60-6a1d-4aad-9f9f-775534116f37">TS_ATTRVAL
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_attrval">TS_ATTRVAL
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/e99a44ba-c41a-4dd7-9475-dd37159081fd">TS_ATTR_* Constants
+<a href="https://docs.microsoft.com/windows/desktop/TSF/ts-attr--constants">TS_ATTR_* Constants
       </a>
  
 

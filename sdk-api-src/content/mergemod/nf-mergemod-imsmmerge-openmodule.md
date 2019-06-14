@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>OpenModule</b> method opens a Windows Installer merge module in read-only mode. A module must be opened before it can be merged with an installation database. For more information, see the 
-<a href="https://msdn.microsoft.com/fc976899-2c39-4314-b2fb-417e0dfc53b9">OpenModule</a> method of the 
-<a href="https://msdn.microsoft.com/3f76ee8a-d195-4a69-99a3-31ef2c1c72d5">Merge</a> object.  
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-openmodule">OpenModule</a> method of the 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-object">Merge</a> object.  
 
 <b>IMsmMerge2::OpenModule</b>    Mergemod.dll version 2.0 and later.<div> </div><b>IMsmMerge::OpenModule</b>      All Mergemod.dll versions.
 			
@@ -92,7 +92,7 @@ The <b>OpenModule</b> function returns the following values.
 </td>
 <td width="60%">
 The file specified is an Windows Installer database, but is not a merge module (missing 
-<a href="https://msdn.microsoft.com/09802282-72ad-43f1-8cce-4cdc68b01e87">ModuleSignature table</a>).
+<a href="https://docs.microsoft.com/windows/desktop/Msi/modulesignature-table">ModuleSignature table</a>).
 
 </td>
 </tr>
@@ -162,15 +162,15 @@ The function succeeded.
 
 
 This function opens the merge module in read-only mode (MSIDBOPEN_READONLY), and excludes other programs from writing to the merge module until the 
-<a href="https://msdn.microsoft.com/a11f72cf-4c4e-4650-95f9-549169452622">CloseModule</a> function is called. A merge module must be opened before it can be merged.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-closemodule">CloseModule</a> function is called. A merge module must be opened before it can be merged.
 
 The installer attempts to open the module in the language specified by <i>Language</i> or in any more general language. For example, if 1033 is specified by the <i>Language</i> value, a module with a default language of 1033, 9, or 0 is opened in its default language. A <i>Language</i> value of 9  opens modules with a default language of 9 or 0. If the default language of the module does not meet the specified requirements, an attempt is made to transform the module into the requested language. If that fails, the installer attempts to transform the module into increasingly general languages, all the way to language neutral. If none of the transforms succeed, the module fails to open. In this case, an error is added to the error list of type msmErrorLanguageUnsupported and the function returns ERROR_INSTALL_LANGUAGE_UNSUPPORTED as HRESULT.
 
 If there is an error transforming the module to the desired language, an error is created of type msmErrorLanguageFailed and the function returns ERROR_INSTALL_TRANSFORM_FAILURE as HRESULT.
 
 For more information, see the 
-<a href="https://msdn.microsoft.com/5567ba71-c815-4434-962c-aa46cd171712">Type</a> property of the 
-<a href="https://msdn.microsoft.com/38025e21-2d31-40f8-a088-2d3912c2893e">Error</a> object.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/error-type">Type</a> property of the 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/error-object">Error</a> object.
 
 Opening a merge module clears any errors that have not already been retrieved.
 
@@ -182,7 +182,7 @@ Opening a merge module clears any errors that have not already been retrieved.
 
 
 
-<a href="https://msdn.microsoft.com/877d3691-948f-4aea-89d8-0ff008126ccc">Merge Module Automation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
  
 
  

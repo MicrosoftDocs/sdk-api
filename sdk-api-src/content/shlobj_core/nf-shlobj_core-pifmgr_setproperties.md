@@ -63,7 +63,7 @@ Assigns values to a block of data from a .pif file.
 
 Type: <b>HANDLE</b>
 
-A handle to the application's properties. This parameter should be set to the value that is returned by <a href="https://msdn.microsoft.com/0bc11528-7278-4765-b3cb-671ba82c9155">PifMgr_OpenProperties</a>.
+A handle to the application's properties. This parameter should be set to the value that is returned by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_openproperties">PifMgr_OpenProperties</a>.
 
 
 ### -param pszGroup [in, optional]
@@ -124,7 +124,7 @@ Returns the amount of information transferred, in bytes. Returns zero if the gro
 
 
 
-<a href="https://msdn.microsoft.com/62933ddf-9b0d-427a-8b5f-a0117a3b4885">PifMgr_GetProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_getproperties">PifMgr_GetProperties</a>
  
 
  

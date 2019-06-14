@@ -74,7 +74,7 @@ The fully qualified source file name.
 
 
 
-<a href="https://msdn.microsoft.com/4649bdc6-74c5-4529-bedc-64e0277144d0">SymEnumSourceFiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumsourcefiles">SymEnumSourceFiles</a>
  
 
  

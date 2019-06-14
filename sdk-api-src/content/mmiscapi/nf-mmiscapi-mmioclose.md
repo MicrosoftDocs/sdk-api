@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-The <b>mmioClose</b> function closes a file that was opened by using the <a href="https://msdn.microsoft.com/7361f0f2-1c3c-49f1-aec1-2927e05ef0f0">mmioOpen</a> function.
+The <b>mmioClose</b> function closes a file that was opened by using the <a href="https://docs.microsoft.com/previous-versions//dd757331(v=vs.85)">mmioOpen</a> function.
 
 
 
@@ -91,7 +91,7 @@ Flags for the close operation. The following value is defined.
 
 
 
-Returns zero if successful or an error otherwise. The error value can originate from the <a href="https://msdn.microsoft.com/78c2740b-c4fa-4dad-ae4f-0d5b41557669">mmioFlush</a> function or from the I/O procedure. Possible error values include the following.
+Returns zero if successful or an error otherwise. The error value can originate from the <a href="https://docs.microsoft.com/previous-versions//dd757319(v=vs.85)">mmioFlush</a> function or from the I/O procedure. Possible error values include the following.
 
 <table>
 <tr>

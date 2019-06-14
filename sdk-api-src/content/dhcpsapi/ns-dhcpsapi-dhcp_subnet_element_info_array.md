@@ -64,7 +64,7 @@ Specifies the number of elements in <b>Elements</b>.
 
 ### -field Elements
 
-Pointer to a list of <a href="https://msdn.microsoft.com/d6c32be0-a080-42c1-b9bf-3f5da2c4dbe0">DHCP_SUBNET_ELEMENT_DATA</a> structures that contain the data for the corresponding subnet elements.
+Pointer to a list of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_subnet_element_data">DHCP_SUBNET_ELEMENT_DATA</a> structures that contain the data for the corresponding subnet elements.
 
 
 ### -field Elements.size_is
@@ -84,11 +84,11 @@ Pointer to a list of <a href="https://msdn.microsoft.com/d6c32be0-a080-42c1-b9bf
 
 
 
-<a href="https://msdn.microsoft.com/d6c32be0-a080-42c1-b9bf-3f5da2c4dbe0">DHCP_SUBNET_ELEMENT_DATA</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_subnet_element_data">DHCP_SUBNET_ELEMENT_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/1e2f1476-2a73-4298-80f7-c57efdc10fd2">DhcpEnumSubnetElements</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpenumsubnetelements">DhcpEnumSubnetElements</a>
  
 
  

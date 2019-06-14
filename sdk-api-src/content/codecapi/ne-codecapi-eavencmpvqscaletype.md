@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Specifies whether the quantizer scale is linear or non-linear. This enumeration is used with the <a href="https://msdn.microsoft.com/0d1a62a2-7595-4c10-a1cf-d32dda337ecd">AVEncMPVQScaleType</a> property.
+Specifies whether the quantizer scale is linear or non-linear. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencmpvqscaletype-property">AVEncMPVQScaleType</a> property.
 
 
 
@@ -85,11 +85,11 @@ The quantization scale is non-linear.
 
 
 
-<a href="https://msdn.microsoft.com/5d6e48cb-d181-448e-a96e-e5ab500427d7">Codec API Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
  
 
  

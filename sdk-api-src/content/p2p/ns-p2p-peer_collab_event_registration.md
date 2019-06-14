@@ -60,7 +60,7 @@ The <b>PEER_COLLAB_EVENT_REGISTRATION</b> structure contains the data used by a 
 ### -field eventType
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa371332(v=VS.85).aspx">PEER_COLLAB_EVENT_TYPE</a> enumeration value that specifies the type of peer collaboration network event for which to register.
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_collab_event_type_tag">PEER_COLLAB_EVENT_TYPE</a> enumeration value that specifies the type of peer collaboration network event for which to register.
 
 
 ### -field pInstance
@@ -84,11 +84,11 @@ When <b></b>this member is set, notification will be sent only for the specific 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa371332(v=VS.85).aspx">PEER_COLLAB_EVENT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_collab_event_type_tag">PEER_COLLAB_EVENT_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/2634899c-3263-45ce-9fac-407e11e42cd4">Peer Collaboration API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-structures">Peer Collaboration API Structures</a>
  
 
  

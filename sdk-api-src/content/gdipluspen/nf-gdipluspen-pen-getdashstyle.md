@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>Pen::GetDashStyle</b> method gets the dash style currently set for this 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object.
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object.
 
 
 ## -parameters
@@ -65,11 +65,11 @@ The <b>Pen::GetDashStyle</b> method gets the dash style currently set for this
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534104(v=VS.85).aspx">DashStyle</a></b>
+Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-dashstyle">DashStyle</a></b>
 </strong>
 
-This method returns an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534104(v=VS.85).aspx">DashStyle</a> enumeration that indicates the dash style for this 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object.
+This method returns an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-dashstyle">DashStyle</a> enumeration that indicates the dash style for this 
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object.
 
 
 
@@ -79,39 +79,39 @@ This method returns an element of the <a href="https://msdn.microsoft.com/en-us/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534104(v=VS.85).aspx">DashStyle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-dashstyle">DashStyle</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533850(v=VS.85).aspx">Drawing a Custom Dashed Line</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-drawing-a-custom-dashed-line-use">Drawing a Custom Dashed Line</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535024(v=VS.85).aspx">Pen::GetDashCap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-getdashcap">Pen::GetDashCap</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535025(v=VS.85).aspx">Pen::GetDashOffset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-getdashoffset">Pen::GetDashOffset</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535026(v=VS.85).aspx">Pen::GetDashPattern</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-getdashpattern">Pen::GetDashPattern</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535027(v=VS.85).aspx">Pen::GetDashPatternCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-getdashpatterncount">Pen::GetDashPatternCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535047(v=VS.85).aspx">Pen::SetDashCap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-setdashcap">Pen::SetDashCap</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535048(v=VS.85).aspx">Pen::SetDashOffset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-setdashoffset">Pen::SetDashOffset</a>
 
 
 
@@ -119,11 +119,11 @@ This method returns an element of the <a href="https://msdn.microsoft.com/en-us/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535050(v=VS.85).aspx">Pen::SetDashStyle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-setdashstyle">Pen::SetDashStyle</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
  
 
  

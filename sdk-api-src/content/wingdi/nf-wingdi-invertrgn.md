@@ -89,7 +89,7 @@ On monochrome screens, the <b>InvertRgn</b> function makes white pixels black an
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/64cd6e82-7a0d-4b5e-b491-450f37eea43a">Using Brushes</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/using-brushes">Using Brushes</a>.
 
 <div class="code"></div>
 
@@ -100,19 +100,19 @@ For an example, see <a href="https://msdn.microsoft.com/64cd6e82-7a0d-4b5e-b491-
 
 
 
-<a href="https://msdn.microsoft.com/c4e0eca5-442b-462b-a4f2-0c628b6d3d38">FillRgn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-fillrgn">FillRgn</a>
 
 
 
-<a href="https://msdn.microsoft.com/7656fb67-d865-459e-b379-4f2e44c76fd0">PaintRgn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-paintrgn">PaintRgn</a>
 
 
 
-<a href="https://msdn.microsoft.com/3a42fc7a-4c07-4540-99a7-520f99532f33">Region Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/region-functions">Region Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d2e8624-4d1a-44f7-821e-a54f6f538214">Regions Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/regions">Regions Overview</a>
  
 
  

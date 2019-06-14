@@ -96,7 +96,7 @@ The attendee can view and interact with the session. The local keyboard and mous
        session. Hosting applications that want to allow users to control the shared session must either define 
        <b>uiAccess</b> as "true" in their application manifest OR run at High Integrity 
        Level (elevated). For more information see 
-       <a href="https://msdn.microsoft.com/0c3689e1-2124-4142-b0bd-233e95ee1285">Setting UIAccess in the Application Manifest File</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-securityoverview">Setting UIAccess in the Application Manifest File</a>.
 
 <b>Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:  </b>This enumeration value is not supported.
 
@@ -111,15 +111,15 @@ Maximum enumeration value.
 
 
 
-<a href="https://msdn.microsoft.com/b154580d-f541-4668-9255-607ab2de46a9">ControlLevel Property of IRDPSRAPIAttendee</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiattendee-get_controllevel">ControlLevel Property of IRDPSRAPIAttendee</a>
 
 
 
-<a href="https://msdn.microsoft.com/be913f3c-9a5b-46bd-be9a-1ba0b0c20211">IRDPSRAPIViewer::RequestControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiviewer-requestcontrol">IRDPSRAPIViewer::RequestControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/24021ff3-6dde-40c4-9dac-279442bd085d">OnControlLevelChangeRequest</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdp/oncontrollevelchangerequest">OnControlLevelChangeRequest</a>
  
 
  

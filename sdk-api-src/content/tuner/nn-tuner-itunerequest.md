@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>ITuneRequest</b> interface is the base interface for all tune requests. Each tune request object supports a network-specific interface that derives from <b>ITuneRequest</b>, such as <a href="https://msdn.microsoft.com/9b55e181-ae03-473c-a85a-f169744d911d">IATSCChannelTuneRequest</a> or <a href="https://msdn.microsoft.com/4d519bbc-38e1-47ce-bd73-a3eb1ea399d6">IDVBTuneRequest</a>.
+The <b>ITuneRequest</b> interface is the base interface for all tune requests. Each tune request object supports a network-specific interface that derives from <b>ITuneRequest</b>, such as <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iatscchanneltunerequest">IATSCChannelTuneRequest</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-idvbtunerequest">IDVBTuneRequest</a>.
 
 This interface is used by any application that creates tune requests, such as a Guide Store loader. A tune request must be associated with a specific network type. When a tune request is submitted, the derived interfaces are used by the Network Provider to extract the tuning information required by the hardware. All tune request objects also support <b>IPersistPropertyBag</b>, which enables them to be persisted in some type of third-party storage mechanism.
 
@@ -59,7 +59,7 @@ This interface is used by any application that creates tune requests, such as a 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITuneRequest</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITuneRequest</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITuneRequest</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITuneRequest</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>ITuneRequest</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/14298e56-805d-48f3-9f78-79d4eaf2239f">Clone</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-itunerequest-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Returns a new copy of this tune request.
@@ -83,7 +83,7 @@ Returns a new copy of this tune request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f15ef4f6-ca36-4d46-93c7-26f1fbcb21cd">get_Components</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-itunerequest-get_components">get_Components</a>
 </td>
 <td align="left" width="63%">
 Retrieves the components contained in this tune request.
@@ -92,16 +92,16 @@ Retrieves the components contained in this tune request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9f2a000a-0133-44f4-8e9c-7d37435596d7">get_Locator</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-itunerequest-get_locator">get_Locator</a>
 </td>
 <td align="left" width="63%">
-Called from the Network Provider to get the <a href="https://msdn.microsoft.com/1d6c18f0-e7f1-4a1c-9edb-e4b66297becf">ILocator</a> object associated with the requested broadcast.
+Called from the Network Provider to get the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator">ILocator</a> object associated with the requested broadcast.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6952df72-30f3-4c33-a0bf-d2ad8022042c">get_TuningSpace</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-itunerequest-get_tuningspace">get_TuningSpace</a>
 </td>
 <td align="left" width="63%">
 Retrieves the tuning space that was used to create this tune request.
@@ -110,10 +110,10 @@ Retrieves the tuning space that was used to create this tune request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/798ff904-5f08-4d3b-8a56-ca1c2df52aaf">put_Locator</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-itunerequest-put_locator">put_Locator</a>
 </td>
 <td align="left" width="63%">
-Called from the Network Provider to set the <a href="https://msdn.microsoft.com/1d6c18f0-e7f1-4a1c-9edb-e4b66297becf">ILocator</a> object associated with the requested broadcast.
+Called from the Network Provider to set the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator">ILocator</a> object associated with the requested broadcast.
 
 </td>
 </tr>
@@ -134,11 +134,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d956e1d-88b3-4236-9987-f37f674645de">Tuning Model Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
  
 
  

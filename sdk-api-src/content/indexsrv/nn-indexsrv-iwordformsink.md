@@ -55,7 +55,7 @@ Handles the list of alternative word forms that stemmers generate during query t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWordFormSink</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWordFormSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWordFormSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWordFormSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IWordFormSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4F6A3E88-A17C-4CA3-849D-FF0DC06D5DC3">PutAltWord</a>
+<a href="https://docs.microsoft.com/windows/desktop/search/iwordformsink-putphrase">PutAltWord</a>
 </td>
 <td align="left" width="63%">
 Puts an alternative form of a word in the <b>IWordFormSink</b> object.
@@ -79,7 +79,7 @@ Puts an alternative form of a word in the <b>IWordFormSink</b> object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/333A3109-6C0A-42AE-9E10-87F53C7F737C">PutWord</a>
+<a href="https://docs.microsoft.com/windows/desktop/search/iwordformsink-putword">PutWord</a>
 </td>
 <td align="left" width="63%">
 Puts the original word form in the <b>IWordFormSink</b> object.
@@ -93,12 +93,12 @@ Puts the original word form in the <b>IWordFormSink</b> object.
 
 
 
-Windows Search creates and initializes instances of the StemSink object. The <b>IWordFormSink</b> object receives the <i>ulMaxTokenSize</i> parameter during initialization. The value for this parameter is determined by the <a href="https://msdn.microsoft.com/en-us/library/Bb266437(v=VS.85).aspx">IStemmer</a> implementation and determines the maximum length, in characters, for a single word that the <b>IWordFormSink</b> handles.
+Windows Search creates and initializes instances of the StemSink object. The <b>IWordFormSink</b> object receives the <i>ulMaxTokenSize</i> parameter during initialization. The value for this parameter is determined by the <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-istemmer">IStemmer</a> implementation and determines the maximum length, in characters, for a single word that the <b>IWordFormSink</b> handles.
 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb266437(v=VS.85).aspx">IStemmer</a> implementations receive a pointer to the <b>IWordFormSink</b> object in the <a href="https://msdn.microsoft.com/en-us/library/Bb266434(v=VS.85).aspx">GenerateWordForms</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-istemmer">IStemmer</a> implementations receive a pointer to the <b>IWordFormSink</b> object in the <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nf-indexsrv-istemmer-generatewordforms">GenerateWordForms</a> method.
 
 
 
@@ -110,7 +110,7 @@ Windows Search creates and initializes instances of the StemSink object. The <b>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb266437(v=VS.85).aspx">IStemmer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-istemmer">IStemmer</a>
  
 
  

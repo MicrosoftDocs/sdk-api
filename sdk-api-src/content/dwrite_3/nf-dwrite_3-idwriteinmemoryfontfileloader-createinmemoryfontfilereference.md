@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a font file reference (<a href="https://msdn.microsoft.com/d4be5466-0b6c-4cc5-9f16-aa00c6037eb9">IDWriteFontFile</a> object) from an array of bytes. The font file reference is bound to the <a href="https://msdn.microsoft.com/E4B2ADAD-E4B8-4655-BABD-F3FC6A3D4F58">IDWriteInMemoryFontFileLoader</a> instance with which it was
+Creates a font file reference (<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontfile">IDWriteFontFile</a> object) from an array of bytes. The font file reference is bound to the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwriteinmemoryfontfileloader">IDWriteInMemoryFontFileLoader</a> instance with which it was
         created and remains valid for as long as that loader is registered with the factory.
       
 
@@ -62,7 +62,7 @@ Creates a font file reference (<a href="https://msdn.microsoft.com/d4be5466-0b6c
 
 ### -param factory
 
-Type: <b><a href="https://msdn.microsoft.com/73a85977-5c24-4abc-ad8c-1d0d6474bd7e">IDWriteFactory</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>*</b>
 
 Factory object used to create the font file reference.
 
@@ -83,7 +83,7 @@ Size of the font data.
 
 ### -param ownerObject [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680509(v=vs.85).aspx">IUnknown</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
 Optional object that owns the memory specified by the fontData parameter. If this parameter is not NULL, the method stores a
           pointer to the font data and adds a reference to the owner object. The fontData pointer must remain valid until the owner object is released. If
@@ -92,7 +92,7 @@ Optional object that owns the memory specified by the fontData parameter. If thi
 
 ### -param fontFile [out]
 
-Type: <b><a href="https://msdn.microsoft.com/d4be5466-0b6c-4cc5-9f16-aa00c6037eb9">IDWriteFontFile</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontfile">IDWriteFontFile</a>**</b>
 
 Receives a pointer to the newly-created font file reference.
 
@@ -101,7 +101,7 @@ Receives a pointer to the newly-created font file reference.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 
@@ -117,7 +117,7 @@ This method returns an HRESULT success or error code.
 
 
 
-<a href="https://msdn.microsoft.com/E4B2ADAD-E4B8-4655-BABD-F3FC6A3D4F58">IDWriteInMemoryFontFileLoader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwriteinmemoryfontfileloader">IDWriteInMemoryFontFileLoader</a>
  
 
  

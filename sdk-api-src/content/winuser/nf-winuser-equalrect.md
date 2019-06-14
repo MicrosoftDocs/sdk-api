@@ -97,11 +97,11 @@ Because applications can use rectangles for different purposes, the rectangle fu
 
 
 
-<a href="https://msdn.microsoft.com/9deeed4f-304e-47a3-8259-ed7bc3815fd7">IsRectEmpty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-isrectempty">IsRectEmpty</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a47a238-082c-44b8-a270-5ebb4d3d9fc8">PtInRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-ptinrect">PtInRect</a>
 
 
 
@@ -109,11 +109,11 @@ Because applications can use rectangles for different purposes, the rectangle fu
 
 
 
-<a href="https://msdn.microsoft.com/b03da8c9-ee6d-4045-8d90-8beceb09ead5">Rectangle Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/rectangle-functions">Rectangle Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/23c251d1-b8c5-425f-b2b3-44954cf653e9">Rectangles Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/rectangles">Rectangles Overview</a>
  
 
  

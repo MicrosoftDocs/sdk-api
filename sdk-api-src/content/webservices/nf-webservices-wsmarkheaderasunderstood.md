@@ -54,9 +54,9 @@ This function
             
                 The set of headers is extensible and Message assimilation by the receiver is not accessible by the sender.  This function is the receiving applications method for making it known to the sender that the received header has been read and understood.
 <div class="alert"><b>Note</b>  This function should be used only if the application receives a message indicating that the  header
-                must be understood and it did not acquire the header using <a href="https://msdn.microsoft.com/ff6e639f-715d-4a4f-b0ef-35202aa54dc5">WsGetHeader</a>or <a href="https://msdn.microsoft.com/bdfb441b-afc4-4be8-b437-f299a31ce84b">WsGetCustomHeader</a>.
-            The <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE</a> must be in the set to  <b>WS_MESSAGE_STATE_READING</b>.
-            See .<a href="https://msdn.microsoft.com/28ca98e5-911b-436d-a592-781b832ca6cc">WsCheckMustUnderstandHeaders</a> for more information.</div><div> </div>
+                must be understood and it did not acquire the header using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetheader">WsGetHeader</a>or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetcustomheader">WsGetCustomHeader</a>.
+            The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE</a> must be in the set to  <b>WS_MESSAGE_STATE_READING</b>.
+            See .<a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscheckmustunderstandheaders">WsCheckMustUnderstandHeaders</a> for more information.</div><div> </div>
 
 ## -parameters
 
@@ -77,7 +77,7 @@ A pointer to the position of the header element within the XML header segment.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 
@@ -150,8 +150,8 @@ This function may return other errors not listed above.
 
 
 When the application reads the header using an XML Reader,
-                it should obtain a <a href="https://msdn.microsoft.com/40ca058c-04e1-4358-b330-360a094a8791">WS_XML_NODE_POSITION</a> of the header element
-                and pass it to this function.  See <a href="https://msdn.microsoft.com/91e543f3-7325-4a90-9b99-c98918478853">WsGetReaderPosition</a> for
+                it should obtain a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_node_position">WS_XML_NODE_POSITION</a> of the header element
+                and pass it to this function.  See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetreaderposition">WsGetReaderPosition</a> for
                 how to obtain a <b>WS_XML_NODE_POSITION</b>.
             
 

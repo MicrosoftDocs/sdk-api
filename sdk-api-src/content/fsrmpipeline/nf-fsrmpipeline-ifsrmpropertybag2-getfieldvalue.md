@@ -59,7 +59,7 @@ Gets the value of the specified field from the property bag.
 
 ### -param field [in]
 
-Type: <b><a href="https://msdn.microsoft.com/7a8cd6a6-7933-4190-b4fc-1b1cd653bd14">FsrmPropertyBagField</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmpropertybagfield">FsrmPropertyBagField</a></b>
 
 Indicates whether the volume name returned is the name of the volume being accessed, which may be a snapshot, or the volume where the property bag lives.
 
@@ -87,11 +87,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/7a8cd6a6-7933-4190-b4fc-1b1cd653bd14">FsrmPropertyBagField</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmpropertybagfield">FsrmPropertyBagField</a>
 
 
 
-<a href="https://msdn.microsoft.com/8f69556f-b96e-49b5-bc40-242768ebe767">IFsrmPropertyBag2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertybag2">IFsrmPropertyBag2</a>
  
 
  

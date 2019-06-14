@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Extends the <a href="https://msdn.microsoft.com/66513683-38ca-4b19-88d5-d14bf7ae73eb">IACList</a> interface to enable clients of an autocomplete object to retrieve and set option flags.
+Extends the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iaclist">IACList</a> interface to enable clients of an autocomplete object to retrieve and set option flags.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IACList2</b> interface inherits from <a href="https://msdn.microsoft.com/66513683-38ca-4b19-88d5-d14bf7ae73eb">IACList</a>. <b>IACList2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IACList2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iaclist">IACList</a>. <b>IACList2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IACList2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/767c1972-8bc8-46d5-abf0-8c5749c0bf0e">GetOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iaclist2-getoptions">GetOptions</a>
 </td>
 <td align="left" width="63%">
 Gets the current autocomplete options.
@@ -78,7 +78,7 @@ Gets the current autocomplete options.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/963428b3-408f-4bdd-b230-9e73f21247a7">SetOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iaclist2-setoptions">SetOptions</a>
 </td>
 <td align="left" width="63%">
 Sets the current autocomplete options.
@@ -92,11 +92,11 @@ Sets the current autocomplete options.
 
 
 
-This interface also provides the methods of the <a href="https://msdn.microsoft.com/66513683-38ca-4b19-88d5-d14bf7ae73eb">IACList</a> interface from which it inherits.
+This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iaclist">IACList</a> interface from which it inherits.
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 
-<a href="https://msdn.microsoft.com/bed6eb41-3086-4af7-8c75-651da9dba3b2">Autocompletion</a> clients implement this interface to enable the autocomplete object to retrieve and set options. The options are basically a request that the client generate a list with the names of all the files and subfolders contained by one or more specified folders. The autocomplete object then calls the client's <a href="https://msdn.microsoft.com/7f3e642a-17c7-4646-8c70-da6b0946a415">IEnumString</a> interface to request the strings.
+<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-iautocomplete">Autocompletion</a> clients implement this interface to enable the autocomplete object to retrieve and set options. The options are basically a request that the client generate a list with the names of all the files and subfolders contained by one or more specified folders. The autocomplete object then calls the client's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a> interface to request the strings.
 
 <h3><a id="When_to_Use"></a><a id="when_to_use"></a><a id="WHEN_TO_USE"></a>When to Use</h3>
 Typically, this interface is not used directly by applications.

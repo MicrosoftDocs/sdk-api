@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>EngUnmapFile</b> function unmaps the view of a file from <a href="https://msdn.microsoft.com/5f6fec1a-1134-4765-81be-9b50939e5e66">system space</a>.
+The <b>EngUnmapFile</b> function unmaps the view of a file from <a href="https://docs.microsoft.com/windows-hardware/drivers/">system space</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>EngUnmapFile</b> function unmaps the view of a file from <a href="https:/
 
 ### -param iFile [in]
 
-Pointer to the identifier of the mapped file. This identifier was obtained in a prior call to <a href="https://msdn.microsoft.com/6887f7e1-f94f-421c-be7a-14a41d621ce1">EngMapFile</a>.
+Pointer to the identifier of the mapped file. This identifier was obtained in a prior call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmapfile">EngMapFile</a>.
 
 
 ## -returns
@@ -76,7 +76,7 @@ Pointer to the identifier of the mapped file. This identifier was obtained in a 
 
 
 
-<a href="https://msdn.microsoft.com/6887f7e1-f94f-421c-be7a-14a41d621ce1">EngMapFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmapfile">EngMapFile</a>
  
 
  

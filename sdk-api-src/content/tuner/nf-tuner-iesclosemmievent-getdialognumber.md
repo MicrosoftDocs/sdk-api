@@ -77,7 +77,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/c470fefb-61bb-4315-ad56-ef5bc90a4ac7">IESCloseMmiEvent</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iesclosemmievent">IESCloseMmiEvent</a>
  
 
  

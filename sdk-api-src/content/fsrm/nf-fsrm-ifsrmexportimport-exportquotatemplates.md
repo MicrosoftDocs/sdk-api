@@ -93,13 +93,13 @@ This method can return the following error codes.
 
 
 The quota template name is specified when you call the 
-    <a href="https://msdn.microsoft.com/d8dbc0fb-de02-4491-94f5-e845a2338251">IFsrmQuotaTemplateManager::CreateTemplate</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotatemplatemanager-createtemplate">IFsrmQuotaTemplateManager::CreateTemplate</a> 
     method. To enumerate the templates, call the 
-    <a href="https://msdn.microsoft.com/e5f5b94a-6b17-4379-9141-07ec70a830e9">IFsrmQuotaTemplateManager::EnumTemplates</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotatemplatemanager-enumtemplates">IFsrmQuotaTemplateManager::EnumTemplates</a> 
     method.
 
 You can also use the 
-    <a href="https://msdn.microsoft.com/36ba071b-4db2-42fb-90a8-838c45dfdd16">IFsrmQuotaTemplateManager::ExportTemplates</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotatemplatemanager-exporttemplates">IFsrmQuotaTemplateManager::ExportTemplates</a> 
     method to export the templates.
 
 
@@ -110,11 +110,11 @@ You can also use the
 
 
 
-<a href="https://msdn.microsoft.com/ea707982-2d2d-4fb9-a97a-ee5b2a61f8a9">FsrmExportImport</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmexportimport">FsrmExportImport</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a3b682e-d2c3-43b3-9d10-4bba9d9c81d4">IFsrmExportImport</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmexportimport">IFsrmExportImport</a>
  
 
  

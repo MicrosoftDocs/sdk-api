@@ -61,7 +61,7 @@ The
 ### -param hDevice [in]
 
 Handle to the device for which to set configuration information. This handle is created by using the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
 
 ### -param dwOperation [in]
@@ -104,13 +104,13 @@ Sets the tape-specific information specified by the <i>lpTapeInformation</i> par
 ### -param lpTapeInformation [in]
 
 Pointer to a structure that contains the information to set. If the <i>dwOperation</i> parameter is SET_TAPE_MEDIA_INFORMATION, <i>lpTapeInformation</i> points to a 
-<a href="https://msdn.microsoft.com/20243a64-2644-4519-b746-ba33f0893e49">TAPE_SET_MEDIA_PARAMETERS</a> structure. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_tape_set_media_parameters">TAPE_SET_MEDIA_PARAMETERS</a> structure. 
 
 
 
 
 If <i>dwOperation</i> is SET_TAPE_DRIVE_INFORMATION, <i>lpTapeInformation</i> points to a 
-<a href="https://msdn.microsoft.com/5615e83a-99c0-4214-8621-7e0561512816">TAPE_SET_DRIVE_PARAMETERS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_tape_set_drive_parameters">TAPE_SET_DRIVE_PARAMETERS</a> structure.
 
 
 ## -returns
@@ -317,15 +317,15 @@ The media is write protected.
 
 
 
-<a href="https://msdn.microsoft.com/87e59e29-e174-4462-b692-512c3380eb4d">GetTapeParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/5615e83a-99c0-4214-8621-7e0561512816">TAPE_SET_DRIVE_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_tape_set_drive_parameters">TAPE_SET_DRIVE_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/20243a64-2644-4519-b746-ba33f0893e49">TAPE_SET_MEDIA_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_tape_set_media_parameters">TAPE_SET_MEDIA_PARAMETERS</a>
  
 
  

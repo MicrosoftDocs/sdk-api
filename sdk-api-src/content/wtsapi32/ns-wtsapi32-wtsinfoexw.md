@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains a <a href="https://msdn.microsoft.com/d3df1f40-698b-43ca-808d-0df5550b6eae">WTSINFOEX_LEVEL</a> union that contains extended information about a Remote Desktop Services session. This structure is returned by the <a href="https://msdn.microsoft.com/d52345a4-0408-4ea9-ba71-349910143752">WTSQuerySessionInformation</a> function when you specify "WTSSessionInfoEx" for the <i>WTSInfoClass</i> parameter.
+Contains a <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wtsinfoex_level_a">WTSINFOEX_LEVEL</a> union that contains extended information about a Remote Desktop Services session. This structure is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsquerysessioninformationa">WTSQuerySessionInformation</a> function when you specify "WTSSessionInfoEx" for the <i>WTSInfoClass</i> parameter.
 
 
 ## -struct-fields
@@ -67,17 +67,17 @@ Specifies the level  of information contained in the <b>Data</b> member. This ca
 
 #### 1
 
-The <b>Data</b> member is a <a href="https://msdn.microsoft.com/bad4f35a-04a9-42fa-b87e-0f51e9f0f30e">WTSINFOEX_LEVEL1</a> structure.
+The <b>Data</b> member is a <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wtsinfoex_level1_a">WTSINFOEX_LEVEL1</a> structure.
 
 
 ### -field Data
 
-A <a href="https://msdn.microsoft.com/d3df1f40-698b-43ca-808d-0df5550b6eae">WTSINFOEX_LEVEL</a> union. The type of structure contained here is specified by the <b>Level</b> member.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wtsinfoex_level_a">WTSINFOEX_LEVEL</a> union. The type of structure contained here is specified by the <b>Level</b> member.
 
 
 ##### - Level.1
 
-The <b>Data</b> member is a <a href="https://msdn.microsoft.com/bad4f35a-04a9-42fa-b87e-0f51e9f0f30e">WTSINFOEX_LEVEL1</a> structure.
+The <b>Data</b> member is a <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wtsinfoex_level1_a">WTSINFOEX_LEVEL1</a> structure.
 
 
 ## -see-also
@@ -85,11 +85,11 @@ The <b>Data</b> member is a <a href="https://msdn.microsoft.com/bad4f35a-04a9-42
 
 
 
-<a href="https://msdn.microsoft.com/d3df1f40-698b-43ca-808d-0df5550b6eae">WTSINFOEX_LEVEL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wtsinfoex_level_a">WTSINFOEX_LEVEL</a>
 
 
 
-<a href="https://msdn.microsoft.com/d52345a4-0408-4ea9-ba71-349910143752">WTSQuerySessionInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsquerysessioninformationa">WTSQuerySessionInformation</a>
  
 
  

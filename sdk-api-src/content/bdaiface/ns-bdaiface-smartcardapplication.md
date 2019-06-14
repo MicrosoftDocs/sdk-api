@@ -62,7 +62,7 @@ The <b>SmartCardApplication</b> structure identifies a smart card application.
 
 ### -field ApplicationType
 
-Member of the <a href="https://msdn.microsoft.com/8df28daf-7e45-416c-8376-6716bd1783d4">ApplicationTypeType</a> enumeration.
+Member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/applicationtypetype">ApplicationTypeType</a> enumeration.
 
 
 ### -field ApplicationVersion
@@ -85,7 +85,7 @@ Application URL.
 
 
 
-<a href="https://msdn.microsoft.com/5ae43ac6-519d-486b-aaa5-c766f3194ef2">BDA Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-structures">BDA Structures</a>
  
 
  

@@ -49,14 +49,14 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IImePad</b> interface inserts text into apps from IMEPadApplets that implement the  <a href="https://msdn.microsoft.com/F3BC7176-9659-47B6-AFCA-049807394961">IImePadApplet</a> interface.
+The <b>IImePad</b> interface inserts text into apps from IMEPadApplets that implement the  <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a> interface.
 
 IMEPadApplets can insert their own strings into the current active app by calling <b>IImePad</b> and the  Microsoft IME.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IImePad</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IImePad</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IImePad</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IImePad</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,10 +71,10 @@ The <b>IImePad</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C74B0374-D6C7-44C7-94EF-E97B46534462">Request</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imepad/nf-imepad-iimepad-request">Request</a>
 </td>
 <td align="left" width="63%">
-Called by an  <a href="https://msdn.microsoft.com/F3BC7176-9659-47B6-AFCA-049807394961">IImePadApplet</a> to insert text into an app.
+Called by an  <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a> to insert text into an app.
 
 </td>
 </tr>

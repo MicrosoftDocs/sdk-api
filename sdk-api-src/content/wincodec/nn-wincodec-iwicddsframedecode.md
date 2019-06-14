@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Provides access to a single frame of DDS image data in its native <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> form, as well as information about the image data.
+Provides access to a single frame of DDS image data in its native <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> form, as well as information about the image data.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICDdsFrameDecode</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWICDdsFrameDecode</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICDdsFrameDecode</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICDdsFrameDecode</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWICDdsFrameDecode</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D090AA8E-46F2-40C9-A156-12038053E040">CopyBlocks</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicddsframedecode-copyblocks">CopyBlocks</a>
 </td>
 <td align="left" width="63%">
 Requests pixel data as it is natively stored within the DDS file.
@@ -78,7 +78,7 @@ Requests pixel data as it is natively stored within the DDS file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0D5B9E45-E1EA-4D16-B793-63FEAB2BAF65">GetFormatInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicddsframedecode-getformatinfo">GetFormatInfo</a>
 </td>
 <td align="left" width="63%">
 Gets information about the format in which the DDS image is stored.
@@ -87,7 +87,7 @@ Gets information about the format in which the DDS image is stored.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/34F3A19C-4B68-4E6A-AE08-71DE9A0687BF">GetSizeInBlocks</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicddsframedecode-getsizeinblocks">GetSizeInBlocks</a>
 </td>
 <td align="left" width="63%">
 Gets the width and height, in blocks, of the DDS image.
@@ -101,7 +101,7 @@ Gets the width and height, in blocks, of the DDS image.
 
 
 
-This interface is implemented by the WIC DDS codec. To obtain this interface, create an <a href="https://msdn.microsoft.com/1498b800-6449-440f-bed7-85891637e559">IWICBitmapFrameDecode</a> using the DDS codec and QueryInterface for IID_IWICDdsFrameDecode.
+This interface is implemented by the WIC DDS codec. To obtain this interface, create an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframedecode">IWICBitmapFrameDecode</a> using the DDS codec and QueryInterface for IID_IWICDdsFrameDecode.
 
 
 

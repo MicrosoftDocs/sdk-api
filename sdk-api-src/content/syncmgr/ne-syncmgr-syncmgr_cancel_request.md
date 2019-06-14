@@ -74,5 +74,5 @@ Stop the synchronization entirely.
 
 ### -field SYNCMGR_CR_MAX
 
-The maximum valid <a href="https://msdn.microsoft.com/81cf8dcc-c847-41e0-82e2-b5f547fc03cf">SYNCMGR_CANCEL_REQUEST</a> value.
+The maximum valid <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_cancel_request">SYNCMGR_CANCEL_REQUEST</a> value.
 

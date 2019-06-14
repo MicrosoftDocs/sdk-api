@@ -173,15 +173,15 @@ The menu item.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647991(v=VS.85).aspx">LoadMenuIndirect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadmenuindirecta">LoadMenuIndirect</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647583(v=VS.85).aspx">MENUITEMTEMPLATEHEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-menuitemtemplateheader">MENUITEMTEMPLATEHEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
 
 
 

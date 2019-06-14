@@ -63,7 +63,7 @@ Gets the paragraph reading direction.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/37288d34-d533-474c-b3c0-8c6361074a9b">DWRITE_READING_DIRECTION</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_reading_direction">DWRITE_READING_DIRECTION</a></b>
 
 The reading direction of the current paragraph.
 
@@ -75,7 +75,7 @@ The reading direction of the current paragraph.
 
 
 
-<a href="https://msdn.microsoft.com/7e2a523d-9191-4f99-9e73-a7955c432126">IDWriteTextAnalysisSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextanalysissource">IDWriteTextAnalysisSource</a>
  
 
  

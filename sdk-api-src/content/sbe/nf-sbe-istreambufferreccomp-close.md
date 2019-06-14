@@ -94,7 +94,7 @@ Success
 
 
 
-This method is called automatically when the <a href="https://msdn.microsoft.com/4f7fcdee-f6e2-4288-a11c-f0076858be67">RecComp</a> object is released.
+This method is called automatically when the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/reccomp-object">RecComp</a> object is released.
 
 
 
@@ -104,7 +104,7 @@ This method is called automatically when the <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/2998d606-d5ee-4dc3-a4da-57c597c6b594">IStreamBufferRecComp Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferreccomp">IStreamBufferRecComp Interface</a>
  
 
  

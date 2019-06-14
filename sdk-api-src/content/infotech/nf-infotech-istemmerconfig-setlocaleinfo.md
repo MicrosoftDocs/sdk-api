@@ -121,7 +121,7 @@ Locale described by the parameters is not supported.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms670063(v=VS.85).aspx">IStemmerConfig</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nn-infotech-istemmerconfig">IStemmerConfig</a>
  
 
  

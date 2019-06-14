@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>FindSample</b> method obtains the position in a stream of a key frame or a nonempty frame. Called when an application uses the <a href="https://msdn.microsoft.com/2bd89f50-0d3a-4c34-b7b8-dc29f2d54d55">AVIStreamFindSample</a> function.
+The <b>FindSample</b> method obtains the position in a stream of a key frame or a nonempty frame. Called when an application uses the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avistreamfindsample">AVIStreamFindSample</a> function.
 
 
 
@@ -142,11 +142,11 @@ LONG FindSample(LONG lPos, LONG lFlags)
 
 
 
-<a href="https://msdn.microsoft.com/ced6f7d1-5f27-47f4-a912-8c17ea5fa685">Custom File and Stream Handler Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/c61e0118-d405-4c1e-9ae8-ed6a145a5d6b">Custom File and Stream Handlers</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
  
 
  

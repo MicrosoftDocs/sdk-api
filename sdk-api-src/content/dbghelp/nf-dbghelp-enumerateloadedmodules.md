@@ -68,7 +68,7 @@ A handle to the process whose modules will be enumerated.
 ### -param EnumLoadedModulesCallback [in]
 
 An application-defined callback function. For more information, see 
-<a href="https://msdn.microsoft.com/f6acb9cf-81f7-4b05-95e2-9628855f6b51">EnumerateLoadedModulesProc64</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-penumloaded_modules_callback">EnumerateLoadedModulesProc64</a>.
 
 
 ### -param UserContext [in, optional]
@@ -83,7 +83,7 @@ Optional user-defined data. This value is passed to the callback function.
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -113,7 +113,7 @@ EnumerateLoadedModulesW64(
 
 
 This function supersedes the <i>EnumerateLoadedModules</i> function. For more information, see 
-<a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <i>EnumerateLoadedModules</i> is defined as follows in DbgHelp.h. 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <i>EnumerateLoadedModules</i> is defined as follows in DbgHelp.h. 
 
 
 ```cpp
@@ -139,11 +139,11 @@ EnumerateLoadedModules(
 
 
 
-<a href="https://msdn.microsoft.com/7b28f70b-2d97-4cc2-8064-dfb806f9cffa">DbgHelp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/f6acb9cf-81f7-4b05-95e2-9628855f6b51">EnumerateLoadedModulesProc64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-penumloaded_modules_callback">EnumerateLoadedModulesProc64</a>
  
 
  

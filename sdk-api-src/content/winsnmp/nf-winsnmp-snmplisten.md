@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/6429e748-e0bf-431a-8989-db5b211665d5">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The WinSNMP 
 <b>SnmpListen</b> function registers a WinSNMP application as an SNMP agent. An agent application calls this function to inform the Microsoft WinSNMP implementation that an entity will be acting in the role of an SNMP agent. An application also calls this function to inform the implementation when an entity will no longer be acting in this role. The 
@@ -69,8 +69,8 @@ Handle to the WinSNMP entity to notify when the Microsoft WinSNMP implementation
 
 
 When you call the 
-<a href="https://msdn.microsoft.com/8d982eb5-a7b5-418e-94ad-3e5dc43d225c">SnmpCreateSession</a> function, you can specify whether the implementation should use a window notification message or an 
-<a href="https://msdn.microsoft.com/9871b4a8-c96c-48a7-9e7e-7fe1c259545e">SNMPAPI_CALLBACK</a> function to notify the application when an SNMP message or asynchronous event is available.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcreatesession">SnmpCreateSession</a> function, you can specify whether the implementation should use a window notification message or an 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nc-winsnmp-snmpapi_callback">SNMPAPI_CALLBACK</a> function to notify the application when an SNMP message or asynchronous event is available.
 
 
 ### -param lStatus [in]
@@ -117,7 +117,7 @@ Passing a value of SNMPAPI_OFF releases both the resources allocated to the enti
 If the function succeeds, the return value is SNMPAPI_SUCCESS.
 
 If the function fails, the return value is SNMPAPI_FAILURE. To get extended error information, call 
-<a href="https://msdn.microsoft.com/0cfb2bc3-cfa5-4806-9dcf-119541463e7b">SnmpGetLastError</a>. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpgetlasterror">SnmpGetLastError</a>. The 
 <b>SnmpGetLastError</b> function can return one of the following errors.
 
 <table>
@@ -133,7 +133,7 @@ If the function fails, the return value is SNMPAPI_FAILURE. To get extended erro
 </td>
 <td width="60%">
 The 
-<a href="https://msdn.microsoft.com/7b8a4a1e-871f-424b-8bcb-c0b3bfaae9ce">SnmpStartup</a> function did not complete successfully.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstartup">SnmpStartup</a> function did not complete successfully.
 
 </td>
 </tr>
@@ -156,7 +156,7 @@ An error occurred during memory allocation.
 </td>
 <td width="60%">
 The <i>hEntity</i> parameter is invalid. This parameter must be a handle returned by a previous call to the 
-<a href="https://msdn.microsoft.com/d0a8e389-ba5b-45f4-9682-1fbe456daaed">SnmpStrToEntity</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstrtoentity">SnmpStrToEntity</a> function.
 
 </td>
 </tr>
@@ -226,16 +226,16 @@ An unknown or undefined error occurred.
 
 
 When you specify an entity, you explicitly specify the address family, interface address, and port for the entity. This is because WinSNMP assigns these attributes to each WinSNMP entity as a result of a call to the 
-<a href="https://msdn.microsoft.com/d0a8e389-ba5b-45f4-9682-1fbe456daaed">SnmpStrToEntity</a> function. The implementation uses the address and port settings currently assigned to the entity specified by the <i>hEntity</i> parameter when it sends notifications to the agent application. For more information, see 
-<a href="https://msdn.microsoft.com/8b495a60-f1ef-4170-bf11-c98bb3dc857b">SnmpSetPort</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstrtoentity">SnmpStrToEntity</a> function. The implementation uses the address and port settings currently assigned to the entity specified by the <i>hEntity</i> parameter when it sends notifications to the agent application. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpsetport">SnmpSetPort</a>.
 
 When you call the 
-<a href="https://msdn.microsoft.com/eac678f4-c77c-46b5-9c45-62b5822079da">SnmpClose</a> function for a WinSNMP session and the 
-<a href="https://msdn.microsoft.com/348f06e6-b408-4962-a0bc-8ff3e2ee21fa">SnmpCleanup</a> function for a WinSNMP application, you must release all ports associated with WinSNMP agent applications.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpclose">SnmpClose</a> function for a WinSNMP session and the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcleanup">SnmpCleanup</a> function for a WinSNMP application, you must release all ports associated with WinSNMP agent applications.
 
 For more information about SNMP management applications and agent applications, see 
-<a href="https://msdn.microsoft.com/473560b5-4611-410e-aeae-764c9c76e765">Registering an SNMP Agent Application</a> and 
-<a href="https://msdn.microsoft.com/55be55a8-1968-4373-a969-f7e03b75a824">About SNMP</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/registering-an-snmp-agent-application">Registering an SNMP Agent Application</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/about-snmp">About SNMP</a>.
 
 
 
@@ -245,36 +245,36 @@ For more information about SNMP management applications and agent applications, 
 
 
 
-<a href="https://msdn.microsoft.com/348f06e6-b408-4962-a0bc-8ff3e2ee21fa">SnmpCleanup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcleanup">SnmpCleanup</a>
 
 
 
-<a href="https://msdn.microsoft.com/eac678f4-c77c-46b5-9c45-62b5822079da">SnmpClose</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpclose">SnmpClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/0e306e40-cccc-4083-b3ba-97b8ece0ae35">SnmpRecvMsg</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmprecvmsg">SnmpRecvMsg</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4b9f4bb-24f0-4b5e-b12d-8be839b34895">SnmpSendMsg</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpsendmsg">SnmpSendMsg</a>
 
 
 
-<a href="https://msdn.microsoft.com/8b495a60-f1ef-4170-bf11-c98bb3dc857b">SnmpSetPort</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpsetport">SnmpSetPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/d0a8e389-ba5b-45f4-9682-1fbe456daaed">SnmpStrToEntity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstrtoentity">SnmpStrToEntity</a>
 
 
 
-<a href="https://msdn.microsoft.com/ae95ac47-81ff-4715-b3e9-e19c07223712">WinSNMP
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-functions">WinSNMP
 		  Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/54d9b61a-815a-41c3-9365-ec4478acc3f2">WinSNMP API Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>
  
 
  

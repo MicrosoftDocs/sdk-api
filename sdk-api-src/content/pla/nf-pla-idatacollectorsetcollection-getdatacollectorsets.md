@@ -64,7 +64,7 @@ The computer whose data collector sets you want to enumerate. You can specify a 
 
 ### -param filter [in]
 
-If empty, PLA enumerates sets from all namespaces; otherwise, specify a specific namespace to enumerate. The form is &lt;namespace&gt;\*. For possible namespace values, see <a href="https://msdn.microsoft.com/7e432e1f-4b86-45dc-93d5-df603068273d">IDataCollectorSet::Commit</a>.
+If empty, PLA enumerates sets from all namespaces; otherwise, specify a specific namespace to enumerate. The form is &lt;namespace&gt;\*. For possible namespace values, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-commit">IDataCollectorSet::Commit</a>.
 
 
 ## -returns
@@ -110,7 +110,7 @@ Unable to find the remote computer.
 
 
 
-The method enumerates only those sets that have been previously saved using <a href="https://msdn.microsoft.com/7e432e1f-4b86-45dc-93d5-df603068273d">IDataCollectorSet::Commit</a>.
+The method enumerates only those sets that have been previously saved using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-commit">IDataCollectorSet::Commit</a>.
 
  The retrieved data collector sets overwrite the contents of this instance. The instance must be empty (newly created) or be from the same namespace.
 
@@ -122,7 +122,7 @@ The method enumerates only those sets that have been previously saved using <a h
 
 
 
-<a href="https://msdn.microsoft.com/5f4cc411-1efb-4f70-a677-3c20d95f0c53">IDataCollectorSetCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorsetcollection">IDataCollectorSetCollection</a>
  
 
  

@@ -276,9 +276,9 @@ A pointer to the value data.
 
 
 When you use the 
-<a href="https://msdn.microsoft.com/cc5e35ef-5c64-41ba-a5f9-5961371c4d08">SetService</a> function to add a network service type to a namespace, a 
-<a href="https://msdn.microsoft.com/9adf92b0-1268-48c1-91e4-d05ad696ff06">SERVICE_TYPE_INFO_ABS</a> structure is passed as the <b>ServiceSpecificInfo</b> BLOB member of a 
-<a href="https://msdn.microsoft.com/e76e0c1b-8cbf-45ad-a685-fb672801c24d">SERVICE_INFO</a> structure. Although the <b>ServiceSpecificInfo</b> member generally should not contain pointers, an exception is made in the case of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-setservicea">SetService</a> function to add a network service type to a namespace, a 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_type_info_absa">SERVICE_TYPE_INFO_ABS</a> structure is passed as the <b>ServiceSpecificInfo</b> BLOB member of a 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_infoa">SERVICE_INFO</a> structure. Although the <b>ServiceSpecificInfo</b> member generally should not contain pointers, an exception is made in the case of the 
 <b>SERVICE_TYPE_INFO_ABS</b> and 
 <b>SERVICE_TYPE_VALUE_ABS</b> structures.
 
@@ -290,15 +290,15 @@ When you use the
 
 
 
-<a href="https://msdn.microsoft.com/e76e0c1b-8cbf-45ad-a685-fb672801c24d">SERVICE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_infoa">SERVICE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/9adf92b0-1268-48c1-91e4-d05ad696ff06">SERVICE_TYPE_INFO_ABS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_type_info_absa">SERVICE_TYPE_INFO_ABS</a>
 
 
 
-<a href="https://msdn.microsoft.com/cc5e35ef-5c64-41ba-a5f9-5961371c4d08">SetService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-setservicea">SetService</a>
  
 
  

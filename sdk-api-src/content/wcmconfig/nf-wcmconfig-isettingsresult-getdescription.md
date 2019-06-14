@@ -76,7 +76,7 @@ This method returns an HRESULT value. <b>S_OK</b> indicates success. It may retu
 
 
 
-<a href="https://msdn.microsoft.com/0bbfd39a-0292-4d8e-ae31-f45aebd326a7">ISettingsResult</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsresult">ISettingsResult</a>
  
 
  

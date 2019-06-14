@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information about an icon or a cursor. Extends <a href="https://msdn.microsoft.com/en-us/library/ms648052(v=VS.85).aspx">ICONINFO</a>. Used by <a href="https://msdn.microsoft.com/en-us/library/ms648071(v=VS.85).aspx">GetIconInfoEx</a>.
+Contains information about an icon or a cursor. Extends <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-_iconinfo">ICONINFO</a>. Used by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-geticoninfoexa">GetIconInfoEx</a>.
 
 
 ## -struct-fields
@@ -105,7 +105,7 @@ A handle to the icon color bitmap. This member can be optional if this structure
 
 Type: <b>WORD</b>
 
-The icon or cursor resource bits. These bits are typically loaded by calls to the <a href="https://msdn.microsoft.com/en-us/library/ms648074(v=VS.85).aspx">LookupIconIdFromDirectoryEx</a> and <a href="https://msdn.microsoft.com/en-us/library/ms648046(v=VS.85).aspx">LoadResource</a> functions.
+The icon or cursor resource bits. These bits are typically loaded by calls to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex">LookupIconIdFromDirectoryEx</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a> functions.
 
 
 ### -field szModName
@@ -131,15 +131,15 @@ The fully qualified path of the resource.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648062(v=VS.85).aspx">CreateIconIndirect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createiconindirect">CreateIconIndirect</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648070(v=VS.85).aspx">GetIconInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-geticoninfo">GetIconInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646973(v=VS.85).aspx">Icons</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/icons">Icons</a>
 
 
 

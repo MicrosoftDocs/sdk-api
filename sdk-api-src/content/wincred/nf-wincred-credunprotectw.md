@@ -54,7 +54,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CredUnprotect</b> function decrypts credentials that were previously encrypted by using the <a href="https://msdn.microsoft.com/1e299dfb-2ffe-463c-9e2c-b7774a2216e3">CredProtect</a> function. The credentials must have been encrypted in the same security context in which <b>CredUnprotect</b> is called.
+The <b>CredUnprotect</b> function decrypts credentials that were previously encrypted by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credprotecta">CredProtect</a> function. The credentials must have been encrypted in the same security context in which <b>CredUnprotect</b> is called.
 
 
 ## -parameters
@@ -94,7 +94,7 @@ The size, in characters of the <i>pszCredentials</i> buffer. On output, if the <
 <b>TRUE</b> if the function succeeds; otherwise, <b>FALSE</b>.
 
 For extended error information, call the 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function. The following table shows common values for the <b>GetLastError</b> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. The following table shows common values for the <b>GetLastError</b> function.
 
 <table>
 <tr>

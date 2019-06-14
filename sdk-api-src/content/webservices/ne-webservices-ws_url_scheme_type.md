@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-The set of schemes used with <a href="https://msdn.microsoft.com/67147b71-ca3a-4a17-a4f1-6ba608eca742">WsDecodeUrl</a>, <a href="https://msdn.microsoft.com/8253b062-072b-4d37-8b82-407df1bea6b4">WsEncodeUrl</a>, 
-                and <a href="https://msdn.microsoft.com/6cff906a-adb7-4453-8d44-6a5bf44a681b">WsCombineUrl</a>.
+The set of schemes used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsdecodeurl">WsDecodeUrl</a>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsencodeurl">WsEncodeUrl</a>, 
+                and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscombineurl">WsCombineUrl</a>.
             
 
 
@@ -61,30 +61,30 @@ The set of schemes used with <a href="https://msdn.microsoft.com/67147b71-ca3a-4
 
 ### -field WS_URL_HTTP_SCHEME_TYPE
 
-Denotes the "http" scheme: <a href="https://msdn.microsoft.com/36f4dda6-d46a-44cd-b4cd-597fa3298870">WS_HTTP_URL</a>
+Denotes the "http" scheme: <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_http_url">WS_HTTP_URL</a>
 
 
 
 ### -field WS_URL_HTTPS_SCHEME_TYPE
 
-Denotes the "https" scheme: <a href="https://msdn.microsoft.com/4a7cf425-40c6-4951-880e-b3a99076bb2b">WS_HTTPS_URL</a>
+Denotes the "https" scheme: <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_https_url">WS_HTTPS_URL</a>
 
 
 
 ### -field WS_URL_NETTCP_SCHEME_TYPE
 
-Denotes the "net.tcp" scheme: <a href="https://msdn.microsoft.com/62079e59-01c8-48fb-932a-ca01cc7b86ec">WS_NETTCP_URL</a>
+Denotes the "net.tcp" scheme: <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_nettcp_url">WS_NETTCP_URL</a>
 
 
 
 ### -field WS_URL_SOAPUDP_SCHEME_TYPE
 
-Denotes the "soap.udp" scheme: <a href="https://msdn.microsoft.com/f39c551f-891b-48c2-8143-84845506cde9">WS_SOAPUDP_URL</a>
+Denotes the "soap.udp" scheme: <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_soapudp_url">WS_SOAPUDP_URL</a>
 
 
 
 ### -field WS_URL_NETPIPE_SCHEME_TYPE
 
-Windows 8 or later: Denotes the "net.pipe" scheme: <a href="https://msdn.microsoft.com/en-us/library/Hh437361(v=VS.85).aspx">WS_NETPIPE_URL</a>
+Windows 8 or later: Denotes the "net.pipe" scheme: <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_namedpipe_sspi_transport_security_binding">WS_NETPIPE_URL</a>
 
 

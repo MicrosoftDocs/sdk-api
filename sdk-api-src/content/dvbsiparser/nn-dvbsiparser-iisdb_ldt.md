@@ -57,8 +57,8 @@ Implements methods that get information from an Integrated Services Digital Broa
 To obtain a pointer to this interface, first make sure that the media graph is in a running state and that the stream you are tuned to contains an LDT. Then:
 
 <ol>
-<li>Query the <a href="https://msdn.microsoft.com/22044a4c-480f-4c98-a78e-52c66a5eac99">BDA MPEG-2 Transport Information Filter</a> to obtain a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd694840(v=VS.85).aspx">IPSITables</a> interface. (You can also go through the graph and query each filter until you find one that supports <b>IPSITables</b>.)</li>
-<li>Call the <a href="https://msdn.microsoft.com/en-us/library/Dd694841(v=VS.85).aspx">IPSITables::GetTable</a> method. The interface pointer for the desired table is returned in the <i>ppIUnknown</i> output parameter.
+<li>Query the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-mpeg-2-transport-information-filter">BDA MPEG-2 Transport Information Filter</a> to obtain a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipsitables">IPSITables</a> interface. (You can also go through the graph and query each filter until you find one that supports <b>IPSITables</b>.)</li>
+<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipsitables-gettable">IPSITables::GetTable</a> method. The interface pointer for the desired table is returned in the <i>ppIUnknown</i> output parameter.
 </li>
 </ol>
 
@@ -66,7 +66,7 @@ To obtain a pointer to this interface, first make sure that the media graph is i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IISDB_LDT</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IISDB_LDT</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IISDB_LDT</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IISDB_LDT</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -81,7 +81,7 @@ The <b>IISDB_LDT</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/da91deea-527c-4458-9db5-ae500cee19bb">GetCountOfRecords</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_ldt-getcountofrecords">GetCountOfRecords</a>
 </td>
 <td align="left" width="63%">
 Gets the number of records in an
@@ -91,7 +91,7 @@ Gets the number of records in an
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a887536d-7ccb-4c28-8ea7-ded90683c036">GetOriginalNetworkId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_ldt-getoriginalnetworkid">GetOriginalNetworkId</a>
 </td>
 <td align="left" width="63%">
 Gets an identifier that identifies the broadcaster that originated the
@@ -101,7 +101,7 @@ Gets an identifier that identifies the broadcaster that originated the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/030c01e3-6149-4a61-aeb2-01143642213b">GetOriginalServiceId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_ldt-getoriginalserviceid">GetOriginalServiceId</a>
 </td>
 <td align="left" width="63%">
 Gets the original_service_id field from
@@ -111,7 +111,7 @@ Gets the original_service_id field from
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1352eec0-fed2-4d14-81f2-c73b8d34a264">GetRecordCountOfDescriptors</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_ldt-getrecordcountofdescriptors">GetRecordCountOfDescriptors</a>
 </td>
 <td align="left" width="63%">
 Returns the number of descriptors for a record in
@@ -121,7 +121,7 @@ Returns the number of descriptors for a record in
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0c101068-8a33-4c65-b553-fcd5989c4bd7">GetRecordDescriptionId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_ldt-getrecorddescriptionid">GetRecordDescriptionId</a>
 </td>
 <td align="left" width="63%">
 Gets the record description ID from an LDT.
@@ -130,7 +130,7 @@ Gets the record description ID from an LDT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a551794a-6051-4c8e-9d44-5938974a6df4">GetRecordDescriptorByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd694327(v=vs.85)">GetRecordDescriptorByIndex</a>
 </td>
 <td align="left" width="63%">
 Returns a descriptor for a specified record
@@ -140,7 +140,7 @@ Returns a descriptor for a specified record
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6d1fc08c-9c5b-4361-a144-d8b423250c51">GetRecordDescriptorByTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_ldt-getrecorddescriptorbytag">GetRecordDescriptorByTag</a>
 </td>
 <td align="left" width="63%">
 Searches a record in
@@ -150,7 +150,7 @@ Searches a record in
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/382dc27b-7010-4d05-a401-ded8e0a8c932">GetTransportStreamId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_ldt-gettransportstreamid">GetTransportStreamId</a>
 </td>
 <td align="left" width="63%">
 Returns the transport stream identifier (TSID) for an LDT. 
@@ -159,7 +159,7 @@ Returns the transport stream identifier (TSID) for an LDT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ea7f027c-60c3-4dcd-963b-37ae6b088c81">GetVersionHash</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_ldt-getversionhash">GetVersionHash</a>
 </td>
 <td align="left" width="63%">
 Returns a hash value for this instance of an LDT.
@@ -168,7 +168,7 @@ Returns a hash value for this instance of an LDT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7567ca34-2898-4066-a81c-348e3ac5c066">GetVersionNumber</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_ldt-getversionnumber">GetVersionNumber</a>
 </td>
 <td align="left" width="63%">
 Gets the version number from the LDT.
@@ -177,7 +177,7 @@ Gets the version number from the LDT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6239688f-2300-4cdb-97cb-179f63efb933">Initialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_ldt-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object by using captured table section data

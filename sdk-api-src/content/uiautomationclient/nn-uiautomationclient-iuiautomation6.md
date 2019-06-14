@@ -49,12 +49,12 @@ ms.custom: RS5, 19H1
 ## -description
 
 
-Extends the <a href="https://msdn.microsoft.com/BCF67DB0-DF5B-4CED-9C32-01F126494129">IUIAutomation5</a> interface to expose additional methods for controlling Microsoft UI Automation functionality.
+Extends the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation5">IUIAutomation5</a> interface to expose additional methods for controlling Microsoft UI Automation functionality.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomation6</b> interface inherits from <a href="https://msdn.microsoft.com/BCF67DB0-DF5B-4CED-9C32-01F126494129">IUIAutomation5</a>. <b>IUIAutomation6</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomation6</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation5">IUIAutomation5</a>. <b>IUIAutomation6</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -161,11 +161,11 @@ Indicates whether an accessible technology client adjusts provider request timeo
 
 
 
-<a href="https://msdn.microsoft.com/BCF67DB0-DF5B-4CED-9C32-01F126494129">IUIAutomation5</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation5">IUIAutomation5</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd7cdcf1-3511-424f-b729-b71a7e11cdd8">UI Automation Element Interfaces for Clients</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-uiautoclientinterfaces">UI Automation Element Interfaces for Clients</a>
  
 
  

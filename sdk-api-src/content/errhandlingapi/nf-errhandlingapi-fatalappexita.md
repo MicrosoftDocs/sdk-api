@@ -107,11 +107,11 @@ An application calls
 
 
 
-<a href="https://msdn.microsoft.com/ae8ad3a2-1f1a-46d6-adaa-74c50c07dcc5">Error Handling Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/error-handling-functions">Error Handling Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/6015e025-872f-455a-89f9-0ff96e59ef15">FatalExit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-fatalexit">FatalExit</a>
  
 
  

@@ -60,7 +60,7 @@ Contains exception information that can be used by a debugger.
 ### -field ExceptionRecord
 
 An 
-<a href="https://msdn.microsoft.com/85a64178-bdcb-4293-9363-289c654730a2">EXCEPTION_RECORD</a> structure with information specific to the exception. This includes the exception code, flags, address, a pointer to a related exception, extra parameters, and so on.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_exception_record">EXCEPTION_RECORD</a> structure with information specific to the exception. This includes the exception code, flags, address, a pointer to a related exception, extra parameters, and so on.
 
 
 ### -field dwFirstChance
@@ -73,11 +73,11 @@ A value that indicates whether the debugger has previously encountered the excep
 
 
 
-<a href="https://msdn.microsoft.com/056aa7ee-51ca-48ec-9cd7-26085bb85b11">DEBUG_EVENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-debug_event">DEBUG_EVENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/85a64178-bdcb-4293-9363-289c654730a2">EXCEPTION_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_exception_record">EXCEPTION_RECORD</a>
  
 
  

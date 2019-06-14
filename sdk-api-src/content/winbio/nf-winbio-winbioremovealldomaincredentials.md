@@ -65,7 +65,7 @@ Removes all user credentials for the current domain from the store. Starting wit
 
 
 
-If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -75,15 +75,15 @@ If the function succeeds, it returns S_OK. If the function fails, it returns an 
 
 
 
-<a href="https://msdn.microsoft.com/3c3f3bed-531a-4962-8eb3-bebe16bed3a8">WinBioRemoveAllCredentials</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioremoveallcredentials">WinBioRemoveAllCredentials</a>
 
 
 
-<a href="https://msdn.microsoft.com/56a5d510-f2cb-457b-884a-ad08ea21ce01">WinBioRemoveCredential</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioremovecredential">WinBioRemoveCredential</a>
 
 
 
-<a href="https://msdn.microsoft.com/c35dd874-c545-418a-b08c-82f9e13e93fb">WinBioSetCredential</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiosetcredential">WinBioSetCredential</a>
  
 
  

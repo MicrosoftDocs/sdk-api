@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-An application-defined callback function that processes <a href="https://msdn.microsoft.com/en-us/library/ms644902(v=VS.85).aspx">WM_TIMER</a> messages. The 
+An application-defined callback function that processes <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-timer">WM_TIMER</a> messages. The 
 			<b>TIMERPROC</b> type defines a pointer to this callback function. <i>TimerProc</i> is a placeholder for the application-defined function name. 
 
 
@@ -80,7 +80,7 @@ An application-defined callback function that processes <a href="https://msdn.mi
 
 Type: <b>DWORD</b>
 
-The number of milliseconds that have elapsed since the system was started. This is the value returned by the <a href="https://msdn.microsoft.com/22201c82-a49a-4972-9f49-6baf6d23a1ea">GetTickCount</a> function. 
+The number of milliseconds that have elapsed since the system was started. This is the value returned by the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-gettickcount">GetTickCount</a> function. 
 
 
 #### - hwnd [in]
@@ -101,7 +101,7 @@ The timer's identifier.
 
 Type: <b>UINT</b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms644902(v=VS.85).aspx">WM_TIMER</a> message. 
+The <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-timer">WM_TIMER</a> message. 
 
 
 ## -returns
@@ -122,7 +122,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644903(v=VS.85).aspx">KillTimer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-killtimer">KillTimer</a>
 
 
 
@@ -130,15 +130,15 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644906(v=VS.85).aspx">SetTimer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-settimer">SetTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632592(v=VS.85).aspx">Timers</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/timers">Timers</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644902(v=VS.85).aspx">WM_TIMER</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-timer">WM_TIMER</a>
  
 
  

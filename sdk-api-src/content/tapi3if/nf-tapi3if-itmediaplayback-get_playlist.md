@@ -84,11 +84,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/66b43721-f902-4a0e-8cbb-418438617f47">ITMediaPlayback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itmediaplayback">ITMediaPlayback</a>
 
 
 
-<a href="https://msdn.microsoft.com/685712ef-100f-4f8d-9b1f-c43170c0f197">put_PlayList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itmediaplayback-put_playlist">put_PlayList</a>
  
 
  

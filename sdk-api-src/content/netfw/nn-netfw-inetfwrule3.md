@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>INetFwRule3</b> interface allows an application or service to access all the properties of <a href="https://msdn.microsoft.com/35c28180-b60c-4dc1-81ce-0ce012f96525">INetFwRule2</a> and to provide access to the requirements of app containers.
+The <b>INetFwRule3</b> interface allows an application or service to access all the properties of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule2">INetFwRule2</a> and to provide access to the requirements of app containers.
 
 
 ## -inheritance
@@ -70,7 +70,7 @@ The <b>INetFwRule3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8c1bccc6-3c8d-401c-8e9f-e88a4a60e3f4">get_LocalAppPackageId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule3-get_localapppackageid">get_LocalAppPackageId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the LocalAppPackageId property for this rule.
@@ -79,7 +79,7 @@ Retrieves the LocalAppPackageId property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5a44ce34-bf0b-4a8b-a8b3-bd5e4cc3bea8">get_LocalUserAuthorizedList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwrule3-get_localuserauthorizedlist">get_LocalUserAuthorizedList</a>
 </td>
 <td align="left" width="63%">
 Retrieves the LocalUserAuthorizedList property for this rule.
@@ -88,7 +88,7 @@ Retrieves the LocalUserAuthorizedList property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5eeacde4-6e25-49dc-a8f5-77a6e56dcade">get_LocalUserOwner</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule3-get_localuserowner">get_LocalUserOwner</a>
 </td>
 <td align="left" width="63%">
 Retrieves the LocalUserOwner property for this rule.
@@ -97,7 +97,7 @@ Retrieves the LocalUserOwner property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/43acf254-594a-4d19-a9e4-bce0a188a9de">get_RemoteMachineAuthorizedList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwrule3-get_remotemachineauthorizedlist">get_RemoteMachineAuthorizedList</a>
 </td>
 <td align="left" width="63%">
 Retrieves the RemoteMachineAuthorizedList property for this rule.
@@ -106,7 +106,7 @@ Retrieves the RemoteMachineAuthorizedList property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9364d317-b32a-4b8d-b67a-32a34b64a5ac">get_RemoteUserAuthorizedList</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule3-get_remoteuserauthorizedlist">get_RemoteUserAuthorizedList</a>
 </td>
 <td align="left" width="63%">
 Retrieves the RemoteUserAuthorizedList property for this rule.
@@ -115,7 +115,7 @@ Retrieves the RemoteUserAuthorizedList property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3efb3491-f030-4a0a-bfbd-ab18fd424a38">get_SecureFlags</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule3-get_secureflags">get_SecureFlags</a>
 </td>
 <td align="left" width="63%">
 Retrieves the SecureFlags property for this rule.
@@ -124,7 +124,7 @@ Retrieves the SecureFlags property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8c1bccc6-3c8d-401c-8e9f-e88a4a60e3f4">put_LocalAppPackageId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule3-get_localapppackageid">put_LocalAppPackageId</a>
 </td>
 <td align="left" width="63%">
 Sets the LocalAppPackageId property for this rule.
@@ -133,7 +133,7 @@ Sets the LocalAppPackageId property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5a44ce34-bf0b-4a8b-a8b3-bd5e4cc3bea8">put_LocalUserAuthorizedList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwrule3-get_localuserauthorizedlist">put_LocalUserAuthorizedList</a>
 </td>
 <td align="left" width="63%">
 Sets the LocalUserAuthorizedList property for this rule.
@@ -142,7 +142,7 @@ Sets the LocalUserAuthorizedList property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5eeacde4-6e25-49dc-a8f5-77a6e56dcade">put_LocalUserOwner</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule3-get_localuserowner">put_LocalUserOwner</a>
 </td>
 <td align="left" width="63%">
 Sets the LocalUserOwner property for this rule.
@@ -151,7 +151,7 @@ Sets the LocalUserOwner property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/43acf254-594a-4d19-a9e4-bce0a188a9de">put_RemoteMachineAuthorizedList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwrule3-get_remotemachineauthorizedlist">put_RemoteMachineAuthorizedList</a>
 </td>
 <td align="left" width="63%">
 Sets the RemoteMachineAuthorizedList property for this rule.
@@ -160,7 +160,7 @@ Sets the RemoteMachineAuthorizedList property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9364d317-b32a-4b8d-b67a-32a34b64a5ac">put_RemoteUserAuthorizedList</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule3-get_remoteuserauthorizedlist">put_RemoteUserAuthorizedList</a>
 </td>
 <td align="left" width="63%">
 Sets the RemoteUserAuthorizedList property for this rule.
@@ -169,7 +169,7 @@ Sets the RemoteUserAuthorizedList property for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3efb3491-f030-4a0a-bfbd-ab18fd424a38">put_SecureFlags</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule3-get_secureflags">put_SecureFlags</a>
 </td>
 <td align="left" width="63%">
 Sets the SecureFlags property for this rule.
@@ -186,7 +186,7 @@ Sets the SecureFlags property for this rule.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8c1bccc6-3c8d-401c-8e9f-e88a4a60e3f4">LocalAppPackageId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule3-get_localapppackageid">LocalAppPackageId</a>
 
 
 </td>
@@ -198,7 +198,7 @@ Accesses the LocalAppPackageId property of this rule.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/5a44ce34-bf0b-4a8b-a8b3-bd5e4cc3bea8">LocalUserAuthorizedList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwrule3-get_localuserauthorizedlist">LocalUserAuthorizedList</a>
 
 
 </td>
@@ -210,7 +210,7 @@ Accesses the LocalUserAuthorizedList property of this rule.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/5eeacde4-6e25-49dc-a8f5-77a6e56dcade">LocalUserOwner</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule3-get_localuserowner">LocalUserOwner</a>
 
 
 </td>
@@ -222,7 +222,7 @@ Accesses the LocalUserOwner property of this rule.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/43acf254-594a-4d19-a9e4-bce0a188a9de">RemoteMachineAuthorizedList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwrule3-get_remotemachineauthorizedlist">RemoteMachineAuthorizedList</a>
 
 
 </td>
@@ -234,7 +234,7 @@ Accesses the RemoteMachineAuthorizedList property of this rule.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/9364d317-b32a-4b8d-b67a-32a34b64a5ac">RemoteUserAuthorizedList</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule3-get_remoteuserauthorizedlist">RemoteUserAuthorizedList</a>
 
 
 </td>
@@ -246,7 +246,7 @@ Accesses the RemoteUserAuthorizedList property of this rule.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/3efb3491-f030-4a0a-bfbd-ab18fd424a38">SecureFlags</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule3-get_secureflags">SecureFlags</a>
 
 
 </td>
@@ -263,7 +263,7 @@ Accesses the SecureFlags property of this rule.
 
 
 
-<a href="https://msdn.microsoft.com/35c28180-b60c-4dc1-81ce-0ce012f96525">INetFwRule2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule2">INetFwRule2</a>
  
 
  

@@ -69,7 +69,7 @@ The number of media types to retrieve.
 
 ### -param ppMediaTypes [out]
 
-The address of an array of <a href="https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02">AM_MEDIA_TYPE</a> pointers. The number of elements in the array is given in the <i>cMediaTypes</i> parameter.
+The address of an array of <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_ammediatype">AM_MEDIA_TYPE</a> pointers. The number of elements in the array is given in the <i>cMediaTypes</i> parameter.
           
 
 
@@ -155,9 +155,9 @@ The pin's state has changed and is now inconsistent with the enumerator.
 
 
 
-The caller passes an array of <a href="https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02">AM_MEDIA_TYPE</a> pointers in <i>ppMediaTypes</i>. The method allocates a number <b>AM_MEDIA_TYPE</b> structures equal to <i>cMediaTypes</i> or to the number of media types that remain in the enumeration, whichever is less. The number of structures allocated is returned in <i>pcFetched</i>. Delete each structure by calling the <a href="https://msdn.microsoft.com/970f6b2b-2bf5-418d-b4ae-637561cd6765">DeleteMediaType</a> function.
+The caller passes an array of <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_ammediatype">AM_MEDIA_TYPE</a> pointers in <i>ppMediaTypes</i>. The method allocates a number <b>AM_MEDIA_TYPE</b> structures equal to <i>cMediaTypes</i> or to the number of media types that remain in the enumeration, whichever is less. The number of structures allocated is returned in <i>pcFetched</i>. Delete each structure by calling the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/deletemediatype">DeleteMediaType</a> function.
 
-If the set of media types changes, the enumerator becomes inconsistent with the owning pin. In that case, the method returns VFW_E_ENUM_OUT_OF_SYNC. Discard any data obtained from previous calls to the enumerator, because it might be invalid. Update the enumerator by calling the <a href="https://msdn.microsoft.com/d95d4e69-48dc-4ad1-a0e2-c5fea793b7b3">IEnumMediaTypes::Reset</a> method. You can then call the <b>Next</b> method safely.
+If the set of media types changes, the enumerator becomes inconsistent with the owning pin. In that case, the method returns VFW_E_ENUM_OUT_OF_SYNC. Discard any data obtained from previous calls to the enumerator, because it might be invalid. Update the enumerator by calling the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ienummediatypes-reset">IEnumMediaTypes::Reset</a> method. You can then call the <b>Next</b> method safely.
 
 
 
@@ -167,15 +167,15 @@ If the set of media types changes, the enumerator becomes inconsistent with the 
 
 
 
-<a href="https://msdn.microsoft.com/7878885f-c285-4744-8eab-445678dcfd49">Enumerating Media Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/enumerating-media-types">Enumerating Media Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/e0021e27-0e08-4d07-9610-08a9b945ae34">IEnumMediaTypes Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ienummediatypes">IEnumMediaTypes Interface</a>
  
 
  

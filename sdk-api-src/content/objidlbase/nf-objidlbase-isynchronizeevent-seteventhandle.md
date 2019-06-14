@@ -76,7 +76,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/b4721498-0455-415a-bf2f-c8c8fdf3b75c">ISynchronizeEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isynchronizeevent">ISynchronizeEvent</a>
  
 
  

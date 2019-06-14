@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IAudioClient3</b> interface is derived from the <a href="https://msdn.microsoft.com/9CE79CEB-115E-4802-A687-B2CB23E6A0E0">IAudioClient2</a> interface, with a set of additional methods that enable a Windows Audio Session API (WASAPI) audio client to query for the audio engine's supported periodicities and current periodicity as well as request initialization a shared audio stream with a specified periodicity.
+The <b>IAudioClient3</b> interface is derived from the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient2">IAudioClient2</a> interface, with a set of additional methods that enable a Windows Audio Session API (WASAPI) audio client to query for the audio engine's supported periodicities and current periodicity as well as request initialization a shared audio stream with a specified periodicity.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioClient3</b> interface inherits from <a href="https://msdn.microsoft.com/9CE79CEB-115E-4802-A687-B2CB23E6A0E0">IAudioClient2</a>. <b>IAudioClient3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioClient3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient2">IAudioClient2</a>. <b>IAudioClient3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAudioClient3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F91E46F5-5D12-4D53-842B-4495CAA3E09E">GetCurrentSharedModeEnginePeriod</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient3-getcurrentsharedmodeengineperiod">GetCurrentSharedModeEnginePeriod</a>
 </td>
 <td align="left" width="63%">
 Returns the current format and periodicity of the audio engine.
@@ -78,7 +78,7 @@ Returns the current format and periodicity of the audio engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/41ED045F-0C47-40BE-9ECD-6A925E166E6D">GetSharedModeEnginePeriod</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient3-getsharedmodeengineperiod">GetSharedModeEnginePeriod</a>
 </td>
 <td align="left" width="63%">
 Returns the range of periodicities supported by the engine for the specified stream format.
@@ -87,7 +87,7 @@ Returns the range of periodicities supported by the engine for the specified str
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2DB9ECEC-8199-4157-8854-26A21B88E58A">InitializeSharedAudioStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient3-initializesharedaudiostream">InitializeSharedAudioStream</a>
 </td>
 <td align="left" width="63%">
 Initializes a shared stream with the specified periodicity.
@@ -102,11 +102,11 @@ Initializes a shared stream with the specified periodicity.
 
 
 
-<a href="https://msdn.microsoft.com/b18e2094-e974-4c23-b70b-ace5a168132d">Core Audio Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/9CE79CEB-115E-4802-A687-B2CB23E6A0E0">IAudioClient2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient2">IAudioClient2</a>
  
 
  

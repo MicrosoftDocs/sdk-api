@@ -98,7 +98,7 @@ The name-service handle is invalid.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -109,9 +109,9 @@ The name-service handle is invalid.
 
 The 
 <b>RpcNsGroupMbrInqDone</b> function frees an inquiry context created by calling the 
-<a href="https://msdn.microsoft.com/f3a98563-0c7f-4f4b-b272-af7c0366b95d">RpcNsGroupMbrInqBegin</a> function. An application calls 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqbegina">RpcNsGroupMbrInqBegin</a> function. An application calls 
 <b>RpcNsGroupMbrInqDone</b> after viewing RPC group members using the 
-<a href="https://msdn.microsoft.com/58f32594-85de-4d20-86b2-210367ccb7ce">RpcNsGroupMbrInqNext</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqnexta">RpcNsGroupMbrInqNext</a> function.
 
 <div class="alert"><b>Note</b>  Windows 2000 Active Directory supports this function. Earlier versions of Windows NT support the use of this function with Cell Directory Service (CDS) only.</div>
 <div> </div>
@@ -123,11 +123,11 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/f3a98563-0c7f-4f4b-b272-af7c0366b95d">RpcNsGroupMbrInqBegin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqbegina">RpcNsGroupMbrInqBegin</a>
 
 
 
-<a href="https://msdn.microsoft.com/58f32594-85de-4d20-86b2-210367ccb7ce">RpcNsGroupMbrInqNext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqnexta">RpcNsGroupMbrInqNext</a>
  
 
  

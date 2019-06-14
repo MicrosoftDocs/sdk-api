@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Submit</b> method persists changes made to the <a href="https://msdn.microsoft.com/90eb19c9-1490-43f4-ab4b-393e825aeb2f">IAzTask</a> object.
+The <b>Submit</b> method persists changes made to the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> object.
 
 
 ## -parameters
@@ -72,7 +72,7 @@ Reserved for future use.
 
 
 
-Any additions or modifications to an <a href="https://msdn.microsoft.com/90eb19c9-1490-43f4-ab4b-393e825aeb2f">IAzTask</a> object are not persisted until the <b>Submit</b> method is called.
+Any additions or modifications to an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> object are not persisted until the <b>Submit</b> method is called.
 
 
 

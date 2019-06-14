@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <code>AddSourceFilterForMoniker</code> method creates a source filter from an <a href="https://msdn.microsoft.com/17f4c1df-7a9c-42ef-a888-70cd8d85f070">IMoniker</a> pointer and adds the filter to the graph. For example, you can obtain a moniker for a system device, such as a video capture device, and add a video capture filter for that device. (For more information about system device monikers, see the <a href="https://msdn.microsoft.com/fc300bb8-aea4-4848-af43-a70a7fb8c07c">ICreateDevEnum</a> interface.)
+The <code>AddSourceFilterForMoniker</code> method creates a source filter from an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> pointer and adds the filter to the graph. For example, you can obtain a moniker for a system device, such as a video capture device, and add a video capture filter for that device. (For more information about system device monikers, see the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icreatedevenum">ICreateDevEnum</a> interface.)
 
 
 
@@ -63,12 +63,12 @@ The <code>AddSourceFilterForMoniker</code> method creates a source filter from a
 
 ### -param pMoniker [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/17f4c1df-7a9c-42ef-a888-70cd8d85f070">IMoniker</a> interface.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface.
 
 
 ### -param pCtx [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a> bind context interface.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> bind context interface.
 
 
 ### -param lpcwstrFilterName [in]
@@ -78,7 +78,7 @@ Name for the filter.
 
 ### -param ppFilter [out]
 
-Receives a pointer to the source filter's <a href="https://msdn.microsoft.com/d8c09dc7-dae8-4b51-8da8-69e64928a091">IBaseFilter</a> pointer. The caller must release the interface.
+Receives a pointer to the source filter's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a> pointer. The caller must release the interface.
 
 
 ## -returns
@@ -226,11 +226,11 @@ pMoniker-&gt;Release();
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/1a1ef4fe-a054-4ba7-99c7-1f209472c5a6">IFilterGraph2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltergraph2">IFilterGraph2 Interface</a>
  
 
  

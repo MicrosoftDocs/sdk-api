@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>get_MeasurementPeriod</b> method gets the measurement period (in seconds) for which the switch and/or implementation stores and calculates information. For example, the 
-<a href="https://msdn.microsoft.com/45a1a47a-4cbe-47dd-ad48-218e74fe74b4">get_TotalCallsQueued</a> method returns the number of calls queued; 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itqueue-get_totalcallsqueued">get_TotalCallsQueued</a> method returns the number of calls queued; 
 <b>get_MeasurementPeriod</b> indicates if this value referenced the calls queued in an hour, a day, a month, etc.
 
 
@@ -131,11 +131,11 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 
 
 
-<a href="https://msdn.microsoft.com/dd1bc6c7-4d4e-4f66-ac5a-7004b85ec023">ITQueue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueue">ITQueue</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e32b2ae-c4e5-4624-b970-673c950dee3b">put_MeasurementPeriod</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itqueue-put_measurementperiod">put_MeasurementPeriod</a>
  
 
  

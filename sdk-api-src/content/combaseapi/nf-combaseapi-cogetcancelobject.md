@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Obtains a pointer to a call control interface, normally <a href="https://msdn.microsoft.com/5e31f706-1c9c-4510-845c-4e47093780a1">ICancelMethodCalls</a>, on the cancel object corresponding to an outbound COM method call pending on the same or another client thread.
+Obtains a pointer to a call control interface, normally <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-icancelmethodcalls">ICancelMethodCalls</a>, on the cancel object corresponding to an outbound COM method call pending on the same or another client thread.
 
 
 ## -parameters

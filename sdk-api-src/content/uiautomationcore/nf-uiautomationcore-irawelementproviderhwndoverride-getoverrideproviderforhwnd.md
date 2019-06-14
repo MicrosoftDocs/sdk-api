@@ -59,14 +59,14 @@ Gets a UI Automation provider for the specified element.
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 The window handle of the element.
 
 
 ### -param pRetVal [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/f0ec6185-acd0-4df7-88f4-fd00747f98bf">IRawElementProviderSimple</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a>**</b>
 
 Receives a pointer to the new provider for the specified window, or <b>NULL</b> if the provider is not being overridden. 
 				This parameter is passed uninitialized.
@@ -76,7 +76,7 @@ Receives a pointer to the new provider for the specified window, or <b>NULL</b> 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -97,7 +97,7 @@ This method is implemented by fragment roots that contain window-based child ele
 The returned provider must be part of the fragment tree. It can supply additional properties or 
 			override properties of the specified component.
 
-If the returned provider implements <a href="https://msdn.microsoft.com/63539ba9-7f13-48cf-9c8a-74c03d31e2ab">IRawElementProviderFragment</a>, 
+If the returned provider implements <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragment">IRawElementProviderFragment</a>, 
 			the provider should be part of the fragment's tree and be reachable by navigating from the fragment's root.
 
 
@@ -108,7 +108,7 @@ If the returned provider implements <a href="https://msdn.microsoft.com/63539ba9
 
 
 
-<a href="https://msdn.microsoft.com/c2aa8f29-afec-474f-8ee5-55285f06ddff">IRawElementProviderHwndOverride</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderhwndoverride">IRawElementProviderHwndOverride</a>
  
 
  

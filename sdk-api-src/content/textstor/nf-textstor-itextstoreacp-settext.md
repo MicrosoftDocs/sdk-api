@@ -84,7 +84,7 @@ Specifies the number of characters in the replacement text.
 
 ### -param pChange [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/af7dfc32-ae2d-4f04-a73b-8a9e2ea1a1c0">TS_TEXTCHANGE</a> structure with the following data.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE</a> structure with the following data.
 
 <table>
 <tr>
@@ -201,13 +201,13 @@ An attempt was made to modify text across a region boundary.
 
 
 
-Applications should start a composition by first using <a href="https://msdn.microsoft.com/b57ad8da-6f79-4d27-96e0-608cbcaae826">ITextStoreACP::InsertTextAtSelection</a>. <b>ITextStoreACP::SetText</b> should be used only within an existing composition. If there is no active composition at the time <b>SetText</b> is called, the TSF manager creates a composition that lasts just long enough to wrap the call to <b>SetText</b>.
+Applications should start a composition by first using <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-inserttextatselection">ITextStoreACP::InsertTextAtSelection</a>. <b>ITextStoreACP::SetText</b> should be used only within an existing composition. If there is no active composition at the time <b>SetText</b> is called, the TSF manager creates a composition that lasts just long enough to wrap the call to <b>SetText</b>.
 
 The <i>acpStart</i> and <i>acpEnd</i> character positions cannot be outside the document range.
 
-Applications should not call the <a href="https://msdn.microsoft.com/ed11ebb8-312b-40c7-90de-f5aa7591afd2">ITextStoreACPSink::OnTextChange</a> method in response to this method.
+Applications should not call the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacpsink-ontextchange">ITextStoreACPSink::OnTextChange</a> method in response to this method.
 
-This method should call the <a href="https://msdn.microsoft.com/e9151b63-2ca7-4995-a36b-b919ab2d491a">ITextStoreACP::SetSelection</a> method to select the text to be changed. After successfully executing the <b>ITextStoreACP::SetSelection</b> method, this method then calls the <b>ITextStoreACP::InsertTextAtSelection</b> method to perform the actual text change.
+This method should call the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-setselection">ITextStoreACP::SetSelection</a> method to select the text to be changed. After successfully executing the <b>ITextStoreACP::SetSelection</b> method, this method then calls the <b>ITextStoreACP::InsertTextAtSelection</b> method to perform the actual text change.
 
 
 
@@ -217,25 +217,25 @@ This method should call the <a href="https://msdn.microsoft.com/e9151b63-2ca7-49
 
 
 
-<a href="https://msdn.microsoft.com/3d9da4f2-ceb9-4abc-8979-d3756d948a57">Compositions</a>
+<a href="https://docs.microsoft.com/windows/desktop/TSF/compositions">Compositions</a>
 
 
 
-<a href="https://msdn.microsoft.com/21e011f7-6791-4eb9-85c9-18bd10107119">ITextStoreACP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a>
 
 
 
-<a href="https://msdn.microsoft.com/ed11ebb8-312b-40c7-90de-f5aa7591afd2">ITextStoreACPSink::OnTextChange
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacpsink-ontextchange">ITextStoreACPSink::OnTextChange
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/6e05ed74-fff3-4bc4-a21e-9af9492af23b">Miscellaneous Text Store Constants
+<a href="https://docs.microsoft.com/windows/desktop/TSF/miscellaneous-text-store-constants">Miscellaneous Text Store Constants
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/af7dfc32-ae2d-4f04-a73b-8a9e2ea1a1c0">TS_TEXTCHANGE
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE
       </a>
  
 

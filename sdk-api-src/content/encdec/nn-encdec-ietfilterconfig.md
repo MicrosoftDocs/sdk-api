@@ -57,7 +57,7 @@ The <b>IETFilterConfig</b> interface configures the Encrypter/Tagger filter. Mos
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IETFilterConfig</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IETFilterConfig</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IETFilterConfig</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IETFilterConfig</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IETFilterConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/385f4525-97b0-4973-8b74-a05816e43556">GetSecureChannelObject</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nf-encdec-ietfilterconfig-getsecurechannelobject">GetSecureChannelObject</a>
 </td>
 <td align="left" width="63%">
 Retrieves the secure channel object used to encrypt the stream.
@@ -81,7 +81,7 @@ Retrieves the secure channel object used to encrypt the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d88d9ee0-1748-43e4-90d4-671b1449ef03">InitLicense</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nf-encdec-ietfilterconfig-initlicense">InitLicense</a>
 </td>
 <td align="left" width="63%">
 Initializes an encryption license.
@@ -105,7 +105,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/abe939a3-5f43-4fdf-9d4d-34b7be8893eb">TV Ratings Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tv-ratings-interfaces">TV Ratings Interfaces</a>
  
 
  

@@ -97,7 +97,7 @@ A synchronization provider configuration UI has been updated.
 
 
 
-<a href="https://msdn.microsoft.com/efd6d871-8c1a-4653-b8a5-9e2d8872c499">Windows Sync Registration Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-registration-enumerations">Windows Sync Registration Enumerations</a>
  
 
  

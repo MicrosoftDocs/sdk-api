@@ -59,7 +59,7 @@ The <b>QOSQueryFlow</b> function requests information about a specific flow adde
 
 ### -param QOSHandle [in]
 
-Handle to the QOS subsystem returned by <a href="https://msdn.microsoft.com/dcee0bed-dc6f-435d-b292-07e331f6cf5b">QOSCreateHandle</a>.
+Handle to the QOS subsystem returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>.
 
 
 ### -param FlowId [in]
@@ -82,7 +82,7 @@ Specifies which type of flow information is being queried. This parameter specif
 </dl>
 </td>
 <td width="60%">
-<i>Buffer</i> will contain a <a href="https://msdn.microsoft.com/3e6cbd5b-8bd3-4f08-9192-35604db5dc3a">QOS_FLOW_FUNDAMENTALS</a> structure.
+<i>Buffer</i> will contain a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/ns-qos2-_qos_flow_fundamentals">QOS_FLOW_FUNDAMENTALS</a> structure.
 
 </td>
 </tr>
@@ -92,7 +92,7 @@ Specifies which type of flow information is being queried. This parameter specif
 </dl>
 </td>
 <td width="60%">
-<i>Buffer</i> will contain a <a href="https://msdn.microsoft.com/1a10c5f0-0b7f-401f-82ff-0d7a93114715">QOS_PACKET_PRIORITY</a> structure.
+<i>Buffer</i> will contain a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/ns-qos2-_qos_packet_priority">QOS_PACKET_PRIORITY</a> structure.
 
 </td>
 </tr>
@@ -295,7 +295,7 @@ Indicates that the update flow request was successfully initiated.
 </dl>
 </td>
 <td width="60%">
-The indicated device requires reinitialization due to hardware errors. The application should clean up and call <a href="https://msdn.microsoft.com/dcee0bed-dc6f-435d-b292-07e331f6cf5b">QOSCreateHandle</a> again.
+The indicated device requires reinitialization due to hardware errors. The application should clean up and call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a> again.
 
 </td>
 </tr>
@@ -354,7 +354,7 @@ There is currently insufficient data about networking conditions to answer the q
 
 
 
-<a href="https://msdn.microsoft.com/022fde13-415e-49aa-8df4-472c4eadd6a0">Quality Windows Audio/Video Experience (qWAVE)</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
  
 
  

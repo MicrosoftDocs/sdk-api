@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Notifies an application that a call to 
-<a href="https://msdn.microsoft.com/2b234dc5-2409-49d8-83be-0ffea74f5bcf">IDiscMaster::RecordDisc</a> has finished.
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmaster-recorddisc">IDiscMaster::RecordDisc</a> has finished.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Notifies an application that a call to
 ### -param status [in]
 
 Status code to be returned from 
-<a href="https://msdn.microsoft.com/2b234dc5-2409-49d8-83be-0ffea74f5bcf">IDiscMaster::RecordDisc</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmaster-recorddisc">IDiscMaster::RecordDisc</a>.
 
 
 ## -returns
@@ -78,7 +78,7 @@ S_OK is returned on success, but other success codes may be returned as a result
 
 
 
-<a href="https://msdn.microsoft.com/68f7edbd-4a06-4e8d-a562-21a65767aff6">IDiscMasterProgressEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscmasterprogressevents">IDiscMasterProgressEvents</a>
  
 
  

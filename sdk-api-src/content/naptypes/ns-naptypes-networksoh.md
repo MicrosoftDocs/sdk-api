@@ -59,12 +59,12 @@ ms.custom: 19H1
 
 ### -field size
 
-The size, in bytes, of the data blob in the range <a href="https://msdn.microsoft.com/2727487c-8c6a-4cd9-b6d8-253191a7d7f6">minNetworkSoHSize</a> to <b>maxNetworkSoHSize</b>. 
+The size, in bytes, of the data blob in the range <a href="https://docs.microsoft.com/windows/desktop/NAP/nap-type-constants">minNetworkSoHSize</a> to <b>maxNetworkSoHSize</b>. 
 
 
 ### -field data
 
-A pointer to a data blob that contains the <a href="https://msdn.microsoft.com/6db0303d-ab33-4fb9-90a2-b909b2781ba5">SoH</a> structure in network byte order.
+A pointer to a data blob that contains the <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-tagsoh">SoH</a> structure in network byte order.
 
 
 ## -see-also
@@ -72,11 +72,11 @@ A pointer to a data blob that contains the <a href="https://msdn.microsoft.com/6
 
 
 
-<a href="https://msdn.microsoft.com/e391be3c-95ab-4c80-a5d8-8a8fef28e56b">NAP Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/NAP/nap-reference">NAP Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/68048587-0f7e-48d4-9326-768a977ea3ee">NAP Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/NAP/nap-structures">NAP Structures</a>
  
 
  

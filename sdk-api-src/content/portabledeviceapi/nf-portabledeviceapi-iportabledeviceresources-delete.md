@@ -68,7 +68,7 @@ Pointer to a null-terminated string that contains the object ID of the object.
 
 ### -param pKeys [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/2460f5bc-6b1c-4e3b-bdb9-faaa6d6c87fd">IPortableDeviceKeyCollection</a> interface that lists which resources to delete. You can find out what resources the object has by calling <a href="https://msdn.microsoft.com/415c3256-1385-48d7-999a-91dc3ad795f8">GetSupportedResources</a>.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicekeycollection">IPortableDeviceKeyCollection</a> interface that lists which resources to delete. You can find out what resources the object has by calling <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceresources-getsupportedresources">GetSupportedResources</a>.
 
 
 ## -returns
@@ -116,7 +116,7 @@ At least one of the arguments was a <b>NULL</b> pointer.
 
 An object can have several resources. For instance, an object may contain image data, thumbnail image data, and audio data.
 
-An application can retrieve a list of supported resources by calling the <a href="https://msdn.microsoft.com/415c3256-1385-48d7-999a-91dc3ad795f8">GetSupportedResources</a> method.
+An application can retrieve a list of supported resources by calling the <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceresources-getsupportedresources">GetSupportedResources</a> method.
 
 
 
@@ -126,7 +126,7 @@ An application can retrieve a list of supported resources by calling the <a href
 
 
 
-<a href="https://msdn.microsoft.com/fce2d6db-13f0-4c1d-ba55-16139c6acbb7">IPortableDeviceResources Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceresources">IPortableDeviceResources Interface</a>
  
 
  

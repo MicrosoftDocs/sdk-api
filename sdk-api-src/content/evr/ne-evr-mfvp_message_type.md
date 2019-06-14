@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines messages for an enhanced video renderer (EVR) presenter. This enumeration is used with the <a href="https://msdn.microsoft.com/f7113cb3-2ea9-4d4f-b6c7-ef4e1025cc6d">IMFVideoPresenter::ProcessMessage</a> method.
+Defines messages for an enhanced video renderer (EVR) presenter. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideopresenter-processmessage">IMFVideoPresenter::ProcessMessage</a> method.
 
 
 ## -enum-fields
@@ -102,11 +102,11 @@ Cancels a frame step. The <i>ulParam</i> parameter is not used and should be zer
 
 
 
-<a href="https://msdn.microsoft.com/1c985558-d25d-4f51-978a-58c05943dab9">Enhanced Video Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

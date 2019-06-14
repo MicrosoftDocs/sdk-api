@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Values used by <a href="https://msdn.microsoft.com/0fcfe68b-5d36-4be1-a468-b5c2d7af0651">IThumbnailCache::GetThumbnail</a> to specify options for the extraction and display of the thumbnail image.
+Values used by <a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/nf-thumbcache-ithumbnailcache-getthumbnail">IThumbnailCache::GetThumbnail</a> to specify options for the extraction and display of the thumbnail image.
 
 
 ## -enum-fields
@@ -124,7 +124,7 @@ Default. 0x00000000. Extract the thumbnail if it is not cached.
 
 ### -field WTS_APPSTYLE
 
-0x00002000. <b>Windows 8 and later</b>. Pass the <a href="https://msdn.microsoft.com/062B148E-19FB-4bcd-82CE-669B2ACD0BF6">WTSCF_APPSTYLE</a> flag to <a href="https://msdn.microsoft.com/AD333075-3358-4fee-BDEE-087B7012C93E">IThumbnailSettings::SetContext</a>, if the provider supports it.  
+0x00002000. <b>Windows 8 and later</b>. Pass the <a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/ne-thumbcache-wts_contextflags">WTSCF_APPSTYLE</a> flag to <a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/nf-thumbcache-ithumbnailsettings-setcontext">IThumbnailSettings::SetContext</a>, if the provider supports it.  
 
 
 
@@ -182,11 +182,11 @@ The following combinations are valid.
 
 
 
-<a href="https://msdn.microsoft.com/0fcfe68b-5d36-4be1-a468-b5c2d7af0651">IThumbnailCache::GetThumbnail</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/nf-thumbcache-ithumbnailcache-getthumbnail">IThumbnailCache::GetThumbnail</a>
 
 
 
-<a href="https://msdn.microsoft.com/AD333075-3358-4fee-BDEE-087B7012C93E">IThumbnailSettings::SetContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/nf-thumbcache-ithumbnailsettings-setcontext">IThumbnailSettings::SetContext</a>
  
 
  

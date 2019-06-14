@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the thread's <a href="https://msdn.microsoft.com/4BFBF485-1AD2-4460-A4EE-CB76EF62B8C4">DPI_HOSTING_BEHAVIOR</a>. This behavior allows windows created in the thread to host child windows with a different <b>DPI_AWARENESS_CONTEXT</b>.
+Sets the thread's <a href="https://docs.microsoft.com/windows/desktop/api/windef/ne-windef-dpi_hosting_behavior">DPI_HOSTING_BEHAVIOR</a>. This behavior allows windows created in the thread to host child windows with a different <b>DPI_AWARENESS_CONTEXT</b>.
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Sets the thread's <a href="https://msdn.microsoft.com/4BFBF485-1AD2-4460-A4EE-CB
 
 ### -param value
 
-The new <a href="https://msdn.microsoft.com/4BFBF485-1AD2-4460-A4EE-CB76EF62B8C4">DPI_HOSTING_BEHAVIOR</a> value for the current thread.
+The new <a href="https://docs.microsoft.com/windows/desktop/api/windef/ne-windef-dpi_hosting_behavior">DPI_HOSTING_BEHAVIOR</a> value for the current thread.
 
 
 ## -returns
 
 
 
-The previous <a href="https://msdn.microsoft.com/4BFBF485-1AD2-4460-A4EE-CB76EF62B8C4">DPI_HOSTING_BEHAVIOR</a> for the thread. If the hosting behavior passed in is invalid, the thread will not be updated and the return value will be <b>DPI_HOSTING_BEHAVIOR_INVALID</b>. You can use this value to restore the old <b>DPI_HOSTING_BEHAVIOR</b> after overriding it with a predefined value.
+The previous <a href="https://docs.microsoft.com/windows/desktop/api/windef/ne-windef-dpi_hosting_behavior">DPI_HOSTING_BEHAVIOR</a> for the thread. If the hosting behavior passed in is invalid, the thread will not be updated and the return value will be <b>DPI_HOSTING_BEHAVIOR_INVALID</b>. You can use this value to restore the old <b>DPI_HOSTING_BEHAVIOR</b> after overriding it with a predefined value.
 
 
 
@@ -76,7 +76,7 @@ The previous <a href="https://msdn.microsoft.com/4BFBF485-1AD2-4460-A4EE-CB76EF6
 
 
 
-<a href="https://msdn.microsoft.com/4BFBF485-1AD2-4460-A4EE-CB76EF62B8C4">DPI_HOSTING_BEHAVIOR</a> enables a mixed content hosting behavior, which allows parent windows created in the thread to host child windows with a different <a href="https://msdn.microsoft.com/BFD54A9F-642B-4A3A-BBB9-F3A80779251D">DPI_AWARENESS_CONTEXT</a> value. This property only effects new windows created within this thread while the mixed hosting behavior is active. A parent window with this hosting behavior is able to host child windows with different <b>DPI_AWARENESS_CONTEXT</b> values, regardless of whether the child windows have mixed hosting behavior enabled.
+<a href="https://docs.microsoft.com/windows/desktop/api/windef/ne-windef-dpi_hosting_behavior">DPI_HOSTING_BEHAVIOR</a> enables a mixed content hosting behavior, which allows parent windows created in the thread to host child windows with a different <a href="https://docs.microsoft.com/windows/desktop/hidpi/dpi-awareness-context">DPI_AWARENESS_CONTEXT</a> value. This property only effects new windows created within this thread while the mixed hosting behavior is active. A parent window with this hosting behavior is able to host child windows with different <b>DPI_AWARENESS_CONTEXT</b> values, regardless of whether the child windows have mixed hosting behavior enabled.
 
 This hosting behavior does not allow for windows with per-monitor <b>DPI_AWARENESS_CONTEXT</b> values to be hosted until windows with <b>DPI_AWARENESS_CONTEXT</b> values of system or unaware.
 
@@ -96,15 +96,15 @@ Enabling mixed hosting behavior will not automatically adjust the thread's <b>DP
 
 
 
-<a href="https://msdn.microsoft.com/4BFBF485-1AD2-4460-A4EE-CB76EF62B8C4">DPI_HOSTING_BEHAVIOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windef/ne-windef-dpi_hosting_behavior">DPI_HOSTING_BEHAVIOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/B9500745-9B53-47FF-9F45-0BFF3A66FD46">GetThreadDpiHostingBehavior</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getthreaddpihostingbehavior">GetThreadDpiHostingBehavior</a>
 
 
 
-<a href="https://msdn.microsoft.com/BD16F545-54A1-479A-BA4B-F54834043EB2">GetWindowDpiHostingBehavior</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowdpihostingbehavior">GetWindowDpiHostingBehavior</a>
  
 
  

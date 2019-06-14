@@ -107,7 +107,7 @@ Invalid pointer.
 
 
 
-A knowledge cookie can be used for fast comparisons with other knowledge objects by using <a href="https://msdn.microsoft.com/f1649f70-8c8b-4eea-8ecb-7ea5a657eabe">ISyncKnowledge2::CompareToKnowledgeCookie</a> when the performance of the comparison operation is especially important.
+A knowledge cookie can be used for fast comparisons with other knowledge objects by using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge2-comparetoknowledgecookie">ISyncKnowledge2::CompareToKnowledgeCookie</a> when the performance of the comparison operation is especially important.
 
 
 
@@ -118,11 +118,11 @@ A knowledge cookie can be used for fast comparisons with other knowledge objects
 
 
 
-<a href="https://msdn.microsoft.com/cfb08476-7b5d-4953-b723-5160330e57be">ISyncKnowledge Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/1acbae32-8fa6-4c1e-95f6-30aca483c966">ISyncKnowledge2 Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge2">ISyncKnowledge2 Interface</a>
  
 
  

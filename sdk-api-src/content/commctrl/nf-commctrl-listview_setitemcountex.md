@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the virtual number of items in a <a href="https://msdn.microsoft.com/en-us/library/Bb774735(v=VS.85).aspx">virtual list view</a>. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761188(v=VS.85).aspx">LVM_SETITEMCOUNT</a> message explicitly. 
+Sets the virtual number of items in a <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-controls-overview">virtual list view</a>. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setitemcount">LVM_SETITEMCOUNT</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Sets the virtual number of items in a <a href="https://msdn.microsoft.com/en-us/
 
 ### -param hwndLV
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a virtual list-view control. 
 
@@ -73,7 +73,7 @@ The number of items that the list-view control will contain.
 
 ### -param dwFlags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Values that specify the behavior of the list-view control after resetting the item count. This value can be a combination of the following: 
 
@@ -110,11 +110,11 @@ The list-view control will not change the scroll position when the item count ch
 
 
 
-This macro is intended only for list-view controls that use the <a href="https://msdn.microsoft.com/en-us/library/Bb774739(v=VS.85).aspx">LVS_OWNERDATA</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb774739(v=VS.85).aspx">LVS_REPORT</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb774739(v=VS.85).aspx">LVS_LIST</a> styles. 
+This macro is intended only for list-view controls that use the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-window-styles">LVS_OWNERDATA</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-window-styles">LVS_REPORT</a> or <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-window-styles">LVS_LIST</a> styles. 
 
-If the list-view control was created with the <a href="https://msdn.microsoft.com/en-us/library/Bb774739(v=VS.85).aspx">LVS_OWNERDATA</a> style, this macro sets the virtual number of items that the control contains. 
+If the list-view control was created with the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-window-styles">LVS_OWNERDATA</a> style, this macro sets the virtual number of items that the control contains. 
 
-If the list-view control was created without the <a href="https://msdn.microsoft.com/en-us/library/Bb774739(v=VS.85).aspx">LVS_OWNERDATA</a> style, the <a href="https://msdn.microsoft.com/en-us/library/Bb775093(v=VS.85).aspx">ListView_SetItemCount</a> macro should be used. 
+If the list-view control was created without the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-window-styles">LVS_OWNERDATA</a> style, the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-listview_setitemcount">ListView_SetItemCount</a> macro should be used. 
 
 
 

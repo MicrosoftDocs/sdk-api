@@ -59,14 +59,14 @@ ms.custom: 19H1
 
 ### -param informationalStringID
 
-Type: <b><a href="https://msdn.microsoft.com/bbd5ea62-0837-49e4-a1e8-1d55d5d39ee3">DWRITE_INFORMATIONAL_STRING_ID</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_informational_string_id">DWRITE_INFORMATIONAL_STRING_ID</a></b>
 
-A value that identifies the  informational string to get. For example, <a href="https://msdn.microsoft.com/bbd5ea62-0837-49e4-a1e8-1d55d5d39ee3">DWRITE_INFORMATIONAL_STRING_DESCRIPTION</a> specifies a string that contains a description of the font. 
+A value that identifies the  informational string to get. For example, <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_informational_string_id">DWRITE_INFORMATIONAL_STRING_DESCRIPTION</a> specifies a string that contains a description of the font. 
 
 
 ### -param informationalStrings [out]
 
-Type: <b><a href="https://msdn.microsoft.com/37bfc613-4128-45aa-b6b2-6163d44378e4">IDWriteLocalizedStrings</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritelocalizedstrings">IDWriteLocalizedStrings</a>**</b>
 
 When this method returns, contains an address of a pointer to the newly created localized strings object.
 
@@ -104,7 +104,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/e29e626f-3e63-4c27-934b-64be51dcf3db">IDWriteFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefont">IDWriteFont</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the color primaries of a video source. These flags are used in the <a href="https://msdn.microsoft.com/eba2c56b-8951-4dc5-91ae-1371793ce787">DXVA2_ExtendedFormat</a> structure.
+Specifies the color primaries of a video source. These flags are used in the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_extendedformat">DXVA2_ExtendedFormat</a> structure.
 
 
 ## -enum-fields
@@ -188,7 +188,7 @@ For a derivation of these formulas, refer to Charles Poynton, Digital Video and 
 This enumeration is equivalent to the <b>DXVA_VideoPrimaries</b> enumeration used in DXVA 1.0.
       
 
-If you are using the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface to describe the video format, the color primaries are specified in the <a href="https://msdn.microsoft.com/56f31c1a-b610-4da0-9df4-76e15add672c">MF_MT_VIDEO_PRIMARIES</a> attribute.
+If you are using the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface to describe the video format, the color primaries are specified in the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-video-primaries-attribute">MF_MT_VIDEO_PRIMARIES</a> attribute.
       
 
 
@@ -199,11 +199,11 @@ If you are using the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020
 
 
 
-<a href="https://msdn.microsoft.com/05ca73c6-d105-47bc-96bc-b784f669febe">Extended Color Information</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/extended-color-information">Extended Color Information</a>
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

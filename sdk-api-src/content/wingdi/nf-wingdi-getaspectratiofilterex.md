@@ -66,7 +66,7 @@ Handle to a device context.
 
 ### -param lpsize [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a> structure that receives the current aspect-ratio filter.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a> structure that receives the current aspect-ratio filter.
 
 
 ## -returns
@@ -86,7 +86,7 @@ If the function fails, the return value is zero.
 
 The aspect ratio is the ratio formed by the width and height of a pixel on a specified device.
 
-The system provides a special filter, the aspect-ratio filter, to select fonts that were designed for a particular device. An application can specify that the system should only retrieve fonts matching the specified aspect ratio by calling the <a href="https://msdn.microsoft.com/74cfe0d3-0d20-4382-8e76-55a6e2323308">SetMapperFlags</a> function.
+The system provides a special filter, the aspect-ratio filter, to select fonts that were designed for a particular device. An application can specify that the system should only retrieve fonts matching the specified aspect ratio by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setmapperflags">SetMapperFlags</a> function.
 
 
 
@@ -96,19 +96,19 @@ The system provides a special filter, the aspect-ratio filter, to select fonts t
 
 
 
-<a href="https://msdn.microsoft.com/69c04ed7-52da-4cb6-9fd2-f2a8c044df8b">Font and Text Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9944baa9-8e50-40b9-9650-78b0b1d7643a">Fonts and Text Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a>
+<a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a>
 
 
 
-<a href="https://msdn.microsoft.com/74cfe0d3-0d20-4382-8e76-55a6e2323308">SetMapperFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setmapperflags">SetMapperFlags</a>
  
 
  

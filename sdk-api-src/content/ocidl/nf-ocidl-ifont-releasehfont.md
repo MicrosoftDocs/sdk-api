@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Notifies the font object that the caller that previously locked this font in the cache with 
-   <a href="https://msdn.microsoft.com/f86d52b8-e763-4948-b853-039721ae9b38">IFont::AddRefHfont</a> no longer requires the lock.
+   <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-addrefhfont">IFont::AddRefHfont</a> no longer requires the lock.
 
 
 ## -parameters
@@ -61,8 +61,8 @@ Notifies the font object that the caller that previously locked this font in the
 ### -param hFont [in]
 
 A font handle previously realized through 
-      <a href="https://msdn.microsoft.com/19bfd78a-0e81-45c3-a3b8-bc893669e9f5">IFont::get_hFont</a>. This value was passed to a previous 
-      call to <a href="https://msdn.microsoft.com/f86d52b8-e763-4948-b853-039721ae9b38">IFont::AddRefHfont</a> to lock the font, and the 
+      <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_hfont">IFont::get_hFont</a>. This value was passed to a previous 
+      call to <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-addrefhfont">IFont::AddRefHfont</a> to lock the font, and the 
       caller would now like to unlock the font in the cache.
 
 
@@ -112,11 +112,11 @@ The font was not locked in the cache. This return value is a benign notification
 
 
 
-<a href="https://msdn.microsoft.com/3a04d2b7-b2eb-4c6c-8863-1e88321fa382">IFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
 
 
 
-<a href="https://msdn.microsoft.com/f86d52b8-e763-4948-b853-039721ae9b38">IFont::AddRefHfont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-addrefhfont">IFont::AddRefHfont</a>
  
 
  

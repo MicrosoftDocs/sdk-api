@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Describes the next step that is to occur in sync manager conflict resolution. Used by <a href="https://msdn.microsoft.com/ec9a2050-23ad-4478-a705-0a7324e8f84d">ISyncMgrConflictPresenter</a>.
+Describes the next step that is to occur in sync manager conflict resolution. Used by <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrconflictpresenter">ISyncMgrConflictPresenter</a>.
 
 
 ## -enum-fields
@@ -78,11 +78,11 @@ All conflict resolution should be canceled.
 
 
 
-<a href="https://msdn.microsoft.com/7f263f83-1d7c-40c6-a57c-1334a52cd712">ISyncMgrConflictResolveInfo::GetPresenterNextStep</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-getpresenternextstep">ISyncMgrConflictResolveInfo::GetPresenterNextStep</a>
 
 
 
-<a href="https://msdn.microsoft.com/a56ca252-89e5-4ad0-bc9a-f8c7b70bd536">ISyncMgrConflictResolveInfo::SetPresenterNextStep</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-setpresenternextstep">ISyncMgrConflictResolveInfo::SetPresenterNextStep</a>
  
 
  

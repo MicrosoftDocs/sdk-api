@@ -59,7 +59,7 @@ Specifies which properties will be collected in the save dialog.
 
 ### -param pList [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e0530195-27da-4df7-884f-518e905f3c0e">IPropertyDescriptionList</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionlist">IPropertyDescriptionList</a>*</b>
 
 Pointer to the interface that represents the list of properties to collect. This parameter can be <b>NULL</b>.
 
@@ -86,12 +86,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The calling application can use the <a href="https://msdn.microsoft.com/348253ed-46ac-4643-bbf8-2d286ae97f07">PSGetPropertyDescriptionListFromString</a> function to construct an <a href="https://msdn.microsoft.com/e0530195-27da-4df7-884f-518e905f3c0e">IPropertyDescriptionList</a> from a string such as "prop:Comments;Subject;".
+The calling application can use the <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psgetpropertydescriptionlistfromstring">PSGetPropertyDescriptionListFromString</a> function to construct an <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionlist">IPropertyDescriptionList</a> from a string such as "prop:Comments;Subject;".
 
 For more information about property schemas, see 
-            <a href="https://msdn.microsoft.com/4e301210-df3a-41db-a58e-015ee8d41714">Property Schemas</a>.
+            <a href="https://docs.microsoft.com/windows/desktop/properties/building-property-handlers-property-schemas">Property Schemas</a>.
 
-<b>IFileSaveDialog::SetCollectedProperties</b> can be called at any time before the dialog is displayed or while it is visible. If different properties are to be collected depending on the chosen filetype, then <b>IFileSaveDialog::SetCollectedProperties</b> can be called in response to <a href="https://msdn.microsoft.com/d57e7b57-520d-40d6-8bac-ebf245ad7484">OnTypeChange</a>.
+<b>IFileSaveDialog::SetCollectedProperties</b> can be called at any time before the dialog is displayed or while it is visible. If different properties are to be collected depending on the chosen filetype, then <b>IFileSaveDialog::SetCollectedProperties</b> can be called in response to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogevents-ontypechange">OnTypeChange</a>.
 
 <div class="alert"><b>Note</b>  By default, no properties are collected in the save dialog.</div>
 <div> </div>
@@ -103,11 +103,11 @@ For more information about property schemas, see
 
 
 
-<a href="https://msdn.microsoft.com/74021f92-54ff-4c02-a8cf-49bcd7b9171e">IFileSaveDialog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifilesavedialog">IFileSaveDialog</a>
 
 
 
-<a href="https://msdn.microsoft.com/418f2524-5e6d-4e79-894b-b5f706171836">IFileSaveDialog::SetProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifilesavedialog-setproperties">IFileSaveDialog::SetProperties</a>
  
 
  

@@ -72,15 +72,15 @@ The bitmask of valid flag values. This constant is not itself a valid flag.
 
 
 
-<a href="https://msdn.microsoft.com/bbe85dc1-af9c-4be7-9064-d61bba160942">IEVRFilterConfigEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-ievrfilterconfigex">IEVRFilterConfigEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/3617adf2-ed7b-4788-abce-58bc22a14511">Video Quality Management</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/video-quality-management">Video Quality Management</a>
  
 
  

@@ -71,14 +71,14 @@ Raises an exception that bypasses all exception handlers (frame or vector based)
 
 ### -param pExceptionRecord [in, optional]
 
-A pointer to an <a href="https://msdn.microsoft.com/85a64178-bdcb-4293-9363-289c654730a2">EXCEPTION_RECORD</a> structure that contains the exception information. You must specify the <b>ExceptionAddress</b> and <b>ExceptionCode</b> members.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_exception_record">EXCEPTION_RECORD</a> structure that contains the exception information. You must specify the <b>ExceptionAddress</b> and <b>ExceptionCode</b> members.
 
 If this parameter is <b>NULL</b>, the function creates an exception record and sets the <b>ExceptionCode</b> member to STATUS_FAIL_FAST_EXCEPTION. The function will also set the <b>ExceptionAddress</b> member if the <i>dwFlags</i> parameter contains the FAIL_FAST_GENERATE_EXCEPTION_ADDRESS flag.
 
 
 ### -param pContextRecord [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a> structure that contains the context information. If <b>NULL</b>, this function generates the context (however, the context will not exactly match the context of the caller).
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a> structure that contains the context information. If <b>NULL</b>, this function generates the context (however, the context will not exactly match the context of the caller).
 
 
 ### -param dwFlags [in]
@@ -100,7 +100,7 @@ You can specify zero or the following flag that control this function's behavior
 </dl>
 </td>
 <td width="60%">
-Causes <b>RaiseFailFastException</b> to set the <b>ExceptionAddress</b> of <a href="https://msdn.microsoft.com/85a64178-bdcb-4293-9363-289c654730a2">EXCEPTION_RECORD</a> to the return address of this function (the next instruction in the caller after the call to <b>RaiseFailFastException</b>). This function will set the exception address only if <b>ExceptionAddress</b> is not <b>NULL</b>.
+Causes <b>RaiseFailFastException</b> to set the <b>ExceptionAddress</b> of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_exception_record">EXCEPTION_RECORD</a> to the return address of this function (the next instruction in the caller after the call to <b>RaiseFailFastException</b>). This function will set the exception address only if <b>ExceptionAddress</b> is not <b>NULL</b>.
 
 </td>
 </tr>

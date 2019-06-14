@@ -59,7 +59,7 @@ Initializes the audio stream.
 
 ### -param pnPeriodInHundredNsIntervals [out]
 
-On return, indicates the stream period in 100 nanosecond intervals. The collaboration sharer calculates how frequently to call the <a href="https://msdn.microsoft.com/9A155107-1C43-49C2-BA92-4CBF37AEF4DB">GetBuffer</a> method from this value.
+On return, indicates the stream period in 100 nanosecond intervals. The collaboration sharer calculates how frequently to call the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiaudiostream-getbuffer">GetBuffer</a> method from this value.
 
 
 ## -returns
@@ -76,15 +76,15 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the return v
 
 
 
-<a href="https://msdn.microsoft.com/9A155107-1C43-49C2-BA92-4CBF37AEF4DB">GetBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiaudiostream-getbuffer">GetBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/B2BC04A1-DE22-4543-9F10-33B0B99E0F92">IRDPSRAPIAudioStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiaudiostream">IRDPSRAPIAudioStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/23ADA8F5-9F44-45E6-88DC-852D8F62F03F">Start</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiaudiostream-start">Start</a>
  
 
  

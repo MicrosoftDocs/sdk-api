@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>HTTP_SERVICE_CONFIG_URLACL_PARAM</b> structure is used to specify the permissions associated with a particular record in the URL namespace reservation store. It is a member of the 
-<a href="https://msdn.microsoft.com/92fc3f65-0153-4075-a61b-48a63c8e0ffe">HTTP_SERVICE_CONFIG_URLACL_SET</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_urlacl_set">HTTP_SERVICE_CONFIG_URLACL_SET</a> structure.
 
 
 ## -struct-fields
@@ -62,7 +62,7 @@ The
 ### -field pStringSecurityDescriptor
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/0a226629-084c-40c5-bdd4-ad7355c807cf">Security Descriptor Definition Language (SDDL) string</a> that contains the permissions associated with this URL namespace reservation record.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-string-format">Security Descriptor Definition Language (SDDL) string</a> that contains the permissions associated with this URL namespace reservation record.
 
 
 ## -remarks
@@ -85,11 +85,11 @@ An example of a security descriptor string is:
 
 
 
-<a href="https://msdn.microsoft.com/92fc3f65-0153-4075-a61b-48a63c8e0ffe">HTTP_SERVICE_CONFIG_URLACL_SET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_urlacl_set">HTTP_SERVICE_CONFIG_URLACL_SET</a>
 
 
 
-<a href="https://msdn.microsoft.com/0a226629-084c-40c5-bdd4-ad7355c807cf">Security Descriptor String Format</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-string-format">Security Descriptor String Format</a>
  
 
  

@@ -61,14 +61,14 @@ Contains or receives information for a specific button in a toolbar.
 
 ### -field cbSize
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Size of the structure, in bytes. This member must be filled in prior to sending the associated message.
 
 
 ### -field dwMask
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Set of flags that indicate which members contain valid information. This member must be filled in prior to sending the associated message. This can be one or more of the following values.
 
@@ -84,7 +84,7 @@ Set of flags that indicate which members contain valid information. This member 
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 5.80.</a> The <i>wParam</i> sent with a <a href="https://msdn.microsoft.com/en-us/library/Bb787321(v=VS.85).aspx">TB_GETBUTTONINFO</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb787413(v=VS.85).aspx">TB_SETBUTTONINFO</a> message is an index, not an identifier.
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 5.80.</a> The <i>wParam</i> sent with a <a href="https://docs.microsoft.com/windows/desktop/Controls/tb-getbuttoninfo">TB_GETBUTTONINFO</a> or <a href="https://docs.microsoft.com/windows/desktop/Controls/tb-setbuttoninfo">TB_SETBUTTONINFO</a> message is an index, not an identifier.
 
 </td>
 </tr>
@@ -173,44 +173,44 @@ Command identifier of the button.
 
 Type: <b>int</b>
 
-Image index of the button. Set this member to I_IMAGECALLBACK, and the toolbar will send the <a href="https://msdn.microsoft.com/en-us/library/Bb787268(v=VS.85).aspx">TBN_GETDISPINFO</a> notification code to retrieve the image index when it is needed. 
+Image index of the button. Set this member to I_IMAGECALLBACK, and the toolbar will send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tbn-getdispinfo">TBN_GETDISPINFO</a> notification code to retrieve the image index when it is needed. 
                     
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 5.81</a>. Set this member to I_IMAGENONE to indicate that the button does not have an image. The button layout will not include any space for a bitmap, only text.
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 5.81</a>. Set this member to I_IMAGENONE to indicate that the button does not have an image. The button layout will not include any space for a bitmap, only text.
 
 
 ### -field fsState
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
-State flags of the button. This can be one or more of the values listed in  <a href="https://msdn.microsoft.com/en-us/library/Bb760437(v=VS.85).aspx">Toolbar Button States</a>.
+State flags of the button. This can be one or more of the values listed in  <a href="https://docs.microsoft.com/windows/desktop/Controls/toolbar-button-states">Toolbar Button States</a>.
 
 
 ### -field fsStyle
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
-Style flags of the button. This can be one or more of the values listed in <a href="https://msdn.microsoft.com/en-us/library/Bb760439(v=VS.85).aspx">Toolbar Control and Button Styles</a>.
+Style flags of the button. This can be one or more of the values listed in <a href="https://docs.microsoft.com/windows/desktop/Controls/toolbar-control-and-button-styles">Toolbar Control and Button Styles</a>.
 
 
 ### -field cx
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Width of the button, in pixels.
 
 
 ### -field lParam
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD_PTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD_PTR</a></b>
 
 Application-defined value associated with the button.
 
 
 ### -field pszText
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPTSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
 Address of a character buffer that contains or receives the button text.
 

@@ -65,7 +65,7 @@ The <b>SetProperty</b> method is used to specify a property for the sample in th
 
 ### -param guidBufferProperty [in]
 
-<b>GUID</b> value identifying the property you want to set. The predefined buffer properties are described in the <a href="https://msdn.microsoft.com/8de2e003-cb21-4be9-bcde-7f5909b6260a">Sample Extension Types</a> section of this documentation. You can also define your own sample extension schemes using your own GUID values.
+<b>GUID</b> value identifying the property you want to set. The predefined buffer properties are described in the <a href="https://docs.microsoft.com/windows/desktop/wmformat/sample-extension-types">Sample Extension Types</a> section of this documentation. You can also define your own sample extension schemes using your own GUID values.
 
 
 ### -param pvBufferProperty [in]
@@ -121,7 +121,7 @@ The method was unable to allocate memory for the new property.
 
 
 
-If you set a buffer property with a size larger than that specified in your call to <a href="https://msdn.microsoft.com/en-us/library/Dd798548(v=VS.85).aspx">IWMStreamConfig2::AddDataUnitExtension</a>, you will not get an error from <b>SetProperty</b>. However, when the writer writes the sample, NS_E_DATA_UNIT_EXTENSION_TOO_LARGE will be returned.
+If you set a buffer property with a size larger than that specified in your call to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-adddataunitextension">IWMStreamConfig2::AddDataUnitExtension</a>, you will not get an error from <b>SetProperty</b>. However, when the writer writes the sample, NS_E_DATA_UNIT_EXTENSION_TOO_LARGE will be returned.
 
 
 
@@ -131,11 +131,11 @@ If you set a buffer property with a size larger than that specified in your call
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743245(v=VS.85).aspx">INSSBuffer3 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer3">INSSBuffer3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743254(v=VS.85).aspx">INSSBuffer3::GetProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer3-getproperty">INSSBuffer3::GetProperty</a>
  
 
  

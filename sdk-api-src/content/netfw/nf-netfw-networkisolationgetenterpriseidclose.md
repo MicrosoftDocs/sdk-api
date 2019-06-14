@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-This API is used for closing the handle returned by  <a href="https://msdn.microsoft.com/709211F9-FE7A-4C43-AD35-101C4B64ED26">NetworkIsolationGetEnterpriseIdAsync</a> as well as for synchronizing the operation.
+This API is used for closing the handle returned by  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationgetenterpriseidasync">NetworkIsolationGetEnterpriseIdAsync</a> as well as for synchronizing the operation.
 
 
 ## -parameters

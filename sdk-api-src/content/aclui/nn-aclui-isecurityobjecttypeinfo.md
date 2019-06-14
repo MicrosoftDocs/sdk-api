@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ISecurityObjectTypeInfo</b> interface provides a means of determining the source of inherited <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entries</a> (ACEs) in <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">discretionary access control lists</a> (DACLs) and <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">system access control lists</a> (SACLs).  The access control editor uses this information to communicate the inheritance source to the client.
+The <b>ISecurityObjectTypeInfo</b> interface provides a means of determining the source of inherited <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control lists</a> (DACLs) and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control lists</a> (SACLs).  The access control editor uses this information to communicate the inheritance source to the client.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISecurityObjectTypeInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISecurityObjectTypeInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISecurityObjectTypeInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISecurityObjectTypeInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISecurityObjectTypeInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e058ca98-08dc-4a3f-9521-adcc5990eae7">GetInheritSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityobjecttypeinfo-getinheritsource">GetInheritSource</a>
 </td>
 <td align="left" width="63%">
 Returns the inheritance source for the object.
@@ -84,11 +84,11 @@ Returns the inheritance source for the object.
 
 
 
-<a href="https://msdn.microsoft.com/c2897dad-647c-4dc1-b962-bd7fbae2da3a">IEffectivePermission</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-ieffectivepermission">IEffectivePermission</a>
 
 
 
-<a href="https://msdn.microsoft.com/5cb7a096-5088-424a-82d1-0351ce5bb413">ISecurityInformation2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation2">ISecurityInformation2</a>
  
 
  

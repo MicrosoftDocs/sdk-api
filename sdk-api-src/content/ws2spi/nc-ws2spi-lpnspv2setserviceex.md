@@ -61,7 +61,7 @@ The
 ### -param hAsyncCall [in]
 
 A handle returned from the previous call to 
-<a href="https://msdn.microsoft.com/a0b71821-4434-470f-b729-370d7e1722ec">NSPv2LookupServiceBegin</a> used for asynchronous calls.
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicebegin">NSPv2LookupServiceBegin</a> used for asynchronous calls.
 
 
 ### -param lpProviderId [in]
@@ -115,7 +115,7 @@ Deregister the service. For the SAP namespace, this means stop sending the perio
 </td>
 <td width="60%">
 Delete the service from dynamic name and persistent spaces. For services represented by multiple 
-<a href="https://msdn.microsoft.com/9cad3586-e315-4f6f-9045-7c95502bb768">CSADDR_INFO</a> structures (using the SERVICE_MULTIPLE flag), only the supplied address will be deleted, and this must match exactly the corresponding <b>CSADDR_INFO</b> structure supplied when the service was registered.
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a> structures (using the SERVICE_MULTIPLE flag), only the supplied address will be deleted, and this must match exactly the corresponding <b>CSADDR_INFO</b> structure supplied when the service was registered.
 
 </td>
 </tr>
@@ -163,7 +163,7 @@ A pointer to the client session.
 
 
 The function should return <b>NO_ERROR</b> (zero) if the routine succeeds. It should return <b>SOCKET_ERROR</b> (â€“1) if the routine fails and it must set the appropriate error code using 
-<a href="https://msdn.microsoft.com/596155ee-3dcc-4ae3-97ab-0653e019cbee">WSASetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>.
 
 
 
@@ -175,7 +175,7 @@ The function should return <b>NO_ERROR</b> (zero) if the routine succeeds. It sh
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -186,7 +186,7 @@ There is not enough memory available to perform this operation.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEACCES</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEACCES</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -197,7 +197,7 @@ The calling routine does not have sufficient privileges to install the service.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -208,7 +208,7 @@ One or more parameters were invalid, or missing, for this provider.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEOPNOTSUPP</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEOPNOTSUPP</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -219,7 +219,7 @@ The operation is not supported. This error is returned if the namespace provider
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSASERVICE_NOT_FOUND</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASERVICE_NOT_FOUND</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -243,7 +243,7 @@ The
 On Windows Vista and Windows Server 2008, the <b>NSPv2SetServiceEx</b> function can only be used for operations on NS_EMAIL namespace providers.
 
 The 
-<a href="https://msdn.microsoft.com/93224e66-9c94-4b5c-af11-ae988b74bc03">NSPv2Startup</a> function is called each time a new client process begins using namespace provider.  Providers may use the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnspv2startup">NSPv2Startup</a> function is called each time a new client process begins using namespace provider.  Providers may use the 
 client session argument pointed to by the <i>ppvClientSessionArg</i> parameter to store information about this session. This client session argument can be passed to the <b>NSPv2SetServiceEx</b> function in the <i>lpvClientSessionArg</i> parameter.
 
 The <b>NSPv2SetServiceEx</b> function is optional, dependent on the requirements of the NSPv2 provider. If the <b>NSPv2SetServiceEx</b> function isn't implemented, then the NSPv2 function pointer can be to a stub function that always returns <b>NO_ERROR</b>.
@@ -274,7 +274,7 @@ The following table lists the possible combination of values for <i>essOperation
 <td>None</td>
 <td>Removes all addresses, but does not remove object from namespace. Object is DEREGISTERED.</td>
 <td>
-<a href="https://msdn.microsoft.com/50b924f3-2c88-443b-8a90-4293fe5c3048">WSASERVICE_NOT_FOUND</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASERVICE_NOT_FOUND</a>
 </td>
 </tr>
 <tr>
@@ -282,7 +282,7 @@ The following table lists the possible combination of values for <i>essOperation
 <td><b>SERVICE_MULTIPLE</b></td>
 <td>Updates object. Removes only addresses that are specified. Only mark object as DEREGISTERED if no addresses are present. Does not remove from the namespace.</td>
 <td>
-<a href="https://msdn.microsoft.com/50b924f3-2c88-443b-8a90-4293fe5c3048">WSASERVICE_NOT_FOUND</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASERVICE_NOT_FOUND</a>
 </td>
 </tr>
 <tr>
@@ -290,7 +290,7 @@ The following table lists the possible combination of values for <i>essOperation
 <td>None</td>
 <td>Removes object from the namespace.</td>
 <td>
-<a href="https://msdn.microsoft.com/50b924f3-2c88-443b-8a90-4293fe5c3048">WSASERVICE_NOT_FOUND</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASERVICE_NOT_FOUND</a>
 </td>
 </tr>
 <tr>
@@ -298,7 +298,7 @@ The following table lists the possible combination of values for <i>essOperation
 <td><b>SERVICE_MULTIPLE</b></td>
 <td>Removes only addresses that are specified. Only removes object from the namespace if no addresses remain.</td>
 <td>
-<a href="https://msdn.microsoft.com/50b924f3-2c88-443b-8a90-4293fe5c3048">WSASERVICE_NOT_FOUND</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASERVICE_NOT_FOUND</a>
 </td>
 </tr>
 </table>
@@ -308,10 +308,10 @@ When the  <i>dwControlFlags</i> parameter is set to <b>SERVICE_MULTIPLE</b>, thi
 
 When using <b>SERVICE_MULTIPLE</b>, an application must not let old addresses remain in the object. This can happen if the application aborts without issuing a <b>RNRSERVICE_DEREGISTER</b> request. When a service registers, it should store its addresses. On its next call, the service should explicitly deregister these old addresses before registering new addresses.
 
- If the <b>NSPv2SetServiceEx</b> function isn't implemented, then calls to that function should be intercepted by a stub function that returns <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEOPNOTSUPP</a>.  The NSPv2 function pointer to the unimplemented <b>NSPv2SetServiceEx</b> function in the <a href="https://msdn.microsoft.com/22a4ee47-030b-4aee-b9b1-c9e33b3e4fce">NSPV2_ROUTINE</a> structure should point be to the stub function. 
+ If the <b>NSPv2SetServiceEx</b> function isn't implemented, then calls to that function should be intercepted by a stub function that returns <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEOPNOTSUPP</a>.  The NSPv2 function pointer to the unimplemented <b>NSPv2SetServiceEx</b> function in the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-_nspv2_routine">NSPV2_ROUTINE</a> structure should point be to the stub function. 
 
 <h3><a id="Service_Properties"></a><a id="service_properties"></a><a id="SERVICE_PROPERTIES"></a>Service Properties</h3>
-The following table lists <a href="https://msdn.microsoft.com/ffe71de0-3561-481f-b81f-835c6c3a3ee4">WSAQUERYSET2</a> member names and describes how service property data is represented. Members labeled as optional and dependent on the requirements of the NSPv2 provider may be supplied as a <b>NULL</b> pointer when unused by the namespace provider.
+The following table lists <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaqueryset2w">WSAQUERYSET2</a> member names and describes how service property data is represented. Members labeled as optional and dependent on the requirements of the NSPv2 provider may be supplied as a <b>NULL</b> pointer when unused by the namespace provider.
 
 <table>
 <tr>
@@ -320,7 +320,7 @@ The following table lists <a href="https://msdn.microsoft.com/ffe71de0-3561-481f
 </tr>
 <tr>
 <td><b>dwSize</b></td>
-<td>Set to the sizeof(<a href="https://msdn.microsoft.com/ffe71de0-3561-481f-b81f-835c6c3a3ee4">WSAQUERYSET2</a>). This is a versioning mechanism.</td>
+<td>Set to the sizeof(<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaqueryset2w">WSAQUERYSET2</a>). This is a versioning mechanism.</td>
 </tr>
 <tr>
 <td><b>lpszServiceInstanceName</b></td>
@@ -365,7 +365,7 @@ The following table lists <a href="https://msdn.microsoft.com/ffe71de0-3561-481f
 <tr>
 <td><b>lpafpProtocols</b></td>
 <td>An array of 
-<a href="https://msdn.microsoft.com/ffd43aa1-bbc4-46f1-ad77-26c48f9ac0b7">AFPROTOCOLS</a> structures. This member is optional, dependent on the requirements of the NSPv2 service provider.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_afprotocols">AFPROTOCOLS</a> structures. This member is optional, dependent on the requirements of the NSPv2 service provider.
 
 </td>
 </tr>
@@ -377,11 +377,11 @@ The following table lists <a href="https://msdn.microsoft.com/ffe71de0-3561-481f
 </tr>
 <tr>
 <td><b>dwNumberOfCsAddrs</b></td>
-<td>The number of elements in the array of <a href="https://msdn.microsoft.com/9cad3586-e315-4f6f-9045-7c95502bb768">CSADDR_INFO</a> structures referenced by <i>lpcsaBuffer</i>.</td>
+<td>The number of elements in the array of <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a> structures referenced by <i>lpcsaBuffer</i>.</td>
 </tr>
 <tr>
 <td><b>lpcsaBuffer</b></td>
-<td>A pointer to an array of <a href="https://msdn.microsoft.com/9cad3586-e315-4f6f-9045-7c95502bb768">CSADDR_INFO</a> structures that contain the address or addresses that the service is listening on.</td>
+<td>A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a> structures that contain the address or addresses that the service is listening on.</td>
 </tr>
 <tr>
 <td><b>dwOutputFlags</b></td>
@@ -400,7 +400,7 @@ This member is optional, dependent on the requirements of the NSPv2 service prov
  
 
 <div class="alert"><b>Note</b>  It is acceptable for the <b>iProtocol</b> member of the 
-<a href="https://msdn.microsoft.com/9cad3586-e315-4f6f-9045-7c95502bb768">CSADDR_INFO</a> structure to contain the manifest constant <b>IPROTOCOL_ANY</b>, indicating a wildcard value. The namespace provider should substitute an acceptable value for the given address family and socket type.</div>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a> structure to contain the manifest constant <b>IPROTOCOL_ANY</b>, indicating a wildcard value. The namespace provider should substitute an acceptable value for the given address family and socket type.</div>
 <div> </div>
 
 
@@ -410,43 +410,43 @@ This member is optional, dependent on the requirements of the NSPv2 service prov
 
 
 
-<a href="https://msdn.microsoft.com/9cad3586-e315-4f6f-9045-7c95502bb768">CSADDR_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/22a4ee47-030b-4aee-b9b1-c9e33b3e4fce">NSPV2_ROUTINE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-_nspv2_routine">NSPV2_ROUTINE</a>
 
 
 
-<a href="https://msdn.microsoft.com/36064c0e-c83c-4819-a3e4-c89df50eb659">NSPv2Cleanup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnspv2cleanup">NSPv2Cleanup</a>
 
 
 
-<a href="https://msdn.microsoft.com/7379b502-129a-4dac-b7eb-e6fae8fb23f8">NSPv2ClientSessionRundown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnspv2clientsessionrundown">NSPv2ClientSessionRundown</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0b71821-4434-470f-b729-370d7e1722ec">NSPv2LookupServiceBegin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicebegin">NSPv2LookupServiceBegin</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f2b56c5-3a8e-4bf9-8f28-d2a06543227b">NSPv2LookupServiceEnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnspv2lookupserviceend">NSPv2LookupServiceEnd</a>
 
 
 
-<a href="https://msdn.microsoft.com/957fe544-9a3f-47f4-a98c-0624747650f4">NSPv2LookupServiceNextEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnspv2lookupservicenextex">NSPv2LookupServiceNextEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/93224e66-9c94-4b5c-af11-ae988b74bc03">NSPv2Startup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnspv2startup">NSPv2Startup</a>
 
 
 
-<a href="https://msdn.microsoft.com/ffe71de0-3561-481f-b81f-835c6c3a3ee4">WSAQUERYSET2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaqueryset2w">WSAQUERYSET2</a>
 
 
 
-<a href="https://msdn.microsoft.com/596155ee-3dcc-4ae3-97ab-0653e019cbee">WSASetLastError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>
  
 
  

@@ -117,7 +117,7 @@ The method failed. The resource has not been destroyed.
 
 
 
-<a href="https://msdn.microsoft.com/3c852e72-2fdc-4fd0-b523-f5601154da2a">IHolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iholder">IHolder</a>
  
 
  

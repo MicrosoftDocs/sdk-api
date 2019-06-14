@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Contains the name of a service in a service control manager database and information about the service. It is used by the 
-<a href="https://msdn.microsoft.com/7d7940c3-b562-455f-9a21-6d5fb5953030">EnumServicesStatusEx</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-enumservicesstatusexa">EnumServicesStatusEx</a> function.
 
 
 ## -struct-fields
@@ -73,7 +73,7 @@ A display name that can be used by service control programs, such as Services in
 ### -field ServiceStatusProcess
 
 A 
-<a href="https://msdn.microsoft.com/303986a0-c51e-4078-a3ca-d59e5a302b36">SERVICE_STATUS_PROCESS</a> structure that contains status information for the <b>lpServiceName</b> service.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_status_process">SERVICE_STATUS_PROCESS</a> structure that contains status information for the <b>lpServiceName</b> service.
 
 
 ## -see-also
@@ -81,11 +81,11 @@ A
 
 
 
-<a href="https://msdn.microsoft.com/7d7940c3-b562-455f-9a21-6d5fb5953030">EnumServicesStatusEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-enumservicesstatusexa">EnumServicesStatusEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/303986a0-c51e-4078-a3ca-d59e5a302b36">SERVICE_STATUS_PROCESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_status_process">SERVICE_STATUS_PROCESS</a>
  
 
  

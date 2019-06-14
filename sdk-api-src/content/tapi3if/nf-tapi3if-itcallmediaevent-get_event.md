@@ -61,7 +61,7 @@ The
 ### -param pCallMediaEvent [out]
 
 Pointer to 
-<a href="https://msdn.microsoft.com/835759f4-652b-4d01-911a-e580bb29d292">CALL_MEDIA_EVENT</a> indicator.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-call_media_event">CALL_MEDIA_EVENT</a> indicator.
 
 
 ## -returns
@@ -120,7 +120,7 @@ The <i>pCallMediaEvent</i> parameter is not a valid pointer.
 
 Call media events are a crucial indicator of whether certain operations can be performed. For example, when 
 <b>IVideoWindow</b> is exposed on the 
-<a href="https://msdn.microsoft.com/0d96f229-76c0-46a3-bc4b-6f558b9956c6">Terminal object</a>, until the CME_STREAM_ACTIVE is received only the 
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object">Terminal object</a>, until the CME_STREAM_ACTIVE is received only the 
 <b>put_Visible</b> method will succeed. For more information about <b>IVideoWindow</b> and <b>put_Visible</b>, see the DirectX documentation. 
 
 
@@ -131,15 +131,15 @@ Call media events are a crucial indicator of whether certain operations can be p
 
 
 
-<a href="https://msdn.microsoft.com/835759f4-652b-4d01-911a-e580bb29d292">CALL_MEDIA_EVENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-call_media_event">CALL_MEDIA_EVENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/67c063ba-8b12-40d6-9011-923bdee8b214">Call Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/db55ff03-9271-4a94-9cba-a3ef0282b7b6">ITCallMediaEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallmediaevent">ITCallMediaEvent</a>
  
 
  

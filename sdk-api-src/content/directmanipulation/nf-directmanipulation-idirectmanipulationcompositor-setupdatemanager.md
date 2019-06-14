@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-    Sets the update manager used to send compositor updates to <a href="https://msdn.microsoft.com/26358bc5-71e9-40f0-9243-9bddd961a0e5">Direct Manipulation</a>. 
+    Sets the update manager used to send compositor updates to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-portal">Direct Manipulation</a>. 
 
 
 
@@ -62,7 +62,7 @@ ms.custom: 19H1
 
 ### -param updateManager [in]
 
-The <a href="https://msdn.microsoft.com/30626a22-1ded-49ff-a6c3-619a14d5ee3b">update manager</a>.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationupdatemanager">update manager</a>.
 
 
 ## -returns
@@ -78,9 +78,9 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRES
 
 
 
-Retrieve <i>updateManager</i>  by calling <a href="https://msdn.microsoft.com/f3080fcb-3bbe-492b-a94e-322f93781cf5">GetUpdateManager</a>.
+Retrieve <i>updateManager</i>  by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationmanager-getupdatemanager">GetUpdateManager</a>.
 
-Call this method during <a href="https://msdn.microsoft.com/26358bc5-71e9-40f0-9243-9bddd961a0e5">Direct Manipulation</a> initialization to connect the compositor to the <i>update manager</i>.
+Call this method during <a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-portal">Direct Manipulation</a> initialization to connect the compositor to the <i>update manager</i>.
 
 
 
@@ -90,7 +90,7 @@ Call this method during <a href="https://msdn.microsoft.com/26358bc5-71e9-40f0-9
 
 
 
-<a href="https://msdn.microsoft.com/b96b5e8f-fc11-48ad-83ca-96e23fd3ffc1">IDirectManipulationCompositor</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationcompositor">IDirectManipulationCompositor</a>
  
 
  

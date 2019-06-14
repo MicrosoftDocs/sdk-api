@@ -61,12 +61,12 @@ The <b>FWPM_STATISTICS0</b> structure stores statistics related to connections a
 
 Type: <b>UINT32</b>
 
-Number of <a href="https://msdn.microsoft.com/cc8e0159-fe28-4718-b5fe-d38d180b3e2c">FWPM_LAYER_STATISTICS0</a> structures in the <b>layerStatistics</b> member.
+Number of <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_layer_statistics0_">FWPM_LAYER_STATISTICS0</a> structures in the <b>layerStatistics</b> member.
 
 
 ### -field layerStatistics
 
-Type: <b><a href="https://msdn.microsoft.com/cc8e0159-fe28-4718-b5fe-d38d180b3e2c">FWPM_LAYER_STATISTICS0</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_layer_statistics0_">FWPM_LAYER_STATISTICS0</a>*</b>
 
 Statistics related to the layer.
 
@@ -291,7 +291,7 @@ Number of active IPv6 outbound connections.
 
 
 
-<b>FWPM_STATISTICS0</b> is a specific implementation of FWPM_STATISTICS. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FWPM_STATISTICS0</b> is a specific implementation of FWPM_STATISTICS. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -301,7 +301,7 @@ Number of active IPv6 outbound connections.
 
 
 
-<a href="https://msdn.microsoft.com/cc8e0159-fe28-4718-b5fe-d38d180b3e2c">FWPM_LAYER_STATISTICS0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_layer_statistics0_">FWPM_LAYER_STATISTICS0</a>
  
 
  

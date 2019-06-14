@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents the output data received from a <a href="https://msdn.microsoft.com/cc64f212-9897-4a58-b3f1-bc2093f593ba">WSManReceiveShellOutput</a> method.
+Represents the output data received from a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanreceiveshelloutput">WSManReceiveShellOutput</a> method.
 
 
 
@@ -66,7 +66,7 @@ Represents the <b>streamId</b> for which <b>streamData</b> is defined.
 
 ### -field streamData
 
-Represents the data associated with <b>streamId</b>. The data can be stream text, binary content, or XML. For more information about the possible data, see <a href="https://msdn.microsoft.com/4ff574d4-04b0-47c3-808f-867d6815bffc">WSMAN_DATA</a>.
+Represents the data associated with <b>streamId</b>. The data can be stream text, binary content, or XML. For more information about the possible data, see <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_data">WSMAN_DATA</a>.
 
 
 ### -field commandState

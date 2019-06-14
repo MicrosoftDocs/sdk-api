@@ -52,7 +52,7 @@ ms.custom: 19H1
 The traffic control object 
 <b>QOS_TRAFFIC_CLASS</b> is used to override the default UserPriority value ascribed to packets that classify the  traffic of a given flow. 
 
-By default, the UserPriority value of a flow is derived from the ServiceType (see: <a href="https://msdn.microsoft.com/268e0d3a-2b04-40fd-91eb-f1780236b3e4">FLOWSPEC</a>). Therefore, it is often necessary to override the default UserPriority because packets can be tagged in their Layer 2 headers (such as an 802.1p header) to specify their priority to Layer-2 devices. Using 
+By default, the UserPriority value of a flow is derived from the ServiceType (see: <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a>). Therefore, it is often necessary to override the default UserPriority because packets can be tagged in their Layer 2 headers (such as an 802.1p header) to specify their priority to Layer-2 devices. Using 
 <b>QOS_TRAFFIC_CLASS</b> enables application developers to override the default UserPriority setting.
 
 
@@ -64,7 +64,7 @@ By default, the UserPriority value of a flow is derived from the ServiceType (se
 ### -field ObjectHdr
 
 The QOS object 
-<a href="https://msdn.microsoft.com/a2021d70-e7ef-4c2a-8800-1a1d7540ce02">QOS_OBJECT_HDR</a>. The object type for this traffic control object should be 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>. The object type for this traffic control object should be 
 <b>QOS_OBJECT_TRAFFIC_CLASS</b>.
 
 
@@ -127,23 +127,23 @@ ServiceType to 802.1 TrafficClass.</div>
 
 
 
-<a href="https://msdn.microsoft.com/268e0d3a-2b04-40fd-91eb-f1780236b3e4">FLOWSPEC</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d1035dc-0e46-46f4-abb3-26100356b60d">QOS_DIFFSERV</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qosobjs/ns-qosobjs-_qos_diffserv">QOS_DIFFSERV</a>
 
 
 
-<a href="https://msdn.microsoft.com/732cfbec-4175-4397-854f-0d2a930e11bc">QOS_DIFFSERV_RULE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qosobjs/ns-qosobjs-_qos_diffserv_rule">QOS_DIFFSERV_RULE</a>
 
 
 
-<a href="https://msdn.microsoft.com/56eca8ef-2b6e-4380-869c-bf1a4c8fdb1f">QOS_DS_CLASS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qosobjs/ns-qosobjs-_qos_ds_class">QOS_DS_CLASS</a>
 
 
 
-<a href="https://msdn.microsoft.com/a2021d70-e7ef-4c2a-8800-1a1d7540ce02">QOS_OBJECT_HDR</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>
  
 
  

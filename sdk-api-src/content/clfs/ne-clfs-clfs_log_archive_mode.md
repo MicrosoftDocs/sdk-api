@@ -72,7 +72,7 @@ Disables ephemeral logs.
 
 
 
-<a href="https://msdn.microsoft.com/9f8a9ab9-2873-44c2-aa8d-78514ffe42bb">SetLogArchiveMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-setlogarchivemode">SetLogArchiveMode</a>
  
 
  

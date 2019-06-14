@@ -60,19 +60,19 @@ Specifies a rectangular area within a video frame.
 
 ### -field OffsetX
 
-An <a href="https://msdn.microsoft.com/e93539fe-3e4a-4b34-8d6a-b3f300a70ffc">MFOffset</a> structure that contains the x-coordinate of the upper-left corner of the rectangle. This coordinate might have a fractional value.
+An <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfoffset">MFOffset</a> structure that contains the x-coordinate of the upper-left corner of the rectangle. This coordinate might have a fractional value.
           
 
 
 ### -field OffsetY
 
-An <a href="https://msdn.microsoft.com/e93539fe-3e4a-4b34-8d6a-b3f300a70ffc">MFOffset</a> structure that contains the y-coordinate of the upper-left corner of the rectangle. This coordinate might have a fractional value.
+An <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfoffset">MFOffset</a> structure that contains the y-coordinate of the upper-left corner of the rectangle. This coordinate might have a fractional value.
           
 
 
 ### -field Area
 
-A <a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a> structure that contains the width and height of the rectangle.
+A <a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a> structure that contains the width and height of the rectangle.
           
 
 
@@ -81,11 +81,11 @@ A <a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE
 
 
 
-<a href="https://msdn.microsoft.com/e93539fe-3e4a-4b34-8d6a-b3f300a70ffc">MFOffset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfoffset">MFOffset</a>
 
 
 
-<a href="https://msdn.microsoft.com/39fdd724-13ca-48ab-8a55-93529d1da3b4">Media Foundation Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Cancels a change notification registered through <a href="https://msdn.microsoft.com/EE55F783-BF18-49F0-934E-67A252138565">RegisterAppStateChangeNotification</a>.
+Cancels a change notification registered through <a href="https://docs.microsoft.com/windows/desktop/api/appnotify/nf-appnotify-registerappstatechangenotification">RegisterAppStateChangeNotification</a>.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Cancels a change notification registered through <a href="https://msdn.microsoft
 
 ### -param Registration [in, out]
 
-A pointer to the registration handle retrieved by <a href="https://msdn.microsoft.com/EE55F783-BF18-49F0-934E-67A252138565">RegisterAppStateChangeNotification</a> through its <i>Registration</i> parameter.
+A pointer to the registration handle retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/appnotify/nf-appnotify-registerappstatechangenotification">RegisterAppStateChangeNotification</a> through its <i>Registration</i> parameter.
 
 
 ## -returns
@@ -78,7 +78,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/EE55F783-BF18-49F0-934E-67A252138565">RegisterAppStateChangeNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appnotify/nf-appnotify-registerappstatechangenotification">RegisterAppStateChangeNotification</a>
  
 
  

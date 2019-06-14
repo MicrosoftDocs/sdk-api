@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the size of the bitmap contained in an <a href="https://msdn.microsoft.com/72be7757-f969-4f4f-ada1-71789b8d1de0">ISharedBitmap</a> object.
+Retrieves the size of the bitmap contained in an <a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/nn-thumbcache-isharedbitmap">ISharedBitmap</a> object.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Retrieves the size of the bitmap contained in an <a href="https://msdn.microsoft
 
 ### -param pSize [out]
 
-Type: <b><a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a>*</b>
 
 When this method returns, contains a pointer to a value that specifies the size, in pixels, of the contained bitmap.
 

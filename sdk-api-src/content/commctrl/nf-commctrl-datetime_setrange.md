@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the minimum and maximum allowable system times for a date and time picker (DTP) control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761780(v=VS.85).aspx">DTM_SETRANGE</a> message explicitly. 
+Sets the minimum and maximum allowable system times for a date and time picker (DTP) control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/dtm-setrange">DTM_SETRANGE</a> message explicitly. 
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Sets the minimum and maximum allowable system times for a date and time picker (
 
 ### -param hdp
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a DTP control. 
 
 
 ### -param gd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 A value that specifies which range values are valid. This value can be a combination of the following: 
 
@@ -81,7 +81,7 @@ A value that specifies which range values are valid. This value can be a combina
 </dl>
 </td>
 <td width="60%">
-The first element in the <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure array is valid and will be used to set the minimum allowable system time.
+The first element in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure array is valid and will be used to set the minimum allowable system time.
 
 </td>
 </tr>
@@ -91,7 +91,7 @@ The first element in the <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-
 </dl>
 </td>
 <td width="60%">
-The second element in the <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure array is valid and will be used to set the maximum allowable system time.
+The second element in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure array is valid and will be used to set the maximum allowable system time.
 
 </td>
 </tr>
@@ -103,14 +103,14 @@ The second element in the <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89
 
 Type: <b>LPSYSTEMTIME</b>
 
-A pointer to a two-element array of <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structures. The first element of the <b>SYSTEMTIME</b> array contains the minimum allowable time. The second element of the <b>SYSTEMTIME</b> array contains the maximum allowable time. It is not necessary to fill an array element that is not specified in the <i>flags</i> parameter. 
+A pointer to a two-element array of <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structures. The first element of the <b>SYSTEMTIME</b> array contains the minimum allowable time. The second element of the <b>SYSTEMTIME</b> array contains the maximum allowable time. It is not necessary to fill an array element that is not specified in the <i>flags</i> parameter. 
 
 
 ## -remarks
 
 
 
-The date and time picker displays only dates/times that fall within the specified range, preventing the user from selecting a date and time that falls outside the range. If the <a href="https://msdn.microsoft.com/en-us/library/Bb761813(v=VS.85).aspx">DateTime_SetSystemtime</a> message specifies a date and time that falls outside the range, it will fail.
+The date and time picker displays only dates/times that fall within the specified range, preventing the user from selecting a date and time that falls outside the range. If the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-datetime_setsystemtime">DateTime_SetSystemtime</a> message specifies a date and time that falls outside the range, it will fail.
 
 
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
- Sets the font style for  text within a text range specified by a <a href="https://msdn.microsoft.com/2e37e060-69b9-4ca2-9d95-8e9a39f6cf83">DWRITE_TEXT_RANGE</a> structure.
+ Sets the font style for  text within a text range specified by a <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_text_range">DWRITE_TEXT_RANGE</a> structure.
 
 
 ## -parameters
@@ -59,14 +59,14 @@ ms.custom: 19H1
 
 ### -param fontStyle
 
-Type: <b><a href="https://msdn.microsoft.com/e48a3b82-4a60-472d-8cb8-a6f63d7eeefc">DWRITE_FONT_STYLE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_style">DWRITE_FONT_STYLE</a></b>
 
 The  font style to be set   for text within a range specified by <i>textRange</i>.
 
 
 ### -param textRange
 
-Type: <b><a href="https://msdn.microsoft.com/2e37e060-69b9-4ca2-9d95-8e9a39f6cf83">DWRITE_TEXT_RANGE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_text_range">DWRITE_TEXT_RANGE</a></b>
 
 The text range to which this change applies.
 
@@ -86,7 +86,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The font style can be set to Normal, Italic or Oblique. The following illustration shows  three styles for the Palatino font.  For more information, see <a href="https://msdn.microsoft.com/e48a3b82-4a60-472d-8cb8-a6f63d7eeefc">DWRITE_FONT_STYLE</a>.
+The font style can be set to Normal, Italic or Oblique. The following illustration shows  three styles for the Palatino font.  For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_style">DWRITE_FONT_STYLE</a>.
 
 <img alt="Illustration of normal, italic, and oblique font styles for the Palatino font" src="./images/FontStyle_for_Palatino.png"/>
 
@@ -118,7 +118,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/0d687337-8623-4014-967c-f533072e31cc">IDWriteTextLayout</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a>
  
 
  

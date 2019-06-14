@@ -73,7 +73,7 @@ Type: <strong>Type: <b>UINT</b>
 
 If the function succeeds, the return value is the height of one row of icons. 
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -82,9 +82,9 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-An application that maintains its own minimized child windows can use the <b>ArrangeIconicWindows</b> function to arrange icons in a parent window. This function can also arrange icons on the desktop. To retrieve the window handle to the desktop window, use the <a href="https://msdn.microsoft.com/en-us/library/ms633504(v=VS.85).aspx">GetDesktopWindow</a> function. 
+An application that maintains its own minimized child windows can use the <b>ArrangeIconicWindows</b> function to arrange icons in a parent window. This function can also arrange icons on the desktop. To retrieve the window handle to the desktop window, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdesktopwindow">GetDesktopWindow</a> function. 
 
-An application sends the <a href="https://msdn.microsoft.com/en-us/library/ms644916(v=VS.85).aspx">WM_MDIICONARRANGE</a> message to the multiple-document interface (MDI) client window to prompt the client window to arrange its minimized MDI child windows. 
+An application sends the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-mdiiconarrange">WM_MDIICONARRANGE</a> message to the multiple-document interface (MDI) client window to prompt the client window to arrange its minimized MDI child windows. 
 
 
 
@@ -94,7 +94,7 @@ An application sends the <a href="https://msdn.microsoft.com/en-us/library/ms644
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632678(v=VS.85).aspx">CloseWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-closewindow">CloseWindow</a>
 
 
 
@@ -102,7 +102,7 @@ An application sends the <a href="https://msdn.microsoft.com/en-us/library/ms644
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633504(v=VS.85).aspx">GetDesktopWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdesktopwindow">GetDesktopWindow</a>
 
 
 
@@ -110,7 +110,7 @@ An application sends the <a href="https://msdn.microsoft.com/en-us/library/ms644
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
  
 
  

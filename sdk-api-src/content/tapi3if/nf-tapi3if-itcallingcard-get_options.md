@@ -61,7 +61,7 @@ The
 ### -param plOptions [out]
 
 Pointer to 
-<a href="https://msdn.microsoft.com/3f5e9952-945e-42b8-8536-b52a0c833282">LINETRANSLATEOPTION</a> flags.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linetranslateoption--constants">LINETRANSLATEOPTION</a> flags.
 
 
 ## -returns
@@ -119,7 +119,7 @@ Insufficient memory exists to perform the operation.
 
 
 
-<a href="https://msdn.microsoft.com/09787cd2-56b5-4ed2-8783-f3c53ce2cc66">ITCallingCard</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallingcard">ITCallingCard</a>
  
 
  

@@ -120,7 +120,7 @@ Type: <b>int</b>
 If the function succeeds, the return value specifies the requested information.
 
 If the function fails and <i>nTypeFlag</i> is not one, the return value is zero; zero is a valid return value when <i>nTypeFlag</i> is one (keyboard subtype). To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -301,7 +301,7 @@ When a single USB keyboard is connected to the computer, this function returns t
 
 
 
-<a href="https://msdn.microsoft.com/731b8209-1ca8-4667-bd39-7bd0cef45380">Keyboard Input Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input-functions">Keyboard Input Functions</a>
  
 
  

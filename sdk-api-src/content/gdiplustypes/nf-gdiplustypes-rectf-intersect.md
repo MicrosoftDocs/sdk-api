@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 <span>This topic lists the 
 			Intersect methods of the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a> class. For a complete list of methods for the 
-			<b>RectF</b> class, see <a href="https://msdn.microsoft.com/en-us/library/ms534931(v=VS.85).aspx">RectF Methods</a>. 
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a> class. For a complete list of methods for the 
+			<b>RectF</b> class, see <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-class-rectf-methods">RectF Methods</a>. 
 </span><h3>Overload list</h3><table>
 <tr>
 <th align="left" width="37%">Method</th>
@@ -60,20 +60,20 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534950(v=VS.85).aspx">Intersect(RectF&)</a>
+<a href="https://docs.microsoft.com/previous-versions//ms534950(v=vs.85)">Intersect(RectF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534950(v=VS.85).aspx">RectF::Intersect</a> method replaces this rectangle with the intersection of itself and another rectangle.
+The <a href="https://docs.microsoft.com/previous-versions//ms534950(v=vs.85)">RectF::Intersect</a> method replaces this rectangle with the intersection of itself and another rectangle.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534951(v=VS.85).aspx">Intersect(RectF&,RectF&,RectF&)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-intersect(outrectf__inconstrectf__inconstrectf_)">Intersect(RectF&,RectF&,RectF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534951(v=VS.85).aspx">RectF::Intersect</a>
-<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a> object.
+The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-intersect(outrectf__inconstrectf__inconstrectf_)">RectF::Intersect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a> object.
 
 </td>
 </tr>

@@ -60,7 +60,7 @@ The <b>IResultOwnerData::FindItem</b> method finds the next item in a virtual li
 ### -param pFindInfo [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/e52c3437-45ac-4397-ab8f-70bc4d5f44f5">RESULTFINDINFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_resultfindinfo">RESULTFINDINFO</a> structure.
 
 
 ### -param pnFoundIndex [out]
@@ -94,7 +94,7 @@ FindItem call.
 
 
 
-<a href="https://msdn.microsoft.com/e52c3437-45ac-4397-ab8f-70bc4d5f44f5">RESULTFINDINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_resultfindinfo">RESULTFINDINFO</a>
  
 
  

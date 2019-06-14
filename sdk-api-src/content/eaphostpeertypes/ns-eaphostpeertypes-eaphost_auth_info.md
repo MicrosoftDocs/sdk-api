@@ -59,7 +59,7 @@ ms.custom: 19H1
 
 ### -field status
 
-An <a href="https://msdn.microsoft.com/en-us/library/Aa363583(v=VS.85).aspx">EAPHOST_AUTH_STATUS</a> enumeration value that specifies the current status of the authentication session.
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-_eaphost_auth_status">EAPHOST_AUTH_STATUS</a> enumeration value that specifies the current status of the authentication session.
 
 
 ### -field dwErrorCode
@@ -77,15 +77,15 @@ A reason code that specifies the reason the error in <b>dwErrorCode</b> was rais
 
 
 
-<a href="https://msdn.microsoft.com/77595f36-140d-4d8e-af8e-63e9de0031c4">EAPHost Supplicant Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-supplicant-structures">EAPHost Supplicant Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363548(v=VS.85).aspx">EapHostPeerAuthParams</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-tageaphostpeerauthparams">EapHostPeerAuthParams</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb5ceffb-941f-48ad-9271-111f41adc65b">EapHostPeerGetAuthStatus</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetauthstatus">EapHostPeerGetAuthStatus</a>
  
 
  

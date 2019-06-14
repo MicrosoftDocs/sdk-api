@@ -65,12 +65,12 @@ A pointer to a NULL-terminated string that supplies the name of a device INF fil
 
 ### -param ClassGuid [out]
 
-A pointer to a variable of type GUID that receives the class GUID for the specified INF file. If the INF file does not specify a class name, the function returns a GUID_NULL structure. Call <a href="https://msdn.microsoft.com/54516c6f-ec78-47ea-93f5-a4c7cde5a601">SetupDiClassGuidsFromName</a> to determine whether one or more classes with this name are already installed.
+A pointer to a variable of type GUID that receives the class GUID for the specified INF file. If the INF file does not specify a class name, the function returns a GUID_NULL structure. Call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiclassguidsfromnamea">SetupDiClassGuidsFromName</a> to determine whether one or more classes with this name are already installed.
 
 
 ### -param ClassName [out]
 
-A pointer to a buffer that receives a NULL-terminated string that contains the name of the class for the specified INF file. If the INF file does not specify a class name but does specify a GUID, this buffer receives the name that is retrieved by calling <a href="https://msdn.microsoft.com/e23631b4-eb7f-4a75-ac23-25d3d974a3e3">SetupDiClassNameFromGuid</a>. However, if <b>SetupDiClassNameFromGuid</b> cannot retrieve a class name (for example, the class is not installed), it returns an empty string.
+A pointer to a buffer that receives a NULL-terminated string that contains the name of the class for the specified INF file. If the INF file does not specify a class name but does specify a GUID, this buffer receives the name that is retrieved by calling <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiclassnamefromguida">SetupDiClassNameFromGuid</a>. However, if <b>SetupDiClassNameFromGuid</b> cannot retrieve a class name (for example, the class is not installed), it returns an empty string.
 
 
 ### -param ClassNameSize [in]
@@ -106,19 +106,19 @@ Do not use this function with INF files for Windows 9x or Millennium Edition.
 
 
 
-<a href="https://msdn.microsoft.com/a01b1f8f-55af-4053-8c31-9329ef36f2ce">SetupDiBuildClassInfoList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdibuildclassinfolist">SetupDiBuildClassInfoList</a>
 
 
 
-<a href="https://msdn.microsoft.com/54516c6f-ec78-47ea-93f5-a4c7cde5a601">SetupDiClassGuidsFromName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiclassguidsfromnamea">SetupDiClassGuidsFromName</a>
 
 
 
-<a href="https://msdn.microsoft.com/e23631b4-eb7f-4a75-ac23-25d3d974a3e3">SetupDiClassNameFromGuid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiclassnamefromguida">SetupDiClassNameFromGuid</a>
 
 
 
-<a href="https://msdn.microsoft.com/a9757c77-f873-4f75-be80-c4bd1d327299">SetupDiGetClassDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdescriptiona">SetupDiGetClassDescription</a>
  
 
  

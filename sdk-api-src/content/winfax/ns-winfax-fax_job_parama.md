@@ -139,14 +139,14 @@ Send the fax at the time specified by the <b>ScheduleTime</b> member.
 
 #### JSA_DISCOUNT_PERIOD
 
-Send the fax during the discount rate period. Call the <a href="https://msdn.microsoft.com/en-us/library/ms692282(v=VS.85).aspx">FaxGetConfiguration</a> function to retrieve the discount period for the fax server. 
+Send the fax during the discount rate period. Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxgetconfigurationa">FaxGetConfiguration</a> function to retrieve the discount period for the fax server. 
 
 
 ### -field ScheduleTime
 
-Type: <b><a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a></b>
 
-If the <b>ScheduleAction</b> member is equal to the value <b>JSA_SPECIFIC_TIME</b>, specifies a <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure that contains the date and time to send the fax. The time specified must be expressed in UTC.
+If the <b>ScheduleAction</b> member is equal to the value <b>JSA_SPECIFIC_TIME</b>, specifies a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that contains the date and time to send the fax. The time specified must be expressed in UTC.
 
 
 ### -field DeliveryReportType
@@ -206,7 +206,7 @@ This member is reserved for future use by Microsoft. It must be set to zero.
 
 
 
-A fax client application passes the <b>FAX_JOB_PARAM</b> structure in a call to the <a href="https://msdn.microsoft.com/en-us/library/ms692343(v=VS.85).aspx">FaxSendDocument</a> function to inform the fax server how and when to send the fax transmission. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms691919(v=VS.85).aspx">Sending a Fax to One Recipient (Win32 Environment)</a>.
+A fax client application passes the <b>FAX_JOB_PARAM</b> structure in a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsenddocumenta">FaxSendDocument</a> function to inform the fax server how and when to send the fax transmission. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-sending-a-fax-to-one-recipient-win32-environment-">Sending a Fax to One Recipient (Win32 Environment)</a>.
 
 
 
@@ -216,31 +216,31 @@ A fax client application passes the <b>FAX_JOB_PARAM</b> structure in a call to 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691952(v=VS.85).aspx">Fax Service Client API Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-structures">Fax Service Client API Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-for-windows-2000">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692819(v=VS.85).aspx">FaxCompleteJobParams</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxcompletejobparamsa">FaxCompleteJobParams</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692282(v=VS.85).aspx">FaxGetConfiguration</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxgetconfigurationa">FaxGetConfiguration</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692343(v=VS.85).aspx">FaxSendDocument</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsenddocumenta">FaxSendDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms735988(v=VS.85).aspx">lineMakeCall</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linemakecall">lineMakeCall</a>
  
 
  

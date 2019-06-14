@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deprecated. Enables the derived class to issue a command through the <a href="https://msdn.microsoft.com/a2071ca9-8675-4f53-b30e-8c7198c2acca">IOleCommandTarget::Exec</a> method directly, instead of relying on the base class.
+Deprecated. Enables the derived class to issue a command through the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-exec">IOleCommandTarget::Exec</a> method directly, instead of relying on the base class.
 
 
 ## -parameters
@@ -60,9 +60,9 @@ Deprecated. Enables the derived class to issue a command through the <a href="ht
 
 ### -param punkBar [in]
 
-Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> of the <a href="https://msdn.microsoft.com/5c8b455e-7740-4f71-aef6-27390a11a1a3">IOleCommandTarget</a> interface.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> of the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-iolecommandtarget">IOleCommandTarget</a> interface.
 
 
 ### -param fBroadcast [in]
@@ -90,7 +90,7 @@ The command to be executed. This command must belong to the group specified with
 
 Type: <b>DWORD</b>
 
-The values taken from the <a href="https://msdn.microsoft.com/6245725e-51d4-40e1-8cf1-a65657e790ef">OLECMDEXECOPT</a> enumeration, which describe how the object should execute the command.
+The values taken from the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ne-docobj-olecmdexecopt">OLECMDEXECOPT</a> enumeration, which describe how the object should execute the command.
 
 
 ### -param pvarargIn [in]
@@ -122,7 +122,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-For further information, see <a href="https://msdn.microsoft.com/a2071ca9-8675-4f53-b30e-8c7198c2acca">IOleCommandTarget::Exec</a>.
+For further information, see <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-exec">IOleCommandTarget::Exec</a>.
 
 
 

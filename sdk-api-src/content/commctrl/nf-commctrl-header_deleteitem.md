@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deletes an item from a header control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775310(v=VS.85).aspx">HDM_DELETEITEM</a> message explicitly. 
+Deletes an item from a header control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-deleteitem">HDM_DELETEITEM</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Deletes an item from a header control. You can use this macro or send the <a hre
 
 ### -param hwndHD
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the header control. 
 

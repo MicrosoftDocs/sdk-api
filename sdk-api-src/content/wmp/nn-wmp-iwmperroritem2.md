@@ -57,7 +57,7 @@ The <b>IWMPErrorItem2</b> interface provides a method that supplements the <b>IW
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPErrorItem2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd563273(v=VS.85).aspx">IWMPErrorItem</a>. <b>IWMPErrorItem2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPErrorItem2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmperroritem">IWMPErrorItem</a>. <b>IWMPErrorItem2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IWMPErrorItem2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563275(v=VS.85).aspx">get_condition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmperroritem2-get_condition">get_condition</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating the condition for the error.
@@ -81,7 +81,7 @@ Retrieves a value indicating the condition for the error.
 </tr>
 </table> 
 
-Retrieve a pointer to an <b>IWMPErrorItem2</b> interface by calling the <b>QueryInterface</b> method of the <a href="https://msdn.microsoft.com/en-us/library/Dd563273(v=VS.85).aspx">IWMPErrorItem</a> interface.
+Retrieve a pointer to an <b>IWMPErrorItem2</b> interface by calling the <b>QueryInterface</b> method of the <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmperroritem">IWMPErrorItem</a> interface.
 	
 
 
@@ -90,11 +90,11 @@ Retrieve a pointer to an <b>IWMPErrorItem2</b> interface by calling the <b>Query
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563273(v=VS.85).aspx">IWMPErrorItem Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmperroritem">IWMPErrorItem Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/68a0bdaf-ae1b-4ba1-817b-a31c68b9fddd">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
  
 
  

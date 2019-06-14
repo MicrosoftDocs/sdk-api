@@ -56,7 +56,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>EqualPrefixSid</b> function tests two <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security-identifier</a> (SID) prefix values for equality. A SID prefix is the entire SID except for the last subauthority value.
+The <b>EqualPrefixSid</b> function tests two <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security-identifier</a> (SID) prefix values for equality. A SID prefix is the entire SID except for the last subauthority value.
 
 
 ## -parameters
@@ -67,12 +67,12 @@ The <b>EqualPrefixSid</b> function tests two <a href="https://msdn.microsoft.com
 ### -param pSid1 [in]
 
 A pointer to the first 
-<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure to compare. This structure is assumed to be valid.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure to compare. This structure is assumed to be valid.
 
 
 ### -param pSid2 [in]
 
-A pointer to the second <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure to compare. This structure is assumed to be valid.
+A pointer to the second <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure to compare. This structure is assumed to be valid.
 
 
 ## -returns
@@ -82,7 +82,7 @@ A pointer to the second <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9
 If the SID prefixes are equal, the return value is nonzero.
 
 If the SID prefixes are not equal, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -95,7 +95,7 @@ The <b>EqualPrefixSid</b> function enables a server application in one domain to
 
 All SIDs for a specified domain have the same prefix. When the server receives the user's SIDs, the server can call the <b>EqualPrefixSid</b> function for each SID, comparing the user or group SID against the SID for RemoteDomain. If any of the SID prefixes are not equal, the server refuses the logon attempt.
 
-It is advisable to modify the SID for a domain before comparing it with a group or user SID. If the SID for RemoteDomain is S-1–1234–8, each group or user SID for that domain has S-1–1234–8 as its prefix. To compare the SIDs by using the <b>EqualPrefixSid</b> function, an application copies the domain SID and adds any subauthority (<a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">RID</a>) value to the copy, thereby creating a SID in the form S-1–1234–8–0. The application then uses the modified domain SID as a template against which the group and user SIDs are compared.
+It is advisable to modify the SID for a domain before comparing it with a group or user SID. If the SID for RemoteDomain is S-1–1234–8, each group or user SID for that domain has S-1–1234–8 as its prefix. To compare the SIDs by using the <b>EqualPrefixSid</b> function, an application copies the domain SID and adds any subauthority (<a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">RID</a>) value to the copy, thereby creating a SID in the form S-1–1234–8–0. The application then uses the modified domain SID as a template against which the group and user SIDs are compared.
 
 
 
@@ -105,27 +105,27 @@ It is advisable to modify the SID for a domain before comparing it with a group 
 
 
 
-<a href="https://msdn.microsoft.com/d9ce4ec5-5c09-4b33-93a1-39638a925986">Access Control Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/2d7c182e-cdf8-4604-97bf-468bb4bd9232">CopySid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-copysid">CopySid</a>
 
 
 
-<a href="https://msdn.microsoft.com/08420df3-f6e6-462e-a2e6-d2a7a90be8ed">EqualSid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-equalsid">EqualSid</a>
 
 
 
-<a href="https://msdn.microsoft.com/0fb08512-90a1-4a5c-9b4c-121bf7701bba">IsValidSid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-isvalidsid">IsValidSid</a>
 
 
 
-<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
  
 
  

@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Exposes methods that retrieve information about a Shell item. <b>IShellItem</b> and <a href="https://msdn.microsoft.com/e54d8385-ec67-4825-ad7c-431807a4fcb4">IShellItem2</a> are the preferred representations of items in any new code.
+Exposes methods that retrieve information about a Shell item. <b>IShellItem</b> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem2">IShellItem2</a> are the preferred representations of items in any new code.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellItem</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IShellItem</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellItem</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellItem</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IShellItem</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fadd70cd-5018-4b71-af7b-d9c780ebddc5">BindToHandler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-bindtohandler">BindToHandler</a>
 </td>
 <td align="left" width="63%">
 Binds to a handler for an item as specified by the handler ID value (BHID).
@@ -78,7 +78,7 @@ Binds to a handler for an item as specified by the handler ID value (BHID).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/737a93e0-2e27-466b-889c-04a25e52e883">Compare</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-compare">Compare</a>
 </td>
 <td align="left" width="63%">
 Compares two <b>IShellItem</b> objects.
@@ -87,7 +87,7 @@ Compares two <b>IShellItem</b> objects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d8d48b4b-979e-48ed-9e57-279fd6fad5cc">GetAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-getattributes">GetAttributes</a>
 </td>
 <td align="left" width="63%">
 Gets a requested set of attributes of the <b>IShellItem</b> object.
@@ -96,7 +96,7 @@ Gets a requested set of attributes of the <b>IShellItem</b> object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9b159be9-3797-4c8b-90f8-9d3b3a3afb71">GetDisplayName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-getdisplayname">GetDisplayName</a>
 </td>
 <td align="left" width="63%">
 Gets the display name of the <b>IShellItem</b> object.
@@ -105,7 +105,7 @@ Gets the display name of the <b>IShellItem</b> object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d62123af-2ae2-40f2-8581-c95b18491f20">GetParent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-getparent">GetParent</a>
 </td>
 <td align="left" width="63%">
 Gets the parent of an <b>IShellItem</b> object.
@@ -130,7 +130,7 @@ Third parties do not implement this interface; only use the implementation provi
 
 
 
-<a href="https://msdn.microsoft.com/e54d8385-ec67-4825-ad7c-431807a4fcb4">IShellItem2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem2">IShellItem2</a>
  
 
  

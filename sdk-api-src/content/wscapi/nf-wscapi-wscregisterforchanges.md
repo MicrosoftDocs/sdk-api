@@ -64,7 +64,7 @@ Reserved.  Must be <b>NULL</b>.
 
 ### -param phCallbackRegistration [out]
 
-A pointer to a handle to the callback registration. When you are finished using the callback function, unregister it by calling the <a href="https://msdn.microsoft.com/cfb0d076-bd8b-4483-a036-51c77b8181c9">WscUnRegisterChanges</a> function.
+A pointer to a handle to the callback registration. When you are finished using the callback function, unregister it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wscapi/nf-wscapi-wscunregisterchanges">WscUnRegisterChanges</a> function.
 
 
 ### -param lpCallbackAddress [in]
@@ -90,7 +90,7 @@ Returns S_OK if the function succeeds, otherwise returns an error code.
 
 
 
-When you want to cease receiving notification to your callback method, you can unregister it by calling the <a href="https://msdn.microsoft.com/cfb0d076-bd8b-4483-a036-51c77b8181c9">WscUnRegisterChanges</a> function.
+When you want to cease receiving notification to your callback method, you can unregister it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wscapi/nf-wscapi-wscunregisterchanges">WscUnRegisterChanges</a> function.
 
 
 
@@ -100,7 +100,7 @@ When you want to cease receiving notification to your callback method, you can u
 
 
 
-<a href="https://msdn.microsoft.com/cfb0d076-bd8b-4483-a036-51c77b8181c9">WscUnRegisterChanges</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wscapi/nf-wscapi-wscunregisterchanges">WscUnRegisterChanges</a>
  
 
  

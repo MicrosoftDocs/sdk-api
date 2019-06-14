@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>GetAccessRights</b> method requests information about the access rights that can be controlled for a securable object. The access control editor calls this method to retrieve display strings and other information used to initialize the property pages. For more information, see 
-<a href="https://msdn.microsoft.com/da67c486-d2e7-4632-ac7a-c18aabc3f21d">Access Rights and Access Masks</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-rights-and-access-masks">Access Rights and Access Masks</a>.
 
 
 ## -parameters
@@ -61,8 +61,8 @@ The <b>GetAccessRights</b> method requests information about the access rights t
 ### -param pguidObjectType [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a> structure that identifies the type of object for which access rights are being requested. If this parameter is <b>NULL</b> or a pointer to GUID_NULL, return the access rights for the object being edited. Otherwise, the GUID identifies a child object type returned by the 
-<a href="https://msdn.microsoft.com/dafe6c45-616f-4339-a119-9b88055b5d3a">ISecurityInformation::GetInheritTypes</a> method. The GUID corresponds to the <b>InheritedObjectType</b> member of an object-specific ACE.
+<a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structure that identifies the type of object for which access rights are being requested. If this parameter is <b>NULL</b> or a pointer to GUID_NULL, return the access rights for the object being edited. Otherwise, the GUID identifies a child object type returned by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getinherittypes">ISecurityInformation::GetInheritTypes</a> method. The GUID corresponds to the <b>InheritedObjectType</b> member of an object-specific ACE.
 
 
 ### -param dwFlags [in]
@@ -116,7 +116,7 @@ The <b>Advanced Security</b> property sheet enables editing of ACEs that apply t
 ### -param ppAccess [out]
 
 A pointer to an array of 
-<a href="https://msdn.microsoft.com/9c9b14da-a030-4f90-b090-d6de10507eb2">SI_ACCESS</a> structures. The array must include one entry for each access right. You can specify access rights that apply to the object itself, as well as object-specific access rights that apply only to a property set or property on the object.
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-_si_access">SI_ACCESS</a> structures. The array must include one entry for each access right. You can specify access rights that apply to the object itself, as well as object-specific access rights that apply only to a property set or property on the object.
 
 
 ### -param pcAccesses [out]
@@ -135,7 +135,7 @@ A pointer to <b>ULONG</b> that indicates the zero-based index of the array entry
 
 If the function succeeds, the function returns  S_OK.
 
- If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+ If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -156,35 +156,35 @@ The access control editor does not free the pointer returned in <i>ppAccess</i>.
 
 
 
-<a href="https://msdn.microsoft.com/ca709f27-8463-4f11-92ac-2148796e640a">Access Control Editor</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-editor">Access Control Editor</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Access Control Editor Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Access Control Editor Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/52cb20fd-7f3a-4984-a898-f4b9e9738e1a">CreateSecurityPage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-createsecuritypage">CreateSecurityPage</a>
 
 
 
-<a href="https://msdn.microsoft.com/756c94b0-946f-47eb-b4b4-db3e6e89fe46">EditSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-editsecurity">EditSecurity</a>
 
 
 
-<a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a>
+<a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a>
 
 
 
-<a href="https://msdn.microsoft.com/38d94f36-f149-4b62-a710-8f7359bfd8cd">ISecurityInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/dafe6c45-616f-4339-a119-9b88055b5d3a">ISecurityInformation::GetInheritTypes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getinherittypes">ISecurityInformation::GetInheritTypes</a>
 
 
 
-<a href="https://msdn.microsoft.com/9c9b14da-a030-4f90-b090-d6de10507eb2">SI_ACCESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-_si_access">SI_ACCESS</a>
  
 
  

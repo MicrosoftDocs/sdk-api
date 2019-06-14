@@ -72,15 +72,15 @@ Lines are explicitly set to uniform spacing, regardless of the size of fonts and
 Line spacing and baseline distances are proportional to the computed values based on the content, the size of the fonts and inline objects.
           
 
-<div class="alert"><b>Note</b>  This value is only available on Windows 10 or later and it can be used with <a href="https://msdn.microsoft.com/1bfca257-189c-4d18-628c-aff8217d2775">IDWriteTextLayout3::SetLineSpacing</a>, 
-          but can not be used with <a href="https://msdn.microsoft.com/3629779a-5e50-43ea-b161-dd17598b5b43">IDWriteTextFormat::SetLineSpacing</a>.</div>
+<div class="alert"><b>Note</b>  This value is only available on Windows 10 or later and it can be used with <a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritetextlayout3-setlinespacing">IDWriteTextLayout3::SetLineSpacing</a>, 
+          but can not be used with <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextformat-setlinespacing">IDWriteTextFormat::SetLineSpacing</a>.</div>
 <div> </div>
 
 ## -remarks
 
 
 
-The line spacing method is set by using the <a href="https://msdn.microsoft.com/3629779a-5e50-43ea-b161-dd17598b5b43">SetLineSpacing</a> method of the <a href="https://msdn.microsoft.com/64b2cac3-c4cb-4213-b808-7b279d296939">IDWriteTextFormat</a> or <a href="https://msdn.microsoft.com/0d687337-8623-4014-967c-f533072e31cc">IDWriteTextLayout</a> interfaces.  To get  the current line spacing method of a text format or text layou use the <a href="https://msdn.microsoft.com/d9563d4d-0b7d-4921-b251-6ef1e24105f1">GetLineSpacing</a>.
+The line spacing method is set by using the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextformat-setlinespacing">SetLineSpacing</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a> or <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a> interfaces.  To get  the current line spacing method of a text format or text layou use the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextformat-getlinespacing">GetLineSpacing</a>.
 
 
 
@@ -90,11 +90,11 @@ The line spacing method is set by using the <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/d9563d4d-0b7d-4921-b251-6ef1e24105f1">GetLineSpacing</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextformat-getlinespacing">GetLineSpacing</a>
 
 
 
-<a href="https://msdn.microsoft.com/3629779a-5e50-43ea-b161-dd17598b5b43">SetLineSpacing</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextformat-setlinespacing">SetLineSpacing</a>
  
 
  

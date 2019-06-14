@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ### -param pic [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/ca98c7bb-7348-405d-976a-18012b0886c6">ITfContext</a> interface whose status has changed.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> interface whose status has changed.
 
 
 ### -param dwFlags [in]
@@ -79,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method receives a callback when one of the flags of the <b>dwDynamicFlags</b> member of the <b>TF_STATUS</b> structure changes value. To obtain the changed flag(s), use the <a href="https://msdn.microsoft.com/a1f193b0-fcfc-4db6-90e9-61d528b08672">ITfContext::GetStatus</a> method.
+This method receives a callback when one of the flags of the <b>dwDynamicFlags</b> member of the <b>TF_STATUS</b> structure changes value. To obtain the changed flag(s), use the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getstatus">ITfContext::GetStatus</a> method.
 
 
 
@@ -89,21 +89,21 @@ This method receives a callback when one of the flags of the <b>dwDynamicFlags</
 
 
 
-<a href="https://msdn.microsoft.com/ca98c7bb-7348-405d-976a-18012b0886c6">ITfContext
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/a1f193b0-fcfc-4db6-90e9-61d528b08672">ITfContext::GetStatus
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getstatus">ITfContext::GetStatus
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/5fc37251-938b-4581-bb54-816749b17001">ITfStatusSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfstatussink">ITfStatusSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f00c8e1-435c-45ce-892a-36af68154144">TF_STATUS
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms629192(v=vs.85)">TF_STATUS
       </a>
  
 

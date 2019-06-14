@@ -68,9 +68,9 @@ The number of changes being reported.
 
 ### -param DataChangeEntries [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965373(v=VS.85).aspx">SEARCH_ITEM_PERSISTENT_CHANGE</a>[]</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-_search_item_persistent_change">SEARCH_ITEM_PERSISTENT_CHANGE</a>[]</b>
 
-An array of structures of type <a href="https://msdn.microsoft.com/en-us/library/Aa965373(v=VS.85).aspx">SEARCH_ITEM_PERSISTENT_CHANGE</a> identifying the details for each change.
+An array of structures of type <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-_search_item_persistent_change">SEARCH_ITEM_PERSISTENT_CHANGE</a> identifying the details for each change.
                 
 
 

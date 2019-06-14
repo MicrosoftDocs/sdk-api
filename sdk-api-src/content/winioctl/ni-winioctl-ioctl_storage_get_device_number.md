@@ -51,7 +51,7 @@ req.redist:
 Retrieves the device type, device number, and, for a partitionable device, the partition number of a device. 
 
 To perform this operation, call the 
-   <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
+   <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
    function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -146,7 +146,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-The values in the <a href="https://msdn.microsoft.com/e169f081-55de-4d6a-832b-bcc66c2b67e3">STORAGE_DEVICE_NUMBER</a> structure are guaranteed to remain unchanged until the device is removed or the system is restarted. It is not guaranteed to be persistent across device restarts or system restarts. 
+The values in the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_device_number">STORAGE_DEVICE_NUMBER</a> structure are guaranteed to remain unchanged until the device is removed or the system is restarted. It is not guaranteed to be persistent across device restarts or system restarts. 
 
 
 
@@ -156,11 +156,11 @@ The values in the <a href="https://msdn.microsoft.com/e169f081-55de-4d6a-832b-bc
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/e169f081-55de-4d6a-832b-bcc66c2b67e3">STORAGE_DEVICE_NUMBER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_device_number">STORAGE_DEVICE_NUMBER</a>
  
 
  

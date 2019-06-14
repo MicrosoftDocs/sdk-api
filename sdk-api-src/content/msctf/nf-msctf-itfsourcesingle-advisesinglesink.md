@@ -65,9 +65,9 @@ Contains a <b>TfClientId</b> value that identifies the client.
 
 Identifies the type of advise sink to install.
 
-This parameter can be one of the following values when the <a href="https://msdn.microsoft.com/01e60ede-b871-4b38-b2ee-24f79c5b3e80">ITfSourceSingle</a> object is obtained from an <a href="https://msdn.microsoft.com/3a2ba59c-3565-4f54-ac10-923dcb4882cb">ITfThreadMgr</a> object.
+This parameter can be one of the following values when the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfsourcesingle">ITfSourceSingle</a> object is obtained from an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr</a> object.
 
-This parameter can be one of the following values when the <b>ITfSourceSingle</b> object is obtained from an <a href="https://msdn.microsoft.com/ca98c7bb-7348-405d-976a-18012b0886c6">ITfContext</a> object.
+This parameter can be one of the following values when the <b>ITfSourceSingle</b> object is obtained from an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> object.
 
 <table>
 <tr>
@@ -80,7 +80,7 @@ This parameter can be one of the following values when the <b>ITfSourceSingle</b
 </dl>
 </td>
 <td width="60%">
-Installs a <a href="https://msdn.microsoft.com/2bbdc26a-5543-4de4-b347-2062be593c4b">ITfCleanupContextDurationSink</a> advise sink.
+Installs a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcleanupcontextdurationsink">ITfCleanupContextDurationSink</a> advise sink.
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ Installs a <a href="https://msdn.microsoft.com/2bbdc26a-5543-4de4-b347-2062be593
 </dl>
 </td>
 <td width="60%">
-Registers the client as a function provider. The <i>punk</i> parameter is an <a href="https://msdn.microsoft.com/e63fd561-1157-49b1-a981-e578d9538876">ITfFunctionProvider</a> interface pointer.
+Registers the client as a function provider. The <i>punk</i> parameter is an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itffunctionprovider">ITfFunctionProvider</a> interface pointer.
 
 </td>
 </tr>
@@ -191,17 +191,17 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://msdn.microsoft.com/f88ebef7-2796-4076-892f-28fac6e143de">ITfCleanupContextSink
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcleanupcontextsink">ITfCleanupContextSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/e63fd561-1157-49b1-a981-e578d9538876">ITfFunctionProvider
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itffunctionprovider">ITfFunctionProvider
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/01e60ede-b871-4b38-b2ee-24f79c5b3e80">ITfSourceSingle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfsourcesingle">ITfSourceSingle</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Closes the channel.
 
-If the channel has not already been closed, the <b>Close()</b> method will call the <a href="https://msdn.microsoft.com/5038f2f9-980b-4383-a718-eb4e07e9cfe9">IWTSVirtualChannelCallback::OnClose()</a> method into the associated virtual channel callback interface. After a channel is closed, any <a href="https://msdn.microsoft.com/fef7067c-6d81-42b7-8534-191bc98906d4">Write()</a> call on it will fail.
+If the channel has not already been closed, the <b>Close()</b> method will call the <a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsvirtualchannelcallback-onclose">IWTSVirtualChannelCallback::OnClose()</a> method into the associated virtual channel callback interface. After a channel is closed, any <a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsvirtualchannel-write">Write()</a> call on it will fail.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ Returns <b>S_OK</b> if successful.
 
 
 
-<a href="https://msdn.microsoft.com/8a5b093f-5756-400f-9442-b95d6010ee46">IWTSVirtualChannel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsvirtualchannel">IWTSVirtualChannel</a>
  
 
  

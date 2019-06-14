@@ -67,7 +67,7 @@ A bitmask of WINBIO_BIOMETRIC_TYPE flags that specifies the biometric unit types
 
 ### -param StorageSchemaArray [out]
 
-Address of a variable that receives a pointer to  an array of   <a href="https://msdn.microsoft.com/e4924803-5a1b-4e0a-b2cb-01d018d27ba1">WINBIO_STORAGE_SCHEMA</a> structures that contain information about each database. If the function does not succeed, the pointer is set to <b>NULL</b>. If the function succeeds, you must pass the pointer to <a href="https://msdn.microsoft.com/b570fc6c-a08e-4485-a621-20f59bd63d40">WinBioFree</a> to release memory allocated internally for the array.
+Address of a variable that receives a pointer to  an array of   <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-storage-schema">WINBIO_STORAGE_SCHEMA</a> structures that contain information about each database. If the function does not succeed, the pointer is set to <b>NULL</b>. If the function succeeds, you must pass the pointer to <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiofree">WinBioFree</a> to release memory allocated internally for the array.
 
 
 ### -param StorageCount [out]
@@ -79,7 +79,7 @@ Pointer to a value that specifies the number of structures pointed to by the <i>
 
 
 
-If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -133,7 +133,7 @@ Only <b>WINBIO_TYPE_FINGERPRINT</b> is currently supported in the <i>Factor</i> 
 
 If information about multiple databases is returned in the array of structures pointed to by the <i>StorageSchemaArray</i> parameter, the databases are not guaranteed to be in any particular order.
 
-After you are finished using the structures returned to the <i>StorageSchemaArray</i> parameter, you must call <a href="https://msdn.microsoft.com/b570fc6c-a08e-4485-a621-20f59bd63d40">WinBioFree</a> to release the memory allocated internally for the array.
+After you are finished using the structures returned to the <i>StorageSchemaArray</i> parameter, you must call <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiofree">WinBioFree</a> to release the memory allocated internally for the array.
 
 
 #### Examples
@@ -243,19 +243,19 @@ VOID DisplayGuid( __in PWINBIO_UUID Guid )
 
 
 
-<a href="https://msdn.microsoft.com/e4924803-5a1b-4e0a-b2cb-01d018d27ba1">WINBIO_STORAGE_SCHEMA</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-storage-schema">WINBIO_STORAGE_SCHEMA</a>
 
 
 
-<a href="https://msdn.microsoft.com/e1ca5712-978e-4e31-a941-eb462c670eac">WinBioEnumBiometricUnits</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenumbiometricunits">WinBioEnumBiometricUnits</a>
 
 
 
-<a href="https://msdn.microsoft.com/bd5fd36a-ed90-4dd0-8a84-0412544493dd">WinBioEnumEnrollments</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenumenrollments">WinBioEnumEnrollments</a>
 
 
 
-<a href="https://msdn.microsoft.com/2424eae8-4fc6-43f4-97a1-3340870396cc">WinBioEnumServiceProviders</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenumserviceproviders">WinBioEnumServiceProviders</a>
  
 
  

@@ -59,7 +59,7 @@ Retrieves the unique ID of one of the system's monitors.
 
 ### -param monitorIndex [in]
 
-The number of the monitor. Call <a href="https://msdn.microsoft.com/E7490E24-7BCE-4fbb-8512-998EAE045CE7">GetMonitorDevicePathCount</a> to determine the total number of monitors.
+The number of the monitor. Call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getmonitordevicepathcount">GetMonitorDevicePathCount</a> to determine the total number of monitors.
 
 
 ### -param monitorID [out]
@@ -99,7 +99,7 @@ A <b>NULL</b> pointer was provided in <i>monitorID</i>.
 
 
 
-This method can be called on monitors that are currently detached but that have an image assigned to them. Call <a href="https://msdn.microsoft.com/98A3F193-DBCF-42ec-9283-53F0F46BB1C4">GetMonitorRECT</a> to distinguish between attached and detached monitors.
+This method can be called on monitors that are currently detached but that have an image assigned to them. Call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getmonitorrect">GetMonitorRECT</a> to distinguish between attached and detached monitors.
 
 
 
@@ -109,11 +109,11 @@ This method can be called on monitors that are currently detached but that have 
 
 
 
-<a href="https://msdn.microsoft.com/A83903B5-314B-4a8b-8D37-F8A8995DE0CB">IDesktopWallpaper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idesktopwallpaper">IDesktopWallpaper</a>
 
 
 
-<a href="https://msdn.microsoft.com/E7490E24-7BCE-4fbb-8512-998EAE045CE7">IDesktopWallpaper::GetMonitorDevicePathCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getmonitordevicepathcount">IDesktopWallpaper::GetMonitorDevicePathCount</a>
  
 
  

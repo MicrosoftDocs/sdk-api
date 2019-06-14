@@ -60,7 +60,7 @@ Sets the current pixel shader to a previously created pixel shader.
 
 ### -param pShader [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205869(v=VS.85).aspx">IDirect3DPixelShader9</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dpixelshader9">IDirect3DPixelShader9</a>*</b>
 
 Pixel shader interface.
 
@@ -69,7 +69,7 @@ Pixel shader interface.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 
@@ -81,11 +81,11 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174398(v=VS.85).aspx">IDirect3DDevice9::GetPixelShader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getpixelshader">IDirect3DDevice9::GetPixelShader</a>
  
 
  

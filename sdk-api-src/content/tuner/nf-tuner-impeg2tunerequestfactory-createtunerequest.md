@@ -59,12 +59,12 @@ The <b>CreateTuneRequest</b> method creates the minimal MPEG-2 tune request for 
 
 ### -param TuningSpace [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/51850105-b3b1-4758-acde-05ca2f3439f2">ITuningSpace</a> interface of the tuning space.
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a> interface of the tuning space.
 
 
 ### -param TuneRequest [out]
 
-Address of a variable that receives a pointer to the <a href="https://msdn.microsoft.com/a9e37b8b-9272-43c6-b36e-1e82b0d1b0db">IMPEG2TuneRequest</a> interface.
+Address of a variable that receives a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-impeg2tunerequest">IMPEG2TuneRequest</a> interface.
 
 
 ## -returns
@@ -81,7 +81,7 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="https://msdn.microsoft.com/0fbeab7d-0c54-45e3-a73c-755df28a16d5">IMPEG2TuneRequestFactory Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-impeg2tunerequestfactory">IMPEG2TuneRequestFactory Interface</a>
  
 
  

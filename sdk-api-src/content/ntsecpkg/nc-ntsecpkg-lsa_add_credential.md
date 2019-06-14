@@ -49,10 +49,10 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>AddCredential</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Applications should use the <a href="https://msdn.microsoft.com/b891fa60-28b3-4819-9a92-e4524677fa4f">LsaCallAuthenticationPackage</a> function with <b>KerbAddExtraCredentialsMessage</b> specified as the message type. <b>KerbAddExtraCredentialsMessage</b> is a   <a href="https://msdn.microsoft.com/8ad183d2-3fe8-4f52-bfa4-16f2a711f0c3">KERB_PROTOCOL_MESSAGE_TYPE</a> enumeration value.]
+<p class="CCE_Message">[<b>AddCredential</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> function with <b>KerbAddExtraCredentialsMessage</b> specified as the message type. <b>KerbAddExtraCredentialsMessage</b> is a   <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_kerb_protocol_message_type">KERB_PROTOCOL_MESSAGE_TYPE</a> enumeration value.]
 
 Adds credentials to a logon session. These credentials can later be referenced  through a call to the 
-<a href="https://msdn.microsoft.com/e9a2d112-6681-4400-b316-ffd7095e319a">GetCredentials</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_get_credentials">GetCredentials</a> function.
 
 
 ## -parameters
@@ -63,13 +63,13 @@ Adds credentials to a logon session. These credentials can later be referenced  
 ### -param LogonId [in]
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/a812a46b-f23f-45b1-a6c6-48f931b78750">LUID</a> that contains the session ID of the logon session to which credentials are to be added.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid">LUID</a> that contains the session ID of the logon session to which credentials are to be added.
 
 
 ### -param AuthenticationPackage [in]
 
 The authentication package ID of the calling authentication package. This value is received in the 
-<a href="https://msdn.microsoft.com/1fed5a5e-5dc1-4b59-aa28-bd1395a27742">LsaApInitializePackage</a> call during DLL initialization.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_ap_initialize_package">LsaApInitializePackage</a> call during DLL initialization.
 
 
 ### -param PrimaryKeyValue [in]
@@ -89,7 +89,7 @@ A string that represents the user credentials. The format and meaning of this st
 If the function succeeds, the function returns STATUS_SUCCESS.
 
 If the function fails, it returns an <b>NTSTATUS</b> code, which can be the following value or one of the 
-<a href="https://msdn.microsoft.com/ee55364e-8ffe-4a78-a49a-250756561770">LSA Policy Function Return Values</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>
@@ -111,7 +111,7 @@ The specified logon session could not be found.
  
 
 The 
-<a href="https://msdn.microsoft.com/fa91794c-c502-4b36-84cc-a8d77c8e9d9f">LsaNtStatusToWinError</a> function converts an <b>NTSTATUS</b> code to a Windows error code.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function converts an <b>NTSTATUS</b> code to a Windows error code.
 
 
 
@@ -130,15 +130,15 @@ The body of the credential string must be self-relative; that is, it must contai
 
 
 
-<a href="https://msdn.microsoft.com/e9a2d112-6681-4400-b316-ffd7095e319a">GetCredentials</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_get_credentials">GetCredentials</a>
 
 
 
-<a href="https://msdn.microsoft.com/2e144ce0-e8c9-457a-8b12-7d21dda6adf3">LSA_DISPATCH_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_dispatch_table">LSA_DISPATCH_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/85f04072-8634-454a-9038-737d86c5597d">LSA_SECPKG_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
  
 
  

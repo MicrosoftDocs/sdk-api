@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Adds members to the <a href="https://msdn.microsoft.com/2b39fd32-831d-4606-8600-b52aaa7ed882">InkRecognizerContext Class</a>.
+Adds members to the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>.
 
 
 
@@ -61,7 +61,7 @@ Adds members to the <a href="https://msdn.microsoft.com/2b39fd32-831d-4606-8600-
 
 
 
-<a href="https://msdn.microsoft.com/2b39fd32-831d-4606-8600-b52aaa7ed882">InkRecognizerContext Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>
  
 
  

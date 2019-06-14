@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 After calling 
-<a href="https://msdn.microsoft.com/1b91c4dc-ac49-4002-b293-a25ca2ffcb21">RpcImpersonateClient</a> and completing any tasks that require client impersonation, the server calls 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcimpersonateclient">RpcImpersonateClient</a> and completing any tasks that require client impersonation, the server calls 
 <b>RpcRevertToSelf</b> to end impersonation and to reestablish its own security identity.
 
 
@@ -129,7 +129,7 @@ The call is not supported for this operating system, this transport, or this sec
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -139,8 +139,8 @@ The call is not supported for this operating system, this transport, or this sec
 
 
 In a multithreaded application, if the call to 
-<a href="https://msdn.microsoft.com/1b91c4dc-ac49-4002-b293-a25ca2ffcb21">RpcImpersonateClient</a> is with a handle to another client thread, you must call 
-<a href="https://msdn.microsoft.com/8860cee2-7e53-4a07-a379-fd00f3d01def">RpcRevertToSelfEx</a> with the handle to that thread to end impersonation.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcimpersonateclient">RpcImpersonateClient</a> is with a handle to another client thread, you must call 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcreverttoselfex">RpcRevertToSelfEx</a> with the handle to that thread to end impersonation.
 
 
 
@@ -150,12 +150,12 @@ In a multithreaded application, if the call to
 
 
 
-<a href="https://msdn.microsoft.com/49d833d8-c61c-4746-91cf-c0753847cd3d">Client
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/client-impersonation">Client
 		  Impersonation</a>
 
 
 
-<a href="https://msdn.microsoft.com/1b91c4dc-ac49-4002-b293-a25ca2ffcb21">RpcImpersonateClient</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcimpersonateclient">RpcImpersonateClient</a>
  
 
  

@@ -82,7 +82,7 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/2480adec-68b6-4ffe-8b20-2ca7cb1a4d79">EngDebugPrint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engdebugprint">EngDebugPrint</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>EngControlSprites</b> function tears down or redraws sprites on the specified <a href="https://msdn.microsoft.com/69c47add-82a7-48fd-ae91-7756a6a8d15b">WNDOBJ</a> area.
+The <b>EngControlSprites</b> function tears down or redraws sprites on the specified <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_wndobj">WNDOBJ</a> area.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>EngControlSprites</b> function tears down or redraws sprites on the speci
 
 ### -param pwo
 
-Pointer to the <a href="https://msdn.microsoft.com/69c47add-82a7-48fd-ae91-7756a6a8d15b">WNDOBJ</a> structure on which the sprites are being built or torn down.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_wndobj">WNDOBJ</a> structure on which the sprites are being built or torn down.
 
 
 ### -param fl
@@ -72,7 +72,7 @@ This parameter can be one of the following values:
 
 #### ECS_TEARDOWN
 
-Requests that GDI tear down and remove the sprite effect of any sprite that overlaps the WNDOBJ area. In other words, GDI redraws the sprite with a neutralized effect so the sprite is not visible on the screen. GDI restores the area beneath the sprite by making immediate calls to <a href="https://msdn.microsoft.com/c2d42c7a-3d6e-416c-a194-2228cc1b0fd9">DrvCopyBits</a>.
+Requests that GDI tear down and remove the sprite effect of any sprite that overlaps the WNDOBJ area. In other words, GDI redraws the sprite with a neutralized effect so the sprite is not visible on the screen. GDI restores the area beneath the sprite by making immediate calls to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvcopybits">DrvCopyBits</a>.
 
 
 
@@ -98,7 +98,7 @@ The invocation of ECS_TEARDOWN may be persistent. For example, the driver can ca
 
 The driver can call <b>EngControlSprites</b> with ECS_REDRAW numerous times without making intervening calls with ECS_TEARDOWN in order to force the repainting of a sprite at any time.
 
-ECS_TEARDOWN always forces an immediate redraw of any sprites on top of the WNDOBJ area. GDI saves the bits beneath the sprites by calling <a href="https://msdn.microsoft.com/c2d42c7a-3d6e-416c-a194-2228cc1b0fd9">DrvCopyBits</a> to copy them from the screen, and then composites the sprites onto the screen by calling <i>DrvCopyBits</i>. This can be used to allow sprites to be composited onto a back-buffer just before a swap-buffer command is sent to the hardware (through <a href="https://msdn.microsoft.com/2fee2f9d-85fd-4b21-83be-11469fede71a">DrvSwapBuffers</a> or any other driver swap buffer mechanism). This permits seamless compositing of sprites, without flashing, when the window is double buffering.
+ECS_TEARDOWN always forces an immediate redraw of any sprites on top of the WNDOBJ area. GDI saves the bits beneath the sprites by calling <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvcopybits">DrvCopyBits</a> to copy them from the screen, and then composites the sprites onto the screen by calling <i>DrvCopyBits</i>. This can be used to allow sprites to be composited onto a back-buffer just before a swap-buffer command is sent to the hardware (through <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvswapbuffers">DrvSwapBuffers</a> or any other driver swap buffer mechanism). This permits seamless compositing of sprites, without flashing, when the window is double buffering.
 
 ECS_TEARDOWN will never cause a WOC_SPRITE_NO_OVERLAP message to be sent, and likewise ECS_REDRAW will never cause a WOC_SPRITE_OVERLAP message to be sent.
 
@@ -112,11 +112,11 @@ ECS_TEARDOWN will never cause a WOC_SPRITE_NO_OVERLAP message to be sent, and li
 
 
 
-<a href="https://msdn.microsoft.com/14b1cced-32d0-4ba8-be7c-e626bef37e3f">EngCreateWnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatewnd">EngCreateWnd</a>
 
 
 
-<a href="https://msdn.microsoft.com/69c47add-82a7-48fd-ae91-7756a6a8d15b">WNDOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_wndobj">WNDOBJ</a>
  
 
  

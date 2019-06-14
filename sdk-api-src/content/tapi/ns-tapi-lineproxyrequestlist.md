@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>LINEPROXYREQUESTLIST</b> structure describes a list of proxy requests. The 
-<a href="https://msdn.microsoft.com/0684f52f-13dd-4734-9242-acd03f7a25ae">lineGetProxyStatus</a> function returns the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetproxystatus">lineGetProxyStatus</a> function returns the 
 <b>LINEPROXYREQUESTLIST</b> structure.
 
 
@@ -88,7 +88,7 @@ Size of the proxy request type list, in bytes.
 ### -field dwListOffset
 
 Offset from the beginning of the structure to an array of <b>DWORD</b> elements indicating the currently supported proxy request types. Each element is one of the 
-<a href="https://msdn.microsoft.com/5c05a567-cc65-411e-b049-919a442c5c57">LINEPROXYREQUEST_ constants</a>. The <b>dwListOffset</b> member is <b>dwNumEntries</b> times SIZEOF(DWORD). The size of the field is specified by <b>dwListSize</b>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineproxyrequest--constants">LINEPROXYREQUEST_ constants</a>. The <b>dwListOffset</b> member is <b>dwNumEntries</b> times SIZEOF(DWORD). The size of the field is specified by <b>dwListSize</b>.
 
 
 ## -see-also
@@ -96,15 +96,15 @@ Offset from the beginning of the structure to an array of <b>DWORD</b> elements 
 
 
 
-<a href="https://msdn.microsoft.com/6b24e8aa-fef4-44aa-8d2b-33b9be3d6ea7">About Call Center Controls</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a>
 
 
 
-<a href="https://msdn.microsoft.com/5c05a567-cc65-411e-b049-919a442c5c57">LINEPROXYREQUEST_ Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineproxyrequest--constants">LINEPROXYREQUEST_ Constants</a>
 
 
 
-<a href="https://msdn.microsoft.com/0684f52f-13dd-4734-9242-acd03f7a25ae">lineGetProxyStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetproxystatus">lineGetProxyStatus</a>
  
 
  

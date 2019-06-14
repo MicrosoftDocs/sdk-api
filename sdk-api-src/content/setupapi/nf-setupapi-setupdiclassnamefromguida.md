@@ -93,7 +93,7 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
 
 Call <b>SetupDiClassNameFromGuidEx</b> to retrieve the name for a class on a remote computer.
 
-<b>SetupDiClassNameFromGuid</b> does not enforce a restriction on the length of the class name that it can return. This function returns the required size for a NULL-terminated class name even if it is greater than MAX_CLASS_NAME_LEN. However, MAX_CLASS_NAME_LEN is the maximum length of a valid NULL-terminated class name. A caller should never need a buffer that is larger than MAX_CLASS_NAME_LEN. For more information about class names, see the description of the <b>Class</b> entry of an <a href="https://msdn.microsoft.com/53e30950-28a3-4ae3-a351-a917b02c84a5">INF Version section</a>.
+<b>SetupDiClassNameFromGuid</b> does not enforce a restriction on the length of the class name that it can return. This function returns the required size for a NULL-terminated class name even if it is greater than MAX_CLASS_NAME_LEN. However, MAX_CLASS_NAME_LEN is the maximum length of a valid NULL-terminated class name. A caller should never need a buffer that is larger than MAX_CLASS_NAME_LEN. For more information about class names, see the description of the <b>Class</b> entry of an <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-version-section">INF Version section</a>.
 
 
 
@@ -103,11 +103,11 @@ Call <b>SetupDiClassNameFromGuidEx</b> to retrieve the name for a class on a rem
 
 
 
-<a href="https://msdn.microsoft.com/54516c6f-ec78-47ea-93f5-a4c7cde5a601">SetupDiClassGuidsFromName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiclassguidsfromnamea">SetupDiClassGuidsFromName</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d576df1-e259-4025-8ef0-a520f5680fa0">SetupDiClassNameFromGuidEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiclassnamefromguidexa">SetupDiClassNameFromGuidEx</a>
  
 
  

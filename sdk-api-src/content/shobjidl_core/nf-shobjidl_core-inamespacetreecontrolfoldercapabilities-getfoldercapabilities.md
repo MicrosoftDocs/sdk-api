@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets a folder's capability to be filtered through the <a href="https://msdn.microsoft.com/00937acb-1ce2-44f6-96a1-69e5dbb665f6">System.IsPinnedToNameSpaceTree</a> property key value and change notification registration status.
+Gets a folder's capability to be filtered through the <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-ispinnedtonamespacetree">System.IsPinnedToNameSpaceTree</a> property key value and change notification registration status.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets a folder's capability to be filtered through the <a href="https://msdn.micr
 
 ### -param nfcMask [in]
 
-Type: <b><a href="https://msdn.microsoft.com/a5282277-85f5-494e-b994-efbf1116b519">NSTCFOLDERCAPABILITIES</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-nstcfoldercapabilities">NSTCFOLDERCAPABILITIES</a></b>
 
 The capabilities for which this method should retrieve values. Specify one or both of the following:
 
@@ -67,7 +67,7 @@ The capabilities for which this method should retrieve values. Specify one or bo
 
 #### NSTCFC_PINNEDITEMFILTERING (0x00000001)
 
-0x00000001. The <a href="https://msdn.microsoft.com/00937acb-1ce2-44f6-96a1-69e5dbb665f6">System.IsPinnedToNameSpaceTree</a> property exists on this folder and filtering based on that property value is supported.
+0x00000001. The <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-ispinnedtonamespacetree">System.IsPinnedToNameSpaceTree</a> property exists on this folder and filtering based on that property value is supported.
 
 
 
@@ -78,7 +78,7 @@ The capabilities for which this method should retrieve values. Specify one or bo
 
 ### -param pnfcValue [out]
 
-Type: <b><a href="https://msdn.microsoft.com/a5282277-85f5-494e-b994-efbf1116b519">NSTCFOLDERCAPABILITIES</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-nstcfoldercapabilities">NSTCFOLDERCAPABILITIES</a>*</b>
 
 Pointer to a value that, when this method returns successfully, receives the capabilities requested in <i>nfcMask</i>. Except in the case of NSTCFC_NONE, bit values in positions not specifically requested in <i>nfcMask</i> do not necessarily reflect the capabilities and should not be used.
 
@@ -86,13 +86,13 @@ Pointer to a value that, when this method returns successfully, receives the cap
 
 #### NSTCFC_NONE (0x00000000)
 
-0x00000000. The <a href="https://msdn.microsoft.com/00937acb-1ce2-44f6-96a1-69e5dbb665f6">System.IsPinnedToNameSpaceTree</a> property does not exist on this folder. Filtering is not supported.
+0x00000000. The <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-ispinnedtonamespacetree">System.IsPinnedToNameSpaceTree</a> property does not exist on this folder. Filtering is not supported.
 
 
 
 #### NSTCFC_PINNEDITEMFILTERING (0x00000001)
 
-0x00000001. The <a href="https://msdn.microsoft.com/00937acb-1ce2-44f6-96a1-69e5dbb665f6">System.IsPinnedToNameSpaceTree</a> property exists on this folder and filtering based on that property value is supported.
+0x00000001. The <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-ispinnedtonamespacetree">System.IsPinnedToNameSpaceTree</a> property exists on this folder and filtering based on that property value is supported.
 
 
 

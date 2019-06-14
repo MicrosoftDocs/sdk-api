@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>WinUsb_Free</b> function releases all of the resources that <a href="https://msdn.microsoft.com/258cf508-036a-4ade-95b2-4b36d1149ffd">WinUsb_Initialize</a> allocated. This is a synchronous operation.
+The <b>WinUsb_Free</b> function releases all of the resources that <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a> allocated. This is a synchronous operation.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>WinUsb_Free</b> function releases all of the resources that <a href="http
 
 ### -param InterfaceHandle [in]
 
-An opaque handle to an interface in the selected configuration. That handle must be created by a previous call to  <a href="https://msdn.microsoft.com/258cf508-036a-4ade-95b2-4b36d1149ffd">WinUsb_Initialize</a> or <a href="https://msdn.microsoft.com/1afc7b2f-4fb6-4ab4-8415-aaee9cd6ee0c">WinUsb_GetAssociatedInterface</a>.
+An opaque handle to an interface in the selected configuration. That handle must be created by a previous call to  <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_getassociatedinterface">WinUsb_GetAssociatedInterface</a>.
 
 
 ## -returns
@@ -76,7 +76,7 @@ An opaque handle to an interface in the selected configuration. That handle must
 
 
 
-<a href="https://msdn.microsoft.com/8234d0b4-2c73-45fa-a8bf-566c64cc2858">WinUSB</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WinUSB</a>
 
 
 
@@ -84,7 +84,7 @@ An opaque handle to an interface in the selected configuration. That handle must
 
 
 
-<a href="https://msdn.microsoft.com/258cf508-036a-4ade-95b2-4b36d1149ffd">WinUsb_Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>
  
 
  

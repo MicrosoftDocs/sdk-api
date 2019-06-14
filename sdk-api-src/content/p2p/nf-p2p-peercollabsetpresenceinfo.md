@@ -59,7 +59,7 @@ The <b>PeerCollabSetPresenceInfo</b> function updates the caller's presence info
 
 ### -param pcPresenceInfo [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/e8f83ba8-81a3-4083-bc15-e00b2bec1cd4">PEER_PRESENCE_INFO</a> structure that contains the new presence information to publish for the calling peer application.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_presence_info_tag">PEER_PRESENCE_INFO</a> structure that contains the new presence information to publish for the calling peer application.
 
 
 ## -returns
@@ -139,7 +139,7 @@ Any  descriptive text for presence status is limited to 255 Unicode characters.
 
 
 
-<a href="https://msdn.microsoft.com/00c3c1f1-c36c-469a-a644-0ec60f02d25e">Peer Collaboration API Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
  
 
  

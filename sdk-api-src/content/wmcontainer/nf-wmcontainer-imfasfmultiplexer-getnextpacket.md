@@ -69,7 +69,7 @@ Receives zero or more status flags. If more than one packet is waiting, the meth
 
 ### -param ppIPacket [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/b1c3758c-5133-41ee-b991-ae99d0296ccc">IMFSample</a> interface of the first output sample of the data packet. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> interface of the first output sample of the data packet. The caller must release the interface.
           
 
 
@@ -106,7 +106,7 @@ The method succeeded.
 
 
 
-The client needs to call this method, ideally after every call to <a href="https://msdn.microsoft.com/30a693bb-255c-47a4-8102-1543872b0a5e">IMFASFMultiplexer::ProcessSample</a>, to get the output ASF packets. Call this method in a loop as long as the <b>ASF_STATUSFLAGS_INCOMPLETE</b> flag is received.
+The client needs to call this method, ideally after every call to <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-processsample">IMFASFMultiplexer::ProcessSample</a>, to get the output ASF packets. Call this method in a loop as long as the <b>ASF_STATUSFLAGS_INCOMPLETE</b> flag is received.
       
 
 If no packets are ready, the method returns <b>S_OK</b> but does not return a sample in <i>ppIPacket</i>.
@@ -119,15 +119,15 @@ If no packets are ready, the method returns <b>S_OK</b> but does not return a sa
 
 
 
-<a href="https://msdn.microsoft.com/7afa9694-c965-40e2-8549-e32ff48def2a">Generating New ASF Data Packets</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/generating-new-asf-data-packets">Generating New ASF Data Packets</a>
 
 
 
-<a href="https://msdn.microsoft.com/bdb549b5-425b-4f77-b413-723ceb7acd11">IMFASFMultiplexer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmultiplexer">IMFASFMultiplexer</a>
 
 
 
-<a href="https://msdn.microsoft.com/b1c3758c-5133-41ee-b991-ae99d0296ccc">IMFSample</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>
  
 
  

@@ -59,7 +59,7 @@ Creates a sensor profile collection.
 
 ### -param ppSensorProfile [out]
 
-On success, points to an <a href="https://msdn.microsoft.com/en-us/library/Mt845816(v=VS.85).aspx">IMFSensorProfileCollection</a> containing the sensor profile collection.
+On success, points to an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorprofilecollection">IMFSensorProfileCollection</a> containing the sensor profile collection.
 
 
 ## -returns

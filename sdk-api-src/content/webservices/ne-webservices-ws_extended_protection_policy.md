@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-Defines if <a href="https://msdn.microsoft.com/35e48846-05e5-4db9-a3b5-098b62815b66">Extended Protection</a> data should be validated. This property is only available on the server,
-                and can only be set when <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CHANNEL_BINDING</a> with <a href="https://msdn.microsoft.com/en-us/library/Dd323441(v=VS.85).aspx">WS_SSL_TRANSPORT_SECURITY_BINDING</a> and either <a href="https://msdn.microsoft.com/en-us/library/Dd401944(v=VS.85).aspx">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a>or <a href="https://msdn.microsoft.com/en-us/library/Dd401908(v=VS.85).aspx">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a> is used.
+Defines if <a href="https://docs.microsoft.com/windows/desktop/wsw/extended-protection">Extended Protection</a> data should be validated. This property is only available on the server,
+                and can only be set when <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CHANNEL_BINDING</a> with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_ssl_transport_security_binding">WS_SSL_TRANSPORT_SECURITY_BINDING</a> and either <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a>or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_http_header_auth_security_binding">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a> is used.
             
 
 

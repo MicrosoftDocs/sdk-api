@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the background image in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761155(v=VS.85).aspx">LVM_SETBKIMAGE</a> message explicitly.
+Sets the background image in a list-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setbkimage">LVM_SETBKIMAGE</a> message explicitly.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Sets the background image in a list-view control. You can use this macro or send
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control. 
 
@@ -68,14 +68,14 @@ A handle to the list-view control.
 
 Type: <b>LPLVBKIMAGE</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb774742(v=VS.85).aspx">LVBKIMAGE</a> structure that contains the new background image information. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvbkimagea">LVBKIMAGE</a> structure that contains the new background image information. 
 
 
 ## -remarks
 
 
 
-Because the list-view control uses OLE COM to manipulate the background images, the calling application must call <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> before using this macro. It is best to call one of these functions when the application is initialized and call either <a href="https://msdn.microsoft.com/9411cbed-fa3b-46f7-b677-6ada53324edc">CoUninitialize</a> or <a href="https://msdn.microsoft.com/b2a8233f-7e1b-4c54-9363-7478c40c3830">OleUninitialize</a> when the application is terminating. 
+Because the list-view control uses OLE COM to manipulate the background images, the calling application must call <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleinitialize">OleInitialize</a> before using this macro. It is best to call one of these functions when the application is initialized and call either <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleuninitialize">OleUninitialize</a> when the application is terminating. 
 
 
 
@@ -85,7 +85,7 @@ Because the list-view control uses OLE COM to manipulate the background images, 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761246(v=VS.85).aspx">ListView_GetBkImage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-listview_getbkimage">ListView_GetBkImage</a>
  
 
  

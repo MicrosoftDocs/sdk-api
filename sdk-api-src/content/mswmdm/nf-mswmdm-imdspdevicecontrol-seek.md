@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>Seek</b> method seeks to a position that is used as the starting point by the <a href="https://msdn.microsoft.com/09ca1922-3b33-47a8-a851-a1d221a568b9">Play</a> or <a href="https://msdn.microsoft.com/6cd99cfc-1961-4369-9ce9-2cdd0136d181">Record</a> methods.
+The <b>Seek</b> method seeks to a position that is used as the starting point by the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-play">Play</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-record">Record</a> methods.
 
 
 
@@ -160,11 +160,11 @@ An unspecified error occurred.
 
 
 
-The seek position is defined by passing either an <a href="https://msdn.microsoft.com/1ede7c68-0169-4375-9b45-b0995ad14e44">IWMDMStorage</a> interface pointing to a location on a storage medium of the device, or an <a href="https://msdn.microsoft.com/7277a8fe-3006-4456-b2e7-6041d3324f35">IWMDMOperation</a> interface that has been implemented to support streaming audio. The <a href="https://msdn.microsoft.com/f0003b14-7ae7-4822-befe-6bb1779328ec">IMDSPObjectInfo</a> interface can also be passed to describe some point within the object to which the specified interface points.
+The seek position is defined by passing either an <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage</a> interface pointing to a location on a storage medium of the device, or an <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation</a> interface that has been implemented to support streaming audio. The <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspobjectinfo">IMDSPObjectInfo</a> interface can also be passed to describe some point within the object to which the specified interface points.
 
-For device playback, if <b>Seek</b> is not called before <a href="https://msdn.microsoft.com/09ca1922-3b33-47a8-a851-a1d221a568b9">Play</a>, then playback starts at the first audio track on the first storage medium on the media device.
+For device playback, if <b>Seek</b> is not called before <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-play">Play</a>, then playback starts at the first audio track on the first storage medium on the media device.
 
-For device recording, if <b>Seek</b> is not called before <a href="https://msdn.microsoft.com/6cd99cfc-1961-4369-9ce9-2cdd0136d181">Record</a>, the record operation fails. After the <b>Record</b> method is called, subsequent calls to the <a href="https://msdn.microsoft.com/7ebd73b2-d168-470b-bc5a-aad8888c401a">IMDSPObjectInfo::GetLastPlayPosition</a> method report the total play length at any time, and equal the value returned from <a href="https://msdn.microsoft.com/abd18861-550b-4968-ac96-05f07315d4db">IMDSPObjectInfo::GetTotalLength</a>. The recording length can be limited by calling the <a href="https://msdn.microsoft.com/d5d860fb-c146-4bfc-90b1-cf1dfc81c5ba">IMDSPObjectInfo::SetPlayLength</a> method after returning from the <b>Seek</b> call.
+For device recording, if <b>Seek</b> is not called before <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-record">Record</a>, the record operation fails. After the <b>Record</b> method is called, subsequent calls to the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobjectinfo-getlastplayposition">IMDSPObjectInfo::GetLastPlayPosition</a> method report the total play length at any time, and equal the value returned from <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobjectinfo-gettotallength">IMDSPObjectInfo::GetTotalLength</a>. The recording length can be limited by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobjectinfo-setplaylength">IMDSPObjectInfo::SetPlayLength</a> method after returning from the <b>Seek</b> call.
 
 
 
@@ -174,19 +174,19 @@ For device recording, if <b>Seek</b> is not called before <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/a196edef-f670-4c1f-92bd-172a75f3f420">IMDSPDeviceControl Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevicecontrol">IMDSPDeviceControl Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/f0003b14-7ae7-4822-befe-6bb1779328ec">IMDSPObjectInfo Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspobjectinfo">IMDSPObjectInfo Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/7277a8fe-3006-4456-b2e7-6041d3324f35">IWMDMOperation Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/1ede7c68-0169-4375-9b45-b0995ad14e44">IWMDMStorage Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage Interface</a>
  
 
  

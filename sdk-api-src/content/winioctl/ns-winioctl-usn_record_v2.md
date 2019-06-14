@@ -67,7 +67,7 @@ The total length of a record, in bytes.
 Because <b>USN_RECORD_V2</b> is a variable size, the 
        <b>RecordLength</b> member should be used when calculating the address of the next record 
        in an output buffer, for example,  a buffer that is returned from operations for the 
-       <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function that work with 
+       <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function that work with 
        <b>USN_RECORD_V2</b>.
 
 The size in bytes of any change 
@@ -75,7 +75,7 @@ The size in bytes of any change
        structure, plus <i>MaximumComponentLength</i> characters minus 1 (for the character declared 
        in the structure) times the size of a wide character. The value of 
        <i>MaximumComponentLength</i> may be determined by calling the  
-       <a href="https://msdn.microsoft.com/c80a38e1-319e-4f15-8c8a-9d29075e1709">GetVolumeInformation</a> function. In C, you can 
+       <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumeinformationa">GetVolumeInformation</a> function. In C, you can 
        determine a record size by using the following code example.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -126,7 +126,7 @@ The structure is a <b>USN_RECORD_V2</b> structure and the
 </dl>
 </td>
 <td width="60%">
-The structure is a <a href="https://msdn.microsoft.com/6d95c5d1-6c6b-498f-a00d-eaa540e8b15b">USN_RECORD_V3</a> structure and the 
+The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_v3">USN_RECORD_V3</a> structure and the 
         remainder of the structure should be parsed using that layout.
 
 </td>
@@ -138,7 +138,7 @@ The structure is a <a href="https://msdn.microsoft.com/6d95c5d1-6c6b-498f-a00d-e
 </dl>
 </td>
 <td width="60%">
-The structure is a <a href="https://msdn.microsoft.com/2636D1A1-6FD1-4F84-954C-499DCCE6E390">USN_RECORD_V4</a> structure and the remainder of the structure should be parsed using that layout.
+The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_v4">USN_RECORD_V4</a> structure and the remainder of the structure should be parsed using that layout.
 
 </td>
 </tr>
@@ -174,7 +174,7 @@ The USN of this record.
 
 ### -field TimeStamp
 
-The standard UTC time stamp (<a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a>) of this 
+The standard UTC time stamp (<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>) of this 
       record, in 64-bit format.
 
 
@@ -475,8 +475,8 @@ The given stream is modified through a TxF transaction.
 ### -field SourceInfo
 
 Additional information about the source of the change, set by the 
-       <a href="https://msdn.microsoft.com/c96b49d8-12f3-4281-9f9f-6621769359f0">FSCTL_MARK_HANDLE</a> of the 
-       <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> operation.
+       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_mark_handle">FSCTL_MARK_HANDLE</a> of the 
+       <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> operation.
 
 When a thread writes a new USN record, the source information flags in the prior record continues to be 
        present only if the thread also sets those flags.  Therefore, the source information structure allows 
@@ -557,7 +557,7 @@ The unique security identifier assigned to the file or directory associated with
 ### -field FileAttributes
 
 The attributes for the file or directory associated with this record, as returned by the 
-      <a href="https://msdn.microsoft.com/9f9bcdbb-1ffd-49c2-92f4-181fdcc9c690">GetFileAttributes</a> function. Attributes of streams 
+      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a> function. Attributes of streams 
       associated with the file or directory are excluded.
 
 
@@ -592,7 +592,7 @@ Do not perform any compile-time pointer arithmetic using <b>FileName</b>. Instea
 
 
 
-In output buffers returned from <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
+In output buffers returned from <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
     operations that work with <b>USN_RECORD_V2</b>, all records are 
     aligned on 64-bit boundaries from the start of the buffer.
 
@@ -617,7 +617,7 @@ An increase in the major version number of the change journal software indicates
     change journal software, it should not work with the change journal.
 
 For more information, see 
-    <a href="https://msdn.microsoft.com/26cbacc2-d26b-434b-91b5-31aedc96da13">Creating, Modifying, and Deleting a Change Journal</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-modifying-and-deleting-a-change-journal">Creating, Modifying, and Deleting a Change Journal</a>.
 
 
 
@@ -627,31 +627,31 @@ For more information, see
 
 
 
-<a href="https://msdn.microsoft.com/c96b49d8-12f3-4281-9f9f-6621769359f0">FSCTL_MARK_HANDLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_mark_handle">FSCTL_MARK_HANDLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/205de464-7e96-477b-9115-e819719b160e">FSCTL_READ_USN_JOURNAL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal">FSCTL_READ_USN_JOURNAL</a>
 
 
 
-<a href="https://msdn.microsoft.com/9f9bcdbb-1ffd-49c2-92f4-181fdcc9c690">GetFileAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/c80a38e1-319e-4f15-8c8a-9d29075e1709">GetVolumeInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumeinformationa">GetVolumeInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/f88e71ba-6099-4928-9d71-732a4ca809bc">READ_USN_JOURNAL_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-read_usn_journal_data_v0">READ_USN_JOURNAL_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/6d95c5d1-6c6b-498f-a00d-eaa540e8b15b">USN_RECORD_V3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_v3">USN_RECORD_V3</a>
 
 
 
-<a href="https://msdn.microsoft.com/2636D1A1-6FD1-4F84-954C-499DCCE6E390">USN_RECORD_V4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_v4">USN_RECORD_V4</a>
  
 
  

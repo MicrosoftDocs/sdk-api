@@ -78,7 +78,7 @@ If the function fails, the return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/aaa776e5-3fc2-41bd-a805-6c09ef73807b">Device Power Management</a>
+<a href="https://docs.microsoft.com/windows/desktop/Power/device-power-management">Device Power Management</a>
  
 
  

@@ -63,7 +63,7 @@ Indicates whether a windowless rich edit control is currently visible.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK if the windowless rich edit control is visible, or S_FALSE otherwise.
 
@@ -75,7 +75,7 @@ Returns S_OK if the windowless rich edit control is visible, or S_FALSE otherwis
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh768428(v=VS.85).aspx">IRichEditUiaInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nn-textserv-irichedituiainformation">IRichEditUiaInformation</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>PointF::Equals</b> method determines whether two 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a> objects are equal. Two points are considered equal if they have the same 
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a> objects are equal. Two points are considered equal if they have the same 
 			<b>X</b> and 
 			<b>Y</b>  data members.
 
@@ -66,7 +66,7 @@ The <b>PointF::Equals</b> method determines whether two
 Type: <b>const PointF&amp;</b>
 
 Reference to a 
-					<a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a> object that is compared to this 
+					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a> object that is compared to this 
 					<b>PointF</b> object. 
 
 
@@ -78,7 +78,7 @@ Type: <strong>Type: <b>BOOL</b>
 </strong>
 
 If the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a> objects are equal, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a> objects are equal, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 
 
 
@@ -88,19 +88,19 @@ If the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534997(v=VS.85).aspx">PointF::operator+</a>
+<a href="https://docs.microsoft.com/previous-versions//ms534997(v=vs.85)">PointF::operator+</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534998(v=VS.85).aspx">PointF::operator-</a>
+<a href="https://docs.microsoft.com/previous-versions//ms534998(v=vs.85)">PointF::operator-</a>
  
 
  

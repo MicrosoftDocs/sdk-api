@@ -60,11 +60,11 @@ You can call the property methods of this interface to obtain and modify the att
 
 
 
-<a href="https://msdn.microsoft.com/fc520ea4-b2c2-44c0-8bec-25f8d4a77074">IADsReplicaPointer Property Methods</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsreplicapointer-property-methods">IADsReplicaPointer Property Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

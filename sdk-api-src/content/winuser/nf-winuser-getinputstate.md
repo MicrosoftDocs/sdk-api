@@ -82,11 +82,11 @@ If there are no new mouse-button or keyboard messages in the queue, the return v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644940(v=VS.85).aspx">GetQueueStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getqueuestatus">GetQueueStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632590(v=VS.85).aspx">Messages and Message Queues</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/messages-and-message-queues">Messages and Message Queues</a>
 
 
 

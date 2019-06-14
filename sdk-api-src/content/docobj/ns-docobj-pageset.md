@@ -80,7 +80,7 @@ The number of page-range pairs specified in <b>rgPages</b>.
 
 ### -field rgPages
 
-Pointer to an array of <a href="https://msdn.microsoft.com/b37d57e6-1634-4676-9f31-e3db2835983f">PAGERANGE</a> structures specifying the pages to be printed. One or more page ranges can be specified, so long as the number of page ranges is the value of <b>cPageRange</b>. The page ranges must be sorted in ascending order and must be non-overlapping. 
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-tagpagerange">PAGERANGE</a> structures specifying the pages to be printed. One or more page ranges can be specified, so long as the number of page ranges is the value of <b>cPageRange</b>. The page ranges must be sorted in ascending order and must be non-overlapping. 
 
 
 ## -see-also
@@ -88,7 +88,7 @@ Pointer to an array of <a href="https://msdn.microsoft.com/b37d57e6-1634-4676-9f
 
 
 
-<a href="https://msdn.microsoft.com/b37d57e6-1634-4676-9f31-e3db2835983f">PAGERANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-tagpagerange">PAGERANGE</a>
  
 
  

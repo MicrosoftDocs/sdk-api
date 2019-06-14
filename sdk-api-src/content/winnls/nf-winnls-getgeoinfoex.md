@@ -59,12 +59,12 @@ Retrieves information about a geographic location that you specify by using a tw
 
 ### -param location [in]
 
-The two-letter ISO 3166-1 or numeric UN M.49 code for the geographic location for which to get information.  To get the codes that are available on the operating system, call <a href="https://msdn.microsoft.com/0CB7AE4E-F48A-49A6-A5E8-F151D38CE11E">EnumSystemGeoNames</a>.
+The two-letter ISO 3166-1 or numeric UN M.49 code for the geographic location for which to get information.  To get the codes that are available on the operating system, call <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemgeonames">EnumSystemGeoNames</a>.
 
 
 ### -param geoType [in]
 
-The type of information you want to retrieve. Possible values are defined by the <a href="https://msdn.microsoft.com/f72f5cc5-4709-408f-a50c-b4b3092c4419">SYSGEOTYPE</a> enumeration. The following values of the <b>SYSGEOTYPE</b> enumeration should not be used with <b>GetGeoInfoEx</b>:
+The type of information you want to retrieve. Possible values are defined by the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ne-winnls-sysgeotype">SYSGEOTYPE</a> enumeration. The following values of the <b>SYSGEOTYPE</b> enumeration should not be used with <b>GetGeoInfoEx</b>:
 
 <ul>
 <li>
@@ -109,7 +109,7 @@ The size of the buffer to which the <i>GeoData</i> parameter points, in characte
 
 The number of bytes of geographical location information that the function wrote the output buffer. If <i>geoDataCount</i> is  0, the function returns the size of the buffer required to hold the information without writing the information to the buffer.
 
-0 indicates that the function did not succeed. To get extended error information,  call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>, which can return one of the following error codes:
+0 indicates that the function did not succeed. To get extended error information,  call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <table>
 <tr>
@@ -169,23 +169,23 @@ For information about two-letter ISO 3166-1 codes, see <a href="https://go.micro
 
 
 
-<a href="https://msdn.microsoft.com/0CB7AE4E-F48A-49A6-A5E8-F151D38CE11E">EnumSystemGeoNames</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemgeonames">EnumSystemGeoNames</a>
 
 
 
-<a href="https://msdn.microsoft.com/73827ed9-bdc5-4b34-b849-fb44b3c5bd6e">GetGeoInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getgeoinfoa">GetGeoInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a548074-0782-45e1-8051-80c3b9d81885">National Language Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c72c4de-83be-4b7e-9ed8-b0236c1df8a4">National Language Support Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/f72f5cc5-4709-408f-a50c-b4b3092c4419">SYSGEOTYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ne-winnls-sysgeotype">SYSGEOTYPE</a>
  
 
  

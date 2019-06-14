@@ -64,12 +64,12 @@ Translates character set information and sets all members of a destination struc
 
 ### -param lpSrc [in, out]
 
-Pointer to the <b>fsCsb</b> member of a <a href="https://msdn.microsoft.com/5331da53-7e3d-46e9-a922-da04fedc8382">FONTSIGNATURE</a> structure if <i>dwFlags</i> is set to TCI_SRCFONTSIG. Otherwise, this parameter is set to a DWORD value indicating the source.
+Pointer to the <b>fsCsb</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagfontsignature">FONTSIGNATURE</a> structure if <i>dwFlags</i> is set to TCI_SRCFONTSIG. Otherwise, this parameter is set to a DWORD value indicating the source.
 
 
 ### -param lpCs [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/4f815f53-9fac-41f3-9493-bd8d68cff543">CHARSETINFO</a> structure that receives the translated character set information.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagcharsetinfo">CHARSETINFO</a> structure that receives the translated character set information.
 
 
 ### -param dwFlags [in]
@@ -107,7 +107,7 @@ Source is a code page identifier in the low word and 0 in the high word.
 </dl>
 </td>
 <td width="60%">
-Source is the code page bitfield portion of a <a href="https://msdn.microsoft.com/5331da53-7e3d-46e9-a922-da04fedc8382">FONTSIGNATURE</a> structure. On input this should have only one Windows code-page bit set, either for an ANSI code page value or for a common ANSI and OEM value (for OEM values, bits 32-63 must be clear). On output, this has only one bit set.
+Source is the code page bitfield portion of a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagfontsignature">FONTSIGNATURE</a> structure. On input this should have only one Windows code-page bit set, either for an ANSI code page value or for a common ANSI and OEM value (for OEM values, bits 32-63 must be clear). On output, this has only one bit set.
 
 If the TCI_SRCFONTSIG value is given, the <i>lpSrc</i> parameter must be the address of the code-page bitfield. If any other TCI_ value is given, the <i>lpSrc</i> parameter must be a value not an address.
 
@@ -131,7 +131,7 @@ If the TCI_SRCFONTSIG value is given, the <i>lpSrc</i> parameter must be the add
 
 
 
-Returns a nonzero value if successful, or 0 otherwise. To get extended error information, the application can call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+Returns a nonzero value if successful, or 0 otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -141,19 +141,19 @@ Returns a nonzero value if successful, or 0 otherwise. To get extended error inf
 
 
 
-<a href="https://msdn.microsoft.com/4f815f53-9fac-41f3-9493-bd8d68cff543">CHARSETINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagcharsetinfo">CHARSETINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/5331da53-7e3d-46e9-a922-da04fedc8382">FONTSIGNATURE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagfontsignature">FONTSIGNATURE</a>
 
 
 
-<a href="https://msdn.microsoft.com/1799f5da-1391-4b6e-ac13-718017a77557">Unicode and Character Set Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/unicode-and-character-set-functions">Unicode and Character Set Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c1c6582-b58c-4008-9ce5-208acc191d9f">Unicode and Character Sets</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/unicode-and-character-sets">Unicode and Character Sets</a>
  
 
  

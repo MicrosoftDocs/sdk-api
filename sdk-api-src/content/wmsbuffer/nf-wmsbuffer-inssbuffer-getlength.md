@@ -111,7 +111,7 @@ The <i>pdwLength</i> parameter is <b>NULL</b>.
 
 
 
-The allocated buffer may be larger than the used portion. To find the total size of the allocated buffer, call <a href="https://msdn.microsoft.com/en-us/library/Dd743262(v=VS.85).aspx">INSSBuffer::GetMaxLength</a>.
+The allocated buffer may be larger than the used portion. To find the total size of the allocated buffer, call <a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getmaxlength">INSSBuffer::GetMaxLength</a>.
 
 
 
@@ -121,15 +121,15 @@ The allocated buffer may be larger than the used portion. To find the total size
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743262(v=VS.85).aspx">INSSBuffer::GetMaxLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getmaxlength">INSSBuffer::GetMaxLength</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743263(v=VS.85).aspx">INSSBuffer::SetLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-setlength">INSSBuffer::SetLength</a>
  
 
  

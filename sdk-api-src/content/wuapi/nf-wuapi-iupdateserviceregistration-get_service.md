@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets a pointer to an <a href="https://msdn.microsoft.com/6cd3d3a1-c50c-4d8e-ae13-c3ea99671cbf">IUpdateService2</a> interface.  This property is the default property.
+Gets a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservice2">IUpdateService2</a> interface.  This property is the default property.
 
 This property is read-only.
 
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/729664f2-5f75-4e73-9ccc-150b2e201f66">IUpdateServiceRegistration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateserviceregistration">IUpdateServiceRegistration</a>
  
 
  

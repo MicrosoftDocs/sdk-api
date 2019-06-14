@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies a video decoder's software deinterlace mode. This enumeration is used with the <a href="https://msdn.microsoft.com/254f003f-b3fd-40ab-a472-6bae93f11326">AVDecVideoSoftwareDeinterlaceMode</a> property.
+Specifies a video decoder's software deinterlace mode. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avdecvideosoftwaredeinterlacemode-property">AVDecVideoSoftwareDeinterlaceMode</a> property.
 
 
 ## -enum-fields
@@ -82,11 +82,11 @@ Bob deinterlacing.
 
 
 
-<a href="https://msdn.microsoft.com/5d6e48cb-d181-448e-a96e-e5ab500427d7">Codec API Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
  
 
  

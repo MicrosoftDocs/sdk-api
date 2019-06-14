@@ -52,9 +52,9 @@ ms.custom: 19H1
 The custom-scripting DLL calls the 
 <i>RasRetrieveBuffer</i> function to obtain data received from the RAS server over the specified port. The custom-scripting DLL should call 
 <i>RasRetrieveBuffer</i> only after RAS has signaled the event object passed in the call to 
-<a href="https://msdn.microsoft.com/cc5523df-748d-4f96-8d54-bf0a2f9ecde4">RasReceiveBuffer</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-pfnrasreceivebuffer">RasReceiveBuffer</a>.
 
-The <a href="https://msdn.microsoft.com/e31ab530-cb60-4bb0-be44-3ba90fdf71f1">PFNRASRETRIEVEBUFFER</a> type defines a pointer to this callback function. <i>RasRetrieveBuffer</i> is a placeholder for the application-defined function name.
+The <a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rascustomscriptexecutefn">PFNRASRETRIEVEBUFFER</a> type defines a pointer to this callback function. <i>RasRetrieveBuffer</i> is a placeholder for the application-defined function name.
 
 
 ## -parameters
@@ -65,14 +65,14 @@ The <a href="https://msdn.microsoft.com/e31ab530-cb60-4bb0-be44-3ba90fdf71f1">PF
 ### -param hPort
 
 Handle to the port on which to receive the data. This handle should be the handle passed in by RAS as the first parameter of the 
-<a href="https://msdn.microsoft.com/e31ab530-cb60-4bb0-be44-3ba90fdf71f1">RasCustomScriptExecute</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rascustomscriptexecutefn">RasCustomScriptExecute</a> function.
 
 
 ### -param pBuffer
 
 Pointer to a buffer to receive the data from the port specified by the <i>hPort</i> parameter. Obtain this buffer using 
-<a href="https://msdn.microsoft.com/655f2dfa-a6cf-43db-8d2e-bf9a10163c75">RasGetBuffer</a> function. The value of this parameter may be the same as the pointer to the buffer passed into the 
-<a href="https://msdn.microsoft.com/cc5523df-748d-4f96-8d54-bf0a2f9ecde4">RasReceiveBuffer</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-pfnrasgetbuffer">RasGetBuffer</a> function. The value of this parameter may be the same as the pointer to the buffer passed into the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-pfnrasreceivebuffer">RasReceiveBuffer</a> function.
 
 
 ### -param pdwSize
@@ -131,11 +131,11 @@ RAS signals the event object if the port gets disconnected for some reason befor
 The 
 <i>RasRetrieveBuffer</i> function is synchronous. When it returns, the buffer pointed to by the <i>pBuffer</i> parameter contains the data received over the specified port. The custom-scripting DLL should call 
 <i>RasRetrieveBuffer</i> only after RAS has signaled the event object that the DLL passed in the call to 
-<a href="https://msdn.microsoft.com/cc5523df-748d-4f96-8d54-bf0a2f9ecde4">RasReceiveBuffer</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-pfnrasreceivebuffer">RasReceiveBuffer</a>.
 
 The custom-scripting DLL calls 
 <i>RasRetrieveBuffer</i> through a function pointer. The function pointer is passed to the custom-scripting DLL as a parameter when RAS calls the DLL's implementation of 
-<a href="https://msdn.microsoft.com/e31ab530-cb60-4bb0-be44-3ba90fdf71f1">RasCustomScriptExecute</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rascustomscriptexecutefn">RasCustomScriptExecute</a>.
 
 
 
@@ -145,19 +145,19 @@ The custom-scripting DLL calls
 
 
 
-<a href="https://msdn.microsoft.com/c27b8b02-6018-4441-a355-1fb890b9001c">RAS Custom-Scripting</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-custom-scripting">RAS Custom-Scripting</a>
 
 
 
-<a href="https://msdn.microsoft.com/e31ab530-cb60-4bb0-be44-3ba90fdf71f1">RasCustomScriptExecute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rascustomscriptexecutefn">RasCustomScriptExecute</a>
 
 
 
-<a href="https://msdn.microsoft.com/cc5523df-748d-4f96-8d54-bf0a2f9ecde4">RasReceiveBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-pfnrasreceivebuffer">RasReceiveBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/157a2bc7-351f-4170-b85b-ed789b4997ab">RasSendBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-pfnrassendbuffer">RasSendBuffer</a>
  
 
  

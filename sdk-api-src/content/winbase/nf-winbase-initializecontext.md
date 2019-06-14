@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Initializes a <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a> structure inside a buffer 
+Initializes a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a> structure inside a buffer 
     with the necessary size and alignment.
 
 
@@ -63,7 +63,7 @@ Initializes a <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fb
 ### -param Buffer [out, optional]
 
 A pointer to a buffer within which to initialize a 
-      <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a> structure. This parameter can be 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a> structure. This parameter can be 
        <b>NULL</b> to determine the buffer size required to hold a context record with the 
        specified <i>ContextFlags</i>.
 
@@ -81,11 +81,11 @@ A value indicating which portions of the <i>Context</i> structure should be init
 ### -param Context [out, optional]
 
 A pointer to a variable which receives the address of the initialized 
-      <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a> structure within the 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a> structure within the 
       <i>Buffer</i>.
       
 
-<div class="alert"><b>Note</b>  Due to alignment requirements of <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a> structures, 
+<div class="alert"><b>Note</b>  Due to alignment requirements of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a> structures, 
        the value returned in <i>Context</i> may not be at the beginning of the supplied 
        buffer.</div>
 <div> </div>
@@ -94,8 +94,8 @@ A pointer to a variable which receives the address of the initialized
 
 On input, specifies the length of the buffer pointed to by <i>Buffer</i>, in bytes. If 
       the buffer is not large enough to contain the specified portions of the 
-      <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a>, the function fails, 
-      <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a>, the function fails, 
+      <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
       <b>ERROR_INSUFFICIENT_BUFFER</b>, and <i>ContextLength</i> is set to the 
       required size of the buffer.  If the function fails with an error other than 
       <b>ERROR_INSUFFICIENT_BUFFER</b>, the contents of 
@@ -108,7 +108,7 @@ On input, specifies the length of the buffer pointed to by <i>Buffer</i>, in byt
 
 This function returns <b>TRUE</b> if successful, otherwise 
       <b>FALSE</b>. To get extended error information, call 
-      <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -118,7 +118,7 @@ This function returns <b>TRUE</b> if successful, otherwise
 
 
 <i>InitializeContext</i> can be used to initialize a 
-    <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a> structure within a buffer with the required size and 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a> structure within a buffer with the required size and 
     alignment characteristics.  This routine is required if the <b>CONTEXT_XSTATE</b><i>ContextFlag</i> is specified since the required context size and alignment may change 
     depending on which processor features are enabled on the system.
 
@@ -134,17 +134,17 @@ First, call this function with the
     <i>Context</i>-&gt;<i>ContextFlags</i> if they are not supported by the 
     system. Applications may subsequently remove, but must never add, bits from the 
     <i>ContextFlags</i> member of 
-    <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a>.
 
 
-<b>Windows 7 with SP1 and Windows Server 2008 R2 with SP1:  </b>The <a href="https://msdn.microsoft.com/76357e08-a53c-4490-b08d-1c26900a3826">AVX API</a> is first implemented on 
+<b>Windows 7 with SP1 and Windows Server 2008 R2 with SP1:  </b>The <a href="https://docs.microsoft.com/windows/desktop/Debug/avx-support-portal">AVX API</a> is first implemented on 
        Windows 7 with SP1 and Windows Server 2008 R2 with SP1 . Since there is no SDK for SP1, that means there are 
        no available headers and library files to work with. In this situation, a caller must declare the needed 
        functions from this documentation and get pointers to them using 
-       <a href="https://msdn.microsoft.com/29514410-89fe-4888-8b34-0c30d5af237f">GetModuleHandle</a> on 
+       <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a> on 
        "Kernel32.dll", followed by calls to 
-       <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a>. See 
-       <a href="https://msdn.microsoft.com/F7937402-1173-4647-B9FF-856C0925C1C3">Working with XState Context</a> for 
+       <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>. See 
+       <a href="https://docs.microsoft.com/windows/desktop/Debug/working-with-xstate-context">Working with XState Context</a> for 
        details.
 
 
@@ -157,19 +157,19 @@ First, call this function with the
 
 
 
-<a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/805CD02A-53BC-487C-83F8-FE804368C770">CopyContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copycontext">CopyContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/76357e08-a53c-4490-b08d-1c26900a3826">Intel AVX</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/avx-support-portal">Intel AVX</a>
 
 
 
-<a href="https://msdn.microsoft.com/F7937402-1173-4647-B9FF-856C0925C1C3">Working with XState Context</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/working-with-xstate-context">Working with XState Context</a>
  
 
  

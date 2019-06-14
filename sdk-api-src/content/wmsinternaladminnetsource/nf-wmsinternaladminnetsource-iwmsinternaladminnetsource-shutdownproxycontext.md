@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-The <b>ShutdownProxyContext</b> method releases the internal resources used by <a href="https://msdn.microsoft.com/en-us/library/Dd798537(v=VS.85).aspx">IWMSInternalAdminNetSource::FindProxyForURL</a>. To avoid memory leaks, you must call this method after you are finished making calls to <b>FindProxyForURL</b>.
+The <b>ShutdownProxyContext</b> method releases the internal resources used by <a href="https://docs.microsoft.com/windows/desktop/api/wmsinternaladminnetsource/nf-wmsinternaladminnetsource-iwmsinternaladminnetsource-findproxyforurl">IWMSInternalAdminNetSource::FindProxyForURL</a>. To avoid memory leaks, you must call this method after you are finished making calls to <b>FindProxyForURL</b>.
 
 
 
@@ -82,7 +82,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743717(v=VS.85).aspx">IWMSInternalAdminNetSource Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsinternaladminnetsource/nn-wmsinternaladminnetsource-iwmsinternaladminnetsource">IWMSInternalAdminNetSource Interface</a>
  
 
  

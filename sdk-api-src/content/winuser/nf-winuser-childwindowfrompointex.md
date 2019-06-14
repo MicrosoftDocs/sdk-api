@@ -74,7 +74,7 @@ A handle to the parent window.
 
 ### -param pt [in]
 
-Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
 
 A structure that defines the 
 				client coordinates (relative to <i>hwndParent</i>) 
@@ -185,7 +185,7 @@ The system maintains an internal list that contains the handles of the child
 
 
 
-<a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>
+<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>
 
 
 
@@ -193,11 +193,11 @@ The system maintains an internal list that contains the handles of the child
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633558(v=VS.85).aspx">WindowFromPoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-windowfrompoint">WindowFromPoint</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
  
 
  

@@ -132,7 +132,7 @@ The object is not initialized.
 
 
 
-<a href="https://msdn.microsoft.com/409CE6BF-57A5-454E-91F9-3D66FE7E323F">IAmsiStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amsi/nn-amsi-iamsistream">IAmsiStream</a>
  
 
  

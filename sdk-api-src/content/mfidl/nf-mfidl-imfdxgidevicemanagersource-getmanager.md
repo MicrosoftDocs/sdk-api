@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the <a href="https://msdn.microsoft.com/4A0DC266-FCF0-4ECD-AC78-CF429839486D">IMFDXGIDeviceManager</a> from the Microsoft Media Foundation video rendering sink.
+Gets the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a> from the Microsoft Media Foundation video rendering sink.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets the <a href="https://msdn.microsoft.com/4A0DC266-FCF0-4ECD-AC78-CF429839486
 
 ### -param ppManager [out]
 
-The <a href="https://msdn.microsoft.com/4A0DC266-FCF0-4ECD-AC78-CF429839486D">IMFDXGIDeviceManager</a> object.
+The <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a> object.
 
 
 ## -returns
@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/80078ed6-61cc-4fb9-8fd5-eda78cd5be30">IMFDXGIDeviceManagerSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/imfdxgidevicemanagersource">IMFDXGIDeviceManagerSource</a>
  
 
  

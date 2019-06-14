@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Updates clients about state of a window resulting from a panning gesture. This function can only be called after a <a href="https://msdn.microsoft.com/en-us/library/Dd373383(v=VS.85).aspx">BeginPanningFeedback</a> call.
+Updates clients about state of a window resulting from a panning gesture. This function can only be called after a <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-beginpanningfeedback">BeginPanningFeedback</a> call.
 
 
 ## -parameters
@@ -59,28 +59,28 @@ Updates clients about state of a window resulting from a panning gesture. This f
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-The handle to the target window that will receive feedback. For the method to succeed, this must be the same HWND as provided in <a href="https://msdn.microsoft.com/en-us/library/Dd373383(v=VS.85).aspx">BeginPanningFeedback</a>. 
+The handle to the target window that will receive feedback. For the method to succeed, this must be the same HWND as provided in <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-beginpanningfeedback">BeginPanningFeedback</a>. 
 
 
 ### -param lTotalOverpanOffsetX [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 The total displacement that the window has moved in the horizontal direction since the end of scrollable region was reached. A maximum displacement of 30 pixels is allowed.
 
 
 ### -param lTotalOverpanOffsetY [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 The total displacement that the window has moved in the vertical direction since the end of scrollable region was reached. A maximum displacement of 30 pixels is allowed.
 
 
 ### -param fInInertia [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Flag indicating whether the application is handling a WM_GESTURE message with the GF_INERTIA FLAG set.
 
@@ -89,7 +89,7 @@ Flag indicating whether the application is handling a WM_GESTURE message with th
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> if successful.
 

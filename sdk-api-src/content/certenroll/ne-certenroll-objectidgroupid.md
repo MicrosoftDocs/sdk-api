@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ObjectIdGroupId</b> enumeration type specifies the category or group to which an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) belongs. This enumeration is used when calling <a href="https://msdn.microsoft.com/ba8c1f11-9380-43a9-b444-b0fff114a176">InitializeFromAlgorithmName</a> to initialize an <a href="https://msdn.microsoft.com/bc6608e3-cae7-4992-b599-06bc04cc8ad7">IObjectId</a> object.
+The <b>ObjectIdGroupId</b> enumeration type specifies the category or group to which an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) belongs. This enumeration is used when calling <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-iobjectid-initializefromalgorithmname">InitializeFromAlgorithmName</a> to initialize an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a> object.
 
 
 ## -enum-fields
@@ -366,7 +366,7 @@ Not supported.
 
 ### -field XCN_CRYPT_KEY_LENGTH_MASK
 
-Enables addition of a key length to the upper 16 bits of the XCN_CRYPT_ENCRYPT_ALG_OID_GROUP_ID group ID. For example, to use the <a href="https://msdn.microsoft.com/ba8c1f11-9380-43a9-b444-b0fff114a176">InitializeFromAlgorithmName</a> method to initialize an <a href="https://msdn.microsoft.com/bc6608e3-cae7-4992-b599-06bc04cc8ad7">IObjectId</a> object from a 192-bit AES algorithm, specify "AES" for the <i>strAlgorithmName</i> parameter, shift the length left by 16, and perform a bitwise-<b>OR</b> combination on the shifted bit length and the <i>GroupId</i> value.
+Enables addition of a key length to the upper 16 bits of the XCN_CRYPT_ENCRYPT_ALG_OID_GROUP_ID group ID. For example, to use the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-iobjectid-initializefromalgorithmname">InitializeFromAlgorithmName</a> method to initialize an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a> object from a 192-bit AES algorithm, specify "AES" for the <i>strAlgorithmName</i> parameter, shift the length left by 16, and perform a bitwise-<b>OR</b> combination on the shifted bit length and the <i>GroupId</i> value.
 
 <pre class="syntax" xml:space="preserve"><code>DWORD dwBitLen = 192;
 
@@ -380,7 +380,7 @@ ObjectIdGroupId GroupId =
 
 
 
-<a href="https://msdn.microsoft.com/8514fb89-1cf5-4e09-997c-17984efc4e03">CertEnroll Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Callback function that gets called for each data source in response to a call to <a href="https://msdn.microsoft.com/D6BCBFC1-C916-43E3-BB6A-E8EB6467850B">WofEnumEntries</a>.
+Callback function that gets called for each data source in response to a call to <a href="https://docs.microsoft.com/windows/desktop/api/wofapi/nf-wofapi-wofenumentries">WofEnumEntries</a>.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ it will be PWIM_ENTRY_INFO.
 
 ### -param UserData [in, optional]
 
-Optional user defined data specified in the call to <a href="https://msdn.microsoft.com/D6BCBFC1-C916-43E3-BB6A-E8EB6467850B">WofEnumEntries</a>. 
+Optional user defined data specified in the call to <a href="https://docs.microsoft.com/windows/desktop/api/wofapi/nf-wofapi-wofenumentries">WofEnumEntries</a>. 
 
 
 ## -returns

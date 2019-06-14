@@ -134,7 +134,7 @@ The property value is in grams.
 
 
 
-<a href="https://msdn.microsoft.com/a6f82b69-50a2-4dfb-a0cd-c37907f5fc1c">PROPERTY_METRICS Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tpcshrd/ns-tpcshrd-_property_metrics">PROPERTY_METRICS Structure</a>
  
 
  

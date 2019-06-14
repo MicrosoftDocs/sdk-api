@@ -81,7 +81,7 @@ The ID format that is expected for change unit IDs.
 
 
 
-To obtain ID parameters, both providers are queried through a call to <a href="https://msdn.microsoft.com/a1839c53-7978-4a14-8b17-43621b801f13">ISyncProvider::GetIdParameters</a>. These ID parameters are then compared to verify that both providers use the same ID schema. If this verification fails, the synchronization session is not created, and an error code is returned.
+To obtain ID parameters, both providers are queried through a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncprovider-getidparameters">ISyncProvider::GetIdParameters</a>. These ID parameters are then compared to verify that both providers use the same ID schema. If this verification fails, the synchronization session is not created, and an error code is returned.
 
 
 
@@ -91,15 +91,15 @@ To obtain ID parameters, both providers are queried through a call to <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/f2b47196-8112-4f04-9944-a4a686d3c25c">ID_PARAMETER_PAIR Structure</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ns-winsync-_id_parameter_pair">ID_PARAMETER_PAIR Structure</a>
 
 
 
-<a href="https://msdn.microsoft.com/0664267f-90ba-4123-bfe5-7cf748b78c10">ISyncProvider Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncprovider">ISyncProvider Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/eed33384-f8bd-4a3a-8d04-b59c534f9114">Windows Sync Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-structures">Windows Sync Structures</a>
  
 
  

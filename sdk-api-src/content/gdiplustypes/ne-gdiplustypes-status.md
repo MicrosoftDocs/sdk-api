@@ -75,7 +75,7 @@ Indicates that one of the arguments passed to the method was not valid.
 
 ### -field OutOfMemory
 
-Indicates that the operating system is out of memory and could not allocate memory to process the method call. For an explanation of how constructors use the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">OutOfMemory</a> status, see the Remarks section at the end of this topic. 
+Indicates that the operating system is out of memory and could not allocate memory to process the method call. For an explanation of how constructors use the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">OutOfMemory</a> status, see the Remarks section at the end of this topic. 
 
 
 ### -field ObjectBusy
@@ -101,7 +101,7 @@ Indicates that the method generated a Win32 error.
 ### -field WrongState
 
 Indicates that the object is in an invalid state to satisfy the API call. For example, calling 
-				<a href="https://msdn.microsoft.com/en-us/library/ms535019(v=VS.85).aspx">Pen::GetColor</a> from a pen that is not a single, solid color results in a <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">WrongState</a> status. 
+				<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-getcolor">Pen::GetColor</a> from a pen that is not a single, solid color results in a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">WrongState</a> status. 
 
 
 ### -field Aborted
@@ -154,7 +154,7 @@ Indicates that the version of GDI+ that is installed on the system is incompatib
 ### -field GdiplusNotInitialized
 
 Indicates that the GDI+API is not in an initialized state. To function, all GDI+ objects require that GDI+ be in an initialized state. Initialize GDI+ by calling 
-				<a href="https://msdn.microsoft.com/en-us/library/ms534077(v=VS.85).aspx">GdiplusStartup</a>. 
+				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup">GdiplusStartup</a>. 
 
 
 ### -field PropertyNotFound

@@ -98,7 +98,7 @@ The length of the output buffer, in <b>TCHARs</b>.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-      <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -130,14 +130,14 @@ You must specify a valid Win32 namespace path. If you specify an NT namespace pa
     boot volume, not the drive letter of that NT namespace path.
 
 For more information about path names and namespaces, see 
-    <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">Naming Files, Paths, and Namespaces</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>.
 
 You can specify both local and remote paths. If you specify a local path, 
     <b>GetVolumePathName</b> returns a full path whose prefix is 
     the longest prefix that represents a volume.
 
 If a network share is specified, <b>GetVolumePathName</b> 
-    returns the shortest path for which <a href="https://msdn.microsoft.com/b3989a3f-fc90-4ea0-8d3e-8e57068a08bc">GetDriveType</a> returns 
+    returns the shortest path for which <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdrivetypea">GetDriveType</a> returns 
     <b>DRIVE_REMOTE</b>, which means that the path is validated as a remote drive that exists, 
     which the current user can access.
 
@@ -147,7 +147,7 @@ There are certain special cases that do not return a trailing backslash. These o
     returned is "C:\"; however, if 
     <i>lpszVolumePathName</i> is 3 characters long, the value returned is 
     "C:". A safer but slower way to set the size of the return buffer is to 
-    call the <a href="https://msdn.microsoft.com/4cf59ee3-4065-4096-a2b5-fbed20aa5caa">GetFullPathName</a> function, and then make sure 
+    call the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfullpathnamea">GetFullPathName</a> function, and then make sure 
     that the buffer size is at least the same size as the full path that 
     <b>GetFullPathName</b> returns. If the output buffer is more 
     than one character too short, the function will fail and return an error.
@@ -327,27 +327,27 @@ For the following set of examples, the paths contain invalid trailing path eleme
 
 
 
-<a href="https://msdn.microsoft.com/b1a0a273-fa7f-4794-8b50-c74f00b0228d">DeleteVolumeMountPoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletevolumemountpointw">DeleteVolumeMountPoint</a>
 
 
 
-<a href="https://msdn.microsoft.com/4cf59ee3-4065-4096-a2b5-fbed20aa5caa">GetFullPathName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfullpathnamea">GetFullPathName</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f749042-bdc9-4087-bb8a-d833713472eb">GetVolumeNameForVolumeMountPoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumenameforvolumemountpointw">GetVolumeNameForVolumeMountPoint</a>
 
 
 
-<a href="https://msdn.microsoft.com/1535fe64-221a-4756-a9ba-81bbe7596598">SetVolumeMountPoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setvolumemountpointa">SetVolumeMountPoint</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc985126-970c-49f2-877f-3759125e43b6">Volume Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/6de526cd-5537-4411-b43f-3c0bdac70d64">Volume Mount Points</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-mount-points">Volume Mount Points</a>
  
 
  

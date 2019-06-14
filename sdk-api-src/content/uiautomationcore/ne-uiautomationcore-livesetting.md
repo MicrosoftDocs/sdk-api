@@ -88,11 +88,11 @@ The provider element sends change notifications when the content of the live reg
 
 
 
-<a href="https://msdn.microsoft.com/5DAE4E4B-A93D-4743-907E-29FC4B6D9101">CachedLiveSetting</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement2-get_cachedlivesetting">CachedLiveSetting</a>
 
 
 
-<a href="https://msdn.microsoft.com/3510E0AD-FB79-4636-B6EF-AE0FB62AD55C">CurrentLiveSetting</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement2-get_currentlivesetting">CurrentLiveSetting</a>
  
 
  

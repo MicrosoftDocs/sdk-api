@@ -80,7 +80,7 @@ If the method succeeds, the return value is S_OK. Otherwise, the method returns 
 
 
 
-<a href="https://msdn.microsoft.com/431423c9-2873-422d-a28c-c4ef23109114">IUPnPEventSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nn-upnphost-iupnpeventsink">IUPnPEventSink</a>
  
 
  

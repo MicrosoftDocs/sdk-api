@@ -98,7 +98,7 @@ The method succeeded.
 
 
 
-<code>Initialize</code> must be called prior to calling <a href="https://msdn.microsoft.com/22eb58d2-f1cf-4115-a5d4-dceb1d3ba4ad">Create</a> or <a href="https://msdn.microsoft.com/fbceebc3-10dd-4028-9672-1976a459cafe">DoModal</a>. Failure to do so will cause <b>Create</b> or <b>DoModal</b> to fail.
+<code>Initialize</code> must be called prior to calling <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireoptionsdialog-create">Create</a> or <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireoptionsdialog-domodal">DoModal</a>. Failure to do so will cause <b>Create</b> or <b>DoModal</b> to fail.
 
 If <code>Initialize</code> is called while the options dialog box is already displayed, an error will be returned.
 
@@ -110,7 +110,7 @@ If <code>Initialize</code> is called while the options dialog box is already dis
 
 
 
-<a href="https://msdn.microsoft.com/075e188f-e533-403d-be06-6a3260479f1a">IPhotoAcquireOptionsDialog Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireoptionsdialog">IPhotoAcquireOptionsDialog Interface</a>
  
 
  

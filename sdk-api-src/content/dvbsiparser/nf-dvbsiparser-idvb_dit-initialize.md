@@ -55,7 +55,7 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 
 
-The <b>Initialize</b> method initializes the object using captured table section data. This method is called internally by the <a href="https://msdn.microsoft.com/ff6d5a04-173d-4577-a6e8-2ae5b2f99358">IDvbSiParser::GetDIT</a> method, so applications typically should not call it.
+The <b>Initialize</b> method initializes the object using captured table section data. This method is called internally by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-getdit">IDvbSiParser::GetDIT</a> method, so applications typically should not call it.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ The <b>Initialize</b> method initializes the object using captured table section
 
 ### -param pSectionList [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/eb6d31b4-ee4a-468f-9e58-115159095858">ISectionList</a> interface of the <b>SectionList</b> object that contains the section data.
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-isectionlist">ISectionList</a> interface of the <b>SectionList</b> object that contains the section data.
 
 
 ## -returns
@@ -134,7 +134,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/8acbb1ac-100f-47b9-b8db-580d1a845946">IDVB_DIT Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_dit">IDVB_DIT Interface</a>
  
 
  

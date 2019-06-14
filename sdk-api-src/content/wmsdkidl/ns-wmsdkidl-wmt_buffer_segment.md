@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>WMT_BUFFER_SEGMENT</b> structure contains the information needed to specify a segment in a buffer. It is used as a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757841(v=VS.85).aspx">WMT_FILESINK_DATA_UNIT</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd757849(v=VS.85).aspx">WMT_PAYLOAD_FRAGMENT</a> structures to specify segments of a packet.
+The <b>WMT_BUFFER_SEGMENT</b> structure contains the information needed to specify a segment in a buffer. It is used as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmt_filesink_data_unit">WMT_FILESINK_DATA_UNIT</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmt_payload_fragment">WMT_PAYLOAD_FRAGMENT</a> structures to specify segments of a packet.
 
 
 
@@ -80,7 +80,7 @@ The length, in bytes, of the buffer segment.
 
 
 
-<a href="https://msdn.microsoft.com/118ef278-ca4f-4c30-9633-a2d851f5c758">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
  
 
  

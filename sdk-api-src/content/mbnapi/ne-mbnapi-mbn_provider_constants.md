@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>MBN_PROVIDER_CONSTANTS</b> enumerated type contains values that define the buffer lengths of <a href="https://msdn.microsoft.com/f4a02ca2-6be4-4843-a657-5d5dde8be623">MBN_PROVIDER</a> members.
+The <b>MBN_PROVIDER_CONSTANTS</b> enumerated type contains values that define the buffer lengths of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider">MBN_PROVIDER</a> members.
 
 
 ## -enum-fields
@@ -59,10 +59,10 @@ The <b>MBN_PROVIDER_CONSTANTS</b> enumerated type contains values that define th
 
 ### -field MBN_PROVIDERNAME_LEN
 
-The maximum length of the <b>providerName</b> member of the <a href="https://msdn.microsoft.com/f4a02ca2-6be4-4843-a657-5d5dde8be623">MBN_PROVIDER</a> structure.
+The maximum length of the <b>providerName</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider">MBN_PROVIDER</a> structure.
 
 
 ### -field MBN_PROVIDERID_LEN
 
-The maximum length of the <b>providerID</b> member of the <a href="https://msdn.microsoft.com/f4a02ca2-6be4-4843-a657-5d5dde8be623">MBN_PROVIDER</a> structure.
+The maximum length of the <b>providerID</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider">MBN_PROVIDER</a> structure.
 

@@ -61,13 +61,13 @@ The
 ### -param *Arg
 
 Pointer to a user-defined argument to the user-supplied encryption key acquisition function. The RPC run-time library uses the <i>Arg</i> parameter supplied to 
-<a href="https://msdn.microsoft.com/b7a7b57e-540b-460b-9eec-6246cc1fd9d3">RpcServerRegisterAuthInfo</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterauthinfo">RpcServerRegisterAuthInfo</a>.
 
 
 ### -param ServerPrincName
 
 Pointer to the principal name to use for the server when authenticating remote procedure calls. The RPC run-time library uses the <i>ServerPrincName</i> parameter supplied to 
-<a href="https://msdn.microsoft.com/b7a7b57e-540b-460b-9eec-6246cc1fd9d3">RpcServerRegisterAuthInfo</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterauthinfo">RpcServerRegisterAuthInfo</a>.
 
 
 ### -param KeyVer
@@ -113,7 +113,7 @@ An authorization key–retrieval function specifies the address of a server-appl
 
 
 
-<a href="https://msdn.microsoft.com/b7a7b57e-540b-460b-9eec-6246cc1fd9d3">RpcServerRegisterAuthInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterauthinfo">RpcServerRegisterAuthInfo</a>
  
 
  

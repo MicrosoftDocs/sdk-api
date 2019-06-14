@@ -64,15 +64,15 @@ Specifies the requested state variable value.
 
 ### -param pAsyncResult [in, optional]
 
-Pointer  to a <a href="https://msdn.microsoft.com/53854510-BB0C-41E6-8651-F34991B24D5E">IUPnPAsyncResult</a> object. When the <b>BeginQueryStateVariable</b> call is complete, 
-	UPnP will use the <a href="https://msdn.microsoft.com/C71C0A78-C3D1-4725-99E2-542786B03C8F">IUPnPAsyncResult::AsyncOperationComplete</a> method to notify the control 
+Pointer  to a <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpasyncresult">IUPnPAsyncResult</a> object. When the <b>BeginQueryStateVariable</b> call is complete, 
+	UPnP will use the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpasyncresult-asyncoperationcomplete">IUPnPAsyncResult::AsyncOperationComplete</a> method to notify the control 
 	point.
 
 
 
 ### -param pullRequestID [out]
 
-Pointer to a 64-bit <b>ULONG</b> value used to identify the asynchronous I/O operation. The UPnP control point must use this handle when ending or cancelling this  operation with <a href="https://msdn.microsoft.com/82AAB2C4-46A9-4545-95E1-887841735815">EndQueryStateVariable</a>.
+Pointer to a 64-bit <b>ULONG</b> value used to identify the asynchronous I/O operation. The UPnP control point must use this handle when ending or cancelling this  operation with <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-endquerystatevariable">EndQueryStateVariable</a>.
 
 
 ## -returns
@@ -111,7 +111,7 @@ The requested state variable, indicated by <i>bstrVariableName</i>, does not exi
 </table>
  
 
-<div class="alert"><b>Note</b>  Some values can indicate that an error was received from a UPnP-certified device. For more information, see <a href="https://msdn.microsoft.com/4b18a5d4-f6e8-4670-93dd-ecd012940000">Device Error Codes</a>.</div>
+<div class="alert"><b>Note</b>  Some values can indicate that an error was received from a UPnP-certified device. For more information, see <a href="https://docs.microsoft.com/windows/desktop/UPnP/device-error-codes">Device Error Codes</a>.</div>
 <div> </div>
 
 
@@ -132,11 +132,11 @@ Event subscription should be completed before querying any evented state variabl
 
 
 
-<a href="https://msdn.microsoft.com/B77025D6-26C7-46C9-84FE-69685C61735D">IUPnPServiceAsync</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpserviceasync">IUPnPServiceAsync</a>
 
 
 
-<a href="https://msdn.microsoft.com/FBEC2DF3-6D45-49F2-AAA8-6DED697BC5A6">IUPnPServiceAsync::CancelAsyncOperation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-cancelasyncoperation">IUPnPServiceAsync::CancelAsyncOperation</a>
  
 
  

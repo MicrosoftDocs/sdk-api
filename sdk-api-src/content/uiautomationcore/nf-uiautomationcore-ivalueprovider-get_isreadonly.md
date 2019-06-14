@@ -62,8 +62,8 @@ This property is read-only.
 
 
 
-A control should have its IsEnabled property (<a href="https://msdn.microsoft.com/en-us/library/Ee684017(v=VS.85).aspx">UIA_IsEnabledPropertyId</a>) set to <b>TRUE</b> and its <b>IValueProvider::IsReadOnly</b> 
-            property set to <b>FALSE</b> before allowing a call to <a href="https://msdn.microsoft.com/af555ac6-5abd-4019-804b-68f9ed3be801">IValueProvider::SetValue</a>.
+A control should have its IsEnabled property (<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-automation-element-propids">UIA_IsEnabledPropertyId</a>) set to <b>TRUE</b> and its <b>IValueProvider::IsReadOnly</b> 
+            property set to <b>FALSE</b> before allowing a call to <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ivalueprovider-setvalue">IValueProvider::SetValue</a>.
         
 
 
@@ -74,11 +74,11 @@ A control should have its IsEnabled property (<a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/e6adbc23-dbfe-4dd2-82d9-66ce16de3338">IValueProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-ivalueprovider">IValueProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/8928c889-0e0a-439f-87e8-a9d121fcf73f">UI Automation Providers Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
  
 
  

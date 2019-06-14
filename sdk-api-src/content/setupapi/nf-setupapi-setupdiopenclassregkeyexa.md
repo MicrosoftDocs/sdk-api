@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SetupDiOpenClassRegKeyEx</b> function opens the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552344">device setup class</a> registry key, the <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a> registry key, or a specific class's subkey. This function opens the specified key on the local computer or on a remote computer.
+The <b>SetupDiOpenClassRegKeyEx</b> function opens the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">device setup class</a> registry key, the <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a> registry key, or a specific class's subkey. This function opens the specified key on the local computer or on a remote computer.
 
 
 ## -parameters
@@ -126,11 +126,11 @@ Callers of this function must close the handle returned from this function by ca
 
 
 
-<a href="https://msdn.microsoft.com/1be942a1-428d-4cc4-bc9f-9f21243c3d21">SetupDiCreateDeviceInterfaceRegKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinterfaceregkeya">SetupDiCreateDeviceInterfaceRegKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/ffa435c8-4a73-454e-be36-cd90ba6e6d11">SetupDiOpenDevRegKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiopendevregkey">SetupDiOpenDevRegKey</a>
  
 
  

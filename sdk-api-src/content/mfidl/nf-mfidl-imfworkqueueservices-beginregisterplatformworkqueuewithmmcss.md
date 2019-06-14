@@ -61,7 +61,7 @@ Associates a platform work queue with a Multimedia Class Scheduler Service (MMCS
 
 ### -param dwPlatformWorkQueue [in]
 
-The platform work queue to register with MMCSS. See <a href="https://msdn.microsoft.com/c769f876-83ca-4b04-a054-22fa7146310e">Work Queue Identifiers</a>.
+The platform work queue to register with MMCSS. See <a href="https://docs.microsoft.com/windows/desktop/medfound/work-queue-identifiers">Work Queue Identifiers</a>.
           To register all of the standard work queues to the same MMCSS task, set this parameter to <b>MFASYNC_CALLBACK_QUEUE_ALL</b>.
 
 
@@ -79,7 +79,7 @@ The unique task identifier. To obtain a new task identifier, set this value to z
 
 ### -param pCallback [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/7edff985-da59-4cc0-96de-1a92e03a7d41">IMFAsyncCallback</a> interface of a callback object. The caller must implement this interface.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface of a callback object. The caller must implement this interface.
           
 
 
@@ -102,9 +102,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method is asynchronous. When the operation completes, the callback object's <a href="https://msdn.microsoft.com/22473605-637e-4783-a8cb-98248b0a0327">IMFAsyncCallback::Invoke</a> method is called. At that point, the application should call <a href="https://msdn.microsoft.com/b9d65d6c-495a-4ca0-b0fd-0a4199e2a7d5">IMFWorkQueueServices::EndRegisterPlatformWorkQueueWithMMCSS</a> to complete the asynchronous request.
+This method is asynchronous. When the operation completes, the callback object's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method is called. At that point, the application should call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-endregisterplatformworkqueuewithmmcss">IMFWorkQueueServices::EndRegisterPlatformWorkQueueWithMMCSS</a> to complete the asynchronous request.
 
-To unregister the work queue from the MMCSS class, call <a href="https://msdn.microsoft.com/e15c6ff9-b72e-4e5d-a738-6bef08782e1b">IMFWorkQueueServices::BeginUnregisterPlatformWorkQueueWithMMCSS</a>.
+To unregister the work queue from the MMCSS class, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-beginunregisterplatformworkqueuewithmmcss">IMFWorkQueueServices::BeginUnregisterPlatformWorkQueueWithMMCSS</a>.
 
 
 
@@ -114,7 +114,7 @@ To unregister the work queue from the MMCSS class, call <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/7a6ddb67-9a8c-408c-b750-4f3fd3ba0d7d">IMFWorkQueueServices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservices">IMFWorkQueueServices</a>
  
 
  

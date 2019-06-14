@@ -57,7 +57,7 @@ The <b>IWMRegisteredDevice</b> interface is the primary interface of the registe
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMRegisteredDevice</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMRegisteredDevice</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMRegisteredDevice</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMRegisteredDevice</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IWMRegisteredDevice</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743624(v=VS.85).aspx">Approve</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistereddevice-approve">Approve</a>
 </td>
 <td align="left" width="63%">
 Sets the device approval state, which controls whether a device is approved for receiving media data.
@@ -81,7 +81,7 @@ Sets the device approval state, which controls whether a device is approved for 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743627(v=VS.85).aspx">Close</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistereddevice-close">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the device, if opened, and releases associated resources.
@@ -90,7 +90,7 @@ Closes the device, if opened, and releases associated resources.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/02a582d4-329e-47e3-9dbe-dba8a3e4b4b3">GetAttributeByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistereddevice-getattributebyindex">GetAttributeByIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves an attribute that is associated with the device. This method uses the attribute index to identify the attribute to retrieve.
@@ -99,7 +99,7 @@ Retrieves an attribute that is associated with the device. This method uses the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743632(v=VS.85).aspx">GetAttributeByName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistereddevice-getattributebyname">GetAttributeByName</a>
 </td>
 <td align="left" width="63%">
 Retrieves an attribute that is associated with the device. This method uses the attribute name to identify the attribute to retrieve.
@@ -108,7 +108,7 @@ Retrieves an attribute that is associated with the device. This method uses the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743633(v=VS.85).aspx">GetAttributeCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistereddevice-getattributecount">GetAttributeCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of attributes that are associated with the device.
@@ -117,7 +117,7 @@ Retrieves the number of attributes that are associated with the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743636(v=VS.85).aspx">GetDeviceCertificate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistereddevice-getdevicecertificate">GetDeviceCertificate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the certificate of the device.
@@ -126,7 +126,7 @@ Retrieves the certificate of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743691(v=VS.85).aspx">GetDeviceSerialNumber</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistereddevice-getdeviceserialnumber">GetDeviceSerialNumber</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device identification number.
@@ -135,7 +135,7 @@ Retrieves the device identification number.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743692(v=VS.85).aspx">GetDeviceType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistereddevice-getdevicetype">GetDeviceType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of the device.
@@ -144,7 +144,7 @@ Retrieves the type of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743693(v=VS.85).aspx">IsApproved</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistereddevice-isapproved">IsApproved</a>
 </td>
 <td align="left" width="63%">
 Returns the device approval state, which determines if a device is approved for receiving media data.
@@ -153,7 +153,7 @@ Returns the device approval state, which determines if a device is approved for 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743694(v=VS.85).aspx">IsOpened</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistereddevice-isopened">IsOpened</a>
 </td>
 <td align="left" width="63%">
 Returns whether the device is open for receiving media data.
@@ -162,7 +162,7 @@ Returns whether the device is open for receiving media data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743695(v=VS.85).aspx">IsValid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistereddevice-isvalid">IsValid</a>
 </td>
 <td align="left" width="63%">
 Returns the validation of the device.
@@ -171,7 +171,7 @@ Returns the validation of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743696(v=VS.85).aspx">IsWmdrmCompliant</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistereddevice-iswmdrmcompliant">IsWmdrmCompliant</a>
 </td>
 <td align="left" width="63%">
 Returns whether the device supports Windows Media DRM 10 for Network Devices.
@@ -180,7 +180,7 @@ Returns whether the device supports Windows Media DRM 10 for Network Devices.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743697(v=VS.85).aspx">Open</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistereddevice-open">Open</a>
 </td>
 <td align="left" width="63%">
 Opens the device to receive media data.
@@ -189,7 +189,7 @@ Opens the device to receive media data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743698(v=VS.85).aspx">SetAttributeByName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistereddevice-setattributebyname">SetAttributeByName</a>
 </td>
 <td align="left" width="63%">
 Sets an attribute associated with the device.
@@ -204,11 +204,11 @@ Sets an attribute associated with the device.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743357(v=VS.85).aspx">IWMDeviceRegistration Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdeviceregistration">IWMDeviceRegistration Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/c61a0739-09f2-497f-a2cd-d3f2472738e3">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
  
 
  

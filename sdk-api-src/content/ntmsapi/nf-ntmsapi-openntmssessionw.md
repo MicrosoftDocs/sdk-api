@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<a href="https://msdn.microsoft.com/af7186f8-7921-48e3-a4fd-23259a6e9018">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>OpenNtmsSession</b> function sets up a session with a RSM server.
@@ -83,7 +83,7 @@ Reserved; must be zero.
 
 If 
 <b>OpenNtmsSession</b> succeeds, it returns a handle that uniquely identifies this session. If the function fails, it returns INVALID_HANDLE_VALUE. To retrieve more information, call the 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function. This function can return one of the following values.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. This function can return one of the following values.
 
 <table>
 <tr>
@@ -204,11 +204,11 @@ Sessions are thread-safe but cannot be passed among processes.
 
 
 
-<a href="https://msdn.microsoft.com/54bc354a-fdef-4642-8e53-cf20ed374000">CloseNtmsSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-closentmssession">CloseNtmsSession</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Session Management Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Session Management Functions</a>
  
 
  

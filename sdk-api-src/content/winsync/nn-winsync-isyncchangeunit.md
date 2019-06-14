@@ -55,7 +55,7 @@ Represents a change to a change unit that is contained in an item.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncChangeUnit</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISyncChangeUnit</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncChangeUnit</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncChangeUnit</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ISyncChangeUnit</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/956f2d51-3b14-4bbd-8a29-6d63aa3c344f">GetChangeUnitId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangeunit-getchangeunitid">GetChangeUnitId</a>
 </td>
 <td align="left" width="63%">
 Gets the change unit ID.
@@ -80,7 +80,7 @@ Gets the change unit ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b40ec132-0459-4ddf-9156-bce2a1dfbc4d">GetChangeUnitVersion</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangeunit-getchangeunitversion">GetChangeUnitVersion</a>
 </td>
 <td align="left" width="63%">
 Gets the version for the change unit change.
@@ -90,7 +90,7 @@ Gets the version for the change unit change.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d28b4eb0-ddd2-4abf-9183-4d39b728923b">GetItemChange</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangeunit-getitemchange">GetItemChange</a>
 </td>
 <td align="left" width="63%">
 Gets the item change that contains this change unit change.
@@ -106,7 +106,7 @@ Gets the item change that contains this change unit change.
 
 
 
-<a href="https://msdn.microsoft.com/2c185fe2-1bbe-4409-aea0-6e138430b304">Windows Sync Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
- The <b>EAP_CONFIG_INPUT_FIELD_ARRAY</b> structure contains a set of <a href="https://msdn.microsoft.com/2b321f26-fb40-44e5-b483-52d85cb54c8c">EAP_CONFIG_INPUT_FIELD_DATA</a>   structures that collectively contain the user input field data obtained from the user.
+ The <b>EAP_CONFIG_INPUT_FIELD_ARRAY</b> structure contains a set of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_config_input_field_data">EAP_CONFIG_INPUT_FIELD_DATA</a>   structures that collectively contain the user input field data obtained from the user.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ ms.custom: 19H1
 
 ### -field dwVersion
 
-The version of the <a href="https://msdn.microsoft.com/2b321f26-fb40-44e5-b483-52d85cb54c8c">EAP_CONFIG_INPUT_FIELD_DATA</a>   structures pointed to by  <b>pFields</b>.
+The version of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_config_input_field_data">EAP_CONFIG_INPUT_FIELD_DATA</a>   structures pointed to by  <b>pFields</b>.
 
 <table>
 <tr>
@@ -98,7 +98,7 @@ The version of the EAP credentials supplied by the user.
 
 ### -field pFields
 
-Pointer to an array of <a href="https://msdn.microsoft.com/2b321f26-fb40-44e5-b483-52d85cb54c8c">EAP_CONFIG_INPUT_FIELD_DATA</a> structures that contain specific user input data obtained from an EAP configuration dialog box.
+Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_config_input_field_data">EAP_CONFIG_INPUT_FIELD_DATA</a> structures that contain specific user input data obtained from an EAP configuration dialog box.
 
 
 #### - dwSize
@@ -120,11 +120,11 @@ The <b>EAP_CONFIG_INPUT_FIELD_ARRAY</b> structure can be employed to support Sin
 
 
 
-<a href="https://msdn.microsoft.com/2b321f26-fb40-44e5-b483-52d85cb54c8c">EAP_CONFIG_INPUT_FIELD_DATA</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_config_input_field_data">EAP_CONFIG_INPUT_FIELD_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/126ef6cc-aa65-4770-b81a-82d25213618c">SSO and PLAP</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/understanding-sso-and-plap">SSO and PLAP</a>
  
 
  

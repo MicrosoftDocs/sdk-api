@@ -60,7 +60,7 @@ Defines an explicit piecewise curve made up of linear segments, directly definin
 ### -field pPoints
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419056(v=VS.85).aspx">X3DAUDIO_DISTANCE_CURVE_POINT</a> array. The array must have no duplicates and be sorted in ascending order with respect to distance.
+<a href="https://docs.microsoft.com/windows/desktop/api/x3daudio/ns-x3daudio-x3daudio_distance_curve_point">X3DAUDIO_DISTANCE_CURVE_POINT</a> array. The array must have no duplicates and be sorted in ascending order with respect to distance.
 
 
 ### -field PointCount
@@ -83,7 +83,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/3656aaf9-7a3a-2a5b-50f5-d279ce8a9e6c">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/structures">Structures</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The DISPLAYCONFIG_MODE_INFO_TYPE enumeration specifies that the information that is contained within the <a href="https://msdn.microsoft.com/39ffe49b-96d3-4d8b-94a7-01c388448b82">DISPLAYCONFIG_MODE_INFO</a> structure is either source or target mode.
+The DISPLAYCONFIG_MODE_INFO_TYPE enumeration specifies that the information that is contained within the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_mode_info">DISPLAYCONFIG_MODE_INFO</a> structure is either source or target mode.
 
 
 ## -enum-fields
@@ -59,17 +59,17 @@ The DISPLAYCONFIG_MODE_INFO_TYPE enumeration specifies that the information that
 
 ### -field DISPLAYCONFIG_MODE_INFO_TYPE_SOURCE
 
-Indicates that the <a href="https://msdn.microsoft.com/39ffe49b-96d3-4d8b-94a7-01c388448b82">DISPLAYCONFIG_MODE_INFO</a> structure contains source mode information.
+Indicates that the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_mode_info">DISPLAYCONFIG_MODE_INFO</a> structure contains source mode information.
 
 
 ### -field DISPLAYCONFIG_MODE_INFO_TYPE_TARGET
 
-Indicates that the <a href="https://msdn.microsoft.com/39ffe49b-96d3-4d8b-94a7-01c388448b82">DISPLAYCONFIG_MODE_INFO</a> structure contains target mode information.
+Indicates that the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_mode_info">DISPLAYCONFIG_MODE_INFO</a> structure contains target mode information.
 
 
 ### -field DISPLAYCONFIG_MODE_INFO_TYPE_DESKTOP_IMAGE
 
-Indicates that the <a href="https://msdn.microsoft.com/39ffe49b-96d3-4d8b-94a7-01c388448b82">DISPLAYCONFIG_MODE_INFO</a> structure contains a valid <a href="https://msdn.microsoft.com/2DACA175-19BC-4192-A2FF-CB8AC7220B98">DISPLAYCONFIG_DESKTOP_IMAGE_INFO</a> structure. Supported starting in Windows 10.
+Indicates that the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_mode_info">DISPLAYCONFIG_MODE_INFO</a> structure contains a valid <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_desktop_image_info">DISPLAYCONFIG_DESKTOP_IMAGE_INFO</a> structure. Supported starting in Windows 10.
 
 
 ### -field DISPLAYCONFIG_MODE_INFO_TYPE_FORCE_UINT32
@@ -82,7 +82,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 
 
-<a href="https://msdn.microsoft.com/39ffe49b-96d3-4d8b-94a7-01c388448b82">DISPLAYCONFIG_MODE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_mode_info">DISPLAYCONFIG_MODE_INFO</a>
  
 
  

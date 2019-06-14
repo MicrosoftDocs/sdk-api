@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains flags that specify how a DDE server application should send data to a client application during an advise loop. A client passes a handle to a <b>DDEADVISE</b> structure to a server as part of a <a href="https://msdn.microsoft.com/en-us/library/ms648993(v=VS.85).aspx">WM_DDE_ADVISE</a> message. 
+Contains flags that specify how a DDE server application should send data to a client application during an advise loop. A client passes a handle to a <b>DDEADVISE</b> structure to a server as part of a <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-advise">WM_DDE_ADVISE</a> message. 
 
 
 ## -struct-fields
@@ -68,14 +68,14 @@ Reserved.
 
 Type: <b>unsigned short</b>
 
-Indicates whether the server should defer sending updated data to the client. If this value is nonzero, the server should send a <a href="https://msdn.microsoft.com/en-us/library/ms648994(v=VS.85).aspx">WM_DDE_DATA</a> message with a <b>NULL</b> data handle whenever the data item changes. In response, the client can post a <a href="https://msdn.microsoft.com/en-us/library/ms648998(v=VS.85).aspx">WM_DDE_REQUEST</a> message to the server to get a handle to the updated data. 
+Indicates whether the server should defer sending updated data to the client. If this value is nonzero, the server should send a <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-data">WM_DDE_DATA</a> message with a <b>NULL</b> data handle whenever the data item changes. In response, the client can post a <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-request">WM_DDE_REQUEST</a> message to the server to get a handle to the updated data. 
 
 
 ### -field fAckReq
 
 Type: <b>short</b>
 
-Indicates whether the server should set the <b>fAckReq</b> flag in the <a href="https://msdn.microsoft.com/en-us/library/ms648994(v=VS.85).aspx">WM_DDE_DATA</a> messages it posts to the client. If this value is nonzero, the server should set the <b>fAckReq</b> bit. 
+Indicates whether the server should set the <b>fAckReq</b> flag in the <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-data">WM_DDE_DATA</a> messages it posts to the client. If this value is nonzero, the server should set the <b>fAckReq</b> bit. 
 
 
 ### -field usFlags
@@ -152,7 +152,7 @@ The client application's preferred data format. The format must be a standard or
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648774(v=VS.85).aspx">About Dynamic Data Exchange</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/about-dynamic-data-exchange">About Dynamic Data Exchange</a>
 
 
 
@@ -164,15 +164,15 @@ The client application's preferred data format. The format must be a standard or
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648993(v=VS.85).aspx">WM_DDE_ADVISE</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-advise">WM_DDE_ADVISE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648994(v=VS.85).aspx">WM_DDE_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-data">WM_DDE_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649002(v=VS.85).aspx">WM_DDE_UNADVISE</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-unadvise">WM_DDE_UNADVISE</a>
  
 
  

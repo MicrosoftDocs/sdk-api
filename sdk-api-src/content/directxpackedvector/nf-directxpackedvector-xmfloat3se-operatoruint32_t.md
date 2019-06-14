@@ -53,7 +53,7 @@ Returns an instance of <code>uint32_t</code> containing the components of the
 <code>XMFLOAT3SE</code> instance in a packed format.
 
 This operator returns an instance of <code>uint32_t</code> containing the components of the
-    <a href="https://msdn.microsoft.com/en-us/library/Ee419489(v=VS.85).aspx">XMFLOAT3SE</a> instance in a packed format.
+    <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3se">XMFLOAT3SE</a> instance in a packed format.
 
 <div class="alert"><b>Note</b>  This operator is only available under C++.</div><div> </div>
 
@@ -134,11 +134,11 @@ Bits 27-31 of the return value are the 5 bit <i>exponent</i> used
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419489(v=VS.85).aspx">XMFLOAT3SE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3se">XMFLOAT3SE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415287(v=VS.85).aspx">XMFLOAT3SE Operators</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmfloat3se-operators">XMFLOAT3SE Operators</a>
  
 
  

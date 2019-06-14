@@ -89,7 +89,7 @@ If <i>DescLayout</i> is <b>D3D12_ELEMENTS_LAYOUT_ARRAY</b>, <i>InstanceDescs</i>
 
 If <i>DescLayout</i> is <b>D3D12_ELEMENTS_LAYOUT_ARRAY_OF_POINTERS</b>, <i>InstanceDescs</i> points to an array in GPU memory of <a href="https://docs.microsoft.com/en-us/windows/desktop/direct3d12/d3d12_gpu_virtual_address">D3D12_GPU_VIRTUAL_ADDRESS</a> pointers to instance descriptions. 
 
-The memory pointed to must be in state <a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE</a>.
+The memory pointed to must be in state <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE</a>.
 
 
 ### -field pGeometryDescs

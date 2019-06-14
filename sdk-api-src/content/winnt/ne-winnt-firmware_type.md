@@ -82,7 +82,7 @@ Not implemented.
 
 
 
-<a href="https://msdn.microsoft.com/db1f6889-067a-4a5d-bbfa-5836287d08ca">GetFirmwareType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfirmwaretype">GetFirmwareType</a>
  
 
  

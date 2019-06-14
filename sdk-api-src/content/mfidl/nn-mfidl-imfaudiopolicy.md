@@ -52,12 +52,12 @@ ms.custom: 19H1
 
 Configures the audio session that is associated with the streaming audio renderer (SAR). Use this interface to change how the audio session appears in the Windows volume control.
 
-The SAR exposes this interface as a service. To get a pointer to the interface, call <a href="https://msdn.microsoft.com/4287dd1f-1718-4231-bc62-b58e0e61d688">IMFGetService::GetService</a> with the service identifier MR_AUDIO_POLICY_SERVICE. You can call <b>GetService</b> directly on the SAR or call it on the Media Session.
+The SAR exposes this interface as a service. To get a pointer to the interface, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> with the service identifier MR_AUDIO_POLICY_SERVICE. You can call <b>GetService</b> directly on the SAR or call it on the Media Session.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFAudioPolicy</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFAudioPolicy</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFAudioPolicy</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFAudioPolicy</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMFAudioPolicy</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7826b4a1-5887-46a5-b312-91159596ccf5">GetDisplayName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfaudiopolicy-getdisplayname">GetDisplayName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the display name of the audio session.
@@ -81,7 +81,7 @@ Retrieves the display name of the audio session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/725892fd-4af6-483d-bb5c-87051fa45ec4">GetGroupingParam</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfaudiopolicy-getgroupingparam">GetGroupingParam</a>
 </td>
 <td align="left" width="63%">
 Retrieves the group of sessions to which this audio session belongs.
@@ -90,7 +90,7 @@ Retrieves the group of sessions to which this audio session belongs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f2114f15-4357-4b5a-b384-695165d887de">GetIconPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfaudiopolicy-geticonpath">GetIconPath</a>
 </td>
 <td align="left" width="63%">
 Retrieves the icon resource for the audio session.
@@ -99,7 +99,7 @@ Retrieves the icon resource for the audio session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4cd48400-8d12-4a6b-95fd-bf6ae7700cb8">SetDisplayName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfaudiopolicy-setdisplayname">SetDisplayName</a>
 </td>
 <td align="left" width="63%">
 Sets the display name of the audio session.
@@ -108,7 +108,7 @@ Sets the display name of the audio session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2c024208-f13f-4fd1-b5a8-b881af226670">SetGroupingParam</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfaudiopolicy-setgroupingparam">SetGroupingParam</a>
 </td>
 <td align="left" width="63%">
 Assigns the audio session to a group of sessions.
@@ -117,7 +117,7 @@ Assigns the audio session to a group of sessions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/098ad6ae-b1fe-4e74-b494-572770906b14">SetIconPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfaudiopolicy-seticonpath">SetIconPath</a>
 </td>
 <td align="left" width="63%">
 Sets the icon resource for the audio session.
@@ -132,11 +132,11 @@ Sets the icon resource for the audio session.
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/5884a128-597d-432b-a706-e10c894d7965">Streaming Audio Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/streaming-audio-renderer">Streaming Audio Renderer</a>
  
 
  

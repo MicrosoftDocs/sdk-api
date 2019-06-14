@@ -109,7 +109,7 @@ The return value specifies the type of the region that the function obtains. It 
 
 The window region determines the area within the window where the system permits drawing. The system does not display any portion of a window that lies outside of the window region. The coordinates of a window's window region are relative to the upper-left corner of the window, not the client area of the window.
 
-To set the window region of a window, call the <a href="https://msdn.microsoft.com/06209d0c-14f9-45ec-ae2c-9cc596b5bbaa">SetWindowRgn</a> function.
+To set the window region of a window, call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowrgn">SetWindowRgn</a> function.
 
 
 
@@ -119,19 +119,19 @@ To set the window region of a window, call the <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/b4ee68ab-b99e-48b6-90ce-6d6c0ae144e2">GetClipBox</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getclipbox">GetClipBox</a>
 
 
 
-<a href="https://msdn.microsoft.com/c8a8fa46-354b-489e-b016-fd2e728958ce">GetWindowRgn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowrgn">GetWindowRgn</a>
 
 
 
-<a href="https://msdn.microsoft.com/ec18323e-c13b-4328-83bf-9e4ed4a712b8">Painting and Drawing Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e6034af-4dea-4579-b476-52f6dd3d5bc7">Painting and Drawing Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
 
 
 
@@ -139,7 +139,7 @@ To set the window region of a window, call the <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/06209d0c-14f9-45ec-ae2c-9cc596b5bbaa">SetWindowRgn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowrgn">SetWindowRgn</a>
  
 
  

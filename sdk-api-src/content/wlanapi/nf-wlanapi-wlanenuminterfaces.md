@@ -60,7 +60,7 @@ The <b>WlanEnumInterfaces</b> function enumerates all of the wireless LAN interf
 
 ### -param hClientHandle [in]
 
-The client's session handle, obtained by a previous call to the <a href="https://msdn.microsoft.com/27bfa0c1-4443-47a4-a374-326f553fa3bb">WlanOpenHandle</a> function.
+The client's session handle, obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
 
 
 ### -param pReserved [in]
@@ -70,9 +70,9 @@ Reserved for future use. This parameter must be set to <b>NULL</b>.
 
 ### -param ppInterfaceList [out]
 
-A pointer to storage for a pointer to receive the returned list of wireless LAN interfaces in a <a href="https://msdn.microsoft.com/c57f4658-9f1e-4b05-a298-38a064121bb3">WLAN_INTERFACE_INFO_LIST</a> structure.
+A pointer to storage for a pointer to receive the returned list of wireless LAN interfaces in a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_interface_info_list">WLAN_INTERFACE_INFO_LIST</a> structure.
 
-The buffer for the <a href="https://msdn.microsoft.com/c57f4658-9f1e-4b05-a298-38a064121bb3">WLAN_INTERFACE_INFO_LIST</a> returned is allocated by the <b>WlanEnumInterfaces</b> function if the call succeeds.
+The buffer for the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_interface_info_list">WLAN_INTERFACE_INFO_LIST</a> returned is allocated by the <b>WlanEnumInterfaces</b> function if the call succeeds.
 
 
 ## -returns
@@ -142,13 +142,13 @@ Not enough memory is available to process this request and allocate memory for t
 
 
 
-The <b>WlanEnumInterfaces</b> function allocates memory for the list of returned interfaces that is returned in the buffer pointed to by the <i>ppInterfaceList</i> parameter when the function succeeds. The memory used for the buffer pointed to by <i>ppInterfaceList</i> parameter should be released by calling the <a href="https://msdn.microsoft.com/241afb9d-8b16-4d76-b311-302b5492853e">WlanFreeMemory</a> function after the buffer is no longer needed.
+The <b>WlanEnumInterfaces</b> function allocates memory for the list of returned interfaces that is returned in the buffer pointed to by the <i>ppInterfaceList</i> parameter when the function succeeds. The memory used for the buffer pointed to by <i>ppInterfaceList</i> parameter should be released by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a> function after the buffer is no longer needed.
 
 
 
 #### Examples
 
-The following example enumerates the wireless LAN interfaces on the local computer and prints values from the retrieved <a href="https://msdn.microsoft.com/c57f4658-9f1e-4b05-a298-38a064121bb3">WLAN_INTERFACE_INFO_LIST</a> structure and the enumerated <a href="https://msdn.microsoft.com/906e7d59-ebd0-47e7-985e-f5d313f19ecb">WLAN_INTERFACE_INFO</a> structures.
+The following example enumerates the wireless LAN interfaces on the local computer and prints values from the retrieved <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_interface_info_list">WLAN_INTERFACE_INFO_LIST</a> structure and the enumerated <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_interface_info">WLAN_INTERFACE_INFO</a> structures.
 
 <div class="alert"><b>Note</b>  This example will fail to load on Windows Server 2008 and Windows Server 2008 R2 if the Wireless LAN Service is not installed and started.</div>
 <div> </div>
@@ -273,15 +273,15 @@ int wmain()
 
 
 
-<a href="https://msdn.microsoft.com/906e7d59-ebd0-47e7-985e-f5d313f19ecb">WLAN_INTERFACE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_interface_info">WLAN_INTERFACE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/c57f4658-9f1e-4b05-a298-38a064121bb3">WLAN_INTERFACE_INFO_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_interface_info_list">WLAN_INTERFACE_INFO_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/241afb9d-8b16-4d76-b311-302b5492853e">WlanFreeMemory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a>
  
 
  

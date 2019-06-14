@@ -59,7 +59,7 @@ The <b>IADsOptions.GetOption</b> method gets a provider-specific option for a di
 
 ### -param lnOption
 
-Indicates the provider-specific option to get. This parameter can be any value in the  <a href="https://msdn.microsoft.com/afb32e03-7e4e-4df9-87c7-db962d62e5f0">ADS_OPTION_ENUM</a> enumeration.
+Indicates the provider-specific option to get. This parameter can be any value in the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0077_0001">ADS_OPTION_ENUM</a> enumeration.
 
 
 ### -param pvValue
@@ -71,7 +71,7 @@ Pointer to a <b>VARIANT</b> variable that receives the current value for the opt
 
 
 
-The method supports the standard return values, including <b>S_OK</b> if the operation is successful, and <b>E_ADS_BAD_PARAMETER</b> if the user has supplied an invalid <i>pvValue</i> parameter. For more information, see  <a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>.
+The method supports the standard return values, including <b>S_OK</b> if the operation is successful, and <b>E_ADS_BAD_PARAMETER</b> if the user has supplied an invalid <i>pvValue</i> parameter. For more information, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 
 
@@ -81,15 +81,15 @@ The method supports the standard return values, including <b>S_OK</b> if the ope
 
 
 
-<a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/afb32e03-7e4e-4df9-87c7-db962d62e5f0">ADS_OPTION_ENUM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0077_0001">ADS_OPTION_ENUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/1884efe5-86f5-4579-a25e-2ff9c9a6ec2a">IADsObjectOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsobjectoptions">IADsObjectOptions</a>
  
 
  

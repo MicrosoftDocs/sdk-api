@@ -77,11 +77,11 @@ The transaction has been rolled back.
 
 
 
-<a href="https://msdn.microsoft.com/85a79698-a1ae-45a4-805e-25175034fa65">About KTM</a>
+<a href="https://docs.microsoft.com/windows/desktop/Ktm/about-ktm">About KTM</a>
 
 
 
-<a href="https://msdn.microsoft.com/6441fa83-1e60-4257-b1b2-41f87ce0dd85">KTM Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/Ktm/ktm-reference">KTM Reference</a>
  
 
  

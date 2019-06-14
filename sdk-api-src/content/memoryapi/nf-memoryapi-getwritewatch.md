@@ -83,7 +83,7 @@ To reset the write-tracking state, set this
 The base address of the memory region for which to retrieve write-tracking information. 
 
 This address must be in 
-      a memory region that is allocated by the <a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a> 
+      a memory region that is allocated by the <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> 
       function using <b>MEM_WRITE_WATCH</b>.
 
 
@@ -128,7 +128,7 @@ If the function fails, the return value is a nonzero value.
 
 
 
-When you call the <a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a> function 
+When you call the <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> function 
     to reserve or commit memory, you can specify <b>MEM_WRITE_WATCH</b>. This value causes the system to keep track of the 
     pages that are written to in the committed memory region. You can call the 
     <b>GetWriteWatch</b> function to retrieve the addresses of the 
@@ -136,7 +136,7 @@ When you call the <a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2
 
 To reset the write-tracking state, set the <b>WRITE_WATCH_FLAG_RESET</b> value in the 
     <i>dwFlags</i> parameter. Alternatively, you can call the 
-    <a href="https://msdn.microsoft.com/afbc5a58-01e2-4f32-bc47-351fe846e4a5">ResetWriteWatch</a> function to reset the write-tracking 
+    <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-resetwritewatch">ResetWriteWatch</a> function to reset the write-tracking 
     state. However, if you use <b>ResetWriteWatch</b>,  you must 
     ensure that no threads write to the region during the interval between the 
     <b>GetWriteWatch</b> and 
@@ -154,15 +154,15 @@ The <b>GetWriteWatch</b> function can be useful to
 
 
 
-<a href="https://msdn.microsoft.com/5a2a7a62-0bda-4a0d-93d2-25b4898871fd">Memory Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/afbc5a58-01e2-4f32-bc47-351fe846e4a5">ResetWriteWatch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-resetwritewatch">ResetWriteWatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>
  
 
  

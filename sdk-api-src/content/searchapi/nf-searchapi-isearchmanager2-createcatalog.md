@@ -59,16 +59,16 @@ Creates a new custom catalog in the Windows Search indexer and returns a referen
 
 ### -param pszCatalog [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCWSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
 
 Name of catalog to create. Can be any name selected by the caller, must contain only standard alphanumeric characters and underscore.
 
 
 ### -param ppCatalogManager [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb266414(v=VS.85).aspx">ISearchCatalogManager</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchcatalogmanager">ISearchCatalogManager</a>**</b>
 
-On success a reference to the created catalog is returned as an <a href="https://msdn.microsoft.com/en-us/library/Bb266414(v=VS.85).aspx">ISearchCatalogManager</a> interface pointer. The Release() must be called on this interface after the calling application has finished using it.
+On success a reference to the created catalog is returned as an <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchcatalogmanager">ISearchCatalogManager</a> interface pointer. The Release() must be called on this interface after the calling application has finished using it.
 
 
 ## -returns
@@ -120,7 +120,7 @@ FAILED HRESULT: Failure creating catalog or invalid arguments passed.
 
 
 Called to create a new catalog in the Windows Search indexer.
-After creation, the methods on the returned  <a href="https://msdn.microsoft.com/en-us/library/Bb266414(v=VS.85).aspx">ISearchCatalog</a> manager can be used to add locations to be indexed, monitor indexing process, and construct queries to send to the indexer and get results.
+After creation, the methods on the returned  <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchcatalogmanager">ISearchCatalog</a> manager can be used to add locations to be indexed, monitor indexing process, and construct queries to send to the indexer and get results.
 See the â€œManaging the Indexâ€ documentation for more info: http://msdn.microsoft.com/en-us/library/bb266516(VS.85).aspx 
 
 
@@ -132,7 +132,7 @@ See the â€œManaging the Indexâ€ documentation for more info: http://msd
 
 
 
-<a href="https://msdn.microsoft.com/EE08AC43-D2E9-4B70-BBA5-52E36DD7F9A1">ISearchManager2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchmanager2">ISearchManager2</a>
  
 
  

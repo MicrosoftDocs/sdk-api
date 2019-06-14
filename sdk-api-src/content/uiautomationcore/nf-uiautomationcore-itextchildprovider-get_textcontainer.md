@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves this element's nearest ancestor provider that supports the <a href="https://msdn.microsoft.com/4d541c31-11f7-4d7e-a0e0-9ed1da873d07">Text</a> control pattern. 
+Retrieves this element's nearest ancestor provider that supports the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingtextandtextrange">Text</a> control pattern. 
 
 This property is read-only.
 
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/370A772A-0AD9-4183-B316-CADC4FE117AE">ITextChildProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextchildprovider">ITextChildProvider</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The type of <a href="https://msdn.microsoft.com/1e7a708d-5dcf-44ec-b781-a34946cb2844">WS_XML_READER_INPUT</a> structure.
+The type of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_input">WS_XML_READER_INPUT</a> structure.
       
 
 

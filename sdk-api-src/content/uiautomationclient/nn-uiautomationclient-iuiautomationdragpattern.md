@@ -54,7 +54,7 @@ Provides access to information exposed by a UI Automation provider for an elemen
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationDragPattern</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUIAutomationDragPattern</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationDragPattern</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationDragPattern</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IUIAutomationDragPattern</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A3CB19E9-634D-4023-926E-BAA717DE4528">GetCachedGrabbedItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationdragpattern-getcachedgrabbeditems">GetCachedGrabbedItems</a>
 </td>
 <td align="left" width="63%">
 Retrieves a cached collection of elements that represent the full set of items that the user is dragging as part of a drag operation.  
@@ -79,7 +79,7 @@ Retrieves a cached collection of elements that represent the full set of items t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9311E1E3-FE4E-428F-9DAD-32AE347477EF">GetCurrentGrabbedItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationdragpattern-getcurrentgrabbeditems">GetCurrentGrabbedItems</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of elements that represent the full set of items that the user is dragging as part of a drag operation.  
@@ -97,7 +97,7 @@ Retrieves a collection of elements that represent the full set of items that the
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/A99F5E0F-FC61-4AD7-9DC8-B4B7B1AB2F6C">CachedDropEffect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationdragpattern-get_cacheddropeffect">CachedDropEffect</a>
 
 
 </td>
@@ -113,7 +113,7 @@ Retrieves a cached localized string that indicates what happens when the user dr
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/FDE2A5CA-1353-466E-A28C-E317059AEA54">CachedDropEffects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationdragpattern-get_cacheddropeffects">CachedDropEffects</a>
 
 
 </td>
@@ -129,7 +129,7 @@ Retrieves a cached array of localized strings that enumerate the  full set of ef
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/DA63B155-56FC-49EE-99EA-56288CC7F8E9">CachedIsGrabbed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationdragpattern-get_cachedisgrabbed">CachedIsGrabbed</a>
 
 
 </td>
@@ -147,7 +147,7 @@ Retrieves a cached value that indicates whether this element has been grabbed as
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8F5459DE-4BAA-412D-88E9-A81125150CAA">CurrentDropEffect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationdragpattern-get_currentdropeffect">CurrentDropEffect</a>
 
 
 </td>
@@ -163,7 +163,7 @@ Retrieves a localized string that indicates what happens when the user drops thi
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/393692C9-AA4E-4C50-8006-39457EB57153">CurrentDropEffects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationdragpattern-get_currentdropeffects">CurrentDropEffects</a>
 
 
 </td>
@@ -179,7 +179,7 @@ Retrieves an array of localized strings that enumerate the  full set of effects 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/4A528EA2-4E0D-458B-9EC1-ACF5964F0874">CurrentIsGrabbed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationdragpattern-get_currentisgrabbed">CurrentIsGrabbed</a>
 
 
 </td>
@@ -209,11 +209,11 @@ Microsoft UI Automation clients use this interface to access the dragging proper
 
 
 
-<a href="https://msdn.microsoft.com/14358ef0-aa54-42c1-a3da-0f835f5f5ef6">Control Pattern Interfaces for Clients</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>
 
 
 
-<a href="https://msdn.microsoft.com/FFF5A296-C9FF-4B47-AAF8-A9DD581D9DBE">UI Automation Support for Drag-and-Drop</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/ui-automation-support-for-drag-and-drop">UI Automation Support for Drag-and-Drop</a>
  
 
  

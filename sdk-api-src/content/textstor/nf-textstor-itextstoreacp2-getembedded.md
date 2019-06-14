@@ -77,7 +77,7 @@ Contains a GUID value that defines the requested format of the obtained object. 
 </dl>
 </td>
 <td width="60%">
-The object should be obtained as an <a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> object.
+The object should be obtained as an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object.
 
 </td>
 </tr>
@@ -87,7 +87,7 @@ The object should be obtained as an <a href="https://msdn.microsoft.com/en-us/li
 </dl>
 </td>
 <td width="60%">
-The object should be obtained as an <a href="https://msdn.microsoft.com/en-us/library/Dd317981(v=VS.85).aspx">Accessible object</a>.
+The object should be obtained as an <a href="https://docs.microsoft.com/windows/desktop/WinAuto/accessible-objects">Accessible object</a>.
 
 </td>
 </tr>
@@ -224,7 +224,7 @@ The service type specified in <i>rguidService</i> is unsupported.
 
 
 
-Use <a href="https://msdn.microsoft.com/82904a96-70ec-4ceb-a3c4-5d48c801a9ef">QueryInterface</a> to probe for appropriate interfaces. Prospective interfaces include those associated with embedded documents or controls such as <b>IOleObject</b> , <b>IDataObject</b> , <b>IViewObject</b> , <b>IPersistStorage</b> , <b>IOleCache</b> , or <b>IDispatch</b> .
+Use <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getembedded">QueryInterface</a> to probe for appropriate interfaces. Prospective interfaces include those associated with embedded documents or controls such as <b>IOleObject</b> , <b>IDataObject</b> , <b>IViewObject</b> , <b>IPersistStorage</b> , <b>IOleCache</b> , or <b>IDispatch</b> .
 
 
 
@@ -234,15 +234,15 @@ Use <a href="https://msdn.microsoft.com/82904a96-70ec-4ceb-a3c4-5d48c801a9ef">Qu
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd317981(v=VS.85).aspx">Accessible Objects</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/accessible-objects">Accessible Objects</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/c256f1c2-6b67-4417-8707-3490a2c5cb55">ITextStoreACP2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp2">ITextStoreACP2</a>
  
 
  

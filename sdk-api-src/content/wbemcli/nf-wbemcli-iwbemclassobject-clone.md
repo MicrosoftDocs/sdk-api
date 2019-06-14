@@ -78,7 +78,7 @@ A new object is not returned on error.
 
 
 
-This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>. For general <b>HRESULT</b> values, see <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>. For general <b>HRESULT</b> values, see <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -88,7 +88,7 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 
 
 Use this method to duplicate a class definition, or to duplicate an instance. This can be useful when the original copy of the object is required for backup purposes while a new copy is modified. Likewise, use this method to create many new instances from a single source instance. For example, use 
-<a href="https://msdn.microsoft.com/3f244c1b-60ed-41ff-8464-5ac66737a5da">IWbemClassObject::SpawnInstance</a> to create a single starting instance, and use 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-spawninstance">IWbemClassObject::SpawnInstance</a> to create a single starting instance, and use 
 <b>IWbemClassObject::Clone</b> to produce 100 copies of the instance quickly. Each object can be modified subsequently to take on its particular values.
 
 It is not possible to use this method to convert a class definition into an instance, or convert an instance into a class definition.

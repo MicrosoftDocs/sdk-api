@@ -80,7 +80,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<b>XAudio2CreateReverb</b> creates an effect performing Princeton Digital Reverb. The XAPO effect library (XAPOFX) includes an alternate reverb effect. Use <a href="https://msdn.microsoft.com/en-us/library/Hh405044(v=VS.85).aspx">CreateFX</a> to create this alternate effect.
+<b>XAudio2CreateReverb</b> creates an effect performing Princeton Digital Reverb. The XAPO effect library (XAPOFX) includes an alternate reverb effect. Use <a href="https://docs.microsoft.com/windows/desktop/api/xapofx/nf-xapofx-createfx">CreateFX</a> to create this alternate effect.
 
 
 
@@ -110,7 +110,7 @@ The reverb APO supports has the following restrictions:
 
 
 
-For information about creating new effects for use with XAudio2, see the <a href="https://msdn.microsoft.com/4fe88a0f-0234-462f-b575-e592f2c8401e">XAPO Overview</a>.
+For information about creating new effects for use with XAudio2, see the <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xapo-overview">XAPO Overview</a>.
 
 
 
@@ -120,7 +120,7 @@ For information about creating new effects for use with XAudio2, see the <a href
 </tr>
 <tr>
 <td>
-Because <b>XAudio2CreateReverb</b> calls <b>CoCreateInstance</b> on Windows, the application must have called the <b>CoInitializeEx</b> method before calling <b>XAudio2CreateReverb</b>. <a href="https://msdn.microsoft.com/en-us/library/Ee419212(v=VS.85).aspx">XAudio2Create</a> has the same requirement, which means <b>CoInitializeEx</b> typically will be called long before <b>XAudio2CreateReverb</b> is called.
+Because <b>XAudio2CreateReverb</b> calls <b>CoCreateInstance</b> on Windows, the application must have called the <b>CoInitializeEx</b> method before calling <b>XAudio2CreateReverb</b>. <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-xaudio2create">XAudio2Create</a> has the same requirement, which means <b>CoInitializeEx</b> typically will be called long before <b>XAudio2CreateReverb</b> is called.
 
 
 
@@ -153,9 +153,9 @@ The xaudio2fx.h header defines the <b>AudioReverb</b> class GUID as   a cross-pl
 
 <pre class="syntax" xml:space="preserve"><code>class __declspec(uuid("C2633B16-471B-4498-B8C5-4F0959E2EC09")) AudioReverb;
 </code></pre>
-<b>XAudio2CreateReverb</b> returns this object as a pointer to a pointer to <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> in the <i>ppApo</i> parameter. Although you can query the <a href="https://msdn.microsoft.com/en-us/library/Ee415893(v=VS.85).aspx">IXAPO</a> and <a href="https://msdn.microsoft.com/en-us/library/Ee415896(v=VS.85).aspx">IXAPOParameters</a> interfaces from this <b>IUnknown</b>, you typically never use these interfaces directly. Instead, you use them when you create a voice to add them as part of the effects chain. 
+<b>XAudio2CreateReverb</b> returns this object as a pointer to a pointer to <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> in the <i>ppApo</i> parameter. Although you can query the <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a> and <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nn-xapo-ixapoparameters">IXAPOParameters</a> interfaces from this <b>IUnknown</b>, you typically never use these interfaces directly. Instead, you use them when you create a voice to add them as part of the effects chain. 
 
-The reverb uses the <a href="https://msdn.microsoft.com/en-us/library/Ee419224(v=VS.85).aspx">XAUDIO2FX_REVERB_PARAMETERS</a> parameter structure that you access via the <a href="https://msdn.microsoft.com/en-us/library/Ee418595(v=VS.85).aspx">IXAudio2Voice::SetEffectParameters</a>. 
+The reverb uses the <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2fx/ns-xaudio2fx-xaudio2fx_reverb_parameters">XAUDIO2FX_REVERB_PARAMETERS</a> parameter structure that you access via the <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-seteffectparameters">IXAudio2Voice::SetEffectParameters</a>. 
 
 <div class="alert"><b>Note</b>  <b>XAudio2CreateReverb</b> is an inline function in xaudio2fx.h that calls <b>CreateAudioReverb</b>: <pre class="syntax" xml:space="preserve"><code>
 XAUDIO2FX_STDAPI CreateAudioReverb(_Outptr_ IUnknown** ppApo);
@@ -177,19 +177,19 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/4c33bd83-2654-cd6f-ea6c-bbc0d5872638">How to: Create an Effect Chain</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/how-to--create-an-effect-chain">How to: Create an Effect Chain</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee418595(v=VS.85).aspx">IXAudio2Voice::SetEffectParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-seteffectparameters">IXAudio2Voice::SetEffectParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419224(v=VS.85).aspx">XAUDIO2FX_REVERB_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2fx/ns-xaudio2fx-xaudio2fx_reverb_parameters">XAUDIO2FX_REVERB_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/870a0425-3226-7848-bcc0-0ba7145135cb">XAudio2 Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/functions">XAudio2 Functions</a>
  
 
  

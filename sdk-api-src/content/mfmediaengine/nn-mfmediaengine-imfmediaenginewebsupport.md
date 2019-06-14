@@ -54,7 +54,7 @@ Enables playback of web audio.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaEngineWebSupport</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFMediaEngineWebSupport</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaEngineWebSupport</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaEngineWebSupport</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFMediaEngineWebSupport</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E2470C2B-2E55-4B4F-B00F-03ABBB1A896F">ConnectWebAudio</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginewebsupport-connectwebaudio">ConnectWebAudio</a>
 </td>
 <td align="left" width="63%">
 Connects web audio to Media Engine using the specified sample rate.
@@ -78,7 +78,7 @@ Connects web audio to Media Engine using the specified sample rate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/04AE7972-B0F1-4C35-A5F4-88F0B85C99E7">DisconnectWebAudio</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginewebsupport-disconnectwebaudio">DisconnectWebAudio</a>
 </td>
 <td align="left" width="63%">
 Disconnects web audio from the Media Engine 
@@ -87,7 +87,7 @@ Disconnects web audio from the Media Engine
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/850ED4DC-1790-481E-A8CD-9F87F9E389EC">ShouldDelayTheLoadEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginewebsupport-shoulddelaytheloadevent">ShouldDelayTheLoadEvent</a>
 </td>
 <td align="left" width="63%">
 Gets a value indicating if the connecting to Web audio should delay the page's load event.

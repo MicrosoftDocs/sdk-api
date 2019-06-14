@@ -54,7 +54,7 @@ Use this interface for opening and closing the database object, and for instanti
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IITDatabase</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IITDatabase</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IITDatabase</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IITDatabase</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IITDatabase</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms670031(v=VS.85).aspx">Close</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nf-infotech-iitdatabase-close">Close</a>
 </td>
 <td align="left" width="63%">
 Closes a database.
@@ -80,7 +80,7 @@ Closes a database.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms670032(v=VS.85).aspx">CreateObject</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nf-infotech-iitdatabase-createobject">CreateObject</a>
 </td>
 <td align="left" width="63%">
 Creates an unnamed object you can reference in the future through the *<i>pdwObjInstance</i> parameter.
@@ -91,10 +91,10 @@ Creates an unnamed object you can reference in the future through the *<i>pdwObj
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms670033(v=VS.85).aspx">GetObject</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nf-infotech-iitdatabase-getobject">GetObject</a>
 </td>
 <td align="left" width="63%">
-Retrieves a specified <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>-based interface on the object identified by the <i>dwObjInstance</i> parameter.
+Retrieves a specified <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>-based interface on the object identified by the <i>dwObjInstance</i> parameter.
 
 
 
@@ -102,7 +102,7 @@ Retrieves a specified <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a37
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms670035(v=VS.85).aspx">Open</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nf-infotech-iitdatabase-open">Open</a>
 </td>
 <td align="left" width="63%">
 Opens a database.

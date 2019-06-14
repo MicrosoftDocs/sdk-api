@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Contains parameters for the <a href="https://msdn.microsoft.com/3c957b2f-4bba-4c39-84de-719c08e1bf78">IDirectXVideoDecoder::Execute</a> method.
+Contains parameters for the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-execute">IDirectXVideoDecoder::Execute</a> method.
 
 
 
@@ -67,12 +67,12 @@ Number of compressed buffers.
 
 ### -field pCompressedBuffers
 
-Pointer to an array of <a href="https://msdn.microsoft.com/eb17005a-035d-41cb-8f54-97b5d0f84736">DXVA2_DecodeBufferDesc</a> structures that describe the compressed buffers. The number of elements in the array is given by the <b>NumCompBuffers</b> member.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_decodebufferdesc">DXVA2_DecodeBufferDesc</a> structures that describe the compressed buffers. The number of elements in the array is given by the <b>NumCompBuffers</b> member.
 
 
 ### -field pExtensionData
 
-Pointer to a <a href="https://msdn.microsoft.com/2a1b7139-fcbb-40b0-9ed3-f9b1fe482358">DXVA2_DecodeExtensionData</a> structure that contains private data. Set this member to <b>NULL</b> unless you need to send private data to or from the driver.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_decodeextensiondata">DXVA2_DecodeExtensionData</a> structure that contains private data. Set this member to <b>NULL</b> unless you need to send private data to or from the driver.
 
 
 ## -see-also
@@ -80,11 +80,11 @@ Pointer to a <a href="https://msdn.microsoft.com/2a1b7139-fcbb-40b0-9ed3-f9b1fe4
 
 
 
-<a href="https://msdn.microsoft.com/eb17005a-035d-41cb-8f54-97b5d0f84736">DXVA2_DecodeBufferDesc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_decodebufferdesc">DXVA2_DecodeBufferDesc</a>
 
 
 
-<a href="https://msdn.microsoft.com/39fdd724-13ca-48ab-8a55-93529d1da3b4">Media Foundation Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
  
 
  

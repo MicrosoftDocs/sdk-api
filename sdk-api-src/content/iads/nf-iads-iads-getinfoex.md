@@ -74,7 +74,7 @@ Reserved for future use. Must be set to zero.
 This method supports the standard return values, as well as the following.
       
 
-For more information, see  <a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>.
+For more information, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 
 
@@ -83,9 +83,9 @@ For more information, see  <a href="https://msdn.microsoft.com/573889e4-37af-4ac
 
 
 
-The <b>IADs::GetInfoEx</b> method overwrites any previously cached values of the specified properties with those in the directory store. Therefore, any change made to the cache will be lost if <a href="https://msdn.microsoft.com/e7ff6acd-b7c4-463d-a34f-fd793067c63a">IADs::SetInfo</a> was not invoked before the call to <b>IADs::GetInfoEx</b>.
+The <b>IADs::GetInfoEx</b> method overwrites any previously cached values of the specified properties with those in the directory store. Therefore, any change made to the cache will be lost if <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs::SetInfo</a> was not invoked before the call to <b>IADs::GetInfoEx</b>.
 
-Use <b>IADs::GetInfoEx</b> to refresh values of the selected property in the property cache of an ADSI object. Use <a href="https://msdn.microsoft.com/73ceaeb1-9a6b-449a-9851-3756736dbad7">IADs::GetInfo</a> to refresh all the property values.
+Use <b>IADs::GetInfoEx</b> to refresh values of the selected property in the property cache of an ADSI object. Use <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfo">IADs::GetInfo</a> to refresh all the property values.
 
 For an ADSI container object, <b>IADs::GetInfoEx</b> caches only the property values of the container, but not those of the child objects.
 
@@ -166,19 +166,19 @@ if(pADs)
 
 
 
-<a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
 
 
-<a href="https://msdn.microsoft.com/73ceaeb1-9a6b-449a-9851-3756736dbad7">IADs::GetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfo">IADs::GetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/e7ff6acd-b7c4-463d-a34f-fd793067c63a">IADs::SetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs::SetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/b3479719-b5bf-4f19-91f9-b05e60bde161">Property
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/property-cache-interfaces">Property
   Cache</a>
  
 

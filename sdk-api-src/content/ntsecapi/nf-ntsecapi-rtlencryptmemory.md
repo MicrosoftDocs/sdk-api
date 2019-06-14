@@ -49,10 +49,10 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/8ecc5007-92ce-4e32-a093-dcb75ee8ba62">RtlDecryptMemory</a> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/6b372552-87d4-4047-afa5-0d1113348289">CryptProtectMemory</a> function.]
+<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-rtldecryptmemory">RtlDecryptMemory</a> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptprotectmemory">CryptProtectMemory</a> function.]
 
-The <b>RtlEncryptMemory</b> function encrypts memory contents.   The encrypted contents can be decrypted by a subsequent call to the <a href="https://msdn.microsoft.com/8ecc5007-92ce-4e32-a093-dcb75ee8ba62">RtlDecryptMemory</a> function.
-<div class="alert"><b>Note</b>  This function has no associated import library. This function is available as a resource named <b>SystemFunction040</b> in Advapi32.dll. You must use the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> functions to dynamically link to Advapi32.dll.</div><div> </div>
+The <b>RtlEncryptMemory</b> function encrypts memory contents.   The encrypted contents can be decrypted by a subsequent call to the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-rtldecryptmemory">RtlDecryptMemory</a> function.
+<div class="alert"><b>Note</b>  This function has no associated import library. This function is available as a resource named <b>SystemFunction040</b> in Advapi32.dll. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Advapi32.dll.</div><div> </div>
 
 ## -parameters
 

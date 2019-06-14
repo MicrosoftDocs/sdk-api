@@ -61,7 +61,7 @@ Specifies the level of sharing across nodes of an adapter, such as Tier 1 Emulat
 ### -field D3D12_CROSS_NODE_SHARING_TIER_NOT_SUPPORTED
 
 If an adapter only has 1 node, then cross-node sharing doesn't apply, so
-              the <b>CrossNodeSharingTier</b> member of the <a href="https://msdn.microsoft.com/3193E3CC-C6CA-43D4-8D8C-41B7FCEE2BDF">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure
+              the <b>CrossNodeSharingTier</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure
               is set to D3D12_CROSS_NODE_SHARING_NOT_SUPPORTED.
             
 
@@ -70,7 +70,7 @@ If an adapter only has 1 node, then cross-node sharing doesn't apply, so
 
 Tier 1 Emulated.
             Devices that set
-            the <b>CrossNodeSharingTier</b> member of the <a href="https://msdn.microsoft.com/3193E3CC-C6CA-43D4-8D8C-41B7FCEE2BDF">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure
+            the <b>CrossNodeSharingTier</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure
             to D3D12_CROSS_NODE_SHARING_TIER_1_EMULATED have Tier 1 support.
             However, drivers stage these copy operations through a driver-internal system memory allocation.
             This will cause these copy operations to consume time on the destination GPU as well as the source.
@@ -81,19 +81,19 @@ Tier 1 Emulated.
 
 Tier 1.
             Devices that set
-            the <b>CrossNodeSharingTier</b> member of the <a href="https://msdn.microsoft.com/3193E3CC-C6CA-43D4-8D8C-41B7FCEE2BDF">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure
+            the <b>CrossNodeSharingTier</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure
             to D3D12_CROSS_NODE_SHARING_TIER_1 only support the following cross-node copy operations:
             
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/46F89B85-EDAA-4095-B6C6-4CC47F972F09">ID3D12CommandList::CopyBufferRegion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copybufferregion">ID3D12CommandList::CopyBufferRegion</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/2EAFC6B9-376C-4801-8E53-BF0DB08943AA">ID3D12CommandList::CopyTextureRegion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copytextureregion">ID3D12CommandList::CopyTextureRegion</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/EFC305CF-FBA9-4192-999B-6C6BFCDFF51F">ID3D12CommandList::CopyResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copyresource">ID3D12CommandList::CopyResource</a>
 </li>
 </ul>
 Additionally, the cross-node resource must be the destination of the copy operation.
@@ -104,7 +104,7 @@ Additionally, the cross-node resource must be the destination of the copy operat
 
 Tier 2.
             Devices that set
-            the <b>CrossNodeSharingTier</b> member of the <a href="https://msdn.microsoft.com/3193E3CC-C6CA-43D4-8D8C-41B7FCEE2BDF">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure
+            the <b>CrossNodeSharingTier</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure
             to D3D12_CROSS_NODE_SHARING_TIER_2 support all operations across nodes, except for the following:
             
 
@@ -117,7 +117,7 @@ Tier 2.
                 Similar to CPU/GPU interop, shaders may perform UAV atomic operations; however, no atomicity across adapters is guaranteed.
               </li>
 </ul>
-Applications can retrieve the node where a resource/heap exists from the <a href="https://msdn.microsoft.com/3A473476-F37E-4F01-B121-87E998EE9411">D3D12_HEAP_DESC</a> structure.
+Applications can retrieve the node where a resource/heap exists from the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_heap_desc">D3D12_HEAP_DESC</a> structure.
             These values are retrievable for opened resources.
             The runtime performs the appropriate re-mapping in case the 2 devices are using different UMD-specified node re-mappings.
           
@@ -133,7 +133,7 @@ Applications can retrieve the node where a resource/heap exists from the <a href
 
 
 This enum is used by
-          the <b>CrossNodeSharingTier</b> member of the <a href="https://msdn.microsoft.com/3193E3CC-C6CA-43D4-8D8C-41B7FCEE2BDF">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure.
+          the <b>CrossNodeSharingTier</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure.
         
 
 
@@ -144,7 +144,7 @@ This enum is used by
 
 
 
-<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
  
 
  

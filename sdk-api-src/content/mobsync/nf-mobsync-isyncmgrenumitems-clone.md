@@ -61,7 +61,7 @@ Creates another items enumerator with the same state as the current enumerator t
 
 Type: <b>ppenum**</b>
 
-The address of a variable that receives the <a href="https://msdn.microsoft.com/d90e3a19-0ea8-4396-a6e7-dafe1dc9b2ec">ISyncMgrEnumItems</a> interface pointer.
+The address of a variable that receives the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems">ISyncMgrEnumItems</a> interface pointer.
 
 
 ## -returns

@@ -69,7 +69,7 @@ Handle of the window to be unregistered from receiving session notifications.
 
 
 If the function succeeds, the return value is <b>TRUE</b>. Otherwise, it is <b>FALSE</b>. To get extended error 
-       information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -79,7 +79,7 @@ If the function succeeds, the return value is <b>TRUE</b>. Otherwise, it is <b>F
 
 
 This function must be called once for every call to the 
-    <a href="https://msdn.microsoft.com/5067bb03-d8d5-41ce-b187-04d7dd22a028">WTSRegisterSessionNotification</a> 
+    <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsregistersessionnotification">WTSRegisterSessionNotification</a> 
     function.
 
 
@@ -90,11 +90,11 @@ This function must be called once for every call to the
 
 
 
-<a href="https://msdn.microsoft.com/5067bb03-d8d5-41ce-b187-04d7dd22a028">WTSRegisterSessionNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsregistersessionnotification">WTSRegisterSessionNotification</a>
 
 
 
-<a href="https://msdn.microsoft.com/774df4a2-5d66-42fd-94b5-a51d5ba99c94">WTSUnRegisterSessionNotificationEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsunregistersessionnotificationex">WTSUnRegisterSessionNotificationEx</a>
  
 
  

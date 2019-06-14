@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <code>GetItemAt</code> method retrieves the <a href="https://msdn.microsoft.com/57e099eb-bf8d-4465-af4d-fcfc3eee3b5b">IPhotoAcquireItem</a> object at the given index in the list of items.
+The <code>GetItemAt</code> method retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem</a> object at the given index in the list of items.
 
 
 
@@ -68,7 +68,7 @@ Integer value containing the index.
 
 ### -param ppPhotoAcquireItem [out]
 
-Pointer to the address of an <a href="https://msdn.microsoft.com/57e099eb-bf8d-4465-af4d-fcfc3eee3b5b">IPhotoAcquireItem</a> object.
+Pointer to the address of an <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem</a> object.
 
 
 ## -returns
@@ -103,7 +103,7 @@ The method succeeded.
 
 
 
-Before calling this method, call <a href="https://msdn.microsoft.com/1e0ebbc7-888d-4044-8257-47c1719cf7fc">InitializeItemList</a> to initialize the item list.
+Before calling this method, call <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresource-initializeitemlist">InitializeItemList</a> to initialize the item list.
 
 
 
@@ -113,7 +113,7 @@ Before calling this method, call <a href="https://msdn.microsoft.com/1e0ebbc7-88
 
 
 
-<a href="https://msdn.microsoft.com/6671d550-8c12-40e3-bf6f-33203e69cff0">IPhotoAcquireSource Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresource">IPhotoAcquireSource Interface</a>
  
 
  

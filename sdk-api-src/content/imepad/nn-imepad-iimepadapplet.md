@@ -49,14 +49,14 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IImePadApplet</b> interface inputs strings into apps through the <a href="https://msdn.microsoft.com/6604112A-5BD5-4B2C-AECC-D09180B04D7F">IImePad</a> interface.
+The <b>IImePadApplet</b> interface inputs strings into apps through the <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> interface.
 
-<b>IImePadApplet</b> should be implemented as a DLL inproc server. The developer can implement multiple <b>IImePadApplet</b> interfaces in one DLL.  To specify and emulate the <b>IImePadApplet</b> interface in the applet DLL, the applet must also provide the <a href="https://msdn.microsoft.com/788C7272-3BFF-4531-B66E-211585BF85E3">IImeSpecifyApplets</a> interface.
+<b>IImePadApplet</b> should be implemented as a DLL inproc server. The developer can implement multiple <b>IImePadApplet</b> interfaces in one DLL.  To specify and emulate the <b>IImePadApplet</b> interface in the applet DLL, the applet must also provide the <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimespecifyapplets">IImeSpecifyApplets</a> interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IImePadApplet</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IImePadApplet</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IImePadApplet</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IImePadApplet</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,46 +71,46 @@ The <b>IImePadApplet</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B4F79A20-E69E-4EA0-A992-4415B8AA4790">CreateUI</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imepad/nf-imepad-iimepadapplet-createui">CreateUI</a>
 </td>
 <td align="left" width="63%">
-Called from <a href="https://msdn.microsoft.com/6604112A-5BD5-4B2C-AECC-D09180B04D7F">IImePad</a> to get the applet's window handle, style, and size.
+Called from <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> to get the applet's window handle, style, and size.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D24EF900-01D4-4E6E-B752-B11B2F4A6A6C">GetAppletCfg</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh851787(v=vs.85)">GetAppletCfg</a>
 </td>
 <td align="left" width="63%">
-Called from <a href="https://msdn.microsoft.com/6604112A-5BD5-4B2C-AECC-D09180B04D7F">IImePad</a> to get <b>IImePadApplet</b>'s configuration data.
+Called from <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> to get <b>IImePadApplet</b>'s configuration data.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E76FF3FC-717F-42B8-AC5E-45D5527882A7">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imepad/nf-imepad-iimepadapplet-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
-Called from <a href="https://msdn.microsoft.com/6604112A-5BD5-4B2C-AECC-D09180B04D7F">IImePad</a> interface to initialize <b>IImePadApplet</b>.
+Called from <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> interface to initialize <b>IImePadApplet</b>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5C370DC8-D308-4339-81F3-FEE88359A52F">Notify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imepad/nf-imepad-iimepadapplet-notify">Notify</a>
 </td>
 <td align="left" width="63%">
-Called from <a href="https://msdn.microsoft.com/6604112A-5BD5-4B2C-AECC-D09180B04D7F">IImePad</a> to pass information with a notify code
+Called from <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> to pass information with a notify code
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/864E5CBB-8056-46B5-BF78-9A66EC861F8A">Terminate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imepad/nf-imepad-iimepadapplet-terminate">Terminate</a>
 </td>
 <td align="left" width="63%">
-Called from <a href="https://msdn.microsoft.com/6604112A-5BD5-4B2C-AECC-D09180B04D7F">IImePad</a> to terminate <b>IImePadApplet</b> when the IMEPad instance exits.
+Called from <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> to terminate <b>IImePadApplet</b> when the IMEPad instance exits.
 
 </td>
 </tr>

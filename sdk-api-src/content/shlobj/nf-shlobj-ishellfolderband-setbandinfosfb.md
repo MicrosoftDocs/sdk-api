@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Uses the information in a <a href="https://msdn.microsoft.com/7067f563-383d-469f-abcf-3e1ea28dc956">BANDINFOSFB</a> structure to set the band information for a <a href="https://msdn.microsoft.com/88ae35ea-6ff9-431c-848b-84fc61d3c690">IShellFolderBand</a> object.
+Uses the information in a <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/ns-shlobj-bandinfosfb">BANDINFOSFB</a> structure to set the band information for a <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-ishellfolderband">IShellFolderBand</a> object.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Uses the information in a <a href="https://msdn.microsoft.com/7067f563-383d-469f
 
 Type: <b>PBANDINFOSFB</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/7067f563-383d-469f-abcf-3e1ea28dc956">BANDINFOSFB</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/ns-shlobj-bandinfosfb">BANDINFOSFB</a> structure.
 
 
 ## -returns
@@ -80,11 +80,11 @@ Returns S_OK if successful, or an error code otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>
 
 
 
-<a href="https://msdn.microsoft.com/88ae35ea-6ff9-431c-848b-84fc61d3c690">IShellFolderBand</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-ishellfolderband">IShellFolderBand</a>
  
 
  

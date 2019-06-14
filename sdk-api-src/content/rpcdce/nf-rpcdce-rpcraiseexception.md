@@ -70,7 +70,7 @@ Exception code for the exception.
 This function does not return a value.
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -80,7 +80,7 @@ This function does not return a value.
 
 
 <b>RpcRaiseException</b> raises an exception. The exception handler can then handle the exception. For more information about handling exceptions, see 
-<a href="https://msdn.microsoft.com/4882d29b-08f3-41ec-84c3-35df6c56fd31">Making RPC Function Calls</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/making-rpc-function-calls">Making RPC Function Calls</a>.
 
 
 
@@ -90,15 +90,15 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/6025da80-d334-4abd-9d7c-6cce139cd4d7">RpcAbnormalTermination</a>
+<a href="https://docs.microsoft.com/previous-versions/">RpcAbnormalTermination</a>
 
 
 
-<a href="https://msdn.microsoft.com/5bd57250-1fd7-4aeb-aa53-4fd2c8d84836">RpcExcept</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpc/nf-rpc-rpcexcept">RpcExcept</a>
 
 
 
-<a href="https://msdn.microsoft.com/332641ea-748f-47e5-bb0e-33d2bf4e04c9">RpcFinally</a>
+<a href="https://docs.microsoft.com/previous-versions/aa375699(v=vs.80)">RpcFinally</a>
  
 
  

@@ -118,7 +118,7 @@ Insufficient memory exists to perform the operation.
 
 
 The value that this method returns corresponds to the <b>dwPreferredCardID</b> member of TAPI 2's 
-<a href="https://msdn.microsoft.com/8b4357d8-6dc9-4fc8-b164-79675ac71870">LINELOCATIONENTRY</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linelocationentry_tag">LINELOCATIONENTRY</a> structure.
 
 
 
@@ -128,15 +128,15 @@ The value that this method returns corresponds to the <b>dwPreferredCardID</b> m
 
 
 
-<a href="https://msdn.microsoft.com/0f82a6f4-26a6-48dc-9bfa-a86edf1b6be4">ITLocationInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itlocationinfo">ITLocationInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/8b4357d8-6dc9-4fc8-b164-79675ac71870">LINELOCATIONENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linelocationentry_tag">LINELOCATIONENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/77437b06-fb02-44b5-8642-b3de700853ef">lineGetTranslateCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegettranslatecaps">lineGetTranslateCaps</a>
  
 
  

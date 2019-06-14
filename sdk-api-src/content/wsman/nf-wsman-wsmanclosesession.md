@@ -59,7 +59,7 @@ Closes a session object.
 
 ### -param session [in, out, optional]
 
-Specifies the session handle to close. This handle is returned by a <a href="https://msdn.microsoft.com/5123d876-5123-4fa4-8f6f-859a26aad825">WSManCreateSession</a> call.  This parameter cannot be NULL.
+Specifies the session handle to close. This handle is returned by a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmancreatesession">WSManCreateSession</a> call.  This parameter cannot be NULL.
 
 
 ### -param flags

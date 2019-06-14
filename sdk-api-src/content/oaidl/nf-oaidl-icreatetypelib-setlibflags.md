@@ -138,7 +138,7 @@ The state of the type library is not valid for this operation.
 
 
 
-Valid <i>uLibFlags</i> values are listed in <a href="https://msdn.microsoft.com/en-us/library/ms221149(v=VS.85).aspx">LIBFLAGS</a>. 
+Valid <i>uLibFlags</i> values are listed in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ne-oaidl-taglibflags">LIBFLAGS</a>. 
 
 
 
@@ -148,7 +148,7 @@ Valid <i>uLibFlags</i> values are listed in <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/d245cd25-ce31-42da-a42d-dc412d5b98e7">ICreateTypeLib</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a>
  
 
  

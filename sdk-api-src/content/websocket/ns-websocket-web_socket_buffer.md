@@ -96,7 +96,7 @@ Length, in bytes, of the buffer pointed to by <b>pbReason</b>. It cannot exceed 
 <b>Type: <b>USHORT</b>
 </b>
 
-<a href="https://msdn.microsoft.com/bd2c279c-ae6c-469a-8a97-d46fca042126">WEB_SOCKET_CLOSE_STATUS</a> enumeration that specifies the WebSocket status.
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-_web_socket_close_status">WEB_SOCKET_CLOSE_STATUS</a> enumeration that specifies the WebSocket status.
 
 
 ## -remarks
@@ -113,19 +113,19 @@ Application must use the <b>Data</b> struct for all buffer types except <b>WEB_S
 
 
 
-<a href="https://msdn.microsoft.com/a6657b51-ac16-4637-8dfd-e3dade951385">WEB_SOCKET_BUFFER_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-_web_socket_buffer_type">WEB_SOCKET_BUFFER_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/566cff2d-15dd-45c6-bc41-550be1f45cfd">WebSocketGetAction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketgetaction">WebSocketGetAction</a>
 
 
 
-<a href="https://msdn.microsoft.com/6285c6fc-1f7a-45f3-ba28-94992e73693e">WebSocketReceive</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketreceive">WebSocketReceive</a>
 
 
 
-<a href="https://msdn.microsoft.com/289f3880-22ed-44f8-8a69-1c983153ea72">WebSocketSend</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketsend">WebSocketSend</a>
  
 
  

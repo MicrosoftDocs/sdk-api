@@ -56,13 +56,13 @@ Used to obtain the immediately underlying representation of an item's path.
 
 
 
-This interface provides only the methods of the <a href="https://msdn.microsoft.com/f42d218c-0251-45e0-b05a-f1ccdcaf036c">IRelatedItem</a> interface, from which it inherits.
+This interface provides only the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-irelateditem">IRelatedItem</a> interface, from which it inherits.
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 An implementation of this interface for system-provided data objects is provided with Windows. Custom data sources that want to expose this information must implement the interface as part of their data object.
 
 <h3><a id="When_to_Use"></a><a id="when_to_use"></a><a id="WHEN_TO_USE"></a>When to Use</h3>
-Use this interface to uncovers a single level of aliasing. For instance, if you have the path of an item in the Documents library, this interface reveals the path of the item in the location that was added to the library. Whether this is the file system path depends on the nature of that original location. For a full recursion to the source item, use <a href="https://msdn.microsoft.com/9e75141d-b54a-4fe8-9209-40aa7f484d24">IIdentityName</a>.
+Use this interface to uncovers a single level of aliasing. For instance, if you have the path of an item in the Documents library, this interface reveals the path of the item in the location that was added to the library. Whether this is the file system path depends on the nature of that original location. For a full recursion to the source item, use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iidentityname">IIdentityName</a>.
 
 
 

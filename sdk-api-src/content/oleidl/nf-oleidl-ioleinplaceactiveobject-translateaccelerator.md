@@ -59,7 +59,7 @@ Processes menu accelerator-key messages from the container's message queue. This
 
 ### -param lpmsg [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a> structure for the message that might need to be translated.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a> structure for the message that might need to be translated.
 
 
 ## -returns
@@ -135,7 +135,7 @@ If you call <b>IOleInPlaceActiveObject::TranslateAccelerator</b> for an object t
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 An object created by an EXE object application gets keystrokes from its own message pump, so the container does not get those messages.
 
-If you need to implement this method, you can do so by simply wrapping the call to the <a href="https://msdn.microsoft.com/en-us/library/Dd368768(v=VS.85).aspx">TranslateAccelerator</a> function.
+If you need to implement this method, you can do so by simply wrapping the call to the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/cbasepropertypage-translateaccelerator">TranslateAccelerator</a> function.
 
 
 
@@ -145,15 +145,15 @@ If you need to implement this method, you can do so by simply wrapping the call 
 
 
 
-<a href="https://msdn.microsoft.com/b077c256-1109-494c-95c2-2d33bccbe47b">IOleInPlaceActiveObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceactiveobject">IOleInPlaceActiveObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/c590efef-7f03-4ae6-a35f-eff2fc4da3d9">OleTranslateAccelerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oletranslateaccelerator">OleTranslateAccelerator</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd368768(v=VS.85).aspx">TranslateAccelerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/cbasepropertypage-translateaccelerator">TranslateAccelerator</a>
  
 
  

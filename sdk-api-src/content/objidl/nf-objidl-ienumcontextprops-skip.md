@@ -76,7 +76,7 @@ If the method skips the number of items requested, the return value is S_OK. Oth
 
 
 
-<a href="https://msdn.microsoft.com/64591e45-5478-4360-8c1f-08b09b5aef8e">IEnumContextProps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumcontextprops">IEnumContextProps</a>
  
 
  

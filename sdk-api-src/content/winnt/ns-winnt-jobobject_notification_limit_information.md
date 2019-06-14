@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information about notification limits for a job object. This structure is used by the <a href="https://msdn.microsoft.com/46f7c579-e8d3-4434-a6ce-56573cd84387">SetInformationJobObject</a> and <a href="https://msdn.microsoft.com/d843d578-fd67-4708-959f-00245ff70ec6">QueryInformationJobObject</a> functions with the <b>JobObjectNotificationLimitInformation</b> information class.
+Contains information about notification limits for a job object. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a> and <a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject">QueryInformationJobObject</a> functions with the <b>JobObjectNotificationLimitInformation</b> information class.
 
 
 ## -struct-fields
@@ -73,14 +73,14 @@ If the <i>LimitFlags</i> parameter specifies JOB_OBJECT_LIMIT_JOB_TIME, this mem
 
 The system adds the accumulated execution time of processes associated with the job to this limit when the limit is set. For example, if a process associated with the job has already accumulated 5 minutes of user-mode execution time and the limit is set to 1 minute, the limit actually enforced is 6 minutes.
 
-To specify <b>PerJobUserTimeLimit</b> as an enforceable limit and terminate processes in jobs that exceed the limit, see the <a href="https://msdn.microsoft.com/83b940a7-05a0-4f5e-bfe3-3f2ac17e2d67">JOBOBJECT_BASIC_LIMIT_INFORMATION</a> structure.
+To specify <b>PerJobUserTimeLimit</b> as an enforceable limit and terminate processes in jobs that exceed the limit, see the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_jobobject_basic_limit_information">JOBOBJECT_BASIC_LIMIT_INFORMATION</a> structure.
 
 
 ### -field JobMemoryLimit
 
 If the <i>LimitFlags</i> parameter specifies JOB_OBJECT_LIMIT_JOB_MEMORY, this member is the notification limit for total virtual memory that can be committed by all processes in the job, in bytes. Otherwise, this member is ignored.
 
-To specify <b>JobMemoryLimit</b> as an enforceable limit and prevent processes in jobs that exceed the limit from continuing to commit memory, see the <a href="https://msdn.microsoft.com/83b940a7-05a0-4f5e-bfe3-3f2ac17e2d67">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a> structure.
+To specify <b>JobMemoryLimit</b> as an enforceable limit and prevent processes in jobs that exceed the limit from continuing to commit memory, see the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_jobobject_basic_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a> structure.
 
 
 ### -field RateControlTolerance
@@ -241,7 +241,7 @@ Establishes the limit for user-mode execution time for the job. The <b>PerJobUse
 <td width="60%">
 Establishes the notification threshold for the CPU rate control limits established for the job. The <b>RateControlTolerance</b> and <b>RateControlToleranceInterval</b> members contain additional information.
 
-CPU rate control limits are established by calling <a href="https://msdn.microsoft.com/46f7c579-e8d3-4434-a6ce-56573cd84387">SetInformationJobObject</a> with the <b>JobObjectCpuRateInformationClass</b> information class. 
+CPU rate control limits are established by calling <a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a> with the <b>JobObjectCpuRateInformationClass</b> information class. 
 
 </td>
 </tr>
@@ -255,9 +255,9 @@ CPU rate control limits are established by calling <a href="https://msdn.microso
 
 When a notification limit is exceeded, the system sends a JOB_OBJECT_MSG_NOTIFICATION_LIMIT message to the I/O completion port associated with the job. Processes in the job continue to run and can continue to allocate memory or transmit read or write bytes beyond the specified limits. 
 
-When the application monitoring the I/O completion port receives a JOB_OBJECT_MSG_NOTIFICATION_LIMIT message, it must call <a href="https://msdn.microsoft.com/d843d578-fd67-4708-959f-00245ff70ec6">QueryInformationJobObject</a> with the <b>JobObjectLimitViolationInformation</b> information class. Limit violation information is received in a JOBOBJECT_LIMIT_VIOLATION_STRUCTURE that contains information about all notification limits that were exceeded at the time of the query. The system will not send another JOB_OBJECT_MSG_NOTIFICATION_LIMIT message until after   <b>QueryInformationJobObject</b> is called.  
+When the application monitoring the I/O completion port receives a JOB_OBJECT_MSG_NOTIFICATION_LIMIT message, it must call <a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject">QueryInformationJobObject</a> with the <b>JobObjectLimitViolationInformation</b> information class. Limit violation information is received in a JOBOBJECT_LIMIT_VIOLATION_STRUCTURE that contains information about all notification limits that were exceeded at the time of the query. The system will not send another JOB_OBJECT_MSG_NOTIFICATION_LIMIT message until after   <b>QueryInformationJobObject</b> is called.  
 
-CPU rate control limits for a job are established in a <a href="https://msdn.microsoft.com/eaa5bda2-a37e-441b-a0e4-e00dff6425b2">JOBOBJECT_CPU_RATE_CONTROL_INFORMATION</a> structure. The CPU rate control values in the <b>JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION</b> structure specify how much the job can exceed its established CPU rate control limits before notification is sent. 
+CPU rate control limits for a job are established in a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_jobobject_cpu_rate_control_information">JOBOBJECT_CPU_RATE_CONTROL_INFORMATION</a> structure. The CPU rate control values in the <b>JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION</b> structure specify how much the job can exceed its established CPU rate control limits before notification is sent. 
 
 
 
@@ -267,19 +267,19 @@ CPU rate control limits for a job are established in a <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/eaa5bda2-a37e-441b-a0e4-e00dff6425b2">JOBOBJECT_CPU_RATE_CONTROL_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_jobobject_cpu_rate_control_information">JOBOBJECT_CPU_RATE_CONTROL_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/445f21aa-ba42-4ad6-8d28-f7811a5d8a8c">JOBOBJECT_LIMIT_VIOLATION_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_jobobject_limit_violation_information">JOBOBJECT_LIMIT_VIOLATION_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/d843d578-fd67-4708-959f-00245ff70ec6">QueryInformationJobObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject">QueryInformationJobObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/46f7c579-e8d3-4434-a6ce-56573cd84387">SetInformationJobObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>
  
 
  

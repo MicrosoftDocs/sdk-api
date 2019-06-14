@@ -60,7 +60,7 @@ The <b>DHCP_ATTRIB</b> structure defines an attribute set on the DHCP server.
 ### -field DhcpAttribId
 
 
-<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_ATTRIB_ID</a> structure that uniquely identifies the DHCP server attribute.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_ATTRIB_ID</a> structure that uniquely identifies the DHCP server attribute.
 
 
 ### -field DhcpAttribType

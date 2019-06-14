@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>OCSP_REQUEST_ENTRY</b> structure contains information about a single certificate in an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">online certificate status protocol</a> (OCSP) request. This structure populates the <a href="https://msdn.microsoft.com/ec939c3b-f155-45f2-b507-6c2e6069a868">OCSP_REQUEST_INFO</a> <b>rgRequestEntry</b> member.
+The <b>OCSP_REQUEST_ENTRY</b> structure contains information about a single certificate in an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) request. This structure populates the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ocsp_request_info">OCSP_REQUEST_INFO</a> <b>rgRequestEntry</b> member.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ The <b>OCSP_REQUEST_ENTRY</b> structure contains information about a single cert
 
 ### -field CertId
 
-An <a href="https://msdn.microsoft.com/58717990-a7f7-4b41-aceb-cbce55411396">OCSP_CERT_ID</a> structure that specifies the target certificate.
+An <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ocsp_cert_id">OCSP_CERT_ID</a> structure that specifies the target certificate.
 
 
 ### -field cExtension
@@ -69,7 +69,7 @@ The number of elements in the <b>rgExtension</b> array.
 
 ### -field rgExtension
 
-An array of pointers to <a href="https://msdn.microsoft.com/787a4df0-c0e3-46b9-a7e6-eb3bee3ed717">CERT_EXTENSION</a> structures, each of which contains information about the <b>CertId</b> certificate. 
+An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_extension">CERT_EXTENSION</a> structures, each of which contains information about the <b>CertId</b> certificate. 
 
 
 ## -see-also
@@ -77,15 +77,15 @@ An array of pointers to <a href="https://msdn.microsoft.com/787a4df0-c0e3-46b9-a
 
 
 
-<a href="https://msdn.microsoft.com/787a4df0-c0e3-46b9-a7e6-eb3bee3ed717">CERT_EXTENSION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_extension">CERT_EXTENSION</a>
 
 
 
-<a href="https://msdn.microsoft.com/58717990-a7f7-4b41-aceb-cbce55411396">OCSP_CERT_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ocsp_cert_id">OCSP_CERT_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/ec939c3b-f155-45f2-b507-6c2e6069a868">OCSP_REQUEST_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ocsp_request_info">OCSP_REQUEST_INFO</a>
 
 
 

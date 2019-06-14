@@ -77,7 +77,7 @@ Height of the video to be deinterlaced, in pixels.
 
 ### -field SampleFormat
 
-Specifies the interlacing format of the sample, as a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd407379(v=VS.85).aspx">VMR9_SampleFormat</a> enumeration.
+Specifies the interlacing format of the sample, as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ne-vmr9-_vmr9_sampleformat">VMR9_SampleFormat</a> enumeration.
 
 
 ### -field dwFourCC
@@ -87,12 +87,12 @@ Specifies the FOURCC code. Valid values include NV12, YV12, YUY2, UYVY, IMC1, IM
 
 ### -field InputSampleFreq
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd407365(v=VS.85).aspx">VMR9Frequency</a> structure that specifies the input frequency. For NTSC TV, the frequency would be expressed as 30,000:1001.
+A <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ns-vmr9-_vmr9frequency">VMR9Frequency</a> structure that specifies the input frequency. For NTSC TV, the frequency would be expressed as 30,000:1001.
 
 
 ### -field OutputFrameFreq
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd407385(v=VS.85).aspx">VMRFrequency</a> structure that specifies the output frequency. For NTSC TV, the frequency would be expressed as 60,000:1001.
+A <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_vmrfrequency">VMRFrequency</a> structure that specifies the output frequency. For NTSC TV, the frequency would be expressed as 60,000:1001.
 
 
 ## -see-also
@@ -100,11 +100,11 @@ A <a href="https://msdn.microsoft.com/en-us/library/Dd407385(v=VS.85).aspx">VMRF
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/31d59f17-552b-46d1-89e4-751216f54280">Setting Deinterlace Preferences</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/setting-deinterlace-preferences">Setting Deinterlace Preferences</a>
  
 
  

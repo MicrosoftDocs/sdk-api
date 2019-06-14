@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a copy of a <a href="https://msdn.microsoft.com/7f835ff4-3917-497c-bfe9-ca335cc35938">MI_DestinationOptions</a> structure.
+Creates a copy of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_destinationoptions">MI_DestinationOptions</a> structure.
 
 
 ## -parameters
@@ -60,12 +60,12 @@ Creates a copy of a <a href="https://msdn.microsoft.com/7f835ff4-3917-497c-bfe9-
 ### -param self [in]
 
 
-<a href="https://msdn.microsoft.com/7f835ff4-3917-497c-bfe9-ca335cc35938">MI_DestinationOptions</a> structure to be cloned.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_destinationoptions">MI_DestinationOptions</a> structure to be cloned.
 
 
 ### -param newDestinationOptions [out]
 
-A pointer to the returned <a href="https://msdn.microsoft.com/7f835ff4-3917-497c-bfe9-ca335cc35938">MI_DestinationOptions</a> clone. The cloned copy must be closed with the <a href="https://msdn.microsoft.com/c4cc8622-1adb-4e91-877f-11a260ca4bd7">MI_DestinationOptions_Delete</a> function.
+A pointer to the returned <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_destinationoptions">MI_DestinationOptions</a> clone. The cloned copy must be closed with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_destinationoptions_delete">MI_DestinationOptions_Delete</a> function.
 
 
 ## -returns

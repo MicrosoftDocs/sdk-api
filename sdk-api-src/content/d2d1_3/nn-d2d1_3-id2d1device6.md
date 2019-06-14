@@ -50,13 +50,13 @@ ms.custom: 19H1
 
 
 Represents a resource domain whose objects and device contexts can be used together. 
-        This interface performs all the same functions as the <a href="https://msdn.microsoft.com/3C436C9F-461B-4B18-B537-6724609D825F">ID2D1Device5</a> interface, 
-        plus it enables the creation of <a href="https://msdn.microsoft.com/474788F4-8AD7-4D5C-BF0B-9542E69620A9">ID2D1DeviceContext6</a> objects.
+        This interface performs all the same functions as the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1device5">ID2D1Device5</a> interface, 
+        plus it enables the creation of <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext6">ID2D1DeviceContext6</a> objects.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Device6</b> interface inherits from <a href="https://msdn.microsoft.com/3C436C9F-461B-4B18-B537-6724609D825F">ID2D1Device5</a>. <b>ID2D1Device6</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Device6</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1device5">ID2D1Device5</a>. <b>ID2D1Device6</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ID2D1Device6</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/DF0BF258-7817-4F5A-A5FA-C04D4A1D0AB6">CreateDeviceContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1device6-createdevicecontext">CreateDeviceContext</a>
 </td>
 <td align="left" width="63%">
 Creates a new device context with no initially assigned target.

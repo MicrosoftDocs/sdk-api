@@ -69,7 +69,7 @@ Specifies the password to use to encrypt the peer identity. This parameter canno
 
 ### -param ppwzExportXML [out]
 
-Receives a pointer to the exported peer identity in XML format. If the export operation is successful, the application must free <i>ppwzExportXML</i> by calling <a href="https://msdn.microsoft.com/54288829-c991-42d6-a7c4-874ed28dd106">PeerFreeData</a>. 
+Receives a pointer to the exported peer identity in XML format. If the export operation is successful, the application must free <i>ppwzExportXML</i> by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>. 
 
 
 ## -returns
@@ -138,7 +138,7 @@ The specified peer identity does not exist.
 
 
 
-Peer-to-peer group membership credentials are not exported. Only one peer identity  is  exported. An exported peer identity can be imported on another computer by using <a href="https://msdn.microsoft.com/273aa395-905a-41bd-a027-23f4b3f549b6">PeerIdentityImport</a>.  
+Peer-to-peer group membership credentials are not exported. Only one peer identity  is  exported. An exported peer identity can be imported on another computer by using <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peeridentityimport">PeerIdentityImport</a>.  
 
 Exporting a peer identity   does not remove it from a local ccmputer, it  makes a copy of it. The copy can be used to backup and restore a peer identity. 
 
@@ -162,15 +162,15 @@ The XML fragment used by <b>PeerIdentityExport</b> is as follows:
 
 
 
-<a href="https://msdn.microsoft.com/d8a8b9e3-c455-4813-b812-263efe7f5e3e">PEER_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_data_tag">PEER_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/54288829-c991-42d6-a7c4-874ed28dd106">PeerFreeData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>
 
 
 
-<a href="https://msdn.microsoft.com/273aa395-905a-41bd-a027-23f4b3f549b6">PeerIdentityImport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peeridentityimport">PeerIdentityImport</a>
  
 
  

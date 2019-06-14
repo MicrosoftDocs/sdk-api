@@ -60,7 +60,7 @@ Registers a hosted provider with the WMI engine on the local machine.
 ### -param application [in]
 
 A pointer to the handle returned from the 
-      <a href="https://msdn.microsoft.com/32696A33-820D-4D01-AF71-DDA1F34EFBE0">MI_Application_Initialize</a> 
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_initializev1">MI_Application_Initialize</a> 
       function.
 
 
@@ -85,13 +85,13 @@ Main entry point to an MI provider.
 A pointer to a pointer to an optional parameter to receive extended error information in the event the API 
       fails. If a pointer is passed in, then an error instance may be returned. If an error instance is returned, 
       then, when you have finished using it, delete it by using the 
-      <a href="https://msdn.microsoft.com/6370e464-b262-4c91-a3c8-889911df7965">MI_Instance_Delete</a> function.
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_delete">MI_Instance_Delete</a> function.
 
 
 ### -param hostedProvider [out]
 
 A pointer to a returned hosted provider handle. When you have finished using the handle, close it by 
-      calling the <a href="https://msdn.microsoft.com/b0cae173-a552-4c5a-8181-ba20143d846b">MI_HostedProvider_Close</a> 
+      calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_hostedprovider_close">MI_HostedProvider_Close</a> 
       function during shutdown or when the provider no longer needs to receive operation requests.
 
 
@@ -112,7 +112,7 @@ A hosted provider is one that resides in a client application rather than in the
     The client controls the lifetime of these providers. Hosted providers are registered differently than regular 
     providers. This different registration indicates that the WMI service be hosted by the client. When you have 
     finished using the provider, the application should shut it down by calling the 
-    <a href="https://msdn.microsoft.com/b0cae173-a552-4c5a-8181-ba20143d846b">MI_HostedProvider_Close</a> function.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_hostedprovider_close">MI_HostedProvider_Close</a> function.
 
 
 

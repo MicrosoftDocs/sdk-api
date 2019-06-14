@@ -102,7 +102,7 @@ Method completed successfully.
 </dl>
 </td>
 <td width="60%">
-The discovery provider has not been created. Call <a href="https://msdn.microsoft.com/44275cbe-ea02-41fd-b88d-81d4df966067">WSDCreateDiscoveryProvider</a> to create a provider.
+The discovery provider has not been created. Call <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-wsdcreatediscoveryprovider">WSDCreateDiscoveryProvider</a> to create a provider.
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ The discovery provider has not been created. Call <a href="https://msdn.microsof
 
 Returns an optional context for the XML state of the transaction. If the service layer is used then this should be the context the XML namespaces and types were registered with.
 
-<div class="alert"><b>Note</b>  <a href="https://msdn.microsoft.com/3bb2aead-b082-4a2b-b4bf-97a1feb1e11e">Attach</a> must be called before any other <a href="https://msdn.microsoft.com/e3d3acc2-914b-40bd-9e1e-a3a612821ab7">IWSDiscoveryProvider</a>method is used.</div>
+<div class="alert"><b>Note</b>  <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-attach">Attach</a> must be called before any other <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a>method is used.</div>
 <div> </div>
 
 
@@ -128,11 +128,11 @@ Returns an optional context for the XML state of the transaction. If the service
 
 
 
-<a href="https://msdn.microsoft.com/131fa170-4c19-4a7b-82e0-e9677b7f767a">IWSDXMLContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3d3acc2-914b-40bd-9e1e-a3a612821ab7">IWSDiscoveryProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a>
  
 
  

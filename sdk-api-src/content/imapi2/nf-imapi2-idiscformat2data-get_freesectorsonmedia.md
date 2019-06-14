@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the number of free sectors on the disc for incremental recording (without overwriting existing data).<div class="alert"><b>Note</b>  When this method is called for DVD-/+RW, DVD-RAM, and BD-RE media, the reported free sector <i>value</i> represents total  capacity, rather than the current number of free sectors. To retrieve free sectors for these media types, the file system must  be imported via <a href="https://msdn.microsoft.com/87d654bc-f2c9-4a74-a822-352cdb242b5f">IFileSystemImage::ImportFileSystem</a> or <a href="https://msdn.microsoft.com/737f1b5a-be70-4869-9ad0-a1373cb865d9">IFileSystemImage::ImportSpecificFileSystem</a>, which will allow the use of the <a href="https://msdn.microsoft.com/4942d86d-0cc7-4f4e-b257-dc59d3896b38">IFileSystemImage::get_FreeMediaBlocks</a> method to retrieve the value.</div>
+Retrieves the number of free sectors on the disc for incremental recording (without overwriting existing data).<div class="alert"><b>Note</b>  When this method is called for DVD-/+RW, DVD-RAM, and BD-RE media, the reported free sector <i>value</i> represents total  capacity, rather than the current number of free sectors. To retrieve free sectors for these media types, the file system must  be imported via <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-importfilesystem">IFileSystemImage::ImportFileSystem</a> or <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-importspecificfilesystem">IFileSystemImage::ImportSpecificFileSystem</a>, which will allow the use of the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_freemediablocks">IFileSystemImage::get_FreeMediaBlocks</a> method to retrieve the value.</div>
 <div> </div>
 
 
@@ -375,7 +375,7 @@ The value of this property is effectively the number of sectors available on dis
 
 <div class="alert"><b>Note</b>  For overwritable discs, which have only one physical session, the number of free sectors indicated by <i>value</i> will always be the total number of sectors on the disc.</div>
 <div> </div>
-If <a href="https://msdn.microsoft.com/19b77c94-ad2a-42c8-8042-267a48036dac">IDiscFormat2Data::put_ForceOverwrite</a> is set to VARIANT_TRUE, use the <a href="https://msdn.microsoft.com/9ad23657-36db-4edd-841d-eecb591209f5">IDiscFormat2Data::get_TotalSectorsOnMedia</a> property instead.
+If <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-put_forceoverwrite">IDiscFormat2Data::put_ForceOverwrite</a> is set to VARIANT_TRUE, use the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_totalsectorsonmedia">IDiscFormat2Data::get_TotalSectorsOnMedia</a> property instead.
 
 
 
@@ -385,11 +385,11 @@ If <a href="https://msdn.microsoft.com/19b77c94-ad2a-42c8-8042-267a48036dac">IDi
 
 
 
-<a href="https://msdn.microsoft.com/6bb871c2-1a6e-4cf6-94e1-7a566ce7a88e">IDiscFormat2Data</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ad23657-36db-4edd-841d-eecb591209f5">IDiscFormat2Data::get_TotalSectorsOnMedia</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_totalsectorsonmedia">IDiscFormat2Data::get_TotalSectorsOnMedia</a>
  
 
  

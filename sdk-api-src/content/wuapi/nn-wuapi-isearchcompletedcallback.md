@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Contains a method that handles the notification about the completion of an asynchronous search operation. This interface is implemented by programmers who call the <a href="https://msdn.microsoft.com/8af818b1-7dd8-4f48-b447-5b6dfbfce420">IUpdateSearcher.BeginSearch</a> method.
+Contains a method that handles the notification about the completion of an asynchronous search operation. This interface is implemented by programmers who call the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-beginsearch">IUpdateSearcher.BeginSearch</a> method.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchCompletedCallback</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISearchCompletedCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchCompletedCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISearchCompletedCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,10 +69,10 @@ The <b>ISearchCompletedCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2d06754a-5750-4986-9f54-98f91dcc705b">Invoke</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-isearchcompletedcallback-invoke">Invoke</a>
 </td>
 <td align="left" width="63%">
-Handles the notification of the completion of an asynchronous search initiated by calling <a href="https://msdn.microsoft.com/8af818b1-7dd8-4f48-b447-5b6dfbfce420">IUpdateSearcher.BeginSearch</a>
+Handles the notification of the completion of an asynchronous search initiated by calling <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-beginsearch">IUpdateSearcher.BeginSearch</a>
 
 
 </td>

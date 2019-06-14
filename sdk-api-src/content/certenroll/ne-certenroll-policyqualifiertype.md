@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PolicyQualifierType</b> enumeration type specifies the type of qualifier applied to a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate policy</a>. This enumeration is used by the <a href="https://msdn.microsoft.com/fc8b5916-0557-4f9b-8478-169a3dd9cebc">InitializeEncode</a> method and the  <a href="https://msdn.microsoft.com/eb48d2a0-c689-45b1-9f06-83df71987b4b">Type</a> property on the <a href="https://msdn.microsoft.com/3804e372-17bb-458d-8da5-85d760fe5e60">IPolicyQualifier</a> interface. 
+The <b>PolicyQualifierType</b> enumeration type specifies the type of qualifier applied to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate policy</a>. This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ipolicyqualifier-initializeencode">InitializeEncode</a> method and the  <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ipolicyqualifier-get_type">Type</a> property on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ipolicyqualifier">IPolicyQualifier</a> interface. 
 
 
 ## -enum-fields
@@ -64,7 +64,7 @@ The qualifier type is not specified.
 
 ### -field PolicyQualifierTypeUrl
 
-The qualifier is a URL that points to a Certification Practice Statement (CPS) that has been defined by the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> to outline the policies under which the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate</a> was issued and the purposes for which the certificate can be used.
+The qualifier is a URL that points to a Certification Practice Statement (CPS) that has been defined by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> to outline the policies under which the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a> was issued and the purposes for which the certificate can be used.
 
 
 ### -field PolicyQualifierTypeUserNotice
@@ -82,19 +82,19 @@ The qualifier is a text statement to be displayed by the application to any user
 
 
 
-<a href="https://msdn.microsoft.com/8514fb89-1cf5-4e09-997c-17984efc4e03">CertEnroll Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/3804e372-17bb-458d-8da5-85d760fe5e60">IPolicyQualifier</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ipolicyqualifier">IPolicyQualifier</a>
 
 
 
-<a href="https://msdn.microsoft.com/da8b6289-379e-4dff-b15a-b0967f245c3d">IPolicyQualifiers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ipolicyqualifiers">IPolicyQualifiers</a>
 
 
 
-<a href="https://msdn.microsoft.com/d35d155c-fb81-4d7e-b5c9-82ac5af4b79e">IX509ExtensionCertificatePolicies</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensioncertificatepolicies">IX509ExtensionCertificatePolicies</a>
  
 
  

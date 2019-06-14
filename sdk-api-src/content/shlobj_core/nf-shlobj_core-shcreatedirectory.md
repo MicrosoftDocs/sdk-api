@@ -79,7 +79,7 @@ A pointer to a null-terminated Unicode string that contains the fully qualified 
 
 Type: <b>int</b>
 
-Returns <b>ERROR_SUCCESS</b> if successful. If the operation fails, other error codes can be returned, including those listed here. For values not specifically listed, see <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+Returns <b>ERROR_SUCCESS</b> if successful. If the operation fails, other error codes can be returned, including those listed here. For values not specifically listed, see <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 <table>
 <tr>
@@ -153,7 +153,7 @@ The user canceled the operation.
 
 This function creates a file system folder whose fully qualified path is given by <i>pszPath</i>. If one or more of the intermediate folders do not exist, it creates them.
 
-To set security attributes on a new folder, use <a href="https://msdn.microsoft.com/7f44f907-cd12-4156-91c0-76e577ae25f6">SHCreateDirectoryEx</a>.
+To set security attributes on a new folder, use <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatedirectoryexa">SHCreateDirectoryEx</a>.
 
 
 
@@ -163,7 +163,7 @@ To set security attributes on a new folder, use <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/7f44f907-cd12-4156-91c0-76e577ae25f6">SHCreateDirectoryEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatedirectoryexa">SHCreateDirectoryEx</a>
  
 
  

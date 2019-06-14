@@ -68,7 +68,7 @@ The <b>DdVideoPortGetInputFormats</b> callback function determines the input for
 
 #### - lpGetInputFormats
 
-Points to a <a href="https://msdn.microsoft.com/d8cdfb24-0914-4e1f-bbdd-7bba31976ba0">DD_GETVPORTINPUTFORMATDATA</a> structure that contains the information required for the driver to return the input formats the VPE object can accept.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_getvportinputformatdata">DD_GETVPORTINPUTFORMATDATA</a> structure that contains the information required for the driver to return the input formats the VPE object can accept.
 
 
 ## -returns
@@ -90,7 +90,7 @@ DirectDraw calls <b>DdVideoPortGetInputFormats</b> to obtain the number of input
 
 <ul>
 <li>
-In the first call, the <b>lpddpfFormat</b> member of the DD_GETVPORTINPUTFORMATDATA structure at <i>lpGetInputFormats</i> is <b>NULL</b>. The driver should write the number of input formats that the VPE object supports in the <b>dwNumFormats</b> member of DD_GETVPORTINPUTFORMATDATA. Upon return, DirectDraw will allocate this number of <a href="https://msdn.microsoft.com/bbc26c03-c154-4b1e-883e-2942b59ded02">DDPIXELFORMAT</a> structures to pass in the second call to <b>DdVideoPortGetInputFormats</b>.
+In the first call, the <b>lpddpfFormat</b> member of the DD_GETVPORTINPUTFORMATDATA structure at <i>lpGetInputFormats</i> is <b>NULL</b>. The driver should write the number of input formats that the VPE object supports in the <b>dwNumFormats</b> member of DD_GETVPORTINPUTFORMATDATA. Upon return, DirectDraw will allocate this number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a> structures to pass in the second call to <b>DdVideoPortGetInputFormats</b>.
 
 </li>
 <li>
@@ -98,7 +98,7 @@ In the second call, <b>lpddpfFormat</b> points to the array of allocated DDPIXEL
 
 </li>
 </ul>
-If the <b>dwFlags</b> member of the DD_GETVPORTINPUTFORMATDATA structure is set only to DDVPFORMAT_VIDEO, the driver should return only those formats that are supported for the normal video data. If <b>dwFlags</b> is set only to DDVPFORMAT_VBI, the driver should return only those formats supported for the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">VBI</a> data. If <b>dwFlags</b> is set to both flags, the driver should return all formats supported by the VPE object.
+If the <b>dwFlags</b> member of the DD_GETVPORTINPUTFORMATDATA structure is set only to DDVPFORMAT_VIDEO, the driver should return only those formats that are supported for the normal video data. If <b>dwFlags</b> is set only to DDVPFORMAT_VBI, the driver should return only those formats supported for the <a href="https://docs.microsoft.com/windows-hardware/drivers/">VBI</a> data. If <b>dwFlags</b> is set to both flags, the driver should return all formats supported by the VPE object.
 
 
 
@@ -108,11 +108,11 @@ If the <b>dwFlags</b> member of the DD_GETVPORTINPUTFORMATDATA structure is set 
 
 
 
-<a href="https://msdn.microsoft.com/bbc26c03-c154-4b1e-883e-2942b59ded02">DDPIXELFORMAT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/d8cdfb24-0914-4e1f-bbdd-7bba31976ba0">DD_GETVPORTINPUTFORMATDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_getvportinputformatdata">DD_GETVPORTINPUTFORMATDATA</a>
  
 
  

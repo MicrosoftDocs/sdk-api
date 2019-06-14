@@ -56,10 +56,10 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CreatePrivateObjectSecurity</b> function allocates and initializes a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">self-relative security descriptor</a> for a new private object. A protected server calls this function when it creates a new private object.
+The <b>CreatePrivateObjectSecurity</b> function allocates and initializes a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">self-relative security descriptor</a> for a new private object. A protected server calls this function when it creates a new private object.
 
-To specify the object type GUID of the new object or control how <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entries</a> (ACEs) are inherited, use the 
-<a href="https://msdn.microsoft.com/edc62121-2625-4ee1-9450-38cb47574bb9">CreatePrivateObjectSecurityEx</a> function.
+To specify the object type GUID of the new object or control how <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) are inherited, use the 
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecurityex">CreatePrivateObjectSecurityEx</a> function.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ To specify the object type GUID of the new object or control how <a href="https:
 
 ### -param ParentDescriptor [in, optional]
 
-A pointer to the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security descriptor</a> for the parent directory in which a new object is being created. If there is no parent directory, this parameter can be <b>NULL</b>.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> for the parent directory in which a new object is being created. If there is no parent directory, this parameter can be <b>NULL</b>.
 
 
 ### -param CreatorDescriptor [in, optional]
@@ -80,7 +80,7 @@ A pointer to a security descriptor provided by the creator of the object. If the
 ### -param NewDescriptor [out]
 
 A pointer to a variable that receives a pointer to the newly allocated self-relative security descriptor. The caller must call the 
-<a href="https://msdn.microsoft.com/4ef10852-8229-41de-a4d7-d2845e4c92ce">DestroyPrivateObjectSecurity</a> function to free this security descriptor.
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-destroyprivateobjectsecurity">DestroyPrivateObjectSecurity</a> function to free this security descriptor.
 
 
 ### -param IsDirectoryObject [in]
@@ -90,13 +90,13 @@ Specifies whether the new object is a container. A value of <b>TRUE</b> indicate
 
 ### -param Token [in, optional]
 
-A handle to the <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access token</a> for the client <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">process</a> on whose behalf the object is being created. If this is an <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">impersonation token</a>, it must be at SecurityIdentification level or higher. For a full description of the SecurityIdentification impersonation level, see the 
-<a href="https://msdn.microsoft.com/a75ad777-c88e-4899-be50-0118c113a600">SECURITY_IMPERSONATION_LEVEL</a> enumerated type. 
+A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access token</a> for the client <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">process</a> on whose behalf the object is being created. If this is an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">impersonation token</a>, it must be at SecurityIdentification level or higher. For a full description of the SecurityIdentification impersonation level, see the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a> enumerated type. 
 
 
 
 
-A client token is used to retrieve default security information for the new object, such as its default owner, primary group, and <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">discretionary access control list</a>. The token must be open for <b>TOKEN_QUERY</b> access.
+A client token is used to retrieve default security information for the new object, such as its default owner, primary group, and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control list</a>. The token must be open for <b>TOKEN_QUERY</b> access.
 
 If all of the following conditions are true, then the handle must be opened for <b>TOKEN_DUPLICATE</b> access in addition to <b>TOKEN_QUERY</b> access.
 
@@ -110,7 +110,7 @@ If all of the following conditions are true, then the handle must be opened for 
 ### -param GenericMapping [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/e3c49b47-9bc7-4000-a131-449345ebb9cd">GENERIC_MAPPING</a> structure that specifies the mapping from each generic right to specific rights for the object.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_generic_mapping">GENERIC_MAPPING</a> structure that specifies the mapping from each generic right to specific rights for the object.
 
 
 ## -returns
@@ -121,7 +121,7 @@ If the function succeeds, the function returns nonzero.
       
 
 If the function fails, it returns zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -130,8 +130,8 @@ If the function fails, it returns zero. To get extended error information, call
 
 
 
-If a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">system access control list</a> (SACL) is specified in the 
-<a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> specified by the <i>CreatorDescriptor</i> parameter, the <i>Token</i> parameter must have the SE_SECURITY_NAME privilege enabled. The <b>CreatePrivateObjectSecurity</b> function checks this privilege and may generate audits during the process.
+If a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) is specified in the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> specified by the <i>CreatorDescriptor</i> parameter, the <i>Token</i> parameter must have the SE_SECURITY_NAME privilege enabled. The <b>CreatePrivateObjectSecurity</b> function checks this privilege and may generate audits during the process.
 
 
 
@@ -141,47 +141,47 @@ If a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">s
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Client/Server Access Control Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Client/Server Access Control Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/8301ed4f-9458-410b-af19-4f055656005a">Client/Server Access Control Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/client-server-access-control">Client/Server Access Control Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/edc62121-2625-4ee1-9450-38cb47574bb9">CreatePrivateObjectSecurityEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecurityex">CreatePrivateObjectSecurityEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ef10852-8229-41de-a4d7-d2845e4c92ce">DestroyPrivateObjectSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-destroyprivateobjectsecurity">DestroyPrivateObjectSecurity</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3c49b47-9bc7-4000-a131-449345ebb9cd">GENERIC_MAPPING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_generic_mapping">GENERIC_MAPPING</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e93c0a0-e449-4df1-812b-c3fb0dfe9c19">GetPrivateObjectSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getprivateobjectsecurity">GetPrivateObjectSecurity</a>
 
 
 
-<a href="https://msdn.microsoft.com/e94de19c-de12-40fb-a72c-060f7ad12f75">GetTokenInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/1e760ad8-7e46-4748-8c45-36ad8efe936a">OpenProcessToken</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocesstoken">OpenProcessToken</a>
 
 
 
-<a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/a75ad777-c88e-4899-be50-0118c113a600">SECURITY_IMPERSONATION_LEVEL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a>
 
 
 
-<a href="https://msdn.microsoft.com/726994c8-7813-4f1a-b7d7-a25e79202c33">SetPrivateObjectSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setprivateobjectsecurity">SetPrivateObjectSecurity</a>
  
 
  

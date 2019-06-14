@@ -49,14 +49,14 @@ ms.custom: 19H1
 ## -description
 
 
-Used by a fax client application to retrieve the inbound fax jobs (<a href="https://msdn.microsoft.com/en-us/library/ms684959(v=VS.85).aspx">FaxIncomingJobs</a> object) in the job queue for a particular fax account.
+Used by a fax client application to retrieve the inbound fax jobs (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingjobs">FaxIncomingJobs</a> object) in the job queue for a particular fax account.
 
-The <b>IFaxAccountIncomingQueue</b> interface is accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa359052(v=VS.85).aspx">IFaxAccountFolders</a> interface.
+The <b>IFaxAccountIncomingQueue</b> interface is accessed through the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccountfolders">IFaxAccountFolders</a> interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxAccountIncomingQueue</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxAccountIncomingQueue</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxAccountIncomingQueue</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxAccountIncomingQueue</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IFaxAccountIncomingQueue</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa359044(v=VS.85).aspx">GetJob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingqueue-getjob-vb">GetJob</a>
 </td>
 <td align="left" width="63%">
 Returns an incoming fax job in the job queue of the current fax account according to the job's ID.
@@ -80,7 +80,7 @@ Returns an incoming fax job in the job queue of the current fax account accordin
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa359045(v=VS.85).aspx">GetJobs</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingqueue-getjobs-vb">GetJobs</a>
 </td>
 <td align="left" width="63%">
 Returns the collection of inbound fax jobs in the queue for the current fax account.
@@ -95,15 +95,15 @@ Returns the collection of inbound fax jobs in the queue for the current fax acco
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358954(v=VS.85).aspx">FaxAccountIncomingQueue</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingqueue">FaxAccountIncomingQueue</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa359052(v=VS.85).aspx">IFaxAccountFolders</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccountfolders">IFaxAccountFolders</a>
  
 
  

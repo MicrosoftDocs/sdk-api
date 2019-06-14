@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>WinUsb_UnregisterIsochBuffer</b> function releases all of the resources that <a href="https://msdn.microsoft.com/7781BD59-3576-4C43-9459-E2455F97E9DE">WinUsb_RegisterIsochBuffer</a> allocated for isochronous transfers. This is a synchronous operation.
+The <b>WinUsb_UnregisterIsochBuffer</b> function releases all of the resources that <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_registerisochbuffer">WinUsb_RegisterIsochBuffer</a> allocated for isochronous transfers. This is a synchronous operation.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>WinUsb_UnregisterIsochBuffer</b> function releases all of the resources t
 
 ### -param IsochBufferHandle [in]
 
-An opaque handle to the transfer buffer that was registered by a previous call to <a href="https://msdn.microsoft.com/7781BD59-3576-4C43-9459-E2455F97E9DE">WinUsb_RegisterIsochBuffer</a>. 
+An opaque handle to the transfer buffer that was registered by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_registerisochbuffer">WinUsb_RegisterIsochBuffer</a>. 
 
 
 ## -returns
@@ -85,7 +85,7 @@ The caller must ensure that there are no pending transfers that is currently usi
 
 
 
-<a href="https://msdn.microsoft.com/E850ACF2-7FF7-42A2-B3FA-3CFE3A3968E3">Send USB isochronous transfers from a WinUSB desktop app</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Send USB isochronous transfers from a WinUSB desktop app</a>
 
 
 
@@ -93,7 +93,7 @@ The caller must ensure that there are no pending transfers that is currently usi
 
 
 
-<a href="https://msdn.microsoft.com/7781BD59-3576-4C43-9459-E2455F97E9DE">WinUsb_RegisterIsochBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_registerisochbuffer">WinUsb_RegisterIsochBuffer</a>
  
 
  

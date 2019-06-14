@@ -67,7 +67,7 @@ Performs an operation on a specified file.
 
 Type: <b>SHELLEXECUTEINFO*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/50e0dac3-b5dc-4d9f-8fd7-3a53a428166b">SHELLEXECUTEINFO</a> structure that contains and receives information about the application being executed.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shellexecuteinfoa">SHELLEXECUTEINFO</a> structure that contains and receives information about the application being executed.
 
 
 ## -returns
@@ -76,7 +76,7 @@ A pointer to a <a href="https://msdn.microsoft.com/50e0dac3-b5dc-4d9f-8fd7-3a53a
 
 Type: <b>BOOL</b>
 
-Returns <b>TRUE</b> if successful; otherwise, <b>FALSE</b>. Call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> for extended error information.
+Returns <b>TRUE</b> if successful; otherwise, <b>FALSE</b>. Call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for extended error information.
 
 
 
@@ -92,13 +92,13 @@ Because <b>ShellExecuteEx</b> can delegate execution to Shell extensions (data s
 <pre class="syntax" xml:space="preserve"><code>CoInitializeEx(NULL, COINIT_APARTMENTTHREADED | COINIT_DISABLE_OLE1DDE)</code></pre>
 There are instances where <b>ShellExecuteEx</b> does not use one of these types of Shell extension and those instances would not require COM to be initialized at all. Nonetheless, it is good practice to always initalize COM before using this function.
 
-When DLLs are loaded into your process, you acquire a lock known as a <a href="http://go.microsoft.com/fwlink/p/?linkid=201929">loader lock</a>. The <a href="https://msdn.microsoft.com/0c3e3083-9297-4626-b2a7-0062d1c2cf9e">DllMain</a> function always executes under the loader lock. It is important that you do not call <b>ShellExecuteEx</b> while you hold a loader lock. Because <b>ShellExecuteEx</b> is extensible, you could load code that does not function properly in the presence of a loader lock, risking a deadlock and therefore an unresponsive thread.
+When DLLs are loaded into your process, you acquire a lock known as a <a href="http://go.microsoft.com/fwlink/p/?linkid=201929">loader lock</a>. The <a href="https://docs.microsoft.com/windows/desktop/Dlls/dllmain">DllMain</a> function always executes under the loader lock. It is important that you do not call <b>ShellExecuteEx</b> while you hold a loader lock. Because <b>ShellExecuteEx</b> is extensible, you could load code that does not function properly in the presence of a loader lock, risking a deadlock and therefore an unresponsive thread.
 
-With multiple monitors, if you specify an <b>HWND</b> and set the <b>lpVerb</b> member of the <a href="https://msdn.microsoft.com/50e0dac3-b5dc-4d9f-8fd7-3a53a428166b">SHELLEXECUTEINFO</a> structure pointed to by <i>lpExecInfo</i> to "Properties", any windows created by <b>ShellExecuteEx</b> might not appear in the correct position.
+With multiple monitors, if you specify an <b>HWND</b> and set the <b>lpVerb</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shellexecuteinfoa">SHELLEXECUTEINFO</a> structure pointed to by <i>lpExecInfo</i> to "Properties", any windows created by <b>ShellExecuteEx</b> might not appear in the correct position.
 
-If the function succeeds, it sets the <b>hInstApp</b> member of the <a href="https://msdn.microsoft.com/50e0dac3-b5dc-4d9f-8fd7-3a53a428166b">SHELLEXECUTEINFO</a> structure to a value greater than 32. If the function fails, <b>hInstApp</b> is set to the <a href="https://msdn.microsoft.com/8b1f3978-a0ee-4684-8a37-98e270b63897">SE_ERR_XXX</a> error value that best indicates the cause of the failure. Although <b>hInstApp</b> is declared as an HINSTANCE for compatibility with 16-bit Windows applications, it is not a true HINSTANCE. It can be cast only to an <b>int</b> and can be compared only to either the value 32 or the SE_ERR_XXX error codes.
+If the function succeeds, it sets the <b>hInstApp</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shellexecuteinfoa">SHELLEXECUTEINFO</a> structure to a value greater than 32. If the function fails, <b>hInstApp</b> is set to the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">SE_ERR_XXX</a> error value that best indicates the cause of the failure. Although <b>hInstApp</b> is declared as an HINSTANCE for compatibility with 16-bit Windows applications, it is not a true HINSTANCE. It can be cast only to an <b>int</b> and can be compared only to either the value 32 or the SE_ERR_XXX error codes.
 
-The SE_ERR_XXX error values are provided for compatibility with <a href="https://msdn.microsoft.com/8b1f3978-a0ee-4684-8a37-98e270b63897">ShellExecute</a>. To retrieve more accurate error information, use <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. It may return one of the following values.
+The SE_ERR_XXX error values are provided for compatibility with <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a>. To retrieve more accurate error information, use <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. It may return one of the following values.
 
 <table class="clsStd">
 <tr>
@@ -144,9 +144,9 @@ The SE_ERR_XXX error values are provided for compatibility with <a href="https:/
 </table>
  
 
-<b>Opening items from a URL</b> You can register your application to activate when passed URLs. You can also specify which protocols your application supports. See <a href="https://msdn.microsoft.com/F88AA3E6-6F7B-442d-935A-7D2CB4958E6B">Application Registration</a> for more info.
+<b>Opening items from a URL</b> You can register your application to activate when passed URLs. You can also specify which protocols your application supports. See <a href="https://docs.microsoft.com/windows/desktop/shell/app-registration">Application Registration</a> for more info.
 
-<b>Site chain support</b> As of Windows 8, you can provide a site chain pointer to the <b>ShellExecuteEx</b> function to support item activation with services from that site. See <a href="https://msdn.microsoft.com/d774c3b2-4caf-460a-ac32-0ed603491d5f">Launching Applications (ShellExecute, ShellExecuteEx, SHELLEXECUTEINFO)</a> for more information. 
+<b>Site chain support</b> As of Windows 8, you can provide a site chain pointer to the <b>ShellExecuteEx</b> function to support item activation with services from that site. See <a href="https://docs.microsoft.com/windows/desktop/shell/launch">Launching Applications (ShellExecute, ShellExecuteEx, SHELLEXECUTEINFO)</a> for more information. 
 
 
 
@@ -156,19 +156,19 @@ The SE_ERR_XXX error values are provided for compatibility with <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/ffb79c0f-aeda-4ea1-aea8-afb79109837f">CoInitializeEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/48af59ec-d646-454e-b699-389033812638">IShellExecuteHook</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/how-to-register-and-implement-a-property-sheet-handler-for-a-control-panel-application">IShellExecuteHook</a>
 
 
 
-<a href="https://msdn.microsoft.com/d774c3b2-4caf-460a-ac32-0ed603491d5f">Launching Applications (ShellExecute, ShellExecuteEx, SHELLEXECUTEINFO)</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/launch">Launching Applications (ShellExecute, ShellExecuteEx, SHELLEXECUTEINFO)</a>
 
 
 
-<a href="https://msdn.microsoft.com/8b1f3978-a0ee-4684-8a37-98e270b63897">ShellExecute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a>
  
 
  

@@ -59,9 +59,9 @@ A message pump calls this method to see if any messages should be redirected to 
 
 ### -param pmsg [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a> structure.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a> structure.
 
 
 ## -returns
@@ -84,7 +84,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-A message should be redirected to the COM object. The application should call <a href="https://msdn.microsoft.com/5ee1f64f-ca8b-4f50-bbab-24ff1216708c">IMenuBand::TranslateMenuMessage</a> with this message.
+A message should be redirected to the COM object. The application should call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imenuband-translatemenumessage">IMenuBand::TranslateMenuMessage</a> with this message.
 
 </td>
 </tr>
@@ -109,7 +109,7 @@ The menu has exited the menu mode and can be destroyed.
 
 
 
-If this method returns <b>S_OK</b>, the message loop should not call <a href="https://msdn.microsoft.com/en-us/library/ms644955(v=VS.85).aspx">TranslateMessage</a> or <a href="https://msdn.microsoft.com/en-us/library/ms644934(v=VS.85).aspx">DispatchMessage</a>.
+If this method returns <b>S_OK</b>, the message loop should not call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage">TranslateMessage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dispatchmessage">DispatchMessage</a>.
 
 
 

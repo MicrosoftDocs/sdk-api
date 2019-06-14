@@ -59,7 +59,7 @@ The <b>get__Allocator</b> method retrieves the allocator-presenter from the VMR.
 
 ### -param AllocPresent [out]
 
-Receives an <a href="https://msdn.microsoft.com/en-us/library/Dd390499(v=VS.85).aspx">IVMRSurfaceAllocator</a> interface pointer.
+Receives an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrsurfaceallocator">IVMRSurfaceAllocator</a> interface pointer.
 
 
 ## -returns
@@ -105,7 +105,7 @@ NULL pointer argument.
 
 
 
-The caller must release the <a href="https://msdn.microsoft.com/en-us/library/Dd390499(v=VS.85).aspx">IVMRSurfaceAllocator</a> interface.
+The caller must release the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrsurfaceallocator">IVMRSurfaceAllocator</a> interface.
 
 
 
@@ -115,7 +115,7 @@ The caller must release the <a href="https://msdn.microsoft.com/en-us/library/Dd
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694713(v=VS.85).aspx">IMSVidVideoRenderer2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidvideorenderer2">IMSVidVideoRenderer2 Interface</a>
  
 
  

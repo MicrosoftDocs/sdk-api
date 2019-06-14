@@ -60,7 +60,7 @@ Create an IDirect3D9 object and return an interface to it.
 
 ### -param SDKVersion
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The value of this parameter should be D3D_SDK_VERSION. See Remarks.
 
@@ -69,9 +69,9 @@ The value of this parameter should be D3D_SDK_VERSION. See Remarks.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb174300(v=VS.85).aspx">IDirect3D9</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a>*</b>
 
-If successful, this function returns a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb174300(v=VS.85).aspx">IDirect3D9</a> interface; otherwise, a <b>NULL</b> pointer is returned.
+If successful, this function returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a> interface; otherwise, a <b>NULL</b> pointer is returned.
 
 
 
@@ -95,11 +95,11 @@ if( NULL == (g_pD3D = Direct3DCreate9(D3D_SDK_VERSION)))
 ```
 
 
-The IDirect3D9 interface supports enumeration of active display adapters and allows the creation of <a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a> objects. If the user dynamically adds adapters (either by adding devices to the desktop, or by hot-docking a laptop), those devices will not be included in the enumeration. Creating a new IDirect3D9 interface will expose the new devices.
+The IDirect3D9 interface supports enumeration of active display adapters and allows the creation of <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a> objects. If the user dynamically adds adapters (either by adding devices to the desktop, or by hot-docking a laptop), those devices will not be included in the enumeration. Creating a new IDirect3D9 interface will expose the new devices.
 
 D3D_SDK_VERSION is passed to this function to ensure that the header files against which an application is compiled match the version of the runtime DLL's that are installed on the machine. D3D_SDK_VERSION is only changed in the runtime when a header change (or other code change) would require an application to be rebuilt. If this function fails, it indicates that the header file version does not match the runtime DLL version.
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/Bb204867(v=VS.85).aspx">Creating a Device (Direct3D 9)</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/creating-a-device">Creating a Device (Direct3D 9)</a>.
 
 
 
@@ -109,7 +109,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/Bb204867(v
 
 
 
-<a href="https://msdn.microsoft.com/258a76f2-2dd6-49cb-bf8c-f437792bba27">Direct3D Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d9/dx9-graphics-reference-d3d-functions">Direct3D Functions</a>
  
 
  

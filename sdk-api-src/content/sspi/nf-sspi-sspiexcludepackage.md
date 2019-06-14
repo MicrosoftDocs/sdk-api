@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a new identity structure that is a copy of  the specified identity structure modified to exclude the specified <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security support provider</a> (SSP).
+Creates a new identity structure that is a copy of  the specified identity structure modified to exclude the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP).
 
 
 ## -parameters

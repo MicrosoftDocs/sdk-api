@@ -59,7 +59,7 @@ The <b>GetEventRecord</b> method retrieves the event record that describes an ev
 
 ### -param EventRecord [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/e352c1a7-39a2-43e3-a723-5fc6a3921ee8">PEVENT_RECORD</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_record">PEVENT_RECORD</a>*</b>
 
 The event record.
 
@@ -89,11 +89,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/e352c1a7-39a2-43e3-a723-5fc6a3921ee8">EVENT_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_record">EVENT_RECORD</a>
 
 
 
-<a href="https://msdn.microsoft.com/29b6f72a-ae81-4292-a023-a4bab16ae143">ITraceEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itraceevent">ITraceEvent</a>
  
 
  

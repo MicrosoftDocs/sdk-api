@@ -68,7 +68,7 @@ Reserved, must be zero.
 
 ### -param peClockState [out]
 
-Receives the clock state, as a member of the <a href="https://msdn.microsoft.com/90e04807-c3be-4f38-a508-9dfe62700869">MFCLOCK_STATE</a> enumeration.
+Receives the clock state, as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-_mfclock_state">MFCLOCK_STATE</a> enumeration.
 
 
 ## -returns
@@ -104,7 +104,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/3a60bfec-8511-4a84-a833-e0c73c593970">IMFClock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfclock">IMFClock</a>
  
 
  

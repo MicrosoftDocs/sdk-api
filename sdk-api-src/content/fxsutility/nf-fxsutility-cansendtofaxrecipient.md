@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Called by an application to determine whether to make a menu item or other UI available that calls the Windows Vista function <a href="https://msdn.microsoft.com/en-us/library/Aa358864(v=VS.85).aspx">SendToFaxRecipient</a>. 
+Called by an application to determine whether to make a menu item or other UI available that calls the Windows Vista function <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fxsutility/nf-fxsutility-sendtofaxrecipient">SendToFaxRecipient</a>. 
 
 
 ## -parameters
@@ -91,11 +91,11 @@ Typically, this function is called when the application launches.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358864(v=VS.85).aspx">SendToFaxRecipient</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fxsutility/nf-fxsutility-sendtofaxrecipient">SendToFaxRecipient</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358863(v=VS.85).aspx">Shell Fax Extension Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-shell-fax-extension-functions">Shell Fax Extension Functions</a>
  
 
  

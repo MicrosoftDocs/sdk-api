@@ -71,7 +71,7 @@ The number of valid frames in the connection buffer. An APO  uses the valid fram
 
 ### -field u32BufferFlags
 
-The connection flags for this buffer. This indicates the validity status of the APOs. For more information about these flags, see <a href="https://msdn.microsoft.com/996b56d7-1187-4ed7-b5f5-7d77291113f6">APO_BUFFER_FLAGS</a>.
+The connection flags for this buffer. This indicates the validity status of the APOs. For more information about these flags, see <a href="https://docs.microsoft.com/windows/desktop/api/audioapotypes/ne-audioapotypes-apo_buffer_flags">APO_BUFFER_FLAGS</a>.
 
 
 ### -field u32Signature

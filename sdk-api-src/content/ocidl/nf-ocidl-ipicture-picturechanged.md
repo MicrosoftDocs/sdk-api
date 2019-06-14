@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Notifies the picture object that its picture resource has changed. This method only calls <a href="https://msdn.microsoft.com/71ab5206-5127-45f1-a2b5-3fbcc867d678">IPropertyNotifySink::OnChanged</a> with DISPID_PICT_HANDLE for any connected sinks.
+Notifies the picture object that its picture resource has changed. This method only calls <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertynotifysink-onchanged">IPropertyNotifySink::OnChanged</a> with DISPID_PICT_HANDLE for any connected sinks.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ This method S_OK if it succeeds and E_FAIL if the picture object is uninitialize
 
 
 
-<a href="https://msdn.microsoft.com/42e3cd0e-2413-494a-8be8-2952089e02d2">IPicture</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a>
  
 
  

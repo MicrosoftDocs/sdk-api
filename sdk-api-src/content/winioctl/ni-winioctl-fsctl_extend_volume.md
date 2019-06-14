@@ -50,7 +50,7 @@ req.redist:
 
 Increases the size of a mounted volume.
 
-To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
+To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
     function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -152,7 +152,7 @@ This control code is supported on NTFS, RAW, and ReFS file systems.
 
 This control code cannot be used to reduce the size of a volume. The new volume size must be at least one 
     cluster larger than the previous volume size. The underlying partition must have enough sectors to contain the 
-    extended volume. If not, <a href="https://msdn.microsoft.com/bbcb0bee-a507-4abb-83df-328f3aa6caaa">IOCTL_DISK_GROW_PARTITION</a> can be used if the underlying device has enough space available.
+    extended volume. If not, <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_grow_partition">IOCTL_DISK_GROW_PARTITION</a> can be used if the underlying device has enough space available.
 
 You can extend a live volume, and the volume can be open for sharing during the extend operation.
 
@@ -227,23 +227,23 @@ Yes
 
 
 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/cf545417-f933-4054-bed4-e6adbf822f9c">FSCTL_SHRINK_VOLUME</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_shrink_volume">FSCTL_SHRINK_VOLUME</a>
 
 
 
-<a href="https://msdn.microsoft.com/bbcb0bee-a507-4abb-83df-328f3aa6caaa">IOCTL_DISK_GROW_PARTITION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_grow_partition">IOCTL_DISK_GROW_PARTITION</a>
 
 
 
-<a href="https://msdn.microsoft.com/87f39e1c-3ebf-4c6f-a842-699ec3c45e76">Volume Management Control Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes">Volume Management Control Codes</a>
  
 
  

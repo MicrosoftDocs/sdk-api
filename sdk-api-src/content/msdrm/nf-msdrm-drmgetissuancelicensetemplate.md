@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 the client in Msdrm.dll is available for use in Windows Server 2008, Windows Vista, Windows Server 2008 R2, Windows 7, Windows Server 2012, and Windows 8. It may be altered or 
 
-unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/a7900f40-4c53-4760-8e5a-9c88149f86d0">Active Directory Rights Management Services SDK 2.1</a>, 
+unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
 
 which leverages functionality exposed by the client in Msipc.dll.]
 
@@ -91,7 +91,7 @@ To determine the required size of this buffer, pass <b>NULL</b> for this paramet
 
 If the function succeeds, the function returns S_OK.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -100,11 +100,11 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 
-This function is used to extract a XrML string version of an issuance license when you have a handle to an existing issuance license. This string can then be used as a template to create a new issuance license. To create a new template, first create a blank issuance license by calling <a href="https://msdn.microsoft.com/db2e9aa6-7021-4805-8fd7-94c8d02776b0">DRMCreateIssuanceLicense</a> (working from a prior template or not), then add custom rights, users, or other information to the issuance license. Pass the modified issuance license to this function and extract the template.
+This function is used to extract a XrML string version of an issuance license when you have a handle to an existing issuance license. This string can then be used as a template to create a new issuance license. To create a new template, first create a blank issuance license by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateissuancelicense">DRMCreateIssuanceLicense</a> (working from a prior template or not), then add custom rights, users, or other information to the issuance license. Pass the modified issuance license to this function and extract the template.
 
 Memory allocation and release for out parameters is the responsibility of the calling function. To obtain the size needed to hold the template string, call this function with <b>NULL</b> in the <i>wszIssuanceLicenseTemplate</i> parameter to retrieve the required size in the <i>puIssuanceLicenseTemplateLength</i> parameter.
 
-The issuance license passed in to <b>DRMGetIssuanceLicenseTemplate</b> must have metadata and associated rights. If it does not, the function call will fail. Use the <a href="https://msdn.microsoft.com/dcf95e9e-e2de-449e-a45a-4974094ecb7e">DRMSetMetaData</a> function to set metadata for an issuance license. Use the <a href="https://msdn.microsoft.com/05074fbd-9268-41b4-a916-a932dc7a7858">DRMCreateRight</a> or <a href="https://msdn.microsoft.com/10b76b20-cee7-44f3-b9bd-2b690fdd040c">DRMAddRightWithUser</a> functions to create or add rights.
+The issuance license passed in to <b>DRMGetIssuanceLicenseTemplate</b> must have metadata and associated rights. If it does not, the function call will fail. Use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmsetmetadata">DRMSetMetaData</a> function to set metadata for an issuance license. Use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateright">DRMCreateRight</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmaddrightwithuser">DRMAddRightWithUser</a> functions to create or add rights.
 
 
 
@@ -114,11 +114,11 @@ The issuance license passed in to <b>DRMGetIssuanceLicenseTemplate</b> must have
 
 
 
-<a href="https://msdn.microsoft.com/b3b4e7c6-d3d3-4bf7-b6c4-9502a56a7223">AD RMS Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/db2e9aa6-7021-4805-8fd7-94c8d02776b0">DRMCreateIssuanceLicense</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateissuancelicense">DRMCreateIssuanceLicense</a>
  
 
  

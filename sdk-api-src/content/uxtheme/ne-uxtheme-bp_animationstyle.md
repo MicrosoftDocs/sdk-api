@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used in the <a href="https://msdn.microsoft.com/en-us/library/Bb773224(v=VS.85).aspx">BP_ANIMATIONPARAMS</a> structure to declare animation options.
+Used in the <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-_bp_animationparams">BP_ANIMATIONPARAMS</a> structure to declare animation options.
 
 
 ## -enum-fields

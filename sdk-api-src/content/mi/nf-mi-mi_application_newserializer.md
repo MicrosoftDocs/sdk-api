@@ -59,7 +59,7 @@ Retrieves a serializer object that can then be used to serialize instances and c
 
 ### -param application [in, out]
 
-A pointer to a handle returned from the <a href="https://msdn.microsoft.com/32696A33-820D-4D01-AF71-DDA1F34EFBE0">MI_Application_Initialize</a> function.
+A pointer to a handle returned from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_initializev1">MI_Application_Initialize</a> function.
 
 
 ### -param flags
@@ -90,7 +90,7 @@ This function returns MI_INLINE MI_Result.
 
 
 
-Serializers are used to persist <a href="https://msdn.microsoft.com/3dce1817-7995-49e5-8cc0-ee9496665e5c">MI_Instance</a> and <a href="https://msdn.microsoft.com/7f02e0fa-9e58-455d-9cf4-1d1244c44422">MI_Class</a> objects.  A deserializer is then used to re-create the object from its stored form.
+Serializers are used to persist <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_class">MI_Class</a> objects.  A deserializer is then used to re-create the object from its stored form.
 
 
 

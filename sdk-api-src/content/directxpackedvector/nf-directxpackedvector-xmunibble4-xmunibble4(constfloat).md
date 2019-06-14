@@ -48,7 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-Initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420614(v=VS.85).aspx">XMUNIBBLE4</a> from a four element <code>float</code> array argument.
+Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4">XMUNIBBLE4</a> from a four element <code>float</code> array argument.
 
 This constructor initializes a new instance of XMUNIBBLE4 from a from a four element <code>float</code> array argument.
 
@@ -90,6 +90,6 @@ instance.v =  ( (uint16_t)_w1 << 12) |
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420614(v=VS.85).aspx">XMUNIBBLE4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4">XMUNIBBLE4</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415488(v=VS.85).aspx">XMUNIBBLE4 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmunibble4-ctor">XMUNIBBLE4 Constructors</a>

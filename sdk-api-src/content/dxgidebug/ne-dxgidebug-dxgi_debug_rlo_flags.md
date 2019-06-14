@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Flags used with <a href="https://msdn.microsoft.com/6CA5C335-08E3-4CC6-A9C9-D7BC6B11C0EA">ReportLiveObjects</a> to specify the amount of info to report about an object's lifetime.
+Flags used with <a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgidebug-reportliveobjects">ReportLiveObjects</a> to specify the amount of info to report about an object's lifetime.
         
 
 
@@ -89,7 +89,7 @@ A flag that specifies to obtain both a summary and detailed info about an object
 
 
 
-Use this enumeration with <a href="https://msdn.microsoft.com/6CA5C335-08E3-4CC6-A9C9-D7BC6B11C0EA">IDXGIDebug::ReportLiveObjects</a>.
+Use this enumeration with <a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgidebug-reportliveobjects">IDXGIDebug::ReportLiveObjects</a>.
         
 
 <div class="alert"><b>Note</b>  This API requires the Windows Software Development Kit (SDK) for Windows 8.
@@ -103,7 +103,7 @@ Use this enumeration with <a href="https://msdn.microsoft.com/6CA5C335-08E3-4CC6
 
 
 
-<a href="https://msdn.microsoft.com/c4574c89-dee2-4841-9318-5383cf417111">DXGI Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-enums">DXGI Enumerations</a>
  
 
  

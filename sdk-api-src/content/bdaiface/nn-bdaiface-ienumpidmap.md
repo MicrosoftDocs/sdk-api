@@ -51,9 +51,9 @@ ms.custom: 19H1
 
 
 
-The <code>IEnumPIDMap</code> interface enumerates a collection of Packet ID (PID) maps. Each PID map describes how the <a href="https://msdn.microsoft.com/99bfc55d-6519-4e85-98ce-cad27bd71ffb">MPEG-2 Demultiplexer</a> filter maps a PID to an output pin on the filter. PID mappings are created by calling the <a href="https://msdn.microsoft.com/en-us/library/Dd407134(v=VS.85).aspx">IMPEG2PIDMap::MapPID</a> method on the filter's output pin.
+The <code>IEnumPIDMap</code> interface enumerates a collection of Packet ID (PID) maps. Each PID map describes how the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/mpeg-2-demultiplexer">MPEG-2 Demultiplexer</a> filter maps a PID to an output pin on the filter. PID mappings are created by calling the <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-impeg2pidmap-mappid">IMPEG2PIDMap::MapPID</a> method on the filter's output pin.
 
-To obtain the <code>IEnumPIDMap</code> interface, call the <a href="https://msdn.microsoft.com/en-us/library/Dd407133(v=VS.85).aspx">IMPEG2PIDMap::EnumPIDMap</a> method on the output pin. Typically, output pins for audio and video streams have at most one PID mapped at any given time.
+To obtain the <code>IEnumPIDMap</code> interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-impeg2pidmap-enumpidmap">IMPEG2PIDMap::EnumPIDMap</a> method on the output pin. Typically, output pins for audio and video streams have at most one PID mapped at any given time.
 
 This interface implements a standard Component Object Model (COM) collection object. The collection object represents a snapshot of the PID map when the collection is created. The collection is not updated automatically.
 
@@ -62,7 +62,7 @@ This interface implements a standard Component Object Model (COM) collection obj
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumPIDMap</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnumPIDMap</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumPIDMap</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumPIDMap</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IEnumPIDMap</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd376606(v=VS.85).aspx">Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ienumpidmap-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the collection.
@@ -86,7 +86,7 @@ Creates a copy of the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd376607(v=VS.85).aspx">Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ienumpidmap-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the next <i>n</i> elements in the collection.
@@ -95,7 +95,7 @@ Retrieves the next <i>n</i> elements in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd376608(v=VS.85).aspx">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ienumpidmap-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Moves the iterator to the beginning of the collection.
@@ -104,7 +104,7 @@ Moves the iterator to the beginning of the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd376609(v=VS.85).aspx">Skip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ienumpidmap-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over the specified number of elements in the collection.

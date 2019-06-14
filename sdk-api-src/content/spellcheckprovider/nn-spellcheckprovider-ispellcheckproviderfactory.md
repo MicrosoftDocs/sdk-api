@@ -49,14 +49,14 @@ ms.custom: 19H1
 ## -description
 
 
-A factory for instantiating a spell checker (<a href="https://msdn.microsoft.com/D7C8831E-6FCE-45E0-B2EB-4EB2B1F7911F">ISpellCheckProvider</a>) as well as providing functionality for determining which languages are supported.
+A factory for instantiating a spell checker (<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckprovider">ISpellCheckProvider</a>) as well as providing functionality for determining which languages are supported.
 
   This is instantiated by providers and used by the Spell Checking API.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpellCheckProviderFactory</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISpellCheckProviderFactory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpellCheckProviderFactory</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISpellCheckProviderFactory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,7 +72,7 @@ The <b>ISpellCheckProviderFactory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E56E13D5-A41D-41F4-8E63-55664F6A8E28">CreateSpellCheckProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nf-spellcheckprovider-ispellcheckproviderfactory-createspellcheckprovider">CreateSpellCheckProvider</a>
 </td>
 <td align="left" width="63%">
 Creates a spell checker (implemented by a spell check provider) that supports the specified language.
@@ -81,7 +81,7 @@ Creates a spell checker (implemented by a spell check provider) that supports th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/88689384-E95E-4D56-BAD4-9889816F76EB">IsSupported</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nf-spellcheckprovider-ispellcheckproviderfactory-issupported">IsSupported</a>
 </td>
 <td align="left" width="63%">
 Determines if the specified language is supported by this spell checker.
@@ -99,7 +99,7 @@ Determines if the specified language is supported by this spell checker.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/52690D99-4E14-44CE-BFD8-D0931F250280">SupportedLanguages</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nf-spellcheckprovider-ispellcheckproviderfactory-get_supportedlanguages">SupportedLanguages</a>
 
 
 </td>
@@ -120,7 +120,7 @@ Gets the set of languages/dialects supported by the spell checker.
 
 
 
-<a href="https://msdn.microsoft.com/D7C8831E-6FCE-45E0-B2EB-4EB2B1F7911F">ISpellCheckProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckprovider">ISpellCheckProvider</a>
  
 
  

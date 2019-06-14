@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information about a mouse event passed to a <b>WH_MOUSE</b> hook procedure, <a href="https://msdn.microsoft.com/en-us/library/ms644988(v=VS.85).aspx">MouseProc</a>. 
+Contains information about a mouse event passed to a <b>WH_MOUSE</b> hook procedure, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644988(v=vs.85)">MouseProc</a>. 
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ Contains information about a mouse event passed to a <b>WH_MOUSE</b> hook proced
 
 ### -field pt
 
-Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
 
 The x- and y-coordinates of the cursor, in screen coordinates. 
 
@@ -75,7 +75,7 @@ A handle to the window that will receive the mouse message corresponding to the 
 
 Type: <b>UINT</b>
 
-The hit-test value. For a list of hit-test values, see the description of the <a href="https://msdn.microsoft.com/en-us/library/ms645618(v=VS.85).aspx">WM_NCHITTEST</a> message. 
+The hit-test value. For a list of hit-test values, see the description of the <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-nchittest">WM_NCHITTEST</a> message. 
 
 
 ### -field dwExtraInfo
@@ -94,11 +94,11 @@ Additional information associated with the message.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632589(v=VS.85).aspx">Hooks</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/hooks">Hooks</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644988(v=VS.85).aspx">MouseProc</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644988(v=vs.85)">MouseProc</a>
 
 
 
@@ -106,11 +106,11 @@ Additional information associated with the message.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644990(v=VS.85).aspx">SetWindowsHookEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645618(v=VS.85).aspx">WM_NCHITTEST</a>
+<a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-nchittest">WM_NCHITTEST</a>
  
 
  

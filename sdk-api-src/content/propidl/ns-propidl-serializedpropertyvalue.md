@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-A range of memory of arbitrary type that represents a serialized <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure. Programs should not inspect the contents of a <b>SERIALIZEDPROPERTYVALUE</b>; instead, they should manipulate it with the <a href="https://msdn.microsoft.com/c588e239-616f-4569-88b5-6bfb504cefa1">StgSerializePropVariant</a> and <a href="https://msdn.microsoft.com/0517ef4d-e57c-4613-8d11-5e1eb14eb9fa">StgDeserializePropVariant</a> functions.
+A range of memory of arbitrary type that represents a serialized <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure. Programs should not inspect the contents of a <b>SERIALIZEDPROPERTYVALUE</b>; instead, they should manipulate it with the <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-stgserializepropvariant">StgSerializePropVariant</a> and <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-stgdeserializepropvariant">StgDeserializePropVariant</a> functions.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ A range of memory of arbitrary type that represents a serialized <a href="https:
 
 Type: <b>DWORD</b>
 
-Encodes type information about the serialized <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure. Programs should not inspect this member directly; instead, they should use the <a href="https://msdn.microsoft.com/0517ef4d-e57c-4613-8d11-5e1eb14eb9fa">StgDeserializePropVariant</a> function and inspect the <b>vt</b>  member of the resulting <b>PROPVARIANT</b> structure.
+Encodes type information about the serialized <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure. Programs should not inspect this member directly; instead, they should use the <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-stgdeserializepropvariant">StgDeserializePropVariant</a> function and inspect the <b>vt</b>  member of the resulting <b>PROPVARIANT</b> structure.
 
 
 ### -field rgb

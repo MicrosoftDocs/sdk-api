@@ -64,7 +64,7 @@ A pointer to the rectangle that the object wants to redraw, in client coordinate
 
 ### -param grfFlags [in]
 
-A combination of values from the <a href="https://msdn.microsoft.com/f8953376-2cbb-4f03-8216-2727d6a9f128">OLEDCFLAGS</a> enumeration.
+A combination of values from the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-tagoledcflags">OLEDCFLAGS</a> enumeration.
 
 
 ### -param phDC [out]
@@ -90,7 +90,7 @@ This method returns S_OK on success. Other possible return values include the fo
 </dl>
 </td>
 <td width="60%">
-The container is already in the middle of a paint session. That is, this method has already been called, and the <a href="https://msdn.microsoft.com/8778a58c-2995-4c14-826c-9c97e97e957b">IOleInPlaceSiteWindowless::ReleaseDC</a> method has not yet been called.
+The container is already in the middle of a paint session. That is, this method has already been called, and the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleinplacesitewindowless-releasedc">IOleInPlaceSiteWindowless::ReleaseDC</a> method has not yet been called.
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ The container is already in the middle of a paint session. That is, this method 
 
 
 
-A device context obtained by this method should be released by calling <a href="https://msdn.microsoft.com/8778a58c-2995-4c14-826c-9c97e97e957b">IOleInPlaceSiteWindowless::ReleaseDC</a>.
+A device context obtained by this method should be released by calling <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleinplacesitewindowless-releasedc">IOleInPlaceSiteWindowless::ReleaseDC</a>.
 
 Like other methods in this interface, rectangles are specified in client coordinates of the containing window. The container is expected to intersect this rectangle with the object's site rectangle and clip out everything outside the resulting rectangle. This prevents objects from inadvertently drawing where they are not supposed to.
 
@@ -120,11 +120,11 @@ On-screen, One Pass Drawing
 <ol>
 <li>In the <b>IOleInPlaceSiteWindowless::GetDC</b> method, the container should:<ul>
 <li>Get the window device context.</li>
-<li>If <a href="https://msdn.microsoft.com/f8953376-2cbb-4f03-8216-2727d6a9f128">OLEDC</a>_PAINTBKGND is set, draw the <a href="https://msdn.microsoft.com/a2b729c8-7091-4520-93cd-c44468ba0274">DVASPECT</a>_CONTENT aspect of every object behind the object requesting the device context.</li>
+<li>If <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-tagoledcflags">OLEDC</a>_PAINTBKGND is set, draw the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagdvaspect">DVASPECT</a>_CONTENT aspect of every object behind the object requesting the device context.</li>
 <li>Return the device context.</li>
 </ul>
 </li>
-<li>In the <a href="https://msdn.microsoft.com/8778a58c-2995-4c14-826c-9c97e97e957b">ReleaseDC</a> method, the container should:<ul>
+<li>In the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleinplacesitewindowless-releasedc">ReleaseDC</a> method, the container should:<ul>
 <li>Draw the DVASPECT_CONTENT of every overlapping object.</li>
 <li>Release the device context.</li>
 </ul>
@@ -145,7 +145,7 @@ On-screen, Two Pass Drawing
 <li>Finally return the device context.</li>
 </ul>
 </li>
-<li>In the <a href="https://msdn.microsoft.com/8778a58c-2995-4c14-826c-9c97e97e957b">IOleInPlaceSiteWindowless::ReleaseDC</a> method, the container should:<ul>
+<li>In the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleinplacesitewindowless-releasedc">IOleInPlaceSiteWindowless::ReleaseDC</a> method, the container should:<ul>
 <li>Draw the transparent parts of every overlapping object.</li>
 <li>Release the device context.</li>
 </ul>
@@ -163,7 +163,7 @@ On-screen, Two Pass Drawing
 <li>Return the device context.</li>
 </ul>
 </li>
-<li>In the <a href="https://msdn.microsoft.com/8778a58c-2995-4c14-826c-9c97e97e957b">IOleInPlaceSiteWindowless::ReleaseDC</a> method, the container should:<ul>
+<li>In the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleinplacesitewindowless-releasedc">IOleInPlaceSiteWindowless::ReleaseDC</a> method, the container should:<ul>
 <li>Draw the DVASPECT_CONTENT aspect of every overlapping object.</li>
 <li>Copy the off-screen bitmap to the screen at the location the calling object originally requested in <b>IOleInPlaceSiteWindowless::GetDC</b>.</li>
 <li>Delete and release the memory device context.</li>
@@ -182,15 +182,15 @@ When this method returns, the clipping region in the device context should be se
 
 
 
-<a href="https://msdn.microsoft.com/4ad83599-99d2-4b35-95de-cff845a8d5e4">IOleInPlaceSiteWindowless</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a>
 
 
 
-<a href="https://msdn.microsoft.com/8778a58c-2995-4c14-826c-9c97e97e957b">IOleInPlaceSiteWindowless::ReleaseDC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleinplacesitewindowless-releasedc">IOleInPlaceSiteWindowless::ReleaseDC</a>
 
 
 
-<a href="https://msdn.microsoft.com/f8953376-2cbb-4f03-8216-2727d6a9f128">OLEDCFLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-tagoledcflags">OLEDCFLAGS</a>
  
 
  

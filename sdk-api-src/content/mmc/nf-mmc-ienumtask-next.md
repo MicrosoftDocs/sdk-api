@@ -65,7 +65,7 @@ A value that specifies the number of tasks to provide. MMC always enumerates tas
 ### -param rgelt [out]
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/bb101c09-947f-4316-890a-86e09358d88c">MMC_TASK</a> structure that the snap-in fills in to represent the task to add to the taskpad. Be aware that the caller (MMC) allocates the memory for the structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task">MMC_TASK</a> structure that the snap-in fills in to represent the task to add to the taskpad. Be aware that the caller (MMC) allocates the memory for the structure.
 
 
 ### -param pceltFetched [out]
@@ -97,23 +97,23 @@ MMC calls this method to enumerate the list of tasks that the snap-in must add t
 
 
 
-<a href="https://msdn.microsoft.com/30f5b526-d2d5-48a6-be5f-d0f2ba9397c4">IExtendTaskPad</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iextendtaskpad">IExtendTaskPad</a>
 
 
 
-<a href="https://msdn.microsoft.com/bb101c09-947f-4316-890a-86e09358d88c">MMC_TASK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task">MMC_TASK</a>
 
 
 
-<a href="https://msdn.microsoft.com/9895eef1-7870-4092-8bf9-c13f38b74173">MMC_TASK_DISPLAY_BITMAP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task_display_bitmap">MMC_TASK_DISPLAY_BITMAP</a>
 
 
 
-<a href="https://msdn.microsoft.com/ff43f0ea-2f33-4ed9-b5a5-484db2ffe3ad">MMC_TASK_DISPLAY_OBJECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task_display_object">MMC_TASK_DISPLAY_OBJECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/a46f1b86-883e-4eca-a3f8-d18c6a4d64e5">MMC_TASK_DISPLAY_SYMBOL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task_display_symbol">MMC_TASK_DISPLAY_SYMBOL</a>
  
 
  

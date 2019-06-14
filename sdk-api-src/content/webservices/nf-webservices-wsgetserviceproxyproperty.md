@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-This function retrieves a specified Service Proxy property.  The property to retrieve is identified by a  <a href="https://msdn.microsoft.com/d81944ae-74b9-4eee-b02f-5b1d5c99c358">WS_PROXY_PROPERTY_ID</a> input parameter.
+This function retrieves a specified Service Proxy property.  The property to retrieve is identified by a  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_proxy_property_id">WS_PROXY_PROPERTY_ID</a> input parameter.
             
 
 
@@ -85,7 +85,7 @@ The value of this ULONG parameter represents the byte-length buffer size allocat
 
 ### -param error [in, optional]
 
-This parameter is a  <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> pointer to where additional information about the error should be stored if the function fails.
+This parameter is a  <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> pointer to where additional information about the error should be stored if the function fails.
                 
 
 

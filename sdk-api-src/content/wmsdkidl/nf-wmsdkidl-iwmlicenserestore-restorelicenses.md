@@ -79,7 +79,7 @@ The <b>RestoreLicenses</b> method restores licenses that were previously backed 
 </tr>
 <tr>
 <td>WM_RESTORE_INDIVIDUALIZE</td>
-<td>Indicates that the application has received permission from the user to individualize their computer. (See <a href="https://msdn.microsoft.com/8d87c663-bc54-4928-9eee-d09c358e61f8">Individualizing DRM Applications</a> section.)</td>
+<td>Indicates that the application has received permission from the user to individualize their computer. (See <a href="https://docs.microsoft.com/windows/desktop/wmformat/individualizing-drm-applications">Individualizing DRM Applications</a> section.)</td>
 </tr>
 </table>
  
@@ -87,7 +87,7 @@ The <b>RestoreLicenses</b> method restores licenses that were previously backed 
 
 ### -param pCallback [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd798544(v=VS.85).aspx">IWMStatusCallback</a> interface.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback">IWMStatusCallback</a> interface.
 
 
 ## -returns
@@ -103,7 +103,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-For more information on how to specify the location of the backup file (there are predefined properties for the backup path and restore path for this purpose), see <a href="https://msdn.microsoft.com/en-us/library/Dd743291(v=VS.85).aspx">IWMBackupRestoreProps Interface</a>.
+For more information on how to specify the location of the backup file (there are predefined properties for the backup path and restore path for this purpose), see <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmbackuprestoreprops">IWMBackupRestoreProps Interface</a>.
 
 The operation of this method is asynchronous, and an <b>IWMStatusCallback</b> interface can be used to track progress.
 
@@ -115,7 +115,7 @@ The operation of this method is asynchronous, and an <b>IWMStatusCallback</b> in
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757221(v=VS.85).aspx">IWMLicenseRestore Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicenserestore">IWMLicenseRestore Interface</a>
  
 
  

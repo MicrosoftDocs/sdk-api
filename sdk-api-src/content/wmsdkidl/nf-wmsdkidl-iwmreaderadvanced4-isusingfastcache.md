@@ -112,11 +112,11 @@ NULL pointer argument.
 
 
 
-<a href="https://msdn.microsoft.com/2a850d6f-8e1d-4aeb-9791-c51c3debf118">Enabling Fast Cache Streaming from the Client</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/enabling-fast-cache-streaming-from-the-client">Enabling Fast Cache Streaming from the Client</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757450(v=VS.85).aspx">IWMReaderAdvanced4 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced4">IWMReaderAdvanced4 Interface</a>
  
 
  

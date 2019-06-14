@@ -63,9 +63,9 @@ The <b>SetContext</b> method sets the context
 ### -param lContext [in]
 
 The context to be set. The context must be one of the supported values of 
-      <a href="https://msdn.microsoft.com/2efe3066-4b91-4501-bacb-4211b222e0c3">_VSS_SNAPSHOT_CONTEXT</a> or a supported bit mask (or
+      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_snapshot_context">_VSS_SNAPSHOT_CONTEXT</a> or a supported bit mask (or
       bitwise OR) of 
-      <a href="https://msdn.microsoft.com/0326a81e-036c-4548-9e09-29054e51fadd">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a> with a 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a> with a 
       valid <b>_VSS_SNAPSHOT_CONTEXT</b>.
      
 
@@ -125,7 +125,7 @@ The backup components object is not initialized, this method has been called dur
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -153,13 +153,13 @@ The default context for VSS shadow copies is VSS_CTX_BACKUP.
 For details on how the context set by 
     <b>IVssBackupComponents::SetContext</b> affects 
     how a shadow copy is created and managed, see 
-    <a href="https://msdn.microsoft.com/de5f1a5b-6e90-4abc-a232-aea93636772f">Implementation Details for 
+    <a href="https://docs.microsoft.com/windows/desktop/VSS/implementation-details-for-creating-shadow-copies">Implementation Details for 
     Creating Shadow Copies</a>.
    
 
 For a complete discussion of the permitted shadow copy contexts, see 
-    <a href="https://msdn.microsoft.com/2efe3066-4b91-4501-bacb-4211b222e0c3">_VSS_SNAPSHOT_CONTEXT</a> and 
-    <a href="https://msdn.microsoft.com/0326a81e-036c-4548-9e09-29054e51fadd">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_snapshot_context">_VSS_SNAPSHOT_CONTEXT</a> and 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>.
    
 
 
@@ -170,23 +170,23 @@ For a complete discussion of the permitted shadow copy contexts, see
 
 
 
-<a href="https://msdn.microsoft.com/fe1220c7-11e5-4872-b7a9-61558f7c75c0">IVssBackupComponents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
 
 
-<a href="https://msdn.microsoft.com/3cc6c375-8a24-4af3-b4ad-5a695cc2645c">IVssBackupComponents::DoSnapshotSet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset">IVssBackupComponents::DoSnapshotSet</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a0a6228-2131-48a6-8d18-9491969d265b">IVssBackupComponents::StartSnapshotSet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-startsnapshotset">IVssBackupComponents::StartSnapshotSet</a>
 
 
 
-<a href="https://msdn.microsoft.com/2efe3066-4b91-4501-bacb-4211b222e0c3">_VSS_SNAPSHOT_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_snapshot_context">_VSS_SNAPSHOT_CONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/0326a81e-036c-4548-9e09-29054e51fadd">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>
  
 
  

@@ -64,12 +64,12 @@ GUID of the field to be tested.
 
 ### -field matchType
 
-A <a href="https://msdn.microsoft.com/a49efb25-990c-459d-90bc-758337c351d5">FWP_MATCH_TYPE</a> value that specifies the type of match to be performed.
+A <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_match_type_">FWP_MATCH_TYPE</a> value that specifies the type of match to be performed.
 
 
 ### -field conditionValue
 
-A <a href="https://msdn.microsoft.com/edc34005-dbc1-45a4-b6c7-fbb8b13fa388">FWP_CONDITION_VALUE0</a> structure that contains the value to match the field against.
+A <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0_">FWP_CONDITION_VALUE0</a> structure that contains the value to match the field against.
 
 
 ## -remarks
@@ -81,9 +81,9 @@ Field GUIDs are
    field.
 
 The data type of 
-<b>conditionValue</b> must be compatible with the <b>matchType</b> value. See <a href="https://msdn.microsoft.com/a49efb25-990c-459d-90bc-758337c351d5">FWP_MATCH_TYPE</a> for detailed  compatibility rules.
+<b>conditionValue</b> must be compatible with the <b>matchType</b> value. See <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_match_type_">FWP_MATCH_TYPE</a> for detailed  compatibility rules.
 
-<b>FWPM_FILTER_CONDITION0</b> is a specific implementation of FWPM_FILTER_CONDITION. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FWPM_FILTER_CONDITION0</b> is a specific implementation of FWPM_FILTER_CONDITION. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 #### Examples
@@ -158,15 +158,15 @@ void main()
 
 
 
-<a href="https://msdn.microsoft.com/edc34005-dbc1-45a4-b6c7-fbb8b13fa388">FWP_CONDITION_VALUE0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0_">FWP_CONDITION_VALUE0</a>
 
 
 
-<a href="https://msdn.microsoft.com/a49efb25-990c-459d-90bc-758337c351d5">FWP_MATCH_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_match_type_">FWP_MATCH_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

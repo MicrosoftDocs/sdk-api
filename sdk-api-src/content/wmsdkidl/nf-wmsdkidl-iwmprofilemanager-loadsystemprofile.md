@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-The <b>LoadSystemProfile</b> method loads a system profile identified by its index. If you do not know the index of the desired system profile, you must use <a href="https://msdn.microsoft.com/en-us/library/Dd757395(v=VS.85).aspx">IWMProfileManager::LoadProfileByID</a>. To load a custom profile, use <a href="https://msdn.microsoft.com/en-us/library/Dd757394(v=VS.85).aspx">IWMProfileManager::LoadProfileByData</a>.
+The <b>LoadSystemProfile</b> method loads a system profile identified by its index. If you do not know the index of the desired system profile, you must use <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofilemanager-loadprofilebyid">IWMProfileManager::LoadProfileByID</a>. To load a custom profile, use <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofilemanager-loadprofilebydata">IWMProfileManager::LoadProfileByData</a>.
 
 
 
@@ -70,7 +70,7 @@ The <b>LoadSystemProfile</b> method loads a system profile identified by its ind
 
 ### -param ppProfile [out]
 
-Pointer to a pointer to an <a href="https://msdn.microsoft.com/00f28d6b-d27d-4268-960e-c8ea25e5359e">IWMProfile</a> interface.
+Pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmprofile">IWMProfile</a> interface.
 
 
 ## -returns
@@ -127,11 +127,11 @@ The <i>ppProfile</i> parameter is <b>NULL</b>.
 
 
 
-Because there are no system profiles for the Windows Media 9 Series codecs, this method is primarily useful for obtaining version 8 system profiles that you will convert to custom profiles using the Windows Media 9 Series codecs. For more information, see <a href="https://msdn.microsoft.com/e2263c3a-56cd-4505-acd7-510dc7bac166">Reusing Stream Configurations</a>.
+Because there are no system profiles for the Windows Media 9 Series codecs, this method is primarily useful for obtaining version 8 system profiles that you will convert to custom profiles using the Windows Media 9 Series codecs. For more information, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/reusing-stream-configurations">Reusing Stream Configurations</a>.
 
-This method can be used with <a href="https://msdn.microsoft.com/en-us/library/Dd757393(v=VS.85).aspx">GetSystemProfileCount</a> to iterate through the system profiles.
+This method can be used with <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofilemanager-getsystemprofilecount">GetSystemProfileCount</a> to iterate through the system profiles.
 
-Applications must not rely on the index of a profile (used in this call and elsewhere in the SDK) being a constant. Upgrades to the Windows Media Format components can cause these indexes to change. If an application must maintain a fixed profile, it must call <a href="https://msdn.microsoft.com/en-us/library/Dd757267(v=VS.85).aspx">IWMProfile2::GetProfileID</a> and <b>IWMProfileManager::LoadProfileByID</b>.
+Applications must not rely on the index of a profile (used in this call and elsewhere in the SDK) being a constant. Upgrades to the Windows Media Format components can cause these indexes to change. If an application must maintain a fixed profile, it must call <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile2-getprofileid">IWMProfile2::GetProfileID</a> and <b>IWMProfileManager::LoadProfileByID</b>.
 
 
 
@@ -141,7 +141,7 @@ Applications must not rely on the index of a profile (used in this call and else
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757385(v=VS.85).aspx">IWMProfileManager Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager">IWMProfileManager Interface</a>
  
 
  

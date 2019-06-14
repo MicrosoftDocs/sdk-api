@@ -116,7 +116,7 @@ NULL value passed in to <i>pfAllocate</i>.
 
 
 
-See the Remarks for <a href="https://msdn.microsoft.com/en-us/library/Dd798780(v=VS.85).aspx">SetAllocateForPostView</a>.
+See the Remarks for <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpostview-setallocateforpostview">SetAllocateForPostView</a>.
 
 
 
@@ -126,7 +126,7 @@ See the Remarks for <a href="https://msdn.microsoft.com/en-us/library/Dd798780(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798770(v=VS.85).aspx">IWMWriterPostView Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpostview">IWMWriterPostView Interface</a>
  
 
  

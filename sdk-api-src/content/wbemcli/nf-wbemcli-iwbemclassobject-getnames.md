@@ -61,8 +61,8 @@ ms.custom: 19H1
 The <b>IWbemClassObject::GetNames</b> method 
    retrieves the names of the properties in the object. Furthermore, depending on user-supplied 
    selection criteria, it can retrieve all or a subset of the properties. These properties can then be accessed by 
-   using <a href="https://msdn.microsoft.com/e4f6c28b-42d7-4109-803e-d3aac4d8509e">IWbemClassObject::Get</a> for each name. This 
-   method can also return <a href="https://msdn.microsoft.com/e812c0cb-3e08-4cac-8d05-2cd7abc922d1">system properties</a>.
+   using <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-get">IWbemClassObject::Get</a> for each name. This 
+   method can also return <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-system-properties">system properties</a>.
 
 
 ## -parameters
@@ -94,7 +94,7 @@ A parameter that cannot be <b>NULL</b>, but on entry this parameter must point t
 
 
 
-This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>. For general <b>HRESULT</b> values, see <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>. For general <b>HRESULT</b> values, see <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -166,7 +166,7 @@ The flag values are bit fields, and can be combined. One flag from each of the f
 <tr>
 <td><b>WBEM_FLAG_SYSTEM_ONLY</b></td>
 <td>Return only 
-<a href="https://msdn.microsoft.com/e812c0cb-3e08-4cac-8d05-2cd7abc922d1">system properties</a>.</td>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-system-properties">system properties</a>.</td>
 </tr>
 <tr>
 <td><b>WBEM_FLAG_NONSYSTEM_ONLY</b></td>
@@ -180,7 +180,7 @@ It is not an error for an empty list to be returned in cases where no properties
 
 For more information about using <b>SAFEARRAY</b> structures of 
     <b>BSTR</b> values, see 
-    <a href="https://msdn.microsoft.com/6cc26b26-adc9-4a8a-b51e-9db94eb4295f">Retrieving Part of a WMI Instance</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-part-of-an-instance">Retrieving Part of a WMI Instance</a>.
 
 
 
@@ -190,23 +190,23 @@ For more information about using <b>SAFEARRAY</b> structures of
 
 
 
-<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/c7ece530-5309-4f0d-9096-73d01b4a7fde">IWbemClassObject::BeginEnumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-beginenumeration">IWbemClassObject::BeginEnumeration</a>
 
 
 
-<a href="https://msdn.microsoft.com/e4f6c28b-42d7-4109-803e-d3aac4d8509e">IWbemClassObject::Get</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-get">IWbemClassObject::Get</a>
 
 
 
-<a href="https://msdn.microsoft.com/8A3858C1-D2A1-41FB-ADD4-EA36075A1ACC">WBEM_CONDITION_FLAG_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/ne-wbemcli-tag_wbem_condition_flag_type">WBEM_CONDITION_FLAG_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/e812c0cb-3e08-4cac-8d05-2cd7abc922d1">WMI System Properties</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-system-properties">WMI System Properties</a>
  
 
  

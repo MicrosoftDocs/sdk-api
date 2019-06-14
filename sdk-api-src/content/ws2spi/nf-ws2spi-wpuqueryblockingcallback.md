@@ -95,7 +95,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -106,7 +106,7 @@ The <i>lpfnCallback</i> or the <i>lpdwContext</i> parameter is not a valid part 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -143,7 +143,7 @@ typedef BOOL ( CALLBACK FAR * LPBLOCKINGCALLBACK )( DWORD dwContext );
 
 
 The blocking callback will return <b>TRUE</b> if the service provider is to continue waiting for the blocking operation to complete. It will return <b>FALSE</b> if the blocking operation has been canceled with the 
-<a href="https://msdn.microsoft.com/9219c733-43af-414b-8a38-78da52757bd1">WSPCancelBlockingCall</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742269(v=vs.85)">WSPCancelBlockingCall</a>.
 
 Any missing components of the address will default to a reasonable value if possible. For example, a missing port number will default to zero.
 
@@ -155,7 +155,7 @@ Any missing components of the address will default to a reasonable value if poss
 
 
 
-<a href="https://msdn.microsoft.com/9219c733-43af-414b-8a38-78da52757bd1">WSPCancelBlockingCall</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742269(v=vs.85)">WSPCancelBlockingCall</a>
  
 
  

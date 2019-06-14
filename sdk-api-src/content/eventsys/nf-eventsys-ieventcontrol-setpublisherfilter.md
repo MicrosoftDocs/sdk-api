@@ -64,7 +64,7 @@ The name of the event method associated with the publisher filter to be assigned
 
 ### -param pPublisherFilter [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/affc0af4-36f8-4479-8685-f91c29111d76">IPublisherFilter</a> interface on the publisher filter associated with the specified method.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ipublisherfilter">IPublisherFilter</a> interface on the publisher filter associated with the specified method.
 
 
 ## -returns
@@ -90,7 +90,7 @@ An event publisher can install a publisher filter at run time to fire an event o
 
 
 
-<a href="https://msdn.microsoft.com/8b2fba30-3ede-466f-ad3b-2de2175a088b">IEventControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventcontrol">IEventControl</a>
  
 
  

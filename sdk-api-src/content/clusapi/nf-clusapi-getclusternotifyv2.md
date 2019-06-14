@@ -62,7 +62,7 @@ Retrieves information about the next notification event for a notification port.
 ### -param hChange [in]
 
 A handle to the notification port. This handle is created by the 
-      <a href="https://msdn.microsoft.com/81FE17A9-DE1C-4CDD-BE7D-50EA202D5AAC">CreateClusterNotifyPortV2</a> function.
+      <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createclusternotifyportv2">CreateClusterNotifyPortV2</a> function.
 
 
 ### -param lpdwNotifyKey [out]
@@ -72,7 +72,7 @@ A pointer to the notification key for the notification port.
 
 ### -param pFilterAndType [in, out, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/E173F5D8-955B-44FF-980E-CEF536A87AF5">NOTIFY_FILTER_AND_TYPE</a> 
+A  pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-_notify_filter_and_type">NOTIFY_FILTER_AND_TYPE</a> 
       structure that describes the next notification event for the notification port.
 
 
@@ -154,7 +154,7 @@ A time-out value that specifies how long the caller is willing to wait for the n
 if the operation succeeds,  this function returns  <b>ERROR_SUCCESS</b>.
 
 If the operation fails, this function returns one of the following 
-       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 <table>
 <tr>
@@ -211,7 +211,7 @@ The buffer pointed to by the  <i>lpszName</i>  parameter is not big enough to ho
 
 
 
-<a href="https://msdn.microsoft.com/1b3a3b23-39db-47b7-b4a8-17fc1ee45df6">Failover Cluster Management Function</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-management-functions">Failover Cluster Management Function</a>
  
 
  

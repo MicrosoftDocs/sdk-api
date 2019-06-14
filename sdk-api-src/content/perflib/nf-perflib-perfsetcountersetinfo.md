@@ -61,14 +61,14 @@ Specifies the layout of a particular counter set.
 
 ### -param ProviderHandle [in]
 
-The handle of the provider. Use the handle variable that the <a href="https://msdn.microsoft.com/3939f6a1-0a94-429d-a71e-b37f045fea13">CTRPP</a> tool generated for you. For the name of the variable, see the <b>symbol</b> attribute of the <a href="https://msdn.microsoft.com/10112f43-f483-4ecb-aa7d-60efaad149c6">provider</a> element.
+The handle of the provider. Use the handle variable that the <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/ctrpp">CTRPP</a> tool generated for you. For the name of the variable, see the <b>symbol</b> attribute of the <a href="https://docs.microsoft.com/previous-versions//aa373164(v=vs.85)">provider</a> element.
 
-<b>Windows Vista:  </b>The <a href="https://msdn.microsoft.com/b417b19b-adbc-40e3-aca1-c2cd94a79232">PerfStartProvider</a> function returns the handle.
+<b>Windows Vista:  </b>The <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfstartprovider">PerfStartProvider</a> function returns the handle.
 
 
 ### -param Template [in]
 
-Buffer that contains the counter set information. For details, see <a href="https://msdn.microsoft.com/bf48dcdb-6fdd-4093-9006-a53690c3ed86">PERF_COUNTERSET_INFO</a>.
+Buffer that contains the counter set information. For details, see <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counterset_info">PERF_COUNTERSET_INFO</a>.
 
 
 ### -param TemplateSize [in]
@@ -84,7 +84,7 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. 
 
 
 
@@ -93,7 +93,7 @@ If the function fails, the return value is a
 
 
 
-The <a href="https://msdn.microsoft.com/edcf8df3-0f6d-4849-b41d-270509499b8e">CounterInitialize</a> function calls this function; do not call this function directly.
+The <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/counterinitialize">CounterInitialize</a> function calls this function; do not call this function directly.
 
 <b>Windows Vista:  </b>The <b>PerfAutoInitialize</b> function calls this function.
 

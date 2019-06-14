@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the value for the bit that represents the current digital audio copy setting on the resulting media.  Please see the <a href="https://msdn.microsoft.com/6bc38584-2e44-4c1a-b5bb-a91c0ffe7e6b">IMAPI_CD_TRACK_DIGITAL_COPY_SETTING</a> enumeration for possible values.
+Retrieves the value for the bit that represents the current digital audio copy setting on the resulting media.  Please see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_cd_track_digital_copy_setting">IMAPI_CD_TRACK_DIGITAL_COPY_SETTING</a> enumeration for possible values.
 
 
 
@@ -89,11 +89,11 @@ This method is supported in Windows Server 2003 with Service Pack 1 (SP1), Win
 
 
 
-<a href="https://msdn.microsoft.com/6bc38584-2e44-4c1a-b5bb-a91c0ffe7e6b">IMAPI_CD_TRACK_DIGITAL_COPY_SETTING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_cd_track_digital_copy_setting">IMAPI_CD_TRACK_DIGITAL_COPY_SETTING</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d074279-35fb-48d0-b298-c1a83f57d805">IRawCDImageTrackInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-irawcdimagetrackinfo">IRawCDImageTrackInfo</a>
  
 
  

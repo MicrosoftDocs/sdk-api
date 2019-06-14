@@ -117,11 +117,11 @@ Field emission device (FED) display.
 
 
 
-<a href="https://msdn.microsoft.com/da3a5f64-2638-464b-973b-33cbe4cc64e7">GetMonitorTechnologyType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-getmonitortechnologytype">GetMonitorTechnologyType</a>
 
 
 
-<a href="https://msdn.microsoft.com/d6ab74af-0ac4-4dfe-bbf8-21b8339d2826">Monitor Configuration Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/Monitor/monitor-configuration-enumeration-types">Monitor Configuration Enumeration Types</a>
  
 
  

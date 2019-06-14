@@ -52,10 +52,10 @@ ms.custom: 19H1
 
 
 The 
-<b>MsiEnumClientsEx</b> function enumerates the installed applications that use a specified component. The function retrieves a  <a href="https://msdn.microsoft.com/6fbad59b-27b7-4ac1-bad5-8a608c7b270f">product code</a> for an application each time it is called.
+<b>MsiEnumClientsEx</b> function enumerates the installed applications that use a specified component. The function retrieves a  <a href="https://docs.microsoft.com/windows/desktop/Msi/product-codes">product code</a> for an application each time it is called.
 
 
-<b><a href="https://msdn.microsoft.com/89662e62-53fb-4b50-8583-80518c6fda6d">Windows Installer 4.5 or earlier</a>:  </b>Not supported. This function is available beginning with Windows Installer 5.0.
+<b><a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-4-5">Windows Installer 4.5 or earlier</a>:  </b>Not supported. This function is available beginning with Windows Installer 5.0.
 
 
 

@@ -109,7 +109,7 @@ The <i>pqwTotalLength</i> parameter is an invalid pointer.
 
 
 
-Microsoft Media Foundation invokes <b>GetTotalLength</b> only after having successfully invoked <a href="https://msdn.microsoft.com/FC342FB9-930F-4EA7-9057-51AF10D13ED9">EndReceiveResponse</a>. The total length of the resource may be larger than the amount of data returned by the server in the current response. For example, if the request included the HTTP “Range” header, the data returned in the response may be less than total length of the resource. The <a href="https://msdn.microsoft.com/015CBC40-BE9E-4C9F-AC1B-30FFDD2B11CC">GetRangeEndOffset</a> method can be used to calculate how much data is returned in the current response.
+Microsoft Media Foundation invokes <b>GetTotalLength</b> only after having successfully invoked <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadrequest-endreceiveresponse">EndReceiveResponse</a>. The total length of the resource may be larger than the amount of data returned by the server in the current response. For example, if the request included the HTTP “Range” header, the data returned in the response may be less than total length of the resource. The <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadrequest-getrangeendoffset">GetRangeEndOffset</a> method can be used to calculate how much data is returned in the current response.
 
 
 
@@ -119,7 +119,7 @@ Microsoft Media Foundation invokes <b>GetTotalLength</b> only after having succe
 
 
 
-<a href="https://msdn.microsoft.com/A8A37C2F-A662-4FDA-95F6-43D96A8471A8">IMFHttpDownloadRequest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>
  
 
  

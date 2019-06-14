@@ -60,7 +60,7 @@ This function causes the File History Service to reload the current user’s Fil
 
 ### -param Pipe [in]
 
-The communication channel handle returned by an earlier <a href="https://msdn.microsoft.com/D0927124-0568-4897-9169-445C252E8ED4">FhServiceOpenPipe</a> call.
+The communication channel handle returned by an earlier <a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceopenpipe">FhServiceOpenPipe</a> call.
 
 
 ## -returns
@@ -78,7 +78,7 @@ The communication channel handle returned by an earlier <a href="https://msdn.mi
 
 This function causes the File History Service to schedule periodic backups for the current user if they have not been scheduled yet and File History is enabled for that user.
 
-It is recommended to call this function every time a policy is changed in File History configuration via the <a href="https://msdn.microsoft.com/A1106349-6B14-4A44-B845-7853FA1919D6">IFhConfigMgr::SetLocalPolicy</a> method. It should also be called after File History has been enabled or disabled for a user.
+It is recommended to call this function every time a policy is changed in File History configuration via the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-setlocalpolicy">IFhConfigMgr::SetLocalPolicy</a> method. It should also be called after File History has been enabled or disabled for a user.
 
 
 
@@ -88,11 +88,11 @@ It is recommended to call this function every time a policy is changed in File H
 
 
 
-<a href="https://msdn.microsoft.com/D0927124-0568-4897-9169-445C252E8ED4">FhServiceOpenPipe</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceopenpipe">FhServiceOpenPipe</a>
 
 
 
-<a href="https://msdn.microsoft.com/17FCD464-2543-454A-B60E-E37EDF61C595">FhServiceStopBackup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhservicestopbackup">FhServiceStopBackup</a>
  
 
  

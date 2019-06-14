@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deprecated. Data used in <a href="https://msdn.microsoft.com/9bce71ca-189e-4072-9acf-10c8b3a34c5c">IBrowserService2::_GetToolbarItem</a>, <a href="https://msdn.microsoft.com/a1c271b2-d567-43b4-966e-0eea597f004b">IBrowserService2::v_MayGetNextToolbarFocus</a>, and <a href="https://msdn.microsoft.com/4a69c3f4-49e0-4a06-8cf2-dc8db640f58f">IBrowserService2::_SetFocus</a> to define a toolbar item.
+Deprecated. Data used in <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_gettoolbaritem">IBrowserService2::_GetToolbarItem</a>, <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-v_maygetnexttoolbarfocus">IBrowserService2::v_MayGetNextToolbarFocus</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_setfocus">IBrowserService2::_SetFocus</a> to define a toolbar item.
 
 
 ## -struct-fields
@@ -60,16 +60,16 @@ Deprecated. Data used in <a href="https://msdn.microsoft.com/9bce71ca-189e-4072-
 
 ### -field ptbar
 
-Type: <b><a href="https://msdn.microsoft.com/9e80fd5e-f57d-4801-b198-73b8f5ffff6e">IDockingWindow</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow">IDockingWindow</a>*</b>
 
-The <a href="https://msdn.microsoft.com/9e80fd5e-f57d-4801-b198-73b8f5ffff6e">IDockingWindow</a> of the item's particular toolbar.
+The <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow">IDockingWindow</a> of the item's particular toolbar.
 
 
 ### -field rcBorderTool
 
-Type: <b><a href="https://msdn.microsoft.com/f86321d9-5706-4641-b3c9-981a8acacff6">BORDERWIDTHS</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc136564(v=vs.85)">BORDERWIDTHS</a></b>
 
-A <a href="https://msdn.microsoft.com/f86321d9-5706-4641-b3c9-981a8acacff6">BORDERWIDTHS</a> structure that contains the dimensions of the item, including its borders.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc136564(v=vs.85)">BORDERWIDTHS</a> structure that contains the dimensions of the item, including its borders.
 
 
 ### -field pwszItem

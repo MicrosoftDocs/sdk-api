@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <code>IAMCopyCaptureFileProgress</code> interface is a callback interface used by the <a href="https://msdn.microsoft.com/d4084b12-b082-45c2-9f07-625b980c7e4c">ICaptureGraphBuilder2::CopyCaptureFile</a> method.
+The <code>IAMCopyCaptureFileProgress</code> interface is a callback interface used by the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icapturegraphbuilder2-copycapturefile">ICaptureGraphBuilder2::CopyCaptureFile</a> method.
 
 Because the <b>CopyCaptureFile</b> method can take a long time to complete, an application can implement this interface to receive periodic notifications about the progress of the copy operation. If the application does not need to receive this information, there is no need to implement the interface.
 
@@ -60,7 +60,7 @@ Because the <b>CopyCaptureFile</b> method can take a long time to complete, an a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMCopyCaptureFileProgress</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAMCopyCaptureFileProgress</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMCopyCaptureFileProgress</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMCopyCaptureFileProgress</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,10 +75,10 @@ The <b>IAMCopyCaptureFileProgress</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6908627e-51de-4206-bdb2-b3aaedf9478f">Progress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamcopycapturefileprogress-progress">Progress</a>
 </td>
 <td align="left" width="63%">
-Called periodically by the <a href="https://msdn.microsoft.com/d4084b12-b082-45c2-9f07-625b980c7e4c">ICaptureGraphBuilder2::CopyCaptureFile</a> method during capture operations.
+Called periodically by the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icapturegraphbuilder2-copycapturefile">ICaptureGraphBuilder2::CopyCaptureFile</a> method during capture operations.
 
 </td>
 </tr>
@@ -172,7 +172,7 @@ The following example uses this class in the <b>CopyCaptureFile</b> method:
 
 
 
-<a href="https://msdn.microsoft.com/5efd174f-2eb1-44e6-97e3-b73c7c52fef1">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
  
 
  

@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Retrieves the descriptions for the macros contained in the 
-    <a href="https://msdn.microsoft.com/70bb9e51-cd32-45cd-94b4-7018397e8f77">IFsrmFileScreenManager::ActionVariables</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenmanager-get_actionvariables">IFsrmFileScreenManager::ActionVariables</a> 
     property.
 
 This property is read-only.
@@ -66,11 +66,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/82ff65fa-2e82-4f07-bdd4-e3b01d184c16">FsrmFileScreenManager</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmfilescreenmanager">FsrmFileScreenManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0cea95d-5839-41a2-91b9-da8e13030682">IFsrmFileScreenManager</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreenmanager">IFsrmFileScreenManager</a>
  
 
  

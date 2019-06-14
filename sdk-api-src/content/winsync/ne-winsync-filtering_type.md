@@ -86,7 +86,7 @@ A replica that does not keep ghosts for items that are not in the filter indicat
 
 
 
-<a href="https://msdn.microsoft.com/139266e9-cd22-4548-a2b6-927328e7ce82">Windows Sync Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-enumerations">Windows Sync Enumerations</a>
  
 
  

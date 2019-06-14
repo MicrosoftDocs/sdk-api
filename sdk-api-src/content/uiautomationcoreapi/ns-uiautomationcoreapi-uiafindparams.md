@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<div class="alert"><b>Note</b>  This structure is deprecated.</div><div> </div>  Contains parameters used in the <a href="https://msdn.microsoft.com/fe86b393-9c8d-46f1-85dc-5ac37f423ce0">UiaFind</a> function.
+<div class="alert"><b>Note</b>  This structure is deprecated.</div><div> </div>  Contains parameters used in the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiafind">UiaFind</a> function.
 
 
 ## -struct-fields
@@ -66,21 +66,21 @@ The maximum depth to which to search the tree for matching elements.
 
 ### -field FindFirst
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> to return only the first matching element; <b>FALSE</b> to return all matching elements.
 
 
 ### -field ExcludeRoot
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> to exclude the root element; otherwise <b>FALSE</b>.
 
 
 ### -field pFindCondition
 
-Type: <b><a href="https://msdn.microsoft.com/82b5db01-08c9-4518-9d33-15d7813d0c80">UiaCondition</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/ns-uiautomationcoreapi-uiacondition">UiaCondition</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/82b5db01-08c9-4518-9d33-15d7813d0c80">UiaCondition</a> structure that contains information about a condition that returned elements must match.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/ns-uiautomationcoreapi-uiacondition">UiaCondition</a> structure that contains information about a condition that returned elements must match.
 

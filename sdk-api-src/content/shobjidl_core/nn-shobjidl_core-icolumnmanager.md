@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Exposes methods that enable inspection and manipulation of columns in the Windows Explorer Details view. Each column is referenced by a <a href="https://msdn.microsoft.com/3f5f31af-f040-443b-9045-9761055381ea">PROPERTYKEY</a> structure, which names a property.
+Exposes methods that enable inspection and manipulation of columns in the Windows Explorer Details view. Each column is referenced by a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structure, which names a property.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IColumnManager</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IColumnManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IColumnManager</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IColumnManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IColumnManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ab01c803-860e-4a16-9ed1-4c978af5b150">GetColumnCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icolumnmanager-getcolumncount">GetColumnCount</a>
 </td>
 <td align="left" width="63%">
 Gets the column count for either the visible columns or the complete set of columns.
@@ -78,7 +78,7 @@ Gets the column count for either the visible columns or the complete set of colu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/22b3e5a6-a0a1-46e4-91b8-7bfe3944fffb">GetColumnInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icolumnmanager-getcolumninfo">GetColumnInfo</a>
 </td>
 <td align="left" width="63%">
 Gets information about each column: width, visibility, display name, and state.
@@ -87,16 +87,16 @@ Gets information about each column: width, visibility, display name, and state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/297a8e75-78a0-4bfb-83c0-0b58111dcf1c">GetColumns</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icolumnmanager-getcolumns">GetColumns</a>
 </td>
 <td align="left" width="63%">
-Gets an array of <a href="https://msdn.microsoft.com/3f5f31af-f040-443b-9045-9761055381ea">PROPERTYKEY</a> structures that represent the columns that the view supports. Includes either all columns or only those currently visible.
+Gets an array of <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structures that represent the columns that the view supports. Includes either all columns or only those currently visible.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3a52d634-0ff0-4dbc-81cb-90cdffe4f6ae">SetColumnInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icolumnmanager-setcolumninfo">SetColumnInfo</a>
 </td>
 <td align="left" width="63%">
 Sets the state for a specified column.
@@ -105,7 +105,7 @@ Sets the state for a specified column.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1541809d-0826-46c4-aa10-cb4cbd6f8437">SetColumns</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icolumnmanager-setcolumns">SetColumns</a>
 </td>
 <td align="left" width="63%">
 Sets the collection of columns for the view to display.
@@ -121,7 +121,7 @@ Sets the collection of columns for the view to display.
 
 This interface can be accessed even when the Windows Explorer window is in a non-column view mode such as icons, thumbnails, or tiles. It affects those views, as well as views in which the column header control displays the set of columns to which <b>IColumnManager</b> provides access.
 
-The default implementation of the Windows Explorer view object, created by <a href="https://msdn.microsoft.com/7edd6786-7d74-4065-8cf1-cbb489007a46">SHCreateShellFolderViewEx</a>, supports this interface retrieved through <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a>. Code that runs in the Windows Explorer (such as view callbacks, context menus or drop targets) can access the view object using <a href="https://msdn.microsoft.com/library/Cc678966(v=VS.85).aspx">IServiceProvider::QueryService</a>, querying for <b>SID_SFolderView</b>.
+The default implementation of the Windows Explorer view object, created by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderviewex">SHCreateShellFolderViewEx</a>, supports this interface retrieved through <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a>. Code that runs in the Windows Explorer (such as view callbacks, context menus or drop targets) can access the view object using <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)">IServiceProvider::QueryService</a>, querying for <b>SID_SFolderView</b>.
 
 
 
@@ -131,7 +131,7 @@ The default implementation of the Windows Explorer view object, created by <a hr
 
 
 
-<a href="https://msdn.microsoft.com/52fcf0df-f532-4114-b1c9-96838f1a5e77">IFolderView2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview2">IFolderView2</a>
  
 
  

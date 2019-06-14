@@ -66,7 +66,7 @@ The <b>GetPlayOutputLevels</b> method retrieves the output protection levels (OP
 
 ### -param pPlayOPL [out]
 
-Address of a <a href="https://msdn.microsoft.com/en-us/library/Dd798032(v=VS.85).aspx">DRM_PLAY_OPL</a> structure that receives the output levels that apply to playing content. Additional data is appended to the structure. If you pass <b>NULL</b>, the method returns the size of the structure in <i>pcbLength</i>.
+Address of a <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-__tagdrm_play_opl">DRM_PLAY_OPL</a> structure that receives the output levels that apply to playing content. Additional data is appended to the structure. If you pass <b>NULL</b>, the method returns the size of the structure in <i>pcbLength</i>.
 
 
 ### -param pcbLength [in, out]
@@ -113,9 +113,9 @@ The method succeeded.
 
 When reading DRM-protected content, you must verify that the destination of the protected content is allowed by the license. Calling this method enables you to check the output protection level required by the license.
 
-Before you call this method, you must call <a href="https://msdn.microsoft.com/en-us/library/Dd798343(v=VS.85).aspx">SetEvaluateOutputLevelLicenses</a> to configure the reader to evaluate licenses that contain output protection levels.
+Before you call this method, you must call <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader2-setevaluateoutputlevellicenses">SetEvaluateOutputLevelLicenses</a> to configure the reader to evaluate licenses that contain output protection levels.
 
-If the OPL information returned by this method indicates that you cannot play the content using the desired technology, you can call <a href="https://msdn.microsoft.com/en-us/library/Dd798344(v=VS.85).aspx">TryNextLicense</a> to find out whether there is another license on the computer that you can use.
+If the OPL information returned by this method indicates that you cannot play the content using the desired technology, you can call <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader2-trynextlicense">TryNextLicense</a> to find out whether there is another license on the computer that you can use.
 
 
 
@@ -125,11 +125,11 @@ If the OPL information returned by this method indicates that you cannot play th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798340(v=VS.85).aspx">IWMDRMReader2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader2">IWMDRMReader2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798341(v=VS.85).aspx">IWMDRMReader2::GetCopyOutputLevels</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader2-getcopyoutputlevels">IWMDRMReader2::GetCopyOutputLevels</a>
  
 
  

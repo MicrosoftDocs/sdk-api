@@ -79,7 +79,7 @@ The component requires the full privileges of the user.
 Classes can be activated depending on the trust level of the caller and the trust classification of the activatable class.
 
 
-<a href="https://msdn.microsoft.com/1B579206-F6B9-47C1-A7F3-4E7ECDEDCBB4">RegisteredTrustLevel</a> is an alias for this enumeration. 
+<a href="https://docs.microsoft.com/previous-versions//dn408470(v=vs.85)">RegisteredTrustLevel</a> is an alias for this enumeration. 
 
 
 
@@ -89,7 +89,7 @@ Classes can be activated depending on the trust level of the caller and the trus
 
 
 
-<a href="https://msdn.microsoft.com/E7E8AFD1-A8B7-4023-9F8B-573E0D2622F6">IInspectable::GetTrustLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nf-inspectable-iinspectable-gettrustlevel">IInspectable::GetTrustLevel</a>
  
 
  

@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ### -param style [in]
 
-Contains one of the <a href="https://msdn.microsoft.com/c79eb490-b950-4d49-bdf9-821f3706446d">TfLBBalloonStyle</a> values that specifies the new balloon style.
+Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/ne-ctfutb-__midl_itflangbaritemballoon_0001">TfLBBalloonStyle</a> values that specifies the new balloon style.
 
 
 ### -param pch [in]
@@ -114,7 +114,7 @@ One or more parameters are invalid.
 
 
 
-The language bar balloon implementation should update its style and text by modifying the values returned from <a href="https://msdn.microsoft.com/2f850553-ec79-4e2f-a4d5-c40dbaca0f01">ITfLangBarItemBalloon::GetBalloonInfo</a> and then call <a href="https://msdn.microsoft.com/f4fbc301-efbe-4b43-b2bd-e1a7248ad2f7">ITfLangBarItemSink::OnUpdate</a> with TF_LBI_BALLOON to cause the language bar to obtain the updated information.
+The language bar balloon implementation should update its style and text by modifying the values returned from <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritem-getstatus">ITfLangBarItemBalloon::GetBalloonInfo</a> and then call <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemsink-onupdate">ITfLangBarItemSink::OnUpdate</a> with TF_LBI_BALLOON to cause the language bar to obtain the updated information.
 
 
 
@@ -124,21 +124,21 @@ The language bar balloon implementation should update its style and text by modi
 
 
 
-<a href="https://msdn.microsoft.com/9b79526b-b7e1-41a2-b32e-88124347d77d">ITfFnBalloon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itffnballoon">ITfFnBalloon</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f850553-ec79-4e2f-a4d5-c40dbaca0f01">ITfLangBarItemBalloon::GetBalloonInfo
+<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritem-getstatus">ITfLangBarItemBalloon::GetBalloonInfo
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/f4fbc301-efbe-4b43-b2bd-e1a7248ad2f7">ITfLangBarItemSink::OnUpdate
+<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemsink-onupdate">ITfLangBarItemSink::OnUpdate
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/c79eb490-b950-4d49-bdf9-821f3706446d">TfLBBalloonStyle
+<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/ne-ctfutb-__midl_itflangbaritemballoon_0001">TfLBBalloonStyle
       </a>
  
 

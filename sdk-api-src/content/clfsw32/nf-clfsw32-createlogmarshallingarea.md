@@ -55,7 +55,7 @@ Creates a marshaling area for a log, and when successful it returns  a  marshali
 
 The marshaling context is used to append records to or read records from a log.  Because records are always stored in log blocks, they must pass through the marshaling context.
 
-Log records are written by calling <a href="https://msdn.microsoft.com/2036fc26-d040-4738-b66e-d5d3d0dbe385">ReserveAndAppendLog</a>.
+Log records are written by calling <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-reserveandappendlog">ReserveAndAppendLog</a>.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Log records are written by calling <a href="https://msdn.microsoft.com/2036fc26-
 
 ### -param hLog [in]
 
-A handle to the log that is obtained from <a href="https://msdn.microsoft.com/ac104bf9-7ca7-417a-bd14-09b0e82c6a77">CreateLogFile</a>.  
+A handle to the log that is obtained from <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a>.  
 
 The log handle  can  refer to a dedicated or multiplexed log.
 
@@ -103,7 +103,7 @@ If <i>pfnAllocBuffer</i> is <b>NULL</b>, this parameter is ignored.
 
 ### -param cbMarshallingBuffer [in]
 
-The size, in bytes, of the individual log I/O blocks that will be used by the new marshaling area.  This must be a multiple of the sector size on the stable storage medium.   The sector size is the value returned in the <i>lpBytesPerSector</i> parameter of the <a href="https://msdn.microsoft.com/4fe14c49-3fd6-48b7-92de-a0c867b2e042">GetDiskFreeSpace</a> function.
+The size, in bytes, of the individual log I/O blocks that will be used by the new marshaling area.  This must be a multiple of the sector size on the stable storage medium.   The sector size is the value returned in the <i>lpBytesPerSector</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdiskfreespacea">GetDiskFreeSpace</a> function.
 
 Records cannot be appended or read if they are longer than this value.
 
@@ -137,7 +137,7 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following  list identifies the  possible error codes:
 
@@ -149,15 +149,15 @@ The following  list identifies the  possible error codes:
 
 
 
-<a href="https://msdn.microsoft.com/a3059828-d291-493d-a4fe-13d06e49ed12">Common Log File System Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/ac104bf9-7ca7-417a-bd14-09b0e82c6a77">CreateLogFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/d58bd64f-fa76-4ab3-9660-e31e9029171c">DeleteLogMarshallingArea</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-deletelogmarshallingarea">DeleteLogMarshallingArea</a>
  
 
  

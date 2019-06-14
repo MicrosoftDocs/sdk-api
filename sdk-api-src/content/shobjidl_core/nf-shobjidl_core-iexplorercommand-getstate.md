@@ -59,9 +59,9 @@ Gets state information associated with a specified Windows Explorer command item
 
 ### -param psiItemArray [in]
 
-Type: <b><a href="https://msdn.microsoft.com/348213d1-c03f-4c38-9d13-3b1009d94e07">IShellItemArray</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/348213d1-c03f-4c38-9d13-3b1009d94e07">IShellItemArray</a>.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a>.
 
 
 ### -param fOkToBeSlow [in]
@@ -73,9 +73,9 @@ Type: <b>BOOL</b>
 
 ### -param pCmdState [out]
 
-Type: <b><a href="https://msdn.microsoft.com/41e76b6e-9294-40b3-bb8b-bbfe487fd023">EXPCMDSTATE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_expcmdstate">EXPCMDSTATE</a>*</b>
 
-A pointer to a value that, when this method returns successfully, receives one or more Windows Explorer command states indicated by the <a href="https://msdn.microsoft.com/41e76b6e-9294-40b3-bb8b-bbfe487fd023">EXPCMDSTATE</a> constants.
+A pointer to a value that, when this method returns successfully, receives one or more Windows Explorer command states indicated by the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_expcmdstate">EXPCMDSTATE</a> constants.
 
 
 ## -returns

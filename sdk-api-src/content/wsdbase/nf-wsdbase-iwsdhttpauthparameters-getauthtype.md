@@ -59,7 +59,7 @@ The <b>GetAuthType</b> method retrieves the HTTP authentication scheme used duri
 
 ### -param pAuthType
 
-Pointer to an <a href="https://msdn.microsoft.com/e0147da5-7de2-4ea8-abc5-61c814ee7c55">HTTP_REQUEST_AUTH_TYPE</a>  value that indicates the HTTP authentication scheme used during authentication. Possible values include:
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_request_auth_type">HTTP_REQUEST_AUTH_TYPE</a>  value that indicates the HTTP authentication scheme used during authentication. Possible values include:
 
 <table>
 <tr>
@@ -106,7 +106,7 @@ This method returns S_OK on success.
 
 
 
-<a href="https://msdn.microsoft.com/77AB4D22-55F2-4DF6-8E83-718BFB88841A">IWSDHttpAuthParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpauthparameters">IWSDHttpAuthParameters</a>
  
 
  

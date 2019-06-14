@@ -52,7 +52,7 @@ ms.custom: 19H1
 The 
 <b>IS_SPECIAL_DATAOBJECT</b> macro determines whether an <b>LPDATAOBJECT</b> passed by MMC in a call to the snap-in's 
 Notify method is a special type of data object instead of a pointer to an actual 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> object.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object.
 
 
 ## -parameters
@@ -73,29 +73,29 @@ MMC can pass <b>DOBJ_CUSTOMOCX</b> or <b>DOBJ_CUSTOMWEB</b> as the data object i
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/124656df-5d12-4de1-9a71-ba080ef36611">IExtendControlbar::ControlbarNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendcontrolbar-controlbarnotify">IExtendControlbar::ControlbarNotify</a>
 <dl>
 <dd>
-<a href="https://msdn.microsoft.com/166488ab-942f-4e25-9007-b9b79aac5995">MMCN_BTN_CLICK</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-btn-click">MMCN_BTN_CLICK</a>
 </dd>
 </dl>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/38c3b31f-356c-46cf-904a-98241c0f199f">IComponent::Notify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-notify">IComponent::Notify</a>
 <dl>
 <dd>
-<a href="https://msdn.microsoft.com/166488ab-942f-4e25-9007-b9b79aac5995">MMCN_BTN_CLICK</a> with <i>param</i> set to<b> MMC_VERB_PROPERTIES</b></dd>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-btn-click">MMCN_BTN_CLICK</a> with <i>param</i> set to<b> MMC_VERB_PROPERTIES</b></dd>
 <dd>
-<a href="https://msdn.microsoft.com/eaf6c7de-2b02-4563-9392-588a74c9d744">MMCN_DELETE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-delete">MMCN_DELETE</a>
 </dd>
 <dd>
-<a href="https://msdn.microsoft.com/a2eedeb8-663a-43eb-9b8b-ab419a8b3f79">MMCN_PASTE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-paste">MMCN_PASTE</a>
 </dd>
 <dd>
-<a href="https://msdn.microsoft.com/74814817-f93b-476f-a477-e6b65ed229bb">MMCN_PRINT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-print">MMCN_PRINT</a>
 </dd>
 <dd>
-<a href="https://msdn.microsoft.com/c39d99f7-7e80-4bad-8494-41f7f28c83a3">MMCN_REFRESH</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-refresh">MMCN_REFRESH</a>
 </dd>
 </dl>
 </li>

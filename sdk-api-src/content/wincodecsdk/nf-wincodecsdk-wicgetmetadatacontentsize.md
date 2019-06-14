@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns the size of the metadata content contained by the specified <a href="https://msdn.microsoft.com/7e742a96-f9d0-49e1-80e4-31ec90680e60">IWICMetadataWriter</a>. The returned size accounts for the header and the length of the metadata.
+Returns the size of the metadata content contained by the specified <a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatawriter">IWICMetadataWriter</a>. The returned size accounts for the header and the length of the metadata.
 
 
 ## -parameters
@@ -67,9 +67,9 @@ The container GUID.
 
 ### -param pIWriter [in]
 
-Type: <b><a href="https://msdn.microsoft.com/7e742a96-f9d0-49e1-80e4-31ec90680e60">IWICMetadataWriter</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatawriter">IWICMetadataWriter</a>*</b>
 
-The <a href="https://msdn.microsoft.com/7e742a96-f9d0-49e1-80e4-31ec90680e60">IWICMetadataWriter</a> that contains the content.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatawriter">IWICMetadataWriter</a> that contains the content.
 
 
 ### -param pcbSize [out]

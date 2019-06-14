@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Creates a type library in the current file format.
 
-The file and in-memory format for the current version of Automation makes use of memory-mapped files. The <a href="https://msdn.microsoft.com/c7a94d5b-7ac5-4b7c-8aed-ead23de9ea75">CreateTypeLib</a> function is still available for creating a type library in the older format.
+The file and in-memory format for the current version of Automation makes use of memory-mapped files. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createtypelib">CreateTypeLib</a> function is still available for creating a type library in the older format.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ The name of the file to create.
 
 ### -param ppctlib
 
-The <a href="https://msdn.microsoft.com/97378353-8c2d-493a-8ee9-42d33ab47d18">ICreateTypeLib2</a> interface.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib2">ICreateTypeLib2</a> interface.
 
 
 ## -returns

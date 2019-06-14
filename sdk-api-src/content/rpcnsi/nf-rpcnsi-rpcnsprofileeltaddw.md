@@ -178,7 +178,7 @@ The name service is unavailable.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -190,7 +190,7 @@ The name service is unavailable.
 The 
 <b>RpcNsProfileEltAdd</b> function adds an element to the profile attribute of the name-service entry specified by <i>ProfileName</i>. If the <i>ProfileName</i> entry does not exist, 
 <b>RpcNsProfileEltAdd</b> tries to create the entry with a profile attribute and adds the profile element specified by the <i>IfId</i>, <i>MemberName</i>, <i>Priority</i>, and <i>Annotation</i> parameters. In this case, the application must have the privilege to create the entry. Otherwise, a management application with the necessary privileges should create the entry by calling the 
-<a href="https://msdn.microsoft.com/32de2395-174a-4e14-82db-9043db817708">RpcNsMgmtEntryCreate</a> function before the application is run.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmtentrycreatea">RpcNsMgmtEntryCreate</a> function before the application is run.
 
 If an element with the specified member name and interface identification is already in the profile, 
 <b>RpcNsProfileEltAdd</b> updates the element's priority and annotation string using the values provided in the <i>Priority</i> and <i>Annotation</i> parameters.
@@ -205,15 +205,15 @@ If an element with the specified member name and interface identification is alr
 
 
 
-<a href="https://msdn.microsoft.com/1b91e88c-b242-472f-b719-60f96599cb67">RpcIfInqId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcifinqid">RpcIfInqId</a>
 
 
 
-<a href="https://msdn.microsoft.com/32de2395-174a-4e14-82db-9043db817708">RpcNsMgmtEntryCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmtentrycreatea">RpcNsMgmtEntryCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/303df924-73ad-4e2f-aa30-e600bb5594c2">RpcNsProfileEltRemove</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltremovea">RpcNsProfileEltRemove</a>
  
 
  

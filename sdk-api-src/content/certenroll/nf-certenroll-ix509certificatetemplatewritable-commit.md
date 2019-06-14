@@ -59,7 +59,7 @@ The <b>Commit</b> method deletes a template from or saves it to Active Directory
 
 ### -param commitFlags [in]
 
-A <a href="https://msdn.microsoft.com/e228928a-ef11-4caa-b33f-fe25a3a6ff86">CommitTemplateFlags</a> enumeration value that specifies how to save or delete the template. This must be one of the following values.
+A <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-committemplateflags">CommitTemplateFlags</a> enumeration value that specifies how to save or delete the template. This must be one of the following values.
 
 <table>
 <tr>
@@ -121,7 +121,7 @@ A <b>BSTR</b> variable that contains the DNS name of the Active Directory server
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -190,7 +190,7 @@ Either <b>CommitFlagSaveTemplateUseCurrentOID</b> or <b>CommitFlagSaveTemplateOv
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/ee7d5640-8d06-4a1a-bce2-f76ee6276207">Commit</a> method is not supported for default templates.
+The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificatetemplatewritable-commit">Commit</a> method is not supported for default templates.
 
 </td>
 </tr>
@@ -201,7 +201,7 @@ The <a href="https://msdn.microsoft.com/ee7d5640-8d06-4a1a-bce2-f76ee6276207">Co
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/87660b16-06a8-4a71-8669-24521f1399e4">IX509CertificateTemplateWritable</a> object has not been initialized.
+The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplatewritable">IX509CertificateTemplateWritable</a> object has not been initialized.
 
 </td>
 </tr>
@@ -230,7 +230,7 @@ When <b>CommitFlagSaveTemplateGenerateOID</b> is specified in the <i>commitFlags
 
 
 
-<a href="https://msdn.microsoft.com/87660b16-06a8-4a71-8669-24521f1399e4">IX509CertificateTemplateWritable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplatewritable">IX509CertificateTemplateWritable</a>
  
 
  

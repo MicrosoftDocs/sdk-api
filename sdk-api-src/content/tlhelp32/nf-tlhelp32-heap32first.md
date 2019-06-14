@@ -62,7 +62,7 @@ Retrieves information about the first block of a heap that has been allocated by
 ### -param lphe [in, out]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/c5f1dc66-d44f-4491-b0b7-961b163d0f1f">HEAPENTRY32</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-tagheapentry32">HEAPENTRY32</a> structure.
 
 
 ### -param th32ProcessID [in]
@@ -80,7 +80,7 @@ The identifier of the heap to be enumerated.
 
 
 Returns <b>TRUE</b> if information for the first heap block has been copied to the buffer or <b>FALSE</b> otherwise. The <b>ERROR_NO_MORE_FILES</b> error value is returned by the 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function if the heap is invalid or empty.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function if the heap is invalid or empty.
 
 
 
@@ -90,17 +90,17 @@ Returns <b>TRUE</b> if information for the first heap block has been copied to t
 
 
 The calling application must set the <b>dwSize</b> member of 
-<a href="https://msdn.microsoft.com/c5f1dc66-d44f-4491-b0b7-961b163d0f1f">HEAPENTRY32</a> to the size, in bytes, of the structure. 
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-tagheapentry32">HEAPENTRY32</a> to the size, in bytes, of the structure. 
 <b>Heap32First</b> changes <b>dwSize</b> to the number of bytes written to the structure. This will never be greater than the initial value of <b>dwSize</b>, but it may be smaller. If the value is smaller, do not rely on the values of any members whose offsets are greater than this value.
 
 To access subsequent blocks of the same heap, use the 
-<a href="https://msdn.microsoft.com/cc3becd0-edba-47cf-ac2d-26a5d98390e7">Heap32Next</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-heap32next">Heap32Next</a> function.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/cfa1d2a4-fec0-4089-9351-e0a26f9ecfe3">Traversing the Heap List</a>.
+<a href="https://docs.microsoft.com/windows/desktop/ToolHelp/traversing-the-heap-list">Traversing the Heap List</a>.
 
 <div class="code"></div>
 
@@ -111,19 +111,19 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/c5f1dc66-d44f-4491-b0b7-961b163d0f1f">HEAPENTRY32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-tagheapentry32">HEAPENTRY32</a>
 
 
 
-<a href="https://msdn.microsoft.com/631096fd-cb2c-4b19-aa71-d47060e2715c">Heap Lists and Heap Walking</a>
+<a href="https://docs.microsoft.com/windows/desktop/ToolHelp/heap-lists-and-heap-walking">Heap Lists and Heap Walking</a>
 
 
 
-<a href="https://msdn.microsoft.com/cc3becd0-edba-47cf-ac2d-26a5d98390e7">Heap32Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-heap32next">Heap32Next</a>
 
 
 
-<a href="https://msdn.microsoft.com/83732bd6-f4cf-409d-ad17-86503d408dc3">Tool Help Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/ToolHelp/tool-help-functions">Tool Help Functions</a>
  
 
  

@@ -62,13 +62,13 @@ Returns information about a specified virtual
 ### -param hChannelHandle [in]
 
 Handle to a virtual channel opened by the 
-      <a href="https://msdn.microsoft.com/0daaf06f-ba05-469c-b888-3df5d9495364">WTSVirtualChannelOpen</a> function.
+      <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelopen">WTSVirtualChannelOpen</a> function.
 
 
 ### -param WTS_VIRTUAL_CLASS [in]
 
 Specifies the type of information returned in the <i>ppBuffer</i> parameter. This parameter 
-      can be a value from the <a href="https://msdn.microsoft.com/ca7bb0ff-f5af-477f-a610-563071554234">WTS_VIRTUAL_CLASS</a> 
+      can be a value from the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-_wts_virtual_class">WTS_VIRTUAL_CLASS</a> 
       enumeration type.
 
 
@@ -88,13 +88,13 @@ Pointer to a variable that receives the number of bytes returned in the <i>ppBuf
 
 
 If the function succeeds, the return value is a nonzero value. Call the 
-       <a href="https://msdn.microsoft.com/1c325174-ec08-4bbb-8e91-1a3cc9256110">WTSFreeMemory</a> function with the value returned in 
+       <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsfreememory">WTSFreeMemory</a> function with the value returned in 
        the <i>ppBuffer</i> parameter to free the temporary memory allocated by 
        <b>WTSVirtualChannelQuery</b>.
       
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
       
 
 
@@ -106,7 +106,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 The following example shows how to gain access to a virtual channel file handle that can be used for 
     asynchronous I/O. First the code opens a virtual channel by using a call to the 
-    <a href="https://msdn.microsoft.com/0daaf06f-ba05-469c-b888-3df5d9495364">WTSVirtualChannelOpen</a> function.
+    <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelopen">WTSVirtualChannelOpen</a> function.
     Then the code calls the 
     <b>WTSVirtualChannelQuery</b> function, specifying 
     the WTSVirtualFileHandle virtual class type. 
@@ -114,13 +114,13 @@ The following example shows how to gain access to a virtual channel file handle 
     handle that you can use to perform asynchronous (overlapped) read and write operations. Finally, the code frees 
     the memory allocated by 
     <b>WTSVirtualChannelQuery</b> with a call to the 
-    <a href="https://msdn.microsoft.com/1c325174-ec08-4bbb-8e91-1a3cc9256110">WTSFreeMemory</a> function, and closes the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsfreememory">WTSFreeMemory</a> function, and closes the 
     virtual channel with a call to the 
-    <a href="https://msdn.microsoft.com/d82cb1cd-a9bd-45e8-8a86-2c7dd860b987">WTSVirtualChannelClose</a> function.
+    <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelclose">WTSVirtualChannelClose</a> function.
 
 Note that you should not explicitly close the file handle obtained by calling 
     <b>WTSVirtualChannelQuery</b>. This is because 
-    <a href="https://msdn.microsoft.com/d82cb1cd-a9bd-45e8-8a86-2c7dd860b987">WTSVirtualChannelClose</a> closes the file handle.
+    <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelclose">WTSVirtualChannelClose</a> closes the file handle.
 
 
 ```cpp
@@ -192,7 +192,7 @@ Note that you should not explicitly close the file handle obtained by calling
 
 
 For more information about overlapped mode, see 
-    <a href="https://msdn.microsoft.com/db44990e-5a0f-4153-8ff6-79dd7cda48af">Synchronization and Overlapped Input and 
+    <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">Synchronization and Overlapped Input and 
     Output</a>.
 
 
@@ -203,11 +203,11 @@ For more information about overlapped mode, see
 
 
 
-<a href="https://msdn.microsoft.com/0daaf06f-ba05-469c-b888-3df5d9495364">WTSVirtualChannelOpen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelopen">WTSVirtualChannelOpen</a>
 
 
 
-<a href="https://msdn.microsoft.com/ca7bb0ff-f5af-477f-a610-563071554234">WTS_VIRTUAL_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-_wts_virtual_class">WTS_VIRTUAL_CLASS</a>
  
 
  

@@ -76,7 +76,7 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the return v
 
 
 
-<a href="https://msdn.microsoft.com/EAAA22B1-5D8A-4ED8-813B-58671B0EF7AA">IRDPSRAPIPerfCounterLogger</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiperfcounterlogger">IRDPSRAPIPerfCounterLogger</a>
  
 
  

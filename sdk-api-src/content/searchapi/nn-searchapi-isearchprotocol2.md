@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Provides methods for invoking, initializing, and managing <a href="https://msdn.microsoft.com/en-us/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a> objects. Methods in this interface are called by the protocol host when processing URLs from the gatherer. 
+Provides methods for invoking, initializing, and managing <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a> objects. Methods in this interface are called by the protocol host when processing URLs from the gatherer. 
       
 
  
@@ -59,7 +59,7 @@ Provides methods for invoking, initializing, and managing <a href="https://msdn.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchProtocol2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb231440(v=VS.85).aspx">ISearchProtocol</a>. <b>ISearchProtocol2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchProtocol2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchprotocol">ISearchProtocol</a>. <b>ISearchProtocol2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,11 +74,11 @@ The <b>ISearchProtocol2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231433(v=VS.85).aspx">CreateAccessorEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchprotocol2-createaccessorex">CreateAccessorEx</a>
 </td>
 <td align="left" width="63%">
  
-        Creates and initializes an <a href="https://msdn.microsoft.com/en-us/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a> object. This method has the same basic functionality as the <a href="https://msdn.microsoft.com/en-us/library/Bb231438(v=VS.85).aspx">ISearchProtocol::CreateAccessor</a> method, but it includes an additional <b>pUserData</b> parameter to supply additional data to the protocol handler.
+        Creates and initializes an <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a> object. This method has the same basic functionality as the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchprotocol-createaccessor">ISearchProtocol::CreateAccessor</a> method, but it includes an additional <b>pUserData</b> parameter to supply additional data to the protocol handler.
         
 
 </td>
@@ -91,11 +91,11 @@ The <b>ISearchProtocol2</b> interface has these methods.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb231440(v=VS.85).aspx">ISearchProtocol</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchprotocol">ISearchProtocol</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Cc678933(v=VS.85).aspx">The Indexing Process</a>
+<a href="https://docs.microsoft.com/windows/desktop/search/-search-indexing-process-overview">The Indexing Process</a>
  
 
  

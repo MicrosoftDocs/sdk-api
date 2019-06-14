@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DhcpAddSubnetElementV4</b> function adds an element describing a feature or aspect of the subnet to the subnet entry in the DHCP database. This function extends <a href="https://msdn.microsoft.com/4f93d4e8-f41e-4df8-98cc-70a11be75eab">DhcpAddSubnetElement</a> by incorporating subnet elements that consider client type.
+The <b>DhcpAddSubnetElementV4</b> function adds an element describing a feature or aspect of the subnet to the subnet entry in the DHCP database. This function extends <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpaddsubnetelement">DhcpAddSubnetElement</a> by incorporating subnet elements that consider client type.
 <div class="alert"><b>Note</b>  This function is not available in Windows previous to Windows NT 4.0 Service Pack 1.</div><div> </div>
 
 ## -parameters
@@ -65,20 +65,20 @@ Pointer to a Unicode string that contains the IP address of the subnet DHCP serv
 ### -param SubnetAddress [in]
 
 
-<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_ADDRESS</a> structure that contains the IP address of the subnet.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> structure that contains the IP address of the subnet.
 
 
 ### -param AddElementInfo [in]
 
 
-<a href="https://msdn.microsoft.com/d17725da-516b-4be6-839e-9876653e63c4">DHCP_SUBNET_ELEMENT_DATA_V4</a> structure that contains the element data to add to the subnet. The V4 structure adds support for differentiation between DHCP and BOOTP clients.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_subnet_element_data_v4">DHCP_SUBNET_ELEMENT_DATA_V4</a> structure that contains the element data to add to the subnet. The V4 structure adds support for differentiation between DHCP and BOOTP clients.
 
 
 ## -returns
 
 
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://msdn.microsoft.com/6370313f-d7db-4ff1-b0e0-7fa47474facb">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -206,15 +206,15 @@ The specified address is not available.
 
 
 
-<a href="https://msdn.microsoft.com/d17725da-516b-4be6-839e-9876653e63c4">DHCP_SUBNET_ELEMENT_DATA_V4</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_subnet_element_data_v4">DHCP_SUBNET_ELEMENT_DATA_V4</a>
 
 
 
-<a href="https://msdn.microsoft.com/4f93d4e8-f41e-4df8-98cc-70a11be75eab">DhcpAddSubnetElement</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpaddsubnetelement">DhcpAddSubnetElement</a>
 
 
 
-<a href="https://msdn.microsoft.com/200fc8da-d05c-4502-9cfc-d1092c5d0417">DhcpAddSubnetElementV5</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpaddsubnetelementv5">DhcpAddSubnetElementV5</a>
  
 
  

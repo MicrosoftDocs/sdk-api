@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The values in this enumeration are used to identify the sub-types of <a href="https://msdn.microsoft.com/85a3fa35-b574-4091-9ef2-486ac751ef82">WS_POLICY_EXTENSION</a>.
+The values in this enumeration are used to identify the sub-types of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_policy_extension">WS_POLICY_EXTENSION</a>.
             
 
 
@@ -60,6 +60,6 @@ The values in this enumeration are used to identify the sub-types of <a href="ht
 
 ### -field WS_ENDPOINT_POLICY_EXTENSION_TYPE
 
-This value is used in the type field of <a href="https://msdn.microsoft.com/85a3fa35-b574-4091-9ef2-486ac751ef82">WS_POLICY_EXTENSION</a>to identify a <a href="https://msdn.microsoft.com/en-us/library/Dd401833(v=VS.85).aspx">WS_ENDPOINT_POLICY_EXTENSION</a> structure.
+This value is used in the type field of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_policy_extension">WS_POLICY_EXTENSION</a>to identify a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_endpoint_policy_extension">WS_ENDPOINT_POLICY_EXTENSION</a> structure.
                 
 

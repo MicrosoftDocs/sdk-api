@@ -52,7 +52,7 @@ ms.custom: 19H1
 The <b>CERT_POLICY_INFO</b> structure contains an object identifier (OID) specifying a policy and an optional array of policy qualifiers.
 
 The <b>CERT_POLICY_INFO</b> structure is a component of 
-<a href="https://msdn.microsoft.com/cf5fafd9-6129-4f25-8d61-189b46585e57">CERT_POLICIES_INFO</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_policies_info">CERT_POLICIES_INFO</a>.
 
 
 ## -struct-fields
@@ -74,7 +74,7 @@ Number of elements in the <b>rgPolicyQualifier</b> array.
 ### -field rgPolicyQualifier
 
 Array of 
-<a href="https://msdn.microsoft.com/86b1716d-541f-4e06-a824-01c22f0eba27">CERT_POLICY_QUALIFIER_INFO</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_policy_qualifier_info">CERT_POLICY_QUALIFIER_INFO</a> structures.
 
 
 ## -see-also
@@ -82,11 +82,11 @@ Array of
 
 
 
-<a href="https://msdn.microsoft.com/cf5fafd9-6129-4f25-8d61-189b46585e57">CERT_POLICIES_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_policies_info">CERT_POLICIES_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/86b1716d-541f-4e06-a824-01c22f0eba27">CERT_POLICY_QUALIFIER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_policy_qualifier_info">CERT_POLICY_QUALIFIER_INFO</a>
  
 
  

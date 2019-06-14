@@ -59,7 +59,7 @@ The    <b>ProcessMessage</b> method sends a message to the Device Media Foundati
 
 ### -param eMessage [in]
 
-The message to send, specified as a member of the <a href="https://msdn.microsoft.com/55b0aa32-53af-4f19-9d99-9885c1e28588">MFT_MESSAGE_TYPE</a> enumeration.
+The message to send, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ne-mftransform-_mft_message_type">MFT_MESSAGE_TYPE</a> enumeration.
 
 
 ### -param ulParam [in]
@@ -158,7 +158,7 @@ Before calling this method, set the media types on all input and output streams.
 
 The MFT might ignore certain message types. If so, the method returns <b>S_OK</b>. An error code indicates that the transform handles this message type but was unable to process the message in this instance.
 
-For more information, see <a href="https://msdn.microsoft.com/55b0aa32-53af-4f19-9d99-9885c1e28588">MFT_MESSAGE_TYPE</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ne-mftransform-_mft_message_type">MFT_MESSAGE_TYPE</a>.
 
 
 
@@ -168,7 +168,7 @@ For more information, see <a href="https://msdn.microsoft.com/55b0aa32-53af-4f19
 
 
 
-<a href="https://msdn.microsoft.com/375293FA-8017-4F74-A93C-C15FED8F19AF">IMFDeviceTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransform">IMFDeviceTransform</a>
  
 
  

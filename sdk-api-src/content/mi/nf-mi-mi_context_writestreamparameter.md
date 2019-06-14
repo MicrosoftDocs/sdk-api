@@ -75,7 +75,7 @@ A value-type entity.
 ### -param type [in]
 
 
-<a href="https://msdn.microsoft.com/21015eb7-9630-458e-acd8-923ee86ac2b8">MI_Type</a> object that indicates the type being 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_type">MI_Type</a> object that indicates the type being 
       streamed.
 
 
@@ -95,7 +95,7 @@ The end of the stream has been reached.
 
 
 
-A value of the <a href="https://msdn.microsoft.com/9AA2B479-E8A5-4F0C-A8A4-06DB7CB7CA2F">MI_Result</a> enumeration that specifies the 
+A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_result">MI_Result</a> enumeration that specifies the 
       function return code. This can be one of the following codes.
 
 
@@ -122,11 +122,11 @@ Array-method out parameters can be marked as streamed, which means that instead 
 
 
 
-<a href="https://msdn.microsoft.com/51d6c510-f9fd-4ab7-a669-b2a5776b496d">MI_Context</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_context">MI_Context</a>
 
 
 
-<a href="https://msdn.microsoft.com/21015eb7-9630-458e-acd8-923ee86ac2b8">MI_Type</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_type">MI_Type</a>
  
 
  

@@ -73,21 +73,21 @@ The number of future reference frames required to perform the optimal video proc
 
 ### -field ProcessorCaps
 
-A bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/9AD4ED7B-B12E-4DFD-BB85-BC19FC6C755A">D3D11_VIDEO_PROCESSOR_PROCESSOR_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_processor_caps">D3D11_VIDEO_PROCESSOR_PROCESSOR_CAPS</a> enumeration.
 
 
 
 
 ### -field ITelecineCaps
 
-A bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/EE92F877-1B27-4A95-8BB7-01852253D112">D3D11_VIDEO_PROCESSOR_ITELECINE_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_itelecine_caps">D3D11_VIDEO_PROCESSOR_ITELECINE_CAPS</a> enumeration.
 
 
 
 
 ### -field CustomRateCount
 
-The number of custom frame rates that the driver supports. To get the list of custom frame rates, call the <a href="https://msdn.microsoft.com/0FA868E6-B0FB-433B-A183-72DDE39B207E">ID3D11VideoProcessorEnumerator::GetVideoProcessorCustomRate</a> method.
+The number of custom frame rates that the driver supports. To get the list of custom frame rates, call the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessorenumerator-getvideoprocessorcustomrate">ID3D11VideoProcessorEnumerator::GetVideoProcessorCustomRate</a> method.
 
 
 ## -see-also
@@ -95,7 +95,7 @@ The number of custom frame rates that the driver supports. To get the list of cu
 
 
 
-<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>
  
 
  

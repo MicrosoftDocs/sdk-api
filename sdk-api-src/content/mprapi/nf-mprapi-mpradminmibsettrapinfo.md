@@ -155,19 +155,19 @@ Insufficient resources to complete the operation.
 
 
 
-<a href="https://msdn.microsoft.com/626c66c8-db7b-4be3-b5b0-c10a41ca46cc">MprAdminMIBGetTrapInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminmibgettrapinfo">MprAdminMIBGetTrapInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/c911daa4-4f3d-4944-9dc0-695a4efbcb1b">Router Management MIB Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/mib-functions">Router Management MIB Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7a28ac0-c6f9-450c-9925-67990a62ba08">Router Management MIB Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-mib-reference">Router Management MIB Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d9e21de-1eca-4e3f-a941-5f7b0f46e30c">Transport and Protocol Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/transport-and-protocol-constants">Transport and Protocol Constants</a>
  
 
  

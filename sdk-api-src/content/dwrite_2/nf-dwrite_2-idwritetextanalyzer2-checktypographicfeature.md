@@ -106,7 +106,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/62DF6E71-F99D-47E9-A9BE-2A481A60AEDD">IDWriteTextAnalyzer2</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritetextanalyzer2">IDWriteTextAnalyzer2</a>
  
 
  

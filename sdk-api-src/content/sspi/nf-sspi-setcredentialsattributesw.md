@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">attributes</a> of a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">credential</a>, such as the name associated with the credential. The information is valid for any <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a> created with the specified credential.
+Sets the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attributes</a> of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">credential</a>, such as the name associated with the credential. The information is valid for any <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a> created with the specified credential.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ A handle of the credentials to be set.
 
 ### -param ulAttribute [in]
 
-Specifies the <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">attribute</a> to set. This parameter can be any of the following attributes.
+Specifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attribute</a> to set. This parameter can be any of the following attributes.
 
 <table>
 <tr>
@@ -80,7 +80,7 @@ Specifies the <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6
 </dl>
 </td>
 <td width="60%">
-Sets the name of a credential in a <i>pBuffer</i> parameter of type <a href="https://msdn.microsoft.com/38123a10-72a4-46eb-974b-3c01142dfc74">SecPkgCredentials_Names</a>.
+Sets the name of a credential in a <i>pBuffer</i> parameter of type <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkgcredentials_namesa">SecPkgCredentials_Names</a>.
 
 This attribute is not supported by Schannel in WOW64 mode.
 
@@ -93,7 +93,7 @@ This attribute is not supported by Schannel in WOW64 mode.
 </dl>
 </td>
 <td width="60%">
-Sets the Kerberos proxy setting in a  <i>pBuffer</i> parameter of type <a href="https://msdn.microsoft.com/42BC75B8-6392-4FD4-95BC-266B3AFDDC62">SecPkgCredentials_KdcProxySettings</a>.
+Sets the Kerberos proxy setting in a  <i>pBuffer</i> parameter of type <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkgcredentials_kdcproxysettingsw">SecPkgCredentials_KdcProxySettings</a>.
 
 This attribute is only supported by Kerberos.
 
@@ -106,7 +106,7 @@ This attribute is only supported by Kerberos.
 </dl>
 </td>
 <td width="60%">
-Sets the supported algorithms in a  <i>pBuffer</i> parameter of type <a href="https://msdn.microsoft.com/3beb83bb-759c-4025-93ce-d9827890c60e">SecPkgCred_SupportedAlgs</a>. All supported algorithms are included, regardless of whether they are supported by the provided certificate or enabled on the local computer.
+Sets the supported algorithms in a  <i>pBuffer</i> parameter of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380102(v=vs.85)">SecPkgCred_SupportedAlgs</a>. All supported algorithms are included, regardless of whether they are supported by the provided certificate or enabled on the local computer.
 
 This attribute is supported only by Schannel.
 
@@ -119,7 +119,7 @@ This attribute is supported only by Schannel.
 </dl>
 </td>
 <td width="60%">
-Sets the cipher strengths in a <i>pBuffer</i> parameter of type <a href="https://msdn.microsoft.com/e4d3be07-0f37-470a-a760-f704c18c6826">SecPkgCred_CipherStrengths</a>.
+Sets the cipher strengths in a <i>pBuffer</i> parameter of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380101(v=vs.85)">SecPkgCred_CipherStrengths</a>.
 
 This attribute is supported only by Schannel.
 
@@ -132,7 +132,7 @@ This attribute is supported only by Schannel.
 </dl>
 </td>
 <td width="60%">
-Sets the supported algorithms in a <i>pBuffer</i> parameter of type <a href="https://msdn.microsoft.com/712f93f2-11b9-4533-bb5d-507b25ede378">SecPkgCred_SupportedProtocols</a>. All supported protocols are included, regardless of whether they are supported by the provided certificate or enabled on the local computer.
+Sets the supported algorithms in a <i>pBuffer</i> parameter of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380103(v=vs.85)">SecPkgCred_SupportedProtocols</a>. All supported protocols are included, regardless of whether they are supported by the provided certificate or enabled on the local computer.
 
 This attribute is supported only by Schannel.
 
@@ -183,7 +183,7 @@ The handle passed to the function is not valid.
 </dl>
 </td>
 <td width="60%">
-The specified <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">attribute</a> is not supported by Schannel. This return value will only be returned when the Schannel SSP is being used.
+The specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attribute</a> is not supported by Schannel. This return value will only be returned when the Schannel SSP is being used.
 
 </td>
 </tr>
@@ -209,35 +209,35 @@ Not enough memory is available to complete the request.
 
 
 
-<a href="https://msdn.microsoft.com/acda4cf3-39a6-4bd2-91a0-db1f191b57b5">AcquireCredentialsHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/3c3d27bb-4f9a-4979-b679-1e10fa1ff221">FreeContextBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/8398e029-473e-488f-a861-c7ceae07e678">SCHANNEL_CRED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-_schannel_cred">SCHANNEL_CRED</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/e4d3be07-0f37-470a-a760-f704c18c6826">SecPkgCred_CipherStrengths</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380101(v=vs.85)">SecPkgCred_CipherStrengths</a>
 
 
 
-<a href="https://msdn.microsoft.com/3beb83bb-759c-4025-93ce-d9827890c60e">SecPkgCred_SupportedAlgs</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380102(v=vs.85)">SecPkgCred_SupportedAlgs</a>
 
 
 
-<a href="https://msdn.microsoft.com/712f93f2-11b9-4533-bb5d-507b25ede378">SecPkgCred_SupportedProtocols</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380103(v=vs.85)">SecPkgCred_SupportedProtocols</a>
 
 
 
-<a href="https://msdn.microsoft.com/38123a10-72a4-46eb-974b-3c01142dfc74">SecPkgCredentials_Names</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkgcredentials_namesa">SecPkgCredentials_Names</a>
  
 
  

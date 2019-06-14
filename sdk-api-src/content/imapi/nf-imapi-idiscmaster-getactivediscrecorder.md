@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Retrieves an interface pointer to the active disc recorder. The active disc recorder is the recorder where a burn will occur when 
-<a href="https://msdn.microsoft.com/2b234dc5-2409-49d8-83be-0ffea74f5bcf">RecordDisc</a> is called.
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmaster-recorddisc">RecordDisc</a> is called.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Retrieves an interface pointer to the active disc recorder. The active disc reco
 ### -param ppRecorder [out]
 
 Pointer to the 
-<a href="https://msdn.microsoft.com/fc861cbb-a14e-499e-8b80-f5912e4f6076">IDiscRecorder</a> interface of the currently selected disc recorder.
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscrecorder">IDiscRecorder</a> interface of the currently selected disc recorder.
 
 
 ## -returns
@@ -80,7 +80,7 @@ S_OK is returned on success, but other success codes may be returned as a result
 There is no default active disc recorder. An application using this method must specifically select both an active mastering format and an active disc recorder before initiating a burn.
 
 <div class="alert"><b>Note</b>  The active disc recorder can be invalidated by removing the device or changing the active disc mastering format. For example, a USB CD-R device may be disconnected from the machine while the application is still running (the application is alerted to this condition by a call to 
-<a href="https://msdn.microsoft.com/d2b41e86-2f1b-46f1-955d-7fc42f8189a4">IDiscMasterProgressEvents::NotifyPnPActivity</a>). In either case, you must select a new active disc recorder.</div>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmasterprogressevents-notifypnpactivity">IDiscMasterProgressEvents::NotifyPnPActivity</a>). In either case, you must select a new active disc recorder.</div>
 <div> </div>
 
 
@@ -90,7 +90,7 @@ There is no default active disc recorder. An application using this method must 
 
 
 
-<a href="https://msdn.microsoft.com/1473e79e-a13a-4bc5-b80d-d8921fdc9952">IDiscMaster</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscmaster">IDiscMaster</a>
  
 
  

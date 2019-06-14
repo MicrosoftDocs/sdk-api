@@ -66,12 +66,12 @@ A handle to the open virtual disk. This must be a VHD Set file.
 
 ### -param Parameters [in]
 
-A pointer to a valid <a href="https://msdn.microsoft.com/en-us/library/Mt414214(v=VS.85).aspx">DELETE_SNAPSHOT_VHDSET_PARAMETERS</a> structure that contains snapshot deletion data.
+A pointer to a valid <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_delete_snapshot_vhdset_parameters">DELETE_SNAPSHOT_VHDSET_PARAMETERS</a> structure that contains snapshot deletion data.
 
 
 ### -param Flags [in]
 
-Snapshot deletion flags, which must be a valid combination of the <a href="https://msdn.microsoft.com/en-us/library/Mt414213(v=VS.85).aspx">DELETE_SNAPSHOT_VHDSET_FLAG</a> enumeration.
+Snapshot deletion flags, which must be a valid combination of the <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_delete_snapshot_vhdset_flag">DELETE_SNAPSHOT_VHDSET_FLAG</a> enumeration.
 
 
 ## -returns
@@ -83,7 +83,7 @@ Status of the request.
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 If the function fails, the return value is an error code. For more information, see 
-       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 

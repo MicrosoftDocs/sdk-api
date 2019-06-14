@@ -82,11 +82,11 @@ The following values are examples of the qualifier values:
 
 
 
-<a href="https://msdn.microsoft.com/0E1D8CC6-B662-4068-A6BA-822E79321C33">DestroyIndexedResults</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/resourceindexer/nf-resourceindexer-destroyindexedresults">DestroyIndexedResults</a>
 
 
 
-<a href="https://msdn.microsoft.com/A1CDA9D1-9FEE-4FCB-AA85-1DA58D9EF95B">IndexFilePath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/resourceindexer/nf-resourceindexer-indexfilepath">IndexFilePath</a>
  
 
  

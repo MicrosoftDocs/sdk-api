@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-Initiates an operation affecting a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a>.
+Initiates an operation affecting a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a>.
 
-The operation performed depends on the <a href="https://msdn.microsoft.com/47618915-0985-4415-b7d4-5959fb27eb9f">control code</a> passed 
+The operation performed depends on the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/control-codes">control code</a> passed 
     to the <i>dwControlCode</i> parameter.
 
 
@@ -73,8 +73,8 @@ Optional handle to the node to perform the operation. If <b>NULL</b>, the node t
 
 ### -param dwControlCode [in]
 
-A <a href="https://msdn.microsoft.com/71ec60fd-67ec-4932-983b-f78c6b552954">resource control code</a>, enumerated by the 
-       <a href="https://msdn.microsoft.com/c90420de-48e9-4105-9848-a27abad9c452">CLUSCTL_RESOURCE_CODES</a> enumeration, specifying 
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-control-codes">resource control code</a>, enumerated by the 
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-clusctl_resource_codes">CLUSCTL_RESOURCE_CODES</a> enumeration, specifying 
        the operation to be performed. For the syntax associated with a control code, refer to  
        the link on the <b>CLUSCTL_RESOURCE_CODES</b> topic.
 
@@ -159,9 +159,9 @@ The output buffer pointed to by <i>lpOutBuffer</i> was not large enough to hold 
 </td>
 <td width="60%">
 Applies only to 
-         <a href="https://msdn.microsoft.com/016ca8bf-b5e4-4e7e-9ffd-14120146eedd">CLUSCTL_RESOURCE_SET_COMMON_PROPERTIES</a> 
+         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-set-common-properties">CLUSCTL_RESOURCE_SET_COMMON_PROPERTIES</a> 
          and 
-         <a href="https://msdn.microsoft.com/fdf7f7c3-fdaf-4c8e-8b57-8eab4256d5eb">CLUSCTL_RESOURCE_SET_PRIVATE_PROPERTIES</a>. 
+         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-set-private-properties">CLUSCTL_RESOURCE_SET_PRIVATE_PROPERTIES</a>. 
          Indicates that the properties were successfully stored but have not yet been applied to the resource. The new 
          properties will take effect after the resource is taken offline and brought online again.
 
@@ -183,7 +183,7 @@ The node specified by the <i>hNode</i> parameter is not the node that owns the r
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System error code</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System error code</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -203,19 +203,19 @@ The operation was not successful. If the operation required an output buffer, th
 
 
 
-When <a href="https://msdn.microsoft.com/a98ca55a-6535-48cf-a925-5005baa01b94">ClusterResourceControl</a> returns 
+When <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecontrol">ClusterResourceControl</a> returns 
      <b>ERROR_MORE_DATA</b>, set <i>cbOutBufferSize</i> to the number of bytes 
      pointed to by <i>lpBytesReturned</i>, and call the function again.
 
 Do not pass LPC and RPC handles to the same function call. Otherwise, the call will raise an RPC exception and 
      can have additional destructive effects. For information on how LPC and RPC handles are created, see 
-     <a href="https://msdn.microsoft.com/0fdb2024-9b04-4a38-baf9-3cdabba9bf8c">LPC and RPC Handles</a> and 
-     <a href="https://msdn.microsoft.com/b2ee2575-cc1e-4696-8e95-9798fb556c58">OpenCluster</a>.
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/lpc-and-rpc-handles">LPC and RPC Handles</a> and 
+     <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>.
 
-The <a href="https://msdn.microsoft.com/a98ca55a-6535-48cf-a925-5005baa01b94">ClusterResourceControl</a> function is one 
-     of the <a href="https://msdn.microsoft.com/89ae667e-6ad9-453e-b370-b3d6a67172a2">control code functions</a>. For more information 
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecontrol">ClusterResourceControl</a> function is one 
+     of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/control-code-functions">control code functions</a>. For more information 
      on control codes and control code functions, see 
-     <a href="https://msdn.microsoft.com/20f87f60-6237-459a-93bc-f599391e65b0">Using Control Codes</a>.
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/using-control-codes">Using Control Codes</a>.
 
 
 
@@ -225,11 +225,11 @@ The <a href="https://msdn.microsoft.com/a98ca55a-6535-48cf-a925-5005baa01b94">Cl
 
 
 
-<a href="https://msdn.microsoft.com/b2ee2575-cc1e-4696-8e95-9798fb556c58">OpenCluster</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>
 
 
 
-<a href="https://msdn.microsoft.com/a854829d-ed05-40a0-b7c8-c3e5ab888220">Resource Type Control Codes</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-type-control-codes">Resource Type Control Codes</a>
  
 
  

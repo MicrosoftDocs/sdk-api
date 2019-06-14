@@ -88,11 +88,11 @@ The caller must release the returned <b>BSTR</b>, by calling <b>SysFreeString</b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319696(v=VS.85).aspx">IAMNetShowConfig Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nn-qnetwork-iamnetshowconfig">IAMNetShowConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319705(v=VS.85).aspx">IAMNetShowConfig::get_HTTPProxyPort</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-get_httpproxyport">IAMNetShowConfig::get_HTTPProxyPort</a>
  
 
  

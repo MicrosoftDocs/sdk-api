@@ -146,9 +146,9 @@ The channel has already closed. IPrintAsyncNotifyChannel::Release must not be ca
 
 The return values are COM error codes. Because this function might complete the operation successfully yet return an HRESULT other than S_OK you should use the SUCCEEDED or FAILED macro to determine the success of the call. To get the specific HRESULT that was returned by the function, use the HRESULT_CODE macro. The following code example shows how these macros can be used.
 
-See <a href="https://msdn.microsoft.com/2fb6698c-5d59-4ba0-a8ff-1313fade438c">PrintAsyncNotifyError</a> for other possible return values.
+See <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/ne-prnasnot-printasyncnotifyerror">PrintAsyncNotifyError</a> for other possible return values.
 
-For more information about COM error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa376932(v=VS.85).aspx">Error Handling</a>.
+For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/SetupApi/error-handling">Error Handling</a>.
 
 
 ```cpp
@@ -203,9 +203,9 @@ if (SUCCEEDED(hr)) {
 
 <b>CloseChannel</b> can be called by either side of the communication channel—the component that is hosted by the print spooler or the listening application.
 
-If an <a href="https://msdn.microsoft.com/729286d4-75ee-441e-b63d-fef72d41533a">IPrintAsyncNotifyChannel::SendNotification</a> call is made while the print spooler is processing an earlier call to <b>SendNotification</b>, the print spooler will queue the notifications. Queued notifications are discarded if either the component that is hosted by the print spooler or the application calls <b>CloseChannel</b>.
+If an <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nf-prnasnot-iprintasyncnotifychannel-sendnotification">IPrintAsyncNotifyChannel::SendNotification</a> call is made while the print spooler is processing an earlier call to <b>SendNotification</b>, the print spooler will queue the notifications. Queued notifications are discarded if either the component that is hosted by the print spooler or the application calls <b>CloseChannel</b>.
 
-<b>CloseChannel</b> cannot be called immediately after the call to <a href="https://msdn.microsoft.com/52cc586a-a565-46c6-b1b7-8613ad111ed3">CreatePrintAsyncNotifyChannel</a>.
+<b>CloseChannel</b> cannot be called immediately after the call to <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nf-prnasnot-createprintasyncnotifychannel">CreatePrintAsyncNotifyChannel</a>.
 
 
 
@@ -215,15 +215,15 @@ If an <a href="https://msdn.microsoft.com/729286d4-75ee-441e-b63d-fef72d41533a">
 
 
 
-<a href="https://msdn.microsoft.com/e96c957f-3972-4afc-9d76-a4725b8688f8">Asynchronous Printing Notification Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/printdocs/asynchronous-notification-interfaces">Asynchronous Printing Notification Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/8973cf5a-bbce-43c2-b418-2807842d43c0">IPrintAsyncNotifyChannel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nn-prnasnot-iprintasyncnotifychannel">IPrintAsyncNotifyChannel</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5c115b0-9c1e-46e7-8fb5-eddbc2c75298">Printing</a>
+<a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
  
 
  

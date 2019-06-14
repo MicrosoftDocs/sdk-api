@@ -69,7 +69,7 @@ A handle to the process with the handle to be duplicated.
 
 
 The handle must have the PROCESS_DUP_HANDLE access right. For more information, see 
-<a href="https://msdn.microsoft.com/508a17c4-88cd-431a-a102-00180a7f7ab5">Process Security and Access Rights</a>.
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
 
 ### -param hSourceHandle [in]
@@ -89,7 +89,7 @@ A pointer to a variable that receives the duplicate handle. This handle value is
 
 
 
-If <i>hSourceHandle</i> is a pseudo handle returned by <a href="https://msdn.microsoft.com/0471790c-3bb9-4180-8676-941e655b1812">GetCurrentProcess</a> or <a href="https://msdn.microsoft.com/91a11552-66c1-42bd-b837-8a7685977bc9">GetCurrentThread</a>, <b>DuplicateHandle</b> converts it to a real  handle to a process or thread, respectively.
+If <i>hSourceHandle</i> is a pseudo handle returned by <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocess">GetCurrentProcess</a> or <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentthread">GetCurrentThread</a>, <b>DuplicateHandle</b> converts it to a real  handle to a process or thread, respectively.
 
 If <i>lpTargetHandle</i> is <b>NULL</b>, the function duplicates the handle, but does not return the duplicate handle value to the caller. This behavior exists only for backward compatibility with previous versions of this function. You should not use this feature, as you will lose system resources until the target process terminates.
 
@@ -153,7 +153,7 @@ Ignores the <i>dwDesiredAccess</i> parameter. The duplicate handle has the same 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -162,19 +162,19 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-The duplicate handle refers to the same object as the original handle. Therefore, any changes to the object are reflected through both handles. For example, if you duplicate a file handle, the current file position is always the same for both handles. For  file handles to have different file positions, use the <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> function to create file handles that share access to the same file.
+The duplicate handle refers to the same object as the original handle. Therefore, any changes to the object are reflected through both handles. For example, if you duplicate a file handle, the current file position is always the same for both handles. For  file handles to have different file positions, use the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function to create file handles that share access to the same file.
 
 <b>DuplicateHandle</b> can be called by either the source process or the target process (or a process that is both the source and target process). For example, a process can use 
 <b>DuplicateHandle</b> to create a noninheritable duplicate of an inheritable handle, or a handle with different access than the original handle.
 
 The source process uses the 
-<a href="https://msdn.microsoft.com/0471790c-3bb9-4180-8676-941e655b1812">GetCurrentProcess</a> function to get a handle to itself. This handle is a pseudo handle, but <b>DuplicateHandle</b> converts it to a real process handle. To get the target process handle, it may be necessary to use some form of interprocess communication (for example, a named pipe or shared memory) to communicate the process identifier to the source process. The source process can use this identifier in the 
-<a href="https://msdn.microsoft.com/8f695c38-19c4-49e4-97de-8b64ea536cb1">OpenProcess</a> function to obtain a handle to the target process.
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocess">GetCurrentProcess</a> function to get a handle to itself. This handle is a pseudo handle, but <b>DuplicateHandle</b> converts it to a real process handle. To get the target process handle, it may be necessary to use some form of interprocess communication (for example, a named pipe or shared memory) to communicate the process identifier to the source process. The source process can use this identifier in the 
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocess">OpenProcess</a> function to obtain a handle to the target process.
 
 If the process that calls 
 <b>DuplicateHandle</b> is not also the target process, the source process must use interprocess communication to pass the value of the duplicate handle to the target process.
 
-<b>DuplicateHandle</b> can be used to duplicate a handle between a 32-bit process and a 64-bit process. The resulting handle is appropriately sized to work in the target process. For more information, see <a href="https://msdn.microsoft.com/a573f26c-7577-4ff0-b314-ae0a33274738">Process Interoperability</a>.
+<b>DuplicateHandle</b> can be used to duplicate a handle between a 32-bit process and a 64-bit process. The resulting handle is appropriately sized to work in the target process. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg64/process-interoperability">Process Interoperability</a>.
 
 <b>DuplicateHandle</b> can duplicate handles to the following types of objects.
 
@@ -186,120 +186,120 @@ If the process that calls
 <tr>
 <td>Access token</td>
 <td>The handle is returned by the 
-<a href="https://msdn.microsoft.com/e087f360-5d1d-4846-b3d6-214a426e5222">CreateRestrictedToken</a>, 
-<a href="https://msdn.microsoft.com/796ec60e-fcae-48a9-b471-de3dce831306">DuplicateToken</a>, 
-<a href="https://msdn.microsoft.com/96b13826-0ac7-4d70-9c21-eeb343f6b823">DuplicateTokenEx</a>, 
-<a href="https://msdn.microsoft.com/1e760ad8-7e46-4748-8c45-36ad8efe936a">OpenProcessToken</a>, or 
-<a href="https://msdn.microsoft.com/5003f0c4-41e9-4a14-b6a9-4f259c4af08b">OpenThreadToken</a> function.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createrestrictedtoken">CreateRestrictedToken</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-duplicatetoken">DuplicateToken</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-duplicatetokenex">DuplicateTokenEx</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocesstoken">OpenProcessToken</a>, or 
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthreadtoken">OpenThreadToken</a> function.</td>
 </tr>
 <tr>
 <td>Change notification</td>
-<td>The handle is returned by the <a href="https://msdn.microsoft.com/en-us/library/Aa364417(v=VS.85).aspx">FindFirstChangeNotification</a> function.</td>
+<td>The handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstchangenotificationa">FindFirstChangeNotification</a> function.</td>
 </tr>
 <tr>
 <td>Communications device</td>
 <td>The handle is returned by the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.</td>
 </tr>
 <tr>
 <td>Console input</td>
 <td>The handle is returned by the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function when CONIN$ is specified, or by the 
-<a href="https://msdn.microsoft.com/library/ms683231(v=VS.85).aspx">GetStdHandle</a> function when STD_INPUT_HANDLE is specified. Console handles can be duplicated for use only in the same process.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function when CONIN$ is specified, or by the 
+<a href="https://docs.microsoft.com/windows/console/getstdhandle">GetStdHandle</a> function when STD_INPUT_HANDLE is specified. Console handles can be duplicated for use only in the same process.</td>
 </tr>
 <tr>
 <td>Console screen buffer</td>
-<td>The handle is returned by the <a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function when CONOUT$ is specified, or by the <a href="https://msdn.microsoft.com/library/ms683231(v=VS.85).aspx">GetStdHandle</a> function when STD_OUTPUT_HANDLE is specified. Console handles can be duplicated for use only in the same process.</td>
+<td>The handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function when CONOUT$ is specified, or by the <a href="https://docs.microsoft.com/windows/console/getstdhandle">GetStdHandle</a> function when STD_OUTPUT_HANDLE is specified. Console handles can be duplicated for use only in the same process.</td>
 </tr>
 <tr>
 <td>Desktop</td>
 <td>The handle is returned by the 
-<a href="https://msdn.microsoft.com/51eec935-43c7-495b-b1fc-2bd5ba1e0090">GetThreadDesktop</a> function.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getthreaddesktop">GetThreadDesktop</a> function.</td>
 </tr>
 <tr>
 <td>Event</td>
 <td>The handle is returned by the 
-<a href="https://msdn.microsoft.com/1f6d946e-c74c-4599-ac3d-b709216a0900">CreateEvent</a> or 
-<a href="https://msdn.microsoft.com/46741024-ace3-44d6-b8a6-5621ad121a1a">OpenEvent</a> function.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-openeventa">OpenEvent</a> function.</td>
 </tr>
 <tr>
 <td>File</td>
 <td>The handle is returned by the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.</td>
 </tr>
 <tr>
 <td>File mapping</td>
 <td>The handle is returned by the 
-<a href="https://msdn.microsoft.com/d3302183-76a0-47ec-874f-1173db353dfe">CreateFileMapping</a> function.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfilemappinga">CreateFileMapping</a> function.</td>
 </tr>
 <tr>
 <td>Job</td>
 <td>The handle is returned by the 
-<a href="https://msdn.microsoft.com/ca6a044f-67ed-4a9c-9aeb-69dd77652854">CreateJobObject</a> function.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createjobobjecta">CreateJobObject</a> function.</td>
 </tr>
 <tr>
 <td>Mailslot</td>
 <td>The handle is returned by the 
-<a href="https://msdn.microsoft.com/a2e8199f-4d00-4315-9562-ff30f4fafcb7">CreateMailslot</a> function.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createmailslota">CreateMailslot</a> function.</td>
 </tr>
 <tr>
 <td>Mutex</td>
 <td>The handle is returned by the 
-<a href="https://msdn.microsoft.com/c8315d1c-98c9-4f0a-ae0d-800d7d8100cd">CreateMutex</a> or 
-<a href="https://msdn.microsoft.com/en-us/library/ms684315(v=VS.85).aspx">OpenMutex</a> function.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createmutexa">CreateMutex</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openmutexa">OpenMutex</a> function.</td>
 </tr>
 <tr>
 <td>Pipe</td>
 <td>A named pipe handle is returned by the 
-<a href="https://msdn.microsoft.com/00d79639-3f14-4964-90f3-9462a23e68df">CreateNamedPipe</a> or 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function. An anonymous pipe handle is returned by the 
-<a href="https://msdn.microsoft.com/a2d2fee8-c174-49d3-9e5a-2ce3bb763932">CreatePipe</a> function.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function. An anonymous pipe handle is returned by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-createpipe">CreatePipe</a> function.</td>
 </tr>
 <tr>
 <td>Process</td>
 <td>The handle is returned by the 
-<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>, 
-<a href="https://msdn.microsoft.com/0471790c-3bb9-4180-8676-941e655b1812">GetCurrentProcess</a>, or 
-<a href="https://msdn.microsoft.com/8f695c38-19c4-49e4-97de-8b64ea536cb1">OpenProcess</a> function.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocess">GetCurrentProcess</a>, or 
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocess">OpenProcess</a> function.</td>
 </tr>
 <tr>
 <td>Registry key</td>
 <td>The handle is returned by the 
-<a href="https://msdn.microsoft.com/cb4d30f4-e288-41e8-86e0-807c313db53d">RegCreateKey</a>, 
-<a href="https://msdn.microsoft.com/e9ffad7f-c0b6-44ce-bf22-fbe45ca98bf4">RegCreateKeyEx</a>, 
-<a href="https://msdn.microsoft.com/bad0a0f8-1889-4eff-98be-084c95d69f3b">RegOpenKey</a>, or 
-<a href="https://msdn.microsoft.com/c8a590f2-3249-437f-a320-c7443d42b792">RegOpenKeyEx</a> function. Note that registry key handles returned by the 
-<a href="https://msdn.microsoft.com/d7fb41cc-4855-4ad7-879c-b1ac85ac5803">RegConnectRegistry</a> function cannot be used in a call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeya">RegCreateKey</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeya">RegOpenKey</a>, or 
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a> function. Note that registry key handles returned by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regconnectregistrya">RegConnectRegistry</a> function cannot be used in a call to 
 <b>DuplicateHandle</b>. </td>
 </tr>
 <tr>
 <td>Semaphore</td>
 <td>The handle is returned by the 
-<a href="https://msdn.microsoft.com/2e55d67b-99de-4f10-8637-00d9d62e4460">CreateSemaphore</a> or 
-<a href="https://msdn.microsoft.com/en-us/library/ms684326(v=VS.85).aspx">OpenSemaphore</a> function.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createsemaphorea">CreateSemaphore</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-opensemaphorea">OpenSemaphore</a> function.</td>
 </tr>
 <tr>
 <td>Thread</td>
 <td>The handle is returned by the 
-<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>, 
-<a href="https://msdn.microsoft.com/202a4b42-513a-45de-894a-72e56c706a58">CreateThread</a>, 
-<a href="https://msdn.microsoft.com/f5257f78-b20f-4db5-b63e-3bb4e41a4b19">CreateRemoteThread</a>, or 
-<a href="https://msdn.microsoft.com/91a11552-66c1-42bd-b837-8a7685977bc9">GetCurrentThread</a> function</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createthread">CreateThread</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createremotethread">CreateRemoteThread</a>, or 
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentthread">GetCurrentThread</a> function</td>
 </tr>
 <tr>
 <td>Timer</td>
 <td>The handle is returned by the 
-<a href="https://msdn.microsoft.com/en-us/library/ms682492(v=VS.85).aspx">CreateWaitableTimer</a> or 
-<a href="https://msdn.microsoft.com/en-us/library/ms684337(v=VS.85).aspx">OpenWaitableTimer</a> function.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createwaitabletimera">CreateWaitableTimer</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openwaitabletimera">OpenWaitableTimer</a> function.</td>
 </tr>
 <tr>
 <td>Transaction</td>
-<td>The handle is returned by the <a href="https://msdn.microsoft.com/578bda35-bd35-4f6d-8366-a4bfb4dbfe42">CreateTransaction</a> function.</td>
+<td>The handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a> function.</td>
 </tr>
 <tr>
 <td>Window station</td>
 <td>The handle is returned by the 
-<a href="https://msdn.microsoft.com/f8929122-d277-4260-b2a7-5e76eb3ca876">GetProcessWindowStation</a> function.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getprocesswindowstation">GetProcessWindowStation</a> function.</td>
 </tr>
 </table>
  
@@ -309,37 +309,37 @@ You should not use
 
 <ul>
 <li>I/O completion ports. No error is returned, but the duplicate handle cannot be used.</li>
-<li>Sockets. No error is returned, but the duplicate handle may not be recognized by Winsock at the target process. Also, using <b>DuplicateHandle</b> interferes with internal reference counting on the underlying object. To duplicate a socket handle, use the <a href="https://msdn.microsoft.com/d4028461-bfa6-4074-9460-5d1371790d41">WSADuplicateSocket</a> function.</li>
+<li>Sockets. No error is returned, but the duplicate handle may not be recognized by Winsock at the target process. Also, using <b>DuplicateHandle</b> interferes with internal reference counting on the underlying object. To duplicate a socket handle, use the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaduplicatesocketa">WSADuplicateSocket</a> function.</li>
 </ul>
-The <i>dwDesiredAccess</i> parameter specifies the new handle's access rights. All objects support the <a href="https://msdn.microsoft.com/f43bccce-0f8c-4732-b678-5fd3218a9f84">standard access rights</a>. Objects may also support additional access rights depending on the object type. For more information, see the following topics:
+The <i>dwDesiredAccess</i> parameter specifies the new handle's access rights. All objects support the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights">standard access rights</a>. Objects may also support additional access rights depending on the object type. For more information, see the following topics:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/6512d128-3b0c-4ba7-8709-2fd225389a40">Desktop Security and Access Rights</a>
+<a href="https://docs.microsoft.com/windows/desktop/winstation/desktop-security-and-access-rights">Desktop Security and Access Rights</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa364399(v=VS.85).aspx">File Security and Access Rights</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/8bbf7c98-ff83-4ed9-8b82-f08dcd31295c">File-Mapping Security and Access Rights</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/file-mapping-security-and-access-rights">File-Mapping Security and Access Rights</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/8d212292-f087-41e4-884e-cec4423dac49">Job Object Security and Access Rights</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/job-object-security-and-access-rights">Job Object Security and Access Rights</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/508a17c4-88cd-431a-a102-00180a7f7ab5">Process Security and Access Rights</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/266d5c8e-1bcd-48e5-bc06-2fbc956d8658">Registry Key Security and Access Rights</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/92478298-617c-4672-a1cc-9a8e9af40327">Synchronization Object Security and Access Rights</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/72709446-5c59-4fac-8dc8-7912906ecc85">Thread Security and Access Rights</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-security-and-access-rights">Thread Security and Access Rights</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/b132da61-26b7-4457-9433-4894ca0e640a">Window-Station Security and Access Rights</a>
+<a href="https://docs.microsoft.com/windows/desktop/winstation/window-station-security-and-access-rights">Window-Station Security and Access Rights</a>
 </li>
 </ul>
 In some cases, the new handle can have more access rights than the original handle. However, in other cases, 
@@ -412,15 +412,15 @@ DWORD CALLBACK ThreadProc(PVOID pvParam)
 
 
 
-<a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/957cd369-bebf-4e04-9f7e-a936e2e97887">Handle Inheritance</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/handle-inheritance">Handle Inheritance</a>
 
 
 
-<a href="https://msdn.microsoft.com/b4769e19-7478-4919-a9d2-8086ece6da70">Handle and
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/handle-and-object-functions">Handle and
 		  Object Functions</a>
  
 

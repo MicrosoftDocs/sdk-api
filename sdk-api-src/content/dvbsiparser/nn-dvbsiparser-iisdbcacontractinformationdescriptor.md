@@ -55,7 +55,7 @@ for broadcast is a flator tiered-type service or event, or a pay-per-view event,
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsdbCAContractInformationDescriptor</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IIsdbCAContractInformationDescriptor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsdbCAContractInformationDescriptor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIsdbCAContractInformationDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IIsdbCAContractInformationDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cb9f55c1-7967-43e4-9cb3-1d7cdf20c70a">GetCASystemId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcacontractinformationdescriptor-getcasystemid">GetCASystemId</a>
 </td>
 <td align="left" width="63%">
 Gets the system identifier from a conditional access contract information descriptor.
@@ -79,7 +79,7 @@ Gets the system identifier from a conditional access contract information descri
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1e50f417-6403-499a-944c-2926a18dada1">GetCAUnitId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcacontractinformationdescriptor-getcaunitid">GetCAUnitId</a>
 </td>
 <td align="left" width="63%">
  Gets the identifier for a billing or nonbilling unit from a conditional access contract information descriptor.
@@ -88,7 +88,7 @@ Gets the system identifier from a conditional access contract information descri
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bfec246a-df34-46c3-9529-dc1fa75582da">GetContractVerificationInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcacontractinformationdescriptor-getcontractverificationinfo">GetContractVerificationInfo</a>
 </td>
 <td align="left" width="63%">
  Gets contract verification data from  a conditional access contract information descriptor.
@@ -97,7 +97,7 @@ Gets the system identifier from a conditional access contract information descri
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a7000edd-72a1-4979-b603-a42eecc691d7">GetContractVerificationInfoLength</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcacontractinformationdescriptor-getcontractverificationinfolength">GetContractVerificationInfoLength</a>
 </td>
 <td align="left" width="63%">
  Gets the length of the contract verification information from a conditional access contract information descriptor.
@@ -106,7 +106,7 @@ Gets the system identifier from a conditional access contract information descri
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/00df3bb9-494b-4e2c-b836-4893fd6eff8c">GetCountOfRecords</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcacontractinformationdescriptor-getcountofrecords">GetCountOfRecords</a>
 </td>
 <td align="left" width="63%">
 Gets the number of components in  a conditional access contract information descriptor.
@@ -115,7 +115,7 @@ Gets the number of components in  a conditional access contract information desc
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c2fcdcc1-acca-417e-bcf5-baad4ea07cef">GetFeeNameW</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcacontractinformationdescriptor-getfeenamew">GetFeeNameW</a>
 </td>
 <td align="left" width="63%">
 Gets the name of a fee from a conditional access contract information descriptor in Unicode-text format.
@@ -124,7 +124,7 @@ Gets the name of a fee from a conditional access contract information descriptor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f8a4f327-c3ad-4170-91c8-57f6dc22e162">GetLength</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcacontractinformationdescriptor-getlength">GetLength</a>
 </td>
 <td align="left" width="63%">
  Gets the body length of a conditional access contract information descriptor.
@@ -133,7 +133,7 @@ Gets the name of a fee from a conditional access contract information descriptor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cd032a24-228a-47e3-97f4-1046b426c587">GetRecordComponentTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcacontractinformationdescriptor-getrecordcomponenttag">GetRecordComponentTag</a>
 </td>
 <td align="left" width="63%">
 Gets the record component tag from a conditional access contract information descriptor.
@@ -142,7 +142,7 @@ Gets the record component tag from a conditional access contract information des
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f64110eb-1f96-421c-8f32-3d82a5ed4378">GetTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcacontractinformationdescriptor-gettag">GetTag</a>
 </td>
 <td align="left" width="63%">
 Gets the tag that identifies a conditional access contract information descriptor.

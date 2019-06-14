@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CESSetupProperty</b> enumeration type is used by the <a href="https://msdn.microsoft.com/4B380551-742C-4D36-80C9-C92F62F916BB">GetProperty</a> and <a href="https://msdn.microsoft.com/D2E20195-D81F-4717-83D2-BF8DC1D1779B">SetProperty</a> methods on the <a href="https://msdn.microsoft.com/B25DA7C4-0503-4E3B-BABC-6EFBD9EBDDAE">ICertificateEnrollmentServerSetup</a> interface to specify the type of property information to retrieve or set.
+The <b>CESSetupProperty</b> enumeration type is used by the <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-getproperty">GetProperty</a> and <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-setproperty">SetProperty</a> methods on the <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a> interface to specify the type of property information to retrieve or set.
 
 
 ## -enum-fields
@@ -97,15 +97,15 @@ The property value specifies whether CES can process only certificate renewals.
 
 
 
-<a href="https://msdn.microsoft.com/4B380551-742C-4D36-80C9-C92F62F916BB">GetProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-getproperty">GetProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/B25DA7C4-0503-4E3B-BABC-6EFBD9EBDDAE">ICertificateEnrollmentServerSetup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a>
 
 
 
-<a href="https://msdn.microsoft.com/D2E20195-D81F-4717-83D2-BF8DC1D1779B">SetProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-setproperty">SetProperty</a>
  
 
  

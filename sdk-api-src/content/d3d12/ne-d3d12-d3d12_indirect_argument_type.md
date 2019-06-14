@@ -107,7 +107,7 @@ Indicates the type is an unordered access view (UAV).
 
 
 
-This enum is used by the <a href="https://msdn.microsoft.com/2B51E4B1-F48A-4937-A92D-6AE9449018B4">D3D12_INDIRECT_ARGUMENT_DESC</a> structure.
+This enum is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_indirect_argument_desc">D3D12_INDIRECT_ARGUMENT_DESC</a> structure.
         
 
 
@@ -118,7 +118,7 @@ This enum is used by the <a href="https://msdn.microsoft.com/2B51E4B1-F48A-4937-
 
 
 
-<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
  
 
  

@@ -115,9 +115,9 @@ The <b>HRESULT</b> was unmarshaled successfully.
 
 
 
-You do not explicitly call this function unless you are performing custom marshaling (that is, writing your own implementation of <a href="https://msdn.microsoft.com/e6f08949-f27d-4aba-adff-eaf9c356a928">IMarshal</a>), and your implementation needs to unmarshal an <b>HRESULT</b>.
+You do not explicitly call this function unless you are performing custom marshaling (that is, writing your own implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a>), and your implementation needs to unmarshal an <b>HRESULT</b>.
 
-You must use <b>CoUnmarshalHresult</b> to unmarshal <b>HRESULT</b> values previously marshaled by a call to the <a href="https://msdn.microsoft.com/37aaf404-49ca-4881-a369-44c5288abf1d">CoMarshalHresult</a> function.
+You must use <b>CoUnmarshalHresult</b> to unmarshal <b>HRESULT</b> values previously marshaled by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-comarshalhresult">CoMarshalHresult</a> function.
 
 This function performs the following tasks:
 
@@ -136,11 +136,11 @@ This function performs the following tasks:
 
 
 
-<a href="https://msdn.microsoft.com/37aaf404-49ca-4881-a369-44c5288abf1d">CoMarshalHresult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-comarshalhresult">CoMarshalHresult</a>
 
 
 
-<a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>
  
 
  

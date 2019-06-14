@@ -59,7 +59,7 @@ The <b>AddEntryList</b> method adds an entry list to the table of contents and a
 
 ### -param pEntryList [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/98052f26-7956-4973-ab86-428e7a355937">ITocEntryList</a> interface that represents the entry list to be added.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocentrylist">ITocEntryList</a> interface that represents the entry list to be added.
 
 
 ### -param pwEntryListIndex [out]
@@ -100,11 +100,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/b12d38c7-b80e-4ca8-9ac5-a116100911d0">IToc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a>
 
 
 
-<a href="https://msdn.microsoft.com/63137b67-dc00-48e7-88b0-2f7159c1d829">RemoveEntryListByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/ee264287(v%3dvs.85)">RemoveEntryListByIndex</a>
  
 
  

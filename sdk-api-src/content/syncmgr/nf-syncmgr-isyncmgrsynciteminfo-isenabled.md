@@ -71,7 +71,7 @@ Returns S_OK if the item is enabled; otherwise, S_FALSE.
 
 If the item wants Sync Center to maintain the current state, it can return E_NOTIMPL. If any other value is returned, Sync Center sets the item's enabled state to the last known value and enables or disables the associated tasks as appropriate.
 
-If either the SYNCMGR_ICM_QUERY_BEFORE_ENABLE or SYNCMGR_ICM_QUERY_BEFORE_DISABLE flags are set in the mask returned from <a href="https://msdn.microsoft.com/6cb98b83-cf17-451c-ba29-700408f474c7">GetCapabilities</a>, the handler must manage its own enabled state and therefore must return either S_OK or S_FALSE. Any other return value will be considered an error.
+If either the SYNCMGR_ICM_QUERY_BEFORE_ENABLE or SYNCMGR_ICM_QUERY_BEFORE_DISABLE flags are set in the mask returned from <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getcapabilities">GetCapabilities</a>, the handler must manage its own enabled state and therefore must return either S_OK or S_FALSE. Any other return value will be considered an error.
 
 
 
@@ -82,11 +82,11 @@ If either the SYNCMGR_ICM_QUERY_BEFORE_ENABLE or SYNCMGR_ICM_QUERY_BEFORE_DISABL
 
 If an item is disabled, it is not synchronized by Sync Center. Also, many of the possible actions available to an item—such as Sync—are removed or disabled in the UI.
 
-An item can implement a <a href="https://msdn.microsoft.com/12ecfdba-87fb-4b73-8dac-0279f3f140fc">Disconnected</a> state by returning S_FALSE from <b>IsEnabled</b> and setting the SYNCMR_IPM_PREVENT_ENABLE flag in its <a href="https://msdn.microsoft.com/5f4e1a8e-8fa7-48b3-8f20-8b260540ab9c">GetPolicies</a> implementation. This shows the item as disabled and prevents the user from enabling it manually.
+An item can implement a <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynciteminfo-isconnected">Disconnected</a> state by returning S_FALSE from <b>IsEnabled</b> and setting the SYNCMR_IPM_PREVENT_ENABLE flag in its <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getpolicies">GetPolicies</a> implementation. This shows the item as disabled and prevents the user from enabling it manually.
 
 The enabled value is available in the folder UI as the System.Sync.Enabled (PKEY_Sync_Enabled) property.
 
-Sync Center calls this method whenever the <a href="https://msdn.microsoft.com/d961aef7-c559-4caa-894e-e86836b142c0">UpdateHandler</a> method is called.
+Sync Center calls this method whenever the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updatehandler">UpdateHandler</a> method is called.
 
 
 #### Examples

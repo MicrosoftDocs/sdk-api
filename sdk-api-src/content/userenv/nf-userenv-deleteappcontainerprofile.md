@@ -61,7 +61,7 @@ Deletes the specified per-user, per-app profile.<div class="alert"><b>Note</b> 
 
 ### -param pszAppContainerName [in]
 
-The name given to the profile in the call to the <a href="https://msdn.microsoft.com/73F5F30F-4083-4D33-B181-31B782AD40D6">CreateAppContainerProfile</a> function. This string is at most 64 characters in length, and  fits into the pattern described by the regular expression "[-_. A-Za-z0-9]+". 
+The name given to the profile in the call to the <a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-createappcontainerprofile">CreateAppContainerProfile</a> function. This string is at most 64 characters in length, and  fits into the pattern described by the regular expression "[-_. A-Za-z0-9]+". 
 
 
 ## -returns
@@ -132,7 +132,7 @@ If the function fails, the status of the profile is undetermined, and you should
 
 
 
-<a href="https://msdn.microsoft.com/73F5F30F-4083-4D33-B181-31B782AD40D6">CreateAppContainerProfile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-createappcontainerprofile">CreateAppContainerProfile</a>
  
 
  

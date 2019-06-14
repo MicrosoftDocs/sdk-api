@@ -69,49 +69,49 @@ The id of the security property.  The following security
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/98a824c9-11dd-4433-ae8f-2e6b6f6a520f">WS_SECURITY_PROPERTY_TIMESTAMP_USAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_property_id">WS_SECURITY_PROPERTY_TIMESTAMP_USAGE</a>
 This property constraint may be specified when any 
                         of the following security bindings are specified:
                     
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323498(v=VS.85).aspx">WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_username_message_security_binding_constraint">WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd401945(v=VS.85).aspx">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_kerberos_apreq_message_security_binding_constraint">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd401776(v=VS.85).aspx">WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_cert_message_security_binding_constraint">WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323392(v=VS.85).aspx">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_context_message_security_binding_constraint">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 </ul>
 If this property is not specified, then the default constraint value
-                        of <a href="https://msdn.microsoft.com/72e2a404-7988-40b8-b9ec-f9b9b3d767c1">WS_SECURITY_TIMESTAMP_USAGE_ALWAYS</a> will be used.
+                        of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_timestamp_usage">WS_SECURITY_TIMESTAMP_USAGE_ALWAYS</a> will be used.
                     
 
 </li>
 <li>
-<a href="https://msdn.microsoft.com/98a824c9-11dd-4433-ae8f-2e6b6f6a520f">WS_SECURITY_PROPERTY_TRANSPORT_PROTECTION_LEVEL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_property_id">WS_SECURITY_PROPERTY_TRANSPORT_PROTECTION_LEVEL</a>
 This property constraint may be specified when any
                         of the following security bindings are specified:
                     
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323442(v=VS.85).aspx">WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_ssl_transport_security_binding_constraint">WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323467(v=VS.85).aspx">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_tcp_sspi_transport_security_binding_constraint">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd401909(v=VS.85).aspx">WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_http_header_auth_security_binding_constraint">WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 </ul>
 If this property is not specified, then the default constraint value
-                        of <a href="https://msdn.microsoft.com/2b673728-1050-4005-bbb6-64b81ec19174">WS_PROTECTION_LEVEL_SIGN_AND_ENCRYPT</a> will be used.
+                        of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_protection_level">WS_PROTECTION_LEVEL_SIGN_AND_ENCRYPT</a> will be used.
                     
 <b>WS_SECURITY_PROPERTY_SECURITY_HEADER_LAYOUT</b>This property constraint may be specified when any
                         of the following security bindings are specified:
@@ -119,20 +119,20 @@ If this property is not specified, then the default constraint value
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323498(v=VS.85).aspx">WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_username_message_security_binding_constraint">WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd401945(v=VS.85).aspx">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_kerberos_apreq_message_security_binding_constraint">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd401776(v=VS.85).aspx">WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_cert_message_security_binding_constraint">WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323392(v=VS.85).aspx">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_context_message_security_binding_constraint">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 </ul>
 If this property is not specified, then the default constraint value
-                        of <a href="https://msdn.microsoft.com/a3090e6f-1f80-4d67-b7d7-1165486dcc66">WS_SECURITY_HEADER_LAYOUT_STRICT</a> will be used.
+                        of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_header_layout">WS_SECURITY_HEADER_LAYOUT_STRICT</a> will be used.
                     
 <b>WS_SECURITY_PROPERTY_SECURITY_HEADER_VERSION</b>This property constraint may be specified when any
                         of the following security bindings are specified:
@@ -140,20 +140,20 @@ If this property is not specified, then the default constraint value
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323498(v=VS.85).aspx">WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_username_message_security_binding_constraint">WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd401945(v=VS.85).aspx">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_kerberos_apreq_message_security_binding_constraint">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd401776(v=VS.85).aspx">WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_cert_message_security_binding_constraint">WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323392(v=VS.85).aspx">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_context_message_security_binding_constraint">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 </ul>
 If this property is not specified, then the default constraint value
-                        of <a href="https://msdn.microsoft.com/27093dc0-f4aa-4602-a51c-76633358792a">WS_SECURITY_HEADER_VERSION_1_1</a> will be used.
+                        of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_header_version">WS_SECURITY_HEADER_VERSION_1_1</a> will be used.
                     
 <b>WS_SECURITY_PROPERTY_ALGORITHM_SUITE_NAME</b>This property constraint may be specified when any
                     of the following security bindings are specified:
@@ -161,20 +161,20 @@ If this property is not specified, then the default constraint value
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323498(v=VS.85).aspx">WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_username_message_security_binding_constraint">WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd401945(v=VS.85).aspx">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_kerberos_apreq_message_security_binding_constraint">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd401776(v=VS.85).aspx">WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_cert_message_security_binding_constraint">WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323392(v=VS.85).aspx">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_context_message_security_binding_constraint">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 </ul>
 If this property is not specified, then the default constraint value
-                    of <a href="https://msdn.microsoft.com/cd7116d2-86f6-475e-a55d-050c7e02172d">WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC256</a> will be used.
+                    of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_algorithm_suite_name">WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC256</a> will be used.
                   
 
 </li>
@@ -200,7 +200,7 @@ The total size of the allowedValues array, in bytes.  This
 
 ### -field out
 
-When <a href="https://msdn.microsoft.com/6e5f352b-5422-4bba-9525-7850bdddf0a5">WsMatchPolicyAlternative</a> returns NOERROR, the
+When <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsmatchpolicyalternative">WsMatchPolicyAlternative</a> returns NOERROR, the
                     entire contents of this structure will be filled out.
                 
 

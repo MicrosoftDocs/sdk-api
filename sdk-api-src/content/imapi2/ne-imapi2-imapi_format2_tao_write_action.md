@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines values that indicate the current state of the write operation when using the <a href="https://msdn.microsoft.com/4bbcc3e1-0c85-4ed8-bbf6-e172e5896ed9">IDiscFormat2TrackAtOnceEventArgs</a> interface.
+Defines values that indicate the current state of the write operation when using the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonceeventargs">IDiscFormat2TrackAtOnceEventArgs</a> interface.
 
 
 ## -enum-fields
@@ -87,7 +87,7 @@ Closing the track or closing the session.
 
 
 
-<a href="https://msdn.microsoft.com/d63ff41d-993c-4f42-a4a3-f7c67f292a03">DDiscFormat2TrackAtOnceEvents::Update</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-ddiscformat2trackatonceevents-update">DDiscFormat2TrackAtOnceEvents::Update</a>
  
 
  

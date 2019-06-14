@@ -55,7 +55,7 @@ Applications use the methods of the <b>IDirect3DResource9</b> interface to query
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DResource9</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDirect3DResource9</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DResource9</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirect3DResource9</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IDirect3DResource9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205879(v=VS.85).aspx">FreePrivateData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dresource9-freeprivatedata">FreePrivateData</a>
 </td>
 <td align="left" width="63%">
 Frees the specified private data associated with this resource.
@@ -79,7 +79,7 @@ Frees the specified private data associated with this resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205880(v=VS.85).aspx">GetDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dresource9-getdevice">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device associated with a resource.
@@ -88,7 +88,7 @@ Retrieves the device associated with a resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205881(v=VS.85).aspx">GetPriority</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dresource9-getpriority">GetPriority</a>
 </td>
 <td align="left" width="63%">
 Retrieves the priority for this resource.
@@ -97,7 +97,7 @@ Retrieves the priority for this resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205882(v=VS.85).aspx">GetPrivateData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dresource9-getprivatedata">GetPrivateData</a>
 </td>
 <td align="left" width="63%">
 Copies the private data associated with the resource to a provided buffer.
@@ -106,7 +106,7 @@ Copies the private data associated with the resource to a provided buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205883(v=VS.85).aspx">GetType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dresource9-gettype">GetType</a>
 </td>
 <td align="left" width="63%">
 Returns the type of the resource.
@@ -115,7 +115,7 @@ Returns the type of the resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205884(v=VS.85).aspx">PreLoad</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dresource9-preload">PreLoad</a>
 </td>
 <td align="left" width="63%">
 Preloads a managed resource.
@@ -124,7 +124,7 @@ Preloads a managed resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205885(v=VS.85).aspx">SetPriority</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dresource9-setpriority">SetPriority</a>
 </td>
 <td align="left" width="63%">
 Assigns the priority of a resource for scheduling purposes.
@@ -133,7 +133,7 @@ Assigns the priority of a resource for scheduling purposes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205886(v=VS.85).aspx">SetPrivateData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dresource9-setprivatedata">SetPrivateData</a>
 </td>
 <td align="left" width="63%">
 Associates data with the resource that is intended for use by the application, not by Direct3D. Data is passed by value, and multiple sets of data can be associated with a single resource.
@@ -151,26 +151,26 @@ To create a texture resource, you can call one of the following methods.
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb174355(v=VS.85).aspx">IDirect3DDevice9::CreateCubeTexture</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createcubetexture">IDirect3DDevice9::CreateCubeTexture</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb174363(v=VS.85).aspx">IDirect3DDevice9::CreateTexture</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createtexture">IDirect3DDevice9::CreateTexture</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb174367(v=VS.85).aspx">IDirect3DDevice9::CreateVolumeTexture</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createvolumetexture">IDirect3DDevice9::CreateVolumeTexture</a>
 </li>
 </ul>
 To create a geometry-oriented resource, you can call one of the following methods.
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb174357(v=VS.85).aspx">IDirect3DDevice9::CreateIndexBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createindexbuffer">IDirect3DDevice9::CreateIndexBuffer</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb174364(v=VS.85).aspx">IDirect3DDevice9::CreateVertexBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createvertexbuffer">IDirect3DDevice9::CreateVertexBuffer</a>
 </li>
 </ul>
-This interface, like all COM interfaces, inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface.
+This interface, like all COM interfaces, inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface.
 
 The LPDIRECT3DRESOURCE9 and PDIRECT3DRESOURCE9 types are defined as pointers to the <b>IDirect3DResource9</b> interface. 
 
@@ -193,11 +193,11 @@ The LPDIRECT3DRESOURCE9 and PDIRECT3DRESOURCE9 types are defined as pointers to 
 
 
 
-<a href="https://msdn.microsoft.com/f12facdc-5a3f-4f89-8ae3-a322ef3389b2">Direct3D Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d9/dx9-graphics-reference-d3d-interfaces">Direct3D Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb219682(v=VS.85).aspx">Direct3D Resources (Direct3D 9)</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d9/direct3d-resources">Direct3D Resources (Direct3D 9)</a>
  
 
  

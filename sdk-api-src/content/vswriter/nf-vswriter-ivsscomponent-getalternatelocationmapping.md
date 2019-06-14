@@ -63,13 +63,13 @@ The
 
 Index of a particular mapping. The value of this parameter is an integer from 0 
       to <i>n</i>–1 inclusive, where <i>n</i> is the total number of alternate location mappings associated with the current component. The value of <i>n</i> is returned by 
-<a href="https://msdn.microsoft.com/218dc021-0a9e-4ba7-95b7-e1f31e57e71c">IVssComponent::GetAlternateLocationMappingCount</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getalternatelocationmappingcount">IVssComponent::GetAlternateLocationMappingCount</a>.
 
 
 ### -param ppFiledesc [out]
 
 Doubly indirect pointer to a 
-<a href="https://msdn.microsoft.com/0b86882d-af1b-4a09-8c25-5b806c9ca909">IVssWMFiledesc</a> object containing the mapping information.
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> object containing the mapping information.
 
 
 ## -returns
@@ -124,7 +124,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more information, see 
-<a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+<a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -153,11 +153,11 @@ Alternate location mappings returned by
 <b>GetAlternateLocationMapping</b> can come not only from files in the current component, but also from files in any of its nonselectable subcomponents.
 
 The value returned by <b>IVssComponent::GetAlternateLocationMapping</b> should also not be confused with that returned by 
-<a href="https://msdn.microsoft.com/1264d4bc-dd45-41e7-9f95-c6e9aebd4d22">IVssExamineWriterMetadata::GetAlternateLocationMapping</a>:
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getalternatelocationmapping">IVssExamineWriterMetadata::GetAlternateLocationMapping</a>:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/1264d4bc-dd45-41e7-9f95-c6e9aebd4d22">IVssExamineWriterMetadata::GetAlternateLocationMapping</a> is the alternate location mapping to which a file may be restored if necessary.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getalternatelocationmapping">IVssExamineWriterMetadata::GetAlternateLocationMapping</a> is the alternate location mapping to which a file may be restored if necessary.</li>
 <li><b>IVssComponent::GetAlternateLocationMapping</b> is the alternate location to which a file was in fact restored.</li>
 </ul>
 A file should always be restored to its alternate location mapping if either of the following is true:
@@ -180,14 +180,14 @@ The mapping returned by
 <b>GetAlternateLocationMapping</b> refers to the alternate location mappings used in the course of restoring files.
 
 Alternate location mappings are added to an 
-<a href="https://msdn.microsoft.com/c686a424-b0b9-4efc-8dc6-b92193de2a5d">IVssComponent</a> object by 
-<a href="https://msdn.microsoft.com/349ec124-f3f5-4142-8600-8d9f508c9bb2">IVssBackupComponents::AddAlternativeLocationMapping</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a> object by 
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addalternativelocationmapping">IVssBackupComponents::AddAlternativeLocationMapping</a>.
 
-The caller must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> to release the system resources held by the <i>ppMapping</i> parameter when it is done with the 
-<a href="https://msdn.microsoft.com/0b86882d-af1b-4a09-8c25-5b806c9ca909">IVssWMFiledesc</a> object that it points to.
+The caller must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> to release the system resources held by the <i>ppMapping</i> parameter when it is done with the 
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> object that it points to.
 
 For more information on backup and restore file locations under VSS, see 
-<a href="https://msdn.microsoft.com/7609c392-d5f8-48c2-8e7e-f35f56cf94f8">Non-Default Backup And Restore Locations</a>.
+<a href="https://docs.microsoft.com/windows/desktop/VSS/non-default-backup-and-restore-locations">Non-Default Backup And Restore Locations</a>.
 
 
 
@@ -197,15 +197,15 @@ For more information on backup and restore file locations under VSS, see
 
 
 
-<a href="https://msdn.microsoft.com/349ec124-f3f5-4142-8600-8d9f508c9bb2">IVssBackupComponents::AddAlternativeLocationMapping</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addalternativelocationmapping">IVssBackupComponents::AddAlternativeLocationMapping</a>
 
 
 
-<a href="https://msdn.microsoft.com/c686a424-b0b9-4efc-8dc6-b92193de2a5d">IVssComponent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
 
 
-<a href="https://msdn.microsoft.com/1264d4bc-dd45-41e7-9f95-c6e9aebd4d22">IVssExamineWriterMetadata::GetAlternateLocationMapping</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getalternatelocationmapping">IVssExamineWriterMetadata::GetAlternateLocationMapping</a>
  
 
  

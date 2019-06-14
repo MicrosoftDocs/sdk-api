@@ -81,7 +81,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 <b>XMVectorExpE</b> is new for DirectXMath version 3.05. 
 
-It's similar to the existing <a href="https://msdn.microsoft.com/en-us/library/Ee421017(v=VS.85).aspx">XMVectorExp</a> function for Windows 8, but computes base e instead of base 2.
+It's similar to the existing <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorexp">XMVectorExp</a> function for Windows 8, but computes base e instead of base 2.
 
 
 <b>XMVectorExpE</b> is implemented like this:
@@ -104,15 +104,15 @@ return Result;
 
 
 
-<a href="https://msdn.microsoft.com/aae12d4a-7758-83df-5376-99d5d94a28c4">Transcendental Vector Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-transcendental">Transcendental Vector Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/1B04528B-532B-4555-B027-D5EC33DD9843">XMVectorExp2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorexp2">XMVectorExp2</a>
 
 
 
-<a href="https://msdn.microsoft.com/C092B786-BAB8-4F8F-95D2-3C23F59EF064">XMVectorLogE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorloge">XMVectorLogE</a>
  
 
  

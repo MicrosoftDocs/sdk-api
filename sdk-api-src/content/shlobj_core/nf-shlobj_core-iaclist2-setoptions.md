@@ -61,7 +61,7 @@ Sets the current autocomplete options.
 
 Type: <b>DWORD</b>
 
-New option flags. Use these flags to ask the client to include the names of the files and subfolders of the specified folders the next time the client's <a href="https://msdn.microsoft.com/7f3e642a-17c7-4646-8c70-da6b0946a415">IEnumString</a> interface is called. This parameter can contain one or more of the following flags.
+New option flags. Use these flags to ask the client to include the names of the files and subfolders of the specified folders the next time the client's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a> interface is called. This parameter can contain one or more of the following flags.
 
 
 
@@ -122,7 +122,7 @@ Returns S_OK if successful, or a COM error value otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/b765c9dd-20e9-428f-877a-aff4fac44664">IACList2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iaclist2">IACList2</a>
  
 
  

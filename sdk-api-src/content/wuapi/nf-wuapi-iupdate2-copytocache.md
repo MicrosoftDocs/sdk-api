@@ -59,7 +59,7 @@ Copies files for an update from a specified source location to the internal Wind
 
 ### -param pFiles [in]
 
-An <a href="https://msdn.microsoft.com/3aaab669-1f80-41ee-8c29-6da613ebccff">IStringCollection</a> interface that represents a collection of strings that contain the full paths of the files for an update.   
+An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-istringcollection">IStringCollection</a> interface that represents a collection of strings that contain the full paths of the files for an update.   
 
 The strings  must give the full paths of the files that are being copied. The strings cannot give only the directory that contains the files.
 
@@ -122,7 +122,7 @@ The computer could not access the update site.
 
 This method returns <b>WU_E_INVALID_OPERATION</b> if the object that is implementing the interface has been locked down.
 
-<div class="alert"><b>Note</b>  We don't recommend or support the use of the <a href="https://msdn.microsoft.com/43af8bb9-0e09-4541-bc2e-fd40be64a980">IUpdate::CopyFromCache</a> and <b>IUpdate2::CopyToCache</b> methods to move downloaded updates from one computer to another computer. When the Windows Update Agent (WUA) downloads an update, it might only download the portions of the update’s payload that are necessary for a particular client computer. The necessary portions of the update’s payload can often vary from one computer to another computer, even if the computers have similar hardware and software configurations. <b>IUpdate2::CopyToCache</b> only works if the provided files are an exact match for the files that Windows Update would have normally downloaded on that computer; if you called <b>IUpdate::CopyFromCache</b> to obtain the files on a different computer, the files are likely not to match the files that Windows Update would have normally downloaded so <b>IUpdate2::CopyToCache</b> might fail.</div>
+<div class="alert"><b>Note</b>  We don't recommend or support the use of the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-copyfromcache">IUpdate::CopyFromCache</a> and <b>IUpdate2::CopyToCache</b> methods to move downloaded updates from one computer to another computer. When the Windows Update Agent (WUA) downloads an update, it might only download the portions of the update’s payload that are necessary for a particular client computer. The necessary portions of the update’s payload can often vary from one computer to another computer, even if the computers have similar hardware and software configurations. <b>IUpdate2::CopyToCache</b> only works if the provided files are an exact match for the files that Windows Update would have normally downloaded on that computer; if you called <b>IUpdate::CopyFromCache</b> to obtain the files on a different computer, the files are likely not to match the files that Windows Update would have normally downloaded so <b>IUpdate2::CopyToCache</b> might fail.</div>
 <div> </div>
 
 
@@ -132,7 +132,7 @@ This method returns <b>WU_E_INVALID_OPERATION</b> if the object that is implemen
 
 
 
-<a href="https://msdn.microsoft.com/75041e85-0f3c-4996-9af2-d2969549393e">IUpdate2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate2">IUpdate2</a>
  
 
  

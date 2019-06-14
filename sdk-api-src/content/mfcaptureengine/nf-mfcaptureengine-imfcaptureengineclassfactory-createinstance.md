@@ -66,7 +66,7 @@ Currently, this parameter must equal <b>CLSID_MFCaptureEngine</b>.
 
 ### -param riid [in]
 
-The IID of the requested interface. The capture engine supports the <a href="https://msdn.microsoft.com/4A2A0536-4255-40AB-BCAB-228B09343583">IMFCaptureEngine</a> interface.
+The IID of the requested interface. The capture engine supports the <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcaptureengine">IMFCaptureEngine</a> interface.
 
 
 ### -param ppvObject [out]
@@ -87,7 +87,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Before calling this method, call the <a href="https://msdn.microsoft.com/b4472e40-3681-4b26-9385-4df7bf19c2d8">MFStartup</a> function.
+Before calling this method, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfstartup">MFStartup</a> function.
 
 
 
@@ -97,7 +97,7 @@ Before calling this method, call the <a href="https://msdn.microsoft.com/b4472e4
 
 
 
-<a href="https://msdn.microsoft.com/FAFA52AD-B96E-4ADC-BE79-3BE5F1ACC92A">IMFCaptureEngineClassFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcaptureengineclassfactory">IMFCaptureEngineClassFactory</a>
  
 
  

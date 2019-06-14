@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 The 
 <b>SetupOpenAppendInfFile</b> function appends the information in an INF file to an INF file previously opened by 
-<a href="https://msdn.microsoft.com/a0f29f2c-2ac8-4f2d-adad-7a948d5a4eb7">SetupOpenInfFile</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupopeninffilea">SetupOpenInfFile</a>.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ Existing INF handle to which this INF file will be appended.
 ### -param ErrorLine [in, out]
 
 Optional pointer to a variable to which this function returns the (1-based) line number where an error occurred during loading of the INF file. This value is generally reliable only if 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> does not return ERROR_NOT_ENOUGH_MEMORY. If an out-of-memory condition does occur, <i>ErrorLine</i> may be 0.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> does not return ERROR_NOT_ENOUGH_MEMORY. If an out-of-memory condition does occur, <i>ErrorLine</i> may be 0.
 
 
 ## -returns
@@ -86,10 +86,10 @@ Optional pointer to a variable to which this function returns the (1-based) line
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 If <i>FileName</i> was not specified and there was no LayoutFile value in the <b>Version</b> section of the existing INF File, 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns ERROR_INVALID_DATA.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_INVALID_DATA.
 
 
 
@@ -99,7 +99,7 @@ If <i>FileName</i> was not specified and there was no LayoutFile value in the <b
 
 
 This function requires a Windows INF file. Some older INF file  formats may not be supported. In this case, the function returns <b>FALSE</b> and 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> will return ERROR_INVALID_PARAMETER. The main purpose of this function is to combine an INF file with the source file location information contained in the file specified in the LayoutFile entry of the <b>Version</b> section (typically, LAYOUT.INF).
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return ERROR_INVALID_PARAMETER. The main purpose of this function is to combine an INF file with the source file location information contained in the file specified in the LayoutFile entry of the <b>Version</b> section (typically, LAYOUT.INF).
 
 The ERROR_WRONG_INF_STYLE may also be returned by <b>SetupOpenAppendInfFile</b> if the INF file uses an older format.
 
@@ -111,19 +111,19 @@ The ERROR_WRONG_INF_STYLE may also be returned by <b>SetupOpenAppendInfFile</b> 
 
 
 
-<a href="https://msdn.microsoft.com/0a9518b7-f231-48f2-ba50-5b802f8ccaed">Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/58201596-cb8c-480a-abef-896c1f9ef098">Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/78b6a69d-e588-45f1-bf5c-a6feaf8b3364">SetupCloseInfFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupcloseinffile">SetupCloseInfFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0f29f2c-2ac8-4f2d-adad-7a948d5a4eb7">SetupOpenInfFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupopeninffilea">SetupOpenInfFile</a>
  
 
  

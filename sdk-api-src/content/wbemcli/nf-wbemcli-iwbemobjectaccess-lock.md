@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>Lock</b> method prevents other threads from updating an 
-<a href="https://msdn.microsoft.com/1025ae50-870f-4d38-8e83-3c6b628315c6">IWbemObjectAccess</a> object until it is unlocked.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemobjectaccess">IWbemObjectAccess</a> object until it is unlocked.
 
 
 ## -parameters
@@ -80,7 +80,7 @@ This method returns <b>WBEM_S_NO_ERROR</b> if successful.
 
 
 
-<a href="https://msdn.microsoft.com/1025ae50-870f-4d38-8e83-3c6b628315c6">IWbemObjectAccess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemobjectaccess">IWbemObjectAccess</a>
  
 
  

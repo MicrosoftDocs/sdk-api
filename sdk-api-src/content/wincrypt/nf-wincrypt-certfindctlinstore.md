@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CertFindCTLInStore</b> function finds the first or next <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate trust list</a> (CTL) <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a> that matches search criteria established by the <i>dwFindType</i> and its associated <i>pvFindPara</i>. This function can be used in a loop to find all of the CTL contexts in a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a> that match the specified find criteria.
+The <b>CertFindCTLInStore</b> function finds the first or next <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> that matches search criteria established by the <i>dwFindType</i> and its associated <i>pvFindPara</i>. This function can be used in a loop to find all of the CTL contexts in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> that match the specified find criteria.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ Handle of the certificate store to be searched.
 
 ### -param dwMsgAndCertEncodingType [in]
 
-Specifies the type of encoding used on the CTL. It is always acceptable to specify both the certificate and <a href="https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
+Specifies the type of encoding used on the CTL. It is always acceptable to specify both the certificate and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
 
 X509_ASN_ENCODING | PKCS_7_ASN_ENCODING Currently defined encoding types are:
 
@@ -111,9 +111,9 @@ Any CTL is a match.
 </dl>
 </td>
 <td width="60%">
-Data type of <i>pvFindPara</i>: <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_HASH_BLOB</a>.
+Data type of <i>pvFindPara</i>: <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a>.
 
-A CTL with a hash matching the hash in the <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_HASH_BLOB</a> structure is found.
+A CTL with a hash matching the hash in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure is found.
 
 </td>
 </tr>
@@ -124,9 +124,9 @@ A CTL with a hash matching the hash in the <a href="https://msdn.microsoft.com/7
 </dl>
 </td>
 <td width="60%">
-Data type of <i>pvFindPara</i>: <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_HASH_BLOB</a>.
+Data type of <i>pvFindPara</i>: <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a>.
 
-A CTL with a hash matching the hash in the <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_HASH_BLOB</a> structure is found.
+A CTL with a hash matching the hash in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure is found.
 
 </td>
 </tr>
@@ -137,15 +137,15 @@ A CTL with a hash matching the hash in the <a href="https://msdn.microsoft.com/7
 </dl>
 </td>
 <td width="60%">
-Data type of <i>pvFindPara</i>: <a href="https://msdn.microsoft.com/bb6a7013-19ec-4263-b7a2-33c79c2b5feb">CTL_FIND_USAGE_PARA</a>.
+Data type of <i>pvFindPara</i>: <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_find_usage_para">CTL_FIND_USAGE_PARA</a>.
 
-Any CTL is found that has a usage identifier, list identifier, or signer matching the usage identifier, list identifier, or signer in the <a href="https://msdn.microsoft.com/bb6a7013-19ec-4263-b7a2-33c79c2b5feb">CTL_FIND_USAGE_PARA</a> structure.
+Any CTL is found that has a usage identifier, list identifier, or signer matching the usage identifier, list identifier, or signer in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_find_usage_para">CTL_FIND_USAGE_PARA</a> structure.
 
 If the <b>cUsageIdentifier</b> member is of <b>SubjectUsage</b> size, any CTL is a match.
 
 If the <b>cbData</b> member of <b>ListIdentifier</b> member is zero, any list identifier is a match. If the <b>cbData</b> member of <b>ListIdentifier</b> is CTL_FIND_NO_LIST_ID_CBDATA, only a CTL without a list identifier is a match.
 
-If the <b>pSigner</b> member in the <a href="https://msdn.microsoft.com/bb6a7013-19ec-4263-b7a2-33c79c2b5feb">CTL_FIND_USAGE_PARA</a> structure is <b>NULL</b>, any CTL signer is a match, and only the <b>Issuer</b> and <b>SerialNumber</b> members in the <b>pSigner</b> <a href="https://msdn.microsoft.com/8d0a3053-52d4-437a-bf55-6724b5825cdc">CERT_INFO</a> structure are used. If <b>pSigner</b> is CTL_FIND_NO_SIGNER_PTR, only a CTL without a signer is a match.
+If the <b>pSigner</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_find_usage_para">CTL_FIND_USAGE_PARA</a> structure is <b>NULL</b>, any CTL signer is a match, and only the <b>Issuer</b> and <b>SerialNumber</b> members in the <b>pSigner</b> <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info">CERT_INFO</a> structure are used. If <b>pSigner</b> is CTL_FIND_NO_SIGNER_PTR, only a CTL without a signer is a match.
 
 </td>
 </tr>
@@ -156,9 +156,9 @@ If the <b>pSigner</b> member in the <a href="https://msdn.microsoft.com/bb6a7013
 </dl>
 </td>
 <td width="60%">
-Data type of <i>pvFindPara</i>: <a href="https://msdn.microsoft.com/bb6a7013-19ec-4263-b7a2-33c79c2b5feb">CTL_FIND_USAGE_PARA</a>.
+Data type of <i>pvFindPara</i>: <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_find_usage_para">CTL_FIND_USAGE_PARA</a>.
 
-Only CTLs with exactly the same usage identifiers are matched. CTLs having additional usage identifiers are not matched. For example, if only "1.2.3" is specified in the <a href="https://msdn.microsoft.com/bb6a7013-19ec-4263-b7a2-33c79c2b5feb">CTL_FIND_USAGE_PARA</a> structure, then for a match, the CTL must only contain "1.2.3" and no additional usage identifiers.
+Only CTLs with exactly the same usage identifiers are matched. CTLs having additional usage identifiers are not matched. For example, if only "1.2.3" is specified in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_find_usage_para">CTL_FIND_USAGE_PARA</a> structure, then for a match, the CTL must only contain "1.2.3" and no additional usage identifiers.
 
 </td>
 </tr>
@@ -169,9 +169,9 @@ Only CTLs with exactly the same usage identifiers are matched. CTLs having addit
 </dl>
 </td>
 <td width="60%">
-Data type of <i>pvFindPara</i>: <a href="https://msdn.microsoft.com/780edddf-1b44-4292-9156-4dfd5100adb8">PCCTL_CONTEXT</a>.
+Data type of <i>pvFindPara</i>: <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">PCCTL_CONTEXT</a>.
 
-Searches for the next CRL that is an exact match of the <a href="https://msdn.microsoft.com/780edddf-1b44-4292-9156-4dfd5100adb8">CTL_CONTEXT</a>.
+Searches for the next CRL that is an exact match of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">CTL_CONTEXT</a>.
 
 </td>
 </tr>
@@ -182,9 +182,9 @@ Searches for the next CRL that is an exact match of the <a href="https://msdn.mi
 </dl>
 </td>
 <td width="60%">
-Data type of <i>pvFindPara</i>: <a href="https://msdn.microsoft.com/b3a63010-9025-4a86-aa48-bfb6e800a07a">CTL_FIND_SUBJECT_PARA</a>.
+Data type of <i>pvFindPara</i>: <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_find_subject_para">CTL_FIND_SUBJECT_PARA</a>.
 
-A CTL having the specified subject is found. <a href="https://msdn.microsoft.com/e0c81531-e649-45bb-bafe-bced00c7b16a">CertFindSubjectInCTL</a> can be called to get a pointer to the subject's entry in the CTL. The <b>pUsagePara</b> member in <a href="https://msdn.microsoft.com/b3a63010-9025-4a86-aa48-bfb6e800a07a">CTL_FIND_SUBJECT_PARA</a> can optionally be set to enable the matching described preceding under CTL_FIND_USAGE.
+A CTL having the specified subject is found. <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindsubjectinctl">CertFindSubjectInCTL</a> can be called to get a pointer to the subject's entry in the CTL. The <b>pUsagePara</b> member in <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_find_subject_para">CTL_FIND_SUBJECT_PARA</a> can optionally be set to enable the matching described preceding under CTL_FIND_USAGE.
 
 </td>
 </tr>
@@ -200,18 +200,18 @@ A pointer to the search value associated with the <i>dwFindType</i> parameter.
 ### -param pPrevCtlContext [in]
 
 A pointer to the last 
-<a href="https://msdn.microsoft.com/780edddf-1b44-4292-9156-4dfd5100adb8">CTL_CONTEXT</a> returned by this function. It must be <b>NULL</b> to get the first CTL in the store. Successive CTLs are retrieved by setting <i>pPrevCtlContext</i> to the pointer to the <b>CTL_CONTEXT</b> returned by a previous function call. Any certificates that do not meet the search criteria or that have been previously deleted by 
-<a href="https://msdn.microsoft.com/e24d3445-8929-463a-b771-1f25f4e999b5">CertDeleteCTLFromStore</a> are skipped. This function frees the <b>CTL_CONTEXT</b> referenced by non-<b>NULL</b> values of this parameter.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">CTL_CONTEXT</a> returned by this function. It must be <b>NULL</b> to get the first CTL in the store. Successive CTLs are retrieved by setting <i>pPrevCtlContext</i> to the pointer to the <b>CTL_CONTEXT</b> returned by a previous function call. Any certificates that do not meet the search criteria or that have been previously deleted by 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certdeletectlfromstore">CertDeleteCTLFromStore</a> are skipped. This function frees the <b>CTL_CONTEXT</b> referenced by non-<b>NULL</b> values of this parameter.
 
 
 ## -returns
 
 
 
-If the function succeeds, the return value is a pointer to a read-only <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">CTL</a><a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a>.
+If the function succeeds, the return value is a pointer to a read-only <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CTL</a><a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a>.
 
 For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. Some possible error codes follow.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Some possible error codes follow.
 
 <table>
 <tr>
@@ -251,12 +251,12 @@ The handle in the <i>hCertStore</i> parameter is not the same as that in the CTL
 
 
 A returned pointer is freed when passed as the <i>pPrevCtlContext</i> on a subsequent call to the function. Otherwise, the pointer must be freed by calling 
-<a href="https://msdn.microsoft.com/84b1aa0c-44d9-4a2f-861c-fa7d8caac192">CertFreeCTLContext</a>. A non-<b>NULL</b><i>pPrevCtlContext</i> passed to the function is always freed with a call to <b>CertFreeCTLContext</b>, even if the function generates an error.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a>. A non-<b>NULL</b><i>pPrevCtlContext</i> passed to the function is always freed with a call to <b>CertFreeCTLContext</b>, even if the function generates an error.
 
 
-<a href="https://msdn.microsoft.com/512d246f-9f22-4ac1-a4fc-d5c615a65cf9">CertDuplicateCTLContext</a> can be called to make a duplicate of the returned context. The returned CTL context can be added to a different certificate store using 
-<a href="https://msdn.microsoft.com/e8858f75-77a1-4c5f-a3e3-a645c5e0f053">CertAddCTLContextToStore</a>, or a link to that CTL context can be added to a noncollection store using 
-<a href="https://msdn.microsoft.com/c129aeae-69d9-440a-979d-e9e481c64538">CertAddCTLLinkToStore</a>. If a CTL matching the search criteria is not found, <b>NULL</b> is returned.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatectlcontext">CertDuplicateCTLContext</a> can be called to make a duplicate of the returned context. The returned CTL context can be added to a different certificate store using 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddctlcontexttostore">CertAddCTLContextToStore</a>, or a link to that CTL context can be added to a noncollection store using 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddctllinktostore">CertAddCTLLinkToStore</a>. If a CTL matching the search criteria is not found, <b>NULL</b> is returned.
 
 
 
@@ -266,43 +266,43 @@ A returned pointer is freed when passed as the <i>pPrevCtlContext</i> on a subse
 
 
 
-<a href="https://msdn.microsoft.com/780edddf-1b44-4292-9156-4dfd5100adb8">CTL_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">CTL_CONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/bb6a7013-19ec-4263-b7a2-33c79c2b5feb">CTL_FIND_USAGE_PARA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_find_usage_para">CTL_FIND_USAGE_PARA</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8858f75-77a1-4c5f-a3e3-a645c5e0f053">CertAddCTLContextToStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddctlcontexttostore">CertAddCTLContextToStore</a>
 
 
 
-<a href="https://msdn.microsoft.com/c129aeae-69d9-440a-979d-e9e481c64538">CertAddCTLLinkToStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddctllinktostore">CertAddCTLLinkToStore</a>
 
 
 
-<a href="https://msdn.microsoft.com/e24d3445-8929-463a-b771-1f25f4e999b5">CertDeleteCTLFromStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certdeletectlfromstore">CertDeleteCTLFromStore</a>
 
 
 
-<a href="https://msdn.microsoft.com/512d246f-9f22-4ac1-a4fc-d5c615a65cf9">CertDuplicateCTLContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatectlcontext">CertDuplicateCTLContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/dac9f91e-8ed4-43ce-8147-485c2ed7edd5">CertEnumCTLsInStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certenumctlsinstore">CertEnumCTLsInStore</a>
 
 
 
-<a href="https://msdn.microsoft.com/e0c81531-e649-45bb-bafe-bced00c7b16a">CertFindSubjectInCTL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindsubjectinctl">CertFindSubjectInCTL</a>
 
 
 
-<a href="https://msdn.microsoft.com/84b1aa0c-44d9-4a2f-861c-fa7d8caac192">CertFreeCTLContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Trust List Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Trust List Functions</a>
  
 
  

@@ -69,7 +69,7 @@ The description string to be used by the monitoring interfaces.
 
 ### -param lCrmRegFlags [in]
 
-Flags from the <a href="https://msdn.microsoft.com/94178edf-fd0d-4d8d-8bf8-ced17f65d82f">CRMREGFLAGS</a> enumeration that control which phases of transaction completion should be received by the CRM Compensator and whether recovery should fail if in-doubt transactions remain after recovery has been attempted.
+Flags from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcrmregflags">CRMREGFLAGS</a> enumeration that control which phases of transaction completion should be received by the CRM Compensator and whether recovery should fail if in-doubt transactions remain after recovery has been attempted.
 
 
 ## -returns
@@ -156,7 +156,7 @@ Recovery of the CRM log file failed because in-doubt transactions remain.
 </dl>
 </td>
 <td width="60%">
-This method was called in the wrong state; either before <a href="https://msdn.microsoft.com/f7907dff-a4a1-4526-8dab-547e819199ec">RegisterCompensator</a> or when the transaction is completing (CRM Worker).
+This method was called in the wrong state; either before <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmlogcontrol-registercompensator">RegisterCompensator</a> or when the transaction is completing (CRM Worker).
 
 </td>
 </tr>
@@ -178,7 +178,7 @@ An out of memory error has occurred.
 </dl>
 </td>
 <td width="60%">
-The CRM Compensator does not support at least one of the required interfaces (<a href="https://msdn.microsoft.com/9e5a8f2c-4115-42bd-a541-d0ce75c45b72">ICrmCompensator</a> or <a href="https://msdn.microsoft.com/44b80062-b2bb-4c34-b9e1-31229c8e40ca">ICrmCompensatorVariants</a>).
+The CRM Compensator does not support at least one of the required interfaces (<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmcompensator">ICrmCompensator</a> or <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmcompensatorvariants">ICrmCompensatorVariants</a>).
 
 
 </td>
@@ -209,7 +209,7 @@ The "fail if in-doubts remain" flag is used as follows: By specifying the "fail 
 
 
 
-<a href="https://msdn.microsoft.com/3309ed58-8161-46f3-93bc-afc0c9bc8d50">ICrmLogControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmlogcontrol">ICrmLogControl</a>
  
 
  

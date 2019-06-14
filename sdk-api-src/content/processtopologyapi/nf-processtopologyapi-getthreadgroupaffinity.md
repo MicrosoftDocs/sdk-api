@@ -66,7 +66,7 @@ Retrieves the processor group affinity of the specified thread.
 A handle to the thread for which the processor group affinity is desired. 
 
 The handle must have the THREAD_QUERY_INFORMATION or THREAD_QUERY_LIMITED_INFORMATION access right. For more information, see 
-<a href="https://msdn.microsoft.com/72709446-5c59-4fac-8dc8-7912906ecc85">Thread Security and Access Rights</a>.
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-security-and-access-rights">Thread Security and Access Rights</a>.
 
 
 ### -param GroupAffinity [out]
@@ -80,7 +80,7 @@ A pointer to a GROUP_AFFINITY structure to receive the group affinity of the thr
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, use <a href="https://msdn.microsoft.com/5e9899e9-e51e-4785-812a-f86eac6e2006">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, use <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsgetlasterror">GetLastError</a>.
 
 
 
@@ -89,7 +89,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0601. For more information, see <a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0601. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 
@@ -99,11 +99,11 @@ To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0601
 
 
 
-<a href="https://msdn.microsoft.com/e22a4910-45dd-4eb6-9ed5-a8e0bcdfad7b">GetProcessGroupAffinity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processtopologyapi/nf-processtopologyapi-getprocessgroupaffinity">GetProcessGroupAffinity</a>
 
 
 
-<a href="https://msdn.microsoft.com/c627ac0f-96e8-48b5-9103-4316f487e173">Processor Groups</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/processor-groups">Processor Groups</a>
  
 
  

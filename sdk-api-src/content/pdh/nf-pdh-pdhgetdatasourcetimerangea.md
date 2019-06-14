@@ -55,7 +55,7 @@ Determines the time range, number of entries and, if applicable, the size of the
 			
 
 To use handles to data sources, use the 
-<a href="https://msdn.microsoft.com/55cfef46-999d-43fa-9b09-9d8916fbf755">PdhGetDataSourceTimeRangeH</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetdatasourcetimerangeh">PdhGetDataSourceTimeRangeH</a> function.
 
 
 ## -parameters
@@ -76,12 +76,12 @@ Number of structures in the <i>pInfo</i> buffer. This function collects informat
 ### -param pInfo [out]
 
 A 
-<a href="https://msdn.microsoft.com/a747f288-8d6c-401c-a927-a61ffea3d423">PDH_TIME_INFO</a> structure that receives the time range.
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_time_info">PDH_TIME_INFO</a> structure that receives the time range.
 
 
 ### -param pdwBufferSize [in]
 
-Size of the <a href="https://msdn.microsoft.com/a747f288-8d6c-401c-a927-a61ffea3d423">PDH_TIME_INFO</a> structure, in bytes.
+Size of the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_time_info">PDH_TIME_INFO</a> structure, in bytes.
 
 
 ## -returns
@@ -92,8 +92,8 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> or a 
-<a href="https://msdn.microsoft.com/ea67d798-81db-44ad-b0fb-24e0c3be7388">PDH error code</a>. The following are possible values.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
 
 <table>
 <tr>
@@ -144,11 +144,11 @@ The current data source is a real-time data source.
 
 
 
-<a href="https://msdn.microsoft.com/55cfef46-999d-43fa-9b09-9d8916fbf755">PdhGetDataSourceTimeRangeH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetdatasourcetimerangeh">PdhGetDataSourceTimeRangeH</a>
 
 
 
-<a href="https://msdn.microsoft.com/ed0e100e-9f82-48c0-b4bb-72820c5eeaa8">PdhSetQueryTimeRange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhsetquerytimerange">PdhSetQueryTimeRange</a>
  
 
  

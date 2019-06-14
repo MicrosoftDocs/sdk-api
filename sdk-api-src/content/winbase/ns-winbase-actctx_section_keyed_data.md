@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>ACTCTX_SECTION_KEYED_DATA</b> structure is used by the 
-<a href="https://msdn.microsoft.com/d3f0b057-44ec-47ec-a0aa-69f3540b8900">FindActCtxSectionString</a> and 
-<a href="https://msdn.microsoft.com/3889505c-29a0-49dd-aca8-a26417b25a94">FindActCtxSectionGuid</a> functions to return the activation context information along with either the GUID or 32-bit integer-tagged activation context section.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findactctxsectionstringa">FindActCtxSectionString</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findactctxsectionguid">FindActCtxSectionGuid</a> functions to return the activation context information along with either the GUID or 32-bit integer-tagged activation context section.
 
 
 ## -struct-fields
@@ -113,12 +113,12 @@ Handle to the activation context where the key was found. First, the active acti
 
 
 Note that when this is returned, the caller must call 
-<a href="https://msdn.microsoft.com/aaf58969-06b7-4981-83af-651252339186">ReleaseActCtx</a>() on the activation context handle returned to release system resources when all other references to the activation context have been released.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-releaseactctx">ReleaseActCtx</a>() on the activation context handle returned to release system resources when all other references to the activation context have been released.
 
 
 ### -field ulAssemblyRosterIndex
 
-Cardinal number of the assembly in the activation context that provided the redirection information found. This value can be presented to <a href="https://msdn.microsoft.com/7d45f63f-0baf-4236-b245-d36f9eb32e8c">QueryActCtxW</a> for more information about the contributing assembly.
+Cardinal number of the assembly in the activation context that provided the redirection information found. This value can be presented to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-queryactctxw">QueryActCtxW</a> for more information about the contributing assembly.
 
 
 ### -field ulFlags
@@ -152,15 +152,15 @@ which  initializes all members to zero/null except the size field which is set c
 
 
 
-<a href="https://msdn.microsoft.com/b6f97f25-1834-44f7-86b7-33339481ba60">ACTCTX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-tagactctxa">ACTCTX</a>
 
 
 
-<a href="https://msdn.microsoft.com/3889505c-29a0-49dd-aca8-a26417b25a94">FindActCtxSectionGuid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findactctxsectionguid">FindActCtxSectionGuid</a>
 
 
 
-<a href="https://msdn.microsoft.com/d3f0b057-44ec-47ec-a0aa-69f3540b8900">FindActCtxSectionString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findactctxsectionstringa">FindActCtxSectionString</a>
  
 
  

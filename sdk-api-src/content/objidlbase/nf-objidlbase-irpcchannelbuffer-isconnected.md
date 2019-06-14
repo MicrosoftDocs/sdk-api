@@ -73,7 +73,7 @@ If the RPC  channel exists, the return value is <b>TRUE</b>. Otherwise, it is <b
 
 
 
-<a href="https://msdn.microsoft.com/1d7d7e1c-a491-4625-97ae-0d4dc5d2fc20">IRpcChannelBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcchannelbuffer">IRpcChannelBuffer</a>
  
 
  

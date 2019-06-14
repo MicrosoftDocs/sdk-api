@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 
 <p class="CCE_Message">[This property is supported for compatibility but it's recommended to use the 
-    <a href="https://msdn.microsoft.com/1CE772FA-CE33-4900-A499-058175A7C37E">FSRM WMI Classes</a> to manage FSRM. Please see the 
-    <a href="https://msdn.microsoft.com/1787aab2-b315-418c-81bf-1e42198c8780">MSFT_FSRMFileScreenException</a> class.]
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfilescreenexception">MSFT_FSRMFileScreenException</a> class.]
 
 Retrieves the path that is associated with this file screen exception.
 
@@ -77,11 +77,11 @@ Note that if the path is renamed, the exception becomes associated with the new 
 
 
 
-<a href="https://msdn.microsoft.com/188e76dd-6df6-412f-8d51-fc727075de80">IFsrmFileScreenException</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreenexception">IFsrmFileScreenException</a>
 
 
 
-<a href="https://msdn.microsoft.com/1787aab2-b315-418c-81bf-1e42198c8780">MSFT_FSRMFileScreenException</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfilescreenexception">MSFT_FSRMFileScreenException</a>
  
 
  

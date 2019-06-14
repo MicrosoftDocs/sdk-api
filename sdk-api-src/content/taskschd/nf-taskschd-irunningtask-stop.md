@@ -103,11 +103,11 @@ The user does not have permission to stop the task, the task is disabled, or the
 
 
 
-<a href="https://msdn.microsoft.com/71a06a8f-8628-415d-b002-977c0d27f9a4">IRunningTask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-irunningtask">IRunningTask</a>
 
 
 
-<a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
  
 
  

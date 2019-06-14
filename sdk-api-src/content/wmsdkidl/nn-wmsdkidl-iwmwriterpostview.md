@@ -59,7 +59,7 @@ This interface can be obtained from any interface on the writer object by callin
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMWriterPostView</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMWriterPostView</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMWriterPostView</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMWriterPostView</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IWMWriterPostView</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798774(v=VS.85).aspx">GetAllocateForPostView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpostview-getallocateforpostview">GetAllocateForPostView</a>
 </td>
 <td align="left" width="63%">
 Ascertains whether the application, and not the writer, must supply the buffers.
@@ -83,7 +83,7 @@ Ascertains whether the application, and not the writer, must supply the buffers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798775(v=VS.85).aspx">GetPostViewFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpostview-getpostviewformat">GetPostViewFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the media properties for the specified output stream and output format.
@@ -92,7 +92,7 @@ Retrieves the media properties for the specified output stream and output format
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798776(v=VS.85).aspx">GetPostViewFormatCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpostview-getpostviewformatcount">GetPostViewFormatCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of possible output formats.
@@ -101,7 +101,7 @@ Retrieves the number of possible output formats.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798778(v=VS.85).aspx">GetPostViewProps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpostview-getpostviewprops">GetPostViewProps</a>
 </td>
 <td align="left" width="63%">
 Retrieves the properties for the specified output stream.
@@ -110,7 +110,7 @@ Retrieves the properties for the specified output stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798779(v=VS.85).aspx">GetReceivePostViewSamples</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpostview-getreceivepostviewsamples">GetReceivePostViewSamples</a>
 </td>
 <td align="left" width="63%">
 Ascertains whether delivery of postview samples is enabled for the specified stream.
@@ -119,7 +119,7 @@ Ascertains whether delivery of postview samples is enabled for the specified str
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798780(v=VS.85).aspx">SetAllocateForPostView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpostview-setallocateforpostview">SetAllocateForPostView</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the application, and not the writer, must supply the buffers.
@@ -128,7 +128,7 @@ Specifies whether the application, and not the writer, must supply the buffers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798781(v=VS.85).aspx">SetPostViewCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpostview-setpostviewcallback">SetPostViewCallback</a>
 </td>
 <td align="left" width="63%">
 Specifies the callback interface to use for receiving postview samples.
@@ -137,7 +137,7 @@ Specifies the callback interface to use for receiving postview samples.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798782(v=VS.85).aspx">SetPostViewProps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpostview-setpostviewprops">SetPostViewProps</a>
 </td>
 <td align="left" width="63%">
 Specifies the properties for the output stream.
@@ -146,7 +146,7 @@ Specifies the properties for the output stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798783(v=VS.85).aspx">SetReceivePostViewSamples</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpostview-setreceivepostviewsamples">SetReceivePostViewSamples</a>
 </td>
 <td align="left" width="63%">
 Enables or disables delivery of postview samples for the specified stream.
@@ -155,7 +155,7 @@ Enables or disables delivery of postview samples for the specified stream.
 </tr>
 </table> 
 
-For information about which interfaces can be obtained by using the QueryInterface method of this interface, see <a href="https://msdn.microsoft.com/8058b7fe-7d02-4572-ad43-6867d4ceb7e9">Writer Object</a>.
+For information about which interfaces can be obtained by using the QueryInterface method of this interface, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/writer-object">Writer Object</a>.
 
 
 
@@ -164,19 +164,19 @@ For information about which interfaces can be obtained by using the QueryInterfa
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798771(v=VS.85).aspx">IWMWriterPostViewCallback Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpostviewcallback">IWMWriterPostViewCallback Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/c61a0739-09f2-497f-a2cd-d3f2472738e3">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/9da3c749-f6bd-43b5-9eff-3a637ddef048">To Use Writer Postview</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/to-use-writer-postview">To Use Writer Postview</a>
 
 
 
-<a href="https://msdn.microsoft.com/8058b7fe-7d02-4572-ad43-6867d4ceb7e9">Writer Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/writer-object">Writer Object</a>
  
 
  

@@ -66,17 +66,17 @@ The <b>joyGetDevCaps</b> function queries a joystick to determine its capabiliti
 
 ### -param uJoyID
 
-Identifier of the joystick to be queried. Valid values for <i>uJoyID</i> range from -1 to 15. A value of -1 enables retrieval of the <b>szRegKey</b> member of the <a href="https://msdn.microsoft.com/9b175aaf-f408-4fe8-bd7c-56f513b57c1b">JOYCAPS</a> structure whether a device is present or not. 
+Identifier of the joystick to be queried. Valid values for <i>uJoyID</i> range from -1 to 15. A value of -1 enables retrieval of the <b>szRegKey</b> member of the <a href="https://docs.microsoft.com/previous-versions//dd757103(v=vs.85)">JOYCAPS</a> structure whether a device is present or not. 
 
 
 ### -param pjc
 
-Pointer to a <a href="https://msdn.microsoft.com/9b175aaf-f408-4fe8-bd7c-56f513b57c1b">JOYCAPS</a> structure to contain the capabilities of the joystick.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd757103(v=vs.85)">JOYCAPS</a> structure to contain the capabilities of the joystick.
 
 
 ### -param cbjc
 
-Size, in bytes, of the <a href="https://msdn.microsoft.com/9b175aaf-f408-4fe8-bd7c-56f513b57c1b">JOYCAPS</a> structure.
+Size, in bytes, of the <a href="https://docs.microsoft.com/previous-versions//dd757103(v=vs.85)">JOYCAPS</a> structure.
 
 
 ## -returns
@@ -122,7 +122,7 @@ An invalid parameter was passed.
 
 
 
-Use the <a href="https://msdn.microsoft.com/dc268db5-da2d-4139-97da-5d56a54287d5">joyGetNumDevs</a> function to determine the number of joystick devices supported by the driver.
+Use the <a href="https://docs.microsoft.com/previous-versions//dd757106(v=vs.85)">joyGetNumDevs</a> function to determine the number of joystick devices supported by the driver.
       
 
 This method fails when passed an invalid value for the <i>cbjc</i> parameter. 
@@ -136,11 +136,11 @@ This method fails when passed an invalid value for the <i>cbjc</i> parameter.
 
 
 
-<a href="https://msdn.microsoft.com/29fe25c8-51ea-4dc1-9f98-1c10d23b7b2a">Joysticks</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/joysticks">Joysticks</a>
 
 
 
-<a href="https://msdn.microsoft.com/84e47ac3-b40f-48bc-8f59-cc678d7d521e">Multimedia Joystick Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/multimedia-joystick-functions">Multimedia Joystick Functions</a>
  
 
  

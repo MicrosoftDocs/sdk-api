@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>BackupSeek</b> function seeks forward in a data stream initially accessed by using the 
-<a href="https://msdn.microsoft.com/47d13662-af70-4c76-9fb6-3835e329ae5f">BackupRead</a> or 
-<a href="https://msdn.microsoft.com/92befb48-68eb-4af3-b58a-c5e17bf14098">BackupWrite</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupread">BackupRead</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupwrite">BackupWrite</a> function.
 
 
 ## -parameters
@@ -63,9 +63,9 @@ The
 ### -param hFile [in]
 
 Handle to the file or directory. This handle is created by using the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
-The handle must be synchronous (nonoverlapped). This means that the FILE_FLAG_OVERLAPPED flag must not be set when <a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> is called. This function does not validate that the handle it receives is synchronous, so it does not return an error code for a synchronous handle, but calling it with an asynchronous (overlapped) handle can result in subtle errors that are very difficult to debug.
+The handle must be synchronous (nonoverlapped). This means that the FILE_FLAG_OVERLAPPED flag must not be set when <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> is called. This function does not validate that the handle it receives is synchronous, so it does not return an error code for a synchronous handle, but calling it with an asynchronous (overlapped) handle can result in subtle errors that are very difficult to debug.
 
 
 ### -param dwLowBytesToSeek [in]
@@ -91,7 +91,7 @@ Pointer to a variable that receives the high-order bits of the number of bytes t
 ### -param lpContext [in]
 
 Pointer to an internal data structure used by the function. This structure must be the same structure that was initialized by the 
-<a href="https://msdn.microsoft.com/47d13662-af70-4c76-9fb6-3835e329ae5f">BackupRead</a> or <a href="https://msdn.microsoft.com/92befb48-68eb-4af3-b58a-c5e17bf14098">BackupWrite</a> function. An application must not touch the contents of this structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupread">BackupRead</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupwrite">BackupWrite</a> function. An application must not touch the contents of this structure.
 
 
 ## -returns
@@ -101,7 +101,7 @@ Pointer to an internal data structure used by the function. This structure must 
 If the function could seek the requested amount, the function returns a nonzero value.
 
 If the function could not seek the requested amount, the function returns zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -120,15 +120,15 @@ Applications use the <b>BackupSeek</b> function to skip portions of a data strea
 
 
 
-<a href="https://msdn.microsoft.com/47d13662-af70-4c76-9fb6-3835e329ae5f">BackupRead</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupread">BackupRead</a>
 
 
 
-<a href="https://msdn.microsoft.com/92befb48-68eb-4af3-b58a-c5e17bf14098">BackupWrite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupwrite">BackupWrite</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
  
 
  

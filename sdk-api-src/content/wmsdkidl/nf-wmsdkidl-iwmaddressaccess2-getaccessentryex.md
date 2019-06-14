@@ -65,12 +65,12 @@ The <b>GetAccessEntryEx</b> method retrieves an entry from the IP address access
 
 ### -param aeType [in]
 
-A member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757889(v=VS.85).aspx">WM_AETYPE</a> enumeration specifying the type of entry to retrieve (exclusion or inclusion).
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wm_aetype">WM_AETYPE</a> enumeration specifying the type of entry to retrieve (exclusion or inclusion).
 
 
 ### -param dwEntryNum [in]
 
-Zero-based index of the entry. Use the <a href="https://msdn.microsoft.com/en-us/library/Dd743285(v=VS.85).aspx">IWMAddressAccess::GetAccessEntryCount</a> method to get the number of entries.
+Zero-based index of the entry. Use the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmaddressaccess-getaccessentrycount">IWMAddressAccess::GetAccessEntryCount</a> method to get the number of entries.
 
 
 ### -param pbstrAddress [out]
@@ -96,7 +96,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-For more information about the meaning of the <i>pbstrAddress</i> and <i>pbstrMask</i> parameters, see <a href="https://msdn.microsoft.com/en-us/library/Dd743281(v=VS.85).aspx">IWMAddressAccess2::AddAccessEntryEx</a>.
+For more information about the meaning of the <i>pbstrAddress</i> and <i>pbstrMask</i> parameters, see <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmaddressaccess2-addaccessentryex">IWMAddressAccess2::AddAccessEntryEx</a>.
 
 The caller must release the returned <b>BSTR</b> values, by calling <b>SysFreeString</b>.
 
@@ -108,7 +108,7 @@ The caller must release the returned <b>BSTR</b> values, by calling <b>SysFreeSt
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743280(v=VS.85).aspx">IWMAddressAccess2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmaddressaccess2">IWMAddressAccess2 Interface</a>
  
 
  

@@ -61,7 +61,7 @@ Re-indexes all URLs from a specified root.
 
 Type: <b>LPCWSTR</b>
 
-Pointer to a null-terminated, Unicode buffer that contains the URL on which the search is rooted. This URL must be a search root previously registered with <a href="https://msdn.microsoft.com/en-us/library/Bb266483(v=VS.85).aspx">ISearchCrawlScopeManager::AddRoot</a>.
+Pointer to a null-terminated, Unicode buffer that contains the URL on which the search is rooted. This URL must be a search root previously registered with <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-addroot">ISearchCrawlScopeManager::AddRoot</a>.
 
 
 ## -returns

@@ -71,7 +71,7 @@ The target region to which to move a rectangle.
 
 
 
-This structure is used by <a href="https://msdn.microsoft.com/7B7BF1A2-5F89-4AE1-BBDE-A298813B3AE7">GetFrameMoveRects</a>.
+This structure is used by <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutputduplication-getframemoverects">GetFrameMoveRects</a>.
 
 
 
@@ -81,7 +81,7 @@ This structure is used by <a href="https://msdn.microsoft.com/7B7BF1A2-5F89-4AE1
 
 
 
-<a href="https://msdn.microsoft.com/22e98880-bcd1-448a-9223-604fff9173fe">DXGI Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-structures">DXGI Structures</a>
  
 
  

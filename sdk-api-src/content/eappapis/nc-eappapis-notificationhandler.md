@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-A callback prototype that notifies the supplicant that there is a change  in the Statement of Health (SoH) and re-authentication of a <a href="https://msdn.microsoft.com/f562f5f1-c05a-4e4e-bcd9-a302c61f2a5e">Network Access Protection</a> (NAP) system connection is required. For the user to receive visual notification of a change in the SoH, the callback must remain in place until after authentication is complete.
+A callback prototype that notifies the supplicant that there is a change  in the Statement of Health (SoH) and re-authentication of a <a href="https://docs.microsoft.com/windows/desktop/NAP/network-access-protection-start-page">Network Access Protection</a> (NAP) system connection is required. For the user to receive visual notification of a change in the SoH, the callback must remain in place until after authentication is complete.
 <div class="alert"><b>Note</b>  Never cancel the callback while re-authentication is in progress and the network connection is still valid. Never attempt to use any other mechanism to notify the supplicant that the SoH has changed.  </div><div> </div>
 
 ## -parameters
@@ -80,7 +80,7 @@ This callback function does not return a value.
 
 
 
-A pointer to this callback function must be provided when calling <a href="https://msdn.microsoft.com/9dc339bc-ef01-4432-83cb-b4b14a36f18e">EapHostPeerBeginSession</a>. The callback may be called by EAPHost at any time prior to calling <a href="https://msdn.microsoft.com/1d997e4e-6e7f-47db-9957-9658e54c0bdf">EapHostPeerClearConnection</a>.
+A pointer to this callback function must be provided when calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerbeginsession">EapHostPeerBeginSession</a>. The callback may be called by EAPHost at any time prior to calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerclearconnection">EapHostPeerClearConnection</a>.
 
 
 
@@ -90,7 +90,7 @@ A pointer to this callback function must be provided when calling <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/a32ff75d-17c2-482f-b22d-0f6bf6003772">EAPHost Supplicant Callbacks</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-supplicant-callbacks">EAPHost Supplicant Callbacks</a>
  
 
  

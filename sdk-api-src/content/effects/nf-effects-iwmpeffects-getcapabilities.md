@@ -120,7 +120,7 @@ A default implementation of this method is not included in the visualization wiz
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563253(v=VS.85).aspx">IWMPEffects Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/effects/nn-effects-iwmpeffects">IWMPEffects Interface</a>
  
 
  

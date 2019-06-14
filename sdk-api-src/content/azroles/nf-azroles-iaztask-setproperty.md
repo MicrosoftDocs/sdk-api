@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SetProperty</b> method sets the specified value to the <a href="https://msdn.microsoft.com/90eb19c9-1490-43f4-ab4b-393e825aeb2f">IAzTask</a> object property  with the specified property ID.
+The <b>SetProperty</b> method sets the specified value to the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> object property  with the specified property ID.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>SetProperty</b> method sets the specified value to the <a href="https://m
 
 ### -param lPropId [in]
 
-Property ID of the <a href="https://msdn.microsoft.com/90eb19c9-1490-43f4-ab4b-393e825aeb2f">IAzTask</a> object property  to set. The following table shows the possible values.
+Property ID of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> object property  to set. The following table shows the possible values.
 
 <table>
 <tr>
@@ -73,7 +73,7 @@ Property ID of the <a href="https://msdn.microsoft.com/90eb19c9-1490-43f4-ab4b-3
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://msdn.microsoft.com/0a3939ee-6449-4eef-bb23-11e6d7018f04">ApplicationData</a>  property
+Also  accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-get_applicationdata">ApplicationData</a>  property
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ Also  accessed through the <a href="https://msdn.microsoft.com/0a3939ee-6449-4ee
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://msdn.microsoft.com/095bf53b-0afa-44f3-87b8-9363dfffef1f">Description</a>  property
+Also  accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-get_description">Description</a>  property
 
 </td>
 </tr>
@@ -93,7 +93,7 @@ Also  accessed through the <a href="https://msdn.microsoft.com/095bf53b-0afa-44f
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://msdn.microsoft.com/135706b0-8ef9-430b-aff3-3783a62232d9">Name</a>  property
+Also  accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-get_name">Name</a>  property
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ Also  accessed through the <a href="https://msdn.microsoft.com/135706b0-8ef9-430
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://msdn.microsoft.com/cf3d87af-5320-4fe0-b513-e242f8a1dd1b">BizRule</a>  property
+Also  accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-get_bizrule">BizRule</a>  property
 
 </td>
 </tr>
@@ -113,7 +113,7 @@ Also  accessed through the <a href="https://msdn.microsoft.com/cf3d87af-5320-4fe
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://msdn.microsoft.com/922f4fd8-f553-439c-b9ae-51a45a88adc7">BizRuleLanguage</a>  property
+Also  accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-get_bizrulelanguage">BizRuleLanguage</a>  property
 
 </td>
 </tr>
@@ -123,7 +123,7 @@ Also  accessed through the <a href="https://msdn.microsoft.com/922f4fd8-f553-439
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://msdn.microsoft.com/fef32545-de7e-4516-a289-b9ddf45b7c81">IsRoleDefinition</a>  property
+Also  accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-get_isroledefinition">IsRoleDefinition</a>  property
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ Also  accessed through the <a href="https://msdn.microsoft.com/fef32545-de7e-451
 
 ### -param varProp [in]
 
-Value to set to the <a href="https://msdn.microsoft.com/90eb19c9-1490-43f4-ab4b-393e825aeb2f">IAzTask</a> object property  specified by the <i>lPropId</i> parameter. The following table shows the type of data that must be used depending on the value of the <i>lPropId</i> parameter.
+Value to set to the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> object property  specified by the <i>lPropId</i> parameter. The following table shows the type of data that must be used depending on the value of the <i>lPropId</i> parameter.
 
 <table>
 <tr>
@@ -228,7 +228,7 @@ The return value is an <b>HRESULT</b>. A value of <b>S_OK</b> indicates success.
 
 
 
-You must call the <a href="https://msdn.microsoft.com/a6f01573-c1ee-421d-8591-e1c9fa6c3d68">Submit</a> method to persist any changes made by this method.
+You must call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-submit">Submit</a> method to persist any changes made by this method.
 
 
 

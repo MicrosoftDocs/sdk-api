@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves an <a href="https://msdn.microsoft.com/en-us/library/Bb231364(v=VS.85).aspx">INamedEntity</a> object based on an entity name.
+Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-inamedentity">INamedEntity</a> object based on an entity name.
 
 
 ## -parameters
@@ -66,9 +66,9 @@ The name of an entity to be found.
 
 ### -param ppNamedEntity [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231364(v=VS.85).aspx">INamedEntity</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-inamedentity">INamedEntity</a>**</b>
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb231364(v=VS.85).aspx">INamedEntity</a> object that was named in <i>pszValue</i>. <b>NULL</b> if no named entity was found.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-inamedentity">INamedEntity</a> object that was named in <i>pszValue</i>. <b>NULL</b> if no named entity was found.
 
 
 ## -returns

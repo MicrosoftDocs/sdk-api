@@ -65,7 +65,7 @@ The number of IPv6 addresses associated with this adapter.
 
 ### -field RemoteAddress
 
-This member is for WAN interfaces. An <a href="https://msdn.microsoft.com/2029db76-3fe1-4560-b753-910c48cbc578">in6_addr</a> structure that contains the address of the machine at the other end of a dial-up link.
+This member is for WAN interfaces. An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms738560(v=vs.85)">in6_addr</a> structure that contains the address of the machine at the other end of a dial-up link.
 
 
 ### -field Mtu
@@ -81,7 +81,7 @@ Reserved for future use.
 ### -field Address
 
 Pointer to an array of 
-<a href="https://msdn.microsoft.com/c698fa3b-04d5-4401-9ab3-a200211cff24">IPV6_LOCAL_BINDING</a> structures. The array  contains a structure for each of the IPv6 addresses associated with this adapter.
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-ipv6_local_binding">IPV6_LOCAL_BINDING</a> structures. The array  contains a structure for each of the IPv6 addresses associated with this adapter.
 
 
 ## -remarks
@@ -90,7 +90,7 @@ Pointer to an array of
 
 Since an adapter can have more than one IP address, the 
 <b>IPV6_ADAPTER_BINDING_INFO</b> structure maintains an array of 
-<a href="https://msdn.microsoft.com/c698fa3b-04d5-4401-9ab3-a200211cff24">IPV6_LOCAL_BINDING</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-ipv6_local_binding">IPV6_LOCAL_BINDING</a> structures.
 
 
 
@@ -100,19 +100,19 @@ Since an adapter can have more than one IP address, the
 
 
 
-<a href="https://msdn.microsoft.com/c698fa3b-04d5-4401-9ab3-a200211cff24">IPV6_LOCAL_BINDING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-ipv6_local_binding">IPV6_LOCAL_BINDING</a>
 
 
 
-<a href="https://msdn.microsoft.com/3eb864e7-2de6-44c2-af3e-fee547de6081">IP_ADAPTER_BINDING_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-ip_adapter_binding_info">IP_ADAPTER_BINDING_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/352505a9-616a-4d47-9857-f88d345333fd">Router Management Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/767733eb-1cbd-4b8d-98b7-41d1d0f2c630">Router Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>
  
 
  

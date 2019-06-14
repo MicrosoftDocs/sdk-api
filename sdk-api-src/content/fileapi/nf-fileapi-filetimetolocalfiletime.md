@@ -66,12 +66,12 @@ Converts a file time to a local file time.
 
 ### -param lpFileTime [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure containing the UTC-based file time to be converted into a local file time.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure containing the UTC-based file time to be converted into a local file time.
 
 
 ### -param lpLocalFileTime [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure to receive the converted local file time. This parameter cannot be the same as the <i>lpFileTime</i> parameter.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure to receive the converted local file time. This parameter cannot be the same as the <i>lpFileTime</i> parameter.
 
 
 ## -returns
@@ -80,7 +80,7 @@ A pointer to a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec91
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -95,13 +95,13 @@ To account for daylight saving time when converting a file time to a local time,
 
 <ol>
 <li>
-<a href="https://msdn.microsoft.com/d1d55f1f-4daa-4b9d-9962-873e38b1e0cf">FileTimeToSystemTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-filetimetosystemtime">FileTimeToSystemTime</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/f3a87ec2-67a0-418f-af6e-6c0b5547cffb">SystemTimeToTzSpecificLocalTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-systemtimetotzspecificlocaltime">SystemTimeToTzSpecificLocalTime</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/d19594bc-8238-4a8f-882d-5b9019ef4880">SystemTimeToFileTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-systemtimetofiletime">SystemTimeToFileTime</a>
 </li>
 </ol>
 
@@ -112,19 +112,19 @@ To account for daylight saving time when converting a file time to a local time,
 
 
 
-<a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
 
 
 
-<a href="https://msdn.microsoft.com/52d80b82-9ab0-4631-9e70-85df21da4946">File Times</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/file-times">File Times</a>
 
 
 
-<a href="https://msdn.microsoft.com/491e4724-8e6f-4155-b427-15cd7968e2da">LocalFileTimeToFileTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-localfiletimetofiletime">LocalFileTimeToFileTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/3733f611-c6a1-4d48-b21e-ada3490c5de1">Time Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/time-functions">Time Functions</a>
  
 
  

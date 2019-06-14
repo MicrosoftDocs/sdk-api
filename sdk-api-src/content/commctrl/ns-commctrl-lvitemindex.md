@@ -75,7 +75,7 @@ The index of the group the item belongs to.
 
 
 
-This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb774959(v=VS.85).aspx">ListView_GetItemIndexRect</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb774986(v=VS.85).aspx">ListView_GetNextItemIndex</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb775097(v=VS.85).aspx">ListView_SetItemIndexState</a> macros. It is also used with the <a href="https://msdn.microsoft.com/en-us/library/Bb761046(v=VS.85).aspx">LVM_GETITEMINDEXRECT</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb761059(v=VS.85).aspx">LVM_GETNEXTITEMINDEX</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb761190(v=VS.85).aspx">LVM_SETITEMINDEXSTATE</a> messages.
+This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-listview_getitemindexrect">ListView_GetItemIndexRect</a>, <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-listview_getnextitemindex">ListView_GetNextItemIndex</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-listview_setitemindexstate">ListView_SetItemIndexState</a> macros. It is also used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getitemindexrect">LVM_GETITEMINDEXRECT</a>, <a href="https://docs.microsoft.com/windows/desktop/controls/lvm-getnextitemindex">LVM_GETNEXTITEMINDEX</a>, and <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setitemindexstate">LVM_SETITEMINDEXSTATE</a> messages.
 
 
 

@@ -78,11 +78,11 @@ Returns ERROR_SUCCESS upon successful completion.
 
 
 
-<a href="https://msdn.microsoft.com/ca859a72-51d3-4bd5-96b9-7a9a2df95595">DHCP Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-functions">DHCP Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb951723-4bfb-4eb5-85bd-d469163d72e1">Dhcpv6CApiCleanup</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpv6csdk/nf-dhcpv6csdk-dhcpv6capicleanup">Dhcpv6CApiCleanup</a>
  
 
  

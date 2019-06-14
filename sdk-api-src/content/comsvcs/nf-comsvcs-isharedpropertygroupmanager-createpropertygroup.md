@@ -80,7 +80,7 @@ VARIANT_TRUE on return from this method if the shared property group specified i
 
 ### -param ppGroup [out]
 
-A reference to <a href="https://msdn.microsoft.com/e7f23c83-40d3-4b08-a185-cd6e3260e0a9">ISharedPropertyGroup</a>, which is a shared property group identified by the <i>Name</i> parameter, or <b>NULL</b> if an error is encountered.
+A reference to <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isharedpropertygroup">ISharedPropertyGroup</a>, which is a shared property group identified by the <i>Name</i> parameter, or <b>NULL</b> if an error is encountered.
 
 
 ## -returns
@@ -184,7 +184,7 @@ The following constants are used to specify the effective release mode for a sha
 <td>Process
 </td>
 <td>1</td>
-<td>The property group is not destroyed until the process in which it was created has terminated. Objects that hold references on a property group must still call <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a> on their references.
+<td>The property group is not destroyed until the process in which it was created has terminated. Objects that hold references on a property group must still call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on their references.
 </td>
 </tr>
 </table>
@@ -200,7 +200,7 @@ The following constants are used to specify the effective release mode for a sha
 
 
 
-<a href="https://msdn.microsoft.com/71c0a1de-5ea5-4496-b0e9-56d0cc8129a9">ISharedPropertyGroupManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isharedpropertygroupmanager">ISharedPropertyGroupManager</a>
  
 
  

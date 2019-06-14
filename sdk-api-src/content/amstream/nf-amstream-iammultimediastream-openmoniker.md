@@ -121,7 +121,7 @@ Returns S_OK if successful or E_INVALIDARG if the <i>dwFlags</i> parameter is in
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319688(v=VS.85).aspx">IAMMultiMediaStream Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-iammultimediastream">IAMMultiMediaStream Interface</a>
  
 
  

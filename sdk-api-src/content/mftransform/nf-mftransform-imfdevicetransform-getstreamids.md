@@ -64,7 +64,7 @@ The number of elements in <i>pdwInputStreamIDs</i>
 
 ### -param pdwInputStreamIds [out]
 
- A pointer to an array allocated by the caller. The method fills the array with the input stream identifiers. The array size must be at least equal to the number of input streams. To get the number of input streams, call <a href="https://msdn.microsoft.com/6FD4B393-05E6-4400-B1A3-D69B7F1B90F0">IMFDeviceTransform::GetStreamCount</a>. 
+ A pointer to an array allocated by the caller. The method fills the array with the input stream identifiers. The array size must be at least equal to the number of input streams. To get the number of input streams, call <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-getstreamcount">IMFDeviceTransform::GetStreamCount</a>. 
 
 If the caller passes an array that is larger than the number of input streams, the MFT must not write values into the extra array entries.
 
@@ -76,7 +76,7 @@ The number of elements in <i>pdwOutputStreamIDs</i>.
 
 ### -param pdwOutputStreamIds
 
-A pointer to an array allocated by the caller. The method fills the array with the output stream identifiers. The array size must be at least equal to the number of output streams. To get the number of output streams, call <a href="https://msdn.microsoft.com/6FD4B393-05E6-4400-B1A3-D69B7F1B90F0">IMFDeviceTransform::GetStreamCount</a>.
+A pointer to an array allocated by the caller. The method fills the array with the output stream identifiers. The array size must be at least equal to the number of output streams. To get the number of output streams, call <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-getstreamcount">IMFDeviceTransform::GetStreamCount</a>.
 
 
 ## -returns
@@ -133,7 +133,7 @@ The buffer coming in does not  have enough space to fill in the stream IDs.
 
 
 
-Stream identifiers are necessary because some MFTs can add or remove streams, so the index of a stream may not be unique. Therefore, <a href="https://msdn.microsoft.com/375293FA-8017-4F74-A93C-C15FED8F19AF">IMFDeviceTransform</a> methods that operate on streams take stream identifiers.
+Stream identifiers are necessary because some MFTs can add or remove streams, so the index of a stream may not be unique. Therefore, <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransform">IMFDeviceTransform</a> methods that operate on streams take stream identifiers.
 
 All input stream identifiers must be unique within an MFT, and all output stream identifiers must be unique. However, an input stream and an output stream can share the same identifier. 
 I
@@ -151,7 +151,7 @@ By convention, if an MFT has exactly one fixed input stream and one fixed output
 
 
 
-<a href="https://msdn.microsoft.com/375293FA-8017-4F74-A93C-C15FED8F19AF">IMFDeviceTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransform">IMFDeviceTransform</a>
  
 
  

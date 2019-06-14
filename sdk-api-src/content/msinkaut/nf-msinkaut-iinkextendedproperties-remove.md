@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Removes the <a href="https://msdn.microsoft.com/53146f37-343a-4886-a0bb-d76d50ca96ba">IInkExtendedProperty</a> object from the <a href="https://msdn.microsoft.com/c7b7f40f-0c28-4848-83d6-d5db73eef998">IInkExtendedProperties</a> collection.
+Removes the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty</a> object from the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperties">IInkExtendedProperties</a> collection.
 
 
 
@@ -63,9 +63,9 @@ Removes the <a href="https://msdn.microsoft.com/53146f37-343a-4886-a0bb-d76d50ca
 
 ### -param Identifier [in]
 
-The identifier of the <a href="https://msdn.microsoft.com/53146f37-343a-4886-a0bb-d76d50ca96ba">IInkExtendedProperty</a> object to remove from the collection. The identifier can be a globally unique identifier (GUID), an index, or an extended property object.
+The identifier of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty</a> object to remove from the collection. The identifier can be a globally unique identifier (GUID), an index, or an extended property object.
 
-For more information about the VARIANT structure, see <a href="https://msdn.microsoft.com/fa43fad9-804c-42d9-9717-6686d5f98ed8">Using the COM Library</a>.
+For more information about the VARIANT structure, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
 
 ## -returns
@@ -179,9 +179,9 @@ Unexpected parameter or property type.
 
 This method removes only the extended property from a snapshot of, or reference to, the ink data and does not remove the actual ink data.
 
-The <i>Identifier</i> parameter can be a BSTR, a LONG, or an <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>. Use a BSTR for the GUID of the property, a LONG for the index of the property, and an <b>IDispatch</b> for a reference to a specific property. To specify the GUID of the property when you are using late binding, such as when you use a scripting language, you must pass in the argument as a STRING literal and not use a variable.
+The <i>Identifier</i> parameter can be a BSTR, a LONG, or an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>. Use a BSTR for the GUID of the property, a LONG for the index of the property, and an <b>IDispatch</b> for a reference to a specific property. To specify the GUID of the property when you are using late binding, such as when you use a scripting language, you must pass in the argument as a STRING literal and not use a variable.
 
-For more information about the BSTR data type, see <a href="https://msdn.microsoft.com/fa43fad9-804c-42d9-9717-6686d5f98ed8">Using the COM Library</a>.
+For more information about the BSTR data type, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
 
 
@@ -191,7 +191,7 @@ For more information about the BSTR data type, see <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/c7b7f40f-0c28-4848-83d6-d5db73eef998">IInkExtendedProperties Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperties">IInkExtendedProperties Interface</a>
  
 
  

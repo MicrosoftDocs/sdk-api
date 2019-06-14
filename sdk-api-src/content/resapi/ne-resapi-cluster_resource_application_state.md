@@ -77,7 +77,7 @@ Application is ready.
 
 
 
-<a href="https://msdn.microsoft.com/B9ECD98B-D867-44C0-846F-8FE96E44F387">SetInternalState</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_internal_state">SetInternalState</a>
  
 
  

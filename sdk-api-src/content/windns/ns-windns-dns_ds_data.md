@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DNS_DS_DATA</b> structure represents a DS  resource record (RR) as specified in section 2 of  <a href="http://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a> and is used to verify the contents of <a href="https://msdn.microsoft.com/5c15980f-6dc7-4b6d-8be1-e22fdea8fe67">DNS_DNSKEY_DATA</a>.
+The <b>DNS_DS_DATA</b> structure represents a DS  resource record (RR) as specified in section 2 of  <a href="http://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a> and is used to verify the contents of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd392295(v=vs.85)">DNS_DNSKEY_DATA</a>.
 
 
 ## -struct-fields
@@ -59,12 +59,12 @@ The <b>DNS_DS_DATA</b> structure represents a DS  resource record (RR) as specif
 
 ### -field wKeyTag
 
-A value that represents the method to choose which public key is used to verify  <b>Signature</b> in <a href="https://msdn.microsoft.com/09c2f515-acc1-402f-8e62-a0d273031633">DNS_RRSIG_DATA</a> as specified in Appendix B of <a href="http://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>. This value is identical to the <b>wKeyTag</b> field in <b>DNS_RRSIG_DATA</b>.
+A value that represents the method to choose which public key is used to verify  <b>Signature</b> in <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_16">DNS_RRSIG_DATA</a> as specified in Appendix B of <a href="http://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>. This value is identical to the <b>wKeyTag</b> field in <b>DNS_RRSIG_DATA</b>.
 
 
 ### -field chAlgorithm
 
-A value that specifies the  algorithm defined by <a href="https://msdn.microsoft.com/5c15980f-6dc7-4b6d-8be1-e22fdea8fe67">DNS_DNSKEY_DATA</a>. The possible values are shown in the following table.
+A value that specifies the  algorithm defined by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd392295(v=vs.85)">DNS_DNSKEY_DATA</a>. The possible values are shown in the following table.
 
 <table>
 <tr>
@@ -179,7 +179,7 @@ A <b>BYTE</b> array that contains a cryptographic digest of the DNSKEY RR and RD
 
 The 
 <b>DNS_DS_DATA</b> structure is used in conjunction with the 
-<a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a> structure to programmatically manage DNS entries.
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 
 
@@ -189,11 +189,11 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/636399be-43a5-4ddf-b652-f8efb81fbf42">DNS Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DNS/dns-structures">DNS Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a>
  
 
  

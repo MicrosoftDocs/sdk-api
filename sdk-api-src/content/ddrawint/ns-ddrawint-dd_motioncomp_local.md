@@ -59,7 +59,7 @@ The DD_MOTIONCOMP_LOCAL structure contains local data for each individual Micros
 
 ### -field lpDD
 
-Points to a <a href="https://msdn.microsoft.com/58e378b7-863a-46d4-91cb-904ed4e892a3">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current DirectDraw process only.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current DirectDraw process only.
 
 
 ### -field guid
@@ -79,7 +79,7 @@ Indicates the height in pixels of the uncompressed output frame.
 
 ### -field ddUncompPixelFormat
 
-Specifies a <a href="https://msdn.microsoft.com/bbc26c03-c154-4b1e-883e-2942b59ded02">DDPIXELFORMAT</a> structure that contains the pixel format of the uncompressed output frame. 
+Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a> structure that contains the pixel format of the uncompressed output frame. 
 
 
 ### -field dwDriverReserved1

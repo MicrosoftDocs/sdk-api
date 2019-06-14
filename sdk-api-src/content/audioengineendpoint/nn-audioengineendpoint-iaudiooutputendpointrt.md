@@ -56,7 +56,7 @@ Gets the output buffer for each processing pass. The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioOutputEndpointRT</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAudioOutputEndpointRT</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioOutputEndpointRT</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioOutputEndpointRT</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IAudioOutputEndpointRT</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/14d69520-3d0c-42ee-8986-9d83b5cff62e">GetOutputDataPointer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiooutputendpointrt-getoutputdatapointer">GetOutputDataPointer</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the output buffer in which data will be written by the audio engine.
@@ -80,7 +80,7 @@ Gets a pointer to the output buffer in which data will be written by the audio e
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8ab117d6-5b13-4420-9cf2-865ff2011806">PulseEndpoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiooutputendpointrt-pulseendpoint">PulseEndpoint</a>
 </td>
 <td align="left" width="63%">
 This method is  reserved.
@@ -89,7 +89,7 @@ This method is  reserved.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/55b7d55e-b684-4c6e-a937-e8922732857d">ReleaseOutputDataPointer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiooutputendpointrt-releaseoutputdatapointer">ReleaseOutputDataPointer</a>
 </td>
 <td align="left" width="63%">
 Releases the pointer to the output buffer.

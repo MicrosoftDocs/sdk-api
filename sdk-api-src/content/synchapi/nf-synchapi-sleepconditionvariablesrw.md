@@ -64,7 +64,7 @@ Sleeps on the specified condition variable and releases the specified lock as an
 
 ### -param ConditionVariable [in, out]
 
-A pointer to the condition variable. This variable must be initialized using the <a href="https://msdn.microsoft.com/55cc8d1a-d5a8-4bb2-a5ac-50b4114b1b0b">InitializeConditionVariable</a> function.
+A pointer to the condition variable. This variable must be initialized using the <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-initializeconditionvariable">InitializeConditionVariable</a> function.
 
 
 ### -param SRWLock [in, out]
@@ -89,9 +89,9 @@ If this parameter is <b>CONDITION_VARIABLE_LOCKMODE_SHARED</b>, the SRW lock is 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-If the timeout expires the function returns FALSE and <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns ERROR_TIMEOUT.
+If the timeout expires the function returns FALSE and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_TIMEOUT.
 
 
 
@@ -102,7 +102,7 @@ If the timeout expires the function returns FALSE and <a href="https://msdn.micr
 
 If the lock is unlocked when this function is called, the function behavior is undefined.
 
-The thread can be woken using the <a href="https://msdn.microsoft.com/e175062a-ef25-4341-8197-df7ca6b008e6">WakeConditionVariable</a> or <a href="https://msdn.microsoft.com/1a57562a-fbbc-4a5f-910c-7a52a8dccbe3">WakeAllConditionVariable</a> function.
+The thread can be woken using the <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-wakeconditionvariable">WakeConditionVariable</a> or <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-wakeallconditionvariable">WakeAllConditionVariable</a> function.
 
 Condition variables are subject to spurious wakeups (those not associated with an explicit wake) and stolen wakeups (another thread manages to run before the woken thread). Therefore, you should recheck a predicate (typically in a <b>while</b> loop) after a sleep operation returns.
 
@@ -114,11 +114,11 @@ Condition variables are subject to spurious wakeups (those not associated with a
 
 
 
-<a href="https://msdn.microsoft.com/2d439b21-291f-4ff0-910a-c1c27e800019">Slim Reader/Writer (SRW) Locks</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/slim-reader-writer--srw--locks">Slim Reader/Writer (SRW) Locks</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b6359c2-0113-49b6-83d0-316ad95aba1b">Synchronization Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
  
 
  

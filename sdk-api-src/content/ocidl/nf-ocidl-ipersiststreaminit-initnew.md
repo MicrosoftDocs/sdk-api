@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Initializes an object to a default state. This method is to be called instead of <a href="https://msdn.microsoft.com/3e995e07-e088-40de-ba28-c30caea45786">IPersistStreamInit::Load</a>.
+Initializes an object to a default state. This method is to be called instead of <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipersiststreaminit-load">IPersistStreamInit::Load</a>.
 
 
 ## -parameters
@@ -88,7 +88,7 @@ The method completed successfully.
 </dl>
 </td>
 <td width="60%">
-The object requires no default initialization. This error code is allowed because an object may choose to implement <a href="https://msdn.microsoft.com/49c413b3-3523-4602-9ec1-19f4e0fe5651">IPersistStreamInit</a> simply for orthogonality or in anticipation of a future need for this method.
+The object requires no default initialization. This error code is allowed because an object may choose to implement <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipersiststreaminit">IPersistStreamInit</a> simply for orthogonality or in anticipation of a future need for this method.
 
 </td>
 </tr>
@@ -102,7 +102,7 @@ The object requires no default initialization. This error code is allowed becaus
 
 
 
-If the object has already been initialized with <a href="https://msdn.microsoft.com/3e995e07-e088-40de-ba28-c30caea45786">IPersistStreamInit::Load</a>, then this method must return E_UNEXPECTED.
+If the object has already been initialized with <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipersiststreaminit-load">IPersistStreamInit::Load</a>, then this method must return E_UNEXPECTED.
 
 
 
@@ -112,7 +112,7 @@ If the object has already been initialized with <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/49c413b3-3523-4602-9ec1-19f4e0fe5651">IPersistStreamInit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipersiststreaminit">IPersistStreamInit</a>
  
 
  

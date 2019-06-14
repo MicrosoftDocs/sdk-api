@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a new, empty sprite batch. After creating a sprite batch, use <a href="https://msdn.microsoft.com/49EA1F42-76C3-4505-B46A-422A336A13F6">ID2D1SpriteBatch::AddSprites</a> 
-        to add sprites to it, then use <a href="https://msdn.microsoft.com/en-us/library/Mt619830(v=VS.85).aspx">ID2D1DeviceContext3::DrawSpriteBatch</a> to draw it.
+Creates a new, empty sprite batch. After creating a sprite batch, use <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1spritebatch-addsprites">ID2D1SpriteBatch::AddSprites</a> 
+        to add sprites to it, then use <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-drawspritebatch">ID2D1DeviceContext3::DrawSpriteBatch</a> to draw it.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Creates a new, empty sprite batch. After creating a sprite batch, use <a href="h
 
 ### -param spriteBatch [out]
 
-Type: <b><a href="https://msdn.microsoft.com/D33958D5-D31C-47DC-B172-CADB1F1B81AE">ID2D1SpriteBatch</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1spritebatch">ID2D1SpriteBatch</a>**</b>
 
 When this method returns, contains a pointer to a new, empty sprite batch to be populated by the app.
 
@@ -69,7 +69,7 @@ When this method returns, contains a pointer to a new, empty sprite batch to be 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/AD763619-7880-41EB-8446-2E4B84CB4EAC">ID2D1DeviceContext3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext3">ID2D1DeviceContext3</a>
  
 
  

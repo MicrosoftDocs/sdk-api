@@ -86,7 +86,7 @@ The <b>LIBRARYFOLDERFILTER</b> enumeration is used by the following methods and 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/19abc4f9-5123-4dd9-9606-21b52e28854b">IShellLibrary::GetFolders</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-getfolders">IShellLibrary::GetFolders</a>
 </li>
 </ul>
 
@@ -97,7 +97,7 @@ The <b>LIBRARYFOLDERFILTER</b> enumeration is used by the following methods and 
 
 
 
-<a href="https://msdn.microsoft.com/c1ef3d22-7c88-42b0-93a2-5d1b75c327ba">IShellLibrary</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary">IShellLibrary</a>
  
 
  

@@ -98,7 +98,7 @@ This function allows an application to get a font that is embedded in a document
 
 A memory image can contain more than one font. When this function succeeds, <i>pcFonts</i> is a pointer to a <b>DWORD</b> whose value is the number of fonts added to the system as a result of this call. For example, this number could be 2 for the vertical and horizontal faces of an Asian font.
 
-When the function succeeds, the caller of this function can free the memory pointed to by <i>pbFont</i> because the system has made its own copy of the memory. To remove the fonts that were installed, call <a href="https://msdn.microsoft.com/b73c3f1d-c508-418c-a5a2-105a35ec3a9b">RemoveFontMemResourceEx</a>. However, when the process goes away, the system will unload the fonts even if the process did not call <a href="https://msdn.microsoft.com/b73c3f1d-c508-418c-a5a2-105a35ec3a9b">RemoveFontMemResource</a>.
+When the function succeeds, the caller of this function can free the memory pointed to by <i>pbFont</i> because the system has made its own copy of the memory. To remove the fonts that were installed, call <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-removefontmemresourceex">RemoveFontMemResourceEx</a>. However, when the process goes away, the system will unload the fonts even if the process did not call <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-removefontmemresourceex">RemoveFontMemResource</a>.
 
 
 
@@ -108,25 +108,25 @@ When the function succeeds, the caller of this function can free the memory poin
 
 
 
-<a href="https://msdn.microsoft.com/aeff9901-2405-44aa-ba46-8d784afd6b76">DESIGNVECTOR
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagdesignvector">DESIGNVECTOR
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/69c04ed7-52da-4cb6-9fd2-f2a8c044df8b">Font and Text Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9944baa9-8e50-40b9-9650-78b0b1d7643a">Fonts and Text Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/b73c3f1d-c508-418c-a5a2-105a35ec3a9b">RemoveFontMemResourceEx
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-removefontmemresourceex">RemoveFontMemResourceEx
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms714170(v=VS.85).aspx">SendMessage</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/oe/oe-ihttpmailtransport-sendmessage">SendMessage</a>
  
 
  

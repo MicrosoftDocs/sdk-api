@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IdentityUpdated</b> method is called by an identity provider to notify a calling application that an identity event occurred. An application calls the <a href="https://msdn.microsoft.com/fcac9d30-64ed-4746-aacc-ee659c2b2642">IIdentityProvider::Advise</a> method to specify events for which it is to be notified.
+The <b>IdentityUpdated</b> method is called by an identity provider to notify a calling application that an identity event occurred. An application calls the <a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nf-identityprovider-iidentityprovider-advise">IIdentityProvider::Advise</a> method to specify events for which it is to be notified.
 
 
 ## -parameters
@@ -170,7 +170,7 @@ The identity associated with the events that occurred.
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an error code. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -180,7 +180,7 @@ If the method fails, it returns an error code. For a list of common error codes,
 
 
 
-<a href="https://msdn.microsoft.com/fa348d46-bcd2-4009-89d6-11e738d4a82b">IIdentityAdvise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nn-identityprovider-iidentityadvise">IIdentityAdvise</a>
  
 
  

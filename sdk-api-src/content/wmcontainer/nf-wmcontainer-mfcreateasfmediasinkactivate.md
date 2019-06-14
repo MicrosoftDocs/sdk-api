@@ -67,12 +67,12 @@ Null-terminated wide-character string that contains the output file name.
 
 ### -param pContentInfo
 
-A pointer to the <a href="https://msdn.microsoft.com/9f490e6a-f378-45c1-a69d-985c6e884358">IMFASFContentInfo</a> interface of an initialized <a href="https://msdn.microsoft.com/en-us/library/Ee663575(v=VS.85).aspx">ASF Header Object</a> object. Use this interface to configure the ASF media sink.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfcontentinfo">IMFASFContentInfo</a> interface of an initialized <a href="https://docs.microsoft.com/windows/desktop/medfound/asf-file-structure">ASF Header Object</a> object. Use this interface to configure the ASF media sink.
 
 
 ### -param ppIActivate
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/c0936e3c-3cd1-4c1e-a336-2dee7d943963">IMFActivate</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface. The caller must release the interface.
 
 
 ## -returns
@@ -108,11 +108,11 @@ The function succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/767d5f1c-2b8d-43b6-916b-035129e93204">Activation Objects</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/activation-objects">Activation Objects</a>
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

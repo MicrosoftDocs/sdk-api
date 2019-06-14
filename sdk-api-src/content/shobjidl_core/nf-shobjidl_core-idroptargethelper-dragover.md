@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Notifies the drag-image manager that the drop target's <a href="https://msdn.microsoft.com/31bb71dd-eed7-48f9-9f6c-f5d7f9d4118e">IDropTarget::DragOver</a> method has been called.
+Notifies the drag-image manager that the drop target's <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragover">IDropTarget::DragOver</a> method has been called.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ Notifies the drag-image manager that the drop target's <a href="https://msdn.mic
 
 ### -param ppt [in]
 
-Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>*</b>
 
-The <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure pointer that was received in the <a href="https://msdn.microsoft.com/31bb71dd-eed7-48f9-9f6c-f5d7f9d4118e">IDropTarget::DragOver</a> method's 
+The <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure pointer that was received in the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragover">IDropTarget::DragOver</a> method's 
 					<i>pt</i> parameter.
 
 
@@ -69,7 +69,7 @@ The <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">PO
 
 Type: <b>DWORD</b>
 
-The value pointed to by the <a href="https://msdn.microsoft.com/31bb71dd-eed7-48f9-9f6c-f5d7f9d4118e">IDropTarget::DragOver</a> method's 
+The value pointed to by the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragover">IDropTarget::DragOver</a> method's 
 					<i>pdwEffect</i> parameter.
 
 
@@ -88,7 +88,7 @@ Returns S_OK if successful, or a COM error value otherwise.
 
 
 
-This method is called by a drop target when its <a href="https://msdn.microsoft.com/31bb71dd-eed7-48f9-9f6c-f5d7f9d4118e">IDropTarget::DragOver</a> method is called. It notifies the drag-image manager that the cursor position has changed and provides it with the information needed to display the drag image.
+This method is called by a drop target when its <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragover">IDropTarget::DragOver</a> method is called. It notifies the drag-image manager that the cursor position has changed and provides it with the information needed to display the drag image.
       
 
 
@@ -99,7 +99,7 @@ This method is called by a drop target when its <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/b1ddbf7e-edf3-48fb-8983-ae39cb7bb4b0">IDropTargetHelper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idroptargethelper">IDropTargetHelper</a>
  
 
  

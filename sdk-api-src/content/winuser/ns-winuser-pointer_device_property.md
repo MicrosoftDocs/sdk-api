@@ -101,7 +101,7 @@ The usage  of  the property, as documented in the HID specification.
 
 
 
-Developers can use this function to determine the properties that a device supports beyond the standard ones that are delivered through <a href="https://msdn.microsoft.com/BDF74777-101F-4089-94C1-5C28520CAD1A">Pointer Input Messages and Notifications</a>. The properties map directly to HID usages.
+Developers can use this function to determine the properties that a device supports beyond the standard ones that are delivered through <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/messages-and-notifications">Pointer Input Messages and Notifications</a>. The properties map directly to HID usages.
 
 
 
@@ -111,7 +111,7 @@ Developers can use this function to determine the properties that a device suppo
 
 
 
-<a href="https://msdn.microsoft.com/33DCB172-8D95-4205-AE2E-ADD7F3BF988A">Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_pointerdevice/structures">Structures</a>
  
 
  

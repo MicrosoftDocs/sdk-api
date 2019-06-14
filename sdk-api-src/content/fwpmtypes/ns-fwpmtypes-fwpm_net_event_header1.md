@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>FWPM_NET_EVENT_HEADER1</b> structure contains information common to all events. Reserved.
-<div class="alert"><b>Note</b>  <b>FWPM_NET_EVENT_HEADER1</b> is a specific implementation of FWPM_NET_EVENT_HEADER that is reserved for system use. For Windows Vista and Windows 7, <a href="https://msdn.microsoft.com/2fbb805d-d38b-4918-a291-fe1000ac2ea2">FWPM_NET_EVENT_HEADER0</a> is available. For Windows 8, <a href="https://msdn.microsoft.com/1120d807-9188-4674-9acd-4b96e680f8af">FWPM_NET_EVENT_HEADER2</a> is available. </div><div> </div>
+<div class="alert"><b>Note</b>  <b>FWPM_NET_EVENT_HEADER1</b> is a specific implementation of FWPM_NET_EVENT_HEADER that is reserved for system use. For Windows Vista and Windows 7, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header0_">FWPM_NET_EVENT_HEADER0</a> is available. For Windows 8, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header2_">FWPM_NET_EVENT_HEADER2</a> is available. </div><div> </div>
 
 ## -struct-fields
 
@@ -59,7 +59,7 @@ The <b>FWPM_NET_EVENT_HEADER1</b> structure contains information common to all e
 
 ### -field timeStamp
 
-A <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that specifies the time the event occurred.
+A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that specifies the time the event occurred.
 
 
 ### -field flags
@@ -171,12 +171,12 @@ The <b>ipVersion</b> member is set.
 
 ### -field ipVersion
 
-An <a href="https://msdn.microsoft.com/1712b83c-f32d-4981-9950-ab870a376182">FWP_IP_VERSION</a> value that specifies the IP version being used. 
+An <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version_">FWP_IP_VERSION</a> value that specifies the IP version being used. 
 
 
 ### -field ipProtocol
 
-IP protocol specified as an IPPROTO value. See the <a href="https://msdn.microsoft.com/6bf6e6c4-6268-479c-86a6-52e90cf317db">socket</a> reference topic for more information on possible protocol values.
+IP protocol specified as an IPPROTO value. See the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> reference topic for more information on possible protocol values.
 
 
 ### -field localAddrV4
@@ -188,7 +188,7 @@ Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
 
 ### -field localAddrV6
 
-A <a href="https://msdn.microsoft.com/254ee02f-747d-46e4-9851-141db57e1aa7">FWP_BYTE_ARRAY16</a> structure that specifies an IPv6 local address.
+A <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16_">FWP_BYTE_ARRAY16</a> structure that specifies an IPv6 local address.
 
 Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
 
@@ -202,7 +202,7 @@ Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
 
 ### -field remoteAddrV6
 
-An <a href="https://msdn.microsoft.com/254ee02f-747d-46e4-9851-141db57e1aa7">FWP_BYTE_ARRAY16</a> structure that specifies an IPv6 remote address.
+An <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16_">FWP_BYTE_ARRAY16</a> structure that specifies an IPv6 remote address.
 
 Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
 
@@ -224,7 +224,7 @@ IPv6 scope ID.
 
 ### -field appId
 
-An <a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a> that specifies the application ID of the local application associated with the event.
+An <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a> that specifies the application ID of the local application associated with the event.
 
 
 ### -field userId
@@ -296,25 +296,25 @@ Available when <b>addressFamily</b> is <b>FWP_AF_ETHER</b>.
 
 #### reserved2
 
-A <a href="https://msdn.microsoft.com/395b5c1c-988b-4d85-9b31-c1f84e02a90c">FWP_BYTE_ARRAY6</a>  structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array6_">FWP_BYTE_ARRAY6</a>  structure.
 
 
 
 #### reserved3
 
-A <a href="https://msdn.microsoft.com/395b5c1c-988b-4d85-9b31-c1f84e02a90c">FWP_BYTE_ARRAY6</a>  structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array6_">FWP_BYTE_ARRAY6</a>  structure.
 
 
 
 #### reserved4
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd744934(v=VS.85).aspx">DL_ADDRESS_TYPE</a> enumeration.
+A <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-__midl___midl_itf_fwpmtypes_0000_0000_0001">DL_ADDRESS_TYPE</a> enumeration.
 
 
 
 #### reserved5
 
-A <a href="https://msdn.microsoft.com/fd94a02e-ba2d-4f99-a340-11f2e594f319">FWP_ETHER_ENCAP_METHOD</a> enumeration.
+A <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ether_encap_method_">FWP_ETHER_ENCAP_METHOD</a> enumeration.
 
 
 
@@ -351,7 +351,7 @@ The interface LUID corresponding to the network interface with which this packet
 
 
 
-This structure is reserved for system use. <a href="https://msdn.microsoft.com/2fbb805d-d38b-4918-a291-fe1000ac2ea2">FWPM_NET_EVENT_HEADER0</a> or <a href="https://msdn.microsoft.com/1120d807-9188-4674-9acd-4b96e680f8af">FWPM_NET_EVENT_HEADER2</a> should be used in place of <b>FWPM_NET_EVENT_HEADER1</b>.
+This structure is reserved for system use. <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header0_">FWPM_NET_EVENT_HEADER0</a> or <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header2_">FWPM_NET_EVENT_HEADER2</a> should be used in place of <b>FWPM_NET_EVENT_HEADER1</b>.
 
 
 
@@ -361,11 +361,11 @@ This structure is reserved for system use. <a href="https://msdn.microsoft.com/2
 
 
 
-<a href="https://msdn.microsoft.com/2fbb805d-d38b-4918-a291-fe1000ac2ea2">FWPM_NET_EVENT_HEADER0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header0_">FWPM_NET_EVENT_HEADER0</a>
 
 
 
-<a href="https://msdn.microsoft.com/1120d807-9188-4674-9acd-4b96e680f8af">FWPM_NET_EVENT_HEADER2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header2_">FWPM_NET_EVENT_HEADER2</a>
  
 
  

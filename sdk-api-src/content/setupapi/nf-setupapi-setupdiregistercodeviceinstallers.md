@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SetupDiRegisterCoDeviceInstallers</b> function is the default handler for <a href="https://msdn.microsoft.com/9b75470b-9f65-47ec-b738-9664f3e766d1">DIF_REGISTER_COINSTALLERS</a>. 
+The <b>SetupDiRegisterCoDeviceInstallers</b> function is the default handler for <a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-register-coinstallers">DIF_REGISTER_COINSTALLERS</a>. 
 
 
 ## -parameters
@@ -59,12 +59,12 @@ The <b>SetupDiRegisterCoDeviceInstallers</b> function is the default handler for
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains a device information element that represents the device for which to register co-installers. The device information set must not contain any remote elements.
+A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains a device information element that represents the device for which to register co-installers. The device information set must not contain any remote elements.
 
 
 ### -param DeviceInfoData [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>.
 
 
 ## -returns
@@ -82,9 +82,9 @@ A pointer to an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242
 
 The caller of <b>SetupDiRegisterCoDeviceInstallers</b> must be a member of the Administrators group.
 
-<div class="alert"><b>Note</b>  Only a class installer should call <b>SetupDiRegisterCoDeviceInstallers</b> and only in those situations where the class installer must perform co-installer registration operations after <b>SetupDiRegisterCoDeviceInstallers</b> completes the default co-installer registration operation. In such situations, the class installer must directly call <b>SetupDiRegisterCoDeviceInstallers</b> when the installer processes a DIF_REGISTER_COINSTALLERS request. For more information about calling the default handler, see <a href="https://msdn.microsoft.com/library/Ff537868(v=VS.85).aspx">Calling Default DIF Code Handlers</a>.</div>
+<div class="alert"><b>Note</b>  Only a class installer should call <b>SetupDiRegisterCoDeviceInstallers</b> and only in those situations where the class installer must perform co-installer registration operations after <b>SetupDiRegisterCoDeviceInstallers</b> completes the default co-installer registration operation. In such situations, the class installer must directly call <b>SetupDiRegisterCoDeviceInstallers</b> when the installer processes a DIF_REGISTER_COINSTALLERS request. For more information about calling the default handler, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/calling-the-default-dif-code-handlers">Calling Default DIF Code Handlers</a>.</div>
 <div> </div>
-<b>SetupDiRegisterCoDeviceInstallers</b> reads the INF file for the device specified by <i>DeviceInfoData</i> and creates registry entries to register any device-specific co-installers listed in the INF file. Co-installers are listed in an <a href="https://msdn.microsoft.com/library/Ff547321(v=VS.85).aspx">INF DDInstall.CoInstallers section</a>. This function also copies the files for the co-installers, unless the DI_NOFILECOPY flag is set. 
+<b>SetupDiRegisterCoDeviceInstallers</b> reads the INF file for the device specified by <i>DeviceInfoData</i> and creates registry entries to register any device-specific co-installers listed in the INF file. Co-installers are listed in an <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-ddinstall-coinstallers-section">INF DDInstall.CoInstallers section</a>. This function also copies the files for the co-installers, unless the DI_NOFILECOPY flag is set. 
 
 If there is no driver selected, or the device has an INF file for Windows 9x or Millennium Edition, this function does not register any co-installers.
 
@@ -92,7 +92,7 @@ Registering a new device-specific co-installer invalidates the Device Installer'
 
 This function only registers device-specific co-installers, not class co-installers. 
 
-For more information about how to write and register device-specific co-installers, see <a href="https://msdn.microsoft.com/library/Ff554011(v=VS.85).aspx">Writing a Co-installer</a>.
+For more information about how to write and register device-specific co-installers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/writing-a-co-installer">Writing a Co-installer</a>.
 
 The device information set specified by <i>DeviceInfoSet</i> must only contain elements on the local computer.
 
@@ -104,11 +104,11 @@ The device information set specified by <i>DeviceInfoSet</i> must only contain e
 
 
 
-<a href="https://msdn.microsoft.com/9b75470b-9f65-47ec-b738-9664f3e766d1">DIF_REGISTER_COINSTALLERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-register-coinstallers">DIF_REGISTER_COINSTALLERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/2aa631c3-8d00-4309-a37c-efaa7eda3efa">SetupDiCallClassInstaller</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a>
  
 
  

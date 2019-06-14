@@ -70,7 +70,7 @@ Handle to the ACM driver to query for waveform-audio format tag details. If this
 
 ### -param paftd
 
-Pointer to the <a href="https://msdn.microsoft.com/134cccb1-4065-407f-a02b-7bd340b4a8cf">ACMFORMATTAGDETAILS</a> structure that is to receive the format tag details passed to the function specified in <i>fnCallback</i>. This structure must have the <b>cbStruct</b> member of the <b>ACMFORMATTAGDETAILS</b> structure initialized.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmformattagdetails">ACMFORMATTAGDETAILS</a> structure that is to receive the format tag details passed to the function specified in <i>fnCallback</i>. This structure must have the <b>cbStruct</b> member of the <b>ACMFORMATTAGDETAILS</b> structure initialized.
 
 
 ### -param fnCallback
@@ -152,11 +152,11 @@ This function will return MMSYSERR_NOERROR (zero) if no suitable ACM drivers are
 
 
 
-<a href="https://msdn.microsoft.com/da207a50-9c67-4cf3-920b-5878637060db">Audio Compression Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f9a4540-86c0-40e6-b4da-24a9d31b56bf">Audio Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
  
 
  

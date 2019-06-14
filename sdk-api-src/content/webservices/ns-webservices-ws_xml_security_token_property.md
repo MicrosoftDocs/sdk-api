@@ -60,7 +60,7 @@ Specifies a property for an XML security token.
 
 ### -field id
 
-Identifies the <a href="https://msdn.microsoft.com/78133ccf-4e3c-4c1b-97af-1a487b444ee0">WS_XML_SECURITY_TOKEN_PROPERTY_ID</a>.
+Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_xml_security_token_property_id">WS_XML_SECURITY_TOKEN_PROPERTY_ID</a>.
             
 
 

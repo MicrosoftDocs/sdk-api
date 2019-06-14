@@ -63,7 +63,7 @@ Retrieves the color context type.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/28708EEF-2EA9-4111-8A8A-4AEEA6B49F17">D2D1_COLOR_CONTEXT_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_color_context_type">D2D1_COLOR_CONTEXT_TYPE</a></b>
 
 This method returns color context type.
 
@@ -75,7 +75,7 @@ This method returns color context type.
 
 
 
-<a href="https://msdn.microsoft.com/77C8730B-C753-48E7-89C1-FBE28E687704">ID2D1ColorContext1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1colorcontext1">ID2D1ColorContext1</a>
  
 
  

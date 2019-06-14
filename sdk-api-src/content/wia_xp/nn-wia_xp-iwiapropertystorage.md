@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IWiaPropertyStorage</b> interface is used to access information about the <a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a> object's properties. Applications must query an item to obtain its <b>IWiaPropertyStorage</b> interface.
+The <b>IWiaPropertyStorage</b> interface is used to access information about the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> object's properties. Applications must query an item to obtain its <b>IWiaPropertyStorage</b> interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWiaPropertyStorage</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWiaPropertyStorage</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWiaPropertyStorage</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWiaPropertyStorage</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,37 +69,37 @@ The <b>IWiaPropertyStorage</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629932(v=VS.85).aspx">GetCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms629932(v=VS.85).aspx">IWiaPropertyStorage::GetCount</a> method returns the number of properties stored in the property storage.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-getcount">IWiaPropertyStorage::GetCount</a> method returns the number of properties stored in the property storage.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629934(v=VS.85).aspx">GetPropertyAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-getpropertyattributes">GetPropertyAttributes</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms629934(v=VS.85).aspx">IWiaPropertyStorage::GetPropertyAttributes</a> method retrieves access rights and legal value information for a specified set of properties.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-getpropertyattributes">IWiaPropertyStorage::GetPropertyAttributes</a> method retrieves access rights and legal value information for a specified set of properties.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629936(v=VS.85).aspx">GetPropertyStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-getpropertystream">GetPropertyStream</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms629936(v=VS.85).aspx">IWiaPropertyStorage::GetPropertyStream</a> method retrieves the property stream of an item.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-getpropertystream">IWiaPropertyStorage::GetPropertyStream</a> method retrieves the property stream of an item.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629940(v=VS.85).aspx">SetPropertyStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-setpropertystream">SetPropertyStream</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms629940(v=VS.85).aspx">IWiaPropertyStorage::SetPropertyStream</a> sets the property stream of an item in the tree of <a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a> objects of a WIA hardware device.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-setpropertystream">IWiaPropertyStorage::SetPropertyStream</a> sets the property stream of an item in the tree of <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> objects of a WIA hardware device.
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms629940(v=VS.85).aspx">IW
 
 
 
-The <b>IWiaPropertyStorage</b> interface includes several methods that are very similar to the following methods from the <a href="https://msdn.microsoft.com/c021f695-db54-4861-9f30-35a81d2dccd5">IPropertyStorage</a> interface. The descriptions and remarks for the IPropertyStorage version of these methods applies to the <b>IWiaPropertyStorage</b> as well. 
+The <b>IWiaPropertyStorage</b> interface includes several methods that are very similar to the following methods from the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> interface. The descriptions and remarks for the IPropertyStorage version of these methods applies to the <b>IWiaPropertyStorage</b> as well. 
 
 
 <table class="clsStd">
@@ -120,73 +120,73 @@ The <b>IWiaPropertyStorage</b> interface includes several methods that are very 
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/a3d708fe-53af-4f1b-94ac-edc40d59a034">IPropertyStorage::ReadMultiple</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-readmultiple">IPropertyStorage::ReadMultiple</a>
 </td>
 <td>Reads property values in a property set.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/480a2be3-ccb0-4135-a085-733f6ab48ccd">IPropertyStorage::WriteMultiple</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-writemultiple">IPropertyStorage::WriteMultiple</a>
 </td>
 <td>Writes property values in a property set.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/95c218f1-2bf7-4946-ae9c-934e5916395a">IPropertyStorage::DeleteMultiple</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-deletemultiple">IPropertyStorage::DeleteMultiple</a>
 </td>
 <td>Deletes properties in a property set.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/42b0bf7e-0402-425c-8a5f-09eaa16d93fe">IPropertyStorage::ReadPropertyNames</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-readpropertynames">IPropertyStorage::ReadPropertyNames</a>
 </td>
 <td>Gets string names that correspond to given property identifiers.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/3612bf29-344a-4389-bd3b-56b9fa297362">IPropertyStorage::WritePropertyNames</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-writepropertynames">IPropertyStorage::WritePropertyNames</a>
 </td>
 <td>Creates or changes string names that corresponds to given property identifiers.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/fedeb7fb-b84a-44a4-82d8-3a365296af69">IPropertyStorage::DeletePropertyNames</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-deletepropertynames">IPropertyStorage::DeletePropertyNames</a>
 </td>
 <td>Deletes string names for given property identifiers.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/88c916e5-b7f0-4f4d-b049-df2b0e1c2423">IPropertyStorage::SetClass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-setclass">IPropertyStorage::SetClass</a>
 </td>
 <td>Assigns a CLSID to the property set.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/00efae8b-023e-425d-b7cd-c40c17d7948e">IPropertyStorage::Commit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-commit">IPropertyStorage::Commit</a>
 </td>
-<td>As in <a href="https://msdn.microsoft.com/72831f2c-1e07-429b-af4c-2aaced3f3888">IStorage::Commit</a>, flushes or commits changes to the property storage object.</td>
+<td>As in <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-commit">IStorage::Commit</a>, flushes or commits changes to the property storage object.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/31e0d3e7-8575-4788-b42e-606221cf5a4c">IPropertyStorage::Revert</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-revert">IPropertyStorage::Revert</a>
 </td>
 <td>When the property storage is opened in transacted mode, discards all changes since the last commit.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/73f834cf-b6e4-4a48-bbdc-0c4ba87aacaf">IPropertyStorage::Enum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-enum">IPropertyStorage::Enum</a>
 </td>
 <td>Creates and gets a pointer to an enumerator for properties within this set.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/46985c49-cb9b-4f67-8dff-e6fad9e188da">IPropertyStorage::Stat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-stat">IPropertyStorage::Stat</a>
 </td>
 <td>Receives statistics about this property set.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/23c7040a-e648-4898-806d-ad01d7027cc6">IPropertyStorage::SetTimes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-settimes">IPropertyStorage::SetTimes</a>
 </td>
 <td>Sets modification, creation, and access times for the property set.</td>
 </tr>
@@ -195,7 +195,7 @@ The <b>IWiaPropertyStorage</b> interface includes several methods that are very 
 
 
 
-The <b>IWiaPropertyStorage</b> interface, like all Component Object Model (COM) interfaces, inherits the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface methods. 
+The <b>IWiaPropertyStorage</b> interface, like all Component Object Model (COM) interfaces, inherits the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface methods. 
 
 <table class="clsStd">
 <tr>
@@ -204,19 +204,19 @@ The <b>IWiaPropertyStorage</b> interface, like all Component Object Model (COM) 
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">IUnknown::QueryInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a>
 </td>
 <td>Returns pointers to supported interfaces.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63">IUnknown::AddRef</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a>
 </td>
 <td>Increments reference count.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a>
 </td>
 <td>Decrements reference count.</td>
 </tr>
@@ -231,7 +231,7 @@ The <b>IWiaPropertyStorage</b> interface, like all Component Object Model (COM) 
 
 
 
-<a href="https://msdn.microsoft.com/c021f695-db54-4861-9f30-35a81d2dccd5">IPropertyStorage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a>
  
 
  

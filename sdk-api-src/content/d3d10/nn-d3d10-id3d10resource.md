@@ -50,12 +50,12 @@ ms.custom: 19H1
 ## -description
 
 
-A resource interface provides common actions on all <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">resources</a>.
+A resource interface provides common actions on all <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">resources</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Resource</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild</a>. <b>ID3D10Resource</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Resource</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10devicechild">ID3D10DeviceChild</a>. <b>ID3D10Resource</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID3D10Resource</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173830(v=VS.85).aspx">GetEvictionPriority</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10resource-getevictionpriority">GetEvictionPriority</a>
 </td>
 <td align="left" width="63%">
 Get the eviction priority of a resource.
@@ -79,7 +79,7 @@ Get the eviction priority of a resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173831(v=VS.85).aspx">GetType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10resource-gettype">GetType</a>
 </td>
 <td align="left" width="63%">
 Get the type of the resource.
@@ -88,7 +88,7 @@ Get the type of the resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173832(v=VS.85).aspx">SetEvictionPriority</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10resource-setevictionpriority">SetEvictionPriority</a>
 </td>
 <td align="left" width="63%">
 Set the eviction priority of a resource.
@@ -102,7 +102,7 @@ Set the eviction priority of a resource.
 
 
 
-A resource interface cannot be created directly; instead, <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">buffers</a> and textures are created that inherit from a resource interface (see <a href="https://msdn.microsoft.com/en-us/library/Bb205130(v=VS.85).aspx">Creating Buffer Resources</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb205131(v=VS.85).aspx">Creating Texture Resources</a>).
+A resource interface cannot be created directly; instead, <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">buffers</a> and textures are created that inherit from a resource interface (see <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-creating">Creating Buffer Resources</a> or <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-creating-textures">Creating Texture Resources</a>).
 
 
 
@@ -112,11 +112,11 @@ A resource interface cannot be created directly; instead, <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10devicechild">ID3D10DeviceChild</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205276(v=VS.85).aspx">Resource Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-resource-interfaces">Resource Interfaces</a>
  
 
  

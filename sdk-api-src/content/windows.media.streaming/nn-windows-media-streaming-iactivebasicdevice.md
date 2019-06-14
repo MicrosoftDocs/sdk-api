@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Represents an active <a href="https://msdn.microsoft.com/E4F99A11-4ED5-44CB-BE16-CBB558412ED4">IBasicDevice</a> that is associated with a UPnP device. 
+Represents an active <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice">IBasicDevice</a> that is associated with a UPnP device. 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IActiveBasicDevice</b> interface inherits from <a href="https://msdn.microsoft.com/E4F99A11-4ED5-44CB-BE16-CBB558412ED4">IBasicDevice</a>. <b>IActiveBasicDevice</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IActiveBasicDevice</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice">IBasicDevice</a>. <b>IActiveBasicDevice</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IActiveBasicDevice</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/342F5240-E29D-4CC4-AA49-B039EBFC4D0B">GetCachedBitrateMeasurement</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-iactivebasicdevice-getcachedbitratemeasurement">GetCachedBitrateMeasurement</a>
 </td>
 <td align="left" width="63%">
 Gets the cached bitrate.
@@ -78,7 +78,7 @@ Gets the cached bitrate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/AEBB181A-CF30-4BAE-8316-76B2E8FF3A81">GetCachedExtraSinkProtocolInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-iactivebasicdevice-getcachedextrasinkprotocolinfo">GetCachedExtraSinkProtocolInfo</a>
 </td>
 <td align="left" width="63%">
 Gets additional cached sink protocol info for the device.
@@ -87,7 +87,7 @@ Gets additional cached sink protocol info for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A4FF565E-0CB1-456B-A4C1-436EFA209FA2">GetCachedSinkProtocolInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-iactivebasicdevice-getcachedsinkprotocolinfo">GetCachedSinkProtocolInfo</a>
 </td>
 <td align="left" width="63%">
 Gets the cached sink protocol info for the device.
@@ -96,7 +96,7 @@ Gets the cached sink protocol info for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/894EC907-E578-4F1E-A0AB-1FDE2FA67B6C">GetEffectiveBandwidth</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-iactivebasicdevice-geteffectivebandwidth">GetEffectiveBandwidth</a>
 </td>
 <td align="left" width="63%">
 Gets the current effective bandwidth for the device.
@@ -105,7 +105,7 @@ Gets the current effective bandwidth for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/71CC39DC-B8FB-4E93-8C01-E099B1F95B11">IsAudioSupported</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn385785(v=vs.85)">IsAudioSupported</a>
 </td>
 <td align="left" width="63%">
 Gets a value that indicates if the device supports audio.
@@ -114,7 +114,7 @@ Gets a value that indicates if the device supports audio.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4E6CFF0E-0A84-4527-8184-ECF78503A463">IsImageSupported</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn385786(v=vs.85)">IsImageSupported</a>
 </td>
 <td align="left" width="63%">
 Gets a value that indicates if the devices supports images.
@@ -123,7 +123,7 @@ Gets a value that indicates if the devices supports images.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B45C71E8-75EF-46CD-BE05-3FB828B70061">IsMuteSupported</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn385787(v=vs.85)">IsMuteSupported</a>
 </td>
 <td align="left" width="63%">
 Gets a value that indicates if the device supports muting.
@@ -132,7 +132,7 @@ Gets a value that indicates if the device supports muting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9B31B188-C896-4F01-A2BD-03A43FB399F8">IsSearchSupported</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn385788(v=vs.85)">IsSearchSupported</a>
 </td>
 <td align="left" width="63%">
 Gets a value that indicates if the device supports search.
@@ -141,7 +141,7 @@ Gets a value that indicates if the device supports search.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8A764C13-C790-4FE7-8161-2AB486D2D8D3">IsSetNextSourceSupported</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn385789(v=vs.85)">IsSetNextSourceSupported</a>
 </td>
 <td align="left" width="63%">
 Gets a value that indicates if setting the next source is supported. 
@@ -150,7 +150,7 @@ Gets a value that indicates if setting the next source is supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6EBB6951-A1B4-4598-9E81-7EDD6556DF4E">IsVideoSupported</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn385790(v=vs.85)">IsVideoSupported</a>
 </td>
 <td align="left" width="63%">
 Gets a value that indicates if the device supports video.
@@ -159,7 +159,7 @@ Gets a value that indicates if the device supports video.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/24F93A51-7E4B-46C8-B381-E81B6E31F654">LogicalNetworkInterface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn385791(v=vs.85)">LogicalNetworkInterface</a>
 </td>
 <td align="left" width="63%">
 Gets the id of the logical network interface.
@@ -168,7 +168,7 @@ Gets the id of the logical network interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6E52FBB1-6822-4D68-9C45-1EFEF1808CD0">MaxVolume</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn385792(v=vs.85)">MaxVolume</a>
 </td>
 <td align="left" width="63%">
 Gets the maximum volume  supported by the device. 
@@ -177,7 +177,7 @@ Gets the maximum volume  supported by the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D62E8571-1DE9-4BAB-A291-415FD6E9F9C8">NotifyStreamingStatus</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-iactivebasicdevice-notifystreamingstatus">NotifyStreamingStatus</a>
 </td>
 <td align="left" width="63%">
 Called by the application to indicate  that  the device is being used for active streaming. 
@@ -186,7 +186,7 @@ Called by the application to indicate  that  the device is being used for active
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/CEF49E0D-E6C6-4208-A6F3-1689C1CD6186">PhysicalNetworkInterface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn385793(v=vs.85)">PhysicalNetworkInterface</a>
 </td>
 <td align="left" width="63%">
 Gets the id of the physical network interface.
@@ -195,7 +195,7 @@ Gets the id of the physical network interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B695D51C-205B-4D45-BEA7-0235FC770C77">SetCachedBitrateMeasurement</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-iactivebasicdevice-setcachedbitratemeasurement">SetCachedBitrateMeasurement</a>
 </td>
 <td align="left" width="63%">
 Sets the cached bitrate.
@@ -204,7 +204,7 @@ Sets the cached bitrate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/210AEE22-0AFD-43B1-8380-8A67D17AB7CB">SetCachedSinkProtocolInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-iactivebasicdevice-setcachedsinkprotocolinfo">SetCachedSinkProtocolInfo</a>
 </td>
 <td align="left" width="63%">
 Gets the cached sink protocol info for the device.
@@ -218,10 +218,10 @@ Gets the cached sink protocol info for the device.
 
 
 
-An <b>IActiveBasicDevice</b> is associated with a UPnP device.  To retrieve  a pointer to the underlying <a href="https://msdn.microsoft.com/566cc606-3dfb-4052-93b0-3c922bf30f84">IUPnPDevice</a>, 	<b>IServiceProvider-&gt;QueryService</b> can be used with <b>GUID_NativeDeviceService</b> to get native interfaces for the device.
+An <b>IActiveBasicDevice</b> is associated with a UPnP device.  To retrieve  a pointer to the underlying <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a>, 	<b>IServiceProvider-&gt;QueryService</b> can be used with <b>GUID_NativeDeviceService</b> to get native interfaces for the device.
 
 
- For example, you can retrieve a <a href="https://msdn.microsoft.com/566cc606-3dfb-4052-93b0-3c922bf30f84">IUPnPDevice</a> pointer as follows: 
+ For example, you can retrieve a <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a> pointer as follows: 
 
 
 ```cpp
@@ -239,7 +239,7 @@ pActiveBasicDevice->QueryService( GUID_NativeDeviceService, IID_IUPnPDevice, (vo
 
 
 
-<a href="https://msdn.microsoft.com/E4F99A11-4ED5-44CB-BE16-CBB558412ED4">IBasicDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice">IBasicDevice</a>
  
 
  

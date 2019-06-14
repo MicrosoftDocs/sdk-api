@@ -57,7 +57,7 @@ The <b>IDTFilter</b> interface is exposed by the Decrypter/Detagger filter. Appl
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDTFilter</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDTFilter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDTFilter</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDTFilter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IDTFilter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cf7a5596-3d10-4ce9-a8c8-2703cf1eb7f8">get_BlockedRatingAttributes</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nf-encdec-idtfilter-get_blockedratingattributes">get_BlockedRatingAttributes</a>
 </td>
 <td align="left" width="63%">
 Determines whether content is blocked for a given rating system and rating level.
@@ -81,7 +81,7 @@ Determines whether content is blocked for a given rating system and rating level
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9b8ecc6b-02e8-47e9-a8df-6e73d58dd177">get_BlockUnRated</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nf-encdec-idtfilter-get_blockunrated">get_BlockUnRated</a>
 </td>
 <td align="left" width="63%">
 Indicates whether a program without rating information is blocked.
@@ -90,7 +90,7 @@ Indicates whether a program without rating information is blocked.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6852f376-35ab-4628-9068-51a2ca2ea31f">get_BlockUnRatedDelay</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nf-encdec-idtfilter-get_blockunrateddelay">get_BlockUnRatedDelay</a>
 </td>
 <td align="left" width="63%">
 Retrieves that length of time the filter waits before it blocks unrated content.
@@ -99,16 +99,16 @@ Retrieves that length of time the filter waits before it blocks unrated content.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/92bbe476-3aba-4a50-9cb3-500356228c4b">get_EvalRatObjOK</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nf-encdec-idtfilter-get_evalratobjok">get_EvalRatObjOK</a>
 </td>
 <td align="left" width="63%">
-Queries whether the <a href="https://msdn.microsoft.com/6a67cdb1-9a5c-4130-a29c-05c584702fd9">EvalRat</a> object was created successfully.
+Queries whether the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/evalrat-object">EvalRat</a> object was created successfully.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6ea5c9a0-b04c-41a6-83ed-48ea9d187da7">GetCurrRating</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nf-encdec-idtfilter-getcurrrating">GetCurrRating</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current rating.
@@ -117,7 +117,7 @@ Retrieves the current rating.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ae81e427-305e-43b8-ad4d-e23f0bbbdc4a">put_BlockedRatingAttributes</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nf-encdec-idtfilter-put_blockedratingattributes">put_BlockedRatingAttributes</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to block content that has a specified rating.
@@ -126,7 +126,7 @@ Specifies whether to block content that has a specified rating.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2b6ef516-bbc8-4d17-a306-433e8265e879">put_BlockUnRated</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nf-encdec-idtfilter-put_blockunrated">put_BlockUnRated</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to block a program for which rating information has not been obtained.
@@ -135,7 +135,7 @@ Specifies whether to block a program for which rating information has not been o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2caabce8-57b0-4a43-87b7-1b045ca573db">put_BlockUnRatedDelay</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nf-encdec-idtfilter-put_blockunrateddelay">put_BlockUnRatedDelay</a>
 </td>
 <td align="left" width="63%">
 Sets the length of time the filter waits before it blocks unrated content.
@@ -159,7 +159,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/abe939a3-5f43-4fdf-9d4d-34b7be8893eb">TV Ratings Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tv-ratings-interfaces">TV Ratings Interfaces</a>
  
 
  

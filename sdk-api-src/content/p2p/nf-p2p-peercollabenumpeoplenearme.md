@@ -127,7 +127,7 @@ The operation requires the user to be signed in.
 
 
 
-To obtain the individual peer "people near me" contacts, pass the returned handle to <a href="https://msdn.microsoft.com/015faeb3-82d9-49e5-a451-7394bf83240f">PeerGetNextItem</a>. An array of pointers to the <a href="https://msdn.microsoft.com/15dae06d-0f44-4e7d-b146-6fcd7cc6912e">PEER_PEOPLE_NEAR_ME</a> structures are returned. To close the enumeration and release the resources associated with it, pass this handle to <a href="https://msdn.microsoft.com/cc9484fb-57b9-4970-91b8-c74db6bf2248">PeerEndEnumeration</a>. Individual items returned by the enumeration must be released with <a href="https://msdn.microsoft.com/54288829-c991-42d6-a7c4-874ed28dd106">PeerFreeData</a>.
+To obtain the individual peer "people near me" contacts, pass the returned handle to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergetnextitem">PeerGetNextItem</a>. An array of pointers to the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_people_near_me_tag">PEER_PEOPLE_NEAR_ME</a> structures are returned. To close the enumeration and release the resources associated with it, pass this handle to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerendenumeration">PeerEndEnumeration</a>. Individual items returned by the enumeration must be released with <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
 
 
 
@@ -137,15 +137,15 @@ To obtain the individual peer "people near me" contacts, pass the returned handl
 
 
 
-<a href="https://msdn.microsoft.com/15dae06d-0f44-4e7d-b146-6fcd7cc6912e">PEER_PEOPLE_NEAR_ME</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_people_near_me_tag">PEER_PEOPLE_NEAR_ME</a>
 
 
 
-<a href="https://msdn.microsoft.com/00c3c1f1-c36c-469a-a644-0ec60f02d25e">Peer Collaboration API Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/927cccfa-2711-439c-833f-348087927c09">PeerCollabSignin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabsignin">PeerCollabSignin</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PeerDistClientCancelAsyncOperation</b> function cancels asynchronous operation associated with an <a href="http://go.microsoft.com/fwlink/p/?linkid=131007">OVERLAPPED</a> structure and the content handle returned by <a href="https://msdn.microsoft.com/bf9d4eb2-e939-42c6-8d71-669a949ca77a">PeerDistClientOpenContent</a>.
+The <b>PeerDistClientCancelAsyncOperation</b> function cancels asynchronous operation associated with an <a href="http://go.microsoft.com/fwlink/p/?linkid=131007">OVERLAPPED</a> structure and the content handle returned by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a>.
 
 
 ## -parameters
@@ -59,12 +59,12 @@ The <b>PeerDistClientCancelAsyncOperation</b> function cancels asynchronous oper
 
 ### -param hPeerDist [in]
 
-A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="https://msdn.microsoft.com/62d4f139-ab18-4d65-bda5-1cf09d7ddab9">PeerDistStartup</a>.
+A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
 
 
 ### -param hContentHandle [in]
 
-A content handle opened by <a href="https://msdn.microsoft.com/bf9d4eb2-e939-42c6-8d71-669a949ca77a">PeerDistClientOpenContent</a> function call.
+A content handle opened by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a> function call.
 
 
 ### -param pOverlapped [in, optional]
@@ -164,7 +164,7 @@ Additionally, calling <a href="http://go.microsoft.com/fwlink/p/?linkid=131013">
 
 
 
-<a href="https://msdn.microsoft.com/b8daa90a-f184-40cb-a62b-b1d122eb7781">PeerDistServerCancelAsyncOperation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistservercancelasyncoperation">PeerDistServerCancelAsyncOperation</a>
  
 
  

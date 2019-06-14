@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>LONG_SECTION</b> structure represents a long MPEG-2 section header. If a section contains a long header, you can cast a <a href="https://msdn.microsoft.com/6ee07b84-ae97-413f-a3b4-0078ad740194">SECTION</a> pointer to a <b>LONG_SECTION</b> pointer. For more information, see the Remarks section in the <b>SECTION</b> reference.
+The <b>LONG_SECTION</b> structure represents a long MPEG-2 section header. If a section contains a long header, you can cast a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0006">SECTION</a> pointer to a <b>LONG_SECTION</b> pointer. For more information, see the Remarks section in the <b>SECTION</b> reference.
 
 
 
@@ -77,7 +77,7 @@ Contains packed header bits, as an <b>MPEG_HEADER_BITS_MIDL</b> structure. Appli
 
 ### -field Header.W
 
-Contains the header bits as a <b>WORD</b> type. To get the individual bitfields, coerce this member to an <a href="https://msdn.microsoft.com/e25d36af-ee72-4986-8d96-2bce8b19ac80">MPEG_HEADER_BITS</a> structure.
+Contains the header bits as a <b>WORD</b> type. To get the individual bitfields, coerce this member to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2bits/ns-mpeg2bits-mpeg_header_bits">MPEG_HEADER_BITS</a> structure.
 
 
 ### -field TableIdExtension
@@ -97,7 +97,7 @@ Contains the version number and current/next indicator bit as an <b>MPEG_HEADER_
 
 ### -field Version.B
 
-Contains the version number and current/next indicator bit as a <b>BYTE</b> type. To get the individual bit fields, coerce this member to an <a href="https://msdn.microsoft.com/d9a33ca6-2e35-4f7c-8621-ce30effeb687">MPEG_HEADER_VERSION_BITS</a> structure.
+Contains the version number and current/next indicator bit as a <b>BYTE</b> type. To get the individual bit fields, coerce this member to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2bits/ns-mpeg2bits-mpeg_header_version_bits">MPEG_HEADER_VERSION_BITS</a> structure.
 
 
 ### -field SectionNumber
@@ -144,7 +144,7 @@ BYTE VersionNumber = pSection->VersionNumber;
 
 
 
-<a href="https://msdn.microsoft.com/5ae43ac6-519d-486b-aaa5-c766f3194ef2">BDA Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-structures">BDA Structures</a>
  
 
  

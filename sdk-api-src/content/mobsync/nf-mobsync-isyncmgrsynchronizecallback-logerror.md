@@ -61,7 +61,7 @@ Called by a registered application to log information, warning, or an error mess
 
 Type: <b>DWORD</b>
 
-The error level. Values are taken from the <a href="https://msdn.microsoft.com/df3c3300-e203-4664-b8d5-9dc4835b33d8">SYNCMGRLOGLEVEL</a> enumeration.
+The error level. Values are taken from the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-_tagsyncmgrloglevel">SYNCMGRLOGLEVEL</a> enumeration.
 
 
 ### -param pszErrorText [in]
@@ -73,9 +73,9 @@ A pointer to error text to be displayed in the error tab.
 
 ### -param pSyncLogError [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/0220792c-90e7-4802-9ba3-3fc6ce01e4de">SYNCMGRLOGERRORINFO</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-_tagsyncmgrlogerrorinfo">SYNCMGRLOGERRORINFO</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/0220792c-90e7-4802-9ba3-3fc6ce01e4de">SYNCMGRLOGERRORINFO</a> structure that contains additional error information. Registered applications that do not provide this data can pass <b>NULL</b>.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-_tagsyncmgrlogerrorinfo">SYNCMGRLOGERRORINFO</a> structure that contains additional error information. Registered applications that do not provide this data can pass <b>NULL</b>.
 
 
 ## -returns
@@ -113,15 +113,15 @@ The error information is logged successfully.
 
 
 
-<a href="https://msdn.microsoft.com/1c817a21-be91-43af-86c8-aa7909ae2fa2">ISyncMgrSynchronizeCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizecallback">ISyncMgrSynchronizeCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/0220792c-90e7-4802-9ba3-3fc6ce01e4de">SYNCMGRLOGERRORINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-_tagsyncmgrlogerrorinfo">SYNCMGRLOGERRORINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/df3c3300-e203-4664-b8d5-9dc4835b33d8">SYNCMGRLOGLEVEL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-_tagsyncmgrloglevel">SYNCMGRLOGLEVEL</a>
  
 
  

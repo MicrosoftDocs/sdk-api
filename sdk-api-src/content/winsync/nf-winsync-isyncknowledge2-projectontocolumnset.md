@@ -137,7 +137,7 @@ The format of the change unit IDs that is contained in <i>ppColumns</i> is not o
 
 
 
-<b>ProjectOntoColumnSet</b> differs from <a href="https://msdn.microsoft.com/3c09284f-9866-49a4-adeb-561af3351ada">ISyncKnowledge::ProjectOntoChangeUnit</a>. <b>ProjectOntoColumnSet</b> returns a knowledge object that contains information about the specified set of change units for all the items that are contained in the knowledge object. <b>ProjectOntoChangeUnit</b> returns a knowledge object that contains information about a single change unit that is contained in a single item.
+<b>ProjectOntoColumnSet</b> differs from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-projectontochangeunit">ISyncKnowledge::ProjectOntoChangeUnit</a>. <b>ProjectOntoColumnSet</b> returns a knowledge object that contains information about the specified set of change units for all the items that are contained in the knowledge object. <b>ProjectOntoChangeUnit</b> returns a knowledge object that contains information about a single change unit that is contained in a single item.
 
 
 
@@ -148,11 +148,11 @@ The format of the change unit IDs that is contained in <i>ppColumns</i> is not o
 
 
 
-<a href="https://msdn.microsoft.com/cfb08476-7b5d-4953-b723-5160330e57be">ISyncKnowledge Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/1acbae32-8fa6-4c1e-95f6-30aca483c966">ISyncKnowledge2 Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge2">ISyncKnowledge2 Interface</a>
  
 
  

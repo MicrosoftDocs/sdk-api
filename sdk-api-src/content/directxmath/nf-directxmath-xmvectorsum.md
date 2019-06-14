@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Computes the horizontal sum of the components of an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>. The horizontal sum is the result of adding each component in the vector together.
+Computes the horizontal sum of the components of an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>. The horizontal sum is the result of adding each component in the vector together.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ Returns a vector whose components are the horizontal sum of the components of <i
 
 
 
-<a href="https://msdn.microsoft.com/d7ed4516-74a6-81ec-79a2-2e39cf112d11">Vector Arithmetic Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-arithmetic">Vector Arithmetic Functions</a>
  
 
  

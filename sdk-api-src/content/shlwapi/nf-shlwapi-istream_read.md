@@ -63,9 +63,9 @@ Reads bytes from a specified stream and returns a value that indicates whether a
 
 ### -param pstm [in]
 
-Type: <b><a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> interface of the stream from which to read.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface of the stream from which to read.
 
 
 ### -param pv [out]
@@ -97,7 +97,7 @@ Returns <b>S_OK</b> if the function successfully reads the specified number of b
 
 
 
-This function calls the <a href="https://msdn.microsoft.com/934a90bb-5ed0-4d80-9906-352ad8586655">ISequentialStream::Read</a> method to read data from the specified stream into the buffer. If the function fails for any reason, the contents of the output buffer and the position of the read pointer in the input stream are undefined.
+This function calls the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">ISequentialStream::Read</a> method to read data from the specified stream into the buffer. If the function fails for any reason, the contents of the output buffer and the position of the read pointer in the input stream are undefined.
 
 
 
@@ -108,7 +108,7 @@ This function calls the <a href="https://msdn.microsoft.com/934a90bb-5ed0-4d80-9
 
 
 
-<a href="https://msdn.microsoft.com/934a90bb-5ed0-4d80-9906-352ad8586655">ISequentialStream::Read</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">ISequentialStream::Read</a>
  
 
  

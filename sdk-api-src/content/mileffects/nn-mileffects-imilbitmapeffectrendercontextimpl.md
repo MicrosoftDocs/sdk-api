@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Exposes methods that define a <a href="https://msdn.microsoft.com/en-us/library/ms735245(v=VS.85).aspx">IMILBitmapEffectRenderContext</a>.
+Exposes methods that define a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffectrendercontext">IMILBitmapEffectRenderContext</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMILBitmapEffectRenderContextImpl</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMILBitmapEffectRenderContextImpl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMILBitmapEffectRenderContextImpl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMILBitmapEffectRenderContextImpl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMILBitmapEffectRenderContextImpl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735236(v=VS.85).aspx">GetOutputBounds</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectrendercontextimpl-getoutputbounds">GetOutputBounds</a>
 </td>
 <td align="left" width="63%">
 Gets the output bounds of the render context.
@@ -78,7 +78,7 @@ Gets the output bounds of the render context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735237(v=VS.85).aspx">GetTransform</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectrendercontextimpl-gettransform">GetTransform</a>
 </td>
 <td align="left" width="63%">
 Gets the matrix transform of the render context.
@@ -87,7 +87,7 @@ Gets the matrix transform of the render context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735238(v=VS.85).aspx">GetUseSoftwareRenderer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectrendercontextimpl-getusesoftwarerenderer">GetUseSoftwareRenderer</a>
 </td>
 <td align="left" width="63%">
 Gets a value that indicates whether to use software rendering.
@@ -96,7 +96,7 @@ Gets a value that indicates whether to use software rendering.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735240(v=VS.85).aspx">UpdateOutputBounds</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectrendercontextimpl-updateoutputbounds">UpdateOutputBounds</a>
 </td>
 <td align="left" width="63%">
 Updates the output bounds with the given region.
@@ -105,7 +105,7 @@ Updates the output bounds with the given region.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735241(v=VS.85).aspx">UpdateTransform</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectrendercontextimpl-updatetransform">UpdateTransform</a>
 </td>
 <td align="left" width="63%">
 Updates the output transform with the new matrix.

@@ -127,7 +127,7 @@ Indicates that the synth is not open or not properly configured.
 
 
 
-The <code>GetRunningStats</code> method returns current information about the state of the synthesizer, including CPU loading, peak volume, and how many notes were stolen (from changing priority levels; see <a href="https://msdn.microsoft.com/6398f460-4c2e-4995-a606-e95e0488f1cd">IDirectMusicSynth::SetChannelPriority</a>). The method outputs these statistics into a DMUS_SYNTHSTATS structure.
+The <code>GetRunningStats</code> method returns current information about the state of the synthesizer, including CPU loading, peak volume, and how many notes were stolen (from changing priority levels; see <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-setchannelpriority">IDirectMusicSynth::SetChannelPriority</a>). The method outputs these statistics into a DMUS_SYNTHSTATS structure.
 
 An application can call <code>GetRunningStats</code> periodically to get the status of the synthesizer as it runs. All of the running status parameters, with the exception of <i>dwFreeMemory</i>, are refreshed every second.
 
@@ -141,7 +141,7 @@ An application typically accesses <code>GetRunningStats</code> indirectly by cal
 
 
 
-<a href="https://msdn.microsoft.com/6398f460-4c2e-4995-a606-e95e0488f1cd">IDirectMusicSynth::SetChannelPriority</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-setchannelpriority">IDirectMusicSynth::SetChannelPriority</a>
  
 
  

@@ -68,28 +68,28 @@ The number of resources in the <i>ppResources</i> argument array.
 
 Type: <b>IDXGIResource*</b>
 
-An array of pointers to <a href="https://msdn.microsoft.com/en-us/library/Bb174560(v=VS.85).aspx">IDXGIResource</a> interfaces for the resources to offer.
+An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiresource">IDXGIResource</a> interfaces for the resources to offer.
 
 
 ### -param Priority [in]
 
 Type: <b>DXGI_OFFER_RESOURCE_PRIORITY</b>
 
-A <a href="https://msdn.microsoft.com/BDC0AAA3-2B72-4732-82CE-458C14B0D993">DXGI_OFFER_RESOURCE_PRIORITY</a>-typed value that indicates how valuable data is.
+A <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/ne-dxgi1_2-_dxgi_offer_resource_priority">DXGI_OFFER_RESOURCE_PRIORITY</a>-typed value that indicates how valuable data is.
 
 
 ### -param Flags [in]
 
 Type: <b>UINT</b>
 
-Specifies the <a href="https://msdn.microsoft.com/55107136-60C0-49E9-8DD1-24878E67FCBB">DXGI_OFFER_RESOURCE_FLAGS</a>.
+Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/ne-dxgi1_5-_dxgi_offer_resource_flags">DXGI_OFFER_RESOURCE_FLAGS</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 This method returns an HRESULT success or error code, which can include E_INVALIDARG if a resource in the array, or the priority, is invalid.
 
@@ -100,19 +100,19 @@ This method returns an HRESULT success or error code, which can include E_INVALI
 
 
 
-<b>OfferResources1</b> (an extension of the original <a href="https://msdn.microsoft.com/E642DDD5-17FE-4BB9-823F-1DA51C281253">IDXGIDevice2::OfferResources</a> API) enables D3D based applications to allow de-committing of an allocation’s backing store to reduce system commit under low memory conditions. 
-A de-committed allocation cannot be reused, so opting in to the new DXGI_OFFER_RESOURCE_FLAG_ALLOW_DECOMMIT flag means the new reclaim results must be properly handled. Refer to the flag descriptions in <a href="https://msdn.microsoft.com/AF7082A5-6280-4602-9944-EC2DFF91BBB9">DXGI_RECLAIM_RESOURCE_RESULTS</a> and the Example below.
+<b>OfferResources1</b> (an extension of the original <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgidevice2-offerresources">IDXGIDevice2::OfferResources</a> API) enables D3D based applications to allow de-committing of an allocation’s backing store to reduce system commit under low memory conditions. 
+A de-committed allocation cannot be reused, so opting in to the new DXGI_OFFER_RESOURCE_FLAG_ALLOW_DECOMMIT flag means the new reclaim results must be properly handled. Refer to the flag descriptions in <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/ne-dxgi1_5-_dxgi_reclaim_resource_results">DXGI_RECLAIM_RESOURCE_RESULTS</a> and the Example below.
 
-<b>OfferResources1</b> and <a href="https://msdn.microsoft.com/83D09C41-CB96-4ADA-AE38-7D9542CCCFE0">ReclaimResources1</a> may <i>not</i> be used interchangeably with <a href="https://msdn.microsoft.com/E642DDD5-17FE-4BB9-823F-1DA51C281253">OfferResources</a> and <a href="https://msdn.microsoft.com/30533605-0F5A-4D15-B01E-7C23E2AE775E">ReclaimResources</a>. 
+<b>OfferResources1</b> and <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/nf-dxgi1_5-idxgidevice4-reclaimresources1">ReclaimResources1</a> may <i>not</i> be used interchangeably with <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgidevice2-offerresources">OfferResources</a> and <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgidevice2-reclaimresources">ReclaimResources</a>. 
 
 
 The priority value that the  <i>Priority</i> parameter specifies describes how valuable the caller considers the content to be.  The operating system uses the priority value to discard resources in order of priority. The operating system discards a resource that is offered with low priority before it discards a resource that is  offered with a higher priority.
 
-If you call <b>OfferResources1</b> to offer a resource while the resource is bound to the pipeline, the resource is unbound.  You cannot call <b>OfferResources1</b> on a resource that is mapped.  After you offer a resource, the resource cannot be mapped or bound to the pipeline until you call the <a href="https://msdn.microsoft.com/83D09C41-CB96-4ADA-AE38-7D9542CCCFE0">ReclaimResources1</a> method to reclaim the resource. You cannot call <b>OfferResources1</b> to offer immutable resources.
+If you call <b>OfferResources1</b> to offer a resource while the resource is bound to the pipeline, the resource is unbound.  You cannot call <b>OfferResources1</b> on a resource that is mapped.  After you offer a resource, the resource cannot be mapped or bound to the pipeline until you call the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/nf-dxgi1_5-idxgidevice4-reclaimresources1">ReclaimResources1</a> method to reclaim the resource. You cannot call <b>OfferResources1</b> to offer immutable resources.
 
-To offer shared resources, call <a href="https://msdn.microsoft.com/E642DDD5-17FE-4BB9-823F-1DA51C281253">OfferResources1</a> on only one of the sharing devices.  To ensure exclusive access to the resources, you must use an <a href="https://msdn.microsoft.com/f790eb46-f116-4258-8c8d-de1ece4a1f21">IDXGIKeyedMutex</a> object and then call <b>OfferResources1</b> only while you hold the mutex. In fact, you can't offer shared resources unless you use <b>IDXGIKeyedMutex</b> because offering shared resources without using <b>IDXGIKeyedMutex</b> isn't supported.
+To offer shared resources, call <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgidevice2-offerresources">OfferResources1</a> on only one of the sharing devices.  To ensure exclusive access to the resources, you must use an <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgikeyedmutex">IDXGIKeyedMutex</a> object and then call <b>OfferResources1</b> only while you hold the mutex. In fact, you can't offer shared resources unless you use <b>IDXGIKeyedMutex</b> because offering shared resources without using <b>IDXGIKeyedMutex</b> isn't supported.
 
-The user mode display driver might not immediately offer the resources that you specified in a call to <b>OfferResources1</b>. The driver can postpone offering them until the next call to <a href="https://msdn.microsoft.com/en-us/library/Bb174576(v=VS.85).aspx">IDXGISwapChain::Present</a>, <a href="https://msdn.microsoft.com/F795A719-71BA-4A25-B41A-9D93F96B6CA4">IDXGISwapChain1::Present1</a>, or <a href="https://msdn.microsoft.com/e204c585-4996-4274-a654-b9912e957fe6">ID3D11DeviceContext::Flush</a>.
+The user mode display driver might not immediately offer the resources that you specified in a call to <b>OfferResources1</b>. The driver can postpone offering them until the next call to <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present">IDXGISwapChain::Present</a>, <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-present1">IDXGISwapChain1::Present1</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-flush">ID3D11DeviceContext::Flush</a>.
 
 
 #### Examples
@@ -181,11 +181,11 @@ void Application::ReclaimInterfaceResources (ID3D11Device* pD3D11Device)
 
 
 
-<a href="https://msdn.microsoft.com/AF7082A5-6280-4602-9944-EC2DFF91BBB9">DXGI_RECLAIM_RESOURCE_RESULTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/ne-dxgi1_5-_dxgi_reclaim_resource_results">DXGI_RECLAIM_RESOURCE_RESULTS</a>
 
 
 
-<a href="https://msdn.microsoft.com/15EA6B68-587E-4D92-A70D-7DDA9915EBC2">IDXGIDevice4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/nn-dxgi1_5-idxgidevice4">IDXGIDevice4</a>
  
 
  

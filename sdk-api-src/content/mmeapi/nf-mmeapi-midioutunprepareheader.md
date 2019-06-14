@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 
-The <b>midiOutUnprepareHeader</b> function cleans up the preparation performed by the <a href="https://msdn.microsoft.com/3e457f08-a885-48f8-97c1-ba1baef97759">midiOutPrepareHeader</a> function.
+The <b>midiOutUnprepareHeader</b> function cleans up the preparation performed by the <a href="https://docs.microsoft.com/previous-versions//dd798477(v=vs.85)">midiOutPrepareHeader</a> function.
 
 
 
@@ -69,12 +69,12 @@ Handle to the MIDI output device. This parameter can also be the handle of a MID
 
 ### -param pmh
 
-Pointer to a <a href="https://msdn.microsoft.com/630f0645-555e-4f48-9397-2623a9918b8a">MIDIHDR</a> structure identifying the buffer to be cleaned up.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd798449(v=vs.85)">MIDIHDR</a> structure identifying the buffer to be cleaned up.
 
 
 ### -param cbmh
 
-Size, in bytes, of the <a href="https://msdn.microsoft.com/630f0645-555e-4f48-9397-2623a9918b8a">MIDIHDR</a> structure.
+Size, in bytes, of the <a href="https://docs.microsoft.com/previous-versions//dd798449(v=vs.85)">MIDIHDR</a> structure.
 
 
 ## -returns
@@ -131,7 +131,7 @@ The specified pointer or structure is invalid.
 
 
 
-This function is complementary to the <a href="https://msdn.microsoft.com/3e457f08-a885-48f8-97c1-ba1baef97759">midiOutPrepareHeader</a> function. You must call <b>midiOutUnprepareHeader</b> before freeing the buffer. After passing a buffer to the device driver with the <a href="https://msdn.microsoft.com/7fda802b-eed5-4a27-8bc0-1f43f4722d33">midiOutLongMsg</a> function, you must wait until the device driver is finished with the buffer before calling <b>midiOutUnprepareHeader</b>.
+This function is complementary to the <a href="https://docs.microsoft.com/previous-versions//dd798477(v=vs.85)">midiOutPrepareHeader</a> function. You must call <b>midiOutUnprepareHeader</b> before freeing the buffer. After passing a buffer to the device driver with the <a href="https://docs.microsoft.com/previous-versions//dd798474(v=vs.85)">midiOutLongMsg</a> function, you must wait until the device driver is finished with the buffer before calling <b>midiOutUnprepareHeader</b>.
 
 Unpreparing a buffer that has not been prepared has no effect, and the function returns MMSYSERR_NOERROR.
 
@@ -143,11 +143,11 @@ Unpreparing a buffer that has not been prepared has no effect, and the function 
 
 
 
-<a href="https://msdn.microsoft.com/b3a70441-e8f9-4886-bf22-426ebd74d045">Allocating and Preparing MIDI Data Blocks</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/allocating-and-preparing-midi-data-blocks">Allocating and Preparing MIDI Data Blocks</a>
 
 
 
-<a href="https://msdn.microsoft.com/9aa9fd79-cd9e-4443-8715-142ea72b82c0">MIDI Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>
  
 
  

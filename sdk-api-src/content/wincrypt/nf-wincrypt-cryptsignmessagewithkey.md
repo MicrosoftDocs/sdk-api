@@ -61,7 +61,7 @@ parameters. A placeholder <b>SignerId</b> is created and stored in the message.
 ### -param pSignPara [in]
 
 A pointer to 
-a <a href="https://msdn.microsoft.com/d5426ad6-2181-42ce-99f2-cc6cc83e20a8">CRYPT_KEY_SIGN_MESSAGE_PARA</a> structure that contains the signature parameters.
+a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_key_sign_message_para">CRYPT_KEY_SIGN_MESSAGE_PARA</a> structure that contains the signature parameters.
 
 
 ### -param pbToBeSigned [in]
@@ -82,7 +82,7 @@ A pointer to a buffer to receive the encoded signed message.
 
 
 This parameter can be <b>NULL</b> to set the size of this information for memory allocation purposes. For more information, see 
-<a href="https://msdn.microsoft.com/ef99edef-39b2-4d78-9c01-13720215d47f">Retrieving Data of Unknown Length</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 
 ### -param pcbSignedBlob [in, out]
@@ -104,10 +104,10 @@ If the function succeeds, the return value is nonzero (TRUE).
 If the function fails, the return value is zero (FALSE).
 
 For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 The following lists the error codes most commonly returned by the 
-		       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+		       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 <table>
 <tr>
@@ -132,7 +132,7 @@ If the buffer specified by the <i>pbSignedBlob</i> parameter is not large enough
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1">message encoding type</a> is not valid. Currently only PKCS_7_ASN_ENCODING is supported. The <b>cbSize</b> in *<i>pSignPara</i> is not valid.
+The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding type</a> is not valid. Currently only PKCS_7_ASN_ENCODING is supported. The <b>cbSize</b> in *<i>pSignPara</i> is not valid.
 
 </td>
 </tr>

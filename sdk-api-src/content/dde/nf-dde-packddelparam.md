@@ -111,7 +111,7 @@ An application should call this function only for posted DDE messages.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648774(v=VS.85).aspx">About Dynamic Data Exchange</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/about-dynamic-data-exchange">About Dynamic Data Exchange</a>
 
 
 
@@ -119,7 +119,7 @@ An application should call this function only for posted DDE messages.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649004(v=VS.85).aspx">FreeDDElParam</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dde/nf-dde-freeddelparam">FreeDDElParam</a>
 
 
 
@@ -127,11 +127,11 @@ An application should call this function only for posted DDE messages.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649007(v=VS.85).aspx">ReuseDDElParam</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dde/nf-dde-reuseddelparam">ReuseDDElParam</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649008(v=VS.85).aspx">UnpackDDElParam</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dde/nf-dde-unpackddelparam">UnpackDDElParam</a>
  
 
  

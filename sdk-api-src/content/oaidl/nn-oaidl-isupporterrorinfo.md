@@ -54,7 +54,7 @@ Ensures that error information can be propagated up the call chain correctly. Au
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISupportedErrorInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISupportErrorInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISupportedErrorInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISupportErrorInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,10 +69,10 @@ The <b>ISupportedErrorInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a54ef18d-ee3f-4483-ac4a-99d758f0960a">InterfaceSupportsErrorInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-isupporterrorinfo-interfacesupportserrorinfo">InterfaceSupportsErrorInfo</a>
 </td>
 <td align="left" width="63%">
-Indicates whether an interface supports the <a href="https://msdn.microsoft.com/4dda6909-2d9a-4727-ae0c-b5f90dcfa447">IErrorInfo</a> interface.
+Indicates whether an interface supports the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ierrorinfo">IErrorInfo</a> interface.
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ Indicates whether an interface supports the <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/c258677e-d53e-499d-a414-ce889709b23e">Error Handling Interfaces </a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/error-handling-interfaces">Error Handling Interfaces </a>
  
 
  

@@ -123,7 +123,7 @@ If successful, returns E_NONE.
 
 This function reads the embedding privileges stored in the font and transfers the privileges to <i>pulPrivStatus</i>.
 
-Otherwise, returns an error code described in <a href="https://msdn.microsoft.com/71effafe-55a9-40ed-81c7-07278eba32d3">Embedding-Function Error Messages</a>.
+Otherwise, returns an error code described in <a href="https://docs.microsoft.com/windows/desktop/gdi/font-embedding-function-error-messages">Embedding-Function Error Messages</a>.
 
 
 
@@ -132,7 +132,7 @@ Otherwise, returns an error code described in <a href="https://msdn.microsoft.co
 
 
 
-Alternatively, an application can determine embedding privileges by using <a href="https://msdn.microsoft.com/85181d86-bc18-4948-bc7d-65c2d71efefb">TTLoadEmbeddedFont</a> and then checking the value returned in <i>pulPrivStatus</i> for success or failure of the function.
+Alternatively, an application can determine embedding privileges by using <a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttloadembeddedfont">TTLoadEmbeddedFont</a> and then checking the value returned in <i>pulPrivStatus</i> for success or failure of the function.
 
 
 
@@ -142,15 +142,15 @@ Alternatively, an application can determine embedding privileges by using <a hre
 
 
 
-<a href="https://msdn.microsoft.com/0ce9ade0-df5b-4a2a-adf6-ca641e27d2bd">TTGetEmbeddedFontInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttgetembeddedfontinfo">TTGetEmbeddedFontInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/08636992-8dd8-461c-b360-f52a19d845bf">TTGetNewFontName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttgetnewfontname">TTGetNewFontName</a>
 
 
 
-<a href="https://msdn.microsoft.com/85181d86-bc18-4948-bc7d-65c2d71efefb">TTLoadEmbeddedFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttloadembeddedfont">TTLoadEmbeddedFont</a>
  
 
  

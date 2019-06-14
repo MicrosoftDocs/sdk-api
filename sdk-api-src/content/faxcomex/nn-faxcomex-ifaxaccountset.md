@@ -49,13 +49,13 @@ ms.custom: 19H1
 ## -description
 
 
-Provides methods for <a href="https://msdn.microsoft.com/en-us/library/Aa358860(v=VS.85).aspx">fax account</a> management, including adding, removing, and retrieving fax accounts. 
+Provides methods for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-glossary">fax account</a> management, including adding, removing, and retrieving fax accounts. 
         
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxAccountSet</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxAccountSet</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxAccountSet</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxAccountSet</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,34 +70,34 @@ The <b>IFaxAccountSet</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa359013(v=VS.85).aspx">AddAccount</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountset-addaccount-vb">AddAccount</a>
 </td>
 <td align="left" width="63%">
-Adds a fax account to the fax server and returns the new <a href="https://msdn.microsoft.com/en-us/library/Aa359058(v=VS.85).aspx">IFaxAccount</a> object.
+Adds a fax account to the fax server and returns the new <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccount">IFaxAccount</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa359015(v=VS.85).aspx">GetAccount</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountset-getaccount-vb">GetAccount</a>
 </td>
 <td align="left" width="63%">
-Returns an <a href="https://msdn.microsoft.com/en-us/library/Aa359058(v=VS.85).aspx">IFaxAccount</a> object by using the account name.
+Returns an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccount">IFaxAccount</a> object by using the account name.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa359016(v=VS.85).aspx">GetAccounts</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountset-getaccounts-vb">GetAccounts</a>
 </td>
 <td align="left" width="63%">
-Returns an <a href="https://msdn.microsoft.com/en-us/library/Aa359019(v=VS.85).aspx">IFaxAccounts</a> object that represents all the fax accounts on the fax server.
+Returns an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccounts">IFaxAccounts</a> object that represents all the fax accounts on the fax server.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa359017(v=VS.85).aspx">RemoveAccount</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountset-removeaccount-vb">RemoveAccount</a>
 </td>
 <td align="left" width="63%">
 Removes a fax account from the fax server.
@@ -111,7 +111,7 @@ Removes a fax account from the fax server.
 
 
 
-A default implementation of <b>IFaxAccountSet</b> is provided as the <a href="https://msdn.microsoft.com/en-us/library/Aa358935(v=VS.85).aspx">FaxAccountSet</a> object. The interface and the object are supported only on Windows Vista or later.
+A default implementation of <b>IFaxAccountSet</b> is provided as the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountset">FaxAccountSet</a> object. The interface and the object are supported only on Windows Vista or later.
 
 
 

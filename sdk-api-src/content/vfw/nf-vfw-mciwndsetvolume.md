@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndSetVolume</b> macro sets the volume level of an MCI device. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/04151588-b761-447a-9a57-808c034c3059">MCIWNDM_SETVOLUME</a> message.
+The <b>MCIWndSetVolume</b> macro sets the volume level of an MCI device. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-setvolume">MCIWNDM_SETVOLUME</a> message.
 
 
 

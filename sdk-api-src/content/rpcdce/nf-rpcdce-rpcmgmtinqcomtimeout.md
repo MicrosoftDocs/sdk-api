@@ -114,7 +114,7 @@ This was the wrong kind of binding for the operation.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -125,11 +125,11 @@ This was the wrong kind of binding for the operation.
 
 A client application calls 
 <b>RpcMgmtInqComTimeout</b> to view the time-out value in a server binding handle. The time-out value specifies the relative amount of time that should be spent to wait for a response from the server before giving up. For a table of the time-out values, see 
-<a href="https://msdn.microsoft.com/bf5f3f08-ab29-4732-9ce3-d6d7ad699369">Binding Time-out Constants</a>. For more information on how the COM time-out operates, and when to use it, see 
-<a href="https://msdn.microsoft.com/af7c67ea-32af-40b0-b74b-0a339e5088c4">RPC and the Network</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/binding-time-out-constants">Binding Time-out Constants</a>. For more information on how the COM time-out operates, and when to use it, see 
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-and-the-network">RPC and the Network</a>.
 
 A client also calls 
-<a href="https://msdn.microsoft.com/3ea6fe6a-2064-4f53-852a-041281b62bbd">RpcMgmtSetComTimeout</a> to change the time-out value.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtsetcomtimeout">RpcMgmtSetComTimeout</a> to change the time-out value.
 
 
 
@@ -139,16 +139,16 @@ A client also calls
 
 
 
-<a href="https://msdn.microsoft.com/bf5f3f08-ab29-4732-9ce3-d6d7ad699369">Binding
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/binding-time-out-constants">Binding
 		  Time-out Constants</a>
 
 
 
-<a href="https://msdn.microsoft.com/478b9f33-db01-4a1d-9b5b-dc2662ee8d7b">RpcMgmtInqStats</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtinqstats">RpcMgmtInqStats</a>
 
 
 
-<a href="https://msdn.microsoft.com/3ea6fe6a-2064-4f53-852a-041281b62bbd">RpcMgmtSetComTimeout</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtsetcomtimeout">RpcMgmtSetComTimeout</a>
  
 
  

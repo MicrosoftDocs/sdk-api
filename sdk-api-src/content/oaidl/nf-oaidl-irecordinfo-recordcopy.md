@@ -112,7 +112,7 @@ One or more of the arguments is not valid.
 
 
 
-<b>RecordCopy</b> will release the resources in the destination first. The caller is responsible for allocating sufficient memory in the destination by calling <a href="https://msdn.microsoft.com/ca0f43b2-2b8f-4b22-8674-8223f0c607ab">GetSize</a> or  <a href="https://msdn.microsoft.com/f688623e-c03b-456f-bd51-426049e0eb2b">RecordCreate</a>. If <b>RecordCopy</b> fails to copy any of the fields then all fields will be cleared, as though <a href="https://msdn.microsoft.com/979b0702-3342-4036-8113-c84728436ab6">RecordClear</a> had been called.
+<b>RecordCopy</b> will release the resources in the destination first. The caller is responsible for allocating sufficient memory in the destination by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-getsize">GetSize</a> or  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-recordcreate">RecordCreate</a>. If <b>RecordCopy</b> fails to copy any of the fields then all fields will be cleared, as though <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-recordclear">RecordClear</a> had been called.
 
 
 
@@ -122,7 +122,7 @@ One or more of the arguments is not valid.
 
 
 
-<a href="https://msdn.microsoft.com/065ebfa8-bfac-4c75-a3f9-9dc0409ea454">IRecordInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>
  
 
  

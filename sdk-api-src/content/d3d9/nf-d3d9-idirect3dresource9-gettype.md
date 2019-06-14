@@ -64,9 +64,9 @@ Returns the type of the resource.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172601(v=VS.85).aspx">D3DRESOURCETYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dresourcetype">D3DRESOURCETYPE</a></b>
 
-Returns a member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172601(v=VS.85).aspx">D3DRESOURCETYPE</a> enumerated type, identifying the type of the resource.
+Returns a member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dresourcetype">D3DRESOURCETYPE</a> enumerated type, identifying the type of the resource.
 
 
 
@@ -76,7 +76,7 @@ Returns a member of the <a href="https://msdn.microsoft.com/en-us/library/Bb1726
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205878(v=VS.85).aspx">IDirect3DResource9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dresource9">IDirect3DResource9</a>
  
 
  

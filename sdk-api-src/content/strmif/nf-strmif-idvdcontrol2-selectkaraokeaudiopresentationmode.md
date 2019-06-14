@@ -63,7 +63,7 @@ The <code>SelectKaraokeAudioPresentationMode</code> method sends karaoke auxilia
 
 ### -param ulMode [in]
 
-Bitwise OR of <a href="https://msdn.microsoft.com/7f0132ae-6a46-4b81-9c5b-a0399a429b1a">DVD_KARAOKE_DOWNMIX</a> enumeration indicating how to downmix the five karaoke channels to channels 0 and 1, which are usually output to the left and right speakers.
+Bitwise OR of <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagdvd_karaoke_downmix">DVD_KARAOKE_DOWNMIX</a> enumeration indicating how to downmix the five karaoke channels to channels 0 and 1, which are usually output to the left and right speakers.
 
 
 ## -returns
@@ -106,7 +106,7 @@ The audio decoder does not support downmixing.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/3b2c01a2-d52c-4497-8fc9-d1113e8507e8">DVD Navigator</a> filter is in an invalid domain.
+The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> filter is in an invalid domain.
 
 </td>
 </tr>
@@ -166,19 +166,19 @@ The following table shows the Annex J command name to which this method name cor
 
 
 
-<a href="https://msdn.microsoft.com/6f41e0f1-e550-4ca6-9a80-ce4d498289e2">DVD Applications</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://msdn.microsoft.com/78b2998b-d8b3-424d-85bc-872e64eb4a4f">DVD Karaoke Property Set</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-karaoke-property-set">DVD Karaoke Property Set</a>
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/eda43b20-1c4d-4769-bb87-3942716af13c">IDvdControl2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>
  
 
  

@@ -59,9 +59,9 @@ Gets the PANOSE values from the font, used for font selection and matching.
 
 ### -param panose [out]
 
-Type: <b><a href="https://msdn.microsoft.com/B65B4C8E-1CA0-47AC-AA3F-8F2EACC5C11A">DWRITE_PANOSE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ns-dwrite_1-dwrite_panose">DWRITE_PANOSE</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/B65B4C8E-1CA0-47AC-AA3F-8F2EACC5C11A">DWRITE_PANOSE</a> structure that receives the PANOSE values from the font.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ns-dwrite_1-dwrite_panose">DWRITE_PANOSE</a> structure that receives the PANOSE values from the font.
 
 
 ## -returns
@@ -87,7 +87,7 @@ This method doesn't simulate these values, such as substituting a weight or prop
 
 
 
-<a href="https://msdn.microsoft.com/1081A005-E4A8-4EE0-AFE0-10BD8D8471DF">IDWriteFontFace3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontface3">IDWriteFontFace3</a>
  
 
  

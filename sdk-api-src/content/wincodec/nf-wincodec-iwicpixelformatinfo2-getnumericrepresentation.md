@@ -58,9 +58,9 @@ ms.custom: 19H1
 
 ### -param pNumericRepresentation [out]
 
-Type: <b><a href="https://msdn.microsoft.com/10f32ac9-4b0d-4d21-b54a-657513fbd142">WICPixelFormatNumericRepresentation</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicpixelformatnumericrepresentation">WICPixelFormatNumericRepresentation</a>*</b>
 
-Returns the <a href="https://msdn.microsoft.com/10f32ac9-4b0d-4d21-b54a-657513fbd142">WICPixelFormatNumericRepresentation</a> of the pixel format.
+Returns the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicpixelformatnumericrepresentation">WICPixelFormatNumericRepresentation</a> of the pixel format.
 
 
 ## -returns
@@ -79,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/6c36fb08-f0c7-4654-bd8e-ef8ef737bc41">IWICPixelFormatInfo2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicpixelformatinfo2">IWICPixelFormatInfo2</a>
  
 
  

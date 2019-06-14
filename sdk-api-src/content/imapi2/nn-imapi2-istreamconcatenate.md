@@ -71,7 +71,7 @@ The <b>IStreamConcatenate</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9871cc35-c955-4fd4-9082-5b6ab60cae7b">Append</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-istreamconcatenate-append">Append</a>
 </td>
 <td align="left" width="63%">
 Appends a stream to this stream.
@@ -80,7 +80,7 @@ Appends a stream to this stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/75e7f4cd-f3c8-494d-b049-7fe32c486659">Append2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-istreamconcatenate-append2">Append2</a>
 </td>
 <td align="left" width="63%">
 Appends an array of streams to this stream.
@@ -89,7 +89,7 @@ Appends an array of streams to this stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/62db148e-926d-47b3-a0f6-945730177184">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-istreamconcatenate-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes this stream from two input streams.
@@ -98,7 +98,7 @@ Initializes this stream from two input streams.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/826b3157-4cab-4f18-87f2-6635911c03f0">Initialize2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-istreamconcatenate-initialize2">Initialize2</a>
 </td>
 <td align="left" width="63%">
 Initializes this stream from an array of input streams.
@@ -128,11 +128,11 @@ When using this interface, the following  scenarios will result in undefined beh
 
 
 
-<a href="https://msdn.microsoft.com/2d0f03e5-a47d-4b46-a177-f462bbafe153">IStreamInterleave</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-istreaminterleave">IStreamInterleave</a>
 
 
 
-<a href="https://msdn.microsoft.com/7630b8ac-41f9-4cc7-95e7-4172a876673f">IStreamPseudoRandomBased</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-istreampseudorandombased">IStreamPseudoRandomBased</a>
  
 
  

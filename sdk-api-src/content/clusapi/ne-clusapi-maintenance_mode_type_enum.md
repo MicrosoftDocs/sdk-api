@@ -77,15 +77,15 @@ Indicates the server has released ownership of the storage resource.
 
 
 
-<a href="https://msdn.microsoft.com/d68b187d-39c5-42d3-b268-d5061da257c4">CLUS_MAINTENANCE_MODE_INFOEX</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-_clus_maintenance_mode_infoex">CLUS_MAINTENANCE_MODE_INFOEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/af592311-15e6-4ad9-b7bd-4ef62bfd761f">MaintenanceMode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/maintenancemode">MaintenanceMode</a>
  
 
  

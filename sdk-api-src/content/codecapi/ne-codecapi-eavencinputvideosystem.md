@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Specifies the nominal range for a video source. This enumeration is used with the <a href="https://msdn.microsoft.com/a4ad7ca2-bab0-42f7-a098-a5ff6853b109">AVEncInputVideoSystem</a> property.
+Specifies the nominal range for a video source. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencinputvideosystem-property">AVEncInputVideoSystem</a> property.
 
 
 
@@ -100,11 +100,11 @@ Component video.
 
 
 
-<a href="https://msdn.microsoft.com/5d6e48cb-d181-448e-a96e-e5ab500427d7">Codec API Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
  
 
  

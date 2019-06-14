@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns the spatial audio object, represented by an <a href="https://msdn.microsoft.com/61E9BC6A-2120-4874-9053-E1D232DF1CCA">IMFSpatialAudioObjectBuffer</a> object, corresponding to the specified index.
+Returns the spatial audio object, represented by an <a href="https://docs.microsoft.com/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudioobjectbuffer">IMFSpatialAudioObjectBuffer</a> object, corresponding to the specified index.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ A 32 bit variable with the 0-based index of the requested audio object.
 
 ### -param ppAudioObjBuffer
 
-A pointer to an <a href="https://msdn.microsoft.com/61E9BC6A-2120-4874-9053-E1D232DF1CCA">IMFSpatialAudioObjectBuffer</a> object in which the spatial audio object corresponding with the specified index will be stored.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudioobjectbuffer">IMFSpatialAudioObjectBuffer</a> object in which the spatial audio object corresponding with the specified index will be stored.
 
 
 ## -returns
@@ -112,7 +112,7 @@ The supplied pointer is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/EA0277BF-C9C8-42FE-9206-A87FC3C50A9F">IMFSpatialAudioSample</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudiosample">IMFSpatialAudioSample</a>
  
 
  

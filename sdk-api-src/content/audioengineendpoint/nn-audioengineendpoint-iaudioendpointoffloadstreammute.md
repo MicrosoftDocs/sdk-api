@@ -54,7 +54,7 @@ The <b>IAudioEndpointOffloadStreamMute</b> interface allows a client to manipula
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioEndpointOffloadStreamMute</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAudioEndpointOffloadStreamMute</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioEndpointOffloadStreamMute</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioEndpointOffloadStreamMute</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAudioEndpointOffloadStreamMute</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0A8F254B-1287-4633-A14D-7F620CB64818">GetMute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointoffloadstreammute-getmute">GetMute</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the offloaded stream is muted or not.
@@ -78,7 +78,7 @@ Indicates whether the offloaded stream is muted or not.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/43AF8146-BDF6-47F5-BD8F-DA46C4624D95">SetMute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointoffloadstreammute-setmute">SetMute</a>
 </td>
 <td align="left" width="63%">
 Sets the mute status of the offloaded stream.
@@ -93,7 +93,7 @@ Sets the mute status of the offloaded stream.
 
 
 
-<a href="https://msdn.microsoft.com/b18e2094-e974-4c23-b70b-ace5a168132d">Core Audio Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
  
 
  

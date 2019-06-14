@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>NdrStubCall2</b> function is the server-side entry point for <a href="https://msdn.microsoft.com/cf597a45-410f-4098-850b-240c6ebce23b">/Oicf</a> mode stubs.  
+The <b>NdrStubCall2</b> function is the server-side entry point for <a href="https://docs.microsoft.com/windows/desktop/Midl/-oi">/Oicf</a> mode stubs.  
 
 
 ## -parameters
@@ -59,17 +59,17 @@ The <b>NdrStubCall2</b> function is the server-side entry point for <a href="htt
 
 ### -param pThis [in]
 
-Pointer to an instance of the CStdStubBuffer object, implementing  <a href="https://msdn.microsoft.com/en-us/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a>, for the DCOM interface.  Set to <b>NULL</b> for nonobject RPC interfaces.
+Pointer to an instance of the CStdStubBuffer object, implementing  <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a>, for the DCOM interface.  Set to <b>NULL</b> for nonobject RPC interfaces.
 
 
 ### -param pChannel [in]
 
-Pointer to <a href="https://msdn.microsoft.com/en-us/library/ms679738(v=VS.85).aspx">IRpcChannelBuffer</a> for the DCOM interface, often provided by OLE. Set to <b>NULL</b> for nonobject interfaces.
+Pointer to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcchannelbuffer">IRpcChannelBuffer</a> for the DCOM interface, often provided by OLE. Set to <b>NULL</b> for nonobject interfaces.
 
 
 ### -param pRpcMsg [in, out]
 
-Pointer to an <a href="https://msdn.microsoft.com/fd014622-97b3-4f76-8bc3-10821aa3c46e">RPC_MESSAGE</a> structure that  contains information about the RPC request. In nonobject interfaces, <i>pRpcMsg</i> also contains information about the remoting method.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/rpcdcep/ns-rpcdcep-_rpc_message">RPC_MESSAGE</a> structure that  contains information about the RPC request. In nonobject interfaces, <i>pRpcMsg</i> also contains information about the remoting method.
 
 
 ### -param pdwStubPhase [out]

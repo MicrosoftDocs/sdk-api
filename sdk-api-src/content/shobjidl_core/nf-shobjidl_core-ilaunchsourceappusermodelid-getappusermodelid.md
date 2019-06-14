@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves an <a href="https://msdn.microsoft.com/ebce2d99-6f20-4545-9f12-d79cd8d0828f">AppUserModelId</a> from the source application.
+Retrieves an <a href="https://docs.microsoft.com/windows/desktop/shell/appids">AppUserModelId</a> from the source application.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Retrieves an <a href="https://msdn.microsoft.com/ebce2d99-6f20-4545-9f12-d79cd8d
 
 Type: <b>LPWSTR*</b>
 
-Contains a  pointer to a string that contains the <a href="https://msdn.microsoft.com/ebce2d99-6f20-4545-9f12-d79cd8d0828f">AppUserModelId</a>.
+Contains a  pointer to a string that contains the <a href="https://docs.microsoft.com/windows/desktop/shell/appids">AppUserModelId</a>.
 
 
 ## -returns
@@ -80,11 +80,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/ebce2d99-6f20-4545-9f12-d79cd8d0828f">AppUserModelId</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/appids">AppUserModelId</a>
 
 
 
-<a href="https://msdn.microsoft.com/B53325C9-DC89-4411-82D9-247C28AFB177">ILaunchSourceAppUserModelId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ilaunchsourceappusermodelid">ILaunchSourceAppUserModelId</a>
  
 
  

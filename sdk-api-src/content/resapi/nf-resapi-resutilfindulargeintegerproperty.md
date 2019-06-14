@@ -84,7 +84,7 @@ The value of the property.
 If the operations succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, the function returns a 
-       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following is a possible error 
+       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following is a possible error 
        code.
 
 
@@ -95,7 +95,7 @@ If the operation fails, the function returns a
 
 
 
-<a href="https://msdn.microsoft.com/b6287135-e9b3-43ab-aaf4-1488dad3e9ed">Property List Parsing Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-list-parsing-functions">Property List Parsing Functions</a>
  
 
  

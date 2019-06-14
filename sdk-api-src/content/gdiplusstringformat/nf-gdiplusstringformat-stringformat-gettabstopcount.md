@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>StringFormat::GetTabStopCount</b> method gets the number of tab-stop offsets in this 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object.
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ Type: <strong>Type: <b>INT</b>
 </strong>
 
 This method returns an integer that indicates the number of tab stops in this 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object.
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object.
 
 
 

@@ -59,22 +59,22 @@ The <b>BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS</b> structure contains specific 
 
 ### -field deviceInfo
 
-A <a href="https://msdn.microsoft.com/41b14980-8217-4948-b084-1f44051d12f7">BLUETOOTH_DEVICE_INFO</a> structure that contains information about a Bluetooth device.
+A <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluetoothapis-_bluetooth_device_info">BLUETOOTH_DEVICE_INFO</a> structure that contains information about a Bluetooth device.
 
 
 ### -field authenticationMethod
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd469470(v=VS.85).aspx">BLUETOOTH_AUTHENTICATION_METHOD</a> enumeration that defines the authentication method utilized by the Bluetooth device.
+A <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ne-bluetoothapis-_bluetooth_authentication_method">BLUETOOTH_AUTHENTICATION_METHOD</a> enumeration that defines the authentication method utilized by the Bluetooth device.
 
 
 ### -field ioCapability
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd469471(v=VS.85).aspx">BLUETOOTH_IO_CAPABILITY</a> enumeration that defines the input/output capabilities of the Bluetooth device.
+A <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ne-bluetoothapis-_bluetooth_io_capability">BLUETOOTH_IO_CAPABILITY</a> enumeration that defines the input/output capabilities of the Bluetooth device.
 
 
 ### -field authenticationRequirements
 
-A <a href="https://msdn.microsoft.com/en-us/library/Ee844560(v=VS.85).aspx">BLUETOOTH_AUTHENTICATION_REQUIREMENTS</a> specifies the 'Man in the Middle' protection required for authentication.
+A <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ne-bluetoothapis-_bluetooth_authentication_requirements">BLUETOOTH_AUTHENTICATION_REQUIREMENTS</a> specifies the 'Man in the Middle' protection required for authentication.
 
 
 ### -field Numeric_Value
@@ -92,15 +92,15 @@ A <b>ULONG</b> value used as  the passkey used for authentication.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee844560(v=VS.85).aspx">BLUETOOTH_AUTHENTICATION_REQUIREMENTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ne-bluetoothapis-_bluetooth_authentication_requirements">BLUETOOTH_AUTHENTICATION_REQUIREMENTS</a>
 
 
 
-<a href="https://msdn.microsoft.com/41b14980-8217-4948-b084-1f44051d12f7">BLUETOOTH_DEVICE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluetoothapis-_bluetooth_device_info">BLUETOOTH_DEVICE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd469471(v=VS.85).aspx">BLUETOOTH_IO_CAPABILITY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ne-bluetoothapis-_bluetooth_io_capability">BLUETOOTH_IO_CAPABILITY</a>
  
 
  

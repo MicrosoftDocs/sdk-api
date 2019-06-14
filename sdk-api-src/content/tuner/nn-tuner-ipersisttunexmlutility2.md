@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Defines utility methods for serializing tuning requests (objects that implement the <a href="https://msdn.microsoft.com/34077b45-32b4-466b-b103-6a42fc869265">ITuneRequest</a> interface) to XML tuning request strings.
+Defines utility methods for serializing tuning requests (objects that implement the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> interface) to XML tuning request strings.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPersistTuneXmlUtility2</b> interface inherits from <a href="https://msdn.microsoft.com/aa03015f-094f-499f-99fb-2e15ead74f15">IPersistTuneXmlUtility</a>. <b>IPersistTuneXmlUtility2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPersistTuneXmlUtility2</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ipersisttunexmlutility">IPersistTuneXmlUtility</a>. <b>IPersistTuneXmlUtility2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IPersistTuneXmlUtility2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/463ddd94-5eb1-4553-a31d-0a06326eceec">Serialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ipersisttunexmlutility2-serialize">Serialize</a>
 </td>
 <td align="left" width="63%">
 Constructs and returns an object that serializes a tuning request to an XML node.
@@ -95,11 +95,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/aa03015f-094f-499f-99fb-2e15ead74f15">IPersistTuneXmlUtility</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ipersisttunexmlutility">IPersistTuneXmlUtility</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d956e1d-88b3-4236-9987-f37f674645de">Tuning Model Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
  
 
  

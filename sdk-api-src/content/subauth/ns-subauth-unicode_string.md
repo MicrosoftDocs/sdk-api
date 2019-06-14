@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>UNICODE_STRING</b> structure is used by various <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">Local Security Authority</a> (LSA) functions to specify a <a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">Unicode</a> string.
+The <b>UNICODE_STRING</b> structure is used by various <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) functions to specify a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> string.
 
 
 ## -struct-fields

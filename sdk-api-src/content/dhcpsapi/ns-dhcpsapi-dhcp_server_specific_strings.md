@@ -72,7 +72,7 @@ Pointer to a Unicode string that specifies the default user class name for the D
 
 
 
-<a href="https://msdn.microsoft.com/dc283fa3-6077-4010-8c71-9dc91ed2dadf">DhcpGetServerSpecificStrings</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpgetserverspecificstrings">DhcpGetServerSpecificStrings</a>
  
 
  

@@ -70,7 +70,7 @@ The index of the button that was pressed.
 
 
 This index specifies which property dialog box was requested, starting with one for the first button returned from 
-the <a href="https://msdn.microsoft.com/5c4583f5-81e9-4723-8fd0-6909b0107446">NPGetPropertyText</a> function. If there are multiple file names selected, 10 is added to this number. In other words, if there is more than one file selected and the user presses the first provider-defined property button, <i>iButtonDlg</i> will be 11. If there is only one file selected and the user presses the second network property button, <i>iButtonDlg</i> will be two.
+the <a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npgetpropertytext">NPGetPropertyText</a> function. If there are multiple file names selected, 10 is added to this number. In other words, if there is more than one file selected and the user presses the first provider-defined property button, <i>iButtonDlg</i> will be 11. If there is only one file selected and the user presses the second network property button, <i>iButtonDlg</i> will be two.
 
 
 ### -param nPropSel [in]
@@ -136,7 +136,7 @@ Specifies the item type, which must be WNTYPE_FILE.
 
 
 If the function succeeds, it returns WN_SUCCESS. If the function fails, it returns an error code. Call 
-<a href="https://msdn.microsoft.com/d9da833f-36ca-4046-8d2f-cd4449dd3c63">SetLastError</a> to set this extended error code, which may include the following return codes.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> to set this extended error code, which may include the following return codes.
 					
 
 <table>
@@ -188,7 +188,7 @@ A network error occurred.
 
 
 This function is  called only on sets of properties for which 
-<a href="https://msdn.microsoft.com/5c4583f5-81e9-4723-8fd0-6909b0107446">NPGetPropertyText</a> has assigned a button name.
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npgetpropertytext">NPGetPropertyText</a> has assigned a button name.
 
 This function is used in File Manager to view and modify the network properties (for example, permissions) for files on a network device. If this function is not supported, File Manager does not provide any default behavior.
 
@@ -202,11 +202,11 @@ In this version of the Network Provider interface, <i>lpFileName</i> can point t
 
 
 
-<a href="https://msdn.microsoft.com/5c4583f5-81e9-4723-8fd0-6909b0107446">NPGetPropertyText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npgetpropertytext">NPGetPropertyText</a>
 
 
 
-<a href="https://msdn.microsoft.com/d9da833f-36ca-4046-8d2f-cd4449dd3c63">SetLastError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a>
  
 
  

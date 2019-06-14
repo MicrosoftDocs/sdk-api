@@ -56,11 +56,11 @@ ms.custom: 19H1
 
 Retrieves information about the pages that have been added to the working set of the specified 
     process since the last time this function or the 
-    <a href="https://msdn.microsoft.com/c928656c-a59d-41b5-9434-911329b0278e">InitializeProcessForWsWatch</a> function was 
+    <a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-initializeprocessforwswatch">InitializeProcessForWsWatch</a> function was 
     called.
 
 To retrieve extended information, use the 
-    <a href="https://msdn.microsoft.com/8572db5c-2ffc-424f-8cec-b6a6902fed62">GetWsChangesEx</a> function.
+    <a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-getwschangesex">GetWsChangesEx</a> function.
 
 
 ## -parameters
@@ -72,13 +72,13 @@ To retrieve extended information, use the
 
 A handle to the process. The handle must have the <b>PROCESS_QUERY_INFORMATION</b> 
       access right. For more information, see 
-      <a href="https://msdn.microsoft.com/508a17c4-88cd-431a-a102-00180a7f7ab5">Process Security and Access Rights</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
 
 ### -param lpWatchInfo [out]
 
 A pointer to a user-allocated buffer that receives an array of 
-      <a href="https://msdn.microsoft.com/61083366-2a55-431c-807a-3eb85ba0b347">PSAPI_WS_WATCH_INFORMATION</a> structures. 
+      <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_psapi_ws_watch_information">PSAPI_WS_WATCH_INFORMATION</a> structures. 
       The array is terminated with a structure whose <b>FaultingPc</b> member is NULL.
 
 
@@ -94,10 +94,10 @@ The size of the <i>lpWatchInfo</i> buffer, in bytes.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns 
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
        <b>ERROR_INSUFFICIENT_BUFFER</b> if the <i>lpWatchInfo</i> buffer is not 
        large enough to contain all the working set change records; the buffer is returned empty. Reallocate a larger 
        block of memory for the buffer and call again.
@@ -119,7 +119,7 @@ The operating system does not record new change records while it is processing t
     received while it is processing another query.
 
 If the buffer becomes full, no new records are added to the buffer until this function or the 
-    <a href="https://msdn.microsoft.com/c928656c-a59d-41b5-9434-911329b0278e">InitializeProcessForWsWatch</a> function is 
+    <a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-initializeprocessforwswatch">InitializeProcessForWsWatch</a> function is 
     called. You should call this method with enough frequency to prevent possible data loss. If records are lost, the 
     array is terminated with a structure whose <b>FaultingPc</b> member is NULL and whose 
     <b>FaultingVa</b> member is set to the number of records that were lost.
@@ -152,23 +152,23 @@ Programs that must run on earlier versions of Windows as
 
 
 
-<a href="https://msdn.microsoft.com/0c0445cb-27d2-4857-a4a5-7a4c180b068b">EnumProcesses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-enumprocesses">EnumProcesses</a>
 
 
 
-<a href="https://msdn.microsoft.com/c928656c-a59d-41b5-9434-911329b0278e">InitializeProcessForWsWatch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-initializeprocessforwswatch">InitializeProcessForWsWatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/e158792b-fec2-498d-aae3-d5679fa55783">PSAPI Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/61083366-2a55-431c-807a-3eb85ba0b347">PSAPI_WS_WATCH_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_psapi_ws_watch_information">PSAPI_WS_WATCH_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/33c42f79-cc77-4d44-84c3-8bf0a4a60019">Working Set Information</a>
+<a href="https://docs.microsoft.com/windows/desktop/psapi/working-set-information">Working Set Information</a>
  
 
  

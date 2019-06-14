@@ -58,17 +58,17 @@ ms.custom: 19H1
 
 ### -param pic [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/ca98c7bb-7348-405d-976a-18012b0886c6">ITfContext</a> interface for the context that changed.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> interface for the context that changed.
 
 
 ### -param lcode [in]
 
-Specifies the <a href="https://msdn.microsoft.com/b9ff6d11-68f2-47c5-b8d7-b3bc2533fdbb">TfLayoutCode</a> element that describes the layout change.
+Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ne-msctf-__midl_itftextlayoutsink_0001">TfLayoutCode</a> element that describes the layout change.
 
 
 ### -param pView [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/302d185d-dab7-4a77-a5cf-da2529d8b24a">ITfContextView</a> interface for the context view in that the layout change occurred.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextview">ITfContextView</a> interface for the context view in that the layout change occurred.
 
 
 ## -returns
@@ -84,7 +84,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Each context has a default view for which a reference can be obtained using the <a href="https://msdn.microsoft.com/41f7eb74-bca2-4d53-8a70-0b872616fd1b">ITfContext::GetActiveView</a> method. The method returns only the value TF_LC_CHANGE for the <i>lcode</i> parameter for this view, because the values are possible only for multiple views. Because TSF does not support multiple views, this method never receives other values of the <b>TfLayoutCode</b> enumeration.
+Each context has a default view for which a reference can be obtained using the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getactiveview">ITfContext::GetActiveView</a> method. The method returns only the value TF_LC_CHANGE for the <i>lcode</i> parameter for this view, because the values are possible only for multiple views. Because TSF does not support multiple views, this method never receives other values of the <b>TfLayoutCode</b> enumeration.
 
 
 
@@ -94,27 +94,27 @@ Each context has a default view for which a reference can be obtained using the 
 
 
 
-<a href="https://msdn.microsoft.com/ca98c7bb-7348-405d-976a-18012b0886c6">ITfContext
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/41f7eb74-bca2-4d53-8a70-0b872616fd1b">ITfContext::GetActiveView
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getactiveview">ITfContext::GetActiveView
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/302d185d-dab7-4a77-a5cf-da2529d8b24a">ITfContextView
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextview">ITfContextView
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/370e30a8-6eed-448a-87c7-7fd01e9973c6">ITfTextLayoutSink
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itftextlayoutsink">ITfTextLayoutSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/b9ff6d11-68f2-47c5-b8d7-b3bc2533fdbb">TfLayoutCode
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ne-msctf-__midl_itftextlayoutsink_0001">TfLayoutCode
       </a>
  
 

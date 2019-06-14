@@ -116,7 +116,7 @@ Get the next available sample, regardless of which stream.
 
 ### -param dwControlFlags [in]
 
-A bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/a6367fea-ceba-4ce4-9a1b-88a40afc3055">MF_SOURCE_READER_CONTROL_FLAG</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/ne-mfreadwrite-mf_source_reader_control_flag">MF_SOURCE_READER_CONTROL_FLAG</a> enumeration.
 
 
 ### -param pdwActualStreamIndex [out]
@@ -126,7 +126,7 @@ Receives the zero-based index of the stream.
 
 ### -param pdwStreamFlags [out]
 
-Receives a bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/8981a682-3c0b-458b-910a-d1462ed73e64">MF_SOURCE_READER_FLAG</a> enumeration.
+Receives a bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/ne-mfreadwrite-mf_source_reader_flag">MF_SOURCE_READER_FLAG</a> enumeration.
 
 
 ### -param pllTimestamp [out]
@@ -136,7 +136,7 @@ Receives the time stamp of the sample, or the time of the stream event indicated
 
 ### -param ppSample [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/b1c3758c-5133-41ee-b991-ae99d0296ccc">IMFSample</a> interface or the value <b>NULL</b> (see Remarks). If this parameter receives a non-<b>NULL</b> pointer, the caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> interface or the value <b>NULL</b> (see Remarks). If this parameter receives a non-<b>NULL</b> pointer, the caller must release the interface.
 
 
 ## -returns
@@ -190,7 +190,7 @@ The <i>dwStreamIndex</i> parameter is invalid.
 </dl>
 </td>
 <td width="60%">
-A flush operation is pending. See <a href="https://msdn.microsoft.com/34992c64-9956-4b23-a979-df7f678405b5">IMFSourceReader::Flush</a>.
+A flush operation is pending. See <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-flush">IMFSourceReader::Flush</a>.
 
 </td>
 </tr>
@@ -215,9 +215,9 @@ Invalid argument. See Remarks.
 
 
 
-If the requested stream is not selected, the return code is <b>MF_E_INVALIDREQUEST</b>. See <a href="https://msdn.microsoft.com/5efadce6-347c-48cf-b42c-d461922b2523">IMFSourceReader::SetStreamSelection</a>.
+If the requested stream is not selected, the return code is <b>MF_E_INVALIDREQUEST</b>. See <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-setstreamselection">IMFSourceReader::SetStreamSelection</a>.
 
- This method can complete synchronously or asynchronously. If you provide a callback pointer when you create the source reader, the method is asynchronous. Otherwise, the method is synchronous. For more information about setting the callback pointer, see <a href="https://msdn.microsoft.com/de226a5a-03c0-4bfe-bb20-8969ce43cf53">MF_SOURCE_READER_ASYNC_CALLBACK</a>.
+ This method can complete synchronously or asynchronously. If you provide a callback pointer when you create the source reader, the method is asynchronous. Otherwise, the method is synchronous. For more information about setting the callback pointer, see <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-source-reader-async-callback">MF_SOURCE_READER_ASYNC_CALLBACK</a>.
 
 <h3><a id="Asynchronous_Mode"></a><a id="asynchronous_mode"></a><a id="ASYNCHRONOUS_MODE"></a>Asynchronous Mode</h3>
 In asynchronous mode:
@@ -225,8 +225,8 @@ In asynchronous mode:
 <ul>
 <li>All of the <code>[out]</code> parameters must be <b>NULL</b>. Otherwise, the method returns <b>E_INVALIDARG</b>.</li>
 <li>The method returns immediately.</li>
-<li>When the operation completes, the application's <a href="https://msdn.microsoft.com/1f334b49-d297-478d-a037-2fc53a75ed52">IMFSourceReaderCallback::OnReadSample</a> method is called.</li>
-<li>If an error occurs, the method can fail either synchronously or asynchronously. Check the return value of <b>ReadSample</b>, and also check the <i>hrStatus</i> parameter of <a href="https://msdn.microsoft.com/1f334b49-d297-478d-a037-2fc53a75ed52">IMFSourceReaderCallback::OnReadSample</a>.</li>
+<li>When the operation completes, the application's <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereadercallback-onreadsample">IMFSourceReaderCallback::OnReadSample</a> method is called.</li>
+<li>If an error occurs, the method can fail either synchronously or asynchronously. Check the return value of <b>ReadSample</b>, and also check the <i>hrStatus</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereadercallback-onreadsample">IMFSourceReaderCallback::OnReadSample</a>.</li>
 </ul>
 <h3><a id="Synchronous_Mode"></a><a id="synchronous_mode"></a><a id="SYNCHRONOUS_MODE"></a>Synchronous Mode</h3>
 In synchronous mode:
@@ -252,11 +252,11 @@ This interface is available on Windows Vista if Platform Update Supplement for 
 
 
 
-<a href="https://msdn.microsoft.com/7d3cc314-6b9e-437c-afda-ee1965a12721">IMFSourceReader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a17a754-53ef-4c05-9189-7978d864b17a">Source Reader</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/source-reader">Source Reader</a>
  
 
  

@@ -70,7 +70,7 @@ The ID of the request to be canceled.
 ### -param Overlapped [in, optional]
 
 For asynchronous calls, set <i>pOverlapped</i> to point to an 
-<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure; for synchronous calls, set it to <b>NULL</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure; for synchronous calls, set it to <b>NULL</b>.
 
 
 ## -returns
@@ -87,11 +87,11 @@ If the function succeeds, it returns <b>NO_ERROR</b>.
 
 
 
-<a href="https://msdn.microsoft.com/12daffca-b403-4f06-8037-206f90e33252">HTTP Server API Version 2.0 Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/fb170d73-c26d-4bec-abed-b614b7dad322">Processing Requests</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/processing-requests">Processing Requests</a>
  
 
  

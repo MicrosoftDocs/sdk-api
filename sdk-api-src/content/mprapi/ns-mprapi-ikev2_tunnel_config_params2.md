@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Gets or sets tunnel parameters for Internet Key Exchange version 2 (IKEv2) devices.
 
-Do not use the <b>IKEV2_TUNNEL_CONFIG_PARAMS2</b> structure directly in your code; using <a href="https://msdn.microsoft.com/6CF919BD-E1E9-423F-8186-C992A5E6AB89">IKEV2_TUNNEL_CONFIG_PARAMS</a> instead ensures that the proper version, based on the operating system the code in compiled under, is used.
+Do not use the <b>IKEV2_TUNNEL_CONFIG_PARAMS2</b> structure directly in your code; using <a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-data-types">IKEV2_TUNNEL_CONFIG_PARAMS</a> instead ensures that the proper version, based on the operating system the code in compiled under, is used.
 
 
 ## -struct-fields

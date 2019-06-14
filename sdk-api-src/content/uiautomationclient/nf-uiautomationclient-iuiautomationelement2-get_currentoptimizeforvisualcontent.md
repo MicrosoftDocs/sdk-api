@@ -62,7 +62,7 @@ This property is read-only.
 
 
 
-A value of TRUE indicates that the provider optimizes for visual content, while FALSE indicates that the provider optimizes for virtual content. For more information, see <a href="https://msdn.microsoft.com/e1898ba0-5ffa-4c61-b378-c7ef7c4a2c52">Working with Virtualized Items</a>.
+A value of TRUE indicates that the provider optimizes for visual content, while FALSE indicates that the provider optimizes for virtual content. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-workingwithvirtualizeditems">Working with Virtualized Items</a>.
 
 
 
@@ -72,11 +72,11 @@ A value of TRUE indicates that the provider optimizes for visual content, while 
 
 
 
-<a href="https://msdn.microsoft.com/FB1484D0-BF83-431B-A90B-B5F1757C4928">CachedOptimizeForVisualContent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement2-get_cachedoptimizeforvisualcontent">CachedOptimizeForVisualContent</a>
 
 
 
-<a href="https://msdn.microsoft.com/4D9A4E94-BAE9-4E85-8F21-7CABFBE64C6D">IUIAutomationElement2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement2">IUIAutomationElement2</a>
 
 
 

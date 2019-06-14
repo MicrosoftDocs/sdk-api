@@ -50,9 +50,9 @@ ms.custom: 19H1
 
 
 Deallocates the memory and resources allocated by a call to the 
-<a href="https://msdn.microsoft.com/749a2a99-f6c4-4af3-aa0b-8a7bb5c690da">MapDebugInformation</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-mapdebuginformation">MapDebugInformation</a> function.
 <div class="alert"><b>Note</b>  This function is provided only for backward compatibility. New applications should use the 
-<a href="https://msdn.microsoft.com/f4801039-eba2-4ec3-8c23-706ab89bb442">SymUnloadModule64</a> function.</div><div> </div>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symunloadmodule">SymUnloadModule64</a> function.</div><div> </div>
 
 ## -parameters
 
@@ -62,8 +62,8 @@ Deallocates the memory and resources allocated by a call to the
 ### -param DebugInfo [in]
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/f8db7695-4967-45c0-a6bf-019e825bd9ab">IMAGE_DEBUG_INFORMATION</a> structure that is returned from a call to 
-<a href="https://msdn.microsoft.com/749a2a99-f6c4-4af3-aa0b-8a7bb5c690da">MapDebugInformation</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_image_debug_information">IMAGE_DEBUG_INFORMATION</a> structure that is returned from a call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-mapdebuginformation">MapDebugInformation</a>.
 
 
 ## -returns
@@ -73,7 +73,7 @@ A pointer to an
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -84,8 +84,8 @@ If the function fails, the return value is <b>FALSE</b>. To retrieve extended er
 
 The 
 <b>UnmapDebugInformation</b> function is the counterpart to the 
-<a href="https://msdn.microsoft.com/749a2a99-f6c4-4af3-aa0b-8a7bb5c690da">MapDebugInformation</a> function and must be used to deallocate the memory and resources allocated by a call to the 
-<a href="https://msdn.microsoft.com/749a2a99-f6c4-4af3-aa0b-8a7bb5c690da">MapDebugInformation</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-mapdebuginformation">MapDebugInformation</a> function and must be used to deallocate the memory and resources allocated by a call to the 
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-mapdebuginformation">MapDebugInformation</a> function.
 			
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
@@ -98,15 +98,15 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 
 
-<a href="https://msdn.microsoft.com/7b28f70b-2d97-4cc2-8064-dfb806f9cffa">DbgHelp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/f8db7695-4967-45c0-a6bf-019e825bd9ab">IMAGE_DEBUG_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_image_debug_information">IMAGE_DEBUG_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/749a2a99-f6c4-4af3-aa0b-8a7bb5c690da">MapDebugInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-mapdebuginformation">MapDebugInformation</a>
  
 
  

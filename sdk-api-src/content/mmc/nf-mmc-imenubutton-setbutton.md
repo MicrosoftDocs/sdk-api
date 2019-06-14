@@ -86,7 +86,7 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/51bbd98a-7017-497a-858a-dd63cefc679a">IMenuButton</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-imenubutton">IMenuButton</a>
  
 
  

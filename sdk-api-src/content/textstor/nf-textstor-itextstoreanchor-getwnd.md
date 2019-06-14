@@ -59,7 +59,7 @@ The <b>ITextStoreAnchor::GetWnd</b> method returns the handle to a window that c
 
 ### -param vcView [in]
 
-Specifies the <a href="https://msdn.microsoft.com/e649b799-d0d6-4f2d-b9f1-28070eea9b16">TsViewCookie</a> data type that corresponds to the current document.
+Specifies the <a href="https://docs.microsoft.com/windows/desktop/TSF/tsviewcookie">TsViewCookie</a> data type that corresponds to the current document.
 
 
 ### -param phwnd [out]
@@ -120,11 +120,11 @@ A document might not have a corresponding window handle if the document is in me
 
 
 
-<a href="https://msdn.microsoft.com/62730a6d-4dc8-4207-9818-ab95e6537854">ITextStoreAnchor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
 
 
 
-<a href="https://msdn.microsoft.com/e649b799-d0d6-4f2d-b9f1-28070eea9b16">TsViewCookie
+<a href="https://docs.microsoft.com/windows/desktop/TSF/tsviewcookie">TsViewCookie
       </a>
  
 

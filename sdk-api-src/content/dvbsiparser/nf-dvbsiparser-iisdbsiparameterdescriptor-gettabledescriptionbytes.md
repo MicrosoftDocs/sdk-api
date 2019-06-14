@@ -59,7 +59,7 @@ Gets description data from a table descriptor in a service information (SI) para
 
 ### -param bRecordIndex [in]
 
-Zero-based index of the SI table descriptor. To get the number of table descriptors, call the <a href="https://msdn.microsoft.com/12f7af61-494e-4597-8672-47ea9552be62">IIsdbSIParameterDescriptor::GetRecordNumberOfTable</a> method.
+Zero-based index of the SI table descriptor. To get the number of table descriptors, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbsiparameterdescriptor-getrecordnumberoftable">IIsdbSIParameterDescriptor::GetRecordNumberOfTable</a> method.
 
 
 ### -param pbBufferLength [in, out]
@@ -86,11 +86,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/264ae78d-cd72-49ff-b99b-2af637cc2917">IIsdbSIParameterDescriptor</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbsiparameterdescriptor">IIsdbSIParameterDescriptor</a>
 
 
 
-<a href="https://msdn.microsoft.com/12f7af61-494e-4597-8672-47ea9552be62">IIsdbSIParameterDescriptor::GetRecordNumberOfTable</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbsiparameterdescriptor-getrecordnumberoftable">IIsdbSIParameterDescriptor::GetRecordNumberOfTable</a>
  
 
  

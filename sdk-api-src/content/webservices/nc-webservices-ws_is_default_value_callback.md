@@ -50,9 +50,9 @@ ms.custom: 19H1
 
 
 Determines if a value is the default value. This callback is used  before a value that is handled
-                by a <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_CUSTOM_TYPE</a> is serialized.  Support
+                by a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_CUSTOM_TYPE</a> is serialized.  Support
                 for default values is enabled by specifying 
-                when <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONAL</a> in the <a href="https://msdn.microsoft.com/8b562fab-f3c5-4732-b993-f7f61ca14ab6">WS_FIELD_DESCRIPTION</a>.
+                when <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_10">WS_FIELD_OPTIONAL</a> in the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_field_description">WS_FIELD_DESCRIPTION</a>.
             
 
 
@@ -63,7 +63,7 @@ Determines if a value is the default value. This callback is used  before a valu
 
 ### -param *descriptionData [in]
 
-This is the value of the descriptionData field from <a href="https://msdn.microsoft.com/7ae3d16c-0755-4226-844e-52cf96fa84fb">WS_CUSTOM_TYPE_DESCRIPTION</a>.
+This is the value of the descriptionData field from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_custom_type_description">WS_CUSTOM_TYPE_DESCRIPTION</a>.
                     The callback can use this to access any additional information about the type.
                 
 

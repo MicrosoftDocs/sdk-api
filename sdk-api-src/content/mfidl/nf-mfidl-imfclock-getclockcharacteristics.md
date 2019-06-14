@@ -63,7 +63,7 @@ Retrieves the characteristics of the clock.
 
 ### -param pdwCharacteristics [out]
 
-Receives a bitwise OR of values from the <a href="https://msdn.microsoft.com/8064ce25-6c79-479b-a1a8-bdcc2c29ad54">MFCLOCK_CHARACTERISTICS_FLAGS</a> enumeration indicating the characteristics of the clock.
+Receives a bitwise OR of values from the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-_mfclock_characteristics_flags">MFCLOCK_CHARACTERISTICS_FLAGS</a> enumeration indicating the characteristics of the clock.
 
 
 ## -returns
@@ -99,7 +99,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/3a60bfec-8511-4a84-a833-e0c73c593970">IMFClock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfclock">IMFClock</a>
  
 
  

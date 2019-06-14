@@ -59,7 +59,7 @@ Configures how transactions are used in the enclosed work.
 
 ### -param transactionConfig [in]
 
-A value from the <a href="https://msdn.microsoft.com/3524d7b3-4bcd-4e92-afc2-ddac98a23b7c">CSC_TransactionConfig</a> enumeration.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_transactionconfig">CSC_TransactionConfig</a> enumeration.
 
 
 ## -returns
@@ -76,7 +76,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/e4740bf4-51b1-474f-9637-7c5d78f0def5">IServiceTransactionConfigBase</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicetransactionconfigbase">IServiceTransactionConfigBase</a>
  
 
  

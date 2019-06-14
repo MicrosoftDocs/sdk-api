@@ -42,7 +42,7 @@ api_name:
 
 ## -description
 
-Returns the object implementing the current instance of **XMVECTORF32** cast to a <a href="http://msdn.microsoft.com/en-us/library/25537780.aspx">__m128d</a> instance.
+Returns the object implementing the current instance of **XMVECTORF32** cast to a <a href="https://docs.microsoft.com/cpp/cpp/m128d">__m128d</a> instance.
 [Windows systems supporting SSE Only]
 
 <div class="alert"><b>Note</b>  This operator is only available for C++ based development.</div>
@@ -53,4 +53,4 @@ Returns the underlying implementation object for an instance of **XMVECTORF32** 
 
 ## -see-also
 
-<a href="http://msdn.microsoft.com/en-us/library/25537780.aspx">__m128d</a>
+<a href="https://docs.microsoft.com/cpp/cpp/m128d">__m128d</a>

@@ -60,7 +60,7 @@ The <b>WlanCloseHandle</b> function closes a connection to the server.
 
 ### -param hClientHandle [in]
 
-The client's session handle, which identifies the connection to be closed. This handle was  obtained by a previous call to the <a href="https://msdn.microsoft.com/27bfa0c1-4443-47a4-a374-326f553fa3bb">WlanOpenHandle</a> function.
+The client's session handle, which identifies the connection to be closed. This handle was  obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
 
 
 ### -param pReserved
@@ -136,7 +136,7 @@ After a connection has been closed, any attempted use of the closed handle can c
 
 
 
-<a href="https://msdn.microsoft.com/27bfa0c1-4443-47a4-a374-326f553fa3bb">WlanOpenHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the name of the record type. This is useful if you want to print out the type of the record, because each UDT has it's own <a href="https://msdn.microsoft.com/065ebfa8-bfac-4c75-a3f9-9dc0409ea454">IRecordInfo</a>.
+Gets the name of the record type. This is useful if you want to print out the type of the record, because each UDT has it's own <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>.
 
 
 ## -parameters
@@ -130,7 +130,7 @@ The state of the type library is not valid for this operation.
 
 
 
-The caller must free the BSTR by calling <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+The caller must free the BSTR by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
 
 
 
@@ -140,7 +140,7 @@ The caller must free the BSTR by calling <a href="https://msdn.microsoft.com/en-
 
 
 
-<a href="https://msdn.microsoft.com/065ebfa8-bfac-4c75-a3f9-9dc0409ea454">IRecordInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>
  
 
  

@@ -66,7 +66,7 @@ The number of elements to be read from the list of enumerated objects into the <
 
 ### -param rgelt [out]
 
-The address of a caller-allocated buffer that receives <i>celt</i><a href="https://msdn.microsoft.com/90664042-e9a0-4959-a975-9289477d2394">VSS_OBJECT_PROP</a> structures that contain the returned objects. This parameter is required and cannot be NULL.
+The address of a caller-allocated buffer that receives <i>celt</i><a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_object_prop">VSS_OBJECT_PROP</a> structures that contain the returned objects. This parameter is required and cannot be NULL.
 
 
 ### -param pceltFetched [out]
@@ -140,24 +140,24 @@ One of the required pointer parameters is NULL.
 
 
 When requesting the return of more than one 
-<a href="https://msdn.microsoft.com/90664042-e9a0-4959-a975-9289477d2394">VSS_OBJECT_PROP</a> object, a return value of S_FALSE indicates that the end of the enumeration list has been reached. If more objects were requested than remained in the list, 
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_object_prop">VSS_OBJECT_PROP</a> object, a return value of S_FALSE indicates that the end of the enumeration list has been reached. If more objects were requested than remained in the list, 
 <b>Next</b> will return all the remaining objects, set the <i>pceltFetched</i> parameter to a nonzero value, and return S_FALSE.
 
 The output <i>rgelt</i> parameter must point to an allocated array containing <i>celt</i>
-<a href="https://msdn.microsoft.com/90664042-e9a0-4959-a975-9289477d2394">VSS_OBJECT_PROP</a> structures, and cannot be NULL.
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_object_prop">VSS_OBJECT_PROP</a> structures, and cannot be NULL.
 
 It is the caller's responsibility to free system resources returned by <b>IVssEnumObject::Next</b> to the 
-<a href="https://msdn.microsoft.com/90664042-e9a0-4959-a975-9289477d2394">VSS_OBJECT_PROP</a> structure pointed to by the <i>rgelt</i> parameter.
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_object_prop">VSS_OBJECT_PROP</a> structure pointed to by the <i>rgelt</i> parameter.
 
 The callers must use 
-<a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> for every string value in the 
-<a href="https://msdn.microsoft.com/070ec204-e751-4ebf-8f99-3c415f203cb2">VSS_SNAPSHOT_PROP</a> or 
-<a href="https://msdn.microsoft.com/000da95d-a3f5-447e-a96d-c8fb34e9d0d3">VSS_PROVIDER_PROP</a> object in the returned 
-<a href="https://msdn.microsoft.com/90664042-e9a0-4959-a975-9289477d2394">VSS_OBJECT_PROP</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> for every string value in the 
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_provider_prop">VSS_PROVIDER_PROP</a> object in the returned 
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_object_prop">VSS_OBJECT_PROP</a> structure.
 
 In the case of 
-<a href="https://msdn.microsoft.com/070ec204-e751-4ebf-8f99-3c415f203cb2">VSS_SNAPSHOT_PROP</a>, this can be done manually, or the utility function 
-<a href="https://msdn.microsoft.com/d5b5883b-03d5-4a83-af2e-f4d22e26ee82">VssFreeSnapshotProperties</a> can be used.
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a>, this can be done manually, or the utility function 
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-vssfreesnapshotproperties">VssFreeSnapshotProperties</a> can be used.
 
 
 
@@ -167,15 +167,15 @@ In the case of
 
 
 
-<a href="https://msdn.microsoft.com/3f79bf84-c7b9-4291-ae3b-7061fe3199e9">IVssBackupComponents::Query</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-query">IVssBackupComponents::Query</a>
 
 
 
-<a href="https://msdn.microsoft.com/b8e80909-a28a-45d7-87e2-4f44bf6990f4">IVssEnumObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssenumobject">IVssEnumObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/90664042-e9a0-4959-a975-9289477d2394">VSS_OBJECT_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_object_prop">VSS_OBJECT_PROP</a>
  
 
  

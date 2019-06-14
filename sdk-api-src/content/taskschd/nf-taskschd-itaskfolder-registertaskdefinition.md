@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Registers (creates) a task in a specified location using the <a href="https://msdn.microsoft.com/3787ed9b-9fd0-473b-9034-ade97dc330d9">ITaskDefinition</a> interface to define a task.
+Registers (creates) a task in a specified location using the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskdefinition">ITaskDefinition</a> interface to define a task.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ The definition of the registered task.
 
 ### -param flags [in]
 
-A <a href="https://msdn.microsoft.com/e8da4d76-25c8-4209-a75b-c77217c366d4">TASK_CREATION</a> constant.
+A <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/ne-taskschd-_task_creation">TASK_CREATION</a> constant.
 
 <table>
 <tr>
@@ -163,7 +163,7 @@ The Task Scheduler creates the task, but ignores the registration triggers in th
 
 The user credentials used to register the task. If present, these credentials take priority over the credentials specified in the task definition object pointed to by the <i>pDefinition</i> parameter.
 
-<div class="alert"><b>Note</b>  If the task is defined as a Task Scheduler 1.0 task, then do not use a group name (rather than a specific user name) in this userId parameter. A task is defined as a Task Scheduler 1.0 task when the <a href="https://msdn.microsoft.com/04f77d3c-44fa-4091-b99e-af062f067ef9">Compatibility</a> property is set to TASK_COMPATIBILITY_V1 in the task's settings.</div>
+<div class="alert"><b>Note</b>  If the task is defined as a Task Scheduler 1.0 task, then do not use a group name (rather than a specific user name) in this userId parameter. A task is defined as a Task Scheduler 1.0 task when the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_compatibility">Compatibility</a> property is set to TASK_COMPATIBILITY_V1 in the task's settings.</div>
 <div> </div>
 
 ### -param password [in]
@@ -270,9 +270,9 @@ The security descriptor that is associated with the registered task. You can spe
 
 ### -param ppTask [out]
 
-An <a href="https://msdn.microsoft.com/3743d012-ad7c-402f-8859-939bb01ee447">IRegisteredTask</a> interface that represents the new task.
+An <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iregisteredtask">IRegisteredTask</a> interface that represents the new task.
 
-Pass in a reference to a <b>NULL</b> <a href="https://msdn.microsoft.com/3743d012-ad7c-402f-8859-939bb01ee447">IRegisteredTask</a> interface pointer. Referencing a non-<b>NULL</b> pointer can cause a memory leak because the pointer will be overwritten.
+Pass in a reference to a <b>NULL</b> <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iregisteredtask">IRegisteredTask</a> interface pointer. Referencing a non-<b>NULL</b> pointer can cause a memory leak because the pointer will be overwritten.
 
 
 ## -returns
@@ -356,18 +356,18 @@ The task is registered, but not all specified triggers will start the task.
 
 
 
-For a task, that contains a message box action, the message box will be displayed if the task is activated and the task has an interactive logon type.  To set the task logon type to be interactive, specify <b>TASK_LOGON_INTERACTIVE_TOKEN</b> or  <b>TASK_LOGON_GROUP</b> in the <a href="https://msdn.microsoft.com/cf0a8ad4-f1bb-46a2-ae92-d00e08b8d459">LogonType</a> property of the task principal, or in the <i>logonType</i> parameter of <a href="https://msdn.microsoft.com/743e5bd9-3fb6-4e09-96ed-ca2d74fa0bab">ITaskFolder::RegisterTask</a> or <b>ITaskFolder::RegisterTaskDefinition</b>. 
+For a task, that contains a message box action, the message box will be displayed if the task is activated and the task has an interactive logon type.  To set the task logon type to be interactive, specify <b>TASK_LOGON_INTERACTIVE_TOKEN</b> or  <b>TASK_LOGON_GROUP</b> in the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_logontype">LogonType</a> property of the task principal, or in the <i>logonType</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertask">ITaskFolder::RegisterTask</a> or <b>ITaskFolder::RegisterTaskDefinition</b>. 
 
 Only a member of the Administrators group can create a task with a boot trigger.
 
-You can successfully register a task with a group specified in the <i>userId</i> parameter and <b>TASK_LOGON_INTERACTIVE_TOKEN</b> specified in the <i>logonType</i> parameter of <a href="https://msdn.microsoft.com/743e5bd9-3fb6-4e09-96ed-ca2d74fa0bab">ITaskFolder::RegisterTask</a> or <b>ITaskFolder::RegisterTaskDefinition</b>, but the task will not run.
+You can successfully register a task with a group specified in the <i>userId</i> parameter and <b>TASK_LOGON_INTERACTIVE_TOKEN</b> specified in the <i>logonType</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertask">ITaskFolder::RegisterTask</a> or <b>ITaskFolder::RegisterTaskDefinition</b>, but the task will not run.
 
 Passing the TASK_VALIDATE_ONLY and TASK_IGNORE_REGISTRATION_TRIGGERS values together to the <i>flags</i> parameter is an invalid argument.
 
 The <b>ITaskFolder::RegisterTaskDefinition</b> method returns error  80070534 when called by the System account with the <i>user</i> parameter equal to <b>NULL</b>, the <i>password</i> parameter equal to <b>NULL</b>, and the <i>logonType</i> parameter equal to TASK_LOGON_SERVICE_ACCOUNT.
 
 
-If a task defines a network that does not exist in the <a href="https://msdn.microsoft.com/9ee4f2c0-90bf-4a28-9aeb-0c04f3a197aa">NetworkSettings</a> settings of the task, the <b>ITaskFolder::RegisterTaskDefinition</b>  method will return error 0x8000ffff when the task is registered.
+If a task defines a network that does not exist in the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_networksettings">NetworkSettings</a> settings of the task, the <b>ITaskFolder::RegisterTaskDefinition</b>  method will return error 0x8000ffff when the task is registered.
 
 
 
@@ -377,15 +377,15 @@ If a task defines a network that does not exist in the <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/3743d012-ad7c-402f-8859-939bb01ee447">IRegisteredTask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iregisteredtask">IRegisteredTask</a>
 
 
 
-<a href="https://msdn.microsoft.com/da0cc808-b284-4d10-be61-d96c5e07d0a8">ITaskFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskfolder">ITaskFolder</a>
 
 
 
-<a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
  
 
  

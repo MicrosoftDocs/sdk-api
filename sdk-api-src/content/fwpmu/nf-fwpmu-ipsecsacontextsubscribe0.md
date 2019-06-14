@@ -61,19 +61,19 @@ The <b>IPsecSaContextSubscribe0</b> function is used to request the delivery of 
 
 Type: <b>HANDLE</b>
 
-Handle for an open session to the filter engine. Call <a href="https://msdn.microsoft.com/5165f219-f3e0-4e84-915b-75912aab02b7">FwpmEngineOpen0</a> to open a session to the filter engine.
+Handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
 
 ### -param subscription [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Hh447460(v=VS.85).aspx">IPSEC_SA_CONTEXT_SUBSCRIPTION0</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_subscription0_">IPSEC_SA_CONTEXT_SUBSCRIPTION0</a>*</b>
 
 The notifications which will be delivered.
 
 
 ### -param callback [in]
 
-Type: <b><a href="https://msdn.microsoft.com/a4515d39-8566-4418-a6be-687f4f7d9969">IPSEC_SA_CONTEXT_CALLBACK0</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-ipsec_sa_context_callback0">IPSEC_SA_CONTEXT_CALLBACK0</a></b>
 
 Function pointer that will be invoked when a notification is ready for delivery.
 
@@ -123,7 +123,7 @@ The subscription was created successfully.
 </dl>
 </td>
 <td width="60%">
-A Windows Filtering Platform (WFP) specific error. See <a href="https://msdn.microsoft.com/11f3085a-f044-4a78-b47a-59b9086562bf">WFP Error Codes</a> for details.
+A Windows Filtering Platform (WFP) specific error. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
 
 </td>
 </tr>
@@ -150,9 +150,9 @@ Failure to communicate with the remote or local firewall engine.
 
 
 This function cannot be called from within a transaction. It will fail
-with <b>FWP_E_TXN_IN_PROGRESS</b>. See <a href="https://msdn.microsoft.com/2625ef9a-0e62-4e21-ba93-047965d0d782">Object Management</a> for more information about transactions.
+with <b>FWP_E_TXN_IN_PROGRESS</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/object-management">Object Management</a> for more information about transactions.
 
-The caller needs <a href="https://msdn.microsoft.com/77f0a1ac-3e99-4cba-a7c6-b8747f35cd0c">FWPM_ACTRL_SUBSCRIBE</a> access to the IPsec SA context's container.
+The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-right-identifiers">FWPM_ACTRL_SUBSCRIBE</a> access to the IPsec SA context's container.
 
 
 
@@ -162,11 +162,11 @@ The caller needs <a href="https://msdn.microsoft.com/77f0a1ac-3e99-4cba-a7c6-b87
 
 
 
-<a href="https://msdn.microsoft.com/a4515d39-8566-4418-a6be-687f4f7d9969">IPSEC_SA_CONTEXT_CALLBACK0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-ipsec_sa_context_callback0">IPSEC_SA_CONTEXT_CALLBACK0</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447460(v=VS.85).aspx">IPSEC_SA_CONTEXT_SUBSCRIPTION0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_subscription0_">IPSEC_SA_CONTEXT_SUBSCRIPTION0</a>
  
 
  

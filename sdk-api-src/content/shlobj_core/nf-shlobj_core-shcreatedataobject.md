@@ -63,7 +63,7 @@ Creates a data object in a parent folder.
 
 Type: <b>PCIDLIST_ABSOLUTE</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> (PIDL) of the parent folder that contains the data object.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> (PIDL) of the parent folder that contains the data object.
 
 
 ### -param cidl [in]
@@ -77,14 +77,14 @@ The number of file objects or subfolders specified in the <i>apidl</i> parameter
 
 Type: <b>PCUITEMID_CHILD_ARRAY</b>
 
-An array of pointers to constant <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structures, each of which uniquely identifies a file object or subfolder relative to the parent folder. Each item identifier list must contain exactly one <a href="https://msdn.microsoft.com/794c8425-2319-4339-881c-c5083ab05638">SHITEMID</a> structure followed by a terminating zero.
+An array of pointers to constant <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structures, each of which uniquely identifies a file object or subfolder relative to the parent folder. Each item identifier list must contain exactly one <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a> structure followed by a terminating zero.
 
 
 ### -param pdtInner [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>*</b>
 
-A pointer to interface <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a>. This parameter can be <b>NULL</b>. Specify <i>pdtInner</i> only if the data object created needs to support additional <a href="https://msdn.microsoft.com/4478eb9a-84a1-4f3a-8290-94b8dd20c081">FORMATETC</a>  clipboard formats beyond the default formats it is assigned at creation.  Alternatively, provide support for populating the created data object using non-default clipboard formats by calling method <a href="https://msdn.microsoft.com/7430d12c-ab07-4a9c-a845-4743818afbc7">IDataObject::SetData</a> and specifying the format in the <b>FORMATETC</b> structure passed in parameter <i>pFormatetc</i>.
+A pointer to interface <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>. This parameter can be <b>NULL</b>. Specify <i>pdtInner</i> only if the data object created needs to support additional <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a>  clipboard formats beyond the default formats it is assigned at creation.  Alternatively, provide support for populating the created data object using non-default clipboard formats by calling method <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-setdata">IDataObject::SetData</a> and specifying the format in the <b>FORMATETC</b> structure passed in parameter <i>pFormatetc</i>.
 
 
 ### -param riid [in]
@@ -98,7 +98,7 @@ A reference to the IID of the interface to retrieve through <i>ppv</i>. This mus
 
 Type: <b>void**</b>
 
-When this method returns successfully, contains the <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> interface pointer requested in <i>riid</i>.
+When this method returns successfully, contains the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface pointer requested in <i>riid</i>.
 
 
 ## -returns
@@ -116,13 +116,13 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-This function is typically called when implementing method <a href="https://msdn.microsoft.com/ec863dbf-8ec9-4952-8912-575125e6dd09">IShellFolder::GetUIObjectOf</a>. When an interface pointer of interface ID  IID_IDataObject is requested (using parameter <i>riid</i>), the implementer can return the interface pointer on the object created with <b>SHCreateDataObject</b> in response.
+This function is typically called when implementing method <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getuiobjectof">IShellFolder::GetUIObjectOf</a>. When an interface pointer of interface ID  IID_IDataObject is requested (using parameter <i>riid</i>), the implementer can return the interface pointer on the object created with <b>SHCreateDataObject</b> in response.
 
-This function supports the <a href="https://msdn.microsoft.com/fb8ce5d3-3215-4e05-a916-4d4a803464d2">CFSTR_SHELLIDLIST</a> (also known as HIDA) clipboard format and also has generic support for arbitrary clipboard formats through <a href="https://msdn.microsoft.com/7430d12c-ab07-4a9c-a845-4743818afbc7">IDataObject::SetData</a>. For more information on clipboard formats, see Shell Clipboard Formats.
+This function supports the <a href="https://docs.microsoft.com/windows/desktop/shell/clipboard">CFSTR_SHELLIDLIST</a> (also known as HIDA) clipboard format and also has generic support for arbitrary clipboard formats through <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-setdata">IDataObject::SetData</a>. For more information on clipboard formats, see Shell Clipboard Formats.
 
 The new data object is intended to be used in operations such as drag-and-drop, in which the data is stored in the clipboard with a given format.
 
-We recommend that you use the <a href="https://msdn.microsoft.com/268B59FA-44EB-4777-8162-C50981CBDD09">IID_PPV_ARGS</a> macro, defined in Objbase.h, to package the <i>riid</i> and <i>ppv</i> parameters. This macro provides the correct IID based on the interface pointed to by the value in <i>ppv</i>, which eliminates the possibility of a coding error in <i>riid</i> that could lead to unexpected results.
+We recommend that you use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-iid_ppv_args">IID_PPV_ARGS</a> macro, defined in Objbase.h, to package the <i>riid</i> and <i>ppv</i> parameters. This macro provides the correct IID based on the interface pointed to by the value in <i>ppv</i>, which eliminates the possibility of a coding error in <i>riid</i> that could lead to unexpected results.
 
 
 
@@ -132,7 +132,7 @@ We recommend that you use the <a href="https://msdn.microsoft.com/268B59FA-44EB-
 
 
 
-<a href="https://msdn.microsoft.com/4949c701-a375-450a-89a3-3fd146557d11">CIDLData_CreateFromIDArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-cidldata_createfromidarray">CIDLData_CreateFromIDArray</a>
  
 
  

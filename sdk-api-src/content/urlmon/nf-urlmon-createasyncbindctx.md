@@ -64,17 +64,17 @@ This parameter is reserved and must be 0.
 
 ### -param pBSCb [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/ms775060(v=VS.85).aspx">IBindStatusCallback</a> interface used for receiving data availability and progress notification.
+A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775060(v=vs.85)">IBindStatusCallback</a> interface used for receiving data availability and progress notification.
 
 
 ### -param pEFetc [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/4d180fdd-2d58-4d26-9242-6552dda0d3e6">IEnumFORMATETC</a> interface that can be used to enumerate formats for format negotiation during binding. This parameter can be <b>NULL</b>, in which case the caller is not interested in format negotiation during binding, and the default format of the object will be bound to.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumformatetc">IEnumFORMATETC</a> interface that can be used to enumerate formats for format negotiation during binding. This parameter can be <b>NULL</b>, in which case the caller is not interested in format negotiation during binding, and the default format of the object will be bound to.
 
 
 ### -param ppBC [out]
 
-Address of an <a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a>* pointer variable that receives the interface pointer to the new bind context.
+Address of an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>* pointer variable that receives the interface pointer to the new bind context.
 
 
 ## -returns
@@ -131,9 +131,9 @@ One or more parameters are invalid.
 
 
 
-This function automatically registers the <a href="https://msdn.microsoft.com/library/ms775060(v=VS.85).aspx">IBindStatusCallback</a> and <a href="https://msdn.microsoft.com/4d180fdd-2d58-4d26-9242-6552dda0d3e6">IEnumFORMATETC</a> interfaces with the bind context. The client can specify flags from <a href="https://msdn.microsoft.com/82ca0285-5a03-40ab-b244-72e853e2a14a">BSCO_OPTION</a> to indicate which callback notifications the client is capable of receiving. If the client does not wish to receive certain notification, it can choose to implement those callback methods as empty function stubs (returning E_NOTIMPL), and they should not be called.
+This function automatically registers the <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775060(v=vs.85)">IBindStatusCallback</a> and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumformatetc">IEnumFORMATETC</a> interfaces with the bind context. The client can specify flags from <a href="https://docs.microsoft.com/windows/desktop/com/bsco-option">BSCO_OPTION</a> to indicate which callback notifications the client is capable of receiving. If the client does not wish to receive certain notification, it can choose to implement those callback methods as empty function stubs (returning E_NOTIMPL), and they should not be called.
 
-The <a href="https://msdn.microsoft.com/library/ms775115(v=VS.85).aspx">RegisterBindStatusCallback</a> function can also be used to register callback interfaces in the bind context.
+The <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775115(v=vs.85)">RegisterBindStatusCallback</a> function can also be used to register callback interfaces in the bind context.
 
 
 
@@ -144,11 +144,11 @@ The <a href="https://msdn.microsoft.com/library/ms775115(v=VS.85).aspx">Register
 
 
 
-<a href="https://msdn.microsoft.com/library/ms775060(v=VS.85).aspx">IBindStatusCallback</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775060(v=vs.85)">IBindStatusCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms775115(v=VS.85).aspx">RegisterBindStatusCallback</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775115(v=vs.85)">RegisterBindStatusCallback</a>
  
 
  

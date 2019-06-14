@@ -91,11 +91,11 @@ The minimum large page size varies, but it is typically 2 MB or greater.
 
 
 
-<a href="https://msdn.microsoft.com/060115af-38d1-499c-b30c-47cd0cf42d20">Large Page Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/large-page-support">Large Page Support</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a2a7a62-0bda-4a0d-93d2-25b4898871fd">Memory Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
  
 
  
